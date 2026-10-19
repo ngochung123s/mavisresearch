@@ -1,0 +1,1753 @@
+{
+  "deck_id": 5804002982122,
+  "deck_name": "Nhi khoa Y6::PED-16: Nhiễm khuẩn sơ sinh sớm và muộn",
+  "card_count": 127,
+  "cards": [
+    {
+      "id": "PED16-B0-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhiễm khuẩn sơ sinh có <span style=\"color:#ffd43b\"><b>2 thái cực sai lầm</b></span> nào trong thực hành, và <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> của từng thái cực là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Overtreatment (lạm dụng kháng sinh):</b></span> kê kháng sinh phổ rộng hoặc kéo dài <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span> cho mọi trẻ có mẹ vỡ ối sớm/rỉ ối dù trẻ khỏe và xét nghiệm âm tính → loạn khuẩn ruột (Dysbiosis), <span style=\"color:#ff6b6b\"><b>tăng NEC</b></span>, tăng nhiễm nấm <span style=\"color:#74c0fc\"><b>Candida</b></span> xâm lấn, kéo dài ngày nằm viện, thúc đẩy vi khuẩn đa kháng <span style=\"color:#74c0fc\"><b>ESBL, CRE</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Undertreatment (bỏ sót, trì hoãn):</b></span> nhiễm khuẩn huyết sơ sinh <span style=\"color:#ffd43b\"><b>hầu như không sốt cao</b></span>; chỉ có bú kém nhẹ, thân nhiệt dao động hoặc <span style=\"color:#ffd43b\"><b>< 36.5 °C</b></span>, cơn ngừng thở thoáng qua, da tái nổi bông, đường huyết không ổn định. Bỏ qua hoặc chờ xét nghiệm (CRP cuống rốn vô giá trị) → can thiệp muộn khi đã <span style=\"color:#ff6b6b\"><b>sốc nhiễm trùng không hồi phục hoặc viêm màng não mủ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hệ miễn dịch sơ sinh (nhất là non tháng) non nớt nên bệnh <span style=\"color:#ff6b6b\"><b>tiến triển tối cấp</b></span>: trẻ hồng hào vài giờ sau có thể sốc, suy đa tạng. Bài học này cân bằng giữa không bỏ sót dấu hiệu tinh tế và không dùng kháng sinh thừa.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 0 Tổng quan",
+      "tags": [
+        "PED-16",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B0-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Định nghĩa 5 thuật ngữ nền tảng: <span style=\"color:#74c0fc\"><b>EOS</b></span>, <span style=\"color:#74c0fc\"><b>LOS</b></span>, <span style=\"color:#74c0fc\"><b>IAP</b></span>, <span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator</b></span>, <span style=\"color:#74c0fc\"><b>Rule-out Sepsis</b></span> và <span style=\"color:#ffd43b\"><b>mốc số</b></span> đi kèm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>EOS:</b></span> nhiễm khuẩn huyết <span style=\"color:#ffd43b\"><b>< 72 giờ</b></span> đầu đời, chủ yếu <span style=\"color:#ffd43b\"><b>lây truyền dọc</b></span> từ mẹ trước hoặc trong sinh (AAP và NICE đồng thuận mốc 72 giờ, không dùng mốc 7 ngày cũ).<br>2) <span style=\"color:#74c0fc\"><b>LOS:</b></span> nhiễm khuẩn huyết <span style=\"color:#ffd43b\"><b>≥ 72 giờ</b></span> tuổi, chủ yếu <span style=\"color:#ffd43b\"><b>lây truyền ngang</b></span> từ môi trường bệnh viện, tay nhân viên y tế, sữa nhiễm khuẩn, thủ thuật xâm lấn (catheter, ống nội khí quản).<br>3) <span style=\"color:#74c0fc\"><b>IAP:</b></span> kháng sinh dự phòng trong chuyển dạ, truyền tĩnh mạch cho sản phụ nguy cơ cao (nhiễm <span style=\"color:#74c0fc\"><b>GBS</b></span>) để ngăn lây sang thai nhi.<br>4) <span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator:</b></span> công cụ đa biến phối hợp yếu tố nguy cơ tiền sản với lâm sàng thực tế của trẻ để cá thể hóa quyết định dùng kháng sinh, <span style=\"color:#ffd43b\"><b>giảm 30–50%</b></span> kháng sinh lạm dụng.<br>5) <span style=\"color:#74c0fc\"><b>Rule-out Sepsis:</b></span> dừng kháng sinh an toàn ở <span style=\"color:#ffd43b\"><b>36–48 giờ</b></span> sau sinh khi cấy máu âm tính, chỉ số viêm bình thường và trẻ hoàn toàn khỏe. Kèm <span style=\"color:#74c0fc\"><b>I/T ≥ 0.2</b></span> là dấu chỉ điểm tủy xương giải phóng ồ ạt tế bào non.<br><br><b>💡 Giải thích của AI:</b><br>Mốc thời gian không chỉ để phân loại mà quyết định nguồn lây, vi khuẩn và kháng sinh đầu tay, nên phải thuộc trước khi học các phần sau.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 0.1",
+      "tags": [
+        "PED-16",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B0-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ff6b6b\"><b>BOX ĐỎ cấp cứu sơ sinh:</b></span> liệt kê <span style=\"color:#ffd43b\"><b>6 nhóm dấu hiệu</b></span> chỉ cần có <span style=\"color:#ffd43b\"><b>bất kỳ một</b></span> là phải dừng khám thường quy, và <span style=\"color:#51cf66\"><b>hành động</b></span> ngay là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thở rên</b></span> liên tục khi nằm yên, phập phồng cánh mũi, rút lõm lồng ngực nặng.<br>2) <span style=\"color:#ff6b6b\"><b>Cơn ngừng thở</b></span> kéo dài <span style=\"color:#ffd43b\"><b>> 15–20 giây</b></span>, hoặc bất kỳ cơn ngừng thở nào kèm tím tái hoặc nhịp tim <span style=\"color:#ffd43b\"><b>< 100 lần/phút</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Hạ thân nhiệt < 36.0 °C</b></span> không hồi phục sau ủ ấm tích cực.<br>4) <span style=\"color:#ff6b6b\"><b>Rối loạn tưới máu:</b></span> <span style=\"color:#ffd43b\"><b>CRT > 3 giây</b></span>, mạch bẹn yếu hoặc không bắt được, da tái xám nổi vân tím (mottling).<br>5) <span style=\"color:#ff6b6b\"><b>Thóp phồng căng, co giật, giảm trương lực toàn thân</b></span> (mềm oặt như búp bê vải).<br>6) <span style=\"color:#ff6b6b\"><b>Ban xuất huyết hoại tử da</b></span> hoặc chảy máu không cầm ở vị trí tiêm truyền (cảnh báo <span style=\"color:#74c0fc\"><b>DIC</b></span>).<br>7) <span style=\"color:#51cf66\"><b>Hành động:</b></span> kích hoạt hồi sức sơ sinh, hỗ trợ hô hấp, ủ ấm, <span style=\"color:#51cf66\"><b>cấy máu và tiêm kháng sinh tĩnh mạch trong Giờ vàng đầu tiên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm khuẩn sơ sinh diễn tiến rất nhanh, nên chỉ một dấu hiệu nặng đã đủ ngưỡng cấp cứu; chờ thêm dấu hiệu hoặc chờ xét nghiệm là sai lầm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 0.1 (Box đỏ)",
+      "tags": [
+        "PED-16",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ranh giới <span style=\"color:#ffd43b\"><b>72 giờ</b></span> giữa <span style=\"color:#74c0fc\"><b>EOS</b></span> và <span style=\"color:#74c0fc\"><b>LOS</b></span> phản ánh khác biệt căn bản ở <span style=\"color:#ffd43b\"><b>3 điểm</b></span> nào, và <span style=\"color:#ffd43b\"><b>mốc, đường lây, nguồn vi khuẩn</b></span> của mỗi loại ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mốc 72 giờ phản ánh khác biệt về <span style=\"color:#74c0fc\"><b>nguồn lây truyền</b></span>, <span style=\"color:#74c0fc\"><b>phổ vi khuẩn gây bệnh</b></span> và <span style=\"color:#51cf66\"><b>chiến lược điều trị</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>EOS:</b></span> <span style=\"color:#ffd43b\"><b>< 72 giờ</b></span> tuổi (đỉnh <span style=\"color:#ffd43b\"><b>< 24h</b></span>); <span style=\"color:#ffd43b\"><b>truyền dọc</b></span> từ mẹ; vi khuẩn từ đường sinh dục mẹ, nước ối.<br>3) <span style=\"color:#74c0fc\"><b>LOS:</b></span> <span style=\"color:#ffd43b\"><b>≥ 72 giờ</b></span> tuổi; <span style=\"color:#ffd43b\"><b>truyền ngang</b></span> (bệnh viện); vi khuẩn từ môi trường NICU, da, tay nhân viên.<br><br><b>💡 Giải thích của AI:</b><br>EOS là bệnh lây từ mẹ nên vi khuẩn là hệ sinh dục mẹ; LOS là nhiễm khuẩn bệnh viện nên vi khuẩn là hệ vi sinh NICU và da.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.1 (bảng so sánh)",
+      "tags": [
+        "PED-16",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "So sánh <span style=\"color:#74c0fc\"><b>EOS và LOS</b></span> về <span style=\"color:#ffd43b\"><b>vi sinh hàng đầu</b></span>, <span style=\"color:#ff6b6b\"><b>bệnh cảnh lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>kháng sinh đầu tay</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>EOS:</b></span> vi sinh <span style=\"color:#74c0fc\"><b>GBS (~40%)</b></span>, <span style=\"color:#74c0fc\"><b>E. coli (~30%)</b></span>, <span style=\"color:#74c0fc\"><b>Listeria monocytogenes</b></span>; bệnh cảnh <span style=\"color:#ff6b6b\"><b>suy hô hấp tối cấp, PPHN, sốc tim-phổi, nhiễm khuẩn huyết bùng phát tức thì</b></span>; kháng sinh <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>LOS:</b></span> vi sinh <span style=\"color:#74c0fc\"><b>CoNS (~50%)</b></span>, <span style=\"color:#74c0fc\"><b>S. aureus</b></span>, <span style=\"color:#74c0fc\"><b>Klebsiella</b></span>, <span style=\"color:#74c0fc\"><b>Pseudomonas</b></span>; bệnh cảnh <span style=\"color:#ff6b6b\"><b>âm ỉ: ngừng thở, chướng bụng, vàng da, tụt tiểu cầu, sốc muộn</b></span>; kháng sinh <span style=\"color:#51cf66\"><b>Oxacillin/Vancomycin + Aminoglycoside/Carbapenem</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ampicillin vô hiệu với CoNS nên không được dùng phác đồ EOS cho trẻ LOS; chọn đúng nhóm theo tuổi giờ trước khi chọn kháng sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.1 và Checkpoint 1",
+      "tags": [
+        "PED-16",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>EOS</b></span>: tỷ lệ có triệu chứng trong <span style=\"color:#ffd43b\"><b>24 giờ đầu</b></span>, <span style=\"color:#ffd43b\"><b>2 đường xâm nhập</b></span> của vi khuẩn và biểu hiện <span style=\"color:#ff6b6b\"><b>nổi trội</b></span> dễ nhầm với bệnh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hơn <span style=\"color:#ffd43b\"><b>85%</b></span> ca EOS có triệu chứng ngay trong <span style=\"color:#ffd43b\"><b>24 giờ đầu</b></span> sau sinh.<br>2) Đường xâm nhập: (1) lan ngược dòng từ âm đạo, cổ tử cung qua màng ối đã vỡ hoặc còn nguyên (viêm màng ối); (2) qua đường máu từ mẹ qua bánh nhau (kinh điển <span style=\"color:#74c0fc\"><b>Listeria monocytogenes</b></span>).<br>3) Thai nhi hít và nuốt nước ối nhiễm khuẩn → biểu hiện nổi trội là <span style=\"color:#ff6b6b\"><b>hội chứng suy hô hấp cấp (thở rên, thở nhanh, tím tái)</b></span>, dễ nhầm với <span style=\"color:#74c0fc\"><b>Bệnh màng trong (RDS)</b></span> hoặc <span style=\"color:#74c0fc\"><b>Thở nhanh thoáng qua (TTN)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì phổi là nơi đầu tiên tiếp xúc nước ối nhiễm khuẩn nên EOS thường mở màn bằng suy hô hấp; nhầm với TTN có thể rất nguy hiểm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.1 mục EOS",
+      "tags": [
+        "PED-16",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>LOS</b></span>: <span style=\"color:#ffd43b\"><b>đối tượng thường gặp</b></span>, <span style=\"color:#ffd43b\"><b>cổng vào</b></span> của vi khuẩn và <span style=\"color:#ff6b6b\"><b>bệnh cảnh khởi đầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường ở trẻ <span style=\"color:#ffd43b\"><b>đẻ non, nhẹ cân</b></span> nằm điều trị kéo dài tại NICU.<br>2) Vi khuẩn xâm nhập qua hàng rào bị phá vỡ: <span style=\"color:#74c0fc\"><b>UVC</b></span> (catheter tĩnh mạch rốn), <span style=\"color:#74c0fc\"><b>PICC</b></span>, ống nội khí quản, sonde dạ dày hoặc niêm mạc ruột tổn thương.<br>3) Khởi đầu âm ỉ, không đặc hiệu: trẻ bỗng <span style=\"color:#ff6b6b\"><b>'trông không được khỏe'</b></span>, <span style=\"color:#ff6b6b\"><b>tăng số cơn ngừng thở</b></span> trên monitor, <span style=\"color:#ff6b6b\"><b>kém dung nạp sữa</b></span> (dịch dạ dày ứ đọng), <span style=\"color:#ff6b6b\"><b>chướng bụng</b></span> hoặc <span style=\"color:#ff6b6b\"><b>tiểu cầu giảm nhanh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Catheter và thủ thuật xâm lấn mở đường cho vi khuẩn da và môi trường; vì vậy tăng cơn ngừng thở ở trẻ non đang ổn định phải nghĩ tới nhiễm khuẩn.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.1 mục LOS",
+      "tags": [
+        "PED-16",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "So sánh <span style=\"color:#ffd43b\"><b>3 trường phái</b></span> tiếp cận nhiễm khuẩn sơ sinh: <span style=\"color:#74c0fc\"><b>AAP</b></span>, <span style=\"color:#74c0fc\"><b>NICE NG195</b></span> và <span style=\"color:#74c0fc\"><b>WHO</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>AAP (Mỹ):</b></span> cá thể hóa định lượng bằng <span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>≥ 34 tuần</b></span>, tính xác suất nguy cơ trên 1000 trẻ sống từ biến số tiền sản và lâm sàng; tránh xét nghiệm đại trà cho trẻ không triệu chứng.<br>2) <span style=\"color:#74c0fc\"><b>NICE NG195 (Anh):</b></span> chia <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span> (cấy máu + kháng sinh TM ngay trong <span style=\"color:#ffd43b\"><b>60 phút</b></span>; gồm nghi nhiễm khuẩn ối mẹ, vỡ ối <span style=\"color:#ffd43b\"><b>> 18h</b></span> ở thai <span style=\"color:#ffd43b\"><b>< 37 tuần</b></span>, co giật, suy hô hấp nặng, sốc) và <span style=\"color:#ffd43b\"><b>yếu tố nguy cơ</b></span> (cần <span style=\"color:#ffd43b\"><b>≥ 2 yếu tố</b></span> hoặc <span style=\"color:#ffd43b\"><b>1 yếu tố kèm triệu chứng</b></span> mới cấy máu và dùng kháng sinh).<br>3) <span style=\"color:#74c0fc\"><b>WHO (tuyến cơ sở, thiếu nguồn lực):</b></span> dựa <span style=\"color:#ff6b6b\"><b>dấu hiệu nguy hiểm toàn thân</b></span> để quyết định chuyển viện hoặc tiêm kháng sinh bắp đầu tay.<br><br><b>💡 Giải thích của AI:</b><br>Ba trường phái khác nhau về công cụ nhưng cùng mục tiêu: điều trị sớm trẻ thực sự nguy cơ, không điều trị oan trẻ khỏe.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.2",
+      "tags": [
+        "PED-16",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa & phân loại",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "Bộ giải mã nhanh <span style=\"color:#74c0fc\"><b>EOS vs LOS</b></span>: từ <span style=\"color:#ffd43b\"><b>tuổi giờ</b></span> suy ra <span style=\"color:#74c0fc\"><b>nguồn lây</b></span>, <span style=\"color:#74c0fc\"><b>vi khuẩn</b></span> và <span style=\"color:#51cf66\"><b>kháng sinh đầu tay</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>< 72 giờ</b></span> → <span style=\"color:#74c0fc\"><b>EOS</b></span> → truyền dọc từ mẹ → <span style=\"color:#74c0fc\"><b>GBS, E. coli, Listeria</b></span> → <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>≥ 72 giờ</b></span> → <span style=\"color:#74c0fc\"><b>LOS</b></span> → truyền ngang NICU/catheter → <span style=\"color:#74c0fc\"><b>CoNS, S. aureus, Gram âm bệnh viện</b></span> → <span style=\"color:#51cf66\"><b>Vancomycin (hoặc Oxacillin) + Aminoglycoside/Carbapenem</b></span>.<br>3) Ví dụ: trẻ <span style=\"color:#ffd43b\"><b>5 ngày</b></span> tuổi, sinh non, lưu catheter, chướng bụng, tăng ngừng thở, tiểu cầu giảm → là <span style=\"color:#74c0fc\"><b>LOS</b></span>, <span style=\"color:#ff6b6b\"><b>không dùng phác đồ EOS</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần nhìn tuổi giờ là chọn đúng nhóm vi khuẩn; Ampicillin không diệt được CoNS.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 1.1 và Checkpoint 1",
+      "tags": [
+        "PED-16",
+        "B1",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED16-B2-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>4 tầng phòng thủ miễn dịch</b></span> non nớt của trẻ sơ sinh là gì và khiếm khuyết <span style=\"color:#ffd43b\"><b>số liệu</b></span> của từng tầng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Hàng rào da niêm mạc:</b></span> lớp sừng mỏng, biểu bì dễ bong, pH da kiềm, tính thấm niêm mạc ruột cao, thiếu dịch nhầy sIgA.<br>2) <span style=\"color:#74c0fc\"><b>Miễn dịch bẩm sinh:</b></span> bổ thể (C3, C4, C5b-9) chỉ bằng <span style=\"color:#ffd43b\"><b>50%</b></span> người lớn; giảm opsonin hóa vi khuẩn có vỏ bọc.<br>3) <span style=\"color:#74c0fc\"><b>Bạch cầu đa nhân:</b></span> kho dự trữ tủy chỉ bằng <span style=\"color:#ffd43b\"><b>20–30%</b></span> người lớn; hóa ứng động kém, cạn nhanh → <span style=\"color:#ff6b6b\"><b>giảm bạch cầu hạt</b></span> khi nhiễm trùng.<br>4) <span style=\"color:#74c0fc\"><b>Miễn dịch thể dịch:</b></span> không tự sản xuất IgG, phụ thuộc IgG mẹ qua nhau thai trong <span style=\"color:#ffd43b\"><b>3 tháng cuối</b></span>; trẻ <span style=\"color:#ffd43b\"><b>< 32 tuần</b></span> hầu như không có kháng thể mẹ.<br><br><b>💡 Giải thích của AI:</b><br>Mọi tầng đều khiếm khuyết nên vi khuẩn dễ xâm lấn và lan nhanh, đặc biệt ở trẻ đẻ non.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 (sơ đồ phòng thủ)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 1 (GBS):</b></span> mô tả <span style=\"color:#ffd43b\"><b>3 tầng cơ chế</b></span> từ hít nước ối nhiễm khuẩn đến <span style=\"color:#ff6b6b\"><b>PPHN</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sản phụ mang <span style=\"color:#74c0fc\"><b>GBS (Streptococcus agalactiae)</b></span> ở âm đạo không được IAP → xâm nhập ngược dòng gây viêm màng ối, thai hít nước ối chứa vi khuẩn vào phế nang.<br>2) Độc tố <span style=\"color:#74c0fc\"><b>Hemolysin/Cytolysin</b></span> gắn tế bào biểu mô phế nang typ II → ly giải và <span style=\"color:#ff6b6b\"><b>ngừng sản xuất Surfactant</b></span>; phospholipase vi khuẩn và protein huyết tương rỉ viêm <span style=\"color:#ff6b6b\"><b>bất hoạt</b></span> Surfactant còn sót.<br>3) Mất surfactant → sức căng bề mặt tăng, xẹp phế nang lan tỏa; toan hóa và thiếu oxy kích thích <span style=\"color:#74c0fc\"><b>Endothelin-1</b></span>, <span style=\"color:#74c0fc\"><b>Thromboxane A2</b></span> → co thắt tiểu động mạch phổi → <span style=\"color:#ff6b6b\"><b>PPHN</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai cơ chế cùng đánh vào phổi: xẹp phế nang (giống Bệnh màng trong) cộng co mạch phổi nên hạ oxy máu trơ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 1",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 1 (GBS → PPHN):</b></span> <span style=\"color:#ff6b6b\"><b>biểu hiện</b></span>, <span style=\"color:#51cf66\"><b>xử trí</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả nếu nhầm với TTN</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Áp lực tim phải vượt tim trái, máu đẩy ngược qua <span style=\"color:#74c0fc\"><b>PDA</b></span> và <span style=\"color:#74c0fc\"><b>PFO</b></span> tạo shunt <span style=\"color:#ff6b6b\"><b>Phải - Trái</b></span>: suy hô hấp dữ dội, thở rên, tím tái <span style=\"color:#ff6b6b\"><b>trơ với oxy thông thường</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> thông khí cơ học áp lực dương, thuốc giãn mạch phổi chọn lọc <span style=\"color:#51cf66\"><b>khí Nitric Oxide hít (iNO)</b></span>, kết hợp kháng sinh tĩnh mạch khẩn cấp.<br>3) <span style=\"color:#ff6b6b\"><b>Hậu quả nếu nhầm TTN và chỉ cho thở oxy gọng mũi:</b></span> co mạch phổi tiến triển thành suy tim phải cấp, hoại tử cơ tim thiếu máu, ngừng tuần hoàn không hồi sức được trong <span style=\"color:#ffd43b\"><b>6–12 giờ</b></span> đầu đời.<br><br><b>💡 Giải thích của AI:</b><br>Shunt phải-trái do tăng áp phổi khiến oxy đơn thuần không đủ; phải giãn mạch phổi và diệt khuẩn nguyên nhân.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 1 (tầng 4-5)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 2 (E. coli K1):</b></span> <span style=\"color:#ffd43b\"><b>3 bước</b></span> vi khuẩn lẩn tránh miễn dịch và vượt <span style=\"color:#74c0fc\"><b>hàng rào máu não</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>E. coli kháng nguyên vỏ K1</b></span> (polysialic acid) chiếm tới <span style=\"color:#ffd43b\"><b>80%</b></span> ca viêm màng não do E. coli ở sơ sinh, xâm nhập từ ruột hoặc hô hấp vào máu.<br>2) Vỏ K1 giống chuỗi acid polysialic trên phân tử kết dính thần kinh <span style=\"color:#74c0fc\"><b>NCAM</b></span> của người (ngụy trang phân tử) → không bị bổ thể opsonin hóa, không bị đại thực bào nhận diện → <span style=\"color:#ff6b6b\"><b>du khuẩn huyết nồng độ cao</b></span> (<span style=\"color:#ffd43b\"><b>> 1000 CFU/mL</b></span>) kéo dài.<br>3) <span style=\"color:#74c0fc\"><b>OmpA</b></span> và fimbriae gắn thụ thể <span style=\"color:#74c0fc\"><b>gp96</b></span> trên nội mô mao mạch não → nhập bào qua trung gian thụ thể, vượt BBB vào khoang dưới nhện.<br><br><b>💡 Giải thích của AI:</b><br>Ngụy trang như mô người giúp vi khuẩn không bị nhận diện, tồn tại dai dẳng trong máu và có đủ thời gian xuyên màng não.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 2",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 2 (E. coli K1):</b></span> <span style=\"color:#ff6b6b\"><b>biểu hiện</b></span>, <span style=\"color:#51cf66\"><b>xử trí bắt buộc</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả nếu không chọc DNT</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch não tủy không có bổ thể và bạch cầu nên vi khuẩn nhân nhanh → viêm mủ khoang dưới nhện: <span style=\"color:#ff6b6b\"><b>li bì, bỏ bú, thóp phồng, co giật</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> <span style=\"color:#51cf66\"><b>chọc dịch não tủy (LP)</b></span> (tế bào, sinh hóa, nhuộm Gram) và nâng <span style=\"color:#51cf66\"><b>Ampicillin lên liều màng não [y]200–300 mg/kg/ngày</b></span>[/] kết hợp Aminoglycoside/Cefotaxime.<br>3) <span style=\"color:#ff6b6b\"><b>Nếu chỉ dùng liều nhiễm khuẩn huyết, không LP:</b></span> kháng sinh thấm màng não không đạt ngưỡng diệt khuẩn → mủ tắc <span style=\"color:#74c0fc\"><b>cống Sylvius</b></span>, não úng thủy tắc nghẽn, nhuyễn hóa chất trắng quanh não thất, bại não vĩnh viễn.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh vào dịch não tủy bị hạn chế nên phải LP để phát hiện viêm màng não và nâng liều cho đủ nồng độ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 2 (tầng 4-5)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 3 (catheter → CoNS → Biofilm → LOS):</b></span> <span style=\"color:#ffd43b\"><b>3 tầng cơ chế</b></span> từ catheter đến <span style=\"color:#ff6b6b\"><b>viêm hệ thống mạn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ đẻ cực non có <span style=\"color:#74c0fc\"><b>UVC/PICC</b></span>; <span style=\"color:#74c0fc\"><b>CoNS (Staphylococcus epidermidis)</b></span> thường trú trên da xâm nhập qua vị trí chọc kim dọc thành ngoài hoặc trong ống thông.<br>2) Vi khuẩn bám polymer catheter, tiết chất nền ngoại bào giàu polysaccharide gọi là <span style=\"color:#74c0fc\"><b>Biofilm</b></span>: kháng sinh không khuếch tán vào được và bạch cầu trung tính không thực bào được.<br>3) Trong Biofilm vi khuẩn nhân lên, giải phóng ngắt quãng tế bào tự do (Planktonic) và độc tố <span style=\"color:#74c0fc\"><b>Peptidoglycan</b></span> → viêm hệ thống mạn với <span style=\"color:#74c0fc\"><b>IL-6</b></span>, <span style=\"color:#74c0fc\"><b>TNF-alpha</b></span> tác động vùng dưới đồi và trung tâm hô hấp.<br><br><b>💡 Giải thích của AI:</b><br>Biofilm là pháo đài che chắn vi khuẩn; cytokin tác động trung tâm hô hấp giải thích vì sao tăng cơn ngừng thở là dấu hiệu sớm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 3",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 3 (CoNS/Biofilm):</b></span> <span style=\"color:#ff6b6b\"><b>biểu hiện</b></span>, <span style=\"color:#51cf66\"><b>xử trí</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả nếu giữ catheter</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Biểu hiện kín đáo:</b></span> tăng tần số cơn ngừng thở, thân nhiệt dao động, tiêu hóa chậm, <span style=\"color:#ffd43b\"><b>tiểu cầu giảm dần dưới 100.000/mm³</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> cấy máu đồng thời qua catheter và máu ngoại vi để đo <span style=\"color:#74c0fc\"><b>DTP</b></span> (Differential Time to Positivity); kháng sinh diệt tụ cầu <span style=\"color:#51cf66\"><b>Vancomycin</b></span>; <span style=\"color:#51cf66\"><b>rút bỏ ngay catheter nhiễm khuẩn</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Hậu quả nếu giữ catheter và chỉ truyền kháng sinh:</b></span> vi khuẩn trong Biofilm không bị tiệt căn, nhiễm khuẩn huyết tái phát khi dừng thuốc, suy kiệt dinh dưỡng, viêm nội tâm mạc, xơ hóa tĩnh mạch trung tâm.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh không thấm Biofilm nên chỉ rút ổ nhiễm (catheter) mới tiệt căn.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 3 (tầng 4-5)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 4 (Gram âm → LPS):</b></span> cơ chế <span style=\"color:#ffd43b\"><b>3 tầng</b></span> từ <span style=\"color:#74c0fc\"><b>Endotoxin</b></span> đến <span style=\"color:#ff6b6b\"><b>sốc nhiễm trùng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gram âm (<span style=\"color:#74c0fc\"><b>Klebsiella pneumoniae, Pseudomonas aeruginosa, E. coli</b></span>) giải phóng <span style=\"color:#74c0fc\"><b>LPS (Endotoxin)</b></span> vào huyết tương.<br>2) <span style=\"color:#74c0fc\"><b>Lipid A</b></span> gắn <span style=\"color:#74c0fc\"><b>LBP</b></span> → phức hợp <span style=\"color:#74c0fc\"><b>TLR4/MD-2/CD14</b></span> → hoạt hóa <span style=\"color:#74c0fc\"><b>NF-kappa B</b></span> → bão cytokin: <span style=\"color:#74c0fc\"><b>TNF-alpha, IL-1beta, IL-6, PAF</b></span>.<br>3) Cytokin kích hoạt <span style=\"color:#74c0fc\"><b>iNOS</b></span> → quá nhiều <span style=\"color:#74c0fc\"><b>NO</b></span> → giãn tiểu động mạch, sụp đổ <span style=\"color:#74c0fc\"><b>SVR</b></span>; nội mô co rút tăng tính thấm → thoát huyết tương; cơ tim sơ sinh dự trữ co bóp hạn chế bị <span style=\"color:#74c0fc\"><b>TNF-alpha</b></span> ức chế → cung lượng tim giảm.<br><br><b>💡 Giải thích của AI:</b><br>Tụt sức cản mạch, mất thể tích hiệu dụng và giảm co bóp cùng xảy ra nên sốc sơ sinh phức tạp hơn một cơ chế đơn lẻ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 4",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 4 (sốc Gram âm):</b></span> <span style=\"color:#ff6b6b\"><b>biểu hiện</b></span>, <span style=\"color:#51cf66\"><b>Gói hồi sức giờ đầu</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả nếu truyền dịch quá mức</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Biểu hiện:</b></span> da tái xám nổi vân tím, mạch bẹn yếu, <span style=\"color:#ffd43b\"><b>CRT > 3 giây</b></span>, huyết áp tụt, vô niệu (<span style=\"color:#ffd43b\"><b>< 1 mL/kg/h</b></span>), toan chuyển hóa tăng lactic.<br>2) <span style=\"color:#51cf66\"><b>Sepsis Bundle 1h:</b></span> thông khí hỗ trợ, bolus dịch tinh thể đẳng trương <span style=\"color:#ffd43b\"><b>10–20 mL/kg</b></span>, vận mạch sớm (<span style=\"color:#51cf66\"><b>Adrenaline/Dopamine</b></span>), kháng sinh diệt khuẩn phổ rộng.<br>3) <span style=\"color:#ff6b6b\"><b>Nếu trì hoãn vận mạch và truyền dịch quá mức</b></span> (<span style=\"color:#ffd43b\"><b>> 40–60 mL/kg</b></span>): cơ tim non nớt quá tải thể tích → phù phổi cấp, suy thận hoại tử ống thận cấp, tử vong do sốc kháng trị.<br><br><b>💡 Giải thích của AI:</b><br>Cơ tim sơ sinh chịu được ít dịch nên bolus chỉ 10–20 mL/kg rồi đánh giá lại và dùng vận mạch sớm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 Chuỗi 4 (tầng 4-5)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B2-10",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ghép <span style=\"color:#ffd43b\"><b>4 chuỗi bệnh sinh</b></span> với <span style=\"color:#51cf66\"><b>hành động then chốt</b></span> tương ứng: GBS, E. coli K1, CoNS Biofilm, Gram âm LPS?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>GBS → PPHN:</b></span> <span style=\"color:#51cf66\"><b>thở máy áp lực dương + iNO + kháng sinh TM khẩn</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>E. coli K1 → viêm màng não:</b></span> <span style=\"color:#51cf66\"><b>LP + Ampicillin 200–300 mg/kg/ngày</b></span> phối hợp Aminoglycoside/Cefotaxime.<br>3) <span style=\"color:#74c0fc\"><b>CoNS Biofilm:</b></span> <span style=\"color:#51cf66\"><b>Vancomycin + rút catheter</b></span>, cấy máu catheter và ngoại vi (DTP).<br>4) <span style=\"color:#74c0fc\"><b>Gram âm LPS → sốc:</b></span> <span style=\"color:#51cf66\"><b>Sepsis Bundle 1h: bolus 10–20 mL/kg, vận mạch sớm, kháng sinh phổ rộng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chuỗi có một mắt xích mấu chốt: surfactant/PPHN, hàng rào máu não, Biofilm, bão cytokin; xử trí nhắm vào mắt xích đó.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 2 (4 chuỗi)",
+      "tags": [
+        "PED-16",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>3 công cụ chẩn đoán và phân tầng nguy cơ</b></span> chính trong bài là gì và dùng để làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bảng 6 nhóm triệu chứng tinh tế</b></span> (thân nhiệt, thần kinh, hô hấp, tuần hoàn-da, tiêu hóa, huyết học-chuyển hóa): phát hiện sớm khi trẻ không nói được.<br>2) <span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator:</b></span> phân tầng nguy cơ EOS cho trẻ <span style=\"color:#ffd43b\"><b>≥ 34 tuần</b></span> bằng 5 thông số tiền sản + lâm sàng.<br>3) <span style=\"color:#74c0fc\"><b>NICE NG195:</b></span> nhị phân <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span> / yếu tố nguy cơ để quyết định ngay tại giường.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ sơ sinh không có triệu chứng khu trú điển hình, nên cần quan sát toàn diện 6 hệ cơ quan và công cụ định lượng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Triệu chứng <span style=\"color:#ffd43b\"><b>sớm/tinh tế</b></span> và <span style=\"color:#ff6b6b\"><b>muộn/nguy kịch</b></span> của <span style=\"color:#74c0fc\"><b>thân nhiệt</b></span>, <span style=\"color:#74c0fc\"><b>thần kinh - hành vi</b></span> và <span style=\"color:#74c0fc\"><b>hô hấp</b></span> ở sơ sinh nhiễm khuẩn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thân nhiệt:</b></span> sớm dao động, <span style=\"color:#ffd43b\"><b>hạ thân nhiệt < 36.5 °C</b></span> phải tăng nhiệt lồng ấp; muộn <span style=\"color:#ff6b6b\"><b>sốt > 38.5 °C</b></span> hoặc <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt nặng < 35.5 °C</b></span> trơ với ủ ấm.<br>2) <span style=\"color:#74c0fc\"><b>Thần kinh - hành vi:</b></span> sớm giảm vận động, quấy khóc rên rỉ yếu, trương lực hơi nhão, ngủ nhiều; muộn <span style=\"color:#ff6b6b\"><b>li bì, hôn mê khó đánh thức, co giật, thóp phồng căng, người mềm nhão</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Hô hấp:</b></span> sớm thở nhanh nhẹ, thở không đều, cánh mũi phập phồng thoáng qua; muộn <span style=\"color:#ff6b6b\"><b>thở rên liên tục, rút lõm ngực sâu, ngừng thở > 15–20 giây kèm nhịp tim chậm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu tinh tế xuất hiện trước và là cơ hội can thiệp sớm; dấu hiệu muộn tương đương Cờ đỏ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.1 (hàng 1-3)",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Triệu chứng <span style=\"color:#ffd43b\"><b>sớm</b></span> và <span style=\"color:#ff6b6b\"><b>muộn</b></span> của <span style=\"color:#74c0fc\"><b>tuần hoàn - da</b></span>, <span style=\"color:#74c0fc\"><b>tiêu hóa</b></span> và <span style=\"color:#74c0fc\"><b>huyết học - chuyển hóa</b></span> ở sơ sinh nhiễm khuẩn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tuần hoàn - da:</b></span> sớm da xanh tái, tái nổi vân tím khi lạnh, <span style=\"color:#ffd43b\"><b>CRT 2.5–3 giây</b></span>, nhịp tim nhanh <span style=\"color:#ffd43b\"><b>> 160 l/p</b></span>; muộn <span style=\"color:#ff6b6b\"><b>CRT > 3–4 giây, đầu chi lạnh ngắt, mạch bẹn mất, tụt huyết áp, nhịp tim chậm < 100 l/p</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Tiêu hóa:</b></span> sớm bú kém (bú kéo dài gấp đôi), ứ đọng dịch dạ dày sau cữ bú <span style=\"color:#ffd43b\"><b>> 30%</b></span>; muộn <span style=\"color:#ff6b6b\"><b>bỏ bú hoàn toàn, nôn dịch xanh/mật, chướng bụng căng bóng, quai ruột nổi</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Huyết học - chuyển hóa:</b></span> sớm vàng da trong <span style=\"color:#ffd43b\"><b>24h đầu</b></span>, dao động đường huyết (hạ hoặc tăng); muộn <span style=\"color:#ff6b6b\"><b>ban xuất huyết hoại tử da, chảy máu rỉ rả chân kim tiêm (DIC), toan lactic</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Những dấu hiệu như vàng da sớm hoặc đường huyết dao động tưởng vô hại nhưng có thể là biểu hiện đầu tiên của nhiễm khuẩn huyết.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.1 (hàng 4-6)",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao trẻ sơ sinh nhiễm khuẩn huyết thường <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt</b></span> thay vì sốt? Nêu <span style=\"color:#ffd43b\"><b>3 lý do</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tỷ lệ diện tích da/trọng lượng cao gấp gần <span style=\"color:#ffd43b\"><b>3 lần</b></span> người lớn, lớp mỡ cách nhiệt mỏng → mất nhiệt bức xạ và thoát hơi nước nhanh.<br>2) Trung tâm điều nhiệt vùng dưới đồi chưa hoàn thiện đường dẫn truyền thần kinh giao cảm.<br>3) Nguồn sinh nhiệt chính là <span style=\"color:#74c0fc\"><b>mô mỡ nâu</b></span> qua <span style=\"color:#74c0fc\"><b>UCP-1</b></span>; độc tố vi khuẩn và cytokin ức chế chuyển hóa mỡ nâu, cộng cạn glycogen → mất khả năng tạo cơn sốt.<br><br><b>💡 Giải thích của AI:</b><br>Vì vậy hạ thân nhiệt ở sơ sinh là dấu hiệu cảnh báo nhiễm khuẩn huyết tối nguy hiểm, không được chờ sốt.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.1 (hộp Vì sao)",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator:</b></span> áp dụng cho <span style=\"color:#ffd43b\"><b>tuổi thai nào</b></span>, cần nhập <span style=\"color:#ffd43b\"><b>5 thông số tiền sản</b></span> nào, và <span style=\"color:#51cf66\"><b>xử trí</b></span> theo <span style=\"color:#ffd43b\"><b>3 nhóm lâm sàng</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Áp dụng cho trẻ <span style=\"color:#ffd43b\"><b>≥ 34 tuần</b></span> tuổi thai.<br>2) <span style=\"color:#ffd43b\"><b>5 thông số:</b></span> (1) tỷ lệ hiện mắc nền (thường chọn <span style=\"color:#ffd43b\"><b>0.5/1000</b></span> trẻ sống); (2) tuổi thai (tuần và ngày); (3) thân nhiệt cao nhất của mẹ trong chuyển dạ; (4) thời gian vỡ ối (giờ); (5) tình trạng GBS của mẹ và loại kháng sinh IAP.<br>3) Máy tính nguy cơ nền trước sinh, rồi kết hợp lâm sàng: <span style=\"color:#51cf66\"><b>Khỏe mạnh</b></span> (hồng hào, thở êm, bú tốt, trương lực tốt) → theo dõi lâm sàng, không dùng thuốc; <span style=\"color:#ffd43b\"><b>Nghi ngờ/lưỡng lự (Equivocal)</b></span> (1 dấu hiệu bất thường nhẹ kéo dài hoặc thoáng qua) → cấy máu + theo dõi, chưa dùng kháng sinh vội; <span style=\"color:#ff6b6b\"><b>Bệnh lý (Clinically Ill)</b></span> (suy hô hấp rõ, thở rên, hạ thân nhiệt, sốc, li bì, co giật) → cấy máu + kháng sinh TM ngay.<br><br><b>💡 Giải thích của AI:</b><br>Nguy cơ nền trước sinh chỉ là nửa đầu; chính lâm sàng sau sinh quyết định có dùng kháng sinh hay không.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.2",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Kaiser Calculator</b></span> có <span style=\"color:#51cf66\"><b>lợi ích</b></span> gì so với phương pháp truyền thống <span style=\"color:#74c0fc\"><b>CDC 2010</b></span>? Nêu <span style=\"color:#ffd43b\"><b>các con số</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CDC 2010 dựa vào yếu tố nguy cơ đơn lẻ (cứ vỡ ối <span style=\"color:#ffd43b\"><b>> 18h</b></span> là làm xét nghiệm và dùng kháng sinh) khiến <span style=\"color:#ffd43b\"><b>10–15%</b></span> trẻ sơ sinh khỏe bị chọc máu và tiêm kháng sinh oan.<br>2) Calculator <span style=\"color:#51cf66\"><b>giảm 40–50% tỷ lệ dùng kháng sinh không cần thiết</b></span> và <span style=\"color:#51cf66\"><b>giảm 70–80% số lần lấy máu xét nghiệm</b></span>, không làm tăng ca nhiễm khuẩn huyết bị bỏ sót.<br><br><b>💡 Giải thích của AI:</b><br>Phối hợp nhiều biến số cho nguy cơ cá thể chính xác hơn một yếu tố đơn lẻ, tránh điều trị oan.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.2",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>NICE NG195 nhóm Cờ đỏ:</b></span> liệt kê <span style=\"color:#ffd43b\"><b>6 tiêu chí</b></span> và <span style=\"color:#51cf66\"><b>hành động</b></span> trong bao lâu khi chỉ cần có 1 dấu hiệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ cần <span style=\"color:#ffd43b\"><b>1 dấu hiệu</b></span> → <span style=\"color:#51cf66\"><b>cấy máu + kháng sinh TM trong vòng 60 phút</b></span>.<br>2) Sốc hoặc suy hô hấp cần hỗ trợ thở máy.<br>3) <span style=\"color:#ff6b6b\"><b>Thở rên</b></span>, rút lõm ngực nặng, <span style=\"color:#ffd43b\"><b>SpO2 < 90%</b></span> khi thở khí phòng.<br>4) <span style=\"color:#ff6b6b\"><b>Co giật</b></span> hoặc li bì hôn mê.<br>5) Nghi mẹ viêm màng ối: sốt chuyển dạ <span style=\"color:#ffd43b\"><b>≥ 38.0 °C</b></span> kèm nước ối hôi hoặc tim thai nhanh <span style=\"color:#ffd43b\"><b>> 160 l/p</b></span>.<br>6) Vỡ ối kéo dài <span style=\"color:#ffd43b\"><b>> 18 giờ</b></span> ở trẻ sinh non <span style=\"color:#ffd43b\"><b>< 37 tuần</b></span>.<br>7) Tiền sử sinh con lần trước bị nhiễm GBS xâm lấn.<br><br><b>💡 Giải thích của AI:</b><br>Đây là hệ nhị phân đơn giản: có Cờ đỏ thì không cân nhắc thêm mà điều trị ngay.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.3; NICE NG195",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>NICE NG195 nhóm yếu tố nguy cơ (Non-Red Flags):</b></span> liệt kê <span style=\"color:#ffd43b\"><b>5 yếu tố</b></span> và <span style=\"color:#ffd43b\"><b>ngưỡng</b></span> để can thiệp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngưỡng: <span style=\"color:#ffd43b\"><b>≥ 2 yếu tố</b></span>, hoặc <span style=\"color:#ffd43b\"><b>1 yếu tố kèm triệu chứng lâm sàng nhẹ</b></span> mới can thiệp (cấy máu, kháng sinh).<br>2) Vỡ ối <span style=\"color:#ffd43b\"><b>> 18 giờ</b></span> ở trẻ đủ tháng.<br>3) Mẹ nhiễm <span style=\"color:#74c0fc\"><b>GBS</b></span> không được IAP đầy đủ.<br>4) Sinh non tự nhiên <span style=\"color:#ffd43b\"><b>< 37 tuần</b></span>.<br>5) Nhịp thở nhanh nhẹ <span style=\"color:#ffd43b\"><b>> 60 lần/phút</b></span> sau 2 giờ đầu đời.<br>6) Bú kém hoặc thân nhiệt dao động nhẹ.<br><br><b>💡 Giải thích của AI:</b><br>Một yếu tố đơn độc ở trẻ khỏe chưa đủ chỉ định kháng sinh; cộng dồn mới nâng nguy cơ, nhờ đó tránh lạm dụng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.3; NICE NG195",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Quyết định nhị phân <span style=\"color:#74c0fc\"><b>NICE</b></span>: trẻ có <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span> hay chỉ có <span style=\"color:#ffd43b\"><b>yếu tố nguy cơ</b></span> thì <span style=\"color:#51cf66\"><b>làm gì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có <span style=\"color:#ff6b6b\"><b>≥ 1 Cờ đỏ</b></span> → <span style=\"color:#51cf66\"><b>cấy máu + kháng sinh TM trong 60 phút</b></span>, không chờ thêm.<br>2) Chỉ có yếu tố nguy cơ, đủ <span style=\"color:#ffd43b\"><b>≥ 2</b></span> hoặc <span style=\"color:#ffd43b\"><b>1 kèm triệu chứng</b></span> → <span style=\"color:#51cf66\"><b>cấy máu và kháng sinh</b></span>.<br>3) Chỉ 1 yếu tố nguy cơ đơn độc, trẻ khỏe → <span style=\"color:#74c0fc\"><b>không</b></span> đủ ngưỡng can thiệp theo nhóm này.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc dễ nhớ: Cờ đỏ đi một mình cũng đủ; yếu tố nguy cơ cần đi đôi hoặc đi kèm triệu chứng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 3.3",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B3-10",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán & phân tầng nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ở ca sản phụ <span style=\"color:#ffd43b\"><b>sốt chuyển dạ 38.6 °C, ối vỡ 22 giờ có mùi hôi</b></span>, trẻ <span style=\"color:#ffd43b\"><b>38 tuần</b></span> lúc 1 giờ tuổi hồng hào: tiêu chí nào làm đây là <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mẹ sốt cao, ối vỡ kéo dài, ối hôi là <span style=\"color:#74c0fc\"><b>viêm màng ối lâm sàng (Clinical Chorioamnionitis)</b></span> → <span style=\"color:#ff6b6b\"><b>Cờ đỏ tuyệt đối theo NICE</b></span> và nguy cơ rất cao theo Kaiser.<br>2) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> cấy máu <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span>, chuyển đơn vị sơ sinh, tiêm <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin TM</b></span> ngay và theo dõi sát, dù trẻ đang trông khỏe.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ khỏe ở 1 giờ tuổi không loại trừ nhiễm khuẩn; nguy cơ tiền sản đã đủ để xử trí.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Checkpoint 2",
+      "tags": [
+        "PED-16",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>3 trụ cột xét nghiệm</b></span> trong nhiễm khuẩn sơ sinh và <span style=\"color:#51cf66\"><b>điểm quyết định sống còn</b></span> của từng trụ cột?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cấy máu</b></span> (tiêu chuẩn vàng): <span style=\"color:#ffd43b\"><b>thể tích tối thiểu 1.0 mL</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Chỉ số viêm</b></span> (<span style=\"color:#74c0fc\"><b>CRP, Procalcitonin, I/T, ANC</b></span>): hiểu <span style=\"color:#ffd43b\"><b>động học theo giờ</b></span> để không quyết định sai.<br>3) <span style=\"color:#74c0fc\"><b>Dịch não tủy (LP):</b></span> chỉ định và <span style=\"color:#ffd43b\"><b>giá trị bình thường riêng của sơ sinh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sai lầm kỹ thuật (thể tích máu, thời điểm CRT, ngưỡng PCT người lớn) dễ gây quyết định sai hơn là bản thân xét nghiệm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Cấy máu sơ sinh:</b></span> <span style=\"color:#ffd43b\"><b>thể tích tối thiểu</b></span>, vì sao, và <span style=\"color:#ffd43b\"><b>con số độ nhạy</b></span> theo thể tích?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Luôn lấy <span style=\"color:#51cf66\"><b>tối thiểu 1.0 mL máu toàn phần</b></span> vào một chai cấy nhi khoa; cấy máu âm tính giả ở khoa sơ sinh lên tới <span style=\"color:#ffd43b\"><b>30–50%</b></span> do sai thể tích.<br>2) Du khuẩn huyết nồng độ thấp (<span style=\"color:#ffd43b\"><b>≤ 4 CFU/mL</b></span>) chiếm <span style=\"color:#ffd43b\"><b>60%</b></span> ca nhiễm trùng thực sự.<br>3) Lấy <span style=\"color:#ffd43b\"><b>0.5 mL</b></span>: độ nhạy chỉ <span style=\"color:#ffd43b\"><b>50–60%</b></span> (bỏ sót gần một nửa); lấy đủ <span style=\"color:#ffd43b\"><b>1.0 mL</b></span>: độ nhạy <span style=\"color:#ffd43b\"><b>> 90–95%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì mật độ vi khuẩn rất thấp, máu càng ít thì càng dễ không có vi khuẩn trong mẫu.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.1; Schelonka 1996",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Kỹ thuật lấy máu cấy</b></span>: nên và không nên lấy từ đâu, sát khuẩn thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> lấy máu cấy từ đường truyền tĩnh mạch đang lưu (trừ khi nghi nhiễm trùng đường truyền <span style=\"color:#74c0fc\"><b>CLABSI</b></span>).<br>2) Sát khuẩn da <span style=\"color:#ffd43b\"><b>3 bước</b></span> bằng cồn <span style=\"color:#51cf66\"><b>Chlorhexidine 2%</b></span> (hoặc cồn povidone iodine ở trẻ non tháng), đợi khô <span style=\"color:#ffd43b\"><b>60 giây</b></span>.<br>3) Chọc kim lấy <span style=\"color:#51cf66\"><b>máu tĩnh mạch ngoại vi mới</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường truyền lưu dễ nhiễm vi khuẩn định cư nên mẫu máu không phản ánh nhiễm khuẩn huyết thật.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.1",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Động học CRP</b></span> trong nhiễm khuẩn sơ sinh: <span style=\"color:#ffd43b\"><b>khi nào tăng, khi nào đỉnh</b></span> và <span style=\"color:#ff6b6b\"><b>độ nhạy lúc 0-2 giờ tuổi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CRP do gan sản xuất dưới kích thích <span style=\"color:#74c0fc\"><b>IL-6</b></span>; gan trẻ sơ sinh cần thời gian khởi động.<br>2) Bắt đầu tăng sau <span style=\"color:#ffd43b\"><b>6–8 giờ</b></span>, đạt đỉnh sau <span style=\"color:#ffd43b\"><b>24 đến 48 giờ</b></span>.<br>3) CRP lúc sinh (máu cuống rốn) hoặc <span style=\"color:#ffd43b\"><b>0–2 giờ</b></span> tuổi có độ nhạy <span style=\"color:#ff6b6b\"><b>< 30%</b></span>: trẻ nhiễm GBS tối cấp lúc mới sinh vẫn có CRP bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Gan cần thời gian tổng hợp nên CRP sớm gần như luôn bình thường dù nhiễm trùng nặng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.2 (CRP)",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Giá trị thật sự</b></span> của CRP trong nhiễm khuẩn sơ sinh là gì, và <span style=\"color:#ffd43b\"><b>khi nào</b></span> có thể dừng kháng sinh dựa vào CRP?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giá trị nằm ở <span style=\"color:#51cf66\"><b>giá trị tiên đoán âm (NPV > 99%)</b></span> khi làm chuỗi động học.<br>2) <span style=\"color:#ffd43b\"><b>Hai lần</b></span> CRP liên tiếp cách <span style=\"color:#ffd43b\"><b>24 giờ</b></span> (ví dụ 24h và 48h tuổi) đều <span style=\"color:#ffd43b\"><b>< 10 mg/L</b></span> → khẳng định trẻ không nhiễm khuẩn huyết, an toàn dừng kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>CRP không dùng để chẩn đoán lúc đầu mà để loại trừ và quyết định dừng thuốc.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.2 (CRP)",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Procalcitonin sơ sinh:</b></span> <span style=\"color:#ffd43b\"><b>khi nào tăng và đỉnh</b></span>, <span style=\"color:#ff6b6b\"><b>bẫy sinh lý</b></span> trong 48 giờ đầu và <span style=\"color:#51cf66\"><b>nguyên tắc an toàn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) PCT do tế bào biểu mô và nhu mô tiết dưới tác động nội độc tố; tăng sau <span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>, đỉnh sau <span style=\"color:#ffd43b\"><b>12–24 giờ</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Bẫy:</b></span> trẻ khỏe có đỉnh tăng vọt sinh lý <span style=\"color:#ffd43b\"><b>2–10 ng/mL</b></span> trong <span style=\"color:#ffd43b\"><b>24–36 giờ</b></span> đầu đời, giảm về <span style=\"color:#ffd43b\"><b>< 0.5 ng/mL</b></span> sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Không áp</b></span> ngưỡng người lớn <span style=\"color:#ffd43b\"><b>0.5 ng/mL</b></span> trong 48 giờ đầu; phải đối chiếu biểu đồ bách phân vị theo giờ tuổi của <span style=\"color:#74c0fc\"><b>Chiesa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đỉnh PCT sinh lý do thích nghi sau chuyển dạ nên áp ngưỡng người lớn gây chẩn đoán nhầm và dùng thuốc thừa.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.2 (PCT); Chiesa 1998",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Tỷ lệ I/T</b></span> tính thế nào, <span style=\"color:#ffd43b\"><b>ngưỡng</b></span> nào gợi ý nhiễm trùng và <span style=\"color:#74c0fc\"><b>ANC</b></span> cảnh báo ở mức nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) I/T = bạch cầu non (đũa + tiền tủy bào + tủy bào) / tổng bạch cầu hạt trung tính (non + trưởng thành).<br>2) <span style=\"color:#ffd43b\"><b>I/T ≥ 0.20</b></span> gợi ý nhiễm trùng huyết rất cao.<br>3) <span style=\"color:#ff6b6b\"><b>ANC < 1000/mm³</b></span> (giảm bạch cầu hạt) cảnh báo nhiễm trùng huyết nặng và nguy cơ tử vong cao hơn nhiều so với tăng bạch cầu.<br><br><b>💡 Giải thích của AI:</b><br>Giảm ANC phản ánh kho dự trữ tủy cạn kiệt nên tiên lượng xấu hơn tăng bạch cầu.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.2 (I/T, ANC)",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chọc dịch não tủy (LP) sơ sinh:</b></span> <span style=\"color:#ffd43b\"><b>3 chỉ định bắt buộc</b></span> và tại sao cần LP dù cấy máu âm tính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm màng não mủ xuất hiện ở <span style=\"color:#ffd43b\"><b>10–15%</b></span> trẻ nhiễm khuẩn huyết, và <span style=\"color:#ffd43b\"><b>30%</b></span> trẻ viêm màng não mủ có cấy máu âm tính.<br>2) Chỉ định: (1) <span style=\"color:#ff6b6b\"><b>cấy máu dương tính</b></span> với vi khuẩn; (2) dấu hiệu thần kinh: <span style=\"color:#ff6b6b\"><b>co giật, thóp phồng, li bì, giảm trương lực</b></span>; (3) lâm sàng xấu nhanh hoặc <span style=\"color:#ff6b6b\"><b>không đáp ứng sau 48 giờ</b></span> kháng sinh thích hợp.<br><br><b>💡 Giải thích của AI:</b><br>Vì cấy máu có thể âm tính trong viêm màng não nên dấu hiệu thần kinh một mình đã đủ chỉ định LP.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.3",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Giá trị bình thường của dịch não tủy sơ sinh</b></span>: <span style=\"color:#ffd43b\"><b>số bạch cầu</b></span>, <span style=\"color:#ffd43b\"><b>protein</b></span> và <span style=\"color:#ffd43b\"><b>tỷ lệ glucose DNT/máu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bạch cầu DNT trẻ đủ tháng bình thường có thể <span style=\"color:#ffd43b\"><b>≤ 20–30 tế bào/mm³</b></span> (chủ yếu lympho hoặc mono); trẻ đẻ non có thể <span style=\"color:#ffd43b\"><b>30–40 tế bào/mm³</b></span>.<br>2) Protein DNT bình thường rất cao: <span style=\"color:#ffd43b\"><b>0.8 đến 1.5 g/L</b></span> do hàng rào máu não còn lỏng lẻo.<br>3) Glucose DNT / glucose máu bình thường <span style=\"color:#ffd43b\"><b>≥ 0.6</b></span> (≥ 60%); trẻ đẻ non có thể <span style=\"color:#ffd43b\"><b>≥ 0.7–0.8</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không áp giá trị trẻ lớn cho sơ sinh vì sẽ chẩn đoán nhầm viêm màng não.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.3",
+      "tags": [
+        "PED-16",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B4-10",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Xét nghiệm & theo dõi",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "Bộ giải mã <span style=\"color:#ffd43b\"><b>ngưỡng biomarker sơ sinh</b></span>: CRP, PCT, I/T, ANC, thể tích máu cấy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CRP:</b></span> lúc 0-2h độ nhạy <span style=\"color:#ff6b6b\"><b>< 30%</b></span>; đỉnh <span style=\"color:#ffd43b\"><b>24–48h</b></span>; 2 lần <span style=\"color:#ffd43b\"><b>< 10 mg/L</b></span> cách 24h → NPV <span style=\"color:#ffd43b\"><b>> 99%</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>PCT:</b></span> đỉnh sinh lý <span style=\"color:#ffd43b\"><b>2–10 ng/mL</b></span> ở 24–36h, về <span style=\"color:#ffd43b\"><b>< 0.5</b></span> sau 48–72h; không dùng ngưỡng người lớn trong 48h đầu.<br>3) <span style=\"color:#74c0fc\"><b>I/T:</b></span> <span style=\"color:#ffd43b\"><b>≥ 0.20</b></span> → nghi nhiễm trùng. <span style=\"color:#74c0fc\"><b>ANC:</b></span> <span style=\"color:#ff6b6b\"><b>< 1000/mm³</b></span> → nặng, nguy cơ tử vong.<br>4) <span style=\"color:#74c0fc\"><b>Cấy máu:</b></span> <span style=\"color:#51cf66\"><b>≥ 1.0 mL</b></span> (0.5 mL chỉ nhạy 50–60%).<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chỉ số có một thời điểm vàng và một bẫy; nhớ cặp số và thời gian để không đọc sai kết quả.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 4.1-4.2",
+      "tags": [
+        "PED-16",
+        "B4",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED16-B5-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tóm tắt <span style=\"color:#51cf66\"><b>chiến lược kháng sinh</b></span> sơ sinh: kinh nghiệm <span style=\"color:#74c0fc\"><b>EOS</b></span>, kinh nghiệm <span style=\"color:#74c0fc\"><b>LOS</b></span> và <span style=\"color:#ffd43b\"><b>khi nào dừng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>EOS (< 72 giờ):</b></span> <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span> (Gentamicin liều mở rộng khoảng cách).<br>2) <span style=\"color:#74c0fc\"><b>LOS (≥ 72 giờ):</b></span> <span style=\"color:#51cf66\"><b>Oxacillin/Nafcillin hoặc Vancomycin</b></span> + <span style=\"color:#51cf66\"><b>Amikacin/Gentamicin hoặc Meropenem</b></span>, ± kháng nấm ở trẻ cực non.<br>3) <span style=\"color:#ff6b6b\"><b>Cấm Ceftriaxone</b></span>; <span style=\"color:#ff6b6b\"><b>tránh Cefotaxime</b></span> làm đầu tay.<br>4) <span style=\"color:#ffd43b\"><b>Rule-out Sepsis 36–48 giờ</b></span>: cấy âm tính + khỏe + CRP bình thường → <span style=\"color:#51cf66\"><b>ngừng kháng sinh ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chọn phác đồ theo tuổi giờ, tránh kháng sinh gây hại, và dừng sớm khi đủ điều kiện.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span> cho EOS: <span style=\"color:#ffd43b\"><b>phổ</b></span>, <span style=\"color:#ffd43b\"><b>liều Ampicillin</b></span> thường và liều <span style=\"color:#ff6b6b\"><b>viêm màng não</b></span>, và <span style=\"color:#74c0fc\"><b>cơ chế hiệp đồng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ampicillin:</b></span> ức chế tổng hợp thành tế bào; bao phủ <span style=\"color:#74c0fc\"><b>GBS</b></span>, <span style=\"color:#74c0fc\"><b>Listeria monocytogenes</b></span>, <span style=\"color:#74c0fc\"><b>Enterococcus faecalis</b></span>; liều <span style=\"color:#ffd43b\"><b>100–150 mg/kg/ngày</b></span> chia 2 hoặc 3 lần TM chậm; viêm màng não xác định: <span style=\"color:#ffd43b\"><b>200–300 mg/kg/ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Gentamicin:</b></span> diệt khuẩn phụ thuộc nồng độ qua ức chế ribosome <span style=\"color:#ffd43b\"><b>30S</b></span>; diệt mạnh trực khuẩn Gram âm đường ruột (<span style=\"color:#74c0fc\"><b>E. coli, Klebsiella</b></span>).<br>3) <span style=\"color:#74c0fc\"><b>Hiệp đồng:</b></span> Ampicillin phá thành tế bào, mở đường cho Gentamicin thâm nhập ồ ạt vào nội bào diệt sạch vi khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Hai thuốc bổ sung phổ cho nhau: Ampicillin lo Gram dương và Listeria, Gentamicin lo Gram âm, đồng thời tăng hiệu quả diệt.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.1",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Gentamicin sơ sinh liều mở rộng khoảng cách:</b></span> <span style=\"color:#ffd43b\"><b>liều</b></span>, <span style=\"color:#ffd43b\"><b>khoảng cách theo tuổi thai</b></span>, <span style=\"color:#ffd43b\"><b>nồng độ đáy</b></span> và vì sao bỏ cách 2.5 mg/kg mỗi 12 giờ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Liều <span style=\"color:#ffd43b\"><b>4.0 đến 5.0 mg/kg</b></span> truyền TM chậm trong <span style=\"color:#ffd43b\"><b>30 phút</b></span>.<br>2) Khoảng cách: đủ tháng <span style=\"color:#ffd43b\"><b>≥ 37 tuần</b></span> → mỗi <span style=\"color:#ffd43b\"><b>24 giờ</b></span>; non <span style=\"color:#ffd43b\"><b>30–36 tuần</b></span> → mỗi <span style=\"color:#ffd43b\"><b>36 giờ</b></span>; cực non <span style=\"color:#ffd43b\"><b>< 30 tuần</b></span> → mỗi <span style=\"color:#ffd43b\"><b>48 giờ</b></span>.<br>3) Nồng độ đáy lấy ngay trước cữ thứ hai phải <span style=\"color:#ffd43b\"><b>< 1.0–2.0 µg/mL</b></span> để bảo vệ ốc tai và cầu thận.<br>4) Chia nhỏ <span style=\"color:#ffd43b\"><b>2.5 mg/kg mỗi 12 giờ</b></span> là lạc hậu và nguy hiểm vì sơ sinh có thể tích phân bố lớn (<span style=\"color:#ffd43b\"><b>0.45–0.55 L/kg</b></span>) nhưng GFR thấp, thải trừ chậm → tích lũy ở tai trong và thận.<br><br><b>💡 Giải thích của AI:</b><br>Liều đơn cao tận dụng diệt khuẩn phụ thuộc nồng độ và cho thận thời gian đào thải; trẻ càng non khoảng cách càng dài.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.1 (Gentamicin)",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI CẤM Ceftriaxone</b></span> ở trẻ sơ sinh? Nêu <span style=\"color:#ffd43b\"><b>2 cơ chế</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Vàng da nhân não (Kernicterus):</b></span> Ceftriaxone gắn mạnh <span style=\"color:#74c0fc\"><b>Albumin</b></span>, cạnh tranh và đẩy <span style=\"color:#74c0fc\"><b>Bilirubin gián tiếp</b></span> ra dạng tự do → ngấm qua hàng rào máu não, hoại tử nhân xám đáy não.<br>2) <span style=\"color:#ff6b6b\"><b>Kết tủa muối Canxi-Ceftriaxone:</b></span> tạo kết tủa với ion <span style=\"color:#74c0fc\"><b>Ca2+</b></span> trong máu → sỏi bùn mật, tắc mao mạch phổi, suy thận cấp, có thể tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai cơ chế đều chết người và khó lường nên được xếp chống chỉ định tuyệt đối; thay bằng Ampicillin + Gentamicin.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.1 và Checkpoint 3",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>tránh Cefotaxime</b></span> làm kháng sinh kinh nghiệm đầu tay, và <span style=\"color:#ffd43b\"><b>2 trường hợp</b></span> mới được dùng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghiên cứu <span style=\"color:#74c0fc\"><b>Clark RH</b></span> trên hơn <span style=\"color:#ffd43b\"><b>48.000</b></span> trẻ NICU: Ampicillin + Cefotaxime có <span style=\"color:#ff6b6b\"><b>tử vong cao gấp 1.5 lần</b></span> (<span style=\"color:#ffd43b\"><b>RR = 1.5, 95% CI 1.1–2.0</b></span>) so với Ampicillin + Gentamicin.<br>2) Làm bùng phát Gram âm tiết <span style=\"color:#74c0fc\"><b>ESBL</b></span> và tăng nguy cơ nhiễm <span style=\"color:#74c0fc\"><b>Candida</b></span> xâm lấn gấp <span style=\"color:#ffd43b\"><b>3 lần</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Chỉ dùng khi:</b></span> (1) nghi hoặc xác định <span style=\"color:#74c0fc\"><b>viêm màng não mủ do Gram âm</b></span> (Aminoglycoside thấm màng não kém); hoặc (2) <span style=\"color:#74c0fc\"><b>suy thận nặng</b></span> không dùng được Gentamicin.<br><br><b>💡 Giải thích của AI:</b><br>Cefotaxime chọn lọc vi khuẩn kháng thuốc, nên chỉ giữ cho các chỉ định đặc biệt.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.1; Clark 2006",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Kháng sinh kinh nghiệm cho LOS (≥ 72 giờ):</b></span> <span style=\"color:#ffd43b\"><b>3 nhóm thuốc</b></span> và <span style=\"color:#ffd43b\"><b>liều</b></span> từng thuốc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Gram dương:</b></span> <span style=\"color:#51cf66\"><b>Oxacillin/Nafcillin</b></span> <span style=\"color:#ffd43b\"><b>100–150 mg/kg/ngày</b></span> chia mỗi 6–8 giờ (nếu tỷ lệ MRSA thấp); hoặc <span style=\"color:#51cf66\"><b>Vancomycin</b></span> <span style=\"color:#ffd43b\"><b>10–15 mg/kg</b></span> mỗi 8–12–18 giờ, nồng độ đáy <span style=\"color:#ffd43b\"><b>10–15 µg/mL</b></span> (viêm màng não <span style=\"color:#ffd43b\"><b>15–20 µg/mL</b></span>); Vancomycin là đầu tay khi nghi CoNS hoặc MRSA ở trẻ lưu catheter trung tâm.<br>2) <span style=\"color:#74c0fc\"><b>Gram âm:</b></span> <span style=\"color:#51cf66\"><b>Amikacin</b></span> <span style=\"color:#ffd43b\"><b>15 mg/kg</b></span> mỗi 24h hoặc <span style=\"color:#51cf66\"><b>Gentamicin</b></span> <span style=\"color:#ffd43b\"><b>4–5 mg/kg</b></span>; hoặc <span style=\"color:#51cf66\"><b>Meropenem</b></span> <span style=\"color:#ffd43b\"><b>20–40 mg/kg</b></span> mỗi 8–12 giờ nếu sốc nặng hoặc nghi ESBL (Klebsiella, Pseudomonas).<br>3) <span style=\"color:#74c0fc\"><b>Kháng nấm:</b></span> <span style=\"color:#51cf66\"><b>Fluconazole</b></span> (tấn công <span style=\"color:#ffd43b\"><b>12 mg/kg</b></span>, duy trì <span style=\"color:#ffd43b\"><b>6 mg/kg/ngày</b></span>) hoặc <span style=\"color:#51cf66\"><b>Amphotericin B</b></span> nếu trẻ cực non <span style=\"color:#ffd43b\"><b>< 1000g</b></span> dùng kháng sinh phổ rộng kéo dài kèm giảm tiểu cầu dai dẳng.<br><br><b>💡 Giải thích của AI:</b><br>LOS là vi khuẩn bệnh viện qua catheter nên phải phủ CoNS/MRSA, Gram âm đa kháng, và nấm ở nhóm nguy cơ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.2",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Quy tắc <span style=\"color:#74c0fc\"><b>Rule-Out Sepsis</b></span> ở <span style=\"color:#ffd43b\"><b>36–48 giờ</b></span>: <span style=\"color:#ffd43b\"><b>3 tiêu chuẩn</b></span>, <span style=\"color:#51cf66\"><b>hành động</b></span> và <span style=\"color:#74c0fc\"><b>bằng chứng</b></span> hỗ trợ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghiên cứu <span style=\"color:#74c0fc\"><b>SCOUT</b></span>: hơn <span style=\"color:#ffd43b\"><b>95%</b></span> mẫu cấy dương tính thật được máy phát hiện trong <span style=\"color:#ffd43b\"><b>24–36 giờ</b></span> đầu nuôi cấy.<br>2) <span style=\"color:#ffd43b\"><b>3 tiêu chuẩn:</b></span> (1) cấy máu sơ bộ sau 36–48 giờ <span style=\"color:#51cf66\"><b>âm tính</b></span>; (2) trẻ hoàn toàn khỏe, bú tốt, không suy hô hấp hay rối loạn thân nhiệt; (3) chỉ số viêm động học (CRP lần 2 ở 48h) bình thường.<br>3) <span style=\"color:#51cf66\"><b>NGỪNG KHÁNG SINH NGAY LẬP TỨC</b></span>; không 'tiêm nốt cho đủ 5 hoặc 7 ngày cho yên tâm'.<br><br><b>💡 Giải thích của AI:</b><br>Dừng sớm bảo tồn hệ vi sinh ruột và giảm tử vong muộn; tiêm bao vây không có lợi mà gây hại.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.3; SCOUT 2017",
+      "tags": [
+        "PED-16",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B5-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "Bảng liều bỏ túi <span style=\"color:#51cf66\"><b>kháng sinh sơ sinh</b></span>: Ampicillin, Gentamicin, Vancomycin, Amikacin, Meropenem, Fluconazole?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ampicillin EOS:</b></span> <span style=\"color:#ffd43b\"><b>100–150 mg/kg/ngày</b></span> chia 2–3 lần; viêm màng não <span style=\"color:#ffd43b\"><b>200–300 mg/kg/ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Gentamicin:</b></span> <span style=\"color:#ffd43b\"><b>4–5 mg/kg</b></span> mỗi <span style=\"color:#ffd43b\"><b>24h</b></span> (≥ 37w) / <span style=\"color:#ffd43b\"><b>36h</b></span> (30–36w) / <span style=\"color:#ffd43b\"><b>48h</b></span> (< 30w); đáy <span style=\"color:#ffd43b\"><b>< 1–2 µg/mL</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Vancomycin:</b></span> <span style=\"color:#ffd43b\"><b>10–15 mg/kg</b></span> mỗi 8–12–18h; đáy <span style=\"color:#ffd43b\"><b>10–15 µg/mL</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Amikacin:</b></span> <span style=\"color:#ffd43b\"><b>15 mg/kg</b></span> mỗi 24h.<br>5) <span style=\"color:#51cf66\"><b>Meropenem:</b></span> <span style=\"color:#ffd43b\"><b>20–40 mg/kg</b></span> mỗi 8–12h.<br>6) <span style=\"color:#51cf66\"><b>Fluconazole:</b></span> tấn công <span style=\"color:#ffd43b\"><b>12 mg/kg</b></span>, duy trì <span style=\"color:#ffd43b\"><b>6 mg/kg/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gom các con số liều vào một bảng giúp tra nhanh tại giường; luôn đối chiếu tuổi thai và chức năng thận.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 5.1-5.2",
+      "tags": [
+        "PED-16",
+        "B5",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED16-B5-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "Checklist giường bệnh <span style=\"color:#ffd43b\"><b>3 KHÔNG & 3 NÊN</b></span> khi xử trí nhiễm khuẩn sơ sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> dùng <span style=\"color:#ff6b6b\"><b>Ceftriaxone</b></span> cho trẻ sơ sinh (kernicterus, kết tủa Canxi).<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> dùng <span style=\"color:#ff6b6b\"><b>CRP cuống rốn</b></span> hoặc ngưỡng PCT người lớn <span style=\"color:#ffd43b\"><b>0.5 ng/mL</b></span> trong 48 giờ đầu để loại trừ/chẩn đoán.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> tiêm kháng sinh 'cho đủ 7 ngày' khi đã đủ tiêu chuẩn <span style=\"color:#74c0fc\"><b>Rule-out</b></span> ở 36–48 giờ.<br>4) <span style=\"color:#51cf66\"><b>NÊN</b></span> cấy máu <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span> trước liều kháng sinh đầu tiên.<br>5) <span style=\"color:#51cf66\"><b>NÊN</b></span> dùng <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span> cho EOS, chỉnh khoảng cách Gentamicin theo tuổi thai.<br>6) <span style=\"color:#51cf66\"><b>NÊN</b></span> chọc DNT khi cấy máu dương tính hoặc có dấu hiệu thần kinh, và nâng Ampicillin lên <span style=\"color:#ffd43b\"><b>200–300 mg/kg/ngày</b></span> nếu viêm màng não.<br><br><b>💡 Giải thích của AI:</b><br>Sáu điều này là các lỗi và việc đúng thường gặp nhất, đều bắt nguồn từ cơ chế đã học.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 8 và 12",
+      "tags": [
+        "PED-16",
+        "B5",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED16-B6-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ quyết định",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Lưu đồ <span style=\"color:#74c0fc\"><b>EOS trong 24h đầu</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>≥ 34 tuần</b></span> có yếu tố nguy cơ mẹ: <span style=\"color:#ffd43b\"><b>3 nhánh</b></span> chính và hành động của mỗi nhánh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Yếu tố nguy cơ mẹ: sốt mẹ, vỡ ối <span style=\"color:#ffd43b\"><b>> 18h</b></span>, GBS (+).<br>2) <span style=\"color:#ff6b6b\"><b>Bước 0, có dấu hiệu nguy cơ/bệnh lý</b></span> → cấp cứu hồi sức ngay.<br>3) <span style=\"color:#51cf66\"><b>Bước 1, trẻ hoàn toàn khỏe</b></span> (Kaiser hoặc NICE) với nguy cơ tính toán <span style=\"color:#ffd43b\"><b>< 1/1000</b></span> → theo dõi lâm sàng.<br>4) <span style=\"color:#ffd43b\"><b>Bước 2, nguy cơ trung gian hoặc nghi ngờ (Equivocal)</b></span> → cấy máu chuẩn, I/T, hẹn CRP 24h, theo dõi sát, rồi đánh giá lại ở <span style=\"color:#ffd43b\"><b>36–48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ đi từ cấp cứu đến theo dõi, đảm bảo trẻ bệnh được điều trị ngay trong khi trẻ khỏe không bị dùng kháng sinh oan.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 6",
+      "tags": [
+        "PED-16",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B6-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ quyết định",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#ff6b6b\"><b>cấp cứu hồi sức</b></span> trong lưu đồ EOS: <span style=\"color:#ffd43b\"><b>dấu hiệu sàng lọc Bước 0</b></span> và <span style=\"color:#ffd43b\"><b>4 hành động</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sàng lọc: <span style=\"color:#ff6b6b\"><b>thở rên? cơn ngừng thở? co giật? sốc, tưới máu kém? hạ thân nhiệt < 36.0 °C? li bì, giảm trương lực cơ?</b></span><br>2) <span style=\"color:#51cf66\"><b>1.</b></span> Hỗ trợ hô hấp, thở oxy hoặc <span style=\"color:#51cf66\"><b>CPAP</b></span>.<br>3) <span style=\"color:#51cf66\"><b>2.</b></span> Cấy máu đủ thể tích <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span>.<br>4) <span style=\"color:#51cf66\"><b>3.</b></span> Tiêm ngay <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span>.<br>5) <span style=\"color:#51cf66\"><b>4.</b></span> Chuyển đơn nguyên <span style=\"color:#74c0fc\"><b>NICU</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự này đảm bảo cấy máu trước kháng sinh nhưng không để chậm thuốc.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 6 (Bước 0)",
+      "tags": [
+        "PED-16",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B6-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ quyết định",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#51cf66\"><b>trẻ hoàn toàn khỏe, nguy cơ tính toán < 1/1000</b></span>: <span style=\"color:#ffd43b\"><b>4 việc nên/không làm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Theo dõi lâm sàng</b></span>, cho bú mẹ hoàn toàn.<br>2) Theo dõi sinh hiệu <span style=\"color:#ffd43b\"><b>mỗi 4h</b></span> trong <span style=\"color:#ffd43b\"><b>24–48h</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG dùng kháng sinh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG chọc máu xét nghiệm đại trà</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm khuẩn ở trẻ khỏe có nguy cơ cực thấp; điều trị thừa gây hại nhiều hơn lợi.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 6 (Bước 1)",
+      "tags": [
+        "PED-16",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B6-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ quyết định",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#ffd43b\"><b>nguy cơ trung gian (Equivocal)</b></span>: <span style=\"color:#ffd43b\"><b>5 việc</b></span> cần làm và <span style=\"color:#ffd43b\"><b>2 kết quả</b></span> khi đánh giá lại ở 36–48 giờ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lấy máu cấy chuẩn <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span>; làm CTM tính <span style=\"color:#74c0fc\"><b>I/T</b></span>; hẹn <span style=\"color:#74c0fc\"><b>CRP</b></span> ở <span style=\"color:#ffd43b\"><b>24h</b></span> tuổi; theo dõi sát tại buồng; cân nhắc <span style=\"color:#ffd43b\"><b>tạm hoãn kháng sinh</b></span> nếu trẻ cải thiện nhanh sau <span style=\"color:#ffd43b\"><b>2 giờ</b></span> đầu.<br>2) <span style=\"color:#51cf66\"><b>Cấy máu âm tính + trẻ khỏe + CRP 2 lần < 10 mg/L:</b></span> <span style=\"color:#51cf66\"><b>NGỪNG KHÁNG SINH</b></span>, cho trẻ về với mẹ xuất viện.<br>3) <span style=\"color:#ff6b6b\"><b>Cấy máu dương tính hoặc lâm sàng nặng:</b></span> xác định vi khuẩn, <span style=\"color:#51cf66\"><b>LP loại trừ viêm màng não</b></span>, chỉnh kháng sinh theo kháng sinh đồ, điều trị đủ: nhiễm khuẩn huyết <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span>, viêm màng não mủ <span style=\"color:#ffd43b\"><b>14–21 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhánh trung gian là vùng cần đánh giá lại: thời điểm 36–48 giờ tách trẻ có thể dừng thuốc khỏi trẻ cần điều trị đủ liệu trình.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 6 (Bước 2)",
+      "tags": [
+        "PED-16",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B6-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ quyết định",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "Cây quyết định nhị phân <span style=\"color:#ffd43b\"><b>trẻ ≥ 34 tuần nguy cơ mẹ</b></span>: <span style=\"color:#ff6b6b\"><b>có dấu hiệu bệnh lý không?</b></span> rồi <span style=\"color:#ffd43b\"><b>nguy cơ < 1/1000 không?</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>CÓ dấu hiệu nguy cơ/bệnh lý</b></span> → <span style=\"color:#51cf66\"><b>hồi sức + cấy máu ≥ 1.0 mL + Ampicillin + Gentamicin + NICU</b></span>.<br>2) KHÔNG, trẻ khỏe và <span style=\"color:#ffd43b\"><b>nguy cơ tính toán < 1/1000</b></span> → <span style=\"color:#51cf66\"><b>theo dõi lâm sàng</b></span>, không kháng sinh, không chọc máu đại trà.<br>3) KHÔNG, nhưng nguy cơ trung gian/Equivocal → <span style=\"color:#ffd43b\"><b>cấy máu, I/T, CRP 24h, theo dõi sát</b></span> → <span style=\"color:#ffd43b\"><b>đánh giá lại 36–48h</b></span>: âm tính + khỏe + CRP bình thường → <span style=\"color:#51cf66\"><b>ngừng kháng sinh</b></span>; dương tính/nặng → <span style=\"color:#51cf66\"><b>LP + điều trị đủ liệu trình</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai câu hỏi đầu tiên chia trẻ thành ba nhóm xử trí tương ứng ba mức nguy cơ.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 6",
+      "tags": [
+        "PED-16",
+        "B6",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED16-B7-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng IAP & biến chứng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>IAP</b></span> giảm bao nhiêu EOS do GBS, và <span style=\"color:#ffd43b\"><b>3 nội dung</b></span> chính của protocol (chỉ định, phác đồ, hiệu lực)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IAP là biện pháp y tế công cộng hiệu quả nhất, giảm hơn <span style=\"color:#ffd43b\"><b>80%</b></span> EOS do GBS.<br>2) <span style=\"color:#74c0fc\"><b>Chỉ định:</b></span> 4 nhóm yếu tố.<br>3) <span style=\"color:#51cf66\"><b>Phác đồ:</b></span> Penicillin G (hàng đầu), Ampicillin (thay thế).<br>4) <span style=\"color:#ffd43b\"><b>Hiệu lực:</b></span> ít nhất 1 liều trước sinh <span style=\"color:#ffd43b\"><b>≥ 4 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngăn GBS lây từ mẹ trước khi trẻ sinh ra là cách phòng bệnh hiệu quả nhất.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 7.1 (ACOG/CDC 2020)",
+      "tags": [
+        "PED-16",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B7-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng IAP & biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>Chỉ định IAP</b></span> cho sản phụ khi có <span style=\"color:#ffd43b\"><b>bất kỳ một</b></span> trong những yếu tố nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cấy ngoáy âm đạo - trực tràng tuần <span style=\"color:#ffd43b\"><b>36 0/7 – 37 6/7</b></span> có <span style=\"color:#74c0fc\"><b>GBS dương tính</b></span>.<br>2) Tiền sử sinh con lần trước nhiễm khuẩn huyết hoặc viêm màng não do GBS.<br>3) Nhiễm khuẩn đường tiểu do GBS trong thai kỳ hiện tại.<br>4) Chưa rõ tình trạng GBS nhưng có chuyển dạ sinh non <span style=\"color:#ffd43b\"><b>< 37 tuần</b></span>, hoặc vỡ ối kéo dài <span style=\"color:#ffd43b\"><b>≥ 18 giờ</b></span>, hoặc sốt chuyển dạ <span style=\"color:#ffd43b\"><b>≥ 38.0 °C</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Những yếu tố này đều làm tăng nguy cơ trẻ tiếp xúc GBS nên cần dự phòng ngay.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 7.1",
+      "tags": [
+        "PED-16",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B7-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng IAP & biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Phác đồ IAP chuẩn</b></span>: <span style=\"color:#ffd43b\"><b>thuốc hàng đầu, liều đầu, liều duy trì</b></span> của Penicillin G và thuốc thay thế Ampicillin?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Penicillin G TM (hàng đầu):</b></span> liều đầu <span style=\"color:#ffd43b\"><b>5 triệu đơn vị</b></span>, sau đó <span style=\"color:#ffd43b\"><b>2.5–3.0 triệu đơn vị</b></span> mỗi <span style=\"color:#ffd43b\"><b>4 giờ</b></span> đến khi sinh.<br>2) <span style=\"color:#51cf66\"><b>Ampicillin TM (thay thế):</b></span> liều đầu <span style=\"color:#ffd43b\"><b>2 g</b></span>, sau đó <span style=\"color:#ffd43b\"><b>1 g</b></span> mỗi <span style=\"color:#ffd43b\"><b>4 giờ</b></span> đến khi sinh.<br><br><b>💡 Giải thích của AI:</b><br>Hai thuốc này đạt nồng độ diệt khuẩn trong nước ối nếu đủ thời gian trước sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 7.1",
+      "tags": [
+        "PED-16",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B7-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng IAP & biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Khi nào <span style=\"color:#ffd43b\"><b>IAP được coi là đầy đủ</b></span>, và nếu tiêm <span style=\"color:#ffd43b\"><b>< 4 giờ</b></span> thì <span style=\"color:#ff6b6b\"><b>hệ quả</b></span> và <span style=\"color:#51cf66\"><b>xử trí</b></span> trẻ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IAP đầy đủ khi sản phụ nhận ít nhất <span style=\"color:#ffd43b\"><b>1 liều kháng sinh chuẩn trước sinh ≥ 4 giờ</b></span>.<br>2) Nếu tiêm <span style=\"color:#ffd43b\"><b>< 4 giờ</b></span>: <span style=\"color:#ff6b6b\"><b>IAP không đầy đủ (Inadequate IAP)</b></span>, nồng độ kháng sinh trong nước ối chưa đạt ngưỡng diệt khuẩn.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> ghi nhận IAP < 4h là không đầy đủ và theo dõi sát lâm sàng trẻ trong <span style=\"color:#ffd43b\"><b>48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ truyền 1–2 giờ trước sinh thì thuốc chưa kịp đạt nồng độ diệt khuẩn trong nước ối.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 7.1 và 8 (bẫy 8)",
+      "tags": [
+        "PED-16",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B7-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng IAP & biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>3 biến chứng thần kinh dài hạn</b></span> của nhiễm khuẩn sơ sinh có viêm màng não mủ là gì và <span style=\"color:#51cf66\"><b>xử trí/đặc điểm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm não thất mủ và tắc cống não:</b></span> mủ và mảnh vỡ tế bào bít cống Sylvius hoặc lỗ Luschka/Magendie → <span style=\"color:#74c0fc\"><b>não úng thủy tắc nghẽn sau viêm màng não</b></span>, cần <span style=\"color:#51cf66\"><b>phẫu thuật dẫn lưu não thất - ổ bụng (VP Shunt)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Nhuyễn hóa chất trắng quanh não thất (PVL):</b></span> bão cytokin và thiếu máu cục bộ trong sốc phá hủy tế bào tiền thân thần kinh đệm ít nhánh → <span style=\"color:#ff6b6b\"><b>bại não thể co cứng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Mất thính lực tiếp nhận:</b></span> tổn thương ốc tai do độc tố vi khuẩn hoặc tích lũy liều <span style=\"color:#74c0fc\"><b>Aminoglycoside</b></span> nếu không giám sát nồng độ đáy.<br><br><b>💡 Giải thích của AI:</b><br>Biến chứng là tổn thương mô thần kinh không hồi phục; phòng bằng chẩn đoán sớm và giám sát nồng độ Gentamicin.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 7.2",
+      "tags": [
+        "PED-16",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B8-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy lâm sàng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>8 cạm bẫy lâm sàng chết người</b></span> trong nhiễm khuẩn sơ sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đợi <span style=\"color:#ff6b6b\"><b>sốt cao</b></span> mới nghĩ đến nhiễm khuẩn huyết.<br>2) Dùng <span style=\"color:#ff6b6b\"><b>CRP máu cuống rốn</b></span> để quyết định điều trị.<br>3) Áp <span style=\"color:#ff6b6b\"><b>ngưỡng Procalcitonin người lớn</b></span> (0.5 ng/mL) trong 48h đầu.<br>4) Lấy <span style=\"color:#ff6b6b\"><b>thể tích máu cấy < 0.5 mL</b></span>.<br>5) Kê <span style=\"color:#ff6b6b\"><b>Ceftriaxone</b></span> cho sơ sinh <span style=\"color:#ffd43b\"><b>< 28 ngày</b></span>.<br>6) Dùng <span style=\"color:#ff6b6b\"><b>Cefotaxime</b></span> thay Gentamicin vì 'sợ độc thận'.<br>7) Tiếp tục kháng sinh <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span> khi cấy âm tính và trẻ khỏe.<br>8) Cho rằng đã có IAP khi kháng sinh chỉ truyền <span style=\"color:#ffd43b\"><b>1–2h</b></span> trước sinh.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi cạm bẫy đều xuất phát từ hiểu sai sinh lý hoặc dược lý sơ sinh, nên phải gắn mỗi bẫy với cơ chế của nó.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 8",
+      "tags": [
+        "PED-16",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B8-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy <span style=\"color:#ff6b6b\"><b>sốt, CRP cuống rốn, PCT người lớn</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế sai</b></span> và <span style=\"color:#51cf66\"><b>cách phòng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đợi sốt:</b></span> điều nhiệt kém, mỡ nâu bị ức chế → nhiễm khuẩn nặng thường <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt < 36.5 °C</b></span> hoặc dao động → <span style=\"color:#51cf66\"><b>đo nhiệt hậu môn, coi hạ thân nhiệt là cờ đỏ tối khẩn</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>CRP cuống rốn:</b></span> CRP cần <span style=\"color:#ffd43b\"><b>24–48h</b></span> mới đạt đỉnh → <span style=\"color:#51cf66\"><b>không dùng CRP cuống rốn để loại trừ</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>PCT người lớn:</b></span> đỉnh sinh lý <span style=\"color:#ffd43b\"><b>2–10 ng/mL</b></span> trong <span style=\"color:#ffd43b\"><b>24–36h</b></span> → chẩn đoán nhầm, thuốc thừa → <span style=\"color:#51cf66\"><b>tra biểu đồ bách phân vị theo giờ tuổi (Chiesa)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba bẫy này đều là sai thời điểm hoặc sai ngưỡng sinh lý.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 8 (bẫy 1-3)",
+      "tags": [
+        "PED-16",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B8-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy <span style=\"color:#ff6b6b\"><b>thể tích máu, Ceftriaxone, Cefotaxime</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế sai</b></span> và <span style=\"color:#51cf66\"><b>cách phòng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Máu < 0.5 mL:</b></span> du khuẩn huyết thường ≤ <span style=\"color:#ffd43b\"><b>4 CFU/mL</b></span> → <span style=\"color:#ff6b6b\"><b>âm tính giả 40–50%</b></span> → <span style=\"color:#51cf66\"><b>bắt buộc ≥ 1.0 mL</b></span> vào chai nhi khoa.<br>2) <span style=\"color:#74c0fc\"><b>Ceftriaxone < 28 ngày:</b></span> đẩy Bilirubin tự do gây kernicterus, kết tủa Canxi gây sỏi mật và suy thận cấp → <span style=\"color:#51cf66\"><b>chống chỉ định tuyệt đối, dùng Ampicillin + Gentamicin</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Cefotaxime thay Gentamicin:</b></span> tử vong tăng <span style=\"color:#ffd43b\"><b>1.5 lần</b></span>, kích hoạt ESBL → <span style=\"color:#51cf66\"><b>dùng Gentamicin mở rộng khoảng cách 4–5 mg/kg mỗi 24–36–48h</b></span>, an toàn cho thận.<br><br><b>💡 Giải thích của AI:</b><br>Tránh ba lỗi này bằng quy tắc: đủ máu, cấm Ceftriaxone, Gentamicin liều mở rộng khoảng cách.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 8 (bẫy 4-6)",
+      "tags": [
+        "PED-16",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B8-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy <span style=\"color:#ff6b6b\"><b>kéo dài kháng sinh 7-10 ngày</b></span> và <span style=\"color:#ff6b6b\"><b>IAP chỉ 1–2 giờ</b></span>: <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>cách phòng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Kéo dài kháng sinh khi cấy âm tính và trẻ khỏe:</b></span> loạn khuẩn ruột, <span style=\"color:#ff6b6b\"><b>NEC</b></span>, nấm xâm lấn, kháng thuốc → <span style=\"color:#51cf66\"><b>Rule-out sepsis: ngừng kháng sinh ở 36–48 giờ</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>IAP chỉ mới 1–2 giờ:</b></span> cần <span style=\"color:#ffd43b\"><b>≥ 4 giờ</b></span> để đạt nồng độ diệt khuẩn trong nước ối → <span style=\"color:#51cf66\"><b>ghi nhận IAP < 4h là không đầy đủ và theo dõi sát trẻ 48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Một bẫy là điều trị thừa, một bẫy là tin dự phòng chưa đủ; cả hai đều tránh được bằng mốc thời gian.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 8 (bẫy 7-8)",
+      "tags": [
+        "PED-16",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tóm tắt <span style=\"color:#ffd43b\"><b>4 Checkpoint</b></span>: tình huống nào, <span style=\"color:#ff6b6b\"><b>sai ở đâu</b></span> và <span style=\"color:#51cf66\"><b>đáp án đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CP1:</b></span> trẻ <span style=\"color:#ffd43b\"><b>5 ngày</b></span> NICU sinh non 28 tuần dùng Ampicillin + Gentamicin → <span style=\"color:#ff6b6b\"><b>sai</b></span>: là LOS, cần <span style=\"color:#51cf66\"><b>Vancomycin + Amikacin/Meropenem</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>CP2:</b></span> CRP cuống rốn <span style=\"color:#ffd43b\"><b>1.2 mg/L</b></span> kết luận không nhiễm trùng → <span style=\"color:#ff6b6b\"><b>cực kỳ nguy hiểm</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>CP3:</b></span> Ceftriaxone <span style=\"color:#ffd43b\"><b>80 mg/kg/ngày</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>10 ngày</b></span> vàng da → <span style=\"color:#ff6b6b\"><b>chống chỉ định tuyệt đối</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>CP4:</b></span> 48 giờ, cấy âm tính, CRP <span style=\"color:#ffd43b\"><b>3.5 mg/L</b></span> → <span style=\"color:#51cf66\"><b>ngừng kháng sinh ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bốn tình huống tương ứng bốn lỗi kinh điển: nhầm EOS/LOS, tin CRP cuống rốn, Ceftriaxone, không dừng kháng sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 9",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Checkpoint 1</b></span>: trẻ <span style=\"color:#ffd43b\"><b>5 ngày</b></span> NICU, sinh non <span style=\"color:#ffd43b\"><b>28 tuần</b></span>, chướng bụng, tăng ngừng thở, tiểu cầu <span style=\"color:#ffd43b\"><b>220.000 → 60.000/mm³</b></span>, đề xuất Ampicillin + Gentamicin. <span style=\"color:#ff6b6b\"><b>Đúng hay sai</b></span>, phác đồ đúng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không chuẩn xác.</b></span> Trẻ <span style=\"color:#ffd43b\"><b>≥ 72 giờ</b></span> là <span style=\"color:#74c0fc\"><b>LOS</b></span> với vi khuẩn hàng đầu <span style=\"color:#74c0fc\"><b>CoNS (~50%)</b></span>, S. aureus, Gram âm bệnh viện đa kháng (<span style=\"color:#74c0fc\"><b>Klebsiella, Pseudomonas</b></span>).<br>2) <span style=\"color:#51cf66\"><b>Phác đồ đúng:</b></span> <span style=\"color:#51cf66\"><b>Vancomycin</b></span> phối hợp <span style=\"color:#51cf66\"><b>Amikacin</b></span> hoặc <span style=\"color:#51cf66\"><b>Meropenem</b></span>, tầm soát ổ nhiễm catheter và rút catheter nếu cần.<br><br><b>💡 Giải thích của AI:</b><br>Ampicillin vô hiệu với CoNS (kháng Penicillin do sinh Penicillinase và biến đổi PBP).",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Checkpoint 1",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Checkpoint 2</b></span>: vì sao <span style=\"color:#ff6b6b\"><b>kết luận 'CRP cuống rốn 1.2 mg/L nên không nhiễm trùng' là sai</b></span> và <span style=\"color:#51cf66\"><b>cần làm gì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CRP do gan sản xuất, cần <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> mới đỉnh; lúc sinh gần như luôn bình thường (độ nhạy <span style=\"color:#ffd43b\"><b>< 30%</b></span>).<br>2) Mẹ sốt, ối vỡ kéo dài, ối hôi là <span style=\"color:#74c0fc\"><b>viêm màng ối lâm sàng</b></span> → <span style=\"color:#ff6b6b\"><b>Cờ đỏ tuyệt đối</b></span> theo NICE.<br>3) <span style=\"color:#51cf66\"><b>Cần làm:</b></span> cấy máu <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span>, chuyển đơn vị sơ sinh, tiêm <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin TM</b></span> ngay, theo dõi sát.<br><br><b>💡 Giải thích của AI:</b><br>Chậm tiêm kháng sinh vì tin CRP âm tính giả có thể gây tử vong tối cấp.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Checkpoint 2",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Checkpoint 3</b></span>: trẻ <span style=\"color:#ffd43b\"><b>10 ngày</b></span> vàng da, viêm phổi, được kê <span style=\"color:#ff6b6b\"><b>Ceftriaxone 80 mg/kg/ngày</b></span>. <span style=\"color:#ff6b6b\"><b>Sai ở đâu</b></span> và <span style=\"color:#51cf66\"><b>sửa y lệnh</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chống chỉ định tuyệt đối:</b></span> trẻ <span style=\"color:#ffd43b\"><b>< 28 ngày</b></span> đang vàng da; Ceftriaxone đẩy Bilirubin gián tiếp ra dạng tự do → <span style=\"color:#ff6b6b\"><b>kernicterus</b></span>; kết tủa muối với Calci gây bùn mật và suy thận cấp.<br>2) <span style=\"color:#51cf66\"><b>Sửa:</b></span> <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span>, hoặc nếu nghi Gram âm kháng thuốc thì <span style=\"color:#51cf66\"><b>Cefotaxime</b></span> <span style=\"color:#ffd43b\"><b>100 mg/kg/ngày chia 2 lần</b></span> (không đẩy Bilirubin, không kết tủa Calci).<br><br><b>💡 Giải thích của AI:</b><br>Cefotaxime là cephalosporin thay thế vì không có hai cơ chế độc của Ceftriaxone.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Checkpoint 3",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Checkpoint 4</b></span>: trẻ <span style=\"color:#ffd43b\"><b>35 tuần</b></span>, dùng Ampicillin + Gentamicin từ lúc sinh, <span style=\"color:#ffd43b\"><b>48 giờ</b></span> tuổi khỏe, bú tốt, nhịp thở <span style=\"color:#ffd43b\"><b>44 l/p</b></span>, cấy âm tính, CRP <span style=\"color:#ffd43b\"><b>3.5 mg/L</b></span>. <span style=\"color:#51cf66\"><b>Làm gì</b></span> và dựa trên <span style=\"color:#ffd43b\"><b>3 tiêu chuẩn</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>NGỪNG KHÁNG SINH NGAY LẬP TỨC</b></span> (Antibiotic Stewardship).<br>2) Đủ bộ 3 tiêu chuẩn Rule-out: (1) cấy máu âm tính sau 48h; (2) lâm sàng hoàn toàn khỏe; (3) biomarker (CRP lần 2) bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Hơn 95% mầm bệnh mọc trong 36–48h đầu; tiếp tục 'cho đủ 7 ngày' không có lợi mà làm tổn thương hệ vi sinh ruột và chọn lọc kháng thuốc.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Checkpoint 4",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Ca 1</b></span>: bé trai <span style=\"color:#ffd43b\"><b>39 2/7 tuần</b></span>, <span style=\"color:#ffd43b\"><b>3300 g</b></span>, mẹ sốt <span style=\"color:#ffd43b\"><b>38.5 °C</b></span>, vỡ ối <span style=\"color:#ffd43b\"><b>20h</b></span>, không IAP; <span style=\"color:#ffd43b\"><b>6 giờ</b></span> tuổi thở rên, <span style=\"color:#ffd43b\"><b>35.8 °C</b></span>, thở <span style=\"color:#ffd43b\"><b>68 l/p</b></span>, CRT <span style=\"color:#ffd43b\"><b>3.5 s</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>88%</b></span>. <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span> và <span style=\"color:#51cf66\"><b>xử trí Bundle 1h</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cờ đỏ:</b></span> thở rên, SpO2 88%, hạ thân nhiệt 35.8 °C, CRT 3.5 s, li bì; nguy cơ tiền sản rất cao (sốt mẹ, vỡ ối 20h, không IAP) → <span style=\"color:#74c0fc\"><b>EOS thể hô hấp, theo dõi PPHN</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hô hấp và nhiệt:</b></span> lồng ấp/giường sưởi (nhiệt độ da <span style=\"color:#ffd43b\"><b>36.5 °C</b></span>); <span style=\"color:#51cf66\"><b>nCPAP</b></span> PEEP <span style=\"color:#ffd43b\"><b>5–6 cmH2O</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>40–50%</b></span>, SpO2 ≥ <span style=\"color:#ffd43b\"><b>92–95%</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Xét nghiệm:</b></span> cấy máu <span style=\"color:#ffd43b\"><b>1.5 mL</b></span> (chlorhexidine 2%) trước kháng sinh; CTM, tiểu cầu, I/T, đường huyết, khí máu, X-quang phổi.<br>4) <span style=\"color:#51cf66\"><b>Kháng sinh:</b></span> Ampicillin <span style=\"color:#ffd43b\"><b>50 mg/kg/liều</b></span> = <span style=\"color:#ffd43b\"><b>165 mg</b></span> mỗi 12h; Gentamicin <span style=\"color:#ffd43b\"><b>5 mg/kg</b></span> = <span style=\"color:#ffd43b\"><b>16.5 mg</b></span> truyền 30 phút mỗi 24h.<br>5) <span style=\"color:#51cf66\"><b>Tuần hoàn:</b></span> bolus NaCl 0.9% <span style=\"color:#ffd43b\"><b>10 mL/kg</b></span> = <span style=\"color:#ffd43b\"><b>33 mL</b></span> trong 30 phút, đánh giá lại CRT và nhịp tim; theo dõi monitor, CRP ở 24h và 48h; GBS mọc → Ampicillin đủ <span style=\"color:#ffd43b\"><b>10 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kaiser: nguy cơ nền > 15/1000, kết hợp lâm sàng Clinically Ill lên > 30/1000 nên bắt buộc cấy máu và kháng sinh ngay.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Ca lâm sàng 1",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B9-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint & ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Ca 2</b></span>: bé gái <span style=\"color:#ffd43b\"><b>27 4/7 tuần</b></span>, <span style=\"color:#ffd43b\"><b>14 ngày</b></span>, <span style=\"color:#ffd43b\"><b>1050 g</b></span>, lưu <span style=\"color:#74c0fc\"><b>PICC</b></span>, tăng ngừng thở, ứ dịch dạ dày, CRT <span style=\"color:#ffd43b\"><b>4 s</b></span>, tiểu cầu <span style=\"color:#ffd43b\"><b>55.000/mm³</b></span>, ANC <span style=\"color:#ffd43b\"><b>900/mm³</b></span>. <span style=\"color:#51cf66\"><b>Xử trí đầy đủ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chẩn đoán:</b></span> LOS liên quan catheter trung tâm (CLABSI), sốc nhiễm khuẩn bù trừ; tác nhân hàng đầu <span style=\"color:#74c0fc\"><b>CoNS > 50%</b></span>, rồi S. aureus (MRSA), Gram âm bệnh viện, <span style=\"color:#74c0fc\"><b>Candida albicans</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hồi sức:</b></span> nâng CPAP lên <span style=\"color:#ffd43b\"><b>6–7 cmH2O</b></span> hoặc đặt lại nội khí quản; bolus NaCl 0.9% <span style=\"color:#ffd43b\"><b>10 mL/kg</b></span> (<span style=\"color:#ffd43b\"><b>10.5 mL</b></span>) trong <span style=\"color:#ffd43b\"><b>20–30 phút</b></span>; nếu CRT vẫn <span style=\"color:#ffd43b\"><b>> 3 giây</b></span> → <span style=\"color:#51cf66\"><b>Adrenaline 0.05–0.1 mcg/kg/phút</b></span> hoặc Dopamine.<br>3) <span style=\"color:#51cf66\"><b>Cấy:</b></span> 1 mẫu <span style=\"color:#ffd43b\"><b>1.0 mL</b></span> qua PICC và 1 mẫu <span style=\"color:#ffd43b\"><b>1.0 mL</b></span> tĩnh mạch ngoại vi khác chi; <span style=\"color:#74c0fc\"><b>DTP</b></span>: mẫu PICC mọc trước ngoại vi <span style=\"color:#ffd43b\"><b>≥ 2 giờ</b></span> → khẳng định CLABSI; cấy nước tiểu, cân nhắc LP khi ổn định.<br>4) <span style=\"color:#51cf66\"><b>Kháng sinh:</b></span> <span style=\"color:#51cf66\"><b>Vancomycin</b></span> <span style=\"color:#ffd43b\"><b>15 mg</b></span> truyền 60 phút mỗi 12h (đáy <span style=\"color:#ffd43b\"><b>10–15 µg/mL</b></span>) + <span style=\"color:#51cf66\"><b>Amikacin</b></span> <span style=\"color:#ffd43b\"><b>15.5 mg</b></span> mỗi 24h; <span style=\"color:#51cf66\"><b>rút bỏ ngay PICC</b></span> sau khi có đường truyền thay thế.<br>5) <span style=\"color:#51cf66\"><b>Theo dõi:</b></span> tiểu cầu mỗi 24h; nếu <span style=\"color:#ffd43b\"><b>< 30.000/mm³</b></span> sau Vancomycin 48h → thêm <span style=\"color:#51cf66\"><b>Fluconazole</b></span> TM; NPO, nuôi dưỡng tĩnh mạch qua đường ngoại vi.<br><br><b>💡 Giải thích của AI:</b><br>Biofilm không tiệt căn nếu giữ catheter, và tiểu cầu tụt sâu dai dẳng gợi ý nấm xâm lấn.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, Ca lâm sàng 2",
+      "tags": [
+        "PED-16",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B10-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Tips & tóm tắt ca trực",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>7 mục</b></span> trong bảng kiểm an toàn tại buồng bệnh (Ward Round Checklist) cho nhiễm khuẩn sơ sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hạ thân nhiệt < 36.5 °C</b></span> hoặc cơn ngừng thở trên monitor?<br>2) Đã đánh giá nguy cơ tiền sản bằng <span style=\"color:#74c0fc\"><b>Kaiser Sepsis Calculator</b></span> hoặc <span style=\"color:#74c0fc\"><b>NICE Red Flags</b></span>?<br>3) Máu cấy đã lấy đủ <span style=\"color:#ffd43b\"><b>≥ 1.0 mL</b></span> vào chai nhi khoa?<br>4) Kháng sinh kinh nghiệm đúng <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span> (tránh Ceftriaxone)?<br>5) Khoảng cách liều Gentamicin đã chỉnh theo tuổi thai?<br>6) Đã kiểm tra cấy máu ở <span style=\"color:#ffd43b\"><b>36–48 giờ</b></span> để quyết định Rule-out sepsis?<br>7) Nếu nghi viêm màng não: đã chọc DNT và nâng Ampicillin lên <span style=\"color:#ffd43b\"><b>200–300 mg/kg</b></span>?<br><br><b>💡 Giải thích của AI:</b><br>Bảng kiểm gom các nút then chốt: nhận diện sớm, cấy đúng, thuốc đúng, dừng đúng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 12 (Ward Round Checklist)",
+      "tags": [
+        "PED-16",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B10-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Tips & tóm tắt ca trực",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Mẹo thực hành: <span style=\"color:#51cf66\"><b>lấy đủ 1.0 mL máu ở trẻ non</b></span>, <span style=\"color:#51cf66\"><b>đo CRT</b></span> và <span style=\"color:#ff6b6b\"><b>kiểm tra dịch dạ dày</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Lấy máu:</b></span> kim bướm <span style=\"color:#ffd43b\"><b>23–25G</b></span> chọc tĩnh mạch mu bàn tay hoặc tĩnh mạch hiển lớn cổ chân, để máu chảy tự do từng giọt vào xi-lanh vô khuẩn, không kéo pít-tông quá mạnh làm xẹp vỡ mạch.<br>2) <span style=\"color:#51cf66\"><b>Đo CRT:</b></span> dùng đồng hồ bấm giây, ấn lên xương ức đủ <span style=\"color:#ffd43b\"><b>5 giây</b></span> rồi buông và nhìn đồng hồ đếm; đếm nhẩm bằng miệng thường đếm quá nhanh và đánh giá thấp CRT thực.<br>3) <span style=\"color:#ff6b6b\"><b>Dịch dạ dày:</b></span> trước cữ bú nếu sữa cũ vón cục <span style=\"color:#ffd43b\"><b>> 30%</b></span> thể tích cữ trước hoặc dịch xanh rêu/vàng đậm → ruột giảm nhu động do nhiễm khuẩn huyết hoặc NEC sớm.<br><br><b>💡 Giải thích của AI:</b><br>Kỹ thuật tốt giúp có đủ máu cấy và phát hiện sớm giảm tưới máu và ruột giảm nhu động.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 11 (mẹo 3, 6, 7)",
+      "tags": [
+        "PED-16",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B10-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Tips & tóm tắt ca trực",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Các mẹo lâm sàng khác: <span style=\"color:#ffd43b\"><b>ánh sáng khám</b></span>, <span style=\"color:#74c0fc\"><b>bàn tay và ống nghe</b></span>, <span style=\"color:#ff6b6b\"><b>cơn ngừng thở</b></span>, <span style=\"color:#ff6b6b\"><b>tăng đường huyết</b></span>, đường truyền và tư vấn mẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khám dưới <span style=\"color:#51cf66\"><b>ánh sáng tự nhiên hoặc đèn trắng</b></span>, vì ánh sáng vàng che mottling, vàng da sớm, ban xuất huyết.<br>2) <span style=\"color:#74c0fc\"><b>'Bàn tay vô trùng - Ống nghe sạch':</b></span> tay nhân viên và màng ống nghe là vật trung gian chính truyền <span style=\"color:#74c0fc\"><b>CoNS</b></span> và <span style=\"color:#74c0fc\"><b>Klebsiella</b></span> gây LOS; sát khuẩn tay bằng cồn, lau màng ống nghe trước khi chạm lồng ấp.<br>3) Trẻ non đang ổn định bỗng <span style=\"color:#ff6b6b\"><b>tăng cơn ngừng thở</b></span> → nghĩ <span style=\"color:#74c0fc\"><b>nhiễm khuẩn huyết</b></span> trước khi tăng áp lực máy thở.<br>4) <span style=\"color:#ff6b6b\"><b>Đường huyết tăng > 10–12 mmol/L</b></span> ở trẻ đang truyền dịch đường cố định → đề kháng insulin cấp do cytokin.<br>5) Bảo tồn tĩnh mạch ngoại vi; nếu cần truyền kháng sinh kéo dài (Vancomycin gây viêm tĩnh mạch) → đặt <span style=\"color:#74c0fc\"><b>PICC</b></span> sớm trong vô khuẩn.<br>6) Tư vấn mẹ: giải thích chiến lược <span style=\"color:#51cf66\"><b>Rule-out sepsis</b></span>: bảo vệ bé bằng kháng sinh tạm thời <span style=\"color:#ffd43b\"><b>48 giờ</b></span> chờ kết quả, cấy âm tính sẽ dừng thuốc và bú mẹ hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Các mẹo này đều thực tế và gắn với cơ chế đã học (cytokin, vô khuẩn tay, Biofilm).",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 11 (mẹo 1, 2, 4, 8, 9, 10)",
+      "tags": [
+        "PED-16",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B10-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Tips & tóm tắt ca trực",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>10 điều mang vào ca trực</b></span> về nhiễm khuẩn sơ sinh sớm và muộn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ranh giới <span style=\"color:#ffd43b\"><b>72 giờ</b></span>: EOS truyền dọc (GBS, E. coli), LOS truyền ngang NICU (CoNS, Gram âm).<br>2) <span style=\"color:#ff6b6b\"><b>Hạ thân nhiệt là cờ đỏ số 1</b></span> (<span style=\"color:#ffd43b\"><b>< 36.5 °C</b></span>), thân nhiệt dao động là cảnh báo sớm.<br>3) Thể tích máu cấy tối thiểu <span style=\"color:#ffd43b\"><b>1.0 mL</b></span>; cấy <span style=\"color:#ffd43b\"><b>< 0.5 mL</b></span> âm tính giả <span style=\"color:#ffd43b\"><b>40–50%</b></span>; cấy máu trước liều kháng sinh đầu tiên.<br>4) CRP cần <span style=\"color:#ffd43b\"><b>24–48h</b></span>; không dùng CRP cuống rốn; NPV <span style=\"color:#ffd43b\"><b>> 99%</b></span> khi 2 lần cách 24h đều âm tính.<br>5) Cấm áp ngưỡng PCT người lớn <span style=\"color:#ffd43b\"><b>0.5 ng/mL</b></span>; đỉnh sinh lý <span style=\"color:#ffd43b\"><b>2–10 ng/mL</b></span> trong 24–36h.<br>6) Kháng sinh EOS: <span style=\"color:#51cf66\"><b>Ampicillin + Gentamicin</b></span> (hiệp đồng thành tế bào và ribosome).<br>7) <span style=\"color:#ff6b6b\"><b>Cấm Ceftriaxone</b></span> cho sơ sinh: kernicterus và kết tủa Calci.<br>8) Gentamicin <span style=\"color:#ffd43b\"><b>4–5 mg/kg</b></span> mỗi <span style=\"color:#ffd43b\"><b>24h / 36h / 48h</b></span> theo tuổi thai; đáy <span style=\"color:#ffd43b\"><b>< 1–2 µg/mL</b></span>.<br>9) Rule-out ở <span style=\"color:#ffd43b\"><b>36–48 giờ</b></span>: cấy âm + khỏe + CRP bình thường → <span style=\"color:#51cf66\"><b>ngừng kháng sinh ngay</b></span>.<br>10) IAP có hiệu lực khi Penicillin G hoặc Ampicillin TM cho mẹ <span style=\"color:#ffd43b\"><b>≥ 4 giờ</b></span> trước sinh.<br><br><b>💡 Giải thích của AI:</b><br>Đây là mười điểm lõi gom toàn bài; thuộc chúng là đủ để xử trí an toàn tại buồng bệnh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1, phần 12",
+      "tags": [
+        "PED-16",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED16-B1-C01",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Nhiễm khuẩn sơ sinh khởi phát sớm (EOS - Early-Onset Sepsis) được định nghĩa là tình trạng nhiễm khuẩn huyết xuất hiện trong vòng {{c1::< 72 giờ đầu đời}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Cơ chế chủ yếu là lây truyền dọc (Vertical transmission) từ mẹ sang con trước hoặc trong quá trình chuyển dạ.",
+      "legacy_note_id": 1789472694572
+    },
+    {
+      "id": "PED16-B1-C02",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Nhiễm khuẩn sơ sinh khởi phát muộn (LOS - Late-Onset Sepsis) được định nghĩa là tình trạng nhiễm khuẩn huyết xuất hiện từ {{c1::≥ 72 giờ tuổi trở lên}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Cơ chế chủ yếu là lây truyền ngang (Horizontal transmission) từ môi trường bệnh viện, bàn tay nhân viên y tế hoặc catheter xâm lấn.",
+      "legacy_note_id": 1789472694574
+    },
+    {
+      "id": "PED16-B0-C03",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Tỷ lệ tế bào hạt non trên tổng số bạch cầu hạt trung tính (Tỷ lệ I/T) đạt ngưỡng {{c1::≥ 0.20}} là dấu hiệu gợi ý tủy xương đang bị kích thích mạnh giải phóng tế bào non do nhiễm trùng.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. I/T = (Bạch cầu đũa + Tiền tủy bào + Tủy bào) / Tổng bạch cầu hạt trung tính.",
+      "legacy_note_id": 1789472694580
+    },
+    {
+      "id": "PED16-B0-C04",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Chiến lược 'Rule-Out Sepsis' cho phép bác sĩ ngừng kháng sinh an toàn ở thời điểm {{c1::36 đến 48 giờ sau sinh}} nếu cấy máu âm tính và trẻ hoàn toàn khỏe mạnh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Dừng kháng sinh sớm giúp bảo tồn hệ vi sinh đường ruột.",
+      "legacy_note_id": 1789472694582
+    },
+    {
+      "id": "PED16-B0-C05",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Dấu hiệu thân nhiệt báo động đỏ cảnh báo nhiễm khuẩn huyết tối nguy hiểm ở trẻ sơ sinh là {{c1::Hạ thân nhiệt (< 36.0 °C)}} không đáp ứng với ủ ấm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Trẻ sơ sinh điều nhiệt kém và mô mỡ nâu bị ức chế bởi độc tố vi khuẩn.",
+      "legacy_note_id": 1789472694584
+    },
+    {
+      "id": "PED16-B0-C06",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Cơn ngừng thở (Apnea) bệnh lý ở trẻ sơ sinh nghi ngờ nhiễm khuẩn huyết được định nghĩa khi thời gian ngừng thở kéo dài {{c1::> 15–20 giây}}, hoặc bất kỳ thời lượng nào có kèm theo tím tái hoặc nhịp tim chậm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Box đỏ cấp cứu sơ sinh.",
+      "legacy_note_id": 1789472694586
+    },
+    {
+      "id": "PED16-B0-C07",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Thời gian đổ đầy mao mạch (CRT) ở xương ức kéo dài {{c1::> 3 giây}} là chỉ số lâm sàng chỉ điểm rối loạn tưới máu mô và sốc sơ sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Dùng đồng hồ bấm giây, ấn ngón tay lên xương ức đủ 5 giây rồi buông.",
+      "legacy_note_id": 1789472694588
+    },
+    {
+      "id": "PED16-B1-C08",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Hơn {{c1::85%}} các ca Nhiễm khuẩn sơ sinh khởi phát sớm (EOS) xuất hiện triệu chứng lâm sàng ngay trong vòng 24 giờ đầu sau sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Thai nhi hít và nuốt nước ối nhiễm khuẩn.",
+      "legacy_note_id": 1789472694592
+    },
+    {
+      "id": "PED16-B1-C09",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Hai tác nhân vi khuẩn hàng đầu gây Nhiễm khuẩn sơ sinh khởi phát sớm (EOS) là {{c1::Liên cầu nhóm B (GBS ~40%) và Escherichia coli (~30%)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Kế tiếp là Listeria monocytogenes.",
+      "legacy_note_id": 1789472694594
+    },
+    {
+      "id": "PED16-B1-C10",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Tác nhân vi khuẩn hàng đầu gây Nhiễm khuẩn sơ sinh khởi phát muộn (LOS) tại NICU là {{c1::Tụ cầu âm tính Coagulase (CoNS)}} chiếm tới ~50% trường hợp.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Vi khuẩn thường trú trên da, bám catheter và tạo màng Biofilm.",
+      "legacy_note_id": 1789472694596
+    },
+    {
+      "id": "PED16-B1-C11",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đường lây truyền Listeria monocytogenes từ mẹ sang thai nhi trong EOS là đường {{c1::qua máu qua bánh nhau}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Truyền qua đường máu từ mẹ qua bánh nhau là con đường kinh điển của Listeria.",
+      "legacy_note_id": 1789472694598
+    },
+    {
+      "id": "PED16-B3-C12",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Theo NICE NG195, khi trẻ sơ sinh có BẤT KỲ MỘT dấu hiệu 'Cờ đỏ' (Red Flag), bác sĩ bắt buộc phải lấy máu cấy và tiêm kháng sinh tĩnh mạch trong vòng {{c1::60 phút}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Chỉ cần 1 Cờ đỏ là đủ chỉ định.",
+      "legacy_note_id": 1789472694600
+    },
+    {
+      "id": "PED16-B3-C13",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Theo NICE NG195, nhóm yếu tố nguy cơ không phải cờ đỏ (Non-Red Flags) cần {{c1::từ 2 yếu tố trở lên, hoặc 1 yếu tố kèm triệu chứng lâm sàng}} mới can thiệp.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Cấy máu và dùng kháng sinh khi đạt ngưỡng này.",
+      "legacy_note_id": 1789472694602
+    },
+    {
+      "id": "PED16-B2-C14",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Nồng độ các thành phần Bổ thể (C3, C4, C5b-9) trong huyết thanh của trẻ sơ sinh chỉ bằng khoảng {{c1::50%}} so với người trưởng thành.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Làm giảm opsonin hóa vi khuẩn có vỏ bọc.",
+      "legacy_note_id": 1789472694604
+    },
+    {
+      "id": "PED16-B2-C15",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Kho dự trữ bạch cầu trung tính tại tủy xương (Neutrophil Storage Pool) của trẻ sơ sinh chỉ bằng {{c1::20–30%}} người lớn.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Hóa ứng động kém, cạn nhanh dẫn đến giảm bạch cầu hạt khi nhiễm trùng.",
+      "legacy_note_id": 1789472694606
+    },
+    {
+      "id": "PED16-B2-C16",
+      "type": "cloze",
+      "section": "B2",
+      "text": "IgG bảo vệ trẻ sơ sinh phụ thuộc vào IgG mẹ truyền qua nhau thai trong {{c1::3 tháng cuối thai kỳ}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Trẻ đẻ non < 32 tuần hầu như không có kháng thể mẹ.",
+      "legacy_note_id": 1789472694608
+    },
+    {
+      "id": "PED16-B2-C17",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Độc tố Hemolysin/Cytolysin của GBS gắn vào biểu mô phế nang typ II làm ly giải tế bào và gây {{c1::ngừng sản xuất Surfactant}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Phospholipase vi khuẩn và protein huyết tương rỉ viêm còn bất hoạt Surfactant nội sinh.",
+      "legacy_note_id": 1789472694610
+    },
+    {
+      "id": "PED16-B2-C18",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Co thắt dữ dội tiểu động mạch phổi do GBS dẫn đến biến chứng {{c1::Tăng áp động mạch phổi tồn tại ở trẻ sơ sinh (PPHN)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Xẹp phế nang, toan hóa, thiếu oxy kích thích Endothelin-1; tạo shunt Phải - Trái qua PDA và PFO.",
+      "legacy_note_id": 1789472694612
+    },
+    {
+      "id": "PED16-B2-C19",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Kháng nguyên vỏ K1 của E. coli có cấu trúc là {{c1::acid polysialic giống phân tử kết dính thần kinh NCAM của người}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ngụy trang phân tử giúp vi khuẩn không bị opsonin hóa và duy trì du khuẩn huyết.",
+      "legacy_note_id": 1789472694614
+    },
+    {
+      "id": "PED16-B2-C20",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Protein OmpA của E. coli K1 gắn thụ thể gp96 trên nội mô mao mạch não, kích hoạt quá trình {{c1::nhập bào vượt qua hàng rào máu não}} vào khoang dưới nhện.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Nhập bào qua trung gian thụ thể (Receptor-mediated endocytosis).",
+      "legacy_note_id": 1789472694616
+    },
+    {
+      "id": "PED16-B2-C21",
+      "type": "cloze",
+      "section": "B2",
+      "text": "CoNS bám catheter và tiết lớp chất nền ngoại bào dạng nhầy giàu polysaccharide gọi là {{c1::Biofilm}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Biofilm ngăn kháng sinh khuếch tán và vô hiệu hóa thực bào của bạch cầu trung tính.",
+      "legacy_note_id": 1789472694618
+    },
+    {
+      "id": "PED16-B2-C22",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lipid A của LPS vi khuẩn Gram âm liên kết với phức hợp thụ thể {{c1::TLR4 / MD-2 / CD14}} trên đại thực bào để kích hoạt bão cytokin.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Hoạt hóa NF-kappa B giải phóng TNF-alpha, IL-1beta, IL-6, PAF.",
+      "legacy_note_id": 1789472694620
+    },
+    {
+      "id": "PED16-B2-C23",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Enzym iNOS được cytokin kích hoạt trong sốc nhiễm trùng sơ sinh sản sinh quá mức {{c1::Nitric Oxide (NO)}} gây giãn mạch toàn thân.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Làm sụp đổ sức cản mạch máu hệ thống (SVR).",
+      "legacy_note_id": 1789472694622
+    },
+    {
+      "id": "PED16-B3-C24",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Nguồn sinh nhiệt chính của trẻ sơ sinh là mô mỡ nâu thông qua protein không bắt cặp {{c1::UCP-1}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Độc tố vi khuẩn và cytokin ức chế chuyển hóa mỡ nâu khiến trẻ không sốt được mà hạ thân nhiệt.",
+      "legacy_note_id": 1789472694624
+    },
+    {
+      "id": "PED16-B3-C25",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Năm biến số tiền sản nhập vào Kaiser Sepsis Calculator gồm: {{c1::tỷ lệ hiện mắc nền, tuổi thai, thân nhiệt cao nhất của mẹ, thời gian vỡ ối, tình trạng GBS mẹ và loại kháng sinh IAP}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Từ các biến này máy tính nguy cơ nền trước sinh.",
+      "legacy_note_id": 1789472694626
+    },
+    {
+      "id": "PED16-B10-C26",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở trẻ sơ sinh nhiễm khuẩn huyết, ruột giảm nhu động thường biểu hiện sớm qua ứ đọng dịch sữa cũ trong dạ dày {{c1::> 30%}} thể tích cữ bú trước.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Hoặc dịch dạ dày màu xanh rêu/vàng đậm.",
+      "legacy_note_id": 1789472694630
+    },
+    {
+      "id": "PED16-B10-C27",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Tăng đường huyết (> 10–12 mmol/L) đột ngột ở trẻ đang truyền dịch ổn định là dấu hiệu của {{c1::đề kháng Insulin cấp tính do cytokin viêm}} trong nhiễm khuẩn huyết.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Phóng thích cytokin viêm trong nhiễm khuẩn huyết.",
+      "legacy_note_id": 1789472694632
+    },
+    {
+      "id": "PED16-B4-C28",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Thể tích máu cấy tối thiểu bắt buộc phải lấy ở trẻ sơ sinh để tránh âm tính giả là {{c1::1.0 mL máu toàn phần}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Lấy 0.5 mL chỉ đạt độ nhạy 50–60%; du khuẩn huyết nồng độ thấp ≤ 4 CFU/mL.",
+      "legacy_note_id": 1789472694634
+    },
+    {
+      "id": "PED16-B4-C29",
+      "type": "cloze",
+      "section": "B4",
+      "text": "CRP bắt đầu tăng sau 6–8 giờ kể từ khi nhiễm trùng và đạt đỉnh sau {{c1::24 đến 48 giờ}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Gan cần thời gian nhận tín hiệu IL-6 để tổng hợp CRP.",
+      "legacy_note_id": 1789472694636
+    },
+    {
+      "id": "PED16-B4-C30",
+      "type": "cloze",
+      "section": "B4",
+      "text": "CRP lấy từ máu cuống rốn hoặc lúc 0–2 giờ tuổi có độ nhạy {{c1::< 30%}}, không có giá trị loại trừ nhiễm khuẩn sơ sinh.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Trẻ nhiễm GBS tối cấp lúc mới sinh vẫn có CRP bình thường.",
+      "legacy_note_id": 1789472694638
+    },
+    {
+      "id": "PED16-B4-C31",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Ở trẻ sơ sinh khỏe, Procalcitonin có đỉnh tăng vọt sinh lý đạt {{c1::2 đến 10 ng/mL trong vòng 24–36 giờ đầu đời}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Không áp ngưỡng người lớn 0.5 ng/mL trong 48 giờ đầu.",
+      "legacy_note_id": 1789472694642
+    },
+    {
+      "id": "PED16-B4-C32",
+      "type": "cloze",
+      "section": "B4",
+      "text": "ANC giảm xuống mức {{c1::< 1000 / mm³}} ở trẻ sơ sinh là dấu hiệu tiên lượng xấu, cảnh báo nguy cơ tử vong cao.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Kho dự trữ bạch cầu tủy xương đã cạn kiệt.",
+      "legacy_note_id": 1789472694644
+    },
+    {
+      "id": "PED16-B4-C33",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Số lượng bạch cầu DNT ở trẻ sơ sinh đủ tháng bình thường có thể lên tới {{c1::≤ 20–30 tế bào / mm³}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ở trẻ đẻ non có thể lên tới 30–40 tế bào/mm³.",
+      "legacy_note_id": 1789472694646
+    },
+    {
+      "id": "PED16-B4-C34",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Protein trong DNT của trẻ sơ sinh bình thường dao động từ {{c1::0.8 đến 1.5 g/L}} do hàng rào máu não còn lỏng lẻo.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Tính thấm hàng rào máu não sơ sinh cao.",
+      "legacy_note_id": 1789472694648
+    },
+    {
+      "id": "PED16-B5-C35",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Phác đồ kháng sinh kinh nghiệm đầu tay cho EOS là phối hợp hiệp đồng {{c1::Ampicillin và Gentamicin}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ampicillin bao phủ GBS và Listeria; Gentamicin diệt E. coli và trực khuẩn Gram âm.",
+      "legacy_note_id": 1789472694652
+    },
+    {
+      "id": "PED16-B5-C36",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Liều Gentamicin sơ sinh theo phác đồ mở rộng khoảng cách là {{c1::4.0 đến 5.0 mg/kg tiêm truyền tĩnh mạch chậm trong 30 phút}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Liều duy nhất hàng ngày / mở rộng khoảng cách.",
+      "legacy_note_id": 1789472694654
+    },
+    {
+      "id": "PED16-B5-C37",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Khoảng cách giữa các liều Gentamicin ở trẻ đủ tháng (≥ 37 tuần) là {{c1::mỗi 24 giờ}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Trẻ 30–36 tuần mỗi 36 giờ; trẻ < 30 tuần mỗi 48 giờ.",
+      "legacy_note_id": 1789472694656
+    },
+    {
+      "id": "PED16-B5-C38",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Nồng độ đáy của Gentamicin lấy ngay trước cữ tiêm thứ hai phải đạt {{c1::< 1.0 đến 2.0 µg/mL}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Chống độc tính trên ốc tai và cầu thận.",
+      "legacy_note_id": 1789472694658
+    },
+    {
+      "id": "PED16-B5-C39",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh vì đẩy Bilirubin tự do gây {{c1::Vàng da nhân não (Kernicterus)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Còn tạo kết tủa muối Calci-Ceftriaxone gây suy thận cấp.",
+      "legacy_note_id": 1789472694660
+    },
+    {
+      "id": "PED16-B5-C40",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Clark RH et al. cho thấy Ampicillin + Cefotaxime làm tăng nguy cơ {{c1::tử vong gấp 1.5 lần}} so với Ampicillin + Gentamicin.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. RR = 1.5, 95% CI 1.1–2.0; còn làm bùng phát ESBL và tăng nhiễm Candida xâm lấn.",
+      "legacy_note_id": 1789472694662
+    },
+    {
+      "id": "PED16-B5-C41",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Khi chẩn đoán xác định Viêm màng não mủ sơ sinh, liều Ampicillin tĩnh mạch phải nâng lên {{c1::200 đến 300 mg/kg/ngày}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Liều thông thường 100–150 mg/kg/ngày.",
+      "legacy_note_id": 1789472694664
+    },
+    {
+      "id": "PED16-B5-C42",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Kháng sinh diệt tụ cầu Gram dương hàng đầu cho LOS nghi nhiễm trùng catheter do CoNS là {{c1::Vancomycin}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Phối hợp Aminoglycoside (Amikacin) hoặc Carbapenem để bao phủ Gram âm bệnh viện.",
+      "legacy_note_id": 1789472694666
+    },
+    {
+      "id": "PED16-B6-C43",
+      "type": "cloze",
+      "section": "B6",
+      "text": "Thời gian điều trị kháng sinh cho nhiễm khuẩn huyết sơ sinh có cấy máu dương tính, không viêm màng não, là {{c1::7 đến 10 ngày}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Viêm màng não mủ cần 14–21 ngày.",
+      "legacy_note_id": 1789472694668
+    },
+    {
+      "id": "PED16-B2-C44",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Thể tích dịch tinh thể đẳng trương bolus ban đầu trong Sepsis Bundle 1h sơ sinh là {{c1::10 đến 20 mL/kg truyền tĩnh mạch trong 20–30 phút}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Tránh truyền quá mức > 40–60 mL/kg vì cơ tim sơ sinh dễ quá tải thể tích.",
+      "legacy_note_id": 1789472694672
+    },
+    {
+      "id": "PED16-B2-C45",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Nếu sau bolus 10–20 mL/kg mà CRT vẫn > 3 giây, thuốc vận mạch bắt đầu sớm là {{c1::Adrenaline (0.05–0.1 mcg/kg/phút) hoặc Dopamine}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ca lâm sàng 2: dùng Adrenaline liều thấp khi CRT vẫn > 3 giây sau bolus.",
+      "legacy_note_id": 1789472694674
+    },
+    {
+      "id": "PED16-B7-C46",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Tầm soát GBS bằng ngoáy âm đạo - trực tràng theo ACOG/CDC ở tuổi thai {{c1::36 0/7 đến 37 6/7 tuần}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Kết quả GBS dương tính là chỉ định IAP.",
+      "legacy_note_id": 1789472694676
+    },
+    {
+      "id": "PED16-B7-C47",
+      "type": "cloze",
+      "section": "B7",
+      "text": "IAP được coi là đầy đủ khi sản phụ nhận ít nhất 1 liều kháng sinh chuẩn trước sinh {{c1::≥ 4 giờ}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Tiêm < 4 giờ: IAP không đầy đủ (Inadequate IAP).",
+      "legacy_note_id": 1789472694678
+    },
+    {
+      "id": "PED16-B7-C48",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Biến chứng tắc nghẽn dịch não tủy sau viêm màng não mủ sơ sinh là {{c1::Não úng thủy tắc nghẽn (Post-meningitic Hydrocephalus)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Cần phẫu thuật dẫn lưu não thất - ổ bụng (VP Shunt).",
+      "legacy_note_id": 1789472694682
+    },
+    {
+      "id": "PED16-B7-C49",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Tổn thương chất trắng quanh não thất do bão cytokin và thiếu máu trong sốc nhiễm trùng sơ sinh gọi là {{c1::Nhuyễn hóa chất trắng quanh não thất (PVL)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Để lại di chứng bại não thể co cứng.",
+      "legacy_note_id": 1789472694684
+    },
+    {
+      "id": "PED16-B9-C50",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Ở trẻ 3.3 kg bị EOS, liều Ampicillin khởi đầu là {{c1::165 mg tiêm tĩnh mạch chậm mỗi 12 giờ (50 mg/kg/liều)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ca lâm sàng 1; Gentamicin 16.5 mg (5 mg/kg) mỗi 24 giờ.",
+      "legacy_note_id": 1789472694710
+    },
+    {
+      "id": "PED16-B9-C51",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Ở trẻ cực non 1050 g bị LOS do PICC, liều Vancomycin khởi đầu là {{c1::15 mg truyền tĩnh mạch chậm trong 60 phút mỗi 12 giờ}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ca lâm sàng 2; 1050 g × 15 mg/kg = 15 mg; đáy mục tiêu 10–15 µg/mL.",
+      "legacy_note_id": 1789472694712
+    },
+    {
+      "id": "PED16-B10-C52",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Khi đo CRT ở trẻ sơ sinh, ấn ngón tay lên xương ức đủ {{c1::5 giây}} rồi buông ra và nhìn đồng hồ để đếm.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Đếm nhẩm bằng miệng thường đếm quá nhanh và đánh giá thấp CRT.",
+      "legacy_note_id": 1789472694726
+    },
+    {
+      "id": "PED16-B4-C53",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Mẫu máu qua catheter mọc khuẩn trước mẫu ngoại vi từ {{c1::≥ 2 giờ}} (DTP) khẳng định chẩn đoán nhiễm khuẩn liên quan catheter (CLABSI).",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Ca lâm sàng 2.",
+      "legacy_note_id": 1789472694756
+    },
+    {
+      "id": "PED16-B3-C54",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Ban xuất huyết hoại tử da hoặc chảy máu rỉ rả chân kim tiêm ở trẻ nhiễm khuẩn huyết cảnh báo {{c1::Đông máu nội mạch rải rác (DIC)}}.",
+      "extra": "📖 Nguồn: PED-16 RELEASE v1. Triệu chứng muộn/nguy kịch của hệ huyết học - chuyển hóa.",
+      "legacy_note_id": 1789472694764
+    }
+  ]
+}

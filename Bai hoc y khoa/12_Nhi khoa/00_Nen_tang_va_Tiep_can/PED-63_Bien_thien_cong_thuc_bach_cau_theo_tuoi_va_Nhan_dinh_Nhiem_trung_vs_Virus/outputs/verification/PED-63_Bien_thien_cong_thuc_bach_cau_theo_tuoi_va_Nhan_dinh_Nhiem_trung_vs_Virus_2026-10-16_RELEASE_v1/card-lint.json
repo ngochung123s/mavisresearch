@@ -1,0 +1,45 @@
+{
+  "code": "PED-63",
+  "deck_name": "Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu theo tuổi & Nhận định Nhiễm trùng vs Virus",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T21:58:50",
+  "cards_source": "ped63_cards_data.py",
+  "cards_source_sha256": "bc6cd877e756c96eda70d191b8419d5b0c09116366d4d98c85a8c690ede40e1b",
+  "card_count": 52,
+  "summary": {
+    "block": 0,
+    "debt": 1,
+    "warn": 1,
+    "by_code": {
+      "G_COLOR_BACK": 1,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED63-B0-03",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-63_Bien_thien_cong_thuc_bach_cau_theo_tuoi_va_Nhan_dinh_Nhiem_trung_vs_Virus_2026-10-16_RELEASE_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 52,
+    "added": 0,
+    "archived": 0,
+    "moved": 0,
+    "deck_notes": 52
+  },
+  "apkg_sha256": "c60b3877f8571c903e932157ac3aff79355dd0966f957bea5c80ed62bb24e75f",
+  "sqlite_notes": 52,
+  "sqlite_cards": 52
+}

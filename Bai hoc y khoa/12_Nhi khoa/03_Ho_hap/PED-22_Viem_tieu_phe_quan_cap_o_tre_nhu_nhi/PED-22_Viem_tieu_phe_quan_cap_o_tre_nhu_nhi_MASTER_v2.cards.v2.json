@@ -1,0 +1,1625 @@
+{
+  "deck_id": 5056761493400,
+  "deck_name": "Nhi khoa Y6::PED-22: Viêm tiểu phế quản cấp ở trẻ nhũ nhi",
+  "card_count": 121,
+  "cards": [
+    {
+      "id": "PED22-B0-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Về <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản cấp</b></span>: <span style=\"color:#ffd43b\"><b>lứa tuổi đỉnh mắc</b></span>, <span style=\"color:#74c0fc\"><b>tác nhân hàng đầu và tỷ lệ</b></span>, và <span style=\"color:#51cf66\"><b>triết lý điều trị cùng 3 trụ cột chăm sóc</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là bệnh nhiễm trùng hô hấp dưới phổ biến nhất và là nguyên nhân hàng đầu khiến trẻ <span style=\"color:#ffd43b\"><b>dưới 12 tháng</b></span> nhập viện; đỉnh mắc và nặng ở <span style=\"color:#ffd43b\"><b>2–6 tháng tuổi</b></span><br>2) Tác nhân hàng đầu là <span style=\"color:#74c0fc\"><b>RSV</b></span>, chiếm <span style=\"color:#ffd43b\"><b>70–80%</b></span> số ca<br>3) Triết lý <span style=\"color:#51cf66\"><b>Less is More — can thiệp tối thiểu, hỗ trợ tối đa</b></span><br>4) 3 trụ cột: <span style=\"color:#51cf66\"><b>làm sạch đường thở nông, cung cấp oxy đúng ngưỡng, duy trì nuôi dưỡng/bù dịch an toàn</b></span>, kèm theo dõi sát để nâng bậc HFNC / CPAP<br><br><b>💡 Giải thích của AI:</b><br>Đường thở nhũ nhi rất nhỏ và miễn dịch chưa hoàn thiện nên bệnh nặng nhất ở 2–6 tháng. Thuốc không tác động vào cơ chế tắc nghẽn (nút nhầy) nên điều trị là chăm sóc hỗ trợ.",
+      "extra": "📖 Nguồn: PED-22, mục 0 (AAP, NICE)",
+      "tags": [
+        "PED-22",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B0-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nêu <span style=\"color:#74c0fc\"><b>giải phẫu tiểu phế quản</b></span> (đường kính, sụn, cơ trơn, biểu mô), <span style=\"color:#74c0fc\"><b>đặc điểm virus RSV</b></span> và <span style=\"color:#ff6b6b\"><b>khò khè (wheezing)</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tiểu phế quản</b></span>: đường kính <span style=\"color:#ffd43b\"><b>dưới 1 mm</b></span>, <span style=\"color:#ffd43b\"><b>không có sụn</b></span> nâng đỡ, quanh có bó cơ trơn mỏng, lót biểu mô trụ có lông chuyển<br>2) <span style=\"color:#74c0fc\"><b>RSV</b></span> (virus hợp bào hô hấp): chiếm <span style=\"color:#ffd43b\"><b>70–80%</b></span> ca; gai glycoprotein <span style=\"color:#ffd43b\"><b>F</b></span> làm màng tế bào biểu mô hòa nhập tạo hợp bào khổng lồ (syncytia)<br>3) <span style=\"color:#ff6b6b\"><b>Khò khè</b></span>: tiếng thở bệnh lý âm sắc cao, nghe rõ ở <span style=\"color:#ffd43b\"><b>thì thở ra</b></span>, do khí đi qua ống phế quản nhỏ bị hẹp hoặc tắc một phần<br><br><b>💡 Giải thích của AI:</b><br>Không có sụn nâng đỡ nên tiểu phế quản dễ bẹp khi thở ra và dễ bị nút nhầy bít — nền tảng của mọi cơ chế bệnh về sau.",
+      "extra": "📖 Nguồn: PED-22, mục 0.1",
+      "tags": [
+        "PED-22",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B0-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Định nghĩa <span style=\"color:#ff6b6b\"><b>ứ khí phế nang (air trapping)</b></span>, <span style=\"color:#ff6b6b\"><b>xẹp phổi phân thùy rải rác</b></span>, <span style=\"color:#74c0fc\"><b>SIADH</b></span> và <span style=\"color:#51cf66\"><b>HFNC</b></span> (lưu lượng, PEEP) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ứ khí phế nang</b></span>: khí vào được khi hít vào nhưng bị giam khi thở ra vì tiểu phế quản bẹp lại → <span style=\"color:#ffd43b\"><b>FRC tăng</b></span>, lồng ngực căng hình thùng<br>2) <span style=\"color:#ff6b6b\"><b>Xẹp phổi phân thùy rải rác</b></span>: nút nhầy bít hoàn toàn, khí phía sau bị mao mạch hấp thu hết nên phế nang lân cận xẹp; trên X-quang là dải/đám mờ dễ bị đọc nhầm thành viêm phổi đông đặc do vi khuẩn<br>3) <span style=\"color:#74c0fc\"><b>SIADH</b></span>: tăng tiết ADH bất thường do căng phồng lồng ngực và áp lực âm màng phổi → giữ nước tự do, <span style=\"color:#ff6b6b\"><b>hạ Natri máu nặng</b></span><br>4) <span style=\"color:#51cf66\"><b>HFNC</b></span>: oxy dòng cao qua canula mũi, khí ấm ẩm, lưu lượng <span style=\"color:#ffd43b\"><b>1–2 L/kg/phút</b></span>, tạo PEEP nhẹ <span style=\"color:#ffd43b\"><b>2–4 cmH2O</b></span> chống xẹp đường thở nhỏ<br><br><b>💡 Giải thích của AI:</b><br>Bốn khái niệm này xuất hiện xuyên suốt bài: ứ khí giải thích gan to giả, xẹp phổi giải thích bẫy X-quang, SIADH giải thích hạn chế dịch, HFNC là công cụ nâng đỡ.",
+      "extra": "📖 Nguồn: PED-22, mục 0.1",
+      "tags": [
+        "PED-22",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B0-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Cờ đỏ cấp cứu",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Liệt kê <span style=\"color:#ff6b6b\"><b>5 dấu hiệu báo động đỏ</b></span> (BẤT KỲ một dấu hiệu) buộc kích hoạt cấp cứu và chuyển <span style=\"color:#74c0fc\"><b>PICU</b></span> ở trẻ nghi viêm tiểu phế quản?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơn ngừng thở</b></span> kéo dài <span style=\"color:#ffd43b\"><b>> 15–20 giây</b></span>, hoặc bất kỳ cơn ngừng thở nào kèm tím tái hoặc nhịp tim chậm <span style=\"color:#ffd43b\"><b>< 80–100 lần/phút</b></span><br>2) Trẻ <span style=\"color:#ffd43b\"><b>< 2 tháng</b></span> hoặc sinh non <span style=\"color:#ffd43b\"><b>< 35 tuần</b></span> đang thở nhanh gắng sức đột ngột chuyển sang <span style=\"color:#ff6b6b\"><b>thở chậm bất thường</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Tím tái trung ương</b></span> hoặc <span style=\"color:#ffd43b\"><b>SpO2 < 88–90%</b></span> dù đang thở oxy canula thông thường<br>4) <span style=\"color:#ff6b6b\"><b>Kiệt sức cơ hô hấp</b></span>: lờ đờ, li bì, đầu gật gù theo nhịp thở, không còn khóc nổi<br>5) <span style=\"color:#ff6b6b\"><b>Không bú được, nôn liên tục</b></span>, mất nước nặng (mắt trũng, thóp trũng, da nhăn nheo, <span style=\"color:#ffd43b\"><b>CRT > 3 giây</b></span>)<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần một dấu hiệu là đủ: thở nhanh rồi đột ngột thở chậm ở trẻ nhỏ không phải là khỏe lên mà là cơ hoành đã kiệt sức.",
+      "extra": "📖 Nguồn: PED-22, mục 0 (Box đỏ)",
+      "tags": [
+        "PED-22",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Khung B1",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phần <span style=\"color:#74c0fc\"><b>định nghĩa — tiến triển — nhóm nguy cơ — thang Wang</b></span> của viêm tiểu phế quản gồm những nhánh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Định nghĩa lâm sàng</b></span> (AAP / NICE): tuổi, khởi phát, dấu hiệu hô hấp dưới<br>2) Tiến triển tự nhiên <span style=\"color:#ffd43b\"><b>4 giai đoạn</b></span> của bệnh do RSV<br>3) <span style=\"color:#ff6b6b\"><b>6 nhóm nguy cơ cao</b></span> diễn tiến nguy kịch<br>4) <span style=\"color:#74c0fc\"><b>Thang Wang 0–12 điểm</b></span>: bảng điểm và phân loại nhẹ / trung bình / nặng<br><br><b>💡 Giải thích của AI:</b><br>Đây là khung tổng quan; mỗi nhánh có thẻ chi tiết tầng 2 tiếp theo.",
+      "extra": "📖 Nguồn: PED-22, mục 1",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Định nghĩa",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Theo AAP/NICE, <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản cấp</b></span> được định nghĩa thế nào: <span style=\"color:#ffd43b\"><b>tuổi</b></span>, <span style=\"color:#ffd43b\"><b>thời kỳ khởi phát</b></span>, và <span style=\"color:#ff6b6b\"><b>các dấu hiệu suy hô hấp dưới + nghe phổi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hội chứng lâm sàng ở trẻ <span style=\"color:#ffd43b\"><b>dưới 24 tháng</b></span> (chủ yếu <span style=\"color:#ffd43b\"><b>dưới 12 tháng</b></span>)<br>2) Khởi phát <span style=\"color:#ffd43b\"><b>2–3 ngày</b></span> viêm long đường hô hấp trên: sốt nhẹ, chảy nước mũi trong, ho húng hắng<br>3) Sau đó cấp tính xuất hiện <span style=\"color:#ff6b6b\"><b>thở nhanh, co kéo lồng ngực, khò khè thì thở ra</b></span>, nghe phổi <span style=\"color:#ff6b6b\"><b>ran ẩm nhỏ hạt kèm ran rít/ran ngáy</b></span><br><br><b>💡 Giải thích của AI:</b><br>Định nghĩa thuần lâm sàng: chuỗi viêm long trên rồi suy hô hấp dưới ở trẻ nhỏ đã đủ chẩn đoán, không cần xét nghiệm.",
+      "extra": "📖 Nguồn: PED-22, mục 1.1 (AAP, NICE)",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Tiến triển",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tiến triển tự nhiên của viêm tiểu phế quản do RSV có <span style=\"color:#ffd43b\"><b>4 giai đoạn</b></span> nào, mỗi giai đoạn <span style=\"color:#ffd43b\"><b>thời điểm</b></span> và <span style=\"color:#ff6b6b\"><b>biểu hiện chính</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Ngày 1–3</b></span>: viêm long hô hấp trên — sốt nhẹ 38–38.5 °C, nghẹt mũi, chảy mũi trong, ho húng hắng, ăn ngủ tương đối tốt<br>2) <span style=\"color:#ffd43b\"><b>Ngày 3–5</b></span>: <span style=\"color:#ff6b6b\"><b>đỉnh điểm nặng</b></span> — sốt dao động, ho dồn dập, thở nhanh, rút lõm, khò khè, bú giảm rõ, khó ngủ<br>3) <span style=\"color:#ffd43b\"><b>Ngày 6–10</b></span>: hồi phục dần — hết sốt, nhịp thở chậm lại, bú khá hơn, bớt co kéo, ran ẩm to hạt hơn<br>4) <span style=\"color:#ffd43b\"><b>Tuần 2–4</b></span>: ho kéo dài sau nhiễm virus — ho và khò khè nhẹ <span style=\"color:#ffd43b\"><b>2–3 tuần</b></span> do biểu mô lông chuyển cần thời gian tái tạo<br><br><b>💡 Giải thích của AI:</b><br>Biết đỉnh bệnh là ngày 3–5 giúp tiên lượng và tư vấn cha mẹ: bệnh sẽ xấu nhất rồi mới thuyên giảm từ ngày 6–7.",
+      "extra": "📖 Nguồn: PED-22, mục 1.1",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Nhóm nguy cơ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Kể <span style=\"color:#ff6b6b\"><b>6 nhóm nguy cơ cao</b></span> diễn tiến nguy kịch trong viêm tiểu phế quản và <span style=\"color:#74c0fc\"><b>lý do</b></span> của từng nhóm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tuổi < 12 tuần</b></span> (đặc biệt <span style=\"color:#ffd43b\"><b>< 6–8 tuần</b></span>): cơ hoành chưa trưởng thành, đường thở cực nhỏ, phản xạ bảo vệ yếu<br>2) <span style=\"color:#ff6b6b\"><b>Sinh non</b></span> (<span style=\"color:#ffd43b\"><b>< 35 tuần</b></span>): ít phế nang, giảm dự trữ hô hấp, khí đạo hẹp bẩm sinh<br>3) <span style=\"color:#74c0fc\"><b>Tim bẩm sinh</b></span> luồng thông Trái–Phải lớn hoặc tăng áp động mạch phổi: ứ máu phổi nền + phù tiểu phế quản → suy tim ứ huyết, phù phổi<br>4) <span style=\"color:#74c0fc\"><b>Loạn sản phế quản phổi (BPD)</b></span>: phổi xơ hóa, phế nang giãn bất thường, độ giãn nở kém<br>5) <span style=\"color:#74c0fc\"><b>Bệnh thần kinh cơ</b></span> (bại não, teo cơ tủy sống): cơ hô hấp yếu, dễ sặc đờm, mất bù nhanh<br>6) <span style=\"color:#74c0fc\"><b>Suy giảm miễn dịch</b></span> bẩm sinh/mắc phải: thải virus kém, hoại tử biểu mô lan rộng, dễ bội nhiễm<br><br><b>💡 Giải thích của AI:</b><br>Mọi nhóm đều chung một logic: dự trữ hô hấp thấp hoặc công thở không duy trì được, nên cần sàng lọc ngay từ phút đầu.",
+      "extra": "📖 Nguồn: PED-22, mục 1.2",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Wang",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng điểm <span style=\"color:#74c0fc\"><b>Wang</b></span> (0–3 điểm) cho <span style=\"color:#ffd43b\"><b>nhịp thở</b></span>, <span style=\"color:#ff6b6b\"><b>khò khè</b></span>, <span style=\"color:#ff6b6b\"><b>co kéo</b></span> và <span style=\"color:#74c0fc\"><b>tổng trạng/tri giác</b></span> từng mức ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>0 điểm</b></span>: nhịp thở < 30; không khò khè; không co kéo; bình thường, chơi ngoan<br>2) <span style=\"color:#ffd43b\"><b>1 điểm</b></span>: nhịp thở 31–45; khò khè cuối thì thở ra qua ống nghe; co kéo liên sườn nhẹ; kích thích nhẹ, dỗ nín<br>3) <span style=\"color:#ffd43b\"><b>2 điểm</b></span>: nhịp thở 46–60; khò khè toàn bộ thì thở ra qua ống nghe; rút lõm bờ sườn và hõm ức rõ; bứt rứt, quấy khóc, khó dỗ<br>4) <span style=\"color:#ffd43b\"><b>3 điểm</b></span>: nhịp thở > 60; khò khè nghe cả 2 thì bằng tai trần hoặc <span style=\"color:#ff6b6b\"><b>phổi câm</b></span>; rút lõm lồng ngực rất nặng, đầu gật gù; li bì, lơ mơ, kiệt sức<br><br><b>💡 Giải thích của AI:</b><br>Wang lượng hóa 4 tiêu chí 0–3 (tổng 0–12) để đánh giá khách quan và theo dõi đáp ứng điều trị tại giường.",
+      "extra": "📖 Nguồn: PED-22, mục 1.3",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Wang",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phân loại mức độ theo <span style=\"color:#74c0fc\"><b>tổng điểm Wang</b></span>: khoảng điểm, <span style=\"color:#ff6b6b\"><b>đặc điểm</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> của nhẹ / trung bình / nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Nhẹ 0–3 điểm</b></span>: thở nhanh nhẹ, co kéo kín đáo, SpO2 ≥ 92%, bú tốt → <span style=\"color:#51cf66\"><b>điều trị và theo dõi tại nhà</b></span><br>2) <span style=\"color:#ffd43b\"><b>Trung bình 4–8 điểm</b></span>: thở nhanh rõ, rút lõm bờ sườn, khò khè nhiều, bú giảm < 50%, SpO2 90–92% → <span style=\"color:#51cf66\"><b>nhập khoa Hô hấp Nhi</b></span><br>3) <span style=\"color:#ffd43b\"><b>Nặng 9–12 điểm</b></span>: thở > 60–70 l/p hoặc thở chậm do kiệt sức, co kéo nặng, phập phồng cánh mũi, SpO2 < 90%, li bì → <span style=\"color:#51cf66\"><b>nhập cấp cứu / PICU</b></span><br><br><b>💡 Giải thích của AI:</b><br>Thở chậm do kiệt sức nằm trong nhóm nặng — nhịp thở thấp ở trẻ đang co kéo mạnh không phải dấu hiệu lành.",
+      "extra": "📖 Nguồn: PED-22, mục 1.3",
+      "tags": [
+        "PED-22",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B1-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Wang",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ Bộ giải mã nhanh thang <span style=\"color:#74c0fc\"><b>Wang</b></span>: ngưỡng điểm nào → <span style=\"color:#51cf66\"><b>xử trí nào</b></span>, ngưỡng <span style=\"color:#ffd43b\"><b>SpO2</b></span> đi kèm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>0–3 điểm</b></span> + SpO2 <span style=\"color:#ffd43b\"><b>≥ 92%</b></span> → <span style=\"color:#51cf66\"><b>về nhà</b></span>, theo dõi<br>2) <span style=\"color:#ffd43b\"><b>4–8 điểm</b></span> + SpO2 <span style=\"color:#ffd43b\"><b>90–92%</b></span> → <span style=\"color:#51cf66\"><b>nhập khoa Hô hấp Nhi</b></span><br>3) <span style=\"color:#ffd43b\"><b>9–12 điểm</b></span> + SpO2 <span style=\"color:#ffd43b\"><b>< 90%</b></span> → <span style=\"color:#ff6b6b\"><b>cấp cứu / PICU</b></span><br>4) Mỗi tiêu chí nặng nhất (3 điểm) gồm: nhịp thở <span style=\"color:#ffd43b\"><b>> 60</b></span>, <span style=\"color:#ff6b6b\"><b>phổi câm</b></span>, <span style=\"color:#ff6b6b\"><b>đầu gật gù</b></span>, li bì<br><br><b>💡 Giải thích của AI:</b><br>Dùng ba mốc 3 – 8 – 12 để quyết định nơi điều trị nhanh, rồi mới đi vào chi tiết.",
+      "extra": "📖 Nguồn: PED-22, mục 1.3",
+      "tags": [
+        "PED-22",
+        "B1",
+        "Algo"
+      ]
+    },
+    {
+      "id": "PED22-B2-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Khung B2",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phần sinh lý bệnh có <span style=\"color:#ffd43b\"><b>4 chuỗi nhân quả</b></span> nào và mỗi chuỗi dẫn tới <span style=\"color:#51cf66\"><b>quyết định lâm sàng</b></span> gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chuỗi 1</b></span>: RSV → nút nhầy → van một chiều → ứ khí → <span style=\"color:#51cf66\"><b>không bóp bóng áp lực cao, không nhầm gan to với suy tim</b></span><br>2) <span style=\"color:#74c0fc\"><b>Chuỗi 2</b></span>: tắc hoàn toàn → xẹp phổi + lệch V/Q → <span style=\"color:#51cf66\"><b>không kháng sinh, dùng HFNC/CPAP</b></span><br>3) <span style=\"color:#74c0fc\"><b>Chuỗi 3</b></span>: Poiseuille (R ∝ 1/r⁴) → tăng công thở, kiệt sức → <span style=\"color:#51cf66\"><b>HFNC sớm</b></span><br>4) <span style=\"color:#74c0fc\"><b>Chuỗi 4</b></span>: tổn thương là nút nhầy + phù, không phải co thắt → <span style=\"color:#51cf66\"><b>không Salbutamol, không Corticoid</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mỗi chuỗi trả lời một câu hỏi kê đơn: vì sao không dùng thuốc, và vì sao phải hỗ trợ hô hấp sớm.",
+      "extra": "📖 Nguồn: PED-22, mục 2",
+      "tags": [
+        "PED-22",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B2-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Chuỗi 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chuỗi 1: RSV dẫn đến <span style=\"color:#ff6b6b\"><b>ứ khí phế nang</b></span> theo <span style=\"color:#ffd43b\"><b>các bước nào</b></span>, <span style=\"color:#ff6b6b\"><b>dấu hiệu khám/X-quang</b></span> ra sao, và <span style=\"color:#51cf66\"><b>xử trí đúng</b></span> cùng <span style=\"color:#ff6b6b\"><b>sai lầm cần tránh</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) RSV gắn thụ thể biểu mô lông chuyển, nhân lên gây <span style=\"color:#ff6b6b\"><b>hoại tử, bong tróc</b></span>; lympho/tương bào thâm nhiễm, tiết IL-6, IL-8<br>2) Tê liệt <span style=\"color:#74c0fc\"><b>thang cuốn nhầy-lông chuyển</b></span> + tăng tiết nhầy đặc → <span style=\"color:#ff6b6b\"><b>nút nhầy</b></span> bít tiểu phế quản < 1 mm<br>3) Hít vào: áp lực âm kéo giãn nhẹ nên khí lách vào; thở ra: lòng ống co ép nút nhầy → <span style=\"color:#ffd43b\"><b>van một chiều (ball-valve)</b></span> → ứ khí, FRC tăng<br>4) Khám: lồng ngực hình thùng, gõ vang đáy phổi, <span style=\"color:#ff6b6b\"><b>gan lách bị đẩy thấp (gan to giả)</b></span>; X-quang: xương sườn nằm ngang, cơ hoành dẹt, tăng sáng hai phế trường<br>5) <span style=\"color:#51cf66\"><b>Không bóp bóng áp lực cao</b></span> (dễ tràn khí màng phổi), dùng <span style=\"color:#51cf66\"><b>làm ẩm đường thở</b></span>; <span style=\"color:#ff6b6b\"><b>không tiêm Furosemide</b></span> vì tưởng gan to do suy tim<br><br><b>💡 Giải thích của AI:</b><br>Furosemide làm mất nước, nhầy càng đặc, bít hoàn toàn đường thở và suy sụp tuần hoàn — gan to ở đây là do ứ khí đẩy cơ hoành chứ không do tim.",
+      "extra": "📖 Nguồn: PED-22, mục 2 (Chuỗi 1)",
+      "tags": [
+        "PED-22",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B2-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Chuỗi 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chuỗi 2: vì sao nút nhầy gây <span style=\"color:#ff6b6b\"><b>xẹp phổi + lệch V/Q</b></span> ở nhũ nhi, <span style=\"color:#ff6b6b\"><b>hình ảnh X-quang</b></span> ra sao và <span style=\"color:#51cf66\"><b>quyết định điều trị</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tắc hoàn toàn 100% khẩu kính; ở trẻ < 1 tuổi <span style=\"color:#74c0fc\"><b>lỗ Kohn và kênh Lambert</b></span> (thông khí bàng hệ) chưa hoàn thiện nên khí không đi vòng được<br>2) Khí giam sau nút nhầy bị mao mạch hấp thu trong vài giờ → áp lực phế nang về 0 → <span style=\"color:#ff6b6b\"><b>xẹp phổi phân thùy rải rác</b></span><br>3) Xen kẽ vùng ứ khí (<span style=\"color:#ffd43b\"><b>VA/Q > 1</b></span>) và vùng xẹp (<span style=\"color:#ffd43b\"><b>VA/Q = 0</b></span>) → shunt phải–trái → <span style=\"color:#ff6b6b\"><b>SpO2 tụt nhanh</b></span><br>4) X-quang: đám mờ hình dải/tam giác (thường thùy trên phải) = <span style=\"color:#74c0fc\"><b>xẹp phổi do nút nhầy</b></span>, <span style=\"color:#ff6b6b\"><b>không phải đông đặc vi khuẩn</b></span><br>5) <span style=\"color:#51cf66\"><b>Không kháng sinh</b></span>; hút sạch dịch mũi họng, đổi tư thế nằm nghiêng, oxy hoặc <span style=\"color:#51cf66\"><b>HFNC</b></span> dùng PEEP mở lại phế nang<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh không thể làm tan nút nhầy; nằm viện kéo dài còn tăng nguy cơ nhiễm khuẩn bệnh viện (tụ cầu, trực khuẩn mủ xanh).",
+      "extra": "📖 Nguồn: PED-22, mục 2 (Chuỗi 2)",
+      "tags": [
+        "PED-22",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B2-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Chuỗi 3",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chuỗi 3: định luật <span style=\"color:#74c0fc\"><b>Poiseuille</b></span> làm <span style=\"color:#ffd43b\"><b>sức cản tăng bao nhiêu</b></span> ở nhũ nhi, <span style=\"color:#ff6b6b\"><b>vì sao cơ hoành dễ kiệt sức</b></span> và <span style=\"color:#51cf66\"><b>chỉ định gì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiểu phế quản nhũ nhi chỉ <span style=\"color:#ffd43b\"><b>1.0–1.5 mm</b></span> (nhỏ hơn người lớn 3–5 lần); sức cản <span style=\"color:#74c0fc\"><b>R ∝ 1/r⁴</b></span><br>2) Người lớn: bán kính 2 → 1.5 mm, sức cản tăng khoảng <span style=\"color:#ffd43b\"><b>3 lần</b></span>; nhũ nhi: bán kính 0.75 → 0.25 mm, sức cản tăng <span style=\"color:#ffd43b\"><b>(3)⁴ = 81 lần</b></span><br>3) Cơ hoành trẻ nhỏ chỉ <span style=\"color:#ffd43b\"><b>25%</b></span> sợi Typ 1 (người lớn <span style=\"color:#ffd43b\"><b>55%</b></span>); tiêu tốn <span style=\"color:#ffd43b\"><b>30–40%</b></span> tổng oxy cơ thể (bình thường <span style=\"color:#ffd43b\"><b>2–5%</b></span>); ứ khí đè dẹt cơ hoành làm mất đòn bẩy<br>4) Thở rút lõm dữ dội 70–80 l/p chỉ duy trì vài giờ → chỉ định <span style=\"color:#51cf66\"><b>HFNC 1.5–2 L/kg/phút</b></span> để quét khí CO2 khoang tỵ hầu và PEEP nhẹ giảm công thở<br>5) <span style=\"color:#ff6b6b\"><b>Để trẻ tự thở khí phòng</b></span> lâu: cơ hoành cạn glycogen, nhịp thở rơi từ 75 xuống 20 l/p, ngừng thở do kiệt sức<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần phù nề dày thêm 0.5 mm đã tăng sức cản 81 lần ở nhũ nhi, khác hẳn người lớn — đó là lý do trẻ mất bù rất nhanh.",
+      "extra": "📖 Nguồn: PED-22, mục 2 (Chuỗi 3)",
+      "tags": [
+        "PED-22",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B2-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Chuỗi 4",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chuỗi 4: vì sao <span style=\"color:#ff6b6b\"><b>Salbutamol</b></span> và <span style=\"color:#ff6b6b\"><b>Corticoid toàn thân</b></span> vô hiệu ở nhũ nhi — <span style=\"color:#74c0fc\"><b>bản chất tắc nghẽn</b></span>, <span style=\"color:#ff6b6b\"><b>tác hại của từng thuốc</b></span> và <span style=\"color:#51cf66\"><b>quyết định</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ trơn quanh tiểu phế quản <span style=\"color:#ffd43b\"><b>mỏng, thưa</b></span>; thụ thể Beta-2 chưa hoàn thiện, kết cặp protein G yếu; tắc nghẽn <span style=\"color:#ffd43b\"><b>100%</b></span> do nút nhầy + phù + mảnh vụn hoại tử, <span style=\"color:#ff6b6b\"><b>không phải co thắt cơ</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Salbutamol</b></span> không làm tan nút nhầy; hấp thu gây kích thích Beta-1 tim → <span style=\"color:#ff6b6b\"><b>nhịp nhanh 180–200 l/p</b></span>, bứt rứt, tăng tiêu thụ oxy cơ tim; giãn mạch phổi quanh phế nang xẹp → nặng thêm shunt, tụt SpO2<br>3) <span style=\"color:#ff6b6b\"><b>Corticoid</b></span> không giảm nhân lên của RSV, không thông lòng ống; ức chế miễn dịch làm chậm dọn virus, kéo dài phát tán; tác dụng phụ viêm loét dạ dày, tăng huyết áp<br>4) <span style=\"color:#51cf66\"><b>Không Corticoid toàn thân, không Salbutamol thường quy</b></span>; giải thích cho gia đình và dồn nguồn lực vào hút rửa mũi, oxy, dinh dưỡng<br><br><b>💡 Giải thích của AI:</b><br>Khác với hen ở trẻ lớn (cơ trơn phì đại, co thắt), ở nhũ nhi không có đích dược lý để thuốc tác động; thuốc chỉ để lại tác dụng phụ mà không rút ngắn nằm viện.",
+      "extra": "📖 Nguồn: PED-22, mục 2 (Chuỗi 4)",
+      "tags": [
+        "PED-22",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B3-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Khung B3",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chẩn đoán viêm tiểu phế quản dựa vào gì, <span style=\"color:#ff6b6b\"><b>3 nhóm xét nghiệm KHÔNG thường quy</b></span> nào, và phân tầng mức độ nặng theo <span style=\"color:#ffd43b\"><b>những tiêu chí</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chẩn đoán thuần túy lâm sàng</b></span> (bệnh sử + thăm khám) theo AAP 2014/2022 và NICE 2021<br>2) <span style=\"color:#ff6b6b\"><b>Không</b></span> thường quy: <span style=\"color:#ff6b6b\"><b>X-quang ngực</b></span>, <span style=\"color:#ff6b6b\"><b>công thức máu/CRP/Procalcitonin</b></span>, <span style=\"color:#ff6b6b\"><b>test virus (RSV nhanh/PCR cúm)</b></span> ở ngoại trú<br>3) Phân tầng nhẹ / trung bình / nặng theo: tri giác, nhịp thở, gắng sức hô hấp, khò khè & nghe phổi, SpO2, cơn ngừng thở, ăn bú<br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm thừa không đổi điều trị, chỉ gây đau cho trẻ và kéo theo kê kháng sinh không cần thiết.",
+      "extra": "📖 Nguồn: PED-22, mục 3 (AAP, NICE)",
+      "tags": [
+        "PED-22",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B3-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cận lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>chống chỉ định X-quang ngực thẳng thường quy</b></span> (<span style=\"color:#ffd43b\"><b>tăng kê kháng sinh bao nhiêu</b></span>) và <span style=\"color:#51cf66\"><b>khi nào mới chụp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hầu hết trẻ có biến đổi X-quang: ứ khí, dày thành phế quản, dải mờ xẹp phổi dưới phân thùy<br>2) Chụp phim không giúp tiên lượng tốt hơn nhưng <span style=\"color:#ff6b6b\"><b>làm tăng kê kháng sinh sai lầm gấp 2–3 lần</b></span> vì đọc nhầm dải xẹp phổi thành đông đặc viêm phổi vi khuẩn<br>3) <span style=\"color:#51cf66\"><b>Chỉ chụp khi</b></span>: suy hô hấp đột ngột nguy kịch (nghi <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi</b></span>), có bệnh tim phổi bẩm sinh nền, hoặc chẩn đoán không rõ ràng<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh xẹp phổi do nút nhầy trông giống viêm phổi; đọc phim sai là con đường ngắn nhất tới kháng sinh vô ích.",
+      "extra": "📖 Nguồn: PED-22, mục 3.1",
+      "tags": [
+        "PED-22",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B3-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cận lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>không làm công thức máu, CRP/Procalcitonin</b></span> và <span style=\"color:#ff6b6b\"><b>không test virus</b></span> thường quy; <span style=\"color:#51cf66\"><b>khi nào test virus có giá trị</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) RSV có thể làm bạch cầu hoặc CRP tăng nhẹ; đồng nhiễm vi khuẩn nặng (nhiễm khuẩn huyết, viêm màng não) ở trẻ có sốt chỉ <span style=\"color:#ffd43b\"><b>< 1–2%</b></span>; chọc máu gây đau, hoảng loạn mà không giúp quyết định điều trị<br>2) Test nhanh RSV / PCR cúm thường quy ở ngoại trú <span style=\"color:#ff6b6b\"><b>không cần</b></span> vì dương hay âm tính đều không đổi phác đồ hỗ trợ<br>3) <span style=\"color:#51cf66\"><b>Chỉ có giá trị</b></span> khi trẻ nhập viện để <span style=\"color:#51cf66\"><b>xếp phòng cách ly</b></span> (tránh lây chéo) hoặc mùa cúm để cân nhắc <span style=\"color:#51cf66\"><b>Oseltamivir</b></span><br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm chỉ đáng làm khi kết quả thay đổi hành động; ở đây nó không thay đổi.",
+      "extra": "📖 Nguồn: PED-22, mục 3.1",
+      "tags": [
+        "PED-22",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B3-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Phân tầng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng phân tầng nặng (1/2): <span style=\"color:#74c0fc\"><b>tri giác, nhịp thở, gắng sức hô hấp</b></span> của mức <span style=\"color:#51cf66\"><b>Nhẹ</b></span> / <span style=\"color:#ffd43b\"><b>Trung bình</b></span> / <span style=\"color:#ff6b6b\"><b>Nặng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tri giác</b></span>: nhẹ tỉnh, dỗ nín dễ; trung bình kích thích, quấy khóc, khó dỗ; nặng <span style=\"color:#ff6b6b\"><b>li bì, lơ mơ, mệt lả, kiệt sức</b></span><br>2) <span style=\"color:#74c0fc\"><b>Nhịp thở</b></span>: nhẹ thở nhanh nhẹ (chưa vượt ngưỡng quá 10 nhịp); trung bình <span style=\"color:#ffd43b\"><b>50–70 l/p</b></span>; nặng <span style=\"color:#ffd43b\"><b>> 70 l/p</b></span> HOẶC thở chậm bất thường <span style=\"color:#ffd43b\"><b>< 30 l/p</b></span><br>3) <span style=\"color:#74c0fc\"><b>Gắng sức</b></span>: nhẹ co kéo liên sườn nhẹ, không phập phồng cánh mũi; trung bình rút lõm bờ sườn rõ, có phập phồng cánh mũi; nặng rút lõm hõm ức sâu, phập phồng mạnh, <span style=\"color:#ff6b6b\"><b>đầu gật gù</b></span><br><br><b>💡 Giải thích của AI:</b><br>Cả thở quá nhanh lẫn thở quá chậm đều thuộc mức nặng — nhịp chậm báo hiệu kiệt sức.",
+      "extra": "📖 Nguồn: PED-22, mục 3.2",
+      "tags": [
+        "PED-22",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B3-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Phân tầng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng phân tầng nặng (2/2): <span style=\"color:#74c0fc\"><b>khò khè/nghe phổi, SpO2, cơn ngừng thở, ăn bú</b></span> của mức <span style=\"color:#51cf66\"><b>Nhẹ</b></span> / <span style=\"color:#ffd43b\"><b>Trung bình</b></span> / <span style=\"color:#ff6b6b\"><b>Nặng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Khò khè & nghe phổi</b></span>: nhẹ khò khè cuối thì thở ra, thông khí tốt; trung bình khò khè rõ qua ống nghe, nhiều ran ẩm nhỏ hạt; nặng khò khè 2 thì bằng tai trần hoặc <span style=\"color:#ff6b6b\"><b>phổi câm</b></span><br>2) <span style=\"color:#74c0fc\"><b>SpO2</b></span>: nhẹ <span style=\"color:#ffd43b\"><b>≥ 92%</b></span>; trung bình <span style=\"color:#ffd43b\"><b>90–92%</b></span>; nặng <span style=\"color:#ffd43b\"><b>< 90%</b></span> hoặc tím tái trung ương<br>3) <span style=\"color:#74c0fc\"><b>Cơn ngừng thở</b></span>: nhẹ không; trung bình cơn thở không đều ngắn <span style=\"color:#ffd43b\"><b>< 10 s</b></span>; nặng <span style=\"color:#ffd43b\"><b>> 15–20 s</b></span> kèm nhịp chậm/tím<br>4) <span style=\"color:#74c0fc\"><b>Ăn bú</b></span>: nhẹ bú tốt hoặc giảm nhẹ (<span style=\"color:#ffd43b\"><b>> 75%</b></span>); trung bình giảm <span style=\"color:#ffd43b\"><b>50–75%</b></span>, thở ngắt quãng khi bú; nặng bỏ bú, nôn sặc (<span style=\"color:#ffd43b\"><b>< 50%</b></span>)<br><br><b>💡 Giải thích của AI:</b><br>Nhìn nhanh bốn dòng này cạnh ba dòng tri giác - nhịp thở - gắng sức là đủ phân tầng tại giường.",
+      "extra": "📖 Nguồn: PED-22, mục 3.2",
+      "tags": [
+        "PED-22",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B4-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Khung B4",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ba <span style=\"color:#ff6b6b\"><b>tình huống sống còn</b></span> cần theo dõi/nhận diện sớm trong <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơn ngừng thở (apnea)</b></span> ở trẻ sơ sinh và sinh non — cần monitor liên tục<br>2) <span style=\"color:#ff6b6b\"><b>Nguy cơ hít sặc</b></span> khi nhịp thở > 60–70 l/p — dừng bú miệng, nuôi qua sonde/truyền dịch<br>3) <span style=\"color:#ff6b6b\"><b>Phổi câm (Silent Chest)</b></span> — dấu hiệu kiệt sức cận tử vong, bóp bóng và đặt nội khí quản<br><br><b>💡 Giải thích của AI:</b><br>Cả ba đều là những tình huống có thể chuyển nặng trong vài giờ, dù trẻ trông chưa quá tệ.",
+      "extra": "📖 Nguồn: PED-22, mục 4",
+      "tags": [
+        "PED-22",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B4-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Apnea",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Về <span style=\"color:#ff6b6b\"><b>cơn ngừng thở (apnea)</b></span>: <span style=\"color:#ffd43b\"><b>tần suất</b></span>, <span style=\"color:#74c0fc\"><b>cơ chế</b></span>, <span style=\"color:#ff6b6b\"><b>đặc điểm lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>chiến lược theo dõi</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xảy ra ở <span style=\"color:#ffd43b\"><b>2–5%</b></span> trẻ nhập viện vì RSV, lên tới <span style=\"color:#ffd43b\"><b>20%</b></span> ở trẻ sinh non (<span style=\"color:#ffd43b\"><b>< 35 tuần</b></span>) hoặc <span style=\"color:#ffd43b\"><b>dưới 2 tháng</b></span><br>2) RSV kích hoạt <span style=\"color:#74c0fc\"><b>phản xạ thụ thể cơ học thanh quản (laryngeal chemoreflex)</b></span> và ức chế trực tiếp trung tâm nhịp thở thân não qua cytokin gây viêm thần kinh<br>3) Có thể xuất hiện <span style=\"color:#ff6b6b\"><b>trước cả khi trẻ khò khè hay co kéo</b></span>: ngừng thở hoàn toàn, tím quanh môi, nhịp tim chậm dần < 100 rồi < 80 l/p<br>4) <span style=\"color:#51cf66\"><b>Gắn monitor nhịp thở và nhịp tim liên tục</b></span> cho mọi trẻ <span style=\"color:#ffd43b\"><b>< 2 tháng</b></span> hoặc tiền sử đẻ non, ít nhất <span style=\"color:#ffd43b\"><b>24–48 giờ đầu</b></span><br><br><b>💡 Giải thích của AI:</b><br>Vì apnea có thể là biểu hiện đầu tiên, không thể chờ dấu hiệu phổi để quyết định theo dõi: tuổi và tiền sử đẻ non đã là chỉ định.",
+      "extra": "📖 Nguồn: PED-22, mục 4.1 (Schroeder 2014)",
+      "tags": [
+        "PED-22",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B4-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Hít sặc",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao trẻ thở <span style=\"color:#ffd43b\"><b>> 60–70 l/p</b></span> có <span style=\"color:#ff6b6b\"><b>nguy cơ hít sặc</b></span>, và <span style=\"color:#51cf66\"><b>quy tắc an toàn tại giường</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ không phối hợp được <span style=\"color:#74c0fc\"><b>Mút (Suck) — Nuốt (Swallow) — Thở (Breathe)</b></span> khi thở dốc<br>2) Nắp thanh quản không kịp đóng kín khi nuốt → sữa tràn vào khí quản: <span style=\"color:#ff6b6b\"><b>sặc sữa cấp, co thắt thanh quản nghẹt thở, viêm phổi hít vi thể</b></span><br>3) Nếu nhịp thở <span style=\"color:#ffd43b\"><b>> 60–70 l/p</b></span> hoặc bú giảm <span style=\"color:#ffd43b\"><b>> 50%</b></span> → <span style=\"color:#51cf66\"><b>DỪNG BÚ BÌNH / BÚ MẸ NGAY</b></span>, chuyển <span style=\"color:#51cf66\"><b>sonde dạ dày</b></span> hoặc <span style=\"color:#51cf66\"><b>truyền dịch tĩnh mạch</b></span><br><br><b>💡 Giải thích của AI:</b><br>An toàn đường thở luôn đứng trước sự tiện lợi của việc bú bình.",
+      "extra": "📖 Nguồn: PED-22, mục 4.2",
+      "tags": [
+        "PED-22",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B4-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Phổi câm",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phân biệt <span style=\"color:#74c0fc\"><b>khò khè to khắp hai phế trường</b></span> với <span style=\"color:#ff6b6b\"><b>phổi câm (Silent Chest)</b></span>: <span style=\"color:#74c0fc\"><b>ý nghĩa</b></span> và <span style=\"color:#51cf66\"><b>xử trí</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khò khè to, ran rít, ran ngáy khắp hai phế trường = <span style=\"color:#51cf66\"><b>khí vẫn ra vào được</b></span> qua tiểu phế quản hẹp, trẻ còn thông khí<br>2) <span style=\"color:#ff6b6b\"><b>Phổi câm</b></span>: đặt ống nghe không nghe thấy gì (không ran, không khò khè), lồng ngực di động yếu hoặc nhịp thở chậm dần = tiểu phế quản bị nút nhầy bít kín hoàn toàn hoặc cơ hoành tê liệt<br>3) Là trạng thái <span style=\"color:#ff6b6b\"><b>cận tử vong</b></span> → <span style=\"color:#51cf66\"><b>bóp bóng qua mặt nạ oxy 100% và đặt nội khí quản ngay lập tức</b></span><br><br><b>💡 Giải thích của AI:</b><br>Âm thanh biến mất không có nghĩa là đỡ hơn; không còn luồng khí thì cũng không còn tiếng.",
+      "extra": "📖 Nguồn: PED-22, mục 4.3",
+      "tags": [
+        "PED-22",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B4-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ Cây quyết định nhị phân về <span style=\"color:#51cf66\"><b>đường nuôi dưỡng</b></span>: dựa vào <span style=\"color:#ffd43b\"><b>nhịp thở</b></span> và <span style=\"color:#ffd43b\"><b>mức bú</b></span> thì <span style=\"color:#51cf66\"><b>làm gì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhịp thở <span style=\"color:#ffd43b\"><b>> 60–70 l/p</b></span> HOẶC bú giảm <span style=\"color:#ffd43b\"><b>> 50%</b></span> → <span style=\"color:#ff6b6b\"><b>DỪNG bú miệng</b></span> → <span style=\"color:#51cf66\"><b>sonde dạ dày cho ăn nhỏ giọt</b></span><br>2) Sonde không dung nạp (nôn liên tục) / chuẩn bị thở máy / mất nước nặng → <span style=\"color:#51cf66\"><b>truyền dịch tĩnh mạch</b></span><br>3) Nhịp thở dưới ngưỡng và bú tốt → tiếp tục <span style=\"color:#51cf66\"><b>bú miệng chia nhỏ cữ</b></span><br>4) Trong mọi nhánh: thở nhanh + sặc khi bú = <span style=\"color:#ff6b6b\"><b>dừng bú miệng</b></span><br><br><b>💡 Giải thích của AI:</b><br>Một nút quyết định duy nhất (nhịp thở > 60–70 hoặc bú giảm > 50%) tách bú miệng khỏi nuôi qua sonde.",
+      "extra": "📖 Nguồn: PED-22, mục 4.2 và 5.3",
+      "tags": [
+        "PED-22",
+        "B4",
+        "Algo"
+      ]
+    },
+    {
+      "id": "PED22-B5-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Khung B5",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phác đồ điều trị gồm <span style=\"color:#51cf66\"><b>3 trụ cột</b></span> nào và nguyên tắc <span style=\"color:#ff6b6b\"><b>3 KHÔNG thường quy</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Trụ cột 1</b></span> — Đường thở: hút mũi nông NaCl 0.9%, tuyệt đối không hút sâu, đầu cao 30°<br>2) <span style=\"color:#51cf66\"><b>Trụ cột 2</b></span> — Oxy hóa: đo SpO2; oxy khi <span style=\"color:#ffd43b\"><b>SpO2 < 90% (AAP)</b></span> / <span style=\"color:#ffd43b\"><b>< 92% (Bộ Y tế)</b></span>; nâng bậc canula → HFNC → CPAP<br>3) <span style=\"color:#51cf66\"><b>Trụ cột 3</b></span> — Nuôi dưỡng: RR > 60–70 đặt sonde dạ dày; hạn chế dịch TM 80% phòng SIADH<br>4) <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span>: không kháng sinh, không giãn phế quản (Salbutamol), không Corticoid toàn thân (thường quy)<br><br><b>💡 Giải thích của AI:</b><br>Mọi can thiệp đều nhắm vào đường thở, oxy và dinh dưỡng chứ không phải thuốc điều trị virus.",
+      "extra": "📖 Nguồn: PED-22, mục 5",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Kỹ thuật <span style=\"color:#51cf66\"><b>hút mũi nông</b></span> chuẩn: <span style=\"color:#ffd43b\"><b>liều nước muối</b></span>, <span style=\"color:#51cf66\"><b>dụng cụ</b></span>, <span style=\"color:#ffd43b\"><b>thời điểm</b></span> và <span style=\"color:#74c0fc\"><b>vì sao quan trọng</b></span> ở nhũ nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ nhũ nhi <span style=\"color:#74c0fc\"><b>thở bằng mũi bắt buộc (obligate nose breathers)</b></span>; chỉ cần nhầy đặc ở cửa mũi trước đã <span style=\"color:#ffd43b\"><b>tăng 50%</b></span> sức cản đường thở toàn bộ<br>2) Nhỏ <span style=\"color:#ffd43b\"><b>2–3 giọt</b></span> NaCl <span style=\"color:#ffd43b\"><b>0.9%</b></span> vào từng lỗ mũi để làm mềm, loãng dịch<br>3) Dùng <span style=\"color:#51cf66\"><b>bóng hút mũi cao su mềm</b></span> hoặc ống hút mũi nông, hút dịch tại <span style=\"color:#ffd43b\"><b>cửa mũi trước</b></span><br>4) Thực hiện <span style=\"color:#ffd43b\"><b>trước mỗi cữ bú, trước khi ngủ</b></span>, hoặc khi trẻ thở khụt khịt ứ đọng<br><br><b>💡 Giải thích của AI:</b><br>Hút sạch mũi trước khi đánh giá công thở nhiều khi làm trẻ thở êm ngay (giảm 15 nhịp/phút).",
+      "extra": "📖 Nguồn: PED-22, mục 5.1",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>KHÔNG hút đờm sâu thô bạo</b></span> — <span style=\"color:#ff6b6b\"><b>3 hậu quả</b></span> và <span style=\"color:#74c0fc\"><b>cơ chế</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không luồn ống hút vào <span style=\"color:#ff6b6b\"><b>thành sau họng/hạ họng</b></span> khi không có chỉ định cấp cứu đặt nội khí quản<br>2) Làm <span style=\"color:#ff6b6b\"><b>trầy xước, rách niêm mạc</b></span> hầu họng, gây phù nề phản xạ khiến đường thở trên càng hẹp<br>3) Chọc sâu kích thích <span style=\"color:#74c0fc\"><b>dây thần kinh phế vị (dây X)</b></span> → <span style=\"color:#ff6b6b\"><b>co thắt thanh quản đột ngột, phản xạ ngừng tim ngừng thở</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mũi nông đủ cải thiện đường thở trên; đi sâu chỉ thêm nguy cơ tổn thương và phản xạ phế vị.",
+      "extra": "📖 Nguồn: PED-22, mục 5.1",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ngưỡng <span style=\"color:#51cf66\"><b>chỉ định oxy</b></span> theo AAP và theo Bộ Y tế/BV Nhi Đồng 1, <span style=\"color:#ff6b6b\"><b>khi nào KHÔNG cho oxy</b></span> và <span style=\"color:#ffd43b\"><b>mục tiêu SpO2 duy trì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) AAP (Hoa Kỳ): thở oxy khi <span style=\"color:#ffd43b\"><b>SpO2 < 90%</b></span> khí phòng<br>2) Bộ Y tế Việt Nam và BV Nhi Đồng 1: thở oxy khi <span style=\"color:#ffd43b\"><b>SpO2 < 92%</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Không</b></span> chỉ định oxy cho trẻ <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span> chỉ vì khò khè hoặc thở nhanh đơn thuần<br>4) Mục tiêu giữ SpO2 ổn định <span style=\"color:#ffd43b\"><b>92–96%</b></span>; tránh oxy nồng độ quá cao không cần thiết<br><br><b>💡 Giải thích của AI:</b><br>Chỉ định oxy dựa vào SpO2 chứ không dựa vào tiếng khò khè hay nhịp thở.",
+      "extra": "📖 Nguồn: PED-22, mục 5.2",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bốn <span style=\"color:#51cf66\"><b>bậc thang hỗ trợ hô hấp</b></span> (<span style=\"color:#ffd43b\"><b>thông số</b></span> và <span style=\"color:#74c0fc\"><b>chỉ định</b></span> từng bậc) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bậc 1</b></span> canula mũi thông thường: <span style=\"color:#ffd43b\"><b>0.5–2 L/phút</b></span>, có bình làm ẩm; mức nhẹ đến trung bình<br>2) <span style=\"color:#51cf66\"><b>Bậc 2</b></span> HFNC: khi canula thất bại, co kéo nặng, kiệt sức, SpO2 không duy trì > 92%; bắt đầu <span style=\"color:#ffd43b\"><b>1.5–2.0 L/kg/phút</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>30–50%</b></span><br>3) <span style=\"color:#51cf66\"><b>Bậc 3</b></span> nCPAP: áp lực <span style=\"color:#ffd43b\"><b>4–7 cmH2O</b></span> nếu HFNC thất bại hoặc ngừng thở tái diễn<br>4) <span style=\"color:#ff6b6b\"><b>Bậc 4</b></span> đặt nội khí quản thở máy: kiệt sức cơ hô hấp, toan hô hấp nặng (<span style=\"color:#ffd43b\"><b>pH < 7.20, PaCO2 > 60–65 mmHg</b></span>) hoặc ngừng thở trơ với can thiệp không xâm lấn<br><br><b>💡 Giải thích của AI:</b><br>Nâng bậc có chủ đích: mỗi bậc tăng mức hỗ trợ khi bậc trước thất bại, tránh đặt nội khí quản khi còn lựa chọn không xâm lấn.",
+      "extra": "📖 Nguồn: PED-22, mục 5.2",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Chi tiết <span style=\"color:#51cf66\"><b>HFNC</b></span>: <span style=\"color:#74c0fc\"><b>cơ chế vượt trội</b></span>, <span style=\"color:#ffd43b\"><b>liều lưu lượng và ví dụ cân nặng</b></span>, <span style=\"color:#ffd43b\"><b>FiO2</b></span> và <span style=\"color:#74c0fc\"><b>bằng chứng PARIS</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khí ấm <span style=\"color:#ffd43b\"><b>37 °C</b></span>, ẩm <span style=\"color:#ffd43b\"><b>100%</b></span>, giảm tiêu hao năng lượng; <span style=\"color:#74c0fc\"><b>quét khoang chết tỵ hầu (dead space wash-out)</b></span>; tạo <span style=\"color:#ffd43b\"><b>PEEP động 2–4 cmH2O</b></span> giữ phế quản nhỏ không xẹp thì thở ra<br>2) Lưu lượng khởi đầu <span style=\"color:#ffd43b\"><b>1.5–2.0 L/kg/phút</b></span> (ví dụ trẻ 5 kg: <span style=\"color:#ffd43b\"><b>8–10 L/phút</b></span>)<br>3) Chỉnh <span style=\"color:#ffd43b\"><b>FiO2 30–50%</b></span> để đạt SpO2 mục tiêu<br>4) PARIS (NEJM 2018): HFNC sớm <span style=\"color:#51cf66\"><b>giảm thất bại điều trị và giảm 50% nhu cầu leo thang</b></span> hô hấp nặng hơn<br><br><b>💡 Giải thích của AI:</b><br>HFNC vừa cung cấp oxy ấm ẩm vừa chia sẻ công thở, nên được ưu tiên khi suy hô hấp từ vừa đến nặng.",
+      "extra": "📖 Nguồn: PED-22, mục 5.2 (PARIS, Franklin 2018, PMID 29562151)",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 3",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Về <span style=\"color:#51cf66\"><b>nuôi qua sonde dạ dày</b></span>: <span style=\"color:#ffd43b\"><b>chỉ định</b></span>, <span style=\"color:#51cf66\"><b>cách cho ăn</b></span> và <span style=\"color:#74c0fc\"><b>lợi ích</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ định khi <span style=\"color:#ffd43b\"><b>nhịp thở > 60–70 l/p</b></span> hoặc ăn/bú giảm <span style=\"color:#ffd43b\"><b>> 50%</b></span> nhu cầu cơ bản<br>2) Sữa mẹ hoặc sữa công thức <span style=\"color:#51cf66\"><b>chia nhỏ nhiều cữ, cách mỗi 2–3 giờ</b></span> hoặc <span style=\"color:#51cf66\"><b>nhỏ giọt liên tục</b></span> qua sonde<br>3) Lợi ích: đủ calo, bảo vệ đường tiêu hóa, <span style=\"color:#51cf66\"><b>loại bỏ hoàn toàn nguy cơ sặc sữa vào phổi</b></span><br><br><b>💡 Giải thích của AI:</b><br>Sonde tách việc nuôi ăn khỏi công thở: trẻ không phải gắng sức để bú.",
+      "extra": "📖 Nguồn: PED-22, mục 5.3",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Trụ cột 3",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Về <span style=\"color:#51cf66\"><b>truyền dịch tĩnh mạch</b></span>: <span style=\"color:#ffd43b\"><b>chỉ định</b></span>, <span style=\"color:#ff6b6b\"><b>vì sao hạn chế dịch (SIADH)</b></span>, <span style=\"color:#ffd43b\"><b>mức truyền</b></span> và <span style=\"color:#51cf66\"><b>loại dịch</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ định: <span style=\"color:#ff6b6b\"><b>nôn liên tục không dung nạp sonde</b></span>, suy hô hấp nặng sắp thở máy, hoặc mất nước nặng<br>2) Viêm tiểu phế quản nặng hay có <span style=\"color:#74c0fc\"><b>SIADH</b></span> (kích thích từ lồng ngực ứ khí); truyền 100% dịch duy trì → <span style=\"color:#ff6b6b\"><b>quá tải tuần hoàn, phù phổi, hạ Natri máu co giật</b></span><br>3) Chỉ truyền <span style=\"color:#ffd43b\"><b>70–80%</b></span> nhu cầu duy trì cơ bản (theo công thức Holliday-Segar)<br>4) Dùng dịch đẳng trương <span style=\"color:#51cf66\"><b>Glucose 5% trong NaCl 0.9%</b></span> (hoặc Ringer Fundin / Isolyte P); <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG dịch nhược trương</b></span> (Glucose 5% đơn thuần, NaCl 0.2%) vì tụt Natri cấp và phù não<br><br><b>💡 Giải thích của AI:</b><br>Truyền nước tự do vào cơ thể đang giữ nước do ADH là cách nhanh nhất gây hạ Natri và co giật.",
+      "extra": "📖 Nguồn: PED-22, mục 5.3",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "3 KHÔNG",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bằng chứng cho từng mục trong <span style=\"color:#ff6b6b\"><b>3 KHÔNG thường quy</b></span>: <span style=\"color:#74c0fc\"><b>lý do</b></span>, <span style=\"color:#ffd43b\"><b>Cochrane (năm, số thử nghiệm, số trẻ)</b></span> và <span style=\"color:#51cf66\"><b>ngoại lệ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Kháng sinh</b></span>: bệnh 100% do virus (RSV, Rhinovirus...); đồng nhiễm vi khuẩn nặng <span style=\"color:#ffd43b\"><b>< 1–2%</b></span>; chỉ dùng khi có <span style=\"color:#51cf66\"><b>bằng chứng nhiễm khuẩn thứ phát rõ</b></span> (viêm tai giữa mủ cấp kèm theo, hoặc cấy máu/nước tiểu dương tính)<br>2) <span style=\"color:#ff6b6b\"><b>Salbutamol</b></span>: Cochrane Gadomski 2014, <span style=\"color:#ffd43b\"><b>48 thử nghiệm, 4733 trẻ</b></span> — không cải thiện SpO2, không giảm nhập viện, không rút ngắn ngày nằm viện; tác dụng phụ nhịp nhanh, run, bứt rứt, tăng bất tương xứng V/Q; AAP không khuyến cáo thường quy<br>3) <span style=\"color:#ff6b6b\"><b>Corticoid toàn thân</b></span>: Cochrane Fernandes 2013, <span style=\"color:#ffd43b\"><b>17 thử nghiệm, 2596 trẻ</b></span> — Dexamethasone hoặc Prednisolone không có lợi ích lâm sàng; ức chế miễn dịch làm chậm dọn virus, kéo dài lây nhiễm<br><br><b>💡 Giải thích của AI:</b><br>Ba thuốc này nhắm vào cơ chế không tồn tại ở bệnh này (vi khuẩn, co thắt cơ, viêm do thuốc điều hòa), nên chỉ còn tác dụng phụ.",
+      "extra": "📖 Nguồn: PED-22, mục 5.4 (Gadomski 2014; Fernandes 2013; AAP; NICE)",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-10",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Nước muối ưu trương",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Về <span style=\"color:#74c0fc\"><b>khí dung nước muối ưu trương 3%</b></span>: <span style=\"color:#74c0fc\"><b>cơ chế đề xuất</b></span>, <span style=\"color:#ffd43b\"><b>bằng chứng Cochrane</b></span>, <span style=\"color:#ff6b6b\"><b>khuyến cáo tại Cấp cứu</b></span> và <span style=\"color:#51cf66\"><b>khi nào cân nhắc</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế đề xuất: áp lực thẩm thấu hút nước từ dưới niêm mạc vào lòng phế quản → giảm phù, loãng nhầy để lông chuyển tống đờm<br>2) Cochrane (Zhang 2017): có thể rút ngắn nhẹ thời gian nằm viện ở trẻ nội trú <span style=\"color:#ffd43b\"><b>kéo dài > 72 giờ</b></span><br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG khuyến cáo thường quy tại phòng Cấp cứu</b></span> vì không giảm tỷ lệ nhập viện ngay lập tức<br>4) Chỉ cân nhắc cho trẻ nội trú <span style=\"color:#ffd43b\"><b>từ ngày thứ 3</b></span> khi đờm nhớt đặc dai dẳng, theo dõi sát vì <span style=\"color:#ff6b6b\"><b>nguy cơ co thắt phế quản phản xạ</b></span> ở trẻ nhạy cảm<br><br><b>💡 Giải thích của AI:</b><br>Lợi ích nhỏ và giới hạn ở nhóm nằm viện lâu; đặt trong bối cảnh Cấp cứu thì không có giá trị.",
+      "extra": "📖 Nguồn: PED-22, mục 5.4 (Zhang 2017, PMID 29283150)",
+      "tags": [
+        "PED-22",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B5-11",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ Cây quyết định <span style=\"color:#51cf66\"><b>oxy và nâng bậc</b></span>: dựa vào <span style=\"color:#ffd43b\"><b>SpO2</b></span> thì <span style=\"color:#51cf66\"><b>làm gì</b></span> ở từng bước?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) SpO2 <span style=\"color:#ffd43b\"><b>≥ 92%</b></span> khí phòng chỉ vì khò khè/thở nhanh → <span style=\"color:#ff6b6b\"><b>KHÔNG cho oxy</b></span><br>2) SpO2 <span style=\"color:#ffd43b\"><b>< 90% (AAP) / < 92% (Bộ Y tế)</b></span> → <span style=\"color:#51cf66\"><b>canula mũi 0.5–2 L/phút</b></span>, mục tiêu SpO2 <span style=\"color:#ffd43b\"><b>92–96%</b></span><br>3) Canula thất bại / kiệt sức / không giữ được > 92% → <span style=\"color:#51cf66\"><b>HFNC 1.5–2.0 L/kg/phút</b></span><br>4) HFNC thất bại hoặc ngừng thở tái diễn → <span style=\"color:#51cf66\"><b>nCPAP 4–7 cmH2O</b></span>; kiệt sức, toan nặng, ngừng thở trơ → <span style=\"color:#ff6b6b\"><b>đặt nội khí quản thở máy</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mỗi bước chỉ chuyển sang bậc cao hơn khi bậc dưới không đạt mục tiêu SpO2 hoặc công thở.",
+      "extra": "📖 Nguồn: PED-22, mục 5.2",
+      "tags": [
+        "PED-22",
+        "B5",
+        "Algo"
+      ]
+    },
+    {
+      "id": "PED22-B5-12",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ Bảng <span style=\"color:#ffd43b\"><b>con số bỏ túi</b></span> về <span style=\"color:#51cf66\"><b>dịch, sonde, HFNC, oxy</b></span> trong viêm tiểu phế quản gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>HFNC</b></span> <span style=\"color:#ffd43b\"><b>1.5–2.0 L/kg/phút</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>30–50%</b></span>, ví dụ 5 kg → <span style=\"color:#ffd43b\"><b>8–10 L/phút</b></span><br>2) <span style=\"color:#51cf66\"><b>Canula</b></span> <span style=\"color:#ffd43b\"><b>0.5–2 L/phút</b></span>; SpO2 mục tiêu <span style=\"color:#ffd43b\"><b>92–96%</b></span>; nCPAP <span style=\"color:#ffd43b\"><b>4–7 cmH2O</b></span><br>3) <span style=\"color:#51cf66\"><b>Dịch TM</b></span> <span style=\"color:#ffd43b\"><b>70–80%</b></span> nhu cầu duy trì (Holliday-Segar), dịch <span style=\"color:#51cf66\"><b>Glucose 5% trong NaCl 0.9%</b></span><br>4) <span style=\"color:#51cf66\"><b>Sonde</b></span> khi RR <span style=\"color:#ffd43b\"><b>> 60–70</b></span> hoặc bú giảm <span style=\"color:#ffd43b\"><b>> 50%</b></span>; cách mỗi <span style=\"color:#ffd43b\"><b>2–3 giờ</b></span> hoặc nhỏ giọt<br>5) <span style=\"color:#51cf66\"><b>NaCl 0.9%</b></span> <span style=\"color:#ffd43b\"><b>2–3 giọt</b></span>/lỗ mũi trước bú và trước ngủ<br><br><b>💡 Giải thích của AI:</b><br>Gom các con số thuộc lòng thành một bảng bỏ túi giúp ra y lệnh nhanh ở ca trực.",
+      "extra": "📖 Nguồn: PED-22, mục 5.2–5.3",
+      "tags": [
+        "PED-22",
+        "B5",
+        "Algo"
+      ]
+    },
+    {
+      "id": "PED22-B6-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Khung B6",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Lưu đồ xử trí tại buồng bệnh đi qua <span style=\"color:#ffd43b\"><b>những bước nào</b></span> và <span style=\"color:#51cf66\"><b>3 nhánh xử trí</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bước 0</b></span>: sàng lọc <span style=\"color:#ff6b6b\"><b>cờ đỏ cấp cứu và yếu tố nguy cơ cao</b></span> → có thì <span style=\"color:#ff6b6b\"><b>PICU ngay</b></span><br>2) <span style=\"color:#ffd43b\"><b>Bước 1</b></span>: đánh giá mức độ nặng bằng <span style=\"color:#74c0fc\"><b>Wang</b></span> → nhẹ / trung bình / nặng<br>3) <span style=\"color:#51cf66\"><b>Nhẹ</b></span> → ngoại trú; <span style=\"color:#51cf66\"><b>Trung bình</b></span> → nhập viện; <span style=\"color:#ff6b6b\"><b>Nặng</b></span> → hồi sức cấp cứu<br>4) Đánh giá lại: trung bình mỗi <span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>, nặng mỗi <span style=\"color:#ffd43b\"><b>1 giờ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Cấu trúc ba tầng giúp quyết định nơi điều trị trước, rồi mới chọn can thiệp chi tiết.",
+      "extra": "📖 Nguồn: PED-22, mục 6",
+      "tags": [
+        "PED-22",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B6-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Bước 0",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bước 0 của lưu đồ: <span style=\"color:#ff6b6b\"><b>3 nhóm câu hỏi sàng lọc</b></span> và <span style=\"color:#51cf66\"><b>4 xử trí khi có cờ đỏ</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có <span style=\"color:#ff6b6b\"><b>cơn ngừng thở > 15–20 s</b></span> hoặc tím tái?<br>2) Tuổi <span style=\"color:#ffd43b\"><b>< 6–8 tuần</b></span>? Đẻ non <span style=\"color:#ffd43b\"><b>< 35 tuần</b></span>? Tim bẩm sinh?<br>3) Li bì, kiệt sức, <span style=\"color:#ff6b6b\"><b>phổi câm</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 < 88%</b></span>?<br>4) Nếu CÓ → <span style=\"color:#ff6b6b\"><b>cấp cứu hồi sức PICU ngay</b></span>: <span style=\"color:#51cf66\"><b>hút sạch dịch mũi họng nông; bóp bóng mặt nạ oxy 100% nếu ngừng thở; HFNC 2 L/kg/phút hoặc nCPAP 5–6 cmH2O; đặt monitor tim thở liên tục</b></span><br><br><b>💡 Giải thích của AI:</b><br>Sàng lọc cờ đỏ luôn đứng trước chấm điểm Wang vì ngừng thở và kiệt sức không chờ đánh giá.",
+      "extra": "📖 Nguồn: PED-22, mục 6 (Bước 0)",
+      "tags": [
+        "PED-22",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B6-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Nhánh nhẹ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#51cf66\"><b>MỨC ĐỘ NHẸ</b></span>: <span style=\"color:#74c0fc\"><b>đặc điểm</b></span> và <span style=\"color:#51cf66\"><b>5 điểm điều trị ngoại trú</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đặc điểm</b></span>: tỉnh táo, bú tốt, rút lõm nhẹ/không, <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span> khí phòng, không bệnh nền<br>2) <span style=\"color:#51cf66\"><b>Hút mũi nông NaCl 0.9%</b></span>; tiếp tục bú mẹ / ăn chia nhỏ cữ; hạ sốt <span style=\"color:#51cf66\"><b>Paracetamol</b></span><br>3) <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG</b></span>: kháng sinh, Salbutamol, Corticoid, thuốc ho<br>4) <span style=\"color:#51cf66\"><b>Dặn dấu hiệu cờ đỏ</b></span> và <span style=\"color:#ffd43b\"><b>tái khám sau 24–48 giờ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Ngoại trú an toàn dựa vào cha mẹ biết khi nào quay lại: dặn cờ đỏ là một phần điều trị.",
+      "extra": "📖 Nguồn: PED-22, mục 6",
+      "tags": [
+        "PED-22",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B6-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Nhánh trung bình",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#ffd43b\"><b>MỨC ĐỘ TRUNG BÌNH</b></span>: <span style=\"color:#74c0fc\"><b>đặc điểm</b></span>, <span style=\"color:#51cf66\"><b>6 điểm điều trị nhập viện</b></span> và <span style=\"color:#51cf66\"><b>tiêu chí đánh giá lại</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đặc điểm</b></span>: rút lõm bờ sườn rõ, thở nhanh <span style=\"color:#ffd43b\"><b>50–70 l/p</b></span>, bú giảm <span style=\"color:#ffd43b\"><b>50–75%</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 90–92%</b></span><br>2) <span style=\"color:#51cf66\"><b>Hút mũi nông trước bú</b></span>; oxy canula mũi duy trì <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span><br>3) <span style=\"color:#51cf66\"><b>Đặt sonde dạ dày</b></span> cho ăn nếu <span style=\"color:#ffd43b\"><b>RR > 60 l/p</b></span>; hạn chế dịch TM <span style=\"color:#ffd43b\"><b>80%</b></span><br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG chụp X-quang</b></span>; <span style=\"color:#ff6b6b\"><b>không dùng kháng sinh / Salbutamol / Corticoid</b></span><br>5) Đánh giá lại mỗi <span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>: cải thiện → cai dần oxy, tập bú mẹ, xuất viện khi <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92% khí phòng 12 giờ</b></span>; xấu đi → <span style=\"color:#51cf66\"><b>nâng bậc HFNC</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nhập viện để theo dõi và hỗ trợ, không phải để thêm thuốc.",
+      "extra": "📖 Nguồn: PED-22, mục 6",
+      "tags": [
+        "PED-22",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B6-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Nhánh nặng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nhánh <span style=\"color:#ff6b6b\"><b>MỨC ĐỘ NẶNG</b></span>: <span style=\"color:#74c0fc\"><b>đặc điểm</b></span>, <span style=\"color:#51cf66\"><b>4 điểm hồi sức</b></span> và <span style=\"color:#ffd43b\"><b>tiêu chí nâng bậc</b></span> sau khi đánh giá lại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đặc điểm</b></span>: co kéo rất nặng/gật gù, thở <span style=\"color:#ffd43b\"><b>> 70 l/p</b></span> hoặc kiệt sức, bỏ bú hoàn toàn (<span style=\"color:#ffd43b\"><b>< 50%</b></span>), <span style=\"color:#ffd43b\"><b>SpO2 < 90%</b></span> trơ khí phòng<br>2) <span style=\"color:#51cf66\"><b>Thở HFNC 1.5–2.0 L/kg/phút</b></span>; <span style=\"color:#51cf66\"><b>nhịn ăn đường miệng</b></span>, sonde dạ dày dẫn lưu hoặc nhỏ giọt chậm<br>3) <span style=\"color:#51cf66\"><b>Truyền dịch TM 70–80%</b></span> (Glucose 5% + NaCl 0.9%)<br>4) <span style=\"color:#51cf66\"><b>Monitor</b></span> theo dõi cơn ngừng thở và SpO2; đánh giá lại mỗi <span style=\"color:#ffd43b\"><b>1 giờ</b></span><br>5) HFNC thất bại sau <span style=\"color:#ffd43b\"><b>2 giờ</b></span> → <span style=\"color:#51cf66\"><b>nCPAP 5–7 cmH2O</b></span>; toan hô hấp / kiệt sức → <span style=\"color:#ff6b6b\"><b>đặt nội khí quản thở máy</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nhánh nặng đánh giá lại mỗi 1 giờ vì mất bù có thể xảy ra trong vài giờ.",
+      "extra": "📖 Nguồn: PED-22, mục 6",
+      "tags": [
+        "PED-22",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B6-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ Bảng kiểm bên giường: <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> và <span style=\"color:#51cf66\"><b>3 NÊN</b></span> trong viêm tiểu phế quản là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> kháng sinh thường quy (bệnh do virus)<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> giãn phế quản Salbutamol thường quy<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> Corticoid toàn thân thường quy<br>4) <span style=\"color:#51cf66\"><b>NÊN</b></span> hút mũi nông NaCl 0.9% trước bú và trước ngủ (không hút sâu)<br>5) <span style=\"color:#51cf66\"><b>NÊN</b></span> thở oxy đúng ngưỡng <span style=\"color:#ffd43b\"><b>SpO2 < 90% / 92%</b></span>, nâng bậc <span style=\"color:#51cf66\"><b>HFNC</b></span> khi suy hô hấp<br>6) <span style=\"color:#51cf66\"><b>NÊN</b></span> nuôi qua sonde khi <span style=\"color:#ffd43b\"><b>RR > 60–70</b></span>, dịch TM chỉ <span style=\"color:#ffd43b\"><b>70–80%</b></span> nhu cầu<br><br><b>💡 Giải thích của AI:</b><br>Ba KHÔNG ngăn can thiệp vô ích; ba NÊN là phần việc thật sự có lợi.",
+      "extra": "📖 Nguồn: PED-22, mục 5, 6 và 12",
+      "tags": [
+        "PED-22",
+        "B6",
+        "Algo"
+      ]
+    },
+    {
+      "id": "PED22-B7-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "PARIS",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>PARIS (NEJM 2018)</b></span>: <span style=\"color:#ffd43b\"><b>đối tượng, cỡ mẫu</b></span>, <span style=\"color:#ffd43b\"><b>hai nhánh so sánh</b></span>, <span style=\"color:#ff6b6b\"><b>tỷ lệ thất bại</b></span> và <span style=\"color:#51cf66\"><b>khuyến cáo thực hành</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Franklin D và cs, <span style=\"color:#ffd43b\"><b>1472 trẻ < 12 tháng</b></span> viêm tiểu phế quản có suy hô hấp cần oxy<br>2) So sánh ngẫu nhiên: <span style=\"color:#51cf66\"><b>HFNC 2 L/kg/phút ngay từ đầu</b></span> vs oxy canula thông thường<br>3) Thất bại điều trị: canula <span style=\"color:#ffd43b\"><b>23%</b></span> vs HFNC <span style=\"color:#ffd43b\"><b>12%</b></span> (giảm gần một nửa, <span style=\"color:#ffd43b\"><b>p < 0.001</b></span>)<br>4) Trẻ thất bại canula được chuyển sang HFNC: <span style=\"color:#ffd43b\"><b>61%</b></span> đáp ứng tốt, không cần đặt nội khí quản<br>5) <span style=\"color:#51cf66\"><b>HFNC</b></span> là phương tiện hỗ trợ không xâm lấn vượt trội cho trẻ suy hô hấp từ <span style=\"color:#ffd43b\"><b>trung bình đến nặng</b></span><br><br><b>💡 Giải thích của AI:</b><br>Số liệu 23% → 12% là lý do HFNC được nâng lên làm bậc hỗ trợ ưu tiên.",
+      "extra": "📖 Nguồn: PED-22, mục 7.1 (Franklin 2018, PMID 29562151)",
+      "tags": [
+        "PED-22",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B7-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Dự phòng RSV",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "So sánh <span style=\"color:#74c0fc\"><b>Palivizumab (Synagis)</b></span> và <span style=\"color:#74c0fc\"><b>Nirsevimab (Beyfortus)</b></span> trong <span style=\"color:#51cf66\"><b>dự phòng RSV</b></span>: <span style=\"color:#ffd43b\"><b>cách dùng</b></span>, <span style=\"color:#ffd43b\"><b>đối tượng</b></span> và <span style=\"color:#ffd43b\"><b>hiệu quả</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Palivizumab</b></span>: kháng thể đơn dòng, <span style=\"color:#ffd43b\"><b>tiêm bắp mỗi tháng một lần</b></span> suốt mùa dịch, cho nhóm nguy cơ cực cao (<span style=\"color:#ffd43b\"><b>đẻ non < 29 tuần</b></span> hoặc tim bẩm sinh), chi phí rất đắt<br>2) <span style=\"color:#74c0fc\"><b>Nirsevimab</b></span>: kháng thể đơn dòng thế hệ mới tác dụng kéo dài, FDA và EMA phê duyệt; <span style=\"color:#51cf66\"><b>tiêm 1 mũi duy nhất</b></span> trước mùa dịch bảo vệ <span style=\"color:#ffd43b\"><b>5 tháng</b></span><br>3) Hiệu quả giảm <span style=\"color:#ffd43b\"><b>> 75–80%</b></span> nhập viện do viêm tiểu phế quản RSV, áp dụng cho <span style=\"color:#ffd43b\"><b>toàn bộ trẻ nhũ nhi</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nirsevimab giảm gánh nặng lịch tiêm hằng tháng và mở rộng bảo vệ ra toàn bộ trẻ nhũ nhi, không chỉ nhóm nguy cơ cực cao.",
+      "extra": "📖 Nguồn: PED-22, mục 7.2",
+      "tags": [
+        "PED-22",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B8-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Khung B8",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tám <span style=\"color:#ff6b6b\"><b>cạm bẫy lâm sàng chết người</b></span> trong điều trị viêm tiểu phế quản gồm những nhóm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dùng thuốc vô ích</b></span>: kháng sinh theo bạch cầu/CRP; Salbutamol liên tục; Corticoid<br>2) <span style=\"color:#ff6b6b\"><b>An toàn đường thở/dinh dưỡng</b></span>: ép bú khi thở > 65–70; hút đờm sâu; truyền dịch nhược trương<br>3) <span style=\"color:#ff6b6b\"><b>Theo dõi/xuất viện</b></span>: bỏ qua cơn ngừng thở ở sơ sinh/đẻ non; xuất viện quá sớm sau cai oxy<br><br><b>💡 Giải thích của AI:</b><br>Tám bẫy này là thông tin bảng tổng hợp các lỗi phổ biến nhất, mỗi lỗi kèm cơ chế và cách phòng ngừa.",
+      "extra": "📖 Nguồn: PED-22, mục 8",
+      "tags": [
+        "PED-22",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B8-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy 1–3",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 1–3 (<span style=\"color:#ff6b6b\"><b>kháng sinh, Salbutamol liên tục, Corticoid</b></span>): <span style=\"color:#74c0fc\"><b>cơ chế sai</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Kháng sinh vì bạch cầu/CRP tăng</b></span>: RSV phá biểu mô gây viêm toàn thân nhẹ; kháng sinh không diệt virus mà gây tiêu chảy, kháng thuốc → <span style=\"color:#51cf66\"><b>chỉ dùng khi có bằng chứng nhiễm khuẩn thứ phát rõ</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Salbutamol liên tục nhiều ngày</b></span>: tắc do nút nhầy không phải co thắt; nhịp nhanh <span style=\"color:#ffd43b\"><b>180–200 l/p</b></span>, run tay, bứt rứt, tăng lệch V/Q → <span style=\"color:#51cf66\"><b>không dùng thường quy; thử 1 cữ, sau 30 phút công thở và SpO2 không cải thiện khách quan thì DỪNG NGAY</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Corticoid (Dexamethasone/Prednisolone)</b></span>: không giảm phù nề cơ học, ức chế miễn dịch, kéo dài phát tán → <span style=\"color:#51cf66\"><b>tuyệt đối không dùng toàn thân</b></span><br><br><b>💡 Giải thích của AI:</b><br>Thử Salbutamol chỉ hợp lý khi có tiêu chí dừng khách quan (30 phút) chứ không phải dùng liên tục.",
+      "extra": "📖 Nguồn: PED-22, mục 8 (cạm bẫy 1–3)",
+      "tags": [
+        "PED-22",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B8-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy 4–6",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 4–6 (<span style=\"color:#ff6b6b\"><b>ép bú khi thở nhanh, hút đờm sâu, dịch nhược trương</b></span>): <span style=\"color:#74c0fc\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ép bú khi nhịp thở > 65–70 l/p</b></span>: mất phối hợp Mút–Nuốt–Thở, sữa tràn đường thở gây sặc tím tái hoặc viêm phổi hít → <span style=\"color:#51cf66\"><b>dừng bú miệng; sonde cho ăn nhỏ giọt hoặc truyền TM</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Hút đờm sâu, xoay ngoáy thô bạo</b></span>: loét niêm mạc họng, phù nề phản xạ, kích thích dây X gây ngừng tim/thở → <span style=\"color:#51cf66\"><b>chỉ hút mũi nông cửa mũi trước bằng nước muối sinh lý + bóng hút mềm</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Dịch TM nhược trương (Glucose 5% hoặc 100% nhu cầu)</b></span>: SIADH + thừa nước tự do → hạ Natri máu cấp, co giật, phù não → <span style=\"color:#51cf66\"><b>hạn chế 70–80% nhu cầu; dịch đẳng trương Glucose 5% trong NaCl 0.9%</b></span><br><br><b>💡 Giải thích của AI:</b><br>Ba bẫy này đều là can thiệp tốt ý nhưng thô bạo hoặc sai cơ chế sinh lý.",
+      "extra": "📖 Nguồn: PED-22, mục 8 (cạm bẫy 4–6)",
+      "tags": [
+        "PED-22",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B8-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy 7–8",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cạm bẫy 7–8 (<span style=\"color:#ff6b6b\"><b>bỏ qua apnea, xuất viện quá sớm</b></span>): <span style=\"color:#74c0fc\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>tiêu chuẩn xuất viện chuẩn</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bỏ qua cơn ngừng thở ở sơ sinh/đẻ non</b></span>: RSV ức chế trung tâm hô hấp, trẻ có thể ngừng thở và tử vong trong đêm không báo trước → <span style=\"color:#51cf66\"><b>bắt buộc monitor liên tục cho trẻ < 2 tháng hoặc tiền sử đẻ non</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Xuất viện ngay khi vừa cai oxy vài giờ</b></span>: đường thở còn nhiều đờm nhớt, bú chưa ổn định, dễ tái nhập viện trong <span style=\"color:#ffd43b\"><b>24 giờ</b></span><br>3) <span style=\"color:#51cf66\"><b>Chỉ xuất viện khi</b></span>: tự thở khí phòng <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92% ổn định ≥ 12–24 giờ</b></span> và bú được <span style=\"color:#ffd43b\"><b>≥ 75%</b></span> nhu cầu<br><br><b>💡 Giải thích của AI:</b><br>Cai oxy được vài giờ chưa chứng minh sự ổn định; cần quan sát đủ 12–24 giờ và khả năng bú.",
+      "extra": "📖 Nguồn: PED-22, mục 8 (cạm bẫy 7–8)",
+      "tags": [
+        "PED-22",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B9-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bé <span style=\"color:#ffd43b\"><b>8 tháng</b></span>, lần đầu thở nhanh, khò khè sau 2 ngày sốt nhẹ, chảy mũi; <span style=\"color:#ffd43b\"><b>bố bị hen</b></span>. Bác sĩ khí dung Salbutamol + tiêm Hydrocortisone vì cho là cơn hen. Có hợp lý không và <span style=\"color:#74c0fc\"><b>vì sao</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG hợp lý</b></span><br>2) Đây là <span style=\"color:#ffd43b\"><b>đợt khò khè đầu tiên</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>< 12 tháng</b></span> sau viêm long hô hấp trên điển hình trong mùa dịch → <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản cấp</b></span><br>3) Hen hầu như <span style=\"color:#ff6b6b\"><b>không chẩn đoán</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>< 12 tháng</b></span> trong đợt khò khè đầu tiên dù có tiền sử dị ứng gia đình<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương chủ yếu là phù nề và nút nhầy do virus; cơ trơn chưa đáp ứng tốt Salbutamol và Corticoid. Chụp mũ hen dẫn đến lạm dụng Corticoid gây hại.",
+      "extra": "📖 Nguồn: PED-22, mục 9 (Checkpoint 1)",
+      "tags": [
+        "PED-22",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B9-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bé <span style=\"color:#ffd43b\"><b>3 tháng</b></span>, ngày 4, nhịp thở <span style=\"color:#ffd43b\"><b>72 l/p</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>93%</b></span>, mẹ ép bú bình 100 mL, bé ho sặc. <span style=\"color:#51cf66\"><b>Hướng dẫn mẹ thế nào</b></span> và <span style=\"color:#74c0fc\"><b>vì sao</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>YÊU CẦU MẸ DỪNG BÚ BÌNH NGAY</b></span><br>2) Nhịp thở <span style=\"color:#ffd43b\"><b>72 l/p</b></span> làm mất phản xạ đóng nắp thanh môn an toàn khi nuốt → nguy cơ sặc cao, có thể ngừng thở tắc nghẽn<br>3) <span style=\"color:#51cf66\"><b>Đặt sonde dạ dày cỡ 6–8 Fr</b></span> qua mũi; chia nhỏ sữa (ví dụ <span style=\"color:#ffd43b\"><b>30–40 mL mỗi 2 giờ</b></span>) cho ăn nhỏ giọt bằng trọng lực<br><br><b>💡 Giải thích của AI:</b><br>Sonde cung cấp đủ năng lượng, bé không kiệt sức vì bú và đường thở an toàn.",
+      "extra": "📖 Nguồn: PED-22, mục 9 (Checkpoint 2)",
+      "tags": [
+        "PED-22",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B9-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint 3",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bố bé <span style=\"color:#ffd43b\"><b>5 tháng</b></span> (sốt 38.5, ho, rút lõm) bức xúc vì chỉ nhỏ nước muối và thở oxy, không kháng sinh. <span style=\"color:#51cf66\"><b>Giải thích thuyết phục</b></span> theo những ý nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh do <span style=\"color:#74c0fc\"><b>virus (thường RSV)</b></span>; kháng sinh diệt vi khuẩn, <span style=\"color:#ff6b6b\"><b>không tác dụng với virus</b></span><br>2) Khó thở do <span style=\"color:#ff6b6b\"><b>dịch nhầy đặc và tế bào chết làm nghẹt ống dẫn khí nhỏ</b></span> (như đường ống nước tắc rác); kháng sinh/thuốc bổ không làm tan được, còn gây rối loạn tiêu hóa và nhờn thuốc<br>3) <span style=\"color:#51cf66\"><b>Cách điều trị: hút sạch đờm mũi, oxy ấm ẩm, cho ăn từng ít một qua ống</b></span>; theo dõi sát nhịp thở và oxy từng giờ<br>4) Nếu có dấu hiệu nhiễm thêm vi khuẩn sẽ <span style=\"color:#51cf66\"><b>xét nghiệm và xử trí kịp thời</b></span><br><br><b>💡 Giải thích của AI:</b><br>Giải thích bằng ngôn ngữ đời thường bám cơ chế là điều trị; sự đồng thuận của cha mẹ quyết định an toàn.",
+      "extra": "📖 Nguồn: PED-22, mục 9 (Checkpoint 3)",
+      "tags": [
+        "PED-22",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B9-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint 4",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bé <span style=\"color:#ffd43b\"><b>2 tháng</b></span>: 20h thở <span style=\"color:#ffd43b\"><b>70 l/p</b></span>, co kéo mạnh; 23h thở <span style=\"color:#ffd43b\"><b>32 l/p</b></span>, nằm im, li bì, môi nhợt, <span style=\"color:#ffd43b\"><b>SpO2 86%</b></span>. <span style=\"color:#74c0fc\"><b>Bản chất</b></span> và <span style=\"color:#51cf66\"><b>xử trí khẩn cấp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cải thiện giả chết người do KIỆT SỨC CƠ HÔ HẤP HOÀN TOÀN</b></span>: nhịp giảm 70 → 32 không phải do thuyên giảm mà cơ hoành cạn năng lượng<br>2) Ứ <span style=\"color:#74c0fc\"><b>CO2</b></span> → toan hô hấp nặng, ức chế thần kinh trung ương gây li bì; SpO2 86% là suy hô hấp mất bù<br>3) <span style=\"color:#51cf66\"><b>Xử trí</b></span>: 1) báo động cấp cứu hồi sức; 2) nằm ngửa, ngửa cổ nhẹ, hút nhanh dịch mũi họng nông; 3) <span style=\"color:#51cf66\"><b>bóp bóng mặt nạ có túi dự trữ oxy 100%, tần số 30–40 l/p</b></span>; 4) chuẩn bị Atropin, Ketamin/Fentanyl, <span style=\"color:#51cf66\"><b>đặt nội khí quản thở máy xâm lấn</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nhịp thở chậm đi ở trẻ vừa co kéo nặng kèm li bì là dấu hiệu kiệt sức, không phải khỏi bệnh.",
+      "extra": "📖 Nguồn: PED-22, mục 9 (Checkpoint 4)",
+      "tags": [
+        "PED-22",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 1",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 1: bé trai <span style=\"color:#ffd43b\"><b>4 tháng</b></span>, <span style=\"color:#ffd43b\"><b>6.5 kg</b></span>, nhịp thở <span style=\"color:#ffd43b\"><b>58 l/p</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 91%</b></span>. <span style=\"color:#74c0fc\"><b>Tóm tắt dữ kiện, điểm Wang, chẩn đoán và quyết định cận lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dữ kiện: sinh đủ tháng, 3 ngày sổ mũi sốt nhẹ 38.0–38.2 °C, nay ho, khò khè, bú khó; bứt rứt, mạch 150, CRT 2 giây; rút lõm bờ sườn/hõm ức vừa, phập phồng cánh mũi nhẹ; khò khè rải rác + ran ẩm nhỏ hạt 2 đáy; gan 1 cm dưới bờ sườn (do cơ hoành bị đẩy)<br>2) Điểm Wang: nhịp thở 58 (2) + khò khè nghe rõ (2) + rút lõm vừa (2) + bứt rứt khó dỗ (2) = <span style=\"color:#ffd43b\"><b>8 điểm</b></span> (trung bình)<br>3) <span style=\"color:#74c0fc\"><b>Chẩn đoán</b></span>: viêm tiểu phế quản cấp ngày 4 mức độ trung bình — suy hô hấp độ 1; không cờ đỏ, <span style=\"color:#ffd43b\"><b>SpO2 91% < 92%</b></span> và bú giảm → <span style=\"color:#51cf66\"><b>nhập viện</b></span><br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG chụp X-quang, không xét nghiệm máu thường quy</b></span> vì bệnh cảnh điển hình, không dấu hiệu nhiễm trùng thứ phát<br><br><b>💡 Giải thích của AI:</b><br>Nhịp thở 58 trong ngưỡng tuổi 2–11 tháng (≥ 50) cộng SpO2 dưới 92% đưa ca này vào nhóm cần nhập viện.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 1, bước 1–3)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 1: <span style=\"color:#51cf66\"><b>kế hoạch điều trị nhập viện</b></span> cụ thể — <span style=\"color:#ffd43b\"><b>oxy</b></span>, <span style=\"color:#ffd43b\"><b>tư thế</b></span>, <span style=\"color:#ffd43b\"><b>dinh dưỡng</b></span>, <span style=\"color:#ff6b6b\"><b>thuốc nào không dùng</b></span> và <span style=\"color:#51cf66\"><b>hạ sốt</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Nhập khoa Hô hấp Nhi</b></span>; nhỏ NaCl 0.9% và hút sạch dịch nhầy 2 lỗ mũi trước<br>2) Oxy canula mũi <span style=\"color:#ffd43b\"><b>1.0 L/phút</b></span>, duy trì <span style=\"color:#ffd43b\"><b>SpO2 93–96%</b></span><br>3) Nằm <span style=\"color:#ffd43b\"><b>đầu cao 30°</b></span> để giải phóng áp lực ổ bụng đè cơ hoành<br>4) Thử bú mẹ cữ nhỏ: chia <span style=\"color:#ffd43b\"><b>8–10 lần/ngày</b></span>, mỗi lần <span style=\"color:#ffd43b\"><b>10–15 phút</b></span>; nếu ho sặc tiếp → <span style=\"color:#51cf66\"><b>đặt sonde dạ dày cho ăn sữa mẹ nhỏ giọt</b></span><br>5) <span style=\"color:#ff6b6b\"><b>KHÔNG kháng sinh, KHÔNG Salbutamol, KHÔNG Corticoid</b></span>; hạ sốt <span style=\"color:#51cf66\"><b>Paracetamol 10–15 mg/kg (khoảng 80 mg)</b></span> khi sốt <span style=\"color:#ffd43b\"><b>≥ 38.5 °C</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mọi lựa chọn đều là hỗ trợ: oxy đúng ngưỡng, nằm đầu cao, nuôi ăn an toàn.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 1, bước 4)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 1",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 1: <span style=\"color:#51cf66\"><b>theo dõi, giải thích cho mẹ</b></span> và <span style=\"color:#51cf66\"><b>tiêu chuẩn xuất viện</b></span> gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều dưỡng theo dõi nhịp thở, co kéo, SpO2 mỗi <span style=\"color:#ffd43b\"><b>2–3 giờ</b></span><br>2) Giải thích bệnh đang ở <span style=\"color:#ffd43b\"><b>đỉnh điểm ngày 3–5</b></span>, sẽ thuyên giảm từ <span style=\"color:#ffd43b\"><b>ngày 6–7</b></span><br>3) <span style=\"color:#51cf66\"><b>Xuất viện</b></span> khi: hết sốt, nhịp thở ổn định <span style=\"color:#ffd43b\"><b>< 50 l/p</b></span>, hết co kéo lồng ngực, bú tốt bằng miệng, <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92% khí phòng liên tục ≥ 12–24 giờ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tiêu chuẩn xuất viện phối hợp cả công thở, ăn bú và oxy ổn định, không chỉ riêng SpO2.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 1, bước 5)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 2",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 2: bé gái <span style=\"color:#ffd43b\"><b>6 tuần</b></span>, sinh non <span style=\"color:#ffd43b\"><b>33 tuần</b></span>, <span style=\"color:#ffd43b\"><b>3.2 kg</b></span>, ngừng thở <span style=\"color:#ffd43b\"><b>15–20 s</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 84%</b></span>. <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span>, <span style=\"color:#74c0fc\"><b>cơ chế</b></span> và <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span>: tuổi 6 tuần, sinh non 33 tuần, ngừng thở kèm nhịp chậm (85 l/p), <span style=\"color:#ffd43b\"><b>SpO2 84%</b></span>, đầu gật gù, da tái xám, CRT <span style=\"color:#ffd43b\"><b>3 giây</b></span>, nhịp thở <span style=\"color:#ffd43b\"><b>76 l/p</b></span> co kéo hõm ức sâu → suy hô hấp cấp độ 3, đe dọa ngừng thở ngừng tim<br>2) Sinh non 33 tuần: trung tâm hô hấp hành não chưa biệt hóa, thụ thể hóa học nhạy kém thiếu oxy → dễ bị ức chế gây ngừng thở trung ương khi nhiễm RSV; cơ hoành cận kề kiệt sức<br>3) Poiseuille: RSV tắc lan tỏa, sức cản tăng gấp hàng trăm lần; virus ức chế phản xạ hô hấp thân não<br>4) <span style=\"color:#74c0fc\"><b>Chẩn đoán</b></span>: viêm tiểu phế quản cấp ngày 3 thể nặng có biến chứng cơn ngừng thở — suy hô hấp cấp mất bù trên trẻ đẻ non 33 tuần<br><br><b>💡 Giải thích của AI:</b><br>Tổ hợp tuổi nhỏ, sinh non, apnea và SpO2 84% là mẫu hình nặng nhất của bài.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 2, bước 1–3)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 2: <span style=\"color:#51cf66\"><b>xử trí cấp cứu ngừng thở</b></span> và <span style=\"color:#51cf66\"><b>hỗ trợ hô hấp tại PICU</b></span> (HFNC, tính lưu lượng, nCPAP) cụ thể ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nằm ngửa, cổ ngửa nhẹ trung gian; <span style=\"color:#51cf66\"><b>hút nhanh dịch mũi họng nông</b></span>; kích thích xúc giác (xoa lưng, búng nhẹ gót chân)<br>2) Cơn ngừng thở không tự hồi phục sau <span style=\"color:#ffd43b\"><b>5 giây</b></span> → <span style=\"color:#51cf66\"><b>bóp bóng mặt nạ túi dự trữ oxy 100%</b></span> <span style=\"color:#ffd43b\"><b>1–2 phút</b></span> đến khi nhịp tim <span style=\"color:#ffd43b\"><b>> 120</b></span> và SpO2 <span style=\"color:#ffd43b\"><b>> 95%</b></span><br>3) <span style=\"color:#51cf66\"><b>HFNC 2.0 L/kg/phút</b></span> (<span style=\"color:#ffd43b\"><b>3.2 kg × 2 = 6.5 L/phút</b></span>), ấm 37 °C, ẩm 100%, <span style=\"color:#ffd43b\"><b>FiO2 khởi đầu 50%</b></span>, chuẩn độ SpO2 <span style=\"color:#ffd43b\"><b>94–97%</b></span><br>4) Sau <span style=\"color:#ffd43b\"><b>1 giờ</b></span> vẫn ngừng thở hoặc toan hô hấp → <span style=\"color:#51cf66\"><b>nCPAP 5–6 cmH2O</b></span> hoặc <span style=\"color:#ff6b6b\"><b>đặt nội khí quản thở máy</b></span><br><br><b>💡 Giải thích của AI:</b><br>Trẻ 3.2 kg × 2 L/kg/phút cho ra khoảng 6.5 L/phút — phép tính lưu lượng HFNC theo cân nặng.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 2, bước 4)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B10-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca 2",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Ca 2: <span style=\"color:#51cf66\"><b>theo dõi, dinh dưỡng, dịch truyền (tính 75%)</b></span>, <span style=\"color:#51cf66\"><b>xét nghiệm hồi sức</b></span> và <span style=\"color:#51cf66\"><b>kế hoạch cai</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Monitor tim–thở–SpO2 liên tục 24/24 giờ</b></span>, báo động nhịp chậm <span style=\"color:#ffd43b\"><b>< 100 l/p</b></span> và ngừng thở <span style=\"color:#ffd43b\"><b>> 10 s</b></span><br>2) <span style=\"color:#ff6b6b\"><b>NPO</b></span> hoàn toàn đường miệng; sonde dạ dày <span style=\"color:#ffd43b\"><b>6 Fr</b></span> xả khí và dịch; đường truyền TM ngoại vi<br>3) Dịch: nhu cầu <span style=\"color:#ffd43b\"><b>3.2 × 100 = 320 mL/ngày</b></span>; hạn chế <span style=\"color:#ffd43b\"><b>75%</b></span> = <span style=\"color:#ffd43b\"><b>240 mL/24 giờ (~10 mL/giờ)</b></span>, Glucose 5% trong NaCl 0.9%<br>4) Xét nghiệm: khí máu (PaCO2, pH), điện giải (Natri, Kali — SIADH), X-quang tại giường (tràn khí màng phổi, xẹp thùy); <span style=\"color:#ff6b6b\"><b>không kháng sinh, corticoid, salbutamol</b></span><br>5) Cai: không ngừng thở <span style=\"color:#ffd43b\"><b>48 giờ</b></span>, nhịp thở <span style=\"color:#ffd43b\"><b>< 60 l/p</b></span>, bớt co kéo → giảm HFNC mỗi <span style=\"color:#ffd43b\"><b>0.5 L/kg/phút</b></span>, FiO2 về 21%; ăn lại sonde <span style=\"color:#ffd43b\"><b>5–10 mL mỗi 3 giờ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Giảm dịch còn 75% vì nguy cơ SIADH; đánh giá lại công thở và khí máu mỗi 2–4 giờ.",
+      "extra": "📖 Nguồn: PED-22, mục 10 (Ca 2, bước 4–5)",
+      "tags": [
+        "PED-22",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B11-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Các <span style=\"color:#51cf66\"><b>mẹo thực hành lâm sàng</b></span> về <span style=\"color:#74c0fc\"><b>khám mũi, bộc lộ ngực, tư thế, bẫy X-quang, bẫy phổi câm</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Khám mũi trước khi nghe phổi</b></span>: hút sạch hai cục nhầy mũi, nhịp thở có thể giảm <span style=\"color:#ffd43b\"><b>15 nhịp/phút</b></span><br>2) <span style=\"color:#51cf66\"><b>Cởi áo hoàn toàn</b></span> để quan sát ngực và bụng; quần áo dày che rút lõm và phập phồng cánh mũi<br>3) <span style=\"color:#51cf66\"><b>Nằm đầu cao 30°</b></span>: tạng ổ bụng hạ xuống, giảm chèn cơ hoành<br>4) <span style=\"color:#ff6b6b\"><b>Bẫy X-quang</b></span>: dải mờ đa phần là xẹp phổi do nút nhầy, đừng đổi kháng sinh vì một tấm phim<br>5) <span style=\"color:#ff6b6b\"><b>Bẫy phổi câm</b></span>: thở rút lõm sâu mà không nghe ran/khò khè = đường thở bít hoàn toàn, xử trí cấp cứu ngay<br><br><b>💡 Giải thích của AI:</b><br>Các mẹo này bắt nguồn từ cơ chế: nghẹt mũi làm tăng công thở, nút nhầy gây xẹp phổi giống viêm phổi.",
+      "extra": "📖 Nguồn: PED-22, mục 11 (mẹo 2, 3, 5, 6, 7)",
+      "tags": [
+        "PED-22",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B11-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Các mẹo về <span style=\"color:#51cf66\"><b>quy tắc 3 KHÔNG, sặc sữa, hạn chế dịch, cơn ngừng thở, tư vấn cha mẹ</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>3 Không</b></span> thuộc lòng: không kháng sinh, không giãn phế quản, không corticoid<br>2) Nhịp thở <span style=\"color:#ffd43b\"><b>> 60–70 l/p</b></span> → ra y lệnh <span style=\"color:#51cf66\"><b>ngừng bú bình và đặt sonde dạ dày</b></span><br>3) Giảm <span style=\"color:#ffd43b\"><b>20–30%</b></span> thể tích dịch TM duy trì ở trẻ nặng để tránh quá tải tuần hoàn và phù não<br>4) Trẻ <span style=\"color:#ffd43b\"><b>< 2 tháng</b></span> hoặc đẻ non: monitor liên tục vì apnea có thể xuất hiện <span style=\"color:#ff6b6b\"><b>trước ho/khò khè</b></span><br>5) Dành <span style=\"color:#ffd43b\"><b>3 phút</b></span> giải thích cơ chế và hướng dẫn chăm sóc mũi họng; sự đồng thuận của cha mẹ quyết định điều trị ngoại trú an toàn<br><br><b>💡 Giải thích của AI:</b><br>Tư vấn là một phần của điều trị: cha mẹ hoang mang khi con khò khè mà không có thuốc uống.",
+      "extra": "📖 Nguồn: PED-22, mục 11 (mẹo 1, 4, 8, 9, 10)",
+      "tags": [
+        "PED-22",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B11-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Tóm tắt",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tóm tắt cốt lõi (1/2): <span style=\"color:#ffd43b\"><b>tuổi đỉnh và diễn tiến</b></span>, <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span>, <span style=\"color:#ff6b6b\"><b>xét nghiệm không làm</b></span> và <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Đỉnh mắc 2–6 tháng</b></span>; RSV là tác nhân số 1; nặng nhất ngày <span style=\"color:#ffd43b\"><b>3–5</b></span><br>2) <span style=\"color:#74c0fc\"><b>Chẩn đoán thuần lâm sàng</b></span>: viêm long trên 2–3 ngày rồi thở nhanh, khò khè, rút lõm, ran ẩm nhỏ hạt ở trẻ <span style=\"color:#ffd43b\"><b>< 24 tháng</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Không</b></span> X-quang, máu, test virus thường quy ở ca nhẹ-trung bình<br>4) <span style=\"color:#51cf66\"><b>Less is More</b></span>: không kháng sinh, không Salbutamol, không Corticoid toàn thân thường quy<br><br><b>💡 Giải thích của AI:</b><br>Bốn ý đầu của mười điều mang vào ca trực, bao gồm chẩn đoán và triết lý tránh can thiệp thừa.",
+      "extra": "📖 Nguồn: PED-22, mục 12 (điều 1–4)",
+      "tags": [
+        "PED-22",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B11-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Tóm tắt",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tóm tắt cốt lõi (2/2): <span style=\"color:#51cf66\"><b>3 trụ cột</b></span>, <span style=\"color:#ff6b6b\"><b>apnea</b></span>, <span style=\"color:#ffd43b\"><b>hạn chế dịch</b></span> và <span style=\"color:#ff6b6b\"><b>bẫy phổi câm/nhịp thở chậm</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Trụ cột 1</b></span>: hút rửa mũi nông NaCl 0.9% trước ăn và ngủ; cấm hút đờm sâu thô bạo<br>2) <span style=\"color:#51cf66\"><b>Trụ cột 2</b></span>: oxy khi <span style=\"color:#ffd43b\"><b>SpO2 < 90% (AAP)</b></span> hoặc <span style=\"color:#ffd43b\"><b>< 92% (Bộ Y tế)</b></span>; nâng HFNC <span style=\"color:#ffd43b\"><b>1.5–2.0 L/kg/phút</b></span> khi suy hô hấp vừa đến nặng<br>3) <span style=\"color:#51cf66\"><b>Trụ cột 3</b></span>: nhịp thở <span style=\"color:#ffd43b\"><b>> 60–70</b></span> → dừng bú miệng, sonde nhỏ giọt<br>4) <span style=\"color:#ff6b6b\"><b>Apnea</b></span>: monitor liên tục cho trẻ <span style=\"color:#ffd43b\"><b>< 2 tháng</b></span> và sinh non <span style=\"color:#ffd43b\"><b>< 35 tuần</b></span><br>5) Hạn chế dịch <span style=\"color:#ffd43b\"><b>80%</b></span> phòng SIADH; <span style=\"color:#ff6b6b\"><b>nhịp thở giảm kèm li bì</b></span> = kiệt sức cơ hô hấp cận tử vong → bóp bóng và đặt nội khí quản ngay<br><br><b>💡 Giải thích của AI:</b><br>Nhịp thở giảm không đồng nghĩa khỏi bệnh: kết hợp với li bì đó là kiệt sức.",
+      "extra": "📖 Nguồn: PED-22, mục 12 (điều 5–10)",
+      "tags": [
+        "PED-22",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B11-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Bảng kiểm",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng kiểm an toàn tại buồng bệnh (<span style=\"color:#51cf66\"><b>Ward Round Checklist</b></span>) gồm <span style=\"color:#ffd43b\"><b>7 câu hỏi</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đã <span style=\"color:#51cf66\"><b>hút sạch dịch nhầy mũi</b></span> trước khi đánh giá công thở chưa?<br>2) Trẻ có thuộc <span style=\"color:#ff6b6b\"><b>nhóm nguy cơ cao</b></span> (tuổi <span style=\"color:#ffd43b\"><b>< 12 tuần</b></span>, đẻ non, tim bẩm sinh) không?<br>3) Đã đo <span style=\"color:#ffd43b\"><b>SpO2 khí phòng</b></span> với dạng sóng xung mạch chuẩn chưa?<br>4) Nhịp thở có vượt <span style=\"color:#ffd43b\"><b>60–70 l/p</b></span> để chỉ định đặt sonde dạ dày chưa?<br>5) Đã ngừng thuốc không cần thiết (<span style=\"color:#ff6b6b\"><b>kháng sinh, corticoid, giãn phế quản</b></span>) chưa?<br>6) Dịch TM (nếu có) đã giảm xuống <span style=\"color:#ffd43b\"><b>75–80%</b></span> chưa?<br>7) Trẻ có được <span style=\"color:#51cf66\"><b>monitor theo dõi cơn ngừng thở</b></span> không?<br><br><b>💡 Giải thích của AI:</b><br>Đọc bảng kiểm này mỗi lần đi buồng giúp không bỏ sót bước nào trong chuỗi chăm sóc.",
+      "extra": "📖 Nguồn: PED-22, mục 12 (Ward Round Checklist)",
+      "tags": [
+        "PED-22",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED22-B0-C01",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Khái niệm Tiểu phế quản (Bronchiole) trong giải phẫu học hô hấp được định nghĩa là các nhánh phế quản nhỏ có đường kính {{c1::< 1 mm}}, không có sụn nâng đỡ trong thành ống.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007129
+    },
+    {
+      "id": "PED22-B0-C02",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Tác nhân vi sinh hàng đầu gây Viêm tiểu phế quản cấp ở trẻ nhỏ (chiếm 70–80% tổng số ca bệnh) là {{c1::Virus hợp bào hô hấp (RSV - Respiratory Syncytial Virus)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007131
+    },
+    {
+      "id": "PED22-B0-C03",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Độ tuổi đỉnh cao mắc bệnh Viêm tiểu phế quản cấp và có nguy cơ tiến triển nặng nề nhất rơi vào khoảng từ {{c1::2 đến 6 tháng tuổi}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007133
+    },
+    {
+      "id": "PED22-B2-C01",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Hiện tượng Ứ khí phế nang (Air Trapping / Hyperinflation) phát sinh do cơ chế {{c1::van một chiều (khí vào được khi hít vào nhưng bị kẹt lại khi thở ra)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007135
+    },
+    {
+      "id": "PED22-B2-C02",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Khi nút nhầy bít kín hoàn toàn lòng tiểu phế quản ở trẻ nhũ nhi, hiện tượng mao mạch hấp thu hết lượng khí giam hãm phía sau sẽ gây biến chứng {{c1::Xẹp phổi phân thùy rải rác (Patchy Atelectasis)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007137
+    },
+    {
+      "id": "PED22-B2-C03",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Hội chứng tăng tiết hormone chống bài niệu không thích hợp (SIADH) trong viêm tiểu phế quản nặng dẫn đến tình trạng nguy hiểm là {{c1::giữ nước tự do gây hạ Natri máu cấp tính}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007139
+    },
+    {
+      "id": "PED22-B0-C04",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Liệu pháp Oxy dòng cao qua canula mũi (HFNC) cung cấp dòng khí được làm ấm và ẩm tối ưu, tạo áp lực dương PEEP nhẹ khoảng {{c1::2 đến 4 cmH2O}} giúp chống xẹp đường thở nhỏ.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007141
+    },
+    {
+      "id": "PED22-B0-C05",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Triết lý điều trị quốc tế chuẩn mực trong Viêm tiểu phế quản cấp được đúc kết bằng nguyên tắc: {{c1::'Less is More — Can thiệp tối thiểu, Hỗ trợ tối đa'}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007143
+    },
+    {
+      "id": "PED22-B0-C06",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Cơn ngừng thở (Apnea) bệnh lý ở trẻ viêm tiểu phế quản được định nghĩa là cơn ngừng thở kéo dài {{c1::> 15–20 giây}}, hoặc bất kỳ thời lượng nào có kèm theo tím tái hoặc nhịp tim chậm.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007145
+    },
+    {
+      "id": "PED22-B4-C01",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Dấu hiệu 'Phổi câm' (Silent Chest) khi nghe phổi ở trẻ viêm tiểu phế quản thở co kéo nặng là dấu hiệu của {{c1::đường thở bị nút nhầy bít kín hoàn toàn hoặc cơ hoành đã kiệt sức}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007147
+    },
+    {
+      "id": "PED22-B1-C01",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Theo hướng dẫn của AAP và NICE, Viêm tiểu phế quản cấp được định nghĩa là đợt khò khè đầu tiên xảy ra ở trẻ {{c1::dưới 24 tháng tuổi}} (chủ yếu dưới 12 tháng).",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007149
+    },
+    {
+      "id": "PED22-B1-C02",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Trong tiến triển tự nhiên của viêm tiểu phế quản do RSV, giai đoạn đỉnh điểm nặng nề nhất về lâm sàng (Peak of Illness) thường rơi vào {{c1::ngày thứ 3 đến ngày thứ 5}} của bệnh.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007151
+    },
+    {
+      "id": "PED22-B1-C03",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Yếu tố nguy cơ cơ địa hàng đầu khiến trẻ viêm tiểu phế quản dễ bị ngừng thở và suy hô hấp kiệt sức là {{c1::tuổi nhỏ dưới 12 tuần (đặc biệt < 6–8 tuần)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007155
+    },
+    {
+      "id": "PED22-B1-C04",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Trẻ có tiền sử đẻ non với tuổi thai {{c1::< 35 tuần}} có nguy cơ diễn tiến suy hô hấp nặng và ngừng thở cao gấp nhiều lần khi nhiễm RSV.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007157
+    },
+    {
+      "id": "PED22-B1-C05",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Trẻ có bệnh tim bẩm sinh với luồng thông {{c1::Trái - Phải lớn hoặc tăng áp động mạch phổi}} rất dễ bị đẩy vào suy tim cấp và phù phổi khi mắc viêm tiểu phế quản.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007159
+    },
+    {
+      "id": "PED22-B1-C06",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Bệnh phổi mạn tính ở trẻ sinh non được gọi là {{c1::Loạn sản phế quản phổi (BPD - Bronchopulmonary Dysplasia)}}, là một yếu tố nguy cơ khiến viêm tiểu phế quản diễn tiến nguy kịch.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007161
+    },
+    {
+      "id": "PED22-B1-C07",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Bốn tiêu chí lâm sàng được chấm điểm trong thang điểm Wang (Wang Clinical Score 0–12) gồm: {{c1::Nhịp thở, Tiếng khò khè, Co kéo cơ hô hấp, và Tri giác/tổng trạng}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007163
+    },
+    {
+      "id": "PED22-B1-C08",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Theo thang điểm Wang, tổng điểm từ {{c1::9 đến 12 điểm}} được xếp vào mức độ Nặng, có chỉ định nhập viện cấp cứu / phòng hồi sức tích cực PICU.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007165
+    },
+    {
+      "id": "PED22-B2-C04",
+      "type": "cloze",
+      "section": "B2",
+      "text": "RSV xâm nhập và gây hoại tử tế bào biểu mô có lông chuyển của tiểu phế quản dẫn đến sự tê liệt của hệ thống {{c1::thang cuốn nhầy-lông chuyển (Mucociliary clearance)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007167
+    },
+    {
+      "id": "PED22-B2-C05",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lý do trẻ nhũ nhi dưới 1 tuổi dễ bị xẹp phổi khi tắc tiểu phế quản là do hệ thống thông khí bàng hệ gồm {{c1::Lỗ Kohn và Kênh Lambert}} chưa phát triển hoàn thiện.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007169
+    },
+    {
+      "id": "PED22-B2-C06",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lý do sinh học giải thích vì sao Salbutamol KHÔNG hiệu quả ở trẻ nhũ nhi viêm tiểu phế quản là do lớp cơ trơn mỏng thưa thớt và mật độ {{c1::thụ thể Beta-2 giao cảm}} chưa hoàn thiện.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007175
+    },
+    {
+      "id": "PED22-B2-C07",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Corticoid toàn thân không có hiệu quả trong viêm tiểu phế quản cấp vì không thể làm tan nút nhầy cơ học và còn {{c1::ức chế miễn dịch làm chậm đào thải virus, kéo dài thời gian phát tán mầm bệnh}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007177
+    },
+    {
+      "id": "PED22-B2-C08",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Tác dụng phụ nguy hiểm thường gặp khi cho trẻ nhũ nhi khí dung Salbutamol liều cao là {{c1::nhịp tim nhanh (180–200 lần/phút), bứt rứt, run tay và tụt SpO2}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007179
+    },
+    {
+      "id": "PED22-B3-C01",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Hướng dẫn của AAP (2014/2022) và NICE (2021) khẳng định chẩn đoán Viêm tiểu phế quản cấp là một chẩn đoán {{c1::thuần túy dựa vào bệnh sử và thăm khám lâm sàng}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007181
+    },
+    {
+      "id": "PED22-B3-C02",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Tỷ lệ đồng nhiễm vi khuẩn nghiêm trọng (Nhiễm khuẩn huyết, Viêm màng não) ở trẻ viêm tiểu phế quản có sốt là cực kỳ thấp: {{c1::< 1–2%}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007185
+    },
+    {
+      "id": "PED22-B3-C03",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Xét nghiệm tìm virus (Test nhanh kháng nguyên RSV hoặc PCR) {{c1::KHÔNG ĐƯỢC khuyến cáo thường quy}} ở bệnh nhân khám ngoại trú.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007187
+    },
+    {
+      "id": "PED22-B4-C02",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Cơ chế RSV gây Cơn ngừng thở (Apnea) ở trẻ dưới 2 tháng tuổi là do virus ức chế trực tiếp {{c1::trung tâm điều hòa nhịp thở ở thân não}} và kích thích phản xạ thanh quản.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007189
+    },
+    {
+      "id": "PED22-B4-C03",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Khi trẻ viêm tiểu phế quản đang thở rút lõm sâu mà nghe phổi không còn thấy tiếng ran hay tiếng khò khè (Phổi câm), xử trí cấp cứu tức thì là {{c1::bóp bóng oxy 100% qua mặt nạ và chuẩn bị đặt nội khí quản}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007193
+    },
+    {
+      "id": "PED22-B5-C01",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ở trẻ nhũ nhi thở mũi bắt buộc, chỉ cần dịch nhầy đặc ở cửa mũi trước cũng làm tăng {{c1::50%}} sức cản đường thở toàn bộ.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007195
+    },
+    {
+      "id": "PED22-B5-C02",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Theo Hướng dẫn Bộ Y tế Việt Nam và BV Nhi Đồng 1, ngưỡng chỉ định thở oxy ở trẻ viêm tiểu phế quản là khi {{c1::SpO2 < 92%}} khi thở khí phòng.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007199
+    },
+    {
+      "id": "PED22-B5-C03",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Lưu lượng khởi đầu được khuyến cáo cho Liệu pháp Oxy dòng cao qua canula mũi (HFNC) ở trẻ viêm tiểu phế quản suy hô hấp là {{c1::1.5 đến 2.0 L/kg/phút}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007201
+    },
+    {
+      "id": "PED22-B5-C04",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ở trẻ viêm tiểu phế quản nặng cần truyền dịch tĩnh mạch, thể tích dịch duy trì được hạn chế ở mức {{c1::70–80% nhu cầu duy trì cơ bản}} để phòng ngừa hội chứng SIADH.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007205
+    },
+    {
+      "id": "PED22-B5-C05",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Đánh giá hệ thống Cochrane của Gadomski (2014) trên 48 thử nghiệm lâm sàng với 4733 trẻ kết luận rằng Salbutamol {{c1::không cải thiện SpO2, không giảm tỷ lệ nhập viện và không rút ngắn ngày nằm viện}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007207
+    },
+    {
+      "id": "PED22-B5-C06",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Đánh giá hệ thống Cochrane của Fernandes (2013) trên 17 thử nghiệm với 2596 trẻ khẳng định Corticoid toàn thân {{c1::không mang lại bất kỳ lợi ích lâm sàng nào}} trong viêm tiểu phế quản do virus.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007209
+    },
+    {
+      "id": "PED22-B5-C07",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Đánh giá hệ thống Cochrane của Zhang (2017) cho thấy Khí dung Nước muối ưu trương 3% có thể rút ngắn nhẹ thời gian nằm viện ở nhóm trẻ {{c1::nằm viện điều trị nội trú kéo dài > 72 giờ}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007211
+    },
+    {
+      "id": "PED22-B7-C01",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Thuốc kháng thể đơn dòng thế hệ mới chỉ cần tiêm 1 liều duy nhất trước mùa dịch giúp bảo vệ trẻ suốt 5 tháng là {{c1::Nirsevimab (Beyfortus)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007215
+    },
+    {
+      "id": "PED22-B7-C02",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Thử nghiệm lâm sàng PARIS (NEJM 2018) trên 1472 trẻ chứng minh tỷ lệ thất bại điều trị ở nhóm dùng canula oxy thông thường là 23%, trong khi nhóm dùng HFNC chỉ là {{c1::12% (giảm gần 50% nguy cơ)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007225
+    },
+    {
+      "id": "PED22-B7-C03",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Trong thử nghiệm PARIS, khi những trẻ thất bại với canula thông thường được giải cứu chuyển sang thở HFNC, có tới {{c1::61%}} trẻ đáp ứng tốt và tránh được việc phải đặt ống nội khí quản.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007227
+    },
+    {
+      "id": "PED22-B8-C01",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Kê đơn kháng sinh vì thấy số lượng bạch cầu máu tăng nhẹ trong viêm tiểu phế quản là sai lầm vì {{c1::nhiễm virus RSV phá hủy biểu mô hoàn toàn có thể kích hoạt phản ứng viêm toàn thân nhẹ}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007229
+    },
+    {
+      "id": "PED22-B8-C02",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Tiếp tục cho khí dung Salbutamol nhiều ngày dù không thấy đáp ứng sau liều thử nghiệm là sai lầm vì thuốc gây {{c1::nhịp tim nhanh, run rẩy, bứt rứt và tăng tiêu thụ oxy cơ tim}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007231
+    },
+    {
+      "id": "PED22-B8-C03",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Cố ép trẻ bú bình hoặc bú mẹ khi nhịp thở > 65–70 lần/phút có nguy cơ gây biến chứng chết người là {{c1::hít sặc sữa vào phổi dẫn đến co thắt thanh quản nghẹt thở}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007233
+    },
+    {
+      "id": "PED22-B8-C04",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Truyền dịch tĩnh mạch tự do dung dịch nhược trương (như Glucose 5% đơn thuần) ở trẻ viêm tiểu phế quản nặng có nguy cơ gây {{c1::hạ Natri máu cấp dẫn đến phù não và co giật}} do hội chứng SIADH.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007235
+    },
+    {
+      "id": "PED22-B8-C05",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Bỏ qua cơn ngừng thở ở trẻ sơ sinh và trẻ đẻ non là sai lầm chết người vì {{c1::cơn ngừng thở có thể xuất hiện đột ngột trước cả khi trẻ ho hay khò khè}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007237
+    },
+    {
+      "id": "PED22-B9-C01",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Một trẻ viêm tiểu phế quản thở 70 l/p lúc 20h, đến 23h nhịp thở giảm xuống 32 l/p kèm li bì khó đánh thức, SpO2 86%; đây là tình trạng {{c1::kiệt sức cơ hô hấp hoàn toàn và toan hô hấp cấp cận tử vong}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007247
+    },
+    {
+      "id": "PED22-B10-C01",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở bé trai 4 tháng tuổi nặng 6.5 kg viêm tiểu phế quản mức độ trung bình có SpO2 91% và nhịp thở 58 l/p, can thiệp oxy ban đầu là {{c1::thở oxy qua canula mũi 1.0 L/phút để duy trì SpO2 từ 93% đến 96%}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007249
+    },
+    {
+      "id": "PED22-B10-C02",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở bé gái 6 tuần tuổi sinh non 33 tuần nặng 3.2 kg viêm tiểu phế quản có cơn ngừng thở và nhịp chậm, hỗ trợ hô hấp không xâm lấn đầu tay tại PICU là {{c1::thở HFNC lưu lượng 2.0 L/kg/phút (khoảng 6.5 L/phút) ấm ẩm}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007251
+    },
+    {
+      "id": "PED22-B10-C03",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở trẻ 3.2 kg viêm tiểu phế quản nặng cần nhịn ăn hoàn toàn (NPO), lượng dịch truyền tĩnh mạch đẳng trương Glucose 5% trong NaCl 0.9% hạn chế ở mức 75% nhu cầu là khoảng {{c1::240 mL/24 giờ (tương đương 10 mL/giờ)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007253
+    },
+    {
+      "id": "PED22-B2-C09",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Bẫy lâm sàng gan to ở trẻ viêm tiểu phế quản thực chất là gan to giả do {{c1::ứ khí phế nang đẩy cơ hoành dẹt xuống thấp}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007259
+    },
+    {
+      "id": "PED22-B3-C04",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Hình ảnh dải mờ trên X-quang phổi ở trẻ viêm tiểu phế quản đa phần là {{c1::xẹp phổi phân thùy do tắc nút nhầy cơ học}}, không phải đông đặc do vi khuẩn.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007261
+    },
+    {
+      "id": "PED22-B6-C01",
+      "type": "cloze",
+      "section": "B6",
+      "text": "Khi đi buồng trực, nguyên tắc '3 KHÔNG THƯỜNG QUY' trong viêm tiểu phế quản bắt buộc phải thuộc lòng là: {{c1::Không Kháng sinh — Không Giãn phế quản (Salbutamol) — Không Corticoid toàn thân}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007265
+    },
+    {
+      "id": "PED22-B4-C04",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Bắt buộc theo dõi monitor nhịp thở và nhịp tim liên tục cho trẻ dưới 2 tháng tuổi hoặc trẻ đẻ non để phát hiện sớm {{c1::Cơn ngừng thở (Apnea)}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007275
+    },
+    {
+      "id": "PED22-B8-C06",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Tiêu chuẩn cho trẻ viêm tiểu phế quản xuất viện an toàn là tự thở khí phòng duy trì SpO2 ≥ 92% ổn định trong ít nhất {{c1::12 đến 24 giờ}} và bú được ≥ 75%.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007283
+    },
+    {
+      "id": "PED22-B6-C02",
+      "type": "cloze",
+      "section": "B6",
+      "text": "Khi trẻ viêm tiểu phế quản thất bại với HFNC sau 2 giờ, bước nâng bậc tiếp theo là {{c1::thở nCPAP áp lực 5–7 cmH2O}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007301
+    },
+    {
+      "id": "PED22-B5-C08",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Tại sao không nên khí dung nước muối ưu trương 3% thường quy tại phòng Cấp cứu? Vì {{c1::nó không làm giảm tỷ lệ nhập viện ngay lập tức và có thể gây co thắt phế quản phản xạ}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007303
+    },
+    {
+      "id": "PED22-B10-C04",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở trẻ sinh non 33 tuần mắc viêm tiểu phế quản có cơn ngừng thở, kích thích xúc giác ban đầu bằng cách {{c1::xoa lưng hoặc búng nhẹ gót chân}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007325
+    },
+    {
+      "id": "PED22-B0-C07",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Thành công của điều trị Viêm tiểu phế quản cấp nằm ở 3 trụ cột: {{c1::làm sạch đường thở nông, cung cấp oxy đúng ngưỡng, duy trì nuôi dưỡng/bù dịch an toàn}}.",
+      "extra": "📖 Nguồn: PED-22 (thẻ cloze ôn tập phụ)",
+      "legacy_note_id": 1789471007327
+    }
+  ]
+}

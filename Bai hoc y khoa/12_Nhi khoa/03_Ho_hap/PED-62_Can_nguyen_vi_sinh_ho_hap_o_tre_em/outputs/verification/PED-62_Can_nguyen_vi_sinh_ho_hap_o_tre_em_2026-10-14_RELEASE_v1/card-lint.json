@@ -1,0 +1,57 @@
+{
+  "code": "PED-62",
+  "deck_name": "Nhi khoa Y6::PED-62: Đặc điểm bệnh học & Căn nguyên vi sinh hô hấp ở trẻ em",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T21:59:33",
+  "cards_source": "ped62_cards_data.py",
+  "cards_source_sha256": "3ec730cd055a110cfb61c459e356fbd65d99614e0158e129864fd84d60cc65ae",
+  "card_count": 68,
+  "summary": {
+    "block": 0,
+    "debt": 3,
+    "warn": 1,
+    "by_code": {
+      "G_COLOR_BACK": 3,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED62-B0-01",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED62-B6-02",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED62-B7-07",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-62_Can_nguyen_vi_sinh_ho_hap_o_tre_em_2026-10-14_RELEASE_v1.apkg",
+  "anki_sync": {
+    "updated": 2,
+    "unchanged": 66,
+    "added": 0,
+    "archived": 0,
+    "moved": 68,
+    "deck_notes": 68
+  },
+  "apkg_sha256": "466cd94a468e3a3977f2093a37795c3caec2b4783b936adacdce85f3ac237eee",
+  "sqlite_notes": 68,
+  "sqlite_cards": 68
+}

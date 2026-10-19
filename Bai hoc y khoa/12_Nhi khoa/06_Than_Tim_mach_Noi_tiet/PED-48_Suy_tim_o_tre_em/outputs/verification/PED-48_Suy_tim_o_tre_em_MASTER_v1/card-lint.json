@@ -1,0 +1,625 @@
+{
+  "code": "PED-48",
+  "deck_name": "Nhi khoa Y6::PED-48: Suy tim ở trẻ em",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:02:18",
+  "cards_source": "ped48_cards_data.py",
+  "cards_source_sha256": "5708a838e2b34e867197a446ddf57a088064c5086e296443b9d5858ce7ddb6f5",
+  "card_count": 137,
+  "summary": {
+    "block": 0,
+    "debt": 97,
+    "warn": 1,
+    "by_code": {
+      "G_ALGO_COUNT": 1,
+      "G_COLOR_BACK": 38,
+      "G_COLOR_FRONT": 38,
+      "G_PARTIAL_CLOZE": 18,
+      "G_SECTION_NO_BASIC": 2,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B01",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B01",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B02",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] 4 mục tiêu bài Suy tim YTB: 1) Định nghĩa và ⟦CLOZE⟧ ; 2) ⟦CLOZE⟧ ; 3) Triệu chứng lâm sàng và ⟦CLOZE⟧ ; 4) Phác đồ ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B08",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B08",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B11",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B11",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B27",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Suy tim do nhịp tim nhanh hay gặp trong bệnh ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B28",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Suy tim do nhịp tim chậm hay gặp trong ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B29",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Suy tim trái cơ năng: lúc đầu khó thở khi ⟦CLOZE⟧ , sau khó thở ⟦CLOZE⟧ , ngồi thì dễ thở hơn (tư thế ⟦CLOZE⟧ ), đột ngột trong hen tim/phù phổi cấp»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B32",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Khám phổi suy tim trái: thường thấy ran ẩm ở đáy phổi; cơn hen tim có ⟦CLOZE⟧ ; phù phổi cấp có ran ẩm to nhỏ hạt ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B34",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] X-quang suy tim trái: rốn phổi mờ, có thể gặp ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ ; ECG có hình ảnh ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B40",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] X-quang suy tim phải: cung dưới phải giãn, mỏm tim ⟦CLOZE⟧ , cung ĐMP giãn; ECG có ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B41",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Suy tuần hoàn ngoại vi trong suy tim cấp: kích thích, chi lạnh, vân tím, mạch nhanh nhỏ, CRT ⟦CLOZE⟧ , huyết áp ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B42",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Triệu chứng ứ đọng suy tim cấp: thở rên, co kéo, ran ẩm đáy dâng lan dần, gan to đau, nước tiểu ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B43",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Triệu chứng suy tim từ từ (mạn tính): bú kém ăn ít, ⟦CLOZE⟧ , và ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B44",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B44",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B50",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Phân độ lâm sàng VN - Độ 4: khó thở ⟦CLOZE⟧ ; gan ⟦CLOZE⟧ ; phù to cổ trướng; tiên lượng ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B51",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B51",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B53",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Furosemid là lợi tiểu quai nhanh, mạnh với liều ⟦CLOZE⟧ ; cần đề phòng biến chứng ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B56",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B56",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B59",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Yếu tố thuận lợi ngộ độc Digoxin: quá liều, suy thận, và rối loạn điện giải gồm ⟦CLOZE⟧ , ⟦CLOZE⟧ , và ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B60",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Triệu chứng ngộ độc Digoxin: tiêu hóa (biếng ăn, nôn, đau bụng); thị giác ( ⟦CLOZE⟧ ); tim mạch ( ⟦CLOZE⟧ ).»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B62",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Xử trí ngộ độc Digoxin: ngừng thuốc ngay, rửa dạ dày; lấy máu đo ⟦CLOZE⟧ và ⟦CLOZE⟧ ; monitor ĐTĐ liên tục.»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-B70",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Phòng bệnh suy tim: giải quyết sớm nguyên nhân và điều trị tích cực yếu tố thuận lợi gồm ⟦CLOZE⟧ , ⟦CLOZE⟧ , và ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-B71",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-B71",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E01",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E01",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E02",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E02",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E05",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E05",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-E06",
+      "message": "cloze nửa vời trong liệt kê: «[EBM] Theo hướng dẫn ISHLT 2025, suy tim trẻ em thứ phát sau ⟦CLOZE⟧ , ⟦CLOZE⟧ và ⟦CLOZE⟧ gắn liền với tỷ lệ mắc bệnh và tử vong đáng kể.»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E08",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E08",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E10",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E10",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E12",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E12",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E15",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E15",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E18",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E18",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E19",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E19",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E21",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E21",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E24",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E24",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E28",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E28",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E29",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E29",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E32",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E32",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E33",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E33",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E35",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E35",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E38",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E38",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E40",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E40",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E43",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E43",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E46",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E46",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E47",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E47",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E48",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E48",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E51",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E51",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E52",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E52",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E53",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E53",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E54",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E54",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E55",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E55",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E57",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E57",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E62",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E62",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E63",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E63",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED48-E64",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED48-E64",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED48-E65",
+      "message": "cloze nửa vời trong liệt kê: «[EBM] Chiến lược phòng suy tim: chăm sóc tốt mẹ mang thai (tiêm Rubella, tránh tia X) phòng ⟦CLOZE⟧ ; điều trị triệt để viêm họng liên cầu phòng ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_SECTION_NO_BASIC",
+      "card_id": "B3",
+      "message": "section không có thẻ Basic nền tảng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_SECTION_NO_BASIC",
+      "card_id": "B4",
+      "message": "section không có thẻ Basic nền tảng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ALGO_COUNT",
+      "card_id": "*",
+      "message": "chỉ 0 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-48_Suy_tim_o_tre_em_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 3,
+    "unchanged": 128,
+    "added": 6,
+    "archived": 2,
+    "moved": 0,
+    "deck_notes": 137
+  },
+  "apkg_sha256": "937bd3928cbbb0fe1c201d3fc6ed6e41d6c9145b2dc5c56ade6f3d5148f4fbbe",
+  "sqlite_notes": 137,
+  "sqlite_cards": 138
+}

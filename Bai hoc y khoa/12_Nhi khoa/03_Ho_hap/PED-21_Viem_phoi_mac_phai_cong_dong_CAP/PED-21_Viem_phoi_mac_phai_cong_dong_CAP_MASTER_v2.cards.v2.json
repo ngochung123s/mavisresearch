@@ -1,0 +1,2133 @@
+{
+  "deck_id": 8228538576102,
+  "deck_name": "Nhi khoa Y6::PED-21: Viêm phổi mắc phải cộng đồng (CAP)",
+  "card_count": 137,
+  "cards": [
+    {
+      "id": "PED21-B0-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Với <span style=\"color:#74c0fc\"><b>CAP ở trẻ em</b></span>: nêu <span style=\"color:#ffd43b\"><b>3 ý khung tổng quan</b></span> của bài (tầm quan trọng/dịch tễ, <span style=\"color:#ff6b6b\"><b>2 sai lầm đối lập</b></span> ở cấp cứu, và bài học cung cấp những năng lực nào)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CAP</b></span> là một trong những nguyên nhân hàng đầu gây khám bệnh, nhập viện và tử vong ở trẻ <span style=\"color:#ffd43b\"><b>dưới 5 tuổi</b></span> toàn cầu; tình huống sốt + ho + khó thở là phổ biến nhất ở cấp cứu/phòng khám Nhi.<br>2) Hai sai lầm đối lập: <span style=\"color:#ff6b6b\"><b>báo động giả/lạm dụng</b></span> (kháng sinh phổ rộng, X-quang thường quy) và <span style=\"color:#ff6b6b\"><b>bỏ sót suy sụp/trì hoãn cấp cứu</b></span>.<br>3) Khung năng lực: sinh lý bệnh → phân tầng nặng theo <span style=\"color:#74c0fc\"><b>WHO, PIDS/IDSA, BTS</b></span> → <span style=\"color:#51cf66\"><b>phác đồ dùng thuốc từng mg theo cân nặng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhớ bài theo hai đầu cân: một đầu là làm quá (thuốc/phim không cần), một đầu là làm thiếu (đếm sai nhịp thở, liều thấp) — cả hai đều hại trẻ.",
+      "extra": "📖 Nguồn: PED-21 — Phần 0 Tổng quan",
+      "tags": [
+        "PED-21",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B0-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Hai sai lầm đối lập trong tiếp cận trẻ sốt + ho + khó thở: mỗi sai lầm gồm <span style=\"color:#ff6b6b\"><b>những hành vi cụ thể nào</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Báo động giả & lạm dụng</b></span>: kê <span style=\"color:#74c0fc\"><b>Cephalosporin thế hệ 3 uống, Co-amoxiclav</b></span> hoặc chụp <span style=\"color:#74c0fc\"><b>X-quang phổi thẳng thường quy</b></span> cho nhiễm virus hô hấp không biến chứng → quá tải chi phí, phơi nhiễm bức xạ, thúc đẩy kháng thuốc.<br>2) <span style=\"color:#ff6b6b\"><b>Bỏ sót suy sụp & trì hoãn cấp cứu</b></span>: không đếm trọn <span style=\"color:#ffd43b\"><b>60 giây</b></span> khi trẻ nằm yên; bỏ qua rút lõm tinh tế ở nhũ nhi; dùng Amoxicillin <span style=\"color:#ffd43b\"><b>40–50</b></span> thay vì <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span>.<br>3) Hậu quả của sai lầm thứ hai: thất bại với phế cầu kháng trung gian → <span style=\"color:#ff6b6b\"><b>tràn mủ màng phổi, viêm phổi hoại tử, suy hô hấp cấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Liều dưới chuẩn không chỉ 'kém hiệu quả' mà còn đẩy bác sĩ vào vòng xoáy đổi thuốc sai, làm bệnh tiến triển thành biến chứng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 0 Tổng quan",
+      "tags": [
+        "PED-21",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B0-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Thuật ngữ nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Định nghĩa 4 khái niệm nền: <span style=\"color:#74c0fc\"><b>CAP</b></span>, <span style=\"color:#ff6b6b\"><b>thở nhanh</b></span> (kèm 3 mốc WHO), <span style=\"color:#ff6b6b\"><b>rút lõm lồng ngực</b></span>, <span style=\"color:#ff6b6b\"><b>thở rên</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CAP</b></span>: nhiễm trùng cấp tính nhu mô phổi ở trẻ <span style=\"color:#ffd43b\"><b>không nằm viện trong 14 ngày trước đó</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thở nhanh</b></span>: dấu hiệu khách quan, nhạy nhất, phản ánh giảm độ giãn nở phổi; WHO: <span style=\"color:#ffd43b\"><b>&lt; 2 tháng ≥ 60</b></span>, <span style=\"color:#ffd43b\"><b>2–11 tháng ≥ 50</b></span>, <span style=\"color:#ffd43b\"><b>1–5 tuổi ≥ 40</b></span> lần/phút.<br>3) <span style=\"color:#ff6b6b\"><b>Rút lõm lồng ngực</b></span>: phần dưới lồng ngực (bờ sườn, mũi ức) lõm vào ở <span style=\"color:#ffd43b\"><b>thì hít vào</b></span>; do lồng ngực nhũ nhi mềm, xương sườn nằm ngang + áp lực âm màng phổi tăng khi phổi đông đặc, kém đàn hồi.<br>4) <span style=\"color:#ff6b6b\"><b>Thở rên</b></span>: tiếng ngắn, trầm ở <span style=\"color:#ffd43b\"><b>thì thở ra</b></span> khi thanh môn khép một phần → tạo <span style=\"color:#51cf66\"><b>PEEP sinh lý</b></span> giữ phế nang viêm không xẹp.<br><br><b>💡 Giải thích của AI:</b><br>Thở rên là phản xạ tự bảo vệ, không phải triệu chứng 'nhẹ': trẻ đang tự tạo PEEP vì phế nang sắp xẹp.",
+      "extra": "📖 Nguồn: PED-21 — Phần 0.1 Nền tảng tối thiểu",
+      "tags": [
+        "PED-21",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B0-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Thuật ngữ nền tảng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>shunt trong phổi</b></span>, <span style=\"color:#74c0fc\"><b>MIC</b></span> (và nguyên lý diệt khuẩn của Beta-lactam), và <span style=\"color:#ff6b6b\"><b>trần liều người lớn</b></span> kèm 2 ví dụ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Shunt trong phổi</b></span>: máu tĩnh mạch tim phải đi qua phế nang đông đặc chứa dịch viêm, không trao đổi oxy, trở về tim trái → máu thiếu oxy (<span style=\"color:#ffd43b\"><b>VA/Q → 0</b></span>).<br>2) <span style=\"color:#74c0fc\"><b>MIC</b></span>: nồng độ ức chế tối thiểu của kháng sinh với vi khuẩn; Beta-lactam (Amoxicillin) diệt khuẩn phụ thuộc <span style=\"color:#ffd43b\"><b>thời gian nồng độ thuốc tự do trên MIC (T > MIC)</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Trần liều người lớn</b></span>: liều tối đa mg/ngày không được vượt qua dù nhân theo cân nặng (kể cả trẻ béo phì). Ví dụ: <span style=\"color:#51cf66\"><b>Ceftriaxone tối đa 2 g/ngày</b></span>; <span style=\"color:#51cf66\"><b>Amoxicillin tối đa 2–3 g/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba khái niệm này là 'bản lề' của cả bài: shunt giải thích hạ oxy trơ, T > MIC giải thích liều cao Amoxicillin, trần liều giải thích bẫy kê đơn theo mg/kg.",
+      "extra": "📖 Nguồn: PED-21 — Phần 0.1 Nền tảng tối thiểu",
+      "tags": [
+        "PED-21",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B0-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Cờ đỏ cấp cứu",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>7 dấu hiệu</b></span> của <span style=\"color:#ff6b6b\"><b>BOX ĐỎ báo động cấp cứu</b></span> khi tiếp nhận trẻ nghi viêm phổi và <span style=\"color:#51cf66\"><b>hành động cần làm ngay</b></span> nếu có BẤT KỲ MỘT dấu hiệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không uống được / bỏ bú hoàn toàn</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Nôn tất cả mọi thứ</b></span> sau ăn/uống.<br>3) <span style=\"color:#ff6b6b\"><b>Co giật</b></span> hoặc trạng thái sau co giật.<br>4) <span style=\"color:#ff6b6b\"><b>Li bì, lơ mơ, hôn mê</b></span> khó đánh thức.<br>5) <span style=\"color:#ff6b6b\"><b>Thở rên liên tục</b></span> khi nằm yên.<br>6) <span style=\"color:#ff6b6b\"><b>Tím tái trung ương</b></span> (môi, lưỡi, niêm mạc miệng) hoặc <span style=\"color:#ffd43b\"><b>SpO2 &lt; 90%</b></span> khí phòng.<br>7) <span style=\"color:#ff6b6b\"><b>Rút lõm lồng ngực rất nặng</b></span> kèm phập phồng cánh mũi, đầu gật gù theo nhịp thở.<br>8) <span style=\"color:#51cf66\"><b>Hành động</b></span>: DỪNG thăm khám thông thường, kích hoạt cấp cứu, cho <span style=\"color:#51cf66\"><b>thở oxy</b></span>, <span style=\"color:#51cf66\"><b>lập đường truyền tĩnh mạch</b></span>, chuyển phòng hồi sức.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần MỘT dấu hiệu là đủ: các dấu hiệu này đều phản ánh kiệt sức hô hấp, thiếu oxy não hoặc nhiễm khuẩn huyết.",
+      "extra": "📖 Nguồn: PED-21 — Phần 0.1 Box đỏ",
+      "tags": [
+        "PED-21",
+        "B0",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Phân loại",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Khung phân loại CAP gồm <span style=\"color:#ffd43b\"><b>3 nhánh</b></span>: tiêu chuẩn <span style=\"color:#74c0fc\"><b>WHO</b></span>, tiêu chuẩn <span style=\"color:#74c0fc\"><b>PIDS/IDSA & BTS</b></span>, và <span style=\"color:#74c0fc\"><b>căn nguyên theo nhóm tuổi</b></span> — mỗi nhánh gồm những gì (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>WHO</b></span>: 3 nhóm — <span style=\"color:#74c0fc\"><b>không phải viêm phổi</b></span> (không thở nhanh, không rút lõm), <span style=\"color:#74c0fc\"><b>viêm phổi</b></span> (ngoại trú), <span style=\"color:#74c0fc\"><b>viêm phổi nặng</b></span> (nhập viện).<br>2) <span style=\"color:#74c0fc\"><b>PIDS/IDSA & BTS</b></span>: <span style=\"color:#74c0fc\"><b>nhẹ–trung bình</b></span> vs <span style=\"color:#ff6b6b\"><b>nặng</b></span> (≥ 1 trong 6 tiêu chí; SpO2 &lt; 92% theo BTS, &lt; 90% theo WHO).<br>3) <span style=\"color:#74c0fc\"><b>Căn nguyên</b></span>: 4 nhóm tuổi — sơ sinh, 1–3 tháng, 3 tháng–5 tuổi, &gt; 5 tuổi.<br><br><b>💡 Giải thích của AI:</b><br>WHO tối ưu độ nhạy cho tuyến ban đầu (không cần X-quang/xét nghiệm); PIDS/IDSA và BTS chi tiết hơn nhờ khám thực thể và SpO2.",
+      "extra": "📖 Nguồn: PED-21 — Phần 1 Định nghĩa và phân loại",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Phân loại WHO",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Theo <span style=\"color:#74c0fc\"><b>WHO (2014) và Pocket Book</b></span>: định nghĩa <span style=\"color:#74c0fc\"><b>Viêm phổi</b></span>, <span style=\"color:#ff6b6b\"><b>Viêm phổi nặng</b></span>, trường hợp <span style=\"color:#51cf66\"><b>không phải viêm phổi</b></span> — tiêu chí và nơi điều trị mỗi nhóm; WHO đã làm gì với nhóm 'viêm phổi rất nặng'?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm phổi</b></span>: ho/khó thở + <span style=\"color:#ffd43b\"><b>thở nhanh theo tuổi</b></span> và/hoặc <span style=\"color:#ff6b6b\"><b>rút lõm lồng ngực</b></span>, KHÔNG có dấu hiệu nguy hiểm toàn thân → <span style=\"color:#51cf66\"><b>điều trị ngoại trú Amoxicillin uống liều cao</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm phổi nặng</b></span>: ho/khó thở + BẤT KỲ MỘT dấu hiệu nguy hiểm toàn thân, HOẶC thở rên, HOẶC tím tái, HOẶC <span style=\"color:#ffd43b\"><b>SpO2 &lt; 90%</b></span> → <span style=\"color:#51cf66\"><b>nhập viện, kháng sinh đường tiêm, hỗ trợ hô hấp</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Không phải viêm phổi</b></span>: không thở nhanh, không rút lõm (nhiễm khuẩn hô hấp trên) → chăm sóc tại nhà, hạ sốt, dặn dấu hiệu tái khám.<br>4) WHO đã <span style=\"color:#ffd43b\"><b>gộp</b></span> nhóm 'viêm phổi rất nặng' vào <span style=\"color:#ff6b6b\"><b>viêm phổi nặng</b></span> để đơn giản hóa quyết định nhập viện.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ WHO: đếm nhịp thở 60 giây + quan sát cơ học thở → có thở nhanh? → rút lõm? → có dấu hiệu nguy hiểm? Dấu hiệu nguy hiểm là 'công tắc' chuyển từ ngoại trú sang nhập viện.",
+      "extra": "📖 Nguồn: PED-21 — Phần 1.1 Định nghĩa WHO",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Phân loại PIDS/BTS",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Theo <span style=\"color:#74c0fc\"><b>PIDS/IDSA & BTS</b></span>: <span style=\"color:#74c0fc\"><b>viêm phổi nhẹ đến trung bình</b></span> được mô tả bằng <span style=\"color:#ffd43b\"><b>những đặc điểm nào</b></span> (sốt, nhịp thở, co kéo, nghe phổi, SpO2, uống, tri giác)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốt nhẹ hoặc vừa; <span style=\"color:#ff6b6b\"><b>thở nhanh</b></span>; co kéo cơ hô hấp <span style=\"color:#ffd43b\"><b>nhẹ</b></span>.<br>2) Nghe phổi: <span style=\"color:#ff6b6b\"><b>ran ẩm</b></span> hoặc giảm âm phế nang cục bộ.<br>3) <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span> khi thở khí phòng.<br>4) Trẻ còn uống được nước; tri giác tỉnh táo.<br><br><b>💡 Giải thích của AI:</b><br>Đây là nhóm có thể ngoại trú: điểm then chốt là SpO2 ≥ 92%, uống được, tỉnh táo.",
+      "extra": "📖 Nguồn: PED-21 — Phần 1.2 Phân loại PIDS/IDSA và BTS",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Phân loại PIDS/BTS",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>6 tiêu chí</b></span> của <span style=\"color:#ff6b6b\"><b>viêm phổi nặng</b></span> theo PIDS/IDSA & BTS (cần ít nhất 1), gồm cả <span style=\"color:#ffd43b\"><b>ngưỡng SpO2 và nhịp thở rất nhanh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thở co kéo lồng ngực rõ, phập phồng cánh mũi, đầu gật gù</b></span> theo nhịp thở.<br>2) <span style=\"color:#ffd43b\"><b>SpO2 &lt; 92% (BTS)</b></span> hoặc <span style=\"color:#ffd43b\"><b>&lt; 90% (WHO)</b></span> khi thở khí phòng.<br>3) <span style=\"color:#ffd43b\"><b>Nhịp thở rất nhanh</b></span>: trẻ <span style=\"color:#ffd43b\"><b>&lt; 1 tuổi &gt; 70 lần/phút</b></span>; trẻ <span style=\"color:#ffd43b\"><b>&gt; 1 tuổi &gt; 50 lần/phút</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Nhịp tim nhanh không tương xứng thân nhiệt</b></span> (cảnh báo sốc nhiễm khuẩn).<br>5) <span style=\"color:#ff6b6b\"><b>Mất nước, li bì, bỏ bú</b></span> hoặc nôn nhiều không uống được thuốc.<br>6) <span style=\"color:#ff6b6b\"><b>Tràn dịch màng phổi</b></span> hoặc tổn thương nhiều thùy phổi trên X-quang.<br><br><b>💡 Giải thích của AI:</b><br>Hai ngưỡng SpO2 khác nhau (92% BTS, 90% WHO) — khi đọc bài/đề phải xem hệ quy chiếu; nhịp tim nhanh quá mức so với sốt là gợi ý sớm của sốc nhiễm khuẩn.",
+      "extra": "📖 Nguồn: PED-21 — Phần 1.2 Phân loại PIDS/IDSA và BTS",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Căn nguyên",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Căn nguyên CAP ở <span style=\"color:#74c0fc\"><b>sơ sinh (&lt; 1 tháng)</b></span> và <span style=\"color:#74c0fc\"><b>nhũ nhi 1–3 tháng</b></span>: <span style=\"color:#74c0fc\"><b>tác nhân thường gặp</b></span> và <span style=\"color:#ff6b6b\"><b>đặc điểm lâm sàng gợi ý</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Sơ sinh</b></span>: <span style=\"color:#74c0fc\"><b>Liên cầu nhóm B (S. agalactiae), E. coli, Listeria monocytogenes, Klebsiella</b></span>; lâm sàng mơ hồ — <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt, bỏ bú, thở rên, cơn ngừng thở</b></span>; thường lây từ mẹ lúc sinh.<br>2) <span style=\"color:#74c0fc\"><b>1–3 tháng</b></span>: <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis, RSV, virus cúm, S. pneumoniae, Bordetella pertussis</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>C. trachomatis</b></span>: viêm phổi bán cấp <span style=\"color:#ffd43b\"><b>không sốt</b></span>, <span style=\"color:#ff6b6b\"><b>ho cơn dồn dập</b></span>, tiền sử viêm kết mạc sơ sinh, tăng bạch cầu ái toan.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm tuổi quyết định tác nhân: sơ sinh nhiễm từ đường sinh dục mẹ; 1–3 tháng có bộ ba gợi ý Chlamydia (không sốt + ho cơn + viêm kết mạc cũ).",
+      "extra": "📖 Nguồn: PED-21 — Phần 1.3 Căn nguyên vi sinh theo nhóm tuổi",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B1-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Căn nguyên",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Căn nguyên CAP ở trẻ <span style=\"color:#74c0fc\"><b>3 tháng–5 tuổi</b></span> và trẻ <span style=\"color:#74c0fc\"><b>&gt; 5 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>tác nhân</b></span> và <span style=\"color:#ff6b6b\"><b>manh mối lâm sàng phân biệt vi khuẩn vs virus / không điển hình</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>3 tháng–5 tuổi</b></span>: <span style=\"color:#ffd43b\"><b>virus 60–80%</b></span> (RSV, Adenovirus, Cúm, Á cúm, Metapneumovirus); vi khuẩn: <span style=\"color:#74c0fc\"><b>S. pneumoniae (hàng đầu), H. influenzae không định type, S. aureus</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Gợi ý vi khuẩn</b></span>: sốt đột ngột, cao, rét run, thở nhanh, đau ngực, ran ẩm khu trú. <span style=\"color:#ff6b6b\"><b>Gợi ý virus</b></span>: khởi đầu viêm long hô hấp, khò khè lan tỏa.<br>3) <span style=\"color:#74c0fc\"><b>&gt; 5 tuổi</b></span>: không điển hình <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae, Chlamydia pneumoniae</b></span>; điển hình <span style=\"color:#74c0fc\"><b>S. pneumoniae</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Gợi ý không điển hình</b></span>: khởi phát từ từ, sốt nhẹ–vừa, đau đầu, viêm họng, đau cơ, ho khan dữ dội dai dẳng, ran rải rác phong phú hơn nhiều so với lâm sàng nghèo nàn.<br><br><b>💡 Giải thích của AI:</b><br>Tương phản 'ồn ào ở phổi, nghèo ở tổng trạng' là chữ ký của Mycoplasma ở trẻ lớn; ngược lại sốt cao đột ngột + ran khu trú là chữ ký của phế cầu.",
+      "extra": "📖 Nguồn: PED-21 — Phần 1.3 Căn nguyên vi sinh theo nhóm tuổi",
+      "tags": [
+        "PED-21",
+        "B1",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B2-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bài có <span style=\"color:#ffd43b\"><b>4 chuỗi nhân quả</b></span> sinh lý bệnh: mỗi chuỗi đi từ cơ chế nào đến <span style=\"color:#ff6b6b\"><b>hậu quả/quyết định lâm sàng</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuỗi 1: xuất tiết phế nang → giảm độ giãn nở → <span style=\"color:#ff6b6b\"><b>rút lõm lồng ngực</b></span>.<br>2) Chuỗi 2: đông đặc phế nang → <span style=\"color:#74c0fc\"><b>shunt VA/Q = 0</b></span> → <span style=\"color:#ff6b6b\"><b>hạ oxy máu trơ</b></span> → nâng bậc <span style=\"color:#51cf66\"><b>HFNC/CPAP</b></span>.<br>3) Chuỗi 3: ổ nhiễm khuẩn dưới màng phổi → <span style=\"color:#74c0fc\"><b>tràn mủ màng phổi</b></span> → <span style=\"color:#51cf66\"><b>siêu âm + dẫn lưu sớm</b></span>.<br>4) Chuỗi 4: đột biến <span style=\"color:#74c0fc\"><b>PBP</b></span> → MIC tăng → cần <span style=\"color:#51cf66\"><b>Amoxicillin liều cao 80–90 mg/kg/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chuỗi kết thúc bằng một quyết định giường bệnh: thở oxy/phân độ nặng, nâng bậc thông khí, dẫn lưu mủ, nâng liều kháng sinh.",
+      "extra": "📖 Nguồn: PED-21 — Phần 2 Cơ chế sinh lý bệnh",
+      "tags": [
+        "PED-21",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B2-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 1</b></span> (rút lõm lồng ngực): cơ chế qua các tầng — <span style=\"color:#74c0fc\"><b>tế bào</b></span>, <span style=\"color:#74c0fc\"><b>cơ học</b></span>, <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span>, quyết định, và <span style=\"color:#ff6b6b\"><b>hậu quả nếu làm sai</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phế cầu/vi khuẩn xâm nhập phế nang; <span style=\"color:#74c0fc\"><b>Pneumolysin + PAMPs</b></span> kích hoạt đại thực bào tiết <span style=\"color:#74c0fc\"><b>IL-1, TNF-alpha, IL-8</b></span>; bạch cầu đa nhân vào phế nang, tạo dịch rỉ viêm giàu protein và fibrin.<br>2) Dịch rỉ làm <span style=\"color:#ff6b6b\"><b>mất hoạt tính Surfactant</b></span> → sức căng bề mặt tăng → giảm độ giãn nở (C = ΔV/ΔP) → phổi cứng, cần áp lực âm lớn hơn.<br>3) Để giữ thông khí phút (VE = RR × VT) cơ thể <span style=\"color:#ffd43b\"><b>tăng tần số thở</b></span>; cơ hoành + cơ hô hấp phụ (liên sườn, ức đòn chũm) co tối đa.<br>4) Khung sụn mềm của trẻ nhỏ bị kéo thụt → <span style=\"color:#ff6b6b\"><b>rút lõm lồng ngực</b></span> → nhận diện tăng công thở, <span style=\"color:#51cf66\"><b>cho thở oxy và phân độ viêm phổi nặng</b></span>.<br>5) Nếu xem nhẹ: cơ hoành kiệt sức → ngừng co kéo → <span style=\"color:#ff6b6b\"><b>ứ CO2, toan hô hấp mất bù, ngừng thở đột ngột</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thở nhanh là phản xạ bù ít tốn năng lượng nhất; rút lõm là bằng chứng của tăng công thở; khi lồng ngực 'yên lại' vì kiệt sức thì nguy hiểm nhất.",
+      "extra": "📖 Nguồn: PED-21 — Phần 2 Chuỗi 1",
+      "tags": [
+        "PED-21",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B2-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 2</b></span> (shunt trong phổi): cơ chế từ phế nang đến khí máu, vai trò của <span style=\"color:#74c0fc\"><b>HPV</b></span>, và <span style=\"color:#51cf66\"><b>vì sao cần nâng bậc áp lực dương</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phế nang chứa mủ/tế bào hoại tử, mất thông khí nhưng mao mạch vẫn được tưới → <span style=\"color:#74c0fc\"><b>VA/Q = 0</b></span>: máu tĩnh mạch không nhận O2 và không thải CO2.<br>2) Máu chưa oxy hóa trộn vào máu động mạch → <span style=\"color:#74c0fc\"><b>shunt phải–trái trong phổi</b></span>; <span style=\"color:#74c0fc\"><b>HPV (co mạch phổi do thiếu oxy)</b></span> tái phân phối máu sang vùng lành nhưng <span style=\"color:#ff6b6b\"><b>quá tải khi tổn thương rộng</b></span> → <span style=\"color:#ffd43b\"><b>SpO2 tụt dưới 90%</b></span>.<br>3) Shunt lớn không đáp ứng canula oxy thường → cần <span style=\"color:#51cf66\"><b>HFNC hoặc nCPAP</b></span> để mở phế nang xẹp lân cận + tăng FiO2.<br>4) Nếu chỉ duy trì canula liều thấp: <span style=\"color:#ff6b6b\"><b>thiếu oxy mô, toan lactic, suy tim sung huyết, tổn thương não không hồi phục</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác bất tương xứng V/Q thông thường (đáp ứng oxy nhanh), shunt thật sự cần tăng áp lực đường thở — oxy đơn thuần không 'đến được' phế nang đông đặc.",
+      "extra": "📖 Nguồn: PED-21 — Phần 2 Chuỗi 2",
+      "tags": [
+        "PED-21",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B2-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 3</b></span> (tràn mủ màng phổi): <span style=\"color:#74c0fc\"><b>vi sinh/serotype</b></span>, <span style=\"color:#74c0fc\"><b>3 giai đoạn</b></span>, biểu hiện <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span>, quyết định <span style=\"color:#51cf66\"><b>xử trí</b></span> và hậu quả nếu <span style=\"color:#ff6b6b\"><b>trì hoãn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phế cầu (<span style=\"color:#ffd43b\"><b>serotype 1, 3, 19A</b></span>) hoặc <span style=\"color:#74c0fc\"><b>S. aureus</b></span> gây hoại tử nhu mô sát màng phổi tạng.<br>2) <span style=\"color:#74c0fc\"><b>Giai đoạn 1</b></span> xuất tiết (dịch thanh tơ vô khuẩn); <span style=\"color:#74c0fc\"><b>giai đoạn 2</b></span> mủ sợi huyết (vi khuẩn xâm nhập, mủ đặc, fibrin tạo <span style=\"color:#ffd43b\"><b>vách ngăn/loculations</b></span>); <span style=\"color:#74c0fc\"><b>giai đoạn 3</b></span> hóa sợi, vỏ bọc (Peel).<br>3) Lâm sàng: <span style=\"color:#ff6b6b\"><b>sốt cao liên tục dù kháng sinh 48–72 giờ, thở nông nhanh, đau ngực kiểu màng phổi, hội chứng ba giảm</b></span> (gõ đục, rung thanh giảm, mất rì rào); xẹp phổi thụ động, đẩy lệch trung thất.<br>4) Xử trí: <span style=\"color:#51cf66\"><b>siêu âm màng phổi</b></span> (tiêu chuẩn vàng thấy vách fibrin) + X-quang; <span style=\"color:#51cf66\"><b>chọc hút</b></span> làm xét nghiệm (tế bào, protein, LDH, pH, Gram, cấy); <span style=\"color:#51cf66\"><b>ống dẫn lưu + tiêu sợi huyết (Alteplase/Urokinase) hoặc VATS</b></span>.<br>5) Nếu chỉ đổi kháng sinh: sang giai đoạn 3 → <span style=\"color:#ff6b6b\"><b>vỏ xơ, phổi bị giam (trapped lung), lồng ngực co rút, phải mổ mở bóc vỏ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mủ có vách fibrin thì kháng sinh khó thấm; thời gian là yếu tố quyết định giữa dẫn lưu đơn giản và đại phẫu bóc vỏ.",
+      "extra": "📖 Nguồn: PED-21 — Phần 2 Chuỗi 3",
+      "tags": [
+        "PED-21",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B2-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Sinh lý bệnh",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Chuỗi 4</b></span>: phế cầu kháng Beta-lactam bằng <span style=\"color:#74c0fc\"><b>cơ chế nào</b></span>, MIC thay đổi ra sao, vì sao <span style=\"color:#51cf66\"><b>Amoxicillin 80–90 mg/kg/ngày</b></span> cứu được, và <span style=\"color:#ff6b6b\"><b>hậu quả của liều 40–50</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không sinh Beta-lactamase mà <span style=\"color:#74c0fc\"><b>tái tổ hợp tương đồng làm biến đổi PBP1a, PBP2b, PBP2x</b></span> → ái lực với Penicillin/Amoxicillin giảm.<br>2) MIC tăng từ <span style=\"color:#ffd43b\"><b>≤ 0.06 µg/mL</b></span> (nhạy) lên <span style=\"color:#ffd43b\"><b>2–4 µg/mL</b></span> (kháng trung gian/cao).<br>3) PK/PD: Amoxicillin diệt khuẩn phụ thuộc thời gian, cần <span style=\"color:#ffd43b\"><b>T > MIC ≥ 40–50% khoảng giữa các liều</b></span>; liều 40–50 mg/kg/ngày chỉ đạt đỉnh <span style=\"color:#ffd43b\"><b>4–5 µg/mL</b></span>, tụt dưới MIC sau <span style=\"color:#ffd43b\"><b>2–3 giờ</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Nâng gấp đôi lên 80–90 mg/kg/ngày</b></span> (chia 2–3 lần): đỉnh <span style=\"color:#ffd43b\"><b>8–10 µg/mL</b></span>, duy trì T > MIC trên 50% khoảng liều, không cần kháng sinh đắt/phổ rộng.<br>5) Liều thấp → <span style=\"color:#ff6b6b\"><b>sốt kéo dài, tổn thương lan sau 48 giờ</b></span>, bác sĩ lầm tưởng kháng Amoxicillin và đổi sang <span style=\"color:#74c0fc\"><b>Cefixime</b></span> (ái lực PBP phế cầu kém hơn) → thất bại nặng hơn.<br><br><b>💡 Giải thích của AI:</b><br>Đề kháng ở đây là 'giảm ái lực' chứ không phải 'phá thuốc', nên bù bằng nồng độ cao hơn là giải pháp hợp lý.",
+      "extra": "📖 Nguồn: PED-21 — Phần 2 Chuỗi 4",
+      "tags": [
+        "PED-21",
+        "B2",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Tiếp cận chẩn đoán CAP tại giường gồm <span style=\"color:#ffd43b\"><b>3 khối</b></span>: quy trình <span style=\"color:#74c0fc\"><b>đếm nhịp thở</b></span>, <span style=\"color:#74c0fc\"><b>khám thực thể lồng ngực</b></span> và <span style=\"color:#74c0fc\"><b>chỉ định X-quang phổi thẳng</b></span> — mỗi khối gồm gì (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đếm nhịp thở</b></span>: 4 bước (nằm yên, bộc lộ ngực bụng, đếm trọn <span style=\"color:#ffd43b\"><b>60 giây</b></span>, đối chiếu ngưỡng WHO theo tuổi).<br>2) <span style=\"color:#74c0fc\"><b>Khám thực thể</b></span>: cánh mũi, các mức co kéo, đầu gật gù, nghe ran ẩm nhỏ hạt/tiếng thổi ống/giảm rì rào.<br>3) <span style=\"color:#74c0fc\"><b>X-quang</b></span>: <span style=\"color:#ff6b6b\"><b>không thường quy</b></span> ở viêm phổi nhẹ ngoại trú; <span style=\"color:#51cf66\"><b>chỉ định bắt buộc</b></span> cho 5 nhóm tình huống.<br><br><b>💡 Giải thích của AI:</b><br>Chẩn đoán CAP nhẹ là chẩn đoán lâm sàng; phim chỉ dành cho ca nặng, nghi biến chứng hoặc thất bại điều trị.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3 Tiếp cận chẩn đoán",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Quy trình đếm nhịp thở 4 bước</b></span>: mỗi bước làm gì, <span style=\"color:#ffd43b\"><b>điều kiện hạ sốt cụ thể</b></span> (ngưỡng nhiệt độ, thuốc, liều, thời gian chờ) và <span style=\"color:#ff6b6b\"><b>điều tuyệt đối không được làm</b></span> vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bước 1</b></span> trẻ <span style=\"color:#ffd43b\"><b>nằm yên</b></span>: không đếm khi khóc, quấy, vừa bú no, sốt cao co giật. Nếu sốt <span style=\"color:#ffd43b\"><b>≥ 38.5 °C</b></span> → cho <span style=\"color:#51cf66\"><b>Paracetamol 10–15 mg/kg</b></span>, đợi <span style=\"color:#ffd43b\"><b>30–45 phút</b></span> rồi đếm.<br>2) <span style=\"color:#ffd43b\"><b>Bước 2</b></span> bộc lộ ngực và bụng: trẻ nhỏ thở bụng (cơ hoành) nên nhìn thành bụng dễ nhất.<br>3) <span style=\"color:#ffd43b\"><b>Bước 3</b></span> đếm trọn <span style=\"color:#ffd43b\"><b>60 giây</b></span> bằng đồng hồ/bộ đếm; <span style=\"color:#ff6b6b\"><b>KHÔNG đếm 15 giây × 4 hoặc 30 giây × 2</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Bước 4</b></span> đối chiếu ngưỡng WHO theo tuổi.<br><br><b>💡 Giải thích của AI:</b><br>Nhũ nhi có thở ngắt quãng sinh lý (periodic breathing): nhân nhẩm khuếch đại sai số lên gấp bội và dẫn tới chẩn đoán sai.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.1 Quy trình đếm nhịp thở",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng <span style=\"color:#ffd43b\"><b>ngưỡng thở nhanh WHO</b></span> theo <span style=\"color:#ffd43b\"><b>4 nhóm tuổi</b></span> và <span style=\"color:#74c0fc\"><b>ý nghĩa lâm sàng</b></span> của từng nhóm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Dưới 2 tháng: ≥ 60 lần/phút</b></span> → luôn coi là <span style=\"color:#ff6b6b\"><b>bệnh rất nặng, nguy cơ nhiễm khuẩn huyết cao, chuyển viện ngay</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>2–11 tháng: ≥ 50</b></span> → tiêu chuẩn vàng sàng lọc viêm phổi tại tuyến ban đầu.<br>3) <span style=\"color:#ffd43b\"><b>12–59 tháng (1–5 tuổi): ≥ 40</b></span> → tiêu chuẩn vàng sàng lọc viêm phổi tại tuyến ban đầu.<br>4) <span style=\"color:#ffd43b\"><b>Từ 5 tuổi trở lên: ≥ 30</b></span> → theo dõi sát, kết hợp nghe phổi và tổng trạng.<br><br><b>💡 Giải thích của AI:</b><br>Ngưỡng giảm dần theo tuổi vì nhịp thở sinh lý giảm dần: 60 → 50 → 40 → 30.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.1 Bảng ngưỡng thở nhanh",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bảng kiểm khám <span style=\"color:#74c0fc\"><b>thở co kéo</b></span>: <span style=\"color:#ffd43b\"><b>4 mức/dấu hiệu</b></span> từ nhẹ đến nặng (kèm <span style=\"color:#74c0fc\"><b>phập phồng cánh mũi</b></span>) — mỗi dấu hiệu nghĩa là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Phập phồng cánh mũi</b></span>: cánh mũi nở thì hít vào, giảm sức cản đường thở trên ở trẻ nhỏ.<br>2) <span style=\"color:#ffd43b\"><b>Co kéo liên sườn nhẹ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Rút lõm dưới sườn/bờ sườn</b></span> — tiêu chuẩn của WHO.<br>4) <span style=\"color:#ff6b6b\"><b>Rút lõm hõm ức + co kéo cơ ức đòn chũm</b></span> — dấu hiệu tắc nghẽn hoặc suy hô hấp nặng.<br>5) <span style=\"color:#ff6b6b\"><b>Đầu gật gù (Head bobbing)</b></span>: đầu ngửa thì hít vào, gục thì thở ra — cơ ức đòn chũm co tối đa hỗ trợ cơ hoành đã kiệt sức.<br><br><b>💡 Giải thích của AI:</b><br>Vị trí co kéo càng cao (hõm ức, ức đòn chũm) thì cơ hô hấp phụ huy động càng nhiều → mức độ nặng càng cao.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.2 Bảng kiểm thăm khám thực thể",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Nghe phổi</b></span> trong CAP: <span style=\"color:#ffd43b\"><b>3 dấu hiệu</b></span> — mô tả, <span style=\"color:#74c0fc\"><b>cơ chế</b></span> của từng dấu hiệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ran ẩm nhỏ hạt (fine crackles)</b></span>: nghe cuối thì hít vào — phế nang bị dính mở bung đột ngột.<br>2) <span style=\"color:#ff6b6b\"><b>Tiếng thổi ống (bronchial breath sounds)</b></span>: thô ráp, nghe cả thì hít vào và thở ra — nhu mô đông đặc truyền âm từ khí quản ra thành ngực tốt hơn.<br>3) <span style=\"color:#ff6b6b\"><b>Giảm rì rào phế nang khu trú</b></span>: vùng đông đặc không thông khí hoặc bị tràn dịch màng phổi ngăn cách.<br><br><b>💡 Giải thích của AI:</b><br>Ba dấu hiệu này phản ánh ba trạng thái: phế nang đang mở ra, nhu mô đặc dẫn âm, và vùng bị 'cách ly' không thông khí.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.2 Nghe phổi",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>X-quang phổi thẳng</b></span> trẻ viêm phổi: <span style=\"color:#ff6b6b\"><b>khi nào KHÔNG chỉ định</b></span> (3 điều kiện) và <span style=\"color:#51cf66\"><b>khi nào BẮT BUỘC</b></span> (5 nhóm tình huống)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG chỉ định</b></span>: viêm phổi nhẹ điều trị ngoại trú; trẻ tỉnh táo <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span>; đáp ứng tốt Amoxicillin uống.<br>2) <span style=\"color:#51cf66\"><b>BẮT BUỘC</b></span> 1: viêm phổi nặng cần nhập viện.<br>3) <span style=\"color:#51cf66\"><b>BẮT BUỘC</b></span> 2: nghi biến chứng — <span style=\"color:#74c0fc\"><b>tràn dịch màng phổi, áp xe phổi, tràn khí màng phổi</b></span>.<br>4) <span style=\"color:#51cf66\"><b>BẮT BUỘC</b></span> 3: nghi <span style=\"color:#74c0fc\"><b>dị vật đường thở bỏ quên</b></span>.<br>5) <span style=\"color:#51cf66\"><b>BẮT BUỘC</b></span> 4: sốt dai dẳng, thất bại sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> kháng sinh.<br>6) <span style=\"color:#51cf66\"><b>BẮT BUỘC</b></span> 5: có bệnh nền — <span style=\"color:#74c0fc\"><b>tim bẩm sinh, suy giảm miễn dịch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc: chụp khi kết quả có thể đổi quyết định điều trị; ở ca nhẹ ngoại trú phim không đổi được quyết định nào.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.3 Chỉ định X-quang phổi thẳng",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Chẩn đoán",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ff6b6b\"><b>Vì sao KHÔNG chụp X-quang thường quy</b></span> cho viêm phổi nhẹ ngoại trú? Nêu <span style=\"color:#ffd43b\"><b>3 lý do</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không phân biệt được vi khuẩn vs virus</b></span>: thâm nhiễm kẽ/đông đặc không khẳng định tác nhân → dễ kê kháng sinh không cần thiết cho ca virus.<br>2) <span style=\"color:#ff6b6b\"><b>Không thay đổi kết cục điều trị</b></span>: RCT cho thấy không rút ngắn thời gian khỏi bệnh, không giảm tỷ lệ nhập viện so với chẩn đoán lâm sàng.<br>3) <span style=\"color:#ff6b6b\"><b>Phơi nhiễm bức xạ ion hóa</b></span>: trẻ nhỏ nhạy cảm với tia X; nguyên lý <span style=\"color:#74c0fc\"><b>ALARA</b></span> (As Low As Reasonably Achievable).<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh không đổi quyết định mà còn thêm nguy cơ (bức xạ, leo thang kháng sinh) — nên chi phí/lợi ích âm.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.3 Vì sao không chụp X-quang thường quy",
+      "tags": [
+        "PED-21",
+        "B3",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B3-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — Bộ giải mã nhanh <span style=\"color:#ffd43b\"><b>nhịp thở theo tuổi</b></span>: ngưỡng <span style=\"color:#ff6b6b\"><b>thở nhanh</b></span> và ngưỡng <span style=\"color:#ff6b6b\"><b>thở rất nhanh (nặng)</b></span> theo PIDS/BTS?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) WHO thở nhanh: <span style=\"color:#ffd43b\"><b>&lt; 2 tháng ≥ 60</b></span> | <span style=\"color:#ffd43b\"><b>2–11 tháng ≥ 50</b></span> | <span style=\"color:#ffd43b\"><b>1–5 tuổi ≥ 40</b></span> | <span style=\"color:#ffd43b\"><b>≥ 5 tuổi ≥ 30</b></span> (lần/phút, đếm đủ 60 giây, trẻ nằm yên, đã hạ sốt).<br>2) Thở rất nhanh (tiêu chí nặng PIDS/BTS): <span style=\"color:#ffd43b\"><b>&lt; 1 tuổi &gt; 70</b></span> | <span style=\"color:#ffd43b\"><b>&gt; 1 tuổi &gt; 50</b></span> lần/phút.<br>3) Dưới ngưỡng và không rút lõm → <span style=\"color:#51cf66\"><b>không phải viêm phổi</b></span>, chăm sóc tại nhà. Đạt ngưỡng ± rút lõm, không dấu hiệu nguy hiểm → <span style=\"color:#74c0fc\"><b>viêm phổi</b></span> ngoại trú. Có dấu hiệu nguy hiểm → <span style=\"color:#ff6b6b\"><b>viêm phổi nặng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Học theo bậc thang 60–50–40–30 cho WHO; chữ 'rất nhanh' chỉ là ngưỡng cao hơn dùng để xếp nặng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 3.1 và Phần 1.2",
+      "tags": [
+        "PED-21",
+        "B3",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B4-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Biến chứng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Phần theo dõi sớm gồm <span style=\"color:#ffd43b\"><b>2 mảng</b></span>: bẫy <span style=\"color:#ff6b6b\"><b>cải thiện giả</b></span> và <span style=\"color:#ff6b6b\"><b>3 biến chứng</b></span> cần nhận diện — kể tên và dấu hiệu nhận diện chính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cải thiện giả</b></span>: nhịp thở giảm nhưng tri giác li bì → kiệt sức cơ hoành.<br>2) <span style=\"color:#74c0fc\"><b>Tràn mủ màng phổi</b></span>: sốt cao &gt; 48–72 giờ kháng sinh + ba giảm.<br>3) <span style=\"color:#74c0fc\"><b>Viêm phổi hoại tử do CA-MRSA</b></span>: tối cấp, bóng khí/hang/tràn khí màng phổi trong 24 giờ.<br>4) <span style=\"color:#74c0fc\"><b>pARDS</b></span>: PaO2/FiO2 ≤ 300 hoặc OI ≥ 4, thâm nhiễm hai bên.<br><br><b>💡 Giải thích của AI:</b><br>Cả bốn nội dung đều là 'bệnh đang xấu đi dù có vẻ ổn' — hoặc nhịp thở trông tốt hơn, hoặc kháng sinh đúng mà vẫn sốt.",
+      "extra": "📖 Nguồn: PED-21 — Phần 4 Theo dõi và phát hiện sớm",
+      "tags": [
+        "PED-21",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B4-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>cải thiện giả</b></span> khi cơ hoành kiệt sức: <span style=\"color:#ffd43b\"><b>diễn tiến 2 giai đoạn</b></span> (số liệu ví dụ), <span style=\"color:#ff6b6b\"><b>bản chất</b></span> và <span style=\"color:#51cf66\"><b>hành động cấp cứu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Giai đoạn bù</b></span>: thở ~<span style=\"color:#ffd43b\"><b>65 lần/phút</b></span>, rút lõm rõ, quấy khóc, SpO2 <span style=\"color:#ffd43b\"><b>93–94%</b></span> → nhận định viêm phổi nặng.<br>2) <span style=\"color:#ffd43b\"><b>Giai đoạn chuyển tiếp</b></span>: sau <span style=\"color:#ffd43b\"><b>2–3 giờ</b></span> nhịp thở còn <span style=\"color:#ffd43b\"><b>40 lần/phút</b></span>, bớt rút lõm → bác sĩ thiếu kinh nghiệm tưởng 'đỡ'.<br>3) <span style=\"color:#ff6b6b\"><b>Bản chất</b></span>: cơ hoành và cơ phụ kiệt sức; nhịp thở giảm kèm <span style=\"color:#ff6b6b\"><b>li bì, đáp ứng chậm, lờ đờ</b></span> và ứ CO2 gây mê man do toan hô hấp.<br>4) <span style=\"color:#51cf66\"><b>Hành động</b></span>: đo ngay SpO2 + lấy khí máu, hỗ trợ bóp bóng qua mặt nạ, chuẩn bị đặt nội khí quản thở máy.<br><br><b>💡 Giải thích của AI:</b><br>Luôn đọc nhịp thở cùng tri giác và công thở: nhịp chậm lại + trẻ không tỉnh táo là dấu hiệu sắp ngừng thở, không phải bệnh thuyên giảm.",
+      "extra": "📖 Nguồn: PED-21 — Phần 4.1 Bẫy cải thiện giả",
+      "tags": [
+        "PED-21",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B4-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Tràn mủ màng phổi</b></span> trong CAP: <span style=\"color:#ff6b6b\"><b>3 dấu hiệu nghi ngờ</b></span> và <span style=\"color:#51cf66\"><b>phương tiện đầu tay</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốt cao liên tục không dứt sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> kháng sinh thích hợp.<br>2) <span style=\"color:#ff6b6b\"><b>Thở nghiêng về bên tổn thương để giảm đau, gõ đục rõ, rung thanh giảm, mất âm phế bào</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Siêu âm màng phổi</b></span> là phương tiện đầu tay để phát hiện sớm dịch có vách ngăn, trước khi chụp CT lồng ngực.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm cho biết có vách ngăn hay không — thông tin quyết định cách dẫn lưu.",
+      "extra": "📖 Nguồn: PED-21 — Phần 4.2 Biến chứng — Tràn mủ màng phổi",
+      "tags": [
+        "PED-21",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B4-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Viêm phổi hoại tử do tụ cầu (CA-MRSA)</b></span>: <span style=\"color:#ff6b6b\"><b>diễn tiến lâm sàng</b></span>, <span style=\"color:#ff6b6b\"><b>hình ảnh X-quang</b></span> và <span style=\"color:#51cf66\"><b>kháng sinh phối hợp</b></span> cần dùng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lâm sàng <span style=\"color:#ffd43b\"><b>tối cấp</b></span>: <span style=\"color:#ff6b6b\"><b>nhiễm độc nặng, da tái xám, sốt cao liên tục, thở rên, tụt huyết áp</b></span>.<br>2) X-quang tiến triển nhanh trong <span style=\"color:#ffd43b\"><b>24 giờ</b></span>: đám mờ đông đặc → nhiều <span style=\"color:#74c0fc\"><b>bóng khí (pneumatocele)</b></span>, hang hoại tử, hoặc <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi áp lực</b></span> do vỡ bóng khí.<br>3) Điều trị: <span style=\"color:#51cf66\"><b>Vancomycin hoặc Linezolid</b></span> (diệt tụ cầu kháng Methicillin) + <span style=\"color:#51cf66\"><b>Clindamycin</b></span> (ức chế tổng hợp độc tố Panton-Valentine Leukocidin).<br><br><b>💡 Giải thích của AI:</b><br>Một thuốc diệt khuẩn, một thuốc chặn độc tố — hai cơ chế bổ sung nhau cho bệnh do độc tố PVL.",
+      "extra": "📖 Nguồn: PED-21 — Phần 4.2 Biến chứng — Viêm phổi hoại tử",
+      "tags": [
+        "PED-21",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B4-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Biến chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>pARDS</b></span> sau CAP: <span style=\"color:#ffd43b\"><b>định nghĩa/thời gian</b></span>, <span style=\"color:#ffd43b\"><b>tiêu chuẩn oxy hóa</b></span> và <span style=\"color:#ff6b6b\"><b>hình ảnh X-quang</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương phế nang lan tỏa trong vòng <span style=\"color:#ffd43b\"><b>7 ngày</b></span> sau khởi phát nhiễm trùng phổi.<br>2) Thiếu oxy nặng không tương xứng: <span style=\"color:#ffd43b\"><b>PaO2/FiO2 ≤ 300</b></span> hoặc <span style=\"color:#ffd43b\"><b>OI ≥ 4</b></span>.<br>3) X-quang: <span style=\"color:#ff6b6b\"><b>thâm nhiễm phế nang hai bên lan tỏa</b></span>, không do suy tim ứ huyết.<br><br><b>💡 Giải thích của AI:</b><br>Loại trừ phù phổi do tim là điều kiện để gọi là ARDS — tổn thương là viêm lan tỏa chứ không phải quá tải áp lực.",
+      "extra": "📖 Nguồn: PED-21 — Phần 4.2 Biến chứng — pARDS",
+      "tags": [
+        "PED-21",
+        "B4",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Điều trị CAP chia <span style=\"color:#ffd43b\"><b>2 nhánh</b></span>: <span style=\"color:#74c0fc\"><b>ngoại trú (viêm phổi không nặng)</b></span> và <span style=\"color:#ff6b6b\"><b>nội trú (viêm phổi nặng)</b></span> — mỗi nhánh gồm những thành phần nào (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ngoại trú</b></span>: <span style=\"color:#51cf66\"><b>Amoxicillin liều cao 80–90 mg/kg/ngày × 5 ngày</b></span>; Co-amoxiclav tỷ lệ 7:1/8:1 nếu nghi Beta-lactamase; Azithromycin/Clarithromycin nếu &gt; 5 tuổi nghi không điển hình.<br>2) <span style=\"color:#ff6b6b\"><b>Nội trú</b></span>: hỗ trợ hô hấp (oxy → HFNC/CPAP), kháng sinh TM (<span style=\"color:#51cf66\"><b>Ampicillin / Cefotaxime / Ceftriaxone</b></span>), phối hợp <span style=\"color:#51cf66\"><b>Vancomycin + Clindamycin</b></span> nếu nghi CA-MRSA, hạn chế dịch <span style=\"color:#ffd43b\"><b>80%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định rẽ nhánh dựa vào: dấu hiệu nguy hiểm, SpO2 ≥ 92%, uống được thuốc.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5 Phác đồ điều trị",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#51cf66\"><b>Amoxicillin uống</b></span> điều trị viêm phổi ngoại trú: <span style=\"color:#ffd43b\"><b>điều kiện áp dụng</b></span>, <span style=\"color:#ffd43b\"><b>liều, cách chia, thời gian</b></span>, <span style=\"color:#ff6b6b\"><b>trần liều</b></span>, bằng chứng cho 5 ngày, và dạng bào chế?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Áp dụng: Viêm phổi (thở nhanh và/hoặc rút lõm nhẹ), không dấu hiệu nguy hiểm, <span style=\"color:#ffd43b\"><b>SpO2 ≥ 92%</b></span>, còn bú/uống được thuốc. Trẻ <span style=\"color:#ffd43b\"><b>2 tháng–5 tuổi</b></span> (tác nhân chính phế cầu).<br>2) Liều <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span>, chia <span style=\"color:#ffd43b\"><b>2 lần (mỗi 12 giờ) hoặc 3 lần (mỗi 8 giờ)</b></span>.<br>3) Thời gian <span style=\"color:#ffd43b\"><b>5 ngày</b></span> (CAP-IT và SAFER: tương đương 7–10 ngày, ít kháng thuốc và ít tác dụng phụ tiêu hóa).<br>4) <span style=\"color:#ff6b6b\"><b>Trần liều</b></span> <span style=\"color:#ffd43b\"><b>2000–3000 mg/ngày</b></span> (liều người lớn).<br>5) Dạng bào chế: gói cốm/hỗn dịch 250 mg, 500 mg hoặc viên 500 mg.<br><br><b>💡 Giải thích của AI:</b><br>Liều cao để đạt T > MIC với phế cầu kháng trung gian; 5 ngày là đủ cho ca đáp ứng tốt nên không kéo dài 10–14 ngày theo thói quen.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.1 Phác đồ ngoại trú",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Khi nghi vi khuẩn tiết <span style=\"color:#74c0fc\"><b>Beta-lactamase</b></span>: <span style=\"color:#ff6b6b\"><b>2 tình huống gợi ý</b></span>, thuốc chọn, <span style=\"color:#ffd43b\"><b>liều Amoxicillin</b></span>, và <span style=\"color:#ff6b6b\"><b>lưu ý sống còn về tỷ lệ bào chế</b></span> (vì sao)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gợi ý: <span style=\"color:#ff6b6b\"><b>dùng Amoxicillin trong 30 ngày qua</b></span>; <span style=\"color:#ff6b6b\"><b>viêm tai giữa kèm theo</b></span>.<br>2) Thuốc: <span style=\"color:#51cf66\"><b>Amoxicillin-Clavulanic acid (Co-amoxiclav)</b></span>, vẫn phải đạt Amoxicillin <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span>.<br>3) Chọn tỷ lệ Amoxicillin:Clavulanate <span style=\"color:#ffd43b\"><b>7:1 hoặc 8:1</b></span> (gói 400/57 mg hoặc 200/28.5 mg).<br>4) Dạng cũ <span style=\"color:#ffd43b\"><b>4:1</b></span> (gói 250/62.5 mg): để đạt 90 mg/kg lượng Clavulanate quá cao → <span style=\"color:#ff6b6b\"><b>tiêu chảy thẩm thấu dữ dội</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Clavulanate là thành phần gây tiêu chảy; muốn tăng Amoxicillin mà không tăng Clavulanate thì phải chọn tỷ lệ ít Clavulanate hơn.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.1 Chi tiết thuốc",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Trẻ <span style=\"color:#ffd43b\"><b>&gt; 5 tuổi</b></span> nghi viêm phổi <span style=\"color:#74c0fc\"><b>không điển hình (Mycoplasma)</b></span>: <span style=\"color:#51cf66\"><b>Azithromycin</b></span> liều ngày 1, ngày 2–5 (kèm trần) và phương án thay thế <span style=\"color:#51cf66\"><b>Clarithromycin</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Azithromycin</b></span>: ngày 1 <span style=\"color:#ffd43b\"><b>10 mg/kg/ngày × 1 lần (tối đa 500 mg)</b></span>; ngày 2–5 <span style=\"color:#ffd43b\"><b>5 mg/kg/ngày × 1 lần (tối đa 250 mg/ngày)</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Clarithromycin</b></span>: <span style=\"color:#ffd43b\"><b>15 mg/kg/ngày chia 2 lần</b></span>, <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span>, tối đa <span style=\"color:#ffd43b\"><b>1000 mg/ngày</b></span>.<br>3) Chọn nhánh: nghi phế cầu (sốt cao, đông đặc thùy) → Amoxicillin liều cao; nghi không điển hình (ho dai dẳng, thâm nhiễm kẽ lan tỏa) → Azithromycin <span style=\"color:#ffd43b\"><b>10 mg/kg/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Macrolide chỉ dành cho trẻ lớn có bệnh cảnh không điển hình; ở trẻ nhỏ không dùng thường quy (xem phần bằng chứng EPIC).",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.1 Trẻ trên 5 tuổi",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Viêm phổi nặng nội trú — <span style=\"color:#51cf66\"><b>hỗ trợ hô hấp</b></span>: tư thế, <span style=\"color:#ffd43b\"><b>oxy canula (khởi đầu, SpO2 mục tiêu)</b></span>, và <span style=\"color:#51cf66\"><b>khi nào nâng bậc</b></span> HFNC/CPAP với thông số?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nằm <span style=\"color:#ffd43b\"><b>đầu cao 30 độ</b></span>, cổ thẳng, thông thoáng đường thở.<br>2) Oxy canula mũi: khởi đầu <span style=\"color:#ffd43b\"><b>0.5–2 L/phút</b></span>, SpO2 mục tiêu <span style=\"color:#ffd43b\"><b>94–98%</b></span> (tim bẩm sinh tím có mục tiêu riêng).<br>3) Nếu SpO2 không đạt hoặc trẻ co kéo kiệt sức: <span style=\"color:#51cf66\"><b>HFNC 1.5–2 L/kg/phút</b></span> hoặc <span style=\"color:#51cf66\"><b>CPAP 4–6 cmH2O</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mở phế nang xẹp lân cận bằng áp lực dương là điều oxy canula không làm được trong shunt.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.2 Hỗ trợ hô hấp",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Kháng sinh <span style=\"color:#51cf66\"><b>tĩnh mạch đầu tay</b></span> cho viêm phổi nặng: <span style=\"color:#ffd43b\"><b>3 lựa chọn</b></span> (liều, số lần chia, lưu ý ưu tiên)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ampicillin</b></span> <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4 lần (mỗi 6 giờ)</b></span> — lựa chọn đầu tay nếu phế cầu địa phương còn nhạy.<br>2) <span style=\"color:#51cf66\"><b>Cefotaxime</b></span> <span style=\"color:#ffd43b\"><b>100–150 mg/kg/ngày chia 3 lần (mỗi 8 giờ)</b></span> TM chậm — ưu tiên cho trẻ nhỏ và sơ sinh.<br>3) <span style=\"color:#51cf66\"><b>Ceftriaxone</b></span> <span style=\"color:#ffd43b\"><b>50–80 mg/kg/ngày</b></span> TM <span style=\"color:#ffd43b\"><b>1 lần/ngày</b></span> (truyền 30 phút).<br><br><b>💡 Giải thích của AI:</b><br>Chọn theo độ nhạy phế cầu địa phương và nhóm tuổi; Ceftriaxone tiện (1 lần/ngày) nhưng có trần liều và chống chỉ định ở sơ sinh.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.2 Kháng sinh tĩnh mạch",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ff6b6b\"><b>Ceftriaxone</b></span>: <span style=\"color:#ffd43b\"><b>trần liều</b></span>, ví dụ minh họa trẻ 35 kg, hậu quả vượt trần, và <span style=\"color:#ff6b6b\"><b>chống chỉ định tuyệt đối</b></span> (độ tuổi, vì sao)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trần: <span style=\"color:#ffd43b\"><b>2000 mg/ngày (2 g/ngày)</b></span>.<br>2) Ví dụ: trẻ <span style=\"color:#ffd43b\"><b>35 kg</b></span> × 80 mg/kg = <span style=\"color:#ffd43b\"><b>2800 mg</b></span> → bắt buộc kéo về <span style=\"color:#ffd43b\"><b>2000 mg/ngày</b></span> để tránh <span style=\"color:#ff6b6b\"><b>ngộ độc thận và bùn mật</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>CHỐNG CHỈ ĐỊNH</b></span>: trẻ sơ sinh <span style=\"color:#ffd43b\"><b>&lt; 28 ngày tuổi</b></span> (gây <span style=\"color:#ff6b6b\"><b>vàng da nhân não</b></span> và <span style=\"color:#ff6b6b\"><b>kết tủa Calci-Ceftriaxone</b></span> tại phổi và thận).<br><br><b>💡 Giải thích của AI:</b><br>Công thức mg/kg không biết dừng ở đâu — trẻ lớn 35–40 kg dễ vượt liều người lớn nếu không đối chiếu trần.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.2 Kháng sinh tĩnh mạch",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-08",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Khi nghi <span style=\"color:#74c0fc\"><b>tụ cầu hoại tử / CA-MRSA</b></span>: <span style=\"color:#51cf66\"><b>Vancomycin</b></span> (liều, chia, thời gian truyền, nồng độ đáy mục tiêu) và <span style=\"color:#51cf66\"><b>Clindamycin</b></span> (liều, mục đích)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Vancomycin</b></span> <span style=\"color:#ffd43b\"><b>40–60 mg/kg/ngày chia 4 lần</b></span>, truyền chậm tối thiểu <span style=\"color:#ffd43b\"><b>60 phút</b></span>, theo dõi nồng độ đáy (Trough) <span style=\"color:#ffd43b\"><b>15–20 mcg/mL</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Clindamycin</b></span> <span style=\"color:#ffd43b\"><b>30–40 mg/kg/ngày chia 3–4 lần</b></span> để ức chế tổng hợp độc tố <span style=\"color:#74c0fc\"><b>PVL</b></span> của tụ cầu.<br><br><b>💡 Giải thích của AI:</b><br>Phối hợp, không thay thế: Vancomycin diệt vi khuẩn, Clindamycin giảm độc tố.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.2 Phối hợp kháng sinh",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-09",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Điều trị",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Dịch truyền và dinh dưỡng</b></span> trong viêm phổi nặng: <span style=\"color:#ff6b6b\"><b>nguy cơ nào</b></span> cần tránh, <span style=\"color:#ffd43b\"><b>mức hạn chế</b></span> và <span style=\"color:#51cf66\"><b>loại dịch</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tránh truyền thừa: viêm phổi nặng hay có <span style=\"color:#ff6b6b\"><b>SIADH</b></span> → quá tải thể tích, <span style=\"color:#ff6b6b\"><b>phù phổi kẽ</b></span>.<br>2) Hạn chế ở <span style=\"color:#ffd43b\"><b>80% nhu cầu duy trì cơ bản</b></span>.<br>3) Dùng dung dịch <span style=\"color:#51cf66\"><b>đẳng trương: Glucose 5% pha trong NaCl 0.9%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>SIADH giữ nước nên cùng một lượng dịch 'bình thường' đã là quá tải với phổi đang viêm.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.2 Dinh dưỡng và bù dịch",
+      "tags": [
+        "PED-21",
+        "B5",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B5-10",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — <span style=\"color:#51cf66\"><b>Bảng liều bỏ túi</b></span> các kháng sinh CAP: thuốc, đường dùng, liều, số lần chia, thời gian/trần liều?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Amoxicillin uống</b></span>: <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span>, chia 2–3 lần, <span style=\"color:#ffd43b\"><b>5 ngày</b></span>, trần <span style=\"color:#ffd43b\"><b>2000–3000 mg/ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Azithromycin uống (&gt; 5 tuổi)</b></span>: ngày 1 <span style=\"color:#ffd43b\"><b>10 mg/kg (max 500 mg)</b></span>; ngày 2–5 <span style=\"color:#ffd43b\"><b>5 mg/kg (max 250 mg)</b></span>. <span style=\"color:#51cf66\"><b>Clarithromycin</b></span> <span style=\"color:#ffd43b\"><b>15 mg/kg/ngày chia 2, 7–10 ngày, max 1000 mg/ngày</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Ampicillin TM</b></span> <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4</b></span>; <span style=\"color:#51cf66\"><b>Cefotaxime TM</b></span> <span style=\"color:#ffd43b\"><b>100–150 mg/kg/ngày chia 3</b></span>; <span style=\"color:#51cf66\"><b>Ceftriaxone TM</b></span> <span style=\"color:#ffd43b\"><b>50–80 mg/kg/ngày × 1, max 2000 mg/ngày</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Vancomycin TM</b></span> <span style=\"color:#ffd43b\"><b>40–60 mg/kg/ngày chia 4 (trough 15–20)</b></span>; <span style=\"color:#51cf66\"><b>Clindamycin</b></span> <span style=\"color:#ffd43b\"><b>30–40 mg/kg/ngày chia 3–4</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Học theo cặp 'số chia': 2–3 (Amoxicillin), 1 (Azithro/Ceftriaxone), 4 (Ampicillin/Vancomycin), 3 (Cefotaxime) và nhớ trần liều của Amoxicillin/Ceftriaxone/Azithromycin.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5.1 và Phần 5.2",
+      "tags": [
+        "PED-21",
+        "B5",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B5-11",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — <span style=\"color:#51cf66\"><b>Công thức tính liều nhanh</b></span> và bước <span style=\"color:#ff6b6b\"><b>kiểm trần liều</b></span>: ví dụ trẻ 10 kg, 14 kg (Amoxicillin) và trẻ 40 kg (Ceftriaxone)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức: <span style=\"color:#ffd43b\"><b>liều/ngày = cân nặng (kg) × mg/kg/ngày</b></span> → chia số lần → <span style=\"color:#ff6b6b\"><b>so với trần liều người lớn, lấy giá trị nhỏ hơn</b></span>.<br>2) Trẻ <span style=\"color:#ffd43b\"><b>10 kg</b></span> × 90 = <span style=\"color:#ffd43b\"><b>900 mg/ngày</b></span> → <span style=\"color:#ffd43b\"><b>450 mg × 2 lần</b></span> (cách 12 giờ), 5 ngày.<br>3) Trẻ <span style=\"color:#ffd43b\"><b>14 kg</b></span> × 90 = <span style=\"color:#ffd43b\"><b>1260 mg/ngày</b></span> → khoảng <span style=\"color:#ffd43b\"><b>600–650 mg × 2 lần</b></span>.<br>4) Trẻ <span style=\"color:#ffd43b\"><b>40 kg</b></span> × 80 = <span style=\"color:#ffd43b\"><b>3200 mg</b></span> → <span style=\"color:#ff6b6b\"><b>kê 2 g/ngày (2000 mg)</b></span>, pha trong 100 mL NaCl 0.9% truyền chậm 30 phút, 1 lần/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Hai bước luôn đi liền: tính theo cân nặng rồi chặn bằng trần; bước thứ hai thường bị quên ở trẻ lớn.",
+      "extra": "📖 Nguồn: PED-21 — Phần 5, Phần 9 Checkpoint 2–3, Phần 10",
+      "tags": [
+        "PED-21",
+        "B5",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B6-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Lưu đồ tại buồng bệnh gồm <span style=\"color:#ffd43b\"><b>4 bước</b></span> từ tiếp nhận đến đánh giá lại và <span style=\"color:#74c0fc\"><b>kế hoạch theo nguồn lực</b></span> — tên và nội dung chính mỗi bước?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bước 0</b></span>: sàng lọc cờ đỏ cấp cứu.<br>2) <span style=\"color:#ffd43b\"><b>Bước 1</b></span>: đếm nhịp thở chuẩn 60 giây + khám co kéo.<br>3) <span style=\"color:#ffd43b\"><b>Bước 2</b></span>: có thở nhanh và/hoặc rút lõm → phân <span style=\"color:#ff6b6b\"><b>nặng</b></span> (nhập viện) hay <span style=\"color:#74c0fc\"><b>không nặng</b></span> (ngoại trú).<br>4) <span style=\"color:#ffd43b\"><b>Đánh giá lại sau 48–72 giờ</b></span>: cải thiện hay thất bại.<br>5) <span style=\"color:#74c0fc\"><b>Plan A</b></span> (đủ nguồn lực) và <span style=\"color:#74c0fc\"><b>Plan B</b></span> (trạm y tế).<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ đặt an toàn lên trước: cờ đỏ trước, đo lường chuẩn sau, rồi mới chọn nơi điều trị.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Lưu đồ quyết định",
+      "tags": [
+        "PED-21",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B6-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ff6b6b\"><b>Bước 0</b></span> khi <span style=\"color:#ff6b6b\"><b>CÓ cờ đỏ</b></span>: <span style=\"color:#ffd43b\"><b>6 câu sàng lọc</b></span> và <span style=\"color:#51cf66\"><b>4 hành động</b></span> kích hoạt; và nếu <span style=\"color:#74c0fc\"><b>không thở nhanh, không co kéo</b></span> thì làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sàng lọc: bỏ bú/uống? nôn tất cả? co giật? li bì? tím tái? thở rên?<br>2) <span style=\"color:#51cf66\"><b>Hành động</b></span>: thở oxy duy trì <span style=\"color:#ffd43b\"><b>SpO2 ≥ 94%</b></span>; lập đường truyền TM khẩn; kháng sinh TM <span style=\"color:#51cf66\"><b>Cefotaxim / Ceftriaxone</b></span>; chuyển phòng cấp cứu/<span style=\"color:#74c0fc\"><b>PICU</b></span>.<br>3) Không thở nhanh, không co kéo → <span style=\"color:#74c0fc\"><b>nhiễm khuẩn hô hấp trên</b></span>: <span style=\"color:#ff6b6b\"><b>không dùng kháng sinh</b></span>, hạ sốt, uống nhiều nước, dặn dấu hiệu tái khám.<br><br><b>💡 Giải thích của AI:</b><br>Ở bước đầu mục tiêu là ổn định, chưa cần phân loại căn nguyên.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Bước 0–1",
+      "tags": [
+        "PED-21",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B6-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bước 2: <span style=\"color:#ff6b6b\"><b>viêm phổi NẶNG</b></span> và <span style=\"color:#74c0fc\"><b>viêm phổi KHÔNG nặng</b></span> — <span style=\"color:#ffd43b\"><b>tiêu chí</b></span> và <span style=\"color:#51cf66\"><b>xử trí cụ thể</b></span> (4 việc nhập viện, 4 việc ngoại trú)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>NẶNG</b></span>: co kéo nặng, phập phồng cánh mũi; <span style=\"color:#ffd43b\"><b>SpO2 &lt; 92%</b></span>; không uống được thuốc.<br>2) <span style=\"color:#74c0fc\"><b>KHÔNG nặng</b></span>: rút lõm nhẹ hoặc chỉ thở nhanh; tỉnh táo, bú/uống tốt, SpO2 ≥ 92%; gia đình theo dõi sát được.<br>3) <span style=\"color:#ff6b6b\"><b>Nhập viện</b></span>: (1) oxy canula; (2) kháng sinh TM Ampicillin hoặc Cefotaxim/Ceftriaxone; (3) <span style=\"color:#ffd43b\"><b>hạn chế dịch 80%</b></span>; (4) chụp X-quang phổi thẳng.<br>4) <span style=\"color:#51cf66\"><b>Ngoại trú</b></span>: (1) Amoxicillin liều cao <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span>; (2) uống đúng <span style=\"color:#ffd43b\"><b>5 ngày</b></span>; (3) hẹn tái khám sau <span style=\"color:#ffd43b\"><b>48 giờ</b></span> hoặc khi có dấu hiệu nặng; (4) <span style=\"color:#ff6b6b\"><b>KHÔNG chụp X-quang ngực</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba tiêu chí thực dụng của ngoại trú: SpO2 ≥ 92%, uống/bú được, gia đình theo dõi sát được.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Bước 2",
+      "tags": [
+        "PED-21",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B6-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>Đánh giá lại sau 48–72 giờ</b></span> ở trẻ nhập viện: dấu hiệu <span style=\"color:#51cf66\"><b>cải thiện</b></span> và hành động, dấu hiệu <span style=\"color:#ff6b6b\"><b>thất bại</b></span> và hành động?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cải thiện</b></span>: hết sốt, nhịp thở giảm, bú tốt, cai được oxy → chuyển kháng sinh uống, hoàn thành đủ <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thất bại/xấu đi</b></span>: sốt cao liên tục, thở nhanh hơn, SpO2 tụt, co kéo tăng → nghi <span style=\"color:#74c0fc\"><b>tràn mủ màng phổi, hoại tử, hoặc tụ cầu kháng thuốc</b></span>.<br>3) Hành động khi thất bại: <span style=\"color:#51cf66\"><b>Siêu âm màng phổi + X-quang; đổi Vancomycin + dẫn lưu mủ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 48–72 giờ là thời gian tối thiểu để kháng sinh đúng phát huy tác dụng; vượt mốc mà vẫn xấu thì phải tìm biến chứng thay vì chỉ đổi thuốc.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Đánh giá lại",
+      "tags": [
+        "PED-21",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B6-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#74c0fc\"><b>Plan A</b></span> (bệnh viện tuyến trên) và <span style=\"color:#74c0fc\"><b>Plan B</b></span> (trạm y tế/vùng sâu): mỗi kế hoạch gồm <span style=\"color:#ffd43b\"><b>những phương tiện/hành động nào</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Plan A</b></span>: SpO2 liên tục, máy khí dung, <span style=\"color:#51cf66\"><b>siêu âm màng phổi tại giường trong 15 phút</b></span>, Real-time PCR đa mồi, <span style=\"color:#ffd43b\"><b>Procalcitonin</b></span>, khí máu động mạch, sẵn sàng HFNC và CPAP.<br>2) <span style=\"color:#74c0fc\"><b>Plan B</b></span>: dựa giác quan — đếm nhịp thở bằng mắt trọn <span style=\"color:#ffd43b\"><b>60 giây</b></span> khi trẻ ngủ yên; quan sát rút lõm khi bộc lộ ngực bụng; nhận thở rên bằng tai trần ghé sát mũi miệng.<br>3) Plan B điều trị: Amoxicillin gói/viên nghiền uống cho viêm phổi; nếu <span style=\"color:#ff6b6b\"><b>rút lõm nặng hoặc bỏ bú</b></span> → <span style=\"color:#51cf66\"><b>tiêm bắp 1 liều Ceftriaxone hoặc Ampicillin rồi chuyển viện khẩn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại WHO dựa vào nhịp thở và rút lõm nên vẫn áp dụng được khi không có ống nghe, X-quang hay xét nghiệm.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Kế hoạch hành động theo nguồn lực",
+      "tags": [
+        "PED-21",
+        "B6",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B6-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — <span style=\"color:#74c0fc\"><b>Cây quyết định nhị phân</b></span> từ lúc tiếp nhận: <span style=\"color:#ff6b6b\"><b>IF cờ đỏ</b></span> / <span style=\"color:#74c0fc\"><b>IF không thở nhanh, không co kéo</b></span> / <span style=\"color:#74c0fc\"><b>IF có thở nhanh ± rút lõm</b></span> → làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>IF có BẤT KỲ cờ đỏ</b></span> (bỏ bú, nôn tất cả, co giật, li bì, tím tái, thở rên, SpO2 &lt; 90%) → <span style=\"color:#51cf66\"><b>oxy + đường truyền + kháng sinh TM + PICU</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>IF không thở nhanh và không rút lõm</b></span> → không phải viêm phổi: <span style=\"color:#ff6b6b\"><b>không kháng sinh</b></span>, hạ sốt, dặn tái khám.<br>3) <span style=\"color:#74c0fc\"><b>IF thở nhanh ± rút lõm, tỉnh, SpO2 ≥ 92%, uống được</b></span> → ngoại trú: <span style=\"color:#51cf66\"><b>Amoxicillin 80–90 mg/kg/ngày × 5 ngày</b></span>, không X-quang, tái khám <span style=\"color:#ffd43b\"><b>48 giờ</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>IF thở nhanh ± rút lõm nhưng co kéo nặng / SpO2 &lt; 92% / không uống được</b></span> → nhập viện, kháng sinh TM, sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> không đỡ → <span style=\"color:#ff6b6b\"><b>siêu âm màng phổi + nghĩ biến chứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trình tự cố định: an toàn tính mạng → có/không viêm phổi → nặng/không nặng → đánh giá lại.",
+      "extra": "📖 Nguồn: PED-21 — Phần 6 Lưu đồ",
+      "tags": [
+        "PED-21",
+        "B6",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B7-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Bằng chứng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Hai cập nhật bằng chứng 10 năm qua: <span style=\"color:#ffd43b\"><b>(1) thời gian kháng sinh</b></span> và <span style=\"color:#74c0fc\"><b>(2) vai trò vi khuẩn không điển hình</b></span> — mỗi cập nhật rút ra khuyến cáo gì (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Liệu trình ngắn</b></span>: ngoại trú đáp ứng tốt chỉ cần Amoxicillin <span style=\"color:#ffd43b\"><b>5 ngày</b></span> (CAP-IT, SAFER).<br>2) <span style=\"color:#ff6b6b\"><b>Không kê Macrolide thường quy</b></span> cho trẻ &lt; 5 tuổi (EPIC).<br><br><b>💡 Giải thích của AI:</b><br>Hai khuyến cáo cùng hướng: kháng sinh ít hơn nhưng đúng hơn.",
+      "extra": "📖 Nguồn: PED-21 — Phần 7 Bằng chứng y học",
+      "tags": [
+        "PED-21",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B7-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>CAP-IT</b></span> và <span style=\"color:#74c0fc\"><b>SAFER</b></span>: <span style=\"color:#ffd43b\"><b>thiết kế/cỡ mẫu/địa điểm</b></span>, <span style=\"color:#ffd43b\"><b>so sánh gì</b></span>, <span style=\"color:#ffd43b\"><b>kết quả</b></span> và <span style=\"color:#51cf66\"><b>khuyến cáo cập nhật</b></span>; trước đây thời gian điều trị thói quen là bao lâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trước đây thói quen <span style=\"color:#ffd43b\"><b>10–14 ngày</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>CAP-IT</b></span> (JAMA 2021): RCT mù đôi <span style=\"color:#ffd43b\"><b>814 trẻ</b></span> Anh và Ireland; Amoxicillin <span style=\"color:#ffd43b\"><b>3 ngày vs 7 ngày</b></span> và liều thấp vs cao → liệu trình ngắn <span style=\"color:#ff6b6b\"><b>không thua kém</b></span> về tỷ lệ phải điều trị lại, giảm phơi nhiễm kháng sinh.<br>3) <span style=\"color:#74c0fc\"><b>SAFER</b></span> (JAMA Pediatr 2021): Canada, Amoxicillin <span style=\"color:#ffd43b\"><b>5 ngày vs 10 ngày</b></span> ngoại trú → khỏi bệnh lâm sàng ngày 14–21 tương đương (<span style=\"color:#ffd43b\"><b>88.6% vs 88.5%</b></span>).<br>4) <span style=\"color:#51cf66\"><b>Khuyến cáo</b></span>: CAP ngoại trú đáp ứng tốt dùng Amoxicillin <span style=\"color:#ffd43b\"><b>5 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai thử nghiệm cho cùng một thông điệp: rút ngắn không làm tăng thất bại mà giảm kháng thuốc và tác dụng phụ.",
+      "extra": "📖 Nguồn: PED-21 — Phần 7.1 CAP-IT & SAFER",
+      "tags": [
+        "PED-21",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B7-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Nghiên cứu <span style=\"color:#74c0fc\"><b>EPIC (CDC Hoa Kỳ, NEJM 2015)</b></span>: phát hiện về <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>&lt; 5 tuổi</b></span>, ý nghĩa của PCR dương tính và <span style=\"color:#51cf66\"><b>khuyến cáo kê Macrolide</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>M. pneumoniae</b></span> <span style=\"color:#ff6b6b\"><b>rất hiếm khi</b></span> gây viêm phổi nặng ở trẻ &lt; 5 tuổi.<br>2) Phần lớn PCR dương tính ở trẻ nhỏ chỉ là mang vi khuẩn không triệu chứng ở tỵ hầu.<br>3) <span style=\"color:#51cf66\"><b>Khuyến cáo</b></span>: <span style=\"color:#ff6b6b\"><b>không kê Macrolide (Azithromycin, Clarithromycin) thường quy</b></span> cho trẻ &lt; 5 tuổi trừ khi có bằng chứng dịch tễ rõ hoặc không đáp ứng Beta-lactam liều cao.<br><br><b>💡 Giải thích của AI:</b><br>PCR dương tính ≠ tác nhân gây bệnh; điều trị theo bệnh cảnh và dịch tễ, không theo kết quả PCR đơn thuần.",
+      "extra": "📖 Nguồn: PED-21 — Phần 7.2 EPIC",
+      "tags": [
+        "PED-21",
+        "B7",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B8-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>8 cạm bẫy</b></span> kinh điển của CAP: kể tên ngắn gọn từng bẫy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đếm nhịp thở khi trẻ khóc/sốt cao <span style=\"color:#ffd43b\"><b>39.5 °C</b></span>.<br>2) Đếm <span style=\"color:#ffd43b\"><b>15 giây × 4</b></span>.<br>3) X-quang thường quy cho viêm phổi nhẹ ngoại trú.<br>4) Amoxicillin liều thông thường <span style=\"color:#ffd43b\"><b>40–50 mg/kg/ngày</b></span>.<br>5) Co-amoxiclav tỷ lệ <span style=\"color:#ffd43b\"><b>4:1</b></span>.<br>6) Quên trần liều <span style=\"color:#74c0fc\"><b>Ceftriaxone</b></span> ở trẻ lớn.<br>7) Đổi kháng sinh vội trong <span style=\"color:#ffd43b\"><b>24 giờ</b></span>.<br>8) Thuốc <span style=\"color:#ff6b6b\"><b>giảm ho / kháng Histamin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tám bẫy chia ba nhóm: đo lường (1–2), chỉ định thừa (3), kê đơn sai (4–6, 7), điều trị hỗ trợ có hại (8).",
+      "extra": "📖 Nguồn: PED-21 — Phần 8 Cạm bẫy lâm sàng",
+      "tags": [
+        "PED-21",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B8-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bẫy <span style=\"color:#ffd43b\"><b>1 và 2</b></span> về <span style=\"color:#74c0fc\"><b>đếm nhịp thở</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế sai lệch</b></span> (số liệu tăng nhịp theo sốt, sai số) và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bẫy 1 (khóc/sốt <span style=\"color:#ffd43b\"><b>39.5 °C</b></span>): nhịp thở tăng sinh lý, khoảng <span style=\"color:#ffd43b\"><b>+10 nhịp/phút cho mỗi 1 °C</b></span> → chẩn đoán nhầm và kê đơn oan. <span style=\"color:#51cf66\"><b>Hạ sốt Paracetamol, đợi trẻ yên/ngủ rồi đếm 60 giây</b></span>.<br>2) Bẫy 2 (đếm <span style=\"color:#ffd43b\"><b>15 giây × 4</b></span>): nhũ nhi thở ngắt quãng không đều, nhân nhẩm khuếch đại sai số <span style=\"color:#ffd43b\"><b>gấp 4 lần</b></span>. <span style=\"color:#51cf66\"><b>Đếm trọn 60 giây bằng đồng hồ có kim giây</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai đều làm tăng giả nhịp thở → chẩn đoán dương tính giả → kháng sinh không cần thiết.",
+      "extra": "📖 Nguồn: PED-21 — Phần 8 Cạm bẫy 1–2",
+      "tags": [
+        "PED-21",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B8-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bẫy <span style=\"color:#ffd43b\"><b>3, 4 và 5</b></span> (X-quang, liều Amoxicillin, tỷ lệ Co-amoxiclav): <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span> từng bẫy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bẫy 3 (X-quang thường quy): bức xạ không cần thiết; hình virus bị đọc nhầm vi khuẩn → leo thang kháng sinh. <span style=\"color:#51cf66\"><b>Chỉ chụp khi nghi biến chứng, viêm phổi nặng nhập viện, thất bại sau 48–72 giờ</b></span>.<br>2) Bẫy 4 (liều <span style=\"color:#ffd43b\"><b>40–50 mg/kg/ngày</b></span>): thuốc tự do không vượt MIC phế cầu kháng trung gian (<span style=\"color:#ffd43b\"><b>T &gt; MIC &lt; 40%</b></span>) → thất bại. <span style=\"color:#51cf66\"><b>Bắt buộc 80–90 mg/kg/ngày chia 2–3 lần</b></span>.<br>3) Bẫy 5 (Co-amoxiclav <span style=\"color:#ffd43b\"><b>4:1</b></span> để đạt 90 mg/kg): nhiều Clavulanic acid → viêm ruột thẩm thấu, tiêu chảy mất nước. <span style=\"color:#51cf66\"><b>Chọn tỷ lệ 7:1 hoặc 8:1</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba bẫy này là ba lỗi 'đúng ý định, sai thực hiện': muốn chẩn đoán chắc, muốn dùng đúng thuốc, muốn đạt liều.",
+      "extra": "📖 Nguồn: PED-21 — Phần 8 Cạm bẫy 3–5",
+      "tags": [
+        "PED-21",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B8-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bẫy <span style=\"color:#ffd43b\"><b>6, 7 và 8</b></span> (trần liều Ceftriaxone, đổi thuốc vội, thuốc giảm ho): <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bẫy 6: trẻ <span style=\"color:#ffd43b\"><b>35 kg</b></span> × 80 mg/kg = <span style=\"color:#ffd43b\"><b>2800 mg</b></span> vượt trần <span style=\"color:#ffd43b\"><b>2000 mg/ngày</b></span> → bùn mật, độc tính thận. <span style=\"color:#51cf66\"><b>Ghi nhớ trần 2 g/ngày</b></span>.<br>2) Bẫy 7: đổi thuốc trong <span style=\"color:#ffd43b\"><b>24 giờ</b></span> vì còn sốt — sốt thường cần <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> để hạ. <span style=\"color:#51cf66\"><b>Nếu tổng trạng ổn, nhịp thở không tăng, SpO2 không tụt → kiên trì 48–72 giờ rồi đánh giá</b></span>.<br>3) Bẫy 8: thuốc giảm ho/kháng Histamin ức chế ho sinh tồn → ứ mủ phế nang, nặng thêm suy hô hấp. <span style=\"color:#51cf66\"><b>Không dùng Codein, Dextromethorphan; chỉ làm ẩm đường thở và vỗ rung dẫn lưu nhẹ nhàng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ho là cơ chế làm sạch đường thở; dập ho là gây hại.",
+      "extra": "📖 Nguồn: PED-21 — Phần 8 Cạm bẫy 6–8",
+      "tags": [
+        "PED-21",
+        "B8",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B8-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> và <span style=\"color:#51cf66\"><b>3 NÊN</b></span> khi xử trí CAP ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> đếm nhịp thở khi trẻ khóc/sốt cao hoặc đếm 15 giây × 4 — <span style=\"color:#51cf66\"><b>NÊN</b></span> hạ sốt, đếm trọn <span style=\"color:#ffd43b\"><b>60 giây</b></span> khi trẻ yên.<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> chụp X-quang thường quy ở viêm phổi nhẹ ngoại trú — <span style=\"color:#51cf66\"><b>NÊN</b></span> chụp khi viêm phổi nặng, nghi biến chứng, thất bại <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> dùng Amoxicillin <span style=\"color:#ffd43b\"><b>40–50 mg/kg/ngày</b></span> hay thuốc giảm ho — <span style=\"color:#51cf66\"><b>NÊN</b></span> <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span> và chỉ làm ẩm đường thở.<br>4) Nhắc thêm: kiểm trần liều Ceftriaxone <span style=\"color:#ffd43b\"><b>2 g/ngày</b></span>; không dùng Ceftriaxone <span style=\"color:#ffd43b\"><b>&lt; 28 ngày</b></span>; không đổi thuốc trước <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> nếu ổn định.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi KHÔNG đi kèm một NÊN thay thế để biến lỗi thành hành động đúng ngay tại giường.",
+      "extra": "📖 Nguồn: PED-21 — Phần 8 và Phần 12",
+      "tags": [
+        "PED-21",
+        "B8",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B9-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Bốn <span style=\"color:#ffd43b\"><b>checkpoint tự kiểm tra</b></span> của bài xoay quanh <span style=\"color:#ffd43b\"><b>4 tình huống nào</b></span> và mỗi tình huống kiểm tra lỗi gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CP1: trẻ 10 tháng sốt, nhịp thở 56 → xử trí nhịp thở ở trẻ <span style=\"color:#ff6b6b\"><b>đang sốt</b></span>.<br>2) CP2: trẻ 3 tuổi 14 kg → chọn <span style=\"color:#51cf66\"><b>liều và dạng Amoxicillin</b></span>.<br>3) CP3: trẻ 9 tuổi 40 kg → <span style=\"color:#ff6b6b\"><b>bẫy trần liều Ceftriaxone</b></span>.<br>4) CP4: sốt dù Cefotaxim 3 ngày, giảm âm phổi phải → chọn <span style=\"color:#74c0fc\"><b>siêu âm màng phổi</b></span> hay CT.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi tình huống ứng với một bẫy lớn: đo lường, tính liều, trần liều, chọn cận lâm sàng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 9 Điểm dừng tự kiểm tra",
+      "tags": [
+        "PED-21",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B9-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>CP1</b></span>: trẻ nam 10 tháng, 9 kg, sốt <span style=\"color:#ffd43b\"><b>39.2 °C</b></span>, ho 2 ngày, nhịp thở ban đầu <span style=\"color:#ffd43b\"><b>56</b></span> → điều dưỡng báo viêm phổi nặng. <span style=\"color:#51cf66\"><b>Bác sĩ làm gì</b></span>, liều Paracetamol (mg), thời gian chờ và <span style=\"color:#ff6b6b\"><b>tiêu chí chẩn đoán lại</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai quy trình</b></span>: đếm khi đang sốt 39.2 °C (thân nhiệt kích thích trung tâm hô hấp, tăng <span style=\"color:#ffd43b\"><b>7–10 lần/phút mỗi 1 °C</b></span>).<br>2) Cho Paracetamol <span style=\"color:#ffd43b\"><b>10–15 mg/kg (90–135 mg)</b></span>, cởi bớt áo, chườm ấm trán–nách–bẹn.<br>3) Chờ <span style=\"color:#ffd43b\"><b>30–45 phút</b></span>, thân nhiệt &lt; <span style=\"color:#ffd43b\"><b>38 °C</b></span>, trẻ yên → đếm lại trọn 60 giây.<br>4) Chỉ chẩn đoán viêm phổi nếu sau hạ sốt vẫn <span style=\"color:#ffd43b\"><b>≥ 50 lần/phút</b></span> (nhóm 2–11 tháng).<br><br><b>💡 Giải thích của AI:</b><br>Con số 56 chưa có giá trị khi trẻ sốt cao; phải đo lại trong điều kiện chuẩn mới so với ngưỡng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 9 Checkpoint 1",
+      "tags": [
+        "PED-21",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B9-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>CP2</b></span>: trẻ 3 tuổi, <span style=\"color:#ffd43b\"><b>14 kg</b></span>, tỉnh, thở <span style=\"color:#ffd43b\"><b>44</b></span>, rút lõm bờ sườn nhẹ, SpO2 <span style=\"color:#ffd43b\"><b>96%</b></span>, ran ẩm đáy phải, chưa dùng kháng sinh 3 tháng qua. <span style=\"color:#51cf66\"><b>Thuốc, liều, cách chia, dạng thuốc, thời gian</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán: <span style=\"color:#74c0fc\"><b>viêm phổi không nặng</b></span> → <span style=\"color:#51cf66\"><b>Amoxicillin liều cao 80–90 mg/kg/ngày</b></span>.<br>2) Tính: <span style=\"color:#ffd43b\"><b>14 kg × 90 = 1260 mg/ngày</b></span>, chia 2 lần, mỗi lần khoảng <span style=\"color:#ffd43b\"><b>600–650 mg</b></span> (cách 12 giờ).<br>3) Kê đơn thực tế: gói <span style=\"color:#ffd43b\"><b>250 mg</b></span> (2.5 gói/lần × 2 lần/ngày) hoặc viên <span style=\"color:#ffd43b\"><b>500 mg</b></span> (1 viên + 1/4 viên/lần), uống đúng <span style=\"color:#ffd43b\"><b>5 ngày</b></span>.<br>4) Dặn mẹ dấu hiệu cờ đỏ để tái khám ngay.<br><br><b>💡 Giải thích của AI:</b><br>Từ liều mg/ngày phải đổi sang đơn vị thực tế (gói/viên) thì bà mẹ mới thực hiện được.",
+      "extra": "📖 Nguồn: PED-21 — Phần 9 Checkpoint 2",
+      "tags": [
+        "PED-21",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B9-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>CP3</b></span>: trẻ 9 tuổi, <span style=\"color:#ffd43b\"><b>40 kg</b></span>, viêm phổi nặng thùy dưới trái, SpO2 <span style=\"color:#ffd43b\"><b>90%</b></span>; y lệnh 'Ceftriaxone 3.2 g TM 1 lần/ngày'. <span style=\"color:#ff6b6b\"><b>Đúng hay sai</b></span>, vì sao, và <span style=\"color:#51cf66\"><b>y lệnh sửa chuẩn</b></span> (liều, dung môi, thời gian truyền)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>SAI VÀ NGUY HIỂM</b></span>: rơi vào bẫy trần liều người lớn.<br>2) Công thức cho <span style=\"color:#ffd43b\"><b>3.2 g/ngày</b></span> nhưng trần tuyệt đối trong nhiễm trùng hô hấp là <span style=\"color:#ffd43b\"><b>2 g/ngày (2000 mg)</b></span>.<br>3) Nguy cơ: kết tủa muối <span style=\"color:#74c0fc\"><b>Calci-Ceftriaxone</b></span> ở đường tiết niệu → <span style=\"color:#ff6b6b\"><b>suy thận cấp sau thận</b></span>, <span style=\"color:#ff6b6b\"><b>bùn mật giả sỏi (biliary pseudolithiasis)</b></span>.<br>4) Sửa: <span style=\"color:#51cf66\"><b>Ceftriaxone 2 g pha trong 100 mL NaCl 0.9%, truyền TM chậm 30 phút, 1 lần/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dùng công thức mà quên cận trên là lỗi kê đơn phổ biến nhất ở trẻ lớn.",
+      "extra": "📖 Nguồn: PED-21 — Phần 9 Checkpoint 3",
+      "tags": [
+        "PED-21",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B9-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Checkpoint",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>CP4</b></span>: trẻ 2 tuổi, Cefotaxim <span style=\"color:#ffd43b\"><b>3 ngày</b></span> vẫn sốt <span style=\"color:#ffd43b\"><b>39 °C</b></span>, thở <span style=\"color:#ffd43b\"><b>52</b></span>, giảm âm phổi phải hoàn toàn. <span style=\"color:#51cf66\"><b>Chọn CT hay siêu âm màng phổi</b></span>, vì sao (3 ưu điểm) và khi nào mới cần <span style=\"color:#74c0fc\"><b>CT</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Siêu âm màng phổi</b></span> là chỉ định ưu tiên số 1 tại giường.<br>2) Ưu điểm: phát hiện dịch <span style=\"color:#ffd43b\"><b>nhạy hơn X-quang thường</b></span>; <span style=\"color:#ffd43b\"><b>không nhiễm xạ</b></span> như CT; đánh giá cấu trúc dịch (vách ngăn sợi huyết/loculations), ước tính thể tích, định vị vị trí chọc/dẫn lưu an toàn.<br>3) <span style=\"color:#74c0fc\"><b>CT lồng ngực</b></span> chỉ dành cho nghi <span style=\"color:#ff6b6b\"><b>áp xe phổi sâu</b></span> hoặc khi siêu âm không giải thích được toàn bộ tổn thương.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ + cần theo dõi nhiều lần → ưu tiên phương tiện không bức xạ và thực hiện ngay tại giường.",
+      "extra": "📖 Nguồn: PED-21 — Phần 9 Checkpoint 4",
+      "tags": [
+        "PED-21",
+        "B9",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B10-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Hai ca lâm sàng của bài: <span style=\"color:#ffd43b\"><b>ca 1</b></span> (14 tháng) và <span style=\"color:#ff6b6b\"><b>ca 2</b></span> (3 tuổi) — mỗi ca <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span> gì và <span style=\"color:#51cf66\"><b>xử trí chính</b></span> gì (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Ca 1</b></span> (bé gái 14 tháng, 10 kg): CAP <span style=\"color:#74c0fc\"><b>không nặng</b></span>, nghi phế cầu → <span style=\"color:#51cf66\"><b>Amoxicillin 90 mg/kg/ngày × 5 ngày</b></span> ngoại trú, không X-quang, tái khám 48 giờ.<br>2) <span style=\"color:#ff6b6b\"><b>Ca 2</b></span> (bé trai 3 tuổi, 14 kg): viêm phổi nặng + <span style=\"color:#74c0fc\"><b>tràn mủ màng phổi phải</b></span> + suy hô hấp cấp → oxy/HFNC, siêu âm, chọc hút/dẫn lưu, <span style=\"color:#51cf66\"><b>Ceftriaxone + Vancomycin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai ca là hai đầu phổ: ca nhẹ thì làm ít và đúng; ca nặng thì làm nhiều theo thứ tự cứu mạng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 10 Hai ca lâm sàng",
+      "tags": [
+        "PED-21",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B10-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>Ca 1</b></span> (14 tháng, 10 kg, nhịp thở <span style=\"color:#ffd43b\"><b>48</b></span>, co kéo nhẹ bờ sườn, SpO2 <span style=\"color:#ffd43b\"><b>96%</b></span>, ran ẩm nhỏ hạt đáy phải): phân tích <span style=\"color:#ffd43b\"><b>5 bước</b></span> — <span style=\"color:#ff6b6b\"><b>cờ đỏ</b></span>, <span style=\"color:#74c0fc\"><b>đối chiếu ngưỡng</b></span>, <span style=\"color:#74c0fc\"><b>chẩn đoán + phân biệt</b></span>, <span style=\"color:#51cf66\"><b>đơn thuốc chi tiết</b></span>, <span style=\"color:#51cf66\"><b>dặn dò</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bước 1</b></span>: tỉnh, bú/uống tốt, không dấu hiệu nguy hiểm, SpO2 96% → chưa cần cấp cứu.<br>2) <span style=\"color:#ffd43b\"><b>Bước 2</b></span>: tuổi 14 tháng (nhóm 12–59 tháng, ngưỡng <span style=\"color:#ffd43b\"><b>≥ 40</b></span>), nhịp thở <span style=\"color:#ffd43b\"><b>48</b></span> → <span style=\"color:#ff6b6b\"><b>thở nhanh</b></span>; rút lõm nhẹ; ran ẩm khu trú đáy phải.<br>3) <span style=\"color:#ffd43b\"><b>Bước 3</b></span>: <span style=\"color:#74c0fc\"><b>CAP không nặng</b></span>, nghi phế cầu; phân biệt <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản</b></span> (&lt; 12 tháng, khò khè lan tỏa), <span style=\"color:#74c0fc\"><b>nhiễm khuẩn hô hấp trên</b></span> (không thở nhanh).<br>4) <span style=\"color:#ffd43b\"><b>Bước 4</b></span>: ngoại trú; <span style=\"color:#ff6b6b\"><b>không X-quang</b></span>; Amoxicillin <span style=\"color:#ffd43b\"><b>90 mg/kg/ngày</b></span>: 10 kg → <span style=\"color:#ffd43b\"><b>900 mg/ngày = 450 mg × 2 lần</b></span>, gói 250 mg (gần 2 gói/lần) hoặc 500 mg (gần 1 gói/lần), <span style=\"color:#ffd43b\"><b>5 ngày</b></span>; Paracetamol <span style=\"color:#ffd43b\"><b>10–15 mg/kg (100–150 mg)</b></span> khi sốt ≥ 38.5 °C; bú mẹ tăng cường, nhỏ mũi NaCl 0.9% trước ăn.<br>5) <span style=\"color:#ffd43b\"><b>Bước 5</b></span>: dặn dấu hiệu nguy hiểm (thở khó hơn, rút lõm sâu, bỏ bú, nôn mọi thứ, li bì, tím môi) → đến viện ngay; tái khám sau <span style=\"color:#ffd43b\"><b>48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ca nhẹ nhưng vẫn đủ 5 bước: nhận diện nguy cơ → đối chiếu chuẩn tuổi → chẩn đoán → can thiệp → dặn dò.",
+      "extra": "📖 Nguồn: PED-21 — Phần 10 Ca lâm sàng 1",
+      "tags": [
+        "PED-21",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B10-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ff6b6b\"><b>Ca 2</b></span> (3 tuổi, 14 kg, sốt 4 ngày dù Cefixime 3 ngày, li bì, nhịp thở <span style=\"color:#ffd43b\"><b>54</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>88%</b></span>, gõ đục đáy phải): <span style=\"color:#ff6b6b\"><b>cờ đỏ</b></span>, <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>xử trí cấp cứu</b></span> (oxy/HFNC, cận lâm sàng, thủ thuật, ngưỡng pH, kháng sinh với liều, dịch)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span>: li bì, thở rên, SpO2 88%, sốt cao nhiễm độc, co kéo hõm ức → suy hô hấp cấp nặng.<br>2) Ba giảm ở đáy phổi phải → <span style=\"color:#74c0fc\"><b>tràn dịch màng phổi</b></span>; thất bại Cefixime (nồng độ dịch mô phổi và hoạt tính phế cầu kém) → nghi <span style=\"color:#74c0fc\"><b>tràn mủ màng phổi</b></span>; tác nhân <span style=\"color:#74c0fc\"><b>S. pneumoniae hoặc S. aureus</b></span>.<br>3) Oxy: mặt nạ túi dự trữ hoặc canula <span style=\"color:#ffd43b\"><b>2–3 L/phút</b></span>, SpO2 mục tiêu <span style=\"color:#ffd43b\"><b>≥ 94%</b></span>; nếu co kéo không giảm → <span style=\"color:#51cf66\"><b>HFNC 20 L/phút (~1.5 L/kg/phút), FiO2 40–50%</b></span>.<br>4) Cận lâm sàng: siêu âm màng phổi, X-quang tại giường, CTM, CRP, Procalcitonin, cấy máu trước kháng sinh mới, điện giải đồ.<br>5) Thủ thuật: chọc hút dịch xét nghiệm (màu, pH, protein, LDH, Gram, cấy); <span style=\"color:#51cf66\"><b>mủ đặc hoặc pH &lt; 7.2 → đặt ống dẫn lưu kín hút áp lực âm liên tục</b></span>.<br>6) Kháng sinh: <span style=\"color:#51cf66\"><b>Ceftriaxone 14 × 80 = 1120 mg/ngày TM 1 lần</b></span> + <span style=\"color:#51cf66\"><b>Vancomycin 14 × 60 = 840 mg/ngày chia 4 (210 mg mỗi 6 giờ, truyền 60 phút)</b></span>; nhịn ăn, Glucose 5% trong NaCl 0.9% <span style=\"color:#ffd43b\"><b>80%</b></span> nhu cầu duy trì (~<span style=\"color:#ffd43b\"><b>950 mL/24 giờ</b></span>).<br>7) <span style=\"color:#ff6b6b\"><b>Chuyển PICU</b></span> nếu sau dẫn lưu và oxy mà SpO2 <span style=\"color:#ffd43b\"><b>&lt; 92%</b></span>, PaCO2 tăng hoặc huyết áp tụt → nội khí quản, thở máy; theo dõi liên tục SpO2, nhịp thở, lượng dịch dẫn lưu mỗi giờ.<br><br><b>💡 Giải thích của AI:</b><br>Ổ hoại tử sát màng phổi gây tràn mủ, chèn ép, đẩy lệch trung thất và tạo shunt lớn — nên vừa phải hỗ trợ hô hấp vừa dẫn lưu mủ.",
+      "extra": "📖 Nguồn: PED-21 — Phần 10 Ca lâm sàng 2",
+      "tags": [
+        "PED-21",
+        "B10",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B11-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Mẹo lâm sàng",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "10 <span style=\"color:#ffd43b\"><b>mẹo thực hành</b></span> của bài chia thành <span style=\"color:#ffd43b\"><b>3 nhóm</b></span>: khám thực thể, kê đơn/điều trị hỗ trợ, và bẫy chẩn đoán — mỗi nhóm gồm những mẹo nào (tóm tắt)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Khám</b></span>: xoa ấm tay/ống nghe; mẹo nghe thở rên; đầu gật gù; kiểm tra sóng Plethysmogram; phân biệt stridor vs wheezing.<br>2) <span style=\"color:#51cf66\"><b>Điều trị</b></span>: cho uống Amoxicillin từng thìa nhỏ; không dùng thuốc tan đờm uống; bảo tồn tĩnh mạch.<br>3) <span style=\"color:#ff6b6b\"><b>Bẫy</b></span>: đau bụng sốt có thể là viêm phổi thùy dưới; viêm phổi tái đi tái lại một thùy → dị vật bỏ quên.<br><br><b>💡 Giải thích của AI:</b><br>Các mẹo đều là chi tiết nhỏ quyết định đếm nhịp thở có chuẩn không hoặc có bỏ sót chẩn đoán không.",
+      "extra": "📖 Nguồn: PED-21 — Phần 11 Clinical pearls",
+      "tags": [
+        "PED-21",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B11-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Mẹo lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Mẹo <span style=\"color:#74c0fc\"><b>khám</b></span>: (a) xoa ấm tay/ống nghe vì sao, (b) cách nghe <span style=\"color:#ff6b6b\"><b>thở rên tinh tế</b></span>, (c) <span style=\"color:#ff6b6b\"><b>đầu gật gù</b></span> ở trẻ nào và xử trí, (d) kiểm tra <span style=\"color:#74c0fc\"><b>SpO2/Plethysmogram</b></span>, (e) phân biệt <span style=\"color:#74c0fc\"><b>Stridor vs Wheezing</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) (a) Lạnh làm trẻ giật mình khóc thét → mất cơ hội đếm nhịp thở và nghe ran chính xác.<br>2) (b) Thở rên sớm rất khẽ: ghé sát tai vào mũi miệng hoặc áp màng ống nghe ngay trước miệng → nghe tiếng 'hừ' ngắn ở thì <span style=\"color:#ffd43b\"><b>thở ra</b></span>.<br>3) (c) Đầu gật gù = kiệt sức cơ hô hấp sắp xảy ra ở trẻ nhỏ <span style=\"color:#ffd43b\"><b>dưới 1 tuổi</b></span>; <span style=\"color:#51cf66\"><b>chuyển phòng cấp cứu ngay, không để ở phòng khám ngoại trú</b></span>.<br>4) (d) SpO2 chỉ tin được khi sóng mạch đều và tần số mạch trên máy trùng nhịp tim nghe được; không quyết định dựa trên số nhảy loạn xạ khi trẻ giãy giụa.<br>5) (e) <span style=\"color:#ff6b6b\"><b>Stridor</b></span>: thì <span style=\"color:#ffd43b\"><b>hít vào</b></span>, hẹp thanh/khí quản; <span style=\"color:#ff6b6b\"><b>Wheezing</b></span>: thì <span style=\"color:#ffd43b\"><b>thở ra</b></span>, hẹp phế quản/tiểu phế quản → nhầm sẽ sai giữa <span style=\"color:#74c0fc\"><b>Croup</b></span> và viêm phổi/hen.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi mẹo ngăn một nguyên nhân sai số: trẻ khóc, âm thanh tinh tế bị bỏ sót, số đo giả, hoặc nhầm vị trí hẹp đường thở.",
+      "extra": "📖 Nguồn: PED-21 — Phần 11 Mẹo 1, 3, 5, 8, 10",
+      "tags": [
+        "PED-21",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B11-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Mẹo lâm sàng",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Mẹo <span style=\"color:#51cf66\"><b>điều trị</b></span> và <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span>: (a) giảm nôn khi uống Amoxicillin, (b) vì sao <span style=\"color:#ff6b6b\"><b>không dùng thuốc tan đờm uống</b></span>, (c) <span style=\"color:#74c0fc\"><b>bảo tồn tĩnh mạch</b></span>, (d) <span style=\"color:#ff6b6b\"><b>đau bụng + sốt</b></span>, (e) <span style=\"color:#ff6b6b\"><b>viêm phổi tái đi tái lại một thùy</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) (a) Uống từng thìa nhỏ, sau bữa ăn nhẹ <span style=\"color:#ffd43b\"><b>15–30 phút</b></span>, không ép uống cả cốc.<br>2) (b) <span style=\"color:#ff6b6b\"><b>Acetylcysteine, Ambroxol</b></span> tăng đờm loãng nhưng trẻ nhỏ không đủ lực cơ hoành để khạc → ngập lụt đờm, tắc nghẽn nặng hơn.<br>3) (c) Viêm phổi nặng có thể cần kháng sinh TM <span style=\"color:#ffd43b\"><b>7–14 ngày</b></span> (nếu có mủ màng phổi): lập đường truyền ngoại vi cẩn thận, tránh chọc vỡ tĩnh mạch nhiều lần.<br>4) (d) Viêm phổi thùy dưới có thể gây <span style=\"color:#ff6b6b\"><b>đau bụng dữ dội</b></span> (kích thích thần kinh gian sườn dưới) → dễ nhầm viêm ruột thừa: <span style=\"color:#51cf66\"><b>đếm nhịp thở và nghe đáy phổi trước khi đưa đi mổ</b></span>.<br>5) (e) Tiền sử ho sặc sụa đột ngột vài tuần trước khi ăn lạc/hạt dưa + viêm phổi tái đi tái lại đúng một thùy → nghĩ <span style=\"color:#74c0fc\"><b>dị vật đường thở bỏ quên</b></span> trước khi đổi kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>Các mẹo này giúp tránh thất bại điều trị không do thuốc: nôn mất liều, ứ đờm, chẩn đoán nhầm vùng bụng, bỏ sót dị vật.",
+      "extra": "📖 Nguồn: PED-21 — Phần 11 Mẹo 4, 6, 7, 2, 9",
+      "tags": [
+        "PED-21",
+        "B11",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B12-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Tóm tắt",
+      "tier": 1,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "<span style=\"color:#ffd43b\"><b>10 điều mang vào ca trực</b></span>: tóm tắt từng điều trong 1 cụm ngắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thở nhanh là dấu hiệu nhạy nhất — đếm 60 giây khi yên, đã hạ sốt.<br>2) Rút lõm là dấu tăng công thở.<br>3) Cờ đỏ toàn thân → cấp cứu ngay.<br>4) Amoxicillin <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày × 5 ngày</b></span> ngoại trú.<br>5) Không X-quang thường quy.<br>6) Bẫy trần liều: Ceftriaxone <span style=\"color:#ffd43b\"><b>2 g/ngày</b></span>, Amoxicillin <span style=\"color:#ffd43b\"><b>2–3 g/ngày</b></span>; CCĐ Ceftriaxone &lt; 28 ngày.<br>7) Nhịp thở chậm + li bì = kiệt sức, không phải đỡ.<br>8) Đánh giá đáp ứng sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>.<br>9) Sốt dai dẳng + ba giảm → siêu âm màng phổi.<br>10) Không thuốc giảm ho/tan đờm.<br><br><b>💡 Giải thích của AI:</b><br>Mười điều xếp theo trình tự lâm sàng: đo lường → phân loại → điều trị → theo dõi → tránh thuốc có hại.",
+      "extra": "📖 Nguồn: PED-21 — Phần 12 Tóm tắt cốt lõi",
+      "tags": [
+        "PED-21",
+        "B12",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B12-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Tóm tắt",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Điều 1–5 trong 10 điều: nêu <span style=\"color:#ffd43b\"><b>nội dung chi tiết</b></span> (ngưỡng WHO, định nghĩa rút lõm, cờ đỏ, liều + thời gian Amoxicillin, X-quang)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Thở nhanh</b></span>: đếm trọn 60 giây khi nằm yên và đã hạ sốt; ngưỡng <span style=\"color:#ffd43b\"><b>&lt; 2 tháng ≥ 60, 2–11 tháng ≥ 50, 1–5 tuổi ≥ 40</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Rút lõm lồng ngực</b></span>: phần dưới lồng ngực lõm vào thì hít vào do áp lực âm khoang màng phổi tăng vì phổi giảm đàn hồi.<br>3) <span style=\"color:#ff6b6b\"><b>Cờ đỏ</b></span>: bỏ bú, nôn tất cả, co giật, li bì, tím tái, thở rên → kích hoạt cấp cứu, không trì hoãn.<br>4) <span style=\"color:#51cf66\"><b>Amoxicillin</b></span> <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span> chia 2–3 lần trong <span style=\"color:#ffd43b\"><b>5 ngày</b></span>, không dùng <span style=\"color:#ffd43b\"><b>40–50 mg/kg</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Không chụp X-quang thường quy</b></span> ở viêm phổi nhẹ ngoại trú.<br><br><b>💡 Giải thích của AI:</b><br>Năm điều đầu là 'cổng vào': chẩn đoán đúng và kê liều đúng.",
+      "extra": "📖 Nguồn: PED-21 — Phần 12 Điều 1–5",
+      "tags": [
+        "PED-21",
+        "B12",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B12-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Tóm tắt",
+      "tier": 2,
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Điều 6–10: nêu <span style=\"color:#ffd43b\"><b>nội dung chi tiết</b></span> (trần liều và CCĐ, bẫy nhịp thở chậm, đánh giá 48–72 giờ, nghi tràn mủ, thuốc cấm)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Trần liều</b></span>: Ceftriaxone tối đa <span style=\"color:#ffd43b\"><b>2 g/ngày</b></span>; Amoxicillin tối đa <span style=\"color:#ffd43b\"><b>2–3 g/ngày</b></span>; CCĐ tuyệt đối Ceftriaxone trẻ sơ sinh <span style=\"color:#ffd43b\"><b>&lt; 28 ngày</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Bẫy nhịp thở chậm</b></span>: giảm từ <span style=\"color:#ffd43b\"><b>60 xuống 40</b></span> lần/phút kèm li bì = kiệt sức cơ hoành và ứ CO2.<br>3) Kháng sinh cần <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> để hạ sốt; không đổi vội trong 24 giờ đầu nếu trẻ không xấu đi.<br>4) <span style=\"color:#74c0fc\"><b>Tràn mủ màng phổi</b></span>: ba giảm (gõ đục, rung thanh giảm, mất rì rào) + sốt cao liên tục sau 48–72 giờ → <span style=\"color:#51cf66\"><b>siêu âm màng phổi khẩn</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Không dùng thuốc ức chế ho hoặc tan đờm</b></span> cho trẻ nhỏ viêm phổi.<br><br><b>💡 Giải thích của AI:</b><br>Năm điều sau là 'lưới an toàn': ngăn kê đơn nguy hiểm và nhận ra trẻ đang xấu đi.",
+      "extra": "📖 Nguồn: PED-21 — Phần 12 Điều 6–10",
+      "tags": [
+        "PED-21",
+        "B12",
+        "EBM"
+      ]
+    },
+    {
+      "id": "PED21-B12-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Thuật toán",
+      "tier": 2,
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span> — <span style=\"color:#51cf66\"><b>Bảng kiểm an toàn tại buồng bệnh</b></span> (Ward Round Checklist): <span style=\"color:#ffd43b\"><b>7 câu hỏi</b></span> cần tự hỏi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đã đếm nhịp thở <span style=\"color:#ffd43b\"><b>trọn 60 giây</b></span> khi trẻ nằm yên chưa?<br>2) Đã đo SpO2 khí phòng với sóng mạch chuẩn chưa?<br>3) Có <span style=\"color:#ff6b6b\"><b>rút lõm lồng ngực, phập phồng cánh mũi hoặc thở rên</b></span> không?<br>4) Trẻ có bú/uống được thuốc không?<br>5) Liều Amoxicillin đã tính đủ <span style=\"color:#ffd43b\"><b>80–90 mg/kg/ngày</b></span> chưa?<br>6) Liều Ceftriaxone có vượt trần <span style=\"color:#ffd43b\"><b>2000 mg/ngày</b></span> không?<br>7) Gia đình đã được dặn đủ <span style=\"color:#ff6b6b\"><b>dấu hiệu cờ đỏ</b></span> cần đi cấp cứu chưa?<br><br><b>💡 Giải thích của AI:</b><br>Bảy câu bao phủ ba lớp: đo lường chuẩn, quyết định nhập viện/ngoại trú, và an toàn liều.",
+      "extra": "📖 Nguồn: PED-21 — Phần 12 Ward Round Checklist",
+      "tags": [
+        "PED-21",
+        "B12",
+        "ALGO"
+      ]
+    },
+    {
+      "id": "PED21-B0-C01",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Viêm phổi mắc phải ở cộng đồng (CAP) ở trẻ em là nhiễm trùng cấp tính của nhu mô phổi xảy ra ở trẻ {{c1::không nằm viện trong vòng 14 ngày trước đó}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880662,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C02",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Theo WHO, dấu hiệu lâm sàng khách quan và nhạy nhất để sàng lọc viêm phổi tại tuyến ban đầu là {{c1::thở nhanh theo lứa tuổi}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880664,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C01",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Ngưỡng thở nhanh của WHO đối với trẻ dưới 2 tháng tuổi là {{c1::≥ 60 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880666,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C02",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Ngưỡng thở nhanh của WHO đối với trẻ từ 2 đến 11 tháng tuổi là {{c1::≥ 50 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880668,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C03",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Ngưỡng thở nhanh của WHO đối với trẻ từ 12 đến 59 tháng tuổi (1–5 tuổi) là {{c1::≥ 40 lần/phút}} khi đếm trọn 60 giây lúc trẻ nằm yên.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880670,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C04",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Ngưỡng thở nhanh ở trẻ từ 5 tuổi trở lên là {{c1::≥ 30 lần/phút}} khi nằm yên.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880672,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C05",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Quy trình đếm nhịp thở chuẩn ở trẻ em bắt buộc phải đếm trọn vẹn trong {{c1::60 giây}}, tuyệt đối không được đếm 15 giây nhân 4.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880674,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C03",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Dấu hiệu rút lõm lồng ngực được xác định khi phần dưới lồng ngực (bờ sườn và mũi ức) bị kéo lõm vào trong ở thì {{c1::hít vào}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880676,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C04",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Tiếng thở rên (Grunting) ở thì thở ra là phản xạ nhằm tạo {{c1::PEEP sinh lý (áp lực dương cuối thì thở ra)}} để chống xẹp phế nang.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880678,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C05",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Shunt trong phổi (Intrapulmonary Shunt) xảy ra khi máu mao mạch phổi chảy qua các phế nang bị đông đặc có tỷ lệ {{c1::VA/Q = 0}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880680,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C06",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Kháng sinh Beta-lactam như Amoxicillin có hiệu quả diệt khuẩn phụ thuộc vào {{c1::thời gian nồng độ thuốc tự do trong máu vượt trên MIC (T > MIC)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880682,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C07",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Trần liều người lớn (Adult Ceiling Dose) nghĩa là liều tối đa mg/ngày {{c1::không được phép vượt quá liều khuyến cáo tối đa của người lớn}} ngay cả khi tính theo mg/kg ở trẻ béo phì.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880684,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C01",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Khi trẻ có dấu hiệu nôn tất cả mọi thứ sau khi ăn uống, trẻ được xếp vào nhóm {{c1::viêm phổi nặng}} cần nhập viện dùng kháng sinh đường tiêm.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880688,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C08",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Tím tái trung ương ở trẻ viêm phổi được quan sát tại vị trí {{c1::môi, lưỡi và niêm mạc khoang miệng}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880692,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B0-C09",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Ngưỡng SpO2 khí phòng báo động đỏ cần cho thở oxy khẩn cấp theo WHO là {{c1::< 90%}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B0",
+      "legacy_note_id": 1789470880694,
+      "tags": [
+        "PED-21",
+        "B0",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C02",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Theo phân loại WHO (2014), trẻ có ho hoặc khó thở kèm thở nhanh và/hoặc rút lõm lồng ngực nhưng KHÔNG có dấu hiệu nguy hiểm được xếp vào phân loại {{c1::Viêm phổi (Pneumonia) — điều trị ngoại trú}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880696,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C03",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Theo WHO (2014), trẻ có ho hoặc khó thở kèm theo BẤT KỲ MỘT dấu hiệu nguy hiểm toàn thân hoặc thở rên hoặc tím tái được xếp vào phân loại {{c1::Viêm phổi nặng (Severe Pneumonia) — nhập viện}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880698,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C04",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Nếu trẻ có ho hoặc khó thở nhưng KHÔNG có thở nhanh và KHÔNG có rút lõm lồng ngực thì không phải viêm phổi mà là {{c1::nhiễm khuẩn hô hấp trên}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880700,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C05",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Tác nhân vi sinh gây viêm phổi thường gặp ở trẻ sơ sinh dưới 1 tháng tuổi là {{c1::Liên cầu nhóm B (S. agalactiae), E. coli, Listeria monocytogenes và Klebsiella}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880702,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C06",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Ở trẻ từ 1 đến 3 tháng tuổi, viêm phổi bán cấp do Chlamydia trachomatis đặc trưng bởi bệnh cảnh {{c1::ho dồn dập từng cơn nhưng KHÔNG CÓ SỐT}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880704,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C07",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Ở trẻ nhỏ từ 3 tháng đến 5 tuổi, virus đường hô hấp chiếm {{c1::60–80%}} tổng số các ca viêm phổi.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880706,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C08",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Tác nhân vi khuẩn hàng đầu gây viêm phổi ở trẻ nhỏ từ 3 tháng đến 5 tuổi là {{c1::Streptococcus pneumoniae (Phế cầu khuẩn)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880708,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B1-C09",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Tác nhân vi khuẩn không điển hình thường gặp ở trẻ trên 5 tuổi là {{c1::Mycoplasma pneumoniae}} (và Chlamydia pneumoniae).",
+      "extra": "📖 Nguồn: PED-21 — phần B1",
+      "legacy_note_id": 1789470880710,
+      "tags": [
+        "PED-21",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C01",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Dịch rỉ viêm trong phế nang làm giảm độ giãn nở của phổi chủ yếu qua cơ chế {{c1::làm mất hoạt tính chất hoạt động bề mặt (Surfactant)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880714,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C02",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Khung lồng ngực trẻ nhỏ cấu tạo bằng sụn mềm; áp lực âm thì hít vào gây ra {{c1::rút lõm lồng ngực}} thay vì làm nở phổi.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880716,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C03",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Giai đoạn 2 của tràn mủ màng phổi (giai đoạn mủ sợi huyết) đặc trưng bởi fibrin lắng đọng tạo {{c1::các vách ngăn (loculations) trong khoang màng phổi}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880722,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C04",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Nếu không dẫn lưu mủ kịp thời, tràn mủ màng phổi bước vào giai đoạn 3 (hóa sợi, vỏ bọc) gây biến chứng {{c1::phổi bị giam (Trapped lung)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880724,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C05",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Phế cầu khuẩn đề kháng Beta-lactam bằng cách biến đổi các protein gắn Penicillin gồm {{c1::PBP1a, PBP2b và PBP2x}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880726,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C06",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Liều Amoxicillin thông thường 40–50 mg/kg/ngày chỉ tạo nồng độ đỉnh trong máu khoảng 4–5 µg/mL, không đủ để duy trì {{c1::T > MIC ≥ 40–50%}} đối với phế cầu kháng trung gian.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880728,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B2-C07",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Khi nâng liều Amoxicillin lên 80–90 mg/kg/ngày, nồng độ đỉnh trong huyết thanh đạt {{c1::8–10 µg/mL}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B2",
+      "legacy_note_id": 1789470880730,
+      "tags": [
+        "PED-21",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C06",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Trước khi đếm nhịp thở ở trẻ sốt ≥ 38.5 °C, bước bắt buộc là {{c1::hạ sốt bằng Paracetamol (10–15 mg/kg) và đợi 30–45 phút}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880732,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B3-C07",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Lý do khiến không chụp X-quang phổi thường quy cho viêm phổi nhẹ ngoại trú: X-quang {{c1::không phân biệt được căn nguyên virus với vi khuẩn}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B3",
+      "legacy_note_id": 1789470880740,
+      "tags": [
+        "PED-21",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B4-C01",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Trẻ viêm phổi nặng thở nhanh 65 lần/phút rồi giảm còn 40 lần/phút kèm li bì là cạm bẫy {{c1::cải thiện giả do kiệt sức cơ hoành}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B4",
+      "legacy_note_id": 1789470880746,
+      "tags": [
+        "PED-21",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B4-C02",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Dấu hiệu đầu gật gù theo nhịp thở (Head bobbing) chỉ điểm sự tham gia tối đa của {{c1::cơ ức đòn chũm}} khi cơ hoành sắp kiệt sức.",
+      "extra": "📖 Nguồn: PED-21 — phần B4",
+      "legacy_note_id": 1789470880748,
+      "tags": [
+        "PED-21",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B4-C03",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Hội chứng ba giảm gợi ý tràn dịch màng phổi gồm: {{c1::gõ đục, rung thanh giảm, rì rào phế nang giảm hoặc mất}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B4",
+      "legacy_note_id": 1789470880750,
+      "tags": [
+        "PED-21",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B4-C04",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Viêm phổi hoại tử do tụ cầu vàng (CA-MRSA) có X-quang tiến triển trong 24 giờ với xuất hiện {{c1::bóng khí nhu mô phổi (pneumatocele)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B4",
+      "legacy_note_id": 1789470880752,
+      "tags": [
+        "PED-21",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C01",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Liều Amoxicillin đường uống cho viêm phổi ngoại trú là {{c1::80–90 mg/kg/ngày}} chia 2 hoặc 3 lần.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880756,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C02",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Thời gian dùng Amoxicillin ngoại trú cho viêm phổi đáp ứng tốt là {{c1::5 ngày}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880758,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C03",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Trần liều tối đa hàng ngày của Amoxicillin đường uống ở trẻ có cân nặng lớn là {{c1::2000–3000 mg/ngày}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880760,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C04",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Khi chọn Co-amoxiclav liều cao (Amoxicillin 90 mg/kg/ngày), cần chọn tỷ lệ Amoxicillin:Clavulanate là {{c1::7:1 hoặc 8:1}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880762,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C05",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Azithromycin điều trị viêm phổi không điển hình ở trẻ trên 5 tuổi: ngày 1 uống {{c1::10 mg/kg (tối đa 500 mg)}}, ngày 2 đến ngày 5 uống 5 mg/kg/ngày (tối đa 250 mg).",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880764,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C06",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ampicillin tĩnh mạch đầu tay cho viêm phổi nặng nhập viện có liều {{c1::150–200 mg/kg/ngày chia 4 lần (mỗi 6 giờ)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880766,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C07",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Liều Ceftriaxone tĩnh mạch trong viêm phổi nặng ở trẻ em là {{c1::50–80 mg/kg/ngày}} tiêm hoặc truyền 1 lần duy nhất trong ngày.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880768,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C08",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Trần liều tối đa tuyệt đối của Ceftriaxone ở trẻ em là {{c1::2 g/ngày (2000 mg/ngày)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880770,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C09",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ceftriaxone bị chống chỉ định tuyệt đối ở trẻ sơ sinh dưới 28 ngày tuổi vì nguy cơ {{c1::vàng da nhân não và kết tủa Calci-Ceftriaxone tại phổi và thận}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880772,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C10",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Liều Cefotaxime tĩnh mạch trong viêm phổi nặng là {{c1::100–150 mg/kg/ngày chia 3 lần (mỗi 8 giờ)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880774,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C11",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Khi nghi viêm phổi hoại tử do CA-MRSA, Vancomycin được phối hợp với liều {{c1::40–60 mg/kg/ngày chia 4 lần truyền chậm}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880776,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C12",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Nồng độ đáy (trough) của Vancomycin mục tiêu trong viêm phổi tụ cầu nặng là {{c1::15–20 mcg/mL}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880778,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C13",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Clindamycin được phối hợp trong viêm phổi tụ cầu nặng nhằm {{c1::ức chế tổng hợp độc tố Panton-Valentine Leukocidin (PVL)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880780,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C14",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Trong viêm phổi nặng, thể tích dịch truyền tĩnh mạch nên hạn chế ở mức {{c1::80% nhu cầu duy trì cơ bản}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880782,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B6-C01",
+      "type": "cloze",
+      "section": "B6",
+      "text": "Thời gian tối thiểu để đánh giá đáp ứng lâm sàng của kháng sinh trong viêm phổi trẻ em là {{c1::48 đến 72 giờ}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B6",
+      "legacy_note_id": 1789470880786,
+      "tags": [
+        "PED-21",
+        "B6",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B7-C01",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Thử nghiệm CAP-IT (JAMA 2021) trên 814 trẻ chứng minh Amoxicillin {{c1::3 ngày}} không thua kém 7 ngày về tỷ lệ phải điều trị lại.",
+      "extra": "📖 Nguồn: PED-21 — phần B7",
+      "legacy_note_id": 1789470880792,
+      "tags": [
+        "PED-21",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B7-C02",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Thử nghiệm SAFER so sánh Amoxicillin 5 ngày với 10 ngày ở trẻ viêm phổi ngoại trú, tỷ lệ khỏi bệnh lâm sàng {{c1::tương đương (88.6% vs 88.5%)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B7",
+      "legacy_note_id": 1789470880794,
+      "tags": [
+        "PED-21",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B7-C03",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Nghiên cứu EPIC của CDC Hoa Kỳ cho thấy Mycoplasma pneumoniae {{c1::rất hiếm khi là tác nhân gây viêm phổi nặng ở trẻ dưới 5 tuổi}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B7",
+      "legacy_note_id": 1789470880796,
+      "tags": [
+        "PED-21",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B8-C01",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Đếm nhịp thở khi trẻ đang khóc hoặc sốt cao 39.5 °C dẫn đến cạm bẫy {{c1::chẩn đoán nhầm viêm phổi và kê đơn oan}} do nhịp thở tăng sinh lý.",
+      "extra": "📖 Nguồn: PED-21 — phần B8",
+      "legacy_note_id": 1789470880798,
+      "tags": [
+        "PED-21",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B8-C02",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Kê Amoxicillin liều thấp 40–50 mg/kg/ngày cho viêm phổi phế cầu dẫn đến {{c1::thất bại điều trị do không vượt qua MIC của phế cầu kháng trung gian}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B8",
+      "legacy_note_id": 1789470880800,
+      "tags": [
+        "PED-21",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B8-C03",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Cefixime đường uống không được dùng đầu tay cho viêm phổi vì {{c1::nồng độ trong dịch mô phổi và hoạt tính trên phế cầu kém hơn Amoxicillin}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B8",
+      "legacy_note_id": 1789470880804,
+      "tags": [
+        "PED-21",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B8-C04",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Thuốc giảm ho trung ương (Codein, Dextromethorphan) bị chống chỉ định vì {{c1::ức chế phản xạ ho, gây ứ đọng dịch mủ trong phế nang}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B8",
+      "legacy_note_id": 1789470880806,
+      "tags": [
+        "PED-21",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B11-C01",
+      "type": "cloze",
+      "section": "B11",
+      "text": "Thuốc tan đờm đường uống (Acetylcysteine, Ambroxol) không dùng cho trẻ nhỏ vì {{c1::làm tăng lượng đờm loãng nhưng trẻ không đủ lực ho khạc, gây ngập lụt đờm}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B11",
+      "legacy_note_id": 1789470880808,
+      "tags": [
+        "PED-21",
+        "B11",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B9-C01",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Trẻ 3 tuổi nặng 14 kg viêm phổi không nặng ngoại trú: liều Amoxicillin 90 mg/kg/ngày là {{c1::1260 mg/ngày (chia 2 lần, mỗi lần khoảng 600–650 mg)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B9",
+      "legacy_note_id": 1789470880814,
+      "tags": [
+        "PED-21",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B9-C02",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Trẻ 9 tuổi nặng 40 kg viêm phổi nặng: tính Ceftriaxone 80 mg/kg/ngày ra 3200 mg, nhưng phải kê ở mức {{c1::2 g/ngày (2000 mg/ngày) do trần liều}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B9",
+      "legacy_note_id": 1789470880816,
+      "tags": [
+        "PED-21",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B9-C03",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Phương tiện hình ảnh tại giường ưu tiên số 1 để đánh giá tràn dịch màng phổi có vách ngăn ở trẻ viêm phổi sốt dai dẳng là {{c1::siêu âm màng phổi}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B9",
+      "legacy_note_id": 1789470880818,
+      "tags": [
+        "PED-21",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B10-C01",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Trẻ 14 tháng nặng 10 kg viêm phổi ngoại trú, liều Amoxicillin chuẩn là {{c1::900 mg/ngày (mỗi lần 450 mg × 2 lần/ngày trong 5 ngày)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B10",
+      "legacy_note_id": 1789470880820,
+      "tags": [
+        "PED-21",
+        "B10",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B10-C02",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ở trẻ 3 tuổi 14 kg viêm phổi nặng tràn mủ màng phổi, kháng sinh phối hợp bao phủ CA-MRSA bên cạnh Ceftriaxone là {{c1::Vancomycin (60 mg/kg/ngày chia 4 lần truyền chậm)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B10",
+      "legacy_note_id": 1789470880822,
+      "tags": [
+        "PED-21",
+        "B10",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B10-C03",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Đặt ống dẫn lưu khoang màng phổi kín khi dịch màng phổi có {{c1::mủ đặc hoặc pH < 7.2}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B10",
+      "legacy_note_id": 1789470880824,
+      "tags": [
+        "PED-21",
+        "B10",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B11-C02",
+      "type": "cloze",
+      "section": "B11",
+      "text": "Thở rít (Stridor) nghe rõ ở thì {{c1::hít vào}} (hẹp đường thở trên), còn khò khè (Wheezing) nghe rõ ở thì {{c2::thở ra}} (hẹp đường thở dưới).",
+      "extra": "📖 Nguồn: PED-21 — phần B11",
+      "legacy_note_id": 1789470880836,
+      "tags": [
+        "PED-21",
+        "B11",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B8-C05",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Nghi tràn mủ màng phổi khi trẻ sốt cao liên tục sau 48–72 giờ dùng kháng sinh kèm {{c1::hội chứng ba giảm (gõ đục, rung thanh giảm, mất âm phế bào)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B8",
+      "legacy_note_id": 1789470880852,
+      "tags": [
+        "PED-21",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED21-B5-C15",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Ở trẻ trên 5 tuổi viêm phổi nghi không điển hình (ho dai dẳng, thâm nhiễm kẽ), kháng sinh được dùng là {{c1::Azithromycin (10 mg/kg/ngày)}}.",
+      "extra": "📖 Nguồn: PED-21 — phần B5",
+      "legacy_note_id": 1789470880860,
+      "tags": [
+        "PED-21",
+        "B5",
+        "cloze"
+      ]
+    }
+  ]
+}

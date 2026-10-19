@@ -1,0 +1,1285 @@
+# -*- coding: utf-8 -*-
+# Nguồn thẻ duy nhất của PED-49 (build: 10_Script Python/ped_deck_builder.py)
+cards_data = [
+  {
+    "id": "PED49-B01",
+    "type": "basic",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "front": "<span style=\"color:#51cf66\"><b>Nghiệm pháp ấn kính (Glass test)</b></span> giúp phân định rạch ròi hai <span style=\"color:#74c0fc\"><b>bản chất tổn thương da</b></span> nào ở trẻ sốt phát ban?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ban sung huyết dãn mạch (Blanching rash):</b> Các dát đỏ <span style=\"color:#51cf66\"><b>biến mất hoàn toàn khi ấn kính</b></span> (hồng cầu vẫn nằm nguyên trong lòng lòng mạch máu).<br>2) <b>Ban xuất huyết hoại tử (Non-blanching rash):</b> Các chấm/nốt tử ban <span style=\"color:#ff6b6b\"><b>KHÔNG biến mất dưới lực ép</b></span> (hồng cầu đã thoát mạch ra mô bì hoặc tắc hoại tử vi mạch).<br><br><b>💡 Giải thích của AI:</b><br>Nghiệm pháp ấn kính là phân loại sống còn đầu tiên tại phòng cấp cứu. Ban không biến mất khi ấn kính là dấu hiệu cờ đỏ chỉ điểm nguy cơ nhiễm khuẩn huyết tối cấp (như não mô cầu) hoặc viêm mạch hoại tử cần can thiệp khẩn cấp.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 3.1 Nghiệm pháp ấn kính)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Kham-da",
+      "Nghiem-phap-an-kinh"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C01",
+    "type": "cloze",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "text": "[PED - Lâm sàng] <span style=\"color:#51cf66\"><b>Nghiệm pháp ấn kính dương tính</b></span> (ban không biến mất dưới lực ép của đáy cốc thủy tinh) chỉ điểm tổn thương {{c1::<span style=\"color:#ff6b6b\"><b>hồng cầu thoát mạch hoặc hoại tử vi mạch</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Lực ép cơ học chỉ có thể đẩy dồn máu trong lòng mạch dãn; một khi hồng cầu đã rò rỉ ra gian bào trung bì hoặc mao mạch bị tắc nghẽn huyết khối, màu đỏ tím sẽ trơ lì với lực ép.<br>📖 Nguồn: Bài học PED-49 (Mục 3.1)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Kham-da"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B02",
+    "type": "basic",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "front": "Tại sao bắt buộc phải <span style=\"color:#51cf66\"><b>khám da toàn thân trẻ em</b></span> dưới <span style=\"color:#ffd43b\"><b>ánh sáng tự nhiên</b></span> hoặc ánh sáng trắng?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tránh bỏ sót tổn thương:</b> Để không bỏ sót các <span style=\"color:#ff6b6b\"><b>chấm xuất huyết li ti</b></span> mới xuất hiện hoặc tình trạng <span style=\"color:#ff6b6b\"><b>da tái nổi vân tím (Mottled skin)</b></span>.<br>2) <b>Bẫy ánh đèn vàng:</b> Ánh đèn vàng phòng bệnh làm phản xạ quang học che lấp hoàn toàn sắc đỏ tím của ban xuất huyết và làm sai lệch đánh giá tưới máu da.<br><br><b>💡 Giải thích của AI:</b><br>Rất nhiều ca tử vong do nhiễm não mô cầu bắt nguồn từ việc khám dưới ánh đèn ngủ mờ hoặc đèn vàng, khiến bác sĩ trực bỏ qua 2–3 chấm xuất huyết đầu tiên ở nếp bẹn và cẳng chân.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 0.1 Nền tảng ca trực & NICE NG143)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Kham-da"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C02",
+    "type": "cloze",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "text": "[PED - Lâm sàng] Theo hệ thống đèn giao thông NICE NG143, ban không mất màu khi ấn kính (Non-blanching rash) xếp trẻ vào nhóm {{c1::<span style=\"color:#ff6b6b\"><b>Nguy cơ cao (Vùng Đỏ)</b></span>}} đòi hỏi chuyển khám cấp cứu và hồi sức khẩn cấp.",
+    "extra": "<b>💡 Giải thích của AI:</b> Tiêu chuẩn Vùng Đỏ của NICE NG143 kích hoạt quy trình cấp cứu tối khẩn nhằm phát hiện sớm nhiễm khuẩn xâm lấn trước khi sốc bộc phát.<br>📖 Nguồn: Hướng dẫn NICE NG143 (Fever in under 5s)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "NICE"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B03",
+    "type": "basic",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "front": "<span style=\"color:#ffd43b\"><b>Thời gian phục hồi màu da (CRT)</b></span> bình thường ở trẻ em là bao nhiêu và ngưỡng cảnh báo <span style=\"color:#ff6b6b\"><b>sốc tuần hoàn</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>CRT bình thường:</b> <span style=\"color:#51cf66\"><b>&lt; 2 giây</b></span> (≤ 2 giây) ở nhiệt độ phòng chuẩn.<br>2) <b>Ngưỡng cảnh báo sốc:</b> CRT kéo dài <span style=\"color:#ff6b6b\"><b>từ 3 giây trở lên (≥ 3 giây)</b></span> là dấu hiệu chỉ điểm sớm của tình trạng co mạch ngoại vi bù trừ, giảm tưới máu mô và sốc tuần hoàn đe dọa tính mạng.<br><br><b>💡 Giải thích của AI:</b><br>Kỹ thuật đo chuẩn: ấn giữ bờ móng tay hoặc phần giữa xương ức trong 5 giây đủ để da trắng bệch, sau đó buông tay và đếm nhịp giây đến khi da hồng trở lại hoàn toàn.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 0.1 & PALS Guidelines)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Sinh-hieu",
+      "CRT"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C03",
+    "type": "cloze",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "text": "[PED - Lâm sàng] Thời gian phục hồi màu da CRT kéo dài {{c1::<span style=\"color:#ff6b6b\"><b>từ 3 giây trở lên (≥ 3 giây)</b></span>}} chỉ điểm tình trạng sốc tuần hoàn hoặc giảm tưới máu ngoại vi nặng.",
+    "extra": "<b>💡 Giải thích của AI:</b> Ở trẻ em, tụt huyết áp là dấu hiệu sốc giai đoạn muộn (sốc mất bù); CRT kéo dài kết hợp mạch nhanh là dấu chỉ thị sống còn của sốc còn bù.<br>📖 Nguồn: Bài học PED-49 (Mục 0.1 & Mục 3.3)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "CRT"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B04",
+    "type": "basic",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "front": "Phát hiện <span style=\"color:#ff6b6b\"><b>tử ban màu tím đen hình sao</b></span> lan nhanh ở trẻ sốt cao gợi ý bệnh lý tối khẩn nào và cần dùng <span style=\"color:#51cf66\"><b>thuốc kháng sinh gì</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh lý tối khẩn:</b> Nhiễm khuẩn huyết tối cấp do <span style=\"color:#74c0fc\"><b>Não mô cầu (Meningococcemia / Purpura fulminans)</b></span>.<br>2) <b>Thuốc kháng sinh cấp cứu:</b> Tiêm tĩnh mạch ngay <span style=\"color:#51cf66\"><b>Ceftriaxone liều 100 mg/kg</b></span> (hoặc Cefotaxim 50 mg/kg) trong vòng <span style=\"color:#ffd43b\"><b>30 phút</b></span> đầu tiên.<br><br><b>💡 Giải thích của AI:</b><br>Nội độc tố Lipooligosaccharide (LOS) của vi khuẩn não mô cầu kích hoạt bão cytokine gây viêm hoại tử nội mô mạch máu và đông máu nội mạch rải rác (DIC). Tuyệt đối không được trì hoãn tiêm kháng sinh để chờ kết quả xét nghiệm hay chọc dịch não tủy.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 3.3 & Mục 7.1)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Nao-mo-cau",
+      "Khang-sinh"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C04",
+    "type": "cloze",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "text": "[PED - Lâm sàng] Thuốc kháng sinh đường tĩnh mạch được chỉ định cấp cứu ngay trong vòng 30 phút khi nghi ngờ não mô cầu là {{c1::<span style=\"color:#51cf66\"><b>Ceftriaxone liều 100 mg/kg</b></span>}} hoặc Cefotaxim.",
+    "extra": "<b>💡 Giải thích của AI:</b> Mỗi 30 phút chậm trễ dùng kháng sinh ở bệnh nhi sốc não mô cầu làm tăng tỷ lệ tử vong lên đáng kể; nếu chưa đặt được đường truyền tĩnh mạch, tiêm bắp ngay Ceftriaxone.<br>📖 Nguồn: Bài học PED-49 (Mục 7.1)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Khang-sinh"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B05",
+    "type": "basic",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "front": "<span style=\"color:#ffd43b\"><b>Thể tích dịch tinh thể</b></span> đẳng trương bolus ban đầu trong <span style=\"color:#51cf66\"><b>hồi sức sốc nhiễm khuẩn</b></span> ở trẻ phát ban là bao nhiêu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thể tích bolus:</b> <span style=\"color:#51cf66\"><b>20 mL/kg dịch tinh thể đẳng trương</b></span> (NaCl 0.9% hoặc Ringer Lactate).<br>2) <b>Thời gian truyền:</b> Xả nhanh trong <span style=\"color:#ffd43b\"><b>10 đến 20 phút</b></span>.<br>3) <b>Theo dõi đáp ứng:</b> Đánh giá lại sinh hiệu, CRT, mạch ngoại vi, kích thước gan và ran ẩm ở phổi sau mỗi lần truyền bolus.<br><br><b>💡 Giải thích của AI:</b><br>Giãn mạch và tăng tính thấm thành mạch trong sốc nhiễm khuẩn gây thoát thể tích tuần hoàn hiệu dụng nghiêm trọng. Bù dịch khẩn trương giúp phục hồi tiền gánh và tưới máu cơ quan đích.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 7.1 & Surviving Sepsis Campaign Children 2020)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Hoi-suc-dich"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C05",
+    "type": "cloze",
+    "category": "Cấp cứu ban đầu & Cờ đỏ",
+    "section": "SEC3",
+    "text": "[PED - Lâm sàng] Theo nghiên cứu đa trung tâm của Waterfield (2023), tỷ lệ nhiễm khuẩn xâm lấn (IBI) ở trẻ sốt có ban chấm xuất huyết nhưng vẻ ngoài tỉnh táo là {{c1::<span style=\"color:#ffd43b\"><b>1.5%</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Con số 1.5% khẳng định: Dù trẻ vẻ ngoài tỉnh táo và chơi đùa, sự xuất hiện của chấm xuất huyết không mất màu vẫn tiềm ẩn nguy cơ nhiễm não mô cầu hoặc phế cầu khuẩn huyết, bắt buộc phải theo dõi sát tại bệnh viện.<br>📖 Nguồn: Waterfield T et al. Lancet Infect Dis 2023",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Nghien-cuu",
+      "Con-so"
+    ],
+    "badge": "🚨 CẤP CỨU & CỜ ĐỎ",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B06",
+    "type": "basic",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "front": "<span style=\"color:#74c0fc\"><b>Định nghĩa Dát (Macule)</b></span> trong da liễu nhi khoa và phân biệt với <span style=\"color:#74c0fc\"><b>Sẩn (Papule)</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dát (Macule):</b> Tổn thương thay đổi màu sắc da cục bộ, <span style=\"color:#ffd43b\"><b>hoàn toàn phẳng ngang mặt da</b></span>, nhắm mắt sờ <span style=\"color:#ffd43b\"><b>KHÔNG gồ cộm</b></span>, kích thước <span style=\"color:#ffd43b\"><b>&lt; 10 mm (&lt; 1 cm)</b></span>.<br>2) <b>Sẩn (Papule):</b> Tổn thương da <span style=\"color:#74c0fc\"><b>gồ đặc trên bề mặt</b></span>, sờ thấy ranh giới rõ rệt, kích thước <span style=\"color:#ffd43b\"><b>&lt; 10 mm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc khám da kinh điển của các chuyên gia: 'Nhắm mắt lại và dùng đầu ngón tay lướt nhẹ trên da'. Nếu ngón tay lướt êm không cảm nhận ranh giới đó là dát; nếu vấp cộm cộm đó là sẩn.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 Phân loại hình thái học)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Kham-da"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-C06",
+    "type": "cloze",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "text": "[PED - Lâm sàng] Tổn thương da gồ đặc trên mặt da, sờ thấy ranh giới rõ rệt có kích thước &lt; 10 mm được định nghĩa là {{c1::<span style=\"color:#74c0fc\"><b>Sẩn (Papule)</b></span>}}; nếu phẳng ngang mặt da là {{c1::<span style=\"color:#74c0fc\"><b>Dát (Macule)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Sẩn hình thành do sự thâm nhiễm tế bào viêm, tăng sinh tế bào thượng bì hoặc phù cục bộ ở trung bì nông.<br>📖 Nguồn: Bài học PED-49 (Mục 1.2)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-B07",
+    "type": "basic",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "front": "Phân biệt <span style=\"color:#74c0fc\"><b>Mụn nước (Vesicle)</b></span> và <span style=\"color:#74c0fc\"><b>Bóng nước (Bulla)</b></span> dựa trên <span style=\"color:#ffd43b\"><b>ngưỡng kích thước nào</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mụn nước (Vesicle):</b> Tổn thương da gồ chứa dịch trong, kích thước <span style=\"color:#ffd43b\"><b>&lt; 5 mm</b></span>.<br>2) <b>Bóng nước (Bulla):</b> Tổn thương da gồ chứa dịch khoang lớn, kích thước <span style=\"color:#ffd43b\"><b>≥ 5 mm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mụn nước nhỏ hay gặp trong Thủy đậu, Herpes và Tay Chân Miệng; bóng nước lớn cảnh báo nhiễm trùng độc tố tụ cầu (SSSS), hội chứng Stevens-Johnson hoặc ly thượng bì bóng nước bẩm sinh.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 Phân loại hình thái học)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Con-so"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-C07",
+    "type": "cloze",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "text": "[PED - Lâm sàng] Tổn thương sẩn phù mày đay (Wheal) có đặc điểm sinh học kinh điển là xuất hiện nhanh và thường biến mất hoàn toàn không để lại vết tích trong vòng {{c1::<span style=\"color:#ffd43b\"><b>24 giờ</b></span>}} tại một vị trí.",
+    "extra": "<b>💡 Giải thích của AI:</b> Mày đay gây ra bởi Histamin dãn mạch và thoát dịch huyết tương thoáng qua ở trung bì; khi hết bão histamin dịch hấp thu trở lại mà không hoại tử tế bào.<br>📖 Nguồn: Bài học PED-49 (Mục 1.2 & Checkpoint 4)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "May-day"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-B08",
+    "type": "basic",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "front": "Nếu một nốt <span style=\"color:#74c0fc\"><b>sẩn phù dạng mày đay</b></span> tồn tại cố định <span style=\"color:#ffd43b\"><b>quá 24 giờ</b></span> tại một vị trí thì phải nghĩ đến bệnh lý gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh lý cảnh báo:</b> Phải nghĩ ngay đến <span style=\"color:#ff6b6b\"><b>Viêm mạch mày đay (Urticarial vasculitis)</b></span> chứ không còn là mày đay dị ứng thông thường.<br>2) <b>Đặc điểm kèm theo:</b> Thường có cảm giác <span style=\"color:#ff6b6b\"><b>bỏng rát đau tức</b></span> nhiều hơn ngứa ngáy và khi lặn thường để lại <span style=\"color:#ffd43b\"><b>dấu vết tăng sắc tố hoặc xuất huyết nhỏ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác với mày đay cấp tự tiêu trong vài giờ, tổn thương tồn tại > 24 giờ chứng tỏ có hoại tử tế bào nội mô mạch máu và thâm nhiễm bạch cầu đa nhân thoái hóa, đòi hỏi làm sinh thiết da và xét nghiệm bổ thể C3, C4.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 & Checkpoint 4)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Viem-mach"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-C08",
+    "type": "cloze",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "text": "[PED - Lâm sàng] Ngưỡng kích thước phân biệt giữa chấm xuất huyết (Petechiae) và ban xuất huyết (Purpura) là: Chấm xuất huyết có đường kính {{c1::<span style=\"color:#ffd43b\"><b>&lt; 2 mm</b></span>}}, trong khi ban xuất huyết có đường kính từ {{c1::<span style=\"color:#ffd43b\"><b>2 mm đến 10 mm</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Mốc 2 mm phân biệt chấm xuất huyết điểm mao mạch với mảng xuất huyết lớn hơn; nếu > 10 mm được gọi là mảng bầm máu (Ecchymosis).<br>📖 Nguồn: Bài học PED-49 (Mục 1.2)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Con-so"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-B09",
+    "type": "basic",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "front": "<span style=\"color:#ff6b6b\"><b>Tử ban sờ thấy gồ (Palpable purpura)</b></span> là dấu hiệu chỉ điểm cơ chế tổn thương nào và hay gặp nhất trong bệnh gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế tổn thương:</b> Chỉ điểm <span style=\"color:#74c0fc\"><b>Viêm mạch bạch cầu hủy hoại (Leukocytoclastic vasculitis)</b></span> — viêm hoại tử thành mạch máu nhỏ gây phù nề và thâm nhiễm viêm dày quanh mạch.<br>2) <b>Bệnh lý kinh điển:</b> Hay gặp nhất trong <span style=\"color:#74c0fc\"><b>Viêm mạch IgA (Henoch-Schönlein purpura - HSP)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Xuất huyết do giảm tiểu cầu đơn thuần luôn phẳng ngang mặt da (Non-palpable); khi nốt xuất huyết gồ cộm lên dưới tay người khám, đó là bằng chứng của tình trạng viêm thành mạch máu đích thực.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 & Mục 4.3)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Viem-mach",
+      "HSP"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-C09",
+    "type": "cloze",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "text": "[PED - Lâm sàng] Vảy tiết màu vàng mật ong (Honey-colored crusts) quanh mũi miệng là dấu hiệu đặc trưng của bệnh {{c1::<span style=\"color:#74c0fc\"><b>Chốc lây (Impetigo)</b></span>}} do tụ cầu vàng (Staphylococcus aureus) hoặc liên cầu khuẩn.",
+    "extra": "<b>💡 Giải thích của AI:</b> Dịch huyết thanh giàu protein rỉ ra từ các mụn mủ nông bị vỡ khô lại tạo thành vảy màu vàng óng ánh như mật ong đóng tảng quanh khóe mũi miệng.<br>📖 Nguồn: Bài học PED-49 (Mục 1.2)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Choc-lay"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-B10",
+    "type": "basic",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "front": "<span style=\"color:#51cf66\"><b>Dấu hiệu Nikolsky dương tính</b></span> biểu hiện như thế nào và cảnh báo các bệnh lý nguy hiểm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cách thực hiện & Biểu hiện:</b> Khi dùng ngón tay <span style=\"color:#51cf66\"><b>miết nhẹ hoặc xoa trượt trên vùng da lành</b></span> kế cận tổn thương, lớp thượng bì <span style=\"color:#ff6b6b\"><b>trượt rách hoặc bong tróc</b></span> để lộ lớp đáy đỏ trợt ướt.<br>2) <b>Bệnh lý cảnh báo:</b> Gặp trong <span style=\"color:#74c0fc\"><b>Hội chứng bong vảy da do tụ cầu (SSSS)</b></span>, <span style=\"color:#ff6b6b\"><b>Hội chứng Stevens-Johnson / TEN</b></span> và Pemphigus vulgaris.<br><br><b>💡 Giải thích của AI:</b><br>Nikolsky dương tính chỉ điểm tình trạng tiêu tế bào gai hoặc đứt gãy liên kết gian bào Desmoglein, làm thượng bì mất hoàn toàn độ bám dính cơ học với lớp dưới.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 & Checkpoint 2)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai",
+      "Nikolsky",
+      "SSSS",
+      "TEN"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-C10",
+    "type": "cloze",
+    "category": "Hình thái tổn thương da",
+    "section": "SEC1",
+    "text": "[PED - Lâm sàng] Tổn thương da hình bia bắn điển hình (Targetoid lesion) gồm 3 vòng tròn đồng tâm là dấu ấn đặc trưng của bệnh {{c1::<span style=\"color:#74c0fc\"><b>Hồng ban đa dạng (Erythema multiforme)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> 3 vòng tròn: tâm hoại tử hoặc mụn nước sẫm màu, vòng giữa nhạt màu phù nề, viền ngoài cùng đỏ rực; thường kích hoạt sau nhiễm Herpes simplex (HSV) hoặc Mycoplasma pneumoniae.<br>📖 Nguồn: Bài học PED-49 (Mục 1.2)",
+    "tags": [
+      "PED-49",
+      "Hinh-thai"
+    ],
+    "badge": "🔍 HÌNH THÁI HỌC TỔN THƯƠNG",
+    "badge_class": "badge-cyan"
+  },
+  {
+    "id": "PED49-B11",
+    "type": "basic",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "front": "<span style=\"color:#ff6b6b\"><b>Tam chứng viêm long 3C</b></span> trong giai đoạn tiền triệu của <span style=\"color:#74c0fc\"><b>Bệnh Sởi (Measles)</b></span> gồm những dấu hiệu gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cough:</b> <span style=\"color:#ff6b6b\"><b>Ho khan dữ dội</b></span> kéo dài.<br>2) <b>Coryza:</b> <span style=\"color:#ff6b6b\"><b>Sổ mũi nhiều, chảy nước mũi trong</b></span>.<br>3) <b>Conjunctivitis:</b> <span style=\"color:#ff6b6b\"><b>Viêm kết mạc mắt đỏ rực, chảy nước mắt sống và sợ ánh sáng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng 3C phản ánh sự nhân lên mạnh mẽ của virus sởi trong biểu mô đường hô hấp trên và kết mạc; trẻ thường sốt cao tăng dần và có bộ mặt sởi điển hình (mặt nhem nhuốc, mắt đỏ kèm dử, ho liên tục).",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1 Nhóm ban dát sẩn)",
+    "tags": [
+      "PED-49",
+      "Soi",
+      "Dich-te",
+      "Lam-sang"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C11",
+    "type": "cloze",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "text": "[PED - Lâm sàng] <span style=\"color:#51cf66\"><b>Hạt Koplik</b></span> trong bệnh sởi xuất hiện ở vị trí {{c1::<span style=\"color:#74c0fc\"><b>niêm mạc má đối diện răng hàm số 2</b></span>}}, có hình ảnh như những hạt muối biển rắc trên nền niêm mạc đỏ rực.",
+    "extra": "<b>💡 Giải thích của AI:</b> Hạt Koplik xuất hiện 24–48 giờ trước khi mọc ban ngoài da và là dấu hiệu bệnh học đặc hiệu (pathognomonic) giúp khẳng định chẩn đoán sởi sớm.<br>📖 Nguồn: Bài học PED-49 (Mục 4.1 & Checkpoint 1)",
+    "tags": [
+      "PED-49",
+      "Soi",
+      "Koplik"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B12",
+    "type": "basic",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "front": "Mô tả <span style=\"color:#51cf66\"><b>trình tự mọc ban kinh điển</b></span> theo không gian và thời gian của <span style=\"color:#74c0fc\"><b>Bệnh Sởi</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ngày 1:</b> Khởi phát từ <span style=\"color:#74c0fc\"><b>sau tai, chân tóc lan ra trán và cổ</b></span>.<br>2) <b>Ngày 2:</b> Lan xuống <span style=\"color:#74c0fc\"><b>ngực, lưng và hai cánh tay</b></span>.<br>3) <b>Ngày 3:</b> Lan xuống <span style=\"color:#74c0fc\"><b>bụng, đùi và cẳng chân đến tận bàn chân</b></span> (toàn thân).<br><br><b>💡 Giải thích của AI:</b><br>Quy luật mọc ban ly tâm từ trên xuống dưới (Craniocaudal spread) trong 3 ngày; khi ban lan tới chân thì sốt bắt đầu hạ dần; đây là dấu mốc quan trọng phân biệt với các virus khác.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Soi",
+      "Lam-sang"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C12",
+    "type": "cloze",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "text": "[PED - Lâm sàng] Đặc điểm hồi phục của ban sởi khi lặn là để lại các {{c1::<span style=\"color:#ffd43b\"><b>vết thâm vằn 'da hổ' bong vảy cám nhỏ</b></span>}} và lặn theo đúng thứ tự mọc từ trên xuống dưới.",
+    "extra": "<b>💡 Giải thích của AI:</b> Hiện tượng thâm da là do sự lắng đọng hemosiderin từ hồng cầu rò rỉ nhẹ qua mao mạch viêm trong giai đoạn đỉnh điểm.<br>📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Soi",
+      "Hoi-phuc"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B13",
+    "type": "basic",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "front": "<span style=\"color:#ffd43b\"><b>Động học sốt và mọc ban</b></span> trong bệnh <span style=\"color:#74c0fc\"><b>Ban đào (Roseola infantum / Exanthem subitum)</b></span> có gì đặc biệt?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn sốt:</b> Trẻ sốt rất cao <span style=\"color:#ffd43b\"><b>39–40°C đột ngột kéo dài liên tục trong 3–5 ngày</b></span> nhưng tổng trạng trẻ vẫn khá tỉnh táo.<br>2) <b>Động học mọc ban:</b> Ban đỏ dạng dát sẩn màu hồng đào chỉ bùng phát <span style=\"color:#51cf66\"><b>NGAY KHI HẾT SỐT (cắt sốt đột ngột)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là đặc điểm kinh điển 'sốt lặn ban mọc' (fever breaks, rash appears). Trái ngược hoàn toàn với sởi (sốt cao nhất khi ban mọc rộ), ban đào là minh chứng cho việc hệ miễn dịch đã khống chế xong virus.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1 & Checkpoint 1)",
+    "tags": [
+      "PED-49",
+      "Roseola",
+      "HHV-6",
+      "Dong-hoc"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C13",
+    "type": "cloze",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "text": "[PED - Lâm sàng] Vị trí phân bố ưu thế của ban đào Roseola infantum là ở {{c1::<span style=\"color:#74c0fc\"><b>thân mình (ngực, bụng, lưng)</b></span>}} rồi mới lan nhẹ ra cổ và gốc chi, mặt rất ít khi có ban.",
+    "extra": "<b>💡 Giải thích của AI:</b> Phân bố tập trung ở thân mình giúp phân biệt ban đào với sởi (ưu thế ở mặt và lan từ đầu xuống chân).<br>📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Roseola",
+      "Phan-bo"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B14",
+    "type": "basic",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "front": "<span style=\"color:#ff6b6b\"><b>Cạm bẫy chẩn đoán kinh điển</b></span> giữa bệnh <span style=\"color:#74c0fc\"><b>Ban đào (Roseola)</b></span> và <span style=\"color:#ff6b6b\"><b>dị ứng kháng sinh</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tình huống bẫy:</b> Trẻ sốt cao 3 ngày uống kháng sinh (như Amoxicillin), đến ngày thứ 4 <span style=\"color:#ffd43b\"><b>hết sốt nổi ban đỏ</b></span> → bị dán nhãn sai là <span style=\"color:#ff6b6b\"><b>'Dị ứng kháng sinh suốt đời'</b></span>.<br>2) <b>Bản chất thực tế:</b> Đây hoàn toàn là <span style=\"color:#74c0fc\"><b>diễn tiến tự nhiên của virus HHV-6</b></span> (ban xuất hiện đúng ngày cắt sốt), không phải do dị ứng thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Việc dán nhãn nhầm dị ứng beta-lactam làm tước đoạt cơ hội dùng kháng sinh an toàn và hiệu quả hàng đầu của trẻ sau này, dẫn đến phải dùng các kháng sinh phổ rộng đắt tiền và độc hại hơn.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 9 Cạm bẫy lâm sàng số 1)",
+    "tags": [
+      "PED-49",
+      "Roseola",
+      "Cam-bay",
+      "Di-ung-thuoc"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C14",
+    "type": "cloze",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "text": "[PED - Lâm sàng] Virus gây bệnh Ban đào (Roseola infantum / Exanthem subitum) thường gặp nhất là {{c1::<span style=\"color:#74c0fc\"><b>Human Herpesvirus 6 (HHV-6)</b></span>}} và ít gặp hơn là HHV-7.",
+    "extra": "<b>💡 Giải thích của AI:</b> HHV-6 xâm nhập thần kinh trung ương và là một trong những nguyên nhân hàng đầu gây sốt co giật ở trẻ từ 6 đến 24 tháng tuổi.<br>📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Roseola",
+      "Vi-sinh"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B15",
+    "type": "basic",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "front": "<span style=\"color:#74c0fc\"><b>Bệnh Rubella</b></span> có <span style=\"color:#ff6b6b\"><b>dấu hiệu hạch lâm sàng nào đặc trưng</b></span> xuất hiện trước khi mọc ban?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc điểm hạch:</b> <span style=\"color:#ff6b6b\"><b>Hạch to và đau ở vùng sau tai, dưới chẩm và chuỗi hạch cổ sau</b></span>.<br>2) <b>Thời điểm xuất hiện:</b> Xuất hiện trước khi phát ban <span style=\"color:#ffd43b\"><b>từ 24 giờ đến vài ngày</b></span> và có thể tồn tại dai dẳng nhiều tuần sau đó.<br><br><b>💡 Giải thích của AI:</b><br>Hạch sau tai và chẩm sưng đau kết hợp ban dát sẩn mịn màu hồng mọc nhanh bay nhanh trong 3 ngày là dấu ấn then chốt hướng tới Rubella. Ngoài ra có thể thấy đốm Forchheimer ở khẩu cái mềm.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Rubella",
+      "Hach-to"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C15",
+    "type": "cloze",
+    "category": "Ban dát sẩn & Động học sốt",
+    "section": "SEC4_1",
+    "text": "[PED - Lâm sàng] Dấu hiệu 'má bị tát' (Slapped-cheek) kèm ban dạng lưới ren ở thân mình là hình ảnh bệnh học kinh điển của {{c1::<span style=\"color:#74c0fc\"><b>Bệnh thứ năm (Erythema infectiosum)</b></span>}} do virus {{c1::<span style=\"color:#74c0fc\"><b>Parvovirus B19</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Parvovirus B19 tấn công tế bào tiền thân hồng cầu trong tủy xương; cần đặc biệt cảnh giác cơn tan máu hoặc bất sản tủy ở trẻ mang bệnh huyết sắc tố (như Thalassemia, hồng cầu liềm).<br>📖 Nguồn: Bài học PED-49 (Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "Parvovirus",
+      "Lam-sang"
+    ],
+    "badge": "🌸 BAN DÁT SẨN & ĐỘNG HỌC SỐT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B16",
+    "type": "basic",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "front": "<span style=\"color:#ff6b6b\"><b>Dấu hiệu nhận diện then chốt</b></span> của ban mụn nước trong <span style=\"color:#74c0fc\"><b>Bệnh Thủy đậu (Varicella)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái 'Giọt sương trên cánh hoa hồng':</b> Mụn nước trong suốt có đáy viền quầng đỏ rực (Dewdrop on a rose petal).<br>2) <b>Đa lứa tuổi đồng thời:</b> Tại cùng một vùng da quan sát thấy <span style=\"color:#ffd43b\"><b>đủ các giai đoạn phát triển</b></span>: dát sẩn, mụn nước trong, mụn nước hóa đục và vảy tiết khô.<br><br><b>💡 Giải thích của AI:</b><br>Virus Varicella-Zoster nhân lên theo từng đợt giải phóng vào máu (mỗi đợt cách nhau 24–48 giờ), tạo ra các lứa ban kế tiếp gối đầu lên nhau. Đây là điểm phân biệt sống còn với Đậu mùa (tất cả mụn nước cùng một độ tuổi).",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.2 Nhóm ban mụn nước)",
+    "tags": [
+      "PED-49",
+      "Thuy-dau",
+      "Hinh-thai"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-C16",
+    "type": "cloze",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "text": "[PED - Lâm sàng] Hình ảnh tổn thương mụn nước thủy đậu giai đoạn đầu được mô tả kinh điển trong y văn là {{c1::<span style=\"color:#ff6b6b\"><b>'Giọt sương trên cánh hoa hồng' (Dewdrop on a rose petal)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Mụn nước chứa đầy virus trong suốt nằm trên nền hồng ban giãn mạch nông tạo hình ảnh giọt nước đọng trên cánh hoa.<br>📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "Thuy-dau"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-B17",
+    "type": "basic",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "front": "Phân bố tổn thương da trong <span style=\"color:#74c0fc\"><b>Bệnh Thủy đậu</b></span> theo kiểu <span style=\"color:#74c0fc\"><b>hướng tâm</b></span> hay <span style=\"color:#74c0fc\"><b>ly tâm</b></span> và có mọc ở niêm mạc không?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân bố hướng tâm (Centripetal distribution):</b> Ban mọc nhiều nhất ở <span style=\"color:#74c0fc\"><b>thân mình (ngực, bụng, lưng) và da đầu</b></span>, thưa thớt dần ở các chi.<br>2) <b>Tổn thương niêm mạc:</b> <span style=\"color:#ff6b6b\"><b>Có mọc ở niêm mạc</b></span> (niêm mạc miệng, kết mạc mắt, âm hộ) và nhanh chóng vỡ tạo thành các vết loét nông đau rát.<br><br><b>💡 Giải thích của AI:</b><br>Sự xuất hiện của mụn nước ngay trong chân tóc trên da đầu là dấu hiệu thực thể rất có giá trị gợi ý thủy đậu ngay trong ngày đầu tiên khi ban ở thân mình chưa rõ.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "Thuy-dau",
+      "Phan-bo"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-C17",
+    "type": "cloze",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "text": "[PED - Lâm sàng] Tuyệt đối CẤM chỉ định {{c1::<span style=\"color:#ff6b6b\"><b>Aspirin (nguy cơ Hội chứng Reye)</b></span>}} và {{c1::<span style=\"color:#ff6b6b\"><b>Ibuprofen (nguy cơ Viêm cân mạc hoại tử do liên cầu)</b></span>}} ở trẻ mắc bệnh Thủy đậu.",
+    "extra": "<b>💡 Giải thích của AI:</b> NSAID làm suy giảm chức năng bạch cầu trung tính tại da, tạo điều kiện cho Streptococcus pyogenes xâm nhập sâu gây viêm mô tế bào hoại tử (Necrotizing fasciitis) tử vong cao.<br>📖 Nguồn: Hướng dẫn NICE & AAP 2011",
+    "tags": [
+      "PED-49",
+      "Thuy-dau",
+      "Chong-chi-dinh",
+      "Thuoc"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-B18",
+    "type": "basic",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "front": "<span style=\"color:#74c0fc\"><b>Vị trí phân bố chọn lọc điển hình</b></span> của ban trong <span style=\"color:#74c0fc\"><b>Bệnh Tay Chân Miệng (HFMD)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí kinh điển:</b> Mụn nước hình bầu dục nằm trên nền hồng ban xuất hiện chọn lọc ở <span style=\"color:#74c0fc\"><b>lòng bàn tay, lòng bàn chân, mông và đầu gối</b></span>.<br>2) <b>Đặc điểm mụn nước:</b> Thường <span style=\"color:#ffd43b\"><b>không đau, không ngứa</b></span>, nằm dọc theo các đường lằn chỉ tay chỉ chân.<br>3) <b>Tổn thương miệng:</b> Các vết loét nhỏ (Aphthous-like) đau rát ở niêm mạc miệng khiến trẻ chảy dãi và bỏ ăn.<br><br><b>💡 Giải thích của AI:</b><br>Sự xuất hiện của mụn nước ở vùng tì đè (mông, gối) là đặc tính độc đáo của nhóm Enterovirus. Ở trẻ nhỏ mặc tã, nốt ban ở vùng mông thường bị chẩn đoán nhầm thành hăm tã.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.2 & Quyết định 1003/QĐ-BYT)",
+    "tags": [
+      "PED-49",
+      "TCM",
+      "HFMD",
+      "Lam-sang"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-C18",
+    "type": "cloze",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "text": "[PED - Lâm sàng] Chủng virus đường ruột nguy hiểm nhất thường gây biến chứng thần kinh và suy tuần hoàn hô hấp trong bệnh Tay Chân Miệng là {{c1::<span style=\"color:#ff6b6b\"><b>Enterovirus 71 (EV71)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> EV71 có ái tính đặc biệt với thân não (Brainstem encephalitis), kích hoạt bão catecholamine gây phù phổi cấp thần kinh và trụy tim mạch chỉ trong vài giờ.<br>📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "TCM",
+      "EV71"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-B19",
+    "type": "basic",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "front": "Chủng Enterovirus mới nổi nào thường gây <span style=\"color:#74c0fc\"><b>ban bóng nước không điển hình</b></span> lan tỏa toàn thân giống eczema trong bệnh Tay Chân Miệng?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chủng virus:</b> <span style=\"color:#74c0fc\"><b>Coxsackievirus A6 (CVA6)</b></span>.<br>2) <b>Hình thái lâm sàng:</b> Gây các bọc bóng nước lớn lan rộng khắp thân mình, chi và mặt (gọi là <span style=\"color:#74c0fc\"><b>Eczema coxsackium</b></span> trên trẻ có cơ địa viêm da cơ địa).<br>3) <b>Di chứng muộn:</b> Sau 1–2 tháng thường có hiện tượng <span style=\"color:#ffd43b\"><b>bong rụng móng tay chân (Onychomadesis)</b></span> lành tính.<br><br><b>💡 Giải thích của AI:</b><br>CVA6 dễ làm bác sĩ lầm tưởng với thủy đậu hoặc nhiễm trùng da tụ cầu do ban bóng nước rất dữ dội, tuy nhiên trẻ thường ít biến chứng thần kinh hơn EV71.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "TCM",
+      "Coxsackie-A6"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-C19",
+    "type": "cloze",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "text": "[PED - Lâm sàng] Dấu hiệu thần kinh sớm nhất và có giá trị nhất cảnh báo bệnh Tay Chân Miệng chuyển sang phân độ nặng (Độ 2a trở lên) là {{c1::<span style=\"color:#ff6b6b\"><b>giật mình chới với (Myoclonus)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Cần khai thác kỹ: giật mình lúc bắt đầu thiu thiu ngủ hoặc giật mình ≥ 2 lần trong 30 phút là chỉ định nhập viện theo dõi sát.<br>📖 Nguồn: Quyết định 1003/QĐ-BYT Hướng dẫn chẩn đoán điều trị TCM",
+    "tags": [
+      "PED-49",
+      "TCM",
+      "Giat-minh",
+      "Co-do"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-B20",
+    "type": "basic",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "front": "<span style=\"color:#ff6b6b\"><b>Tổn thương loét niêm mạc miệng</b></span> trong <span style=\"color:#74c0fc\"><b>Bệnh Tay Chân Miệng</b></span> thường nằm ở vị trí nào và phân biệt với viêm loét miệng do Herpes?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí trong Tay Chân Miệng:</b> Ưu thế ở <span style=\"color:#74c0fc\"><b>khẩu cái mềm, lưỡi gà và trụ amiđan (khoang miệng phía sau)</b></span>.<br>2) <b>Phân biệt với Herpes simplex (HSV):</b> Herpes gây viêm lợi miệng cấp tính (Gingivostomatitis) làm <span style=\"color:#ff6b6b\"><b>viêm đỏ loét rầm rộ ở nướu răng và môi phía trước</b></span>, lợi sưng to dễ chảy máu.<br><br><b>💡 Giải thích của AI:</b><br>Vị trí loét phía sau (posterior oral cavity) là dấu ấn định vị của nhóm Enterovirus (Herpangina / HFMD); vị trí phía trước nướu răng là lãnh địa của Herpes virus.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "TCM",
+      "Herpes",
+      "Loet-mieng"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-C20",
+    "type": "cloze",
+    "category": "Ban mụn nước & bóng nước",
+    "section": "SEC4_2",
+    "text": "[PED - Lâm sàng] Ban bóng nước trong bệnh Thủy đậu khi khô sẽ tạo thành {{c1::<span style=\"color:#ffd43b\"><b>vảy tiết lõm giữa</b></span>}} và khi toàn bộ các tổn thương đã đóng vảy khô hoàn toàn thì trẻ {{c1::<span style=\"color:#51cf66\"><b>hết khả năng lây truyền</b></span>}} (thường sau 7–10 ngày).",
+    "extra": "<b>💡 Giải thích của AI:</b> Đây là tiêu chuẩn kiểm soát nhiễm khuẩn cho trẻ quay trở lại trường học: chỉ khi không còn mụn nước ướt nào mới an toàn tiếp xúc cộng đồng.<br>📖 Nguồn: Bài học PED-49 (Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "Thuy-dau",
+      "Lay-nhiem"
+    ],
+    "badge": "💧 BAN MỤN NƯỚC & BÓNG NƯỚC",
+    "badge_class": "badge-blue"
+  },
+  {
+    "id": "PED49-B21",
+    "type": "basic",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "front": "<span style=\"color:#ffd43b\"><b>Tiêu chuẩn thời gian sốt bắt buộc</b></span> và đáp ứng <span style=\"color:#51cf66\"><b>thuốc hạ sốt</b></span> trong chẩn đoán <span style=\"color:#74c0fc\"><b>Bệnh Kawasaki kinh điển</b></span> theo AHA 2024 là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời gian sốt:</b> Sốt cao liên tục <span style=\"color:#ffd43b\"><b>từ 5 ngày trở lên (≥ 5 ngày)</b></span>.<br>2) <b>Tiêu chuẩn phụ kèm theo:</b> Bắt buộc đi kèm ít nhất <span style=\"color:#ffd43b\"><b>4 trong 5 tiêu chuẩn lâm sàng phụ</b></span>.<br>3) <b>Đáp ứng thuốc:</b> Sốt đáp ứng rất kém hoặc không hạ khi dùng các thuốc hạ sốt thông thường.<br><br><b>💡 Giải thích của AI:</b><br>AHA 2024 cho phép chẩn đoán sớm trước ngày thứ 5 nếu bệnh nhân có đủ 4/5 tiêu chuẩn phụ và có hình ảnh siêu âm tim dãn động mạch vành rõ rệt, do các chuyên gia tim mạch thực hiện.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & AHA Kawasaki Guideline 2024)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Tieu-chuan",
+      "Con-so"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-C21",
+    "type": "cloze",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "text": "[PED - Lâm sàng] Theo AHA 2024, bệnh Kawasaki nếu không được điều trị kịp thời sẽ dẫn đến biến chứng phình giãn động mạch vành ở khoảng {{c1::<span style=\"color:#ff6b6b\"><b>20% đến 25%</b></span>}} số trường hợp.",
+    "extra": "<b>💡 Giải thích của AI:</b> Kawasaki là nguyên nhân hàng đầu gây bệnh tim mắc phải ở trẻ em các nước phát triển; điều trị IVIG sớm trong 10 ngày đầu giúp kéo giảm tỷ lệ phình vành xuống dưới 4–5%.<br>📖 Nguồn: AHA Kawasaki Guideline 2024 & McCrindle BW et al. Circulation 2017",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Mach-vanh",
+      "Con-so"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-B22",
+    "type": "basic",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "front": "Kể tên <span style=\"color:#ffd43b\"><b>5 tiêu chuẩn lâm sàng phụ</b></span> trong chẩn đoán <span style=\"color:#74c0fc\"><b>Bệnh Kawasaki kinh điển</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mắt:</b> <span style=\"color:#ff6b6b\"><b>Viêm kết mạc hai bên không tiết dịch mủ</b></span> (bảo tồn vùng rìa giác mạc).<br>2) <b>Môi miệng:</b> <span style=\"color:#ff6b6b\"><b>Môi đỏ nứt nẻ, lưỡi dâu tây (Strawberry tongue)</b></span>, niêm mạc miệng đỏ rực.<br>3) <b>Đầu chi:</b> <span style=\"color:#ff6b6b\"><b>Phù mu bàn tay bàn chân, lòng bàn tay chân đỏ rực</b></span> (giai đoạn cấp); bong da đầu ngón (giai đoạn bán cấp).<br>4) <b>Ban da:</b> <span style=\"color:#ff6b6b\"><b>Phát ban đa dạng toàn thân</b></span> (dát sẩn, hồng ban đa dạng).<br>5) <b>Hạch:</b> <span style=\"color:#ffd43b\"><b>Hạch cổ một bên không hóa mủ</b></span> có kích thước <span style=\"color:#ffd43b\"><b>&gt; 1.5 cm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chẩn đoán xác định khi có Sốt ≥ 5 ngày + ít nhất 4/5 tiêu chuẩn này; nếu có dưới 4 tiêu chuẩn nhưng nghi ngờ gọi là Kawasaki không điển hình (Incomplete Kawasaki).",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & AHA 2024)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Tieu-chuan"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-C22",
+    "type": "cloze",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "text": "[PED - Lâm sàng] Đặc điểm viêm kết mạc hai mắt trong bệnh Kawasaki là đỏ mắt hai bên nhưng {{c1::<span style=\"color:#51cf66\"><b>hoàn toàn không có tiết dịch mủ (non-exudative)</b></span>}} và chừa lại vùng rìa quanh giác mạc (limbic sparing).",
+    "extra": "<b>💡 Giải thích của AI:</b> Nếu mắt có nhiều gỉ mủ bết dính thì phải nghĩ tới viêm kết mạc nhiễm trùng do vi khuẩn hoặc Adenovirus chứ không phải Kawasaki.<br>📖 Nguồn: Bài học PED-49 (Mục 4.3)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Kham-mat"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-B23",
+    "type": "basic",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "front": "Ban da trong <span style=\"color:#74c0fc\"><b>Bệnh Kawasaki</b></span> TUYỆT ĐỐI KHÔNG BAO GIỜ có <span style=\"color:#ff6b6b\"><b>hình thái nào</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái loại trừ:</b> Tuyệt đối không bao giờ có dạng <span style=\"color:#ff6b6b\"><b>Mụn nước hoặc Bóng nước (Vesicles / Bullae)</b></span>.<br>2) <b>Dấu hiệu loại trừ khác:</b> Không có các chấm nốt tử ban xuất huyết hoại tử.<br><br><b>💡 Giải thích của AI:</b><br>Nếu bệnh nhi sốt phát ban có mụn nước, chẩn đoán Kawasaki lập tức bị bác bỏ để chuyển hướng sang Thủy đậu, Tay Chân Miệng, Herpes hoặc SSSS/TEN.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & AHA 2024)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Chan-doan-phan-biet"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-C23",
+    "type": "cloze",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "text": "[PED - Lâm sàng] Dấu hiệu bong da đầu ngón tay ngón chân (Periungual desquamation) trong bệnh Kawasaki thường xuất hiện ở {{c1::<span style=\"color:#ffd43b\"><b>giai đoạn bán cấp (tuần thứ 2 đến tuần thứ 3)</b></span>}} kể từ khi khởi phát sốt.",
+    "extra": "<b>💡 Giải thích của AI:</b> Bong vảy bắt đầu từ bờ mép quanh móng tay móng chân rồi lột thành mảng; đây là dấu ấn hồi phục đặc hiệu giúp hồi cứu chẩn đoán những ca bị bỏ sót.<br>📖 Nguồn: Bài học PED-49 (Mục 4.3)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Bong-da"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-B24",
+    "type": "basic",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "front": "<span style=\"color:#51cf66\"><b>Phác đồ điều trị tiêu chuẩn hàng đầu</b></span> của <span style=\"color:#74c0fc\"><b>Bệnh Kawasaki</b></span> trong giai đoạn cấp theo AHA là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Immunoglobulin truyền tĩnh mạch (IVIG):</b> Liều duy nhất <span style=\"color:#51cf66\"><b>2 g/kg truyền tĩnh mạch liên tục trong 10 đến 12 giờ</b></span>.<br>2) <b>Aspirin liều cao chống viêm:</b> Liều <span style=\"color:#51cf66\"><b>30 đến 50 mg/kg/ngày</b></span> chia 4 lần uống.<br>3) <b>Cửa sổ thời gian vàng:</b> Bắt buộc bắt đầu điều trị trong vòng <span style=\"color:#ffd43b\"><b>10 ngày đầu tiên</b></span> kể từ khi khởi phát sốt.<br><br><b>💡 Giải thích của AI:</b><br>IVIG trung hòa kháng nguyên và dập tắt phản ứng viêm mạch toàn thể, bảo vệ động mạch vành không bị giãn phình. Bắt đầu IVIG càng sớm trong 10 ngày đầu hiệu quả bảo vệ tim mạch càng tối ưu.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & Mục 7.1)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "IVIG",
+      "Aspirin",
+      "Dieu-tri"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-C24",
+    "type": "cloze",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "text": "[PED - Lâm sàng] Liều dùng của thuốc Immunoglobulin (IVIG) trong điều trị bệnh Kawasaki giai đoạn cấp là {{c1::<span style=\"color:#51cf66\"><b>2 g/kg liều duy nhất</b></span>}} truyền tĩnh mạch liên tục trong 10–12 giờ.",
+    "extra": "<b>💡 Giải thích của AI:</b> Phác đồ truyền liều duy nhất 2 g/kg có hiệu quả hạ sốt và bảo vệ động mạch vành vượt trội so với phác đồ chia nhỏ 400 mg/kg/ngày trong 5 ngày trước đây.<br>📖 Nguồn: AHA Kawasaki Guideline 2024",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "IVIG",
+      "Lieu-thuoc"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-B25",
+    "type": "basic",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "front": "<span style=\"color:#ffd43b\"><b>Thời điểm chỉ định siêu âm tim</b></span> ở bệnh nhi nghi ngờ Kawasaki và khi nào <span style=\"color:#51cf66\"><b>hạ liều Aspirin sang liều chống ngưng tập tiểu cầu</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời điểm siêu âm tim:</b> Thực hiện ngay tại thời điểm <span style=\"color:#51cf66\"><b>chẩn đoán ban đầu</b></span>, lặp lại sau <span style=\"color:#ffd43b\"><b>1–2 tuần</b></span> và sau <span style=\"color:#ffd43b\"><b>6–8 tuần</b></span>.<br>2) <b>Thời điểm chuyển liều Aspirin:</b> Khi trẻ đã <span style=\"color:#51cf66\"><b>hết sốt hoàn toàn từ 48 đến 72 giờ</b></span>.<br>3) <b>Liều kháng kết tập tiểu cầu:</b> Hạ xuống liều thấp <span style=\"color:#51cf66\"><b>3 đến 5 mg/kg/ngày</b></span> uống 1 lần duy nhất trong ít nhất 6–8 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm tim đánh giá đường kính động mạch vành qua Z-score (Z-score ≥ 2.5 là dãn phình). Hạ liều Aspirin khi hết sốt để duy trì ức chế Thromboxane A2 ngăn ngừa hình thành cục máu đông trong lòng mạch vành.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & AHA 2024)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Sieu-am-tim",
+      "Aspirin"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-C25",
+    "type": "cloze",
+    "category": "Bệnh Kawasaki",
+    "section": "SEC4_3",
+    "text": "[PED - Lâm sàng] Trong bệnh Kawasaki, Aspirin được dùng liều cao kháng viêm trong giai đoạn cấp, sau đó chuyển sang liều kháng kết tập tiểu cầu {{c1::<span style=\"color:#51cf66\"><b>3 đến 5 mg/kg/ngày</b></span>}} uống 1 lần mỗi ngày khi trẻ đã hết sốt 48–72 giờ.",
+    "extra": "<b>💡 Giải thích của AI:</b> Giai đoạn bán cấp số lượng tiểu cầu tăng vọt (> 500,000 đến 1,000,000/µL) gây tăng đông dữ dội; Aspirin liều thấp bảo vệ chống huyết khối mạch vành.<br>📖 Nguồn: AHA 2024 Guideline",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Aspirin",
+      "Lieu-thuoc"
+    ],
+    "badge": "❤️ BỆNH KAWASAKI (AHA 2024)",
+    "badge_class": "badge-purple"
+  },
+  {
+    "id": "PED49-B26",
+    "type": "basic",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "front": "<span style=\"color:#74c0fc\"><b>Đặc điểm phân bố tổn thương da kinh điển</b></span> và <span style=\"color:#ff6b6b\"><b>tam chứng lâm sàng ngoài da</b></span> của <span style=\"color:#74c0fc\"><b>Viêm mạch IgA (Henoch-Schönlein)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc điểm phân bố:</b> <span style=\"color:#ff6b6b\"><b>Tử ban sờ thấy gồ (Palpable purpura)</b></span> phân bố đối xứng chọn lọc ở <span style=\"color:#74c0fc\"><b>hai cẳng chân, mu bàn chân và vùng mông</b></span> (vùng chịu trọng lực).<br>2) <b>Tam chứng ngoài da:</b><br>• <span style=\"color:#ff6b6b\"><b>Đau khớp / Viêm khớp:</b></span> Thường ở khớp cổ chân và khớp gối.<br>• <span style=\"color:#ff6b6b\"><b>Đau bụng:</b></span> Đau quặn bụng quanh rốn do viêm mạch mạc treo, có thể ỉa máu.<br>• <span style=\"color:#ff6b6b\"><b>Tổn thương thận:</b></span> Đái máu vi thể hoặc đại thể kèm protein niệu.<br><br><b>💡 Giải thích của AI:</b><br>Viêm mạch IgA là bệnh lý viêm mạch máu nhỏ qua trung gian lắng đọng phức hợp miễn dịch IgA1. Tiểu cầu trong bệnh này luôn ở mức bình thường hoặc tăng (loại trừ xuất huyết giảm tiểu cầu ITP).",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 Nhóm ban xuất huyết)",
+    "tags": [
+      "PED-49",
+      "HSP",
+      "Viem-mach-IgA",
+      "Lam-sang"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C26",
+    "type": "cloze",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "text": "[PED - Lâm sàng] Tam chứng lâm sàng ngoài da thường gặp đi kèm trong Viêm mạch Henoch-Schönlein gồm: {{c1::<span style=\"color:#ff6b6b\"><b>Đau khớp (khớp gối, cổ chân)</b></span>}}, {{c1::<span style=\"color:#ff6b6b\"><b>Đau bụng quặn từng cơn</b></span>}}, và {{c1::<span style=\"color:#ff6b6b\"><b>Tổn thương thận (đái máu/đạm niệu)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Biến chứng ngoại khoa cấp tính đáng sợ nhất ở trẻ HSP là lồng ruột hồi-hồi tràng do khối máu tụ trong thành ruột làm điểm khởi phát lồng.<br>📖 Nguồn: Bài học PED-49 (Mục 4.3)",
+    "tags": [
+      "PED-49",
+      "HSP",
+      "Trieu-chung"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B27",
+    "type": "basic",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "front": "<span style=\"color:#51cf66\"><b>Xét nghiệm nào bắt buộc phải theo dõi định kỳ</b></span> ở bệnh nhi mắc Henoch-Schönlein purpura và trong thời gian bao lâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm bắt buộc:</b> <span style=\"color:#51cf66\"><b>Tổng phân tích nước tiểu</b></span> (đo hồng cầu niệu và tỷ lệ protein/creatinine niệu) kết hợp <span style=\"color:#51cf66\"><b>đo huyết áp</b></span>.<br>2) <b>Thời gian theo dõi:</b> Theo dõi định kỳ trong ít nhất <span style=\"color:#ffd43b\"><b>6 tháng</b></span> kể từ khi khởi phát bệnh.<br><br><b>💡 Giải thích của AI:</b><br>Viêm thận là yếu tố duy nhất quyết định tiên lượng mạn tính lâu dài của HSP. Khoảng 85% các ca tổn thương thận xuất hiện trong 4 tuần đầu và 97% trong 6 tháng đầu. Bỏ quên xét nghiệm nước tiểu có thể để sót suy thận mạn âm thầm.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & EULAR/PRINTO Guidelines)",
+    "tags": [
+      "PED-49",
+      "HSP",
+      "Theo-doi-than",
+      "Xet-nghiem"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C27",
+    "type": "cloze",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "text": "[PED - Lâm sàng] Hội chứng bong vảy da do tụ cầu (SSSS) xảy ra do ngoại độc tố {{c1::<span style=\"color:#74c0fc\"><b>Exfoliatin A và B (Exfoliative toxins)</b></span>}} của vi khuẩn Staphylococcus aureus tiết ra làm đứt gãy cầu nối Desmoglein-1.",
+    "extra": "<b>💡 Giải thích của AI:</b> Độc tố theo dòng máu lan tỏa toàn thân bẻ gãy phân tử kết dính Desmoglein-1 tại lớp hạt của thượng bì gây bong trợt da diện rộng mà dịch bóng nước lại hoàn toàn vô khuẩn.<br>📖 Nguồn: Bài học PED-49 (Mục 2.3 & Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "Doc-to"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B28",
+    "type": "basic",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "front": "Tại sao bệnh nhi mắc <span style=\"color:#74c0fc\"><b>SSSS</b></span> có <span style=\"color:#51cf66\"><b>dấu hiệu Nikolsky dương tính</b></span> nhưng TUYỆT ĐỐI KHÔNG BAO GIỜ bị <span style=\"color:#ff6b6b\"><b>tổn thương niêm mạc</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế phân bố thụ thể:</b> Độc tố Exfoliatin của tụ cầu chỉ cắt đứt phân tử <span style=\"color:#74c0fc\"><b>Desmoglein-1</b></span> (chỉ có ở lớp thượng bì của da).<br>2) <b>Bản chất niêm mạc:</b> Niêm mạc miệng và mắt được kết dính chủ yếu bởi <span style=\"color:#51cf66\"><b>Desmoglein-3</b></span>, hoàn toàn không bị độc tố Exfoliatin tác động.<br><br><b>💡 Giải thích của AI:</b><br>Đây là chìa khóa phân biệt sinh tử: Nếu bong tróc da kèm tổn thương niêm mạc miệng mắt lở loét rầm rộ → đó là Hội chứng Stevens-Johnson (SJS) hoặc Hoại tử thượng bì nhiễm độc (TEN); nếu niêm mạc hoàn toàn nguyên vẹn → đó là SSSS.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 2.3 & Checkpoint 2)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "SJS",
+      "TEN",
+      "Co-che"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C28",
+    "type": "cloze",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "text": "[PED - Lâm sàng] Điểm khác biệt cốt lõi giữa SSSS và Hội chứng Stevens-Johnson (SJS/TEN) là: SSSS {{c1::<span style=\"color:#51cf66\"><b>hoàn toàn bảo tồn màng niêm mạc</b></span>}}, trong khi SJS/TEN luôn gây {{c1::<span style=\"color:#ff6b6b\"><b>hoại tử lở loét nghiêm trọng tại ≥ 2 vị trí niêm mạc</b></span>}} (miệng, mắt, sinh dục).",
+    "extra": "<b>💡 Giải thích của AI:</b> SSSS là bệnh lý do ngoại độc tố phân tách thượng bì rất nông (subcorneal); TEN là đáp ứng miễn dịch tế bào T hoại tử toàn bộ chiều dày thượng bì (full-thickness) và niêm mạc.<br>📖 Nguồn: Bài học PED-49 (Mục 2.3 & Mục 4.2)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "TEN",
+      "Phan-biet"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B29",
+    "type": "basic",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "front": "<span style=\"color:#51cf66\"><b>Kháng sinh đường tĩnh mạch</b></span> được lựa chọn đầu tay trong điều trị <span style=\"color:#74c0fc\"><b>Hội chứng SSSS</b></span> là gì và <span style=\"color:#51cf66\"><b>nguyên tắc chăm sóc da</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kháng sinh đầu tay:</b> Các thuốc chống tụ cầu kháng men penicillinase: <span style=\"color:#51cf66\"><b>Oxacillin, Cloxacillin hoặc Cefazolin</b></span> đường tĩnh mạch; dùng Vancomycin nếu nghi ngờ MRSA.<br>2) <b>Nguyên tắc chăm sóc da:</b> Đối xử với vùng da bong trợt <span style=\"color:#51cf66\"><b>như một ca bỏng nhiệt độ nông</b></span>: bù dịch điện giải đầy đủ, giảm đau tối ưu, đắp gạc chống dính tẩm mỡ vaseline (petrolatum), tuyệt đối không chà xát cọ rửa mạnh.<br><br><b>💡 Giải thích của AI:</b><br>Tiêu diệt vi khuẩn tụ cầu tại ổ nhiễm trùng nguyên phát (thường ở cuống rốn, mũi họng hoặc nhọt da) để ngừng sản sinh thêm độc tố. Da trẻ sẽ tái tạo và hồi phục hoàn toàn không để lại sẹo sau 10–14 ngày vì lớp đáy thượng bì không bị hủy hoại.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 7.1 & Mục 8)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "Khang-sinh",
+      "Cham-soc-da"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C29",
+    "type": "cloze",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "text": "[PED - Lâm sàng] Nguyên tắc chăm sóc da cốt lõi trong SSSS và TEN là xem vùng da trợt như {{c1::<span style=\"color:#51cf66\"><b>vết bỏng nông</b></span>}}, đắp gạc chống dính vô trùng và tuyệt đối CẤM {{c1::<span style=\"color:#ff6b6b\"><b>băng dính dán trực tiếp lên da</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Dán băng dính trực tiếp khi bóc ra sẽ lột phăng toàn bộ mảng da mỏng manh của trẻ gây đau đớn dữ dội và tạo cửa ngõ nhiễm trùng huyết thứ phát.<br>📖 Nguồn: Bài học PED-49 (Mục 8)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "Cham-soc-da"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B30",
+    "type": "basic",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "front": "<span style=\"color:#74c0fc\"><b>Bệnh Tinh hồng nhiệt (Scarlet fever)</b></span> do tác nhân vi khuẩn nào gây ra, <span style=\"color:#ff6b6b\"><b>dấu hiệu khám da đặc trưng</b></span> và <span style=\"color:#51cf66\"><b>kháng sinh điều trị</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác nhân vi khuẩn:</b> <span style=\"color:#74c0fc\"><b>Liên cầu khuẩn tan huyết beta nhóm A (Streptococcus pyogenes - GAS)</b></span> tiết ngoại độc tố sinh đỏ (Pyrogenic exotoxin).<br>2) <b>Dấu hiệu da đặc trưng:</b><br>• <span style=\"color:#ff6b6b\"><b>Ban ráp như giấy nhám (Sandpaper rash):</b></span> Ban đỏ sần sùi sờ ráp tay.<br>• <span style=\"color:#ff6b6b\"><b>Đường Pastia (Pastia lines):</b></span> Nếp gấp khuỷu tay, nách có các dải màu đỏ sẫm không biến mất.<br>• <span style=\"color:#ff6b6b\"><b>Lưỡi dâu tây (Strawberry tongue)</b></span> sau khi bong lớp bựa trắng.<br><br><b>💡 Giải thích của AI:</b><br>Ban bắt đầu ở cổ và ngực rồi lan ra toàn thân, mặt đỏ bừng nhưng chừa lại quầng trắng quanh miệng (Circumoral pallor). Kháng sinh Penicillin/Amoxicillin giúp phòng ngừa biến chứng Thấp tim.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1 & Mục 4.4)",
+    "tags": [
+      "PED-49",
+      "Tinh-hong-nhiet",
+      "Lien-cau",
+      "Lam-sang"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-C30",
+    "type": "cloze",
+    "category": "Viêm mạch & Nhiễm trùng da",
+    "section": "SEC4_4",
+    "text": "[PED - Lâm sàng] Kháng sinh đầu tay được khuyến cáo điều trị bệnh Tinh hồng nhiệt (Scarlet fever) để phòng ngừa biến chứng thấp tim là {{c1::<span style=\"color:#51cf66\"><b>Penicillin V hoặc Amoxicillin</b></span>}} đường uống trong thời gian đủ {{c1::<span style=\"color:#ffd43b\"><b>10 ngày</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Bắt buộc phải đủ 10 ngày để tiệt trừ hoàn toàn liên cầu ở vùng họng hầu, ngăn ngừa biến chứng Thấp tim (mặc dù triệu chứng thường hết sau 48–72 giờ).<br>📖 Nguồn: Bài học PED-49 (Mục 7.2 & AHA Guidelines)",
+    "tags": [
+      "PED-49",
+      "Tinh-hong-nhiet",
+      "Khang-sinh",
+      "Con-so"
+    ],
+    "badge": "🩸 VIÊM MẠCH IGA & NHIỄM TRÙNG DA",
+    "badge_class": "badge-red"
+  },
+  {
+    "id": "PED49-B31",
+    "type": "basic",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "front": "<span style=\"color:#51cf66\"><b>Mục tiêu cốt lõi</b></span> của việc dùng thuốc hạ sốt ở trẻ em theo khuyến cáo của AAP 2011 là gì và <span style=\"color:#51cf66\"><b>liều chuẩn Paracetamol</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục tiêu cốt lõi:</b> Là <span style=\"color:#51cf66\"><b>cải thiện sự thoải mái và dễ chịu (Child's comfort)</b></span> cho trẻ, giảm quấy khóc và giúp trẻ chịu uống nước; <span style=\"color:#ff6b6b\"><b>KHÔNG PHẢI là ép thân nhiệt về mức hoàn toàn bình thường 37°C</b></span> bằng mọi giá.<br>2) <b>Liều Paracetamol chuẩn:</b> <span style=\"color:#51cf66\"><b>10 đến 15 mg/kg/lần</b></span>, khoảng cách giữa các lần uống tối thiểu là <span style=\"color:#ffd43b\"><b>4 đến 6 giờ</b></span> (tối đa không quá 60 mg/kg/ngày).<br><br><b>💡 Giải thích của AI:</b><br>Sốt là một phản ứng miễn dịch sinh lý có lợi nhằm ức chế sự nhân lên của vi sinh vật. Việc phụ huynh hoảng loạn ép trẻ uống thuốc liên tục để hạ sốt cấp tốc là nguyên nhân số một gây ngộ độc gan cấp do quá liều Paracetamol.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 8.1 & AAP Clinical Report 2011)",
+    "tags": [
+      "PED-49",
+      "Ha-sot",
+      "Paracetamol",
+      "Lieu-thuoc"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-C31",
+    "type": "cloze",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "text": "[PED - Lâm sàng] Liều dùng đường uống chuẩn của Paracetamol trong hạ sốt giảm đau ở trẻ em là {{c1::<span style=\"color:#51cf66\"><b>10 đến 15 mg/kg/lần</b></span>}}, cách nhau mỗi {{c1::<span style=\"color:#ffd43b\"><b>4 đến 6 giờ</b></span>}} khi cần thiết.",
+    "extra": "<b>💡 Giải thích của AI:</b> Cần cân chính xác cân nặng thực tế của trẻ để tính liều, không ước lượng theo tuổi vì trẻ béo phì hoặc suy dinh dưỡng sẽ bị tính sai liều.<br>📖 Nguồn: Bài học PED-49 (Mục 8.1)",
+    "tags": [
+      "PED-49",
+      "Ha-sot",
+      "Paracetamol",
+      "Con-so"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-B32",
+    "type": "basic",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "front": "Tại sao <span style=\"color:#ff6b6b\"><b>không nên dùng xen kẽ hoặc phối hợp hai loại thuốc hạ sốt</b></span> Paracetamol và Ibuprofen cho trẻ tại nhà?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ nhầm lẫn liều:</b> Khiến phụ huynh dễ <span style=\"color:#ff6b6b\"><b>nhầm lẫn khoảng cách và liều lượng</b></span>, dẫn đến quá liều ngộ độc gan thận.<br>2) <b>Không cải thiện kết cục:</b> Không làm giảm tỷ lệ co giật do sốt và không rút ngắn thời gian khỏi bệnh của trẻ.<br>3) <b>Tăng độc tính thận:</b> Phối hợp hai thuốc khi trẻ đang sốt mất nước làm tăng vọt nguy cơ <span style=\"color:#ff6b6b\"><b>tổn thương thận cấp (Acute Kidney Injury)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khuyến cáo của Viện Y tế Quốc gia Anh (NICE) và Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP): Chỉ nên khởi đầu bằng một loại thuốc đơn độc (ưu tiên Paracetamol). Chỉ cân nhắc đổi sang thuốc kia nếu trẻ hoàn toàn không thuyên giảm sự khó chịu sau 2–3 giờ.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 8.1 & NICE NG143)",
+    "tags": [
+      "PED-49",
+      "Ha-sot",
+      "Ibuprofen",
+      "Paracetamol",
+      "Canh-bao"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-C32",
+    "type": "cloze",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "text": "[PED - Lâm sàng] Chống chỉ định tuyệt đối sử dụng thuốc hạ sốt {{c1::<span style=\"color:#ff6b6b\"><b>Aspirin</b></span>}} ở trẻ em bị sốt phát ban do nhiễm virus vì nguy cơ gây {{c1::<span style=\"color:#ff6b6b\"><b>Hội chứng Reye (suy gan cấp và phù não nhiễm mỡ tử vong cao)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Aspirin làm tổn thương chuỗi hô hấp ty thể của tế bào gan; tỷ lệ tử vong của hội chứng Reye lên tới 30–40%.<br>📖 Nguồn: Hướng dẫn FDA & AAP",
+    "tags": [
+      "PED-49",
+      "Aspirin",
+      "Reye",
+      "Chong-chi-dinh"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-B33",
+    "type": "basic",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "front": "Tại sao <span style=\"color:#ff6b6b\"><b>chống chỉ định dùng Ibuprofen</b></span> ở trẻ sốt phát ban nghi ngờ mắc <span style=\"color:#74c0fc\"><b>Sốt xuất huyết Dengue</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ức chế kết tập tiểu cầu:</b> Ibuprofen là NSAID ức chế enzym COX-1 làm <span style=\"color:#ff6b6b\"><b>ức chế chức năng ngưng tập của tiểu cầu</b></span>.<br>2) <b>Loét niêm mạc dạ dày:</b> Gây kích ứng và trợt loét niêm mạc tiêu hóa.<br>3) <b>Nguy cơ xuất huyết ồ ạt:</b> Kết hợp với tình trạng giảm tiểu cầu sâu và tăng tính thấm thành mạch trong Dengue sẽ kích hoạt <span style=\"color:#ff6b6b\"><b>chảy máu tiêu hóa dữ dội và sốc mất máu</b></span> khó kiểm soát.<br><br><b>💡 Giải thích của AI:</b><br>Trong vùng dịch tễ lưu hành Sốt xuất huyết Dengue, mọi trường hợp sốt cấp tính chưa rõ nguyên nhân đều chỉ được phép dùng Paracetamol đơn độc để hạ sốt, cấm dùng NSAID.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 8.1 & Hướng dẫn chẩn đoán điều trị SXH Dengue - Bộ Y tế)",
+    "tags": [
+      "PED-49",
+      "Dengue",
+      "Ibuprofen",
+      "Chong-chi-dinh"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-C33",
+    "type": "cloze",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "text": "[PED - Lâm sàng] Chấm xuất huyết đơn độc ở mặt và cổ trên mức xương đòn sau cơn {{c1::<span style=\"color:#ffd43b\"><b>ho sặc sụa dữ dội hoặc nôn ói nhiều</b></span>}} là do cơ chế {{c1::<span style=\"color:#74c0fc\"><b>áp lực cơ học vỡ mao mạch nông lành tính</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Tăng áp lực tĩnh mạch nội lồng ngực đột ngột làm dội ngược vỡ các mao mạch mỏng quanh mi mắt và cổ; nếu trẻ hoàn toàn khỏe mạnh, không sốt, gan lách không to thì không cần xét nghiệm tốn kém.<br>📖 Nguồn: Bài học PED-49 (Mục 3.2 & Checkpoint 3)",
+    "tags": [
+      "PED-49",
+      "Xuat-huyet-co-hoc",
+      "Lam-sang"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-B34",
+    "type": "basic",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "front": "Nêu <span style=\"color:#51cf66\"><b>nguyên tắc tắm rửa đúng cách</b></span> cho trẻ em đang bị sốt phát ban và đập tan quan niệm kiêng khem sai lầm?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đập tan quan niệm sai lầm:</b> Quan niệm <span style=\"color:#ff6b6b\"><b>kiêng gió, kiêng nước, ủ ấm kín mít</b></span> làm bít tắc tuyến mồ hôi, tăng nguy cơ nhiễm trùng da mủ và co giật do sốt cao.<br>2) <b>Nguyên tắc tắm đúng:</b> Tắm nhanh bằng <span style=\"color:#51cf66\"><b>nước ấm (ấm hơn nhiệt độ phòng, thấp hơn thân nhiệt trẻ 1–2°C)</b></span> trong phòng kín gió trong 5–10 phút.<br>3) <b>Chăm sóc sau tắm:</b> Dùng khăn mềm thấm khô nhẹ nhàng, không chà xát làm vỡ mụn nước, mặc quần áo rộng rãi thoáng mát bằng vải cotton.<br><br><b>💡 Giải thích của AI:</b><br>Giữ vệ sinh da sạch sẽ bằng nước ấm giúp cuốn trôi vi khuẩn bám dính, làm thông thoáng lỗ chân lông, tạo sự thoải mái sảng khoái và hỗ trợ hạ nhiệt bức xạ an toàn.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 8 & Mục 9 Cạm bẫy lâm sàng số 7)",
+    "tags": [
+      "PED-49",
+      "Cham-soc-da",
+      "Tam-rua",
+      "Quan-niem-sai"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-C34",
+    "type": "cloze",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "text": "[PED - Lâm sàng] Dấu hiệu phát ban hồi phục trong Sốt xuất huyết Dengue có đặc điểm hình ảnh kinh điển là {{c1::<span style=\"color:#51cf66\"><b>'Các đảo da trắng nổi trên biển ban đỏ' (White islands in a sea of red)</b></span>}} xuất hiện vào ngày thứ 6–7.",
+    "extra": "<b>💡 Giải thích của AI:</b> Dấu hiệu hồi phục đi kèm ngứa da dữ dội ở lòng bàn tay bàn chân, báo hiệu giai đoạn nguy hiểm thoát huyết tương đã qua và thể tích tuần hoàn đang tái hấp thu trở lại.<br>📖 Nguồn: Hướng dẫn điều trị Dengue WHO 2011",
+    "tags": [
+      "PED-49",
+      "Dengue",
+      "Ban-hoi-phuc"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-B35",
+    "type": "basic",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "front": "Tại sao <span style=\"color:#ff6b6b\"><b>tuyệt đối không được dùng cồn y tế hoặc nước đá lạnh</b></span> để lau chườm hạ sốt cho trẻ nhỏ?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ ngộ độc cồn:</b> Cồn (Alcohol) <span style=\"color:#ff6b6b\"><b>hấp thu cực nhanh qua da mỏng</b></span> và đường hô hấp của trẻ, gây ngộ độc ức chế thần kinh trung ương, hạ đường huyết và hôn mê.<br>2) <b>Nước đá làm co mạch nghịch ngôn:</b> Nước đá lạnh làm <span style=\"color:#ff6b6b\"><b>co thắt mạch máu ngoại vi đột ngột</b></span> khiến nhiệt lượng bị giữ lại trong tạng sâu làm nhiệt độ trung tâm tăng vọt, đồng thời kích hoạt phản xạ rét run làm tăng sinh nhiệt dữ dội.<br><br><b>💡 Giải thích của AI:</b><br>Cả AAP và WHO đều khuyến cáo dứt khoát: Chỉ dùng nước ấm để lau chườm nhẹ nhàng nếu trẻ quá bứt rứt, tuyệt đối không dùng cồn hoặc nước đá.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 8 & Mục 9 Cạm bẫy lâm sàng số 6)",
+    "tags": [
+      "PED-49",
+      "Ha-sot",
+      "Chong-chi-dinh",
+      "Nguy-hiem"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-C35",
+    "type": "cloze",
+    "category": "Hạ sốt & Chăm sóc an toàn",
+    "section": "SEC8",
+    "text": "[PED - Lâm sàng] Khoanh tròn bờ nốt tử ban nghi ngờ bằng bút bi và ghi mốc giờ giúp theo dõi {{c1::<span style=\"color:#ff6b6b\"><b>tốc độ lan tràn của hoại tử vi mạch</b></span>}}; nếu ban vượt qua vòng tròn chỉ sau 1–2 giờ là chỉ dấu sốc tối cấp.",
+    "extra": "<b>💡 Giải thích của AI:</b> Mẹo lâm sàng vô giá tại buồng cấp cứu: Viền bút mực không phai giúp bác sĩ ca trực nhận biết ngay sự bùng nổ của tử ban não mô cầu chỉ sau một cái chớp mắt.<br>📖 Nguồn: Bài học PED-49 (Mục 12 Tips thực chiến)",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Meo-lam-sang"
+    ],
+    "badge": "🌡️ HẠ SỐT & CHĂM SÓC AN TOÀN",
+    "badge_class": "badge-green"
+  },
+  {
+    "id": "PED49-B36",
+    "type": "basic",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "front": "<span style=\"color:#51cf66\"><b>Vị trí và liều tiêm bắp Adrenaline đầu tay</b></span> trong <span style=\"color:#51cf66\"><b>xử trí phản vệ</b></span> ở trẻ em có biểu hiện ban mày đay suy hô hấp?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liều dùng:</b> Tiêm bắp <span style=\"color:#51cf66\"><b>Adrenaline 1:1000 liều 0.01 mg/kg</b></span> (tương đương 0.01 mL/kg dung dịch 1 mg/mL nguyên chất, tối đa 0.3 mg ở trẻ nhỏ hoặc 0.5 mg ở trẻ lớn).<br>2) <b>Vị trí tiêm tối ưu:</b> Tiêm bắp sâu ở <span style=\"color:#51cf66\"><b>mặt trước ngoài 1/3 giữa đùi (Cơ tứ đầu đùi - Anterolateral thigh)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vùng cơ đùi trước ngoài có mạng lưới mạch máu phong phú nhất giúp thuốc hấp thu đạt nồng độ đỉnh trong máu nhanh hơn gấp nhiều lần so với cơ delta cánh tay hay vùng mông. Adrenaline là thuốc cứu mạng duy nhất, kháng histamin và corticoid chỉ là thuốc hỗ trợ thứ yếu.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 7.1 & Thông tư 51/2017/TT-BYT Hướng dẫn phòng xử trí phản vệ)",
+    "tags": [
+      "PED-49",
+      "Phan-ve",
+      "Adrenaline",
+      "Cap-cuu"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C36",
+    "type": "cloze",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "text": "[PED - Lâm sàng] Thuốc can thiệp sống còn hàng đầu ngay lập tức khi trẻ nổi mày đay cấp đi kèm khó thở khò khè hoặc tụt huyết áp là {{c1::<span style=\"color:#51cf66\"><b>Adrenaline (Epinephrine) tiêm bắp</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Tuyệt đối không chần chừ tiêm Adrenaline để loay hoay tiêm Solu-Medrol hay Dimedrol vì chỉ có Adrenaline mới kích thích thụ thể alpha-1 co mạch nâng huyết áp và beta-2 dãn phế quản cắt cơn khó thở ngay tức khắc.<br>📖 Nguồn: Thông tư 51/2017/TT-BYT",
+    "tags": [
+      "PED-49",
+      "Phan-ve",
+      "Adrenaline"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B37",
+    "type": "basic",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "front": "<span style=\"color:#ff6b6b\"><b>Hội chứng DRESS</b></span> (Drug Reaction with Eosinophilia and Systemic Symptoms): <span style=\"color:#ffd43b\"><b>thời gian khởi phát sau dùng thuốc</b></span>, tổn thương tạng và hướng <span style=\"color:#51cf66\"><b>điều trị</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời gian khởi phát muộn:</b> Khởi phát rất chậm sau <span style=\"color:#ffd43b\"><b>2 đến 8 tuần</b></span> kể từ khi bắt đầu dùng thuốc gây dị ứng (hay gặp với thuốc chống động kinh, Allopurinol, Sulfonamide).<br>2) <b>Triệu chứng toàn thể:</b> Sốt cao liên tục, <span style=\"color:#ff6b6b\"><b>ban đỏ toàn thân phù nề vùng mặt</b></span>, hạch to nhiều nơi.<br>3) <b>Tổn thương nội tạng:</b> <span style=\"color:#ff6b6b\"><b>Tăng bạch cầu ái toan máu (&gt; 1,500/µL)</b></span>, suy chức năng gan thận (men gan tăng vọt, viêm thận kẽ).<br><br><b>💡 Giải thích của AI:</b><br>Khác với dị ứng thuốc thông thường xuất hiện sau vài ngày, DRESS là phản ứng quá mẫn type IVb chậm qua tế bào T kích hoạt tái hoạt virus Herpes tiềm ẩn (HHV-6). Ngừng thuốc ngay lập tức và điều trị Corticosteroid toàn thân liều cao kéo dài là bắt buộc.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 1.2 & Mục 4.1)",
+    "tags": [
+      "PED-49",
+      "DRESS",
+      "Di-ung-thuoc",
+      "Noi-tang"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C37",
+    "type": "cloze",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "text": "[PED - Lâm sàng] Kháng nguyên vi khuẩn não mô cầu kích hoạt bão cytokine và hoại tử thành mạch dữ dội chủ yếu qua nội độc tố màng tế bào {{c1::<span style=\"color:#74c0fc\"><b>Lipooligosaccharide (LOS)</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Nồng độ LOS huyết tương ở bệnh nhi sốc não mô cầu tương quan tỷ lệ thuận trực tiếp với độ nặng của suy đa tạng và nguy cơ tử vong.<br>📖 Nguồn: Bài học PED-49 (Mục 2.1)",
+    "tags": [
+      "PED-49",
+      "Nao-mo-cau",
+      "Vi-sinh"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B38",
+    "type": "basic",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "front": "<span style=\"color:#51cf66\"><b>Dấu hiệu hạt Koplik</b></span> trong bệnh Sởi có đặc điểm hình thái học như thế nào và thời gian tồn tại ra sao?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái học:</b> Là các đốm nhỏ màu trắng ngà hoặc xám xanh có kích thước <span style=\"color:#ffd43b\"><b>1–2 mm</b></span> như <span style=\"color:#51cf66\"><b>những hạt muối biển nằm trên nền quầng niêm mạc đỏ rực</b></span>.<br>2) <b>Thời gian tồn tại:</b> Xuất hiện <span style=\"color:#ffd43b\"><b>1–2 ngày trước khi mọc ban ngoài da</b></span> và thường biến mất nhanh chóng trong vòng <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> khi ban sởi đã bùng phát toàn thân.<br><br><b>💡 Giải thích của AI:</b><br>Koplik là tổn thương viêm hoại tử biểu mô khu trú quanh lỗ ống tuyến nước bọt mang tai (Stensen duct). Bác sĩ ca trực nếu thấy Koplik có thể cách ly và chẩn đoán sởi chắc chắn ngay cả trước khi ban mọc.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.1 & Checkpoint 1)",
+    "tags": [
+      "PED-49",
+      "Soi",
+      "Koplik",
+      "Lam-sang"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C38",
+    "type": "cloze",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "text": "[PED - Lâm sàng] Ngoại độc tố Exfoliatin của tụ cầu vàng trong bệnh SSSS hoạt động như một enzym protease đặc hiệu cắt đứt cầu nối desmosome tại phân tử {{c1::<span style=\"color:#74c0fc\"><b>Desmoglein-1</b></span>}} ở lớp hạt của biểu mô thượng bì.",
+    "extra": "<b>💡 Giải thích của AI:</b> Sự phân tách đặc hiệu ở lớp hạt (subcorneal plane) giải thích vì sao bọng nước SSSS rất mỏng, dễ vỡ và lành nhanh mà không để lại sẹo lõm.<br>📖 Nguồn: Bài học PED-49 (Mục 2.3)",
+    "tags": [
+      "PED-49",
+      "SSSS",
+      "Doc-to",
+      "Co-che"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B39",
+    "type": "basic",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "front": "Kể <span style=\"color:#ff6b6b\"><b>4 dấu hiệu cờ đỏ cấp cứu</b></span> mà bác sĩ bắt buộc phải dặn dò phụ huynh khi <span style=\"color:#51cf66\"><b>theo dõi điều trị ngoại trú</b></span> để đưa trẻ sốt phát ban tái khám ngay?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ban nguy hiểm:</b> Xuất hiện <span style=\"color:#ff6b6b\"><b>chấm nốt xuất huyết hoặc tử ban không biến mất khi ấn đáy cốc thủy tinh</b></span>.<br>2) <b>Tri giác & Hành vi:</b> Trẻ <span style=\"color:#ff6b6b\"><b>li bì, lơ mơ, khó đánh thức, khóc thét yếu ớt</b></span> hoặc co giật.<br>3) <b>Hô hấp & Tuần hoàn:</b> Trẻ <span style=\"color:#ff6b6b\"><b>thở nhanh, thở co rút lồng ngực, chân tay lạnh ngắt nổi vân tím</b></span>.<br>4) <b>Tiêu hóa & Sốt:</b> <span style=\"color:#ff6b6b\"><b>Nôn ói tất cả mọi thứ, bỏ bú hoàn toàn</b></span> hoặc sốt cao liên tục không hạ quá 3 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Bảng dặn dò 4 cờ đỏ này bảo vệ an toàn tối đa cho trẻ khi điều trị ngoại trú, giúp phụ huynh phát hiện ngay khoảnh khắc bệnh chuyển độ để tái khám cấp cứu kịp thời.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 13.2 Dặn dò phụ huynh tái khám & WHO Pocket Book of Hospital Care for Children)",
+    "tags": [
+      "PED-49",
+      "Co-do",
+      "Dan-do",
+      "Tai-kham"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C39",
+    "type": "cloze",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "text": "[PED - Lâm sàng] Thử nghiệm lâm sàng đa trung tâm tại 11 khoa cấp cứu châu Âu ghi nhận tỷ lệ nhiễm não mô cầu ở trẻ sốt có ban không mất màu ấn kính chỉ ở mức 1–2%, nhưng {{c1::<span style=\"color:#ff6b6b\"><b>diễn tiến tử vong có thể ập đến trong vòng 12–24 giờ</b></span>}} nếu không dùng kháng sinh sớm.",
+    "extra": "<b>💡 Giải thích của AI:</b> Dù tỷ lệ gặp tuyệt đối thấp, mức độ hủy diệt tối cấp của não mô cầu biện minh cho chiến lược điều trị kháng sinh cấp cứu ngay khi phát hiện tử ban.<br>📖 Nguồn: Waterfield T et al. Lancet Infect Dis 2023",
+    "tags": [
+      "PED-49",
+      "Cap-cuu",
+      "Nao-mo-cau",
+      "Nghien-cuu"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-B40",
+    "type": "basic",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "front": "Trẻ sốt kèm ban đỏ toàn thân và bong vảy da đầu ngón tay chân sau viêm họng liên cầu — làm sao phân biệt giữa <span style=\"color:#74c0fc\"><b>Bong vảy hậu liên cầu</b></span> với <span style=\"color:#74c0fc\"><b>Bệnh Kawasaki</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khác biệt về tổn thương tim:</b> Bong vảy da hậu liên cầu (sau Scarlet fever) <span style=\"color:#51cf66\"><b>hoàn toàn không bao giờ có tổn thương phình giãn động mạch vành</b></span> trên siêu âm tim.<br>2) <b>Tiêu chuẩn viêm kết mạc & môi:</b> Trẻ hậu liên cầu <span style=\"color:#ffd43b\"><b>không có</b></span> viêm kết mạc mắt đỏ không mủ và không có môi đỏ nứt nẻ rầm rộ như Kawasaki.<br>3) <b>Bằng chứng huyết thanh:</b> Trẻ hậu liên cầu có hiệu giá kháng thể <span style=\"color:#51cf66\"><b>ASLO hoặc Anti-DNase B tăng rất cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khi còn nghi ngờ chưa thể loại trừ chắc chắn Kawasaki ở trẻ bong da đầu ngón có sốt kéo dài, chỉ định siêu âm tim qua thành ngực khảo sát động mạch vành là bước kiểm tra quyết định bắt buộc.",
+    "extra": "📖 Nguồn: Bài học PED-49 (Mục 4.3 & Checkpoint phân biệt)",
+    "tags": [
+      "PED-49",
+      "Kawasaki",
+      "Lien-cau",
+      "Phan-biet"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  },
+  {
+    "id": "PED49-C40",
+    "type": "cloze",
+    "category": "Cấp cứu & Checkpoint lâm sàng",
+    "section": "SEC7",
+    "text": "[PED - Lâm sàng] Nguyên tắc dùng Oresol bù nước cho trẻ sốt phát ban là pha đúng chính xác tỷ lệ thể tích nước theo hướng dẫn, uống {{c1::<span style=\"color:#51cf66\"><b>từng thìa nhỏ hoặc từng ngụm rải rác</b></span>}} và tuyệt đối CẤM {{c1::<span style=\"color:#ff6b6b\"><b>pha thêm đường hoặc sữa vào dung dịch Oresol</b></span>}}.",
+    "extra": "<b>💡 Giải thích của AI:</b> Pha đặc hoặc thêm đường sữa làm tăng áp lực thẩm thấu dung dịch trong lòng ruột gây ỉa chảy thẩm thấu trầm trọng hơn và tăng natri máu nguy hiểm.<br>📖 Nguồn: Hướng dẫn xử trí tiêu chảy và bù nước trẻ em - Bộ Y tế & WHO",
+    "tags": [
+      "PED-49",
+      "Oresol",
+      "Cham-soc"
+    ],
+    "badge": "⚡ CẤP CỨU PHẢN VỆ & CHECKPOINT",
+    "badge_class": "badge-amber"
+  }
+]

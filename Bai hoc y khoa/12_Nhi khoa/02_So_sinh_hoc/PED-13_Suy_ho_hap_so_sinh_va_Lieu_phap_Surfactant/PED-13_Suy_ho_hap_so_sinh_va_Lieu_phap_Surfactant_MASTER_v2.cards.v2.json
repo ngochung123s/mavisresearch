@@ -1,0 +1,2474 @@
+{
+  "deck_id": 4631985485563,
+  "deck_name": "Nhi khoa Y6::PED-13: Suy hô hấp sơ sinh & Chỉ định Surfactant",
+  "card_count": 159,
+  "cards": [
+    {
+      "id": "PED13-B0-01",
+      "type": "basic",
+      "section": "B0",
+      "category": "Tổng quan",
+      "tier": 1,
+      "front": "Suy hô hấp sơ sinh quan trọng thế nào ở <span style=\"color:#74c0fc\"><b>NICU</b></span>, và <span style=\"color:#ffd43b\"><b>2 thái cực sai lầm đối lập</b></span> tại phòng sinh là gì (kèm hậu quả của từng thái cực)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Vị thế:</b></span> là nguyên nhân hàng đầu nhập NICU trong <span style=\"color:#ffd43b\"><b>24 giờ đầu</b></span> và là nguyên nhân tử vong chu sinh lớn nhất ở trẻ đẻ non.<br>2) <span style=\"color:#ff6b6b\"><b>Sai lầm 1 – Thiếu quyết đoán mở phổi:</b></span> trì hoãn <span style=\"color:#51cf66\"><b>CPAP</b></span>, cho thở oxy gọng mũi/khí trời khi đang co kéo nặng → phế nang xẹp tái diễn (<span style=\"color:#74c0fc\"><b>Atelectrauma</b></span>), kiệt cơ hoành, bỏ lỡ <span style=\"color:#ffd43b\"><b>thời điểm vàng 2–3 giờ đầu</b></span> để bơm Surfactant → cuối cùng phải thở máy xâm lấn, tử vong và tàn phế cao.<br>3) <span style=\"color:#ff6b6b\"><b>Sai lầm 2 – Thô bạo đường thở/ngộ độc oxy:</b></span> oxy 100% không kiểm soát, SpO2 <span style=\"color:#ffd43b\"><b>99–100%</b></span> kéo dài → gốc tự do ROS → <span style=\"color:#74c0fc\"><b>ROP</b></span> (mù lòa) và <span style=\"color:#74c0fc\"><b>BPD</b></span>; đặt NKQ vội, bóp bóng quá căng → rách phế nang, <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi áp lực</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ phải chuyển từ dịch ối (nhau thai trao đổi khí) sang tự thở khí trời. Hai sai lầm là hai đầu của cùng một thang: quá ít hỗ trợ thì phế nang xẹp, quá nhiều (oxy, áp lực) thì phá hủy mô non nớt. Mục tiêu của cả bài là đứng giữa: mở phổi sớm bằng CPAP nhưng kiểm soát oxy và áp lực.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B0-02",
+      "type": "basic",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Surfactant nội sinh</b></span> do tế bào nào tiết, bắt đầu tổng hợp và trưởng thành lúc <span style=\"color:#ffd43b\"><b>tuần thai nào</b></span>, gồm <span style=\"color:#ffd43b\"><b>thành phần gì</b></span> và <span style=\"color:#51cf66\"><b>chức năng sinh tồn</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do <span style=\"color:#74c0fc\"><b>tế bào biểu mô phế nang typ II</b></span> tiết ra.<br>2) Bắt đầu tổng hợp từ tuần <span style=\"color:#ffd43b\"><b>24–28</b></span>, trưởng thành quanh tuần <span style=\"color:#ffd43b\"><b>34–35</b></span>.<br>3) Thành phần: <span style=\"color:#ffd43b\"><b>80–85% phospholipid</b></span> (nổi bật là <span style=\"color:#74c0fc\"><b>DPPC</b></span>) và các protein đặc hiệu <span style=\"color:#74c0fc\"><b>SP-A, SP-B, SP-C, SP-D</b></span>.<br>4) Chức năng: <span style=\"color:#51cf66\"><b>giảm sức căng bề mặt tại mặt tiếp xúc khí – dịch về gần bằng 0 ở cuối thì thở ra</b></span>, không cho phế nang xẹp hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Sinh non đồng nghĩa với typ II chưa kịp trưởng thành, nên sức căng bề mặt không được hạ xuống: đó là gốc của bệnh màng trong. Mốc 34–35 tuần giải thích vì sao RDS tập trung ở trẻ sinh non.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B0-03",
+      "type": "basic",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>FRC</b></span> và <span style=\"color:#74c0fc\"><b>kênh ENaC</b></span>; ở trẻ sơ sinh FRC được giữ nhờ <span style=\"color:#51cf66\"><b>những yếu tố nào</b></span>, và ENaC hoạt động <span style=\"color:#ffd43b\"><b>khi nào</b></span> để làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>FRC (dung tích cặn chức năng):</b></span> thể tích khí còn lại trong phổi sau một nhịp thở ra bình thường.<br>2) FRC ở trẻ sơ sinh được duy trì chủ yếu nhờ <span style=\"color:#51cf66\"><b>Surfactant</b></span> và <span style=\"color:#51cf66\"><b>PEEP sinh lý do khép một phần thanh môn</b></span>; <span style=\"color:#ff6b6b\"><b>mất FRC = xẹp phổi và suy sụp trao đổi khí</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>ENaC (Epithelial Sodium Channel):</b></span> kênh vận chuyển Natri trên biểu mô phế nang. Trước sinh phổi tiết dịch; <span style=\"color:#ffd43b\"><b>trong chuyển dạ</b></span>, đỉnh <span style=\"color:#ffd43b\"><b>Catecholamine và Cortisol</b></span> kích hoạt ENaC đảo chiều bơm Na+, kéo nước từ lòng phế nang vào mô kẽ và tuần hoàn.<br><br><b>💡 Giải thích của AI:</b><br>FRC là 'kho khí đệm' giúp phế nang không xẹp giữa các nhịp thở; ENaC là cơ chế dọn dịch phổi khi chào đời. Một cái hỏng thì ra RDS (thiếu surfactant, mất FRC), cái kia hỏng thì ra TTN (ENaC không bật, ứ dịch).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B0-04",
+      "type": "basic",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>LISA/MIST</b></span> và <span style=\"color:#74c0fc\"><b>InSurE</b></span>: trẻ ở <span style=\"color:#ffd43b\"><b>tình trạng thở nào</b></span>, có <span style=\"color:#ff6b6b\"><b>đặt NKQ/bóp bóng</b></span> hay không, và <span style=\"color:#51cf66\"><b>quy trình</b></span> từng kỹ thuật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>LISA/MIST:</b></span> bơm Surfactant ít xâm lấn qua <span style=\"color:#51cf66\"><b>catheter mỏng luồn qua thanh môn</b></span> dưới đèn soi thanh quản khi trẻ <span style=\"color:#ffd43b\"><b>vẫn đang tự thở trên nCPAP</b></span>; <span style=\"color:#ffd43b\"><b>không đặt NKQ, không bóp bóng áp lực cao</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>InSurE:</b></span> kỹ thuật truyền thống: <span style=\"color:#ff6b6b\"><b>Đặt NKQ → Bơm Surfactant → Bóp bóng/thở máy ngắn hạn → Rút NKQ</b></span> chuyển về CPAP trong vòng <span style=\"color:#ffd43b\"><b>30–60 phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác biệt then chốt là có bóp bóng áp lực cao lên phổi chưa có surfactant hay không. LISA giữ trẻ tự thở nên tránh được chấn thương áp lực và thể tích, vì vậy là kỹ thuật được ưu tiên.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B0-05",
+      "type": "basic",
+      "section": "B0",
+      "category": "Nền tảng",
+      "tier": 2,
+      "front": "Đo <span style=\"color:#74c0fc\"><b>SpO2 Pre-ductal vs Post-ductal</b></span>: đặt sensor ở <span style=\"color:#ffd43b\"><b>đâu</b></span>, ngưỡng chênh lệch nào <span style=\"color:#ff6b6b\"><b>khẳng định</b></span> bệnh gì và máu nuôi vùng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Pre-ductal:</b></span> tay phải (nhận máu trước ống động mạch, nuôi não và tim). <span style=\"color:#74c0fc\"><b>Post-ductal:</b></span> chân hoặc tay trái (máu sau ống động mạch).<br>2) Chênh lệch <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span> khẳng định có <span style=\"color:#ff6b6b\"><b>shunt Phải – Trái qua ống động mạch (PDA)</b></span> trong <span style=\"color:#74c0fc\"><b>PPHN</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ống động mạch cắm vào động mạch chủ sau chỗ xuất phát thân cánh tay đầu nên tay phải luôn nhận máu giàu oxy hơn khi có shunt P→T. Vì vậy đo song song hai vị trí là xét nghiệm tại giường rẻ nhất để bắt PPHN.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B0-06",
+      "type": "basic",
+      "section": "B0",
+      "category": "Cờ đỏ",
+      "tier": 2,
+      "front": "Box đỏ cấp cứu hô hấp sơ sinh: <span style=\"color:#ff6b6b\"><b>6 dấu hiệu</b></span> nào, chỉ cần <span style=\"color:#ffd43b\"><b>bao nhiêu dấu hiệu</b></span> là phải kích hoạt cấp cứu ngay?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ cần <span style=\"color:#ffd43b\"><b>BẤT KỲ MỘT</b></span> dấu hiệu là kích hoạt quy trình cấp cứu suy hô hấp nguy kịch:<br>2) <span style=\"color:#ff6b6b\"><b>Thở rên liên tục nghe bằng tai trần</b></span> kèm rút lõm lồng ngực sâu.<br>3) <span style=\"color:#ff6b6b\"><b>Ngừng thở > 15–20 giây</b></span> hoặc bất kỳ cơn ngừng thở nào kèm <span style=\"color:#ffd43b\"><b>nhịp tim < 100 l/p</b></span> hoặc tím tái.<br>4) <span style=\"color:#ff6b6b\"><b>SpO2 < 80%</b></span> trơ với oxy tự do hoặc nCPAP áp lực cao.<br>5) <span style=\"color:#ff6b6b\"><b>Thở ngực bụng bập bênh nghịch thường (see-saw), đầu gật gù theo nhịp thở.</b></span><br>6) <span style=\"color:#ff6b6b\"><b>Tím tái toàn thân</b></span> không đáp ứng với thông khí.<br>7) <span style=\"color:#ff6b6b\"><b>Trương lực cơ nhão, da tái xám nổi vân tím, CRT > 3 giây</b></span> (suy sụp tuần hoàn phối hợp).<br><br><b>💡 Giải thích của AI:</b><br>Các dấu hiệu này đều là biểu hiện của kiệt sức cơ hô hấp hoặc trao đổi khí thất bại. Quy tắc 'bất kỳ một' nhằm không bao giờ chờ đủ bộ triệu chứng ở trẻ sơ sinh vì diễn tiến rất nhanh.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1 (Box đỏ)",
+      "tags": [
+        "PED-13",
+        "B0"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-01",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 1,
+      "front": "Hơn <span style=\"color:#ffd43b\"><b>90%</b></span> ca suy hô hấp sơ sinh trong 24 giờ đầu thuộc <span style=\"color:#74c0fc\"><b>4 hội chứng nào</b></span> (tên viết tắt) và <span style=\"color:#ff6b6b\"><b>bản chất bệnh lý</b></span> mỗi bệnh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>RDS (bệnh màng trong):</b></span> thiếu hụt Surfactant nguyên phát ở trẻ sinh non.<br>2) <span style=\"color:#74c0fc\"><b>TTN (thở nhanh thoáng qua):</b></span> chậm hấp thu dịch phế nang (phổi ướt), hay gặp ở trẻ mổ đẻ chủ động chưa chuyển dạ.<br>3) <span style=\"color:#74c0fc\"><b>MAS (hít phân su):</b></span> trẻ già tháng/ngạt chu sinh hít ối phân su → tắc cơ học van một chiều + viêm phổi hóa học + bất hoạt Surfactant thứ phát.<br>4) <span style=\"color:#74c0fc\"><b>PPHN (tăng áp động mạch phổi tồn tại):</b></span> sức cản mạch phổi không giảm sau sinh → shunt Phải – Trái qua PDA và PFO → hạ oxy máu trơ.<br><br><b>💡 Giải thích của AI:</b><br>Bốn bệnh chia nhau theo bốn cơ chế khác nhau: thiếu chất (RDS), ứ dịch (TTN), tắc nghẽn và độc chất (MAS), huyết động (PPHN). Xếp đúng cơ chế là bước đầu tiên để chọn đúng điều trị.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1 (1.1–1.4)",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-02",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 2,
+      "front": "Hồ sơ <span style=\"color:#74c0fc\"><b>RDS (bệnh màng trong)</b></span>: <span style=\"color:#ffd43b\"><b>tuổi thai</b></span>, <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span>, <span style=\"color:#ffd43b\"><b>thời điểm khởi phát</b></span>, <span style=\"color:#ff6b6b\"><b>biểu hiện lâm sàng</b></span>, <span style=\"color:#74c0fc\"><b>X-quang</b></span>, <span style=\"color:#ffd43b\"><b>diễn tiến tự nhiên</b></span> và <span style=\"color:#51cf66\"><b>điều trị cốt lõi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuổi thai: sinh non <span style=\"color:#ffd43b\"><b>< 34 tuần</b></span> (đặc biệt <span style=\"color:#ffd43b\"><b>< 30–32 tuần</b></span>).<br>2) Nguy cơ: mẹ chưa tiêm đủ Corticoid, đái tháo đường thai kỳ, ngạt.<br>3) Khởi phát: ngay sau sinh hoặc trong <span style=\"color:#ffd43b\"><b>2–4 giờ đầu</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Lâm sàng: thở rên sớm, co kéo ngực sâu, tím tái, nặng dần.</b></span><br>5) X-quang: <span style=\"color:#74c0fc\"><b>lưới hạt phế nang mịn, phế quản khí hạt lan tỏa, phổi trắng xóa</b></span>.<br>6) Diễn tiến: nặng nhất ở <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>; suy sụp nếu không bơm Surfactant.<br>7) Điều trị: <span style=\"color:#51cf66\"><b>nCPAP sớm (PEEP 6–8) + bơm Surfactant sớm (LISA/MIST)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mọi dòng của hồ sơ đều quay về thiếu Surfactant ở phổi chưa trưởng thành: càng non, càng thiếu corticoid, càng nặng. Vì bệnh nặng dần nên 'chờ xem' là sai, điều trị phải đặt trước khi suy sụp.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 (bảng đối chiếu)",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-03",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 2,
+      "front": "Hồ sơ <span style=\"color:#74c0fc\"><b>TTN (thở nhanh thoáng qua)</b></span>: <span style=\"color:#ffd43b\"><b>tuổi thai</b></span>, <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span>, <span style=\"color:#ffd43b\"><b>khởi phát</b></span>, <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span>, <span style=\"color:#74c0fc\"><b>X-quang</b></span>, <span style=\"color:#ffd43b\"><b>diễn tiến</b></span> và <span style=\"color:#51cf66\"><b>điều trị</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuổi thai: đủ tháng hoặc non muộn <span style=\"color:#ffd43b\"><b>34–38 tuần</b></span>.<br>2) Nguy cơ: <span style=\"color:#ff6b6b\"><b>mổ đẻ chủ động chưa chuyển dạ</b></span>, chuyển dạ quá nhanh, mẹ dùng quá nhiều dịch truyền.<br>3) Khởi phát: ngay sau sinh hoặc trong <span style=\"color:#ffd43b\"><b>1–2 giờ đầu</b></span>.<br>4) Lâm sàng: <span style=\"color:#ffd43b\"><b>thở nhanh nông 60–100 l/p</b></span>, tương đối tươi tỉnh, ít khi thở rên nặng.<br>5) X-quang: <span style=\"color:#74c0fc\"><b>ứ dịch/dày rãnh liên thùy, rốn phổi tỏa tia, ứ khí nhẹ 2 đáy</b></span>.<br>6) Diễn tiến: thuyên giảm nhanh sau <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> khi dịch được hấp thu hết.<br>7) Điều trị: <span style=\"color:#51cf66\"><b>oxy cannula / nCPAP nhẹ (PEEP 4–5), chăm sóc hỗ trợ</b></span>; <span style=\"color:#ff6b6b\"><b>không dùng lợi tiểu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>TTN là vấn đề 'dịch chưa dọn kịp' chứ không phải thiếu surfactant, nên trẻ vẫn tươi và tự khỏi. Điều trị chỉ cần hỗ trợ nhẹ và chờ; thuốc can thiệp (lợi tiểu, kháng sinh) không rút ngắn bệnh.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 (bảng đối chiếu)",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-04",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 2,
+      "front": "Hồ sơ <span style=\"color:#74c0fc\"><b>MAS (hít phân su)</b></span>: <span style=\"color:#ff6b6b\"><b>bản chất bệnh lý</b></span>, <span style=\"color:#ffd43b\"><b>tuổi thai</b></span>, <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span>, <span style=\"color:#ffd43b\"><b>khởi phát</b></span>, <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span>, <span style=\"color:#74c0fc\"><b>X-quang</b></span>, <span style=\"color:#74c0fc\"><b>chênh SpO2 Pre/Post</b></span> và <span style=\"color:#51cf66\"><b>điều trị cốt lõi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bản chất: <span style=\"color:#ff6b6b\"><b>tắc cơ học + viêm hóa học + bất hoạt Surfactant thứ phát</b></span>.<br>2) Tuổi thai: đủ tháng hoặc già tháng <span style=\"color:#ffd43b\"><b>> 40–41 tuần</b></span>.<br>3) Nguy cơ: suy thai trong tử cung, nước ối nhuộm phân su đặc sệt, ngạt chu sinh.<br>4) Khởi phát: ngay sau sinh.<br>5) <span style=\"color:#ff6b6b\"><b>Lâm sàng: thở co kéo dữ dội, lồng ngực phồng hình thùng, móng tay/da nhuộm vàng.</b></span><br>6) X-quang: <span style=\"color:#74c0fc\"><b>thâm nhiễm dạng mảng thô loang lổ xen kẽ vùng ứ khí phế nang</b></span>.<br>7) Chênh SpO2 Pre/Post: có thể chênh nếu có PPHN thứ phát đi kèm.<br>8) Điều trị: <span style=\"color:#51cf66\"><b>thông khí bảo vệ phổi (HFOV) + rửa/bơm Surfactant + hút phân su</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>MAS cho vừa vùng xẹp (tắc) vừa vùng ứ khí (van một chiều) nên cần thông khí bảo vệ phổi, tránh áp lực đỉnh cao. Phân su còn bất hoạt surfactant sẵn có nên phải bù surfactant.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 (bảng đối chiếu)",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-05",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 2,
+      "front": "Hồ sơ <span style=\"color:#74c0fc\"><b>PPHN</b></span>: <span style=\"color:#ff6b6b\"><b>bản chất bệnh lý</b></span>, <span style=\"color:#ffd43b\"><b>tuổi thai</b></span>, <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span>, <span style=\"color:#ffd43b\"><b>khởi phát</b></span>, <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span>, <span style=\"color:#74c0fc\"><b>X-quang</b></span>, <span style=\"color:#ffd43b\"><b>chênh SpO2</b></span> và <span style=\"color:#51cf66\"><b>điều trị cốt lõi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bản chất: <span style=\"color:#ff6b6b\"><b>co thắt tiểu động mạch phổi duy trì shunt Phải – Trái qua PDA và PFO</b></span>.<br>2) Tuổi thai: đủ tháng, già tháng hoặc non tháng (thứ phát sau MAS).<br>3) Nguy cơ: ngạt chu sinh, nhiễm GBS, MAS, RDS, thoát vị hoành bẩm sinh, mẹ dùng NSAID sớm.<br>4) Khởi phát: ngay sau sinh hoặc trong <span style=\"color:#ffd43b\"><b>12–24 giờ đầu đời</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Lâm sàng: tím tái toàn thân dữ dội, SpO2 dao động rất mạnh khi kích thích, trơ với oxy.</b></span><br>6) X-quang: <span style=\"color:#74c0fc\"><b>phế trường sáng bất thường do thiếu máu tưới phổi</b></span> (hoặc hình ảnh bệnh nhu mô nền).<br>7) Chênh SpO2 Pre/Post: <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span> (SpO2 tay phải > chân).<br>8) Điều trị: <span style=\"color:#51cf66\"><b>khí Nitric Oxide hít (iNO 20 ppm) + thuốc vận mạch ổn định huyết áp hệ thống</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>PPHN là bệnh huyết động chứ không đơn thuần là bệnh nhu mô: oxy cao không sửa được shunt ngoài phổi. Vì thế cần giãn mạch phổi chọn lọc (iNO) và giữ huyết áp hệ thống cao hơn áp lực phổi.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 (bảng đối chiếu)",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-06",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "tier": 2,
+      "front": "Phân biệt nhanh <span style=\"color:#74c0fc\"><b>RDS và TTN</b></span> ở <span style=\"color:#ffd43b\"><b>trẻ có thở rên</b></span> hay <span style=\"color:#ffd43b\"><b>trẻ thở nhanh nhưng tươi</b></span>: <span style=\"color:#ff6b6b\"><b>2 manh mối lâm sàng</b></span> chính và <span style=\"color:#51cf66\"><b>hướng xử trí khác nhau</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>RDS:</b></span> non tháng, <span style=\"color:#ff6b6b\"><b>thở rên liên tục, co kéo hõm ức sâu</b></span>, X-quang lưới hạt + phế quản khí hạt → <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 + chuẩn bị Surfactant sớm bằng LISA</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>TTN:</b></span> đủ tháng/mổ chủ động, <span style=\"color:#ffd43b\"><b>thở nhanh nông, không thở rên</b></span>, X-quang ứ dịch rãnh liên thùy → <span style=\"color:#51cf66\"><b>oxy cannula hoặc nCPAP nhẹ PEEP 4–5</b></span>, theo dõi; <span style=\"color:#ff6b6b\"><b>không kháng sinh, không lợi tiểu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thở rên là phản xạ tự tạo PEEP của phế nang đang xẹp (RDS); trẻ TTN không thiếu surfactant nên không cần surfactant. Phân biệt sai đưa đến một trong hai lỗi: bơm surfactant thừa hoặc bỏ lỡ surfactant cần thiết.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 và Checkpoint 1",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-07",
+      "type": "basic",
+      "section": "B1",
+      "category": "Bộ tứ ⚡",
+      "tier": 1,
+      "front": "Bộ giải mã nhanh: một trẻ sơ sinh suy hô hấp, <span style=\"color:#ff6b6b\"><b>gặp manh mối nào</b></span> thì nghĩ <span style=\"color:#74c0fc\"><b>RDS / TTN / MAS / PPHN</b></span> và <span style=\"color:#51cf66\"><b>hành động đầu tiên</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>RDS:</b></span> sinh non < 34 tuần + <span style=\"color:#ff6b6b\"><b>thở rên sớm</b></span> → <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 + Surfactant sớm (LISA)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>TTN:</b></span> mổ đẻ chủ động, thở nhanh nông, tươi, <span style=\"color:#ffd43b\"><b>không rên</b></span> → <span style=\"color:#51cf66\"><b>oxy nhẹ/nCPAP 4–5, không lợi tiểu, không kháng sinh</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>MAS:</b></span> già tháng + ối phân su đặc + <span style=\"color:#ff6b6b\"><b>lồng ngực phồng hình thùng</b></span> → <span style=\"color:#51cf66\"><b>HFOV + bơm/rửa Surfactant + đo SpO2 Pre/Post</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>PPHN:</b></span> tím trơ với oxy + <span style=\"color:#ffd43b\"><b>chênh SpO2 ≥ 5–10%</b></span> → <span style=\"color:#51cf66\"><b>iNO 20 ppm + vận mạch nâng huyết áp hệ thống</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cần một manh mối hàng đầu cho mỗi bệnh là đủ để định hướng ban đầu tại giường: tuổi thai + cách sinh + tính chất tiếng thở + chênh SpO2. Sau định hướng mới đến X-quang và các kỹ thuật chuyên sâu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 và mục 6",
+      "tags": [
+        "PED-13",
+        "B1"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED13-B2-01",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế",
+      "tier": 1,
+      "front": "Bốn chuỗi nhân quả sinh lý bệnh của <span style=\"color:#74c0fc\"><b>RDS, TTN, MAS, PPHN</b></span>: <span style=\"color:#ff6b6b\"><b>khởi điểm</b></span> và <span style=\"color:#51cf66\"><b>quyết định lâm sàng cuối chuỗi</b></span> của từng chuỗi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuỗi 1 <span style=\"color:#74c0fc\"><b>RDS:</b></span> thiếu Surfactant → Định luật Laplace → xẹp phổi → <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 + Surfactant sớm qua LISA</b></span>.<br>2) Chuỗi 2 <span style=\"color:#74c0fc\"><b>TTN:</b></span> mổ đẻ không chuyển dạ → thiếu đỉnh Catecholamine → ENaC không bật → ứ dịch → <span style=\"color:#51cf66\"><b>oxy/nCPAP nhẹ 4–5, cấm lợi tiểu và kháng sinh</b></span>.<br>3) Chuỗi 3 <span style=\"color:#74c0fc\"><b>MAS:</b></span> ngạt chu sinh → tắc cơ học van một chiều + bất hoạt Surfactant thứ phát → <span style=\"color:#51cf66\"><b>HFOV + bơm bù/rửa Surfactant + sẵn sàng iNO</b></span>.<br>4) Chuỗi 4 <span style=\"color:#74c0fc\"><b>PPHN:</b></span> thiếu oxy + toan máu → co thắt tiểu động mạch phổi → shunt Phải – Trái → <span style=\"color:#51cf66\"><b>iNO 20 ppm + vận mạch nâng SVR</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chuỗi có 5 tầng: phân tử/tế bào → vật lý/cơ học → huyết động/khí máu → mô học/lâm sàng → quyết định. Học theo chuỗi giúp suy ra điều trị từ cơ chế thay vì học thuộc lòng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2 (4 chuỗi nhân quả)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-02",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế RDS",
+      "tier": 2,
+      "front": "Chuỗi 1 (RDS) ở tầng phân tử và vật lý: <span style=\"color:#ff6b6b\"><b>khiếm khuyết nào</b></span> ở tế bào typ II, <span style=\"color:#74c0fc\"><b>Định luật Laplace</b></span> viết thế nào và <span style=\"color:#ffd43b\"><b>vì sao phế nang nhỏ xẹp trước</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 1:</b></span> sinh non <span style=\"color:#ffd43b\"><b>< 34 tuần</b></span>, tế bào typ II chưa biệt hóa, enzyme tổng hợp phospholipid khiếm khuyết → <span style=\"color:#ff6b6b\"><b>thiếu DPPC và SP-B, SP-C</b></span> trong dịch lót phế nang.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 2 – Laplace:</b></span> <span style=\"color:#ffd43b\"><b>P = 2T/r</b></span> (P: áp lực xẹp, T: sức căng bề mặt khí – dịch, r: bán kính phế nang).<br>3) Bình thường Surfactant giảm T về gần 0 cuối thì thở ra; khi thiếu, <span style=\"color:#ff6b6b\"><b>T luôn cao</b></span> nên ở phế nang nhỏ (r nhỏ) áp lực xẹp P <span style=\"color:#ff6b6b\"><b>tăng vọt gấp nhiều lần</b></span>, đẩy khí sang phế nang lớn lân cận và gây xẹp hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>P tỷ lệ thuận với T và tỷ lệ nghịch với r, nên phế nang càng nhỏ càng dễ bị 'bóp' xẹp khi T cao. Surfactant giải bài toán bằng cách hạ T đúng lúc r nhỏ nhất.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 1 (tầng 1–2)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-03",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế RDS",
+      "tier": 2,
+      "front": "Chuỗi 1 (RDS) tầng 3–5: <span style=\"color:#ff6b6b\"><b>rối loạn cơ học phổi và khí máu</b></span>, <span style=\"color:#74c0fc\"><b>màng Hyaline</b></span> hình thành thế nào, và <span style=\"color:#51cf66\"><b>quyết định lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 3:</b></span> xẹp lan tỏa → <span style=\"color:#ff6b6b\"><b>FRC tụt, độ giãn nở phổi (C_L) giảm (phổi cứng)</b></span>; máu qua phế nang xẹp tạo <span style=\"color:#ff6b6b\"><b>shunt trong phổi V_A/Q = 0</b></span> → hạ oxy máu động mạch và toan hô hấp ứ CO2.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 4:</b></span> thiếu oxy + căng giãn bất thường → hoại tử biểu mô, tăng tính thấm mao mạch → <span style=\"color:#ffd43b\"><b>huyết tương giàu fibrin + mảnh vụn tế bào</b></span> lắng thành <span style=\"color:#74c0fc\"><b>màng Hyaline</b></span> ngăn khuếch tán oxy.<br>3) <span style=\"color:#74c0fc\"><b>Tầng 5:</b></span> <span style=\"color:#51cf66\"><b>thiết lập ngay nCPAP PEEP 6–8 cmH2O</b></span> giữ mở phế nang và <span style=\"color:#51cf66\"><b>bơm Surfactant ngoại sinh sớm (LISA)</b></span> để ngăn hình thành màng Hyaline.<br><br><b>💡 Giải thích của AI:</b><br>CPAP giải quyết cơ học (giữ phế nang mở), Surfactant giải quyết căn nguyên (hạ sức căng bề mặt); phải làm sớm vì khi màng Hyaline đã hình thành thì khuếch tán oxy bị chặn.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 1 (tầng 3–5)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-04",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế TTN",
+      "tier": 2,
+      "front": "Chuỗi 2 (TTN) tầng 1–3: <span style=\"color:#ff6b6b\"><b>hormone nào</b></span> trong chuyển dạ kích hoạt <span style=\"color:#74c0fc\"><b>ENaC</b></span> qua con đường nào, và <span style=\"color:#ff6b6b\"><b>vì sao mổ đẻ chủ động</b></span> gây ứ dịch (<span style=\"color:#ffd43b\"><b>lượng dịch bao nhiêu</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 1:</b></span> cơn co chuyển dạ kích thích tủy thượng thận thai và mẹ phóng thích <span style=\"color:#ffd43b\"><b>Catecholamine (Epinephrine) và Cortisol</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 2:</b></span> Epinephrine gắn thụ thể <span style=\"color:#74c0fc\"><b>beta-2</b></span> → con đường <span style=\"color:#74c0fc\"><b>cAMP</b></span> → kích hoạt <span style=\"color:#74c0fc\"><b>ENaC</b></span> ở cực đỉnh và bơm <span style=\"color:#74c0fc\"><b>Na+/K+ ATPase</b></span> ở cực đáy → tế bào chuyển từ tiết dịch sang <span style=\"color:#ff6b6b\"><b>hấp thu ồ ạt Na+ từ lòng phế nang vào mô kẽ</b></span>, kéo nước theo.<br>3) <span style=\"color:#74c0fc\"><b>Tầng 3:</b></span> mổ chủ động khi chưa chuyển dạ → <span style=\"color:#ff6b6b\"><b>vắng đỉnh Catecholamine</b></span>, ENaC không bật đủ, lồng ngực không được ép qua ống đẻ (vốn tống <span style=\"color:#ffd43b\"><b>20–30 mL</b></span> dịch) → dịch phế nang (<span style=\"color:#ffd43b\"><b>khoảng 30 mL/kg</b></span>) ứ lại trong phế nang và mô kẽ.<br><br><b>💡 Giải thích của AI:</b><br>Chuyển dạ vừa 'bật công tắc' ENaC bằng hormone vừa 'vắt' dịch bằng ép cơ học; mổ chủ động mất cả hai lợi thế, nên dịch phổi thai nhi chưa kịp thoát.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 2 (tầng 1–3)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-05",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế TTN",
+      "tier": 2,
+      "front": "Chuỗi 2 (TTN) tầng 4–5: <span style=\"color:#74c0fc\"><b>thụ thể nào</b></span> làm trẻ thở nhanh, <span style=\"color:#ffd43b\"><b>tần số thở</b></span> bao nhiêu và <span style=\"color:#51cf66\"><b>quyết định xử trí</b></span> cùng <span style=\"color:#ffd43b\"><b>thời gian tự khỏi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 4:</b></span> dịch ứ mô kẽ giảm độ giãn nở và kích thích <span style=\"color:#74c0fc\"><b>thụ thể J (juxtacapillary)</b></span> ở thành phế nang → phản xạ tăng tần số thở; trẻ bù trừ bằng <span style=\"color:#ffd43b\"><b>thở rất nhanh nông 60–100 l/p</b></span> để giữ thông khí phút mà ít tốn cơ lực co kéo.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 5:</b></span> trẻ mổ đẻ thở nhanh, ít co kéo, SpO2 tốt trên oxy liều thấp → <span style=\"color:#ff6b6b\"><b>KHÔNG kê kháng sinh, KHÔNG dùng lợi tiểu</b></span>; chỉ <span style=\"color:#51cf66\"><b>oxy cannula hoặc nCPAP nhẹ PEEP 4–5</b></span> để đẩy dịch vào mô kẽ cho bạch huyết hấp thu trong <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dịch nằm trong phế nang và mô kẽ, không phải ứ dịch do suy tim, nên lợi tiểu vô tác dụng; và đây không phải nhiễm trùng nên kháng sinh vô tác dụng. Áp lực khí nhẹ chỉ giúp dịch di chuyển nhanh sang nơi hấp thu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 2 (tầng 4–5)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-06",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế MAS",
+      "tier": 2,
+      "front": "Chuỗi 3 (MAS) tầng 1–2: <span style=\"color:#ff6b6b\"><b>vì sao thai già tháng/suy thai tống phân su</b></span>, <span style=\"color:#74c0fc\"><b>nhịp thở nào</b></span> hít phân su vào phổi, <span style=\"color:#74c0fc\"><b>cơ chế van một chiều</b></span> hoạt động ra sao và <span style=\"color:#ffd43b\"><b>tỷ lệ tràn khí</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 1:</b></span> suy thai hoặc thiếu oxy mạn (hay gặp thai <span style=\"color:#ffd43b\"><b>> 41 tuần</b></span> hoặc suy dinh dưỡng bào thai) kích thích cường phó giao cảm → tăng nhu động ruột, giãn cơ thắt hậu môn → tống phân su vào ối; toan máu kích thích trung tâm hô hấp gây <span style=\"color:#74c0fc\"><b>nhịp thở ngáp sâu (gasping)</b></span> → hít ối lẫn phân su đặc vào khí phế quản.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 2:</b></span> mảnh phân su bít tiểu phế quản; thì hít vào phế quản giãn cho khí lách qua, thì thở ra phế quản co ép vào nút phân su → <span style=\"color:#74c0fc\"><b>van một chiều (Ball-valve)</b></span> → bẫy khí, ứ khí phế nang, khí phế thũng; nguy cơ <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi 15–20%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khí vào được mà không ra được nên phổi phồng quá mức ở vùng ứ khí và vỡ phế nang. Đó là lý do MAS nhạy cảm với áp lực đỉnh cao và cần thông khí bảo vệ phổi.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 3 (tầng 1–2)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-07",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế MAS",
+      "tier": 2,
+      "front": "Chuỗi 3 (MAS) tầng 3–5: <span style=\"color:#ff6b6b\"><b>chất nào trong phân su</b></span> gây viêm và <span style=\"color:#74c0fc\"><b>bất hoạt Surfactant thứ phát</b></span> bằng <span style=\"color:#ff6b6b\"><b>cách nào</b></span>, <span style=\"color:#ffd43b\"><b>PPHN thứ phát</b></span> gặp bao nhiêu % và <span style=\"color:#51cf66\"><b>quyết định xử trí</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 3:</b></span> <span style=\"color:#ff6b6b\"><b>muối mật, enzyme tụy, bilirubin, acid béo tự do</b></span> là độc chất → viêm hoại tử mô phế quản (<span style=\"color:#74c0fc\"><b>chemical pneumonitis</b></span>), đại thực bào giải phóng <span style=\"color:#74c0fc\"><b>TNF-alpha, IL-1beta</b></span>; acid mật trực tiếp phân giải <span style=\"color:#74c0fc\"><b>DPPC và SP-B/SP-C</b></span> → bất hoạt Surfactant thứ phát toàn bộ.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 4:</b></span> xẹp (tắc hoàn toàn) xen ứ khí → bất tương xứng <span style=\"color:#ff6b6b\"><b>V_A/Q trầm trọng</b></span>; thiếu oxy phế nang co thắt tiểu động mạch phổi → <span style=\"color:#ff6b6b\"><b>PPHN thứ phát ở 15–20% trẻ MAS</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Tầng 5:</b></span> thở co kéo dữ dội, ngực phồng hình thùng, SpO2 tụt sâu → <span style=\"color:#51cf66\"><b>HFOV (tránh áp lực đỉnh cao), bơm bù Surfactant liều cao hoặc rửa bằng surfactant loãng, sẵn sàng phối hợp iNO</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>MAS gây hại ba lớp: cơ học (tắc), hóa học (viêm), hóa sinh (phân giải surfactant). Điều trị tương ứng: HFOV cho lớp cơ học, bù surfactant cho lớp hóa sinh, iNO phòng/điều trị biến chứng co mạch phổi.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 3 (tầng 3–5)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-08",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế PPHN",
+      "tier": 2,
+      "front": "Chuỗi 4 (PPHN) tầng 1–3: <span style=\"color:#ffd43b\"><b>ngưỡng pH và PaO2</b></span> khởi phát, <span style=\"color:#ff6b6b\"><b>chất giãn mạch bị ức chế</b></span> và <span style=\"color:#ff6b6b\"><b>chất co mạch tăng</b></span> là gì, <span style=\"color:#74c0fc\"><b>huyết động</b></span> thay đổi ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 1:</b></span> ngạt nặng, toan (<span style=\"color:#ffd43b\"><b>pH < 7.20</b></span>) và thiếu oxy phế nang trầm trọng (<span style=\"color:#ffd43b\"><b>PaO2 < 45–50 mmHg</b></span>) do MAS, RDS hoặc thoát vị hoành.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 2:</b></span> thiếu oxy <span style=\"color:#ff6b6b\"><b>ức chế eNOS</b></span> ở nội mô mạch phổi → giảm cGMP nội bào của cơ trơn; đồng thời <span style=\"color:#ff6b6b\"><b>Endothelin-1 và Thromboxane A2 tăng vọt</b></span> (co mạch cực mạnh).<br>3) <span style=\"color:#74c0fc\"><b>Tầng 3:</b></span> tiểu động mạch phổi co thắt tối đa → <span style=\"color:#ff6b6b\"><b>PVR vượt SVR</b></span>; áp lực thất phải và nhĩ phải tăng, vượt áp lực tim trái.<br><br><b>💡 Giải thích của AI:</b><br>Chu trình tự duy trì: thiếu oxy gây co mạch phổi, co mạch phổi lại làm phổi thiếu máu và trẻ càng thiếu oxy. Cắt vòng xoắn này là mục tiêu của iNO.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 4 (tầng 1–3)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-09",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế PPHN",
+      "tier": 2,
+      "front": "Chuỗi 4 (PPHN) tầng 4–5: máu đi qua <span style=\"color:#74c0fc\"><b>2 lỗ thông bào thai nào</b></span>, <span style=\"color:#ff6b6b\"><b>vì sao tay phải có SpO2 cao hơn chân</b></span>, ngưỡng chênh bao nhiêu và <span style=\"color:#51cf66\"><b>quyết định điều trị</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tầng 4:</b></span> máu tĩnh mạch nghèo oxy bị đẩy từ phải sang trái qua <span style=\"color:#74c0fc\"><b>lỗ bầu dục (PFO)</b></span> ở tầng nhĩ và <span style=\"color:#74c0fc\"><b>ống động mạch (PDA)</b></span> ở tầng động mạch chủ, đi thẳng xuống động mạch chủ xuống mà không qua mao mạch phổi.<br>2) <span style=\"color:#74c0fc\"><b>Tầng 5:</b></span> PDA cắm vào ĐMC <span style=\"color:#ffd43b\"><b>sau</b></span> chỗ phân nhánh thân cánh tay đầu (nuôi tay phải) → tay phải nhận máu giàu oxy hơn chân → <span style=\"color:#ffd43b\"><b>chênh SpO2 ≥ 5–10%</b></span> kèm hạ oxy máu trơ.<br>3) Quyết định: <span style=\"color:#51cf66\"><b>khí Nitric Oxide hít (iNO 20 ppm)</b></span> giãn mạch phổi chọn lọc + <span style=\"color:#51cf66\"><b>thuốc vận mạch nâng huyết áp hệ thống</b></span> để đảo chiều dòng shunt.<br><br><b>💡 Giải thích của AI:</b><br>Vị trí cắm của PDA tạo ra 'cửa sổ' đo: tay phải phản ánh máu trước ống, chân phản ánh máu đã pha trộn. Nâng SVR trên PVR làm shunt đổi chiều nên vận mạch quan trọng ngang iNO.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 4 (tầng 4–5)",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B2-10",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cơ chế",
+      "tier": 2,
+      "front": "Sơ đồ nhân quả một dòng của <span style=\"color:#74c0fc\"><b>RDS</b></span>: <span style=\"color:#ff6b6b\"><b>sinh non → ?</b></span> <span style=\"color:#51cf66\"><b>→ chỉ định nào</b></span>, và <span style=\"color:#74c0fc\"><b>Surfactant</b></span> tác động vào <span style=\"color:#ffd43b\"><b>mắt xích nào</b></span> của Laplace?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sinh non < 34 tuần</b></span> → tế bào typ II thiếu DPPC/Surfactant.<br>2) → <span style=\"color:#ffd43b\"><b>T tăng</b></span> → áp lực xẹp <span style=\"color:#ffd43b\"><b>P = 2T/r</b></span> tăng vọt ở phế nang nhỏ.<br>3) → xẹp lan tỏa cuối thở ra → <span style=\"color:#ff6b6b\"><b>mất FRC, shunt V_A/Q = 0</b></span>.<br>4) → thiếu oxy + thoát fibrin → <span style=\"color:#74c0fc\"><b>màng Hyaline</b></span>.<br>5) → <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 cmH2O giữ mở phế nang + Surfactant sớm qua LISA</b></span>: Surfactant tác động vào <span style=\"color:#ffd43b\"><b>T</b></span> (hạ sức căng bề mặt).<br><br><b>💡 Giải thích của AI:</b><br>CPAP không sửa được T mà chỉ bù bằng áp lực; chỉ Surfactant ngoại sinh mới hạ T trở lại. Hiểu điều này giải thích vì sao hai biện pháp được dùng phối hợp thay vì thay thế nhau.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, sơ đồ Chuỗi 1",
+      "tags": [
+        "PED-13",
+        "B2"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-01",
+      "type": "basic",
+      "section": "B3",
+      "category": "Cận lâm sàng",
+      "tier": 1,
+      "front": "Bốn công cụ <span style=\"color:#74c0fc\"><b>lượng hóa và chẩn đoán</b></span> suy hô hấp sơ sinh tại giường là gì, mỗi công cụ <span style=\"color:#51cf66\"><b>trả lời câu hỏi nào</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thang điểm Silverman-Andersen (0–10):</b></span> lượng hóa công thở, quyết định mức hỗ trợ.<br>2) <span style=\"color:#74c0fc\"><b>X-quang ngực thẳng (RDS 4 độ):</b></span> xác định chẩn đoán và phân độ nặng của RDS.<br>3) <span style=\"color:#74c0fc\"><b>SpO2 Pre-ductal vs Post-ductal:</b></span> phát hiện shunt Phải – Trái qua PDA (PPHN).<br>4) <span style=\"color:#74c0fc\"><b>Nghiệm pháp oxy 100% (Hyperoxia test):</b></span> phân biệt bệnh nhu mô phổi với tim bẩm sinh tím hoặc PPHN cực nặng.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi công cụ trả lời một câu hỏi khác nhau: nặng đến đâu, bệnh nhu mô nào, có shunt ngoài phổi không, có phải bệnh tim không. Dùng đúng thứ tự giúp không bỏ sót chẩn đoán phân biệt nguy hiểm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-02",
+      "type": "basic",
+      "section": "B3",
+      "category": "Silverman",
+      "tier": 1,
+      "front": "Thang điểm <span style=\"color:#74c0fc\"><b>Silverman-Andersen</b></span> gồm <span style=\"color:#ffd43b\"><b>mấy tiêu chí</b></span>, <span style=\"color:#ffd43b\"><b>tổng điểm tối đa</b></span> bao nhiêu và <span style=\"color:#ff6b6b\"><b>điểm càng cao nghĩa là gì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>5 tiêu chí</b></span>, mỗi tiêu chí <span style=\"color:#ffd43b\"><b>0–1–2 điểm</b></span>, tổng <span style=\"color:#ffd43b\"><b>0–10 điểm</b></span>.<br>2) Năm tiêu chí: <span style=\"color:#74c0fc\"><b>di động ngực – bụng; co kéo cơ liên sườn; rút lõm hõm ức; phập phồng cánh mũi; tiếng thở rên (grunting)</b></span>.<br>3) Điểm càng cao thì công thở càng nặng; là công cụ khách quan và nhạy nhất để lượng hóa suy hô hấp ở trẻ sơ sinh.<br><br><b>💡 Giải thích của AI:</b><br>Khác với trẻ lớn (chỉ dựa nhịp thở), trẻ sơ sinh biểu hiện công thở qua nhiều dấu hiệu cơ học nên cần thang nhiều tiêu chí. Điểm tổng cho phép ra quyết định hỗ trợ hô hấp theo ngưỡng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-03",
+      "type": "basic",
+      "section": "B3",
+      "category": "Silverman",
+      "tier": 2,
+      "front": "Chấm Silverman <span style=\"color:#ffd43b\"><b>0/1/2 điểm</b></span> cho <span style=\"color:#74c0fc\"><b>3 tiêu chí</b></span>: <span style=\"color:#ff6b6b\"><b>di động ngực – bụng</b></span>, <span style=\"color:#ff6b6b\"><b>co kéo liên sườn</b></span>, <span style=\"color:#ff6b6b\"><b>rút lõm hõm ức</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Di động ngực – bụng:</b></span> 0 = nở đều nhịp nhàng; 1 = ngực kém giãn nở khi bụng phình; 2 = <span style=\"color:#ff6b6b\"><b>bập bênh nghịch thường</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Co kéo liên sườn:</b></span> 0 = không; 1 = kín đáo ở kẽ sườn dưới; 2 = <span style=\"color:#ff6b6b\"><b>rất sâu</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Rút lõm hõm ức:</b></span> 0 = không; 1 = nhẹ, kín đáo; 2 = <span style=\"color:#ff6b6b\"><b>rất sâu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Điểm 2 luôn mô tả dạng nặng nhất của cùng một dấu hiệu: càng phải dùng cơ hô hấp phụ, càng gần kiệt sức cơ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1 (bảng Silverman)",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-04",
+      "type": "basic",
+      "section": "B3",
+      "category": "Silverman",
+      "tier": 2,
+      "front": "Chấm Silverman <span style=\"color:#ffd43b\"><b>0/1/2 điểm</b></span> cho <span style=\"color:#74c0fc\"><b>2 tiêu chí còn lại</b></span>: <span style=\"color:#ff6b6b\"><b>phập phồng cánh mũi</b></span> và <span style=\"color:#ff6b6b\"><b>tiếng thở rên</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Phập phồng cánh mũi:</b></span> 0 = nằm yên; 1 = phập phồng nhẹ, không liên tục; 2 = <span style=\"color:#ff6b6b\"><b>nở rộng liên tục</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Tiếng thở rên (Grunting):</b></span> 0 = không; 1 = <span style=\"color:#ffd43b\"><b>nghe qua ống nghe</b></span>; 2 = <span style=\"color:#ff6b6b\"><b>nghe rõ bằng TAI TRẦN</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thở rên là phản xạ tự tạo PEEP bằng cách khép một phần thanh môn: nghe được bằng tai trần là dấu hiệu phế nang đang xẹp rõ rệt.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1 (bảng Silverman)",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-05",
+      "type": "basic",
+      "section": "B3",
+      "category": "Silverman ⚡",
+      "tier": 1,
+      "front": "Bộ giải mã Silverman: tổng điểm <span style=\"color:#ffd43b\"><b>0–3, 4–6, ≥ 7</b></span> tương ứng <span style=\"color:#ff6b6b\"><b>mức suy hô hấp nào</b></span> và <span style=\"color:#51cf66\"><b>hành động bắt buộc</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>0–3 điểm</b></span> – <span style=\"color:#74c0fc\"><b>suy hô hấp nhẹ:</b></span> khí trời hoặc oxy cannula <span style=\"color:#ffd43b\"><b>0.5–1 L/phút</b></span>; theo dõi sinh hiệu mỗi <span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>4–6 điểm</b></span> – <span style=\"color:#74c0fc\"><b>trung bình:</b></span> <span style=\"color:#51cf66\"><b>thở nCPAP ngay lập tức, PEEP khởi đầu 6–8 cmH2O</b></span>; đánh giá nhu cầu bơm Surfactant trong <span style=\"color:#ffd43b\"><b>1–2 giờ đầu</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>≥ 7 điểm</b></span> – <span style=\"color:#ff6b6b\"><b>nặng, đe dọa kiệt sức cơ:</b></span> <span style=\"color:#51cf66\"><b>chuẩn bị đặt NKQ, thở máy xâm lấn và cấp cứu Surfactant khẩn cấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba ngưỡng đều dẫn đến một hành động: nhẹ thì chờ, trung bình thì mở phổi bằng CPAP, nặng thì chuẩn bị xâm lấn. Ngưỡng 7 là chỗ chuyển từ hỗ trợ không xâm lấn sang chuẩn bị can thiệp xâm lấn.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1 (phân tầng hành động)",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED13-B3-06",
+      "type": "basic",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "tier": 1,
+      "front": "X-quang ngực thẳng của <span style=\"color:#74c0fc\"><b>RDS</b></span> chia <span style=\"color:#ffd43b\"><b>mấy độ</b></span>, <span style=\"color:#ff6b6b\"><b>hình ảnh đặc trưng</b></span> của mỗi độ từ nhẹ đến nguy kịch là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 1 (nhẹ):</b></span> <span style=\"color:#74c0fc\"><b>lưới hạt phế nang nhỏ mịn</b></span> đối xứng hai bên.<br>2) <span style=\"color:#ffd43b\"><b>Độ 2 (trung bình):</b></span> lưới hạt đậm hơn + <span style=\"color:#74c0fc\"><b>phế quản khí hạt (Air Bronchogram)</b></span> giới hạn trong bóng tim.<br>3) <span style=\"color:#ffd43b\"><b>Độ 3 (nặng):</b></span> phế quản khí hạt lan ra <span style=\"color:#ffd43b\"><b>1/3 ngoài</b></span> hai phế trường; <span style=\"color:#ff6b6b\"><b>bờ tim và vòm hoành bắt đầu bị xóa mờ</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Độ 4 (rất nặng – nguy kịch):</b></span> <span style=\"color:#ff6b6b\"><b>phổi trắng xóa hai bên (White-out)</b></span>, xóa mờ bóng tim, trung thất và vòm hoành.<br><br><b>💡 Giải thích của AI:</b><br>Mức độ mờ của bờ tim và vòm hoành phản ánh mức độ xẹp và đông đặc nhu mô: từ nốt hạt (độ 1) đến mất hoàn toàn ranh giới (độ 4).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-07",
+      "type": "basic",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "tier": 2,
+      "front": "Chi tiết X-quang <span style=\"color:#74c0fc\"><b>RDS độ 1 và độ 2</b></span>: <span style=\"color:#ff6b6b\"><b>thể tích phổi</b></span>, <span style=\"color:#74c0fc\"><b>vòm hoành/bóng tim</b></span> và <span style=\"color:#74c0fc\"><b>phế quản khí hạt</b></span> nằm <span style=\"color:#ffd43b\"><b>ở đâu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 1:</b></span> lưới hạt phế nang nhỏ mịn rải rác đối xứng hai phế trường; thể tích phổi có thể <span style=\"color:#ffd43b\"><b>giảm nhẹ</b></span>; vòm hoành và bóng tim còn quan sát rõ nét.<br>2) <span style=\"color:#ffd43b\"><b>Độ 2:</b></span> các nốt lưới hạt đậm nét hơn; nhánh phế quản lớn chứa khí hiện nổi bật trên nền nhu mô xẹp (<span style=\"color:#74c0fc\"><b>Air Bronchogram</b></span>), <span style=\"color:#ff6b6b\"><b>chỉ giới hạn trong bóng tim</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phế quản chứa khí nổi bật là vì nhu mô xung quanh đã xẹp và đặc nên đối quang mạnh; khi dấu hiệu còn trong bóng tim, mức xẹp còn vừa phải.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-08",
+      "type": "basic",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "tier": 2,
+      "front": "Chi tiết X-quang <span style=\"color:#74c0fc\"><b>RDS độ 3 và độ 4</b></span>: <span style=\"color:#ff6b6b\"><b>mức lan rộng của phế quản khí hạt</b></span>, <span style=\"color:#74c0fc\"><b>bờ tim, vòm hoành</b></span> và <span style=\"color:#ff6b6b\"><b>nhu mô</b></span> thay đổi thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 3:</b></span> phế quản khí hạt lan tận <span style=\"color:#ffd43b\"><b>1/3 ngoài</b></span> hai phế trường; độ cản quang phổi tăng cao làm <span style=\"color:#ff6b6b\"><b>bờ tim và vòm hoành bắt đầu bị xóa mờ nhạt</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Độ 4:</b></span> phổi trắng xóa hai bên hoàn toàn (<span style=\"color:#ff6b6b\"><b>White-out</b></span>); nhu mô đông đặc, xẹp dính toàn bộ; xóa mờ hoàn toàn bóng tim, trung thất và vòm hoành.<br><br><b>💡 Giải thích của AI:</b><br>Độ 3–4 cho thấy xẹp phổi gần như toàn bộ. Đây là giai đoạn nguy kịch: phải có hỗ trợ hô hấp mạnh và Surfactant, không chờ thêm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-09",
+      "type": "basic",
+      "section": "B3",
+      "category": "SpO2 Pre/Post",
+      "tier": 2,
+      "front": "Kỹ thuật đo <span style=\"color:#74c0fc\"><b>SpO2 Pre/Post-ductal</b></span>: <span style=\"color:#ffd43b\"><b>vị trí kẹp sensor</b></span>, <span style=\"color:#ff6b6b\"><b>ngưỡng chênh khẳng định</b></span> bệnh gì và <span style=\"color:#ff6b6b\"><b>cạm bẫy khi chênh < 5%</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Pre-ductal:</b></span> bắt buộc <span style=\"color:#ffd43b\"><b>cổ tay phải hoặc mu bàn tay phải</b></span> (nhận máu từ thân cánh tay đầu xuất phát trước ống).<br>2) <span style=\"color:#74c0fc\"><b>Post-ductal:</b></span> <span style=\"color:#ffd43b\"><b>bàn chân (hoặc tay trái)</b></span> (nhận máu từ ĐMC xuống sau chỗ cắm của ống).<br>3) Chênh (Pre − Post) <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span> → <span style=\"color:#ff6b6b\"><b>khẳng định shunt Phải – Trái qua PDA (PPHN)</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Bẫy:</b></span> chênh <span style=\"color:#ffd43b\"><b>< 5%</b></span> mà trẻ vẫn tím trơ với oxy <span style=\"color:#ff6b6b\"><b>không loại trừ PPHN</b></span> vì shunt có thể ưu thế ở tầng nhĩ (qua PFO).<br><br><b>💡 Giải thích của AI:</b><br>Nếu shunt chủ yếu qua PFO thì máu nghèo oxy hòa vào trước chỗ phân nhánh nên cả tay lẫn chân đều thấp như nhau, chênh bằng 0. Khi đó phải dựa vào siêu âm tim chứ không dựa vào hiệu số SpO2.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3 (mục 1)",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-10",
+      "type": "basic",
+      "section": "B3",
+      "category": "Hyperoxia",
+      "tier": 2,
+      "front": "Nghiệm pháp <span style=\"color:#74c0fc\"><b>thở oxy 100% (Hyperoxia test)</b></span>: <span style=\"color:#51cf66\"><b>cách làm</b></span> (FiO2, thời gian, vị trí lấy khí máu) và <span style=\"color:#ffd43b\"><b>kết quả PaO2</b></span> diễn giải thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho thở <span style=\"color:#ffd43b\"><b>FiO2 = 1.0 (100%)</b></span> qua nCPAP hoặc NKQ trong <span style=\"color:#ffd43b\"><b>10–15 phút</b></span>, lấy khí máu động mạch tại <span style=\"color:#ffd43b\"><b>cổ tay phải</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>PaO2 > 150 mmHg</b></span> (hoặc tăng vọt <span style=\"color:#ffd43b\"><b>> 250 mmHg</b></span>) → loại trừ tim bẩm sinh tím phụ thuộc luồng thông; suy hô hấp do <span style=\"color:#74c0fc\"><b>bệnh nhu mô phổi (RDS, TTN)</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>PaO2 < 100 mmHg</b></span> và không tăng sau oxy 100% → nghĩ <span style=\"color:#ff6b6b\"><b>tim bẩm sinh tím có tuần hoàn phổi phụ thuộc ống (teo van ĐM phổi, chuyển vị đại động mạch) hoặc PPHN cực nặng</b></span> → <span style=\"color:#51cf66\"><b>siêu âm tim cấp cứu ngay tại giường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhu mô thì phế nang còn trao đổi được nên oxy cao làm PaO2 tăng; shunt cố định (tim hoặc PPHN) thì máu tránh phổi nên oxy cao không cải thiện được. Vì vậy PaO2 không tăng là chỉ điểm cấp cứu tim mạch.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3 (mục 2)",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B3-11",
+      "type": "basic",
+      "section": "B3",
+      "category": "Hyperoxia ⚡",
+      "tier": 1,
+      "front": "Cây quyết định nhị phân cho <span style=\"color:#ff6b6b\"><b>trẻ tím tái nghi shunt</b></span>: bước <span style=\"color:#74c0fc\"><b>đo SpO2 Pre/Post</b></span> rồi <span style=\"color:#74c0fc\"><b>Hyperoxia test</b></span> dẫn tới <span style=\"color:#51cf66\"><b>kết luận và hành động nào</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1: <span style=\"color:#74c0fc\"><b>SpO2 tay phải − chân</b></span> <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span> → <span style=\"color:#ff6b6b\"><b>PPHN (shunt P→T qua PDA)</b></span> → <span style=\"color:#51cf66\"><b>iNO 20 ppm + vận mạch</b></span>.<br>2) Chênh <span style=\"color:#ffd43b\"><b>< 5%</b></span> mà vẫn tím trơ → <span style=\"color:#ff6b6b\"><b>chưa loại trừ PPHN (shunt ở tầng nhĩ qua PFO)</b></span> → làm bước 2.<br>3) Bước 2: <span style=\"color:#74c0fc\"><b>Hyperoxia test (FiO2 1.0, 10–15 phút, khí máu cổ tay phải)</b></span>: <span style=\"color:#ffd43b\"><b>PaO2 > 150 (hoặc > 250)</b></span> → bệnh nhu mô (RDS, TTN); <span style=\"color:#ffd43b\"><b>PaO2 < 100 không tăng</b></span> → <span style=\"color:#ff6b6b\"><b>tim tím phụ thuộc ống hoặc PPHN cực nặng</b></span> → <span style=\"color:#51cf66\"><b>siêu âm tim cấp cứu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai nghiệm pháp bổ sung cho nhau: SpO2 Pre/Post bắt shunt ở tầng ống, hyperoxia test bắt shunt cố định và bệnh tim. Cả hai điểm dừng đều kết thúc bằng hành động cụ thể nên tránh bị lạc ở trẻ tím chưa rõ nguyên nhân.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3",
+      "tags": [
+        "PED-13",
+        "B3"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED13-B4-01",
+      "type": "basic",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "tier": 1,
+      "front": "Chiến lược quản lý oxy và hỗ trợ thông khí ở buồng bệnh gồm <span style=\"color:#ffd43b\"><b>3 trụ cột</b></span> nào (mục tiêu SpO2 theo phút, <span style=\"color:#ffd43b\"><b>dải SpO2 NICU</b></span>, <span style=\"color:#51cf66\"><b>nCPAP PEEP</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Trụ 1 – SpO2 theo phút tuổi (NRP 8th):</b></span> <span style=\"color:#ffd43b\"><b>60–65%</b></span> lúc 1 phút lên <span style=\"color:#ffd43b\"><b>85–95%</b></span> lúc 10 phút; khởi đầu <span style=\"color:#ffd43b\"><b>khí trời 21%</b></span> (đủ tháng) hoặc <span style=\"color:#ffd43b\"><b>21–30%</b></span> (sinh non).<br>2) <span style=\"color:#74c0fc\"><b>Trụ 2 – Dải vàng NICU:</b></span> duy trì SpO2 <span style=\"color:#ffd43b\"><b>91–95%</b></span>, báo động <span style=\"color:#ffd43b\"><b>90% và 96%</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Trụ 3 – Open Lung Approach:</b></span> <span style=\"color:#51cf66\"><b>nCPAP sớm tại phòng sinh, PEEP 6–8 cmH2O</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba trụ bảo vệ ba cơ quan: kiểm soát oxy bảo vệ võng mạc và phổi khỏi gốc tự do; nCPAP bảo vệ phế nang khỏi xẹp mở lặp lại. Thiếu một trụ thì trụ còn lại không đủ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4",
+      "tags": [
+        "PED-13",
+        "B4"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B4-02",
+      "type": "basic",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "tier": 2,
+      "front": "Bảng mục tiêu <span style=\"color:#74c0fc\"><b>SpO2 theo phút tuổi sau sinh (NRP 8th)</b></span> ở <span style=\"color:#ffd43b\"><b>1, 2, 3, 4, 5 và 10 phút</b></span> là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>1 phút:</b></span> 60–65%<br>2) <span style=\"color:#ffd43b\"><b>2 phút:</b></span> 65–70%<br>3) <span style=\"color:#ffd43b\"><b>3 phút:</b></span> 70–75%<br>4) <span style=\"color:#ffd43b\"><b>4 phút:</b></span> 75–80%<br>5) <span style=\"color:#ffd43b\"><b>5 phút:</b></span> 80–85%<br>6) <span style=\"color:#ffd43b\"><b>10 phút:</b></span> 85–95%<br><br><b>💡 Giải thích của AI:</b><br>Thai nhi sống ở SpO2 khoảng 60% trong tử cung và phổi cần 10–15 phút để giãn nở hoàn toàn, nên SpO2 'bình thường' lúc mới sinh thấp hơn nhiều so với sau 10 phút. Đòi SpO2 > 90% ngay từ phút đầu dễ dẫn đến cho oxy quá mức.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "tags": [
+        "PED-13",
+        "B4"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B4-03",
+      "type": "basic",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>FiO2 khởi đầu</b></span> khi hồi sức phòng sinh ở trẻ <span style=\"color:#ffd43b\"><b>đủ tháng ≥ 35 tuần</b></span> và trẻ <span style=\"color:#ffd43b\"><b>sinh non < 35 tuần</b></span> là bao nhiêu, <span style=\"color:#ff6b6b\"><b>điều tuyệt đối không làm</b></span> và <span style=\"color:#51cf66\"><b>dụng cụ cần có</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Đủ tháng (≥ 35 tuần):</b></span> bắt đầu <span style=\"color:#51cf66\"><b>khí trời 21%</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Sinh non (< 35 tuần):</b></span> bắt đầu <span style=\"color:#51cf66\"><b>FiO2 21–30% qua bộ trộn khí (Blender)</b></span>, sau đó chuẩn độ theo từng phút để đưa SpO2 vào dải mục tiêu của bảng NRP.<br>3) <span style=\"color:#ff6b6b\"><b>Tuyệt đối không dùng oxy 100% tự do.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Oxy 100% đột ngột làm SpO2 vượt xa mức sinh lý, kích hoạt gốc tự do ở mô non nớt. Blender là dụng cụ cho phép chuẩn độ chính xác thay vì cắm thẳng oxy vào bóng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1 (nguyên tắc an toàn)",
+      "tags": [
+        "PED-13",
+        "B4"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B4-04",
+      "type": "basic",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "tier": 2,
+      "front": "Dải <span style=\"color:#74c0fc\"><b>SpO2 mục tiêu ở trẻ sinh non tại NICU</b></span>: <span style=\"color:#ffd43b\"><b>giá trị</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả khi SpO2 < 90%</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả khi SpO2 > 95%</b></span> và <span style=\"color:#51cf66\"><b>cách cài báo động</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dải vàng <span style=\"color:#ffd43b\"><b>91–95%</b></span>, <span style=\"color:#51cf66\"><b>báo động dưới 90%, báo động trên 96%</b></span>; luôn chuẩn độ FiO2 để giữ trong dải.<br>2) <span style=\"color:#ff6b6b\"><b>SpO2 < 90%:</b></span> thiếu máu não, hoại tử tế bào thần kinh, toan lactic, tăng co thắt mạch phổi làm nặng thêm PPHN.<br>3) <span style=\"color:#ff6b6b\"><b>SpO2 > 95%:</b></span> tạo ROS tấn công màng tế bào → co thắt/hoại tử mạch võng mạc (<span style=\"color:#74c0fc\"><b>ROP</b></span>, mù lòa) và xơ hóa phá hủy phế nang (<span style=\"color:#74c0fc\"><b>BPD</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Hẹp dải mục tiêu vì hai bờ vực đều nguy hiểm: thiếu oxy hại não và mạch phổi, thừa oxy hại võng mạc và phổi. Báo động 90 và 96 là rào chắn tự động cho cả hai phía.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.2",
+      "tags": [
+        "PED-13",
+        "B4"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B4-05",
+      "type": "basic",
+      "section": "B4",
+      "category": "nCPAP",
+      "tier": 2,
+      "front": "Vì sao <span style=\"color:#74c0fc\"><b>nCPAP sớm</b></span> là nền tảng và <span style=\"color:#51cf66\"><b>PEEP khởi đầu phải 6–8 cmH2O</b></span> (thay vì mức cũ <span style=\"color:#ffd43b\"><b>4–5</b></span>): <span style=\"color:#ff6b6b\"><b>rào cản cơ học cần vượt</b></span> và <span style=\"color:#51cf66\"><b>lợi ích</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đồng thuận Châu Âu 2023: <span style=\"color:#51cf66\"><b>nCPAP sớm ngay tại phòng sinh</b></span> là nền tảng số 1 bảo vệ phổi trẻ sinh non, tránh NKQ và thở máy không cần thiết.<br>2) Phế nang thiếu Surfactant có <span style=\"color:#ff6b6b\"><b>sức căng bề mặt rất lớn</b></span>; áp lực đường thở phải vượt <span style=\"color:#74c0fc\"><b>áp lực mở tới hạn (critical opening pressure)</b></span> mới mở được phế nang dính xẹp.<br>3) <span style=\"color:#51cf66\"><b>PEEP 6–8 cmH2O</b></span> như giàn giáo áp lực giữ mở phế nang, <span style=\"color:#51cf66\"><b>tái lập FRC</b></span>, ngăn xẹp lại cuối thở ra và giảm <span style=\"color:#74c0fc\"><b>Atelectrauma</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>PEEP quá thấp không thắng được áp lực mở tới hạn nên phế nang cứ xẹp rồi mở lại, mỗi lần như vậy gây tổn thương. Mức 6–8 đủ mạnh để 'giữ cửa mở' liên tục.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.3",
+      "tags": [
+        "PED-13",
+        "B4"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-01",
+      "type": "basic",
+      "section": "B5",
+      "category": "Surfactant",
+      "tier": 1,
+      "front": "Liệu pháp thay thế Surfactant gồm <span style=\"color:#ffd43b\"><b>3 trụ cột</b></span> nào (<span style=\"color:#74c0fc\"><b>chế phẩm và liều</b></span>, <span style=\"color:#51cf66\"><b>ngưỡng chỉ định</b></span>, <span style=\"color:#51cf66\"><b>kỹ thuật LISA</b></span>) và <span style=\"color:#ffd43b\"><b>thời điểm vàng</b></span> là khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chế phẩm:</b></span> Poractant alfa (Curosurf, phổi lợn) liều nạp <span style=\"color:#ffd43b\"><b>200 mg/kg (2.5 mL/kg)</b></span>; Beractant (Survanta, phổi bò) <span style=\"color:#ffd43b\"><b>100 mg/kg (4.0 mL/kg)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Ngưỡng:</b></span> nCPAP PEEP ≥ 6 mà <span style=\"color:#ffd43b\"><b>< 28 tuần: FiO2 ≥ 0.30; ≥ 28 tuần: FiO2 ≥ 0.30–0.40</b></span>; liều 2 sau <span style=\"color:#ffd43b\"><b>6–12 giờ</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Kỹ thuật:</b></span> <span style=\"color:#51cf66\"><b>LISA/MIST</b></span> – catheter mỏng qua thanh môn khi trẻ tự thở trên nCPAP, bơm chậm <span style=\"color:#ffd43b\"><b>1–3 phút</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Thời điểm vàng 2–3 giờ đầu sau sinh</b></span> cho hiệu quả cao nhất.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi trụ trả lời một câu: dùng thuốc gì, khi nào dùng, dùng thế nào. Chế phẩm đậm đặc cho thể tích nhỏ và kỹ thuật LISA giúp bơm thuốc mà không cần bóp bóng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-02",
+      "type": "basic",
+      "section": "B5",
+      "category": "Surfactant",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Poractant alfa (Curosurf)</b></span>: <span style=\"color:#ffd43b\"><b>nguồn gốc</b></span>, <span style=\"color:#ffd43b\"><b>nồng độ phospholipid</b></span>, <span style=\"color:#74c0fc\"><b>apoprotein</b></span>, <span style=\"color:#51cf66\"><b>liều nạp</b></span>, <span style=\"color:#ffd43b\"><b>thể tích</b></span>, <span style=\"color:#51cf66\"><b>liều nhắc lại</b></span> và <span style=\"color:#51cf66\"><b>ưu thế lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguồn gốc: chiết xuất từ <span style=\"color:#ffd43b\"><b>phổi lợn</b></span>.<br>2) Nồng độ phospholipid <span style=\"color:#ffd43b\"><b>80 mg/mL (đậm đặc)</b></span>; chứa <span style=\"color:#74c0fc\"><b>cả SP-B và SP-C</b></span>.<br>3) Liều nạp đầu tay <span style=\"color:#51cf66\"><b>200 mg/kg</b></span> = thể tích <span style=\"color:#ffd43b\"><b>2.5 mL/kg (rất gọn)</b></span>.<br>4) Liều nhắc lại <span style=\"color:#51cf66\"><b>100 mg/kg (1.25 mL/kg)</b></span>.<br>5) Ưu thế: <span style=\"color:#51cf66\"><b>giảm tỷ lệ tử vong vượt trội, ít phải bơm liều thứ 2</b></span> (nghiên cứu Ramanathan).<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ đậm đặc cho phép đưa liều cao trong thể tích nhỏ, giảm nguy cơ tắc nghẽn đường thở lúc bơm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-03",
+      "type": "basic",
+      "section": "B5",
+      "category": "Surfactant",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Beractant (Survanta)</b></span> so với Curosurf: <span style=\"color:#ffd43b\"><b>nguồn gốc</b></span>, <span style=\"color:#ffd43b\"><b>nồng độ</b></span>, <span style=\"color:#51cf66\"><b>liều nạp</b></span>, <span style=\"color:#ffd43b\"><b>thể tích</b></span>, <span style=\"color:#51cf66\"><b>liều nhắc lại</b></span> và <span style=\"color:#ff6b6b\"><b>nhược điểm lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguồn gốc: <span style=\"color:#ffd43b\"><b>phổi bò</b></span>; chứa SP-B và SP-C.<br>2) Nồng độ phospholipid <span style=\"color:#ffd43b\"><b>25 mg/mL (loãng hơn)</b></span>.<br>3) Liều nạp <span style=\"color:#51cf66\"><b>100 mg/kg</b></span> = <span style=\"color:#ffd43b\"><b>4.0 mL/kg</b></span> (thể tích lớn hơn); liều nhắc lại <span style=\"color:#51cf66\"><b>100 mg/kg (4.0 mL/kg)</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Nhược điểm:</b></span> cần thể tích bơm lớn, dễ gây tắc nghẽn đường thở và <span style=\"color:#ff6b6b\"><b>tụt SpO2 thoáng qua lúc bơm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ loãng hơn buộc phải bơm nhiều dịch hơn cho cùng lượng phospholipid; dịch thừa này là nguyên nhân tụt SpO2 tạm thời khi bơm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-04",
+      "type": "basic",
+      "section": "B5",
+      "category": "Surfactant",
+      "tier": 2,
+      "front": "Theo Đồng thuận Châu Âu 2023, <span style=\"color:#ffd43b\"><b>ngưỡng FiO2</b></span> chỉ định bơm Surfactant ở trẻ <span style=\"color:#ffd43b\"><b>< 28 tuần</b></span> và <span style=\"color:#ffd43b\"><b>≥ 28 tuần</b></span>, điều kiện <span style=\"color:#74c0fc\"><b>PEEP</b></span>, <span style=\"color:#51cf66\"><b>tiêu chuẩn liều thứ 2</b></span> và <span style=\"color:#ffd43b\"><b>thời điểm vàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều kiện chung: đang thở <span style=\"color:#74c0fc\"><b>nCPAP PEEP tối thiểu 6 cmH2O</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>< 28 tuần:</b></span> cần <span style=\"color:#ff6b6b\"><b>FiO2 ≥ 0.30 (30%)</b></span> để duy trì SpO2 mục tiêu → <span style=\"color:#51cf66\"><b>bơm Surfactant ngay</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>≥ 28 tuần:</b></span> cần <span style=\"color:#ff6b6b\"><b>FiO2 ≥ 0.30–0.40</b></span> → <span style=\"color:#51cf66\"><b>bơm Surfactant ngay</b></span>.<br>4) Liều thứ 2: sau liều đầu <span style=\"color:#ffd43b\"><b>6–12 giờ</b></span>, vẫn suy hô hấp nặng và cần <span style=\"color:#ffd43b\"><b>FiO2 ≥ 0.30</b></span> kèm áp lực CPAP cao → <span style=\"color:#51cf66\"><b>Curosurf 100 mg/kg</b></span>.<br>5) Thời điểm vàng: <span style=\"color:#ffd43b\"><b>2–3 giờ đầu</b></span> sau sinh.<br><br><b>💡 Giải thích của AI:</b><br>Nhu cầu oxy tăng trên nền PEEP tối ưu là dấu hiệu sinh học trực tiếp của thiếu surfactant, không cần chờ X-quang. Đạt ngưỡng sớm giúp cứu phế nang trước khi xẹp phổi lan rộng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.2",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-05",
+      "type": "basic",
+      "section": "B5",
+      "category": "Surfactant ⚡",
+      "tier": 1,
+      "front": "Bảng bỏ túi <span style=\"color:#74c0fc\"><b>Surfactant</b></span>: <span style=\"color:#ffd43b\"><b>ngưỡng FiO2</b></span>, <span style=\"color:#51cf66\"><b>liều nạp và thể tích</b></span> của Curosurf/Survanta, <span style=\"color:#51cf66\"><b>liều nhắc lại</b></span> và <span style=\"color:#ffd43b\"><b>mốc thời gian</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ngưỡng bơm (nCPAP PEEP ≥ 6):</b></span> <span style=\"color:#ffd43b\"><b>< 28 tuần FiO2 ≥ 0.30; ≥ 28 tuần FiO2 ≥ 0.30–0.40</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Curosurf (lợn, 80 mg/mL):</b></span> nạp <span style=\"color:#51cf66\"><b>200 mg/kg = 2.5 mL/kg</b></span>; nhắc <span style=\"color:#51cf66\"><b>100 mg/kg = 1.25 mL/kg</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Survanta (bò, 25 mg/mL):</b></span> nạp <span style=\"color:#51cf66\"><b>100 mg/kg = 4.0 mL/kg</b></span>; nhắc <span style=\"color:#51cf66\"><b>100 mg/kg = 4.0 mL/kg</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Thời điểm vàng 2–3 giờ đầu; liều 2 sau 6–12 giờ.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Gộp ba thông số then chốt (ngưỡng – liều – thời điểm) vào một bảng giúp tính nhanh tại giường: ví dụ trẻ 1.2 kg dùng Curosurf 200 mg/kg là 240 mg (3.0 mL).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1–5.2",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED13-B5-06",
+      "type": "basic",
+      "section": "B5",
+      "category": "LISA",
+      "tier": 2,
+      "front": "Quy trình <span style=\"color:#74c0fc\"><b>LISA/MIST</b></span> bước 1–3: <span style=\"color:#51cf66\"><b>chuẩn bị bệnh nhi và thuốc</b></span>, <span style=\"color:#74c0fc\"><b>dụng cụ</b></span>, <span style=\"color:#51cf66\"><b>bộc lộ thanh môn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 1:</b></span> trẻ tự thở ổn định trên nCPAP (<span style=\"color:#ffd43b\"><b>PEEP 6–8</b></span>); gắn monitor SpO2 và nhịp tim liên tục; lấy lọ Curosurf khỏi tủ lạnh, <span style=\"color:#51cf66\"><b>ủ ấm tự nhiên trong lòng bàn tay đạt 25–37°C</b></span>; tính liều <span style=\"color:#ffd43b\"><b>200 mg/kg (2.5 mL/kg)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bước 2:</b></span> đèn soi thanh quản lưỡi thẳng số <span style=\"color:#ffd43b\"><b>00 hoặc 0</b></span> (hoặc video laryngoscope); ống thông mỏng chuyên dụng (Surfcath, Lisacath) hoặc Angiocath <span style=\"color:#ffd43b\"><b>16–18G</b></span> đã cắt bỏ kim kim loại; kẹp Magill sơ sinh.<br>3) <span style=\"color:#74c0fc\"><b>Bước 3:</b></span> người phụ giữ nhẹ đầu trẻ ở tư thế trung gian, <span style=\"color:#51cf66\"><b>tiếp tục nCPAP</b></span>; bác sĩ nhẹ nhàng đưa lưỡi đèn bộc lộ hai dây thanh âm.<br><br><b>💡 Giải thích của AI:</b><br>Làm ấm thuốc tránh co thắt phế quản; giữ CPAP trong suốt thủ thuật để phổi không xẹp khi thao tác; chọn dụng cụ mềm và mảnh để giảm sang chấn thanh quản.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 1–3)",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B5-07",
+      "type": "basic",
+      "section": "B5",
+      "category": "LISA",
+      "tier": 2,
+      "front": "Quy trình <span style=\"color:#74c0fc\"><b>LISA/MIST</b></span> bước 4–6: <span style=\"color:#51cf66\"><b>luồn catheter</b></span> (độ sâu), <span style=\"color:#51cf66\"><b>cách bơm</b></span> (thời gian, nhịp), <span style=\"color:#51cf66\"><b>rút ống</b></span> và <span style=\"color:#ff6b6b\"><b>điều không được làm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 4:</b></span> dùng kẹp Magill luồn ống mỏng qua giữa hai dây thanh; đầu ống sâu <span style=\"color:#ffd43b\"><b>1.0–1.5 cm</b></span> dưới dây thanh.<br>2) <span style=\"color:#74c0fc\"><b>Bước 5:</b></span> rút đèn soi, cố định ống ở khóe mép; bơm Surfactant <span style=\"color:#51cf66\"><b>từ từ, ngắt quãng trong 1–3 phút</b></span> theo nhịp tự thở; luồng hít vào của trẻ phân phối thuốc đều hai phổi.<br>3) <span style=\"color:#74c0fc\"><b>Bước 6:</b></span> rút hoàn toàn ống ngay sau khi bơm hết thuốc; <span style=\"color:#51cf66\"><b>tiếp tục nCPAP</b></span>; <span style=\"color:#ff6b6b\"><b>KHÔNG BÓP BÓNG ÁP LỰC CAO</b></span>; chuẩn bị giảm nhanh FiO2 khi độ giãn nở cải thiện và SpO2 tăng vọt.<br>4) Lợi ích (Kribs 2015): giảm hơn <span style=\"color:#ffd43b\"><b>50%</b></span> nhu cầu thở máy xâm lấn trong <span style=\"color:#ffd43b\"><b>72 giờ đầu</b></span>, giảm tràn khí màng phổi và giảm rõ rệt tỷ lệ BPD so với đặt NKQ truyền thống.<br><br><b>💡 Giải thích của AI:</b><br>Bơm chậm theo nhịp thở cho phép thuốc đi theo luồng hít vào thay vì bị đẩy bằng áp lực; không bóp bóng vì phổi đã có surfactant sẽ giãn nở rất tốt và dễ vỡ phế nang.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 4–6, lợi ích)",
+      "tags": [
+        "PED-13",
+        "B5"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B6-01",
+      "type": "basic",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 1,
+      "front": "Lưu đồ xử trí suy hô hấp sơ sinh ở buồng bệnh gồm <span style=\"color:#ffd43b\"><b>3 bước</b></span> nào (bước 0, bước 1, bước 2) và <span style=\"color:#51cf66\"><b>điểm rẽ nhánh đầu tiên</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 0:</b></span> sàng lọc <span style=\"color:#ff6b6b\"><b>cờ đỏ cấp cứu</b></span> + chấm <span style=\"color:#74c0fc\"><b>Silverman</b></span> (thở ngực bụng bập bênh, thở rên tai trần, ngừng thở – nhịp chậm).<br>2) <span style=\"color:#74c0fc\"><b>Bước 1:</b></span> <span style=\"color:#51cf66\"><b>thiết lập nCPAP sớm PEEP 6–8 cmH2O (Open Lung)</b></span>; chuẩn độ FiO2 theo phút tuổi (NRP) hoặc giữ SpO2 <span style=\"color:#ffd43b\"><b>91–95%</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Bước 2:</b></span> phân loại nguyên nhân và chụp X-quang ngực thẳng: <span style=\"color:#74c0fc\"><b>RDS / TTN / MAS</b></span>.<br>4) Điểm rẽ nhánh đầu: <span style=\"color:#ff6b6b\"><b>Silverman ≥ 7 hoặc ngừng thở</b></span> → cấp cứu hồi sức ngay.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự an toàn trước, nguyên nhân sau: loại trừ nguy kịch rồi mới thiết lập nền hỗ trợ (CPAP) và chỉ sau đó phân loại nguyên nhân bằng X-quang.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 6",
+      "tags": [
+        "PED-13",
+        "B6"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B6-02",
+      "type": "basic",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "front": "Ở nhánh nguy kịch của lưu đồ: <span style=\"color:#ff6b6b\"><b>tiêu chí vào nhánh</b></span> và <span style=\"color:#51cf66\"><b>2 việc phải làm</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Silverman ≥ 7 điểm hoặc ngừng thở</b></span> → 🛑 cấp cứu hồi sức ngay.<br>2) <span style=\"color:#51cf66\"><b>Đặt nội khí quản thở máy</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Bơm Surfactant qua NKQ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ kiệt sức hoặc ngừng thở thì LISA không thực hiện được vì cần trẻ tự thở; khi đó chuyển sang đường NKQ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 6 (bước 0)",
+      "tags": [
+        "PED-13",
+        "B6"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B6-03",
+      "type": "basic",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "front": "Sau khi đặt nCPAP, nhánh <span style=\"color:#74c0fc\"><b>trẻ sinh non < 34 tuần</b></span>, <span style=\"color:#74c0fc\"><b>đẻ mổ đủ tháng</b></span> và <span style=\"color:#74c0fc\"><b>già tháng/phân su</b></span>: <span style=\"color:#74c0fc\"><b>X-quang</b></span>, <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>xử trí</b></span> của từng nhánh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Sinh non < 34 tuần:</b></span> lưới hạt, phế quản khí hạt → <span style=\"color:#74c0fc\"><b>RDS</b></span> → <span style=\"color:#51cf66\"><b>đánh giá ngưỡng Surfactant trên CPAP; đạt ngưỡng → bơm sớm bằng LISA (Curosurf 200 mg/kg, ống thông mỏng qua thanh môn khi tự thở, bơm chậm 1–3 phút, tiếp tục nCPAP, cai giảm nhanh FiO2)</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Đẻ mổ đủ tháng:</b></span> ứ dịch rãnh liên thùy, rốn phổi tỏa tia → <span style=\"color:#74c0fc\"><b>TTN</b></span> → <span style=\"color:#51cf66\"><b>tiếp tục nCPAP nhẹ (PEEP 4–5), thường tự khỏi sau 24–48 giờ</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Già tháng/phân su:</b></span> thâm nhiễm mảng thô xen kẽ ứ khí → <span style=\"color:#74c0fc\"><b>MAS</b></span> → <span style=\"color:#51cf66\"><b>hỗ trợ thông khí HFOV, rửa/bơm Surfactant, đo SpO2 Pre/Post loại trừ PPHN</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba nhánh khác nhau cơ chế nên điều trị khác nhau: RDS cần surfactant, TTN chỉ cần hỗ trợ nhẹ, MAS cần thông khí bảo vệ + bù surfactant + loại trừ PPHN.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 6 (bước 2)",
+      "tags": [
+        "PED-13",
+        "B6"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B6-04",
+      "type": "basic",
+      "section": "B6",
+      "category": "Lưu đồ",
+      "tier": 2,
+      "front": "Sau bơm Surfactant, <span style=\"color:#ff6b6b\"><b>3 biến chứng/việc phải theo dõi</b></span> trong lưu đồ là gì và <span style=\"color:#51cf66\"><b>hành động</b></span> với từng việc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phổi giãn nở tốt → <span style=\"color:#51cf66\"><b>giảm FiO2 ngay</b></span> để tránh ngộ độc oxy và <span style=\"color:#74c0fc\"><b>ROP</b></span>.<br>2) Sức cản phổi giảm → cảnh giác <span style=\"color:#ff6b6b\"><b>mở luồng thông Trái – Phải qua PDA (hsPDA)</b></span>.<br>3) Trẻ suy sụp đột ngột, tím tái một bên → <span style=\"color:#51cf66\"><b>soi đèn xuyên thấu loại trừ tràn khí màng phổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sau surfactant mọi thông số thay đổi rất nhanh: độ giãn nở tăng (oxy thừa, vỡ phế nang) và sức cản phổi giảm (mở shunt PDA). Việc theo dõi chủ động ngăn cả ba biến cố.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 6 (theo dõi sau bơm)",
+      "tags": [
+        "PED-13",
+        "B6"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B7-01",
+      "type": "basic",
+      "section": "B7",
+      "category": "Biến chứng",
+      "tier": 1,
+      "front": "Ba nhóm biến chứng/chăm sóc cần nhớ sau điều trị suy hô hấp sơ sinh là gì (<span style=\"color:#ff6b6b\"><b>tràn khí áp lực</b></span>, <span style=\"color:#74c0fc\"><b>PIE</b></span>, <span style=\"color:#74c0fc\"><b>hsPDA</b></span>) và <span style=\"color:#51cf66\"><b>xử trí chính</b></span> mỗi nhóm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tràn khí màng phổi áp lực:</b></span> <span style=\"color:#51cf66\"><b>soi xuyên thấu, chọc kim giải áp, dẫn lưu kín</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Khí thũng mô kẽ (PIE):</b></span> <span style=\"color:#51cf66\"><b>chuyển HFOV với áp lực thấp</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>hsPDA sau Surfactant:</b></span> <span style=\"color:#51cf66\"><b>hạn chế dịch 60–70 mL/kg/ngày, siêu âm tim, Paracetamol hoặc Ibuprofen tĩnh mạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phổi sơ sinh mỏng manh nên phế nang vỡ khi quá căng (bóp bóng áp lực cao, bẫy khí MAS); sau surfactant thì mạch phổi giãn ra làm PDA tăng shunt. Biết trước ba nhóm này giúp nhận diện sớm khi trẻ đột ngột xấu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7",
+      "tags": [
+        "PED-13",
+        "B7"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B7-02",
+      "type": "basic",
+      "section": "B7",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Tràn khí màng phổi áp lực</b></span>: <span style=\"color:#ff6b6b\"><b>biểu hiện tối cấp</b></span>, <span style=\"color:#51cf66\"><b>chẩn đoán nhanh tại giường</b></span>, <span style=\"color:#51cf66\"><b>xử trí tức thì (kim cỡ, vị trí)</b></span> và <span style=\"color:#51cf66\"><b>bước tiếp theo</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Biểu hiện:</b></span> trẻ đang thở máy/CPAP bỗng tím tái, SpO2 tụt dốc, nhịp tim chậm, lồng ngực bên tổn thương căng phồng bất động, mất tiếng thở.<br>2) <span style=\"color:#51cf66\"><b>Chẩn đoán:</b></span> đèn rọi xuyên thấu (Transillumination) trong buồng tối: bên tràn khí <span style=\"color:#ffd43b\"><b>sáng rực toàn bộ lồng ngực</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> chọc kim giải áp bằng kim luồn <span style=\"color:#ffd43b\"><b>20–22G</b></span> ở <span style=\"color:#ffd43b\"><b>khoang liên sườn 2 đường giữa đòn</b></span> bên tổn thương để xả khí.<br>4) Sau đó: <span style=\"color:#51cf66\"><b>đặt ống dẫn lưu màng phổi kín hút áp lực âm liên tục</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tràn khí áp lực đè bẹp phổi và đẩy lệch trung thất nên cản máu tĩnh mạch về tim; do đó là cấp cứu chọc kim trước, chụp phim không có chỗ trong 30 giây đầu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.1 (mục 1)",
+      "tags": [
+        "PED-13",
+        "B7"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B7-03",
+      "type": "basic",
+      "section": "B7",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Khí thũng mô kẽ phổi (PIE)</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế khí thoát ra</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>xử trí thông khí</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơ chế:</b></span> khí thoát từ phế nang vỡ xé rách mô kẽ dọc theo bao mạch máu phế quản.<br>2) <span style=\"color:#ff6b6b\"><b>Hậu quả:</b></span> cản trở tuần hoàn phổi và giảm độ giãn nở trầm trọng.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> chuyển sang thở máy rung tần số cao (<span style=\"color:#74c0fc\"><b>HFOV</b></span>) với <span style=\"color:#ffd43b\"><b>áp lực thấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>HFOV dùng biên độ rung nhỏ nên tránh áp lực đỉnh cao tiếp tục ép khí vào mô kẽ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.1 (mục 2)",
+      "tags": [
+        "PED-13",
+        "B7"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B7-04",
+      "type": "basic",
+      "section": "B7",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>hsPDA sau Surfactant</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế tạo shunt</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả lên phổi và tạng</b></span> và <span style=\"color:#51cf66\"><b>xử trí (dịch, thuốc)</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơ chế:</b></span> sau surfactant, độ giãn nở cải thiện và <span style=\"color:#ff6b6b\"><b>PVR sụt giảm đột ngột</b></span> → tăng chênh áp ĐMC – ĐM phổi → <span style=\"color:#ff6b6b\"><b>shunt Trái – Phải khổng lồ qua PDA</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Hậu quả:</b></span> máu tràn phổi gây phù phổi ứ huyết tái phát, trẻ lệ thuộc lại máy thở; thiếu máu ăn cắp tạng hệ thống (ruột → <span style=\"color:#74c0fc\"><b>NEC</b></span>, thận → thiểu niệu).<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> hạn chế dịch <span style=\"color:#ffd43b\"><b>60–70 mL/kg/ngày</b></span>, siêu âm tim xác định đường kính ống, thuốc đóng ống: <span style=\"color:#51cf66\"><b>Paracetamol tĩnh mạch hoặc Ibuprofen tĩnh mạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Shunt chiều Trái – Phải qua PDA lấy máu khỏi hệ thống nên các tạng ở hạ lưu bị thiếu máu, đồng thời làm ngập phổi. Giảm tải dịch và đóng ống làm cùng một việc: giảm lưu lượng qua ống.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.2",
+      "tags": [
+        "PED-13",
+        "B7"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-01",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 1,
+      "front": "<span style=\"color:#ff6b6b\"><b>8 cạm bẫy lâm sàng chết người</b></span> trong suy hô hấp sơ sinh là gì (nêu đủ <span style=\"color:#ffd43b\"><b>8 sai lầm</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho <span style=\"color:#ff6b6b\"><b>oxy 100% tự do</b></span> ngay khi thấy tím tái ở phòng sinh.<br>2) <span style=\"color:#ff6b6b\"><b>Bóp bóng áp lực cao</b></span> thật mạnh sau khi bơm Surfactant.<br>3) Đẻ mổ thở nhanh <span style=\"color:#ffd43b\"><b>> 60 l/p</b></span> cho là viêm phổi và <span style=\"color:#ff6b6b\"><b>tiêm kháng sinh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Đặt NKQ hút phân su dưới thanh môn thường quy</b></span> ở mọi trẻ ối phân su.<br>5) Duy trì SpO2 <span style=\"color:#ffd43b\"><b>98–100%</b></span> ở trẻ sinh non 'cho chắc ăn'.<br>6) Nghĩ liều Curosurf <span style=\"color:#ffd43b\"><b>100 mg/kg</b></span> tương đương <span style=\"color:#ffd43b\"><b>200 mg/kg</b></span>.<br>7) Cho rằng chênh SpO2 Pre/Post <span style=\"color:#ffd43b\"><b>< 5%</b></span> loại trừ hoàn toàn PPHN.<br>8) Cài CPAP <span style=\"color:#ffd43b\"><b>PEEP 4 cmH2O</b></span> để 'bảo vệ phổi trẻ non tháng'.<br><br><b>💡 Giải thích của AI:</b><br>Cả tám bẫy đều là hành động 'có vẻ hợp lý' nhưng đi ngược cơ chế: quá nhiều oxy/áp lực, hoặc quá ít PEEP/liều, hoặc điều trị bệnh sai. Học thuộc danh sách này là cách rẻ nhất để tránh sai lầm kinh điển.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-02",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>oxy 100% tự do</b></span> và bẫy <span style=\"color:#ff6b6b\"><b>duy trì SpO2 98–100%</b></span> ở trẻ sinh non: <span style=\"color:#ff6b6b\"><b>hậu quả/cơ chế</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Oxy 100% tự do:</b></span> tạo bão gốc tự do ROS → co thắt, hoại tử mạch võng mạc (<span style=\"color:#74c0fc\"><b>ROP</b></span>) và xơ phổi (<span style=\"color:#74c0fc\"><b>BPD</b></span>) → <span style=\"color:#51cf66\"><b>bắt buộc dùng Blender; khởi đầu khí trời 21% (đủ tháng) hoặc 21–30% (sinh non), chuẩn độ theo bảng SpO2 NRP</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>SpO2 98–100% ở trẻ non:</b></span> tăng oxy máu gây bong võng mạc ROP và BPD → <span style=\"color:#51cf66\"><b>báo động ở 90% và 96%, giữ dải 91–95%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ non thiếu hệ thống chống oxy hóa và mạch võng mạc đang phát triển nên chịu oxy cao kém; 'hồng hào' không phải mục tiêu, dải SpO2 mới là mục tiêu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 1 và 5)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-03",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>bóp bóng áp lực cao sau khi bơm Surfactant</b></span>: <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>cách phòng ngừa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hậu quả:</b></span> sau surfactant độ giãn nở phổi tăng vọt; bóp bóng với áp lực cũ gây <span style=\"color:#ff6b6b\"><b>vỡ phế nang và tràn khí màng phổi tức thì</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Phòng ngừa:</b></span> tiếp tục <span style=\"color:#51cf66\"><b>nCPAP tự thở nhẹ nhàng</b></span>; nếu trẻ thở máy phải <span style=\"color:#51cf66\"><b>giảm ngay áp lực đỉnh PIP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Áp lực cần thiết trước đây để mở phổi cứng giờ trở nên quá cao với phổi đã mềm; cần hạ áp lực chủ động cùng nhịp phục hồi của phổi.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 2)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-04",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>đẻ mổ thở nhanh > 60 l/p tiêm kháng sinh</b></span>: <span style=\"color:#ff6b6b\"><b>bản chất thật</b></span>, <span style=\"color:#ff6b6b\"><b>vì sao kháng sinh sai</b></span> và <span style=\"color:#51cf66\"><b>xử trí chuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bản chất:</b></span> sinh lý chậm hấp thu dịch phế nang (<span style=\"color:#74c0fc\"><b>TTN</b></span>) do thiếu hoạt hóa ENaC.<br>2) <span style=\"color:#ff6b6b\"><b>Kháng sinh hoàn toàn vô tác dụng</b></span> và gây loạn khuẩn.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> hỗ trợ <span style=\"color:#51cf66\"><b>CPAP nhẹ 4–5 cmH2O</b></span>; bệnh tự thuyên giảm sau <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> khi dịch được hấp thu.<br><br><b>💡 Giải thích của AI:</b><br>Thở nhanh đơn thuần ở trẻ mổ chủ động, tươi, ít co kéo thì đáp án thường là ứ dịch chứ không phải nhiễm trùng. Kháng sinh không đẩy nhanh việc hấp thu dịch.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 3)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-05",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>đặt NKQ hút phân su thường quy</b></span>: <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>quy định của NRP 8th khi trẻ không thở</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hậu quả:</b></span> chấn thương thanh quản, phù nề đường thở, <span style=\"color:#ff6b6b\"><b>chậm trễ hồi sức tim phổi</b></span>, tăng nguy cơ tử vong.<br>2) <span style=\"color:#51cf66\"><b>NRP 8th đã bãi bỏ hoàn toàn quy trình này.</b></span><br>3) <span style=\"color:#51cf66\"><b>Nếu trẻ không thở/ngừng tim</b></span> → tiến hành <span style=\"color:#51cf66\"><b>thông khí áp lực dương (PPV) ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi giây chậm trễ thông khí ở trẻ không thở là thiếu oxy; hút mù dưới thanh môn không làm giảm MAS mà tăng chấn thương và làm trễ thông khí.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 4)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-06",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>Curosurf 100 mg/kg tương đương 200 mg/kg</b></span>: <span style=\"color:#ff6b6b\"><b>bằng chứng phản bác</b></span> và <span style=\"color:#51cf66\"><b>liều nạp chuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai:</b></span> nghiên cứu Ramanathan chứng minh <span style=\"color:#ffd43b\"><b>liều 200 mg/kg</b></span> giảm tỷ lệ tử vong sơ sinh vượt trội và giảm nhu cầu bơm liều nhắc lại.<br>2) <span style=\"color:#51cf66\"><b>Luôn khởi đầu Poractant alfa (Curosurf) 200 mg/kg (2.5 mL/kg).</b></span><br><br><b>💡 Giải thích của AI:</b><br>Liều đủ ngay từ lần đầu giúp phủ surfactant đủ lên phế nang, hạn chế phải bơm lại.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 6)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-07",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>chênh SpO2 Pre/Post < 5% loại trừ PPHN</b></span>: <span style=\"color:#ff6b6b\"><b>cơ chế shunt tầng nhĩ</b></span> và <span style=\"color:#51cf66\"><b>cách phối hợp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hậu quả:</b></span> nếu shunt Phải – Trái chủ yếu qua <span style=\"color:#74c0fc\"><b>lỗ bầu dục (PFO)</b></span>, SpO2 tay phải và chân đều tụt thấp như nhau (chênh <span style=\"color:#ffd43b\"><b>< 5%</b></span>).<br>2) <span style=\"color:#51cf66\"><b>Phòng ngừa:</b></span> phối hợp <span style=\"color:#51cf66\"><b>siêu âm tim Doppler đo vận tốc hở van 3 lá</b></span> để ước tính áp lực động mạch phổi.<br><br><b>💡 Giải thích của AI:</b><br>Chênh SpO2 chỉ bắt được shunt ở mức ống động mạch; shunt tầng nhĩ làm mọi nơi nhận máu pha trộn như nhau.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 7)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B8-08",
+      "type": "basic",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "tier": 2,
+      "front": "Bẫy <span style=\"color:#ff6b6b\"><b>cài CPAP PEEP 4 cmH2O ở trẻ non</b></span>: <span style=\"color:#ff6b6b\"><b>vì sao sai</b></span> và <span style=\"color:#51cf66\"><b>PEEP chuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai:</b></span> áp lực <span style=\"color:#ffd43b\"><b>4 cmH2O</b></span> không đủ thắng áp lực mở phế nang tới hạn nên phế nang tiếp tục xẹp cuối thở ra.<br>2) <span style=\"color:#51cf66\"><b>PEEP khởi đầu chuẩn theo Đồng thuận Châu Âu 2023: 6–8 cmH2O</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>PEEP là rào chắn chống xẹp; thấp hơn ngưỡng mở tới hạn thì rào chắn không có tác dụng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 8)",
+      "tags": [
+        "PED-13",
+        "B8"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-01",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 1,
+      "front": "Bốn checkpoint tự kiểm tra và <span style=\"color:#ffd43b\"><b>2 ca lâm sàng 5 bước</b></span> của bài kiểm tra những <span style=\"color:#74c0fc\"><b>quyết định nào</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Checkpoint 1:</b></span> phân biệt xử trí RDS và TTN.<br>2) <span style=\"color:#74c0fc\"><b>Checkpoint 2:</b></span> nhận định ca suy hô hấp trơ có chênh SpO2 (PPHN sau MAS).<br>3) <span style=\"color:#74c0fc\"><b>Checkpoint 3:</b></span> chỉ định Surfactant trên trẻ cực non thở nCPAP (không chờ X-quang).<br>4) <span style=\"color:#74c0fc\"><b>Checkpoint 4:</b></span> xử trí tràn khí màng phổi áp lực đột ngột.<br>5) <span style=\"color:#74c0fc\"><b>Ca 1:</b></span> RDS trẻ 29 tuần, bơm Surfactant bằng LISA. <span style=\"color:#74c0fc\"><b>Ca 2:</b></span> MAS biến chứng PPHN.<br><br><b>💡 Giải thích của AI:</b><br>Các ca đều đi theo khung 5 bước: nhận diện nguy cơ/cờ đỏ, chẩn đoán, chọn can thiệp, thực hiện, theo dõi. Luyện bằng ca là cách gắn cơ chế với hành động.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 9 và mục 10",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-02",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Checkpoint 1: <span style=\"color:#74c0fc\"><b>Ca A (29 tuần, sinh thường, thở rên, Silverman 7)</b></span> và <span style=\"color:#74c0fc\"><b>Ca B (38 tuần, mổ chủ động, thở 85 l/p, Silverman 2)</b></span>: <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>xử trí khác nhau</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ca A: RDS</b></span> (thiếu Surfactant nguyên phát, mất FRC) → <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 + chuẩn bị Surfactant sớm (Curosurf 200 mg/kg bằng LISA) trong 2 giờ đầu đời</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Ca B: TTN</b></span> (chậm thanh thải dịch do thiếu đỉnh Catecholamine kích hoạt ENaC) → <span style=\"color:#51cf66\"><b>oxy canula hoặc nCPAP nhẹ PEEP 4–5</b></span>, theo dõi sát; <span style=\"color:#ff6b6b\"><b>tuyệt đối không kháng sinh, không lợi tiểu</b></span>; tự thoái lui sau <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ca A có thở rên, X-quang lưới hạt và là sinh non nên thiếu surfactant; Ca B tươi, không rên, X-quang ứ dịch nên chỉ ứ dịch. Hai xử trí khác nhau hoàn toàn vì hai cơ chế khác nhau.",
+      "extra": "📖 Nguồn: Bài PED-13, Checkpoint 1",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-03",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Checkpoint 2: bé 40 tuần, ối phân su, CPAP FiO2 <span style=\"color:#ffd43b\"><b>60%</b></span>, SpO2 tay phải <span style=\"color:#ffd43b\"><b>92%</b></span>, chân <span style=\"color:#ffd43b\"><b>78%</b></span>: <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span>, <span style=\"color:#ff6b6b\"><b>cơ chế dòng máu</b></span> và <span style=\"color:#51cf66\"><b>xử trí khẩn cấp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chẩn đoán:</b></span> <span style=\"color:#74c0fc\"><b>PPHN</b></span> biến chứng sau <span style=\"color:#74c0fc\"><b>MAS</b></span> (chênh <span style=\"color:#ffd43b\"><b>14%</b></span>).<br>2) <span style=\"color:#ff6b6b\"><b>Cơ chế:</b></span> toan máu + thiếu oxy → co thắt tiểu động mạch phổi, PVR > SVR; máu tĩnh mạch nghèo oxy từ thất phải đi ngược qua PDA vào ĐMC xuống; thân cánh tay đầu (nuôi tay phải) xuất phát trước PDA nên tay phải giàu oxy hơn → chênh Pre/Post ≥ 10%.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> <span style=\"color:#51cf66\"><b>thở máy bảo vệ phổi HFOV + khí iNO 20 ppm</b></span> giãn chọn lọc mạch phổi, đảo chiều shunt.<br><br><b>💡 Giải thích của AI:</b><br>Hạ oxy máu trơ với FiO2 60% và chênh SpO2 lớn không thể là bệnh nhu mô thuần túy; tay phải 'sạch' hơn chân là dấu ấn của shunt qua PDA.",
+      "extra": "📖 Nguồn: Bài PED-13, Checkpoint 2",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-04",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Checkpoint 3: bé <span style=\"color:#ffd43b\"><b>27 tuần 4 ngày, 980g</b></span>, nCPAP PEEP 6, 90 phút tuổi, Silverman <span style=\"color:#ffd43b\"><b>5</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>0.35</b></span> để SpO2 92%: có <span style=\"color:#ff6b6b\"><b>chờ X-quang</b></span> không, <span style=\"color:#ffd43b\"><b>ngưỡng FiO2</b></span> nào và <span style=\"color:#51cf66\"><b>cách bơm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG chờ X-quang</b></span> → <span style=\"color:#51cf66\"><b>chỉ định bơm Surfactant ngay lập tức</b></span>.<br>2) Ngưỡng: trẻ <span style=\"color:#ffd43b\"><b>< 28 tuần</b></span> trên nCPAP PEEP ≥ 6 cần <span style=\"color:#ffd43b\"><b>FiO2 ≥ 0.30</b></span> là đủ tiêu chuẩn chẩn đoán suy thất bại CPAP do thiếu Surfactant (bé đang cần 0.35).<br>3) Chờ X-quang làm mất <span style=\"color:#ffd43b\"><b>thời điểm vàng 2–3 giờ đầu</b></span>; bơm sớm tái lập FRC trước khi phản ứng viêm màng Hyaline hình thành.<br>4) <span style=\"color:#51cf66\"><b>Poractant alfa (Curosurf) 200 mg/kg (khoảng 2.5 mL)</b></span> bằng <span style=\"color:#51cf66\"><b>LISA</b></span>, tiếp tục duy trì nCPAP.<br><br><b>💡 Giải thích của AI:</b><br>Tiêu chuẩn sinh học (nhu cầu oxy trên nền PEEP tối ưu) đã đủ; X-quang chỉ thêm độ trễ vào thời điểm mỗi phút đều quan trọng.",
+      "extra": "📖 Nguồn: Bài PED-13, Checkpoint 3",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-05",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Checkpoint 4: trẻ 30 tuần thở máy vì RDS, nhịp tim <span style=\"color:#ffd43b\"><b>70</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>94% → 60%</b></span>, ngực phải căng, mất rì rào: <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span>, <span style=\"color:#ff6b6b\"><b>vì sao nguy hiểm</b></span> và <span style=\"color:#51cf66\"><b>3 hành động trong 30 giây</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chẩn đoán:</b></span> <span style=\"color:#74c0fc\"><b>tràn khí màng phổi áp lực bên phải (Tension Pneumothorax)</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Nguy hiểm:</b></span> đè bẹp nhu mô phổi và đẩy lệch trung thất, cản máu tĩnh mạch về tim → tụt huyết áp, ngừng tuần hoàn cận kề; <span style=\"color:#ff6b6b\"><b>tuyệt đối không chờ chụp X-quang</b></span>.<br>3) <span style=\"color:#51cf66\"><b>1) Soi đèn xuyên thấu nhanh thành ngực phải thấy sáng rực; 2) chọc kim luồn 20–22G vuông góc vào khoang liên sườn 2 trên đường giữa xương đòn phải, sát bờ trên xương sườn dưới (tránh bó mạch thần kinh gian sườn); 3) chuẩn bị bộ dụng cụ đặt ống dẫn lưu màng phổi kín hút áp lực âm liên tục.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Chọc sát bờ trên xương sườn dưới vì bó mạch thần kinh gian sườn chạy dọc bờ dưới xương sườn trên. Khi giải áp thành công khí xì ra và nhịp tim, SpO2 hồi phục nhanh.",
+      "extra": "📖 Nguồn: Bài PED-13, Checkpoint 4",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-06",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 1 (RDS 29 1/7 tuần, 1200g): <span style=\"color:#ff6b6b\"><b>dữ kiện nhận diện</b></span> (Silverman, FiO2, SpO2, X-quang), <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>chế phẩm</b></span> được chọn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguy cơ: 29 tuần, 1200g, chỉ tiêm <span style=\"color:#ffd43b\"><b>1 mũi Dexamethasone</b></span> trước sinh 6 giờ → nguy cơ RDS gần 100%.<br>2) Lúc 60 phút: nCPAP PEEP 6, <span style=\"color:#ffd43b\"><b>FiO2 0.35</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>91%</b></span>, nhịp thở <span style=\"color:#ffd43b\"><b>64 l/p</b></span>, <span style=\"color:#ffd43b\"><b>Silverman 6</b></span> (thở rên qua ống nghe 1, co kéo liên sườn rõ 2, rút lõm hõm ức nhẹ 1, phập phồng cánh mũi rõ 2, ngực bụng cùng chiều 0).<br>3) X-quang lưới hạt đậm + phế quản khí hạt trong bóng tim → <span style=\"color:#74c0fc\"><b>RDS độ 2–3</b></span>; FiO2 0.35 ≥ 0.30 → <span style=\"color:#ff6b6b\"><b>đạt ngưỡng can thiệp Surfactant</b></span>.<br>4) Chọn <span style=\"color:#51cf66\"><b>Poractant alfa (Curosurf) phổi lợn đậm đặc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bốn dữ kiện (non tháng, thiếu corticoid, FiO2 ≥ 0.30 trên PEEP 6, X-quang đặc trưng) đều trỏ cùng một hướng nên không cần chờ thêm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca lâm sàng 1 (bước 1–3)",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-07",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 1: <span style=\"color:#51cf66\"><b>tính liều</b></span> Curosurf cho trẻ <span style=\"color:#ffd43b\"><b>1.2 kg</b></span>, <span style=\"color:#51cf66\"><b>các bước LISA đã làm</b></span> và <span style=\"color:#51cf66\"><b>kế hoạch sau bơm</b></span> (FiO2, Silverman)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Liều: <span style=\"color:#ffd43b\"><b>1.2 kg × 200 mg/kg = 240 mg ≈ 3.0 mL</b></span> (lọ 1.5 mL hoặc 3.0 mL); làm ấm lọ trong lòng bàn tay.<br>2) LISA: giữ nCPAP PEEP 6; đèn lưỡi thẳng số 0; kẹp Magill luồn Surfcath qua dây thanh sâu <span style=\"color:#ffd43b\"><b>1.2 cm</b></span>; rút đèn, cố định ở khóe môi; bơm chậm <span style=\"color:#ffd43b\"><b>3.0 mL trong 2 phút</b></span> theo nhịp tự thở (SpO2 thoáng tụt 86% rồi tự hồi phục); rút catheter ngay; <span style=\"color:#ff6b6b\"><b>không bóp bóng áp lực cao</b></span>.<br>3) Sau 15 phút: tiếng rên biến mất, SpO2 lên <span style=\"color:#ffd43b\"><b>98%</b></span>; <span style=\"color:#51cf66\"><b>giảm FiO2 từ 35% → 25% → 21% trong 30 phút</b></span> để tránh ROP; Silverman <span style=\"color:#ffd43b\"><b>6 → 1</b></span> sau 2 giờ, không cần đặt NKQ.<br><br><b>💡 Giải thích của AI:</b><br>Hành động quan trọng nhất sau bơm là chủ động giảm oxy vì phổi hồi phục nhanh; nếu để FiO2 cao sẽ gây ngộ độc oxy trong vài phút.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca lâm sàng 1 (bước 3–5)",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-08",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 2 (MAS 41 tuần 4 ngày, 3600g): <span style=\"color:#ff6b6b\"><b>cờ đỏ nhận diện</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 Pre/Post</b></span>, <span style=\"color:#ff6b6b\"><b>chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>cài đặt HFOV</b></span> (ống NKQ, MAP, tần số, biên độ)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Già tháng, ối xanh đen đặc, hồi sức PPV 1 phút; lúc 2 giờ suy hô hấp dữ dội, ngực thùng, thở rên tai trần, tím toàn thân, móng và dây rốn nhuộm phân su; nhịp tim <span style=\"color:#ffd43b\"><b>175</b></span>, CRT <span style=\"color:#ffd43b\"><b>3.5 s</b></span>, HA <span style=\"color:#ffd43b\"><b>58/32</b></span>.<br>2) SpO2 Pre <span style=\"color:#ffd43b\"><b>86%</b></span> (FiO2 0.80), Post <span style=\"color:#ffd43b\"><b>70%</b></span> → chênh <span style=\"color:#ff6b6b\"><b>16% (≥ 10%)</b></span> = shunt Phải – Trái khổng lồ qua PDA.<br>3) <span style=\"color:#ff6b6b\"><b>Chẩn đoán:</b></span> <span style=\"color:#74c0fc\"><b>MAS thể nặng biến chứng PPHN</b></span> – giảm oxy máu trơ / sốc tuần hoàn sơ sinh.<br>4) <span style=\"color:#51cf66\"><b>HFOV:</b></span> NKQ <span style=\"color:#ffd43b\"><b>3.5 mm cố định 9.5 cm</b></span>; MAP <span style=\"color:#ffd43b\"><b>14–16 cmH2O</b></span>; tần số <span style=\"color:#ffd43b\"><b>10 Hz (600 nhịp/phút)</b></span>; biên độ chuẩn độ để ngực rung nhẹ xuống tới ngang đùi.<br><br><b>💡 Giải thích của AI:</b><br>CPAP thất bại và nguy cơ vỡ phổi cao do bẫy khí, nên chuyển HFOV: mở phổi bằng MAP mà tránh áp lực đỉnh. Chênh 16% trong bối cảnh FiO2 0.80 là bằng chứng PPHN rõ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca lâm sàng 2 (bước 1–3)",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B9-09",
+      "type": "basic",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 2: <span style=\"color:#51cf66\"><b>liều iNO</b></span>, <span style=\"color:#51cf66\"><b>hồi sức huyết động</b></span> (dịch, vận mạch), <span style=\"color:#51cf66\"><b>liều Surfactant</b></span>, <span style=\"color:#ffd43b\"><b>đáp ứng sau 30 phút</b></span> và <span style=\"color:#ff6b6b\"><b>theo dõi/cai iNO</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>iNO</b></span> khởi đầu <span style=\"color:#ffd43b\"><b>20 ppm</b></span> vào đường thở HFOV (giãn chọn lọc, không tụt huyết áp toàn thân).<br>2) Duy trì <span style=\"color:#ff6b6b\"><b>SVR > PVR</b></span>: bolus NaCl 0.9% <span style=\"color:#ffd43b\"><b>10 mL/kg (36 mL) trong 30 phút</b></span>; <span style=\"color:#51cf66\"><b>Dopamine 5–10 mcg/kg/phút + Dobutamine 5 mcg/kg/phút</b></span> để ép đảo chiều shunt PDA.<br>3) <span style=\"color:#51cf66\"><b>Surfactant</b></span> (phân su làm bất hoạt thứ phát): Poractant alfa <span style=\"color:#ffd43b\"><b>200 mg/kg (720 mg = 9.0 mL)</b></span> qua NKQ.<br>4) Sau 30 phút: SpO2 tay phải <span style=\"color:#ffd43b\"><b>86 → 95%</b></span>, chân <span style=\"color:#ffd43b\"><b>70 → 92%</b></span> (chênh < 3%), HA <span style=\"color:#ffd43b\"><b>68/42</b></span>, shunt đảo thành Trái – Phải; vận tốc hở van 3 lá <span style=\"color:#ffd43b\"><b>4.2 → 2.8 m/s</b></span>.<br>5) Theo dõi Methemoglobin mỗi <span style=\"color:#ffd43b\"><b>12 giờ</b></span> (1.2% < 2.5%); ổn định sau <span style=\"color:#ffd43b\"><b>24–48h</b></span> thì giảm iNO <span style=\"color:#ffd43b\"><b>mỗi 5 ppm</b></span> để tránh <span style=\"color:#ff6b6b\"><b>tăng áp phổi dội ngược</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba chân kiềng huyết động: giãn mạch phổi (iNO), nâng SVR (vận mạch), và sửa nhu mô (surfactant). Giảm iNO từng bước vì nội mô vẫn đang ức chế eNOS nên cắt đột ngột sẽ làm mạch phổi co lại.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca lâm sàng 2 (bước 4–5)",
+      "tags": [
+        "PED-13",
+        "B9"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-01",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 1,
+      "front": "10 mẹo thực hành lâm sàng của bài gồm những mẹo nào (nêu <span style=\"color:#ffd43b\"><b>đủ 10</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ủ ấm lọ Surfactant</b></span> trong lòng bàn tay, không dùng nước sôi/lò vi sóng.<br>2) <span style=\"color:#ff6b6b\"><b>Không lắc mạnh lọ Surfactant</b></span>.<br>3) Bộc lộ dây thanh LISA ở <span style=\"color:#74c0fc\"><b>tư thế ngửi hoa</b></span>, đợi trẻ hít vào dây thanh mở.<br>4) <span style=\"color:#51cf66\"><b>Giảm FiO2 ngay</b></span> khi SpO2 vọt lên 95% sau bơm.<br>5) <span style=\"color:#51cf66\"><b>Kẹp SpO2 tay phải trước</b></span> khi mở monitor.<br>6) Mang đèn pin LED để soi <span style=\"color:#74c0fc\"><b>tràn khí màng phổi</b></span>.<br>7) <span style=\"color:#ff6b6b\"><b>Thở rên khẽ</b></span> cũng là dấu hiệu xẹp phế nang → nCPAP ngay.<br>8) <span style=\"color:#ff6b6b\"><b>Không dùng Furosemide điều trị TTN</b></span>.<br>9) Hút phân su bằng ống <span style=\"color:#ffd43b\"><b>10–12 Fr</b></span> ở miệng họng mũi; không đặt NKQ hút mù.<br>10) Nghe <span style=\"color:#74c0fc\"><b>tiếng thổi liên tục (Machinery murmur)</b></span> sau bơm 24–48 giờ → nghĩ hsPDA.<br><br><b>💡 Giải thích của AI:</b><br>Mười mẹo đều là chi tiết nhỏ nhưng ảnh hưởng trực tiếp đến kết cục: nhiệt độ thuốc, tư thế, thời điểm giảm oxy, vị trí đo SpO2 và dấu hiệu sớm của biến chứng.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-02",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "front": "Mẹo về <span style=\"color:#74c0fc\"><b>lọ Surfactant</b></span>: <span style=\"color:#51cf66\"><b>cách làm ấm</b></span> (thời gian, nhiệt độ), <span style=\"color:#ff6b6b\"><b>điều cấm kỵ</b></span> và <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> khi lạnh hoặc lắc mạnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Làm ấm:</b></span> lăn nhẹ lọ trong hai lòng bàn tay <span style=\"color:#ffd43b\"><b>10–15 phút</b></span> để đạt <span style=\"color:#ffd43b\"><b>25–37°C</b></span>; <span style=\"color:#ff6b6b\"><b>tuyệt đối không ngâm nước sôi hoặc lò vi sóng</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Surfactant lạnh</b></span> vào khí quản gây co thắt phế quản và nhịp tim chậm phản xạ.<br>3) <span style=\"color:#ff6b6b\"><b>Không lắc mạnh:</b></span> làm nổi bọt protein, phá vỡ cấu trúc micelle phospholipid, mất hoạt tính; chỉ <span style=\"color:#51cf66\"><b>đảo ngược lọ nhẹ nhàng vài lần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Surfactant là hệ phospholipid–protein nhạy với nhiệt và lực cơ học; làm ấm tự nhiên giữ cấu trúc, lắc mạnh phá cấu trúc.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 1–2)",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-03",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "front": "Mẹo bộc lộ dây thanh khi <span style=\"color:#74c0fc\"><b>LISA</b></span> (tư thế, thời điểm đưa ống) và ý nghĩa của <span style=\"color:#ff6b6b\"><b>tiếng thở rên khẽ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tư thế ngửi hoa (Sniffing position)</b></span>; dùng lưỡi đèn nâng nhẹ nắp thanh môn; <span style=\"color:#51cf66\"><b>đợi trẻ tự thở hít vào, dây thanh mở rộng</b></span> rồi nhẹ nhàng đưa đầu catheter vào giữa hai dây thanh.<br>2) <span style=\"color:#ff6b6b\"><b>Thở rên khẽ</b></span> (chỉ nghe qua ống nghe) vẫn là phản xạ tự tạo PEEP để cứu phế nang → dấu hiệu phế nang đang xẹp → <span style=\"color:#51cf66\"><b>cần nCPAP ngay lập tức</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ tự thở nên dây thanh tự mở theo nhịp hít vào: đưa ống đúng lúc tránh va chạm và co thắt thanh môn.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 3 và 7)",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-04",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "front": "Mẹo <span style=\"color:#51cf66\"><b>giảm FiO2 sau bơm</b></span> (ngưỡng SpO2, hậu quả nếu chậm) và <span style=\"color:#51cf66\"><b>vị trí kẹp sensor SpO2</b></span> đầu tiên: <span style=\"color:#ffd43b\"><b>tay nào</b></span>, vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Giảm FiO2 ngay</b></span> khi SpO2 vọt lên <span style=\"color:#ffd43b\"><b>95%</b></span> sau bơm; độ giãn nở phục hồi rất nhanh, để FiO2 cao trẻ sẽ <span style=\"color:#ff6b6b\"><b>ngộ độc oxy trong vài phút</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Kẹp sensor SpO2 tay phải trước khi mở monitor:</b></span> tay phải là cửa sổ phản ánh chính xác oxy cung cấp cho não và võng mạc (<span style=\"color:#74c0fc\"><b>Pre-ductal</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Cả hai mẹo cùng bảo vệ não và võng mạc: đo đúng chỗ để biết oxy thật sự đến đâu, và rút oxy kịp thời để không thừa.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 4–5)",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-05",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "front": "Mẹo nhận diện nhanh <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi</b></span> bằng đèn và dấu hiệu nghe <span style=\"color:#74c0fc\"><b>hsPDA</b></span> sau bơm Surfactant: <span style=\"color:#51cf66\"><b>cách làm</b></span> và <span style=\"color:#ffd43b\"><b>thời điểm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đèn pin LED/đèn soi ven:</b></span> khi trẻ thở máy suy sụp đột ngột, tắt đèn phòng, áp đèn vào ngực; <span style=\"color:#ff6b6b\"><b>ánh sáng đỏ rực cả nửa lồng ngực</b></span> = tràn khí áp lực → chọc kim ngay.<br>2) <span style=\"color:#ffd43b\"><b>Sau bơm 24–48 giờ:</b></span> tiếng thổi tâm thu hoặc liên tục kiểu <span style=\"color:#74c0fc\"><b>tiếng máy (Machinery murmur)</b></span> ở khoang liên sườn 2 dưới đòn trái kèm mạch nảy mạnh → nghĩ hsPDA do giảm sức cản phổi.<br><br><b>💡 Giải thích của AI:</b><br>Một dụng cụ rẻ tiền (đèn) cho phép chẩn đoán trước khi có phim; tiếng thổi máy móc phản ánh dòng shunt liên tục qua ống mở lại.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 6 và 10)",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B10-06",
+      "type": "basic",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "tier": 2,
+      "front": "Mẹo về <span style=\"color:#ff6b6b\"><b>Furosemide trong TTN</b></span> và <span style=\"color:#51cf66\"><b>kỹ thuật hút phân su hiện đại</b></span>: <span style=\"color:#ff6b6b\"><b>lý do cấm</b></span> và <span style=\"color:#51cf66\"><b>kích cỡ ống, vị trí hút</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không dùng Furosemide điều trị TTN:</b></span> nước nằm ở lòng phế nang và mô kẽ chứ không phải ứ dịch do suy tim; thuốc gây mất nước, hạ huyết áp mà <span style=\"color:#ffd43b\"><b>thời gian hấp thu dịch phổi không rút ngắn</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hút phân su:</b></span> chỉ hút sạch miệng họng mũi bằng ống <span style=\"color:#ffd43b\"><b>10–12 Fr</b></span>; <span style=\"color:#ff6b6b\"><b>không đặt NKQ hút mù mò</b></span> nếu trẻ đang cần hồi sức bóp bóng.<br><br><b>💡 Giải thích của AI:</b><br>Lợi tiểu tác động lên thận chứ không lên dịch trong phế nang; hút phân su mù làm trễ hồi sức.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 8–9)",
+      "tags": [
+        "PED-13",
+        "B10"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B11-01",
+      "type": "basic",
+      "section": "B11",
+      "category": "Nguyên tắc vàng",
+      "tier": 1,
+      "front": "10 nguyên tắc vàng buồng bệnh suy hô hấp sơ sinh là gì (nêu <span style=\"color:#ffd43b\"><b>đủ 10 nguyên tắc</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Khởi đầu nCPAP sớm PEEP 6–8 cmH2O.</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Không hồi sức bằng oxy 100% tự do</b></span> (21% đủ tháng, 21–30% sinh non, blender).<br>3) Dải SpO2 mục tiêu trẻ sinh non <span style=\"color:#ffd43b\"><b>91–95%</b></span>, báo động <span style=\"color:#ffd43b\"><b>90% và 96%</b></span>.<br>4) Liều nạp Curosurf <span style=\"color:#ffd43b\"><b>200 mg/kg</b></span> (2.5 mL/kg).<br>5) Ngưỡng Surfactant: <span style=\"color:#ffd43b\"><b>< 28 tuần FiO2 ≥ 30%; ≥ 28 tuần FiO2 ≥ 30–40%</b></span>, can thiệp sớm trong 2–3 giờ đầu.<br>6) <span style=\"color:#51cf66\"><b>Ưu tiên LISA/MIST</b></span>.<br>7) Phân biệt <span style=\"color:#74c0fc\"><b>TTN vs RDS</b></span>: TTN tự khỏi 24–48h, không kháng sinh, không lợi tiểu.<br>8) Chẩn đoán <span style=\"color:#74c0fc\"><b>PPHN</b></span> khi chênh SpO2 Pre/Post <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span>; iNO 20 ppm + vận mạch.<br>9) NRP 8th bãi bỏ đặt NKQ hút phân su thường quy; không thở → PPV ngay.<br>10) Cảnh giác <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi</b></span> khi suy sụp đột ngột: soi xuyên thấu, chọc kim khoang liên sườn 2 đường giữa đòn.<br><br><b>💡 Giải thích của AI:</b><br>Mười nguyên tắc gom lại thành ba trục: mở phổi sớm, kiểm soát oxy và áp lực, và nhận diện đúng bệnh.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 12",
+      "tags": [
+        "PED-13",
+        "B11"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B11-02",
+      "type": "basic",
+      "section": "B11",
+      "category": "Nguyên tắc vàng",
+      "tier": 2,
+      "front": "Chi tiết nguyên tắc vàng 1–5: <span style=\"color:#51cf66\"><b>chiến lược nCPAP</b></span>, <span style=\"color:#ff6b6b\"><b>oxy</b></span>, <span style=\"color:#ffd43b\"><b>SpO2 mục tiêu</b></span>, <span style=\"color:#51cf66\"><b>liều Curosurf</b></span> và <span style=\"color:#ffd43b\"><b>ngưỡng chỉ định</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên tắc 1: chiến lược mở phổi ngay từ phòng sinh là <span style=\"color:#51cf66\"><b>chìa khóa số 1</b></span> bảo vệ phổi trẻ sinh non mắc RDS.<br>2) Nguyên tắc 2: khởi đầu khí trời 21% (đủ tháng) hoặc <span style=\"color:#ffd43b\"><b>21–30%</b></span> (sinh non) qua Blender; chuẩn độ SpO2 theo bảng phút tuổi NRP.<br>3) Nguyên tắc 3: <span style=\"color:#ffd43b\"><b>SpO2 91–95%</b></span> ở trẻ non; báo động <span style=\"color:#ffd43b\"><b>90% và 96%</b></span> để phòng thiếu oxy não và mù lòa ROP.<br>4) Nguyên tắc 4: liều nạp <span style=\"color:#ffd43b\"><b>200 mg/kg</b></span> giảm tử vong vượt trội so với 100 mg/kg; thể tích gọn <span style=\"color:#ffd43b\"><b>2.5 mL/kg</b></span>.<br>5) Nguyên tắc 5: <span style=\"color:#ffd43b\"><b>< 28 tuần: FiO2 ≥ 30%; ≥ 28 tuần: FiO2 ≥ 30–40%</b></span>; can thiệp sớm trong <span style=\"color:#ffd43b\"><b>2–3 giờ đầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Năm nguyên tắc này cùng hướng tới một mục tiêu: phổi mở sớm, oxy vừa đủ, surfactant đủ liều và đúng lúc.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 12 (nguyên tắc 1–5)",
+      "tags": [
+        "PED-13",
+        "B11"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B11-03",
+      "type": "basic",
+      "section": "B11",
+      "category": "Nguyên tắc vàng",
+      "tier": 2,
+      "front": "Chi tiết nguyên tắc vàng 6–10: <span style=\"color:#51cf66\"><b>LISA/MIST</b></span>, <span style=\"color:#74c0fc\"><b>TTN vs RDS</b></span>, <span style=\"color:#74c0fc\"><b>PPHN</b></span>, <span style=\"color:#ff6b6b\"><b>hút phân su NRP 8th</b></span> và <span style=\"color:#ff6b6b\"><b>rò khí màng phổi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên tắc 6: <span style=\"color:#51cf66\"><b>luồn catheter mỏng qua thanh môn khi trẻ đang tự thở trên CPAP</b></span>, tránh NKQ và bóp bóng áp lực cao.<br>2) Nguyên tắc 7: trẻ mổ đẻ thở nhanh nông (TTN) do ứ dịch kênh ENaC, tự khỏi sau <span style=\"color:#ffd43b\"><b>24–48h</b></span>; <span style=\"color:#ff6b6b\"><b>không kháng sinh, không lợi tiểu</b></span>.<br>3) Nguyên tắc 8: chênh SpO2 Pre/Post <span style=\"color:#ffd43b\"><b>≥ 5–10%</b></span> → shunt Phải – Trái qua PDA; <span style=\"color:#51cf66\"><b>iNO 20 ppm + vận mạch</b></span>.<br>4) Nguyên tắc 9: NRP 8th bãi bỏ đặt NKQ hút phân su thường quy; trẻ ối phân su nếu không thở → <span style=\"color:#51cf66\"><b>PPV ngay</b></span>.<br>5) Nguyên tắc 10: suy sụp đột ngột → <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi áp lực</b></span>: soi xuyên thấu, <span style=\"color:#51cf66\"><b>chọc kim giải áp khoang liên sườn 2 đường giữa đòn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm nguyên tắc 6–10 là các 'quyết định phân nhánh': chọn kỹ thuật, tránh điều trị thừa, bắt cho được PPHN, không trì hoãn hồi sức và cứu tràn khí.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 12 (nguyên tắc 6–10)",
+      "tags": [
+        "PED-13",
+        "B11"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B11-04",
+      "type": "basic",
+      "section": "B11",
+      "category": "Nguyên tắc vàng ⚡",
+      "tier": 1,
+      "front": "Bảng kiểm bedside <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> & <span style=\"color:#51cf66\"><b>3 NÊN</b></span> trong suy hô hấp sơ sinh là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> cho oxy 100% tự do, không để SpO2 <span style=\"color:#ffd43b\"><b>98–100%</b></span> ở trẻ non (ROP, BPD).<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> chờ X-quang khi đã đạt ngưỡng FiO2 trên nCPAP (<span style=\"color:#ffd43b\"><b>< 28 tuần FiO2 ≥ 0.30</b></span>) – chỉ định Surfactant ngay.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> bóp bóng áp lực cao sau bơm Surfactant (tràn khí màng phổi).<br>4) <span style=\"color:#51cf66\"><b>NÊN</b></span> mở phổi bằng <span style=\"color:#51cf66\"><b>nCPAP PEEP 6–8 cmH2O ngay từ phòng sinh</b></span>.<br>5) <span style=\"color:#51cf66\"><b>NÊN</b></span> bơm Surfactant bằng <span style=\"color:#51cf66\"><b>LISA khi trẻ tự thở</b></span> và <span style=\"color:#51cf66\"><b>giảm nhanh FiO2</b></span> khi SpO2 tăng vọt.<br>6) <span style=\"color:#51cf66\"><b>NÊN</b></span> gắn SpO2 <span style=\"color:#51cf66\"><b>tay phải (Pre-ductal)</b></span>, giữ dải <span style=\"color:#ffd43b\"><b>91–95%</b></span> (báo động 90/96) và đo thêm chân khi nghi PPHN.<br><br><b>💡 Giải thích của AI:</b><br>Ba KHÔNG ngăn tổn thương do oxy, trì hoãn và áp lực; ba NÊN gom ba hành động bảo vệ phổi, kiểm soát oxy và theo dõi đúng chỗ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 12 và mục 8",
+      "tags": [
+        "PED-13",
+        "B11"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED13-B11-05",
+      "type": "basic",
+      "section": "B11",
+      "category": "Bảng kiểm",
+      "tier": 2,
+      "front": "Bảng kiểm an toàn tại giường (Ward Round Checklist) gồm <span style=\"color:#ffd43b\"><b>7 câu hỏi</b></span> nào về <span style=\"color:#74c0fc\"><b>Silverman</b></span>, <span style=\"color:#51cf66\"><b>PEEP</b></span>, <span style=\"color:#ffd43b\"><b>FiO2</b></span>, <span style=\"color:#74c0fc\"><b>SpO2 Pre-ductal</b></span>, <span style=\"color:#ffd43b\"><b>báo động</b></span>, <span style=\"color:#74c0fc\"><b>PPHN</b></span> và <span style=\"color:#ff6b6b\"><b>dụng cụ giải áp</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đã chấm điểm <span style=\"color:#74c0fc\"><b>Silverman-Andersen</b></span> để lượng hóa công thở chưa?<br>2) Áp lực nCPAP đã cài đủ <span style=\"color:#51cf66\"><b>PEEP 6–8 cmH2O</b></span> chưa?<br>3) Nhu cầu FiO2 trên CPAP có vượt ngưỡng <span style=\"color:#ffd43b\"><b>30–35%</b></span> để chỉ định Surfactant chưa?<br>4) Sensor SpO2 <span style=\"color:#74c0fc\"><b>Pre-ductal</b></span> đã gắn đúng <span style=\"color:#ffd43b\"><b>cổ tay phải</b></span> chưa?<br>5) Báo động SpO2 đã cài dải an toàn <span style=\"color:#ffd43b\"><b>90–96%</b></span> chưa?<br>6) Nếu nghi <span style=\"color:#74c0fc\"><b>PPHN</b></span>, đã đo SpO2 đối xứng tay phải và chân chưa?<br>7) Đã chuẩn bị sẵn <span style=\"color:#51cf66\"><b>bộ dụng cụ chọc kim giải áp tràn khí màng phổi</b></span> tại đầu giường chưa?<br><br><b>💡 Giải thích của AI:</b><br>Bảng kiểm biến nguyên tắc thành thói quen: mỗi câu hỏi tương ứng với một lỗi hay gặp (thiếu lượng hóa, PEEP thấp, trễ surfactant, đo SpO2 sai chỗ, báo động sai, bỏ sót PPHN, thiếu dụng cụ cấp cứu).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 12 (bảng kiểm)",
+      "tags": [
+        "PED-13",
+        "B11"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "track": "ebm"
+    },
+    {
+      "id": "PED13-B1-C01",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Bản chất sinh lý bệnh học căn nguyên của Bệnh màng trong (RDS) ở trẻ sinh non là tình trạng {{c1::thiếu hụt Surfactant nguyên phát}} do tế bào phế nang typ II chưa trưởng thành.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.1",
+      "legacy_note_id": 1789475773260,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C02",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Bản chất bệnh học của Thở nhanh thoáng qua ở trẻ sơ sinh (TTN) là hội chứng {{c1::chậm hấp thu dịch phế nang (phổi ướt)}} sau khi chào đời.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.2",
+      "legacy_note_id": 1789475773262,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C03",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Hội chứng hít phân su (MAS) đặc trưng bởi tam chứng tổn thương phổi gồm: {{c1::tắc nghẽn đường thở van 1 chiều, viêm phổi hóa học và bất hoạt Surfactant thứ phát}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.3",
+      "legacy_note_id": 1789475773264,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C04",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Bản chất huyết động học của Tăng áp động mạch phổi tồn tại sơ sinh (PPHN) là tình trạng sức cản mạch máu phổi (PVR) tăng cao duy trì luồng thông {{c1::Shunt Phải - Trái qua ống động mạch (PDA) và lỗ bầu dục (PFO)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.4",
+      "legacy_note_id": 1789475773266,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C05",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Hình ảnh X-quang ngực thẳng điển hình của Thở nhanh thoáng qua (TTN) là hình ảnh {{c1::ứ dịch rãnh liên thùy và đậm các nhánh mạch máu rốn phổi tỏa tia}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5",
+      "legacy_note_id": 1789475773318,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C06",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Hình ảnh X-quang ngực thẳng điển hình của Hội chứng hít phân su (MAS) là hình ảnh {{c1::thâm nhiễm dạng mảng thô loang lổ không đều xen kẽ các vùng phế nang ứ khí sáng}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5",
+      "legacy_note_id": 1789475773320,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B1-C07",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Bộ tứ",
+      "text": "Trên phim X-quang phổi của trẻ mắc PPHN vô căn đơn thuần, phế trường thường có đặc điểm {{c1::sáng bất thường do tình trạng thiếu máu tưới nuôi nhu mô phổi}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5",
+      "legacy_note_id": 1789475773322,
+      "tags": [
+        "PED-13",
+        "B1",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C01",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Theo Định luật Laplace về sức căng bề mặt hình cầu (P = 2T/r), khi thiếu Surfactant làm sức căng bề mặt T tăng cao, áp lực xẹp P sẽ {{c1::tăng vọt ở các phế nang có bán kính nhỏ}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 1",
+      "legacy_note_id": 1789475773268,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C02",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Lớp màng sợi màu hồng bao phủ lòng phế nang trong Bệnh màng trong (Màng Hyaline) có thành phần cấu tạo chính từ {{c1::Fibrin và các mảnh vụn tế bào biểu mô phế nang hoại tử}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 1",
+      "legacy_note_id": 1789475773274,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C03",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Kênh vận chuyển ion trên biểu mô phế nang giữ vai trò đảo chiều hấp thu Natri và dịch từ lòng phế nang vào mô kẽ trong chuyển dạ là {{c1::kênh ENaC (Epithelial Sodium Channel)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1 và mục 2",
+      "legacy_note_id": 1789475773276,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C04",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Cơ chế van một chiều (Ball-valve mechanism) trong Hội chứng hít phân su (MAS) giải thích vì sao trẻ bị {{c1::ứ khí phế nang cục bộ (bẫy khí) và tăng nguy cơ tràn khí màng phổi}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 3",
+      "legacy_note_id": 1789475773280,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C05",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Các thành phần trong phân su trực tiếp gây bất hoạt Surfactant thứ phát trong MAS gồm {{c1::muối mật, enzyme tụy, bilirubin và acid béo tự do}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 3",
+      "legacy_note_id": 1789475773282,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B2-C06",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Cơ chế",
+      "text": "Trong sinh lý bệnh của PPHN, tình trạng thiếu oxy phế nang và toan máu gây ức chế enzyme tổng hợp chất giãn mạch nội sinh là {{c1::eNOS (Endothelial Nitric Oxide Synthase)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 2, Chuỗi 4",
+      "legacy_note_id": 1789475773284,
+      "tags": [
+        "PED-13",
+        "B2",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C01",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Khái niệm 'Thời điểm vàng' để bơm Surfactant ở trẻ sinh non mắc Bệnh màng trong là trong vòng {{c1::2 đến 3 giờ đầu đời sau sinh}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.2",
+      "legacy_note_id": 1789475773286,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C01",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Thang điểm Silverman-Andersen dùng để đánh giá mức độ suy hô hấp sơ sinh gồm 5 tiêu chí với tổng điểm tối đa là {{c1::10 điểm}} (mỗi tiêu chí từ 0 đến 2 điểm).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773290,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C02",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Năm tiêu chí lâm sàng được chấm điểm trong thang điểm Silverman-Andersen gồm: {{c1::Di động ngực bụng, Co kéo liên sườn, Rút lõm hõm ức, Phập phồng cánh mũi, và Thở rên}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773292,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C03",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Trong thang điểm Silverman, tiêu chí 'Tiếng thở rên (Grunting)' được chấm 2 điểm tối đa khi {{c1::nghe rõ tiếng thở rên bằng TAI TRẦN}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773294,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C04",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Trong thang điểm Silverman, tiêu chí 'Di động ngực - bụng' được chấm 2 điểm khi có hiện tượng {{c1::ngực và bụng di động bập bênh nghịch thường}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773296,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C05",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Trong thang điểm Silverman, tiêu chí 'Phập phồng cánh mũi' được chấm 2 điểm khi {{c1::hai cánh mũi nở rộng liên tục}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773298,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C06",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Trong thang điểm Silverman, tiêu chí 'Rút lõm hõm ức' được chấm 2 điểm khi {{c1::hõm ức bị rút lõm rất sâu}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773300,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C07",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Trong thang điểm Silverman, tiêu chí 'Co kéo cơ liên sườn' được chấm 2 điểm khi {{c1::co kéo liên sườn rất sâu}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773302,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C08",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Tổng điểm Silverman-Andersen từ {{c1::4 đến 6 điểm}} tương ứng với mức độ Suy hô hấp trung bình, có chỉ định bắt buộc thiết lập thở nCPAP ngay lập tức.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773304,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C09",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Tổng điểm Silverman-Andersen đạt từ {{c1::≥ 7 điểm}} tương ứng với Suy hô hấp nặng đe dọa kiệt sức cơ, cần chuẩn bị thở máy xâm lấn và Surfactant khẩn cấp.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.1",
+      "legacy_note_id": 1789475773306,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C10",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Silverman",
+      "text": "Tiếng thở rên (Grunting) ở trẻ sơ sinh phát sinh do cơ chế sinh tồn khép một phần {{c1::dây thanh âm (thanh môn) ở thì thở ra}} nhằm tạo PEEP sinh lý.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1 và mục 11",
+      "legacy_note_id": 1789475773308,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C11",
+      "type": "cloze",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "text": "Hình ảnh X-quang ngực thẳng giai đoạn Độ 1 của Bệnh màng trong (RDS) đặc trưng bởi {{c1::lưới hạt phế nang nhỏ mịn rải rác đối xứng hai bên phế trường}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "legacy_note_id": 1789475773310,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C12",
+      "type": "cloze",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "text": "Hình ảnh X-quang ngực thẳng giai đoạn Độ 2 của RDS xuất hiện thêm dấu hiệu {{c1::Hình ảnh phế quản khí hạt (Air Bronchogram) nằm giới hạn trong bóng tim}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "legacy_note_id": 1789475773312,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C13",
+      "type": "cloze",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "text": "Hình ảnh X-quang ngực thẳng giai đoạn Độ 3 của RDS đặc trưng bởi hình ảnh phế quản khí hạt lan rộng ra tận 1/3 ngoài phế trường và {{c1::bờ tim cùng vòm hoành bắt đầu bị xóa mờ nhạt}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "legacy_note_id": 1789475773314,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C14",
+      "type": "cloze",
+      "section": "B3",
+      "category": "X-quang RDS",
+      "text": "Hình ảnh X-quang ngực thẳng giai đoạn Độ 4 (nguy kịch) của RDS được mô tả kinh điển là {{c1::Phổi trắng xóa hai bên hoàn toàn (White-out lungs)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.2",
+      "legacy_note_id": 1789475773316,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C15",
+      "type": "cloze",
+      "section": "B3",
+      "category": "SpO2 Pre/Post",
+      "text": "Kỹ thuật đo SpO2 Pre-ductal bắt buộc phải kẹp sensor ở vị trí {{c1::cổ tay phải hoặc mu bàn tay phải}} của trẻ sơ sinh.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3",
+      "legacy_note_id": 1789475773328,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C16",
+      "type": "cloze",
+      "section": "B3",
+      "category": "SpO2 Pre/Post",
+      "text": "Kỹ thuật đo SpO2 Post-ductal được thực hiện bằng cách kẹp sensor ở vị trí {{c1::bàn chân (hoặc tay trái)}} của trẻ sơ sinh.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3",
+      "legacy_note_id": 1789475773330,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C17",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Hyperoxia",
+      "text": "Nghiệm pháp thở Oxy 100% (Hyperoxia test) có kết quả PaO2 động mạch > 150 mmHg (hoặc tăng vọt > 250 mmHg) cho phép bác sĩ {{c1::loại trừ tim bẩm sinh tím có luồng thông cố định, khẳng định suy hô hấp do bệnh nhu mô phổi}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3",
+      "legacy_note_id": 1789475773332,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C18",
+      "type": "cloze",
+      "section": "B3",
+      "category": "SpO2 Pre/Post",
+      "text": "Tiêu chuẩn chẩn đoán xác định PPHN trên lâm sàng dựa vào sự chênh lệch độ bão hòa oxy SpO2 Pre-ductal (tay phải) và Post-ductal (chân) đạt ngưỡng {{c1::≥ 5% đến 10%}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3",
+      "legacy_note_id": 1789475773422,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B3-C19",
+      "type": "cloze",
+      "section": "B3",
+      "category": "SpO2 Pre/Post",
+      "text": "Nếu trẻ mắc PPHN có shunt Phải - Trái chủ yếu qua lỗ bầu dục (PFO) ở tầng nhĩ, SpO2 ở tay phải và chân sẽ có đặc điểm {{c1::cả hai vị trí đều tụt thấp như nhau (chênh lệch < 5%)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 3.3 và mục 8",
+      "legacy_note_id": 1789475773456,
+      "tags": [
+        "PED-13",
+        "B3",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C01",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Theo Hướng dẫn Hồi sức Sơ sinh (NRP 8th Edition), mục tiêu SpO2 chấp nhận được ở thời điểm 1 phút tuổi sau sinh chỉ là {{c1::60% đến 65%}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "legacy_note_id": 1789475773334,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C02",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Theo NRP 8th Edition, mục tiêu SpO2 chấp nhận được ở thời điểm 5 phút tuổi sau sinh là {{c1::80% đến 85%}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "legacy_note_id": 1789475773336,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C03",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Theo NRP 8th Edition, mục tiêu SpO2 bình thường của trẻ sơ sinh ở thời điểm 10 phút tuổi sau sinh là {{c1::85% đến 95%}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "legacy_note_id": 1789475773338,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C04",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Ở trẻ sơ sinh đủ tháng (≥ 35 tuần), nồng độ oxy khởi đầu khi bắt đầu hỗ trợ hô hấp tại phòng sinh là {{c1::khí trời tự nhiên (FiO2 = 21%)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "legacy_note_id": 1789475773340,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C05",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Ở trẻ sinh non (< 35 tuần), nồng độ oxy khởi đầu được khuyến cáo tại phòng sinh là {{c1::FiO2 từ 21% đến 30%}} qua bộ trộn khí (Blender).",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.1",
+      "legacy_note_id": 1789475773342,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C06",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Dải SpO2 mục tiêu chuẩn mực duy trì ở trẻ sinh non nằm điều trị tại NICU theo Đồng thuận Châu Âu 2023 là {{c1::91% đến 95%}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.2",
+      "legacy_note_id": 1789475773344,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C07",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Biến chứng nguy hiểm ở mắt do duy trì nồng độ oxy máu quá cao kéo dài ở trẻ sinh non là {{c1::Bệnh võng mạc ở trẻ đẻ non (ROP - Retinopathy of Prematurity)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.2",
+      "legacy_note_id": 1789475773346,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C08",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Biến chứng xơ phổi mạn tính do ngộ độc oxy ở trẻ sinh non được gọi là {{c1::Loạn sản phế quản phổi (BPD - Bronchopulmonary Dysplasia)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.2",
+      "legacy_note_id": 1789475773348,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C09",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Quản lý oxy",
+      "text": "Hiện tượng 'Ngộ độc oxy' (Oxygen Toxicity) tại nhu mô phổi sơ sinh được khởi phát bởi sự hình thành ồ ạt của {{c1::các gốc oxy hóa tự do (Reactive Oxygen Species — ROS)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.2",
+      "legacy_note_id": 1789475773350,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C10",
+      "type": "cloze",
+      "section": "B4",
+      "category": "nCPAP",
+      "text": "Theo Đồng thuận Châu Âu 2023, mức áp lực dương cuối thì thở ra (PEEP) khởi đầu tối ưu khi thở nCPAP cho trẻ sinh non mắc RDS là {{c1::6 đến 8 cmH2O}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.3",
+      "legacy_note_id": 1789475773354,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B4-C11",
+      "type": "cloze",
+      "section": "B4",
+      "category": "nCPAP",
+      "text": "Chiến lược 'Mở phổi' (Open Lung Approach) bằng nCPAP sớm có mục tiêu chính là {{c1::ngăn ngừa tổn thương phế nang do xẹp mở lặp lại (Atelectrauma)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 4.3",
+      "legacy_note_id": 1789475773356,
+      "tags": [
+        "PED-13",
+        "B4",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C02",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Chế phẩm Poractant alfa (Curosurf) có nguồn gốc sinh học được chiết xuất từ {{c1::phổi lợn (heo)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "legacy_note_id": 1789475773374,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C03",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Liều nạp khởi đầu khuyến cáo của Poractant alfa (Curosurf) theo Đồng thuận Châu Âu 2023 là {{c1::200 mg/kg (tương đương thể tích 2.5 mL/kg)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "legacy_note_id": 1789475773376,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C04",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Chế phẩm Beractant (Survanta) có nguồn gốc sinh học được chiết xuất từ {{c1::phổi bò}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "legacy_note_id": 1789475773378,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C05",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Liều khuyến cáo của Beractant (Survanta) trong điều trị RDS là {{c1::100 mg/kg tương đương thể tích 4.0 mL/kg}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.1",
+      "legacy_note_id": 1789475773380,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C06",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Trước khi bơm cho trẻ sơ sinh, lọ thuốc Surfactant bắt buộc phải được làm ấm tự nhiên đạt nhiệt độ {{c1::nhiệt độ phòng hoặc nhiệt độ cơ thể (25 °C đến 37 °C)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 và mục 11",
+      "legacy_note_id": 1789475773384,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C07",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Khi chuẩn bị lọ thuốc Surfactant, nhân viên y tế {{c1::TUYỆT ĐỐI KHÔNG ĐƯỢC lắc mạnh lọ thuốc}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11",
+      "legacy_note_id": 1789475773386,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C08",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Theo European Consensus 2023, ở trẻ sinh non < 28 tuần tuổi thai đang thở nCPAP PEEP 6 cmH2O, ngưỡng FiO2 chỉ định bơm Surfactant là {{c1::FiO2 ≥ 0.30 (30%)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.2",
+      "legacy_note_id": 1789475773388,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C09",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Theo European Consensus 2023, ở trẻ sinh non ≥ 28 tuần tuổi thai đang thở nCPAP PEEP 6 cmH2O, ngưỡng FiO2 chỉ định bơm Surfactant là {{c1::FiO2 ≥ 0.30 đến 0.40 (30–40%)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.2",
+      "legacy_note_id": 1789475773390,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C10",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Surfactant",
+      "text": "Khoảng thời gian tối thiểu để cân nhắc chỉ định bơm liều Surfactant thứ hai (Second dose) ở trẻ không đáp ứng là sau {{c1::6 đến 12 giờ}} kể từ liều đầu.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.2",
+      "legacy_note_id": 1789475773392,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C11",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Ngay sau khi bơm Surfactant thành công, hành động quan trọng hàng đầu của bác sĩ là phải {{c1::giảm nhanh nồng độ FiO2 trên máy trộn khí}} khi thấy SpO2 tăng vọt.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 và mục 11",
+      "legacy_note_id": 1789475773396,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C12",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Kỹ thuật LISA (Less Invasive Surfactant Administration) đưa Surfactant vào khí quản bằng cách dùng {{c1::một ống thông catheter mỏng luồn qua thanh môn khi trẻ đang tự thở nCPAP}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1 và mục 5.3",
+      "legacy_note_id": 1789475773398,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C13",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Dụng cụ luồn qua thanh môn trong kỹ thuật LISA thường là catheter chuyên dụng (Surfcath/Lisacath) hoặc catheter tĩnh mạch ngoại vi {{c1::Angiocath cỡ 16–18G (đã cắt bỏ kim kim loại)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 2)",
+      "legacy_note_id": 1789475773400,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C14",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Trong kỹ thuật LISA, độ sâu đưa đầu catheter qua dây thanh âm vào lòng khí quản là khoảng {{c1::1.0 đến 1.5 cm dưới dây thanh}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 4)",
+      "legacy_note_id": 1789475773402,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C15",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Thời gian bơm trọn vẹn liều Surfactant trong kỹ thuật LISA được khuyến cáo bơm chậm ngắt quãng trong vòng {{c1::1 đến 3 phút}} theo nhịp tự thở của trẻ.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 5)",
+      "legacy_note_id": 1789475773404,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C16",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Kỹ thuật LISA giúp giảm {{c1::hơn 50% nhu cầu phải thở máy xâm lấn trong 72 giờ đầu}} so với kỹ thuật đặt nội khí quản truyền thống.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (lợi ích lâm sàng)",
+      "legacy_note_id": 1789475773406,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C17",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Kỹ thuật InSurE truyền thống viết tắt của 3 từ tiếng Anh mô tả quy trình: {{c1::Intubation (Đặt nội khí quản) - Surfactant (Bơm thuốc) - Extubation (Rút ống chuyển CPAP)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 0.1",
+      "legacy_note_id": 1789475773408,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C18",
+      "type": "cloze",
+      "section": "B5",
+      "category": "LISA",
+      "text": "Sau khi bơm hết liều Surfactant qua kỹ thuật LISA, hành động tiếp theo của bác sĩ đối với ống catheter mỏng là {{c1::rút hoàn toàn catheter ra ngoài ngay lập tức}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 5.3 (bước 6)",
+      "legacy_note_id": 1789475773416,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B5-C19",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Ca lâm sàng",
+      "text": "Ở trẻ sinh non 29 tuần nặng 1200g bị RDS thở nCPAP cần FiO2 35%, liều Curosurf 200 mg/kg được tính là 240 mg tương đương thể tích {{c1::3.0 mL bơm qua kỹ thuật LISA}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 1",
+      "legacy_note_id": 1789475773458,
+      "tags": [
+        "PED-13",
+        "B5",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B7-C01",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Biến chứng",
+      "text": "Để phát hiện nhanh Tràn khí màng phổi áp lực tại giường ở trẻ sơ sinh thở máy đang suy sụp đột ngột, phương tiện soi tại chỗ nhạy nhất là {{c1::Đèn rọi xuyên thấu (Transillumination)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.1",
+      "legacy_note_id": 1789475773326,
+      "tags": [
+        "PED-13",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B7-C02",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Biến chứng",
+      "text": "Vị trí chọc kim giải áp cấp cứu trong Tràn khí màng phổi áp lực ở trẻ sơ sinh là {{c1::khoang liên sườn 2 trên đường giữa xương đòn bên tổn thương}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.1",
+      "legacy_note_id": 1789475773442,
+      "tags": [
+        "PED-13",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B7-C03",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Biến chứng",
+      "text": "Sau khi bơm Surfactant 24–48 giờ, biến chứng tim mạch thường xuất hiện do sức cản mạch phổi giảm nhanh là {{c1::Còn ống động mạch có ý nghĩa huyết động (hsPDA)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.2",
+      "legacy_note_id": 1789475773444,
+      "tags": [
+        "PED-13",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B7-C04",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Biến chứng",
+      "text": "Trong xử trí hsPDA sau bơm Surfactant, dịch truyền được hạn chế ở mức {{c1::60 đến 70 mL/kg/ngày}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 7.2",
+      "legacy_note_id": 1789475773446,
+      "tags": [
+        "PED-13",
+        "B7",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B6-C01",
+      "type": "cloze",
+      "section": "B6",
+      "category": "PPHN",
+      "text": "Khí Nitric Oxide hít (iNO) là thuốc giãn mạch phổi chọn lọc hàng đầu trong điều trị PPHN với liều khởi đầu chuẩn mực là {{c1::20 ppm (parts per million)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 1.5 và mục 10",
+      "legacy_note_id": 1789475773424,
+      "tags": [
+        "PED-13",
+        "B6",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C01",
+      "type": "cloze",
+      "section": "B9",
+      "category": "PPHN",
+      "text": "Khi điều trị bằng khí iNO, chỉ số độc tính trên huyết học cần theo dõi định kỳ trên khí máu là {{c1::nồng độ Methemoglobin máu (an toàn khi < 2.5%)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 2",
+      "legacy_note_id": 1789475773426,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C02",
+      "type": "cloze",
+      "section": "B9",
+      "category": "PPHN",
+      "text": "Mục tiêu huyết động học then chốt trong xử trí PPHN là phải duy trì Huyết áp hệ thống (SVR) ở mức {{c1::cao hơn Sức cản mạch máu phổi (PVR)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 2",
+      "legacy_note_id": 1789475773430,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C03",
+      "type": "cloze",
+      "section": "B9",
+      "category": "PPHN",
+      "text": "Thuốc vận mạch dùng để nâng huyết áp hệ thống trong ca MAS biến chứng PPHN là {{c1::Dopamine (5–10 mcg/kg/phút) phối hợp Dobutamine (5 mcg/kg/phút)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 2",
+      "legacy_note_id": 1789475773432,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C04",
+      "type": "cloze",
+      "section": "B9",
+      "category": "PPHN",
+      "text": "Hiện tượng 'Tăng áp phổi dội ngược' (Rebound Pulmonary Hypertension) có thể xảy ra khi bác sĩ {{c1::cai khí iNO mà không giảm liều từ từ (mỗi 5 ppm)}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 2",
+      "legacy_note_id": 1789475773434,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C05",
+      "type": "cloze",
+      "section": "B9",
+      "category": "PPHN",
+      "text": "Phương tiện hình ảnh dùng tại giường để ước tính áp lực động mạch phổi qua vận tốc dòng hở van 3 lá trong PPHN là {{c1::Siêu âm tim Doppler}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 và mục 10",
+      "legacy_note_id": 1789475773436,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B9-C06",
+      "type": "cloze",
+      "section": "B9",
+      "category": "Ca lâm sàng",
+      "text": "Ở trẻ già tháng 41 tuần hít phân su MAS biến chứng PPHN có chênh lệch SpO2 Pre/Post 16%, phương thức thở máy được ưu tiên là {{c1::Thở máy rung tần số cao (HFOV)}} phối hợp khí iNO 20 ppm.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 10, Ca 2",
+      "legacy_note_id": 1789475773460,
+      "tags": [
+        "PED-13",
+        "B9",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B10-C01",
+      "type": "cloze",
+      "section": "B10",
+      "category": "Mẹo thực hành",
+      "text": "Furosemide không được dùng trong Thở nhanh thoáng qua (TTN) vì {{c1::không rút ngắn thời gian hấp thu dịch phổi mà gây mất nước, hạ huyết áp}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 11 (mẹo 8)",
+      "legacy_note_id": 1789475773448,
+      "tags": [
+        "PED-13",
+        "B10",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B8-C01",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "text": "Theo Hướng dẫn NRP 8th Edition, khi trẻ sinh ra trong nước ối có phân su mà trẻ KHÔNG thở, phản xạ cấp cứu ban đầu là {{c1::Thông khí áp lực dương (PPV) ngay lập tức}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 4)",
+      "legacy_note_id": 1789475773450,
+      "tags": [
+        "PED-13",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B8-C02",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "text": "Không được duy trì SpO2 98–100% ở trẻ sinh non bị RDS vì {{c1::nồng độ oxy quá cao tạo gốc tự do ROS gây mù lòa do ROP và xơ phổi do BPD}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 5)",
+      "legacy_note_id": 1789475773452,
+      "tags": [
+        "PED-13",
+        "B8",
+        "cloze"
+      ]
+    },
+    {
+      "id": "PED13-B8-C03",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Cạm bẫy",
+      "text": "Cài đặt PEEP 4 cmH2O trên máy CPAP ở trẻ sinh non bị RDS là sai lầm vì {{c1::áp lực 4 cmH2O không đủ thắng áp lực mở phế nang tới hạn, làm phế nang tiếp tục xẹp}}.",
+      "extra": "📖 Nguồn: Bài PED-13, mục 8 (bẫy 8)",
+      "legacy_note_id": 1789475773454,
+      "tags": [
+        "PED-13",
+        "B8",
+        "cloze"
+      ]
+    }
+  ]
+}

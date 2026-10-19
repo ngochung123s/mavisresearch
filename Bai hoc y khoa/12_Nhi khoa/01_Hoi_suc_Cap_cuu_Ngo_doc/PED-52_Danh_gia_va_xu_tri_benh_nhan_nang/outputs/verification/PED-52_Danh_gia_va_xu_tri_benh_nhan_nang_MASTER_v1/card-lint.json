@@ -1,0 +1,438 @@
+{
+  "code": "PED-52",
+  "deck_name": "Nhi khoa Y6::PED-52: Đánh giá & Xử trí bệnh nhân nặng",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:02:43",
+  "cards_source": "ped52_cards_data.py",
+  "cards_source_sha256": "44dde7013f001994a56fc507676a127b4298a85b1b64e2c07160a31deafc2228",
+  "card_count": 89,
+  "summary": {
+    "block": 0,
+    "debt": 66,
+    "warn": 1,
+    "by_code": {
+      "G_ALGO_COUNT": 1,
+      "G_COLOR_BACK": 27,
+      "G_COLOR_FRONT": 27,
+      "G_PARTIAL_CLOZE": 11,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B01",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B01",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B02",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] 4 mục tiêu tiếp cận trẻ bệnh nặng: đánh giá suy thở và suy tuần hoàn theo trình tự ⟦CLOZE⟧ , xử trí cấp cứu ban đầu, sau đó đánh giá ⟦CLOZE⟧ và điều»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B03",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B03",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B06",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B06",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B08",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Dấu hiệu gắng sức cơ hô hấp: thở cánh mũi phập phồng hay gặp ở ⟦CLOZE⟧ ; rút lõm lồng ngực là dấu hiệu gắng sức của ⟦CLOZE⟧ và ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B11",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B11",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B14",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B14",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B15",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Khi nghe phổi ở trẻ bệnh nặng, âm phế bào giảm khi: lồng ngực di động kém, có ⟦CLOZE⟧ , ⟦CLOZE⟧ , ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B17",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B17",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B21",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B21",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B23",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Bắt mạch trong suy tuần hoàn: mạch ngoại vi (quay, mu chân) nảy yếu hoặc không bắt được; mạch trung tâm (cảnh, bẹn, hoặc ⟦CLOZE⟧ ) nảy yếu trong ⟦CL»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B26",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B26",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B29",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B29",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B31",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Các dấu hiệu thực thể gợi ý suy thở do tim mạch gồm: ⟦CLOZE⟧ , tiếng thổi tâm thu, ⟦CLOZE⟧ , ⟦CLOZE⟧ và không bắt được ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B32",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B32",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B37",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B37",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B40",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B40",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B41",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B41",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B45",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B45",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B47",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Hồi sức hô hấp: dùng oxy lưu lượng cao cho trẻ rối loạn hô hấp; trẻ có suy hô hấp cần được thông khí với oxy bằng ⟦CLOZE⟧ hoặc đặt NKQ và cho thở ⟦C»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B48",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B48",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B49",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B49",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B55",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B55",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B56",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Hồi sức sốc ban đầu: lập đường truyền tĩnh mạch hoặc ⟦CLOZE⟧ , truyền ngay dung dịch tinh thể với liều ⟦CLOZE⟧ và kiểm tra ⟦CLOZE⟧ ngay thời điểm nà»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B57",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B57",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B59",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B59",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B62",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B62",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B63",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B63",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B67",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B67",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B68",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B68",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B74",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B74",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B75",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Xử trí sốc bước hai: bơm thêm dịch nếu không đáp ứng lần thứ nhất; cân nhắc ⟦CLOZE⟧ và ⟦CLOZE⟧ nếu phải bơm dịch ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B79",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B79",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B81",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Nếu trẻ có tri giác giảm hoặc co giật, cần nghĩ đến viêm màng não hoặc viêm não và chỉ định ngay ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B83",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Nếu trẻ lơ mơ và thở yếu, cần kiểm tra: đường máu, khí máu và định lượng ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B84",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B84",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED52-B87",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED52-B87",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED52-B88",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Bệnh sử bổ sung ở trẻ nhỏ và trẻ nhũ nhi cần đặc biệt khai thác về: quá trình ⟦CLOZE⟧ , tiền sử ⟦CLOZE⟧ và hoàn cảnh gia đình của trẻ.»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ALGO_COUNT",
+      "card_id": "*",
+      "message": "chỉ 0 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-52_Danh_gia_va_xu_tri_benh_nhan_nang_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 87,
+    "added": 2,
+    "archived": 2,
+    "moved": 0,
+    "deck_notes": 89
+  },
+  "apkg_sha256": "69aceed61c7a8aa73be2538b3268c81ec60379fd7e9c5fe2aa0f9e15f4357d1f",
+  "sqlite_notes": 89,
+  "sqlite_cards": 89
+}

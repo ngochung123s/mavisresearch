@@ -1,0 +1,830 @@
+{
+  "code": "PED-03",
+  "deck_name": "Nhi khoa Y6::PED-03: Nguyên tắc kê đơn & Tính liều thuốc an toàn",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:04:26",
+  "cards_source": "ped03_cards_data.py",
+  "cards_source_sha256": "81285a0b5e61fe0ff2a4a5ad59d3afcb59c3a17816c1c6e3cc814c7263d61498",
+  "card_count": 48,
+  "summary": {
+    "block": 0,
+    "debt": 131,
+    "warn": 1,
+    "by_code": {
+      "G_ALGO_COUNT": 1,
+      "G_BACK_STRUCTURE": 32,
+      "G_COLOR_BACK": 32,
+      "G_COLOR_FRONT": 32,
+      "G_EXTRA_EMPTY": 32,
+      "G_PARTIAL_CLOZE": 2,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-001",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-001",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-001",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-001",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-003",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-003",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-003",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-003",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-004",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-004",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-004",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-004",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-006",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-006",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-006",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-006",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-007",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-007",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-007",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-007",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-008",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-008",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-008",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-008",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-010",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-010",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-010",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-010",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-011",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-011",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-011",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-011",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-013",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-013",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-013",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-013",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-014",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-014",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-014",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-014",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-016",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-016",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-016",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-016",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-017",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-017",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-017",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-017",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-019",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-019",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-019",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-019",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-021",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-021",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-021",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-021",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-022",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-022",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-022",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-022",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED03-V2-023",
+      "message": "cloze nửa vời trong liệt kê: «Quy tắc 4-2-1 để tính tốc độ dịch duy trì theo ml/giờ quy định: ⟦CLOZE⟧ cho 10 kg đầu, 2 ml/kg/giờ cho mỗi kg từ 11 đến 20 kg, và 1 ml/kg/giờ cho mỗi kg trên 20»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-024",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-024",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-024",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-024",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-025",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-025",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-025",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-025",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-027",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-027",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-027",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-027",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-028",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-028",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-028",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-028",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-030",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-030",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-030",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-030",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-032",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-032",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-032",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-032",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-033",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-033",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-033",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-033",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED03-V2-034",
+      "message": "cloze nửa vời trong liệt kê: «Dung dịch Adrenaline 1:10.000 dùng trong cấp cứu ngừng tuần hoàn (PALS) được pha bằng cách lấy 1 ml Adrenaline 1:1000 pha với ⟦CLOZE⟧ , liều tiêm tĩnh mạch hoặc»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-035",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-035",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-035",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-035",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-037",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-037",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-037",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-037",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-038",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-038",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-038",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-038",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-039",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-039",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-039",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-039",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-041",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-041",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-041",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-041",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-043",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-043",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-043",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-043",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-044",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-044",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-044",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-044",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-045",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-045",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-045",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-045",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-047",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-047",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-047",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-047",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED03-V2-048",
+      "message": "thiếu 🎯 Trả lời cốt lõi + 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED03-V2-048",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED03-V2-048",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_EXTRA_EMPTY",
+      "card_id": "PED03-V2-048",
+      "message": "Extra (nguồn) rỗng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ALGO_COUNT",
+      "card_id": "*",
+      "message": "chỉ 0 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-03_Nguyen_tac_ke_don_va_Tinh_lieu_thuoc_an_toan_2026-09-13_RELEASE_v1.apkg",
+  "anki_sync": {
+    "updated": 3,
+    "unchanged": 45,
+    "added": 0,
+    "archived": 0,
+    "moved": 0,
+    "deck_notes": 48
+  },
+  "apkg_sha256": "6e7b6203320b34b65d61674029620481f93812cf1793ad95eab39d31ff580dbc",
+  "sqlite_notes": 48,
+  "sqlite_cards": 48
+}

@@ -1,0 +1,52 @@
+{
+  "code": "PED-49",
+  "deck_name": "Nhi khoa Y6::PED-49: Tiếp cận bệnh nhân phát ban ở trẻ em",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:03:56",
+  "cards_source": "ped49_cards_data.py",
+  "cards_source_sha256": "4175b567758905e8702f9946b01e607125a345bb9050d72dfdeded56dc79efa4",
+  "card_count": 80,
+  "summary": {
+    "block": 0,
+    "debt": 2,
+    "warn": 1,
+    "by_code": {
+      "G_ALGO_COUNT": 1,
+      "G_PARTIAL_CLOZE": 1,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED49-C28",
+      "message": "cloze nửa vời trong liệt kê: «[PED - Lâm sàng] Điểm khác biệt cốt lõi giữa SSSS và Hội chứng Stevens-Johnson (SJS/TEN) là: SSSS ⟦CLOZE⟧ , trong khi SJS/TEN luôn gây ⟦CLOZE⟧ (miệng, mắt, sinh»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ALGO_COUNT",
+      "card_id": "*",
+      "message": "chỉ 0 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-49_Tiep_can_benh_nhan_phat_ban_2026-09-25_RELEASE_v1.apkg",
+  "anki_sync": {
+    "updated": 3,
+    "unchanged": 77,
+    "added": 0,
+    "archived": 0,
+    "moved": 0,
+    "deck_notes": 80
+  },
+  "apkg_sha256": "1639e541b582a9593656d449f49fdacd46a4abef4388e79377ddb5cb7599d440",
+  "sqlite_notes": 80,
+  "sqlite_cards": 80
+}

@@ -1,0 +1,71 @@
+{
+  "code": "PED-47",
+  "deck_name": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:00:46",
+  "cards_source": "ped47_cards_data.py",
+  "cards_source_sha256": "77ef0103c0b976f6e0440c034f3e3e937bb84ace6d5a2cf3d3bc3b0b3eeb1b34",
+  "card_count": 83,
+  "summary": {
+    "block": 0,
+    "debt": 5,
+    "warn": 1,
+    "by_code": {
+      "G_ALGO_COUNT": 1,
+      "G_PARTIAL_CLOZE": 3,
+      "G_SECTION_NO_BASIC": 1,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED47-B07",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Cơ chế đái máu tại cầu thận : do tổn thương ⟦CLOZE⟧ , làm các lỗ lọc rộng hơn và tăng ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED47-B39",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Bước 4 thuật toán: Xác định nguyên nhân tại cầu thận bằng các xét nghiệm: ⟦CLOZE⟧ , ANA, Anti-dsDNA, và xem xét ⟦CLOZE⟧ theo 7 chỉ định chuẩn.»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_PARTIAL_CLOZE",
+      "card_id": "PED47-E07",
+      "message": "cloze nửa vời trong liệt kê: «[EBM] Nước tiểu màu đỏ nhưng Dipstick (-) và Soi (-) thường do thực phẩm ( ⟦CLOZE⟧ , phẩm màu) hoặc do các thuốc như ⟦CLOZE⟧ , Metronidazole.»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_SECTION_NO_BASIC",
+      "card_id": "B1",
+      "message": "section không có thẻ Basic nền tảng",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ALGO_COUNT",
+      "card_id": "*",
+      "message": "chỉ 2 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-47_Tiep_can_dai_mau_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 9,
+    "unchanged": 74,
+    "added": 0,
+    "archived": 0,
+    "moved": 0,
+    "deck_notes": 83
+  },
+  "apkg_sha256": "b6336523c83dd30e941062f4e1953849e42b9bd28ec7aed7f3c741c245bde2c0",
+  "sqlite_notes": 83,
+  "sqlite_cards": 83
+}

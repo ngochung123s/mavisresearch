@@ -1,0 +1,1771 @@
+{
+  "deck_id": 1630868776064,
+  "deck_name": "Nhi khoa Y6::PED-25: Liệu pháp Oxy & Hỗ trợ hô hấp không xâm lấn",
+  "card_count": 133,
+  "cards": [
+    {
+      "id": "PED25-B0-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 1,
+      "front": "Vì sao trẻ em <span style=\"color:#ff6b6b\"><b>tụt oxy máu rất nhanh</b></span> khi đường thở tổn thương? Nêu <span style=\"color:#ffd43b\"><b>3 đặc điểm sinh lý</b></span> (tiêu thụ O2, FRC, lồng ngực) so với người lớn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu thụ oxy chuyển hóa theo cân nặng: <span style=\"color:#ffd43b\"><b>6 - 8 mL/kg/phút</b></span> so với <span style=\"color:#ffd43b\"><b>3 mL/kg/phút</b></span> ở người lớn (cao gấp 2 đến 3 lần).<br>2) Dung tích cặn chức năng <span style=\"color:#74c0fc\"><b>(FRC)</b></span> nhỏ.<br>3) Lồng ngực có độ giãn nở quá lớn.<br>4) Hệ quả: khi đường thở tổn thương hoặc phế nang đông đặc, trẻ có thể tụt oxy máu chỉ trong <span style=\"color:#ffd43b\"><b>vài phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dự trữ oxy ít mà tiêu thụ lại cao nên đệm an toàn rất mỏng; suy hô hấp là nguyên nhân hàng đầu dẫn đến kiệt sức, ngừng tuần hoàn hô hấp và tử vong.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 1,
+      "front": "Liệu pháp oxy và hỗ trợ hô hấp không xâm lấn (NRS) hay bị dùng như can thiệp 'mặc định'. Nêu <span style=\"color:#ff6b6b\"><b>2 thái cực sai lầm</b></span> tại giường và <span style=\"color:#51cf66\"><b>triết lý điều trị 4 vế</b></span> của bài.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Lạm dụng thụ động:</b></span> cho thở oxy nồng độ cao bừa bãi, không nắm đích SpO2, không kiểm soát FiO2 → ngộ độc oxy, xẹp phổi hấp thu, co thắt mạch vành/mạch não.<br>2) <span style=\"color:#ff6b6b\"><b>Trì hoãn mù quáng:</b></span> tăng vô hạn lưu lượng qua gọng mũi/mặt nạ ở trẻ đã kiệt sức cơ hô hấp → <span style=\"color:#ff6b6b\"><b>'thất bại thầm lặng'</b></span> rồi đặt NKQ trong tình huống ngừng thở hoảng loạn.<br>3) Triết lý: <span style=\"color:#51cf66\"><b>Đúng thiết bị — Đúng lưu lượng — Đúng đích SpO2 — Đánh giá lại liên tục</b></span> để nâng bậc hoặc hạ bậc kịp thời.<br><br><b>💡 Giải thích của AI:</b><br>HFNC và nCPAP là nhịp cầu giữa oxy thông thường và thở máy xâm lấn, giúp nhiều trẻ tránh đặt NKQ; nhưng chỉ hiệu quả khi dùng đúng thiết bị, đúng liều và đánh giá lại liên tục.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 1,
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>7 khái niệm nền tảng</b></span> cần nắm trước khi vận hành bất kỳ thiết bị <span style=\"color:#74c0fc\"><b>hỗ trợ hô hấp</b></span> nào tại giường.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>FiO2</b></span> (phân suất oxy trong khí hít vào).<br>2) <span style=\"color:#74c0fc\"><b>PEEP</b></span> (áp lực dương cuối thì thở ra).<br>3) <span style=\"color:#74c0fc\"><b>FRC</b></span> (dung tích cặn chức năng).<br>4) <span style=\"color:#74c0fc\"><b>Kháng lực đường thở (Raw)</b></span> theo định luật Poiseuille.<br>5) <span style=\"color:#74c0fc\"><b>Hiệu ứng rửa trôi khoảng chết (CO2 washout)</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Shunt trong phổi</b></span>.<br>7) <span style=\"color:#74c0fc\"><b>Chỉ số ROX</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi khái niệm giải thích một lý do chọn thiết bị: PEEP/FRC/shunt → nCPAP; Raw/washout → HFNC; FiO2 → loại thiết bị; ROX → quyết định nâng bậc.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>FiO2</b></span> là gì, <span style=\"color:#ffd43b\"><b>giá trị trong khí trời</b></span> là bao nhiêu và <span style=\"color:#51cf66\"><b>thiết bị nào kiểm soát chính xác</b></span> còn thiết bị nào bị pha loãng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) FiO2 = tỷ lệ phần trăm thể tích oxy nguyên chất trong hỗn hợp khí hít vào.<br>2) Khí trời: <span style=\"color:#ffd43b\"><b>0.21 (21%)</b></span>.<br>3) Dụng cụ <span style=\"color:#ff6b6b\"><b>dòng thấp</b></span>: FiO2 thực tế luôn bị pha loãng vì trẻ hít thêm khí trời qua miệng và mũi.<br>4) Hệ thống <span style=\"color:#51cf66\"><b>dòng cao (HFNC) hoặc CPAP kín có buồng trộn (blender)</b></span>: kiểm soát chính xác từ <span style=\"color:#ffd43b\"><b>0.21 đến 1.0 (21% đến 100%)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì dòng thấp không đủ đáp ứng dòng hít vào của trẻ nên FiO2 phế nang không cố định; muốn FiO2 chắc chắn phải dùng hệ thống có blender.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>PEEP</b></span>, <span style=\"color:#74c0fc\"><b>FRC</b></span> và <span style=\"color:#74c0fc\"><b>shunt trong phổi</b></span>: mỗi khái niệm là gì và <span style=\"color:#51cf66\"><b>biện pháp duy nhất nào</b></span> phục hồi FRC / triệt tiêu shunt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>PEEP</b></span>: áp lực duy trì trong đường thở lúc cuối thì thở ra (đơn vị cmH2O), giữ phế nang không xẹp hoàn toàn, ngăn chấn thương xẹp mở chu kỳ (atelectrauma).<br>2) <span style=\"color:#74c0fc\"><b>FRC</b></span>: thể tích khí còn lại sau thở ra bình thường; ở trẻ nhỏ khoảng <span style=\"color:#ffd43b\"><b>30 mL/kg</b></span>, sát thể tích đóng phế nang nên dễ xẹp khi giảm thông khí hoặc nằm ngửa.<br>3) <span style=\"color:#74c0fc\"><b>Shunt</b></span>: máu tĩnh mạch qua mao mạch phổi không tiếp xúc phế nang có thông khí (<span style=\"color:#ffd43b\"><b>V/Q = 0</b></span>); gặp trong viêm phổi đông đặc, ARDS, xẹp phổi.<br>4) <span style=\"color:#51cf66\"><b>Chỉ có áp lực dương (CPAP/PEEP)</b></span> mới phục hồi FRC và mở lại phế nang để triệt tiêu shunt.<br><br><b>💡 Giải thích của AI:</b><br>Shunt lớn làm thiếu oxy máu trơ với oxy dòng thấp vì phế nang đông đặc/xẹp không nhận được khí dù FiO2 cao.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "front": "Giải thích <span style=\"color:#74c0fc\"><b>kháng lực đường thở (định luật Poiseuille)</b></span> và <span style=\"color:#74c0fc\"><b>hiệu ứng rửa trôi khoảng chết (CO2 washout)</b></span>: <span style=\"color:#ffd43b\"><b>con số then chốt</b></span> ở trẻ nhũ nhi là gì và dòng khí liên tục giải quyết ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Poiseuille: kháng lực tỷ lệ nghịch với <span style=\"color:#ffd43b\"><b>lũy thừa bậc 4 của bán kính (r^4)</b></span> → đường thở hẹp ở nhũ nhi làm kháng lực tăng rất mạnh.<br>2) Vùng mũi hầu chiếm tới <span style=\"color:#ffd43b\"><b>50%</b></span> tổng kháng lực đường thở của nhũ nhi.<br>3) Khoảng chết giải phẫu <span style=\"color:#74c0fc\"><b>(VD)</b></span> chiếm <span style=\"color:#ffd43b\"><b>VD/VT khoảng 30 - 40%</b></span> thể tích lưu thông ở trẻ em.<br>4) <span style=\"color:#51cf66\"><b>Dòng khí liên tục</b></span> quét qua mũi hầu rửa sạch khí giàu CO2 đọng lại, biến hầu họng thành kho dự trữ khí giàu oxy cho nhịp hít vào kế tiếp.<br><br><b>💡 Giải thích của AI:</b><br>Dòng khí ấm ẩm lưu lượng lớn triệt tiêu kháng lực mũi hầu; đây là nền tảng sinh lý để HFNC giảm công thở.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B0",
+      "category": "Tổng quan & nền tảng",
+      "tier": 2,
+      "front": "<span style=\"color:#ff6b6b\"><b>BOX ĐỎ:</b></span> Liệt kê <span style=\"color:#ff6b6b\"><b>7 cờ đỏ</b></span> dọa ngừng thở / thất bại hỗ trợ không xâm lấn và <span style=\"color:#51cf66\"><b>hành động bắt buộc</b></span> khi có <span style=\"color:#ffd43b\"><b>bất kỳ 1 dấu hiệu</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơn ngừng thở (apnea) kéo dài <span style=\"color:#ffd43b\"><b>> 20 giây</b></span>, hoặc ngừng thở kèm nhịp tim chậm, tím tái tái diễn.<br>2) <span style=\"color:#ff6b6b\"><b>Rối loạn tri giác cấp:</b></span> li bì, lơ mơ, hôn mê, không phản ứng với kích thích đau, hoặc vật vã mất bù.<br>3) <span style=\"color:#ff6b6b\"><b>Kiệt sức cơ hô hấp:</b></span> nhịp thở chậm bất thường theo tuổi (nhũ nhi thở <span style=\"color:#ffd43b\"><b>< 20 lần/phút</b></span> sau giai đoạn thở nhanh co kéo dữ dội), mất co kéo nhưng tím tăng (ngực im lặng - silent chest).<br>4) <span style=\"color:#ff6b6b\"><b>Toan hô hấp mất bù nặng:</b></span> pH <span style=\"color:#ffd43b\"><b>< 7.20</b></span> và PaCO2 <span style=\"color:#ffd43b\"><b>> 65 mmHg</b></span> dù đã tối ưu thông khí không xâm lấn.<br>5) <span style=\"color:#ff6b6b\"><b>Oxy hóa trơ:</b></span> SpO2 <span style=\"color:#ffd43b\"><b>< 88%</b></span> dù nCPAP với PEEP <span style=\"color:#ffd43b\"><b>≥ 8 cmH2O</b></span> và FiO2 <span style=\"color:#ffd43b\"><b>≥ 60%</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Huyết động không ổn định:</b></span> sốc mất bù, tụt huyết áp, nhịp tim chậm tiến triển, cần vận mạch liều cao.<br>7) <span style=\"color:#ff6b6b\"><b>Tràn khí màng phổi áp lực</b></span> chưa được dẫn lưu giải áp.<br>8) Hành động: <span style=\"color:#51cf66\"><b>dừng mọi nỗ lực tăng bậc không xâm lấn, đặt nội khí quản thở máy cấp cứu ngay.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mỗi dấu hiệu phản ánh não thiếu oxy, toan nặng hoặc cơ hô hấp kiệt sức mà tăng bậc không xâm lấn không đảo ngược được; chần chừ làm tăng nguy cơ ngừng tim lúc đặt ống.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, Box đỏ cấp cứu",
+      "tags": [
+        "PED-25",
+        "B0",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 1,
+      "front": "Phần sinh lý hô hấp trẻ em gồm <span style=\"color:#ffd43b\"><b>3 nhánh</b></span> nào cần nhớ để đặt <span style=\"color:#51cf66\"><b>đích SpO2</b></span> tại giường?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đặc điểm giải phẫu - sinh lý khác người lớn</b></span>: thành ngực, cơ hoành, FRC và thể tích đóng.<br>2) <span style=\"color:#74c0fc\"><b>Đường cong phân ly oxyhemoglobin</b></span>: đoạn dốc đứng và đoạn cao nguyên.<br>3) <span style=\"color:#51cf66\"><b>Đích SpO2 mục tiêu theo nhóm bệnh nhân</b></span> (5 nhóm).<br><br><b>💡 Giải thích của AI:</b><br>Hiểu 3 nhánh này giúp biết tại sao tụt oxy nhanh, tại sao SpO2 100% không có nghĩa an toàn và tại sao mỗi nhóm bệnh có đích riêng.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 2,
+      "front": "Trẻ nhỏ khác người lớn thế nào về <span style=\"color:#74c0fc\"><b>thành ngực</b></span>, <span style=\"color:#74c0fc\"><b>cơ hoành</b></span> (tỷ lệ sợi cơ loại I) và <span style=\"color:#74c0fc\"><b>FRC so với thể tích đóng</b></span>? Trẻ bù trừ bằng cơ chế gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thành ngực:</b></span> chủ yếu sụn, xương sườn nằm ngang, cơ liên sườn kém → giãn nở rất cao; khi phổi giảm giãn nở, thành ngực lõm vào thì hít vào (co kéo), công thở tăng vọt.<br>2) <span style=\"color:#74c0fc\"><b>Cơ hoành</b></span> là cơ hô hấp chính, sợi loại I (co chậm, kháng mỏi) chỉ <span style=\"color:#ffd43b\"><b>10 - 25%</b></span> ở sơ sinh so với <span style=\"color:#ffd43b\"><b>55%</b></span> ở người lớn → rất dễ kiệt sức.<br>3) FRC <span style=\"color:#ffd43b\"><b>30 mL/kg</b></span> rất sát thể tích đóng <span style=\"color:#ffd43b\"><b>35 mL/kg</b></span> → đường thở nhỏ ở đáy phổi có xu hướng đóng cuối thì thở ra.<br>4) Bù trừ bằng <span style=\"color:#51cf66\"><b>Auto-PEEP</b></span>: khép dây thanh thì thở ra (<span style=\"color:#ff6b6b\"><b>rên gừ - grunting</b></span>) hoặc thở nhanh; khi cơ mỏi, Auto-PEEP mất và phổi xẹp hàng loạt.<br><br><b>💡 Giải thích của AI:</b><br>Rên gừ là nỗ lực tự tạo PEEP; thấy trẻ ngừng rên mà không khá lên là dấu hiệu kiệt sức chứ không phải hồi phục.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.1",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 2,
+      "front": "Trên <span style=\"color:#74c0fc\"><b>đường cong phân ly oxyhemoglobin</b></span>, đoạn <span style=\"color:#ff6b6b\"><b>dốc đứng</b></span> và đoạn <span style=\"color:#ffd43b\"><b>cao nguyên</b></span> ứng với SpO2/PaO2 nào và <span style=\"color:#ff6b6b\"><b>nguy cơ</b></span> ở mỗi đoạn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đoạn dốc đứng:</b></span> SpO2 <span style=\"color:#ffd43b\"><b>< 90%</b></span> ↔ PaO2 <span style=\"color:#ffd43b\"><b>< 60 mmHg</b></span>; PaO2 giảm rất ít cũng làm SpO2 và bão hòa mô tụt nặng → <span style=\"color:#ff6b6b\"><b>SpO2 90% là 'bờ vực sinh tử'</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Đoạn cao nguyên:</b></span> SpO2 <span style=\"color:#ffd43b\"><b>> 95%</b></span> ↔ PaO2 <span style=\"color:#ffd43b\"><b>> 80 mmHg</b></span>.<br>3) Ở cao nguyên, tăng PaO2 lên <span style=\"color:#ffd43b\"><b>150 - 300 mmHg</b></span> (thở oxy 100% kéo dài) chỉ làm SpO2 từ <span style=\"color:#ffd43b\"><b>98% lên 100%</b></span> nhưng oxy hòa tan tăng cao gây <span style=\"color:#ff6b6b\"><b>ngộ độc oxy mà máy SpO2 không phát hiện</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường cong hình chữ S nên SpO2 'đẹp' có thể che giấu tăng oxy máu; vì vậy phải chuẩn độ về khoảng đích chứ không cho oxy tối đa.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.2",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 1,
+      "front": "Nêu <span style=\"color:#ffd43b\"><b>đích SpO2 mục tiêu</b></span> cho <span style=\"color:#ffd43b\"><b>5 nhóm</b></span>: trẻ bình thường/viêm phổi chung, <span style=\"color:#74c0fc\"><b>viêm tiểu phế quản</b></span>, <span style=\"color:#74c0fc\"><b>tim bẩm sinh tím shunt Phải - Trái</b></span>, <span style=\"color:#74c0fc\"><b>tim bẩm sinh phụ thuộc ống động mạch</b></span>, <span style=\"color:#74c0fc\"><b>trẻ sinh non NICU</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ bình thường / viêm phổi chung: <span style=\"color:#ffd43b\"><b>94 - 98%</b></span> (PaO2 an toàn 70 - 90 mmHg).<br>2) Viêm tiểu phế quản cấp: <span style=\"color:#ffd43b\"><b>90 - 94%</b></span> (đích ≥ 90% an toàn, rút ngắn thời gian nằm viện).<br>3) Tim bẩm sinh tím có shunt Phải - Trái: <span style=\"color:#ffd43b\"><b>75 - 85%</b></span> (hoặc đích riêng).<br>4) Tim bẩm sinh phụ thuộc ống động mạch (PDA-dependent): <span style=\"color:#ffd43b\"><b>80 - 85%</b></span> (tối đa <span style=\"color:#ffd43b\"><b>88%</b></span>).<br>5) Sinh non tại NICU: <span style=\"color:#ffd43b\"><b>91 - 95%</b></span>, báo động khi <span style=\"color:#ffd43b\"><b>< 89%</b></span> hoặc <span style=\"color:#ffd43b\"><b>> 95%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi nhóm có lý do sinh lý riêng: tránh hyperoxia ở trẻ thường, tránh lạm dụng oxy ở bronchiolitis, bảo vệ cân bằng tuần hoàn ở tim bẩm sinh, tránh ROP/BPD ở sinh non.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 2,
+      "front": "Vì sao <span style=\"color:#74c0fc\"><b>tim bẩm sinh tím shunt Phải - Trái</b></span>, <span style=\"color:#74c0fc\"><b>tim bẩm sinh phụ thuộc ống động mạch</b></span> và <span style=\"color:#74c0fc\"><b>trẻ sinh non</b></span> có đích SpO2 thấp hơn? Điều <span style=\"color:#ff6b6b\"><b>cấm tuyệt đối</b></span> với nhóm phụ thuộc ống động mạch là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Shunt Phải - Trái: oxy nồng độ cao làm giãn mạch phổi, giảm áp lực phổi, máu lên phổi quá nhiều → <span style=\"color:#ff6b6b\"><b>ứ huyết phổi, phù phổi cấp</b></span> và giảm lưu lượng máu hệ thống.<br>2) PDA-dependent: <span style=\"color:#ff6b6b\"><b>tuyệt đối cấm oxy 100%</b></span> vì oxy là chất co mạch cực mạnh trên cơ trơn ống động mạch → ống đóng đột ngột → ngừng tim tử vong.<br>3) Sinh non: nguy cơ <span style=\"color:#ff6b6b\"><b>bệnh võng mạc trẻ sinh non (ROP)</b></span> và <span style=\"color:#ff6b6b\"><b>loạn sản phế quản phổi (BPD)</b></span> khi SpO2 <span style=\"color:#ffd43b\"><b>> 95%</b></span> kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Ở các nhóm này oxy 'thừa' làm thay đổi huyết động hoặc gây độc mô, nên đích thấp là biện pháp bảo vệ chứ không phải chấp nhận thiếu oxy.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B1-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B1",
+      "category": "Sinh lý & đích SpO2",
+      "tier": 2,
+      "front": "Lập <span style=\"color:#51cf66\"><b>bảng bỏ túi</b></span> đích SpO2 theo nhóm: nhóm nào ứng với khoảng nào (5 dòng) và cảnh báo lâm sàng chính của từng dòng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm phổi chung <span style=\"color:#ffd43b\"><b>94 - 98%</b></span> → tránh hyperoxia.<br>2) Bronchiolitis <span style=\"color:#ffd43b\"><b>90 - 94%</b></span> → tránh oxy kéo dài không cần thiết.<br>3) Tim tím R-L <span style=\"color:#ffd43b\"><b>75 - 85%</b></span> → oxy cao gây phù phổi cấp.<br>4) PDA-dependent <span style=\"color:#ffd43b\"><b>80 - 85% (tối đa 88%)</b></span> → <span style=\"color:#ff6b6b\"><b>cấm oxy 100%</b></span>.<br>5) Sinh non NICU <span style=\"color:#ffd43b\"><b>91 - 95%</b></span> (báo động <span style=\"color:#ffd43b\"><b>< 89% hoặc > 95%</b></span>) → ROP, BPD.<br><br><b>💡 Giải thích của AI:</b><br>Bảng này gom khoảng đích và cảnh báo đi kèm để ra quyết định nhanh tại giường mà không phải nhớ cả đoạn lý thuyết.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "tags": [
+        "PED-25",
+        "B1",
+        "EBM"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED25-B2-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 1,
+      "front": "Hệ thống oxy <span style=\"color:#74c0fc\"><b>dòng thấp</b></span> gồm <span style=\"color:#ffd43b\"><b>3 thiết bị</b></span> nào, mỗi thiết bị đặt <span style=\"color:#ffd43b\"><b>lưu lượng</b></span> và cho <span style=\"color:#ffd43b\"><b>FiO2</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Canula mũi</b></span>: <span style=\"color:#ffd43b\"><b>0.5 - 2 L/phút</b></span> (trẻ nhỏ), <span style=\"color:#ffd43b\"><b>1 - 4 L/phút</b></span> (trẻ lớn); FiO2 <span style=\"color:#ffd43b\"><b>24 - 35%</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Mặt nạ đơn giản</b></span>: <span style=\"color:#ffd43b\"><b>5 - 8 L/phút</b></span>; FiO2 <span style=\"color:#ffd43b\"><b>35 - 50%</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Mặt nạ túi không thở lại (NRM)</b></span>: <span style=\"color:#ffd43b\"><b>10 - 15 L/phút</b></span>; FiO2 <span style=\"color:#ffd43b\"><b>80 - 95%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bậc thang từ canula → mặt nạ đơn giản → NRM tăng dần FiO2 nhưng FiO2 thực tế ở hệ dòng thấp luôn biến thiên vì pha loãng khí trời.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B2-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "Định nghĩa hệ thống <span style=\"color:#74c0fc\"><b>dòng thấp</b></span> bằng <span style=\"color:#ffd43b\"><b>lưu lượng đỉnh hít vào (PIFR)</b></span>, cho ví dụ nhũ nhi <span style=\"color:#ffd43b\"><b>10 kg</b></span> và nêu <span style=\"color:#ffd43b\"><b>3 yếu tố</b></span> làm FiO2 phế nang thay đổi.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dòng thấp = lưu lượng thiết bị cung cấp <span style=\"color:#ffd43b\"><b>thấp hơn PIFR</b></span> của trẻ.<br>2) Ví dụ: nhũ nhi 10 kg có VT khoảng <span style=\"color:#ffd43b\"><b>70 mL</b></span>, Ti khoảng <span style=\"color:#ffd43b\"><b>0.4 giây</b></span>, PIFR <span style=\"color:#ffd43b\"><b>10 - 15 L/phút</b></span>; canula <span style=\"color:#ffd43b\"><b>1 - 2 L/phút</b></span> chỉ đáp ứng một phần nhỏ, phần còn lại trẻ hít khí trời bù.<br>3) FiO2 phế nang phụ thuộc: <span style=\"color:#74c0fc\"><b>tần số thở và thể tích lưu thông</b></span>; <span style=\"color:#74c0fc\"><b>tỷ lệ Ti/Te</b></span>; <span style=\"color:#74c0fc\"><b>thở miệng hay thở mũi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ thở càng nhanh, càng hít miệng thì khí trời pha loãng càng nhiều; vì vậy tăng lưu lượng canula không tạo FiO2 cao.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.1",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B2-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Canula mũi</b></span>: <span style=\"color:#ffd43b\"><b>lưu lượng quy chuẩn theo tuổi</b></span> (sơ sinh/nhũ nhi/trẻ lớn), <span style=\"color:#51cf66\"><b>ưu điểm</b></span> và <span style=\"color:#ff6b6b\"><b>hạn chế</b></span> khi vượt <span style=\"color:#ffd43b\"><b>2 L/phút</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sơ sinh <span style=\"color:#ffd43b\"><b>0.25 - 1.0 L/phút</b></span> (lưu lượng kế vi thể <span style=\"color:#ffd43b\"><b>0.1 - 1 L/phút</b></span>); nhũ nhi <span style=\"color:#ffd43b\"><b>0.5 - 2.0 L/phút</b></span>; trẻ lớn <span style=\"color:#ffd43b\"><b>1.0 - 4.0 L/phút</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Ưu điểm:</b></span> tiện, rẻ, dung nạp tốt, không cản ăn bú/giao tiếp, ít sợ ngột ngạt hơn mặt nạ.<br>3) <span style=\"color:#ff6b6b\"><b>Hạn chế:</b></span> > 2 L/phút ở trẻ nhỏ → khí lạnh khô gây kích ứng, khô rát mũi, chảy máu cam, co thắt phế quản phản xạ; không cung cấp được FiO2 cao khi suy hô hấp nặng.<br><br><b>💡 Giải thích của AI:</b><br>Khoang mũi hầu chỉ là buồng chứa nhỏ (khoảng 1 - 2 mL/kg) nên canula không thể là phương tiện cho suy hô hấp nặng.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.2",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B2-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Mặt nạ đơn giản</b></span>: <span style=\"color:#ffd43b\"><b>lưu lượng bắt buộc</b></span>, <span style=\"color:#ffd43b\"><b>FiO2</b></span> và <span style=\"color:#ff6b6b\"><b>điều cấm tuyệt đối</b></span> về lưu lượng cùng <span style=\"color:#ff6b6b\"><b>hậu quả</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lưu lượng bắt buộc <span style=\"color:#ffd43b\"><b>5 - 8 L/phút</b></span>, FiO2 khoảng <span style=\"color:#ffd43b\"><b>35 - 50%</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>CẤM cài lưu lượng < 5 L/phút</b></span>.<br>3) Lý do: dòng vào không đủ quét khí thở ra ra khỏi lỗ thoát; buồng mặt nạ (<span style=\"color:#ffd43b\"><b>100 - 200 mL</b></span>) thành khoảng chết khổng lồ → trẻ hít lại CO2 → <span style=\"color:#ff6b6b\"><b>toan hô hấp tăng carbonic cấp</b></span>.<br>4) Muốn dùng dòng thấp phải đổi sang <span style=\"color:#51cf66\"><b>gọng mũi canula</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mặt nạ cần dòng đủ lớn để rửa buồng; canula không có buồng chứa khí chết nên an toàn ở dòng thấp.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.3 và sai lầm 2",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B2-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Mặt nạ túi không thở lại (NRM)</b></span>: <span style=\"color:#ffd43b\"><b>3 thành phần cấu tạo</b></span>, <span style=\"color:#ffd43b\"><b>lưu lượng - FiO2 - dấu hiệu túi</b></span> và <span style=\"color:#51cf66\"><b>chỉ định</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cấu tạo: (1) túi dự trữ; (2) <span style=\"color:#74c0fc\"><b>van một chiều giữa túi và mặt nạ</b></span> (mở khi hít vào, đóng khi thở ra); (3) <span style=\"color:#74c0fc\"><b>van một chiều ở lỗ thoát hai bên</b></span> (mở khi thở ra, đóng khi hít vào).<br>2) Lưu lượng <span style=\"color:#ffd43b\"><b>10 - 15 L/phút</b></span>, giữ túi luôn căng ít nhất <span style=\"color:#ffd43b\"><b>2/3</b></span> thể tích; FiO2 <span style=\"color:#ffd43b\"><b>80 - 95%</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Chỉ định:</b></span> suy hô hấp giảm oxy máu nặng, sốc mất bù, ngộ độc CO, phù phổi cấp, hoặc làm cầu nối trong khi chuẩn bị đặt NKQ.<br>4) Nhược điểm: cần nguồn dòng lớn, chỉ dùng ngắn hạn.<br><br><b>💡 Giải thích của AI:</b><br>Hai nhóm van làm FiO2 gần tối đa vì ngăn khí thở ra vào túi và ngăn khí trời lọt vào; túi xẹp nghĩa là dòng không đủ.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B2-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "Lập <span style=\"color:#51cf66\"><b>bảng bỏ túi 3 thiết bị dòng thấp</b></span>: lưu lượng, FiO2 và <span style=\"color:#ff6b6b\"><b>bẫy lâm sàng</b></span> của canula, mặt nạ đơn giản và NRM.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Canula: <span style=\"color:#ffd43b\"><b>0.5 - 2 L/phút (nhỏ), 1 - 4 (lớn)</b></span>; <span style=\"color:#ffd43b\"><b>24 - 35%</b></span>; <span style=\"color:#ff6b6b\"><b>khô niêm mạc nếu > 2 L/phút, FiO2 không ổn định</b></span>.<br>2) Mặt nạ đơn giản: <span style=\"color:#ffd43b\"><b>5 - 8 L/phút</b></span>; <span style=\"color:#ffd43b\"><b>35 - 50%</b></span>; <span style=\"color:#ff6b6b\"><b>ứ CO2 nếu dòng < 5 L/phút</b></span>.<br>3) NRM: <span style=\"color:#ffd43b\"><b>10 - 15 L/phút</b></span>; <span style=\"color:#ffd43b\"><b>80 - 95%</b></span>; <span style=\"color:#ff6b6b\"><b>túi phải luôn phồng ≥ 2/3, chỉ dùng ngắn hạn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba dòng này là bảng tra nhanh khi chọn thiết bị theo mức nặng của suy hô hấp.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4 (bảng tổng hợp)",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED25-B2-07",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B2",
+      "category": "Oxy dòng thấp",
+      "tier": 2,
+      "front": "Mô hình sinh lý bệnh <span style=\"color:#ffd43b\"><b>5 tầng</b></span> của suy hô hấp giảm oxy ở trẻ em đi theo thứ tự nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1: <span style=\"color:#ff6b6b\"><b>viêm phù nề, tắc nghẽn đường thở nhỏ</b></span> hoặc đông đặc phế nang.<br>2) Tầng 2: mất cân xứng <span style=\"color:#74c0fc\"><b>V/Q</b></span> và tăng <span style=\"color:#74c0fc\"><b>shunt nội phổi</b></span>.<br>3) Tầng 3: <span style=\"color:#74c0fc\"><b>FRC</b></span> giảm xuống dưới thể tích đóng của phổi.<br>4) Tầng 4: tăng công hô hấp bù trừ → kiệt sức cơ hoành và cơ liên sườn.<br>5) Tầng 5: giảm thông khí phế nang toàn bộ, toan hô hấp hỗn hợp, <span style=\"color:#ff6b6b\"><b>ngừng thở - ngừng tim</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi thiết bị can thiệp vào một tầng: HFNC chủ yếu tầng 1 và 4, nCPAP chủ yếu tầng 2 và 3.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2 (mô hình 5 tầng)",
+      "tags": [
+        "PED-25",
+        "B2",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 1,
+      "front": "HFNC là gì (<span style=\"color:#ffd43b\"><b>3 thành phần</b></span>) và có <span style=\"color:#ffd43b\"><b>5 cơ chế</b></span> sinh lý bệnh nào giải thích hiệu quả?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bản chất: hệ thống khí thở hoàn chỉnh = <span style=\"color:#51cf66\"><b>lưu lượng vượt đỉnh hít vào + kiểm soát chính xác FiO2 qua blender + sưởi ấm làm ẩm bão hòa chủ động</b></span>.<br>2) 5 cơ chế: (1) <span style=\"color:#74c0fc\"><b>sưởi ấm 37°C và làm ẩm bão hòa</b></span>; (2) <span style=\"color:#74c0fc\"><b>rửa trôi khoảng chết mũi hầu (CO2 washout)</b></span>; (3) <span style=\"color:#74c0fc\"><b>triệt tiêu kháng lực đường thở thì hít vào</b></span>; (4) <span style=\"color:#74c0fc\"><b>tạo PEEP động</b></span>; (5) <span style=\"color:#74c0fc\"><b>tăng dung nạp và tương tác lâm sàng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>HFNC không đơn thuần là oxy lưu lượng lớn; thiếu bất kỳ thành phần nào (đặc biệt làm ẩm nhiệt) sẽ mất hiệu quả hoặc gây hại.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 2,
+      "front": "Cơ chế 1 của HFNC: <span style=\"color:#ffd43b\"><b>nhiệt độ và độ ẩm chuẩn</b></span>, vì sao khí khô lạnh <span style=\"color:#ff6b6b\"><b>gây hại</b></span> và <span style=\"color:#51cf66\"><b>chuỗi tác động</b></span> của khí ấm ẩm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuẩn: <span style=\"color:#ffd43b\"><b>37°C</b></span>, <span style=\"color:#ffd43b\"><b>100% độ ẩm tương đối (44 mg H2O/L khí)</b></span>.<br>2) Khí khô lạnh làm tê liệt biểu mô lông chuyển, mất nước lớp nhầy → dịch tiết cô đặc thành <span style=\"color:#ff6b6b\"><b>nút nhầy tắc đường thở nhỏ</b></span>.<br>3) Chuỗi: <span style=\"color:#51cf66\"><b>khí ấm ẩm → bảo tồn thang máy lông chuyển → làm loãng đờm, chống nút nhầy → giảm tiêu hao năng lượng chuyển hóa sưởi ấm khí</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khi HFNC trả lại điều kiện phế nang sinh lý, trẻ không phải tốn năng lượng sưởi ấm khí và đờm không đóng vón.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.1",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 2,
+      "front": "Cơ chế 2 của HFNC: <span style=\"color:#74c0fc\"><b>khoang mũi hầu</b></span> gây vấn đề gì lúc cuối thì thở ra và <span style=\"color:#51cf66\"><b>rửa trôi CO2</b></span> giúp ích ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cuối thì thở ra khoang mũi hầu chứa đầy khí phế nang giàu CO2; nhịp hít vào kế tiếp trẻ <span style=\"color:#ff6b6b\"><b>hít lại toàn bộ khí này</b></span> trước khi khí mới vào phổi.<br>2) HFNC thổi dòng khí cao liên tục, quét sạch CO2 cũ ra qua miệng hoặc khe quanh lỗ mũi.<br>3) Chuỗi: <span style=\"color:#51cf66\"><b>dòng khí cao liên tục → rửa sạch CO2 hầu họng → hầu họng thành kho dự trữ khí giàu O2 → tăng hiệu quả thông khí phế nang, giảm công thở thông khí phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì khoảng chết chiếm 30 - 40% thể tích lưu thông ở trẻ, giảm khoảng chết hiệu dụng giúp giảm công thở rõ rệt.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.2",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 2,
+      "front": "Cơ chế 3 của HFNC: <span style=\"color:#ff6b6b\"><b>hậu quả khi dòng thiết bị không đáp ứng đỉnh hít vào</b></span> và <span style=\"color:#ffd43b\"><b>mức lưu lượng</b></span> HFNC cần đạt để <span style=\"color:#51cf66\"><b>triệt tiêu kháng lực mũi hầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi suy hô hấp, lưu lượng đỉnh hít vào tăng vọt; nếu thiết bị không đáp ứng, trẻ dùng cơ hô hấp phụ co kéo, tạo <span style=\"color:#ff6b6b\"><b>áp lực âm lồng ngực rất lớn làm hẹp đường thở trên</b></span>.<br>2) HFNC cung cấp lưu lượng bằng hoặc vượt PIFR: <span style=\"color:#ffd43b\"><b>1.5 - 2 L/kg/phút</b></span>.<br>3) Kết quả: trẻ không cần gắng sức hút khí, <span style=\"color:#51cf66\"><b>triệt tiêu kháng lực đường thở vùng mũi hầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dòng đáp ứng tức thì nhu cầu phế nang nên không còn áp lực âm gây xẹp đường thở trên.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.3",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 2,
+      "front": "Cơ chế 4 của HFNC: vì sao hệ thống <span style=\"color:#74c0fc\"><b>mở</b></span> vẫn tạo <span style=\"color:#74c0fc\"><b>PEEP động</b></span>, <span style=\"color:#ffd43b\"><b>mức PEEP</b></span> bao nhiêu (kể cả khi ngậm miệng) và <span style=\"color:#51cf66\"><b>chuỗi lợi ích</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ma sát giữa dòng khí vào và luồng khí thở ra qua khe mũi cản dòng thở ra → áp lực dương cuối thì thở ra (<span style=\"color:#74c0fc\"><b>Dynamic PEEP</b></span>).<br>2) PEEP khoảng <span style=\"color:#ffd43b\"><b>2 - 4 cmH2O</b></span>; khi trẻ ngậm miệng có thể <span style=\"color:#ffd43b\"><b>5 - 6 cmH2O</b></span>.<br>3) Chuỗi: <span style=\"color:#51cf66\"><b>giữ phế nang không xẹp cuối thở ra → tăng FRC → cải thiện V/Q và oxy hóa máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>PEEP động nhẹ nên HFNC hợp với tắc nghẽn đường thở nhỏ hơn là xẹp phế nang nặng cần PEEP thật.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.4",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B3-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B3",
+      "category": "Cơ chế HFNC",
+      "tier": 2,
+      "front": "Cơ chế 5 của HFNC: <span style=\"color:#51cf66\"><b>lợi thế dung nạp</b></span> so với mặt nạ CPAP và <span style=\"color:#51cf66\"><b>vì sao nó làm giảm tiêu thụ oxy</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gọng mũi nhỏ gọn mềm mại; mặt nạ CPAP ôm chặt gây <span style=\"color:#ff6b6b\"><b>đau rát, loét sống mũi, cản trở hoàn toàn ăn uống</b></span>.<br>2) Trẻ HFNC vẫn bú mẹ, uống sữa, nói chuyện, tương tác với cha mẹ.<br>3) Giảm stress tâm lý, giảm kích thích vật vã → <span style=\"color:#51cf66\"><b>giảm trực tiếp tiêu thụ oxy toàn thân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ yên tĩnh tiêu thụ ít oxy hơn, nên dung nạp tốt cũng là cơ chế điều trị chứ không chỉ là sự thoải mái.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.5",
+      "tags": [
+        "PED-25",
+        "B3",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B4-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 1,
+      "front": "Quy trình HFNC tại giường gồm <span style=\"color:#ffd43b\"><b>4 phần</b></span> nào (cài lưu lượng, FiO2, nhiệt ẩm, cai) và nguyên tắc vàng khi cai là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Lưu lượng khởi đầu</b></span> theo cân nặng (≤ 10 kg và > 10 kg).<br>2) <span style=\"color:#51cf66\"><b>FiO2 khởi đầu và chuẩn độ</b></span> về đích SpO2.<br>3) <span style=\"color:#51cf66\"><b>Nhiệt ẩm</b></span> 37°C bằng buồng ẩm có dây đốt nhiệt.<br>4) <span style=\"color:#51cf66\"><b>Cai 2 bước:</b></span> <span style=\"color:#ffd43b\"><b>cai FiO2 trước — cai lưu lượng sau</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lưu lượng tạo PEEP động và washout nên được giữ đến cuối; FiO2 là biến số nên hạ trước.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B4-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 2,
+      "front": "Tính <span style=\"color:#ffd43b\"><b>lưu lượng HFNC khởi đầu</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>≤ 10 kg</b></span> và trẻ <span style=\"color:#ffd43b\"><b>> 10 kg</b></span>, <span style=\"color:#ffd43b\"><b>ví dụ trẻ 14 kg</b></span> và <span style=\"color:#ffd43b\"><b>giới hạn tối đa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ≤ 10 kg: <span style=\"color:#ffd43b\"><b>1.5 - 2.0 L/kg/phút</b></span> (thông dụng bắt đầu ngay <span style=\"color:#ffd43b\"><b>2.0 L/kg/phút</b></span> để đạt PEEP và washout tối ưu).<br>2) > 10 kg: <span style=\"color:#51cf66\"><b>2.0 L/kg/phút cho 10 kg đầu + 0.5 L/kg/phút cho mỗi kg vượt trên 10 kg</b></span>.<br>3) Ví dụ 14 kg: 10 × 2 + 4 × 0.5 = 20 + 2 = <span style=\"color:#ffd43b\"><b>22 L/phút</b></span>.<br>4) Giới hạn tối đa: thông thường <span style=\"color:#ffd43b\"><b>50 - 60 L/phút</b></span> ở trẻ vị thành niên.<br><br><b>💡 Giải thích của AI:</b><br>Công thức bậc thang tránh cho trẻ lớn lưu lượng quá cao tính thẳng theo cân nặng.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.1",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B4-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 2,
+      "front": "Lập <span style=\"color:#51cf66\"><b>công cụ tính lưu lượng HFNC bỏ túi</b></span>: 2 nhánh cân nặng, <span style=\"color:#ffd43b\"><b>ví dụ 14 kg</b></span> và ví dụ <span style=\"color:#ffd43b\"><b>7 kg</b></span> của ca lâm sàng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ≤ 10 kg: <span style=\"color:#ffd43b\"><b>2.0 L/kg/phút</b></span> × cân nặng; ví dụ 7.0 kg → <span style=\"color:#ffd43b\"><b>14.0 L/phút</b></span>.<br>2) > 10 kg: <span style=\"color:#ffd43b\"><b>2.0 × 10 + 0.5 × (cân nặng − 10)</b></span>; ví dụ 14 kg → <span style=\"color:#ffd43b\"><b>22 L/phút</b></span>.<br>3) Trần lưu lượng <span style=\"color:#ffd43b\"><b>50 - 60 L/phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng tra nhanh này gom hai nhánh tính để cài máy đúng liều ngay từ đầu.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.1 và ca lâm sàng 1",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED25-B4-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 2,
+      "front": "HFNC: <span style=\"color:#ffd43b\"><b>FiO2 khởi đầu</b></span>, cách <span style=\"color:#51cf66\"><b>chuẩn độ</b></span> (bước và nhịp), <span style=\"color:#ffd43b\"><b>đích SpO2</b></span> và <span style=\"color:#ffd43b\"><b>nhiệt độ</b></span> cài đặt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) FiO2 khởi đầu <span style=\"color:#ffd43b\"><b>40 - 60%</b></span> (cao hơn nếu trẻ tím tái nặng).<br>2) Chuẩn độ tăng/giảm <span style=\"color:#ffd43b\"><b>5 - 10% mỗi 10 - 15 phút</b></span>.<br>3) Đích SpO2 <span style=\"color:#ffd43b\"><b>92 - 96%</b></span> (<span style=\"color:#ffd43b\"><b>90 - 94%</b></span> ở viêm tiểu phế quản).<br>4) Nhiệt độ <span style=\"color:#ffd43b\"><b>37°C</b></span> với buồng ẩm có dây đốt nhiệt.<br><br><b>💡 Giải thích của AI:</b><br>Chuẩn độ từng bước tránh vừa thiếu oxy vừa tăng oxy máu; đích riêng của bronchiolitis thấp hơn để tránh lạm dụng oxy.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.2",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B4-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 2,
+      "front": "Quy trình <span style=\"color:#51cf66\"><b>cai HFNC 2 bước</b></span>: <span style=\"color:#ffd43b\"><b>điều kiện, nhịp giảm</b></span> từng bước của FiO2 rồi lưu lượng và <span style=\"color:#ffd43b\"><b>mức FiO2 an toàn</b></span> trước khi đụng vào lưu lượng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1 <span style=\"color:#51cf66\"><b>cai FiO2</b></span>: khi trẻ ổn định (nhịp thở giảm, hết co kéo, SpO2 ổn trong đích) hạ FiO2 <span style=\"color:#ffd43b\"><b>5% mỗi 1 - 2 giờ</b></span>.<br>2) Mục tiêu: FiO2 <span style=\"color:#ffd43b\"><b>≤ 30 - 40%</b></span> trước khi chạm vào lưu lượng.<br>3) Bước 2 <span style=\"color:#51cf66\"><b>cai lưu lượng</b></span>: khi FiO2 ≤ 30 - 40% và trẻ thoải mái, giảm <span style=\"color:#ffd43b\"><b>0.5 L/kg/phút mỗi 2 - 4 giờ</b></span>.<br>4) Nguyên tắc: <span style=\"color:#ffd43b\"><b>một thông số tại một thời điểm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lưu lượng tạo PEEP động và washout; cắt dòng sớm khi phổi chưa hồi phục làm phế nang xẹp lại và công thở tăng vọt.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3 và sai lầm 5",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B4-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B4",
+      "category": "Vận hành HFNC",
+      "tier": 2,
+      "front": "<span style=\"color:#ffd43b\"><b>Ngưỡng ngừng HFNC</b></span>: lưu lượng và FiO2 phải đạt bao nhiêu, và <span style=\"color:#51cf66\"><b>chuyển sang</b></span> phương thức nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lưu lượng <span style=\"color:#ffd43b\"><b>≤ 0.5 L/kg/phút</b></span> (hoặc tổng lưu lượng <span style=\"color:#ffd43b\"><b>< 4 L/phút</b></span> ở nhũ nhi).<br>2) FiO2 <span style=\"color:#ffd43b\"><b>≤ 30%</b></span>.<br>3) Ngắt HFNC → <span style=\"color:#51cf66\"><b>canula mũi thông thường hoặc khí trời hoàn toàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở ngưỡng này PEEP động và washout gần như không còn đáng kể nên trẻ có thể tự đảm nhận công thở.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3",
+      "tags": [
+        "PED-25",
+        "B4",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B5-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "nCPAP",
+      "tier": 1,
+      "front": "nCPAP khác HFNC ở bản chất nào, có <span style=\"color:#ffd43b\"><b>4 tác động sinh lý</b></span> nào, hệ thống <span style=\"color:#74c0fc\"><b>Bubble CPAP</b></span> là gì và <span style=\"color:#51cf66\"><b>cài đặt khởi đầu</b></span> gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) nCPAP là phương thức <span style=\"color:#74c0fc\"><b>kín</b></span> duy trì áp lực dương cố định suốt cả thì hít vào lẫn thở ra khi trẻ tự thở (HFNC là hệ mở dựa vào lưu lượng).<br>2) 4 tác động: phục hồi thể tích phổi/FRC; tối ưu V/Q; giảm công thở; hỗ trợ huyết động suy tim.<br>3) <span style=\"color:#74c0fc\"><b>Bubble CPAP</b></span>: khí thở ra sục qua cột nước, PEEP theo chiều sâu.<br>4) <span style=\"color:#51cf66\"><b>Cài đặt:</b></span> PEEP khởi đầu <span style=\"color:#ffd43b\"><b>4 - 5 cmH2O</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>40 - 60%</b></span>, dòng nguồn <span style=\"color:#ffd43b\"><b>6 - 10 L/phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Áp lực dương thật là điểm khác biệt cho phép nCPAP mở phế nang xẹp/đông đặc mà HFNC không làm được.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5",
+      "tags": [
+        "PED-25",
+        "B5",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B5-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "nCPAP",
+      "tier": 2,
+      "front": "Nêu <span style=\"color:#ffd43b\"><b>4 tác động sinh lý</b></span> quyết định của <span style=\"color:#74c0fc\"><b>nCPAP</b></span> và vì sao nCPAP <span style=\"color:#51cf66\"><b>có lợi ở bệnh nhân suy tim</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Phục hồi thể tích phổi và FRC:</b></span> áp lực xuyên phổi liên tục thắng lực căng bề mặt, mở lại phế nang xẹp và giữ không xẹp lại cuối thở ra.<br>2) <span style=\"color:#51cf66\"><b>Tối ưu V/Q:</b></span> mở rộng diện tích phế nang trao đổi khí, giảm shunt từ vùng đông đặc/xẹp.<br>3) <span style=\"color:#51cf66\"><b>Giảm công thở:</b></span> đưa phổi về đoạn dốc tối ưu của đường cong áp lực - thể tích, nơi độ giãn nở cao nhất.<br>4) <span style=\"color:#51cf66\"><b>Hỗ trợ huyết động:</b></span> áp lực dương giảm áp lực xuyên thành thất trái → <span style=\"color:#ffd43b\"><b>giảm hậu gánh thất trái</b></span> (phù phổi huyết động, suy tim sung huyết).<br><br><b>💡 Giải thích của AI:</b><br>Ở độ giãn nở tối ưu, cơ hoành cần ít lực hơn để tạo cùng thể tích lưu thông, nên công thở giảm.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.1",
+      "tags": [
+        "PED-25",
+        "B5",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B5-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "nCPAP",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>Bubble CPAP</b></span>: <span style=\"color:#ffd43b\"><b>độ sâu cột nước</b></span> quyết định gì, <span style=\"color:#ffd43b\"><b>tần số dao động áp lực</b></span> bao nhiêu và vì sao <span style=\"color:#51cf66\"><b>tăng thải CO2 và oxy hóa</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khí thở ra sục vào cột nước sâu <span style=\"color:#ffd43b\"><b>4 - 8 cm</b></span>; <span style=\"color:#ffd43b\"><b>1 cm nước = 1 cmH2O</b></span> PEEP.<br>2) Bọt khí vỡ liên tục tạo <span style=\"color:#74c0fc\"><b>dao động áp lực vi thể</b></span> tần số <span style=\"color:#ffd43b\"><b>15 - 30 Hz</b></span>.<br>3) Sóng dao động lan ngược vào phế nang, hòa trộn khí tương tự HFOV → tăng khuếch tán CO2 và oxy hóa <span style=\"color:#51cf66\"><b>mà không cần tăng áp lực đỉnh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bubble CPAP được mô tả là hiệu quả trao đổi khí vượt trội so với CPAP van cơ học nhờ cơ chế dao động áp lực.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.2",
+      "tags": [
+        "PED-25",
+        "B5",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B5-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B5",
+      "category": "nCPAP",
+      "tier": 2,
+      "front": "Cài đặt <span style=\"color:#51cf66\"><b>nCPAP</b></span>: <span style=\"color:#74c0fc\"><b>giao diện</b></span>, <span style=\"color:#ffd43b\"><b>PEEP khởi đầu</b></span>, <span style=\"color:#51cf66\"><b>chuẩn độ</b></span>, PEEP tối ưu/tối đa, FiO2 và <span style=\"color:#ffd43b\"><b>dòng nguồn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giao diện: gọng mũi ngắn hai lỗ hoặc mặt nạ mũi, vừa khít không rò khí.<br>2) PEEP khởi đầu <span style=\"color:#ffd43b\"><b>4 - 5 cmH2O</b></span>.<br>3) Còn co kéo, SpO2 chưa đạt → tăng <span style=\"color:#ffd43b\"><b>1 cmH2O mỗi 15 - 30 phút</b></span>.<br>4) PEEP tối ưu <span style=\"color:#ffd43b\"><b>5 - 7 cmH2O</b></span>; tối đa <span style=\"color:#ffd43b\"><b>8 cmH2O</b></span> (vượt mức này tăng <span style=\"color:#ff6b6b\"><b>chấn thương áp lực, cản máu tĩnh mạch về tim</b></span>).<br>5) FiO2 <span style=\"color:#ffd43b\"><b>40 - 60%</b></span>, đích SpO2 <span style=\"color:#ffd43b\"><b>92 - 96%</b></span>; dòng nguồn <span style=\"color:#ffd43b\"><b>6 - 10 L/phút</b></span> để cột nước sục liên tục ngay cả khi trẻ hít vào gắng sức.<br><br><b>💡 Giải thích của AI:</b><br>Tăng PEEP từng bước nhỏ cho phép đánh giá đáp ứng mà không vượt ngưỡng gây hại huyết động.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.3",
+      "tags": [
+        "PED-25",
+        "B5",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B6-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Bậc thang & chọn thiết bị",
+      "tier": 1,
+      "front": "Vẽ <span style=\"color:#51cf66\"><b>bậc thang nâng bậc hỗ trợ hô hấp</b></span> từ khí trời: <span style=\"color:#ffd43b\"><b>tiêu chí thất bại canula</b></span>, hai nhánh đầu tay, <span style=\"color:#ffd43b\"><b>thời điểm đánh giá lại</b></span> và điểm cuối khi thất bại.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khí trời (SpO2 <span style=\"color:#ffd43b\"><b>< 92 - 94%</b></span>, thở nhanh nhẹ) → canula <span style=\"color:#ffd43b\"><b>0.5 - 2 L/phút, FiO2 24 - 35%</b></span>; đáp ứng thì duy trì rồi giảm dần.<br>2) Thất bại canula: SpO2 <span style=\"color:#ffd43b\"><b>< 92%</b></span>, co kéo ngực tăng, thở nhanh tăng → chọn nhánh theo bệnh sinh (<span style=\"color:#74c0fc\"><b>HFNC</b></span> hoặc <span style=\"color:#74c0fc\"><b>nCPAP</b></span>).<br>3) Đánh giá lại tại <span style=\"color:#ffd43b\"><b>1 - 2 giờ</b></span> bằng ROX và khí máu.<br>4) Thành công (ROX ≥ 4.88): duy trì và cai dần; thất bại (ROX < 3.85, toan hô hấp tăng, kiệt sức cơ) → <span style=\"color:#ff6b6b\"><b>đặt NKQ thở máy cấp cứu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ giữ nguyên tắc 'đánh giá lại liên tục' để nâng bậc đúng lúc thay vì tăng lưu lượng vô hạn.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 6",
+      "tags": [
+        "PED-25",
+        "B6",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B6-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Bậc thang & chọn thiết bị",
+      "tier": 2,
+      "front": "Bệnh nào <span style=\"color:#74c0fc\"><b>ưu tiên HFNC đầu tay</b></span> và bệnh nào <span style=\"color:#74c0fc\"><b>ưu tiên nCPAP đầu tay</b></span>? Kèm <span style=\"color:#ffd43b\"><b>thông số khởi đầu</b></span> của mỗi nhánh.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>HFNC:</b></span> viêm tiểu phế quản cấp; khò khè tắc nghẽn đường thở nhỏ; trẻ kích thích cần bú mẹ; lưu lượng <span style=\"color:#ffd43b\"><b>1.5 - 2 L/kg/phút</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>nCPAP:</b></span> viêm phổi thùy đông đặc nặng; xẹp phổi diện rộng; phù phổi cấp huyết động / ARDS; PEEP <span style=\"color:#ffd43b\"><b>4 - 6 cmH2O</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tắc nghẽn đường thở nhỏ và tăng khoảng chết cần dòng/washout; xẹp phế nang và shunt lớn cần PEEP thật.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 6 (lưu đồ)",
+      "tags": [
+        "PED-25",
+        "B6",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B6-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Bậc thang & chọn thiết bị",
+      "tier": 2,
+      "front": "Bảng phân định <span style=\"color:#74c0fc\"><b>HFNC</b></span> hay <span style=\"color:#74c0fc\"><b>nCPAP</b></span> đầu tay theo <span style=\"color:#ffd43b\"><b>4 tiêu chí</b></span>: bệnh lý điển hình, cơ chế bệnh sinh, mức hợp tác của trẻ, dung nạp & biến chứng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh lý: HFNC — viêm tiểu phế quản cấp, croup sau rút ống, khò khè hen nhẹ - vừa; nCPAP — viêm phổi nặng đông đặc, xẹp phổi phế nang, phù phổi, ARDS nhi khoa.<br>2) Bệnh sinh: HFNC — tắc nghẽn đường thở nhỏ do đờm, tăng kháng lực mũi hầu, tăng khoảng chết; nCPAP — xẹp phế nang hàng loạt, shunt lớn, giảm FRC trầm trọng.<br>3) Hợp tác: HFNC — trẻ bứt rứt, sợ mặt nạ, cần bú; nCPAP — trẻ chấp nhận đeo mặt nạ chặt, có thể đặt sonde dạ dày giải áp.<br>4) Dung nạp: HFNC — dung nạp rất cao (<span style=\"color:#ffd43b\"><b>> 90%</b></span>), ít tổn thương da mũi; nCPAP — <span style=\"color:#ff6b6b\"><b>dễ loét vách ngăn mũi, chướng bụng</b></span>, cần theo dõi điều dưỡng sát.<br><br><b>💡 Giải thích của AI:</b><br>Chọn theo bệnh sinh trước, rồi mới theo mức hợp tác của trẻ.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 6 (bảng phân định)",
+      "tags": [
+        "PED-25",
+        "B6",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B6-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B6",
+      "category": "Bậc thang & chọn thiết bị",
+      "tier": 2,
+      "front": "Trẻ đang HFNC liều tối ưu <span style=\"color:#ffd43b\"><b>2 L/kg/phút</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>60%</b></span> không cải thiện sau <span style=\"color:#ffd43b\"><b>2 giờ</b></span>: khi nào <span style=\"color:#51cf66\"><b>chuyển nCPAP</b></span> và khi nào <span style=\"color:#ff6b6b\"><b>đặt NKQ ngay</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chuyển nCPAP</b></span> khi: trẻ còn tỉnh táo; cơ hô hấp chưa kiệt (còn thở nhanh, co kéo bù trừ tốt); không toan nặng (<span style=\"color:#ffd43b\"><b>pH > 7.25</b></span>); bệnh nền là xẹp phổi hoặc đông đặc phế nang cần PEEP thật.<br>2) <span style=\"color:#ff6b6b\"><b>Đặt NKQ ngay</b></span> khi: kiệt sức cơ hô hấp (thở chậm dần, cơn ngừng thở ngắn); toan mất bù nặng (<span style=\"color:#ffd43b\"><b>pH < 7.20, PaCO2 > 65 mmHg</b></span>); rối loạn tri giác (li bì, không tiếp xúc); hoặc ARDS nặng tiến triển nhanh.<br>3) Chuyển nCPAP trong nhóm thứ hai chỉ <span style=\"color:#ff6b6b\"><b>mất thời gian quý và dẫn đến ngừng thở đột ngột</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định chia đôi: còn dự trữ cơ hô hấp thì thử nCPAP; đã kiệt sức thì không còn thời gian cho thử nghiệm.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 10 (checkpoint 4)",
+      "tags": [
+        "PED-25",
+        "B6",
+        "EBM"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED25-B7-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Chỉ số ROX",
+      "tier": 1,
+      "front": "Chỉ số <span style=\"color:#74c0fc\"><b>ROX</b></span>: <span style=\"color:#ffd43b\"><b>công thức</b></span>, <span style=\"color:#ffd43b\"><b>quy đổi đơn vị</b></span>, <span style=\"color:#ffd43b\"><b>ví dụ</b></span> và <span style=\"color:#ffd43b\"><b>3 vùng ngưỡng</b></span> dự báo?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ROX = <span style=\"color:#ffd43b\"><b>(SpO2 / FiO2) ÷ tần số thở (lần/phút)</b></span>; SpO2 theo % (95%→95), FiO2 dạng thập phân (40%→0.40).<br>2) Ví dụ SpO2 94%, FiO2 0.50, thở 40 lần/phút: (94 / 0.50) / 40 = 188 / 40 = <span style=\"color:#ffd43b\"><b>4.70</b></span>.<br>3) Ngưỡng: <span style=\"color:#51cf66\"><b>≥ 4.88 an toàn</b></span>; <span style=\"color:#ffd43b\"><b>3.85 - 4.88 cảnh báo xám</b></span>; <span style=\"color:#ff6b6b\"><b>< 3.85 báo động thất bại</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>ROX tính tại giường không cần máu, gộp oxy hóa máu và công thở trong một con số.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.1",
+      "tags": [
+        "PED-25",
+        "B7",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B7-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Chỉ số ROX",
+      "tier": 2,
+      "front": "Ý nghĩa sinh học của <span style=\"color:#74c0fc\"><b>tử số</b></span> và <span style=\"color:#74c0fc\"><b>mẫu số</b></span> trong ROX, và vì sao ROX <span style=\"color:#51cf66\"><b>tăng vọt</b></span> ở trẻ đáp ứng tốt còn <span style=\"color:#ff6b6b\"><b>sụt giảm</b></span> ở trẻ thất bại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử số (<span style=\"color:#ffd43b\"><b>SpO2/FiO2</b></span>) phản ánh mức oxy hóa máu.<br>2) Mẫu số (<span style=\"color:#ffd43b\"><b>tần số thở</b></span>) phản ánh công thở bù trừ.<br>3) Đáp ứng tốt: oxy hóa tăng (tử số tăng) và nhịp thở chậm lại (mẫu số giảm) → ROX tăng vọt.<br>4) Thất bại: oxy hóa tụt trong khi thở dồn dập → <span style=\"color:#ff6b6b\"><b>ROX sụt giảm nghiêm trọng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì có tần số thở trong công thức, ROX phát hiện được thất bại thầm lặng mà SpO2 đơn độc bị FiO2 che đậy.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.1",
+      "tags": [
+        "PED-25",
+        "B7",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B7-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Chỉ số ROX",
+      "tier": 2,
+      "front": "ROX nên được đo ở <span style=\"color:#ffd43b\"><b>4 mốc thời gian</b></span> nào, và <span style=\"color:#ffd43b\"><b>3 vùng ngưỡng</b></span> kèm <span style=\"color:#51cf66\"><b>hành động</b></span> tương ứng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mốc đo: <span style=\"color:#ffd43b\"><b>0h, 2h, 6h, 12h</b></span>.<br>2) <span style=\"color:#51cf66\"><b>An toàn (ROX ≥ 4.88):</b></span> thành công cao (> 85%), không nâng bậc, tiếp tục và chuẩn bị cai.<br>3) <span style=\"color:#ffd43b\"><b>Cảnh báo xám (3.85 ≤ ROX < 4.88):</b></span> theo dõi sát mỗi giờ, kiểm tra vị trí gọng mũi, hút sạch đờm hầu họng, xem xét tăng nhẹ lưu lượng hoặc PEEP.<br>4) <span style=\"color:#ff6b6b\"><b>Báo động (ROX < 3.85)</b></span>, đặc biệt sau <span style=\"color:#ffd43b\"><b>2 - 6 giờ</b></span> hoặc xu hướng tụt dốc liên tục: chuẩn bị kíp đặt NKQ cấp cứu ngay, không trì hoãn.<br><br><b>💡 Giải thích của AI:</b><br>Xu hướng qua các mốc có giá trị hơn một giá trị đơn lẻ; tụt dốc là tín hiệu sớm của thất bại.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.2",
+      "tags": [
+        "PED-25",
+        "B7",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B7-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B7",
+      "category": "Chỉ số ROX",
+      "tier": 2,
+      "front": "Lập <span style=\"color:#51cf66\"><b>bộ giải mã ROX bỏ túi</b></span>: ví dụ HFNC <span style=\"color:#ffd43b\"><b>ROX 4.35 → 3.25 ở 2 giờ</b></span> nghĩa là gì và <span style=\"color:#51cf66\"><b>xử trí</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mốc 0h: SpO2 94%, thở 48 lần/phút → ROX <span style=\"color:#ffd43b\"><b>4.35</b></span>.<br>2) Mốc 2h: SpO2 93%, thở 52 lần/phút, FiO2 phải tăng lên 55% → ROX <span style=\"color:#ffd43b\"><b>3.25</b></span> (< 3.85) → <span style=\"color:#ff6b6b\"><b>thất bại sớm với HFNC</b></span>.<br>3) Xử trí: <span style=\"color:#51cf66\"><b>không tăng FiO2 lên 70 - 80% để chờ; hội chẩn hồi sức; chuyển nCPAP với PEEP cao (6 - 7 cmH2O) hoặc chuẩn bị sẵn dụng cụ đặt NKQ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>SpO2 vẫn 93% nhưng FiO2 và nhịp thở tăng; ROX phơi bày sự suy giảm ẩn dưới con số SpO2 'ổn định'.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7 và checkpoint 2",
+      "tags": [
+        "PED-25",
+        "B7",
+        "EBM"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "PED25-B8-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Biến chứng",
+      "tier": 1,
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>4 biến chứng</b></span> của hỗ trợ hô hấp không xâm lấn và <span style=\"color:#51cf66\"><b>xử trí/dự phòng chủ đạo</b></span> của mỗi biến chứng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chướng bụng do nuốt khí</b></span> → <span style=\"color:#51cf66\"><b>ống thông dạ dày 8 - 10F mở nắp dẫn lưu tự do</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Loét tì đè vách ngăn và cánh mũi</b></span> → prong chiếm <span style=\"color:#ffd43b\"><b>50 - 70%</b></span> lỗ mũi, miếng dán hydrocolloid.<br>3) <span style=\"color:#ff6b6b\"><b>Chấn thương áp lực (tràn khí màng phổi)</b></span> → chọc kim giải áp khoang liên sườn 2 rồi dẫn lưu màng phổi.<br>4) <span style=\"color:#ff6b6b\"><b>Ngộ độc oxy và xẹp phổi hấp thu</b></span> → tránh FiO2 80 - 100% kéo dài, chuẩn độ về khoảng đích.<br><br><b>💡 Giải thích của AI:</b><br>Không xâm lấn không đồng nghĩa không tai biến; phát hiện sớm nhờ theo dõi bụng, mũi, lồng ngực và FiO2.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8",
+      "tags": [
+        "PED-25",
+        "B8",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B8-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#ff6b6b\"><b>Chướng bụng do nuốt khí</b></span>: <span style=\"color:#ffd43b\"><b>ngưỡng áp lực</b></span> gây ra, <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>xử trí bắt buộc</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi áp lực đường thở (PEEP hoặc dòng HFNC lớn) vượt áp lực mở cơ thắt thực quản dưới (khoảng <span style=\"color:#ffd43b\"><b>6 - 8 cmH2O</b></span> ở trẻ nhỏ) → khí vào thực quản và dạ dày.<br>2) Hậu quả: dạ dày căng đẩy cơ hoành lên, giảm thể tích lồng ngực → suy hô hấp nặng hơn, nôn trớ và hít sặc dịch vị.<br>3) <span style=\"color:#51cf66\"><b>Đặt ống thông dạ dày số 8 - 10F, mở nắp dẫn lưu tự do</b></span> cho mọi trẻ thở nCPAP hoặc HFNC lưu lượng cao kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Dẫn lưu liên tục giải phóng khí thừa nên cơ hoành vận động lại và SpO2 hồi phục mà không cần tăng PEEP.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.1",
+      "tags": [
+        "PED-25",
+        "B8",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B8-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#ff6b6b\"><b>Loét tì đè vách ngăn và cánh mũi</b></span>: <span style=\"color:#74c0fc\"><b>cơ chế</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>dự phòng</b></span> (cỡ prong, vật liệu bảo vệ)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế: prong quá to ép sụn cánh mũi, hoặc bị kéo lệch trục tì đè liên tục lên vách ngăn → niêm mạc mỏng thiếu máu cục bộ hoại tử.<br>2) Hậu quả: <span style=\"color:#ff6b6b\"><b>loét vách ngăn, biến dạng lỗ mũi vĩnh viễn, thủng vách ngăn mũi</b></span>.<br>3) Dự phòng: prong có đường kính ngoài chiếm <span style=\"color:#ffd43b\"><b>50 - 70%</b></span> lỗ mũi, <span style=\"color:#ff6b6b\"><b>không bao giờ bít kín 100%</b></span>; dùng miếng dán <span style=\"color:#51cf66\"><b>hydrocolloid</b></span> bảo vệ da sống mũi và vách ngăn.<br><br><b>💡 Giải thích của AI:</b><br>Niêm mạc mũi trẻ rất mỏng nên áp lực tì đè liên tục gây hoại tử nhanh.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.2",
+      "tags": [
+        "PED-25",
+        "B8",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B8-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#ff6b6b\"><b>Chấn thương áp lực</b></span>: <span style=\"color:#74c0fc\"><b>cơ chế</b></span>, <span style=\"color:#ff6b6b\"><b>dấu hiệu nhận biết</b></span> và <span style=\"color:#51cf66\"><b>xử trí cấp cứu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế: áp lực dương quá cao làm phế nang căng quá mức, vỡ; khí theo bao mạch vào trung thất hoặc vào khoang màng phổi.<br>2) <span style=\"color:#ff6b6b\"><b>Dấu hiệu:</b></span> trẻ đột ngột tím tái, SpO2 tụt dốc không đáp ứng tăng oxy, lồng ngực một bên phồng bất đối xứng, rì rào phế nang giảm mạnh một bên, tim bị đẩy sang bên đối diện.<br>3) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> chọc hút kim giải áp khoang màng phổi cấp cứu tại <span style=\"color:#ffd43b\"><b>khoang liên sườn 2 đường trung đòn</b></span>, sau đó đặt ống dẫn lưu màng phổi liên tục.<br><br><b>💡 Giải thích của AI:</b><br>Tràn khí áp lực chưa dẫn lưu giải áp là một trong 7 cờ đỏ buộc đặt NKQ; chọc kim giải áp là cứu sinh.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.3",
+      "tags": [
+        "PED-25",
+        "B8",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B8-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B8",
+      "category": "Biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#ff6b6b\"><b>Ngộ độc oxy và xẹp phổi hấp thu</b></span>: <span style=\"color:#74c0fc\"><b>cơ chế</b></span> khi hít FiO2 <span style=\"color:#ffd43b\"><b>80 - 100%</b></span> kéo dài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nitơ trong phế nang (khí trơ giữ khung phế nang) bị oxy thay thế hoàn toàn.<br>2) Oxy được mao mạch phổi hấp thu rất nhanh; khi tốc độ hấp thu vượt tốc độ khí mới vào (phế nang thông khí kém) → phế nang <span style=\"color:#ff6b6b\"><b>xẹp hoàn toàn (xẹp phổi hấp thu)</b></span>.<br>3) Đồng thời nồng độ oxy cao sinh gốc tự do oxy hóa <span style=\"color:#ff6b6b\"><b>phá hủy màng phế nang - mao mạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì vậy phải chuẩn độ FiO2 về khoảng đích thay vì cho oxy tối đa kéo dài.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.4",
+      "tags": [
+        "PED-25",
+        "B8",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 1,
+      "front": "Liệt kê <span style=\"color:#ff6b6b\"><b>8 sai lầm kinh điển</b></span> khi dùng oxy và hỗ trợ hô hấp không xâm lấn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Oxy nồng độ cao kéo dài cho mọi trẻ khó thở mà không kiểm soát đích SpO2.<br>2) Mặt nạ đơn giản với lưu lượng <span style=\"color:#ffd43b\"><b>< 5 L/phút</b></span>.<br>3) Chọn gọng mũi HFNC <span style=\"color:#ffd43b\"><b>bít kín 100%</b></span> lỗ mũi.<br>4) nCPAP kéo dài mà quên ống thông dạ dày giải áp.<br>5) Cai lưu lượng trước khi cai FiO2 ở HFNC.<br>6) Khí HFNC không được làm ấm làm ẩm đúng chuẩn.<br>7) Trì hoãn đặt NKQ khi thất bại HFNC/nCPAP.<br>8) Oxy liều cao cho trẻ tim bẩm sinh tuần hoàn phụ thuộc ống động mạch.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn sai lầm đến từ tâm lý 'thừa oxy còn hơn thiếu' hoặc chần chừ nâng bậc; mỗi sai lầm có cơ chế sinh lý rõ ràng.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 9",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 2,
+      "front": "Sai lầm <span style=\"color:#ff6b6b\"><b>oxy cao kéo dài cho mọi trẻ khó thở</b></span> và sai lầm <span style=\"color:#ff6b6b\"><b>oxy 100% cho tim bẩm sinh phụ thuộc ống động mạch</b></span>: <span style=\"color:#74c0fc\"><b>bản chất khoa học</b></span> và <span style=\"color:#51cf66\"><b>cách làm đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) SpO2 đã 100% thì PaO2 có thể vọt lên <span style=\"color:#ffd43b\"><b>200 - 400 mmHg</b></span> → co thắt động mạch não và vành, gốc tự do ROS gây viêm phổi hóa học → <span style=\"color:#51cf66\"><b>luôn chuẩn độ oxy về khoảng đích khuyến cáo</b></span>.<br>2) Dị tật phụ thuộc ống động mạch (teo van động mạch phổi, hẹp eo động mạch chủ nặng, thiểu sản thất trái): sống nhờ luồng qua ống.<br>3) Oxy là chất kích thích co mạch mạnh nhất với ống động mạch → ống đóng sụp → <span style=\"color:#ff6b6b\"><b>sốc tim và tử vong trong chốc lát</b></span>; <span style=\"color:#51cf66\"><b>không chụp mặt nạ oxy 100% xả dòng tối đa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở nhóm tím do tim, tím không phải chỉ định xả oxy tối đa; đích SpO2 riêng bảo vệ ống động mạch.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 9 (sai lầm 1 và 8)",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 2,
+      "front": "Ba sai lầm cài đặt thiết bị: <span style=\"color:#ff6b6b\"><b>mặt nạ đơn giản < 5 L/phút</b></span>, <span style=\"color:#ff6b6b\"><b>gọng HFNC bít kín 100% lỗ mũi</b></span>, <span style=\"color:#ff6b6b\"><b>khí HFNC lạnh khô</b></span>. Vì sao nguy hiểm và <span style=\"color:#51cf66\"><b>chuẩn đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mặt nạ đơn giản: buồng <span style=\"color:#ffd43b\"><b>100 - 200 mL</b></span> + dòng <span style=\"color:#ffd43b\"><b>< 5 L/phút</b></span> → hít lại CO2 → <span style=\"color:#ff6b6b\"><b>toan hô hấp cấp</b></span>; bắt buộc ≥ <span style=\"color:#ffd43b\"><b>5 L/phút</b></span> hoặc đổi sang canula.<br>2) HFNC là <span style=\"color:#74c0fc\"><b>hệ thống mở</b></span>: bít kín 100% thì áp lực trong phổi tăng vọt theo dòng → <span style=\"color:#ff6b6b\"><b>vỡ phế nang, tràn khí màng phổi</b></span>; prong chỉ chiếm tối đa <span style=\"color:#ffd43b\"><b>50 - 70%</b></span> lỗ mũi.<br>3) Khí lạnh khô (oxy tường qua bình làm ẩm bọt nước, tăng lên <span style=\"color:#ffd43b\"><b>15 - 20 L/phút</b></span>) → <span style=\"color:#ff6b6b\"><b>đông lông chuyển, khô rát trợt loét niêm mạc, hạ thân nhiệt, cục đờm quánh tắc phế quản</b></span>; HFNC bắt buộc có máy làm ẩm nhiệt chuyên dụng <span style=\"color:#ffd43b\"><b>37°C và 100% độ ẩm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả ba sai lầm đều xuất phát từ việc coi thiết bị là 'chỉ cần đủ oxy' mà bỏ qua điều kiện cơ học và nhiệt ẩm.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 9 (sai lầm 2, 3, 6)",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 2,
+      "front": "Ba sai lầm vận hành: <span style=\"color:#ff6b6b\"><b>nCPAP quên ống thông dạ dày</b></span>, <span style=\"color:#ff6b6b\"><b>cai lưu lượng trước FiO2</b></span>, <span style=\"color:#ff6b6b\"><b>trì hoãn đặt NKQ</b></span>. <span style=\"color:#74c0fc\"><b>Bản chất</b></span> và <span style=\"color:#51cf66\"><b>xử trí đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ nCPAP trướng bụng, SpO2 tụt: không tăng PEEP/FiO2 mà <span style=\"color:#51cf66\"><b>đặt ống thông dạ dày mở nắp xả khí</b></span>; dạ dày phình đẩy cơ hoành, giảm FRC; bụng xẹp và SpO2 hồi phục.<br>2) Ví dụ hạ dòng từ <span style=\"color:#ffd43b\"><b>15 xuống 8 L/phút</b></span> khi FiO2 còn <span style=\"color:#ffd43b\"><b>60%</b></span>: phế nang xẹp lại, công thở tăng; <span style=\"color:#51cf66\"><b>hạ FiO2 về ≤ 30 - 40% trước, rồi mới hạ lưu lượng</b></span>.<br>3) ROX tụt, trẻ kiệt sức mà vẫn tăng dòng hoặc FiO2 100%: chỉ che đậy thiếu oxy tạm thời, không giải quyết kiệt sức cơ và toan → <span style=\"color:#ff6b6b\"><b>tăng nguy cơ ngưng tim lúc đặt ống và tử vong</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba sai lầm đều là kéo dài thời gian trước khi hành động đúng; sửa nguyên nhân (khí dạ dày, thứ tự cai, nâng bậc) thay vì tăng thông số.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 9 (sai lầm 4, 5, 7)",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 2,
+      "front": "Checkpoint 1: trẻ <span style=\"color:#ffd43b\"><b>8 tháng, 8 kg</b></span>, viêm phế quản phổi, SpO2 <span style=\"color:#ffd43b\"><b>86%</b></span> khí trời, canula <span style=\"color:#ffd43b\"><b>2 L/phút</b></span> sau 15 phút thở rên, co kéo, SpO2 <span style=\"color:#ffd43b\"><b>88%</b></span>. Tăng canula lên <span style=\"color:#ffd43b\"><b>4 L/phút</b></span> hay đổi thiết bị? Hành động đúng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Canula ở trẻ 8 kg tối đa <span style=\"color:#ffd43b\"><b>2 L/phút</b></span> (FiO2 tối đa khoảng <span style=\"color:#ffd43b\"><b>30 - 35%</b></span>); tăng lên 4 L/phút chỉ <span style=\"color:#ff6b6b\"><b>khô niêm mạc, rát mũi</b></span> mà không tăng FiO2 vì trẻ thở nhanh bị pha loãng khí trời.<br>2) Suy hô hấp nặng co kéo dữ dội và SpO2 < 90% cần FiO2 cao tức thì để bảo vệ não.<br>3) <span style=\"color:#51cf66\"><b>Chuyển ngay sang NRM</b></span> lưu lượng <span style=\"color:#ffd43b\"><b>10 - 12 L/phút</b></span> (túi phồng ≥ 2/3) để đạt FiO2 khoảng <span style=\"color:#ffd43b\"><b>85 - 90%</b></span>, đồng thời chuẩn bị HFNC hoặc nCPAP để hỗ trợ áp lực.<br><br><b>💡 Giải thích của AI:</b><br>Canula không thể thắng thở nhanh và dòng đỉnh hít vào lớn; nâng bậc thiết bị đúng hơn tăng liều trên thiết bị sai.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 10 (checkpoint 1)",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B9-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B9",
+      "category": "Sai lầm & checkpoint",
+      "tier": 2,
+      "front": "Checkpoint 3: bé <span style=\"color:#ffd43b\"><b>4 tháng</b></span> viêm tiểu phế quản nặng, nCPAP <span style=\"color:#ffd43b\"><b>PEEP 6, FiO2 40%</b></span>, sau <span style=\"color:#ffd43b\"><b>4 giờ</b></span> bụng trướng căng gõ vang, SpO2 <span style=\"color:#ffd43b\"><b>95% → 89%</b></span>. <span style=\"color:#ff6b6b\"><b>Phản xạ sai</b></span> và <span style=\"color:#51cf66\"><b>hành động đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phản xạ sai:</b></span> nghĩ phổi nặng hơn rồi tăng PEEP lên <span style=\"color:#ffd43b\"><b>7 - 8</b></span> và FiO2 lên <span style=\"color:#ffd43b\"><b>60%</b></span> → khí vào dạ dày nhiều hơn, cơ hoành đẩy cao, phổi xẹp nặng hơn.<br>2) Nguyên nhân: PEEP đưa khí vào dạ dày gây chướng bụng cơ học cấp, cản cơ hoành (cơ hô hấp chính của nhũ nhi).<br>3) <span style=\"color:#51cf66\"><b>Hành động đúng:</b></span> đặt ngay sonde dạ dày số <span style=\"color:#ffd43b\"><b>8F</b></span>, hút ra <span style=\"color:#ffd43b\"><b>150 mL</b></span> khí và dịch sữa loãng, rồi để hở nối túi dẫn lưu tự do.<br>4) Kết quả: bụng mềm, cơ hoành cử động, SpO2 lên <span style=\"color:#ffd43b\"><b>96%</b></span> mà không cần tăng PEEP.<br><br><b>💡 Giải thích của AI:</b><br>Khi SpO2 tụt kèm bụng chướng ở trẻ nCPAP, tìm nguyên nhân cơ học trước khi tăng thông số.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 10 (checkpoint 3)",
+      "tags": [
+        "PED-25",
+        "B9",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B10-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 1,
+      "front": "Hai ca lâm sàng của bài: <span style=\"color:#74c0fc\"><b>ca 1</b></span> và <span style=\"color:#74c0fc\"><b>ca 2</b></span> khác nhau thế nào về <span style=\"color:#ffd43b\"><b>tuổi/cân nặng</b></span>, <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span>, <span style=\"color:#51cf66\"><b>thiết bị đầu tay</b></span> và <span style=\"color:#ffd43b\"><b>kết cục</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ca 1: bé trai <span style=\"color:#ffd43b\"><b>5 tháng, 7.0 kg</b></span>, viêm tiểu phế quản cấp nặng → <span style=\"color:#51cf66\"><b>HFNC đầu tay</b></span> → đáp ứng, ngắt HFNC, xuất viện sau <span style=\"color:#ffd43b\"><b>4 ngày</b></span>.<br>2) Ca 2: bé gái <span style=\"color:#ffd43b\"><b>3 tuổi, 14.0 kg</b></span>, viêm phổi thùy biến chứng PARDS nặng → <span style=\"color:#51cf66\"><b>nCPAP có kiểm soát</b></span> → thất bại tại 2 giờ → <span style=\"color:#ff6b6b\"><b>đặt NKQ cấp cứu</b></span>, cai máy thở sau <span style=\"color:#ffd43b\"><b>6 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cùng bậc thang nhưng khác bệnh sinh: tắc nghẽn đường thở nhỏ ở ca 1 phù hợp HFNC; đông đặc lan tỏa ở ca 2 cần PEEP thật và nhận ra thất bại sớm.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11",
+      "tags": [
+        "PED-25",
+        "B10",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B10-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 1 (<span style=\"color:#ffd43b\"><b>7.0 kg</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>87%</b></span> khí trời, nhịp thở <span style=\"color:#ffd43b\"><b>68</b></span>): vì sao <span style=\"color:#51cf66\"><b>HFNC đầu tay</b></span>, <span style=\"color:#ffd43b\"><b>cài đặt</b></span> ra sao, <span style=\"color:#ffd43b\"><b>ROX 2 giờ</b></span> bao nhiêu và <span style=\"color:#51cf66\"><b>kế hoạch cai</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Canula <span style=\"color:#ffd43b\"><b>1.5 L/phút</b></span> thất bại (SpO2 <span style=\"color:#ffd43b\"><b>89 - 90%</b></span>, thở <span style=\"color:#ffd43b\"><b>70</b></span>, mệt cơ); cơ chế phù nề tiểu phế quản, ứ đờm, tăng khoảng chết → <span style=\"color:#51cf66\"><b>HFNC đầu tay</b></span>.<br>2) Cài: prong cỡ nhũ nhi chiếm khoảng <span style=\"color:#ffd43b\"><b>60%</b></span> lỗ mũi; lưu lượng <span style=\"color:#ffd43b\"><b>2.0 × 7.0 = 14.0 L/phút</b></span>; FiO2 <span style=\"color:#ffd43b\"><b>50%</b></span>; ẩm <span style=\"color:#ffd43b\"><b>37°C</b></span>.<br>3) Sau 1 giờ: thở <span style=\"color:#ffd43b\"><b>52</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>95%</b></span>; ROX 2 giờ = (95 / 0.40) / 48 = <span style=\"color:#ffd43b\"><b>4.95 (> 4.88)</b></span> → đáp ứng tốt.<br>4) Cai: ngày 2 hạ FiO2 <span style=\"color:#ffd43b\"><b>30%</b></span>, dòng <span style=\"color:#ffd43b\"><b>14 → 10 → 7 L/phút</b></span>; ngày 3 dòng <span style=\"color:#ffd43b\"><b>3.5 L/phút (0.5 L/kg/phút)</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>25%</b></span> → ngắt, khí trời.<br><br><b>💡 Giải thích của AI:</b><br>Quy trình đúng: chọn theo bệnh sinh, tính liều theo cân nặng, đánh giá ROX tại 2 giờ rồi cai FiO2 trước.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11 (ca 1)",
+      "tags": [
+        "PED-25",
+        "B10",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B10-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B10",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "front": "Ca 2 (<span style=\"color:#ffd43b\"><b>14 kg</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>86%</b></span> dù NRM 10 L/phút, P/F khoảng <span style=\"color:#ffd43b\"><b>100</b></span>): <span style=\"color:#51cf66\"><b>can thiệp nCPAP</b></span> ban đầu, <span style=\"color:#ff6b6b\"><b>tiêu chí thất bại tại 2 giờ</b></span> và <span style=\"color:#51cf66\"><b>xử trí quyết định</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá: viêm phổi nặng biến chứng <span style=\"color:#74c0fc\"><b>PARDS nặng (PALICC-2)</b></span>, shunt rất lớn, giảm FRC trầm trọng; HFNC không đủ PEEP cao.<br>2) nCPAP mặt nạ mũi: PEEP <span style=\"color:#ffd43b\"><b>6</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>70%</b></span>, dòng <span style=\"color:#ffd43b\"><b>10 L/phút</b></span>, sonde dạ dày <span style=\"color:#ffd43b\"><b>10F</b></span>; sau 30 phút PEEP <span style=\"color:#ffd43b\"><b>7</b></span>, FiO2 <span style=\"color:#ffd43b\"><b>80%</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>90%</b></span>, nhịp thở <span style=\"color:#ffd43b\"><b>56</b></span>.<br>3) Thất bại 2 giờ: khí máu pH <span style=\"color:#ffd43b\"><b>7.18</b></span>, PaCO2 <span style=\"color:#ffd43b\"><b>66</b></span>, SpO2 <span style=\"color:#ffd43b\"><b>88%</b></span> với FiO2 <span style=\"color:#ffd43b\"><b>85%</b></span>; ROX = (88 / 0.85) / 56 = <span style=\"color:#ff6b6b\"><b>1.85 (< 3.85)</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Xử trí:</b></span> không tăng PEEP 8 - 9 hay FiO2 100%; kích hoạt kíp, đặt NKQ có bóng số <span style=\"color:#ffd43b\"><b>4.5</b></span>, Ketamine + Rocuronium; thở máy bảo vệ phổi VT <span style=\"color:#ffd43b\"><b>6 mL/kg</b></span>, PEEP <span style=\"color:#ffd43b\"><b>10 cmH2O</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Toan hô hấp mất bù cộng ROX rất thấp là thất bại tuyệt đối với thông khí không xâm lấn; tăng thông số chỉ làm mất cơ hội cứu sống.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11 (ca 2)",
+      "tags": [
+        "PED-25",
+        "B10",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B11-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Tips thực hành",
+      "tier": 1,
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>10 tips thực hành</b></span> tại giường theo <span style=\"color:#74c0fc\"><b>2 nhóm</b></span>: kỹ thuật thiết bị và theo dõi lâm sàng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Kỹ thuật thiết bị:</b></span> quy tắc prong 50 - 70%; xả bẫy nước; mở nắp ống thông dạ dày khi CPAP; pha oxy khi không có blender; xử trí rò khí qua miệng khi nCPAP; cố định dây máy.<br>2) <span style=\"color:#74c0fc\"><b>Theo dõi:</b></span> đừng tin mù quáng SpO2 (nhìn sóng mạch); nhận diện bẫy khí ở hen khi HFNC; quy tắc một thông số một thời điểm khi cai; nhận diện thất bại thầm lặng.<br><br><b>💡 Giải thích của AI:</b><br>Các tips chuyển từ lý thuyết sang thao tác điều dưỡng cụ thể để phòng biến chứng.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12",
+      "tags": [
+        "PED-25",
+        "B11",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B11-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Tips thực hành",
+      "tier": 2,
+      "front": "Tips <span style=\"color:#74c0fc\"><b>kỹ thuật thiết bị</b></span>: quy tắc prong <span style=\"color:#ffd43b\"><b>50 - 70%</b></span>, <span style=\"color:#74c0fc\"><b>bẫy nước</b></span>, ống thông dạ dày, <span style=\"color:#74c0fc\"><b>pha oxy khi không có blender</b></span>, <span style=\"color:#74c0fc\"><b>rò khí miệng</b></span>, cố định dây máy.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử prong trước khi bật máy: đường kính ngoài <span style=\"color:#ffd43b\"><b>1/2 đến 2/3 (50 - 70%)</b></span> lỗ mũi; cánh mũi bè/căng phồng là quá to → đổi cỡ nhỏ.<br>2) Xả bẫy nước thường xuyên: nước ngưng tụ bị dòng khí đẩy vào mũi gây sặc cấp hoặc tắc dòng, báo động liên tục.<br>3) Khi nCPAP, ống thông dạ dày <span style=\"color:#51cf66\"><b>nối túi dẫn lưu mở tự do</b></span>, không gập hay đậy nắp.<br>4) Không có blender: Lưu lượng Oxy = Tổng lưu lượng × <span style=\"color:#ffd43b\"><b>(FiO2 − 0.21) / 0.79</b></span>.<br>5) Trẻ há miệng làm rò PEEP: dùng <span style=\"color:#51cf66\"><b>đai giữ cằm hoặc núm vú giả</b></span> để ngậm miệng.<br>6) Móc dây máy vào áo/ga giường để trọng lượng dây không kéo gọng xuống, ngừa loét tì đè vách ngăn.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi mẹo chặn một biến chứng cụ thể: tràn khí, sặc nước, chướng bụng, mất PEEP và loét mũi.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12 (tip 1 - 5 và 8)",
+      "tags": [
+        "PED-25",
+        "B11",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B11-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B11",
+      "category": "Tips thực hành",
+      "tier": 2,
+      "front": "Tips <span style=\"color:#74c0fc\"><b>theo dõi lâm sàng</b></span>: SpO2 <span style=\"color:#ff6b6b\"><b>không đáng tin</b></span> khi nào, <span style=\"color:#ff6b6b\"><b>bẫy khí ở hen</b></span> khi dùng HFNC, quy tắc cai <span style=\"color:#ffd43b\"><b>một thông số</b></span>, và <span style=\"color:#ff6b6b\"><b>thất bại thầm lặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốc, co mạch ngoại vi nặng, hạ thân nhiệt: sóng mạch dẹt/nhiễu nên SpO2 không đáng tin; luôn kiểm tra sóng đều, đỉnh rõ, đồng nhịp tim nghe được.<br>2) Hen cấp nặng: dòng HFNC liên tục có thể làm nặng thêm căng giãn phổi (Auto-PEEP) và bẫy khí; lồng ngực ngày càng căng, rì rào giảm → <span style=\"color:#51cf66\"><b>chuyển ngay phương thức hỗ trợ</b></span>.<br>3) Không giảm đồng thời lưu lượng và FiO2 trong một lần chỉnh; <span style=\"color:#51cf66\"><b>giảm FiO2 trước</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Thất bại thầm lặng:</b></span> HFNC mà nhịp thở không giảm sau <span style=\"color:#ffd43b\"><b>2 giờ</b></span>, co kéo không đỡ, dù SpO2 <span style=\"color:#ffd43b\"><b>93 - 94%</b></span> nhờ liên tục tăng FiO2 → nhìn công thở và sự tỉnh táo, đừng tin riêng SpO2.<br><br><b>💡 Giải thích của AI:</b><br>Đây là các cạm bẫy theo dõi khiến bác sĩ yên tâm giả tạo.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12 (tip 6, 7, 9, 10)",
+      "tags": [
+        "PED-25",
+        "B11",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B12-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Cai máy & xuất viện",
+      "tier": 1,
+      "front": "Quy trình kết thúc điều trị gồm <span style=\"color:#ffd43b\"><b>3 chặng</b></span> nào: tiêu chuẩn cai máy, chuyển tầng PICU ra khoa thường, xuất viện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tiêu chuẩn cai máy:</b></span> thỏa đồng thời 6 tiêu chí (bệnh nền, lâm sàng, nhịp thở, thông số tối thiểu, SpO2, dung nạp ăn).<br>2) <span style=\"color:#51cf66\"><b>Chuyển tầng:</b></span> cai thành công, canula <span style=\"color:#ffd43b\"><b>≤ 1 L/phút</b></span> hoặc khí trời, huyết động ổn định.<br>3) <span style=\"color:#51cf66\"><b>Xuất viện:</b></span> 4 tiêu chí (khí trời 24 giờ, hết sốt 24 giờ, ăn bú tốt, cha mẹ hiểu cách chăm sóc).<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chặng có ngưỡng định lượng để tránh cai sớm và tái phát.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 13",
+      "tags": [
+        "PED-25",
+        "B12",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B12-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Cai máy & xuất viện",
+      "tier": 2,
+      "front": "Liệt kê <span style=\"color:#ffd43b\"><b>6 tiêu chuẩn thỏa đồng thời</b></span> để ngắt hoàn toàn thiết bị hỗ trợ không xâm lấn, gồm <span style=\"color:#ffd43b\"><b>thông số tối thiểu</b></span> của HFNC và nCPAP.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nền đã thoái lui hoặc kiểm soát ổn định.<br>2) Trẻ tỉnh, hồng, tự thở êm, không còn co kéo cơ phụ (hoặc chỉ còn nhẹ).<br>3) Nhịp thở trong giới hạn bình thường theo tuổi.<br>4) Thông số tối thiểu: HFNC <span style=\"color:#ffd43b\"><b>≤ 0.5 L/kg/phút và FiO2 ≤ 30%</b></span>; nCPAP <span style=\"color:#ffd43b\"><b>PEEP ≤ 4 cmH2O và FiO2 ≤ 30%</b></span>.<br>5) SpO2 <span style=\"color:#ffd43b\"><b>≥ 94%</b></span> (hoặc <span style=\"color:#ffd43b\"><b>≥ 90 - 92%</b></span> ở viêm tiểu phế quản) liên tục ít nhất <span style=\"color:#ffd43b\"><b>4 - 6 giờ</b></span> sau chuyển sang khí trời.<br>6) Dung nạp ăn qua đường miệng hoặc bú mẹ tốt, không khó thở hay tụt SpO2.<br><br><b>💡 Giải thích của AI:</b><br>Yêu cầu thỏa đồng thời nhằm chứng minh công thở và oxy hóa ổn định ngay cả khi ăn bú.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 13.1",
+      "tags": [
+        "PED-25",
+        "B12",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B12-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B12",
+      "category": "Cai máy & xuất viện",
+      "tier": 2,
+      "front": "Tiêu chuẩn <span style=\"color:#51cf66\"><b>chuyển từ PICU ra khoa thường</b></span> và <span style=\"color:#51cf66\"><b>4 tiêu chuẩn xuất viện an toàn</b></span> (khí trời, sốt, ăn bú, cha mẹ)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuyển tầng: thở canula thường <span style=\"color:#ffd43b\"><b>≤ 1 L/phút</b></span> hoặc khí trời, huyết động ổn định không cần theo dõi xâm lấn.<br>2) Tự thở khí trời hoàn toàn ít nhất <span style=\"color:#ffd43b\"><b>24 giờ</b></span> với SpO2 <span style=\"color:#ffd43b\"><b>≥ 94%</b></span>.<br>3) Hết sốt ít nhất <span style=\"color:#ffd43b\"><b>24 giờ</b></span> không dùng thuốc hạ sốt.<br>4) Bú tốt, ăn đạt <span style=\"color:#ffd43b\"><b>≥ 75%</b></span> nhu cầu cơ bản hàng ngày, không nôn trớ.<br>5) Cha mẹ hiểu cách chăm sóc, nhận biết dấu hiệu khó thở tái phát và biết đưa trẻ tái khám ngay.<br><br><b>💡 Giải thích của AI:</b><br>Quan sát 24 giờ không oxy và không sốt giảm nguy cơ tái phát suy hô hấp sau xuất viện.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 13.2",
+      "tags": [
+        "PED-25",
+        "B12",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-01",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 1,
+      "front": "Bài dựa trên <span style=\"color:#ffd43b\"><b>7 bằng chứng chính</b></span> nào (PARIS, PARIS-2, FIRST-ABC Step-Up, FIRST-ABC Post-Extubation, Cochrane CPAP bronchiolitis, network meta-analysis, PALICC-2) và kết luận cốt lõi của mỗi bằng chứng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>PARIS:</b></span> HFNC giảm thất bại điều trị so với oxy chuẩn ở bronchiolitis dưới 12 tháng.<br>2) <span style=\"color:#74c0fc\"><b>PARIS-2:</b></span> HFNC sớm ở trẻ 1 - 4 tuổi suy hô hấp giảm oxy <span style=\"color:#ff6b6b\"><b>không rút ngắn</b></span> thời gian nằm viện.<br>3) <span style=\"color:#74c0fc\"><b>FIRST-ABC Step-Up:</b></span> HFNC <span style=\"color:#51cf66\"><b>không kém hơn</b></span> CPAP là hỗ trợ đầu tay ở PICU.<br>4) <span style=\"color:#74c0fc\"><b>FIRST-ABC Post-Extubation:</b></span> HFNC <span style=\"color:#ff6b6b\"><b>không đạt không kém hơn</b></span> CPAP sau rút ống.<br>5) <span style=\"color:#74c0fc\"><b>Cochrane:</b></span> nCPAP giảm nhịp thở ở viêm tiểu phế quản.<br>6) <span style=\"color:#74c0fc\"><b>Network meta-analysis:</b></span> CPAP và HFNC đều hơn oxy thường trong giảm thất bại rút ống.<br>7) <span style=\"color:#74c0fc\"><b>PALICC-2:</b></span> định nghĩa PARDS không xâm lấn, tránh trì hoãn đặt NKQ.<br><br><b>💡 Giải thích của AI:</b><br>Các thử nghiệm cho thấy bối cảnh quyết định lựa chọn: HFNC cho bronchiolitis và đầu tay ở PICU, CPAP vượt trội sau rút ống.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-02",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>PARIS</b></span> (HFNC vs oxy chuẩn, bronchiolitis): <span style=\"color:#ffd43b\"><b>cỡ mẫu</b></span>, <span style=\"color:#ffd43b\"><b>tỷ lệ thất bại 2 nhóm</b></span>, <span style=\"color:#ffd43b\"><b>chênh lệch nguy cơ</b></span> và <span style=\"color:#51cf66\"><b>tỷ lệ cứu hộ thành công</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cỡ mẫu <span style=\"color:#ffd43b\"><b>1.472</b></span> trẻ dưới 12 tháng mắc viêm tiểu phế quản cấp ở khoa bệnh phòng thông thường.<br>2) Thất bại điều trị cần nâng bậc: HFNC <span style=\"color:#ffd43b\"><b>12%</b></span> so với oxy chuẩn <span style=\"color:#ffd43b\"><b>23%</b></span>.<br>3) Chênh lệch nguy cơ <span style=\"color:#ffd43b\"><b>−11 điểm phần trăm</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>−15 đến −7</b></span>, p < 0.001).<br>4) Trong <span style=\"color:#ffd43b\"><b>167</b></span> trẻ thất bại ở nhóm oxy chuẩn, <span style=\"color:#ffd43b\"><b>61%</b></span> đáp ứng với HFNC cứu hộ mà không cần đặt NKQ hay vào ICU.<br><br><b>💡 Giải thích của AI:</b><br>HFNC làm giảm tỷ lệ thất bại cần nâng bậc và là liệu pháp cứu hộ hiệu quả.",
+      "extra": "📖 Nguồn: Franklin D và cs, NEJM 2018 (PARIS)",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-03",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>PARIS-2</b></span> (HFNC sớm, trẻ <span style=\"color:#ffd43b\"><b>1 - 4 tuổi</b></span>): <span style=\"color:#ffd43b\"><b>cỡ mẫu</b></span>, <span style=\"color:#ff6b6b\"><b>thời gian nằm viện</b></span>, <span style=\"color:#ff6b6b\"><b>thời gian thở oxy</b></span> và <span style=\"color:#51cf66\"><b>kết luận thực hành</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân tích chính <span style=\"color:#ffd43b\"><b>1.517</b></span> trẻ.<br>2) Thời gian nằm viện HFNC sớm trung vị <span style=\"color:#ffd43b\"><b>1.77 ngày so với 1.50 ngày</b></span>; adjusted HR <span style=\"color:#ffd43b\"><b>0.83</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>0.75 - 0.92</b></span>, p < 0.001) → <span style=\"color:#ff6b6b\"><b>không ngắn hơn mà dài hơn</b></span>.<br>3) Thời gian thở oxy trung vị <span style=\"color:#ffd43b\"><b>1.07 so với 0.75 ngày</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Không khuyến cáo HFNC sớm thường quy</b></span> cho mọi trẻ 1 - 4 tuổi suy hô hấp giảm oxy khi chưa có chỉ định nâng bậc.<br><br><b>💡 Giải thích của AI:</b><br>HFNC không phải chiếc đũa thần dùng bừa bãi; cần chỉ định đúng nhóm bệnh nhân.",
+      "extra": "📖 Nguồn: Franklin D và cs, JAMA 2023 (PARIS-2)",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-04",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>FIRST-ABC Step-Up</b></span> (HFNC vs CPAP đầu tay ở PICU): <span style=\"color:#ffd43b\"><b>cỡ mẫu và số khoa</b></span>, <span style=\"color:#ffd43b\"><b>thời gian giải phóng hỗ trợ</b></span>, <span style=\"color:#ffd43b\"><b>adjusted HR</b></span> và <span style=\"color:#51cf66\"><b>tỷ lệ dùng an thần</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cỡ mẫu <span style=\"color:#ffd43b\"><b>573</b></span> trẻ tại <span style=\"color:#ffd43b\"><b>24</b></span> khoa PICU.<br>2) Thời gian giải phóng hỗ trợ: HFNC <span style=\"color:#ffd43b\"><b>52.9 giờ</b></span> so với CPAP <span style=\"color:#ffd43b\"><b>47.9 giờ</b></span>; adjusted HR <span style=\"color:#ffd43b\"><b>1.03</b></span>, KTC một phía 97.5% <span style=\"color:#ffd43b\"><b>0.86 đến vô cực</b></span> → <span style=\"color:#51cf66\"><b>đạt không kém hơn</b></span>.<br>3) Tỷ lệ dùng thuốc an thần: HFNC <span style=\"color:#ffd43b\"><b>27.7%</b></span> so với CPAP <span style=\"color:#ffd43b\"><b>37.0%</b></span>; adjusted OR <span style=\"color:#ffd43b\"><b>0.59</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>0.39 - 0.88</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>HFNC là lựa chọn đầu tay chấp nhận được tại PICU, dễ chịu hơn và giảm nhu cầu an thần.",
+      "extra": "📖 Nguồn: Ramnarayan P và cs, JAMA 2022 (FIRST-ABC Step-Up)",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-05",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>FIRST-ABC Post-Extubation</b></span> (HFNC vs CPAP sau rút ống): <span style=\"color:#ffd43b\"><b>cỡ mẫu</b></span>, <span style=\"color:#ff6b6b\"><b>kết quả không kém hơn</b></span>, <span style=\"color:#ffd43b\"><b>thời gian giải phóng</b></span> và <span style=\"color:#ffd43b\"><b>tỷ lệ đặt lại NKQ 48 giờ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cỡ mẫu <span style=\"color:#ffd43b\"><b>553</b></span> trẻ sau rút nội khí quản.<br>2) HFNC <span style=\"color:#ff6b6b\"><b>không đạt tiêu chuẩn không kém hơn</b></span> CPAP.<br>3) Thời gian giải phóng trung vị <span style=\"color:#ffd43b\"><b>50.5 giờ (HFNC) so với 42.9 giờ (CPAP)</b></span>; adjusted HR <span style=\"color:#ffd43b\"><b>0.83</b></span>, KTC một phía 97.5% <span style=\"color:#ffd43b\"><b>0.70 đến vô cực</b></span>.<br>4) Đặt lại NKQ trong <span style=\"color:#ffd43b\"><b>48 giờ</b></span> tương đương: <span style=\"color:#ffd43b\"><b>13.3% (HFNC) so với 11.5% (CPAP)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sau thở máy kéo dài, áp lực dương thật của CPAP có vai trò không thể thay thế trong tái mở phế nang xẹp.",
+      "extra": "📖 Nguồn: Ramnarayan P và cs, JAMA 2022 (FIRST-ABC Post-Extubation)",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B13-06",
+      "type": "basic",
+      "track": "ebm",
+      "section": "B13",
+      "category": "Bằng chứng",
+      "tier": 2,
+      "front": "Cochrane (CPAP bronchiolitis), network meta-analysis (thất bại rút ống) và <span style=\"color:#74c0fc\"><b>PALICC-2</b></span>: <span style=\"color:#ffd43b\"><b>số liệu then chốt</b></span> và <span style=\"color:#51cf66\"><b>thông điệp lâm sàng</b></span> của mỗi nguồn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cochrane:</b></span> 91 trẻ từ 2 RCT, nCPAP giảm nhịp thở, chênh lệch trung bình <span style=\"color:#ffd43b\"><b>−3.81 lần/phút</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>−5.78 đến −1.84</b></span>); bằng chứng giảm nhu cầu thở máy xâm lấn còn chưa chắc chắn do cỡ mẫu nhỏ.<br>2) <span style=\"color:#74c0fc\"><b>Network meta-analysis:</b></span> 9 thử nghiệm, <span style=\"color:#ffd43b\"><b>1.421</b></span> bệnh nhi; so với oxy thường CPAP có OR <span style=\"color:#ffd43b\"><b>0.43</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>0.17 - 1.0</b></span>), HFNC có OR <span style=\"color:#ffd43b\"><b>0.64</b></span> (KTC 95% <span style=\"color:#ffd43b\"><b>0.24 - 1.0</b></span>); CPAP xác suất tối ưu cao nhất, SUCRA <span style=\"color:#ffd43b\"><b>0.83</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>PALICC-2:</b></span> PARDS không xâm lấn khi nhận CPAP hoặc HFNC lưu lượng <span style=\"color:#ffd43b\"><b>≥ 1.5 L/kg/phút</b></span> kèm giảm SpO2/FiO2 thỏa tiêu chuẩn thiếu oxy; <span style=\"color:#ff6b6b\"><b>tuyệt đối tránh trì hoãn đặt NKQ</b></span> khi thông khí không xâm lấn không cải thiện.<br><br><b>💡 Giải thích của AI:</b><br>Tổng hợp bằng chứng củng cố: CPAP và HFNC đều tốt hơn oxy thường, CPAP tối ưu hơn sau rút ống, và luôn cần theo dõi để không trì hoãn đặt NKQ.",
+      "extra": "📖 Nguồn: Jat KR 2022 (Cochrane); Wang Z 2023 (JAMA Pediatr); PALICC-2 2023",
+      "tags": [
+        "PED-25",
+        "B13",
+        "EBM"
+      ],
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm"
+    },
+    {
+      "id": "PED25-B0-C01",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Phân suất oxy trong khí trời (FiO2) cố định ở mức {{c1::21% (hoặc 0.21)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255191
+    },
+    {
+      "id": "PED25-B0-C02",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Áp lực dương cuối thì thở ra (PEEP) là áp lực duy trì bên trong đường dẫn khí tại thời điểm {{c1::kết thúc thì thở ra}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255193
+    },
+    {
+      "id": "PED25-B0-C03",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Dung tích cặn chức năng (FRC) sinh lý ở trẻ nhỏ khoảng {{c1::30 mL/kg}}, sát thể tích đóng của đường thở.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255195
+    },
+    {
+      "id": "PED25-B0-C04",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Ở trẻ nhũ nhi, vùng mũi hầu chiếm tới {{c1::50% tổng kháng lực đường thở}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255199
+    },
+    {
+      "id": "PED25-B0-C05",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Shunt trong phổi xảy ra khi máu mao mạch phổi đi qua các phế nang {{c1::không được thông khí (tỷ lệ V/Q = 0)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255203
+    },
+    {
+      "id": "PED25-B0-C06",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Cơn ngừng thở (apnea) kéo dài trên {{c1::20 giây}} là dấu hiệu bắt buộc dừng hỗ trợ không xâm lấn để đặt nội khí quản.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, Box đỏ cấp cứu",
+      "legacy_note_id": 1789648255277
+    },
+    {
+      "id": "PED25-B0-C07",
+      "type": "cloze",
+      "section": "B0",
+      "text": "Tỷ lệ khoảng chết trên thể tích lưu thông (VD/VT) ở trẻ em khoảng {{c1::30% đến 40%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 0.1",
+      "legacy_note_id": 1789648255357
+    },
+    {
+      "id": "PED25-B1-C01",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Mốc dốc đứng nguy hiểm trên đường cong phân ly oxyhemoglobin là SpO2 {{c1::dưới 90% (tương ứng PaO2 dưới 60 mmHg)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.2",
+      "legacy_note_id": 1789648255205
+    },
+    {
+      "id": "PED25-B1-C02",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đích SpO2 cho trẻ viêm phổi hoặc suy hô hấp thông thường là {{c1::94% đến 98%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "legacy_note_id": 1789648255207
+    },
+    {
+      "id": "PED25-B1-C03",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đích SpO2 cho bệnh nhi viêm tiểu phế quản cấp là {{c1::90% đến 94%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "legacy_note_id": 1789648255209
+    },
+    {
+      "id": "PED25-B1-C04",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đích SpO2 ở trẻ tim bẩm sinh tím có shunt Phải - Trái thường là {{c1::75% đến 85%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "legacy_note_id": 1789648255211
+    },
+    {
+      "id": "PED25-B1-C05",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đích SpO2 ở trẻ tim bẩm sinh tuần hoàn phụ thuộc ống động mạch là {{c1::80% đến 85% (tối đa không quá 88%)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "legacy_note_id": 1789648255213
+    },
+    {
+      "id": "PED25-B1-C06",
+      "type": "cloze",
+      "section": "B1",
+      "text": "Đích SpO2 ở trẻ sinh non điều trị tại NICU là {{c1::91% đến 95%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 1.3",
+      "legacy_note_id": 1789648255217
+    },
+    {
+      "id": "PED25-B2-C01",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lưu lượng oxy canula mũi quy chuẩn ở nhũ nhi là {{c1::0.5 đến 2.0 L/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.2",
+      "legacy_note_id": 1789648255219
+    },
+    {
+      "id": "PED25-B2-C02",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Canula mũi thông thường cho FiO2 ước tính {{c1::24% đến 35%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4",
+      "legacy_note_id": 1789648255221
+    },
+    {
+      "id": "PED25-B2-C03",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lưu lượng bắt buộc khi dùng mặt nạ đơn giản là {{c1::5 đến 8 L/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.3",
+      "legacy_note_id": 1789648255223
+    },
+    {
+      "id": "PED25-B2-C04",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Cấm cài lưu lượng dưới 5 L/phút ở mặt nạ đơn giản vì nguy cơ {{c1::ứ đọng và hít lại khí CO2 (rebreathing)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.3",
+      "legacy_note_id": 1789648255225
+    },
+    {
+      "id": "PED25-B2-C05",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Mặt nạ đơn giản cung cấp FiO2 ước tính {{c1::35% đến 50%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.3",
+      "legacy_note_id": 1789648255227
+    },
+    {
+      "id": "PED25-B2-C06",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Lưu lượng bắt buộc cho mặt nạ túi không thở lại (NRM) là {{c1::10 đến 15 L/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4",
+      "legacy_note_id": 1789648255229
+    },
+    {
+      "id": "PED25-B2-C07",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Với NRM, túi dự trữ phải luôn căng ít nhất {{c1::2/3 thể tích}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4",
+      "legacy_note_id": 1789648255231
+    },
+    {
+      "id": "PED25-B2-C08",
+      "type": "cloze",
+      "section": "B2",
+      "text": "NRM cung cấp FiO2 tối đa khoảng {{c1::80% đến 95%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 2.4",
+      "legacy_note_id": 1789648255233
+    },
+    {
+      "id": "PED25-B2-C09",
+      "type": "cloze",
+      "section": "B2",
+      "text": "Muốn cấp oxy dòng thấp dưới 5 L/phút thì dùng {{c1::gọng mũi oxy (canula)}} thay cho mặt nạ đơn giản.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, sai lầm 2",
+      "legacy_note_id": 1789648255371
+    },
+    {
+      "id": "PED25-B3-C01",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Dòng khí HFNC được cài ở nhiệt độ và độ ẩm {{c1::37°C và 100% độ ẩm tương đối}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.1",
+      "legacy_note_id": 1789648255239
+    },
+    {
+      "id": "PED25-B3-C02",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Khí ẩm bão hòa 100% ở 37°C chứa {{c1::44 mg H2O trong mỗi lít khí}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.1",
+      "legacy_note_id": 1789648255355
+    },
+    {
+      "id": "PED25-B3-C03",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Hiệu ứng CO2 washout của HFNC quét sạch khí CO2 đọng tại {{c1::khoang mũi hầu}} vào cuối thì thở ra.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.2",
+      "legacy_note_id": 1789648255201
+    },
+    {
+      "id": "PED25-B3-C04",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Dynamic PEEP do HFNC tạo ra khoảng {{c1::2 đến 4 cmH2O}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.4",
+      "legacy_note_id": 1789648255249
+    },
+    {
+      "id": "PED25-B3-C05",
+      "type": "cloze",
+      "section": "B3",
+      "text": "Khi trẻ ngậm miệng, PEEP động của HFNC có thể lên tới {{c1::5 đến 6 cmH2O}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 3.4",
+      "legacy_note_id": 1789648255363
+    },
+    {
+      "id": "PED25-B4-C01",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Lưu lượng khởi đầu HFNC ở trẻ cân nặng ≤ 10 kg là {{c1::1.5 đến 2.0 L/kg/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.1",
+      "legacy_note_id": 1789648255241
+    },
+    {
+      "id": "PED25-B4-C02",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Ở trẻ > 10 kg, lưu lượng HFNC = 2.0 L/kg/phút cho 10 kg đầu cộng {{c1::0.5 L/kg/phút cho mỗi kg vượt trên 10 kg}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.1",
+      "legacy_note_id": 1789648255243
+    },
+    {
+      "id": "PED25-B4-C03",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Giới hạn lưu lượng HFNC tối đa thông thường ở trẻ vị thành niên là {{c1::50 đến 60 L/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.1",
+      "legacy_note_id": 1789648255245
+    },
+    {
+      "id": "PED25-B4-C04",
+      "type": "cloze",
+      "section": "B4",
+      "text": "FiO2 khởi đầu thông thường của HFNC là {{c1::40% đến 60%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.2",
+      "legacy_note_id": 1789648255247
+    },
+    {
+      "id": "PED25-B4-C05",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Nguyên tắc vàng khi cai HFNC là: {{c1::Cai FiO2 trước — Cai lưu lượng dòng sau}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3",
+      "legacy_note_id": 1789648255255
+    },
+    {
+      "id": "PED25-B4-C06",
+      "type": "cloze",
+      "section": "B4",
+      "text": "FiO2 an toàn cần đạt trước khi hạ lưu lượng HFNC là {{c1::≤ 30% đến 40%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3",
+      "legacy_note_id": 1789648255257
+    },
+    {
+      "id": "PED25-B4-C07",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Tốc độ giảm lưu lượng khi cai HFNC là {{c1::0.5 L/kg/phút mỗi 2 đến 4 giờ}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3",
+      "legacy_note_id": 1789648255259
+    },
+    {
+      "id": "PED25-B4-C08",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Ngưỡng ngừng HFNC ở nhũ nhi là lưu lượng {{c1::≤ 0.5 L/kg/phút (hoặc tổng < 4 L/phút)}} với FiO2 ≤ 30%.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 4.3",
+      "legacy_note_id": 1789648255261
+    },
+    {
+      "id": "PED25-B4-C09",
+      "type": "cloze",
+      "section": "B4",
+      "text": "Khi cài prong HFNC, đường kính ngoài chỉ được chiếm tối đa {{c1::50% đến 70% đường kính lỗ mũi}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12, tip 1",
+      "legacy_note_id": 1789648255251
+    },
+    {
+      "id": "PED25-B5-C01",
+      "type": "cloze",
+      "section": "B5",
+      "text": "nCPAP duy trì áp lực dương liên tục trong {{c1::cả thì hít vào lẫn thì thở ra}} khi trẻ tự thở.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.1",
+      "legacy_note_id": 1789648255263
+    },
+    {
+      "id": "PED25-B5-C02",
+      "type": "cloze",
+      "section": "B5",
+      "text": "PEEP khởi đầu thông dụng của nCPAP là {{c1::4 đến 5 cmH2O}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.3",
+      "legacy_note_id": 1789648255265
+    },
+    {
+      "id": "PED25-B5-C03",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Khi chuẩn độ nCPAP, tăng PEEP {{c1::1 cmH2O mỗi 15 đến 30 phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.3",
+      "legacy_note_id": 1789648255267
+    },
+    {
+      "id": "PED25-B5-C04",
+      "type": "cloze",
+      "section": "B5",
+      "text": "PEEP tối đa cho phép trong nCPAP thông thường là {{c1::8 cmH2O}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.3",
+      "legacy_note_id": 1789648255269
+    },
+    {
+      "id": "PED25-B5-C05",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Lợi ích huyết động của nCPAP ở bệnh nhi suy tim là {{c1::làm giảm hậu gánh thất trái}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.1",
+      "legacy_note_id": 1789648255271
+    },
+    {
+      "id": "PED25-B5-C06",
+      "type": "cloze",
+      "section": "B5",
+      "text": "Bubble CPAP sinh dao động áp lực vi thể với tần số {{c1::15 đến 30 Hz}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 5.2",
+      "legacy_note_id": 1789648255351
+    },
+    {
+      "id": "PED25-B7-C01",
+      "type": "cloze",
+      "section": "B7",
+      "text": "ROX Index = {{c1::(SpO2 / FiO2) chia cho tần số thở (lần/phút)}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.1",
+      "legacy_note_id": 1789648255279
+    },
+    {
+      "id": "PED25-B7-C02",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Bốn mốc đánh giá ROX là {{c1::0h, 2h, 6h và 12h}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.2",
+      "legacy_note_id": 1789648255281
+    },
+    {
+      "id": "PED25-B7-C03",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Ngưỡng ROX dự báo thành công cao là {{c1::ROX ≥ 4.88}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.2",
+      "legacy_note_id": 1789648255283
+    },
+    {
+      "id": "PED25-B7-C04",
+      "type": "cloze",
+      "section": "B7",
+      "text": "Ngưỡng ROX báo động thất bại là {{c1::ROX < 3.85}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 7.2",
+      "legacy_note_id": 1789648255285
+    },
+    {
+      "id": "PED25-B8-C01",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Xử trí cấp cứu tràn khí màng phổi áp lực là {{c1::chọc kim giải áp khoang liên sườn 2}} rồi đặt ống dẫn lưu.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.3",
+      "legacy_note_id": 1789648255275
+    },
+    {
+      "id": "PED25-B8-C02",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Xẹp phổi hấp thu xảy ra khi oxy cao thay thế hoàn toàn {{c1::khí Nitơ}} trong phế nang.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.4",
+      "legacy_note_id": 1789648255359
+    },
+    {
+      "id": "PED25-B8-C03",
+      "type": "cloze",
+      "section": "B8",
+      "text": "Can thiệp điều dưỡng bắt buộc khi thở nCPAP là {{c1::đặt ống thông dạ dày giải áp liên tục}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 8.1",
+      "legacy_note_id": 1789648255273
+    },
+    {
+      "id": "PED25-B9-C01",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Hiện tượng SpO2 vẫn đạt 93% nhưng FiO2 và nhịp thở tăng dần là {{c1::thất bại thầm lặng}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12, tip 10",
+      "legacy_note_id": 1789648255399
+    },
+    {
+      "id": "PED25-B9-C02",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Pha oxy khi không có blender: Lưu lượng Oxy = Tổng lưu lượng × {{c1::(FiO2 − 0.21) / 0.79}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12, tip 4",
+      "legacy_note_id": 1789648255407
+    },
+    {
+      "id": "PED25-B9-C03",
+      "type": "cloze",
+      "section": "B9",
+      "text": "Trẻ nCPAP há miệng làm rò PEEP thì cho ngậm {{c1::núm vú giả (pacifier)}} hoặc đeo đai giữ cằm.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 12, tip 5",
+      "legacy_note_id": 1789648255409
+    },
+    {
+      "id": "PED25-B10-C01",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ca 1 (5 tháng, 7.0 kg): lưu lượng HFNC khởi đầu = 2.0 × 7.0 = {{c1::14.0 L/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11",
+      "legacy_note_id": 1789648255413
+    },
+    {
+      "id": "PED25-B10-C02",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ca 1: ROX tại 2 giờ = (95 / 0.40) / 48 = {{c1::4.95}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11",
+      "legacy_note_id": 1789648255419
+    },
+    {
+      "id": "PED25-B10-C03",
+      "type": "cloze",
+      "section": "B10",
+      "text": "Ca 2 (3 tuổi, 14 kg): ROX sau 2 giờ nCPAP = (88 / 0.85) / 56 = {{c1::1.85}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 11",
+      "legacy_note_id": 1789648255431
+    },
+    {
+      "id": "PED25-B13-C01",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Trong PARIS, thất bại điều trị HFNC so với oxy chuẩn là {{c1::12% so với 23%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255289
+    },
+    {
+      "id": "PED25-B13-C02",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Trong PARIS, chênh lệch nguy cơ thất bại điều trị giữa HFNC và oxy chuẩn là {{c1::−11 điểm phần trăm}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255291
+    },
+    {
+      "id": "PED25-B13-C03",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Trong PARIS-2, thời gian nằm viện nhóm HFNC sớm là {{c1::1.77 ngày so với 1.50 ngày}} ở nhóm oxy chuẩn.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255303
+    },
+    {
+      "id": "PED25-B13-C04",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Trong FIRST-ABC Step-Up, tỷ lệ dùng an thần HFNC so với CPAP là {{c1::27.7% so với 37.0%}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255317
+    },
+    {
+      "id": "PED25-B13-C05",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Trong FIRST-ABC Post-Extubation, thời gian giải phóng hỗ trợ HFNC so với CPAP là {{c1::50.5 giờ so với 42.9 giờ}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255325
+    },
+    {
+      "id": "PED25-B13-C06",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Cochrane 2022: nCPAP làm giảm nhịp thở ở viêm tiểu phế quản với chênh lệch trung bình {{c1::−3.81 lần/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255331
+    },
+    {
+      "id": "PED25-B13-C07",
+      "type": "cloze",
+      "section": "B13",
+      "text": "Network meta-analysis 2023: CPAP có xác suất tối ưu cao nhất dự phòng thất bại rút ống với SUCRA {{c1::0.83}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255341
+    },
+    {
+      "id": "PED25-B13-C08",
+      "type": "cloze",
+      "section": "B13",
+      "text": "PALICC-2: PARDS không xâm lấn khi nhận CPAP hoặc HFNC lưu lượng {{c1::≥ 1.5 L/kg/phút}}.",
+      "extra": "📖 Nguồn: PED-25 RELEASE v1, mục 14",
+      "legacy_note_id": 1789648255347
+    }
+  ]
+}

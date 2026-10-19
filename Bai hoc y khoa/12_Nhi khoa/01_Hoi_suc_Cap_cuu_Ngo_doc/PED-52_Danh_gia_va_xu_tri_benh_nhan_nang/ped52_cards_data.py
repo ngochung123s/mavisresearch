@@ -1356,33 +1356,4 @@ cards_data = [
             "Ngo-doc"
         ]
     },
-    {
-        "id": "PED52-B90",
-        "track": "barem_goc",
-        "type": "basic",
-        "category": "Tài liệu tham khảo",
-        "section": "B18",
-        "front": "Hai nguồn tài liệu tham khảo chính được trích dẫn trong bài giảng Đánh giá và xử trí bệnh nhân nặng ở trẻ em là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) GS Nguyễn Công Khanh (2016): Tiếp cận trẻ bị bệnh nặng cần cấp cứu, Sách Giáo khoa Nhi khoa, NXB Y học, trang 316-323.<br>2) Advanced Pediatric Life Support - APLS (2005): The Structured Approach to the Seriously Ill Child, Blackwell Publishing, Chapter 7: p.53-69.<br><br><b>💡 Lưu ý:</b><br>Nắm nguồn để biết phác đồ cấp cứu ban đầu được chuyển giao từ chuẩn mực APLS quốc tế.",
-        "extra": "Văn bản gốc phần TÀI LIỆU THAM KHẢO (trang 155).",
-        "tags": [
-            "PED-52",
-            "Barem-goc",
-            "Tai-lieu-tham-khao"
-        ]
-    },
-    {
-        "id": "PED52-B91",
-        "track": "barem_goc",
-        "type": "cloze",
-        "category": "Tài liệu tham khảo",
-        "section": "B18",
-        "text": "[Barem gốc] Bài học Tiếp cận bệnh nhân nặng ở trẻ em được biên soạn dựa trên giáo trình của GS {{c1::Nguyễn Công Khanh (2016)}} và tài liệu cấp cứu nhi khoa quốc tế {{c1::APLS (Advanced Pediatric Life Support, 2005)}}.",
-        "extra": "Văn bản gốc phần TÀI LIỆU THAM KHẢO (trang 155).",
-        "tags": [
-            "PED-52",
-            "Barem-goc",
-            "Tai-lieu-tham-khao"
-        ]
-    }
 ]

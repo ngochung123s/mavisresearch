@@ -834,8 +834,8 @@ cards_data = [
         "type": "cloze",
         "category": "Khuyến cáo ISHLT 2025",
         "section": "E1",
-        "text": "[EBM] Hướng dẫn ISHLT 2025 (PMID: 40838915): Suy tim trẻ em thứ phát sau {{c1::bệnh cơ tim}}, {{c1::bệnh tim mắc phải}} và {{c1::tim bẩm sinh}} gắn liền với tỷ lệ mắc bệnh và tử vong đáng kể.",
-        "extra": "RELEASE mục 1.2: Guideline ISHLT 2025 cập nhật.",
+        "text": "[EBM] Theo hướng dẫn ISHLT 2025, suy tim trẻ em thứ phát sau {{c1::bệnh cơ tim}}, {{c1::bệnh tim mắc phải}} và {{c1::tim bẩm sinh}} gắn liền với tỷ lệ mắc bệnh và tử vong đáng kể.",
+        "extra": "RELEASE mục 1.2: Guideline ISHLT 2025 cập nhật (PMID: 40838915).",
         "tags": ["PED-48", "EBM", "ISHLT-2025"]
     },
     {
@@ -921,7 +921,7 @@ cards_data = [
         "type": "cloze",
         "category": "Ức chế thần kinh thể dịch",
         "section": "E2",
-        "text": "[EBM] Theo Kantor 2010 (PMID: 20127112), nền tảng điều trị duy trì suy tim trẻ em hướng tới ức chế trục thần kinh thể dịch bao gồm: {{c1::thuốc ức chế men chuyển (ACEi)}} và {{c1::thuốc chẹn beta giao cảm}}.",
+        "text": "[EBM] Theo Kantor 2010, nền tảng điều trị duy trì suy tim trẻ em hướng tới ức chế trục thần kinh thể dịch bao gồm: {{c1::thuốc ức chế men chuyển (ACEi)}} và {{c1::thuốc chẹn beta giao cảm}}.",
         "extra": "RELEASE mục 2: Bằng chứng y học Kantor PF 2010 (PMID: 20127112).",
         "tags": ["PED-48", "EBM", "ACEi", "Beta-blocker"]
     },
@@ -1104,7 +1104,7 @@ cards_data = [
         "type": "cloze",
         "category": "Thang điểm Ross",
         "section": "E6",
-        "text": "[EBM] Thang điểm Ross cải tiến cho trẻ nhũ nhi (PMID: 22476605): Ross I ({{c1::0 - 2 điểm}}); Ross II nhẹ ({{c1::3 - 6 điểm}}); Ross III vừa ({{c1::7 - 9 điểm}}); Ross IV nặng ({{c1::10 - 14 điểm}}).",
+        "text": "[EBM] Thang điểm Ross cải tiến cho trẻ nhũ nhi: Ross I ({{c1::0 - 2 điểm}}); Ross II nhẹ ({{c1::3 - 6 điểm}}); Ross III vừa ({{c1::7 - 9 điểm}}); Ross IV nặng ({{c1::10 - 14 điểm}}).",
         "extra": "RELEASE mục 6.2: Nghiên cứu Ross RD 2012 (PMID: 22476605).",
         "tags": ["PED-48", "EBM", "Ross-score"]
     },
@@ -1185,7 +1185,7 @@ cards_data = [
         "type": "cloze",
         "category": "Liệu pháp lợi tiểu",
         "section": "E8",
-        "text": "[EBM] Quản lý nội khoa suy tim trẻ em kết hợp liệu pháp lợi tiểu để giảm ứ huyết tĩnh mạch phổi và tĩnh mạch hệ thống: {{c1::Masarweh 2021}} (PMID: {{c1::33708503}}).",
+        "text": "[EBM] Quản lý nội khoa suy tim trẻ em kết hợp liệu pháp {{c1::lợi tiểu}} để giảm {{c2::ứ huyết tĩnh mạch phổi và tĩnh mạch hệ thống}}.",
         "extra": "RELEASE mục 8: Dẫn chứng y học Masarweh OM 2021 (PMID: 33708503).",
         "tags": ["PED-48", "EBM", "Masarweh-2021", "Loi-tieu"]
     },
@@ -1241,7 +1241,7 @@ cards_data = [
         "type": "cloze",
         "category": "Dược động học Digoxin",
         "section": "E9",
-        "text": "[EBM] Digoxin có {{c1::khoảng điều trị hẹp}} và nguy cơ ngộ độc cao ở trẻ em, đòi hỏi kiểm soát liều lượng thận trọng theo {{c1::cân nặng và chức năng thận}}: Pharmaceutics 2026 (PMID: {{c1::41599219}}).",
+        "text": "[EBM] Digoxin có {{c1::khoảng điều trị hẹp}} và nguy cơ ngộ độc cao ở trẻ em, đòi hỏi kiểm soát liều lượng thận trọng theo {{c1::cân nặng và chức năng thận}}.",
         "extra": "RELEASE mục 9: Dẫn chứng y học Pharmaceutics 2026 (PMID: 41599219).",
         "tags": ["PED-48", "EBM", "Digoxin", "Duoc-dong-hoc"]
     },

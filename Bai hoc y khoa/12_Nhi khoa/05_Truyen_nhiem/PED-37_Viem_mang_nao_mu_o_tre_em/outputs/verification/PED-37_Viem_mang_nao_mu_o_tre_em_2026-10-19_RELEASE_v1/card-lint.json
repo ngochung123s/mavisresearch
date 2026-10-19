@@ -1,0 +1,76 @@
+{
+  "code": "PED-37",
+  "deck_name": "Nhi khoa Y6::PED-37: Viêm màng não mủ ở trẻ em - Căn nguyên, DNT & Điều trị đa mô thức",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-19T22:14:38",
+  "cards_source": "ped37_cards_data.py",
+  "cards_source_sha256": "90b33b9d5e78aa9296fe0ab934364ee8311a1fca867f107803afdc61ab118372",
+  "card_count": 64,
+  "summary": {
+    "block": 0,
+    "debt": 6,
+    "warn": 1,
+    "by_code": {
+      "G_COLOR_BACK": 4,
+      "G_COLOR_FRONT": 2,
+      "W_TIER": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED37-B6-07",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED37-B10-01",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED37-B10-02",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED37-B3-06",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED37-B8-05",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED37-B9-05",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "W_TIER",
+      "card_id": "*",
+      "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
+      "severity": "WARN"
+    }
+  ],
+  "apkg": "PED-37_Viem_mang_nao_mu_o_tre_em_2026-10-19_RELEASE_v1.apkg",
+  "anki_sync": {
+    "updated": 2,
+    "unchanged": 62,
+    "added": 0,
+    "archived": 0,
+    "moved": 0,
+    "deck_notes": 64
+  },
+  "apkg_sha256": "9330c82a7bd474108492d500c56b3cd0271706891623f68af344edf8338b3fc4",
+  "sqlite_notes": 64,
+  "sqlite_cards": 64
+}
