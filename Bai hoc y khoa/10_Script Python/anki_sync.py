@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""ped_anki_sync.py — đồng bộ bộ thẻ PED vào Anki qua AnkiConnect mà KHÔNG mất lịch sử ôn.
+"""anki_sync.py — đồng bộ bộ thẻ của 1 bài (mọi chuyên khoa) vào Anki qua AnkiConnect, KHÔNG mất lịch sử ôn.
 
-Quy tắc (PED_RULES.md §6):
-- Note đã khớp (theo lock file `pedXX_anki_lock.json`) → cập nhật field tại chỗ, giữ lịch sử ôn.
+Quy tắc (RULES_LESSON_APKG.md §6):
+- Note đã khớp (theo `anki_lock.json`) → cập nhật field tại chỗ, giữ lịch sử ôn.
 - Thẻ mới → addNote.
-- Note còn trong deck nhưng không còn trong bộ thẻ → chuyển sang `Nhi khoa Y6::_Archive::PED-xx`,
-  suspend, tag `ped_archived`. KHÔNG xóa note của người học.
+- Note còn trong deck nhưng không còn trong bộ thẻ → chuyển sang `<deck_root>::_Archive::<Mã bài>`,
+  suspend, tag `lesson_archived`. KHÔNG xóa note của người học.
 - Deck cũ (tên lệch chuẩn) sau khi rỗng thì bị xóa.
 - Cuối cùng đối soát: số note trong deck == số thẻ input và mọi field khớp.
 """
@@ -21,10 +21,10 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-from ped_card_lint import card_kind, norm_key
+from card_lint import card_kind, norm_key
 
 ANKI_URL = "http://127.0.0.1:8765"
-ARCHIVE_ROOT = "Nhi khoa Y6::_Archive"
+ARCHIVE_TAG = "lesson_archived"
 FIELD_ALIASES = {
     "front": ("Front", "Question"),
     "back": ("Back", "Answer"),
@@ -176,10 +176,10 @@ def ensure_model(model: dict) -> None:
        cardTemplates=[{"Name": model["template_name"], "Front": model["qfmt"], "Back": model["afmt"]}])
 
 
-def sync(code: str, deck_name: str, cards: list[dict], models: dict[str, dict], lock: dict,
+def sync(code: str, specialty, deck_name: str, cards: list[dict], models: dict[str, dict], lock: dict,
          legacy_decks: list[str] | None = None, log=print) -> dict:
     """Đồng bộ `cards` (field đã escape, đúng nội dung APKG) vào deck. Trả về báo cáo, cập nhật `lock` tại chỗ."""
-    archive_deck = f"{ARCHIVE_ROOT}::{code}"
+    archive_deck = f"{specialty.archive_root}::{code}"
     source_decks = [deck_name] + [d for d in (legacy_decks or []) if d != deck_name]
     candidate_ids = sorted({nid for d in source_decks for nid in notes_in_deck(d)})
     infos = ac("notesInfo", notes=candidate_ids) if candidate_ids else []
@@ -242,7 +242,7 @@ def sync(code: str, deck_name: str, cards: list[dict], models: dict[str, dict], 
         ac("createDeck", deck=archive_deck)
         ac("changeDeck", cards=orphan_cards, deck=archive_deck)
         ac("suspend", cards=orphan_cards)
-        ac("addTags", notes=orphans, tags="ped_archived")
+        ac("addTags", notes=orphans, tags=ARCHIVE_TAG)
         report["archived"] = len(orphans)
     # xóa deck cũ đã rỗng
     for deck in source_decks[1:]:

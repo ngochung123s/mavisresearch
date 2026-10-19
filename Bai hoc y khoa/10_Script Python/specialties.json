@@ -1,0 +1,96 @@
+{
+  "_doc": "Registry chuyên khoa dùng chung cho lesson_lint / card_lint / deck_builder / anki_sync / release_lesson. Xem Bai hoc y khoa/RULES_LESSON_APKG.md §1.",
+  "specialties": [
+    {
+      "key": "nhi",
+      "name": "Nhi khoa",
+      "folder": "12_Nhi khoa",
+      "id_prefix": "PED",
+      "id_from": "folder",
+      "deck_root": "Nhi khoa Y6",
+      "deck_example": "Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu theo tuổi",
+      "evidence_mode": "ncbi_artifacts",
+      "artifact_dir": ".",
+      "curriculum": "_CURRICULUM_NHI_KHOA.md",
+      "post_release": ["12_Nhi khoa/build_ped_library.py"]
+    },
+    {
+      "key": "noi",
+      "name": "Nội khoa",
+      "folder": "11_Noi khoa",
+      "id_prefix": "IM",
+      "id_from": "folder",
+      "deck_root": "1. Y Khoa - Nội Khoa & Cấp Cứu",
+      "deck_example": "1. Y Khoa - Nội Khoa & Cấp Cứu::02. Tim Mạch::IM-22 Suy tim",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_CURRICULUM_NOI_KHOA.md",
+      "post_release": []
+    },
+    {
+      "key": "san",
+      "name": "Sản phụ khoa",
+      "folder": "01_San phu khoa",
+      "id_prefix": "OB",
+      "id_from": "folder_number",
+      "deck_root": "2. Y Khoa - Sản Phụ Khoa & ART",
+      "deck_example": "2. Y Khoa - Sản Phụ Khoa & ART::Đái Tháo Đường Thai Kỳ (GDM)::OB-08 Đái tháo đường thai kỳ",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_README.md",
+      "post_release": []
+    },
+    {
+      "key": "art",
+      "name": "Hỗ trợ sinh sản (ART)",
+      "folder": "02_Ho tro sinh san ART",
+      "id_prefix": "ART",
+      "id_from": "folder_number",
+      "deck_root": "2. Y Khoa - Sản Phụ Khoa & ART",
+      "deck_example": "2. Y Khoa - Sản Phụ Khoa & ART::Hỗ Trợ Sinh Sản (ART)::ART-44 Phân tích tinh dịch đồ",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_README.md",
+      "post_release": []
+    },
+    {
+      "key": "sieu_am_thai",
+      "name": "Siêu âm thai",
+      "folder": "03_Sieu am thai",
+      "id_prefix": "FUS",
+      "id_from": "folder_number",
+      "deck_root": "2. Y Khoa - Sản Phụ Khoa & ART",
+      "deck_example": "2. Y Khoa - Sản Phụ Khoa & ART::Siêu Âm Thai Nhi::FUS-43 Siêu âm bánh nhau và dây rốn",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_CURRICULUM_ULTRASOUND.md",
+      "post_release": []
+    },
+    {
+      "key": "sieu_am",
+      "name": "Siêu âm tổng quát",
+      "folder": "04_Sieu am tong quat",
+      "id_prefix": "US",
+      "id_from": "folder_number",
+      "deck_root": "Imaging",
+      "deck_example": "Imaging::US-03 Siêu âm tuyến vú BI-RADS",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_CURRICULUM_ULTRASOUND.md",
+      "post_release": []
+    },
+    {
+      "key": "vi_sinh",
+      "name": "Vi sinh - Miễn dịch",
+      "folder": "05_Vi sinh - Mien dich",
+      "id_prefix": "MIC",
+      "id_from": "folder_number",
+      "deck_root": "2. Y Khoa - Sản Phụ Khoa & ART",
+      "deck_example": "2. Y Khoa - Sản Phụ Khoa & ART::MIC-4 HPV & dự phòng ung thư cổ tử cung",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_README.md",
+      "post_release": []
+    }
+  ]
+}

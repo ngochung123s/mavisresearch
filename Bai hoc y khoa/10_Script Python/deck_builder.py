@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-"""ped_deck_builder.py — builder dùng chung cho mọi deck Nhi khoa (PED).
+"""deck_builder.py — builder APKG dùng chung cho MỌI chuyên khoa.
 
-    python ped_deck_builder.py <lesson_dir> [--mode release|hotfix] [--sync-anki] [--lint-only]
+    python deck_builder.py <lesson_dir> [--mode release|hotfix] [--sync-anki] [--lint-only] [--output X.apkg]
 
-Đầu vào trong <lesson_dir>:
-  ped_deck.json        spec deck (xem PED_RULES.md §3)
-  pedXX_cards_data.py  `cards_data = [...]` — nguồn duy nhất của thẻ
+Đầu vào: <lesson_dir>/lesson.json (xem lesson_manifest.py) + nguồn thẻ `deck.cards_source`
+(`xxx_cards_data.py` có `cards_data = [...]`, hoặc `*.cards.v2.json`).
 Đầu ra:
-  <basename>.cards.v2.json, <basename>.apkg (root folder bài)
-  pedXX_anki_lock.json (GUID + note id cố định cho từng card id)
+  <artifact_dir>/<basename>.apkg (+ <basename>.cards.v2.json nếu nguồn là .py)
+  anki_lock.json (GUID + note id cố định cho từng card id)
   outputs/verification/<basename>/card-lint.json
 Exit: 0 = PASS, 2 = BLOCK (lint/verify/sync thất bại).
 """
@@ -17,7 +16,6 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import hashlib
-import importlib.util
 import json
 import re
 import sqlite3
@@ -29,11 +27,12 @@ from pathlib import Path
 import genanki
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import ped_card_lint as lint  # noqa: E402
+import card_lint as lint  # noqa: E402
+import lesson_manifest  # noqa: E402
 
-SHARED_MODELS = {
-    "basic": {"id": 1790604700021, "name": "NhiKhoa_Master_Basic"},
-    "cloze": {"id": 1790604702132, "name": "NhiKhoa_Master_Cloze"},
+SHARED_MODELS = {  # notetype chung mọi chuyên khoa (note cũ trong Anki giữ notetype của nó, sync cập nhật tại chỗ)
+    "basic": {"id": 1790604700031, "name": "YKhoa_Master_Basic"},
+    "cloze": {"id": 1790604702142, "name": "YKhoa_Master_Cloze"},
 }
 BASIC_FIELDS = ["Front", "Back", "Extra", "Category", "Badge", "BadgeClass"]
 CLOZE_FIELDS = ["Text", "Extra", "Category", "Badge", "BadgeClass"]
@@ -71,11 +70,11 @@ def model_specs(spec: dict) -> dict[str, dict]:
     basic, cloze = chosen["basic"], chosen["cloze"]
     return {
         "basic": {"id": int(basic["id"]), "name": basic["name"], "fields": BASIC_FIELDS, "is_cloze": False, "css": CSS,
-                  "template_name": "Nhi khoa Master Basic",
+                  "template_name": "Y khoa Master Basic",
                   "qfmt": BADGE_HTML + '<div class="question">{{Front}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{Front}}</div><hr id="answer"><div class="answer-box">{{Back}}</div>' + EXTRA_HTML},
         "cloze": {"id": int(cloze["id"]), "name": cloze["name"], "fields": CLOZE_FIELDS, "is_cloze": True, "css": CSS,
-                  "template_name": "Nhi khoa Master Cloze",
+                  "template_name": "Y khoa Master Cloze",
                   "qfmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>' + EXTRA_HTML},
     }
@@ -91,14 +90,6 @@ def escape_angle_brackets(text: str) -> str:
     if not text:
         return ""
     return re.sub(r"<(?![a-zA-Z/])", "&lt;", text)
-
-
-def load_cards(lesson_dir: Path, module_name: str) -> list[dict]:
-    path = lesson_dir / f"{module_name}.py"
-    loader = importlib.util.spec_from_file_location(module_name, path)
-    module = importlib.util.module_from_spec(loader)
-    loader.loader.exec_module(module)
-    return module.cards_data
 
 
 def render_card(card: dict) -> dict:
@@ -128,46 +119,45 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool) -> int:
-    spec = json.loads((lesson_dir / "ped_deck.json").read_text(encoding="utf-8"))
-    code, basename = spec["code"], spec["basename"]
-    module = spec.get("cards_module") or f"ped{code.split('-')[1].lower()}_cards_data"
-    media_dir = lesson_dir / spec.get("media_dir", "outputs/figures")
-    lock_path = lesson_dir / f"{module.replace('_cards_data', '')}_anki_lock.json"
-    apkg_path = lesson_dir / f"{basename}.apkg"
-    json_path = lesson_dir / f"{basename}.cards.v2.json"
-    verify_dir = lesson_dir / "outputs" / "verification" / basename
+def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool, output: Path | None = None) -> int:
+    m = lesson_manifest.load(lesson_dir)
+    spec, code = m.deck, m.id
+    apkg_path = Path(output).resolve() if output else m.apkg_path
     models = model_specs(spec)
+    if errors := lesson_manifest.validate(m):
+        for e in errors:
+            print(f"  [BLOCK] lesson.json: {e}")
+        return 2
 
-    raw_cards = load_cards(lesson_dir, module)
+    raw_cards = m.load_raw_cards()
     cards = [render_card(c) for c in raw_cards]
     print(f"=== {code}: {spec['deck_name']} — {len(cards)} thẻ, mode={mode} ===")
 
-    issues = lint.lint_cards(cards, spec) + lint.lint_media(cards, media_dir)
+    issues = lint.lint_cards(cards, m.lint_spec()) + lint.lint_media(cards, m.media_dir)
     lint.classify(issues, mode)
     lint.print_report(issues)
     summary = lint.summarize(issues)
     print(f"  lint: BLOCK={summary['block']} DEBT={summary['debt']} WARN={summary['warn']}")
 
     def write_report(status: str, extra: dict | None = None) -> None:
-        verify_dir.mkdir(parents=True, exist_ok=True)
-        payload = {"code": code, "deck_name": spec["deck_name"], "mode": mode, "status": status,
-                   "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
-                   "cards_source": f"{module}.py", "cards_source_sha256": sha256(lesson_dir / f"{module}.py"),
+        m.verify_dir.mkdir(parents=True, exist_ok=True)
+        payload = {"id": code, "specialty": m.specialty.key, "deck_name": spec["deck_name"], "mode": mode,
+                   "status": status, "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+                   "cards_source": spec["cards_source"], "cards_source_sha256": sha256(m.cards_source_path),
                    "card_count": len(cards), "summary": summary,
                    "issues": [i.to_dict() for i in issues], **(extra or {})}
-        (verify_dir / "card-lint.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        (m.verify_dir / "card-lint.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if summary["block"]:
         write_report("BLOCK")
-        print("[BLOCK] Sửa các lỗi trên trong cards data rồi build lại.")
+        print("[BLOCK] Sửa các lỗi trên trong nguồn thẻ rồi build lại.")
         return 2
     if lint_only:
         print("[OK] lint-only")
         return 0
 
-    lock = json.loads(lock_path.read_text(encoding="utf-8")) if lock_path.exists() else {}
-    g_models = {k: genanki_model(m) for k, m in models.items()}
+    lock = json.loads(m.lock_path.read_text(encoding="utf-8")) if m.lock_path.exists() else {}
+    g_models = {k: genanki_model(mm) for k, mm in models.items()}
     media_files: set[str] = set()
     expected_cards = 0
     for c in cards:
@@ -183,7 +173,8 @@ def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool) -> int:
             deck.add_note(genanki.Note(model=g_models[c["type"]], fields=card_note_fields(c), guid=guid,
                                        tags=c.get("tags") or [code]))
         package = genanki.Package(deck)
-        package.media_files = [str(media_dir / name) for name in sorted(media_files)]
+        package.media_files = [str(m.media_dir / name) for name in sorted(media_files)]
+        apkg_path.parent.mkdir(parents=True, exist_ok=True)
         package.write_to_file(str(apkg_path))
 
     def verify_apkg() -> list[str]:
@@ -218,13 +209,13 @@ def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool) -> int:
     if problems or post:
         write_report("BLOCK")
         return 2
-    extra = {"apkg": apkg_path.name}
+    extra = {"apkg": str(apkg_path)}
 
     if sync_anki:
-        import ped_anki_sync
+        import anki_sync
 
-        report = ped_anki_sync.sync(code, spec["deck_name"], cards, models, lock,
-                                    legacy_decks=spec.get("legacy_anki_decks"))
+        report = anki_sync.sync(code, m.specialty, spec["deck_name"], cards, models, lock,
+                                legacy_decks=spec.get("legacy_anki_decks"))
         print(f"  [ANKI] {report}")
         extra["anki_sync"] = report
         write_apkg()  # GUID thật của Anki → import APKG ở máy khác sẽ cập nhật, không nhân đôi
@@ -232,10 +223,11 @@ def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool) -> int:
             print(f"  [BLOCK] verify sau sync: {problems}")
             write_report("BLOCK", extra)
             return 2
-    lock_path.write_text(json.dumps(dict(sorted(lock.items())), ensure_ascii=False, indent=2), encoding="utf-8")
-    json_path.write_text(json.dumps({"deck_id": spec["deck_id"], "deck_name": spec["deck_name"],
-                                     "card_count": len(raw_cards), "cards": raw_cards},
-                                    ensure_ascii=False, indent=2), encoding="utf-8")
+    m.lock_path.write_text(json.dumps(dict(sorted(lock.items())), ensure_ascii=False, indent=2), encoding="utf-8")
+    if m.cards_json_path != m.cards_source_path:
+        m.cards_json_path.write_text(json.dumps({"deck_id": spec["deck_id"], "deck_name": spec["deck_name"],
+                                                 "card_count": len(raw_cards), "cards": raw_cards},
+                                                ensure_ascii=False, indent=2), encoding="utf-8")
     extra.update(apkg_sha256=sha256(apkg_path), sqlite_notes=len(cards), sqlite_cards=expected_cards)
     print(f"  [OK] APKG {apkg_path.name}: {len(cards)} notes / {expected_cards} cards / {len(media_files)} media")
     status = "PASS" if summary["debt"] == 0 else "PASS_WITH_DEBT"
@@ -250,10 +242,15 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--mode", default="release", choices=["release", "hotfix"])
     ap.add_argument("--sync-anki", action="store_true")
     ap.add_argument("--lint-only", action="store_true")
+    ap.add_argument("--output", type=Path, help="ghi APKG vào đường dẫn này (build_pipeline dùng)")
     args = ap.parse_args(argv)
     if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         sys.stdout.reconfigure(encoding="utf-8")
-    return build(args.lesson_dir.resolve(), args.mode, args.sync_anki, args.lint_only)
+    try:
+        return build(args.lesson_dir.resolve(), args.mode, args.sync_anki, args.lint_only, args.output)
+    except lesson_manifest.ManifestError as exc:
+        print(f"[BLOCK] {exc}")
+        return 2
 
 
 if __name__ == "__main__":

@@ -86,6 +86,12 @@ def main() -> int:
     for path in (args.brief, args.lesson, args.cards, args.guidelines, args.evidence_bundle):
         if not path.is_file():
             parser.error(f"file not found: {path}")
+    manifest_path = args.lesson.parent / "lesson.json"
+    if not manifest_path.is_file():
+        parser.error(f"thiếu {manifest_path} (manifest bài học — xem RULES_LESSON_APKG.md §3)")
+    manifest_cards = json.loads(manifest_path.read_text(encoding="utf-8")).get("deck", {}).get("cards_source")
+    if not manifest_cards or (args.lesson.parent / manifest_cards).resolve() != args.cards.resolve():
+        parser.error(f"--cards phải là deck.cards_source của lesson.json ({manifest_cards})")
     try:
         load_bundle(args.evidence_bundle)
     except BundleError as exc:
@@ -265,7 +271,7 @@ def main() -> int:
     record("cards_schema", [python, str(Path(__file__).resolve()), "--internal", "cards_schema"], [args.cards], [cards_artifact], cards_code)
     print(f"[{results[-1]['status']}] cards_schema")
 
-    command_gate("candidate_apkg_build", [python, str(SCRIPT_DIR / "build_apkg.py"), str(args.cards), "--output", str(apkg), "--verify"], [args.cards], "candidate_apkg_build.json")
+    command_gate("candidate_apkg_build", [python, str(SCRIPT_DIR / "deck_builder.py"), str(args.lesson.parent), "--mode", "release", "--output", str(apkg)], [args.cards, manifest_path], "candidate_apkg_build.json")
     if results[-1]["gate"] == "candidate_apkg_build" and results[-1]["status"] == "PASS":
         results[-1]["artifacts"].append(hashed(apkg))
 

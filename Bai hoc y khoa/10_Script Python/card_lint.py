@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""ped_card_lint.py — linter dùng chung cho thẻ Anki track Nhi khoa (PED).
+"""card_lint.py — linter dùng chung cho thẻ Anki của MỌI chuyên khoa.
 
-Ánh xạ gate → mã lỗi: xem `12_Nhi khoa/PED_RULES.md` §5.
+Ánh xạ gate → mã lỗi: xem `Bai hoc y khoa/RULES_LESSON_APKG.md` §5.
 
 Nhóm lỗi:
   T_*  kỹ thuật (HTML/escape/LaTeX/cấu trúc)  — luôn BLOCK
@@ -11,8 +11,8 @@ Nhóm lỗi:
   W_*  cảnh báo — không chặn
 
 CLI:
-  python ped_card_lint.py --scan-apkg <dir> [--mode release|hotfix]   # báo cáo nợ cho APKG đã build
-  python ped_card_lint.py --apkg <file.apkg> [--mode ...]              # chi tiết 1 APKG
+  python card_lint.py --scan-apkg <dir> [--mode release|hotfix]   # báo cáo nợ cho APKG đã build
+  python card_lint.py --apkg <file.apkg> [--mode ...]              # chi tiết 1 APKG
 Exit: 0 = không BLOCK, 2 = có BLOCK.
 """
 from __future__ import annotations
@@ -35,10 +35,9 @@ ALGO_MIN = 3
 MAX_IMAGE_BYTES = 150 * 1024
 MAX_IMAGE_WIDTH = 1200
 DIACRITICS_MIN = 0.80
-DECK_NAME_RE = re.compile(r"^Nhi khoa Y6::PED-\d+[a-z]?: \S.*?( \(EBM Update\))?$")
-VN_DIACRITIC_RE = re.compile(
-    r"[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]", re.I
-)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import specialties  # noqa: E402
+from specialties import VN_DIACRITIC_RE  # noqa: E402,F401  (dùng lại ở test/công cụ khác)
 
 _HTML_TAGS = r"(?:b|br|i|u|em|strong|span|div|hr|img|sup|sub|ul|ol|li|table|thead|tbody|tr|td|th|p|font|small|code)"
 ESCAPED_TAG_RE = re.compile(r"&lt;/?" + _HTML_TAGS + r"(?=[\s>/&]|$)", re.I)
@@ -235,8 +234,15 @@ def lint_cards(cards: list[dict], spec: dict | None = None) -> list[Issue]:
     if cards and not any("tier" in c for c in cards):
         add("W_TIER", "*", "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào")
     if deck_name := spec.get("deck_name"):
-        if not DECK_NAME_RE.match(deck_name) or not VN_DIACRITIC_RE.search(deck_name.split(":", 3)[-1]):
-            add("D_DECK_NAME", "*", f"tên deck sai chuẩn `Nhi khoa Y6::PED-xx: <Tên có dấu>`: {deck_name!r}")
+        if spec.get("specialty"):
+            error = specialties.get(spec["specialty"]).deck_name_error(deck_name, spec.get("id"))
+        else:
+            matches = specialties.for_deck_name(deck_name)
+            errors = [s.deck_name_error(deck_name) for s in matches]
+            error = None if any(e is None for e in errors) else (errors[0] if errors else
+                    "gốc deck không thuộc chuyên khoa nào trong specialties.json")
+        if error:
+            add("D_DECK_NAME", "*", f"tên deck {deck_name!r}: {error}")
     return issues
 
 
@@ -349,16 +355,27 @@ def read_apkg(apkg_path: Path) -> tuple[list[dict], list[str], dict[str, int]]:
 def lint_apkg(apkg_path: Path, mode: str) -> tuple[list[Issue], dict]:
     cards, deck_names, media = read_apkg(apkg_path)
     spec = {"deck_name": deck_names[0] if len(deck_names) == 1 else (deck_names[-1] if deck_names else "")}
+    if specialty := specialties.for_path(apkg_path):
+        spec["specialty"] = specialty.key
+        spec["id"] = specialty.lesson_id_from_folder(apkg_path.parent.name)
     issues = lint_cards(cards, spec) + lint_media(cards, None, media) + lint_diacritics(apkg_path)
     classify(issues, mode)
     basic = sum(1 for c in cards if c["type"] == "basic")
-    return issues, {"deck": spec["deck_name"], "notes": len(cards), "basic": basic, "cloze": len(cards) - basic}
+    return issues, {"deck": spec["deck_name"], "id": spec.get("id") or apkg_path.parent.name,
+                    "specialty": spec.get("specialty"), "notes": len(cards), "basic": basic,
+                    "cloze": len(cards) - basic}
+
+
+def release_apkgs(root: Path) -> list[Path]:
+    """APKG phát hành của các folder bài dưới `root` (bỏ outputs/ candidate, legacy, bản trùng)."""
+    skip = {"_duplicates_review", "80_Legacy_by_format", "99_Inbox", "08_Anki Deck - apkg", "cache"}
+    return sorted(p for p in root.rglob("*.apkg") if not skip & set(p.parts) and "verification" not in p.parts)
 
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apkg", type=Path, help="lint chi tiết 1 file APKG")
-    ap.add_argument("--scan-apkg", type=Path, help="lint mọi APKG ở root folder bài PED-xx dưới thư mục này")
+    ap.add_argument("--scan-apkg", type=Path, help="lint mọi APKG của các folder bài dưới thư mục này")
     ap.add_argument("--mode", default="release", choices=["release", "hotfix"])
     ap.add_argument("--json", type=Path, help="ghi báo cáo JSON")
     args = ap.parse_args(argv)
@@ -377,16 +394,13 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.scan_apkg:
         report, any_block = [], False
-        lesson_apkgs = sorted(p for p in args.scan_apkg.rglob("*.apkg")
-                              if re.match(r"PED-\d+", p.parent.name) and "outputs" not in p.parts)
-        print(f"{'PED':8} {'notes':>5} {'B/C':>9} {'BLOCK':>6} {'DEBT':>6}  top codes")
-        for path in lesson_apkgs:
+        print(f"{'Mã':10} {'notes':>5} {'B/C':>9} {'BLOCK':>6} {'DEBT':>6}  top codes")
+        for path in release_apkgs(args.scan_apkg):
             issues, meta = lint_apkg(path, args.mode)
             s = summarize(issues)
             any_block |= bool(s["block"])
-            code = re.match(r"PED-\d+", path.parent.name).group(0)
             top = ", ".join(f"{k}:{v}" for k, v in Counter(i.code for i in issues if i.severity != "WARN").most_common(4))
-            print(f"{code:8} {meta['notes']:>5} {meta['basic']:>4}/{meta['cloze']:<4} {s['block']:>6} {s['debt']:>6}  {top}")
+            print(f"{meta['id'][:10]:10} {meta['notes']:>5} {meta['basic']:>4}/{meta['cloze']:<4} {s['block']:>6} {s['debt']:>6}  {top}")
             report.append({"apkg": str(path), **meta, **s})
         if args.json:
             args.json.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

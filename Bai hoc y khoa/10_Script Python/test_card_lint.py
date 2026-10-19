@@ -1,4 +1,4 @@
-"""Regression tests for ped_card_lint.py + ped_deck_builder.py (track Nhi khoa)."""
+"""Regression tests for card_lint.py + deck_builder.py (mọi chuyên khoa)."""
 import json
 import sqlite3
 import tempfile
@@ -7,8 +7,8 @@ import unittest
 import zipfile
 from pathlib import Path
 
-import ped_card_lint as L
-import ped_deck_builder as B
+import card_lint as L
+import deck_builder as B
 
 GOOD_BACK = ('<b>🎯 Trả lời cốt lõi:</b><br><span style="color:#ff6b6b"><b>Sốt cao</b></span>'
              '<br><br><b>💡 Giải thích của AI:</b><br>Giải thích cơ chế.')
@@ -132,6 +132,14 @@ class GovernanceAndModes(unittest.TestCase):
         self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Nhi khoa Y6::PED-63: Bien thien bach cau"}))
         self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Medical::PED-13_Suy_ho_hap::2026-09-15"}))
 
+    def test_deck_name_follows_each_specialty_root(self):
+        noi = "1. Y Khoa - Nội Khoa & Cấp Cứu::02. Tim Mạch::IM-22 Suy tim"
+        self.assertNotIn("D_DECK_NAME", codes([basic()], {"deck_name": noi, "specialty": "noi", "id": "IM-22"}))
+        # mã bài trong tên deck phải trùng mã bài của manifest
+        self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": noi, "specialty": "noi", "id": "IM-23"}))
+        # deck Nội đặt nhầm dưới gốc Nhi
+        self.assertIn("D_DECK_NAME", codes([basic()], {"deck_name": "Nhi khoa Y6::IM-22 Suy tim", "specialty": "noi"}))
+
     def test_duplicate_ids_and_fronts(self):
         found = codes([basic("X-1"), basic("X-1")])
         self.assertIn("T_DUP_ID", found)
@@ -140,11 +148,15 @@ class GovernanceAndModes(unittest.TestCase):
 
 class BuilderEndToEnd(unittest.TestCase):
     def _lesson(self, tmp: Path, cards: list[dict]) -> Path:
-        (tmp / "ped_deck.json").write_text(json.dumps({
-            "code": "PED-99", "deck_id": 1999000001, "deck_name": "Nhi khoa Y6::PED-99: Bài kiểm thử",
-            "basename": "PED-99_Test", "required_sections": ["B1"]}, ensure_ascii=False), encoding="utf-8")
-        (tmp / "ped99_cards_data.py").write_text("cards_data = " + json.dumps(cards, ensure_ascii=False), encoding="utf-8")
-        return tmp
+        lesson = tmp / "12_Nhi khoa" / "PED-99_Test"
+        lesson.mkdir(parents=True, exist_ok=True)
+        (lesson / "lesson.json").write_text(json.dumps({
+            "id": "PED-99", "specialty": "nhi", "profile": "disease",
+            "deck": {"deck_id": 1999000001, "deck_name": "Nhi khoa Y6::PED-99: Bài kiểm thử",
+                     "basename": "PED-99_Test", "required_sections": ["B1"], "cards_source": "ped99_cards_data.py"}},
+            ensure_ascii=False), encoding="utf-8")
+        (lesson / "ped99_cards_data.py").write_text("cards_data = " + json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+        return lesson
 
     def _guids(self, apkg: Path) -> dict:
         with tempfile.TemporaryDirectory() as t, zipfile.ZipFile(apkg) as zf:
@@ -162,7 +174,7 @@ class BuilderEndToEnd(unittest.TestCase):
             self.assertEqual(B.build(lesson, "release", False, False), 0)
             first = self._guids(lesson / "PED-99_Test.apkg")
             algo[0]["back"] = GOOD_BACK + " (sửa nội dung)"
-            self._lesson(lesson, algo)
+            self._lesson(Path(t), algo)
             self.assertEqual(B.build(lesson, "release", False, False), 0)
             second = self._guids(lesson / "PED-99_Test.apkg")
             self.assertEqual(sorted(first.values()), sorted(second.values()))

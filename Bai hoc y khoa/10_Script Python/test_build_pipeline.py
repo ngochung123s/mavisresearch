@@ -50,6 +50,7 @@ class ReleaseRunnerTest(unittest.TestCase):
             lesson.write_text("Bài học tiếng Việt có dấu. PMID: 12345678 [ABSTRACT VERIFIED]", encoding="utf-8")
             cards.write_text(json.dumps([{"type": "basic", "front": "Câu hỏi?", "back": "Trả lời có dấu."}]), encoding="utf-8")
             guidelines.write_text("{}", encoding="utf-8")
+            (root / "lesson.json").write_text(json.dumps({"deck": {"cards_source": cards.name}}), encoding="utf-8")
 
             original_run = build_pipeline.run
 
@@ -58,7 +59,7 @@ class ReleaseRunnerTest(unittest.TestCase):
                 script = Path(command[1]).name if len(command) > 1 else ""
                 if script == "publish_gate.py":
                     return original_run(command, timeout)
-                if script == "build_apkg.py":
+                if script == "deck_builder.py":
                     Path(command[command.index("--output") + 1]).write_bytes(b"fake-apkg")
                 if script == "md_to_docx.py":
                     Path(command[3]).write_bytes(b"fake-docx")
@@ -91,6 +92,21 @@ class ReleaseRunnerTest(unittest.TestCase):
             self.assertEqual({row["gate"] for row in rows}, set(PROFILE_GATES["foundation"]))
             self.assertTrue(all(row["status"] == "PASS" and row["exit_code"] == 0 for row in rows))
             self.assertTrue(all(row["inputs"] and row["artifacts"] for row in rows))
+            apkg_row = next(row for row in rows if row["gate"] == "candidate_apkg_build")
+            self.assertEqual(Path(apkg_row["command"][1]).name, "deck_builder.py")
+
+    def test_runner_rejects_cards_that_are_not_the_manifest_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            files = {name: root / name for name in ("brief.md", "x_RELEASE_v1.md", "x.cards.v2.json", "g.json", "b.json")}
+            for path in files.values():
+                path.write_text("{}", encoding="utf-8")
+            (root / "lesson.json").write_text(json.dumps({"deck": {"cards_source": "other.cards.v2.json"}}), encoding="utf-8")
+            argv = ["build_pipeline.py", "--brief", str(files["brief.md"]), "--lesson", str(files["x_RELEASE_v1.md"]),
+                    "--cards", str(files["x.cards.v2.json"]), "--guidelines", str(files["g.json"]),
+                    "--evidence-bundle", str(files["b.json"])]
+            with patch.object(sys, "argv", argv), self.assertRaises(SystemExit):
+                build_pipeline.main()
 
 
 if __name__ == "__main__":
