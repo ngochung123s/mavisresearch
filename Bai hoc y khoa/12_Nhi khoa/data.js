@@ -2,12 +2,12 @@
 window.PED_LIBRARY_DATA = {
   "metadata": {
     "title": "PedViewer — Thư viện Sách & Bài học Nhi khoa",
-    "version": "20261019_005128",
-    "generated_at": "2026-10-19 00:51:28",
+    "version": "20261019_210516",
+    "generated_at": "2026-10-19 21:05:16",
     "total_curriculum": 59,
-    "total_ped": 33,
+    "total_ped": 34,
     "total_pedytb": 13,
-    "total_cards": 3106,
+    "total_cards": 3170,
     "blocks": [
       "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
       "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -642,12 +642,12 @@ window.PED_LIBRARY_DATA = {
       "block": "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
       "scope": "Tác nhân vi khuẩn theo lứa tuổi; triệu chứng lâm sàng ở nhũ nhi (thóp phồng, li bì, bỏ bú) vs trẻ lớn (cổ gượng, Kernig, Brudzinski); biện luận kết quả xét nghiệm dịch não tủy; phác đồ kháng sinh + Dexamethasone.",
       "dependency": "PED-01, 03, 07",
-      "curriculum_status": "❌ CHƯA CÓ",
-      "has_ped": false,
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 64 thẻ Master Basic + 4 ảnh y văn)",
+      "has_ped": true,
       "has_pedytb": false,
-      "cards_count": 0,
-      "apkg_file": null,
-      "folder_rel": ""
+      "cards_count": 64,
+      "apkg_file": "PED-37_Viem_mang_nao_mu_o_tre_em_2026-10-19_RELEASE_v1.apkg",
+      "folder_rel": "05_Truyen_nhiem/PED-37_Viem_mang_nao_mu_o_tre_em"
     },
     {
       "id": "PED-38",
@@ -29532,6 +29532,1052 @@ window.PED_LIBRARY_DATA = {
       "apkg_file": "PED-35_Benh_Tay_Chan_Mieng_2026-09-30_RELEASE_v2.apkg",
       "html_file": "tcm_clinical_master_guide.html",
       "folder_rel": "05_Truyen_nhiem/PED-35_Benh_Tay_Chan_Mieng"
+    },
+    {
+      "id": "PED-37",
+      "priority": "P0",
+      "title": "Viêm màng não mủ ở trẻ em",
+      "block": "Block 5 — Bệnh Truyền nhiễm Nhi khoa",
+      "scope": "Tác nhân vi khuẩn theo lứa tuổi; triệu chứng lâm sàng ở nhũ nhi (thóp phồng, li bì, bỏ bú) vs trẻ lớn (cổ gượng, Kernig, Brudzinski); biện luận kết quả xét nghiệm dịch não tủy; phác đồ kháng sinh + Dexamethasone.",
+      "dependency": "PED-01, 03, 07",
+      "curriculum_status": "✅ GATES ĐẠT (MD + APKG 64 thẻ Master Basic + 4 ảnh y văn)",
+      "has_ped": true,
+      "has_pedytb": false,
+      "has_cards": true,
+      "ped_file": "PED-37_Viem_mang_nao_mu_o_tre_em_2026-10-19_RELEASE_v1.md",
+      "ped_content": "# BÀI HỌC CHUYÊN SÂU: VIÊM MÀNG NÃO MỦ Ở TRẺ EM (ACUTE BACTERIAL MENINGITIS IN CHILDREN)\n\n---\n\n## B0. TỔNG QUAN, ĐỊNH NGHĨA & DỊCH TỄ HỌC LÂM SÀNG\n\n### B0.1 Định nghĩa bản chất bệnh học\nViêm màng não mủ (Acute Bacterial Meningitis) là tình trạng nhiễm trùng cấp tính có mủ của màng mềm (leptomeninges - bao gồm màng nhện màng nuôi) và khoang dưới nhện (subarachnoid space) do các căn nguyên vi khuẩn gây ra. Đây là một trong những cấp cứu nội khoa tối khẩn cấp hàng đầu trong Nhi khoa, đòi hỏi phải nhận diện tức thì và can thiệp điều trị kháng sinh diệt khuẩn liều cao qua đường tĩnh mạch ngay trong giờ đầu tiên tiếp cận bệnh nhân nhằm giảm thiểu tối đa nguy cơ tử vong và các di chứng thần kinh vĩnh viễn nặng nề.\n\nVề phương diện giải phẫu bệnh học lâm sàng, viêm màng não mủ không chỉ là tổn thương khu trú đơn thuần ở màng não mà là một phản ứng viêm lan tỏa toàn bộ hệ thống dịch não tủy, dẫn tới viêm tắc các mạch máu màng mềm (vasculitis), tổn thương hàng rào máu - não, phù não 3 tầng, thiếu máu cục bộ nhu mô não và rối loạn lưu thông tái hấp thu dịch não tủy.\n\n### B0.2 Dịch tễ học và sự thay đổi căn nguyên qua kỷ nguyên vắc xin\nTrong lịch sử y học trước thập niên 1990, *Haemophilus influenzae* type b (Hib) là thủ phạm chiếm tới 60% – 70% các ca viêm màng não mủ ở trẻ em dưới 5 tuổi. Kể từ khi chương trình tiêm chủng mở rộng triển khai vắc xin liên hợp Hib và vắc xin phế cầu liên hợp (PCV7, PCV10, PCV13), mô hình dịch tễ học toàn cầu đã thay đổi mang tính cách mạng:\n- Tỷ lệ mắc viêm màng não do Hib đã giảm trên 95% ở các quốc gia triển khai tiêm chủng đầy đủ [GUIDELINE VERIFIED].\n- Hiện nay, **Phế cầu (*Streptococcus pneumoniae*)** và **Não mô cầu (*Neisseria meningitidis*)** đã trở thành hai căn nguyên vi khuẩn hàng đầu gây viêm màng não mủ ở trẻ em ngoài giai đoạn sơ sinh.\n- Ở trẻ sơ sinh, mô hình vi sinh vẫn giữ nguyên tính chất đặc thù liên quan mật thiết đến đường sinh dục và tiêu hóa của người mẹ, đứng đầu là **Liên cầu nhóm B (*Streptococcus agalactiae*)**, **Trực khuẩn Gram âm đường ruột (chủ yếu là *Escherichia coli*)** và **Listeria monocytogenes** [GUIDELINE VERIFIED].\n\n![Giải phẫu mốc chọc dò dịch não tủy](outputs/figures/PED37_fig1_lumbar_puncture_anatomy.jpg)\n\n### B0.3 Gánh nặng bệnh tật và di chứng lâu dài\nMặc dù đã có những tiến bộ vượt bậc về hồi sức cấp cứu và kháng sinh phổ rộng thế hệ mới, tỷ lệ tử vong do viêm màng não mủ ở trẻ em vẫn dao động từ 5% đến 10% tại các nước phát triển và có thể lên tới 20% – 30% tại các quốc gia đang phát triển. \nĐặc biệt, khoảng 20% đến 40% trẻ sống sót phải chịu đựng những di chứng thần kinh và phát triển nặng nề suốt đời:\n1. **Điếc thần kinh giác quan (Sensorineural hearing loss):** Di chứng giác quan phổ biến nhất, chiếm 10% – 20% trường hợp, đặc biệt cao sau viêm màng não do Phế cầu.\n2. **Động kinh thứ phát và co giật tái diễn.**\n3. **Não úng thủy tắc nghẽn hoặc thông thương (Hydrocephalus):** Do viêm dính tắc nghẽn cống não hoặc xơ hóa các hạt màng nhện Pacchioni.\n4. **Bại não, liệt nửa người, rối loạn vận động.**\n5. **Chậm phát triển trí tuệ, suy giảm khả năng tập trung, sa sút học tập và rối loạn hành vi.**\n\n---\n\n## B1. CĂN NGUYÊN VI SINH HỌC PHÂN TẦNG THEO LỨA TUỔI\n\nQuy luật phân bố căn nguyên vi khuẩn theo lứa tuổi là kim chỉ nam sống còn quyết định sự chính xác của việc lựa chọn kháng sinh kinh nghiệm ban đầu trước khi có kết quả nuôi cấy dịch não tủy [GUIDELINE VERIFIED].\n\n### B1.1 Trẻ sơ sinh (< 1 tháng tuổi / < 28 ngày tuổi)\nỞ lứa tuổi này, hệ miễn dịch thể dịch và tế bào của trẻ còn cực kỳ non nớt (nồng độ IgG truyền từ mẹ chưa hoàn thiện nếu sinh non, bổ thể thấp, chức năng bạch cầu trung tính chưa thuần thục). Vi khuẩn thường xâm nhập qua đường sinh dục mẹ trong chuyển dạ hoặc nhiễm khuẩn bệnh viện:\n1. **Liên cầu nhóm B (*Streptococcus agalactiae* - GBS):**\n   - Căn nguyên số 1 gây viêm màng não sơ sinh (chiếm 40% – 50% ca bệnh).\n   - Lây truyền dọc từ đường âm đạo mẹ khi chuyển dạ (nhiễm khuẩn sơ sinh sớm trong 7 ngày đầu) hoặc lây truyền ngang từ môi trường (nhiễm khuẩn sơ sinh muộn từ ngày 7 đến ngày 89).\n   - Đặc điểm vi sinh: Cầu khuẩn Gram dương, chuỗi, tan máu beta, nhạy cảm cao với Ampicillin và Penicillin G.\n2. **Trực khuẩn Gram âm đường ruột (chủ yếu *Escherichia coli* mang kháng nguyên vỏ K1):**\n   - Chiếm khoảng 30% – 40% các trường hợp.\n   - Kháng nguyên vỏ K1 (*K1 capsular antigen*) có cấu trúc tương đồng với acid sialic của mô thần kinh người, giúp vi khuẩn ngụy trang trốn thoát sự thực bào và bổ thể, xâm nhập ồ ạt vào màng não.\n   - Có xu hướng gây viêm não thất (ventriculitis), áp xe não và viêm tắc mạch máu não nặng.\n3. ***Listeria monocytogenes*:**\n   - Trực khuẩn Gram dương, kỵ khí tùy tiện, chuyển động đặc thù dạng nhào lộn (tumbling motility).\n   - Lây qua đường máu từ mẹ (ăn phải thực phẩm nhiễm khuẩn như sữa chưa tiệt trùng, phô mai mềm, thịt nguội) qua bánh nhau.\n   - **Điểm chốt lâm sàng:** *Listeria monocytogenes* đề kháng tự nhiên 100% với toàn bộ kháng sinh nhóm Cephalosporin (kể cả Ceftriaxone hay Cefotaxime thế hệ 3). Bắt buộc phải dùng **Ampicillin** [GUIDELINE VERIFIED].\n4. Các trực khuẩn Gram âm khác: *Klebsiella pneumoniae*, *Enterobacter cloacae*, *Serratia marcescens*, *Pseudomonas aeruginosa* (đặc biệt trong nhiễm trùng bệnh viện tại khoa NICU).\n\n### B1.2 Trẻ nhũ nhi và trẻ nhỏ (Từ 1 tháng đến 5 tuổi)\n1. ***Streptococcus pneumoniae* (Phế cầu):**\n   - Cầu khuẩn Gram dương, hình ngọn nến hoặc quả hạnh nhân xếp đôi (diplococci), tan máu alpha.\n   - Độc lực chính: Vỏ polysaccharide chống thực bào và Pneumolysin gây độc tế bào nội mô.\n   - Bệnh cảnh lâm sàng diễn tiến dữ dội, nguy cơ sốc nhiễm khuẩn, phù não nặng, tỷ lệ tử vong cao nhất và để lại di chứng điếc thần kinh giác quan cao nhất.\n   - **Thách thức điều trị:** Sự gia tăng của các chủng Phế cầu kháng Penicillin và giảm nhạy cảm với Cephalosporin thế hệ 3, bắt buộc phải phối hợp **Vancomycin** trong phác đồ kinh nghiệm ban đầu [GUIDELINE VERIFIED].\n2. ***Neisseria meningitidis* (Não mô cầu):**\n   - Song cầu khuẩn Gram âm, hình hạt cà phê đứng đôi trong hoặc ngoài bạch cầu.\n   - Các nhóm huyết thanh chính: A, B, C, W-135, Y, X.\n   - Khả năng nhân lên cực nhanh trong máu, giải phóng ồ ạt nội độc tố LOS (*Lipooligosaccharide*), gây bão cytokine, viêm mao mạch hoại tử, đông máu nội mạch rải rác (DIC) và sốc nhiễm khuẩn bùng phát trong vài giờ.\n   - Tổn thương ngoài da kinh điển: **Tử ban sao (Petechiae / Purpura fulminans)**.\n3. ***Haemophilus influenzae* type b (Hib):**\n   - Trực cầu khuẩn Gram âm nhỏ, đa hình thái.\n   - Thường gặp ở trẻ chưa tiêm chủng hoặc tiêm chưa đủ mũi vắc xin 5 trong 1 / 6 trong 1.\n   - Thường khởi phát từ từ hơn phế cầu nhưng có tỷ lệ cao gây tràn dịch dưới màng cứng và tổn thương dây thần kinh số VIII.\n\n### B1.3 Trẻ lớn và vị thành niên (> 5 tuổi)\n- **Não mô cầu (*Neisseria meningitidis*)** và **Phế cầu (*Streptococcus pneumoniae*)** chiếm trên 90% các trường hợp.\n- Nhóm tuổi vị thành niên và thanh niên sống trong môi trường tập thể (ký túc xá, doanh trại, nhà trẻ) có nguy cơ bùng phát dịch Não mô cầu do tỷ lệ người lành mang trùng vùng tỵ hầu tăng cao.\n- Các căn nguyên ít gặp hơn ở nhóm trẻ có yếu tố cơ địa đặc biệt:\n  * Trẻ phẫu thuật thần kinh, chấn thương sọ não vỡ sàn sọ, dò DNT: *Staphylococcus aureus*, *Staphylococcus epidermidis*, Trực khuẩn mủ xanh (*Pseudomonas*).\n  * Trẻ cắt lách hoặc thiếu máu hồng cầu hình liềm: Nguy cơ nhiễm trùng tối cấp do vi khuẩn có vỏ (*S. pneumoniae*, *H. influenzae*, *N. meningitidis*).\n  * Trẻ suy giảm bổ thể đoạn cuối (C5 – C9): Nguy cơ tái nhiễm Não mô cầu nhiều lần.\n\n---\n\n## B2. SINH LÝ BỆNH HỌC 7 TẦNG & 3 CƠ CHẾ PHÙ NÃO TOÀN DIỆN\n\nSự hiểu biết sâu sắc về chuỗi sinh bệnh học 7 tầng giải thích tường tận mọi triệu chứng lâm sàng, biến đổi xét nghiệm dịch não tủy và cơ sở của các biện pháp hồi sức bảo vệ não.\n\n> 🔄 **Chuỗi cơ chế 7 tầng sinh bệnh học:**\n> 1. **Tầng 1 — Cư trú và Xâm lấn:** Vi khuẩn bám dính vào niêm mạc đường hô hấp trên/tỵ hầu (nhờ pili và protein bề mặt) $\nightarrow$ Tiết protease IgA phá hủy hàng rào miễn dịch niêm mạc $\nightarrow$ Vượt qua biểu mô tỵ hầu xâm nhập vào hệ tuần hoàn.\n> 2. **Tầng 2 — Tồn tại trong dòng máu (Nhiễm khuẩn huyết):** Nhờ lớp vỏ polysaccharide trơn láng chống lại sự thực bào của bạch cầu đa nhân và ức chế con đường hoạt hóa bổ thể $\nightarrow$ Vi khuẩn nhân lên nhanh chóng trong máu tạo nồng độ cao (Bacteremia).\n> 3. **Tầng 3 — Vượt Hàng Rào Máu - Não (Blood-Brain Barrier - BBB):** Vi khuẩn gắn vào thụ thể đặc hiệu trên tế bào nội mô mao mạch não (ví dụ thụ thể PAFR của tế bào nội mô với Phế cầu) $\nightarrow$ Tế bào nội mô thực bào và vận chuyển vi khuẩn qua màng (transcytosis) $\nightarrow$ Thâm nhập vào khoang dưới nhện.\n> 4. **Tầng 4 — Nhân lên trong khoang dưới nhện:** Khoang dưới nhện bình thường là vùng \"trống miễn dịch\" (immune-deficient site) với nồng độ globulin miễn dịch và bổ thể cực kỳ thấp $\nightarrow$ Vi khuẩn nhân lên tự do không bị kiểm soát $\nightarrow$ Tự ly giải giải phóng các phân tử PAMPs (*Pathogen-Associated Molecular Patterns*) gồm Endotoxin LPS/LOS, Peptidoglycan, Teichoic acid.\n> 5. **Tầng 5 — Bùng nổ phản ứng viêm màng mềm:** PAMPs gắn vào TLR (*Toll-like receptors*) trên bề mặt Microglia, tế bào hình sao và đại thực bào màng não $\nightarrow$ Hoạt hóa yếu tố nhân NF-$\\kappa$B $\nightarrow$ Giải phóng ồ ạt chuỗi cytokine và chemokine tiền viêm (TNF-$\u0007lpha$, IL-1$\beta$, IL-6, IL-8, MIP-1$\u0007lpha$) $\nightarrow$ Hút hàng triệu bạch cầu đa nhân trung tính từ máu di chuyển xuyên mạch ồ ạt vào dịch não tủy $\nightarrow$ Hình thành dịch mủ đặc trong khoang dưới nhện.\n> 6. **Tầng 6 — Phá hủy mô thần kinh & Phức hợp 3 Cơ chế Phù Não:** Phản ứng viêm làm hỏng hoàn toàn tế bào nội mô mao mạch não $\nightarrow$ Mở rộng liên kết vòng bịt (tight junctions) $\nightarrow$ Gây **Phù não vận mạch (Vasogenic edema)**. Bạch cầu trung tính thoái hóa giải phóng gốc tự do oxy hóa (ROS), protease và men MMP-9 làm độc tế bào thần kinh đệm và neuron $\nightarrow$ Gây **Phù não độc tế bào (Cytotoxic edema)**. Dịch mủ viêm làm tắc nghẽn các rãnh dưới nhện và xơ hóa các hạt màng nhện Pacchioni cản trở dòng chảy và tái hấp thu DNT $\nightarrow$ Gây **Phù não kẽ (Interstitial edema)**.\n> 7. **Tầng 7 — Tăng áp lực nội sọ, Thiếu máu não & Tử vong:** Phù não tiến triển trong hộp sọ cứng của trẻ lớn (hoặc vượt quá khả năng giãn thóp của trẻ nhỏ) $\nightarrow$ Tăng áp lực nội sọ (ICP) vọt cao $\nightarrow$ Làm sụt giảm áp lực tưới máu não nghiêm trọng theo công thức: $    ext{CPP} =     ext{MAP} -     ext{ICP}$ (trong đó CPP là áp lực tưới máu não, MAP là huyết áp động mạch trung bình, ICP là áp lực nội sọ). Khi $    ext{CPP} < 40    ext{ mmHg}$, nhu mô não bị thiếu máu và thiếu oxy toàn bộ $\nightarrow$ Co thắt mạch máu não (vasospasm) $\nightarrow$ Nhồi máu não vỏ não $\nightarrow$ Thoát vị não (tụt kẹt hồi hải mã qua lều tiểu não, tụt kẹt hạnh nhân tiểu não qua lỗ chẩm) chèn ép thân não $\nightarrow$ Ngừng thở, ngừng tim và tử vong.\n\n---\n\n## B3. BIỂU HIỆN LÂM SÀNG PHÂN TẦNG THEO LỨA TUỔI & DẤU HIỆU CỜ ĐỎ\n\nBiểu hiện lâm sàng của viêm màng não mủ biến thiên cực kỳ rộng, phụ thuộc chặt chẽ vào lứa tuổi, căn nguyên và thời điểm tiếp cận [GUIDELINE VERIFIED].\n\n### B3.1 Lâm sàng ở Trẻ sơ sinh và Trẻ nhũ nhi nhỏ (< 3 tháng tuổi)\nĐây là nhóm tuổi nguy hiểm nhất vì các triệu chứng viêm màng não kinh điển (cổ gượng, Kernig, Brudzinski) **THƯỜNG XUYÊN ÂM TÍNH** (lên tới 80% – 90% ca bệnh không có dấu màng não). Bệnh cảnh thường biểu hiện dưới dạng nhiễm khuẩn huyết sơ sinh với các dấu hiệu nghèo nàn và tinh tế:\n- **Rối loạn thân nhiệt:** Sốt cao hoặc **HẠ THÂN NHIỆT** (thân nhiệt $< 36.5^\\circ    ext{C}$ hoặc đo trực tràng $< 36^\\circ    ext{C}$ là dấu hiệu cảnh báo bệnh cực nặng).\n- **Thay đổi tri giác và hành vi:** Li bì, ngủ gà, khó đánh thức, lờ đờ, hoặc ngược lại kích thích quấy khóc không dỗ được, khóc thét the thé (*high-pitched cry*) khi có người chạm vào hoặc cử động (do tăng cảm giác đau khi màng não bị căng).\n- **Rối loạn tiêu hóa:** Bỏ bú, bú kém, ọc sữa, nôn trớ, chướng bụng, tiêu chảy.\n- **Rối loạn hô hấp:** Thở không đều, thở rên, thở nhanh nông, hoặc các **cơn ngừng thở kéo dài (> 20 giây)**.\n- **Dấu hiệu thực thể then chốt:**\n  * **Thóp phồng và căng:** Phải khám khi trẻ nằm yên hoặc bế ngồi thẳng không khóc. Thóp căng phồng, mất đập theo mạch nảy là chỉ dấu trực tiếp của tăng áp lực nội sọ.\n  * Giảm trương lực cơ toàn thân (trẻ mềm nhẽo).\n  * Da tái xanh, nổi vân tím hoa vân (*mottling*), tưới máu ngoại vi kém (thời gian đổ đầy mao mạch $    ext{CRT} > 3    ext{ giây}$).\n\n### B3.2 Lâm sàng ở Trẻ lớn (> 1 – 2 tuổi)\nTrẻ lớn có biểu hiện rầm rộ hơn với sự kết hợp của 3 hội chứng lâm sàng:\n1. **Hội chứng nhiễm trùng nhiễm độc toàn thân:**\n   - Sốt cao đột ngột, rét run, vẻ mặt nhiễm trùng môi khô lưỡi bẩn, mệt lả.\n2. **Hội chứng tăng áp lực nội sọ:**\n   - **Đau đầu dữ dội:** Đau lan tỏa toàn đầu, liên tục, tăng lên khi có tiếng động, ánh sáng hoặc khi ho.\n   - **Nôn vọt (nôn thành vòi):** Nôn bất chợt, không liên quan đến bữa ăn, nôn xong không đỡ đau đầu.\n   - Sợ ánh sáng (*photophobia*), sợ tiếng ồn (*hyperacusis*).\n3. **Hội chứng kích thích màng não (Meningeal Irritation Signs):**\n   - **Dấu hiệu Cổ gượng (Cứng gáy - Nuchal rigidity):** Bác sĩ đặt tay sau gáy trẻ nhẹ nhàng nâng đầu gập cằm về phía ngực; dương tính khi có cảm giác cản trở rõ rệt và cằm không thể chạm ức.\n   - **Dấu hiệu Kernig:** Đặt trẻ nằm ngửa, gập đùi $90^\\circ$ vào bụng rồi nâng từ từ cẳng chân thẳng lên; dương tính khi xuất hiện sự co cứng cơ cản trở duỗi cẳng chân hoặc trẻ kêu đau khi góc kheo $< 135^\\circ$.\n   - **Dấu hiệu Brudzinski trên (Brudzinski cổ):** Nâng đầu trẻ gập vào ngực; dương tính khi hai chân trẻ tự động gập nhẹ ở khớp háng và khớp gối.\n   - **Tư thế \"Cò súng\" (Opisthotonos):** Thân người ưỡn cong ra sau, đầu ngửa tối đa, hai chân co gấp lên bụng để làm chùng tối đa màng tủy sống giúp giảm đau.\n\n![Tử ban sao Não mô cầu](outputs/figures/PED37_fig3_meningococcal_petechiae_purpura.jpg)\n\n### B3.3 Các Dấu hiệu Cờ Đỏ Cấp cứu (Red Flags)\nKhi tiếp cận bệnh nhân nghi ngờ viêm màng não, sự xuất hiện của bất kỳ dấu hiệu cờ đỏ nào sau đây đòi hỏi phải kích hoạt báo động đỏ hồi sức tại giường [GUIDELINE VERIFIED]:\n1. **Tử ban sao hoại tử (Petechiae / Purpura fulminans):** Ban xuất huyết dạng chấm hoặc mảng hoại tử màu tím đen hình bản đồ, lan nhanh trong vài giờ, ấn kính không mất màu. Đây là chỉ dấu sinh tử của nhiễm trùng huyết do Não mô cầu kèm DIC tối cấp!\n2. **Tam chứng Cushing (Dấu hiệu tụt kẹt não sắp xảy ra):**\n   - Mạch chậm nghịch thường (Bradycardia).\n   - Tăng huyết áp (đặc biệt tăng huyết áp tâm thu với dãn rộng huyết áp kẹt).\n   - Rối loạn nhịp thở (thở không đều, thở ngắt quãng hoặc thở kiểu Cheyne-Stokes).\n3. **Dấu thần kinh khu trú:** Đồng tử hai bên giãn bất đối xứng, mất phản xạ ánh sáng, sụp mi (liệt dây III), lác trong (liệt dây VI), liệt mặt (liệt dây VII), liệt nửa người.\n4. **Hôn mê sâu hoặc tụt điểm Glasgow/AVPU nhanh chóng.**\n5. **Trạng thái động kinh (Status epilepticus):** Co giật kéo dài $> 5    ext{ phút}$ hoặc co giật liên tiếp không hồi phục tri giác giữa các cơn.\n\n---\n\n## B4. KỸ THUẬT CHỌC DÒ TỦY SỐNG & CHỐNG CHỈ ĐỊNH CẤP CỨU\n\nChọc dò tủy sống (Lumbar Puncture - LP) là tiêu chuẩn vàng mang tính quyết định để xác định chẩn đoán viêm màng não mủ và phân lập vi khuẩn. Tuy nhiên, việc thực hiện thủ thuật này đòi hỏi phải cân nhắc nghiêm ngặt giữa lợi ích chẩn đoán và nguy cơ tụt não đe dọa tính mạng [GUIDELINE VERIFIED].\n\n### B4.1 Mốc giải phẫu và Kỹ thuật chuẩn\n- **Mốc giải phẫu:** Đường liên gai chậu sau trên (Đường Tuffier hay đường Jacoby) cắt ngang qua mỏm gai đốt sống L4 hoặc khoảng gian đốt **L3 – L4** hoặc **L4 – L5**.\n- Ở trẻ sơ sinh và trẻ nhỏ, nón tủy sống (*conus medullaris*) kết thúc ở mức đốt sống L2 – L3 (thấp hơn so với L1 – L2 ở người lớn). Do đó, vị trí chọc kim an toàn nhất luôn là khoảng gian đốt **L3 – L4 hoặc L4 – L5** để tuyệt đối không đâm vào nón tủy.\n- **Tư thế bệnh nhân:** Trẻ nằm nghiêng cong lưng hình chữ C (tư thế tôm luộc), đầu gập nhẹ vào ngực, đùi gập vào bụng. Cần người phụ bế giữ tư thế nhẹ nhàng, tránh gập cổ quá mức ở trẻ sơ sinh vì có thể gây gập nghẹt đường thở dẫn đến ngừng thở!\n\n### B4.2 Bốn nhóm Chống chỉ định Chọc dò Tủy sống Cấp cứu\nBác sĩ lâm sàng bắt buộc phải hoãn chọc dò tủy sống ngay lập tức nếu trẻ có bất kỳ dấu hiệu nào trong 4 nhóm sau [GUIDELINE VERIFIED]:\n1. **Dấu hiệu Tăng áp lực nội sọ nặng có nguy cơ Tụt não:**\n   - Hôn mê sâu ($    ext{GCS} \\le 8$ điểm hoặc đáp ứng đau P/U trên thang AVPU).\n   - Rối loạn tri giác tiến triển nhanh kèm bất thường đồng tử (đồng tử giãn, méo mó, mất phản xạ ánh sáng).\n   - Xuất hiện tư thế mất vỏ (duỗi cứng hai chân, co cứng hai tay) hoặc mất não (duỗi cứng tứ chi).\n   - Tam chứng Cushing (mạch chậm, tăng huyết áp, thở không đều).\n   - Phù gai thị (hiếm gặp trong viêm màng não cấp vì cần thời gian xuất hiện, nhưng nếu có là chống chỉ định).\n2. **Suy tuần hoàn và Suy hô hấp chưa ổn định:**\n   - Trẻ đang trong tình trạng sốc mất bù, tụt huyết áp, mạch nhanh nhỏ, CRT $> 3    ext{ giây}$.\n   - Suy hô hấp nặng, cơn ngừng thở tái diễn, SpO2 $< 90\\%$ dù đã thở oxy hỗ trợ.\n   - *Nguyên tắc:* Phải hồi sức ABC ổn định sinh hiệu trước khi làm bất kỳ thủ thuật nào!\n3. **Nhiễm trùng da và mô mềm tại vị trí chọc kim:**\n   - Nhiễm trùng da, viêm mô tế bào, áp xe vùng thắt lưng L3 – L5 (nguy cơ đưa vi khuẩn từ ngoài da trực tiếp vào khoang dưới nhện).\n4. **Rối loạn đông máu nặng:**\n   - Số lượng tiểu cầu $< 50.000/    ext{mm}^3$.\n   - Tỷ lệ Prothrombin $< 50\\%$ hoặc $    ext{INR} > 1.5$.\n   - Đang có chảy máu tự nhiên tiến triển hoặc đang trong bệnh cảnh DIC cấp do Não mô cầu.\n\n> ⚠️ **MỆNH LỆNH LÂM SÀNG SỐNG CÒN (GOLDEN RULE):**\n> Nếu trẻ có chống chỉ định chọc dò tủy sống hoặc chọc dò bị trì hoãn vì bất kỳ lý do gì: **BẮT BUỘC PHẢI CẤY MÁU NGAY RỒI TIÊM KHÁNG SINH TĨNH MẠCH VÀ DEXAMETHASONE NGAY LẬP TỨC! TUYỆT ĐỐI KHÔNG ĐƯỢC CHỜ ĐỢI CHỤP CT SCAN NÃO HAY CHỜ CHỌC DNT XONG MỚI CHO KHÁNG SINH!** Mọi sự trì hoãn kháng sinh quá 60 phút đều làm tăng tỷ lệ tử vong lên gấp nhiều lần [GUIDELINE VERIFIED].\n\n---\n\n## B5. BIỆN LUẬN DỊCH NÃO TỦY (CSF ANALYSIS) & THANG ĐIỂM BACTERIAL MENINGITIS SCORE (BMS)\n\n![So sánh độ đục dịch não tủy](outputs/figures/PED37_fig2_csf_turbidity_comparison.jpg)\n\n### B5.1 Bảng đối chiếu 4 thể viêm màng não qua xét nghiệm DNT\nPhân tích dịch não tủy bao gồm: Áp lực mở, màu sắc độ trong, số lượng và công thức tế bào, sinh hóa (Protein, Glucose, Lactate), soi tươi nhuộm Gram và nuôi cấy vi khuẩn.\n\n| Thông số xét nghiệm | DNT Bình thường | Viêm màng não mủ (Bacterial) | Viêm màng não Virus (Aseptic) | Viêm màng não Lao (Tuberculosis) |\n|---|---|---|---|---|\n| **Áp lực mở (cmH2O)** | 5 – 10 (trẻ nhỏ), 10 – 20 (trẻ lớn) | **Tăng rất cao (> 20 – 30)** | Bình thường hoặc tăng nhẹ | Tăng cao |\n| **Màu sắc & Độ trong** | Trong suốt như nước mưa | **Đục như nước vo gạo, nước cốt dừa, có ánh mủ** | Trong suốt hoặc hơi mờ | Trong hoặc vàng chanh, có mạng nhện (*pellicle*) khi để lắng |\n| **Bạch cầu (tế bào/mm3)** | $< 5$ (sơ sinh $< 20 – 30$) | **Tăng vọt: 1.000 – 10.000+** (đôi khi hàng chục nghìn) | Tăng nhẹ-vừa: 50 – 500 (hiếm khi $> 1.000$) | Tăng vừa: 100 – 500 |\n| **Thành phần bạch cầu** | Mononuclear (Lympho/Mono) | **Neutrophil chiếm ưu thế tuyệt đối (> 80% – 90%)** | **Lympho chiếm ưu thế (> 80%)** (*Giai đoạn rất sớm 12h đầu có thể Neutrophil ưu thế thoáng qua*) | **Lymphocyte chiếm ưu thế (> 80%)** |\n| **Protein DNT (g/L)** | 0.15 – 0.45 (sơ sinh $< 1.0$) | **Tăng rất cao (> 1.0 – 5.0+)** | Bình thường hoặc tăng nhẹ ($< 1.0$) | **Tăng rất cao (> 1.5 – 5.0)** (do phá hủy hàng rào máu não nặng) |\n| **Glucose DNT (mmol/L)** | 2.5 – 4.2 | **Giảm sâu (< 2.2)** | Bình thường ($> 2.5$) | **Giảm sâu (< 2.0)** |\n| **Tỷ lệ Glucose DNT / Máu** | $\\mathbf{\\ge 0.6}$ (sơ sinh $\\ge 0.7$) | **Giảm nghiêm trọng: < 0.4 (thậm chí < 0.2)** | **Bình thường: $\\ge 0.6$** | **Giảm thấp: < 0.3 – 0.4** |\n| **Lactate DNT (mmol/L)** | 1.1 – 2.4 | **Tăng vọt: $\\ge 3.8 - 4.0$** ($\\ge 35    ext{ mg/dL}$) | **Bình thường hoặc tăng nhẹ: $< 3.0$** | Tăng cao |\n| **Soi tươi nhuộm Gram** | Âm tính | **Dương tính trong 60% – 90%** (cầu khuẩn Gram dương/âm, trực khuẩn) | Âm tính | Soi ZN tìm AFB (độ nhạy thấp 30%) |\n\n### B5.2 Ý nghĩa vượt trội của Tỷ lệ Glucose DNT / Máu & Lactate DNT\n1. **Tỷ lệ Glucose DNT / Glucose Máu (CSF/Blood Glucose Ratio):**\n   - Phải luôn luôn lấy máu thử đường huyết đồng thời ngay trước hoặc cùng thời điểm chọc DNT.\n   - Bình thường nồng độ Glucose DNT bằng khoảng 60% đường huyết tương. Trong viêm màng não mủ, do vi khuẩn và bạch cầu tăng tiêu thụ glucose tại chỗ cộng với tổn thương protein vận chuyển GLUT-1 qua hàng rào máu não, tỷ lệ này tụt xuống dốc $< 0.4$ (đặc biệt $< 0.2$ là chỉ dấu gần như chắc chắn của viêm màng não vi khuẩn) [GUIDELINE VERIFIED].\n2. **Lactate DNT (CSF Lactate):**\n   - Theo phân tích gộp kinh điển của Huy NT và cộng sự (Crit Care 2010) trên hàng nghìn bệnh nhân, nồng độ Lactate DNT với ngưỡng cắt **$\\ge 35    ext{ mg/dL}$ (tương đương $\\ge 3.8 – 4.0    ext{ mmol/L}$)** đạt độ nhạy lên tới **93%** và độ đặc hiệu **96%** để phân biệt viêm màng não mủ với viêm màng não virus vô khuẩn [DATA VERIFIED].\n   - Ưu điểm: Lactate DNT không bị ảnh hưởng bởi đường huyết toàn thân của bệnh nhân.\n\n### B5.3 Thang điểm Bacterial Meningitis Score (BMS) - Nigrovic LE et al. (JAMA 2007)\nThang điểm BMS là công cụ phân tầng nguy cơ đã được kiểm định trên hàng nghìn trẻ em nhập viện cấp cứu có tăng bạch cầu DNT ($    ext{pleocytosis} \\ge 10    ext{ tế bào/mm}^3$). Trẻ được xếp vào nhóm **Nguy cơ cực thấp (Very Low Risk)** bị viêm màng não mủ nếu thỏa mãn **TẤT CẢ 5 TIÊU CHUẨN ÂM TÍNH SAU ĐÂY** [DATA VERIFIED]:\n1. **Nhuộm Gram DNT âm tính** (Gram stain negative).\n2. **Số lượng bạch cầu đa nhân trung tính DNT (CSF ANC) $< 1.000/    ext{mm}^3$**.\n3. **Protein DNT $< 80    ext{ mg/dL}$ ($< 0.8    ext{ g/L}$)**.\n4. **Bạch cầu đa nhân trung tính máu ngoại vi (Blood ANC) $< 10.000/    ext{mm}^3$**.\n5. **Không có tiền sử co giật** trước hoặc tại thời điểm nhập viện.\n\n*Giá trị lâm sàng:* Nếu thỏa mãn cả 5 tiêu chí trên (điểm BMS = 0), giá trị dự đoán âm tính (NPV) đạt tới **99.9%**, cho phép bác sĩ lâm sàng có thể an tâm trì hoãn kháng sinh không cần thiết và theo dõi sát bệnh nhân dưới bệnh cảnh viêm màng não virus. Ngược lại, nếu có $\\ge 1$ tiêu chuẩn dương tính, trẻ phải được điều trị ngay như viêm màng não mủ.\n\n---\n\n## B6. PHÁC ĐỒ KHÁNG SINH KINH NGHIỆM LIỀU MÀNG NÃO & NGUYÊN TẮC CẤP CỨU\n\nKháng sinh trong viêm màng não mủ phải tuân thủ nghiêm ngặt 4 nguyên tắc vàng:\n1. **Kháng sinh diệt khuẩn (Bactericidal), không dùng thuốc kìm khuẩn (Bacteriostatic).**\n2. **Đường dùng tĩnh mạch (IV) toàn bộ, tuyệt đối không dùng đường tiêm bắp hay đường uống.**\n3. **Khả năng thấm qua hàng rào máu não và màng não bị viêm tốt.**\n4. **Sử dụng LIỀU TỐI ĐA (Meningeal Dose) để đạt nồng độ thuốc trong DNT cao gấp 10 – 30 lần nồng độ diệt khuẩn tối thiểu (MBC) của vi khuẩn.**\n\n### B6.1 Phác đồ kháng sinh kinh nghiệm phân tầng theo lứa tuổi (Empiric Regimens)\n\n#### 1. Trẻ sơ sinh (< 1 tháng / < 28 ngày tuổi):\n- **Phác đồ bắt buộc:** **Ampicillin + Cefotaxime** (hoặc Ampicillin + Gentamicin / Amikacin).\n- **Liều lượng:**\n  * **Ampicillin:** $200 – 300    ext{ mg/kg/ngày}$ chia làm 3 – 4 lần truyền tĩnh mạch (mục tiêu bao phủ *Listeria monocytogenes* và *Enterococcus*).\n  * **Cefotaxime:** $150 – 200    ext{ mg/kg/ngày}$ chia làm 3 – 4 lần truyền tĩnh mạch (mục tiêu bao phủ trực khuẩn Gram âm *E. coli* và Liên cầu nhóm B).\n- ⛔ **CẢNH BÁO ĐỎ:** **TUYỆT ĐỐI CHỐNG CHỈ ĐỊNH CEFTRIAXONE Ở TRẺ SƠ SINH!** \n  * *Lý do 1:* Ceftriaxone cạnh tranh gắn kết mạnh với Albumin, đẩy Bilirubin gián tiếp tự do vào máu gây vàng da nhân não (Kernicterus).\n  * *Lý do 2:* Ceftriaxone kết tủa với Calci trong máu tạo muối Calci-Ceftriaxone không tan lắng đọng tại phổi và thận, có thể gây suy thận cấp và tử vong [GUIDELINE VERIFIED].\n\n#### 2. Trẻ từ 1 tháng đến 3 tháng tuổi:\n- Giai đoạn chuyển tiếp vi sinh (vừa có thể gặp căn nguyên sơ sinh như *Listeria*, vừa có thể gặp Phế cầu, Não mô cầu, Hib).\n- **Phác đồ:** **Ampicillin + Ceftriaxone (hoặc Cefotaxime) + Vancomycin** (nếu nghi ngờ phế cầu kháng Cephalosporin).\n- Liều lượng Ceftriaxone: $100    ext{ mg/kg/ngày}$ chia 1 – 2 lần (tối đa $4    ext{ g/ngày}$).\n\n#### 3. Trẻ từ > 3 tháng tuổi đến 16 tuổi:\n- **Phác đồ chuẩn quốc tế:** **Ceftriaxone (hoặc Cefotaxime) + Vancomycin**.\n- **Liều lượng chi tiết:**\n  * **Ceftriaxone:** $100    ext{ mg/kg/ngày}$ tiêm/truyền tĩnh mạch 1 lần duy nhất trong ngày hoặc chia làm 2 lần (mỗi 12 giờ), liều tối đa $4    ext{ g/ngày}$.\n  * *Hoặc* **Cefotaxime:** $200 – 300    ext{ mg/kg/ngày}$ chia làm 3 – 4 lần (mỗi 6 – 8 giờ), liều tối đa $12    ext{ g/ngày}$.\n  * **Vancomycin:** $60    ext{ mg/kg/ngày}$ chia làm 4 lần truyền tĩnh mạch chậm trong ít nhất 60 phút (mỗi 6 giờ), liều tối đa $2 – 4    ext{ g/ngày}$.\n  * *Mục tiêu giám sát Vancomycin:* Đo nồng độ đáy trong máu (Trough level) ngay trước liều thứ 4, mục tiêu nồng độ đáy đạt **$15 – 20    ext{ mcg/mL}$** để đảm bảo thuốc thấm đủ vào màng não mà không gây độc thận [GUIDELINE VERIFIED].\n\n### B6.2 Kháng sinh đích khi có kết quả Nuôi cấy và Kháng sinh đồ (Targeted Therapy)\n- ***Streptococcus pneumoniae* (Phế cầu):**\n  * Nhạy cảm Penicillin ($    ext{MIC} \\le 0.06    ext{ mcg/mL}$): Penicillin G ($300.000 – 400.000    ext{ UI/kg/ngày}$ chia 6 lần) hoặc Ampicillin.\n  * Giảm nhạy Penicillin nhưng nhạy Cephalosporin ($    ext{MIC} \\le 0.5    ext{ mcg/mL}$): Ceftriaxone hoặc Cefotaxime đơn độc.\n  * Kháng Cephalosporin ($    ext{MIC} \\ge 1.0    ext{ mcg/mL}$): Duy trì Ceftriaxone + Vancomycin (hoặc phối hợp Rifampicin).\n- ***Neisseria meningitidis* (Não mô cầu):**\n  * Ceftriaxone hoặc Cefotaxime hoặc Penicillin G liều cao nếu nhạy cảm. Thời gian dùng: **5 – 7 ngày**.\n- ***Haemophilus influenzae* type b (Hib):**\n  * Ceftriaxone hoặc Cefotaxime. Thời gian dùng: **7 – 10 ngày**.\n- ***Streptococcus agalactiae* (GBS):**\n  * Ampicillin hoặc Penicillin G phối hợp Gentamicin trong những ngày đầu. Thời gian dùng: **14 – 21 ngày**.\n- ***Listeria monocytogenes*:**\n  * Ampicillin phối hợp Gentamicin. Thời gian dùng: **Tối thiểu 21 ngày** (vì vi khuẩn nội bào khó diệt).\n- **Trực khuẩn Gram âm đường ruột (*E. coli*, *Klebsiella*):**\n  * Cefotaxime (hoặc Meropenem nếu sinh ESBL) phối hợp Aminoglycoside. Thời gian dùng: **Tối thiểu 21 ngày**.\n\n---\n\n\n### B6.3 Bảng Tra Cứu Liều Lượng, Đường Dùng & Pha Loãng Kháng Sinh Bỏ Túi\n\nDưới đây là bảng tra cứu nhanh liều màng não tối đa (Meningeal Doses) cho các thuốc chủ lực trong điều trị viêm màng não mủ ở trẻ em:\n\n| Tên thuốc | Lứa tuổi áp dụng | Liều dùng (mg/kg/ngày) | Số lần dùng trong ngày | Đường dùng & Thời gian truyền | Nồng độ pha loãng & Dung dịch | Lưu ý lâm sàng đặc biệt |\n|---|---|---|---|---|---|---|\n| **Ampicillin** | Sơ sinh 0 – 7 ngày | 150 – 200 mg/kg/ngày | Chia mỗi 8 giờ | Tiêm/truyền tĩnh mạch chậm 15 – 30 phút | Pha NaCl 0.9% hoặc Glucose 5% | Diệt Listeria và GBS; cấm truyền chung aminoglycoside |\n| **Ampicillin** | Sơ sinh 8 – 28 ngày | 200 – 300 mg/kg/ngày | Chia mỗi 6 giờ | Tiêm/truyền tĩnh mạch chậm 15 – 30 phút | Pha NaCl 0.9% hoặc Glucose 5% | Dùng ngay sau khi pha trong vòng 1 giờ để tránh thủy phân |\n| **Cefotaxime** | Sơ sinh 0 – 7 ngày | 100 – 150 mg/kg/ngày | Chia mỗi 8 – 12 giờ | Tiêm tĩnh mạch chậm 3 – 5 phút hoặc truyền 30 phút | Pha NaCl 0.9% hoặc Glucose 5% | Lựa chọn số 1 cho sơ sinh, không gây vàng da nhân não |\n| **Cefotaxime** | Sơ sinh 8 – 28 ngày | 150 – 200 mg/kg/ngày | Chia mỗi 6 – 8 giờ | Tiêm tĩnh mạch chậm 3 – 5 phút hoặc truyền 30 phút | Pha NaCl 0.9% hoặc Glucose 5% | Thấm qua màng não viêm rất tốt |\n| **Cefotaxime** | Trẻ > 1 tháng tuổi | 200 – 300 mg/kg/ngày | Chia mỗi 6 – 8 giờ (Max 12 g/ngày) | Truyền tĩnh mạch 30 phút | Nồng độ tối đa 50 mg/ml | An toàn khi bệnh nhân có bệnh lý gan mật kèm theo |\n| **Ceftriaxone** | Trẻ > 1 tháng đến 16 tuổi | 100 mg/kg/ngày | 1 lần duy nhất hoặc chia mỗi 12 giờ (Max 4 g/ngày) | Truyền tĩnh mạch chậm trong 30 phút | Pha NaCl 0.9% hoặc Glucose 5% (CẤM PHA DUNG DỊCH CÓ CALCI) | Tiện lợi dùng 1 lần/ngày; CẤM DÙNG SƠ SINH |\n| **Vancomycin** | Trẻ > 1 tháng đến 16 tuổi | 60 mg/kg/ngày | Chia mỗi 6 giờ (Max 2 – 4 g/ngày) | Truyền tĩnh mạch chậm trong tối thiểu 60 phút | Nồng độ pha loãng ≤ 5 mg/ml trong NaCl 0.9% | Đo nồng độ đáy (Trough) trước liều thứ 4: đạt 15 – 20 mcg/ml |\n| **Gentamicin** | Sơ sinh 0 – 7 ngày | 4 – 5 mg/kg/ngày | 1 lần duy nhất mỗi 24 – 36 giờ | Truyền tĩnh mạch trong 30 – 60 phút | Pha NaCl 0.9% | Phối hợp Ampicillin trong viêm màng não do Listeria/GBS |\n| **Meropenem** | Trẻ > 3 tháng tuổi | 120 mg/kg/ngày | Chia mỗi 8 giờ (Max 6 g/ngày) | Truyền tĩnh mạch kéo dài trong 3 giờ | Pha NaCl 0.9% hoặc Glucose 5% | Dành cho vi khuẩn Gram âm sinh ESBL hoặc kháng Cephalosporin |\n| **Dexamethasone** | Trẻ > 6 tuần tuổi | 0.15 mg/kg/lần | Mỗi 6 giờ x 2 – 4 ngày (Tổng 0.6 mg/kg/ngày) | Tiêm tĩnh mạch trực tiếp chậm 3 – 5 phút | Không cần pha loãng | Tiêm trước hoặc đồng thời với liều kháng sinh đầu tiên |\n| **Mannitol 20%** | Mọi lứa tuổi khi có tăng ALNS | 0.5 – 1.0 g/kg/lần (2.5 – 5 ml/kg) | Mỗi 6 – 8 giờ khi cần | Truyền tĩnh mạch nhanh trong 20 – 30 phút qua dây truyền có phin lọc | Dùng trực tiếp dung dịch 20% | Giữ áp lực thẩm thấu máu < 320 mOsm/kg |\n\n## B7. LIỆU PHÁP CORTICOSTEROID (DEXAMETHASONE) & HỒI SỨC TĂNG ÁP LỰC NỘI SỌ\n\n### B7.1 Cơ sở sinh học & Bằng chứng Cochrane về Dexamethasone\nKhi tiêm liều kháng sinh diệt khuẩn đầu tiên, hàng triệu vi khuẩn bị ly giải đồng loạt giải phóng ồ ạt các mảnh vách và nội độc tố vào khoang dưới nhện. Điều này kích hoạt một \"cơn bão cytokine\" bùng phát dữ dội sau 2 – 4 giờ, làm phù não tăng vọt và phá hủy các tế bào lông ốc tai dẫn tới điếc vĩnh viễn.\n\nDexamethasone là một glucocorticoid tổng hợp có hoạt tính kháng viêm mạnh gấp 25 – 30 lần Hydrocortisone và không có tác dụng giữ muối nước.\n- **Thời điểm vàng bắt buộc:** Dexamethasone **PHẢI ĐƯỢC DÙNG TRƯỚC HOẶC ĐỒNG THỜI VỚI LIỀU KHÁNG SINH ĐẦU TIÊN** (tốt nhất là trước 10 – 20 phút). Nếu đã dùng kháng sinh quá 4 giờ, Dexamethasone không còn mang lại lợi ích giảm viêm mà chỉ làm tăng nguy cơ tác dụng phụ!\n- **Liều lượng:** **$0.15    ext{ mg/kg/lần}$** tiêm tĩnh mạch mỗi 6 giờ (tổng liều $0.6    ext{ mg/kg/ngày}$) trong **2 đến 4 ngày** [GUIDELINE VERIFIED].\n- **Bằng chứng y học (Cochrane 2015 - Brouwer MC et al.):**\n  * Dexamethasone làm giảm có ý nghĩa thống kê nguy cơ di chứng giảm thính lực / điếc ở trẻ em với **$    ext{RR} = 0.65$ ($95\\%    ext{ CI } 0.48 – 0.88$)**, đặc biệt rõ rệt nhất ở nhóm trẻ mắc *Haemophilus influenzae* type b và *Streptococcus pneumoniae* [DATA VERIFIED].\n  * Ở các quốc gia thu nhập cao, corticoid còn làm giảm tỷ lệ di chứng thần kinh chung.\n\n### B7.2 Xử trí Tăng áp lực nội sọ (ICP Management)\nPhù não và tăng áp lực nội sọ là nguyên nhân hàng đầu gây tử vong trong 48 giờ đầu của viêm màng não mủ. Chiến lược hồi sức thần kinh bảo vệ não bao gồm:\n1. **Tư thế bệnh nhân:** Đặt trẻ nằm đầu cao $30^\\circ$, giữ thẳng cổ ở trục giữa (tránh gập cổ hoặc quay đầu sang một bên làm chèn ép tĩnh mạch cảnh trong cản trở máu hồi lưu về tim làm tăng ICP).\n2. **Kiểm soát thông khí:**\n   - Đảm bảo oxy hóa máu đầy đủ ($    ext{SpO}_2 \\ge 95\\%$, $    ext{PaO}_2 \\ge 80    ext{ mmHg}$).\n   - Đặt nội khí quản thở máy nếu $    ext{GCS} \\le 8$ điểm hoặc có cơn ngừng thở.\n   - Duy trì thông khí tối ưu: giữ $    ext{PaCO}_2$ ở mức bình thường thấp ($35 – 40    ext{ mmHg}$). Tránh tăng thông khí quá mức ($    ext{PaCO}_2 < 30    ext{ mmHg}$) vì gây co mạch não nặng dẫn tới thiếu máu não cục bộ!\n3. **Liệu pháp thẩm thấu (Osmotherapy):**\n   - **Mannitol 20%:** Liều $0.5 – 1.0    ext{ g/kg}$ ($2.5 – 5    ext{ ml/kg}$) truyền tĩnh mạch nhanh trong 20 – 30 phút. Có thể nhắc lại mỗi 6 – 8 giờ nếu cần.\n   - *Hoặc* **Dung dịch Muối ưu trương (NaCl 3%):** Liều $3 – 5    ext{ ml/kg}$ truyền tĩnh mạch trong 15 – 30 phút (đặc biệt ưu tiên khi huyết áp tụt hoặc khi áp lực thẩm thấu máu cao không dùng được Mannitol).\n4. **Kiểm soát thân nhiệt:** Hạ sốt tích cực bằng Paracetamol ($15    ext{ mg/kg}$) và chườm ấm. Sốt cao làm tăng tiêu thụ oxy não và tăng lưu lượng máu não làm ICP tăng vọt.\n5. **Cắt cơn co giật tích cực:** Co giật làm tăng chuyển hóa não lên 300%. Cắt cơn ngay bằng Midazolam ($0.2    ext{ mg/kg}$ tiêm bắp hoặc xịt mũi) hoặc Diazepam ($0.2 – 0.3    ext{ mg/kg}$ TM).\n\n![CT Scan Não úng thủy sau Viêm màng não](outputs/figures/PED37_fig4_bacterial_meningitis_hydrocephalus_ct.jpg)\n\n### B7.3 Quản lý dịch truyền tại giường: Bác bỏ quan điểm hạn chế dịch cực đoan\nTrong quá khứ, nhiều bác sĩ thường áp dụng hạn chế dịch truyền nghiêm ngặt (chỉ cho 50% – 66% nhu cầu duy trì) vì sợ làm nặng thêm phù não. Tuy nhiên, các nghiên cứu lâm sàng hiện đại đã chứng minh:\n- Đa số trẻ viêm màng não khi nhập viện đều có tình trạng giảm thể tích tuần hoàn do sốt cao, nôn ói và ăn uống kém. Việc hạn chế dịch quá mức làm tụt huyết áp động mạch trung bình (MAP), dẫn tới sụt giảm nghiêm trọng áp lực tưới máu não ($    ext{CPP} =     ext{MAP} -     ext{ICP}$), gây nhồi máu não diện rộng!\n- **Khuyến cáo hiện nay (NICE & AAP):**\n  * Bù dịch đẳng trương (Ringer Lactat hoặc NaCl 0.9%) hồi sức nhanh nếu có sốc.\n  * Duy trì dịch ở mức **đẳng thể tích (Euvolemia - 100% nhu cầu duy trì)**.\n  * Chỉ hạn chế dịch (khoảng 70% nhu cầu) khi có bằng chứng chắc chắn của Hội chứng tiết ADH không thích hợp (SIADH) với biểu hiện: Natri máu giảm $< 130    ext{ mmol/L}$, áp lực thẩm thấu máu giảm kèm áp lực thẩm thấu nước tiểu tăng cao, không có tình trạng thiếu thể tích lòng mạch.\n\n---\n\n\n### B7.4 Lưu Đồ Tiếp Cận Phân Nhánh Nhị Phân Cấp Cứu Viêm Màng Não (Binary Decision Tree)\n\nLưu đồ phân nhánh 5 bước hành động tức thì tại phòng cấp cứu Nhi:\n\n```text\n                     [Trẻ nghi ngờ Viêm màng não mủ cấp]\n                                     │\n                 ┌───────────────────┴───────────────────┐\n                 ▼                                       ▼\n       [Có Sốc hoặc Suy hô hấp?]               [Không Sốc, Không Suy hô hấp]\n                 │                                       │\n         ┌───────┴───────┐                               │\n        CÓ               KHÔNG                           │\n         │                 │                             │\n         ▼                 │                             │\n[Hồi sức ABC tức thì]      │                             │\n[Cấy máu tại giường]       │                             │\n[Tiêm ngay Kháng sinh TM   │                             │\n + Dexamethasone trong 1h] │                             │\n[HOÃN chọc DNT tuyệt đối]  │                             │\n                           │                             │\n                           ▼                             ▼\n              [Có dấu hiệu Cờ đỏ Tụt não?] ──────────────┘\n              (GCS ≤ 8, Co giật mới, Dấu thần kinh khu trú,\n               Đồng tử bất thường, Tam chứng Cushing)\n                           │\n                 ┌─────────┴─────────┐\n                CÓ                  KHÔNG\n                 │                   │\n                 ▼                   ▼\n       [Cấy máu tại giường]   [CHỌC DÒ TỦY SỐNG NGAY]\n       [Tiêm ngay Kháng sinh  (Lấy DNT làm tế bào, sinh hóa,\n        + Dexamethasone]       Gram, cấy, PCR, Lactate,\n       [Chụp CT sọ não cấp     thử đường máu cùng lúc)]\n        sau khi đã dùng KS]          │\n                                     ▼\n                              [Tiêm ngay Kháng sinh TM\n                               + Dexamethasone theo tuổi]\n```\n\n## B8. BIẾN CHỨNG, THEO DÕI LÂM SÀNG & ĐIỀU TRỊ DỰ PHÒNG HÓA DƯỢC\n\n### B8.1 Các biến chứng cấp và mạn tính\n1. **Tụ dịch dưới màng cứng (Subdural Effusion) & Tràn mủ dưới màng cứng (Subdural Empyema):**\n   - Gặp ở 20% – 30% trẻ nhỏ mắc viêm màng não mủ (đặc biệt do Hib và Phế cầu).\n   - Nghi ngờ khi: Trẻ đã điều trị kháng sinh 3 – 4 ngày mà vẫn sốt dai dẳng, thóp vẫn phồng căng, vòng đầu tăng nhanh, hoặc xuất hiện co giật khu trú.\n   - Chẩn đoán: Siêu âm qua thóp (trẻ nhỏ) hoặc chụp MRI / CT Scan sọ não.\n   - Xử trí: Tụ dịch vô khuẩn đa phần tự hấp thu thoái lui. Chỉ chọc hút dẫn lưu khi có chèn ép nhu mô não gây dấu thần kinh khu trú hoặc dịch tụ chuyển thành ổ mủ.\n2. **Não úng thủy (Hydrocephalus):**\n   - Biến chứng thường gặp do viêm dính xơ hóa màng não làm tắc cống não Sylvius hoặc tắc các bể dịch nền sọ.\n   - Trẻ có biểu hiện thóp phồng liên tục, vòng đầu tăng nhanh vượt chuẩn, mắt nhìn lệch xuống dưới hình ảnh mặt trời lặn (*setting-sun sign*). Đòi hỏi phải phẫu thuật đặt dẫn lưu não thất - ổ phúc mạc (VP Shunt).\n3. **Viêm tắc xoang tĩnh mạch não (Cerebral Venous Sinus Thrombosis) & Viêm động mạch não:**\n   - Dẫn tới nhồi máu não xuất huyết, co giật kháng trị và liệt khu trú.\n\n### B8.2 Phác đồ Kháng sinh Dự phòng Hóa dược (Chemoprophylaxis) cho người tiếp xúc\nKhi có ca bệnh viêm màng não mủ do **Não mô cầu (*Neisseria meningitidis*)** hoặc ***Haemophilus influenzae* type b (Hib)**, vi khuẩn có thể cư trú ở tỵ hầu của những người tiếp xúc gần và phát tán thành ổ dịch trong cộng đồng [GUIDELINE VERIFIED].\n\n#### 1. Chỉ định người tiếp xúc gần (Close Contacts):\n- Thành viên sống cùng nhà, ngủ cùng phòng trong vòng 7 ngày trước khi người bệnh khởi phát.\n- Bạn cùng lớp học ở nhà trẻ, mẫu giáo, cô nuôi dạy trẻ.\n- Nhân viên y tế có tiếp xúc trực tiếp với dịch tiết hô hấp của bệnh nhân mà không có phương tiện phòng hộ cá nhân (ví dụ: hô hấp nhân tạo miệng - miệng, đặt nội khí quản, hút đờm dãi).\n\n#### 2. Thuốc và Liều lượng Dự phòng Não mô cầu (*N. meningitidis*):\n- **Rifampicin (Lựa chọn hàng đầu):**\n  * Trẻ $< 1    ext{ tháng tuổi}$: $5    ext{ mg/kg}$ uống mỗi 12 giờ trong 2 ngày (tổng cộng 4 liều).\n  * Trẻ $\\ge 1    ext{ tháng tuổi}$: **$10    ext{ mg/kg}$** (tối đa $600    ext{ mg/lần}$) uống mỗi 12 giờ trong **2 ngày** (tổng cộng 4 liều).\n  * *Tư vấn người nhà:* Rifampicin làm nước tiểu, nước mắt, phân có màu đỏ cam; không dùng cho phụ nữ có thai.\n- **Ceftriaxone (Lựa chọn thay thế cực tốt, an toàn cho phụ nữ có thai):**\n  * Trẻ $< 15    ext{ tuổi}$: **$125    ext{ mg}$ tiêm bắp sâu liều duy nhất**.\n  * Trẻ $\\ge 15    ext{ tuổi}$ và người lớn: **$250    ext{ mg}$ tiêm bắp sâu liều duy nhất**.\n- **Ciprofloxacin (Chỉ dùng cho người lớn $\\ge 18    ext{ tuổi}$):**\n  * $500    ext{ mg}$ uống liều duy nhất.\n\n#### 3. Dự phòng cho *Haemophilus influenzae* type b (Hib):\n- **Rifampicin:** $20    ext{ mg/kg/ngày}$ (tối đa $600    ext{ mg/ngày}$) uống 1 lần mỗi ngày trong **4 ngày** liên tiếp cho tất cả các thành viên trong gia đình nếu trong nhà có ít nhất một trẻ $< 4    ext{ tuổi}$ chưa được tiêm chủng đầy đủ vắc xin Hib.\n\n---\n\n## B9. CA LÂM SÀNG THỰC CHIẾN, BẪY LÂM SÀNG & BẢNG KIỂM 3 KHÔNG - 3 NÊN\n\n### B9.1 Ca lâm sàng thực chiến 1: Trẻ nhũ nhi 8 tháng sốt cao co giật và bẫy \"Sốt co giật đơn thuần\"\n- **Bệnh sử:** Bé trai 8 tháng tuổi, nặng 8.5 kg, được mẹ đưa vào cấp cứu vì co giật toàn thân kéo dài 3 phút trong cơn sốt cao $39.5^\\circ    ext{C}$. Đây là cơn giật đầu tiên. Sau co giật trẻ ngủ lơ mơ. Bác sĩ trực sơ bộ chẩn đoán \"Sốt co giật\" và cho uống hạ sốt.\n- **Thăm khám lại sau 1 giờ:** Trẻ đã hạ sốt còn $38^\\circ    ext{C}$ nhưng vẫn li bì, bú mẹ ngậm vú rồi nhả, khóc the thé khi bế dậy. Khám kỹ thấy **thóp trước căng nhẹ và phồng ngang mặt xương sọ**, cổ mềm, dấu Kernig âm tính.\n- **Quyết định lâm sàng:**\n  * Bác sĩ nhận định: Không được kết luận sốt co giật đơn thuần ở trẻ $< 12    ext{ tháng}$ khi tri giác chưa hồi phục hoàn toàn và thóp phồng!\n  * Chỉ định: Đặt đường truyền tĩnh mạch, cấy máu, tiến hành chọc dò tủy sống tại khoảng gian đốt L3 – L4.\n- **Kết quả DNT:** Dịch đục mờ, áp lực mở $18    ext{ cmH2O}$. Bạch cầu DNT $1.250/    ext{mm}^3$ (Neutrophil 88%). Protein DNT $1.8    ext{ g/L}$. Glucose DNT $1.2    ext{ mmol/L}$ trong khi đường máu cùng lúc là $6.0    ext{ mmol/L}$ (Tỷ lệ CSF/Blood Glucose = $0.2$). Lactate DNT $5.2    ext{ mmol/L}$. Soi Gram thấy song cầu khuẩn Gram dương hình ngọn nến.\n- **Xử trí đúng đắn:**\n  1. Tiêm tĩnh mạch ngay Dexamethasone $0.15    ext{ mg/kg}$ ($1.3    ext{ mg}$).\n  2. 15 phút sau tiêm tĩnh mạch Ceftriaxone $100    ext{ mg/kg/ngày}$ ($850    ext{ mg}$) phối hợp Vancomycin $60    ext{ mg/kg/ngày}$ ($130    ext{ mg}$ mỗi 6 giờ).\n  3. Bé hồi phục hoàn toàn sau 14 ngày điều trị, kết quả đo thính lực sau xuất viện bình thường.\n\n### B9.2 Ca lâm sàng thực chiến 2: Trẻ 4 tuổi sốt cao, đau đầu và xuất hiện chấm xuất huyết hoại tử\n- **Bệnh sử:** Bé gái 4 tuổi, sốt cao $40^\\circ    ext{C}$ kèm nôn ói 4 lần và kêu đau đầu dữ dội từ sáng. Đến chiều mẹ phát hiện ở cẳng chân có vài chấm màu đỏ tía không biến mất khi căng da.\n- **Tại phòng cấp cứu:** Trẻ li bì, mạch nhanh $160    ext{ l/p}$, huyết áp $80/45    ext{ mmHg}$ (tụt huyết áp), CRT 4 giây, tay chân lạnh ngắt. Dưới cẳng chân và đùi có các mảng tử ban sao màu tím đen hoại tử trung tâm lan nhanh. Cổ gượng rõ.\n- **Phân tích bẫy xử trí:**\n  * ❌ *Sai lầm chết người:* Đè bệnh nhân ra chọc dò tủy sống ngay hoặc cho bệnh nhân đi chụp CT sọ não!\n  * ✔️ *Xử trí đúng đắn:* Bệnh nhân đang trong tình trạng SỐC NHIỄM KHUẨN do Não mô cầu (chống chỉ định chọc DNT tuyệt đối). Kích hoạt cấp cứu:\n    1. Thiết lập 2 đường truyền tĩnh mạch lớn, bolus cấp cứu Ringer Lactat $20    ext{ ml/kg}$ ($320    ext{ ml}$) trong 15 – 20 phút.\n    2. Cấy máu tại giường.\n    3. Tiêm ngay Ceftriaxone liều màng não $100    ext{ mg/kg}$ tĩnh mạch trực tiếp không chần chừ 1 phút nào.\n    4. Phối hợp Noradrenaline nâng huyết áp, dùng Hydrocortisone liều sốc chống suy thượng thận cấp.\n    5. Khởi động điều trị dự phòng Rifampicin ngay cho bố mẹ và cô giáo mầm non của trẻ.\n\n### B9.3 Bảng kiểm Hành động tại Giường: 3 KHÔNG & 3 NÊN (Bedside Action Checklist)\n\n| Quy tắc | Nội dung hành động lâm sàng chuẩn | Cơ sở lý luận & Bằng chứng sống còn |\n|---|---|---|\n| ❌ **KHÔNG 1** | **KHÔNG BAO GIỜ trì hoãn kháng sinh để chờ chọc dò tủy sống hay chờ kết quả chụp CT não.** | Mỗi 1 giờ chậm trễ kháng sinh làm tăng tỷ lệ tử vong lên 8% – 12%. Cấy máu ngay rồi tiêm kháng sinh ngay trong 60 phút đầu nếu có chống chỉ định chọc DNT [GUIDELINE VERIFIED]. |\n| ❌ **KHÔNG 2** | **KHÔNG BAO GIỜ dùng Ceftriaxone cho trẻ sơ sinh (< 28 ngày tuổi).** | Ceftriaxone đẩy Bilirubin ra khỏi Albumin gây vàng da nhân não vĩnh viễn và tạo kết tủa sỏi Calci-Ceftriaxone gây suy thận cấp. Bắt buộc thay bằng Cefotaxime [GUIDELINE VERIFIED]. |\n| ❌ **KHÔNG 3** | **KHÔNG BAO GIỜ tiêm Dexamethasone khi kháng sinh đã truyền quá 4 giờ.** | Corticoid chỉ phát huy tác dụng bảo vệ thần kinh khi ức chế phản ứng viêm lúc vi khuẩn mới bắt đầu ly giải. Dùng muộn không có lợi mà chỉ gây tác dụng phụ xuất huyết tiêu hóa, tăng đường huyết [DATA VERIFIED]. |\n| ✔️ **NÊN 1** | **NÊN tiêm Dexamethasone trước 10 – 20 phút hoặc đồng thời với liều kháng sinh đầu tiên.** | Giúp giảm 35% nguy cơ di chứng điếc thần kinh giác quan ở trẻ em mắc viêm màng não mủ do Hib và Phế cầu (Cochrane RR = 0.65) [DATA VERIFIED]. |\n| ✔️ **NÊN 2** | **NÊN lấy mẫu đường máu mao mạch cùng lúc khi chọc dò dịch não tủy.** | Để tính chính xác Tỷ lệ Glucose DNT / Máu. Tỷ lệ $< 0.4$ (đặc biệt $< 0.2$) là chỉ dấu vàng chẩn đoán viêm màng não mủ [GUIDELINE VERIFIED]. |\n| ✔️ **NÊN 3** | **NÊN tiến hành điều trị kháng sinh dự phòng ngay trong 24 giờ cho tất cả người tiếp xúc gần ca bệnh Não mô cầu.** | Rifampicin hoặc Ceftriaxone tiêm bắp liều duy nhất giúp diệt trừ người lành mang trùng vùng tỵ hầu, ngăn chặn bùng phát ổ dịch tử vong cao trong cộng đồng [GUIDELINE VERIFIED]. |\n\n---\n\n\n\n---\n\n## B10. BỘ KIỂM TRA ĐỘ SÂU BỆNH HỌC (DEPTH CONTRACT VERIFICATION)\n\n### B10.1 Mười Lời Khuyên Thực Chiến Tại Giường (10 Practical Clinical Tips)\n1. **Tip 1 (Dấu thóp phồng):** Luôn khám thóp khi trẻ ở tư thế ngồi thẳng hoặc bế đứng yên tĩnh. Trẻ khóc to có thể làm thóp phồng sinh lý thoáng qua do tăng áp lực ổ bụng và lồng ngực.\n2. **Tip 2 (Bẫy sốt co giật ở trẻ nhỏ):** Mọi trẻ dưới 12 tháng tuổi có cơn co giật đầu tiên kèm sốt bắt buộc phải được bác sĩ chuyên khoa Nhi theo dõi sát tri giác tối thiểu 2 giờ sau cơn giật; nếu trẻ không hồi phục hoàn toàn trạng thái tỉnh táo hoặc có thóp phồng, chỉ định chọc dò tủy sống là bắt buộc [GUIDELINE VERIFIED].\n3. **Tip 3 (Đường máu đối chiếu):** Khi đưa kim chọc DNT, điều dưỡng phụ bắt buộc bấm que thử đường máu mao mạch cùng một thời điểm. Không bao giờ so sánh đường DNT với đường máu lấy cách đó vài giờ vì động học đường máu biến thiên liên tục.\n4. **Tip 4 (Kỹ thuật giữ trẻ chọc DNT):** Tuyệt đối không gập đầu cằm chạm ức quá mức ở trẻ sơ sinh và nhũ nhi nhỏ vì làm gập góc đường thở gây suy hô hấp cấp và tụt SpO2 trong khi làm thủ thuật.\n5. **Tip 5 (Tránh nhầm lẫn chạm mạch DNT):** Nếu dịch não tủy chảy ra có màu đỏ máu, hãy hứng vào 3 ống nghiệm liên tiếp. Nếu màu đỏ nhạt dần từ ống 1 đến ống 3 và dịch trên ly tâm trong suốt $\nightarrow$ Chọc chạm mạch máu ngoài màng cứng; nếu cả 3 ống đỏ như nhau và dịch sau ly tâm có màu vàng xantochromia $\nightarrow$ Xuất huyết dưới nhện thật sự.\n6. **Tip 6 (Thời điểm vàng Dexamethasone):** Chuẩn bị sẵn Dexamethasone và kháng sinh cùng lúc. Tiêm tĩnh mạch Dexamethasone trước khi gắn chai truyền kháng sinh 10 – 15 phút.\n7. **Tip 7 (Tốc độ truyền Vancomycin):** Luôn truyền Vancomycin với nồng độ pha loãng $\\le 5    ext{ mg/ml}$ và thời gian truyền tối thiểu 60 phút (hoặc 10 mg/phút) để ngăn ngừa hội chứng Red Man Syndrome (giải phóng histamin không qua IgE gây đỏ bừng mặt và tụt huyết áp).\n8. **Tip 8 (Không dùng Ceftriaxone cho sơ sinh):** Luôn nhớ câu thần chú: \"Sơ sinh chọn Cefotaxime, cấm tiệt Ceftriaxone\" để tránh thảm họa vàng da nhân não và sỏi bùn mật/thận.\n9. **Tip 9 (Tử ban sao là khẩn cấp):** Thấy chấm xuất huyết hoại tử lan nhanh $\nightarrow$ Nghĩ ngay đến Não mô cầu, cách ly hô hấp ngay lập tức và điều trị kháng sinh cấp cứu trước khi hoàn thành bất kỳ thủ tục hành chính nào.\n10. **Tip 10 (Đo thính lực sau xuất viện):** Mọi trẻ xuất viện sau viêm màng não mủ bắt buộc phải được hẹn khám chuyên khoa Tai Mũi Họng để đo thính lực (ABR / OAE) trong vòng 4 – 6 tuần sau khi khỏi bệnh để phát hiện sớm điếc thần kinh giác quan và can thiệp cấy ốc tai điện tử kịp thời.\n\n### B10.2 Tám Quan Niệm Sai Lầm Thường Gặp (8 Critical Misconceptions)\n1. **Sai lầm 1:** *Nghĩ rằng viêm màng não mủ bắt buộc phải có cứng gáy.*  \n   $\nightarrow$ **Thực tế:** Ở trẻ dưới 12 – 18 tháng, dấu cứng gáy và Kernig âm tính tới 80% – 90% các trường hợp. Thóp phồng, li bì, bỏ bú, khóc the thé mới là các dấu hiệu sống còn.\n2. **Sai lầm 2:** *Chờ chụp CT Scan sọ não xong mới dám cho kháng sinh.*  \n   $\nightarrow$ **Thực tế:** Chỉ định chụp CT trước chọc DNT chỉ áp dụng cho nhóm nguy cơ tụt não (hôn mê, dấu thần kinh khu trú, co giật mới xuất hiện). Trong mọi trường hợp chờ CT, bắt buộc phải cấy máu và tiêm kháng sinh ngay lập tức!\n3. **Sai lầm 3:** *Nghĩ rằng dùng kháng sinh trước chọc DNT sẽ làm mất hoàn toàn giá trị chẩn đoán.*  \n   $\nightarrow$ **Thực tế:** Dù nuôi cấy có thể âm tính sau 1 – 2 giờ dùng kháng sinh, các chỉ số tế bào bạch cầu, protein, glucose và đặc biệt là nồng độ Lactate DNT cùng xét nghiệm PCR/kháng nguyên hòa tan vẫn giữ nguyên giá trị chẩn đoán viêm màng não mủ trong nhiều ngày.\n4. **Sai lầm 4:** *Áp dụng hạn chế dịch nghiêm ngặt cho tất cả trẻ viêm màng não mủ.*  \n   $\nightarrow$ **Thực tế:** Đa số trẻ bị thiếu dịch do sốt và nôn. Hạn chế dịch làm tụt huyết áp và giảm tưới máu não nghiêm trọng. Cần duy trì đẳng thể tích (Euvolemia) và chỉ hạn chế khi có bằng chứng SIADH.\n5. **Sai lầm 5:** *Cho rằng Dexamethasone dùng lúc nào trong quá trình điều trị cũng được.*  \n   $\nightarrow$ **Thực tế:** Dexamethasone chỉ có tác dụng bảo vệ thần kinh khi cho trước hoặc đồng thời với liều kháng sinh đầu tiên. Cho sau 4 giờ không có lợi mà chỉ tăng nguy cơ tác dụng phụ.\n6. **Sai lầm 6:** *Nghĩ rằng số lượng bạch cầu DNT càng cao thì tiên lượng bệnh càng nặng.*  \n   $\nightarrow$ **Thực tế:** Trẻ bị viêm màng não tối cấp do Phế cầu hoặc Não mô cầu có thể có số lượng bạch cầu DNT rất thấp (thậm chí $< 100/    ext{mm}^3$) do tủy xương chưa kịp phản ứng hoặc suy kiệt miễn dịch. Những ca bạch cầu DNT thấp kèm số lượng vi khuẩn cực lớn trên soi Gram mới có tiên lượng tử vong cao nhất!\n7. **Sai lầm 7:** *Nghĩ rằng đã tiêm vắc xin 5 trong 1 hoặc phế cầu thì không thể bị viêm màng não mủ.*  \n   $\nightarrow$ **Thực tế:** Vắc xin chỉ bao phủ một số type huyết thanh nhất định (ví dụ Hib, 10 hoặc 13 type phế cầu). Trẻ vẫn có thể mắc các type phế cầu không có trong vắc xin hoặc do Não mô cầu, *E. coli*, *Listeria*.\n8. **Sai lầm 8:** *Nghĩ rằng chọc dò tủy sống kiểm tra (LP lần 2) là thủ thuật bắt buộc thường quy trước khi xuất viện.*  \n   $\nightarrow$ **Thực tế:** Không có chỉ định chọc DNT thường quy trước khi xuất viện nếu trẻ đáp ứng lâm sàng tốt, hết sốt và tri giác hồi phục hoàn toàn. Chỉ chọc lại khi trẻ sốt kéo dài sau 48 – 72 giờ điều trị hoặc nghi ngờ vi khuẩn kháng thuốc.\n\n### B10.3 Năm Điểm Chốt Đánh Giá Lâm Sàng (5 Clinical Checkpoints)\n- **Checkpoint 1 (Đánh giá ban đầu):** Đánh giá đường thở, nhịp thở, tuần hoàn (ABC) và kiểm tra ngay dấu hiệu cờ đỏ tụt kẹt não hoặc sốc nhiễm khuẩn trong 60 giây đầu.\n- **Checkpoint 2 (Quyết định chọc DNT vs Kháng sinh):** Xác định bệnh nhân có chống chỉ định chọc DNT hay không. Nếu có chống chỉ định $\nightarrow$ Cấy máu ngay + Cho kháng sinh TM ngay + Dexamethasone ngay trong vòng 60 phút.\n- **Checkpoint 3 (Biện luận DNT tại phòng xét nghiệm):** Đối chiếu tức thì kết quả tế bào, tỷ lệ Glucose DNT/Máu, nồng độ Lactate DNT và soi Gram để phân biệt mủ vs virus vs lao.\n- **Checkpoint 4 (Đánh giá sau 48 – 72 giờ điều trị):** Đánh giá sự đáp ứng lâm sàng: trẻ có hạ sốt, tỉnh táo hơn, thóp xẹp bớt hay không; kiểm tra kết quả nuôi cấy và nồng độ đáy Vancomycin để hạ bậc kháng sinh đích.\n- **Checkpoint 5 (Đánh giá trước xuất viện & Sau điều trị):** Kiểm tra các biến chứng muộn (tụ dịch dưới màng cứng, não úng thủy) và lập kế hoạch hẹn đo thính lực định lượng (ABR/OAE) sau 4 – 6 tuần.\n\n## 11. TÀI LIỆU THAM KHẢO CHÍNH THỨC (VERIFIED CITATIONS)\n\n1. **Tunkel AR, Hartman BJ, Kaplan SL, Kaufman BA, Roos KL, Scheld WM, Whitley RJ.** Practice guidelines for the management of bacterial meningitis. *Clinical Infectious Diseases*, 2004; 39(9): 1267–1284. PMID: **15494903**. [GUIDELINE VERIFIED]\n2. **van de Beek D, Cabellos C, Dzupova O, Esposito S, Klein M, Kloek AT, Leib SL, Lundgren J, Madec S, Mantese W, Martinot A, Mensa J, Pagliano P, Paterson DL, Read RC, Brouwer MC; ESCMID Study Group for Infections of the Brain (ESGIB).** ESCMID guideline: diagnosis and treatment of acute bacterial meningitis. *Clinical Microbiology and Infection*, 2016; 22 Suppl 3: S37–S62. PMID: **27062097**. [GUIDELINE VERIFIED]\n3. **Visintin C, Mugglestone MA, Fields EJ, Jacklin P, Murphy MS, Pollard AJ; Guideline Development Group, National Institute for Health and Clinical Excellence.** Management of bacterial meningitis and meningococcal septicaemia in children and young people: summary of NICE guidance. *BMJ*, 2010; 340: c2520. (Updated in NICE Guideline NG240, 2024). PMID: **20584794**. [GUIDELINE VERIFIED]\n4. **Le Saux N; Canadian Paediatric Society, Infectious Diseases and Immunization Committee.** Guidelines for the management of suspected and confirmed bacterial meningitis in Canadian children older than one month of age. *Paediatrics & Child Health*, 2014; 19(3): 141–152. PMID: **24665226**. [GUIDELINE VERIFIED]\n5. **Brouwer MC, McIntyre P, Prasad K, van de Beek D.** Corticosteroids for acute bacterial meningitis. *Cochrane Database of Systematic Reviews*, 2015; 2015(9): CD004405. PMID: **26362566**. [DATA VERIFIED]\n6. **Nigrovic LE, Kuppermann N, Macias CG, Cannavino CR, Moro-Sutherland DM, Schrum KD, Mansour KE, Balamuth F, Levasseur MC, Lalani A, Bajaj L, Flaminio LM, Bulloch B, Noble VE, Powell EC, Cookson ST, Yen K, Lillis KA, Crain EF; Pediatric Emergency Medicine Collaborative Research Committee of the American Academy of Pediatrics.** Clinical prediction rule for identifying children with cerebrospinal fluid pleocytosis at very low risk of bacterial meningitis. *JAMA*, 2007; 297(1): 52–60. PMID: **17200475**. [DATA VERIFIED]\n7. **Huy NT, Thao NTT, Diep DTN, Kikuchi M, Zamora J, Hirayama K.** Cerebrospinal fluid lactate concentration to distinguish bacterial from aseptic meningitis: a systemic review and meta-analysis. *Critical Care*, 2010; 14(6): R240. PMID: **21194480**. [DATA VERIFIED]\n8. **Subspecialty Group of Infectious Diseases, Society of Pediatrics, Chinese Medical Association.** [Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)]. *Zhonghua Er Ke Za Zhi*, 2025; 63(2): 100–112. PMID: **39844486**. [GUIDELINE VERIFIED]\n9. **Bộ Y tế Việt Nam.** *Hướng dẫn chẩn đoán và điều trị viêm màng não mủ ở trẻ em.* Ban hành kèm theo Quyết định số 3986/QĐ-BYT.\n",
+      "pedytb_file": null,
+      "pedytb_content": "",
+      "cards_count": 64,
+      "cards_data": [
+        {
+          "id": "PED37-B0-01",
+          "type": "basic",
+          "section": "B0",
+          "category": "Tổng quan bệnh học",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#74c0fc\"><b>Viêm màng não mủ</b></span> ở trẻ em được định nghĩa như thế nào về mặt <span style=\"color:#ffd43b\"><b>bản chất giải phẫu bệnh học</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là tình trạng <span style=\"color:#ff6b6b\"><b>nhiễm trùng cấp tính có mủ</b></span> của màng mềm (màng nhện, màng nuôi) và khoang dưới nhện do vi khuẩn.<br>2) Không chỉ khu trú ở màng não mà là phản ứng viêm lan tỏa toàn bộ hệ thống dịch não tủy, gây <span style=\"color:#ff6b6b\"><b>viêm tắc mạch máu não</b></span>, tổn thương hàng rào máu - não, phù não 3 tầng và rối loạn lưu thông DNT.<br><br><b>💡 Giải thích của AI:</b><br>Bản chất viêm màng não mủ là một bệnh lý mạch máu - màng não kết hợp. Vi khuẩn nhân lên trong khoang dưới nhện kích hoạt phản ứng viêm dữ dội làm tổn thương cả nhu mô não lân cận.",
+          "extra": "IDSA 2004 (PMID: 15494903) | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B0"
+          ]
+        },
+        {
+          "id": "PED37-B0-02",
+          "type": "basic",
+          "section": "B0",
+          "category": "Dịch tễ học vắc xin",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Kỷ nguyên <span style=\"color:#51cf66\"><b>vắc xin liên hợp (Hib, Phế cầu)</b></span> đã làm thay đổi <span style=\"color:#ffd43b\"><b>mô hình căn nguyên vi sinh</b></span> viêm màng não mủ ở trẻ em như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trước thập niên 1990:</b> <span style=\"color:#74c0fc\"><b>Haemophilus influenzae type b (Hib)</b></span> chiếm 60% – 70% tổng số ca bệnh ở trẻ dưới 5 tuổi.<br>2) <b>Hiện nay:</b> Tỷ lệ Hib giảm trên <span style=\"color:#ffd43b\"><b>95%</b></span> ở các vùng tiêm chủng đầy đủ.<br>3) <b>Hai căn nguyên hàng đầu hiện nay:</b> <span style=\"color:#74c0fc\"><b>Streptococcus pneumoniae (Phế cầu)</b></span> và <span style=\"color:#74c0fc\"><b>Neisseria meningitidis (Não mô cầu)</b></span> chiếm ưu thế tuyệt đối ở trẻ ngoài giai đoạn sơ sinh.<br><br><b>💡 Giải thích của AI:</b><br>Hiểu được sự thay đổi dịch tễ học giúp bác sĩ lâm sàng giải thích vì sao hiện nay trẻ lớn viêm màng não mủ thường gặp nhất là Phế cầu và Não mô cầu, trong khi Hib chỉ còn rải rác ở trẻ chưa tiêm chủng.",
+          "extra": "WHO Roadmap 2030 | NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B0"
+          ]
+        },
+        {
+          "id": "PED37-B0-03",
+          "type": "basic",
+          "section": "B0",
+          "category": "Di chứng thần kinh",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Năm di chứng thần kinh và phát triển lâu dài</b></span> phổ biến nhất mà trẻ sống sót sau <span style=\"color:#74c0fc\"><b>viêm màng não mủ</b></span> có thể phải gánh chịu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Điếc thần kinh giác quan (10% – 20%):</b></span> Di chứng giác quan phổ biến nhất, đặc biệt cao sau viêm màng não do Phế cầu.<br>2) <span style=\"color:#ff6b6b\"><b>Động kinh thứ phát và co giật tái diễn.</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Não úng thủy (Hydrocephalus):</b></span> Do viêm dính tắc nghẽn lưu thông hoặc giảm tái hấp thu DNT.<br>4) <span style=\"color:#ff6b6b\"><b>Bại não, liệt nửa người, yếu chi.</b></span><br>5) <span style=\"color:#ff6b6b\"><b>Chậm phát triển tâm thần vận động, giảm chú ý, sa sút học tập.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ để lại di chứng thần kinh vĩnh viễn ở trẻ sống sót dao động từ 20% đến 40%. Điều này lý giải vì sao đo thính lực định lượng sau xuất viện 4 – 6 tuần là quy chuẩn bắt buộc.",
+          "extra": "ESCMID 2016 (PMID: 27062097) | Cochrane 2015 (PMID: 26362566)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B0"
+          ]
+        },
+        {
+          "id": "PED37-B1-01",
+          "type": "basic",
+          "section": "B1",
+          "category": "Vi sinh sơ sinh",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Ba căn nguyên vi khuẩn hàng đầu</b></span> gây viêm màng não mủ ở <span style=\"color:#ffd43b\"><b>trẻ sơ sinh (&lt; 1 tháng tuổi)</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Streptococcus agalactiae (Liên cầu nhóm B - GBS):</b></span> Chiếm 40% – 50% ca bệnh, lây truyền dọc từ đường âm đạo mẹ.<br>2) <span style=\"color:#74c0fc\"><b>Trực khuẩn Gram âm đường ruột (chủ yếu Escherichia coli K1):</b></span> Chiếm 30% – 40%, nguy cơ cao gây viêm não thất và áp xe não.<br>3) <span style=\"color:#74c0fc\"><b>Listeria monocytogenes:</b></span> Trực khuẩn Gram dương lây qua đường máu từ thức ăn của mẹ, kháng tự nhiên 100% với Cephalosporin.<br><br><b>💡 Giải thích của AI:</b><br>Hệ miễn dịch sơ sinh non yếu kết hợp với sự phơi nhiễm hệ vi khuẩn đường sinh dục - tiêu hóa của mẹ giải thích vì sao mô hình vi sinh sơ sinh hoàn toàn khác biệt so với trẻ lớn.",
+          "extra": "IDSA 2004 (PMID: 15494903) | CPS 2014 (PMID: 24665226)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B1-02",
+          "type": "basic",
+          "section": "B1",
+          "category": "Vi sinh Listeria",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#74c0fc\"><b>Listeria monocytogenes</b></span> lại là một thách thức vi sinh học đặc biệt trong điều trị viêm màng não <span style=\"color:#ffd43b\"><b>sơ sinh</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kháng tự nhiên 100% với Cephalosporin:</b> Cephalosporin thế hệ 3 (Cefotaxime, Ceftriaxone) hoàn toàn không gắn được vào PBP của Listeria.<br>2) <b>Vi khuẩn nội bào:</b> Có khả năng trốn thoát túi thực bào và nhân lên bên trong tế bào chất của đại thực bào.<br>3) <b>Bắt buộc dùng:</b> <span style=\"color:#51cf66\"><b>Ampicillin liều cao</b></span> phối hợp với Aminoglycoside (Gentamicin) trong phác đồ điều trị ban đầu.<br><br><b>💡 Giải thích của AI:</b><br>Nếu chỉ dùng Cefotaxime đơn độc cho trẻ sơ sinh bị viêm màng não do Listeria, bệnh nhân sẽ thất bại điều trị và tử vong vì thuốc hoàn toàn không có tác dụng trên vi khuẩn này.",
+          "extra": "IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B1-03",
+          "type": "basic",
+          "section": "B1",
+          "category": "Vi sinh trẻ nhũ nhi & nhỏ",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Hai căn nguyên vi khuẩn chủ lực</b></span> gây viêm màng não mủ ở trẻ từ <span style=\"color:#ffd43b\"><b>1 tháng đến 5 tuổi</b></span> hiện nay là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Streptococcus pneumoniae (Phế cầu):</b></span> Cầu khuẩn Gram dương xếp đôi, gây bệnh cảnh dữ dội, phù não nặng, tỷ lệ tử vong và di chứng điếc cao nhất.<br>2) <span style=\"color:#74c0fc\"><b>Neisseria meningitidis (Não mô cầu):</b></span> Song cầu khuẩn Gram âm hình hạt cà phê, nhân lên cực nhanh, giải phóng nội độc tố LOS gây sốc nhiễm khuẩn và tử ban sao hoại tử.<br><br><b>💡 Giải thích của AI:</b><br>Sau khi vắc xin Hib bao phủ rộng rãi, Phế cầu và Não mô cầu chiếm trên 85% – 90% các ca viêm màng não mủ ở nhóm tuổi này.",
+          "extra": "NICE NG240 (PMID: 20584794) | CPS 2014 (PMID: 24665226)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B1-04",
+          "type": "basic",
+          "section": "B1",
+          "category": "Vi sinh cơ địa đặc biệt",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Ở trẻ có <span style=\"color:#ff6b6b\"><b>chấn thương vỡ sàn sọ / dò dịch não tủy</b></span> hoặc <span style=\"color:#ff6b6b\"><b>sau phẫu thuật thần kinh</b></span>, các căn nguyên vi sinh nào cần phải nghĩ tới?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vỡ sàn sọ, rách màng cứng, dò DNT ra tai/mũi:</b> Nguy cơ cao nhất là <span style=\"color:#74c0fc\"><b>Streptococcus pneumoniae (Phế cầu)</b></span> từ vùng tỵ hầu xâm nhập trực tiếp.<br>2) <b>Sau phẫu thuật thần kinh, dẫn lưu não thất (VP Shunt):</b> Vi khuẩn thường gặp là <span style=\"color:#74c0fc\"><b>Staphylococcus aureus (Tụ cầu vàng)</b></span>, <span style=\"color:#74c0fc\"><b>Staphylococcus epidermidis (Tụ cầu da)</b></span> và trực khuẩn mủ xanh <span style=\"color:#74c0fc\"><b>Pseudomonas aeruginosa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương hàng rào giải phẫu tạo đường vào trực tiếp cho vi khuẩn trên da hoặc niêm mạc xoang xâm nhập thẳng vào dịch não tủy mà không cần qua giai đoạn nhiễm khuẩn huyết.",
+          "extra": "IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B2-01",
+          "type": "basic",
+          "section": "B2",
+          "category": "Cơ chế vượt BBB",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vi khuẩn gây viêm màng não vượt qua <span style=\"color:#74c0fc\"><b>Hàng rào máu - não (Blood-Brain Barrier - BBB)</b></span> theo <span style=\"color:#ffd43b\"><b>cơ chế tế bào</b></span> như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vi khuẩn nhân lên trong máu đạt nồng độ cao (Bacteremia).<br>2) Lớp vỏ polysaccharide giúp vi khuẩn trốn thoát bổ thể và thực bào.<br>3) Vi khuẩn gắn vào thụ thể bề mặt tế bào nội mô mao mạch não (như thụ thể PAFR đối với Phế cầu).<br>4) Tế bào nội mô thực bào và vận chuyển vi khuẩn qua màng tế bào (<span style=\"color:#51cf66\"><b>transcytosis</b></span>) mà không phá vỡ tế bào nội mô ngay, xâm nhập vào khoang dưới nhện.<br><br><b>💡 Giải thích của AI:</b><br>Khoang dưới nhện là vùng khiếm khuyết miễn dịch sinh lý (rất ít kháng thể và bổ thể), do đó khi vi khuẩn đã lọt vào đây chúng sẽ nhân lên nhanh chóng theo cấp số nhân.",
+          "extra": "Tunkel AR et al. (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B2-02",
+          "type": "basic",
+          "section": "B2",
+          "category": "Phù não 3 tầng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Trình bày <span style=\"color:#ffd43b\"><b>3 cơ chế phù não phối hợp</b></span> trong viêm màng não mủ ở trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phù não vận mạch (Vasogenic edema):</b></span> Cytokine viêm (TNF-alpha, IL-1beta) phá hủy liên kết vòng bịt (tight junctions) của tế bào nội mô mao mạch não, làm rò rỉ huyết tương và protein vào khoang kẽ não.<br>2) <span style=\"color:#ff6b6b\"><b>Phù não độc tế bào (Cytotoxic edema):</b></span> Độc tố vi khuẩn và men protease/ROS từ bạch cầu thoái hóa làm hỏng bơm Na+/K+-ATPase, gây ứ đọng nước và ion Natri trong tế bào thần kinh đệm và neuron.<br>3) <span style=\"color:#ff6b6b\"><b>Phù não kẽ (Interstitial edema):</b></span> Dịch mủ viêm làm tắc nghẽn các rãnh dưới nhện và xơ hóa hạt màng nhện Pacchioni, cản trở lưu thông và tái hấp thu DNT gây ứ nước não thất.<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp đồng thời của cả 3 cơ chế phù não này đẩy áp lực nội sọ (ICP) lên rất nhanh và dữ dội, vượt xa khả năng bù trừ của hộp sọ trẻ em.",
+          "extra": "ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B2-03",
+          "type": "basic",
+          "section": "B2",
+          "category": "Áp lực tưới máu não CPP",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Áp lực tưới máu não (CPP)</b></span> được tính theo công thức nào và vì sao <span style=\"color:#ff6b6b\"><b>tăng áp lực nội sọ (ICP)</b></span> kết hợp với <span style=\"color:#ff6b6b\"><b>tụt huyết áp</b></span> lại dẫn tới hoại tử não?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Công thức:</b> <span style=\"color:#51cf66\"><b>CPP = MAP - ICP</b></span> (trong đó CPP là áp lực tưới máu não, MAP là huyết áp động mạch trung bình, ICP là áp lực nội sọ).<br>2) <b>Hậu quả thiếu máu:</b> Khi ICP tăng cao trong khi MAP tụt (do sốc, thiếu dịch), CPP giảm xuống dưới ngưỡng sống còn (<span style=\"color:#ffd43b\"><b>&lt; 40 – 50 mmHg</b></span>).<br>3) Khi CPP suy kiệt, dòng máu nuôi não bị tắc nghẽn hoàn toàn dẫn tới thiếu máu não cục bộ diện rộng, nhồi máu não và phù não ác tính.<br><br><b>💡 Giải thích của AI:</b><br>Công thức này giải thích vì sao trong cấp cứu viêm màng não mủ, việc duy trì huyết áp động mạch trung bình (MAP) đầy đủ bằng bù dịch và thuốc vận mạch có vai trò sống còn để bảo vệ não không kém gì việc hạ ICP.",
+          "extra": "PALS Guidelines | NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B3-01",
+          "type": "basic",
+          "section": "B3",
+          "category": "Lâm sàng sơ sinh & nhũ nhi",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao các dấu hiệu màng não kinh điển (cứng gáy, Kernig) thường <span style=\"color:#ffd43b\"><b>ÂM TÍNH</b></span> ở <span style=\"color:#ffd43b\"><b>trẻ sơ sinh và trẻ &lt; 12 tháng</b></span>, và các triệu chứng cảnh báo thay thế là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do âm tính:</b> Hệ cơ và xương sống của trẻ nhỏ mềm dẻo, trương lực cơ chưa hoàn thiện, các đường khớp sọ và thóp chưa đóng nên áp lực nội sọ tăng không gây co cứng cơ gáy rõ rệt.<br>2) <b>Triệu chứng cảnh báo sống còn thay thế:</b><br>- <span style=\"color:#ff6b6b\"><b>Thóp trước phồng căng</b></span> (khám khi trẻ ngồi yên).<br>- Rối loạn thân nhiệt: Sốt hoặc <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt (&lt; 36.5°C)</b></span>.<br>- <span style=\"color:#ff6b6b\"><b>Li bì, khó đánh thức</b></span> hoặc kích thích quấy khóc, khóc thét the thé khi bế dậy.<br>- Bỏ bú, ọc sữa liên tục, thở không đều hoặc có cơn ngừng thở.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ nhũ nhi, viêm màng não mủ biểu hiện dưới bệnh cảnh nhiễm khuẩn huyết toàn thân. Đợi đến khi có cứng gáy thì thường trẻ đã ở giai đoạn quá muộn hoặc tụt não.",
+          "extra": "IDSA 2004 (PMID: 15494903) | NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B3-02",
+          "type": "basic",
+          "section": "B3",
+          "category": "Tam chứng kinh điển trẻ lớn",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Trình bày <span style=\"color:#ffd43b\"><b>tam chứng kích thích màng não kinh điển</b></span> ở trẻ lớn (> 1 – 2 tuổi)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dấu Cổ gượng (Cứng gáy):</b></span> Cằm không thể chạm ức khi người khám nâng nhẹ đầu trẻ lên trong tư thế nằm ngửa.<br>2) <span style=\"color:#ff6b6b\"><b>Dấu Kernig:</b></span> Gập đùi 90° vào bụng, duỗi cẳng chân lên thấy kháng cự cơ hoặc đau khi góc kheo &lt; 135°.<br>3) <span style=\"color:#ff6b6b\"><b>Dấu Brudzinski (Brudzinski cổ):</b></span> Nâng đầu gập cằm vào ngực làm hai khớp háng và hai khớp gối của trẻ tự động co gập lại.<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng kích thích màng não xuất hiện do phản xạ co cứng tự vệ của các nhóm cơ cạnh sống nhằm giảm bớt sự căng kéo đau đớn lên các rễ thần kinh tủy sống và màng tủy bị viêm.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B3-03",
+          "type": "basic",
+          "section": "B3",
+          "category": "Dấu hiệu cờ đỏ",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Bốn dấu hiệu cờ đỏ cấp cứu (Red Flags)</b></span> cảnh báo nguy cơ tụt kẹt não hoặc sốc tử vong trong viêm màng não mủ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tử ban sao hoại tử (Purpura fulminans / Petechiae):</b></span> Dấu hiệu của Não mô cầu kèm đông máu nội mạch rải rác (DIC) tối cấp.<br>2) <span style=\"color:#ff6b6b\"><b>Tam chứng Cushing (Dọa tụt não):</b></span> Mạch chậm + Tăng huyết áp + Thở không đều/ngắt quãng.<br>3) <span style=\"color:#ff6b6b\"><b>Rối loạn tri giác tiến triển nhanh:</b></span> Hôn mê sâu (GCS ≤ 8), mất đáp ứng ánh sáng, đồng tử giãn bất đối xứng.<br>4) <span style=\"color:#ff6b6b\"><b>Trạng thái động kinh:</b></span> Co giật kéo dài > 5 phút hoặc co giật liên tiếp không hồi tỉnh.<br><br><b>💡 Giải thích của AI:</b><br>Bất kỳ dấu hiệu cờ đỏ nào xuất hiện đều là tình trạng tối khẩn cấp: phải hoãn ngay chọc dò tủy sống, bảo vệ đường thở, kiểm soát huyết động và dùng kháng sinh liều cao tức thì.",
+          "extra": "NICE NG240 (PMID: 20584794) | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B4-01",
+          "type": "basic",
+          "section": "B4",
+          "category": "Vị trí chọc dò",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao ở trẻ nhỏ vị trí chọc dò tủy sống an toàn nhất là khoảng gian đốt <span style=\"color:#51cf66\"><b>L3 – L4 hoặc L4 – L5</b></span> mà không được chọc cao hơn?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ở trẻ sơ sinh và trẻ nhỏ, <span style=\"color:#74c0fc\"><b>nón tủy sống (conus medullaris)</b></span> kéo dài xuống tận mức đốt sống <span style=\"color:#ffd43b\"><b>L2 – L3</b></span> (thấp hơn so với L1 – L2 ở người lớn).<br>2) Chọc kim ở khoảng gian đốt L3 – L4 hoặc L4 – L5 (dưới đường liên mào chậu Tuffier) đảm bảo kim đi vào bể dịch chùm đuôi ngựa mà <span style=\"color:#ff6b6b\"><b>tuyệt đối không làm tổn thương đâm vào nón tủy</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường Tuffier nối hai gai chậu sau trên cắt ngang qua mỏm gai L4. Bác sĩ xác định mốc này để chọn khoảng gian đốt ngay trên (L3-L4) hoặc ngay dưới (L4-L5) để đưa kim.",
+          "extra": "Nelson Pediatric Skills | Blausen Medical",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B4"
+          ]
+        },
+        {
+          "id": "PED37-B4-02",
+          "type": "basic",
+          "section": "B4",
+          "category": "Chống chỉ định chọc DNT",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Bốn nhóm chống chỉ định cấp cứu</b></span> bắt buộc phải <span style=\"color:#ff6b6b\"><b>hoãn chọc dò tủy sống ngay lập tức</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tăng áp lực nội sọ nặng có nguy cơ tụt não:</b></span> Hôn mê sâu (GCS ≤ 8), đồng tử giãn mất phản xạ, tam chứng Cushing, dấu thần kinh khu trú.<br>2) <span style=\"color:#ff6b6b\"><b>Suy tuần hoàn hoặc suy hô hấp chưa ổn định:</b></span> Đang sốc tụt huyết áp, CRT > 3s, suy hô hấp nặng, cơn ngừng thở kéo dài.<br>3) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng da mô mềm tại vị trí chọc kim:</b></span> Vùng thắt lưng L3 – L5 bị viêm mủ (tránh đưa vi khuẩn vào khoang nhện).<br>4) <span style=\"color:#ff6b6b\"><b>Rối loạn đông máu nặng:</b></span> Tiểu cầu &lt; 50.000/mm3, INR > 1.5, hoặc đang có DIC tiến triển.<br><br><b>💡 Giải thích của AI:</b><br>Chọc DNT khi có chênh lệch áp lực lớn nội sọ - tủy sống sẽ gây tụt kẹt hạnh nhân tiểu não chèn ép hành tủy gây ngừng thở tử vong ngay tại giường thủ thuật.",
+          "extra": "ESCMID 2016 (PMID: 27062097) | NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B4"
+          ]
+        },
+        {
+          "id": "PED37-B4-03",
+          "type": "basic",
+          "section": "B4",
+          "category": "Nguyên tắc vàng kháng sinh",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#51cf66\"><b>Nguyên tắc vàng (Golden Rule)</b></span> xử trí khi bệnh nhân viêm màng não mủ có <span style=\"color:#ff6b6b\"><b>chống chỉ định chọc DNT</b></span> hoặc thủ thuật bị trì hoãn là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>HÀNH ĐỘNG TỨC THÌ:</b> <span style=\"color:#51cf66\"><b>Cấy máu ngay tại giường</b></span> rồi <span style=\"color:#51cf66\"><b>tiêm tĩnh mạch Kháng sinh liều màng não + Dexamethasone ngay lập tức</b></span> trong vòng <span style=\"color:#ffd43b\"><b>60 phút đầu tiên</b></span>.<br>2) <b>ĐIỀU TUYỆT ĐỐI CẤM KỴ:</b> Tuyệt đối không được trì hoãn kháng sinh để chờ chụp CT Scan sọ não hay chờ hết chống chỉ định chọc DNT!<br><br><b>💡 Giải thích của AI:</b><br>Mỗi 1 giờ chậm trễ kháng sinh làm tăng tỷ lệ tử vong lên từ 8% đến 12%. Việc dùng kháng sinh trước vài giờ vẫn không làm mất đi các chỉ số sinh hóa và lactate DNT chẩn đoán sau này.",
+          "extra": "NICE NG240 (PMID: 20584794) | IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B4"
+          ]
+        },
+        {
+          "id": "PED37-B5-01",
+          "type": "basic",
+          "section": "B5",
+          "category": "Biện luận DNT mủ",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Nêu các biến đổi đặc trưng của <span style=\"color:#74c0fc\"><b>Dịch não tủy trong Viêm màng não mủ</b></span> về <span style=\"color:#ffd43b\"><b>màu sắc, tế bào, protein và glucose</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Màu sắc:</b> <span style=\"color:#ff6b6b\"><b>Đục như nước vo gạo, nước cốt dừa</b></span>, áp lực mở tăng cao (> 20 – 30 cmH2O).<br>2) <b>Tế bào:</b> Bạch cầu tăng vọt từ <span style=\"color:#ffd43b\"><b>1.000 đến 10.000+ /mm3</b></span>, trong đó <span style=\"color:#ff6b6b\"><b>Bạch cầu đa nhân trung tính chiếm ưu thế (> 80%)</b></span>.<br>3) <b>Protein:</b> Tăng rất cao (> <span style=\"color:#ffd43b\"><b>1.0 – 5.0+ g/L</b></span>) do tổn thương hàng rào máu - não.<br>4) <b>Glucose:</b> Giảm sâu (&lt; <span style=\"color:#ffd43b\"><b>2.2 mmol/L</b></span>), tỷ lệ Glucose DNT / Glucose máu giảm dưới <span style=\"color:#ffd43b\"><b>&lt; 0.4 (thậm chí &lt; 0.2)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp của bạch cầu đa nhân chiếm ưu thế kèm nồng độ đường tụt dốc là dấu ấn kinh điển của vi khuẩn tiêu thụ glucose trong khoang dưới nhện.",
+          "extra": "ESCMID 2016 (PMID: 27062097) | IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B5"
+          ]
+        },
+        {
+          "id": "PED37-B5-02",
+          "type": "basic",
+          "section": "B5",
+          "category": "Lactate DNT",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vai trò và <span style=\"color:#ffd43b\"><b>ngưỡng cắt định lượng</b></span> của xét nghiệm <span style=\"color:#51cf66\"><b>Lactate dịch não tủy</b></span> trong phân biệt viêm màng não mủ với viêm màng não virus là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ngưỡng cắt chuẩn:</b> Nồng độ Lactate DNT <span style=\"color:#ffd43b\"><b>≥ 35 mg/dL (tương đương ≥ 3.8 – 4.0 mmol/L)</b></span>.<br>2) <b>Độ chính xác chẩn đoán:</b> Phân tích gộp của Huy NT et al. (Crit Care 2010) chứng minh ngưỡng này đạt độ nhạy <span style=\"color:#ffd43b\"><b>93%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>96%</b></span> để khẳng định viêm màng não mủ.<br>3) <b>Ưu điểm vượt trội:</b> Không bị ảnh hưởng bởi đường huyết của bệnh nhân như xét nghiệm glucose.<br><br><b>💡 Giải thích của AI:</b><br>Lactate DNT tăng do chuyển hóa yếm khí của vi khuẩn và bạch cầu trung tính cùng tình trạng thiếu oxy mô não cục bộ.",
+          "extra": "Huy NT et al. Crit Care 2010 (PMID: 21194480)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B5"
+          ]
+        },
+        {
+          "id": "PED37-B5-03",
+          "type": "basic",
+          "section": "B5",
+          "category": "Thang điểm BMS",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Năm tiêu chuẩn</b></span> của thang điểm <span style=\"color:#51cf66\"><b>Bacterial Meningitis Score (BMS)</b></span> theo Nigrovic LE et al. (JAMA 2007) để xác định trẻ có <span style=\"color:#51cf66\"><b>nguy cơ cực thấp</b></span> viêm màng não mủ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>Trẻ có tăng bạch cầu DNT được xếp vào nhóm nguy cơ cực thấp nếu thỏa mãn cả 5 tiêu chí âm tính:<br>1) <span style=\"color:#51cf66\"><b>Nhuộm Gram DNT âm tính.</b></span><br>2) <span style=\"color:#51cf66\"><b>Số lượng Neutrophil DNT (CSF ANC) &lt; 1.000 /mm3.</b></span><br>3) <span style=\"color:#51cf66\"><b>Protein DNT &lt; 80 mg/dL (&lt; 0.8 g/L).</b></span><br>4) <span style=\"color:#51cf66\"><b>Neutrophil máu ngoại vi (Blood ANC) &lt; 10.000 /mm3.</b></span><br>5) <span style=\"color:#51cf66\"><b>Không có tiền sử co giật</b></span> trước hoặc tại thời điểm nhập viện.<br><br><b>💡 Giải thích của AI:</b><br>Thang điểm BMS có giá trị dự đoán âm tính (NPV) đạt tới 99.9%, giúp bác sĩ tự tin trì hoãn kháng sinh không cần thiết ở trẻ viêm màng não virus vô khuẩn.",
+          "extra": "Nigrovic LE et al. JAMA 2007 (PMID: 17200475)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B5"
+          ]
+        },
+        {
+          "id": "PED37-B6-01",
+          "type": "basic",
+          "section": "B6",
+          "category": "Kháng sinh sơ sinh",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Phác đồ kháng sinh kinh nghiệm ban đầu bắt buộc cho <span style=\"color:#ffd43b\"><b>trẻ sơ sinh (&lt; 1 tháng tuổi)</b></span> mắc viêm màng não mủ gồm những thuốc nào và liều lượng ra sao?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phác đồ phối hợp:</b> <span style=\"color:#51cf66\"><b>Ampicillin + Cefotaxime</b></span>.<br>2) <b>Liều lượng chi tiết:</b><br>- <span style=\"color:#51cf66\"><b>Ampicillin:</b></span> <span style=\"color:#ffd43b\"><b>200 – 300 mg/kg/ngày</b></span> chia làm 3 – 4 lần truyền tĩnh mạch (bao phủ Listeria monocytogenes và GBS).<br>- <span style=\"color:#51cf66\"><b>Cefotaxime:</b></span> <span style=\"color:#ffd43b\"><b>150 – 200 mg/kg/ngày</b></span> chia làm 3 – 4 lần truyền tĩnh mạch (bao phủ E. coli và GBS).<br><br><b>💡 Giải thích của AI:</b><br>Đây là phác đồ chuẩn mực của IDSA và Viện Hàn lâm Nhi khoa Hoa Kỳ (AAP), bảo đảm bao phủ toàn bộ vi khuẩn đường ruột Gram âm và Listeria ở lứa tuổi sơ sinh.",
+          "extra": "IDSA 2004 (PMID: 15494903) | CPS 2014 (PMID: 24665226)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-02",
+          "type": "basic",
+          "section": "B6",
+          "category": "Cấm Ceftriaxone sơ sinh",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI CHỐNG CHỈ ĐỊNH dùng Ceftriaxone</b></span> cho trẻ sơ sinh (&lt; 28 ngày tuổi)?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ Vàng da nhân não (Kernicterus):</b> Ceftriaxone gắn ái lực rất cao với Albumin, đẩy Bilirubin gián tiếp tự do vào máu ngấm vào nhân xám não sơ sinh.<br>2) <b>Nguy cơ Kết tủa Muối Calci-Ceftriaxone:</b> Ceftriaxone kết hợp với Calci tạo tinh thể muối không tan lắng đọng gây hoại tử phổi và suy thận cấp tử vong.<br>3) <b>Giải pháp thay thế an toàn:</b> Bắt buộc dùng <span style=\"color:#51cf66\"><b>Cefotaxime</b></span> vì không gây đẩy Bilirubin và không kết tủa Calci.<br><br><b>💡 Giải thích của AI:</b><br>Đây là một trong những chống chỉ định dược lâm sàng kinh điển và tối thượng nhất trong chuyên ngành Sơ sinh học.",
+          "extra": "FDA Warning | IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-03",
+          "type": "basic",
+          "section": "B6",
+          "category": "Kháng sinh trẻ > 1 tháng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Phác đồ kháng sinh kinh nghiệm chuẩn mực cho <span style=\"color:#ffd43b\"><b>trẻ từ 1 tháng tuổi đến 16 tuổi</b></span> mắc viêm màng não mủ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phác đồ phối hợp đôi:</b> <span style=\"color:#51cf66\"><b>Ceftriaxone (hoặc Cefotaxime) + Vancomycin</b></span>.<br>2) <b>Liều lượng chi tiết:</b><br>- <span style=\"color:#51cf66\"><b>Ceftriaxone:</b></span> <span style=\"color:#ffd43b\"><b>100 mg/kg/ngày</b></span> truyền TM 1 lần hoặc chia 2 lần (tối đa 4 g/ngày).<br>- *Hoặc* <span style=\"color:#51cf66\"><b>Cefotaxime:</b></span> <span style=\"color:#ffd43b\"><b>200 – 300 mg/kg/ngày</b></span> chia 3 – 4 lần (tối đa 12 g/ngày).<br>- <span style=\"color:#51cf66\"><b>Vancomycin:</b></span> <span style=\"color:#ffd43b\"><b>60 mg/kg/ngày</b></span> chia 4 lần truyền chậm tối thiểu 60 phút (tối đa 2 – 4 g/ngày).<br><br><b>💡 Giải thích của AI:</b><br>Phối hợp Vancomycin là bắt buộc trong giai đoạn kinh nghiệm để bao phủ các chủng Phế cầu kháng Penicillin và giảm nhạy cảm với Cephalosporin thế hệ 3.",
+          "extra": "IDSA 2004 (PMID: 15494903) | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-04",
+          "type": "basic",
+          "section": "B6",
+          "category": "Nồng độ đáy Vancomycin",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Mục tiêu <span style=\"color:#ffd43b\"><b>nồng độ đáy trong máu (Trough level)</b></span> của Vancomycin trong điều trị viêm màng não mủ là bao nhiêu và lấy mẫu vào thời điểm nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nồng độ đáy mục tiêu:</b> <span style=\"color:#ffd43b\"><b>15 – 20 mcg/mL</b></span>.<br>2) <b>Thời điểm lấy máu:</b> Lấy mẫu máu định lượng ngay trước khi truyền <span style=\"color:#ffd43b\"><b>liều thứ 4</b></span> (trong vòng 30 phút trước liều tiếp theo) khi thuốc đã đạt trạng thái nồng độ ổn định (steady-state).<br>3) <b>Ý nghĩa lâm sàng:</b> Nồng độ đáy &lt; 15 mcg/mL thuốc thấm vào màng não không đủ diệt khuẩn; nồng độ > 20 mcg/mL làm tăng vọt nguy cơ độc thận.<br><br><b>💡 Giải thích của AI:</b><br>Hàng rào máu não viêm cản trở Vancomycin ngấm vào DNT (chỉ ngấm 10% - 15%), do đó bắt buộc phải duy trì nồng độ đáy cao 15 – 20 mcg/mL.",
+          "extra": "IDSA Guidelines | CPS 2014 (PMID: 24665226)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-05",
+          "type": "basic",
+          "section": "B6",
+          "category": "Thời gian điều trị từng tác nhân",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Thời gian điều trị kháng sinh tối thiểu</b></span> đối với từng căn nguyên vi khuẩn gây viêm màng não mủ là bao lâu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Neisseria meningitidis (Não mô cầu):</b></span> <span style=\"color:#ffd43b\"><b>5 – 7 ngày</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Haemophilus influenzae type b (Hib):</b></span> <span style=\"color:#ffd43b\"><b>7 – 10 ngày</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Streptococcus pneumoniae (Phế cầu):</b></span> <span style=\"color:#ffd43b\"><b>10 – 14 ngày</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Streptococcus agalactiae (GBS):</b></span> <span style=\"color:#ffd43b\"><b>14 – 21 ngày</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Listeria monocytogenes & Trực khuẩn Gram âm (E. coli):</b></span> <span style=\"color:#ffd43b\"><b>Tối thiểu 21 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thời gian dùng thuốc phụ thuộc vào khả năng diệt sạch vi khuẩn trong khoang dưới nhện và nguy cơ tái phát. Listeria và Gram âm cần tối thiểu 3 tuần vì vi khuẩn nội bào hoặc xu hướng tạo ổ mủ sâu.",
+          "extra": "IDSA 2004 (PMID: 15494903) | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B7-01",
+          "type": "basic",
+          "section": "B7",
+          "category": "Dexamethasone thời điểm vàng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Trình bày <span style=\"color:#51cf66\"><b>thời điểm vàng</b></span>, <span style=\"color:#ffd43b\"><b>liều lượng</b></span> và <span style=\"color:#51cf66\"><b>bằng chứng y học</b></span> của liệu pháp Corticosteroid (Dexamethasone) trong viêm màng não mủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời điểm vàng bắt buộc:</b> Tiêm <span style=\"color:#51cf66\"><b>trước 10 – 20 phút hoặc đồng thời với liều kháng sinh đầu tiên</b></span>. Không dùng khi kháng sinh đã tiêm quá 4 giờ.<br>2) <b>Liều lượng chuẩn:</b> <span style=\"color:#ffd43b\"><b>0.15 mg/kg mỗi 6 giờ</b></span> tiêm tĩnh mạch trong <span style=\"color:#ffd43b\"><b>2 đến 4 ngày</b></span>.<br>3) <b>Bằng chứng Cochrane 2015:</b> Làm giảm <span style=\"color:#ffd43b\"><b>35% nguy cơ di chứng điếc thần kinh giác quan</b></span> (RR = 0.65; 95% CI 0.48 – 0.88), đặc biệt hiệu quả nhất với Hib và Phế cầu.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh diệt khuẩn làm vỡ hàng loạt tế bào vi khuẩn gây bùng nổ phản ứng viêm sau 2 – 4 giờ. Dexamethasone phong bế sự giải phóng cytokine viêm trước khi vi khuẩn ly giải.",
+          "extra": "Brouwer MC et al. Cochrane 2015 (PMID: 26362566)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B7"
+          ]
+        },
+        {
+          "id": "PED37-B7-02",
+          "type": "basic",
+          "section": "B7",
+          "category": "Hồi sức tăng ALNS",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Bốn biện pháp hồi sức bảo vệ não cốt lõi</b></span> để kiểm soát tình trạng tăng áp lực nội sọ (ICP) trong viêm màng não mủ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tư thế:</b> Nằm đầu cao <span style=\"color:#ffd43b\"><b>30°</b></span>, giữ đầu cổ thẳng trục giữa để tối ưu máu tĩnh mạch cảnh hồi lưu về tim.<br>2) <b>Kiểm soát thông khí:</b> Thở máy bảo vệ não nếu GCS ≤ 8, duy trì PaO2 ≥ 80 mmHg và PaCO2 bình thường thấp (<span style=\"color:#ffd43b\"><b>35 – 40 mmHg</b></span>).<br>3) <b>Liệu pháp thẩm thấu:</b> <span style=\"color:#51cf66\"><b>Mannitol 20% (0.5 – 1.0 g/kg)</b></span> truyền nhanh 20 – 30 phút hoặc <span style=\"color:#51cf66\"><b>NaCl 3% (3 – 5 ml/kg)</b></span>.<br>4) <b>Kiểm soát co giật và hạ sốt:</b> Cắt cơn giật ngay bằng Benzodiazepin và hạ sốt tích cực bằng Paracetamol.<br><br><b>💡 Giải thích của AI:</b><br>Tránh tăng thông khí quá mức (PaCO2 &lt; 30 mmHg) vì gây co mạch não quá mức dẫn tới thiếu máu não cục bộ.",
+          "extra": "ESCMID 2016 (PMID: 27062097) | PALS Guidelines",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B7"
+          ]
+        },
+        {
+          "id": "PED37-B7-03",
+          "type": "basic",
+          "section": "B7",
+          "category": "Bác bỏ hạn chế dịch",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao y học hiện đại <span style=\"color:#ff6b6b\"><b>bác bỏ quan điểm hạn chế dịch truyền thường quy</b></span> trong viêm màng não mủ ở trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đa số trẻ nhập viện đều bị thiếu thể tích tuần hoàn do sốt cao, nôn ói và ăn uống kém.<br>2) Hạn chế dịch quá mức làm sụt giảm huyết áp động mạch trung bình (MAP), dẫn tới <span style=\"color:#ff6b6b\"><b>suy kiệt áp lực tưới máu não (CPP = MAP - ICP)</b></span> gây nhồi máu não thứ phát.<br>3) <b>Khuyến cáo chuẩn:</b> Duy trì dịch đẳng trương ở mức <span style=\"color:#51cf66\"><b>đẳng thể tích (Euvolemia - 100% nhu cầu duy trì)</b></span>; chỉ hạn chế dịch khi có bằng chứng chắc chắn của hội chứng SIADH.<br><br><b>💡 Giải thích của AI:</b><br>Não đang bị tăng áp lực nội sọ rất cần huyết áp ổn định để đẩy máu qua hộp sọ nuôi tế bào thần kinh. Để trẻ bị tụt thể tích là làm hại tưới máu não.",
+          "extra": "NICE NG240 (PMID: 20584794) | AAP Guidelines",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B7"
+          ]
+        },
+        {
+          "id": "PED37-B8-01",
+          "type": "basic",
+          "section": "B8",
+          "category": "Biến chứng tụ dịch dưới màng cứng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Khi nào bác sĩ lâm sàng cần nghi ngờ biến chứng <span style=\"color:#ff6b6b\"><b>Tụ dịch dưới màng cứng (Subdural Effusion)</b></span> và nguyên tắc xử trí là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dấu hiệu nghi ngờ:</b> Trẻ đã điều trị kháng sinh đúng phác đồ 3 – 4 ngày mà vẫn sốt dai dẳng, thóp trước vẫn căng phồng, vòng đầu tăng nhanh, hoặc xuất hiện co giật khu trú.<br>2) <b>Chẩn đoán:</b> Siêu âm qua thóp (trẻ nhỏ) hoặc chụp MRI/CT sọ não.<br>3) <b>Nguyên tắc xử trí:</b> Đa số tụ dịch vô khuẩn tự thoái lui tự nhiên; <span style=\"color:#51cf66\"><b>chỉ chọc hút dẫn lưu khi có hiệu ứng khối chèn ép nhu mô não</b></span> hoặc nghi ngờ chuyển thành ổ mủ dưới màng cứng (Subdural Empyema).<br><br><b>💡 Giải thích của AI:</b><br>Tụ dịch dưới màng cứng vô khuẩn là phản ứng xuất tiết thứ phát lành tính rất hay gặp sau viêm màng não do Hib và Phế cầu, không cần can thiệp ngoại khoa vội vàng nếu trẻ không có dấu hiệu chèn ép.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B8-02",
+          "type": "basic",
+          "section": "B8",
+          "category": "Dự phòng Não mô cầu",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Chỉ định và <span style=\"color:#51cf66\"><b>phác đồ điều trị kháng sinh dự phòng (Chemoprophylaxis)</b></span> cho người tiếp xúc gần ca bệnh Não mô cầu là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đối tượng tiếp xúc gần:</b> Thành viên sống cùng nhà, bạn cùng lớp nhà trẻ/mẫu giáo, người tiếp xúc dịch tiết hô hấp trong vòng 7 ngày trước khởi phát.<br>2) <b>Thuốc lựa chọn 1 (Rifampicin):</b><br>- Trẻ &lt; 1 tháng: 5 mg/kg mỗi 12h x 2 ngày (4 liều).<br>- Trẻ ≥ 1 tháng: <span style=\"color:#ffd43b\"><b>10 mg/kg</b></span> (tối đa 600 mg) mỗi 12h x <span style=\"color:#ffd43b\"><b>2 ngày</b></span> (4 liều).<br>3) <b>Thuốc lựa chọn 2 (Ceftriaxone tiêm bắp liều duy nhất):</b><br>- Trẻ &lt; 15 tuổi: <span style=\"color:#ffd43b\"><b>125 mg TB</b></span>.<br>- Trẻ ≥ 15 tuổi và người lớn: <span style=\"color:#ffd43b\"><b>250 mg TB</b></span> (rất an toàn cho phụ nữ có thai).<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh dự phòng nhằm tiêu diệt trạng thái người lành mang trùng ở niêm mạc tỵ hầu, cắt đứt dây chuyền lây lan thành dịch trong cộng đồng.",
+          "extra": "IDSA Guidelines | NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B8-03",
+          "type": "basic",
+          "section": "B8",
+          "category": "Dự phòng Hib",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Phác đồ kháng sinh dự phòng cho người tiếp xúc ca bệnh <span style=\"color:#74c0fc\"><b>Haemophilus influenzae type b (Hib)</b></span> bằng Rifampicin như thế nào?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định:</b> Toàn bộ thành viên trong gia đình nếu trong nhà có ít nhất một trẻ <span style=\"color:#ffd43b\"><b>&lt; 4 tuổi chưa tiêm chủng đủ vắc xin Hib</b></span>.<br>2) <b>Liều lượng Rifampicin:</b> <span style=\"color:#ffd43b\"><b>20 mg/kg/ngày</b></span> (tối đa 600 mg/ngày) uống 1 lần duy nhất trong ngày, uống liên tục trong <span style=\"color:#ffd43b\"><b>4 ngày</b></span>.<br>3) <b>Trẻ sơ sinh (&lt; 1 tháng):</b> Dùng liều 10 mg/kg/ngày x 4 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Khác với Não mô cầu chỉ uống 2 ngày, dự phòng Hib đòi hỏi phải dùng Rifampicin liên tục 4 ngày để thanh thải hoàn toàn vi khuẩn khỏi ngõ hầu.",
+          "extra": "AAP Red Book | IDSA Guidelines",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B9-01",
+          "type": "basic",
+          "section": "B9",
+          "category": "Bảng kiểm 3 KHÔNG & 3 NÊN",
+          "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+          "badge_class": "badge-algo",
+          "front": "Trình bày bảng kiểm hành động tại giường <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> & <span style=\"color:#51cf66\"><b>3 NÊN</b></span> trong cấp cứu Viêm màng não mủ ở trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br><b>3 KHÔNG:</b><br>1) ❌ <span style=\"color:#ff6b6b\"><b>KHÔNG trì hoãn kháng sinh</b></span> để chờ chọc DNT hay chờ chụp CT não (cấy máu rồi tiêm KS ngay trong 60 phút).<br>2) ❌ <span style=\"color:#ff6b6b\"><b>KHÔNG dùng Ceftriaxone cho trẻ sơ sinh</b></span> (&lt; 28 ngày) do nguy cơ vàng da nhân não và kết tủa sỏi Calci.<br>3) ❌ <span style=\"color:#ff6b6b\"><b>KHÔNG tiêm Dexamethasone khi kháng sinh đã dùng quá 4 giờ</b></span>.<br><br><b>3 NÊN:</b><br>1) ✔️ <span style=\"color:#51cf66\"><b>NÊN tiêm Dexamethasone trước 10 – 20 phút</b></span> hoặc đồng thời liều kháng sinh đầu để giảm 35% di chứng điếc.<br>2) ✔️ <span style=\"color:#51cf66\"><b>NÊN bấm đường máu mao mạch cùng lúc</b></span> khi chọc DNT để tính tỷ lệ Glucose DNT/Máu.<br>3) ✔️ <span style=\"color:#51cf66\"><b>NÊN uống Rifampicin dự phòng trong 24 giờ</b></span> cho tất cả người tiếp xúc gần ca Não mô cầu.<br><br><b>💡 Giải thích của AI:</b><br>Bảng kiểm Do's and Don'ts này cô đọng các quyết định cứu mạng và loại bỏ hoàn toàn các sai lầm kinh điển thường gặp nhất ở phòng cấp cứu.",
+          "extra": "Mavis Emergency Algorithm | NICE NG240 | Cochrane 2015",
+          "tags": [
+            "PED-37",
+            "Thuat_toan_quyet_dinh",
+            "B9"
+          ]
+        },
+        {
+          "id": "PED37-B9-02",
+          "type": "basic",
+          "section": "B9",
+          "category": "Thuật toán giải mã DNT",
+          "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+          "badge_class": "badge-algo",
+          "front": "Trình bày <span style=\"color:#51cf66\"><b>công thức tính và bảng giải mã 3 ngưỡng cắt</b></span> của <span style=\"color:#74c0fc\"><b>Tỷ lệ Glucose DNT / Máu</b></span> và <span style=\"color:#74c0fc\"><b>Lactate DNT</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br><b>1) Tỷ lệ Glucose DNT / Máu (CSF/Blood Glucose Ratio):</b><br>- <span style=\"color:#51cf66\"><b>≥ 0.6:</b></span> Bình thường.<br>- <span style=\"color:#ffd43b\"><b>0.4 – 0.5:</b></span> Ranh giới nghi ngờ.<br>- <span style=\"color:#ff6b6b\"><b>&lt; 0.4 (đặc biệt &lt; 0.2):</b></span> Khẳng định tổn thương tiêu thụ glucose và hỏng vận chuyển GLUT-1 \rightarrow Hướng tới Viêm màng não mủ/Lao.<br><br><b>2) Nồng độ Lactate DNT:</b><br>- <span style=\"color:#51cf66\"><b>&lt; 2.5 mmol/L (&lt; 25 mg/dL):</b></span> Bình thường hoặc viêm màng não virus.<br>- <span style=\"color:#ffd43b\"><b>2.5 – 3.5 mmol/L:</b></span> Vùng xám cần theo dõi.<br>- <span style=\"color:#ff6b6b\"><b>≥ 3.8 – 4.0 mmol/L (≥ 35 mg/dL):</b></span> Tiêu chuẩn vàng gợi ý Viêm màng não mủ (Độ nhạy 93%, độ đặc hiệu 96%).<br><br><b>💡 Giải thích của AI:</b><br>Hai xét nghiệm sinh hóa này tạo thành bộ đôi định lượng độc lập giúp loại trừ hoặc khẳng định nhanh viêm màng não mủ trong khi chờ đợi kết quả soi cấy.",
+          "extra": "Huy NT et al. Crit Care 2010 (PMID: 21194480) | IDSA 2004",
+          "tags": [
+            "PED-37",
+            "Thuat_toan_quyet_dinh",
+            "B9"
+          ]
+        },
+        {
+          "id": "PED37-B9-03",
+          "type": "basic",
+          "section": "B9",
+          "category": "Lưu đồ phân nhánh cấp cứu",
+          "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+          "badge_class": "badge-algo",
+          "front": "Trình bày <span style=\"color:#51cf66\"><b>lưu đồ phân nhánh nhị phân (Binary Decision Flowchart)</b></span> tiếp cận chọc DNT vs Kháng sinh tại giường cấp cứu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1: Trẻ có sốc tụt huyết áp hoặc suy hô hấp nặng?</b><br>- <b>CÓ:</b> Hồi sức ABC tức thì \rightarrow Cấy máu tại giường \rightarrow Tiêm ngay Kháng sinh TM + Dexamethasone \rightarrow <span style=\"color:#ff6b6b\"><b>HOÃN CHỌC DNT</b></span>.<br>- <b>KHÔNG:</b> Chuyển sang Bước 2.<br>2) <b>Bước 2: Trẻ có dấu hiệu cờ đỏ dọa tụt kẹt não? (GCS ≤ 8, co giật mới, đồng tử bất thường, tam chứng Cushing)</b><br>- <b>CÓ:</b> Cấy máu tại giường \rightarrow Tiêm ngay Kháng sinh TM + Dexamethasone \rightarrow Chụp CT sọ não cấp \rightarrow <span style=\"color:#ff6b6b\"><b>HOÃN CHỌC DNT</b></span>.<br>- <b>KHÔNG:</b> <span style=\"color:#51cf66\"><b>CHỌC DÒ TỦY SỐNG NGAY LẬP TỨC</b></span> \rightarrow Tiêm ngay Kháng sinh TM + Dexamethasone theo tuổi.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ này bảo đảm bệnh nhân không bao giờ bị trì hoãn kháng sinh quá 60 phút và không bao giờ bị đè ra chọc dò khi đang có nguy cơ tụt não.",
+          "extra": "NICE NG240 (PMID: 20584794) | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Thuat_toan_quyet_dinh",
+            "B9"
+          ]
+        },
+        {
+          "id": "PED37-B9-04",
+          "type": "basic",
+          "section": "B9",
+          "category": "Bảng liều thuốc bỏ túi",
+          "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+          "badge_class": "badge-algo",
+          "front": "Trình bày <span style=\"color:#51cf66\"><b>bảng liều thuốc bỏ túi thực chiến</b></span> cho 4 thuốc chủ lực trong điều trị viêm màng não mủ ở trẻ em?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ceftriaxone:</b></span> <span style=\"color:#ffd43b\"><b>100 mg/kg/ngày</b></span> (Max 4 g) TM 1 lần/ngày (Trẻ > 1 tháng; cấm sơ sinh).<br>2) <span style=\"color:#74c0fc\"><b>Cefotaxime:</b></span> Sơ sinh <span style=\"color:#ffd43b\"><b>150 – 200 mg/kg/ngày</b></span>; Trẻ lớn <span style=\"color:#ffd43b\"><b>200 – 300 mg/kg/ngày</b></span> chia 3 – 4 lần TM.<br>3) <span style=\"color:#74c0fc\"><b>Ampicillin:</b></span> <span style=\"color:#ffd43b\"><b>200 – 300 mg/kg/ngày</b></span> chia 3 – 4 lần TM (bắt buộc cho sơ sinh để diệt Listeria).<br>4) <span style=\"color:#74c0fc\"><b>Vancomycin:</b></span> <span style=\"color:#ffd43b\"><b>60 mg/kg/ngày</b></span> chia 4 lần truyền chậm ≥ 60 phút, giữ Trough 15 – 20 mcg/ml.<br>5) <span style=\"color:#74c0fc\"><b>Dexamethasone:</b></span> <span style=\"color:#ffd43b\"><b>0.15 mg/kg mỗi 6 giờ</b></span> x 2 – 4 ngày (tiêm trước hoặc cùng lúc với kháng sinh).<br><br><b>💡 Giải thích của AI:</b><br>Bảng liều màng não này là chuẩn mực tối thiểu mà bất kỳ bác sĩ trực cấp cứu Nhi nào cũng phải thuộc lòng để xử trí không sai lệch một liều nào.",
+          "extra": "IDSA Guidelines | PIDS Guidelines | Nelson 21st ed.",
+          "tags": [
+            "PED-37",
+            "Thuat_toan_quyet_dinh",
+            "B9"
+          ]
+        },
+        {
+          "id": "PED37-B1-05",
+          "type": "basic",
+          "section": "B1",
+          "category": "Đặc điểm vi sinh Phế cầu",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Nêu <span style=\"color:#ffd43b\"><b>hình thái học nhuộm Gram và yếu tố độc lực chính</b></span> của <span style=\"color:#74c0fc\"><b>Streptococcus pneumoniae (Phế cầu)</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái Gram:</b> <span style=\"color:#74c0fc\"><b>Cầu khuẩn Gram dương, hình ngọn nến hoặc quả hạnh nhân</b></span> xếp đôi (Diplococci), tan máu alpha.<br>2) <b>Độc lực chính:</b><br>- <span style=\"color:#ff6b6b\"><b>Lớp vỏ Polysaccharide:</b></span> Chống lại sự thực bào của bạch cầu đa nhân.<br>- <span style=\"color:#ff6b6b\"><b>Pneumolysin:</b></span> Độc tố phá hủy tế bào nội mô và tế bào thần kinh đệm.<br>- <span style=\"color:#ff6b6b\"><b>Protease IgA:</b></span> Phá hủy kháng thể niêm mạc tỵ hầu.<br><br><b>💡 Giải thích của AI:</b><br>Hình thái quả hạnh nhân xếp đôi bắt màu tím Gram dương là hình ảnh kinh điển trên tiêu bản soi tươi DNT giúp định hướng phác đồ kháng sinh ngay trong 30 phút đầu.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B1-06",
+          "type": "basic",
+          "section": "B1",
+          "category": "Đặc điểm vi sinh Não mô cầu",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Nêu <span style=\"color:#ffd43b\"><b>hình thái học nhuộm Gram và yếu tố độc lực chính</b></span> của <span style=\"color:#74c0fc\"><b>Neisseria meningitidis (Não mô cầu)</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái Gram:</b> <span style=\"color:#74c0fc\"><b>Song cầu khuẩn Gram âm, hình hạt cà phê</b></span> đứng đôi, nằm trong hoặc ngoài bạch cầu đa nhân.<br>2) <b>Độc lực chính:</b><br>- <span style=\"color:#ff6b6b\"><b>Nội độc tố Lipooligosaccharide (LOS):</b></span> Gây độc tế bào nội mô mao mạch dữ dội, kích hoạt bão cytokine và đông máu nội mạch rải rác (DIC).<br>- Vỏ polysaccharide chia thành các nhóm huyết thanh (A, B, C, W-135, Y, X).<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ nội độc tố LOS trong máu của bệnh nhân nhiễm Não mô cầu cao gấp hàng trăm lần so với các vi khuẩn Gram âm khác, giải thích tốc độ trụy mạch và tử vong tính bằng giờ.",
+          "extra": "ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B2-04",
+          "type": "basic",
+          "section": "B2",
+          "category": "Cơ chế Hội chứng Waterhouse-Friderichsen",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Trình bày <span style=\"color:#ffd43b\"><b>chuỗi cơ chế sinh bệnh học</b></span> của <span style=\"color:#ff6b6b\"><b>Hội chứng Waterhouse-Friderichsen</b></span> trong nhiễm trùng huyết Não mô cầu?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Não mô cầu nhân lên nhanh chóng trong máu giải phóng lượng lớn nội độc tố LOS.<br>2) LOS kích hoạt tế bào nội mô toàn thân bộc lộ yếu tố mô (Tissue Factor) → Kích hoạt chuỗi đông máu ngoại sinh ồ ạt.<br>3) Gây <span style=\"color:#ff6b6b\"><b>Đông máu nội mạch rải rác (DIC)</b></span> và huyết khối tắc các vi mạch tuyến thượng thận.<br>4) Dẫn tới <span style=\"color:#ff6b6b\"><b>xuất huyết hoại tử hai bên vỏ thượng thận</b></span> → Suy tuyến thượng thận cấp trụy mạch không hồi phục với bù dịch và vận mạch đơn thuần nếu thiếu Corticosteroid.<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng Waterhouse-Friderichsen là biến chứng tối cấp của Não mô cầu, đòi hỏi phải phối hợp Hydrocortisone liều sốc ngay tại giường.",
+          "extra": "Robbins Basic Pathology 10th ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B2-05",
+          "type": "basic",
+          "section": "B2",
+          "category": "Cơ chế giảm Glucose DNT",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao trong viêm màng não mủ nồng độ <span style=\"color:#74c0fc\"><b>Glucose trong DNT lại giảm sâu (&lt; 2.2 mmol/L)</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng tiêu thụ cục bộ:</b> Vi khuẩn nhân lên và hàng triệu bạch cầu đa nhân trung tính thực bào tiêu thụ lượng lớn glucose để tạo năng lượng.<br>2) <b>Tổn thương hàng rào vận chuyển:</b> Phản ứng viêm màng mềm làm tổn thương <span style=\"color:#ff6b6b\"><b>protein vận chuyển GLUT-1</b></span> trên tế bào nội mô mao mạch não, làm suy giảm nghiêm trọng sự khuếch tán glucose từ máu vào khoang dưới nhện.<br>3) Kết hợp cả hai yếu tố làm tỷ lệ Glucose DNT / Máu tụt dốc dưới <span style=\"color:#ffd43b\"><b>&lt; 0.4 (thậm chí &lt; 0.2)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giảm đường DNT phản ánh sự phối hợp giữa tiêu thụ tăng vọt và suy giảm khả năng vận chuyển qua hàng rào máu não bị viêm.",
+          "extra": "IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B3-04",
+          "type": "basic",
+          "section": "B3",
+          "category": "Tư thế cò súng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ff6b6b\"><b>Tư thế Cò súng (Opisthotonos)</b></span> trong viêm màng não mủ được mô tả như thế nào và <span style=\"color:#ffd43b\"><b>ý nghĩa sinh lý bệnh</b></span> của nó là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mô tả:</b> Trẻ nằm nghiêng, thân người ưỡn cong ra sau, đầu ngửa tối đa, hai chân co gấp lên sát bụng.<br>2) <b>Ý nghĩa sinh lý bệnh:</b> Đây là tư thế chống đau tự nhiên của cơ thể nhằm <span style=\"color:#51cf66\"><b>làm chùng tối đa màng tủy sống và các rễ thần kinh thắt lưng</b></span> đang bị viêm kích thích căng kéo dữ dội.<br><br><b>💡 Giải thích của AI:</b><br>Tư thế cò súng là biểu hiện kích thích màng não toàn diện rất nặng ở trẻ lớn, thường đi kèm với tăng áp lực nội sọ rõ rệt.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B3-05",
+          "type": "basic",
+          "section": "B3",
+          "category": "Phân biệt ban Não mô cầu vs Dị ứng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Làm thế nào để phân biệt <span style=\"color:#ff6b6b\"><b>Tử ban sao Não mô cầu</b></span> với <span style=\"color:#74c0fc\"><b>ban xuất huyết dị ứng (Henoch-Schönlein / Mày đay)</b></span> tại giường?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nghiệm pháp ấn kính (Glass test):</b> Tử ban sao ấn kính <span style=\"color:#ff6b6b\"><b>KHÔNG MẤT MÀU</b></span> (xuất huyết thật sự), trong khi ban mày đay dị ứng ấn kính mất màu.<br>2) <b>Hình thái tổn thương:</b> Tử ban sao có dạng chấm sao hoặc mảng hoại tử màu tím đen ở trung tâm, bờ nham nhở hình bản đồ, lan nhanh trong vài giờ.<br>3) <b>Toàn trạng:</b> Nhiễm Não mô cầu luôn đi kèm với tình trạng <span style=\"color:#ff6b6b\"><b>nhiễm trùng nhiễm độc cấp tính, sốt cao, tụt huyết áp, CRT kéo dài</b></span>, trong khi HSP thường trẻ vẫn tỉnh táo và xuất hiện ưu thế ở chi dưới đối xứng.<br><br><b>💡 Giải thích của AI:</b><br>Mọi ban xuất huyết hoại tử kèm sốt cấp tính bắt buộc phải xử trí như Não mô cầu cho đến khi có bằng chứng ngược lại.",
+          "extra": "NICE NG240 (PMID: 20584794)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B4-04",
+          "type": "basic",
+          "section": "B4",
+          "category": "Phân biệt chọc chạm mạch",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Làm thế nào để phân biệt dịch não tủy <span style=\"color:#ff6b6b\"><b>chọc chạm mạch máu ngoài màng cứng (Traumatic Tap)</b></span> với <span style=\"color:#ff6b6b\"><b>Xuất huyết dưới nhện thật sự</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thử nghiệm 3 ống nghiệm (Three-tube test):</b> Hứng DNT vào 3 ống liên tiếp:<br>- <i>Chọc chạm mạch:</i> Màu đỏ máu <span style=\"color:#51cf66\"><b>nhạt dần rõ rệt từ ống 1 sang ống 3</b></span>.<br>- <i>Xuất huyết dưới nhện:</i> Cả 3 ống đều đỏ đều như nhau.<br>2) <b>Ly tâm dịch não tủy:</b><br>- <i>Chọc chạm mạch:</i> Nước nổi trên bề mặt sau ly tâm <span style=\"color:#51cf66\"><b>trong suốt không màu</b></span>.<br>- <i>Xuất huyết dưới nhện:</i> Nước nổi có <span style=\"color:#ff6b6b\"><b>màu vàng chanh (Xanthochromia)</b></span> do hemoglobin đã bị thoái hóa thành bilirubin.<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt chạm mạch giúp tránh chẩn đoán nhầm xuất huyết não và không bỏ sót viêm màng não mủ bị máu che lấp.",
+          "extra": "Clinical Examination Skills | Nelson 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B4"
+          ]
+        },
+        {
+          "id": "PED37-B5-04",
+          "type": "basic",
+          "section": "B5",
+          "category": "Phân biệt DNT Mủ vs Lao",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ffd43b\"><b>Ba điểm mấu chốt</b></span> phân biệt Dịch não tủy giữa <span style=\"color:#74c0fc\"><b>Viêm màng não mủ</b></span> và <span style=\"color:#74c0fc\"><b>Viêm màng não Lao</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Công thức bạch cầu:</b> Viêm màng não mủ có <span style=\"color:#ff6b6b\"><b>Neutrophil chiếm ưu thế tuyệt đối (> 80%)</b></span>; Viêm màng não Lao có <span style=\"color:#74c0fc\"><b>Lymphocyte chiếm ưu thế (> 80%)</b></span>.<br>2) <b>Màu sắc và màng nhện:</b> DNT mủ đục như nước vo gạo; DNT lao thường trong hoặc vàng chanh, để lắng 24h có thể tạo <span style=\"color:#ffd43b\"><b>mạng nhện (fibrin pellicle)</b></span>.<br>3) <b>Bệnh cảnh khởi phát:</b> Mủ khởi phát cấp tính dữ dội trong 24 – 48 giờ; Lao diễn tiến bán cấp từ từ qua 2 – 3 tuần với liệt dây thần kinh sọ (dây III, VI, VII) do viêm màng nhện nền sọ.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai bệnh đều có protein tăng cao và glucose giảm sâu, do đó thành phần tế bào (Neutro vs Lympho) và thời gian diễn tiến là chìa khóa phân biệt.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B5"
+          ]
+        },
+        {
+          "id": "PED37-B6-06",
+          "type": "basic",
+          "section": "B6",
+          "category": "Hội chứng Red Man Vancomycin",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "<span style=\"color:#ff6b6b\"><b>Hội chứng Red Man (Hội chứng người đỏ)</b></span> do truyền Vancomycin xảy ra theo cơ chế nào và <span style=\"color:#51cf66\"><b>biện pháp dự phòng</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Do truyền Vancomycin quá nhanh kích thích trực tiếp tế bào Mast giải phóng histamin ồ ạt (phản ứng không qua trung gian IgE), gây đỏ bừng mặt, cổ, thân trên, ngứa và tụt huyết áp.<br>2) <b>Biện pháp dự phòng chuẩn:</b><br>- Pha loãng nồng độ thuốc <span style=\"color:#ffd43b\"><b>≤ 5 mg/ml</b></span> trong NaCl 0.9%.<br>- Thời gian truyền tĩnh mạch tối thiểu <span style=\"color:#ffd43b\"><b>≥ 60 phút</b></span> (hoặc tốc độ ≤ 10 mg/phút).<br>- Nếu xuất hiện hội chứng: Tạm ngưng truyền, tiêm kháng histamin H1, sau đó truyền lại với tốc độ chậm gấp đôi.<br><br><b>💡 Giải thích của AI:</b><br>Red Man Syndrome không phải là dị ứng thật sự, do đó bệnh nhân vẫn có thể tiếp tục dùng Vancomycin nếu truyền đúng tốc độ chậm.",
+          "extra": "Pediatric Drug Dosing Guidelines | IDSA",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-07",
+          "type": "basic",
+          "section": "B6",
+          "category": "Hạ bậc kháng sinh đích",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Nguyên tắc <span style=\"color:#51cf66\"><b>hạ bậc kháng sinh (De-escalation)</b></span> sau 48 – 72 giờ điều trị viêm màng não mủ khi có kết quả cấy vi khuẩn là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nếu phân lập được Phế cầu nhạy Penicillin (MIC ≤ 0.06 mcg/ml):</b> Ngưng Vancomycin, chuyển sang Penicillin G liều cao hoặc duy trì Ceftriaxone đơn độc.<br>2) <b>Nếu phân lập được Não mô cầu nhạy cảm:</b> Ngưng Vancomycin, duy trì Ceftriaxone đơn độc hoặc Penicillin G liều cao trong 5 – 7 ngày.<br>3) <b>Nếu nuôi cấy âm tính nhưng lâm sàng cải thiện ngoạn mục:</b> Tiếp tục duy trì phác đồ phối hợp đủ 10 – 14 ngày nếu chẩn đoán ban đầu là phế cầu.<br><br><b>💡 Giải thích của AI:</b><br>Hạ bậc kháng sinh giúp giảm thiểu độc tính trên thận của Vancomycin và hạn chế tối đa nguy cơ chọn lọc vi khuẩn đa kháng thuốc.",
+          "extra": "IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B7-04",
+          "type": "basic",
+          "section": "B7",
+          "category": "Liệu pháp thẩm thấu Mannitol",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Liều lượng, đường dùng và <span style=\"color:#ffd43b\"><b>ngưỡng an toàn thẩm thấu máu</b></span> khi sử dụng <span style=\"color:#51cf66\"><b>Mannitol 20%</b></span> chống phù não trong viêm màng não mủ là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liều lượng:</b> <span style=\"color:#ffd43b\"><b>0.5 – 1.0 g/kg/lần</b></span> (tương đương <span style=\"color:#ffd43b\"><b>2.5 – 5 ml/kg</b></span> dung dịch Mannitol 20%).<br>2) <b>Cách dùng:</b> Truyền tĩnh mạch nhanh trong vòng <span style=\"color:#ffd43b\"><b>20 – 30 phút</b></span> qua dây truyền có phin lọc, có thể nhắc lại mỗi 6 – 8 giờ.<br>3) <b>Ngưỡng an toàn thẩm thấu:</b> Ngừng dùng nếu áp lực thẩm thấu huyết tương vượt quá <span style=\"color:#ffd43b\"><b>> 320 mOsm/kg</b></span> (nguy cơ suy thận cấp do hoại tử ống thận cấp).<br><br><b>💡 Giải thích của AI:</b><br>Mannitol tạo chênh lệch áp lực thẩm thấu rút nước từ khoang kẽ não vào lòng mạch giúp giảm áp lực nội sọ sau 15 – 30 phút.",
+          "extra": "PALS Guidelines | Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B7"
+          ]
+        },
+        {
+          "id": "PED37-B8-04",
+          "type": "basic",
+          "section": "B8",
+          "category": "Đo thính lực sau xuất viện",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#51cf66\"><b>đo thính lực định lượng (ABR / OAE)</b></span> trong vòng <span style=\"color:#ffd43b\"><b>4 – 6 tuần sau xuất viện</b></span> là quy chuẩn bắt buộc cho mọi trẻ viêm màng não mủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điếc thần kinh giác quan là di chứng phổ biến nhất (10% – 20%), diễn tiến âm thầm khó phát hiện bằng mắt thường ở trẻ nhỏ.<br>2) Tổn thương xơ hóa ốc tai (Cochlear ossification) có thể tiến triển nhanh chóng sau viêm màng não mủ do Phế cầu.<br>3) <b>Can thiệp sớm:</b> Phát hiện điếc sớm cho phép phẫu thuật <span style=\"color:#51cf66\"><b>Cấy ốc tai điện tử (Cochlear Implant)</b></span> trước khi ốc tai bị xơ hóa hoàn toàn, giúp trẻ duy trì khả năng ngôn ngữ và phát triển trí tuệ bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Nếu bỏ sót đo thính lực, trẻ sẽ bị câm điếc vĩnh viễn và mất đi cơ hội vàng để cấy điện cực ốc tai thành công.",
+          "extra": "AAP Guidelines | ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B10-01",
+          "type": "basic",
+          "section": "B10",
+          "category": "Sai lầm trì hoãn CT",
+          "badge": "Depth Contract",
+          "badge_class": "badge-ebm",
+          "front": "Bác bỏ quan niệm sai lầm: <i>\"Phải cho trẻ chụp CT Scan sọ não xong để loại trừ tăng ALNS rồi mới được dùng kháng sinh.\"</i>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất sai lầm:</b> Chụp CT sọ não làm chậm trễ thời gian dùng kháng sinh từ 2 đến 4 giờ, làm tăng tỷ lệ tử vong và di chứng não không thể cứu vãn.<br>2) <b>Quy tắc chuẩn:</b> Chỉ định chụp CT trước chọc DNT chỉ áp dụng khi có dấu hiệu cờ đỏ tụt não (hôn mê, co giật mới, dấu thần kinh khu trú).<br>3) <b>Hành động bắt buộc:</b> Trong mọi trường hợp chỉ định chụp CT, <span style=\"color:#51cf66\"><b>phải cấy máu và tiêm ngay liều kháng sinh tĩnh mạch đầu tiên</b></span> trước khi đưa bệnh nhân rời khỏi phòng cấp cứu đi chụp phim!<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhân chết vì vi khuẩn nhân lên tàn phá não chứ không chết vì thiếu phim CT. Kháng sinh luôn luôn đi trước chụp phim.",
+          "extra": "NICE NG240 (PMID: 20584794) | IDSA 2004",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B10"
+          ]
+        },
+        {
+          "id": "PED37-B10-02",
+          "type": "basic",
+          "section": "B10",
+          "category": "Sai lầm chọc DNT lần 2",
+          "badge": "Depth Contract",
+          "badge_class": "badge-ebm",
+          "front": "Bác bỏ quan niệm sai lầm: <i>\"Mọi trẻ viêm màng não mủ bắt buộc phải được chọc dò tủy sống kiểm tra lần 2 trước khi xuất viện.\"</i>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất sai lầm:</b> Không có chỉ định chọc DNT thường quy trước khi xuất viện nếu trẻ đáp ứng lâm sàng tốt, hết sốt và tri giác hồi phục hoàn toàn.<br>2) <b>Chỉ định chọc DNT lần 2 duy nhất:</b> Chỉ làm khi trẻ sốt dai dẳng sau <span style=\"color:#ffd43b\"><b>48 – 72 giờ</b></span> điều trị kháng sinh đúng phác đồ, hoặc nghi ngờ nhiễm vi khuẩn kháng thuốc (Phế cầu kháng Cephalosporin), hoặc viêm màng não do trực khuẩn Gram âm ở trẻ sơ sinh.<br><br><b>💡 Giải thích của AI:</b><br>Chọc DNT lặp lại không cần thiết gây đau đớn cho trẻ và tăng nguy cơ nhiễm trùng bệnh viện thứ phát.",
+          "extra": "IDSA 2004 (PMID: 15494903) | CPS 2014",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B10"
+          ]
+        },
+        {
+          "id": "PED37-B10-03",
+          "type": "basic",
+          "section": "B10",
+          "category": "Bạch cầu DNT thấp tiên lượng nặng",
+          "badge": "Depth Contract",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao trong viêm màng não mủ tối cấp, trường hợp <span style=\"color:#ff6b6b\"><b>Bạch cầu DNT rất thấp (&lt; 100 /mm3)</b></span> lại có <span style=\"color:#ff6b6b\"><b>tiên lượng tử vong cao nhất</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số lượng bạch cầu DNT thấp trong bối cảnh soi tươi thấy <span style=\"color:#ff6b6b\"><b>đầy nghẹt vi khuẩn</b></span> phản ánh tình trạng <span style=\"color:#ff6b6b\"><b>suy kiệt miễn dịch hoặc nhiễm trùng tối cấp bùng phát quá nhanh</b></span> khiến tủy xương và hệ miễn dịch chưa kịp huy động bạch cầu đến khoang dưới nhện.<br>2) Tải lượng vi khuẩn cực lớn không bị thực bào giải phóng lượng độc tố khổng lồ gây phù não ác tính và sốc nhiễm khuẩn tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Đừng bao giờ để số lượng bạch cầu DNT thấp đánh lừa là bệnh nhẹ nếu tiêu bản soi Gram thấy đầy cầu khuẩn hoặc trực khuẩn.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B10"
+          ]
+        },
+        {
+          "id": "PED37-B0-04",
+          "type": "basic",
+          "section": "B0",
+          "category": "Bản chất viêm mạch não",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao viêm màng não mủ được coi là một <span style=\"color:#ff6b6b\"><b>bệnh lý viêm mạch máu não (Vasculitis)</b></span> chứ không chỉ đơn thuần là viêm màng mềm?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch mủ viêm trong khoang dưới nhện bao bọc trực tiếp quanh các mạch máu màng nuôi và động mạch não xuyên.<br>2) Phản ứng viêm gây <span style=\"color:#ff6b6b\"><b>viêm tắc nội mạc động mạch não (Endarteritis)</b></span> và viêm tắc tĩnh mạch não.<br>3) Dẫn tới hình thành huyết khối, co thắt mạch não và <span style=\"color:#ff6b6b\"><b>nhồi máu não cục bộ thứ phát</b></span> ở vỏ não và chất trắng dưới vỏ.<br><br><b>💡 Giải thích của AI:</b><br>Viêm mạch máu não thứ phát giải thích vì sao nhiều trẻ viêm màng não dù kiểm soát được nhiễm trùng vẫn bị liệt nửa người hoặc co giật do các ổ nhồi máu não.",
+          "extra": "ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B0"
+          ]
+        },
+        {
+          "id": "PED37-B1-07",
+          "type": "basic",
+          "section": "B1",
+          "category": "Vi khuẩn sinh ESBL ở NICU",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Ở trẻ sơ sinh nằm điều trị kéo dài tại khoa Hồi sức Sơ sinh (NICU), căn nguyên viêm màng não nào cần lưu ý và <span style=\"color:#51cf66\"><b>kháng sinh thay thế</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Căn nguyên nhiễm trùng bệnh viện:</b> Trực khuẩn Gram âm kháng thuốc sinh men Beta-lactamase phổ rộng (ESBL) như <span style=\"color:#74c0fc\"><b>Klebsiella pneumoniae</b></span>, <span style=\"color:#74c0fc\"><b>Enterobacter cloacae</b></span>, và trực khuẩn mủ xanh <span style=\"color:#74c0fc\"><b>Pseudomonas aeruginosa</b></span>.<br>2) <b>Kháng sinh thay thế:</b> Chuyển sang nhóm Carbapenem màng não: <span style=\"color:#51cf66\"><b>Meropenem (120 mg/kg/ngày chia 3 lần truyền kéo dài 3 giờ)</b></span> phối hợp Amikacin.<br><br><b>💡 Giải thích của AI:</b><br>Cefotaxime bị bất hoạt bởi men ESBL, do đó Meropenem liều cao là vũ khí cứu cánh cho các ca viêm màng não Gram âm bệnh viện.",
+          "extra": "IDSA Guidelines | NICU Protocols",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B1-08",
+          "type": "basic",
+          "section": "B1",
+          "category": "Nguy cơ ở trẻ cắt lách",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao trẻ em bị <span style=\"color:#ff6b6b\"><b>cắt lách hoặc thiếu máu hồng cầu hình liềm (Asplenia)</b></span> có nguy cơ tử vong tối cấp do viêm màng não?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lách là cơ quan lọc máu chính để đại thực bào bắt giữ và thực bào các <span style=\"color:#74c0fc\"><b>vi khuẩn có vỏ polysaccharide</b></span> (Phế cầu, Não mô cầu, Hib).<br>2) Lách là nơi sản xuất kháng thể opsonin hóa và thành phần bổ thể.<br>3) Thiếu lách khiến vi khuẩn có vỏ nhân lên tự do trong máu gây nhiễm trùng huyết bùng phát tối cấp (OPSI - Overwhelming Post-Splenectomy Infection) dẫn tới tử vong trong 12 – 24 giờ.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ cắt lách bắt buộc phải tiêm phòng vắc xin phế cầu, não mô cầu, Hib đầy đủ và uống Penicillin dự phòng hàng ngày.",
+          "extra": "AAP Red Book | Nelson 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B1"
+          ]
+        },
+        {
+          "id": "PED37-B2-06",
+          "type": "basic",
+          "section": "B2",
+          "category": "Nguy cơ tăng thông khí quá mức",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao trong hồi sức thở máy cho trẻ viêm màng não mủ tăng áp lực nội sọ, <span style=\"color:#ff6b6b\"><b>tăng thông khí quá mức (PaCO2 &lt; 30 mmHg) lại bị nghiêm cấm</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khí CO2 là chất giãn mạch não sinh lý mạnh nhất. Hạ PaCO2 làm co mạch não giúp giảm thể tích máu trong hộp sọ làm hạ ICP nhanh.<br>2) Tuy nhiên, nếu hạ PaCO2 quá mức (&lt; 30 – 35 mmHg), <span style=\"color:#ff6b6b\"><b>mạch máu não sẽ co thắt dữ dội</b></span>.<br>3) Hậu quả: Dẫn tới <span style=\"color:#ff6b6b\"><b>thiếu máu não cục bộ nặng nề</b></span>, làm trầm trọng thêm tổn thương hoại tử nhu mô não.<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu chuẩn khi thở máy bảo vệ não là duy trì PaCO2 ở mức bình thường thấp: 35 – 40 mmHg.",
+          "extra": "PALS Guidelines | Neurocritical Care",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B2"
+          ]
+        },
+        {
+          "id": "PED37-B3-06",
+          "type": "basic",
+          "section": "B3",
+          "category": "Liệt dây thần kinh sọ III và VI",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Giải thích cơ chế xuất hiện <span style=\"color:#ff6b6b\"><b>liệt dây thần kinh sọ III (sụp mi, giãn đồng tử)</b></span> và <span style=\"color:#ff6b6b\"><b>liệt dây VI (lác trong)</b></span> trong viêm màng não mủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liệt dây VI (Thần kinh vận nhãn ngoài):</b> Dây VI có đường đi trong khoang dưới nhện dài nhất từ thân não đến xương đá → Dễ bị căng kéo và chèn ép nhất khi áp lực nội sọ tăng cao, gây mất khả năng liếc mắt ra ngoài (mắt bị lác vào trong).<br>2) <b>Liệt dây III (Thần kinh vận nhãn):</b> Thường xuất hiện khi có thoát vị hồi hải mã qua lều tiểu não, chèn ép trực tiếp vào dây III đi ở bờ lều → Gây sụp mi, dãn đồng tử và mất phản xạ ánh sáng cùng bên.<br><br><b>💡 Giải thích của AI:</b><br>Liệt dây VI có thể là dấu hiệu định vị giả của tăng ALNS, nhưng liệt dây III một bên kèm dãn đồng tử là dấu hiệu cờ đỏ của tụt kẹt não sắp xảy ra.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B3"
+          ]
+        },
+        {
+          "id": "PED37-B4-05",
+          "type": "basic",
+          "section": "B4",
+          "category": "Rối loạn đông máu và chọc DNT",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#ff6b6b\"><b>tiểu cầu &lt; 50.000 /mm3 hoặc rối loạn đông máu nặng</b></span> là chống chỉ định chọc dò tủy sống?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đưa kim chọc qua khoang ngoài màng cứng thắt lưng nơi có đám rối tĩnh mạch phong phú.<br>2) Rối loạn đông máu khiến máu chảy không tự cầm được → Tạo <span style=\"color:#ff6b6b\"><b>khối máu tụ ngoài màng cứng hoặc dưới màng cứng tủy sống (Spinal Epidural Hematoma)</b></span>.<br>3) Khối máu tụ chèn ép trực tiếp vào chùm đuôi ngựa và tủy sống gây liệt mềm hai chi dưới vĩnh viễn và mất tự chủ đại tiểu tiện.<br><br><b>💡 Giải thích của AI:</b><br>Nếu nghi ngờ viêm màng não kèm giảm tiểu cầu nặng: Cấy máu, tiêm kháng sinh ngay, truyền tiểu cầu nâng lên > 50.000/mm3 rồi mới cân nhắc chọc DNT.",
+          "extra": "ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B4"
+          ]
+        },
+        {
+          "id": "PED37-B5-05",
+          "type": "basic",
+          "section": "B5",
+          "category": "PCR và Kháng nguyên hòa tan DNT",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Giá trị của xét nghiệm <span style=\"color:#51cf66\"><b>PCR đa mồi (Multiplex PCR) và Kháng nguyên hòa tan</b></span> trong DNT khi bệnh nhân đã dùng kháng sinh trước khi chọc dò là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hạn chế của nuôi cấy:</b> Dùng 1 liều kháng sinh tĩnh mạch có thể làm vi khuẩn bị tiêu diệt và cấy DNT âm tính sau 2 – 4 giờ.<br>2) <b>Ưu thế của PCR:</b> Khuếch đại đoạn gen DNA của vi khuẩn (Phế cầu, Não mô cầu, Hib) còn sót lại trong DNT, vẫn cho kết quả dương tính trong vòng <span style=\"color:#ffd43b\"><b>48 – 72 giờ</b></span> sau khi đã tiêm kháng sinh.<br>3) Giúp xác định chính xác danh tính vi khuẩn để hạ bậc kháng sinh trúng đích.<br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm sinh học phân tử PCR và ngưng kết latex kháng nguyên hòa tan đã giải quyết khó khăn kinh điển của các ca viêm màng não mủ mất đầu (đã dùng kháng sinh tuyến trước).",
+          "extra": "IDSA Guidelines | NICE NG240",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B5"
+          ]
+        },
+        {
+          "id": "PED37-B6-08",
+          "type": "basic",
+          "section": "B6",
+          "category": "Phế cầu kháng Cephalosporin",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Phác đồ kháng sinh điều trị viêm màng não mủ do <span style=\"color:#ff6b6b\"><b>Streptococcus pneumoniae kháng Cephalosporin (MIC ≥ 1.0 mcg/ml)</b></span> là gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phác đồ phối hợp bắt buộc:</b> <span style=\"color:#51cf66\"><b>Ceftriaxone (100 mg/kg/ngày) + Vancomycin (60 mg/kg/ngày)</b></span>.<br>2) <b>Nếu không đáp ứng lâm sàng sau 48h:</b> Có thể phối hợp thêm <span style=\"color:#51cf66\"><b>Rifampicin (20 mg/kg/ngày chia 2 lần TM/uống)</b></span>.<br>3) <b>Cơ chế hiệp đồng:</b> Vancomycin phối hợp Ceftriaxone tạo tác dụng diệt khuẩn hiệp đồng cực mạnh trên thành tế bào phế cầu kháng thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Tuyệt đối không dùng Rifampicin đơn độc vì vi khuẩn phát triển đột biến kháng thuốc rất nhanh chóng.",
+          "extra": "IDSA 2004 (PMID: 15494903)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B6-09",
+          "type": "basic",
+          "section": "B6",
+          "category": "Cấm pha Ceftriaxone với Calci",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#ff6b6b\"><b>tuyệt đối cấm pha Ceftriaxone với các dung dịch chứa Calci (như Ringer Lactat)</b></span> hoặc tiêm chung cùng một đường truyền?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ceftriaxone tạo phức hợp liên kết hóa học cực kỳ bền vững với ion Calci.<br>2) Tạo thành các <span style=\"color:#ff6b6b\"><b>tinh thể muối Calci-Ceftriaxone không tan</b></span> lắng đọng tắc nghẽn trong vi mạch phổi và cầu thận.<br>3) Dẫn tới suy hô hấp cấp, thuyên tắc mạch phổi và suy thận cấp tử vong ngay trên bàn truyền dịch.<br>4) <b>Quy tắc an toàn:</b> Chỉ pha Ceftriaxone trong <span style=\"color:#51cf66\"><b>NaCl 0.9% hoặc Glucose 5%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>FDA đã ban hành cảnh báo đen cấm trộn lẫn Ceftriaxone với bất kỳ chế phẩm chứa Calci nào trên toàn thế giới.",
+          "extra": "FDA Black Box Warning",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B6"
+          ]
+        },
+        {
+          "id": "PED37-B7-05",
+          "type": "basic",
+          "section": "B7",
+          "category": "Muối ưu trương NaCl 3%",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Khi nào bác sĩ lâm sàng ưu tiên lựa chọn <span style=\"color:#51cf66\"><b>Dung dịch Muối ưu trương (NaCl 3%)</b></span> hơn Mannitol trong kiểm soát tăng áp lực nội sọ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khi bệnh nhân có tụt huyết áp hoặc huyết động không ổn định:</b> Mannitol gây lợi niệu thẩm thấu làm mất thể tích lòng mạch và tụt huyết áp nặng hơn; ngược lại NaCl 3% vừa kéo nước khỏi não vừa làm tăng thể tích lòng mạch giúp nâng huyết áp.<br>2) <b>Khi áp lực thẩm thấu máu đã cao (> 320 mOsm/kg):</b> Chống chỉ định dùng tiếp Mannitol.<br>3) <b>Liều lượng NaCl 3%:</b> <span style=\"color:#ffd43b\"><b>3 – 5 ml/kg</b></span> truyền tĩnh mạch trong 15 – 30 phút, duy trì Natri máu 145 – 155 mmol/L.<br><br><b>💡 Giải thích của AI:</b><br>NaCl 3% là lựa chọn hàng đầu cho bệnh nhân chấn thương sọ não hoặc viêm màng não có huyết động dao động hoặc sốc phối hợp.",
+          "extra": "Neurocritical Care Guidelines | PALS",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B7"
+          ]
+        },
+        {
+          "id": "PED37-B8-05",
+          "type": "basic",
+          "section": "B8",
+          "category": "Dấu hiệu mắt mặt trời lặn",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Mô tả dấu hiệu <span style=\"color:#ff6b6b\"><b>Mắt mặt trời lặn (Setting-sun sign)</b></span> trong biến chứng Não úng thủy sau viêm màng não mủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mô tả:</b> Nhãn cầu hai bên bị đẩy lệch xuống dưới, phần dưới của mống mắt bị che khuất bởi mi dưới, để lộ rõ củng mạc màu trắng ở phía trên con ngươi.<br>2) <b>Cơ chế:</b> Do não thất ba và não thất bên giãn to gây tăng áp lực nội sọ đè ép vào củ não sinh tư trên và trần trung não (nơi có trung tâm vận nhãn nhìn ngước lên).<br>3) <b>Chỉ định can thiệp:</b> Cần hội chẩn Ngoại thần kinh cấp để phẫu thuật đặt dẫn lưu não thất - ổ phúc mạc (VP Shunt).<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu mắt mặt trời lặn là chỉ báo điển hình của ứ nước não thất tiến triển có chèn ép thân não ở trẻ nhỏ còn thóp.",
+          "extra": "Nelson Textbook of Pediatrics 21st ed.",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B8-06",
+          "type": "basic",
+          "section": "B8",
+          "category": "Viêm tắc xoang tĩnh mạch não",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Biến chứng <span style=\"color:#ff6b6b\"><b>Viêm tắc xoang tĩnh mạch não (Cerebral Sinus Thrombosis)</b></span> trong viêm màng não mủ biểu hiện như thế nào và chẩn đoán bằng phương tiện gì?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biểu hiện nghi ngờ:</b> Trẻ xuất hiện co giật khu trú tái diễn kháng trị, tăng áp lực nội sọ dữ dội không đáp ứng điều trị thông thường, dấu thần kinh khu trú tiến triển.<br>2) <b>Phương tiện chẩn đoán xác định:</b> <span style=\"color:#51cf66\"><b>Chụp MRI sọ não có dựng hình tĩnh mạch (MRV)</b></span> hoặc chụp CT tĩnh mạch não (CTV) cho thấy hình ảnh khuyết thuốc trong lòng xoang tĩnh mạch dọc trên hoặc xoang ngang.<br>3) Xử trí: Tiếp tục kháng sinh liều cao, kiểm soát ALNS và cân nhắc dùng kháng đông Heparin trọng lượng phân tử thấp nếu không có xuất huyết não lớn.<br><br><b>💡 Giải thích của AI:</b><br>Viêm tắc tĩnh mạch não là biến chứng mạch máu nặng nề do phản ứng viêm màng mềm lan tràn vào thành các xoang tĩnh mạch lớn.",
+          "extra": "ESCMID 2016 (PMID: 27062097)",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B8"
+          ]
+        },
+        {
+          "id": "PED37-B9-05",
+          "type": "basic",
+          "section": "B9",
+          "category": "Phác đồ chuyển tiếp 1 - 3 tháng",
+          "badge": "EBM Master",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao trẻ từ <span style=\"color:#ffd43b\"><b>1 tháng đến 3 tháng tuổi</b></span> lại cần phác đồ kháng sinh kinh nghiệm phối hợp 3 thuốc <span style=\"color:#51cf66\"><b>Ampicillin + Ceftriaxone + Vancomycin</b></span>?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn chuyển tiếp miễn dịch và vi sinh:</b> Trẻ vừa có nguy cơ nhiễm các căn nguyên sơ sinh (Listeria monocytogenes, GBS), vừa bắt đầu nhiễm các căn nguyên trẻ lớn (Phế cầu, Não mô cầu, Hib).<br>2) <b>Ampicillin:</b> Bắt buộc để diệt Listeria monocytogenes (kháng Cephalosporin).<br>3) <b>Ceftriaxone/Cefotaxime:</b> Diệt Não mô cầu, Hib và trực khuẩn Gram âm.<br>4) <b>Vancomycin:</b> Bao phủ Phế cầu kháng thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ 3 thuốc này tạo nên lá chắn bao phủ toàn diện cho lứa tuổi ranh giới nguy hiểm này trước khi có kết quả cấy máu và DNT.",
+          "extra": "CPS Guidelines (PMID: 24665226) | IDSA 2004",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B9"
+          ]
+        },
+        {
+          "id": "PED37-B10-04",
+          "type": "basic",
+          "section": "B10",
+          "category": "Kỹ thuật khám thóp chuẩn",
+          "badge": "Depth Contract",
+          "badge_class": "badge-ebm",
+          "front": "Mô tả <span style=\"color:#51cf66\"><b>kỹ thuật khám thóp trước chuẩn xác</b></span> để phát hiện tăng áp lực nội sọ ở trẻ nhũ nhi?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ phải ở trạng thái <span style=\"color:#51cf66\"><b>yên tĩnh, không khóc, không bú</b></span>.<br>2) Đặt trẻ ở tư thế <span style=\"color:#51cf66\"><b>ngồi thẳng đứng hoặc bế tựa vào lòng mẹ</b></span> (không khám khi trẻ nằm ngửa vì nằm ngửa làm thóp phồng sinh lý do tăng hồi lưu máu).<br>3) Đặt nhẹ nhàng lòng các ngón tay lên thóp trước sờ cảm nhận độ căng và mạch đập: Thóp bình thường mềm phẳng và đập nhẹ theo mạch; <span style=\"color:#ff6b6b\"><b>thóp bệnh lý căng cứng, phồng vượt lên trên gờ xương sọ và mất nhịp đập</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nếu trẻ đang gào khóc, thóp sẽ phồng căng giả tạo do tăng áp lực ổ bụng dội lên tĩnh mạch nội sọ. Cần dỗ trẻ nín hoặc khám khi trẻ ngủ để có nhận định chuẩn xác.",
+          "extra": "Pediatric Clinical Examination Skills",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B10"
+          ]
+        },
+        {
+          "id": "PED37-B10-05",
+          "type": "basic",
+          "section": "B10",
+          "category": "Kiểm soát thân nhiệt bảo vệ não",
+          "badge": "Depth Contract",
+          "badge_class": "badge-ebm",
+          "front": "Vì sao <span style=\"color:#51cf66\"><b>kiểm soát hạ sốt tích cực</b></span> lại có ý nghĩa sống còn trong điều trị viêm màng não mủ?",
+          "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mỗi khi thân nhiệt tăng thêm <span style=\"color:#ffd43b\"><b>1°C</b></span>, tốc độ chuyển hóa của tế bào não tăng thêm <span style=\"color:#ffd43b\"><b>7% – 10%</b></span>, làm tăng tiêu thụ oxy và glucose của nhu mô não đang bị viêm.<br>2) Sốt cao làm tăng lưu lượng máu lên não (Cerebral Blood Flow), đẩy áp lực nội sọ (ICP) tăng vọt.<br>3) Sốt cao làm hạ thấp ngưỡng co giật, thúc đẩy co giật kéo dài gây hoại tử tế bào thần kinh.<br>4) <b>Hành động:</b> Dùng Paracetamol <span style=\"color:#ffd43b\"><b>15 mg/kg</b></span> mỗi 4 – 6 giờ, kết hợp chườm ấm để duy trì thân nhiệt &lt; 38°C.<br><br><b>💡 Giải thích của AI:</b><br>Hạ sốt trong viêm màng não mủ không chỉ là điều trị triệu chứng mà là một can thiệp hồi sức chuyển hóa bảo vệ não chủ động.",
+          "extra": "Neurocritical Care | PALS Guidelines",
+          "tags": [
+            "PED-37",
+            "Viem_mang_nao_mu",
+            "B10"
+          ]
+        }
+      ],
+      "apkg_file": "PED-37_Viem_mang_nao_mu_o_tre_em_2026-10-19_RELEASE_v1.apkg",
+      "html_file": null,
+      "folder_rel": "05_Truyen_nhiem/PED-37_Viem_mang_nao_mu_o_tre_em"
     },
     {
       "id": "PED-49",
