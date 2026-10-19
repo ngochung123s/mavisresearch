@@ -199,7 +199,6 @@ def build_payload(san_dir: Path, version: str, generated_at: str) -> dict:
             "has_ped": has_ped, "has_pedytb": has_pedytb, "has_cards": disc.get("cards_count", 0) > 0,
             "ped_file": disc.get("ped_file"), "ped_content": disc.get("ped_content", ""),
             "pedytb_file": disc.get("pedytb_file"), "pedytb_content": disc.get("pedytb_content", ""),
-            "content": disc.get("ped_content") or disc.get("pedytb_content", ""),
             # chỉ số thẻ — nội dung thẻ nằm trong APKG/cards.v2.json, viewer không đọc (bớt ~3,4 MB cho điện thoại)
             "cards_count": disc.get("cards_count", 0),
             "apkg_file": disc.get("apkg_file"), "html_file": disc.get("html_file"),
@@ -236,7 +235,9 @@ def write_outputs(payload: dict) -> None:
           "window.HUNG_MED_DATA = " + json.dumps(payload, ensure_ascii=False) + ";\n"
           "window.PED_LIBRARY_DATA = { metadata: window.HUNG_MED_DATA.metadata, "
           "curriculum: window.HUNG_MED_DATA.curriculum, lessons: window.HUNG_MED_DATA.ped };\n"
-          "window.SAN_KHOA_DATA = window.HUNG_MED_DATA.obgyn;\n")
+          "window.SAN_KHOA_DATA = window.HUNG_MED_DATA.obgyn;\n"
+          "/* lesson.content của bài Nhi = PED chuẩn, không có thì sách YTB — gán bằng tham chiếu, không lưu 2 lần */\n"
+          "window.HUNG_MED_DATA.ped.forEach(function (l) { l.content = l.ped_content || l.pedytb_content; });\n")
     DATA_JS_PATH.write_text(js, encoding="utf-8")
     CATALOG_JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 

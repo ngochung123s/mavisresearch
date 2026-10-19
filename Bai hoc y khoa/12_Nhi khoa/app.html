@@ -173,6 +173,12 @@
       overflow-y: hidden;
       padding: 2px 0;
     }
+    .prose-reader .mermaid-diagram {
+      margin: 1.2em 0;
+      overflow-x: auto;
+      text-align: center;
+    }
+    .prose-reader .mermaid-diagram svg { max-width: 100%; height: auto; }
     .prose-reader pre {
       background: var(--surface);
       padding: 14px;
@@ -674,7 +680,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261020_013054"></script>
+<script src="data.js?v=20261020_015049"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -1195,8 +1201,31 @@
       }
     }
 
+    ['singleArticleBody', 'splitPedBody', 'splitYtbBody'].forEach(id => renderMermaidIn(document.getElementById(id)));
+
     // Rule 5.7: Extract headings BEFORE heading demotion
     updateTOC(tocSourceMd, isSecondary);
+  }
+
+  // Sơ đồ ```mermaid: chỉ tải thư viện khi bài có sơ đồ; vẽ lỗi thì giữ nguyên mã dạng chữ
+  let mermaidLoader = null;
+  function renderMermaidIn(root) {
+    const blocks = root ? [...root.querySelectorAll('pre > code.language-mermaid')] : [];
+    if (!blocks.length) return;
+    mermaidLoader = mermaidLoader || import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs').then(m => m.default);
+    mermaidLoader.then(async mermaid => {
+      mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', fontFamily: 'inherit',
+                           theme: document.documentElement.classList.contains('light') ? 'default' : 'dark' });
+      for (const code of blocks) {
+        try {
+          const { svg } = await mermaid.render('mmd-' + Math.random().toString(36).slice(2), code.textContent);
+          const div = document.createElement('div');
+          div.className = 'mermaid-diagram';
+          div.innerHTML = svg;
+          code.parentElement.replaceWith(div);
+        } catch (err) { console.warn('Không vẽ được sơ đồ mermaid, giữ dạng chữ:', err); }
+      }
+    }).catch(err => console.warn('Không tải được mermaid:', err));
   }
 
   function slugify(text) {
@@ -1670,6 +1699,7 @@
     document.getElementById('priorityChip').classList.add('hidden');
     document.getElementById('keyChipsContainer').classList.add('hidden');
     document.getElementById('singleArticleBody').innerHTML = parseMarkdownWithKaTeX(lesson.content, lesson.id, false, lesson.folder_rel);
+    renderMermaidIn(document.getElementById('singleArticleBody'));
   }
 
   async function forceSyncCloud() {
