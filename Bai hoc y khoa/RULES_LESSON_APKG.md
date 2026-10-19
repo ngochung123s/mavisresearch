@@ -120,7 +120,7 @@ Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Gi�
 
 Mode `release`: T/P/D/G đều BLOCK. Mode `hotfix`: T/P/D BLOCK, G thành DEBT.
 
-Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "track": "barem_goc|ebm", "badge", "badge_class", "front", "back" | "text", "extra", "tags"}`. **Không đổi `id` của thẻ đã phát hành** (đổi id = thẻ mới, mất lịch sử ôn). Notetype chung `YKhoa_Master_Basic` / `YKhoa_Master_Cloze`.
+Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "track": "barem_goc|ebm", "badge", "badge_class", "front", "back" | "text", "extra", "tags"}`. **Không đổi `id` của thẻ đã phát hành** (đổi id = thẻ mới, mất lịch sử ôn). Notetype mặc định `YKhoa_Master_Basic` / `YKhoa_Master_Cloze`; chuyên khoa đã có deck trong Anki khai báo notetype riêng trong `specialties.json` → `models` (Nhi khoa giữ `NhiKhoa_Master_*` — **không đổi id/tên/template**, vì đổi thì import APKG sẽ bỏ qua note cùng GUID).
 
 ## 6. Anki — `anki_sync.py` (qua `--sync-anki`)
 
