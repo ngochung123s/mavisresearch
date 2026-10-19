@@ -169,13 +169,13 @@ Bác sĩ lâm sàng bắt buộc phải hoãn chọc dò tủy sống ngay lập
   - Phù gai thị (hiếm gặp trong viêm màng não cấp vì cần thời gian xuất hiện, nhưng nếu có là chống chỉ định).
 2. **Suy tuần hoàn và Suy hô hấp chưa ổn định:**
   - Trẻ đang trong tình trạng sốc mất bù, tụt huyết áp, mạch nhanh nhỏ, CRT > 3 giây.
-  - Suy hô hấp nặng, cơn ngừng thở tái diễn, SpO2 < 90\% dù đã thở oxy hỗ trợ.
+  - Suy hô hấp nặng, cơn ngừng thở tái diễn, SpO2 < 90% dù đã thở oxy hỗ trợ.
   - *Nguyên tắc:* Phải hồi sức ABC ổn định sinh hiệu trước khi làm bất kỳ thủ thuật nào!
 3. **Nhiễm trùng da và mô mềm tại vị trí chọc kim:**
   - Nhiễm trùng da, viêm mô tế bào, áp xe vùng thắt lưng L3 – L5 (nguy cơ đưa vi khuẩn từ ngoài da trực tiếp vào khoang dưới nhện).
 4. **Rối loạn đông máu nặng:**
-  - Số lượng tiểu cầu < 50.000/ mm^3.
-  - Tỷ lệ Prothrombin < 50\% hoặc INR > 1.5.
+  - Số lượng tiểu cầu < 50.000/ mm³.
+  - Tỷ lệ Prothrombin < 50% hoặc INR > 1.5.
   - Đang có chảy máu tự nhiên tiến triển hoặc đang trong bệnh cảnh DIC cấp do Não mô cầu.
 
 > ⚠️ **MỆNH LỆNH LÂM SÀNG SỐNG CÒN (GOLDEN RULE):**
@@ -193,9 +193,9 @@ Phân tích dịch não tủy bao gồm: Áp lực mở, màu sắc độ trong,
 
 | Thông số xét nghiệm | DNT Bình thường | Viêm màng não mủ (Bacterial) | Viêm màng não Virus (Aseptic) | Viêm màng não Lao (Tuberculosis) |
 |---|---|---|---|---|
-| **Áp lực mở (cmH2O)** | 5 – 10 (trẻ nhỏ), 10 – 20 (trẻ lớn) | **Tăng rất cao (> 20 – 30)** | Bình thường hoặc tăng nhẹ | Tăng cao |
+| **Áp lực mở (cmH₂O)** | 5 – 10 (trẻ nhỏ), 10 – 20 (trẻ lớn) | **Tăng rất cao (> 20 – 30)** | Bình thường hoặc tăng nhẹ | Tăng cao |
 | **Màu sắc & Độ trong** | Trong suốt như nước mưa | **Đục như nước vo gạo, nước cốt dừa, có ánh mủ** | Trong suốt hoặc hơi mờ | Trong hoặc vàng chanh, có mạng nhện (*pellicle*) khi để lắng |
-| **Bạch cầu (tế bào/mm3)** | < 5 (sơ sinh < 20 – 30) | **Tăng vọt: 1.000 – 10.000+** (đôi khi hàng chục nghìn) | Tăng nhẹ-vừa: 50 – 500 (hiếm khi > 1.000) | Tăng vừa: 100 – 500 |
+| **Bạch cầu (tế bào/mm³)** | < 5 (sơ sinh < 20 – 30) | **Tăng vọt: 1.000 – 10.000+** (đôi khi hàng chục nghìn) | Tăng nhẹ-vừa: 50 – 500 (hiếm khi > 1.000) | Tăng vừa: 100 – 500 |
 | **Thành phần bạch cầu** | Mononuclear (Lympho/Mono) | **Neutrophil chiếm ưu thế tuyệt đối (> 80% – 90%)** | **Lympho chiếm ưu thế (> 80%)** (*Giai đoạn rất sớm 12h đầu có thể Neutrophil ưu thế thoáng qua*) | **Lymphocyte chiếm ưu thế (> 80%)** |
 | **Protein DNT (g/L)** | 0.15 – 0.45 (sơ sinh < 1.0) | **Tăng rất cao (> 1.0 – 5.0+)** | Bình thường hoặc tăng nhẹ (< 1.0) | **Tăng rất cao (> 1.5 – 5.0)** (do phá hủy hàng rào máu não nặng) |
 | **Glucose DNT (mmol/L)** | 2.5 – 4.2 | **Giảm sâu (< 2.2)** | Bình thường (> 2.5) | **Giảm sâu (< 2.0)** |
@@ -212,11 +212,11 @@ Phân tích dịch não tủy bao gồm: Áp lực mở, màu sắc độ trong,
   - Ưu điểm: Lactate DNT không bị ảnh hưởng bởi đường huyết toàn thân của bệnh nhân.
 
 ### B5.3 Thang điểm Bacterial Meningitis Score (BMS) - Nigrovic LE et al. (JAMA 2007)
-Thang điểm BMS là công cụ phân tầng nguy cơ đã được kiểm định trên hàng nghìn trẻ em nhập viện cấp cứu có tăng bạch cầu DNT ( pleocytosis ≥ 10 tế bào/mm^3). Trẻ được xếp vào nhóm **Nguy cơ cực thấp (Very Low Risk)** bị viêm màng não mủ nếu thỏa mãn **TẤT CẢ 5 TIÊU CHUẨN ÂM TÍNH SAU ĐÂY** [DATA VERIFIED]:
+Thang điểm BMS là công cụ phân tầng nguy cơ đã được kiểm định trên hàng nghìn trẻ em nhập viện cấp cứu có tăng bạch cầu DNT ( pleocytosis ≥ 10 tế bào/mm³). Trẻ được xếp vào nhóm **Nguy cơ cực thấp (Very Low Risk)** bị viêm màng não mủ nếu thỏa mãn **TẤT CẢ 5 TIÊU CHUẨN ÂM TÍNH SAU ĐÂY** [DATA VERIFIED]:
 1. **Nhuộm Gram DNT âm tính** (Gram stain negative).
-2. **Số lượng bạch cầu đa nhân trung tính DNT (CSF ANC) < 1.000/ mm^3**.
+2. **Số lượng bạch cầu đa nhân trung tính DNT (CSF ANC) < 1.000/ mm³**.
 3. **Protein DNT < 80 mg/dL (< 0.8 g/L)**.
-4. **Bạch cầu đa nhân trung tính máu ngoại vi (Blood ANC) < 10.000/ mm^3**.
+4. **Bạch cầu đa nhân trung tính máu ngoại vi (Blood ANC) < 10.000/ mm³**.
 5. **Không có tiền sử co giật** trước hoặc tại thời điểm nhập viện.
 
 *Giá trị lâm sàng:* Nếu thỏa mãn cả 5 tiêu chí trên (điểm BMS = 0), giá trị dự đoán âm tính (NPV) đạt tới **99.9%**, cho phép bác sĩ lâm sàng có thể an tâm trì hoãn kháng sinh không cần thiết và theo dõi sát bệnh nhân dưới bệnh cảnh viêm màng não virus. Ngược lại, nếu có ≥ 1 tiêu chuẩn dương tính, trẻ phải được điều trị ngay như viêm màng não mủ.
@@ -301,16 +301,16 @@ Dexamethasone là một glucocorticoid tổng hợp có hoạt tính kháng viê
 - **Thời điểm vàng bắt buộc:** Dexamethasone **PHẢI ĐƯỢC DÙNG TRƯỚC HOẶC ĐỒNG THỜI VỚI LIỀU KHÁNG SINH ĐẦU TIÊN** (tốt nhất là trước 10 – 20 phút). Nếu đã dùng kháng sinh quá 4 giờ, Dexamethasone không còn mang lại lợi ích giảm viêm mà chỉ làm tăng nguy cơ tác dụng phụ!
 - **Liều lượng:** **0.15 mg/kg/lần** tiêm tĩnh mạch mỗi 6 giờ (tổng liều 0.6 mg/kg/ngày) trong **2 đến 4 ngày** [GUIDELINE VERIFIED].
 - **Bằng chứng y học (Cochrane 2015 - Brouwer MC et al.):**
-  * Dexamethasone làm giảm có ý nghĩa thống kê nguy cơ di chứng giảm thính lực / điếc ở trẻ em với ** RR = 0.65 (95\% CI 0.48 – 0.88)**, đặc biệt rõ rệt nhất ở nhóm trẻ mắc *Haemophilus influenzae* type b và *Streptococcus pneumoniae* [DATA VERIFIED].
+  * Dexamethasone làm giảm có ý nghĩa thống kê nguy cơ di chứng giảm thính lực / điếc ở trẻ em với ** RR = 0.65 (95% CI 0.48 – 0.88)**, đặc biệt rõ rệt nhất ở nhóm trẻ mắc *Haemophilus influenzae* type b và *Streptococcus pneumoniae* [DATA VERIFIED].
   * Ở các quốc gia thu nhập cao, corticoid còn làm giảm tỷ lệ di chứng thần kinh chung.
 
 ### B7.2 Xử trí Tăng áp lực nội sọ (ICP Management)
 Phù não và tăng áp lực nội sọ là nguyên nhân hàng đầu gây tử vong trong 48 giờ đầu của viêm màng não mủ. Chiến lược hồi sức thần kinh bảo vệ não bao gồm:
 1. **Tư thế bệnh nhân:** Đặt trẻ nằm đầu cao 30°, giữ thẳng cổ ở trục giữa (tránh gập cổ hoặc quay đầu sang một bên làm chèn ép tĩnh mạch cảnh trong cản trở máu hồi lưu về tim làm tăng ICP).
 2. **Kiểm soát thông khí:**
-  - Đảm bảo oxy hóa máu đầy đủ ( SpO_2 ≥ 95\%, PaO_2 ≥ 80 mmHg).
+  - Đảm bảo oxy hóa máu đầy đủ ( SpO₂ ≥ 95%, PaO₂ ≥ 80 mmHg).
   - Đặt nội khí quản thở máy nếu GCS ≤ 8 điểm hoặc có cơn ngừng thở.
-  - Duy trì thông khí tối ưu: giữ PaCO_2 ở mức bình thường thấp (35 – 40 mmHg). Tránh tăng thông khí quá mức ( PaCO_2 < 30 mmHg) vì gây co mạch não nặng dẫn tới thiếu máu não cục bộ!
+  - Duy trì thông khí tối ưu: giữ PaCO₂ ở mức bình thường thấp (35 – 40 mmHg). Tránh tăng thông khí quá mức ( PaCO₂ < 30 mmHg) vì gây co mạch não nặng dẫn tới thiếu máu não cục bộ!
 3. **Liệu pháp thẩm thấu (Osmotherapy):**
   - **Mannitol 20%:** Liều 0.5 – 1.0 g/kg (2.5 – 5 ml/kg) truyền tĩnh mạch nhanh trong 20 – 30 phút. Có thể nhắc lại mỗi 6 – 8 giờ nếu cần.
   - *Hoặc* **Dung dịch Muối ưu trương (NaCl 3%):** Liều 3 – 5 ml/kg truyền tĩnh mạch trong 15 – 30 phút (đặc biệt ưu tiên khi huyết áp tụt hoặc khi áp lực thẩm thấu máu cao không dùng được Mannitol).
@@ -417,7 +417,7 @@ Khi có ca bệnh viêm màng não mủ do **Não mô cầu (*Neisseria meningit
 - **Quyết định lâm sàng:**
   * Bác sĩ nhận định: Không được kết luận sốt co giật đơn thuần ở trẻ < 12 tháng khi tri giác chưa hồi phục hoàn toàn và thóp phồng!
   * Chỉ định: Đặt đường truyền tĩnh mạch, cấy máu, tiến hành chọc dò tủy sống tại khoảng gian đốt L3 – L4.
-- **Kết quả DNT:** Dịch đục mờ, áp lực mở 18 cmH2O. Bạch cầu DNT 1.250/ mm^3 (Neutrophil 88%). Protein DNT 1.8 g/L. Glucose DNT 1.2 mmol/L trong khi đường máu cùng lúc là 6.0 mmol/L (Tỷ lệ CSF/Blood Glucose = 0.2). Lactate DNT 5.2 mmol/L. Soi Gram thấy song cầu khuẩn Gram dương hình ngọn nến.
+- **Kết quả DNT:** Dịch đục mờ, áp lực mở 18 cmH₂O. Bạch cầu DNT 1.250/ mm³ (Neutrophil 88%). Protein DNT 1.8 g/L. Glucose DNT 1.2 mmol/L trong khi đường máu cùng lúc là 6.0 mmol/L (Tỷ lệ CSF/Blood Glucose = 0.2). Lactate DNT 5.2 mmol/L. Soi Gram thấy song cầu khuẩn Gram dương hình ngọn nến.
 - **Xử trí đúng đắn:**
   1. Tiêm tĩnh mạch ngay Dexamethasone 0.15 mg/kg (1.3 mg).
   2. 15 phút sau tiêm tĩnh mạch Ceftriaxone 100 mg/kg/ngày (850 mg) phối hợp Vancomycin 60 mg/kg/ngày (130 mg mỗi 6 giờ).
@@ -487,7 +487,7 @@ Khi có ca bệnh viêm màng não mủ do **Não mô cầu (*Neisseria meningit
 → **Thực tế:** Dexamethasone chỉ có tác dụng bảo vệ thần kinh khi cho trước hoặc đồng thời với liều kháng sinh đầu tiên. Cho sau 4 giờ không có lợi mà chỉ tăng nguy cơ tác dụng phụ.
 6. **Sai lầm 6:** *Nghĩ rằng số lượng bạch cầu DNT càng cao thì tiên lượng bệnh càng nặng.* 
   
-→ **Thực tế:** Trẻ bị viêm màng não tối cấp do Phế cầu hoặc Não mô cầu có thể có số lượng bạch cầu DNT rất thấp (thậm chí < 100/ mm^3) do tủy xương chưa kịp phản ứng hoặc suy kiệt miễn dịch. Những ca bạch cầu DNT thấp kèm số lượng vi khuẩn cực lớn trên soi Gram mới có tiên lượng tử vong cao nhất!
+→ **Thực tế:** Trẻ bị viêm màng não tối cấp do Phế cầu hoặc Não mô cầu có thể có số lượng bạch cầu DNT rất thấp (thậm chí < 100/ mm³) do tủy xương chưa kịp phản ứng hoặc suy kiệt miễn dịch. Những ca bạch cầu DNT thấp kèm số lượng vi khuẩn cực lớn trên soi Gram mới có tiên lượng tử vong cao nhất!
 7. **Sai lầm 7:** *Nghĩ rằng đã tiêm vắc xin 5 trong 1 hoặc phế cầu thì không thể bị viêm màng não mủ.* 
   
 → **Thực tế:** Vắc xin chỉ bao phủ một số type huyết thanh nhất định (ví dụ Hib, 10 hoặc 13 type phế cầu). Trẻ vẫn có thể mắc các type phế cầu không có trong vắc xin hoặc do Não mô cầu, *E. coli*, *Listeria*.
