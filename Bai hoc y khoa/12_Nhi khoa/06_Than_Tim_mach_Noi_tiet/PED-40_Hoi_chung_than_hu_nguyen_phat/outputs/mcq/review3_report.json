@@ -1,0 +1,23 @@
+{
+  "reviewer": "Review3PED40",
+  "items": {
+    "PED40-B09": {
+      "chosen_blind": 0,
+      "key": 0,
+      "agree": true,
+      "second_defensible": null,
+      "verdict": "OK_with_minor_fixes",
+      "changes": [
+        "option C: \"dưới 168\" -> \"không quá 168 mg/kg\" (2 mg/kg x 84 ngày = 168 đúng bằng)",
+        "explanation + option_expl C: early-onset wording softened to \"ít hiệu quả bền vững/đáp ứng kém (dưới khoảng 3–4 tuổi)\", gonadal risk phrased as risk at Tanner 3 not certain infertility",
+        "option_expl A: removed overstated \"không gây tiêu chảy\" -> \"ít gây tác dụng phụ tiêu hóa so với MMF\""
+      ],
+      "notes": "Stem facts exclude each distractor: CNI nephrotoxicity (tacrolimus), early onset+puberty (CYC), chronic enteropathy (MMF), IgG normal (rituximab OK). IPNA 2023: younger onset (<3-4y) associated with poorer CYC response — consistent."
+    }
+  },
+  "lint": {
+    "exit": 0,
+    "block": 0,
+    "warn": 0
+  }
+}

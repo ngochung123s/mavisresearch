@@ -1,0 +1,63 @@
+{
+  "round": 3,
+  "lesson": "PED51",
+  "phase_a_agreement": "8/8",
+  "two_defensible": [
+    {
+      "id": "PED51-A13",
+      "alt": "Thấp tim đợt đầu thể viêm khớp đơn thuần",
+      "resolution": "Lead-in now names AHA 2015; stem has no fever, ESR 28<30, ECG normal => Jones unmet; timeline fixed"
+    }
+  ],
+  "items": [
+    {
+      "id": "PED51-A01",
+      "verdict": "OK (wording softened)",
+      "note": "Key accurate; explanation 'mỗi cơ quan có một cơ chế riêng' softened to 'giáo trình giải thích'; option 3 labelled as textbook mechanism (immune-complex arthritis is hypothesis); concern added"
+    },
+    {
+      "id": "PED51-A03",
+      "verdict": "FIXED",
+      "note": "Key 'bờ tự do lá van' -> 'dọc đường khép của lá van' (verrucae lie along line of closure); option expl 1 and 2 cleaned (removed unsupported 'van chưa biến dạng', confusing 'van chỉ phù collagen')"
+    },
+    {
+      "id": "PED51-A04",
+      "verdict": "OK",
+      "note": "Chronic RHD MS (1.2 cm², OS, doming) vs Carey Coombs vs Austin Flint vs PDA flow rumble accurate"
+    },
+    {
+      "id": "PED51-A05",
+      "verdict": "OK",
+      "note": "Matches PEDYTB §5.2 (mild: tim không to, không suy tim, thổi <3/6, thường mất sau đợt cấp; moderate: thổi lớn hơn, còn tồn tại)"
+    },
+    {
+      "id": "PED51-A13",
+      "verdict": "FIXED",
+      "note": "Timeline contradiction (arthritis 10 d vs pharyngitis 8 d ago => arthritis preceded infection). Now arthritis 7 d, pharyngitis 2 wk ago (onset day 7); lead-in 'Theo tiêu chuẩn Jones sửa đổi AHA 2015'; explanations updated"
+    },
+    {
+      "id": "PED51-A16",
+      "verdict": "OK",
+      "note": "Migratory polyarthritis, sterile fluid; other majors explicitly negative"
+    },
+    {
+      "id": "PED51-A20",
+      "verdict": "FIXED",
+      "note": "Option 0 claimed chronic RHD 'không tính cho đợt cấp' (not a valid general rule) -> 'là di chứng của các đợt thấp trước'; key reworded to remove clang with stem phrases (ngắn/một mặt cắt) -> 'dưới ngưỡng bệnh lý về độ dài, vận tốc và thời gian'; numbers 0.8 cm/1.8 m/s/one view/early systole confirmed physiological per WHF 2012; stale concern text (2.5 cm, 3.5 m/s) updated"
+    },
+    {
+      "id": "PED51-B04",
+      "verdict": "FIXED",
+      "note": "36 kg x 2 mg/kg = 72 mg > 60 mg max -> 9 y, 28 kg (56 mg). B/D near-identical pair cue + aspirin-only odd option: replaced option 2 with 'hạ xuống 1 mg/kg đủ 2 tuần như viêm tim vừa rồi giảm dần' (right for moderate carditis per PEDYTB), all four options now prednisolone regimens; key 'giảm dần' clarified; option expl 2,3 updated"
+    }
+  ],
+  "lint": {
+    "bank": "exit 0, BLOCK=0 WARN=0; key_longest_rate 0.225, key_shortest 0.25, cue_guess_accuracy 0.25"
+  },
+  "files_edited": [
+    "bank_ped51_thap_tim.json",
+    "slice_A.json",
+    "slice_B.json",
+    "concerns.json"
+  ]
+}

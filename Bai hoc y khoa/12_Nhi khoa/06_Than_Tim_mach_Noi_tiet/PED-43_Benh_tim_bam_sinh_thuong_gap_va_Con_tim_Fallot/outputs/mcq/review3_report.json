@@ -1,0 +1,37 @@
+{
+  "round": 3,
+  "phase_a": {
+    "agreement": "19/19",
+    "two_defensible": {
+      "PED43-A15": "opt1 (coil/dù sau) weakly",
+      "PED43-B04": "opt2 propranolol",
+      "PED43-B08": "opt3 iron prophylaxis (before fix)",
+      "PED43-B19": "opt0 chờ 6 tháng weakly"
+    }
+  },
+  "fixed": {
+    "PED43-A12": "Option 1 asserted ECG 'gần như bình thường ... thể xoang tĩnh mạch/khuyết nóc xoang vành' (contested; sinus venosus ECG has abnormal P axis) -> reworded to small ASD without RA/RV dilation; key explanation no longer asserts 'dày thất phải', states pressure-overload pattern absent.",
+    "PED43-A14": "Mirror pair 'gờ mô đầy đủ' (key) vs 'thiếu gờ mô' (opt0) + clang with stem -> opt0 now 'lỗ 13 mm quá lớn để đặt dụng cụ'; key reworded 'trong độ tuổi 3–5, trước khi trẻ đi học'.",
+    "PED43-A17": "Option 1 explanation wrongly attributed reverse differential cyanosis to 'hẹp eo nặng' -> limited to TGA + PH (mirror pair kept deliberately, stem decides).",
+    "PED43-B06": "Key echoed stem 'viridans' (clang) and opt3 was 40 chars vs key 62 -> key 'sau nhiễm khuẩn huyết từ răng', opt3 lengthened, expl3 cleaned.",
+    "PED43-B08": "Hb 15.8 at SpO2 82% / MCV 74 made iron prophylaxis defensible (relative iron deficiency) -> stem Hb 17.3, Hct 51, MCV 78, ferritin 45; opt1 transfusion replaced by prolonged IV fluids (lesson Tip 9 trap); opt3 'liên tục' dropped; explanations updated.",
+    "PED43-B12": "Key overstated ('sẽ ... chỉ sau vài tháng') -> 'có thể xơ hóa cố định ngay trong năm đầu đời'.",
+    "PED43-B19": "Key shortest by >25% and assumed current admission -> 'sớm trong vài ngày tới, vẫn duy trì propranolol đến lúc mổ'; distractors shortened; expl updated."
+  },
+  "verified_ok": [
+    "A01",
+    "A05",
+    "A08",
+    "A15",
+    "A18",
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B11",
+    "B16",
+    "B18"
+  ],
+  "concerns_updated": true,
+  "lint": "exit 0, BLOCK=0 WARN=0; key_longest 0.25, shortest 0.225, cue_guess 0.275"
+}

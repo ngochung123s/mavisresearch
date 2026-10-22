@@ -1,0 +1,43 @@
+{
+  "method": "Fresh model sees only the 4 options per item (items shuffled, opaque tokens, options shuffled; mapping kept off-disk). Chance 25%, gate <= 40%.",
+  "rounds": [
+    {
+      "round": "r1",
+      "correct": 24,
+      "of": 40,
+      "by_confidence": {
+        "1": [
+          4,
+          12
+        ],
+        "2": [
+          11,
+          14
+        ],
+        "3": [
+          9,
+          14
+        ]
+      }
+    },
+    {
+      "round": "r2",
+      "correct": 13,
+      "of": 40,
+      "by_confidence": {
+        "1": [
+          4,
+          17
+        ],
+        "2": [
+          5,
+          12
+        ],
+        "3": [
+          4,
+          11
+        ]
+      }
+    }
+  ]
+}

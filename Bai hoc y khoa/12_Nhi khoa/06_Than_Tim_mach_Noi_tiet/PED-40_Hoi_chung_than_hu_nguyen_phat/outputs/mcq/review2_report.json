@@ -1,0 +1,38 @@
+{
+  "reviewer": "Review2PED40",
+  "phase_a_agreement": "20/20",
+  "two_defensible": {
+    "PED40-A14": "low: repeat-urine option (already repeated in stem)",
+    "PED40-B07": "low: 4 vs 8 weeks; 8-week is ISKDC-era, not IPNA 2020/2023",
+    "PED40-B20": "low: central serous chorioretinopathy vs PSC cataract; glare in sun favours cataract"
+  },
+  "fixed": {
+    "PED40-A07": "option 3 explanation reworded (41,3 -> 413); arithmetic verified (41.3, 100, 242)",
+    "PED40-A09": "option 0 explanation: \"HCTH tái phát\" -> MCD; option 2 explanation no longer says \"no cardiac signs\" (stem has JVD) but lists absent cardiomegaly/gallop/rales",
+    "PED40-A10": "key reworded to remove \"lớn\" clang with stem and explanation fixed (\"màng ngăn có chân\" was incorrect terminology)",
+    "PED40-A14": "option 2 explanation was wrong (repeat urine claimed for negative/1+ protein); now says stem already repeated",
+    "PED40-A20": "option 3 explanation cited \"không đau bụng\" not in stem",
+    "PED40-B03": "key dropped \"2 mg/kg\" (clang with stem); length kept within lint",
+    "PED40-B04": "key \"tuần thứ 12\" clang with stem removed; option 0 explanation illogical (\"tuần 8\") fixed",
+    "PED40-B12": "creatinine 78 µmol/L in 4-year-old labelled \"tăng nhẹ\" (~2x normal); now \"cao hơn mức bình thường theo tuổi\"",
+    "PED40-B19": "option 3 explanation unsupported claim about salt softened"
+  },
+  "verified_ok_no_change": [
+    "A01",
+    "A05",
+    "A08",
+    "B01",
+    "B05",
+    "B07",
+    "B09",
+    "B13",
+    "B16",
+    "B17",
+    "B20"
+  ],
+  "residual_notes": [
+    "B09: drugs already used are named in stem so cyclophosphamide/MMF options are excluded lexically; tacrolimus is the real distractor.",
+    "B01: ISKDC option 0 cap 80 mg is historically accurate; IPNA 2023 cap is 60 mg."
+  ],
+  "lint": "BLOCK=0 WARN=0 exit 0; longest 0.225, shortest 0.25, cue_guess 0.2"
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "PED40-A01",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A02",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A03",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Khung thử steroid cho HCTH bẩm sinh sai quy trình; tuổi 5 tuần không đủ cho phù từ ngày 10 + 4 tuần steroid.",
+    "change": "bỏ chi tiết 'prednisolone thử 4 tuần' (không có trong quy trình HCTH bẩm sinh, và mâu thuẫn tuổi 5 tuần + phù từ ngày 10); thay bằng albumin truyền nhiều lần; sửa explanation"
+  },
+  {
+    "id": "PED40-A04",
+    "phase1_ok": "partial",
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": "Option 0 chứa 'chưa cần sinh thiết' tạo cặp gương với key. | Phase1: Phase 1 nêu hạ áp + theo dõi + cân nhắc sinh thiết (một phần, key là sinh thiết) – tính là gần đúng",
+    "change": "bỏ cụm 'chưa cần sinh thiết' ở option 0 (cặp gương với key sinh thiết)"
+  },
+  {
+    "id": "PED40-A05",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A06",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Explanation nói 'cholesterol thấp loại trừ HCTH' – quá mức.",
+    "change": "explanation bỏ câu 'cholesterol thấp loại trừ HCTH' (quá mức; lipid không nằm trong định nghĩa IPNA 2023)"
+  },
+  {
+    "id": "PED40-A07",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A08",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": "Key là option duy nhất dùng Up/Ucr (odd-one-out format).",
+    "change": "key là option duy nhất dùng Up/Ucr (odd-one-out): đổi option 0 từ dipstick sang Up/Ucr để 2 option Up/Ucr + 2 option 24 giờ; thêm ngưỡng albumin <30 g/L vào explanation"
+  },
+  {
+    "id": "PED40-A09",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": "Underfill là thuyết kinh điển, có caveat trong concerns; không đổi.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A10",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": "Key dài nhất, lặp 'albumin' của stem, từ thừa.",
+    "change": "rút ngắn key (94→~84 ký tự), bớt từ 'màng đáy'"
+  },
+  {
+    "id": "PED40-A11",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": "Key lặp 'fibrinogen' của stem (clang).",
+    "change": "key không lặp 'fibrinogen' của stem (clang); thay bằng 'các yếu tố đông máu'"
+  },
+  {
+    "id": "PED40-A12",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": "Không có vấn đề (bộ 4 cơ chế dùng chung với A11/A09, mỗi item một khóa khác nhau).",
+    "change": ""
+  },
+  {
+    "id": "PED40-A13",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A14",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": "Key 'không cần sinh thiết' – cặp gương với option sinh thiết.",
+    "change": "bỏ cụm 'không cần sinh thiết' trong key (cặp gương với option 0 sinh thiết)"
+  },
+  {
+    "id": "PED40-A15",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": "Tính toán đơn giản nhưng đạt (bloom thấp); không đổi.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A16",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-A17",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Key là option phủ định đơn độc ('chưa có dấu hiệu giảm hay quá tải'), khái niệm normovolaemic ngoài lesson.",
+    "change": "key viết lại song song (bỏ cụm phủ định 'chưa có dấu hiệu giảm hay quá tải' đơn độc, bớt dài nhất); explanation nêu rõ đây là kiến thức ngoài lesson (đã ở concerns)"
+  },
+  {
+    "id": "PED40-A18",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": "Stem lặp nguyên cụm 'từng phần' với key.",
+    "change": "đổi 'xơ hóa từng phần' → 'xơ hóa một phần' trong stem để key không lặp nguyên cụm"
+  },
+  {
+    "id": "PED40-A19",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": "Option 2 là chẩn đoán lâm sàng trong câu hỏi về mô bệnh học; explanation dùng 'luôn'.",
+    "change": "option 2 là chẩn đoán lâm sàng, không phải mô bệnh học → đổi thành tên mô học; 'luôn' → 'thường' trong explanation"
+  },
+  {
+    "id": "PED40-A20",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B01",
+    "phase1_ok": "partial",
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Khớp IPNA 2023/KDIGO 2021 (4–6 + 4–6 tuần); không đổi. | Phase1: Phase 1 nhớ 60 mg/m² đến lui bệnh rồi cách ngày 12 tuần – không khớp chính xác key (4–6+4–6 tuần)",
+    "change": ""
+  },
+  {
+    "id": "PED40-B02",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Option 0 explanation nói giảm dần trong giai đoạn cách ngày – trái IPNA 2023 (không giảm dần).",
+    "change": "option 0: sửa sai 'bước giảm dần sau 4–6 tuần cách ngày' (IPNA 2023: không giảm dần)"
+  },
+  {
+    "id": "PED40-B03",
+    "phase1_ok": false,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Khớp IPNA 2023 (4–6 tuần hằng ngày bất kể lui bệnh sớm). | Phase1: Phase 1 đoán chuyển cách ngày ngay – SAI so với key (giữ ≥4 tuần)",
+    "change": ""
+  },
+  {
+    "id": "PED40-B04",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": "Khớp IPNA 2023/Cochrane; không đổi.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B05",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Phác đồ tái phát khớp IPNA 2023 (hằng ngày đến lui bệnh 3 ngày, rồi 1,5 mg/kg cách ngày 4 tuần, không giảm dần); định nghĩa tái phát đã đối chiếu bản gốc.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B06",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Mô tả SDNS thiếu chính xác ('vài tuần') so với IPNA 2023 (14 ngày).",
+    "change": "sửa mô tả SDNS thành 'trong vòng 14 ngày sau ngừng' đúng IPNA 2023; explanation bám định nghĩa"
+  },
+  {
+    "id": "PED40-B07",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Khớp IPNA 2020/2023 (SRNS = không lui bệnh sau 4 tuần).",
+    "change": ""
+  },
+  {
+    "id": "PED40-B08",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": "Ba option 'theo dõi công thức máu', key 'theo dõi nồng độ đáy' – odd-one-out.",
+    "change": "3/4 option có cụm 'theo dõi công thức máu' còn key 'theo dõi nồng độ đáy' (odd-one-out) → mỗi thuốc một cụm theo dõi riêng"
+  },
+  {
+    "id": "PED40-B09",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": "Khớp IPNA 2023 (rituximab 375 mg/m², CYC tối đa 168 mg/kg).",
+    "change": ""
+  },
+  {
+    "id": "PED40-B10",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B11",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": "Mốc 'mỗi 4–8 tuần' không có trong IPNA 2023.",
+    "change": "bỏ mốc 'mỗi 4–8 tuần' (IPNA 2023: công thức máu mỗi quý, ANCA 2 lần/năm)"
+  },
+  {
+    "id": "PED40-B12",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Key nêu tốc độ truyền 2–4 giờ; explanation dùng 'cấm', ngưỡng CRT, 'thiếu máu mạc treo' – chi tiết không được guideline hỗ trợ/đã nằm trong concerns.",
+    "change": "key bỏ tốc độ truyền '2–4 giờ' (vi mô, IPNA không nêu cho giảm thể tích) → 0,5–1 g/kg; explanation bỏ 'cấm', 'CRT <2 giây' và 'thiếu máu mạc treo'; bám IPNA 2023, tránh lặp tuyên bố trong concerns"
+  },
+  {
+    "id": "PED40-B13",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B14",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": "Không có vấn đề.",
+    "change": ""
+  },
+  {
+    "id": "PED40-B15",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": "SAI Y KHOA: stem/explanation cho K 5,8 và 'tăng kali' trong suy thượng thận do ức chế steroid (thứ phát, không tăng kali); explanation nói 'giảm dần' trái no-taper.",
+    "change": "SỬA SAI Y KHOA: suy thượng thận do ức chế trục HPA (thứ phát) KHÔNG gây tăng kali → K 5,8 → 4,2; sửa explanation + option 0/3; bỏ 'giảm dần' trái IPNA no-taper"
+  },
+  {
+    "id": "PED40-B16",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": "Option 3 'tiếp tục thuốc hiện tại' là phương án ngớ ngẩn.",
+    "change": "option 3 'tiếp tục thuốc hiện tại' là phương án ngớ ngẩn → thành phương án bảo tồn hợp lý (ngừng ibuprofen, hạn chế dịch) khác key ở chi tiết quyết định (bù albumin/ngừng furosemid)"
+  },
+  {
+    "id": "PED40-B17",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": "Key và option 3 cùng mở đầu 'Xác định tái phát' (cặp); option 'tự cho prednisolone tại nhà' có thể bảo vệ được.",
+    "change": "bỏ cặp 'Xác định tái phát…' (key + option 3) và bỏ option 'tự cho uống prednisolone tại nhà' vốn có thể bảo vệ được ở nhiều trung tâm → hai cặp song song 'Chưa…'/'Đủ…'; option 3 thành 'truyền albumin, chưa dùng prednisolone'"
+  },
+  {
+    "id": "PED40-B18",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": "Key dài nhất, key và option 1 chung đuôi 'liều cao và trẻ đang lui bệnh' (convergence).",
+    "change": "rút ngắn key và option 1 (bỏ cụm đuôi 'và trẻ đang lui bệnh' lặp ở hai option → convergence/key dài nhất); explanation bỏ danh sách vắc xin sống quá rộng (BCG/OPV)"
+  },
+  {
+    "id": "PED40-B19",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": "Option 2 gần trùng key (2 đáp án bảo vệ được); mốc hạ natri 125 thay vì 130 theo IPNA 2023.",
+    "change": "option 2 'ăn nhạt tương đối… không kiêng khem' gần như trùng key → có 2 đáp án bảo vệ được; thay bằng phương án sai rõ (ăn muối bình thường + tăng đạm); option 3 thêm 'tuyệt đối'; sửa mốc hạ natri 125 → 130 theo IPNA 2023"
+  },
+  {
+    "id": "PED40-B20",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": "Không có vấn đề (kiến thức ngoài lesson, đã ghi trong concerns).",
+    "change": ""
+  }
+]

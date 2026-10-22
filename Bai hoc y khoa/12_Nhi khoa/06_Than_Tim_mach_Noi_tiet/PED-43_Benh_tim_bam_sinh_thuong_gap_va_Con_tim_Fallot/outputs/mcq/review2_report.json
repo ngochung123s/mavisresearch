@@ -1,0 +1,64 @@
+{
+  "reviewer": "Review2PED43",
+  "phase_a": {
+    "agreement": "25/25",
+    "mismatches": [],
+    "two_defensible": [
+      {
+        "id": "PED43-B19",
+        "also_defensible": 2,
+        "note": "BT shunt vs early complete repair; stem says favourable anatomy (Z -0.5, normal coronaries) so repair wins; acceptable"
+      }
+    ]
+  },
+  "suspects_checked_ok": [
+    "A01",
+    "A02",
+    "A08",
+    "A12",
+    "B01",
+    "B10",
+    "B17",
+    "B18",
+    "B19",
+    "B20"
+  ],
+  "fixed": [
+    {
+      "id": "PED43-A14",
+      "reason": "Clang: key repeated stem phrases \"lỗ thứ phát\"/\"gờ mô\"; key reworded \"…vì giải phẫu lỗ phù hợp\"."
+    },
+    {
+      "id": "PED43-A15",
+      "reason": "Option 1 explanation outdated (\"dụng cụ qua da chỉ cho trẻ lớn, 1.200 g chưa phải đối tượng\"); rewritten; explanation \"ức chế tổng hợp prostaglandin\"."
+    },
+    {
+      "id": "PED43-A18",
+      "reason": "Clang: \"tâm trương\" only in key and stem; key reworded to \"máu thoát liên tục… tụt áp động mạch chủ, giảm tưới mạc treo\"."
+    },
+    {
+      "id": "PED43-A20",
+      "reason": "Option 1 explanation overclaimed (apical diastolic rumble only VSD); corrected to large shunts."
+    },
+    {
+      "id": "PED43-B02",
+      "reason": "Mirror pair (mờ đi vs to hơn) with key in pair; option 1 changed to \"thổi không đổi vì chỗ hẹp cố định\" (common misconception) + explanation."
+    },
+    {
+      "id": "PED43-B08",
+      "reason": "Option 1 had impossible target \"Hct xuống dưới 60%\" vs Hct 38% (silly option); numbers removed."
+    },
+    {
+      "id": "PED43-B11",
+      "reason": "Clang \"vách liên nhĩ\" in stem and key only; stem now \"lỗ bầu dục chỉ hé nhỏ\"; key without lone parenthesis \"(Rashkind)\"; explanations updated."
+    },
+    {
+      "id": "PED43-B16",
+      "reason": "Lone parenthetical in key removed: \"FISH tìm mất đoạn 7q11.23 chứa gen elastin\"."
+    }
+  ],
+  "lint": "exit 0, BLOCK=0 WARN=0; key_longest 0.225, key_shortest 0.275, positions 10/10/10/10, cue_guess 0.375",
+  "alignment_notes": [
+    "Williams 7q11.23, PS balloon, X-ray hallmarks, IE prophylaxis, tricuspid atresia axis are from PEDYTB/Nelson/AHA; lesson silent on some (already in concerns.json)."
+  ]
+}

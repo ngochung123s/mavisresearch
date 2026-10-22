@@ -1,0 +1,58 @@
+{
+  "bank": "PED51",
+  "phase_a": {
+    "agreement": "17/17",
+    "two_defensible": [
+      "PED51-A19 (repeat throat culture vs paired serology; serology judged stronger)"
+    ],
+    "choices_file": "review2_choices.json"
+  },
+  "checked": [
+    "A01",
+    "A04",
+    "A09",
+    "A10",
+    "A11",
+    "A12(extra)",
+    "A16",
+    "A17",
+    "A18",
+    "A19",
+    "A20",
+    "B04",
+    "B07",
+    "B09",
+    "B10",
+    "B13",
+    "B17",
+    "B20"
+  ],
+  "fixed": [
+    {
+      "id": "PED51-A10",
+      "what": "explanation only",
+      "why": "called recurrence an 'exception' to Jones; AHA 2015 recurrence still needs recent GAS evidence (only chorea and indolent carditis are exempt). Reworded."
+    },
+    {
+      "id": "PED51-A18",
+      "what": "explanation only",
+      "why": "'hầu như gắn với viêm tim nặng' contradicted the stem's normal echo; softened to 'thường đi kèm viêm tim (có thể xuất hiện muộn hơn)'."
+    },
+    {
+      "id": "PED51-B10",
+      "what": "option C text + its option_explanation",
+      "why": "lone longest two-clause option ('..., không dùng lợi tiểu vì nguy cơ tụt huyết áp') was a form cue; shortened to 'Captopril liều thấp tăng dần đơn độc, chưa dùng lợi tiểu', explanation reworded. Key index/rank unchanged (key still shortest)."
+    }
+  ],
+  "verified_ok": {
+    "A09": "low-risk: polyarthralgia minor; 3 minor, 0 major -> insufficient; ESR>=60/CRP>=3, fever>=38.5 correct",
+    "A11": "PR not counted w/ carditis; fever 38.2>=38.0 moderate-high = 1 minor; 1+1 insufficient",
+    "A12": "1 major+2 minor / monoarthralgia minor, ESR+CRP one minor all correct",
+    "A20": "WHF 2012 pathological MR criteria met, no murmur=subclinical carditis, major",
+    "B04": "matches lesson (20-25%/wk, aspirin bridging 1 wk before, 6 wk after); PEDYTB gives aspirin 75 mg/kg x6 wk only",
+    "B10": "lesson: no rapid digitalization; furosemide+captopril first; PEDYTB 'trợ tim' noted in concerns",
+    "B13": "AHA 2009 q3w for recurrence despite q4w; lesson matches; 42 kg -> 1.2M",
+    "B17": "inject today, 4-week clock from today; lesson EBM 'tiêm bù sớm' matches"
+  },
+  "lint": "exit 0, BLOCK=0 WARN=0; key_longest 0.25, key_shortest 0.25, key positions 10/10/10/10, cue_guess_accuracy 0.30"
+}

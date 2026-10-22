@@ -1,0 +1,44 @@
+{
+  "reviewer": "Review2PED40",
+  "choices": {
+    "PED40-A01": 3,
+    "PED40-A05": 3,
+    "PED40-A07": 0,
+    "PED40-A08": 2,
+    "PED40-A09": 1,
+    "PED40-A10": 3,
+    "PED40-A14": 3,
+    "PED40-A20": 0,
+    "PED40-B01": 3,
+    "PED40-B03": 0,
+    "PED40-B04": 2,
+    "PED40-B05": 0,
+    "PED40-B07": 3,
+    "PED40-B09": 0,
+    "PED40-B12": 1,
+    "PED40-B13": 3,
+    "PED40-B16": 1,
+    "PED40-B17": 2,
+    "PED40-B19": 0,
+    "PED40-B20": 1
+  },
+  "two_defensible": {
+    "PED40-A14": [
+      3,
+      2
+    ],
+    "PED40-B07": [
+      3,
+      2
+    ],
+    "PED40-B20": [
+      1,
+      3
+    ]
+  },
+  "notes": {
+    "PED40-A07": "41.3 -> 41",
+    "PED40-A08": "Up/Ucr 1.4 <2 not nephrotic range; albumin 17 <30",
+    "PED40-B20": "glare+blur = PSC cataract, CSC secondary candidate"
+  }
+}

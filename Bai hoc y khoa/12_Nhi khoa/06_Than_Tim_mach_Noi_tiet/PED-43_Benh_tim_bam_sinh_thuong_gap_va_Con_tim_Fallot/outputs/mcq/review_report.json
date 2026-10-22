@@ -1,0 +1,414 @@
+[
+  {
+    "id": "PED43-A01",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A02",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "FIXED",
+    "issues": "Giải thích key nói 'chênh áp thất trái–phải' quyết định shunt: sai với VSD lớn không hạn chế (shunt do tỉ lệ sức cản phổi/hệ thống).",
+    "change": "Viết lại explanation và option_explanation của key theo cơ chế sức cản mạch phổi; giữ nguyên options.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A03",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A04",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "Key bảo tồn nhưng không có distractor bảo tồn nào khác (odd-one-out: 3 lựa chọn can thiệp/thuốc vs 1 theo dõi).",
+    "change": "Thay option 2 (bít dù) bằng phương án bảo tồn khác ở chi tiết quyết định (hạn chế gắng sức); chỉnh key dài hơn chút.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A05",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A06",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "FIXED",
+    "issues": "Key mơ hồ ('can thiệp theo diễn tiến lâm sàng'): kênh nhĩ thất ở trẻ Down có triệu chứng cần mổ sớm (PEDYTB 3–6 tháng); explanation dùng 'không bao giờ'.",
+    "change": "Key nêu phẫu thuật sửa chữa sớm trong những tháng đầu; bỏ từ tuyệt đối trong explanation.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A07",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "FIXED",
+    "issues": "Key là phương án duy nhất nhiều thành phần (3 thuốc + dinh dưỡng) → cue độ dài/cấu trúc; số '120–150 kcal' rò sang B17.",
+    "change": "Viết lại 4 option cùng cấu trúc 'X, kèm Y'; bỏ con số kcal khỏi key.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A08",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "Odd-one-out: 3 lựa chọn đều đóng/thu hẹp lỗ thông, key là lựa chọn duy nhất 'không đóng'.",
+    "change": "Thay option 2 (thắt hẹp ĐMP) bằng phương án bảo tồn-hoãn mổ sai ở chi tiết quyết định.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A09",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "FIXED",
+    "issues": "Key là lựa chọn phẫu thuật duy nhất (3 distractor đều là chờ/theo dõi); mốc 3–5 tuổi mượn từ ASD quá hiển nhiên; mốc tuổi mổ cần khớp PEDYTB (1–4 tháng nếu không lên cân).",
+    "change": "Thay option 2 bằng bít dù qua da ngay (can thiệp sai chỉ định ở trẻ 4 kg); viết lại explanation theo PEDYTB, không nêu mốc cứng.",
+    "two_defensible": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "PED43-A10",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A11",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A12",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A13",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A14",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "FIXED",
+    "issues": "PEDYTB nêu 'phẫu thuật hoặc đóng qua da' → hai lựa chọn đóng đều bảo vệ được; thiếu tiêu chí ưu tiên.",
+    "change": "Lead-in nêu rõ 'theo hướng dẫn hiện hành… ưu tiên hàng đầu'; sửa option_explanation phẫu thuật.",
+    "two_defensible": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "PED43-A15",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "FIXED",
+    "issues": "Option PGE1 là mirror của key (PG inhibitor vs PGE1) → cue cặp đối lập; chưa loại điều trị bảo tồn (thực hành hiện nay) nên có thể có 2 đáp án.",
+    "change": "Stem thêm 'đã hạn chế dịch + lợi tiểu 48 giờ nhưng thất bại'; option 0 thay bằng tiếp tục bảo tồn.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A16",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A17",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "FIXED",
+    "issues": "Lỗi gõ (hai dấu cách) trong option_explanation 1.",
+    "change": "Sửa chính tả.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A18",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A19",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "FIXED",
+    "issues": "Key ngắn nhất rõ rệt (38 so với 54–58 ký tự) → cue độ dài.",
+    "change": "Viết lại key cùng độ dài với distractor.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-A20",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "Option 2 (ống đang co thắt) có thể bảo vệ được cho trẻ non 3 ngày tuổi → có thể 2 đáp án; stem chưa cho dữ liệu huyết động.",
+    "change": "Stem thêm áp lực ĐMP ước tính 70% áp lực hệ thống và shunt chủ yếu thì tâm thu; chỉnh option_explanation 2.",
+    "two_defensible": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "PED43-B01",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B02",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B03",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B04",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B05",
+    "phase1_ok": false,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "REPLACED",
+    "issues": "Lead-in phủ định, digoxin là odd-one-out (thuốc tăng co bóp duy nhất) và lặp lại bài B04 (digoxin/propranolol); key phụ thuộc loại suy.",
+    "change": "Thay bằng ca cơn tím kháng trị kèm tụt huyết áp, hỏi thuốc nâng sức cản mạch hệ thống (phenylephrin) với 3 distractor đúng cho bệnh nhân khác.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B06",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B07",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B08",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B09",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "FIXED",
+    "issues": "Hai distractor (Jatene, Norwood) quá ngắn so với key/option 1 → cue độ dài.",
+    "change": "Kéo dài hai distractor cho cùng độ dài.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B10",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "FIXED",
+    "issues": "Key ngắn nhất rõ rệt (44 so với 60–66) → cue độ dài.",
+    "change": "Viết lại key dài ngang distractor.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B11",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "Key là phương án duy nhất có hai thành phần ('PGE1 kèm Rashkind') → cue hai mệnh đề.",
+    "change": "Viết lại cả 4 option dạng 'X, kèm Y', mỗi distractor đúng cho bệnh nhân khác (hẹp ĐMC nguy kịch, PDA sơ sinh non, teo ĐMP).",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B12",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "FIXED",
+    "issues": "Key dài nhất rõ rệt (103 so với 70–80); stem khẳng định mốc 'tuần đầu' (hướng dẫn hiện hành: vài tuần đầu); giải thích option 0 nói TGA vách nguyên vẹn 'không có shunt'.",
+    "change": "Rút gọn key, kéo dài distractor; stem 'vài tuần đầu'; sửa option_explanation 0.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B13",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "FIXED",
+    "issues": "Clang: key lặp cụm 'ống động mạch' có trong stem, các option khác không nhắc ống.",
+    "change": "Bỏ 'ống động mạch đang co nhỏ' khỏi stem, thay bằng 'động mạch chủ lên rất nhỏ'; ca vẫn trả lời được (sốc ngày 4 của HLHS).",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B14",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B15",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "X-quang/siêu âm: 'hai thất bình thường' không khớp TAPVC tắc nghẽn (thất phải giãn); 'gan không to' không đặc hiệu; thiếu dữ kiện loại HLHS/PPHN.",
+    "change": "Sửa mô tả siêu âm (thất phải giãn nhẹ, không thấy TM phổi đổ vào nhĩ trái), bỏ 'gan không to'.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B16",
+    "phase1_ok": true,
+    "phase2_choice": "B",
+    "key": "B",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B17",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "FIXED",
+    "issues": "Con số 120–150 kcal chỉ có trong lesson (PEDYTB không nêu); distractor 180 có thể bảo vệ (một số nguồn 150–180); 120–150 lộ từ A07.",
+    "change": "Lead-in nêu 'theo khuyến cáo dinh dưỡng…'; đổi 180 → 200 và 70 giữ; sửa option_explanation.",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B18",
+    "phase1_ok": true,
+    "phase2_choice": "A",
+    "key": "A",
+    "verdict": "FIXED",
+    "issues": "Key ngắn nhất rõ rệt (55 so với 69–88) → cue độ dài.",
+    "change": "Thêm chi tiết lâm sàng vào key (tím mạn tính).",
+    "two_defensible": null
+  },
+  {
+    "id": "PED43-B19",
+    "phase1_ok": true,
+    "phase2_choice": "D",
+    "key": "D",
+    "verdict": "FIXED",
+    "issues": "Option 0 và key là cặp gần giống (sửa chữa toàn bộ lúc 6 tháng vs sớm) → cue cặp; mốc 6 tháng gây tranh cãi (AHA: sớm hơn nếu có triệu chứng).",
+    "change": "Option 0 đổi thành tăng propranolol và theo dõi ngoại trú đến 6 tháng; key viết lại không nêu mốc tháng.",
+    "two_defensible": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "PED43-B20",
+    "phase1_ok": true,
+    "phase2_choice": "C",
+    "key": "C",
+    "verdict": "OK",
+    "issues": "",
+    "change": "",
+    "two_defensible": null
+  }
+]
