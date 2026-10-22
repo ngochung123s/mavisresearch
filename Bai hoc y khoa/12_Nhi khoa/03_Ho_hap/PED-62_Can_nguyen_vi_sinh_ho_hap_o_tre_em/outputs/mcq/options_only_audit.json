@@ -1,0 +1,392 @@
+{
+  "method": "Options-only guesser: a fresh model sees only the 4 options per item (no stem, no key) and bets on the key. Chance = 25%. Gate: <= 40% on a de-identified, order-shuffled set.",
+  "rounds": [
+    {
+      "round": 1,
+      "set": "real IDs, lesson order",
+      "correct": 44,
+      "of": 60
+    },
+    {
+      "round": 2,
+      "set": "real IDs, lesson order",
+      "correct": 36,
+      "of": 60
+    },
+    {
+      "round": 3,
+      "set": "real IDs, lesson order (diagnostic only: IDs leak section)",
+      "correct": 39,
+      "of": 60
+    },
+    {
+      "round": "3b",
+      "set": "opaque tokens, shuffled items and options (gate)",
+      "correct": 23,
+      "of": 60,
+      "items": [
+        {
+          "id": "PED62-B02",
+          "confidence": 1,
+          "correct": false,
+          "cue": "Ceftriaxone->azithro switch"
+        },
+        {
+          "id": "PED62-B14",
+          "confidence": 2,
+          "correct": false,
+          "cue": "RSV mucus plug"
+        },
+        {
+          "id": "PED62-A13",
+          "confidence": 2,
+          "correct": false,
+          "cue": "BO sequel"
+        },
+        {
+          "id": "PED62-C07",
+          "confidence": 2,
+          "correct": false,
+          "cue": "RSV supportive"
+        },
+        {
+          "id": "PED62-C20",
+          "confidence": 2,
+          "correct": false,
+          "cue": "multiplex PCR"
+        },
+        {
+          "id": "PED62-A10",
+          "confidence": 2,
+          "correct": true,
+          "cue": "palivizumab RSV"
+        },
+        {
+          "id": "PED62-A11",
+          "confidence": 3,
+          "correct": false,
+          "cue": "cold agglutinin Mycoplasma"
+        },
+        {
+          "id": "PED62-C05",
+          "confidence": 1,
+          "correct": false,
+          "cue": "wheeze"
+        },
+        {
+          "id": "PED62-B13",
+          "confidence": 2,
+          "correct": false,
+          "cue": "RSV hyperinflation"
+        },
+        {
+          "id": "PED62-B19",
+          "confidence": 1,
+          "correct": true,
+          "cue": "topic prior"
+        },
+        {
+          "id": "PED62-C12",
+          "confidence": 1,
+          "correct": false,
+          "cue": "supportive viral"
+        },
+        {
+          "id": "PED62-A14",
+          "confidence": 2,
+          "correct": true,
+          "cue": "HFNC step"
+        },
+        {
+          "id": "PED62-A03",
+          "confidence": 1,
+          "correct": false,
+          "cue": "interstitium"
+        },
+        {
+          "id": "PED62-B04",
+          "confidence": 1,
+          "correct": false,
+          "cue": "pneumococcal complication"
+        },
+        {
+          "id": "PED62-A16",
+          "confidence": 2,
+          "correct": true,
+          "cue": "hMPV Pneumoviridae"
+        },
+        {
+          "id": "PED62-C17",
+          "confidence": 3,
+          "correct": false,
+          "cue": "palivizumab"
+        },
+        {
+          "id": "PED62-B08",
+          "confidence": 3,
+          "correct": true,
+          "cue": "Swyer-James hallmark"
+        },
+        {
+          "id": "PED62-A18",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-A19",
+          "confidence": 2,
+          "correct": false,
+          "cue": "supportive no bronchodilator"
+        },
+        {
+          "id": "PED62-C06",
+          "confidence": 3,
+          "correct": false,
+          "cue": "adenovirus BO"
+        },
+        {
+          "id": "PED62-B12",
+          "confidence": 1,
+          "correct": false,
+          "cue": "macrolide switch"
+        },
+        {
+          "id": "PED62-B16",
+          "confidence": 2,
+          "correct": true,
+          "cue": "CXR+PCR"
+        },
+        {
+          "id": "PED62-A09",
+          "confidence": 2,
+          "correct": true,
+          "cue": "stop salbutamol"
+        },
+        {
+          "id": "PED62-B17",
+          "confidence": 3,
+          "correct": true,
+          "cue": "MIRM"
+        },
+        {
+          "id": "PED62-B03",
+          "confidence": 2,
+          "correct": false,
+          "cue": "enveloped G F RSV"
+        },
+        {
+          "id": "PED62-B09",
+          "confidence": 1,
+          "correct": true,
+          "cue": "HRCT expiratory"
+        },
+        {
+          "id": "PED62-C04",
+          "confidence": 2,
+          "correct": false,
+          "cue": "red hepatization"
+        },
+        {
+          "id": "PED62-C13",
+          "confidence": 2,
+          "correct": false,
+          "cue": "high-dose amox"
+        },
+        {
+          "id": "PED62-C11",
+          "confidence": 3,
+          "correct": true,
+          "cue": "adenovirus pharyngoconjunctival"
+        },
+        {
+          "id": "PED62-C09",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-A05",
+          "confidence": 1,
+          "correct": false,
+          "cue": "fiber CAR"
+        },
+        {
+          "id": "PED62-A12",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-A17",
+          "confidence": 2,
+          "correct": true,
+          "cue": "multiplex"
+        },
+        {
+          "id": "PED62-A20",
+          "confidence": 2,
+          "correct": false,
+          "cue": "Mycoplasma reticular"
+        },
+        {
+          "id": "PED62-A07",
+          "confidence": 2,
+          "correct": true,
+          "cue": "mucus plug collapse"
+        },
+        {
+          "id": "PED62-A06",
+          "confidence": 2,
+          "correct": false,
+          "cue": "lobar fibrinous"
+        },
+        {
+          "id": "PED62-B07",
+          "confidence": 3,
+          "correct": true,
+          "cue": "cidofovir"
+        },
+        {
+          "id": "PED62-B10",
+          "confidence": 3,
+          "correct": true,
+          "cue": "no cell wall"
+        },
+        {
+          "id": "PED62-A08",
+          "confidence": 1,
+          "correct": true,
+          "cue": "oxygen"
+        },
+        {
+          "id": "PED62-C03",
+          "confidence": 1,
+          "correct": true,
+          "cue": "red hepatization"
+        },
+        {
+          "id": "PED62-C18",
+          "confidence": 2,
+          "correct": false,
+          "cue": "empyema"
+        },
+        {
+          "id": "PED62-B20",
+          "confidence": 2,
+          "correct": true,
+          "cue": "CARDS"
+        },
+        {
+          "id": "PED62-A04",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-A02",
+          "confidence": 3,
+          "correct": true,
+          "cue": "Poiseuille"
+        },
+        {
+          "id": "PED62-C10",
+          "confidence": 2,
+          "correct": false,
+          "cue": "mucus plug"
+        },
+        {
+          "id": "PED62-C16",
+          "confidence": 1,
+          "correct": true,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-C08",
+          "confidence": 2,
+          "correct": true,
+          "cue": "amox dose"
+        },
+        {
+          "id": "PED62-C14",
+          "confidence": 1,
+          "correct": false,
+          "cue": "air bronchogram"
+        },
+        {
+          "id": "PED62-B11",
+          "confidence": 1,
+          "correct": false,
+          "cue": "hold amox"
+        },
+        {
+          "id": "PED62-A15",
+          "confidence": 2,
+          "correct": true,
+          "cue": "supportive home"
+        },
+        {
+          "id": "PED62-C02",
+          "confidence": 2,
+          "correct": false,
+          "cue": "syncytia"
+        },
+        {
+          "id": "PED62-C01",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-B01",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-B06",
+          "confidence": 1,
+          "correct": false,
+          "cue": "IgM"
+        },
+        {
+          "id": "PED62-C19",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-A01",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-C15",
+          "confidence": 1,
+          "correct": false,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-B18",
+          "confidence": 1,
+          "correct": true,
+          "cue": "prior"
+        },
+        {
+          "id": "PED62-B05",
+          "confidence": 1,
+          "correct": false,
+          "cue": "ciliated necrosis"
+        },
+        {
+          "id": "PED62-B15",
+          "confidence": 1,
+          "correct": true,
+          "cue": "prior"
+        }
+      ]
+    }
+  ],
+  "surface_cue_guesser_mcq_lint": 0.267
+}

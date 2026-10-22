@@ -1,0 +1,604 @@
+[
+  {
+    "id": "PED62-A01",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A02",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Sửa ngược logic Poiseuille: kháng lực tỉ lệ NGHỊCH với r⁴ (không 'tăng theo lũy thừa bốn'); cân bằng độ dài các lựa chọn"
+    ],
+    "change": "Sửa ngược logic Poiseuille: kháng lực tỉ lệ NGHỊCH với r⁴ (không 'tăng theo lũy thừa bốn'); cân bằng độ dài các lựa chọn"
+  },
+  {
+    "id": "PED62-A03",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A04",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A05",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A06",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A07",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A08",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A09",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [
+      "Distractor 'virus phá thụ thể β2' yếu (mâu thuẫn với nhịp nhanh/run) — giữ"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-A10",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": [
+      "Bổ sung nirsevimab vào giải thích"
+    ],
+    "change": "Bổ sung nirsevimab vào giải thích"
+  },
+  {
+    "id": "PED62-A11",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A12",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A13",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A14",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A15",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A16",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Distractor Adenovirus (DNA, trần) bị loại ngay bởi 'RNA, có vỏ' -> thay bằng Rhinovirus (cùng gây khò khè nhũ nhi)"
+    ],
+    "change": "Distractor Adenovirus (DNA, trần) bị loại ngay bởi 'RNA, có vỏ' -> thay bằng Rhinovirus (cùng gây khò khè nhũ nhi)"
+  },
+  {
+    "id": "PED62-A17",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": [
+      "Bỏ khẳng định quá mức 'test nhanh không phát hiện được hMPV' (concerns)"
+    ],
+    "change": "Bỏ khẳng định quá mức 'test nhanh không phát hiện được hMPV' (concerns)"
+  },
+  {
+    "id": "PED62-A18",
+    "phase1_ok": false,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Phase1: stem không xác định duy nhất",
+      "Stem không xác định duy nhất (hMPV vs Adenovirus) -> thêm dữ kiện PCR virus RNA có vỏ"
+    ],
+    "change": "Stem không xác định duy nhất (hMPV vs Adenovirus) -> thêm dữ kiện PCR virus RNA có vỏ"
+  },
+  {
+    "id": "PED62-A19",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-A20",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B01",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B02",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B03",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "Hai distractor là cấu trúc vi khuẩn (stem đã nói virus) -> thay bằng hai giả thuyết về virus"
+    ],
+    "change": "Hai distractor là cấu trúc vi khuẩn (stem đã nói virus) -> thay bằng hai giả thuyết về virus"
+  },
+  {
+    "id": "PED62-B04",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": [
+      "Sửa câu tiếng Việt khó hiểu 'không mệt mỏi liên quan dị ứng'"
+    ],
+    "change": "Sửa câu tiếng Việt khó hiểu 'không mệt mỏi liên quan dị ứng'"
+  },
+  {
+    "id": "PED62-B05",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B06",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B07",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B08",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "Giải thích distractor tràn khí sai ('không phải phổi tăng sáng mạch máu thưa')"
+    ],
+    "change": "Giải thích distractor tràn khí sai ('không phải phổi tăng sáng mạch máu thưa')"
+  },
+  {
+    "id": "PED62-B09",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B10",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B11",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B12",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "Sửa nhận định về fluoroquinolone/doxycycline ở trẻ nhỏ theo Red Book"
+    ],
+    "change": "Sửa nhận định về fluoroquinolone/doxycycline ở trẻ nhỏ theo Red Book"
+  },
+  {
+    "id": "PED62-B13",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [
+      "Mycoplasma cũng hay gây đông đặc thùy trên phim; stem 'phổi êm' giúp chọn lưới nốt — chấp nhận"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-B14",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [
+      "Trùng khái niệm với C19"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-B15",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B16",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "Mâu thuẫn trong stem ('đã điều trị viêm mũi dị ứng' nhưng không tiền sử dị ứng)"
+    ],
+    "change": "Mâu thuẫn trong stem ('đã điều trị viêm mũi dị ứng' nhưng không tiền sử dị ứng)"
+  },
+  {
+    "id": "PED62-B17",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B18",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B19",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-B20",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [
+      "Distractor 'sẹo xơ bít lòng' yếu cho cơ chế ho — giữ"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-C01",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-C02",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-C03",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": [
+      "Bỏ chi tiết sai 'ran ẩm to hạt xuất hiện' ở canh hóa xám"
+    ],
+    "change": "Bỏ chi tiết sai 'ran ẩm to hạt xuất hiện' ở canh hóa xám"
+  },
+  {
+    "id": "PED62-C04",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Stem có ran ẩm to hạt bắt đầu -> trùng giai đoạn hồi phục (C05); bỏ chi tiết để chỉ còn canh hóa xám"
+    ],
+    "change": "Stem có ran ẩm to hạt bắt đầu -> trùng giai đoạn hồi phục (C05); bỏ chi tiết để chỉ còn canh hóa xám"
+  },
+  {
+    "id": "PED62-C05",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-C06",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": [
+      "Bỏ khẳng định tuyệt đối xẹp phổi không có phế quản khí (concerns)"
+    ],
+    "change": "Bỏ khẳng định tuyệt đối xẹp phổi không có phế quản khí (concerns)"
+  },
+  {
+    "id": "PED62-C07",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [
+      "ok"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-C08",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [],
+    "change": ""
+  },
+  {
+    "id": "PED62-C09",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": [
+      "Ghi chú tụ cầu vàng trong giải thích"
+    ],
+    "change": "Ghi chú tụ cầu vàng trong giải thích"
+  },
+  {
+    "id": "PED62-C10",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": [
+      "Bỏ nhãn 'ma trận so sánh' của bài giảng"
+    ],
+    "change": "Bỏ nhãn 'ma trận so sánh' của bài giảng"
+  },
+  {
+    "id": "PED62-C11",
+    "phase1_ok": false,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Phase1: stem không xác định duy nhất",
+      "Stem không xác định duy nhất (hMPV vs Adenovirus) -> thêm dữ kiện PCR virus RNA có vỏ"
+    ],
+    "change": "Stem không xác định duy nhất (hMPV vs Adenovirus) -> thêm dữ kiện PCR virus RNA có vỏ"
+  },
+  {
+    "id": "PED62-C12",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "OK",
+    "issues": [
+      "Trùng xử trí với B02 (nên bỏ một)"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-C13",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "FIXED",
+    "issues": [
+      "Lead-in 'Kháng sinh nào' nhưng có đáp án không phải kháng sinh; 'hỗ trợ' cũng biện hộ được -> thay bằng clindamycin"
+    ],
+    "change": "Lead-in 'Kháng sinh nào' nhưng có đáp án không phải kháng sinh; 'hỗ trợ' cũng biện hộ được -> thay bằng clindamycin"
+  },
+  {
+    "id": "PED62-C14",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": [
+      "Sửa khẳng định tuyệt đối 'xẹp phổi không có phế quản khí' (suspect đã nêu)"
+    ],
+    "change": "Sửa khẳng định tuyệt đối 'xẹp phổi không có phế quản khí' (suspect đã nêu)"
+  },
+  {
+    "id": "PED62-C15",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "FIXED",
+    "issues": [
+      "Giải thích distractor Mycoplasma đã sai (chỉ nói giãn phế quản)"
+    ],
+    "change": "Giải thích distractor Mycoplasma đã sai (chỉ nói giãn phế quản)"
+  },
+  {
+    "id": "PED62-C16",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "Bỏ nhãn 'ma trận so sánh'"
+    ],
+    "change": "Bỏ nhãn 'ma trận so sánh'"
+  },
+  {
+    "id": "PED62-C17",
+    "phase1_ok": true,
+    "phase2_choice": 1,
+    "key": 1,
+    "verdict": "FIXED",
+    "issues": [
+      "Làm mềm khẳng định 'chịu được cồn' (concerns)"
+    ],
+    "change": "Làm mềm khẳng định 'chịu được cồn' (concerns)"
+  },
+  {
+    "id": "PED62-C18",
+    "phase1_ok": true,
+    "phase2_choice": 0,
+    "key": 0,
+    "verdict": "OK",
+    "issues": [
+      "Trùng với A15 (hMPV điều trị hỗ trợ)"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-C19",
+    "phase1_ok": true,
+    "phase2_choice": 2,
+    "key": 2,
+    "verdict": "OK",
+    "issues": [
+      "Trùng khái niệm với B14"
+    ],
+    "change": ""
+  },
+  {
+    "id": "PED62-C20",
+    "phase1_ok": true,
+    "phase2_choice": 3,
+    "key": 3,
+    "verdict": "FIXED",
+    "issues": [
+      "'li bì' là chống chỉ định tương đối chọc dò tủy -> sửa stem (tỉnh, không co giật, đồng tử đều)"
+    ],
+    "change": "'li bì' là chống chỉ định tương đối chọc dò tủy -> sửa stem (tỉnh, không co giật, đồng tử đều)"
+  }
+]

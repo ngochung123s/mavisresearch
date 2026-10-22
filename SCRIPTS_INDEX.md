@@ -113,6 +113,7 @@ Mỗi bài học cũ có thể có scripts APKG/HTML; bài mới chỉ cần APK
 | `build_library_dashboard.py` | Build HTML dashboard tổng hợp library |
 | `fetch_endo_abstracts.py`, `fetch_endo_direct.py` | PubMed fetch cho bài endometriosis |
 | `search_endo_receptivity.py` | PubMed search cho endometrial receptivity |
+| `mcq_lint.py` | Lint ngân hàng MCQ (định dạng mcq_runner): bắt mẹo đoán đáp án (đáp án dài nhất, hội tụ, clang, từ tuyệt đối, "tất cả các ý trên"), cân bằng vị trí đáp án, độ chính xác của bộ đoán bằng mẹo so với ngẫu nhiên. `python mcq_lint.py bank.json --options 4`; exit 1 nếu có BLOCK |
 
 ## 🔎 PubMed / BioMCP quick fetch
 
