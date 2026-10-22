@@ -1,20 +1,22 @@
 {
-  "code": "PED-46",
+  "id": "PED-46",
+  "specialty": "nhi",
   "deck_name": "Nhi khoa Y6::PED-46: Tiếp cận gan to ở trẻ em",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-19T22:00:18",
+  "generated_at": "2026-10-22T16:51:40",
   "cards_source": "ped46_cards_data.py",
-  "cards_source_sha256": "f12a9fd51783192c3a9cb34a965d9ff46a81bdf7a53fdd110e6ea077aac25ce5",
-  "card_count": 97,
+  "cards_source_sha256": "1dd96d943553aae7ebbae823a7781ba927b50f23ff2b4f50d0b05845c91250b4",
+  "card_count": 99,
   "summary": {
     "block": 0,
-    "debt": 195,
+    "debt": 203,
     "warn": 1,
     "by_code": {
       "G_ALGO_COUNT": 1,
-      "G_COLOR_BACK": 97,
-      "G_COLOR_FRONT": 97,
+      "G_ASKS_MISSING": 4,
+      "G_COLOR_BACK": 99,
+      "G_COLOR_FRONT": 99,
       "W_TIER": 1
     }
   },
@@ -248,6 +250,12 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED46-B19",
+      "message": "🎯 chia mục theo khía cạnh («Dấu hiệu ứ mật», «Dấu hiệu suy gan») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_COLOR_FRONT",
       "card_id": "PED46-B20",
       "message": "Front không có màu palette",
@@ -561,6 +569,30 @@
     },
     {
       "code": "G_COLOR_FRONT",
+      "card_id": "PED46-B52",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED46-B52",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
+      "card_id": "PED46-B53",
+      "message": "Front không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_BACK",
+      "card_id": "PED46-B53",
+      "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_COLOR_FRONT",
       "card_id": "PED46-B46",
       "message": "Front không có màu palette",
       "severity": "DEBT"
@@ -644,6 +676,12 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED46-E01",
+      "message": "🎯 chia mục theo khía cạnh («Tiêu chuẩn khám») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_COLOR_FRONT",
       "card_id": "PED46-E02",
       "message": "Front không có màu palette",
@@ -701,6 +739,12 @@
       "code": "G_COLOR_BACK",
       "card_id": "PED46-E06",
       "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED46-E06",
+      "message": "🎯 chia mục theo khía cạnh («Dự phòng phù não») nhưng thẻ không khai `asks`",
       "severity": "DEBT"
     },
     {
@@ -821,6 +865,12 @@
       "code": "G_COLOR_BACK",
       "card_id": "PED46-E16",
       "message": "Back không có màu palette",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED46-E16",
+      "message": "🎯 chia mục theo khía cạnh («Cơ chế enzyme») nhưng thẻ không khai `asks`",
       "severity": "DEBT"
     },
     {
@@ -1196,16 +1246,17 @@
       "severity": "WARN"
     }
   ],
-  "apkg": "PED-46_Tiep_can_gan_to_MASTER_v1.apkg",
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\04_Tieu_hoa_va_Dinh_duong\\PED-46_Tiep_can_gan_to\\PED-46_Tiep_can_gan_to_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 94,
-    "unchanged": 0,
-    "added": 3,
-    "archived": 3,
+    "updated": 7,
+    "unchanged": 90,
+    "added": 2,
+    "archived": 0,
     "moved": 0,
-    "deck_notes": 97
+    "media": 2,
+    "deck_notes": 99
   },
-  "apkg_sha256": "7ee536254ee73cce45e99d398c2f0409a5718ac9a7595216a89dc877dd843af4",
-  "sqlite_notes": 97,
-  "sqlite_cards": 97
+  "apkg_sha256": "7661b808b951b6e0ded9cc8b34363728035706bb7936cca343eabac0b35e2034",
+  "sqlite_notes": 99,
+  "sqlite_cards": 99
 }

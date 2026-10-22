@@ -116,11 +116,10 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-63_Bien_thien_cong_thuc_bach_cau_theo_tuoi_va_Nhan_dinh_Nhiem_trung_vs_Virus_2026-10-16_RELEASE_v1.md",
-    "debt": 83,
+    "debt": 54,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "F_CONTROL_CHAR": 26,
-      "F_LATEX": 48,
+      "F_LATEX": 45,
       "S_DEPTH": 8
     },
     "depth_fails": [
@@ -143,8 +142,9 @@
         "basic": 52,
         "cloze": 0,
         "block": 0,
-        "debt": 1,
+        "debt": 19,
         "by_code": {
+          "G_ASKS_MISSING": 18,
           "G_COLOR_BACK": 1,
           "W_TIER": 1
         }
@@ -175,9 +175,10 @@
         "basic": 68,
         "cloze": 0,
         "block": 0,
-        "debt": 137,
+        "debt": 165,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 28,
           "G_COLOR_BACK": 68,
           "G_COLOR_FRONT": 68,
           "W_TIER": 1
@@ -213,9 +214,10 @@
         "basic": 126,
         "cloze": 0,
         "block": 0,
-        "debt": 254,
+        "debt": 281,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 27,
           "G_BACK_STRUCTURE": 1,
           "G_COLOR_BACK": 126,
           "G_COLOR_FRONT": 126,
@@ -252,9 +254,10 @@
         "basic": 116,
         "cloze": 0,
         "block": 0,
-        "debt": 233,
+        "debt": 244,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 11,
           "G_COLOR_BACK": 116,
           "G_COLOR_FRONT": 116,
           "W_TIER": 1
@@ -284,9 +287,10 @@
         "basic": 27,
         "cloze": 62,
         "block": 0,
-        "debt": 66,
+        "debt": 69,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 3,
           "G_COLOR_BACK": 27,
           "G_COLOR_FRONT": 27,
           "G_PARTIAL_CLOZE": 11,
@@ -325,8 +329,9 @@
         "basic": 82,
         "cloze": 77,
         "block": 0,
-        "debt": 0,
+        "debt": 17,
         "by_code": {
+          "G_ASKS_MISSING": 17,
           "W_TIER": 1
         }
       }
@@ -375,10 +380,9 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-15_Tiep_can_vang_da_u_mat_va_Teo_duong_mat_bam_sinh_2026-09-13_RELEASE_v1.md",
-    "debt": 12,
+    "debt": 7,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "F_CONTROL_CHAR": 5,
       "F_LATEX": 5,
       "V_NO_ARTIFACTS": 1
     },
@@ -432,8 +436,9 @@
         "basic": 73,
         "cloze": 54,
         "block": 0,
-        "debt": 0,
+        "debt": 14,
         "by_code": {
+          "G_ASKS_MISSING": 14,
           "W_TIER": 1
         }
       }
@@ -468,8 +473,9 @@
         "basic": 76,
         "cloze": 64,
         "block": 0,
-        "debt": 0,
+        "debt": 11,
         "by_code": {
+          "G_ASKS_MISSING": 11,
           "W_TIER": 1
         }
       }
@@ -498,8 +504,9 @@
         "basic": 79,
         "cloze": 51,
         "block": 0,
-        "debt": 0,
+        "debt": 13,
         "by_code": {
+          "G_ASKS_MISSING": 13,
           "W_TIER": 1
         }
       }
@@ -535,8 +542,9 @@
         "basic": 69,
         "cloze": 68,
         "block": 0,
-        "debt": 0,
+        "debt": 8,
         "by_code": {
+          "G_ASKS_MISSING": 8,
           "W_TIER": 1
         }
       }
@@ -572,8 +580,9 @@
         "basic": 65,
         "cloze": 56,
         "block": 0,
-        "debt": 0,
+        "debt": 15,
         "by_code": {
+          "G_ASKS_MISSING": 15,
           "W_TIER": 1
         }
       }
@@ -608,9 +617,10 @@
         "basic": 95,
         "cloze": 5,
         "block": 0,
-        "debt": 192,
+        "debt": 199,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 7,
           "G_COLOR_BACK": 95,
           "G_COLOR_FRONT": 95,
           "G_PARTIAL_CLOZE": 1,
@@ -650,8 +660,9 @@
         "basic": 70,
         "cloze": 63,
         "block": 0,
-        "debt": 0,
+        "debt": 11,
         "by_code": {
+          "G_ASKS_MISSING": 11,
           "W_TIER": 1
         }
       }
@@ -772,8 +783,9 @@
         "basic": 68,
         "cloze": 0,
         "block": 0,
-        "debt": 3,
+        "debt": 27,
         "by_code": {
+          "G_ASKS_MISSING": 24,
           "G_COLOR_BACK": 3,
           "W_TIER": 1
         }
@@ -787,10 +799,9 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C_2026-09-16_RELEASE_v1.md",
-    "debt": 117,
+    "debt": 72,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "F_CONTROL_CHAR": 45,
       "F_LATEX": 60,
       "V_NOT_GUIDELINE": 4,
       "V_NO_ABSTRACT_MATCH": 1,
@@ -808,8 +819,9 @@
         "basic": 88,
         "cloze": 74,
         "block": 0,
-        "debt": 0,
+        "debt": 16,
         "by_code": {
+          "G_ASKS_MISSING": 16,
           "W_TIER": 1
         }
       }
@@ -842,9 +854,10 @@
         "basic": 110,
         "cloze": 0,
         "block": 0,
-        "debt": 321,
+        "debt": 355,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 34,
           "G_BACK_STRUCTURE": 100,
           "G_COLOR_BACK": 110,
           "G_COLOR_FRONT": 110,
@@ -886,9 +899,10 @@
         "basic": 97,
         "cloze": 0,
         "block": 0,
-        "debt": 195,
+        "debt": 199,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 4,
           "G_COLOR_BACK": 97,
           "G_COLOR_FRONT": 97,
           "W_TIER": 1
@@ -918,9 +932,10 @@
         "basic": 68,
         "cloze": 0,
         "block": 0,
-        "debt": 137,
+        "debt": 163,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 26,
           "G_COLOR_BACK": 68,
           "G_COLOR_FRONT": 68,
           "W_TIER": 1
@@ -982,9 +997,10 @@
         "basic": 92,
         "cloze": 0,
         "block": 0,
-        "debt": 273,
+        "debt": 306,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 33,
           "G_BACK_STRUCTURE": 88,
           "G_COLOR_BACK": 92,
           "G_COLOR_FRONT": 92,
@@ -1017,8 +1033,9 @@
         "basic": 81,
         "cloze": 74,
         "block": 0,
-        "debt": 0,
+        "debt": 6,
         "by_code": {
+          "G_ASKS_MISSING": 6,
           "W_TIER": 1
         }
       }
@@ -1097,8 +1114,9 @@
         "basic": 64,
         "cloze": 0,
         "block": 0,
-        "debt": 6,
+        "debt": 23,
         "by_code": {
+          "G_ASKS_MISSING": 17,
           "G_COLOR_BACK": 4,
           "G_COLOR_FRONT": 2,
           "W_TIER": 1
@@ -1130,9 +1148,10 @@
         "basic": 40,
         "cloze": 40,
         "block": 0,
-        "debt": 2,
+        "debt": 21,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 19,
           "G_PARTIAL_CLOZE": 1,
           "W_TIER": 1
         }
@@ -1171,9 +1190,10 @@
         "basic": 60,
         "cloze": 0,
         "block": 0,
-        "debt": 121,
+        "debt": 139,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 18,
           "G_COLOR_BACK": 60,
           "G_COLOR_FRONT": 60,
           "W_TIER": 1
@@ -1213,9 +1233,10 @@
         "basic": 63,
         "cloze": 0,
         "block": 2,
-        "debt": 127,
+        "debt": 153,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 26,
           "G_COLOR_BACK": 63,
           "G_COLOR_FRONT": 63,
           "P_BACK_SOURCE": 2,
@@ -1259,10 +1280,9 @@
     "manifest": false,
     "profile": "disease (giả định)",
     "lesson": "PED-40_Hoi_chung_than_hu_nguyen_phat_2026-09-21_RELEASE_v1.md",
-    "debt": 6,
+    "debt": 5,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "F_CONTROL_CHAR": 1,
       "F_LATEX": 1,
       "M_MANIFEST": 1,
       "S_DEPTH": 1,
@@ -1281,9 +1301,10 @@
         "basic": 64,
         "cloze": 34,
         "block": 0,
-        "debt": 193,
+        "debt": 198,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 5,
           "G_COLOR_BACK": 64,
           "G_COLOR_FRONT": 64,
           "G_EXTRA_EMPTY": 62,
@@ -1321,9 +1342,10 @@
         "basic": 75,
         "cloze": 0,
         "block": 0,
-        "debt": 151,
+        "debt": 179,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 28,
           "G_COLOR_BACK": 75,
           "G_COLOR_FRONT": 75,
           "W_TIER": 1
@@ -1365,9 +1387,10 @@
         "basic": 39,
         "cloze": 44,
         "block": 0,
-        "debt": 4,
+        "debt": 15,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 11,
           "G_PARTIAL_CLOZE": 3,
           "W_TIER": 1
         }
@@ -1381,10 +1404,9 @@
     "manifest": true,
     "profile": "foundation",
     "lesson": "PED-48_Suy_tim_o_tre_em_2026-09-19_RELEASE_v1.md",
-    "debt": 38,
+    "debt": 21,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "F_CONTROL_CHAR": 17,
       "F_LATEX": 19,
       "V_NO_ARTIFACTS": 1
     },
@@ -1438,9 +1460,10 @@
         "basic": 50,
         "cloze": 0,
         "block": 1,
-        "debt": 101,
+        "debt": 111,
         "by_code": {
           "G_ALGO_COUNT": 1,
+          "G_ASKS_MISSING": 10,
           "G_COLOR_BACK": 50,
           "G_COLOR_FRONT": 50,
           "P_BACK_SOURCE": 1,

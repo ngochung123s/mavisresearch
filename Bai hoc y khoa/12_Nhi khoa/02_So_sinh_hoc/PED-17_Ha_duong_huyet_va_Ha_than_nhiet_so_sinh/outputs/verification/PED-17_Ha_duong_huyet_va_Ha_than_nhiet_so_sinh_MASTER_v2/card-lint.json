@@ -1,29 +1,76 @@
 {
-  "code": "PED-17",
+  "id": "PED-17",
+  "specialty": "nhi",
   "deck_name": "Nhi khoa Y6::PED-17: Hạ đường huyết & Hạ thân nhiệt sơ sinh",
-  "mode": "release",
-  "status": "PASS",
-  "generated_at": "2026-10-19T22:09:11",
+  "mode": "hotfix",
+  "status": "PASS_WITH_DEBT",
+  "generated_at": "2026-10-22T17:44:30",
   "cards_source": "ped17_cards_data.py",
-  "cards_source_sha256": "3dc6ed028539046bcb364afd4862616aa8a6242c4a97105ee709c104a65c2227",
-  "card_count": 140,
+  "cards_source_sha256": "7aaf5392f56245e7279c93a5872d4d478713ba027804205208b558eabb0b771e",
+  "card_count": 210,
   "summary": {
     "block": 0,
-    "debt": 0,
+    "debt": 7,
     "warn": 0,
-    "by_code": {}
+    "by_code": {
+      "G_ASKS_MISSING": 7
+    }
   },
-  "issues": [],
-  "apkg": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_MASTER_v2.apkg",
+  "issues": [
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B3-03",
+      "message": "🎯 chia mục theo khía cạnh («Hậu quả») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B4-04",
+      "message": "🎯 chia mục theo khía cạnh («Biến chứng đáng sợ nhất») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B8-04",
+      "message": "🎯 chia mục theo khía cạnh («Cơ chế») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B8-07",
+      "message": "🎯 chia mục theo khía cạnh («Phòng ngừa») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B9-05",
+      "message": "🎯 chia mục theo khía cạnh («Hậu quả nhầm») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B11-03",
+      "message": "🎯 chia mục theo khía cạnh («Lâm sàng») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED17-B12-01",
+      "message": "🎯 chia mục theo khía cạnh («Theo dõi») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    }
+  ],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\02_So_sinh_hoc\\PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh\\PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_MASTER_v2.apkg",
   "anki_sync": {
-    "updated": 62,
-    "unchanged": 0,
-    "added": 78,
-    "archived": 84,
+    "updated": 47,
+    "unchanged": 93,
+    "added": 70,
+    "archived": 0,
     "moved": 0,
-    "deck_notes": 140
+    "media": 0,
+    "deck_notes": 210
   },
-  "apkg_sha256": "81a97ed32b2505657ca50003cc5ee6de05d5904383a72ab71a2b3fa8cca32b55",
-  "sqlite_notes": 140,
-  "sqlite_cards": 140
+  "apkg_sha256": "8cc5951c15d6725eef26252f2d89840300dd6ab31ccacac6fe0fdfa5a86eb7ec",
+  "sqlite_notes": 210,
+  "sqlite_cards": 212
 }

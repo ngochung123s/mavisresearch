@@ -1,0 +1,221 @@
+---
+title: "HẠ ĐƯỜNG HUYẾT SƠ SINH"
+code: "PEDYTB"
+type: "PEDYTB"
+author: "[không có trong ảnh — tên tác giả không xuất hiện ở các trang 46 – 52]"
+source: "Giáo trình Nhi khoa Y Thái Bình (Trang 46 - 52)"
+ocr_date: "2026-10-22"
+specialty: "Nhi khoa - Sơ sinh / Nội tiết - Chuyển hóa"
+fidelity: "100% Verbatim Original Document"
+---
+
+<!-- OCR_VERBATIM: giữ nguyên câu chữ, dấu câu, lỗi chính tả, viết hoa/thường và cách xuống dòng của sách. -->
+<!-- Ảnh gốc: g1_116 … g1_122 (7 ảnh, chụp xoay 90°, gửi qua Telegram 22/10/2026). Trang 46 không thấy số trang trong ảnh (suy ra từ trang 47 liền sau). -->
+
+> **Ghi chú OCR:** Dựng lại từ 7 ảnh chụp sách, đủ toàn bộ trang 46 – 52 của chương "HẠ ĐƯỜNG HUYẾT SƠ SINH" (không thiếu trang giữa chừng). Mục "TÀI LIỆU THAM KHẢO" nằm ở trang kế sau (không có trong ảnh, chỉ lờ mờ thấu qua mặt sau trang 52 → **[không đọc được]**). Ảnh có cụm sách "Lách to" (trang 100 – 109) trộn trong cùng album: không thuộc chương này, không đưa vào.
+
+<!-- Page 46 -->
+# HẠ ĐƯỜNG HUYẾT SƠ SINH
+
+**1. ĐẠI CƯƠNG**
+
+Hạ đường huyết là một trong những vấn đề thường gặp trong giai đoạn sơ sinh. Hạ đường huyết sơ sinh được xác định  khi đường huyết của trẻ dưới 45 mg/dL (2,6 mmol/L)[1]
+
+Hạ đường huyết thường gặp ở trẻ sơ sinh non tháng, suy dinh dưỡng bào thai hoặc trẻ sơ sinh bệnh lý, đặc biệt là trẻ sinh ra từ các bà mẹ bị tiểu đường.
+
+Hạ đường huyết nặng ở trẻ sơ sinh có thể gây tổn thương các tế bào não, có thể gây cơn co giật, suy hô hấp, có thể đe dọa tính mạng của trẻ nên cần được chẩn đoán và điều trị kịp thời.
+
+**2. NGUYÊN NHÂN**
+
+Hạ đường huyết có thể do giảm dự trữ Glycogen và hoặc tăng sử dụng Glucose, tăng Insulin. Có nhiều nguyên nhân:
+
+**2.1.Hạ đường huyết do tăng Insulin**
+
+**a. Do thay đổi chuyển hoá của mẹ:**
+- Truyền đường, thuốc trong thai kỳ
+- Bệnh tiểu đường
+
+**b. Do di truyền bẩm sinh:** Do đột biến gen mã hóa sự điều hòa bài tiết insulin của tế bào Beta đảo tụy như  gen ABCC8, KCNJ11, SUR1, Kir6.2…
+
+**c. Tăng Insulin thứ phát**
+- Ngạt
+- Hội chứng Beckwith-Wiedemann
+- Mẹ điều trị thuốc Terbutaline
+- Catheter động mạch rốn sai vị trí: dịch có nồng độ Glucose cao được truyền vào động mạch chậu và động mạch mạc treo tràng trên ở vị trí T11- T12, kích thích tụy tăng tiết insulin
+
+<!-- Page 47 -->
+- Ngừng đột ngột dịch truyền Glucose cao
+- Sau thay máu với lượng máu có nồng độ Glucose cao
+- Khối u sản xuất insulin ( u đảo tụy), tăng sản tế bào beta tiểu đảo Langerhans
+
+**2.2.Trẻ to so với tuổi thai:**
+
+Ngoài nguyên nhân do mẹ tiểu đường, có thể không xác định được nguyên nhân. Nhóm nguy cơ cao cần được sàng lọc hạ đường huyết.
+
+**2.3.Giảm sản xuất/ dự trữ Glucose:**
+- Chậm phát triển trong tử cung: cân nặng lúc sinh ≤ 2nd centile theo bảng 1
+- Đẻ non
+- Chế độ dinh dưỡng không đủ năng lượng
+- Cho ăn muộn
+
+Bảng 1: cân nặng ở mức 2nd centile
+
+| Tuổi thai (tuần) | Cân nặng (kg) — Trẻ trai | Cân nặng (kg) — Trẻ gái |
+|---|---|---|
+| 37 | 2,10 | 2,00 |
+| 38 | 2,30 | 2,20 |
+| 39 | 2,50 | 2,45 |
+| 40 | 2,65 | 2,60 |
+| 41 | 2,80 | 2,75 |
+| 42 | 2,90 | 2,85 |
+
+**2.4.Tăng sử dụng và/hoặc giảm sản xuất Glucose**
+
+**a. Stress chu sinh:** nhiễm trùng, sốc, ngạt, hạ than nhiệt, suy hô hấp, giai đoạn sau hồi sức
+
+47
+
+<!-- Page 48 -->
+**b. Rối loạn chuyển hoá bẩm sinh**
+- Carbohydrate (Galactosaemia, Fructose intolerance)
+- Amino acid (Maple Syrup dis, Methylmalonic acidaemia)
+- Fatty acid (carnitine, AcylCoA dehydrogenase defect)
+
+**c. Rối loạn nội tiết:**
+- Thiếu hocmon tuyến yên/Glucagon/Cortisol/Adrenaline
+
+**d. Đa hồng cầu**
+
+**e. Mẹ sử dụng các thuốc chẹn beta ở 3 tháng cuối của thai kỳ và/ hoặc bất kỳ thời điểm nào tại phòng sinh  ( labetalol, propranolol)**
+
+**3. CHẨN ĐOÁN**
+
+**3.1.Triệu chứng lâm sàng**
+
+Các triệu chứng lâm sàng không đặc hiệu và có thể muộn
+
+Cần xét nghiệm đường huyết cho trẻ có ≥ 1 triệu chứng sau đây
+- Hạ nhiệt độ (≤36,5°C) không do yếu tố bên ngoài
+- Nghi ngờ/ khẳng định nhiễm trùng sơ sinh
+- Tím
+- Ngừng thở
+- Li bì, ngơ ngác hoặc quá thức tỉnh ở bất kỳ mức độ nào
+- Co giật
+- Giảm trương lực cơ
+- Giảm phản xạ
+- Khóc thét
+- Bất thường về hành vi bú mút (không bú, bú không đều, bú không hiệu quả, ngủ nhiều), đặc biệt sau một giai đoạn bú tốt
+- Run cơ (các chuyển động lặp đi lặp lại ở ≥ 1 chi mà không có kích thích)
+- Vã mồ hôi
+- Nhịp tim nhanh
+
+48
+
+<!-- Page 49 -->
+- Toan máu: khí máu động mạch rốn hoặc của trẻ có pH < 7,1 và BE ≤ −12
+
+❖ Chú ý khám trẻ một cách toàn diện, đặc biệt chú ý đến
+- Trẻ có các triệu chứng nặng( co giật, tím tái, suy hô hấp…) cần phải cấp cứu ngay không?
+- Tìm và xác định yếu tố nguy cơ hạ đường huyết: Cân nặng của trẻ có quá nặng cân hay quá nhẹ cân? Tuổi thai của trẻ : sinh non hay già tháng? Ngạt, thiếu oxy, con của mẹ bị bệnh tiểu đường…
+- Khám đầy đủ các cơ quan, chú ý khám thần kinh
+
+**3.2.Cận lâm sàng**
+
+Sàng lọc hạ đường huyết:
+- Cần làm xét nghiệm Glucose huyết  cho tất cả những trẻ sơ sinh có triệu chứng và sàng lọc  hạ đường huyết cần thực hiện cho những trẻ sơ sinh thuộc nhóm nguy cơ cao.
+- Sàng lọc cần thực hiện ngay trong giờ đầu sau sinh, và tiếp tục theo dõi thường quy  trong thời gian tiếp theo.
+
+**3.2.1. Xét nghiệm xác định chẩn đoán:**
+- Xét nghiệm nhanh: Test Dextrostix
+- Lấy máu xét nghiệm nồng độ Glucose huyết thanh
+- Dựa vào kết quả đường máu máu lần đầu tiên, trẻ sẽ được phân loại và xử trí theo mức độ
+
+**3.2.2. Xét nghiệm tìm nguyên nhân:**
+
+Trường hợp hạ đường huyết dai dẳng:
+- Insulin huyết thanh xét nghiệm đồng thời với Glucose huyết thanh
+- Cortisol
+
+**3.2.3. Trường hợp hạ đường huyết dai dẳng với insulinhuyết bình thường, cần xem xét các xét nghiệm**
+- Hormone tăng trưởng (GH), ACTH, T4, TSH
+- Glucagon
+
+49
+
+<!-- Page 50 -->
+- Amino acid huyết thanh, niệu. Acid hữu cơ niệu
+- Xét nghiệm gen
+
+**3.3.Chẩn đoán phân biệt**
+
+Hạ đường huyết không có chẩn đoán phân biệt thực sự, chủ yếu là chẩn đoán nguyên nhân
+
+**4. ĐIỀU TRỊ**
+
+**4.1. Xử trí ngay các  tình trạng cần cấp cứu:**
+- Xử trí co giật, tím tái, suy hô hấp… nếu có
+- Lau khô, đội mũ và giữ ấm trẻ, xem xét chăm sóc da kề da
+- Kiểm tra lại đường huyết
+
+**4.2. Điều chỉnh đường huyết: Tuỳ theo mức độ hạ đường huyết**
+
+GLUCOSE HUYẾT < 17 MG/DL( 1,0 mmol/L) VÀ/ HOẶC CÓ TRIỆU CHỨNG LÂM SÀNG
+- Tiêm TM glucose 10%, 2,5ml/kg.
+- Nếu không thể tiếp cận đường truyền TM ngay, bơm glucoza 40% qua ống thông dạ dày, 200mg/kg hoặc glucagon 200micrograms/kg tiêm bắp cho tới khi tiếp cận được đường TM
+- Truyền TM duy trì dung dịch  glucose 10% 60ml/kg/ngày
+- Sau 30 phút, thử lại ĐH và tiếp tục theo dõi 3 giờ/lần:
+  - o ĐH < 17 mg/dl và/ hoặc có triệu chứng lâm sàng: tiêm glucose TM, liều lượng như trên, sau đó truyền liều duy trì, tăng tốc độ truyền đường lên 2mg/kg/phút bằng cách tăng thể tích và hoặc tăng nồng độ. Nếu nồng độ đường trên 12,5%, cần  truyền qua TM trung tâm
+    - ▪ Thử lại ĐH, nếu vẫn < 1,0mmol/l hoặc có triệu chứng lâm sàng, tiếp tục xử trí như cũ
+    - ▪ Nếu tốc độ truyền đường > 8mg/kg/phút, làm các xét nghiệm chẩn đoán cường insulin, thảo luận với bác sỹ chuyên khoa nội tiết
+
+50
+
+<!-- Page 51 -->
+  - o 17mg/dL <ĐH < 45 mg/dl:  tăng tốc độ truyền đường 2mg/kg/phút bằng cách tăng thể tích và/ hoặc nồng độ truyền đường. Tiếp tục cho trẻ ăn nếu không có chống chỉ định. Kiểm tra lại đường huyết sau 30 phút
+  - o ĐH≥ 45 mg/dl: giảm dần tốc độ truyền đường, tiếp tục cho ăn, tiếp tục theo dõi đường huyết cho đến khi trẻ ăn hoàn toàn và đường huyết > 2,5mmol/l (hoặc > 3,5mmol/l với trẻ cường insulin) ở 2 lần xét nghiệm liên tiếp thì xem phần theo dõi đường huyết sau khi ổn định .
+
+ĐƯỜNG HUYẾT > 17 MG/DL(1,0 mmol/L) VÀ < 36MG/DL(2 mmol/L) VÀ KHÔNG TRIỆU CHỨNG LÂM SÀNG
+- Xem xét ăn dung dịch đường 40%, 200mg/kg
+- Hỗ trợ bú mẹ, sử dụng sữa công thức nếu mẹ chưa có sữa
+- Kiểm tra lại đường huyết trước bữa ăn thứ 3, không để lâu quá 8 giờ
+- Nếu đường huyết ≥ 2,0mmol/l, tiếp tục hỗ trợ trẻ bú, theo dõi dấu hiệu lâm sàng
+- Nếu đường huyết ≤ 2,0 mmol/l hoặc có triệu chứng, xử trí như dưới đây
+- Truyền dung dịch Glucoza10% liều duy trì 80- 120 ml/Kg/ngày.
+- Theo dõi đường huyết 3 giờ/ lần  cho đến khi đường được 45 mg/dL ở 2 lần xét nghiệm liên tiếp.
+
+ĐƯỜNG HUYẾT > 36 MG/DL VÀ < 45MG/DL( 2-2,6 mmol/L)
+- Bú mẹ tích cực . Nếu trẻ không thể bú mẹ thì vắt sữa và cho trẻ ăn bằng phương pháp thay thế .
+- Làm lại xét nghiệm ĐH sau 3 giờ hoặc trước khi cho trẻ bú:
+  - o Nếu ĐH< 36 mg/dl:  điều trị như hướng dẫn trên.
+  - o Nếu 36mg/dL< ĐH< 45 mg/dl :vẫn cho trẻ bú mẹ, và cho ăn hoàn toàn lượng nhu cầu trong ngày bằng sữa mẹ vắt, nếu không đủ cần thêm sữa công thức. Có thể tăng từ 8 bữa/ngày lên 12 bữa/ngày.
+- o Khi ĐH> 45 mg/dl trong 2 lần xét nghiệm liên tiếp thì xem phần theo dõi đường huyết sau khi ổn định
+
+THEO DÕI KHI ĐƯỜNG HUYẾT BÌNH THƯỜNG
+
+51
+
+<!-- Page 52 -->
+- Nếu ĐH ổn định với điều trị truyền TM:
+  - o Bắt đầu cho ăn 20ml/Kg/ngày
+  - o Tăng dần lượng ăn và giảm dần dịch truyền cho đến khi ăn được hoàn toàn.
+  - o Làm xét nghiệm ĐH12 giờ/lần trong thời gian trẻ truyền dịch.
+  - o Nếu ĐH<45 mg/dL:điều trị theo hướng dẫn ở trên.
+- Nếu trẻ không phải truyền TM thì xét nghiệm ĐH 12 giờ /lần trong 24 giờ (làm thêm 2 lần nữa):
+  - o Nếu ĐH< 45 mg/dl:điều trị theo hướng dẫn ở trên
+  - o Nếu ĐH bình thường thì không cần xét nghiệm lại.
+
+*4.3. Điều trị nguyên nhân*
+
+Hầu hết các trường hợp là  hạ đường huyết thoáng qua. Trường hợp hạ  đường huyêt dai dẳng cần tìm nguyên nhân và điều trị nguyên nhân cụ thể.
+
+**5. TIẾN TRIỂN VÀ BIẾN CHỨNG**
+
+Hạ đường huyết là một vấn đề rất thường gặp trong giai đoạn sơ sinh với những biểu hiện lâm sàng đa dạng và không đặc hiệu, có thể diễn biến nặng có nguy cơ tử vong cũng như có thể để lại di chứng lâu dài. Do đó cần chú ý phát hiện sớm để điều trị thích hợp kịp thời.
+
+**6. DỰ PHÒNG**
+
+Cần kiểm tra đường huyết sớm ở những trẻ có nguy cơ cao hạ đường huyết
+
+Cho trẻ ăn sớm, kích thích bú mẹ
+
+52

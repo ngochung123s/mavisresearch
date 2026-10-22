@@ -1,7 +1,7 @@
 # RULES_LESSON_APKG — Quy tắc build BÀI HỌC + APKG cho MỌI chuyên khoa
 
 > **Phạm vi:** mọi bài trong `Bai hoc y khoa/` — Nhi khoa, Nội khoa, Sản phụ khoa, ART, Siêu âm thai, Siêu âm tổng quát, Vi sinh – Miễn dịch.
-> **Cập nhật:** 2026-10-19. File này thay cho `12_Nhi khoa/PED_RULES.md` (đã gộp vào đây).
+> **Cập nhật:** 2026-10-20. File này thay cho `12_Nhi khoa/PED_RULES.md` (đã gộp vào đây).
 > **Chính sách áp dụng:** bài **mới** hoặc **viết lại** phải qua `release_lesson.py --mode release` (mọi gate chặn). Bài **cũ** không bị chặn: lỗi được ghi vào sổ nợ `_DEBT_LEDGER.md` và sửa dần.
 
 ## 0. Thứ tự ưu tiên & cách đổi rule
@@ -117,11 +117,13 @@ Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Gi�
 | 2.6 Màu | `G_COLOR_FRONT`, `G_COLOR_BACK` | Basic có màu palette ở Front và Back | G |
 | 2.8 Thuật toán | `G_ALGO_COUNT` | ≥3 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` | G |
 | 2.4 Phân tầng | `W_TIER` | cảnh báo nếu không thẻ nào khai báo `tier` | W |
-| 2.5 Semantic alignment | — | chưa enforce bằng code — soát tay | — |
+| 2.5 Hỏi gì đáp nấy (2 chiều) | `G_ASKS_MISSING`, `G_ASKS_NOT_IN_FRONT`, `G_BACK_OVERFLOW`, `G_FRONT_UNANSWERED`, `T_ASKS_FORMAT` | Hợp đồng `asks` (tất định): 🎯 có mục nhãn bắt đầu bằng từ khóa khía cạnh (`Xử trí:`, `Lứa tuổi:`…) thì bắt buộc khai `asks`; mỗi `asks` có trong Front; mỗi mục 🎯 cấp 1 có nhãn bắt đầu bằng một `asks`; mỗi `asks` có mục 🎯 (so theo tập, không phân biệt hoa/thường). Ý mở rộng đặt ở 💡. Thẻ 🎯 không chia nhãn khía cạnh → soát tay | G (T_ASKS_FORMAT: T) |
 
 Mode `release`: T/P/D/G đều BLOCK. Mode `hotfix`: T/P/D BLOCK, G thành DEBT.
 
-Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "track": "barem_goc|ebm", "badge", "badge_class", "front", "back" | "text", "extra", "tags"}`. **Không đổi `id` của thẻ đã phát hành** (đổi id = thẻ mới, mất lịch sử ôn). Notetype mặc định `YKhoa_Master_Basic` / `YKhoa_Master_Cloze`; chuyên khoa đã có deck trong Anki khai báo notetype riêng trong `specialties.json` → `models` (Nhi khoa giữ `NhiKhoa_Master_*` — **không đổi id/tên/template**, vì đổi thì import APKG sẽ bỏ qua note cùng GUID).
+**Loại thẻ mở rộng — luật đã chốt 2026-10-22, CHƯA enforce, CHƯA có notetype/CSS:** Thẻ Bảng (governance §9: ≤ 4 cột × 6 hàng, HTML `div.tbl > table`, cloze trọn 1 ô, che trọn 1 hàng/cột và chỉ khi mọi ô thuộc phạm vi cloze §2.3) và Thẻ Trắc nghiệm MCQ/SBA (governance §10: 4–5 phương án đồng nhất, 1 đáp án đúng nhất, giải thích từng phương án sai, `type: "mcq"`, notetype dự kiến `YKhoa_Master_MCQ`; các gate Basic phải xử lý riêng cho MCQ). Chưa dùng trong bài phát hành cho tới khi `deck_builder.py` + `card_lint.py` có code tương ứng.
+
+Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "track": "barem_goc|ebm", "badge", "badge_class", "front", "back" | "text", "extra", "tags", "asks"}`. `asks` (chỉ thẻ Basic, không vào APKG) = danh sách khía cạnh Front hỏi, ví dụ `"asks": ["Lứa tuổi", "Lâm sàng", "Xử trí"]` ↔ 🎯 `1) <b>Lứa tuổi:</b> … 2) <b>Lâm sàng:</b> … 3) <b>Xử trí:</b> …`; quét APKG lấy `asks` từ `deck.cards_source` (hoặc `<basename>.cards.v2.json` cạnh APKG). **Không đổi `id` của thẻ đã phát hành** (đổi id = thẻ mới, mất lịch sử ôn). Notetype mặc định `YKhoa_Master_Basic` / `YKhoa_Master_Cloze`; chuyên khoa đã có deck trong Anki khai báo notetype riêng trong `specialties.json` → `models` (Nhi khoa giữ `NhiKhoa_Master_*` — **không đổi id/tên/template**, vì đổi thì import APKG sẽ bỏ qua note cùng GUID).
 
 ## 6. Anki — `anki_sync.py` (qua `--sync-anki`)
 

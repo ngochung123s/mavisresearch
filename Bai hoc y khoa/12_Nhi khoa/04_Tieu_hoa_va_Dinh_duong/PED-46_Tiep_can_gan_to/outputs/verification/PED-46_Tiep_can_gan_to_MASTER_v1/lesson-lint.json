@@ -1,0 +1,78 @@
+{
+  "id": "PED-46",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-46_Tiep_can_gan_to_2026-09-13_RELEASE_v1.md",
+  "mode": "release",
+  "summary": {
+    "block": 10,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "S_DEPTH": 9
+    }
+  },
+  "issues": [
+    {
+      "code": "S_DEPTH",
+      "card_id": "Profile structural markers (disease)",
+      "message": "8 issues (cần 0 issues) missing heading: tổng quan; missing heading: điều trị; missing heading: theo dõi; missing heading: tips; missing heading: bằng chứng; missing prerequisite: nền tảng tối thiểu cần dùng ngay; missing case: case 1; missing safety: box đỏ",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Main sections count (##) & keywords",
+      "message": "11 sections (5/10 keywords) (cần ≥10 sections (10 keywords)) Missing keywords: ['TỔNG QUAN', 'ĐIỀU TRỊ', 'THEO DÕI', 'TIPS', 'BẰNG CHỨNG']",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Total size (words / nonblank lines)",
+      "message": "5402 words / 290 lines (cần ≥6000 words (lines informational, ref 600))",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Mechanism chains (→ / Tầng 1..5)",
+      "message": "1 (cần 4)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Examples (ví dụ / VD)",
+      "message": "0 (cần 8)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Misconceptions / traps (bẫy / hay nhầm)",
+      "message": "7 (cần 8)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Self-check checkpoints",
+      "message": "0 (cần 5)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Clinical cases with solutions",
+      "message": "0 (cần 3)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "0 (cần 12)",
+      "severity": "BLOCK"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile disease cần ≥ 4)",
+      "severity": "BLOCK"
+    }
+  ]
+}

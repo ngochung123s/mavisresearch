@@ -5,6 +5,8 @@ description: "Quy tắc chuẩn hóa thiết kế bộ thẻ flashcard Anki Y kh
 
 > **Phạm vi repo-copy này:** áp dụng cho Sản/ART/Nội. Nhi khoa (PED) dùng managed skill `medical-flashcard-governance` (`C:/Users/THANHANH/.omp/agent/managed-skills/`) + `Bai hoc y khoa/12_Nhi khoa/PED_RULES.md`: Basic-first, back `🎯 Trả lời cốt lõi` / `💡 Giải thích của AI`; khi khác file này thì bản PED thắng.
 
+> **Không phải nguồn rule chính (22/10):** theo `Bai hoc y khoa/RULES_LESSON_APKG.md` §0, nguồn rule thẻ cho MỌI chuyên khoa là managed skill `medical-flashcard-governance` (`C:/Users/THANHANH/.omp/agent/managed-skills/`). Luật Thẻ Bảng (§9) và Thẻ Trắc nghiệm MCQ/SBA (§10), chốt 22/10, chưa enforce bằng code, chỉ nằm ở bản managed; không chép sang file này để tránh lệch.
+
 # Quy tắc Thiết kế Flashcard Y khoa Siêu Chi Tiết (Anki Flashcard Governance)
 
 ## 1. Triết Lý Cốt Lõi

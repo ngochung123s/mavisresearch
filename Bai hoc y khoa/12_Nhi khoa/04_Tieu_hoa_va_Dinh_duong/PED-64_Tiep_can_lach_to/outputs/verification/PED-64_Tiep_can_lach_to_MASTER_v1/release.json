@@ -1,0 +1,29 @@
+{
+  "id": "PED-64",
+  "specialty": "nhi",
+  "mode": "release",
+  "status": "PUBLISH_READY",
+  "steps": [
+    {
+      "step": "manifest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "lesson_lint",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "deck_builder+anki",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "post_release 12_Nhi khoa/build_unified_med_library.py",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "finished_at": "2026-10-22T17:48:36"
+}

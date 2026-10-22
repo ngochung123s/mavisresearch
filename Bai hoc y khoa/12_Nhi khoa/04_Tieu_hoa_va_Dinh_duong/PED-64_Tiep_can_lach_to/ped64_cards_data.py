@@ -1,0 +1,2982 @@
+# -*- coding: utf-8 -*-
+# PED-64 Tiếp cận lách to ở trẻ em — nguồn thẻ duy nhất (barem_goc B* + ebm E*/A*)
+cards_data = [
+  {
+    "id": "PED64-B01",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B0",
+    "category": "Mục tiêu bài học",
+    "tier": 1,
+    "front": "3 mục tiêu học tập của chương <span style=\"color:#74c0fc\"><b>Lách to (Splenomegaly)</b></span> trong giáo trình Nhi khoa Y Thái Bình là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày được <span style=\"color:#74c0fc\"><b>định nghĩa, chức năng</b></span> của lách.<br>2) Trình bày được <span style=\"color:#ff6b6b\"><b>nguyên nhân, dấu hiệu lâm sàng</b></span> và <span style=\"color:#74c0fc\"><b>cận lâm sàng</b></span> lách to.<br>3) Trình bày được <span style=\"color:#51cf66\"><b>tiếp cận chẩn đoán</b></span> và <span style=\"color:#51cf66\"><b>sơ đồ chẩn đoán</b></span> lách to.<br><br><b>💡 Giải thích của AI:</b><br>Ba mục tiêu đi theo đúng trình tự của một ca lâm sàng: hiểu lách là gì (đại cương) → tìm nguyên nhân bằng lâm sàng và cận lâm sàng → chốt hướng chẩn đoán bằng sơ đồ. Khi làm bài tự luận, chia câu trả lời theo 3 khối này để không sót ý.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B0.01, B0.02, B0.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Muc-tieu"
+    ]
+  },
+  {
+    "id": "PED64-B02",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B0",
+    "category": "Mục tiêu bài học",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Mục tiêu bài học]</b></span> Chương Lách to của giáo trình Y Thái Bình gồm mấy phần nội dung lớn (theo thứ tự I → II → mục 4)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>I. Đại cương</b></span>: định nghĩa và chức năng của lá lách.<br>2) <span style=\"color:#74c0fc\"><b>II. Tiếp cận chẩn đoán lách to</b></span>: nguyên nhân (1.1 → 1.6), lâm sàng (bệnh sử, thực thể, cận lâm sàng), bảng phân loại 3.1 và sơ đồ 3.2.<br>3) <span style=\"color:#51cf66\"><b>III. Điều trị</b></span>: điều trị theo bệnh thực thể, hạn chế thể thao, cắt lách, dự phòng OPSI.<br><br><b>💡 Giải thích của AI:</b><br>Đây là khung tầng 1 của cả bài: các thẻ sau sẽ đào sâu từng nhánh. Nhớ khung 3 khối này giúp bạn lần ngược được mọi chi tiết khi thi vấn đáp.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100–109. Barem: B0.01, B0.02, B0.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Khung-bai"
+    ]
+  },
+  {
+    "id": "PED64-B03",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B1",
+    "category": "Định nghĩa lách to",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Định nghĩa lách to]</b></span> Bình thường lách có sờ thấy dưới bờ sườn không? Khi sờ thấy thì lách đã to gấp mấy lần, và lách to bệnh lý thường kèm theo tạng nào to?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bình thường</b></span>: lách <span style=\"color:#ff6b6b\"><b>không sờ thấy</b></span> dưới bờ sườn.<br>2) <span style=\"color:#ffd43b\"><b>Khi sờ thấy</b></span>: chứng tỏ lách đã to ra đến <span style=\"color:#ffd43b\"><b>2–3 lần</b></span> kích thước bình thường.<br>3) <span style=\"color:#ffd43b\"><b>Kèm theo</b></span>: lách to bệnh lý thường kèm <span style=\"color:#74c0fc\"><b>gan to</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lách bình thường nằm gọn sau các xương sườn 9–11 bên trái nên không chạm tay được; chỉ khi thể tích tăng 2–3 lần nó mới vượt bờ sườn. Gan và lách cùng nằm trong hệ tĩnh mạch cửa/hệ võng nội mô nên cùng bị ảnh hưởng (nhiễm trùng, ứ chất, thâm nhiễm) → thường gặp gan lách to đi đôi.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.01, B1.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dinh-nghia"
+    ]
+  },
+  {
+    "id": "PED64-B04",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B1",
+    "category": "Định nghĩa lách to",
+    "tier": 2,
+    "text": "Bình thường lách không sờ thấy dưới bờ sườn; khi sờ thấy chứng tỏ lách đã to ra đến {{c1::<span style=\"color:#ffd43b\"><b>2–3 lần</b></span>}} kích thước bình thường.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dinh-nghia",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B05",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B1",
+    "category": "Định nghĩa lách to",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Định nghĩa lách to]</b></span> Lách to được định nghĩa là sự lớn lên bất thường của những thành phần nào của lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Hạch bạch huyết</b></span> của lách.<br>2) <span style=\"color:#74c0fc\"><b>Lưới nội mô</b></span> của lách.<br>3) <span style=\"color:#74c0fc\"><b>Mạch máu</b></span> của lách.<br><br><b>💡 Giải thích của AI:</b><br>Ba thành phần này tương ứng với ba cơ chế lớn: tăng sản lympho/hệ võng nội mô (nhiễm trùng, miễn dịch), thâm nhiễm/ứ chất ở lưới nội mô (Gaucher…), và ứ máu ở hệ mạch (tăng áp cửa). Từ định nghĩa bạn suy ra được nhóm nguyên nhân.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dinh-nghia"
+    ]
+  },
+  {
+    "id": "PED64-B06",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B1",
+    "category": "Định nghĩa lách to",
+    "tier": 2,
+    "text": "Lách to là sự lớn lên bất thường của {{c1::<span style=\"color:#74c0fc\"><b>hạch bạch huyết, lưới nội mô hoặc mạch máu</b></span>}} của lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dinh-nghia",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B07",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B1",
+    "category": "Tỷ lệ sờ thấy lách theo tuổi",
+    "tier": 1,
+    "front": "Ở trẻ khỏe mạnh, tỷ lệ sờ thấy lách ở <span style=\"color:#74c0fc\"><b>trẻ sơ sinh</b></span>, <span style=\"color:#74c0fc\"><b>trẻ 1 tuổi</b></span> và <span style=\"color:#74c0fc\"><b>trẻ 10 tuổi</b></span> lần lượt là bao nhiêu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lách to là một biểu hiện lâm sàng <span style=\"color:#ff6b6b\"><b>đáng ngại</b></span>; tuy nhiên có thể sờ thấy lách ở trẻ bình thường:<br>1) <span style=\"color:#ffd43b\"><b>Trẻ sơ sinh</b></span>: <span style=\"color:#ffd43b\"><b>15–30%</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Trẻ 1 tuổi</b></span>: <span style=\"color:#ffd43b\"><b>10%</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Trẻ 10 tuổi</b></span>: <span style=\"color:#ffd43b\"><b>1%</b></span> lách được sờ thấy.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ sờ thấy giảm dần theo tuổi vì tỷ lệ lách/thể tích bụng giảm và hố chậu rộng ra. Bẫy: sờ thấy bờ lách ở trẻ nhỏ chưa chắc là bệnh — phải đối chiếu với tuổi, triệu chứng đi kèm và (nếu cần) siêu âm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Ty-le-so-thay"
+    ]
+  },
+  {
+    "id": "PED64-B08",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B1",
+    "category": "Tỷ lệ sờ thấy lách theo tuổi",
+    "tier": 2,
+    "text": "Ở trẻ sơ sinh có thể sờ thấy lách ở {{c1::<span style=\"color:#ffd43b\"><b>15–30%</b></span>}}; trẻ 1 tuổi {{c2::<span style=\"color:#ffd43b\"><b>10%</b></span>}}; trẻ 10 tuổi chỉ còn {{c3::<span style=\"color:#ffd43b\"><b>1%</b></span>}} sờ thấy lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Ty-le-so-thay",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B09",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B1",
+    "category": "Hướng lách to & kỹ thuật sờ",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Hướng lách to & kỹ thuật sờ]</b></span> Lách to thường phát triển theo hướng nào, và khi nghi ngờ lách to nên bắt đầu sờ nắn từ góc phần tư nào, di chuyển về đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Hướng lách to</b></span>: xuống dưới, mở rộng theo <span style=\"color:#74c0fc\"><b>đường chéo trên đường giữa</b></span> về phía <span style=\"color:#ff6b6b\"><b>hố chậu phải</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Cách sờ</b></span>: bắt đầu ở <span style=\"color:#74c0fc\"><b>góc phần tư dưới bên phải</b></span> rồi di chuyển qua bụng về phía <span style=\"color:#74c0fc\"><b>góc phần tư trên bên trái</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì lách to lớn chéo xuống hố chậu phải, nếu bạn bắt đầu sờ ngay dưới bờ sườn trái sẽ bỏ sót lách to nhiều (bờ dưới đã ở xa). Sờ từ xa về gần, đi cùng nhịp thở sâu của bệnh nhân, là kỹ thuật chuẩn.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.05, B1.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Ky-thuat-kham"
+    ]
+  },
+  {
+    "id": "PED64-B10",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B1",
+    "category": "Gõ lách",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Gõ lách]</b></span> Khi lách to, gõ vùng lách thấy gì (do đâu), gõ đục có chẩn đoán chắc chắn lách to được không, và gõ lách xác định bởi đường nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Khi gõ</b></span>: <span style=\"color:#ff6b6b\"><b>mờ đục của một tạng rắn</b></span> do lách to thay thế một phần của dạ dày và đại tràng.<br>2) <span style=\"color:#ffd43b\"><b>Giá trị</b></span>: gõ đục <span style=\"color:#ff6b6b\"><b>không thể chẩn đoán chắc chắn</b></span> lách to nhưng hướng cho nghi ngờ lách to lên.<br>3) <span style=\"color:#ffd43b\"><b>Đường gõ</b></span>: xác định bởi <span style=\"color:#74c0fc\"><b>đường nách giữa và trước</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vùng Traube (dạ dày, đại tràng) bình thường gõ vang; khi lách to chiếm chỗ, vùng đó chuyển sang đục. Gõ chỉ là bước gợi ý — muốn chắc chắn phải sờ thấy bờ lách hoặc đo siêu âm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Go-lach"
+    ]
+  },
+  {
+    "id": "PED64-B11",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B1",
+    "category": "Gõ lách",
+    "tier": 2,
+    "text": "Gõ lách được xác định bởi đường {{c1::<span style=\"color:#74c0fc\"><b>nách giữa và trước</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B1.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Go-lach",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B12",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chức năng lách",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chức năng lách]</b></span> Khi đánh giá lách to cần nhớ 4 chức năng chính nào của lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tạo máu</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Thực bào</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Miễn dịch</b></span>.<br>4) Vai trò như một <span style=\"color:#74c0fc\"><b>bể chứa</b></span> cho yếu tố máu.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chức năng là một 'cửa' dẫn đến một nhóm nguyên nhân: tạo máu → tạo máu ngoài tủy; thực bào → tan máu; miễn dịch → nhiễm trùng/bệnh tự miễn; bể chứa → sung huyết/cường lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 100. Barem: B2.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Chuc-nang"
+    ]
+  },
+  {
+    "id": "PED64-B13",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chức năng tạo máu",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chức năng tạo máu]</b></span> Lách có vai trò tạo máu như thế nào ở thai nhi và ở trẻ em/người trưởng thành bệnh lý?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Thai nhi</b></span>: lách là cơ quan tạo máu chính (theo barem).<br>2) <span style=\"color:#ffd43b\"><b>Trẻ em và người trưởng thành</b></span>: lách cũng có thể tham gia tạo máu trong một số trường hợp bệnh lý.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem — hiệu chỉnh: trong sinh lý thai kỳ, gan là cơ quan tạo máu chủ yếu ở giữa thai kỳ, lách chỉ đóng góp tạm thời; nhưng khi thi hãy ghi đúng như barem. Về bệnh lý: khi tủy xương suy hoặc bị xơ hóa (xơ hóa tủy, xương hóa đá), lách tái hoạt động tạo máu (tạo máu ngoài tủy) và to ra.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tao-mau"
+    ]
+  },
+  {
+    "id": "PED64-B14",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chức năng lọc máu",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chức năng lọc máu]</b></span> Chức năng chính của lách là gì, và máu chảy qua lách được 'kiểm soát chất lượng' như thế nào đối với tế bào khỏe mạnh và tế bào không lành mạnh?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Chức năng chính</b></span>: <span style=\"color:#74c0fc\"><b>lọc máu</b></span> — kiểm soát chất lượng, phát hiện hồng cầu cũ hoặc hư hỏng.<br>2) <span style=\"color:#ffd43b\"><b>Tế bào khỏe mạnh</b></span>: chảy thẳng qua mê cung các đoạn trong lá lách.<br>3) <span style=\"color:#ffd43b\"><b>Tế bào không lành mạnh</b></span>: bị các bạch cầu lớn gọi là <span style=\"color:#ff6b6b\"><b>đại thực bào</b></span> chia nhỏ.<br><br><b>💡 Giải thích của AI:</b><br>Hồng cầu mất tính đàn hồi (hình cầu, hình liềm, già, gắn kháng thể) không len qua được khe nội mô của lách nên bị đại thực bào phá. Khi lách bị 'quá tải' thực bào như vậy, nó to ra (tan máu → lách to).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Loc-mau"
+    ]
+  },
+  {
+    "id": "PED64-B15",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chức năng lọc máu",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chức năng lọc máu]</b></span> Khi hồng cầu bị phá vỡ ở lách, lách lưu trữ sản phẩm hữu ích nào và đưa trở lại đâu để làm gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Lưu trữ</b></span>: các sản phẩm còn sót lại hữu ích, chẳng hạn <span style=\"color:#ff6b6b\"><b>sắt</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Đưa về</b></span>: <span style=\"color:#74c0fc\"><b>tủy xương</b></span> để tạo nên <span style=\"color:#74c0fc\"><b>hemoglobin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lách tái chế sắt rất hiệu quả: sắt từ hồng cầu già được đại thực bào giữ lại rồi trả về tủy cho hồng cầu mới. Vì thế trong tan máu mạn có thể lách to nhưng không thiếu sắt.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Loc-mau"
+    ]
+  },
+  {
+    "id": "PED64-B16",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chức năng miễn dịch",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chức năng miễn dịch]</b></span> Chức năng miễn dịch của lách gồm những gì, hai opsonin lách sinh ra là gì và bệnh về lách nghĩa là cơ thể đang gặp vấn đề gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Phát hiện mầm bệnh</b></span> và tạo ra các <span style=\"color:#74c0fc\"><b>tế bào bạch cầu đáp ứng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Opsonin</b></span>: hợp chất lách sinh ra là <span style=\"color:#74c0fc\"><b>properdin</b></span> và <span style=\"color:#74c0fc\"><b>tuftsin</b></span> giúp hệ miễn dịch.<br>3) <span style=\"color:#ffd43b\"><b>Ý nghĩa</b></span>: mắc bệnh về lách nghĩa là cơ thể đang có <span style=\"color:#ff6b6b\"><b>vấn đề về hệ miễn dịch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Opsonin là 'nhãn' gắn lên vi khuẩn để đại thực bào dễ bắt giữ. Vì vậy lách rất quan trọng trong chống vi khuẩn có vỏ (phế cầu, Hib, não mô cầu) — lý do sau cắt lách bệnh nhân có nguy cơ OPSI.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Mien-dich"
+    ]
+  },
+  {
+    "id": "PED64-B17",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B2",
+    "category": "Chức năng miễn dịch",
+    "tier": 2,
+    "text": "Lách sinh ra các hợp chất opsonin như {{c1::<span style=\"color:#74c0fc\"><b>properdin và tuftsin</b></span>}} giúp hệ miễn dịch.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Mien-dich",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B18",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Bể chứa & điều hòa",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bể chứa & điều hòa]</b></span> Lách là bể chứa cho những thành phần nào của máu, và việc lách co vào hoặc giãn ra có vai trò gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bể chứa cho</b></span>: <span style=\"color:#74c0fc\"><b>tiểu cầu, hồng cầu lưới, protein huyết tương</b></span>, đặc biệt là <span style=\"color:#ff6b6b\"><b>yếu tố VIII</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì lách chứa nhiều tiểu cầu (khoảng một phần ba tiểu cầu lưu hành là kiến thức nền), lách to và sung huyết giữ tiểu cầu lại → giảm tiểu cầu ngoại vi (cường lách). Co/giãn của lách điều hòa khối lượng máu và khối lượng tế bào máu trong tuần hoàn.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Be-chua"
+    ]
+  },
+  {
+    "id": "PED64-B19",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B2",
+    "category": "Bể chứa & điều hòa",
+    "tier": 2,
+    "text": "Lách là bể chứa cho tiểu cầu, hồng cầu lưới và protein huyết tương, đặc biệt là yếu tố {{c1::<span style=\"color:#ff6b6b\"><b>VIII</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Be-chua",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B20",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Vai trò điều hòa",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Vai trò điều hòa]</b></span> Ngoài chức năng bể chứa, lách co vào hoặc giãn ra tham gia điều hòa những đại lượng nào trong tuần hoàn?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Khối lượng máu</b></span> trong tuần hoàn.<br>2) <span style=\"color:#ffd43b\"><b>Khối lượng tế bào máu</b></span> trong tuần hoàn.<br><br><b>💡 Giải thích của AI:</b><br>Khi mất máu, lách co lại đẩy máu dự trữ vào tuần hoàn; khi sung huyết, lách giãn ra giữ máu lại. Đây cũng là lý do một lách giãn lớn có thể 'nhốt' lượng máu đáng kể (ví dụ cơn nhốt máu lách).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dieu-hoa"
+    ]
+  },
+  {
+    "id": "PED64-B21",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Vì sao lách to có nhiều nguyên nhân",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Vì sao lách to có nhiều nguyên nhân]</b></span> Vì lá lách có rất nhiều chức năng nên lách to có thể được gây ra bởi những nhóm bệnh nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng hệ thống</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Bệnh thiếu máu tán huyết</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Khối u ác tính</b></span>.<br>4) Do <span style=\"color:#74c0fc\"><b>tắc nghẽn tĩnh mạch cửa</b></span>.<br>5) Các <span style=\"color:#74c0fc\"><b>bệnh viêm khớp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi nhóm ứng với một chức năng bị 'quá tải' hay bị cản trở: miễn dịch (nhiễm trùng, viêm khớp), thực bào (tan máu), thâm nhiễm (u ác), lưu thông máu (tắc tĩnh mạch cửa).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nguyen-nhan-tong-quat"
+    ]
+  },
+  {
+    "id": "PED64-B22",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B2",
+    "category": "Chấn thương lách",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chấn thương lách]</b></span> Cơ quan nào thường bị tổn thương nhất trong chấn thương bụng, và khi lách xuất huyết dưới bao thì sờ thấy lách như thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Cơ quan</b></span>: <span style=\"color:#74c0fc\"><b>lách</b></span> là cơ quan thường bị tổn thương nhất trong chấn thương bụng.<br>2) <span style=\"color:#ffd43b\"><b>Xuất huyết dưới bao</b></span>: có thể sờ thấy lách <span style=\"color:#ff6b6b\"><b>to và mềm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Máu tụ dưới bao làm lách phồng lên nhưng mật độ mềm (khác lách to do u/xơ thường chắc). Đây là tình huống cấp cứu: nguy cơ vỡ lách thì hai thì, cần theo dõi sát và chẩn đoán hình ảnh.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B2.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Chan-thuong"
+    ]
+  },
+  {
+    "id": "PED64-B23",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Khung nguyên nhân lách to",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Khung nguyên nhân lách to]</b></span> Nguyên nhân lách to theo giáo trình được chia thành 6 nhóm nào (từ 1.1 đến 1.6)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng</b></span> (1.1).<br>2) <span style=\"color:#74c0fc\"><b>Bệnh huyết học</b></span> (1.2): tan máu, tạo máu ngoài tủy.<br>3) <span style=\"color:#74c0fc\"><b>Bệnh ứ chất, thâm nhiễm</b></span> (1.3).<br>4) <span style=\"color:#74c0fc\"><b>Bệnh sung huyết</b></span> (1.4).<br>5) <span style=\"color:#74c0fc\"><b>Bệnh hệ thống</b></span> (1.5).<br>6) <span style=\"color:#74c0fc\"><b>Lách to tiên phát</b></span> (1.6).<br><br><b>💡 Giải thích của AI:</b><br>Đây là thẻ tầng 1 của cả phần nguyên nhân. Mẹo nhớ: Nhiễm – Huyết – Ứ – Sung – Hệ – Tiên (6 chữ cái đầu 'N H Ứ S H T'). Các thẻ sau sẽ liệt kê chi tiết từng nhóm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101–103. Barem: B3.01, B4.01, B5.01, B5.02, B6.01, B6.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Khung-nguyen-nhan"
+    ]
+  },
+  {
+    "id": "PED64-B24",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Lách to do nhiễm trùng",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to do nhiễm trùng]</b></span> Cơ chế lách to do nhiễm trùng, nhóm nguyên nhân phổ biến nhất gây lách to ở trẻ em và mức độ lách to có thể ra sao?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Cơ chế</b></span>: lách to là kết quả của sự <span style=\"color:#ff6b6b\"><b>phì đại hạch bạch huyết và lưới nội mô</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Nguyên nhân phổ biến nhất</b></span>: <span style=\"color:#ff6b6b\"><b>nhiễm virus</b></span> là nguyên nhân phổ biến nhất gây lách to ở trẻ em.<br>3) <span style=\"color:#ffd43b\"><b>Mức độ</b></span>: có thể từ <span style=\"color:#ffd43b\"><b>nhẹ, trung bình đến to nhiều</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm trùng kích thích tăng sinh lympho và đại thực bào để đối phó mầm bệnh → lách phì đại (tăng sản phản ứng). Vì virus rất thường gặp ở trẻ, lách to nhẹ kèm sốt ngắn ngày thường là nhiễm virus tự khỏi — lý do sơ đồ chẩn đoán ghi 'to ít → nhiễm virus → khám lại sau 4–8 tuần'.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B3.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nhiem-trung"
+    ],
+    "asks": [
+      "Cơ chế",
+      "Nguyên nhân phổ biến nhất",
+      "Mức độ"
+    ]
+  },
+  {
+    "id": "PED64-B25",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Lách to do nhiễm trùng",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to do nhiễm trùng]</b></span> Lách to do nhiễm trùng được chia thành 4 nhóm tác nhân nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Virus</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Vi khuẩn</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Ký sinh trùng</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Nấm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm 4 tác nhân này tương ứng với bảng 3.1 và sơ đồ chẩn đoán (nhiễm vi khuẩn, virus, Rickettsia, nấm, đơn bào sốt rét). Dùng làm khung tầng 1 trước khi nhớ từng tác nhân.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101–102. Barem: B3.02, B3.03, B3.04, B3.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nhiem-trung"
+    ]
+  },
+  {
+    "id": "PED64-B26",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Lách to do virus",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to do virus]</b></span> Kể 3 virus gây lách to ở trẻ em theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Virus Epstein-Barr (EBV)</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Cytomegalovirus (CMV)</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>HIV</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>EBV là nguyên nhân kinh điển (bạch cầu đơn nhân nhiễm khuẩn: sốt, viêm họng, hạch to, nổi ban, lách to). CMV và HIV cần nhớ khi trẻ sơ sinh/nhũ nhi hoặc có yếu tố nguy cơ; cả hai cũng nằm trong 'bilan nhiễm trùng' ở phần cận lâm sàng.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B3.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Virus"
+    ]
+  },
+  {
+    "id": "PED64-B27",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B3",
+    "category": "Lách to do virus",
+    "tier": 2,
+    "text": "Các virus gây lách to ở trẻ em nêu trong barem: {{c1::<span style=\"color:#ff6b6b\"><b>Epstein-Barr, cytomegalovirus, HIV</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B3.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Virus",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B28",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Lách to do vi khuẩn",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to do vi khuẩn]</b></span> Kể 5 nhóm vi khuẩn/bệnh nhiễm khuẩn gây lách to theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn cấp tính</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm nội tâm mạc bán cấp</b></span> do vi khuẩn.<br>3) <span style=\"color:#ff6b6b\"><b>Giang mai bẩm sinh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Bệnh lao</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Thương hàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Điểm chung: nhiễm khuẩn kéo dài/toàn thân kích thích hệ võng nội mô của lách. Viêm nội tâm mạc bán cấp (SBE) và giang mai bẩm sinh hay bị bỏ sót; thương hàn thường lách to ít, sốt kéo dài (bảng 3.1).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B3.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Vi-khuan"
+    ]
+  },
+  {
+    "id": "PED64-B29",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B3",
+    "category": "Lách to do ký sinh trùng và nấm",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to do ký sinh trùng và nấm]</b></span> Kể 3 ký sinh trùng và 3 loại nấm gây lách to theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Ký sinh trùng</b></span>: <span style=\"color:#ff6b6b\"><b>sốt rét, toxoplasmosis, leishmania</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Nấm</b></span>: <span style=\"color:#ff6b6b\"><b>nấm candida, histoplasmosis, coccidioidomycosis</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sốt rét và leishmania (kala-azar) gây lách to rất nhiều ở vùng dịch tễ — vì vậy bệnh sử 'du lịch vào vùng dịch tễ sốt rét' có trong phần bệnh sử. Nấm gây lách to thường ở bệnh nhân suy giảm miễn dịch hoặc nhiễm toàn thân.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B3.04, B3.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Ky-sinh-trung-nam"
+    ]
+  },
+  {
+    "id": "PED64-B30",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B3",
+    "category": "Lách to do nhiễm trùng",
+    "tier": 2,
+    "text": "Nguyên nhân phổ biến nhất gây lách to ở trẻ em là nhiễm {{c1::<span style=\"color:#ff6b6b\"><b>virus</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 101. Barem: B3.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nhiem-trung",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B31",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Bệnh huyết học gây lách to",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh huyết học gây lách to]</b></span> Bệnh huyết học gây lách to (1.2) gồm những phân nhóm nào, và bệnh tan máu gồm các dạng nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>1.2.1</b></span>: bệnh <span style=\"color:#ff6b6b\"><b>tan máu bẩm sinh hoặc mắc phải</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>1.2.2</b></span>: <span style=\"color:#74c0fc\"><b>tạo máu ngoài tủy</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai cơ chế trái ngược nhau nhưng cùng làm lách to: tan máu làm lách 'phá' hồng cầu nhiều (thực bào quá mức), còn tạo máu ngoài tủy làm lách 'sản xuất' tế bào máu thay tủy.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Huyet-hoc"
+    ]
+  },
+  {
+    "id": "PED64-B32",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Tan máu bẩm sinh]</b></span> Tan máu bẩm sinh gây lách to chia thành 3 nhóm bệnh nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bệnh ở màng hồng cầu</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bệnh về hemoglobin</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Bệnh về enzym hồng cầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cách nhớ theo cấu trúc hồng cầu: 'vỏ' (màng) – 'ruột' (hemoglobin) – 'máy' (enzym). Tan máu mắc phải thường do cơ chế miễn dịch (thiếu máu tán huyết tự miễn).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.02, B4.03, B4.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tan-mau"
+    ]
+  },
+  {
+    "id": "PED64-B33",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh — màng hồng cầu",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Tan máu bẩm sinh — màng hồng cầu]</b></span> Kể 3 bệnh ở màng hồng cầu di truyền gây lách to theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bệnh hồng cầu nhỏ hình cầu</b></span> di truyền.<br>2) <span style=\"color:#ff6b6b\"><b>Bệnh hồng cầu hình bầu dục</b></span> di truyền.<br>3) <span style=\"color:#ff6b6b\"><b>Bệnh hồng cầu hình răng cưa (Stomatocytosis)</b></span> di truyền.<br><br><b>💡 Giải thích của AI:</b><br>Hồng cầu hình cầu/bầu dục mất khả năng biến dạng nên bị lách giữ lại và phá hủy; hậu quả: thiếu máu, vàng da, lách to. Trong bệnh hồng cầu hình cầu di truyền, cắt lách (toàn phần hoặc một phần) là điều trị quan trọng. Ngoài barem — lưu ý thuật ngữ: stomatocyte trong y văn là hồng cầu hình miệng (có khe giữa), còn 'răng cưa' thường chỉ echinocyte/acanthocyte; khi thi cứ ghi đúng như barem.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Mang-hong-cau"
+    ]
+  },
+  {
+    "id": "PED64-B34",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh — hemoglobin",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Tan máu bẩm sinh — hemoglobin]</b></span> Bệnh về hemoglobin gây lách to gồm những nhóm nào (kể cả các typ cụ thể của thalassemia và hemoglobin bất thường)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thalassemia</b></span>: <span style=\"color:#ff6b6b\"><b>alpha-thalassemia, beta-thalassemia</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Hemoglobin bất thường</b></span>: <span style=\"color:#ff6b6b\"><b>HbE, HbS, HbC, HbD…</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Hemoglobin không bền vững</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở thalassemia thể nặng và bệnh hồng cầu liềm (HbS), lách là nơi hồng cầu bất thường bị giữ lại và phá hủy nên to ra. Bệnh hồng cầu liềm lại diễn tiến 'teo lách' ở người lớn do nhồi máu lặp lại, nhưng trẻ nhỏ thường có lách to.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Hemoglobin"
+    ]
+  },
+  {
+    "id": "PED64-B35",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh — enzym",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Tan máu bẩm sinh — enzym]</b></span> Bệnh về enzym hồng cầu gây lách to gồm những bất thường nào (cho ví dụ cụ thể)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bất thường đường pentose-phosphat</b></span>: thiếu <span style=\"color:#ff6b6b\"><b>G6PD</b></span>, thiếu <span style=\"color:#ff6b6b\"><b>glutathion synthetase</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thiếu enzym glycolytic</b></span>: <span style=\"color:#ff6b6b\"><b>pyruvat kinase</b></span>, <span style=\"color:#ff6b6b\"><b>glucose phosphat-isomerase</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>G6PD bảo vệ hồng cầu trước stress oxy hóa; pyruvat kinase cung cấp ATP cho hồng cầu. Thiếu các enzym này khiến hồng cầu dễ bị phá, lách tăng thực bào và to ra.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Enzym-hong-cau"
+    ]
+  },
+  {
+    "id": "PED64-B36",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh — enzym",
+    "tier": 2,
+    "text": "Thiếu G6PD và glutathion synthetase thuộc nhóm bất thường đường {{c1::<span style=\"color:#74c0fc\"><b>pentose-phosphat</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Enzym-hong-cau",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B37",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B4",
+    "category": "Tan máu bẩm sinh — enzym",
+    "tier": 2,
+    "text": "Thiếu pyruvat kinase và glucose phosphat-isomerase thuộc nhóm thiếu enzym {{c1::<span style=\"color:#74c0fc\"><b>glycolytic</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Enzym-hong-cau",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B38",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B4",
+    "category": "Tan máu mắc phải & tạo máu ngoài tủy",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Tan máu mắc phải & tạo máu ngoài tủy]</b></span> Cho ví dụ tan máu mắc phải gây lách to và kể các bệnh gây tạo máu ngoài tủy theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tan máu mắc phải</b></span>: <span style=\"color:#ff6b6b\"><b>thiếu máu tán huyết tự miễn</b></span>…<br>2) <span style=\"color:#ffd43b\"><b>Tạo máu ngoài tủy</b></span>: <span style=\"color:#ff6b6b\"><b>xương hóa đá, xơ hóa tủy, loãng xương</b></span>…<br><br><b>💡 Giải thích của AI:</b><br>Ở xơ hóa tủy hay xương hóa đá, tủy xương không còn chỗ tạo máu → gan và lách tạo máu thay (tạo máu ngoài tủy) → lách to. Tan máu tự miễn: kháng thể gắn hồng cầu, bị đại thực bào ở lách bắt giữ.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.05, B4.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tan-mau-mac-phai"
+    ]
+  },
+  {
+    "id": "PED64-B39",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B4",
+    "category": "Tạo máu ngoài tủy",
+    "tier": 2,
+    "text": "Các bệnh gây tạo máu ngoài tủy theo barem gồm: {{c1::<span style=\"color:#ff6b6b\"><b>xương hóa đá, xơ hóa tủy, loãng xương</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102. Barem: B4.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tao-mau-ngoai-tuy",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B40",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B5",
+    "category": "Bệnh ứ chất, thâm nhiễm",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh ứ chất, thâm nhiễm]</b></span> Kể 5 bệnh thuộc nhóm bệnh ứ chất, thâm nhiễm (1.3) gây lách to theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Leucemia</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>U lympho</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Loạn dưỡng mỡ</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Mucopolysaccharidosis</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Bệnh mô bào tế bào Langerhans</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Các tế bào ác tính (leucemia, u lympho) hoặc chất chuyển hóa (mỡ, mucopolysaccharid) tích tụ trong lưới nội mô/nhu mô lách làm lách to. Nhóm ứ chất kinh điển còn gồm Gaucher, Niemann-Pick (thấy ở bảng 3.1).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 102–103. Barem: B5.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "U-chat-tham-nhiem"
+    ]
+  },
+  {
+    "id": "PED64-B41",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B5",
+    "category": "Bệnh sung huyết",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh sung huyết]</b></span> Kể 3 nguyên nhân gây lách to do bệnh sung huyết (1.4) theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bệnh xơ gan, xơ hóa gan</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Suy tim sung huyết</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Tắc tĩnh mạch lách – cửa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cơ chế chung: áp lực tĩnh mạch cửa/ tĩnh mạch lách tăng → lách ứ máu → to và có thể gây cường lách (giảm tiểu cầu, bạch cầu, hồng cầu). Suy tim phải sung huyết làm ứ máu hệ tĩnh mạch hệ thống và hệ cửa.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103. Barem: B5.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Sung-huyet"
+    ]
+  },
+  {
+    "id": "PED64-B42",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B5",
+    "category": "Bệnh sung huyết",
+    "tier": 2,
+    "text": "Lách to do bệnh sung huyết gồm: {{c1::<span style=\"color:#ff6b6b\"><b>bệnh xơ gan/xơ hóa gan, suy tim sung huyết, tắc tĩnh mạch lách – cửa</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103. Barem: B5.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Sung-huyet",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B43",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B6",
+    "category": "Bệnh hệ thống",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh hệ thống]</b></span> Kể 5 bệnh thuộc nhóm bệnh hệ thống (1.5) gây lách to theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Lupus ban đỏ hệ thống (SLE)</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm khớp tự phát ở tuổi vị thành niên (JIA)</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Bệnh huyết thanh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Bệnh Sarcoidosis</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Giảm tiểu cầu miễn dịch và giảm bạch cầu trung tính</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là nhóm bệnh tự miễn/quá mẫn: lách to do tăng sản mô lympho phản ứng. Ngoài barem: trong giảm tiểu cầu miễn dịch (ITP) điển hình lách thường KHÔNG to; nếu sờ thấy lách, hãy tìm nguyên nhân khác (SLE, hội chứng tăng sinh lympho tự miễn ALPS, EBV, leucemia).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103. Barem: B6.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "He-thong"
+    ]
+  },
+  {
+    "id": "PED64-B44",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B6",
+    "category": "Lách to tiên phát",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Lách to tiên phát]</b></span> Kể 5 nhóm bệnh thuộc lách to tiên phát (1.6) theo giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Lách to (lách lang thang)</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>U nang</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>U máu và u lympho</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Tụ máu lách</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Lách phụ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là các bệnh tại chỗ của chính lách (không do bệnh toàn thân). Ngoài barem: 'lách lang thang' (wandering spleen) là lách di động, lạc chỗ do lỏng dây chằng — không nhất thiết to; có thể gây xoắn cuống lách. U nang, u mạch, tụ máu lách thường chỉ làm lách to cục bộ/biến dạng hình thù (xem bảng 3.1: 'nang ở lách').",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103. Barem: B6.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tien-phat"
+    ]
+  },
+  {
+    "id": "PED64-B45",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Bệnh sử — khung",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh sử — khung]</b></span> Khi hỏi bệnh sử một trẻ lách to, giáo trình nêu 7 yếu tố cần khai thác nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốt</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Đặt catheter rốn, nhiễm trùng rốn sơ sinh</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Vàng da</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Xuất huyết bất thường, bầm da</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Tiền căn gia đình có bệnh tán huyết</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Du lịch vào vùng dịch tễ sốt rét</b></span>.<br>7) <span style=\"color:#ff6b6b\"><b>Chấn thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi yếu tố bệnh sử 'chỉ điểm' một nhóm nguyên nhân (nhiễm trùng, viêm gan, bệnh máu ác tính, tan máu di truyền, sốt rét, vỡ lách/tụ máu). Hỏi đủ 7 ý này thường đã khoanh vùng được chẩn đoán trước khi làm xét nghiệm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103–104. Barem: B7.01, B7.02, B7.03, B7.04, B7.05, B7.06, B7.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Benh-su"
+    ]
+  },
+  {
+    "id": "PED64-B46",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Bệnh sử — gợi ý chẩn đoán",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh sử — gợi ý chẩn đoán]</b></span> Trong bệnh sử trẻ lách to, sốt, đặt catheter rốn/nhiễm trùng rốn sơ sinh, vàng da và xuất huyết bất thường/bầm da lần lượt gợi ý nguyên nhân gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Sốt</b></span> → gợi ý <span style=\"color:#ff6b6b\"><b>nguyên nhân nhiễm trùng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Đặt catheter rốn, nhiễm trùng rốn sơ sinh</b></span> → gợi ý <span style=\"color:#ff6b6b\"><b>nhiễm trùng rốn</b></span> (nguồn nhiễm khuẩn).<br>3) <span style=\"color:#ffd43b\"><b>Vàng da</b></span> → gợi ý <span style=\"color:#ff6b6b\"><b>viêm gan</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Xuất huyết bất thường, bầm da</b></span> → gợi ý <span style=\"color:#ff6b6b\"><b>bệnh máu ác tính</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Catheter tĩnh mạch rốn ở sơ sinh là đường vào của vi khuẩn, có thể gây huyết khối tĩnh mạch cửa/lách sau này (ngoài barem) → tăng áp cửa tiền gan, lách to. Bầm máu, xuất huyết tự nhiên + lách to buộc phải loại trừ leucemia/u lympho.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 103–104. Barem: B7.01, B7.02, B7.03, B7.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Benh-su"
+    ]
+  },
+  {
+    "id": "PED64-B47",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Bệnh sử — gợi ý chẩn đoán",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bệnh sử — gợi ý chẩn đoán]</b></span> Trong bệnh sử trẻ lách to, tiền căn gia đình có bệnh tán huyết, du lịch vào vùng dịch tễ sốt rét và chấn thương gợi ý điều gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tiền căn gia đình có bệnh tán huyết</b></span>: <span style=\"color:#ff6b6b\"><b>bệnh hồng cầu hình cầu, Thalassemia</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Du lịch vào vùng dịch tễ sốt rét</b></span> → nghĩ <span style=\"color:#ff6b6b\"><b>sốt rét</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Chấn thương</b></span> → nghĩ <span style=\"color:#ff6b6b\"><b>tổn thương/xuất huyết lách (tụ máu dưới bao)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh hồng cầu hình cầu di truyền và thalassemia đều di truyền nên hỏi tiền căn gia đình (anh chị em, cha mẹ có cắt lách hay sỏi mật sớm?) rất giá trị. Chấn thương bụng gần đây kèm lách to mềm: nghĩ đến tụ máu lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.05, B7.06, B7.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Benh-su"
+    ]
+  },
+  {
+    "id": "PED64-B48",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Triệu chứng thực thể — khung",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Triệu chứng thực thể — khung]</b></span> Khám thực thể trẻ lách to cần chú ý những nhóm dấu hiệu nào (7 ý trong giáo trình)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốt</b></span>; <span style=\"color:#ff6b6b\"><b>dấu xuất huyết</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Kích thước của lách</b></span> (phần sờ thấy dưới bờ sườn, mật độ, nghe trên mặt lách).<br>3) <span style=\"color:#74c0fc\"><b>Gan, hạch to</b></span>.<br>4) Chỉ điểm của <span style=\"color:#74c0fc\"><b>bệnh gan</b></span>: vàng da, sao mạch.<br>5) Chỉ điểm của bệnh <span style=\"color:#74c0fc\"><b>Lupus, viêm khớp mạn</b></span>.<br>6) Âm thổi ở tim.<br>7) Chỉ điểm <span style=\"color:#ff6b6b\"><b>viêm nội tâm mạc bán cấp</b></span> (SBE).<br><br><b>💡 Giải thích của AI:</b><br>Khám thực thể có hệ thống: sinh hiệu (sốt) → da (xuất huyết, sao mạch, vàng da) → bụng (lách, gan) → hạch toàn thân → tim → khớp. Mỗi mục chỉ điểm một nhóm nguyên nhân đã học ở phần 1.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.08, B7.09, B7.10, B7.11, B7.12, B7.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Thuc-the"
+    ]
+  },
+  {
+    "id": "PED64-B49",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Khám kích thước lách",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Khám kích thước lách]</b></span> Đánh giá kích thước lách trên lâm sàng gồm những thao tác/thông số nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Đo phần sờ thấy dưới bờ sườn</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Mật độ</b></span> của lách.<br>3) <span style=\"color:#ffd43b\"><b>Nghe trên mặt lách</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ghi chép chuẩn: 'lách sờ thấy X cm dưới bờ sườn trái trên đường giữa đòn, mật độ mềm/chắc/cứng'. Mật độ mềm gợi ý lách to cấp (nhiễm trùng, tụ máu); chắc/cứng gợi ý mạn (xơ, thâm nhiễm, tăng áp cửa). Nghe có thể thấy tiếng cọ màng bụng khi nhồi máu lách (kiến thức nền).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.09",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Kich-thuoc-lach"
+    ]
+  },
+  {
+    "id": "PED64-B50",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Chỉ điểm thực thể",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chỉ điểm thực thể]</b></span> Khám lách to, chỉ điểm của bệnh gan, của bệnh Lupus/viêm khớp mạn và của viêm nội tâm mạc bán cấp (SBE) là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bệnh gan</b></span>: <span style=\"color:#ff6b6b\"><b>vàng da, sao mạch</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Lupus, viêm khớp mạn</b></span>: các chỉ điểm của bệnh <span style=\"color:#ff6b6b\"><b>Lupus</b></span> và <span style=\"color:#ff6b6b\"><b>viêm khớp mạn</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Viêm nội tâm mạc bán cấp (SBE)</b></span>: <span style=\"color:#ff6b6b\"><b>âm thổi ở tim</b></span> + nốt Osler, sang thương Janeway, vết xuất huyết Splinter, xuất huyết dưới móng tay.<br><br><b>💡 Giải thích của AI:</b><br>Sao mạch + vàng da → xơ gan, tăng áp cửa → lách to sung huyết. Cụm 'âm thổi tim + dấu hiệu ngoại biên (Osler, Janeway, Splinter)' gợi ý SBE — một nguyên nhân nhiễm khuẩn gây lách to cần cấy máu nhiều lần.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.11, B7.12, B7.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Chi-diem"
+    ]
+  },
+  {
+    "id": "PED64-B51",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B7",
+    "category": "Chỉ điểm viêm nội tâm mạc bán cấp",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Chỉ điểm viêm nội tâm mạc bán cấp]</b></span> Khám thực thể gợi ý viêm nội tâm mạc bán cấp (SBE) ở trẻ lách to gồm những dấu hiệu nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Âm thổi ở tim</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Nốt Osler</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Sang thương Janeway</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Vết xuất huyết Splinter (xuất huyết dưới móng tay)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Osler (nốt đau ở đầu ngón tay/chân), Janeway (mảng không đau ở lòng bàn tay/chân), Splinter (vệt xuất huyết dưới móng): đều do tắc mạch nhỏ hoặc phức hợp miễn dịch trong nhiễm khuẩn huyết kéo dài.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "SBE"
+    ]
+  },
+  {
+    "id": "PED64-B52",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B7",
+    "category": "Chỉ điểm viêm nội tâm mạc bán cấp",
+    "tier": 2,
+    "text": "Nốt {{c1::<span style=\"color:#ff6b6b\"><b>Osler</b></span>}}, sang thương {{c2::<span style=\"color:#ff6b6b\"><b>Janeway</b></span>}} và vết xuất huyết {{c3::<span style=\"color:#ff6b6b\"><b>Splinter</b></span>}} là các chỉ điểm của viêm nội tâm mạc bán cấp (SBE).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B7.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "SBE",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B53",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — nguyên tắc",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — nguyên tắc]</b></span> Nguyên tắc chỉ định xét nghiệm ở trẻ lách to là gì, và khi nào chỉ cần theo dõi mà không làm thêm xét nghiệm?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Nguyên tắc</b></span>: chỉ định xét nghiệm phải được <span style=\"color:#51cf66\"><b>định hướng bởi lâm sàng</b></span>, không nhất thiết làm hết tất cả.<br>2) <span style=\"color:#ffd43b\"><b>Theo dõi</b></span>: nếu bệnh nhân <span style=\"color:#ffd43b\"><b>khỏe</b></span>, lách chỉ <span style=\"color:#ffd43b\"><b>to nhẹ</b></span> và các xét nghiệm cơ bản (công thức máu, VS, chức năng gan, thận) <span style=\"color:#ffd43b\"><b>bình thường</b></span> → không cần làm thêm, chỉ theo dõi thêm vài tuần đến vài tháng.<br><br><b>💡 Giải thích của AI:</b><br>Đây là thẻ 'tư duy tiết kiệm xét nghiệm': lách to nhẹ ở trẻ khỏe, xét nghiệm cơ bản bình thường thường do nhiễm virus và tự lui. Làm thêm xét nghiệm hàng loạt chỉ tăng chi phí, kết quả dương tính giả.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nguyen-tac-CLS"
+    ],
+    "asks": [
+      "Nguyên tắc",
+      "Theo dõi"
+    ]
+  },
+  {
+    "id": "PED64-B54",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B8",
+    "category": "Cận lâm sàng — nguyên tắc",
+    "tier": 2,
+    "text": "Nếu bệnh nhân khỏe, lách chỉ to nhẹ và xét nghiệm cơ bản bình thường thì chỉ cần theo dõi thêm {{c1::<span style=\"color:#ffd43b\"><b>vài tuần đến vài tháng</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Nguyen-tac-CLS",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B55",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — khung",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — khung]</b></span> Kể 9 nhóm xét nghiệm/thăm dò trong phần cận lâm sàng lách to của giáo trình.",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Huyết đồ, hồng cầu lưới</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bilan nhiễm trùng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Bằng chứng tán huyết</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Đánh giá chức năng gan</b></span> (+ α1 antitrypsin, đồng, ceruloplasmin, sinh thiết gan).<br>5) <span style=\"color:#74c0fc\"><b>Đánh giá áp lực tĩnh mạch cửa</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Bệnh tự miễn</b></span>.<br>7) <span style=\"color:#74c0fc\"><b>Đánh giá bệnh tẩm nhuận</b></span>.<br>8) <span style=\"color:#74c0fc\"><b>Chẩn đoán hình ảnh</b></span>.<br>9) <span style=\"color:#74c0fc\"><b>Sinh thiết lách</b></span> (hiếm).<br><br><b>💡 Giải thích của AI:</b><br>Sắp theo logic: máu → nhiễm trùng → tán huyết → gan → cửa → tự miễn → tẩm nhuận → hình ảnh → sinh thiết lách (hiếm). Đây là thẻ tầng 1; các thẻ sau liệt kê chi tiết từng nhóm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104–105. Barem: B8.02, B8.03, B8.04, B8.05, B8.06, B8.07, B8.08, B8.09, B8.10",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Khung-CLS"
+    ]
+  },
+  {
+    "id": "PED64-B56",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — huyết đồ",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — huyết đồ]</b></span> Huyết đồ và hồng cầu lưới trong lách to có thể cho thấy bằng chứng của những tình trạng nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bệnh máu ác tính</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Tán huyết</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nhiễm ký sinh trùng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Công thức máu + phết máu ngoại vi là xét nghiệm đầu tiên: tế bào non (blast) → leucemia; hồng cầu hình cầu/hình liềm/mảnh vỡ → tan máu; ký sinh trùng sốt rét trong hồng cầu. Hồng cầu lưới tăng → tủy đáp ứng tan máu.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Huyet-do"
+    ]
+  },
+  {
+    "id": "PED64-B57",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — bilan nhiễm trùng",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — bilan nhiễm trùng]</b></span> Bilan nhiễm trùng ở trẻ lách to gồm những xét nghiệm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Cấy máu</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Tầm soát</b></span>: <span style=\"color:#ff6b6b\"><b>CMV, EBV, HIV, Toxoplasmosis, sốt rét, lao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chọn xét nghiệm theo bệnh sử: sốt kéo dài + họng + hạch → EBV/CMV; vùng dịch tễ → ký sinh trùng sốt rét; sụt cân, ho kéo dài → lao (Mantoux, Xq phổi). Cấy máu nhiều lần khi nghi viêm nội tâm mạc bán cấp.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bilan-nhiem-trung"
+    ]
+  },
+  {
+    "id": "PED64-B58",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B8",
+    "category": "Cận lâm sàng — bilan nhiễm trùng",
+    "tier": 2,
+    "text": "Tầm soát nhiễm trùng ở trẻ lách to: cấy máu và xét nghiệm {{c1::<span style=\"color:#ff6b6b\"><b>CMV, EBV, HIV, Toxoplasmosis, sốt rét, lao</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bilan-nhiem-trung",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B59",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — tán huyết",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — tán huyết]</b></span> Bằng chứng tán huyết gồm những xét nghiệm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Haptoglobin</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bilirubin</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Urobilinogen</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Coombs test</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Men hồng cầu</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Sức bền hồng cầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Haptoglobin giảm, bilirubin gián tiếp tăng, urobilinogen tăng là dấu hiệu tan máu; Coombs test phân biệt tan máu miễn dịch; men hồng cầu (G6PD, pyruvat kinase) và sức bền hồng cầu giúp tìm nguyên nhân bẩm sinh (hồng cầu hình cầu, thalassemia).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tan-mau"
+    ]
+  },
+  {
+    "id": "PED64-B60",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — gan",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — gan]</b></span> Đánh giá gan trong lách to gồm những xét nghiệm/thăm dò nào (kể cả để loại trừ bệnh Wilson)?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chức năng gan</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bệnh thiếu α1 antitrypsin</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Định lượng đồng trong máu</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Ceruloplasmin</b></span> (để loại trừ bệnh Wilson).<br>5) <span style=\"color:#51cf66\"><b>Sinh thiết gan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh Wilson (ứ đồng) và thiếu α1 antitrypsin gây xơ gan, tăng áp cửa ở trẻ → lách to sung huyết. Ceruloplasmin thấp + đồng niệu cao gợi ý Wilson.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 104. Barem: B8.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Gan"
+    ]
+  },
+  {
+    "id": "PED64-B61",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — áp lực cửa",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — áp lực cửa]</b></span> Đánh giá áp lực tĩnh mạch cửa gồm những thăm dò nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Siêu âm Doppler tĩnh mạch cửa</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Nội soi thực quản</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm Doppler cho biết hướng/vận tốc dòng chảy tĩnh mạch cửa, huyết khối; nội soi thực quản tìm giãn tĩnh mạch thực quản (bằng chứng gián tiếp của tăng áp cửa).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Ap-luc-cua"
+    ]
+  },
+  {
+    "id": "PED64-B62",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — tự miễn",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — tự miễn]</b></span> Các xét nghiệm đánh giá bệnh tự miễn ở trẻ lách to là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>VS</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>C3, C4, CH50</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>ANA</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>RF</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bổ thể (C3, C4, CH50) giảm trong SLE; ANA gợi ý SLE/JIA; RF gợi ý viêm khớp. Dùng khi có chỉ điểm lâm sàng của Lupus hoặc viêm khớp mạn.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tu-mien"
+    ]
+  },
+  {
+    "id": "PED64-B63",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B8",
+    "category": "Cận lâm sàng — tự miễn",
+    "tier": 2,
+    "text": "Xét nghiệm bệnh tự miễn trong lách to: VS, {{c1::<span style=\"color:#74c0fc\"><b>C3, C4, CH50, ANA, RF</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tu-mien",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B64",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — tẩm nhuận",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — tẩm nhuận]</b></span> Đánh giá bệnh tẩm nhuận (thâm nhiễm) ở trẻ lách to gồm những thăm dò nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tủy đồ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Sinh thiết tủy</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Định lượng men</b></span> trong bệnh <span style=\"color:#74c0fc\"><b>Gaucher</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Sinh thiết hạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tủy đồ/sinh thiết tủy tìm tế bào ác tính (leucemia) hoặc tế bào bọt (Gaucher, Niemann-Pick); sinh thiết hạch khi có hạch to nghi u lympho.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Tham-nhiem"
+    ]
+  },
+  {
+    "id": "PED64-B65",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — hình ảnh",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — hình ảnh]</b></span> Các phương tiện chẩn đoán hình ảnh đánh giá lách to trong giáo trình gồm những gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>CT scan</b></span>.<br>2) <span style=\"color:#51cf66\"><b>MRI</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Scan gan lách với 99mTc-sulfur colloid</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>CT/MRI cho hình ảnh khối, nang, nhồi máu, hạch ổ bụng; scan gan lách 99mTc-sulfur colloid đánh giá chức năng thực bào của hệ võng nội mô, lách phụ. Siêu âm (dễ làm, không xạ) thường là bước đầu tiên (bảng 3.1).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.09",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Hinh-anh"
+    ]
+  },
+  {
+    "id": "PED64-B66",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B8",
+    "category": "Cận lâm sàng — sinh thiết lách",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Cận lâm sàng — sinh thiết lách]</b></span> Chỉ định sinh thiết lách là khi nào và cần làm những xét nghiệm trên mẫu sinh thiết nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Chỉ định</b></span>: sinh thiết lách là biện pháp <span style=\"color:#ff6b6b\"><b>hiếm</b></span>, chỉ khi <span style=\"color:#ff6b6b\"><b>vẫn chưa tìm ra nguyên nhân</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm trên mẫu</b></span>: nhuộm gram, cấy, nhuộm hóa mô miễn dịch, khảo sát gen…<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết lách nguy cơ chảy máu vì lách rất giàu mạch máu; vì vậy là lựa chọn cuối cùng, sau khi đã dùng hết các biện pháp ít xâm lấn (máu, tủy, hạch, hình ảnh).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B8.10",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Sinh-thiet-lach"
+    ],
+    "asks": [
+      "Chỉ định",
+      "Xét nghiệm trên mẫu"
+    ]
+  },
+  {
+    "id": "PED64-B67",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — nguyên tắc",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bảng 3.1 — nguyên tắc]</b></span> Có thể tiếp cận chẩn đoán nguyên nhân lách to dựa vào những yếu tố nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Các biểu hiện lâm sàng kèm theo lách to</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Một số biện pháp thăm dò</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng 3.1 ghép mỗi nguyên nhân với cụm lâm sàng kèm theo và xét nghiệm 'chốt' tương ứng. Cách học: nhìn cụm triệu chứng đi kèm với lách to → nghĩ ngay bệnh → chọn xét nghiệm chẩn đoán.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ]
+  },
+  {
+    "id": "PED64-B68",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — khung",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bảng 3.1 — khung]</b></span> Bảng 3.1 chia nguyên nhân lách to thành mấy nhóm lớn, đó là những nhóm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thiếu máu tan máu</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Bệnh u</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Bệnh ứ chất</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Lách to sung huyết</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Nang ở lách</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sáu nhóm này là khung tầng 1 của bảng; các thẻ sau đi vào từng bệnh. Mẹo nhớ: Nhiễm – Tan – U – Ứ – Sung – Nang.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105–107. Barem: B9.01, B9.02, B9.11, B9.12, B9.15, B9.16, B9.18",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ]
+  },
+  {
+    "id": "PED64-B69",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — nhóm nhiễm khuẩn",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bảng 3.1 — nhóm nhiễm khuẩn]</b></span> Nhóm 'Nhiễm khuẩn' trong bảng 3.1 liệt kê những bệnh nào gây lách to?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thương hàn</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm màng trong tim</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn huyết</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Áp xe lách</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Lao toàn thể</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Giang mai</b></span>.<br>7) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn tăng bạch cầu đơn nhân</b></span>.<br>8) <span style=\"color:#ff6b6b\"><b>Epstein Barr</b></span>.<br>9) <span style=\"color:#ff6b6b\"><b>Sốt rét</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chín bệnh này đã nằm rải rác ở mục nhiễm trùng (virus, vi khuẩn, ký sinh trùng). Trong bảng 3.1, 'nhiễm khuẩn tăng bạch cầu đơn nhân' và 'Epstein Barr' nhắc cùng một bệnh cảnh (EBV) ở hai dòng với biểu hiện lâm sàng/xét nghiệm khác nhau.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105–106. Barem: B9.02, B9.03, B9.04, B9.05, B9.06, B9.07, B9.08, B9.09, B9.10",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ]
+  },
+  {
+    "id": "PED64-B70",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — nhóm bệnh u & sung huyết",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Bảng 3.1 — nhóm bệnh u & sung huyết]</b></span> Nhóm 'Bệnh u' và nhóm 'Lách to sung huyết' trong bảng 3.1 gồm những bệnh nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bệnh u</b></span>: <span style=\"color:#ff6b6b\"><b>Leukemia, U lympho, Tăng mô bào (histiocytosis)</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Lách to sung huyết</b></span>: <span style=\"color:#ff6b6b\"><b>Xơ gan, Tắc tĩnh mạch lách-cửa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh u: hạch to đi cùng lách to (thâm nhiễm). Sung huyết: gan và hệ cửa đi đầu (xơ gan, tắc TM). Hai nhóm có biểu hiện khác hẳn nên rất dễ phân biệt khi nhìn đúng cụm triệu chứng đi kèm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106–107. Barem: B9.12, B9.13, B9.14, B9.16, B9.17",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ]
+  },
+  {
+    "id": "PED64-B71",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Thương hàn",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Thương hàn</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt kéo dài, lách to ít, mê sảng, rối loạn tiêu hóa, giảm bạch cầu, viêm cơ tim</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Cấy máu, chẩn đoán huyết thanh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thương hàn gây lách to ít nhưng sốt kéo dài kèm rối loạn tiêu hóa, giảm bạch cầu (do ức chế tủy và thực bào) và có thể viêm cơ tim. Cấy máu là xét nghiệm chẩn đoán xác định; huyết thanh chẩn đoán hỗ trợ.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B72",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Viêm màng trong tim",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Viêm màng trong tim</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt kéo dài, lách to ít, biểu hiện tim</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Siêu âm tim, cấy máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viêm nội tâm mạc cho sốt kéo dài và biểu hiện tim (âm thổi), lách to ít do tăng sản và thuyên tắc. Siêu âm tim tìm sùi, cấy máu tìm tác nhân — phải cấy trước khi dùng kháng sinh.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B73",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Nhiễm khuẩn huyết",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Nhiễm khuẩn huyết</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốc nhiễm khuẩn</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Cấy máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm khuẩn huyết nặng có thể kèm sốc nhiễm khuẩn; cấy máu là xét nghiệm chẩn đoán. Đây là tình huống cấp cứu: cấy máu rồi dùng kháng sinh sớm, không chờ kết quả.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B74",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Áp xe lách",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Áp xe lách</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt, lách đau</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Siêu âm lách</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Áp xe lách là ổ mủ trong lách → sốt và đau vùng lách (khác lách to thông thường thường không đau). Siêu âm lách phát hiện ổ áp xe; CT xác nhận khi cần.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B75",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Lao toàn thể",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Lao toàn thể</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt kéo dài, hạch to, sụt cân, ho kéo dài</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Xq phổi, Mantoux</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lao toàn thể (lao kê, lao lan tràn) làm hệ võng nội mô tăng sản: sốt kéo dài, sụt cân, hạch to, ho kéo dài và lách to. Chụp Xq phổi và phản ứng Mantoux là xét nghiệm đầu tiên.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B76",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Giang mai",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Giang mai</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Thiếu máu, vàng da nhẹ, gan to, biểu hiện giang mai xương</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Phản ứng huyết thanh giang mai bố, mẹ, con</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giang mai bẩm sinh: thiếu máu, vàng da nhẹ, gan lách to, tổn thương xương. Phản ứng huyết thanh giang mai cần làm cả bố, mẹ và con để xác định lây truyền.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B77",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Nhiễm khuẩn tăng bạch cầu đơn nhân",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Nhiễm khuẩn tăng bạch cầu đơn nhân</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt, viêm họng, hạch to, nổi ban</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Nghiệm pháp Paul-Bunnell</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bộ ba sốt – viêm họng – hạch to (kèm nổi ban) + lách to là bệnh cảnh kinh điển của bạch cầu đơn nhân nhiễm khuẩn do EBV. Nghiệm pháp Paul-Bunnell (kháng thể ái dị) là xét nghiệm huyết thanh đặc trưng.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B78",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Epstein Barr",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Epstein Barr</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt nổi hạch</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Chẩn đoán huyết thanh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở dòng này barem nêu 'sốt nổi hạch' và chẩn đoán bằng huyết thanh (kháng thể đặc hiệu EBV). Hai dòng 'đơn nhân' và 'Epstein Barr' bổ sung nhau: cùng một tác nhân, hai cách tiếp cận lâm sàng/xét nghiệm.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.09",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B79",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Sốt rét",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Sốt rét</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Sốt rét cơn, thiếu máu, yếu tố dịch tễ</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Ký sinh trùng sốt rét</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sốt rét: sốt cơn (rét run – nóng – vã mồ hôi), thiếu máu do hồng cầu bị ký sinh trùng phá, lách to; yếu tố dịch tễ (đến/ở vùng sốt rét) rất quan trọng. Chẩn đoán bằng tìm ký sinh trùng sốt rét.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.10",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B80",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Thiếu máu tan máu",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Thiếu máu tan máu</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Vàng da, thiếu máu, nước tiểu sẫm màu hay hemoglobin niệu</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Bilirubin tự do; Hb, HC lưới, hình dáng hồng cầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tan máu: hồng cầu vỡ → bilirubin tự do tăng (vàng da), thiếu máu, nước tiểu sẫm màu do hemoglobin niệu. Hb, hồng cầu lưới và hình dáng hồng cầu (phết máu) giúp định hướng nguyên nhân.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.11",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B81",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Leukemia",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Leukemia (bệnh u)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Thiếu máu, xuất huyết, sốt, hạch to, đau xương</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Huyết đồ, tủy đồ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Leucemia gây suy tủy (thiếu máu, xuất huyết, sốt) và thâm nhiễm (hạch to, lách to, đau xương). Huyết đồ thấy tế bào non, tủy đồ khẳng định chẩn đoán.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.12",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B82",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — U lympho",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>U lympho (bệnh u)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Hạch to, nhiều, u ổ bụng, u trung thất</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Sinh thiết hạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>U lympho tạo hạch to nhiều nhóm, khối u ổ bụng hoặc trung thất; chẩn đoán xác định bằng sinh thiết hạch (mô bệnh học, hóa mô miễn dịch).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B83",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Tăng mô bào",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Tăng mô bào (histiocytosis)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Hạch to và nhiều, sốt, gan to, xuất huyết</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Huyết tủy đồ, sinh thiết hạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tăng mô bào (như bệnh mô bào tế bào Langerhans, hội chứng thực bào máu) gây sốt, hạch to, gan lách to và xuất huyết. Huyết tủy đồ và sinh thiết hạch tìm tế bào mô bào.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.14",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B84",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Bệnh ứ chất",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Bệnh ứ chất (Gaucher, Niemann-Pick, Mucopolysacharid)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Lách to nhiều, tiền sử gia đình có bệnh tương tự, biểu hiện thần kinh và thoái hóa mắt</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Chọc sinh thiết gan, tủy, lách</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh ứ chất là bệnh di truyền chuyển hóa: chất không phân giải tích tụ trong đại thực bào làm lách to rất nhiều, kèm biểu hiện thần kinh và thoái hóa mắt; tiền sử gia đình giúp gợi ý. Chẩn đoán bằng sinh thiết gan, tủy, lách (ngoài barem: ngày nay thường dùng định lượng enzym/gen).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.15",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B85",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Xơ gan",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Xơ gan (lách to sung huyết)</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Gan to hoặc nhỏ, tuần hoàn bàng hệ, cổ trướng, tiền sử viêm gan</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Chức năng gan, sinh thiết gan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Xơ gan → tăng áp cửa → lách sung huyết to; dấu hiệu: gan to hoặc nhỏ (xơ teo), tuần hoàn bàng hệ, cổ trướng, tiền sử viêm gan. Đánh giá chức năng gan và sinh thiết gan xác định.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106–107. Barem: B9.16",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B86",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Tắc tĩnh mạch lách-cửa",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Tắc tĩnh mạch lách-cửa</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Lách to, tuần hoàn bàng hệ, giãn tĩnh mạch thực quản, trĩ</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Siêu âm; chụp tuần hoàn lách-cửa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tắc tĩnh mạch lách-cửa gây tăng áp cửa tiền gan: lách to, tuần hoàn bàng hệ, giãn tĩnh mạch thực quản (nguy cơ xuất huyết tiêu hóa), trĩ; chức năng gan thường còn bảo tồn. Siêu âm Doppler và chụp tuần hoàn lách-cửa là xét nghiệm chẩn đoán.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 107. Barem: B9.17",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B87",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B9",
+    "category": "Bảng 3.1 — Nang ở lách",
+    "tier": 2,
+    "front": "Theo bảng 3.1, biểu hiện lâm sàng kèm theo và xét nghiệm chẩn đoán của lách to do <span style=\"color:#74c0fc\"><b>Nang ở lách</b></span> là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Biểu hiện lâm sàng</b></span>: <span style=\"color:#ff6b6b\"><b>Lách to, biến dạng hình thù lách</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm chẩn đoán</b></span>: <span style=\"color:#51cf66\"><b>Siêu âm; chụp cắt lớp điện toán</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nang lách làm lách to cục bộ và biến dạng hình thù lách; siêu âm là bước đầu, chụp cắt lớp điện toán (CT) mô tả chính xác kích thước, vị trí, thành nang.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 107. Barem: B9.18",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm chẩn đoán"
+    ]
+  },
+  {
+    "id": "PED64-B88",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B9",
+    "category": "Bảng 3.1 — xét nghiệm 'chốt'",
+    "tier": 2,
+    "text": "Lách to kèm sốt, viêm họng, hạch to, nổi ban: nhiễm khuẩn tăng bạch cầu đơn nhân; xét nghiệm chẩn đoán là nghiệm pháp {{c1::<span style=\"color:#51cf66\"><b>Paul-Bunnell</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B89",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B9",
+    "category": "Bảng 3.1 — xét nghiệm 'chốt'",
+    "tier": 2,
+    "text": "Chẩn đoán lao toàn thể gây lách to cần chụp Xq phổi; phản ứng tuberculin da tên là {{c1::<span style=\"color:#51cf66\"><b>Mantoux</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 105. Barem: B9.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B90",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B9",
+    "category": "Bảng 3.1 — xét nghiệm 'chốt'",
+    "tier": 2,
+    "text": "Leukemia gây lách to được chẩn đoán bằng huyết đồ và {{c1::<span style=\"color:#51cf66\"><b>tủy đồ</b></span>}}; u lympho cần {{c2::<span style=\"color:#51cf66\"><b>sinh thiết hạch</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.12, B9.13",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B91",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B9",
+    "category": "Bảng 3.1 — xét nghiệm 'chốt'",
+    "tier": 2,
+    "text": "Trong thiếu máu tan máu gây lách to, xét nghiệm có bilirubin {{c1::<span style=\"color:#ffd43b\"><b>tự do</b></span>}} (gián tiếp) tăng.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 106. Barem: B9.11",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Bang-3-1",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B92",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — tầng 1",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — tầng 1]</b></span> Sơ đồ tiếp cận chẩn đoán lách to (3.2) phân thành mấy mức độ to, và xử trí/hướng đi của từng mức độ là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>To ít</b></span> → nghĩ <span style=\"color:#ff6b6b\"><b>nhiễm virus</b></span> → <span style=\"color:#51cf66\"><b>khám lại sau 4–8 tuần</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>To vừa</b></span> → đi tiếp qua <span style=\"color:#74c0fc\"><b>4 nút câu hỏi</b></span> để tìm nguyên nhân.<br>3) <span style=\"color:#ffd43b\"><b>To nhiều</b></span> → <span style=\"color:#51cf66\"><b>vào viện điều trị hỗ trợ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mức độ to quyết định nhịp độ: lách to ít thường là nhiễm virus lành tính nên theo dõi; lách to nhiều chứng tỏ bệnh nặng/mạn nên nhập viện; to vừa mới cần 'vào cuộc' bằng sơ đồ phân nhánh.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B93",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — tầng 1",
+    "tier": 2,
+    "text": "Lách to ít → nhiễm virus → khám lại sau {{c1::<span style=\"color:#ffd43b\"><b>4–8 tuần</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B94",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — 4 nút của nhánh to vừa",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — 4 nút của nhánh to vừa]</b></span> Ở nhánh 'lách to vừa' của sơ đồ 3.2, 4 câu hỏi (nút) lần lượt cần đặt ra theo thứ tự nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thiếu máu, bilirubin tự do tăng, hồng cầu lưới tăng?</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Triệu chứng nhiễm khuẩn cấp?</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Triệu chứng lách – cửa?</b></span><br>4) <span style=\"color:#ff6b6b\"><b>Triệu chứng bệnh hệ thống?</b></span><br>Nếu cả 4 nút đều <span style=\"color:#ffd43b\"><b>Không</b></span> → <span style=\"color:#51cf66\"><b>siêu âm, chụp nhấp nháy gan lách, sinh thiết tủy/hạch/gan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự đi từ nguyên nhân thường gặp, dễ nhận ra và cần xử trí gấp (tan máu, nhiễm khuẩn cấp) đến nguyên nhân cần thăm dò hình ảnh/mô học (sung huyết, bệnh hệ thống), và cuối cùng là nhóm khó (nang, u, tụ máu).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.02, B10.03, B10.04, B10.05, B10.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B95",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — nút 1",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — nút 1]</b></span> Sơ đồ 3.2, lách to vừa: nếu trẻ có thiếu máu, bilirubin tự do tăng, hồng cầu lưới tăng (nút 1) thì kết luận gì và nếu không thì đi tiếp ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Có</b></span> → <span style=\"color:#ff6b6b\"><b>thiếu máu tan máu</b></span>; <span style=\"color:#ff6b6b\"><b>tạo máu ngoài tủy</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không</b></span> → đi tiếp nút 2: <span style=\"color:#74c0fc\"><b>triệu chứng nhiễm khuẩn cấp?</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bộ ba thiếu máu – bilirubin tự do tăng – hồng cầu lưới tăng là 'chữ ký' của tan máu (lách phá nhiều hồng cầu, tủy tăng sản bù trừ). Cùng bộ ba này, nếu tủy bị xơ hóa thì có thể là tạo máu ngoài tủy.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B96",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — nút 2",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — nút 2]</b></span> Sơ đồ 3.2, nút 2 'triệu chứng nhiễm khuẩn cấp': có thì làm gì và nghĩ đến những tác nhân nào, không thì đi tiếp ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Có</b></span> → <span style=\"color:#51cf66\"><b>cấy máu</b></span> + tiêu bản sốt rét, bạch cầu đơn nhân, Febrile agglutinin → nhiễm <span style=\"color:#ff6b6b\"><b>vi khuẩn, virus, Rickettsia, nấm, đơn bào sốt rét</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không</b></span> → đi tiếp nút 3: <span style=\"color:#74c0fc\"><b>triệu chứng lách – cửa?</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm xét nghiệm của nút 2 bao quát nhiễm trùng cấp: cấy máu (vi khuẩn), tiêu bản (sốt rét), bạch cầu đơn nhân (EBV), Febrile agglutinin (thương hàn, Brucella, Rickettsia).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B97",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — nút 3",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — nút 3]</b></span> Sơ đồ 3.2, nút 3 'triệu chứng lách – cửa': có thì làm gì và nghĩ đến những nguyên nhân nào, không thì đi tiếp ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Có</b></span> → <span style=\"color:#51cf66\"><b>siêu âm, chụp lách – cửa</b></span> → <span style=\"color:#ff6b6b\"><b>tăng áp lực cửa (trong gan), Budd-Chiari, tắc TM trước gan, suy tim sung huyết</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không</b></span> → đi tiếp nút 4: <span style=\"color:#74c0fc\"><b>triệu chứng bệnh hệ thống?</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nút 3 phân biệt vị trí cản trở dòng máu cửa: trước gan (tắc TM cửa/lách), trong gan (xơ gan), sau gan (Budd-Chiari — tắc tĩnh mạch gan; suy tim phải).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B98",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — nút 4",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — nút 4]</b></span> Sơ đồ 3.2, nút 4 'triệu chứng bệnh hệ thống': có thì nghĩ đến những nhóm bệnh nào, không thì làm những thăm dò nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Có</b></span> → <span style=\"color:#ff6b6b\"><b>bệnh Collagen mạch máu, bệnh ứ chất, bệnh chuyển hóa</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không</b></span> → <span style=\"color:#51cf66\"><b>siêu âm, chụp nhấp nháy gan lách, sinh thiết tủy, sinh thiết hạch, sinh thiết gan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đến nút cuối cùng, nguyên nhân không rõ → dùng hình ảnh và sinh thiết các mô (tủy, hạch, gan) để tìm bệnh thâm nhiễm hoặc tổn thương khu trú của lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.05, B10.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B99",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B10",
+    "category": "Sơ đồ 3.2 — nhóm kết quả cuối",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Sơ đồ 3.2 — nhóm kết quả cuối]</b></span> Sau chuỗi siêu âm – chụp nhấp nháy gan lách – sinh thiết tủy/hạch/gan ở cuối sơ đồ 3.2, giáo trình nêu 3 nhóm chẩn đoán nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nang, u mạch, u mạch lympho</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Tụ máu do chấn thương</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>U lympho ác tính, tăng mô bào</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba nhóm này là kết cục của nhánh 'không có triệu chứng gì đặc hiệu': tổn thương khu trú (nang, u mạch), tụ máu sau chấn thương, hoặc thâm nhiễm ác tính/mô bào.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 108. Barem: B10.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "So-do-3-2"
+    ]
+  },
+  {
+    "id": "PED64-B100",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — khung",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — khung]</b></span> Điều trị lách to dựa trên nguyên tắc nào, và lách to do nhiễm khuẩn dùng thuốc gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Nguyên tắc</b></span>: điều trị lách to <span style=\"color:#51cf66\"><b>theo bệnh thực thể</b></span> (nguyên nhân).<br>2) <span style=\"color:#ffd43b\"><b>Lách to do nhiễm khuẩn</b></span>: sử dụng <span style=\"color:#51cf66\"><b>kháng sinh thích hợp theo nguyên nhân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lách to là triệu chứng, không phải bệnh: điều trị đúng nguyên nhân (kháng sinh cho nhiễm khuẩn, hóa trị cho u, chống tăng áp cửa…) thì lách thu nhỏ lại. Không có thuốc làm nhỏ lách trực tiếp.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.01",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Dieu-tri"
+    ]
+  },
+  {
+    "id": "PED64-B101",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — thể thao",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — thể thao]</b></span> Với lách to do nhiễm trùng, bạch cầu đơn nhân, bệnh nhân nên hạn chế vận động/thể thao cho đến khi nào, tối thiểu bao lâu, và một số chuyên gia đề nghị dùng phương tiện gì để quyết định?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Hạn chế</b></span>: vận động và <span style=\"color:#ff6b6b\"><b>thể thao</b></span> cho đến khi bệnh được giải quyết hoàn toàn về lâm sàng và lách đã trở lại kích thước bình thường.<br>2) <span style=\"color:#ffd43b\"><b>Thời gian tối thiểu</b></span>: <span style=\"color:#ffd43b\"><b>ít nhất 4 tuần</b></span> kể từ khi khởi phát bệnh.<br>3) <span style=\"color:#ffd43b\"><b>Hỗ trợ quyết định</b></span>: một số chuyên gia đề nghị <span style=\"color:#51cf66\"><b>siêu âm đánh giá kích thước lách</b></span> để quyết định khi nào bệnh nhân được hoạt động thể thao trở lại.<br><br><b>💡 Giải thích của AI:</b><br>Lách to cấp (như trong bạch cầu đơn nhân EBV) mỏng bao, dễ vỡ chỉ với va chạm nhẹ → hạn chế vận động/va chạm cho đến khi lách về kích thước bình thường. Số '4 tuần' của barem là mức tối thiểu kể từ khởi phát bệnh, không phải kể từ lúc hết sốt.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Han-che-the-thao"
+    ]
+  },
+  {
+    "id": "PED64-B102",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B11",
+    "category": "Điều trị — thể thao",
+    "tier": 2,
+    "text": "Bệnh nhân lách to do nhiễm trùng/bạch cầu đơn nhân nên hạn chế vận động và thể thao ít nhất {{c1::<span style=\"color:#ffd43b\"><b>4 tuần</b></span>}} kể từ khi khởi phát bệnh.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.02",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Han-che-the-thao",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B103",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — chỉ định cắt lách",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — chỉ định cắt lách]</b></span> Cắt lách được chỉ định để kiểm soát và điều trị những bệnh nào gây lách to, và ngoài ra cho tình trạng nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Xuất huyết giảm tiểu cầu tiên phát</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thiếu máu huyết tán mạn</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Ung thư hạch (Hodgkin lymphoma)</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Cường lách mạn tính nặng</b></span> (chỉ định điều trị thêm).<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: cắt lách trong Hodgkin trước đây dùng để xếp giai đoạn; hiện nay hiếm vì PET/CT và hóa trị hiệu quả hơn nên không còn là xếp giai đoạn thường quy. Cường lách = giảm một hay nhiều dòng tế bào máu do lách to (xem thẻ EBM).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.03",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Cat-lach"
+    ]
+  },
+  {
+    "id": "PED64-B104",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — cắt lách nội soi",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — cắt lách nội soi]</b></span> So với phẫu thuật mở, cắt lách nội soi ở trẻ em có ưu điểm gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ an toàn</b></span>: cao.<br>2) <span style=\"color:#ffd43b\"><b>Thời gian nằm viện</b></span>: <span style=\"color:#51cf66\"><b>ngắn hơn</b></span> so với phẫu thuật mở.<br>3) <span style=\"color:#ffd43b\"><b>Mức độ thực hiện</b></span>: phổ biến hơn ở trẻ em.<br><br><b>💡 Giải thích của AI:</b><br>Nội soi ít xâm lấn → ít đau, hồi phục nhanh, ít dính sau mổ. Tuy nhiên vẫn là cắt lách toàn phần nên vẫn phải tiêm chủng và dự phòng nhiễm khuẩn hậu cắt lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.04",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Cat-lach-noi-soi"
+    ]
+  },
+  {
+    "id": "PED64-B105",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — cắt lách một phần",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — cắt lách một phần]</b></span> Cắt lách một phần có vai trò gì so với cắt lách toàn phần, loại bỏ tối đa bao nhiêu mô lách to, và đã dùng thành công ở những bệnh nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Vai trò</b></span>: phương pháp điều trị khả thi <span style=\"color:#51cf66\"><b>thay thế cho cắt lách toàn phần</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Mức cắt</b></span>: loại bỏ <span style=\"color:#ffd43b\"><b>đến 90%</b></span> mô lách to và giữ lại phần lách đủ khả năng đáp ứng miễn dịch.<br>3) <span style=\"color:#ffd43b\"><b>Đã dùng thành công ở</b></span>: bệnh nhân <span style=\"color:#ff6b6b\"><b>hồng cầu hình liềm, hình cầu di truyền, thalassemia</b></span> và <span style=\"color:#ff6b6b\"><b>u nang lách không đối xứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu: vừa giảm thể tích lách (giảm cường lách, tan máu) vừa giữ mô lách để còn chức năng miễn dịch → giảm nguy cơ OPSI. Ngoài barem: tiêm chủng và kháng sinh dự phòng vẫn là nền tảng sau cắt lách một phần.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Cat-lach-mot-phan"
+    ]
+  },
+  {
+    "id": "PED64-B106",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B11",
+    "category": "Điều trị — cắt lách một phần",
+    "tier": 2,
+    "text": "Cắt lách một phần loại bỏ đến {{c1::<span style=\"color:#ffd43b\"><b>90%</b></span>}} mô lách to và giữ lại phần lách đủ khả năng đáp ứng miễn dịch.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.05",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Cat-lach-mot-phan",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B107",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — OPSI",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — OPSI]</b></span> Định nghĩa OPSI và 3 tác nhân chính gây OPSI sau cắt lách là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Định nghĩa</b></span>: nhiễm khuẩn hậu cắt lách quá mức (<span style=\"color:#ff6b6b\"><b>Overwhelming post-splenectomy infection</b></span>) — trẻ sau cắt lách đều có nguy cơ nhiễm khuẩn cao.<br>2) <span style=\"color:#ffd43b\"><b>Tác nhân</b></span>: <span style=\"color:#ff6b6b\"><b>Streptococcus pneumoniae, Haemophilus influenzae tuyp B, Neisseria meningitidis</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả ba là vi khuẩn có vỏ polysaccharid — cần opsonin và đại thực bào lách để loại bỏ. Mất lách thì nhiễm khuẩn huyết có thể tối cấp, tử vong cao dù được điều trị.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "OPSI"
+    ],
+    "asks": [
+      "Định nghĩa",
+      "Tác nhân"
+    ]
+  },
+  {
+    "id": "PED64-B108",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B11",
+    "category": "Điều trị — OPSI",
+    "tier": 2,
+    "text": "OPSI (Overwhelming post-splenectomy infection) đặc biệt từ các chủng {{c1::<span style=\"color:#ff6b6b\"><b>Streptococcus pneumoniae, Haemophilus influenzae tuyp B và Neisseria meningitidis</b></span>}}.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.06",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "OPSI",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B109",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — vacxin trước cắt lách",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — vacxin trước cắt lách]</b></span> Thời điểm chủng ngừa vacxin cho bệnh nhân sẽ cắt lách là khi nào và vì sao?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Thời điểm</b></span>: <span style=\"color:#51cf66\"><b>ít nhất 2 tuần trước</b></span> khi phẫu thuật cắt lách.<br>2) <span style=\"color:#ffd43b\"><b>Lý do</b></span>: trẻ sau cắt lách có nguy cơ <span style=\"color:#ff6b6b\"><b>OPSI</b></span> (phế cầu, Hib, não mô cầu).<br><br><b>💡 Giải thích của AI:</b><br>Đáp ứng kháng thể với vacxin polysaccharid tốt nhất khi lách còn nguyên; tiêm trước mổ ít nhất 2 tuần đảm bảo có miễn dịch trước khi mất lách. Nếu mổ cấp cứu không kịp, phải tiêm sau mổ theo hướng dẫn.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Vacxin"
+    ]
+  },
+  {
+    "id": "PED64-B110",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B11",
+    "category": "Điều trị — vacxin trước cắt lách",
+    "tier": 2,
+    "text": "Chủng ngừa vacxin cần thực hiện ít nhất {{c1::<span style=\"color:#ffd43b\"><b>2 tuần</b></span>}} trước khi phẫu thuật cắt lách.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.07",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Vacxin",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B111",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — penicillin dự phòng",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — penicillin dự phòng]</b></span> Điều trị dự phòng penicillin sau cắt lách nhằm chống tác nhân nào, kéo dài tối thiểu bao lâu và đối tượng nào cần kéo dài đến khi trưởng thành?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Mục đích</b></span>: chống nhiễm khuẩn <span style=\"color:#ff6b6b\"><b>phế cầu</b></span> (ngoài chủng ngừa).<br>2) <span style=\"color:#ffd43b\"><b>Thời gian</b></span>: <span style=\"color:#ffd43b\"><b>ít nhất trong vòng 1 năm</b></span> sau cắt lách.<br>3) <span style=\"color:#ffd43b\"><b>Kéo dài</b></span>: thậm chí <span style=\"color:#ffd43b\"><b>đến tận khi trưởng thành</b></span> ở bệnh nhân có <span style=\"color:#ff6b6b\"><b>nguy cơ cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Penicillin dự phòng là lớp bảo vệ thứ hai sau vacxin vì vacxin không bao phủ mọi týp. Mức '≥ 1 năm' của barem là tối thiểu; nguy cơ cao (trẻ nhỏ, bệnh nền) cần kéo dài hơn.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Penicillin"
+    ]
+  },
+  {
+    "id": "PED64-B112",
+    "track": "barem_goc",
+    "type": "cloze",
+    "section": "B11",
+    "category": "Điều trị — penicillin dự phòng",
+    "tier": 2,
+    "text": "Dự phòng penicillin chống nhiễm khuẩn phế cầu sau cắt lách ít nhất trong vòng {{c1::<span style=\"color:#ffd43b\"><b>1 năm</b></span>}}, thậm chí đến khi trưởng thành ở bệnh nhân nguy cơ cao.",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Penicillin",
+      "Cloze-phu"
+    ]
+  },
+  {
+    "id": "PED64-B113",
+    "track": "barem_goc",
+    "type": "basic",
+    "section": "B11",
+    "category": "Điều trị — khung sau cắt lách",
+    "tier": 1,
+    "front": "<span style=\"color:#74c0fc\"><b>[Điều trị — khung sau cắt lách]</b></span> Gói dự phòng nhiễm khuẩn quanh thời điểm cắt lách theo giáo trình gồm những biện pháp nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chủng ngừa vacxin</b></span> ít nhất 2 tuần trước phẫu thuật.<br>2) <span style=\"color:#51cf66\"><b>Điều trị dự phòng penicillin</b></span> chống nhiễm khuẩn phế cầu ít nhất 1 năm, đến khi trưởng thành nếu nguy cơ cao.<br>3) <span style=\"color:#ff6b6b\"><b>Nhận biết OPSI</b></span>: phế cầu, Hib, não mô cầu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là thẻ tổng hợp tầng 1 cho nhóm B11.06–B11.08: vacxin (chủ động, trước mổ) + kháng sinh dự phòng (bảo vệ liên tục) + nhận biết nguy cơ (OPSI).",
+    "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình, chương Lách to (Splenomegaly), trang 109. Barem: B11.06, B11.07, B11.08",
+    "tags": [
+      "PED-64",
+      "Barem-goc",
+      "Sau-cat-lach"
+    ]
+  },
+  {
+    "id": "PED64-E01",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E0",
+    "category": "Tóm tắt 60 giây",
+    "tier": 1,
+    "front": "Tóm tắt 60 giây: <span style=\"color:#74c0fc\"><b>5 nguyên tắc cốt lõi</b></span> khi tiếp cận lách to ở trẻ em là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Loại trừ <span style=\"color:#ff6b6b\"><b>cờ đỏ cấp cứu</b></span> trước tiên (chấn thương/đau bụng/sốc, nhốt máu lách, HLH, sốt ở trẻ vô lách)<br>2) Xác nhận lách to thật: <span style=\"color:#ffd43b\"><b>&gt; 2 cm</b></span> dưới bờ sườn trái hoặc siêu âm đối chiếu theo tuổi/chiều cao; sờ thấy ≠ to<br>3) Phân nhóm nguyên nhân theo <span style=\"color:#74c0fc\"><b>cơ chế</b></span>: nhiễm trùng, huyết học–tan máu, thâm nhiễm/ứ chất, miễn dịch, sung huyết, tổn thương khu trú<br>4) Cận lâm sàng <span style=\"color:#51cf66\"><b>theo bậc, định hướng bởi lâm sàng</b></span>; sinh thiết/chọc lách không phải bước đầu<br>5) Điều trị đúng nguyên nhân, bảo vệ lách (tránh va chạm) và <span style=\"color:#51cf66\"><b>dự phòng nhiễm trùng</b></span> nếu mất/giảm chức năng lách<br><br><b>💡 Giải thích của AI:</b><br>Năm nguyên tắc này là khung xương của cả bài: cấp cứu → xác nhận → phân nhóm → thăm dò theo bậc → điều trị và dự phòng. Bẫy hay gặp là làm ngược thứ tự (xét nghiệm tràn lan, sinh thiết sớm) khi chưa loại trừ cờ đỏ hoặc chưa chắc lách to thật.",
+    "extra": "📖 Nguồn: Tổng hợp PMID 34307263, 19062140, 37186809, 21474172 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E0"
+    ]
+  },
+  {
+    "id": "PED64-E02",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E0",
+    "category": "Tóm tắt 60 giây",
+    "tier": 1,
+    "front": "Khi nghĩ nguyên nhân lách to ở trẻ em, nên chia thành <span style=\"color:#ffd43b\"><b>3 mức độ</b></span> ưu tiên nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thường gặp nhất</b></span>: nhiễm virus (EBV, CMV...), thường tự giới hạn<br>2) <span style=\"color:#74c0fc\"><b>Phải nghĩ sớm vì có xử trí đặc hiệu</b></span>: tan máu/bệnh huyết học, sung huyết–tăng áp cửa, bệnh hệ thống/miễn dịch<br>3) <span style=\"color:#ff6b6b\"><b>Không được bỏ sót</b></span>: ác tính (leukemia, u lympho), HLH, bệnh ứ chất/chuyển hóa<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ: «thường – xử trí được – không bỏ sót». Lách to nhẹ ở trẻ khỏe thường là virus nên theo dõi; nhưng cùng lúc phải rà cờ đỏ (xuất huyết, đau xương, hạch to, sốt kéo dài, giảm tế bào máu) để không bỏ sót nhóm nguy hiểm. Sự phân tầng này là cách tư duy, không phải số liệu thống kê.",
+    "extra": "📖 Nguồn: Tổng hợp nguyên nhân (virus phổ biến nhất ở trẻ em) PMID 34307263 [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E0"
+    ]
+  },
+  {
+    "id": "PED64-E03",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E0",
+    "category": "Tóm tắt 60 giây",
+    "tier": 1,
+    "front": "Trong bộ thẻ PED-64, thẻ <span style=\"color:#74c0fc\"><b>barem</b></span> và thẻ <span style=\"color:#74c0fc\"><b>EBM</b></span> khác nhau ở điểm nào, và khi nội dung lệch nhau thì dùng thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Barem</b></span>: nội dung bắt buộc của tài liệu thi (đại cương, nguyên nhân, lâm sàng, sơ đồ, điều trị) — học đúng nguyên văn số liệu<br>2) <span style=\"color:#74c0fc\"><b>EBM</b></span>: bằng chứng bổ sung ngoài barem (ngưỡng đo, cờ đỏ, hướng dẫn, bẫy) — dùng để hiểu sâu và xử trí lâm sàng<br>3) Khi lệch: <span style=\"color:#ffd43b\"><b>thi theo barem</b></span>, lâm sàng <span style=\"color:#51cf66\"><b>bổ sung EBM</b></span><br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: barem ghi lách sờ thấy ở trẻ sơ sinh 15–30%, trong khi tổng quan 2021 ghi khoảng 30% — hai số liệu không mâu thuẫn mà bổ sung nhau. Cách an toàn là nhớ số barem cho kỳ thi và ghi chú thêm nguồn EBM để dùng trên lâm sàng.",
+    "extra": "📖 Nguồn: Hướng dẫn sử dụng bộ thẻ; đối chiếu PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E0"
+    ]
+  },
+  {
+    "id": "PED64-E04",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "front": "Lách to kèm <span style=\"color:#ff6b6b\"><b>chấn thương bụng / đau bụng / sốc</b></span>: cần nêu <span style=\"color:#74c0fc\"><b>chẩn đoán</b></span> nào và <span style=\"color:#51cf66\"><b>xử trí</b></span> đầu tiên là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chẩn đoán</b></span>: vỡ lách hoặc xuất huyết dưới bao lách (lách to, mềm)<br>2) <span style=\"color:#51cf66\"><b>Xử trí</b></span>: xem là cấp cứu ngoại – ổn định huyết động, KHÔNG sờ nắn mạnh, siêu âm/CT cấp cứu và hội chẩn ngoại<br><br><b>💡 Giải thích của AI:</b><br>Lách là tạng dễ tổn thương nhất khi chấn thương bụng, và lách đã to thì càng dễ vỡ vì bao căng mỏng. Cơ chế nguy hiểm: chảy máu trong → sốc giảm thể tích dù bụng chưa có dấu rõ. Bẫy: đau vai trái (dấu Kehr) và mạch nhanh có thể là biểu hiện sớm.",
+    "extra": "📖 Nguồn: Barem B2.08, B7.07 (xuất huyết dưới bao sờ thấy to và mềm); xử trí cấp cứu [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1"
+    ],
+    "asks": [
+      "Chẩn đoán",
+      "Xử trí"
+    ]
+  },
+  {
+    "id": "PED64-E05",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "front": "Ở trẻ bệnh hồng cầu liềm, <span style=\"color:#ff6b6b\"><b>cơn nhốt máu lách</b></span> xảy ra theo <span style=\"color:#74c0fc\"><b>cơ chế</b></span> nào và <span style=\"color:#ffd43b\"><b>mức độ nguy hiểm</b></span> ra sao?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cơ chế</b></span>: máu bị giữ đột ngột trong lách → lách to nhanh, Hb tụt, thể tích tuần hoàn giảm<br>2) <span style=\"color:#ffd43b\"><b>Mức độ nguy hiểm</b></span>: có thể gặp ở đến 30% trẻ, tử vong đến 15%<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi cơ chế: tắc mạch lách do hồng cầu liềm → máu ứ đọng trong lách → lách to đột ngột + thiếu máu cấp → sốc giảm thể tích. Dấu hiệu cảnh báo: lách to nhanh bất thường kèm xanh xao, mệt lả. Cần xử trí hồi sức khẩn, không chờ xét nghiệm.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1"
+    ],
+    "asks": [
+      "Cơ chế",
+      "Mức độ nguy hiểm"
+    ]
+  },
+  {
+    "id": "PED64-E06",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "text": "Cơn nhốt máu lách ở bệnh hồng cầu liềm có thể xảy ra ở đến {{c1::30%}} trẻ, với tử vong đến {{c2::15%}}. (<span style=\"color:#ff6b6b\"><b>cờ đỏ</b></span> cần nhận diện sớm)",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E07",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>HLH</b></span> nghi ngờ khi có những biểu hiện <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span> nào và cần thử những <span style=\"color:#ffd43b\"><b>xét nghiệm</b></span> dấu ấn nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Lâm sàng</b></span>: sốt kéo dài không lui, giảm tế bào máu, gan lách to, rối loạn đông máu<br>2) <span style=\"color:#ffd43b\"><b>Xét nghiệm</b></span>: ferritin, IL2-R, triglycerid<br><br><b>💡 Giải thích của AI:</b><br>HLH là bão cytokine do đại thực bào/lympho T hoạt hóa quá mức nên gây sốt, giảm các dòng tế bào máu và gan lách to. Bẫy: ban đầu dễ nhầm với nhiễm trùng nặng không đáp ứng kháng sinh; ferritin tăng rất cao là gợi ý mạnh. Tiến triển nhanh nên là cờ đỏ cần chuyển tuyến sớm.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1"
+    ],
+    "asks": [
+      "Lâm sàng",
+      "Xét nghiệm"
+    ]
+  },
+  {
+    "id": "PED64-E08",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "front": "Trẻ <span style=\"color:#74c0fc\"><b>đã cắt lách / vô lách</b></span> đột ngột <span style=\"color:#ff6b6b\"><b>sốt</b></span>: cần nghĩ tới điều gì và <span style=\"color:#51cf66\"><b>xử trí</b></span> thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nghĩ tới</b></span>: nhiễm trùng tối cấp sau cắt lách (OPSI) do vi khuẩn có vỏ — phế cầu, Hib, não mô cầu<br>2) <span style=\"color:#51cf66\"><b>Xử trí</b></span>: coi là cấp cứu, đánh giá và điều trị ngay tại cơ sở y tế, không chờ theo dõi tại nhà<br><br><b>💡 Giải thích của AI:</b><br>Không có lách, cơ thể mất khả năng lọc và opsonin hóa vi khuẩn có vỏ, nên nhiễm trùng diễn tiến tối cấp, tử vong cao và kháng điều trị thông thường nếu chậm. Mẹo: «vô lách + sốt = cấp cứu» — người bệnh phải được dặn dò điều này từ trước.",
+    "extra": "📖 Nguồn: Barem B11.06; Lancet 2011 PMID 21474172 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1"
+    ],
+    "asks": [
+      "Nghĩ tới",
+      "Xử trí"
+    ]
+  },
+  {
+    "id": "PED64-E09",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E1",
+    "category": "Bước 0 — cờ đỏ cấp cứu",
+    "tier": 2,
+    "front": "Lách to kèm <span style=\"color:#ff6b6b\"><b>bầm máu, xuất huyết, đau xương, hạch to</b></span>: gợi ý nhóm bệnh nào và cần làm gì sớm?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gợi ý <span style=\"color:#74c0fc\"><b>bệnh máu ác tính</b></span> (leukemia, u lympho, tăng mô bào)<br>2) Làm sớm <span style=\"color:#51cf66\"><b>công thức máu + phết máu, huyết–tủy đồ</b></span>; sinh thiết hạch nếu hạch to nhiều<br><br><b>💡 Giải thích của AI:</b><br>Xuất huyết/bầm da do giảm tiểu cầu; đau xương do tủy bị xâm lấn; hạch và lách to do tế bào ác tính thâm nhiễm. Đây là nhóm không được bỏ sót, nên khi gặp tổ hợp này thì ưu tiên thăm dò tủy/hạch hơn là theo dõi chờ.",
+    "extra": "📖 Nguồn: Barem B7.04, B9.12–B9.14; hướng cận lâm sàng [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E1"
+    ]
+  },
+  {
+    "id": "PED64-E10",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E2",
+    "category": "Đo & ngưỡng",
+    "tier": 2,
+    "front": "Sờ thấy lách ở trẻ có <span style=\"color:#ff6b6b\"><b>đồng nghĩa</b></span> lách to bệnh lý không? Ngưỡng lâm sàng và tần suất ở trẻ khỏe là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không: lách to lâm sàng khi sờ thấy vượt bờ sườn trái <span style=\"color:#ffd43b\"><b>&gt; 2 cm</b></span><br>2) Sờ thấy được ở <span style=\"color:#ffd43b\"><b>5–10%</b></span> trẻ khỏe và khoảng <span style=\"color:#ffd43b\"><b>30%</b></span> trẻ sơ sinh khỏe<br><br><b>💡 Giải thích của AI:</b><br>Lách trẻ nhỏ nằm thấp hơn và bờ mỏng nên dễ sờ chạm đầu lách; sờ thấy thoáng qua không phải bệnh. Bẫy thi: barem ghi 15–30% ở sơ sinh, 10% ở 1 tuổi, 1% ở 10 tuổi — số EBM chỉ là cách nhìn bổ sung, không đổi đáp án barem.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263; đối chiếu barem B1.04 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2"
+    ]
+  },
+  {
+    "id": "PED64-E11",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E2",
+    "category": "Đo & ngưỡng",
+    "tier": 2,
+    "text": "Lách to lâm sàng khi sờ thấy vượt bờ sườn trái {{c1::&gt; 2 cm}}. (<span style=\"color:#ffd43b\"><b>ngưỡng sờ</b></span>)",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E12",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E2",
+    "category": "Đo & ngưỡng",
+    "tier": 2,
+    "text": "Lách sờ thấy được ở {{c1::5–10%}} trẻ khỏe và khoảng {{c2::30%}} trẻ sơ sinh khỏe.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E13",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E2",
+    "category": "Đo & ngưỡng",
+    "tier": 2,
+    "front": "Khi đối chiếu kích thước <span style=\"color:#74c0fc\"><b>lách, gan, thận</b></span> trên siêu âm ở trẻ, <span style=\"color:#ffd43b\"><b>tiêu chí</b></span> nào tương quan mạnh nhất, và giới tính có ảnh hưởng không?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Chiều cao</b></span> là tiêu chí tương quan mạnh nhất (siêu âm 307 trẻ 5 ngày–16 tuổi)<br>2) <span style=\"color:#74c0fc\"><b>Giới</b></span>: chiều dài lách không khác biệt giữa hai giới (512 trẻ khỏe 1 ngày–17 tuổi); lách tương quan với tuổi, chiều cao, cân nặng, diện tích da<br><br><b>💡 Giải thích của AI:</b><br>Vì lách lớn theo tầm vóc cơ thể nên cùng một số tuổi, trẻ cao hơn có lách dài hơn bình thường. Ứng dụng: không cần tách bảng chuẩn theo giới, nhưng nên đối chiếu theo chiều cao khi trẻ quá cao/thấp so với tuổi.",
+    "extra": "📖 Nguồn: Konuş AJR 1998 PMID 9843315; Megremis Radiology 2004 PMID 14990814 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2"
+    ]
+  },
+  {
+    "id": "PED64-E14",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E2",
+    "category": "Đo & ngưỡng",
+    "tier": 2,
+    "front": "Bé <span style=\"color:#ffd43b\"><b>12 tuổi</b></span>, siêu âm lách <span style=\"color:#ffd43b\"><b>11 cm</b></span>: có gọi là lách to theo ngưỡng P97,5 không? Dùng công thức kiểm tra thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức: 6 + 12/3 = <span style=\"color:#ffd43b\"><b>10 cm</b></span> (giá trị ước lượng theo tuổi)<br>2) So P97,5 nhóm 11–18 tuổi (<span style=\"color:#ffd43b\"><b>12,5 cm</b></span>): 11 cm ≤ 12,5 → <span style=\"color:#51cf66\"><b>chưa gọi là lách to</b></span> trên siêu âm<br><br><b>💡 Giải thích của AI:</b><br>Công thức chỉ cho giá trị ước lượng trung bình; ngưỡng quyết định là P97,5. Bẫy: thấy 11 cm &gt; 10 cm (ước lượng) mà vội kết luận to là sai — phải so với giới hạn trên theo nhóm tuổi, rồi kết hợp lâm sàng.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2"
+    ]
+  },
+  {
+    "id": "PED64-A01",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E2",
+    "category": "⚡ Đo & ngưỡng",
+    "tier": 1,
+    "front": "Công thức ước lượng <span style=\"color:#74c0fc\"><b>chiều dài lách theo tuổi</b></span> và <span style=\"color:#ffd43b\"><b>P97,5</b></span> cho 3 nhóm tuổi là gì; ngưỡng nào kích hoạt hành động?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức: chiều dài lách (cm) ≈ <span style=\"color:#ffd43b\"><b>6 + 1/3 × tuổi</b></span>; ví dụ 8 tuổi: 6 + 8/3 ≈ <span style=\"color:#ffd43b\"><b>8,7 cm</b></span><br>2) Ngưỡng P97,5 trên siêu âm: 0–3 tuổi <span style=\"color:#ffd43b\"><b>8,7 cm</b></span>; 4–10 tuổi <span style=\"color:#ffd43b\"><b>10,6 cm</b></span>; 11–18 tuổi <span style=\"color:#ffd43b\"><b>12,5 cm</b></span><br>3) Hành động: ≤ P97,5 → <span style=\"color:#51cf66\"><b>chưa gọi lách to</b></span>; &gt; P97,5 → <span style=\"color:#ff6b6b\"><b>tìm nguyên nhân</b></span>; sờ &gt; 2 cm dưới bờ sườn trái kèm triệu chứng → <span style=\"color:#51cf66\"><b>thăm dò</b></span><br><br><b>💡 Giải thích của AI:</b><br>Chú ý số 8,7 xuất hiện hai lần nhưng ý nghĩa khác nhau: 8,7 cm là giá trị ước lượng của trẻ 8 tuổi, còn ngưỡng P97,5 của 4–10 tuổi là 10,6 cm. Công thức cho giá trị kỳ vọng; P97,5 mới là giới hạn trên để quyết định.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 (ước lượng + P97,5) [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E2",
+      "thuat-toan"
+    ],
+    "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "badge_class": "badge-algo"
+  },
+  {
+    "id": "PED64-E15",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 1,
+    "front": "Có <span style=\"color:#ffd43b\"><b>6 nhóm cơ chế</b></span> chính gây lách to ở trẻ em — kể tên?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nhiễm trùng</b></span> (phì đại hạch bạch huyết, lưới nội mô)<br>2) <span style=\"color:#74c0fc\"><b>Huyết học – tan máu</b></span> (tăng thực bào hồng cầu, tạo máu ngoài tủy)<br>3) <span style=\"color:#74c0fc\"><b>Thâm nhiễm / ứ chất</b></span> (leukemia, u lympho, Gaucher, mô bào Langerhans)<br>4) <span style=\"color:#74c0fc\"><b>Tăng sản trắng / miễn dịch</b></span> (SLE, JIA, ALPS)<br>5) <span style=\"color:#74c0fc\"><b>Sung huyết</b></span> (tăng áp cửa, suy tim, xơ gan)<br>6) <span style=\"color:#74c0fc\"><b>Tổn thương khu trú</b></span> không to toàn bộ (u nang, u máu, tụ máu)<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ theo chức năng lách: lọc máu → tan máu; miễn dịch → nhiễm trùng/tự miễn; bể chứa → sung huyết; tạo máu → tạo máu ngoài tủy; cơ quan lympho–lưới nội mô → thâm nhiễm. Nhóm thứ 6 khác biệt ở chỗ lách có thể biến dạng thay vì to đều.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263; đối chiếu barem B3–B6 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E16",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>Cường lách</b></span> (hypersplenism) gồm những thành phần nào và khác <span style=\"color:#74c0fc\"><b>lách to</b></span> ở điểm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cường lách = giảm <span style=\"color:#ffd43b\"><b>một hay nhiều dòng tế bào máu</b></span> + lách to + tăng sinh tiền thân bù trừ ở tủy<br>2) Cường lách là bất thường <span style=\"color:#ffd43b\"><b>chức năng</b></span>; lách to là bất thường <span style=\"color:#ffd43b\"><b>cấu trúc</b></span><br><br><b>💡 Giải thích của AI:</b><br>Lách to không nhất thiết cường lách (VD: lách to do virus mà công thức máu bình thường), nhưng cường lách luôn kèm lách to. Cơ chế: lách quá lớn giữ và phá hủy nhiều tế bào máu hơn bình thường → máu ngoại vi giảm, tủy tăng sinh để bù.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E17",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "text": "Cường lách là bất thường {{c1::chức năng}}, còn lách to là bất thường {{c2::cấu trúc}}. (<span style=\"color:#74c0fc\"><b>phân biệt khái niệm</b></span>)",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E18",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "front": "Giải thích <span style=\"color:#74c0fc\"><b>cơ chế</b></span> tan máu dẫn tới lách to và các dấu hiệu xét nghiệm đi kèm?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Hồng cầu bất thường</b></span> (màng, Hb, enzym, kháng thể) → bị đại thực bào lách phá hủy nhiều → <span style=\"color:#74c0fc\"><b>phì đại lưới nội mô lách</b></span> → lách to; đồng thời tủy tăng sinh bù → <span style=\"color:#ffd43b\"><b>hồng cầu lưới tăng</b></span>, bilirubin tự do tăng; có thể kèm tạo máu ngoài tủy ở lách.<br><br><b>💡 Giải thích của AI:</b><br>Lách là bãi «kiểm soát chất lượng» hồng cầu. Hồng cầu cứng hoặc bị bọc kháng thể bị giữ lại ở các đoạn trong lách rồi bị thực bào; gánh thực bào lớn kéo dài làm lách to. Mẹo nhớ bộ ba: thiếu máu – bilirubin tự do tăng – hồng cầu lưới tăng.",
+    "extra": "📖 Nguồn: Cơ chế chức năng lách (barem B2.03, B10.02); chuỗi cơ chế [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E19",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "front": "Giải thích <span style=\"color:#74c0fc\"><b>cơ chế</b></span> tăng áp lực tĩnh mạch cửa gây lách to rồi cường lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Tăng áp lực cửa</b></span> (xơ gan, tắc TM lách–cửa) → máu dội ngược ứ trong tĩnh mạch lách → <span style=\"color:#74c0fc\"><b>lách sung huyết, to</b></span> → giữ và phá hủy tế bào máu → <span style=\"color:#ffd43b\"><b>giảm tiểu cầu, bạch cầu, hồng cầu</b></span> = cường lách; kèm tuần hoàn bàng hệ, giãn tĩnh mạch thực quản.<br><br><b>💡 Giải thích của AI:</b><br>Lách thuộc hệ cửa nên áp lực tăng ở cửa lan thẳng về lách. Cường lách ở đây là hậu quả thứ phát của sung huyết, nên điều trị căn nguyên (giảm áp cửa) mới giải quyết gốc. Bẫy: giảm tiểu cầu + lách to chưa chắc là bệnh máu – hỏi triệu chứng lách–cửa trước.",
+    "extra": "📖 Nguồn: Barem B5.02, B9.16–B9.17, B10.04; chuỗi cơ chế [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E20",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>Nhiễm trùng</b></span> gây lách to bằng cơ chế nào, và nhóm tác nhân nào phổ biến nhất ở trẻ em?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#74c0fc\"><b>Cơ chế</b></span>: kích thích <span style=\"color:#74c0fc\"><b>phì đại hạch bạch huyết và lưới nội mô</b></span> của lách khi lách lọc mầm bệnh và tạo đáp ứng miễn dịch; <span style=\"color:#ff6b6b\"><b>virus</b></span> (EBV, CMV, HIV) là nhóm phổ biến nhất, mức độ từ nhẹ đến to nhiều.<br><br><b>💡 Giải thích của AI:</b><br>Lách vừa lọc mầm bệnh vừa sinh tế bào lympho đáp ứng nên nhiễm trùng làm tăng sinh mô lympho và đại thực bào trong lách. Phần lớn lách to do virus mức nhẹ, thường tự lui, nên theo dõi sau 4–8 tuần theo sơ đồ barem.",
+    "extra": "📖 Nguồn: Barem B3.01–B3.02, B10.01; PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E21",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E3",
+    "category": "Cơ chế bệnh sinh",
+    "tier": 2,
+    "front": "Nhóm <span style=\"color:#74c0fc\"><b>tổn thương khu trú</b></span> (u nang, u máu, tụ máu, lách phụ, lách lang thang) khác lách to toàn bộ thế nào và nhận ra bằng gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lách <span style=\"color:#ffd43b\"><b>biến dạng hình thù</b></span> hơn là to đều; có thể không to toàn bộ<br>2) Nhận ra bằng <span style=\"color:#51cf66\"><b>siêu âm, CT</b></span>; lách lang thang là lách di động, không nhất thiết to<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương khu trú choán chỗ tạo bướu hoặc đổi dạng lách, nên khám lâm sàng đo kích thước dễ sai. Siêu âm cho thấy ranh giới và cấu trúc; u nang/u máu thường lành, tụ máu liên quan chấn thương.",
+    "extra": "📖 Nguồn: Barem B6.02, B9.18, B10.06; lưu ý lách lang thang [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E3"
+    ]
+  },
+  {
+    "id": "PED64-E22",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E4",
+    "category": "Tiếp cận theo bối cảnh/tuổi",
+    "tier": 2,
+    "front": "Trẻ <span style=\"color:#74c0fc\"><b>sơ sinh</b></span> có lách to: nên nghĩ tới những nhóm nguyên nhân nào trước?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng bẩm sinh</b></span>: TORCH/CMV<br>2) <span style=\"color:#ff6b6b\"><b>Giang mai bẩm sinh</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Tan máu miễn dịch</b></span> Rh/ABO (làm Coombs)<br><br><b>💡 Giải thích của AI:</b><br>Ở sơ sinh, lách to kèm vàng da, thiếu máu, gan to thường là bẫy kinh điển: giang mai bẩm sinh hay CMV chứ không chỉ tan máu. Phân biệt bằng xét nghiệm huyết thanh mẹ–con và Coombs. Nhớ rằng sờ thấy lách nhẹ có thể bình thường ở sơ sinh.",
+    "extra": "📖 Nguồn: Barem B3.02–B3.03, B8.04, B9.07; nhóm tuổi sơ sinh [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E4"
+    ]
+  },
+  {
+    "id": "PED64-E23",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E4",
+    "category": "Tiếp cận theo bối cảnh/tuổi",
+    "tier": 2,
+    "front": "Sơ sinh <span style=\"color:#ff6b6b\"><b>vàng da, thiếu máu, lách to</b></span>: <span style=\"color:#ffd43b\"><b>xét nghiệm</b></span> nào giúp phân biệt tan máu miễn dịch Rh/ABO?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Coombs test</b></span> (kháng globulin) và nhóm máu mẹ–con<br>2) Hồng cầu lưới, bilirubin tự do, hình dáng hồng cầu<br><br><b>💡 Giải thích của AI:</b><br>Rh/ABO: kháng thể mẹ qua nhau thai gắn lên hồng cầu con → bị lách thực bào → tan máu → vàng da, thiếu máu và lách to. Coombs trực tiếp dương tính xác nhận cơ chế miễn dịch. Bẫy: ABO có thể Coombs âm hoặc dương yếu nên cần đối chiếu lâm sàng.",
+    "extra": "📖 Nguồn: Barem B8.04, B9.11; cơ chế tan máu miễn dịch sơ sinh [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E4"
+    ]
+  },
+  {
+    "id": "PED64-E24",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E4",
+    "category": "Tiếp cận theo bối cảnh/tuổi",
+    "tier": 2,
+    "front": "Trẻ <span style=\"color:#74c0fc\"><b>nhũ nhi – học đường</b></span> có lách to + <span style=\"color:#ff6b6b\"><b>thiếu máu, vàng da, tiền sử gia đình</b></span>: nghĩ tới nhóm nào và xét nghiệm gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghĩ tới <span style=\"color:#74c0fc\"><b>tan máu di truyền</b></span>: hồng cầu hình cầu di truyền, thalassemia<br>2) Làm <span style=\"color:#51cf66\"><b>phết máu, hồng cầu lưới, điện di Hb, EMA binding</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tiền sử gia đình có cắt lách, sỏi mật sớm hoặc thiếu máu gợi ý bệnh màng hồng cầu/Hb. Hồng cầu hình cầu cứng bị giữ ở lách → thiếu máu, vàng da, lách to. Xét nghiệm EMA binding đã được thẩm định cho hồng cầu hình cầu di truyền.",
+    "extra": "📖 Nguồn: Barem B4.02–B4.03, B7.05; BSH 2011 PMID 22055020 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E4"
+    ]
+  },
+  {
+    "id": "PED64-E25",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E4",
+    "category": "Tiếp cận theo bối cảnh/tuổi",
+    "tier": 2,
+    "front": "Thiếu niên sốt, <span style=\"color:#ff6b6b\"><b>viêm họng, hạch to, nổi ban</b></span> kèm lách to: nghĩ tới bệnh nào, xét nghiệm gì và dặn dò gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghĩ tới <span style=\"color:#74c0fc\"><b>bạch cầu đơn nhân do EBV</b></span><br>2) Làm xét nghiệm huyết thanh EBV, nghiệm pháp Paul-Bunnell<br>3) Dặn: <span style=\"color:#51cf66\"><b>tránh va chạm/thể thao</b></span> cho đến khi lách bình thường<br><br><b>💡 Giải thích của AI:</b><br>EBV làm tăng sinh lympho ở hạch và lách. Nguy cơ chính là vỡ lách hiếm nhưng nặng, nên dặn tránh va chạm. Bẫy: dùng corticosteroid hoặc kháng virus không có chỗ đứng điều trị thường quy.",
+    "extra": "📖 Nguồn: Barem B9.08–B9.09; AMSSM PMID 37186809 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E4"
+    ]
+  },
+  {
+    "id": "PED64-E26",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E4",
+    "category": "Tiếp cận theo bối cảnh/tuổi",
+    "tier": 2,
+    "front": "Bối cảnh <span style=\"color:#74c0fc\"><b>dịch tễ</b></span> (du lịch/ở vùng sốt rét): lách to kèm sốt cần nghĩ tới ký sinh trùng nào và tìm bằng gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốt rét</b></span> (sốt cơn, thiếu máu): <span style=\"color:#51cf66\"><b>tiêu bản ký sinh trùng sốt rét</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Leishmania</b></span> (kéo dài, lách to nhiều): xét nghiệm ký sinh trùng/huyết thanh<br><br><b>💡 Giải thích của AI:</b><br>Hỏi tiền sử đi vùng dịch là câu hỏi quyết định chẩn đoán. Ký sinh trùng phá hồng cầu và kích thích lưới nội mô nên lách to; sốt rét thể hiện qua sốt cơn kèm thiếu máu. Bẫy: bỏ sót vì không hỏi dịch tễ.",
+    "extra": "📖 Nguồn: Barem B3.04, B7.06, B9.10; xét nghiệm leishmania [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E4"
+    ]
+  },
+  {
+    "id": "PED64-E27",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "Lách to + <span style=\"color:#ff6b6b\"><b>gan to</b></span>: các nhóm bệnh thường gặp cần nghĩ tới là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nhiễm trùng toàn thân</b></span> (virus, giang mai, lao)<br>2) <span style=\"color:#74c0fc\"><b>Bệnh gan/sung huyết</b></span> (xơ gan, tắc cửa, suy tim)<br>3) <span style=\"color:#74c0fc\"><b>Thâm nhiễm/ứ chất</b></span> (leukemia, histiocytosis, Gaucher...)<br><br><b>💡 Giải thích của AI:</b><br>Barem nhấn mạnh lách to bệnh lý thường kèm gan to vì cả hai thuộc hệ lưới nội mô và cùng chịu sung huyết/thâm nhiễm. Cách phân biệt: gan nhỏ + cổ trướng + tuần hoàn bàng hệ nghiêng về xơ gan/tăng áp cửa.",
+    "extra": "📖 Nguồn: Barem B1.02, B9.07, B9.14–B9.17; tổng hợp [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E28",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "Lách to + <span style=\"color:#ff6b6b\"><b>hạch to</b></span>: nên nghĩ tới những nhóm bệnh nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nhiễm trùng</b></span> (EBV, lao)<br>2) <span style=\"color:#74c0fc\"><b>Ác tính</b></span> (leukemia, u lympho)<br>3) <span style=\"color:#74c0fc\"><b>Mô bào</b></span> (histiocytosis/LCH) và bệnh hệ thống<br><br><b>💡 Giải thích của AI:</b><br>Hạch và lách cùng là mô lympho: nhiễm trùng làm tăng sinh phản ứng; u lympho/leukemia thâm nhiễm tế bào ác tính. Hạch to nhiều, dai, cứng + u trung thất/ổ bụng → nghi u lympho, làm sinh thiết hạch.",
+    "extra": "📖 Nguồn: Barem B9.06, B9.08, B9.12–B9.14; tổng hợp [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E29",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "Lách to + <span style=\"color:#ff6b6b\"><b>giảm tế bào máu</b></span> (cytopenia): ba hướng giải thích chính và cách phân biệt?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cường lách</b></span> (giữ/phá tế bào, tủy tăng sinh bù)<br>2) <span style=\"color:#74c0fc\"><b>Tủy bị xâm lấn/suy</b></span> (leukemia): tủy đồ<br>3) <span style=\"color:#74c0fc\"><b>HLH hoặc bệnh tự miễn</b></span> (sốt, ferritin, ALPS...)<br><br><b>💡 Giải thích của AI:</b><br>Cùng là lách to và giảm tế bào máu nhưng cơ chế khác nhau: tủy tăng sinh bù = cường lách; tủy nghèo hoặc có blast = bệnh tủy/ác tính. Quyết định: phết máu + tủy đồ khi nghi ngờ.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E30",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "Lách to + <span style=\"color:#ff6b6b\"><b>sốt kéo dài</b></span>: các nguyên nhân cần xét trước?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nhiễm trùng</b></span> (thương hàn, viêm nội tâm mạc bán cấp, lao, sốt rét, EBV)<br>2) <span style=\"color:#74c0fc\"><b>Ác tính</b></span> (leukemia, u lympho) và <span style=\"color:#74c0fc\"><b>HLH</b></span><br>3) <span style=\"color:#74c0fc\"><b>Bệnh hệ thống</b></span> (SLE, JIA)<br><br><b>💡 Giải thích của AI:</b><br>Sốt kéo dài + lách to là hội chứng dùng để chọn cấy máu, siêu âm tim, Mantoux/X-quang, tủy đồ. Thương hàn và viêm nội tâm mạc bán cấp đặc trưng bởi lách to ít; bằng chứng tim (âm thổi, nốt Osler) gợi ý viêm nội tâm mạc.",
+    "extra": "📖 Nguồn: Barem B9.02–B9.03, B9.06, B7.13; HLH PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E31",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "Lách to + <span style=\"color:#ff6b6b\"><b>vàng da, thiếu máu</b></span>: hội chứng nào, nhận ra bằng xét nghiệm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thiếu máu tan máu</b></span><br>2) Bilirubin tự do ↑, LDH ↑, hồng cầu lưới ↑, Coombs (nếu nghi tự miễn)<br><br><b>💡 Giải thích của AI:</b><br>Tán huyết làm tăng bilirubin gián tiếp → vàng da; tủy bù trừ → HC lưới tăng. Nước tiểu sẫm màu hay hemoglobin niệu gợi ý tan máu nội mạch. Phân loại tiếp bằng hình dáng hồng cầu và Coombs.",
+    "extra": "📖 Nguồn: Barem B8.04, B9.11, B10.02; LDH [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E32",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>ALPS</b></span> (hội chứng tăng sinh lympho tự miễn) nghi ngờ khi nào và dấu ấn xét nghiệm đặc hiệu là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lách to/hạch to dai dẳng kèm <span style=\"color:#ff6b6b\"><b>giảm tế bào máu tự miễn</b></span><br>2) Dấu ấn: tế bào T CD3+CD4−CD8− (<span style=\"color:#ffd43b\"><b>double negative</b></span>) tăng; <span style=\"color:#ffd43b\"><b>&gt; 5%</b></span> gần như đặc hiệu<br><br><b>💡 Giải thích của AI:</b><br>Cơ chế: rối loạn chết theo chương trình của lympho → tích tụ T double negative → tăng sinh hạch/lách và tự miễn. Mẹo: ITP/AIHA dai dẳng kèm lách to cần nghĩ ALPS, SLE, EBV, leukemia chứ không gán cho ITP đơn thuần.",
+    "extra": "📖 Nguồn: Front Pediatr 2021, PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ]
+  },
+  {
+    "id": "PED64-E33",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E5",
+    "category": "Hội chứng kết hợp",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>Tăng mô bào Langerhans (LCH)</b></span> gây lách to thường kèm <span style=\"color:#ff6b6b\"><b>biểu hiện lâm sàng</b></span> nào và cần <span style=\"color:#51cf66\"><b>xét nghiệm</b></span> gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Biểu hiện lâm sàng</b></span>: hạch to nhiều, sốt, gan to, xuất huyết<br>2) <span style=\"color:#51cf66\"><b>Xét nghiệm</b></span>: huyết–tủy đồ, sinh thiết hạch<br><br><b>💡 Giải thích của AI:</b><br>LCH là tăng sinh tế bào mô bào thâm nhiễm nhiều cơ quan (hạch, gan, lách, da, xương, tủy) nên triệu chứng đa cơ quan. Chẩn đoán chắc chắn dựa trên mô bệnh học nên sinh thiết là chìa khóa.",
+    "extra": "📖 Nguồn: Barem B5.01, B9.14 [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E5"
+    ],
+    "asks": [
+      "Biểu hiện lâm sàng",
+      "Xét nghiệm"
+    ]
+  },
+  {
+    "id": "PED64-E34",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 1,
+    "front": "Cận lâm sàng lách to chia <span style=\"color:#ffd43b\"><b>3 bậc</b></span>: <span style=\"color:#51cf66\"><b>Bậc 1</b></span> gồm những xét nghiệm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Công thức máu (máy đếm) + phết máu ngoại vi + hồng cầu lưới</b></span><br>2) CRP/VS, chức năng gan, bilirubin/LDH<br>3) Coombs test và <span style=\"color:#51cf66\"><b>siêu âm bụng đo lách</b></span><br><br><b>💡 Giải thích của AI:</b><br>Bậc 1 là nền tảng rẻ, nhanh, áp dụng cho mọi trẻ có lách to cần thăm dò. Phết máu cho hình dáng hồng cầu (cầu, liềm, bia), blast, ký sinh trùng; HC lưới + bilirubin/LDH + Coombs đánh giá tan máu; siêu âm đo kích thước, tìm tổn thương khu trú và dấu tăng áp cửa.",
+    "extra": "📖 Nguồn: Barem B8.01–B8.04, B8.09 (cận lâm sàng định hướng bởi lâm sàng); phân bậc [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-E35",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 2,
+    "front": "<span style=\"color:#51cf66\"><b>Bậc 2</b></span> của cận lâm sàng lách to gồm những nhóm xét nghiệm nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bilan nhiễm trùng</b></span>: cấy máu; CMV, EBV, HIV, toxoplasma, sốt rét, lao, giang mai<br>2) <span style=\"color:#74c0fc\"><b>Tan máu</b></span>: điện di Hb, EMA binding, men hồng cầu/enzym<br>3) <span style=\"color:#74c0fc\"><b>Tự miễn/miễn dịch</b></span>: ANA, RF, bổ thể C3/C4/CH50; T double negative nếu nghi ALPS<br><br><b>💡 Giải thích của AI:</b><br>Bậc 2 được chọn dựa vào gợi ý của bậc 1 và hỏi bệnh sử, không làm tất cả một lúc. Ví dụ: Coombs âm + hình cầu → EMA binding; sốt kéo dài + hạch → bilan nhiễm; giảm tế bào máu + lách to → miễn dịch.",
+    "extra": "📖 Nguồn: Barem B8.03–B8.07; EMA binding PMID 22055020; ALPS PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-E36",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 2,
+    "front": "<span style=\"color:#51cf66\"><b>Bậc 3</b></span> của cận lâm sàng lách to gồm những thăm dò nào, và <span style=\"color:#ff6b6b\"><b>sinh thiết lách</b></span> xếp ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tủy đồ/sinh thiết tủy, sinh thiết hạch</b></span><br>2) <span style=\"color:#51cf66\"><b>CT/MRI, Doppler tĩnh mạch cửa, nhấp nháy gan lách, sinh thiết gan</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Sinh thiết lách</b></span>: hiếm, chỉ khi vẫn chưa tìm ra nguyên nhân<br><br><b>💡 Giải thích của AI:</b><br>Bậc 3 là các thăm dò xâm lấn hoặc đắt tiền, dành cho nghi ngờ ác tính, bệnh ứ chất, tăng áp cửa hoặc khi bậc 1–2 không giải thích được. Sinh thiết lách rủi ro chảy máu nên đặt cuối cùng.",
+    "extra": "📖 Nguồn: Barem B8.05–B8.10; Blood Rev 2009 PMID 19062140 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-E37",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 2,
+    "front": "Lách to <span style=\"color:#ff6b6b\"><b>đơn độc, không rõ nguyên nhân</b></span> sau thăm dò rộng: cần <span style=\"color:#74c0fc\"><b>cân bằng</b></span> điều gì khi cân nhắc sinh thiết/cắt lách chẩn đoán?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cân bằng giữa <span style=\"color:#ff6b6b\"><b>nguy cơ bệnh nặng nền bị bỏ sót</b></span> và <span style=\"color:#ff6b6b\"><b>nguy cơ của sinh thiết lách hay cắt lách chẩn đoán</b></span>; tình huống này <span style=\"color:#ffd43b\"><b>không hiếm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không phải mọi lách to đều tìm ra nguyên nhân. Nếu trẻ khỏe, ổn định, xét nghiệm cơ bản bình thường thì theo dõi sát vẫn là lựa chọn hợp lý; chỉ khi có dấu hiệu bệnh nặng nền mới nâng bậc xâm lấn.",
+    "extra": "📖 Nguồn: Pozo AL, Blood Rev 2009 PMID 19062140 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-E38",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 2,
+    "front": "Trẻ <span style=\"color:#ffd43b\"><b>khỏe</b></span>, lách <span style=\"color:#ffd43b\"><b>to nhẹ</b></span>, công thức máu/VS/chức năng gan–thận <span style=\"color:#ffd43b\"><b>bình thường</b></span>: cần làm thêm gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Không cần làm thêm</b></span> — chỉ <span style=\"color:#51cf66\"><b>theo dõi</b></span> thêm vài tuần đến vài tháng; mức to ít nghĩ nhiễm virus → khám lại sau 4–8 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc: xét nghiệm định hướng bởi lâm sàng, không «quét» hết. Lách to nhẹ do virus thường tự lui. Bẫy: xét nghiệm tràn lan dễ ra kết quả dương tính giả hoặc dẫn tới thăm dò xâm lấn không cần thiết.",
+    "extra": "📖 Nguồn: Barem B8.01, B10.01; nguyên tắc thăm dò [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-E39",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "Cận lâm sàng 3 bậc",
+    "tier": 2,
+    "front": "Nghi <span style=\"color:#74c0fc\"><b>hồng cầu hình cầu di truyền</b></span>: xét nghiệm <span style=\"color:#51cf66\"><b>EBM</b></span> nào đã được thẩm định và hướng dẫn nào cập nhật?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>Xét nghiệm <span style=\"color:#51cf66\"><b>EMA binding</b></span> đã được thẩm định; hướng dẫn BSH 2011 cập nhật chỉ định cắt lách kèm cắt túi mật ở trẻ thể nhẹ.<br><br><b>💡 Giải thích của AI:</b><br>EMA binding (flow cytometry) bắt hồng cầu gắn eosin-5-maleimide: hồng cầu hình cầu thiếu protein màng nên tín hiệu giảm. Hữu ích khi hình thái không điển hình hoặc test sức bền hồng cầu cũ không rõ.",
+    "extra": "📖 Nguồn: Bolton-Maggs, Br J Haematol 2012 PMID 22055020 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6"
+    ]
+  },
+  {
+    "id": "PED64-A02",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E6",
+    "category": "⚡ Cận lâm sàng 3 bậc",
+    "tier": 1,
+    "front": "Lách to mức <span style=\"color:#ffd43b\"><b>vừa</b></span>: đi <span style=\"color:#74c0fc\"><b>4 nút</b></span> nào của sơ đồ tiếp cận và mỗi nút dẫn đến kết luận gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mức to: <span style=\"color:#ffd43b\"><b>ít</b></span> → nghĩ virus → khám lại sau 4–8 tuần; <span style=\"color:#ffd43b\"><b>nhiều</b></span> → vào viện điều trị hỗ trợ; <span style=\"color:#ffd43b\"><b>vừa</b></span> → đi các nút sau<br>2) Nút 1: <span style=\"color:#ff6b6b\"><b>thiếu máu + bilirubin tự do ↑ + HC lưới ↑?</b></span> Có → <span style=\"color:#74c0fc\"><b>tan máu / tạo máu ngoài tủy</b></span><br>3) Nút 2 (nếu không): <span style=\"color:#ff6b6b\"><b>triệu chứng nhiễm khuẩn cấp?</b></span> Có → <span style=\"color:#51cf66\"><b>cấy máu</b></span> (+ tiêu bản sốt rét, bạch cầu đơn nhân) → nhiễm khuẩn, virus, nấm, sốt rét...<br>4) Nút 3: <span style=\"color:#ff6b6b\"><b>triệu chứng lách–cửa?</b></span> Có → <span style=\"color:#51cf66\"><b>siêu âm, chụp lách–cửa</b></span> → tăng áp cửa, Budd-Chiari, tắc TM trước gan, suy tim sung huyết<br>5) Nút 4: <span style=\"color:#ff6b6b\"><b>triệu chứng bệnh hệ thống?</b></span> Có → collagen mạch máu, bệnh ứ chất, bệnh chuyển hóa<br>6) Không nút nào: <span style=\"color:#51cf66\"><b>siêu âm, nhấp nháy gan lách, sinh thiết tủy/hạch/gan</b></span> → nang/u mạch/u mạch lympho; tụ máu chấn thương; u lympho ác tính, tăng mô bào<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự nút theo barem đi từ nhanh/khả thi (tan máu) → cấp cứu nhiễm khuẩn → cơ chế cơ học (cửa) → bệnh hệ thống → các thăm dò xâm lấn cuối. Mẹo: «Tan – Nhiễm – Cửa – Hệ thống – Sinh thiết». Đây là sơ đồ theo barem, dùng để chọn thăm dò, không thay cho phán đoán lâm sàng.",
+    "extra": "📖 Nguồn: Barem B10.01–B10.06 (sơ đồ tiếp cận lách to), tổng hợp thẻ thuật toán [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E6",
+      "thuat-toan"
+    ],
+    "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "badge_class": "badge-algo"
+  },
+  {
+    "id": "PED64-E40",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "front": "Bạch cầu đơn nhân do <span style=\"color:#74c0fc\"><b>EBV</b></span>: nguyên tắc <span style=\"color:#51cf66\"><b>điều trị</b></span> theo EBM và có vai trò của kháng virus/corticosteroid không?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Điều trị hỗ trợ</b></span>; <span style=\"color:#ff6b6b\"><b>không có vai trò</b></span> của thuốc kháng virus hay corticosteroid; lách to thường gặp, vỡ lách hiếm.<br><br><b>💡 Giải thích của AI:</b><br>EBV tự giới hạn ở người miễn dịch bình thường, nên mục tiêu là hạ sốt, nghỉ ngơi, uống đủ nước và theo dõi biến chứng. Bẫy: kê corticosteroid «cho đỡ hạch» là không có chứng cứ lợi ích rõ.",
+    "extra": "📖 Nguồn: AMSSM position statement, Clin J Sport Med 2023 PMID 37186809 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7"
+    ]
+  },
+  {
+    "id": "PED64-E41",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "text": "Ở bạch cầu đơn nhân EBV, vỡ lách hiếm và thường xảy ra trong vòng {{c1::một tháng}} từ lúc khởi phát triệu chứng. (<span style=\"color:#ff6b6b\"><b>thời điểm nguy cơ</b></span>)",
+    "extra": "📖 Nguồn: AMSSM 2023, PMID 37186809 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E42",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "front": "Khi nào trẻ/vận động viên bị <span style=\"color:#74c0fc\"><b>bạch cầu đơn nhân</b></span> được quay lại <span style=\"color:#51cf66\"><b>thể thao</b></span>, và chứng cứ cho quyết định này mạnh đến đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo barem: nghỉ thể thao đến khi hết bệnh lâm sàng và lách về bình thường, <span style=\"color:#ffd43b\"><b>≥ 4 tuần</b></span> từ khởi phát; có thể siêu âm lách<br>2) EBM: chưa có hướng dẫn dựa trên chứng cứ mạnh; nguy cơ vỡ lách hiếm nhưng chi phối quyết định → <span style=\"color:#51cf66\"><b>quyết định chung</b></span> người bệnh–bác sĩ<br><br><b>💡 Giải thích của AI:</b><br>Vỡ lách hiếm nhưng hậu quả nặng, nên mặc định thận trọng. Barem cho mốc cụ thể dễ nhớ; EBM thừa nhận thiếu chứng cứ nên dặn dò, cân nhắc siêu âm và thỏa thuận với gia đình.",
+    "extra": "📖 Nguồn: Barem B11.02; Putukian Clin J Sport Med 2008 PMID 18614881; AMSSM 2023 PMID 37186809 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7"
+    ]
+  },
+  {
+    "id": "PED64-E43",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "front": "<span style=\"color:#74c0fc\"><b>Hồng cầu hình cầu di truyền</b></span>: hướng dẫn BSH 2011 cập nhật điều gì về cắt lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cập nhật chỉ định <span style=\"color:#51cf66\"><b>cắt lách kèm cắt túi mật</b></span> ở trẻ thể nhẹ, đồng thời ghi nhận <span style=\"color:#ff6b6b\"><b>nguy cơ lâu dài của cắt lách</b></span>; xét nghiệm EMA binding đã được thẩm định.<br><br><b>💡 Giải thích của AI:</b><br>Cắt lách chữa triệu chứng thiếu máu nhưng đổi lấy nguy cơ nhiễm trùng lâu dài (OPSI) nên với thể nhẹ cần cân nhắc kỹ. Cắt túi mật phối hợp vì sỏi sắc tố mật hay gặp trong tan máu mạn.",
+    "extra": "📖 Nguồn: Bolton-Maggs, Br J Haematol 2012 PMID 22055020 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7"
+    ]
+  },
+  {
+    "id": "PED64-E44",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "front": "<span style=\"color:#51cf66\"><b>Cắt lách một phần</b></span> ở trẻ bệnh huyết học: lợi ích, giới hạn theo EBM và quy tắc nào vẫn phải giữ?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>An toàn và khả thi</b></span> ở đa số bệnh nhân nhi huyết học<br>2) Giữ miễn dịch bằng cách giữ lại một phần lách (loại bỏ đến <span style=\"color:#ffd43b\"><b>90%</b></span> mô lách to theo barem)<br>3) Quy tắc: <span style=\"color:#ff6b6b\"><b>tiêm chủng và kháng sinh dự phòng vẫn là nền tảng</b></span><br><br><b>💡 Giải thích của AI:</b><br>Phần lách còn lại vẫn lọc máu và tạo miễn dịch nên giảm nguy cơ OPSI so với cắt toàn bộ; tuy nhiên không loại trừ hoàn toàn. Cắt lách nội soi phổ biến hơn ở trẻ em do an toàn và nằm viện ngắn.",
+    "extra": "📖 Nguồn: Barem B11.04–B11.05; Pathogens 2021 PMID 34832592 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7"
+    ]
+  },
+  {
+    "id": "PED64-E45",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "text": "Cắt lách một phần là phương pháp thay thế cho cắt toàn phần, loại bỏ đến {{c1::90%}} mô lách to và giữ phần lách còn đáp ứng miễn dịch. (<span style=\"color:#51cf66\"><b>bảo tồn miễn dịch</b></span>)",
+    "extra": "📖 Nguồn: Barem B11.05; Pathogens 2021 PMID 34832592 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E46",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "Điều trị EBM",
+    "tier": 2,
+    "front": "<span style=\"color:#51cf66\"><b>Cắt lách toàn phần</b></span> theo barem được chỉ định trong những bệnh nào, và lưu ý EBM về <span style=\"color:#74c0fc\"><b>Hodgkin</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ định: xuất huyết giảm tiểu cầu tiên phát, thiếu máu huyết tán mạn, ung thư hạch Hodgkin, cường lách mạn tính nặng<br>2) Lưu ý: cắt lách để xếp giai đoạn Hodgkin <span style=\"color:#ff6b6b\"><b>không còn là thường quy</b></span>; ITP thường không kèm lách to<br><br><b>💡 Giải thích của AI:</b><br>Cắt lách chỉ khi lợi ích vượt nguy cơ nhiễm trùng suốt đời. Nếu ITP mà sờ thấy lách thì phải tìm nguyên nhân khác (SLE, ALPS, EBV, leukemia) trước khi quyết định.",
+    "extra": "📖 Nguồn: Barem B11.03 [NGOÀI BAREM — kiến thức nền cho lưu ý về Hodgkin/ITP]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7"
+    ],
+    "asks": [
+      "Chỉ định",
+      "Lưu ý"
+    ]
+  },
+  {
+    "id": "PED64-A03",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E7",
+    "category": "⚡ Điều trị EBM",
+    "tier": 1,
+    "front": "Bảng kiểm <span style=\"color:#ff6b6b\"><b>3 KHÔNG</b></span> & <span style=\"color:#51cf66\"><b>3 NÊN</b></span> khi gặp một trẻ lách to là gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> sờ nắn mạnh, ấn sâu vào lách to (nguy cơ vỡ)<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> cho thể thao/va chạm khi nghi EBV cho đến ≥ 4 tuần và lách về bình thường<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> chọc dò/sinh thiết lách như bước đầu (hiếm, chỉ khi chưa tìm ra nguyên nhân)<br>4) <span style=\"color:#51cf66\"><b>NÊN</b></span> siêu âm đo lách (đối chiếu tuổi/chiều cao)<br>5) <span style=\"color:#51cf66\"><b>NÊN</b></span> làm phết máu + công thức máu<br>6) <span style=\"color:#51cf66\"><b>NÊN</b></span> hỏi bệnh sử dịch tễ, gia đình, chấn thương<br><br><b>💡 Giải thích của AI:</b><br>Ba KHÔNG bảo vệ trẻ khỏi biến chứng nặng (vỡ lách, chảy máu); ba NÊN là phần rẻ, an toàn, có giá trị chẩn đoán cao nhất. Mẹo nhớ: «Nhẹ tay – Nghỉ thể thao – Né sinh thiết» và «Siêu âm – Phết máu – Hỏi bệnh».",
+    "extra": "📖 Nguồn: Barem B1.06, B11.02, B8.10; PMID 37186809, 19062140; tổng hợp thẻ thuật toán [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E7",
+      "thuat-toan"
+    ],
+    "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "badge_class": "badge-algo"
+  },
+  {
+    "id": "PED64-E47",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "front": "<span style=\"color:#ff6b6b\"><b>OPSI</b></span> có <b>định nghĩa</b> thế nào, do <span style=\"color:#74c0fc\"><b>tác nhân</b></span> nào và diễn tiến ra sao?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Định nghĩa</b></span>: nhiễm trùng tối cấp sau cắt lách hay giảm chức năng lách<br>2) <span style=\"color:#74c0fc\"><b>Tác nhân</b></span>: vi khuẩn có vỏ — phế cầu, Haemophilus influenzae tuyp B, não mô cầu<br>3) <span style=\"color:#ff6b6b\"><b>Diễn tiến</b></span>: tối cấp, tử vong cao, kháng điều trị thông thường<br><br><b>💡 Giải thích của AI:</b><br>Lách thiếu thì mất opsonin hóa và lọc vi khuẩn có vỏ ra khỏi máu → vi khuẩn tăng sinh nhanh gây nhiễm khuẩn huyết/viêm màng não. Nền tảng xử trí là phòng ngừa (tiêm chủng + kháng sinh dự phòng) vì khi đã xảy ra thì rất khó điều trị.",
+    "extra": "📖 Nguồn: Barem B11.06; Di Sabatino, Lancet 2011 PMID 21474172 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8"
+    ],
+    "asks": [
+      "Định nghĩa",
+      "Tác nhân",
+      "Diễn tiến"
+    ]
+  },
+  {
+    "id": "PED64-E48",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "front": "Nền tảng <span style=\"color:#51cf66\"><b>dự phòng</b></span> nhiễm trùng ở trẻ vô lách hoặc giảm chức năng lách gồm những gì?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Giáo dục</b></span> người bệnh/gia đình<br>2) <span style=\"color:#51cf66\"><b>Tiêm chủng</b></span><br>3) <span style=\"color:#51cf66\"><b>Kháng sinh dự phòng</b></span><br><br><b>💡 Giải thích của AI:</b><br>Ba trụ cột giáo dục–tiêm chủng–kháng sinh bảo vệ nhờ ba mức: biết nguy cơ để đi khám sớm, tạo miễn dịch đặc hiệu, và ngăn vi khuẩn gây bệnh. Thiếu bất kỳ trụ nào đều làm giảm hiệu quả.",
+    "extra": "📖 Nguồn: Price, Infect Dis Clin North Am 2007 PMID 17826619; Lancet 2011 PMID 21474172 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8"
+    ]
+  },
+  {
+    "id": "PED64-E49",
+    "track": "ebm",
+    "type": "cloze",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "text": "Chủng ngừa vacxin phải thực hiện ít nhất {{c1::2 tuần}} trước cắt lách; penicillin dự phòng ít nhất {{c2::1 năm}} (có thể đến trưởng thành ở nguy cơ cao). (<span style=\"color:#51cf66\"><b>thời điểm vàng</b></span>)",
+    "extra": "📖 Nguồn: Barem B11.07–B11.08 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8",
+      "cloze"
+    ]
+  },
+  {
+    "id": "PED64-E50",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "front": "Chứng cứ cho <span style=\"color:#74c0fc\"><b>dự phòng ở trẻ vô lách</b></span> mạnh hay yếu, và những quyết định nào còn mang tính <span style=\"color:#ffd43b\"><b>kinh nghiệm</b></span>?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chứng cứ để làm khuyến cáo còn <span style=\"color:#ffd43b\"><b>hạn chế</b></span>; nhiều quyết định như <span style=\"color:#ff6b6b\"><b>loại vacxin, thời điểm, thời gian dùng kháng sinh</b></span> dựa trên <span style=\"color:#ffd43b\"><b>kinh nghiệm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thiếu thử nghiệm đối chứng vì bệnh hiếm và vấn đề đạo đức nên khuyến cáo dựa trên quan sát và ý kiến chuyên gia. Hệ quả thực hành: đi theo hướng dẫn quốc gia/cơ sở và cá thể hóa theo nguy cơ.",
+    "extra": "📖 Nguồn: Price, Infect Dis Clin North Am 2007 PMID 17826619 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8"
+    ]
+  },
+  {
+    "id": "PED64-E51",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "front": "Hướng dẫn <span style=\"color:#74c0fc\"><b>BCSH</b></span> (cập nhật 2011) bàn về vấn đề gì liên quan lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Phòng và điều trị nhiễm trùng</b></span> ở bệnh nhân <span style=\"color:#74c0fc\"><b>vô lách hoặc rối loạn chức năng lách</b></span> (công bố 1996, rà soát 2002, cập nhật 2011).<br><br><b>💡 Giải thích của AI:</b><br>Hướng dẫn gom các khuyến cáo về tiêm chủng, kháng sinh dự phòng, giáo dục và xử trí sốt cho nhóm bệnh nhân này. Dùng làm tài liệu tra cứu khi cần cụ thể loại vacxin hoặc lịch dự phòng.",
+    "extra": "📖 Nguồn: Davies, Br J Haematol 2011 PMID 21988145 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8"
+    ]
+  },
+  {
+    "id": "PED64-E52",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "Sau cắt lách",
+    "tier": 2,
+    "front": "Bạn dặn dò <span style=\"color:#ff6b6b\"><b>thông điệp giáo dục</b></span> nào cho người bệnh/gia đình sau cắt lách?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốt = cấp cứu</b></span>: đi khám ngay, không tự theo dõi tại nhà<br>2) Mang <span style=\"color:#51cf66\"><b>thẻ cảnh báo</b></span> đã cắt lách và báo mọi nhân viên y tế<br>3) Tuân thủ <span style=\"color:#51cf66\"><b>tiêm chủng và kháng sinh dự phòng</b></span> theo hẹn<br><br><b>💡 Giải thích của AI:</b><br>Giáo dục là trụ cột rẻ nhất mà cứu sống nhiều nhất vì OPSI diễn tiến tối cấp trong vài giờ. Mẹo: «Sốt – Đi ngay – Báo đã cắt lách».",
+    "extra": "📖 Nguồn: Lancet 2011 PMID 21474172; Infect Dis Clin North Am 2007 PMID 17826619 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8"
+    ]
+  },
+  {
+    "id": "PED64-A04",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E8",
+    "category": "⚡ Sau cắt lách",
+    "tier": 1,
+    "front": "Bảng kiểm <span style=\"color:#74c0fc\"><b>chuẩn bị & dự phòng quanh cắt lách</b></span> cần làm gì trước, trong và sau mổ?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trước mổ: <span style=\"color:#51cf66\"><b>tiêm chủng ≥ 2 tuần</b></span> (phế cầu, Hib, não mô cầu)<br>2) Cân nhắc <span style=\"color:#51cf66\"><b>cắt lách một phần</b></span> (loại bỏ đến 90% mô lách to, giữ miễn dịch)<br>3) Sau mổ: <span style=\"color:#51cf66\"><b>penicillin dự phòng ≥ 1 năm</b></span>, đến trưởng thành ở nguy cơ cao<br>4) <span style=\"color:#ff6b6b\"><b>Sốt = cấp cứu</b></span><br>5) Giáo dục người bệnh và <span style=\"color:#51cf66\"><b>thẻ cảnh báo</b></span><br><br><b>💡 Giải thích của AI:</b><br>Mốc vacxin trước mổ để cơ thể kịp đáp ứng khi lách còn chức năng. Đây là các mốc barem; loại vacxin, lịch và thời gian kháng sinh chi tiết thuộc phần chứng cứ còn hạn chế nên theo hướng dẫn tại chỗ.",
+    "extra": "📖 Nguồn: Barem B11.05–B11.08; PMID 34832592, 17826619, 21988145 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E8",
+      "thuat-toan"
+    ],
+    "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "badge_class": "badge-algo"
+  },
+  {
+    "id": "PED64-E53",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: trẻ khỏe <span style=\"color:#ffd43b\"><b>5 tuổi</b></span> sờ thấy lách ngay bờ sườn, bác sĩ kết luận «lách to bệnh lý» và chỉ định thăm dò xâm lấn. Sai ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Sờ thấy ≠ lách to bệnh lý</b></span>: lách sờ thấy ở 5–10% trẻ khỏe; chỉ gọi to khi vượt bờ sườn trái <span style=\"color:#ffd43b\"><b>&gt; 2 cm</b></span> hoặc vượt P97,5 trên siêu âm; nên <span style=\"color:#51cf66\"><b>theo dõi/siêu âm</b></span> trước.<br><br><b>💡 Giải thích của AI:</b><br>Sờ thấy có thể do lách nằm thấp hơn bình thường ở trẻ nhỏ hoặc phì đại thoáng qua. Làm xâm lấn khi chưa xác nhận lách to là lợi bất cập hại.",
+    "extra": "📖 Nguồn: PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E54",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: khám lách to bằng cách <span style=\"color:#ff6b6b\"><b>ấn sâu, sờ nắn mạnh nhiều lần</b></span>. Hậu quả và cách khám đúng?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hậu quả: nguy cơ <span style=\"color:#ff6b6b\"><b>vỡ lách</b></span>, nhất là khi lách đã to/mềm<br>2) Cách khám đúng: <span style=\"color:#51cf66\"><b>sờ nhẹ, bắt đầu từ hố chậu phải đi lên góc tư trên trái</b></span>, kết hợp gõ đục; xác nhận bằng siêu âm<br><br><b>💡 Giải thích của AI:</b><br>Lách to bị căng, bao mỏng và mô mềm nên áp lực sâu dễ làm rách. Khám từ xa tới gần (hố chậu phải → hạ sườn trái) tránh bỏ sót lách rất to.",
+    "extra": "📖 Nguồn: Barem B1.05–B1.07; lưu ý an toàn [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ],
+    "asks": [
+      "Hậu quả",
+      "Cách khám đúng"
+    ]
+  },
+  {
+    "id": "PED64-E55",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: thiếu niên mắc <span style=\"color:#74c0fc\"><b>EBV</b></span> thấy hết sốt nên cho <span style=\"color:#ff6b6b\"><b>chơi thể thao sớm</b></span>. Nguy cơ và nguyên tắc đúng?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguy cơ: <span style=\"color:#ff6b6b\"><b>vỡ lách</b></span> (hiếm nhưng thường trong vòng một tháng từ khởi phát)<br>2) Nguyên tắc: nghỉ thể thao <span style=\"color:#ffd43b\"><b>≥ 4 tuần</b></span> và khi lách bình thường; cân nhắc siêu âm, quyết định chung<br><br><b>💡 Giải thích của AI:</b><br>Hết sốt không có nghĩa lách đã về bình thường. Thể thao va chạm làm tăng áp lực bụng trên lách còn to.",
+    "extra": "📖 Nguồn: Barem B11.02; PMID 37186809, 18614881 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E56",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: trẻ bệnh hồng cầu liềm xanh xao, mệt, lách <span style=\"color:#ff6b6b\"><b>to nhanh</b></span> mà chỉ truyền dịch theo dõi. Sai ở đâu?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Bỏ sót cơn nhốt máu lách</b></span> (đến 30% trẻ, tử vong đến 15%): cần <span style=\"color:#51cf66\"><b>hồi sức khẩn, truyền máu</b></span> theo hội chẩn chuyên khoa, không chờ xét nghiệm.<br><br><b>💡 Giải thích của AI:</b><br>Cơn nhốt máu làm Hb tụt nhanh do máu ứ trong lách; truyền dịch đơn thuần không giải quyết nguyên nhân.",
+    "extra": "📖 Nguồn: PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E57",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: bệnh nhi được chẩn đoán <span style=\"color:#74c0fc\"><b>ITP</b></span> nhưng <span style=\"color:#ff6b6b\"><b>sờ thấy lách to</b></span>. Điều cần làm?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>ITP thường không kèm lách to</b></span> → lách sờ thấy cần <span style=\"color:#51cf66\"><b>tìm nguyên nhân khác</b></span>: SLE, ALPS, EBV, leukemia.<br><br><b>💡 Giải thích của AI:</b><br>Lách to trong bối cảnh giảm tiểu cầu gợi ý nguyên nhân thứ phát hoặc cường lách, nên đừng dừng ở ITP. Hãy làm phết máu, tủy đồ khi cần.",
+    "extra": "📖 Nguồn: Hiệu chỉnh barem — tổng hợp PMID 34307263 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E58",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: chỉ định cắt lách trước rồi mới tính <span style=\"color:#74c0fc\"><b>tiêm vacxin</b></span>. Sai thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Vacxin phải trước mổ</b></span> ít nhất <span style=\"color:#ffd43b\"><b>2 tuần</b></span> (phế cầu, Hib, não mô cầu); tiêm sau mổ kém hiệu quả hơn.<br><br><b>💡 Giải thích của AI:</b><br>Lách còn chức năng giúp đáp ứng kháng thể tốt hơn. Kế hoạch vacxin phải nằm trong checklist tiền phẫu.",
+    "extra": "📖 Nguồn: Barem B11.06–B11.07; PMID 21474172 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E59",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: <span style=\"color:#ff6b6b\"><b>chọc dò/sinh thiết lách</b></span> làm <span style=\"color:#74c0fc\"><b>bước đầu</b></span> chẩn đoán lách to. Vì sao sai?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Sinh thiết lách hiếm</b></span>, chỉ khi chưa tìm ra nguyên nhân sau thăm dò rộng, vì nguy cơ chảy máu; ưu tiên <span style=\"color:#51cf66\"><b>phết máu, siêu âm, tủy/hạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lách giàu mạch máu nên sinh thiết có nguy cơ chảy máu. Nhiều nguyên nhân có thể chẩn đoán qua mẫu ít xâm lấn hơn.",
+    "extra": "📖 Nguồn: Barem B8.10; Blood Rev 2009 PMID 19062140 [NGOÀI BAREM — EBM]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E60",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: nhầm <span style=\"color:#74c0fc\"><b>lách to</b></span> với khối khác ở hạ sườn trái như <span style=\"color:#ff6b6b\"><b>thận trái to hoặc khối u</b></span>. Phân biệt thế nào?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lách có <span style=\"color:#74c0fc\"><b>bờ khuyết</b></span>, di động theo nhịp thở, gõ đục, không thể lách ngón tay lên phía trên khối<br>2) Xác nhận bằng <span style=\"color:#51cf66\"><b>siêu âm</b></span> (khối thận/u ở vị trí khác)<br><br><b>💡 Giải thích của AI:</b><br>Thận trái ở sau phúc mạc có dấu chạm thắt lưng, trong khi lách to xuống dưới theo đường chéo về hố chậu phải. Siêu âm giải quyết gần như mọi nhầm lẫn.",
+    "extra": "📖 Nguồn: Barem B1.05–B1.07; đặc điểm phân biệt [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  },
+  {
+    "id": "PED64-E61",
+    "track": "ebm",
+    "type": "basic",
+    "section": "E9",
+    "category": "Cạm bẫy lâm sàng",
+    "tier": 2,
+    "front": "Bẫy: trẻ <span style=\"color:#ff6b6b\"><b>sốt kéo dài, lách to, thiếu máu</b></span> nhưng bỏ qua <span style=\"color:#74c0fc\"><b>giang mai/lao</b></span>. Điều cần nhớ?",
+    "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Giang mai</b></span>: huyết thanh giang mai của <span style=\"color:#ffd43b\"><b>bố, mẹ, con</b></span> (thiếu máu, vàng da nhẹ, gan to, tổn thương xương)<br>2) <span style=\"color:#74c0fc\"><b>Lao</b></span>: sốt kéo dài, hạch to, sụt cân, ho kéo dài → <span style=\"color:#51cf66\"><b>X-quang phổi, Mantoux</b></span><br><br><b>💡 Giải thích của AI:</b><br>Hai bệnh «bắt chước» nhiều hội chứng và dễ bỏ sót nếu không hỏi tiền sử/tiếp xúc. Chẩn đoán sớm có điều trị đặc hiệu hiệu quả nên rất đáng làm.",
+    "extra": "📖 Nguồn: Barem B9.06–B9.07 [NGOÀI BAREM — kiến thức nền]",
+    "tags": [
+      "PED-64",
+      "EBM",
+      "E9"
+    ]
+  }
+]

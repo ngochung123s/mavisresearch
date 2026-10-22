@@ -1,0 +1,849 @@
+{
+  "id": "PED-17",
+  "specialty": "nhi",
+  "profile": "disease",
+  "lesson": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.md",
+  "mode": "hotfix",
+  "summary": {
+    "block": 0,
+    "debt": 138,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 133,
+      "M_PROFILE": 1,
+      "S_DEPTH": 2,
+      "V_NO_ARTIFACTS": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "M_PROFILE",
+      "card_id": "lesson.json",
+      "message": "profile 'disease' khác contract trong brief ('clinical_topic') — brief dùng profile ngoài danh sách ('disease', 'foundation', 'pharmacology')",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Clinical cases with solutions",
+      "message": "2 (cần 3)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "10 (cần 12)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 25",
+      "message": "LaTeX/escape thừa `$\\text{mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 27",
+      "message": "LaTeX/escape thừa `$50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 40",
+      "message": "LaTeX/escape thừa `$SpO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 51",
+      "message": "LaTeX/escape thừa `$70 - 80\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 53",
+      "message": "LaTeX/escape thừa `$30 - 35\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 57",
+      "message": "LaTeX/escape thừa `$45 - 50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 59",
+      "message": "LaTeX/escape thừa `$3.2\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 73",
+      "message": "LaTeX/escape thừa `$34 - 36^{6/7}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 78",
+      "message": "LaTeX/escape thừa `$< 40\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 79",
+      "message": "LaTeX/escape thừa `$< 25\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 80",
+      "message": "LaTeX/escape thừa `$< 40\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 81",
+      "message": "LaTeX/escape thừa `$< 35\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 82",
+      "message": "LaTeX/escape thừa `$< 45 - 50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 84",
+      "message": "LaTeX/escape thừa `$50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 89",
+      "message": "LaTeX/escape thừa `$47\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 102",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 103",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 104",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 105",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 114",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 115",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 116",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 117",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 126",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 127",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 128",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 129",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 142",
+      "message": "LaTeX/escape thừa `$S/V$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 149",
+      "message": "LaTeX/escape thừa `$H^+$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 168",
+      "message": "LaTeX/escape thừa `$1\\text{ mL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 173",
+      "message": "LaTeX/escape thừa `$0.5\\text{ m/giây}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 185",
+      "message": "LaTeX/escape thừa `$^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 187",
+      "message": "LaTeX/escape thừa `$36.5 - 37.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 188",
+      "message": "LaTeX/escape thừa `$36.0 - 36.4^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 189",
+      "message": "LaTeX/escape thừa `$32.0 - 35.9^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 190",
+      "message": "LaTeX/escape thừa `$< 32.0^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 218",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 219",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 220",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 221",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 230",
+      "message": "LaTeX/escape thừa `$34\\text{ tuần}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 234",
+      "message": "LaTeX/escape thừa `$36.0^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 237",
+      "message": "LaTeX/escape thừa `$45\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 249",
+      "message": "LaTeX/escape thừa `$10 - 15\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 253",
+      "message": "LaTeX/escape thừa `$40\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 295",
+      "message": "LaTeX/escape thừa `$0.5\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 304",
+      "message": "LaTeX/escape thừa `$25\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 309",
+      "message": "LaTeX/escape thừa `$2\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 310",
+      "message": "LaTeX/escape thừa `$1\\text{ mL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 318",
+      "message": "LaTeX/escape thừa `$4 - 6\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 319",
+      "message": "LaTeX/escape thừa `$6 - 8\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 322",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 326",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 330",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 333",
+      "message": "LaTeX/escape thừa `$4\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 335",
+      "message": "LaTeX/escape thừa `$1.0\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 336",
+      "message": "LaTeX/escape thừa `$1.5\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 337",
+      "message": "LaTeX/escape thừa `$2.0\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 338",
+      "message": "LaTeX/escape thừa `$2.5\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 339",
+      "message": "LaTeX/escape thừa `$3.0\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 340",
+      "message": "LaTeX/escape thừa `$4.0\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 344",
+      "message": "LaTeX/escape thừa `$< 45 - 50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 345",
+      "message": "LaTeX/escape thừa `$12.5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 346",
+      "message": "LaTeX/escape thừa `$> 12\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 348",
+      "message": "LaTeX/escape thừa `$2.5 - 5\\text{ mg/kg/ngày}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 349",
+      "message": "LaTeX/escape thừa `$0.5 - 1.0\\text{ mg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 350",
+      "message": "LaTeX/escape thừa `$10 - 15\\text{ mg/kg/ngày}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 353",
+      "message": "LaTeX/escape thừa `$50 - 60\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 375",
+      "message": "LaTeX/escape thừa `$25 - 28^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 376",
+      "message": "LaTeX/escape thừa `$< 32$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 381",
+      "message": "LaTeX/escape thừa `$20\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 387",
+      "message": "LaTeX/escape thừa `$1500\\text{ g}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 389",
+      "message": "LaTeX/escape thừa `$100\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 394",
+      "message": "LaTeX/escape thừa `$36.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 399",
+      "message": "LaTeX/escape thừa `$0.5^\\circ\\text{C}\\text{ đến }` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 400",
+      "message": "LaTeX/escape thừa `$1.0 - 1.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 402",
+      "message": "LaTeX/escape thừa `$SpO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 411",
+      "message": "LaTeX/escape thừa `$2\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 414",
+      "message": "LaTeX/escape thừa `$1.5\\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 416",
+      "message": "LaTeX/escape thừa `$< 40\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 419",
+      "message": "LaTeX/escape thừa `$8\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 421",
+      "message": "LaTeX/escape thừa `$1 - 2\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 424",
+      "message": "LaTeX/escape thừa `$32.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 426",
+      "message": "LaTeX/escape thừa `$0.5 - 1.0^\\circ\\text{C}/\\text` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 431",
+      "message": "LaTeX/escape thừa `$< 32$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 446",
+      "message": "LaTeX/escape thừa `$> 12.5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 447",
+      "message": "LaTeX/escape thừa `$> 12.5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 454",
+      "message": "LaTeX/escape thừa `$3.0\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 456",
+      "message": "LaTeX/escape thừa `\\text` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 457",
+      "message": "LaTeX/escape thừa `$18.75\\text{ mL/giờ}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 458",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 459",
+      "message": "LaTeX/escape thừa `$12.5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 462",
+      "message": "LaTeX/escape thừa `$4.5\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 465",
+      "message": "LaTeX/escape thừa `$2\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 466",
+      "message": "LaTeX/escape thừa `$10 - 12\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 467",
+      "message": "LaTeX/escape thừa `$4.5\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 468",
+      "message": "LaTeX/escape thừa `$12 - 15\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 473",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 475",
+      "message": "LaTeX/escape thừa `$SpO_2$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 478",
+      "message": "LaTeX/escape thừa `$32.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 479",
+      "message": "LaTeX/escape thừa `$32.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 483",
+      "message": "LaTeX/escape thừa `$0.5 - 1.0^\\circ\\text{C}/\\text` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 484",
+      "message": "LaTeX/escape thừa `$10\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 493",
+      "message": "LaTeX/escape thừa `$39$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 495",
+      "message": "LaTeX/escape thừa `$36.6^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 496",
+      "message": "LaTeX/escape thừa `$1.6\\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 497",
+      "message": "LaTeX/escape thừa `$1.6\\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 500",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 501",
+      "message": "LaTeX/escape thừa `$6\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 502",
+      "message": "LaTeX/escape thừa `$$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 503",
+      "message": "LaTeX/escape thừa `$2.9\\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 504",
+      "message": "LaTeX/escape thừa `$6\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 507",
+      "message": "LaTeX/escape thừa `$1.1\\text{ kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 509",
+      "message": "LaTeX/escape thừa `$31.8^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 511",
+      "message": "LaTeX/escape thừa `$1.2\\text{ mmol/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 512",
+      "message": "LaTeX/escape thừa `$pH = 7.08$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 513",
+      "message": "LaTeX/escape thừa `$31.8^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 515",
+      "message": "LaTeX/escape thừa `$37^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 516",
+      "message": "LaTeX/escape thừa `$33.0^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 517",
+      "message": "LaTeX/escape thừa `$10\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 518",
+      "message": "LaTeX/escape thừa `$2\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 519",
+      "message": "LaTeX/escape thừa `$35.0^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 527",
+      "message": "LaTeX/escape thừa `$36.5 - 37.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 535",
+      "message": "LaTeX/escape thừa `$50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 543",
+      "message": "LaTeX/escape thừa `$< 32$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 546",
+      "message": "LaTeX/escape thừa `$+$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 547",
+      "message": "LaTeX/escape thừa `$2\\text{ mL/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 548",
+      "message": "LaTeX/escape thừa `$4 - 6\\text{ mg/kg/phút}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 549",
+      "message": "LaTeX/escape thừa `$12.5\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 550",
+      "message": "LaTeX/escape thừa `$0.5 - 1.0^\\circ\\text{C}/\\text` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 555",
+      "message": "LaTeX/escape thừa `$50\\text{ mg/dL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 556",
+      "message": "LaTeX/escape thừa `$100 - 120\\text{ kcal/kg/ngày}` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 557",
+      "message": "LaTeX/escape thừa `$36.5 - 37.5^\\circ\\text{C}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile disease cần ≥ 4)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_NO_ARTIFACTS",
+      "card_id": "*",
+      "message": "bài gắn nhãn verification nhưng không có ncbi_fetch.json (Gate 0) trong folder bài",
+      "severity": "DEBT"
+    }
+  ]
+}
