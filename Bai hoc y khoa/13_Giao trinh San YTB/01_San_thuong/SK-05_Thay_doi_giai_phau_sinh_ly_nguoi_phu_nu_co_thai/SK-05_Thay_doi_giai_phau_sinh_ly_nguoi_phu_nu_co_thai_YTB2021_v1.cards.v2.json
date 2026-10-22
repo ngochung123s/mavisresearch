@@ -1,0 +1,961 @@
+{
+ "cards": [
+  {
+   "id": "SK05-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi có thai, người phụ nữ có những thay đổi gì, ở đâu nhiều nhất và do nguyên nhân nào (<span style=\"color:#74c0fc\"><b>đại cương</b></span>)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có những <span style=\"color:#74c0fc\"><b>thay đổi rất lớn</b></span> nhằm phục vụ cho quá trình thai nghén.<br>2) Thay đổi nhiều nhất là ở <span style=\"color:#74c0fc\"><b>bộ phận sinh dục</b></span> và <span style=\"color:#74c0fc\"><b>nội tiết thai nghén</b></span>.<br>3) Tất cả đều do nguyên nhân <span style=\"color:#74c0fc\"><b>thần kinh và nội tiết</b></span> gây ra.<br><br><b>💡 Giải thích của AI:</b><br>Mọi thay đổi ở các cơ quan đều quy về hai hệ điều hòa là thần kinh và nội tiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Đại cương",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-01",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "HCG (Human Chorionic Gonadotropin)",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>HCG</b></span>: do đâu sản xuất, bắt đầu sớm sau bao lâu, đỉnh khi nào và diễn tiến về sau?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do <span style=\"color:#74c0fc\"><b>tế bào langhans của rau thai</b></span> sản xuất.<br>2) Sản xuất rất sớm, sau <span style=\"color:#ffd43b\"><b>hai tuần lễ</b></span> khi noãn được thụ tinh.<br>3) Cực đại vào <span style=\"color:#ffd43b\"><b>tuần thứ 8</b></span> (lên tới <span style=\"color:#ffd43b\"><b>7000 - 10000 đơn vị ếch</b></span>).<br>4) Giảm dần đến cuối <span style=\"color:#ffd43b\"><b>tháng thứ 3</b></span> (còn <span style=\"color:#ffd43b\"><b>1000 đơn vị ếch</b></span>) và tiếp tục giảm cho đến khi chuyển dạ.<br><br><b>💡 Giải thích của AI:</b><br>HCG xuất hiện từ rau thai nên bắt đầu ngay sau khi thụ tinh, tăng đến đỉnh rồi giảm dần.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · HCG (Human Chorionic Gonadotropin)",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-02",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "HCG (Human Chorionic Gonadotropin)",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Tác dụng của <span style=\"color:#74c0fc\"><b>HCG</b></span> lên hoàng thể buồng trứng là gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Kích thích hoàng thể</b></span> của buồng trứng tiếp tục phát triển, tiết ra <span style=\"color:#74c0fc\"><b>Progesteron</b></span> và một số nội tiết khác.<br>2) Biến <span style=\"color:#74c0fc\"><b>hoàng thể kinh nguyệt</b></span> thành <span style=\"color:#74c0fc\"><b>hoàng thể thai nghén</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Duy trì sự tồn tại của thai</b></span> trong tử cung trong <span style=\"color:#ffd43b\"><b>nửa đầu của thai kỳ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hoàng thể được HCG nuôi dưỡng nên tiếp tục tiết Progesteron giữ thai ở giai đoạn đầu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · HCG (Human Chorionic Gonadotropin)",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-03",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Phương pháp phát hiện hCG",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Có những <span style=\"color:#74c0fc\"><b>phương pháp phát hiện hCG</b></span> nào? Nêu cơ sở của từng phương pháp.",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có <span style=\"color:#ffd43b\"><b>hai phương pháp chính</b></span>: <span style=\"color:#74c0fc\"><b>phương pháp sinh vật</b></span> và <span style=\"color:#74c0fc\"><b>phương pháp miễn dịch</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Sinh vật</b></span>: dựa vào hiện tượng thay đổi bộ phận sinh dục của các động vật thí nghiệm sau tiêm nước tiểu hoặc huyết thanh của phụ nữ có thai; <span style=\"color:#ff6b6b\"><b>hiện nay không còn áp dụng trên lâm sàng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Miễn dịch</b></span>: cơ sở của phản ứng dựa trên hCG <span style=\"color:#74c0fc\"><b>có tính kháng nguyên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phương pháp sinh vật đã bị bỏ vì có phương pháp miễn dịch dựa trực tiếp vào tính kháng nguyên của hCG.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Phương pháp phát hiện hCG",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-04",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Phương pháp phóng xạ miễn dịch RIA",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Phương pháp phóng xạ miễn dịch RIA</b></span>: định lượng gì, ưu và nhược điểm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Định lượng β hCG</b></span>.<br>2) Ưu điểm: <span style=\"color:#ffd43b\"><b>chính xác nhất</b></span>.<br>3) Nhược điểm: <span style=\"color:#ff6b6b\"><b>đắt tiền</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phương pháp càng chính xác thì chi phí càng cao, nên cần cân nhắc khi chỉ định.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Phương pháp phóng xạ miễn dịch RIA",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-05",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Phương pháp phóng xạ miễn dịch RIA",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>β hCG</b></span> có giá trị theo dõi thai nghén trong những trường hợp nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dùng β hCG để <span style=\"color:#51cf66\"><b>theo dõi thai nghén rất tốt</b></span>.<br>2) Đặc biệt trong theo dõi <span style=\"color:#ff6b6b\"><b>GEU</b></span> (chửa ngoài tử cung).<br>3) Đặc biệt trong theo dõi <span style=\"color:#ff6b6b\"><b>sau nạo thai trứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai tình huống đều cần biết nồng độ hCG tăng hay giảm đúng diễn tiến nên định lượng β hCG rất hữu ích.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Phương pháp phóng xạ miễn dịch RIA",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-06",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Kết quả định lượng β hCG",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Kết quả <span style=\"color:#74c0fc\"><b>định lượng β hCG</b></span> theo tuổi thai và khi thai sắp sảy, GEU, chửa trứng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thai <span style=\"color:#ffd43b\"><b>< 6 tuần</b></span>: <span style=\"color:#ffd43b\"><b>500 IU/l</b></span>.<br>2) Thai <span style=\"color:#ffd43b\"><b>6 - 7 tuần</b></span>: <span style=\"color:#ffd43b\"><b>1500 IU/l</b></span>.<br>3) Thai <span style=\"color:#ffd43b\"><b>7 - 10 tuần</b></span>: <span style=\"color:#ffd43b\"><b>10000 - < 500000 IU/l</b></span>.<br>4) Khi <span style=\"color:#ff6b6b\"><b>thai sắp sảy hoặc GEU</b></span>: <span style=\"color:#ffd43b\"><b>500 - < 1500 IU/l</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Chửa trứng</b></span>: <span style=\"color:#ffd43b\"><b>> 500000 IU/l</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ thấp hơn mức mong đợi theo tuổi thai gợi ý thai bất thường, còn nồng độ rất cao gợi ý chửa trứng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Kết quả định lượng β hCG",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-07",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Ngưỡng β hCG và siêu âm",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Ngưỡng <span style=\"color:#74c0fc\"><b>β hCG</b></span> nào thì <span style=\"color:#51cf66\"><b>siêu âm</b></span> chắc chắn thấy túi thai trong buồng tử cung, và khi chưa thấy thì nghi ngờ gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) β hCG <span style=\"color:#ffd43b\"><b>> 1500 IU/l</b></span>: <span style=\"color:#51cf66\"><b>siêu âm đầu dò âm đạo</b></span> chắc chắn có túi thai trong buồng tử cung.<br>2) Khi β hCG <span style=\"color:#ffd43b\"><b>> 1500 IU/l</b></span> mà siêu âm đầu dò âm đạo <span style=\"color:#ff6b6b\"><b>chưa có túi thai trong buồng tử cung</b></span> → cần nghi ngờ <span style=\"color:#ff6b6b\"><b>chửa ngoài tử cung</b></span>.<br>3) β hCG <span style=\"color:#ffd43b\"><b>> 2000 IU/l</b></span>: <span style=\"color:#51cf66\"><b>siêu âm đầu dò bụng</b></span> chắc chắn có túi thai trong buồng tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Ngưỡng này cho biết với nồng độ đó túi thai trong tử cung phải nhìn thấy được; không thấy thì thai có thể nằm ngoài tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Ngưỡng β hCG và siêu âm",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-C01",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "HCG (Human Chorionic Gonadotropin)",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "HCG do tế bào {{c1::<span style=\"color:#74c0fc\"><b>langhans</b></span>}} của rau thai sản xuất, cực đại vào tuần thứ {{c2::<span style=\"color:#ffd43b\"><b>8</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · HCG (Human Chorionic Gonadotropin)",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_1-C02",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "Ngưỡng β hCG và siêu âm",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "β hCG > {{c1::<span style=\"color:#ffd43b\"><b>1500 IU/l</b></span>}} thì siêu âm đầu dò âm đạo chắc chắn có túi thai trong buồng tử cung; > {{c2::<span style=\"color:#ffd43b\"><b>2000 IU/l</b></span>}} thì siêu âm đầu dò bụng chắc chắn có túi thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Ngưỡng β hCG và siêu âm",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK05-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Các hormone Steroid",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi có thai, <span style=\"color:#74c0fc\"><b>hormone Steroid</b></span> thay đổi thế nào và do những cơ quan nào sản xuất?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hormone Steroid <span style=\"color:#ffd43b\"><b>tăng rất nhiều</b></span>, chủ yếu là <span style=\"color:#74c0fc\"><b>Progesteron và Estrogen</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Vỏ thượng thận</b></span>: các Steroid chuyển hóa đường tăng cao.<br>3) <span style=\"color:#74c0fc\"><b>Buồng trứng</b></span>: hoàng thể tiếp tục tồn tại và chế tiết cho đến hết <span style=\"color:#ffd43b\"><b>tháng thứ 3</b></span> để sản xuất Progesteron và Estrogen; dưới tác dụng của hCG do rau thai tiết ra, hoạt động của hoàng thể thai nghén được duy trì.<br>4) <span style=\"color:#74c0fc\"><b>Bánh rau</b></span>: từ <span style=\"color:#ffd43b\"><b>tháng thứ 4</b></span> trở đi thay thế hoàng thể thai nghén khi hoàng thể teo đi; lúc này rau thai trực tiếp sản xuất Estrogen và Progesteron cho đến cuối thời kỳ thai nghén.<br>5) <span style=\"color:#74c0fc\"><b>Thai nhi</b></span> cũng đưa vào máu mẹ một lượng lớn <span style=\"color:#74c0fc\"><b>estriol</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nguồn hormone chuyển giao từ hoàng thể (3 tháng đầu) sang bánh rau (từ tháng thứ 4).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Các hormone Steroid",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK05-S2_2-03",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Các hormone Steroid",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nguồn sản xuất <span style=\"color:#74c0fc\"><b>Progesteron và Estrogen</b></span> chuyển từ cơ quan nào sang cơ quan nào theo mốc thời gian nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đến hết <span style=\"color:#ffd43b\"><b>tháng thứ 3</b></span>: <span style=\"color:#74c0fc\"><b>hoàng thể thai nghén</b></span> (được hCG duy trì).<br>2) Từ <span style=\"color:#ffd43b\"><b>tháng thứ 4</b></span>: <span style=\"color:#74c0fc\"><b>bánh rau</b></span> thay thế, sản xuất cho đến cuối thời kỳ thai nghén.<br><br><b>💡 Giải thích của AI:</b><br>Khi hoàng thể teo thì rau đã đủ trưởng thành để đảm nhiệm vai trò tiết hormone.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Các hormone Steroid",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK05-S2_3-01",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Các tuyến nội tiết khác",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thay đổi của <span style=\"color:#74c0fc\"><b>tuyến yên</b></span> khi có thai và liên quan tới <span style=\"color:#ff6b6b\"><b>tiết sữa</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuyến yên <span style=\"color:#ffd43b\"><b>to lên ≈ 35%</b></span> so với khi không có thai, xuất hiện một số tế bào lạ mà ngoài thời kỳ thai nghén không có, có lẽ sản xuất <span style=\"color:#74c0fc\"><b>prolactin</b></span> có tác dụng kích thích sự bài tiết sữa.<br>2) <span style=\"color:#ffd43b\"><b>5 tháng đầu</b></span>: do Estrogen và Progesteron ức chế prolactin nên <span style=\"color:#ff6b6b\"><b>không có hiện tượng tiết sữa</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Từ > 5 tháng</b></span>: prolactin bị thoát ức chế nên <span style=\"color:#51cf66\"><b>có hiện tượng tiết sữa</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Sau đẻ</b></span>: nồng độ Progesteron, Estrogen giảm đột ngột, Prolactin tăng cao trong máu nên có hiện tượng bài tiết sữa.<br><br><b>💡 Giải thích của AI:</b><br>Estrogen và Progesteron kìm prolactin; khi hai hormone này tụt sau đẻ, prolactin được tự do tác dụng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Các tuyến nội tiết khác",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK05-S2_3-02",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Các tuyến nội tiết khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi của <span style=\"color:#74c0fc\"><b>tuyến giáp, cận giáp và vỏ thượng thận</b></span> khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tuyến giáp trạng</b></span>: <span style=\"color:#ff6b6b\"><b>phì đại</b></span>, chuyển hóa cơ bản tăng.<br>2) <span style=\"color:#74c0fc\"><b>Tuyến cận giáp trạng</b></span>: thường ở tình trạng <span style=\"color:#ff6b6b\"><b>thiểu năng</b></span> nên hấp thụ canxi kém, một số thai phụ có thể bị <span style=\"color:#ff6b6b\"><b>Tetani, sâu răng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Vỏ thượng thận</b></span>: <span style=\"color:#ff6b6b\"><b>phì đại</b></span>; các Steroid chuyển hóa đường và muối khoáng tăng lên nên <span style=\"color:#ff6b6b\"><b>tăng giữ nước</b></span> trong cơ thể.<br><br><b>💡 Giải thích của AI:</b><br>Cận giáp thiểu năng làm hấp thụ canxi kém, dẫn tới tetani và sâu răng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Các tuyến nội tiết khác",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_1-01",
+   "type": "basic",
+   "section": "S3_1_1_1",
+   "category": "Thay đổi ở thân tử cung: trọng lượng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Trọng lượng tử cung</b></span> khi chưa có thai và cuối thai kỳ; sự gia tăng diễn ra thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi chưa có thai: <span style=\"color:#ffd43b\"><b>50 - 60g</b></span>.<br>2) Cuối thời kỳ thai nghén: trung bình <span style=\"color:#ffd43b\"><b>1000g</b></span>.<br>3) Sự gia tăng <span style=\"color:#ff6b6b\"><b>không đều</b></span>, chủ yếu tăng nhiều vào <span style=\"color:#ffd43b\"><b>nửa đầu</b></span> của thời kỳ thai nghén.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung tăng gấp nhiều lần so với ban đầu, nhanh nhất ở nửa đầu thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: trọng lượng",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_1"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_2-01",
+   "type": "basic",
+   "section": "S3_1_1_2",
+   "category": "Thay đổi ở thân tử cung: hình thể",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Hình thể tử cung</b></span> thay đổi thế nào ở <span style=\"color:#ffd43b\"><b>3 tháng đầu, 3 tháng giữa, 3 tháng cuối</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span>: hình cầu do đường kính trước sau phát triển nhanh hơn đường kính ngang; phần dưới phình to lên có thể sờ thấy qua túi cùng bên âm đạo, đó là <span style=\"color:#74c0fc\"><b>dấu hiệu Noble</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>3 tháng giữa</b></span>: hình trứng, cực nhỏ ở dưới, cực to ở trên.<br>3) <span style=\"color:#ffd43b\"><b>3 tháng cuối</b></span>: hình dạng phụ thuộc vào tư thế của thai nhi trong buồng tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Hình dạng chuyển từ cầu sang trứng rồi phụ thuộc vào thai nhi khi thai đã lớn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: hình thể",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_2"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_2-02",
+   "type": "basic",
+   "section": "S3_1_1_2",
+   "category": "Thay đổi ở thân tử cung: hình thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Ở <span style=\"color:#ffd43b\"><b>3 tháng cuối</b></span>, tử cung có hình <span style=\"color:#74c0fc\"><b>trứng, bè ngang, trái tim</b></span> tương ứng với trường hợp nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Hình trứng</b></span>: thai nhi nằm dọc.<br>2) <span style=\"color:#74c0fc\"><b>Hình bè ngang</b></span>: thai nhi nằm ngang.<br>3) <span style=\"color:#74c0fc\"><b>Hình trái tim</b></span>: tử cung hai sừng.<br><br><b>💡 Giải thích của AI:</b><br>Hình dạng tử cung phản ánh trục của thai trong buồng tử cung, riêng tử cung hai sừng do bất thường của chính tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: hình thể",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_2"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_3-01",
+   "type": "basic",
+   "section": "S3_1_1_3",
+   "category": "Thay đổi ở thân tử cung: vị trí",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vị trí tử cung</b></span> trước và khi có thai; cách tính <span style=\"color:#ffd43b\"><b>tuổi thai</b></span> theo <span style=\"color:#51cf66\"><b>cao tử cung</b></span> và tư thế tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi chưa có thai: tử cung nằm trong <span style=\"color:#74c0fc\"><b>tiểu khung</b></span>.<br>2) Khi có thai, từ <span style=\"color:#ffd43b\"><b>tháng thứ hai</b></span> trở đi mỗi tháng tử cung lớn lên, phát triển vào ổ bụng và trên khớp mu trung bình <span style=\"color:#ffd43b\"><b>4cm</b></span>.<br>3) Công thức: <span style=\"color:#51cf66\"><b>Tuổi thai = Cao tử cung / 4 + 1</b></span>.<br>4) Tư thế tử cung thường bị <span style=\"color:#ff6b6b\"><b>lệch sang phải, hơi bị vặn nghiêng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì mỗi tháng tử cung cao thêm 4cm nên chia chiều cao cho 4 rồi cộng thêm 1 tháng để ra tuổi thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: vị trí",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_3"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_4-01",
+   "type": "basic",
+   "section": "S3_1_1_4",
+   "category": "Thay đổi ở thân tử cung: cấu tạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Cấu tạo thân tử cung</b></span>: các lớp và đặc điểm <span style=\"color:#74c0fc\"><b>phúc mạc</b></span> ở thân và eo tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thân tử cung có <span style=\"color:#ffd43b\"><b>3 lớp</b></span>: <span style=\"color:#74c0fc\"><b>phúc mạc, cơ, niêm mạc</b></span>.<br>2) Phúc mạc ở thân dính chặt vào lớp cơ; khi có thai phúc mạc phì đại và giãn ra theo lớp cơ tử cung.<br>3) Phúc mạc ở eo tử cung <span style=\"color:#74c0fc\"><b>lỏng lẻo, dễ bóc tách</b></span>; ranh giới giữa thân và eo tử cung là <span style=\"color:#74c0fc\"><b>đường phúc mạc bám chặt</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường phúc mạc bám chặt là mốc phân biệt thân với eo tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: cấu tạo",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_4"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_4-02",
+   "type": "basic",
+   "section": "S3_1_1_4",
+   "category": "Thay đổi ở thân tử cung: cấu tạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Lớp cơ tử cung</b></span> khi có thai: bản chất, độ dày theo thời gian và ba lớp cơ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lớp cơ chủ yếu là <span style=\"color:#74c0fc\"><b>cơ trơn</b></span>.<br>2) Độ dày: khi chưa có thai <span style=\"color:#ffd43b\"><b>1cm</b></span>; thai tháng thứ <span style=\"color:#ffd43b\"><b>4, 5</b></span> dày tới <span style=\"color:#ffd43b\"><b>2,5cm</b></span>; đến cuối thời kỳ thai nghén giảm dần xuống còn <span style=\"color:#ffd43b\"><b>0,5 cm</b></span>.<br>3) Khi có thai cơ tử cung tăng phát triển, gồm <span style=\"color:#ffd43b\"><b>3 lớp</b></span>: <span style=\"color:#74c0fc\"><b>cơ đan</b></span> ở giữa, <span style=\"color:#74c0fc\"><b>cơ dọc</b></span> ở ngoài, <span style=\"color:#74c0fc\"><b>cơ vòng</b></span> ở trong.<br><br><b>💡 Giải thích của AI:</b><br>Cơ dày lên rồi mỏng dần khi tử cung căng giãn theo thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: cấu tạo",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_4"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_4-03",
+   "type": "basic",
+   "section": "S3_1_1_4",
+   "category": "Thay đổi ở thân tử cung: cấu tạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Vai trò của lớp <span style=\"color:#74c0fc\"><b>cơ đan</b></span> sau khi sổ rau và biến đổi của <span style=\"color:#74c0fc\"><b>niêm mạc tử cung</b></span> khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong lớp cơ đan có các mạng lưới mạch máu; sau khi sổ rau lớp cơ này <span style=\"color:#51cf66\"><b>co chặt lại</b></span> để tạo thành <span style=\"color:#74c0fc\"><b>khối cầu an toàn của tử cung</b></span>, giúp <span style=\"color:#51cf66\"><b>cầm máu sinh lý</b></span>.<br>2) Lớp niêm mạc tử cung khi có thai biến đổi thành <span style=\"color:#74c0fc\"><b>ngoại sản mạc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cơ đan co chặt như những chiếc thắt chặt các mạch máu bên trong nên cầm máu sau sổ rau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: cấu tạo",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_4"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_5-01",
+   "type": "basic",
+   "section": "S3_1_1_5",
+   "category": "Thay đổi ở thân tử cung: dung tích",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Dung tích và kích thước buồng tử cung</b></span> khi chưa có thai và khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thể tích bình thường ≈ <span style=\"color:#ffd43b\"><b>2 - 4ml</b></span>.<br>2) Khi có thai thể tích <span style=\"color:#ffd43b\"><b>4000 - 5000ml</b></span> và tăng lên nhiều hơn nữa trong <span style=\"color:#ff6b6b\"><b>đa ối, đa thai</b></span>.<br>3) Buồng tử cung khi chưa có thai đo được <span style=\"color:#ffd43b\"><b>6 - 8cm</b></span>; cuối thời kỳ thai nghén có thể lên tới <span style=\"color:#ffd43b\"><b>32cm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đa ối và đa thai làm lượng chứa trong buồng tử cung nhiều hơn nên thể tích tăng thêm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở thân tử cung: dung tích",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_5"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_6-01",
+   "type": "basic",
+   "section": "S3_1_1_6",
+   "category": "Thay đổi sinh lý của tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Mật độ tử cung</b></span> khi chưa có thai và khi có thai, và nguyên nhân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chưa có thai: <span style=\"color:#74c0fc\"><b>hơi chắc, có tính đàn hồi</b></span>.<br>2) Có thai: <span style=\"color:#74c0fc\"><b>mềm, nắn dễ lún</b></span> do ảnh hưởng của nội tiết thai nghén có tác dụng giữ nước.<br><br><b>💡 Giải thích của AI:</b><br>Nội tiết giữ nước làm mô mềm, lún khi ấn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi sinh lý của tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_6"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_1_6-02",
+   "type": "basic",
+   "section": "S3_1_1_6",
+   "category": "Thay đổi sinh lý của tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Khả năng co bóp và co rút</b></span> của tử cung có thai: ý nghĩa, tác dụng của <span style=\"color:#51cf66\"><b>co bóp</b></span> và của <span style=\"color:#51cf66\"><b>co rút</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là tính chất đặc thù của tử cung có thai, giúp <span style=\"color:#51cf66\"><b>chẩn đoán thai nghén</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Co bóp</b></span> (cơn co tử cung): giúp ngôi thai bình chỉnh; khi chuyển dạ giúp xóa mở cổ tử cung, thành lập đầu ối và cho ngôi thai lọt, xuống, quay, sổ.<br>3) Co bóp còn giúp rau thai bong, sổ; giúp tống sản dịch và sự thu hồi tử cung về giải phẫu bình thường thời kỳ hậu sản.<br>4) <span style=\"color:#74c0fc\"><b>Co rút</b></span>: giúp tử cung thành lập khối cầu an toàn sau đẻ gây <span style=\"color:#51cf66\"><b>tắc mạch sinh lý</b></span>, tránh hiện tượng <span style=\"color:#ff6b6b\"><b>băng huyết sau đẻ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Co bóp phục vụ cuộc đẻ và hậu sản, co rút phục vụ cầm máu sau đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi sinh lý của tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_6"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_2-01",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "Thay đổi ở eo tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Eo tử cung</b></span> bình thường: vị trí, kích thước, cấu tạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dài <span style=\"color:#ffd43b\"><b>0,5 - 1cm</b></span>, nằm giữa thân tử cung và cổ tử cung.<br>2) Biểu mô mang tính chất trung gian giữa thân và cổ tử cung.<br>3) Cấu tạo gồm <span style=\"color:#ffd43b\"><b>2 lớp cơ</b></span>: <span style=\"color:#74c0fc\"><b>cơ vòng và cơ dọc</b></span>, <span style=\"color:#ff6b6b\"><b>không có lớp cơ đan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không có cơ đan nên eo tử cung không có khả năng cầm máu bằng cơ đan như thân tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở eo tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_2-02",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "Thay đổi ở eo tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi có thai <span style=\"color:#74c0fc\"><b>eo tử cung</b></span> biến đổi thành gì; thời điểm thành lập <span style=\"color:#74c0fc\"><b>đoạn dưới</b></span> ở con so và con rạ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Eo tử cung giãn rộng dần, dài và mỏng ra tạo thành <span style=\"color:#74c0fc\"><b>đoạn dưới tử cung</b></span>; đến khi chuyển dạ dài khoảng <span style=\"color:#ffd43b\"><b>10cm</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Con so</b></span>: đoạn dưới được thành lập từ <span style=\"color:#ffd43b\"><b>đầu tháng thứ 9</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Con rạ</b></span>: đoạn dưới chỉ được thành lập <span style=\"color:#ffd43b\"><b>khi chuyển dạ</b></span>.<br>4) Đoạn dưới được hình thành dần dần suốt thai kỳ nhưng hoàn toàn hình thành khi có chuyển dạ nhờ sự co bóp của tử cung.<br>5) Phúc mạc ở eo tử cung rất dễ bóc tách khỏi lớp cơ tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Eo giãn dần thành đoạn dưới, hoàn chỉnh nhờ cơn co chuyển dạ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở eo tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_2-03",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "Thay đổi ở eo tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Dấu hiệu Hegar</b></span> là gì và do đâu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do nội tiết thai nghén nên <span style=\"color:#74c0fc\"><b>eo tử cung mềm</b></span>, có thể không nắn thấy; khối thân tử cung như tách rời khỏi cổ tử cung thành <span style=\"color:#ffd43b\"><b>hai phần riêng biệt</b></span>.<br>2) Đó là <span style=\"color:#74c0fc\"><b>dấu hiệu Hegar</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Eo mềm nằm giữa nên khi khám thấy thân và cổ như hai khối rời nhau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở eo tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_3-01",
+   "type": "basic",
+   "section": "S3_1_3",
+   "category": "Thay đổi ở cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Cổ tử cung</b></span> bình thường: kích thước, cấu tạo, lỗ ngoài?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dài <span style=\"color:#ffd43b\"><b>2,5cm</b></span>, cấu tạo chủ yếu là <span style=\"color:#74c0fc\"><b>tổ chức xơ, tổ chức liên kết</b></span>.<br>2) Lỗ ngoài cổ tử cung <span style=\"color:#74c0fc\"><b>nhỏ</b></span> trước khi sinh đẻ và hình <span style=\"color:#74c0fc\"><b>mõm mè</b></span> khi đẻ.<br><br><b>💡 Giải thích của AI:</b><br>Cổ tử cung nhiều mô xơ nên chắc, khác với thân tử cung nhiều cơ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở cổ tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_3"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_3-02",
+   "type": "basic",
+   "section": "S3_1_3",
+   "category": "Thay đổi ở cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi có thai <span style=\"color:#74c0fc\"><b>cổ tử cung</b></span> thay đổi thế nào? <span style=\"color:#74c0fc\"><b>Nút nhầy cổ tử cung</b></span> hình thành ra sao và ý nghĩa khi chuyển dạ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cổ tử cung <span style=\"color:#74c0fc\"><b>mềm dần</b></span>, từ ngoài vào trong to lên, <span style=\"color:#74c0fc\"><b>màu tím hơn</b></span> lúc trước có thai.<br>2) Các ống tuyến cổ tử cung chế tiết ít hoặc ngừng chế tiết; chất nhầy đục và đặc quánh lại tạo thành <span style=\"color:#74c0fc\"><b>nút nhầy cổ tử cung</b></span>.<br>3) Khi chuyển dạ, cổ tử cung xóa mở tống nút nhầy ra → là một trong những <span style=\"color:#ff6b6b\"><b>triệu chứng giúp chẩn đoán chuyển dạ đẻ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nút nhầy bịt kín kênh cổ tử cung suốt thai kỳ, mất đi khi cổ tử cung xóa mở.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở cổ tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_3"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_4-01",
+   "type": "basic",
+   "section": "S3_1_4",
+   "category": "Thay đổi ở âm hộ, âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Khi có thai <span style=\"color:#74c0fc\"><b>âm hộ và âm đạo</b></span> thay đổi thế nào (biểu mô, niêm mạc, thành âm đạo)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các lớp biểu mô âm đạo <span style=\"color:#ff6b6b\"><b>không phát triển, không trưởng thành</b></span> để tạo thành những lớp tế bào bề mặt, các tế bào nhân đông.<br>2) Niêm mạc âm đạo <span style=\"color:#74c0fc\"><b>dày lên và có màu tím</b></span>.<br>3) Âm hộ <span style=\"color:#74c0fc\"><b>mềm và có màu tím</b></span> do các mạch máu cương tụ dưới lớp biểu mô.<br>4) Thành âm đạo dày lên, tổ chức liên kết lỏng lẻo, cơ trơn phì đại → <span style=\"color:#74c0fc\"><b>âm đạo dài ra, dễ giãn rộng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thành âm đạo mềm và lỏng lẻo nên dễ giãn rộng khi sinh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở âm hộ, âm đạo",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_4"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_4-02",
+   "type": "basic",
+   "section": "S3_1_4",
+   "category": "Thay đổi ở âm hộ, âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Khí hư âm đạo</b></span> khi có thai: đặc điểm, chỉ số tế bào nhân đông, pH và nguy cơ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khí hư âm đạo <span style=\"color:#74c0fc\"><b>tăng, trắng, đục</b></span>.<br>2) Chỉ số tế bào nhân đông <span style=\"color:#ffd43b\"><b>rất thấp</b></span>.<br>3) Độ pH âm đạo <span style=\"color:#ffd43b\"><b>axít hơn</b></span> nên mầm bệnh ít hoặc không sinh sôi nảy nở được.<br>4) Phụ nữ có thai <span style=\"color:#ff6b6b\"><b>dễ bị nhiễm nấm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>pH axít hạn chế vi khuẩn gây bệnh nhưng lại thuận lợi cho nấm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở âm hộ, âm đạo",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_4"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_5-01",
+   "type": "basic",
+   "section": "S3_1_5",
+   "category": "Thay đổi ở buồng trứng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Buồng trứng</b></span> thay đổi thế nào trong <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span> và từ <span style=\"color:#ffd43b\"><b>tháng thứ 4</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span>: hoàng thể kinh nguyệt tiếp tục phát triển thành <span style=\"color:#74c0fc\"><b>hoàng thể thai nghén</b></span>; các nang noãn không chín nên <span style=\"color:#ff6b6b\"><b>không phóng noãn</b></span> → <span style=\"color:#ff6b6b\"><b>không có kinh nguyệt</b></span>.<br>2) Từ <span style=\"color:#ffd43b\"><b>tháng thứ 4</b></span>: hoàng thể thai nghén <span style=\"color:#74c0fc\"><b>teo đi</b></span>.<br>3) Buồng trứng cũng <span style=\"color:#74c0fc\"><b>to lên, phù, xung huyết</b></span> trong khi có thai.<br><br><b>💡 Giải thích của AI:</b><br>Không phóng noãn nên không có kinh; hoàng thể teo khi bánh rau đã thay thế.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở buồng trứng",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_5"
+   ]
+  },
+  {
+   "id": "SK05-S3_1_6-01",
+   "type": "basic",
+   "section": "S3_1_6",
+   "category": "Thay đổi ở vòi trứng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vòi trứng</b></span> khi có thai thay đổi thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vòi trứng <span style=\"color:#74c0fc\"><b>không làm nhiệm vụ gì</b></span> nhưng <span style=\"color:#74c0fc\"><b>to và dài ra</b></span>.<br>2) Niêm mạc vòi trứng biến thành <span style=\"color:#74c0fc\"><b>màng rụng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thai đã nằm trong tử cung nên vòi trứng không còn vai trò vận chuyển noãn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở vòi trứng",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_6"
+   ]
+  },
+  {
+   "id": "SK05-S4-01",
+   "type": "basic",
+   "section": "S4",
+   "category": "Thay đổi giải phẫu sinh lý ở các bộ phận khác",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Sách chia thay đổi <span style=\"color:#74c0fc\"><b>ở các bộ phận khác ngoài sinh dục</b></span> của thai phụ thành những hệ thống nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Da, cân, cơ</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Vú</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Hệ thống tuần hoàn</b></span>: tim, máu, mạch máu.<br>4) <span style=\"color:#74c0fc\"><b>Hô hấp</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Tiết niệu</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Tiêu hóa</b></span>.<br>7) <span style=\"color:#74c0fc\"><b>Xương, khớp</b></span>.<br>8) <span style=\"color:#74c0fc\"><b>Thần kinh</b></span>.<br>9) <span style=\"color:#74c0fc\"><b>Toàn thân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là mục lục giúp nhớ đủ các hệ cơ quan cần khám và theo dõi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi giải phẫu sinh lý ở các bộ phận khác",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4"
+   ]
+  },
+  {
+   "id": "SK05-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thay đổi ở da, cân, cơ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>da, cân, cơ</b></span> ở thai phụ: mặt, thành bụng, vết rạn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Mặt</b></span>: xuất hiện các vết rám tập trung ở gò má, tạo <span style=\"color:#74c0fc\"><b>gương mặt thai nghén</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Thành bụng</b></span>: vết rám tập trung ở đường trắng giữa bụng gọi là <span style=\"color:#74c0fc\"><b>đường nâu thành bụng</b></span> và bị giãn nở nên bị <span style=\"color:#ff6b6b\"><b>rạn da</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Con so</b></span>: vết rạn màu <span style=\"color:#ffd43b\"><b>hồng hoặc nâu</b></span>; <span style=\"color:#74c0fc\"><b>con rạ</b></span>: vết rạn màu <span style=\"color:#ffd43b\"><b>hồng hoặc trắng</b></span>; các cơ thành bụng cũng bị giãn ra.<br><br><b>💡 Giải thích của AI:</b><br>Vết rạn mới có màu hồng hoặc nâu; vết cũ ở con rạ chuyển sang trắng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở da, cân, cơ",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK05-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Thay đổi ở vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi ở <span style=\"color:#74c0fc\"><b>vú</b></span> khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vú <span style=\"color:#74c0fc\"><b>to và căng lên</b></span> do tuyến sữa và ống dẫn sữa phát triển.<br>2) <span style=\"color:#74c0fc\"><b>Quầng vú</b></span> sẫm màu và rộng ra.<br>3) <span style=\"color:#74c0fc\"><b>Núm vú</b></span> to lên, màu sẫm lại, dài ra, dễ cương cứng.<br>4) Các tĩnh mạch to và nổi rõ dưới da gọi là <span style=\"color:#74c0fc\"><b>lưới tĩnh mạch Haller</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Hạt Montgomery</b></span> nổi rõ.<br>6) Có thể <span style=\"color:#ffd43b\"><b>ra sữa khi nắn</b></span> vào những tháng cuối.<br><br><b>💡 Giải thích của AI:</b><br>Các thay đổi này chuẩn bị cho việc tiết sữa sau đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi ở vú",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK05-S4_3_1-01",
+   "type": "basic",
+   "section": "S4_3_1",
+   "category": "Thay đổi về tim",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thay đổi về <span style=\"color:#74c0fc\"><b>tim</b></span> khi có thai: cung lượng, vị trí, nhịp, tiếng tim?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cung lượng tim</b></span> tăng lên <span style=\"color:#ffd43b\"><b>50%</b></span>, cao nhất vào <span style=\"color:#ffd43b\"><b>tháng thứ 7</b></span>, sau đó giảm dần tới khi đẻ.<br>2) Tim <span style=\"color:#74c0fc\"><b>nằm ngang và quay ra trước</b></span> do cơ hoành bị đẩy lên cao.<br>3) Nhịp tim tăng <span style=\"color:#ffd43b\"><b>10 - 15 nhịp/ phút</b></span>.<br>4) Tiếng tim tăng cường độ T1 vào tuần lễ <span style=\"color:#ffd43b\"><b>12 - 32</b></span>, sau đó giảm dần; có thể có <span style=\"color:#ff6b6b\"><b>tiếng thổi tâm thu cơ năng</b></span> do độ nhớt của máu giảm.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung to đẩy cơ hoành lên làm tim nằm ngang; máu loãng nên có thể nghe thổi cơ năng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về tim",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_3_1"
+   ]
+  },
+  {
+   "id": "SK05-S4_3_2-01",
+   "type": "basic",
+   "section": "S4_3_2",
+   "category": "Thay đổi về máu",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thay đổi về <span style=\"color:#74c0fc\"><b>khối lượng máu</b></span> khi có thai và hệ quả với hồng cầu, huyết sắc tố, hematocrit?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khối lượng máu tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, tăng theo tuổi thai và cao nhất vào <span style=\"color:#ffd43b\"><b>tháng thứ 7</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Huyết tương</b></span> tăng nhiều hơn <span style=\"color:#74c0fc\"><b>huyết cầu</b></span> nên hồng cầu, tỷ lệ huyết sắc tố và hematocrit đều <span style=\"color:#ff6b6b\"><b>giảm</b></span>.<br>3) Máu loãng làm cho <span style=\"color:#ff6b6b\"><b>thiếu máu nhược sắc</b></span> và <span style=\"color:#ff6b6b\"><b>giảm áp lực thẩm thấu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Huyết tương tăng nhiều hơn huyết cầu gây loãng máu sinh lý.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về máu",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_3_2"
+   ]
+  },
+  {
+   "id": "SK05-S4_3_2-02",
+   "type": "basic",
+   "section": "S4_3_2",
+   "category": "Thay đổi về máu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Các chỉ số <span style=\"color:#74c0fc\"><b>huyết học và sinh hóa máu</b></span> của thai phụ (hồng cầu, bạch cầu, tiểu cầu, protit, đông máu)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Hematocrit</b></span> giảm; số lượng hồng cầu dưới <span style=\"color:#ffd43b\"><b>4 triệu/mm3</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bạch cầu</b></span>: <span style=\"color:#ffd43b\"><b>8000 - 16000/ mm3</b></span>, công thức bạch cầu bình thường.<br>3) Số lượng <span style=\"color:#74c0fc\"><b>tiểu cầu</b></span> bình thường.<br>4) <span style=\"color:#74c0fc\"><b>Protit</b></span>: <span style=\"color:#ffd43b\"><b>60 - 70g/l</b></span>.<br>5) Thời gian máu chảy, máu đông bình thường; tỷ lệ <span style=\"color:#74c0fc\"><b>Prothrombin</b></span> bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ có hồng cầu, hematocrit giảm do loãng máu; các thành phần đông máu giữ bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về máu",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_3_2"
+   ]
+  },
+  {
+   "id": "SK05-S4_3_3-01",
+   "type": "basic",
+   "section": "S4_3_3",
+   "category": "Thay đổi mạch máu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>mạch máu</b></span> khi có thai: huyết áp tĩnh mạch chi dưới và huyết áp động mạch?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thai to đè vào <span style=\"color:#74c0fc\"><b>tĩnh mạch chủ dưới</b></span> và các tĩnh mạch tiểu khung nên có thể <span style=\"color:#ff6b6b\"><b>ứ huyết chi dưới</b></span> → huyết áp tĩnh mạch chi dưới <span style=\"color:#ffd43b\"><b>tăng</b></span>.<br>2) Các mạch máu mềm, dài và to ra, dễ giãn → huyết áp động mạch <span style=\"color:#ffd43b\"><b>không tăng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tĩnh mạch bị chèn ép nên áp lực tăng ở chi dưới, còn động mạch giãn nên áp lực không tăng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi mạch máu",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_3_3"
+   ]
+  },
+  {
+   "id": "SK05-S4_4-01",
+   "type": "basic",
+   "section": "S4_4",
+   "category": "Thay đổi về hô hấp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>hô hấp</b></span> của thai phụ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tăng tần số thở</b></span>, thở nhanh nông; <span style=\"color:#ff6b6b\"><b>thở khó, thở nhanh</b></span> ở những trường hợp <span style=\"color:#ff6b6b\"><b>đa ối, chửa đa thai</b></span>.<br>2) Mức tiêu thụ oxy tăng lên <span style=\"color:#ffd43b\"><b>15%</b></span> và <span style=\"color:#ffd43b\"><b>giảm</b></span> áp lực riêng phần khí <span style=\"color:#74c0fc\"><b>CO2</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung quá to trong đa ối, đa thai chèn vào cơ hoành nên thai phụ khó thở hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về hô hấp",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_4"
+   ]
+  },
+  {
+   "id": "SK05-S4_5-01",
+   "type": "basic",
+   "section": "S4_5",
+   "category": "Thay đổi về hệ tiết niệu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>thận, đài bể thận, niệu quản</b></span> khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Máu qua thận tăng từ <span style=\"color:#ffd43b\"><b>200 lên 250ml/ phút</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Tốc độ lọc cầu thận</b></span> tăng; đài bể thận và niệu quản thường <span style=\"color:#ff6b6b\"><b>giãn to và giảm nhu động</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Niệu quản</b></span> bị dài ra và cong queo, <span style=\"color:#ff6b6b\"><b>giảm trương lực</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhu động và trương lực giảm làm nước tiểu lưu chậm trong đường tiết niệu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về hệ tiết niệu",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK05-S4_5-02",
+   "type": "basic",
+   "section": "S4_5",
+   "category": "Thay đổi về hệ tiết niệu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>bàng quang</b></span> và <span style=\"color:#74c0fc\"><b>protein niệu</b></span> ở thai phụ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bàng quang</b></span> trong những tháng đầu có thể bị kích thích gây <span style=\"color:#ff6b6b\"><b>đái rắt</b></span>.<br>2) Có thể <span style=\"color:#ff6b6b\"><b>bí đái</b></span> do tử cung chèn ép.<br>3) Bình thường <span style=\"color:#ffd43b\"><b>không có Protein niệu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung to chèn bàng quang gây đái rắt hoặc bí đái; có protein niệu là bất thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về hệ tiết niệu",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK05-S4_6-01",
+   "type": "basic",
+   "section": "S4_6",
+   "category": "Thay đổi về tiêu hóa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>tiêu hóa</b></span> của thai phụ: <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span>, dạ dày, ruột thừa, ruột, trĩ, gan mật?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span> có biểu hiện <span style=\"color:#74c0fc\"><b>nghén</b></span>: buồn nôn, nôn, tăng tiết nước bọt, thay đổi vị giác và khứu giác; hết 3 tháng thai phụ trở lại ăn uống bình thường.<br>2) <span style=\"color:#74c0fc\"><b>Dạ dày</b></span> đôi khi có đau và cảm giác rát bỏng.<br>3) <span style=\"color:#74c0fc\"><b>Ruột thừa</b></span> bị đẩy lên cao hoặc sang bên nên khi <span style=\"color:#ff6b6b\"><b>viêm ruột thừa rất khó chẩn đoán</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Ruột non và đại tràng</b></span> giảm nhu động do bị chèn ép nên hay gây <span style=\"color:#ff6b6b\"><b>táo bón</b></span>.<br>5) Có thể bị <span style=\"color:#ff6b6b\"><b>trĩ</b></span> do táo bón và tăng áp lực tĩnh mạch chi dưới.<br>6) Chức năng <span style=\"color:#74c0fc\"><b>gan, mật</b></span> ít khi thay đổi khi có thai.<br><br><b>💡 Giải thích của AI:</b><br>Táo bón và áp lực tĩnh mạch tăng dẫn tới trĩ; ruột thừa đổi vị trí làm triệu chứng viêm ruột thừa không điển hình.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về tiêu hóa",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_6"
+   ]
+  },
+  {
+   "id": "SK05-S4_7-01",
+   "type": "basic",
+   "section": "S4_7",
+   "category": "Thay đổi hệ thống xương, khớp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>xương, khớp, dây chằng</b></span> khi có thai và nguyên nhân dễ <span style=\"color:#ff6b6b\"><b>loãng xương</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các xương bị <span style=\"color:#74c0fc\"><b>ngấm nước và mềm</b></span> so với trước.<br>2) Do <span style=\"color:#ff6b6b\"><b>hấp thụ canxi kém</b></span>, mặt khác canxi lại được huy động cho thai nhi nên thai phụ dễ bị <span style=\"color:#ff6b6b\"><b>loãng xương, sâu răng, dễ gãy xương</b></span>.<br>3) Các <span style=\"color:#74c0fc\"><b>khớp</b></span> mềm và giãn ra; các <span style=\"color:#74c0fc\"><b>dây chằng</b></span> bị ngấm nước nên cũng mềm ra.<br><br><b>💡 Giải thích của AI:</b><br>Canxi vừa hấp thụ kém vừa bị thai nhi lấy đi nên xương dễ yếu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi hệ thống xương, khớp",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_7"
+   ]
+  },
+  {
+   "id": "SK05-S4_8-01",
+   "type": "basic",
+   "section": "S4_8",
+   "category": "Thay đổi về thần kinh",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>thần kinh, cảm xúc, tâm lý</b></span> của thai phụ và liên quan với nội tiết?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dễ <span style=\"color:#ff6b6b\"><b>cáu gắt</b></span>, tính tình dễ thay đổi, <span style=\"color:#ff6b6b\"><b>trí nhớ bị giảm sút</b></span>.<br>2) Những thay đổi về thần kinh đều có liên quan mật thiết với những thay đổi về <span style=\"color:#74c0fc\"><b>nội tiết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nội tiết thai nghén thay đổi nhiều nên cảm xúc cũng dao động.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi về thần kinh",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_8"
+   ]
+  },
+  {
+   "id": "SK05-S4_9-01",
+   "type": "basic",
+   "section": "S4_9",
+   "category": "Thay đổi toàn thân",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tăng trọng lượng cơ thể</b></span> trong thai kỳ: tổng mức và từng giai đoạn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trung bình tăng <span style=\"color:#ffd43b\"><b>9 - 12kg</b></span>; tăng không đều.<br>2) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span> tăng ít: không quá <span style=\"color:#ffd43b\"><b>1,5kg</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>3 tháng giữa</b></span>: trung bình mỗi tuần <span style=\"color:#ffd43b\"><b>0,5kg</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>3 tháng cuối</b></span>: tăng <span style=\"color:#ffd43b\"><b>4 - 5kg</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cân nặng tăng ít lúc đầu, đều ở giữa và nhiều nhất ở cuối thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi toàn thân",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_9"
+   ]
+  },
+  {
+   "id": "SK05-S4_9-02",
+   "type": "basic",
+   "section": "S4_9",
+   "category": "Thay đổi toàn thân",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Phù sinh lý</b></span> ở thai phụ: vị trí, nguyên nhân và đặc điểm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường phù nhẹ <span style=\"color:#74c0fc\"><b>2 chi dưới</b></span> do chèn ép.<br>2) Phù hai chi dưới, <span style=\"color:#74c0fc\"><b>phù trắng, mềm, ấn lõm</b></span>; <span style=\"color:#51cf66\"><b>khi nghỉ ngơi giảm phù</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Không</b></span> có các triệu chứng khác kèm theo: huyết áp bình thường, không có Protein niệu.<br><br><b>💡 Giải thích của AI:</b><br>Phù do chèn ép đơn thuần, nghỉ ngơi giảm, không kèm tăng huyết áp hay protein niệu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi toàn thân",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_9"
+   ]
+  },
+  {
+   "id": "SK05-S4_9-03",
+   "type": "basic",
+   "section": "S4_9",
+   "category": "Thay đổi toàn thân: chuyển hóa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Thay đổi chuyển hóa</b></span> ở thai phụ (nhiệt độ, dự trữ kiềm, mạch, pH máu, nước tiểu, canxi, sắt)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tăng chuyển hóa</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Nhiệt độ</b></span> tăng cao trong <span style=\"color:#ffd43b\"><b>ba tháng đầu</b></span> do tác dụng của hoàng thể thai nghén; từ <span style=\"color:#ffd43b\"><b>tháng thứ 4</b></span> trở đi thân nhiệt trở lại bình thường.<br>3) <span style=\"color:#74c0fc\"><b>Dự trữ kiềm</b></span> giảm do tăng chuyển hóa.<br>4) <span style=\"color:#74c0fc\"><b>Mạch</b></span> tăng nhẹ.<br>5) <span style=\"color:#74c0fc\"><b>pH máu</b></span> hơi cao = <span style=\"color:#ffd43b\"><b>7,6</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Nước tiểu</b></span> có tỷ trọng thấp, các ion và ure trong nước tiểu không thay đổi.<br>7) <span style=\"color:#ff6b6b\"><b>Giảm hấp thụ canxi</b></span>, <span style=\"color:#ff6b6b\"><b>sắt máu giảm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hoàng thể thai nghén chỉ hoạt động mạnh 3 tháng đầu nên nhiệt độ chỉ tăng giai đoạn này.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Thay đổi toàn thân: chuyển hóa",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_9"
+   ]
+  },
+  {
+   "id": "SK05-S5-01",
+   "type": "basic",
+   "section": "S5",
+   "category": "Công tác tư vấn",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tư vấn</b></span> cho thai phụ về bệnh lý, và những <span style=\"color:#ff6b6b\"><b>dấu hiệu bất thường</b></span> cần đến cơ sở y tế khám ngay?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Người phụ nữ bị bệnh dù là gì cũng ảnh hưởng đến thay đổi bình thường, dẫn đến thay đổi bất thường; vì vậy <span style=\"color:#51cf66\"><b>trước khi mang thai nên trị bệnh nếu có</b></span>; khi có thai nếu bị bệnh phải điều trị đúng ở cơ sở y tế.<br>2) <span style=\"color:#51cf66\"><b>Tuyên truyền cho cộng đồng</b></span> những dấu hiệu thay đổi bình thường khi có thai và những dấu hiệu bất thường.<br>3) Dấu hiệu bất thường cần <span style=\"color:#ff6b6b\"><b>đến cơ sở y tế khám ngay</b></span>: <span style=\"color:#ff6b6b\"><b>nôn nhiều</b></span>; <span style=\"color:#ff6b6b\"><b>ra máu bất thường 3 tháng đầu</b></span>; <span style=\"color:#ff6b6b\"><b>ra máu tự nhiên 3 tháng cuối</b></span>; <span style=\"color:#ff6b6b\"><b>phù</b></span>; <span style=\"color:#ff6b6b\"><b>tăng cân nhanh</b></span>; <span style=\"color:#ff6b6b\"><b>bụng to quá nhanh</b></span>; <span style=\"color:#ff6b6b\"><b>bụng không to lên hoặc nhỏ đi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Toàn thân tham gia thai nghén, bệnh lý sẵn có làm lệch các thay đổi bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Công tác tư vấn",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK05-ALG-01",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Bảng giải mã β hCG",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã</b></span> <span style=\"color:#74c0fc\"><b>β hCG</b></span> theo tuổi thai và ý nghĩa với siêu âm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thai <span style=\"color:#ffd43b\"><b>< 6 tuần</b></span>: <span style=\"color:#ffd43b\"><b>500 IU/l</b></span>; <span style=\"color:#ffd43b\"><b>6 - 7 tuần</b></span>: <span style=\"color:#ffd43b\"><b>1500 IU/l</b></span>; <span style=\"color:#ffd43b\"><b>7 - 10 tuần</b></span>: <span style=\"color:#ffd43b\"><b>10000 - < 500000 IU/l</b></span>.<br>2) IF <span style=\"color:#ff6b6b\"><b>thai sắp sảy hoặc GEU</b></span> THEN <span style=\"color:#ffd43b\"><b>500 - < 1500 IU/l</b></span>.<br>3) IF <span style=\"color:#ff6b6b\"><b>chửa trứng</b></span> THEN <span style=\"color:#ffd43b\"><b>> 500000 IU/l</b></span>.<br>4) IF β hCG <span style=\"color:#ffd43b\"><b>> 1500 IU/l</b></span> mà siêu âm đầu dò âm đạo chưa có túi thai trong buồng tử cung THEN <span style=\"color:#ff6b6b\"><b>nghi ngờ chửa ngoài tử cung</b></span>.<br>5) IF β hCG <span style=\"color:#ffd43b\"><b>> 2000 IU/l</b></span> THEN siêu âm đầu dò bụng chắc chắn có túi thai trong buồng tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi ngưỡng cho biết khi nào túi thai phải thấy được, nên không thấy là dấu hiệu cảnh báo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Bảng giải mã β hCG",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S2_1",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK05-ALG-02",
+   "type": "basic",
+   "section": "S3_1_1_3",
+   "category": "Tính tuổi thai theo cao tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng kiểm</b></span>: các bước <span style=\"color:#51cf66\"><b>tính tuổi thai</b></span> từ chiều cao tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đo <span style=\"color:#74c0fc\"><b>cao tử cung</b></span>.<br>2) Mỗi tháng tử cung phát triển trên khớp mu trung bình <span style=\"color:#ffd43b\"><b>4cm</b></span> từ <span style=\"color:#ffd43b\"><b>tháng thứ hai</b></span> trở đi.<br>3) Áp dụng: <span style=\"color:#51cf66\"><b>Tuổi thai = Cao tử cung / 4 + 1</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Công thức suy trực tiếp từ mức tăng chiều cao 4cm mỗi tháng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Tính tuổi thai theo cao tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_3",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK05-ALG-03",
+   "type": "basic",
+   "section": "S3_1_1_2",
+   "category": "So sánh hình thể tử cung theo thời kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh nhanh</b></span> <span style=\"color:#74c0fc\"><b>hình thể tử cung</b></span> theo ba giai đoạn và theo ngôi thai ở 3 tháng cuối?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span>: hình cầu; <span style=\"color:#ffd43b\"><b>3 tháng giữa</b></span>: hình trứng; <span style=\"color:#ffd43b\"><b>3 tháng cuối</b></span>: phụ thuộc tư thế thai.<br>2) IF thai nằm dọc THEN <span style=\"color:#74c0fc\"><b>hình trứng</b></span>.<br>3) IF thai nằm ngang THEN <span style=\"color:#74c0fc\"><b>hình bè ngang</b></span>.<br>4) IF tử cung hai sừng THEN <span style=\"color:#74c0fc\"><b>hình trái tim</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hình dạng thay đổi theo kích thước thai và trục của thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · So sánh hình thể tử cung theo thời kỳ",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1_2",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK05-ALG-04",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "So sánh thân và eo tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh</b></span> <span style=\"color:#74c0fc\"><b>thân tử cung và eo tử cung</b></span> khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cấu tạo cơ</b></span>: thân có <span style=\"color:#ffd43b\"><b>3 lớp</b></span> (đan, dọc, vòng); eo có <span style=\"color:#ffd43b\"><b>2 lớp</b></span> (vòng, dọc), không có cơ đan.<br>2) <span style=\"color:#74c0fc\"><b>Phúc mạc</b></span>: thân dính chặt vào lớp cơ; eo lỏng lẻo, dễ bóc tách.<br>3) <span style=\"color:#74c0fc\"><b>Khi có thai</b></span>: eo giãn, dài, mỏng thành <span style=\"color:#74c0fc\"><b>đoạn dưới</b></span>; con so thành lập từ đầu tháng thứ 9, con rạ chỉ khi chuyển dạ.<br><br><b>💡 Giải thích của AI:</b><br>Eo khác thân ở cấu tạo cơ và phúc mạc nên biến đổi thành đoạn dưới.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · So sánh thân và eo tử cung",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK05-ALG-05",
+   "type": "basic",
+   "section": "S4_9",
+   "category": "Bảng giải mã số liệu thay đổi toàn thân",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã</b></span> các <span style=\"color:#ffd43b\"><b>con số</b></span> thay đổi của thai phụ (cung lượng tim, khối lượng máu, oxy, cân nặng)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cung lượng tim</b></span> tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, cao nhất tháng thứ <span style=\"color:#ffd43b\"><b>7</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Khối lượng máu</b></span> tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, cao nhất tháng thứ <span style=\"color:#ffd43b\"><b>7</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Nhịp tim</b></span> tăng <span style=\"color:#ffd43b\"><b>10 - 15 nhịp/ phút</b></span>; mức tiêu thụ oxy tăng <span style=\"color:#ffd43b\"><b>15%</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Cân nặng</b></span>: tăng <span style=\"color:#ffd43b\"><b>9 - 12kg</b></span> (đầu ≤ 1,5kg; giữa 0,5kg/tuần; cuối 4 - 5kg).<br><br><b>💡 Giải thích của AI:</b><br>Các thay đổi tuần hoàn đều đạt đỉnh cùng thời điểm tháng thứ 7.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Bảng giải mã số liệu thay đổi toàn thân",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "S4_9",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK05-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi: nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày sự thay đổi về <span style=\"color:#74c0fc\"><b>nội tiết</b></span> và các <span style=\"color:#74c0fc\"><b>tuyến nội tiết</b></span> ở phụ nữ khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>HCG</b></span>: do tế bào langhans của rau sản xuất sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span>, cực đại tuần <span style=\"color:#ffd43b\"><b>8</b></span>, giảm dần đến chuyển dạ; kích thích hoàng thể tiết Progesteron, duy trì thai nửa đầu thai kỳ.<br>2) <span style=\"color:#74c0fc\"><b>Steroid</b></span>: tăng nhiều, chủ yếu Progesteron và Estrogen; hoàng thể đến hết tháng <span style=\"color:#ffd43b\"><b>3</b></span>, từ tháng <span style=\"color:#ffd43b\"><b>4</b></span> bánh rau thay thế; thai nhi đưa estriol vào máu mẹ.<br>3) <span style=\"color:#74c0fc\"><b>Tuyến yên</b></span>: to lên ≈ <span style=\"color:#ffd43b\"><b>35%</b></span>, prolactin bị ức chế 5 tháng đầu, thoát ức chế sau 5 tháng, sau đẻ tiết sữa.<br>4) <span style=\"color:#74c0fc\"><b>Tuyến giáp</b></span> phì đại; <span style=\"color:#74c0fc\"><b>cận giáp</b></span> thiểu năng (tetani, sâu răng); <span style=\"color:#74c0fc\"><b>thượng thận</b></span> phì đại, tăng giữ nước.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt các mục nội tiết của bài.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Câu hỏi: nội tiết",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK05-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi: bộ phận sinh dục",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày sự thay đổi về <span style=\"color:#74c0fc\"><b>giải phẫu ở bộ phận sinh dục</b></span> người phụ nữ khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thân tử cung</b></span>: trọng lượng <span style=\"color:#ffd43b\"><b>50 - 60g</b></span> → <span style=\"color:#ffd43b\"><b>1000g</b></span>; hình cầu → hình trứng; vị trí lên ổ bụng <span style=\"color:#ffd43b\"><b>4cm</b></span>/tháng; cấu tạo 3 lớp, cơ 3 lớp (đan, dọc, vòng); thể tích <span style=\"color:#ffd43b\"><b>4000 - 5000ml</b></span>; mềm, co bóp và co rút.<br>2) <span style=\"color:#74c0fc\"><b>Eo tử cung</b></span>: giãn, dài, mỏng thành đoạn dưới (dài <span style=\"color:#ffd43b\"><b>10cm</b></span> khi chuyển dạ); dấu hiệu Hegar.<br>3) <span style=\"color:#74c0fc\"><b>Cổ tử cung</b></span>: mềm, tím, nút nhầy.<br>4) <span style=\"color:#74c0fc\"><b>Âm hộ, âm đạo</b></span>: tím, dày, dài ra, khí hư tăng, pH axít, dễ nhiễm nấm.<br>5) <span style=\"color:#74c0fc\"><b>Buồng trứng</b></span>: hoàng thể thai nghén, không phóng noãn; <span style=\"color:#74c0fc\"><b>vòi trứng</b></span>: to và dài ra, niêm mạc thành màng rụng.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt các thay đổi ở cơ quan sinh dục.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Câu hỏi: bộ phận sinh dục",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK05-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi: tuần hoàn, hô hấp, tiêu hóa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày sự thay đổi về <span style=\"color:#74c0fc\"><b>tuần hoàn, hô hấp, tiêu hóa</b></span> của người mẹ khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tim</b></span>: cung lượng tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, tim nằm ngang, nhịp tăng <span style=\"color:#ffd43b\"><b>10 - 15</b></span>, tiếng thổi cơ năng; <span style=\"color:#74c0fc\"><b>máu</b></span>: khối lượng tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, loãng máu, thiếu máu nhược sắc; <span style=\"color:#74c0fc\"><b>mạch</b></span>: ứ huyết chi dưới, huyết áp động mạch không tăng.<br>2) <span style=\"color:#74c0fc\"><b>Hô hấp</b></span>: tăng tần số thở, thở nhanh nông, tiêu thụ oxy tăng <span style=\"color:#ffd43b\"><b>15%</b></span>, giảm áp lực riêng phần CO2.<br>3) <span style=\"color:#74c0fc\"><b>Tiêu hóa</b></span>: nghén 3 tháng đầu, dạ dày rát bỏng, ruột thừa bị đẩy lên, táo bón, trĩ, gan mật ít thay đổi.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt các hệ cơ quan nêu trong câu hỏi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Câu hỏi: tuần hoàn, hô hấp, tiêu hóa",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK05-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi: tuần hoàn, tiết niệu, xương khớp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày sự thay đổi về <span style=\"color:#74c0fc\"><b>tuần hoàn, tiết niệu, xương khớp</b></span> của người mẹ khi có thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tuần hoàn</b></span>: cung lượng tim và khối lượng máu tăng <span style=\"color:#ffd43b\"><b>50%</b></span>, cao nhất tháng <span style=\"color:#ffd43b\"><b>7</b></span>; huyết tương tăng nhiều hơn huyết cầu; mạch máu mềm, giãn.<br>2) <span style=\"color:#74c0fc\"><b>Tiết niệu</b></span>: máu qua thận tăng <span style=\"color:#ffd43b\"><b>200 → 250ml/ phút</b></span>, đài bể thận, niệu quản giãn, giảm nhu động; bàng quang đái rắt, có thể bí đái; không có protein niệu.<br>3) <span style=\"color:#74c0fc\"><b>Xương khớp</b></span>: xương ngấm nước, mềm, dễ loãng xương, sâu răng, gãy xương; khớp và dây chằng mềm, giãn.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt các hệ cơ quan nêu trong câu hỏi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai · Câu hỏi: tuần hoàn, tiết niệu, xương khớp",
+   "tags": [
+    "SK-05",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  }
+ ]
+}

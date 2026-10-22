@@ -1,0 +1,910 @@
+{
+ "cards": [
+  {
+   "id": "SK13-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Định nghĩa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Hậu sản</b></span> là gì và kéo dài bao lâu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là thời gian để <span style=\"color:#74c0fc\"><b>trở lại bình thường của các cơ quan sinh dục</b></span> về mặt giải phẫu và sinh lý (ngoại trừ <span style=\"color:#74c0fc\"><b>vú</b></span> vẫn tiếp tục phát triển để tiết sữa).<br>2) Thời gian này là <span style=\"color:#ffd43b\"><b>6 tuần (42 ngày)</b></span> tính từ sau khi đẻ.<br><br><b>💡 Giải thích của AI:</b><br>Hậu sản là giai đoạn phục hồi; riêng vú là ngoại lệ vì còn phải tiết sữa nuôi con.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 1. Định nghĩa",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK13-S1-C01",
+   "type": "cloze",
+   "section": "S1",
+   "category": "Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thời kỳ hậu sản kéo dài {{c1::<span style=\"color:#ffd43b\"><b>6 tuần (42 ngày)</b></span>}} tính từ sau khi đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 1. Định nghĩa",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-01",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Thân tử cung</b></span> hậu sản: <span style=\"color:#ffd43b\"><b>trọng lượng</b></span> ngay sau đẻ và khi trở về bình thường là bao nhiêu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngay sau đẻ nặng khoảng <span style=\"color:#ffd43b\"><b>1.000 gram</b></span>, sau đó giảm dần.<br>2) Đến cuối thời kỳ hậu sản trở về trọng lượng bình thường như khi chưa có thai (<span style=\"color:#ffd43b\"><b>50- 60 g</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Tử cung giảm từ khoảng 1.000 g về 50-60 g cho thấy mức độ co hồi rất lớn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-02",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trên lâm sàng, thân tử cung hậu sản có <span style=\"color:#ffd43b\"><b>3 hiện tượng</b></span> nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tử cung co rút</b></span><br>2) <span style=\"color:#74c0fc\"><b>Tử cung co bóp</b></span><br>3) <span style=\"color:#74c0fc\"><b>Tử cung co hồi</b></span><br><br><b>💡 Giải thích của AI:</b><br>Ba hiện tượng khác nhau về thời điểm và biểu hiện: co rút (vài giờ), co bóp (đau, ra máu), co hồi (nhỏ dần theo ngày).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-03",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tử cung co rút</b></span> sau đẻ: diễn ra thế nào, gọi là gì và đáy tử cung ở đâu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau khi đẻ, tử cung co rút lại trong <span style=\"color:#ffd43b\"><b>vài giờ</b></span> tạo thành một khối chắc, gọi là <span style=\"color:#74c0fc\"><b>cầu an toàn</b></span>.<br>2) Lúc này đáy tử cung ở ngay <span style=\"color:#ffd43b\"><b>dưới rốn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khối chắc này chèn các mạch máu vùng rau bám nên có tên cầu an toàn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-04",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tử cung co bóp</b></span> sau đẻ biểu hiện thế nào và gặp ở ai nhiều hơn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biểu hiện bởi <span style=\"color:#ff6b6b\"><b>đau bụng, ra máu</b></span> và sản dịch chảy ra ngoài.<br>2) Các cơn đau biểu hiện ở người <span style=\"color:#ffd43b\"><b>con rạ nhiều hơn con so</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Co bóp tống máu và sản dịch ra ngoài nên gây đau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-05",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tử cung co hồi</b></span> sau đẻ: vị trí đáy tử cung, tốc độ co hồi mỗi ngày, ngày đầu và thời điểm không sờ thấy nữa?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau khi đẻ đáy tử cung ở trên khớp vệ khoảng <span style=\"color:#ffd43b\"><b>13 cm</b></span>.<br>2) Mỗi ngày co hồi khoảng <span style=\"color:#ffd43b\"><b>1 cm</b></span>; riêng ngày đầu có thể nhanh hơn, khoảng <span style=\"color:#ffd43b\"><b>2 đến 3 cm</b></span>.<br>3) Sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span> không sờ thấy tử cung trên khớp vệ nữa.<br><br><b>💡 Giải thích của AI:</b><br>13 cm giảm khoảng 1 cm mỗi ngày nên cần khoảng 2 tuần để tử cung xuống hẳn sau khớp vệ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-C01",
+   "type": "cloze",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tử cung sau đẻ nặng khoảng {{c1::<span style=\"color:#ffd43b\"><b>1.000 gram</b></span>}}, trở về {{c1::<span style=\"color:#ffd43b\"><b>50- 60 g</b></span>}} khi hết hậu sản.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-C02",
+   "type": "cloze",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Khối chắc do tử cung co rút sau đẻ gọi là {{c1::<span style=\"color:#74c0fc\"><b>cầu an toàn</b></span>}}, đáy tử cung ở ngay dưới rốn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_1-C03",
+   "type": "cloze",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sau đẻ đáy tử cung ở trên khớp vệ khoảng {{c1::<span style=\"color:#ffd43b\"><b>13 cm</b></span>}}, mỗi ngày co hồi khoảng {{c1::<span style=\"color:#ffd43b\"><b>1 cm</b></span>}}, ngày đầu {{c1::<span style=\"color:#ffd43b\"><b>2 đến 3 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_2-01",
+   "type": "basic",
+   "section": "S2_1_2",
+   "category": "Phần dưới tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi của <span style=\"color:#74c0fc\"><b>đoạn dưới và cổ tử cung</b></span> trong hậu sản (thời điểm ngày thứ mấy)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đoạn dưới</b></span> ngắn lại và thành eo tử cung vào ngày thứ <span style=\"color:#ffd43b\"><b>5</b></span> sau đẻ.<br>2) <span style=\"color:#74c0fc\"><b>Cổ tử cung</b></span> ngắn và nhỏ lại: lỗ trong đóng vào ngày thứ <span style=\"color:#ffd43b\"><b>5 đến thứ 8</b></span>.<br>3) Lỗ ngoài đóng vào ngày thứ <span style=\"color:#ffd43b\"><b>12</b></span> hoặc hé mở, có khi thấy lộ tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Lỗ trong đóng trước, lỗ ngoài đóng sau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.2. Phần dưới tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_2"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_2-C01",
+   "type": "cloze",
+   "section": "S2_1_2",
+   "category": "Phần dưới tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Lỗ trong cổ tử cung đóng vào ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>5 đến thứ 8</b></span>}}, lỗ ngoài đóng vào ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>12</b></span>}} hoặc hé mở.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.2. Phần dưới tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_2"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_3-01",
+   "type": "basic",
+   "section": "S2_1_3",
+   "category": "Nội mạc tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Nội mạc tử cung</b></span> trải qua <span style=\"color:#ffd43b\"><b>2 giai đoạn</b></span> nào để trở lại chức phận bình thường?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Giai đoạn thoái triển</b></span><br>2) <span style=\"color:#74c0fc\"><b>Giai đoạn phát triển</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nội mạc cũ phải bong ra trước rồi mới tái tạo từ lớp đáy.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.3. Nội mạc tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_3-02",
+   "type": "basic",
+   "section": "S2_1_3",
+   "category": "Nội mạc tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Giai đoạn thoái triển</b></span> của nội mạc tử cung: thời gian và diễn biến?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xảy ra trong <span style=\"color:#ffd43b\"><b>14 ngày đầu</b></span> sau đẻ.<br>2) <span style=\"color:#ff6b6b\"><b>Lớp bề mặt bị hoại tử</b></span> và thoát ra ngoài cùng với sản dịch.<br>3) <span style=\"color:#74c0fc\"><b>Lớp đáy gồm đáy tuyến</b></span> vẫn còn nguyên vẹn và là nguồn gốc của niêm mạc tử cung mới.<br><br><b>💡 Giải thích của AI:</b><br>Lớp đáy còn nguyên nên có nguồn tái tạo niêm mạc mới.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.3. Nội mạc tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_3-03",
+   "type": "basic",
+   "section": "S2_1_3",
+   "category": "Nội mạc tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Giai đoạn phát triển</b></span> của nội mạc tử cung: thời gian, hormone chi phối và kết quả?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dưới ảnh hưởng của <span style=\"color:#74c0fc\"><b>estrogen và progesteron</b></span> sau <span style=\"color:#ffd43b\"><b>3-6 tuần</b></span>.<br>2) Niêm mạc tử cung được phục hồi hoàn toàn.<br>3) Sẽ thực hiện <span style=\"color:#ffd43b\"><b>chu kỳ kinh nguyệt đầu tiên</b></span> nếu không cho con bú.<br><br><b>💡 Giải thích của AI:</b><br>Cho con bú làm chậm sự trở lại của kinh nguyệt trong bài này.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.3. Nội mạc tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_1_3-C01",
+   "type": "cloze",
+   "section": "S2_1_3",
+   "category": "Nội mạc tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Giai đoạn thoái triển của nội mạc xảy ra trong {{c1::<span style=\"color:#ffd43b\"><b>14 ngày đầu</b></span>}} sau đẻ; giai đoạn phát triển phục hồi hoàn toàn sau {{c1::<span style=\"color:#ffd43b\"><b>3-6 tuần</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.3. Nội mạc tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Âm đạo, âm hộ và phần phụ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi ở <span style=\"color:#74c0fc\"><b>âm hộ, âm đạo, màng trinh, phần phụ</b></span> trong hậu sản?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Âm hộ, âm đạo</b></span> bị giãn căng khi đẻ co dần và trở về kích thước bình thường vào ngày thứ <span style=\"color:#ffd43b\"><b>15</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Màng trinh</b></span> bị rách, chỉ còn lại di tích của rìa màng trinh.<br>3) <span style=\"color:#74c0fc\"><b>Phần phụ</b></span> trở lại bình thường trong hố chậu.<br><br><b>💡 Giải thích của AI:</b><br>Các cơ quan bị giãn khi đẻ dần trở về vị trí và kích thước cũ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.2. Thay đổi ở âm đạo, âm hộ và phần phụ",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK13-S2_2-02",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Âm đạo, âm hộ và phần phụ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tầng sinh môn</b></span> sau đẻ: các cơ lấy lại trương lực phụ thuộc những yếu tố nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các <span style=\"color:#74c0fc\"><b>cơ nông và sâu</b></span> lấy lại trương lực tùy thuộc vào nhiều yếu tố:<br>2) - Diễn biến của cuộc chuyển dạ.<br>- Can thiệp (<span style=\"color:#ff6b6b\"><b>có cắt tầng sinh môn</b></span> hay không).<br>- Yếu tố cá nhân (dinh dưỡng, di truyền).<br>- <span style=\"color:#51cf66\"><b>Thể dục sau đẻ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chấn thương tầng sinh môn khi đẻ càng nhiều thì phục hồi trương lực càng chậm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.2. Thay đổi ở âm đạo, âm hộ và phần phụ",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK13-S2_2-C01",
+   "type": "cloze",
+   "section": "S2_2",
+   "category": "Âm đạo, âm hộ và phần phụ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Âm hộ, âm đạo trở về kích thước bình thường vào ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>15</b></span>}} sau đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.2. Thay đổi ở âm đạo, âm hộ và phần phụ",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK13-S2_3-01",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Thay đổi ở vú",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Những thay đổi của <span style=\"color:#74c0fc\"><b>vú</b></span> vài ngày sau đẻ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vú <span style=\"color:#ff6b6b\"><b>phát triển nhanh, căng to</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Núm vú</b></span> to và dài ra, <span style=\"color:#74c0fc\"><b>tĩnh mạch vú</b></span> nổi rõ.<br>3) <span style=\"color:#74c0fc\"><b>Tuyến sữa</b></span> phát triển to lên, có khi lan tới tận nách.<br>4) Có hiện tượng tiết sữa, thường xảy ra sau đẻ <span style=\"color:#ffd43b\"><b>2 - 3 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chuẩn bị tiết sữa nên vú, tuyến sữa và mạch máu vú đều phát triển.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.3. Thay đổi ở vú",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_3-02",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Thay đổi ở vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Cơ chế xuống sữa</b></span> sau đẻ và điều gì duy trì sự tiết sữa?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do nồng độ <span style=\"color:#74c0fc\"><b>estrogen</b></span> <span style=\"color:#ff6b6b\"><b>tụt xuống đột ngột</b></span> sau đẻ.<br>2) <span style=\"color:#74c0fc\"><b>Prolactin</b></span> được giải phóng và tác dụng lên tuyến sữa gây ra sự tiết sữa.<br>3) Sự tiết sữa được duy trì bởi <span style=\"color:#51cf66\"><b>động tác bú</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Estrogen giảm làm hết ức chế, prolactin phát huy tác dụng; bú liên tục duy trì kích thích.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.3. Thay đổi ở vú",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_3-C01",
+   "type": "cloze",
+   "section": "S2_3",
+   "category": "Thay đổi ở vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Xuống sữa do nồng độ {{c1::<span style=\"color:#74c0fc\"><b>estrogen</b></span>}} tụt đột ngột, {{c1::<span style=\"color:#74c0fc\"><b>prolactin</b></span>}} được giải phóng; thường xảy ra sau đẻ {{c1::<span style=\"color:#ffd43b\"><b>2 - 3 ngày</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.3. Thay đổi ở vú",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK13-S2_4-01",
+   "type": "basic",
+   "section": "S2_4",
+   "category": "Thay đổi ở hệ tiết niệu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Sau đẻ, <span style=\"color:#74c0fc\"><b>hệ tiết niệu</b></span> thay đổi thế nào và hậu quả gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thành bàng quang và niêm mạc niệu đạo</b></span> bị <span style=\"color:#ff6b6b\"><b>xung huyết</b></span>.<br>2) Gây ra tình trạng <span style=\"color:#ff6b6b\"><b>bí tiểu</b></span>.<br>3) Bàng quang xung huyết nên <span style=\"color:#ffd43b\"><b>nhạy cảm hơn</b></span> đối với sự thay đổi khối lượng nước tiểu.<br><br><b>💡 Giải thích của AI:</b><br>Xung huyết, phù nề làm cản trở đi tiểu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.4. Thay đổi ở hệ tiết niệu",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_4"
+   ]
+  },
+  {
+   "id": "SK13-S3_1-01",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Sự co hồi tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Co hồi tử cung</b></span> theo ngày: mức thu nhỏ và thời điểm không còn nắn thấy đáy tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử cung thu nhỏ lại ngay sau đẻ, đáy tử cung trên vệ <span style=\"color:#ffd43b\"><b>13 cm</b></span>.<br>2) Trung bình mỗi ngày thu lại <span style=\"color:#ffd43b\"><b>1 cm</b></span>.<br>3) Đến ngày thứ <span style=\"color:#ffd43b\"><b>12-13</b></span> thì không còn nắn thấy đáy tử cung trên khớp vệ.<br><br><b>💡 Giải thích của AI:</b><br>Phù hợp với 13 cm giảm 1 cm mỗi ngày.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.1. Sự co hồi tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK13-S3_1-02",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Sự co hồi tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Co hồi tử cung</b></span> nhanh hơn hay chậm hơn trong các so sánh nào (con so/con rạ, đẻ thường/mổ, bú/không bú, nhiễm khuẩn, bí tiểu, táo bón)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Con <span style=\"color:#51cf66\"><b>so</b></span> co hồi nhanh hơn con <span style=\"color:#ff6b6b\"><b>rạ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Đẻ thường</b></span> nhanh hơn <span style=\"color:#ff6b6b\"><b>mổ đẻ</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Cho con bú</b></span> nhanh hơn không cho con bú.<br>4) Tử cung <span style=\"color:#ff6b6b\"><b>bị nhiễm khuẩn</b></span> co hồi chậm hơn tử cung không nhiễm khuẩn.<br>5) <span style=\"color:#ff6b6b\"><b>Bí tiểu và táo bón</b></span> cũng làm tử cung co hồi chậm hơn.<br><br><b>💡 Giải thích của AI:</b><br>Bú kích thích co tử cung; nhiễm khuẩn, bàng quang hoặc ruột đầy cản trở co hồi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.1. Sự co hồi tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK13-S3_1-03",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Sự co hồi tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Cơn đau tử cung</b></span> sau đẻ: nguyên nhân, đối tượng đau nhiều và diễn tiến?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do tử cung <span style=\"color:#74c0fc\"><b>co bóp</b></span> tống <span style=\"color:#ff6b6b\"><b>máu cục và sản dịch</b></span> ra ngoài.<br>2) Người <span style=\"color:#ffd43b\"><b>con rạ đau nhiều hơn con so</b></span>.<br>3) Thường cơn đau <span style=\"color:#ffd43b\"><b>giảm dần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cơn đau là hệ quả của việc tử cung co để tống máu cục.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.1. Sự co hồi tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK13-S3_1-C01",
+   "type": "cloze",
+   "section": "S3_1",
+   "category": "Sự co hồi tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Đến ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>12-13</b></span>}} thì không còn nắn thấy đáy tử cung trên khớp vệ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.1. Sự co hồi tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK13-S3_2-01",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sản dịch</b></span> là gì và có <span style=\"color:#74c0fc\"><b>cấu tạo</b></span> thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là chất dịch chảy ra ngoài âm hộ trong thời kỳ đầu của thời kỳ hậu sản.<br>2) Cấu tạo: mảnh vụn của <span style=\"color:#74c0fc\"><b>màng rụng</b></span>, <span style=\"color:#ff6b6b\"><b>máu cục và máu loãng</b></span>, các tế bào và dịch tiết ra từ âm đạo.<br><br><b>💡 Giải thích của AI:</b><br>Sản dịch là sản phẩm bong của lớp bề mặt nội mạc cùng máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-S3_2-02",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tính chất</b></span> chung của sản dịch (vô trùng, mùi, pH)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Vô trùng</b></span>.<br>2) Mùi <span style=\"color:#74c0fc\"><b>tanh nồng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>pH kiềm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sản dịch bình thường vô trùng nên nếu có mùi hôi cần nghĩ khác bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-S3_2-03",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Màu sắc sản dịch</b></span> thay đổi thế nào theo các ngày sau đẻ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>2 - 3 ngày đầu</b></span>: màu <span style=\"color:#ff6b6b\"><b>đỏ tươi</b></span>, về sau <span style=\"color:#ff6b6b\"><b>đỏ sẫm</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Ngày 4 - 8</b></span>: loãng hơn, lẫn nhầy lờ lờ máu cá.<br>3) <span style=\"color:#ffd43b\"><b>Ngày 8 - 12</b></span>: chỉ là chất nhầy, trong.<br><br><b>💡 Giải thích của AI:</b><br>Lượng máu giảm dần nên sản dịch nhạt màu và trong dần.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-S3_2-04",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Số lượng sản dịch</b></span> và thời điểm hết; ở phụ nữ không cho con bú có hiện tượng gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngày thứ <span style=\"color:#ffd43b\"><b>1 và 2</b></span> ra nhiều.<br>2) Sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span> sẽ hết hẳn.<br>3) Không cho con bú: <span style=\"color:#ffd43b\"><b>ba tuần</b></span> sau sinh có thể thấy <span style=\"color:#ff6b6b\"><b>kinh non</b></span> do niêm mạc tử cung đã phục hồi.<br><br><b>💡 Giải thích của AI:</b><br>Niêm mạc phục hồi sớm khi không cho con bú nên kinh trở lại sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-S3_2-C01",
+   "type": "cloze",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sản dịch: {{c1::<span style=\"color:#ffd43b\"><b>ngày 4 - 8</b></span> loãng, lẫn nhầy lờ lờ máu cá; <span style=\"color:#ffd43b\"><b>ngày 8 - 12</b></span> chỉ là chất nhầy, trong; <span style=\"color:#ffd43b\"><b>sau 2 tuần</b></span> hết hẳn}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-S3_3-01",
+   "type": "basic",
+   "section": "S3_3",
+   "category": "Sự xuống sữa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Xuống sữa</b></span>: thời điểm ở con so, con rạ và <span style=\"color:#ff6b6b\"><b>triệu chứng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Con <span style=\"color:#74c0fc\"><b>so</b></span>: ngày thứ <span style=\"color:#ffd43b\"><b>3</b></span>; con <span style=\"color:#74c0fc\"><b>rạ</b></span>: ngày thứ <span style=\"color:#ffd43b\"><b>2</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Sốt nhẹ, ớn lạnh, nhức đầu, khó chịu, mạch hơi nhanh</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Hai vú cương to và đau</b></span>.<br>4) Triệu chứng không mang tính điển hình; sau <span style=\"color:#ffd43b\"><b>24 giờ - 48 giờ</b></span> mất khi có hiện tượng tiết sữa.<br><br><b>💡 Giải thích của AI:</b><br>Các triệu chứng toàn thân nhẹ và tự hết khi sữa bắt đầu tiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.3. Sự xuống sữa",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK13-S3_3-C01",
+   "type": "cloze",
+   "section": "S3_3",
+   "category": "Sự xuống sữa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Xuống sữa ở con so vào ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>3</b></span>}}, con rạ ngày thứ {{c1::<span style=\"color:#ffd43b\"><b>2</b></span>}}; triệu chứng mất sau {{c1::<span style=\"color:#ffd43b\"><b>24 giờ - 48 giờ</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.3. Sự xuống sữa",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK13-S3_4-01",
+   "type": "basic",
+   "section": "S3_4",
+   "category": "Các hiện tượng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Cơn rét run sinh lý</b></span> sau đẻ: nguyên nhân và đặc điểm?",
+   "asks": ["nguyên nhân", "đặc điểm"],
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân:</b> hay xảy ra ngay sau khi đẻ do <span style=\"color:#74c0fc\"><b>mất nhiệt</b></span>.<br>2) <b>Đặc điểm:</b> <span style=\"color:#51cf66\"><b>mạch, nhiệt độ và huyết áp vẫn bình thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đặc điểm sinh lý giúp phân biệt với rét run do nhiễm khuẩn có dấu hiệu sinh tồn bất thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.4. Các hiện tượng khác",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK13-S3_4-02",
+   "type": "basic",
+   "section": "S3_4",
+   "category": "Các hiện tượng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thay đổi <span style=\"color:#74c0fc\"><b>mạch, nhịp thở, cân nặng</b></span> trong hậu sản?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Mạch</b></span> thường chậm lại khoảng <span style=\"color:#ffd43b\"><b>10 nhịp/phút</b></span> và trở lại bình thường sau <span style=\"color:#ffd43b\"><b>5 ngày</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Nhịp thở</b></span> sâu và chậm hơn do cơ hoành không bị đẩy lên cao nữa.<br>3) <span style=\"color:#74c0fc\"><b>Trọng lượng</b></span> giảm <span style=\"color:#ffd43b\"><b>3 - 5kg</b></span> ngay sau sinh; có thể giảm dần trong <span style=\"color:#ffd43b\"><b>2 tuần</b></span> tiếp theo do giảm tình trạng phù.<br><br><b>💡 Giải thích của AI:</b><br>Hết chèn ép của tử cung to lên cơ hoành nên thở sâu và chậm hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.4. Các hiện tượng khác",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK13-S3_4-03",
+   "type": "basic",
+   "section": "S3_4",
+   "category": "Các hiện tượng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nếu <span style=\"color:#74c0fc\"><b>không cho con bú</b></span>, khi nào có <span style=\"color:#ff6b6b\"><b>kinh lại lần đầu</b></span> và đặc điểm kỳ kinh đó?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau đẻ <span style=\"color:#ffd43b\"><b>5-6 tuần</b></span> có thể có kinh lại lần đầu tiên, là dấu hiệu chấm dứt thời kỳ hậu sản.<br>2) Kỳ kinh đầu thường <span style=\"color:#ffd43b\"><b>nhiều và kéo dài hơn</b></span> các kỳ kinh bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Khớp với mốc hậu sản 6 tuần.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.4. Các hiện tượng khác",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK13-S3_4-C01",
+   "type": "cloze",
+   "section": "S3_4",
+   "category": "Các hiện tượng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sau sinh cân nặng giảm {{c1::<span style=\"color:#ffd43b\"><b>3 - 5kg</b></span>}}; mạch chậm khoảng {{c1::<span style=\"color:#ffd43b\"><b>10 nhịp/phút</b></span>}} và trở lại bình thường sau {{c1::<span style=\"color:#ffd43b\"><b>5 ngày</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.4. Các hiện tượng khác",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK13-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Ngày thứ nhất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chăm sóc hậu sản ngày thứ nhất</b></span>: nguyên tắc chung và các giai đoạn theo dõi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phải <span style=\"color:#51cf66\"><b>theo dõi sát</b></span> sản phụ.<br>2) Chia ba giai đoạn: <span style=\"color:#ffd43b\"><b>hai giờ đầu</b></span> sau đẻ; <span style=\"color:#ffd43b\"><b>giờ thứ ba đến giờ thứ sáu</b></span>; <span style=\"color:#ffd43b\"><b>giờ thứ bảy đến hết ngày đầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngày đầu nguy cơ cao nên chia các mốc để theo dõi có hệ thống.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1. Ngày thứ nhất",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK13-S4_1_1-01",
+   "type": "basic",
+   "section": "S4_1_1",
+   "category": "Hai giờ đầu sau đẻ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Chăm sóc <span style=\"color:#74c0fc\"><b>hai giờ đầu sau đẻ</b></span>: nơi theo dõi, nội dung và tần suất?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nằm theo dõi tại <span style=\"color:#74c0fc\"><b>phòng đẻ</b></span>.<br>2) Theo dõi <span style=\"color:#51cf66\"><b>mạch, nhiệt độ, huyết áp, toàn trạng</b></span>, xoa đáy tử cung qua thành bụng để theo dõi <span style=\"color:#74c0fc\"><b>khối an toàn tử cung</b></span>, đánh giá tình trạng <span style=\"color:#ff6b6b\"><b>chảy máu âm đạo</b></span>.<br>3) Tần suất: <span style=\"color:#ffd43b\"><b>15 phút/lần</b></span> trong giờ đầu và <span style=\"color:#ffd43b\"><b>30 phút/lần</b></span> trong giờ thứ hai.<br><br><b>💡 Giải thích của AI:</b><br>Hai giờ đầu dễ chảy máu nên theo dõi dày nhất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.1. Trong hai giờ đầu sau đẻ",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S4_1_1-C01",
+   "type": "cloze",
+   "section": "S4_1_1",
+   "category": "Hai giờ đầu sau đẻ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Hai giờ đầu sau đẻ theo dõi {{c1::<span style=\"color:#ffd43b\"><b>15 phút/lần</b></span>}} trong giờ đầu và {{c1::<span style=\"color:#ffd43b\"><b>30 phút/lần</b></span>}} trong giờ thứ hai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.1. Trong hai giờ đầu sau đẻ",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_1"
+   ]
+  },
+  {
+   "id": "SK13-S4_1_2-01",
+   "type": "basic",
+   "section": "S4_1_2",
+   "category": "Giờ thứ ba đến giờ thứ sáu",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Chăm sóc từ <span style=\"color:#74c0fc\"><b>giờ thứ ba đến giờ thứ sáu</b></span> sau đẻ gồm những việc gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều kiện: theo dõi tích cực hai giờ đầu, nếu bình thường thì tiếp tục.<br>2) Đưa bà mẹ về phòng, cho mẹ <span style=\"color:#51cf66\"><b>nằm cùng phòng với con</b></span>.<br>3) Đóng băng vệ sinh, theo dõi các yếu tố ở trên <span style=\"color:#ffd43b\"><b>1 giờ/lần</b></span>.<br>4) Giúp người mẹ ăn uống, ngủ đủ.<br>5) Giúp và khuyến khích mẹ <span style=\"color:#51cf66\"><b>cho trẻ bú sớm</b></span>.<br>6) <span style=\"color:#51cf66\"><b>Vận động nhẹ</b></span> sau <span style=\"color:#ffd43b\"><b>6 giờ</b></span>.<br>7) Hướng dẫn chăm sóc con, theo dõi <span style=\"color:#ff6b6b\"><b>chảy máu rốn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giảm tần suất theo dõi vì nguy cơ giảm, đồng thời bắt đầu hướng dẫn chăm sóc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.2. Giờ thứ ba đến giờ thứ sáu",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_1_2-02",
+   "type": "basic",
+   "section": "S4_1_2",
+   "category": "Giờ thứ ba đến giờ thứ sáu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Giờ thứ ba đến thứ sáu: bà mẹ và người nhà phải <span style=\"color:#ff6b6b\"><b>gọi ngay nhân viên y tế</b></span> khi nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chảy máu nhiều</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Đau bụng tăng</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nhức đầu, chóng mặt</b></span>.<br>4) Hoặc có bất cứ một vấn đề gì khác.<br><br><b>💡 Giải thích của AI:</b><br>Đây là các dấu hiệu cảnh báo cần xử trí sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.2. Giờ thứ ba đến giờ thứ sáu",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_1_3-01",
+   "type": "basic",
+   "section": "S4_1_3",
+   "category": "Giờ thứ bảy đến hết ngày đầu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Theo dõi từ <span style=\"color:#74c0fc\"><b>giờ thứ bảy đến hết ngày đầu</b></span> gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Thể trạng</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Sự co hồi tử cung</b></span>.<br>3) Băng vệ sinh (kiểm tra <span style=\"color:#ff6b6b\"><b>lượng máu mất</b></span>).<br>4) Tình trạng <span style=\"color:#74c0fc\"><b>vết may tầng sinh môn</b></span> hoặc các vết rách xuất hiện trong trường hợp không cắt tầng sinh môn.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi chuyển sang đánh giá sự phục hồi và vết thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.3. Giờ thứ bảy đến hết ngày đầu",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_3"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chăm sóc những ngày sau</b></span>: chăm sóc tinh thần, vệ sinh, theo dõi và làm thuốc ngoài?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chăm sóc <span style=\"color:#51cf66\"><b>tinh thần</b></span>, nhất là những cuộc đẻ không theo ý muốn.<br>2) Bảo đảm <span style=\"color:#51cf66\"><b>vệ sinh</b></span> tốt (buồng sạch, thoáng, <span style=\"color:#ff6b6b\"><b>cách ly buồng nhiễm khuẩn</b></span>).<br>3) Theo dõi mạch, nhiệt, huyết áp <span style=\"color:#ffd43b\"><b>ngày 2 lần</b></span>.<br>4) Theo dõi sự co hồi tử cung và sản dịch.<br>5) Làm thuốc ngoài <span style=\"color:#ffd43b\"><b>ngày 2 lần</b></span> bằng nước muối sinh lý, hoặc các dung dịch sát khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Nhằm phòng nhiễm khuẩn và phát hiện sớm bất thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-02",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chăm sóc vú</b></span> và theo dõi <span style=\"color:#74c0fc\"><b>tiểu tiện, đại tiện</b></span> trong hậu sản: nội dung và định nghĩa bí tiểu, táo bón?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hướng dẫn rửa sạch <span style=\"color:#74c0fc\"><b>đầu vú</b></span> bằng gạc mềm tẩm nước ấm <span style=\"color:#51cf66\"><b>trước khi cho bú</b></span> và rửa sạch lại sau khi cho bú.<br>2) <span style=\"color:#ff6b6b\"><b>Bí tiểu</b></span> nếu sau đẻ <span style=\"color:#ffd43b\"><b>12 giờ</b></span> chưa đi tiểu được.<br>3) <span style=\"color:#ff6b6b\"><b>Táo bón</b></span> nếu sau đẻ <span style=\"color:#ffd43b\"><b>3 ngày</b></span> chưa đại tiện được.<br>4) <span style=\"color:#ff6b6b\"><b>Không nên</b></span> cho thuốc nhuận tràng và thụt tháo bằng nước.<br><br><b>💡 Giải thích của AI:</b><br>Bí tiểu và táo bón làm tử cung co hồi chậm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-03",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Hậu sản: <span style=\"color:#74c0fc\"><b>dinh dưỡng, tắm, lao động, giao hợp</b></span> cần lưu ý gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ăn uống đủ chất bổ, thức ăn nhiều <span style=\"color:#51cf66\"><b>chất xơ</b></span>, bổ sung <span style=\"color:#51cf66\"><b>chất sắt</b></span>, tránh chất kích thích; không nên kiêng khem quá mức.<br>2) Sau đẻ ngày thứ <span style=\"color:#ffd43b\"><b>2</b></span> có thể tắm nước ấm, <span style=\"color:#ff6b6b\"><b>không ngâm mình trong bồn nước</b></span>.<br>3) Tránh lao động nặng trong <span style=\"color:#ffd43b\"><b>2 tháng đầu</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Không nên giao hợp</b></span> trong thời gian hậu sản vì dễ gây nhiễm khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Ngâm bồn và giao hợp đều tăng nguy cơ nhiễm khuẩn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-04",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Các biện pháp <span style=\"color:#51cf66\"><b>tránh thai sau sinh</b></span> và lịch hẹn khám lại?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bao cao su</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Dụng cụ tử cung</b></span> có thể đặt sau <span style=\"color:#ffd43b\"><b>3 tháng</b></span>.<br>3) Thuốc tránh thai <span style=\"color:#51cf66\"><b>Progestatif liều thấp (Exluton)</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Thuốc diệt tinh trùng</b></span> tại chỗ.<br>5) <span style=\"color:#51cf66\"><b>Triệt sản</b></span> (nếu đủ con).<br>6) Hẹn khám lại tại trạm y tế xã vào tuần thứ <span style=\"color:#ffd43b\"><b>6</b></span> sau đẻ.<br><br><b>💡 Giải thích của AI:</b><br>Khám lại tuần 6 trùng mốc kết thúc hậu sản.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-C01",
+   "type": "cloze",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Bí tiểu nếu sau đẻ {{c1::<span style=\"color:#ffd43b\"><b>12 giờ</b></span>}} chưa đi tiểu; táo bón nếu sau {{c1::<span style=\"color:#ffd43b\"><b>3 ngày</b></span>}} chưa đại tiện.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-S4_2-C02",
+   "type": "cloze",
+   "section": "S4_2",
+   "category": "Những ngày sau",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tránh lao động nặng trong {{c1::<span style=\"color:#ffd43b\"><b>2 tháng đầu</b></span>}}; dụng cụ tử cung đặt sau {{c1::<span style=\"color:#ffd43b\"><b>3 tháng</b></span>}}; hẹn khám lại vào tuần thứ {{c1::<span style=\"color:#ffd43b\"><b>6</b></span>}} sau đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.2. Những ngày sau",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK13-ALG-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Ngày thứ nhất",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng kiểm tại giường</b></span>: lịch theo dõi sản phụ trong <span style=\"color:#ffd43b\"><b>ngày đầu</b></span> sau đẻ theo mốc giờ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Hai giờ đầu</b></span>: tại phòng đẻ; mạch, nhiệt độ, huyết áp, toàn trạng, xoa đáy tử cung, chảy máu âm đạo; <span style=\"color:#ffd43b\"><b>15 phút/lần</b></span> giờ đầu, <span style=\"color:#ffd43b\"><b>30 phút/lần</b></span> giờ thứ hai.<br>2) <span style=\"color:#ffd43b\"><b>Giờ 3 đến 6</b></span>: về phòng nằm cùng con, theo dõi <span style=\"color:#ffd43b\"><b>1 giờ/lần</b></span>, cho bú sớm, vận động nhẹ sau 6 giờ.<br>3) <span style=\"color:#ffd43b\"><b>Giờ 7 đến hết ngày</b></span>: thể trạng, co hồi tử cung, lượng máu mất, vết may tầng sinh môn hoặc vết rách.<br><br><b>💡 Giải thích của AI:</b><br>Tần suất theo dõi thưa dần khi nguy cơ chảy máu giảm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1. Ngày thứ nhất",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK13-ALG-02",
+   "type": "basic",
+   "section": "S4_1_2",
+   "category": "Giờ thứ ba đến giờ thứ sáu",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#ff6b6b\"><b>Lưu đồ IF → THEN</b></span>: sản phụ giờ 3-6 có dấu hiệu nào thì <span style=\"color:#ff6b6b\"><b>gọi ngay nhân viên y tế</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#ff6b6b\"><b>chảy máu nhiều</b></span> → THEN gọi ngay nhân viên y tế.<br>2) IF <span style=\"color:#ff6b6b\"><b>đau bụng tăng</b></span> → THEN gọi ngay nhân viên y tế.<br>3) IF <span style=\"color:#ff6b6b\"><b>nhức đầu, chóng mặt</b></span> → THEN gọi ngay nhân viên y tế.<br>4) IF có bất cứ vấn đề gì khác → THEN gọi ngay nhân viên y tế.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc đơn giản để bà mẹ và người nhà báo sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 4.1.2. Giờ thứ ba đến giờ thứ sáu",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S4_1_2"
+   ]
+  },
+  {
+   "id": "SK13-ALG-03",
+   "type": "basic",
+   "section": "S2_1_1",
+   "category": "Thân tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu</b></span>: các con số về <span style=\"color:#74c0fc\"><b>tử cung hậu sản</b></span> cần nhớ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trọng lượng ngay sau đẻ <span style=\"color:#ffd43b\"><b>1.000 g</b></span> → bình thường <span style=\"color:#ffd43b\"><b>50- 60 g</b></span>.<br>2) Đáy tử cung trên khớp vệ <span style=\"color:#ffd43b\"><b>13 cm</b></span>; co hồi <span style=\"color:#ffd43b\"><b>1 cm/ngày</b></span> (ngày đầu <span style=\"color:#ffd43b\"><b>2 - 3 cm</b></span>).<br>3) Không sờ thấy sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span> (ngày <span style=\"color:#ffd43b\"><b>12-13</b></span>).<br>4) Lỗ trong cổ tử cung đóng ngày <span style=\"color:#ffd43b\"><b>5 - 8</b></span>, lỗ ngoài ngày <span style=\"color:#ffd43b\"><b>12</b></span>; nội mạc thoái triển <span style=\"color:#ffd43b\"><b>14 ngày</b></span>, phục hồi <span style=\"color:#ffd43b\"><b>3-6 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>13 cm giảm 1 cm mỗi ngày nên khoảng 12-13 ngày hết sờ thấy.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 2.1.1. Thân tử cung",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S2_1_1"
+   ]
+  },
+  {
+   "id": "SK13-ALG-04",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Sản dịch",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#ffd43b\"><b>So sánh nhanh</b></span> sản dịch theo <span style=\"color:#ffd43b\"><b>ngày sau đẻ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngày <span style=\"color:#ffd43b\"><b>1-3</b></span>: ra nhiều (ngày 1, 2), màu <span style=\"color:#ff6b6b\"><b>đỏ tươi</b></span> rồi <span style=\"color:#ff6b6b\"><b>đỏ sẫm</b></span>.<br>2) Ngày <span style=\"color:#ffd43b\"><b>4-8</b></span>: loãng, nhầy lờ lờ máu cá.<br>3) Ngày <span style=\"color:#ffd43b\"><b>8-12</b></span>: chất nhầy, trong.<br>4) Sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span>: hết hẳn.<br><br><b>💡 Giải thích của AI:</b><br>Màu và lượng sản dịch giảm dần theo thời gian.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · 3.2. Sản dịch",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK13-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày các <span style=\"color:#74c0fc\"><b>hiện tượng lâm sàng</b></span> của thời kỳ <span style=\"color:#74c0fc\"><b>hậu sản</b></span>: <span style=\"color:#ffd43b\"><b>co hồi tử cung và cơn đau tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Co hồi tử cung</b></span>: đáy tử cung trên vệ <span style=\"color:#ffd43b\"><b>13 cm</b></span>, mỗi ngày thu lại <span style=\"color:#ffd43b\"><b>1 cm</b></span>, đến ngày <span style=\"color:#ffd43b\"><b>12-13</b></span> không nắn thấy; nhanh hơn ở con so, đẻ thường, cho con bú; chậm hơn khi nhiễm khuẩn, bí tiểu, táo bón.<br>2) <span style=\"color:#ff6b6b\"><b>Cơn đau tử cung</b></span>: do co bóp tống máu cục và sản dịch; con rạ đau nhiều hơn con so, giảm dần.<br><br><b>💡 Giải thích của AI:</b><br>Hai hiện tượng đều xuất phát từ hoạt động co của tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · Câu hỏi",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK13-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày các <span style=\"color:#74c0fc\"><b>hiện tượng lâm sàng</b></span> của <span style=\"color:#74c0fc\"><b>hậu sản</b></span>: <span style=\"color:#74c0fc\"><b>sản dịch</b></span> và <span style=\"color:#74c0fc\"><b>xuống sữa</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Sản dịch</b></span>: chất dịch ra ngoài âm hộ; gồm mảnh vụn màng rụng, máu cục, máu loãng, tế bào, dịch âm đạo; vô trùng, tanh nồng, pH kiềm; màu <span style=\"color:#ff6b6b\"><b>đỏ tươi</b></span> → <span style=\"color:#ff6b6b\"><b>đỏ sẫm</b></span> → loãng nhầy → trong (<span style=\"color:#ffd43b\"><b>ngày 8 - 12</b></span>); hết sau <span style=\"color:#ffd43b\"><b>2 tuần</b></span>; không cho bú có thể có <span style=\"color:#ff6b6b\"><b>kinh non</b></span> sau <span style=\"color:#ffd43b\"><b>3 tuần</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Xuống sữa</b></span>: con so ngày <span style=\"color:#ffd43b\"><b>3</b></span>, con rạ ngày <span style=\"color:#ffd43b\"><b>2</b></span>; sốt nhẹ, ớn lạnh, nhức đầu, khó chịu, mạch hơi nhanh, hai vú cương to đau; mất sau <span style=\"color:#ffd43b\"><b>24 - 48 giờ</b></span> khi tiết sữa.<br><br><b>💡 Giải thích của AI:</b><br>Sản dịch phản ánh sự bong nội mạc; xuống sữa do nội tiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · Câu hỏi",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK13-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày các <span style=\"color:#74c0fc\"><b>hiện tượng lâm sàng</b></span> của <span style=\"color:#74c0fc\"><b>hậu sản</b></span>: <span style=\"color:#74c0fc\"><b>các hiện tượng khác</b></span> (rét run, mạch, nhịp thở, cân nặng, kinh nguyệt)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Rét run sinh lý</b></span> ngay sau đẻ do mất nhiệt; mạch, nhiệt độ, huyết áp bình thường.<br>2) Mạch chậm khoảng <span style=\"color:#ffd43b\"><b>10 nhịp/phút</b></span>, bình thường sau <span style=\"color:#ffd43b\"><b>5 ngày</b></span>.<br>3) Thở sâu và chậm hơn do cơ hoành không bị đẩy lên.<br>4) Cân nặng giảm <span style=\"color:#ffd43b\"><b>3 - 5kg</b></span>, tiếp tục giảm trong <span style=\"color:#ffd43b\"><b>2 tuần</b></span> do hết phù.<br>5) Không cho bú: kinh lại sau <span style=\"color:#ffd43b\"><b>5-6 tuần</b></span>, kỳ đầu nhiều và kéo dài, là dấu hiệu chấm dứt hậu sản.<br><br><b>💡 Giải thích của AI:</b><br>Các thay đổi này là sinh lý khi cơ thể trở lại bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-13 Hậu sản thường · Câu hỏi",
+   "tags": [
+    "SK-13",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  }
+ ]
+}

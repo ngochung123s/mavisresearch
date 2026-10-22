@@ -1,0 +1,956 @@
+{
+ "cards": [
+  {
+   "id": "SK38-S1_1-01",
+   "type": "basic",
+   "section": "S1_1",
+   "category": "Đo pH âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Cơ chế tạo <span style=\"color:#74c0fc\"><b>môi trường acid của âm đạo</b></span> bình thường và tính chất <span style=\"color:#74c0fc\"><b>dịch âm đạo</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch âm đạo bình thường là chất <span style=\"color:#74c0fc\"><b>màu trắng, hơi sệt như bột</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Trực khuẩn Doderlein</b></span> sử dụng <span style=\"color:#74c0fc\"><b>glycogen</b></span> từ các tế bào âm đạo bị bong tróc → tạo <span style=\"color:#74c0fc\"><b>acid latic</b></span> → môi trường âm đạo có pH acid.<br>3) Nồng độ <span style=\"color:#74c0fc\"><b>estrogen</b></span> càng cao thì âm đạo càng nhiều glycogen.<br><br><b>💡 Giải thích của AI:</b><br>Estrogen → nhiều glycogen → nhiều cơ chất cho Doderlein → nhiều acid latic hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.1. Đo pH âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK38-S1_1-02",
+   "type": "basic",
+   "section": "S1_1",
+   "category": "Đo pH âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Giá trị <span style=\"color:#ffd43b\"><b>pH âm đạo</b></span> theo các thời điểm của chu kỳ, ngưỡng nghĩ tới <span style=\"color:#ff6b6b\"><b>viêm âm đạo</b></span> và dụng cụ đo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quanh ngày phóng noãn: pH <span style=\"color:#ffd43b\"><b>4,2</b></span>.<br>2) Trước và sau hành kinh: pH <span style=\"color:#ffd43b\"><b>4,8 đến 5,2</b></span>.<br>3) Trong những ngày hành kinh: pH <span style=\"color:#ffd43b\"><b>5,4</b></span>.<br>4) Phụ nữ có kinh nguyệt bình thường nếu pH <span style=\"color:#ffd43b\"><b>trên 5,5</b></span> phải nghĩ tới <span style=\"color:#ff6b6b\"><b>viêm âm đạo (có thể do Trichomonas)</b></span>.<br>5) Dụng cụ đo thường dùng: <span style=\"color:#51cf66\"><b>giấy quỳ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>pH thấp nhất lúc phóng noãn (estrogen cao); pH tăng vượt 5,5 nghĩa là môi trường acid bảo vệ bị mất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.1. Đo pH âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK38-S1_1-C01",
+   "type": "cloze",
+   "section": "S1_1",
+   "category": "Đo pH âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "pH âm đạo quanh ngày phóng noãn là {{c1::<span style=\"color:#ffd43b\"><b>4,2</b></span>}}; trong những ngày hành kinh là {{c2::<span style=\"color:#ffd43b\"><b>5,4</b></span>}}; pH trên {{c3::<span style=\"color:#ffd43b\"><b>5,5</b></span>}} ở phụ nữ có kinh bình thường phải nghĩ tới viêm âm đạo (có thể do Trichomonas).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.1. Đo pH âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-01",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thành phần <span style=\"color:#74c0fc\"><b>dịch âm đạo bình thường</b></span> và mục đích của <span style=\"color:#51cf66\"><b>xét nghiệm độ sạch âm đạo</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bình thường gồm: <span style=\"color:#74c0fc\"><b>tế bào biểu mô âm đạo đã bong, trực khuẩn Doderlein, một số tạp khuẩn và bạch cầu</b></span>.<br>2) Xét nghiệm giúp <span style=\"color:#51cf66\"><b>tìm ra nguyên nhân gây viêm âm đạo để điều trị</b></span>.<br><img src=\"SK-38_fig01.jpg\"><br><i>Hình 1. Trực khuẩn Doderlein</i><br><br><b>💡 Giải thích của AI:</b><br>Biết thành phần bình thường mới nhận ra sự thay đổi bất thường trong viêm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-02",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Kỹ thuật</b></span> lấy bệnh phẩm xét nghiệm <span style=\"color:#74c0fc\"><b>độ sạch âm đạo</b></span>: điều kiện người bệnh và cách làm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Người bệnh <span style=\"color:#ff6b6b\"><b>không thụt rửa âm đạo, không khám phụ khoa</b></span> trước khi lấy phiến đồ âm đạo.<br>2) Lấy dịch ở <span style=\"color:#74c0fc\"><b>túi cùng sau âm đạo</b></span>, <span style=\"color:#51cf66\"><b>phết lên phiến kính</b></span>.<br>3) Cố định bằng hỗn hợp <span style=\"color:#ffd43b\"><b>cồn 90°</b></span> + ête (tỷ lệ <span style=\"color:#ffd43b\"><b>cồn 50%, ête 50%</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Thụt rửa hay khám trước làm trôi/biến đổi thành phần dịch nên kết quả không phản ánh thực.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-03",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Phân độ <span style=\"color:#74c0fc\"><b>độ sạch âm đạo</b></span> <span style=\"color:#ffd43b\"><b>độ 1 và độ 2</b></span>: trực khuẩn Doderlein, tế bào biểu mô, vi khuẩn khác, bạch cầu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 1</b></span>: Doderlein <span style=\"color:#74c0fc\"><b>nhiều</b></span>; tế bào biểu mô âm đạo nhiều; vi khuẩn khác không có, không có nấm và Trichomonas; bạch cầu không có.<br>2) <span style=\"color:#ffd43b\"><b>Độ 2</b></span>: Doderlein <span style=\"color:#74c0fc\"><b>nhiều</b></span>; tế bào biểu mô âm đạo nhiều; vi khuẩn khác có ít, không có nấm và Trichomonas; bạch cầu có ít.<br><br><b>💡 Giải thích của AI:</b><br>Độ 1–2 đều còn nhiều Doderlein nên âm đạo vẫn sạch; khác nhau ở chỗ độ 2 có ít tạp khuẩn và bạch cầu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-04",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Phân độ <span style=\"color:#74c0fc\"><b>độ sạch âm đạo</b></span> <span style=\"color:#ffd43b\"><b>độ 3 và độ 4</b></span>: trực khuẩn Doderlein, tế bào biểu mô, vi khuẩn khác, bạch cầu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 3</b></span>: Doderlein <span style=\"color:#ff6b6b\"><b>giảm</b></span>; tế bào biểu mô âm đạo rất ít; vi khuẩn khác rất nhiều, có nấm hoặc Trichomonas; bạch cầu rất nhiều hay (+++).<br>2) <span style=\"color:#ffd43b\"><b>Độ 4</b></span>: Doderlein <span style=\"color:#ff6b6b\"><b>không còn</b></span>; tế bào biểu mô âm đạo rất ít; vi khuẩn khác rất nhiều, có nấm hoặc Trichomonas; bạch cầu rất nhiều hay (+++).<br><br><b>💡 Giải thích của AI:</b><br>Độ 3 và 4 chỉ khác ở Doderlein: giảm so với mất hẳn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-05",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Ý nghĩa của <span style=\"color:#ffd43b\"><b>độ 3 và độ 4</b></span> độ sạch âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho biết mức độ <span style=\"color:#ff6b6b\"><b>viêm</b></span> và <span style=\"color:#ff6b6b\"><b>thiểu năng Estrogen</b></span> của âm đạo ở mức <span style=\"color:#ffd43b\"><b>vừa hay nặng</b></span>.<br>2) Mức độ phụ thuộc vào số lượng <span style=\"color:#74c0fc\"><b>trực khuẩn Doderlein</b></span> nhiều hay ít.<br><br><b>💡 Giải thích của AI:</b><br>Doderlein cần glycogen do estrogen nuôi dưỡng nên số lượng chúng phản ánh cả tình trạng estrogen.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_2-C01",
+   "type": "cloze",
+   "section": "S1_2",
+   "category": "Độ sạch âm đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Dung dịch cố định phiến đồ âm đạo: hỗn hợp cồn {{c1::<span style=\"color:#ffd43b\"><b>90°</b></span>}} + ête, tỷ lệ cồn {{c2::<span style=\"color:#ffd43b\"><b>50%</b></span>}}, ête {{c2::<span style=\"color:#ffd43b\"><b>50%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-S1_3-01",
+   "type": "basic",
+   "section": "S1_3",
+   "category": "Chất nhầy cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Đặc điểm <span style=\"color:#74c0fc\"><b>chất nhầy cổ tử cung</b></span> bình thường quanh ngày phóng noãn và thời điểm, cách đánh giá?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quanh ngày phóng noãn lỗ cổ tử cung <span style=\"color:#74c0fc\"><b>hé mở</b></span>, rồi <span style=\"color:#74c0fc\"><b>mở cực đại</b></span> vào ngày phóng noãn; chất nhầy <span style=\"color:#74c0fc\"><b>trong, loãng, kéo dài thành sợi dài</b></span>.<br>2) Đánh giá vào giai đoạn <span style=\"color:#ffd43b\"><b>trước phóng noãn (ngày 12-14 của chu kỳ 28 ngày)</b></span>, giữa 2 phần đầu của 1 <span style=\"color:#51cf66\"><b>kẹp (pince) dài</b></span>.<br>3) Quan sát: <span style=\"color:#51cf66\"><b>số lượng, độ kéo sợi, độ trong và độ đục</b></span> của chất nhầy.<br><br><b>💡 Giải thích của AI:</b><br>Quanh phóng noãn, chất nhầy loãng và kéo sợi để tinh trùng đi qua dễ dàng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.3. Thăm dò chất nhầy cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK38-S1_3-02",
+   "type": "basic",
+   "section": "S1_3",
+   "category": "Chất nhầy cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Dấu hiệu <span style=\"color:#ff6b6b\"><b>nhiễm trùng</b></span> qua chất nhầy cổ tử cung và tác dụng của <span style=\"color:#74c0fc\"><b>estrogen, progesteron</b></span> lên chất nhầy?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng</b></span> khi chất nhầy <span style=\"color:#ff6b6b\"><b>đục</b></span>, soi kính hiển vi thấy <span style=\"color:#ff6b6b\"><b>nhiều bạch cầu</b></span>.<br>2) Dưới tác dụng của <span style=\"color:#74c0fc\"><b>estrogen</b></span>: chất nhầy nhiều và kéo sợi.<br>3) Dưới tác dụng của <span style=\"color:#74c0fc\"><b>progesteron</b></span>: chất nhầy đặc và vón lại.<br><br><b>💡 Giải thích của AI:</b><br>Estrogen ưu thế (trước phóng noãn) cho nhầy trong, kéo sợi; progesteron (sau phóng noãn) làm nhầy đặc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.3. Thăm dò chất nhầy cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-01",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Vai trò của <span style=\"color:#51cf66\"><b>xét nghiệm tế bào âm đạo cổ tử cung</b></span> trong <span style=\"color:#ff6b6b\"><b>ung thư cổ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là thăm dò <span style=\"color:#51cf66\"><b>thường quy, tiến hành có hệ thống và định kỳ cho mọi phụ nữ</b></span> nhằm <span style=\"color:#ff6b6b\"><b>chẩn đoán sớm ung thư cổ tử cung</b></span>.<br>2) Giúp phát hiện các biến đổi ở <span style=\"color:#74c0fc\"><b>mức độ tế bào</b></span> theo hướng <span style=\"color:#ff6b6b\"><b>tiền ung thư hoặc ung thư</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phát hiện biến đổi tế bào trước khi thành tổn thương thấy được nên cho phép chẩn đoán sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-02",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Điều kiện chuẩn bị</b></span> trước khi lấy bệnh phẩm <span style=\"color:#74c0fc\"><b>tế bào âm đạo cổ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tối thiểu <span style=\"color:#ffd43b\"><b>24 giờ</b></span> trước khi lấy: <span style=\"color:#ff6b6b\"><b>không khám phụ khoa, không thụt rửa âm đạo, không giao hợp</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Không đặt thuốc âm đạo</b></span> trước đó <span style=\"color:#ffd43b\"><b>3 ngày</b></span>.<br>3) Lấy <span style=\"color:#51cf66\"><b>ngoài thời kỳ kinh nguyệt</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Các can thiệp này làm trôi hoặc che lấp tế bào bong, ảnh hưởng chất lượng tiêu bản.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-03",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Có mấy <span style=\"color:#ffd43b\"><b>phương pháp</b></span> lấy bệnh phẩm <span style=\"color:#74c0fc\"><b>tế bào âm đạo cổ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có <span style=\"color:#ffd43b\"><b>2</b></span> phương pháp:<br>2) <span style=\"color:#74c0fc\"><b>Phương pháp tế bào học cổ điển</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Phương pháp tế bào học nhúng dịch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai phương pháp khác nhau ở cách chuyển tế bào lên lam kính (phết trực tiếp hay qua dung dịch).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-04",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Kỹ thuật lấy bệnh phẩm</b></span> của phương pháp tế bào học <span style=\"color:#74c0fc\"><b>cổ điển</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sử dụng <span style=\"color:#51cf66\"><b>que bẹt gỗ 2 đầu</b></span> và phải lấy được <span style=\"color:#74c0fc\"><b>vùng chuyển tiếp vẩy - trụ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Dàn 2 đầu que</b></span> trên lam kính, đảm bảo dàn <span style=\"color:#ffd43b\"><b>mỏng, đều, đủ</b></span> bệnh phẩm.<br><img src=\"SK-38_fig02.jpg\"><br><i>Hình 2. Dụng cụ lấy tế bào âm đạo cổ tử cung cổ điển</i><br><img src=\"SK-38_fig03.jpg\"><br><i>Hình 3. Cách phết bệnh phẩm từ thìa và bàn chải lên lam kính. A. Bệnh phẩm từ ống cổ tử cung, B. Bệnh phẩm từ lổ ngoài cổ tử cung</i><br><br><b>💡 Giải thích của AI:</b><br>Vùng chuyển tiếp vẩy - trụ là nơi hay phát sinh tổn thương nên phải lấy được tế bào ở đây.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-05",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Kỹ thuật lấy bệnh phẩm</b></span> của phương pháp tế bào học <span style=\"color:#74c0fc\"><b>nhúng dịch</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dùng <span style=\"color:#51cf66\"><b>dụng cụ phết chuyên biệt</b></span> của nhà sản xuất (thường là <span style=\"color:#51cf66\"><b>chổi</b></span>) phết lên cổ tử cung.<br>2) <span style=\"color:#51cf66\"><b>Khuấy dụng cụ phết</b></span> vào hộp chứa dung dịch bảo quản để chuyển bệnh phẩm tế bào vào dung dịch.<br>3) Hệ thống máy xử lý bệnh phẩm, <span style=\"color:#74c0fc\"><b>loại bỏ hồng cầu, bạch cầu, các thành phần không có giá trị chẩn đoán</b></span> rồi chuyển lên lam kính.<br><img src=\"SK-38_fig04.jpg\"><br><i>Hình 4. Phương pháp tế bào học nhúng dịch</i><br><br><b>💡 Giải thích của AI:</b><br>Máy lọc bỏ thành phần nhiễu nên tiêu bản sạch hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-06",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Đánh giá kết quả</b></span> tế bào âm đạo cổ tử cung: nhuộm và danh pháp phân loại nào, nhóm <span style=\"color:#74c0fc\"><b>bình thường</b></span> và các nhóm lớn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu bản nhuộm theo phương pháp <span style=\"color:#74c0fc\"><b>Papanicolaou</b></span>.<br>2) Xếp loại theo danh pháp <span style=\"color:#74c0fc\"><b>Bethesda 2001</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Bình thường</b></span>: không có các tế bào bị biến đổi hình dạng hoặc thay đổi tế bào phản ứng lành tính.<br>4) Các bất thường <span style=\"color:#74c0fc\"><b>tế bào biểu mô vẩy</b></span>.<br>5) Các thay đổi <span style=\"color:#74c0fc\"><b>tế bào biểu mô trụ</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Các tổn thương tân sinh ác tính khác</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bethesda chia theo loại biểu mô (vẩy hoặc trụ) rồi theo mức độ tổn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-07",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Bethesda 2001: liệt kê các <span style=\"color:#74c0fc\"><b>bất thường tế bào biểu mô vẩy</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>ASC-US</b></span>: tế bào biểu mô vẩy không điển hình có ý nghĩa chưa xác định.<br>2) <span style=\"color:#74c0fc\"><b>ASC-H</b></span>: tế bào biểu mô vẩy không điển hình không loại trừ tổn thương nội biểu mô vảy mức độ cao.<br>3) <span style=\"color:#74c0fc\"><b>LSIL</b></span> (tổn thương nội biểu mô vẩy mức độ thấp): gồm <span style=\"color:#ff6b6b\"><b>tổn thương do nhiễm HPV, loạn sản nhẹ/CIN 1</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>HSIL</b></span> (tổn thương nội biểu mô vẩy mức độ cao): gồm <span style=\"color:#ff6b6b\"><b>loạn sản trung bình và nặng, ung thư tại chỗ và những tổn thương nghi ngờ ung thư xâm lấn</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Ung thư biểu mô vảy</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự từ không điển hình, nhẹ, nặng đến ung thư thể hiện mức độ tổn thương tăng dần.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-08",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Bethesda 2001: liệt kê các thay đổi <span style=\"color:#74c0fc\"><b>tế bào biểu mô trụ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>AGUS</b></span>: tế bào biểu mô tuyến không điển hình.<br>2) <span style=\"color:#ff6b6b\"><b>AIS</b></span>: ung thư tế bào biểu mô tuyến cổ tử cung tại chỗ.<br>3) <span style=\"color:#ff6b6b\"><b>Ung thư biểu mô tuyến xâm nhập</b></span>: biểu mô tuyến ống cổ tử cung, biểu mô tuyến nội mạc tử cung, biểu mô tuyến ngoài tử cung, không rõ nguồn gốc.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm tuyến cũng đi từ không điển hình, tại chỗ đến xâm nhập.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-C01",
+   "type": "cloze",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tiêu bản tế bào cổ tử cung được nhuộm theo phương pháp {{c1::<span style=\"color:#74c0fc\"><b>Papanicolaou</b></span>}} và xếp loại theo danh pháp {{c2::<span style=\"color:#74c0fc\"><b>Bethesda 2001</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-C02",
+   "type": "cloze",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "LSIL gồm tổn thương do nhiễm {{c1::<span style=\"color:#ff6b6b\"><b>HPV, loạn sản nhẹ/CIN 1</b></span>}}; HSIL gồm {{c2::<span style=\"color:#ff6b6b\"><b>loạn sản trung bình và nặng, ung thư tại chỗ và những tổn thương nghi ngờ ung thư xâm lấn</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_4-C03",
+   "type": "cloze",
+   "section": "S1_4",
+   "category": "Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Trước lấy bệnh phẩm tế bào cổ tử cung: tối thiểu {{c1::<span style=\"color:#ffd43b\"><b>24 giờ</b></span>}} không khám phụ khoa, thụt rửa, giao hợp; không đặt thuốc âm đạo trước đó {{c2::<span style=\"color:#ffd43b\"><b>3 ngày</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S1_5-01",
+   "type": "basic",
+   "section": "S1_5",
+   "category": "Soi cổ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chuẩn bị</b></span> khi <span style=\"color:#74c0fc\"><b>soi cổ tử cung</b></span> và soi cho phép xác định những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuẩn bị: <span style=\"color:#51cf66\"><b>không chuẩn bị</b></span> hoặc có chuẩn bị với dung dịch <span style=\"color:#51cf66\"><b>axít axetic 3%</b></span> và dung dịch <span style=\"color:#51cf66\"><b>Lugol 3% - 5%</b></span>.<br>2) Thương tổn <span style=\"color:#74c0fc\"><b>lành tính</b></span>: polyp, condyloma, lạc nội mạc tử cung...<br>3) Thương tổn <span style=\"color:#ff6b6b\"><b>không điển hình</b></span>: vết trắng, vết lát đá, vết chấm đáy, vùng đỏ bất thường.....<br>4) <span style=\"color:#ff6b6b\"><b>Ung thư xâm nhiễm</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Định hướng vùng sẽ sinh thiết</b></span>.<br><img src=\"SK-38_fig05.jpg\"><br><i>Hình 5. Máy soi cổ tử cung</i><br><br><b>💡 Giải thích của AI:</b><br>Soi phóng đại giúp thấy tổn thương nghi ngờ để chọn đúng nơi sinh thiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.5. Soi cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_5"
+   ]
+  },
+  {
+   "id": "SK38-CH-01",
+   "type": "basic",
+   "section": "S1_5",
+   "category": "Soi cổ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Mục đích (ý nghĩa) của <span style=\"color:#74c0fc\"><b>soi cổ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xác định thương tổn <span style=\"color:#74c0fc\"><b>lành tính</b></span> (polyp, condyloma, lạc nội mạc tử cung...).<br>2) Xác định thương tổn <span style=\"color:#ff6b6b\"><b>không điển hình</b></span> (vết trắng, vết lát đá, vết chấm đáy, vùng đỏ bất thường).<br>3) Xác định <span style=\"color:#ff6b6b\"><b>ung thư xâm nhiễm</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Định hướng vùng sẽ sinh thiết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Soi cổ tử cung vừa chẩn đoán vừa hướng dẫn sinh thiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.5. Soi cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_5"
+   ]
+  },
+  {
+   "id": "SK38-S1_6-01",
+   "type": "basic",
+   "section": "S1_6",
+   "category": "Sinh thiết",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định</b></span> <span style=\"color:#74c0fc\"><b>sinh thiết</b></span> vùng sinh dục thấp và nguyên tắc lấy mẫu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ định khi có <span style=\"color:#ff6b6b\"><b>thương tổn nghi ngờ ở âm hộ, âm đạo, cổ tử cung</b></span>: vùng loét trợt, vùng không bắt màu với iod, mảng trắng... hoặc tổn thương có biểu hiện ác tính.<br>2) Nên thực hiện dưới <span style=\"color:#51cf66\"><b>hướng dẫn của soi cổ tử cung</b></span>.<br>3) Mẫu thử lấy ở <span style=\"color:#74c0fc\"><b>ranh giới giữa mô lành và mô bệnh</b></span>; phải sinh thiết ở <span style=\"color:#ffd43b\"><b>nhiều vị trí khác nhau</b></span>.<br><img src=\"SK-38_fig06.jpg\"><br><i>Hình 6. Soi và sinh thiết cổ tử cung</i><br><br><b>💡 Giải thích của AI:</b><br>Ranh giới mô lành - bệnh chứa cả hai thành phần nên chẩn đoán dễ chính xác; nhiều vị trí tránh bỏ sót.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.6. Sinh thiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_6"
+   ]
+  },
+  {
+   "id": "SK38-CH-02",
+   "type": "basic",
+   "section": "S2",
+   "category": "Thăm dò buồng tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Thăm dò buồng tử cung</b></span> gồm những phương pháp nào (theo bài)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Soi buồng tử cung</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Sinh thiết buồng tử cung</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Chụp tử cung - vòi tử cung</b></span> có bơm thuốc cản quang.<br><br><b>💡 Giải thích của AI:</b><br>Ba phương pháp bổ sung nhau: nhìn trực tiếp, lấy mô, và chụp hình dạng buồng/vòi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2. Thăm dò buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK38-S2_1-01",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Soi buồng tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Soi buồng tử cung</b></span> dùng cho mục đích nào và <span style=\"color:#51cf66\"><b>chỉ định soi chẩn đoán</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể soi để <span style=\"color:#51cf66\"><b>chẩn đoán hoặc phẫu thuật</b></span>.<br>2) Tìm nguyên nhân <span style=\"color:#ff6b6b\"><b>chảy máu bất thường của tử cung</b></span>.<br>3) Chẩn đoán <span style=\"color:#ff6b6b\"><b>dị dạng tử cung, dính BTC</b></span> ở bệnh nhân vô sinh.<br>4) Nghi ngờ <span style=\"color:#ff6b6b\"><b>u xơ dưới niêm mạc TC, polyp BTC</b></span>.<br>5) Chẩn đoán nguyên nhân <span style=\"color:#ff6b6b\"><b>sẩy thai liên tiếp</b></span>.<br>6) Bệnh nhân <span style=\"color:#ff6b6b\"><b>thụ tinh ống nghiệm thất bại nhiều lần</b></span>.<br><img src=\"SK-38_fig07.jpg\"><br><i>Hình 7. Polyp buồng tử cung qua soi buồng tử cung</i><br><br><b>💡 Giải thích của AI:</b><br>Soi trực tiếp thấy được các bất thường trong lòng tử cung gây vô sinh, sẩy thai hay ra máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.1. Soi buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK38-S2_1-02",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Soi buồng tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định soi buồng tử cung phẫu thuật</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>U xơ tử cung dưới nội mạc</b></span> gây rong kinh, rong huyết hoặc vô sinh; u nằm hoàn toàn trong BTC hoặc đường kính lớn nhất của u nằm trong BTC, đường kính u xơ <span style=\"color:#ffd43b\"><b>dưới 4 cm</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Polyp buồng tử cung</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Quá sản nội mạc tử cung</b></span>: cắt bỏ niêm mạc tử cung khi điều trị nội khoa thất bại và tử cung không quá to.<br>4) <span style=\"color:#ff6b6b\"><b>Vách ngăn tử cung</b></span> gây sẩy thai liên tiếp, đẻ non, thai chết lưu.<br>5) <span style=\"color:#ff6b6b\"><b>Dính buồng tử cung</b></span>: tách dính bằng đèn soi hoặc cắt dính bằng dụng cụ phẫu thuật.<br>6) <span style=\"color:#ff6b6b\"><b>Rong kinh</b></span> mà điều trị nội khoa không kết quả.<br><br><b>💡 Giải thích của AI:</b><br>Các tổn thương trong lòng tử cung có thể xử lý ngay qua đèn soi, tránh mổ mở.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.1. Soi buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK38-S2_1-C01",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "Soi buồng tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Soi buồng tử cung phẫu thuật cho u xơ dưới nội mạc khi đường kính u xơ dưới {{c1::<span style=\"color:#ffd43b\"><b>4 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.1. Soi buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK38-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Sinh thiết buồng tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Mục đích</b></span> của <span style=\"color:#74c0fc\"><b>sinh thiết buồng tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá sự tiếp nhận và ảnh hưởng của <span style=\"color:#74c0fc\"><b>estrogen và progesteron</b></span> lên niêm mạc tử cung: <span style=\"color:#74c0fc\"><b>sự trưởng thành của noãn, chức năng của hoàng thể</b></span>.<br>2) Thăm dò các <span style=\"color:#ff6b6b\"><b>tổn thương thực thể của niêm mạc tử cung</b></span>: quá sản nội mạc, polyp nội mạc, rong kinh, rong huyết trong tiền mãn kinh,…<br><br><b>💡 Giải thích của AI:</b><br>Niêm mạc tử cung thay đổi theo nội tiết nên mô học phản ánh cả chức năng buồng trứng lẫn bệnh lý tại chỗ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.2. Sinh thiết buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK38-S2_2-02",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Sinh thiết buồng tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#51cf66\"><b>cách sinh thiết niêm mạc tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuỳ thuộc vào chỉ định, có thể:<br>2) <span style=\"color:#51cf66\"><b>Nạo niêm mạc</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Hút bằng bơm hút Karmann</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Sinh thiết qua nội soi buồng tử cung</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba cách từ mù (nạo, hút) đến nhìn thấy tổn thương (qua soi).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.2. Sinh thiết buồng tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK38-S2_3-01",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Chụp tử cung - vòi tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định</b></span> <span style=\"color:#74c0fc\"><b>chụp tử cung - vòi tử cung</b></span> có bơm thuốc cản quang: chẩn đoán nguyên nhân vô sinh và nghi ngờ tổn thương buồng tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán nguyên nhân vô sinh:</b> khảo sát hình dạng tử cung, <span style=\"color:#ff6b6b\"><b>dị dạng tử cung, dính buồng tử cung, tắc nghẽn vòi tử cung (ứ nước, lao...)</b></span>.<br>2) <b>Nghi ngờ tổn thương buồng tử cung:</b> tìm <span style=\"color:#ff6b6b\"><b>polyp buồng tử cung, u xơ tử cung dưới niêm mạc, ung thư nội mạc tử cung</b></span>.<br><img src=\"SK-38_fig08.jpg\"><br><i>Hình 8. Phim chụp tử cung vòi tử cung có bơm thuốc cản quang</i><br><br><b>💡 Giải thích của AI:</b><br>Thuốc cản quang lấp đầy buồng tử cung và vòi nên lộ hình dạng và chỗ tắc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.3. Chụp tử cung - vòi tử cung có bơm thuốc cản quang",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ],
+   "asks": [
+    "chẩn đoán nguyên nhân vô sinh",
+    "nghi ngờ tổn thương buồng tử cung"
+   ]
+  },
+  {
+   "id": "SK38-S2_3-02",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "Chụp tử cung - vòi tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Thuốc cản quang</b></span>, <span style=\"color:#ffd43b\"><b>thời điểm chụp</b></span> và <span style=\"color:#74c0fc\"><b>nhận định kết quả</b></span> chụp tử cung - vòi tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thuốc cản quang <span style=\"color:#51cf66\"><b>tan trong dầu hoặc tan trong nước</b></span> thường được sử dụng.<br>2) Thời điểm tốt nhất: <span style=\"color:#ffd43b\"><b>sau sạch kinh và trước thời điểm phóng noãn</b></span>.<br>3) Cho phép đánh giá <span style=\"color:#74c0fc\"><b>hình dạng buồng tử cung, 2 vòi tử cung</b></span> cũng như vị trí các tổn thương nếu có.<br><br><b>💡 Giải thích của AI:</b><br>Sau sạch kinh nội mạc mỏng, trước phóng noãn tránh chụp khi có thể đã có thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 2.3. Chụp tử cung - vòi tử cung có bơm thuốc cản quang",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK38-CH-03",
+   "type": "basic",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#74c0fc\"><b>phương pháp thăm dò tuyến vú</b></span> (liệt kê)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>X quang vú (Mamography)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Chọc hút tế bào bằng kim nhỏ</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Sinh thiết lõi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Từ hình ảnh (X quang, siêu âm) đến tế bào, rồi mô học.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S3-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>X quang vú</b></span> (Mamography): vai trò và giá trị chẩn đoán?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Phát hiện sớm</b></span> các tổn thương ở vú.<br>2) Có giá trị chẩn đoán trong <span style=\"color:#ffd43b\"><b>80%</b></span> các trường hợp <span style=\"color:#ff6b6b\"><b>ung thư vú</b></span>.<br><img src=\"SK-38_fig09.jpg\"><br><i>Hình 9. Phương pháp chụp X quang tuyến vú</i><br><br><b>💡 Giải thích của AI:</b><br>Mamography dùng tầm soát vì thấy được tổn thương sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S3-02",
+   "type": "basic",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Siêu âm vú</b></span>: xác định bản chất khối u thế nào và phân loại theo hệ thống nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể xác định bản chất một số khối u: <span style=\"color:#74c0fc\"><b>u nang</b></span> có hình ảnh <span style=\"color:#ffd43b\"><b>âm vang trống</b></span>; <span style=\"color:#74c0fc\"><b>u xơ tuyến vú</b></span> có hình ảnh <span style=\"color:#ffd43b\"><b>giới hạn rõ với echo giàu</b></span>.<br>2) Hiện nay siêu âm phân loại đánh giá, tiên lượng các tổn thương vú thường theo phân loại của <span style=\"color:#74c0fc\"><b>BIRADS</b></span>.<br><img src=\"SK-38_fig10.jpg\"><br><i>Hình 10. Hình ảnh siêu âm vú</i><br><br><b>💡 Giải thích của AI:</b><br>Nang chứa dịch nên trống âm; u xơ đặc nên echo giàu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S3-03",
+   "type": "basic",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chọc hút tế bào bằng kim nhỏ</b></span> tuyến vú: lưu ý về dịch và giá trị chẩn đoán?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phải đánh giá <span style=\"color:#ffd43b\"><b>màu sắc của dịch</b></span>; nếu <span style=\"color:#ff6b6b\"><b>dịch lẫn máu</b></span> phải nghĩ tới <span style=\"color:#ff6b6b\"><b>ung thư dạng nang</b></span>.<br>2) Cho phép chẩn đoán chính xác tới <span style=\"color:#ffd43b\"><b>90%</b></span> các trường hợp.<br><br><b>💡 Giải thích của AI:</b><br>Nang lành thường dịch không máu; dịch máu gợi ý tổn thương ác tính.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S3-04",
+   "type": "basic",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sinh thiết lõi</b></span> tuyến vú giúp ích gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giúp <span style=\"color:#51cf66\"><b>chẩn đoán mô học chính xác</b></span> trước khi có chỉ định mổ.<br>2) Hoặc khi các thăm dò khác có <span style=\"color:#ff6b6b\"><b>kết quả nghi ngờ</b></span>.<br><img src=\"SK-38_fig11.jpg\"><br><i>Hình 11. Sinh thiết lõi</i><br><br><b>💡 Giải thích của AI:</b><br>Mô học là tiêu chuẩn xác định trước khi quyết định mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S3-C01",
+   "type": "cloze",
+   "section": "S3",
+   "category": "Thăm dò tuyến vú",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "X quang vú có giá trị chẩn đoán trong {{c1::<span style=\"color:#ffd43b\"><b>80%</b></span>}} ung thư vú; chọc hút tế bào bằng kim nhỏ chẩn đoán chính xác tới {{c2::<span style=\"color:#ffd43b\"><b>90%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 3. Thăm dò tuyến vú",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Thời điểm và mẫu máu</b></span> định lượng <span style=\"color:#74c0fc\"><b>hormon căn bản</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thực hiện vào <span style=\"color:#ffd43b\"><b>đầu chu kỳ kinh (từ ngày thứ nhất đến ngày thứ 4)</b></span>.<br>2) Mẫu máu lấy vào <span style=\"color:#ffd43b\"><b>buổi sáng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hormon biến đổi theo chu kỳ và trong ngày nên cần chuẩn hóa thời điểm lấy máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-02",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nồng độ bình thường của <span style=\"color:#74c0fc\"><b>FSH</b></span> theo các giai đoạn chu kỳ (Bảng 1)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nang noãn sớm: <span style=\"color:#ffd43b\"><b>02 - 10 mIU/ml</b></span>.<br>2) Đỉnh phóng noãn: <span style=\"color:#ffd43b\"><b>10 - 23 mIU/ml</b></span>.<br>3) Giai đoạn hoàng thể: <span style=\"color:#ffd43b\"><b>1,5 - 9 mIU/ml</b></span>.<br>4) Giai đoạn mãn kinh: <span style=\"color:#ffd43b\"><b>30 - 140 mIU/ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>FSH tăng cao nhất ở mãn kinh do buồng trứng hết đáp ứng nên mất phản hồi âm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-03",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nồng độ bình thường của <span style=\"color:#74c0fc\"><b>LH</b></span> theo các giai đoạn chu kỳ (Bảng 1)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nang noãn sớm: <span style=\"color:#ffd43b\"><b>1,5 - 20 mIU/ml</b></span>.<br>2) Đỉnh phóng noãn: <span style=\"color:#ffd43b\"><b>17 - 80 mIU/ml</b></span>.<br>3) Giai đoạn hoàng thể: <span style=\"color:#ffd43b\"><b>02 - 15 mIU/ml</b></span>.<br>4) Giai đoạn mãn kinh: <span style=\"color:#ffd43b\"><b>20 - 90 mIU/ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>LH đạt đỉnh quanh phóng noãn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-04",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nồng độ bình thường của <span style=\"color:#74c0fc\"><b>Prolactin (PRL)</b></span> và <span style=\"color:#74c0fc\"><b>Estradiol (E2)</b></span> theo giai đoạn (Bảng 1)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Prolactin</b></span>: <span style=\"color:#ffd43b\"><b>02 - 30 ng/ml</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Estradiol</b></span> - nang noãn: <span style=\"color:#ffd43b\"><b>10 - 175 pg/ml</b></span>.<br>3) Estradiol - phóng noãn: <span style=\"color:#ffd43b\"><b>125 - 500 pg/ml</b></span>.<br>4) Estradiol - giai đoạn hoàng thể: <span style=\"color:#ffd43b\"><b>60 - 300 pg/ml</b></span>.<br>5) Estradiol - giai đoạn mãn kinh: <span style=\"color:#ffd43b\"><b>&lt; 50 pg/ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Estradiol cao nhất lúc phóng noãn và thấp nhất sau mãn kinh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-05",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nồng độ bình thường của <span style=\"color:#74c0fc\"><b>Progesteron</b></span> theo giai đoạn chu kỳ (Bảng 1)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngày 1 - 14 chu kỳ: <span style=\"color:#ffd43b\"><b>0,2 - 1,2 ng/ml</b></span>.<br>2) Ngày 15 - cuối vòng kinh: <span style=\"color:#ffd43b\"><b>2,5 - 25 ng/ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Progesteron tăng ở nửa sau chu kỳ do hoàng thể.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-S4_1-C01",
+   "type": "cloze",
+   "section": "S4_1",
+   "category": "Thăm dò nội tiết",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Định lượng hormon căn bản vào đầu chu kỳ từ ngày {{c1::<span style=\"color:#ffd43b\"><b>thứ nhất đến ngày thứ 4</b></span>}}, lấy máu vào buổi {{c2::<span style=\"color:#ffd43b\"><b>sáng</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-ALG-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Bảng giải mã nội tiết",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã số liệu</b></span>: ngưỡng <span style=\"color:#74c0fc\"><b>FSH, LH</b></span> ở các giai đoạn chu kỳ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>FSH</b></span> (mIU/ml): nang sớm <span style=\"color:#ffd43b\"><b>02-10</b></span> → đỉnh phóng noãn <span style=\"color:#ffd43b\"><b>10-23</b></span> → hoàng thể <span style=\"color:#ffd43b\"><b>1,5-9</b></span> → mãn kinh <span style=\"color:#ffd43b\"><b>30-140</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>LH</b></span> (mIU/ml): nang sớm <span style=\"color:#ffd43b\"><b>1,5-20</b></span> → đỉnh phóng noãn <span style=\"color:#ffd43b\"><b>17-80</b></span> → hoàng thể <span style=\"color:#ffd43b\"><b>02-15</b></span> → mãn kinh <span style=\"color:#ffd43b\"><b>20-90</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai tăng ở đỉnh phóng noãn và còn cao ở mãn kinh; thấp nhất ở giai đoạn hoàng thể.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-ALG-02",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Bảng giải mã nội tiết",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã số liệu</b></span>: ngưỡng <span style=\"color:#74c0fc\"><b>Estradiol, Progesteron, Prolactin</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>E2</b></span> (pg/ml): nang noãn <span style=\"color:#ffd43b\"><b>10-175</b></span>; phóng noãn <span style=\"color:#ffd43b\"><b>125-500</b></span>; hoàng thể <span style=\"color:#ffd43b\"><b>60-300</b></span>; mãn kinh <span style=\"color:#ffd43b\"><b>&lt; 50</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Progesteron</b></span> (ng/ml): ngày 1-14 <span style=\"color:#ffd43b\"><b>0,2-1,2</b></span>; ngày 15-cuối vòng kinh <span style=\"color:#ffd43b\"><b>2,5-25</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Prolactin</b></span>: <span style=\"color:#ffd43b\"><b>02-30 ng/ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Estradiol đỉnh lúc phóng noãn, progesteron chiếm ưu thế ở nửa sau chu kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.1. Thăm dò nội tiết",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK38-ALG-03",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Bảng độ sạch âm đạo",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh nhanh</b></span>: <span style=\"color:#74c0fc\"><b>độ sạch âm đạo</b></span> độ 1 - 2 so với độ 3 - 4 về Doderlein, vi khuẩn, bạch cầu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Độ 1</b></span>: Doderlein nhiều; vi khuẩn không; bạch cầu không.<br>2) <span style=\"color:#ffd43b\"><b>Độ 2</b></span>: Doderlein nhiều; vi khuẩn ít; bạch cầu ít.<br>3) <span style=\"color:#ffd43b\"><b>Độ 3</b></span>: Doderlein giảm; vi khuẩn rất nhiều, nấm hoặc Trichomonas; bạch cầu +++ → <span style=\"color:#ff6b6b\"><b>viêm và thiểu năng Estrogen vừa hay nặng</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Độ 4</b></span>: Doderlein không còn; vi khuẩn rất nhiều, nấm hoặc Trichomonas; bạch cầu +++ → <span style=\"color:#ff6b6b\"><b>viêm và thiểu năng Estrogen vừa hay nặng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Doderlein giảm dần và tạp khuẩn - bạch cầu tăng dần từ độ 1 đến độ 4.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.2. Xét nghiệm độ sạch âm đạo",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK38-ALG-04",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Bethesda 2001",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ</b></span>: kết quả <span style=\"color:#74c0fc\"><b>tế bào cổ tử cung</b></span> theo Bethesda 2001 thuộc nhóm nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bình thường</b></span>: không biến đổi hình dạng hoặc thay đổi phản ứng lành tính.<br>2) <span style=\"color:#74c0fc\"><b>Biểu mô vẩy</b></span>: ASC-US → ASC-H → <span style=\"color:#ff6b6b\"><b>LSIL (HPV, CIN 1)</b></span> → <span style=\"color:#ff6b6b\"><b>HSIL (loạn sản trung bình/nặng, ung thư tại chỗ, nghi xâm lấn)</b></span> → <span style=\"color:#ff6b6b\"><b>ung thư biểu mô vảy</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Biểu mô trụ</b></span>: AGUS → <span style=\"color:#ff6b6b\"><b>AIS</b></span> → <span style=\"color:#ff6b6b\"><b>ung thư biểu mô tuyến xâm nhập</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Các tổn thương tân sinh ác tính khác</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sắp xếp theo loại biểu mô rồi mức độ tăng dần.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 1.4. Xét nghiệm tế bào âm đạo cổ tử cung",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK38-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Siêu âm tử cung - phần phụ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Đặc điểm và giá trị của <span style=\"color:#51cf66\"><b>siêu âm tử cung - phần phụ</b></span>; siêu âm đường âm đạo đánh giá được gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là phương pháp <span style=\"color:#51cf66\"><b>phổ biến, đơn giản, rẻ tiền, không thể thiếu</b></span> trong thăm dò phụ khoa, rất hữu ích để chẩn đoán và hướng dẫn một số thăm dò phụ khoa khác.<br>2) Siêu âm qua đường âm đạo đánh giá: <span style=\"color:#74c0fc\"><b>kích thước tử cung, nội mạc tử cung, cơ tử cung, buồng trứng và vòi tử cung</b></span>.<br><img src=\"SK-38_fig12.jpg\"><br><i>Hình 12. Hình ảnh tử cung qua siêu âm đầu dò âm đạo</i><br><br><b>💡 Giải thích của AI:</b><br>Đầu dò âm đạo gần các cơ quan chậu nên thấy rõ tử cung và phần phụ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.2. Siêu âm tử cung- phần phụ",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK38-S4_3-01",
+   "type": "basic",
+   "section": "S4_3",
+   "category": "Nội soi ổ bụng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Nội soi ổ bụng</b></span> là gì và khi tiến hành cần <span style=\"color:#51cf66\"><b>mô tả</b></span> những kết quả quan sát nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là một <span style=\"color:#51cf66\"><b>phẫu thuật phụ khoa</b></span> có thể dùng để <span style=\"color:#51cf66\"><b>chẩn đoán và điều trị</b></span>.<br>2) Cần mô tả chi tiết: <span style=\"color:#74c0fc\"><b>toàn bộ ổ bụng và vùng chậu</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Tử cung - sừng tử cung</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Vòi tử cung - loa vòi</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Buồng trứng</b></span> và tất cả các mặt của nó.<br>6) <span style=\"color:#74c0fc\"><b>Túi cùng tử cung - trực tràng (túi cùng sau - túi cùng Douglas), dây chằng tử cung - cùng, ổ phúc mạc</b></span>.<br>7) <span style=\"color:#51cf66\"><b>Trắc nghiệm xanh Methylen</b></span>.<br><img src=\"SK-38_fig13.jpg\"><br><i>Hình 13. Nội soi ổ bụng</i><br><br><b>💡 Giải thích của AI:</b><br>Mô tả có hệ thống toàn bộ cơ quan trong chậu để không bỏ sót tổn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.3. Nội soi ổ bụng",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_3"
+   ]
+  },
+  {
+   "id": "SK38-S4_3-02",
+   "type": "basic",
+   "section": "S4_3",
+   "category": "Nội soi ổ bụng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định nội soi ổ bụng chẩn đoán</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán <span style=\"color:#ff6b6b\"><b>chửa ngoài tử cung</b></span>.<br>2) Các bệnh lý <span style=\"color:#ff6b6b\"><b>viêm nhiễm vùng chậu</b></span>.<br>3) Khảo sát các trường hợp <span style=\"color:#ff6b6b\"><b>vô sinh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhìn trực tiếp vòi tử cung và vùng chậu giúp xác định các bệnh lý này.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.3. Nội soi ổ bụng",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_3"
+   ]
+  },
+  {
+   "id": "SK38-S4_3-03",
+   "type": "basic",
+   "section": "S4_3",
+   "category": "Nội soi ổ bụng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định nội soi ổ bụng điều trị</b></span> (rất rộng) gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tắc vòi tử cung ở đoạn sừng tử cung</b></span>, hình ảnh <span style=\"color:#ff6b6b\"><b>ứ nước vòi tử cung</b></span> qua phim chụp X quang.<br>2) Xử trí <span style=\"color:#ff6b6b\"><b>chửa ngoài tử cung</b></span>.<br>3) Xử trí <span style=\"color:#ff6b6b\"><b>lạc nội mạc tử cung</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Buồng trứng đa nang</b></span>, bóc <span style=\"color:#ff6b6b\"><b>u xơ tử cung</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Triệt sản, cắt tử cung</b></span>, treo tạng <span style=\"color:#ff6b6b\"><b>sa sinh dục</b></span>,…<br><br><b>💡 Giải thích của AI:</b><br>Các thao tác này đều can thiệp qua nội soi thay cho mổ mở.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · 4.3. Nội soi ổ bụng",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "S4_3"
+   ]
+  },
+  {
+   "id": "SK38-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu hỏi 1: nêu các <span style=\"color:#74c0fc\"><b>phương pháp thăm dò âm đạo và chất nhầy cổ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đo pH âm đạo</b></span> (giấy quỳ): quanh phóng noãn pH <span style=\"color:#ffd43b\"><b>4,2</b></span>, trước/sau hành kinh <span style=\"color:#ffd43b\"><b>4,8 - 5,2</b></span>, hành kinh <span style=\"color:#ffd43b\"><b>5,4</b></span>; trên <span style=\"color:#ffd43b\"><b>5,5</b></span> nghĩ viêm âm đạo.<br>2) <span style=\"color:#74c0fc\"><b>Độ sạch âm đạo</b></span>: lấy dịch túi cùng sau, phết phiến kính, cố định cồn + ête; chia <span style=\"color:#ffd43b\"><b>4 độ</b></span> theo Doderlein, tế bào biểu mô, vi khuẩn, bạch cầu; độ 3 - 4 là <span style=\"color:#ff6b6b\"><b>viêm, thiểu năng estrogen</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Thăm dò chất nhầy cổ tử cung</b></span>: đánh giá ngày <span style=\"color:#ffd43b\"><b>12-14</b></span> chu kỳ 28 ngày, giữa 2 đầu kẹp dài; xem số lượng, độ kéo sợi, độ trong, độ đục; <span style=\"color:#ff6b6b\"><b>đục, nhiều bạch cầu</b></span> là nhiễm trùng.<br><br><b>💡 Giải thích của AI:</b><br>Ba thăm dò cùng phản ánh tác động estrogen/progesteron và tình trạng viêm của đường sinh dục thấp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK38-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Câu hỏi 2: trình bày <span style=\"color:#51cf66\"><b>xét nghiệm tế bào âm đạo cổ tử cung</b></span> - mục đích, chuẩn bị, kỹ thuật?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mục đích: <span style=\"color:#51cf66\"><b>thường quy, định kỳ cho mọi phụ nữ</b></span>, <span style=\"color:#ff6b6b\"><b>chẩn đoán sớm ung thư cổ tử cung</b></span>.<br>2) Chuẩn bị: <span style=\"color:#ffd43b\"><b>24 giờ</b></span> không khám phụ khoa, thụt rửa, giao hợp; không đặt thuốc âm đạo <span style=\"color:#ffd43b\"><b>3 ngày</b></span>; ngoài kỳ kinh.<br>3) <span style=\"color:#74c0fc\"><b>Cổ điển</b></span>: que bẹt gỗ 2 đầu, lấy vùng chuyển tiếp vẩy - trụ, dàn mỏng lên lam kính.<br>4) <span style=\"color:#74c0fc\"><b>Nhúng dịch</b></span>: dùng chổi phết, khuấy vào dung dịch bảo quản, máy loại hồng cầu, bạch cầu rồi chuyển lên lam kính.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai cách đều nhằm lấy được tế bào vùng chuyển tiếp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK38-CH-06",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Câu hỏi 2: <span style=\"color:#51cf66\"><b>đánh giá kết quả</b></span> tế bào cổ tử cung theo <span style=\"color:#74c0fc\"><b>Bethesda 2001</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhuộm <span style=\"color:#74c0fc\"><b>Papanicolaou</b></span>, xếp loại Bethesda 2001.<br>2) <span style=\"color:#74c0fc\"><b>Bình thường</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Biểu mô vẩy</b></span>: ASC-US, ASC-H, LSIL (HPV, loạn sản nhẹ/CIN 1), HSIL (loạn sản trung bình và nặng, ung thư tại chỗ, nghi xâm lấn), <span style=\"color:#ff6b6b\"><b>ung thư biểu mô vảy</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Biểu mô trụ</b></span>: AGUS, AIS, <span style=\"color:#ff6b6b\"><b>ung thư biểu mô tuyến xâm nhập</b></span> (ống cổ tử cung, nội mạc tử cung, ngoài tử cung, không rõ nguồn gốc).<br>5) <span style=\"color:#ff6b6b\"><b>Các tổn thương tân sinh ác tính khác</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại theo loại biểu mô và mức độ tổn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK38-CH-07",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Câu hỏi 4: liệt kê các <span style=\"color:#74c0fc\"><b>phương pháp thăm dò buồng tử cung</b></span> và chỉ định chính?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Soi buồng tử cung</b></span>: chẩn đoán (chảy máu bất thường, dị dạng, dính BTC, u xơ dưới niêm mạc, polyp, sẩy thai liên tiếp, TTON thất bại) hoặc <span style=\"color:#51cf66\"><b>phẫu thuật</b></span> (u xơ dưới nội mạc dưới <span style=\"color:#ffd43b\"><b>4 cm</b></span>, polyp, quá sản nội mạc, vách ngăn, dính BTC, rong kinh).<br>2) <span style=\"color:#74c0fc\"><b>Sinh thiết buồng tử cung</b></span>: đánh giá tác động estrogen/progesteron và tổn thương thực thể niêm mạc; nạo, hút Karmann hoặc qua nội soi.<br>3) <span style=\"color:#74c0fc\"><b>Chụp tử cung - vòi tử cung</b></span>: nguyên nhân vô sinh, tổn thương buồng tử cung; sau sạch kinh, trước phóng noãn.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi phương pháp trả lời một câu hỏi: nhìn, lấy mô, hay chụp hình dạng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK38-CH-08",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Câu hỏi 5: trình bày các <span style=\"color:#74c0fc\"><b>phương pháp thăm dò vú</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>X quang vú</b></span>: phát hiện sớm, đúng <span style=\"color:#ffd43b\"><b>80%</b></span> ung thư vú.<br>2) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span>: bản chất khối u (nang trống âm, u xơ echo giàu), phân loại BIRADS.<br>3) <span style=\"color:#74c0fc\"><b>Chọc hút tế bào kim nhỏ</b></span>: đánh giá màu dịch, dịch máu nghĩ <span style=\"color:#ff6b6b\"><b>ung thư dạng nang</b></span>; chính xác tới <span style=\"color:#ffd43b\"><b>90%</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Sinh thiết lõi</b></span>: chẩn đoán mô học trước mổ hoặc khi kết quả nghi ngờ.<br><br><b>💡 Giải thích của AI:</b><br>Từ hình ảnh đến tế bào và mô học.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK38-CH-09",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Câu hỏi 6: trình bày các <span style=\"color:#51cf66\"><b>chỉ định nội soi ổ bụng</b></span> để <b>chẩn đoán</b> và <b>điều trị</b>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán:</b> <span style=\"color:#ff6b6b\"><b>chửa ngoài tử cung, viêm nhiễm vùng chậu, vô sinh</b></span>.<br>2) <b>Điều trị:</b> tắc vòi tử cung ở đoạn sừng, ứ nước vòi tử cung, chửa ngoài tử cung, lạc nội mạc tử cung, buồng trứng đa nang, bóc u xơ tử cung, triệt sản, cắt tử cung, treo tạng sa sinh dục,…<br><br><b>💡 Giải thích của AI:</b><br>Nội soi vừa chẩn đoán vừa điều trị.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-38 Thăm dò trong phụ khoa · Câu hỏi",
+   "tags": [
+    "SK-38",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "chẩn đoán",
+    "điều trị"
+   ]
+  }
+ ]
+}

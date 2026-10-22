@@ -22,6 +22,7 @@
 | Siêu âm thai | `03_Sieu am thai` | `FUS-<số folder>` | `2. Y Khoa - Sản Phụ Khoa & ART` | `evidence_bundle` | `outputs/` |
 | Siêu âm tổng quát | `04_Sieu am tong quat` | `US-<số folder>` | `Imaging` | `evidence_bundle` | `outputs/` |
 | Vi sinh – Miễn dịch | `05_Vi sinh - Mien dich` | `MIC-<số>` (`V4_` → `MIC-4`) | `2. Y Khoa - Sản Phụ Khoa & ART` | `evidence_bundle` | `outputs/` |
+| Giáo trình Sản YTB 2021 (thẻ bám sách) | `13_Giao trinh San YTB` | `SK-xx` | `2. Y Khoa - Sản Phụ Khoa & ART` (nhóm `Giáo trình Sản YTB 2021::<Chương>`) | — (không có bài `.md`; build bằng `deck_builder.py`, không qua `release_lesson.py`) | `outputs/` |
 
 - **Tên deck:** `<Gốc deck>::[<Nhóm>::]<Mã bài>[:] <Tên bài có dấu>` (+ ` (EBM Update)` cho deck EBM tách riêng). Ví dụ:
   - `Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu theo tuổi`
@@ -127,6 +128,7 @@ Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "t
 - GUID cố định theo `anki_lock.json` → import lại APKG cập nhật note cũ, không nhân đôi.
 - Note đã có: cập nhật field tại chỗ (giữ lịch sử ôn, giữ notetype cũ). Thẻ mới: thêm note.
 - Note trong deck không còn trong nguồn thẻ → suspend + chuyển sang `<Gốc deck>::_Archive::<Mã bài>`, tag `lesson_archived`. **Không xóa note của người học.**
+- Ảnh mà thẻ tham chiếu (`<img src>` trong `deck.media_dir`) được đưa vào media của Anki (`storeMediaFile`); ảnh thiếu sau sync là BLOCK.
 - Sau sync: số note trong deck == số thẻ, field khớp; lệch là BLOCK. AnkiConnect chậm → chạy các bài **tuần tự**; chạy lại an toàn (ghép lại note theo nội dung).
 
 ## 7. Lệnh nhanh

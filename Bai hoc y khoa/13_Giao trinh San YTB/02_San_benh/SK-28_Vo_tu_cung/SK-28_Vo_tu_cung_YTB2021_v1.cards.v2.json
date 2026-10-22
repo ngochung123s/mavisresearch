@@ -1,0 +1,702 @@
+{
+ "cards": [
+  {
+   "id": "SK28-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Định nghĩa, hậu quả nếu không xử trí kịp thời và so sánh tần suất của <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> trong chuyển dạ với trong thai kỳ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span> là một <span style=\"color:#ff6b6b\"><b>tai biến sản khoa</b></span>.<br>2) Nếu không phát hiện và xử trí kịp thời sẽ gây <span style=\"color:#ff6b6b\"><b>tử vong cho mẹ và thai nhi</b></span>.<br>3) Vỡ tử cung <span style=\"color:#74c0fc\"><b>trong chuyển dạ</b></span> thường gặp hơn vỡ tử cung <span style=\"color:#74c0fc\"><b>trong thai kỳ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là tai biến nặng đe doạ cả hai sinh mạng, nên phát hiện sớm là then chốt.<br><br>Hình 1. Vỡ tử cung<br><img src=\"SK-28_fig01.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 1. Đại cương",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK28-S1-C01",
+   "type": "cloze",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Vỡ tử cung là một {{c1::tai biến sản khoa}}; thường gặp hơn trong {{c2::chuyển dạ}} so với trong thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 1. Đại cương",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK28-S2-01",
+   "type": "basic",
+   "section": "S2",
+   "category": "Vỡ tử cung trong thai kỳ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Liệt kê các nguyên nhân gây <span style=\"color:#74c0fc\"><b>vỡ tử cung trong thai kỳ</b></span> trên thai phụ có <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ ở tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Mổ lấy thai ở thân tử cung</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Khâu lại tử cung bị vỡ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Mổ lấy thai từ hai lần trở lên</b></span> (sẹo mổ ngang đoạn dưới tử cung trước đó, số lần mổ càng nhiều càng làm tăng nguy cơ vỡ tử cung).<br>4) Mổ cắt góc tử cung trong phẫu thuật điều trị chửa ngoài tử cung đoạn kẽ.<br>5) Mổ lấy thai bị nhiễm khuẩn tại vết mổ hoặc tử cung.<br>6) Phẫu thuật bóc nhân xơ tử cung (nếu u xơ tử cung ăn vào nội mạc tử cung).<br>7) Khâu lỗ thủng tử cung sau nạo phá thai.<br>8) Tai nạn, sang chấn trực tiếp.<br>9) Phẫu thuật Strassman tạo hình tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Hầu hết là các tình huống làm thành tử cung có sẹo hoặc điểm yếu, nên chỗ đó chịu lực kém khi tử cung to lên.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 2.1. Nguyên nhân (vỡ tử cung trong thai kỳ)",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK28-S2-C01",
+   "type": "cloze",
+   "section": "S2",
+   "category": "Vỡ tử cung trong thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Phẫu thuật {{c1::Strassman}} tạo hình tử cung là một nguyên nhân gây vỡ tử cung trong thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 2.1. Nguyên nhân (vỡ tử cung trong thai kỳ)",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK28-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Triệu chứng vỡ tử cung trong thai kỳ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung trong thai kỳ</b></span>: thời điểm xảy ra, có dấu hiệu dọa vỡ không, triệu chứng cơ năng và toàn thân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể xảy ra ở <span style=\"color:#ffd43b\"><b>3 tháng giữa và 3 tháng cuối</b></span> thai kỳ nhưng <span style=\"color:#ff6b6b\"><b>không có dấu hiệu dọa vỡ tử cung</b></span>.<br>2) Cơ năng: <span style=\"color:#ff6b6b\"><b>đau đột ngột ở vùng giữa tử cung</b></span> (thường ở vị trí vết mổ cũ); <span style=\"color:#ff6b6b\"><b>ra máu ở âm đạo</b></span>.<br>3) Toàn thân: một số trường hợp có dấu hiệu choáng, đôi khi choáng nặng: da mặt tái nhợt, nhịp thở nhanh, thở nông, vẻ mặt hốt hoảng, lo lắng, chân tay lạnh toát, vã mồ hôi, mạch nhanh, huyết áp hạ, đôi khi có thể ngừng tim.<br><br><b>💡 Giải thích của AI:</b><br>Không có giai đoạn báo trước nên bệnh thường đến với biểu hiện mất máu cấp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 2.2. Triệu chứng (vỡ tử cung trong thai kỳ)",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK28-S2_2-02",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Triệu chứng vỡ tử cung trong thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Triệu chứng <span style=\"color:#ff6b6b\"><b>thực thể</b></span> của <span style=\"color:#74c0fc\"><b>vỡ tử cung trong thai kỳ</b></span> (đau bụng, hình dạng tử cung, tim thai, gõ bụng, khám âm đạo)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau bụng: đau có thể lan toả toàn bụng, có khi <span style=\"color:#ff6b6b\"><b>cảm ứng phúc mạc, phản ứng thành bụng rất rõ</b></span>.<br>2) Tử cung <span style=\"color:#ff6b6b\"><b>không còn hình dạng ban đầu</b></span>, có thể sờ thấy các phần thai ngay dưới thành bụng; vỡ tử cung không hoàn toàn có thể còn sờ thấy tử cung nhưng có <span style=\"color:#ff6b6b\"><b>điểm đau chói tại vùng sẹo</b></span>.<br>3) Nghe tim thai: <span style=\"color:#ff6b6b\"><b>không còn nghe được</b></span>.<br>4) Gõ bụng: <span style=\"color:#ff6b6b\"><b>đục toàn bộ</b></span>.<br>5) Khám âm đạo: <span style=\"color:#ff6b6b\"><b>ngôi thai không sờ thấy, có máu chảy ra theo tay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thai thoát vào ổ bụng nên tử cung mất hình dạng, ngôi thai không còn sờ thấy qua âm đạo, máu trong ổ bụng làm gõ đục.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 2.2. Triệu chứng (vỡ tử cung trong thai kỳ)",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK28-S2_2-03",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Triệu chứng vỡ tử cung trong thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Cần chú ý gì về <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ bị nứt</b></span> trong vỡ tử cung thai kỳ, và <span style=\"color:#74c0fc\"><b>cận lâm sàng</b></span> gồm gì (siêu âm, xét nghiệm máu)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có trường hợp <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ bị nứt</b></span>, nên <span style=\"color:#ff6b6b\"><b>không có dấu hiệu điển hình của chảy máu trong</b></span> như đã mô tả.<br>2) Siêu âm: nếu <span style=\"color:#74c0fc\"><b>vỡ tử cung hoàn toàn</b></span> sẽ thấy trong ổ bụng có thai nhi, <span style=\"color:#ff6b6b\"><b>tim thai không đập</b></span>, có <span style=\"color:#ff6b6b\"><b>dịch tự do</b></span> trong ổ bụng.<br>3) Máu: <span style=\"color:#ff6b6b\"><b>giảm số lượng hồng cầu, hemoglobin (Hb) và hematocrit (Hct)</b></span>; giảm nhiều trong trường hợp mất máu nặng.<br><br><b>💡 Giải thích của AI:</b><br>Nứt sẹo chỉ rỉ máu ít nên bệnh cảnh nghèo nàn; ngược lại vỡ hoàn toàn gây mất máu lớn thể hiện rõ trên xét nghiệm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 2.2. Triệu chứng (vỡ tử cung trong thai kỳ)",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK28-S3-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "Vỡ tử cung trong chuyển dạ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung trong chuyển dạ</b></span> được chia làm mấy nhóm? Nêu các thủ thuật sản khoa gây vỡ tử cung do can thiệp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chia làm <span style=\"color:#ffd43b\"><b>2 nhóm</b></span>: <span style=\"color:#74c0fc\"><b>vỡ tử cung tự nhiên</b></span> xảy ra không do sự can thiệp thủ thuật; <span style=\"color:#74c0fc\"><b>vỡ tử cung do can thiệp</b></span> bởi các thủ thuật sản khoa.<br>2) Các thủ thuật: <span style=\"color:#ff6b6b\"><b>nội xoay thai</b></span>, <span style=\"color:#ff6b6b\"><b>lấy đầu hậu trong đỡ đẻ ngôi mông</b></span>, <span style=\"color:#ff6b6b\"><b>đẻ thủ thuật forceps</b></span>, <span style=\"color:#ff6b6b\"><b>giác hút</b></span> và <span style=\"color:#ff6b6b\"><b>đẩy bụng trong giai đoạn rặn sổ</b></span>...<br><br><b>💡 Giải thích của AI:</b><br>Phân nhóm giúp phân biệt vỡ do bệnh lý tự thân với vỡ do thủ thuật có thể phòng được.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3. Vỡ tử cung trong chuyển dạ",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK28-S3_1_1-01",
+   "type": "basic",
+   "section": "S3_1_1",
+   "category": "Nguyên nhân về phía mẹ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Liệt kê các <span style=\"color:#ff6b6b\"><b>nguyên nhân về phía mẹ</b></span> gây <span style=\"color:#74c0fc\"><b>vỡ tử cung trong chuyển dạ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đẻ khó do khung chậu</b></span>: khung chậu hẹp tuyệt đối, khung chậu hẹp eo giữa và eo dưới (hình phễu), khung chậu méo...<br>2) <span style=\"color:#ff6b6b\"><b>Sẹo mổ cũ ở tử cung</b></span>.<br>3) Sản phụ <span style=\"color:#ff6b6b\"><b>đã đẻ nhiều lần, có tiền sử sinh đa thai</b></span> nên cơ tử cung nhão, mỏng, dễ vỡ.<br>4) Sản phụ <span style=\"color:#ff6b6b\"><b>đã nhiều lần phải nạo phá thai</b></span>.<br>5) Đẻ khó do các <span style=\"color:#ff6b6b\"><b>khối u tiền đạo</b></span> như: u xơ ở eo tử cung, u nang buồng trứng và một số u khác trong tiểu khung.<br><br><b>💡 Giải thích của AI:</b><br>Cản trở đường ra hoặc làm thành tử cung yếu đều khiến cơ tử cung co mạnh nhưng không tống được thai, dẫn tới vỡ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.1.1. Nguyên nhân về phía mẹ",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_1_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_1_2-01",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "Nguyên nhân về phía thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Liệt kê các <span style=\"color:#ff6b6b\"><b>nguyên nhân về phía thai</b></span> gây <span style=\"color:#74c0fc\"><b>vỡ tử cung trong chuyển dạ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thai to toàn bộ</b></span>: trọng lượng thai <span style=\"color:#ffd43b\"><b>trên 4000g</b></span>, gây bất tương xứng giữa thai và khung chậu người mẹ.<br>2) <span style=\"color:#ff6b6b\"><b>Thai to từng phần</b></span> như não úng thủy.<br>3) <span style=\"color:#ff6b6b\"><b>Ngôi và kiểu thế bất thường</b></span>: ngôi chỏm đầu cúi không tốt, ngôi mặt cằm cùng, ngôi trán, ngôi thóp trước, ngôi vai...<br>4) <span style=\"color:#ff6b6b\"><b>Đa thai</b></span>: do các thai vướng nhau hoặc dị dạng.<br><br><b>💡 Giải thích của AI:</b><br>Mọi tình huống làm thai không lọt được qua khung chậu đều gây bất tương xứng và tăng áp lực lên đoạn dưới.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.1.2. Nguyên nhân về phía thai",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_1_2-C01",
+   "type": "cloze",
+   "section": "S3_1_2",
+   "category": "Nguyên nhân về phía thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thai to toàn bộ khi trọng lượng thai trên {{c1::4000g}}, gây bất tương xứng giữa thai và khung chậu người mẹ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.1.2. Nguyên nhân về phía thai",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_1_3-01",
+   "type": "basic",
+   "section": "S3_1_3",
+   "category": "Nguyên nhân do can thiệp",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#ff6b6b\"><b>nguyên nhân do can thiệp</b></span> gây <span style=\"color:#74c0fc\"><b>vỡ tử cung trong chuyển dạ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thủ thuật</b></span> thực hiện <span style=\"color:#ff6b6b\"><b>không đúng chỉ định, chưa đủ điều kiện hoặc không đúng kỹ thuật</b></span>.<br>2) Sử dụng <span style=\"color:#ff6b6b\"><b>thuốc tăng co</b></span> không chính xác (chỉ định, liều lượng) và <span style=\"color:#ff6b6b\"><b>theo dõi không cẩn thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là nhóm nguyên nhân phụ thuộc thầy thuốc, nên cũng là nhóm phòng được nhất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.1.3. Nguyên nhân do can thiệp",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_1_3"
+   ]
+  },
+  {
+   "id": "SK28-S3_2_1-01",
+   "type": "basic",
+   "section": "S3_2_1",
+   "category": "Vỡ tử cung hoàn toàn",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung hoàn toàn</b></span>: tỉ lệ, mức độ rách thành tử cung, vị trí rách và hậu quả với mẹ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chiếm <span style=\"color:#ffd43b\"><b>80%</b></span> các trường hợp vỡ tử cung.<br>2) Toàn bộ bề dày thành tử cung bị xé rách (<span style=\"color:#ff6b6b\"><b>niêm mạc, cơ đến phúc mạc</b></span>).<br>3) Vị trí rách thường ở <span style=\"color:#74c0fc\"><b>bên trái và mặt trước đoạn dưới</b></span> tử cung, vết rách có thể kéo dài từ cổ tử cung đến thân tử cung.<br>4) Thai, rau, nước ối bị đẩy vào ổ bụng của mẹ nên mẹ dễ bị <span style=\"color:#ff6b6b\"><b>viêm phúc mạc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì rách đến phúc mạc nên buồng tử cung thông với ổ bụng, đưa thai và dịch vào ổ bụng.<br><br>Hình 2 (b). Vỡ tử cung hoàn toàn<br><img src=\"SK-28_fig03.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2.1. Vỡ tử cung hoàn toàn",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_2_1-C01",
+   "type": "cloze",
+   "section": "S3_2_1",
+   "category": "Vỡ tử cung hoàn toàn",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Vỡ tử cung hoàn toàn chiếm {{c1::80%}} các trường hợp vỡ tử cung; vị trí rách thường ở {{c2::bên trái và mặt trước đoạn dưới tử cung}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2.1. Vỡ tử cung hoàn toàn",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_2_2-01",
+   "type": "basic",
+   "section": "S3_2_2",
+   "category": "Vỡ tử cung không hoàn toàn",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung không hoàn toàn</b></span>: tên gọi khác, lớp bị rách, đường đi của máu và số phận thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Còn gọi là <span style=\"color:#74c0fc\"><b>vỡ tử cung dưới phúc mạc</b></span>.<br>2) Chỉ có <span style=\"color:#ff6b6b\"><b>lớp niêm mạc và lớp cơ bị xé rách</b></span>, phúc mạc đoạn dưới bị bong ra nhưng <span style=\"color:#ff6b6b\"><b>chưa bị rách</b></span>.<br>3) Máu không chảy vào ổ bụng mà chảy vào <span style=\"color:#74c0fc\"><b>dây chằng rộng</b></span> tạo thành <span style=\"color:#ff6b6b\"><b>khối máu tụ trong dây chằng rộng, tiểu khung</b></span>.<br>4) Thai và rau vẫn ở trong tử cung nên <span style=\"color:#51cf66\"><b>thai có thể còn sống</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phúc mạc còn nguyên nên giữ máu và thai trong tử cung; máu tụ lại ở dây chằng rộng.<br><br>Hình 2. (a) Vỡ tử cung trong dây chằng rộng. (b) Vỡ tử cung hoàn toàn<br><img src=\"SK-28_fig02.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2.2. Vỡ tử cung không hoàn toàn",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_2_3-01",
+   "type": "basic",
+   "section": "S3_2_3",
+   "category": "Vỡ tử cung ở người có sẹo mổ cũ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Đặc điểm giải phẫu bệnh của <span style=\"color:#74c0fc\"><b>vỡ tử cung ở người có sẹo mổ cũ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường do <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ ở tử cung bị vỡ hoặc bị nứt một phần</b></span>.<br>2) Bờ vết rách <span style=\"color:#ff6b6b\"><b>không nham nhở</b></span> và có khi <span style=\"color:#ff6b6b\"><b>ít chảy máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Rách theo đường sẹo gọn nên chảy máu có thể ít, dễ bị bỏ sót.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2.3. Vỡ tử cung ở người có sẹo mổ cũ",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_3"
+   ]
+  },
+  {
+   "id": "SK28-S3_2_4-01",
+   "type": "basic",
+   "section": "S3_2_4",
+   "category": "Vỡ phức tạp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung phức tạp</b></span> gồm những tổn thương nào và hậu quả trên bệnh nhân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vỡ tử cung hoàn toàn với <span style=\"color:#ff6b6b\"><b>tổn thương rộng</b></span>, có thể kéo dài xuống âm đạo, <span style=\"color:#ff6b6b\"><b>xé rách túi cùng, bàng quang</b></span> hoặc <span style=\"color:#ff6b6b\"><b>đứt động mạch tử cung</b></span>.<br>2) Bệnh nhân thường bị <span style=\"color:#ff6b6b\"><b>choáng nặng</b></span> nên xử trí rất khó khăn và hậu phẫu nặng nề.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương nhiều cơ quan và mạch máu lớn gây mất máu nhiều nên choáng nặng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2.4. Vỡ phức tạp",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_4"
+   ]
+  },
+  {
+   "id": "SK28-S3_3-01",
+   "type": "basic",
+   "section": "S3_3",
+   "category": "Triệu chứng vỡ tử cung trong chuyển dạ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Ý nghĩa của <span style=\"color:#ff6b6b\"><b>dấu hiệu dọa vỡ tử cung</b></span> và trường hợp nào vỡ tử cung <span style=\"color:#ff6b6b\"><b>không có dấu hiệu báo trước</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vỡ tử cung thường có dấu hiệu báo trước gọi là <span style=\"color:#ff6b6b\"><b>dấu hiệu dọa vỡ tử cung</b></span>: rất quí cho thầy thuốc, nếu phát hiện và xử trí kịp thời sẽ <span style=\"color:#51cf66\"><b>hạn chế được vỡ tử cung</b></span>.<br>2) Vỡ tử cung ở người có <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ</b></span> thường xảy ra <span style=\"color:#ff6b6b\"><b>đột ngột, không có dấu hiệu dọa vỡ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dọa vỡ là thời cơ vàng để can thiệp; sẹo cũ vỡ âm thầm nên mất cơ hội này.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3. Triệu chứng",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_1-01",
+   "type": "basic",
+   "section": "S3_3_1",
+   "category": "Doạ vỡ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Doạ vỡ tử cung</b></span>: triệu chứng cơ năng và dấu hiệu <span style=\"color:#ff6b6b\"><b>nhìn</b></span> (hình dạng tử cung, vòng Bandl)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ năng: thai phụ <span style=\"color:#ff6b6b\"><b>đau nhiều, dữ dội</b></span> do <span style=\"color:#ff6b6b\"><b>cơn co mau và mạnh</b></span>.<br>2) Nhìn: tử cung bị chia làm <span style=\"color:#ffd43b\"><b>hai khối</b></span>, thắt ở giữa như <span style=\"color:#ff6b6b\"><b>hình quả bầu nậm</b></span>. Khối dưới là đoạn dưới bị kéo dài (có khi lên tới rốn), giãn mỏng; khối thân tử cung bị đẩy lên cao.<br>3) Chỗ thắt ở giữa gọi là <span style=\"color:#74c0fc\"><b>vòng Bandl</b></span>; lúc tử cung gần vỡ vòng Bandl <span style=\"color:#ff6b6b\"><b>càng lên cao và càng rõ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đoạn dưới bị kéo giãn mỏng trong khi thân co mạnh nên có rãnh thắt ở giữa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.1. Doạ vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_1-02",
+   "type": "basic",
+   "section": "S3_3_1",
+   "category": "Doạ vỡ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Doạ vỡ tử cung</b></span>: các dấu hiệu <span style=\"color:#ff6b6b\"><b>cơn co, sờ nắn, tim thai</b></span> và <span style=\"color:#ff6b6b\"><b>khám âm đạo</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơn co tử cung <span style=\"color:#ff6b6b\"><b>mau và mạnh</b></span>.<br>2) Sờ nắn: hai <span style=\"color:#74c0fc\"><b>dây chằng tròn</b></span> bị căng như hai sợi dây đàn, đoạn dưới giãn mỏng; vòng Bandl và dây chằng tròn bị kéo căng tạo thành <span style=\"color:#74c0fc\"><b>dấu hiệu Bandl - Frommel</b></span>.<br>3) Nhịp tim thai bất thường: <span style=\"color:#ff6b6b\"><b>nhanh, chậm, hoặc không đều</b></span>.<br>4) Khám âm đạo: có thể tìm thấy nguyên nhân cản trở chuyển dạ như <span style=\"color:#ff6b6b\"><b>khung chậu hẹp, ngôi thai bất thường (ngôi vai, ngôi trán, ngôi mặt cằm cùng), thai to hoặc bất tương xứng đầu - chậu</b></span>...<br><br><b>💡 Giải thích của AI:</b><br>Khám âm đạo nhằm tìm ra nguyên nhân cản trở khiến tử cung co gắng sức.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.1. Doạ vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_1-C01",
+   "type": "cloze",
+   "section": "S3_3_1",
+   "category": "Doạ vỡ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Vòng Bandl và dây chằng tròn bị kéo căng tạo thành dấu hiệu {{c1::Bandl - Frommel}}; chỗ thắt giữa hai khối tử cung gọi là {{c2::vòng Bandl}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.1. Doạ vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_2-01",
+   "type": "basic",
+   "section": "S3_3_2",
+   "category": "Vỡ tử cung (triệu chứng)",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung trong chuyển dạ</b></span>: triệu chứng <span style=\"color:#ff6b6b\"><b>cơ năng</b></span> và dấu hiệu <span style=\"color:#ff6b6b\"><b>choáng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sản phụ đã có dấu hiệu dọa vỡ <span style=\"color:#ff6b6b\"><b>đột nhiên đau chói</b></span>, đau nhiều ở chỗ vỡ, <span style=\"color:#ff6b6b\"><b>sau đó dịu đi</b></span>.<br>2) Chảy máu: âm đạo có <span style=\"color:#ff6b6b\"><b>máu đỏ tươi</b></span> chảy ra, số lượng nhiều hoặc ít tùy theo vị trí vỡ và có kèm tổn thương mạch máu không.<br>3) Nếu mất máu nhiều có <span style=\"color:#ff6b6b\"><b>choáng</b></span>: da nhợt nhạt, niêm mạc mắt trắng bệch, thở nhanh - nông, vã mồ hôi, chân tay lạnh, mạch nhanh, huyết áp hạ.<br><br><b>💡 Giải thích của AI:</b><br>Đau dịu đi sau khi vỡ vì tử cung hết căng, không phải dấu hiệu tốt lên.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.2. Vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_2-02",
+   "type": "basic",
+   "section": "S3_3_2",
+   "category": "Vỡ tử cung (triệu chứng)",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: dấu hiệu <span style=\"color:#ff6b6b\"><b>nhìn, sờ nắn, nghe tim thai</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhìn: <span style=\"color:#ff6b6b\"><b>không còn thấy hình dạng tử cung</b></span>.<br>2) Sờ nắn: nếu thai còn trong buồng tử cung thì tử cung vẫn còn hình thể cũ nhưng sờ vào chỗ vỡ <span style=\"color:#ff6b6b\"><b>đau chói, bụng có phản ứng</b></span>; nếu thai bị đẩy vào ổ bụng thì sờ thấy <span style=\"color:#ff6b6b\"><b>các phần của thai lổn nhổn dưới da bụng</b></span>.<br>3) Nghe: nhịp tim thai <span style=\"color:#ff6b6b\"><b>không có</b></span> hoặc có biểu hiện <span style=\"color:#ff6b6b\"><b>suy thai</b></span> trong trường hợp nứt sẹo mổ cũ ở đoạn dưới.<br><br><b>💡 Giải thích của AI:</b><br>Thai còn trong tử cung hay đã ra ổ bụng quyết định hình thể tử cung và tim thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.2. Vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_3_2-03",
+   "type": "basic",
+   "section": "S3_3_2",
+   "category": "Vỡ tử cung (triệu chứng)",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: dấu hiệu khi <span style=\"color:#ff6b6b\"><b>khám âm đạo</b></span> và khi <span style=\"color:#ff6b6b\"><b>thông tiểu</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khám âm đạo: có <span style=\"color:#ff6b6b\"><b>máu đỏ tươi chảy ra theo tay</b></span>, <span style=\"color:#ff6b6b\"><b>ngôi thai cao, đẩy lên dễ dàng</b></span>.<br>2) Thông tiểu: nước tiểu có màu <span style=\"color:#ff6b6b\"><b>hồng hoặc đỏ</b></span> tùy theo có <span style=\"color:#ff6b6b\"><b>vỡ bàng quang</b></span> hay không.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi thai không còn bị giữ trong tiểu khung nên đẩy lên dễ; nước tiểu máu gợi ý tổn thương bàng quang.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3.2. Vỡ tử cung",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_4_1-01",
+   "type": "basic",
+   "section": "S3_4_1",
+   "category": "Chẩn đoán xác định",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Tiêu chuẩn <span style=\"color:#51cf66\"><b>chẩn đoán xác định</b></span> <span style=\"color:#74c0fc\"><b>doạ vỡ tử cung</b></span>, <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> và vỡ tử cung sau đẻ, sau thủ thuật?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Doạ vỡ tử cung</b></span>: thai phụ <span style=\"color:#ff6b6b\"><b>đau bụng dữ dội, cơn co dồn dập</b></span>, có <span style=\"color:#ff6b6b\"><b>vòng Bandl</b></span> hoặc <span style=\"color:#ff6b6b\"><b>dấu hiệu Bandl - Frommel</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: đã có dấu hiệu dọa vỡ (trừ trường hợp có sẹo mổ ở tử cung), thai phụ <span style=\"color:#ff6b6b\"><b>đau chói, ra máu âm đạo đỏ tươi</b></span>, có <span style=\"color:#ff6b6b\"><b>choáng</b></span> tuỳ mức độ mất máu, <span style=\"color:#ff6b6b\"><b>không còn tim thai</b></span>, sờ thấy <span style=\"color:#ff6b6b\"><b>phần thai dưới da bụng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Vỡ tử cung sau đẻ, sau thủ thuật</b></span>: sau đẻ thấy <span style=\"color:#ff6b6b\"><b>ra máu âm đạo nhiều</b></span>, <span style=\"color:#51cf66\"><b>bóc rau nhân tạo và kiểm soát tử cung</b></span> hoặc <span style=\"color:#51cf66\"><b>kiểm tra cổ tử cung</b></span> mới phát hiện ra vỡ tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Ba tình huống ứng với ba thời điểm: trước vỡ, khi vỡ và vỡ phát hiện muộn sau đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.4.1. Chẩn đoán xác định",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_4_1"
+   ]
+  },
+  {
+   "id": "SK28-S3_4_2-01",
+   "type": "basic",
+   "section": "S3_4_2",
+   "category": "Chẩn đoán phân biệt",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau tiền đạo</b></span> khác <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> thế nào: dấu hiệu dọa vỡ, chảy máu, tim thai, đau bụng, khám âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không có dấu hiệu dọa vỡ</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Chảy máu ra ngoài là chủ yếu</b></span>.<br>3) Nhịp tim thai <span style=\"color:#ff6b6b\"><b>có thể mất khi máu chảy nhiều</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Không đau bụng</b></span>.<br>5) Khám âm đạo <span style=\"color:#ff6b6b\"><b>sờ thấy bánh rau</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở rau tiền đạo nguồn chảy máu là bánh rau nằm thấp, nên không đau và sờ được bánh rau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.4.2. Chẩn đoán phân biệt",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_4_2"
+   ]
+  },
+  {
+   "id": "SK28-S3_4_2-02",
+   "type": "basic",
+   "section": "S3_4_2",
+   "category": "Chẩn đoán phân biệt",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> khác <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> thế nào: tiền sản giật, đặc điểm máu chảy, tử cung, tim thai, fibrinogen, choáng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể có dấu hiệu của <span style=\"color:#ff6b6b\"><b>tiền sản giật</b></span> (protein niệu, phù, huyết áp cao).<br>2) Máu chảy ra âm đạo là <span style=\"color:#ff6b6b\"><b>máu loãng không đông</b></span>.<br>3) Tử cung <span style=\"color:#ff6b6b\"><b>co cứng như gỗ</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Không nghe thấy nhịp tim thai</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Giảm fibrinogen máu</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Choáng có thể xảy ra</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Rau bong non liên quan rối loạn đông máu nên máu loãng không đông, khác máu đỏ tươi của vỡ tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.4.2. Chẩn đoán phân biệt",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_4_2"
+   ]
+  },
+  {
+   "id": "SK28-S4-01",
+   "type": "basic",
+   "section": "S4",
+   "category": "Tiên lượng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span> nguy hiểm với ai, tình trạng thai thế nào, và tử vong mẹ phụ thuộc yếu tố nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nguy hiểm đến tính mạng cho cả mẹ và con</b></span>.<br>2) Thai <span style=\"color:#ff6b6b\"><b>suy hoặc chết</b></span> vì cơn co dồn dập, rau bong.<br>3) Tử vong mẹ phụ thuộc: <span style=\"color:#ff6b6b\"><b>độ phức tạp của tổn thương</b></span>; <span style=\"color:#ff6b6b\"><b>thái độ xử trí và điều kiện gây mê - hồi sức</b></span>; <span style=\"color:#ff6b6b\"><b>phương tiện di chuyển bệnh nhân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba yếu tố đều liên quan tới độ nặng của tổn thương và tốc độ tiếp cận điều trị.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 4. Tiên lượng",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S4"
+   ]
+  },
+  {
+   "id": "SK28-S5-01",
+   "type": "basic",
+   "section": "S5",
+   "category": "Điều trị",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Nguyên tắc <span style=\"color:#51cf66\"><b>điều trị vỡ tử cung</b></span>: hình thức xử trí chung, hồi sức và kháng sinh?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tất cả các loại vỡ tử cung đều phải <span style=\"color:#51cf66\"><b>mổ cấp cứu</b></span>, <span style=\"color:#51cf66\"><b>vừa hồi sức vừa mổ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hồi sức chống choáng</b></span>: bồi phụ lượng máu đã mất, truyền dịch điện giải.<br>3) Trong và sau mổ dùng <span style=\"color:#51cf66\"><b>kháng sinh liều cao</b></span>, có thể phối hợp hai loại kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>Mất máu cấp phải bù song song với phẫu thuật, không chờ hồi sức xong mới mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 5. Điều trị",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK28-S5-02",
+   "type": "basic",
+   "section": "S5",
+   "category": "Điều trị",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Phẫu thuật vỡ tử cung: căn cứ quyết định <span style=\"color:#51cf66\"><b>cắt hay bảo tồn tử cung</b></span>, chỉ định <span style=\"color:#51cf66\"><b>khâu phục hồi</b></span> và <span style=\"color:#51cf66\"><b>cắt tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quyết định tuỳ thuộc: tình trạng toàn thân của bệnh nhân, thời gian vỡ, tình trạng nhiễm khuẩn, vỡ đơn giản hay phức tạp, tuổi và số con sống.<br>2) <span style=\"color:#51cf66\"><b>Khâu phục hồi tử cung</b></span>: chỉ khi bệnh nhân <span style=\"color:#ffd43b\"><b>còn trẻ</b></span>, còn nguyện vọng sinh đẻ, vết rách không phức tạp.<br>3) <span style=\"color:#51cf66\"><b>Cắt tử cung</b></span>: khi bệnh nhân nhiều tuổi, đã đẻ nhiều lần có đủ con, nhiễm khuẩn, vỡ phức tạp.<br><br><b>💡 Giải thích của AI:</b><br>Bảo tồn chỉ khi còn nhu cầu sinh đẻ và tổn thương đơn giản; ngược lại cắt tử cung để kiểm soát nhiễm khuẩn và tổn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 5. Điều trị",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK28-S6-01",
+   "type": "basic",
+   "section": "S6",
+   "category": "Dự phòng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Dự phòng vỡ tử cung</b></span>: vai trò và các biện pháp <span style=\"color:#74c0fc\"><b>trong thai kỳ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dự phòng có vai trò <span style=\"color:#ff6b6b\"><b>rất quan trọng</b></span> để hạ thấp tỷ lệ vỡ tử cung và tỷ lệ tử vong do vỡ tử cung.<br>2) Trong thai kỳ: <span style=\"color:#51cf66\"><b>khám thai thường xuyên</b></span>, phát hiện sớm các nguy cơ đẻ khó như khung chậu hẹp, khung chậu méo, có sẹo mổ cũ ở tử cung, thai to, ngôi bất thường...<br>3) Tuyến xã, tuyến huyện <span style=\"color:#ff6b6b\"><b>không có khả năng phẫu thuật</b></span> không được quản lý các loại đẻ khó mà phải <span style=\"color:#51cf66\"><b>chuyển lên tuyến trên</b></span> để quản lý.<br>4) Thai phụ có sẹo ở tử cung phải được <span style=\"color:#51cf66\"><b>vào viện trước khi chuyển dạ</b></span> để theo dõi cẩn thận và chỉ định can thiệp đúng lúc.<br><br><b>💡 Giải thích của AI:</b><br>Phát hiện sớm nguy cơ và đặt bệnh nhân đúng tuyến có thể phẫu thuật là chìa khoá phòng ngừa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 6. Dự phòng",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S6"
+   ]
+  },
+  {
+   "id": "SK28-S6-02",
+   "type": "basic",
+   "section": "S6",
+   "category": "Dự phòng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Dự phòng vỡ tử cung</b></span> <span style=\"color:#74c0fc\"><b>trong chuyển dạ</b></span>: các biện pháp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Khám phát hiện sớm</b></span> các nguyên nhân đẻ khó.<br>2) Sử dụng <span style=\"color:#51cf66\"><b>biểu đồ chuyển dạ</b></span> để theo dõi, phát hiện sớm dấu hiệu chuyển dạ đình trệ, dọa vỡ tử cung để xử trí kịp thời.<br>3) Dùng <span style=\"color:#51cf66\"><b>thuốc tăng co</b></span> đúng chỉ định, đúng liều lượng và theo dõi cẩn thận.<br>4) Làm thủ thuật đường dưới (nội xoay thai, cắt thai, forceps, giác hút...) phải <span style=\"color:#51cf66\"><b>đúng chỉ định và đủ điều kiện</b></span>; sau thủ thuật phải <span style=\"color:#51cf66\"><b>kiểm tra sự toàn vẹn của ống đẻ</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Cấm đẩy bụng</b></span> trong giai đoạn rặn sổ thai.<br><br><b>💡 Giải thích của AI:</b><br>Các biện pháp đều nhằm phát hiện sớm bất thường và tránh tạo áp lực quá mức lên tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 6. Dự phòng",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S6"
+   ]
+  },
+  {
+   "id": "SK28-ALG-01",
+   "type": "basic",
+   "section": "S5",
+   "category": "Quyết định cắt hay bảo tồn tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ IF → THEN</b></span>: khi nào <span style=\"color:#51cf66\"><b>khâu phục hồi</b></span> và khi nào <span style=\"color:#51cf66\"><b>cắt tử cung</b></span> trong vỡ tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước đầu (mọi trường hợp):</b> <span style=\"color:#51cf66\"><b>mổ cấp cứu, vừa hồi sức vừa mổ</b></span>; hồi sức bằng bồi phụ lượng máu đã mất, truyền dịch điện giải.<br>2) <b>IF</b> bệnh nhân <span style=\"color:#ffd43b\"><b>còn trẻ</b></span>, còn nguyện vọng sinh đẻ, vết rách không phức tạp → <b>THEN</b> <span style=\"color:#51cf66\"><b>khâu phục hồi tử cung</b></span>.<br>3) <b>IF</b> bệnh nhân nhiều tuổi, đã đẻ nhiều lần có đủ con, nhiễm khuẩn, vỡ phức tạp → <b>THEN</b> <span style=\"color:#51cf66\"><b>cắt tử cung</b></span>.<br>4) <b>Luôn kèm:</b> <span style=\"color:#51cf66\"><b>kháng sinh liều cao</b></span> trong và sau mổ, có thể phối hợp hai loại.<br><br><b>💡 Giải thích của AI:</b><br>Các điều kiện cân nhắc là tuổi, số con, nhiễm khuẩn và độ phức tạp của vết vỡ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 5. Điều trị",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S5",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK28-ALG-02",
+   "type": "basic",
+   "section": "S3_3",
+   "category": "So sánh doạ vỡ và vỡ tử cung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh nhanh</b></span> <span style=\"color:#74c0fc\"><b>doạ vỡ tử cung</b></span> và <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> về cơ năng, hình dạng tử cung, tim thai và máu âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ năng:</b> dọa vỡ <span style=\"color:#ff6b6b\"><b>đau nhiều, dữ dội do cơn co mau và mạnh</b></span>; vỡ <span style=\"color:#ff6b6b\"><b>đột nhiên đau chói ở chỗ vỡ, sau đó dịu đi</b></span>.<br>2) <b>Hình dạng tử cung:</b> dọa vỡ <span style=\"color:#ff6b6b\"><b>hai khối, thắt hình quả bầu nậm, vòng Bandl</b></span>; vỡ <span style=\"color:#ff6b6b\"><b>không còn thấy hình dạng tử cung</b></span>.<br>3) <b>Tim thai:</b> dọa vỡ <span style=\"color:#ff6b6b\"><b>nhanh, chậm hoặc không đều</b></span>; vỡ <span style=\"color:#ff6b6b\"><b>không có</b></span> (hoặc suy thai nếu nứt sẹo đoạn dưới).<br>4) <b>Máu âm đạo:</b> vỡ <span style=\"color:#ff6b6b\"><b>máu đỏ tươi</b></span>, ngôi thai cao, đẩy lên dễ.<br><br><b>💡 Giải thích của AI:</b><br>Dọa vỡ là tình trạng căng giãn tăng dần, còn vỡ là khi thành tử cung đã rách nên đau dịu và xuất hiện chảy máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.3. Triệu chứng",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_3",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK28-ALG-03",
+   "type": "basic",
+   "section": "S3_4_2",
+   "category": "So sánh phân biệt ba thực thể",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh phân biệt</b></span>: <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span>, <span style=\"color:#74c0fc\"><b>rau tiền đạo</b></span>, <span style=\"color:#74c0fc\"><b>rau bong non</b></span> về đau bụng, máu chảy, tử cung và tim thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vỡ tử cung:</b> <span style=\"color:#ff6b6b\"><b>đau chói</b></span>, máu <span style=\"color:#ff6b6b\"><b>đỏ tươi</b></span>, có dấu hiệu dọa vỡ (trừ sẹo mổ cũ), <span style=\"color:#ff6b6b\"><b>không còn tim thai</b></span>, sờ thấy phần thai dưới da bụng.<br>2) <b>Rau tiền đạo:</b> <span style=\"color:#ff6b6b\"><b>không đau bụng</b></span>, chảy máu ra ngoài là chủ yếu, <span style=\"color:#ff6b6b\"><b>không có dấu hiệu dọa vỡ</b></span>, tim thai có thể mất khi máu chảy nhiều, sờ thấy bánh rau.<br>3) <b>Rau bong non:</b> máu <span style=\"color:#ff6b6b\"><b>loãng không đông</b></span>, tử cung <span style=\"color:#ff6b6b\"><b>co cứng như gỗ</b></span>, không nghe tim thai, giảm fibrinogen, có thể kèm tiền sản giật.<br><br><b>💡 Giải thích của AI:</b><br>Dựa vào đau, bản chất máu, và hình thái tử cung để tách ba bệnh cảnh cùng có chảy máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.4.2. Chẩn đoán phân biệt",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_4_2",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK28-ALG-04",
+   "type": "basic",
+   "section": "S3_2_1",
+   "category": "So sánh vỡ hoàn toàn và không hoàn toàn",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh nhanh</b></span> <span style=\"color:#74c0fc\"><b>vỡ tử cung hoàn toàn</b></span> và <span style=\"color:#74c0fc\"><b>không hoàn toàn</b></span> về lớp rách, đường đi của máu, thai và rau?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hoàn toàn</b> (<span style=\"color:#ffd43b\"><b>80%</b></span>): rách <span style=\"color:#ff6b6b\"><b>toàn bộ bề dày</b></span> đến phúc mạc; thai, rau, nước ối vào ổ bụng; dễ <span style=\"color:#ff6b6b\"><b>viêm phúc mạc</b></span>.<br>2) <b>Không hoàn toàn</b> (dưới phúc mạc): chỉ rách <span style=\"color:#ff6b6b\"><b>niêm mạc và cơ</b></span>, phúc mạc chưa rách; máu chảy vào <span style=\"color:#ff6b6b\"><b>dây chằng rộng</b></span> tạo khối máu tụ; thai và rau còn trong tử cung, thai có thể còn sống.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ khác nhau ở lớp phúc mạc còn nguyên hay không, kéo theo khác biệt về đường đi của máu và thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.2. Giải phẫu bệnh lý",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_2_1",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK28-ALG-05",
+   "type": "basic",
+   "section": "S3_1_2",
+   "category": "Bảng giải mã số liệu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã số liệu</b></span>: các con số cần nhớ trong bài <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> (thai to, tỉ lệ, lần mổ, tháng thai)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b><span style=\"color:#ffd43b\"><b>4000g</b></span>:</b> thai to toàn bộ khi trọng lượng thai trên 4000g → bất tương xứng với khung chậu.<br>2) <b><span style=\"color:#ffd43b\"><b>80%</b></span>:</b> tỉ lệ vỡ tử cung hoàn toàn.<br>3) <b><span style=\"color:#ffd43b\"><b>Từ hai lần trở lên</b></span>:</b> mổ lấy thai từ hai lần trở lên làm tăng nguy cơ vỡ tử cung trong thai kỳ.<br>4) <b><span style=\"color:#ffd43b\"><b>3 tháng giữa và 3 tháng cuối</b></span>:</b> thời điểm có thể vỡ tử cung trong thai kỳ, không có dấu hiệu dọa vỡ.<br>5) <b><span style=\"color:#ffd43b\"><b>2 nhóm</b></span>:</b> vỡ tự nhiên và vỡ do can thiệp.<br><br><b>💡 Giải thích của AI:</b><br>Gom các con số chính để ôn nhanh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · 3.1.2. Nguyên nhân về phía thai",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "S3_1_2",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK28-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 1: Trình bày các <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span> gây <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> trong thai kỳ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trên thai phụ có <span style=\"color:#ff6b6b\"><b>sẹo mổ cũ ở tử cung</b></span> do: mổ lấy thai ở thân tử cung; khâu lại tử cung bị vỡ; mổ lấy thai từ hai lần trở lên; mổ cắt góc tử cung điều trị chửa ngoài tử cung đoạn kẽ; mổ lấy thai bị nhiễm khuẩn; phẫu thuật bóc nhân xơ tử cung (nếu u xơ ăn vào nội mạc); khâu lỗ thủng tử cung sau nạo phá thai; tai nạn, sang chấn trực tiếp; phẫu thuật Strassman.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt ý của câu hỏi 1 phần thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK28-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 1 (tiếp): Trình bày các <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span> gây <span style=\"color:#74c0fc\"><b>vỡ tử cung trong chuyển dạ</b></span> (phía mẹ, phía thai, do can thiệp)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phía mẹ</b></span>: khung chậu hẹp/méo, sẹo mổ cũ ở tử cung, đẻ nhiều lần/đa thai, nhiều lần nạo phá thai, khối u tiền đạo.<br>2) <span style=\"color:#ff6b6b\"><b>Phía thai</b></span>: thai to toàn bộ (trên 4000g), thai to từng phần (não úng thủy), ngôi và kiểu thế bất thường, đa thai.<br>3) <span style=\"color:#ff6b6b\"><b>Do can thiệp</b></span>: thủ thuật sai chỉ định/chưa đủ điều kiện/sai kỹ thuật; dùng thuốc tăng co không chính xác và theo dõi không cẩn thận.<br><br><b>💡 Giải thích của AI:</b><br>Ba nhóm nguyên nhân gồm mẹ, thai và can thiệp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK28-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 2: Trình bày cách <span style=\"color:#51cf66\"><b>phòng</b></span> <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> trong thai kỳ và trong chuyển dạ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Trong thai kỳ</b></span>: khám thai thường xuyên, phát hiện sớm nguy cơ đẻ khó (khung chậu hẹp/méo, sẹo mổ cũ, thai to, ngôi bất thường); tuyến xã, huyện không có khả năng phẫu thuật không quản lý đẻ khó mà chuyển lên tuyến trên; thai phụ có sẹo tử cung vào viện trước khi chuyển dạ.<br>2) <span style=\"color:#51cf66\"><b>Trong chuyển dạ</b></span>: khám phát hiện sớm nguyên nhân đẻ khó; dùng biểu đồ chuyển dạ; thuốc tăng co đúng chỉ định, đúng liều, theo dõi cẩn thận; thủ thuật đúng chỉ định, đủ điều kiện và kiểm tra ống đẻ sau thủ thuật; cấm đẩy bụng khi rặn sổ.<br><br><b>💡 Giải thích của AI:</b><br>Phòng bắt đầu từ thai kỳ và tiếp tục trong theo dõi chuyển dạ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK28-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 2 (tiếp): Hướng <span style=\"color:#51cf66\"><b>xử trí ban đầu</b></span> <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mọi vỡ tử cung đều <span style=\"color:#51cf66\"><b>mổ cấp cứu, vừa hồi sức vừa mổ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hồi sức chống choáng</b></span>: bồi phụ lượng máu đã mất, truyền dịch điện giải.<br>3) Phẫu thuật: <span style=\"color:#51cf66\"><b>khâu phục hồi</b></span> nếu còn trẻ, còn nguyện vọng sinh đẻ, vết rách không phức tạp; <span style=\"color:#51cf66\"><b>cắt tử cung</b></span> nếu nhiều tuổi, đủ con, nhiễm khuẩn, vỡ phức tạp.<br>4) <span style=\"color:#51cf66\"><b>Kháng sinh liều cao</b></span> trong và sau mổ, có thể phối hợp hai loại.<br><br><b>💡 Giải thích của AI:</b><br>Hồi sức và phẫu thuật tiến hành đồng thời.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK28-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 3: Triệu chứng lâm sàng để <span style=\"color:#51cf66\"><b>chẩn đoán xác định</b></span> <span style=\"color:#74c0fc\"><b>doạ vỡ tử cung</b></span> và <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> trong chuyển dạ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Doạ vỡ</b></span>: đau bụng dữ dội, cơn co dồn dập, tử cung hình quả bầu nậm có <span style=\"color:#ff6b6b\"><b>vòng Bandl</b></span>, dây chằng tròn căng (<span style=\"color:#ff6b6b\"><b>dấu hiệu Bandl - Frommel</b></span>), tim thai bất thường.<br>2) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: đã có dấu hiệu dọa vỡ (trừ sẹo mổ), đau chói rồi dịu, ra máu âm đạo đỏ tươi, choáng tuỳ mức độ mất máu, không còn tim thai, sờ thấy phần thai dưới da bụng, ngôi thai cao đẩy lên dễ, nước tiểu hồng hoặc đỏ.<br><br><b>💡 Giải thích của AI:</b><br>Dọa vỡ là giai đoạn căng giãn, vỡ là giai đoạn đã rách thành tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK28-CH-06",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 3 (tiếp): <span style=\"color:#51cf66\"><b>Chẩn đoán phân biệt</b></span> <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span> với bệnh nào, đặc điểm khác biệt?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Rau tiền đạo</b></span>: không có dấu hiệu dọa vỡ, chảy máu ra ngoài là chủ yếu, tim thai có thể mất khi máu chảy nhiều, không đau bụng, khám âm đạo sờ thấy bánh rau.<br>2) <span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: có thể có dấu hiệu tiền sản giật, máu loãng không đông, tử cung co cứng như gỗ, không nghe tim thai, giảm fibrinogen, có thể choáng.<br><br><b>💡 Giải thích của AI:</b><br>Hai bệnh này cũng chảy máu nhưng khác về đau, bản chất máu và tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-28 Vỡ tử cung · Câu hỏi ôn tập",
+   "tags": [
+    "SK-28",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,973 @@
+{
+  "cards": [
+    {
+      "id": "SK21-S1_1-01",
+      "type": "basic",
+      "section": "S1_1",
+      "category": "Định nghĩa",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Theo <span style=\"color:#74c0fc\"><b>Tổ chức Y tế thế giới</b></span>, <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> được định nghĩa thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là một <span style=\"color:#ff6b6b\"><b>cuộc chuyển dạ</b></span> xảy ra <span style=\"color:#ffd43b\"><b>từ tuần 22 đến trước tuần thứ 37</b></span> của thai kỳ<br>2) Tính từ <span style=\"color:#ffd43b\"><b>ngày đầu tiên của kỳ kinh cuối cùng</b></span><br><br><b>💡 Giải thích của AI:</b><br>Định nghĩa dựa vào mốc tuổi thai tính từ kỳ kinh cuối, không dựa vào cân nặng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 1.1. Định nghĩa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S1_1"
+      ]
+    },
+    {
+      "id": "SK21-S1_1-C01",
+      "type": "cloze",
+      "section": "S1_1",
+      "category": "Định nghĩa",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Theo WHO, đẻ non là chuyển dạ xảy ra từ tuần {{c1::<span style=\"color:#ffd43b\"><b>22</b></span>}} đến trước tuần {{c2::<span style=\"color:#ffd43b\"><b>37</b></span>}} của thai kỳ, tính từ ngày đầu tiên của {{c3::<span style=\"color:#ffd43b\"><b>kỳ kinh cuối cùng</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 1.1. Định nghĩa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S1_1"
+      ]
+    },
+    {
+      "id": "SK21-S1_2-01",
+      "type": "basic",
+      "section": "S1_2",
+      "category": "Tỷ lệ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Đẻ non</b></span> có <span style=\"color:#ffd43b\"><b>tỷ lệ chung</b></span> trong tổng số các cuộc đẻ, tỷ lệ theo <span style=\"color:#74c0fc\"><b>chủng tộc</b></span>, ở <span style=\"color:#74c0fc\"><b>Pháp</b></span>, ở <span style=\"color:#74c0fc\"><b>Bệnh viện Trung ương Huế</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tỷ lệ chung:</b> từ <span style=\"color:#ffd43b\"><b>5% đến 15%</b></span> trong tổng số các cuộc đẻ<br>2) <b>Chủng tộc:</b> (theo Tổ chức Y Tế Thế Giới, 1997) da trắng <span style=\"color:#ffd43b\"><b>8,5%</b></span>, da đen <span style=\"color:#ffd43b\"><b>18,3%</b></span><br>3) <b>Pháp:</b> <span style=\"color:#ffd43b\"><b>8,2%</b></span> năm 1972 và còn <span style=\"color:#ffd43b\"><b>5,6%</b></span> năm 1981<br>4) <b>Bệnh viện Trung ương Huế:</b> <span style=\"color:#ffd43b\"><b>7,8%</b></span> (1995)<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ khác nhau theo chủng tộc, nơi và thời điểm; ở Pháp tỷ lệ giảm theo thời gian.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 1.2. Tỷ lệ",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S1_2"
+      ],
+      "asks": [
+        "tỷ lệ chung",
+        "chủng tộc",
+        "Pháp",
+        "Bệnh viện Trung ương Huế"
+      ]
+    },
+    {
+      "id": "SK21-S1_3-01",
+      "type": "basic",
+      "section": "S1_3",
+      "category": "Tầm quan trọng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> nguy hiểm cho <span style=\"color:#74c0fc\"><b>trẻ sơ sinh</b></span>? <span style=\"color:#ffd43b\"><b>Tỷ lệ di chứng thần kinh</b></span> theo từng khoảng tuổi thai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đẻ non <span style=\"color:#ff6b6b\"><b>nguy hiểm cho trẻ sơ sinh</b></span>; <span style=\"color:#ff6b6b\"><b>tỷ lệ tử vong chu sản</b></span> càng cao khi tuổi thai càng non<br>2) Trẻ đẻ non có <span style=\"color:#ff6b6b\"><b>nguy cơ cao về di chứng thần kinh</b></span><br>3) Trước 32 tuần: tỷ lệ di chứng <span style=\"color:#ffd43b\"><b>1/3</b></span><br>4) Từ 32 - 35 tuần: <span style=\"color:#ffd43b\"><b>1/5</b></span><br>5) Từ 35 đến 37 tuần: <span style=\"color:#ffd43b\"><b>1/10</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tuổi thai càng non thì tỷ lệ di chứng càng cao: 1/3 → 1/5 → 1/10.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 1.3. Tầm quan trọng đối với cộng đồng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S1_3"
+      ]
+    },
+    {
+      "id": "SK21-S1_3-02",
+      "type": "basic",
+      "section": "S1_3",
+      "category": "Tầm quan trọng",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Đẻ non gây <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> gì về chi phí, cho <span style=\"color:#74c0fc\"><b>gia đình - xã hội</b></span> và cho <span style=\"color:#74c0fc\"><b>người mẹ</b></span>; vì sao là vấn đề quan trọng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chăm sóc một trường hợp đẻ non <span style=\"color:#ff6b6b\"><b>rất tốn kém</b></span><br>2) Khi lớn lên trẻ còn có <span style=\"color:#ff6b6b\"><b>di chứng về tâm thần kinh</b></span>, là <span style=\"color:#ff6b6b\"><b>gánh nặng cho gia đình cũng như xã hội</b></span><br>3) Mẹ bị đẻ non cũng dễ <span style=\"color:#ff6b6b\"><b>biến chứng sót rau, nhiễm khuẩn hậu sản</b></span><br>4) Do đó đẻ non là một trong những vấn đề quan trọng đặt ra cho các thầy thuốc và xã hội<br><br><b>💡 Giải thích của AI:</b><br>Hậu quả trải từ trẻ, gia đình, xã hội đến cả người mẹ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 1.3. Tầm quan trọng đối với cộng đồng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S1_3"
+      ]
+    },
+    {
+      "id": "SK21-S2-01",
+      "type": "basic",
+      "section": "S2",
+      "category": "Nguyên nhân",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Bao nhiêu phần trăm <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> <span style=\"color:#74c0fc\"><b>không xác định rõ lý do</b></span>, và muốn tìm <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span> đẻ non phải xem xét những khía cạnh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có khoảng <span style=\"color:#ffd43b\"><b>50%</b></span> đẻ non không xác định rõ lý do<br>2) Phải xem xét lại toàn bộ bệnh lý sản phụ khoa: nguyên nhân về <span style=\"color:#74c0fc\"><b>phía mẹ</b></span>, về <span style=\"color:#74c0fc\"><b>phía thai và phần phụ của thai</b></span>, và có những nguyên nhân <span style=\"color:#74c0fc\"><b>phối hợp</b></span><br><br><b>💡 Giải thích của AI:</b><br>Vì một nửa không rõ lý do nên cần khai thác toàn diện mẹ, thai và phần phụ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2. Nguyên nhân",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2"
+      ]
+    },
+    {
+      "id": "SK21-S2-C01",
+      "type": "cloze",
+      "section": "S2",
+      "category": "Nguyên nhân",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Có khoảng {{c1::<span style=\"color:#ffd43b\"><b>50%</b></span>}} đẻ non không xác định rõ lý do.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2. Nguyên nhân",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2"
+      ]
+    },
+    {
+      "id": "SK21-S2_1-01",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Yếu tố xã hội",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các <span style=\"color:#ff6b6b\"><b>yếu tố xã hội</b></span> thuận lợi gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đời sống kinh tế xã hội thấp</b></span>, không được chăm sóc trước sinh đầy đủ<br>2) <span style=\"color:#ff6b6b\"><b>Cân nặng của mẹ thấp</b></span> và/hoặc <span style=\"color:#ff6b6b\"><b>tăng cân kém</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Lao động vất vả</b></span> trong lúc mang thai<br>4) Tuổi mẹ <span style=\"color:#ffd43b\"><b>dưới 20</b></span> hoặc con so lớn tuổi <span style=\"color:#ffd43b\"><b>trên 35 tuổi</b></span><br>5) Mẹ nghiện <span style=\"color:#ff6b6b\"><b>thuốc lá, rượu hay các chất cocain</b></span><br><br><b>💡 Giải thích của AI:</b><br>Các yếu tố này đều liên quan đến sức khỏe và chăm sóc của người mẹ khi mang thai.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.1. Yếu tố xã hội",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK21-S2_2_1-01",
+      "type": "basic",
+      "section": "S2_2_1",
+      "category": "Nguyên nhân do bệnh lý toàn thân",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân do mẹ</b></span> thuộc <span style=\"color:#74c0fc\"><b>bệnh lý toàn thân</b></span> gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bệnh lý nhiễm trùng</b></span>: nhiễm trùng đường tiết niệu, nhiễm trùng nặng do vi khuẩn, virus<br>2) <span style=\"color:#ff6b6b\"><b>Chấn thương trong thai nghén</b></span>: chấn thương trực tiếp vào vùng bụng hoặc gián tiếp do phẫu thuật vùng bụng<br>3) <span style=\"color:#ff6b6b\"><b>Nghề nghiệp</b></span>: các nghề tiếp xúc với hoá chất độc, lao động nặng, căng thẳng<br>4) <span style=\"color:#ff6b6b\"><b>Bệnh toàn thân của mẹ</b></span>: bệnh tim, bệnh gan, bệnh thận, thiếu máu<br>5) <span style=\"color:#ff6b6b\"><b>Rối loạn cao huyết áp do thai</b></span>: tiền sản giật - sản giật (<span style=\"color:#ffd43b\"><b>9%</b></span>)<br>6) <span style=\"color:#74c0fc\"><b>Miễn dịch</b></span>: hội chứng kháng thể kháng Phospholipid<br><br><b>💡 Giải thích của AI:</b><br>Gồm các bệnh nhiễm trùng, chấn thương, nghề nghiệp, bệnh nội khoa, bệnh lý tăng huyết áp thai kỳ và miễn dịch.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.2.1. Nguyên nhân do bệnh lý toàn thân",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1"
+      ]
+    },
+    {
+      "id": "SK21-S2_2_2-01",
+      "type": "basic",
+      "section": "S2_2_2",
+      "category": "Nguyên nhân tại chỗ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân tại chỗ</b></span> gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>: <span style=\"color:#74c0fc\"><b>tử cung dị dạng</b></span>, bất thường mắc phải, hở eo, can thiệp ở cổ tử cung?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tử cung dị dạng bẩm sinh</b></span>: chiếm <span style=\"color:#ffd43b\"><b>5%</b></span> trong đẻ non; nếu có nguyên nhân này thì nguy cơ đẻ non là <span style=\"color:#ffd43b\"><b>40%</b></span>; thường gặp: tử cung hai sừng, một sừng, tử cung kém phát triển, vách ngăn tử cung<br>2) <span style=\"color:#ff6b6b\"><b>Bất thường mắc phải ở tử cung</b></span>: dính buồng tử cung, u xơ tử cung, tử cung có sẹo<br>3) <span style=\"color:#ff6b6b\"><b>Hở eo tử cung</b></span>: <span style=\"color:#ffd43b\"><b>100%</b></span> đẻ non nếu không được điều trị<br>4) <span style=\"color:#ff6b6b\"><b>Can thiệp phẫu thuật tại cổ tử cung</b></span> như khoét chóp<br><br><b>💡 Giải thích của AI:</b><br>Các nguyên nhân này làm tử cung hoặc cổ tử cung không giữ được thai đến đủ tháng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.2.2. Nguyên nhân tại chỗ",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_2_2"
+      ]
+    },
+    {
+      "id": "SK21-S2_2_2-02",
+      "type": "basic",
+      "section": "S2_2_2",
+      "category": "Nguyên nhân tại chỗ",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Quan sát hình: <span style=\"color:#74c0fc\"><b>cổ tử cung bình thường</b></span>, <span style=\"color:#ff6b6b\"><b>hở eo tử cung</b></span> và <span style=\"color:#51cf66\"><b>khâu vòng cổ tử cung</b></span> khác nhau thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hình 1 gồm 3 phần: A. Cổ tử cung bình thường, B. <span style=\"color:#ff6b6b\"><b>Hở eo tử cung</b></span>, C. <span style=\"color:#51cf66\"><b>Khâu vòng cổ tử cung</b></span><br>2) Hở eo tử cung: <span style=\"color:#ffd43b\"><b>100%</b></span> đẻ non nếu không được điều trị<br><img src=\"SK-21_fig01.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Hình minh hoạ hở eo và biện pháp khâu vòng giữ cổ tử cung.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.2.2. Nguyên nhân tại chỗ",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_2_2"
+      ]
+    },
+    {
+      "id": "SK21-S2_2_3-01",
+      "type": "basic",
+      "section": "S2_2_3",
+      "category": "Viêm nhiễm âm đạo - cổ tử cung",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Theo sách, <span style=\"color:#ff6b6b\"><b>viêm nhiễm âm đạo - cổ tử cung</b></span> nằm trong nhóm <span style=\"color:#ff6b6b\"><b>nguyên nhân do mẹ</b></span> nào của <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu đề <span style=\"color:#ff6b6b\"><b>Viêm nhiễm âm đạo - cổ tử cung</b></span> là một nguyên nhân do mẹ gây đẻ non (sách chỉ nêu tiêu đề, không có nội dung chi tiết)<br><br><b>💡 Giải thích của AI:</b><br>Cùng nhóm nguyên nhân do mẹ với bệnh toàn thân và nguyên nhân tại chỗ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.2.3. Viêm nhiễm âm đạo - cổ tử cung",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_2_3"
+      ]
+    },
+    {
+      "id": "SK21-S2_2_4-01",
+      "type": "basic",
+      "section": "S2_2_4",
+      "category": "Tiền sử sinh non",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tiền sử sinh non</b></span> làm <span style=\"color:#ffd43b\"><b>nguy cơ tái phát</b></span> là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguy cơ tái phát <span style=\"color:#ffd43b\"><b>25 - 50%</b></span><br>2) Nguy cơ này <span style=\"color:#ff6b6b\"><b>tăng cao</b></span> nếu có <span style=\"color:#ffd43b\"><b>nhiều lần</b></span> sinh non trước đó<br><br><b>💡 Giải thích của AI:</b><br>Càng nhiều lần sinh non trước thì nguy cơ càng cao.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.2.4. Tiền sử sinh non",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_2_4"
+      ]
+    },
+    {
+      "id": "SK21-S2_3-01",
+      "type": "basic",
+      "section": "S2_3",
+      "category": "Do thai và phần phụ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân do thai và phần phụ của thai</b></span> gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> kèm tỉ lệ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ối vỡ non, ối vỡ sớm</b></span>: <span style=\"color:#ffd43b\"><b>10%</b></span> đủ tháng và <span style=\"color:#ffd43b\"><b>30%</b></span> đẻ non, có nguy cơ nhiễm trùng cho thai<br>2) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng ối</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Đa thai</b></span>: <span style=\"color:#ffd43b\"><b>10 - 20%</b></span> đẻ non<br>4) <span style=\"color:#ff6b6b\"><b>Đa ối</b></span>: do tử cung quá căng gây chuyển dạ sớm<br>5) <span style=\"color:#ff6b6b\"><b>Rau tiền đạo</b></span>: <span style=\"color:#ffd43b\"><b>10%</b></span> trong các trường hợp đẻ non vì gây chảy máu trước đẻ hoặc ối vỡ<br>6) <span style=\"color:#ff6b6b\"><b>Rau bong non</b></span><br><br><b>💡 Giải thích của AI:</b><br>Đa thai và đa ối làm tử cung căng quá mức; rau tiền đạo gây chảy máu hoặc vỡ ối.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 2.3. Do thai và phần phụ của thai",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S2_3"
+      ]
+    },
+    {
+      "id": "SK21-S3_1_1-01",
+      "type": "basic",
+      "section": "S3_1_1",
+      "category": "Doạ đẻ non - cơ năng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Doạ đẻ non</b></span>: các <span style=\"color:#ff6b6b\"><b>triệu chứng cơ năng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau bụng</b></span>: cảm giác đau bụng từng cơn hoặc trì nặng bụng dưới<br>2) <span style=\"color:#ff6b6b\"><b>Ra dịch âm đạo</b></span>: có thể là dịch nhầy âm đạo, ra máu hoặc nước ối<br><br><b>💡 Giải thích của AI:</b><br>Hai triệu chứng cơ năng chính là đau bụng và ra dịch âm đạo.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.1.1. Triệu chứng cơ năng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_1_1"
+      ]
+    },
+    {
+      "id": "SK21-S3_1_2-01",
+      "type": "basic",
+      "section": "S3_1_2",
+      "category": "Doạ đẻ non - thực thể",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Doạ đẻ non</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng thực thể</b></span> gồm cơn go tử cung, cổ tử cung, ối vỡ non?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơn go tử cung</b></span> thưa nhẹ, có <span style=\"color:#ffd43b\"><b>1 - 2 cơn</b></span> trong <span style=\"color:#ffd43b\"><b>10 phút</b></span> và thời gian quan sát <span style=\"color:#ffd43b\"><b>trên 30 phút</b></span><br>2) <span style=\"color:#74c0fc\"><b>Cổ tử cung</b></span> có thể còn dài, đóng kín nhưng cũng có thể xoá và mở đến <span style=\"color:#ffd43b\"><b>< 4 cm</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Ối vỡ non</b></span>: dẫn đến chuyển dạ trong một thời gian ngắn; là <span style=\"color:#ff6b6b\"><b>bước ngoặt</b></span> trong đẻ non vì làm buồng ối bị hở, tăng thêm nguy cơ nhiễm khuẩn<br><br><b>💡 Giải thích của AI:</b><br>Ối vỡ làm mất hàng rào bảo vệ nên vừa thúc đẩy chuyển dạ vừa tăng nguy cơ nhiễm khuẩn.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.1.2. Triệu chứng thực thể",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_1_2"
+      ]
+    },
+    {
+      "id": "SK21-S3_1_3-01",
+      "type": "basic",
+      "section": "S3_1_3",
+      "category": "Doạ đẻ non - cận lâm sàng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Doạ đẻ non</b></span>: các <span style=\"color:#51cf66\"><b>cận lâm sàng</b></span> gồm <span style=\"color:#74c0fc\"><b>siêu âm</b></span>, <span style=\"color:#74c0fc\"><b>Monitoring</b></span>, chỉ số và xét nghiệm tìm nguyên nhân?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Siêu âm:</b> khảo sát độ dài cổ tử cung: nếu <span style=\"color:#ffd43b\"><b>dưới 2,5 cm</b></span> thì nguy cơ đẻ non cao<br>2) <b>Monitoring:</b> đánh giá thai và theo dõi cơn go: có <span style=\"color:#ffd43b\"><b>1 - 2 cơn co</b></span> đều đặn trong <span style=\"color:#ffd43b\"><b>10 phút</b></span><br>3) <b>Chỉ số:</b> doạ đẻ non <span style=\"color:#ffd43b\"><b>dưới 6</b></span><br>4) <b>Xét nghiệm tìm nguyên nhân:</b> tế bào vi trùng nước tiểu; xét nghiệm vi khuẩn ở cổ tử cung; nếu sốt phải kéo máu tìm ký sinh trùng sốt rét, CRP, cấy máu tuỳ trường hợp; cân nhắc chọc dò ối để loại bỏ khả năng nhiễm trùng màng ối<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm, monitoring và chỉ số đánh giá nguy cơ; xét nghiệm tìm nguyên nhân nhiễm trùng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.1.3. Cận lâm sàng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_1_3"
+      ],
+      "asks": [
+        "siêu âm",
+        "Monitoring",
+        "chỉ số",
+        "xét nghiệm tìm nguyên nhân"
+      ]
+    },
+    {
+      "id": "SK21-S3_1_3-02",
+      "type": "basic",
+      "section": "S3_1_3",
+      "category": "Doạ đẻ non - cận lâm sàng",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Hình <span style=\"color:#74c0fc\"><b>siêu âm đo cổ tử cung</b></span> trong chẩn đoán <span style=\"color:#ff6b6b\"><b>doạ sinh non</b></span> đo những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đo cổ tử cung qua siêu âm với mẫu biểu đồ để đo <span style=\"color:#ffd43b\"><b>độ dài</b></span>, <span style=\"color:#ffd43b\"><b>chiều dài hình nón</b></span> và <span style=\"color:#ffd43b\"><b>độ rộng</b></span> cổ tử cung trong chẩn đoán dọa sinh non<br>2) Độ dài cổ tử cung <span style=\"color:#ffd43b\"><b>dưới 2,5 cm</b></span> thì nguy cơ đẻ non cao<br><img src=\"SK-21_fig02.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Hình minh hoạ cách đo cổ tử cung bằng siêu âm.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.1.3. Cận lâm sàng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_1_3"
+      ]
+    },
+    {
+      "id": "SK21-S3_1_3-03",
+      "type": "basic",
+      "section": "S3_1_3",
+      "category": "Doạ đẻ non - cận lâm sàng",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Hình <span style=\"color:#51cf66\"><b>Monitoring</b></span> theo dõi <span style=\"color:#ff6b6b\"><b>cơn go</b></span>: mô tả ở thai bao nhiêu tuần?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá thai và theo dõi cơn go bằng Monitoring: <span style=\"color:#ffd43b\"><b>2 cơn co trong 10 phút</b></span> ở thai <span style=\"color:#ffd43b\"><b>32 tuần</b></span><br><img src=\"SK-21_fig03.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Hình minh hoạ ghi cơn co trên monitoring.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.1.3. Cận lâm sàng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_1_3"
+      ]
+    },
+    {
+      "id": "SK21-S3_2_1-01",
+      "type": "basic",
+      "section": "S3_2_1",
+      "category": "Đẻ non - cơ năng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Đẻ non</b></span>: các <span style=\"color:#ff6b6b\"><b>triệu chứng cơ năng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau bụng</b></span>: từng cơn, các cơn đau tăng dần<br>2) <span style=\"color:#ff6b6b\"><b>Ra dịch âm đạo</b></span>: có thể là dịch nhầy âm đạo, ra máu hoặc nước ối<br><br><b>💡 Giải thích của AI:</b><br>Khác doạ đẻ non ở chỗ các cơn đau tăng dần.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.2.1. Triệu chứng cơ năng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_2_1"
+      ]
+    },
+    {
+      "id": "SK21-S3_2_2-01",
+      "type": "basic",
+      "section": "S3_2_2",
+      "category": "Đẻ non - thực thể",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Đẻ non</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng thực thể</b></span> gồm cơn go, cổ tử cung, Monitoring và chỉ số doạ đẻ non?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơn go tử cung</b></span>: <span style=\"color:#ffd43b\"><b>2 - 3 cơn</b></span> trong <span style=\"color:#ffd43b\"><b>10 phút</b></span>, tăng dần<br>2) <span style=\"color:#74c0fc\"><b>Cổ tử cung</b></span> xoá <span style=\"color:#ffd43b\"><b>trên 80%</b></span>, hoặc mở <span style=\"color:#ffd43b\"><b>trên 2 cm</b></span>, đầu ối bắt đầu thành lập hoặc ối vỡ sớm<br>3) <span style=\"color:#51cf66\"><b>Monitoring</b></span>: <span style=\"color:#ffd43b\"><b>2 - 3 cơn go</b></span> đều đặn trong <span style=\"color:#ffd43b\"><b>10 phút</b></span><br>4) <span style=\"color:#ffd43b\"><b>Chỉ số doạ đẻ non lớn hơn 6</b></span><br><br><b>💡 Giải thích của AI:</b><br>Đẻ non có cơn go dày hơn, cổ tử cung biến đổi rõ hơn và chỉ số > 6.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.2.2. Triệu chứng thực thể",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_2_2"
+      ]
+    },
+    {
+      "id": "SK21-ALG-01",
+      "type": "basic",
+      "section": "S3_2_2",
+      "category": "So sánh doạ đẻ non và đẻ non",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>So sánh</b></span> <span style=\"color:#ff6b6b\"><b>doạ đẻ non</b></span> và <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> về cơn go, cổ tử cung, Monitoring, chỉ số doạ đẻ non?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơn go: doạ <span style=\"color:#ffd43b\"><b>1 - 2 cơn/10 phút</b></span>, thưa nhẹ; đẻ non <span style=\"color:#ffd43b\"><b>2 - 3 cơn/10 phút</b></span>, tăng dần<br>2) Cổ tử cung: doạ có thể còn dài, đóng kín hoặc xoá, mở <span style=\"color:#ffd43b\"><b>< 4 cm</b></span>; đẻ non xoá <span style=\"color:#ffd43b\"><b>trên 80%</b></span> hoặc mở <span style=\"color:#ffd43b\"><b>trên 2 cm</b></span>, đầu ối thành lập hoặc ối vỡ sớm<br>3) Monitoring: doạ <span style=\"color:#ffd43b\"><b>1 - 2 cơn co</b></span> đều/10 phút; đẻ non <span style=\"color:#ffd43b\"><b>2 - 3 cơn go</b></span> đều/10 phút<br>4) Chỉ số doạ đẻ non: doạ <span style=\"color:#ffd43b\"><b>dưới 6</b></span>; đẻ non <span style=\"color:#ffd43b\"><b>lớn hơn 6</b></span><br><br><b>💡 Giải thích của AI:</b><br>Đối chiếu từng tiêu chí giúp phân biệt nhanh hai tình huống.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 3.2. Đẻ non",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3_2_2"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-S3-01",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chỉ số doạ đẻ non",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Chỉ số doạ đẻ non</b></span> dựa vào những <span style=\"color:#ff6b6b\"><b>yếu tố tiên lượng</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dựa vào <span style=\"color:#ffd43b\"><b>4 yếu tố</b></span>: <span style=\"color:#ff6b6b\"><b>cơn go</b></span>, <span style=\"color:#74c0fc\"><b>thay đổi ở cổ tử cung</b></span>, <span style=\"color:#ff6b6b\"><b>ối vỡ</b></span>, <span style=\"color:#ff6b6b\"><b>ra máu âm đạo</b></span><br>2) Từ đó xây dựng nên một <span style=\"color:#74c0fc\"><b>chỉ số doạ đẻ non</b></span><br><br><b>💡 Giải thích của AI:</b><br>Bốn yếu tố được cho điểm rồi cộng thành chỉ số.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 4. Các yếu tố tiên lượng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ]
+    },
+    {
+      "id": "SK21-ALG-02",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chỉ số doạ đẻ non",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Bảng 1 <span style=\"color:#74c0fc\"><b>chỉ số doạ đẻ non</b></span>: điểm của <span style=\"color:#ff6b6b\"><b>go tử cung</b></span>, <span style=\"color:#ff6b6b\"><b>ối vỡ</b></span>, <span style=\"color:#ff6b6b\"><b>ra máu</b></span>, <span style=\"color:#74c0fc\"><b>mở cổ tử cung</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Go tử cung: <span style=\"color:#ffd43b\"><b>1 điểm</b></span> không đều; <span style=\"color:#ffd43b\"><b>2 điểm</b></span> đều<br>2) Ối vỡ: <span style=\"color:#ffd43b\"><b>2 điểm</b></span> có thể; <span style=\"color:#ffd43b\"><b>4 điểm</b></span> rõ ràng<br>3) Ra máu: <span style=\"color:#ffd43b\"><b>1 điểm</b></span> vừa; <span style=\"color:#ffd43b\"><b>2 điểm</b></span> > 100 ml<br>4) Mở cổ tử cung: <span style=\"color:#ffd43b\"><b>1 điểm</b></span> 1 cm; <span style=\"color:#ffd43b\"><b>2 điểm</b></span> 2 cm; <span style=\"color:#ffd43b\"><b>3 điểm</b></span> 3 cm; <span style=\"color:#ffd43b\"><b>4 điểm</b></span> ≥ 4 cm<br><br><b>💡 Giải thích của AI:</b><br>Cộng điểm bốn yếu tố ra chỉ số.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Bảng 1. Chỉ số doạ đẻ non",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-ALG-03",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chỉ số doạ đẻ non",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Bảng 2: <span style=\"color:#ffd43b\"><b>khả năng chuyển dạ ngừng lại (%)</b></span> theo từng <span style=\"color:#74c0fc\"><b>chỉ số doạ đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ số 1: <span style=\"color:#ffd43b\"><b>100%</b></span><br>2) Chỉ số 2: <span style=\"color:#ffd43b\"><b>90%</b></span><br>3) Chỉ số 3: <span style=\"color:#ffd43b\"><b>84%</b></span><br>4) Chỉ số 4: <span style=\"color:#ffd43b\"><b>38%</b></span><br>5) Chỉ số 5: <span style=\"color:#ffd43b\"><b>11%</b></span><br>6) Chỉ số 6: <span style=\"color:#ffd43b\"><b>7%</b></span><br>7) Chỉ số ≥ 7: <span style=\"color:#ffd43b\"><b>0%</b></span><br><br><b>💡 Giải thích của AI:</b><br>Chỉ số càng cao thì khả năng ngừng chuyển dạ càng thấp.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Bảng 2. Khả năng đình chỉ chuyển dạ",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-S3-C01",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Chỉ số doạ đẻ non",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Theo chỉ số doạ đẻ non, khả năng chuyển dạ ngừng lại là {{c1::<span style=\"color:#ffd43b\"><b>100%</b></span>}} khi chỉ số 1 và {{c2::<span style=\"color:#ffd43b\"><b>0%</b></span>}} khi chỉ số ≥ 7.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Bảng 2. Khả năng đình chỉ chuyển dạ",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ]
+    },
+    {
+      "id": "SK21-S5_1_1-01",
+      "type": "basic",
+      "section": "S5_1_1",
+      "category": "Doạ đẻ non - tuyến xã",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Xử trí</b></span> <span style=\"color:#ff6b6b\"><b>doạ đẻ non</b></span> tại <span style=\"color:#74c0fc\"><b>tuyến xã</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không nên điều trị</b></span> doạ đẻ non<br>2) <span style=\"color:#51cf66\"><b>Chuyển tuyến trên càng sớm càng tốt</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tuyến xã không đủ điều kiện dùng thuốc ức chế chuyển dạ nên chuyển sớm.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.1. Tuyến xã",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1_1"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-01",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Thuốc ức chế chuyển dạ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Thuốc ức chế chuyển dạ</b></span> ở tuyến huyện và chuyên khoa: <span style=\"color:#74c0fc\"><b>hiệu quả so sánh</b></span>, <span style=\"color:#ffd43b\"><b>thời gian kéo dài thai</b></span>, mục đích và cách chọn thuốc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các nghiên cứu so sánh hiệu quả cho thấy <span style=\"color:#ff6b6b\"><b>không có thuốc nào có ưu thế vượt trội</b></span><br>2) Chỉ kéo dài thời gian mang thai hạn chế <span style=\"color:#ffd43b\"><b>2 - 7 ngày</b></span><br>3) Đây là khoảng thời gian để <span style=\"color:#51cf66\"><b>sử dụng steroid</b></span> và <span style=\"color:#51cf66\"><b>vận chuyển bà mẹ</b></span> đến cơ sở y tế có phòng hồi sức sơ sinh<br>4) Việc chọn thuốc phụ thuộc vào <span style=\"color:#74c0fc\"><b>sự có sẵn của thuốc</b></span> và <span style=\"color:#ff6b6b\"><b>tác dụng phụ đối với bà mẹ và thai nhi</b></span><br><br><b>💡 Giải thích của AI:</b><br>Thuốc chỉ câu giờ, nên chọn theo sẵn có và tác dụng phụ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Tuyến huyện và tuyến bệnh viện chuyên khoa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ]
+    },
+    {
+      "id": "SK21-ALG-04",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Thuốc ức chế chuyển dạ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các <span style=\"color:#51cf66\"><b>nhóm thuốc ức chế chuyển dạ</b></span> và <span style=\"color:#51cf66\"><b>corticosteroid</b></span> trong xử trí <span style=\"color:#ff6b6b\"><b>doạ đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bêta - mimetic</b></span>: Ritodrine, Terbutaline<br>2) <span style=\"color:#51cf66\"><b>Atosiban (Tractocile)</b></span><br>3) <span style=\"color:#51cf66\"><b>Chất đối kháng Calci</b></span>: Magnesium Sulfate, Nifedipine<br>4) <span style=\"color:#51cf66\"><b>Thuốc ức chế tổng hợp Prostaglandine</b></span>: Indomethacin<br>5) <span style=\"color:#51cf66\"><b>Corticosteroid</b></span>: Betamethason (Celestene) hoặc Dexamethasone (Dexaron)<br><br><b>💡 Giải thích của AI:</b><br>Danh mục các nhóm thuốc được sách nêu.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Tuyến huyện và tuyến bệnh viện chuyên khoa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-S5_1-02",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Ritodrine",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Ritodrine</b></span> thuộc nhóm nào, tác dụng, <span style=\"color:#74c0fc\"><b>cách pha</b></span>, <span style=\"color:#51cf66\"><b>liều tấn công</b></span>, <span style=\"color:#51cf66\"><b>liều duy trì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm:</b> bêta - mimetic, là các thuốc hướng beta giao cảm<br>2) <b>Tác dụng:</b> trực tiếp làm giảm cơ trơn của tử cung và của phổi<br>3) <b>Cách pha:</b> <span style=\"color:#ffd43b\"><b>150 mg trong 500 ml</b></span> dung dịch mặn đẳng trương<br>4) <b>Liều tấn công:</b> bắt đầu truyền <span style=\"color:#ffd43b\"><b>20 ml/giờ</b></span>, cứ <span style=\"color:#ffd43b\"><b>15 phút</b></span> tăng <span style=\"color:#ffd43b\"><b>10 ml/giờ</b></span>, tối đa <span style=\"color:#ffd43b\"><b>70 ml/giờ</b></span><br>5) <b>Liều duy trì:</b> khi cắt được cơn tiếp tục duy trì thêm <span style=\"color:#ffd43b\"><b>12 giờ</b></span>; trước khi rút đường truyền <span style=\"color:#ffd43b\"><b>30 phút</b></span> cho uống Ritodrine cứ <span style=\"color:#ffd43b\"><b>2 giờ 10 mg</b></span> trong <span style=\"color:#ffd43b\"><b>24 giờ</b></span>, sau đó duy trì <span style=\"color:#ffd43b\"><b>20 mg/4 - 6 giờ</b></span> cho đến khi thai <span style=\"color:#ffd43b\"><b>36 tuần</b></span><br><br><b>💡 Giải thích của AI:</b><br>Truyền tăng dần theo nấc rồi chuyển sang uống duy trì.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Ritodrine",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "nhóm",
+        "tác dụng",
+        "cách pha",
+        "liều tấn công",
+        "liều duy trì"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-03",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Ritodrine",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Khi nào phải <span style=\"color:#ff6b6b\"><b>ngưng Ritodrine</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhịp tim mẹ</b></span> trên <span style=\"color:#ffd43b\"><b>150 lần/phút</b></span><br>2) <span style=\"color:#ff6b6b\"><b>Tim thai</b></span> trên <span style=\"color:#ffd43b\"><b>200 lần/phút</b></span><br>3) Huyết áp tâm thu trên <span style=\"color:#ffd43b\"><b>180 mmHg</b></span><br>4) Huyết áp tâm trương dưới <span style=\"color:#ffd43b\"><b>40 mmHg</b></span><br><br><b>💡 Giải thích của AI:</b><br>Các ngưỡng này báo hiệu quá liều kích thích beta.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Ritodrine",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-04",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Ritodrine",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Ritodrine</b></span>: <span style=\"color:#ff6b6b\"><b>tác dụng phụ</b></span> trên mẹ, tác động lên thai nhi và <span style=\"color:#ff6b6b\"><b>chống chỉ định</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng phụ trên bà mẹ:</b> tăng nhịp tim, tăng đường huyết, tăng Insuline huyết, hạ Kali huyết, rùng mình, đánh trống ngực, bồn chồn, buồn nôn, nôn, ảo giác<br>2) <b>Tác động lên thai nhi:</b> nhịp tim nhanh, hạ canxi huyết, hạ đường huyết, hạ huyết áp, tăng bilirubine huyết, xuất huyết não thất<br>3) <b>Chống chỉ định:</b> bệnh tim, cường giáp, tăng huyết áp không kiểm soát được, đái tháo đường nặng, các bệnh gan và bệnh thận mạn tính; bệnh nhân trên <span style=\"color:#ffd43b\"><b>35 tuổi</b></span><br><br><b>💡 Giải thích của AI:</b><br>Tác dụng kích thích beta giải thích tim nhanh, tăng đường huyết, hạ kali.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Ritodrine",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "tác dụng phụ",
+        "tác động lên thai nhi",
+        "chống chỉ định"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-05",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Terbutaline",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Terbutaline</b></span>: chỉ định, chống chỉ định, <span style=\"color:#51cf66\"><b>liều tấn công</b></span>, <span style=\"color:#51cf66\"><b>liều duy trì</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định, chống chỉ định:</b> giống Ritodrine<br>2) <b>Liều tấn công:</b> khởi đầu <span style=\"color:#ffd43b\"><b>250 mcg</b></span>, truyền TM <span style=\"color:#ffd43b\"><b>10 - 80 µg/phút</b></span> cho đến khi chuyển dạ ngừng lại; sau đó tiêm dưới da <span style=\"color:#ffd43b\"><b>0,25 - 0,5 mg/2 - 4 giờ</b></span> trong <span style=\"color:#ffd43b\"><b>12 giờ</b></span> tiếp theo<br>3) <b>Liều duy trì:</b> uống <span style=\"color:#ffd43b\"><b>5 mg cứ 4 - 6 giờ</b></span> một lần cho đến khi thai <span style=\"color:#ffd43b\"><b>36 tuần</b></span><br><br><b>💡 Giải thích của AI:</b><br>Cùng nhóm bêta - mimetic nên dùng chung chỉ định, chống chỉ định với Ritodrine.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Terbutaline",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "chỉ định, chống chỉ định",
+        "liều tấn công",
+        "liều duy trì"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-06",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Terbutaline",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Terbutaline</b></span>: <span style=\"color:#ff6b6b\"><b>tác dụng phụ</b></span> trên mẹ và <span style=\"color:#ff6b6b\"><b>tác động</b></span> lên thai nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Trên bà mẹ</b></span>: loạn nhịp, phù phổi, thiếu máu cơ tim, hạ huyết áp, nhịp tim nhanh<br>2) <span style=\"color:#ff6b6b\"><b>Lên thai nhi</b></span>: nhịp tim nhanh, tăng đường huyết, tăng Insuline huyết, phì đại cơ tim, thiếu máu cơ tim<br><br><b>💡 Giải thích của AI:</b><br>Là tác dụng của kích thích beta trên tim và chuyển hoá.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Terbutaline",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-07",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Atosiban",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Atosiban (Tractocile)</b></span>: <span style=\"color:#51cf66\"><b>liều tấn công</b></span>, <span style=\"color:#51cf66\"><b>liều duy trì</b></span> và tổng liều tối đa?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Liều tấn công</b></span>: <span style=\"color:#ffd43b\"><b>6,75 mg</b></span> tiêm tĩnh mạch chậm trong <span style=\"color:#ffd43b\"><b>một phút</b></span><br>2) <span style=\"color:#51cf66\"><b>Liều duy trì</b></span>: <span style=\"color:#ffd43b\"><b>18 mg/giờ</b></span> trong <span style=\"color:#ffd43b\"><b>3 giờ</b></span>, rồi <span style=\"color:#ffd43b\"><b>6 mg/giờ</b></span> trong <span style=\"color:#ffd43b\"><b>45 giờ</b></span><br>3) <span style=\"color:#ffd43b\"><b>Tổng liều tối đa</b></span>: 330 mg<br><br><b>💡 Giải thích của AI:</b><br>Liều giảm dần theo 3 bước.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Atosiban",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "liều tấn công",
+        "liều duy trì",
+        "tổng liều tối đa"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-08",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Magnesium Sulfate",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Magnesium Sulfate</b></span> trong doạ đẻ non: <span style=\"color:#74c0fc\"><b>vai trò</b></span>, <span style=\"color:#51cf66\"><b>liều tấn công</b></span>, <span style=\"color:#51cf66\"><b>liều duy trì</b></span>, theo dõi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Vai trò</b></span>: thuốc đối kháng Calci, thay thế cho thuốc beta hướng giao cảm khi có <span style=\"color:#ff6b6b\"><b>chống chỉ định</b></span> dùng các thuốc này hoặc khi có <span style=\"color:#ff6b6b\"><b>ngộ độc thuốc</b></span><br>2) <span style=\"color:#51cf66\"><b>Liều tấn công</b></span>: <span style=\"color:#ffd43b\"><b>4 - 6 g</b></span> trong <span style=\"color:#ffd43b\"><b>100 ml Dextrose 5%</b></span> truyền tĩnh mạch <span style=\"color:#ffd43b\"><b>15 - 20 phút</b></span><br>3) <span style=\"color:#51cf66\"><b>Liều duy trì</b></span>: <span style=\"color:#ffd43b\"><b>2 g/giờ</b></span> truyền TM trong <span style=\"color:#ffd43b\"><b>12 giờ</b></span>, sau đó <span style=\"color:#ffd43b\"><b>1 g/giờ</b></span> trong <span style=\"color:#ffd43b\"><b>24 - 48 giờ</b></span><br>4) <span style=\"color:#51cf66\"><b>Theo dõi</b></span>: nồng độ Mg++ huyết thanh duy trì <span style=\"color:#ffd43b\"><b>5 - 7 mg/dL</b></span><br><br><b>💡 Giải thích của AI:</b><br>Dùng khi bêta - mimetic bị chống chỉ định.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Magnesium Sulfate",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "vai trò",
+        "liều tấn công",
+        "liều duy trì",
+        "theo dõi"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-09",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Magnesium Sulfate",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Magnesium Sulfate</b></span>: <span style=\"color:#ff6b6b\"><b>tác dụng phụ</b></span> trên mẹ, cách phát hiện <span style=\"color:#ff6b6b\"><b>quá liều</b></span>, chất đối kháng và tác động lên thai nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng phụ trên mẹ:</b> nóng bừng, ngủ lịm, đau đầu, mệt mỏi, khô miệng, ức chế hô hấp, giảm phản xạ gân xương<br>2) <b>Phát hiện quá liều:</b> thử phản xạ gân xương; ngừng tim và hô hấp có thể xuất hiện nếu dùng quá liều<br>3) <b>Đối kháng:</b> Calci (Calcium gluconate hoặc calci clorua liều <span style=\"color:#ffd43b\"><b>1 g</b></span> tiêm TM chậm)<br>4) <b>Tác động lên thai nhi:</b> ngủ lịm, giảm trương lực cơ, suy hô hấp<br><br><b>💡 Giải thích của AI:</b><br>Mất phản xạ gân xương là dấu báo động sớm trước khi ức chế hô hấp.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Magnesium Sulfate",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "tác dụng phụ",
+        "phát hiện quá liều",
+        "đối kháng",
+        "tác động lên thai nhi"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-10",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Nifedipine",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Nifedipine</b></span> trong doạ đẻ non: <span style=\"color:#51cf66\"><b>liều tấn công</b></span>, <span style=\"color:#51cf66\"><b>liều duy trì</b></span>, <span style=\"color:#ff6b6b\"><b>chống chỉ định</b></span>, <span style=\"color:#ff6b6b\"><b>tác dụng phụ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Liều tấn công</b></span>: <span style=\"color:#ffd43b\"><b>20 mg</b></span> ngậm dưới lưỡi mỗi <span style=\"color:#ffd43b\"><b>20 phút</b></span>, tối đa <span style=\"color:#ffd43b\"><b>3 liều</b></span><br>2) <span style=\"color:#51cf66\"><b>Liều duy trì</b></span>: sau khi cắt cơn go, <span style=\"color:#ffd43b\"><b>10 - 20 mg</b></span> đường uống mỗi <span style=\"color:#ffd43b\"><b>4 - 6 giờ</b></span><br>3) <span style=\"color:#ff6b6b\"><b>Chống chỉ định</b></span>: bệnh tim, huyết áp thấp (dưới <span style=\"color:#ffd43b\"><b>90/50 mmHg</b></span>); không dùng cùng Magnesium sulphate; cẩn thận ở người có bệnh lý thận<br>4) <span style=\"color:#ff6b6b\"><b>Tác dụng phụ trên mẹ</b></span>: nóng bừng, đau đầu, buồn nôn, hạ huyết áp thoáng qua; lên thai nhi: hiện chưa có ghi nhận đặc biệt<br><br><b>💡 Giải thích của AI:</b><br>Là thuốc chẹn kênh calci nên cần tránh hạ huyết áp.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Nifedipine",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "liều tấn công",
+        "liều duy trì",
+        "chống chỉ định",
+        "tác dụng phụ"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-11",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Indomethacin",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Indomethacin</b></span> (ức chế tổng hợp Prostaglandine): <span style=\"color:#51cf66\"><b>liều</b></span> và <span style=\"color:#ff6b6b\"><b>tác động ngược</b></span> trên thai nhi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Liều</b></span>: <span style=\"color:#ffd43b\"><b>25 mg/6 giờ</b></span> trong <span style=\"color:#ffd43b\"><b>5 ngày</b></span>, hoặc nhét hậu môn <span style=\"color:#ffd43b\"><b>100 mg</b></span> sau đó uống <span style=\"color:#ffd43b\"><b>25 mg/6 giờ</b></span> cho đến <span style=\"color:#ffd43b\"><b>24 giờ</b></span> sau khi không còn cơn go<br>2) <span style=\"color:#ff6b6b\"><b>Tác động ngược trên thai nhi</b></span>: co thắt ống động mạch, tăng áp lực phổi, thiểu ối, xuất huyết não thất, viêm ruột hoại tử, tăng bilirubine huyết<br><br><b>💡 Giải thích của AI:</b><br>Prostaglandine giữ ống động mạch mở nên ức chế nó gây co thắt ống.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Indomethacin",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "liều",
+        "tác động ngược"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-12",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Corticosteroid",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Corticosteroid</b></span> trong doạ đẻ non: <span style=\"color:#74c0fc\"><b>mục đích</b></span>, <span style=\"color:#ffd43b\"><b>tuổi thai chỉ định</b></span>, hiệu quả và <span style=\"color:#51cf66\"><b>liều</b></span> Betamethason, Dexamethasone?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Mục đích</b></span>: giúp phổi thai nhi trưởng thành, tránh <span style=\"color:#ff6b6b\"><b>bệnh màng trong</b></span><br>2) <span style=\"color:#74c0fc\"><b>Tuổi thai</b></span>: chỉ dùng cho thai từ <span style=\"color:#ffd43b\"><b>28 đến hết 34 tuần</b></span><br>3) <span style=\"color:#74c0fc\"><b>Hiệu quả</b></span>: cho corticoide ở mẹ làm giảm <span style=\"color:#ffd43b\"><b>40 - 60%</b></span> nguy cơ bệnh màng trong ở sơ sinh<br>4) <span style=\"color:#51cf66\"><b>Liều</b></span>: Betamethason (Celestene) tiêm bắp <span style=\"color:#ffd43b\"><b>2 ống/ngày</b></span> hoặc <span style=\"color:#ffd43b\"><b>1 ống/ngày trong 2 ngày</b></span>; hoặc Dexamethasone (Dexaron) <span style=\"color:#ffd43b\"><b>12 mg/ngày</b></span> (3 ống) tiêm bắp <span style=\"color:#ffd43b\"><b>2 ngày liên tiếp</b></span><br><br><b>💡 Giải thích của AI:</b><br>Thuốc giúp trưởng thành phổi nên giảm bệnh màng trong.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Corticosteroid",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "mục đích",
+        "tuổi thai",
+        "hiệu quả",
+        "liều"
+      ]
+    },
+    {
+      "id": "SK21-S5_1-13",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Corticosteroid",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Corticosteroid</b></span>: <span style=\"color:#ffd43b\"><b>thời điểm đạt hiệu quả tối đa</b></span>, hệ quả với cuộc chuyển dạ và <span style=\"color:#ff6b6b\"><b>lưu ý</b></span> trước khi dùng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thời điểm đạt hiệu quả tối đa:</b> hiệu quả tối đa đạt trong <span style=\"color:#ffd43b\"><b>24 - 48 giờ</b></span><br>2) <b>Hệ quả với cuộc chuyển dạ:</b> do đó cố gắng <span style=\"color:#51cf66\"><b>trì hoãn cuộc chuyển dạ</b></span> ít nhất <span style=\"color:#ffd43b\"><b>24 giờ</b></span> sau khi sử dụng<br>3) <b>Lưu ý:</b> chú ý <span style=\"color:#ff6b6b\"><b>loại trừ mẹ mắc bệnh đái đường thai nghén</b></span> trước khi dùng<br><br><b>💡 Giải thích của AI:</b><br>Cần thời gian để thuốc phát huy tác dụng nên phải trì hoãn chuyển dạ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1.2. Corticosteroid",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "asks": [
+        "thời điểm đạt hiệu quả tối đa",
+        "hệ quả với cuộc chuyển dạ",
+        "lưu ý"
+      ]
+    },
+    {
+      "id": "SK21-ALG-05",
+      "type": "basic",
+      "section": "S5_1",
+      "category": "Thuốc ức chế chuyển dạ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Bảng nhanh: <span style=\"color:#51cf66\"><b>liều tấn công</b></span> của <span style=\"color:#51cf66\"><b>Ritodrine, Terbutaline, Atosiban, MgSO4, Nifedipine</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ritodrine: truyền <span style=\"color:#ffd43b\"><b>20 ml/giờ</b></span>, 15 phút tăng <span style=\"color:#ffd43b\"><b>10 ml/giờ</b></span>, tối đa <span style=\"color:#ffd43b\"><b>70 ml/giờ</b></span><br>2) Terbutaline: <span style=\"color:#ffd43b\"><b>250 mcg</b></span>, truyền TM <span style=\"color:#ffd43b\"><b>10 - 80 µg/phút</b></span><br>3) Atosiban: <span style=\"color:#ffd43b\"><b>6,75 mg</b></span> TM chậm trong 1 phút<br>4) Magnesium Sulfate: <span style=\"color:#ffd43b\"><b>4 - 6 g</b></span> trong 100 ml Dextrose 5% truyền <span style=\"color:#ffd43b\"><b>15 - 20 phút</b></span><br>5) Nifedipine: <span style=\"color:#ffd43b\"><b>20 mg</b></span> ngậm dưới lưỡi mỗi <span style=\"color:#ffd43b\"><b>20 phút</b></span>, tối đa <span style=\"color:#ffd43b\"><b>3 liều</b></span><br><br><b>💡 Giải thích của AI:</b><br>Gom liều tấn công để so sánh nhanh.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.1. Doạ đẻ non",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_1"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-S5_2_1-01",
+      "type": "basic",
+      "section": "S5_2_1",
+      "category": "Đẻ non - tuyến xã",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Xử trí</b></span> <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> tại <span style=\"color:#74c0fc\"><b>tuyến xã</b></span>, gồm cả trường hợp <span style=\"color:#ff6b6b\"><b>đã đẻ ở xã</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tư vấn, chuyển tuyến trên</b></span> càng sớm càng tốt<br>2) Trường hợp đã đẻ ở xã: <span style=\"color:#51cf66\"><b>chăm sóc trẻ sơ sinh</b></span> theo phác đồ chăm sóc trẻ sơ sinh non tháng, nhẹ cân<br>3) <span style=\"color:#51cf66\"><b>Chăm sóc mẹ</b></span>: theo dõi chảy máu, kiểm soát tử cung nếu rau thiếu, tư vấn, chuyển tuyến trên nếu cần<br><br><b>💡 Giải thích của AI:</b><br>Tuyến xã ưu tiên chuyển tuyến và chăm sóc ban đầu cho mẹ và bé.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.2.1. Tuyến xã",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_2_1"
+      ]
+    },
+    {
+      "id": "SK21-S5_2_2-01",
+      "type": "basic",
+      "section": "S5_2_2",
+      "category": "Đẻ non - tuyến huyện",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Xử trí</b></span> <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến huyện và chuyên khoa</b></span>: yếu tố quyết định, chỉ định mổ, đẻ đường dưới, sau đẻ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thái độ xử trí khác nhau tuỳ <span style=\"color:#74c0fc\"><b>ối còn hay đã vỡ</b></span>; <span style=\"color:#ffd43b\"><b>tuổi thai</b></span> là yếu tố rất quan trọng<br>2) Đảm bảo trẻ ít bị chấn thương nhất vì trẻ non tháng rất yếu ớt; dễ chỉ định <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span> vì lợi ích của trẻ nếu là <span style=\"color:#ff6b6b\"><b>ngôi mông, suy thai</b></span><br>3) <span style=\"color:#51cf66\"><b>Đẻ đường dưới</b></span> được chấp nhận khi là <span style=\"color:#74c0fc\"><b>ngôi chỏm</b></span> và có đủ điều kiện<br>4) Sau đẻ phải <span style=\"color:#51cf66\"><b>kiểm soát tử cung</b></span> để tránh sót rau, tìm dị dạng tử cung, xét nghiệm vi khuẩn (rau, nước tiểu và trẻ sơ sinh)<br>5) Cần theo dõi đặc biệt trong chuyển dạ và có <span style=\"color:#51cf66\"><b>phòng chăm sóc tích cực</b></span> cho trẻ non tháng sau đẻ<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu chung là giảm chấn thương cho trẻ non yếu.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.2.2. Tuyến huyện và tuyến bệnh viện chuyên khoa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_2_2"
+      ]
+    },
+    {
+      "id": "SK21-ALG-06",
+      "type": "basic",
+      "section": "S5_2_2",
+      "category": "Đẻ non - tuyến huyện",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Hồi sức thai</b></span>, tránh <span style=\"color:#ff6b6b\"><b>sang chấn</b></span> và tránh mất nhiệt cho trẻ khi <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>: làm thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hồi sức thai và chống ngạt</b></span>: cho mẹ thở oxy ngắt quãng, mỗi lần <span style=\"color:#ffd43b\"><b>10 phút</b></span>, <span style=\"color:#ffd43b\"><b>3 - 4 đợt/giờ</b></span>, lưu lượng <span style=\"color:#ffd43b\"><b>6 - 8 l/phút</b></span><br>2) <span style=\"color:#51cf66\"><b>Tránh sang chấn cho thai</b></span>: bảo vệ đầu ối đến khi mở gần hết hoặc mở hết; hạn chế sử dụng oxytocin; cắt rộng tầng sinh môn khi sổ thai<br>3) <span style=\"color:#51cf66\"><b>Tránh mất nhiệt</b></span>: đảm bảo ủ ấm cho trẻ mới đẻ<br><br><b>💡 Giải thích của AI:</b><br>Bảo vệ đầu ối và cắt rộng tầng sinh môn giúp đầu thai non ít bị ép.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 5.2.2. Tuyến huyện và tuyến bệnh viện chuyên khoa",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S5_2_2"
+      ],
+      "asks": [
+        "hồi sức thai",
+        "tránh sang chấn",
+        "tránh mất nhiệt"
+      ],
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo"
+    },
+    {
+      "id": "SK21-S6-01",
+      "type": "basic",
+      "section": "S6",
+      "category": "Dự phòng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Dự phòng</b></span> <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>: các biện pháp loại bỏ <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không nên đi du lịch xa, động viên <span style=\"color:#51cf66\"><b>nghỉ ngơi tối đa</b></span><br>2) Tôn trọng thời gian <span style=\"color:#51cf66\"><b>nghỉ trước đẻ</b></span> <span style=\"color:#ffd43b\"><b>6 tuần</b></span> (<span style=\"color:#ffd43b\"><b>8 tuần</b></span> nếu trên 3 con)<br>3) <span style=\"color:#51cf66\"><b>Điều trị các nhiễm khuẩn</b></span> nếu có<br>4) <span style=\"color:#51cf66\"><b>Ổn định các bệnh lý của mẹ</b></span> như nhiễm độc thai nghén, đái đường, đặc biệt các thai nghén có nguy cơ cao<br>5) <span style=\"color:#51cf66\"><b>Khâu vòng cổ tử cung</b></span> từ tuần thứ <span style=\"color:#ffd43b\"><b>12 - 14</b></span> nếu có hở eo<br><br><b>💡 Giải thích của AI:</b><br>Sau khi xác định yếu tố nguy cơ, dự phòng là loại bỏ chúng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 6. Dự phòng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S6"
+      ]
+    },
+    {
+      "id": "SK21-S6-02",
+      "type": "basic",
+      "section": "S6",
+      "category": "Dự phòng",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#51cf66\"><b>Khâu vòng cổ tử cung</b></span> theo phương pháp <span style=\"color:#74c0fc\"><b>Mc Donald</b></span>: thời điểm và hình minh hoạ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khâu vòng cổ tử cung từ tuần <span style=\"color:#ffd43b\"><b>12 - 14</b></span> nếu có <span style=\"color:#ff6b6b\"><b>hở eo</b></span><br>2) Hình 4: kỹ thuật khâu vòng cổ tử cung theo phương pháp <span style=\"color:#74c0fc\"><b>Mc Donald</b></span><br><img src=\"SK-21_fig04.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Khâu vòng giữ cổ tử cung đóng khi hở eo.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 6. Dự phòng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S6"
+      ]
+    },
+    {
+      "id": "SK21-S6-C01",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Dự phòng",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Nghỉ trước đẻ {{c1::<span style=\"color:#ffd43b\"><b>6 tuần</b></span>}} ({{c2::<span style=\"color:#ffd43b\"><b>8 tuần</b></span>}} nếu trên 3 con); khâu vòng cổ tử cung từ tuần {{c3::<span style=\"color:#ffd43b\"><b>12 - 14</b></span>}} nếu hở eo.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · 6. Dự phòng",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "S6"
+      ]
+    },
+    {
+      "id": "SK21-CH-01",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 1: Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span> gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span> do <span style=\"color:#74c0fc\"><b>xã hội</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Kinh tế xã hội thấp, thiếu chăm sóc trước sinh</b></span>; cân nặng mẹ thấp/tăng cân kém; lao động vất vả<br>2) Tuổi mẹ <span style=\"color:#ffd43b\"><b>dưới 20</b></span> hoặc con so <span style=\"color:#ffd43b\"><b>trên 35</b></span><br>3) Nghiện thuốc lá, rượu, cocain<br><br><b>💡 Giải thích của AI:</b><br>Nhóm yếu tố xã hội.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 1",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK21-CH-02",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 1: Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân do mẹ</b></span> và <span style=\"color:#ff6b6b\"><b>do thai - phần phụ</b></span> gây <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bệnh toàn thân</b></span>: nhiễm trùng, chấn thương, nghề nghiệp, bệnh tim gan thận, thiếu máu, tiền sản giật - sản giật, kháng thể kháng Phospholipid<br>2) <span style=\"color:#ff6b6b\"><b>Tại chỗ</b></span>: tử cung dị dạng, bất thường mắc phải, hở eo tử cung, khoét chóp; viêm nhiễm âm đạo - cổ tử cung; tiền sử sinh non (<span style=\"color:#ffd43b\"><b>25 - 50%</b></span>)<br>3) <span style=\"color:#ff6b6b\"><b>Thai và phần phụ</b></span>: ối vỡ non/sớm, nhiễm trùng ối, đa thai, đa ối, rau tiền đạo, rau bong non; khoảng <span style=\"color:#ffd43b\"><b>50%</b></span> không rõ lý do<br><br><b>💡 Giải thích của AI:</b><br>Tổng hợp nguyên nhân phía mẹ và thai.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 1",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK21-CH-03",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 2: Trình bày triệu chứng cơ năng, thực thể và cận lâm sàng chẩn đoán <span style=\"color:#ff6b6b\"><b>doạ đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ năng:</b> đau bụng từng cơn hoặc trì nặng bụng dưới; ra dịch nhầy, máu hoặc nước ối<br>2) <b>Thực thể:</b> <span style=\"color:#ffd43b\"><b>1 - 2 cơn go/10 phút</b></span> trên 30 phút; cổ tử cung dài hoặc đóng kín, hoặc xoá và mở <span style=\"color:#ffd43b\"><b>< 4 cm</b></span>; ối vỡ non<br>3) <b>Cận lâm sàng:</b> siêu âm cổ tử cung <span style=\"color:#ffd43b\"><b>dưới 2,5 cm</b></span>; monitoring <span style=\"color:#ffd43b\"><b>1 - 2 cơn co/10 phút</b></span>; chỉ số <span style=\"color:#ffd43b\"><b>dưới 6</b></span>; xét nghiệm tìm nguyên nhân<br><br><b>💡 Giải thích của AI:</b><br>Gom cơ năng, thực thể, cận lâm sàng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 2",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ],
+      "asks": [
+        "cơ năng",
+        "thực thể",
+        "cận lâm sàng"
+      ]
+    },
+    {
+      "id": "SK21-CH-04",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 2: Trình bày triệu chứng chẩn đoán <span style=\"color:#ff6b6b\"><b>đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cơ năng</b></span>: đau bụng từng cơn tăng dần; ra dịch nhầy, máu hoặc nước ối<br>2) <span style=\"color:#ff6b6b\"><b>Thực thể</b></span>: <span style=\"color:#ffd43b\"><b>2 - 3 cơn go/10 phút</b></span> tăng dần; cổ tử cung xoá <span style=\"color:#ffd43b\"><b>trên 80%</b></span> hoặc mở <span style=\"color:#ffd43b\"><b>trên 2 cm</b></span>, đầu ối thành lập hoặc ối vỡ sớm<br>3) <span style=\"color:#51cf66\"><b>Monitoring</b></span> <span style=\"color:#ffd43b\"><b>2 - 3 cơn go</b></span> đều/10 phút; chỉ số doạ đẻ non <span style=\"color:#ffd43b\"><b>lớn hơn 6</b></span><br><br><b>💡 Giải thích của AI:</b><br>Biểu hiện nặng hơn doạ đẻ non.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 2",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK21-CH-05",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 3: Trình bày <span style=\"color:#ff6b6b\"><b>Yếu tố tiên lượng</b></span> doạ đẻ non và <span style=\"color:#51cf66\"><b>Dự phòng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Yếu tố tiên lượng:</b> dựa vào <span style=\"color:#ffd43b\"><b>4 yếu tố</b></span>: cơn go, thay đổi cổ tử cung, ối vỡ, ra máu âm đạo → <span style=\"color:#74c0fc\"><b>chỉ số doạ đẻ non</b></span> (chỉ số 1: ngừng chuyển dạ <span style=\"color:#ffd43b\"><b>100%</b></span>; ≥ 7: <span style=\"color:#ffd43b\"><b>0%</b></span>)<br>2) <b>Dự phòng:</b> nghỉ ngơi, không du lịch xa; nghỉ trước đẻ <span style=\"color:#ffd43b\"><b>6 tuần</b></span> (<span style=\"color:#ffd43b\"><b>8 tuần</b></span> nếu trên 3 con); điều trị nhiễm khuẩn; ổn định bệnh lý mẹ; khâu vòng cổ tử cung tuần <span style=\"color:#ffd43b\"><b>12 - 14</b></span> nếu hở eo<br><br><b>💡 Giải thích của AI:</b><br>Tiên lượng bằng chỉ số, dự phòng bằng loại bỏ yếu tố nguy cơ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 3",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ],
+      "asks": [
+        "Yếu tố tiên lượng",
+        "Dự phòng"
+      ]
+    },
+    {
+      "id": "SK21-CH-06",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 4: Trình bày cách <span style=\"color:#51cf66\"><b>xử trí doạ đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tuyến xã</b></span>: không điều trị, chuyển tuyến trên sớm<br>2) <span style=\"color:#51cf66\"><b>Tuyến huyện/chuyên khoa</b></span>: thuốc ức chế chuyển dạ (bêta - mimetic, Atosiban, Magnesium Sulfate, Nifedipine, Indomethacin) kéo dài <span style=\"color:#ffd43b\"><b>2 - 7 ngày</b></span><br>3) <span style=\"color:#51cf66\"><b>Corticosteroid</b></span> thai <span style=\"color:#ffd43b\"><b>28 - 34 tuần</b></span>; trì hoãn chuyển dạ ít nhất <span style=\"color:#ffd43b\"><b>24 giờ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Thuốc chỉ câu giờ để dùng steroid và chuyển tuyến.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 4",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK21-CH-07",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Câu hỏi 4: Trình bày cách <span style=\"color:#51cf66\"><b>xử trí đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tuyến xã</b></span>: tư vấn, chuyển tuyến; nếu đã đẻ: chăm sóc sơ sinh non tháng, theo dõi chảy máu mẹ, kiểm soát tử cung<br>2) <span style=\"color:#51cf66\"><b>Tuyến huyện/chuyên khoa</b></span>: tránh chấn thương (mổ nếu ngôi mông, suy thai; đẻ đường dưới khi ngôi chỏm); kiểm soát tử cung sau đẻ; hồi sức thai thở oxy <span style=\"color:#ffd43b\"><b>6 - 8 l/phút</b></span>; bảo vệ đầu ối, hạn chế oxytocin, cắt rộng tầng sinh môn; ủ ấm trẻ<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt xử trí theo tuyến.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-21 Đẻ non · Câu hỏi 4",
+      "tags": [
+        "SK-21",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    }
+  ]
+}

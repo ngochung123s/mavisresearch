@@ -1,0 +1,991 @@
+{
+ "cards": [
+  {
+   "id": "SK30-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: định nghĩa, nguyên nhân và cơ chế gây <span style=\"color:#ff6b6b\"><b>mất trao đổi oxy</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> Là <span style=\"color:#ff6b6b\"><b>một cấp cứu sản khoa</b></span>, <span style=\"color:#ff6b6b\"><b>bệnh lý nặng toàn thân</b></span>, biến chuyển nhanh chóng làm <span style=\"color:#ff6b6b\"><b>tử vong mẹ và con</b></span>.<br>2) <b>Nguyên nhân:</b> rau <span style=\"color:#74c0fc\"><b>bám đúng chỗ</b></span> song <span style=\"color:#ff6b6b\"><b>bị bong trước khi sổ thai</b></span> do có sự hình thành <span style=\"color:#ff6b6b\"><b>khối huyết tụ sau rau</b></span>.<br>3) <b>Cơ chế:</b> Khối huyết tụ lớn dần làm bong dần bánh rau, màng rau khỏi thành tử cung, <span style=\"color:#ff6b6b\"><b>cắt đứt sự trao đổi oxy giữa mẹ và con</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Rau vốn bám đúng vị trí; chính khối máu tụ phía sau là thứ bóc dần rau ra, nên mất trao đổi oxy cho thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 1. Đại cương",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ],
+   "asks": [
+    "định nghĩa",
+    "nguyên nhân",
+    "cơ chế"
+   ]
+  },
+  {
+   "id": "SK30-S1-02",
+   "type": "basic",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ffd43b\"><b>tỷ lệ gặp</b></span> và tỷ lệ gây tử vong trong các trường hợp <span style=\"color:#74c0fc\"><b>thai chết 3 tháng cuối</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tỷ lệ gặp <span style=\"color:#ffd43b\"><b>0,6 - 1%</b></span>.<br>2) Là nguyên nhân gây tử vong của <span style=\"color:#ffd43b\"><b>10 - 15%</b></span> các trường hợp thai chết trong vòng 3 tháng cuối.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh hiếm nhưng chiếm tỷ lệ đáng kể trong thai chết giai đoạn cuối thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 1. Đại cương",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK30-S1-C01",
+   "type": "cloze",
+   "section": "S1",
+   "category": "Đại cương",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Rau bong non gặp với tỷ lệ {{c1::<span style=\"color:#ffd43b\"><b>0,6 - 1%</b></span>}} và là nguyên nhân tử vong của {{c2::<span style=\"color:#ffd43b\"><b>10 - 15%</b></span>}} các trường hợp thai chết trong vòng 3 tháng cuối.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 1. Đại cương",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK30-S2-01",
+   "type": "basic",
+   "section": "S2",
+   "category": "Nguyên nhân",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>nguyên nhân trực tiếp</b></span> là gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sự <span style=\"color:#ff6b6b\"><b>phá vỡ các mạch máu của niêm mạc tử cung</b></span> nơi rau bám.<br><br><b>💡 Giải thích của AI:</b><br>Mạch máu nơi rau bám vỡ sẽ chảy máu tạo khối huyết tụ sau rau như ở phần đại cương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 2. Nguyên nhân và các yếu tố nguy cơ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK30-S2-02",
+   "type": "basic",
+   "section": "S2",
+   "category": "Yếu tố nguy cơ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể đủ các <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span> của <span style=\"color:#74c0fc\"><b>rau bong non</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tiền sản giật</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Căng giãn đột ngột quá mức</b></span> của tử cung.<br>3) <span style=\"color:#ff6b6b\"><b>Thương tổn mạch máu</b></span> tại bánh rau, vùng rau bám, trong các bệnh lý: <span style=\"color:#74c0fc\"><b>rau tiền đạo, cao huyết áp, đái tháo đường</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Thay đổi thể tích đột ngột</b></span> của tử cung: chọc hút nước ối trong đa ối, hoặc song thai sau khi thai thứ nhất ra.<br>5) <span style=\"color:#ff6b6b\"><b>Dây rốn ngắn</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Sang chấn</b></span>.<br>7) Thiếu <span style=\"color:#ff6b6b\"><b>acide folic</b></span>, thường gặp ở sản phụ có mức sống thấp.<br>8) <span style=\"color:#ff6b6b\"><b>Hút thuốc</b></span>, sử dụng cocain.<br>9) Có <span style=\"color:#ff6b6b\"><b>tiền sử rau bong non</b></span>.<br>10) <span style=\"color:#ff6b6b\"><b>Mẹ lớn tuổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn các yếu tố đều làm tổn thương mạch máu rau bám hoặc làm thể tích tử cung thay đổi đột ngột, khiến rau tách khỏi thành tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 2. Nguyên nhân và các yếu tố nguy cơ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-01",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Giải phẫu bệnh đại thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> đại thể: <span style=\"color:#ffd43b\"><b>khối máu tụ sau rau</b></span> ra sao và liên quan tới số phận thai thế nào? Lưu ý gì về mối liên hệ giữa tổn thương và lâm sàng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lưu ý: tổn thương giải phẫu bệnh có khi <span style=\"color:#ff6b6b\"><b>không phù hợp với thể lâm sàng</b></span>; có thể lâm sàng nhẹ nhưng tổn thương nặng và ngược lại.<br>2) Khối máu tụ sau rau: nhỏ hoặc to từ <span style=\"color:#ffd43b\"><b>500 - 1500g</b></span>, làm bong dần bánh rau.<br>3) Khối huyết tụ nhỏ → rau bong ít, <span style=\"color:#51cf66\"><b>thai có thể sống</b></span>; khối huyết tụ lớn làm rau bong hoàn toàn → <span style=\"color:#ff6b6b\"><b>thai chết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kích thước khối máu tụ quyết định diện rau bong, và diện rau bong quyết định thai còn sống hay không.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-02",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Giải phẫu bệnh đại thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> đại thể: hình thái <span style=\"color:#74c0fc\"><b>bánh rau</b></span> có gì đặc trưng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mặt phía <span style=\"color:#74c0fc\"><b>nội mạc</b></span> bình thường.<br>2) Mặt về phía <span style=\"color:#74c0fc\"><b>tử cung</b></span> bị <span style=\"color:#ff6b6b\"><b>lõm xuống</b></span> do khối máu tụ chèn ép.<br><br><b>💡 Giải thích của AI:</b><br>Khối máu tụ nằm sau rau nên ép lõm mặt rau áp vào tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-03",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Giải phẫu bệnh đại thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> đại thể: tổn thương ở <span style=\"color:#74c0fc\"><b>tử cung</b></span> gồm những gì và hậu quả sau đẻ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các mạch máu vùng rau bám <span style=\"color:#ff6b6b\"><b>xung huyết và vỡ ra</b></span>, tạo thành các <span style=\"color:#ff6b6b\"><b>mảng nhồi huyết</b></span> ở tử cung.<br>2) Nhẹ: chỉ có mảng nhồi huyết ở vùng rau bám; nặng: <span style=\"color:#ff6b6b\"><b>nhồi huyết lan toả khắp tử cung</b></span>, có khi lan đến dây chằng rộng, các phần phụ và nhiều cơ quan khác.<br>3) Các ổ nhồi huyết làm tách các sợi cơ tử cung, dịch và máu thấm vào ổ bụng.<br>4) Cơ tử cung <span style=\"color:#ff6b6b\"><b>mất khả năng đàn hồi và co bóp</b></span> → sau khi đẻ dễ bị <span style=\"color:#ff6b6b\"><b>đờ tử cung</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cơ tử cung bị máu thấm tách sợi nên không co lại được, dẫn đến đờ tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-04",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Giải phẫu bệnh đại thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> đại thể: tổn thương ở <span style=\"color:#74c0fc\"><b>các phần phụ và phủ tạng khác</b></span> trong thể nặng và rất nặng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương lan toả đến <span style=\"color:#74c0fc\"><b>vòi trứng, buồng trứng, thận, gan, tuỵ tạng</b></span>...<br>2) Các tổn thương <span style=\"color:#ff6b6b\"><b>nhồi huyết</b></span> giống như ở tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Nhồi huyết không chỉ ở tử cung mà lan sang nhiều tạng, giải thích vì sao có suy gan, suy thận về sau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-05",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Hình 1",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Hình 1 minh họa <span style=\"color:#74c0fc\"><b>rau bong non</b></span>: khối máu tụ và bánh rau trông thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hình 1: <span style=\"color:#74c0fc\"><b>Rau bong non</b></span> - thấy <span style=\"color:#ff6b6b\"><b>khối máu tụ sau rau</b></span> làm bánh rau bong khỏi thành tử cung (mặt rau về phía tử cung bị lõm do khối máu tụ chèn ép).<br><img src=\"SK-30_fig01.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Hình giúp hình dung khối máu tụ nằm giữa rau và thành tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S3_2-01",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Giải phẫu bệnh vi thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> vi thể: tổn thương thường gặp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương các <span style=\"color:#74c0fc\"><b>mạch máu, mao mạch</b></span>: <span style=\"color:#ff6b6b\"><b>căng, vỡ, phù nề và xung huyết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phù hợp với cơ chế vỡ mạch ở vùng rau bám.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.2. Vi thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK30-S4-01",
+   "type": "basic",
+   "section": "S4",
+   "category": "Sinh lý bệnh",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: sự hình thành <span style=\"color:#ff6b6b\"><b>khối máu tụ sau rau</b></span> đưa đến các hậu quả về hai phía nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Về <span style=\"color:#74c0fc\"><b>phía thai</b></span>: nhanh chóng <span style=\"color:#ff6b6b\"><b>thiếu dưỡng khí</b></span>.<br>2) Về <span style=\"color:#74c0fc\"><b>phía mẹ</b></span>: <span style=\"color:#ff6b6b\"><b>choáng do mất máu</b></span> và <span style=\"color:#ff6b6b\"><b>rối loạn đông máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khối máu tụ ảnh hưởng thai qua trao đổi khí, ảnh hưởng mẹ qua mất máu và đông máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 4. Sinh lý bệnh",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S4"
+   ]
+  },
+  {
+   "id": "SK30-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Về phía thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: vì sao <span style=\"color:#ff6b6b\"><b>thai nhanh chóng thiếu dưỡng khí</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nơi rau bong làm <span style=\"color:#ff6b6b\"><b>cắt đứt một phần</b></span> sự trao đổi dưỡng khí giữa mẹ và con.<br>2) <span style=\"color:#ff6b6b\"><b>Tử cung co cứng</b></span> và <span style=\"color:#ff6b6b\"><b>hạ huyết áp ở mẹ</b></span> làm giảm lưu lượng máu từ tử cung qua rau.<br><br><b>💡 Giải thích của AI:</b><br>Vừa mất diện trao đổi vừa giảm máu đến rau nên thai thiếu oxy nhanh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 4.1. Về phía thai",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK30-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Về phía mẹ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: các <span style=\"color:#ff6b6b\"><b>hậu quả có thể xảy ra ở mẹ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Choáng do mất máu</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Rối loạn đông máu</b></span>: giảm hoặc mất hoàn toàn <span style=\"color:#74c0fc\"><b>fibrinogen</b></span>, <span style=\"color:#ff6b6b\"><b>hội chứng đông máu rải rác trong lòng mạch</b></span> và hiện tượng <span style=\"color:#ff6b6b\"><b>tiêu fibrinogen thứ phát</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mất máu gây choáng; tiêu thụ yếu tố đông máu gây rối loạn đông.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 4.2. Về phía mẹ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_1-01",
+   "type": "basic",
+   "section": "S5_1_1",
+   "category": "Triệu chứng toàn thân",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng toàn thân</b></span> (choáng) biểu hiện thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Choáng</b></span>: bệnh nhân <span style=\"color:#ff6b6b\"><b>xanh, niêm mạc nhợt nhạt, hốt hoảng, thở nhanh, chân tay lạnh</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Mạch có thể chậm</b></span>, <span style=\"color:#ffd43b\"><b>huyết áp có thể bình thường hay giảm nhẹ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu choáng nhưng mạch, huyết áp có thể chưa thay đổi rõ nên dễ đánh giá thấp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.1. Toàn thân",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_1"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_1-02",
+   "type": "basic",
+   "section": "S5_1_1",
+   "category": "Triệu chứng cơ năng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng cơ năng</b></span> (đau bụng, chảy máu)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau bụng</b></span>: thường đau nhiều, bắt đầu ở tử cung sau lan ra khắp bụng, bụng càng căng cứng, càng đau nhiều.<br>2) <span style=\"color:#ff6b6b\"><b>Chảy máu âm đạo</b></span>: thường là <span style=\"color:#ff6b6b\"><b>máu loãng, không có máu cục</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Máu loãng không đông phản ánh rối loạn đông máu đi kèm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.2. Cơ năng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_1"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_1-03",
+   "type": "basic",
+   "section": "S5_1_1",
+   "category": "Triệu chứng thực thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng thực thể</b></span> (tiền sản giật, tử cung, tim thai, máu âm đạo, khám âm đạo)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tiền sản giật</b></span>: <span style=\"color:#ffd43b\"><b>60 - 70%</b></span> các trường hợp (phù, proteine niệu, cao huyết áp).<br>2) <span style=\"color:#ff6b6b\"><b>Tử cung co cứng liên tục</b></span>, bề cao tử cung tăng dần theo thể tích khối máu tụ; đo cơn co thấy <span style=\"color:#ff6b6b\"><b>trương lực cơ bản tăng</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Biến động tim thai</b></span> tuỳ thuộc vào thể lâm sàng.<br>4) Máu ra ở âm đạo thường là <span style=\"color:#ff6b6b\"><b>máu loãng, sẫm màu và không đông</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Khám âm đạo</b></span>: đoạn dưới căng phồng, cổ tử cung giãn mỏng và cứng, có khi thấy đầu ối phồng căng, bấm ối nước ối <span style=\"color:#ff6b6b\"><b>màu hồng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung co cứng và chứa khối máu tụ lớn dần nên bề cao tử cung tăng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.3. Thực thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_1"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_3-01",
+   "type": "basic",
+   "section": "S5_1_3",
+   "category": "Cận lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#51cf66\"><b>cận lâm sàng</b></span> gồm công thức máu, monitoring, siêu âm, fibrinogen cho kết quả gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Công thức máu</b></span>: hồng cầu, tiểu cầu, hematocrit <span style=\"color:#ff6b6b\"><b>giảm</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Monitoring</b></span>: trương lực cơ bản tử cung tăng <span style=\"color:#ffd43b\"><b>3 - 4 lần</b></span> so với bình thường.<br>3) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span>: thấy <span style=\"color:#ff6b6b\"><b>khối máu tụ sau rau</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Fibrinogen</b></span>: <span style=\"color:#ff6b6b\"><b>giảm hoặc không có</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Các xét nghiệm phản ánh mất máu, tử cung tăng trương lực và rối loạn đông máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.3. Cận lâm sàng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_3-C01",
+   "type": "cloze",
+   "section": "S5_1_3",
+   "category": "Triệu chứng thực thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Rau bong non có tiền sản giật ở {{c1::<span style=\"color:#ffd43b\"><b>60 - 70%</b></span>}} các trường hợp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.3. Thực thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_3-C02",
+   "type": "cloze",
+   "section": "S5_1_3",
+   "category": "Cận lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Trên monitoring, trương lực cơ bản tử cung tăng lên {{c1::<span style=\"color:#ffd43b\"><b>3 - 4 lần</b></span>}} so với bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.1.3. Cận lâm sàng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S3_1-C01",
+   "type": "cloze",
+   "section": "S3_1",
+   "category": "Giải phẫu bệnh đại thể",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Khối máu tụ sau rau có thể nhỏ hoặc to từ {{c1::<span style=\"color:#ffd43b\"><b>500 - 1500g</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 3.1. Đại thể",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK30-S5_2-01",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Chẩn đoán xác định",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#74c0fc\"><b>thể ẩn</b></span> và <span style=\"color:#74c0fc\"><b>thể nhẹ</b></span> chẩn đoán dựa vào gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thể ẩn</b></span>: <span style=\"color:#ff6b6b\"><b>không thể phát hiện trên lâm sàng trước khi đẻ</b></span>, chỉ phát hiện khi kiểm tra thấy cục máu sau rau; đôi khi tình cờ phát hiện khi siêu âm trước đẻ.<br>2) <span style=\"color:#74c0fc\"><b>Thể nhẹ</b></span>: toàn trạng bình thường, không choáng; chảy máu âm đạo ít hoặc không có; trương lực cơ tử cung có thể tăng nhẹ; tim thai bình thường; chưa có rối loạn đông chảy máu; siêu âm có thể có hình ảnh khối máu tụ sau rau.<br><br><b>💡 Giải thích của AI:</b><br>Hai thể đầu ít triệu chứng nên dễ bỏ sót, siêu âm có vai trò gợi ý.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_2-02",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Chẩn đoán xác định",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span> <span style=\"color:#74c0fc\"><b>thể trung bình</b></span>: các dấu hiệu chẩn đoán?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Mạch nhanh, nhỏ</b></span>, có thể hạ huyết áp.<br>2) Chảy máu âm đạo có thể có hoặc không, <span style=\"color:#ff6b6b\"><b>máu loãng, sẫm màu, không đông</b></span>.<br>3) Trương lực cơ tử cung tăng, <span style=\"color:#ff6b6b\"><b>cơn co tử cung cường tính</b></span>.<br>4) Nhịp tim thai biểu hiện <span style=\"color:#ff6b6b\"><b>suy thai</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Sinh sợi huyết giảm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là giai đoạn có ảnh hưởng cả mẹ (mạch, huyết áp, đông máu) lẫn thai (suy thai).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_2-03",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Chẩn đoán xác định",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nặng</b></span> (phong huyết tử cung - rau, <span style=\"color:#74c0fc\"><b>hội chứng Couvelaire</b></span>): các triệu chứng điển hình?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Còn gọi là <span style=\"color:#74c0fc\"><b>phong huyết tử cung - rau</b></span> hay <span style=\"color:#74c0fc\"><b>hội chứng Couvelaire</b></span>.<br>2) Toàn thân biểu hiện <span style=\"color:#ff6b6b\"><b>mất máu nặng</b></span>.<br>3) Thường có <span style=\"color:#ff6b6b\"><b>tiền sản giật</b></span>.<br>4) Chảy máu âm đạo <span style=\"color:#ff6b6b\"><b>không tương xứng</b></span> với tình trạng mất máu toàn thân.<br>5) <span style=\"color:#ff6b6b\"><b>Tử cung co cứng như gỗ</b></span> và đau liên tục.<br>6) <span style=\"color:#ff6b6b\"><b>Không có tim thai</b></span>.<br>7) Có <span style=\"color:#ff6b6b\"><b>rối loạn đông máu</b></span>, có thể chảy máu ở các phủ tạng như phổi, dạ dày, thận, buồng trứng, ruột, chảy máu những chỗ tiêm chích...<br>8) Kết quả máu: sinh sợi huyết giảm hoặc không có, tiểu cầu giảm, hồng cầu và hematocrit giảm.<br><br><b>💡 Giải thích của AI:</b><br>Thể nặng là bức tranh đủ: mất máu, co cứng tử cung, thai chết và rối loạn đông máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_2-04",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Chẩn đoán xác định",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Bảng 1: so sánh <span style=\"color:#74c0fc\"><b>các thể lâm sàng rau bong non</b></span> theo choáng, chảy máu, tiền sản giật, trương lực cơ tử cung, fibrinogen, tim thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thể ẩn</b></span>: choáng -; chảy máu -; tiền sản giật -; trương lực <span style=\"color:#ffd43b\"><b>không thay đổi</b></span>; fibrinogen <span style=\"color:#ffd43b\"><b>bình thường</b></span>; tim thai +.<br>2) <span style=\"color:#74c0fc\"><b>Thể nhẹ</b></span>: choáng -; chảy máu +; tiền sản giật ±; trương lực <span style=\"color:#ffd43b\"><b>cường tính</b></span>; fibrinogen <span style=\"color:#ffd43b\"><b>giảm nhẹ hoặc bình thường</b></span>; tim thai +.<br>3) <span style=\"color:#74c0fc\"><b>Thể trung bình</b></span>: choáng +; chảy máu ++; tiền sản giật +; trương lực <span style=\"color:#ffd43b\"><b>co cứng</b></span>; fibrinogen <span style=\"color:#ffd43b\"><b>giảm</b></span>; tim thai ±.<br>4) <span style=\"color:#74c0fc\"><b>Thể nặng</b></span>: choáng +++; chảy máu +++; tiền sản giật +++; trương lực <span style=\"color:#ffd43b\"><b>cứng như gỗ</b></span>; fibrinogen <span style=\"color:#ffd43b\"><b>giảm nhiều, thậm chí không còn</b></span>; tim thai -.<br><br><b>💡 Giải thích của AI:</b><br>Mức độ các dấu hiệu tăng dần từ thể ẩn đến thể nặng; tim thai giảm dần đến mất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_2-C01",
+   "type": "cloze",
+   "section": "S5_2",
+   "category": "Chẩn đoán xác định",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Rau bong non thể nặng còn gọi là {{c1::<span style=\"color:#74c0fc\"><b>phong huyết tử cung - rau</b></span>}} hay {{c2::<span style=\"color:#74c0fc\"><b>hội chứng Couvelaire</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_3-01",
+   "type": "basic",
+   "section": "S5_3",
+   "category": "Chẩn đoán phân biệt",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể đủ các bệnh cần <span style=\"color:#74c0fc\"><b>chẩn đoán phân biệt</b></span> với <span style=\"color:#74c0fc\"><b>rau bong non</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đa ối cấp</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Rau tiền đạo</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả ba đều có thể gây tử cung to, chảy máu hoặc đau bụng, nên cần phân biệt.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3. Chẩn đoán phân biệt",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3"
+   ]
+  },
+  {
+   "id": "SK30-S5_3-02",
+   "type": "basic",
+   "section": "S5_3",
+   "category": "Đa ối cấp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt</b></span> rau bong non với <span style=\"color:#74c0fc\"><b>đa ối cấp</b></span>: đặc điểm đa ối cấp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường xảy ra vào <span style=\"color:#ffd43b\"><b>ba tháng giữa</b></span>, <span style=\"color:#ff6b6b\"><b>tử cung to nhanh</b></span>, <span style=\"color:#ff6b6b\"><b>không có chảy máu</b></span>, thai thường dị dạng.<br>2) Nguy cơ <span style=\"color:#ff6b6b\"><b>rau bong non rất cao khi màng ối vỡ</b></span> (do giảm nhanh thể tích buồng tử cung).<br><br><b>💡 Giải thích của AI:</b><br>Ối vỡ làm tử cung xẹp đột ngột, rau dễ bị bóc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3.1. Đa ối cấp",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3"
+   ]
+  },
+  {
+   "id": "SK30-S5_3_2-01",
+   "type": "basic",
+   "section": "S5_3_2",
+   "category": "Rau tiền đạo",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt</b></span> rau bong non với <span style=\"color:#74c0fc\"><b>rau tiền đạo</b></span>: đặc điểm rau tiền đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử cung <span style=\"color:#51cf66\"><b>không co cứng</b></span>, tim thai có thể còn.<br>2) <span style=\"color:#51cf66\"><b>Không có rối loạn đông máu</b></span>, sờ được bánh rau, không đau bụng.<br>3) Máu âm đạo <span style=\"color:#ff6b6b\"><b>tươi lẫn máu cục</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngược với rau bong non: tử cung mềm, không đau, máu tươi có cục.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3.2. Rau tiền đạo",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3_2"
+   ]
+  },
+  {
+   "id": "SK30-S5_3_3-01",
+   "type": "basic",
+   "section": "S5_3_3",
+   "category": "Vỡ tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt</b></span> rau bong non với <span style=\"color:#74c0fc\"><b>vỡ tử cung</b></span>: đặc điểm vỡ tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có dấu hiệu <span style=\"color:#ff6b6b\"><b>dọa vỡ hoặc vỡ tử cung</b></span>.<br>2) Máu âm đạo <span style=\"color:#ff6b6b\"><b>tươi</b></span> đi kèm triệu chứng <span style=\"color:#ff6b6b\"><b>chảy máu trong</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vỡ tử cung có bối cảnh dọa vỡ và dấu hiệu chảy máu trong.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3.3. Vỡ tử cung",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3_3"
+   ]
+  },
+  {
+   "id": "SK30-ALG-01",
+   "type": "basic",
+   "section": "S5_3",
+   "category": "Chẩn đoán phân biệt",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#74c0fc\"><b>Bảng so sánh nhanh</b></span>: rau bong non với <span style=\"color:#74c0fc\"><b>đa ối cấp, rau tiền đạo, vỡ tử cung</b></span> theo sách?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đa ối cấp</b></span>: ba tháng giữa, tử cung to nhanh, không chảy máu, thai dị dạng; nguy cơ bong non cao khi vỡ ối.<br>2) <span style=\"color:#74c0fc\"><b>Rau tiền đạo</b></span>: tử cung không co cứng, tim thai có thể còn, không rối loạn đông máu, sờ được rau, không đau, máu tươi lẫn cục.<br>3) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: dấu hiệu dọa vỡ/vỡ, máu tươi kèm chảy máu trong.<br>4) <span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: tử cung co cứng, đau bụng, máu loãng sẫm không đông, rối loạn đông máu.<br><br><b>💡 Giải thích của AI:</b><br>Điểm then chốt phân biệt là tính chất tử cung, đau bụng và tính chất máu âm đạo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3. Chẩn đoán phân biệt",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK30-S5_3-C01",
+   "type": "cloze",
+   "section": "S5_3",
+   "category": "Đa ối cấp",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Đa ối cấp thường xảy ra vào {{c1::<span style=\"color:#ffd43b\"><b>ba tháng giữa</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.3.1. Đa ối cấp",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_3"
+   ]
+  },
+  {
+   "id": "SK30-S6_1-01",
+   "type": "basic",
+   "section": "S6_1",
+   "category": "Xử trí trước đẻ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể ẩn</b></span>: <span style=\"color:#51cf66\"><b>xử trí trước đẻ</b></span> ra sao?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường <span style=\"color:#ff6b6b\"><b>không phát hiện trước</b></span> nên <span style=\"color:#51cf66\"><b>không xử trí gì</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thể ẩn chỉ được phát hiện sau khi đẻ qua cục máu sau rau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1. Xử trí trước đẻ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_2-01",
+   "type": "basic",
+   "section": "S6_1_2",
+   "category": "Xử trí thể nhẹ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nhẹ</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến cơ sở</b></span>: <span style=\"color:#51cf66\"><b>xử trí</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Sơ cứu</b></span>: giảm đau, giảm co: <span style=\"color:#51cf66\"><b>papaverin</b></span> <span style=\"color:#ffd43b\"><b>40 mg (1 - 4 ống)</b></span> tiêm bắp.<br>2) <span style=\"color:#51cf66\"><b>Chuyển tuyến chuyên khoa</b></span> có nhân viên Y tế đi kèm.<br><br><b>💡 Giải thích của AI:</b><br>Tuyến cơ sở chỉ sơ cứu giảm đau, giảm co rồi chuyển có người đi kèm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.2. Thể nhẹ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_2"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_2-02",
+   "type": "basic",
+   "section": "S6_1_2",
+   "category": "Xử trí thể nhẹ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nhẹ</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến chuyên khoa</b></span>: <span style=\"color:#51cf66\"><b>xử trí nội khoa, sản khoa, ngoại khoa</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Giảm đau, an thần, giảm co</b></span> (papaverin hoặc dolosal…).<br>2) <span style=\"color:#51cf66\"><b>Sản khoa</b></span>: bấm ối sớm, thúc đẩy cuộc đẻ kết thúc nhanh; nếu khó khăn thì chỉ định <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Ngoại khoa</b></span>: trong mổ đánh giá sát tổn thương tại tử cung để quyết định <span style=\"color:#51cf66\"><b>bảo tồn tử cung hay cắt bán phần tử cung</b></span>, vì thể nhẹ triệu chứng lâm sàng đôi khi không rõ nhưng <span style=\"color:#ff6b6b\"><b>tổn thương tử cung lại nặng</b></span> (không tương xứng với thể lâm sàng).<br><br><b>💡 Giải thích của AI:</b><br>Lâm sàng nhẹ chưa chắc tổn thương nhẹ, nên cần đánh giá tử cung trực tiếp khi mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.2. Thể nhẹ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_2"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_2-C01",
+   "type": "cloze",
+   "section": "S6_1_2",
+   "category": "Xử trí thể nhẹ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thể nhẹ ở tuyến cơ sở: giảm đau, giảm co bằng papaverin {{c1::<span style=\"color:#ffd43b\"><b>40 mg (1 - 4 ống)</b></span>}} tiêm bắp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.2. Thể nhẹ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_2"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_3-01",
+   "type": "basic",
+   "section": "S6_1_3",
+   "category": "Xử trí thể trung bình",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể trung bình</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến cơ sở</b></span>: <span style=\"color:#51cf66\"><b>xử trí</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cấp cứu</b></span>: giảm đau, giảm co, và <span style=\"color:#51cf66\"><b>lập đường truyền tĩnh mạch</b></span> (dịch truyền tuỳ điều kiện cơ sở đang có sẵn).<br>2) <span style=\"color:#51cf66\"><b>Chuyển ngay</b></span> lên tuyến chuyên khoa có nhân viên Y tế đi kèm.<br><br><b>💡 Giải thích của AI:</b><br>Cần có đường truyền trước khi chuyển vì bệnh nhân có nguy cơ choáng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.3. Thể trung bình",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_3-02",
+   "type": "basic",
+   "section": "S6_1_3",
+   "category": "Xử trí thể trung bình",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể trung bình</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến chuyên khoa</b></span>: <span style=\"color:#51cf66\"><b>chống choáng</b></span> và <span style=\"color:#51cf66\"><b>chống rối loạn đông máu</b></span> gồm gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chống choáng</b></span>: bù khối lượng tuần hoàn (truyền máu và dịch thay thế máu), bù điện giải, Cortison (hydrocortison đường truyền tĩnh mạch...); kháng histamin tổng hợp và các thuốc phong bế thần kinh giao cảm; trợ tim.<br>2) <span style=\"color:#51cf66\"><b>Chống rối loạn đông máu</b></span>: <span style=\"color:#51cf66\"><b>E.A.C</b></span> <span style=\"color:#ffd43b\"><b>4 - 8 g</b></span> tiêm tĩnh mạch; <span style=\"color:#51cf66\"><b>transamin</b></span> <span style=\"color:#ffd43b\"><b>250 mg - 1000 mg</b></span> truyền tĩnh mạch; <span style=\"color:#51cf66\"><b>fibrinogen</b></span> <span style=\"color:#ffd43b\"><b>2 - 4 g</b></span> tiêm tĩnh mạch.<br><br><b>💡 Giải thích của AI:</b><br>Vừa bù thể tích và chống sốc, vừa bù yếu tố đông máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.3. Thể trung bình",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_3-03",
+   "type": "basic",
+   "section": "S6_1_3",
+   "category": "Xử trí thể trung bình",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể trung bình</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến chuyên khoa</b></span>: <span style=\"color:#51cf66\"><b>xử trí sản khoa và ngoại khoa</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Sản khoa</b></span>: chỉ lấy thai ra khi <span style=\"color:#ffd43b\"><b>CTC đã mở rộng</b></span>, sau bấm ối ngôi thai tiến triển nhanh, thường đẻ dễ dàng...<br>2) CTC mở ít, nguy cơ diễn biến nặng lên: <span style=\"color:#51cf66\"><b>chỉ định mổ ngay</b></span> để cứu mẹ và con.<br>3) <span style=\"color:#51cf66\"><b>Ngoại khoa</b></span>: sau mổ lấy thai đánh giá tổn thương thực thể tại tử cung để quyết định <span style=\"color:#51cf66\"><b>bảo tồn tử cung hay cắt bán phần</b></span> để cầm máu.<br><br><b>💡 Giải thích của AI:</b><br>Cổ tử cung mở rộng thì đẻ đường dưới nhanh; nếu không thì mổ để tránh diễn biến nặng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.3. Thể trung bình",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S6_1_3-C01",
+   "type": "cloze",
+   "section": "S6_1_3",
+   "category": "Xử trí thể trung bình",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Chống rối loạn đông máu thể trung bình: E.A.C {{c1::<span style=\"color:#ffd43b\"><b>4 - 8 g</b></span>}} tĩnh mạch; transamin {{c2::<span style=\"color:#ffd43b\"><b>250 mg - 1000 mg</b></span>}} truyền tĩnh mạch; fibrinogen {{c3::<span style=\"color:#ffd43b\"><b>2 - 4 g</b></span>}} tĩnh mạch.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.3. Thể trung bình",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_3"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_4-01",
+   "type": "basic",
+   "section": "S5_1_4",
+   "category": "Xử trí thể nặng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nặng</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến cơ sở</b></span>: <span style=\"color:#51cf66\"><b>xử trí</b></span> song song hai việc nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cấp cứu ngay</b></span> khi bệnh nhân vào: <span style=\"color:#51cf66\"><b>thở oxy liên tục</b></span>, thiết lập ngay <span style=\"color:#51cf66\"><b>đường truyền tĩnh mạch</b></span> (loại dịch sẵn có) và dùng các thuốc hồi sức, giảm đau, giảm co qua đường truyền tĩnh mạch.<br>2) <span style=\"color:#51cf66\"><b>Mời ngay kíp mổ tuyến chuyên khoa</b></span> về hồi sức và mổ cấp cứu tại chỗ, <span style=\"color:#ff6b6b\"><b>tránh vận chuyển bệnh nhân</b></span> gây nặng hơn tình trạng sốc.<br><br><b>💡 Giải thích của AI:</b><br>Vận chuyển làm sốc nặng thêm nên ưu tiên đưa kíp mổ về.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.4. Thể nặng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_4"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_4-02",
+   "type": "basic",
+   "section": "S5_1_4",
+   "category": "Xử trí thể nặng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nặng</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến chuyên khoa</b></span>: <span style=\"color:#51cf66\"><b>các biện pháp xử trí</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Thở oxy liên tục</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Chống choáng tích cực</b></span>: truyền máu tươi, dung dịch thay thế máu, bù điện giải, corticoid, kháng histamin tổng hợp, trợ tim, giảm đau... (liều trị như ở thể trung bình).<br>3) <span style=\"color:#51cf66\"><b>Chống rối loạn đông máu</b></span>: E.A.C, transamin, fibrinogen liên tục (tiêm đường tĩnh mạch như thể trung bình).<br>4) <span style=\"color:#51cf66\"><b>Chống vô niệu</b></span>: <span style=\"color:#51cf66\"><b>Lasix</b></span> tiêm bắp hay tĩnh mạch liều cao.<br>5) <span style=\"color:#51cf66\"><b>Chống nhiễm khuẩn</b></span>: kháng sinh toàn thân phối hợp.<br>6) <span style=\"color:#51cf66\"><b>Chỉ định mổ lấy thai nhanh</b></span> (mặc dù con đã chết) và <span style=\"color:#51cf66\"><b>cắt ngay tử cung bán phần</b></span> vì thường tử cung tổn thương nặng (cắt tới hết vùng có nhồi huyết bầm tím).<br><br><b>💡 Giải thích của AI:</b><br>Thể nặng ảnh hưởng nhiều hệ cơ quan nên phải xử trí đồng thời nhiều mặt.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.4. Thể nặng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_4"
+   ]
+  },
+  {
+   "id": "SK30-S5_1_4-03",
+   "type": "basic",
+   "section": "S5_1_4",
+   "category": "Xử trí thể nặng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non thể nặng</b></span>: <span style=\"color:#51cf66\"><b>chú ý</b></span> khi xử trí và hình 2 minh họa gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xử trí phải <span style=\"color:#51cf66\"><b>nhanh chóng</b></span>, tiến hành <span style=\"color:#51cf66\"><b>song song hồi sức chống sốc tích cực với mổ cắt tử cung</b></span>.<br>2) Hình 2: <span style=\"color:#74c0fc\"><b>Rau bong non thể nặng</b></span>.<br><img src=\"SK-30_fig02.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Không chờ ổn định sốc mới mổ vì nguồn chảy máu chính là tử cung tổn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.4. Thể nặng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_4"
+   ]
+  },
+  {
+   "id": "SK30-S6_2-01",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Xử trí sau đẻ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#51cf66\"><b>xử trí sau đẻ</b></span> thực hiện ở tuyến nào và gồm các việc gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Không thực hiện ở tuyến cơ sở</b></span>, chỉ thực hiện ở <span style=\"color:#51cf66\"><b>tuyến chuyên khoa</b></span>.<br>2) Tiếp tục điều trị chống sốc cho mẹ và hồi sức sơ sinh (nếu con sống).<br>3) Theo dõi chảy máu sau đẻ, sau mổ đặc biệt khi còn để lại tử cung; nếu còn ra <span style=\"color:#ff6b6b\"><b>máu loãng thẫm màu liên tục</b></span> chứng tỏ điều trị nội khoa chống đông máu không kết quả hoặc tử cung đã đờ không hồi phục → <span style=\"color:#51cf66\"><b>chỉ định mổ lại cắt tử cung ngay</b></span> để cầm máu.<br>4) Tiếp tục theo dõi <span style=\"color:#74c0fc\"><b>chức năng gan thận</b></span> để điều trị kịp thời khi có biến chứng.<br>5) Theo dõi <span style=\"color:#ff6b6b\"><b>nhiễm khuẩn</b></span> sau đẻ sau mổ để điều chỉnh liều kháng sinh và phối hợp kháng sinh hợp lý.<br><br><b>💡 Giải thích của AI:</b><br>Sau đẻ vẫn có nguy cơ chảy máu, suy gan thận và nhiễm khuẩn nên cần theo dõi liên tục.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.2. Xử trí sau đẻ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ]
+  },
+  {
+   "id": "SK30-S7_1-01",
+   "type": "basic",
+   "section": "S7_1",
+   "category": "Dự phòng tuyến cơ sở",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#51cf66\"><b>dự phòng</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến cơ sở</b></span> gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Truyền thông giáo dục SĐKH và Bảo vệ sức khoẻ sinh sản</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Tuyên truyền và tổ chức khám và quản lý thai nghén</b></span> đúng, đầy đủ tại tuyến cơ sở.<br>3) <span style=\"color:#51cf66\"><b>Chuyển lên khám, theo dõi và đẻ tại tuyến trên</b></span> những trường hợp thai nghén có nguy cơ hoặc có yếu tố thuận lợi dễ xảy ra rau bong non.<br><br><b>💡 Giải thích của AI:</b><br>Phát hiện sớm thai nghén nguy cơ và chuyển tuyến đúng lúc là then chốt.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 7.1. Với tuyến cơ sở",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S7_1"
+   ]
+  },
+  {
+   "id": "SK30-S7_1-02",
+   "type": "basic",
+   "section": "S7_1",
+   "category": "Dự phòng tuyến chuyên khoa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#51cf66\"><b>dự phòng</b></span> ở <span style=\"color:#74c0fc\"><b>tuyến chuyên khoa</b></span> (phòng biến chứng nặng) gồm gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chẩn đoán sớm và phân loại đúng các thể lâm sàng</b></span> để xử trí nhanh chóng phù hợp và tích cực ngay từ đầu.<br>2) Có <span style=\"color:#51cf66\"><b>bộ phận chuyên sâu về hồi sức tích cực</b></span> với đầy đủ phương tiện: máy móc, thuốc men, dịch truyền, nguồn máu tươi dự trữ và nhân lực khi cấp cứu...<br><br><b>💡 Giải thích của AI:</b><br>Biến chứng nặng được ngăn nhờ chẩn đoán đúng thể và hồi sức sẵn sàng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 7.2. Tuyến chuyên khoa",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S7_1"
+   ]
+  },
+  {
+   "id": "SK30-S8_1-01",
+   "type": "basic",
+   "section": "S8_1",
+   "category": "Choáng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>biến chứng choáng</b></span> - đặc điểm và lý do?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường <span style=\"color:#ff6b6b\"><b>nặng</b></span>, nhất là <span style=\"color:#ff6b6b\"><b>sau khi thai ra</b></span>.<br>2) Vì tử cung đang căng to được <span style=\"color:#ff6b6b\"><b>giải phóng đột ngột</b></span>.<br>3) Vì <span style=\"color:#ff6b6b\"><b>chảy máu nhiều</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung xẹp đột ngột cộng mất máu làm tụt huyết động.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 8.1. Choáng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S8_1"
+   ]
+  },
+  {
+   "id": "SK30-S8_2-01",
+   "type": "basic",
+   "section": "S8_2",
+   "category": "Chảy máu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>biến chứng chảy máu</b></span> do nguyên nhân gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do <span style=\"color:#ff6b6b\"><b>rối loạn đông chảy máu</b></span>, <span style=\"color:#ff6b6b\"><b>giảm trầm trọng sinh sợi huyết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Fibrinogen giảm nặng nên máu không đông được.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 8.2. Chảy máu",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S8_2"
+   ]
+  },
+  {
+   "id": "SK30-S8_3-01",
+   "type": "basic",
+   "section": "S8_3",
+   "category": "Vô niệu",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>biến chứng vô niệu</b></span> do cơ chế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Do <span style=\"color:#ffd43b\"><b>thể tích máu giảm</b></span>, huyết áp tụt làm <span style=\"color:#ff6b6b\"><b>giảm tưới máu cầu thận</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thiếu oxy thận</b></span> do giảm tưới máu và co mạch, gây <span style=\"color:#ff6b6b\"><b>hoại tử vỏ thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thận thiếu máu kéo dài dẫn đến hoại tử vỏ và vô niệu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 8.3. Vô niệu",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S8_3"
+   ]
+  },
+  {
+   "id": "SK30-S8_4-01",
+   "type": "basic",
+   "section": "S8_4",
+   "category": "Biến chứng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: các <span style=\"color:#ff6b6b\"><b>di chứng khác</b></span> có thể để lại?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Suy gan cấp</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Suy thận mạn</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Suy tuyến thượng thận</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Cao huyết áp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Là hậu quả của tổn thương nhồi huyết và thiếu máu các tạng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 8.4. Biến chứng khác",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S8_4"
+   ]
+  },
+  {
+   "id": "SK30-S5_b-01",
+   "type": "basic",
+   "section": "S5_b",
+   "category": "Tử vong",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>tử vong sớm</b></span> và <span style=\"color:#ff6b6b\"><b>tử vong muộn</b></span> - đặc điểm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tử vong sớm</b></span>: gặp trong thể nặng không được xử trí kịp thời; <span style=\"color:#ffd43b\"><b>tử vong con 100%</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Tử vong muộn đối với mẹ</b></span>: thường do biến chứng của loạt rối loạn suy chức năng các tạng (gan, thận), biến chứng tắc mạch...<br><br><b>💡 Giải thích của AI:</b><br>Thể nặng không xử trí kịp thì thai chết chắc chắn; mẹ có thể chết muộn do suy tạng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5. Tử vong",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_b"
+   ]
+  },
+  {
+   "id": "SK30-S5_b-C01",
+   "type": "cloze",
+   "section": "S5_b",
+   "category": "Tử vong",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Rau bong non thể nặng không được xử trí kịp thời: tử vong con {{c1::<span style=\"color:#ffd43b\"><b>100%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5. Tử vong",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_b"
+   ]
+  },
+  {
+   "id": "SK30-ALG-02",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Bảng giải mã các thể lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#74c0fc\"><b>Bảng giải mã thể lâm sàng rau bong non</b></span>: dấu hiệu nào → thể nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#ff6b6b\"><b>không phát hiện lâm sàng</b></span>, chỉ thấy cục máu sau rau → <span style=\"color:#74c0fc\"><b>thể ẩn</b></span>.<br>2) IF <span style=\"color:#ff6b6b\"><b>toàn trạng bình thường, không choáng</b></span>, tim thai bình thường, trương lực tăng nhẹ → <span style=\"color:#74c0fc\"><b>thể nhẹ</b></span>.<br>3) IF <span style=\"color:#ff6b6b\"><b>mạch nhanh nhỏ</b></span>, máu loãng sẫm không đông, cơn co cường tính, <span style=\"color:#ff6b6b\"><b>suy thai</b></span>, fibrinogen giảm → <span style=\"color:#74c0fc\"><b>thể trung bình</b></span>.<br>4) IF <span style=\"color:#ff6b6b\"><b>mất máu nặng, tử cung cứng như gỗ, không có tim thai, rối loạn đông máu</b></span> → <span style=\"color:#74c0fc\"><b>thể nặng (hội chứng Couvelaire)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dựa vào các trục chính: choáng, trương lực tử cung, tim thai, đông máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 5.2. Chẩn đoán xác định",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_2",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK30-ALG-03",
+   "type": "basic",
+   "section": "S6_1",
+   "category": "Xử trí tại tuyến cơ sở theo thể",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ xử trí rau bong non ở tuyến cơ sở</b></span> theo từng thể lâm sàng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#74c0fc\"><b>thể ẩn</b></span> → <span style=\"color:#51cf66\"><b>không xử trí gì</b></span>.<br>2) IF <span style=\"color:#74c0fc\"><b>thể nhẹ</b></span> → <span style=\"color:#51cf66\"><b>papaverin 40 mg (1 - 4 ống) tiêm bắp</b></span> + chuyển tuyến chuyên khoa có nhân viên Y tế đi kèm.<br>3) IF <span style=\"color:#74c0fc\"><b>thể trung bình</b></span> → <span style=\"color:#51cf66\"><b>giảm đau, giảm co, lập đường truyền tĩnh mạch</b></span> + chuyển ngay có nhân viên Y tế đi kèm.<br>4) IF <span style=\"color:#74c0fc\"><b>thể nặng</b></span> → <span style=\"color:#51cf66\"><b>thở oxy liên tục, đường truyền, thuốc hồi sức</b></span> song song <span style=\"color:#51cf66\"><b>mời kíp mổ chuyên khoa về mổ tại chỗ</b></span>, tránh vận chuyển.<br><br><b>💡 Giải thích của AI:</b><br>Thể càng nặng thì càng ít chuyển và càng cần hồi sức - mổ tại chỗ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1. Xử trí trước đẻ",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK30-ALG-04",
+   "type": "basic",
+   "section": "S6_1_3",
+   "category": "Bảng liều thuốc theo sách",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng liều thuốc</b></span> trong xử trí rau bong non theo sách?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Papaverin</b></span>: <span style=\"color:#ffd43b\"><b>40 mg (1 - 4 ống)</b></span> tiêm bắp (thể nhẹ, tuyến cơ sở).<br>2) <span style=\"color:#51cf66\"><b>E.A.C</b></span>: <span style=\"color:#ffd43b\"><b>4 - 8 g</b></span> tiêm tĩnh mạch.<br>3) <span style=\"color:#51cf66\"><b>Transamin</b></span>: <span style=\"color:#ffd43b\"><b>250 mg - 1000 mg</b></span> truyền tĩnh mạch.<br>4) <span style=\"color:#51cf66\"><b>Fibrinogen</b></span>: <span style=\"color:#ffd43b\"><b>2 - 4 g</b></span> tiêm tĩnh mạch.<br>5) <span style=\"color:#51cf66\"><b>Lasix</b></span> (thể nặng, chống vô niệu): tiêm bắp hay tĩnh mạch <span style=\"color:#ffd43b\"><b>liều cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tập hợp các liều có trong bài để tra nhanh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.3. Thể trung bình",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S6_1_3",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK30-ALG-05",
+   "type": "basic",
+   "section": "S5_1_4",
+   "category": "Xử trí thể nặng",
+   "tier": 1,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng kiểm xử trí thể nặng</b></span> tại chuyên khoa theo các nhóm mục tiêu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Oxy: <span style=\"color:#51cf66\"><b>thở oxy liên tục</b></span>.<br>2) Sốc: <span style=\"color:#51cf66\"><b>truyền máu tươi, dịch thay thế, điện giải, corticoid, kháng histamin, trợ tim, giảm đau</b></span>.<br>3) Đông máu: <span style=\"color:#51cf66\"><b>E.A.C, transamin, fibrinogen liên tục</b></span>.<br>4) Thận: <span style=\"color:#51cf66\"><b>Lasix liều cao</b></span>.<br>5) Nhiễm khuẩn: <span style=\"color:#51cf66\"><b>kháng sinh toàn thân phối hợp</b></span>.<br>6) Phẫu thuật: <span style=\"color:#51cf66\"><b>mổ lấy thai nhanh + cắt tử cung bán phần</b></span> song song hồi sức.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi nhóm thuốc ứng với một biến chứng: sốc, đông máu, vô niệu, nhiễm khuẩn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · 6.1.4. Thể nặng",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "S5_1_4",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK30-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>dấu hiệu lâm sàng chẩn đoán</b></span> <span style=\"color:#74c0fc\"><b>rau bong non</b></span>: <span style=\"color:#ff6b6b\"><b>toàn thân và cơ năng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Toàn thân</b></span>: choáng (xanh, niêm mạc nhợt, hốt hoảng, thở nhanh, chân tay lạnh; mạch có thể chậm, huyết áp bình thường hay giảm nhẹ).<br>2) <span style=\"color:#ff6b6b\"><b>Cơ năng</b></span>: đau bụng nhiều bắt đầu ở tử cung rồi lan khắp bụng, bụng căng cứng; chảy máu âm đạo loãng không có máu cục.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng: choáng, đau bụng, máu loãng không đông.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · Câu hỏi 1",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK30-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>dấu hiệu thực thể và cận lâm sàng</b></span> chẩn đoán <span style=\"color:#74c0fc\"><b>rau bong non</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thực thể</b></span>: tiền sản giật (<span style=\"color:#ffd43b\"><b>60 - 70%</b></span>); tử cung co cứng liên tục, bề cao tử cung tăng, trương lực cơ bản tăng; biến động tim thai tuỳ thể; máu loãng sẫm không đông; khám âm đạo đoạn dưới căng phồng, CTC giãn mỏng cứng, nước ối màu hồng.<br>2) <span style=\"color:#51cf66\"><b>Các xét nghiệm</b></span>: hồng cầu, tiểu cầu, hematocrit giảm; monitoring trương lực cơ bản tăng <span style=\"color:#ffd43b\"><b>3 - 4 lần</b></span>; siêu âm khối máu tụ sau rau; fibrinogen giảm hoặc không có.<br>3) Chẩn đoán xác định dựa theo <span style=\"color:#74c0fc\"><b>các thể lâm sàng</b></span> (ẩn, nhẹ, trung bình, nặng).<br><br><b>💡 Giải thích của AI:</b><br>Kết hợp thăm khám và xét nghiệm rồi xếp thể lâm sàng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · Câu hỏi 1",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK30-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Nêu <span style=\"color:#74c0fc\"><b>chẩn đoán phân biệt rau bong non</b></span> với đủ ba bệnh?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đa ối cấp</b></span>: ba tháng giữa, tử cung to nhanh, không chảy máu, thai thường dị dạng; nguy cơ bong non cao khi vỡ ối.<br>2) <span style=\"color:#74c0fc\"><b>Rau tiền đạo</b></span>: tử cung không co cứng, tim thai có thể còn, không rối loạn đông máu, sờ được bánh rau, không đau bụng, máu tươi lẫn máu cục.<br>3) <span style=\"color:#74c0fc\"><b>Vỡ tử cung</b></span>: dấu hiệu dọa vỡ hoặc vỡ, máu âm đạo tươi kèm triệu chứng chảy máu trong.<br><br><b>💡 Giải thích của AI:</b><br>Ba bệnh khác rau bong non ở tính chất tử cung, đau và máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · Câu hỏi 2",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK30-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Nêu <span style=\"color:#51cf66\"><b>hướng xử trí rau bong non ở y tế tuyến cơ sở</b></span> theo từng thể?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thể ẩn</b></span>: không xử trí gì.<br>2) <span style=\"color:#74c0fc\"><b>Thể nhẹ</b></span>: papaverin 40 mg (1 - 4 ống) tiêm bắp; chuyển chuyên khoa có nhân viên Y tế đi kèm.<br>3) <span style=\"color:#74c0fc\"><b>Thể trung bình</b></span>: giảm đau, giảm co, lập đường truyền tĩnh mạch; chuyển ngay có nhân viên Y tế đi kèm.<br>4) <span style=\"color:#74c0fc\"><b>Thể nặng</b></span>: song song thở oxy liên tục, đường truyền tĩnh mạch, thuốc hồi sức, giảm đau, giảm co; mời ngay kíp mổ chuyên khoa về hồi sức và mổ tại chỗ, tránh vận chuyển.<br><br><b>💡 Giải thích của AI:</b><br>Xử trí tại cơ sở phụ thuộc thể lâm sàng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · Câu hỏi 3",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK30-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#74c0fc\"><b>tiến triển và biến chứng</b></span> của <span style=\"color:#74c0fc\"><b>rau bong non</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Choáng</b></span> (nặng sau khi thai ra).<br>2) <span style=\"color:#ff6b6b\"><b>Chảy máu</b></span> do rối loạn đông máu.<br>3) <span style=\"color:#ff6b6b\"><b>Vô niệu</b></span>, hoại tử vỏ thận.<br>4) <span style=\"color:#ff6b6b\"><b>Suy tạng muộn</b></span> (di chứng): suy gan cấp, suy thận mạn, suy tuyến thượng thận, cao huyết áp.<br>5) <span style=\"color:#ff6b6b\"><b>Tử vong</b></span>: sớm (thể nặng, con 100%); muộn (mẹ, suy tạng, tắc mạch).<br><br><b>💡 Giải thích của AI:</b><br>Tổng hợp các biến chứng của bài.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-30 Rau bong non · Mục tiêu",
+   "tags": [
+    "SK-30",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  }
+ ]
+}

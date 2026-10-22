@@ -216,7 +216,8 @@ def build(lesson_dir: Path, mode: str, sync_anki: bool, lint_only: bool, output:
         import anki_sync
 
         report = anki_sync.sync(code, m.specialty, spec["deck_name"], cards, models, lock,
-                                legacy_decks=spec.get("legacy_anki_decks"))
+                                legacy_decks=spec.get("legacy_anki_decks"),
+                                media=[m.media_dir / name for name in sorted(media_files)])
         print(f"  [ANKI] {report}")
         extra["anki_sync"] = report
         write_apkg()  # GUID thật của Anki → import APKG ở máy khác sẽ cập nhật, không nhân đôi

@@ -1,0 +1,916 @@
+{
+ "cards": [
+  {
+   "id": "SK20-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Ngôi mặt",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi mặt, ngôi trán, ngôi thóp trước</b></span> khác <span style=\"color:#74c0fc\"><b>ngôi chỏm</b></span> thế nào; <span style=\"color:#ff6b6b\"><b>nguyên nhân thường gặp</b></span>; ý nghĩa chẩn đoán sớm; ngôi nào đẻ được đường âm đạo, ngôi nào phải mổ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi chỏm là ngôi đầu <span style=\"color:#74c0fc\"><b>cúi tốt</b></span>; ngôi mặt, ngôi trán, ngôi thóp trước là ngôi <span style=\"color:#ff6b6b\"><b>đầu ngửa hoặc cúi không tốt</b></span>.<br>2) Do sự <span style=\"color:#ff6b6b\"><b>bất tương xứng đầu - chậu</b></span> là nguyên nhân thường gặp.<br>3) Chẩn đoán sớm các ngôi bất thường có ý nghĩa <span style=\"color:#ffd43b\"><b>quan trọng cho mẹ và cho thai</b></span>.<br>4) Trong chuyển dạ, <span style=\"color:#51cf66\"><b>ngôi mặt, ngôi thóp trước</b></span> có thể tiến triển và có thể đẻ được qua đường âm đạo; <span style=\"color:#ff6b6b\"><b>ngôi trán và ngôi vai phải mổ lấy thai ngay</b></span>.<br><img src=\"SK-20_fig01.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Đầu ngửa hoặc cúi kém làm đường kính lọt lớn hơn, nên dễ gây bất tương xứng đầu - chậu; mức ngửa quyết định ngôi nào còn đẻ được.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1. Ngôi mặt",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK20-S1_1-01",
+   "type": "basic",
+   "section": "S1_1",
+   "category": "Định nghĩa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span>, <span style=\"color:#74c0fc\"><b>mốc của ngôi</b></span>, kiểu nào đẻ dễ hơn, <span style=\"color:#ffd43b\"><b>tỷ lệ</b></span> và tiên lượng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi mặt là ngôi <span style=\"color:#74c0fc\"><b>đầu ngửa tối đa</b></span>, mặt trình diện trước eo trên, vùng chỏm dựa vào lưng thai nhi.<br>2) Mốc của ngôi mặt là <span style=\"color:#74c0fc\"><b>cằm</b></span>; ngôi mặt kiểu <span style=\"color:#51cf66\"><b>cằm trước</b></span> đẻ tương đối dễ hơn ngôi mặt cằm sau.<br>3) Tỷ lệ ngôi mặt <span style=\"color:#ffd43b\"><b>1 - 3/1000</b></span> cuộc đẻ.<br>4) <span style=\"color:#ff6b6b\"><b>Tiên lượng ít thuận lợi hơn ngôi chỏm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cằm là điểm tựa dưới khớp mu nên cằm trước mới cho phép đầu cúi để sổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.1. Định nghĩa",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_1-C01",
+   "type": "cloze",
+   "section": "S1_1",
+   "category": "Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tỷ lệ ngôi mặt là {{c1::<span style=\"color:#ffd43b\"><b>1 - 3/1000</b></span>}} cuộc đẻ; mốc của ngôi mặt là {{c2::<span style=\"color:#74c0fc\"><b>cằm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.1. Định nghĩa",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_2-01",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Nguyên nhân",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể các <span style=\"color:#ff6b6b\"><b>nguyên nhân</b></span> thuận lợi gây <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span> theo 3 nhóm: mẹ, thai, phần phụ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phía mẹ: <span style=\"color:#ff6b6b\"><b>dị dạng tử cung, tử cung 2 sừng, tử cung lệch hay đổ trước, u xơ tử cung ở eo, tử cung nhão ở người con rạ đẻ nhiều lần</b></span>.<br>2) Phía thai: <span style=\"color:#ff6b6b\"><b>thai to, đầu to, u ở cổ, thai vô sọ, cột sống bị gù</b></span>.<br>3) Phần phụ: <span style=\"color:#ff6b6b\"><b>rau tiền đạo, đa ối, dây rau quấn cổ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mọi yếu tố ngăn đầu cúi hay làm đầu không áp khít vào eo trên đều thuận lợi cho đầu ngửa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.2. Nguyên nhân",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK20-S1_3-01",
+   "type": "basic",
+   "section": "S1_3",
+   "category": "Cơ chế đẻ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Phân biệt <span style=\"color:#74c0fc\"><b>ngôi mặt nguyên phát</b></span> và <span style=\"color:#74c0fc\"><b>thứ phát</b></span>; đặc điểm <span style=\"color:#ff6b6b\"><b>cuộc đẻ ngôi mặt</b></span>; <span style=\"color:#74c0fc\"><b>mốc</b></span> và <span style=\"color:#ffd43b\"><b>đường kính lọt</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi mặt <span style=\"color:#74c0fc\"><b>nguyên phát</b></span> là ngôi có từ trước khi chuyển dạ; <span style=\"color:#74c0fc\"><b>thứ phát</b></span> xảy ra khi đã chuyển dạ.<br>2) Đa số là thứ phát nên có tác giả cho rằng ngôi mặt là ngôi xảy ra trong chuyển dạ.<br>3) Trong đẻ ngôi mặt: ngôi thai <span style=\"color:#ff6b6b\"><b>bình chỉnh không tốt, ối dễ vỡ, cổ tử cung xoá mở chậm, chuyển dạ kéo dài</b></span>.<br>4) Mốc là <span style=\"color:#74c0fc\"><b>cằm</b></span>; đường kính lọt là <span style=\"color:#ffd43b\"><b>hạ cằm - thóp trước 9,5 cm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi không áp khít nên không kích thích cổ tử cung tốt và màng ối chịu áp lực không đều, dẫn tới ối vỡ sớm và chuyển dạ kéo dài.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK20-S1_3-C01",
+   "type": "cloze",
+   "section": "S1_3",
+   "category": "Cơ chế đẻ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Đường kính lọt của ngôi mặt là hạ cằm - thóp trước {{c1::<span style=\"color:#ffd43b\"><b>9,5 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK20-S1_3_1-01",
+   "type": "basic",
+   "section": "S1_3_1",
+   "category": "Thì lọt",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span> ở <span style=\"color:#74c0fc\"><b>thì lọt</b></span>: mặt trình diện thế nào, kiểu thế nào gặp nhiều hơn, vì sao lọt dễ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mặt trình diện toàn bộ ở eo trên, lọt luôn là <span style=\"color:#74c0fc\"><b>đối xứng</b></span>, trung tâm của ngôi tương ứng với trung tâm của eo trên.<br>2) Kiểu <span style=\"color:#74c0fc\"><b>cằm chậu trái trước</b></span> gặp nhiều hơn cằm chậu phải trước.<br>3) Lọt không khó vì đường kính hạ cằm thóp trước <span style=\"color:#ffd43b\"><b>9,5 cm</b></span> và đường kính lưỡng gò má <span style=\"color:#ffd43b\"><b>8,5 - 9 cm</b></span> lọt dễ dàng qua eo trên.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai đường kính đều nhỏ hơn đường kính eo trên nên thì lọt thường thuận lợi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3.1. Thì lọt",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_3_2-01",
+   "type": "basic",
+   "section": "S1_3_2",
+   "category": "Thì xuống và quay",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span> ở <span style=\"color:#74c0fc\"><b>thì xuống và quay</b></span>: vai trò của thì, hướng quay trước và hướng quay sau diễn ra thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là thì <span style=\"color:#51cf66\"><b>quyết định</b></span> khả năng đẻ được đường dưới hay không, tuỳ sự tiến triển thuận lợi hay ngừng tiến triển; sự tiến triển phụ thuộc hoàn toàn vào <span style=\"color:#74c0fc\"><b>hướng quay của đầu</b></span>.<br>2) Đầu quay về phía trước: kiểu thế sau đầu quay <span style=\"color:#ffd43b\"><b>135°</b></span> ra trước, kiểu thế trước đầu quay <span style=\"color:#ffd43b\"><b>45°</b></span> để lựa theo đường kính trước sau của eo dưới, cằm hướng tới khớp mu; hiện tượng xuống tiếp diễn, mỏm cằm thoát khỏi bờ dưới khớp mu rồi đầu cúi từ từ để sổ ra.<br>3) Đầu quay về phía sau (cằm sau): <span style=\"color:#ff6b6b\"><b>lọt khó</b></span> vì đầu khó ngửa hẳn, cằm bị đưa vào hõm xương cùng, cổ không uốn dài được.<br>4) Muốn ngôi xuống, tiểu khung phải tiếp nhận đường kính <span style=\"color:#ffd43b\"><b>ức - thóp trước 15 cm</b></span>; khung chậu bình thường không thích ứng với thai bình thường nên cuộc đẻ kiểu cằm sau thông thường <span style=\"color:#51cf66\"><b>giải quyết bằng mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cằm sau khiến cổ bị chèn nên phải dùng đường kính rất lớn (15 cm), vượt khả năng của chậu bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3.2. Thì xuống và quay",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3_2"
+   ]
+  },
+  {
+   "id": "SK20-S1_3_2-C01",
+   "type": "cloze",
+   "section": "S1_3_2",
+   "category": "Thì xuống và quay",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ngôi mặt kiểu thế sau đầu quay {{c1::<span style=\"color:#ffd43b\"><b>135°</b></span>}} ra trước, kiểu thế trước đầu quay {{c2::<span style=\"color:#ffd43b\"><b>45°</b></span>}}; kiểu cằm sau cần đường kính ức - thóp trước {{c3::<span style=\"color:#ffd43b\"><b>15 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3.2. Thì xuống và quay",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3_2"
+   ]
+  },
+  {
+   "id": "SK20-S1_3_3-01",
+   "type": "basic",
+   "section": "S1_3_3",
+   "category": "Thì sổ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span> ở <span style=\"color:#74c0fc\"><b>thì sổ</b></span>: kiểu thế nào xảy ra, diễn tiến, đường kính sổ cuối cùng, xử trí tầng sinh môn, và kiểu thế sau?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ xảy ra với <span style=\"color:#74c0fc\"><b>kiểu thế trước</b></span>.<br>2) Diễn tiến: cằm xuống tới khớp mu, cổ ưỡn dài để cằm tới bờ dưới khớp mu và cố định ở đó; đầu cúi dần để sổ <span style=\"color:#74c0fc\"><b>miệng, mũi, thóp trước, trán, cuối cùng thượng chẩm</b></span>.<br>3) Đường kính <span style=\"color:#ffd43b\"><b>thượng chẩm cằm 13,5 cm</b></span> sổ cuối cùng nên dễ <span style=\"color:#ff6b6b\"><b>rách tầng sinh môn</b></span> → <span style=\"color:#51cf66\"><b>cần cắt rộng tầng sinh môn</b></span> tránh tổn thương phức tạp.<br>4) Kiểu thế sau: ngôi <span style=\"color:#ff6b6b\"><b>không xuống và không lọt được</b></span>, cuộc đẻ ngừng lại vì ngôi mắc kẹt trong tiểu khung.<br><br><b>💡 Giải thích của AI:</b><br>Đường kính sổ lớn (13,5 cm) căng tầng sinh môn tối đa nên phải cắt rộng để tránh rách.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3.3. Thì sổ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_3_3"
+   ]
+  },
+  {
+   "id": "SK20-S1_4-01",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "Triệu chứng và chẩn đoán",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi <span style=\"color:#ff6b6b\"><b>có thai</b></span>, <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span> có dấu hiệu gợi ý nào qua thăm khám ngoài ở kiểu cằm sau và cằm trước?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thăm khám ngoài cho dấu hiệu gợi ý <span style=\"color:#74c0fc\"><b>đầu ngửa</b></span>.<br>2) Kiểu cằm sau: nắn thấy <span style=\"color:#ff6b6b\"><b>bướu chẩm to, tròn, rắn</b></span>; giữa bướu chẩm và lưng có rãnh gáy gọi là <span style=\"color:#ff6b6b\"><b>dấu hiệu nhát rìu</b></span>.<br>3) Kiểu cằm trước: nắn dễ thấy chân tay, <span style=\"color:#ff6b6b\"><b>cằm hình móng ngựa rõ</b></span>, khó thấy lưng, bướu chẩm và rãnh gáy.<br><br><b>💡 Giải thích của AI:</b><br>Cằm sau thì chẩm nhô ra sau gần lưng tạo rãnh; cằm trước thì mặt hướng ra trước nên chân tay và cằm dễ nắn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4. Triệu chứng và chẩn đoán",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK20-S1_4_1-01",
+   "type": "basic",
+   "section": "S1_4_1",
+   "category": "Khi chuyển dạ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span> khi chuyển dạ: <span style=\"color:#ff6b6b\"><b>khám ngoài</b></span> và <span style=\"color:#ff6b6b\"><b>thăm âm đạo</b></span> cần chú ý gì, dấu hiệu đặc trưng sờ thấy?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khám ngoài như chưa chuyển dạ nhưng khó hơn vì tử cung có cơn co, khó nắn thấy <span style=\"color:#ff6b6b\"><b>dấu hiệu nhát rìu</b></span>.<br>2) Thăm âm đạo phải <span style=\"color:#51cf66\"><b>nhẹ nhàng</b></span>, tránh chấn thương mặt, nhãn cầu.<br>3) Luôn sờ thấy <span style=\"color:#ff6b6b\"><b>mũi</b></span>, thậm chí sờ thấy bướu huyết thanh nằm đối diện với cằm.<br>4) <span style=\"color:#ff6b6b\"><b>Cằm cứng hình móng ngựa</b></span>, không bao giờ sờ thấy thóp trước.<br><br><b>💡 Giải thích của AI:</b><br>Mặt rất dễ tổn thương và các dấu hiệu âm tính (không có thóp trước) là điểm phân biệt với ngôi chỏm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4.1. Khi chuyển dạ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_4_1-02",
+   "type": "basic",
+   "section": "S1_4_1",
+   "category": "Khi chuyển dạ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Thăm âm đạo ngôi mặt khi <span style=\"color:#74c0fc\"><b>ối chưa vỡ</b></span> và khi <span style=\"color:#74c0fc\"><b>ối đã vỡ</b></span>: sờ thấy gì, cần lưu ý gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ối chưa vỡ: <span style=\"color:#ff6b6b\"><b>đầu ối phồng, ngôi cao, khó xác định chẩn đoán</b></span>; phải thăm khám cẩn thận, <span style=\"color:#51cf66\"><b>tránh làm ối vỡ</b></span> vì dễ <span style=\"color:#ff6b6b\"><b>sa dây rốn</b></span>.<br>2) Ối đã vỡ, cổ tử cung xoá mở rộng: sờ thấy <span style=\"color:#74c0fc\"><b>vòm mặt, sống mũi, hai hố mắt, lỗ mũi, hàm trên, miệng, hàm dưới</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi cao làm ối vỡ dễ kéo dây rốn xuống; khi ối vỡ và cổ tử cung mở rộng thì sờ được các cấu trúc mặt.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4.1. Khi chuyển dạ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_4_1-03",
+   "type": "basic",
+   "section": "S1_4_1",
+   "category": "Khi chuyển dạ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt ngôi mặt</b></span> với <span style=\"color:#74c0fc\"><b>ngôi mông</b></span>, <span style=\"color:#74c0fc\"><b>ngôi trán</b></span> và <span style=\"color:#74c0fc\"><b>thai vô sọ</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhầm với <span style=\"color:#74c0fc\"><b>ngôi mông</b></span> khi ối vỡ lâu, mặt phù nề: phân biệt vì <span style=\"color:#ff6b6b\"><b>hậu môn và hai ụ ngồi luôn thẳng hàng</b></span>, trong khi miệng và hai xương gò má ở <span style=\"color:#ffd43b\"><b>3 điểm</b></span> tạo các góc của một tam giác.<br>2) Với <span style=\"color:#74c0fc\"><b>ngôi trán</b></span>: ngôi trán <span style=\"color:#ff6b6b\"><b>không sờ thấy cằm</b></span>.<br>3) Thai <span style=\"color:#74c0fc\"><b>vô sọ</b></span> thường sổ bằng ngôi mặt, nhưng không sờ thấy bướu chẩm, <span style=\"color:#ff6b6b\"><b>X quang không thấy hộp sọ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi ngôi có điểm đặc trưng hình học (thẳng hàng hay tam giác, có/không cằm, có/không hộp sọ) giúp loại trừ nhau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4.1. Khi chuyển dạ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_4_1-04",
+   "type": "basic",
+   "section": "S1_4_1",
+   "category": "Khi chuyển dạ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Kiểu thế <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span> xác định bằng gì, và <span style=\"color:#ffd43b\"><b>tỷ lệ</b></span> từng kiểu theo sách? Khi nghi ngờ làm gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Kiểu thế xác định bởi <span style=\"color:#74c0fc\"><b>vị trí cằm</b></span>.<br>2) Cằm chậu trái trước: <span style=\"color:#ffd43b\"><b>20%</b></span>; cằm chậu phải sau: <span style=\"color:#ffd43b\"><b>30%</b></span>; cằm chậu phải trước: <span style=\"color:#ffd43b\"><b>27%</b></span>; cằm chậu phải sau: <span style=\"color:#ffd43b\"><b>10%</b></span> (theo đúng sách).<br>3) Nghi ngờ: nên <span style=\"color:#51cf66\"><b>siêu âm hoặc chụp X quang</b></span> để xác định chẩn đoán và loại trừ thai dị dạng.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm/X quang vừa khẳng định ngôi vừa loại trừ dị dạng như vô sọ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4.1. Khi chuyển dạ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_4_1-C01",
+   "type": "cloze",
+   "section": "S1_4_1",
+   "category": "Khi chuyển dạ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Cằm chậu trái trước {{c1::<span style=\"color:#ffd43b\"><b>20%</b></span>}}; cằm chậu phải trước {{c2::<span style=\"color:#ffd43b\"><b>27%</b></span>}}; cằm chậu phải sau {{c3::<span style=\"color:#ffd43b\"><b>10%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.4.1. Khi chuyển dạ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_5_1-01",
+   "type": "basic",
+   "section": "S1_5_1",
+   "category": "Tuyến xã",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span> ở <span style=\"color:#51cf66\"><b>tuyến xã</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tư vấn</b></span> cho sản phụ và gia đình rồi <span style=\"color:#51cf66\"><b>chuyển lên tuyến trên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tuyến xã không đủ điều kiện theo dõi và mổ lấy thai nên chuyển tuyến sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.5.1. Tuyến xã",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_5_1"
+   ]
+  },
+  {
+   "id": "SK20-S1_5_2-01",
+   "type": "basic",
+   "section": "S1_5_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span> ở <span style=\"color:#51cf66\"><b>tuyến huyện và các tuyến trên</b></span> theo 3 nguyên tắc: khung chậu, hướng quay, sổ thai? Nguy cơ cho thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nếu <span style=\"color:#74c0fc\"><b>khung chậu bình thường</b></span>, cằm sau chưa cố định, vẫn hy vọng <span style=\"color:#51cf66\"><b>sinh tự nhiên</b></span> vì <span style=\"color:#ffd43b\"><b>2/3</b></span> các trường hợp cằm sau sẽ tự xoay thành cằm trước.<br>2) Hướng quay của đầu: chỉ đẻ đường âm đạo khi cằm quay về phía trước, dưới khớp mu; phải <span style=\"color:#51cf66\"><b>theo dõi sát</b></span> vì sự quay của cằm sau ra trước rất lâu.<br>3) Chuyển dạ kéo dài, lọt giả, ngôi không tiến triển, thường gặp ở cằm quay về sau (cằm cùng): <span style=\"color:#ff6b6b\"><b>không đẻ được, phải mổ lấy thai</b></span>. Thai có nguy cơ <span style=\"color:#ff6b6b\"><b>sa dây rốn, chèn ép dây rốn giữa chẩm và lưng, giảm tuần hoàn rốn</b></span>.<br>4) Sổ thai: cằm, miệng, mũi, trán, thóp trước xuất hiện ở âm hộ rồi đến hạ chẩm; phải <span style=\"color:#51cf66\"><b>kiểm soát kỹ các phần thai sổ</b></span> vì dễ <span style=\"color:#ff6b6b\"><b>rách tầng sinh môn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Còn hy vọng chừng nào cằm còn có thể xoay ra trước; nếu kẹt ở cằm cùng thì chỉ còn mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.5.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_5_2"
+   ]
+  },
+  {
+   "id": "SK20-S1_5_2-C01",
+   "type": "cloze",
+   "section": "S1_5_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ngôi mặt cằm sau: {{c1::<span style=\"color:#ffd43b\"><b>2/3</b></span>}} các trường hợp sẽ tự xoay thành cằm trước.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.5.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S1_5_2"
+   ]
+  },
+  {
+   "id": "SK20-S2_1-01",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi trán</b></span>: định nghĩa, <span style=\"color:#ffd43b\"><b>tỷ lệ</b></span>, vị trí trung gian, vì sao <span style=\"color:#ff6b6b\"><b>không đẻ được đường âm đạo</b></span>, và ý nghĩa chẩn đoán sớm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi trán là ngôi mà <span style=\"color:#74c0fc\"><b>phần trán</b></span> trình diện trước eo trên, tỷ lệ <span style=\"color:#ffd43b\"><b>1/1000</b></span> trường hợp.<br>2) Là ngôi <span style=\"color:#74c0fc\"><b>trung gian giữa ngôi chỏm và ngôi mặt</b></span>.<br>3) Đường kính ngôi <span style=\"color:#ffd43b\"><b>thượng chẩm - cằm 13,5 cm</b></span> không lọt qua đường kính chéo eo trên <span style=\"color:#ffd43b\"><b>12 cm</b></span> nên <span style=\"color:#ff6b6b\"><b>không đẻ được đường âm đạo</b></span>.<br>4) Chẩn đoán càng sớm càng cho phép đặt <span style=\"color:#51cf66\"><b>chỉ định mổ lấy thai</b></span> để tránh mọi biến chứng cho mẹ và thai.<br><br><b>💡 Giải thích của AI:</b><br>13,5 cm lớn hơn 12 cm nên không thể lọt về cơ học.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_1-C01",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "Đại cương",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ngôi trán có tỷ lệ {{c1::<span style=\"color:#ffd43b\"><b>1/1000</b></span>}}; đường kính thượng chẩm - cằm {{c2::<span style=\"color:#ffd43b\"><b>13,5 cm</b></span>}} so với đường kính chéo eo trên {{c3::<span style=\"color:#ffd43b\"><b>12 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "Cơ chế đẻ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> có thể đẻ được không? Hai tình huống cần phân biệt?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi trán là ngôi đẻ khó, thường phải <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span> khi thai đủ tháng.<br>2) Vẫn có trường hợp đẻ được nếu <span style=\"color:#ffd43b\"><b>thai quá nhỏ</b></span>.<br>3) Hai tình huống: <span style=\"color:#74c0fc\"><b>thai đủ tháng, trọng lượng bình thường</b></span> và <span style=\"color:#74c0fc\"><b>thai non tháng hoặc trọng lượng nhỏ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kích thước thai quyết định đường kính có lọt được hay không.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.2. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK20-S2_2_1-01",
+   "type": "basic",
+   "section": "S2_2_1",
+   "category": "Chuyển dạ thai đủ tháng, trọng lượng thai bình thường",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> chuyển dạ <span style=\"color:#74c0fc\"><b>thai đủ tháng, trọng lượng bình thường</b></span>: tình trạng ngôi và xử trí?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đầu <span style=\"color:#ff6b6b\"><b>cao</b></span>, đường kính lọt thượng chẩm cằm <span style=\"color:#ffd43b\"><b>13,5 cm</b></span> <span style=\"color:#ff6b6b\"><b>không lọt được</b></span>.<br>2) Do đó phải <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường kính lọt vượt eo trên nên không có khả năng đẻ ngả âm đạo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.2.1. Chuyển dạ thai đủ tháng, trọng lượng thai bình thường",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_2_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_2_2-01",
+   "type": "basic",
+   "section": "S2_2_2",
+   "category": "Đối với một thai non tháng hoặc trọng lượng thai nhỏ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> ở <span style=\"color:#74c0fc\"><b>thai non tháng hoặc trọng lượng nhỏ</b></span>: khi nào gặp, có đẻ được không, thì lọt diễn ra thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là tình huống đặc biệt, <span style=\"color:#51cf66\"><b>có thể đẻ đường âm đạo</b></span>.<br>2) Thường gặp khi <span style=\"color:#ffd43b\"><b>trọng lượng thai quá nhỏ</b></span>, trong <span style=\"color:#74c0fc\"><b>song thai</b></span> hoặc <span style=\"color:#74c0fc\"><b>thai non tháng</b></span>.<br>3) Luôn nhớ đây là cuộc <span style=\"color:#ff6b6b\"><b>đẻ khó</b></span>, phải <span style=\"color:#51cf66\"><b>theo dõi cẩn thận</b></span>.<br>4) Thì lọt: đầu lọt theo <span style=\"color:#74c0fc\"><b>đường kính ngang hoặc chéo</b></span>; đầu giảm thể tích do <span style=\"color:#74c0fc\"><b>chồng xương sọ</b></span>, thường có <span style=\"color:#ff6b6b\"><b>bướu huyết thanh sớm</b></span>, trán dài theo khung chậu nhỏ, chẩm dài về phía lưng.<br><br><b>💡 Giải thích của AI:</b><br>Đầu nhỏ và biến dạng chồng khớp sọ giúp đầu lọt được dù ngôi bất lợi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.2.2. Đối với một thai non tháng hoặc trọng lượng thai nhỏ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_2_2"
+   ]
+  },
+  {
+   "id": "SK20-S2_2_2-02",
+   "type": "basic",
+   "section": "S2_2_2",
+   "category": "Đối với một thai non tháng hoặc trọng lượng thai nhỏ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> thai nhỏ: <span style=\"color:#74c0fc\"><b>thì xuống và quay</b></span> và <span style=\"color:#74c0fc\"><b>thì sổ</b></span> diễn ra thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thì xuống và quay: ngôi xuống <span style=\"color:#ff6b6b\"><b>chậm và khó</b></span>, trán thường quay ra trước; mặt thai nhi nằm dưới xương vệ, cằm trên của thai nhi đối diện bờ dưới xương vệ; chẩm nằm dọc mặt trước xương cùng; trục đầu thai nằm trên trục trước - sau của eo trên.<br>2) Thì sổ như ngôi mặt cằm trước: đầu cúi để phần đầu đi từ mũi đến hạ chẩm xuất hiện ở âm hộ; sau đó hạ chẩm cố định vào âm hộ, đầu ngửa để miệng và cằm sổ.<br>3) Khi chẩm sổ, tầng sinh môn dãn rộng nên <span style=\"color:#51cf66\"><b>chỉ định cắt tầng sinh môn</b></span> để tránh rách và sang chấn cho trẻ.<br><br><b>💡 Giải thích của AI:</b><br>Cắt tầng sinh môn giúp bảo vệ cả mẹ lẫn đầu trẻ đang sổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.2.2. Đối với một thai non tháng hoặc trọng lượng thai nhỏ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_2_2"
+   ]
+  },
+  {
+   "id": "SK20-S2_3_1-01",
+   "type": "basic",
+   "section": "S2_3_1",
+   "category": "Khám lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Khám lâm sàng</b></span> <span style=\"color:#74c0fc\"><b>ngôi trán</b></span>: thời điểm chẩn đoán, nhìn, nắn, thăm âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi trán chỉ xảy ra trong chuyển dạ nên chỉ chẩn đoán được <span style=\"color:#ffd43b\"><b>trong chuyển dạ</b></span>.<br>2) Nhìn: tử cung <span style=\"color:#74c0fc\"><b>hình trứng</b></span> tương ứng ngôi dọc, đầu ở dưới.<br>3) Nắn: đầu cao, cúi không tốt, một bên là <span style=\"color:#ff6b6b\"><b>bướu chẩm tròn đều, có rãnh gáy</b></span>; đôi khi sờ thấy cằm phía đối diện biểu hiện đầu ngửa.<br>4) Thăm âm đạo: chỉ chẩn đoán được khi <span style=\"color:#ff6b6b\"><b>ngôi đã cố định</b></span>; các ngôi còn di động sau có thể cúi tốt hơn thành ngôi chỏm.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi trán là ngôi trung gian, còn di động thì có thể chuyển thành chỏm nên chưa kết luận.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.3.1. Khám lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_3_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_3_1-02",
+   "type": "basic",
+   "section": "S2_3_1",
+   "category": "Khám lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thăm âm đạo <span style=\"color:#74c0fc\"><b>ngôi trán</b></span>: điểm mốc, <span style=\"color:#ff6b6b\"><b>dấu hiệu sờ thấy</b></span>, <span style=\"color:#ff6b6b\"><b>dấu hiệu âm tính</b></span>, hình thóp trước?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điểm mốc là <span style=\"color:#74c0fc\"><b>gốc mũi</b></span>, không bao giờ bị biến dạng bởi bướu huyết thanh; mỗi bên có gờ trên hố mắt và nhãn cầu.<br>2) Dấu hiệu âm tính rất quan trọng để chẩn đoán gián biệt.<br>3) Sờ thấy <span style=\"color:#74c0fc\"><b>gốc mũi và thóp trước</b></span>, nhưng <span style=\"color:#ff6b6b\"><b>không bao giờ sờ thấy thóp sau, miệng và cằm</b></span>.<br>4) Thóp trước với <span style=\"color:#ffd43b\"><b>4 cạnh và 4 góc</b></span> (hình trám).<br><br><b>💡 Giải thích của AI:</b><br>Chỉ sờ thấy gốc mũi và thóp trước nhưng không thóp sau, miệng, cằm là bộ dấu hiệu của ngôi trán.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.3.1. Khám lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_3_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_3_1-03",
+   "type": "basic",
+   "section": "S2_3_1",
+   "category": "Khám lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Xác định <span style=\"color:#74c0fc\"><b>kiểu thế ngôi trán</b></span> dựa vào đâu và gồm những kiểu nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dựa vào vị trí <span style=\"color:#74c0fc\"><b>gốc mũi</b></span> so với khung chậu mẹ.<br>2) Đường kính chéo trái: <span style=\"color:#74c0fc\"><b>mũi chậu trái trước</b></span> và <span style=\"color:#74c0fc\"><b>mũi chậu phải sau</b></span>.<br>3) Đường kính chéo phải: <span style=\"color:#74c0fc\"><b>mũi chậu phải trước</b></span> và <span style=\"color:#74c0fc\"><b>mũi chậu trái sau</b></span>.<br>4) Đường kính ngang: <span style=\"color:#74c0fc\"><b>mũi chậu trái ngang</b></span> và <span style=\"color:#74c0fc\"><b>mũi chậu phải ngang</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tên kiểu thế đặt theo gốc mũi - mốc của ngôi trán.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.3.1. Khám lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_3_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_3_2-01",
+   "type": "basic",
+   "section": "S2_3_2",
+   "category": "Cận lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Cận lâm sàng</b></span> ngôi trán: X quang và siêu âm có 2 ưu điểm nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán có thể đặt ra sớm khi thấy <span style=\"color:#ff6b6b\"><b>đầu ngửa và tăng ưỡn cột sống cổ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Loại trừ</b></span> các bất thường của thai (<span style=\"color:#ff6b6b\"><b>quái thai vô sọ, não úng thuỷ</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh giúp chẩn đoán sớm khi chưa thăm âm đạo được và loại trừ dị tật gây ngôi bất thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.3.2. Cận lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_3_2"
+   ]
+  },
+  {
+   "id": "SK20-S2_4-01",
+   "type": "basic",
+   "section": "S2_4",
+   "category": "Thái độ xử trí",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Xử trí</b></span> khi đã xác định <span style=\"color:#74c0fc\"><b>ngôi trán</b></span>: các bước theo tuyến?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi đã xác định ngôi trán thì xử trí theo từng tuyến: <span style=\"color:#51cf66\"><b>tuyến xã</b></span> (theo dõi, chuyển ngay) và <span style=\"color:#51cf66\"><b>tuyến huyện trở lên</b></span> (chờ đợi hoặc mổ lấy thai tuỳ ối và ngôi).<br><br><b>💡 Giải thích của AI:</b><br>Nêu khung chung; chi tiết từng tuyến ở các thẻ sau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.4. Thái độ xử trí",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_4"
+   ]
+  },
+  {
+   "id": "SK20-S2_4_1-01",
+   "type": "basic",
+   "section": "S2_4_1",
+   "category": "Tuyến xã",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí ngôi trán ở <span style=\"color:#51cf66\"><b>tuyến xã</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Theo dõi sát</b></span> các cuộc chuyển dạ đẻ ngôi thuận để phát hiện sớm, đặc biệt các trường hợp <span style=\"color:#ff6b6b\"><b>ngôi cao, không lọt, chuyển dạ kéo dài</b></span>.<br>2) Nếu chẩn đoán là ngôi trán: <span style=\"color:#51cf66\"><b>chuyển lên tuyến trên ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi cao không lọt và chuyển dạ kéo dài là dấu hiệu báo ngôi bất thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.4.1. Tuyến xã",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_4_1"
+   ]
+  },
+  {
+   "id": "SK20-S2_4_2-01",
+   "type": "basic",
+   "section": "S2_4_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí ngôi trán ở <span style=\"color:#51cf66\"><b>tuyến huyện và các tuyến trên</b></span> theo tình trạng ối?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ối chưa vỡ, ngôi cao lỏng: <span style=\"color:#51cf66\"><b>chờ đợi xem tiến triển</b></span>.<br>2) - Tiến triển không thuận lợi, ngôi không lọt, chuyển dạ kéo dài: <span style=\"color:#51cf66\"><b>chỉ định mổ lấy thai ngay</b></span>.<br>- Tiến triển thuận lợi: ngôi có thể tự biến thành <span style=\"color:#74c0fc\"><b>ngôi chỏm hoặc ngôi mặt</b></span> trong chuyển dạ, có thể đẻ đường âm đạo.<br>3) Màng ối đã vỡ, ngôi trán đã cố định: <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi còn lỏng thì còn cơ hội cúi hoặc ngửa thêm; ngôi cố định thì hết khả năng tự chuyển.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.4.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S2_4_2"
+   ]
+  },
+  {
+   "id": "SK20-S3_1-01",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi thóp trước</b></span>: định nghĩa, vị trí trung gian, dấu hiệu phân biệt với chẩm cùng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là ngôi <span style=\"color:#74c0fc\"><b>đầu ngửa nhẹ</b></span>, trung gian giữa <span style=\"color:#74c0fc\"><b>ngôi trán và ngôi chỏm</b></span>.<br>2) Trong ngôi thóp trước <span style=\"color:#ff6b6b\"><b>không sờ được thóp sau</b></span>; trong ngôi chỏm kiểu chẩm cùng, thóp sau luôn sờ được.<br><img src=\"SK-20_fig02.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Sờ có thóp sau hay không là điểm phân biệt giữa thóp trước và chẩm cùng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK20-S3_2-01",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "Cơ chế đẻ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi thóp trước</b></span>: <span style=\"color:#ffd43b\"><b>đường kính lọt</b></span>, khả năng lọt, biến dạng đầu và cách sổ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lọt có thể xảy ra nhờ <span style=\"color:#51cf66\"><b>đầu cúi tốt</b></span>, chuyển thành ngôi chỏm; nếu không lọt, xuống và quay <span style=\"color:#ff6b6b\"><b>rất khó khăn</b></span>.<br>2) Đường kính lọt là <span style=\"color:#ffd43b\"><b>chẩm - trán 12 cm</b></span>.<br>3) Biến dạng đầu và bướu huyết thanh thường xuất hiện <span style=\"color:#ff6b6b\"><b>sớm và trầm trọng</b></span> → xác định ngôi nhiều khó khăn.<br>4) Đầu sổ bằng phép quay dạng <span style=\"color:#74c0fc\"><b>chữ S</b></span>, điểm trục là xương vệ và gốc mũi: đầu cúi cho sổ trán, thóp trước, chẩm và hạ chẩm đến cố định vào đáy chậu, rồi đầu ngửa cho mũi, miệng, cằm sổ.<br><br><b>💡 Giải thích của AI:</b><br>Biến dạng sớm làm mất mốc, nên lâm sàng dễ nhầm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.2. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK20-S3_2-C01",
+   "type": "cloze",
+   "section": "S3_2",
+   "category": "Cơ chế đẻ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Đường kính lọt của ngôi thóp trước là chẩm - trán {{c1::<span style=\"color:#ffd43b\"><b>12 cm</b></span>}}; đầu sổ bằng phép quay dạng chữ {{c2::<span style=\"color:#74c0fc\"><b>S</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.2. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK20-S3_3-01",
+   "type": "basic",
+   "section": "S3_3",
+   "category": "Lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Lâm sàng</b></span> <span style=\"color:#74c0fc\"><b>ngôi thóp trước</b></span>: khám ngoài, thăm âm đạo, xác định kiểu thế, <span style=\"color:#ffd43b\"><b>tỷ lệ</b></span> kiểu thế trước?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khám ngoài: <span style=\"color:#ff6b6b\"><b>ít có giá trị</b></span>.<br>2) Thăm âm đạo: sờ được <span style=\"color:#74c0fc\"><b>thóp trước</b></span>, điểm mốc trình diện ở trung tâm; gốc mũi có thể sờ thấy nhưng ở <span style=\"color:#ff6b6b\"><b>ngoại vi, không ở trung tâm</b></span> như trong ngôi trán.<br>3) Vị trí thóp trước xác định kiểu thế: phải hoặc trái, trước hoặc sau.<br>4) Kiểu thế trước thường gặp nhất, <span style=\"color:#ffd43b\"><b>> 80%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gốc mũi ở trung tâm là ngôi trán, ở ngoại vi là thóp trước.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.3. Lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK20-S3_3-C01",
+   "type": "cloze",
+   "section": "S3_3",
+   "category": "Lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ngôi thóp trước kiểu thế trước gặp {{c1::<span style=\"color:#ffd43b\"><b>> 80%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.3. Lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK20-S3_4-01",
+   "type": "basic",
+   "section": "S3_4",
+   "category": "Thái độ xử trí",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Xử trí</b></span> <span style=\"color:#74c0fc\"><b>ngôi thóp trước</b></span>: khi nào mổ, diễn tiến thường gặp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiến triển không thuận lợi (ngôi <span style=\"color:#ff6b6b\"><b>không lọt hoặc lọt giả</b></span>): <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br>2) Phần lớn trường hợp tiến triển thuận lợi.<br>3) Thời gian chuyển dạ và sổ thai thường <span style=\"color:#ff6b6b\"><b>kéo dài</b></span>, tỷ lệ <span style=\"color:#ff6b6b\"><b>can thiệp trong thời kỳ sổ thai cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đầu ngửa nhẹ nên đa số đẻ được nhưng chậm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 3.4. Thái độ xử trí",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK20-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ngôi vai</b></span>: định nghĩa, tên gọi khác, mốc, <span style=\"color:#ffd43b\"><b>tỷ lệ</b></span>, kiểu ngôi và ngôi chếch?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi vai (ngôi ngang) là ngôi <span style=\"color:#ff6b6b\"><b>không thuận</b></span>: thai không nằm dọc trục tử cung mà <span style=\"color:#74c0fc\"><b>nằm ngang hoặc chếch</b></span>.<br>2) Mốc của ngôi là <span style=\"color:#74c0fc\"><b>mỏm vai</b></span>.<br>3) Tỷ lệ khoảng <span style=\"color:#ffd43b\"><b>0,3 - 0,5%</b></span>.<br>4) Kiểu ngôi ngang hoặc chếch; ngôi chếch chỉ là <span style=\"color:#74c0fc\"><b>ngôi tạm thời</b></span>, sẽ biến thành ngôi dọc hay ngang lúc chuyển dạ nên gọi là <span style=\"color:#74c0fc\"><b>ngôi không cố định</b></span>.<br><img src=\"SK-20_fig03.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Ngôi chếch chưa ổn định, đến chuyển dạ mới thành dọc hay ngang.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK20-S4_1-02",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Đại cương",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Nguyên nhân</b></span> <span style=\"color:#74c0fc\"><b>ngôi vai</b></span>: đối tượng hay gặp, nguyên nhân thường gặp và nguyên nhân hay gặp nhất?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hay gặp ở sản phụ <span style=\"color:#74c0fc\"><b>đẻ con rạ</b></span> hơn con so, và ở chuyển dạ <span style=\"color:#74c0fc\"><b>thiếu tháng</b></span> hơn đủ tháng.<br>2) Bất luận nguyên nhân nào cản trở đầu lọt vào khung chậu đều dễ gây ngôi vai.<br>3) Thường gặp: <span style=\"color:#ff6b6b\"><b>song thai, đa ối, rau tiền đạo, khung chậu hẹp, hình dạng thai bất thường, tử cung dị dạng</b></span>.<br>4) Hay gặp nhất: <span style=\"color:#ff6b6b\"><b>cơ tử cung, cơ thành bụng nhão</b></span> ở người con rạ đẻ nhiều lần.<br><br><b>💡 Giải thích của AI:</b><br>Cơ nhão không giữ thai theo trục dọc nên thai dễ nằm ngang.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK20-S4_1-C01",
+   "type": "cloze",
+   "section": "S4_1",
+   "category": "Đại cương",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tỷ lệ ngôi vai khoảng {{c1::<span style=\"color:#ffd43b\"><b>0,3 - 0,5%</b></span>}}; mốc của ngôi vai là {{c2::<span style=\"color:#74c0fc\"><b>mỏm vai</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.1. Đại cương",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK20-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Triệu chứng và chẩn đoán",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Triệu chứng</b></span> <span style=\"color:#74c0fc\"><b>ngôi vai</b></span> khi nhìn và sờ nắn? Cách xác định lưng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cần phát hiện sớm từ cuối thai kỳ hoặc đầu chuyển dạ.<br>2) Nhìn: <span style=\"color:#ff6b6b\"><b>bụng bè ngang, đáy tử cung như nằm gần rốn</b></span>.<br>3) Sờ nắn: <span style=\"color:#ff6b6b\"><b>không thấy cực thai ở phần thấp tử cung</b></span>, sờ được <span style=\"color:#ffd43b\"><b>2 cực</b></span> ở 2 hố hông.<br>4) Nắn trên xương vệ không thấy gì trừ khi chuyển dạ lâu, vai đã lọt vào tiểu khung.<br>5) Xác định lưng: lưng trước sờ thấy <span style=\"color:#74c0fc\"><b>diện phẳng</b></span>, lưng sau sờ thấy <span style=\"color:#74c0fc\"><b>chân tay lổn nhổn</b></span>; thường lưng luôn ở trước.<br><img src=\"SK-20_fig04.jpg\"><br><br><b>💡 Giải thích của AI:</b><br>Thai nằm ngang nên không có cực thai ở đoạn dưới mà hai cực nằm hai bên.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.2. Triệu chứng và chẩn đoán",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK20-S4_2-02",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Triệu chứng và chẩn đoán",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Thăm âm đạo</b></span> <span style=\"color:#74c0fc\"><b>ngôi vai</b></span>: phát hiện gì, phân biệt với mông, ngôi vai sa tay, các kiểu vai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phát hiện <span style=\"color:#ff6b6b\"><b>hố chậu rỗng</b></span> và một phần thai trình diện không bình thường.<br>2) Vai có thể nhầm với mông, nhưng <span style=\"color:#74c0fc\"><b>các xương sườn</b></span> tạo cảm giác đặc biệt.<br>3) Chuyển dạ lâu: một vai lọt chặt vào tiểu khung, thường kèm <span style=\"color:#ff6b6b\"><b>sa một cánh tay</b></span> vào âm đạo, thò ra âm hộ gọi là <span style=\"color:#ff6b6b\"><b>ngôi vai sa tay</b></span>.<br>4) Theo vị trí vai phân biệt: <span style=\"color:#74c0fc\"><b>vai chậu phải</b></span> và <span style=\"color:#74c0fc\"><b>vai chậu trái</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Xương sườn là dấu hiệu phân biệt vai với mông.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.2. Triệu chứng và chẩn đoán",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK20-S4_2-03",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Triệu chứng và chẩn đoán",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Cận lâm sàng</b></span> ngôi vai: vai trò X quang và siêu âm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chụp X quang và siêu âm giúp <span style=\"color:#51cf66\"><b>xác định khi nghi ngờ chẩn đoán</b></span> cũng như <span style=\"color:#51cf66\"><b>chọn hướng xử trí thích hợp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh hỗ trợ khi thăm khám chưa chắc chắn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.2. Triệu chứng và chẩn đoán",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK20-S4_3_1-01",
+   "type": "basic",
+   "section": "S4_3_1",
+   "category": "Tuyến xã",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí ngôi vai ở <span style=\"color:#51cf66\"><b>tuyến xã</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Khám và phát hiện sớm</b></span> các trường hợp ngôi vai.<br>2) <span style=\"color:#51cf66\"><b>Tư vấn</b></span> cho sản phụ và <span style=\"color:#51cf66\"><b>chuyển lên tuyến trên</b></span>.<br>3) Nếu <span style=\"color:#ff6b6b\"><b>ối đã vỡ</b></span>: dùng <span style=\"color:#51cf66\"><b>thuốc giảm go</b></span> và <span style=\"color:#51cf66\"><b>kháng sinh dự phòng</b></span> trước khi chuyển.<br><br><b>💡 Giải thích của AI:</b><br>Giảm go hạn chế vai bị ép chặt, kháng sinh dự phòng ngừa nhiễm khuẩn khi ối vỡ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.3.1. Tuyến xã",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_3_1"
+   ]
+  },
+  {
+   "id": "SK20-S4_3_2-01",
+   "type": "basic",
+   "section": "S4_3_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí ngôi vai ở <span style=\"color:#51cf66\"><b>tuyến huyện và các tuyến trên</b></span>: con so, ối vỡ, nội xoay thai và thai chết?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Con so: nghĩ đến nguyên nhân <span style=\"color:#ff6b6b\"><b>khung chậu hẹp</b></span>; con so khung chậu hẹp hay bình thường mà lúc chuyển dạ còn ngôi vai đều <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>. <span style=\"color:#ff6b6b\"><b>Không xoay thai, kéo thai</b></span>.<br>2) Ngôi vai, ối đã vỡ: <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br>3) Nội xoay thai được chỉ định ở <span style=\"color:#74c0fc\"><b>con rạ</b></span>, thai nhỏ <span style=\"color:#ffd43b\"><b>< 2500g</b></span>, thai thứ hai trong song thai, giúp đầu quay và xuống tiểu khung.<br>4) Chỉ tiến hành ở nơi có phòng mổ và khi đủ điều kiện: <span style=\"color:#51cf66\"><b>khung chậu rộng rãi, thai con rạ, ối còn nguyên, cơn co thưa, cổ tử cung mở hết</b></span>.<br>5) Thai đã chết, cổ tử cung mở hết, ngôi vai buông trôi: có thể dùng <span style=\"color:#51cf66\"><b>dụng cụ cắt thai</b></span>, nhưng rất nguy hiểm cho mẹ, nếu không có kinh nghiệm vẫn nên mổ lấy thai.<br><br><b>💡 Giải thích của AI:</b><br>Xoay thai chỉ an toàn khi mọi điều kiện thuận lợi và có sẵn phòng mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.3.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_3_2"
+   ]
+  },
+  {
+   "id": "SK20-S4_3_2-C01",
+   "type": "cloze",
+   "section": "S4_3_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Nội xoay thai ở con rạ có thể làm khi thai nhỏ {{c1::<span style=\"color:#ffd43b\"><b>< 2500g</b></span>}} hoặc là thai thứ hai trong song thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.3.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "S4_3_2"
+   ]
+  },
+  {
+   "id": "SK20-ALG-01",
+   "type": "basic",
+   "section": "S1_5_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ IF → THEN</b></span> ngôi mặt: quyết định đẻ đường âm đạo hay mổ lấy thai theo khung chậu và hướng quay cằm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#74c0fc\"><b>khung chậu bình thường</b></span> + cằm sau chưa cố định → THEN <span style=\"color:#51cf66\"><b>hy vọng sinh tự nhiên</b></span>, theo dõi sát (<span style=\"color:#ffd43b\"><b>2/3</b></span> cằm sau tự xoay ra trước).<br>2) IF cằm quay về phía <span style=\"color:#74c0fc\"><b>trước, dưới khớp mu</b></span> → THEN <span style=\"color:#51cf66\"><b>đẻ đường âm đạo</b></span>, kiểm soát sổ, cắt rộng tầng sinh môn.<br>3) IF <span style=\"color:#ff6b6b\"><b>chuyển dạ kéo dài, lọt giả, ngôi không tiến triển</b></span>, cằm quay về sau (cằm cùng) → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br>4) IF ở <span style=\"color:#51cf66\"><b>tuyến xã</b></span> → THEN tư vấn và chuyển tuyến trên.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định chủ yếu dựa vào hướng quay của cằm: trước thì đẻ được, sau cố định thì mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.5.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK20-ALG-02",
+   "type": "basic",
+   "section": "S2_4_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ IF → THEN</b></span> ngôi trán: xử trí theo tình trạng ối và tiến triển?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#74c0fc\"><b>ối chưa vỡ</b></span>, ngôi cao lỏng → THEN <span style=\"color:#51cf66\"><b>chờ đợi theo dõi</b></span>.<br>2) IF tiến triển không thuận lợi, không lọt, chuyển dạ kéo dài → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br>3) IF tiến triển thuận lợi, tự thành chỏm hoặc mặt → THEN có thể <span style=\"color:#51cf66\"><b>đẻ đường âm đạo</b></span>.<br>4) IF <span style=\"color:#ff6b6b\"><b>ối đã vỡ, ngôi trán đã cố định</b></span> → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br>5) IF thai đủ tháng, trọng lượng bình thường → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi còn lỏng mới có cơ hội tự chuyển; cố định hoặc không lọt thì mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.4.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK20-ALG-03",
+   "type": "basic",
+   "section": "S4_3_2",
+   "category": "Tuyến huyện và các tuyến trên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ IF → THEN</b></span> ngôi vai ở tuyến huyện trở lên: mổ, nội xoay thai hay cắt thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF <span style=\"color:#74c0fc\"><b>con so</b></span> còn ngôi vai khi chuyển dạ → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>; không xoay, không kéo thai.<br>2) IF ngôi vai, <span style=\"color:#ff6b6b\"><b>ối đã vỡ</b></span> → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br>3) IF <span style=\"color:#74c0fc\"><b>con rạ</b></span>, thai <span style=\"color:#ffd43b\"><b>< 2500g</b></span> hoặc thai thứ hai song thai, ối còn nguyên, cơn co thưa, cổ tử cung mở hết, khung chậu rộng, có phòng mổ → THEN có thể <span style=\"color:#51cf66\"><b>nội xoay thai</b></span>.<br>4) IF <span style=\"color:#ff6b6b\"><b>thai đã chết</b></span>, cổ tử cung mở hết, ngôi vai buông trôi → THEN có thể <span style=\"color:#51cf66\"><b>cắt thai</b></span>, nếu không có kinh nghiệm vẫn <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nội xoay thai chỉ dành cho nhóm điều kiện chặt chẽ; còn lại mổ lấy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 4.3.2. Tuyến huyện và các tuyến trên",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK20-ALG-04",
+   "type": "basic",
+   "section": "S2_3_1",
+   "category": "Khám lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Bảng so sánh</b></span> dấu hiệu thăm âm đạo: <span style=\"color:#74c0fc\"><b>ngôi mặt</b></span>, <span style=\"color:#74c0fc\"><b>ngôi trán</b></span>, <span style=\"color:#74c0fc\"><b>ngôi thóp trước</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span>: luôn sờ thấy <span style=\"color:#ff6b6b\"><b>mũi</b></span>, cằm cứng hình móng ngựa, <span style=\"color:#ff6b6b\"><b>không bao giờ sờ thấy thóp trước</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Ngôi trán</b></span>: sờ thấy gốc mũi và thóp trước, <span style=\"color:#ff6b6b\"><b>không sờ thấy thóp sau, miệng, cằm</b></span>; gốc mũi ở trung tâm.<br>3) <span style=\"color:#74c0fc\"><b>Ngôi thóp trước</b></span>: sờ được thóp trước ở trung tâm, gốc mũi ở ngoại vi, <span style=\"color:#ff6b6b\"><b>không sờ được thóp sau</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả ba đều là đầu ngửa ở các mức khác nhau; dựa vào mốc ở trung tâm: cằm, gốc mũi, thóp trước.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 2.3.1. Khám lâm sàng",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK20-ALG-05",
+   "type": "basic",
+   "section": "S1_3",
+   "category": "Cơ chế đẻ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu</b></span> đường kính các ngôi đầu ngửa theo sách?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi mặt: hạ cằm - thóp trước <span style=\"color:#ffd43b\"><b>9,5 cm</b></span>; lưỡng gò má <span style=\"color:#ffd43b\"><b>8,5 - 9 cm</b></span>; ức - thóp trước <span style=\"color:#ffd43b\"><b>15 cm</b></span> (cằm sau); thượng chẩm cằm <span style=\"color:#ffd43b\"><b>13,5 cm</b></span> (sổ).<br>2) Ngôi trán: thượng chẩm - cằm <span style=\"color:#ffd43b\"><b>13,5 cm</b></span> so với đường kính chéo eo trên <span style=\"color:#ffd43b\"><b>12 cm</b></span>.<br>3) Ngôi thóp trước: chẩm - trán <span style=\"color:#ffd43b\"><b>12 cm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đường kính lọt càng lớn hơn eo thì càng khó đẻ: mặt cằm trước lọt dễ, trán không lọt.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · 1.3. Cơ chế đẻ",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK20-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Câu hỏi 1a:</b></span> <span style=\"color:#74c0fc\"><b>Ngôi vai</b></span> — nêu <span style=\"color:#ff6b6b\"><b>triệu chứng</b></span> khi nhìn, sờ nắn, thăm âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhìn: <span style=\"color:#ff6b6b\"><b>bụng bè ngang, đáy tử cung như nằm gần rốn</b></span>.<br>2) Sờ nắn: không thấy cực thai ở phần thấp tử cung, sờ được <span style=\"color:#ffd43b\"><b>2 cực</b></span> ở 2 hố hông; nắn trên xương vệ không thấy gì; lưng trước sờ thấy diện phẳng, lưng sau sờ thấy chân tay lổn nhổn.<br>3) Thăm âm đạo: <span style=\"color:#ff6b6b\"><b>hố chậu rỗng</b></span>, phần thai trình diện không bình thường; chuyển dạ lâu có thể <span style=\"color:#ff6b6b\"><b>sa tay</b></span> (ngôi vai sa tay).<br><br><b>💡 Giải thích của AI:</b><br>Thai nằm ngang nên các dấu hiệu khám đều khác ngôi dọc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · Câu hỏi",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK20-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Câu hỏi 1b:</b></span> <span style=\"color:#74c0fc\"><b>Ngôi vai</b></span> — <span style=\"color:#51cf66\"><b>chẩn đoán xác định</b></span> và <span style=\"color:#74c0fc\"><b>chẩn đoán phân biệt</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán xác định dựa vào <span style=\"color:#51cf66\"><b>nhìn, sờ nắn, thăm âm đạo</b></span>, phát hiện sớm từ cuối thai kỳ hay đầu chuyển dạ; <span style=\"color:#51cf66\"><b>X quang, siêu âm</b></span> khi nghi ngờ.<br>2) Vai có thể nhầm với <span style=\"color:#74c0fc\"><b>mông</b></span>, nhưng <span style=\"color:#74c0fc\"><b>các xương sườn</b></span> tạo cảm giác đặc biệt.<br>3) Theo vị trí của vai: <span style=\"color:#74c0fc\"><b>vai chậu phải</b></span> hoặc <span style=\"color:#74c0fc\"><b>vai chậu trái</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chẩn đoán xác định dựa vào hố chậu rỗng và hai cực ở hai hố hông.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · Câu hỏi",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK20-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Câu hỏi 2a:</b></span> <span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> — nêu <span style=\"color:#ff6b6b\"><b>triệu chứng</b></span> lâm sàng và <span style=\"color:#51cf66\"><b>chẩn đoán xác định</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ chẩn đoán trong <span style=\"color:#ffd43b\"><b>chuyển dạ</b></span>; nhìn: tử cung hình trứng; nắn: đầu cao, cúi không tốt, bướu chẩm tròn đều có rãnh gáy, đôi khi sờ thấy cằm đối diện.<br>2) Thăm âm đạo khi ngôi đã cố định: <span style=\"color:#74c0fc\"><b>gốc mũi</b></span> làm mốc, gờ trên hố mắt và nhãn cầu, <span style=\"color:#74c0fc\"><b>thóp trước</b></span> hình trám; <span style=\"color:#ff6b6b\"><b>không sờ thấy thóp sau, miệng, cằm</b></span>.<br>3) X quang, siêu âm: thấy <span style=\"color:#ff6b6b\"><b>đầu ngửa, ưỡn cột sống cổ</b></span>, loại trừ vô sọ, não úng thuỷ.<br><br><b>💡 Giải thích của AI:</b><br>Chẩn đoán dựa vào mốc gốc mũi và các dấu hiệu âm tính.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · Câu hỏi",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK20-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Câu hỏi 2b:</b></span> <span style=\"color:#74c0fc\"><b>Ngôi trán</b></span> — <span style=\"color:#74c0fc\"><b>chẩn đoán phân biệt</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngôi trán nhận ra nhờ dấu hiệu âm tính: <span style=\"color:#ff6b6b\"><b>không thóp sau, không miệng, không cằm</b></span>; gốc mũi ở trung tâm (ngôi thóp trước gốc mũi ở ngoại vi; ngôi mặt không sờ thấy thóp trước, sờ thấy cằm); ngôi mặt phân biệt ngôi trán vì không sờ thấy cằm.<br>2) Tuyến xã: theo dõi sát, chẩn đoán ngôi trán thì <span style=\"color:#51cf66\"><b>chuyển lên tuyến trên ngay</b></span>.<br>3) Tuyến huyện trở lên: ối chưa vỡ, ngôi cao lỏng thì chờ; không thuận lợi thì <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>; thuận lợi có thể thành chỏm hoặc mặt và đẻ đường âm đạo; ối vỡ, ngôi cố định thì <span style=\"color:#51cf66\"><b>mổ lấy thai ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngôi trán đủ tháng không lọt được nên ưu tiên mổ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · Câu hỏi",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK20-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Câu hỏi 3:</b></span> <span style=\"color:#74c0fc\"><b>Ngôi mặt</b></span> — nêu <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>chẩn đoán xác định</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi có thai: cằm sau nắn thấy bướu chẩm to tròn rắn, rãnh gáy (dấu nhát rìu); cằm trước dễ thấy chân tay, cằm hình móng ngựa.<br>2) Khi chuyển dạ: thăm âm đạo nhẹ nhàng, luôn sờ thấy <span style=\"color:#ff6b6b\"><b>mũi</b></span>, cằm cứng hình móng ngựa, <span style=\"color:#ff6b6b\"><b>không sờ thấy thóp trước</b></span>; ối vỡ sờ thấy vòm mặt, sống mũi, hai hố mắt, lỗ mũi, hàm trên, miệng, hàm dưới.<br>3) Xác định kiểu thế bằng vị trí <span style=\"color:#74c0fc\"><b>cằm</b></span>; nghi ngờ thì <span style=\"color:#51cf66\"><b>siêu âm hoặc X quang</b></span> để xác định và loại trừ thai dị dạng.<br><br><b>💡 Giải thích của AI:</b><br>Mặt có các cấu trúc đặc trưng sờ được qua cổ tử cung đã mở.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai · Câu hỏi",
+   "tags": [
+    "SK-20",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  }
+ ]
+}

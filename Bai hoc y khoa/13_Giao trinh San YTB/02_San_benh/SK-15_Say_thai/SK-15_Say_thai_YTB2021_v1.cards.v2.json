@@ -1,0 +1,1070 @@
+{
+ "cards": [
+  {
+   "id": "SK15-S1_1-01",
+   "type": "basic",
+   "section": "S1_1",
+   "category": "1.1. Định nghĩa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai</b></span>: định nghĩa, theo WHO, và thế nào là sẩy thai sớm, sẩy thai muộn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> thai bị tống xuất ra khỏi buồng tử cung, chấm dứt thai kỳ trước tuổi thai có thể sống được một cách độc lập bên ngoài tử cung (ngay cả khi có sự can thiệp của y tế).<br>2) <b>Theo WHO:</b> thai bị tống xuất ra khỏi buồng tử cung trước tuần thứ <span style=\"color:#ffd43b\"><b>22</b></span> của thai kỳ hoặc trọng lượng nhỏ hơn <span style=\"color:#ffd43b\"><b>500 gam</b></span>.<br>3) <b>Sẩy thai sớm:</b> trước <span style=\"color:#ffd43b\"><b>12 tuần</b></span>; sẩy thai muộn: từ <span style=\"color:#ffd43b\"><b>12 - 20 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sẩy thai là ranh giới giữa thai chưa thể sống độc lập và thai đã có thể sống; mốc tuần và cân nặng của WHO cụ thể hóa ranh giới đó.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.1. Định nghĩa",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ],
+   "asks": [
+    "định nghĩa",
+    "theo WHO",
+    "sẩy thai sớm"
+   ]
+  },
+  {
+   "id": "SK15-S1_1-C01",
+   "type": "cloze",
+   "section": "S1_1",
+   "category": "1.1. Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Theo WHO, sẩy thai là thai bị tống xuất ra khỏi buồng tử cung trước tuần thứ {{c1::<span style=\"color:#ffd43b\"><b>22</b></span>}} của thai kỳ hoặc trọng lượng nhỏ hơn {{c2::<span style=\"color:#ffd43b\"><b>500 gam</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.1. Định nghĩa",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK15-S1_1-C02",
+   "type": "cloze",
+   "section": "S1_1",
+   "category": "1.1. Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sẩy thai sớm là sẩy thai trước {{c1::<span style=\"color:#ffd43b\"><b>12 tuần</b></span>}}; sẩy thai muộn là từ {{c2::<span style=\"color:#ffd43b\"><b>12 - 20 tuần</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.1. Định nghĩa",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK15-S1_2-01",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "1.2. Phân loại",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai</b></span> gồm những loại nào? Định nghĩa từng loại và số liệu của <span style=\"color:#74c0fc\"><b>Malpas</b></span> về sẩy thai liên tiếp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Sẩy thai tự nhiên</b></span>: những loại sẩy thai đột nhiên xảy ra ở người có thai bình thường.<br>2) <span style=\"color:#74c0fc\"><b>Sẩy thai liên tiếp</b></span>: sẩy thai tự nhiên từ <span style=\"color:#ffd43b\"><b>3 lần</b></span> liên tiếp trở lên.<br>3) Theo Malpas, phụ nữ có tiền sử sẩy thai 3 lần liên tiếp chỉ có cơ hội đẻ con sống là <span style=\"color:#ffd43b\"><b>50%</b></span> và nguy cơ đẻ non cao hơn <span style=\"color:#ffd43b\"><b>20%</b></span> so với người bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Hai loại khác nhau ở số lần: một lần đột ngột là tự nhiên, lặp lại từ 3 lần trở lên là liên tiếp và tiên lượng con sống kém hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.2. Phân loại",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK15-S1_2-C01",
+   "type": "cloze",
+   "section": "S1_2",
+   "category": "1.2. Phân loại",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sẩy thai liên tiếp là sẩy thai tự nhiên từ {{c1::<span style=\"color:#ffd43b\"><b>3 lần</b></span>}} liên tiếp trở lên; theo Malpas cơ hội đẻ con sống chỉ {{c2::<span style=\"color:#ffd43b\"><b>50%</b></span>}} và nguy cơ đẻ non cao hơn {{c3::<span style=\"color:#ffd43b\"><b>20%</b></span>}} so với người bình thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.2. Phân loại",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK15-S1_3-01",
+   "type": "basic",
+   "section": "S1_3",
+   "category": "1.3. Tần suất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Tần suất sẩy thai</b></span>: vì sao khó đánh giá, tỷ lệ ở những người biết có thai, một nửa xảy ra lúc nào, và phân bố theo 3 tháng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tỷ lệ sẩy thai thực sự rất khó đánh giá vì nhiều trường hợp sẩy thai xảy ra trước khi người phụ nữ nhận biết được mình có thai.<br>2) Trong số những trường hợp nhận biết được có thai, tỷ lệ sẩy thai khoảng <span style=\"color:#ffd43b\"><b>12%</b></span> và một nửa trong số này xảy ra trước khi thai <span style=\"color:#ffd43b\"><b>8 tuần</b></span> tuổi.<br>3) <span style=\"color:#ffd43b\"><b>80%</b></span> trường hợp sẩy thai xảy ra trong 3 tháng đầu và <span style=\"color:#ffd43b\"><b>20%</b></span> xảy ra trong 3 tháng giữa.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn sẩy thai dồn vào giai đoạn rất sớm, thường trước khi người mẹ biết mình có thai nên số liệu thực bị đánh giá thấp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.3. Tần suất",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK15-S1_3-C01",
+   "type": "cloze",
+   "section": "S1_3",
+   "category": "1.3. Tần suất",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Trong số những trường hợp nhận biết được có thai, sẩy thai chiếm khoảng {{c1::<span style=\"color:#ffd43b\"><b>12%</b></span>}}, một nửa xảy ra trước {{c2::<span style=\"color:#ffd43b\"><b>8 tuần</b></span>}}; {{c3::<span style=\"color:#ffd43b\"><b>80%</b></span>}} sẩy trong 3 tháng đầu và {{c4::<span style=\"color:#ffd43b\"><b>20%</b></span>}} trong 3 tháng giữa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.3. Tần suất",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_3"
+   ]
+  },
+  {
+   "id": "SK15-S1_4-01",
+   "type": "basic",
+   "section": "S1_4",
+   "category": "1.4. Cách sẩy thai theo tuổi thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Cách sẩy thai</b></span> theo tuổi thai: các giai đoạn dưới 8 tuần, 8 - 16 tuần, tháng thứ 5 - 6 diễn ra thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Dưới 8 tuần</b></span>: hầu hết là sẩy thai hoàn toàn. Tổ chức chỉ là một bọc bằng quả trứng chim cút, trong có phôi, bên ngoài có các gai rau. Nếu sẩy thường sẩy một thì, ra cả bọc lẫn với máu; ngoại sản mạc rất mỏng, sẽ ra trong những ngày sau. Do đó thời kỳ này ít bị sót rau, băng huyết.<br>2) <span style=\"color:#ffd43b\"><b>8 - 16 tuần</b></span> (tháng thứ ba và thứ tư): thai làm tổ chắc chắn hơn, được nuôi dưỡng tốt hơn nên tỷ lệ sẩy giảm xuống; thường gặp sẩy thai không hoàn toàn. Phôi đã lớn thành thai nhi, thường sẩy từng phần: thì đầu thai ra, thì hai rau ra, thì ba ngoại sản mạc ra. Vì vậy dễ bị <span style=\"color:#ff6b6b\"><b>sót rau và thường băng huyết nặng</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Tháng thứ năm và thứ sáu</b></span>: sẩy thai diễn ra như cuộc đẻ: thì đầu thai ra, thì sau rau và màng rau ra.<br><br><b>💡 Giải thích của AI:</b><br>Thai càng lớn, sẩy thai càng giống một cuộc đẻ; ở giai đoạn giữa, thai ra trước rồi rau ra sau nên mới dễ sót rau và chảy máu nhiều.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.4. Cách sẩy thai theo tuổi thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK15-S1_4-C01",
+   "type": "cloze",
+   "section": "S1_4",
+   "category": "1.4. Cách sẩy thai theo tuổi thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Trước {{c1::<span style=\"color:#ffd43b\"><b>8 tuần</b></span>}} hầu hết là sẩy thai {{c2::<span style=\"color:#74c0fc\"><b>hoàn toàn</b></span>}}, tổ chức là một bọc bằng quả trứng {{c3::chim cút}}; thời kỳ này ít bị sót rau, băng huyết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.4. Cách sẩy thai theo tuổi thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK15-S1_4-C02",
+   "type": "cloze",
+   "section": "S1_4",
+   "category": "1.4. Cách sẩy thai theo tuổi thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ở tuổi thai {{c1::<span style=\"color:#ffd43b\"><b>8 - 16 tuần</b></span>}} thường gặp sẩy thai {{c2::<span style=\"color:#74c0fc\"><b>không hoàn toàn</b></span>}}, sẩy từng phần: thì đầu thai ra, thì hai rau ra, thì ba ngoại sản mạc ra nên dễ sót rau và băng huyết nặng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 1.4. Cách sẩy thai theo tuổi thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S1_4"
+   ]
+  },
+  {
+   "id": "SK15-S2-01",
+   "type": "basic",
+   "section": "S2",
+   "category": "2. Nguyên nhân gây sẩy thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán nguyên nhân</b></span> sẩy thai: mức độ khó khăn, khi nào cần hỏi kỹ và làm thêm gì, và tỉ lệ biết rõ nguyên nhân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán nguyên nhân gây sẩy thai là vấn đề quan trọng nhưng thường khó khăn.<br>2) Với trường hợp sẩy thai sớm <span style=\"color:#ffd43b\"><b>2 lần</b></span> liên tiếp hoặc có <span style=\"color:#ffd43b\"><b>một lần</b></span> sẩy thai muộn: phải hỏi kỹ tiền sử, quá trình xuất hiện bệnh, khám toàn thân và bộ phận sinh dục.<br>3) Nếu cần kết hợp xét nghiệm huyết học, sinh hóa, tế bào và tổ chức học bọc trứng; đôi khi phải <span style=\"color:#51cf66\"><b>chụp buồng tử cung</b></span> ngoài thời kỳ có thai mới tìm được nguyên nhân.<br>4) Khoảng <span style=\"color:#ffd43b\"><b>một nửa</b></span> trường hợp sẩy thai có thể biết rõ nguyên nhân.<br><br><b>💡 Giải thích của AI:</b><br>Vì nguyên nhân đa dạng và nhiều ca không rõ, việc hỏi bệnh sử kỹ và xét nghiệm bổ sung quyết định khả năng tìm ra căn nguyên.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2. Nguyên nhân gây sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-01",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể đủ các <span style=\"color:#74c0fc\"><b>nguyên nhân chung</b></span> gây sẩy thai (toàn thân, viêm nhiễm, miễn dịch, môi trường, nhiễm sắc thể)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nguyên nhân toàn thân</b></span> (bệnh tim, thận; đái tháo đường; giang mai; suy nhược, thiếu sinh tố).<br>2) <span style=\"color:#ff6b6b\"><b>Viêm nhiễm niêm mạc tử cung</b></span> (toxoplasmoses, listerioses).<br>3) Nguyên nhân miễn dịch.<br>4) Yếu tố môi trường.<br>5) Rối loạn nhiễm sắc thể.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm này gồm các yếu tố từ mẹ, môi trường và chính phôi thai, áp dụng cho mọi trường hợp sẩy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-02",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Nguyên nhân <span style=\"color:#74c0fc\"><b>toàn thân</b></span> gây sẩy thai gồm những gì, và đặc điểm của <span style=\"color:#ff6b6b\"><b>giang mai</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh tim, bệnh thận.<br>2) Mẹ bị đái tháo đường.<br>3) Giang mai có thể gây sẩy thai vào tháng thứ <span style=\"color:#ffd43b\"><b>4 và tháng thứ 5</b></span> (vi khuẩn giang mai qua rau sau <span style=\"color:#ffd43b\"><b>5 tháng</b></span> nên thường gây sinh non hơn là sẩy thai).<br>4) Suy nhược cơ thể, thiếu sinh tố (nhất là vitamin E).<br><br><b>💡 Giải thích của AI:</b><br>Giang mai chỉ qua rau muộn nên hậu quả chuyển từ sẩy thai sang sinh non khi thai lớn hơn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-03",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Nguyên nhân miễn dịch</b></span>, <span style=\"color:#ff6b6b\"><b>yếu tố môi trường</b></span> và <span style=\"color:#74c0fc\"><b>viêm nhiễm niêm mạc tử cung</b></span> gây sẩy thai: cơ chế và bệnh gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Viêm nhiễm niêm mạc tử cung:</b> <span style=\"color:#ff6b6b\"><b>bệnh toxoplasmoses, listerioses</b></span>.<br>2) <b>Nguyên nhân miễn dịch:</b> thai như một mảnh ghép trong tử cung người mẹ; phản ứng loại bỏ thai qua trung gian lympho bào T của người mẹ chống lại kháng nguyên thai sẽ ức chế sự phát triển của phôi do bất tương hợp hệ thống HLA (Humane Lymphocyte Antigens).<br>3) <b>Yếu tố môi trường:</b> hút thuốc, uống rượu, bức xạ, độc tố…<br><br><b>💡 Giải thích của AI:</b><br>Thai mang kháng nguyên của cha nên giống mảnh ghép; nếu HLA không tương hợp, cơ thể mẹ có thể đào thải.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ],
+   "asks": [
+    "viêm nhiễm niêm mạc tử cung",
+    "nguyên nhân miễn dịch",
+    "yếu tố môi trường"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-04",
+   "type": "basic",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Rối loạn nhiễm sắc thể</b></span> trong sẩy thai: tỉ lệ, số liệu của Mishell, các cặp hay gặp và tỉ lệ từng loại bất thường?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nuôi cấy tổ chức bọc thai sẩy làm nhiễm sắc đồ thấy khoảng <span style=\"color:#ffd43b\"><b>50 - 85%</b></span> trường hợp sẩy là do rối loạn nhiễm sắc thể.<br>2) Theo Mishell và cộng sự: <span style=\"color:#ffd43b\"><b>80 - 90%</b></span> trường hợp thai sẩy ở những bà mẹ sẩy 3 hoặc trên 3 lần có nhiễm sắc thể bình thường.<br>3) Rối loạn thường gặp: ở các cặp nhiễm sắc thể thường số <span style=\"color:#ffd43b\"><b>6, 12, 13, 16, 17, 18, 21</b></span> hoặc ở nhiễm sắc thể giới tính (XO trong hội chứng Turner) hoặc đơn bội thể, tam bội thể, hình khảm.<br>4) Tam bội nhiễm sắc thể thường là bất thường hay gặp nhất (<span style=\"color:#ffd43b\"><b>50 - 65%</b></span>), tiếp theo là đơn thể 45XO (<span style=\"color:#ffd43b\"><b>7 - 15%</b></span>), tam bội (<span style=\"color:#ffd43b\"><b>15%</b></span>), tứ bội (<span style=\"color:#ffd43b\"><b>10%</b></span>) và các bất thường cấu trúc (<span style=\"color:#ffd43b\"><b>5%</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Sẩy thai đơn lẻ chủ yếu do bất thường nhiễm sắc thể của thai, còn ở người sẩy liên tiếp thì thường nhiễm sắc thể bình thường, gợi nguyên nhân khác.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-C01",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Khoảng {{c1::<span style=\"color:#ffd43b\"><b>50 - 85%</b></span>}} trường hợp sẩy thai do rối loạn nhiễm sắc thể; nhưng {{c2::<span style=\"color:#ffd43b\"><b>80 - 90%</b></span>}} thai sẩy ở bà mẹ sẩy từ 3 lần trở lên có nhiễm sắc thể bình thường (Mishell).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-C02",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Bất thường nhiễm sắc thể hay gặp nhất là {{c1::tam bội (<span style=\"color:#ffd43b\"><b>50 - 65%</b></span>), tiếp theo đơn thể 45XO (<span style=\"color:#ffd43b\"><b>7 - 15%</b></span>), tam bội (<span style=\"color:#ffd43b\"><b>15%</b></span>), tứ bội (<span style=\"color:#ffd43b\"><b>10%</b></span>) và bất thường cấu trúc (<span style=\"color:#ffd43b\"><b>5%</b></span>)}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_1-C03",
+   "type": "cloze",
+   "section": "S2_1",
+   "category": "2.1. Các nguyên nhân chung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "XO trong hội chứng {{c1::<span style=\"color:#74c0fc\"><b>Turner</b></span>}} là rối loạn nhiễm sắc thể giới tính gây sẩy thai; phản ứng miễn dịch do bất tương hợp hệ thống {{c2::<span style=\"color:#74c0fc\"><b>HLA</b></span>}} (Humane Lymphocyte Antigens).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.1. Các nguyên nhân chung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_1"
+   ]
+  },
+  {
+   "id": "SK15-S2_2-01",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể đủ các <span style=\"color:#74c0fc\"><b>nguyên nhân sẩy thai tự nhiên</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn cấp</b></span>.<br>2) Sang chấn.<br>3) Nhiễm độc.<br>4) Trứng làm tổ bất thường.<br><br><b>💡 Giải thích của AI:</b><br>Bốn nhóm gồm bệnh nhiễm trùng, chấn thương, độc chất và bất thường của chính trứng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK15-S2_2-02",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Sẩy thai tự nhiên do <span style=\"color:#ff6b6b\"><b>nhiễm khuẩn cấp</b></span>, <span style=\"color:#ff6b6b\"><b>sang chấn</b></span> và <span style=\"color:#ff6b6b\"><b>nhiễm độc</b></span>: cơ chế và các nguyên nhân thường gặp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm khuẩn cấp</b></span>: nhiễm khuẩn làm thai chết hoặc do thân nhiệt tăng cao gây nên cơn co tử cung và sẩy thai. Thường gặp: rubéon, cúm, nhiễm toxoplasma, sốt rét, viêm phổi, thương hàn….<br>2) Sang chấn: sang chấn mạnh, đột ngột, hoặc nhiều sang chấn nhỏ liên tiếp có thể gây sẩy thai; gồm cảm xúc tự nhiên do sợ hãi, xúc động quá độ hoặc chấn thương thực thể như chấn thương vùng bụng hay do phẫu thuật.<br>3) Nhiễm độc: những nghề nghiệp độc hại nếu không được bảo vệ cẩn thận.<br><br><b>💡 Giải thích của AI:</b><br>Sốt cao làm tăng co bóp tử cung nên nhiễm trùng gây sẩy thai ngay cả khi vi khuẩn không tới thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK15-S2_2-03",
+   "type": "basic",
+   "section": "S2_2",
+   "category": "2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Trứng làm tổ bất thường</b></span> gây sẩy thai gồm những gì, và cần làm gì với bệnh phẩm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Làm tổ ở góc hoặc ở eo dễ bị sẩy.<br>2) Sinh đôi, đa thai, đa ối.<br>3) Chửa trứng toàn phần hoặc bán phần; vì vậy bệnh phẩm sẩy thai tự nhiên đều phải làm <span style=\"color:#51cf66\"><b>xét nghiệm giải phẫu bệnh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chửa trứng có thể biểu hiện như sẩy thai nên cần giải phẫu bệnh để không bỏ sót.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.2. Nguyên nhân sẩy thai tự nhiên",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_2"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-01",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai liên tiếp</b></span>: tiêu chuẩn và các nhóm nguyên nhân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sẩy thai tự nhiên liên tiếp từ <span style=\"color:#ffd43b\"><b>3 lần</b></span> trở lên; thường do nhiều nguyên nhân khác nhau.<br>2) Nguyên nhân ở tử cung.<br>3) Nguyên nhân nội tiết.<br>4) Bất tương hợp yếu tố Rh giữa thai và mẹ.<br>5) Hội chứng kháng phospholipid (APS).<br><br><b>💡 Giải thích của AI:</b><br>Lặp lại nhiều lần thường gợi nguyên nhân tồn tại bền vững từ mẹ như giải phẫu, nội tiết, miễn dịch.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-02",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Nguyên nhân ở tử cung</b></span> gây sẩy thai liên tiếp gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bất thường tử cung do bẩm sinh hoặc mắc phải:<br>2) Tử cung kém phát triển: khám thấy tử cung nhỏ, cổ tử cung nhỏ và dài.<br>3) U xơ tử cung to hoặc nhiều nhân.<br>4) Các dị dạng ở tử cung: tử cung đôi, tử cung hai sừng, vách ngăn tử cung.<br>5) <span style=\"color:#ff6b6b\"><b>Hở eo tử cung</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bất thường cấu trúc làm buồng tử cung không đủ điều kiện nuôi thai đến đủ tháng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-03",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Hở eo tử cung</b></span>: nguyên nhân, thời điểm, biểu hiện, các lần sẩy sau và chẩn đoán ngoài thai kỳ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân:</b> thường do tổn thương rách cổ tử cung sau đẻ, do nong nạo, khoét chóp cổ tử cung hoặc cắt cụt cổ tử cung.<br>2) <b>Thời điểm:</b> thường gây sẩy thai đột ngột vào <span style=\"color:#ffd43b\"><b>3 tháng giữa</b></span> của thai kỳ.<br>3) <b>Biểu hiện:</b> xảy ra rất đột ngột, không có dấu hiệu báo trước, cổ tử cung mở nhưng sản phụ không thấy đau, chuyển dạ xảy ra rất nhanh sau vài cơn co mạnh và vỡ ối.<br>4) <b>Các lần sẩy sau:</b> có khuynh hướng xảy ra sớm hơn với trọng lượng thai nhỏ hơn.<br>5) <b>Chẩn đoán ngoài thai kỳ:</b> chắc chắn khi đút lọt <span style=\"color:#51cf66\"><b>nến Hegar số 8</b></span> qua cổ tử cung một cách dễ dàng.<br><br><b>💡 Giải thích của AI:</b><br>Cổ tử cung không giữ được thai nên mở không đau, nên sẩy thai đột ngột; tổn thương cơ học trước đó là cội nguồn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ],
+   "asks": [
+    "nguyên nhân",
+    "thời điểm",
+    "biểu hiện",
+    "các lần sẩy sau",
+    "chẩn đoán ngoài thai kỳ"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-C01",
+   "type": "cloze",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Ngoài thai kỳ, hở eo tử cung được chẩn đoán chắc chắn khi đút lọt nến {{c1::<span style=\"color:#51cf66\"><b>Hegar số 8</b></span>}} qua cổ tử cung một cách dễ dàng; bệnh thường gây sẩy thai vào {{c2::<span style=\"color:#ffd43b\"><b>3 tháng giữa</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-04",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Nguyên nhân nội tiết</b></span> gây sẩy thai liên tiếp gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tất cả các rối loạn nội tiết đều có thể gây sẩy thai, ví dụ:<br>2) <span style=\"color:#ff6b6b\"><b>Giảm hormon hướng sinh dục rau thai (hCG) và nội tiết tố sinh dục (estrogen, progesteron)</b></span>.<br>3) Cường androgen, cường hoặc thiểu năng giáp trạng.<br><br><b>💡 Giải thích của AI:</b><br>hCG, estrogen, progesteron duy trì thai nên thiếu hụt hoặc rối loạn tuyến nội tiết làm thai khó giữ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-05",
+   "type": "basic",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Hội chứng kháng phospholipid (APS)</b></span>: kháng thể, cơ chế gây sẩy thai, bản chất và tỉ lệ lưu hành, và hình ảnh minh họa?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kháng thể:</b> kháng phospholipids có thể là immunoglobulin G (IgG), IgA hoặc IgM isotype hiện diện trong cơ thể người mẹ.<br>2) <b>Cơ chế:</b> gây sẩy thai do <span style=\"color:#ff6b6b\"><b>tắc mạch và nhồi máu ở bánh rau</b></span>; ức chế giải phóng prostacyclin (chất gây giãn mạch và ức chế ngưng tập tiểu cầu); ức chế hoạt hóa protein C, dẫn đến đông máu và hình thành Fibrin.<br>3) <b>Bản chất và tỉ lệ lưu hành:</b> bệnh tự miễn, tỷ lệ lưu hành ở thai phụ là <span style=\"color:#ffd43b\"><b>2,7 - 7%</b></span>, ở bệnh nhân sẩy thai liên tiếp là <span style=\"color:#ffd43b\"><b>10 - 16%</b></span> (Empson et al, 2005).<br>4) <b>Cơ chế in vitro:</b> kháng thể ức chế tăng sản nguyên bào nuôi, huyết khối tắc mạch máu bánh rau.<br>5) <b>Hình ảnh minh họa:</b> Hình 1: đa huyết khối bánh rau, ở một phụ nữ bị hội chứng kháng phospholipid, thường đi kèm với thai chết.<br><br><b>💡 Giải thích của AI:</b><br>Kháng thể làm máu dễ đông trong mạch bánh rau nên rau thiếu máu nuôi, dẫn tới sẩy hoặc thai chết.<br><br><img src=\"SK-15_fig01.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ],
+   "asks": [
+    "kháng thể",
+    "cơ chế",
+    "bản chất và tỉ lệ lưu hành",
+    "hình ảnh minh họa"
+   ]
+  },
+  {
+   "id": "SK15-S2_3-C02",
+   "type": "cloze",
+   "section": "S2_3",
+   "category": "2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tỷ lệ lưu hành hội chứng kháng phospholipid ở thai phụ là {{c1::<span style=\"color:#ffd43b\"><b>2,7 - 7%</b></span>}}, ở bệnh nhân sẩy thai liên tiếp là {{c2::<span style=\"color:#ffd43b\"><b>10 - 16%</b></span>}} (Empson et al, 2005).",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 2.3. Nguyên nhân sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S2_3"
+   ]
+  },
+  {
+   "id": "SK15-S3-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "3. Lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Sẩy thai có <span style=\"color:#74c0fc\"><b>6 hình thái lâm sàng</b></span> nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dọa sẩy thai</b></span>.<br>2) Sẩy thai khó tránh.<br>3) Đang sẩy thai.<br>4) Sẩy thai sót rau.<br>5) Sẩy thai băng huyết.<br>6) Sẩy thai nhiễm khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Sáu hình thái đi từ thai còn giữ được, đến thai đang tống ra, rồi các biến chứng sau sẩy.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3. Lâm sàng",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK15-S3_1-01",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "3.1. Dọa sẩy thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Dọa sẩy thai</b></span>: định nghĩa, triệu chứng cơ năng, thực thể (mỏ vịt, khám âm đạo) và siêu âm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> phôi thai còn sống, chưa bị bong ra khỏi niêm mạc tử cung.<br>2) <b>Triệu chứng cơ năng:</b> <span style=\"color:#ff6b6b\"><b>ra máu âm đạo</b></span> là triệu chứng chủ yếu, máu đỏ hoặc đen, lượng ít, có thể kéo dài nhiều ngày, thường lẫn dịch nhầy (dấu hiệu báo động thai nghén không bình thường); cảm giác tức, nặng bụng dưới hoặc đau lưng.<br>3) <b>Thực thể:</b> khám ngoài ít có giá trị vì tử cung và phần thai còn nhỏ; đặt mỏ vịt luôn cần thiết để phát hiện chảy máu từ buồng tử cung và loại trừ chảy máu từ tổn thương ở cổ tử cung, âm đạo; khám âm đạo: cổ tử cung dài, đóng kín, thân tử cung mềm, to tương ứng với tuổi thai.<br>4) <b>Siêu âm:</b> rất cần thiết để đánh giá nguyên nhân chảy máu; có bóc tách một phần nhỏ của bánh rau hay màng rau, bờ túi thai đều và rõ, có âm vang của phôi, có tim thai hoặc không.<br><br><b>💡 Giải thích của AI:</b><br>Cổ tử cung còn đóng và phôi còn sống là điểm phân biệt dọa sẩy với các thể sau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ],
+   "asks": [
+    "định nghĩa",
+    "triệu chứng cơ năng",
+    "thực thể",
+    "siêu âm"
+   ]
+  },
+  {
+   "id": "SK15-S3_1-02",
+   "type": "basic",
+   "section": "S3_1",
+   "category": "3.1. Dọa sẩy thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Hình <span style=\"color:#74c0fc\"><b>dọa sẩy thai</b></span> và hình <span style=\"color:#74c0fc\"><b>siêu âm bóc tách màng ối</b></span> trong sách thể hiện điều gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hình: dọa sẩy thai (<span style=\"color:#74c0fc\"><b>phôi thai còn sống, chưa bong ra khỏi niêm mạc tử cung</b></span>).<br>2) Hình: hình ảnh siêu âm bóc tách màng ối (bóc tách một phần nhỏ bánh rau hay màng rau).<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm cho thấy vùng bóc tách nhỏ nên thai vẫn còn bám và có thể tiếp tục.<br><br><img src=\"SK-15_fig02.jpg\"><br><img src=\"SK-15_fig03.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK15-S3_1-C01",
+   "type": "cloze",
+   "section": "S3_1",
+   "category": "3.1. Dọa sẩy thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Dọa sẩy thai: phôi thai {{c1::còn sống}}, {{c2::chưa bị bong ra khỏi niêm mạc tử cung}}; triệu chứng chủ yếu là {{c3::<span style=\"color:#ff6b6b\"><b>ra máu âm đạo</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_1"
+   ]
+  },
+  {
+   "id": "SK15-S3_2-01",
+   "type": "basic",
+   "section": "S3_2",
+   "category": "3.2. Sẩy thai khó tránh",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai khó tránh</b></span>: biểu hiện ra máu, đau bụng và khám âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ra máu: máu ra nhiều, đỏ tươi, hoặc không nhiều nhưng kéo dài dây dưa trên <span style=\"color:#ffd43b\"><b>10 ngày</b></span>.<br>2) Đau bụng: đau vùng hạ vị, đau từng cơn ngày càng tăng.<br>3) Khám âm đạo: cổ tử cung xóa, có thể hé mở lọt ngón tay, đoạn dưới phình to do bọc thai tụt xuống phía cổ tử cung làm cho cổ tử cung có hình con quay.<br><br><b>💡 Giải thích của AI:</b><br>Bọc thai tụt xuống cổ tử cung khiến đoạn dưới phình, tạo hình con quay.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.2. Sẩy thai khó tránh",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK15-S3_3-01",
+   "type": "basic",
+   "section": "S3_3",
+   "category": "3.3. Đang sẩy thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Đang sẩy thai</b></span>: ra máu, đau bụng và khám thực thể?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ra máu âm đạo nhiều, tươi, có máu cục</b></span>.<br>2) Đau quặn từng cơn vùng hạ vị do tử cung co thắt mạnh để tống thai ra.<br>3) Khám thấy đoạn dưới tử cung phình to do bọc thai đã bong khỏi thành tử cung; cổ tử cung mở, đôi khi thấy khối rau thai lấp ló ở cổ tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Bọc thai đã bong hẳn nên tử cung co mạnh để tống ra, gây đau quặn và chảy máu nhiều.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.3. Đang sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_3"
+   ]
+  },
+  {
+   "id": "SK15-S3_4-01",
+   "type": "basic",
+   "section": "S3_4",
+   "category": "3.4. Sẩy thai sót rau",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai sót rau</b></span>: diễn tiến bệnh sử, khám và siêu âm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử: thường đã có triệu chứng dọa sẩy trước đó, rồi một lúc đau bụng nhiều hơn, ra máu nhiều hơn; có thể ghi nhận một mảnh mô được tống xuất ra khỏi âm đạo; tuy nhiên ra máu âm đạo vẫn tiếp diễn và vẫn còn đau bụng âm ỉ.<br>2) Khám: cổ tử cung còn hé mở hay đã đóng kín; thân tử cung còn to hơn bình thường.<br>3) Bệnh nhân có thể có biểu hiện <span style=\"color:#ff6b6b\"><b>nhiễm trùng</b></span>.<br>4) Siêu âm có thể cho thấy hình ảnh sót rau trong buồng tử cung.<br>5) Hình 3: sẩy thai sót rau.<br><br><b>💡 Giải thích của AI:</b><br>Rau còn lại cản tử cung co hồi nên máu vẫn ra và thân tử cung còn to.<br><br><img src=\"SK-15_fig04.jpg\">",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.4. Sẩy thai sót rau",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_4"
+   ]
+  },
+  {
+   "id": "SK15-S3_5-01",
+   "type": "basic",
+   "section": "S3_5",
+   "category": "3.5. Sẩy thai băng huyết",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai băng huyết</b></span>: triệu chứng và khám âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ra máu âm đạo nhiều, máu tươi; có thể biểu hiện <span style=\"color:#ff6b6b\"><b>choáng mất máu</b></span>.<br>2) Khám âm đạo thấy nhiều máu tươi lẫn máu cục; thường có phần thai thập thò ở cổ tử cung hoặc trong âm đạo.<br>3) Nếu bệnh nhân vào viện muộn, thai đã sẩy thì không còn các triệu chứng này mà chỉ nổi bật các triệu chứng chảy máu.<br><br><b>💡 Giải thích của AI:</b><br>Chảy máu là triệu chứng chi phối; khi thai đã ra hết chỉ còn thấy hậu quả mất máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.5. Sẩy thai băng huyết",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_5"
+   ]
+  },
+  {
+   "id": "SK15-S3_6-01",
+   "type": "basic",
+   "section": "S3_6",
+   "category": "3.6. Sẩy thai nhiễm khuẩn",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sẩy thai nhiễm khuẩn</b></span>: biểu hiện toàn thân và khám âm đạo?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ra máu âm đạo kéo dài kèm hội chứng nhiễm trùng: <span style=\"color:#ff6b6b\"><b>sốt, mạch nhanh, vẻ mặt nhiễm trùng, bạch cầu tăng, CRP tăng</b></span>.<br>2) Khám âm đạo: cổ tử cung hé mở, máu âm đạo sẫm màu, hôi; tử cung mềm, ấn đau.<br><br><b>💡 Giải thích của AI:</b><br>Tổ chức còn lại trong buồng tử cung bị nhiễm khuẩn nên có sốt, máu hôi và tử cung đau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.6. Sẩy thai nhiễm khuẩn",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_6"
+   ]
+  },
+  {
+   "id": "SK15-S3_2-C01",
+   "type": "cloze",
+   "section": "S3_2",
+   "category": "3.2. Sẩy thai khó tránh",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sẩy thai khó tránh: máu không nhiều nhưng kéo dài dây dưa trên {{c1::<span style=\"color:#ffd43b\"><b>10 ngày</b></span>}}; cổ tử cung có hình {{c2::<span style=\"color:#74c0fc\"><b>con quay</b></span>}} do bọc thai tụt xuống.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3.2. Sẩy thai khó tránh",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S3_2"
+   ]
+  },
+  {
+   "id": "SK15-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "4.1. Chẩn đoán xác định",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Để <span style=\"color:#74c0fc\"><b>chẩn đoán xác định</b></span> các thể sẩy thai cần làm gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cần <span style=\"color:#51cf66\"><b>khai thác đầy đủ các triệu chứng lâm sàng và cận lâm sàng</b></span> để chẩn đoán được các thể lâm sàng của bệnh lý sẩy thai.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi thể có triệu chứng và siêu âm riêng nên phải kết hợp cả hai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.1. Chẩn đoán xác định",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK15-S4_2_1-01",
+   "type": "basic",
+   "section": "S4_2_1",
+   "category": "4.2.1. Thể giả sẩy của thai ngoài tử cung",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Thể giả sẩy của thai ngoài tử cung</b></span>: vì sao nhầm sẩy thai và các dấu hiệu phân biệt?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lý do nhầm: thai ngoài tử cung cũng có ra máu âm đạo và ngoại sản mạc tử cung bong ra nguyên khối.<br>2) Khám: chậm kinh, ra máu, tử cung mềm, ấn đau, túi cùng Douglas đầy và đau; tử cung không lớn tương xứng với tuổi thai, có thể sờ được khối u cạnh tử cung đau.<br>3) Nếu nạo buồng tử cung: giải phẫu bệnh là niêm mạc tử cung có phản ứng màng rụng, không thấy gai rau trong khối sẩy.<br>4) Siêu âm: không thấy túi thai trong buồng tử cung, niêm mạc tử cung dày, không có các mảng tổ chức rau; xét nghiệm <span style=\"color:#51cf66\"><b>βhCG</b></span> để củng cố chẩn đoán.<br><br><b>💡 Giải thích của AI:</b><br>Không có gai rau trong khối ra là dấu hiệu quyết định để loại sẩy thai thật.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.2.1. Thể giả sẩy của thai ngoài tử cung",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_2_1"
+   ]
+  },
+  {
+   "id": "SK15-S4_2_2-01",
+   "type": "basic",
+   "section": "S4_2_2",
+   "category": "4.2.2. Chửa trứng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chửa trứng</b></span> phân biệt với sẩy thai: triệu chứng, khám, βhCG và siêu âm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường có rong huyết kéo dài, gây thiếu máu, nôn nhiều.<br>2) Khám tử cung thường lớn hơn tuổi thai, có thể sờ thấy hai nang hoàng tuyến; không sờ được các phần thai, không nghe được tim thai.<br>3) Định lượng βhCG trong máu trên <span style=\"color:#ffd43b\"><b>100.000 mUI/ml</b></span>.<br>4) Siêu âm: có hình ảnh tuyết rơi.<br><br><b>💡 Giải thích của AI:</b><br>Tử cung to hơn tuổi thai và βhCG rất cao khác hẳn dọa sẩy, nơi tử cung to tương ứng tuổi thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.2.2. Chửa trứng",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_2_2"
+   ]
+  },
+  {
+   "id": "SK15-S4_2_2-C01",
+   "type": "cloze",
+   "section": "S4_2_2",
+   "category": "4.2.2. Chửa trứng",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Chửa trứng: βhCG máu trên {{c1::<span style=\"color:#ffd43b\"><b>100.000 mUI/ml</b></span>}}, siêu âm có hình ảnh {{c2::<span style=\"color:#74c0fc\"><b>tuyết rơi</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.2.2. Chửa trứng",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_2_2"
+   ]
+  },
+  {
+   "id": "SK15-S4_2_3-01",
+   "type": "basic",
+   "section": "S4_2_3",
+   "category": "4.2.3. Viêm phần phụ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Viêm phần phụ</b></span> cấp phân biệt với sẩy thai ở điểm nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nếu cấp tính thì có <span style=\"color:#ff6b6b\"><b>hội chứng nhiễm khuẩn cấp</b></span> và thường đau cả hai bên hố chậu.<br><br><b>💡 Giải thích của AI:</b><br>Đau hai bên kèm nhiễm khuẩn cấp khác với ra máu và đau hạ vị từng cơn của sẩy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.2.3. Viêm phần phụ",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_2_3"
+   ]
+  },
+  {
+   "id": "SK15-S4_2_4-01",
+   "type": "basic",
+   "section": "S4_2_4",
+   "category": "4.2.4. Viêm ruột thừa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Viêm ruột thừa</b></span> phân biệt với sẩy thai ở điểm nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có hội chứng nhiễm khuẩn và rối loạn tiêu hóa, điểm đau khu trú ở <span style=\"color:#74c0fc\"><b>hố chậu phải</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đau khu trú hố chậu phải kèm rối loạn tiêu hóa là nét đặc trưng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 4.2.4. Viêm ruột thừa",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S4_2_4"
+   ]
+  },
+  {
+   "id": "SK15-S5_1-01",
+   "type": "basic",
+   "section": "S5_1",
+   "category": "5.1. Dọa sẩy thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Điều trị dọa sẩy thai</b></span>: các biện pháp chung (nghỉ ngơi, sinh tố, giảm co, kháng sinh, sinh hoạt)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghỉ ngơi tuyệt đối, ăn nhẹ chống táo bón.<br>2) Bổ sung sinh tố, nhất là vitamin E; có thể dùng <span style=\"color:#51cf66\"><b>acid folic 300 mg/ngày</b></span> và vitamin B6.<br>3) Thuốc giảm co.<br>4) Điều trị nội tiết.<br>5) Sử dụng kháng sinh khi nghi ngờ có nhiễm khuẩn.<br>6) Tránh giao hợp cho đến <span style=\"color:#ffd43b\"><b>2 tuần</b></span> sau khi ngưng ra máu.<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu là giảm co bóp, tránh kích thích tử cung và bổ sung yếu tố hỗ trợ thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_1"
+   ]
+  },
+  {
+   "id": "SK15-S5_1-02",
+   "type": "basic",
+   "section": "S5_1",
+   "category": "5.1. Dọa sẩy thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Điều trị nội tiết</b></span> trong dọa sẩy thai: progesteron, utrogestan, Pregnyl và giới hạn tuổi thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Progesteron tự nhiên nhằm giảm co bóp tử cung là chính; không nên dùng progesteron tổng hợp vì có khả năng gây dị tật thai nhi, nhất là trong giai đoạn tạo phôi ở hai tháng đầu thai kỳ.<br>2) Một số tác giả chỉ định progesteron đơn độc, một số khác phối hợp với estrogen do tăng hiệu quả dinh dưỡng đối với tử cung.<br>3) <span style=\"color:#51cf66\"><b>Utrogestan</b></span> <span style=\"color:#ffd43b\"><b>100 mg</b></span>, liều lượng tùy từng trường hợp, có thể tới <span style=\"color:#ffd43b\"><b>400 mg/ngày</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Pregnyl</b></span>: <span style=\"color:#ffd43b\"><b>10.000 UI</b></span> vào lúc chẩn đoán có thai, sau đó <span style=\"color:#ffd43b\"><b>5.000 UI</b></span> 2 lần 1 tuần cho đến tuần thứ <span style=\"color:#ffd43b\"><b>12</b></span>.<br>5) Không nên điều trị nội tiết đối với thai quá <span style=\"color:#ffd43b\"><b>14 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Progesteron tổng hợp có nguy cơ dị tật nên chọn loại tự nhiên; điều trị chỉ trong giai đoạn thai còn sớm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_1"
+   ]
+  },
+  {
+   "id": "SK15-S5_1-C01",
+   "type": "cloze",
+   "section": "S5_1",
+   "category": "5.1. Dọa sẩy thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Dọa sẩy thai: Pregnyl {{c1::<span style=\"color:#ffd43b\"><b>10.000 UI</b></span>}} lúc chẩn đoán, sau đó {{c2::<span style=\"color:#ffd43b\"><b>5.000 UI</b></span>}} 2 lần/tuần đến tuần {{c3::<span style=\"color:#ffd43b\"><b>12</b></span>}}; không điều trị nội tiết với thai quá {{c4::<span style=\"color:#ffd43b\"><b>14 tuần</b></span>}}; tránh giao hợp {{c5::<span style=\"color:#ffd43b\"><b>2 tuần</b></span>}} sau khi ngưng ra máu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_1"
+   ]
+  },
+  {
+   "id": "SK15-S5_2-01",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "5.2. Sắp sẩy và đang sẩy hoặc sẩy thai sót rau",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sắp sẩy, đang sẩy, sẩy thai sót rau</b></span>: nguyên tắc xử trí và căn cứ để chọn cách xử trí?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên tắc: phải <span style=\"color:#51cf66\"><b>nạo buồng tử cung</b></span> để lấy hết thai và rau, đề phòng băng huyết và nhiễm khuẩn.<br>2) Căn cứ: tình trạng toàn thân của bệnh nhân, tuổi thai, sự xóa, mở cổ tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Lấy sạch tổ chức còn lại là gốc để phòng cả chảy máu lẫn nhiễm khuẩn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2. Sắp sẩy và đang sẩy hoặc sẩy thai sót rau",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK15-S5_2_1-01",
+   "type": "basic",
+   "section": "S5_2_1",
+   "category": "5.2.1. Sẩy thai băng huyết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Xử trí sẩy thai băng huyết</b></span> ở tuyến xã và tuyến huyện?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuyến xã: chuyển tuyến trên; nếu có choáng truyền dịch mặn đẳng trương 9‰ trong khi chuyển tuyến hoặc chờ tuyến trên xuống xử trí.<br>2) Tuyến huyện: hồi sức tích cực bằng truyền dịch và máu; khi toàn thân cho phép thì nong cổ tử cung, gắp bọc thai ra, hút hay nạo buồng tử cung; sau nạo tiêm bắp <span style=\"color:#51cf66\"><b>oxytocin 10 đơn vị</b></span>, có thể cho nhiều lần nếu còn chảy máu; cũng có thể dùng <span style=\"color:#51cf66\"><b>misoprostol đường trực tràng</b></span> để khống chế chảy máu.<br><br><b>💡 Giải thích của AI:</b><br>Ổn định tuần hoàn trước rồi mới lấy thai; oxytocin và misoprostol giúp tử cung co.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2.1. Sẩy thai băng huyết",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_2_1"
+   ]
+  },
+  {
+   "id": "SK15-S5_2_2-01",
+   "type": "basic",
+   "section": "S5_2_2",
+   "category": "5.2.2. Mới sẩy thai không băng huyết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Xử trí mới sẩy thai không băng huyết</b></span> ở tuyến xã và tuyến huyện?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuyến xã: <span style=\"color:#51cf66\"><b>cho uống kháng sinh, tư vấn và chuyển tuyến huyện</b></span>.<br>2) Tuyến huyện: siêu âm buồng tử cung; nếu đã sạch không cần hút hay nạo lại; nếu còn sót rau nạo lấy hết tổ chức rau.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm quyết định có nạo hay không, tránh can thiệp thừa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2.2. Mới sẩy thai không băng huyết",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_2_2"
+   ]
+  },
+  {
+   "id": "SK15-S5_2_3-01",
+   "type": "basic",
+   "section": "S5_2_3",
+   "category": "5.2.3. Sẩy thai nhiễm khuẩn",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Xử trí sẩy thai nhiễm khuẩn</b></span>: tuyến xã, kháng sinh, thời điểm nạo, lưu ý và chỉ định cắt tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuyến xã: cho kháng sinh, tư vấn, chuyển tuyến.<br>2) Cho <span style=\"color:#51cf66\"><b>kháng sinh liều cao phối hợp</b></span> và oxytocin.<br>3) Nạo buồng tử cung sau ít nhất <span style=\"color:#ffd43b\"><b>12 - 24 giờ</b></span>; khi nạo phải cẩn thận vì dễ <span style=\"color:#ff6b6b\"><b>thủng tử cung và nhiễm khuẩn lan tỏa</b></span>.<br>4) Nhiễm khuẩn nặng (viêm tử cung toàn bộ, nhiễm khuẩn huyết) có thể chỉ định <span style=\"color:#51cf66\"><b>cắt tử cung</b></span>; cần tư vấn trước và sau phẫu thuật.<br><br><b>💡 Giải thích của AI:</b><br>Dùng kháng sinh trước để nạo an toàn hơn; tử cung nhiễm khuẩn mềm nên dễ thủng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2.3. Sẩy thai nhiễm khuẩn",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_2_3"
+   ]
+  },
+  {
+   "id": "SK15-S5_2_3-C01",
+   "type": "cloze",
+   "section": "S5_2_3",
+   "category": "5.2.3. Sẩy thai nhiễm khuẩn",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Sẩy thai nhiễm khuẩn: nạo buồng tử cung sau ít nhất {{c1::<span style=\"color:#ffd43b\"><b>12 - 24 giờ</b></span>}} dùng kháng sinh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2.3. Sẩy thai nhiễm khuẩn",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_2_3"
+   ]
+  },
+  {
+   "id": "SK15-S5_3-01",
+   "type": "basic",
+   "section": "S5_3",
+   "category": "5.3. Sẩy thai liên tiếp",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Điều trị sẩy thai liên tiếp</b></span>: cách xác định nguyên nhân và điều trị theo từng nguyên nhân?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xác định nguyên nhân:</b> định lượng hormon, xét nghiệm giang mai, yếu tố Rh, nhiễm sắc đồ, chụp buồng tử cung...<br>2) <b>Điều trị:</b> Mổ bóc nhân xơ tử cung, mổ cắt vách ngăn tử cung....<br>3) <b>Điều trị:</b> Khâu vòng cổ tử cung cho các trường hợp <span style=\"color:#ff6b6b\"><b>hở eo tử cung</b></span>.<br>4) <b>Điều trị những nguyên nhân toàn thân:</b> giang mai, đái tháo đường, viêm thận.<br>5) <b>Điều trị:</b> Rối loạn nội tiết như thiểu năng giáp trạng; thiếu hụt estrogen, progesteron thì điều trị ngay và sớm từ khi mới có thai và liên tục trong <span style=\"color:#ffd43b\"><b>12 tuần</b></span> đầu của thai kỳ.<br>6) <b>Điều trị:</b> Hội chứng kháng phospholipid: thuốc chống huyết khối như lovenox…<br><br><b>💡 Giải thích của AI:</b><br>Mỗi nguyên nhân có biện pháp riêng: phẫu thuật cho bất thường cấu trúc, nội khoa cho toàn thân và nội tiết, chống đông cho APS.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.3. Sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_3"
+   ],
+   "asks": [
+    "xác định nguyên nhân",
+    "điều trị"
+   ]
+  },
+  {
+   "id": "SK15-S5_3-C01",
+   "type": "cloze",
+   "section": "S5_3",
+   "category": "5.3. Sẩy thai liên tiếp",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Hội chứng kháng phospholipid gây sẩy thai liên tiếp điều trị bằng thuốc chống huyết khối như {{c1::<span style=\"color:#51cf66\"><b>lovenox</b></span>}}; hở eo tử cung điều trị bằng {{c2::<span style=\"color:#51cf66\"><b>khâu vòng cổ tử cung</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.3. Sẩy thai liên tiếp",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "S5_3"
+   ]
+  },
+  {
+   "id": "SK15-ALG-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "3. Lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>So sánh nhanh</b></span> các thể lâm sàng của sẩy thai: máu, đau và cổ tử cung?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Dọa sẩy</b></span>: máu đỏ/đen ít, lẫn dịch nhầy; cổ tử cung dài, đóng kín.<br>2) Khó tránh: máu nhiều đỏ tươi hoặc kéo dài trên 10 ngày; đau hạ vị từng cơn tăng dần; cổ tử cung xóa, hé mở, hình con quay.<br>3) Đang sẩy: máu nhiều có máu cục; đau quặn từng cơn; cổ tử cung mở, thấy rau lấp ló.<br>4) Sót rau: vẫn ra máu và đau âm ỉ sau khi tống mảnh mô; cổ tử cung hé hoặc đóng; thân tử cung to hơn bình thường.<br>5) Băng huyết: máu tươi nhiều lẫn máu cục, có thể choáng; thai thập thò.<br>6) Nhiễm khuẩn: sốt, mạch nhanh, bạch cầu và CRP tăng; máu sẫm hôi; tử cung mềm ấn đau.<br><br><b>💡 Giải thích của AI:</b><br>Sắp xếp theo mức độ mở cổ tử cung và lượng máu giúp phân biệt nhanh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 3. Lâm sàng",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK15-ALG-02",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "5.2. Sắp sẩy và đang sẩy hoặc sẩy thai sót rau",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ xử trí</b></span> theo tuyến: băng huyết, mới sẩy không băng huyết, nhiễm khuẩn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Băng huyết: xã → <span style=\"color:#51cf66\"><b>chuyển tuyến</b></span>, truyền dịch mặn đẳng trương nếu choáng; huyện → hồi sức, nong, gắp, hút hoặc nạo, oxytocin 10 đơn vị tiêm bắp sau nạo, misoprostol trực tràng.<br>2) Mới sẩy không băng huyết: xã → kháng sinh, tư vấn, chuyển huyện; huyện → siêu âm, sạch thì không nạo lại, còn sót thì nạo.<br>3) Nhiễm khuẩn: kháng sinh liều cao phối hợp và oxytocin → nạo sau ít nhất 12 - 24 giờ → nhiễm khuẩn nặng thì cắt tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi nhánh cùng nguyên tắc lấy sạch tổ chức nhưng điều kiện an toàn khác nhau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.2. Sắp sẩy và đang sẩy hoặc sẩy thai sót rau",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK15-ALG-03",
+   "type": "basic",
+   "section": "S5_1",
+   "category": "5.1. Dọa sẩy thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "front": "<span style=\"color:#51cf66\"><b>Bảng giải mã số liệu</b></span> điều trị dọa sẩy thai: liều và mốc thời gian?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Acid folic 300 mg/ngày</b></span>.<br>2) Utrogestan 100 mg, có thể tới 400 mg/ngày.<br>3) Pregnyl 10.000 UI lúc chẩn đoán, sau đó 5.000 UI 2 lần/tuần đến tuần 12.<br>4) Không điều trị nội tiết nếu thai quá 14 tuần.<br>5) Tránh giao hợp đến 2 tuần sau khi ngưng ra máu.<br><br><b>💡 Giải thích của AI:</b><br>Các mốc 12 và 14 tuần giới hạn thời gian dùng nội tiết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · 5.1. Dọa sẩy thai",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ]
+  },
+  {
+   "id": "SK15-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày các <span style=\"color:#74c0fc\"><b>nguyên nhân</b></span> của sẩy thai (nguyên nhân chung, sẩy thai tự nhiên)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chung: toàn thân (bệnh tim, thận, đái tháo đường, giang mai, suy nhược, thiếu sinh tố), viêm nhiễm niêm mạc tử cung, miễn dịch (HLA), môi trường (hút thuốc, rượu, bức xạ, độc tố), rối loạn nhiễm sắc thể (<span style=\"color:#ffd43b\"><b>50 - 85%</b></span>).<br>2) Sẩy thai tự nhiên: nhiễm khuẩn cấp, sang chấn, nhiễm độc, trứng làm tổ bất thường (góc, eo; đa thai, đa ối; chửa trứng).<br><br><b>💡 Giải thích của AI:</b><br>Nhóm theo nguồn gốc: mẹ, môi trường, thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK15-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày các <span style=\"color:#74c0fc\"><b>nguyên nhân sẩy thai liên tiếp</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử cung: kém phát triển, u xơ, dị dạng, <span style=\"color:#ff6b6b\"><b>hở eo tử cung</b></span>.<br>2) Nội tiết: giảm hCG, estrogen, progesteron; cường androgen; rối loạn giáp.<br>3) Bất tương hợp Rh.<br>4) Hội chứng kháng phospholipid.<br><br><b>💡 Giải thích của AI:</b><br>Các nguyên nhân tồn tại bền vững nên gây sẩy lặp lại.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK15-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> <span style=\"color:#74c0fc\"><b>dọa sẩy thai</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng lâm sàng:</b> phôi còn sống, chưa bong; ra máu đỏ hoặc đen lượng ít kéo dài lẫn dịch nhầy; tức nặng bụng dưới, đau lưng; cổ tử cung dài, đóng kín, thân tử cung mềm to tương ứng tuổi thai; siêu âm bóc tách nhỏ, túi thai đều rõ.<br>2) <b>Hướng xử trí:</b> <span style=\"color:#51cf66\"><b>nghỉ ngơi tuyệt đối</b></span>, ăn nhẹ chống táo bón; vitamin E, acid folic 300 mg/ngày, B6; thuốc giảm co; progesteron tự nhiên (utrogestan 100 - 400 mg/ngày), Pregnyl; không điều trị nội tiết thai quá 14 tuần; kháng sinh khi nghi nhiễm khuẩn; tránh giao hợp 2 tuần sau ngưng ra máu.<br><br><b>💡 Giải thích của AI:</b><br>Còn giữ được thai nên điều trị bảo tồn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "triệu chứng lâm sàng",
+    "hướng xử trí"
+   ]
+  },
+  {
+   "id": "SK15-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> <span style=\"color:#74c0fc\"><b>đang sẩy thai</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng lâm sàng:</b> ra máu nhiều tươi có máu cục; đau quặn từng cơn hạ vị; đoạn dưới phình to, cổ tử cung mở, có thể thấy rau lấp ló.<br>2) <b>Hướng xử trí:</b> <span style=\"color:#51cf66\"><b>nạo buồng tử cung</b></span> lấy hết thai và rau, đề phòng băng huyết, nhiễm khuẩn, dựa vào toàn thân, tuổi thai, xóa mở cổ tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Thai không giữ được nên phải lấy sạch tổ chức.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "triệu chứng lâm sàng",
+    "hướng xử trí"
+   ]
+  },
+  {
+   "id": "SK15-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> <span style=\"color:#74c0fc\"><b>sẩy thai băng huyết</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng lâm sàng:</b> <span style=\"color:#ff6b6b\"><b>ra máu nhiều tươi</b></span>, có thể choáng; máu tươi lẫn máu cục, phần thai thập thò ở cổ tử cung hoặc âm đạo.<br>2) <b>Hướng xử trí:</b> xã chuyển tuyến trên, truyền dịch mặn đẳng trương 9‰ nếu choáng; huyện hồi sức bằng dịch và máu, nong, gắp thai, hút hoặc nạo, oxytocin 10 đơn vị tiêm bắp sau nạo, misoprostol trực tràng.<br><br><b>💡 Giải thích của AI:</b><br>Ưu tiên hồi sức rồi lấy sạch tổ chức.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "triệu chứng lâm sàng",
+    "hướng xử trí"
+   ]
+  },
+  {
+   "id": "SK15-CH-06",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> <span style=\"color:#74c0fc\"><b>sẩy thai sót rau</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng lâm sàng:</b> có dọa sẩy trước, đau nhiều và ra máu nhiều hơn, tống mảnh mô, máu vẫn ra và đau âm ỉ; cổ tử cung hé hoặc đóng, thân tử cung to; có thể nhiễm trùng; siêu âm thấy sót rau.<br>2) <b>Hướng xử trí:</b> <span style=\"color:#51cf66\"><b>nạo buồng tử cung</b></span> lấy hết rau; mới sẩy không băng huyết: xã kháng sinh, tư vấn, chuyển huyện; huyện siêu âm, sạch thì không nạo lại, sót thì nạo.<br><br><b>💡 Giải thích của AI:</b><br>Phần rau còn lại gây chảy máu và nhiễm khuẩn nên cần lấy.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "triệu chứng lâm sàng",
+    "hướng xử trí"
+   ]
+  },
+  {
+   "id": "SK15-CH-07",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Trình bày <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> và <span style=\"color:#51cf66\"><b>hướng xử trí</b></span> <span style=\"color:#74c0fc\"><b>sẩy thai nhiễm trùng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng lâm sàng:</b> ra máu kéo dài kèm sốt, mạch nhanh, vẻ mặt nhiễm trùng, bạch cầu và CRP tăng; cổ tử cung hé, máu sẫm hôi, tử cung mềm ấn đau.<br>2) <b>Hướng xử trí:</b> <span style=\"color:#51cf66\"><b>kháng sinh liều cao</b></span> phối hợp và oxytocin; nạo sau ít nhất 12 - 24 giờ, cẩn thận vì dễ thủng tử cung; nhiễm khuẩn nặng có thể cắt tử cung, tư vấn trước và sau mổ; tuyến xã cho kháng sinh, tư vấn, chuyển tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Kiểm soát nhiễm trùng trước khi nạo để giảm nguy cơ lan tỏa.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-15 Sẩy thai · Câu hỏi",
+   "tags": [
+    "SK-15",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "triệu chứng lâm sàng",
+    "hướng xử trí"
+   ]
+  }
+ ]
+}

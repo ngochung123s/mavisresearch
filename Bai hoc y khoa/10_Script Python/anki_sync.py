@@ -7,7 +7,8 @@ Quy tắc (RULES_LESSON_APKG.md §6):
 - Note còn trong deck nhưng không còn trong bộ thẻ → chuyển sang `<deck_root>::_Archive::<Mã bài>`,
   suspend, tag `lesson_archived`. KHÔNG xóa note của người học.
 - Deck cũ (tên lệch chuẩn) sau khi rỗng thì bị xóa.
-- Cuối cùng đối soát: số note trong deck == số thẻ input và mọi field khớp.
+- Ảnh được thẻ tham chiếu (`<img src>`) được đưa vào thư mục media của Anki (storeMediaFile).
+- Cuối cùng đối soát: số note trong deck == số thẻ input, mọi field khớp, mọi ảnh có trong media Anki.
 """
 from __future__ import annotations
 
@@ -177,7 +178,7 @@ def ensure_model(model: dict) -> None:
 
 
 def sync(code: str, specialty, deck_name: str, cards: list[dict], models: dict[str, dict], lock: dict,
-         legacy_decks: list[str] | None = None, log=print) -> dict:
+         legacy_decks: list[str] | None = None, media: list[Path] | None = None, log=print) -> dict:
     """Đồng bộ `cards` (field đã escape, đúng nội dung APKG) vào deck. Trả về báo cáo, cập nhật `lock` tại chỗ."""
     archive_deck = f"{specialty.archive_root}::{code}"
     source_decks = [deck_name] + [d for d in (legacy_decks or []) if d != deck_name]
@@ -190,10 +191,12 @@ def sync(code: str, specialty, deck_name: str, cards: list[dict], models: dict[s
         guids.update(anki_guids(deck))
 
     ac("createDeck", deck=deck_name)
+    for path in media or []:
+        ac("storeMediaFile", filename=path.name, path=str(path))
     for m in models.values():
         ensure_model(m)
 
-    report = {"updated": 0, "unchanged": 0, "added": 0, "archived": 0, "moved": 0}
+    report = {"updated": 0, "unchanged": 0, "added": 0, "archived": 0, "moved": 0, "media": len(media or [])}
     kept: set[int] = set()
     updates, tag_groups = [], {}
     for card in cards:
@@ -265,5 +268,7 @@ def sync(code: str, specialty, deck_name: str, cards: list[dict], models: dict[s
         for key, value in field_map(card, list(info["fields"])).items():
             if info["fields"][key]["value"] != value:
                 raise AnkiError(f"field lệch sau sync: {card['id']} / {key}")
+    if missing := [p.name for p in media or [] if not ac("retrieveMediaFile", filename=p.name)]:
+        raise AnkiError(f"ảnh chưa có trong media Anki: {missing}")
     report["deck_notes"] = len(final_ids)
     return report

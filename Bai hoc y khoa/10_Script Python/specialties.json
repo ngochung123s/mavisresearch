@@ -96,6 +96,20 @@
       "artifact_dir": "outputs",
       "curriculum": "_README.md",
       "post_release": []
+    },
+    {
+      "key": "san_ytb",
+      "name": "Giáo trình Sản phụ khoa ĐHYD Thái Bình 2021",
+      "_note": "Bộ thẻ bám nguyên văn giáo trình (nguồn: F:/DL/Giao_trinh_San_khoa_Y_Thai_Binh_2021). Không có bài .md/evidence: build bằng deck_builder.py, không qua release_lesson.py.",
+      "folder": "13_Giao trinh San YTB",
+      "id_prefix": "SK",
+      "id_from": "folder",
+      "deck_root": "2. Y Khoa - Sản Phụ Khoa & ART",
+      "deck_example": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-12 Sổ rau thường",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_README.md",
+      "post_release": []
     }
   ]
 }

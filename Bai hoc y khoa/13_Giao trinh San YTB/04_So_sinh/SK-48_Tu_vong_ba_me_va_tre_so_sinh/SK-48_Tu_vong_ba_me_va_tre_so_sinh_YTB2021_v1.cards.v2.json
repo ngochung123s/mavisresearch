@@ -1,0 +1,525 @@
+{
+  "cards": [
+    {
+      "id": "SK48-S1-01",
+      "type": "basic",
+      "section": "S1",
+      "category": "Định nghĩa",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Theo WHO 1990, <span style=\"color:#74c0fc\"><b>tử vong mẹ</b></span> được định nghĩa thế nào (thời điểm, không phụ thuộc yếu tố nào, nguyên nhân, loại trừ)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Là tử vong của người phụ nữ <span style=\"color:#ffd43b\"><b>trong khi mang thai hoặc trong vòng 42 ngày sau khi kết thúc thai kỳ</b></span>.<br>2) Không phụ thuộc vào thời gian và địa điểm mang thai.<br>3) Do <span style=\"color:#ff6b6b\"><b>bất kỳ nguyên nhân nào có liên quan hoặc bị nặng lên bởi quá trình mang thai hoặc quản lý thai nghén</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Không bao gồm</b></span> nguyên nhân do tai nạn hoặc sự cố bất ngờ.<br><br><b>💡 Giải thích của AI:</b><br>Định nghĩa gắn cái chết với thai kỳ, nên loại các nguyên nhân ngẫu nhiên.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 1. Định nghĩa",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S1"
+      ]
+    },
+    {
+      "id": "SK48-S1-C01",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Định nghĩa",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Tử vong mẹ là tử vong của phụ nữ trong khi mang thai hoặc trong vòng {{c1::<span style=\"color:#ffd43b\"><b>42 ngày</b></span>}} sau khi kết thúc thai kỳ (WHO {{c2::<span style=\"color:#ffd43b\"><b>1990</b></span>}}).",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 1. Định nghĩa",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-01",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Tình hình bệnh tật và tử vong mẹ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Tình hình <span style=\"color:#74c0fc\"><b>bệnh tật và tử vong mẹ</b></span> trên thế giới: số phụ nữ chết hàng năm, số bị ảnh hưởng sức khoẻ và tổng số bị ảnh hưởng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ước tính <span style=\"color:#ffd43b\"><b>529.000</b></span> phụ nữ chết hàng năm do nguyên nhân liên quan thai nghén.<br>2) Số phụ nữ bị ảnh hưởng sức khoẻ (tổn thương đường sinh dục, nhiễm khuẩn, tàn tật khi mang thai hoặc sinh đẻ) <span style=\"color:#ffd43b\"><b>cao gấp 20 lần</b></span> tử vong mẹ.<br>3) Ít nhất <span style=\"color:#ffd43b\"><b>10 triệu</b></span> phụ nữ mỗi năm bị ảnh hưởng sức khoẻ do sinh đẻ.<br>4) Biến chứng thai nghén và sinh đẻ là nguyên nhân hàng đầu gây tử vong và ảnh hưởng sức khoẻ nghiêm trọng ở phụ nữ tuổi sinh đẻ tại các nước đang phát triển.<br><br><b>💡 Giải thích của AI:</b><br>Tử vong chỉ là phần nổi của gánh nặng bệnh tật do sinh đẻ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-02",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Tình hình bệnh tật và tử vong mẹ",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Suy dinh dưỡng mạn tính</b></span> và <span style=\"color:#ff6b6b\"><b>thiếu máu</b></span> ở mẹ làm tăng nguy cơ gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Suy dinh dưỡng mạn tính trong quá trình phát triển → dễ <span style=\"color:#ff6b6b\"><b>đẻ khó khi chuyển dạ</b></span>.<br>2) Thiếu máu là yếu tố chỉ báo nguy cơ <span style=\"color:#ff6b6b\"><b>chảy máu và nhiễm trùng máu</b></span> khi sinh nở; xác định ít nhất trong <span style=\"color:#ffd43b\"><b>20%</b></span> tử vong mẹ ở các nước đang phát triển.<br><br><b>💡 Giải thích của AI:</b><br>Tình trạng nền của mẹ làm giảm khả năng chịu đựng khi sinh.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-03",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Tình hình bệnh tật và tử vong mẹ",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Các yếu tố gây <span style=\"color:#ff6b6b\"><b>bệnh tật và tử vong ở mẹ</b></span> ảnh hưởng thế nào đến thai và trẻ sơ sinh (số tử vong sơ sinh hàng năm)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ảnh hưởng tới <span style=\"color:#74c0fc\"><b>khả năng sống sót của bào thai và trẻ sơ sinh</b></span>.<br>2) Dẫn tới khoảng <span style=\"color:#ffd43b\"><b>8 triệu</b></span> tử vong sơ sinh hàng năm, khoảng một nửa là <span style=\"color:#ff6b6b\"><b>tử vong bào thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sức khoẻ mẹ và con liên quan chặt chẽ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-04",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Tình hình bệnh tật và tử vong mẹ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Bảng 1</b></span>: tỉ lệ tử vong mẹ theo vùng (/100.000 trẻ sơ sinh sống, UNICEF/WHO 2005)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Toàn Thế giới <span style=\"color:#ffd43b\"><b>400</b></span><br>2) Châu Phi <span style=\"color:#ffd43b\"><b>830</b></span><br>3) Châu Á <span style=\"color:#ffd43b\"><b>330</b></span><br>4) Châu Âu <span style=\"color:#ffd43b\"><b>24</b></span><br>5) Tây Âu <span style=\"color:#ffd43b\"><b>17</b></span><br>6) Châu Mỹ La tinh <span style=\"color:#ffd43b\"><b>190</b></span><br>7) Bắc Mỹ <span style=\"color:#ffd43b\"><b>8</b></span><br>8) Úc và New Zealand <span style=\"color:#ffd43b\"><b>6</b></span><br><br><b>💡 Giải thích của AI:</b><br>Châu Phi cao nhất, Úc - New Zealand thấp nhất: chênh lệch rất lớn giữa vùng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-05",
+      "type": "basic",
+      "section": "S2_1",
+      "category": "Tình hình bệnh tật và tử vong mẹ",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Tại <span style=\"color:#74c0fc\"><b>Việt Nam</b></span>: tỷ lệ tử vong mẹ năm 2000, sự khác biệt giữa các vùng và nguyên nhân chủ yếu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Năm 2000 ước tính <span style=\"color:#ffd43b\"><b>130</b></span> ca tử vong/100.000 ca sinh sống; đặc biệt cao ở vùng sâu, vùng cao.<br>2) Tây Nguyên <span style=\"color:#ffd43b\"><b>418</b></span>/100.000; vùng núi phía Bắc <span style=\"color:#ffd43b\"><b>298</b></span>/100.000; ven biển phía Bắc và đồng bằng sông Cửu Long <span style=\"color:#ffd43b\"><b>200</b></span>/100.000.<br>3) Nguyên nhân chủ yếu do năm tai biến sản khoa, đứng đầu là <span style=\"color:#ff6b6b\"><b>băng huyết sau sinh (41%)</b></span> và <span style=\"color:#ff6b6b\"><b>nhiễm trùng hậu sản (20%)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vùng khó tiếp cận y tế có tỷ lệ cao hơn rõ rệt.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_1-C01",
+      "type": "cloze",
+      "section": "S2_1",
+      "category": "Tình hình",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Ước tính {{c1::<span style=\"color:#ffd43b\"><b>529.000</b></span>}} phụ nữ chết hàng năm do thai nghén; ở Việt Nam năm 2000 tử vong mẹ là {{c2::<span style=\"color:#ffd43b\"><b>130</b></span>}}/100.000 ca sinh sống, băng huyết sau sinh chiếm {{c3::<span style=\"color:#ffd43b\"><b>41%</b></span>}} và nhiễm trùng hậu sản {{c4::<span style=\"color:#ffd43b\"><b>20%</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.1. Tình hình bệnh tật và tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_1_1-01",
+      "type": "basic",
+      "section": "S2_2_1_1",
+      "category": "Băng huyết",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Kể các dạng <span style=\"color:#ff6b6b\"><b>băng huyết</b></span> gây tử vong mẹ theo thời điểm và nguyên nhân?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Trước khi sinh</b></span>: khoảng giữa tuần thứ <span style=\"color:#ffd43b\"><b>28 và 40</b></span>, có thể do rau bong non, rau tiền đạo...<br>2) <span style=\"color:#ff6b6b\"><b>Trong khi sinh</b></span>: thường do vỡ tử cung và tổn thương đường sinh dục.<br>3) <span style=\"color:#ff6b6b\"><b>Sau sinh</b></span>: thường xuất hiện trong những giờ đầu sau sinh, thường do chảy máu thời kỳ sổ rau, tổn thương đường sinh dục.<br>4) Băng huyết do <span style=\"color:#ff6b6b\"><b>thủng tử cung trong nạo thai to</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi giai đoạn có cơ chế chảy máu riêng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.1. Băng huyết",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1_1"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_1_2-01",
+      "type": "basic",
+      "section": "S2_2_1_2",
+      "category": "Nhiễm trùng",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ff6b6b\"><b>Nhiễm trùng</b></span> là nguyên nhân trực tiếp gây tử vong mẹ: bệnh cảnh và các loại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường dẫn đến bệnh cảnh nặng nề gây tử vong do <span style=\"color:#ff6b6b\"><b>nhiễm trùng huyết</b></span>.<br>2) Nhiễm trùng hậu sản.<br>3) Nhiễm trùng sau nạo phá thai.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm trùng tại chỗ lan vào máu gây tử vong.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.2. Nhiễm trùng",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1_2"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_1_3-01",
+      "type": "basic",
+      "section": "S2_2_1_3",
+      "category": "Tiền sản giật nặng - sản giật",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Tiền sản giật nặng - sản giật</b></span> có thể gây tử vong mẹ trong những bệnh cảnh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phù phổi cấp</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Hội chứng HELLP</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Sản giật</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Băng huyết sau sinh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là các biến chứng nặng của tiền sản giật.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.3. Tiền sản giật nặng - sản giật",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1_3"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_1_3-02",
+      "type": "basic",
+      "section": "S2_2_1_3",
+      "category": "Tiền sản giật nặng - sản giật",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Bảng 2</b></span> (UNFPA 2001): tỷ lệ % và số người chết/năm theo nguyên nhân tử vong mẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Băng huyết <span style=\"color:#ffd43b\"><b>21%</b></span> - <span style=\"color:#ffd43b\"><b>111.090</b></span><br>2) Nạo thai không an toàn <span style=\"color:#ffd43b\"><b>14%</b></span> - <span style=\"color:#ffd43b\"><b>74.060</b></span><br>3) Tăng huyết áp (sản giật) <span style=\"color:#ffd43b\"><b>13%</b></span> - <span style=\"color:#ffd43b\"><b>68.770</b></span><br>4) Đẻ khó <span style=\"color:#ffd43b\"><b>8%</b></span> - <span style=\"color:#ffd43b\"><b>42.320</b></span><br>5) Nhiễm trùng huyết <span style=\"color:#ffd43b\"><b>8%</b></span> - <span style=\"color:#ffd43b\"><b>42.320</b></span><br>6) Biến chứng phụ khoa <span style=\"color:#ffd43b\"><b>11%</b></span> - <span style=\"color:#ffd43b\"><b>74.060</b></span><br>7) Nguyên nhân gián tiếp <span style=\"color:#ffd43b\"><b>25%</b></span> - <span style=\"color:#ffd43b\"><b>132.250</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nguyên nhân gián tiếp chiếm tỷ lệ lớn nhất, kế đến là băng huyết.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.3. Tiền sản giật nặng - sản giật",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1_3"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_1_3-C01",
+      "type": "cloze",
+      "section": "S2_2_1_3",
+      "category": "Nguyên nhân tử vong mẹ",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Theo Bảng 2: băng huyết chiếm {{c1::<span style=\"color:#ffd43b\"><b>21%</b></span>}}, nạo thai không an toàn {{c2::<span style=\"color:#ffd43b\"><b>14%</b></span>}}, tăng huyết áp (sản giật) {{c3::<span style=\"color:#ffd43b\"><b>13%</b></span>}}, nguyên nhân gián tiếp {{c4::<span style=\"color:#ffd43b\"><b>25%</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.3. Tiền sản giật nặng - sản giật",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_1_3"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_2-01",
+      "type": "basic",
+      "section": "S2_2_2",
+      "category": "Nguyên nhân gián tiếp",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Nguyên nhân gián tiếp</b></span> gây tử vong mẹ: khái niệm, tỷ lệ và các ví dụ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể có từ trước và do có thai nên <span style=\"color:#ff6b6b\"><b>trầm trọng thêm</b></span>, chiếm khoảng <span style=\"color:#ffd43b\"><b>15 - 20 %</b></span> tỷ lệ tử vong.<br>2) Ví dụ: <span style=\"color:#ff6b6b\"><b>bệnh tim và thai nghén, basedow và thai nghén, đái tháo đường và thai nghén, viêm gan siêu vi cấp, thiếu máu, bệnh sốt rét, HIV/AIDS</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thai nghén làm nặng thêm bệnh nền có sẵn.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.2. Nguyên nhân gián tiếp",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_2"
+      ]
+    },
+    {
+      "id": "SK48-S2_2_2-02",
+      "type": "basic",
+      "section": "S2_2_2",
+      "category": "Nguyên nhân gián tiếp",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#ffd43b\"><b>Tỷ lệ tử vong</b></span> các bà mẹ ở các nước đang phát triển theo thời điểm: trước, trong và sau khi sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trước khi sinh: <span style=\"color:#ffd43b\"><b>23,9 %</b></span><br>2) Trong khi sinh: <span style=\"color:#ffd43b\"><b>15,5 %</b></span><br>3) Sau khi sinh: <span style=\"color:#ffd43b\"><b>60,6 %</b></span><br><br><b>💡 Giải thích của AI:</b><br>Phần lớn tử vong xảy ra sau sinh, nên cần chăm sóc <span style=\"color:#74c0fc\"><b>hậu sản</b></span> chặt chẽ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.2. Nguyên nhân gián tiếp",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S2_2_2"
+      ]
+    },
+    {
+      "id": "SK48-S3-01",
+      "type": "basic",
+      "section": "S3",
+      "category": "Tử vong của trẻ sơ sinh",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Tử vong trẻ sơ sinh</b></span> trên thế giới (WHO 2005): số liệu và nguyên nhân chủ yếu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hàng năm có <span style=\"color:#ffd43b\"><b>7,3 triệu</b></span> thai nhi và trẻ sơ sinh chết vào những tháng cuối thai kỳ, lúc sinh và trong vòng <span style=\"color:#ffd43b\"><b>4 tuần</b></span> sau sinh.<br>2) Trong đó khoảng <span style=\"color:#ffd43b\"><b>3,3 triệu</b></span> trẻ chết khi mới sinh và <span style=\"color:#ffd43b\"><b>4 triệu</b></span> chết trong giai đoạn sơ sinh; <span style=\"color:#ffd43b\"><b>4 triệu</b></span> trẻ khác chết trong năm đầu tiên của cuộc đời.<br>3) <span style=\"color:#ff6b6b\"><b>Suy hô hấp, nhiễm trùng, suy dinh dưỡng</b></span> là nguyên nhân chủ yếu.<br><br><b>💡 Giải thích của AI:</b><br>Ba nguyên nhân chính đều có thể phòng ngừa bằng chăm sóc tốt.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 3. Tử vong của trẻ sơ sinh",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ]
+    },
+    {
+      "id": "SK48-S3-C01",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Tử vong sơ sinh",
+      "tier": 2,
+      "track": "barem_goc",
+      "text": "Hàng năm có {{c1::<span style=\"color:#ffd43b\"><b>7,3 triệu</b></span>}} thai nhi và trẻ sơ sinh chết; nguyên nhân chủ yếu là {{c2::<span style=\"color:#ff6b6b\"><b>suy hô hấp, nhiễm trùng, suy dinh dưỡng</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 3. Tử vong của trẻ sơ sinh",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S3"
+      ]
+    },
+    {
+      "id": "SK48-S4_1-01",
+      "type": "basic",
+      "section": "S4_1",
+      "category": "Các yếu tố ảnh hưởng đến tử vong mẹ",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Các <span style=\"color:#74c0fc\"><b>yếu tố ảnh hưởng đến tử vong mẹ</b></span> (3 nhóm) và nội dung từng nhóm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Dân trí</b></span>: quản lý thai nghén trước sinh chưa đầy đủ; chăm sóc trước, trong và sau sinh chưa chặt chẽ; sinh đẻ tại nhà...<br>2) <span style=\"color:#74c0fc\"><b>Kinh tế</b></span>: chất lượng cuộc sống không đảm bảo, dinh dưỡng kém.<br>3) <span style=\"color:#74c0fc\"><b>Mạng lưới y tế địa phương</b></span>: công tác tư vấn sức khỏe sinh sản, nạo phá thai không an toàn...<br><br><b>💡 Giải thích của AI:</b><br>Ba nhóm: nhận thức người dân, điều kiện kinh tế, và chất lượng dịch vụ y tế.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 4.1. Các yếu tố ảnh hưởng đến tử vong mẹ",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S4_1"
+      ]
+    },
+    {
+      "id": "SK48-S4_2-01",
+      "type": "basic",
+      "section": "S4_2",
+      "category": "Các yếu tố ảnh hưởng đến tử vong trẻ sơ sinh",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Bảng 4</b></span>: ảnh hưởng đối với thai nhi và sơ sinh khi mẹ bị <span style=\"color:#ff6b6b\"><b>thiếu máu nghiêm trọng, băng huyết, tăng huyết áp, nhiễm trùng máu, đẻ khó</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thiếu máu nghiêm trọng: <span style=\"color:#ff6b6b\"><b>nhẹ cân, ngạt thở chết khi lọt lòng</b></span>.<br>2) Băng huyết: <span style=\"color:#ff6b6b\"><b>ngạt thở, giảm lưu lượng máu, chết sau khi lọt lòng</b></span>.<br>3) Tăng huyết áp khi mang thai: <span style=\"color:#ff6b6b\"><b>nhẹ cân, ngạt thở chết khi lọt lòng</b></span>.<br>4) Nhiễm trùng máu: <span style=\"color:#ff6b6b\"><b>trẻ sơ sinh nhiễm trùng huyết</b></span>.<br>5) Đẻ khó: <span style=\"color:#ff6b6b\"><b>ngạt thở, con chết khi lọt lòng, nhiễm trùng máu, thương tổn, khuyết tật</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mẹ giảm tưới máu, oxy hay nhiễm trùng thì con chịu hậu quả tương ứng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 4.2. Các yếu tố ảnh hưởng đến tử vong trẻ sơ sinh",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S4_2"
+      ]
+    },
+    {
+      "id": "SK48-S4_2-02",
+      "type": "basic",
+      "section": "S4_2",
+      "category": "Các yếu tố ảnh hưởng đến tử vong trẻ sơ sinh",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Bảng 4</b></span> (tiếp): ảnh hưởng đối với sơ sinh khi mẹ <span style=\"color:#ff6b6b\"><b>nhiễm trùng khi mang thai (STDs; HIV), viêm gan, sốt rét, có thai ngoài ý muốn, sinh đẻ không vô khuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng khi mang thai (STDs; HIV): <span style=\"color:#ff6b6b\"><b>đẻ non, sơ sinh nhiễm khuẩn mắt, mù mắt, viêm phổi, chết ngay khi lọt lòng, nhiễm bệnh giang mai, lây truyền HIV trực tiếp từ mẹ sang con</b></span>.<br>2) Viêm gan: <span style=\"color:#ff6b6b\"><b>viêm gan</b></span>.<br>3) Sốt rét: <span style=\"color:#ff6b6b\"><b>nhẹ cân, đẻ non, chậm lớn</b></span>.<br>4) Có thai ngoài ý muốn: <span style=\"color:#ff6b6b\"><b>phát triển nguy cơ tật bệnh do sự sỉ nhục ngược đãi và sự bất chấp</b></span>.<br>5) Sinh đẻ không đảm bảo vô khuẩn: <span style=\"color:#ff6b6b\"><b>trẻ sơ sinh bị nhiễm trùng, uốn ván</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh của mẹ truyền hoặc gây hại cho con trong thai kỳ và lúc sinh.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 4.2. Các yếu tố ảnh hưởng đến tử vong trẻ sơ sinh",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S4_2"
+      ]
+    },
+    {
+      "id": "SK48-S4_3-01",
+      "type": "basic",
+      "section": "S4_3",
+      "category": "Mô hình 3 chậm",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "<span style=\"color:#74c0fc\"><b>Mô hình 3 chậm</b></span> trong tử vong mẹ gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chậm quyết định tìm kiếm sự chăm sóc</b></span> (nhân tố văn hoá/kinh tế xã hội/trình độ giáo dục).<br>2) <span style=\"color:#ff6b6b\"><b>Chậm xác định và đi đến cơ sở y tế</b></span> (khả năng tiếp cận với cơ sở y tế).<br>3) <span style=\"color:#ff6b6b\"><b>Chậm tiếp nhận điều trị đầy đủ và thích hợp</b></span> (chất lượng chăm sóc).<br><br><b>💡 Giải thích của AI:</b><br>Ba khâu nối tiếp: quyết định, đi đến, được điều trị.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 4.3. Mô hình 3 chậm",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S4_3"
+      ]
+    },
+    {
+      "id": "SK48-S5-01",
+      "type": "basic",
+      "section": "S5",
+      "category": "Biện pháp khắc phục",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Các <span style=\"color:#51cf66\"><b>biện pháp khắc phục</b></span> tử vong mẹ và trẻ sơ sinh về quản lý thai nghén, chăm sóc khi đẻ và nhân lực, trang thiết bị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng cường quản lý thai nghén trước đẻ, vận động bà mẹ khám đầy đủ tối thiểu <span style=\"color:#ffd43b\"><b>3 lần</b></span>.<br>2) Tăng cường chăm sóc trong khi đẻ, theo dõi chặt chẽ từ khi chuyển dạ tới khi đẻ; thực hiện <span style=\"color:#51cf66\"><b>vô khuẩn sản khoa</b></span> nghiêm túc.<br>3) Tăng cường đội ngũ cán bộ chuyên khoa sản - nữ hộ sinh tại tuyến cơ sở; bổ sung trang thiết bị.<br><br><b>💡 Giải thích của AI:</b><br>Chăm sóc liên tục từ trước đến trong đẻ, kèm nhân lực tuyến cơ sở.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 5. Biện pháp khắc phục",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S5"
+      ]
+    },
+    {
+      "id": "SK48-S5-02",
+      "type": "basic",
+      "section": "S5",
+      "category": "Biện pháp khắc phục",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Các <span style=\"color:#51cf66\"><b>biện pháp khắc phục</b></span> còn lại: nạo phá thai, vị thế phụ nữ, nguyên tắc giảm tử vong mẹ, kỹ năng nữ hộ sinh, cấp cứu sản khoa, thuốc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giảm <span style=\"color:#ff6b6b\"><b>nạo phá thai không an toàn</b></span>.<br>2) Nâng cao vị thế của phụ nữ.<br>3) Giảm tử vong mẹ bằng cách ngăn ngừa thai nghén không mong muốn, ngăn ngừa các biến chứng khi mang thai, xử trí thích hợp với bất kỳ biến chứng nào xảy ra.<br>4) Nâng cao kỹ năng cho nữ hộ sinh, gồm năng lực xử trí ban đầu các biến chứng sản khoa và cấp cứu sản khoa.<br>5) Dịch vụ cấp cứu sản khoa phải đảm bảo chất lượng phương tiện chuyển tuyến lâm sàng.<br>6) Cung cấp đầy đủ thuốc thiết yếu và trang thiết bị.<br><br><b>💡 Giải thích của AI:</b><br>Gồm cả phòng ngừa, xử trí kịp thời và chuyển tuyến an toàn.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 5. Biện pháp khắc phục",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S5"
+      ]
+    },
+    {
+      "id": "SK48-S5-03",
+      "type": "basic",
+      "section": "S5",
+      "category": "Biện pháp khắc phục",
+      "tier": 2,
+      "track": "barem_goc",
+      "front": "Giảm <span style=\"color:#ff6b6b\"><b>tử vong mẹ</b></span> có thể thực hiện bằng cách nào (3 hướng)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngăn ngừa <span style=\"color:#51cf66\"><b>thai nghén không mong muốn</b></span>.<br>2) Ngăn ngừa các biến chứng xảy ra trong khi mang thai.<br>3) Xử trí thích hợp với bất kỳ biến chứng nào xảy ra.<br><br><b>💡 Giải thích của AI:</b><br>Phòng từ trước thai kỳ, trong thai kỳ, rồi xử trí khi có biến chứng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 5. Biện pháp khắc phục",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "S5"
+      ]
+    },
+    {
+      "id": "SK48-ALG-01",
+      "type": "basic",
+      "section": "S2_2_1",
+      "category": "Nguyên nhân trực tiếp",
+      "tier": 1,
+      "track": "barem_goc",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#51cf66\"><b>Bảng so sánh nhanh:</b></span> các nguyên nhân <span style=\"color:#ff6b6b\"><b>trực tiếp</b></span> gây tử vong mẹ và bệnh cảnh tử vong?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Băng huyết</b></span>: trước sinh (rau bong non, rau tiền đạo); trong sinh (vỡ tử cung, tổn thương đường sinh dục); sau sinh (sổ rau, tổn thương đường sinh dục); thủng tử cung khi nạo thai to.<br>2) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng</b></span>: hậu sản, sau nạo phá thai → nhiễm trùng huyết.<br>3) <span style=\"color:#ff6b6b\"><b>Tiền sản giật nặng - sản giật</b></span>: phù phổi cấp, HELLP, sản giật, băng huyết sau sinh.<br><br><b>💡 Giải thích của AI:</b><br>Tóm tắt ba nhóm nguyên nhân trực tiếp để dễ so sánh.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.1. Băng huyết",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "Thuat_toan"
+      ]
+    },
+    {
+      "id": "SK48-ALG-02",
+      "type": "basic",
+      "section": "S2_2_1_3",
+      "category": "Bảng giải mã số liệu",
+      "tier": 1,
+      "track": "barem_goc",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu:</b></span> thứ tự các nguyên nhân tử vong mẹ theo tỷ lệ % (Bảng 2)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân gián tiếp <span style=\"color:#ffd43b\"><b>25%</b></span><br>2) Băng huyết <span style=\"color:#ffd43b\"><b>21%</b></span><br>3) Nạo thai không an toàn <span style=\"color:#ffd43b\"><b>14%</b></span><br>4) Tăng huyết áp (sản giật) <span style=\"color:#ffd43b\"><b>13%</b></span><br>5) Biến chứng phụ khoa <span style=\"color:#ffd43b\"><b>11%</b></span><br>6) Đẻ khó <span style=\"color:#ffd43b\"><b>8%</b></span> và nhiễm trùng huyết <span style=\"color:#ffd43b\"><b>8%</b></span><br><br><b>💡 Giải thích của AI:</b><br>Sắp xếp giảm dần giúp nhớ nhóm nào chiếm nhiều nhất.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.1.3. Tiền sản giật nặng - sản giật",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "Thuat_toan"
+      ]
+    },
+    {
+      "id": "SK48-ALG-03",
+      "type": "basic",
+      "section": "S2_2_2",
+      "category": "Bảng giải mã số liệu",
+      "tier": 2,
+      "track": "barem_goc",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu:</b></span> tử vong mẹ ở các nước đang phát triển theo giai đoạn (trước, trong, sau sinh)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trước sinh <span style=\"color:#ffd43b\"><b>23,9 %</b></span><br>2) Trong sinh <span style=\"color:#ffd43b\"><b>15,5 %</b></span><br>3) Sau sinh <span style=\"color:#ffd43b\"><b>60,6 %</b></span> → <span style=\"color:#51cf66\"><b>cần chăm sóc sau sinh chặt chẽ</b></span><br><br><b>💡 Giải thích của AI:</b><br>Sau sinh chiếm hơn một nửa nên là giai đoạn cần ưu tiên.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 2.2.2. Nguyên nhân gián tiếp",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "Thuat_toan"
+      ]
+    },
+    {
+      "id": "SK48-ALG-04",
+      "type": "basic",
+      "section": "S4_3",
+      "category": "Mô hình 3 chậm",
+      "tier": 1,
+      "track": "barem_goc",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "<span style=\"color:#51cf66\"><b>Lưu đồ:</b></span> <span style=\"color:#74c0fc\"><b>mô hình 3 chậm</b></span> theo trình tự và yếu tố quyết định mỗi khâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chậm quyết định tìm kiếm chăm sóc → do <span style=\"color:#ff6b6b\"><b>văn hoá/kinh tế xã hội/trình độ giáo dục</b></span>.<br>2) Chậm xác định và đi đến cơ sở y tế → do <span style=\"color:#ff6b6b\"><b>khả năng tiếp cận cơ sở y tế</b></span>.<br>3) Chậm tiếp nhận điều trị đầy đủ, thích hợp → do <span style=\"color:#ff6b6b\"><b>chất lượng chăm sóc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi chậm tương ứng một điểm can thiệp riêng.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · 4.3. Mô hình 3 chậm",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "Thuat_toan"
+      ]
+    },
+    {
+      "id": "SK48-CH-01",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Nêu <span style=\"color:#74c0fc\"><b>định nghĩa</b></span>, <span style=\"color:#ff6b6b\"><b>nguyên nhân trực tiếp</b></span> và <span style=\"color:#ff6b6b\"><b>nguyên nhân gián tiếp</b></span> gây tử vong mẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa:</b> tử vong của phụ nữ trong khi mang thai hoặc trong vòng <span style=\"color:#ffd43b\"><b>42 ngày</b></span> sau khi kết thúc thai kỳ, do nguyên nhân liên quan hoặc bị nặng lên bởi thai nghén hay quản lý thai nghén; không gồm tai nạn hoặc sự cố bất ngờ.<br>2) <b>Nguyên nhân trực tiếp:</b> <span style=\"color:#ff6b6b\"><b>băng huyết, nhiễm trùng (hậu sản, sau nạo phá thai), tiền sản giật nặng - sản giật</b></span>.<br>3) <b>Nguyên nhân gián tiếp:</b> bệnh có từ trước trầm trọng thêm do có thai (bệnh tim, basedow, đái tháo đường, viêm gan siêu vi cấp, thiếu máu, sốt rét, HIV/AIDS), chiếm khoảng <span style=\"color:#ffd43b\"><b>15 - 20 %</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chia nguyên nhân thành trực tiếp và gián tiếp.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · Câu hỏi",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ],
+      "asks": [
+        "định nghĩa",
+        "nguyên nhân trực tiếp",
+        "nguyên nhân gián tiếp"
+      ]
+    },
+    {
+      "id": "SK48-CH-02",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Trình bày <span style=\"color:#ff6b6b\"><b>nguyên nhân tử vong của trẻ sơ sinh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Suy hô hấp, nhiễm trùng, suy dinh dưỡng</b></span> là nguyên nhân chủ yếu.<br>2) Liên quan bệnh của mẹ: thiếu máu, băng huyết, tăng huyết áp, nhiễm trùng máu, đẻ khó, nhiễm trùng khi mang thai, sốt rét, sinh đẻ không vô khuẩn (nhiễm trùng, uốn ván).<br><br><b>💡 Giải thích của AI:</b><br>Nguyên nhân chủ yếu phối hợp với bệnh lý của mẹ.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · Câu hỏi",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK48-CH-03",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Tóm tắt các <span style=\"color:#74c0fc\"><b>yếu tố ảnh hưởng</b></span> đến tử vong mẹ và trẻ sơ sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử vong mẹ: <span style=\"color:#74c0fc\"><b>dân trí</b></span>, <span style=\"color:#74c0fc\"><b>kinh tế</b></span>, <span style=\"color:#74c0fc\"><b>mạng lưới y tế địa phương</b></span>.<br>2) Trẻ sơ sinh: bệnh của mẹ (thiếu máu, băng huyết, tăng huyết áp, nhiễm trùng, đẻ khó, viêm gan, sốt rét), thai ngoài ý muốn, sinh đẻ không vô khuẩn.<br>3) Mô hình <span style=\"color:#ff6b6b\"><b>3 chậm</b></span>: chậm quyết định, chậm đến cơ sở y tế, chậm điều trị.<br><br><b>💡 Giải thích của AI:</b><br>Gộp yếu tố xã hội, bệnh của mẹ và mô hình 3 chậm.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · Câu hỏi",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    },
+    {
+      "id": "SK48-CH-04",
+      "type": "basic",
+      "section": "CH",
+      "category": "Câu hỏi",
+      "tier": 1,
+      "track": "barem_goc",
+      "front": "Nêu các <span style=\"color:#51cf66\"><b>biện pháp khắc phục</b></span> tử vong mẹ và trẻ sơ sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quản lý thai nghén, khám tối thiểu <span style=\"color:#ffd43b\"><b>3 lần</b></span>; chăm sóc, theo dõi khi đẻ và vô khuẩn sản khoa.<br>2) Tăng cường cán bộ sản - nữ hộ sinh tuyến cơ sở, trang thiết bị, thuốc thiết yếu.<br>3) Giảm nạo phá thai không an toàn; nâng cao vị thế phụ nữ.<br>4) Ngăn ngừa thai nghén không mong muốn và biến chứng, xử trí thích hợp biến chứng.<br>5) Nâng cao kỹ năng nữ hộ sinh; cấp cứu sản khoa và phương tiện chuyển tuyến đảm bảo chất lượng.<br><br><b>💡 Giải thích của AI:</b><br>Biện pháp bao phủ phòng ngừa, chăm sóc và cấp cứu.",
+      "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-48 Tử vong bà mẹ và trẻ sơ sinh · Câu hỏi",
+      "tags": [
+        "SK-48",
+        "GiaoTrinh_San_YTB",
+        "CH"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+ "cards": [
+  {
+   "id": "SK55-S1_1-01",
+   "type": "basic",
+   "section": "S1_1",
+   "category": "Định nghĩa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Thời gian <span style=\"color:#ffd43b\"><b>thai nghén bình thường</b></span> trung bình là bao lâu, và khi nào gọi là <span style=\"color:#74c0fc\"><b>thai già tháng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thai nghén bình thường trung bình <span style=\"color:#ffd43b\"><b>9 tháng 10 ngày hay 285 ngày</b></span> (10 ngày tính từ ngày đầu của kinh cuối cùng).<br>2) Thai già tháng: tuổi thai theo lý thuyết <span style=\"color:#ffd43b\"><b>vượt quá 42 tuần hoặc 294 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 285 ngày là thời gian trung bình, còn 294 ngày (42 tuần) là ngưỡng để gọi là già tháng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.1. Định nghĩa",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK55-S1_1-C01",
+   "type": "cloze",
+   "section": "S1_1",
+   "category": "Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thai nghén được gọi là già tháng khi tuổi thai theo lý thuyết vượt quá {{c1::<span style=\"color:#ffd43b\"><b>42 tuần hoặc 294 ngày</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.1. Định nghĩa",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_1"
+   ]
+  },
+  {
+   "id": "SK55-S1_2-01",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Tỷ lệ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ffd43b\"><b>Tỷ lệ</b></span> thai nghén vượt quá tuần 42 và tỷ lệ <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> thực tế là bao nhiêu, vì sao có chênh lệch?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khoảng <span style=\"color:#ffd43b\"><b>3 - 12%</b></span> thai nghén vượt quá tuần 42.<br>2) Thực tế tỷ lệ thai già tháng <span style=\"color:#ffd43b\"><b>không vượt quá 4%</b></span>.<br>3) Lý do: không nhớ ngày kinh cuối cùng chính xác, hoặc thời gian phóng noãn chậm.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ lý thuyết cao hơn thực tế vì nhiều trường hợp tính sai tuổi thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.2. Tỷ lệ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK55-S1_2-02",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Tỷ lệ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Tử vong chu sinh</b></span> thay đổi thế nào theo tuổi thai từ tuần 41 đến tuần 44 so với thai đủ tháng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tăng từ <span style=\"color:#ffd43b\"><b>giữa tuần thứ 41 và 42</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Gấp đôi</b></span> vào tuần 43.<br>3) Cao gấp <span style=\"color:#ffd43b\"><b>4 - 6 lần</b></span> vào tuần 44 so với thai đủ tháng.<br>4) Tỷ lệ biến chứng ở mẹ và thai gia tăng theo tuổi thai.<br><br><b>💡 Giải thích của AI:</b><br>Nguy cơ tăng dần theo từng tuần quá ngày.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.2. Tỷ lệ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK55-S1_2-03",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Tỷ lệ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Vì sao <span style=\"color:#74c0fc\"><b>chẩn đoán và xử trí thai già tháng</b></span> quan trọng, và <span style=\"color:#ff6b6b\"><b>biến chứng cho mẹ</b></span> khi mổ lấy thai ra sao?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử vong sơ sinh cao, <span style=\"color:#ffd43b\"><b>gấp 3 lần</b></span> so với trẻ sinh trong khoảng <span style=\"color:#ffd43b\"><b>38 - 41 tuần</b></span>.<br>2) Biến chứng cho mẹ, ngay cả mổ lấy thai, tăng <span style=\"color:#ffd43b\"><b>gấp đôi</b></span> với <span style=\"color:#ff6b6b\"><b>chảy máu, nhiễm trùng, bục vết thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả mẹ và con đều có nguy cơ cao hơn nên phải chẩn đoán và xử trí đúng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.2. Tỷ lệ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK55-S1_2-C01",
+   "type": "cloze",
+   "section": "S1_2",
+   "category": "Tỷ lệ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tử vong sơ sinh ở thai già tháng cao gấp {{c1::<span style=\"color:#ffd43b\"><b>3 lần</b></span>}} so với trẻ sinh trong khoảng {{c1::<span style=\"color:#ffd43b\"><b>38 - 41 tuần</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.2. Tỷ lệ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S1_2"
+   ]
+  },
+  {
+   "id": "SK55-S2-01",
+   "type": "basic",
+   "section": "S2",
+   "category": "Nguyên nhân",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ</b></span> và <span style=\"color:#ff6b6b\"><b>nguyên nhân thường gặp nhất</b></span> của <span style=\"color:#74c0fc\"><b>thai già tháng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Yếu tố nguy cơ:</b> (nguyên nhân chưa biết rõ) <span style=\"color:#ff6b6b\"><b>thai vô sọ, thiếu sulfatase rau thai, sử dụng progesteron kéo dài, tiền sử sinh quá ngày</b></span>.<br>2) <b>Nguyên nhân thường gặp nhất:</b> <span style=\"color:#ff6b6b\"><b>tính tuổi thai không chính xác</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì nguyên nhân thật sự chưa rõ nên sai sót trong tính tuổi thai là lý do hay gặp nhất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 2. NGUYÊN NHÂN",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ],
+   "asks": [
+    "yếu tố nguy cơ",
+    "nguyên nhân thường gặp nhất"
+   ]
+  },
+  {
+   "id": "SK55-S3-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "Sinh lý bệnh",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Sinh lý bệnh</b></span> của thai già tháng: vai trò bánh rau, nước ối và hậu quả cho thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bánh rau và nước ối đóng vai trò quan trọng trong vận chuyển và chuyển hóa sinh học của thai nhi.<br>2) Thai già tháng: <span style=\"color:#ff6b6b\"><b>lượng nước ối giảm dần, bánh rau thoái hóa dần</b></span> → giảm dòng máu ở bánh rau và chất dinh dưỡng đến thai.<br>3) Thai <span style=\"color:#ff6b6b\"><b>suy trường diễn</b></span> trong tử cung, có thể <span style=\"color:#ff6b6b\"><b>chết trong tử cung hoặc chết trong khi chuyển dạ</b></span> (do cơn go tử cung).<br>4) Thai già tháng là thai nghén bị đe dọa; thiếu ôxy là nguyên nhân chính của suy thai.<br><br><b>💡 Giải thích của AI:</b><br>Rau thoái hóa → ít máu và dưỡng chất → thiếu ôxy mạn; cơn co làm thiếu ôxy nặng thêm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 3. SINH LÝ BỆNH HỌC",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK55-S3-02",
+   "type": "basic",
+   "section": "S3",
+   "category": "Sinh lý bệnh",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Trẻ <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> sinh ra sống có <span style=\"color:#ff6b6b\"><b>biểu hiện tổn thương</b></span> đặc biệt gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương theo kiểu <span style=\"color:#ff6b6b\"><b>gầy</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Bị mất nước, da nhăn nheo</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nhuộm đầy phân su</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là hậu quả của suy dinh dưỡng và thiếu ôxy kéo dài trong tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 3. SINH LÝ BỆNH HỌC",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK55-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Lâm sàng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Thai già tháng</b></span>: hỏi bệnh sử để <span style=\"color:#51cf66\"><b>định tuổi thai</b></span> gồm những mốc nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Kinh cuối cùng</b></span>: lấy mốc là ngày đầu của kinh cuối cùng để tính tuổi thai.<br>2) <span style=\"color:#ffd43b\"><b>Thời gian thụ tinh</b></span>: nếu có điều trị vô sinh, là mốc rất có giá trị để chẩn đoán tuổi thai.<br>3) <span style=\"color:#ffd43b\"><b>Lần thăm khám sản khoa đầu tiên</b></span>: nếu có làm phản ứng sinh học hoặc siêu âm chẩn đoán thai sớm (trong quý đầu) thì rất có giá trị.<br>4) <span style=\"color:#ffd43b\"><b>Thời gian xuất hiện thai máy</b></span>: con so thường vào tuần thứ 18, con rạ tuần 16.<br>5) <span style=\"color:#ff6b6b\"><b>Giảm cử động thai đột ngột</b></span> ở thai phụ có thai đạp nhiều: cần được xem xét nghiêm túc.<br><br><b>💡 Giải thích của AI:</b><br>Các mốc này giúp tính tuổi thai chính xác, mà sai tuổi thai là nguyên nhân thường gặp nhất.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.1. Lâm sàng",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK55-S4_1-C01",
+   "type": "cloze",
+   "section": "S4_1",
+   "category": "Lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thai máy xuất hiện ở con so thường vào tuần thứ {{c1::<span style=\"color:#ffd43b\"><b>18</b></span>}}, con rạ tuần {{c1::<span style=\"color:#ffd43b\"><b>16</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.1. Lâm sàng",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK55-S4_1-02",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Lâm sàng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Ngoài hỏi bệnh sử, khám lâm sàng <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> cần đo gì và có ý nghĩa ra sao?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bề cao tử cung giảm</b></span> qua <span style=\"color:#ffd43b\"><b>2 lần thăm khám kế tiếp</b></span> kèm <span style=\"color:#ff6b6b\"><b>giảm lượng nước ối</b></span> (có tính chất gợi ý).<br><br><b>💡 Giải thích của AI:</b><br>Nước ối giảm làm tử cung nhỏ lại tương đối nên bề cao tử cung giảm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.1. Lâm sàng",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK55-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Xét nghiệm bổ sung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#51cf66\"><b>xét nghiệm bổ sung</b></span> trong chẩn đoán <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> và giá trị của từng xét nghiệm?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Siêu âm sớm</b></span> (đặc biệt quý đầu): chẩn đoán chính xác tuổi thai.<br>2) <span style=\"color:#51cf66\"><b>Siêu âm muộn</b></span>: ít chính xác hơn, nhưng thấy <span style=\"color:#ff6b6b\"><b>nước ối ít và bánh rau vôi hóa</b></span> cũng gợi ý chẩn đoán.<br>3) <span style=\"color:#51cf66\"><b>Doppler</b></span>: khảo sát huyết động học của thai và tuần hoàn rau thai để tiên lượng suy thai.<br>4) <span style=\"color:#51cf66\"><b>Monitor thai</b></span>: tìm suy thai mãn (thử nghiệm không đả kích <span style=\"color:#ffd43b\"><b>2 lần/tuần</b></span> hoặc thử nghiệm đả kích).<br>5) <span style=\"color:#51cf66\"><b>Soi ối</b></span>: tìm dấu hiệu suy thai mãn, có thể thấy ối màu vàng hoặc xanh.<br>6) <span style=\"color:#51cf66\"><b>Chọc hút nước ối</b></span>: chỉ khẳng định thai đã trưởng thành, không cho phép chẩn đoán thai già tháng.<br>7) <span style=\"color:#51cf66\"><b>Chụp X quang</b></span> tìm điểm hóa cốt: <span style=\"color:#74c0fc\"><b>điểm Béclard</b></span> (đầu dưới xương đùi), <span style=\"color:#74c0fc\"><b>điểm TOD</b></span> (đầu trên xương chày); tỷ lệ âm tính giả khá cao, hiện nay ít được sử dụng.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi phương pháp phục vụ một mục đích: xác định tuổi thai, đánh giá rau-ối hoặc tình trạng thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.2. Xét nghiệm bổ sung",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK55-S4_2-C01",
+   "type": "cloze",
+   "section": "S4_2",
+   "category": "Xét nghiệm bổ sung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Chụp X quang tìm điểm hóa cốt: điểm {{c1::<span style=\"color:#74c0fc\"><b>Béclard</b></span>}} là đầu dưới xương đùi, điểm {{c1::<span style=\"color:#74c0fc\"><b>TOD</b></span>}} là đầu trên xương chày.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.2. Xét nghiệm bổ sung",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK55-S4_2-02",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Xét nghiệm bổ sung",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Hiện nay có <span style=\"color:#ff6b6b\"><b>tiêu chuẩn</b></span> nào khẳng định chắc chắn <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> không, nên dựa vào gì và xử trí sau khi loại trừ sai tuổi thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không có tiêu chuẩn nào cho phép khẳng định chắc chắn thai già tháng.<br>2) Tốt nhất dựa vào: <span style=\"color:#ffd43b\"><b>ngày kinh cuối cùng</b></span>, <span style=\"color:#51cf66\"><b>siêu âm</b></span>, <span style=\"color:#ff6b6b\"><b>lượng nước ối ít</b></span>.<br>3) Sau khi loại trừ các sai lầm lớn về tuổi thai: <span style=\"color:#51cf66\"><b>theo dõi chặt chẽ lúc cuối thời kỳ thai nghén</b></span> để phát hiện suy thai.<br>4) Mọi thai nghén vượt quá <span style=\"color:#ffd43b\"><b>41 tuần và 3 ngày</b></span> phải có ý kiến của bác sĩ sản khoa theo dõi và đỡ đẻ.<br><br><b>💡 Giải thích của AI:</b><br>Vì chẩn đoán dựa trên dấu hiệu nghi ngờ nên trọng tâm là theo dõi để phát hiện suy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.2. Xét nghiệm bổ sung",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK55-S4_2-C02",
+   "type": "cloze",
+   "section": "S4_2",
+   "category": "Xét nghiệm bổ sung",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Mọi thai nghén vượt quá {{c1::<span style=\"color:#ffd43b\"><b>41 tuần và 3 ngày</b></span>}} phải có ý kiến của bác sĩ sản khoa theo dõi và đỡ đẻ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 4.2. Xét nghiệm bổ sung",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK55-S5_1-01",
+   "type": "basic",
+   "section": "S5_1",
+   "category": "Nguy cơ cho mẹ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#ff6b6b\"><b>nguy cơ cho mẹ</b></span> của <span style=\"color:#74c0fc\"><b>thai quá ngày</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Gia tăng khả năng mổ lấy thai</b></span> và đẻ có can thiệp thủ thuật.<br>2) <span style=\"color:#ff6b6b\"><b>Chảy máu sau sinh</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nằm viện dài ngày và có nhiều biến chứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thai lớn, suy thai khiến phải can thiệp nhiều hơn nên mẹ chịu nhiều biến chứng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 5.1. Nguy cơ cho mẹ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S5_1"
+   ]
+  },
+  {
+   "id": "SK55-S5_2-01",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Nguy cơ cho thai",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#ff6b6b\"><b>nguy cơ cho thai</b></span> của <span style=\"color:#74c0fc\"><b>thai quá ngày</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thiểu ối</b></span> (thiểu năng rau thai): chèn ép dây rốn, suy thai, tử vong thai đột ngột.<br>2) <span style=\"color:#ff6b6b\"><b>Rối loạn trưởng thành thai</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Hội chứng hít phân su</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Thai lớn</b></span>: gây đẻ khó, tổn thương xương và gãy xương, để lại chứng thần kinh tại chỗ và lâu dài.<br><br><b>💡 Giải thích của AI:</b><br>Thiểu ối làm dây rốn dễ bị chèn ép; thai lớn dễ gây đẻ khó và chấn thương.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 5.2. Nguy cơ cho thai",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK55-S5_2-02",
+   "type": "basic",
+   "section": "S5_2",
+   "category": "Nguy cơ cho thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Tỷ lệ <span style=\"color:#ff6b6b\"><b>rối loạn trưởng thành thai</b></span> và <span style=\"color:#ff6b6b\"><b>hội chứng hít phân su</b></span> ở thai quá ngày?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Rối loạn trưởng thành thai chiếm <span style=\"color:#ffd43b\"><b>10 - 20%</b></span> thai quá ngày.<br>2) Hội chứng hít phân su: <span style=\"color:#ffd43b\"><b>25 - 30%</b></span> thai 42 tuần có phân su trong dịch ối.<br><br><b>💡 Giải thích của AI:</b><br>Phân su trong ối là tiền đề để thai hít phải khi suy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 5.2. Nguy cơ cho thai",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK55-S5_2-C01",
+   "type": "cloze",
+   "section": "S5_2",
+   "category": "Nguy cơ cho thai",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Rối loạn trưởng thành thai chiếm {{c1::<span style=\"color:#ffd43b\"><b>10 - 20%</b></span>}} thai quá ngày; {{c1::<span style=\"color:#ffd43b\"><b>25 - 30%</b></span>}} thai 42 tuần có phân su trong dịch ối.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 5.2. Nguy cơ cho thai",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S5_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_1-01",
+   "type": "basic",
+   "section": "S6_1",
+   "category": "Tuyến xã",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xử trí <span style=\"color:#74c0fc\"><b>thai già tháng</b></span> ở <span style=\"color:#51cf66\"><b>tuyến xã</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tư vấn</b></span> rồi <span style=\"color:#51cf66\"><b>chuyển thai phụ lên tuyến trên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tuyến xã không đủ phương tiện theo dõi và chấm dứt thai kỳ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.1. Tuyến xã",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_1-01",
+   "type": "basic",
+   "section": "S6_2_1",
+   "category": "Nhập viện",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Khi <span style=\"color:#ffd43b\"><b>tuổi thai trên 41 tuần</b></span> nhập viện tuyến huyện trở lên: cần làm gì ban đầu và hướng dẫn đếm <span style=\"color:#ff6b6b\"><b>cử động thai</b></span> thế nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuổi thai trên <span style=\"color:#ffd43b\"><b>41 tuần</b></span> phải theo dõi sát; xác định <span style=\"color:#51cf66\"><b>độ trưởng thành và tình trạng sức khoẻ thai nhi</b></span>.<br>2) Hướng dẫn thai phụ đếm cử động thai, bắt đầu vào một giờ nhất định trong ngày.<br>3) Bình thường thai cử động <span style=\"color:#ffd43b\"><b>trên 10 lần trong 12 giờ</b></span>; số lần giảm dần hay giảm đột ngột là <span style=\"color:#ff6b6b\"><b>dấu hiệu suy thai</b></span>.<br>4) Ví dụ: sau <span style=\"color:#ffd43b\"><b>2 giờ</b></span> không thấy thai máy cần cảnh giác; sau <span style=\"color:#ffd43b\"><b>12 giờ</b></span> không thấy thai máy có thể thai đã chết.<br><br><b>💡 Giải thích của AI:</b><br>Đếm cử động thai là cách đơn giản để thai phụ tự phát hiện sớm suy thai.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_1-C01",
+   "type": "cloze",
+   "section": "S6_2_1",
+   "category": "Nhập viện",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Bình thường thai cử động trên {{c1::<span style=\"color:#ffd43b\"><b>10 lần</b></span>}} trong {{c1::<span style=\"color:#ffd43b\"><b>12 giờ</b></span>}}; sau {{c1::<span style=\"color:#ffd43b\"><b>12 giờ</b></span>}} không thấy thai máy có thể thai đã chết.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_1-02",
+   "type": "basic",
+   "section": "S6_2_1",
+   "category": "Nhập viện",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Theo dõi <span style=\"color:#51cf66\"><b>chỉ số nước ối bằng siêu âm</b></span> ở thai già tháng: tần suất và định nghĩa <span style=\"color:#ff6b6b\"><b>thiểu ối</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Siêu âm kiểm tra dịch ối ít nhất <span style=\"color:#ffd43b\"><b>2 lần/tuần</b></span>.<br>2) Thiểu ối khi <span style=\"color:#ffd43b\"><b>chỉ số nước ối < 5</b></span> hoặc <span style=\"color:#ffd43b\"><b>túi ối lớn nhất < 2 x 2 cm</b></span>.<br>3) Thiểu ối liên quan đến <span style=\"color:#ff6b6b\"><b>nguy cơ cao của suy thai và tử vong sơ sinh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nước ối ít phản ánh rau suy giảm chức năng nên cần kiểm tra thường xuyên.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_1-C02",
+   "type": "cloze",
+   "section": "S6_2_1",
+   "category": "Nhập viện",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Thiểu ối khi chỉ số nước ối < {{c1::<span style=\"color:#ffd43b\"><b>5</b></span>}} hoặc túi ối lớn nhất < {{c1::<span style=\"color:#ffd43b\"><b>2 x 2 cm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_1-03",
+   "type": "basic",
+   "section": "S6_2_1",
+   "category": "Nhập viện",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Theo dõi <span style=\"color:#ff6b6b\"><b>suy thai</b></span> bằng <span style=\"color:#51cf66\"><b>monitor</b></span> ở thai già tháng: các thử nghiệm, tần suất và chỉ định mổ lấy thai?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai thử nghiệm hay dùng: <span style=\"color:#51cf66\"><b>thử nghiệm không đả kích (non-stress test)</b></span> và <span style=\"color:#51cf66\"><b>thử nghiệm đả kích (contraction stress test)</b></span> như test vê núm vú hoặc test truyền oxytocin.<br>2) Làm <span style=\"color:#ffd43b\"><b>2 lần/tuần</b></span>.<br>3) Chỉ định <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span> nếu xuất hiện <span style=\"color:#ff6b6b\"><b>Dip II</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dip II là dấu hiệu suy tuần hoàn tử cung - rau nên không chờ đợi thêm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_1"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-01",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chấm dứt thai kỳ</b></span> ở thai già tháng: khi nào <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span> và khi nào khởi phát chuyển dạ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Mổ lấy thai</b></span> nếu <span style=\"color:#ff6b6b\"><b>con hiếm hoặc bất tương xứng đầu chậu</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Mổ lấy thai</b></span> nếu có <span style=\"color:#ff6b6b\"><b>suy thai</b></span>.<br>3) Các trường hợp khác (thai đã trưởng thành, không suy): làm <span style=\"color:#51cf66\"><b>test đả kích</b></span>; <span style=\"color:#ff6b6b\"><b>dương tính</b></span> → mổ lấy thai; <span style=\"color:#51cf66\"><b>âm tính</b></span> → khởi phát chuyển dạ và đánh giá <span style=\"color:#74c0fc\"><b>chỉ số Bishop</b></span> để tiên lượng khả năng gây chuyển dạ.<br><br><b>💡 Giải thích của AI:</b><br>Nếu thai đã suy hoặc không thể đẻ đường dưới thì mổ; nếu thai còn dung nạp thì thử khởi phát.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-02",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Bảng <span style=\"color:#74c0fc\"><b>chỉ số Bishop</b></span> gồm những tiêu chí nào và giá trị điểm của độ mở, độ xóa CTC?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gồm 5 tiêu chí: <span style=\"color:#74c0fc\"><b>độ mở CTC, độ xoá CTC, độ lọt của thai, mật độ CTC, hướng CTC</b></span>.<br>2) Độ mở CTC (cm): 0 điểm = <span style=\"color:#ffd43b\"><b>0</b></span>; 1 điểm = <span style=\"color:#ffd43b\"><b>1 - 2</b></span>; 2 điểm = <span style=\"color:#ffd43b\"><b>3 - 4</b></span>; 3 điểm = <span style=\"color:#ffd43b\"><b>5 - 6</b></span>.<br>3) Độ xoá CTC (%): 0 điểm = <span style=\"color:#ffd43b\"><b>0 - 30</b></span>; 1 điểm = <span style=\"color:#ffd43b\"><b>40 - 50</b></span>; 2 điểm = <span style=\"color:#ffd43b\"><b>60 - 70</b></span>; 3 điểm = <span style=\"color:#ffd43b\"><b>≥ 80</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi tiêu chí cho 0 - 3 điểm, cộng lại thành chỉ số Bishop.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-03",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Bảng <span style=\"color:#74c0fc\"><b>chỉ số Bishop</b></span>: điểm của <span style=\"color:#ffd43b\"><b>độ lọt</b></span>, <span style=\"color:#74c0fc\"><b>mật độ CTC</b></span> và <span style=\"color:#74c0fc\"><b>hướng CTC</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Độ lọt của thai: 0 điểm = <span style=\"color:#ffd43b\"><b>-3</b></span>; 1 điểm = <span style=\"color:#ffd43b\"><b>-2</b></span>; 2 điểm = <span style=\"color:#ffd43b\"><b>-1 đến 0</b></span>; 3 điểm = <span style=\"color:#ffd43b\"><b>+1 đến +2</b></span>.<br>2) Mật độ CTC: 0 điểm = <span style=\"color:#74c0fc\"><b>cứng</b></span>; 1 điểm = <span style=\"color:#74c0fc\"><b>vừa</b></span>; 2 điểm = <span style=\"color:#74c0fc\"><b>mềm</b></span>.<br>3) Hướng CTC: 0 điểm = <span style=\"color:#74c0fc\"><b>sau</b></span>; 1 điểm = <span style=\"color:#74c0fc\"><b>trung gian</b></span>; 2 điểm = <span style=\"color:#74c0fc\"><b>trước</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mật độ và hướng CTC chỉ có tối đa 2 điểm; CTC càng mềm, càng ra trước, thai càng lọt thì càng dễ gây chuyển dạ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-04",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Xử trí khi <span style=\"color:#74c0fc\"><b>chỉ số Bishop</b></span> trên 5 và dưới 5 khi khởi phát chuyển dạ thai già tháng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CTC có thể mở, Bishop <span style=\"color:#ffd43b\"><b>trên 5</b></span>: <span style=\"color:#51cf66\"><b>gây chuyển dạ bằng truyền oxytocin</b></span>; trong khi giục sinh phải <span style=\"color:#51cf66\"><b>theo dõi sát tim thai bằng monitoring</b></span> vì thai có thể suy rất nhanh.<br>2) CTC không mở, Bishop <span style=\"color:#ffd43b\"><b>dưới 5</b></span>: kết hợp các phương pháp thăm dò khác (theo dõi cử động thai, siêu âm đánh giá chỉ số nước ối, monitoring) để quyết định gây chuyển dạ hoặc theo dõi tiếp.<br><br><b>💡 Giải thích của AI:</b><br>CTC thuận lợi thì khởi phát dễ thành công; chưa thuận lợi thì cần đánh giá thêm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-05",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Làm mềm CTC bằng <span style=\"color:#51cf66\"><b>PGE2 (Dinoprostol)</b></span>: liều và đường dùng; khi nào phải <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Làm mềm CTC bằng PGE2 (Dinoprostol) <span style=\"color:#ffd43b\"><b>1 - 2 mg</b></span>, tối đa không quá <span style=\"color:#ffd43b\"><b>4 mg</b></span>, đặt âm đạo.<br>2) Nếu gây chuyển dạ thất bại hoặc xuất hiện <span style=\"color:#ff6b6b\"><b>suy thai</b></span> thì <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dinoprostol giúp CTC thuận lợi hơn trước khi giục sinh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_2_2-C01",
+   "type": "cloze",
+   "section": "S6_2_2",
+   "category": "Chấm dứt thai kỳ",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Làm mềm CTC bằng PGE2 (Dinoprostol) {{c1::<span style=\"color:#ffd43b\"><b>1 - 2 mg, tối đa không quá 4 mg</b></span>}} đặt âm đạo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_2_2"
+   ]
+  },
+  {
+   "id": "SK55-S6_3-01",
+   "type": "basic",
+   "section": "S6_3",
+   "category": "Chăm sóc em bé",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chăm sóc trẻ sơ sinh</b></span> thai già tháng: cần kiểm tra gì và thực hiện biện pháp nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xem lại trẻ có <span style=\"color:#ff6b6b\"><b>bong da</b></span> hay không, <span style=\"color:#74c0fc\"><b>rau, ối</b></span> như thế nào.<br>2) Săn sóc đặc biệt: <span style=\"color:#51cf66\"><b>hút kỹ phân su đường hô hấp</b></span>, <span style=\"color:#51cf66\"><b>điều chỉnh toan biến dưỡng</b></span>, <span style=\"color:#51cf66\"><b>tiêm Vitamin K1</b></span>, <span style=\"color:#51cf66\"><b>kháng sinh dự phòng</b></span>... và theo dõi sự phát triển của trẻ.<br><br><b>💡 Giải thích của AI:</b><br>Các biện pháp nhắm vào biến chứng đặc trưng: hít phân su, toan hóa, rối loạn đông máu, nhiễm trùng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.3. Chăm sóc em bé",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_3"
+   ]
+  },
+  {
+   "id": "SK55-S6_3-02",
+   "type": "basic",
+   "section": "S6_3",
+   "category": "Chăm sóc em bé",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Lưu ý nguyên tắc <span style=\"color:#51cf66\"><b>chẩn đoán và xử trí</b></span> <span style=\"color:#74c0fc\"><b>thai già tháng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán dựa vào <span style=\"color:#ff6b6b\"><b>những dấu hiệu nghi ngờ</b></span> nên phải theo dõi sát bệnh nhân và quyết định xử trí đúng lúc.<br>2) Tránh can thiệp trên một <span style=\"color:#ffd43b\"><b>thai chưa đủ tháng</b></span>, nhưng cũng không để xảy ra <span style=\"color:#ff6b6b\"><b>suy thai và tử vong thai</b></span> trong bụng mẹ do rau già cỗi và thoái hóa.<br><br><b>💡 Giải thích của AI:</b><br>Phải cân bằng giữa can thiệp quá sớm và quá muộn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.3. Chăm sóc em bé",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "S6_3"
+   ]
+  },
+  {
+   "id": "SK55-ALG-01",
+   "type": "basic",
+   "section": "S6_2_2",
+   "category": "Thuật toán chấm dứt thai kỳ",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Lưu đồ IF → THEN</b></span>: chọn cách <span style=\"color:#51cf66\"><b>chấm dứt thai kỳ</b></span> ở thai già tháng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) IF con hiếm hoặc bất tương xứng đầu chậu → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br>2) IF suy thai → THEN <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br>3) IF thai trưởng thành, không suy → làm <span style=\"color:#51cf66\"><b>test đả kích</b></span>: dương tính → <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>; âm tính → <span style=\"color:#51cf66\"><b>khởi phát chuyển dạ</b></span>, đánh giá Bishop.<br>4) IF Bishop <span style=\"color:#ffd43b\"><b>> 5</b></span> → truyền oxytocin + monitoring; IF Bishop <span style=\"color:#ffd43b\"><b>< 5</b></span> → thăm dò thêm để quyết định.<br>5) IF gây chuyển dạ thất bại hoặc suy thai → <span style=\"color:#51cf66\"><b>mổ lấy thai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ gom các nhánh quyết định trong sách thành một luồng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.2. Chấm dứt thai kỳ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK55-ALG-02",
+   "type": "basic",
+   "section": "S6_2_1",
+   "category": "Bảng giải mã số liệu",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu</b></span> theo dõi thai già tháng: ngưỡng nào <span style=\"color:#ff6b6b\"><b>báo động</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cử động thai bình thường: <span style=\"color:#ffd43b\"><b>> 10 lần/12 giờ</b></span>; <span style=\"color:#ffd43b\"><b>2 giờ</b></span> không thai máy → cảnh giác; <span style=\"color:#ffd43b\"><b>12 giờ</b></span> → có thể thai chết.<br>2) Thiểu ối: <span style=\"color:#ffd43b\"><b>chỉ số nước ối < 5</b></span> hoặc <span style=\"color:#ffd43b\"><b>túi ối lớn nhất < 2 x 2 cm</b></span>.<br>3) Siêu âm ối <span style=\"color:#ffd43b\"><b>≥ 2 lần/tuần</b></span>; monitor <span style=\"color:#ffd43b\"><b>2 lần/tuần</b></span>; xuất hiện <span style=\"color:#ff6b6b\"><b>Dip II</b></span> → mổ lấy thai.<br>4) Vượt <span style=\"color:#ffd43b\"><b>41 tuần 3 ngày</b></span> → bác sĩ sản khoa theo dõi; già tháng <span style=\"color:#ffd43b\"><b>> 42 tuần / 294 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gom các ngưỡng thành bảng tra nhanh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 6.2.1. Nhập viện",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK55-ALG-03",
+   "type": "basic",
+   "section": "S1_2",
+   "category": "Bảng giải mã số liệu",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ffd43b\"><b>Bảng giải mã số liệu</b></span> nguy cơ theo tuổi thai ở thai quá ngày?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuần <span style=\"color:#ffd43b\"><b>41 - 42</b></span>: tử vong chu sinh bắt đầu tăng.<br>2) Tuần <span style=\"color:#ffd43b\"><b>43</b></span>: <span style=\"color:#ff6b6b\"><b>gấp đôi</b></span>.<br>3) Tuần <span style=\"color:#ffd43b\"><b>44</b></span>: <span style=\"color:#ff6b6b\"><b>cao gấp 4 - 6 lần</b></span> so với đủ tháng.<br>4) Tử vong sơ sinh <span style=\"color:#ff6b6b\"><b>gấp 3 lần</b></span> so với 38 - 41 tuần; biến chứng mẹ khi mổ lấy thai <span style=\"color:#ff6b6b\"><b>gấp đôi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng tóm tắt mức tăng nguy cơ theo từng mốc.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-55 Thai già tháng · 1.2. Tỷ lệ",
+   "tags": [
+    "SK-55",
+    "GiaoTrinh_San_YTB",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  }
+ ]
+}

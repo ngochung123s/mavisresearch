@@ -1,0 +1,779 @@
+{
+ "cards": [
+  {
+   "id": "SK42-S1-01",
+   "type": "basic",
+   "section": "S1",
+   "category": "Định nghĩa",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>bệnh nguyên bào nuôi</b></span> và <span style=\"color:#74c0fc\"><b>u nguyên bào nuôi</b></span>; u nguyên bào nuôi bao gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh nguyên bào nuôi:</b> sự <span style=\"color:#ff6b6b\"><b>tăng sinh bất thường</b></span> của nguyên bào nuôi có liên quan đến thai nghén.<br>2) <b>U nguyên bào nuôi:</b> bệnh <span style=\"color:#ff6b6b\"><b>ác tính</b></span> của nguyên bào nuôi, có tính chất <span style=\"color:#ff6b6b\"><b>xâm lấn</b></span> và khả năng chế tiết <span style=\"color:#ffd43b\"><b>hCG (human chorionic gonadotropin)</b></span>.<br>3) <b>Bao gồm:</b> u nguyên bào nuôi bao gồm <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span> và <span style=\"color:#74c0fc\"><b>chửa trứng xâm nhập</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>hCG do nguyên bào nuôi tiết ra nên về sau trở thành chất chỉ điểm chẩn đoán và theo dõi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 1. Định nghĩa",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ],
+   "asks": [
+    "bệnh nguyên bào nuôi",
+    "u nguyên bào nuôi",
+    "bao gồm"
+   ]
+  },
+  {
+   "id": "SK42-S1-C01",
+   "type": "cloze",
+   "section": "S1",
+   "category": "Định nghĩa",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "U nguyên bào nuôi là bệnh ác tính của nguyên bào nuôi, có tính chất xâm lấn và khả năng chế tiết {{c1::<span style=\"color:#ffd43b\"><b>hCG (human chorionic gonadotropin)</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 1. Định nghĩa",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S1"
+   ]
+  },
+  {
+   "id": "SK42-S2-01",
+   "type": "basic",
+   "section": "S2",
+   "category": "Dịch tễ học",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ung thư nguyên bào nuôi</b></span>: tần suất và tỉ lệ theo hoàn cảnh thai nghén trước đó (chửa trứng, sẩy thai, đẻ thường)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tần suất <span style=\"color:#ffd43b\"><b>1/40.000</b></span> phụ nữ có thai.<br>2) Gần <span style=\"color:#ffd43b\"><b>50%</b></span> sau <span style=\"color:#74c0fc\"><b>chửa trứng</b></span>; <span style=\"color:#ffd43b\"><b>25%</b></span> sau <span style=\"color:#74c0fc\"><b>sẩy thai</b></span>; <span style=\"color:#ffd43b\"><b>22%</b></span> sau <span style=\"color:#74c0fc\"><b>đẻ thường</b></span> và sau đẻ thường <span style=\"color:#ffd43b\"><b>2-3%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chửa trứng là tiền sử thai nghén có tỉ lệ cao nhất theo số liệu của sách, nên cần theo dõi sát sau nạo trứng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 2. Dịch tễ học",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK42-S2-02",
+   "type": "basic",
+   "section": "S2",
+   "category": "Dịch tễ học",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Tỉ lệ <span style=\"color:#74c0fc\"><b>bệnh nguyên bào nuôi</b></span> ở Mỹ và Đông Nam Á, và các <span style=\"color:#ff6b6b\"><b>yếu tố làm tăng tỉ lệ bệnh</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tỉ lệ <span style=\"color:#ffd43b\"><b>1/1.200</b></span> thai nghén ở Mỹ và <span style=\"color:#ffd43b\"><b>1/120</b></span> thai nghén ở vùng Đông Nam Á.<br>2) Tỉ lệ bệnh tăng lên ở phụ nữ có <span style=\"color:#ff6b6b\"><b>mức sống thấp</b></span>, ở <span style=\"color:#ff6b6b\"><b>những nước đang phát triển</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Phụ nữ lớn tuổi</b></span> có nguy cơ cao hơn.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ ở Đông Nam Á cao hơn Mỹ phù hợp với nhận định bệnh gặp nhiều hơn ở nước đang phát triển.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 2. Dịch tễ học",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK42-S2-C01",
+   "type": "cloze",
+   "section": "S2",
+   "category": "Dịch tễ học",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Bệnh nguyên bào nuôi có tỉ lệ {{c1::<span style=\"color:#ffd43b\"><b>1/1.200</b></span>}} thai nghén ở Mỹ và {{c2::<span style=\"color:#ffd43b\"><b>1/120</b></span>}} thai nghén ở vùng Đông Nam Á.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 2. Dịch tễ học",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S2"
+   ]
+  },
+  {
+   "id": "SK42-S3-01",
+   "type": "basic",
+   "section": "S3",
+   "category": "Giải phẫu bệnh",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Ung thư nguyên bào nuôi</b></span>: đặc điểm <span style=\"color:#ff6b6b\"><b>giải phẫu bệnh</b></span> và vị trí <span style=\"color:#ff6b6b\"><b>di căn</b></span> hay gặp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biểu hiện <span style=\"color:#ff6b6b\"><b>quá sản và nghịch sản</b></span> của nguyên bào nuôi.<br>2) <span style=\"color:#ff6b6b\"><b>Không nhìn thấy gai rau</b></span>.<br>3) Có hiện tượng <span style=\"color:#ff6b6b\"><b>chảy máu hoại tử</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Xâm lấn trực tiếp vào cơ tử cung</b></span>, lan theo <span style=\"color:#ff6b6b\"><b>đường máu</b></span> tới các cơ quan khác.<br>5) Vì vậy di căn hay gặp nhất ở: <span style=\"color:#74c0fc\"><b>phổi, gan, não, tiểu khung âm đạo, lách, ruột, thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lan theo đường máu nên di căn đến các tạng giàu máu, xa tử cung.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 3. Giải phẫu bệnh",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ]
+  },
+  {
+   "id": "SK42-S3-02",
+   "type": "basic",
+   "section": "S3",
+   "category": "Giải phẫu bệnh",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Chửa trứng xâm nhập</b></span>: bản chất, cách xâm lấn, tỉ lệ di căn xa, vị trí di căn và đặc điểm khối u? Phân biệt với ung thư nguyên bào nuôi dựa vào đâu?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất:</b> khối u <span style=\"color:#51cf66\"><b>lành tính</b></span> phát triển sau <span style=\"color:#74c0fc\"><b>chửa trứng</b></span>.<br>2) <b>Cách xâm lấn:</b> xâm lấn vào <span style=\"color:#74c0fc\"><b>lớp cơ tử cung</b></span> do lan rộng trực tiếp hoặc theo <span style=\"color:#74c0fc\"><b>đường tĩnh mạch</b></span>.<br>3) <b>Tỉ lệ di căn xa:</b> khoảng <span style=\"color:#ffd43b\"><b>15%</b></span>.<br>4) <b>Vị trí di căn:</b> hay gặp nhất là <span style=\"color:#74c0fc\"><b>phổi và âm đạo</b></span>.<br>5) <b>Đặc điểm khối u:</b> <span style=\"color:#ff6b6b\"><b>còn có hình ảnh gai rau phù nề</b></span> cùng với sự quá sản và hay gặp nhất là loạn sản của nguyên bào nuôi ở ngoài buồng tử cung.<br>6) <b>Phân biệt:</b> đôi khi khó phân biệt với ung thư nguyên bào nuôi về lâm sàng, <span style=\"color:#ff6b6b\"><b>chỉ phân biệt được trên phương diện giải phẫu bệnh học</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai bệnh giống nhau trên lâm sàng; điểm khác nằm ở vi thể, ung thư thì không còn thấy gai rau.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 3. Giải phẫu bệnh",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S3"
+   ],
+   "asks": [
+    "bản chất",
+    "cách xâm lấn",
+    "tỉ lệ di căn xa",
+    "vị trí di căn",
+    "đặc điểm khối u",
+    "phân biệt"
+   ]
+  },
+  {
+   "id": "SK42-S4_1-01",
+   "type": "basic",
+   "section": "S4_1",
+   "category": "Chẩn đoán – tiền sử",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>: <span style=\"color:#ff6b6b\"><b>tiền sử</b></span> liên quan đến thai nghén gồm những gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có tiền sử liên quan đến thai nghén: <span style=\"color:#74c0fc\"><b>chửa trứng, chửa ngoài tử cung, sẩy thai, đẻ thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh bắt nguồn từ nguyên bào nuôi nên luôn có một thai nghén đi trước.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.1. Tiền sử",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_1"
+   ]
+  },
+  {
+   "id": "SK42-S4_2-01",
+   "type": "basic",
+   "section": "S4_2",
+   "category": "Chẩn đoán – rong huyết",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>: <span style=\"color:#ff6b6b\"><b>rong huyết</b></span> xảy ra do cơ chế gì và xuất hiện khi nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Rong huyết</b></span>: do khối u nguyên bào nuôi gây <span style=\"color:#ff6b6b\"><b>thương tổn trực tiếp tại tử cung</b></span>.<br>2) Thời gian xuất hiện có thể <span style=\"color:#ffd43b\"><b>tương đối ngắn hoặc dài</b></span> sau thai nghén.<br><br><b>💡 Giải thích của AI:</b><br>Khối u nằm tại tử cung nên chảy máu âm đạo kéo dài là biểu hiện tại chỗ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.2. Rong huyết",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_2"
+   ]
+  },
+  {
+   "id": "SK42-S4_3-01",
+   "type": "basic",
+   "section": "S4_3",
+   "category": "Chẩn đoán – triệu chứng cơ năng",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>: <span style=\"color:#ff6b6b\"><b>triệu chứng cơ năng</b></span> do khối u <span style=\"color:#ff6b6b\"><b>di căn các phủ tạng khác</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ho; đi ngoài; tiểu tiện ra máu; nhức đầu</b></span>...<br><br><b>💡 Giải thích của AI:</b><br>Mỗi triệu chứng gợi một vị trí di căn (phổi, ruột, thận–tiết niệu, não) theo các nơi hay di căn của bệnh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.3. Triệu chứng cơ năng do di căn",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_3"
+   ]
+  },
+  {
+   "id": "SK42-S4_4-01",
+   "type": "basic",
+   "section": "S4_4",
+   "category": "Chẩn đoán – khám phụ khoa",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>: khám phụ khoa thấy gì ở <span style=\"color:#74c0fc\"><b>tử cung</b></span>, <span style=\"color:#74c0fc\"><b>nang hoàng tuyến</b></span> và <span style=\"color:#74c0fc\"><b>nhân di căn âm đạo</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tử cung</b></span>: <span style=\"color:#ff6b6b\"><b>co hồi chậm, to hơn bình thường, mềm</b></span>, có thể sờ thấy <span style=\"color:#ff6b6b\"><b>nhân ung thư nguyên bào nuôi nổi gồ trên mặt tử cung</b></span>.<br>2) Sờ thấy <span style=\"color:#74c0fc\"><b>nang hoàng tuyến</b></span> ở một hoặc hai bên.<br>3) <span style=\"color:#74c0fc\"><b>Nhân di căn âm đạo</b></span> thường hay gặp ở <span style=\"color:#74c0fc\"><b>thành trước, tiền đình</b></span>; nhân <span style=\"color:#ff6b6b\"><b>màu tím, mềm, không đau, chạm vào dễ chảy máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhân di căn âm đạo mềm, giàu mạch nên dễ chảy máu khi chạm.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.4. Khám phụ khoa",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_4"
+   ]
+  },
+  {
+   "id": "SK42-S4_5-01",
+   "type": "basic",
+   "section": "S4_5",
+   "category": "Chẩn đoán – hCG",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xét nghiệm <span style=\"color:#74c0fc\"><b>hCG</b></span> trong ung thư nguyên bào nuôi: vai trò và các loại xét nghiệm (nước tiểu, huyết thanh)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xét nghiệm hCG <span style=\"color:#51cf66\"><b>quyết định chẩn đoán</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>hCG nước tiểu</b></span>: phản ứng <span style=\"color:#74c0fc\"><b>Galli Mainini</b></span>, <span style=\"color:#74c0fc\"><b>Quick stick</b></span> <span style=\"color:#ffd43b\"><b>25 IU</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>1 đơn vị ếch</b></span> tương đương <span style=\"color:#ffd43b\"><b>30 - 35 đơn vị quốc tế</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>β hCG huyết thanh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>hCG là sản phẩm của chính nguyên bào nuôi nên là chỉ điểm quyết định.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.5. Xét nghiệm hCG",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK42-S4_5-02",
+   "type": "basic",
+   "section": "S4_5",
+   "category": "Chẩn đoán – hCG",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>dương tính</b></span> ung thư nguyên bào nuôi theo <span style=\"color:#74c0fc\"><b>β hCG</b></span> khi nào (5 tiêu chuẩn)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong <span style=\"color:#ffd43b\"><b>hai tuần</b></span>, nồng độ β hCG ở tuần sau <span style=\"color:#ff6b6b\"><b>cao hơn</b></span> tuần trước.<br>2) Trong <span style=\"color:#ffd43b\"><b>ba tuần liên tiếp</b></span> nồng độ β hCG <span style=\"color:#ff6b6b\"><b>không giảm</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Bốn tuần</b></span> sau nạo β hCG <span style=\"color:#ffd43b\"><b>> 20.000 IU/L</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Hai tháng</b></span> sau nạo β hCG <span style=\"color:#ffd43b\"><b>> 500 IU/L</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Sáu tháng</b></span> sau nạo β hCG <span style=\"color:#ffd43b\"><b>> 5 IU/L</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nếu nguyên bào nuôi còn hoạt động thì hCG không giảm đúng tiến trình sau nạo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.5. Xét nghiệm hCG",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK42-ALG-01",
+   "type": "basic",
+   "section": "S4_5",
+   "category": "Chẩn đoán – hCG",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Bảng giải mã mốc β hCG</b></span> sau nạo: mỗi mốc thời gian ứng với ngưỡng nào thì chẩn đoán dương tính?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>4 tuần</b></span> sau nạo → β hCG <span style=\"color:#ffd43b\"><b>> 20.000 IU/L</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>2 tháng</b></span> sau nạo → β hCG <span style=\"color:#ffd43b\"><b>> 500 IU/L</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>6 tháng</b></span> sau nạo → β hCG <span style=\"color:#ffd43b\"><b>> 5 IU/L</b></span>.<br>4) Ngoài ra: 2 tuần liên tiếp tuần sau cao hơn tuần trước; 3 tuần liên tiếp không giảm.<br><br><b>💡 Giải thích của AI:</b><br>Mốc thời gian càng xa thì ngưỡng hCG cho phép càng thấp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.5. Xét nghiệm hCG",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_5",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK42-S4_5-C01",
+   "type": "cloze",
+   "section": "S4_5",
+   "category": "Chẩn đoán – hCG",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Chẩn đoán dương tính khi bốn tuần sau nạo β hCG > {{c1::<span style=\"color:#ffd43b\"><b>20.000 IU/L</b></span>}}; hai tháng sau nạo > {{c2::<span style=\"color:#ffd43b\"><b>500 IU/L</b></span>}}; sáu tháng sau nạo > {{c3::<span style=\"color:#ffd43b\"><b>5 IU/L</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.5. Xét nghiệm hCG",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK42-S4_5-C02",
+   "type": "cloze",
+   "section": "S4_5",
+   "category": "Chẩn đoán – hCG",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Một đơn vị ếch tương đương {{c1::<span style=\"color:#ffd43b\"><b>30 - 35 đơn vị quốc tế</b></span>}}; hCG nước tiểu dùng Quick stick {{c2::<span style=\"color:#ffd43b\"><b>25 IU</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.5. Xét nghiệm hCG",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_5"
+   ]
+  },
+  {
+   "id": "SK42-S4_6-01",
+   "type": "basic",
+   "section": "S4_6",
+   "category": "Xét nghiệm giải phẫu bệnh lý",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Xét nghiệm <span style=\"color:#74c0fc\"><b>giải phẫu bệnh lý</b></span> trong ung thư nguyên bào nuôi: lấy bệnh phẩm ở đâu và kết quả có thể là gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh phẩm ở <span style=\"color:#74c0fc\"><b>tử cung</b></span> hoặc <span style=\"color:#74c0fc\"><b>nhân di căn âm đạo</b></span>.<br>2) Kết quả: <span style=\"color:#ff6b6b\"><b>chửa trứng xâm nhập</b></span> hoặc <span style=\"color:#ff6b6b\"><b>ung thư nguyên bào nuôi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giải phẫu bệnh là cách duy nhất phân biệt hai thực thể này theo phần giải phẫu bệnh của bài.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.6. Xét nghiệm giải phẫu bệnh lý",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_6"
+   ]
+  },
+  {
+   "id": "SK42-S4_7-01",
+   "type": "basic",
+   "section": "S4_7",
+   "category": "Cận lâm sàng khác",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "Các <span style=\"color:#74c0fc\"><b>khám nghiệm cận lâm sàng khác</b></span> (ngoài hCG, giải phẫu bệnh) trong ung thư nguyên bào nuôi: X quang phổi, siêu âm, chụp cắt lớp?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>X quang phổi</b></span>: nhân di căn có hình ảnh điển hình <span style=\"color:#ff6b6b\"><b>giống như bóng bay</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span>: có thể thấy hình ảnh <span style=\"color:#ff6b6b\"><b>nhân ung thư nguyên bào nuôi trong cơ tử cung</b></span>, <span style=\"color:#ff6b6b\"><b>nhân di căn ở gan; thận</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Chụp cắt lớp</b></span> để phát hiện <span style=\"color:#ff6b6b\"><b>nhân di căn não</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi phương tiện hình ảnh dùng cho một vị trí: phổi, tử cung–gan–thận, não.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 4.7. Cận lâm sàng khác",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S4_7"
+   ]
+  },
+  {
+   "id": "SK42-S5-01",
+   "type": "basic",
+   "section": "S5",
+   "category": "Phân loại tiên lượng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#74c0fc\"><b>Phân loại</b></span> <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span> theo di căn và theo <span style=\"color:#74c0fc\"><b>tiên lượng</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo di căn: ung thư nguyên bào nuôi <span style=\"color:#74c0fc\"><b>không có di căn</b></span>; ung thư nguyên bào nuôi <span style=\"color:#74c0fc\"><b>có di căn</b></span>.<br>2) Theo tiên lượng: <span style=\"color:#51cf66\"><b>tiên lượng tốt (nguy cơ thấp)</b></span> và <span style=\"color:#ff6b6b\"><b>tiên lượng xấu (nguy cơ cao)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai cách chia này kết hợp để chọn đơn trị hay đa trị liệu và dự đoán tái phát.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 5. Phân loại tiên lượng ung thư nguyên bào nuôi",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK42-S5-02",
+   "type": "basic",
+   "section": "S5",
+   "category": "Phân loại tiên lượng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Năm tiêu chuẩn của ung thư nguyên bào nuôi <span style=\"color:#51cf66\"><b>tiên lượng tốt (nguy cơ thấp)</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) hCG nước tiểu <span style=\"color:#ffd43b\"><b>< 100.000 IU/24 h</b></span>; hCG huyết thanh <span style=\"color:#ffd43b\"><b>< 400.000 mIU/ml</b></span>.<br>2) Triệu chứng xuất hiện <span style=\"color:#ffd43b\"><b>dưới 4 tháng</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Không có di căn não, gan</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Không điều trị hoá chất trước đó</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Không phải sau đẻ thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tiên lượng tốt là khi hCG thấp, ít xâm lấn, chưa dùng hoá chất, không sau đẻ thường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 5. Phân loại tiên lượng ung thư nguyên bào nuôi",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK42-S5-03",
+   "type": "basic",
+   "section": "S5",
+   "category": "Phân loại tiên lượng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Năm tiêu chuẩn của ung thư nguyên bào nuôi <span style=\"color:#ff6b6b\"><b>tiên lượng xấu (nguy cơ cao)</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) hCG nước tiểu <span style=\"color:#ffd43b\"><b>> 100.000 IU/24 h</b></span>; hCG huyết thanh <span style=\"color:#ffd43b\"><b>> 400.000 mIU/ml</b></span>.<br>2) Triệu chứng xuất hiện <span style=\"color:#ffd43b\"><b>dưới 4 tháng</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Có di căn não, gan</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Có điều trị hoá chất trước đó</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Sau đẻ thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là nhóm đối lập với nhóm tiên lượng tốt, trừ mốc thời gian triệu chứng theo sách cùng là dưới 4 tháng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 5. Phân loại tiên lượng ung thư nguyên bào nuôi",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S5"
+   ]
+  },
+  {
+   "id": "SK42-ALG-02",
+   "type": "basic",
+   "section": "S5",
+   "category": "Phân loại tiên lượng",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>So sánh nhanh</b></span> tiên lượng tốt và xấu của <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span> theo hCG, di căn não gan, điều trị hoá chất trước đó, sau đẻ thường và thời gian triệu chứng?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>hCG:</b> tốt <span style=\"color:#ffd43b\"><b>< 100.000 IU/24 h</b></span> (nước tiểu), <span style=\"color:#ffd43b\"><b>< 400.000 mIU/ml</b></span> (huyết thanh); xấu <span style=\"color:#ffd43b\"><b>> 100.000 IU/24 h</b></span>, <span style=\"color:#ffd43b\"><b>> 400.000 mIU/ml</b></span>.<br>2) <b>Di căn não, gan:</b> tốt <span style=\"color:#51cf66\"><b>không</b></span>; xấu <span style=\"color:#ff6b6b\"><b>có</b></span>.<br>3) <b>Điều trị hoá chất trước đó:</b> tốt <span style=\"color:#51cf66\"><b>không</b></span>; xấu <span style=\"color:#ff6b6b\"><b>có</b></span>.<br>4) <b>Sau đẻ thường:</b> tốt <span style=\"color:#51cf66\"><b>không phải</b></span>; xấu <span style=\"color:#ff6b6b\"><b>sau đẻ thường</b></span>.<br>5) <b>Thời gian triệu chứng:</b> cả hai <span style=\"color:#ffd43b\"><b>dưới 4 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng đối chiếu giúp phân nhóm nhanh nguy cơ tại giường.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 5. Phân loại tiên lượng ung thư nguyên bào nuôi",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S5",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo",
+   "asks": [
+    "hCG",
+    "di căn",
+    "điều trị hoá chất trước đó",
+    "sau đẻ thường",
+    "thời gian triệu chứng"
+   ]
+  },
+  {
+   "id": "SK42-S6-01",
+   "type": "basic",
+   "section": "S6",
+   "category": "Phòng bệnh và mục đích điều trị",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Nguyên tắc chung <span style=\"color:#51cf66\"><b>phòng bệnh</b></span> ung thư nguyên bào nuôi và <span style=\"color:#51cf66\"><b>mục đích</b></span> của các phương pháp điều trị?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vì nguyên nhân bệnh chưa rõ, nguyên tắc phòng bệnh là <span style=\"color:#51cf66\"><b>theo dõi sát những bệnh nhân sau nạo trứng</b></span> để chẩn đoán sớm và điều trị kịp thời.<br>2) Thường <span style=\"color:#51cf66\"><b>phối hợp nhiều phương pháp</b></span> điều trị nhằm: loại trừ tổ chức ung thư tại chỗ; diệt những tế bào ung thư đã di căn.<br><br><b>💡 Giải thích của AI:</b><br>Do chưa biết nguyên nhân nên phòng bằng phát hiện sớm nhóm nguy cơ sau nạo trứng.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6. Phòng bệnh và điều trị",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6"
+   ]
+  },
+  {
+   "id": "SK42-S6-02",
+   "type": "basic",
+   "section": "S6",
+   "category": "Các phương pháp điều trị chính",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Kể các <span style=\"color:#51cf66\"><b>phương pháp điều trị chính</b></span> ung thư nguyên bào nuôi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Phẫu thuật</b></span> (cắt tử cung hoàn toàn, mổ lấy nhân di căn).<br>2) <span style=\"color:#51cf66\"><b>Điều trị hoá chất</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Điều trị quang tuyến</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba phương pháp này được trình bày lần lượt ở các phần tiếp theo.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6. Phòng bệnh và điều trị",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6"
+   ]
+  },
+  {
+   "id": "SK42-S6_1-01",
+   "type": "basic",
+   "section": "S6_1",
+   "category": "Phẫu thuật",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Cắt tử cung hoàn toàn</b></span> trong ung thư nguyên bào nuôi: mục đích, xử trí buồng trứng theo tuổi và chỉ định?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mục đích:</b> loại bỏ <span style=\"color:#ff6b6b\"><b>ổ gốc ung thư nguyên bào nuôi</b></span>; nhiều khi không có tổn thương ở tử cung người ta vẫn cắt tử cung.<br>2) <b>Xử trí buồng trứng theo tuổi:</b> cắt cả hai buồng trứng khi bệnh nhân <span style=\"color:#ffd43b\"><b>trên 45 tuổi</b></span>; <span style=\"color:#ffd43b\"><b>dưới 45 tuổi</b></span> cắt hay để lại hai buồng trứng là cân nhắc tuỳ từng trường hợp.<br>3) <b>Chỉ định:</b> phụ nữ <span style=\"color:#51cf66\"><b>lớn tuổi, đủ con</b></span>; <span style=\"color:#51cf66\"><b>điều trị hoá chất không kết quả</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cắt tử cung nhằm loại ổ gốc, nên áp dụng khi không cần giữ khả năng sinh đẻ hoặc hoá chất thất bại.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.1. Phẫu thuật",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_1"
+   ],
+   "asks": [
+    "mục đích",
+    "xử trí buồng trứng theo tuổi",
+    "chỉ định"
+   ]
+  },
+  {
+   "id": "SK42-S6_1-02",
+   "type": "basic",
+   "section": "S6_1",
+   "category": "Phẫu thuật",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Mổ lấy nhân di căn</b></span> trong ung thư nguyên bào nuôi: nhân âm đạo và nhân phổi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Nhân di căn âm đạo</b></span> thường lấy dễ, <span style=\"color:#ff6b6b\"><b>trừ di căn sát niệu đạo, trực tràng</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Di căn phổi</b></span>: nếu chỉ có <span style=\"color:#ffd43b\"><b>ít nhân ở một thuỳ hay ở một bên phổi</b></span> có thể <span style=\"color:#51cf66\"><b>cắt phổi</b></span> để loại bỏ nhân di căn.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ mổ khi nhân khu trú và lấy được mà không tổn thương cơ quan lân cận.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.1. Phẫu thuật",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_1"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-01",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Chỉ định</b></span> điều trị <span style=\"color:#51cf66\"><b>hoá chất</b></span> ung thư nguyên bào nuôi; <span style=\"color:#51cf66\"><b>đơn trị liệu</b></span> và <span style=\"color:#51cf66\"><b>đa trị liệu</b></span> áp dụng khi nào?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định:</b> bệnh nhân <span style=\"color:#ffd43b\"><b>trẻ tuổi</b></span>; còn có <span style=\"color:#ffd43b\"><b>nguyện vọng sinh đẻ</b></span>; <span style=\"color:#ff6b6b\"><b>không có khả năng phẫu thuật</b></span>.<br>2) <b>Đơn trị liệu:</b> Methotrexate hoặc Actinomycin D: ung thư nguyên bào nuôi <span style=\"color:#74c0fc\"><b>không có nhân di căn</b></span>; hoặc có nhân di căn nhưng <span style=\"color:#74c0fc\"><b>nguy cơ thấp</b></span>.<br>3) <b>Đa trị liệu:</b> (phối hợp nhiều loại hoá chất): ung thư nguyên bào nuôi có di căn ở <span style=\"color:#74c0fc\"><b>nhóm nguy cơ cao</b></span>; hoặc điều trị với một loại hoá chất <span style=\"color:#ff6b6b\"><b>thất bại</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm nguy cơ thấp đủ với một thuốc; nguy cơ cao hoặc thất bại cần phối hợp.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ],
+   "asks": [
+    "chỉ định",
+    "đơn trị liệu",
+    "đa trị liệu"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-02",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Liều dùng</b></span> <span style=\"color:#51cf66\"><b>Methotrexate</b></span> và <span style=\"color:#51cf66\"><b>Actinomycin D</b></span> trong ung thư nguyên bào nuôi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Methotrexate (MTX)</b></span> <span style=\"color:#ffd43b\"><b>0,3 mg/kg/ngày × 5 ngày</b></span>; nghỉ <span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Actinomycin D</b></span> <span style=\"color:#ffd43b\"><b>0,5 mg/kg/ngày × 5 ngày</b></span>; nghỉ <span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai thuốc cùng nhịp 5 ngày dùng rồi nghỉ, khác nhau ở liều.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ]
+  },
+  {
+   "id": "SK42-ALG-03",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Bảng liều</b></span> đơn trị liệu ung thư nguyên bào nuôi: thuốc, liều mg/kg/ngày, số ngày, thời gian nghỉ?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) MTX → <span style=\"color:#ffd43b\"><b>0,3 mg/kg/ngày</b></span> × <span style=\"color:#ffd43b\"><b>5 ngày</b></span> → nghỉ <span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>.<br>2) Actinomycin D → <span style=\"color:#ffd43b\"><b>0,5 mg/kg/ngày</b></span> × <span style=\"color:#ffd43b\"><b>5 ngày</b></span> → nghỉ <span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>.<br>3) Đơn trị liệu khi không di căn hoặc di căn nguy cơ thấp; đa trị liệu khi nguy cơ cao hoặc thất bại một loại.<br><br><b>💡 Giải thích của AI:</b><br>Bảng tóm tắt liều và chỉ định chọn đơn/đa trị liệu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK42-S6_2-C01",
+   "type": "cloze",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Methotrexate liều {{c1::<span style=\"color:#ffd43b\"><b>0,3 mg/kg/ngày × 5 ngày</b></span>}}; Actinomycin D liều {{c2::<span style=\"color:#ffd43b\"><b>0,5 mg/kg/ngày × 5 ngày</b></span>}}; nghỉ {{c3::<span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-04",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Theo dõi</b></span> trong đợt <span style=\"color:#51cf66\"><b>điều trị hoá chất</b></span>: cần làm những xét nghiệm gì?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Công thức máu, công thức bạch cầu</b></span> hàng ngày.<br>2) <span style=\"color:#74c0fc\"><b>Chức năng gan, thận</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Đường huyết</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Định lượng hCG</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi độc tính trên tuỷ, gan, thận và đáp ứng hCG.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-05",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Triệu chứng nhiễm độc</b></span> hoá chất <span style=\"color:#74c0fc\"><b>MTX</b></span> (lâm sàng, xét nghiệm) và xử trí?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lâm sàng:</b> <span style=\"color:#ff6b6b\"><b>viêm da, lở loét niêm mạc miệng, lưỡi; rụng tóc; ỉa chảy</b></span>...<br>2) <b>Xét nghiệm:</b> bạch cầu <span style=\"color:#ffd43b\"><b>< 3.000/mm³</b></span>; bạch cầu đa nhân trung tính <span style=\"color:#ffd43b\"><b>dưới 1.500/mm³</b></span>; tiểu cầu <span style=\"color:#ffd43b\"><b>dưới 100.000/mm³</b></span>; <span style=\"color:#ff6b6b\"><b>transaminase huyết thanh tăng cao</b></span>.<br>3) <b>Xử trí:</b> có triệu chứng nhiễm độc thì <span style=\"color:#51cf66\"><b>ngừng điều trị hoá chất ngay</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Độc tính tập trung ở mô tăng sinh nhanh (da, niêm mạc, tuỷ) và gan.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ],
+   "asks": [
+    "lâm sàng",
+    "xét nghiệm",
+    "xử trí"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-C02",
+   "type": "cloze",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Nhiễm độc MTX: bạch cầu < {{c1::<span style=\"color:#ffd43b\"><b>3.000/mm³</b></span>}}, bạch cầu đa nhân trung tính dưới {{c2::<span style=\"color:#ffd43b\"><b>1.500/mm³</b></span>}}, tiểu cầu dưới {{c3::<span style=\"color:#ffd43b\"><b>100.000/mm³</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ]
+  },
+  {
+   "id": "SK42-S6_2-06",
+   "type": "basic",
+   "section": "S6_2",
+   "category": "Điều trị hoá chất",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Kháng thuốc</b></span> hoá chất trong ung thư nguyên bào nuôi: triệu chứng và xử trí?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Triệu chứng:</b> sau mỗi đợt điều trị, nồng độ hCG <span style=\"color:#ff6b6b\"><b>không giảm hoặc tăng</b></span>, <span style=\"color:#ff6b6b\"><b>xuất hiện thêm nhân di căn</b></span>.<br>2) <b>Xử trí:</b> <span style=\"color:#51cf66\"><b>thay đổi hoặc phối hợp hoá chất</b></span>, dùng các biện pháp khác như <span style=\"color:#51cf66\"><b>phẫu thuật, tia xạ</b></span> để loại bỏ ung thư tại chỗ hoặc di căn.<br><br><b>💡 Giải thích của AI:</b><br>Kháng thuốc nghĩa là thuốc hiện dùng không còn kiểm soát bệnh nên cần đổi chiến lược.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.2. Điều trị hoá chất",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_2"
+   ],
+   "asks": [
+    "triệu chứng",
+    "xử trí"
+   ]
+  },
+  {
+   "id": "SK42-S6_3-01",
+   "type": "basic",
+   "section": "S6_3",
+   "category": "Điều trị quang tuyến",
+   "tier": 2,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Điều trị quang tuyến</b></span> trong ung thư nguyên bào nuôi: dùng gì, vùng nào, mục đích và chỉ định?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dùng gì:</b> thường dùng <span style=\"color:#51cf66\"><b>tia X hoặc cobalt</b></span>.<br>2) <b>Vùng nào:</b> rọi vào <span style=\"color:#74c0fc\"><b>vùng hạ vị hoặc âm đạo</b></span>.<br>3) <b>Mục đích:</b> hạn chế sự phát triển của tế bào ung thư tại chỗ hoặc di căn.<br>4) <b>Chỉ định:</b> ung thư nguyên bào nuôi <span style=\"color:#ff6b6b\"><b>lan tràn trong hố chậu không mổ được</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tia xạ dùng khi không thể phẫu thuật mà bệnh lan tràn trong hố chậu.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 6.3. Điều trị quang tuyến",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S6_3"
+   ],
+   "asks": [
+    "dùng gì",
+    "vùng nào",
+    "mục đích",
+    "chỉ định"
+   ]
+  },
+  {
+   "id": "SK42-S7_1-01",
+   "type": "basic",
+   "section": "S7_1",
+   "category": "Khỏi bệnh và theo dõi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#51cf66\"><b>Tiêu chuẩn khỏi bệnh</b></span> và <span style=\"color:#51cf66\"><b>lịch theo dõi sau điều trị</b></span> ung thư nguyên bào nuôi (hCG, khám, X quang, tránh thai)?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ba tuần liên tiếp</b></span> xét nghiệm hCG <span style=\"color:#51cf66\"><b>âm tính</b></span>.<br>2) Xét nghiệm hCG <span style=\"color:#ffd43b\"><b>2 tuần một lần trong 3 tháng</b></span>; rồi <span style=\"color:#ffd43b\"><b>mỗi tháng một lần trong 3 tháng</b></span>; tiếp theo <span style=\"color:#ffd43b\"><b>2 tháng một lần trong 6 tháng</b></span>; rồi <span style=\"color:#ffd43b\"><b>6 tháng một lần</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Khám phụ khoa</b></span>.<br>4) Chụp <span style=\"color:#51cf66\"><b>X quang phổi</b></span> <span style=\"color:#ffd43b\"><b>3 tháng một lần trong một năm</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Tránh thai</b></span> trong vòng <span style=\"color:#ffd43b\"><b>2 năm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi hCG dày lúc đầu rồi thưa dần; X quang phổi nhằm phát hiện di căn phổi.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 7.1. Khỏi bệnh",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S7_1"
+   ]
+  },
+  {
+   "id": "SK42-ALG-04",
+   "type": "basic",
+   "section": "S7_1",
+   "category": "Khỏi bệnh và theo dõi",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ff6b6b\"><b>Lịch hCG</b></span> sau khi khỏi bệnh ung thư nguyên bào nuôi, theo từng giai đoạn?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>3 tháng đầu</b></span>: 2 tuần/lần.<br>2) <span style=\"color:#ffd43b\"><b>3 tháng tiếp</b></span>: mỗi tháng 1 lần.<br>3) <span style=\"color:#ffd43b\"><b>6 tháng tiếp</b></span>: 2 tháng 1 lần.<br>4) Sau đó: <span style=\"color:#ffd43b\"><b>6 tháng 1 lần</b></span>.<br>5) Kèm khám phụ khoa; X quang phổi 3 tháng/lần trong 1 năm; tránh thai 2 năm.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng cách xét nghiệm giãn dần khi thời gian ổn định kéo dài.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 7.1. Khỏi bệnh",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S7_1",
+    "Thuat_toan"
+   ],
+   "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+   "badge_class": "badge-algo"
+  },
+  {
+   "id": "SK42-S7_1-C01",
+   "type": "cloze",
+   "section": "S7_1",
+   "category": "Khỏi bệnh và theo dõi",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Khỏi bệnh khi {{c1::<span style=\"color:#ffd43b\"><b>ba tuần liên tiếp</b></span>}} xét nghiệm hCG âm tính; tránh thai trong vòng {{c2::<span style=\"color:#ffd43b\"><b>2 năm</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 7.1. Khỏi bệnh",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S7_1"
+   ]
+  },
+  {
+   "id": "SK42-S7_2-01",
+   "type": "basic",
+   "section": "S7_2",
+   "category": "Tỷ lệ tái phát",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "<span style=\"color:#ffd43b\"><b>Tỷ lệ tái phát</b></span> của ung thư nguyên bào nuôi: không di căn, di căn tiên lượng tốt, di căn tiên lượng tồi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không có di căn: <span style=\"color:#ffd43b\"><b>2%</b></span>.<br>2) Có di căn, tiên lượng tốt: <span style=\"color:#ffd43b\"><b>5%</b></span>.<br>3) Có di căn, tiên lượng tồi: <span style=\"color:#ffd43b\"><b>21%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tái phát tăng theo mức độ di căn và nhóm nguy cơ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 7.2. Tỷ lệ tái phát",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S7_2"
+   ]
+  },
+  {
+   "id": "SK42-S7_2-C01",
+   "type": "cloze",
+   "section": "S7_2",
+   "category": "Tỷ lệ tái phát",
+   "tier": 2,
+   "track": "barem_goc",
+   "text": "Tái phát ung thư nguyên bào nuôi: không di căn {{c1::<span style=\"color:#ffd43b\"><b>2%</b></span>}}; di căn tiên lượng tốt {{c2::<span style=\"color:#ffd43b\"><b>5%</b></span>}}; di căn tiên lượng tồi {{c3::<span style=\"color:#ffd43b\"><b>21%</b></span>}}.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · 7.2. Tỷ lệ tái phát",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "S7_2"
+   ]
+  },
+  {
+   "id": "SK42-CH-01",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 1a: Triệu chứng <span style=\"color:#ff6b6b\"><b>lâm sàng</b></span> giúp chẩn đoán <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiền sử thai nghén: <span style=\"color:#74c0fc\"><b>chửa trứng, chửa ngoài tử cung, sẩy thai, đẻ thường</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Rong huyết</b></span> do thương tổn trực tiếp tại tử cung.<br>3) Di căn gây triệu chứng cơ năng: <span style=\"color:#ff6b6b\"><b>ho, đi ngoài, tiểu ra máu, nhức đầu</b></span>.<br>4) Khám: tử cung <span style=\"color:#ff6b6b\"><b>co hồi chậm, to, mềm</b></span>, có thể sờ thấy nhân; <span style=\"color:#ff6b6b\"><b>nang hoàng tuyến</b></span> một hoặc hai bên; nhân di căn âm đạo <span style=\"color:#ff6b6b\"><b>tím, mềm, không đau, dễ chảy máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Triệu chứng lâm sàng gồm tại tử cung, ở phần phụ và do di căn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · Câu hỏi 1",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK42-CH-02",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 1b: <span style=\"color:#74c0fc\"><b>Cận lâm sàng</b></span> chẩn đoán xác định <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>hCG</b></span> quyết định chẩn đoán: nước tiểu (Galli Mainini, Quick stick 25 IU), β hCG huyết thanh; dương tính khi tuần sau cao hơn tuần trước, 3 tuần không giảm, 4 tuần sau nạo <span style=\"color:#ffd43b\"><b>> 20.000 IU/L</b></span>, 2 tháng <span style=\"color:#ffd43b\"><b>> 500 IU/L</b></span>, 6 tháng <span style=\"color:#ffd43b\"><b>> 5 IU/L</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Giải phẫu bệnh</b></span> bệnh phẩm tử cung hoặc nhân di căn âm đạo.<br>3) X quang phổi (hình bóng bay); siêu âm (nhân trong cơ tử cung, gan, thận); chụp cắt lớp (di căn não).<br><br><b>💡 Giải thích của AI:</b><br>hCG là xét nghiệm quyết định, các phương tiện hình ảnh tìm tổn thương và di căn.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · Câu hỏi 1",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK42-CH-03",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 1c: <span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt</b></span> <span style=\"color:#74c0fc\"><b>ung thư nguyên bào nuôi</b></span> với <span style=\"color:#74c0fc\"><b>chửa trứng xâm nhập</b></span>?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lâm sàng đôi khi khó phân biệt; <span style=\"color:#ff6b6b\"><b>chỉ phân biệt được trên giải phẫu bệnh</b></span>.<br>2) Ung thư nguyên bào nuôi: quá sản, nghịch sản, <span style=\"color:#ff6b6b\"><b>không thấy gai rau</b></span>, chảy máu hoại tử, xâm lấn cơ tử cung, di căn theo đường máu.<br>3) Chửa trứng xâm nhập: khối u <span style=\"color:#51cf66\"><b>lành tính</b></span> sau chửa trứng, xâm lấn cơ tử cung, di căn xa khoảng <span style=\"color:#ffd43b\"><b>15%</b></span> (phổi, âm đạo), <span style=\"color:#ff6b6b\"><b>còn gai rau phù nề</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Điểm phân biệt chính là còn hay không còn gai rau trên giải phẫu bệnh.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · Câu hỏi 1",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK42-CH-04",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 2a: <span style=\"color:#51cf66\"><b>Chỉ định</b></span> điều trị <span style=\"color:#51cf66\"><b>hoá chất</b></span> ung thư nguyên bào nuôi?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân <span style=\"color:#ffd43b\"><b>trẻ tuổi</b></span>; còn nguyện vọng sinh đẻ; không có khả năng phẫu thuật.<br>2) <span style=\"color:#51cf66\"><b>Đơn trị liệu</b></span> (MTX hoặc Actinomycin D): không di căn hoặc di căn nguy cơ thấp.<br>3) <span style=\"color:#51cf66\"><b>Đa trị liệu</b></span>: di căn nhóm nguy cơ cao hoặc một loại hoá chất thất bại.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ định dựa vào tuổi, nguyện vọng sinh đẻ, khả năng mổ và mức nguy cơ.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · Câu hỏi 2",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ]
+  },
+  {
+   "id": "SK42-CH-05",
+   "type": "basic",
+   "section": "CH",
+   "category": "Câu hỏi ôn tập",
+   "tier": 1,
+   "track": "barem_goc",
+   "front": "Câu 2b: <span style=\"color:#51cf66\"><b>Cách điều trị hoá chất</b></span> ung thư nguyên bào nuôi: liều, theo dõi, nhiễm độc, kháng thuốc?",
+   "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liều:</b> MTX <span style=\"color:#ffd43b\"><b>0,3 mg/kg/ngày × 5 ngày</b></span>; Actinomycin D <span style=\"color:#ffd43b\"><b>0,5 mg/kg/ngày × 5 ngày</b></span>; nghỉ <span style=\"color:#ffd43b\"><b>7 - 10 ngày</b></span>.<br>2) <b>Theo dõi:</b> công thức máu, bạch cầu hàng ngày; chức năng gan, thận; đường huyết; định lượng hCG.<br>3) <b>Nhiễm độc:</b> MTX (<span style=\"color:#ff6b6b\"><b>viêm da, loét niêm mạc, rụng tóc, ỉa chảy; bạch cầu < 3.000/mm³, đa nhân trung tính < 1.500/mm³, tiểu cầu < 100.000/mm³, transaminase tăng</b></span>) → <span style=\"color:#51cf66\"><b>ngừng ngay</b></span>.<br>4) <b>Kháng thuốc:</b> (hCG không giảm/tăng, thêm nhân di căn) → đổi hoặc phối hợp hoá chất, phẫu thuật, tia xạ.<br><br><b>💡 Giải thích của AI:</b><br>Liều, theo dõi độc tính và xử trí kháng thuốc là ba phần cần trả lời.",
+   "extra": "📖 Nguồn: Giáo trình Bài giảng Đại học Bộ môn Phụ Sản — ĐHYD Thái Bình (2021) · SK-42 Ung thư nguyên bào nuôi · Câu hỏi 2",
+   "tags": [
+    "SK-42",
+    "GiaoTrinh_San_YTB",
+    "CH"
+   ],
+   "asks": [
+    "liều",
+    "theo dõi",
+    "nhiễm độc",
+    "kháng thuốc"
+   ]
+  }
+ ]
+}
