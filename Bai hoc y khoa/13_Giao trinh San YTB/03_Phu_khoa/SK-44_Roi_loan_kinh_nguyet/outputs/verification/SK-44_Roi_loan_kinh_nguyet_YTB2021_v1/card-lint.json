@@ -4,9 +4,9 @@
   "deck_name": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-44 Rối loạn kinh nguyệt",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-10-22T14:26:56",
+  "generated_at": "2026-10-22T14:59:14",
   "cards_source": "SK-44_Roi_loan_kinh_nguyet_YTB2021_v1.cards.v2.json",
-  "cards_source_sha256": "363103615e373c7445ac119301972fb88e0315de9c73fb61caafd8f6627a38d0",
+  "cards_source_sha256": "82f4d968bc2202444f404615e880aa361f86b8e523518d7c4c1407783bd1ff56",
   "card_count": 64,
   "summary": {
     "block": 0,
@@ -17,14 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\13_Giao trinh San YTB\\03_Phu_khoa\\SK-44_Roi_loan_kinh_nguyet\\outputs\\SK-44_Roi_loan_kinh_nguyet_YTB2021_v1.apkg",
   "anki_sync": {
-    "updated": 0,
-    "unchanged": 0,
-    "added": 64,
+    "updated": 1,
+    "unchanged": 63,
+    "added": 0,
     "archived": 0,
     "moved": 0,
+    "media": 0,
     "deck_notes": 64
   },
-  "apkg_sha256": "591619fa6e68089217dff42e0e26c2bce62503ec72228bf47a620cf7462915ec",
+  "apkg_sha256": "f1ae323c6243c090f2cf0d8058ca372ff8294c084c9d375bf717506ff9dd682f",
   "sqlite_notes": 64,
   "sqlite_cards": 75
 }
