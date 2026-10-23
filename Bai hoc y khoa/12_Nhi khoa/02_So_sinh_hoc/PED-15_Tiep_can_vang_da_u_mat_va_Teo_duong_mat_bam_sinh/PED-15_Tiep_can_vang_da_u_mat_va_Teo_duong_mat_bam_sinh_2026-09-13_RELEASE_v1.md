@@ -58,10 +58,10 @@ Tại buồng bệnh sơ sinh và phòng khám nhi, việc chẩn đoán sớm �
                TIÊU CHUẨN CHẨN ĐOÁN VÀNG DA Ứ MẬT (NASPGHAN 2017)
                ───[TIÊU CHUẨN XÉT NGHIỆM NASPGHAN 2017]───
 [BƯỚC 1: XÉT NGHIỆM BILIRUBIN TP VÀ TT]   [BƯỚC 2: ĐỐI CHIẾU TIÊU CHUẨN ĐỒNG THUẬN]
-- Chỉ định: Vàng da kéo dài > 14 ngày      - Nếu Total Bilirubin < 5.0 mg/dL (< 85 µmol/L):
-  (ở trẻ bú sữa công thức)                  ──> Ứ MẬT KHI: Direct Bilirubin > 1.0 mg/dL (17 µmol/L)
-- Hoặc vàng da kéo dài > 21 ngày           - Nếu Total Bilirubin ≥ 5.0 mg/dL (≥ 85 µmol/L):
-  (ở trẻ bú mẹ hoàn toàn)                   ──> Ứ MẬT KHI: Direct Bilirubin > 20% Total Bilirubin
+- Chỉ định: Vàng da kéo dài > 14 ngày      - Ứ MẬT KHI: Direct Bilirubin > 1.0 mg/dL (17 µmol/L)
+  (ở trẻ bú sữa công thức)                    BẤT KỂ Total Bilirubin là bao nhiêu
+- Hoặc vàng da kéo dài > 21 ngày           - Bỏ tiêu chí cũ "> 20% Total" (NASPGHAN 2004):
+  (ở trẻ bú mẹ hoàn toàn)                     bỏ sót ứ mật khi Bilirubin gián tiếp cao
        │                                                         │
        └───────────────────────────────┬─────────────────────────┘
                                        ▼
@@ -74,8 +74,8 @@ Tại buồng bệnh sơ sinh và phòng khám nhi, việc chẩn đoán sớm �
 ### 1.1 Sự lỗi thời của định nghĩa cũ và Tiêu chuẩn mới NASPGHAN 2017
 - **Định nghĩa cũ (Lỗi thời và nguy hiểm)**: Trước đây, nhiều y văn quy định ứ mật khi Bilirubin trực tiếp trên 2.0 mg/dL. Định nghĩa này làm chậm trễ việc phát hiện Teo đường mật bẩm sinh ở giai đoạn sớm khi nồng độ Bilirubin trực tiếp mới chỉ dao động từ 1.0 đến 1.9 mg/dL, khiến nhiều bệnh nhi bị bỏ lỡ khung thời gian phẫu thuật vàng.
 - **Tiêu chuẩn chẩn đoán mới đồng thuận quốc tế (NASPGHAN / ESPGHAN 2017)**:
-  1. Nồng độ **Bilirubin trực tiếp (Direct Bilirubin) $> 1.0\text{ mg/dL}$** ($17.1\ \mu\text{mol/L}$) khi nồng độ Bilirubin toàn phần $< 5.0\text{ mg/dL}$ ($85.5\ \mu\text{mol/L}$).
-  2. Nồng độ **Bilirubin trực tiếp chiếm $> 20\%$ Bilirubin toàn phần** khi nồng độ Bilirubin toàn phần $\ge 5.0\text{ mg/dL}$.
+  1. Nồng độ **Bilirubin trực tiếp (Direct Bilirubin) $> 1.0\text{ mg/dL}$** ($17.1\ \mu\text{mol/L}$) là bất thường, **bất kể nồng độ Bilirubin toàn phần**.
+  2. **Tiêu chí cũ đã bị bỏ**: bản NASPGHAN 2004 dùng thêm nhánh "Bilirubin trực tiếp $> 20\%$ Bilirubin toàn phần khi toàn phần $\ge 5.0\text{ mg/dL}$". Hướng dẫn 2017 bỏ nhánh này vì khi Bilirubin gián tiếp đang cao, 20% có thể vượt 2–3 mg/dL và bỏ sót trẻ teo đường mật (ví dụ toàn phần 15 mg/dL, trực tiếp 2.0 mg/dL chỉ chiếm 13% nhưng vẫn là ứ mật).
 - **Quy tắc thực hành 14 ngày & 21 ngày**:
   - Trẻ sơ sinh bú sữa công thức: Bắt buộc xét nghiệm Bilirubin toàn phần và trực tiếp nếu còn vàng da sau **14 ngày tuổi**.
   - Trẻ sơ sinh bú mẹ hoàn toàn: Bắt buộc xét nghiệm Bilirubin toàn phần và trực tiếp nếu còn vàng da sau **21 ngày tuổi**.
@@ -345,7 +345,7 @@ Sau khi thực hiện phẫu thuật nối mật - ruột Kasai, giai đoạn h�
                ───[LƯU ĐỒ TIẾP CẬN VÀ QUẢN LÝ]───
 (1) Trẻ sơ sinh vàng da kéo dài > 14 ngày (sữa công thức) hoặc > 21 ngày (bú mẹ)
     └── BẮT BUỘC: Định lượng Bilirubin toàn phần (TSB) và Bilirubin trực tiếp
-(2) Khẳng định ứ mật: Direct Bilirubin > 1.0 mg/dL (nếu Total < 5) hoặc > 20% Total
+(2) Khẳng định ứ mật: Direct Bilirubin > 1.0 mg/dL, bất kể Total Bilirubin
     ├── Tiêm ngay Vitamin K1 liều 2-5 mg phòng xuất huyết não
     └── Chuyển bệnh nhi đến đơn vị Tiêu hóa Gan mật Ngoại Nhi
 (3) Thăm dò hình ảnh & Màu sắc phân:
@@ -450,7 +450,7 @@ Mỗi cạm bẫy đều là bài học xương máu được đúc kết từ h
 ### Case 1: Trẻ 42 ngày tuổi phân bạc màu — Phẫu thuật Kasai teo đường mật cấp
 - **Bệnh cảnh**: Bé trai, 42 ngày tuổi, sinh đủ tháng 39 tuần, cân nặng lúc sinh 3.3 kg, cân nặng hiện tại 4.1 kg. Mẹ đưa trẻ đi khám vì vàng da kéo dài từ lúc sinh đến nay không hết. Mẹ quan sát thấy khoảng 1 tuần nay phân của trẻ có màu trắng xám nhạt như phân cò, nước tiểu sẫm màu làm ố vàng tã. Khám lâm sàng: Trẻ tỉnh, vàng da và vàng mắt rõ rệt, bụng hơi chướng, gan to 3.5 cm dưới bờ sườn phải mật độ chắc bờ sắc, lách to 1 cm dưới sườn trái. Xét nghiệm máu: TSB = 7.5 mg/dL (128 µmol/L), Bilirubin trực tiếp = 4.2 mg/dL (chiếm 56%), AST = 145 UI/L, ALT = 120 UI/L, GGT = 780 UI/L, INR = 1.15. Siêu âm bụng sau nhịn ăn 4 giờ: Túi mật teo nhỏ dài 1.1 cm bờ không đều, có dấu hiệu Triangular cord sign với dải xơ dày 4.8 mm trước tĩnh mạch cửa.
 - **Phân tích và hướng xử trí chi tiết theo 5 bước cho ca bệnh số 1 (Teo đường mật bẩm sinh)**:
-  - *Bước 1 (Xác nhận tình trạng ứ mật)*: Bilirubin trực tiếp 4.2 mg/dL chiếm 56% Bilirubin toàn phần (> 20%) khẳng định chẩn đoán vàng da ứ mật bệnh lý.
+  - *Bước 1 (Xác nhận tình trạng ứ mật)*: Bilirubin trực tiếp 4.2 mg/dL (> 1.0 mg/dL) khẳng định chẩn đoán vàng da ứ mật bệnh lý.
   - *Bước 2 (Đánh giá tam chứng và dấu hiệu chỉ điểm)*: Trẻ có đầy đủ tam chứng vàng da ứ mật ngoài gan: phân bạc màu, nước tiểu sẫm và gan to chắc.
   - *Bước 3 (Đánh giá cận lâm sàng chuyên khoa)*: GGT tăng rất cao (780 UI/L) kết hợp với dấu hiệu Triangular cord sign dương tính rõ rệt (4.8 mm) trên siêu âm hướng thẳng đến chẩn đoán Teo đường mật bẩm sinh.
   - *Bước 4 (Đánh giá mốc thời gian vàng)*: Trẻ hiện tại 42 ngày tuổi (nằm trọn vẹn trong "Cửa sổ vàng dưới 60 ngày tuổi" của phẫu thuật Kasai, tiên lượng thành công đạt 70–80%).
@@ -485,7 +485,7 @@ Mỗi cạm bẫy đều là bài học xương máu được đúc kết từ h
 ### Case 3: Trẻ 28 ngày tuổi vàng da ứ mật GGT bình thường — Hướng chẩn đoán PFIC
 - **Bệnh cảnh**: Bé trai, 28 ngày tuổi, con thứ nhất, sinh đủ tháng 38 tuần, cân nặng 3.1 kg. Trẻ đi khám vì vàng da mắt kéo dài, mẹ thấy trẻ hay ngọ nguậy khó chịu, phân vàng sẫm bình thường, nước tiểu hơi đậm màu. Khám lâm sàng: Trẻ tỉnh, vàng da nhẹ vùng mặt và ngực, gan to 1.5 cm mật độ mềm mại, lách không sờ chạm, không có dị tật bẩm sinh khác. Xét nghiệm: Bilirubin toàn phần = 5.2 mg/dL, Bilirubin trực tiếp = 1.8 mg/dL (chiếm 34.6%), AST = 85 UI/L, ALT = 78 UI/L. Đáng chú ý: **GGT hoàn toàn bình thường ở mức 32 UI/L** (khoảng tham chiếu bình thường dưới 50 UI/L). Xét nghiệm đông máu PT/INR bình thường. Siêu âm gan mật: Kích thước gan bình thường, nhu mô gan đồng nhất, túi mật dài 2.8 cm thành mỏng co bóp tốt sau bú, không thấy dấu hiệu Triangular cord sign.
 - **Giải thích chẩn đoán và hướng xử trí nội khoa cho ca bệnh số 3 (Ứ mật tiến triển trong gan PFIC)**:
-  - *Bước 1 (Khẳng định ứ mật)*: Bilirubin trực tiếp 1.8 mg/dL (> 20% Bilirubin toàn phần) khẳng định trẻ bị vàng da ứ mật bệnh lý.
+  - *Bước 1 (Khẳng định ứ mật)*: Bilirubin trực tiếp 1.8 mg/dL (> 1.0 mg/dL) khẳng định trẻ bị vàng da ứ mật bệnh lý.
   - *Bước 2 (Loại trừ tắc mật ngoài gan)*: Trẻ có phân vàng bình thường, gan không chắc, siêu âm túi mật co bóp tốt và không có TC sign giúp loại trừ teo đường mật bẩm sinh ngoài gan.
   - *Bước 3 (Biện luận chỉ số GGT bình thường)*: Ứ mật kèm theo men GGT bình thường hoặc thấp là dấu hiệu cực kỳ đặc trưng chỉ điểm nhóm bệnh lý **Ứ mật tiến triển trong gan có tính gia đình (PFIC typ 1 hoặc typ 2)** hoặc khiếm khuyết bẩm sinh trong chu trình sinh tổng hợp acid mật.
   - *Bước 4 (Kế hoạch xét nghiệm chuyên sâu)*: Chỉ định định lượng nồng độ acid mật toàn phần trong huyết thanh (Total Serum Bile Acids) và giải trình tự gen khảo sát đột biến các gen ATP8B1 (PFIC1) hoặc ABCB11 (PFIC2).
@@ -525,7 +525,7 @@ Mỗi cạm bẫy đều là bài học xương máu được đúc kết từ h
 
 1. **Mẹo kiểm tra tã lót để phát hiện sớm phân bạc màu**: Luôn yêu cầu người nhà mở tã thật ra để bác sĩ nhìn tận mắt. Màu phân của trẻ teo đường mật không phải lúc nào cũng trắng tinh như giấy; nó thường có màu trắng xám nhờ nhờ, màu be sáng hoặc màu đất sét xám nhạt.
 2. **Quy tắc phân biệt nước tiểu vàng sẫm vs nước tiểu cô đặc**: Nước tiểu cô đặc do thiếu nước sẽ hết vàng sậm sau khi trẻ được cho bú đủ dịch. Ngược lại, nước tiểu sẫm màu do Bilirubin trực tiếp vẫn tiếp tục có màu nước chè đặc bất kể trẻ đã được truyền đủ dịch hay bú no.
-3. **Mẹo nhớ ngưỡng chẩn đoán NASPGHAN 2017**: Nhớ con số 1.0 và 20%: Nếu Bilirubin toàn phần dưới 5 mg/dL thì mốc cắt là Bilirubin trực tiếp trên 1.0 mg/dL; nếu Bilirubin toàn phần từ 5 mg/dL trở lên thì mốc cắt là Bilirubin trực tiếp chiếm trên 20% tổng số.
+3. **Mẹo nhớ ngưỡng chẩn đoán NASPGHAN/ESPGHAN 2017**: Chỉ nhớ một con số: Bilirubin trực tiếp trên 1.0 mg/dL là ứ mật, bất kể Bilirubin toàn phần. Tiêu chí "trên 20% tổng số" là của bản 2004 và đã bị bỏ, đừng dùng nữa.
 4. **Luôn tiêm Vitamin K1 trước khi lấy máu làm thủ thuật lớn**: Đừng bao giờ chọc dò tủy sống, chọc dò màng bụng hay sinh thiết gan ở một trẻ ứ mật nếu chưa có kết quả đông máu hoặc chưa được tiêm dự phòng Vitamin K1 trong vòng 24 giờ trước đó.
 5. **Mẹo siêu âm tìm dấu hiệu Triangular cord sign**: Nhắc nhở người nhà cho trẻ nhịn ăn ít nhất 3 đến 4 giờ trước khi siêu âm. Nếu trẻ vừa bú no, dạ dày căng hơi sẽ che lấp toàn bộ vùng rốn gan và túi mật bị co bóp sinh lý làm bác sĩ siêu âm đánh giá sai lệch.
 6. **Mẹo biện luận men gan GGT**: Thấy GGT tăng vọt trên 300 đến 500 UI/L thì phải nghĩ ngay đến teo đường mật bẩm sinh. Thấy ứ mật mà GGT lại bình thường thì phải nghĩ ngay đến bệnh lý PFIC 1/2.
@@ -546,7 +546,7 @@ Mỗi cạm bẫy đều là bài học xương máu được đúc kết từ h
                ───[MƯỜI NGUYÊN TẮC VÀNG TRỰC BUỒNG BỆNH]───
                1. Vàng da ứ mật ở trẻ sơ sinh LUÔN LUÔN LÀ BỆNH LÝ.
                2. Vàng da kéo dài > 14 ngày (bình) hoặc > 21 ngày (mẹ): Đo Bilirubin trực tiếp!
-               3. Định nghĩa NASPGHAN: Direct > 1.0 mg/dL hoặc > 20% Total Bilirubin.
+               3. Định nghĩa NASPGHAN 2017: Direct > 1.0 mg/dL, bất kể Total (bỏ mốc 20%).
                4. Tam chứng chỉ điểm: Phân bạc màu + Nước tiểu sẫm + Gan to chắc.
                5. CẤM CHIẾU ĐÈN khi Bilirubin trực tiếp chiếm ưu thế.
                6. Tiêm ngay Vitamin K1 liều 2-5 mg phòng ngừa xuất huyết não tử vong.
@@ -558,7 +558,7 @@ Mỗi cạm bẫy đều là bài học xương máu được đúc kết từ h
 
 ### Bảng kiểm 8 điểm an toàn trước khi kết luận trẻ vàng da kéo dài
 - [ ] 1. Trẻ đã được định lượng riêng rẽ nồng độ Bilirubin toàn phần và Bilirubin trực tiếp trong máu chưa?
-- [ ] 2. Đã đối chiếu nồng độ Bilirubin trực tiếp theo tiêu chuẩn NASPGHAN (mốc 1.0 mg/dL hoặc 20%) chưa?
+- [ ] 2. Đã đối chiếu nồng độ Bilirubin trực tiếp theo tiêu chuẩn NASPGHAN 2017 (> 1.0 mg/dL, bất kể Bilirubin toàn phần) chưa?
 - [ ] 3. Bác sĩ đã trực tiếp quan sát màu sắc phân thật trong tã lót của bệnh nhi chưa?
 - [ ] 4. Đã khám kỹ bờ gan để phát hiện gan to chắc và khám lách to chưa?
 - [ ] 5. Đã tiêm dự phòng Vitamin K1 đường tiêm để loại trừ nguy cơ xuất huyết não chưa?

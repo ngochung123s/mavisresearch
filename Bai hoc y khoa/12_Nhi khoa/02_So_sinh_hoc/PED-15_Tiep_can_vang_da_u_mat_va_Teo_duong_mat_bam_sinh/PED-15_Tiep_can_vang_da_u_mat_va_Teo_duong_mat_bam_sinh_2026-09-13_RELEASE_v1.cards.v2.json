@@ -12,8 +12,8 @@
     {
       "id": "PED15-V2-002",
       "type": "cloze",
-      "text": "Theo hướng dẫn đồng thuận NASPGHAN/ESPGHAN 2017, trẻ sơ sinh được chẩn đoán xác định vàng da ứ mật khi nồng độ Bilirubin trực tiếp vượt quá {{c1::1.0 mg/dL}} (tương đương 17.1 µmol/L) trong trường hợp Bilirubin toàn phần dưới 5.0 mg/dL.",
-      "extra": "Nếu Bilirubin toàn phần từ 5.0 mg/dL trở lên, tiêu chuẩn ứ mật là khi Bilirubin trực tiếp chiếm trên 20% tổng số."
+      "text": "Theo hướng dẫn đồng thuận NASPGHAN/ESPGHAN 2017, trẻ sơ sinh được chẩn đoán xác định vàng da ứ mật khi nồng độ Bilirubin trực tiếp vượt quá {{c1::1.0 mg/dL}} (tương đương 17.1 µmol/L), bất kể nồng độ Bilirubin toàn phần.",
+      "extra": "Tiêu chí cũ NASPGHAN 2004 (Bilirubin trực tiếp > 20% tổng số khi Bilirubin toàn phần ≥ 5.0 mg/dL) đã bị bỏ trong hướng dẫn 2017 vì bỏ sót ứ mật khi Bilirubin gián tiếp đang cao."
     },
     {
       "id": "PED15-V2-003",
@@ -42,8 +42,8 @@
     {
       "id": "PED15-V2-007",
       "type": "cloze",
-      "text": "Theo tiêu chuẩn NASPGHAN 2017, khi nồng độ Bilirubin toàn phần của trẻ sơ sinh từ 5.0 mg/dL trở lên, tình trạng ứ mật được khẳng định khi Bilirubin trực tiếp chiếm trên {{c1::20%}} tổng nồng độ Bilirubin toàn phần.",
-      "extra": "Ví dụ: Nếu Bilirubin toàn phần là 8.0 mg/dL và trực tiếp là 2.0 mg/dL (chiếm 25%), trẻ được chẩn đoán xác định là vàng da ứ mật."
+      "text": "Theo tiêu chuẩn NASPGHAN/ESPGHAN 2017, khi Bilirubin toàn phần của trẻ sơ sinh từ 5.0 mg/dL trở lên, ứ mật vẫn được khẳng định khi Bilirubin trực tiếp {{c1::> 1.0 mg/dL, bất kể tỷ lệ so với Bilirubin toàn phần (bỏ tiêu chí 20% cũ)}}.",
+      "extra": "Ví dụ: Bilirubin toàn phần 15 mg/dL, trực tiếp 2.0 mg/dL (chỉ chiếm 13%) → vẫn là ứ mật theo hướng dẫn 2017; tiêu chí 20% của bản 2004 sẽ bỏ sót trẻ này."
     },
     {
       "id": "PED15-V2-008",

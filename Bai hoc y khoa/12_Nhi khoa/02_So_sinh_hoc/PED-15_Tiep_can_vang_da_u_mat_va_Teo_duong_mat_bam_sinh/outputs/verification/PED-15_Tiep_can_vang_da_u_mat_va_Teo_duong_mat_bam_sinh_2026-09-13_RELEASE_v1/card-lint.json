@@ -1,11 +1,12 @@
 {
-  "code": "PED-15",
+  "id": "PED-15",
+  "specialty": "nhi",
   "deck_name": "Nhi khoa Y6::PED-15: Tiếp cận vàng da ứ mật & Teo đường mật bẩm sinh",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-19T22:04:47",
+  "generated_at": "2026-10-23T20:27:30",
   "cards_source": "ped15_cards_data.py",
-  "cards_source_sha256": "e57fe159a3c9d02d3f01eb936fde4ea1a632c9ab6839eb21316ee2ff890dd173",
+  "cards_source_sha256": "30d336a5dee3c4a8038c177c0e5ee1fac565ba93d8f34120021609430851d125",
   "card_count": 84,
   "summary": {
     "block": 0,
@@ -1258,16 +1259,17 @@
       "severity": "WARN"
     }
   ],
-  "apkg": "PED-15_Tiep_can_vang_da_u_mat_va_Teo_duong_mat_bam_sinh_2026-09-13_RELEASE_v1.apkg",
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\02_So_sinh_hoc\\PED-15_Tiep_can_vang_da_u_mat_va_Teo_duong_mat_bam_sinh\\PED-15_Tiep_can_vang_da_u_mat_va_Teo_duong_mat_bam_sinh_2026-09-13_RELEASE_v1.apkg",
   "anki_sync": {
-    "updated": 4,
-    "unchanged": 80,
+    "updated": 2,
+    "unchanged": 82,
     "added": 0,
     "archived": 0,
     "moved": 0,
+    "media": 0,
     "deck_notes": 84
   },
-  "apkg_sha256": "a0f8685bf4e32b09d755e175a17549dfc88cb13adae7589bd0c56ec7e5d76cc6",
+  "apkg_sha256": "2de35f547cb325b02d9c4673ae128fe81c8d8abd9981a5558a7f28890d5786a5",
   "sqlite_notes": 84,
   "sqlite_cards": 84
 }

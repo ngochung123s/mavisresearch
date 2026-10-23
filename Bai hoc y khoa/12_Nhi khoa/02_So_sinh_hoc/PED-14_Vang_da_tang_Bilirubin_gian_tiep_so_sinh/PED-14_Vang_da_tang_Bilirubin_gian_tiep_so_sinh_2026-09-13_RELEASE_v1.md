@@ -524,7 +524,7 @@ Mỗi cạm bẫy lâm sàng đều có nguồn gốc từ việc hiểu sai ho�
 ### Case 3: Trẻ 18 ngày tuổi vàng da kéo dài do sữa mẹ — An tâm duy trì bú mẹ
 - **Bệnh cảnh**: Bé trai, 18 ngày tuổi, sinh đủ tháng 40 tuần, cân nặng lúc sinh 3.1 kg, cân nặng hiện tại 3.9 kg (tăng 800 g sau sinh). Mẹ đưa đi khám vì thấy mắt và mặt con vẫn còn vàng sậm. Trẻ hoàn toàn vui vẻ, bú mẹ rất khỏe (10 cữ/ngày), ngủ ngoan, không sốt, phân vàng sệt 4 lần/ngày, nước tiểu trong. Khám: Vàng da vùng 3, gan lách không to. Xét nghiệm: TSB = 13.5 mg/dL (230 µmol/L), Bilirubin trực tiếp = 0.7 mg/dL (chiếm 5.1%), Hb = 14.0 g/dL, men gan bình thường.
 - **Các bước tư vấn giải thích và theo dõi ngoại trú cho ca bệnh số 3 (Sữa mẹ)**:
-  - *Bước 1 (Phân loại tăng Bilirubin)*: Bilirubin trực tiếp dưới 1.0 mg/dL và chiếm dưới 20% tổng số khẳng định Vàng da tăng Bilirubin gián tiếp, hoàn toàn loại trừ bệnh lý ứ mật.
+  - *Bước 1 (Phân loại tăng Bilirubin)*: Bilirubin trực tiếp không vượt quá 1.0 mg/dL (ngưỡng ứ mật NASPGHAN/ESPGHAN 2017, bất kể Bilirubin toàn phần) khẳng định Vàng da tăng Bilirubin gián tiếp, hoàn toàn loại trừ bệnh lý ứ mật.
   - *Bước 2 (Chẩn đoán nguyên nhân)*: Trẻ bú mẹ hoàn toàn, tăng cân vượt chuẩn trên 40 g/ngày, phân vàng, nước tiểu trong, loại trừ tan máu nên chẩn đoán xác định là Vàng da do sữa mẹ.
   - *Bước 3 (Đối chiếu ngưỡng can thiệp)*: Ở trẻ 18 ngày tuổi, hàng rào máu não đã tương đối vững chắc, ngưỡng chiếu đèn ở tuổi này trên 20 mg/dL. Mức TSB 13.5 mg/dL hoàn toàn an toàn đối với não.
   - *Bước 4 (Tư vấn gia đình)*: Giải thích rõ cho cha mẹ đây là tình trạng sinh lý hoàn toàn lành tính do hoạt chất tự nhiên trong sữa mẹ. Tuyệt đối không được ngừng bú mẹ, không cần chiếu đèn, không uống nước đường.
