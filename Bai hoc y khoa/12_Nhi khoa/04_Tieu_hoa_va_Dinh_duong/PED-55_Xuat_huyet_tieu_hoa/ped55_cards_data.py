@@ -263,7 +263,7 @@ cards_data = [
         "section": "B2",
         "category": "Dấu hiệu định hướng nguyên nhân",
         "front": "Các biểu hiện lâm sàng định hướng nguyên nhân loét dạ dày, tăng áp lực tĩnh mạch cửa và chảy máu đường mật?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm loét dạ dày tá tràng: Tiền sử đau bụng thượng vị theo chu kỳ hoặc liên quan bữa ăn, ợ chua.<br>2) Xuất huyết do giãn tĩnh mạch thực quản: Hội chứng tăng áp lực tĩnh mạch cửa trong xơ gan hoặc teo hẹp tĩnh mạch cửa gồm Lách to, Cổ trướng, Tuần hoàn bàng hệ cửa - chủ ở bụng.<br>3) Chảy máu đường mật: Sốt, gan to đau, vàng da, nhiễm khuẩn đường mật tái diễn sau chấn thương gan (Tam chứng Sandblom).<br><br><b>💡 Giải thích của AI:</b><br>Khám thấy lách to kèm tuần hoàn bàng hệ lập tức định hướng nôn máu là do vỡ giãn tĩnh mạch thực quản.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm loét dạ dày tá tràng: Tiền sử đau bụng thượng vị theo chu kỳ hoặc liên quan bữa ăn, ợ chua.<br>2) Xuất huyết do giãn tĩnh mạch thực quản: Hội chứng tăng áp lực tĩnh mạch cửa trong xơ gan hoặc teo hẹp tĩnh mạch cửa gồm Lách to, Cổ trướng, Tuần hoàn bàng hệ cửa - chủ ở bụng.<br>3) Chảy máu đường mật: sốt, gan to, nhiễm khuẩn đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Khám thấy lách to kèm tuần hoàn bàng hệ định hướng nôn máu do vỡ giãn tĩnh mạch thực quản. Ngoài barem: tam chứng kinh điển của chảy máu đường mật (tam chứng Quincke/Sandblom) là đau hạ sườn phải, vàng da, xuất huyết tiêu hóa.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 89, Mục 2.5 - Biểu hiện khác)",
         "tags": [
             "PED-55",
@@ -393,394 +393,253 @@ cards_data = [
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Nguyên nhân XHTH trên ở Sơ sinh",
-        "front": "3 nguyên nhân gây xuất huyết tiêu hóa TRÊN thường gặp nhất ở trẻ SƠ SINH theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nuốt máu mẹ: Trong chuyển dạ hoặc khi bú mẹ nứt núm vú (phân biệt bằng test Apt-Downey).<br>2) Bệnh lý xuất huyết do thiếu vitamin K: Chảy máu tiêu hóa kèm chảy máu rốn, nội sọ.<br>3) Viêm loét dạ dày - tá tràng do stress: Gặp ở trẻ sơ sinh bị ngạt nặng, suy hô hấp, hạ thân nhiệt, nhiễm khuẩn huyết.<br><br><b>💡 Giải thích của AI:</b><br>Ở sơ sinh, nuốt máu mẹ là nguyên nhân lành tính hay gặp nhất, trong khi thiếu vitamin K là bệnh lý mắc phải nguy hiểm hàng đầu cần tiêm dự phòng ngay sau sinh.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1.1 - Sơ sinh)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "XHTH-Tren",
-            "So-sinh",
-            "Vitamin-K"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "Phân định <span style=\"color:#74c0fc\"><b>XHTH trên</b></span> và <span style=\"color:#74c0fc\"><b>XHTH dưới</b></span> theo mốc giải phẫu nào? Dấu hiệu lâm sàng đặc hiệu của XHTH trên?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• XHTH trên: tổn thương xuất huyết từ <span style=\"color:#74c0fc\"><b>góc Treitz tới miệng</b></span>.<br>• XHTH dưới: tổn thương chảy máu từ <span style=\"color:#74c0fc\"><b>góc Treitz tới hậu môn</b></span>.<br>• Dấu hiệu đặc hiệu của XHTH trên: <span style=\"color:#ff6b6b\"><b>nôn ra máu</b></span> và <span style=\"color:#ff6b6b\"><b>ỉa phân đen</b></span>.<br>• Chảy máu ít: có thể không nôn ra máu. Chảy máu nhiều: nôn ra máu tươi hoặc ỉa máu đỏ sẫm.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5 và 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "XHTH-tren", "Goc-Treitz"]
     },
     {
         "id": "PED55-B25",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Xuất huyết do thiếu Vitamin K",
-        "front": "Đặc điểm xuất huyết tiêu hóa do Thiếu vitamin K ở trẻ sơ sinh qua 2 thể khởi phát và biện pháp xử trí?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 2 thể lâm sàng:<br>1) Thể sớm: Xuất hiện trong tuần đầu sau sinh (ngày thứ 2 đến thứ 7).<br>2) Thể muộn: Xuất hiện ở tuần thứ 2 đến tuần thứ 8 sau sinh (đặc biệt trẻ bú mẹ hoàn toàn không được tiêm phòng vitamin K).<br>• Đặc điểm: Chảy máu đa vị trí kết hợp: nôn máu, ỉa máu đen, chảy máu rốn kéo dài, bầm máu dưới da và đặc biệt biến chứng Xuất huyết não - màng não.<br>• Xử trí: Tiêm bắp hoặc tĩnh mạch chậm Vitamin K1 liều 1 - 5 mg ngay lập tức.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ sơ sinh có dự trữ vitamin K thấp và ruột chưa có hệ vi khuẩn tổng hợp vitamin K, tiêm bắp 1 mg Vitamin K1 sau sinh là quy chuẩn bắt buộc.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, 97, Mục Thiếu vitamin K)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Vitamin-K",
-            "So-sinh",
-            "2-the"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Viêm loét thực quản</b></span> gây XHTH ở trẻ em: cơ chế, biểu hiện, chẩn đoán và điều trị theo tuổi?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế: biến chứng của <span style=\"color:#74c0fc\"><b>trào ngược dạ dày thực quản (RGO)</b></span>.<br>• Biểu hiện: trẻ trớ hoặc nôn ra máu lẫn thức ăn; thường chảy máu ít, rỉ rỉ, kèm <span style=\"color:#ff6b6b\"><b>thiếu máu nhược sắc</b></span>.<br>• Chẩn đoán xác định: <span style=\"color:#51cf66\"><b>nội soi</b></span>.<br>• Điều trị:<br>– Trẻ <span style=\"color:#ffd43b\"><b>trước 18 tháng</b></span>: nội khoa bằng primperan hoặc motilium kết hợp tagamet hoặc ranitidin, prepulsif.<br>– Trẻ <span style=\"color:#ffd43b\"><b>sau 18 tháng</b></span>: điều trị nội khoa không đỡ cần phẫu thuật.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Hướng dẫn trào ngược ở trẻ em NASPGHAN/ESPGHAN 2018 (Rosen et al., JPGN 2018) không khuyến cáo dùng metoclopramid (primperan) hay domperidon (motilium) thường quy vì lợi ích không rõ và nguy cơ tác dụng phụ; thuốc ức chế acid ưu tiên là PPI. Ranitidin đã bị rút khỏi thị trường nhiều nước từ 2020 (tạp chất NDMA). Khi thi ghi phác đồ barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Viem-loet-thuc-quan", "RGO"]
     },
     {
         "id": "PED55-B26",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Nguyên nhân XHTH trên ở Nhũ nhi",
-        "front": "4 nguyên nhân xuất huyết tiêu hóa TRÊN thường gặp ở trẻ NHŨ NHI (1 tháng - 1 tuổi) theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm thực quản trào ngược (GERD): Kèm nôn trớ tái diễn, chậm tăng cân, khóc thét khi bú.<br>2) Viêm dạ dày cấp: Do dùng thuốc kháng viêm NSAID, Corticoid hoặc sau nhiễm khuẩn nặng.<br>3) Loét dạ dày - tá tràng: Thường thứ phát sau stress hoặc bệnh lý toàn thân nặng.<br>4) Hội chứng Mallory-Weiss: Rách niêm mạc vùng nối tâm vị thực quản sau những đợt nôn ói dữ dội, nôn khan kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng Mallory-Weiss đặc trưng bởi lần nôn đầu chỉ ra thức ăn bình thường, sau những cơn nôn gắng sức tiếp theo mới xuất hiện nôn ra máu tươi.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1.2 - Nhũ nhi)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "XHTH-Tren",
-            "Nhu-nhi",
-            "Mallory-Weiss",
-            "GERD"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Viêm loét thực quản do uống thuốc</b></span> thường do những thuốc nào và cơ chế gây loét?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc hay gặp: <span style=\"color:#74c0fc\"><b>doxycyclin</b></span>, <span style=\"color:#74c0fc\"><b>tetracyclin</b></span>, <span style=\"color:#74c0fc\"><b>aspirin</b></span>.<br>• Cơ chế: uống thuốc <span style=\"color:#ff6b6b\"><b>không uống nước kèm theo</b></span> làm viên thuốc tắc lại ở thực quản, gây loét cấp do tiếp xúc.<br><br><b>💡 Giải thích của AI:</b><br>Phòng ngừa: uống thuốc với nhiều nước và không nằm ngay sau uống (Ngoài barem).",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Loet-thuc-quan-do-thuoc"]
     },
     {
         "id": "PED55-B27",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Nguyên nhân XHTH trên ở Trẻ lớn",
-        "front": "3 nguyên nhân xuất huyết tiêu hóa TRÊN hàng đầu ở TRẺ LỚN (> 5 tuổi) theo giáo trình Y Thái Bình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giãn vỡ tĩnh mạch thực quản: Nguyên nhân hàng đầu gây xuất huyết ồ ạt đe dọa tính mạng ở trẻ có tăng áp lực tĩnh mạch cửa (xơ gan, teo hẹp/huyết khối tĩnh mạch cửa). Lâm sàng: nôn máu đỏ tươi ồ ạt kèm máu cục, lách to, tuần hoàn bàng hệ.<br>2) Loét dạ dày - tá tràng: Thường liên quan đến nhiễm vi khuẩn Helicobacter pylori (H. pylori) hoặc sau dùng thuốc NSAID.<br>3) Chảy máu đường mật (Hemobilia): Xuất huyết tiêu hóa kèm tam chứng Sandblom sau chấn thương gan.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ lớn, vỡ giãn tĩnh mạch thực quản và loét dạ dày tá tràng chiếm đa số các ca nôn ra máu nhập viện cấp cứu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92 - 93, Mục 5.1.3 - Trẻ lớn)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "XHTH-Tren",
-            "Tre-lon",
-            "Gian-TMTQ",
-            "H-pylori"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Vỡ giãn tĩnh mạch thực quản</b></span> trong tăng áp lực tĩnh mạch cửa: hình ảnh nội soi, các vị trí giãn khác và biểu hiện lâm sàng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nội soi: đám chảy máu thành tia hoặc mảng, đám máu đông, tụ máu hoặc tĩnh mạch giãn bị sói mòn.<br>• Vị trí khác: giãn, vỡ đám rối tĩnh mạch <span style=\"color:#74c0fc\"><b>tâm phình vị</b></span> (thấy khi soi ngược lại); hiếm hơn là vỡ phình giãn tĩnh mạch <span style=\"color:#74c0fc\"><b>tá tràng</b></span>.<br>• Lâm sàng: <span style=\"color:#ff6b6b\"><b>nôn máu tươi, nhiều, nặng</b></span>, kèm triệu chứng tăng áp lực tĩnh mạch cửa: <span style=\"color:#74c0fc\"><b>tuần hoàn bàng hệ</b></span>, <span style=\"color:#74c0fc\"><b>cổ trướng</b></span>, <span style=\"color:#74c0fc\"><b>gan lách to</b></span>, xơ gan.<br>• Tăng áp lực tĩnh mạch cửa trước gan do khối u hoặc tắc tĩnh mạch cửa; sau gan: <span style=\"color:#ff6b6b\"><b>hội chứng Budd-Chiari</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Gian-TMTQ", "Tang-ap-cua"]
     },
     {
         "id": "PED55-B28",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Chảy máu đường mật - Sandblom",
-        "front": "Bệnh cảnh lâm sàng và Tam chứng Sandblom kinh điển của Chảy máu đường mật (Hemobilia) theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Chảy máu từ các nhánh mạch máu gan vào trong đường dẫn mật rồi đổ xuống ruột non.<br>• Tam chứng Sandblom kinh điển gồm 3 triệu chứng:<br>1) Đau quặn gan (đau hạ sườn phải từng cơn dữ dội do cục máu đông di chuyển làm tắc ống mật).<br>2) Vàng da tắc mật thoáng qua.<br>3) Xuất huyết tiêu hóa (nôn máu hoặc đại tiện phân đen).<br>• Hoàn cảnh xuất hiện: Thường xảy ra sau chấn thương đụng dập gan hoặc sau can thiệp phẫu thuật/thủ thuật đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng Đau hạ sườn phải + Vàng da + Xuất huyết tiêu hóa sau tiền sử chấn thương gan là câu hỏi điểm 10 phân biệt xuất huyết tiêu hóa trên.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục Chảy máu đường mật)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Chay-mau-duong-mat",
-            "Sandblom",
-            "Hemobilia"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Hội chứng Mallory-Weiss</b></span>: hoàn cảnh xuất hiện, tổn thương và nguyên tắc điều trị theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hoàn cảnh: thường thứ phát sau <span style=\"color:#74c0fc\"><b>nôn dữ dội</b></span>.<br>• Tổn thương: <span style=\"color:#ff6b6b\"><b>vết nứt dọc tâm vị</b></span>, đau xuất hiện cùng nôn ra máu.<br>• Điều trị: để trẻ <span style=\"color:#51cf66\"><b>nghỉ ngơi</b></span>, dùng <span style=\"color:#51cf66\"><b>thuốc chống nôn</b></span> tránh làm vết nứt nặng thêm.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn chảy máu Mallory-Weiss tự cầm.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Mallory-Weiss"]
     },
     {
         "id": "PED55-B29",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Viêm ruột hoại tử - NEC",
-        "front": "Bệnh cảnh lâm sàng và dấu hiệu X-quang kinh điển của Viêm ruột hoại tử (NEC) ở trẻ sơ sinh theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đối tượng nguy cơ: Hay gặp nhất ở trẻ sơ sinh non tháng, nhẹ cân nuôi ăn nhân tạo.<br>• Biểu hiện lâm sàng:<br>1) Bụng chướng căng, nổi ban đỏ thành bụng.<br>2) Nôn dịch mật hoặc dịch ứ trệ dạ dày.<br>3) Đi ngoài phân nhầy lẫn máu (máu tươi hoặc đen).<br>4) Toàn thân nhiễm trùng nhiễm độc nặng, hạ thân nhiệt, cơn ngừng thở.<br>• Dấu hiệu X-quang bụng kinh điển: Hình ảnh HƠI TRONG THÀNH RUỘT (Pneumatosis intestinalis) hoặc hơi trong hệ tĩnh mạch cửa.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu hơi trong thành ruột trên X-quang là tiêu chuẩn vàng chẩn đoán NEC giai đoạn II (Bell stage) trở lên, cần ngừng ăn đường miệng và dùng kháng sinh phổ rộng ngay.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.1 - Sơ sinh)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "NEC",
-            "Viem-ruot-hoai-tu",
-            "Pneumatosis"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Viêm dạ dày - tá tràng</b></span> gây XHTH thường gặp trong những hoàn cảnh nào? Hình thái tổn thương?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hoàn cảnh: <span style=\"color:#74c0fc\"><b>ngộ độc</b></span>, <span style=\"color:#74c0fc\"><b>stress</b></span>, <span style=\"color:#74c0fc\"><b>nhiễm khuẩn nặng</b></span>, Scholein–Henoch, dị ứng thức ăn, thuốc, <span style=\"color:#74c0fc\"><b>hội chứng huyết tán tăng ure huyết</b></span>.<br>• Hay gặp ở <span style=\"color:#ffd43b\"><b>giai đoạn sơ sinh</b></span>: yếu tố nguy cơ là nhiễm khuẩn, đẻ non, thiếu O₂, stress, dị ứng, kèm hội chứng xuất huyết ở trẻ sơ sinh.<br>• Hình thái: xuất huyết dạng chấm, vết trợt nhỏ hoặc vết loét hoại tử niêm mạc dạ dày, gọi là <span style=\"color:#74c0fc\"><b>loét cấp tính</b></span> hay <span style=\"color:#74c0fc\"><b>loét thứ phát</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 92, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Viem-da-day"]
     },
     {
         "id": "PED55-B30",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Lồng ruột cấp - Tam chứng",
-        "front": "Đối tượng hay gặp và Tam chứng lâm sàng kinh điển của Lồng ruột cấp ở trẻ nhũ nhi theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đối tượng: Là nguyên nhân ngoại khoa thường gặp nhất ở trẻ từ 4 đến 9 tháng tuổi, hay gặp ở các bé trai bụ bẫm.<br>• Tam chứng lâm sàng kinh điển:<br>1) Đau bụng khóc thét từng cơn: Trẻ đang chơi đột ngột khóc thét dữ dội, ưỡn người, co hai chân lên bụng, sau đó tạm yên rồi lại khóc cơn tiếp theo.<br>2) Nôn: Ban đầu nôn ra thức ăn/sữa, về sau nôn ra dịch mật màu xanh vàng.<br>3) Ỉa phân nhầy máu: Thường xuất hiện muộn sau 6 - 12 giờ, phân nhầy lẫn máu màu mận chín (màu siro dâu).<br><br><b>💡 Giải thích của AI:</b><br>Đau bụng khóc thét từng cơn ở trẻ nhũ nhi bụ bẫm 4 - 9 tháng phải nghĩ ngay đến Lồng ruột trước khi phân có máu xuất hiện.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.2 - Lồng ruột)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Long-ruot-cap",
-            "Tam-chung",
-            "Nhu-nhi"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Loét dạ dày - tá tràng</b></span> gây XHTH ở trẻ em: tỷ lệ, phân loại nguyên nhân, vị trí và khi nào nghĩ tới hội chứng Zollinger-Ellison?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ: chiếm <span style=\"color:#ffd43b\"><b>30 - 40%</b></span> nôn ra máu nhiều ở trẻ em.<br>• Loét cấp tính hoặc thứ phát: do stress, sau mổ, bỏng rộng hoặc do thuốc (aspirin, cortisol).<br>• Loét tiên phát, mạn tính: liên quan đau bụng kéo dài.<br>• Vị trí loét chảy máu: dạ dày <span style=\"color:#ffd43b\"><b>1/3</b></span>, tá tràng <span style=\"color:#ffd43b\"><b>2/3</b></span>.<br>• Nhiều vết loét mạn tính khu trú ở hành tá tràng → tìm <span style=\"color:#ff6b6b\"><b>hội chứng Zollinger – Ellison</b></span>.<br>• Nội soi: mô tả tổn thương, tìm dấu hiệu chảy máu tái phát, các mạch máu, điểm mạch chảy máu ở miệng ổ loét.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: loét tiên phát ở trẻ lớn hay liên quan Helicobacter pylori.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Loet-DDTT", "Zollinger-Ellison"]
     },
     {
         "id": "PED55-B31",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Lồng ruột cấp - Khám & Siêu âm",
-        "front": "Dấu hiệu khám thực thể và hình ảnh Siêu âm kinh điển của Lồng ruột cấp theo giáo trình Y Thái Bình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khám thực thể:<br>1) Sờ thấy Khối lồng hình quả chuối (hoặc hình xúc xích), mật độ chắc, di động nhẹ, thường nằm dọc khung đại tràng hoặc ở hạ sườn phải.<br>2) Dấu hiệu Dance dương tính: Hố chậu phải rỗng (do manh tràng và hồi tràng đã lồng chui lên trên).<br>3) Thăm trực tràng: Găng có nhầy máu màu mận chín.<br>• Siêu âm ổ bụng: Tiêu chuẩn vàng có giá trị chẩn đoán xác định cao nhất:<br>1) Mặt cắt ngang: Hình ảnh 'bia bắn' (Target sign) hoặc hình 'bánh donut'.<br>2) Mặt cắt dọc: Hình ảnh 'bánh kẹp' (Sandwich sign) hoặc 'hình quả thận giả'.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm có độ nhạy và đặc hiệu gần 100% trong chẩn đoán lồng ruột, giúp phát hiện sớm khi chưa có ỉa máu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.2 - Lồng ruột)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Long-ruot",
-            "Khoi-long",
-            "Sieu-am-bia-ban"
-        ]
+        "category": "Nguyên nhân XHTH trên",
+        "front": "<span style=\"color:#ff6b6b\"><b>Chảy máu đường mật</b></span> ở trẻ em: nguyên nhân, biểu hiện lâm sàng và tiên lượng theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguyên nhân: biến chứng của <span style=\"color:#74c0fc\"><b>nhiễm khuẩn đường mật</b></span>, <span style=\"color:#74c0fc\"><b>áp xe gan do giun</b></span>, ung thư gan mật hoặc viêm đường mật xuất huyết.<br>• Lâm sàng: cơn đau bụng dữ dội, sốt, gan to, thể trạng nhiễm trùng, <span style=\"color:#ff6b6b\"><b>nôn ra máu tái phát nhiều lần ngày càng gần nhau</b></span> và ỉa phân đen.<br>• Tiên lượng: thường nặng, trẻ dễ bị <span style=\"color:#ff6b6b\"><b>sốc</b></span>, thường cần chỉ định <span style=\"color:#51cf66\"><b>phẫu thuật</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Mục 5.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Chay-mau-duong-mat"]
     },
     {
         "id": "PED55-B32",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Túi thừa Meckel",
-        "front": "Bản chất phôi thai học, cơ chế gây loét và tính chất chảy máu kinh điển của Túi thừa Meckel?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất phôi thai: Do sự thoái hóa không hoàn toàn của ống noãn hoàng (ống rốn tràng), tạo thành một túi thừa ở bờ tự do của hồi tràng (cách van hồi manh tràng khoảng 50 - 100 cm).<br>• Cơ chế gây loét: Khoảng 50% túi thừa Meckel có chứa NIÊM MẠC DẠ DÀY LẠC CHỖ tiết acid clohydric gây loét và thủng thành hồi tràng kế cận.<br>• Tính chất chảy máu kinh điển:<br>1) Đại tiện ra máu đỏ tươi hoặc màu mận chín ồ ạt, tái diễn từng đợt.<br>2) ĐẶC ĐIỂM SỐNG CÒN: HOÀN TOÀN KHÔNG ĐAU BỤNG và không sốt (chảy máu ồ ạt trên một đứa trẻ êm ả không đau).<br>• Chẩn đoán xác định: Chụp xạ hình nhấp nháy Tc99m pertechnetate.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi lâm sàng: Trẻ nhỏ đi ngoài ra máu đỏ ồ ạt mà bụng mềm hoàn toàn không đau, không sốt → chẩn đoán số 1 là Túi thừa Meckel.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94 - 95, Mục Meckel)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Meckel",
-            "Ong-noan-hoang",
-            "Khong-dau-bung"
-        ]
+        "category": "Bảng nguyên nhân XHTH trên",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH trên</b></span> ở <span style=\"color:#ffd43b\"><b>trẻ nhũ nhi</b></span> gồm những gì?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dạ dày: <span style=\"color:#74c0fc\"><b>viêm dạ dày do stress</b></span>.<br>• Vị trí khác: <span style=\"color:#74c0fc\"><b>thiếu hụt vitamin K</b></span>, nhiễm trùng huyết, chấn thương (đặt sonde mũi dạ dày), dị ứng đạm sữa bò.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Bảng nguyên nhân XHTH trên)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-tren", "Nhu-nhi"]
     },
     {
         "id": "PED55-B33",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Polyp đại trực tràng thiếu niên",
-        "front": "Bản chất, vị trí giải phẫu và đặc điểm chảy máu của Polyp đại trực tràng thiếu niên (Juvenile polyp)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bản chất: Là polyp dạng u mô thừa (Hamartoma) lành tính, thường đơn độc.<br>• Vị trí giải phẫu: Thường nằm ở vùng trực tràng hoặc đại tràng sigma (chiếm > 80%).<br>• Đặc điểm chảy máu:<br>1) Chảy máu tươi xuất hiện ở CUỐI BÃI PHÂN hoặc máu bao quanh khuôn phân.<br>2) HOÀN TOÀN KHÔNG ĐAU BỤNG.<br>3) Chảy máu dai dẳng kéo dài nhiều tuần đến nhiều tháng làm trẻ bị thiếu máu thiếu sắt nhẹ.<br>4) Thăm trực tràng hoặc nội soi đại tràng phát hiện polyp có cuống.<br><br><b>💡 Giải thích của AI:</b><br>Polyp thiếu niên lành tính và có thể tự rụng cuống, cắt polyp qua nội soi đại tràng ống mềm là phương pháp điều trị triệt căn.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục 5.2.3 - Polyp)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Polyp",
-            "Juvenile-polyp",
-            "Cuoi-bai-phan"
-        ]
+        "category": "Bảng nguyên nhân XHTH trên",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH trên</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>2 - 5 tuổi</b></span> theo vị trí?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thực quản: viêm thực quản; giãn tĩnh mạch thực quản; hội chứng Mallory-Weiss.<br>• Dạ dày: viêm dạ dày; loét dạ dày; giãn tĩnh mạch dạ dày.<br>• Tá tràng: viêm tá tràng; loét tá tràng.<br>• Vị trí khác: nuốt hóa chất ăn mòn; dị vật đường tiêu hóa; dùng thuốc NSAIDs.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Bảng nguyên nhân XHTH trên)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-tren", "2-5-tuoi"]
     },
     {
         "id": "PED55-B34",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Dị ứng đạm sữa bò",
-        "front": "Đặc điểm xuất huyết tiêu hóa do Dị ứng đạm sữa bò ở trẻ nhũ nhi theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thời điểm khởi phát: Thường xuất hiện trong vài tuần đầu sau khi trẻ bắt đầu ăn dặm hoặc đổi sang sữa công thức nguồn gốc sữa bò.<br>2) Tính chất phân: Phân lỏng nhiều lần, có sợi máu đỏ tươi dạng dây nhầy lẫn trong phân.<br>3) Triệu chứng đi kèm: Trẻ quấy khóc khi bú, nôn trớ, chậm tăng cân, có thể kèm dị ứng ngoài da (chàm da, mày đay).<br>4) Xét nghiệm & Thử thách: Xét nghiệm phân có bạch cầu ái toan; triệu chứng biến mất khi ngưng sữa bò và xuất hiện lại khi thử thách lại sữa bò.<br><br><b>💡 Giải thích của AI:</b><br>Xử trí đơn giản và hiệu quả nhất là chuyển sang sữa mẹ hoàn toàn (mẹ kiêng sữa bò) hoặc dùng sữa thủy phân hoàn toàn đạm whey/casein.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục Dị ứng đạm sữa)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Di-ung-sua-bo",
-            "Nhu-nhi",
-            "Soi-mau"
-        ]
+        "category": "Bảng nguyên nhân XHTH trên",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH trên</b></span> ở <span style=\"color:#ffd43b\"><b>trẻ lớn</b></span> theo vị trí?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thực quản: viêm thực quản; hội chứng Mallory-Weiss; giãn tĩnh mạch thực quản.<br>• Dạ dày: dị dạng mạch ở dạ dày (<span style=\"color:#74c0fc\"><b>Dieulafoy</b></span>); giãn tĩnh mạch dạ dày trong tăng áp lực tĩnh mạch cửa.<br>• Tá tràng: bệnh máu khó đông.<br>• Vị trí khác: polyps; bệnh Crohn; giãn tĩnh mạch; dị ứng đạm sữa bò; rối loạn đông máu; nuốt hóa chất ăn mòn; dị vật tiêu hóa; dùng thuốc NSAIDs.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Bảng nguyên nhân XHTH trên)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-tren", "Tre-lon"]
     },
     {
         "id": "PED55-B35",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Viêm mạch Henoch-Schonlein",
-        "front": "Bệnh cảnh lâm sàng toàn thân và tổn thương ruột trong Viêm mạch Henoch-Schonlein (HSP) gây xuất huyết tiêu hóa?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tổn thương mạch máu ruột: Viêm các vi mạch mạc treo và thành ruột gây thiếu máu cục bộ, phù nề và xuất huyết niêm mạc ruột.<br>• Tứ chứng lâm sàng toàn thân:<br>1) Ban xuất huyết ngoài da dạng sẩn gồ hoại tử đối xứng ở hai cẳng chân, mông.<br>2) Đau bụng từng cơn dữ dội quanh rốn (có thể đi ngoài phân đen hoặc phân máu, biến chứng lồng ruột).<br>3) Sưng đau các khớp lớn (khớp gối, cổ chân).<br>4) Tổn thương thận (đái máu vi thể/đại thể, protein niệu).<br><br><b>💡 Giải thích của AI:</b><br>Xuất huyết tiêu hóa trong Henoch-Schönlein có thể xuất hiện trước khi ban da bùng phát, rất dễ chẩn đoán nhầm với bụng ngoại khoa cấp cứu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục Henoch-Schonlein)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Henoch-Schonlein",
-            "HSP",
-            "Viem-mach"
-        ]
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "Hai dấu hiệu chủ yếu của <span style=\"color:#ff6b6b\"><b>XHTH dưới</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ỉa máu toàn bãi</b></span>: máu đã tiêu hóa màu đen, nâu hoặc chưa kịp tiêu hóa màu đỏ sẫm, đỏ tươi khi chảy nhiều; không nôn ra máu; nội soi thực quản dạ dày tá tràng không có tổn thương. Vị trí càng thấp, chảy càng nhiều thì phân càng đỏ tươi. Tổn thương thường ở hỗng tràng, hồi tràng hoặc đại tràng.<br>2) <span style=\"color:#74c0fc\"><b>Chảy máu hậu môn, trực tràng</b></span>: máu đỏ tươi ở đầu, cuối bãi hoặc bao ngoài phân, <span style=\"color:#ff6b6b\"><b>không bao giờ toàn bãi</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93 - 94, Mục 5.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "XHTH-duoi"]
     },
     {
         "id": "PED55-B36",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Hội chứng lỵ vi khuẩn",
-        "front": "Các căn nguyên vi khuẩn gây Hội chứng lỵ xuất huyết tiêu hóa dưới và đặc điểm phân theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Các căn nguyên vi khuẩn thường gặp: Shigella (lỵ trực trùng), Salmonella, Campylobacter jejuni, E. coli gây chảy máu ruột (EHEC / EIEC), Entamoeba histolytica (lỵ amip).<br>• Đặc điểm lâm sàng & phân:<br>1) Sốt cao, nhiễm trùng độc hại.<br>2) Đau quặn bụng dọc khung đại tràng, mót rặn liên tục.<br>3) Phân nhiều lần, số lượng phân ít, phân chứa NHIỀU NƯỚC LẪN CHẤT NHẦY, MỦ VÀ MÁU ĐỎ TƯƠI.<br><br><b>💡 Giải thích của AI:</b><br>E. coli O157:H7 (EHEC) tiết độc tố Shiga có thể gây Hội chứng tan máu ure huyết cao (HUS), chống chỉ định dùng kháng sinh bừa bãi khi nghi ngờ EHEC.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục Hội chứng lỵ)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Hoi-chung-ly",
-            "Shigella",
-            "EHEC"
-        ]
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "Kể các nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới tại ruột non</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>U máu ruột non</b></span> (Angiome).<br>2) <span style=\"color:#ff6b6b\"><b>Viêm ruột hoại tử</b></span>: trẻ lớn – trẻ sơ sinh; phân đen khắm, nhiễm trùng – nhiễm độc, bụng chướng hoặc biểu hiện viêm phúc mạc thủng ruột, có thể sốc.<br>3) <span style=\"color:#74c0fc\"><b>Nhiễm khuẩn đường tiêu hóa</b></span>: tiêu chảy xâm nhập (Coli gây bệnh, Salmonella, lị trực trùng, lị amibe).<br>4) <span style=\"color:#ff6b6b\"><b>Lồng ruột</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Viêm loét túi thừa Meckel</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Bệnh Schonlein – Henoch</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Ruot-non"]
     },
     {
         "id": "PED55-B37",
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Bảng tổng hợp XHTH Dưới",
-        "front": "Bảng tổng hợp các nguyên nhân xuất huyết tiêu hóa DƯỚI phổ biến vs nguy hiểm cần loại trừ theo 4 nhóm tuổi trong giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sơ sinh:<br>• Phổ biến: Nuốt máu mẹ, nứt kẽ hậu môn.<br>• Nguy hiểm cần loại trừ: Viêm ruột hoại tử (NEC), Xoắn ruột do quay bất toàn, Phình đại tràng Hirschsprung.<br>2) Nhũ nhi (&lt; 1 tuổi):<br>• Phổ biến: Nứt kẽ hậu môn, Dị ứng đạm sữa bò.<br>• Nguy hiểm cần loại trừ: LỒNG RUỘT CẤP, Túi thừa Meckel, Viêm ruột hoại tử.<br>3) Trẻ nhỏ (1 - 5 tuổi):<br>• Phổ biến: Nứt kẽ hậu môn, Polyp đại trực tràng.<br>• Nguy hiểm cần loại trừ: Túi thừa Meckel, Lồng ruột, Hội chứng lỵ.<br>4) Trẻ lớn (> 5 tuổi):<br>• Phổ biến: Táo bón nứt hậu môn, Polyp.<br>• Nguy hiểm cần loại trừ: Viêm ruột mạn tính (IBD), Viêm mạch Henoch-Schonlein, Trĩ.<br><br><b>💡 Giải thích của AI:</b><br>Bảng phân tầng theo tuổi này là kim chỉ nam giúp bác sĩ không bao giờ bỏ sót các cấp cứu ngoại khoa nguy hiểm như Lồng ruột hay NEC.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Bảng XHTH dưới theo tuổi)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Bang-tong-hop-XHTH-duoi",
-            "4-nhom-tuoi"
-        ]
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "<span style=\"color:#ff6b6b\"><b>Lồng ruột</b></span> gây XHTH dưới: biểu hiện giai đoạn sớm, giai đoạn muộn và các tỷ lệ theo tuổi trong barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Sớm: nôn, đau bụng từng cơn, sờ thấy búi lồng, thăm hậu môn trực tràng rỗng.<br>• Muộn: ỉa máu phân màu đỏ sẫm, bụng chướng, khó sờ búi lồng.<br>• Tỷ lệ: <span style=\"color:#ffd43b\"><b>&gt; 80%</b></span> lồng ruột ở trẻ <span style=\"color:#ffd43b\"><b>dưới 2 tuổi</b></span>; <span style=\"color:#ffd43b\"><b>45%</b></span> từ <span style=\"color:#ffd43b\"><b>4 – 10 tháng</b></span>; ỉa máu nhầy ở <span style=\"color:#ffd43b\"><b>36%</b></span> trẻ &lt; 1 tuổi.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94 - 95, Mục 5.2.1 và 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Long-ruot"]
     },
     {
         "id": "PED55-B38",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Hồi sức đường thở & Đường truyền",
-        "front": "Quy trình bảo đảm đường thở và thiết lập đường truyền tĩnh mạch trong cấp cứu xuất huyết tiêu hóa theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bảo đảm đường thở và oxy:<br>1) Đặt trẻ nằm ĐẦU THẤP NGHIÊNG SANG MỘT BÊN để tránh sặc máu và chất nôn vào đường hô hấp.<br>2) Thở oxy qua canula hoặc mặt nạ.<br>3) Nếu có rối loạn tri giác (hôn mê) hoặc nôn máu ồ ạt: BẮT BUỘC ĐẶT NỘI KHÍ QUẢN bảo vệ đường thở trước khi làm thủ thuật.<br>• Thiết lập đường truyền tĩnh mạch:<br>1) Đặt ngay 2 ĐƯỜNG TRUYỀN TĨNH MẠCH NGOẠI VI KIM LỚN (cỡ kim 18G - 22G).<br>2) Đặt catheter tĩnh mạch trung tâm nếu không lấy được ven ngoại vi.<br>3) Lấy máu xét nghiệm khẩn: Công thức máu, nhóm máu, phản ứng chéo, đông máu, chức năng gan thận, điện giải đồ.<br><br><b>💡 Giải thích của AI:</b><br>Hai đường truyền kim lớn là yêu cầu bắt buộc để có thể xả dịch tốc độ cao khi trẻ rơi vào sốc mất máu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6.1 - Hồi sức)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Hoi-suc",
-            "Duong-tho",
-            "Duong-truyen-TM"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "<span style=\"color:#ff6b6b\"><b>Viêm loét túi thừa Meckel</b></span> gây XHTH: cơ chế, đặc điểm chảy máu, tỷ lệ theo tuổi và xét nghiệm chẩn đoán xác định?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế: niêm mạc túi thừa là <span style=\"color:#74c0fc\"><b>niêm mạc dạ dày lạc chỗ</b></span>, gây loét, chảy máu.<br>• Đặc điểm (trẻ &lt; 18 tháng): chảy máu <span style=\"color:#ff6b6b\"><b>không kèm đau bụng</b></span>, thường chảy nhiều phải truyền máu, hoặc chảy ít nhưng hay tái phát.<br>• Tỷ lệ: <span style=\"color:#ffd43b\"><b>60%</b></span> chảy máu do Meckel xảy ra ở trẻ <span style=\"color:#ffd43b\"><b>&lt; 2 tuổi</b></span>; <span style=\"color:#ffd43b\"><b>40%</b></span> có nhiều đợt tái phát.<br>• Chẩn đoán xác định: <span style=\"color:#51cf66\"><b>chụp nhấp nháy đồng vị phóng xạ Tc99</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu:</b> Barem tự mâu thuẫn: mục 5.2.1 ghi \"trẻ có cơn đau bụng, xuất huyết vừa và nặng\", mục 5.2.2 ghi \"chảy máu không kèm theo đau bụng\". Kinh điển và Nelson 22e: chảy máu do Meckel thường không đau. Khi thi nêu \"không kèm đau bụng\".<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94 - 95, Mục 5.2.1 và 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Meckel", "Tc99"]
     },
     {
         "id": "PED55-B39",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Bồi phụ thể tích chống sốc",
-        "front": "Phác đồ dịch truyền bồi phụ thể tích chống sốc mất máu và những loại dịch CẤM DÙNG theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Loại dịch chỉ định: Dịch tinh thể đẳng trương gồm Natri Clorid 0,9% hoặc Ringer Lactat.<br>• Liều lượng và tốc độ: Liều 20 ml/kg truyền tĩnh mạch nhanh trong 20 - 30 phút. Có thể lặp lại lần 2 nếu huyết áp và tưới máu chưa cải thiện.<br>• CÁC LOẠI DỊCH CẤM DÙNG ĐỂ CHỐNG SỐC MẤT MÁU: Tránh dùng dịch nhược trương hoặc Glucose (dung dịch đường) để truyền bù thể tích.<br><br><b>💡 Giải thích của AI:</b><br>Dịch nhược trương và Glucose sẽ nhanh chóng thoát mạch vào gian bào gây phù não và hạ natri máu, hoàn toàn không giữ được thể tích trong lòng mạch.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6.1 - Bồi phụ thể tích)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Dich-truyen",
-            "Chong-soc",
-            "20-ml-kg",
-            "Cam-Glucose"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "XHTH trong <span style=\"color:#ff6b6b\"><b>bệnh Schonlein – Henoch</b></span>: tỷ lệ, tổn thương, vị trí hay gặp và cách xác định chẩn đoán trên lâm sàng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ: <span style=\"color:#ffd43b\"><b>30%</b></span> trường hợp ban xuất huyết khớp có tổn thương đường tiêu hóa (đau bụng, nôn, ỉa ra máu).<br>• Tổn thương: chấm máu, đám máu tụ thành ruột; hay gặp ở <span style=\"color:#74c0fc\"><b>hỗng, hồi tràng</b></span>, hiếm ở tá tràng hoặc đại tràng.<br>• Biểu hiện: đau bụng dữ dội, nôn nhiều, ỉa phân đen hoặc xuất huyết trực tràng; xuất huyết thường không nhiều, ít khi phải truyền máu.<br>• Biểu hiện tiêu hóa thường <span style=\"color:#ff6b6b\"><b>đi trước</b></span>; <span style=\"color:#74c0fc\"><b>ban xuất huyết cân đối ở các chi</b></span> (2 chi dưới, chi trên) cho phép xác định chẩn đoán trên lâm sàng.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94 - 95, Mục 5.2.1 và 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Henoch"]
     },
     {
         "id": "PED55-B40",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Chỉ định truyền máu",
-        "front": "Chỉ định, liều lượng và nồng độ Hemoglobin đích khi truyền Khối hồng cầu trong xuất huyết tiêu hóa nhi theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chỉ định truyền khối hồng cầu:<br>1) Trẻ mất máu nặng có biểu hiện sốc giảm thể tích không đáp ứng sau khi truyền dịch tinh thể.<br>2) Nồng độ Hemoglobin (Hb) giảm dưới 70 - 80 g/L (Hematocrit &lt; 25%).<br>3) Ở trẻ có bệnh tim bẩm sinh hoặc đang chảy máu dữ dội: Cần duy trì Hb > 100 g/L.<br>• Liều lượng truyền: Khối hồng cầu 10 - 15 ml/kg truyền tĩnh mạch chậm.<br><br><b>💡 Giải thích của AI:</b><br>Mốc Hb &lt; 70 - 80 g/L ở trẻ bình thường và Hb > 100 g/L ở trẻ tim bẩm sinh là 2 ngưỡng truyền máu kinh điển cần ghi nhớ chính xác.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6.1 - Truyền máu)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Truyen-mau",
-            "Khoi-hong-cau",
-            "Chi-dinh-Hb"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới",
+        "front": "Nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH do đại tràng, trực tràng</b></span> theo barem và đặc điểm từng nguyên nhân?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm đại tràng chảy máu</b></span>: do nhiễm khuẩn, dị ứng thức ăn, sữa bò hoặc bệnh Crohn (đau bụng, giảm cân, sốt, ỉa phân lỏng có máu kéo dài).<br>2) <span style=\"color:#74c0fc\"><b>Polyp trực tràng</b></span>: polyp đơn độc (<span style=\"color:#ffd43b\"><b>2/3</b></span>); khu trú trực tràng, đại tràng sigma (<span style=\"color:#ffd43b\"><b>3/4</b></span>); máu tươi ra cuối bãi; có thể là bệnh polyp (<span style=\"color:#ff6b6b\"><b>hội chứng Peutz – Jeghers</b></span>).<br>3) <span style=\"color:#74c0fc\"><b>Nứt hậu môn</b></span>: rất thường gặp, nhất là sau táo bón; máu ra trước khi ỉa hoặc thành vệt ở đoạn phân, kèm đau; vị trí nứt thường ở <span style=\"color:#ffd43b\"><b>6 – 12 giờ</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu:</b> Barem ghi hai cách khác nhau: mục 5.2.1 \"polyp đơn độc 2/3, ở trực tràng – sigma 3/4\", mục 5.2.2 \"2/3 polyp ở trực tràng và sigma, 3/4 là polyp đơn độc\". Polyp thiếu niên ở trẻ em phần lớn là đơn độc và nằm ở đại tràng trái/trực tràng (Nelson 22e).<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.1)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Dai-truc-trang", "Polyp", "Nut-hau-mon"]
     },
     {
         "id": "PED55-B41",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Bồi phụ yếu tố đông máu",
-        "front": "Chỉ định và liều dùng Huyết tương tươi đông lạnh (FFP), Khối tiểu cầu và Vitamin K1 theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Huyết tương tươi đông lạnh (FFP): Liều 10 - 15 ml/kg khi có rối loạn đông máu phối hợp (INR > 1,5 hoặc tỷ lệ Prothrombin kéo dài) hoặc chảy máu ồ ạt sau truyền dịch lượng lớn.<br>2) Khối tiểu cầu: Chỉ định khi số lượng tiểu cầu giảm dưới 50 × 10⁹/L (&lt; 50.000/μL) và đang có chảy máu tiến triển.<br>3) Vitamin K1: Tiêm tĩnh mạch chậm hoặc tiêm bắp liều 1 - 5 mg cho mọi trẻ sơ sinh và nhũ nhi nghi ngờ thiếu vitamin K.<br><br><b>💡 Giải thích của AI:</b><br>Trong chảy máu ồ ạt, bồi phụ đông máu song song với hồng cầu giúp ngăn chặn vòng xoắn bệnh lý rối loạn đông máu tiêu thụ.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97, Mục 6.1 - Bồi phụ đông máu)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "FFP",
-            "Tieu-cau",
-            "Vitamin-K1"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới theo tuổi",
+        "front": "Nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới ở trẻ sơ sinh</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• XHTH vào <span style=\"color:#ffd43b\"><b>ngày thứ 2 – 3</b></span>: biểu hiện xuất huyết toàn thân do <span style=\"color:#ff6b6b\"><b>thiếu vitamin K</b></span> (đông máu thiếu yếu tố <span style=\"color:#ffd43b\"><b>II, VII, IX và X</b></span>).<br>• <span style=\"color:#ff6b6b\"><b>Viêm ruột non hoại tử</b></span> ở trẻ sơ sinh, đẻ non.<br>• <span style=\"color:#ff6b6b\"><b>Xoắn toàn bộ ruột non</b></span> do quay, cuốn bất thường mạc treo ruột.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "So-sinh", "Vitamin-K"]
     },
     {
         "id": "PED55-B42",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Thuốc ức chế acid PPI",
-        "front": "Phác đồ sử dụng thuốc ức chế bơm proton PPI (Omeprazole / Esomeprazole) và mục tiêu pH dạ dày trong điều trị loét dạ dày tá tràng?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Liều lượng PPI (Omeprazole hoặc Esomeprazole):<br>1) Liều tấn công (Bolus): 1 mg/kg tiêm tĩnh mạch chậm (tối đa 40 mg).<br>2) Liều duy trì: 1 - 2 mg/kg/ngày chia 2 lần tiêm TM hoặc truyền tĩnh mạch liên tục 0,1 - 0,2 mg/kg/giờ.<br>• Mục tiêu pH dạ dày: Phải duy trì pH dạ dày > 6,0 liên tục.<br>• Cơ chế: Khi pH dạ dày > 6,0, men Pepsin bị bất hoạt và tiểu cầu kết tập tạo cục máu đông bền vững che phủ ổ loét (ở pH acid &lt; 5,0 cục máu đông sẽ bị tiêu hủy ngay).<br><br><b>💡 Giải thích của AI:</b><br>Duy trì pH > 6.0 là nguyên lý vàng giải thích vì sao phải dùng PPI liều cao truyền liên tục trong xuất huyết dạ dày tá tràng tiến triển.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97, Mục 6.2.1 - Thuốc PPI)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "PPI",
-            "Omeprazole",
-            "pH-da-day-tren-6"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới theo tuổi",
+        "front": "Nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới ở trẻ bú mẹ dưới 18 tháng</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Ỉa chảy nhiễm khuẩn (hội chứng lị)</b></span>: Salmonella, trực trùng lị, Campylobacter, E. coli xâm nhập; ỉa phân có máu mũi.<br>2) <span style=\"color:#ff6b6b\"><b>Lồng ruột cấp tính</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Không dung nạp protein sữa bò hoặc đậu nành</b></span>: ỉa phân lỏng có máu sau khi ăn sữa, biểu hiện viêm đại tràng.<br>4) <span style=\"color:#74c0fc\"><b>Loét túi thừa Meckel</b></span>: chảy máu không đau.<br>5) <span style=\"color:#74c0fc\"><b>Nứt hậu môn</b></span> khi trẻ táo bón.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Duoi-18-thang"]
     },
     {
         "id": "PED55-B43",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Thuốc co mạch tạng Octreotide",
-        "front": "Chỉ định, liều bolus và liều duy trì của Octreotide trong điều trị vỡ giãn tĩnh mạch thực quản theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chỉ định: Ngay khi nghi ngờ xuất huyết do tăng áp lực tĩnh mạch cửa (trẻ có xơ gan, lách to, tuần hoàn bàng hệ hoặc nôn máu đỏ tươi ồ ạt).<br>• Liều lượng Octreotide:<br>1) Liều Bolus ban đầu: 1 - 2 µg/kg tiêm tĩnh mạch chậm trong 5 phút.<br>2) Liều duy trì: Truyền tĩnh mạch liên tục 1 - 2 µg/kg/giờ (tối đa 50 µg/giờ).<br>• Thời gian duy trì: Duy trì liên tục trong 48 - 72 GIỜ sau khi máu đã cầm hoàn toàn, sau đó giảm liều dần rồi ngừng.<br><br><b>💡 Giải thích của AI:</b><br>Octreotide gây co mạch tạng chọn lọc làm giảm lưu lượng máu đổ về tĩnh mạch cửa, hạ áp lực búi giãn tĩnh mạch thực quản giúp cầm máu nhanh chóng.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 98, Mục 6.2.2 - Octreotide)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Octreotide",
-            "Co-mach-tang",
-            "Gian-TMTQ",
-            "48-72-gio"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới theo tuổi",
+        "front": "Nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới ở trẻ trước tuổi đi học (&lt; 6 tuổi)</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm trực tràng, đại tràng do nhiễm khuẩn, nhiễm kí sinh khuẩn.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm ruột non hoại tử trẻ lớn</b></span>: <span style=\"color:#74c0fc\"><b>hội chứng Pigbel</b></span>.<br>3) XHTH trong <span style=\"color:#74c0fc\"><b>bệnh Schonlein – Henoch</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Polyp trực tràng, đại tràng</b></span>: máu tươi ra đầu hoặc cuối bãi, bao ngoài cục phân, chảy ít nhưng hay tái phát; <span style=\"color:#ffd43b\"><b>2/3</b></span> ở trực tràng và sigma; <span style=\"color:#ffd43b\"><b>3/4</b></span> là polyp đơn độc.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "Duoi-6-tuoi", "Pigbel"]
     },
     {
         "id": "PED55-B44",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Propranolol phòng ngừa vỡ giãn",
-        "front": "Chỉ định và liều dùng của Propranolol trong dự phòng vỡ giãn tĩnh mạch thực quản theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chỉ định: Dự phòng tiên phát và thứ phát vỡ giãn tĩnh mạch thực quản SAU KHI XUẤT HUYẾT CẤP ĐÃ ĐƯỢC KIỂM SOÁT HOÀN TOÀN ỔN ĐỊNH.<br>• Liều lượng: Liều khởi đầu 1 mg/kg/ngày chia làm 2 - 3 lần uống.<br>• Đích điều chỉnh liều: Chỉnh liều tăng dần để đạt mục tiêu GIẢM NHỊP TIM LÚC NGHỈ 25% so với nhịp tim ban đầu.<br><br><b>💡 Giải thích của AI:</b><br>Propranolol chẹn thụ thể beta-1 làm giảm cung lượng tim và chẹn beta-2 gây co mạch tạng, giúp hạ áp lực tĩnh mạch cửa lâu dài.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 98, Mục 6.2.3 - Propranolol)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Propranolol",
-            "Du-phong-tai-phat",
-            "Dich-nhip-tim"
-        ]
+        "section": "B5",
+        "category": "Nguyên nhân XHTH dưới theo tuổi",
+        "front": "Nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới ở trẻ tuổi học đường (6 - 18 tuổi)</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm ruột xuất huyết</b></span>: viêm ruột hoại tử, amibe, lị → phân máu nhầy toàn bãi; viêm hậu môn, trực tràng → phân máu tươi nhầy.<br>2) Nguyên nhân khác: viêm loét túi thừa Meckel, vỡ túi máu ở ruột non, viêm đại tràng, chảy máu...",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục 5.2.2)",
+        "tags": ["PED-55", "Barem-goc", "Nguyen-nhan", "6-18-tuoi"]
     },
     {
         "id": "PED55-B45",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Nội soi can thiệp cầm máu",
-        "front": "Các kỹ thuật nội soi can thiệp cầm máu trong vỡ giãn tĩnh mạch thực quản và trong loét dạ dày tá tràng theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thời điểm: Tiến hành sớm trong vòng 12 - 24 giờ sau hồi sức ổn định huyết động.<br>• Trong vỡ giãn tĩnh mạch thực quản:<br>1) Thắt vòng cao su nội soi (Endoscopic Variceal Ligation - EVL): Là tiêu chuẩn vàng lựa chọn hàng đầu.<br>2) Tiêm xơ (Sclerotherapy): Áp dụng khi thắt vòng khó thực hiện ở trẻ nhỏ.<br>• Trong ổ loét dạ dày tá tràng: Tiêm cầm máu bằng dung dịch Adrenaline 1/10.000 quanh ổ loét kết hợp kẹp Clip cầm máu (Hemoclip) hoặc đầu dò nhiệt đốt điện.<br><br><b>💡 Giải thích của AI:</b><br>Thắt vòng cao su EVL có tỷ lệ cầm máu cao hơn và ít biến chứng loét hẹp thực quản hơn so với tiêm xơ xơ hóa tĩnh mạch.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 98, Mục 6.2.4 - Noi soi can thiep)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Noi-soi-can-thiep",
-            "EVL",
-            "Hemoclip"
-        ]
+        "section": "B5",
+        "category": "Bảng nguyên nhân XHTH dưới",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới</b></span> thường gặp ở <span style=\"color:#ffd43b\"><b>trẻ nhũ nhi</b></span>?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Viêm đại tràng không đặc hiệu; nứt kẽ hậu môn; dị ứng sữa; ruột đôi; xoắn ruột; bệnh Hirschsprung; viêm ruột hoại tử; chảy máu do can thiệp.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Bảng nguyên nhân XHTH dưới)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-duoi", "Nhu-nhi"]
     },
     {
         "id": "PED55-B46",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B6",
-        "category": "Sonde Sengstaken-Blakemore",
-        "front": "Chỉ định, thể tích bơm bóng và lưu ý an toàn sinh tử khi đặt Sonde Sengstaken-Blakemore chèn ép bóng?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chỉ định: Biện pháp cứu cánh tạm thời khi vỡ giãn tĩnh mạch thực quản chảy máu ồ ạt đe dọa tính mạng không kiểm soát được bằng thuốc co mạch và nội soi can thiệp chưa thể thực hiện ngay.<br>• Kỹ thuật bơm bóng:<br>1) Bơm bóng dạ dày trước với thể tích 100 - 150 ml không khí, kéo nhẹ cố định vào tâm vị.<br>2) Nếu máu vẫn tiếp tục chảy: Bơm tiếp bóng thực quản duy trì áp lực 25 - 30 mmHg.<br>• LƯU Ý AN TOÀN SINH TỬ: TUYỆT ĐỐI KHÔNG ĐƯỢC LƯU BÓNG CHÈN ÉP QUÁ 24 - 48 GIỜ.<br>• Nguy cơ: Lưu bóng quá 48 giờ sẽ gây thiếu máu cục bộ, hoại tử và loét thủng thực quản gây tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Sonde Blakemore chỉ là cầu nối hồi sức tạm thời trong khi chờ chuyển phòng mổ hoặc phòng nội soi can thiệp, phải xả bóng sau mỗi vài giờ.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 99, Mục 6.3 - Sonde Sengstaken)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Sengstaken-Blakemore",
-            "Chen-ep-bong",
-            "Cam-qua-48-gio"
-        ]
+        "section": "B5",
+        "category": "Bảng nguyên nhân XHTH dưới",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới</b></span> thường gặp ở trẻ <span style=\"color:#ffd43b\"><b>2 - 5 tuổi</b></span>?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Polyps; nứt kẽ hậu môn; nhiễm trùng đường ruột; lồng ruột; viêm loét túi thừa Meckel; Scholein Henoch; huyết tán ure máu cao; u bạch huyết; tăng sản mạch máu.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Bảng nguyên nhân XHTH dưới)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-duoi", "2-5-tuoi"]
     },
     {
         "id": "PED55-E01",
@@ -821,8 +680,8 @@ cards_data = [
         "section": "E2",
         "category": "Tháo lồng ruột bằng hơi",
         "front": "Quy trình tháo lồng ruột bằng hơi dưới màn huỳnh quang tăng sáng: áp lực bơm hơi an toàn và dấu hiệu tháo lồng thành công?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Kỹ thuật: Đặt ống thông hậu môn có bóng chèn, bơm hơi từ từ vào đại tràng dưới hướng dẫn của màn huỳnh quang tăng sáng (hoặc siêu âm).<br>• Áp lực bơm hơi an toàn: Bắt đầu từ 60 - 80 mmHg, tối đa không vượt quá 100 - 120 mmHg (ở trẻ nhũ nhi).<br>• Dấu hiệu tháo lồng thành công:<br>1) Thấy khối lồng thụt lùi dần qua góc gan, manh tràng rồi biến mất hoàn toàn.<br>2) Hơi ào ạt tràn vào các quai hồi tràng ở giữa bụng.<br>3) Bụng trẻ xẹp mềm, trẻ hết khóc thét và ngủ yên.<br><br><b>💡 Giải thích của AI:</b><br>Tháo lồng bằng hơi là tiêu chuẩn vàng điều trị lồng ruột cấp với tỷ lệ thành công > 90 - 95%, giúp trẻ tránh được một cuộc phẫu thuật mở bụng.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Tháo lồng ruột bằng hơi ở trẻ nhũ nhi (ESPGHAN)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Kỹ thuật: Đặt ống thông hậu môn có bóng chèn, bơm hơi từ từ vào đại tràng dưới hướng dẫn của màn huỳnh quang tăng sáng (hoặc siêu âm).<br>• Áp lực bơm hơi: Tăng dần từ từ, giới hạn áp lực theo quy trình của từng trung tâm và luôn tuân thủ hướng dẫn của khoa (không dùng con số cố định trong thẻ này).<br>• Dấu hiệu tháo lồng thành công:<br>1) Thấy khối lồng thụt lùi dần qua góc gan, manh tràng rồi biến mất hoàn toàn.<br>2) Hơi ào ạt tràn vào các quai hồi tràng ở giữa bụng.<br>3) Bụng trẻ xẹp mềm, trẻ hết khóc thét và ngủ yên.<br><br><b>💡 Giải thích của AI:</b><br>Tháo lồng bằng hơi là lựa chọn điều trị đầu tay của lồng ruột cấp ở trẻ không có chống chỉ định, giúp trẻ tránh được phẫu thuật mở bụng; áp lực cụ thể cần theo protocol của đơn vị và điều kiện an toàn.",
+        "extra": "📖 Nguồn: Khuyến cáo lồng ruột ở trẻ em (Ministry/ESPGHAN/ESPR) — tham chiếu hướng dẫn đơn vị. [Số áp lực cụ thể chưa được xác minh bằng nguồn tin cậy — đã bỏ khỏi thẻ.]",
         "tags": [
             "PED-55",
             "EBM",
@@ -855,8 +714,8 @@ cards_data = [
         "section": "E3",
         "category": "Baveno VII - Tam giác xử trí vỡ giãn",
         "front": "Quy tắc 'Tam giác xử trí vỡ giãn tĩnh mạch thực quản' theo đồng thuận Baveno VII cập nhật?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 mũi nhọn phối hợp đồng thời trong 12 giờ đầu:<br>1) Dược lý co mạch tạng: Khởi động Octreotide truyền tĩnh mạch liên tục ngay khi nghi ngờ vỡ giãn (trước cả khi nội soi).<br>2) Kháng sinh dự phòng sớm: Bắt buộc dùng Ceftriaxone đường tĩnh mạch trong 5 - 7 ngày cho mọi bệnh nhân tăng áp cửa xuất huyết tiêu hóa.<br>3) Nội soi can thiệp cầm máu: Thực hiện thắt vòng cao su EVL trong vòng 12 giờ sau khi ổn định huyết động.<br><br><b>💡 Giải thích của AI:</b><br>Theo Baveno VII, dùng thuốc co mạch tạng và kháng sinh NGAY TẠI THỜI ĐIỂM TIẾP NHẬN làm giảm đáng kể áp lực tĩnh mạch cửa trước khi đưa máy nội soi vào can thiệp.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Khuyến cáo Baveno VII về Tăng áp lực tĩnh mạch cửa",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 mũi nhọn phối hợp sớm (khuyến cáo đặt mục tiêu trong 12 giờ đầu):<br>1) Dược lý co mạch tạng: Khởi động Octreotide truyền tĩnh mạch liên tục ngay khi nghi ngờ vỡ giãn (trước cả khi nội soi).<br>2) Kháng sinh dự phòng sớm: Ceftriaxone đường tĩnh mạch (1 g/24 giờ) cho bệnh nhân xuất huyết tiêu hóa do tăng áp cửa, bắt đầu từ lúc nhập viện.<br>3) Nội soi can thiệp cầm máu: Thắt vòng cao su EVL sau khi ổn định huyết động.<br><br><b>💡 Giải thích của AI:</b><br>Theo Baveno VII, dùng thuốc co mạch tạng và kháng sinh NGAY TẠI THỜI ĐIỂM TIẾP NHẬN làm giảm áp lực tĩnh mạch cửa và nguy cơ nhiễm trùng trước khi đưa máy nội soi vào can thiệp.",
+        "extra": "📖 Nguồn: de Franchis R et al. Baveno VII — Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959–974, PMID 35120736.",
         "tags": [
             "PED-55",
             "EBM",
@@ -872,8 +731,8 @@ cards_data = [
         "section": "E3",
         "category": "Baveno VII - Kháng sinh dự phòng",
         "front": "Vì sao mọi bệnh nhân vỡ giãn TMTQ do tăng áp cửa bắt buộc phải dùng Kháng sinh dự phòng (Ceftriaxone) ngay khi nhập viện?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế: Xuất huyết tiêu hóa làm suy giảm miễn dịch nghiêm trọng, tạo điều kiện cho vi khuẩn đường ruột chuyển vị vào máu và dịch báng.<br>• Lợi ích chứng minh bằng chứng (EBM): Dùng Ceftriaxone dự phòng sớm giúp:<br>1) Giảm 50% nguy cơ nhiễm trùng huyết và viêm phúc mạc tiên phát do vi khuẩn (SBP).<br>2) Giảm đáng kể tỷ lệ tái xuất huyết sớm trong tuần đầu.<br>3) Giảm tỷ lệ tử vong toàn bộ ở bệnh nhân xơ gan xuất huyết tiêu hóa.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm trùng giải phóng nội độc tố kích hoạt co mạch gan và tăng áp lực cửa thứ phát làm bục búi giãn; dùng kháng sinh là biện pháp gián tiếp hạ áp lực cửa.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Khuyến cáo Baveno VII & Ceftriaxone dự phòng",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Cơ chế: Xuất huyết tiêu hóa làm suy giảm miễn dịch, tạo điều kiện cho vi khuẩn đường ruột chuyển vị vào máu và dịch báng.<br>• Lợi ích theo khuyến cáo Baveno VII: Kháng sinh dự phòng (thường Ceftriaxone) giúp:<br>1) Giảm nguy cơ nhiễm trùng huyết và viêm phúc mạc tiên phát do vi khuẩn (SBP).<br>2) Giảm tỷ lệ tái xuất huyết sớm trong tuần đầu.<br>3) Cải thiện tỷ lệ sống còn ở bệnh nhân xơ gan xuất huyết tiêu hóa.<br><br><b>💡 Giải thích của AI:</b><br>Nhiễm trùng giải phóng nội độc tố kích hoạt co mạch gan và tăng áp lực cửa thứ phát làm bục búi giãn; dùng kháng sinh là biện pháp gián tiếp hạ áp lực cửa.",
+        "extra": "📖 Nguồn: de Franchis R et al. J Hepatol 2022;76(4):959–974, PMID 35120736 (kháng sinh dự phòng từ lúc nhập viện; ceftriaxone 1 g/24 h).",
         "tags": [
             "PED-55",
             "EBM",
@@ -924,7 +783,7 @@ cards_data = [
         "category": "Cạm bẫy bỏ sót Túi thừa Meckel",
         "front": "Cạm bẫy lâm sàng số 3: Vì sao Túi thừa Meckel là nguyên nhân rất hay bị bỏ sót hoặc chẩn đoán muộn ở trẻ nhỏ?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ hoàn toàn không đau bụng, không sốt, không nôn; ngoài đợt đi ngoài ra máu trẻ chơi đùa ăn uống bình thường.<br>2) Nội soi dạ dày và nội soi đại tràng thông thường HOÀN TOÀN ÂM TÍNH (vì túi thừa nằm ở đoạn giữa hồi tràng ruột non không với tới được).<br>3) Siêu âm ổ bụng thông thường rất khó phát hiện túi thừa Meckel.<br>• Phản xạ chuẩn: Trẻ nhỏ &lt; 5 tuổi đi ngoài ra máu đỏ tái diễn từng đợt không đau bụng kèm nội soi trên/dưới âm tính → BẮT BUỘC CHỈ ĐỊNH XẠ HÌNH Tc99m PERTECHNETATE để tìm niêm mạc dạ dày lạc chỗ.<br><br><b>💡 Giải thích của AI:</b><br>Càng nội soi đại tràng nhiều lần càng bỏ sót Meckel; chỉ có xạ hình Tc99m hoặc phẫu thuật nội soi ổ bụng mới giải quyết được chẩn đoán.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Cạm bẫy bỏ sót Túi thừa Meckel",
+        "extra": "<b>⚖️ Đối chiếu:</b> Giáo trình (barem) ghi xạ hình Tc99m có độ nhạy khoảng 85%, độ đặc hiệu khoảng 95%. Meta-analysis trẻ em (Yan P, Jiang S. J Pediatr (Rio J) 2023;99(5):425–431, PMID 37277097; 16 nghiên cứu, 1.115 trẻ) ghi nhận độ nhạy gộp 80% (95% CI 0,73–0,86), độ đặc hiệu gộp 95% (95% CI 0,86–0,98). Kết luận: xạ hình Tc99m có giá trị chẩn đoán tốt nhưng bỏ sót một phần; âm tính không loại trừ hoàn toàn Meckel.",
         "tags": [
             "PED-55",
             "EBM",
@@ -974,8 +833,8 @@ cards_data = [
         "section": "E5",
         "category": "Phân loại Forrest trong loét dạ dày",
         "front": "Ý nghĩa của Bảng phân loại Forrest trong nội soi loét dạ dày tá tràng và nguy cơ tái xuất huyết?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Forrest I (Đang chảy máu hoạt động):<br>1) Ia: Máu phun thành tia (Nguy cơ tái chảy máu 90%).<br>2) Ib: Máu chảy rỉ rả liên tục (Nguy cơ 60 - 80%).<br>• Forrest II (Dấu hiệu chảy máu gần đây):<br>1) IIa: Nhìn thấy mạch máu nổi không chảy máu (Nguy cơ 50%).<br>2) IIb: Cục máu đông bám chặt đáy ổ loét (Nguy cơ 25 - 30%).<br>3) IIc: Cặn sắc tố đen đáy ổ loét (Nguy cơ 5 - 10%).<br>• Forrest III: Đáy ổ loét sạch, phủ giả mạc trắng (Nguy cơ tái chảy máu &lt; 5%).<br>• Chỉ định can thiệp nội soi: BẮT BUỘC can thiệp cầm máu đối với Forrest Ia, Ib, IIa và cân nhắc bóc cục máu đông ở IIb.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại Forrest là ngôn ngữ quốc tế định hướng có cần kẹp Clip hay tiêm Adrenaline cầm máu qua nội soi hay không.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Phân loại Forrest trong nội soi loét dạ dày tá tràng",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Forrest I (Đang chảy máu hoạt động):<br>1) Ia: Máu phun thành tia (nguy cơ tái chảy máu cao nhất).<br>2) Ib: Máu rỉ rả liên tục (nguy cơ tái chảy máu cao).<br>• Forrest II (Dấu hiệu chảy máu gần đây):<br>1) IIa: Mạch máu lộ trần không chảy máu (nguy cơ trung bình-cao).<br>2) IIb: Cục máu đông bám đáy ổ loét (nguy cơ trung bình).<br>3) IIc: Cặn sắc tố đen đáy ổ loét (nguy cơ thấp).<br>• Forrest III: Đáy ổ loét sạch, phủ giả mạc trắng (nguy cơ thấp nhất).<br>• Chỉ định can thiệp nội soi: BẮT BUỘC cầm máu với Forrest Ia, Ib, IIa; cân nhắc với IIb.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại Forrest định hướng quyết định có cần cầm máu nội soi hay không. Các tỷ lệ tái chảy máu cụ thể theo từng nhóm khác nhau giữa các nghiên cứu nên không đưa con số cố định vào thẻ này.",
+        "extra": "📖 Nguồn: Forrest classification (Forrest JA et al., Lancet 1974); khuyến cáo nội soi ESGE/ESPGHAN: Thomson M, Tringali A et al. JPGN 2017;64(1):133–153, PMID 27622898.",
         "tags": [
             "PED-55",
             "EBM",
@@ -991,8 +850,8 @@ cards_data = [
         "section": "E5",
         "category": "Quản lý Dị ứng đạm sữa bò",
         "front": "Nguyên tắc chuyển đổi sữa và điều trị xuất huyết tiêu hóa do Dị ứng đạm sữa bò ở trẻ nhũ nhi theo khuyến cáo ESPGHAN?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ bú mẹ hoàn toàn: Tiếp tục cho bú mẹ, MẸ BẮT BUỘC KIÊNG HOÀN TOÀN SỮA BÒ và tất cả các chế phẩm từ sữa bò (phô mai, sữa chua, bơ) trong ít nhất 2 - 4 tuần.<br>2) Trẻ ăn sữa công thức:<br>• Lựa chọn hàng đầu: Chuyển sang SỮA THỦY PHÂN HOÀN TOÀN (Extensively Hydrolyzed Formula - eHF).<br>• Lựa chọn cho thể nặng/thất bại eHF: Chuyển sang SỮA CÔNG THỨC ACID AMIN (Amino Acid-based Formula - AAF).<br>3) Không dùng sữa đậu nành cho trẻ &lt; 6 tháng tuổi vì nguy cơ dị ứng chéo cao.<br>• Tiên lượng: Rất tốt, hầu hết 85 - 90% trẻ sẽ dung nạp lại được sữa bò khi được 1 - 3 tuổi.<br><br><b>💡 Giải thích của AI:</b><br>Dị ứng đạm sữa bò gây viêm trực tràng đại tràng dị ứng (FPIAP) là bệnh lý lành tính, đáp ứng ngoạn mục sau 48 - 72 giờ đổi sữa.",
-        "extra": "📖 Nguồn: EBM Lâm sàng — Khuyến cáo ESPGHAN về Dị ứng đạm sữa bò",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ bú mẹ hoàn toàn: Tiếp tục cho bú mẹ, MẸ BẮT BUỘC KIÊNG HOÀN TOÀN SỮA BÒ và tất cả các chế phẩm từ sữa bò (phô mai, sữa chua, bơ) trong ít nhất 2 - 4 tuần.<br>2) Trẻ ăn sữa công thức:<br>• Lựa chọn hàng đầu: Chuyển sang SỮA THỦY PHÂN HOÀN TOÀN (Extensively Hydrolyzed Formula - eHF).<br>• Lựa chọn cho thể nặng/thất bại eHF: Chuyển sang SỮA CÔNG THỨC ACID AMIN (Amino Acid-based Formula - AAF).<br>3) Không dùng sữa đậu nành cho trẻ &lt; 6 tháng tuổi vì nguy cơ dị ứng chéo cao.<br>• Tiên lượng: Thường lành tính; tỷ lệ dung nạp lại sữa bò tăng theo tuổi (khoảng 50% lúc 1 tuổi, &gt; 75% lúc 3 tuổi, &gt; 90% lúc 6 tuổi).<br><br><b>💡 Giải thích của AI:</b><br>Dị ứng đạm sữa bò gây viêm trực tràng đại tràng dị ứng (FPIAP) là bệnh lý lành tính, thường đáp ứng sau vài ngày đổi chế độ ăn/sữa.",
+        "extra": "📖 Nguồn: ESPGHAN Committee on Nutrition — Koletzko S et al. JPGN 2012;55(2):221–229, PMID 22569527 (tỷ lệ dung nạp theo tuổi).",
         "tags": [
             "PED-55",
             "EBM",
@@ -1021,7 +880,7 @@ cards_data = [
     },
     {
         "id": "PED55-B47",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B1",
         "category": "Thăm trực tràng",
@@ -1040,65 +899,44 @@ cards_data = [
         "track": "barem_goc",
         "type": "basic",
         "section": "B5",
-        "category": "Bảng tổng hợp XHTH Trên",
-        "front": "Bảng tổng hợp các nguyên nhân xuất huyết tiêu hóa TRÊN ít gặp ở 4 nhóm tuổi theo giáo trình Y Thái Bình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sơ sinh: Dị tật mạch máu bẩm sinh, Dị tật nhân đôi đường tiêu hóa, Rối loạn đông máu bẩm sinh (Hemophilia).<br>2) Nhũ nhi (1 tháng - 1 tuổi): Dị vật đường tiêu hóa, Giãn tĩnh mạch thực quản bẩm sinh, U máu đường tiêu hóa.<br>3) Trẻ nhỏ (1 - 5 tuổi): Giãn vỡ tĩnh mạch thực quản do tăng áp cửa, Nuốt dị vật sắc nhọn, Dị dạng mạch máu ruột.<br>4) Trẻ lớn (> 5 tuổi): Chảy máu đường mật, Hội chứng Schönlein-Henoch, U tụy, U tá tràng.<br><br><b>💡 Giải thích của AI:</b><br>Dị vật đường tiêu hóa (như pin cúc áo, nam châm, xương cá) là nguyên nhân cơ học nguy hiểm cần khai thác kỹ ở trẻ tuổi tập bò và nhà trẻ.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 93, Bảng tổng hợp XHTH trên)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "XHTH-tren-it-gap",
-            "Bang-tong-hop"
-        ]
+        "category": "Bảng nguyên nhân XHTH dưới",
+        "front": "Theo bảng tổng hợp của barem, nguyên nhân <span style=\"color:#ff6b6b\"><b>XHTH dưới</b></span> thường gặp ở <span style=\"color:#ffd43b\"><b>trẻ lớn</b></span>?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Nứt kẽ hậu môn; nhiễm trùng đường ruột; polyps; ruột viêm (IBD); u bạch huyết; Scholein Henoch; tăng sản mạch máu; huyết tán ure máu cao; chảy máu do can thiệp.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Bảng nguyên nhân XHTH dưới)",
+        "tags": ["PED-55", "Barem-goc", "Bang", "XHTH-duoi", "Tre-lon"]
     },
     {
         "id": "PED55-B49",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B5",
-        "category": "Xoắn ruột & Hirschsprung",
-        "front": "Biểu hiện xuất huyết tiêu hóa dưới trong Xoắn ruột do quay bất toàn và Phình đại tràng bẩm sinh biến chứng viêm ruột?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xoắn ruột do ruột quay bất toàn:<br>1) Hay gặp ở trẻ sơ sinh trong tháng đầu.<br>2) Nôn dịch mật xanh đen ồ ạt, bụng chướng, đi ngoài phân máu sẫm hoặc máu tươi.<br>3) Siêu âm bụng thấy dấu hiệu 'xoáy nước' (Whirlpool sign) mạc treo tràng; cấp cứu ngoại khoa tối khẩn.<br>• Phình đại tràng bẩm sinh biến chứng viêm ruột (Hirschsprung enterocolitis):<br>1) Trẻ sơ sinh chậm đi phân su > 24 giờ sau sinh, tiền sử táo bón bụng chướng to.<br>2) Đột ngột sốt cao, tiêu chảy phân tóe nước mùi khắm thối lẫn máu, chướng bụng dữ dội và sốc nhiễm trùng.<br><br><b>💡 Giải thích của AI:</b><br>Viêm ruột do Hirschsprung là biến chứng tử vong hàng đầu ở trẻ phình đại tràng; cần đặt ống thông trực tràng thụt tháo giải áp khẩn cấp và dùng kháng sinh mạnh.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 94, Mục 5.2.1)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Xoan-ruot",
-            "Hirschsprung"
-        ]
+        "section": "B6",
+        "category": "Điều trị - Đánh giá",
+        "front": "Điều quan trọng nhất khi đánh giá XHTH là gì? Dấu hiệu lâm sàng tốt nhất đánh giá tình trạng <span style=\"color:#ff6b6b\"><b>mất máu</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Quan trọng nhất: xác định <span style=\"color:#74c0fc\"><b>mức độ và tốc độ mất máu</b></span> và <span style=\"color:#74c0fc\"><b>yếu tố nguy cơ</b></span>.<br>• Dấu hiệu tốt nhất: thay đổi nhịp tim và huyết áp khi chuyển trẻ từ <span style=\"color:#74c0fc\"><b>nằm ngửa sang ngồi</b></span>: nhịp tim tăng <span style=\"color:#ffd43b\"><b>20 nhịp/phút</b></span> hoặc huyết áp tâm thu giảm từ <span style=\"color:#ffd43b\"><b>10 mmHg</b></span> trở lên.<br>• Yếu tố nguy cơ: rối loạn đông máu, nhiễm trùng huyết, chấn thương; dấu hiệu liên quan: bệnh gan lách, vàng da, xơ gan.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6)",
+        "tags": ["PED-55", "Barem-goc", "Dieu-tri", "Danh-gia-mat-mau"]
     },
     {
         "id": "PED55-B50",
         "track": "barem_goc",
         "type": "basic",
-        "section": "B5",
-        "category": "Bệnh viêm ruột mạn - IBD",
-        "front": "Phân biệt tổn thương đường tiêu hóa giữa Bệnh Crohn và Viêm loét đại trực tràng chảy máu (UC) ở trẻ lớn?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bệnh Crohn:<br>1) Phạm vi: Tổn thương có thể ở BẤT KỲ VỊ TRÍ NÀO từ miệng đến hậu môn (thường gặp nhất ở đoạn cuối hồi tràng và manh tràng).<br>2) Tính chất: Tổn thương NGẮT QUÃNG ('nhảy cóc'), thâm nhiễm TOÀN BỘ BỀ DÀY THÀNH RUỘT.<br>3) Biến chứng: Rất hay có nứt kẽ, rò và áp xe quanh hậu môn, hẹp ruột.<br>• Viêm loét đại trực tràng chảy máu (UC):<br>1) Phạm vi: CHỈ TỔN THƯƠNG Ở ĐẠI TRÀNG VÀ TRỰC TRÀNG (bắt đầu từ trực tràng lan liên tục lên trên).<br>2) Tính chất: Tổn thương LIÊN TỤC KHÔNG NHẢY CÓC, CHỈ KHU TRÚ Ở LỚP NIÊM MẠC.<br>3) Biểu hiện: Đi ngoài phân lỏng nhiều máu đỏ tươi và chất nhầy mủ rầm rộ.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương nhảy cóc xuyên thành là đặc trưng của Crohn; tổn thương liên tục nông ở niêm mạc đại tràng là đặc trưng của UC.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 95, Mục IBD)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "IBD",
-            "Crohn",
-            "UC"
-        ]
+        "section": "B6",
+        "category": "Điều trị - Đánh giá",
+        "front": "XHTH <span style=\"color:#74c0fc\"><b>không ảnh hưởng huyết động</b></span>: cần làm xét nghiệm gì? Nêu các mục đích của <span style=\"color:#51cf66\"><b>đặt sonde dạ dày, hút và rửa nước muối</b></span> trong XHTH trên?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Xét nghiệm cơ bản: công thức máu, nhóm máu, chức năng gan và thận, đông máu.<br>• Mục đích đặt sonde dạ dày, hút và rửa:<br>1) Chẩn đoán.<br>2) Xác định tốc độ chảy máu.<br>3) Kiểm tra chảy máu liên tục hoặc tái phát.<br>4) Làm sạch dạ dày trước nội soi.<br>5) Ngăn ngừa <span style=\"color:#ff6b6b\"><b>bệnh não gan</b></span> ở bệnh nhân xơ gan.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6)",
+        "tags": ["PED-55", "Barem-goc", "Dieu-tri", "Sonde-da-day"]
     },
     {
         "id": "PED55-B51",
         "track": "barem_goc",
         "type": "basic",
         "section": "B6",
-        "category": "Rửa dạ dày & Ngoại khoa",
-        "front": "Kỹ thuật Rửa dạ dày bằng nước muối lạnh và 2 nhóm chỉ định Điều trị ngoại khoa cấp cứu trong xuất huyết tiêu hóa theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Kỹ thuật rửa dạ dày nước muối lạnh: Đặt sonde dạ dày hút sạch máu đọng, sau đó bơm rửa nhẹ nhàng bằng dung dịch Natri Clorid 0,9% lạnh (4 - 8°C); tác dụng làm co mạch tạm thời niêm mạc dạ dày và theo dõi tốc độ chảy máu tiếp diễn.<br>• 2 nhóm chỉ định điều trị ngoại khoa cấp cứu:<br>1) Nhóm thất bại nội khoa: Xuất huyết tiêu hóa chảy máu ồ ạt không cầm sau khi đã hồi sức tích cực tối đa và thất bại với nội soi can thiệp.<br>2) Nhóm bệnh lý ngoại khoa cấp tính: Lồng ruột hoại tử hoặc tháo lồng thất bại, xoắn ruột, túi thừa Meckel loét thủng chảy máu, thủng ổ loét dạ dày tá tràng.<br><br><b>💡 Giải thích của AI:</b><br>Rửa dạ dày bằng nước muối lạnh còn giúp làm sạch thức ăn và máu đọng để cuộc nội soi tiêu hóa cấp cứu sau đó quan sát ổ loét rõ ràng nhất.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 99, Mục 6.4 & 6.5)",
-        "tags": [
-            "PED-55",
-            "Barem-goc",
-            "Rua-da-day",
-            "Dieu-tri-ngoai-khoa"
-        ]
+        "category": "Điều trị - Đông máu",
+        "front": "Chỉ định <span style=\"color:#51cf66\"><b>vitamin K</b></span> và xử trí <span style=\"color:#ff6b6b\"><b>rối loạn đông máu</b></span> trong XHTH trẻ em theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vitamin K tiêm <span style=\"color:#ffd43b\"><b>1 - 2 mg/liều</b></span>: khuyến cáo cho <span style=\"color:#74c0fc\"><b>trẻ sơ sinh</b></span>, ngay cả khi chưa có kết quả đông máu.<br>• Rối loạn đông máu (<span style=\"color:#ffd43b\"><b>INR &gt; 1,5</b></span> hoặc thời gian thromboplastin một phần bất thường): <span style=\"color:#51cf66\"><b>huyết tương tươi đông lạnh</b></span> <span style=\"color:#ffd43b\"><b>10 ml/kg</b></span> ban đầu.<br>• Rối loạn đông máu nặng, nhất là khi phải hạn chế dịch: thử dùng <span style=\"color:#51cf66\"><b>huyết tương kết tủa lạnh</b></span>.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6)",
+        "tags": ["PED-55", "Barem-goc", "Dieu-tri", "Vitamin-K", "Dong-mau"]
     },
     {
         "id": "PED55-E15",
@@ -1148,5 +986,169 @@ cards_data = [
             "Quy-tac-vang",
             "Thuc-chien"
         ]
-    }
+    },
+    {
+        "id": "PED55-B52",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Hồi sức",
+        "front": "Các biện pháp <span style=\"color:#ff6b6b\"><b>hồi sức ổn định huyết động</b></span> cho trẻ XHTH mất nhiều máu theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tư thế, oxy: <span style=\"color:#51cf66\"><b>ủ ấm</b></span>, đầu thấp chân cao, <span style=\"color:#51cf66\"><b>thở O₂</b></span>. Nếu có nôn máu: kê đầu cao <span style=\"color:#ffd43b\"><b>30 - 40°</b></span> phòng hít máu vào phổi. Xuất huyết nặng: <span style=\"color:#51cf66\"><b>đặt nội khí quản</b></span> bảo đảm đường thở.<br>• Đường truyền: đặt <span style=\"color:#ffd43b\"><b>2 đường truyền tĩnh mạch</b></span> – tĩnh mạch trung tâm, đo áp lực tĩnh mạch trung tâm.<br>• Xét nghiệm cấp: nhóm máu, tế bào máu, tiểu cầu, thời gian prothrombin, hemoglobin, khí máu.<br>• Theo dõi: mạch, huyết áp, tinh thần, khối lượng máu tiếp tục mất, nôn, ỉa máu.<br><br><b>💡 Giải thích của AI:</b><br>Hemoglobin lúc đầu chưa phản ánh trung thực lượng máu mất (giai đoạn đầu chưa pha loãng), sau đó có thể giảm do truyền dịch.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96, Mục 6.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Hoi-suc"
+        ]
+    },
+    {
+        "id": "PED55-B53",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Truyền dịch",
+        "front": "Hai mục đích của <span style=\"color:#51cf66\"><b>truyền máu</b></span> trong XHTH và dịch truyền dùng giai đoạn đầu khi chờ máu theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mục đích: (1) <span style=\"color:#74c0fc\"><b>phục hồi khối lượng tuần hoàn</b></span> (đánh giá qua mạch, huyết áp); (2) <span style=\"color:#74c0fc\"><b>bảo đảm lượng O₂ cung cấp cho tổ chức</b></span> (đánh giá qua hemoglobin, hematocrit).<br>• Mục tiêu 1 đạt được bằng dịch phân tử lượng cao, dịch thay thế máu; mục tiêu 2 chỉ đạt được nhờ truyền máu.<br>• Giai đoạn đầu khi chờ máu: <span style=\"color:#51cf66\"><b>dung dịch mặn đẳng trương hoặc Ringer lactat</b></span> <span style=\"color:#ffd43b\"><b>20 ml/kg/giờ</b></span> cho tới khi khối lượng tuần hoàn tối thiểu hồi phục (huyết áp tăng), mất dấu hiệu co mạch ngoại biên (vân tím trên da).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Thực hành nhi hiện nay bù dịch theo từng bolus 10–20 ml/kg trong 5–20 phút và đánh giá lại sau mỗi lần; với sốc mất máu ưu tiên truyền máu sớm (PALS/AHA). Khi thi ghi mốc barem 20 ml/kg/giờ.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 96 - 97, Mục 6.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Truyen-dich",
+            "Truyen-mau"
+        ]
+    },
+    {
+        "id": "PED55-B54",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Truyền dịch",
+        "front": "Barem nêu gì về <span style=\"color:#74c0fc\"><b>albumin, plasma, dextran và hetastarch</b></span> trong XHTH?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Albumin và plasma: chỉ dùng khi mất máu nhiều và tiếp tục, vì giai đoạn này có thể suy thở hay sốc phổi do giảm áp lực keo.<br>• Dextran: thận trọng vì có thể ảnh hưởng chức năng tiểu cầu.<br>• Hetastarch: nhũ tương keo nhân tạo, barem ghi dùng có hiệu quả và an toàn.<br>• Lưu ý: truyền khối lượng tuần hoàn nguy hiểm nhất với xuất huyết do <span style=\"color:#ff6b6b\"><b>giãn tĩnh mạch thực quản</b></span>, do loét.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Dung dịch HES (hetastarch) làm tăng tổn thương thận và tử vong ở bệnh nhân nặng; Cơ quan Dược phẩm châu Âu (EMA) đã hạn chế (2013) và khuyến nghị đình chỉ (2022). Hiện không khuyến cáo dùng HES. Với giãn tĩnh mạch thực quản, bù dịch và máu quá mức làm tăng áp lực cửa và nguy cơ chảy máu lại (Baveno VII). Khi thi ghi theo barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97, Mục 6.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Dich-keo"
+        ]
+    },
+    {
+        "id": "PED55-B55",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Truyền máu",
+        "front": "<span style=\"color:#51cf66\"><b>Truyền máu</b></span> sau khi đã phục hồi khối lượng tuần hoàn theo barem: đích hematocrit, liều khối hồng cầu, trường hợp xơ gan và xử trí sau truyền khối lượng lớn?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Đích: truyền máu chậm đưa <span style=\"color:#ffd43b\"><b>hematocrit lên 30%</b></span> (khối hồng cầu <span style=\"color:#ffd43b\"><b>10 ml/kg</b></span> ban đầu) hoặc truyền máu; tốc độ phụ thuộc khối lượng máu mất.<br>• Xơ gan (tránh tăng amoniac): truyền <span style=\"color:#74c0fc\"><b>khối hồng cầu</b></span> (ít NH₃ hơn máu toàn phần).<br>• Máu toàn phần có thể gây tăng citrat máu, acid lactic, giảm yếu tố đông máu, giảm tiểu cầu.<br>• Sau mỗi lần truyền <span style=\"color:#ffd43b\"><b>40 - 50 ml/kg</b></span> khối hồng cầu hoặc máu toàn phần: cho <span style=\"color:#51cf66\"><b>calci</b></span>, <span style=\"color:#51cf66\"><b>huyết tương tươi đông lạnh 10 ml/kg</b></span>, tiểu cầu và theo dõi tiểu cầu.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Xu hướng hiện nay là truyền máu hạn chế: ngưỡng Hb khoảng 70 g/L (đích 70–90 g/L) ở bệnh nhân ổn định; với giãn tĩnh mạch thực quản tránh truyền quá mức (Baveno VII, de Franchis et al., J Hepatol 2022, PMID 35120736). Khi thi ghi mốc barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97, Mục 6.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Truyen-mau"
+        ]
+    },
+    {
+        "id": "PED55-B56",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Thuốc",
+        "front": "<span style=\"color:#51cf66\"><b>Thuốc ức chế bơm proton (PPI)</b></span> trong XHTH trẻ em theo barem: các thuốc, đường dùng, liều, mục tiêu pH và tác dụng?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc: esomeprazole, lansoprazole, omeprazole, pantoprazole, rabeprazole.<br>• Đường dùng: <span style=\"color:#51cf66\"><b>tiêm tĩnh mạch</b></span>, truyền trong 1 giờ, liều <span style=\"color:#ffd43b\"><b>1 - 3 mg/kg</b></span> để duy trì <span style=\"color:#ffd43b\"><b>pH dạ dày &gt; 6</b></span> trong 24 giờ khi chảy máu hoạt động.<br>• Vượt trội hơn thuốc đối kháng H2 trong chảy máu do loét, XHTH trên.<br>• Tác dụng: giảm nguy cơ tái phát và cần phẫu thuật nhưng <span style=\"color:#ff6b6b\"><b>không ảnh hưởng tỷ lệ tử vong</b></span>; giảm tái phát, nhu cầu truyền máu, thời gian nằm viện; hiệu quả với XHTH ở trẻ em do NSAID.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97, Mục 6.2.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "PPI"
+        ]
+    },
+    {
+        "id": "PED55-B57",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Thuốc",
+        "front": "<span style=\"color:#51cf66\"><b>Thuốc co mạch</b></span> trong XHTH do tăng áp cửa theo barem: hiệu quả, các thuốc, đặc điểm terlipressin và liều octreotide?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chỉ định: cân nhắc <span style=\"color:#ff6b6b\"><b>càng sớm càng tốt</b></span> khi nghi tăng áp cửa là nguyên nhân XHTH; cầm máu <span style=\"color:#ffd43b\"><b>75 - 80%</b></span> trường hợp.<br>• 3 thuốc: terlipressin, somatostatin, octreotide (giảm lưu lượng máu và áp lực mạch máu).<br>• Terlipressin: co mạch toàn thân, nhất là động mạch lách; giảm áp lực tĩnh mạch khoảng <span style=\"color:#ffd43b\"><b>20%</b></span>; ít dùng ở trẻ em; tác dụng phụ <span style=\"color:#ff6b6b\"><b>hạ natri máu, co giật</b></span>.<br>• Octreotide (dẫn xuất somatostatin): co mạch chọn lọc; liều <span style=\"color:#ffd43b\"><b>2 - 5 mcg/kg/giờ</b></span> truyền liên tục, có thể bắt đầu bằng bolus, truyền <span style=\"color:#ffd43b\"><b>ít nhất 5 ngày</b></span> ở bệnh nhân nguy cơ tái phát.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Nhiều phác đồ nhi dùng octreotide bolus 1–2 mcg/kg rồi truyền 1–2 mcg/kg/giờ, kéo dài 2–5 ngày (Baveno VII cho người lớn: 2–5 ngày). Khi thi ghi liều barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 97 - 98, Mục 6.2.2)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Thuoc-co-mach",
+            "Octreotide"
+        ]
+    },
+    {
+        "id": "PED55-B58",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Thuốc",
+        "front": "<span style=\"color:#51cf66\"><b>Thuốc chẹn beta giao cảm</b></span> trong tăng áp cửa theo barem: các thuốc, cơ chế và liều ở trẻ em?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc: <span style=\"color:#74c0fc\"><b>propranolol</b></span>, nadolol, <span style=\"color:#74c0fc\"><b>carvedilol</b></span> (nghiên cứu nhiều ở người lớn tăng áp cửa).<br>• Cơ chế: giảm cung lượng tim (chẹn β1) và co mạch tạng (chẹn β2) → giảm áp lực cửa; carvedilol có vẻ giảm áp lực tĩnh mạch gan tốt hơn.<br>• Trẻ em: ít dữ liệu, liều dao động <span style=\"color:#ffd43b\"><b>2 - 8 mg/ngày</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Chẹn beta không chọn lọc dùng để dự phòng chảy máu lại, không dùng trong giai đoạn đang chảy máu cấp. Ở trẻ em liều propranolol thường tính theo cân nặng và chỉnh để giảm nhịp tim khoảng 25%; dữ liệu nhi còn hạn chế.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 98, Mục 6.2.3)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Chen-beta"
+        ]
+    },
+    {
+        "id": "PED55-B59",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị - Nội soi",
+        "front": "<span style=\"color:#51cf66\"><b>Nội soi can thiệp</b></span> trong XHTH theo barem: mục đích, thời điểm, các kỹ thuật và hiệu quả?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mục đích: <span style=\"color:#74c0fc\"><b>cầm máu và ngăn ngừa tái phát</b></span>.<br>• Thời điểm: khi bệnh nhân đã ổn định, tốt nhất <span style=\"color:#ffd43b\"><b>trong vòng 24 giờ</b></span> sau khi xuất hiện chảy máu.<br>• Kỹ thuật: liệu pháp tiêm (epinephrine, chất xơ cứng pha loãng), trị liệu cắt bỏ, liệu pháp cơ học; chọn theo đặc điểm chảy máu (phun thành tia, rỉ rả, không thấy mạch máu).<br>• Tiêm epinephrine hiệu quả khoảng <span style=\"color:#ffd43b\"><b>80%</b></span> chảy máu không do giãn; phối hợp epinephrine với phương pháp thứ hai tốt hơn đơn thuần, giảm tái phát xuống khoảng <span style=\"color:#ffd43b\"><b>10%</b></span>.<br>• <span style=\"color:#74c0fc\"><b>Endoclips</b></span>: liệu pháp cơ học được ưa thích cho XHTH không do giãn tĩnh mạch; Dieulafoy: nội soi là lựa chọn đầu tiên.<br>• Giãn tĩnh mạch cấp: <span style=\"color:#51cf66\"><b>thắt tĩnh mạch qua nội soi</b></span> là lựa chọn.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 98 - 99, Mục 6.2.4)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Noi-soi-can-thiep"
+        ]
+    },
+    {
+        "id": "PED55-B60",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị nguyên nhân",
+        "front": "Điều trị <span style=\"color:#ff6b6b\"><b>chảy máu do giãn vỡ tĩnh mạch thực quản</b></span> bằng <span style=\"color:#51cf66\"><b>vasopressin</b></span> và <span style=\"color:#51cf66\"><b>sonde Blakemore</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Vasopressin <span style=\"color:#ffd43b\"><b>0,3 đv/kg</b></span> truyền tĩnh mạch:<br>– Trẻ dưới 5 tuổi: <span style=\"color:#ffd43b\"><b>0,05 đv/phút/giờ</b></span>, tối đa 0,2 đv/phút/giờ.<br>– Trẻ &lt; 12 tuổi: <span style=\"color:#ffd43b\"><b>0,3 đv/phút/giờ</b></span>; trẻ &gt; 12 tuổi: <span style=\"color:#ffd43b\"><b>0,4 đv/phút/giờ</b></span>.<br>– Hoặc 0,2 – 0,4 đv/1,73 m² da/phút; pha dextrose 5%, an toàn nhất qua tĩnh mạch trung tâm; có thể duy trì 12 – 24 giờ sau khi máu ngừng chảy.<br>– Tác dụng phụ: <span style=\"color:#ff6b6b\"><b>thiếu máu cơ tim, loạn nhịp</b></span>, co thắt mạch, giữ nước, tím đầu chi.<br>• Sonde Blakemore: ép chỗ vỡ, cầm máu ban đầu <span style=\"color:#ffd43b\"><b>50 - 80%</b></span>; biến chứng <span style=\"color:#ffd43b\"><b>9 – 35%</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Vasopressin hiện ít dùng vì tác dụng phụ tim mạch; octreotide (hoặc terlipressin) phối hợp thắt tĩnh mạch qua nội soi là điều trị chuẩn. Sonde chèn bóng chỉ là biện pháp tạm thời khi chảy máu không kiểm soát (Baveno VII). Barem ghi \"0,05 đv/phút/giờ\" là đơn vị chưa chuẩn (nhiều tài liệu dùng đv/kg/phút).<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 99, Mục 7.2.1)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Vasopressin",
+            "Blakemore"
+        ]
+    },
+    {
+        "id": "PED55-B61",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B6",
+        "category": "Điều trị nguyên nhân",
+        "front": "Điều trị <span style=\"color:#ff6b6b\"><b>chảy máu do viêm loét dạ dày - tá tràng</b></span> theo barem: rửa dạ dày và các thuốc giảm acid?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#51cf66\"><b>Rửa dạ dày</b></span> bằng dung dịch muối đẳng trương lạnh (tác dụng như ở nhiệt độ thường) – dung dịch <span style=\"color:#74c0fc\"><b>noradrenalin</b></span> (4 ống trong 500 ml) để cầm máu.<br>• Rửa <span style=\"color:#ffd43b\"><b>15 - 20 phút</b></span> mà dịch không sạch máu → rửa không có tác dụng; để sonde hút kiểm tra <span style=\"color:#ffd43b\"><b>15 – 30 phút</b></span> một lần.<br>• Thuốc kháng acid: <span style=\"color:#ffd43b\"><b>15 ml</b></span> trẻ nhỏ, <span style=\"color:#ffd43b\"><b>30 ml</b></span> trẻ trước tuổi đi học, <span style=\"color:#ffd43b\"><b>60 ml</b></span> trẻ lớn, để pH từ 1 lên 3,5.<br>• Kháng H2: Tagamet IV <span style=\"color:#ffd43b\"><b>30 – 50 mg/kg/ngày</b></span>; ranitidin <span style=\"color:#ffd43b\"><b>5 – 10 mg/kg/ngày</b></span>.<br>• PPI tiêm tĩnh mạch <span style=\"color:#ffd43b\"><b>1 - 3 mg/kg/ngày</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Rửa dạ dày bằng nước muối lạnh không còn được khuyến cáo để cầm máu (không hiệu quả, có thể gây hạ thân nhiệt). PPI tĩnh mạch kết hợp nội soi cầm máu là điều trị chính; ranitidin đã bị rút khỏi thị trường nhiều nước (2020). Khi thi ghi theo barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 99, Mục 7.2.2)",
+        "tags": [
+            "PED-55",
+            "Barem-goc",
+            "Dieu-tri",
+            "Loet-DDTT",
+            "Rua-da-day"
+        ]
+    },
 ]

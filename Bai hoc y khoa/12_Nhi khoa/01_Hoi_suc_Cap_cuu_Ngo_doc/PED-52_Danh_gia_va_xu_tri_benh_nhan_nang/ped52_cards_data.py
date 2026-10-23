@@ -834,8 +834,8 @@ cards_data = [
         "category": "Hồi sức ban đầu - Tuần hoàn",
         "section": "B10",
         "front": "Các biện pháp hồi sức tuần hoàn cấp cứu ban đầu cho bệnh nhân sốc gồm những gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho thở oxy qua mặt nạ hoặc ống NKQ.<br>2) Thiết lập đường truyền tĩnh mạch hoặc đường truyền trong xương.<br>3) Truyền ngay dung dịch tinh thể liều 20 ml/kg.<br>4) Lấy mẫu máu xét nghiệm và kiểm tra đường huyết ngay thời điểm này.<br><br><b>💡 Lưu ý:</b><br>Đường truyền trong xương là cứu cánh khi thất bại lấy ven sau 90 giây ở trẻ sốc nặng.",
-        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cho thở oxy qua mặt nạ hoặc ống NKQ.<br>2) Thiết lập đường truyền tĩnh mạch hoặc đường truyền trong xương.<br>3) Truyền ngay dung dịch tinh thể liều 20 ml/kg.<br>4) Lấy mẫu máu xét nghiệm và kiểm tra đường huyết ngay thời điểm này.<br><br><b>💡 Lưu ý:</b><br>Bolus dịch cần được đánh giá lại liên tục sau mỗi đợt; ngừng bolus khi có dấu hiệu quá tải.",
+        "extra": "Văn bản gốc mục 2.3 (trang 149). <br><b>💡 Giải thích của AI:</b> Đường truyền trong xương là lựa chọn khi thất bại lấy đường truyền tĩnh mạch sau khoảng 90 giây ở trẻ sốc nặng (Ngoài barem). <br><b>⚖️ Đối chiếu:</b> Barem ghi bolus 20 ml/kg; PALS (2020, 2025) khuyến cáo bolus 10–20 ml/kg theo từng đợt có đánh giá lại sau mỗi đợt (AHA PALS 2020/2025). Thử nghiệm FEAST (Maitland et al., NEJM 2011, PMID 21615299) ghi nhận bolus 20 ml/kg ở trẻ nhiễm trùng nặng không kèm hạ huyết áp nặng làm tăng tử vong 48 giờ so với không bolus; vì vậy chỉ bolus khi có dấu hiệu sốc và đánh giá lại liên tục.",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -850,7 +850,7 @@ cards_data = [
         "category": "Hồi sức ban đầu - Tuần hoàn",
         "section": "B10",
         "text": "[Barem gốc] Hồi sức sốc ban đầu: lập đường truyền tĩnh mạch hoặc {{c1::đường truyền trong xương}}, truyền ngay dung dịch tinh thể với liều {{c1::20 ml/kg}} và kiểm tra {{c1::đường huyết}} ngay thời điểm này.",
-        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> PALS (AHA 2020) bù dịch theo từng bolus 10–20 ml/kg, đánh giá lại sau mỗi lần. Thử nghiệm FEAST (Maitland et al., NEJM 2011, PMID 21615299): ở trẻ sốt nặng có giảm tưới máu nhưng không tụt huyết áp nặng, tại nơi thiếu hồi sức tích cực, bolus dịch làm tăng tử vong 48 giờ. Khi thi ghi 20 ml/kg như barem.<br>Văn bản gốc mục 2.3 (trang 149).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -890,8 +890,8 @@ cards_data = [
         "category": "Hồi sức ban đầu - Thần kinh",
         "section": "B11",
         "front": "Phác đồ xử trí hạ đường huyết cấp cứu ở trẻ bệnh nặng theo giáo trình Y Thái Bình là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Điều trị bằng dung dịch Glucose 10% liều 2 ml/kg tiêm tĩnh mạch. Trước khi truyền đường, phải lấy máu xét nghiệm đường và các xét nghiệm khác.<br><br><b>💡 Lưu ý:</b><br>Tuyệt đối không dùng Glucose ưu trương nồng độ cao (20%, 30%) tiêm bolus trực tiếp ở trẻ em vì nguy cơ xơ hóa tĩnh mạch và tăng áp lực thẩm thấu đột ngột.",
-        "extra": "Văn bản gốc mục 2.4 (trang 150).",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Điều trị bằng dung dịch Glucose 10% liều 2 ml/kg tiêm tĩnh mạch. Trước khi truyền đường, phải lấy máu xét nghiệm đường và các xét nghiệm khác.<br><br><b>💡 Lưu ý:</b><br>Hạ đường huyết ở trẻ bệnh nặng cần được xử trí ngay khi có rối loạn ý thức hoặc co giật, không chờ kết quả xét nghiệm.",
+        "extra": "Văn bản gốc mục 2.4 (trang 150). <br><b>💡 Giải thích của AI:</b> Không dùng Glucose ưu trương 20%/30% tiêm bolus trực tiếp ở trẻ em do nguy cơ xơ hóa tĩnh mạch và tăng áp lực thẩm thấu đột ngột (Ngoài barem).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -952,8 +952,8 @@ cards_data = [
         "category": "Đánh giá bước hai",
         "section": "B12",
         "front": "Mục đích cốt lõi của đánh giá bước hai ở trẻ bệnh nặng khác gì so với làm bệnh án thông thường?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá bước hai tiến hành không phải để hoàn thành chẩn đoán xác định mà để phát hiện các vấn đề cần điều trị cấp cứu. Tập trung vào những vấn đề thiết yếu vì thời gian có hạn.<br><br><b>💡 Lưu ý:</b><br>Khác với bệnh án thông thường vốn mang tính chất tầm soát toàn diện và tìm bệnh căn nguyên lâu dài.",
-        "extra": "Văn bản gốc mục 3 (trang 150).",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Đánh giá bước hai tiến hành không phải để hoàn thành chẩn đoán xác định mà để phát hiện các vấn đề cần điều trị cấp cứu. Tập trung vào những vấn đề thiết yếu vì thời gian có hạn.<br><br><b>💡 Lưu ý:</b><br>Chẩn đoán xác định là một phần của điều trị xác định, diễn ra sau khi đã xử trí các vấn đề cấp cứu.",
+        "extra": "Văn bản gốc mục 3 (trang 150). <br><b>💡 Giải thích của AI:</b> Khác với bệnh án thông thường mang tính tầm soát toàn diện và tìm bệnh căn nguyên lâu dài (Ngoài barem).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -1075,7 +1075,7 @@ cards_data = [
         "category": "Bước hai - Hô hấp",
         "section": "B13",
         "text": "[Barem gốc] Tiếng thở rít xảy ra sau khi bệnh nhân tiêm hoặc ăn phải dị nguyên gợi ý phản vệ, chỉ định cấp cứu bằng {{c1::Adrenalin 1‰ liều 10 µg/kg}}, tiêm {{c1::bắp}}.",
-        "extra": "Văn bản gốc mục 3.1 (trang 152).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Adrenalin 1‰ (1 mg/ml) tiêm bắp mặt trước ngoài đùi 0,01 mg/kg (= 10 µg/kg), tối đa 0,3 mg ở trẻ nhỏ/trẻ em và 0,5 mg ở trẻ lớn, có thể nhắc lại sau 5–15 phút (WAO 2020; AAP Sicherer et al., Pediatrics 2017).<br>Văn bản gốc mục 3.1 (trang 152).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -1115,13 +1115,13 @@ cards_data = [
     },
     {
         "id": "PED52-B74",
-        "track": "barem_goc",
         "type": "basic",
         "category": "Bước hai - Tuần hoàn",
+        "track": "barem_goc",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bơm thêm dịch nếu bệnh nhân sốc không đáp ứng với lần bơm thứ nhất.<br>• Cân nhắc việc dùng thuốc vận mạch và đặt ống NKQ nếu phải bơm dịch lần thứ 3.<br><br><b>💡 Lưu ý:</b><br>Mỗi lần bơm dịch cần đánh giá lại mạch, huyết áp, gan và phổi để phát hiện sớm quá tải dịch.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153). <br><b>💡 Giải thích của AI:</b> Ngưỡng 40–60 ml/kg dịch rồi chuyển vận mạch là kinh nghiệm lâm sàng, không có trong barem (Ngoài barem). <br><b>⚖️ Đối chiếu:</b> Thử nghiệm FEAST (Maitland et al., NEJM 2011, PMID 21615299) cho thấy bolus dịch thường quy 20 ml/kg ở trẻ nhiễm trùng nặng không kèm hạ huyết áp nặng làm tăng tử vong 48 giờ; AHA PALS 2020/2025 khuyến cáo bolus 10–20 ml/kg theo từng đợt có đánh giá lại sau mỗi đợt. Vì vậy barem 20 ml/kg vẫn giữ nguyên trên thẻ, nhưng cần đánh giá lại trước mỗi đợt bolus tiếp theo.",
         "section": "B14",
         "front": "Xử trí bù dịch trong sốc ở bước hai: Khi nào cần cân nhắc sử dụng thuốc vận mạch và đặt ống nội khí quản?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Bơm thêm dịch nếu bệnh nhân sốc không đáp ứng với lần bơm thứ nhất.<br>• Cân nhắc việc dùng thuốc vận mạch và đặt ống NKQ nếu phải bơm dịch lần thứ 3.<br><br><b>💡 Lưu ý:</b><br>Sau 40 - 60 ml/kg dịch tinh thể không cải thiện, cần chuyển sang hỗ trợ co bóp cơ tim/vận mạch để tránh quá tải dịch.",
-        "extra": "Văn bản gốc mục 3.2 (trang 153).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -1136,7 +1136,7 @@ cards_data = [
         "category": "Bước hai - Tuần hoàn",
         "section": "B14",
         "text": "[Barem gốc] Xử trí sốc bước hai: bơm thêm dịch nếu không đáp ứng lần thứ nhất; cân nhắc {{c1::dùng thuốc vận mạch}} và {{c1::đặt ống NKQ}} nếu phải bơm dịch {{c1::lần thứ 3}}.",
-        "extra": "Văn bản gốc mục 3.2 (trang 153).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> PALS (AHA 2020) bù dịch theo từng bolus 10–20 ml/kg, đánh giá lại sau mỗi lần. Thử nghiệm FEAST (Maitland et al., NEJM 2011, PMID 21615299): ở trẻ sốt nặng có giảm tưới máu nhưng không tụt huyết áp nặng, tại nơi thiếu hồi sức tích cực, bolus dịch làm tăng tử vong 48 giờ. Khi thi ghi 20 ml/kg như barem.<br>Văn bản gốc mục 3.2 (trang 153).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -1196,7 +1196,7 @@ cards_data = [
         "category": "Bước hai - Thần kinh",
         "section": "B15",
         "front": "Các dấu hiệu gợi ý và phác đồ điều trị cấp cứu tăng áp lực nội sọ trong đánh giá bước hai là gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu: Giảm tri giác, tư thế bất thường hoặc phản xạ vận động nhãn cầu bất thường.<br>• Xử trí: Đặt ống NKQ và thông khí nhân tạo; cân nhắc dùng Mannitol 0,5 - 1,0 g/kg TM trên 15 phút (nhắc lại nếu cần, duy trì áp lực thẩm thấu < 325 mOsm/l) hoặc truyền muối ưu trương 3%.<br><br><b>💡 Lưu ý:</b><br>Kiểm soát PaCO2 ở mức 30 - 35 mmHg và dùng liệu pháp thẩm thấu là hai trụ cột chống phù não cấp.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Dấu hiệu: Giảm tri giác, tư thế bất thường hoặc phản xạ vận động nhãn cầu bất thường.<br>• Xử trí: Đặt ống NKQ và thông khí nhân tạo; cân nhắc dùng Mannitol 0,5 - 1,0 g/kg TM trên 15 phút (nhắc lại nếu cần, duy trì áp lực thẩm thấu < 325 mOsm/l) hoặc truyền muối ưu trương 3%.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: hướng dẫn chấn thương sọ não nhi (Kochanek et al., Pediatr Crit Care Med 2019) khuyên giữ PaCO₂ bình thường; chỉ tăng thông khí ngắn hạn khi có dấu hiệu tụt não. Muối ưu trương 3% là lựa chọn được ưu tiên ở trẻ em.",
         "extra": "Văn bản gốc mục 3.3 (trang 154).",
         "tags": [
             "PED-52",
@@ -1303,7 +1303,7 @@ cards_data = [
         "category": "Bước hai - Khám toàn thân",
         "section": "B16",
         "text": "[Barem gốc] Nếu trẻ có triệu chứng hô hấp, tuần hoàn kèm ban mề đay hoặc phù mạch gợi ý sốc phản vệ, cấp cứu ngay bằng {{c1::Epinephrin 10 µg/kg tiêm bắp}}.",
-        "extra": "Văn bản gốc mục 3.4 (trang 155).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Adrenalin 1‰ (1 mg/ml) tiêm bắp mặt trước ngoài đùi 0,01 mg/kg (= 10 µg/kg), tối đa 0,3 mg ở trẻ nhỏ/trẻ em và 0,5 mg ở trẻ lớn, có thể nhắc lại sau 5–15 phút (WAO 2020; AAP Sicherer et al., Pediatrics 2017).<br>Văn bản gốc mục 3.4 (trang 155).",
         "tags": [
             "PED-52",
             "Barem-goc",
@@ -1354,6 +1354,115 @@ cards_data = [
             "Barem-goc",
             "Benh-su-bo-sung",
             "Ngo-doc"
+        ]
+    },
+    {
+        "id": "PED52-B90",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Tuần hoàn",
+        "section": "B10",
+        "front": "Khi đánh giá ban đầu tuần hoàn ở trẻ bệnh nặng, cần tìm 4 <span style=\"color:#ff6b6b\"><b>dấu hiệu suy tim</b></span> nào theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tĩnh mạch cổ nổi</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Tiếng ngựa phi</b></span> (gallop).<br>3) <span style=\"color:#74c0fc\"><b>Ran ẩm ở phổi</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Gan to</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Có dấu hiệu suy tim thì bolus dịch phải thận trọng (lượng nhỏ, đánh giá lại ngay) vì dễ gây quá tải dịch.",
+        "extra": "Văn bản gốc mục 2.3 (trang 149).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Suy-tim"
+        ]
+    },
+    {
+        "id": "PED52-B91",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Đánh giá ban đầu - Thần kinh",
+        "section": "B06",
+        "front": "Mục đích của <span style=\"color:#74c0fc\"><b>đánh giá chức năng thần kinh</b></span> ở trẻ bệnh nặng là phát hiện những tình trạng đe dọa tính mạng nào? Ảnh hưởng của tổn thương thần kinh trung ương lên hô hấp?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Mục đích: đánh giá nhanh chức năng thần kinh trung ương để phát hiện <span style=\"color:#ff6b6b\"><b>phù não</b></span>, <span style=\"color:#ff6b6b\"><b>viêm màng não</b></span> hoặc <span style=\"color:#ff6b6b\"><b>hạ đường huyết</b></span>.<br>• Ảnh hưởng lên hô hấp: <span style=\"color:#ff6b6b\"><b>ngừng thở</b></span> hoặc <span style=\"color:#ff6b6b\"><b>rối loạn kiểu thở</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ảnh hưởng lên tim mạch (tăng huyết áp, nhịp tim chậm) là dấu hiệu nặng và muộn (thẻ B36).",
+        "extra": "Văn bản gốc mục 1.3 và 1.3.2 (trang 146 - 147).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh"
+        ]
+    },
+    {
+        "id": "PED52-B92",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Hồi sức ban đầu - Thần kinh",
+        "section": "B11",
+        "front": "Trình tự <span style=\"color:#74c0fc\"><b>đánh giá ban đầu chức năng thần kinh</b></span> (bước D) ở trẻ bệnh nặng gồm những gì? Vì sao phải xem xét rối loạn A-B-C trước?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thiếu oxy tổ chức hoặc sốc đều có thể gây rối loạn ý thức → mọi rối loạn khi đánh giá ABC phải được xem xét trước khi kết luận rối loạn ý thức do nguyên nhân thần kinh.<br>• Trình tự: (1) mức độ tri giác theo <span style=\"color:#51cf66\"><b>AVPU</b></span>; (2) <span style=\"color:#51cf66\"><b>kích thước và phản xạ đồng tử</b></span>; (3) xem có <span style=\"color:#ff6b6b\"><b>co giật</b></span> không; (4) <span style=\"color:#51cf66\"><b>xét nghiệm đường huyết</b></span> cho trẻ có rối loạn ý thức hoặc co giật.<br>• Hồi sức kèm theo: điều trị <span style=\"color:#ff6b6b\"><b>tăng áp lực nội sọ</b></span> nếu nghi ngờ.",
+        "extra": "Văn bản gốc mục 2.4 (trang 149 - 150).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Than-kinh",
+            "AVPU"
+        ]
+    },
+    {
+        "id": "PED52-B93",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "front": "Các <span style=\"color:#51cf66\"><b>xét nghiệm</b></span> đề xuất trong đánh giá bước hai hệ <span style=\"color:#74c0fc\"><b>tuần hoàn</b></span> ở trẻ bệnh nặng theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Urê, điện giải đồ, công thức máu, khí máu, đông máu, cấy máu, X-quang phổi, <span style=\"color:#51cf66\"><b>điện tâm đồ</b></span>, <span style=\"color:#51cf66\"><b>siêu âm tim</b></span>.",
+        "extra": "Văn bản gốc mục 3.2 (trang 152).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Xet-nghiem"
+        ]
+    },
+    {
+        "id": "PED52-B94",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Tuần hoàn",
+        "section": "B14",
+        "front": "Xử trí cấp cứu bước hai khi trẻ có <span style=\"color:#ff6b6b\"><b>rối loạn nhịp tim</b></span> hoặc <span style=\"color:#ff6b6b\"><b>sốc phản vệ</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Rối loạn nhịp tim: dùng <span style=\"color:#51cf66\"><b>phác đồ chống loạn nhịp</b></span> thích hợp.<br>• Sốc phản vệ: <span style=\"color:#51cf66\"><b>Adrenalin tiêm bắp</b></span> liều <span style=\"color:#ffd43b\"><b>10 µg/kg</b></span> và <span style=\"color:#51cf66\"><b>bolus dịch</b></span>.",
+        "extra": "Văn bản gốc mục 3.2 (trang 153).<br><b>⚖️ Đối chiếu (Ngoài barem):</b> Adrenalin 1‰ (1 mg/ml) tiêm bắp mặt trước ngoài đùi 0,01 mg/kg (= 10 µg/kg), tối đa 0,3 mg ở trẻ nhỏ/trẻ em và 0,5 mg ở trẻ lớn, có thể nhắc lại sau 5–15 phút (WAO 2020; AAP Sicherer et al., Pediatrics 2017).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-tuan-hoan",
+            "Phan-ve"
+        ]
+    },
+    {
+        "id": "PED52-B95",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Thần kinh",
+        "section": "B15",
+        "front": "Các <span style=\"color:#51cf66\"><b>xét nghiệm</b></span> đề xuất trong đánh giá bước hai hệ <span style=\"color:#74c0fc\"><b>thần kinh</b></span> ở trẻ bệnh nặng theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Chức năng gan thận, điện giải đồ, đường máu, cấy máu (có chọn lọc), <span style=\"color:#51cf66\"><b>NH₃</b></span>, khí máu, đông máu, <span style=\"color:#51cf66\"><b>xét nghiệm độc chất</b></span> trong máu và nước tiểu, <span style=\"color:#51cf66\"><b>CT sọ não</b></span>.",
+        "extra": "Văn bản gốc mục 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai-than-kinh",
+            "Xet-nghiem"
+        ]
+    },
+    {
+        "id": "PED52-B96",
+        "track": "barem_goc",
+        "type": "basic",
+        "category": "Bước hai - Hô hấp",
+        "section": "B13",
+        "front": "Xử trí bước hai khi nghe thấy <span style=\"color:#74c0fc\"><b>tiếng lọc sọc</b></span> ở đường thở, và khi trẻ có <span style=\"color:#ff6b6b\"><b>co giật kéo dài</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tiếng lọc sọc do đường thở nhiều dịch: <span style=\"color:#51cf66\"><b>hút đờm dãi</b></span>.<br>• Co giật kéo dài: dùng <span style=\"color:#51cf66\"><b>phác đồ xử trí trạng thái động kinh</b></span>.",
+        "extra": "Văn bản gốc mục 3.1 (trang 151) và 3.3 (trang 154).",
+        "tags": [
+            "PED-52",
+            "Barem-goc",
+            "Buoc-hai"
         ]
     },
 ]

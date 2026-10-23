@@ -13,7 +13,7 @@ fidelity: "100% Verbatim Original Document"
 # XUẤT HUYẾT TIÊU HOÁ Ở TRẺ EM
 *(Trích Giáo trình Nhi khoa — Trang 87 - 99)*
 
-> **Ghi chú OCR:** Dựng lại từ 13 ảnh chụp sách giáo trình gửi qua Telegram (ngày 03/10/2026). Đầy đủ toàn bộ từ Trang 87 đến Trang 99, nguyên văn 100%.
+> **Ghi chú OCR:** Dựng lại từ 13 ảnh chụp sách giáo trình gửi qua Telegram (ngày 03/10/2026). Trang 87–91 đối chiếu khớp ảnh. Trang 92–99 đã được chép lại nguyên văn từ ảnh gốc ngày 23/10/2026 (bản dựng trước đó của các trang này không khớp ảnh chụp và đã bị thay thế).
 
 ## Mục tiêu bài học
 1. Trình bày được các triệu chứng lâm sàng của xuất huyết tiêu hóa ở trẻ em.
@@ -192,156 +192,210 @@ Chẩn đoán cần tiến hành trước hết loại trừ các chẩn đoán 
 ---
 
 <!-- Page 92 -->
-## 5. NGUYÊN NHÂN XUẤT HUYẾT TIÊU HOÁ TRẺ EM
+## 5. NGUYÊN NHÂN XUẤT HUYẾT TIÊU HOÁ
 
-### 5.1. Nguyên nhân xuất huyết tiêu hoá trên
+Xuất huyết tiêu hoá trên có tổn thương xuất huyết từ góc Treitz tới miệng và xuất huyết đường tiêu hoá dưới bao gồm tổn thương chảy máu từ góc Treitz tới hậu môn.
 
-#### 5.1.1. Ở trẻ sơ sinh
-- **Nuốt máu mẹ:** Trẻ nuốt máu mẹ trong quá trình chuyển dạ hoặc khi bú mẹ bị nứt núm vú. Phân biệt bằng nghiệm pháp Apt-Downey: trộn dịch nôn hoặc phân với nước kiềm (NaOH 1%), nếu dung dịch đổi sang màu vàng nâu là máu mẹ (HbA biến tính), nếu giữ nguyên màu hồng là máu con (HbF kháng kiềm).
-- **Bệnh lý xuất huyết do thiếu vitamin K:** Xuất hiện trong tuần đầu sau sinh (thể sớm) hoặc tuần 2–8 (thể muộn), chảy máu nhiều nơi: tiêu hóa, rốn, dưới da, nội sọ. Tiêm Vitamin K1 có hiệu quả điều trị và dự phòng.
-- **Viêm loét dạ dày - tá tràng do stress:** Gặp ở trẻ sơ sinh bị ngạt nặng, suy hô hấp, nhiễm khuẩn huyết, hạ thân nhiệt.
-- **Viêm thực quản:** Do trào ngược dạ dày thực quản hoặc đặt sonde dạ dày nuôi ăn kéo dài.
+### 5.1. Xuất huyết đường tiêu hoá trên
+Dấu hiệu lâm sàng đặc hiệu là nôn ra máu và ỉa phân đen. Khi chảy máu ít bệnh nhân có thể không có triệu chứng nôn ra máu. Khi chảy máu nhiều, bệnh nhi thường nôn ra máu tươi hoặc ỉa máu đỏ sẫm. Những nguyên nhân thường gặp là:
 
-#### 5.1.2. Ở trẻ nhũ nhi
-- **Viêm thực quản trào ngược:** Thường kèm theo nôn trớ tái diễn, chậm tăng cân, khóc khi bú.
-- **Viêm dạ dày cấp:** Do dùng thuốc kháng viêm non-steroid (NSAID), corticoid hoặc sau nhiễm khuẩn nặng.
-- **Loét dạ dày tá tràng:** Thường thứ phát sau bệnh lý toàn thân nặng hoặc stress.
-- **Hội chứng Mallory-Weiss:** Rách rách niêm mạc vùng nối tâm vị thực quản sau những đợt nôn khan, nôn ói dữ dội.
-
-#### 5.1.3. Ở trẻ lớn
-- **Giãn vỡ tĩnh mạch thực quản:** Nguyên nhân hàng đầu gây xuất huyết tiêu hóa ồ ạt đe dọa tính mạng ở trẻ có tăng áp lực tĩnh mạch cửa (xơ gan, teo hẹp hoặc huyết khối tĩnh mạch cửa). Lâm sàng: nôn ra máu đỏ tươi ồ ạt kèm máu cục, lách to, tuần hoàn bàng hệ.
-- **Loét dạ dày - tá tràng:** Có thể nguyên phát (thường liên quan đến nhiễm vi khuẩn *Helicobacter pylori*) hoặc thứ phát sau dùng thuốc giảm đau kháng viêm.
-- **Chảy máu đường mật (Hemobilia):** Tam chứng Sandblom kinh điển: Đau quặn gan (đau hạ sườn phải) + Vàng da + Xuất huyết tiêu hóa; thường xảy ra sau chấn thương gan hoặc can thiệp đường mật.
+- **Viêm loét thực quản**
+  Là biến chứng của luồng trào ngược dạ dày thực quản (RGO). Bệnh nhi thường trớ hoặc nôn ra máu lẫn thức ăn. Thường chảy máu ít, rỉ rỉ kèm theo với thiếu máu nhược sắc. Chẩn đoán xác định bằng nội soi.
+  Trẻ trước 18 tháng: Điều trị nội khoa bằng primperan hoặc motilium kết hợp với tagamet hoặc ranitidin, prepulsif.
+  Trẻ sau 18 tháng điều trị nội khoa không đỡ cần phải phẫu thuật.
+  Viêm loét thực quản do uống thuốc thường do uống doxycyclin, tetracyclin, aspirin không uống nước kèm theo làm viên thuốc tắc lại gây loét cấp do tiếp xúc.
+- **Xuất huyết do vỡ giãn tĩnh mạch thực quản trong hội chứng tăng áp lực tĩnh mạch cửa**
+  Xuất huyết do vỡ các tĩnh mạch thực quản bị giãn, được xác định qua nội soi thấy đám chảy máu thành tia hoặc mảng, đám máu đông, tụ máu hoặc tĩnh mạch giãn bị sói mòn.
+  Có thể giãn, vỡ các đám rối tĩnh mạch tâm phình vị. Thấy khi nội soi ngược lại. Hiếm gặp hơn là vỡ các phình giãn tĩnh mạch tá tràng.
+  Bệnh nhân thường nôn máu tươi, nhiều, nặng, có kèm theo các triệu chứng tăng áp lực tĩnh mạch như tuần hoàn bàng hệ, cổ trướng, gan lách to, xơ gan. Khi tăng áp lực tĩnh mạch cửa tại gan, lách to. Khi tăng áp lực tĩnh mạch cửa trước gan do khối u hoặc tắc tĩnh mạch cửa, gan to, cổ trướng, lách to, tuần hoàn bàng hệ, khi tăng áp lực tĩnh mạch cửa sau gan (Hội chứng Budd- Chiari).
+- **Hội chứng Mallory - Weiss**
+  Thường thứ phát sau khi nôn dữ dội. Đau xuất hiện với nôn ra máu do vết nứt dọc tâm vị. Điều trị cần để trẻ nghỉ ngơi, dùng thuốc chống nôn tránh làm vết nứt nặng thêm.
+- **Viêm dạ dày - tá tràng**
+  Thường gặp trong trường hợp ngộ độc, stress, nhiễm khuẩn nặng Scholein–Henoch, dị ứng thức ăn, thuốc, hội chứng huyết tán tăng ure huyết, hay gặp trong giai đoạn sơ sinh (các yếu tố nguy cơ như nhiễm khuẩn, đẻ non, thiếu O₂, stress, dị ứng đi kèm với hội chứng xuất huyết ở trẻ sơ sinh. Xuất huyết có thể dưới dạng chấm, vết trợt nhỏ hoặc vết loét hoại tử niêm mạc dạ dày thường được gọi là loét cấp tính hay loét thứ phát.
 
 ---
 
 <!-- Page 93 -->
-### Bảng tổng hợp một số nguyên nhân gây xuất huyết tiêu hóa trên ở trẻ em
+- **Loét dạ dày - tá tràng**
+  Chiếm 30- 40% nôn ra máu nhiều ở trẻ em. Loét có thể cấp tính hoặc thứ phát trong loét do stress, sau mổ, bỏng rộng hoặc do thuốc như aspirin, cortisol hoặc loét tiên phát, mạn tính liên quan đến đau bụng kéo dài. Loét chảy máu thường khu trú ở dạ dày (1/3) và tá tràng (2/3) trường hợp có nhiều vết loét mạn tính khu trú ở hành tá tràng phải tìm hội chứng Zollinger – Ellison. Nội soi ngoài việc mô tả tổn thương còn cần tìm các dấu hiệu chảy máu tái phát, các mạch máu, điểm mạch chảy máu ở miệng các vết loét.
+- **Chảy máu đường mật**
+  Thường là biến chứng của nhiễm khuẩn đường mật, áp xe gan do giun, ung thư gan mật hoặc viêm đường mật xuất huyết. Bệnh nhi có cơn đau bụng dữ dội, sốt, gan to, thể trạng nhiễm trùng, nôn ra máu tái phát nhiều lần ngày càng gần nhau và ỉa phân đen. Tiên lượng thường nặng bệnh nhi dễ bị sốc và thường cần chỉ định phẫu thuật.
 
-| Lứa tuổi | Nguyên nhân thường gặp | Nguyên nhân ít gặp |
-| :--- | :--- | :--- |
-| **Sơ sinh** | • Nuốt máu mẹ<br>• Viêm dạ dày do stress<br>• Thiếu vitamin K | • Dị tật mạch máu bẩm sinh<br>• Dị tật nhân đôi đường tiêu hóa<br>• Rối loạn đông máu bẩm sinh |
-| **Nhũ nhi (1 tháng - 1 tuổi)** | • Viêm thực quản trào ngược<br>• Viêm dạ dày cấp<br>• Hội chứng Mallory-Weiss | • Dị vật đường tiêu hóa<br>• Giãn tĩnh mạch thực quản bẩm sinh<br>• U máu đường tiêu hóa |
-| **Trẻ nhỏ (1 - 5 tuổi)** | • Loét dạ dày tá tràng<br>• Viêm dạ dày do thuốc (NSAID)<br>• Hội chứng Mallory-Weiss | • Giãn vỡ tĩnh mạch thực quản (tăng áp TM cửa)<br>• Nuốt dị vật sắc nhọn<br>• Dị dạng mạch máu ruột |
-| **Trẻ lớn (> 5 tuổi)** | • Giãn vỡ tĩnh mạch thực quản<br>• Loét dạ dày - tá tràng (*H. pylori*)<br>• Viêm thực quản | • Chảy máu đường mật<br>• Hội chứng Schonlein-Henoch<br>• U tụy, u tá tràng |
+**Bảng tổng hợp một số nguyên nhân gây xuất huyết tiêu hóa trên ở trẻ em:**
+
+| Vị trí | Trẻ nhũ nhi | 2-5 tuổi | Trẻ lớn |
+|---|---|---|---|
+| Thực quản | | - Viêm thực quản<br>- Giãn tĩnh mạch thực quản<br>- Hội chứng Mallory-Weiss | - Viêm thực quản<br>- Hội chứng Mallory- Weiss<br>- Giãn tĩnh mạch thực quản |
+| Dạ dày | Viêm dạ dày do stress | - Viêm dạ dày<br>- Loét dạ dày<br>- Giãn tĩnh mạch dạ dày | - Dị dạng mạch ở dạ dày (Dieulafoy)<br>- Giãn tĩnh mạch dạ dày trong tăng áp lực tĩnh mạch cửa |
+| Tá tràng | | - Viêm tá tràng<br>- Loét tá tràng | - Bệnh máu khó đông |
+| Vị trí khác | - Thiếu hụt vitamin K<br>- Nhiễm trùng huyết<br>- Chấn thương (đặt sonde mũi dạ dày)<br>- Dị ứng đạm sữa bò | - Nuốt hóa chất ăn mòn<br>- Dị vật đường tiêu hóa<br>- Dùng thuốc: NSAIDs | - Polyps<br>- Bệnh Crohn<br>- Giãn tĩnh mạch<br>- Dị ứng đạm sữa bò<br>- Rối loạn đông máu<br>- Nuốt hóa chất ăn mòn<br>- Dị vật tiêu hóa<br>- Dùng thuốc: NSAIDs |
+
+### 5.2. Xuất huyết đường tiêu hoá dưới
+Dấu hiệu chủ yếu là:
 
 ---
 
 <!-- Page 94 -->
-### 5.2. Nguyên nhân xuất huyết tiêu hoá dưới
+- Ỉa máu toàn bãi, máu có thể đã được tiêu hoá màu đen, nâu hoặc chưa kịp tiêu hoá màu đỏ sẫm hoặc đỏ tươi khi chảy nhiều, không có nôn ra máu, kiểm tra nội soi thực quản dạ dày tá tràng không có tổn thương xuất huyết. Vị trí xuất huyết ngày càng thấp, chảy máu càng nhiều phân càng có màu đỏ tươi. Tổn thương thường gặp ở hỗng tràng, hồi tràng hoặc đại tràng.
+- Chảy máu hậu môn, trực tràng: Thường biểu hiện bởi xuất hiện máu màu đỏ tươi đầu, cuối bãi hoặc bao ngoài phân không bao giờ toàn bãi.
 
-#### 5.2.1. Ở trẻ sơ sinh
-- **Nuốt máu mẹ và thiếu vitamin K:** Tương tự như xuất huyết tiêu hóa trên.
-- **Viêm ruột hoại tử (NEC):** Hay gặp ở trẻ sơ sinh non tháng, nhẹ cân. Lâm sàng: bụng chướng căng, nôn dịch mật, đi ngoài phân nhầy máu, toàn thân nhiễm khuẩn nhiễm độc. X-quang bụng thấy hơi trong thành ruột (*pneumatosis intestinalis*) hoặc hơi trong tĩnh mạch cửa.
-- **Dị tật bẩm sinh đường tiêu hóa:** Xoắn ruột do ruột quay bất toàn, tắc ruột bẩm sinh, phình đại tràng bẩm sinh biến chứng viêm ruột (Hirschsprung enterocolitis).
+#### 5.2.1. Phân loại nguyên nhân xuất huyết tiêu hóa dưới theo vị trí
+**\* Xuất huyết tiêu hoá do nguyên nhân tại ruột non**
+- U máu ruột non (Angiome)
+- Viêm ruột hoại tử: Trẻ lớn – trẻ sơ sinh. Phân đen khắm đi kèm với tình trạng nhiễm trùng – nhiễm độc, bụng chướng hoặc có biểu hiện ngoại khoa viêm phúc mạc thủng ruột, hoặc có thể có tình trạng sốc.
+- Nhiễm khuẩn đường tiêu hoá: Các nguyên nhân gây tiêu chảy xâm nhập như Coli gây bệnh, Salmonella, lị trực trùng, lị amibe.
+- Lồng ruột: Nôn, đau bụng từng cơn, sờ thấy búi lồng, thăm dò hậu môn trực tràng rỗng. Lồng ruột muộn, ỉa máu phân màu đỏ sẫm, bụng chướng, khó sờ búi lồng.
+- Viêm loét túi thừa Meckel: Trẻ có cơn đau bụng, xuất huyết tiêu hoá vừa và nặng. Xuất huyết do niêm mạc túi thừa là niêm mạc dạ dày lạc chỗ có thể gây loét, chảy máu, chẩn đoán xác định bằng chụp nhấp nháy đồng vị phóng xạ Tc99.
+- Bệnh Schonlein – Henoch: Trẻ đau bụng dữ dội, nôn máu hoặc ỉa máu, ban xuất huyết ở 2 chi dưới, chi trên đối xứng có thể kèm đau khớp- xuất huyết thường không nhiều, ít khi phải truyền máu.
 
-#### 5.2.2. Ở trẻ nhũ nhi
-- **Lồng ruột cấp:** Nguyên nhân ngoại khoa thường gặp nhất ở trẻ từ 4 đến 9 tháng tuổi, trẻ trai bụ bẫm. Tam chứng kinh điển: Khóc thét từng cơn + Nôn thức ăn rồi nôn dịch mật + Ỉa phân nhầy máu màu mận chín. Khám sờ thấy khối lồng hình quả chuối ở hạ sườn phải, hố chậu phải rỗng (dấu hiệu Dance); siêu âm có hình ảnh bia bắn (target sign) hoặc bánh lồng (donut sign).
-- **Nứt kẽ hậu môn:** Nguyên nhân hay gặp nhất ở trẻ bị táo bón. Máu đỏ tươi bám thành vệt ngoài khuôn phân, trẻ đau rát khóc thét khi đi cầu.
-- **Dị ứng đạm sữa bò:** Thường xuất hiện sau khi đổi sang sữa công thức, trẻ ỉa phân lỏng có sợi máu dây, nhầy, kèm chàm da hoặc chậm tăng cân.
-- **Túi thừa Meckel:** Do tồn tại ống noãn hoàng, có niêm mạc dạ dày lạc chỗ tiết acid gây loét hồi tràng kế cận. Biểu hiện: ỉa máu đỏ tươi hoặc mận chín ồ ạt, tái diễn từng đợt, **hoàn toàn không đau bụng**. Chẩn đoán xác định bằng chụp xạ hình nhấp nháy Tc99m pertechnetate.
+**\* Xuất huyết do nguyên nhân đại tràng, trực tràng:**
+- Viêm đại tràng chảy máu: ( do nguyên nhân nhiễm khuẩn hoặc dị ứng thức ăn, sữa bò hoặc viêm đại tràng trong bệnh Crohn (đau bụng, giảm cân nặng, sốt, ỉa phân lỏng có máu kéo dài)
+- Polyp trực tràng: Polyp đơn độc(2/3). Thường khu trú ở vùng trực tràng, đại tràng Sigma (3/4), thường có máu tươi ra cuối bãi có thể bệnh polyp (Hội chứng Peutz – Jeghers).
+- Nứt hậu môn: rất thường gặp ở trẻ em nhất là sau khi trẻ táo bón, máu thường ra trước khi trẻ ỉa hoặc thành vệt ở đoạn phân, kèm theo đau, vị trí nứt thường tìm ở 6 – 12 giờ.
+
+#### 5.2.2. Nguyên nhân của xuất huyết đường tiêu hoá dưới còn phân loại theo lứa tuổi
+**\* Trẻ sơ sinh:**
+Xuất huyết tiêu hoá ở trẻ sơ sinh vào ngày thứ 2 thứ 3 là biểu hiện xuất huyết toàn thân do thiếu vitamin K (xét nghiệm đông máu thiếu yếu tố II, VII, IX và X)
+- Viêm ruột non hoại tử ở trẻ sơ sinh, đẻ non
+- Xoắn toàn bộ ruột non do quay, cuốn bất thường mạc treo ruột.
+
+**\* Trẻ bú mẹ dưới 18 tháng:**
 
 ---
 
 <!-- Page 95 -->
-#### 5.2.3. Ở trẻ trước tuổi đi học và tuổi học đường
-- **Polyp đại trực tràng:** Thường là polyp thiếu niên (Juvenile polyp) lành tính ở trực tràng hoặc đại tràng sigma. Chảy máu tươi cuối bãi phân, không đau bụng, kéo dài nhiều tháng làm trẻ thiếu máu thiếu sắt nhẹ.
-- **Bệnh viêm ruột mạn tính (IBD):** Viêm loét đại trực tràng chảy máu (UC) hoặc bệnh Crohn. Trẻ gầy sút, ỉa phân lỏng lẫn máu nhầy kéo dài, đau bụng, sốt, thiếu máu.
-- **Viêm mạch Henoch-Schonlein (HSP):** Ban xuất huyết dạng sẩn hoại tử đối xứng ở hai cẳng chân, mông, kèm đau bụng từng cơn dữ dội, ỉa phân đen hoặc đỏ, sưng đau khớp và đái máu.
-- **Nhiễm khuẩn đường ruột (Hội chứng lỵ):** Do *Shigella*, *Campylobacter*, *Salmonella*, *E. coli* gây chảy máu ruột (EHEC/EIEC), Entamoeba histolytica. Phân nhiều nước lẫn nhầy mủ máu, sốt cao, mót rặn.
+- Ỉa chảy nhiễm khuẩn (hội chứng lị) do các loại vi khuẩn Salmonella, trực trùng lị Campylobacter, E. Coli xâm nhập, ỉa phân có máu mũi.
+- Lồng ruột cấp tính: > 80% lồng ruột ở trẻ dưới 2 tuổi, 45% từ 4 – 10 tháng đau bụng từng cơn, tái nhợt, ỉa máu nhầy 36% trẻ em < 1 tuổi.
+- Không dung nạp protein sữa bò hoặc protein đậu nành, ỉa phân lỏng có máu sau khi cho trẻ ăn sữa biểu hiện viêm đại tràng.
+- Viêm chảy máu do loét túi thừa Meckel: Chảy máu không kèm theo đau bụng, thường chảy nhiều phải truyền máu, hoặc chảy ít nhưng hay tái phát. 60% trường hợp chảy máu do loét túi thừa Meckel xảy ra ở trẻ < 2 tuổi; 40% trẻ có xuất huyết do túi thừa Meckel có nhiều đợt tái phát.
+- Nứt hậu môn khi trẻ bị táo bón
 
-### Bảng tổng hợp nguyên nhân xuất huyết tiêu hóa dưới theo lứa tuổi
+**\* Trẻ trước tuổi đi học < 6 tuổi:**
+- Viêm trực tràng, đại tràng do nhiễm khuẩn, nhiễm kí sinh khuẩn
+- Viêm ruột non hoại tử trẻ lớn: Hội chứng Pigbel
+- Xuất huyết tiêu hoá trong bệnh Schonlein – Henoch: 30% trường hợp ban xuất huyết khớp có tổn thương đường tiêu hoá ( trẻ đau bụng, nôn, ỉa ra máu) tổn thương có thể là chấm máu, đám máu tụ thành ruột. Thường hay gặp ở hỗng, hồi tràng hiếm khi ở tá tràng hoặc đại tràng. Trẻ có thể nôn nhiều, ỉa phân đen hoặc xuất huyết trực tràng. Biểu hiện tiêu hoá thường đi trước, xuất huyết cân đối ở các chi cho phép xác định chẩn đoán trên lâm sàng.
+- Polyp trực tràng, đại tràng: Chảy máu trực tràng, máu tươi ra đầu hoặc cuối bãi, bao ngoài cục phân, thường chảy ít nhưng hay tái phát. 2/3 polyp ở trực tràng và đại tràng sigma. 3/4 là các polyp đơn độc
 
-| Nhóm tuổi | Nguyên nhân phổ biến | Nguyên nhân nguy hiểm cần loại trừ |
-| :--- | :--- | :--- |
-| **Sơ sinh** | Nuốt máu mẹ, nứt hậu môn | Viêm ruột hoại tử (NEC), Xoắn ruột, Hirschsprung |
-| **Nhũ nhi (< 1 tuổi)** | Nứt kẽ hậu môn, Dị ứng sữa bò | **Lồng ruột cấp**, Túi thừa Meckel, Viêm ruột hoại tử |
-| **1 - 5 tuổi** | Nứt kẽ hậu môn, Polyp đại trực tràng | Túi thừa Meckel, Lồng ruột, Hội chứng lỵ |
-| **> 5 tuổi** | Táo bón nứt hậu môn, Polyp | Viêm loét đại trực tràng (IBD), Henoch-Schonlein, Trĩ |
+**\* Trẻ tuổi học đường 6 - 18 tuổi.**
+- Viêm ruột xuất huyết: Viêm ruột hoại tử, amibe, lị, phân máu nhầy toàn bãi, viêm hậu môn, trực tràng – phân máu tươi nhầy.
+- Các nguyên nhân khác: Viêm loét túi thừa Meckel, vỡ túi máu ở ruột non, viêm đại tràng, chảy máu...
+
+**Bảng tổng một số nguyên nhân gây xuất huyết tiêu hóa dưới thường gặp**
+
+| Trẻ nhũ nhi | 2-5 tuổi | Trẻ lớn |
+|---|---|---|
+| Viêm đại không đặc hiệu<br>Nứt kẽ hậu môn<br>Dị ứng sữa<br>Ruột đôi<br>Xoắn ruột<br>Bệnh Hirschsprung<br>Viêm ruột hoại tử<br>Chảy máu do can thiệp | Polyps<br>Nứt kẽ hậu môn<br>Nhiễm trùng đường ruột<br>Lồng ruột<br>Viêm loét túi thừa Meckel<br>Scholein Henoch<br>Huyết tán ure máu cao<br>U bạch huyết<br>Tăng sản mạch máu | Nứt kẽ hậu môn<br>Nhiễm trùng đường ruột<br>Polyps<br>Ruột viêm (IBD)<br>U bạch huyết<br>Scholein Henoch<br>Tăng sản mạch máu<br>Huyết tán ure máu cao<br>Chảy máu do can thiệp |
 
 ---
 
 <!-- Page 96 -->
-## 6. ĐIỀU TRỊ XUẤT HUYẾT TIÊU HÓA Ở TRẺ EM
+## 6. ĐIỀU TRỊ XUẤT HUYẾT TIÊU HÓA
 
-### 6.1. Hồi sức ổn định huyết động (Ưu tiên hàng đầu)
-- **Đánh giá ban đầu:** Kiểm tra ngay dấu hiệu sinh tồn: Mạch, huyết áp, thời gian phục hồi màu da (CRT), tri giác, SpO2.
-- **Bảo đảm đường thở và oxy:** Đặt trẻ nằm đầu thấp nghiêng sang một bên tránh sặc máu vào đường thở. Thở oxy qua canula hoặc mặt nạ. Nếu có rối loạn tri giác hoặc nôn máu ồ ạt phải đặt nội khí quản bảo vệ đường thở.
-- **Thiết lập đường truyền tĩnh mạch:**
-  + Đặt ngay 2 đường truyền tĩnh mạch ngoại vi kim lớn (18G–22G) hoặc đường truyền tĩnh mạch trung tâm nếu cần.
-  + Lấy máu xét nghiệm khẩn: Công thức máu, nhóm máu, phản ứng chéo, đông máu toàn bộ, chức năng gan thận, điện giải đồ.
-- **Bồi phụ thể tích chống sốc giảm thể tích:**
-  + Nếu có sốc hoặc tụt huyết áp: Bắt đầu ngay bằng dịch tinh thể đẳng trương: **Natri Clorid 0,9% hoặc Ringer Lactat liều 20 ml/kg** truyền tĩnh mạch nhanh trong 20–30 phút. Có thể lặp lại lần 2 nếu huyết áp chưa cải thiện.
-  + Tránh dùng dịch nhược trương hoặc Glucose truyền bù thể tích.
-- **Chỉ định truyền máu:**
-  + Truyền khối hồng cầu khi: Trẻ mất máu nặng có biểu hiện sốc giảm thể tích không đáp ứng dịch truyền, hoặc nồng độ Hemoglobin (Hb) giảm dưới $70 - 80\text{ g/L}$ ($Hct < 25\%$).
-  + Ở trẻ có bệnh tim bẩm sinh hoặc tiếp tục chảy máu dữ dội: Cần duy trì $Hb > 100\text{ g/L}$.
-  + Liều lượng: Khối hồng cầu **$10 - 15\text{ ml/kg}$** truyền tĩnh mạch chậm.
+Điều quan trọng nhất của đánh giá XHTH là xác định mức độ và tốc độ mất máu và yếu tố nguy cơ. Triệu chứng lâm sàng tốt nhất đánh giá trình trạng mất máu là thay đổi về nhịp tim và huyết áp. Khi tăng nhịp tim 20 nhịp / phút hoặc giảm huyết áp tâm thu từ 10 mmHg trở lên khi chuyển bệnh nhân từ tư thế nằm ngửa sang tư thế ngồi.
+
+Các yếu tố nguy cơ như rối loạn đông máu, nhiễm trùng huyết, chấn thương) hoặc các dấu hiệu liên quan (tổn thương xuất huyết, bệnh gan lách, vàng da, xơ gan)
+
+Trong trường hợp XHTH không ảnh hưởng huyết động : thực hiện các xét nghiệm cơ bản (công thức máu và nhóm máu, chức năng gan và thận, đông máu). Đối với các trường hợp XHTH trên, đặt sonde dạ dày, hút và rửa nước muối để chẩn đoán, để xác định tốc độ chảy máu, để kiểm tra chảy máu liên tục hoặc tái phát, để làm sạch dạ dày trước khi nội soi, để ngăn ngừa bệnh não gan ở bệnh nhân xơ gan.
+
+Vitamin K tiêm (1-2 mg /liều) nên được khuyến cáo cho trẻ sơ sinh, ngay cả khi chưa có kết quả đông máu. Nếu có rối loạn đông máu : INR> 1,5 hoặc thời gian thromboplastin một phần bất thường nên được điều chỉnh bằng cách sử dụng huyết tương tươi đông lạnh (10 ml / kg ban đầu); huyết tương kết tủa lạnh được thử trong trường hợp rối loạn đông máu nặng, đặc biệt là trong trường hợp hạn chế đưa dịch vào cơ thể.
+
+### 6.1. Hồi sức ổn định huyết động
+- Bệnh nhân mất khối lượng máu nhiều: Cần ủ ấm, đầu thấp chân cao, thở O₂. Nếu có nôn máu cần phải kê đầu cao 30-40⁰ phòng hít máu vào phổi. Nếu xuất huyết nặng phải đảm bảo đường thở bằng đặt nội khí quản.
+- Đặt 2 đường truyền tĩnh mạch – tĩnh mạch trung tâm - đo áp lực tĩnh mạch trung tâm.
+- Các xét nghiệm cấp : Nhóm máu, đếm toàn bộ tế bào máu, tiểu cầu – thời gian prothrombin, hemoglobin, khí máu – hemoglobin (không thật sự trung thực lúc đầu hơi giảm sau bình thường sau đó có thể giảm do truyền hoặc điều chỉnh các khu vực)
+- Theo dõi: Mạch, huyết áp, tình trạng tinh thần, khối lượng máu tiếp tục mất, nôn, ỉa máu.
+
+Truyền máu có 2 mục đích:
+- Phục hồi khối lượng tuần hoàn( qua đánh giá mạch, huyết áp)
+- Đảm bảo lượng O₂ cung cấp tổ chức. Qua khả năng vận chuyển O₂ (đánh giá khối lượng hemoglobin và hematocrit )
+
+Mục tiêu đầu có thể thực hiện được qua truyền các loại dịch phân tử lượng cao, dịch thay thế máu. Nhưng mục tiêu thứ 2 chỉ thực hiện được nhờ truyền máu. Giai đoạn đầu trong khi chuẩn bị máu (tìm máu cùng nhóm, làm xét nghiệm máu chéo có thể truyền dịch thay thế trước)
 
 ---
 
 <!-- Page 97 -->
-- **Bồi phụ các yếu tố đông máu:**
-  + **Huyết tương tươi đông lạnh (FFP):** Liều $10 - 15\text{ ml/kg}$ khi có rối loạn đông máu phối hợp (INR $> 1.5$ hoặc PT kéo dài) hoặc chảy máu ồ ạt sau khi truyền dịch lượng lớn.
-  + **Khối tiểu cầu:** Chỉ định khi số lượng tiểu cầu giảm dưới $50 \times 10^9/\text{L}$ đang chảy máu tiến triển.
-  + **Vitamin K1:** Tiêm tĩnh mạch chậm hoặc tiêm bắp liều **$1 - 5\text{ mg}$** cho mọi trẻ sơ sinh và nhũ nhi nghi ngờ thiếu vitamin K.
+Cho dung dịch mặn đẳng trương hoặc ringer lactat 20ml/kg/giờ cho tới khi khối lượng tuần hoàn tối thiểu được hồi phục (huyết áp tăng lên), mất các dấu hiệu co mạch ngoại biên (các vân tím trên da)
 
-### 6.2. Các thuốc điều trị đặc hiệu
+Dung dịch albumin và plasma chỉ sử dụng khi máu mất nhiều và tiếp tục vì giai đoạn này suy thở hay sốc phổi có thể xảy ra do giảm áp lực keo. Khi truyền dextran nên cần thận vì có thể ảnh hưởng đến chức năng tiểu cầu.
+Hetastarch – nhũ tương keo nhân tạo được dùng có hiệu quả và an toàn.
 
-#### 6.2.1. Thuốc ức chế bài tiết acid dịch vị
-Chỉ định trong xuất huyết tiêu hóa do viêm loét dạ dày - tá tràng, viêm thực quản trào ngược hoặc hội chứng Mallory-Weiss:
-- **Thuốc ức chế bơm proton (PPI):** Là lựa chọn ưu tiên hàng đầu:
-  + **Omeprazole** hoặc **Esomeprazole:** Liều tấn công tĩnh mạch **$1\text{ mg/kg}$** (tối đa $40\text{ mg}$), sau đó duy trì **$1 - 2\text{ mg/kg/ngày}$** chia 2 lần tiêm TM hoặc truyền tĩnh mạch liên tục $0.1 - 0.2\text{ mg/kg/giờ}$.
-  + Duy trì pH dạ dày $> 6.0$ để tạo điều kiện kết tập tiểu cầu và hình thành cục máu đông bền vững tại ổ loét.
-- **Thuốc kháng thụ thể H2:** Famotidine ($0.5 - 1\text{ mg/kg/ngày}$ chia 2 lần TM), hiệu quả ức chế acid kém hơn PPI và nhanh bị hiện tượng quen thuốc (Tachyphylaxis).
+Cần lưu ý truyền: khối lượng tuần hoàn nguy hiểm nhất đối với xuất huyết do giãn tĩnh mạch thực quản, do loét.
+
+Sau khi đã phục hồi khối lượng tuần hoàn: Dựa vào hemoglobin – hematocrit truyền máu chậm để đưa hematocrit lên 30% ( truyền khối hồng cầu 10ml/kg ban đầu) hoặc truyền máu. Trường hợp tránh tăng amoniac như khi bị xơ gan, truyền khối hồng cầu ít NH₃ hơn là truyền máu toàn phần – truyền máu đảm bảo khả năng vận chuyển O₂ tới tổ chức. Tốc độ truyền máu phụ thuộc vào khối lượng máu mất.
+
+Truyền máu toàn phần có thể có tác dụng phụ tăng citrat máu, acid lactic máu, giảm các yếu tố đông máu, giảm tiểu cầu. Sau mỗi lần truyền 40- 50 ml/kg/khối hồng cầu hoặc máu toàn phần cho calci và huyết thanh tươi đông lạnh 10ml/kg cũng như cho tiểu cầu và theo dõi tiểu cầu sau mỗi đợt truyền máu 40-50ml/kg.
+
+Theo dõi quá trình truyền cần ghi vào phiếu các diễn biến huyết động nằm, ngồi, áp lực tĩnh mạch trung tâm, nước tiểu. Các xét nghiệm cận lâm sàng, các dịch điều trị và thủ thuật.
+
+### 6.2. Một số thuốc điều trị
+#### 6.2.1. Thuốc ức chế axit
+Sử dụng các chất ức chế bơm proton (PPI) cho thấy lợi ích trong điều trị bệnh nhân chảy máu do loét hoặc xuất huyết tiêu hóa trên và vượt trội hơn so với thuốc đối kháng H2.
+
+PPI có sẵn: esomeprazole, lansoprazole, omeprazole, pantoprazole và rabeprazole. Đường dùng được khuyến cáo là tiêm tĩnh mạch, dưới dạng tiêm truyền 1 giờ với liều 1-3 mg / kg để duy trì pH dạ dày 24 giờ > 6 khi chảy máu hoạt động. Tác dụng :
+- PPI làm giảm nguy cơ tái phát và cần phẫu thuật, nhưng không ảnh hưởng đến tỷ lệ tử vong.
+- Tỷ lệ tái phát, yêu cầu truyền máu và thời gian nằm viện ít hơn ở những bệnh nhân được điều trị bằng PPI.
+- PPI đã được chứng minh là có hiệu quả trong điều trị xuất huyết tiêu hóa ở trẻ em do NSAID.
+
+#### 6.2.2 Thuốc co mạch
+Điều trị co mạch nên được cân nhắc càng sớm càng tốt khi nghi ngờ tăng áp cửa là nguyên nhân nghi ngờ của XHTH Những loại thuốc này được báo cáo là cầm máu trong 75% -80% trường hợp. Ba loại thuốc vận mạch (terlipressin,
 
 ---
 
 <!-- Page 98 -->
-#### 6.2.2. Thuốc co mạch tạng (Điều trị vỡ giãn tĩnh mạch thực quản)
-Chỉ định ngay khi nghi ngờ xuất huyết do tăng áp lực tĩnh mạch cửa (trẻ có tiền sử xơ gan, vàng da, lách to hoặc nôn máu ồ ạt):
-- **Octreotide (Chất đồng vận Somatostatin tổng hợp):**
-  + Tác dụng: Co mạch tạng có chọn lọc, giảm lưu lượng máu tĩnh mạch cửa và giảm áp lực trong các búi giãn tĩnh mạch thực quản mà ít gây tác dụng phụ toàn thân.
-  + **Liều bolus ban đầu:** **$1 - 2\text{ µg/kg}$** tiêm tĩnh mạch chậm trong 5 phút.
-  + **Liều duy trì:** Truyền tĩnh mạch liên tục **$1 - 2\text{ µg/kg/giờ}$** (tối đa $50\text{ µg/giờ}$). Duy trì liên tục trong $48 - 72\text{ giờ}$ sau khi cầm máu, sau đó giảm liều dần rồi ngừng.
-- **Terlipressin:** Chất đồng vận Vasopressin tổng hợp tác dụng kéo dài, liều $20\text{ µg/kg}$ tiêm tĩnh mạch chậm mỗi 4–6 giờ.
-- **Vasopressin:** Hiện nay ít sử dụng do nhiều tác dụng phụ co mạch vành và thiếu máu cục bộ tạng.
+somatostatin và octreotide) kiểm soát chảy máu giãn tĩnh mạch bằng cách giảm lưu lượng máu và áp lực mạch máu.
+- Terlipressin có tác dụng co mạch toàn thân quan trọng, đáng chú ý hơn trên các động mạch lách, gây ra sự gia tăng sức cản mạch máu toàn thân và áp lực động mạch cũng như giảm đáng kể (khoảng 20%) và giảm áp lực tĩnh mạch và lưu lượng. Ít dùng ở trẻ em do có ít nghiên cứu, tác dụng phụ : hạ natri máu và co giật ở trẻ em
+- Octreotide là một dẫn xuất tổng hợp của somatostatin. Nó tạo ra sự co mạch chọn lọc và giảm dòng chảy, do đó gián tiếp làm giảm lưu lượng máu giãn tĩnh mạch. Ở trẻ em, octreotide tiêm tĩnh mạch có hiệu quả trong việc giảm XHTH cấp. Liều lượng 2-5 mcg / kg mỗi giờ khi truyền liên tục, và có thể cần bắt đầu với bolus 1 giờ và tiếp tục truyền dịch ít nhất 5 ngày ở những bệnh nhân có nguy cơ tái phát. Tuy nhiên, có bằng chứng hạn chế về hiệu quả và độ an toàn của octreotide đối với XHTH mạn tính ở trẻ em.
 
-#### 6.2.3. Thuốc chẹn beta giao cảm không chọn lọc (Propranolol)
-- Chỉ định: Dự phòng tiên phát và thứ phát vỡ giãn tĩnh mạch thực quản sau khi xuất huyết cấp đã được kiểm soát hoàn toàn ổn định.
-- Liều khởi đầu: **$1\text{ mg/kg/ngày}$** chia 2–3 lần uống, chỉnh liều tăng dần để đạt mục tiêu giảm nhịp tim lúc nghỉ $25\%$ so với ban đầu.
+#### 6.2.3 Thuốc chẹn beta giao cảm
+Propranolol, nadolol và carvedilol, đã được nghiên cứu rộng rãi ở người lớn bị tăng huyết áp cửa và đã được chứng minh là làm giảm áp lực cổng thông tin bằng cách giảm cung lượng tim và làm co mạch các mạch máu thông qua phong tỏa thụ thể ß-1 và ß-2; hơn nữa, carvedilol dường như hiệu quả hơn trong việc giảm áp lực tĩnh mạch gan.
 
-#### 6.2.4. Nội soi can thiệp cầm máu
-- Tiến hành sớm trong vòng 12–24 giờ sau khi hồi sức ổn định huyết động.
-- Các kỹ thuật nội soi:
-  + Đối với vỡ giãn tĩnh mạch thực quản: **Thắt vòng cao su nội soi (Endoscopic Variceal Ligation - EVL)** là tiêu chuẩn vàng; tiêm xơ (Sclerotherapy) áp dụng khi thắt vòng khó thực hiện ở trẻ nhỏ.
-  + Đối với ổ loét dạ dày - tá tràng: Tiêm cầm máu bằng dung dịch Adrenaline 1/10.000 quanh ổ loét kết hợp kẹp clip cầm máu (Hemoclip) hoặc đầu dò nhiệt đốt điện.
+Ở trẻ em ít có dữ liệu sử dụng, liều dao động 2 -8 mg/ ngày
+
+#### 6.2.4 Nội soi can thiệp
+Mục đích của nội soi điều trị là cầm máu và ngăn ngừa tái phát.
+
+Được thực hiện khi bệnh nhân đã ổn định, và tốt nhất là trong vòng 24 giờ sau khi xuất hiện chảy máu.
+
+Một số kỹ thuật, bao gồm liệu pháp tiêm, trị liệu cắt bỏ và liệu pháp cơ học, đã được khuyến nghị cho XHTH cấp, các kỹ thuật này tùy thuộc vào đặc điểm chảy máu, chẳng hạn như máu phun thành tia, rỉ rả hoặc không có mạch máu nhìn thấy được.
+
+Các phương pháp điều trị phổ biến cho XHTH ở người lớn và trẻ em bao gồm liệu pháp tiêm với epinephrine và chất xơ cứng pha loãng, phẫu thuật
+
+Tiêm epinephrine hiệu quả khoảng 80% chảy máu không có giãn. Nhiều phân tích tổng hợp ở người trưởng thành đã chứng minh rằng liệu pháp phối hợp (tiêm epinephrine kết hợp với cắt hoặc cắt bỏ) là vượt trội so với epinephrine đơn thuần trong việc giảm nguy cơ tái phát xuống khoảng 10% . Phương pháp đông máu bằng laser nội soi và argon có thể là phương pháp điều trị hiệu quả cho XHTH do bất thường mạch máu; thật vậy, bằng cách sử dụng những thứ này, phần lớn chảy máu Mallory-Weiss tự nhiên ngừng lại. Đối với các tổn thương Dieulafoy, rất hiếm gặp ở trẻ em, liệu pháp nội soi là lựa chọn đầu tiên, sử dụng cắt, đốt điện, tiêm xơ cứng, phương pháp băng hoặc laser. Endoclips hiện đang là liệu pháp cơ học được ưa thích cho XHTH không giãn tĩnh mạch.
 
 ---
 
 <!-- Page 99 -->
-### 6.3. Đặt sonde chèn ép bóng (Sonde Sengstaken-Blakemore)
-- **Chỉ định:** Biện pháp cứu cánh tạm thời trong trường hợp vỡ giãn tĩnh mạch thực quản chảy máu ồ ạt đe dọa tính mạng không kiểm soát được bằng thuốc co mạch và nội soi can thiệp không thực hiện được ngay.
-- **Kỹ thuật:**
-  + Đặt ống thông qua đường miệng hoặc mũi vào dạ dày.
-  + Bơm bóng dạ dày trước với thể tích khoảng $100 - 150\text{ ml}$ không khí, kẹp chặt và kéo nhẹ cố định vào tâm vị.
-  + Nếu máu vẫn tiếp tục chảy, tiến hành bơm tiếp bóng thực quản duy trì áp lực $25 - 30\text{ mmHg}$.
-  + **Lưu ý an toàn:** Không lưu bóng chèn ép quá $24 - 48\text{ giờ}$ vì nguy cơ hoại tử, loét thủng thực quản.
+Trong điều trị xuất huyết giãn tĩnh mạch cấp tính, thắt tĩnh mạch nội soi là lựa chọn điều trị. Đối với nội soi điều trị, thời gian nhịn ăn và chuẩn bị ruột được khuyến nghị để tạo thuận lợi cho việc quan sát các tổn thương niêm mạc.
 
-### 6.4. Rửa dạ dày bằng nước muối lạnh
-- Đặt sonde dạ dày hút sạch máu đọng và rửa nhẹ nhàng bằng nước muối sinh lý $0.9\%$ lạnh giúp co mạch tạm thời niêm mạc dạ dày và theo dõi tốc độ chảy máu.
+## 7. Điều trị một số nguyên nhân gây XHTH
+#### 7.2.1. Chảy máu do giãn vỡ tĩnh mạch thực quản
+Vasopressin: 0,3 đv/kg truyền tĩnh mạch
+- Trẻ dưới 5 tuổi: 0,05 đv/phút/giờ, tối đa 0,2 đv/phút/giờ
+- Trẻ < 12 tuổi: 0,3 đv/phút/giờ
+- Trẻ > 12 tuổi: 0,4 đv/phút/giờ
 
-### 6.5. Điều trị ngoại khoa
-- Chỉ định mổ cấp cứu trong các trường hợp:
-  + Chảy máu ồ ạt không cầm được sau khi đã hồi sức tối đa và thất bại với nội soi can thiệp.
-  + Các bệnh lý ngoại khoa cấp tính: Lồng ruột hoại tử, xoắn ruột, túi thừa Meckel loét thủng chảy máu, thủng ổ loét dạ dày - tá tràng.
+Hoặc 0,2 – 0,4 đv/1,73 m² da/phút
+
+Tác dụng phụ như: Thiếu máu cơ tim, loạn nhịp, co thắt mạch, thiếu máu, giữ nước, tím đầu chi.
+
+Trộn lẫn dextrose 5% - an toàn nhất là tiêm vào tĩnh mạch trung tâm, tỉ lệ thành công người lớn 50- 70%.
+
+Để tránh tái phát có thể cho tiếp 12 -24 giờ sau khi máu đã ngừng chảy ( Jonhson và cộng sự). Ép chỗ tĩnh mạch vỡ bằng sonde Black more làm ngừng chảy máu ban đầu 50 - 80 % các xuất huyết tiêu hoá. Biến chứng 9 – 35% tử vong liên quan tới sonde Black more; trên 5 -20% bệnh nhân dùng Tube.
+
+#### 7.2.2. Chảy máu do viêm loét dạ dày - tá tràng
+Rửa dạ dày bằng dung dịch muối đẳng trương lạnh tác dụng như ở nhiệt độ thường – dung dịch noradrenalin ( 4 ống trong 500 ml) dịch rửa làm cầm máu.
+
+Nếu sau 15 -20 phút rửa mà dịch không sạch máu thì rửa không có tác dụng. Thôi không rửa để sonde lại để hút kiểm tra 15 – 30 phút một lần xem máu có tiếp tục chảy không.
+
+Thuốc kháng acid (Anti-acid): Cho 15 ml trẻ nhỏ, 60 ml trẻ lớn và 30 ml trẻ trước tuổi đi học. Sao cho PH trẻ từ 1 tăng lên 3,5
+
+Thuốc ức chế H₂ (Anti H₂ ): Tagamet IV truyền 30 – 50 mg/kg/ ngày
+Ranitidin: 5 – 10 mg/kg/ngày
+
+Thuốc ức chế bơm proton (PPI): esomeprazole, lansoprazole, omeprazole, pantoprazole và rabeprazole, tiêm tĩnh mạch, liều 1-3 mg / kg/ ngày
 
 ---
 
 ## TÀI LIỆU THAM KHẢO
-
-1. Bộ môn Nhi, Trường Đại học Y Dược Thái Bình (2026), *Giáo trình Nhi khoa: Xuất huyết tiêu hóa ở trẻ em*, Trang 87–99.
-2. Bộ Y tế (2015), *Hướng dẫn chẩn đoán và điều trị một số bệnh thường gặp ở trẻ em: Chẩn đoán và xử trí xuất huyết tiêu hóa*, Nhà xuất bản Y học.
-3. Nelson Textbook of Pediatrics (21st/22nd Edition), *Gastrointestinal Bleeding in Children*, Elsevier.
-4. ESPGHAN/NASPGHAN Guidelines (2017), *Management of Upper Gastrointestinal Bleeding in Children*, J Pediatr Gastroenterol Nutr.
-5. Romano, C., et al. (2017), *Management of Acute Upper Gastrointestinal Bleeding in Children: A Guideline Concerning Children*, JPGN.
+1. Nguyễn Gia Khánh, Xuất huyết đường tiêu hóa, Bài giảng nhi nhi khoa tập 1, NXB y học 2009, trang 331-341
+2. Claudio Romano, Salvatore Oliva, Stefano Martellossi, Erasmo Miele, Serena Arrigo, Maria Giovanna Graziani, Sabrina Cardile, Federica Gaiani, Gian Luigi de'Angelis, and Filippo Torroni. Pediatric gastrointestinal bleeding: Perspectives from the Italian Society of Pediatric Gastroenterology, World J Gastroenterol. 2017 Feb 28; 23(8): 1328–1337. Published online 2017 Feb 28.

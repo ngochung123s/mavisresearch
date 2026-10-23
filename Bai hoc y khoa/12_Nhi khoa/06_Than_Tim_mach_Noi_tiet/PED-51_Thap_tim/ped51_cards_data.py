@@ -45,7 +45,7 @@ cards_data = [
         "category": "Lịch sử nghiên cứu",
         "front": "Tóm tắt các mốc lịch sử nghiên cứu quan trọng về bệnh Thấp tim được nêu trong giáo trình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đầu thế kỷ 17: Guillaume Baillou lần đầu tiên mô tả lâm sàng dưới tên 'thấp khớp cấp'.<br>2) Năm 1886: Cheadle mô tả đầy đủ các hội chứng lâm sàng của thấp tim.<br>3) Đầu thế kỷ 20: Aschoff mô tả tổn thương giải phẫu bệnh đặc trưng (hạt Aschoff).<br>4) Năm 1939: Coburn và Moore phát hiện dùng kháng sinh liên tục có thể ngăn ngừa thấp tim tái phát.<br>5) Năm 1944: T. Duckett Jones đưa ra bảng hướng dẫn chẩn đoán thấp tim.<br>6) Năm 1988: Tổ chức Y tế Thế giới (WHO) công nhận bảng tiêu chuẩn Jones sửa đổi.<br><br><b>💡 Giải thích của AI:</b><br>Hai mốc thi hay hỏi nhất: Duckett Jones (1944) đưa ra tiêu chuẩn chẩn đoán, và Aschoff mô tả hạt bệnh học đặc hiệu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 135, Mục 1.2 - Lịch sử)",
+        "extra": "<b>⚖️ Đối chiếu:</b> Barem in \"Corubu Moore\"; tên đúng là Alvin Coburn và Lucile Moore (1939).<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 135, Mục 1.2 - Lịch sử)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -59,8 +59,8 @@ cards_data = [
         "section": "B1",
         "category": "Căn nguyên vi sinh",
         "front": "Căn nguyên vi sinh vật gây bệnh Thấp tim là gì? Đường xâm nhập gây bệnh ở cơ quan nào?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Căn nguyên: Liên cầu khuẩn β tan huyết nhóm A (Group A Streptococcus - GAS / Streptococcus pyogenes).<br>• Đường xâm nhập: Nhiễm khuẩn đường hô hấp trên (VIÊM HỌNG do liên cầu).<br>• Lưu ý đặc biệt: Nhiễm liên cầu khuẩn ngoài da (như chốc lở da) KHÔNG GÂY THẤP TIM, mà chỉ gây viêm cầu thận cấp sau nhiễm liên cầu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là câu hỏi phân biệt kinh điển: Chỉ có các chủng liên cầu gây viêm họng (Rheumatogenic strains) mang protein M đặc hiệu mới kích hoạt phản ứng tự miễn sinh bệnh thấp tim.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 136 - 137, Mục 2.1)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Căn nguyên: Liên cầu khuẩn β tan huyết nhóm A (Group A Streptococcus - GAS / Streptococcus pyogenes).<br>• Đường xâm nhập: Nhiễm khuẩn đường hô hấp trên (VIÊM HỌNG do liên cầu).<br><br><b>💡 Giải thích của AI:</b><br>Đây là câu hỏi phân biệt kinh điển: Chỉ có các chủng liên cầu gây viêm họng (Rheumatogenic strains) mang protein M đặc hiệu mới kích hoạt phản ứng tự miễn sinh bệnh thấp tim. Kinh điển: nhiễm liên cầu ngoài da (chốc lở) gây viêm cầu thận cấp, không gây thấp tim (Ngoài barem).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Hướng dẫn Úc về thấp tim (RHDAustralia 2020) ghi nhận ở một số quần thể có tỷ lệ chốc lở cao, nhiễm liên cầu ngoài da cũng có thể liên quan tới thấp tim. Khi thi vẫn trả lời đường vào là viêm họng.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 136 - 137, Mục 2.1)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -75,7 +75,7 @@ cards_data = [
         "section": "B1",
         "category": "Bằng chứng gây bệnh",
         "front": "Tại sao liên cầu khuẩn không trực tiếp gây tổn thương tại mô mà vẫn được khẳng định là nguyên nhân gây Thấp tim? Nêu 4 bằng chứng?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tuy không tìm thấy vi khuẩn liên cầu tại các tổn thương ở tim, khớp hay não, nhưng 4 bằng chứng sau khẳng định liên cầu là nguyên nhân:<br>1) Bằng chứng lâm sàng: Thấp tim luôn xuất hiện sau viêm họng do liên cầu khoảng 1 - 3 tuần (trung bình 2 - 4 tuần).<br>2) Bằng chứng dịch tễ học: Các yếu tố làm tăng tần suất viêm họng liên cầu (đông đúc, mùa lạnh ẩm) cũng làm tăng tỷ lệ thấp tim.<br>3) Bằng chứng miễn dịch học: Kháng thể kháng liên cầu (ASLO, ASK, AH, Anti-DNase B) tăng cao trong đợt thấp cấp và giảm thấp khi hết viêm.<br>4) Bằng chứng phòng ngừa: Dùng Penicillin điều trị viêm họng và tiêm phòng thấp thứ phát ngăn chặn hiệu quả các đợt tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Vì vi khuẩn không trực tiếp xâm nhập cơ tim, điều trị kháng sinh không thể làm hết viêm tim cấp ngay lập tức, mà kháng sinh chỉ có vai trò diệt sạch ổ vi khuẩn tồn lưu ở họng.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Tuy không tìm thấy vi khuẩn liên cầu tại các tổn thương ở tim, khớp hay não, nhưng 4 bằng chứng sau khẳng định liên cầu là nguyên nhân:<br>1) Bằng chứng lâm sàng: Thấp tim xuất hiện sau viêm họng do liên cầu khoảng vài tuần (thời gian ủ bệnh).<br>2) Bằng chứng dịch tễ học: Các yếu tố làm tăng tần suất viêm họng liên cầu (đông đúc, mùa lạnh ẩm) cũng làm tăng tỷ lệ thấp tim.<br>3) Bằng chứng miễn dịch học: Kháng thể kháng liên cầu (ASLO, ASK, AH, Anti-DNase B) tăng cao trong đợt thấp cấp và giảm thấp khi hết viêm.<br>4) Bằng chứng phòng ngừa: Dùng Penicillin điều trị viêm họng và tiêm phòng thấp thứ phát ngăn chặn hiệu quả các đợt tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Vì vi khuẩn không trực tiếp xâm nhập cơ tim, điều trị kháng sinh không thể làm hết viêm tim cấp ngay lập tức, mà kháng sinh chỉ có vai trò diệt sạch ổ vi khuẩn tồn lưu ở họng.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 137, Mục 2.2 - Bằng chứng)",
         "tags": [
             "PED-51",
@@ -123,7 +123,7 @@ cards_data = [
         "section": "B2",
         "category": "Sinh lý bệnh",
         "front": "Tóm tắt sơ đồ sinh lý bệnh của Warren Toews về cơ chế tổn thương các cơ quan trong Thấp tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Liên cầu khuẩn β tan huyết nhóm A ở họng kích hoạt đáp ứng miễn dịch tấn công 3 nhóm cơ quan:<br>1) Tại Tim: Đáp ứng qua cả tế bào lympho T (LT) và lympho B (LB) → gây viêm van tim và viêm cơ tim → có thể khỏi hoàn toàn hoặc để lại di chứng van tim.<br>2) Tại Não: Đáp ứng qua lympho B (LB) → kháng thể kháng nhân não dưới đồi (nhân bèo, nhân đuôi) → gây múa vờn Sydenham → khỏi hoàn toàn, không để lại di chứng.<br>3) Tại Khớp và Da: Lắng đọng phức hợp miễn dịch và viêm nội mạc mạch máu → gây viêm khớp, hạt dưới da, hồng ban vòng → khỏi hoàn toàn, không để lại di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Điểm thi then chốt: Trong tất cả các cơ quan bị tổn thương, CHỈ CÓ TIM là cơ quan duy nhất có thể để lại di chứng mạn tính (bệnh van tim hậu thấp). Khớp, não và da đều khỏi hoàn toàn 100% không để lại di chứng.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Liên cầu khuẩn β tan huyết nhóm A ở họng kích hoạt đáp ứng miễn dịch tấn công 3 nhóm cơ quan:<br>1) Tại Tim: Đáp ứng qua cả tế bào lympho T (LT) và lympho B (LB) → gây viêm van tim và viêm cơ tim → có thể khỏi hoàn toàn hoặc để lại di chứng van tim.<br>2) Tại Não: Đáp ứng qua lympho B (LB) → kháng thể kháng nhân não dưới đồi (nhân bèo, nhân đuôi) → gây múa vờn Sydenham → khỏi hoàn toàn, không để lại di chứng.<br>3) Tại Khớp và Da: Lắng đọng phức hợp miễn dịch và viêm nội mạc mạch máu → gây viêm khớp, hạt dưới da, hồng ban vòng → khỏi hoàn toàn, không để lại di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Điểm thi then chốt: Trong tất cả các cơ quan bị tổn thương, CHỈ CÓ TIM là cơ quan duy nhất có thể để lại di chứng mạn tính (bệnh van tim hậu thấp). Khớp, não và da đều khỏi, không để lại di chứng.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 137 - 138, Mục 4 - Sinh lý bệnh)",
         "tags": [
             "PED-51",
@@ -139,7 +139,7 @@ cards_data = [
         "section": "B2",
         "category": "Yếu tố ảnh hưởng",
         "front": "Quá trình sinh bệnh thấp tim chịu ảnh hưởng tương tác của 3 yếu tố nào?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tác nhân: Liên cầu khuẩn β tan huyết nhóm A (độc lực của chủng, đặc biệt protein M).<br>2) Vật chủ (Con người): Cơ địa di truyền mẫn cảm (mang kháng nguyên HLA-DR2, DR4, DR7; đáp ứng miễn dịch quá mức).<br>3) Môi trường: Điều kiện sống đông đúc, ẩm thấp, nghèo đói, thiếu vệ sinh làm tăng lây lan nhiễm liên cầu.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ khoảng 3% người bị viêm họng liên cầu phát triển thành thấp tim, chứng tỏ vai trò cực kỳ quan trọng của yếu tố cơ địa di truyền mẫn cảm của bệnh nhân.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Quá trình sinh bệnh thấp tim chịu ảnh hưởng của 3 yếu tố:<br>1) <span style=\"color:#ff6b6b\"><b>Liên cầu khuẩn β tan huyết nhóm A</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Con người</b></span> (cơ địa người bệnh).<br>3) <span style=\"color:#74c0fc\"><b>Môi trường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: chủng liên cầu có protein M đặc hiệu; cơ địa di truyền (một số alen HLA lớp II liên quan, khác nhau giữa các quần thể); môi trường đông đúc, ẩm thấp, nghèo đói làm tăng lây nhiễm liên cầu. Chỉ một tỷ lệ nhỏ trẻ viêm họng liên cầu không điều trị bị thấp tim (khoảng 0,3% trong cộng đồng, tới ~3% trong các vụ dịch), nên cơ địa giữ vai trò quan trọng.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, Mục 4)",
         "tags": [
             "PED-51",
@@ -154,7 +154,7 @@ cards_data = [
         "section": "B3",
         "category": "Viêm khớp",
         "front": "Tỷ lệ mắc và 6 đặc điểm lâm sàng kinh điển của tổn thương Viêm khớp trong Thấp tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ: Gặp ở 50 - 75% số bệnh nhân (là triệu chứng chính hay gặp nhất).<br>• 6 đặc điểm lâm sàng kinh điển:<br>1) Vị trí: Thường viêm các khớp nhỡ và lớn (khớp gối, cổ chân, khuỷu tay, cổ tay, khớp vai). Rất hiếm khi bị ở khớp háng, cột sống và các khớp nhỏ bàn ngón tay.<br>2) Tính chất di chuyển: Khớp này đang viêm giảm đi thì khớp khác mới sưng đau (chuyển từ khớp này sang khớp khác).<br>3) Biểu hiện: Sưng, nóng, đỏ, đau dữ dội, hạn chế vận động; có thể tràn dịch khớp nhưng KHÔNG BAO GIỜ HÓA MỦ.<br>4) Thời gian: Tự khỏi sau 5 - 15 ngày (không kéo dài quá 4 tuần).<br>5) Đáp ứng điều trị: Viêm khớp đáp ứng cực kỳ nhanh với Salicylate (Aspirin) hoặc Corticoid (hết đau sưng trong 24 - 48 giờ).<br>6) Di chứng: Khỏi hoàn toàn, tuyệt đối KHÔNG để lại di chứng teo cơ hay cứng khớp.<br><br><b>💡 Giải thích của AI:</b><br>Nếu viêm khớp nhỏ bàn ngón tay, kéo dài trên 6 tuần, gây cứng khớp buổi sáng hoặc để lại biến dạng khớp → phải nghĩ đến Viêm khớp tự phát thiếu niên (JIA), không phải thấp tim.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ: Gặp ở 50 - 75% số bệnh nhân (là triệu chứng chính hay gặp nhất).<br>• 6 đặc điểm lâm sàng kinh điển:<br>1) Vị trí: Thường viêm các khớp nhỡ và lớn (khớp gối, cổ chân, khuỷu tay, cổ tay, khớp vai). Rất hiếm khi bị ở khớp háng, cột sống và các khớp nhỏ bàn ngón tay.<br>2) Tính chất di chuyển: Khớp này đang viêm giảm đi thì khớp khác mới sưng đau (chuyển từ khớp này sang khớp khác).<br>3) Biểu hiện: Sưng, nóng, đỏ, đau dữ dội, hạn chế vận động; có thể tràn dịch khớp nhưng không hóa mủ.<br>4) Thời gian: Tự khỏi sau 5 - 15 ngày (không kéo dài quá 4 tuần).<br>5) Đáp ứng điều trị: Viêm khớp đáp ứng cực kỳ nhanh với Salicylate (Aspirin) hoặc Corticoid (hết đau sưng trong 24 - 48 giờ).<br>6) Di chứng: Khỏi hoàn toàn, không để lại di chứng teo cơ hay cứng khớp.<br><br><b>💡 Giải thích của AI:</b><br>Nếu viêm khớp nhỏ bàn ngón tay, kéo dài trên 6 tuần, gây cứng khớp buổi sáng hoặc để lại biến dạng khớp → phải nghĩ đến Viêm khớp tự phát thiếu niên (JIA), không phải thấp tim.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, Mục 5.1 - Viêm khớp)",
         "tags": [
             "PED-51",
@@ -218,8 +218,8 @@ cards_data = [
         "type": "basic",
         "section": "B4",
         "category": "Viêm tim",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm tim nhẹ:<br>• Tim không to, không suy tim.<br>• Tiếng thổi thường <span style=\"color:#ffd43b\">&lt; 3/6</span> và thường mất sau đợt cấp.<br>2) Viêm tim trung bình:<br>• Tim không to, không suy tim.<br>• Các tiếng thổi lớn hơn và thường còn tồn tại sau đợt cấp.<br>3) Viêm tim nặng:<br>• Tim to, suy tim.<br>• Có các tiếng thổi lớn, tổn thương van nặng hoặc nhiều van, tồn tại sau đợt cấp.<br><br><b>💡 Giải thích của AI:</b><br>Phân độ 3 mức độ này quyết định trực tiếp phác đồ dùng thuốc: Thể nhẹ/vừa dùng Prednisolon 1 - 2 mg/kg/ngày x 2 tuần; Thể nặng dùng Prednisolon 2 mg/kg/ngày x 3 tuần.",
         "front": "Phân loại 3 mức độ Viêm tim (Nhẹ, Trung bình, Nặng) theo giáo trình Y Thái Bình để định hướng điều trị và tiên lượng?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm tim nhẹ:<br>• Kích thước tim không to, không có suy tim.<br>• Tiếng thổi thường nhẹ (&lt; 3/6) và thường mất đi hoàn toàn sau đợt cấp.<br>2) Viêm tim trung bình:<br>• Kích thước tim không to, không có suy tim.<br>• Các tiếng thổi lớn hơn (≥ 3/6) và thường còn tồn tại sau đợt cấp.<br>3) Viêm tim nặng:<br>• Bóng tim to trên X-quang, có suy tim lâm sàng.<br>• Có các tiếng thổi lớn, tổn thương van tim nặng hoặc tổn thương nhiều van tim, tiếng thổi tồn tại vĩnh viễn sau đợt cấp.<br><br><b>💡 Giải thích của AI:</b><br>Phân độ 3 mức độ này quyết định trực tiếp phác đồ dùng thuốc: Thể nhẹ/vừa dùng Prednisolon 1 - 2 mg/kg/ngày x 2 tuần; Thể nặng bắt buộc dùng Prednisolon 2 mg/kg/ngày x 3 tuần.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, Mục 5.2 - Phân mức độ)",
         "tags": [
             "PED-51",
@@ -251,7 +251,7 @@ cards_data = [
         "section": "B5",
         "category": "Hạt thấp Meynet",
         "front": "Tỷ lệ mắc, đặc điểm hình thái và vị trí xuất hiện của Hạt thấp Meynet theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ mắc: Rất hiếm gặp, chỉ khoảng 1% bệnh nhân.<br>• Đặc điểm hình thái: Là những hạt tròn, chắc cứng, không đau, di động nhẹ dưới da, đường kính từ 0,5 đến 2 cm. Tồn tại vài ngày đến vài tuần rồi tự biến mất, không để lại di chứng.<br>• Vị trí xuất hiện: Nằm ở tổ chức dưới da đầu vùng chẩm, bả vai, dọc gai cột sống và quanh các khớp lớn (mặt duỗi của khớp).<br><br><b>💡 Giải thích của AI:</b><br>Hạt Meynet hầu như luôn đi kèm với tình trạng viêm tim nặng. Thấy hạt Meynet là dấu hiệu chỉ điểm bệnh nhân có tổn thương tim nặng nề.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ mắc: Rất hiếm gặp, chỉ khoảng 1% bệnh nhân.<br>• Đặc điểm hình thái: Là những hạt tròn, chắc cứng, không đau, di động nhẹ dưới da, đường kính từ 0,5 đến 2 cm. Tồn tại vài ngày đến vài tuần rồi tự biến mất, không để lại di chứng.<br>• Vị trí xuất hiện: Nằm ở tổ chức dưới da đầu vùng chẩm, bả vai, dọc gai cột sống và quanh các khớp lớn (mặt duỗi của khớp).<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: hạt Meynet thường gặp ở bệnh nhân có viêm tim (hay ở mức độ nặng); thấy hạt dưới da phải khám tim và siêu âm tim kỹ. Hạt không đặc hiệu cho thấp tim (cũng gặp ở viêm khớp dạng thấp).",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138 - 139, Mục 5.4 - Hạt Meynet)",
         "tags": [
             "PED-51",
@@ -267,7 +267,7 @@ cards_data = [
         "section": "B5",
         "category": "Hồng ban vòng",
         "front": "Tỷ lệ mắc, đặc điểm hình thái và vị trí xuất hiện của Hồng ban vòng (Erythema marginatum)? Vị trí nào CẤM xuất hiện?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ mắc: Chiếm &lt; 5% số bệnh nhân.<br>• Đặc điểm hình thái: Là những dát ban tròn hoặc lượn sóng, có bờ viền màu hồng gờ nhẹ, ở giữa nhạt màu (thoái lui trung tâm), đường kính từ 0,5 đến 3 cm. Ban KHÔNG NGỨA, không đau, tồn tại vài ngày đến vài tuần rồi mất không để lại sẹo hay di chứng.<br>• Vị trí xuất hiện: Thường thấy ở thân mình (ngực, bụng), vùng gốc chi.<br>• Vị trí CẤM XUẤT HIỆN: TUYỆT ĐỐI KHÔNG BAO GIỜ XUẤT HIỆN Ở MẶT.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi trắc nghiệm kinh điển: Nếu ban xuất hiện ở mặt thì KHÔNG PHẢI hồng ban vòng của thấp tim (phải nghĩ đến Lupus ban đỏ hệ thống hoặc ban khác).",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tỷ lệ mắc: Chiếm &lt; 5% số bệnh nhân.<br>• Đặc điểm hình thái: Là những dát ban tròn hoặc lượn sóng, có bờ viền màu hồng gờ nhẹ, ở giữa nhạt màu (thoái lui trung tâm), đường kính từ 0,5 đến 3 cm. Ban KHÔNG NGỨA, không đau, tồn tại vài ngày đến vài tuần rồi mất không để lại sẹo hay di chứng.<br>• Vị trí xuất hiện: Thường thấy ở thân mình (ngực, bụng), vùng gốc chi.<br>• <span style=\"color:#ff6b6b\"><b>Không có ở mặt</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi trắc nghiệm kinh điển: Hồng ban vòng không có ở mặt; ban ở mặt gợi ý nguyên nhân khác (ví dụ lupus ban đỏ hệ thống).",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139, Mục 5.5 - Hồng ban vòng)",
         "tags": [
             "PED-51",
@@ -315,8 +315,8 @@ cards_data = [
         "section": "B6",
         "category": "Dấu hiệu viêm",
         "front": "Các dấu hiệu xét nghiệm chứng tỏ tình trạng viêm cấp tính trong Thấp tim và ngưỡng giá trị máu lắng (ESR)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức máu: Số lượng bạch cầu tăng, tỷ lệ bạch cầu đa nhân trung tính tăng cao.<br>2) Tốc độ máu lắng (ESR) tăng cao: &gt; 50 mm / 1 giờ và &gt; 100 mm / 2 giờ.<br>3) Protein phản ứng C (CRP): Tăng dương tính mạnh.<br><br><b>💡 Giải thích của AI:</b><br>Máu lắng và CRP là thước đo theo dõi đáp ứng điều trị: khi dùng thuốc chống viêm đủ liều, CRP thường về âm tính sau 1 - 2 tuần, còn máu lắng về bình thường sau 3 - 4 tuần.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139, Mục 6.2 - Dấu hiệu viêm)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công thức máu: Số lượng bạch cầu tăng, tỷ lệ bạch cầu đa nhân trung tính tăng cao.<br>2) Tốc độ máu lắng (ESR) tăng cao: &gt; 50 mm / 1 giờ và &gt; 100 mm / 2 giờ.<br>3) Protein phản ứng C (CRP): Tăng dương tính mạnh.<br><br><b>💡 Giải thích của AI:</b><br>Máu lắng và CRP dùng để theo dõi đáp ứng điều trị. CRP thường giảm nhanh hơn máu lắng (Ngoài barem).",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Tiêu chuẩn Jones sửa đổi của AHA 2015 (Gewitz et al., Circulation 2015, PMID 25908771) dùng ngưỡng tiêu chuẩn phụ: máu lắng ≥ 60 mm/giờ đầu và/hoặc CRP ≥ 3,0 mg/dL ở quần thể nguy cơ thấp; máu lắng ≥ 30 mm/giờ đầu và/hoặc CRP ≥ 3,0 mg/dL ở quần thể nguy cơ trung bình–cao. Khi thi ghi ngưỡng barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139, Mục 6.2 - Dấu hiệu viêm)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -332,8 +332,8 @@ cards_data = [
         "section": "B6",
         "category": "Tổn thương tim",
         "front": "Các dấu hiệu tổn thương tim trên Điện tâm đồ, X-quang và Siêu âm tim trong Thấp tim cấp theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Điện tâm đồ (ĐTĐ):<br>1) Khoảng PQ (hoặc PR) kéo dài vượt giới hạn bình thường theo lứa tuổi.<br>2) Thay đổi sóng T và đoạn ST (ST chênh lên trong viêm màng ngoài tim, T âm).<br>3) Rối loạn nhịp tim hoặc block nhĩ thất các mức độ do viêm cơ tim.<br>• X-quang ngực: Bóng tim to do viêm cơ tim giãn buồng tim hoặc do tràn dịch màng ngoài tim.<br>• Siêu âm tim: Phát hiện hở van hai lá và/hoặc hở van động mạch chủ thầm lặng (ngay cả khi lâm sàng chưa nghe thấy tiếng thổi); đo kích thước các buồng tim và đánh giá phân suất tống máu thất trái.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng PR kéo dài là một tiêu chuẩn phụ của Jones; Siêu âm tim Doppler giúp phát hiện viêm tim cận lâm sàng (subclinical carditis) cực kỳ nhạy.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139, Mục 6.3 - Dấu hiệu tim)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Điện tâm đồ (ĐTĐ):<br>1) Khoảng PQ (hoặc PR) kéo dài vượt giới hạn bình thường theo lứa tuổi.<br>2) Thay đổi sóng T và đoạn ST (ST chênh lên trong viêm màng ngoài tim, T âm).<br>3) Rối loạn nhịp tim hoặc block nhĩ thất các mức độ do viêm cơ tim.<br>• X-quang ngực: Bóng tim to do viêm cơ tim giãn buồng tim hoặc do tràn dịch màng ngoài tim.<br>• Siêu âm tim: Phát hiện hở van hai lá và/hoặc hở van động mạch chủ thầm lặng (ngay cả khi lâm sàng chưa nghe thấy tiếng thổi); đo kích thước các buồng tim và đánh giá phân suất tống máu thất trái.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng PR kéo dài là một tiêu chuẩn phụ của Jones; Siêu âm tim Doppler giúp phát hiện viêm tim cận lâm sàng (subclinical carditis), tức tổn thương van chưa nghe thấy tiếng thổi.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Theo AHA 2015 (Gewitz et al., Circulation 2015, PMID 25908771), viêm tim phát hiện bằng siêu âm Doppler dù chưa nghe thấy tiếng thổi (viêm tim cận lâm sàng) được tính là tiêu chuẩn chính ở mọi quần thể.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139, Mục 6.3 - Dấu hiệu tim)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -350,7 +350,7 @@ cards_data = [
         "category": "Tiêu chuẩn Jones",
         "front": "Bảng Tiêu chuẩn Jones sửa đổi (1988) để chẩn đoán đợt Thấp tim đầu tiên gồm những tiêu chuẩn nào?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>• 5 Tiêu chuẩn chính:<br>1) Viêm tim (Carditis).<br>2) Viêm đa khớp (Polyarthritis).<br>3) Múa vờn Sydenham (Chorea).<br>4) Hồng ban vòng (Erythema marginatum).<br>5) Hạt thấp dưới da Meynet (Subcutaneous nodules).<br>• 4 Tiêu chuẩn phụ:<br>1) Sốt.<br>2) Đau khớp (Arthralgia).<br>3) Máu lắng tăng cao, CRP tăng.<br>4) Khoảng PQ (PR) kéo dài trên điện tâm đồ.<br>• Bằng chứng nhiễm liên cầu mới: Cấy họng (+) hoặc tăng hiệu giá kháng thể liên cầu (ASLO ≥ 333 đv Todd).<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ 5 tiêu chuẩn chính: JONES (J = Joints/Viêm khớp; O = hình trái tim/Viêm tim; N = Nodules/Hạt Meynet; E = Erythema marginatum/Hồng ban vòng; S = Sydenham chorea/Múa vờn).",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139 - 140, Mục 7.1)",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Barem dùng tiêu chuẩn Jones 1988. Bản sửa đổi AHA 2015 (Gewitz et al., Circulation 2015, PMID 25908771) chia theo quần thể nguy cơ. Ở quần thể nguy cơ trung bình–cao (như phần lớn nước đang phát triển): viêm tim (lâm sàng và/hoặc cận lâm sàng trên siêu âm), viêm một khớp hoặc đa khớp, đau đa khớp được tính là tiêu chuẩn chính; tiêu chuẩn phụ gồm đau một khớp, sốt ≥ 38,0°C, máu lắng ≥ 30 mm/giờ và/hoặc CRP ≥ 3,0 mg/dL, PR kéo dài. Đợt tái phát có thể chẩn đoán khi có 2 chính, 1 chính + 2 phụ, hoặc 3 phụ. Khi thi trả lời theo bảng barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 139 - 140, Mục 7.1)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -428,8 +428,8 @@ cards_data = [
         "section": "B8",
         "category": "Phân biệt Bệnh Lyme",
         "front": "Đặc điểm giúp phân biệt Bệnh Lyme với Thấp tim theo giáo trình Y Thái Bình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tác nhân: Do xoắn khuẩn Borrelia burgdorferi lây truyền qua vết đốt của bọ chét / ve bét (Ixodes).<br>• Biểu hiện: Cũng có thể có viêm tim, viêm khớp, hồng ban di chuyển (Erythema migrans).<br>• Phân biệt:<br>1) Tiền sử có vết ve bét/bọ chét đốt ngoài trời.<br>2) Ban hồng ban di chuyển thường có nốt hoại tử ở trung tâm vết cắn.<br>3) Xét nghiệm huyết thanh chẩn đoán bệnh Lyme dương tính.<br>4) Kháng thể kháng liên cầu (ASLO) âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai bệnh đều có viêm khớp, viêm tim và hồng ban, do đó tiền sử dịch tễ vết ve cắn và xét nghiệm huyết thanh là chìa khóa phân biệt.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 140, Mục 7.2.5)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Tác nhân: Do xoắn khuẩn Borrelia burgdorferi lây truyền qua vết đốt của ve (Ixodes; barem ghi \"bọ chét\").<br>• Biểu hiện: Cũng có thể có viêm tim, viêm khớp, hồng ban di chuyển (Erythema migrans).<br>• Phân biệt:<br>1) Tiền sử bị ve đốt (barem: \"bọ chét đốt\").<br>2) Hồng ban loang (erythema migrans) lan rộng dần quanh vết đốt, có thể nhạt ở giữa.<br>3) Xét nghiệm huyết thanh chẩn đoán bệnh Lyme dương tính.<br>4) Kháng thể kháng liên cầu (ASLO) âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai bệnh đều có viêm khớp, viêm tim và hồng ban, do đó tiền sử dịch tễ vết ve cắn và xét nghiệm huyết thanh là chìa khóa phân biệt.",
+        "extra": "<b>⚖️ Đối chiếu:</b> Bệnh Lyme do ve Ixodes truyền, không phải bọ chét; \"bọ chét\" trong barem là cách dịch không chính xác. Bệnh Lyme hầu như không gặp ở Việt Nam.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 140, Mục 7.2.5)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -460,7 +460,7 @@ cards_data = [
         "section": "B9",
         "category": "Kháng sinh diệt liên cầu",
         "front": "Phác đồ kháng sinh diệt liên cầu trong điều trị đợt cấp Thấp tim (tên thuốc, liều lượng theo cân nặng và thời gian dùng)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lựa chọn 1 trong 3 phác đồ:<br>• Lựa chọn 1 (Ưu tiên): Benzathine Penicillin tiêm bắp sâu 1 liều duy nhất:<br>1) Trẻ &gt; 30 kg: 1.200.000 đơn vị (1,2 triệu UI).<br>2) Trẻ &lt; 30 kg: 600.000 đơn vị (0,6 triệu UI).<br>• Lựa chọn 2: Penicillin V đường uống trong 10 ngày liên tục:<br>1) Trẻ &gt; 30 kg: 0,5 g × 2 lần/ngày.<br>2) Trẻ &lt; 30 kg: 0,25 g × 2 lần/ngày.<br>• Lựa chọn 3 (Dị ứng Penicillin): Erythromycin đường uống trong 10 ngày liên tục:<br>1) Trẻ &gt; 30 kg: 1 g/ngày.<br>2) Trẻ &lt; 30 kg: 40 mg/kg/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh diệt liên cầu là bắt buộc cho 100% bệnh nhân thấp tim dù cấy họng âm tính, nhằm loại bỏ hoàn toàn mầm mống liên cầu còn sót lại trong vòm họng.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lựa chọn 1 trong 3 phác đồ:<br>• Lựa chọn 1 (Ưu tiên): Benzathine Penicillin tiêm bắp sâu 1 liều duy nhất:<br>1) Trẻ &gt; 30 kg: 1.200.000 đơn vị (1,2 triệu UI).<br>2) Trẻ &lt; 30 kg: 600.000 đơn vị (0,6 triệu UI).<br>• Lựa chọn 2: Penicillin V đường uống trong 10 ngày liên tục:<br>1) Trẻ &gt; 30 kg: 0,5 g × 2 lần/ngày.<br>2) Trẻ &lt; 30 kg: 0,25 g × 2 lần/ngày.<br>• Lựa chọn 3 (Dị ứng Penicillin): Erythromycin đường uống trong 10 ngày liên tục:<br>1) Trẻ &gt; 30 kg: 1 g/ngày.<br>2) Trẻ &lt; 30 kg: 40 mg/kg/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Mọi bệnh nhân thấp tim đều được dùng kháng sinh diệt liên cầu, kể cả khi cấy họng âm tính, để loại bỏ liên cầu còn sót lại ở họng.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 140, Mục 8.2 - Bảng kháng sinh)",
         "tags": [
             "PED-51",
@@ -478,7 +478,7 @@ cards_data = [
         "category": "Chống viêm - Viêm khớp",
         "front": "Phác đồ thuốc chống viêm trong thể Viêm khớp đơn thuần (liều tấn công và liều duy trì) theo giáo trình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc lựa chọn: Aspirin (Acid Acetylsalicylic).<br>1) Liều tấn công: 100 mg/kg/24 giờ (chia 4 lần) uống trong 1 tuần.<br>2) Liều duy trì: Giảm xuống 75 mg/kg/24 giờ uống trong 2 - 6 tuần tiếp theo.<br>• Lưu ý: Theo dõi tác dụng phụ kích ứng dạ dày (dùng kèm thuốc bảo vệ dạ dày/PPI) và dấu hiệu ngộ độc Salicylate (ù tai, thở nhanh sâu).<br><br><b>💡 Giải thích của AI:</b><br>Trong viêm khớp đơn thuần, chỉ cần dùng Aspirin là đủ dập tắt viêm; không có chỉ định dùng Corticoid cho thể này.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.3 - Chống viêm)",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Hướng dẫn Úc 2020 (RHDAustralia) và AHA dùng aspirin 50–60 mg/kg/ngày, có thể tăng tới 80–100 mg/kg/ngày nếu cần, hoặc naproxen 10–20 mg/kg/ngày; thời gian dùng theo đáp ứng triệu chứng. Khi thi ghi liều barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.3 - Chống viêm)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -495,7 +495,7 @@ cards_data = [
         "category": "Chống viêm - Viêm tim nhẹ & vừa",
         "front": "Phác đồ thuốc chống viêm trong thể Viêm tim nhẹ và vừa theo giáo trình Y Thái Bình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giai đoạn tấn công: Dùng Prednisolon liều 1 - 2 mg/kg/24 giờ trong 2 tuần.<br>2) Giai đoạn duy trì: Giảm liều dần Prednisolon và phối hợp thêm Aspirin liều 75 mg/kg/24 giờ uống kéo dài 6 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Phối hợp 'gối đầu' Aspirin khi giảm liều Prednisolon giúp ngăn ngừa hiện tượng bùng phát phản ứng viêm trở lại (Rebound phenomenon) khi cắt Corticoid.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.3 - Chống viêm)",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Tổng quan Cochrane (Cilliers et al. 2015) chưa thấy corticoid hay aspirin làm giảm bệnh van tim về lâu dài; hướng dẫn hiện nay thường chỉ cân nhắc corticoid cho viêm tim nặng (suy tim). Khi thi trả lời phác đồ barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.3 - Chống viêm)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -529,7 +529,7 @@ cards_data = [
         "category": "Điều trị múa vờn",
         "front": "Chế độ chăm sóc và các thuốc điều trị triệu chứng Múa vờn Sydenham theo giáo trình?",
         "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Chế độ chăm sóc: Đặt trẻ ở phòng yên tĩnh, giảm tối đa các kích thích âm thanh và ánh sáng.<br>• Thuốc an thần điều trị triệu chứng (chọn 1 trong các thuốc):<br>1) Phenobarbital: Liều 5 mg/kg/24 giờ.<br>2) Haloperidol: Liều 0,01 - 0,03 mg/kg/24 giờ.<br>3) Có thể dùng Tegretol (Carbamazepin) hoặc Acid valproic.<br><br><b>💡 Giải thích của AI:</b><br>Múa vờn là bệnh tự khỏi sau vài tháng. Thuốc an thần chỉ có vai trò làm giảm biên độ múa giật giúp trẻ nghỉ ngơi, ăn uống và tránh chấn thương do quờ quạng.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.4 - Múa vờn)",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Hiện nay hay dùng acid valproic hoặc carbamazepin cho múa vờn nặng; haloperidol ít dùng hơn vì tác dụng phụ ngoại tháp.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.4 - Múa vờn)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -561,8 +561,8 @@ cards_data = [
         "section": "B10",
         "category": "Phòng thấp cấp II - Phác đồ",
         "front": "Phác đồ tiêm thuốc phòng thấp tái phát (Phòng thấp cấp II) về loại thuốc, liều lượng và chu kỳ tiêm?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc ưu tiên: Benzathine Penicillin tiêm bắp sâu (1,2 triệu UI cho trẻ &gt; 30 kg; 0,6 triệu UI cho trẻ &lt; 30 kg).<br>• Chu kỳ tiêm phòng:<br>1) Thông thường: Tiêm bắp sâu định kỳ 28 ngày / 1 lần (mỗi 4 tuần).<br>2) Bệnh nhân có viêm tim nặng: Tiêm định kỳ 21 ngày / 1 lần (mỗi 3 tuần).<br>• Phác đồ uống hàng ngày (nếu không tiêm được): Penicillin V: 200.000 đv × 2 lần/ngày, hoặc Erythromycin: 0,25 g/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Viêm tim nặng có nguy cơ tử vong rất cao nếu tái phát nên khoảng cách tiêm được rút ngắn xuống 21 ngày/lần để duy trì nồng độ kháng sinh bảo vệ liên tục trong máu.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2 - Phòng thấp cấp II)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thuốc ưu tiên: Benzathine Penicillin tiêm bắp sâu (1,2 triệu UI cho trẻ &gt; 30 kg; 0,6 triệu UI cho trẻ &lt; 30 kg).<br>• Chu kỳ tiêm phòng:<br>1) Thông thường: Tiêm bắp sâu định kỳ 28 ngày / 1 lần (mỗi 4 tuần).<br>2) Bệnh nhân có viêm tim nặng: Tiêm định kỳ 21 ngày / 1 lần (mỗi 3 tuần).<br>• Phác đồ uống hàng ngày (nếu không tiêm được): Penicillin V: 200.000 đv × 2 lần/ngày, hoặc Erythromycin: 0,25 g/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ penicillin sau tiêm benzathine giảm dần vào cuối tuần thứ 3–4; với viêm tim nặng, tái phát rất nguy hiểm nên rút ngắn còn 21 ngày/lần để giữ nồng độ bảo vệ.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> AHA 2009 (Gerber et al., Circulation 2009, PMID 19246689): benzathine penicillin G mỗi 4 tuần; mỗi 3 tuần cho nhóm nguy cơ cao hoặc tái phát dù đã tiêm đủ 4 tuần/lần. Liều 600.000 UI cho trẻ ≤ 27 kg, 1.200.000 UI cho trẻ > 27 kg (barem dùng mốc 30 kg).<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2 - Phòng thấp cấp II)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -578,8 +578,8 @@ cards_data = [
         "section": "B10",
         "category": "Thời gian phòng thấp cấp II",
         "front": "Quy định thời gian phòng thấp tái phát (Phòng thấp cấp II) đối với bệnh nhân chưa có di chứng và đã có di chứng van tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân CHƯA CÓ di chứng van tim: Phòng ít nhất 5 năm kể từ đợt thấp cuối cùng VÀ ít nhất đến năm 18 tuổi (tùy điều kiện nào dài hơn).<br>2) Bệnh nhân ĐÃ CÓ di chứng van tim: Phòng thấp suốt đời (ở Việt Nam theo khuyến cáo giáo trình là phòng ít nhất tới năm 45 tuổi).<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi trắc nghiệm: 'Chưa có di chứng: 5 năm VÀ đến 18 tuổi'; 'Đã có di chứng: suốt đời (ở VN tới 45 tuổi)'. Phải nhớ cả hai mốc này.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2 - Thời gian phòng)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân CHƯA CÓ di chứng van tim: Phòng ít nhất 5 năm kể từ đợt thấp cuối cùng VÀ ít nhất đến năm 18 tuổi (tùy điều kiện nào dài hơn).<br>2) Bệnh nhân ĐÃ CÓ di chứng van tim: Phòng thấp suốt đời (ở Việt Nam phòng tới 45 tuổi).<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi trắc nghiệm: 'Chưa có di chứng: 5 năm VÀ đến 18 tuổi'; 'Đã có di chứng: suốt đời (ở VN tới 45 tuổi)'. Phải nhớ cả hai mốc này.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> AHA 2009 (Gerber et al., Circulation 2009, PMID 19246689) phân tầng: không viêm tim → 5 năm hoặc tới 21 tuổi; viêm tim không để lại bệnh van → 10 năm hoặc tới 21 tuổi; viêm tim để lại bệnh van → 10 năm hoặc tới 40 tuổi, có khi suốt đời (chọn mốc dài hơn). Khi thi ghi mốc barem (5 năm và tới 18 tuổi / suốt đời, VN tới 45 tuổi).<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2 - Thời gian phòng)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -595,7 +595,7 @@ cards_data = [
         "section": "B10",
         "category": "Xử trí nhỡ thuốc phòng thấp",
         "front": "Lời khuyên và xử trí cho bệnh nhân khi bị nhỡ hẹn tiêm phòng thấp cấp II theo giáo trình?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khuyên bệnh nhân nếu không thể đến tiêm phòng đúng hạn thì nên đến tiêm phòng sớm hơn vài ngày.<br>• Nếu đã bị nhỡ mũi tiêm: Bắt buộc phải uống thuốc phòng (Penicillin V hoặc Erythromycin) vào những ngày nhỡ thuốc tiêm cho đến khi được tiêm lại.<br>• Nhân viên y tế phải thường xuyên động viên, giải thích để gia đình và bệnh nhân tuân thủ tiêm phòng đầy đủ, không được tự ý bỏ thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Bỏ sót mũi tiêm là nguyên nhân hàng đầu dẫn đến tái phát đợt thấp cấp, làm tổn thương van tim tiến triển nặng nề hơn.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khuyên bệnh nhân nếu không thể đến tiêm phòng đúng hạn thì nên đến tiêm phòng sớm hơn vài ngày.<br>• Nếu đã bị nhỡ mũi tiêm: Uống thuốc phòng (Penicillin V hoặc Erythromycin) vào những ngày nhỡ thuốc tiêm cho đến khi được tiêm lại.<br>• Nhân viên y tế phải thường xuyên động viên, giải thích để gia đình và bệnh nhân tuân thủ tiêm phòng đầy đủ, không được tự ý bỏ thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Bỏ sót mũi tiêm là nguyên nhân hàng đầu dẫn đến tái phát đợt thấp cấp, làm tổn thương van tim tiến triển nặng nề hơn.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2 - Lưu ý)",
         "tags": [
             "PED-51",
@@ -611,7 +611,7 @@ cards_data = [
         "section": "B11",
         "category": "Bẫy thi - Viêm khớp vs Viêm tim",
         "front": "So sánh sự khác biệt cơ bản về tiên lượng và di chứng giữa tổn thương Viêm khớp và Viêm tim trong Thấp tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm khớp:<br>1) Rất rầm rộ, sưng đau dữ dội, di chuyển.<br>2) Tự khỏi trong 2 - 4 tuần, đáp ứng tức thì với Aspirin.<br>3) Tiên lượng cực tốt: Khỏi hoàn toàn 100%, tuyệt đối KHÔNG để lại bất kỳ di chứng nào.<br>• Viêm tim:<br>1) Khởi phát có thể âm thầm, triệu chứng cơ năng không rầm rộ như khớp.<br>2) Tiến triển phức tạp, nguy cơ tử vong do suy tim cấp.<br>3) Tiên lượng xấu: Là tổn thương duy nhất để lại di chứng vĩnh viễn (Bệnh van tim hậu thấp mạn tính).<br><br><b>💡 Giải thích của AI:</b><br>Khớp 'khóc ngoài da' nhưng lành lặn; tim 'khóc thầm lặng' nhưng để lại sẹo suốt đời.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm khớp:<br>1) Rất rầm rộ, sưng đau dữ dội, di chuyển.<br>2) Tự khỏi sau <span style=\"color:#ffd43b\">5 - 15 ngày</span> (không quá <span style=\"color:#ffd43b\">4 tuần</span>), đáp ứng nhanh với Aspirin/salicylat hoặc corticoid.<br>3) Tiên lượng tốt: Không để lại di chứng teo cơ hay cứng khớp.<br>• Viêm tim:<br>1) Khởi phát có thể âm thầm, triệu chứng cơ năng không rầm rộ như khớp.<br>2) Tiến triển phức tạp, nguy cơ tử vong do suy tim cấp.<br>3) Tiên lượng xấu: Là tổn thương để lại di chứng van tim (Bệnh van tim hậu thấp mạn tính).<br><br><b>💡 Giải thích của AI:</b><br>Khớp 'khóc ngoài da' nhưng thường lành lặn; tim 'khóc thầm lặng' và có thể để lại sẹo van suốt đời.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138 - 139)",
         "tags": [
             "PED-51",
@@ -659,7 +659,7 @@ cards_data = [
         "section": "B1",
         "category": "Căn nguyên vi sinh",
         "front": "Vì sao tỷ lệ cấy dịch họng tìm liên cầu khuẩn thường rất thấp (chỉ khoảng 20%) khi bệnh nhân vào viện vì Thấp tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khoảng thời gian tiềm tàng (thời kỳ ủ bệnh tự miễn): Thấp tim thường xuất hiện sau đợt viêm họng liên cầu từ 2 đến 4 tuần.<br>• Tại thời điểm xuất hiện các triệu chứng thấp tim ở khớp và tim, vi khuẩn liên cầu ở niêm mạc họng đa số đã bị hệ miễn dịch của cơ thể đào thải hoặc bệnh nhân đã tự dùng kháng sinh trước đó.<br>• Do đó, xét nghiệm huyết thanh tìm kháng thể (ASLO, Anti-DNase B) có giá trị chẩn đoán hồi cứu cao hơn nhiều so với cấy họng.<br><br><b>💡 Giải thích của AI:</b><br>Cấy họng âm tính KHÔNG loại trừ thấp tim; một kết quả cấy họng âm tính là hoàn toàn bình thường trong đợt thấp tim cấp.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Khoảng thời gian tiềm tàng (thời kỳ ủ bệnh tự miễn): Thấp tim xuất hiện <span style=\"color:#ffd43b\"><b>vài tuần</b></span> sau viêm họng liên cầu (barem: thường có viêm họng trước đó <span style=\"color:#ffd43b\"><b>1 - 2 tuần</b></span>).<br>• Tại thời điểm xuất hiện các triệu chứng thấp tim ở khớp và tim, vi khuẩn liên cầu ở niêm mạc họng đa số đã bị hệ miễn dịch của cơ thể đào thải hoặc bệnh nhân đã tự dùng kháng sinh trước đó.<br>• Do đó, xét nghiệm huyết thanh tìm kháng thể (ASLO, Anti-DNase B) có giá trị chẩn đoán hồi cứu cao hơn nhiều so với cấy họng.<br><br><b>💡 Giải thích của AI:</b><br>Cấy họng âm tính KHÔNG loại trừ thấp tim; cấy họng âm tính thường gặp trong đợt thấp tim cấp. Ngoài barem: thời gian tiềm tàng trung bình khoảng 3 tuần (1–5 tuần).",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 137, 139)",
         "tags": [
             "PED-51",
@@ -670,12 +670,12 @@ cards_data = [
     },
     {
         "id": "PED51-B42",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B4",
         "category": "Viêm tim",
         "front": "Dấu hiệu 'Nhịp tim nhanh không tương xứng với nhiệt độ sốt' trong Viêm cơ tim do thấp có ý nghĩa lâm sàng gì?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Quy luật sinh lý: Khi sốt, thông thường nhiệt độ tăng 1°C thì tần số tim chỉ tăng khoảng 10 nhịp/phút.<br>• Trong Viêm cơ tim do thấp: Nhịp tim nhanh vượt trội so với mức độ sốt (ví dụ sốt nhẹ 37,8°C nhưng nhịp tim lên tới 130 - 140 chu kỳ/phút).<br>• Đặc điểm then chốt: Nhịp tim nhanh VẪN DUY TRÌ KHI TRẺ NGỦ HOẶC NGHỈ NGƠI HOÀN TOÀN.<br><br><b>💡 Giải thích của AI:</b><br>Nhịp tim nhanh khi ngủ là dấu hiệu lâm sàng sớm và cực kỳ nhạy chỉ điểm cơ tim đang bị tổn thương viêm hoạt động.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Quy luật sinh lý: Khi sốt, thông thường nhiệt độ tăng 1°C thì tần số tim chỉ tăng khoảng 10 nhịp/phút.<br>• Trong Viêm cơ tim do thấp: Nhịp tim nhanh vượt trội so với mức độ sốt (ví dụ sốt nhẹ 37,8°C nhưng nhịp tim lên tới 130 - 140 chu kỳ/phút).<br>• Đặc điểm then chốt: Nhịp tim nhanh VẪN DUY TRÌ KHI TRẺ NGỦ HOẶC NGHỈ NGƠI HOÀN TOÀN.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: nhịp tim nhanh không tương xứng với sốt, còn tồn tại khi ngủ, gợi ý viêm cơ tim; cần khám tim và siêu âm tim. Barem chỉ ghi \"nhịp tim nhanh\" trong biểu hiện viêm tim.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, Mục 5.2)",
         "tags": [
             "PED-51",
@@ -686,7 +686,7 @@ cards_data = [
     },
     {
         "id": "PED51-B43",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B4",
         "category": "Viêm tim",
@@ -707,7 +707,7 @@ cards_data = [
         "section": "B8",
         "category": "Chẩn đoán phân biệt",
         "front": "Phân biệt Viêm khớp tự phát thiếu niên (JIA / Viêm đa khớp dạng thấp thiếu niên) với Viêm khớp do Thấp tim?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm khớp tự phát thiếu niên (JIA):<br>1) Vị trí: Thường viêm các khớp nhỏ bàn ngón tay, ngón chân đối xứng, hoặc khớp háng, cột sống cổ.<br>2) Tính chất: Viêm khớp CỐ ĐỊNH, kéo dài trên 6 tuần.<br>3) Có dấu hiệu cứng khớp buổi sáng kéo dài &gt; 30 - 60 phút.<br>4) Đáp ứng kém hoặc chậm với Aspirin.<br>5) Nguy cơ teo cơ, dính khớp và biến dạng khớp vĩnh viễn.<br>• Viêm khớp do thấp: Viêm khớp nhỡ, di chuyển, tự khỏi trong 2 - 4 tuần, đáp ứng tức thì với Aspirin trong 24 - 48 giờ, không bao giờ để lại di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Thời gian viêm khớp &gt; 6 tuần và tổn thương khớp nhỏ bàn tay là 2 đặc điểm loại trừ chắc chắn thấp tim.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Viêm khớp tự phát thiếu niên (JIA):<br>1) Vị trí: Thể ít khớp hay gặp nhất, thường ở khớp lớn (khớp gối); thể đa khớp có thể viêm đối xứng cả khớp nhỏ bàn ngón tay.<br>2) Tính chất: Viêm khớp cố định (không di chuyển), kéo dài ≥ 6 tuần.<br>3) Hay có cứng khớp buổi sáng.<br>4) Đáp ứng kém hoặc chậm với Aspirin.<br>5) Nguy cơ teo cơ, dính khớp và biến dạng khớp vĩnh viễn.<br>• Viêm khớp do thấp: Viêm khớp nhỡ, di chuyển, tự khỏi sau 5 - 15 ngày (không quá 4 tuần), đáp ứng nhanh với salicylat, không để lại di chứng teo cơ, cứng khớp.<br><br><b>💡 Giải thích của AI:</b><br>Viêm khớp cố định kéo dài ≥ 6 tuần là dấu hiệu gợi ý mạnh JIA, rất không điển hình cho thấp tim. Barem (7.2.1) chỉ ghi tên \"viêm đa khớp dạng thấp\" trong nhóm bệnh có sốt và đau khớp; các đặc điểm phân biệt ở trên là Ngoài barem.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, 140, Mục 7.2.1)",
         "tags": [
             "PED-51",
@@ -723,7 +723,7 @@ cards_data = [
         "section": "B8",
         "category": "Chẩn đoán phân biệt",
         "front": "Phân biệt Múa vờn Sydenham do thấp với Múa giật Huntington và Hội chứng Tourette?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Múa giật Huntington:<br>1) Bệnh di truyền trội trên nhiễm sắc thể thường, có tính chất gia đình rõ rệt.<br>2) Thường khởi phát ở tuổi trưởng thành (30 - 50 tuổi).<br>3) Đi kèm sa sút trí tuệ tiến triển không hồi phục.<br>• Hội chứng Tourette: Là các tật máy giật cơ (Tic) vận động và phát âm vô thức định hình lặp đi lặp lại (nháy mắt, lắc đầu, chép miệng, văng tục), không phải múa vờn biên độ rộng.<br>• Múa vờn Sydenham: Xuất hiện sau viêm họng liên cầu, tự khỏi sau vài tháng, trí tuệ hồi phục hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Múa vờn Sydenham có tính chất lành tính tự thoái lui (Self-limiting), trong khi Huntington là bệnh lý thoái hóa thần kinh tiến triển tử vong.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>Theo barem: múa vờn Huntington và co giật Gilles de la Tourette <span style=\"color:#74c0fc\"><b>có tính gia đình</b></span>, thường <span style=\"color:#ff6b6b\"><b>kèm kém phát triển trí tuệ</b></span>.<br>Chi tiết (Ngoài barem):<br>• Múa giật Huntington:<br>1) Bệnh di truyền trội trên nhiễm sắc thể thường, có tính chất gia đình rõ rệt.<br>2) Thường khởi phát ở tuổi trưởng thành (30 - 50 tuổi).<br>3) Đi kèm sa sút trí tuệ tiến triển không hồi phục.<br>• Hội chứng Tourette: Là các tật máy giật cơ (Tic) vận động và phát âm vô thức định hình lặp đi lặp lại (nháy mắt, lắc đầu, chép miệng, văng tục), không phải múa vờn biên độ rộng.<br>• Múa vờn Sydenham: Xuất hiện sau viêm họng liên cầu, tự khỏi sau vài tháng, trí tuệ hồi phục hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Múa vờn Sydenham có tính chất lành tính tự thoái lui (Self-limiting), trong khi Huntington là bệnh lý thoái hóa thần kinh tiến triển tử vong.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 140, Mục 7.2.4)",
         "tags": [
             "PED-51",
@@ -734,7 +734,7 @@ cards_data = [
     },
     {
         "id": "PED51-B46",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B9",
         "category": "Điều trị - Lưu ý an toàn",
@@ -750,12 +750,12 @@ cards_data = [
     },
     {
         "id": "PED51-B47",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B9",
         "category": "Điều trị - Lưu ý an toàn",
         "front": "Nguyên tắc giảm liều Corticoid và phối hợp Aspirin trong điều trị Viêm tim do thấp để phòng ngừa hiện tượng 'bùng phát viêm' (Rebound)?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hiện tượng bùng phát (Rebound phenomenon): Khi cắt đột ngột Corticoid, các triệu chứng sốt, viêm khớp, máu lắng và CRP có thể tăng vọt trở lại.<br>• Nguyên tắc phối hợp phòng ngừa:<br>1) Sau giai đoạn tấn công Prednisolon (2 - 3 tuần), giảm liều dần mỗi tuần 5 mg.<br>2) Phải gối đầu thêm Aspirin liều duy trì 75 mg/kg/ngày trước khi ngừng hẳn Prednisolon và tiếp tục duy trì Aspirin thêm 4 - 6 tuần.<br><br><b>💡 Giải thích của AI:</b><br>Chiến lược 'bắc cầu' Aspirin đảm bảo dập tắt triệt để các ổ viêm vi thể còn sót lại sau khi hệ miễn dịch bị cắt Corticoid.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hiện tượng bùng phát (Rebound phenomenon): Khi cắt đột ngột Corticoid, các triệu chứng sốt, viêm khớp, máu lắng và CRP có thể tăng vọt trở lại.<br>• Nguyên tắc phối hợp phòng ngừa:<br>1) Sau giai đoạn tấn công Prednisolon (2 tuần với viêm tim nhẹ/vừa, 3 tuần với viêm tim nặng), <span style=\"color:#74c0fc\"><b>giảm liều dần</b></span>, không ngừng đột ngột.<br>2) Phối hợp thêm <span style=\"color:#51cf66\"><b>Aspirin 75 mg/kg/24 giờ</b></span> khi giảm liều Prednisolon, duy trì <span style=\"color:#ffd43b\"><b>6 tuần</b></span> (theo barem).<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: tốc độ giảm liều corticoid cụ thể khác nhau giữa các phác đồ; barem chỉ ghi \"giảm liều prednisolon và cho aspirin\".",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 8.3)",
         "tags": [
             "PED-51",
@@ -766,13 +766,13 @@ cards_data = [
     },
     {
         "id": "PED51-B48",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B10",
         "category": "Phòng bệnh thứ phát",
         "front": "Khoảng thời gian nào có nguy cơ tái phát đợt Thấp tim cao nhất và tại sao việc phòng thấp thứ phát phải cực kỳ nghiêm ngặt trong giai đoạn này?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguy cơ tái phát cao nhất: Trong 2 đến 3 năm đầu tiên kể từ đợt thấp cấp cuối cùng.<br>• Lý do cần phòng thấp nghiêm ngặt: Mỗi đợt thấp tim tái phát sẽ làm van tim bị tổn thương thêm một bậc (tổn thương chồng chất), đẩy nhanh quá trình xơ hóa, biến một tổn thương hở van nhẹ thành hẹp/hở van nặng gây suy tim không hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ đã bị thấp tim có độ mẫn cảm miễn dịch cao hơn người bình thường gấp nhiều lần nếu tái nhiễm liên cầu, vì vậy bảo vệ 2 - 3 năm đầu bằng Penicillin tiêm định kỳ là quyết định sống còn.",
-        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2)",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Nguy cơ tái phát cao nhất trong những năm đầu sau đợt thấp cấp (giảm dần theo thời gian), nên phòng thấp ít nhất 5 năm.<br>• Lý do cần phòng thấp nghiêm ngặt: Mỗi đợt thấp tim tái phát sẽ làm van tim bị tổn thương thêm một bậc (tổn thương chồng chất), đẩy nhanh quá trình xơ hóa, biến một tổn thương hở van nhẹ thành hẹp/hở van nặng gây suy tim không hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Người đã bị thấp tim có nguy cơ tái phát cao hơn nhiều khi nhiễm lại liên cầu, kể cả viêm họng không triệu chứng. Đây là lý do của phòng thấp cấp II.",
+        "extra": "📖 Nguồn bổ sung: AHA 2009 (Gerber et al., Circulation 2009, PMID 19246689)<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 141, Mục 9.2)",
         "tags": [
             "PED-51",
             "Barem-goc",
@@ -782,12 +782,12 @@ cards_data = [
     },
     {
         "id": "PED51-B49",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B11",
         "category": "Bẫy thi - Các thể đặc biệt",
         "front": "Giải thích vì sao bệnh nhân Múa vờn Sydenham đơn độc thường có các xét nghiệm viêm (máu lắng, CRP) và ASLO âm tính bình thường?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thời gian khởi phát: Múa vờn Sydenham xuất hiện rất muộn, từ 2 đến 6 tháng sau đợt viêm họng liên cầu (thời kỳ ủ bệnh dài nhất trong các triệu chứng).<br>• Tại thời điểm trẻ xuất hiện múa giật, phản ứng viêm cấp tính toàn thân đã thoái lui hoàn toàn (máu lắng và CRP về bình thường) và hiệu giá kháng thể ASLO trong máu cũng đã giảm về mức giới hạn bình thường.<br>• Vì vậy, cấm loại trừ chẩn đoán thấp tim khi thấy một trẻ có múa vờn đơn độc nhưng xét nghiệm viêm bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lý do Tổ chức Y tế Thế giới và tiêu chuẩn Jones coi Múa vờn Sydenham là một ngoại lệ chẩn đoán: có múa vờn là đủ kết luận Thấp tim mà không cần bất kỳ bằng chứng xét nghiệm nào khác.",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thời gian khởi phát: Múa vờn Sydenham xuất hiện rất muộn, từ 2 đến 6 tháng sau đợt viêm họng liên cầu (thời kỳ ủ bệnh dài nhất trong các triệu chứng).<br>• Tại thời điểm trẻ xuất hiện múa giật, phản ứng viêm cấp tính toàn thân đã thoái lui hoàn toàn (máu lắng và CRP về bình thường) và hiệu giá ASLO có thể đã về bình thường (anti-DNase B thường tồn tại lâu hơn).<br>• Vì vậy, không được loại trừ chẩn đoán thấp tim khi thấy một trẻ có múa vờn đơn độc nhưng xét nghiệm viêm bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lý do Tổ chức Y tế Thế giới và tiêu chuẩn Jones coi Múa vờn Sydenham là một ngoại lệ chẩn đoán: có múa vờn (sau khi loại trừ nguyên nhân khác) là đủ kết luận thấp tim, không cần thêm tiêu chuẩn khác hay bằng chứng nhiễm liên cầu.",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, 140)",
         "tags": [
             "PED-51",
@@ -798,12 +798,12 @@ cards_data = [
     },
     {
         "id": "PED51-B50",
-        "track": "barem_goc",
+        "track": "ebm",
         "type": "basic",
         "section": "B11",
         "category": "Bẫy thi - Bệnh van tim",
         "front": "Các di chứng tổn thương van tim hậu thấp hay gặp nhất theo thứ tự tần suất là gì? Van nào bị tổn thương nhiều nhất?",
-        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Van hai lá: Tổn thương hay gặp nhất (chiếm 70 - 80% các trường hợp, thường gặp hở van hai lá trong đợt cấp và hẹp van hai lá sau nhiều năm xơ hóa).<br>2) Van động mạch chủ: Đứng thứ hai (chiếm khoảng 20 - 30%, thường phối hợp với tổn thương van hai lá).<br>3) Van ba lá: Hiếm gặp (&lt; 5%), thường đi kèm tổn thương van hai lá và van động mạch chủ.<br>4) Van động mạch phổi: Cực kỳ hiếm khi bị tổn thương do thấp tim.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc ghi nhớ: Van tim chịu áp lực dòng máu càng lớn thì tỷ lệ tổn thương do thấp tim càng cao (Van hai lá &gt; Van động mạch chủ &gt; Van ba lá &gt; Van động mạch phổi).",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Van hai lá: Bị tổn thương nhiều nhất, gần như luôn có mặt (đơn độc hoặc phối hợp); hở hai lá trong đợt cấp, hẹp hai lá sau nhiều năm xơ hóa.<br>2) Van động mạch chủ: Đứng thứ hai, thường phối hợp với tổn thương van hai lá.<br>3) Van ba lá: Ít gặp, thường đi kèm tổn thương van hai lá và van động mạch chủ.<br>4) Van động mạch phổi: Cực kỳ hiếm khi bị tổn thương do thấp tim.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc ghi nhớ: Van tim chịu áp lực dòng máu càng lớn thì tỷ lệ tổn thương do thấp tim càng cao (Van hai lá &gt; Van động mạch chủ &gt; Van ba lá &gt; Van động mạch phổi).",
         "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 137, 138)",
         "tags": [
             "PED-51",
@@ -811,5 +811,51 @@ cards_data = [
             "Van-tim",
             "Hau-thap"
         ]
-    }
+    },
+    {
+        "id": "PED51-B51",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B0",
+        "category": "Dịch tễ học",
+        "front": "Dịch tễ học của <span style=\"color:#ff6b6b\"><b>thấp tim</b></span> theo barem: số mắc/tử vong toàn cầu, tuổi hay gặp, mùa và tần suất mắc?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Toàn cầu (WHO): khoảng <span style=\"color:#ffd43b\"><b>20 triệu</b></span> ca mới mắc bệnh thấp mỗi năm và <span style=\"color:#ffd43b\"><b>5 triệu</b></span> trẻ chết vì thấp tim.<br>• Tuổi hay gặp: <span style=\"color:#ffd43b\"><b>5 - 15 tuổi</b></span>, nhiều nhất là <span style=\"color:#ffd43b\"><b>8 tuổi</b></span>.<br>• Mùa: gặp nhiều hơn về <span style=\"color:#74c0fc\"><b>mùa lạnh</b></span>, đặc biệt lạnh ẩm của mùa xuân.<br>• Tần suất: nước phát triển <span style=\"color:#ffd43b\"><b>0,2/100.000 trẻ/năm</b></span>; nước đang phát triển <span style=\"color:#ffd43b\"><b>140/100.000 trẻ/năm</b></span>; Việt Nam <span style=\"color:#ffd43b\"><b>3,94/1.000 trẻ/năm</b></span>.",
+        "extra": "<b>⚖️ Đối chiếu (Ngoài barem):</b> Số liệu barem đã cũ. Gánh nặng bệnh tật toàn cầu GBD 2019 (Roth et al., JACC 2020) ước tính khoảng 40 triệu người mắc bệnh tim do thấp và khoảng 300.000 ca tử vong mỗi năm. Khi thi ghi số liệu barem.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 135, Mục 1.3)",
+        "tags": [
+            "PED-51",
+            "Barem-goc",
+            "Dich-te"
+        ]
+    },
+    {
+        "id": "PED51-B52",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B1",
+        "category": "Căn nguyên",
+        "front": "Đặc điểm vi khuẩn học của <span style=\"color:#ff6b6b\"><b>liên cầu khuẩn β tan huyết nhóm A</b></span>: hình thái, nuôi cấy, cấu tạo vỏ và các men?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Hình thái: cầu khuẩn <span style=\"color:#74c0fc\"><b>Gram (+)</b></span>, xếp thành <span style=\"color:#74c0fc\"><b>chuỗi</b></span>, không di động, đường kính <span style=\"color:#ffd43b\"><b>0,6 - 1</b></span> (barem ghi mm).<br>• Nuôi cấy: hiếu khí và kỵ khí, cần nhiều dinh dưỡng; trên <span style=\"color:#51cf66\"><b>thạch máu</b></span> gây tan máu.<br>• Cấu tạo vỏ: <span style=\"color:#74c0fc\"><b>acid hyaluronic</b></span>; <span style=\"color:#74c0fc\"><b>protein M</b></span> và protein T, P, R...<br>• Các men: <span style=\"color:#74c0fc\"><b>streptolysin O</b></span>, streptokinase (làm tan huyết khối), streptodornase (DNASE) và hyaluronidase.<br><br><b>💡 Giải thích của AI:</b><br>Protein M là yếu tố độc lực chính và có cấu trúc giống protein mô tim (cơ chế bắt chước phân tử). Kháng thể kháng streptolysin O chính là ASLO.",
+        "extra": "<b>⚖️ Đối chiếu:</b> Đơn vị đúng của đường kính liên cầu là µm (0,6–1 µm); \"mm\" trong barem là lỗi in.<br>📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 135, Mục 2.1)",
+        "tags": [
+            "PED-51",
+            "Barem-goc",
+            "Lien-cau-A",
+            "Vi-khuan-hoc"
+        ]
+    },
+    {
+        "id": "PED51-B53",
+        "track": "barem_goc",
+        "type": "basic",
+        "section": "B3",
+        "category": "Lâm sàng",
+        "front": "Biểu hiện khởi đầu chung (trước các triệu chứng chính) của <span style=\"color:#ff6b6b\"><b>thấp tim</b></span> theo barem?",
+        "back": "<b>🎯 Trả lời cốt lõi:</b><br>• Thường có <span style=\"color:#ff6b6b\"><b>viêm họng</b></span> trước đó <span style=\"color:#ffd43b\"><b>1 - 2 tuần</b></span>.<br>• Sốt nhẹ hoặc sốt cao.<br>• Mệt mỏi, ăn uống kém.<br>• Có thể ho, đau ngực.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: thời gian tiềm tàng từ viêm họng tới thấp tim trung bình khoảng 3 tuần (1–5 tuần); nhiều trẻ không nhớ có viêm họng.",
+        "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình (Trang 138, Mục 5)",
+        "tags": [
+            "PED-51",
+            "Barem-goc",
+            "Lam-sang"
+        ]
+    },
 ]

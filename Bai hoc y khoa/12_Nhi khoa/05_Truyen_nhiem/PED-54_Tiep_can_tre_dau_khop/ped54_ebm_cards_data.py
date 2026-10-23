@@ -81,8 +81,8 @@ cards_data = [
         "type": "cloze",
         "section": "EBM_Kocher",
         "category": "5 Tiêu chuẩn Kocher cải tiến",
-        "text": "5 tiêu chuẩn trong Thang điểm Kocher cải tiến phân biệt Viêm khớp nhiễm khuẩn háng gồm: (1) Sốt > 38.5°C; (2) {{c1::Không thể tỳ đè bước đi}}; (3) ESR > 40 mm/h; (4) {{c1::WBC > 12.000/µL}}; (5) {{c1::CRP > 20 mg/L}}.",
-        "extra": "CRP > 20 mg/L là chỉ số xét nghiệm độc lập có độ nhạy và độ đặc hiệu cao nhất.",
+        "text": "Thang điểm Kocher gốc (4 tiêu chuẩn) phân biệt Viêm khớp nhiễm khuẩn háng gồm: (1) Sốt > 38,5°C; (2) {{c1::Không thể tỳ đè bước đi}}; (3) {{c1::ESR ≥ 40 mm/h}}; (4) {{c1::WBC > 12.000/µL}}. Kocher-Caird cải tiến thêm (5) {{c1::CRP > 20 mg/L}}.",
+        "extra": "📖 Nguồn: Kocher MS et al., J Bone Joint Surg Am 2004 (validation); Caird MS et al., J Bone Joint Surg Am 2006 (thêm CRP). ⚖️ Đối chiếu: CRP không nằm trong thang điểm gốc.",
         "tags": [
             "PED-54",
             "EBM-Update",
@@ -95,8 +95,8 @@ cards_data = [
         "type": "cloze",
         "section": "EBM_Kocher",
         "category": "Xác suất theo điểm Kocher",
-        "text": "Trong thang điểm Kocher: trẻ thỏa mãn 3 tiêu chuẩn có xác suất Viêm khớp nhiễm khuẩn khoảng {{c1::93%}}, và thỏa mãn 4-5 tiêu chuẩn có xác suất lên tới {{c1::99%}}.",
-        "extra": "Nếu đạt ≥ 3 điểm, bắt buộc chỉ định chọc hút dịch khớp háng khẩn cấp.",
+        "text": "Trong thang điểm Kocher: 3 tiêu chuẩn có xác suất Viêm khớp nhiễm khuẩn khoảng {{c1::73–93%}} (tùy nghiên cứu: 93% trong phát hiện gốc 1999, 73% trong validation 2004), và 4 tiêu chuẩn khoảng {{c1::93–99%}}.",
+        "extra": "Ước lượng xác suất thay đổi theo nghiên cứu và tần suất bệnh; không dùng con số đơn lẻ để kết luận. Nếu ≥ 3 điểm, cần hội chẩn chỉnh hình và cân nhắc chọc hút dịch khớp háng dưới hướng dẫn hình ảnh.",
         "tags": [
             "PED-54",
             "EBM-Update",
@@ -123,8 +123,8 @@ cards_data = [
         "type": "cloze",
         "section": "EBM_DichKhop",
         "category": "Bạch cầu dịch khớp nhiễm khuẩn",
-        "text": "Xét nghiệm dịch khớp khẳng định Viêm khớp nhiễm khuẩn khi số lượng bạch cầu thường {{c1::> 50.000/µL}} (thường > 100.000/µL) với tỷ lệ bạch cầu đa nhân trung tính (PMN) {{c1::≥ 75%}}.",
-        "extra": "Dịch khớp có màu đục ngầu như mủ hoặc sữa đục, nồng độ glucose dịch khớp giảm sâu.",
+        "text": "Dịch khớp nhiễm khuẩn điển hình có bạch cầu {{c1::> 50.000/µL}} với bạch cầu đa nhân trung tính (PMN) {{c1::> 75–90%}}; ngưỡng này chồng lấp với viêm Lyme và viêm khớp hệ thống, nên không dùng đơn lẻ để loại trừ.",
+        "extra": "Dịch khớp có thể đục như mủ. Bạch cầu có thể dao động rộng (Lyme thường 20.000–60.000/µL; nhiễm khuẩn sớm hoặc đã dùng kháng sinh có thể < 50.000/µL).",
         "tags": [
             "PED-54",
             "EBM-Update",
@@ -136,7 +136,7 @@ cards_data = [
         "type": "cloze",
         "section": "EBM_ViKhuan",
         "category": "Căn nguyên vi khuẩn hàng đầu",
-        "text": "Vi khuẩn sinh mủ hàng đầu gây Viêm khớp nhiễm khuẩn ở trẻ em trên 3 tháng tuổi là {{c1::Staphylococcus aureus (Tụ cầu vàng)}}, tiếp theo là {{c1::Streptococcus pyogenes}} và Kingella kingae.",
+        "text": "Vi khuẩn sinh mủ hàng đầu gây Viêm khớp nhiễm khuẩn ở trẻ em trên 3 tháng tuổi là {{c1::Staphylococcus aureus (Tụ cầu vàng)}}, tiếp theo là {{c1::Streptococcus pyogenes}}; Kingella kingae là tác nhân hàng đầu ở trẻ 6–36 tháng.",
         "extra": "Ở trẻ vị thành niên có hoạt động tình dục, luôn cảnh giác vi khuẩn lậu Neisseria gonorrhoeae.",
         "tags": [
             "PED-54",

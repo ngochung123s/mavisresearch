@@ -1,18 +1,21 @@
 {
-  "code": "PED-52",
+  "id": "PED-52",
+  "specialty": "nhi",
   "deck_name": "Nhi khoa Y6::PED-52: Đánh giá & Xử trí bệnh nhân nặng",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-19T22:02:43",
+  "generated_at": "2026-10-23T22:12:01",
   "cards_source": "ped52_cards_data.py",
-  "cards_source_sha256": "44dde7013f001994a56fc507676a127b4298a85b1b64e2c07160a31deafc2228",
-  "card_count": 89,
+  "cards_source_sha256": "3b87b88625410f35e1100ea56768681a65846ca814b3e4543be1fabbaf7f6015",
+  "card_count": 96,
   "summary": {
     "block": 0,
-    "debt": 66,
+    "debt": 74,
     "warn": 1,
     "by_code": {
       "G_ALGO_COUNT": 1,
+      "G_ASKS_MISSING": 3,
+      "G_BACK_STRUCTURE": 5,
       "G_COLOR_BACK": 27,
       "G_COLOR_FRONT": 27,
       "G_PARTIAL_CLOZE": 11,
@@ -339,6 +342,12 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED52-B68",
+      "message": "🎯 chia mục theo khía cạnh («Chẩn đoán», «Điều trị cấp cứu») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_COLOR_FRONT",
       "card_id": "PED52-B74",
       "message": "Front không có màu palette",
@@ -369,6 +378,12 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED52-B79",
+      "message": "🎯 chia mục theo khía cạnh («Dấu hiệu», «Xử trí») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_PARTIAL_CLOZE",
       "card_id": "PED52-B81",
       "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Nếu trẻ có tri giác giảm hoặc co giật, cần nghĩ đến viêm màng não hoặc viêm não và chỉ định ngay ⟦CLOZE⟧ hoặc ⟦CLOZE⟧ .»",
@@ -393,6 +408,12 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED52-B84",
+      "message": "🎯 chia mục theo khía cạnh («Điều trị cấp cứu») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_COLOR_FRONT",
       "card_id": "PED52-B87",
       "message": "Front không có màu palette",
@@ -411,6 +432,36 @@
       "severity": "DEBT"
     },
     {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED52-B92",
+      "message": "thiếu 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED52-B93",
+      "message": "thiếu 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED52-B94",
+      "message": "thiếu 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED52-B95",
+      "message": "thiếu 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_BACK_STRUCTURE",
+      "card_id": "PED52-B96",
+      "message": "thiếu 💡 Giải thích của AI",
+      "severity": "DEBT"
+    },
+    {
       "code": "G_ALGO_COUNT",
       "card_id": "*",
       "message": "chỉ 0 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
@@ -423,16 +474,17 @@
       "severity": "WARN"
     }
   ],
-  "apkg": "PED-52_Danh_gia_va_xu_tri_benh_nhan_nang_MASTER_v1.apkg",
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\01_Hoi_suc_Cap_cuu_Ngo_doc\\PED-52_Danh_gia_va_xu_tri_benh_nhan_nang\\PED-52_Danh_gia_va_xu_tri_benh_nhan_nang_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
-    "unchanged": 87,
-    "added": 2,
-    "archived": 2,
+    "updated": 9,
+    "unchanged": 80,
+    "added": 7,
+    "archived": 0,
     "moved": 0,
-    "deck_notes": 89
+    "media": 0,
+    "deck_notes": 96
   },
-  "apkg_sha256": "69aceed61c7a8aa73be2538b3268c81ec60379fd7e9c5fe2aa0f9e15f4357d1f",
-  "sqlite_notes": 89,
-  "sqlite_cards": 89
+  "apkg_sha256": "d5564523f2daa5cc2407162b30f17c09c8cf0d7664cc6565a31370a43eef8510",
+  "sqlite_notes": 96,
+  "sqlite_cards": 96
 }
