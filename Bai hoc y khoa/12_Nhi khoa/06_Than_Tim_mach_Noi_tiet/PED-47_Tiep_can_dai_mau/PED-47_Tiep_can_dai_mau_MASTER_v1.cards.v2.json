@@ -67,7 +67,7 @@
       "category": "Định nghĩa đái máu",
       "section": "B1",
       "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu vi thể</b></span> được xác định bằng soi kính hiển vi, khi soi nước tiểu tươi giữa dòng có {{c1::<span style=\"color:#ffd43b\"><b>≥ 5 hồng cầu/ml</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Barem quy định ngưỡng trên mẫu nước tiểu tươi giữa dòng (không quay ly tâm) là từ 5 hồng cầu trở lên.<br><b>⚖️ Đối chiếu (Ngoài barem):</b> đơn vị chuẩn quốc tế là <b>≥ 5 hồng cầu/µL</b> (= /mm³) nước tiểu không ly tâm, tương đương <b>&gt; 5 hồng cầu/vi trường 400×</b> trên cặn ly tâm. \"5 hồng cầu/ml\" nhiều khả năng là lỗi in đơn vị (nước tiểu bình thường đã có tới vài nghìn hồng cầu/ml). Khi thi chép đúng như barem.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục 1); Nelson Textbook of Pediatrics 22e",
+      "extra": "<b>💡 Giải thích của AI:</b> Barem quy định ngưỡng trên mẫu nước tiểu tươi giữa dòng (không quay ly tâm) là từ 5 hồng cầu trở lên.<br><b>⚖️ Đối chiếu (Ngoài barem):</b> đơn vị chuẩn quốc tế là <b>≥ 5 hồng cầu/µL</b> (= /mm³) nước tiểu không ly tâm; trên cặn ly tâm tài liệu dùng ngưỡng <b>&gt; 3–5 hồng cầu/vi trường</b> (barem: &gt; 3). \"5 hồng cầu/ml\" nhiều khả năng là lỗi in đơn vị (nước tiểu bình thường đã có tới vài nghìn hồng cầu/ml). Khi thi chép đúng như barem.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục 1); Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -1369,6 +1369,8 @@
       "type": "basic",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
       "front": "Trình bày sơ đồ <span style=\"color:#51cf66\"><b>5 bước tiếp cận bệnh nhân đái máu</b></span> theo giáo trình Nhi Thái Bình?",
       "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bước 1 – Xác định đái máu</b></span>: que thử + soi kính hiển vi. Que thử (+), soi tươi (−) → tìm huyết sắc tố niệu (Hb hoặc myoglobin niệu).<br>2) <span style=\"color:#ff6b6b\"><b>Bước 2 – Tìm dấu hiệu viêm cầu thận cấp</b></span> (phù, tăng HA, đái ít). Có → chẩn đoán viêm cầu thận cấp và làm xét nghiệm.<br>3) <span style=\"color:#74c0fc\"><b>Bước 3 – Phân loại lâm sàng</b></span>: đại thể → loại trừ gắng sức; vi thể đơn độc → làm lại nước tiểu hằng tuần trong 2 tuần (không tập thể dục).<br>4) <span style=\"color:#ffd43b\"><b>Bước 4 – Soi hình dáng hồng cầu và định lượng protein/creatinin niệu</b></span> → tại cầu thận hay ngoài cầu thận.<br>5) <span style=\"color:#51cf66\"><b>Bước 5 – Tìm nguyên nhân ngoài cầu thận</b></span>; tất cả bình thường → đái máu thoáng qua, theo dõi hằng năm.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo: \"Có thật không → Có cấp không → Có kéo dài không → Ở đâu → Do gì\". Lưu ý Bước 5 của barem là tìm nguyên nhân ngoài cầu thận, không phải \"điều trị\".",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ tiếp cận bệnh nhân đái máu)",

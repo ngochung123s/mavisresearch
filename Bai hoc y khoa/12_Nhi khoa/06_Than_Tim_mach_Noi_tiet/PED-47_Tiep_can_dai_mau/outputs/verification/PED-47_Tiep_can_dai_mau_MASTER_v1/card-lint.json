@@ -4,16 +4,15 @@
   "deck_name": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-23T21:32:18",
+  "generated_at": "2026-10-23T21:35:40",
   "cards_source": "ped47_cards_data.py",
-  "cards_source_sha256": "20faeec50fc95c62a7eb902b13fb89bf9d8471ba729522cbdde0250f363a536b",
+  "cards_source_sha256": "f138c02b0e2a04c6db09b05359929ecd320f6f1b52ffcec8d00302985c18aa53",
   "card_count": 95,
   "summary": {
     "block": 0,
-    "debt": 13,
+    "debt": 12,
     "warn": 1,
     "by_code": {
-      "G_ALGO_COUNT": 1,
       "G_ASKS_MISSING": 9,
       "G_PARTIAL_CLOZE": 3,
       "W_TIER": 1
@@ -93,12 +92,6 @@
       "severity": "DEBT"
     },
     {
-      "code": "G_ALGO_COUNT",
-      "card_id": "*",
-      "message": "chỉ 2 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH` (tối thiểu 3)",
-      "severity": "DEBT"
-    },
-    {
       "code": "W_TIER",
       "card_id": "*",
       "message": "chưa khai báo `tier` (1 = khung, 2 = chi tiết) cho thẻ nào",
@@ -107,15 +100,15 @@
   ],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-47_Tiep_can_dai_mau\\PED-47_Tiep_can_dai_mau_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 48,
-    "unchanged": 35,
-    "added": 12,
+    "updated": 2,
+    "unchanged": 93,
+    "added": 0,
     "archived": 0,
     "moved": 0,
     "media": 0,
     "deck_notes": 95
   },
-  "apkg_sha256": "4ca69959f8911839a7f56e85b6051e6b2f5ad80408bde86707640ea3da579676",
+  "apkg_sha256": "d505669d9092d23be0be8c70d2886008fcd728275ce26571228874c18c661f83",
   "sqlite_notes": 95,
   "sqlite_cards": 95
 }

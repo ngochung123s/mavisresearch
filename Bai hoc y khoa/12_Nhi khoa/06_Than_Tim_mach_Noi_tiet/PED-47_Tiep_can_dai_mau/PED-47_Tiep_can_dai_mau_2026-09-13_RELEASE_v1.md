@@ -131,7 +131,7 @@ Nếu trẻ có đái máu kèm theo **Thiểu niệu / Vô niệu**, **Tăng hu
   * Sau nhiễm liên cầu da (chốc lở, viêm mô tế bào): **3 – 6 tuần**.
 * **Đặc điểm xét nghiệm sinh học:**
   * Bổ thể **C3 giảm sâu** trong giai đoạn cấp tính (do kích hoạt con đường bổ thể nhánh thay thế).
-  * **C3 bắt buộc phải hồi phục về bình thường sau 6 – 8 tuần**. *Cạm bẫy:* Nếu C3 vẫn giảm kéo dài trên 8 – 12 tuần, bắt buộc phải sinh thiết thận vì nguy cơ là Viêm cầu thận tăng sinh màng (MPGN) hoặc Viêm thận Lupus!
+  * **C3 thường hồi phục về bình thường sau 6 – 8 tuần**. *Cạm bẫy:* nếu C3 vẫn thấp sau mốc này, nghĩ tới Viêm cầu thận tăng sinh màng (MPGN) / bệnh cầu thận C3 hoặc Viêm thận Lupus và cân nhắc sinh thiết thận. ⚖️ Barem: chỉ định sinh thiết khi C3 thấp kéo dài **trên 3 tháng** — khi thi ghi mốc barem.
   * Kháng thể kháng liên cầu tăng cao: **ASLO** (nhạy với viêm họng), **Anti-DNase B** (đặc biệt nhạy với nhiễm trùng da).
 
 #### B. Bệnh thận IgA (IgA Nephropathy / Bệnh Berger)
@@ -219,11 +219,11 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Điều kiện an toàn bắt buộc trước khi chọc sinh thiết thận:
-1. Có **2 quả thận** bình thường trên siêu âm (loại trừ thận độc nhất).
-2. Huyết áp được kiểm soát ổn định trong giới hạn bình thường theo tuổi.
-3. Chức năng đông máu an toàn: **Tiểu cầu > 100.000/µL, INR < 1.2, aPTT bình thường**.
-4. Không có nhiễm trùng huyết hoặc nhiễm trùng cấp vùng thắt lưng.
+### Điều kiện an toàn trước khi chọc sinh thiết thận (ngoài barem, thực hành chung):
+1. Có **2 quả thận** trên siêu âm, kích thước và vị trí phù hợp (loại trừ thận độc nhất, nang lớn, thận ứ nước nặng tại vị trí chọc).
+2. Huyết áp được kiểm soát trước thủ thuật.
+3. Đông cầm máu bình thường: tiểu cầu, PT/INR, aPTT trong giới hạn (nhiều cơ sở yêu cầu **tiểu cầu > 100.000/µL**; ngưỡng cụ thể tùy cơ sở); ngừng thuốc chống đông, chống ngưng tập tiểu cầu.
+4. Không có nhiễm khuẩn huyết hoặc nhiễm trùng da vùng thắt lưng tại vị trí chọc.
 
 ---
 
