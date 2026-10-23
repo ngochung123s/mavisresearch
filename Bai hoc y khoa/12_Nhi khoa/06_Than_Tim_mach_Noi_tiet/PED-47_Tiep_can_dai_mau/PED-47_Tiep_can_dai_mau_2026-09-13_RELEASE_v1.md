@@ -30,15 +30,15 @@ tags: [dai-mau, hematuria, nhi-khoa, than-tiet-nieu, ebm, exam-bareme, apsgn, ig
    * *Dipstick (+) nhưng Soi kính hiển vi (-):* Huyết sắc tố niệu (Hemoglobinuria do tán huyết nội mạch) hoặc Myoglobin niệu (do tiêu cơ vân rhabdomyolysis).
    * *Nước tiểu đỏ nhưng Dipstick (-) và Soi (-):* Do phẩm màu thức ăn (củ dền, thanh long đỏ) hoặc chuyển hóa thuốc (Rifampicin, Metronidazole, Sulfamethoxazole).
 3. **Phân biệt Cầu thận vs Ngoài cầu thận (Bản lề quyết định):**
-   * **Nguồn gốc Cầu thận:** Màu nước coca/rửa thịt, **Hồng cầu biến dạng > 80%** (đặc biệt có > 5% Acanthocyte / tế bào hình nhẫn có chồi), **Trụ hồng cầu (RBC casts - đặc hiệu 100%)**, Protein niệu thường đồng hành (UPr/UCr > 0.2). Có thể kèm Phù, Tăng huyết áp.
+   * **Nguồn gốc Cầu thận:** Màu nước coca/rửa thịt, **Hồng cầu biến dạng > 80%** (mốc barem; ngoài barem: acanthocyte ≥ 5% rất đặc hiệu, Köhler 1991), **Trụ hồng cầu** (barem: bằng chứng chắc chắn tổn thương cầu thận), Protein niệu thường đồng hành (UPr/UCr > 0.2). Có thể kèm Phù, Tăng huyết áp.
    * **Nguồn gốc Ngoài cầu thận:** Màu đỏ tươi, có thể có **máu cục**, hồng cầu đồng dạng (isomorphic), không có trụ hồng cầu, Protein niệu (-) hoặc chỉ tăng nhẹ theo tỷ lệ máu. Thường kèm triệu chứng đường tiểu (đái buốt, đái rắt, đau quặn thận).
 4. **7 Chỉ định sinh thiết thận kinh điển (Barem thi Bộ môn):**
-   1. Protein niệu > 1 g/1,73 m²/ngày (hoặc UPr/UCr > 1.0 kéo dài).
+   1. Protein niệu > 1 g/1,73 m²/ngày.
    2. Bổ thể C3 giảm kéo dài **trên 3 tháng** (nghi MPGN, Lupus).
    3. Mức lọc cầu thận giảm **< 80 mL/phút/1,73 m²** không hồi phục.
    4. Nghi ngờ Viêm thận Lupus hoặc Viêm thận Schonlein Henoch có tổn thương thận tiến triển.
    5. Tiền sử gia đình có bệnh thận nghi ngờ Hội chứng Alport.
-   6. Đái máu đại thể tái phát nhiều đợt không rõ nguyên nhân.
+   6. Đái máu đại thể tái phát không rõ nguyên nhân.
    7. Đái máu cầu thận mà gia đình thiết tha muốn biết nguyên nhân và tiên lượng dù protein niệu không cao.
 5. **Cặp bệnh cầu thận thường gặp nhất:**
    * **Bệnh thận IgA:** Đái máu đại thể xuất hiện **ngay trong hoặc sau 1 – 2 ngày** viêm họng; bổ thể C3 **bình thường**.
@@ -89,9 +89,9 @@ Nếu trẻ có đái máu kèm theo **Thiểu niệu / Vô niệu**, **Tăng hu
 | Tiêu chí phân biệt | Đái máu nguồn gốc CẦU THẬN | Đái máu nguồn gốc NGOÀI CẦU THẬN |
 |---|---|---|
 | **Màu sắc nước tiểu** | Màu nâu sẫm, màu **nước rửa thịt**, màu **coca-cola**, màu nước chè đặc.<br>*(Do Hemoglobin bị oxy hóa thành Methemoglobin trong môi trường toan của ống thận).* | Màu **đỏ tươi**, hồng tươi, hoặc màu nước quả mâm xôi.<br>*(Máu chảy trực tiếp từ đường dẫn niệu chưa bị toan hóa).* |
-| **Cục máu đông (Clots)** | **KHÔNG BAO GIỜ CÓ** cục máu đông.<br>*(Do có enzyme Urokinase ở cầu thận và ống thận tiêu fibrin).* | **CÓ THỂ CÓ** cục máu đông (dạng dây, dải khuôn niệu quản hoặc cục tròn). |
-| **Hình thái hồng cầu (RBC morphology)** | **Hồng cầu biến dạng (Dysmorphic RBCs) > 80%**:<br>Méo mó, đa hình thái, có bọng nước, đặc biệt **Acanthocyte (hồng cầu hình nhẫn có chồi) > 5%** là tiêu chuẩn đặc hiệu cao nhất. | **Hồng cầu đồng dạng (Isomorphic RBCs) > 80%**:<br>Hình đĩa lõm hai mặt nguyên vẹn giống hệt hồng cầu trong máu ngoại vi. |
-| **Trụ hồng cầu (RBC Casts)** | **DƯƠNG TÍNH (+)** (Đặc hiệu 100% cho tổn thương viêm cầu thận).<br>*(Hình thành do hồng cầu kết tụ với Protein Tamm-Horsfall trong lòng ống lượn xa).* | **ÂM TÍNH (-)** hoàn toàn. |
+| **Cục máu đông (Clots)** | **Hầu như không có** cục máu đông.<br>*(Do urokinase của ống thận tiêu fibrin; quy tắc gợi ý mạnh, không tuyệt đối).* | **CÓ THỂ CÓ** cục máu đông (dạng dây, dải khuôn niệu quản hoặc cục tròn). |
+| **Hình thái hồng cầu (RBC morphology)** | **Hồng cầu biến dạng (Dysmorphic RBCs) > 80%** (mốc barem):<br>Méo mó, đa hình thái. Ngoài barem: **acanthocyte (hồng cầu hình nhẫn có chồi) ≥ 5%** đặc hiệu ~98% nhưng độ nhạy ~52% (Köhler 1991). | **Hồng cầu đồng dạng (Isomorphic RBCs)**, giữ nguyên hình thái:<br>Hình đĩa lõm hai mặt nguyên vẹn giống hồng cầu máu ngoại vi. |
+| **Trụ hồng cầu (RBC Casts)** | **DƯƠNG TÍNH (+)** — barem: bằng chứng chắc chắn tổn thương cầu thận.<br>*(Hình thành do hồng cầu kết tụ với Protein Tamm-Horsfall trong lòng ống thận; trụ dễ vỡ nên không thấy trụ chưa loại trừ bệnh cầu thận).* | **ÂM TÍNH (-)**. |
 | **Protein niệu đi kèm** | **Thường xuyên DƯƠNG TÍNH (+)**:<br>Tỷ lệ Protein/Creatinine niệu (UPr/UCr) > 0,2 mg/mg; nhiều trường hợp đạt ngưỡng thận hư (> 2,0 mg/mg hoặc > 1 g/m²/ngày). | **ÂM TÍNH (-)** hoặc chỉ tăng nhẹ tương ứng với lượng huyết tương đi kèm trong khối máu chảy ra (UPr/UCr thường < 0,2 mg/mg). |
 | **Triệu chứng lâm sàng đi kèm** | Tam chứng viêm cầu thận: **Phù** (phù trắng mềm ấn lõm, rõ ở mi mắt buổi sáng), **Tăng huyết áp**, Thiểu niệu. | Triệu chứng kích thích đường tiểu: **Đái buốt, đái rắt, đái khó**, sốt, **đau quặn thận**, sờ thấy cầu bàng quang. |
 | **Nghiệm pháp 3 cốc** | **Toàn bãi** (cả 3 cốc đều sẫm màu như nhau). | • **Đầu bãi:** Tổn thương niệu đạo.<br>• **Cuối bãi:** Tổn thương cổ bàng quang/tam giác bàng quang.<br>• **Toàn bãi:** Bàng quang, niệu quản, đài bể thận. |
@@ -204,7 +204,7 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
 │               7 CHỈ ĐỊNH SINH THIẾT THẬN Ở TRẺ EM ĐÁI MÁU              │
 ├────────────────────────────────────────────────────────────────────────┤
 │ 1. Protein niệu nặng kéo dài:                                          │
-│    • Protein niệu 24h > 1 g/1,73 m²/ngày (hoặc UPr/UCr > 1,0 kéo dài). │
+│    • Protein niệu 24h > 1 g/1,73 m²/ngày.                              │
 │ 2. Bổ thể C3 giảm kéo dài quá 3 tháng:                                 │
 │    • Nghi ngờ Viêm cầu thận tăng sinh màng (MPGN) hoặc Lupus.          │
 │ 3. Suy giảm chức năng thận không hồi phục:                             │
@@ -213,7 +213,7 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
 │    • Viêm thận Lupus ban đỏ hệ thống (để phân loại Class I - VI).      │
 │    • Viêm thận Schonlein Henoch có protein niệu cao hoặc suy thận.     │
 │ 5. Tiền sử gia đình có bệnh thận tiến triển nghi ngờ Hội chứng Alport. │
-│ 6. Đái máu đại thể tái phát nhiều đợt không rõ nguyên nhân.            │
+│ 6. Đái máu đại thể tái phát không rõ nguyên nhân.                      │
 │ 7. Đái máu cầu thận mà gia đình thiết tha muốn biết căn nguyên và      │
 │    tiên lượng bệnh dù protein niệu chưa cao.                           │
 └────────────────────────────────────────────────────────────────────────┘
@@ -243,8 +243,8 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
                     Làm ngay: UPr/UCr, Creatinin,               BƯỚC 3: PHÂN LOẠI LÂM SÀNG
                     Điện giải đồ, C3, C4, ASLO,                 • Đái máu đại thể: Loại trừ sau
                     Anti-DNAse B, ANA.                            thể dục thể thao quá mức.
-                    → Chẩn đoán APSGN, MPGN, Lupus.             • Đái máu vi thể đơn độc: Kiểm tra
-                                                                  lại 2 mẫu trong 2 tuần tiếp theo.
+                    → Chẩn đoán APSGN, MPGN, Lupus.             • Đái máu vi thể đơn độc: Làm lại XN
+                                                                  nước tiểu hằng tuần trong 2 tuần (không tập thể dục).
                                                                            │
                                                                            ▼
                                                         BƯỚC 4: SOI HÌNH THÁI HỒNG CẦU & PROTEIN NIỆU
@@ -252,18 +252,21 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
                                       ┌────────────────────────────────────┴────────────────────────────────────┐
                                       ▼                                                                         ▼
                       【HÌNH THÁI HỒNG CẦU CẦU THẬN】                                           【HÌNH THÁI NGOÀI CẦU THẬN】
-                      • Hồng cầu biến dạng > 80% (Acanthocyte > 5%)                             • Hồng cầu đồng dạng > 80%
+                      • Hồng cầu biến dạng > 80% (ngoài barem: acanthocyte ≥ 5%)                • Hồng cầu đồng dạng, giữ nguyên hình thái
                       • Trụ hồng cầu (+)                                                        • Không có trụ hồng cầu
                       • Protein niệu (+)                                                        • Protein niệu (-)
                       ─────────────────────────────────────────                                 ─────────────────────────
-                      1. Định lượng C3, C4, IgA, UPr/UCr 24h.                                   BƯỚC 5: TẦM SOÁT NGOÀI CẦU THẬN
-                      2. Siêu âm thận Doppler.                                                  1. Tỷ lệ Canxi/Creatinine niệu
-                      3. Xét nghiệm nước tiểu bố mẹ, anh em.                                       (sàng lọc tăng Canxi niệu).
-                      4. Đo thính lực đồ (tìm Alport).                                          2. Cấy nước tiểu (vi khuẩn, Adeno).
-                      5. Xem xét SINH THIẾT THẬN theo 7 chỉ định.                               3. X-quang KUB & Siêu âm tìm sỏi.
-                                                                                                4. Siêu âm Doppler mạch thận
-                                                                                                   (tìm Hội chứng Nutcracker).
-                                                                                                5. Chụp CT cản quang (u, chấn thương).
+                      1. Ure, Creatinin, Điện giải đồ.                                          BƯỚC 5: TẦM SOÁT NGOÀI CẦU THẬN
+                      2. Protein niệu 24h, C3, C4, IgA.                                         1. Tỷ lệ Canxi/Creatinine niệu
+                      3. Siêu âm thận.                                                          2. Cấy nước tiểu (vi khuẩn, Adeno).
+                      4. Xét nghiệm nước tiểu bố mẹ, anh chị em.                                3. Siêu âm Doppler mạch thận (Nutcracker).
+                      5. Kiểm tra thính học (tìm Alport).                                       4. Xét nghiệm đông máu toàn bộ.
+                      6. SINH THIẾT THẬN nếu có chỉ định.                                       5. X-quang bụng KUB (sỏi cản quang).
+                                                                                                6. Nước tiểu 24h: Ca, acid uric, oxalat, cystin.
+                                                                                                7. CT ổ bụng (chấn thương, u Wilms).
+                                                                                                8. Chụp MRI mạch thận.
+                                                                                                → Tất cả bình thường: Đái máu thoáng qua,
+                                                                                                  theo dõi định kỳ hằng năm.
 ```
 
 ---
@@ -285,11 +288,11 @@ Sinh thiết thận là tiêu chuẩn vàng mô bệnh học để chẩn đoán
 1. **Bẫy "Que thử Dipstick (+) là kết luận đái máu ngay":**
    * Que thử dipstick phát hiện hoạt tính peroxidase của nhân Heme. Nó sẽ dương tính cả với **Hemoglobin tự do** (tán huyết) và **Myoglobin** (tiêu cơ vân). Nếu vội vàng chẩn đoán đái máu mà bỏ qua tiêu cơ vân có thể dẫn đến suy thận cấp do tắc ống thận do myoglobin!
 2. **Bẫy "Chỉ làm xét nghiệm nước tiểu 1 lần":**
-   * Đái máu vi thể thoáng qua gặp ở 1 – 2% trẻ em khỏe mạnh (sau sốt virus, gắng sức, chấn thương nhẹ). Để chẩn đoán đái máu vi thể bệnh lý thực sự, bắt buộc phải có **ít nhất 2 – 3 mẫu nước tiểu dương tính lấy cách nhau 1 – 2 tuần**.
+   * Khoảng 3 – 4% trẻ đi học có hồng cầu niệu ở một mẫu nước tiểu, nhưng chỉ khoảng 1% còn dương tính khi lặp lại (Dodge 1976); nguyên nhân thoáng qua: sau sốt virus, gắng sức, chấn thương nhẹ. Barem (Bước 3): đái máu vi thể đơn độc → làm lại xét nghiệm nước tiểu hằng tuần trong 2 tuần, không tập thể dục.
 3. **Bẫy "Bỏ sót tiền sử gia đình khi trẻ đái máu vi thể":**
    * Nếu trẻ có đái máu vi thể đơn độc mà bố hoặc mẹ cũng có đái máu vi thể không triệu chứng → hướng tới **Bệnh màng đáy mỏng lành tính**, tránh việc chỉ định sinh thiết thận không cần thiết. Ngược lại, nếu gia đình có người suy thận phải chạy thận nhân tạo hoặc điếc → phải tầm soát ngay **Hội chứng Alport**.
 4. **Bẫy "Bổ thể C3 không hồi phục sau 8 tuần ở trẻ viêm cầu thận cấp":**
-   * Chẩn đoán APSGN chỉ là tạm thời nếu chưa chứng minh được C3 hồi phục về bình thường sau 6 – 8 tuần. Nếu sau 8 – 12 tuần C3 vẫn thấp, bệnh nhi có nguy cơ cao bị **Viêm cầu thận tăng sinh màng (MPGN)** hoặc **Lupus ban đỏ**, bắt buộc phải chuyển chuyên khoa Thận để sinh thiết thận!
+   * Chẩn đoán APSGN chỉ là tạm thời nếu chưa chứng minh được C3 hồi phục về bình thường (thường sau 6 – 8 tuần). Nếu C3 vẫn thấp sau mốc này, cần nghĩ tới **Viêm cầu thận tăng sinh màng (MPGN) / bệnh cầu thận C3** hoặc **Lupus ban đỏ** và chuyển chuyên khoa Thận. ⚖️ Barem: chỉ định sinh thiết khi C3 thấp kéo dài **trên 3 tháng** — khi thi ghi mốc barem.
 
 ---
 

@@ -1,20 +1,21 @@
 {
-  "code": "PED-47",
+  "id": "PED-47",
+  "specialty": "nhi",
   "deck_name": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-19T22:00:46",
+  "generated_at": "2026-10-23T21:32:18",
   "cards_source": "ped47_cards_data.py",
-  "cards_source_sha256": "77ef0103c0b976f6e0440c034f3e3e937bb84ace6d5a2cf3d3bc3b0b3eeb1b34",
-  "card_count": 83,
+  "cards_source_sha256": "20faeec50fc95c62a7eb902b13fb89bf9d8471ba729522cbdde0250f363a536b",
+  "card_count": 95,
   "summary": {
     "block": 0,
-    "debt": 5,
+    "debt": 13,
     "warn": 1,
     "by_code": {
       "G_ALGO_COUNT": 1,
+      "G_ASKS_MISSING": 9,
       "G_PARTIAL_CLOZE": 3,
-      "G_SECTION_NO_BASIC": 1,
       "W_TIER": 1
     }
   },
@@ -27,8 +28,20 @@
     },
     {
       "code": "G_PARTIAL_CLOZE",
-      "card_id": "PED47-B39",
-      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Bước 4 thuật toán: Xác định nguyên nhân tại cầu thận bằng các xét nghiệm: ⟦CLOZE⟧ , ANA, Anti-dsDNA, và xem xét ⟦CLOZE⟧ theo 7 chỉ định chuẩn.»",
+      "card_id": "PED47-B24",
+      "message": "cloze nửa vời trong liệt kê: «[Barem gốc] Đái máu kèm đau : đau vùng mạng sườn, đau quặn nghĩ đến ⟦CLOZE⟧ ; đau vùng hạ vị nghĩ đến ⟦CLOZE⟧ ; đau bụng âm ỉ đến dữ dội nghĩ đến ⟦CLOZE⟧ .»",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-B36",
+      "message": "🎯 chia mục theo khía cạnh («Phân loại kết quả») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E06",
+      "message": "🎯 chia mục theo khía cạnh («Xét nghiệm men cơ») nhưng thẻ không khai `asks`",
       "severity": "DEBT"
     },
     {
@@ -38,9 +51,45 @@
       "severity": "DEBT"
     },
     {
-      "code": "G_SECTION_NO_BASIC",
-      "card_id": "B1",
-      "message": "section không có thẻ Basic nền tảng",
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E08",
+      "message": "🎯 chia mục theo khía cạnh («Cơ chế mô học», «Xử trí cấp cứu») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E22",
+      "message": "🎯 chia mục theo khía cạnh («Cơ chế bệnh sinh», «Biểu hiện lâm sàng») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E24",
+      "message": "🎯 chia mục theo khía cạnh («Chỉ định đầu tay») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E29",
+      "message": "🎯 chia mục theo khía cạnh («Xét nghiệm khẩn») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E30",
+      "message": "🎯 chia mục theo khía cạnh («Xét nghiệm nước tiểu gia đình») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E33",
+      "message": "🎯 chia mục theo khía cạnh («Cơ chế miễn dịch») nhưng thẻ không khai `asks`",
+      "severity": "DEBT"
+    },
+    {
+      "code": "G_ASKS_MISSING",
+      "card_id": "PED47-E38",
+      "message": "🎯 chia mục theo khía cạnh («Hậu quả») nhưng thẻ không khai `asks`",
       "severity": "DEBT"
     },
     {
@@ -56,16 +105,17 @@
       "severity": "WARN"
     }
   ],
-  "apkg": "PED-47_Tiep_can_dai_mau_MASTER_v1.apkg",
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-47_Tiep_can_dai_mau\\PED-47_Tiep_can_dai_mau_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 9,
-    "unchanged": 74,
-    "added": 0,
+    "updated": 48,
+    "unchanged": 35,
+    "added": 12,
     "archived": 0,
     "moved": 0,
-    "deck_notes": 83
+    "media": 0,
+    "deck_notes": 95
   },
-  "apkg_sha256": "b6336523c83dd30e941062f4e1953849e42b9bd28ec7aed7f3c741c245bde2c0",
-  "sqlite_notes": 83,
-  "sqlite_cards": 83
+  "apkg_sha256": "4ca69959f8911839a7f56e85b6051e6b2f5ad80408bde86707640ea3da579676",
+  "sqlite_notes": 95,
+  "sqlite_cards": 95
 }

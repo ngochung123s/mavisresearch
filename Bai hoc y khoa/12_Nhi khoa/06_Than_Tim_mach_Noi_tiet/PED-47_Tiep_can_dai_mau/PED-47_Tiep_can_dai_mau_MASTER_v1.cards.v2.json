@@ -1,7 +1,7 @@
 {
   "deck_id": 2139366082017,
   "deck_name": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
-  "card_count": 83,
+  "card_count": 95,
   "cards": [
     {
       "id": "PED47-B01",
@@ -67,7 +67,7 @@
       "category": "Định nghĩa đái máu",
       "section": "B1",
       "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu vi thể</b></span> được xác định bằng soi kính hiển vi, khi soi nước tiểu tươi giữa dòng có {{c1::<span style=\"color:#ffd43b\"><b>≥ 5 hồng cầu/ml</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Barem giáo trình Nhi YTB quy định ngưỡng trên mẫu nước tiểu tươi không quay ly tâm là từ 5 hồng cầu/ml trở lên.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục 1)",
+      "extra": "<b>💡 Giải thích của AI:</b> Barem quy định ngưỡng trên mẫu nước tiểu tươi giữa dòng (không quay ly tâm) là từ 5 hồng cầu trở lên.<br><b>⚖️ Đối chiếu (Ngoài barem):</b> đơn vị chuẩn quốc tế là <b>≥ 5 hồng cầu/µL</b> (= /mm³) nước tiểu không ly tâm, tương đương <b>&gt; 5 hồng cầu/vi trường 400×</b> trên cặn ly tâm. \"5 hồng cầu/ml\" nhiều khả năng là lỗi in đơn vị (nước tiểu bình thường đã có tới vài nghìn hồng cầu/ml). Khi thi chép đúng như barem.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục 1); Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -139,8 +139,8 @@
       "type": "cloze",
       "category": "Nguyên nhân đái máu",
       "section": "B3",
-      "text": "[Barem gốc] Bệnh đái máu lành tính có tính chất gia đình do tổn thương cầu thận, trong barem bị in nhầm là bệnh {{c1::<span style=\"color:#74c0fc\"><b>móng màng đáy</b></span>}} (thuật ngữ chính xác là <span style=\"color:#51cf66\"><b>màng đáy mỏng</b></span>).",
-      "extra": "<b>💡 Giải thích của AI:</b> Lỗi in ấn chữ 'móng' thay vì 'mỏng' (Thin Basement Membrane Disease). Sinh viên cần ghi rõ để ăn trọn điểm barem thi tự luận mà vẫn thể hiện hiểu biết EBM.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
+      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu lành tính có tính chất gia đình</b></span> (nguyên nhân tại cầu thận) là bệnh {{c1::<span style=\"color:#ffd43b\"><b>màng đáy mỏng</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Sách in nhầm thành \"móng màng đáy\"; khi thi viết \"bệnh màng đáy mỏng\" (Thin Basement Membrane Nephropathy). Bệnh do đột biến dị hợp gen COL4A3/COL4A4; bố hoặc mẹ thường cũng có đái máu vi thể.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -160,8 +160,8 @@
         "Barem-goc",
         "Nguyen-nhan"
       ],
-      "front": "Theo giáo trình Nhi Thái Bình, <span style=\"color:#ffd43b\"><b>3 nhóm nguyên nhân đái máu tại cầu thận tiên phát</b></span> gồm những bệnh lý nào?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 bệnh lý cầu thận tiên phát:<br>1) <span style=\"color:#ff6b6b\"><b>Viêm cầu thận cấp sau nhiễm liên cầu (APSGN):</b></span> Thường gặp nhất ở tuổi học đường.<br>2) <span style=\"color:#74c0fc\"><b>Viêm cầu thận mạn:</b></span> Diễn tiến âm thầm, tổn thương cầu thận kéo dài.<br>3) <span style=\"color:#74c0fc\"><b>Bệnh thận IgA (Bệnh Berger):</b></span> Đái máu đại thể tái phát trùng với đợt sốt nhiễm trùng đường hô hấp trên.<br><br><b>💡 Giải thích của AI:</b><br>Đây là 3 nguyên nhân cầu thận tiên phát thường gặp nhất trên lâm sàng nhi khoa. Người học cần nắm trọn cả 3 bệnh lý để phân biệt với nhóm nguyên nhân thứ phát do bệnh hệ thống."
+      "front": "Kể tên các nguyên nhân đái máu <span style=\"color:#74c0fc\"><b>tại cầu thận</b></span> thuộc nhóm <span style=\"color:#51cf66\"><b>đái máu lành tính</b></span> và nhóm <span style=\"color:#ff6b6b\"><b>viêm cầu thận / bệnh thận IgA</b></span> theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đái máu lành tính có tính chất gia đình</b></span> (bệnh màng đáy mỏng).<br>2) <span style=\"color:#51cf66\"><b>Đái máu lành tính không có tính chất gia đình</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Viêm cầu thận cấp sau nhiễm trùng</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Viêm cầu thận tăng sinh màng</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Viêm cầu thận tiến triển nhanh</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Bệnh thận IgA</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Barem liệt kê liền 13 nguyên nhân tại cầu thận. AI tách làm 2 thẻ cho dễ nhớ: thẻ này gồm 6 bệnh \"của riêng cầu thận\" (2 lành tính + 3 viêm cầu thận + IgA); thẻ sau gồm 7 bệnh hệ thống, mạch máu, di truyền và bệnh thận khác."
     },
     {
       "id": "PED47-B12",
@@ -175,8 +175,8 @@
         "Barem-goc",
         "Nguyen-nhan"
       ],
-      "front": "Kể tên các bệnh lý <span style=\"color:#74c0fc\"><b>hệ thống và di truyền</b></span> gây đái máu tại cầu thận theo giáo trình Nhi Thái Bình?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm các bệnh lý kinh điển:<br>1) <span style=\"color:#ff6b6b\"><b>Lupus ban đỏ hệ thống (SLE):</b></span> Tổn thương đa cơ quan, ban cánh bướm, giảm bổ thể kéo dài.<br>2) <span style=\"color:#ff6b6b\"><b>Schönlein-Henoch (Viêm mạch IgA):</b></span> Tử ban dạng đi bốt đối xứng chi dưới, đau bụng, đau khớp.<br>3) <span style=\"color:#74c0fc\"><b>Hội chứng Alport:</b></span> Bệnh thận di truyền liên kết NST X gây tổn thương màng đáy cầu thận đi kèm điếc tiếp nhận thần kinh giác quan.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm bệnh lý thứ phát và di truyền đòi hỏi thăm khám toàn diện ngoài thận (da, khớp, thính lực) để không bỏ sót các tổn thương đa cơ quan phối hợp."
+      "front": "Kể tên các nguyên nhân đái máu <span style=\"color:#74c0fc\"><b>tại cầu thận</b></span> thuộc nhóm <span style=\"color:#ff6b6b\"><b>bệnh hệ thống, mạch máu, di truyền</b></span> và các bệnh thận khác theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm thận Schönlein–Henoch</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm thận Lupus</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Viêm mao mạch hoại tử</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Hội chứng huyết tán ure máu cao (HUS)</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Hội chứng Alport</b></span>.<br>6) <span style=\"color:#ffd43b\"><b>Tắc mạch thận, viêm thận kẽ</b></span>.<br>7) <span style=\"color:#ffd43b\"><b>Nang thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo đọc liền: \"Henoch – Lupus – Mao mạch – HUS – Alport – Tắc/Kẽ – Nang\". Ngoài barem: Alport do đột biến collagen type IV (khoảng 80% là gen COL4A5 liên kết X), kèm điếc tiếp nhận và tổn thương mắt; nhóm này cần khám ngoài thận (da, khớp, thính lực, mắt)."
     },
     {
       "id": "PED47-B13",
@@ -190,8 +190,8 @@
         "Barem-goc",
         "Nguyen-nhan"
       ],
-      "front": "Các nguyên nhân <span style=\"color:#74c0fc\"><b>ngoài cầu thận thường gặp nhất</b></span> gây đái máu ở trẻ em theo giáo trình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Gồm 3 nhóm nguyên nhân phổ biến:<br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng đường tiết niệu:</b></span> Viêm bàng quang, viêm đài bể thận (kèm sốt, tiểu buốt, tiểu rắt).<br>2) <span style=\"color:#ff6b6b\"><b>Sỏi đường tiết niệu:</b></span> Cọ xát biểu mô gây đái máu đại thể kèm cơn đau quặn thận.<br>3) <span style=\"color:#ffd43b\"><b>Chấn thương đường tiết niệu:</b></span> Chấn thương thận, dập vỡ bàng quang hoặc niệu đạo sau tai nạn, va đập.<br><br><b>💡 Giải thích của AI:</b><br>Đái máu ngoài cầu thận thường có đặc điểm hồng cầu đồng dạng, có thể có máu cục và protein niệu âm tính hoặc ở mức vết."
+      "front": "Kể tên các nguyên nhân đái máu <span style=\"color:#74c0fc\"><b>ngoài cầu thận</b></span> theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng tiết niệu</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Tăng canxi niệu</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Sỏi thận</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Chấn thương</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Do tập thể dục</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Rối loạn đông máu</b></span>.<br>7) <span style=\"color:#74c0fc\"><b>Dị tật mạch máu</b></span>.<br>8) <span style=\"color:#74c0fc\"><b>Hội chứng Nutcracker</b></span>.<br>9) <span style=\"color:#ff6b6b\"><b>Khối u ác tính</b></span>: u nguyên bào thận (Wilms), ung thư tế bào thận, ung thư bàng quang.<br>10) <span style=\"color:#51cf66\"><b>Kinh nguyệt</b></span>.<br>11) <span style=\"color:#51cf66\"><b>Factitious</b></span> (đái máu giả tạo do đưa máu vào hoặc dùng phẩm màu).<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ theo cụm: \"Nhiễm – Canxi – Sỏi\" (trong lòng đường tiểu); \"Chấn thương – Tập – Đông máu\" (cơ học, cầm máu); \"Mạch – Nutcracker\" (mạch máu); \"U\"; cuối cùng 2 nguồn không thật sự từ đường tiểu là kinh nguyệt và giả tạo, cần loại trừ đầu tiên."
     },
     {
       "id": "PED47-B14",
@@ -199,7 +199,7 @@
       "type": "cloze",
       "category": "Nguyên nhân đái máu",
       "section": "B3",
-      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Khối u ác tính ngoài cầu thận</b></span> gây đái máu thường gặp nhất ở thận trẻ em là u {{c1::<span style=\"color:#74c0fc\"><b>Wilms (u nguyên bào thận)</b></span>}}.",
+      "text": "[Barem gốc] Các <span style=\"color:#74c0fc\"><b>khối u ác tính</b></span> gây đái máu ngoài cầu thận theo barem gồm: {{c1::<span style=\"color:#ff6b6b\"><b>u nguyên bào thận (Wilms), ung thư tế bào thận, ung thư bàng quang</b></span>}}.",
       "extra": "<b>💡 Giải thích của AI:</b> U Wilms hay gặp ở trẻ dưới 5 tuổi, biểu hiện bằng khối u bụng sờ nắn không đau kèm đái máu đại thể hoặc vi thể.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Bảng mục 3)",
       "tags": [
         "PED-47",
@@ -227,8 +227,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] Nước tiểu <span style=\"color:#74c0fc\"><b>đái máu đại thể</b></span> có thể màu <span style=\"color:#ff6b6b\"><b>đỏ tươi</b></span> như nước máu cá, màu <span style=\"color:#ffd43b\"><b>nâu thẫm như nước coca</b></span> hoặc {{c1::<span style=\"color:#ff6b6b\"><b>màu nước rửa thịt</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Màu đỏ tươi chỉ điểm máu mới chảy ở đường niệu dưới; màu nước coca/rửa thịt chỉ điểm máu cũ bị toan hóa trong lòng ống thận (cầu thận).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 19-20, Mục 4 Đái máu)",
+      "text": "[Barem gốc] Nước tiểu <span style=\"color:#74c0fc\"><b>đái máu đại thể</b></span> có thể có màu {{c1::<span style=\"color:#ff6b6b\"><b>đỏ như nước rửa thịt</b></span>, <span style=\"color:#ffd43b\"><b>màu coca-cola</b></span>, sẫm như nước chè}}; nếu để lâu sẽ có <span style=\"color:#74c0fc\"><b>lắng cặn hồng cầu</b></span>.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: màu đỏ tươi gợi ý máu mới chảy ở đường dẫn niệu; màu coca-cola, nước chè gợi ý hồng cầu đã lưu lâu trong ống thận bị toan hóa (thường nguồn gốc cầu thận).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 19, Mục 4 Đái máu)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -241,8 +241,8 @@
       "type": "basic",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "front": "Cách phân định <span style=\"color:#74c0fc\"><b>vị trí đái máu đại thể</b></span> bằng <span style=\"color:#51cf66\"><b>nghiệm pháp 3 cốc</b></span> theo giáo trình Nhi Thái Bình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cốc 1 có máu (Đái máu đầu bãi):</b> Tổn thương ở <span style=\"color:#74c0fc\"><b>niệu đạo</b></span>.<br>2) <b>Cốc 3 có máu (Đái máu cuối bãi):</b> Tổn thương ở <span style=\"color:#74c0fc\"><b>bàng quang</b></span>.<br>3) <b>Cả 3 cốc đều có máu (Đái máu toàn bãi):</b> Tổn thương tại <span style=\"color:#74c0fc\"><b>cầu thận, niệu quản, đài bể thận</b></span> hoặc do <span style=\"color:#ff6b6b\"><b>bệnh về máu toàn thân</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nghiệm pháp 3 cốc là phương pháp kinh điển giúp sơ bộ định vị nguồn chảy máu: đầu bãi do dòng nước tiểu đầu tống xuất máu đọng ở niệu đạo; cuối bãi do cơ bóp bàng quang ép tống giọt máu cuối; toàn bãi do máu đã hòa tan đồng nhất từ trên cao đổ xuống.",
+      "front": "Đái máu <span style=\"color:#74c0fc\"><b>đầu bãi</b></span>, <span style=\"color:#74c0fc\"><b>cuối bãi</b></span> và <span style=\"color:#74c0fc\"><b>toàn bãi</b></span> gợi ý tổn thương ở đâu theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đầu bãi:</b> tổn thương <span style=\"color:#74c0fc\"><b>niệu đạo</b></span>.<br>2) <b>Cuối bãi:</b> tổn thương <span style=\"color:#74c0fc\"><b>bàng quang</b></span>.<br>3) <b>Toàn bãi:</b> <span style=\"color:#ff6b6b\"><b>viêm cầu thận</b></span>, niệu quản, bàng quang, <span style=\"color:#ff6b6b\"><b>bệnh về máu</b></span>, <span style=\"color:#ffd43b\"><b>đái máu do thuốc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngoài barem: trên lâm sàng phân biệt bằng nghiệm pháp 3 cốc (cốc 1 = đầu bãi, cốc 3 = cuối bãi, cả 3 cốc = toàn bãi). Đầu bãi do dòng nước tiểu đầu cuốn máu đọng ở niệu đạo; cuối bãi do bàng quang co bóp tống máu ở cuối; toàn bãi khi máu đã hòa đều từ phía trên (hoặc chảy nhiều từ bàng quang).",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Đái máu)",
       "tags": [
         "PED-47",
@@ -270,8 +270,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] <span style=\"color:#ff6b6b\"><b>Phù</b></span> trong bệnh lý cầu thận thường có tính chất là phù {{c1::<span style=\"color:#ffd43b\"><b>trắng, mềm, ấn lõm</b></span>}}, xuất hiện sớm và rõ nhất ở {{c1::<span style=\"color:#74c0fc\"><b>mi mắt vào buổi sáng</b></span>}} khi ngủ dậy.",
-      "extra": "<b>💡 Giải thích của AI:</b> Do ứ trệ natri và nước qua trung gian giảm mức lọc cầu thận kết hợp mô lỏng lẻo quanh hốc mắt khiến phù mi mắt biểu hiện sớm nhất.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Phù)",
+      "text": "[Barem gốc] <span style=\"color:#ff6b6b\"><b>Phù</b></span> trong bệnh thận thường là phù {{c1::<span style=\"color:#ffd43b\"><b>trắng, mềm, ấn lõm</b></span>}}; hay gặp trong tổn thương cầu thận như <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp, hội chứng thận hư</b></span>.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: phù cầu thận thường rõ nhất ở mi mắt buổi sáng khi ngủ dậy do mô quanh hốc mắt lỏng lẻo.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Phù)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -284,8 +284,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] Phân độ mức độ phù theo cân nặng: phù nhẹ khi tăng <span style=\"color:#ffd43b\"><b>&lt; 5%</b></span> cân nặng; phù vừa khi tăng {{c1::<span style=\"color:#ffd43b\"><b>5 – 10%</b></span>}} cân nặng; phù nặng khi tăng {{c1::<span style=\"color:#ffd43b\"><b>&gt; 10%</b></span>}} cân nặng kèm tràn dịch đa màng.",
-      "extra": "<b>💡 Giải thích của AI:</b> Cân nặng hàng ngày là chỉ số khách quan và trung thực nhất để định lượng mức độ ứ dịch và hiệu quả đáp ứng điều trị lợi tiểu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Phù)",
+      "text": "[Barem gốc] Phân độ <span style=\"color:#ff6b6b\"><b>phù</b></span> theo cân nặng: phù nhẹ khi cân nặng tăng {{c1::<span style=\"color:#ffd43b\"><b>&lt; 10%</b></span>}}; phù vừa khi tăng {{c1::<span style=\"color:#ffd43b\"><b>10 – 20%</b></span>}}; phù nặng khi tăng {{c1::<span style=\"color:#ffd43b\"><b>&gt; 20%</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Mẹo: chỉ có 2 mốc 10% và 20% chia 3 mức. Cân nặng hằng ngày là chỉ số khách quan nhất để theo dõi ứ dịch và đáp ứng lợi tiểu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Phù)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -300,7 +300,7 @@
       "category": "Lâm sàng đái máu",
       "section": "B4",
       "front": "Đặc điểm <span style=\"color:#ff6b6b\"><b>tổn thương khớp</b></span> trong đái máu do <span style=\"color:#74c0fc\"><b>Lupus ban đỏ hệ thống</b></span> theo giáo trình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau nhiều khớp nhỏ</b></span> ở các chi, có tính chất <span style=\"color:#74c0fc\"><b>chuyển từ khớp này sang khớp khác</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không cứng khớp buổi sáng</b></span>, <span style=\"color:#ffd43b\"><b>không sưng nóng đỏ đau</b></span> rầm rộ.<br>3) <span style=\"color:#51cf66\"><b>Không bao giờ gây biến dạng khớp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác biệt hoàn toàn với Viêm khớp dạng thấp (gây phá hủy sụn khớp, cứng khớp sáng > 1 giờ và biến dạng khớp vĩnh viễn), viêm khớp trong Lupus là viêm màng hoạt dịch không bào mòn (non-erosive arthritis).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau khớp đơn thuần hoặc đau nhiều khớp nhỏ</b></span> các chi, có thể <span style=\"color:#74c0fc\"><b>chuyển từ khớp này sang khớp khác</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Không cứng khớp buổi sáng</b></span>, <span style=\"color:#ffd43b\"><b>không sưng nóng đỏ đau</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Không biến dạng khớp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác viêm khớp dạng thấp (cứng khớp buổi sáng kéo dài, bào mòn và biến dạng khớp), viêm khớp Lupus không bào mòn. Ngoài barem: một số ít ca Lupus có biến dạng kiểu Jaccoud nhưng nắn lại được và không tổn thương xương.",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Đau khớp)",
       "tags": [
         "PED-47",
@@ -314,8 +314,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu</b></span> kèm xuất huyết da cẳng chân dạng {{c1::<span style=\"color:#ff6b6b\"><b>đi bốt (đi tất) đối xứng</b></span>}}, sờ thấy gồ trên mặt da, nghĩ nhiều nhất đến bệnh {{c1::<span style=\"color:#74c0fc\"><b>Scholein Henoch (Viêm mạch IgA)</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Tử ban sờ thấy (Palpable purpura) phân bố chọn lọc vùng chịu trọng lực (cẳng chân, mông) là dấu ấn lâm sàng chẩn đoán xác định Viêm mạch Schonlein-Henoch.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Xuất huyết da, niêm)",
+      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu</b></span> kèm xuất huyết cẳng chân dạng {{c1::<span style=\"color:#ff6b6b\"><b>đi bốt</b></span>}} nghĩ nhiều đến {{c1::<span style=\"color:#74c0fc\"><b>Schönlein–Henoch</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Sách in \"Scholein Henoch\"; tên đúng là Schönlein–Henoch, nay gọi là viêm mạch IgA. Ngoài barem: ban xuất huyết sờ thấy gồ, đối xứng, ở vùng chịu trọng lực (cẳng chân, mông).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Xuất huyết da, niêm)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -328,8 +328,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu</b></span> kèm ban da hình {{c1::<span style=\"color:#ff6b6b\"><b>cánh bướm</b></span>}} ở mặt, khu trú ở hai bên gò má và bắc qua sống mũi nhưng {{c1::<span style=\"color:#ffd43b\"><b>bảo tồn rãnh mũi má</b></span>}}, gợi ý bệnh <span style=\"color:#74c0fc\"><b>Lupus ban đỏ hệ thống</b></span>.",
-      "extra": "<b>💡 Giải thích của AI:</b> Ban cánh bướm (Malar rash) nhạy cảm với ánh sáng, điểm mấu chốt phân biệt với viêm da dầu là không bao giờ vượt qua nếp gấp mũi má.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Hồng ban)",
+      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu</b></span> kèm ban {{c1::<span style=\"color:#ff6b6b\"><b>cánh bướm</b></span>}} ở mặt (hai bên cánh mũi, hai gò má) hoặc ban hình đĩa, da nhạy cảm ánh sáng, loét miệng họng là dấu hiệu của bệnh {{c1::<span style=\"color:#74c0fc\"><b>Lupus ban đỏ</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: ban cánh bướm điển hình chừa nếp mũi má, giúp phân biệt với viêm da dầu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Hồng ban)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -342,8 +342,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu</b></span> kèm đau bụng vùng mạng sườn quặn thắt lan xuống bộ phận sinh dục nghĩ nhiều đến {{c1::<span style=\"color:#ff6b6b\"><b>sỏi tiết niệu</b></span>}}; kèm phản ứng thành bụng sau va đập nghĩ đến {{c1::<span style=\"color:#ff6b6b\"><b>chấn thương thận</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Cơn đau quặn thận do sỏi di chuyển gây bít tắc niệu quản cấp; đau và co cứng hông lưng sau chấn thương chỉ điểm tụ máu khoang sau phúc mạc.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20-21, Mục 4 Đau bụng)",
+      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu kèm đau</b></span>: đau vùng mạng sườn, đau quặn nghĩ đến {{c1::<span style=\"color:#ff6b6b\"><b>sỏi niệu quản, thận ứ nước, tắc nghẽn đường tiểu</b></span>}}; đau vùng hạ vị nghĩ đến {{c1::<span style=\"color:#ffd43b\"><b>viêm bàng quang hoặc cầu bàng quang</b></span>}}; đau bụng âm ỉ đến dữ dội nghĩ đến {{c1::<span style=\"color:#74c0fc\"><b>Schönlein–Henoch</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Barem nhấn mạnh: đái máu không đau cũng không loại trừ sỏi hay tắc nghẽn. Đái máu kèm đái rắt, đái buốt, đái khó thường gặp trong nhiễm trùng đường tiểu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20-21, Mục 4 Đau bụng)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -356,8 +356,8 @@
       "type": "cloze",
       "category": "Lâm sàng đái máu",
       "section": "B4",
-      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu đại thể tái phát</b></span> xuất hiện đồng thời ngay cùng lúc với <span style=\"color:#ff6b6b\"><b>sốt do nhiễm trùng đường hô hấp trên</b></span> (trong vòng 24–48 giờ) là đặc trưng của bệnh {{c1::<span style=\"color:#74c0fc\"><b>thận IgA (Bệnh Berger)</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Khác biệt then chốt với APSGN (đái máu sau viêm họng 1–2 tuần), bệnh thận IgA có đái máu 'đồng thì' (Synpharyngitic hematuria) do tăng đột biến kháng thể IgA1 khi nhiễm trùng niêm mạc hô hấp.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 21, Mục 4 Sốt)",
+      "text": "[Barem gốc] <span style=\"color:#74c0fc\"><b>Đái máu đại thể tái phát</b></span> kết hợp với <span style=\"color:#ff6b6b\"><b>nhiễm trùng đường hô hấp trên</b></span> thường là: {{c1::<span style=\"color:#74c0fc\"><b>bệnh thận IgA</b></span>, <span style=\"color:#ffd43b\"><b>bệnh màng đáy mỏng</b></span>, <span style=\"color:#ff6b6b\"><b>hội chứng Alport</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: trong bệnh thận IgA, đái máu xuất hiện cùng lúc hoặc trong 1–2 ngày sau nhiễm trùng hô hấp (đái máu đồng thì), khác viêm cầu thận cấp sau nhiễm liên cầu (sau 1–3 tuần, C3 giảm).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 21, Mục 4 Sốt)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -370,8 +370,8 @@
       "type": "cloze",
       "category": "Cận lâm sàng",
       "section": "B5",
-      "text": "[Barem gốc] Trong xét nghiệm nước tiểu, sự xuất hiện của {{c1::<span style=\"color:#ff6b6b\"><b>trụ hồng cầu</b></span>}} hoặc hồng cầu biến dạng &gt; {{c1::<span style=\"color:#ffd43b\"><b>80%</b></span>}} là bằng chứng khẳng định chắc chắn đái máu có nguồn gốc từ <span style=\"color:#74c0fc\"><b>cầu thận</b></span>.",
-      "extra": "<b>💡 Giải thích của AI:</b> Trụ hồng cầu được đúc trong lòng ống lượn xa từ protein Tamm-Horsfall kết tụ cùng hồng cầu rò rỉ qua màng lọc cầu thận.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.1 Xét nghiệm nước tiểu)",
+      "text": "[Barem gốc] Trong xét nghiệm nước tiểu, {{c1::<span style=\"color:#ff6b6b\"><b>trụ hồng cầu</b></span>}} là bằng chứng chắc chắn tổn thương tại <span style=\"color:#74c0fc\"><b>cầu thận</b></span>.",
+      "extra": "<b>💡 Giải thích của AI:</b> Trụ hồng cầu được đúc trong ống thận từ protein Tamm-Horsfall và hồng cầu đã đi qua màng lọc cầu thận. Hồng cầu biến dạng &gt; 80% (Bước 4 sơ đồ) chỉ là dấu hiệu gợi ý mạnh, không \"chắc chắn\" như trụ hồng cầu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.1 Xét nghiệm nước tiểu)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -399,7 +399,7 @@
       "category": "Cận lâm sàng",
       "section": "B5",
       "front": "Kể tên các <span style=\"color:#51cf66\"><b>xét nghiệm miễn dịch máu</b></span> cần làm theo sách khi nghi ngờ <span style=\"color:#74c0fc\"><b>đái máu do tổn thương cầu thận</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>ASLO</b></span> (tìm bằng chứng nhiễm liên cầu khuẩn).<br>2) <span style=\"color:#ffd43b\"><b>Bổ thể C3, C4</b></span> (đánh giá con đường hoạt hóa miễn dịch).<br>3) <span style=\"color:#51cf66\"><b>Định lượng IgA huyết thanh</b></span> (sàng lọc bệnh thận IgA / Schonlein-Henoch).<br>4) Kháng thể tự miễn: <span style=\"color:#51cf66\"><b>ANA</b></span> và <span style=\"color:#51cf66\"><b>Anti-dsDNA</b></span> (nếu nghi ngờ Lupus ban đỏ hệ thống).<br><br><b>💡 Giải thích của AI:</b><br>Bộ xét nghiệm miễn dịch này giúp phân tầng lập tức nguyên nhân: C3 giảm đơn độc nghĩ APSGN; C3 và C4 cùng giảm nghĩ Lupus; IgA tăng gợi ý bệnh thận IgA.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>ASLO</b></span> (tìm bằng chứng nhiễm liên cầu).<br>2) <span style=\"color:#ffd43b\"><b>Bổ thể C3, C4</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Định lượng nồng độ IgA</b></span>.<br>4) <span style=\"color:#51cf66\"><b>ANA, Anti-dsDNA</b></span> nếu nghi Lupus ban đỏ.<br><br><b>💡 Giải thích của AI:</b><br>C3 giảm, C4 bình thường: nghĩ viêm cầu thận cấp sau nhiễm liên cầu; C3 và C4 cùng giảm: nghĩ Lupus. Ngoài barem: IgA huyết thanh chỉ tăng ở khoảng một nửa bệnh nhân bệnh thận IgA, nên IgA bình thường không loại trừ bệnh.",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.2 Xét nghiệm máu)",
       "tags": [
         "PED-47",
@@ -413,8 +413,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 1: Khi <span style=\"color:#ff6b6b\"><b>protein niệu</b></span> kéo dài ở mức {{c1::<span style=\"color:#ffd43b\"><b>&gt; 50 mg/kg/ngày</b></span>}} (hoặc tỷ lệ UPr/UCr &gt; <span style=\"color:#ffd43b\"><b>2 mg/mg</b></span>).",
-      "extra": "<b>💡 Giải thích của AI:</b> Mức protein niệu ngưỡng thận hư dai dẳng cho thấy tổn thương cầu thận lan tỏa nghiêm trọng (FSGS, MPGN, Lupus) cần mô bệnh học định hướng điều trị.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 1: <span style=\"color:#ff6b6b\"><b>protein niệu</b></span> {{c1::<span style=\"color:#ffd43b\"><b>&gt; 1 g/1,73 m²/ngày</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Protein niệu nhiều và dai dẳng gợi ý tổn thương cầu thận lan tỏa cần mô bệnh học để định hướng điều trị.<br><b>⚖️ Đối chiếu (Ngoài barem):</b> 1 g/1,73 m²/ngày ≈ 24 mg/m²/giờ, tức protein niệu đáng kể nhưng chưa tới ngưỡng thận hư (KDIGO 2021: UPCR ≥ 2 mg/mg hay ≥ 200 mg/mmol, hoặc ≥ 40 mg/m²/giờ). Khi thi ghi đúng mốc barem.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận); KDIGO 2021 Glomerular Diseases",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -428,8 +428,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 2: Khi <span style=\"color:#ffd43b\"><b>bổ thể C3 giảm thấp kéo dài</b></span> quá {{c1::<span style=\"color:#ffd43b\"><b>6 – 8 tuần</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Viêm cầu thận cấp hậu liên cầu (APSGN) luôn có C3 tự hồi phục về bình thường sau 6–8 tuần. Nếu C3 tiếp tục thấp kéo dài bắt buộc sinh thiết loại trừ Viêm cầu thận màng tăng sinh (MPGN) hoặc Viêm thận Lupus.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 2: <span style=\"color:#ffd43b\"><b>bổ thể C3 thấp kéo dài</b></span> {{c1::<span style=\"color:#ffd43b\"><b>trên 3 tháng</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> C3 thấp kéo dài gợi ý bệnh không phải viêm cầu thận cấp sau nhiễm liên cầu (ví dụ viêm cầu thận tăng sinh màng/bệnh cầu thận C3, viêm thận Lupus).<br><b>⚖️ Đối chiếu (Ngoài barem):</b> trong viêm cầu thận cấp sau nhiễm liên cầu, C3 thường về bình thường trong 6–8 tuần, nên nhiều tài liệu cân nhắc sinh thiết sớm hơn nếu C3 vẫn thấp sau 8 tuần. Khi thi ghi mốc barem: trên 3 tháng.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận); Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -443,8 +443,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 3: Khi <span style=\"color:#ff6b6b\"><b>mức lọc cầu thận (eGFR)</b></span> suy giảm dưới ngưỡng {{c1::<span style=\"color:#ffd43b\"><b>&lt; 60 ml/phút/1.73 m²</b></span>}} kéo dài.",
-      "extra": "<b>💡 Giải thích của AI:</b> Suy giảm chức năng thận tiến triển hoặc không hồi phục cảnh báo viêm cầu thận tiến triển nhanh (RPGN) đe dọa xơ hóa không hồi phục.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 3: <span style=\"color:#ff6b6b\"><b>mức lọc cầu thận giảm</b></span> {{c1::<span style=\"color:#ffd43b\"><b>&lt; 80 ml/phút/1,73 m²</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Suy giảm chức năng thận là dấu hiệu tổn thương cầu thận có thể tiến triển, cần mô bệnh học.<br><b>⚖️ Đối chiếu:</b> mốc &lt; 60 ml/phút/1,73 m² là ngưỡng bệnh thận mạn giai đoạn G3 của KDIGO, không phải ngưỡng sinh thiết của barem; đừng nhầm hai mốc.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -458,7 +458,7 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 4: Chỉ định trên bệnh nhân mắc {{c1::<span style=\"color:#74c0fc\"><b>bệnh thận thứ phát hoặc bệnh hệ thống</b></span>}} (như Lupus ban đỏ hệ thống, Henoch-Schonlein có tổn thương thận nặng).",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 4: {{c1::<span style=\"color:#ff6b6b\"><b>viêm thận Lupus, viêm thận Schönlein–Henoch</b></span>}}.",
       "extra": "<b>💡 Giải thích của AI:</b> Mô bệnh học phân loại tổn thương thận Lupus (Class I đến VI theo ISN/RPS) quyết định trực tiếp phác đồ ức chế miễn dịch sống còn.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
       "tags": [
         "PED-47",
@@ -472,7 +472,7 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 5: Tiền sử gia đình có người mắc {{c1::<span style=\"color:#74c0fc\"><b>bệnh thận di truyền hoặc suy thận mạn</b></span>}} giai đoạn cuối.",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 5: <span style=\"color:#74c0fc\"><b>tiền sử gia đình</b></span> có bệnh thận nghi ngờ {{c1::<span style=\"color:#74c0fc\"><b>hội chứng Alport</b></span>}}.",
       "extra": "<b>💡 Giải thích của AI:</b> Giúp chẩn đoán xác định các bệnh lý cấu trúc màng đáy di truyền như Hội chứng Alport (đột biến chuỗi alpha collagen type IV).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
       "tags": [
         "PED-47",
@@ -486,8 +486,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 6: <span style=\"color:#74c0fc\"><b>Đái máu đại thể</b></span> tái diễn {{c1::<span style=\"color:#ffd43b\"><b>nhiều đợt</b></span>}} không rõ nguyên nhân sau khi đã loại trừ các bệnh lý đường niệu dưới.",
-      "extra": "<b>💡 Giải thích của AI:</b> Đái máu đại thể tái diễn nhiều lần gây thiếu máu hoặc lo âu cho gia đình, cần sinh thiết phân định bệnh thận IgA vs bệnh màng đáy mỏng.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 6: {{c1::<span style=\"color:#74c0fc\"><b>đái máu đại thể tái phát</b></span> mà không rõ nguyên nhân}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Thường để phân biệt bệnh thận IgA với bệnh màng đáy mỏng hoặc Alport (cả 3 đều có thể đái máu đại thể tái phát khi nhiễm trùng hô hấp trên).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -500,8 +500,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
-      "text": "[Barem gốc] Chỉ định sinh thiết thận 7: <span style=\"color:#74c0fc\"><b>Đái máu do cầu thận</b></span> kéo dài trên {{c1::<span style=\"color:#ffd43b\"><b>1 năm</b></span>}} mà không rõ nguyên nhân.",
-      "extra": "<b>💡 Giải thích của AI:</b> Đái máu vi thể kéo dài quá 12 tháng cần khảo sát mô bệnh học và kính hiển vi điện tử để xác định tiên lượng lâu dài.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
+      "text": "[Barem gốc] Chỉ định sinh thiết thận 7: <span style=\"color:#74c0fc\"><b>đái máu do cầu thận</b></span> mà {{c1::<span style=\"color:#ffd43b\"><b>gia đình thiết tha muốn biết nguyên nhân và tiên lượng</b></span>}}, mặc dù protein niệu không cao.",
+      "extra": "<b>💡 Giải thích của AI:</b> Chỉ định \"theo nguyện vọng gia đình\" là điểm đặc trưng của barem; nhớ kèm vế \"dù protein niệu không cao\".<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định Sinh thiết thận)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -530,7 +530,7 @@
       "type": "cloze",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
-      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 2</b></span> thuật toán tiếp cận: Tìm dấu hiệu <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp</b></span> qua tam chứng kinh điển gồm: {{c1::<span style=\"color:#ff6b6b\"><b>phù, tăng huyết áp, và thiểu niệu/suy thận</b></span>}}.",
+      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 2</b></span> sơ đồ tiếp cận: tìm dấu hiệu <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp</b></span> gồm: {{c1::<span style=\"color:#ff6b6b\"><b>phù, tăng huyết áp, đái ít</b></span>}}.",
       "extra": "<b>💡 Giải thích của AI:</b> Che trọn vẹn cả tam chứng để active recall toàn phần, không mớm lộ vế nào.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ tiếp cận)",
       "tags": [
         "PED-47",
@@ -544,8 +544,8 @@
       "type": "cloze",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
-      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 3</b></span> thuật toán: Phân loại lâm sàng: đái máu có kèm <span style=\"color:#ff6b6b\"><b>protein niệu</b></span> và hồng cầu biến dạng/trụ hồng cầu → xếp nhóm {{c1::<span style=\"color:#74c0fc\"><b>tại cầu thận</b></span>}}; đái máu đơn độc không đạm niệu → xếp nhóm {{c1::<span style=\"color:#74c0fc\"><b>ngoài cầu thận</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Tỷ lệ protein niệu đi kèm là chiếc la bàn định hướng: protein niệu đáng kể luôn chỉ điểm tổn thương rào cản lọc cầu thận.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 3)",
+      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 3</b></span> (khi không có viêm cầu thận cấp) – phân loại lâm sàng: <span style=\"color:#74c0fc\"><b>đái máu đại thể</b></span> → {{c1::<span style=\"color:#ff6b6b\"><b>loại trừ gắng sức thể dục thể thao</b></span>}}; <span style=\"color:#74c0fc\"><b>đái máu vi thể đơn độc</b></span> → {{c1::<span style=\"color:#ffd43b\"><b>làm lại xét nghiệm nước tiểu hằng tuần trong 2 tuần (không tập thể dục)</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Mục đích Bước 3 là loại đái máu thoáng qua (do gắng sức, sốt…) trước khi thăm dò sâu. Ngoài barem: tài liệu quốc tế cũng yêu cầu ≥ 2–3 mẫu dương tính cách nhau vài tuần mới gọi là đái máu vi thể dai dẳng.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 3)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -558,8 +558,8 @@
       "type": "cloze",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
-      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 4</b></span> thuật toán: Xác định nguyên nhân tại cầu thận bằng các xét nghiệm: {{c1::<span style=\"color:#51cf66\"><b>ASLO, C3, C4</b></span>}}, ANA, Anti-dsDNA, và xem xét {{c1::<span style=\"color:#51cf66\"><b>sinh thiết thận</b></span>}} theo 7 chỉ định chuẩn.",
-      "extra": "<b>💡 Giải thích của AI:</b> Bước 4 áp dụng các công cụ miễn dịch học huyết thanh để xác định chính xác danh tính bệnh lý cầu thận.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 4)",
+      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Bước 4</b></span> sơ đồ: soi {{c1::<span style=\"color:#51cf66\"><b>hình dáng hồng cầu</b></span>}} và định lượng {{c1::<span style=\"color:#51cf66\"><b>protein/creatinin niệu</b></span>}} để phân biệt nguyên nhân <span style=\"color:#74c0fc\"><b>tại cầu thận</b></span> với <span style=\"color:#74c0fc\"><b>ngoài cầu thận</b></span>.",
+      "extra": "<b>💡 Giải thích của AI:</b> Đây là \"bản lề\" của sơ đồ: kết quả Bước 4 quyết định đi nhánh cầu thận (xét nghiệm chuyên sâu, sinh thiết nếu có chỉ định) hay sang Bước 5 tìm nguyên nhân ngoài cầu thận.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 4)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -572,13 +572,189 @@
       "type": "basic",
       "category": "Thuật toán tiếp cận",
       "section": "B6",
-      "front": "<span style=\"color:#51cf66\"><b>Bước 5</b></span> thuật toán: Các xét nghiệm tìm <span style=\"color:#74c0fc\"><b>nguyên nhân ngoài cầu thận</b></span> theo giáo trình Nhi Thái Bình là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tỷ lệ Canxi/Creatinine niệu ngẫu nhiên</b></span> (tìm tăng canxi niệu vô căn).<br>2) <span style=\"color:#51cf66\"><b>Cấy nước tiểu</b></span> (tìm vi khuẩn Gram âm, Adenovirus).<br>3) <span style=\"color:#51cf66\"><b>Siêu âm hệ tiết niệu & Doppler mạch thận</b></span> (tìm sỏi, u Wilms, hội chứng Nutcracker).<br>4) <span style=\"color:#51cf66\"><b>Đông máu toàn bộ</b></span> (loại trừ rối loạn cầm máu đông máu).<br>5) X-quang KUB hoặc CT ổ bụng khi có chỉ định chuyên sâu.<br><br><b>💡 Giải thích của AI:</b><br>Nếu tất cả xét nghiệm trên hoàn toàn bình thường và trẻ không có triệu chứng, trẻ được xếp vào nhóm đái máu thoáng qua hoặc đái máu vi thể đơn độc lành tính, cần theo dõi định kỳ hàng năm mà không cần can thiệp xâm lấn.",
+      "front": "<span style=\"color:#51cf66\"><b>Bước 5</b></span> sơ đồ: các xét nghiệm tìm <span style=\"color:#74c0fc\"><b>nguyên nhân ngoài cầu thận</b></span> và kết luận khi tất cả bình thường theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tỷ lệ canxi/creatinin niệu</b></span> (tăng canxi niệu).<br>2) <span style=\"color:#51cf66\"><b>Cấy nước tiểu</b></span> tìm vi khuẩn, cấy Adenovirus.<br>3) <span style=\"color:#51cf66\"><b>Siêu âm Doppler mạch thận</b></span> (Nutcracker).<br>4) <span style=\"color:#51cf66\"><b>Xét nghiệm đông máu toàn bộ</b></span>.<br>5) <span style=\"color:#51cf66\"><b>X-quang bụng KUB</b></span> (sỏi cản quang).<br>6) <span style=\"color:#51cf66\"><b>Nước tiểu 24 giờ</b></span>: Ca, acid uric, oxalat, cystin.<br>7) <span style=\"color:#51cf66\"><b>CT ổ bụng</b></span> (chấn thương, u Wilms).<br>8) <span style=\"color:#51cf66\"><b>Chụp MRI mạch thận</b></span>.<br>→ Nếu tất cả bình thường: <span style=\"color:#ffd43b\"><b>đái máu thoáng qua, theo dõi định kỳ hằng năm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đi theo thứ tự nguyên nhân: chuyển hóa (canxi, nước tiểu 24 giờ) → nhiễm trùng (cấy) → mạch máu (Doppler, MRI) → đông máu → sỏi (KUB) → chấn thương, u (CT). Ngoài barem: Adenovirus có thể gây viêm bàng quang xuất huyết ở trẻ.",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 5)",
       "tags": [
         "PED-47",
         "Barem-goc",
         "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED47-B41",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Lâm sàng đái máu",
+      "section": "B4",
+      "front": "Triệu chứng thường đi kèm đái máu do bệnh lý <span style=\"color:#74c0fc\"><b>cầu thận</b></span> và do bệnh lý <span style=\"color:#51cf66\"><b>không cầu thận</b></span> theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh lý <span style=\"color:#74c0fc\"><b>cầu thận</b></span>: <span style=\"color:#ff6b6b\"><b>phù, cao huyết áp, ban, đau khớp, đau bụng</b></span>...<br>2) Bệnh lý <span style=\"color:#51cf66\"><b>không cầu thận</b></span>: <span style=\"color:#ffd43b\"><b>sốt, đái rắt, đái buốt, đau bụng</b></span>...<br>3) Ngoài ra có triệu chứng toàn thể: chán ăn, mệt mỏi.<br><br><b>💡 Giải thích của AI:</b><br>Đau bụng có mặt ở cả hai nhóm nên không giúp phân biệt. Nhóm cầu thận \"phù – huyết áp – ban – khớp\" gợi ý viêm cầu thận và bệnh hệ thống; nhóm không cầu thận \"sốt – rắt – buốt\" gợi ý nhiễm trùng đường tiểu.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 19, Mục 4 Đặc điểm lâm sàng)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B42",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lâm sàng đái máu",
+      "section": "B4",
+      "text": "[Barem gốc] Đái máu kèm <span style=\"color:#ff6b6b\"><b>cao huyết áp</b></span> thường gặp trong {{c1::<span style=\"color:#74c0fc\"><b>bệnh cầu thận cấp tính tiên phát hoặc thứ phát, bệnh thận mạn, thận đa nang, thận ứ nước</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Barem lưu ý huyết áp có thể tăng rất cao gây biến chứng suy tim, đôi khi chỉ tăng nhẹ.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Cao huyết áp)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B43",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lâm sàng đái máu",
+      "section": "B4",
+      "text": "[Barem gốc] Đái máu kèm <span style=\"color:#ff6b6b\"><b>xuất huyết dưới da, niêm mạc, khớp</b></span> nghĩ nhiều đến các bệnh về máu: {{c1::<span style=\"color:#ff6b6b\"><b>xuất huyết giảm tiểu cầu, hemophilia, bạch cầu cấp, suy tủy</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Xuất huyết có thể dạng chấm, nốt, mảng. Riêng xuất huyết cẳng chân dạng đi bốt thì nghĩ Schönlein–Henoch (thẻ riêng).<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 20, Mục 4 Xuất huyết da, niêm)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B44",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Lâm sàng đái máu",
+      "section": "B4",
+      "text": "[Barem gốc] Đái máu kèm <span style=\"color:#ff6b6b\"><b>sốt</b></span> hay gặp trong {{c1::<span style=\"color:#74c0fc\"><b>nhiễm khuẩn đường tiểu</b></span>}} (trẻ sơ sinh có thể hạ nhiệt độ); <span style=\"color:#ffd43b\"><b>sốt kéo dài</b></span> không rõ nguyên nhân kèm gầy sút, mệt mỏi, kém ăn có thể là {{c1::<span style=\"color:#ff6b6b\"><b>Lupus ban đỏ</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ở trẻ sơ sinh nhiễm khuẩn có thể biểu hiện hạ thân nhiệt thay vì sốt, nên không có sốt chưa loại trừ nhiễm khuẩn tiết niệu.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 21, Mục 4 Sốt)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B45",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Lâm sàng đái máu",
+      "section": "B4",
+      "front": "Các <span style=\"color:#74c0fc\"><b>triệu chứng khác</b></span> (thần kinh, hô hấp, tiêu hóa, tiết niệu, cơ quan tạo máu) đi kèm đái máu gợi ý bệnh gì theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thần kinh</b></span>: viêm cầu thận thể tăng huyết áp (hội chứng não – màng não), Lupus ban đỏ.<br>2) <span style=\"color:#74c0fc\"><b>Hô hấp</b></span>: đái máu nguồn gốc cầu thận; từ viêm đường hô hấp trên đến viêm phổi.<br>3) <span style=\"color:#ffd43b\"><b>Tiêu hóa</b></span>: nhiễm trùng đường tiểu, thận hư, Schönlein–Henoch.<br>4) <span style=\"color:#51cf66\"><b>Tiết niệu</b></span>: thường gặp trong đái máu không cầu thận.<br>5) <span style=\"color:#ff6b6b\"><b>Cơ quan tạo máu</b></span>: Lupus, bạch cầu cấp, suy tủy, xuất huyết giảm tiểu cầu, hemophilia.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo: triệu chứng tiết niệu → nghĩ ngoài cầu thận; triệu chứng thần kinh, hô hấp → nghĩ cầu thận hoặc bệnh hệ thống. Lupus xuất hiện ở cả thần kinh và tạo máu, nhớ Lupus là bệnh \"đa cơ quan\".",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 21, Mục 4 Các triệu chứng khác)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B46",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Cận lâm sàng",
+      "section": "B5",
+      "front": "<span style=\"color:#51cf66\"><b>Xét nghiệm nước tiểu</b></span> trong đái máu đánh giá những gì theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Màu sắc</b></span>: đỏ tươi, hồng, sẫm như nước chè, coca-cola (tùy mức độ và vị trí).<br>2) <span style=\"color:#ffd43b\"><b>Số lượng nước tiểu</b></span>: bình thường, giảm, thiểu niệu, vô niệu.<br>3) <span style=\"color:#74c0fc\"><b>Thành phần</b></span>: hồng cầu rải rác hoặc dày đặc; <span style=\"color:#51cf66\"><b>soi hình dáng hồng cầu</b></span> (biến dạng vs đồng dạng); <span style=\"color:#ff6b6b\"><b>trụ hồng cầu</b></span> (bằng chứng chắc chắn tổn thương cầu thận); <span style=\"color:#51cf66\"><b>protein niệu 24 giờ</b></span> hoặc chỉ số UPr/UCr.<br><br><b>💡 Giải thích của AI:</b><br>Ba câu hỏi khi cầm mẫu nước tiểu: màu gì, bao nhiêu, trong có gì. Phần \"thành phần\" là phần giúp định vị cầu thận hay ngoài cầu thận.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 21-22, Mục 5.1 Xét nghiệm nước tiểu)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B47",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Cận lâm sàng",
+      "section": "B5",
+      "front": "Kể tên các <span style=\"color:#51cf66\"><b>xét nghiệm máu</b></span> trong đái máu theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chức năng thận</b></span>: ure, creatinin.<br>2) <span style=\"color:#51cf66\"><b>Điện giải đồ</b></span>: Na⁺, K⁺, Cl⁻, Ca, Ca²⁺.<br>3) <span style=\"color:#51cf66\"><b>Protein, albumin, lipid, cholesterol</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>ASLO, bổ thể C3, C4</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Định lượng nồng độ IgA</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Đông máu</b></span>: PT, aPTT, fibrinogen.<br>7) <span style=\"color:#ffd43b\"><b>ANA, anti-dsDNA</b></span> nếu nghi Lupus ban đỏ.<br>8) <span style=\"color:#51cf66\"><b>Công thức máu</b></span> (kèm tiểu cầu).<br><br><b>💡 Giải thích của AI:</b><br>Nhớ theo 3 tầng: chức năng (ure, creatinin, điện giải, protein/lipid) → miễn dịch (ASLO, C3, C4, IgA, ANA, anti-dsDNA) → máu (đông máu, công thức máu).",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.2 Xét nghiệm máu)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B48",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Cận lâm sàng",
+      "section": "B5",
+      "text": "[Barem gốc] <span style=\"color:#51cf66\"><b>Chẩn đoán hình ảnh</b></span> trong đái máu gồm: {{c1::<span style=\"color:#51cf66\"><b>siêu âm thận – tiết niệu (Doppler mạch thận), X-quang hệ tiết niệu không chuẩn bị (KUB), CT nếu nghi bất thường giải phẫu hoặc khối u</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: siêu âm là lựa chọn đầu tay ở trẻ em vì không nhiễm xạ; CT chỉ dùng khi có chỉ định rõ.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.3 Chẩn đoán hình ảnh)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED47-B49",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thuật toán tiếp cận",
+      "section": "B6",
+      "front": "Ở <span style=\"color:#51cf66\"><b>Bước 2</b></span>, khi có dấu hiệu <span style=\"color:#ff6b6b\"><b>viêm cầu thận cấp</b></span>, barem chỉ định làm những xét nghiệm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>UPr/UCr</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Ure, creatinin, điện giải, albumin</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>C3, C4</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>ASLO, anti-DNase B</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>ANA, ANCA</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bộ xét nghiệm trả lời 3 câu: thận suy tới đâu (UPr/UCr, ure, creatinin, điện giải, albumin); có phải sau nhiễm liên cầu không (C3, C4, ASLO, anti-DNase B); có bệnh tự miễn, viêm mạch không (ANA, ANCA).",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 2)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED47-B50",
+      "track": "barem_goc",
+      "type": "cloze",
+      "category": "Thuật toán tiếp cận",
+      "section": "B6",
+      "text": "[Barem gốc] Bước 4 xếp vào nhóm <span style=\"color:#74c0fc\"><b>nguyên nhân tại cầu thận</b></span> khi hồng cầu biến đổi hình thái {{c1::<span style=\"color:#ffd43b\"><b>&gt; 80%</b></span>}} kèm protein niệu (+) và trụ hồng cầu (+).",
+      "extra": "<b>💡 Giải thích của AI:</b> Ngoài barem: tài liệu quốc tế còn dùng acanthocyte (hồng cầu hình nhẫn có chồi) ≥ 5% là dấu hiệu rất đặc hiệu của cầu thận (độ đặc hiệu ~98% nhưng độ nhạy chỉ ~52%, Köhler 1991). Khi thi dùng mốc barem &gt; 80%.<br>📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 4); Köhler H et al. Kidney Int 1991;40:115–120 (PMID 1921146)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Thuat-toan",
+        "Con-so"
+      ]
+    },
+    {
+      "id": "PED47-B51",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Thuật toán tiếp cận",
+      "section": "B6",
+      "front": "Khi Bước 4 xác định <span style=\"color:#74c0fc\"><b>nguyên nhân tại cầu thận</b></span>, barem chỉ định làm tiếp những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ure, creatinin, điện giải đồ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Protein niệu 24 giờ, C3, C4, IgA</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Siêu âm thận</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Xét nghiệm nước tiểu bố mẹ, anh chị em</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Kiểm tra thính học</b></span> (Alport).<br>6) <span style=\"color:#ff6b6b\"><b>Sinh thiết thận</b></span> nếu có chỉ định.<br><br><b>💡 Giải thích của AI:</b><br>Hai mục dễ quên nhất là xét nghiệm nước tiểu người nhà (tìm bệnh màng đáy mỏng, Alport) và đo thính lực (Alport có điếc tiếp nhận). Cả hai rẻ, không xâm lấn và có thể tránh sinh thiết không cần thiết.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ thuật toán Bước 4)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED47-B52",
+      "track": "barem_goc",
+      "type": "basic",
+      "category": "Định nghĩa đái máu",
+      "section": "B1",
+      "front": "<span style=\"color:#74c0fc\"><b>Đái máu</b></span> là gì, phân biệt <span style=\"color:#ff6b6b\"><b>đại thể</b></span> và <span style=\"color:#ffd43b\"><b>vi thể</b></span> theo barem?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đái máu</b></span>: có máu hay hồng cầu trong nước tiểu.<br>2) <span style=\"color:#ff6b6b\"><b>Đại thể</b></span>: phát hiện được bằng mắt thường.<br>3) <span style=\"color:#ffd43b\"><b>Vi thể</b></span>: xác định bằng kính hiển vi khi nước tiểu tươi giữa dòng có ≥ 5 hồng cầu/ml, hoặc trên 3 hồng cầu/vi trường trong mẫu quay ly tâm 10 ml nước tiểu tươi giữa dòng.<br><br><b>💡 Giải thích của AI:</b><br>Hai tiêu chuẩn vi thể tương ứng hai cách làm: soi tươi không ly tâm và soi cặn sau ly tâm. Đơn vị \"/ml\" trong barem nhiều khả năng là lỗi in (chuẩn quốc tế là /µL), nhưng khi thi chép đúng barem.",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 18, Mục 1)",
+      "tags": [
+        "PED-47",
+        "Barem-goc",
+        "Dinh-nghia"
       ]
     },
     {
@@ -601,9 +777,13 @@
       "type": "basic",
       "category": "Định nghĩa EBM",
       "section": "E0",
-      "front": "<span style=\"color:#ffd43b\"><b>Tiêu chuẩn chẩn đoán</b></span> <span style=\"color:#74c0fc\"><b>đái máu vi thể</b></span> chuẩn EBM quốc tế là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn tế bào:</b> Có <span style=\"color:#ffd43b\"><b>&gt; 3 hồng cầu/vi trường</b></span> (HPF 400×) trên mẫu cặn ly tâm 10 mL nước tiểu tươi (HOẶC <span style=\"color:#ffd43b\"><b>≥ 5 hồng cầu/mL</b></span> soi buồng đếm).<br>2) <b>Tiêu chuẩn thời gian:</b> Bắt buộc xác nhận trên ít nhất <span style=\"color:#ffd43b\"><b>2–3 mẫu nước tiểu độc lập</b></span> lấy cách nhau từ <span style=\"color:#ffd43b\"><b>1–2 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Một mẫu đơn độc có thể chỉ là đái máu thoáng qua vô hại do sốt cao, vận động thể lực mạnh hoặc chấn thương nhẹ. Chẩn đoán đái máu bệnh lý đòi hỏi tính chất dai dẳng trên nhiều thời điểm.",
-      "extra": "📖 Nguồn: Nelson 21st Ch.538; Feld LG et al. Pediatrics 1997",
+      "front": "<span style=\"color:#ffd43b\"><b>Tiêu chuẩn tế bào</b></span> và <span style=\"color:#ffd43b\"><b>tiêu chuẩn thời gian</b></span> để chẩn đoán <span style=\"color:#74c0fc\"><b>đái máu vi thể</b></span> theo EBM quốc tế là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn tế bào:</b> <span style=\"color:#ffd43b\"><b>&gt; 5 hồng cầu/vi trường</b></span> (400×) trên cặn ly tâm 10 mL nước tiểu tươi, hoặc <span style=\"color:#ffd43b\"><b>≥ 5 hồng cầu/µL</b></span> nước tiểu không ly tâm (buồng đếm).<br>2) <b>Tiêu chuẩn thời gian:</b> xác nhận trên ít nhất <span style=\"color:#ffd43b\"><b>2–3 mẫu nước tiểu</b></span> lấy cách nhau vài tuần.<br><br><b>💡 Giải thích của AI:</b><br>Một mẫu đơn độc có thể chỉ là đái máu thoáng qua do sốt, vận động mạnh hoặc chấn thương nhẹ. ⚖️ Đối chiếu barem: barem dùng \"trên 3 hồng cầu/vi trường\" và \"≥ 5 hồng cầu/ml\" (đơn vị /ml nhiều khả năng là lỗi in của /µL); khi thi viết theo barem.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 22e; Feld LG et al. Pediatrics 1997",
+      "asks": [
+        "Tiêu chuẩn tế bào",
+        "Tiêu chuẩn thời gian"
+      ],
       "tags": [
         "PED-47",
         "EBM",
@@ -631,8 +811,8 @@
       "type": "basic",
       "category": "Cục máu đông",
       "section": "E0",
-      "front": "Vì sao <span style=\"color:#74c0fc\"><b>đái máu cầu thận</b></span> TUYỆT ĐỐI KHÔNG BAO GIỜ hình thành <span style=\"color:#ff6b6b\"><b>cục máu đông (Blood clots)</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng enzyme Urokinase:</b> Tế bào biểu mô ống thận sản xuất phong phú enzyme <span style=\"color:#51cf66\"><b>Urokinase</b></span> phân hủy sợi Fibrin ngay khi vừa hình thành.<br>2) <b>Máu hòa tan từ từ:</b> Hồng cầu rò rỉ phân tán rải rác trong thể tích dịch lọc cầu thận lớn, không đủ nồng độ Fibrinogen tập trung để đông tụ.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc lâm sàng bất di bất dịch: Nếu quan sát thấy bất kỳ cục máu đông nào trong nước tiểu, 100% nguồn gốc chảy máu nằm ở đường dẫn niệu dưới (ngoài cầu thận), tuyệt đối không quy kết cho viêm cầu thận đơn thuần.",
+      "front": "Vì sao <span style=\"color:#74c0fc\"><b>đái máu cầu thận</b></span> hầu như không có <span style=\"color:#ff6b6b\"><b>cục máu đông (blood clots)</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng enzyme Urokinase:</b> Tế bào biểu mô ống thận sản xuất <span style=\"color:#51cf66\"><b>Urokinase</b></span> phân hủy sợi fibrin ngay khi vừa hình thành.<br>2) <b>Máu hòa tan từ từ:</b> Hồng cầu rò rỉ rải rác trong thể tích dịch lọc lớn, không đủ fibrinogen tập trung để đông.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc lâm sàng: thấy cục máu đông trong nước tiểu thì nghĩ trước hết đến chảy máu từ đường dẫn niệu (ngoài cầu thận). Đây là quy tắc gợi ý mạnh chứ không tuyệt đối 100%, nên vẫn cần soi hình dạng hồng cầu.",
       "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538",
       "tags": [
         "PED-47",
@@ -705,8 +885,8 @@
       "type": "cloze",
       "category": "Hình thái hồng cầu",
       "section": "E2",
-      "text": "[EBM] Trong đái máu cầu thận, tế bào {{c1::<span style=\"color:#74c0fc\"><b>Acanthocyte (tế bào G1)</b></span>}} (hồng cầu hình nhẫn có các bọc phồng chồi ra như tai chuột Mickey) với tỷ lệ &gt; {{c1::<span style=\"color:#ffd43b\"><b>5%</b></span>}} có độ đặc hiệu &gt; 98% cho viêm cầu thận.",
-      "extra": "<b>💡 Giải thích của AI:</b> Acanthocyte là tiêu chuẩn vàng hình thái học chỉ điểm tổn thương xuyên màng đáy cầu thận và sang chấn thẩm thấu ống thận.<br>📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538; Köhler et al. Kidney Int 1991",
+      "text": "[EBM] Trong đái máu cầu thận, {{c1::<span style=\"color:#74c0fc\"><b>acanthocyte</b></span>}} (hồng cầu hình nhẫn có các bọng chồi ra như tai chuột Mickey) chiếm ≥ {{c1::<span style=\"color:#ffd43b\"><b>5%</b></span>}} có độ đặc hiệu khoảng 98% cho bệnh cầu thận.",
+      "extra": "<b>💡 Giải thích của AI:</b> Độ đặc hiệu cao nhưng độ nhạy chỉ khoảng 52% (một mẫu), nên không thấy acanthocyte chưa loại trừ bệnh cầu thận.<br><b>⚖️ Đối chiếu barem:</b> barem không dùng acanthocyte mà dùng \"hồng cầu biến đổi hình thái &gt; 80%\" ở Bước 4; khi thi ghi mốc &gt; 80%.<br>📖 Nguồn: Köhler H, Wandel E, Brunck B. Acanthocyturia – a characteristic marker for glomerular bleeding. Kidney Int 1991;40:115–120 (PMID 1921146)",
       "tags": [
         "PED-47",
         "EBM",
@@ -736,7 +916,7 @@
       "category": "Trụ hồng cầu",
       "section": "E2",
       "front": "<span style=\"color:#74c0fc\"><b>Bản chất sinh lý bệnh</b></span> của <span style=\"color:#ff6b6b\"><b>Trụ hồng cầu (RBC Casts)</b></span> và ý nghĩa lâm sàng là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất:</b> Hình thành khi các tế bào hồng cầu kết tụ dính vào chất nền glycoprotein <span style=\"color:#74c0fc\"><b>Tamm-Horsfall</b></span> do quai Henle tiết ra trong điều kiện dòng nước tiểu chậm và cô đặc.<br>2) <b>Ý nghĩa lâm sàng:</b> Là bằng chứng <span style=\"color:#51cf66\"><b>chuyên biệt 100%</b></span> khẳng định đái máu bắt nguồn từ trong nhu mô cầu thận.<br><br><b>💡 Giải thích của AI:</b><br>Trụ niệu chỉ có thể được đúc thành khuôn bên trong lòng ống lượn xa và ống góp. Do đó sự hiện diện của trụ hồng cầu loại trừ hoàn toàn khả năng chảy máu từ niệu quản hay bàng quang.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất:</b> Hình thành khi các tế bào hồng cầu kết tụ dính vào chất nền glycoprotein <span style=\"color:#74c0fc\"><b>Tamm-Horsfall</b></span> trong lòng ống thận, khi dòng nước tiểu chậm và cô đặc.<br>2) <b>Ý nghĩa lâm sàng:</b> Là bằng chứng <span style=\"color:#51cf66\"><b>rất đặc hiệu</b></span> cho thấy đái máu bắt nguồn từ cầu thận (viêm cầu thận).<br><br><b>💡 Giải thích của AI:</b><br>Trụ niệu chỉ được đúc khuôn trong lòng ống thận, nên trụ hồng cầu gần như loại trừ chảy máu từ niệu quản hay bàng quang. Ngược lại, không thấy trụ hồng cầu chưa loại trừ bệnh cầu thận vì trụ dễ vỡ, dễ bị bỏ sót.",
       "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538",
       "tags": [
         "PED-47",
@@ -842,8 +1022,8 @@
       "type": "cloze",
       "category": "Viêm mạch Henoch",
       "section": "E3",
-      "text": "[EBM] Tứ chứng kinh điển của <span style=\"color:#74c0fc\"><b>Viêm mạch Schonlein-Henoch (HSP / IgA vasculitis)</b></span> gồm: {{c1::<span style=\"color:#ff6b6b\"><b>tử ban sờ thấy ở chi dưới, đau khớp/viêm khớp, đau bụng ngoại khoa, và tổn thương thận (đái máu, đạm niệu)</b></span>}}.",
-      "extra": "<b>💡 Giải thích của AI:</b> Che toàn bộ tứ chứng kinh điển để active recall toàn diện bệnh cảnh Schönlein-Henoch.<br>📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.171",
+      "text": "[EBM] Tiêu chuẩn chẩn đoán <span style=\"color:#74c0fc\"><b>viêm mạch IgA (Schönlein–Henoch)</b></span> ở trẻ em (EULAR/PRINTO/PRES 2010): bắt buộc có {{c1::<span style=\"color:#ff6b6b\"><b>ban xuất huyết sờ thấy ưu thế ở chi dưới</b></span>}}, kèm ít nhất 1 trong 4: {{c1::<span style=\"color:#ffd43b\"><b>đau bụng, viêm khớp/đau khớp, tổn thương thận (đái máu, protein niệu), mô bệnh học lắng đọng IgA</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Ban xuất huyết là tiêu chuẩn bắt buộc; đau bụng thường do viêm mạch thành ruột và có thể biến chứng lồng ruột.<br>📖 Nguồn: Ozen S et al. EULAR/PRINTO/PRES criteria. Ann Rheum Dis 2010;69:798–806",
       "tags": [
         "PED-47",
         "EBM",
@@ -857,8 +1037,12 @@
       "category": "Bệnh màng đáy mỏng",
       "section": "E3",
       "front": "<span style=\"color:#74c0fc\"><b>Bệnh màng đáy mỏng (Thin Basement Membrane Disease)</b></span>: cơ chế di truyền và <span style=\"color:#51cf66\"><b>tiên lượng lâm sàng</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế di truyền:</b> Đột biến dị hợp tử gen <span style=\"color:#74c0fc\"><b>COL4A3 hoặc COL4A4</b></span> di truyền trội trên nhiễm sắc thể thường, làm màng đáy cầu thận mỏng đều dưới 250 nm.<br>2) <b>Tiên lượng lâm sàng:</b> Tiên lượng <span style=\"color:#51cf66\"><b>cực kỳ lành tính</b></span>, chức năng thận bình thường suốt đời, không bao giờ dẫn đến suy thận mạn.<br><br><b>💡 Giải thích của AI:</b><br>Còn gọi là Đái máu gia đình lành tính (Benign Familial Hematuria). Bố hoặc mẹ bệnh nhi cũng thường có đái máu vi thể không triệu chứng; không có chỉ định sinh thiết thận nếu lâm sàng điển hình.",
-      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538.4",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế di truyền:</b> Đột biến dị hợp tử gen <span style=\"color:#74c0fc\"><b>COL4A3 hoặc COL4A4</b></span> (trội nhiễm sắc thể thường), làm màng đáy cầu thận mỏng lan tỏa.<br>2) <b>Tiên lượng lâm sàng:</b> <span style=\"color:#51cf66\"><b>Phần lớn lành tính</b></span>, chức năng thận bình thường; nhưng <span style=\"color:#ff6b6b\"><b>một số ít</b></span> tiến triển protein niệu, tăng huyết áp, suy thận khi lớn tuổi.<br><br><b>💡 Giải thích của AI:</b><br>Còn gọi là đái máu gia đình lành tính; bố hoặc mẹ thường cũng có đái máu vi thể. Vì có nguy cơ tiến triển nhỏ, xu hướng mới xếp người mang đột biến dị hợp COL4A3/A4 vào phổ \"Alport trội nhiễm sắc thể thường\" và vẫn cần theo dõi huyết áp, protein niệu định kỳ.",
+      "extra": "📖 Nguồn: Savige J et al. Expert guidelines for the management of Alport syndrome and thin basement membrane nephropathy. J Am Soc Nephrol 2013;24:364–375 (PMID 23349312); Kashtan CE et al. Kidney Int 2018",
+      "asks": [
+        "Cơ chế di truyền",
+        "Tiên lượng lâm sàng"
+      ],
       "tags": [
         "PED-47",
         "EBM",
@@ -872,7 +1056,7 @@
       "category": "Hội chứng Alport",
       "section": "E3",
       "front": "<span style=\"color:#ff6b6b\"><b>Tam chứng kinh điển</b></span> của <span style=\"color:#74c0fc\"><b>Hội chứng Alport</b></span> là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm thận tiến triển</b></span> (đái máu vi thể dai dẳng → protein niệu → suy thận mạn giai đoạn cuối).<br>2) <span style=\"color:#ff6b6b\"><b>Điếc tiếp nhận thần kinh giác quan</b></span> đối xứng hai bên (đặc biệt ở dải tần số cao).<br>3) <span style=\"color:#ff6b6b\"><b>Bất thường ở mắt</b></span>: biến dạng hình chóp giác mạc (Anterior lenticonus) và chấm đốm võng mạc.<br><br><b>💡 Giải thích của AI:</b><br>Đột biến gen COL4A5 liên kết nhiễm sắc thể X phá hủy cấu trúc chuỗi collagen type IV cấu tạo nên màng đáy của cầu thận, ốc tai và màng bao thể thủy tinh.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm thận tiến triển</b></span> (đái máu vi thể dai dẳng → protein niệu → suy thận mạn giai đoạn cuối).<br>2) <span style=\"color:#ff6b6b\"><b>Điếc tiếp nhận</b></span> hai bên (khởi đầu ở tần số cao).<br>3) <span style=\"color:#ff6b6b\"><b>Bất thường ở mắt</b></span>: thể thủy tinh hình chóp trước (anterior lenticonus), chấm đốm võng mạc.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh do đột biến collagen type IV (cấu tạo màng đáy cầu thận, ốc tai, bao thể thủy tinh). Khoảng 80% là gen COL4A5 liên kết X (nam nặng hơn nữ); phần còn lại do COL4A3/COL4A4 di truyền lặn hoặc trội nhiễm sắc thể thường.",
       "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538.5 Alport Syndrome",
       "tags": [
         "PED-47",
@@ -945,8 +1129,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết EBM",
       "section": "E4",
-      "text": "[EBM] Ngưỡng protein niệu chỉ định sinh thiết thận theo barem là &gt; 50 mg/kg/ngày; theo chuẩn EBM quốc tế (KDIGO) là khi tỷ lệ đạm niệu/creatinine niệu {{c1::<span style=\"color:#ffd43b\"><b>UPr/UCr &gt; 2 mg/mg (hoặc &gt; 200 mg/mmol)</b></span>}} kéo dài.",
-      "extra": "<b>💡 Giải thích của AI:</b> Đái máu đi kèm protein niệu ngưỡng thận hư là dấu hiệu báo động đỏ của tổn thương viêm màng tăng sinh hoặc xơ chai cầu thận khu trú tiến triển.<br>📖 Nguồn: Nelson 21st Ch.538; KDIGO 2021 Glomerular Diseases",
+      "text": "[EBM] Ngưỡng protein niệu chỉ định sinh thiết thận theo barem là &gt; 1 g/1,73 m²/ngày; còn ngưỡng <span style=\"color:#ff6b6b\"><b>protein niệu thận hư</b></span> ở trẻ em theo KDIGO 2021 là {{c1::<span style=\"color:#ffd43b\"><b>UPr/UCr ≥ 2 mg/mg (≥ 200 mg/mmol)</b></span>}}.",
+      "extra": "<b>💡 Giải thích của AI:</b> Hai ngưỡng khác nhau: 1 g/1,73 m²/ngày (≈ 24 mg/m²/giờ) là protein niệu đáng kể; ngưỡng thận hư cao hơn (≥ 40 mg/m²/giờ). Đái máu kèm protein niệu nhiều là dấu hiệu báo động tổn thương cầu thận nặng.<br>📖 Nguồn: KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases",
       "tags": [
         "PED-47",
         "EBM",
@@ -960,8 +1144,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết EBM",
       "section": "E4",
-      "text": "[EBM] Mốc thời gian bổ thể C3 thấp kéo dài bắt buộc phải sinh thiết thận là sau {{c1::<span style=\"color:#ffd43b\"><b>6 – 8 tuần</b></span>}} vì sau thời gian này đợt viêm cầu thận cấp hậu liên cầu (APSGN) bắt buộc phải hồi phục C3 về mức bình thường.",
-      "extra": "<b>💡 Giải thích của AI:</b> C3 giảm dai dẳng sau 8 tuần loại trừ APSGN và hướng tới chẩn đoán Viêm cầu thận màng tăng sinh (MPGN) hoặc Viêm thận Lupus.<br>📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538",
+      "text": "[EBM] Trong viêm cầu thận cấp sau nhiễm liên cầu, bổ thể C3 thường về bình thường sau {{c1::<span style=\"color:#ffd43b\"><b>6 – 8 tuần</b></span>}}; C3 vẫn thấp sau mốc này gợi ý chẩn đoán khác và cần cân nhắc sinh thiết thận.",
+      "extra": "<b>💡 Giải thích của AI:</b> C3 thấp dai dẳng hướng tới viêm cầu thận tăng sinh màng / bệnh cầu thận C3 hoặc viêm thận Lupus.<br><b>⚖️ Đối chiếu barem:</b> chỉ định sinh thiết của barem là C3 thấp kéo dài <b>trên 3 tháng</b>; khi thi ghi mốc barem.<br>📖 Nguồn: Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "EBM",
@@ -975,8 +1159,8 @@
       "type": "cloze",
       "category": "Chỉ định sinh thiết EBM",
       "section": "E4",
-      "text": "[EBM] Mức lọc cầu thận (eGFR) giảm kéo dài dưới ngưỡng &lt; 60 ml/phút/1.73 m² phản ánh tổn thương thận cấp chuyển biến sang {{c1::<span style=\"color:#ff6b6b\"><b>bệnh thận mạn giai đoạn 3</b></span>}}, bắt buộc sinh thiết thận để tìm nguyên nhân can thiệp trước khi xơ hóa hoàn toàn.",
-      "extra": "<b>💡 Giải thích của AI:</b> Suy giảm mức lọc cầu thận kéo dài trên 3 tháng định nghĩa bệnh thận mạn; sinh thiết giúp đánh giá tỷ lệ xơ chai cầu thận và teo ống thận mô kẽ.<br>📖 Nguồn: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD",
+      "text": "[EBM] Mức lọc cầu thận &lt; 60 ml/phút/1,73 m² kéo dài &gt; 3 tháng tương ứng {{c1::<span style=\"color:#ff6b6b\"><b>bệnh thận mạn giai đoạn G3</b></span>}} theo KDIGO.",
+      "extra": "<b>💡 Giải thích của AI:</b> Bệnh thận mạn được định nghĩa khi bất thường cấu trúc hoặc chức năng thận kéo dài trên 3 tháng.<br><b>⚖️ Đối chiếu barem:</b> mốc sinh thiết thận của barem là mức lọc cầu thận &lt; <b>80</b> ml/phút/1,73 m², không phải &lt; 60; đừng nhầm hai mốc.<br>📖 Nguồn: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD",
       "tags": [
         "PED-47",
         "EBM",
@@ -990,8 +1174,8 @@
       "category": "An toàn sinh thiết",
       "section": "E4",
       "front": "<span style=\"color:#ffd43b\"><b>4 điều kiện an toàn bắt buộc</b></span> phải kiểm tra trước khi thực hiện <span style=\"color:#51cf66\"><b>sinh thiết thận</b></span> ở trẻ em?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đông cầm máu bình thường:</b> <span style=\"color:#51cf66\"><b>Tiểu cầu &gt; 100,000/µL</b></span>, PT, aPTT và thời gian chảy máu trong giới hạn bình thường.<br>2) <b>Kiểm soát huyết áp:</b> <span style=\"color:#51cf66\"><b>Huyết áp được kiểm soát ổn định</b></span> dưới bách phân vị thứ 90 (tránh nguy cơ tụ máu quanh thận ồ ạt).<br>3) <b>Giải phẫu thận:</b> Siêu âm khẳng định <span style=\"color:#74c0fc\"><b>bệnh nhân có đủ 2 thận</b></span> và không có dị dạng nang thận lớn hoặc thận ứ nước nặng.<br>4) <b>Không có nhiễm trùng:</b> Không có nhiễm trùng huyết hoặc nhiễm trùng da tại vị trí chọc kim.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết thận là thủ thuật xâm lấn qua da vào cơ quan có lưu lượng tuần hoàn lớn nhất cơ thể (chiếm 20% cung lượng tim). Tăng huyết áp chưa kiểm soát hoặc rối loạn đông máu có thể dẫn đến chảy máu bao thận dữ dội đe dọa tính mạng.",
-      "extra": "📖 Nguồn: Pediatric Nephrology: Renal Biopsy Safety Guidelines 2020",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đông cầm máu:</b> <span style=\"color:#51cf66\"><b>tiểu cầu, PT, aPTT bình thường</b></span> (nhiều cơ sở yêu cầu tiểu cầu &gt; 100.000/µL); ngừng thuốc chống đông, chống ngưng tập tiểu cầu.<br>2) <b>Kiểm soát huyết áp:</b> <span style=\"color:#51cf66\"><b>huyết áp được kiểm soát</b></span> trước thủ thuật.<br>3) <b>Giải phẫu thận:</b> siêu âm xác định <span style=\"color:#74c0fc\"><b>có 2 thận</b></span>, kích thước và vị trí phù hợp, không có nang lớn hay thận ứ nước nặng tại vị trí chọc.<br>4) <b>Không có nhiễm trùng:</b> không nhiễm khuẩn huyết hoặc nhiễm trùng da tại vị trí chọc kim.<br><br><b>💡 Giải thích của AI:</b><br>Thận nhận khoảng 20% cung lượng tim nên biến chứng chính của sinh thiết là chảy máu; tăng huyết áp chưa kiểm soát và rối loạn đông máu làm tăng nguy cơ này. Ngưỡng tiểu cầu cụ thể khác nhau giữa các cơ sở.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 22e; thực hành sinh thiết thận qua da ở trẻ em (ngưỡng xét nghiệm tùy cơ sở)",
       "tags": [
         "PED-47",
         "EBM",
@@ -1006,7 +1190,7 @@
       "category": "Thực chiến 5 bước",
       "section": "E5",
       "front": "Trong <span style=\"color:#74c0fc\"><b>thuật toán 5 bước thực chiến</b></span>, sau khi khẳng định <span style=\"color:#ff6b6b\"><b>đái máu thực sự</b></span> (Bước 1), Bước 2 phải sàng lọc ngay <span style=\"color:#74c0fc\"><b>hội chứng gì</b></span> và chỉ định <span style=\"color:#51cf66\"><b>xét nghiệm khẩn nào</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hội chứng cần sàng lọc:</b> <span style=\"color:#74c0fc\"><b>Hội chứng Viêm cầu thận cấp</b></span> qua việc khám tìm tam chứng: <span style=\"color:#ff6b6b\"><b>Phù</b></span> (mi mắt sáng), <span style=\"color:#ff6b6b\"><b>Tăng huyết áp</b></span> và <span style=\"color:#ffd43b\"><b>Thiểu niệu</b></span>.<br>2) <b>Xét nghiệm khẩn cấp:</b> Chỉ định ngay <span style=\"color:#51cf66\"><b>UPr/UCr</b></span>, <span style=\"color:#51cf66\"><b>Creatinine huyết thanh</b></span>, <span style=\"color:#51cf66\"><b>Điện giải đồ</b></span>, <span style=\"color:#51cf66\"><b>C3, C4</b></span> và <span style=\"color:#51cf66\"><b>ASLO</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viêm cầu thận cấp là tình trạng có nguy cơ biến chứng suy thận cấp đe dọa tính mạng, phù phổi cấp hoặc bệnh não do tăng huyết áp trong 24–48 giờ đầu nên bắt buộc phải ưu tiên xử lý trước mọi thăm dò chuyên sâu khác.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hội chứng cần sàng lọc:</b> <span style=\"color:#74c0fc\"><b>viêm cầu thận cấp</b></span>, khám tìm <span style=\"color:#ff6b6b\"><b>phù</b></span>, <span style=\"color:#ff6b6b\"><b>tăng huyết áp</b></span>, <span style=\"color:#ffd43b\"><b>đái ít</b></span>.<br>2) <b>Xét nghiệm khẩn:</b> <span style=\"color:#51cf66\"><b>UPr/UCr, ure, creatinin, điện giải, albumin</b></span>; <span style=\"color:#51cf66\"><b>C3, C4, ASLO, anti-DNase B</b></span>; <span style=\"color:#51cf66\"><b>ANA, ANCA</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viêm cầu thận cấp có nguy cơ suy thận cấp, phù phổi cấp hoặc bệnh não do tăng huyết áp trong những ngày đầu nên phải xử lý trước mọi thăm dò sâu khác. Danh sách xét nghiệm trên khớp với Bước 2 của barem.",
       "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538",
       "tags": [
         "PED-47",
@@ -1021,7 +1205,7 @@
       "category": "Đái máu vi thể đơn độc",
       "section": "E5",
       "front": "Ở trẻ có <span style=\"color:#74c0fc\"><b>đái máu vi thể đơn độc không triệu chứng</b></span> (Asymptomatic Microscopic Hematuria), bước tiếp cận chuẩn tiếp theo là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm nước tiểu gia đình:</b> Kiểm tra tổng phân tích nước tiểu của <span style=\"color:#74c0fc\"><b>cả bố và mẹ ruột</b></span> (để sàng lọc Bệnh màng đáy mỏng hoặc Alport).<br>2) <b>Sàng lọc chuyển hóa:</b> Đo <span style=\"color:#51cf66\"><b>tỷ lệ Canxi/Creatinine niệu</b></span> ngẫu nhiên (loại trừ tăng canxi niệu vô căn).<br>3) <b>Chiến lược theo dõi:</b> Nếu các xét nghiệm âm tính, <span style=\"color:#51cf66\"><b>theo dõi định kỳ huyết áp và nước tiểu mỗi 6–12 tháng</b></span>, tuyệt đối không can thiệp xâm lấn không cần thiết.<br><br><b>💡 Giải thích của AI:</b><br>Đái máu vi thể đơn độc không có protein niệu có tiên lượng xuất sắc. Hơn 80% các trường hợp tự thoái lui hoặc là biến thể gia đình lành tính không ảnh hưởng chức năng thận.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm nước tiểu gia đình:</b> tổng phân tích nước tiểu của <span style=\"color:#74c0fc\"><b>bố mẹ, anh chị em</b></span> (sàng lọc bệnh màng đáy mỏng, Alport).<br>2) <b>Sàng lọc chuyển hóa:</b> <span style=\"color:#51cf66\"><b>tỷ lệ canxi/creatinin niệu</b></span> (tăng canxi niệu).<br>3) <b>Chiến lược theo dõi:</b> nếu không có protein niệu, tăng huyết áp hay suy thận → <span style=\"color:#51cf66\"><b>theo dõi định kỳ huyết áp, nước tiểu</b></span>, không làm thủ thuật xâm lấn.<br><br><b>💡 Giải thích của AI:</b><br>Đái máu vi thể đơn độc không có protein niệu thường có tiên lượng tốt; nhiều trường hợp tự hết. Dấu hiệu cần thăm dò sâu: xuất hiện protein niệu, tăng huyết áp, giảm mức lọc cầu thận hoặc đái máu đại thể.",
       "extra": "📖 Nguồn: Nelson 21st Ch.538; Feld LG et al. Pediatrics 1997",
       "tags": [
         "PED-47",
@@ -1110,8 +1294,8 @@
       "category": "Cạm bẫy sinh tử",
       "section": "E7",
       "front": "Cạm bẫy: <span style=\"color:#51cf66\"><b>Que thử Dipstick dương tính 3+ với máu</b></span> — vì sao không được vội vàng kết luận đái máu và ảnh hưởng gì đến hướng <span style=\"color:#51cf66\"><b>điều trị</b></span> cấp cứu?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do:</b> Dipstick chỉ phát hiện nhân Heme, không phân biệt được hồng cầu nguyên vẹn với <span style=\"color:#ff6b6b\"><b>Hemoglobin tự do (tán huyết)</b></span> hoặc <span style=\"color:#ff6b6b\"><b>Myoglobin (tiêu cơ vân)</b></span>.<br>2) <b>Hành động bắt buộc:</b> Phải luôn <span style=\"color:#51cf66\"><b>soi cặn lắng kính hiển vi</b></span>; chỉ kết luận đái máu thực sự khi nhìn thấy tế bào hồng cầu nguyên vẹn.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lỗi sai phổ biến nhất ở phòng khám cấp cứu. Kết luận đái máu khi bệnh nhân thực chất bị tiêu cơ vân cấp (do sốt co giật hoặc chấn thương) sẽ làm trì hoãn điều trị bù dịch kiềm hóa nước tiểu bảo vệ ống thận.",
-      "extra": "📖 Nguồn: Nelson 21st Ch.538; Cạm bẫy lâm sàng số 1",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do:</b> Dipstick chỉ phát hiện nhân heme, không phân biệt được hồng cầu nguyên vẹn với <span style=\"color:#ff6b6b\"><b>hemoglobin tự do (tán huyết)</b></span> hoặc <span style=\"color:#ff6b6b\"><b>myoglobin (tiêu cơ vân)</b></span>.<br>2) <b>Hành động bắt buộc:</b> phải <span style=\"color:#51cf66\"><b>soi cặn nước tiểu dưới kính hiển vi</b></span>; chỉ kết luận đái máu khi thấy hồng cầu.<br><br><b>💡 Giải thích của AI:</b><br>Nhầm tiêu cơ vân (sau co giật, chấn thương, viêm cơ) thành đái máu sẽ làm chậm bù dịch tích cực để bảo vệ ống thận. Đây chính là nhánh \"que thử (+), soi tươi (−)\" ở Bước 1 của barem.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "EBM",
@@ -1125,8 +1309,8 @@
       "category": "Cạm bẫy sinh tử",
       "section": "E7",
       "front": "Cạm bẫy: Vì sao không bao giờ được chẩn đoán <span style=\"color:#74c0fc\"><b>đái máu vi thể bệnh lý</b></span> chỉ dựa trên <span style=\"color:#ffd43b\"><b>một mẫu nước tiểu duy nhất</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do:</b> Đái máu vi thể đơn độc thoáng qua rất phổ biến ở trẻ em (gặp ở 1–2% trẻ học đường) do <span style=\"color:#ffd43b\"><b>sốt cao, vận động mạnh hoặc chấn thương nhẹ</b></span>.<br>2) <b>Quy tắc chẩn đoán:</b> Bắt buộc phải lặp lại xét nghiệm trên <span style=\"color:#ffd43b\"><b>2–3 mẫu nước tiểu độc lập lấy cách nhau 1–2 tuần</b></span>; chỉ tiếp tục thăm dò khi hồng cầu niệu tồn tại dai dẳng.<br><br><b>💡 Giải thích của AI:</b><br>Việc vội vã chỉ định một loạt xét nghiệm máu, siêu âm, chụp chiếu tốn kém cho một đứa trẻ khỏe mạnh chỉ vì một mẫu nước tiểu bất thường đơn độc gây sang chấn tâm lý nặng nề cho phụ huynh và lãng phí nguồn lực y tế.",
-      "extra": "📖 Nguồn: Nelson 21st Ch.538; Feld LG et al. Pediatrics 1997",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do:</b> đái máu vi thể thoáng qua rất hay gặp: khoảng <span style=\"color:#ffd43b\"><b>3–4%</b></span> trẻ đi học có hồng cầu niệu ở một mẫu, nhưng chỉ khoảng <span style=\"color:#ffd43b\"><b>1%</b></span> còn dương tính khi xét nghiệm lặp lại; nguyên nhân thoáng qua: <span style=\"color:#ffd43b\"><b>sốt, vận động mạnh, chấn thương nhẹ</b></span>.<br>2) <b>Quy tắc chẩn đoán:</b> lặp lại xét nghiệm trên <span style=\"color:#ffd43b\"><b>2–3 mẫu nước tiểu cách nhau vài tuần</b></span>; chỉ thăm dò sâu khi hồng cầu niệu dai dẳng.<br><br><b>💡 Giải thích của AI:</b><br>Khớp với Bước 3 của barem: đái máu vi thể đơn độc → làm lại xét nghiệm nước tiểu hằng tuần trong 2 tuần, không tập thể dục. Tránh làm hàng loạt xét nghiệm, chụp chiếu cho một trẻ khỏe mạnh chỉ vì một mẫu bất thường.",
+      "extra": "📖 Nguồn: Dodge WF et al. Proteinuria and hematuria in schoolchildren. J Pediatr 1976;88:327–347; Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "EBM",
@@ -1155,8 +1339,8 @@
       "category": "Cạm bẫy sinh tử",
       "section": "E7",
       "front": "Cạm bẫy: Trẻ chẩn đoán viêm cầu thận cấp hậu liên cầu (APSGN), <span style=\"color:#51cf66\"><b>điều kiện tiên quyết nào</b></span> để xác nhận chẩn đoán cuối cùng trước khi cho kết thúc theo dõi?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điều kiện tiên quyết:</b> Nồng độ <span style=\"color:#ffd43b\"><b>Bổ thể C3 huyết thanh bắt buộc phải hồi phục về mức bình thường</b></span> sau <span style=\"color:#ffd43b\"><b>6 – 8 tuần</b></span>.<br>2) <b>Hành động khi vi phạm:</b> Nếu C3 vẫn thấp sau 8 tuần → bắt buộc phải <span style=\"color:#ff6b6b\"><b>hủy bỏ chẩn đoán APSGN</b></span> và chỉ định <span style=\"color:#51cf66\"><b>sinh thiết thận khẩn</b></span> để tìm Viêm cầu thận màng tăng sinh (MPGN) hoặc Viêm thận Lupus.<br><br><b>💡 Giải thích của AI:</b><br>Không được phép xuất viện và kết thúc theo dõi một ca APSGN nếu chưa có xét nghiệm chứng minh C3 đã trở về bình thường. Rất nhiều ca MPGN và Lupus giai đoạn khởi phát có biểu hiện lâm sàng giống hệt APSGN.",
-      "extra": "📖 Nguồn: Nelson 21st Ch.539; Cạm bẫy lâm sàng số 4",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điều kiện tiên quyết:</b> <span style=\"color:#ffd43b\"><b>bổ thể C3 phải trở về bình thường</b></span>, thường trong <span style=\"color:#ffd43b\"><b>6 – 8 tuần</b></span>.<br>2) <b>Hành động khi C3 không hồi phục:</b> <span style=\"color:#ff6b6b\"><b>xem lại chẩn đoán</b></span> và cân nhắc <span style=\"color:#51cf66\"><b>sinh thiết thận</b></span> để tìm viêm cầu thận tăng sinh màng / bệnh cầu thận C3 hoặc viêm thận Lupus.<br><br><b>💡 Giải thích của AI:</b><br>Nhiều ca viêm cầu thận tăng sinh màng hoặc Lupus giai đoạn đầu giống hệt viêm cầu thận cấp sau nhiễm liên cầu, nên không kết thúc theo dõi khi chưa có C3 bình thường. ⚖️ Đối chiếu barem: chỉ định sinh thiết của barem là C3 thấp kéo dài <b>trên 3 tháng</b>.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 22e",
       "tags": [
         "PED-47",
         "EBM",
@@ -1170,8 +1354,8 @@
       "category": "Chỉ định sinh thiết thận",
       "section": "B5",
       "front": "Kể tên <span style=\"color:#ffd43b\"><b>7 chỉ định sinh thiết thận kinh điển</b></span> ở trẻ em đái máu theo giáo trình Nhi Thái Bình?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Protein niệu ngưỡng thận hư kéo dài</b></span> (&gt; 50 mg/kg/ngày hoặc UPr/UCr &gt; 2 mg/mg).<br>2) <span style=\"color:#ffd43b\"><b>Bổ thể C3 giảm thấp kéo dài</b></span> quá 6 – 8 tuần.<br>3) <span style=\"color:#ff6b6b\"><b>Mức lọc cầu thận (eGFR) suy giảm</b></span> dưới 60 ml/phút/1.73 m².<br>4) Bệnh nhân mắc <span style=\"color:#74c0fc\"><b>bệnh thận thứ phát hoặc bệnh hệ thống</b></span> (Lupus, Henoch-Schönlein nặng).<br>5) Tiền sử gia đình có người mắc <span style=\"color:#74c0fc\"><b>bệnh thận di truyền hoặc suy thận mạn</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Đái máu đại thể tái diễn nhiều đợt</b></span> không rõ nguyên nhân ngoài cầu thận.<br>7) <span style=\"color:#ff6b6b\"><b>Đái máu do cầu thận kéo dài trên 1 năm</b></span> không rõ căn nguyên.<br><br><b>💡 Giải thích của AI:</b><br>Thẻ Basic này cung cấp khung xương 7 chỉ định toàn diện để Active Recall trước khi đi vào các con số định lượng chi tiết.",
-      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.3 Chỉ định sinh thiết thận)",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Protein niệu</b></span> &gt; <span style=\"color:#ffd43b\"><b>1 g/1,73 m²/ngày</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Bổ thể C3 thấp kéo dài</b></span> trên <span style=\"color:#ffd43b\"><b>3 tháng</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Mức lọc cầu thận giảm</b></span> &lt; <span style=\"color:#ffd43b\"><b>80 ml/phút/1,73 m²</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Viêm thận Lupus, viêm thận Schönlein–Henoch</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Tiền sử gia đình</b></span> có bệnh thận nghi ngờ hội chứng Alport.<br>6) <span style=\"color:#ff6b6b\"><b>Đái máu đại thể tái phát</b></span> mà không rõ nguyên nhân.<br>7) <span style=\"color:#74c0fc\"><b>Đái máu do cầu thận</b></span> mà gia đình thiết tha muốn biết nguyên nhân và tiên lượng, mặc dù protein niệu không cao.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ: 3 con số (protein 1 g – C3 3 tháng – mức lọc 80) + 2 bệnh (Lupus, Henoch) + 1 gia đình Alport + 2 kiểu đái máu (đại thể tái phát; cầu thận mà gia đình muốn biết).",
+      "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 22, Mục 5.4 Chỉ định sinh thiết thận)",
       "tags": [
         "PED-47",
         "Barem-goc",
@@ -1186,7 +1370,7 @@
       "category": "Thuật toán tiếp cận",
       "section": "B6",
       "front": "Trình bày sơ đồ <span style=\"color:#51cf66\"><b>5 bước tiếp cận bệnh nhân đái máu</b></span> theo giáo trình Nhi Thái Bình?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bước 1:</b></span> <b>Xác định đái máu thực sự</b> (loại trừ đái máu giả do thức ăn, thuốc, Hb niệu, Myoglobin niệu).<br>2) <span style=\"color:#ff6b6b\"><b>Bước 2:</b></span> <b>Tìm dấu hiệu viêm cầu thận cấp</b> qua tam chứng kinh điển (phù, tăng huyết áp, thiểu niệu).<br>3) <span style=\"color:#74c0fc\"><b>Bước 3:</b></span> <b>Phân loại vị trí:</b> Tại cầu thận (kèm protein niệu, hồng cầu biến dạng &gt; 80%, trụ hồng cầu) vs Ngoài cầu thận (hồng cầu đồng dạng, không đạm niệu).<br>4) <span style=\"color:#ffd43b\"><b>Bước 4:</b></span> <b>Thăm dò xét nghiệm định danh nguyên nhân:</b> Cầu thận (ASLO, C3, ANA, sinh thiết) vs Ngoài cầu thận (siêu âm, cấy nước tiểu, X-quang hệ niệu).<br>5) <span style=\"color:#51cf66\"><b>Bước 5:</b></span> <b>Điều trị theo nguyên nhân đặc hiệu</b> và theo dõi chức năng thận.<br><br><b>💡 Giải thích của AI:</b><br>Nắm chắc lưu đồ 5 bước giúp bác sĩ không bao giờ bị rối loạn khi đứng trước một bệnh nhi có nước tiểu đỏ.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bước 1 – Xác định đái máu</b></span>: que thử + soi kính hiển vi. Que thử (+), soi tươi (−) → tìm huyết sắc tố niệu (Hb hoặc myoglobin niệu).<br>2) <span style=\"color:#ff6b6b\"><b>Bước 2 – Tìm dấu hiệu viêm cầu thận cấp</b></span> (phù, tăng HA, đái ít). Có → chẩn đoán viêm cầu thận cấp và làm xét nghiệm.<br>3) <span style=\"color:#74c0fc\"><b>Bước 3 – Phân loại lâm sàng</b></span>: đại thể → loại trừ gắng sức; vi thể đơn độc → làm lại nước tiểu hằng tuần trong 2 tuần (không tập thể dục).<br>4) <span style=\"color:#ffd43b\"><b>Bước 4 – Soi hình dáng hồng cầu và định lượng protein/creatinin niệu</b></span> → tại cầu thận hay ngoài cầu thận.<br>5) <span style=\"color:#51cf66\"><b>Bước 5 – Tìm nguyên nhân ngoài cầu thận</b></span>; tất cả bình thường → đái máu thoáng qua, theo dõi hằng năm.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo: \"Có thật không → Có cấp không → Có kéo dài không → Ở đâu → Do gì\". Lưu ý Bước 5 của barem là tìm nguyên nhân ngoài cầu thận, không phải \"điều trị\".",
       "extra": "📖 Nguồn: Giáo trình Nhi YTB (Trang 23, Sơ đồ tiếp cận bệnh nhân đái máu)",
       "tags": [
         "PED-47",
@@ -1203,7 +1387,7 @@
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-ebm",
       "front": "<span style=\"color:#51cf66\"><b>Thuật toán 30 giây:</b></span> Phân biệt tức thì <span style=\"color:#ff6b6b\"><b>Đái máu thật</b></span> vs <span style=\"color:#ffd43b\"><b>Đái máu giả</b></span> tại phòng cấp cứu bằng que thử Dipstick và soi cặn lắng?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 1 (Nước tiểu đỏ + Dipstick ÂM TÍNH):</b></span> → <span style=\"color:#51cf66\"><b>100% ĐÁI MÁU GIẢ</b></span> do thực phẩm (củ dền đỏ) hoặc thuốc (Rifampicin, Metronidazole). Không cần thăm dò thận.<br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 2 (Nước tiểu đỏ + Dipstick DƯƠNG TÍNH nhưng Soi KHÔNG CÓ HỒNG CẦU):</b></span> → Đái sắc tố: <span style=\"color:#ff6b6b\"><b>Hemoglobin tự do</b></span> (tán huyết nội mạch cấp) hoặc <span style=\"color:#ff6b6b\"><b>Myoglobin</b></span> (tiêu cơ vân cấp do co giật/chấn thương). Xử trí: Kiềm hóa nước tiểu + bù dịch bảo vệ ống thận.<br>• <span style=\"color:#ff6b6b\"><b>KỊCH BẢN 3 (Nước tiểu đỏ + Dipstick DƯƠNG TÍNH + Soi CÓ HỒNG CẦU NGUYÊN VẸN):</b></span> → <span style=\"color:#ff6b6b\"><b>ĐÁI MÁU THẬT SỰ</b></span>. Tiến hành phân loại cầu thận vs ngoài cầu thận.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán 3 nhánh này giải quyết sai lầm phổ biến nhất ở phòng cấp cứu: vội kết luận đái máu khi bệnh nhân thực chất bị tiêu cơ vân hoặc uống thuốc Rifampicin.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 1 (nước tiểu đỏ + dipstick ÂM TÍNH):</b></span> → <span style=\"color:#51cf66\"><b>không phải heme</b></span>: sắc tố thực phẩm (củ dền), thuốc (rifampicin, metronidazol), tinh thể urat ở trẻ nhỏ. Hiếm khi cần thăm dò thận.<br>• <span style=\"color:#ffd43b\"><b>KỊCH BẢN 2 (dipstick DƯƠNG TÍNH nhưng soi KHÔNG CÓ HỒNG CẦU):</b></span> → đái sắc tố: <span style=\"color:#ff6b6b\"><b>hemoglobin tự do</b></span> (tán huyết nội mạch) hoặc <span style=\"color:#ff6b6b\"><b>myoglobin</b></span> (tiêu cơ vân). Xử trí: bù dịch tích cực bảo vệ ống thận, tìm nguyên nhân.<br>• <span style=\"color:#ff6b6b\"><b>KỊCH BẢN 3 (dipstick DƯƠNG TÍNH + soi CÓ HỒNG CẦU):</b></span> → <span style=\"color:#ff6b6b\"><b>ĐÁI MÁU THẬT SỰ</b></span>, phân loại cầu thận hay ngoài cầu thận.<br><br><b>💡 Giải thích của AI:</b><br>Kịch bản 2 và 3 chính là Bước 1 của sơ đồ barem. Lưu ý: vitamin C liều cao có thể làm dipstick âm tính giả, nên nước tiểu đỏ mà dipstick âm vẫn nên soi kính hiển vi nếu nghi ngờ.",
       "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st Ch.538 (PED-47, Thuật toán quyết định)",
       "tags": [
         "PED-47",
@@ -1220,7 +1404,7 @@
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-ebm",
       "front": "<span style=\"color:#51cf66\"><b>Ma trận quyết định nhị phân:</b></span> Bảng 5 tiêu chí phân định tức thì <span style=\"color:#74c0fc\"><b>Đái máu tại cầu thận</b></span> vs <span style=\"color:#51cf66\"><b>Đái máu ngoài cầu thận</b></span> tại giường bệnh là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Màu sắc nước tiểu:</b></span> Cầu thận → Màu nâu sẫm, nước coca, nước rửa thịt; Ngoài cầu thận → Màu đỏ tươi, hồng tươi.<br>2) <span style=\"color:#ffd43b\"><b>Máu cục (Cục máu đông):</b></span> Cầu thận → <span style=\"color:#51cf66\"><b>HOÀN TOÀN KHÔNG CÓ</b></span> (do urokinase ống thận làm tan fibrin); Ngoài cầu thận → <span style=\"color:#ff6b6b\"><b>CÓ THỂ CÓ MÁU CỤC</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Protein niệu đi kèm:</b></span> Cầu thận → <span style=\"color:#ff6b6b\"><b>Protein niệu đáng kể (UPr/UCr &gt; 0.2 mg/mg)</b></span>; Ngoài cầu thận → Âm tính hoặc chỉ ở mức vết.<br>4) <span style=\"color:#ffd43b\"><b>Hình thái hồng cầu niệu:</b></span> Cầu thận → <span style=\"color:#ff6b6b\"><b>Biến dạng đa hình thái &gt; 80% (Acanthocyte &gt; 5%)</b></span>; Ngoài cầu thận → <span style=\"color:#51cf66\"><b>Đồng dạng tròn đều</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Trụ hồng cầu (RBC Casts):</b></span> Cầu thận → <span style=\"color:#ff6b6b\"><b>DƯƠNG TÍNH</b></span> (tiêu chuẩn vàng); Ngoài cầu thận → <span style=\"color:#51cf66\"><b>ÂM TÍNH</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng 5 tiêu chí này là la bàn định hướng phân khoa: tại cầu thận chuyển Nội thận nhi; ngoài cầu thận chuyển Ngoại nhi/thăm dò tiết niệu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Màu sắc nước tiểu:</b></span> cầu thận → nâu sẫm, coca-cola, nước chè; ngoài cầu thận → đỏ tươi, hồng.<br>2) <span style=\"color:#ffd43b\"><b>Máu cục:</b></span> cầu thận → <span style=\"color:#51cf66\"><b>hầu như không có</b></span> (urokinase ống thận làm tan fibrin); ngoài cầu thận → <span style=\"color:#ff6b6b\"><b>có thể có máu cục</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Protein niệu đi kèm:</b></span> cầu thận → <span style=\"color:#ff6b6b\"><b>có (UPr/UCr &gt; 0,2 mg/mg)</b></span>; ngoài cầu thận → âm tính hoặc vết.<br>4) <span style=\"color:#ffd43b\"><b>Hình thái hồng cầu:</b></span> cầu thận → <span style=\"color:#ff6b6b\"><b>biến đổi hình thái &gt; 80%</b></span> (mốc barem); ngoài cầu thận → <span style=\"color:#51cf66\"><b>đồng dạng</b></span>.<br>5) <span style=\"color:#ffd43b\"><b>Trụ hồng cầu:</b></span> cầu thận → <span style=\"color:#ff6b6b\"><b>DƯƠNG TÍNH</b></span> (bằng chứng chắc chắn); ngoài cầu thận → <span style=\"color:#51cf66\"><b>ÂM TÍNH</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mục 3–5 là tiêu chuẩn Bước 4 của barem. Ngoài barem: acanthocyte ≥ 5% rất đặc hiệu cho cầu thận (Köhler 1991). Cầu thận → chuyển chuyên khoa thận nhi; ngoài cầu thận → thăm dò tiết niệu, ngoại nhi.",
       "extra": "📖 Nguồn: Nelson 21st Ch.538 & Harriet Lane Handbook (PED-47, Thuật toán quyết định)",
       "tags": [
         "PED-47",
