@@ -7,7 +7,7 @@ Nhóm lỗi:
   T_*  kỹ thuật (HTML/escape/LaTeX/cấu trúc)  — luôn BLOCK
   P_*  back-purity (nguồn trong mặt sau)      — luôn BLOCK
   D_*  deck (section, tên deck, media, dấu)    — luôn BLOCK
-  G_*  governance (Basic-first, anti-spoiler, 🎯/💡, màu, ⚡) — BLOCK ở `release`, DEBT ở `hotfix`
+  G_*  governance (Basic-first, anti-spoiler, 🎯/💡, màu, ⚡, hỏi gì đáp nấy) — BLOCK ở `release`, DEBT ở `hotfix`
   W_*  cảnh báo — không chặn
 
 CLI:
@@ -24,6 +24,7 @@ import re
 import sqlite3
 import sys
 import tempfile
+import unicodedata
 import zipfile
 from collections import Counter
 from dataclasses import asdict, dataclass
@@ -36,6 +37,7 @@ MAX_IMAGE_BYTES = 150 * 1024
 MAX_IMAGE_WIDTH = 1200
 DIACRITICS_MIN = 0.80
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import lesson_manifest  # noqa: E402
 import specialties  # noqa: E402
 from specialties import VN_DIACRITIC_RE  # noqa: E402,F401  (dùng lại ở test/công cụ khác)
 
@@ -150,6 +152,94 @@ def partial_cloze_segments(text: str) -> list[str]:
     return hits
 
 
+# ---------------------------------------------------------------- front ↔ back alignment (gate 2.5)
+# "Hỏi gì đáp nấy" bằng hợp đồng khai báo: thẻ Basic có 🎯 chia mục theo khía cạnh phải khai
+# `asks` = danh sách khía cạnh Front hỏi. Linter kiểm tất định: mỗi `asks` có trong Front; mỗi mục 🎯
+# cấp 1 có nhãn bắt đầu bằng một `asks`; mỗi `asks` có mục 🎯 trả lời (so khớp theo tập, không theo thứ tự).
+# Từ khóa dưới đây CHỈ dùng để phát hiện 🎯 chia mục theo khía cạnh (nhãn BẮT ĐẦU bằng từ khóa: "Xử trí: …",
+# "Lứa tuổi: …") → bắt buộc khai `asks`. Nhãn là phần tử danh mục ("Mắt: …", "Trẻ 1–10 kg: …") không kích hoạt.
+FACET_LABEL_RE = re.compile(
+    r"^(?:chống chỉ định|chỉ định|cận lâm sàng|xét nghiệm|chẩn đoán|phân biệt|so sánh|tiêu chuẩn|nhận diện"
+    r"|lâm sàng|triệu chứng|biểu hiện|dấu hiệu|đặc điểm|dịch tễ|lứa tuổi|độ tuổi|nhóm tuổi|tỷ lệ|tỉ lệ"
+    r"|nguyên nhân|căn nguyên|bệnh nguyên|tác nhân|yếu tố nguy cơ|cơ chế|sinh lý bệnh|bệnh sinh"
+    r"|biến chứng|hậu quả|di chứng|tiên lượng|phòng ngừa|dự phòng|theo dõi|tái khám|phân loại|phân độ"
+    r"|định nghĩa|khái niệm|điều trị|xử trí|can thiệp|phác đồ|liều|kháng sinh|quản lý|biện pháp)")
+FACET_LABEL_NEUTRAL_RE = re.compile(r"^(?:ý nghĩa|tiêu chuẩn vàng)")
+ITEM_MARK_RE = re.compile(r"^\s*(?:(\d+)[).]|[•\-–▪◦●➤→✓✔])\s*")
+LINE_BREAK_RE = re.compile(r"<br\s*/?>|</?(?:li|p|div|tr)\b[^>]*>|\n", re.I)
+
+
+def fold(text: str) -> str:
+    """So khớp không phân biệt hoa/thường, dạng Unicode và khoảng trắng."""
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFC", strip_html(text)).casefold()).strip()
+
+
+def core_items(back: str) -> list[tuple[str | None, str]]:
+    """Các mục cấp 1 trong `🎯 Trả lời cốt lõi` → [(nhãn trước dấu `:` hoặc None, nội dung)].
+    Cấp 1 = loại dấu đầu dòng (số hay bullet) của mục đầu tiên; mục con khác loại bị bỏ qua."""
+    start = back.find("🎯")
+    if start < 0:
+        return []
+    end = back.find("💡", start)
+    core = re.sub(r"^🎯[^<]*(?:</b>)?\s*:?", "", back[start:end if end > 0 else None])
+    top, items = None, []
+    for part in LINE_BREAK_RE.split(core):
+        line = strip_html(part)
+        m = ITEM_MARK_RE.match(line)
+        if not m:
+            continue
+        kind = "num" if m.group(1) else "bullet"
+        top = top or kind
+        if kind != top:
+            continue
+        body = line[m.end():]
+        items.append((body.split(":", 1)[0].strip() if ":" in body[:70] else None, body))
+    return items
+
+
+def is_facet_label(label: str | None) -> bool:
+    """Nhãn mục 🎯 là khía cạnh (≤ 8 từ, BẮT ĐẦU bằng từ khóa khía cạnh), không phải phần tử danh mục."""
+    t = fold(label or "")
+    return bool(t) and len(t.split()) <= 8 and not FACET_LABEL_NEUTRAL_RE.match(t) and bool(FACET_LABEL_RE.match(t))
+
+
+def asks_issues(card: dict) -> list[tuple[str, str]]:
+    """Kiểm hợp đồng `asks` của 1 thẻ Basic → [(mã lỗi, thông điệp)]."""
+    items = core_items(card.get("back", ""))
+    asks = card.get("asks")
+    if asks is None:
+        facet_labels = [label for label, _ in items if is_facet_label(label)]
+        if not facet_labels:
+            return []
+        return [("G_ASKS_MISSING", "🎯 chia mục theo khía cạnh (" + ", ".join(f"«{x}»" for x in facet_labels)
+                 + ") nhưng thẻ không khai `asks`")]
+    keys = [fold(a) for a in asks] if isinstance(asks, list) and all(isinstance(a, str) for a in asks) else []
+    if not keys or not all(keys) or len(set(keys)) != len(keys):
+        return [("T_ASKS_FORMAT", "`asks` phải là danh sách chuỗi không rỗng, không trùng nhau")]
+    front = fold(card.get("front", ""))
+    out = [("G_ASKS_NOT_IN_FRONT", f"`asks` «{a}» không có trong Front") for a, k in zip(asks, keys) if k not in front]
+    longest_first = sorted(keys, key=len, reverse=True)
+    matched = set()
+    for label, body in items:
+        lab = fold(label or "")
+        if hit := next((k for k in longest_first if lab.startswith(k)), None):
+            matched.add(hit)
+        else:
+            out.append(("G_BACK_OVERFLOW", f"mục 🎯 «{label or body[:40]}» không có nhãn thuộc `asks` → Front hỏi thêm, "
+                        "tách thẻ, hoặc chuyển sang 💡"))
+    out += [("G_FRONT_UNANSWERED", f"`asks` «{a}» không có mục 🎯 nào mở đầu bằng nhãn này")
+            for a, k in zip(asks, keys) if k not in matched]
+    return out
+
+
+def attach_asks(cards: list[dict], source_cards: list[dict]) -> None:
+    """APKG không lưu `asks` → lấy từ cards.v2.json cạnh APKG, ghép theo Front (Front không được trùng)."""
+    by_front = {norm_key(c.get("front", "")): c["asks"] for c in source_cards if "asks" in c}
+    for card in cards:
+        if card_kind(card) == "basic" and (key := norm_key(card.get("front", ""))) in by_front:
+            card["asks"] = by_front[key]
+
+
 # ---------------------------------------------------------------- core lint
 def lint_cards(cards: list[dict], spec: dict | None = None) -> list[Issue]:
     spec = spec or {}
@@ -210,6 +300,8 @@ def lint_cards(cards: list[dict], spec: dict | None = None) -> list[Issue]:
                 add("G_COLOR_FRONT", cid, "Front không có màu palette")
             if not has_palette(back):
                 add("G_COLOR_BACK", cid, "Back không có màu palette")
+            for code, message in asks_issues(c):
+                add(code, cid, message)
         else:
             for seg in partial_cloze_segments(fields["text"]):
                 add("G_PARTIAL_CLOZE", cid, f"cloze nửa vời trong liệt kê: «{seg}»")
@@ -364,10 +456,28 @@ def lesson_folder(path: Path) -> tuple[Path, "specialties.Specialty | None", str
     return path.parent, specialty, None
 
 
+def source_cards_for(apkg_path: Path, folder: Path) -> list[dict]:
+    """Nguồn thẻ của APKG (để lấy `asks`, field không có trong APKG): `deck.cards_source` nếu `lesson.json`
+    của folder bài trỏ đúng APKG này, nếu không thì `<basename>.cards.v2.json` nằm cạnh APKG."""
+    if (folder / lesson_manifest.MANIFEST_NAME).exists():
+        try:
+            m = lesson_manifest.load(folder)
+        except lesson_manifest.ManifestError:
+            m = None  # manifest hỏng đã bị lesson_lint báo M_MANIFEST; vẫn thử sidecar
+        if m and m.apkg_path.resolve() == apkg_path.resolve() and m.cards_source_path.exists():
+            return m.load_raw_cards()
+    sidecar = apkg_path.with_suffix(".cards.v2.json")
+    if not sidecar.exists():
+        return []
+    data = json.loads(sidecar.read_text(encoding="utf-8"))
+    return data.get("cards", []) if isinstance(data, dict) else data
+
+
 def lint_apkg(apkg_path: Path, mode: str) -> tuple[list[Issue], dict]:
     cards, deck_names, media = read_apkg(apkg_path)
-    spec = {"deck_name": deck_names[0] if len(deck_names) == 1 else (deck_names[-1] if deck_names else "")}
     folder, specialty, lesson_id = lesson_folder(apkg_path)
+    attach_asks(cards, source_cards_for(apkg_path, folder))
+    spec = {"deck_name": deck_names[0] if len(deck_names) == 1 else (deck_names[-1] if deck_names else "")}
     if specialty:
         spec["specialty"] = specialty.key
         spec["id"] = lesson_id

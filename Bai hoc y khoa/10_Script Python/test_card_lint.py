@@ -99,6 +99,63 @@ class AntiSpoilerCloze(unittest.TestCase):
         self.assertEqual(L.partial_cloze_segments(text), [])
 
 
+def core_back(*items):
+    lines = "<br>".join(f'{i}) <b>{label}:</b> <span style="color:#ff6b6b">{body}</span>'
+                        for i, (label, body) in enumerate(items, 1))
+    return f"<b>🎯 Trả lời cốt lõi:</b><br>{lines}<br><br><b>💡 Giải thích của AI:</b><br>Lứa tuổi, xử trí, cơ chế…"
+
+
+def align(**kw):
+    return [code for code, _ in L.asks_issues(basic(**kw))]
+
+
+class FrontBackAlignment(unittest.TestCase):
+    POLYP_BACK = core_back(("Lứa tuổi", "2 – 6 tuổi"), ("Lâm sàng", "máu đỏ tươi bọc quanh phân"),
+                           ("Xử trí cấp cứu", "nội soi cắt polyp"))
+    POLYP_FRONT = "Lứa tuổi, triệu chứng lâm sàng và xử trí polyp đại trực tràng?"
+
+    def test_facet_structured_back_requires_asks(self):
+        self.assertEqual(align(front=self.POLYP_FRONT, back=self.POLYP_BACK), ["G_ASKS_MISSING"])
+        self.assertIn("G_ASKS_MISSING", codes([basic(front=self.POLYP_FRONT, back=self.POLYP_BACK)]))
+
+    def test_back_answering_unasked_facets_blocks(self):
+        # Ví dụ gốc của rule: Front chỉ hỏi lâm sàng, Back nhét thêm lứa tuổi + xử trí.
+        found = L.asks_issues(basic(front="Triệu chứng lâm sàng và tính chất phân của polyp?",
+                                    back=self.POLYP_BACK, asks=["Lâm sàng"]))
+        self.assertEqual([c for c, _ in found], ["G_BACK_OVERFLOW", "G_BACK_OVERFLOW"])
+        self.assertIn("Lứa tuổi", found[0][1])
+
+    def test_matching_ignores_order_case_and_label_suffix(self):
+        # "Xử trí cấp cứu" mở đầu bằng ask "xử trí"; thứ tự `asks` không cần theo thứ tự 🎯.
+        self.assertEqual(align(front=self.POLYP_FRONT, back=self.POLYP_BACK,
+                               asks=["xử trí", "LÂM SÀNG", "Lứa tuổi"]), [])
+
+    def test_ask_missing_from_front_or_from_back(self):
+        self.assertEqual(align(front="Lâm sàng và xử trí polyp?", back=self.POLYP_BACK,
+                               asks=["Lứa tuổi", "Lâm sàng", "Xử trí"]), ["G_ASKS_NOT_IN_FRONT"])
+        front = "Tác nhân, dấu hiệu da và kháng sinh điều trị Tinh hồng nhiệt?"
+        back = core_back(("Tác nhân", "liên cầu nhóm A"), ("Dấu hiệu da", "ban đỏ nhám"))
+        self.assertEqual(align(front=front, back=back, asks=["Tác nhân", "Dấu hiệu da", "Kháng sinh"]),
+                         ["G_FRONT_UNANSWERED"])
+
+    def test_list_element_labels_need_no_asks(self):
+        back = core_back(("Mắt", "viêm kết mạc hai bên"), ("Môi miệng", "lưỡi dâu tây"), ("Hạch", "hạch cổ ≥ 1,5 cm"))
+        self.assertEqual(align(front="Kể tên các tiêu chuẩn chẩn đoán Kawasaki?", back=back), [])
+        neutral = core_back(("Ý nghĩa lâm sàng", "…"), ("Tiêu chuẩn vàng quốc tế", "sinh thiết trọn hạch"))
+        self.assertEqual(align(front="Vì sao không lạm dụng FNA?", back=neutral), [])
+
+    def test_malformed_asks_is_technical_block(self):
+        for bad in ([], "Lâm sàng", ["Lâm sàng", " lâm sàng "], ["", "Xử trí"]):
+            with self.subTest(asks=bad):
+                self.assertEqual(align(front=self.POLYP_FRONT, back=self.POLYP_BACK, asks=bad), ["T_ASKS_FORMAT"])
+
+    def test_apkg_cards_get_asks_from_source_despite_escaping(self):
+        # APKG không có field `asks`; quét sổ nợ phải lấy lại từ nguồn thẻ, Front trong APKG đã escape `<`.
+        apkg_cards = [{"id": "1", "type": "basic", "front": "Xử trí trẻ &lt;2 tháng sốt?", "back": "x"}]
+        L.attach_asks(apkg_cards, [{"front": "Xử trí trẻ <2 tháng sốt?", "asks": ["Xử trí"]}])
+        self.assertEqual(apkg_cards[0]["asks"], ["Xử trí"])
+
+
 class GovernanceAndModes(unittest.TestCase):
     def test_cloze_only_deck_and_section_without_basic(self):
         cloze = {"id": "C-1", "type": "cloze", "section": "B1", "text": "ANC < {{c1::500}}", "extra": "x"}
