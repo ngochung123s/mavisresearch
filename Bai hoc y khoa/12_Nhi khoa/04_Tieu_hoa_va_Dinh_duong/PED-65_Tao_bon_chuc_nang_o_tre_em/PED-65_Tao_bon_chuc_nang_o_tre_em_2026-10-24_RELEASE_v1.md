@@ -41,7 +41,7 @@ Tuy nhiên, một phần nhỏ táo bón là **thực tổn** và có thể đe 
 - **Thực tổn (organic):** có tổn thương cấu trúc hoặc bệnh cơ thể rõ ràng là nguyên nhân.
 - **Phân su (meconium):** phân đầu tiên của trẻ sơ sinh, đen xanh, dính, bài xuất trong vài ngày đầu đời.
 
-> 🛑 **DỪNG 1 PHÚT — ÔN KHÁI NIỆM NỀN
+> 🛑 **DỪNG 1 PHÚT — TỰ KIỂM TRA: ÔN KHÁI NIỆM NỀN**
 >
 > 1. Vì sao trực tràng là "kho chứa" chứ không phải nơi tiêu hóa?
 > 2. Vì sao cảm giác đau một lần có thể làm trẻ nhịn đi cầu nhiều tuần?
@@ -119,7 +119,7 @@ Không có một con số duy nhất cho mọi trẻ, vì tần suất thay đ�
 
 Trẻ đủ tháng bài xuất phân su (phân đầu tiên) trong 24 giờ đầu ở khoảng 94% và trong 48 giờ đầu ở khoảng 99%. Vì vậy, **chậm phân su trên 48 giờ ở trẻ đủ tháng là cờ đỏ** cần đánh giá Hirschsprung, chứ không được chờ xem. Đây là mốc tương tự như đã học trong PED-61.
 
-> 🛑 **DỪNG 1 PHÚT — THỬ TIÊU CHÍ ROME IV
+> 🛑 **DỪNG 1 PHÚT — TỰ KIỂM TRA: THỬ TIÊU CHÍ ROME IV**
 >
 > 1. Bé 5 tuổi đi cầu mỗi ngày, phân Bristol 2, đau khi rặn, không són phân, không nhịn. Có đủ tiêu chí táo bón chức năng không?
 > 2. Vì sao "đi cầu 1 lần/tuần" thường không đủ để kết luận táo bón ở trẻ 4 tuổi trở lên mà không hỏi thêm?
