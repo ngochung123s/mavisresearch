@@ -1,0 +1,31 @@
+{
+  "id": "PED-23",
+  "specialty": "nhi",
+  "deck_name": "Nhi khoa Y6::PED-23: Hen phế quản trẻ em",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-10-26T22:09:20",
+  "cards_source": "ped23_cards_data.py",
+  "cards_source_sha256": "eff6656bf8af595037589074cfa2055781289eaf9c9f62df15385fc1c441a0f1",
+  "card_count": 60,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\03_Ho_hap\\PED-23_Hen_phe_quan_tre_em\\PED-23_Hen_phe_quan_tre_em_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 60,
+    "archived": 0,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 60
+  },
+  "apkg_sha256": "5d3cbf05b65066ec1bda85c3ba443f3645dd4c9a39d27e3ad843195399c32611",
+  "sqlite_notes": 60,
+  "sqlite_cards": 66
+}
