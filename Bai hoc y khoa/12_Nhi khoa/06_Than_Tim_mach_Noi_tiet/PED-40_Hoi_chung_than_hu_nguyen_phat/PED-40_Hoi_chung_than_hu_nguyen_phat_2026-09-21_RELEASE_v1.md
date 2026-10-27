@@ -35,15 +35,15 @@ DẤU HIỆU NGUY KỊCH:        SINH HIỆU ỔN:         PROTEIN NIỆU >= 3+:
      |                         |                     |
      v                         |                     v
 [BÁO ĐỘNG CẤP CỨU ĐỎ]          |               [XÉT NGHIỆM HUYẾT THANH MÁU]
-GIẢM THỂ TÍCH TUẦN HOÀN        |               * Albumin máu < 25 g/L (bắt buộc)
+GIẢM THỂ TÍCH TUẦN HOÀN        |               * Albumin ≤ 25 g/L (BYT) / < 30 (IPNA)
 HOẶC SỐC GIẢM THỂ TÍCH         |               * Cholesterol máu > 5.2 mmol/L
 * THỞ OXY, THIẾT LẬP ĐƯỜNG TM  |                     |
 * CẤM TUYỆT ĐỐI DÙNG LỢI TIỂU  |                     v
-* TRUYỀN ALBUMIN 20%           |               [XÁC ĐỊNH HỘI CHỨNG THẬN HƯ]
-  0.5 - 1.0 g/kg (2.5-5 mL/kg) |               (Đủ 4 tiêu chuẩn kinh điển)
-  truyền chậm trong 2 - 4 giờ  |                     |
-* Furosemid 1 - 2 mg/kg TM     |                     v
-  CHỈ SAU KHI ĐÃ BÙ THỂ TÍCH   |         [ĐÁNH GIÁ 7 CHỈ ĐỊNH SINH THIẾT THẬN]
+* SỐC/TỤT HA: ALBUMIN 4-5%     |               [XÁC ĐỊNH HỘI CHỨNG THẬN HƯ]
+  KHÔNG KÈM FUROSEMID          |               (Đủ 4 tiêu chuẩn kinh điển)
+* CHƯA SỐC: ALBUMIN 20-25%     |                     |
+  0.5 - 1.0 g/kg; Furosemid    |                     v
+  1-2 mg/kg CHỈ KHI ĐÃ BÙ ĐỦ   |         [ĐÁNH GIÁ 7 CHỈ ĐỊNH SINH THIẾT THẬN]
                   |            |         (Tuổi < 1 hoặc > 12, THA thực tổn,
                   v            v          Đái máu đại thể, Suy thận cấp, C3 giảm)
             [CHUYỂN VÀO BUỒNG ĐIỀU TRỊ NỘI TRÚ CHUYÊN KHOA THẬN NHI]
@@ -58,7 +58,7 @@ HOẶC SỐC GIẢM THỂ TÍCH         |               * Cholesterol máu > 5.2
 > 1. **CẤM DÙNG LỢI TIỂU ĐƠN ĐỘC KHI ĐANG CÓ GIẢM THỂ TÍCH TUẦN HOÀN:** Trẻ hội chứng thận hư dù phù toàn thân nhưng thể tích nội mạch thực tế có thể đang bị cạn kiệt nặng (hiện tượng Underfill). Nếu cho Furosemid đơn độc khi mạch nhanh nhỏ, CRT kéo dài, chi lạnh hoặc huyết áp tụt sẽ đẩy trẻ vào sốc giảm thể tích mất bù, tắc mạch huyết khối lan tỏa và suy thận cấp hoại tử ống thận cấp.
 > 2. **CHỐNG BỎ SÓT VIÊM PHÚC MẠC TIÊN PHÁT DO PHẾ CẦU KHUẨN:** Trẻ thận hư bị mất nặng nề kháng thể IgG và bổ thể qua nước tiểu, cực kỳ dễ nhiễm trùng các vi khuẩn có vỏ bọc, đặc biệt là *Streptococcus pneumoniae*. Bất kỳ trẻ thận hư nào có báng bụng kèm sốt, đau bụng âm ỉ hoặc tăng cảm ứng thành bụng PHẢI được nghĩ đến viêm phúc mạc tiên phát ngay và chỉ định kháng sinh tĩnh mạch phổ rộng lập tức sau khi cấy máu/dịch màng bụng.
 > 3. **CẢNH BÁO NGUY CƠ TẮC MẠCH HUYẾT KHỐI ĐE DỌA TÍNH MẠNG:** Tình trạng tăng đông máu do mất Antithrombin III, tăng sinh Fibrinogen tại gan và cô đặc máu có thể gây huyết khối tĩnh mạch thận, tĩnh mạch sâu chi dưới, tĩnh mạch não hoặc thuyên tắc động mạch phổi. Nguy cơ đặc biệt cao ở trẻ trên 12 tuổi, albumin máu dưới 20 g/L và có đặt catheter tĩnh mạch trung tâm.
-> 4. **CẤM NGỪNG ĐỘT NGỘT CORTICOID KHI ĐANG ĐIỀU TRỊ TẤN CÔNG:** Tuyến thượng thận bị ức chế hoàn toàn sau 2 tuần dùng Prednisolone liều cao. Việc tự ý bỏ thuốc hoặc cắt liều đột ngột sẽ dẫn đến cơn suy thượng thận cấp kịch phát (Adrenal Crisis) với trụy mạch, hạ đường huyết và tử vong nhanh chóng.
+> 4. **KHÔNG TỰ Ý NGỪNG ĐỘT NGỘT CORTICOID ĐANG DÙNG LIỀU CAO HÀNG NGÀY:** Corticoid liều trên sinh lý kéo dài có thể ức chế trục hạ đồi – tuyến yên – thượng thận, gây suy thượng thận trung ương thoáng qua khi ngừng đột ngột, nguy cơ cao nhất khi trẻ gặp stress (sốt, phẫu thuật gây mê, chấn thương). Phác đồ chuẩn đã xử lý nguy cơ này bằng cách chuyển sang liều cách ngày; IPNA 2023 không khuyến cáo giảm liều dần trong giai đoạn cách ngày.
 
 ## 0. TỔNG QUAN DỊCH TỄ HỌC & ĐỊNH NGHĨA SINH LÝ BỆNH MÀNG LỌC CẦU THẬN
 
@@ -75,7 +75,7 @@ Vì vậy, tiếp cận một trẻ phù to ban đầu đòi hỏi bác sĩ lâm
 Cần phân biệt rõ ràng giữa tình trạng thừa dịch toàn bộ cơ thể với tình trạng thiếu hụt thể tích tuần hoàn trong lòng mạch.
 Xét nghiệm nước tiểu là công cụ đầu tay quan trọng nhất, cho phép định hướng chẩn đoán ngay tại phòng khám cấp cứu.
 Nếu que thử nước tiểu 10 thông số cho kết quả Protein niệu từ 3+ đến 4+, chẩn đoán hội chứng thận hư gần như chắc chắn.
-Xét nghiệm sinh hóa máu sau đó sẽ hoàn thiện chẩn đoán xác định với nồng độ Albumin máu giảm sâu dưới 25 g/L.
+Xét nghiệm sinh hóa máu sau đó sẽ hoàn thiện chẩn đoán xác định với nồng độ Albumin máu giảm (≤ 25 g/L theo Bộ Y tế; < 30 g/L theo IPNA 2023).
 Khởi đầu điều trị bằng Prednisolone liều chuẩn cần được thực hiện sau khi đã loại trừ hoàn toàn các ổ nhiễm trùng cấp tính.
 Hiểu đúng cơ chế bệnh sinh và tuân thủ nghiêm ngặt phác đồ sẽ giúp trẻ đạt lui bệnh hoàn toàn và bảo tồn tối đa chức năng thận lâu dài.
 
@@ -125,13 +125,13 @@ Trong thực hành lâm sàng nhi khoa, đa số trẻ em mắc hội chứng th
 - HOẶC tỷ số Protein/Creatinin nước tiểu mẫu ngẫu nhiên buổi sáng đầu tiên (Up/Ucr) >= 2.0 mg/mg (tương đương >= 200 mg/mmol).
 - HOẶC que thử nước tiểu (dipstick) bán định lượng cho kết quả Protein niệu liên tục từ 3+ (300 mg/dL) đến 4+ (1000 mg/dL).
 3. **Giảm Albumin máu nặng (Hypoalbuminemia) — TIÊU CHUẨN BẮT BUỘC:**
-- Nồng độ Albumin huyết thanh < 25 g/L (tương đương < 2.5 g/dL) (nhiều hướng dẫn cũ dùng mốc < 30 g/L, nhưng IPNA 2023 và KDIGO 2021 thống nhất mốc nghiêm ngặt < 25 g/L để xác định đợt bùng phát thực sự).
-- Đi kèm giảm Protein máu toàn phần thường dưới 55 g/L.
+- Theo tiêu chuẩn Bộ Y tế Việt Nam (QĐ 3312/QĐ-BYT): Albumin huyết thanh **≤ 25 g/L** và Protein máu toàn phần **≤ 56 g/L**.
+- Theo IPNA 2023: hạ albumin máu là Albumin huyết thanh **< 30 g/L** (hội chứng thận hư = protein niệu ngưỡng thận hư kèm hạ albumin máu, hoặc kèm phù khi chưa có kết quả albumin). Mốc quốc tế < 30 g/L rộng hơn mốc ≤ 25 g/L của Bộ Y tế, không phải nghiêm ngặt hơn.
 4. **Tăng Lipid máu (Hyperlipidemia):**
 - Nồng độ Cholesterol toàn phần trong huyết tương > 5.2 mmol/L (tương đương > 200 mg/dL).
 - Kèm theo tăng Triglyceride máu, tăng nồng độ VLDL, LDL và giảm tỷ lệ thanh thải mỡ do giảm áp lực keo và mất protein điều hòa mỡ qua nước tiểu.
 
-Trong 4 tiêu chuẩn trên, **Protein niệu ngưỡng thận hư** và **Giảm Albumin máu dưới 25 g/L** là hai tiêu chuẩn sinh hóa bắt buộc phải có để thiết lập chẩn đoán bệnh.
+Trong 4 tiêu chuẩn trên, **Protein niệu ngưỡng thận hư** và **Giảm Albumin máu** (≤ 25 g/L theo Bộ Y tế; < 30 g/L theo IPNA 2023) là hai tiêu chuẩn sinh hóa bắt buộc phải có để thiết lập chẩn đoán bệnh.
 
 ### 1.3 Đánh giá mức độ protein niệu & Các phương pháp đo lường
 Trong thực hành nhi khoa, việc thu thập nước tiểu 24 giờ ở trẻ nhỏ chưa tự chủ tiểu tiện (chưa bỏ tã) là cực kỳ khó khăn, dễ sai số và làm chậm trễ thời gian xử trí.
@@ -163,20 +163,15 @@ Hàng rào lọc cầu thận khỏe mạnh bảo vệ cơ thể khỏi sự m�
 ### 2.3 Chuỗi cơ chế bệnh sinh (Mechanism Chains)
 Dưới đây là các chuỗi phản ứng bệnh sinh liên hoàn giải thích toàn bộ các triệu chứng và biến chứng lâm sàng của bệnh:
 
-- **Chuỗi cơ chế 1 (Hình thành phù toàn thân & Giảm thể tích tuần hoàn hiệu dụng):**
-Tổn thương tế bào có chân (podocyte) → Rối loạn phân bố phức hợp Nephrin-Podocin → Mất điện tích âm màng đáy cầu thận → Thất thoát ồ ạt Albumin qua nước tiểu → Giảm áp lực keo huyết tương → Phù toàn thân và giảm thể tích tuần hoàn hiệu dụng.
+> 🔄 **Chuỗi cơ chế:** (1 — Phù toàn thân & giảm thể tích tuần hoàn hiệu dụng) Tổn thương tế bào có chân (podocyte) → Rối loạn phân bố phức hợp Nephrin-Podocin → Mất điện tích âm màng đáy cầu thận → Thất thoát ồ ạt Albumin qua nước tiểu → Giảm áp lực keo huyết tương → Phù toàn thân và giảm thể tích tuần hoàn hiệu dụng.
 
-- **Chuỗi cơ chế 2 (Rối loạn chuyển hóa Lipid máu):**
-Thất thoát Albumin nặng qua nước tiểu → Giảm Albumin máu nặng (< 25 g/L) → Kích thích gan tăng tổng hợp bù trừ lipoprotein → Tăng Cholesterol máu và Triglyceride máu toàn phần → Tăng nguy cơ xơ vữa và biến chứng tắc mạch.
+> 🔄 **Chuỗi cơ chế:** (2 — Rối loạn chuyển hóa lipid máu) Thất thoát Albumin nặng qua nước tiểu → Giảm Albumin máu nặng → Kích thích gan tăng tổng hợp bù trừ lipoprotein → Tăng Cholesterol máu và Triglyceride máu toàn phần → Tăng nguy cơ xơ vữa và biến chứng tắc mạch.
 
-- **Chuỗi cơ chế 3 (Tăng đông máu & Hình thành huyết khối tắc mạch):**
-Giảm Albumin máu kèm thất thoát Antithrombin III qua nước tiểu → Tăng tổng hợp gan các yếu tố đông máu V, VII, VIII, Fibrinogen → Cô đặc máu do thoát dịch vào khoang kẽ → Tăng kết tập tiểu cầu → Hình thành huyết khối tĩnh mạch sâu và tắc mạch phổi.
+> 🔄 **Chuỗi cơ chế:** (3 — Tăng đông máu & huyết khối tắc mạch) Giảm Albumin máu kèm thất thoát Antithrombin III qua nước tiểu → Tăng tổng hợp gan các yếu tố đông máu V, VII, VIII, Fibrinogen → Cô đặc máu do thoát dịch vào khoang kẽ → Tăng kết tập tiểu cầu → Hình thành huyết khối tĩnh mạch sâu và tắc mạch phổi.
 
-- **Chuỗi cơ chế 4 (Suy giảm miễn dịch dịch thể & Nguy cơ nhiễm trùng nặng):**
-Thất thoát globulin miễn dịch (IgG) và bổ thể (Yếu tố B, D) qua nước tiểu → Giảm khả năng opsonin hóa vi khuẩn có vỏ bọc → Suy giảm miễn dịch dịch thể → Trẻ dễ nhiễm trùng nặng bởi Phế cầu (*Streptococcus pneumoniae*) → Viêm phúc mạc tiên phát và nhiễm khuẩn huyết.
+> 🔄 **Chuỗi cơ chế:** (4 — Suy giảm miễn dịch dịch thể & nhiễm trùng nặng) Thất thoát globulin miễn dịch (IgG) và bổ thể (Yếu tố B, D) qua nước tiểu → Giảm khả năng opsonin hóa vi khuẩn có vỏ bọc → Suy giảm miễn dịch dịch thể → Trẻ dễ nhiễm trùng nặng bởi Phế cầu (*Streptococcus pneumoniae*) → Viêm phúc mạc tiên phát và nhiễm khuẩn huyết.
 
-- **Chuỗi cơ chế 5 (Xóa chân tế bào podocyte & Tổn thương mô kẽ thận):**
-Tổn thương podocyte do yếu tố tuần hoàn (permeability factor) → Xóa các chân lồi tế bào podocyte (foot process effacement) → Mất tính toàn vẹn màng ngăn có chân (slit diaphragm) → Thất thoát protein niệu chọn lọc cao → Tái hấp thu protein quá mức tại ống lượn gần gây viêm mô kẽ thận.
+> 🔄 **Chuỗi cơ chế:** (5 — Xóa chân podocyte & tổn thương mô kẽ thận) Tổn thương podocyte do yếu tố tuần hoàn (permeability factor) → Xóa các chân lồi tế bào podocyte (foot process effacement) → Mất tính toàn vẹn màng ngăn có chân (slit diaphragm) → Thất thoát protein niệu chọn lọc cao → Tái hấp thu protein quá mức tại ống lượn gần gây viêm mô kẽ thận.
 
 ## 3. CHẨN ĐOÁN LÂM SÀNG, CẬN LÂM SÀNG & CHỈ ĐỊNH SINH THIẾT THẬN
 
@@ -199,11 +194,11 @@ Trước khi khởi động bất kỳ liệu pháp điều trị nào, một bi
 | Nhóm xét nghiệm | Danh mục xét nghiệm cụ thể | Mục tiêu & Ý nghĩa lâm sàng |
 |---|---|---|
 | **1. Xét nghiệm Nước tiểu** | Tổng phân tích nước tiểu (Dipstick), Tỷ số Up/Ucr sáng sớm, Soi cặn lắng nước tiểu | Xác định protein niệu ngưỡng thận hư, tìm thể mỡ lưỡng chiết (chữ thập Maltese), loại trừ đái máu đại thể |
-| **2. Sinh hóa Huyết thanh** | Albumin máu, Protein toàn phần, Bộ mỡ máu (Cholesterol, Triglyceride, LDL), Ure, Creatinin | Xác định giảm Albumin máu (< 25 g/L), tăng lipid máu (> 5.2 mmol/L), tính eGFR theo Schwartz |
+| **2. Sinh hóa Huyết thanh** | Albumin máu, Protein toàn phần, Bộ mỡ máu (Cholesterol, Triglyceride, LDL), Ure, Creatinin | Xác định giảm Albumin máu (≤ 25 g/L theo Bộ Y tế; < 30 g/L theo IPNA 2023), tăng lipid máu (> 5.2 mmol/L), tính eGFR theo Schwartz |
 | **3. Điện giải & Chuyển hóa** | Na+, K+, Cl-, Canxi toàn phần, Canxi ion hóa, Men gan (AST, ALT), Đường huyết | Phát hiện hạ natri máu pha loãng, phân biệt hạ canxi giả tạo với giảm canxi ion hóa thực sự |
 | **4. Huyết học & Tăng đông** | Tổng phân tích tế bào máu (CBC), Hematocrit, Tiểu cầu, PT, aPTT, Fibrinogen | Đánh giá mức độ cô đặc máu (Hematocrit > 45%), tăng tiểu cầu phản ứng và tăng đông máu (Fibrinogen > 6 g/L) |
 | **5. Miễn dịch & Tầm soát** | Bổ thể C3, C4, Kháng thể kháng nhân (ANA), Anti-dsDNA, HBsAg, Anti-HCV, HIV | Bổ thể C3 bình thường trong MCD; tầm soát Lupus ở trẻ lớn; loại trừ viêm gan B, C, HIV |
-| **6. Tầm soát Lao & X-quang** | Xét nghiệm Mantoux hoặc QuantiFERON-TB Gold, Chụp X-quang tim phổi thẳng | Bắt buộc loại trừ lao tiềm ẩn trước khi khởi động phác đồ corticoid liều cao kéo dài |
+| **6. Tầm soát Lao & X-quang** | Xét nghiệm Mantoux hoặc QuantiFERON-TB Gold, Chụp X-quang tim phổi thẳng | IPNA 2023 khuyến cáo cân nhắc sàng lọc lao, đặc biệt ở vùng lưu hành như Việt Nam, trước khi dùng thuốc ức chế miễn dịch |
 
 ### 3.3 7 chỉ định sinh thiết thận theo khuyến cáo quốc tế IPNA/KDIGO
 Do trên 85% trẻ em khởi phát hội chứng thận hư từ 1 đến 10 tuổi mắc bệnh tổn thương tối thiểu và đáp ứng hoàn toàn với corticoid, sinh thiết thận **KHÔNG ĐƯỢC CHỈ ĐỊNH THƯỜNG QUY** ở thời điểm chẩn đoán ban đầu.
@@ -230,8 +225,8 @@ Khái niệm **Prednisolone** là một thuốc glucocorticoid tổng hợp có 
 - HOẶC tính theo diện tích da (chính xác hơn ở trẻ béo phì hoặc trẻ nhỏ): 60 mg/m2/ngày.
 - **Liều tối đa tuyệt đối:** Không vượt quá 60 mg/ngày.
 - **Cách dùng:** Uống một lần duy nhất vào buổi sáng (khoảng 7:00 - 8:00 sáng sau khi ăn no) để mô phỏng nhịp sinh học tiết cortisol tự nhiên của vỏ thượng thận, giúp giảm thiểu nguy cơ ức chế trục hạ đồi - tuyến yên - thượng thận (HPA axis) và giảm kích ứng dạ dày.
-- **Thời gian điều trị tấn công:** Kéo dài liên tục trong **4 tuần đến 6 tuần**.
-Theo IPNA 2023, thời gian tấn công hàng ngày 4 tuần là đủ cho hầu hết trẻ em đạt lui bệnh hoàn toàn trong 2-3 tuần đầu; nếu đến hết tuần thứ 4 trẻ mới bắt đầu giảm protein niệu nhưng chưa âm tính hẳn, có thể tiếp tục kéo dài liều hàng ngày đến tối đa 6 tuần trước khi kết luận kháng thuốc.
+- **Thời gian điều trị tấn công:** **4 tuần** hoặc **6 tuần** liều hàng ngày, tùy phác đồ chọn (IPNA 2023 và KDIGO 2021: 4 tuần hàng ngày + 4 tuần cách ngày, HOẶC 6 tuần hàng ngày + 6 tuần cách ngày).
+Theo IPNA 2023, trẻ không lui bệnh hoàn toàn sau 4 tuần liều chuẩn được xếp kháng steroid; nếu chỉ lui bệnh một phần ở tuần 4 thì bước vào giai đoạn xác nhận (tuần 4–6: tiếp tục prednisolone ± truyền methylprednisolone, thêm thuốc ức chế RAAS) trước khi kết luận.
 
 ### 4.2 Phác đồ duy trì cách ngày & Quy trình giảm liều
 Ngay sau khi hoàn thành đợt tấn công hàng ngày, bệnh nhân được chuyển sang phác đồ duy trì cách ngày:
@@ -240,19 +235,19 @@ Ngay sau khi hoàn thành đợt tấn công hàng ngày, bệnh nhân được 
 - HOẶC tính theo diện tích da: 40 mg/m2/ngày uống cách ngày.
 - **Liều tối đa tuyệt đối:** Không vượt quá 40 mg/ngày.
 - **Cách dùng:** Uống một lần duy nhất vào buổi sáng của ngày chỉ định (ví dụ uống vào sáng thứ 2, thứ 4, thứ 6, chủ nhật; các ngày thứ 3, thứ 5, thứ 7 nghỉ hoàn toàn không uống thuốc).
-- **Thời gian duy trì cách ngày:** Kéo dài trong **4 tuần đến 6 tuần**.
-- **Quy trình ngưng thuốc:** Sau khi hoàn thành 4 đến 6 tuần duy trì liều 40 mg/m2 cách ngày, có thể giảm dần liều mỗi 1-2 tuần (ví dụ giảm xuống 1.0 mg/kg cách ngày trong 2 tuần, rồi 0.5 mg/kg cách ngày trong 2 tuần rồi ngưng hẳn) HOẶC ngưng thuốc trực tiếp theo một số protocol rút gọn của IPNA nếu tổng thời gian đợt đầu đạt 8 đến 12 tuần.
-- **Tổng thời gian điều trị đợt đầu:** Thống nhất từ **8 tuần đến 12 tuần (khoảng 2 đến 3 tháng)**.
+- **Thời gian duy trì cách ngày:** **4 tuần** (nếu tấn công 4 tuần) hoặc **6 tuần** (nếu tấn công 6 tuần).
+- **Quy trình ngưng thuốc:** Hết giai đoạn cách ngày thì ngưng thuốc. IPNA 2023 **không khuyến cáo giảm liều dần trong giai đoạn cách ngày** (khuyến cáo mạnh, mức A): các RCT chất lượng cao không giảm liều dần và gần như không ghi nhận suy thượng thận.
+- **Tổng thời gian điều trị đợt đầu:** **8 tuần (4 + 4) hoặc 12 tuần (6 + 6)**, khoảng 2 đến 3 tháng.
 
 ### 4.3 Các ví dụ tính toán lâm sàng trong thực hành kê đơn
 Dưới đây là các ví dụ minh họa cụ thể giúp bác sĩ thực hành kê đơn và tính toán an toàn:
 - **Ví dụ 1 (Tính liều tấn công Prednisolone theo cân nặng):** Bé trai 3 tuổi, cân nặng 15 kg, khởi phát hội chứng thận hư lần đầu. Liều tấn công chuẩn là 2 mg/kg/ngày x 15 kg = 30 mg/ngày. Kê đơn: Prednisolone 5 mg, uống 6 viên một lần duy nhất vào lúc 7 giờ sáng sau khi ăn no.
 - **Ví dụ 2 (Tính liều theo diện tích da ở trẻ thừa cân):** Bé gái 6 tuổi, cân nặng 28 kg, chiều cao 115 cm, diện tích da tính được là 0.95 m2. Nếu tính theo cân nặng (2 mg/kg), liều sẽ lên tới 56 mg/ngày. Tính theo diện tích da chuẩn: 60 mg/m2 x 0.95 = 57 mg/ngày, không vượt quá liều tối đa 60 mg/ngày.
-- **Ví dụ 3 (Tính bù Albumin 20% và Furosemid trong sốc giảm thể tích):** Trẻ 4 tuổi, cân nặng khô ước tính 16 kg, vào viện trong tình trạng mạch nhanh nhỏ, CRT 4 giây, huyết áp tụt. Liều Albumin 20% cần dùng là 1.0 g/kg x 16 kg = 16 g Albumin, tương đương 80 mL dung dịch Albumin 20% truyền qua bơm tiêm điện trong 2 giờ (40 mL/giờ). Sau khi truyền được 1 giờ, tưới máu cải thiện, tiêm Furosemid 1 mg/kg = 16 mg tĩnh mạch chậm.
+- **Ví dụ 3 (Tính bù Albumin 20% và Furosemid khi giảm thể tích tuần hoàn chưa tụt huyết áp):** Trẻ 4 tuổi, cân nặng khô ước tính 16 kg, mạch nhanh, CRT 4 giây, tiểu ít, huyết áp còn bình thường. Liều Albumin 20% là 1.0 g/kg x 16 kg = 16 g Albumin, tương đương 80 mL dung dịch Albumin 20%, truyền chậm qua bơm tiêm điện trong 4 - 6 giờ. Chỉ khi thể tích đã được bù lại mà nước tiểu vẫn ít mới tiêm Furosemid 1 mg/kg = 16 mg tĩnh mạch vào giữa hoặc cuối buổi truyền. Nếu trẻ đã tụt huyết áp/sốc: dùng Albumin 4 - 5% và không kèm Furosemid.
 - **Ví dụ 4 (Quy trình chuyển liều sang cách ngày):** Trẻ 18 kg sau 4 tuần tấn công hàng ngày đạt lui bệnh hoàn toàn (que thử âm tính liên tục 3 ngày). Chuyển sang liều cách ngày: 1.5 mg/kg x 18 kg = 27 mg (làm tròn 25 mg hoặc 5 viên 5 mg) uống vào sáng các ngày thứ 2, thứ 4, thứ 6 và chủ nhật; các ngày còn lại nghỉ thuốc.
 - **Ví dụ 5 (Đánh giá chỉ số Up/Ucr ngẫu nhiên):** Mẫu nước tiểu sáng ngẫu nhiên của trẻ có nồng độ Protein niệu là 450 mg/dL và Creatinin niệu là 90 mg/dL. Tỷ số Up/Ucr = 450 / 90 = 5.0 mg/mg. Chỉ số này > 2.0 mg/mg, khẳng định chắc chắn protein niệu ở ngưỡng thận hư.
 - **Ví dụ 6 (Hiệu chỉnh Canxi máu khi Albumin giảm sâu):** Kết quả sinh hóa của bệnh nhi cho thấy Canxi toàn phần là 1.65 mmol/L, Albumin máu là 12 g/L. Áp dụng công thức hiệu chỉnh: Canxi hiệu chỉnh = 1.65 + 0.02 x (40 - 12) = 1.65 + 0.56 = 2.21 mmol/L. Nồng độ canxi hiệu chỉnh hoàn toàn nằm trong giới hạn bình thường (2.15 - 2.55 mmol/L), chứng minh đây là hạ canxi giả tạo và chống chỉ định tiêm canxi tĩnh mạch.
-- **Ví dụ 7 (Kê đơn bổ sung Canxi và Vitamin D3 dự phòng):** Trẻ bắt đầu đợt điều trị corticoid 8-12 tuần được kê đơn dự phòng: Canxi nguyên tố 500 mg/ngày kết hợp Vitamin D3 400 UI/ngày uống vào buổi trưa sau ăn.
+- **Ví dụ 7 (Canxi và Vitamin D khi dùng corticoid):** IPNA 2023 không khuyến cáo bổ sung thường quy: đảm bảo khẩu phần canxi đủ cho mọi trẻ, chỉ bổ sung canxi uống khi khẩu phần thiếu; định lượng 25-OH-vitamin D mỗi năm ở thể FRNS/SDNS (mục tiêu > 20 ng/mL) và điều trị thiếu vitamin D theo hướng dẫn quốc gia.
 - **Ví dụ 8 (Xử trí trẻ thận hư sốt nhiễm siêu vi đợt tái phát):** Trẻ đang uống Prednisolone cách ngày bị sốt siêu vi và que thử xuất hiện Protein 1+ thoáng qua. Hướng dẫn mẹ tiếp tục theo dõi que thử mỗi sáng trong 3 ngày; nếu que thử âm tính trở lại thì không thay đổi liều steroid.
 
 ### 4.4 Bằng chứng từ tổng quan hệ thống Cochrane 2020 về thời gian điều trị
@@ -261,9 +256,9 @@ Tuy nhiên, tổng quan hệ thống và phân tích gộp lớn nhất của Co
 2020) trên hàng ngàn bệnh nhi đã làm thay đổi hoàn toàn thực hành lâm sàng toàn cầu:
 
 Khi phân tích riêng biệt các thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) có nguy cơ sai lệch thấp (Low risk of bias - điển hình như thử nghiệm PREDNOS của Anh Quốc), việc kéo dài thời gian điều trị corticosteroid đợt đầu trên 2 đến 3 tháng (8 đến 12 tuần) **KHÔNG LÀM GIẢM NGUY CƠ TÁI PHÁT** so với phác đồ chuẩn 2 đến 3 tháng:
-- Nguy cơ tương đối tái phát: **RR = 0.95 (khoảng tin cậy 95% CI: 0.81 - 1.12)**.
-- Tỷ lệ bệnh nhân duy trì tình trạng lui bệnh không tái phát sau 12-24 tháng theo dõi là tương đương nhau giữa nhóm điều trị chuẩn 2-3 tháng và nhóm kéo dài 6 tháng.
-- Ngược lại, nhóm kéo dài thời gian điều trị phải gánh chịu tổng liều corticoid tích lũy cao hơn đáng kể, làm gia tăng rõ rệt các tác dụng phụ nghiêm trọng: chậm phát triển chiều cao, béo phì thể Cushing, rậm lông, rạn da, tăng huyết áp và rối loạn hành vi cảm xúc.
+- Tái phát bất kỳ sau 12–24 tháng khi so 2 tháng với ≥ 3 tháng prednisone: **RR 0.91 (95% CI 0.78 - 1.06)** (8 nghiên cứu nguy cơ sai lệch chọn lựa thấp; 637 trẻ, 5 nghiên cứu).
+- Tái phát thường xuyên khi so 2 tháng với ≥ 3 tháng: **RR 0.99 (95% CI 0.82 - 1.19)**; so 3 tháng với 5–7 tháng: **RR 0.99 (95% CI 0.74 - 1.33)** (bằng chứng chắc chắn cao).
+- Tác dụng phụ ít hoặc không khác biệt giữa các thời gian điều trị. Phác đồ ngắn được chọn vì kéo dài không mang lại lợi ích, trong khi tổng liều corticoid tích lũy lớn hơn.
 
 Vì vậy, bằng chứng y văn quốc tế khẳng định thời gian điều trị đợt đầu chuẩn hóa cho hội chứng thận hư trẻ em là **8 đến 12 tuần**, tuyệt đối không kéo dài quá 3 tháng một cách không cần thiết.
 
@@ -280,10 +275,10 @@ Khái niệm **Furosemid** là một thuốc lợi tiểu quai có cơ chế ứ
 - Chỉ định: Trẻ có dấu hiệu giảm thể tích tuần hoàn (mạch nhanh nhỏ, CRT > 3s, chi lạnh, huyết áp tụt hoặc kẹp, đau bụng dữ dội do thiếu máu mạc treo).
 - Dịch truyền: **Dung dịch Albumin 20%** (hoặc Albumin 25%).
 - Liều lượng: 0.5 - 1.0 g/kg (tương đương 2.5 - 5.0 mL/kg dung dịch Albumin 20%).
-- Tốc độ: Truyền tĩnh mạch chậm qua bơm tiêm điện trong **2 đến 4 giờ**.
-- *Lưu ý sống còn:* Nếu trẻ đang trong tình trạng sốc mất bù nặng (huyết áp tụt sâu), cần chống sốc ban đầu bằng dung dịch điện giải đẳng trương (Natri Clorid 0.9% hoặc Ringer Lactate 10 - 20 mL/kg truyền nhanh trong 30-60 phút) trong khi chuẩn bị Albumin.
+- Tốc độ: Truyền tĩnh mạch chậm qua bơm tiêm điện; IPNA 2023 truyền 0.5 - 1 g/kg Albumin 20 - 25% trong **4 đến 6 giờ** khi phù nặng.
+- *Lưu ý sống còn:* Nếu trẻ **sốc giảm thể tích hoặc tụt huyết áp**, IPNA 2023 khuyến cáo dùng **Albumin 4 - 5% và KHÔNG kèm Furosemid**. Albumin 20 - 25% kèm Furosemid dành cho trẻ giảm thể tích chưa tụt huyết áp.
 2. **Bước 2 — Thúc đẩy bài niệu bằng Lợi tiểu quai:**
-- **ĐIỀU KIỆN TIÊN QUYẾT:** CHỈ ĐƯỢC DÙNG FUROSEMID KHI ĐÃ TRUYỀN ĐƯỢC ÍT NHẤT 1/2 CHAI ALBUMIN VÀ HUYẾT ĐỘNG ĐÃ CẢI THIỆN (Mạch rõ, CRT < 2s, huyết áp ổn định).
+- **ĐIỀU KIỆN TIÊN QUYẾT:** CHỈ ĐƯỢC DÙNG FUROSEMID KHI THỂ TÍCH ĐÃ ĐƯỢC BÙ LẠI MÀ LƯỢNG NƯỚC TIỂU VẪN KHÔNG ĐỦ (IPNA 2023); không dùng Furosemid khi trẻ còn sốc hoặc tụt huyết áp.
 - Thuốc: Furosemid tiêm tĩnh mạch trực tiếp.
 - Liều lượng: 1.0 - 2.0 mg/kg/liều.
 - Thời điểm: Tiêm vào giữa hoặc ngay cuối buổi truyền Albumin.
@@ -303,8 +298,8 @@ Căn nguyên hay gặp là Liên cầu nhóm A (*Streptococcus pyogenes*) và T�
 Cần dùng kháng sinh chống tụ cầu như Oxacillin/Cefazolin hoặc Vancomycin nếu nghi ngờ MRSA.
 
 ### 5.3 Huyết khối tắc mạch: Nhận diện yếu tố nguy cơ & Dự phòng chống đông
-Theo nghiên cứu đa trung tâm của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC - Kerlin BA, et al.
-2009) trên 988 trẻ em mắc hội chứng thận hư, biến chứng huyết khối tắc mạch (Thromboembolism - TE) xảy ra ở **2.8%** bệnh nhân.
+Theo nghiên cứu của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC - Kerlin BA, et al.
+2009) trên 326 trẻ mắc hội chứng thận hư (mọi nguyên nhân, 1999–2006), **9.2%** trẻ có ít nhất 1 biến cố huyết khối tắc mạch (Thromboembolism - TE); tỷ suất 20.4 bệnh nhân có TE/1000 bệnh nhân-năm; huyết khối tĩnh mạch sâu chiếm 76% và thường liên quan catheter tĩnh mạch trung tâm (45%).
 Mặc dù tỷ lệ này thấp hơn ở người lớn (khoảng 25%), đây là biến chứng cực kỳ nguy hiểm có tỷ lệ tàn tật và tử vong cao:
 - **Yếu tố nguy cơ độc lập:**
 - Lứa tuổi: Trẻ lớn **trên 12 tuổi** có nguy cơ tắc mạch cao vượt trội so với trẻ nhỏ.
@@ -318,7 +313,7 @@ Mặc dù tỷ lệ này thấp hơn ở người lớn (khoảng 25%), đây l�
 - Vận động sớm, tránh nằm bất động kéo dài tại giường.
 - Bù đủ dịch tuần hoàn, tránh tình trạng mất nước và cô đặc máu.
 - Hạn chế tối đa việc đặt catheter tĩnh mạch trung tâm nếu không thực sự bắt buộc.
-- Dự phòng bằng Aspirin liều thấp (2 - 5 mg/kg/ngày, tối đa 81 - 100 mg/ngày) HOẶC Enoxaparin (Heparin trọng lượng phân tử thấp 1 mg/kg tiêm dưới da mỗi 12-24 giờ) ở nhóm trẻ có nguy cơ rất cao (tuổi > 12, Albumin < 15 g/L, Fibrinogen > 6 g/L hoặc có tiền sử huyết khối trước đó).
+- IPNA 2023 **không khuyến cáo dự phòng chống đông hay kháng tiểu cầu thường quy** trong giai đoạn thận hư cấp. Chỉ cân nhắc dự phòng chống đông trong đợt tái phát khi có nguy cơ cao đã xác định (tiền sử huyết khối, thrombophilia gia đình, catheter tĩnh mạch trung tâm, bất động, nhiễm trùng phải nằm viện); quyết định và liều do chuyên khoa thận nhi/huyết học chỉ định.
 
 ### 5.4 Rối loạn điện giải & Xử trí hạ canxi máu đúng cách
 Hạ canxi máu là một xét nghiệm rất thường gặp trên bảng kết quả sinh hóa của trẻ thận hư, nhưng bác sĩ lâm sàng cần cảnh giác để phân biệt giữa **hạ canxi máu giả tạo** và **hạ canxi máu thực sự**:
@@ -326,9 +321,9 @@ Hạ canxi máu là một xét nghiệm rất thường gặp trên bảng kết
 Khi albumin máu giảm sâu, lượng canxi liên kết bị mất đi làm cho nồng độ **Canxi toàn phần (Total Calcium)** xét nghiệm được giảm xuống rất thấp (< 2.0 mmol/L).
 - Tuy nhiên, thành phần có hoạt tính sinh học điều hòa dẫn truyền thần kinh cơ là **Canxi ion hóa (Ca2+)** thường vẫn duy trì ở mức hoàn toàn bình thường (1.15 - 1.30 mmol/L).
 - Công thức hiệu chỉnh canxi theo albumin:
-$$\text{Canxi hiệu chỉnh (mmol/L)} = \text{Canxi toàn phần đo được (mmol/L)} + 0.02 \times (40 - \text{Albumin máu (g/L)})$$
+**Canxi hiệu chỉnh (mmol/L) = Canxi toàn phần đo được (mmol/L) + 0.02 × (40 − Albumin máu (g/L))**
 - **Chỉ định canxi:** Tuyệt đối KHÔNG tiêm canxi tĩnh mạch cấp cứu nếu trẻ không có triệu chứng lâm sàng của hạ canxi máu (dấu Chvostek, Trousseau, co thắt thanh quản, co giật) và canxi ion hóa bình thường.
-Chỉ bổ sung canxi đường uống kết hợp Vitamin D3 hàng ngày để dự phòng biến chứng loãng xương do corticoid kéo dài.
+Không bổ sung canxi và Vitamin D thường quy: đảm bảo khẩu phần canxi đủ, bổ sung canxi uống khi khẩu phần thiếu, và định lượng 25-OH-vitamin D mỗi năm ở thể FRNS/SDNS (IPNA 2023).
 
 ### 5.5 Giám sát tác dụng phụ của lợi tiểu & Rối loạn điện giải
 Khi sử dụng Furosemid liều cao hoặc phối hợp nhiều loại lợi tiểu, bác sĩ lâm sàng cần cảnh giác với các biến chứng:
@@ -353,12 +348,12 @@ Khi trẻ rơi vào các thể bệnh khó như tái phát thường xuyên (FRN
 |---|---|---|---|
 | **1. Levamisole** | 2.5 mg/kg uống cách ngày vào buổi sáng, duy trì 1 đến 2 năm | Lựa chọn đầu tay cho thể FRNS hoặc SDNS mức độ nhẹ, độc tính thấp nhất | Tác dụng phụ: Giảm bạch cầu hạt, viêm mạch máu dị ứng; cần đếm công thức máu mỗi 4-8 tuần |
 | **2. Cyclophosphamide** | 2.0 mg/kg/ngày uống một lần duy nhất vào buổi sáng trong 8 đến 12 tuần | Chỉ định cho thể FRNS hoặc SDNS sau khi đã đạt được lui bệnh hoàn toàn bằng steroid | TỔNG LIỀU TÍCH LŨY TUYỆT ĐỐI < 168 mg/kg để phòng ngừa vô sinh vĩnh viễn và viêm bàng quang xuất huyết |
-| **3. Cyclosporin A (CsA)** | 4 - 5 mg/kg/ngày chia làm 2 lần uống cách nhau 12 giờ | Lựa chọn đầu tay cho thể SRNS và SDNS nặng theo IPNA và KDIGO | Nồng độ đáy mục tiêu (C0): 100 - 150 ng/mL; độc tính thận, phì đại nướu, rậm lông, tăng huyết áp |
-| **4. Tacrolimus (Tac)** | 0.10 - 0.15 mg/kg/ngày chia làm 2 lần uống cách nhau 12 giờ | Lựa chọn hàng đầu cho SRNS nhờ hiệu lực cao và không gây phì đại nướu hay rậm lông | Nồng độ đáy mục tiêu (C0): 5 - 8 ng/mL trong 6 tháng đầu; theo dõi sát creatinin máu và đường huyết |
+| **3. Cyclosporin A (CsA)** | 3 - 5 mg/kg/ngày (tối đa 250 mg) chia 2 lần uống cách nhau 12 giờ | Thuốc ức chế calcineurin (CNI): lựa chọn cho SDNS/FRNS và là một trong hai CNI đầu tay cho SRNS (IPNA 2020) | Nồng độ đáy mục tiêu (C0): 60 - 100 ng/mL ở SSNS (IPNA 2023), 80 - 120 ng/mL ở SRNS (IPNA 2020); độc tính thận, rậm lông, phì đại nướu, tăng huyết áp |
+| **4. Tacrolimus (Tac)** | 0.1 - 0.2 mg/kg/ngày chia 2 lần uống cách nhau 12 giờ | CNI: lựa chọn cho SDNS/FRNS và là một trong hai CNI đầu tay cho SRNS (IPNA 2020) | Nồng độ đáy mục tiêu (C0): 3 - 7 ng/mL ở SSNS (IPNA 2023), 4 - 8 ng/mL ở SRNS (IPNA 2020); rối loạn dung nạp glucose, đái tháo đường, độc tính thận |
 | **5. Mycophenolate Mofetil (MMF)** | 1200 mg/m2/ngày (hoặc 30 mg/kg/ngày) chia 2 lần uống | Thuốc tiết kiệm steroid hiệu quả cao cho thể SDNS và FRNS, không gây độc tính trên thận | Tác dụng phụ: Tiêu chảy, đau quặn bụng, giảm bạch cầu; cần theo dõi công thức máu định kỳ |
 | **6. Rituximab** | 375 mg/m2/liều truyền tĩnh mạch từ 1 đến 4 liều (cách nhau 1 tuần) | Chỉ định cho thể SDNS kháng trị hoặc phụ thuộc liều CNI cao có nguy cơ ngộ độc thận | Mục tiêu điều trị: Làm suy giảm tế bào B (CD19 < 1% tổng tế bào lympho); theo dõi phản ứng phản vệ khi truyền |
 
-Khái niệm **Tacrolimus** là một thuốc ức chế calcineurin thế hệ hai có hoạt tính ức chế miễn dịch mạnh gấp 10-100 lần cyclosporin, được khuyến cáo là lựa chọn hàng đầu cho hội chứng thận hư kháng steroid ở trẻ em nhờ hiệu quả giảm protein niệu vượt trội và ít tác dụng phụ thẩm mỹ (không gây phì đại nướu hay rậm lông).
+Khái niệm **Tacrolimus** là một thuốc ức chế calcineurin (CNI). IPNA 2020 khuyến cáo CNI (Cyclosporin A hoặc Tacrolimus) là thuốc ức chế miễn dịch đầu tay cho hội chứng thận hư kháng steroid; chọn thuốc theo hồ sơ tác dụng phụ: Cyclosporin A gây rậm lông và phì đại nướu, Tacrolimus gây rối loạn dung nạp glucose và đái tháo đường.
 
 Khái niệm **Rituximab** là một kháng thể đơn dòng kháng CD20 trên bề mặt tế bào lympho B, có tác dụng làm suy giảm tạm thời dòng lympho B và tái lập cân bằng miễn dịch podocyte, được chỉ định cho các trường hợp phụ thuộc steroid nặng hoặc tái phát nhiều lần dù đã dùng CNI/MMF.
 
@@ -367,9 +362,9 @@ Khái niệm **Rituximab** là một kháng thể đơn dòng kháng CD20 trên 
 1. **Bẫy lâm sàng 1 (Ngộ nhận phù to là thừa dịch toàn bộ cơ thể):** Học viên hay nhầm lẫn rằng trẻ phù to nứt da, báng bụng căng tròn là đang ứ nước nội mạch, từ đó vội vã kê đơn Furosemid liều cao. Thực tế, phần lớn dịch nằm ở khoang gian bào, còn thể tích trong lòng mạch lại đang cạn kiệt nghiêm trọng (Underfill). Dùng lợi tiểu lúc này sẽ đẩy trẻ vào sốc trụy mạch và tắc mạch não/phổi.
 2. **Bẫy lâm sàng 2 (Dùng lợi tiểu quai đơn độc khi đang có biểu hiện giảm thể tích tuần hoàn):** Sai lầm chết người khi thấy trẻ tiểu ít thì lại tăng liều Furosemid. Thiểu niệu ở đây là phản xạ tự nhiên của thận nhằm bảo tồn lượng dịch nội mạch đang suy kiệt. Khi mạch nhanh, CRT kéo dài, chi lạnh, bắt buộc phải truyền Albumin 20% trước để kéo dịch về lòng mạch rồi mới được dùng Furosemid.
 3. **Bẫy lâm sàng 3 (Bỏ sót viêm phúc mạc tiên phát do nhầm lẫn với đau bụng do phù nề ruột):** Nhiều bác sĩ cho rằng trẻ thận hư đau bụng là do dịch báng căng hoặc phù nề niêm mạc ruột. Sự chậm trễ trong việc chọc dò màng bụng và cấy máu để điều trị kháng sinh Ceftriaxone sẽ khiến trẻ rơi vào sốc nhiễm khuẩn huyết do phế cầu với tỷ lệ tử vong rất cao.
-4. **Bẫy lâm sàng 4 (Ngừng đột ngột Prednisolone sau đợt tấn công vì sợ tác dụng phụ):** Khi thấy trẻ mặt tròn như mặt trăng (Cushingoid) hoặc tăng cân nhanh, người nhà hoặc bác sĩ tuyến dưới hốt hoảng ngừng thuốc ngay lập tức. Hành động này sẽ gây suy thượng thận cấp kịch phát đe dọa tính mạng. Quy trình giảm liều phải thực hiện tuần tự sang cách ngày rồi mới hạ dần liều.
+4. **Bẫy lâm sàng 4 (Ngừng đột ngột Prednisolone trong giai đoạn liều cao hàng ngày vì sợ tác dụng phụ):** Khi thấy trẻ mặt tròn như mặt trăng (Cushingoid) hoặc tăng cân nhanh, người nhà hoặc bác sĩ tuyến dưới hốt hoảng ngừng thuốc ngay. Ngừng đột ngột corticoid liều cao kéo dài có thể gây suy thượng thận trung ương thoáng qua, nguy hiểm nhất khi trẻ gặp stress (sốt, phẫu thuật, chấn thương), đồng thời làm hỏng đợt điều trị. Phải chuyển sang liều cách ngày đúng phác đồ; IPNA 2023 không khuyến cáo giảm liều dần trong giai đoạn cách ngày.
 5. **Bẫy lâm sàng 5 (Hạ canxi máu giả tạo và chỉ định tiêm canxi tĩnh mạch bừa bãi):** Thấy kết quả canxi toàn phần máu 1.7 mmol/L, bác sĩ vội vàng cho tiêm canxi clorid hoặc canxi gluconat tĩnh mạch. Thực chất canxi ion hóa hoàn toàn bình thường, việc tiêm tĩnh mạch không cần thiết có thể gây loạn nhịp tim nguy hiểm và hoại tử mô nếu chệch ven.
-6. **Bẫy lâm sàng 6 (Kiêng khem đạm nghiêm ngặt hoặc ép ăn quá nhiều đạm để bù trừ):** Cả hai thái cực đều sai lầm: Kiêng đạm sẽ đẩy trẻ vào suy dinh dưỡng teo cơ nhanh chóng; ngược lại ép ăn gấp đôi lượng đạm sẽ làm tăng gánh nặng lọc cầu thận, hủy hoại thêm các podocyte còn sót lại. Cần duy trì lượng đạm chuẩn 1.5 - 2.0 g/kg/ngày.
+6. **Bẫy lâm sàng 6 (Kiêng khem đạm nghiêm ngặt hoặc ép ăn quá nhiều đạm để bù trừ):** Cả hai thái cực đều sai lầm: Kiêng đạm sẽ đẩy trẻ vào suy dinh dưỡng teo cơ nhanh chóng; ngược lại ép ăn gấp đôi lượng đạm sẽ làm tăng gánh nặng lọc cầu thận, hủy hoại thêm các podocyte còn sót lại. IPNA 2023 khuyến cáo lượng đạm như khuyến nghị cho trẻ khỏe cùng tuổi.
 7. **Bẫy lâm sàng 7 (Đánh giá kháng steroid quá sớm trước khi đủ 4 tuần điều trị liều chuẩn):** Thấy trẻ uống Prednisolone 2 tuần mà que thử vẫn còn 3+ protein niệu, bác sĩ đã vội kết luận kháng thuốc và đổi sang thuốc ức chế miễn dịch độc hại. Định nghĩa chuẩn quốc tế IPNA 2020 đòi hỏi đủ 4 tuần tấn công liên tục liều 60 mg/m2/ngày mới được phân loại SRNS.
 8. **Bẫy lâm sàng 8 (Tiêm vắc xin sống giảm độc lực khi trẻ đang dùng thuốc ức chế miễn dịch):** Tiêm vắc xin thủy đậu hoặc sởi cho trẻ đang uống Prednisolone liều cao có thể gây nhiễm virus vắc xin lan tỏa toàn thân dẫn đến viêm não, viêm phổi nặng và tử vong.
 
@@ -403,9 +398,9 @@ Nếu tiêm Furosemid lúc này, thuốc sẽ cưỡng bức quai Henle đào th
 3. **Kế hoạch xử trí cấp cứu tức thì:**
 - **Bước 1:** Đặt trẻ nằm đầu bằng, thở oxy qua canula 2 L/phút.
 Thiết lập ngay đường truyền tĩnh mạch lớn (Catheter ngoại vi số 22G hoặc 20G).
-- **Bước 2 (Chống sốc & Bù thể tích):** Truyền ngay **Dung dịch Albumin 20%** liều 1.0 g/kg dựa trên cân nặng khô ước tính 14 kg = 14 g Albumin (tương đương 70 mL dung dịch Albumin 20%).
-Tốc độ truyền qua bơm tiêm điện trong 2 giờ (35 mL/giờ). (Nếu chưa có sẵn Albumin 20%, truyền nhanh Natri Clorid 0.9% 10 mL/kg trong 30 phút để nâng huyết áp).
-- **Bước 3 (Lợi tiểu sau khi phục hồi tưới máu):** Sau khi truyền được 1 giờ Albumin và đánh giá lại thấy huyết động cải thiện (mạch chậm lại < 115 lần/phút, CRT < 2 giây, huyết áp lên 95/60 mmHg), tiến hành tiêm **Furosemid 1.0 mg/kg TM** (14 mg tiêm tĩnh mạch chậm).
+- **Bước 2 (Chống sốc):** Trẻ đang tụt huyết áp (75/50 mmHg) → theo IPNA 2023 truyền **Albumin 4 - 5%** và **không kèm Furosemid**. (Nếu chưa có sẵn, truyền nhanh Natri Clorid 0.9% 10 mL/kg trong 30 phút để nâng huyết áp).
+- **Bước 3 (Bù thể tích sau khi hết tụt huyết áp):** Nếu còn dấu hiệu giảm thể tích (CRT kéo dài, tiểu ít), truyền **Albumin 20%** 1.0 g/kg theo cân nặng khô 14 kg = 14 g (70 mL) trong 4 - 6 giờ.
+Chỉ khi thể tích đã được bù lại (mạch < 115 lần/phút, CRT < 2 giây, huyết áp 95/60 mmHg) mà nước tiểu vẫn ít mới tiêm **Furosemid 1.0 mg/kg TM** (14 mg) vào giữa hoặc cuối buổi truyền.
 - **Bước 4 (Theo dõi sát):** Đánh giá mạch, huyết áp, nhịp thở, SpO2 và lượng nước tiểu mỗi 30 phút.
 Không tiêm canxi tĩnh mạch vì canxi ion hóa 1.18 mmol/L hoàn toàn bình thường.
 - **Bước 5 (Điều trị đặc hiệu):** Sau khi huyết động hoàn toàn ổn định và loại trừ nhiễm trùng, bắt đầu khởi động **Prednisolone 60 mg/m2/ngày** (35 mg/ngày uống buổi sáng sau ăn).
@@ -460,10 +455,10 @@ Phù mi mắt, que thử nước tiểu Protein 2+, Cholesterol máu 6.0 mmol/L.
 Báng bụng, Protein niệu 40 mg/m2/giờ, Albumin máu 30 g/L, C3 giảm.
 
 *Đáp án đúng:* **B**.
-*Giải thích:* Tiêu chuẩn vàng bắt buộc của IPNA 2023 là Protein niệu ngưỡng thận hư (Up/Ucr >= 2.0 mg/mg hoặc >= 50 mg/kg/ngày) kèm Albumin máu giảm sâu < 25 g/L.
+*Giải thích:* Hai tiêu chuẩn sinh hóa bắt buộc là Protein niệu ngưỡng thận hư (Up/Ucr >= 2.0 mg/mg hoặc >= 50 mg/kg/ngày) kèm giảm Albumin máu (≤ 25 g/L theo Bộ Y tế; < 30 g/L theo IPNA 2023).
 Phương án B thỏa mãn hoàn hảo cả hai tiêu chuẩn sinh hóa bắt buộc này.
 Phương án A protein niệu chưa đạt ngưỡng (>= 50 mg/kg).
-Phương án D albumin máu chưa dưới 25 g/L và có C3 giảm gợi ý viêm cầu thận.
+Phương án D albumin máu chưa giảm đến ngưỡng và có C3 giảm gợi ý viêm cầu thận.
 
 ---
 
@@ -473,7 +468,7 @@ Cách kê đơn Prednisolone tấn công hàng ngày nào sau đây là CHUẨN 
 - A.
 Prednisolone 5 mg: Uống 7 viên (35 mg) chia làm 3 lần sau các bữa ăn trong 2 tuần.
 - B.
-Prednisolone 5 mg: Uống 7 viên (35-36 mg) một lần duy nhất vào 7 giờ sáng sau ăn trong 4 đến 6 tuần.
+Prednisolone 5 mg: Uống 7 viên (35-36 mg) một lần duy nhất vào 7 giờ sáng sau ăn trong 4 tuần (hoặc 6 tuần theo phác đồ 6 + 6).
 - C.
 Prednisolone 5 mg: Uống 12 viên (60 mg) một lần duy nhất vào buổi tối trước khi ngủ trong 4 tuần.
 - D.
@@ -482,7 +477,7 @@ Prednisolone 5 mg: Uống 4 viên cách ngày trong 8 tuần liên tục.
 *Đáp án đúng:* **B**.
 *Giải thích:* Liều tấn công chuẩn là 2.0 mg/kg/ngày (18 x 2 = 36 mg/ngày) hoặc 60 mg/m2/ngày (0.72 x 60 = 43.2 mg/ngày, chọn khoảng 35-40 mg, không quá 60 mg).
 Thuốc PHẢI được uống một lần duy nhất vào buổi sáng sau ăn để tránh ức chế trục hạ đồi - tuyến yên - thượng thận và giảm kích ứng dạ dày.
-Thời gian tấn công hàng ngày là 4 đến 6 tuần liên tục.
+Thời gian tấn công hàng ngày là 4 tuần (phác đồ 4 + 4) hoặc 6 tuần (phác đồ 6 + 6).
 
 ---
 
@@ -525,11 +520,11 @@ Các trường hợp A, B, D là diễn tiến kinh điển của SSNS ở trẻ
 
 ### 10.1 Tóm tắt các thông điệp cốt lõi (Core Takeaways)
 - Hội chứng thận hư nguyên phát ở trẻ em chủ yếu là bệnh tổn thương tối thiểu (MCD), có tỷ lệ đáp ứng hoàn toàn với glucocorticoid lên tới 85-90%.
-- Chẩn đoán xác định dựa trên 4 tiêu chuẩn kinh điển, trong đó hai tiêu chuẩn bắt buộc là Protein niệu ngưỡng thận hư (>= 50 mg/kg/ngày hoặc Up/Ucr >= 2 mg/mg) và Albumin máu < 25 g/L.
-- Phác đồ điều trị đợt đầu chuẩn hóa theo IPNA/KDIGO gồm 4-6 tuần Prednisolone tấn công hàng ngày (60 mg/m2 hoặc 2 mg/kg, max 60 mg) tiếp theo bởi 4-6 tuần duy trì cách ngày (40 mg/m2 hoặc 1.5 mg/kg, max 40 mg).
-Tổng thời gian từ 8 đến 12 tuần.
-Bằng chứng Cochrane 2020 chứng minh không nên kéo dài trên 3 tháng.
-- Cảnh giác cao độ với 2 biến chứng cấp tính gây tử vong hàng đầu: Sốc giảm thể tích tuần hoàn (xử trí bằng Albumin 20% kết hợp Furosemid thận trọng) và Viêm phúc mạc tiên phát do phế cầu (điều trị kháng sinh Ceftriaxone liều cao sớm).
+- Chẩn đoán xác định dựa trên 4 tiêu chuẩn kinh điển, trong đó hai tiêu chuẩn bắt buộc là Protein niệu ngưỡng thận hư (>= 50 mg/kg/ngày hoặc Up/Ucr >= 2 mg/mg) và giảm Albumin máu (≤ 25 g/L theo Bộ Y tế; < 30 g/L theo IPNA 2023).
+- Phác đồ điều trị đợt đầu chuẩn hóa theo IPNA 2023/KDIGO 2021: Prednisolone hàng ngày (60 mg/m2 hoặc 2 mg/kg, max 60 mg) rồi cách ngày (40 mg/m2 hoặc 1.5 mg/kg, max 40 mg theo IPNA), theo phác đồ 4 + 4 tuần hoặc 6 + 6 tuần.
+Tổng thời gian 8 hoặc 12 tuần.
+Cochrane 2020: kéo dài trên 2–3 tháng không giảm tái phát, nên không kéo dài quá 3 tháng.
+- Cảnh giác cao độ với 2 biến chứng cấp tính gây tử vong hàng đầu: Sốc giảm thể tích tuần hoàn (sốc/tụt huyết áp: Albumin 4–5% không kèm Furosemid; giảm thể tích chưa tụt huyết áp: Albumin 20–25%, Furosemid chỉ khi đã bù đủ mà vẫn tiểu ít) và Viêm phúc mạc tiên phát do phế cầu (điều trị kháng sinh Ceftriaxone liều cao sớm).
 - Kháng steroid (SRNS) được định nghĩa sau 4 tuần liều chuẩn không lui bệnh; cần sinh thiết thận, làm xét nghiệm di truyền gen podocyte và chuyển sang thuốc ức chế Calcineurin (Tacrolimus/Cyclosporin A).
 
 ## 11. BẰNG CHỨNG Y VĂN & ĐỐI CHIẾU GUIDELINE MỚI
@@ -540,15 +535,15 @@ Các khuyến cáo trong bài giảng được tổng hợp và đối chiếu t
 Hiệp hội Thận Nhi Quốc tế đã công bố hướng dẫn thực hành lâm sàng toàn diện về chẩn đoán và điều trị hội chứng thận hư nhạy cảm steroid ở trẻ em.
 Đây là văn bản đồng thuận quốc tế có giá trị cao nhất hiện nay, tổng hợp các bằng chứng lâm sàng từ các thử nghiệm ngẫu nhiên có đối chứng để chuẩn hóa liều lượng và thời gian sử dụng glucocorticoid.
 
-- Khuyến cáo thực hành lâm sàng IPNA 2023 khuyến cáo điều trị đợt đầu hội chứng thận hư nhạy cảm steroid (SSNS) bằng Prednisolone hoặc Prednisone uống liều 60 mg/m2/ngày hoặc 2 mg/kg/ngày (tối đa 60 mg/ngày) trong 4 đến 6 tuần, sau đó chuyển sang liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg (tối đa 40 mg) trong 4 đến 6 tuần, tổng thời gian 8 đến 12 tuần: We recommend oral prednisolone or prednisone at a dose of 60 mg/m2/day or 2 mg/kg/day (maximum 60 mg/day) administered as a single daily morning dose for 4 to 6 weeks, followed by alternate-day prednisolone at 40 mg/m2 or 1.5 mg/kg (maximum 40 mg) for 4 to 6 weeks (total duration 8 to 12 weeks). {claim:C-001} [GUIDELINE VERIFIED] (PMID: 36269406)
-Hướng dẫn IPNA 2023 nhấn mạnh điều trị hội chứng thận hư nhạy cảm steroid (SSNS) bằng glucocorticoid giúp đạt lui bệnh hoàn toàn (complete remission of proteinuria) và phục hồi chức năng cầu thận podocyte cho trẻ em.
-Phác đồ này đảm bảo tỷ lệ lui bệnh cao nhất đồng thời giảm thiểu tối đa các tác dụng phụ tích lũy trên sự phát triển thể chất của trẻ nhỏ.
+- Khuyến cáo IPNA 2023 cho đợt đầu: prednisolone/prednisone hàng ngày 60 mg/m2 hoặc 2 mg/kg (tối đa 60 mg/ngày) trong 4 tuần rồi cách ngày 40 mg/m2 hoặc 1.5 mg/kg (tối đa 40 mg) trong 4 tuần, HOẶC hàng ngày 6 tuần rồi cách ngày 6 tuần (mức A, khuyến cáo mạnh): "we recommend that infants > 3 months and children or adolescents (1–18 years) with their first episode of idiopathic NS should receive daily PDN for either: 4 weeks at 60 mg/m2 or 2 mg/kg (maximum dose 60 mg/day), followed by alternate day PDN at 40 mg/m2 or 1.5 mg/kg (maximum dose of 40 mg on alternate days) for 4 weeks, or 6 weeks at 60 mg/m2 or 2 mg/kg (maximum dose 60 mg/day), followed by alternate day PDN at 40 mg/m2 or 1.5 mg/kg (maximum dose of 40 mg on alternate days) for 6 weeks (grade A, strong recommendation)." {claim:C-001} [FULL TEXT VERIFIED] (PMID: 36269406)
+IPNA 2023 đồng thời khuyến cáo không giảm liều dần trong giai đoạn cách ngày và uống một liều duy nhất buổi sáng.
+Lựa chọn 4 + 4 hay 6 + 6 tuần không làm thay đổi kết cục tái phát trong các RCT chất lượng cao được IPNA tổng hợp.
 
 ### Khuyến cáo thực hành lâm sàng IPNA về thể kháng steroid (SRNS)
 Kháng steroid là một trong những thể bệnh phức tạp và có nguy cơ tiến triển thành bệnh thận mạn tính giai đoạn cuối cao nhất ở trẻ em.
 Hiệp hội Thận Nhi Quốc tế đã đưa ra định nghĩa đồng thuận chuẩn mực nhằm phân định ranh giới giữa đáp ứng chậm và kháng thuốc thực sự để kịp thời chuyển hướng điều trị.
 
-- Khuyến cáo thực hành lâm sàng IPNA 2020 định nghĩa hội chứng thận hư kháng steroid (SRNS) khi trẻ không đạt lui bệnh hoàn toàn sau 4 tuần điều trị liên tục Prednisolone hoặc Prednisone hàng ngày liều chuẩn 60 mg/m2/ngày hoặc 2 mg/kg/ngày: We recommend defining SRNS as lack of complete remission of proteinuria after 4 weeks of daily prednisolone or prednisone at standard dose of 60 mg/m2/day or 2 mg/kg/day. {claim:C-002} [GUIDELINE VERIFIED] (PMID: 32382828)
+- IPNA 2020 định nghĩa hội chứng thận hư kháng steroid (SRNS) là không lui bệnh hoàn toàn trong 4 tuần prednisolone/prednisone liều chuẩn (60 mg/m2/ngày hoặc 2 mg/kg/ngày, tối đa 60 mg/ngày): "SSNS Complete remission within 4 weeks of prednisone or prednisolone (PDN) at standard dose (60 mg/m2/day or 2 mg/kg/day, maximum 60 mg/day). SRNS Lack of complete remission within 4 weeks of treatment with PDN at standard dose" {claim:C-002} [FULL TEXT VERIFIED] (PMID: 32382828)
 
 Định nghĩa đồng thuận này giúp chấm dứt hoàn toàn tình trạng tiếp tục kéo dài corticoid liều cao quá mức gây ngộ độc nặng nề cho trẻ.
 Sau khi xác định thể kháng thuốc, bệnh nhân cần được sinh thiết thận và làm xét nghiệm di truyền học trước khi khởi động liệu pháp ức chế Calcineurin.
@@ -557,32 +552,32 @@ Sau khi xác định thể kháng thuốc, bệnh nhân cần được sinh thi�
 Tổ chức Cải thiện Tiên lượng Toàn cầu về Bệnh Thận đã cập nhật toàn diện các hướng dẫn quản lý bệnh cầu thận, trong đó có phân mục chuyên sâu về bệnh tổn thương tối thiểu và hội chứng thận hư ở trẻ em.
 Văn bản này nhấn mạnh vai trò của việc kiểm soát chặt chẽ thời gian điều trị đợt đầu.
 
-- Hướng dẫn KDIGO 2021 khuyến cáo thời gian điều trị corticosteroid đường uống đợt đầu cho hội chứng thận hư ở trẻ em là từ 8 đến 12 tuần (4 đến 6 tuần liều hàng ngày 60 mg/m2 hoặc 2 mg/kg tiếp theo bởi 4 đến 6 tuần liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg): We recommend that oral corticosteroids (prednisone or prednisolone) be administered for 8 to 12 weeks for the initial treatment of nephrotic syndrome in children, either as daily 60 mg/m2 or 2 mg/kg for 4 to 6 weeks followed by alternate-day 40 mg/m2 or 1.5 mg/kg for 4 to 6 weeks. {claim:C-003} [GUIDELINE VERIFIED] (PMID: 34556256)
+- Hướng dẫn KDIGO 2021 khuyến cáo corticoid uống đợt đầu ở trẻ em kéo dài 8 tuần (4 tuần hàng ngày + 4 tuần cách ngày) hoặc 12 tuần (6 tuần hàng ngày + 6 tuần cách ngày): "Recommendation 4.3.1.1: We recommend that oral glucocorticoids be given for 8 weeks (4 weeks of daily glucocorticoids followed by 4 weeks of alternate-day glucocorticoids) or 12 weeks (6 weeks of daily glucocorticoids followed by 6 weeks of alternate-day glucocorticoids) (1B)." {claim:C-003} [FULL TEXT VERIFIED] (PMID: 34556256)
 
-Khuyến cáo này chỉ rõ việc kéo dài tổng đợt điều trị ban đầu quá mốc thời gian quy định không mang lại lợi ích bảo vệ thận lâu dài mà làm gia tăng nguy cơ suy giảm mật độ khoáng của xương và rối loạn chuyển hóa đường máu ở trẻ em.
+Practice Point 4.3.1.1 của KDIGO cho liều hàng ngày 60 mg/m2 hoặc 2 mg/kg (tối đa 60 mg) và liều cách ngày 40 mg/m2 hoặc 1.5 mg/kg (KDIGO ghi tối đa 50 mg; IPNA 2023 ghi tối đa 40 mg). Khuyến cáo ưu tiên phác đồ ngắn 8–12 tuần vì kết cục tương đương và an toàn hơn so với kéo dài trên 12 tuần.
 
 ### Bằng chứng tổng quan hệ thống Cochrane về thời gian điều trị Corticoid
 Trước đây từng tồn tại quan điểm kéo dài thời gian dùng corticoid đợt đầu lên nhiều tháng để phòng ngừa tái phát.
 Tổng quan hệ thống Cochrane do nhóm tác giả danh tiếng thực hiện đã phân tích gộp các nghiên cứu đối chứng nghiêm ngặt để đưa ra kết luận mang tính bước ngoặt khoa học.
 
-- Tổng quan hệ thống Cochrane 2020 cho thấy việc kéo dài thời gian điều trị corticosteroid đợt đầu trên 2 đến 3 tháng (8 đến 12 tuần) không làm giảm nguy cơ tái phát so với phác đồ chuẩn 2 đến 3 tháng (RR 0.95, 95% CI 0.81 đến 1.12) mà còn làm gia tăng các tác dụng phụ của thuốc: When studies with low risk of bias were analysed separately, there was no significant difference in the risk of relapse between children treated for two to three months compared with longer durations (RR 0.95, 95% CI 0.81 to 1.12). {claim:C-004} [DATA VERIFIED] (PMID: 35659203)
+- Tổng quan hệ thống Cochrane 2020: so 2 tháng với ≥ 3 tháng prednisone ở đợt đầu, số trẻ tái phát bất kỳ sau 12–24 tháng ít hoặc không khác biệt (RR 0.91, 95% CI 0.78 đến 1.06); tác dụng phụ cũng ít hoặc không khác biệt: "In analyses of eight studies at low risk of selection bias, there is little or no difference in the number of children with any relapse by 12 to 24 months when comparing two months of prednisone with three months or more (RR 0.91, 95% CI 0.78 to 1.06; 637 participants; 5 studies; I2 = 47%)" {claim:C-004} [ABSTRACT VERIFIED] (PMID: 35659203)
 
-Kết quả phân tích gộp khẳng định phác đồ chuẩn từ hai đến ba tháng là tối ưu về mặt cân bằng giữa hiệu quả kiểm soát bệnh và độ an toàn.
-Việc kéo dài thêm thời gian không tạo ra ưu thế bảo vệ nào có ý nghĩa thống kê về mặt lâm sàng.
+Phân tích gộp cho thấy kéo dài corticoid đợt đầu quá 2–3 tháng không giảm tái phát hay tái phát thường xuyên (RR 0.99, 95% CI 0.82 đến 1.19), và tác dụng phụ ít hoặc không khác biệt giữa các thời gian điều trị.
+Vì kéo dài không có lợi ích, phác đồ chuẩn hiện nay là 8–12 tuần.
 
 ### Nghiên cứu đoàn hệ đa trung tâm MWPNC về biến chứng huyết khối
 Tắc mạch huyết khối là biến chứng nguy hiểm có thể đe dọa trực tiếp tính mạng bệnh nhi mắc hội chứng thận hư.
 Nghiên cứu của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ tiến hành trên quy mô đoàn hệ lớn đã làm sáng tỏ tỷ lệ mắc thực tế và các yếu tố nguy cơ then chốt trong thực hành.
 
-- Nghiên cứu đa trung tâm của Hiệp hội Thận Nhi vùng Trung Tây Hoa Kỳ (MWPNC) trên 988 trẻ mắc hội chứng thận hư ghi nhận biến chứng tắc mạch huyết khối xảy ra ở 2.8% bệnh nhân, và lứa tuổi trên 12 tuổi là yếu tố nguy cơ độc lập: In this multicenter study of children with nephrotic syndrome from the Midwest Pediatric Nephrology Consortium (MWPNC), thromboembolic complications occurred in 2.8% of patients. Children aged > 12 tuổi are at much greater risk of thromboembolism. {claim:C-005} [DATA VERIFIED] (PMID: 19394032)
+- Nghiên cứu MWPNC (Kerlin 2009) hồi cứu 326 trẻ mắc hội chứng thận hư ghi nhận 9.2% có ít nhất 1 biến cố huyết khối tắc mạch, và tuổi ≥ 12 lúc khởi phát là yếu tố tiên đoán độc lập: "We found that 9.2% of our cohort had experienced at least 1 TE." {claim:C-005} [ABSTRACT VERIFIED] (PMID: 19394032)
 
-Dữ liệu thực chứng nhấn mạnh sự cần thiết phải cảnh giác cao độ và chủ động xem xét các biện pháp dự phòng chống đông ở trẻ lớn có nồng độ albumin máu giảm cực sâu hoặc có sự hiện diện của đường truyền tĩnh mạch trung tâm.
+Nhóm tác giả khuyến cáo theo dõi sát huyết khối ở trẻ từ 12 tuổi trở lên, có protein niệu nặng hoặc tiền sử huyết khối; huyết khối tĩnh mạch sâu thường gặp nhất và hay liên quan catheter tĩnh mạch trung tâm.
 
 ### Tài liệu đồng thuận của Hội Thận Nhi khoa Ý (SINePe)
 Đồng thuận SINePe là tài liệu hướng dẫn lâm sàng đa trung tâm quy tụ toàn bộ các trung tâm chuyên khoa Thận Nhi, đưa ra các khuyến nghị thực hành chi tiết về chẩn đoán và quản lý đợt khởi phát ban đầu cũng như các biến chứng cấp tính.
 
-- Đồng thuận Hội Thận Nhi khoa Ý (SINePe 2017) khuyến cáo điều trị đợt đầu hội chứng thận hư trẻ em gồm Prednisone hàng ngày 60 mg/m2/ngày (tối đa 60 mg/ngày) trong 4 đến 6 tuần, tiếp theo bằng Prednisone cách ngày 40 mg/m2 (tối đa 40 mg) trong 4 đến 6 tuần: Initial treatment of pediatric nephrotic syndrome consists of daily prednisone at 60 mg/m2/day (maximum 60 mg/day) for 4 to 6 weeks followed by alternate-day prednisone at 40 mg/m2 (maximum 40 mg) for 4 to 6 weeks. {claim:C-006} [GUIDELINE VERIFIED] (PMID: 28427453)
-Tài liệu đồng thuận SINePe 2017 cung cấp lưu đồ chuẩn mực về xử trí cấp cứu giảm thể tích nội mạch bằng dung dịch Albumin ưu trương phối hợp lợi tiểu quai và các nguyên tắc bảo vệ chức năng thận lâu dài cho trẻ em.
+- Đồng thuận Hội Thận Nhi khoa Ý (SINePe 2017) đề xuất prednisone hàng ngày 60 mg/m2 (tối đa 60 mg) trong 6 tuần, rồi 40 mg/m2 cách ngày (tối đa 40 mg) thêm 6 tuần, không giảm liều dần: "We suggest that PDN (60 mg/m2, maximum 60 mg) be given daily in a single dose or divided into 2 doses for 6 weeks, followed by a single dose of 40 mg/m2, maximum 40 mg PDN on alternate days for another 6 weeks, without any tapering of the dose." {claim:C-006} [FULL TEXT VERIFIED] (PMID: 28427453)
+Tài liệu đồng thuận SINePe 2017 cũng đưa ra hướng dẫn xử trí phù, giảm thể tích tuần hoàn, nhiễm trùng và huyết khối trong đợt khởi phát.
 Việc tuân thủ chặt chẽ các khuyến cáo chẩn đoán và điều trị của SINePe giúp giảm thiểu đáng kể các biến chứng nguy hiểm trong đợt khởi phát ban đầu.
 Gia đình bệnh nhi cần được tư vấn kỹ lưỡng về kế hoạch theo dõi tiến triển và tái khám định kỳ để phát hiện sớm các dấu hiệu tái phát.
 
@@ -594,7 +589,7 @@ Gia đình bệnh nhi cần được tư vấn kỹ lưỡng về kế hoạch t
 Không chấm thêm nước mắm, nước tương, tránh hoàn toàn các thực phẩm chế biến sẵn giàu muối (xúc xích, mì ăn liền, đồ hộp, bim bim).
 - Khi trẻ đã hết phù hoàn toàn và chuyển sang liều steroid duy trì: Cho trẻ ăn chế độ nhạt tương đối, không cần kiêng khem quá khắt khe gây biếng ăn và suy dinh dưỡng.
 - **Khẩu phần Protein:**
-- Cung cấp lượng đạm chuẩn theo lứa tuổi khuyến nghị (RDA): khoảng **1.5 - 2.0 g/kg/ngày** từ các nguồn đạm có giá trị sinh học cao (thịt nạc, cá, trứng, sữa).
+- Cung cấp lượng đạm như khuyến nghị cho trẻ khỏe cùng tuổi (IPNA 2023), ưu tiên nguồn đạm có giá trị sinh học cao (thịt nạc, cá, trứng, sữa).
 - *Sai lầm cần tránh:* Tuyệt đối KHÔNG ép trẻ ăn chế độ ăn quá giàu đạm (> 3 - 4 g/kg/ngày) với ý nghĩ sai lầm là bù vào lượng đạm mất qua nước tiểu.
 Ăn quá nhiều đạm sẽ làm tăng áp lực lọc cầu thận, làm tổn thương podocyte nặng hơn và gia tăng lượng protein niệu đào thải ra ngoài.
 - **Năng lượng và dịch uống:**
@@ -626,21 +621,21 @@ Do nguy cơ nhiễm trùng phế cầu khuẩn rất cao, tất cả trẻ em m�
 1. **Uống thuốc một lần vào buổi sáng:** Luôn dặn gia đình cho trẻ uống toàn bộ liều Prednisolone một lần duy nhất từ 7:00 đến 8:00 sáng sau khi ăn no. Tuyệt đối không chia nhỏ liều uống nhiều lần trong ngày vì sẽ làm tăng ức chế tuyến thượng thận lên gấp nhiều lần.
 2. **Kỹ năng nhận diện Underfill tại giường:** Đừng bao giờ chỉ nhìn vào độ căng của bụng hay chân để đánh giá dịch. Hãy bắt mạch quay, bấm CRT ở đầu ngón tay và sờ nhiệt độ mu bàn chân. Nếu chân lạnh ngắt và CRT > 3 giây, trẻ đang cạn kiệt thể tích nội mạch dù bụng báng căng tròn.
 3. **Thứ tự vàng khi truyền Albumin và Lợi tiểu:** "Albumin đi trước, Furosemid theo sau". Không bao giờ tiêm Furosemid trước hoặc tiêm cùng lúc khi bắt đầu cắm chai Albumin. Chỉ tiêm Furosemid vào giữa hoặc cuối chai Albumin khi tưới máu ngoại vi đã hồi phục.
-4. **Không kiêng khem đạm thái quá:** Hướng dẫn mẹ cho trẻ ăn lượng thịt cá bình thường theo nhu cầu phát triển lứa tuổi (1.5 - 2.0 g/kg/ngày). Kiêng đạm sẽ làm trẻ suy kiệt, teo cơ và vết thương lâu lành.
-5. **Giảm muối thông minh:** Hạn chế muối trong giai đoạn phù to (1-2 g muối/ngày), nhưng khi trẻ đã hết phù và đang giảm liều steroid thì có thể nới lỏng chế độ ăn nhạt vừa phải để trẻ ăn ngon miệng và không chậm tăng trưởng.
+4. **Không kiêng khem đạm thái quá:** Hướng dẫn mẹ cho trẻ ăn lượng thịt cá bình thường theo nhu cầu lứa tuổi như trẻ khỏe (IPNA 2023). Kiêng đạm sẽ làm trẻ suy kiệt, teo cơ và vết thương lâu lành.
+5. **Giảm muối thông minh:** IPNA 2023 khuyến cáo ăn nhạt (natri tối đa 2 - 3 mEq/kg/ngày, khoảng 2000 mg/ngày ở trẻ lớn) khi tái phát có phù vừa hoặc nặng, và ăn muối bình thường khi lui bệnh.
 6. **Sổ nhật ký que thử nước tiểu tại nhà:** Mỗi gia đình cần có một lọ que thử nước tiểu và một cuốn sổ nhật ký. Thử nước tiểu buổi sáng 2-3 lần mỗi tuần. Nếu thấy que thử chuyển 3+ trong 2 ngày liên tiếp, phải liên hệ tái khám ngay trước khi trẻ phù to trở lại.
 7. **Cảnh giác hạ canxi máu giả tạo:** Canxi toàn phần giảm theo albumin máu. Luôn tính canxi hiệu chỉnh hoặc định lượng canxi ion hóa. Không tiêm canxi tĩnh mạch nếu trẻ không có triệu chứng co giật hay co thắt thanh quản.
 8. **Tiêm phòng phế cầu là lá chắn sinh mạng:** Trẻ thận hư mất kháng thể bảo vệ nên rất dễ tử vong vì viêm phúc mạc và viêm phổi phế cầu. Hãy tư vấn tiêm ngừa vắc xin phế cầu (PCV13 và PPSV23) ngay khi trẻ đạt lui bệnh hoàn toàn.
 9. **Nguyên tắc hoãn vắc xin sống:** Ghi nhớ quy tắc cấm tiêm vắc xin sống (Sởi, Thủy đậu, Quai bị, Lao) khi đang dùng corticoid liều cao. Phải đợi ít nhất 1 đến 3 tháng sau khi ngưng corticoid liều cao mới được tiêm chủng các loại vắc xin này.
 10. **Không tự ý tăng/giảm liều steroid:** Dặn dò cha mẹ tuyệt đối không được tự ý giảm liều thuốc khi thấy con hết phù, và cũng không được tự ý tăng liều khi thấy con sốt ho thông thường nếu que thử nước tiểu vẫn âm tính.
-11. **Dự phòng loãng xương khi dùng corticoid kéo dài:** Trẻ dùng corticoid trên 2-3 tháng cần được bổ sung Canxi nguyên tố (500 - 1000 mg/ngày) và Vitamin D3 (400 - 800 UI/ngày) để bảo vệ mật độ xương.
+11. **Xương khi dùng corticoid kéo dài:** Đảm bảo khẩu phần canxi đủ, chỉ bổ sung canxi uống khi khẩu phần thiếu; định lượng 25-OH-vitamin D mỗi năm ở thể FRNS/SDNS (mục tiêu > 20 ng/mL) theo IPNA 2023.
 12. **Phát hiện sớm tắc mạch huyết khối ở trẻ lớn:** Bất kỳ trẻ thận hư nào trên 12 tuổi có biểu hiện đau sưng một bên bắp chân, đau ngực khó thở đột ngột hoặc đau đầu dữ dội đều phải được làm siêu âm Doppler mạch máu và D-dimer khẩn cấp để loại trừ huyết khối.
 
 ## 14. TÀI LIỆU THAM KHẢO (REFERENCES)
 
-1. **Trautmann A, Vivarelli M, Samuel S, et al.** (2023). IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome. *Pediatric Nephrology*, 38(3), 883-919. PMID: **36269406**. DOI: 10.1007/s00467-022-05739-3. [GUIDELINE VERIFIED]
+1. **Trautmann A, Vivarelli M, Samuel S, et al.** (2023). IPNA clinical practice recommendations for the diagnosis and management of children with steroid-sensitive nephrotic syndrome. *Pediatric Nephrology*, 38(3), 883-919. PMID: **36269406**. DOI: 10.1007/s00467-022-05739-3. [FULL TEXT VERIFIED]
 2. **Trautmann A, Boyer O, Hodson E, et al.** (2020). IPNA clinical practice recommendations for the diagnosis and management of children with steroid-resistant nephrotic syndrome. *Pediatric Nephrology*, 35(8), 1529-1561. PMID: **32382828**. DOI: 10.1007/s00467-020-04519-1. [GUIDELINE VERIFIED]
 3. **Rovin BH, Adler SG, Barratt J, et al.** (2021). KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. *Kidney International*, 100(4S), S1-S276. PMID: **34556256**. DOI: 10.1016/j.kint.2021.05.021. [GUIDELINE VERIFIED]
-4. **Hahn D, Hodson EM, Willis NS, Craig JC.** (2020). Corticosteroid therapy for nephrotic syndrome in children. *Cochrane Database of Systematic Reviews*, 8(8), CD001533. PMID: **35659203**. DOI: 10.1002/14651858.cd001533.pub6. [DATA VERIFIED]
-5. **Kerlin BA, Blatt NB, Fuh B, et al.** (2009). Epidemiology and risk factors for thromboembolic complications of childhood nephrotic syndrome: a Midwest Pediatric Nephrology Consortium (MWPNC) study. *The Journal of Pediatrics*, 155(1), 105-110.e1. PMID: **19394032**. DOI: 10.1016/j.jpeds.2009.01.070. [DATA VERIFIED]
+4. **Hahn D, Hodson EM, Willis NS, Craig JC.** (2020). Corticosteroid therapy for nephrotic syndrome in children. *Cochrane Database of Systematic Reviews*, 8(8), CD001533. PMID: **35659203**. DOI: 10.1002/14651858.cd001533.pub6. [ABSTRACT VERIFIED]
+5. **Kerlin BA, Blatt NB, Fuh B, et al.** (2009). Epidemiology and risk factors for thromboembolic complications of childhood nephrotic syndrome: a Midwest Pediatric Nephrology Consortium (MWPNC) study. *The Journal of Pediatrics*, 155(1), 105-110.e1. PMID: **19394032**. DOI: 10.1016/j.jpeds.2009.01.070. [ABSTRACT VERIFIED]
 6. **Pasini A, Aceto G, Ammenti A, et al.** (2017). The Italian Society for Pediatric Nephrology (SINePe) consensus document on the management of nephrotic syndrome in children: Part I - Diagnosis and treatment of the first episode and the first relapse. *Italian Journal of Pediatrics*, 43(1), 41. PMID: **28427453**. DOI: 10.1186/s13052-017-0356-x. [GUIDELINE VERIFIED]

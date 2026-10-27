@@ -1,0 +1,1827 @@
+{
+  "deck_id": 1709402026,
+  "deck_name": "Nhi khoa Y6::PED-40: Hội chứng thận hư nguyên phát ở trẻ em",
+  "card_count": 103,
+  "cards": [
+    {
+      "id": "PED40-001",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cảnh báo an toàn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[HCTH — giảm thể tích tuần hoàn]</b></span> Vì sao <span style=\"color:#ff6b6b\"><b>cấm dùng Furosemid đơn độc</b></span> khi trẻ HCTH đang giảm thể tích tuần hoàn (Underfill)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Furosemid làm <span style=\"color:#ff6b6b\"><b>sụt thêm thể tích nội mạch</b></span>, đẩy trẻ vào <span style=\"color:#ff6b6b\"><b>sốc giảm thể tích, huyết khối và tổn thương thận cấp (hoại tử ống thận)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ phù to nhưng lòng mạch đang thiếu dịch; thiểu niệu là phản xạ giữ dịch của thận. IPNA 2023 khuyến cáo khi có dấu hiệu giảm thể tích: tạm ngừng lợi tiểu và ngừng thuốc ức chế men chuyển/chẹn thụ thể angiotensin, bù thể tích bằng albumin trước.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canh-bao",
+        "Furosemid"
+      ],
+      "legacy_note_id": 1789990725646
+    },
+    {
+      "id": "PED40-002",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cảnh báo an toàn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm phúc mạc tiên phát trong HCTH]</b></span> Căn nguyên vi khuẩn <span style=\"color:#ff6b6b\"><b>hàng đầu</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Phế cầu khuẩn (Streptococcus pneumoniae)</b></span>, chiếm <span style=\"color:#ffd43b\"><b>trên 50%</b></span> các trường hợp.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ mất IgG và yếu tố bổ thể qua nước tiểu nên giảm opson hóa vi khuẩn có vỏ. Kháng sinh đầu tay trong bài: Ceftriaxone 80–100 mg/kg/ngày tĩnh mạch, sau khi cấy máu và dịch màng bụng.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canh-bao",
+        "Nhiem-trung"
+      ],
+      "legacy_note_id": 1789990725648
+    },
+    {
+      "id": "PED40-003",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cảnh báo an toàn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tăng đông trong HCTH]</b></span> Cơ chế nào khiến trẻ HCTH dễ <span style=\"color:#ff6b6b\"><b>huyết khối tắc mạch</b></span>, và nhóm nguy cơ cao gồm những trẻ nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế: <span style=\"color:#ff6b6b\"><b>mất antithrombin III qua nước tiểu</b></span>, gan <span style=\"color:#ff6b6b\"><b>tăng tổng hợp fibrinogen</b></span>, <span style=\"color:#ff6b6b\"><b>máu cô đặc</b></span> do thoát dịch ra mô kẽ.<br>2) Nhóm nguy cơ cao: trẻ <span style=\"color:#ffd43b\"><b>≥ 12 tuổi</b></span>, albumin máu <span style=\"color:#ffd43b\"><b>< 20 g/L</b></span>, có <span style=\"color:#ff6b6b\"><b>catheter tĩnh mạch trung tâm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba yếu tố của tam chứng Virchow cùng xuất hiện: tăng đông, ứ trệ do cô đặc máu, tổn thương mạch khi đặt catheter. Nghiên cứu MWPNC (326 trẻ) ghi nhận tuổi ≥ 12 lúc khởi phát là yếu tố tiên đoán độc lập, và 45% huyết khối tĩnh mạch sâu liên quan catheter.",
+      "extra": "📖 Nguồn: Kerlin và cs. 2009, MWPNC (PMID 19394032); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canh-bao",
+        "Huyet-khoi"
+      ],
+      "legacy_note_id": 1789990725650,
+      "asks": [
+        "Cơ chế",
+        "Nhóm nguy cơ cao"
+      ]
+    },
+    {
+      "id": "PED40-004",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cảnh báo an toàn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Corticoid liều cao]</b></span> Ngừng <span style=\"color:#ff6b6b\"><b>đột ngột</b></span> Prednisolone đang dùng liều cao kéo dài có nguy cơ gì, và nguy cơ cao nhất khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguy cơ: <span style=\"color:#ff6b6b\"><b>suy thượng thận trung ương thoáng qua</b></span> do trục hạ đồi – tuyến yên – thượng thận bị ức chế.<br>2) Nguy cơ cao nhất khi trẻ gặp <span style=\"color:#ff6b6b\"><b>stress</b></span>: sốt, phẫu thuật gây mê, chấn thương.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ chuẩn xử lý nguy cơ này bằng cách chuyển sang liều cách ngày. IPNA 2023 không khuyến cáo giảm liều dần trong giai đoạn cách ngày: trong 775 trẻ của 4 RCT chất lượng cao chỉ có 1 ca nghi suy thượng thận.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canh-bao",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725652,
+      "asks": [
+        "Nguy cơ",
+        "Nguy cơ cao nhất"
+      ]
+    },
+    {
+      "id": "PED40-005",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cấp cứu tại giường",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[HCTH — tưới máu ngoại vi]</b></span> Dấu hiệu nào cảnh báo <span style=\"color:#ff6b6b\"><b>sốc giảm thể tích</b></span> ở trẻ HCTH?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Mạch nhanh nhỏ</b></span>, <span style=\"color:#ff6b6b\"><b>CRT > 3 giây</b></span>, <span style=\"color:#ff6b6b\"><b>đầu chi lạnh</b></span>, <span style=\"color:#ff6b6b\"><b>da nổi vân tím</b></span>; thường kèm <span style=\"color:#ff6b6b\"><b>huyết áp kẹp</b></span> (hiệu áp <span style=\"color:#ffd43b\"><b>< 20 mmHg</b></span>) hoặc tụt huyết áp.<br><br><b>💡 Giải thích của AI:</b><br>Đừng nhìn độ phù để đánh giá dịch trong lòng mạch: bắt mạch quay, bấm CRT và sờ nhiệt độ đầu chi. Chân lạnh, CRT kéo dài là đang thiếu dịch nội mạch dù bụng báng căng.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cap-cuu",
+        "Soc"
+      ],
+      "legacy_note_id": 1789990725654
+    },
+    {
+      "id": "PED40-006",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cấp cứu tại giường",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[HCTH phù to]</b></span> Trẻ kêu <span style=\"color:#ff6b6b\"><b>đau bụng dữ dội quanh rốn</b></span> kèm <span style=\"color:#ff6b6b\"><b>CRT kéo dài</b></span> gợi ý biến chứng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Thiếu máu cục bộ mạc treo ruột</b></span> do <span style=\"color:#ff6b6b\"><b>giảm thể tích tuần hoàn nội mạch nặng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2023 xếp khó chịu vùng bụng vào nhóm dấu hiệu giảm thể tích (cùng thiểu niệu, tổn thương thận cấp, CRT kéo dài, mạch nhanh). Đây là báo động sốc mất bù cận kề; nhưng nếu kèm sốt phải loại trừ ngay viêm phúc mạc tiên phát.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cap-cuu",
+        "Dau-bung"
+      ],
+      "legacy_note_id": 1789990725656
+    },
+    {
+      "id": "PED40-007",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Cấp cứu tại giường",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[HCTH sốc giảm thể tích / tụt huyết áp]</b></span> Dùng dịch gì để chống sốc, có kèm Furosemid không, và nếu chưa có thì thay bằng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thở oxy, lập đường truyền; truyền <span style=\"color:#51cf66\"><b>Albumin 4–5%</b></span> theo IPNA 2023.<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG kèm Furosemid</b></span> khi đang sốc/tụt huyết áp.<br>3) Chưa có albumin: <span style=\"color:#51cf66\"><b>NaCl 0,9% hoặc Ringer lactat</b></span> <span style=\"color:#ffd43b\"><b>10–20 mL/kg</b></span> truyền nhanh trong <span style=\"color:#ffd43b\"><b>30–60 phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Albumin 20–25% (ưu trương) kèm Furosemid dành cho trẻ giảm thể tích chưa tụt huyết áp. Khi đã tụt huyết áp, ưu tiên là nâng thể tích nội mạch bằng dung dịch đẳng trương; lợi tiểu lúc này làm sốc nặng thêm.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cap-cuu",
+        "Soc",
+        "Albumin"
+      ],
+      "legacy_note_id": 1789990725658
+    },
+    {
+      "id": "PED40-008",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "Tiếp cận tại giường",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trẻ phù mi mắt]</b></span> Que thử nước tiểu Protein <span style=\"color:#ffd43b\"><b>âm tính hoặc 1+</b></span>: kết luận và làm gì tiếp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Chưa chẩn đoán HCTH</b></span>.<br>2) Tìm nguyên nhân phù khác: <span style=\"color:#74c0fc\"><b>suy tim, suy dinh dưỡng, xơ gan, dị ứng/phù mạch</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Thử lại sau 24–48 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngưỡng thận hư trên que thử là 3+ đến 4+. Protein niệu thấp mà phù thì phải nghĩ phù ngoài thận.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Tiep-can"
+      ],
+      "legacy_note_id": 1789990725660
+    },
+    {
+      "id": "PED40-A5",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E0",
+      "category": "3 KHÔNG & 3 NÊN tại giường",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>3 KHÔNG & 3 NÊN khi tiếp nhận trẻ HCTH phù</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> dùng Furosemid khi còn dấu hiệu giảm thể tích (mạch nhanh, CRT kéo dài, chi lạnh, đau bụng, tiểu ít).<br>2) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> tiêm canxi tĩnh mạch chỉ vì canxi toàn phần thấp — tính canxi hiệu chỉnh/đo canxi ion hóa.<br>3) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span> tiêm vắc xin sống khi đang dùng corticoid liều cao.<br>4) <span style=\"color:#51cf66\"><b>NÊN</b></span> đánh giá tưới máu (mạch, CRT, nhiệt độ chi, huyết áp) trước mọi quyết định về dịch.<br>5) <span style=\"color:#51cf66\"><b>NÊN</b></span> nghĩ ngay viêm phúc mạc tiên phát khi trẻ có báng bụng + sốt/đau bụng: cấy máu, chọc dịch, kháng sinh tĩnh mạch.<br>6) <span style=\"color:#51cf66\"><b>NÊN</b></span> dạy gia đình thử que nước tiểu buổi sáng để phát hiện tái phát sớm.<br><br><b>💡 Giải thích của AI:</b><br>Ba sai lầm KHÔNG đều đến từ việc đọc nhầm một con số (phù to ≠ thừa dịch lòng mạch; canxi toàn phần thấp ≠ hạ canxi thật). Ba việc NÊN tập trung vào hai nguyên nhân tử vong hàng đầu: sốc giảm thể tích và nhiễm trùng.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bang-kiem",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED40-009",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E1",
+      "category": "Dịch tễ học",
+      "tier": 2,
+      "text": "Hội chứng thận hư nguyên phát ở trẻ em có đỉnh tuổi khởi phát {{c1::<span style=\"color:#ffd43b\"><b>2 đến 6 tuổi</b></span>}}; tỷ lệ mắc {{c2::<span style=\"color:#ffd43b\"><b>1,15–16,9 trên 100.000 trẻ/năm</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dich-te"
+      ],
+      "legacy_note_id": 1789990725662
+    },
+    {
+      "id": "PED40-010",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E1",
+      "category": "Mô bệnh học",
+      "tier": 2,
+      "text": "Ở trẻ dưới 10 tuổi bị HCTH nguyên phát, bệnh tổn thương tối thiểu (MCD) chiếm {{c1::<span style=\"color:#ffd43b\"><b>85% đến 90%</b></span>}}; xơ chai cầu thận khu trú từng phần (FSGS) chiếm {{c2::<span style=\"color:#ffd43b\"><b>10% đến 15%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Mo-benh-hoc"
+      ],
+      "legacy_note_id": 1789990725664
+    },
+    {
+      "id": "PED40-011",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E1",
+      "category": "Dịch tễ học",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[HCTH trẻ em]</b></span> Tỷ lệ <span style=\"color:#51cf66\"><b>đáp ứng steroid ban đầu</b></span> và tỷ lệ <span style=\"color:#ff6b6b\"><b>tái phát</b></span> là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khoảng <span style=\"color:#ffd43b\"><b>85–90%</b></span> đạt lui bệnh hoàn toàn trong <span style=\"color:#ffd43b\"><b>4–6 tuần</b></span> corticoid (thể nhạy cảm steroid).<br>2) <span style=\"color:#ffd43b\"><b>70–80%</b></span> trong số đó sẽ tái phát ít nhất một đợt.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh mạn tính tái diễn: tiên lượng sống rất tốt nhưng cần theo dõi lâu dài, dạy gia đình tự thử que nước tiểu.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Dich-te",
+        "Tien-luong"
+      ],
+      "legacy_note_id": 1789990725666
+    },
+    {
+      "id": "PED40-012",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E1",
+      "category": "Mô bệnh học",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bệnh tổn thương tối thiểu — MCD]</b></span> Hình ảnh đặc trưng trên <span style=\"color:#ffd43b\"><b>kính hiển vi điện tử</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Xóa chân lồi tế bào podocyte lan tỏa</b></span> (diffuse foot process effacement).<br><br><b>💡 Giải thích của AI:</b><br>Kính hiển vi quang học và miễn dịch huỳnh quang bình thường, không có lắng đọng miễn dịch — vì vậy gọi là tổn thương 'tối thiểu'.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Mo-benh-hoc",
+        "MCD"
+      ],
+      "legacy_note_id": 1789990725668
+    },
+    {
+      "id": "PED40-013",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Giải phẫu màng lọc",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hàng rào lọc cầu thận]</b></span> Kể <span style=\"color:#ffd43b\"><b>3 lớp</b></span> giải phẫu của hàng rào lọc cầu thận.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tế bào nội mô mao mạch</b></span> có lỗ thủng <span style=\"color:#ffd43b\"><b>70–100 nm</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Màng đáy cầu thận (GBM)</b></span> dày <span style=\"color:#ffd43b\"><b>250–350 nm</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Tế bào có chân (podocyte)</b></span> với khe lọc <span style=\"color:#74c0fc\"><b>slit diaphragm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả 3 lớp đều phủ lớp polyanion tích điện âm đẩy albumin (cũng tích điện âm) trở lại lòng mạch.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Mang-loc"
+      ],
+      "legacy_note_id": 1789990725670
+    },
+    {
+      "id": "PED40-014",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E2",
+      "category": "Giải phẫu màng lọc",
+      "tier": 2,
+      "text": "Khe lọc của màng ngăn có chân (slit diaphragm) giữa các podocyte có kích thước khoảng {{c1::<span style=\"color:#ffd43b\"><b>4 đến 40 nm</b></span>}}.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Mang-loc"
+      ],
+      "legacy_note_id": 1789990725672
+    },
+    {
+      "id": "PED40-015",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh podocyte",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nephrin]</b></span> Protein Nephrin do gen nào mã hóa và có vai trò gì ở slit diaphragm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gen mã hóa: <span style=\"color:#74c0fc\"><b>NPHS1</b></span>.<br>2) Vai trò: đan chéo với chân podocyte đối diện, tạo <span style=\"color:#51cf66\"><b>khung mắt lưới chính của khe lọc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đột biến NPHS1 gây hội chứng thận hư bẩm sinh kiểu Phần Lan — lý do trẻ dưới 1 tuổi cần làm xét nghiệm gen/sinh thiết.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Podocyte",
+        "Di-truyen"
+      ],
+      "legacy_note_id": 1789990725674,
+      "asks": [
+        "Gen",
+        "Vai trò"
+      ]
+    },
+    {
+      "id": "PED40-016",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh podocyte",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Podocin]</b></span> Protein Podocin do gen nào mã hóa và có vai trò gì ở slit diaphragm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gen mã hóa: <span style=\"color:#74c0fc\"><b>NPHS2</b></span>.<br>2) Vai trò: <span style=\"color:#51cf66\"><b>neo giữ và điều hòa tín hiệu của Nephrin</b></span> với khung xương actin nội bào.<br><br><b>💡 Giải thích của AI:</b><br>Đột biến NPHS2 gây HCTH kháng steroid có tính gia đình — một lý do IPNA 2020 khuyến cáo xét nghiệm gen ở SRNS.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Podocyte",
+        "Di-truyen"
+      ],
+      "legacy_note_id": 1789990725676,
+      "asks": [
+        "Gen",
+        "Vai trò"
+      ]
+    },
+    {
+      "id": "PED40-017",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh học",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chọn lọc điện tích]</b></span> Cơ chế chọn lọc điện tích (charge selectivity) của màng lọc cầu thận là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Lớp <span style=\"color:#74c0fc\"><b>polyanion (heparan sulfate)</b></span> tích điện âm trên màng lọc <span style=\"color:#51cf66\"><b>đẩy albumin (cũng tích điện âm)</b></span> trở lại lòng mạch bằng lực đẩy tĩnh điện.<br><br><b>💡 Giải thích của AI:</b><br>Mất lớp điện tích âm trong MCD gây protein niệu chọn lọc cao (chủ yếu albumin).",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Co-che"
+      ],
+      "legacy_note_id": 1789990725678
+    },
+    {
+      "id": "PED40-018",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh học",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Protein niệu chọn lọc]</b></span> Phân biệt <span style=\"color:#ffd43b\"><b>protein niệu chọn lọc cao</b></span> và <span style=\"color:#ff6b6b\"><b>protein niệu không chọn lọc</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chọn lọc cao: thoát <span style=\"color:#ffd43b\"><b>chủ yếu albumin</b></span> do mất điện tích âm — gặp trong <span style=\"color:#74c0fc\"><b>MCD</b></span>.<br>2) Không chọn lọc: thoát cả <span style=\"color:#ff6b6b\"><b>đại phân tử IgG, transferrin</b></span> do tổn thương cấu trúc màng lọc — gặp trong <span style=\"color:#74c0fc\"><b>FSGS</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Protein niệu không chọn lọc gợi ý tổn thương cầu thận thực thể nặng hơn và đáp ứng steroid kém hơn.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Co-che"
+      ],
+      "legacy_note_id": 1789990725680
+    },
+    {
+      "id": "PED40-019",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh học",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thuyết Underfill]</b></span> Chuỗi cơ chế hình thành phù theo thuyết Underfill là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Mất albumin nặng</b></span> → <span style=\"color:#ff6b6b\"><b>giảm áp lực keo</b></span> → dịch thoát ra mô kẽ → <span style=\"color:#ff6b6b\"><b>giảm thể tích nội mạch hiệu dụng</b></span> → <span style=\"color:#51cf66\"><b>kích hoạt RAAS</b></span> giữ muối nước thứ phát.<br><br><b>💡 Giải thích của AI:</b><br>Hay gặp ở trẻ nhỏ mắc MCD: mạch nhanh, CRT kéo dài, huyết áp thấp — đây là trẻ cần albumin chứ không phải lợi tiểu.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Co-che",
+        "Phu"
+      ],
+      "legacy_note_id": 1789990725682
+    },
+    {
+      "id": "PED40-020",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Sinh lý bệnh học",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thuyết Overfill]</b></span> Chuỗi cơ chế hình thành phù theo thuyết Overfill là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Giữ natri nguyên phát tại ống góp (kênh ENaC)</b></span> → ứ muối nước → <span style=\"color:#ff6b6b\"><b>tăng thể tích nội mạch</b></span> → <span style=\"color:#51cf66\"><b>ức chế RAAS</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hay gặp ở trẻ lớn, FSGS: huyết áp cao, tĩnh mạch cổ nổi; nhóm này đáp ứng với lợi tiểu kèm hạn chế muối nước.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Co-che",
+        "Phu"
+      ],
+      "legacy_note_id": 1789990725684
+    },
+    {
+      "id": "PED40-021",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Chuỗi cơ chế",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Rối loạn lipid máu trong HCTH]</b></span> Cơ chế tăng lipid máu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Giảm albumin, giảm áp lực keo</b></span> kích thích gan <span style=\"color:#ff6b6b\"><b>tăng tổng hợp lipoprotein</b></span>, kèm <span style=\"color:#ff6b6b\"><b>mất enzym giáng hóa mỡ qua nước tiểu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hậu quả: cholesterol toàn phần > 5,2 mmol/L, tăng triglyceride và LDL; góp phần tăng nguy cơ tắc mạch.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Co-che",
+        "Lipid"
+      ],
+      "legacy_note_id": 1789990725686
+    },
+    {
+      "id": "PED40-022",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E2",
+      "category": "Chuỗi cơ chế",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hạ canxi giả tạo]</b></span> Vì sao trẻ HCTH <span style=\"color:#ff6b6b\"><b>giảm canxi toàn phần</b></span> nhưng <span style=\"color:#51cf66\"><b>canxi ion hóa vẫn bình thường</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khoảng <span style=\"color:#ffd43b\"><b>40%</b></span> canxi toàn phần gắn albumin; albumin giảm thì <span style=\"color:#ff6b6b\"><b>phần canxi gắn giảm theo</b></span>, còn <span style=\"color:#51cf66\"><b>canxi ion hóa (dạng hoạt động)</b></span> không đổi.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ không có triệu chứng hạ canxi và không có chỉ định tiêm canxi tĩnh mạch.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Dien-giai",
+        "Canxi"
+      ],
+      "legacy_note_id": 1789990725688
+    },
+    {
+      "id": "PED40-023",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E3",
+      "category": "Tiêu chuẩn chẩn đoán",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chẩn đoán HCTH]</b></span> Hai tiêu chuẩn sinh hóa <span style=\"color:#ff6b6b\"><b>bắt buộc</b></span> để chẩn đoán xác định là gì (ghi rõ ngưỡng theo Bộ Y tế và IPNA 2023)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Protein niệu ngưỡng thận hư</b></span>: <span style=\"color:#ffd43b\"><b>≥ 50 mg/kg/ngày</b></span> (hoặc ≥ 40 mg/m²/giờ, ≥ 1000 mg/m²/ngày) hoặc <span style=\"color:#ffd43b\"><b>Up/Ucr ≥ 2 mg/mg (200 mg/mmol)</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Giảm albumin máu</b></span>: <span style=\"color:#ffd43b\"><b>≤ 25 g/L</b></span> theo Bộ Y tế; <span style=\"color:#ffd43b\"><b>< 30 g/L</b></span> theo IPNA 2023.<br><br><b>💡 Giải thích của AI:</b><br>Hai tiêu chuẩn đi kèm là phù và tăng lipid máu (cholesterol > 5,2 mmol/L). IPNA 2023 còn cho phép chẩn đoán khi có protein niệu ngưỡng thận hư + phù nếu chưa có kết quả albumin.",
+      "extra": "📖 Nguồn: Bộ Y tế, QĐ 3312/QĐ-BYT — Hội chứng thận hư tiên phát ở trẻ em; IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Chan-doan"
+      ],
+      "legacy_note_id": 1789990725690
+    },
+    {
+      "id": "PED40-024",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E3",
+      "category": "Tiêu chuẩn định lượng",
+      "tier": 2,
+      "text": "Protein niệu ngưỡng thận hư trong nước tiểu 24 giờ ở trẻ em: {{c1::<span style=\"color:#ffd43b\"><b>≥ 50 mg/kg/ngày hoặc ≥ 40 mg/m²/giờ</b></span>}}.",
+      "extra": "📖 Nguồn: Bộ Y tế, QĐ 3312/QĐ-BYT — Hội chứng thận hư tiên phát ở trẻ em; IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Protein-nieu"
+      ],
+      "legacy_note_id": 1789990725692
+    },
+    {
+      "id": "PED40-025",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E3",
+      "category": "Tiêu chuẩn định lượng",
+      "tier": 2,
+      "text": "Tỷ số protein/creatinin niệu (Up/Ucr) ở ngưỡng thận hư là {{c1::<span style=\"color:#ffd43b\"><b>≥ 2 mg/mg (≥ 200 mg/mmol)</b></span>}}; ở trẻ bình thường Up/Ucr {{c2::<span style=\"color:#ffd43b\"><b>< 0,2 mg/mg</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Protein-nieu"
+      ],
+      "legacy_note_id": 1789990725694
+    },
+    {
+      "id": "PED40-026",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E3",
+      "category": "Tiêu chuẩn que thử",
+      "tier": 2,
+      "text": "Trên que thử nước tiểu, protein niệu ngưỡng thận hư tương ứng {{c1::<span style=\"color:#ffd43b\"><b>3+ (300–1000 mg/dL) đến 4+ (≥ 1000 mg/dL)</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Que-thu"
+      ],
+      "legacy_note_id": 1789990725696
+    },
+    {
+      "id": "PED40-027",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E3",
+      "category": "Tiêu chuẩn sinh hóa",
+      "tier": 2,
+      "text": "Ngưỡng giảm albumin máu trong HCTH: theo Bộ Y tế albumin {{c1::<span style=\"color:#ffd43b\"><b>≤ 25 g/L</b></span>}} kèm protein toàn phần {{c2::<span style=\"color:#ffd43b\"><b>≤ 56 g/L</b></span>}}; theo IPNA 2023 albumin {{c3::<span style=\"color:#ffd43b\"><b>< 30 g/L</b></span>}}.",
+      "extra": "📖 Nguồn: Bộ Y tế, QĐ 3312/QĐ-BYT — Hội chứng thận hư tiên phát ở trẻ em; IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Albumin"
+      ],
+      "legacy_note_id": 1789990725698
+    },
+    {
+      "id": "PED40-028",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E3",
+      "category": "Tiêu chuẩn sinh hóa",
+      "tier": 2,
+      "text": "Tăng lipid máu trong HCTH trẻ em: cholesterol toàn phần {{c1::<span style=\"color:#ffd43b\"><b>> 5,2 mmol/L (> 200 mg/dL)</b></span>}}.",
+      "extra": "📖 Nguồn: Bộ Y tế, QĐ 3312/QĐ-BYT — Hội chứng thận hư tiên phát ở trẻ em.",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Lipid"
+      ],
+      "legacy_note_id": 1789990725700
+    },
+    {
+      "id": "PED40-029",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E3",
+      "category": "Phương pháp đo lường",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Up/Ucr mẫu sáng sớm]</b></span> Vì sao ưu tiên <span style=\"color:#51cf66\"><b>Up/Ucr mẫu nước tiểu đầu tiên buổi sáng</b></span> hơn nước tiểu 24 giờ ở trẻ nhỏ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tránh sai số</b></span> do trẻ chưa bỏ tã, khó gom đủ 24 giờ.<br>2) <span style=\"color:#51cf66\"><b>Có kết quả nhanh</b></span> để xử trí.<br>3) <span style=\"color:#51cf66\"><b>Loại trừ protein niệu tư thế</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Up/Ucr ≥ 2 mg/mg tương quan tốt với protein niệu 24 giờ ≥ 50 mg/kg/ngày; IPNA 2023 khuyến cáo đo Up/Ucr mẫu sáng ít nhất một lần trước khi bắt đầu điều trị.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Protein-nieu"
+      ],
+      "legacy_note_id": 1789990725702
+    },
+    {
+      "id": "PED40-030",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Đặc điểm phù",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phù trong HCTH]</b></span> Mô tả đặc điểm phù.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Phù trắng, mềm, ấn lõm, không đau, đối xứng</b></span>; bắt đầu ở <span style=\"color:#ffd43b\"><b>mi mắt buổi sáng</b></span>, sau đó lan toàn thân, có thể <span style=\"color:#ff6b6b\"><b>tràn dịch đa màng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi lượng dịch báng bằng cân nặng và vòng bụng ngang rốn mỗi ngày.",
+      "extra": "📖 Nguồn: Bộ Y tế, QĐ 3312/QĐ-BYT — Hội chứng thận hư tiên phát ở trẻ em; Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Lam-sang",
+        "Phu"
+      ],
+      "legacy_note_id": 1789990725704
+    },
+    {
+      "id": "PED40-031",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Bilan xét nghiệm",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cặn lắng nước tiểu]</b></span> Thấy <span style=\"color:#ff6b6b\"><b>thể mỡ lưỡng chiết (chữ thập Maltese)</b></span> có ý nghĩa gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dấu hiệu đặc trưng của <span style=\"color:#ff6b6b\"><b>lipid niệu nặng</b></span> trong HCTH.<br><br><b>💡 Giải thích của AI:</b><br>Quan sát dưới kính hiển vi phân cực. Soi cặn còn giúp tìm trụ hồng cầu — gợi ý viêm cầu thận chứ không phải MCD.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Can-lam-sang"
+      ],
+      "legacy_note_id": 1789990725706
+    },
+    {
+      "id": "PED40-032",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Bilan xét nghiệm",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sàng lọc lao]</b></span> Vì sao nên làm <span style=\"color:#51cf66\"><b>Mantoux hoặc QuantiFERON</b></span> trước khi dùng corticoid/ức chế miễn dịch ở trẻ HCTH tại Việt Nam?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Để <span style=\"color:#ff6b6b\"><b>phát hiện lao tiềm ẩn</b></span>: corticoid liều cao kéo dài có thể làm bùng phát lao (lao kê, lao màng não).<br>2) IPNA 2023 khuyến cáo <span style=\"color:#51cf66\"><b>cân nhắc sàng lọc lao</b></span>, đặc biệt ở <span style=\"color:#ffd43b\"><b>vùng lưu hành như Việt Nam</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nếu có lao tiềm ẩn, bài khuyên điều trị dự phòng isoniazid đồng thời với corticoid.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Can-lam-sang",
+        "Lao"
+      ],
+      "legacy_note_id": 1789990725708
+    },
+    {
+      "id": "PED40-033",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận]</b></span> Vì sao <span style=\"color:#ffd43b\"><b>không sinh thiết thường quy</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>1 đến 10 tuổi</b></span> khởi phát HCTH điển hình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Vì <span style=\"color:#ffd43b\"><b>85–90%</b></span> trẻ nhóm này là <span style=\"color:#74c0fc\"><b>MCD</b></span> và <span style=\"color:#51cf66\"><b>đáp ứng corticoid</b></span>; tránh thủ thuật xâm lấn không cần thiết.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ sinh thiết khi có dấu hiệu không điển hình (tuổi, tăng huyết áp, đái máu đại thể, suy thận, bổ thể giảm, biểu hiện ngoài thận) hoặc kháng steroid.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725710
+    },
+    {
+      "id": "PED40-034",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — tuổi]</b></span> Lứa tuổi khởi phát nào là chỉ định sinh thiết thận?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ <span style=\"color:#ffd43b\"><b>< 1 tuổi</b></span>: nghi đột biến gen podocyte.<br>2) Trẻ <span style=\"color:#ffd43b\"><b>> 12 tuổi</b></span>: nguy cơ cao FSGS, bệnh thận màng, lupus.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ 1–12 tuổi có biểu hiện điển hình được điều trị corticoid trước.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725712
+    },
+    {
+      "id": "PED40-035",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — đái máu]</b></span> Kiểu đái máu nào là chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Đái máu đại thể dai dẳng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đái máu vi thể thoáng qua gặp ở khoảng 20% trẻ MCD và không phải chỉ định sinh thiết.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725714
+    },
+    {
+      "id": "PED40-036",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — huyết áp]</b></span> Mức huyết áp nào là chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Tăng huyết áp kéo dài</b></span>: <span style=\"color:#ffd43b\"><b>> bách phân vị 95</b></span> theo tuổi/giới, tồn tại dai dẳng.<br><br><b>💡 Giải thích của AI:</b><br>Vẫn tăng sau khi đã kiểm soát phù và ngừng thuốc gây tăng huyết áp (corticoid liều cao có thể gây tăng huyết áp thoáng qua).",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725716
+    },
+    {
+      "id": "PED40-037",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — chức năng thận]</b></span> Suy giảm chức năng thận kiểu nào là chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Creatinin tăng, eGFR giảm dai dẳng</b></span>, <span style=\"color:#ff6b6b\"><b>không hồi phục sau khi đã bù đủ thể tích</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt với tổn thương thận cấp trước thận do giảm tưới máu — loại này hồi phục nhanh sau bù albumin.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725718
+    },
+    {
+      "id": "PED40-038",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — bổ thể]</b></span> Kết quả bổ thể nào là chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Giảm C3 hoặc C4</b></span> huyết thanh.<br><br><b>💡 Giải thích của AI:</b><br>MCD có bổ thể bình thường; giảm bổ thể gợi ý viêm cầu thận màng tăng sinh, viêm cầu thận sau nhiễm liên cầu hoặc lupus.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725720
+    },
+    {
+      "id": "PED40-039",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — ngoài thận]</b></span> Biểu hiện ngoài thận nào là chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Dấu hiệu gợi ý bệnh hệ thống: <span style=\"color:#ff6b6b\"><b>sốt kéo dài, ban cánh bướm, loét miệng, viêm đa khớp, ban Schönlein–Henoch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gợi ý HCTH thứ phát do bệnh tự miễn hệ thống.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet"
+      ],
+      "legacy_note_id": 1789990725722
+    },
+    {
+      "id": "PED40-040",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E4",
+      "category": "Chỉ định sinh thiết thận",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh thiết thận — kháng steroid]</b></span> Không lui bệnh sau bao lâu corticoid liều chuẩn thì chỉ định sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Không lui bệnh hoàn toàn sau <span style=\"color:#ffd43b\"><b>4 tuần</b></span> prednisolone liều chuẩn hàng ngày → <span style=\"color:#ff6b6b\"><b>kháng steroid (SRNS)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2020 khuyến cáo sinh thiết thận và xét nghiệm gen ở SRNS trước khi dùng thuốc ức chế miễn dịch bậc hai.",
+      "extra": "📖 Nguồn: IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Sinh-thiet",
+        "SRNS"
+      ],
+      "legacy_note_id": 1789990725724
+    },
+    {
+      "id": "PED40-041",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E5",
+      "category": "Phác đồ tấn công",
+      "tier": 2,
+      "text": "Liều tấn công prednisolone đợt đầu: {{c1::<span style=\"color:#ffd43b\"><b>60 mg/m²/ngày hoặc 2 mg/kg/ngày</b></span>}} (tối đa {{c2::<span style=\"color:#ffd43b\"><b>60 mg/ngày</b></span>}}) uống 1 lần buổi sáng trong {{c3::<span style=\"color:#ffd43b\"><b>4 tuần hoặc 6 tuần</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); KDIGO 2021 bệnh cầu thận (PMID 34556256).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725726
+    },
+    {
+      "id": "PED40-042",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E5",
+      "category": "Phác đồ duy trì",
+      "tier": 2,
+      "text": "Liều cách ngày sau giai đoạn tấn công: {{c1::<span style=\"color:#ffd43b\"><b>40 mg/m² hoặc 1,5 mg/kg cách ngày</b></span>}} (tối đa {{c2::<span style=\"color:#ffd43b\"><b>40 mg</b></span>}} theo IPNA) trong {{c3::<span style=\"color:#ffd43b\"><b>4 tuần (sau tấn công 4 tuần) hoặc 6 tuần (sau tấn công 6 tuần)</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); KDIGO 2021 bệnh cầu thận (PMID 34556256).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725728
+    },
+    {
+      "id": "PED40-043",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E5",
+      "category": "Thời gian điều trị",
+      "tier": 2,
+      "text": "Tổng thời gian corticoid đợt đầu theo IPNA 2023/KDIGO 2021 là {{c1::<span style=\"color:#ffd43b\"><b>8 tuần (4 + 4) hoặc 12 tuần (6 + 6)</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); KDIGO 2021 bệnh cầu thận (PMID 34556256).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725730
+    },
+    {
+      "id": "PED40-044",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E5",
+      "category": "Bằng chứng Cochrane",
+      "tier": 2,
+      "text": "Cochrane 2020 so 2 tháng với ≥ 3 tháng prednisone đợt đầu thấy tái phát bất kỳ sau 12–24 tháng ít hoặc không khác biệt với {{c1::<span style=\"color:#ffd43b\"><b>RR 0,91 (95% CI 0,78–1,06)</b></span>}}.",
+      "extra": "📖 Nguồn: Cochrane 2020, Hahn và cs. (PMID 35659203).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Cochrane"
+      ],
+      "legacy_note_id": 1789990725732
+    },
+    {
+      "id": "PED40-045",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Dược lý lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Prednisolone]</b></span> Vì sao uống <span style=\"color:#51cf66\"><b>1 lần duy nhất buổi sáng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Giảm ức chế trục hạ đồi – tuyến yên – thượng thận</b></span> (gần nhịp tiết cortisol tự nhiên).<br>2) Giảm rối loạn giấc ngủ, dễ tuân thủ.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2023 khuyến cáo một liều buổi sáng cho đợt đầu và các đợt tái phát; chia liều không tăng hiệu quả lui bệnh.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725734
+    },
+    {
+      "id": "PED40-046",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Tác dụng phụ Corticoid",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Corticoid kéo dài]</b></span> Kể các <span style=\"color:#ff6b6b\"><b>tác dụng phụ</b></span> khi kéo dài corticoid đợt đầu (ví dụ lên 6 tháng).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Chậm tăng trưởng chiều cao, béo phì kiểu Cushing, loãng xương, rậm lông, rạn da, tăng huyết áp, đục thủy tinh thể</b></span>, rối loạn hành vi.<br><br><b>💡 Giải thích của AI:</b><br>Cochrane 2020: kéo dài quá 2–3 tháng không giảm tái phát (tác dụng phụ giữa các thời gian điều trị ít khác biệt trong các RCT); vì không có lợi ích mà tăng tổng liều tích lũy, phác đồ chuẩn chỉ 8 hoặc 12 tuần.",
+      "extra": "📖 Nguồn: Cochrane 2020, Hahn và cs. (PMID 35659203); IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Corticoid",
+        "Tac-dung-phu"
+      ],
+      "legacy_note_id": 1789990725736
+    },
+    {
+      "id": "PED40-047",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Quy trình ngưng thuốc",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Kết thúc đợt corticoid]</b></span> Hết giai đoạn cách ngày thì <span style=\"color:#51cf66\"><b>ngưng thuốc</b></span> thế nào — có cần <span style=\"color:#ffd43b\"><b>giảm liều dần</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hết <span style=\"color:#ffd43b\"><b>4–6 tuần</b></span> cách ngày thì <span style=\"color:#51cf66\"><b>ngưng thuốc</b></span>.<br>2) IPNA 2023 <span style=\"color:#ff6b6b\"><b>không khuyến cáo giảm liều dần</b></span> trong giai đoạn cách ngày (khuyến cáo mạnh, mức A).<br><br><b>💡 Giải thích của AI:</b><br>Các RCT chất lượng cao không giảm liều dần và gần như không ghi nhận suy thượng thận; giảm liều dần chỉ làm tăng liều tích lũy.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Corticoid"
+      ],
+      "legacy_note_id": 1789990725738
+    },
+    {
+      "id": "PED40-048",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Điều chỉnh phác đồ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đáp ứng một phần sau 4 tuần]</b></span> Trẻ chỉ <span style=\"color:#ffd43b\"><b>lui bệnh một phần</b></span> sau 4 tuần prednisolone liều chuẩn thì xử trí thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vào <span style=\"color:#74c0fc\"><b>giai đoạn xác nhận</b></span> từ <span style=\"color:#ffd43b\"><b>tuần 4 đến tuần 6</b></span>: tiếp tục prednisolone uống ± truyền methylprednisolone, thêm thuốc ức chế RAAS.<br>2) Lui bệnh hoàn toàn trong giai đoạn này → <span style=\"color:#51cf66\"><b>đáp ứng muộn</b></span>; vẫn không lui bệnh hoàn toàn đến tuần 6 → <span style=\"color:#ff6b6b\"><b>SRNS</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ không thay đổi protein niệu sau 4 tuần đã đủ tiêu chuẩn kháng steroid. Giai đoạn xác nhận chỉ dành cho trẻ đáp ứng một phần.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Corticoid",
+        "SRNS"
+      ],
+      "legacy_note_id": 1789990725740
+    },
+    {
+      "id": "PED40-049",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E5",
+      "category": "Dự phòng biến chứng xương",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Xương khi dùng corticoid]</b></span> Có cần <span style=\"color:#51cf66\"><b>bổ sung canxi và vitamin D thường quy</b></span> không, và theo dõi gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không bổ sung thường quy</b></span>: đảm bảo <span style=\"color:#51cf66\"><b>khẩu phần canxi đủ</b></span>, chỉ cho canxi uống khi khẩu phần thiếu.<br>2) Định lượng <span style=\"color:#51cf66\"><b>25-OH-vitamin D mỗi năm</b></span> ở thể <span style=\"color:#74c0fc\"><b>FRNS/SDNS</b></span>, mục tiêu <span style=\"color:#ffd43b\"><b>> 20 ng/mL (> 50 nmol/L)</b></span>; thiếu thì điều trị theo hướng dẫn quốc gia.<br><br><b>💡 Giải thích của AI:</b><br>Dữ liệu về loãng xương do corticoid ở trẻ HCTH còn mâu thuẫn, nên IPNA 2023 không kê canxi/vitamin D cho mọi trẻ.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Xuong"
+      ],
+      "legacy_note_id": 1789990725742
+    },
+    {
+      "id": "PED40-050",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E6",
+      "category": "Định nghĩa đáp ứng",
+      "tier": 2,
+      "text": "Lui bệnh hoàn toàn: Up/Ucr mẫu sáng {{c1::<span style=\"color:#ffd43b\"><b>≤ 0,2 mg/mg (≤ 20 mg/mmol)</b></span>}} hoặc que thử âm tính/vết trong {{c2::<span style=\"color:#ffd43b\"><b>≥ 3 ngày liên tiếp</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-nghia"
+      ],
+      "legacy_note_id": 1789990725744
+    },
+    {
+      "id": "PED40-051",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E6",
+      "category": "Định nghĩa đáp ứng",
+      "tier": 2,
+      "text": "Tái phát: que thử {{c1::<span style=\"color:#ffd43b\"><b>≥ 3+</b></span>}} hoặc Up/Ucr {{c2::<span style=\"color:#ffd43b\"><b>≥ 2 mg/mg</b></span>}} trong {{c3::<span style=\"color:#ffd43b\"><b>3 ngày liên tiếp</b></span>}} ở trẻ đã từng lui bệnh hoàn toàn.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-nghia"
+      ],
+      "legacy_note_id": 1789990725746
+    },
+    {
+      "id": "PED40-052",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E6",
+      "category": "Định nghĩa đáp ứng",
+      "tier": 2,
+      "text": "Tái phát thường xuyên (FRNS) theo IPNA 2023: {{c1::<span style=\"color:#ffd43b\"><b>≥ 2 đợt trong 6 tháng đầu sau lui bệnh đợt đầu, hoặc ≥ 3 đợt trong bất kỳ 12 tháng nào</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-nghia",
+        "FRNS"
+      ],
+      "legacy_note_id": 1789990725748
+    },
+    {
+      "id": "PED40-053",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E6",
+      "category": "Định nghĩa đáp ứng",
+      "tier": 2,
+      "text": "Phụ thuộc steroid (SDNS): {{c1::<span style=\"color:#ffd43b\"><b>2 đợt tái phát liên tiếp</b></span>}} trong khi đang dùng prednisolone theo phác đồ hoặc trong vòng {{c2::<span style=\"color:#ffd43b\"><b>14 ngày</b></span>}} sau khi ngừng.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-nghia",
+        "SDNS"
+      ],
+      "legacy_note_id": 1789990725750
+    },
+    {
+      "id": "PED40-054",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E6",
+      "category": "Định nghĩa đáp ứng",
+      "tier": 2,
+      "text": "Kháng steroid (SRNS): không lui bệnh hoàn toàn sau {{c1::<span style=\"color:#ffd43b\"><b>4 tuần</b></span>}} prednisolone liều chuẩn {{c2::<span style=\"color:#ffd43b\"><b>60 mg/m²/ngày hoặc 2 mg/kg/ngày</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828); IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-nghia",
+        "SRNS"
+      ],
+      "legacy_note_id": 1789990725752
+    },
+    {
+      "id": "PED40-055",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Xử trí tái phát",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tái phát thông thường — SSNS]</b></span> Phác đồ prednisolone cho một đợt tái phát không biến chứng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Prednisolone 60 mg/m²/ngày (2 mg/kg/ngày, tối đa 60 mg)</b></span> cho đến khi <span style=\"color:#ffd43b\"><b>lui bệnh hoàn toàn ≥ 3 ngày</b></span>.<br>2) Chuyển <span style=\"color:#51cf66\"><b>40 mg/m² (1,5 mg/kg, tối đa 40 mg) cách ngày</b></span> trong <span style=\"color:#ffd43b\"><b>4 tuần</b></span> rồi ngưng, <span style=\"color:#ff6b6b\"><b>không giảm liều dần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khác đợt đầu: không cần tấn công đủ 4 tuần, chỉ đến khi hết protein niệu 3 ngày.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Tai-phat"
+      ],
+      "legacy_note_id": 1789990725754
+    },
+    {
+      "id": "PED40-056",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Quản lý lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sốt siêu vi khi đang điều trị]</b></span> Trẻ đang duy trì steroid bị sốt siêu vi, que thử <span style=\"color:#ffd43b\"><b>1+ hoặc 2+</b></span>: xử trí thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Chưa kết luận tái phát</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hạ sốt, thử que mỗi sáng 3–5 ngày</b></span>; âm tính trở lại thì <span style=\"color:#51cf66\"><b>giữ nguyên liều</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tái phát đòi hỏi ≥ 3+ trong 3 ngày liên tiếp. Sốt có thể gây protein niệu phản ứng thoáng qua.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Tai-phat"
+      ],
+      "legacy_note_id": 1789990725756
+    },
+    {
+      "id": "PED40-A2",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Phân loại đáp ứng corticoid",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Sau 4 tuần prednisolone liều chuẩn: xếp loại đáp ứng thế nào?</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lui bệnh hoàn toàn trong <span style=\"color:#ffd43b\"><b>4 tuần</b></span> → <span style=\"color:#51cf66\"><b>nhạy cảm steroid (SSNS)</b></span> → chuyển cách ngày.<br>2) Lui bệnh một phần ở tuần 4 → <span style=\"color:#74c0fc\"><b>giai đoạn xác nhận</b></span> tuần <span style=\"color:#ffd43b\"><b>4–6</b></span>: prednisolone ± methylprednisolone tĩnh mạch + ức chế RAAS.<br>3) Lui bệnh hoàn toàn đến tuần 6 → <span style=\"color:#51cf66\"><b>đáp ứng muộn</b></span>; vẫn chưa → <span style=\"color:#ff6b6b\"><b>SRNS</b></span>.<br>4) SRNS → <span style=\"color:#ff6b6b\"><b>sinh thiết thận + xét nghiệm gen</b></span>, khởi động <span style=\"color:#51cf66\"><b>thuốc ức chế calcineurin</b></span> (IPNA 2020).<br><br><b>💡 Giải thích của AI:</b><br>Mốc 4 tuần là bắt buộc trước khi gọi kháng steroid; kết luận sau 2 tuần là sai. Giai đoạn xác nhận tránh xếp nhầm trẻ đáp ứng chậm.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Phan-loai",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED40-A4",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E6",
+      "category": "Phân loại diễn tiến SSNS",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Trẻ nhạy cảm steroid tái phát: khi nào là FRNS, SDNS và cần thuốc tiết kiệm steroid?</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tái phát không thường xuyên: <span style=\"color:#ffd43b\"><b>< 2 đợt/6 tháng đầu và < 3 đợt/12 tháng</b></span> → mỗi đợt dùng lại prednisolone.<br>2) <span style=\"color:#74c0fc\"><b>FRNS</b></span>: <span style=\"color:#ffd43b\"><b>≥ 2 đợt trong 6 tháng đầu</b></span> hoặc <span style=\"color:#ffd43b\"><b>≥ 3 đợt trong 12 tháng</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>SDNS</b></span>: <span style=\"color:#ffd43b\"><b>2 đợt liên tiếp</b></span> khi đang dùng prednisolone hoặc trong <span style=\"color:#ffd43b\"><b>14 ngày</b></span> sau ngừng.<br>4) FRNS/SDNS → <span style=\"color:#51cf66\"><b>thuốc tiết kiệm steroid</b></span>: levamisole, cyclophosphamide, CNI, MMF, rituximab.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 12 tháng của IPNA 2023 là ≥ 3 đợt (các định nghĩa cũ dùng ≥ 4). Mục tiêu điều trị là giảm độc tính tích lũy của corticoid.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Phan-loai",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED40-057",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E7",
+      "category": "Cấp cứu biến chứng",
+      "tier": 2,
+      "text": "Albumin 20% khi giảm thể tích (chưa tụt huyết áp) hoặc phù nặng: {{c1::<span style=\"color:#ffd43b\"><b>0,5–1 g/kg (2,5–5 mL/kg)</b></span>}}, truyền chậm trong {{c2::<span style=\"color:#ffd43b\"><b>4–6 giờ</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Albumin"
+      ],
+      "legacy_note_id": 1789990725758
+    },
+    {
+      "id": "PED40-058",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E7",
+      "category": "Cấp cứu biến chứng",
+      "tier": 2,
+      "text": "Furosemid sau albumin dùng liều {{c1::<span style=\"color:#ffd43b\"><b>1–2 mg/kg tĩnh mạch</b></span>}}. Thời điểm tiêm là {{c2::<span style=\"color:#ffd43b\"><b>giữa và/hoặc cuối</b></span>}} buổi truyền khi thể tích đã được bù mà nước tiểu vẫn ít.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Furosemid"
+      ],
+      "legacy_note_id": 1789990725760
+    },
+    {
+      "id": "PED40-059",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Cấp cứu biến chứng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Truyền albumin 20%]</b></span> Dấu hiệu <span style=\"color:#ff6b6b\"><b>quá tải thể tích / phù phổi cấp</b></span> khi truyền là gì và xử trí ngay thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu hiệu: <span style=\"color:#ff6b6b\"><b>khó thở đột ngột, thở nhanh co kéo, SpO₂ tụt, ho bọt hồng, ran ẩm hai phổi</b></span>.<br>2) Xử trí: <span style=\"color:#51cf66\"><b>ngừng truyền albumin, nằm đầu cao, thở oxy/áp lực dương, tiêm Furosemid tĩnh mạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Albumin ưu trương kéo dịch về lòng mạch nhanh; IPNA 2023 nhấn mạnh theo dõi sát khi truyền để tránh tăng thể tích và phù phổi.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Albumin",
+        "Phu-phoi"
+      ],
+      "legacy_note_id": 1789990725762,
+      "asks": [
+        "Dấu hiệu",
+        "Xử trí"
+      ]
+    },
+    {
+      "id": "PED40-060",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E7",
+      "category": "Cấp cứu nhiễm trùng",
+      "tier": 2,
+      "text": "Kháng sinh đầu tay cho viêm phúc mạc tiên phát: {{c1::<span style=\"color:#51cf66\"><b>Ceftriaxone 80–100 mg/kg/ngày</b></span>}} tĩnh mạch 1 lần/ngày (hoặc Cefotaxim 150 mg/kg/ngày chia 3).",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Nhiem-trung"
+      ],
+      "legacy_note_id": 1789990725764
+    },
+    {
+      "id": "PED40-061",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E7",
+      "category": "Cấp cứu nhiễm trùng",
+      "tier": 2,
+      "text": "Gợi ý viêm phúc mạc tiên phát khi dịch màng bụng có bạch cầu {{c1::<span style=\"color:#ffd43b\"><b>> 250/mm³</b></span>}} với đa nhân trung tính {{c2::<span style=\"color:#ffd43b\"><b>> 50%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Nhiem-trung"
+      ],
+      "legacy_note_id": 1789990725766
+    },
+    {
+      "id": "PED40-062",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Nhiễm trùng da",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm mô tế bào ở trẻ HCTH]</b></span> Vị trí hay gặp, căn nguyên và kháng sinh lựa chọn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vị trí: <span style=\"color:#ff6b6b\"><b>vùng da phù căng, nứt nẻ</b></span> — cẳng chân, bìu/âm hộ.<br>2) Căn nguyên: <span style=\"color:#ff6b6b\"><b>liên cầu nhóm A, tụ cầu vàng</b></span>.<br>3) Kháng sinh: <span style=\"color:#51cf66\"><b>oxacillin/cefazolin</b></span>; <span style=\"color:#51cf66\"><b>vancomycin</b></span> nếu nghi MRSA.<br><br><b>💡 Giải thích của AI:</b><br>Da phù mất hàng rào bảo vệ cơ học, vi khuẩn dễ xâm nhập.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Nhiem-trung"
+      ],
+      "legacy_note_id": 1789990725768,
+      "asks": [
+        "Vị trí",
+        "Căn nguyên",
+        "Kháng sinh"
+      ]
+    },
+    {
+      "id": "PED40-063",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Biến chứng tắc mạch",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Huyết khối trong HCTH]</b></span> Kể <span style=\"color:#ffd43b\"><b>4 vị trí</b></span> huyết khối nguy hiểm nhất.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Huyết khối tĩnh mạch sâu chi dưới</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Huyết khối tĩnh mạch thận</b></span> (đái máu, đau hông lưng, thận to).<br>3) <span style=\"color:#ff6b6b\"><b>Huyết khối xoang tĩnh mạch não</b></span> (đau đầu dữ dội, co giật).<br>4) <span style=\"color:#ff6b6b\"><b>Thuyên tắc động mạch phổi</b></span> (khó thở đột ngột, ho máu, tụt SpO₂).<br><br><b>💡 Giải thích của AI:</b><br>Nghiên cứu MWPNC (326 trẻ) ghi nhận 9,2% có ít nhất 1 biến cố huyết khối; huyết khối tĩnh mạch sâu chiếm 76%; tuổi ≥ 12 là yếu tố tiên đoán độc lập.",
+      "extra": "📖 Nguồn: Kerlin và cs. 2009, MWPNC (PMID 19394032); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Huyet-khoi"
+      ],
+      "legacy_note_id": 1789990725770
+    },
+    {
+      "id": "PED40-064",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Dự phòng chống đông",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dự phòng huyết khối]</b></span> Có dự phòng <span style=\"color:#51cf66\"><b>chống đông/kháng tiểu cầu thường quy</b></span> cho trẻ HCTH không, và khi nào cân nhắc?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không dự phòng thường quy</b></span> trong giai đoạn thận hư cấp (IPNA 2023).<br>2) <span style=\"color:#51cf66\"><b>Cân nhắc trong đợt tái phát</b></span> khi có nguy cơ cao đã xác định: tiền sử huyết khối, thrombophilia gia đình, catheter tĩnh mạch trung tâm, bất động, nhiễm trùng phải nằm viện.<br><br><b>💡 Giải thích của AI:</b><br>Chưa đủ bằng chứng cho dự phòng thường quy; cần đánh giá nguy cơ từng trẻ, tư vấn gia đình nhận biết triệu chứng huyết khối, và quyết định thuốc/liều cùng chuyên khoa.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Huyet-khoi"
+      ],
+      "legacy_note_id": 1789990725772
+    },
+    {
+      "id": "PED40-065",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Rối loạn điện giải",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Canxi hiệu chỉnh]</b></span> Công thức tính canxi hiệu chỉnh theo albumin máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Canxi hiệu chỉnh (mmol/L) = Canxi đo được + 0,02 × (40 − Albumin g/L)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Canxi hiệu chỉnh trong giới hạn bình thường (2,15–2,55 mmol/L) → hạ canxi giả tạo, không tiêm canxi tĩnh mạch.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canxi",
+        "Cong-thuc"
+      ],
+      "legacy_note_id": 1789990725774
+    },
+    {
+      "id": "PED40-066",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Rối loạn điện giải",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tiêm canxi tĩnh mạch]</b></span> Khi nào mới có chỉ định <span style=\"color:#51cf66\"><b>tiêm canxi tĩnh mạch</b></span> ở trẻ HCTH?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Khi có <span style=\"color:#ff6b6b\"><b>triệu chứng hạ canxi</b></span> (Chvostek, Trousseau, co thắt thanh quản, co giật) <span style=\"color:#ffd43b\"><b>VÀ</b></span> <span style=\"color:#ff6b6b\"><b>canxi ion hóa thực sự giảm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không tiêm chỉ dựa vào canxi toàn phần giảm.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Canxi"
+      ],
+      "legacy_note_id": 1789990725776
+    },
+    {
+      "id": "PED40-067",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Tác dụng phụ lợi tiểu",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Furosemid liều cao]</b></span> Các rối loạn điện giải/chuyển hóa cần theo dõi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hạ kali máu và kiềm chuyển hóa</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Hạ natri máu</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Tăng acid uric máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kiểm tra điện giải đồ sau 24–48 giờ; bù kali uống khi K⁺ < 3,5 mmol/L.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Furosemid",
+        "Dien-giai"
+      ],
+      "legacy_note_id": 1789990725778
+    },
+    {
+      "id": "PED40-079",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Tiêu chuẩn xuất viện",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Xuất viện đợt đầu]</b></span> Kể các <span style=\"color:#51cf66\"><b>tiêu chuẩn xuất viện an toàn</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Huyết động ổn định</b></span>, hết dấu hiệu giảm/quá tải thể tích.<br>2) <span style=\"color:#51cf66\"><b>Phù giảm rõ, tiểu tốt</b></span> (<span style=\"color:#ffd43b\"><b>> 1,5–2 mL/kg/giờ</b></span>).<br>3) <span style=\"color:#51cf66\"><b>Đã loại trừ nhiễm trùng, dung nạp corticoid uống, gia đình thành thạo que thử tại nhà</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gia đình tự thử que nước tiểu buổi sáng là mấu chốt để phát hiện tái phát sớm.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Xuat-vien"
+      ],
+      "legacy_note_id": 1789990725802
+    },
+    {
+      "id": "PED40-A1",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E7",
+      "category": "Lưu đồ dịch truyền",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Trẻ HCTH có dấu hiệu giảm thể tích: albumin nào, có Furosemid không?</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mọi trẻ giảm thể tích: <span style=\"color:#ff6b6b\"><b>ngừng lợi tiểu và ngừng ức chế men chuyển/chẹn thụ thể angiotensin</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Sốc / tụt huyết áp</b></span> → <span style=\"color:#51cf66\"><b>Albumin 4–5%</b></span>, <span style=\"color:#ff6b6b\"><b>không kèm Furosemid</b></span> (chưa có: NaCl 0,9% <span style=\"color:#ffd43b\"><b>10–20 mL/kg</b></span>).<br>3) <span style=\"color:#ffd43b\"><b>Giảm thể tích chưa tụt huyết áp</b></span> (thiểu niệu, CRT kéo dài, mạch nhanh, đau bụng) → <span style=\"color:#51cf66\"><b>Albumin 20–25%</b></span> <span style=\"color:#ffd43b\"><b>0,5–1 g/kg</b></span> truyền chậm.<br>4) Thể tích đã bù mà nước tiểu vẫn ít → <span style=\"color:#51cf66\"><b>Furosemid 1–2 mg/kg tĩnh mạch</b></span> giữa/cuối buổi truyền; theo dõi phù phổi.<br><br><b>💡 Giải thích của AI:</b><br>Nồng độ albumin đi theo huyết áp: sốc cần dung dịch đẳng trương làm đầy lòng mạch; chưa sốc thì dùng albumin ưu trương kéo dịch từ mô kẽ về. Furosemid luôn đi sau và có điều kiện.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Albumin",
+        "Furosemid",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED40-068",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc bậc hai",
+      "tier": 2,
+      "text": "Levamisole cho FRNS/SDNS: {{c1::<span style=\"color:#ffd43b\"><b>2–2,5 mg/kg cách ngày</b></span>}} (tối đa 150 mg); tác dụng phụ cần theo dõi: {{c2::<span style=\"color:#ff6b6b\"><b>giảm bạch cầu trung tính</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Levamisole"
+      ],
+      "legacy_note_id": 1789990725780
+    },
+    {
+      "id": "PED40-069",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc bậc hai",
+      "tier": 2,
+      "text": "Cyclophosphamide uống {{c1::<span style=\"color:#ffd43b\"><b>2 mg/kg/ngày × 12 tuần hoặc 3 mg/kg/ngày × 8 tuần</b></span>}} trong một đợt duy nhất. Liều tích lũy tối đa là {{c2::<span style=\"color:#ffd43b\"><b>168 mg/kg</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Cyclophosphamide"
+      ],
+      "legacy_note_id": 1789990725782
+    },
+    {
+      "id": "PED40-070",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc bậc hai",
+      "tier": 2,
+      "text": "Cyclosporin A: khởi đầu {{c1::<span style=\"color:#ffd43b\"><b>3–5 mg/kg/ngày</b></span>}} chia 2 lần; nồng độ đáy mục tiêu {{c2::<span style=\"color:#ffd43b\"><b>60–100 ng/mL</b></span>}} ở SSNS và {{c3::<span style=\"color:#ffd43b\"><b>80–120 ng/mL</b></span>}} ở SRNS.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "CNI"
+      ],
+      "legacy_note_id": 1789990725784
+    },
+    {
+      "id": "PED40-071",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc bậc hai",
+      "tier": 2,
+      "text": "Tacrolimus: khởi đầu {{c1::<span style=\"color:#ffd43b\"><b>0,1–0,2 mg/kg/ngày</b></span>}} chia 2 lần; nồng độ đáy mục tiêu {{c2::<span style=\"color:#ffd43b\"><b>3–7 ng/mL</b></span>}} ở SSNS và {{c3::<span style=\"color:#ffd43b\"><b>4–8 ng/mL</b></span>}} ở SRNS.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "CNI"
+      ],
+      "legacy_note_id": 1789990725786
+    },
+    {
+      "id": "PED40-072",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc bậc hai",
+      "tier": 2,
+      "text": "Mycophenolate mofetil cho FRNS/SDNS: {{c1::<span style=\"color:#ffd43b\"><b>1200 mg/m²/ngày</b></span>}} chia 2 lần (tối đa 3000 mg); ưu điểm: {{c2::<span style=\"color:#51cf66\"><b>không độc thận</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "MMF"
+      ],
+      "legacy_note_id": 1789990725788
+    },
+    {
+      "id": "PED40-073",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E8",
+      "category": "Thuốc sinh học",
+      "tier": 2,
+      "text": "Rituximab dùng {{c1::<span style=\"color:#ffd43b\"><b>375 mg/m²/liều</b></span>}} cách tuần với 1–4 liều mỗi đợt. Mục tiêu là làm cạn tế bào B CD19 {{c2::<span style=\"color:#ffd43b\"><b>< 5 tế bào/mm³ hoặc < 1% lympho</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Rituximab"
+      ],
+      "legacy_note_id": 1789990725790
+    },
+    {
+      "id": "PED40-074",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E8",
+      "category": "So sánh thuốc",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[CNI trong SRNS]</b></span> IPNA 2020 chọn thuốc ức chế miễn dịch đầu tay nào cho SRNS, và chọn giữa <span style=\"color:#51cf66\"><b>Cyclosporin A</b></span> với <span style=\"color:#51cf66\"><b>Tacrolimus</b></span> dựa vào đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đầu tay: <span style=\"color:#51cf66\"><b>thuốc ức chế calcineurin — Cyclosporin A hoặc Tacrolimus</b></span>.<br>2) Chọn theo tác dụng phụ: CsA gây <span style=\"color:#ff6b6b\"><b>rậm lông, phì đại nướu</b></span>; Tacrolimus gây <span style=\"color:#ff6b6b\"><b>rối loạn dung nạp glucose, đái tháo đường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2020 không xếp thuốc nào mạnh hơn. Ở trẻ lớn quan tâm thẩm mỹ thường chọn Tacrolimus; cả hai đều độc thận, phải theo dõi nồng độ đáy và creatinin. Trước CNI, IPNA 2020 khuyến cáo bắt đầu ức chế RAAS ngay khi chẩn đoán SRNS.",
+      "extra": "📖 Nguồn: IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "CNI",
+        "SRNS"
+      ],
+      "legacy_note_id": 1789990725792
+    },
+    {
+      "id": "PED40-A3",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E8",
+      "category": "Bảng liều thuốc bỏ túi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Bảng liều thuốc HCTH trẻ em</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Prednisolone đợt đầu: <span style=\"color:#ffd43b\"><b>60 mg/m² hoặc 2 mg/kg/ngày</b></span> (tối đa 60 mg) rồi <span style=\"color:#ffd43b\"><b>40 mg/m² hoặc 1,5 mg/kg cách ngày</b></span> (tối đa 40 mg), phác đồ <span style=\"color:#ffd43b\"><b>4 + 4 hoặc 6 + 6 tuần</b></span>.<br>2) Albumin 20–25%: <span style=\"color:#ffd43b\"><b>0,5–1 g/kg</b></span>; Furosemid <span style=\"color:#ffd43b\"><b>1–2 mg/kg tĩnh mạch</b></span> giữa/cuối truyền.<br>3) Levamisole <span style=\"color:#ffd43b\"><b>2–2,5 mg/kg cách ngày</b></span>; Cyclophosphamide <span style=\"color:#ffd43b\"><b>2 mg/kg × 12 tuần</b></span> (tích lũy ≤ 168 mg/kg).<br>4) CsA <span style=\"color:#ffd43b\"><b>3–5 mg/kg/ngày</b></span> (C0 60–100 SSNS / 80–120 SRNS); Tacrolimus <span style=\"color:#ffd43b\"><b>0,1–0,2 mg/kg/ngày</b></span> (C0 3–7 SSNS / 4–8 SRNS).<br>5) MMF <span style=\"color:#ffd43b\"><b>1200 mg/m²/ngày</b></span>; Rituximab <span style=\"color:#ffd43b\"><b>375 mg/m²/liều</b></span> × 1–4.<br><br><b>💡 Giải thích của AI:</b><br>Corticoid tính theo cân nặng khô ước tính (IPNA 2023), không theo cân nặng lúc phù.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Lieu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED40-075",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E9",
+      "category": "Chế độ dinh dưỡng",
+      "tier": 2,
+      "text": "Khi tái phát có phù vừa hoặc nặng thì natri tối đa {{c1::<span style=\"color:#ffd43b\"><b>2–3 mEq/kg/ngày (khoảng 2000 mg/ngày ở trẻ lớn)</b></span>}}. Khi lui bệnh thì {{c2::<span style=\"color:#51cf66\"><b>ăn muối bình thường</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Dinh-duong"
+      ],
+      "legacy_note_id": 1789990725794
+    },
+    {
+      "id": "PED40-076",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E9",
+      "category": "Chế độ dinh dưỡng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đạm trong HCTH]</b></span> Lượng đạm khuyến cáo là bao nhiêu, và vì sao <span style=\"color:#ff6b6b\"><b>không ép ăn nhiều đạm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lượng đạm <span style=\"color:#51cf66\"><b>như khuyến nghị cho trẻ khỏe cùng tuổi</b></span> (IPNA 2023).<br>2) Ép ăn nhiều đạm <span style=\"color:#ff6b6b\"><b>tăng gánh lọc cầu thận và protein niệu</b></span>, không bù được albumin mất.<br><br><b>💡 Giải thích của AI:</b><br>Kiêng đạm thì trẻ suy dinh dưỡng, teo cơ; ăn quá nhiều đạm thì tăng protein niệu. Đúng nhất là ăn như trẻ khỏe cùng tuổi.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Dinh-duong"
+      ],
+      "legacy_note_id": 1789990725796
+    },
+    {
+      "id": "PED40-077",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E9",
+      "category": "Tiêm chủng vắc xin",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Vắc xin sống]</b></span> Nguyên tắc tiêm vắc xin sống giảm độc lực cho trẻ HCTH đang điều trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không tiêm</b></span> khi đang dùng ức chế miễn dịch liều cao (prednisolone <span style=\"color:#ffd43b\"><b>≥ 2 mg/kg/ngày hoặc ≥ 20 mg/ngày</b></span>) và trong <span style=\"color:#ffd43b\"><b>6 tháng</b></span> sau rituximab.<br>2) Sau ngừng corticoid liều cao, đợi <span style=\"color:#ffd43b\"><b>ít nhất 1–3 tháng</b></span>; theo hướng dẫn tiêm chủng quốc gia.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2023 khuyến cáo tiêm vắc xin sống cho người sống cùng nhà nếu trẻ chưa tiêm được, để tạo vòng bảo vệ.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Tiem-chung"
+      ],
+      "legacy_note_id": 1789990725798
+    },
+    {
+      "id": "PED40-078",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E9",
+      "category": "Tiêm chủng vắc xin",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Vắc xin bất hoạt]</b></span> Vắc xin nào cần ưu tiên cho trẻ HCTH?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Phế cầu (PCV13, nhắc PPSV23)</b></span> và <span style=\"color:#51cf66\"><b>cúm mùa hằng năm</b></span>; hoàn thành lịch cho vi khuẩn có vỏ (não mô cầu, Hib), viêm gan B, thủy đậu.<br><br><b>💡 Giải thích của AI:</b><br>Phòng viêm phúc mạc do phế cầu và giảm tái phát do nhiễm virus; IPNA 2023 khuyến cáo tiêm cúm hằng năm cho cả người sống cùng nhà.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Tiem-chung"
+      ],
+      "legacy_note_id": 1789990725800
+    },
+    {
+      "id": "PED40-080",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Nhận định <span style=\"color:#ff6b6b\"><b>trẻ phù to nứt da là thừa dịch toàn bộ</b></span> dẫn đến sai lầm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Vội dùng Furosemid liều cao</b></span> khi lòng mạch đang thiếu dịch → <span style=\"color:#ff6b6b\"><b>sốc, huyết khối não/phổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn dịch nằm ở mô kẽ; phải kiểm tra tưới máu trước khi dùng lợi tiểu.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725804
+    },
+    {
+      "id": "PED40-081",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Trẻ HCTH <span style=\"color:#ff6b6b\"><b>thiểu niệu</b></span> mà <span style=\"color:#ff6b6b\"><b>tăng liều Furosemid</b></span> dẫn đến hậu quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Tổn thương thận cấp (hoại tử ống thận), sốc giảm thể tích, huyết khối</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thiểu niệu là phản xạ bảo tồn dịch; khi giảm thể tích phải bù albumin trước, lợi tiểu chỉ khi đã bù đủ mà vẫn ít nước tiểu.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725806
+    },
+    {
+      "id": "PED40-082",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Nhầm <span style=\"color:#ff6b6b\"><b>viêm phúc mạc tiên phát</b></span> với đau bụng do phù nề ruột dẫn đến nguy cơ gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Chậm chọc dò và kháng sinh</b></span> → <span style=\"color:#ff6b6b\"><b>sốc nhiễm khuẩn do phế cầu, tử vong</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ HCTH báng bụng có sốt hoặc đau bụng đều phải nghĩ viêm phúc mạc tiên phát.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725808
+    },
+    {
+      "id": "PED40-083",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> <span style=\"color:#ff6b6b\"><b>Ngừng đột ngột Prednisolone liều cao hàng ngày</b></span> vì sợ mặt Cushing gây hậu quả gì, và cách ngưng đúng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hậu quả: nguy cơ <span style=\"color:#ff6b6b\"><b>suy thượng thận trung ương thoáng qua</b></span> (nhất là khi stress) và <span style=\"color:#ff6b6b\"><b>hỏng đợt điều trị</b></span>.<br>2) Cách ngưng đúng: <span style=\"color:#51cf66\"><b>chuyển liều cách ngày đúng phác đồ</b></span> rồi ngưng; <span style=\"color:#ffd43b\"><b>không cần giảm liều dần</b></span> giai đoạn cách ngày (IPNA 2023).<br><br><b>💡 Giải thích của AI:</b><br>Mặt Cushing là tác dụng phụ dự kiến và hồi phục; tư vấn trước cho gia đình để tránh tự bỏ thuốc.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725810,
+      "asks": [
+        "Hậu quả",
+        "Cách ngưng đúng"
+      ]
+    },
+    {
+      "id": "PED40-084",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Thấy <span style=\"color:#ff6b6b\"><b>canxi toàn phần thấp</b></span> mà vội <span style=\"color:#ff6b6b\"><b>tiêm canxi tĩnh mạch</b></span> có nguy cơ gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Loạn nhịp tim</b></span> và <span style=\"color:#ff6b6b\"><b>hoại tử mô nếu thoát mạch</b></span>, trong khi <span style=\"color:#51cf66\"><b>canxi ion hóa bình thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là hạ canxi giả tạo do giảm albumin; chỉ tiêm khi có triệu chứng và canxi ion hóa thực sự giảm.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725812
+    },
+    {
+      "id": "PED40-085",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> <span style=\"color:#ff6b6b\"><b>Ép trẻ ăn gấp đôi đạm</b></span> để bù protein mất qua nước tiểu có đúng không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Sai</b></span>: tăng gánh lọc cầu thận và protein niệu; chỉ cần <span style=\"color:#51cf66\"><b>đạm như trẻ khỏe cùng tuổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kiêng đạm cũng sai vì gây suy dinh dưỡng. IPNA 2023 khuyến cáo khẩu phần đạm như trẻ khỏe.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725814
+    },
+    {
+      "id": "PED40-086",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Kết luận <span style=\"color:#ff6b6b\"><b>kháng steroid</b></span> khi mới tấn công <span style=\"color:#ffd43b\"><b>2 tuần</b></span> dẫn đến sai lầm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Đổi sớm sang thuốc ức chế miễn dịch bậc hai</b></span> trong khi trẻ có thể <span style=\"color:#51cf66\"><b>đáp ứng ở tuần 3–4</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>SRNS cần đủ 4 tuần liều chuẩn; trẻ đáp ứng một phần còn có giai đoạn xác nhận đến tuần 6.",
+      "extra": "📖 Nguồn: IPNA 2020 — HCTH kháng steroid (Trautmann và cs., Pediatr Nephrol 2020; PMID 32382828); IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725816
+    },
+    {
+      "id": "PED40-087",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E10",
+      "category": "Bẫy lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lâm sàng]</b></span> Tiêm <span style=\"color:#ff6b6b\"><b>vắc xin sống</b></span> (thủy đậu, sởi) khi trẻ đang uống prednisolone liều cao gây hậu quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Nhiễm virus vắc xin lan tỏa</b></span>: viêm não, viêm phổi nặng, tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Hoãn vắc xin sống đến ít nhất 1–3 tháng sau ngừng corticoid liều cao và 6 tháng sau rituximab.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Bay"
+      ],
+      "legacy_note_id": 1789990725818
+    },
+    {
+      "id": "PED40-088",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E11",
+      "category": "Tính toán lâm sàng",
+      "tier": 2,
+      "text": "Bé trai 3 tuổi, 15 kg: prednisolone tấn công 2 mg/kg/ngày × 15 kg = {{c1::<span style=\"color:#ffd43b\"><b>30 mg/ngày</b></span>}}, tức {{c2::<span style=\"color:#ffd43b\"><b>6 viên 5 mg</b></span>}} uống 1 lần buổi sáng.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Tinh-lieu"
+      ],
+      "legacy_note_id": 1789990725820
+    },
+    {
+      "id": "PED40-089",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E11",
+      "category": "Tính toán lâm sàng",
+      "tier": 2,
+      "text": "Bé gái 6 tuổi thừa cân, diện tích da 0,95 m²: prednisolone 60 mg/m² × 0,95 = {{c1::<span style=\"color:#ffd43b\"><b>57 mg/ngày</b></span>}} (không vượt {{c2::<span style=\"color:#ffd43b\"><b>60 mg/ngày</b></span>}}).",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Tinh-lieu"
+      ],
+      "legacy_note_id": 1789990725822
+    },
+    {
+      "id": "PED40-090",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E11",
+      "category": "Tính toán lâm sàng",
+      "tier": 2,
+      "text": "Trẻ 14 kg khô, giảm thể tích chưa tụt huyết áp: Albumin 20% 1 g/kg = 14 g = {{c1::<span style=\"color:#ffd43b\"><b>70 mL</b></span>}} truyền trong {{c2::<span style=\"color:#ffd43b\"><b>4–6 giờ</b></span>}}; nếu đã bù đủ mà vẫn tiểu ít thì Furosemid {{c3::<span style=\"color:#ffd43b\"><b>14 mg (1 mg/kg) tĩnh mạch</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Tinh-lieu",
+        "Albumin"
+      ],
+      "legacy_note_id": 1789990725824
+    },
+    {
+      "id": "PED40-091",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E11",
+      "category": "Tính toán lâm sàng",
+      "tier": 2,
+      "text": "Protein niệu 450 mg/dL, creatinin niệu 90 mg/dL: Up/Ucr = 450 / 90 = {{c1::<span style=\"color:#ffd43b\"><b>5,0 mg/mg</b></span>}}. Kết quả này {{c2::<span style=\"color:#ff6b6b\"><b>đạt ngưỡng thận hư (≥ 2 mg/mg)</b></span>}}.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Tinh-lieu",
+        "Protein-nieu"
+      ],
+      "legacy_note_id": 1789990725826
+    },
+    {
+      "id": "PED40-092",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "E11",
+      "category": "Tính toán lâm sàng",
+      "tier": 2,
+      "text": "Dữ kiện: canxi toàn phần 1,65 mmol/L; albumin 12 g/L; công thức 1,65 + 0,02 × (40 − 12). Canxi hiệu chỉnh = {{c1::<span style=\"color:#ffd43b\"><b>2,21 mmol/L</b></span>}}. Kết luận là {{c2::<span style=\"color:#51cf66\"><b>hạ canxi giả tạo nên không tiêm canxi tĩnh mạch</b></span>}}.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Cloze-phu",
+        "Tinh-lieu",
+        "Canxi"
+      ],
+      "legacy_note_id": 1789990725828
+    },
+    {
+      "id": "PED40-093",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 1]</b></span> Trẻ 4 tuổi <span style=\"color:#ff6b6b\"><b>phù to toàn thân</b></span> nhưng <span style=\"color:#ff6b6b\"><b>mạch 145 l/ph, HA 75/50 mmHg, CRT 4 giây, đau bụng quanh rốn</b></span> — giải thích?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#ff6b6b\"><b>Giảm thể tích tuần hoàn mất bù (Underfill)</b></span>: albumin <span style=\"color:#ffd43b\"><b>14 g/L</b></span> làm dịch thoát ra mô kẽ (phù) trong khi <span style=\"color:#ff6b6b\"><b>lòng mạch cạn dịch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thiếu dịch nội mạch gây co mạch ngoại vi (CRT kéo dài, chi lạnh), tụt huyết áp và thiếu máu mạc treo gây đau bụng.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725830
+    },
+    {
+      "id": "PED40-094",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 1]</b></span> Vì sao tiêm <span style=\"color:#ff6b6b\"><b>Furosemid 20 mg tĩnh mạch đơn độc</b></span> cho trẻ Case 1 là sai lầm nguy hiểm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>Cưỡng bức bài niệu khi <span style=\"color:#ff6b6b\"><b>lòng mạch đang cạn</b></span> → <span style=\"color:#ff6b6b\"><b>trụy mạch, huyết khối, tổn thương thận cấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>IPNA 2023: khi có dấu hiệu giảm thể tích phải ngừng lợi tiểu; trẻ đang tụt huyết áp cần albumin 4–5%, không kèm Furosemid.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725832
+    },
+    {
+      "id": "PED40-095",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 1]</b></span> Tóm tắt các bước <span style=\"color:#51cf66\"><b>cấp cứu huyết động</b></span> cho trẻ đang <span style=\"color:#ff6b6b\"><b>tụt huyết áp 75/50 mmHg</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Thở oxy, lập đường truyền</b></span>.<br>2) Chống sốc: <span style=\"color:#51cf66\"><b>Albumin 4–5%</b></span>, <span style=\"color:#ff6b6b\"><b>không kèm Furosemid</b></span> (chưa có: NaCl 0,9% <span style=\"color:#ffd43b\"><b>10 mL/kg</b></span> trong 30 phút).<br>3) Hết tụt huyết áp mà còn giảm thể tích: <span style=\"color:#51cf66\"><b>Albumin 20% 1 g/kg (70 mL) trong 4–6 giờ</b></span>.<br>4) Chỉ khi đã bù đủ mà vẫn tiểu ít: <span style=\"color:#51cf66\"><b>Furosemid 1 mg/kg tĩnh mạch</b></span> giữa/cuối truyền; theo dõi sinh hiệu, nước tiểu mỗi 30 phút.<br><br><b>💡 Giải thích của AI:</b><br>Không tiêm canxi tĩnh mạch vì canxi ion hóa 1,18 mmol/L bình thường. Bắt đầu prednisolone sau khi huyết động ổn và đã loại trừ nhiễm trùng.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725834
+    },
+    {
+      "id": "PED40-096",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 2]</b></span> Trẻ 6 tuổi HCTH, <span style=\"color:#ff6b6b\"><b>sốt 39,2°C, đau bụng cấp, đề kháng nhẹ</b></span>: chẩn đoán ưu tiên và vi khuẩn hàng đầu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán: <span style=\"color:#ff6b6b\"><b>viêm phúc mạc tiên phát</b></span> trên nền HCTH tái phát.<br>2) Vi khuẩn: <span style=\"color:#ff6b6b\"><b>phế cầu (Streptococcus pneumoniae)</b></span>, <span style=\"color:#ffd43b\"><b>> 50%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bạch cầu 21.500/µL và CRP 96 mg/L củng cố nhiễm khuẩn cấp; cấy máu và dịch màng bụng trước kháng sinh.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725836,
+      "asks": [
+        "Chẩn đoán",
+        "Vi khuẩn"
+      ]
+    },
+    {
+      "id": "PED40-097",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 2]</b></span> Trẻ Case 2 có chỉ định <span style=\"color:#ff6b6b\"><b>mổ bụng thăm dò</b></span> không? Tại sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br><span style=\"color:#51cf66\"><b>Không</b></span>: viêm phúc mạc tiên phát <span style=\"color:#51cf66\"><b>điều trị nội khoa bằng kháng sinh</b></span>; mổ không cần thiết làm tăng nguy cơ nhiễm trùng và sốc.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm đã loại trừ viêm ruột thừa và không có liềm hơi dưới hoành; chọc dịch báng để cấy vi sinh.",
+      "extra": "📖 Nguồn: Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725838
+    },
+    {
+      "id": "PED40-098",
+      "track": "ebm",
+      "type": "basic",
+      "section": "E11",
+      "category": "Tình huống lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Case 2]</b></span> Kế hoạch <span style=\"color:#51cf66\"><b>kháng sinh</b></span> và <span style=\"color:#51cf66\"><b>quản lý corticoid</b></span> cho trẻ Case 2?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Kháng sinh: <span style=\"color:#51cf66\"><b>Ceftriaxone 80–100 mg/kg/ngày tĩnh mạch</b></span>.<br>2) Corticoid: <span style=\"color:#ff6b6b\"><b>không ngừng đột ngột</b></span> — nguy cơ suy thượng thận khi stress nhiễm trùng nặng.<br><br><b>💡 Giải thích của AI:</b><br>Khi đang nhiễm trùng nặng, trục thượng thận bị ức chế không đáp ứng đủ với stress; duy trì corticoid và theo dõi huyết động.",
+      "extra": "📖 Nguồn: IPNA 2023 — HCTH nhạy cảm steroid (Trautmann và cs., Pediatr Nephrol 2023; PMID 36269406); Bài PED-40 RELEASE v1 (nội dung bài, chưa đối chiếu nguồn gốc).",
+      "tags": [
+        "PED-40",
+        "EBM",
+        "Ca-lam-sang"
+      ],
+      "legacy_note_id": 1789990725840,
+      "asks": [
+        "Kháng sinh",
+        "Corticoid"
+      ]
+    }
+  ]
+}
