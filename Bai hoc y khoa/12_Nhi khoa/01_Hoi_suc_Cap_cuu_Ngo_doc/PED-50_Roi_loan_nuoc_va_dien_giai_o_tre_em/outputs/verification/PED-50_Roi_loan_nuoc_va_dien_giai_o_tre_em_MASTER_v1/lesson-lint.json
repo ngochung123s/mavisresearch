@@ -1,0 +1,23 @@
+{
+  "id": "PED-50",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "lesson": null,
+  "mode": "release",
+  "summary": {
+    "block": 1,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {
+      "M_MANIFEST": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "M_MANIFEST",
+      "card_id": "lesson.json",
+      "message": "thiếu file bài học (`lesson`)",
+      "severity": "BLOCK"
+    }
+  ]
+}

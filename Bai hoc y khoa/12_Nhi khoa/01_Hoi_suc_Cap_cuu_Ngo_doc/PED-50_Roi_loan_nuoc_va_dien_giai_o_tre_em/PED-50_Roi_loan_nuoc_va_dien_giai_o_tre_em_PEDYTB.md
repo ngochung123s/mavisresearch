@@ -1,242 +1,202 @@
 ---
-title: "RỐI LOẠN NƯỚC & ĐIỆN GIẢI Ở TRẺ EM"
+title: "RỐI LOẠN CHUYỂN HÓA NƯỚC ĐIỆN GIẢI Ở TRẺ EM"
 code: "PED-50"
 type: "PEDYTB"
-author: "ThS.BSCKII. Khúc Văn Lập - Bộ môn Nhi"
-source: "Bài giảng Bộ môn Nhi - Trường Đại học Y Dược Thái Bình (10 Slides Handout)"
-ocr_date: "2026-09-27"
-specialty: "Hồi sức, Cấp cứu & Thận - Chuyển hóa Nhi khoa"
+author: "ThS.BSCKII. Khúc Văn Lập — Bộ môn Nhi, ĐHYDTB"
+source: "Handout slide bài giảng Bộ môn Nhi — sources/slide_00..09.jpg (chụp 27/09/2026) + sources/dien_giai_*.jpg (ảnh gửi qua Telegram 27/10/2026)"
+ocr_date: "2026-10-27"
+specialty: "Nhi khoa - Hồi sức, Thận - Chuyển hóa"
 ---
 
-<!-- Page 1 -->
-# RỐI LOẠN NƯỚC & ĐIỆN GIẢI Ở TRẺ EM
-**Tác giả:** ThS.BSCKII. Khúc Văn Lập — Bộ môn Nhi, Trường Đại học Y Dược Thái Bình  
-*(Trích Bài giảng Lâm sàng Nhi khoa YTB — Chuyên đề Hồi sức Nước - Điện giải & 3 Bài toán tính dịch bù)*
-
----
-
-## MỤC TIÊU HỌC TẬP
-1. Trình bày được đặc điểm sinh lý chuyển hóa nước, phân bố các ngăn dịch (nội bào, ngoại bào) và nhu cầu nước duy trì theo tuổi ở trẻ em.
-2. Nắm vững nồng độ phân bố và nhu cầu các ion điện giải chính ($\text{Na}^+, \text{K}^+, \text{Ca}^{++}, \text{Mg}^{++}, \text{Cl}^-$) trong cơ thể trẻ.
-3. Đánh giá chính xác mức độ mất nước dựa trên phần trăm sụt cân và bảng 4 mức độ triệu chứng lâm sàng.
-4. Phân loại và chẩn đoán phân biệt 3 thể mất nước: Mất nước đẳng trương, Mất nước ưu trương và Mất nước nhược trương; nắm vững các cơ chế biến chứng hạ/tăng Natri máu cấp cứu.
-5. Thực hành giải thành thạo 3 bài toán tính bù dịch lâm sàng kinh điển:
-   - Bài toán 1: Mất nước đẳng trương.
-   - Bài toán 2: Mất nước nhược trương (bù thiếu hụt Natri ngoại bào).
-   - Bài toán 3: Mất nước ưu trương (tính nước tự do không điện giải, phòng tránh phù não cấp).
-6. Trình bày nguyên tắc xử trí cấp cứu rối loạn Kali ($\text{K}^+$), Canxi ($\text{Ca}^{++}$) và Magie ($\text{Mg}^{++}$) thường gặp.
+> **Quy ước mã dòng barem:** mỗi ý có mã `[Bx.yy]`. Bộ thẻ `ped50_cards_data.py` ghi mã này trong trường `extra` (`Barem: Bx.yy`); mọi mã phải có ≥ 1 thẻ.
+> Nội dung chép nguyên văn handout, giữ cả lỗi in của bản gốc; chỗ lỗi in ghi `(sic)`, chỗ ảnh mờ ghi rõ.
 
 ---
 
-<!-- Page 2 -->
-## I. ĐẶC ĐIỂM CHUYỂN HÓA NƯỚC & PHÂN BỐ DỊCH Ở TRẺ EM
+## B0. MỤC TIÊU (slide 00)
+- [B0.01] Trình bày được **sinh lý của chuyển hóa nước điện giải** ở trẻ em.
+- [B0.02] Trình bày được **tình trạng mất nước** ở trẻ em.
+- [B0.03] Trình bày được **cách điều trị tình trạng rối loạn nước điện giải** ở trẻ em.
 
-### 1.1. Công thức ước tính khối lượng nước toàn phần
-Khối lượng nước toàn phần trong cơ thể trẻ em ($V$, tính bằng lít) được ước tính nhanh theo cân nặng ($P$, tính bằng kg):
+## B1. KHỐI LƯỢNG NƯỚC TRONG CƠ THỂ TRẺ EM (slide 01)
+- [B1.01] Khối lượng nước trong cơ thể trẻ em: **V (lít) = 0,6 × P (kg) + 0,25**.
 
-$$V\text{ (lít)} = 0,6 \times P\text{ (kg)} + 0,25$$
+| Chỉ số \ Tuổi | 1 tháng | 6 tháng | 12 tháng | 5 tuổi | 15 tuổi |
+|---|---|---|---|---|---|
+| Lượng nước (% P) | 70 | 70 | 65 | 60 | 60 |
+| Nước ngoài tế bào | 60 | 50 | 47 | 45 | 36 |
+| Thể tích máu | 8% trọng lượng | | | | |
+| Thể tích h.tương | 5% trọng lượng | | | | |
+- [B1.02] Lượng nước (% P): **70 (1 tháng) – 70 (6 tháng) – 65 (12 tháng) – 60 (5 tuổi) – 60 (15 tuổi)**.
+- [B1.03] Nước ngoài tế bào: **60 – 50 – 47 – 45 – 36** (ảnh mờ: hai ô đầu đọc là 60 và 50, chưa chắc chắn).
+- [B1.04] Thể tích máu **8% trọng lượng**; thể tích huyết tương **5% trọng lượng**.
 
-### 1.2. Phân bố khối lượng nước và các ngăn dịch theo lứa tuổi
-Khối lượng nước toàn phần và tỷ lệ nước ngoài tế bào thay đổi rõ rệt theo sự phát triển của trẻ:
+## B2. NHU CẦU NƯỚC THEO CÂN NẶNG (slide 02)
+- [B2.01] Trẻ **< 10 kg**: **120–150 ml/kg/24h**.
+- [B2.02] Trẻ **10–40 kg**: **70–110 ml/kg/24h**.
+- [B2.03] Trẻ **> 40 kg**: **40–50 ml/kg/24h**.
+- [B2.04] Nhu cầu nước phụ thuộc vào: **chuyển hóa, khối lượng thức ăn, hoạt động cơ thể, tốc độ lớn, nhiệt độ môi trường**.
 
-| Chỉ số sinh lý | 1 tháng | 6 tháng | 12 tháng | 5 tuổi | 15 tuổi (Trưởng thành) |
-|---|:---:|:---:|:---:|:---:|:---:|
-| **Tổng lượng nước (% trọng lượng cơ thể)** | **70%** | **70%** | **65%** | **60%** | **60%** |
-| **Nước ngoài tế bào (% tổng lượng nước)** | **60%** | **50%** | **47%** | **45%** | **36%** |
-| **Thể tích máu toàn phần** | **8%** thể trọng | **8%** thể trọng | **8%** thể trọng | **8%** thể trọng | **8%** thể trọng |
-| **Thể tích huyết tương** | **5%** thể trọng | **5%** thể trọng | **5%** thể trọng | **5%** thể trọng | **5%** thể trọng |
+## B3. NGUỒN NƯỚC VÀ NHU CẦU NƯỚC DUY TRÌ (slide 03)
+- [B3.01] Thỏa mãn nhu cầu nước từ: **ăn, uống, chuyển hóa**.
+- [B3.02] Chuyển hóa: **100 g Protid cho 56 ml nước, 100 g Glucid cho 42 ml nước và 100 g Lipid cho 107 ml nước**.
+- [B3.03] **Nhu cầu nước duy trì = Nước mất vô hình + Nước tiểu − Nước nội sinh**.
+- [B3.04] Nước mất vô hình: **qua da 30%, qua phổi 15% và phân 5%**.
+- [B3.05] Nước mất qua nước tiểu: **50%**.
+- [B3.06] Nước mất vô hình **tăng lên khi sốt, ra nhiều mồ hôi, nhiệt độ môi trường tăng cao**, …
 
-> 📌 **Ý nghĩa lâm sàng sống còn:**
-> - Trẻ càng nhỏ tuổi thì tỷ lệ nước toàn phần và tỷ lệ nước ngoài tế bào (ECF) càng cao ($60\%$ ở trẻ 1 tháng tuổi so với $36\%$ ở trẻ lớn).
-> - Nước ngoài tế bào là ngăn dịch lưu động tự do, trao đổi chất nhanh và rất dễ bị thất thoát qua da, phổi, đường tiêu hóa. Vì vậy, khi có nôn trớ, tiêu chảy hoặc sốt, **trẻ nhỏ rơi vào tình trạng mất nước và sốc giảm thể tích nhanh hơn rất nhiều so với người lớn**.
+## B4. CÁCH ƯỚC TÍNH NHU CẦU NƯỚC DUY TRÌ (slide 04)
+- [B4.01] Theo diện tích da: **1500 ml/m²/24h**.
+- [B4.02] Theo năng lượng: **100–150 ml/100 kcal**.
+- [B4.03] Theo **Holliday Segar** (dựa theo cân nặng): **10 kg đầu: 100 ml/kg/24h; 10 kg tiếp theo: 50 ml/kg/24h; sau 20 kg: 20 ml/kg/24h**.
 
----
+## B5. PHÂN BỐ ĐIỆN GIẢI TRONG CƠ THỂ TRẺ EM (slide 04)
+| Điện giải (mEq/l) | Huyết tương | Trong tế bào |
+|---|---|---|
+| Na⁺ | 145 | 5–10 |
+| K⁺ | 3–5 | 150 |
+| Ca⁺⁺ | 3–5 | 3 |
+| Mg⁺⁺ | 2 | 30 |
+| Cl⁻ | 103 | 5–10 |
+| HCO₃⁻ | 26 | 10 |
+- [B5.01] Na⁺: huyết tương **145**, trong tế bào **5–10**; K⁺: huyết tương **3–5**, trong tế bào **150**.
+- [B5.02] Ca⁺⁺: **3–5 / 3**; Mg⁺⁺: **2 / 30**.
+- [B5.03] Cl⁻: **103 / 5–10**; HCO₃⁻: **26 / 10**.
 
-<!-- Page 3 -->
-### 1.3. Nhu cầu nước hàng ngày theo cân nặng
-* **Trẻ $< 10\text{ kg}$:** Nhu cầu nước $120 - 150\text{ ml/kg/24h}$.
-* **Trẻ $10 - 40\text{ kg}$:** Nhu cầu nước $70 - 110\text{ ml/kg/24h}$.
-* **Trẻ $> 40\text{ kg}$:** Nhu cầu nước $40 - 50\text{ ml/kg/24h}$.
+## B6. NHU CẦU ĐIỆN GIẢI (slide 05)
+- [B6.01] **Na⁺: 2–3 mEq/kg/24h**.
+- [B6.02] **K⁺: 1–2 mEq/kg/24h**.
+- [B6.03] **Mg⁺⁺: 0,4–0,8 mEq/kg/24h**.
+- [B6.04] **Ca⁺⁺: 50–200 mg/kg/24h**.
 
-### 1.4. Các yếu tố ảnh hưởng và Nguồn cung cấp nước
-* **Yếu tố ảnh hưởng:** Tốc độ chuyển hóa cơ bản, khối lượng thức ăn, hoạt động cơ thể, tốc độ tăng trưởng, nhiệt độ và độ ẩm môi trường.
-* **Nguồn cung cấp:**
-  - Đường ăn và uống.
-  - Nước nội sinh từ chuyển hóa chất: $100\text{ g Protid} \rightarrow 56\text{ ml nước}$; $100\text{ g Glucid} \rightarrow 42\text{ ml nước}$; $100\text{ g Lipid} \rightarrow 107\text{ ml nước}$.
+## B7. ĐÁNH GIÁ TÌNH TRẠNG MẤT NƯỚC (slide 05)
+| Triệu chứng | Chưa mất nước | MN nhẹ và vừa | MN nặng | Nguy kịch |
+|---|---|---|---|---|
+| Cân nặng giảm | ≤ 5% | 6–9% | 10–15% | ≥ 15% |
+| Tinh thần | Bình thường | Kích thích | Mệt, li bì | Hôn mê |
+| Khát | Uống bình thường | Khát, uống háo hức | Uống kém, không uống được | (trống) |
+| Miệng lưỡi | Ướt | Khô | Rất khô | Rất khô |
+| Mắt | Bình thường | Trũng | Rất trũng | Rất trũng |
+| Nước mắt | Bình thường | Ít | Không có | Không có |
+| Nếp véo da | Mất nhanh | Mất chậm | Mất rất chậm | Mất rất chậm |
+- [B7.01] Cân nặng giảm: chưa MN **≤ 5%**, MN nhẹ và vừa **6–9%**, MN nặng **10–15%**, nguy kịch **≥ 15%**.
+- [B7.02] Tinh thần: **bình thường – kích thích – mệt, li bì – hôn mê**.
+- [B7.03] Khát: **uống bình thường – khát, uống háo hức – uống kém, không uống được**.
+- [B7.04] Miệng lưỡi: **ướt – khô – rất khô – rất khô**.
+- [B7.05] Mắt: **bình thường – trũng – rất trũng – rất trũng**.
+- [B7.06] Nước mắt: **bình thường – ít – không có – không có**.
+- [B7.07] Nếp véo da: **mất nhanh – mất chậm – mất rất chậm – mất rất chậm**.
 
-### 1.5. Cân bằng xuất - nhập và Nhu cầu nước duy trì
-$$\text{Nhu cầu nước duy trì} = \text{Nước mất vô hình} + \text{Nước tiểu} - \text{Nước nội sinh}$$
-
-* **Nước mất vô hình (Insensible Water Loss):** Chiếm khoảng $50\%$ tổng lượng nước mất:
-  - Qua da: $30\%$
-  - Qua phổi (hơi thở): $15\%$
-  - Qua phân: $5\%$
-* **Nước qua nước tiểu:** Chiếm khoảng $50\%$ tổng lượng nước đào thải.
-* *Lưu ý:* Nước mất vô hình tăng mạnh khi trẻ sốt (tăng $10 - 12\%$ cho mỗi $1^\circ\text{C}$ thân nhiệt tăng trên $37^\circ\text{C}$), thở nhanh, ra nhiều mồ hôi, môi trường khô nóng.
-
-### 1.6. Ba phương pháp ước tính nhu cầu nước duy trì
-1. **Theo diện tích da:** $1500\text{ ml/m}^2\text{ da/24h}$.
-2. **Theo năng lượng tiêu hao:** $100 - 150\text{ ml} / 100\text{ kcal}$.
-3. **Theo công thức Holliday - Segar (Thông dụng nhất):**
-   - $10\text{ kg}$ đầu tiên ($1 - 10\text{ kg}$): **$100\text{ ml/kg/24h}$**.
-   - $10\text{ kg}$ tiếp theo ($11 - 20\text{ kg}$): **$1000\text{ ml} + 50\text{ ml/kg}$** cho mỗi kg $> 10\text{ kg}$.
-   - Trên $20\text{ kg}$ ($> 20\text{ kg}$): **$1500\text{ ml} + 20\text{ ml/kg}$** cho mỗi kg $> 20\text{ kg}$.
-
----
-
-<!-- Page 4 -->
-## II. PHÂN BỐ & NHU CẦU ĐIỆN GIẢI Ở TRẺ EM
-
-### 2.1. Nồng độ điện giải trong cơ thể trẻ em
-| Điện giải | Ký hiệu | Huyết tương (Ngoại bào) | Trong tế bào (Nội bào) | Vai trò sinh lý chính |
-|---|:---:|:---:|:---:|---|
-| **Natri** | $\text{Na}^+$ | **$135 - 145\text{ mEq/L}$** *(chuẩn $145$)* | $5 - 10\text{ mEq/L}$ | Quyết định áp lực thẩm thấu ngoại bào, giữ thể tích lòng mạch |
-| **Kali** | $\text{K}^+$ | **$3,5 - 5,0\text{ mEq/L}$** *(chuẩn $3 - 5$)* | **$150\text{ mEq/L}$** | Cation chính nội bào, duy trì điện thế nghỉ màng tế bào |
-| **Calci** | $\text{Ca}^{++}$ | **$4,5 - 5,5\text{ mEq/L}$** *(chuẩn $3 - 5$)* | $3\text{ mEq/L}$ | Dẫn truyền thần kinh cơ, co bóp tim, đông máu |
-| **Magie** | $\text{Mg}^{++}$ | **$1,5 - 2,5\text{ mEq/L}$** *(chuẩn $2$)* | **$30\text{ mEq/L}$** | Đồng yếu tố cho enzyme chuyển hóa năng lượng ATP |
-| **Clo** | $\text{Cl}^-$ | **$98 - 106\text{ mEq/L}$** *(chuẩn $103$)* | $5 - 10\text{ mEq/L}$ | Anion chính ngoại bào, duy trì cân bằng điện tích |
-| **Bicarbonat** | $\text{HCO}_3^-$ | **$22 - 26\text{ mEq/L}$** *(chuẩn $26$)* | $10\text{ mEq/L}$ | Hệ đệm kiềm ngoại bào quan trọng nhất |
-
-### 2.2. Nhu cầu điện giải duy trì hàng ngày
-* **Natri ($\text{Na}^+$):** **$2 - 3\text{ mEq/kg/24h}$**
-* **Kali ($\text{K}^+$):** **$1 - 2\text{ mEq/kg/24h}$**
-* **Magie ($\text{Mg}^{++}$):** **$0,4 - 0,8\text{ mEq/kg/24h}$**
-* **Calci ($\text{Ca}^{++}$):** **$50 - 200\text{ mg/kg/24h}$**
-
----
-
-<!-- Page 5 -->
-## III. ĐÁNH GIÁ TÌNH TRẠNG & CÁC THỂ MẤT NƯỚC
-
-### 3.1. Phân độ mất nước theo sụt cân và triệu chứng lâm sàng
-| Triệu chứng lâm sàng | Chưa mất nước | Mất nước nhẹ và vừa | Mất nước nặng | Nguy kịch |
-|---|:---:|:---:|:---:|:---:|
-| **Phần trăm cân nặng giảm** | $\le 5\%$ | **$6 - 9\%$** | **$10 - 15\%$** | **$\ge 15\%$** |
-| **Trạng thái tinh thần** | Tỉnh táo, bình thường | Kích thích, quấy khóc | Mệt, li bì, khó đánh thức | Hôn mê |
-| **Cảm giác khát** | Uống bình thường | **Khát, uống háo hức** | Uống kém / không uống được | Không thể uống được |
-| **Miệng, lưỡi** | Ướt | Khô | **Rất khô** | Rất khô |
-| **Mắt** | Bình thường | Trũng | **Rất trũng** | Rất trũng |
-| **Nước mắt (khi khóc)** | Có nước mắt | Ít | **Không có nước mắt** | Không có |
-| **Nếp véo da (Casper)** | Mất nhanh ($< 1$s) | **Mất chậm** ($1 - 2$s) | **Mất rất chậm** ($> 2$s) | Mất rất chậm |
-
----
-
-### 3.2. Bảng chẩn đoán phân biệt 3 thể mất nước
-| Đặc điểm phân biệt | Mất nước đẳng trương | Mất nước ưu trương | Mất nước nhược trương |
+## B8. ĐÁNH GIÁ CÁC LOẠI MẤT NƯỚC (slide 06)
+| Biểu hiện | MN đẳng trương | MN ưu trương | MN nhược trương |
 |---|---|---|---|
-| **Cơ chế** | Nước và Natri mất tương đương | Nước mất **nhiều hơn** Natri | Natri mất **nhiều hơn** nước |
-| **Biểu hiện lâm sàng** | Khát; Casper (+) *(nếp véo da mất chậm điển hình)* | **Kích thích, co giật, khát dữ dội**; Casper $(+/-)$ *(da dẻo, nhão như bột)* | **Li bì, hôn mê, trụy mạch sớm**; Casper $(++)$; thường trên nền suy dinh dưỡng |
-| **Nguyên nhân** | Tiêu chảy cấp, nôn trớ | Say nóng, say nắng, sốt cao mất mồ hôi, đái tháo nhạt, đái tháo đường | Tiêu chảy kéo dài, suy dinh dưỡng nặng, dùng dịch nhược trương quá mức |
-| **Lượng nước mất** | **$100 - 150\text{ ml/kg}$** | **$120 - 170\text{ ml/kg}$** | **$40 - 80\text{ ml/kg}$** |
-| **Lượng Natri mất** | **$7 - 11\text{ mEq/kg}$** | **$2 - 5\text{ mEq/kg}$** | **$10 - 14\text{ mEq/kg}$** |
-| **Nồng độ $\text{Na}^+$ máu** | **$130 - 150\text{ mEq/L}$** | **$> 150\text{ mEq/L}$** | **$< 130\text{ mEq/L}$** |
-| **Áp lực thẩm thấu máu** | **$275 - 295\text{ mOsmol/L}$** | **$> 310\text{ mOsmol/L}$** | **$< 275\text{ mOsmol/L}$** |
+| Lâm sàng | Khát, Casper (+) | Kích thích, khát, casper (+/−) | Li bì, uống kém, casper (++), cơ địa SDD |
+| Nguyên nhân | Tiêu chảy, nôn | Say nóng, nắng, ra nhiều mồ hôi, đái nhạt, đái đường | Tiêu chảy |
+| Lượng nước mất (ml/kg) | 100–150 | 120–170 | 40–80 |
+| Lượng Na mất (mEq/kg) | 7–11 | 2–5 | 10–14 |
+| Na máu (mEq/l) | 130–150 | > 150 | < 130 |
+| Áp lực thẩm thấu máu (mOsmol/l) | 275–295 | > 310 | < 275 |
+- [B8.01] Lâm sàng: đẳng trương **khát, Casper (+)**; ưu trương **kích thích, khát, casper (+/−)**; nhược trương **li bì, uống kém, casper (++), cơ địa SDD**.
+- [B8.02] Nguyên nhân: đẳng trương **tiêu chảy, nôn**; ưu trương **say nóng, nắng, ra nhiều mồ hôi, đái nhạt, đái đường**; nhược trương **tiêu chảy**.
+- [B8.03] Lượng nước mất (ml/kg): **100–150 / 120–170 / 40–80**.
+- [B8.04] Lượng Na mất (mEq/kg): **7–11 / 2–5 / 10–14**.
+- [B8.05] Na máu (mEq/l): **130–150 / > 150 / < 130**.
+- [B8.06] Áp lực thẩm thấu máu (mOsmol/l): **275–295 / > 310 / < 275**.
 
----
+## B9. HẬU QUẢ CỦA MẤT NƯỚC (slide 07)
+- [B9.01] **Giảm khối lượng tuần hoàn**: HA hạ, đái ít, cô đặc máu, trụy mạch.
+- [B9.02] **Rối loạn áp lực thẩm thấu, rối loạn trao đổi chất**.
+- [B9.03] **Rối loạn các Ion chức năng**.
+- [B9.04] Cuối cùng gây **tổn thương tế bào**.
 
-<!-- Page 6 -->
-## IV. HẬU QUẢ HUYẾT ĐỘNG & NGUYÊN TẮC ĐIỀU TRỊ
+## B10. ĐIỀU TRỊ MẤT NƯỚC (slide 08)
+- [B10.01] **Phác đồ A, B, C**.
 
-### 4.1. Hậu quả nguy hiểm
-- **Giảm khối lượng tuần hoàn:** Hạ huyết áp, đái ít (thiểu niệu / vô niệu), cô đặc máu, sốc giảm thể tích.
-- **Rối loạn áp lực thẩm thấu:** Teo tế bào não (ưu trương) hoặc phù tế bào não (nhược trương).
-- **Rối loạn ion và thăng bằng toan kiềm:** Thường gặp toan chuyển hóa do mất $\text{HCO}_3^-$ và giảm tưới máu mô.
-- **Tổn thương tế bào không hồi phục và suy đa tạng.**
+## B11. VD1 — MẤT NƯỚC ĐẲNG TRƯƠNG (slide 08)
+- [B11.01] Đề: Trẻ **5 kg**, mất **10%** trọng lượng cơ thể.
+- [B11.02] Lượng nước mất = 5 (kg) × 10% = **500 ml**; Nhu cầu duy trì = 100 × 5 = **500 ml**.
+- [B11.03] Nhu cầu duy trì Na = 3 × 5 = **15 mEq**; Lượng Na mất = **154 × 0,5 (l) = 77 mEq**.
+- [B11.04] Như vậy trong **1000 ml** dịch phải truyền có **92 mEq Na (600 ml NaCl 9‰)**, còn lại là dung dịch **Glucose 5%**.
 
-### 4.2. Phác đồ điều trị mất nước A, B, C
-* **Phác đồ A (Tại nhà):** Bù ORS sau mỗi lần đi ngoài ($50 - 100\text{ ml}$ cho trẻ $< 2$ tuổi; $100 - 200\text{ ml}$ cho trẻ $\ge 2$ tuổi), tiếp tục bú mẹ và ăn uống bình thường, bổ sung Kẽm $10 - 14$ ngày.
-* **Phác đồ B (Tại cơ sở y tế):** Uống dung dịch ORS thẩm thấu thấp liều $75\text{ ml/kg}$ trong 4 giờ đầu, sau đó đánh giá lại.
-* **Phác đồ C (Cấp cứu tĩnh mạch):** Truyền ngay dung dịch Ringer Lactat hoặc $\text{NaCl } 0,9\%$ liều $100\text{ ml/kg}$:
-  - *Trẻ $< 12$ tháng:* $30\text{ ml/kg}$ trong 1 giờ đầu $\rightarrow 70\text{ ml/kg}$ trong 5 giờ tiếp theo (tổng 6 giờ).
-  - *Trẻ $\ge 12$ tháng:* $30\text{ ml/kg}$ trong 30 phút đầu $\rightarrow 70\text{ ml/kg}$ trong 2,5 giờ tiếp theo (tổng 3 giờ).
+## B12. VD2 — MẤT NƯỚC NHƯỢC TRƯƠNG (slide 09)
+- [B12.01] Đề: Trẻ **5 kg**, mất **10%** trọng lượng cơ thể, **Na máu 125 mEq/l**.
+- [B12.02] Lượng nước mất = 5 (kg) × 10% = 0,5 (l) = **500 ml**; Nhu cầu duy trì = 100 ml × 5 = **500 ml**; Nhu cầu duy trì Na = 3 × 5 = **15 mEq**.
+- [B12.03] Lượng Na mất được tính: **Na mất = Na cần điều chỉnh + Na mất theo đẳng trương**.
+- [B12.04] **Na cần điều chỉnh = (Na mm − Na Bn) × 0,6 Po** = (135 − 125) × 0,6 × 5 = **30 mEq**.
+- [B12.05] Na mất theo đẳng trương = **77 mEq** → Nên lượng Na mất = 30 + 77 = **107 mEq**.
+- [B12.06] Vậy trong 1000 ml dịch truyền cần có 107 + 15 = **122 mEq Na**.
 
----
+## B13. VD3 — MẤT NƯỚC ƯU TRƯƠNG (slide 09)
+- [B13.01] Đề: Trẻ **5 kg**, mất **10%** trọng lượng cơ thể, **Na máu 170 mEq/l**.
+- [B13.02] Lượng nước mất = 5 (kg) × 10% = 0,5 (l) = **500 ml**; Nhu cầu duy trì = 100 ml × 5 = **500 ml**; Nhu cầu duy trì Na = 3 × 5 = **15 mEq**.
+- [B13.03] **Lượng nước không điện giải cần thiết = Na Bn/Na mm × [0,6P − 0,6 Po]** = 170/145 × [(0,6×5) − (0,6 × 4,5)] = **0,35 (350 ml)**.
+- [B13.04] Lượng dịch có điện giải = 500 − 350 = **150 ml**; Nên lượng Na mất = 154 × 0,15 = **23 mEq**.
+- [B13.05] Như vậy trong 1000 ml dịch truyền sẽ cần có 15 + 23 = **38 mEq Na**.
+- Ghi chú: slide VD3 kết thúc bằng dòng "Chú ý:" để trống — không có nội dung đi kèm trong các ảnh đã chụp.
 
-<!-- Page 7 -->
-## V. BA BÀI TOÁN TÍNH DỊCH BÙ LÂM SÀNG KINH ĐIỂN
+## B14. HẠ NATRI MÁU — ĐỊNH NGHĨA, NGUYÊN NHÂN (ảnh Telegram)
+- [B14.01] Định nghĩa: **Na < 130 mEq/l**.
+- [B14.02] Nguyên nhân: **tiêu chảy, rửa dạ dày, truyền nhiều dịch không điện giải, suy thận, suy tim, tăng sản tuyến thượng thận bẩm sinh, SIADH, điều trị lợi tiểu**.
+- [B14.03] Điều trị: **Điều chỉnh Na cùng với bù dịch ngoại bào**.
 
-### 5.1. VÍ DỤ 1: MẤT NƯỚC ĐẲNG TRƯƠNG
-**Đề bài:** Trẻ $5\text{ kg}$, mất nước đẳng trương $10\%$ thể trọng. Hãy tính lượng dịch và Natri cần truyền trong 24 giờ.
+## B15. HẠ NATRI — BẢNG PHÂN LOẠI THEO KHỐI LƯỢNG TUẦN HOÀN (ảnh Telegram)
+| Natri máu hạ (Na < 130 mEq/l) | Khối lượng tuần hoàn **giảm** | | Khối lượng tuần hoàn **bình thường hoặc tăng** | |
+|---|---|---|---|---|
+| Natri niệu | < 20 mEq/l | > 20 mEq/l | < 20 mEq/l | > 20 mEq/l |
+| Nguyên nhân | Tiêu chảy, Bỏng, Lợi tiểu kéo dài, Xơ nang tụy | Lợi tiểu mạnh, Suy thượng thận | HCTH, Xơ gan, Suy tim | SIADH |
+| Điều trị | Điều trị rối loạn huyết động; Truyền dịch như mất nước nhược trương; Điều trị nguyên nhân | | Hạn chế nước; Điều trị theo nguyên nhân | |
+- [B15.01] KLTH **giảm** + Natri niệu **< 20 mEq/l**: **tiêu chảy, bỏng, lợi tiểu kéo dài, xơ nang tụy**.
+- [B15.02] KLTH **giảm** + Natri niệu **> 20 mEq/l**: **lợi tiểu mạnh, suy thượng thận**.
+- [B15.03] KLTH **bình thường hoặc tăng** + Natri niệu **< 20 mEq/l**: **HCTH, xơ gan, suy tim**.
+- [B15.04] KLTH **bình thường hoặc tăng** + Natri niệu **> 20 mEq/l**: **SIADH**.
+- [B15.05] Điều trị nhóm KLTH giảm: **điều trị rối loạn huyết động, truyền dịch như mất nước nhược trương, điều trị nguyên nhân**.
+- [B15.06] Điều trị nhóm KLTH bình thường/tăng: **hạn chế nước, điều trị theo nguyên nhân**.
 
-1. **Tổng thể tích nước cần cung cấp trong 24 giờ:**
-   - Lượng nước mất: $5\text{ kg} \times 10\% = 0,5\text{ L} = 500\text{ ml}$.
-   - Nhu cầu nước duy trì (Holliday - Segar): $100\text{ ml/kg} \times 5\text{ kg} = 500\text{ ml}$.
-   - **Tổng lượng nước:** $500 + 500 = 1000\text{ ml}$.
-2. **Tổng lượng Natri ($\text{Na}^+$) cần cung cấp trong 24 giờ:**
-   - Nhu cầu $\text{Na}^+$ duy trì: $3\text{ mEq/kg} \times 5\text{ kg} = 15\text{ mEq}$.
-   - Lượng $\text{Na}^+$ đã mất theo dịch đẳng trương ($154\text{ mEq/L}$): $154 \times 0,5\text{ L} = 77\text{ mEq}$.
-   - **Tổng lượng $\text{Na}^+$ cần bù:** $15 + 77 = 92\text{ mEq}$.
-3. **Phối hợp dịch truyền:**
-   - Thể tích dung dịch $\text{NaCl } 0,9\%$ (chứa $0,154\text{ mEq Na/ml}$):
-     $$\frac{92\text{ mEq}}{0,154} \approx 600\text{ ml}$$
-   - Thể tích Glucose $5\%$ bổ sung để đủ $1000\text{ ml}$:
-     $$1000 - 600 = 400\text{ ml}$$
-   - **Đơn thuốc dịch truyền:** **$600\text{ ml NaCl } 0,9\%$** kết hợp với **$400\text{ ml Glucose } 5\%$** (tỷ lệ $3:2$).
+## B16. HẠ NATRI — CÓ SHOCK / CÓ TRIỆU CHỨNG THẦN KINH (ảnh Telegram)
+- [B16.01] **Có shock do mất nước**: **Bolus NaCl 0,9% 20 ml/kg/lần** → huyết động ổn định.
+- [B16.02] **Không có shock: có triệu chứng thần kinh do Na < 120 mEq/l**. Truyền **NaCl 3% 6–10 ml/kg/h bằng BTĐ** (**4 ml/kg ↑ Na lên 3 mEq/l**) → kiểm tra lại ĐGĐ → lặp lại liều 2 → **Na máu > 125 mEq/l**.
 
----
+## B17. HẠ NATRI — KHÔNG SHOCK, KHÔNG BIỂU HIỆN THẦN KINH (ảnh Telegram)
+- [B17.01] **Na⁺ thiếu = 0,6 × P × (135 − Na⁺bn)**.
+- [B17.02] **Natri cho trong 24h = Na thiếu + Na nhu cầu**.
+- [B17.03] Cách dùng: **1/2 truyền trong 8h đầu, 1/2 còn lại truyền trong 16h kế tiếp**.
 
-<!-- Page 8 -->
-### 5.2. VÍ DỤ 2: MẤT NƯỚC NHƯỢC TRƯƠNG (HẠ NATRI MÁU)
-**Đề bài:** Trẻ $5\text{ kg}$, mất nước nhược trương $10\%$ thể trọng, Natri máu $\text{Na}^+ = 125\text{ mEq/L}$.
+## B18. HẠ NATRI DO SIADH (ảnh Telegram)
+- [B18.01] **Không cần bù Na trừ khi có biểu hiện thần kinh**.
+- [B18.02] **Hạn chế dịch: cho 50% nhu cầu**.
+- [B18.03] **Cho Na theo nhu cầu: 3 mEq/100 ml dịch truyền**.
+- [B18.04] **Furocemid: 0,5 mg/kg/TM**.
 
-1. **Tổng thể tích nước cần truyền:** $500\text{ ml (mất)} + 500\text{ ml (duy trì)} = 1000\text{ ml}$.
-2. **Tổng lượng Natri ($\text{Na}^+$) cần bù:**
-   $$\text{Na mất} = \text{Na cần điều chỉnh} + \text{Na mất theo đẳng trương}$$
-   - Lượng $\text{Na}^+$ cần điều chỉnh nâng lên mức an toàn $135\text{ mEq/L}$:
-     $$\text{Na cần điều chỉnh} = (\text{Na}_{\text{mm}} - \text{Na}_{\text{bn}}) \times 0,6 \times P_0 = (135 - 125) \times 0,6 \times 5 = 30\text{ mEq}$$
-   - Lượng $\text{Na}^+$ mất theo đẳng trương: $154 \times 0,5\text{ L} = 77\text{ mEq}$.
-   - Tổng lượng $\text{Na}^+$ mất: $30 + 77 = 107\text{ mEq}$.
-   - Nhu cầu $\text{Na}^+$ duy trì: $3 \times 5 = 15\text{ mEq}$.
-   - **Tổng lượng $\text{Na}^+$ trong $1000\text{ ml}$ dịch truyền:** $107 + 15 = 122\text{ mEq}$.
-3. **Phối hợp dịch truyền:**
-   - Thể tích $\text{NaCl } 0,9\%$: $\frac{122}{0,154} \approx 800\text{ ml}$.
-   - Thể tích Glucose $5\%$: $1000 - 800 = 200\text{ ml}$.
-   - **Đơn thuốc dịch truyền:** **$800\text{ ml NaCl } 0,9\%$** kết hợp với **$200\text{ ml Glucose } 5\%$** (tỷ lệ $4:1$).
+## B19. TĂNG NATRI MÁU (ảnh Telegram)
+- [B19.01] Định nghĩa: **Na⁺ > 150 mEq/l**.
+- [B19.02] Điều trị: **giảm Na máu từ từ không quá 12–15 mEq/l/24h**.
+- [B19.03] **Bệnh nhân có shock mất nước**: truyền **NaCl 0,9% hoặc Ringer lactat 20 ml/kg/lần** → huyết động ổn định → truyền **G5% in NaCl 0,45%**. Nếu nước tiểu tốt có thể truyền **G 5% in NaCl 0,2%**.
+- [B19.04] **Bệnh nhân không có shock**: truyền **G5% in NaCl 0,2%**.
+- [B19.05] Nếu **thể tích dịch ngoại bào bình thường** có thể cho **Furocemid 0,5 mg/kg/lần**.
 
----
+## B20. HẠ KALI MÁU — ĐỊNH NGHĨA, NGUYÊN NHÂN, ĐIỀU TRỊ NHẸ (ảnh Telegram)
+- [B20.01] Định nghĩa: **K⁺ < 3,5 mEq/l**.
+- [B20.02] Nguyên nhân: **bệnh lý ống thận; nôn nhiều, tiêu chảy, dùng lợi tiểu kéo dài; nhiễm toan, đái đường**.
+- [B20.03] Điều trị **2,5 < K⁺ < 3,5**: **uống K 3–5 mEq/kg/24h trong 3–5 ngày**.
 
-<!-- Page 9 -->
-### 5.3. VÍ DỤ 3: MẤT NƯỚC ƯU TRƯƠNG (TĂNG NATRI MÁU) & NGUY CƠ PHÙ NÃO CẤP
-**Đề bài:** Trẻ $5\text{ kg}$, mất nước ưu trương $10\%$ thể trọng, Natri máu $\text{Na}^+ = 170\text{ mEq/L}$.
+## B21. HẠ KALI MÁU — K⁺ < 2,5 (ảnh Telegram)
+- [B21.01] Nếu **K⁺ < 2,5 mmol/l không có triệu chứng tim mạch**: dùng **KCl 10% liều 0,3 mEq/kg/h × 4h** pha với Dd **Glucose 5% tỉ lệ 1:3** truyền trong thời gian **4 giờ**.
+- [B21.02] Nếu **K⁺ < 2,5 mmol/l có triệu chứng tim mạch**: dùng **KCl 10% liều 0,3–0,5 mEq/kg/h × 4h** pha với Dd **Glucose 5% tỉ lệ 1:3** truyền trong thời gian **4 giờ**.
+- [B21.03] **X ml KCl 10% = (4,5 − K Bn) × P/10**.
+- [B21.04] **Pha loãng 1 ml KCl 10% với 9 ml G5%**, truyền tĩnh mạch trong **4h bằng bơm tiêm điện**.
 
-1. **Tổng thể tích nước cần truyền:** $500\text{ ml} + 500\text{ ml} = 1000\text{ ml}$.
-2. **Tính lượng nước không điện giải và lượng Natri:**
-   - Lượng nước không điện giải (nước tự do) cần thiết:
-     $$\text{Lượng nước không điện giải} = \frac{\text{Na}_{\text{bn}}}{\text{Na}_{\text{mm}}} \times [0,6P_0 - 0,6P] = \frac{170}{145} \times [(0,6 \times 5) - (0,6 \times 4,5)]$$
-     $$= 1,172 \times [3,0 - 2,7] = 1,172 \times 0,3 \approx 0,35\text{ L} = 350\text{ ml}$$
-   - Lượng dịch có chứa điện giải trong $500\text{ ml}$ nước mất: $500 - 350 = 150\text{ ml} = 0,15\text{ L}$.
-   - Lượng $\text{Na}^+$ thực tế đã mất: $154 \times 0,15\text{ L} \approx 23\text{ mEq}$.
-   - Nhu cầu $\text{Na}^+$ duy trì: $3 \times 5 = 15\text{ mEq}$.
-   - **Tổng lượng $\text{Na}^+$ trong $1000\text{ ml}$ dịch:** $23 + 15 = 38\text{ mEq}$.
-3. **Phối hợp dịch truyền:**
-   - Thể tích $\text{NaCl } 0,9\%$: $\frac{38}{0,154} \approx 250\text{ ml}$.
-   - Thể tích Glucose $5\%$: $1000 - 250 = 750\text{ ml}$.
-   - **Đơn thuốc dịch truyền:** **$250\text{ ml NaCl } 0,9\%$** kết hợp với **$750\text{ ml Glucose } 5\%$** (dung dịch nhược trương $1/4$ đẳng trương, tỷ lệ $1:3$).
-4. **Quy tắc an toàn sống còn chống phù não cấp:**
-   - **Tốc độ hạ Natri máu không được vượt quá $0,5\text{ mEq/L/giờ}$** (tối đa không quá $10 - 12\text{ mEq/L}$ trong 24 giờ đầu).
-   - Truyền dịch phải **kéo dài trong $36 - 48\text{ giờ}$**, không được bù vội vã.
+## B22. TĂNG KALI MÁU (ảnh Telegram)
+- [B22.01] Định nghĩa: **K⁺ > 5,5 mEq/l**.
+- [B22.02] Nguyên nhân: **suy thận, suy thượng thận, toan máu**.
+- [B22.03] Điều trị: **ngừng nguồn cung cấp K⁺; tiêm chậm CaCl₂ 25 mg/kg; truyền Glucose và Insulin (0,5 g/kg và 0,1 UI/kg); thải K⁺ bằng Kayexalat; lọc màng bụng; điều trị nguyên nhân**.
 
----
+## B23. HẠ CANXI MÁU (ảnh Telegram)
+- [B23.01] Định nghĩa: **Canxi toàn phần < 2,5 mEq/l**; **Ca⁺⁺ < 1,1 mEq/l**.
+- [B23.02] Nguyên nhân: **thiếu vit D, hội chứng ruột ngắn, suy cận giáp, kiềm hô hấp**.
+- [B23.03] Lâm sàng: **co giật, tetanie**.
+- [B23.04] Điều trị: **an thần; thở lại; Canxi gluconate 10% 0,5–1 ml/kg/TMC; Canxi clorua 10% 0,2–0,3 ml/kg/TMC**.
 
-<!-- Page 10 -->
-## VI. CẤP CỨU RỐI LOẠN NATRI & KALI MÁU
-
-### 6.1. Xử trí Hạ Natri máu cấp tính có triệu chứng thần kinh
-* **Dấu hiệu nguy hiểm:** Co giật, li bì, hôn mê khi $\text{Na}^+ < 120\text{ mEq/L}$ hoặc tụt nhanh.
-* **Xử trí cấp:**
-  - Tiêm tĩnh mạch nhanh dung dịch **$\text{NaCl } 3\%$ liều $4\text{ ml/kg}$** truyền trong $20 - 30\text{ phút}$.
-  - Mục tiêu: Nâng nhanh Natri máu lên thêm $3 - 5\text{ mEq/L}$ để dứt cơn co giật và thoát khỏi nguy cơ tụt kẹt não.
-  - Sau đó đánh giá lại điện giải đồ và tiếp tục bù theo công thức thiếu hụt trong 24 giờ.
-
-### 6.2. Xử trí Rối loạn Kali máu ở trẻ em
-* **Hạ Kali máu ($\text{K}^+ < 3,5\text{ mEq/L}$):**
-  - Chỉ bắt đầu bù Kali đường tĩnh mạch khi trẻ **đã có nước tiểu** (loại trừ suy thận cấp vô niệu).
-  - Nồng độ Kali pha truyền ngoại vi không vượt quá $40\text{ mEq/L}$ ($0,3\%$).
-  - Tốc độ truyền tối đa: $0,5\text{ mEq/kg/giờ}$.
-* **Tăng Kali máu ($\text{K}^+ > 5,5\text{ mEq/L}$ - Cấp cứu tim mạch):**
-  - **Bước 1 — Ổn định màng tế bào cơ tim:** Tiêm tĩnh mạch chậm **Calcium gluconate $10\%$ liều $0,5\text{ ml/kg}$** trong 5 phút dưới theo dõi ECG (chống rung thất/ngừng tim).
-  - **Bước 2 — Dịch chuyển Kali vào nội bào:**
-    + Truyền Glucose $10\%$ kèm Insulin nhanh ($0,1\text{ UI}$ Insulin cho mỗi $4\text{ g}$ Glucose).
-    + Khí dung Salbutamol liều cao ($2,5 - 5\text{ mg}$).
-    + Truyền Natri Bicarbonat $1,4\%$ nếu có toan chuyển hóa đi kèm.
-  - **Bước 3 — Đào thải Kali ra ngoài cơ thể:** Furosemide ($1 - 2\text{ mg/kg}$), nhựa trao đổi ion (Kayexalate uống hoặc thụt tháo), lọc máu cấp cứu nếu tăng Kali kháng trị.
+## B24. TĂNG CANXI MÁU (ảnh Telegram)
+- [B24.01] Nguyên nhân: **đáp ứng mạnh với Vit D; rối loạn chuyển hóa canxi**.
+- [B24.02] Triệu chứng: **nhược cơ, nôn, táo bón, đái dầm**.
+- [B24.03] Điều trị: **ngừng cung cấp canxi, vit D, cho Corticoid 1 mg/kg/24h**.

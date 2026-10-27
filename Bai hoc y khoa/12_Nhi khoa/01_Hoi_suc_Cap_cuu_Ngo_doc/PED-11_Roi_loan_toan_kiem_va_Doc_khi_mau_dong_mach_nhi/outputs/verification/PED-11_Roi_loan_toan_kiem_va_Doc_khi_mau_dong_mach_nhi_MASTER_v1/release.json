@@ -1,0 +1,19 @@
+{
+  "id": "PED-11",
+  "specialty": "nhi",
+  "mode": "release",
+  "status": "BLOCK",
+  "steps": [
+    {
+      "step": "manifest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "step": "lesson_lint",
+      "exit_code": 2,
+      "status": "BLOCK"
+    }
+  ],
+  "finished_at": "2026-10-27T18:21:47"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "PED-11",
+  "specialty": "nhi",
+  "profile": "foundation",
+  "barem": "PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi_PEDYTB.md",
+  "deck": {
+    "deck_id": 1789747311011,
+    "deck_name": "Nhi khoa Y6::PED-11: Sinh lý và bệnh lý thăng bằng toan kiềm ở trẻ em",
+    "basename": "PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi_MASTER_v1",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22"
+    ],
+    "cards_source": "ped11_cards_data.py",
+    "legacy_anki_decks": [
+      "Nhi khoa Y6::PED-11: Rối loạn toan kiềm & Đọc khí máu động mạch nhi"
+    ]
+  }
+}
