@@ -76,6 +76,7 @@
 - Tùy chọn: `barem`, `deck.legacy_anki_decks` (tên deck cũ cần gom về), `deck.media_dir` (mặc định `outputs/figures`).
 - Mỗi bài đúng **1 APKG + 1 cards.v2.json**; bản cũ/trùng chuyển vào `Bai hoc y khoa/_duplicates_review/` (giữ đường dẫn tương đối), không xóa. Không viết script build riêng từng bài.
 - Filename/folder không dấu; nội dung và tên deck có dấu.
+- **Deck chỉ barem** (người dùng muốn "học theo barem"; PED-11, PED-17, PED-23, PED-50): `lesson.json` có `barem`, không có `lesson`; phát hành bằng `deck_builder.py <dir> --mode release --sync-anki` (vì `release_lesson.py` BLOCK `M_MANIFEST` khi thiếu `.md`), rồi `12_Nhi khoa/build_unified_med_library.py`; curriculum ghi 🟡. Độ phủ mã barem kiểm bằng script tạm (chưa enforce). EBM không thành thẻ riêng: chỉ là ghi chú cuối 💡 của đúng thẻ barem đã lỗi thời, nhãn `⚖️ Cập nhật EBM (ngoài barem, khi thi vẫn viết theo barem):`; ghi chú về câu chữ barem (làm tròn, mâu thuẫn, câu mơ hồ) dùng `📝 Ghi chú barem:`. Mỗi ghi chú ⚖️ phải có câu trích nguyên văn trong `EBM_UPDATE_VERIFY.md` của bài (chưa enforce).
 
 ## 4. Rule bài học `.md` — `lesson_lint.py`
 
