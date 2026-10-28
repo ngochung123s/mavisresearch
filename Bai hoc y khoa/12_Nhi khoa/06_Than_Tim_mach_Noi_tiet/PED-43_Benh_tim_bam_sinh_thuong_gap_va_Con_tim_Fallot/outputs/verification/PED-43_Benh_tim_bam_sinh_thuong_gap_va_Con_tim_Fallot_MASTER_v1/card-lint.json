@@ -4,10 +4,10 @@
   "deck_name": "Nhi khoa Y6::PED-43: Bệnh tim bẩm sinh thường gặp & Cơn tim Fallot",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-29T00:19:39",
+  "generated_at": "2026-10-29T00:26:11",
   "cards_source": "ped43_cards_data.py",
-  "cards_source_sha256": "1824a422526396006258e9e08b320f2cec667580a77101d5e073894f6ed63581",
-  "card_count": 119,
+  "cards_source_sha256": "a3e64e234cfb10016469c343a8c871fea4bfe1346f18a29a0f9ba7331aad4500",
+  "card_count": 115,
   "summary": {
     "block": 0,
     "debt": 179,
@@ -1097,15 +1097,15 @@
   ],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot\\PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
-    "unchanged": 74,
-    "added": 45,
-    "archived": 0,
+    "updated": 1,
+    "unchanged": 114,
+    "added": 0,
+    "archived": 2,
     "moved": 0,
     "media": 0,
-    "deck_notes": 119
+    "deck_notes": 115
   },
-  "apkg_sha256": "d86fccbc58968aacb8afb40974e7010c6c5cb26994dbdd65725c575b529e2417",
-  "sqlite_notes": 119,
-  "sqlite_cards": 119
+  "apkg_sha256": "d299483169ac6a3573328575bbfad6225d3565679af637026add16de0045c4c3",
+  "sqlite_notes": 115,
+  "sqlite_cards": 115
 }

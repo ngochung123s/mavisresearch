@@ -4,10 +4,10 @@
   "deck_name": "Nhi khoa Y6::PED-07: Co giật do sốt & Cắt cơn co giật / Trạng thái động kinh",
   "mode": "hotfix",
   "status": "PASS_WITH_DEBT",
-  "generated_at": "2026-10-29T00:19:24",
+  "generated_at": "2026-10-29T00:24:58",
   "cards_source": "ped07_cards_data.py",
-  "cards_source_sha256": "0d51837ce16a040819f8ce69b8446f1af3d9f3e246cd2a4361572a4867c8ee5a",
-  "card_count": 114,
+  "cards_source_sha256": "f8a7cc4893918b0890d6ece65d16b1aec7fa9b09a786a143a84fd1aa18d9aff9",
+  "card_count": 111,
   "summary": {
     "block": 0,
     "debt": 165,
@@ -1013,15 +1013,15 @@
   ],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\01_Hoi_suc_Cap_cuu_Ngo_doc\\PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh\\PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh_2026-09-16_RELEASE_v1.apkg",
   "anki_sync": {
-    "updated": 68,
+    "updated": 111,
     "unchanged": 0,
-    "added": 46,
-    "archived": 0,
+    "added": 0,
+    "archived": 3,
     "moved": 0,
     "media": 0,
-    "deck_notes": 114
+    "deck_notes": 111
   },
-  "apkg_sha256": "11662b84fc116d0260a36b553428f070d1ac444413a6c199159e89242586ab66",
-  "sqlite_notes": 114,
-  "sqlite_cards": 114
+  "apkg_sha256": "a8f76f904bd5488f411077b17abf65b21225cea402ae8d005b681d9c8908b584",
+  "sqlite_notes": 111,
+  "sqlite_cards": 146
 }
