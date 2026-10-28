@@ -1,8 +1,7 @@
 {
-  "topic": "Nhi khoa Y6::PED-43: Bệnh tim bẩm sinh thường gặp & Cơn tim Fallot",
-  "version": "master_combo_v1",
-  "date": "2026-09-28",
-  "total_cards": 75,
+  "deck_id": 1789747343043,
+  "deck_name": "Nhi khoa Y6::PED-43: Bệnh tim bẩm sinh thường gặp & Cơn tim Fallot",
+  "card_count": 119,
   "cards": [
     {
       "id": "PED43-B01",
@@ -1200,6 +1199,791 @@
         "Barem-goc",
         "Bay-thi",
         "Thuoc-suy-tim"
+      ]
+    },
+    {
+      "id": "PED43-CN-B0-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B0",
+      "category": "Dịch tễ & Lịch sử",
+      "tier": 2,
+      "text": "Tỷ lệ mắc tim bẩm sinh ở trẻ sống khoảng {{c1::0,8%}} (dị tật phổ biến nhất lúc sinh).",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B02",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B0-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B0",
+      "category": "Dịch tễ & Lịch sử",
+      "tier": 2,
+      "text": "Mốc phẫu thuật tim đầu tiên bằng máy tim phổi nhân tạo: năm {{c1::1950}} tại Đại học Minnesota.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B02",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B2-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Thông liên thất - VSD",
+      "tier": 2,
+      "text": "Thông liên thất chiếm tới {{c1::20%}} tất cả các trường hợp tim bẩm sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B07",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B2-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Thông liên thất - VSD",
+      "tier": 2,
+      "text": "VSD phần cơ hay gặp ở sơ sinh, hầu hết tự đóng trước {{c1::2 tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B07",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B2-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Thông liên thất - VSD",
+      "tier": 2,
+      "text": "Trẻ thông liên thất lỗ lớn, triệu chứng suy tim thường rõ vào lúc {{c1::6 - 8 tuần tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B09",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Lam-sang",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B2-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Thông liên thất - VSD",
+      "tier": 2,
+      "text": "Thông liên thất lỗ lớn kèm suy tim không đáp ứng nội khoa hoặc chậm tăng cân: phẫu thuật đóng trước {{c1::6 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B12",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B2-05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B2",
+      "category": "Thông liên thất - VSD",
+      "tier": 2,
+      "text": "Thông liên thất lỗ lớn có tăng áp lực động mạch phổi: phẫu thuật đóng trước {{c1::1 tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B12",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "VSD",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Thông liên nhĩ chiếm {{c1::5 - 10%}} các bệnh tim bẩm sinh, nữ gặp nhiều hơn nam (tỷ lệ 2 : 1).",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B15",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Thông liên nhĩ lỗ thứ phát (secundum) chiếm khoảng {{c1::70%}} các thể ASD.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B15",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Giai-phau",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Thông liên nhĩ lỗ tiên phát (primum) chiếm {{c1::15 - 20%}} các thể ASD.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B15",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Giai-phau",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Thông liên nhĩ thể xoang tĩnh mạch chiếm {{c1::5 - 10%}} các thể ASD.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B15",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Giai-phau",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Thông liên nhĩ thường can thiệp ở độ tuổi {{c1::2 - 5 tuổi}} (trước tuổi đi học).",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B19",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B3-06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Thông liên nhĩ - ASD",
+      "tier": 2,
+      "text": "Bít lỗ thông bằng dù qua da áp dụng cho lỗ secundum có gờ mô xung quanh đủ rộng ≥ {{c1::5 mm}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B19",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "ASD",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B4-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Thông sàn nhĩ thất - AVSD",
+      "tier": 2,
+      "text": "Thông sàn nhĩ thất chiếm {{c1::4 - 5%}} tim bẩm sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B20",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B4-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Thông sàn nhĩ thất - AVSD",
+      "tier": 2,
+      "text": "Thông sàn nhĩ thất gặp ở khoảng {{c1::40%}} trẻ mắc hội chứng Down.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B20",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Down",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B4-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Thông sàn nhĩ thất - AVSD",
+      "tier": 2,
+      "text": "Thông sàn nhĩ thất hoàn toàn cần phẫu thuật sớm lúc trẻ {{c1::3 - 6 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B21",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B4-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Thông sàn nhĩ thất - AVSD",
+      "tier": 2,
+      "text": "Khoảng {{c1::15%}} bệnh nhân AVSD sau mổ tiến triển hở van nhĩ thất hoặc tắc nghẽn đường ra thất trái.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B21",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "AVSD",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Còn ống động mạch chiếm {{c1::9 - 12%}} tim bẩm sinh, phổ biến ở trẻ non tháng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B22",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Tỷ lệ còn ống động mạch ở trẻ nặng 500 - 999 g là {{c1::42%}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B22",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Tỷ lệ còn ống động mạch ở trẻ nặng 1000 - 1499 g là {{c1::21%}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B22",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Tỷ lệ còn ống động mạch ở trẻ nặng 1500 - 1750 g là {{c1::7%}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B22",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Trẻ sống trên vùng núi cao có tỷ lệ còn ống động mạch cao gấp {{c1::30 lần}} so với vùng đồng bằng.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B22",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Dich-te",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Sau sinh, PaO2 động mạch tăng từ 25 - 30 mmHg lên {{c1::90 - 100 mmHg}} khi trẻ cất tiếng khóc đầu đời.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B24",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Sinh-ly",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-07",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Ống động mạch đóng về chức năng trong {{c1::12 - 24 giờ}} đầu đời.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B24",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Sinh-ly",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B5-08",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B5",
+      "category": "Còn ống động mạch - PDA",
+      "tier": 2,
+      "text": "Ống động mạch đóng về giải phẫu (xơ hóa thành dây chằng) trong {{c1::2 - 3 tuần}} đầu đời.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B24",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "PDA",
+        "Sinh-ly",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B7-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Tứ chứng Fallot - TOF",
+      "tier": 2,
+      "text": "Morphin liều {{c1::0,1 mg/kg}} tiêm dưới da hoặc tiêm bắp trong cấp cứu cơn tím Fallot.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B33",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TOF",
+        "Cap-cuu-Tet-spell",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B7-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Tứ chứng Fallot - TOF",
+      "tier": 2,
+      "text": "Propranolol uống dự phòng cơn tím với liều {{c1::1 - 2 mg/kg/ngày}}, chia 2 - 4 lần.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B34",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TOF",
+        "Phau-thuat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B7-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Tứ chứng Fallot - TOF",
+      "tier": 2,
+      "text": "Phẫu thuật triệt để Fallot thường thực hiện lúc trẻ {{c1::4 - 6 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B34",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TOF",
+        "Phau-thuat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B10-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B10",
+      "category": "Chuyển gốc động mạch - d-TGA",
+      "tier": 2,
+      "text": "Chuyển gốc động mạch chiếm {{c1::4%}} các bệnh tim bẩm sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B39",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Giai-phau",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B10-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B10",
+      "category": "Chuyển gốc động mạch - d-TGA",
+      "tier": 2,
+      "text": "Phẫu thuật chuyển gốc động mạch (Jatene) nên thực hiện trong {{c1::tuần đầu}} sau sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B41",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Jatene",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B10-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B10",
+      "category": "Chuyển gốc động mạch - d-TGA",
+      "tier": 2,
+      "text": "Nghiệm pháp tăng oxy: thở oxy 100% trong {{c1::10 - 15 phút}} rồi đo PaO2.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B43",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TGA",
+        "Hyperoxia-test",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B11-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B11",
+      "category": "Thân chung động mạch",
+      "tier": 2,
+      "text": "Phẫu thuật thân chung động mạch tiến hành sớm trước {{c1::2 - 3 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B45",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Truncus-Arteriosus",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B13-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B13",
+      "category": "Bất thường TM phổi hoàn toàn - TAPVC",
+      "tier": 2,
+      "text": "Thể dưới tim của TAPVC có tỷ lệ tử vong lên đến {{c1::40%}} nếu không mổ cấp cứu ngay.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B49",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "TAPVC",
+        "Infracardiac",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B15-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Hội chứng thiểu sản thất trái - HLHS",
+      "tier": 2,
+      "text": "Giai đoạn 1 Norwood thực hiện trong {{c1::tuần đầu}} sau sinh.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B54",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Phau-thuat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B15-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Hội chứng thiểu sản thất trái - HLHS",
+      "tier": 2,
+      "text": "Giai đoạn 2 phẫu thuật Glenn thực hiện lúc {{c1::3 - 6 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B54",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Phau-thuat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B15-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Hội chứng thiểu sản thất trái - HLHS",
+      "tier": 2,
+      "text": "Giai đoạn 3 phẫu thuật Fontan thực hiện lúc {{c1::2 - 4 tuổi}}.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B54",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Phau-thuat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B15-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Hội chứng thiểu sản thất trái - HLHS",
+      "tier": 2,
+      "text": "Trong HLHS, mục tiêu SpO2 duy trì ở mức {{c1::75 - 85%}}; không thở oxy tùy tiện.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B55",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "HLHS",
+        "Oxy-nguy-hiem",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B16-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B16",
+      "category": "Tắc nghẽn đường ra thất trái - LVOTO",
+      "tier": 2,
+      "text": "Khoảng {{c1::2%}} dân số có van động mạch chủ hai lá, nguyên nhân bẩm sinh hay gặp nhất.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B56",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "LVOTO",
+        "Williams",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B17-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B17",
+      "category": "Hẹp eo động mạch chủ",
+      "tier": 2,
+      "text": "Hẹp eo động mạch chủ có khoảng {{c1::70%}} trường hợp phối hợp van động mạch chủ 2 lá.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B59",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Coarctation",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B17-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B17",
+      "category": "Hẹp eo động mạch chủ",
+      "tier": 2,
+      "text": "Hẹp eo động mạch chủ chiếm tới {{c1::35%}} ở trẻ gái mắc hội chứng Turner.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B59",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Coarctation",
+        "Turner",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B17-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B17",
+      "category": "Hẹp eo động mạch chủ",
+      "tier": 2,
+      "text": "Chênh lệch huyết áp tâm thu giữa tay và chân > {{c1::20 mmHg}} gợi ý hẹp eo động mạch chủ.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B60",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Coarctation",
+        "Lam-sang",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B18-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B18",
+      "category": "Hẹp van động mạch phổi",
+      "tier": 2,
+      "text": "Hẹp van động mạch phổi chiếm {{c1::8%}} tim bẩm sinh, thường phối hợp hội chứng Noonan.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B64",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Pulmonary-Stenosis",
+        "Noonan",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B18-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B18",
+      "category": "Hẹp van động mạch phổi",
+      "tier": 2,
+      "text": "Nong van động mạch phổi bằng bóng qua da thành công lâu dài ở khoảng {{c1::85%}} trường hợp.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B65",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Pulmonary-Stenosis",
+        "Dieu-tri",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED43-CN-B19-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B19",
+      "category": "Bẫy thi - Tuần hoàn phụ thuộc ống",
+      "tier": 2,
+      "text": "Hẹp eo động mạch chủ nặng sơ sinh phụ thuộc ống: cần truyền {{c1::PGE1}} khẩn cấp để mở lại ống động mạch.",
+      "extra": "📖 Nguồn: Giáo trình Nhi khoa Y Thái Bình · Thẻ gốc: PED43-B69",
+      "tags": [
+        "PED-43",
+        "Barem-goc",
+        "Bay-thi",
+        "PGE1",
+        "Cloze-phu",
+        "Cloze-bo-sung"
       ]
     }
   ]

@@ -1,8 +1,7 @@
 {
-  "topic": "Nhi khoa Y6::PED-07: Co giật do sốt & Cắt cơn co giật / Trạng thái động kinh",
-  "version": "master_combo_v2",
-  "date": "2026-10-06",
-  "total_cards": 68,
+  "deck_id": 1789747307007,
+  "deck_name": "Nhi khoa Y6::PED-07: Co giật do sốt & Cắt cơn co giật / Trạng thái động kinh",
+  "card_count": 114,
   "cards": [
     {
       "id": "PED07-S01",
@@ -1090,6 +1089,788 @@
         "EBM",
         "Chi-tiet",
         "Case-3-khang-Benzo"
+      ]
+    },
+    {
+      "id": "PED07-CN-S0-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S0",
+      "category": "Dịch tễ học co giật do sốt",
+      "tier": 2,
+      "text": "Co giật do sốt chiếm {{c1::2% đến 5%}} trẻ em từ 6 đến 60 tháng tuổi, đỉnh mắc bệnh ở lứa tuổi {{c1::12 đến 18 tháng}}.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline on Febrile Seizures & Nelson Pediatrics · Thẻ gốc: PED07-S02",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Dich-te-co-giat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Định nghĩa chuẩn AAP",
+      "tier": 2,
+      "text": "Theo AAP, co giật do sốt xảy ra ở trẻ từ {{c1::6 đến 60 tháng tuổi}} với thân nhiệt ≥ {{c1::38,0°C}}.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline (Pediatrics 2011, PMID: 21285335) · Thẻ gốc: PED07-S05",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Dinh-nghia-AAP",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Khung bảng đối chiếu 3 thể",
+      "tier": 2,
+      "text": "Co giật do sốt đơn thuần (Simple FS) chiếm {{c1::70–75%}} tổng số ca, co giật do sốt phức hợp (Complex FS) chiếm {{c1::20–25%}}.",
+      "extra": "📖 Nguồn: Bài học PED-07 (Bảng 1.2 Phân loại lâm sàng) · Thẻ gốc: PED07-S06",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Bang-doi-chieu-3-the",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Co giật do sốt đơn thuần",
+      "tier": 2,
+      "text": "Co giật do sốt đơn thuần: cơn kéo dài {{c1::< 15 phút}} (đa số < 5 phút), chỉ xảy ra {{c1::1 cơn duy nhất trong 24 giờ}}.",
+      "extra": "📖 Nguồn: AAP 2011 Guideline & Nelson Textbook of Pediatrics · Thẻ gốc: PED07-S07",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Co-giat-don-thuan",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Co giật do sốt phức hợp",
+      "tier": 2,
+      "text": "Co giật do sốt phức hợp: cơn kéo dài {{c1::≥ 15 phút}} hoặc tái phát {{c1::≥ 2 cơn trong vòng 24 giờ}}.",
+      "extra": "📖 Nguồn: AAP 2011 Guideline (Pediatrics 2011, PMID: 21285335) · Thẻ gốc: PED07-S08",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Co-giat-phuc-hop",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Trạng thái động kinh do sốt",
+      "tier": 2,
+      "text": "Trạng thái động kinh do sốt (FSE) là cơn co giật kéo dài liên tục từ {{c1::≥ 30 phút}}, chiếm khoảng {{c1::5%}} các ca co giật do sốt.",
+      "extra": "📖 Nguồn: FEBSTAT Study (Epilepsia 2012, PMID: 22841663) · Thẻ gốc: PED07-S09",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "FSE-dinh-nghia",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Liệt Todd sau cơn",
+      "tier": 2,
+      "text": "Liệt Todd sau cơn co giật thường hồi phục hoàn toàn trong vòng {{c1::vài phút đến 24–48 giờ}}.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st (Chương Seizure Disorders) · Thẻ gốc: PED07-S10",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Liet-Todd",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S1-07",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Hội chứng Dravet",
+      "tier": 2,
+      "text": "Khoảng {{c1::80%}} trường hợp hội chứng Dravet mang đột biến mất chức năng gen SCN1A; khởi phát {{c1::< 12 tháng tuổi}}.",
+      "extra": "📖 Nguồn: Dravet Syndrome Clinical Practice Guidelines & Epilepsia · Thẻ gốc: PED07-S11",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Hoi-chung-Dravet",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S2-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S2",
+      "category": "Kiềm hô hấp hạ Ca ion hóa",
+      "tier": 2,
+      "text": "Trong chuỗi cơ chế sốt gây co giật, kiềm hô hấp làm giảm Canxi {{c1::ion hóa}} trong máu và dịch não tủy.",
+      "extra": "📖 Nguồn: Bài học PED-07 (Mục 2.1 Chuỗi cơ chế hạ ngưỡng kích thích) · Thẻ gốc: PED07-S15",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Kiem-ho-hap-ha-Ca",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S2-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S2",
+      "category": "5 tầng tổn thương não",
+      "tier": 2,
+      "text": "Tầng tổn thương não thứ {{c1::3}} là quá tải Canxi nội bào và rối loạn chức năng ty thể; tầng {{c1::4}} là hoại tử chọn lọc hồi hải mã CA1.",
+      "extra": "📖 Nguồn: Bài học PED-07 (Mục 2.2 Chuỗi 5 tầng tổn thương tế bào) · Thẻ gốc: PED07-S16",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "5-tang-ton-thuong-nao",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S2-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S2",
+      "category": "Mọc chồi sợi rêu",
+      "tier": 2,
+      "text": "Sau trạng thái động kinh kéo dài, hiện tượng mọc chồi sợi rêu (tầng {{c1::5}}) dẫn đến bệnh động kinh thùy thái dương kháng trị.",
+      "extra": "📖 Nguồn: Bài học PED-07 (Mục 2.2 Tầng 5) · Thẻ gốc: PED07-S19",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Moc-choi-soi-reu",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S2-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S2",
+      "category": "Co giật dưới 5 phút lành tính",
+      "tier": 2,
+      "text": "Cơn co giật do sốt tự ngừng {{c1::dưới 5 phút}} là lành tính vì các cơ chế bù trừ chưa bị quá tải.",
+      "extra": "📖 Nguồn: AAP Clinical Practice Guideline on Febrile Seizures 2008 & 2011 · Thẻ gốc: PED07-S20",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Co-giat-duoi-5-phut",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S3-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Cắt cơn và chỉ định LP",
+      "tier": 2,
+      "text": "Ở trẻ 6–12 tháng chưa tiêm đủ vaccine Hib và Phế cầu, cần cân nhắc chọc dịch não tủy vì ở lứa tuổi này triệu chứng màng não có thể {{c1::rất mờ nhạt hoặc không xuất hiện}}.",
+      "extra": "📖 Nguồn: AAP 2011 Guideline (Pediatrics 2011, PMID: 21285335) · Thẻ gốc: PED07-S25",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Choc-DNT-tre-duoi-12-thang",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S3-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Test đường huyết mao mạch",
+      "tier": 2,
+      "text": "Hạ đường huyết nặng trong cấp cứu co giật là khi đường huyết {{c1::< 2,6 mmol/L}} (hoặc {{c1::< 45 mg/dL}} ở trẻ nhỏ).",
+      "extra": "📖 Nguồn: PALS & Advanced Pediatric Life Support (APLS) · Thẻ gốc: PED07-S27",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Test-duong-huyet-cap-cuu",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Lưu đồ AES 2016",
+      "tier": 2,
+      "text": "Trong lưu đồ AES 2016, Benzodiazepine bước 1 được dùng ở mốc {{c1::5 đến 10 phút}} và thuốc bước 2 ở mốc {{c1::20 đến 30 phút}}.",
+      "extra": "📖 Nguồn: American Epilepsy Society (AES Guidelines 2016, PMID: 26900382) · Thẻ gốc: PED07-S29",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Luu-do-AES-2016",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Mốc T1 và T2 ILAE",
+      "tier": 2,
+      "text": "Mốc T1 là {{c1::5 phút}} và mốc T2 là {{c1::30 phút}} đối với cơn co cứng co giật toàn thể.",
+      "extra": "📖 Nguồn: ILAE Definition of Status Epilepticus (Epilepsia 2015, PMID: 26338018) · Thẻ gốc: PED07-S30",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Moc-T1-T2-ILAE",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 1 khi có ven",
+      "tier": 2,
+      "text": "Lorazepam IV liều {{c1::0,1 mg/kg}} (tối đa {{c1::4 mg}}) tiêm TM chậm trong {{c1::1–2 phút}}.",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & Bộ Y tế Việt Nam (Phác đồ cấp cứu co giật) · Thẻ gốc: PED07-S33",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-1-co-ven",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-04",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 1 khi có ven",
+      "tier": 2,
+      "text": "Diazepam IV liều {{c1::0,2–0,3 mg/kg}} tiêm TM chậm trong {{c1::2 phút}} (tối đa {{c1::5 mg}} cho trẻ < 5 tuổi).",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & Bộ Y tế Việt Nam (Phác đồ cấp cứu co giật) · Thẻ gốc: PED07-S33",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-1-co-ven",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-05",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 1 khi chưa có ven",
+      "tier": 2,
+      "text": "Midazolam IM liều {{c1::0,2 mg/kg}} tiêm sâu mặt trước ngoài đùi (tối đa {{c1::10 mg}}) theo nghiên cứu RAMPART.",
+      "extra": "📖 Nguồn: RAMPART Trial (NEJM 2012, PMID: 22335766) & AES 2016 · Thẻ gốc: PED07-S34",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-1-chua-co-ven",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-06",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Quy tắc 2 liều Benzodiazepine",
+      "tier": 2,
+      "text": "Chỉ dùng tối đa {{c1::2 liều Benzodiazepine, cách nhau 5 phút}}; sau đó chuyển sang thuốc bước 2.",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & PALS Provider Manual · Thẻ gốc: PED07-S35",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Quy-tac-2-lieu-Benzo",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-07",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 2 Levetiracetam",
+      "tier": 2,
+      "text": "Levetiracetam liều {{c1::60 mg/kg}} truyền TM trong {{c1::10 phút}} (tối đa {{c1::4500 mg}}).",
+      "extra": "📖 Nguồn: ESETT Trial (NEJM 2019, PMID: 31778572) & AES 2016 · Thẻ gốc: PED07-S36",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-2-Levetiracetam",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-08",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 2 Fosphenytoin",
+      "tier": 2,
+      "text": "Fosphenytoin liều {{c1::20 mg PE/kg}}, tốc độ truyền tối đa {{c1::150 mg PE/phút}} (ở trẻ em không quá {{c1::2 mg PE/kg/phút}}).",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & ESETT Trial · Thẻ gốc: PED07-S37",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-2-Fosphenytoin",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-09",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Thuốc bước 2 Sodium Valproate",
+      "tier": 2,
+      "text": "Sodium Valproate liều {{c1::40 mg/kg}} truyền TM trong {{c1::10 phút}} (tối đa {{c1::3000 mg}}).",
+      "extra": "📖 Nguồn: ESETT Trial & AES 2016 Guidelines · Thẻ gốc: PED07-S38",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Thuoc-buoc-2-Valproate",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-10",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "RSE bước 3",
+      "tier": 2,
+      "text": "Trạng thái động kinh kháng trị (RSE) thường kéo dài {{c1::> 30–60 phút}} sau khi đã dùng đủ thuốc bước 1 và bước 2.",
+      "extra": "📖 Nguồn: Neurocritical Care Society Guidelines on Status Epilepticus · Thẻ gốc: PED07-S39",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "RSE-buoc-3",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S4-11",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Burst Suppression",
+      "tier": 2,
+      "text": "Mục tiêu Burst Suppression duy trì khoảng {{c1::80% đến 90%}} thời gian là sóng phẳng, kéo dài {{c1::24 đến 48 giờ}}.",
+      "extra": "📖 Nguồn: American Clinical Neurophysiology Society (cEEG Guidelines) · Thẻ gốc: PED07-S40",
+      "tags": [
+        "PED-07",
+        "Barem-goc",
+        "Burst-Suppression-cEEG",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-01",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Midazolam ngậm má",
+      "tier": 2,
+      "text": "Midazolam ngậm niêm mạc má liều {{c1::0,2–0,5 mg/kg}} (tối đa {{c1::10 mg}}), tuyệt đối không bơm sâu vào họng.",
+      "extra": "📖 Nguồn: British National Formulary for Children (BNFC - Buccal Midazolam) · Thẻ gốc: PED07-S42",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Midazolam-ngam-ma",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-02",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Diazepam bơm hậu môn",
+      "tier": 2,
+      "text": "Diazepam bơm trực tràng liều {{c1::0,5 mg/kg}}, giữ ép mông {{c1::2–3 phút}} để thuốc không trào ngược.",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & Cochrane Database of Systematic Reviews · Thẻ gốc: PED07-S43",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Diazepam-bom-hau-mon",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-03",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Levetiracetam SV2A",
+      "tier": 2,
+      "text": "Levetiracetam gắn protein SV2A và được truyền nhanh trong {{c1::10 phút}} mà không cần monitor huyết động phức tạp.",
+      "extra": "📖 Nguồn: ESETT Study (NEJM 2019) & Pharmacotherapy of Status Epilepticus · Thẻ gốc: PED07-S44",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Duoc-ly-Levetiracetam",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-04",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Fosphenytoin kênh Natri",
+      "tier": 2,
+      "text": "Khi dùng Fosphenytoin, tốc độ truyền không vượt quá {{c1::150 mg PE/phút}} và cần theo dõi ECG liên tục.",
+      "extra": "📖 Nguồn: AES 2016 Guidelines & Cardiovascular Safety of Antiepileptics · Thẻ gốc: PED07-S45",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Duoc-ly-Fosphenytoin",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-05",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Midazolam truyền liên tục RSE",
+      "tier": 2,
+      "text": "Midazolam truyền liên tục bắt đầu ở liều {{c1::0,1 mg/kg/giờ}} sau liều nạp {{c1::0,2 mg/kg}} tiêm TM trong {{c1::2 phút}}.",
+      "extra": "📖 Nguồn: Neurocritical Care Society Guidelines (RSE Management) · Thẻ gốc: PED07-S47",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Midazolam-truyen-lien-tuc",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-06",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Hội chứng PRIS",
+      "tier": 2,
+      "text": "Hội chứng PRIS do Propofol xảy ra khi truyền liều {{c1::> 4–5 mg/kg/h}} hoặc kéo dài {{c1::> 48 giờ}} ở trẻ em.",
+      "extra": "📖 Nguồn: FDA Warning & Critical Care Medicine (Propofol Infusion Syndrome in Children) · Thẻ gốc: PED07-S48",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Hoi-chung-PRIS-Propofol",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S5-07",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Thiopental SRSE",
+      "tier": 2,
+      "text": "Thiopental/Pentobarbital là lựa chọn cuối trong SRSE; thời gian bán thải có thể kéo dài {{c1::nhiều ngày}} sau khi ngừng truyền.",
+      "extra": "📖 Nguồn: Pediatric Neurocritical Care (Barbiturate Coma Protocol) · Thẻ gốc: PED07-S50",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Thiopental-SRSE",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S6-01",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "RAMPART Trial",
+      "tier": 2,
+      "text": "Trong thử nghiệm RAMPART (n = {{c1::893}} bệnh nhân), Midazolam IM dứt cơn trước khi đến viện {{c1::73,4%}} so với {{c1::63,4%}} của Lorazepam IV.",
+      "extra": "📖 Nguồn: Silbergleit R et al., RAMPART Investigators, NEJM 2012 (PMID: 22335766) · Thẻ gốc: PED07-S51",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "RAMPART-Trial",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S6-02",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "ESETT Trial",
+      "tier": 2,
+      "text": "Trong thử nghiệm ESETT, Levetiracetam (60 mg/kg), Fosphenytoin (20 mg PE/kg) và Valproate (40 mg/kg) có tỷ lệ cắt cơn tương đương nhau khoảng {{c1::45–47%}}.",
+      "extra": "📖 Nguồn: Kapur J et al., ESETT Trial Investigators, NEJM 2019 (PMID: 31778572) · Thẻ gốc: PED07-S52",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "ESETT-Trial",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S6-03",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "FEBSTAT Study",
+      "tier": 2,
+      "text": "Trên MRI trong 72 giờ đầu sau cơn FSE, khoảng {{c1::11,5%}} trẻ có tổn thương tăng tín hiệu T2/FLAIR cấp tính tại hồi hải mã.",
+      "extra": "📖 Nguồn: Shinnar S et al., FEBSTAT Study, Epilepsia 2012 & Epilepsia Open 2025 · Thẻ gốc: PED07-S53",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "FEBSTAT-Study",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S6-04",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "ConSEPT & EcLiPSE",
+      "tier": 2,
+      "text": "Trong ConSEPT và EcLiPSE, Levetiracetam {{c1::40 mg/kg}} so với Phenytoin {{c1::20 mg/kg}} có hiệu quả cắt cơn tương đương khoảng {{c1::50–60%}}.",
+      "extra": "📖 Nguồn: Dalziel SR et al. (ConSEPT) & Lyttle MD et al. (EcLiPSE), Lancet 2019 · Thẻ gốc: PED07-S54",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "ConSEPT-EcLiPSE-2019",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S6-05",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "AAP 2008 cấm dự phòng",
+      "tier": 2,
+      "text": "AAP 2008 khuyến cáo {{c1::không dùng}} thuốc chống động kinh dự phòng thường quy ở trẻ co giật do sốt đơn thuần.",
+      "extra": "📖 Nguồn: AAP Steering Committee on Quality Improvement, Pediatrics 2008 (PMID: 18310189) · Thẻ gốc: PED07-S55",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "AAP-2008-Cam-du-phong",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S7-01",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Tỷ lệ tái phát",
+      "tier": 2,
+      "text": "Khoảng {{c1::30% đến 35%}} trẻ bị co giật do sốt lần đầu sẽ tái phát ít nhất một cơn; hơn {{c1::75%}} các cơn tái phát xảy ra trong {{c1::1 năm đầu}}.",
+      "extra": "📖 Nguồn: Nelson Textbook of Pediatrics 21st (Chương Prognosis of Febrile Seizures) · Thẻ gốc: PED07-S56",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Ty-le-tai-phat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S7-02",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "4 yếu tố nguy cơ tái phát",
+      "tier": 2,
+      "text": "Yếu tố nguy cơ mạnh nhất là khởi phát co giật đầu tiên ở tuổi {{c1::< 12–18 tháng}}, khi đó tỷ lệ tái phát lên tới {{c1::50%}}.",
+      "extra": "📖 Nguồn: AAP 2008 Guideline & Berg AT et al. (Predictors of Recurrent Febrile Seizures) · Thẻ gốc: PED07-S57",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Yeu-to-nguy-co-tai-phat",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S7-03",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Nguy cơ tiến triển động kinh",
+      "tier": 2,
+      "text": "Nguy cơ tiến triển thành động kinh ở trẻ co giật do sốt đơn thuần chỉ khoảng {{c1::1% đến 2%}}.",
+      "extra": "📖 Nguồn: AAP Practice Guideline & Nelson Pediatrics · Thẻ gốc: PED07-S58",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Nguy-co-dong-kinh",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S7-04",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Hướng dẫn tại nhà",
+      "tier": 2,
+      "text": "Hướng dẫn cho phụ huynh: gọi cấp cứu 115 ngay nếu cơn giật kéo dài quá {{c1::5 phút}} hoặc sau cơn trẻ không tỉnh.",
+      "extra": "📖 Nguồn: AAP Parent Information & Epilepsy Foundation First Aid · Thẻ gốc: PED07-S59",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Huong-dan-tai-nha",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S8-01",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "Bẫy chờ chọc ven",
+      "tier": 2,
+      "text": "Chọc ven ngoại vi trong lúc trẻ đang co giật thường mất {{c1::5 đến 15 phút}}, nên nếu chưa có ven cần tiêm bắp Midazolam ngay.",
+      "extra": "📖 Nguồn: PALS & RAMPART Trial (NEJM 2012) · Thẻ gốc: PED07-S61",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Bay-cho-choc-ven",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S8-02",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "Bẫy quên đường huyết",
+      "tier": 2,
+      "text": "Khi đường huyết < 2,6 mmol/L, bù {{c1::Glucose 10% liều 2 ml/kg}} tiêm TM sẽ cắt ngay cơn giật do hạ đường huyết.",
+      "extra": "📖 Nguồn: PALS & Pediatric Emergency Medicine Traps · Thẻ gốc: PED07-S63",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Bay-quen-duong-huyet",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S9-01",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "Case 1 xử trí",
+      "tier": 2,
+      "text": "Trẻ co giật do sốt đơn thuần (cơn < 15 phút, 1 cơn duy nhất) có thể hạ sốt bằng Paracetamol {{c1::10–15 mg/kg}} khi sốt cao để giúp trẻ dễ chịu.",
+      "extra": "📖 Nguồn: Pediatric Clinical Case Studies (Case 1 Simple FS) · Thẻ gốc: PED07-S66",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Case-1-don-thuan",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S9-02",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "Case 2 Midazolam IM",
+      "tier": 2,
+      "text": "Trẻ 12 kg đang co giật chưa có ven: Midazolam IM liều {{c1::0,2 mg/kg = 2,4 mg}} tiêm mặt trước ngoài đùi.",
+      "extra": "📖 Nguồn: Pediatric Emergency Medicine Case Studies (Case 2 Ongoing Seizure) · Thẻ gốc: PED07-S67",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Case-2-dang-giat-chua-ven",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED07-CN-S9-03",
+      "track": "ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "Case 3 Levetiracetam",
+      "tier": 2,
+      "text": "Trẻ 10 kg co giật kháng Benzodiazepine: Levetiracetam {{c1::60 mg/kg = 600 mg}} truyền TM trong {{c1::10 phút}}.",
+      "extra": "📖 Nguồn: Pediatric Neurocritical Care Case Studies (Case 3 Refractory SE) · Thẻ gốc: PED07-S68",
+      "tags": [
+        "PED-07",
+        "EBM",
+        "Case-3-khang-Benzo",
+        "Cloze-phu",
+        "Cloze-bo-sung"
       ]
     }
   ]

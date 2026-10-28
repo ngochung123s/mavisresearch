@@ -1509,3 +1509,37 @@ cards_data = [
         "tags": ["PED-48", "EBM", "Phong-benh"]
     }
 ]
+
+# ---- Cloze bổ sung (29/10): chỉ che số liều/tần suất/mốc thời gian đã có trong thẻ barem_goc gốc.
+# Mỗi note chỉ có c1; các phần tử song song của cùng một ý nằm trọn trong một cloze.
+def _cloze_bs(cid, section, category, text, parent, extra):
+    return {
+        "id": cid, "track": "barem_goc", "type": "cloze", "section": section,
+        "category": category, "tier": 2, "text": text,
+        "extra": extra + f" · Thẻ gốc: {parent}",
+        "tags": ["PED-48", "Barem-goc", "Cloze-phu", "Cloze-bo-sung"],
+    }
+
+
+cards_data += [
+    _cloze_bs(
+        "PED48-CN-B1-01", "B1", "Tiên lượng",
+        "[Barem gốc] Ngay cả người mới bị suy tim, tỷ lệ tử vong trong vòng {{c1::5 năm}} vẫn rất cao.",
+        "PED48-B06", "Văn bản gốc mục 1.2 (Trang 1).",
+    ),
+    _cloze_bs(
+        "PED48-CN-B6-01", "B6", "Digoxin liều dùng",
+        "[Barem gốc] Digoxin liều tấn công (số hóa nhanh) được chia {{c1::3 lần cách 8h}}.",
+        "PED48-B57", "Văn bản gốc mục B.1 Liều lượng (Trang 6).",
+    ),
+    _cloze_bs(
+        "PED48-CN-B6-02", "B6", "Thuốc giãn mạch",
+        "[Barem gốc] Hydralazine được chia {{c1::3 lần}} mỗi ngày.",
+        "PED48-B68", "Văn bản gốc mục B.4 (Trang 7). Theo dõi sát huyết áp.",
+    ),
+    _cloze_bs(
+        "PED48-CN-B6-03", "B6", "Thuốc giãn mạch",
+        "[Barem gốc] Prazosine lâu dài được chia {{c1::4 lần}} mỗi ngày.",
+        "PED48-B68", "Văn bản gốc mục B.4 (Trang 7). Theo dõi sát huyết áp.",
+    ),
+]

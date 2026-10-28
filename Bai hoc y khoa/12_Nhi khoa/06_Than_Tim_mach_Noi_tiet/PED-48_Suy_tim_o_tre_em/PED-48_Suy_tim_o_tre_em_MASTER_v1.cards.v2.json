@@ -1,7 +1,7 @@
 {
   "deck_id": 1789747348048,
   "deck_name": "Nhi khoa Y6::PED-48: Suy tim ở trẻ em",
-  "card_count": 137,
+  "card_count": 141,
   "cards": [
     {
       "id": "PED48-B01",
@@ -2014,6 +2014,70 @@
         "PED-48",
         "EBM",
         "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED48-CN-B1-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Tiên lượng",
+      "tier": 2,
+      "text": "[Barem gốc] Ngay cả người mới bị suy tim, tỷ lệ tử vong trong vòng {{c1::5 năm}} vẫn rất cao.",
+      "extra": "Văn bản gốc mục 1.2 (Trang 1). · Thẻ gốc: PED48-B06",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED48-CN-B6-01",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B6",
+      "category": "Digoxin liều dùng",
+      "tier": 2,
+      "text": "[Barem gốc] Digoxin liều tấn công (số hóa nhanh) được chia {{c1::3 lần cách 8h}}.",
+      "extra": "Văn bản gốc mục B.1 Liều lượng (Trang 6). · Thẻ gốc: PED48-B57",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED48-CN-B6-02",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B6",
+      "category": "Thuốc giãn mạch",
+      "tier": 2,
+      "text": "[Barem gốc] Hydralazine được chia {{c1::3 lần}} mỗi ngày.",
+      "extra": "Văn bản gốc mục B.4 (Trang 7). Theo dõi sát huyết áp. · Thẻ gốc: PED48-B68",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-bo-sung"
+      ]
+    },
+    {
+      "id": "PED48-CN-B6-03",
+      "track": "barem_goc",
+      "type": "cloze",
+      "section": "B6",
+      "category": "Thuốc giãn mạch",
+      "tier": 2,
+      "text": "[Barem gốc] Prazosine lâu dài được chia {{c1::4 lần}} mỗi ngày.",
+      "extra": "Văn bản gốc mục B.4 (Trang 7). Theo dõi sát huyết áp. · Thẻ gốc: PED48-B68",
+      "tags": [
+        "PED-48",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-bo-sung"
       ]
     }
   ]
