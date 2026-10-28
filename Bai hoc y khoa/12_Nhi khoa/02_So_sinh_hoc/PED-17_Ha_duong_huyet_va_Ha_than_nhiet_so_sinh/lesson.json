@@ -2,29 +2,12 @@
   "id": "PED-17",
   "specialty": "nhi",
   "profile": "disease",
-  "lesson": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.md",
-  "brief": "PED-17_RESEARCH_BRIEF.md",
   "barem": "Ha_duong_huyet_so_sinh_PEDYTB.md",
   "deck": {
     "deck_id": 1940381074617,
-    "deck_name": "Nhi khoa Y6::PED-17: Hạ đường huyết & Hạ thân nhiệt sơ sinh",
+    "deck_name": "Nhi khoa Y6::PED-17: Hạ đường huyết sơ sinh",
     "basename": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_MASTER_v2",
     "required_sections": [
-      "B0",
-      "B1",
-      "B2",
-      "B3",
-      "B4",
-      "B5",
-      "B6",
-      "B7",
-      "B8",
-      "B9",
-      "B10",
-      "B11",
-      "B12",
-      "B13",
-      "B14",
       "H0",
       "H1",
       "H2",
@@ -32,6 +15,9 @@
       "H4",
       "H5"
     ],
-    "cards_source": "ped17_cards_data.py"
+    "cards_source": "ped17_cards_data.py",
+    "legacy_anki_decks": [
+      "Nhi khoa Y6::PED-17: Hạ đường huyết & Hạ thân nhiệt sơ sinh"
+    ]
   }
 }
