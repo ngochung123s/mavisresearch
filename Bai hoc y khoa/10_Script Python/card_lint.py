@@ -139,7 +139,7 @@ def partial_cloze_segments(text: str) -> list[str]:
         segment = sentence.rsplit(":", 1)[-1] if has_colon else sentence
         if has_colon and "⟦CLOZE⟧" not in segment:
             continue
-        items = [x.strip(" .") for x in re.split(r"[,;•]|\b\d+\)\s|\s+(?:và|hoặc|hay)\s+", segment) if x and x.strip(" .")]
+        items = [x.strip(" .") for x in re.split(r"(?<!\d),(?!\d)|[;•]|\b\d+\)\s|\s+(?:và|hoặc|hay)\s+", segment) if x and x.strip(" .")]
         if len(items) < 3:
             continue
         limit = 12 if has_colon else 8

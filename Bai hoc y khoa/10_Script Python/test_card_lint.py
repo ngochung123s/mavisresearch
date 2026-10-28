@@ -98,6 +98,14 @@ class AntiSpoilerCloze(unittest.TestCase):
                 "với tỷ số chênh (OR) là {{c1::0,52}}.")
         self.assertEqual(L.partial_cloze_segments(text), [])
 
+    def test_decimal_commas_in_formula_not_flagged(self):
+        text = "VD2 trẻ 5 kg có Na 125: Na cần điều chỉnh = (135 − 125) × 0,6 × 5 = {{c1::30 mEq}}."
+        self.assertEqual(L.partial_cloze_segments(text), [])
+
+    def test_list_with_decimal_items_still_flagged(self):
+        text = "Liều theo tuổi: 0,5 ml, {{c1::1,0 ml}}, 1,5 ml."
+        self.assertTrue(L.partial_cloze_segments(text))
+
 
 def core_back(*items):
     lines = "<br>".join(f'{i}) <b>{label}:</b> <span style="color:#ff6b6b">{body}</span>'
