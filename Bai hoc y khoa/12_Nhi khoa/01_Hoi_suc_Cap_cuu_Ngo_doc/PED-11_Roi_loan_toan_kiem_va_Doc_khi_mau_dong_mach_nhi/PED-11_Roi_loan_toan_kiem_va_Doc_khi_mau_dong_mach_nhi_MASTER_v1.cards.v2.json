@@ -1,7 +1,7 @@
 {
   "deck_id": 1789747311011,
   "deck_name": "Nhi khoa Y6::PED-11: Sinh lý và bệnh lý thăng bằng toan kiềm ở trẻ em",
-  "card_count": 68,
+  "card_count": 101,
   "cards": [
     {
       "id": "PED11-B0-01",
@@ -1281,6 +1281,600 @@
         "Barem-goc",
         "Cloze-phu",
         "Cut-off"
+      ]
+    },
+    {
+      "id": "PED11-CN-B1-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Khái niệm cơ bản",
+      "tier": 2,
+      "text": "Một ngày chuyển hóa tạo ra {{c1::40–80 mEq H⁺}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B1.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B1-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Khái niệm cơ bản",
+      "tier": 2,
+      "text": "Một ngày chuyển hóa tạo ra {{c1::13.000 mmol CO₂}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B1.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B3-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Phương trình Henderson–Hasselbalch",
+      "tier": 2,
+      "text": "Henderson–Hasselbalch: pH = {{c1::6,1}} + lg HCO₃⁻/0,03 × PaCO₂.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B3.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B3-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B3",
+      "category": "Phương trình Henderson–Hasselbalch",
+      "tier": 2,
+      "text": "Henderson–Hasselbalch: pH = 6,1 + lg HCO₃⁻/{{c1::0,03}} × PaCO₂.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B3.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B4-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B4",
+      "category": "Vai trò của phổi",
+      "tier": 2,
+      "text": "CO₂ trong máu: hòa tan trong huyết tương – gắn với nước – gắn Hb tạo cacbamin lần lượt là {{c1::5% – 70% – 25%}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B4.02, B4.03, B4.04",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B7-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Khí máu — pH, PaCO₂, PaO₂",
+      "tier": 2,
+      "text": "pH máu bình thường: {{c1::7,35–7,45}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B7.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B7-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Khí máu — pH, PaCO₂, PaO₂",
+      "tier": 2,
+      "text": "PaCO₂ bình thường: {{c1::35–45 mmHg}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B7.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B7-03",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Khí máu — pH, PaCO₂, PaO₂",
+      "tier": 2,
+      "text": "PaO₂ bình thường ở trẻ sơ sinh: {{c1::50–70 mmHg}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B7.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B7-04",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Khí máu — pH, PaCO₂, PaO₂",
+      "tier": 2,
+      "text": "PaO₂ bình thường ở trẻ lớn: {{c1::70–100 mmHg}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B7.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B7-05",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B7",
+      "category": "Khí máu — pH, PaCO₂, PaO₂",
+      "tier": 2,
+      "text": "PaO₂ = {{c1::109 − 0,43 × tuổi}} (tuổi tính bằng năm).",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B7.04",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B8-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Khí máu — AaDO₂, CaO₂, BB",
+      "tier": 2,
+      "text": "AaDO₂ (P(A-a)O₂) bình thường: {{c1::5–15 mmHg}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B8.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B8-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Khí máu — AaDO₂, CaO₂, BB",
+      "tier": 2,
+      "text": "CaO₂ (O₂CT) bình thường: {{c1::12–16 ml/dl}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B8.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B8-03",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Khí máu — AaDO₂, CaO₂, BB",
+      "tier": 2,
+      "text": "BB (Base Buffer) bình thường: {{c1::48–49 mmol/l}} máu.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B8.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B8-04",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Khí máu — AaDO₂, CaO₂, BB",
+      "tier": 2,
+      "text": "Khi BB = 40 thì BE = {{c1::−8}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B8.05",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B8-05",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B8",
+      "category": "Khí máu — AaDO₂, CaO₂, BB",
+      "tier": 2,
+      "text": "Khi BB = 60 thì BE = {{c1::+12}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B8.06",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B9-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B9",
+      "category": "Khí máu — BE",
+      "tier": 2,
+      "text": "BE (Base Excess) bình thường: {{c1::±3}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B9.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B9-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B9",
+      "category": "Khí máu — BE",
+      "tier": 2,
+      "text": "BE = {{c1::BB − NBB}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B9.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B10-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B10",
+      "category": "Khí máu — BE ecf, TCO₂",
+      "tier": 2,
+      "text": "TCO₂ bình thường: {{c1::25,4 mEq/l}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B10.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B11-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B11",
+      "category": "Khí máu — HCO₃⁻ thực",
+      "tier": 2,
+      "text": "HCO₃⁻ thực (actual BC) bình thường: {{c1::22–26 mEq/l}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B11.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B12-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B12",
+      "category": "Khí máu — HCO₃⁻ chuẩn (SB/SBC)",
+      "tier": 2,
+      "text": "HCO₃⁻ chuẩn (SB, SBC) bình thường: {{c1::23,3 ± 1,2 mEq/l}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B12.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B12-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B12",
+      "category": "Khí máu — HCO₃⁻ chuẩn (SB/SBC)",
+      "tier": 2,
+      "text": "HCO₃⁻ chuẩn được đo ở điều kiện chuẩn PaCO₂ = {{c1::40 mmHg}}, 37 °C, Hb bão hòa oxy.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B12.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B13-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B13",
+      "category": "Khí máu — SaO₂",
+      "tier": 2,
+      "text": "SaO₂ bình thường: {{c1::95–98%}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B13.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B15-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Bù trừ rối loạn chuyển hóa",
+      "tier": 2,
+      "text": "Toan chuyển hóa: bù trừ giảm PaCO₂ {{c1::1–1,5 mmHg}} cho mỗi 1 mEq HCO₃⁻ giảm.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B15.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B15-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Bù trừ rối loạn chuyển hóa",
+      "tier": 2,
+      "text": "Toan chuyển hóa: PaCO₂ dự kiến = {{c1::1,5 × (HCO₃⁻) + 8 ± 2}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B15.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B15-03",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B15",
+      "category": "Bù trừ rối loạn chuyển hóa",
+      "tier": 2,
+      "text": "Kiềm chuyển hóa: bù trừ tăng PaCO₂ {{c1::0,2–0,9 mmHg (trung bình 0,7)}} cho mỗi 1 mEq HCO₃⁻ tăng.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B15.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B16-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B16",
+      "category": "Bù trừ rối loạn hô hấp",
+      "tier": 2,
+      "text": "Toan hô hấp cấp: HCO₃⁻ tăng {{c1::1 mEq}} cho mỗi 10 mmHg PaCO₂ tăng.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B16.01",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B16-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B16",
+      "category": "Bù trừ rối loạn hô hấp",
+      "tier": 2,
+      "text": "Toan hô hấp mạn: HCO₃⁻ tăng {{c1::5 mEq}} cho mỗi 10 mmHg PaCO₂ tăng.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B16.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B16-03",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B16",
+      "category": "Bù trừ rối loạn hô hấp",
+      "tier": 2,
+      "text": "Kiềm hô hấp cấp: HCO₃⁻ giảm {{c1::2 mEq}} cho mỗi 10 mmHg PaCO₂ giảm.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B16.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B16-04",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B16",
+      "category": "Bù trừ rối loạn hô hấp",
+      "tier": 2,
+      "text": "Kiềm hô hấp mạn: HCO₃⁻ giảm {{c1::5 mEq}} cho mỗi 10 mmHg PaCO₂ giảm.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B16.04",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B20-01",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B20",
+      "category": "Điều trị nhiễm toan",
+      "tier": 2,
+      "text": "Bù kiềm: NaHCO₃ (mEq) = {{c1::0,3 × P × BE}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B20.02",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B20-02",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B20",
+      "category": "Điều trị nhiễm toan",
+      "tier": 2,
+      "text": "1 ml NaHCO₃ 8,4% = {{c1::1 mEq}}.",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B20.03",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B20-03",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B20",
+      "category": "Điều trị nhiễm toan",
+      "tier": 2,
+      "text": "1 ml NaHCO₃ 4,2% = {{c1::0,5 mEq}} (barem in “mEq/l” — sic).",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B20.04",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
+      ]
+    },
+    {
+      "id": "PED11-CN-B20-04",
+      "track": "barem_goc",
+      "badge": "🏛️ BAREM GỐC · HANDOUT BỘ MÔN NHI",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B20",
+      "category": "Điều trị nhiễm toan",
+      "tier": 2,
+      "text": "1 ml NaHCO₃ 1,4% = {{c1::1/6 mEq}} (barem in “mEq/l” — sic).",
+      "extra": "📖 Nguồn: Handout slide bài giảng Bộ môn Nhi — ThS.BSCKII. Khúc Văn Lập (4 trang, nhận ngày 27/10/2026). Barem: B20.05",
+      "tags": [
+        "PED-11",
+        "Barem-goc",
+        "Cloze-phu",
+        "Cloze-so-lieu"
       ]
     }
   ]

@@ -652,3 +652,173 @@ cards_data = [
         "B22.01", ["Cut-off"],
     ),
 ]
+
+# ------------------------------------------------------------ Cloze số liệu bổ sung (28/10): mỗi thẻ che 1 con số/ngưỡng/công thức;
+# chuỗi số liền nhau che trọn trong 1 cloze. Bảng 'Nước ngoài tế bào' (B1.03) chưa làm vì hai ô đầu đọc từ ảnh mờ.
+cards_data += [
+    cloze(
+        "PED11-CN-B1-01", "B1", "Khái niệm cơ bản",
+        "Một ngày chuyển hóa tạo ra {{c1::40–80 mEq H⁺}}.",
+        "B1.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B1-02", "B1", "Khái niệm cơ bản",
+        "Một ngày chuyển hóa tạo ra {{c1::13.000 mmol CO₂}}.",
+        "B1.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B3-01", "B3", "Phương trình Henderson–Hasselbalch",
+        "Henderson–Hasselbalch: pH = {{c1::6,1}} + lg HCO₃⁻/0,03 × PaCO₂.",
+        "B3.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B3-02", "B3", "Phương trình Henderson–Hasselbalch",
+        "Henderson–Hasselbalch: pH = 6,1 + lg HCO₃⁻/{{c1::0,03}} × PaCO₂.",
+        "B3.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B4-01", "B4", "Vai trò của phổi",
+        "CO₂ trong máu: hòa tan trong huyết tương – gắn với nước – gắn Hb tạo cacbamin lần lượt là {{c1::5% – 70% – 25%}}.",
+        "B4.02, B4.03, B4.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B7-01", "B7", "Khí máu — pH, PaCO₂, PaO₂",
+        "pH máu bình thường: {{c1::7,35–7,45}}.",
+        "B7.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B7-02", "B7", "Khí máu — pH, PaCO₂, PaO₂",
+        "PaCO₂ bình thường: {{c1::35–45 mmHg}}.",
+        "B7.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B7-03", "B7", "Khí máu — pH, PaCO₂, PaO₂",
+        "PaO₂ bình thường ở trẻ sơ sinh: {{c1::50–70 mmHg}}.",
+        "B7.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B7-04", "B7", "Khí máu — pH, PaCO₂, PaO₂",
+        "PaO₂ bình thường ở trẻ lớn: {{c1::70–100 mmHg}}.",
+        "B7.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B7-05", "B7", "Khí máu — pH, PaCO₂, PaO₂",
+        "PaO₂ = {{c1::109 − 0,43 × tuổi}} (tuổi tính bằng năm).",
+        "B7.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B8-01", "B8", "Khí máu — AaDO₂, CaO₂, BB",
+        "AaDO₂ (P(A-a)O₂) bình thường: {{c1::5–15 mmHg}}.",
+        "B8.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B8-02", "B8", "Khí máu — AaDO₂, CaO₂, BB",
+        "CaO₂ (O₂CT) bình thường: {{c1::12–16 ml/dl}}.",
+        "B8.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B8-03", "B8", "Khí máu — AaDO₂, CaO₂, BB",
+        "BB (Base Buffer) bình thường: {{c1::48–49 mmol/l}} máu.",
+        "B8.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B8-04", "B8", "Khí máu — AaDO₂, CaO₂, BB",
+        "Khi BB = 40 thì BE = {{c1::−8}}.",
+        "B8.05", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B8-05", "B8", "Khí máu — AaDO₂, CaO₂, BB",
+        "Khi BB = 60 thì BE = {{c1::+12}}.",
+        "B8.06", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B9-01", "B9", "Khí máu — BE",
+        "BE (Base Excess) bình thường: {{c1::±3}}.",
+        "B9.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B9-02", "B9", "Khí máu — BE",
+        "BE = {{c1::BB − NBB}}.",
+        "B9.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B10-01", "B10", "Khí máu — BE ecf, TCO₂",
+        "TCO₂ bình thường: {{c1::25,4 mEq/l}}.",
+        "B10.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B11-01", "B11", "Khí máu — HCO₃⁻ thực",
+        "HCO₃⁻ thực (actual BC) bình thường: {{c1::22–26 mEq/l}}.",
+        "B11.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B12-01", "B12", "Khí máu — HCO₃⁻ chuẩn (SB/SBC)",
+        "HCO₃⁻ chuẩn (SB, SBC) bình thường: {{c1::23,3 ± 1,2 mEq/l}}.",
+        "B12.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B12-02", "B12", "Khí máu — HCO₃⁻ chuẩn (SB/SBC)",
+        "HCO₃⁻ chuẩn được đo ở điều kiện chuẩn PaCO₂ = {{c1::40 mmHg}}, 37 °C, Hb bão hòa oxy.",
+        "B12.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B13-01", "B13", "Khí máu — SaO₂",
+        "SaO₂ bình thường: {{c1::95–98%}}.",
+        "B13.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B15-01", "B15", "Bù trừ rối loạn chuyển hóa",
+        "Toan chuyển hóa: bù trừ giảm PaCO₂ {{c1::1–1,5 mmHg}} cho mỗi 1 mEq HCO₃⁻ giảm.",
+        "B15.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B15-02", "B15", "Bù trừ rối loạn chuyển hóa",
+        "Toan chuyển hóa: PaCO₂ dự kiến = {{c1::1,5 × (HCO₃⁻) + 8 ± 2}}.",
+        "B15.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B15-03", "B15", "Bù trừ rối loạn chuyển hóa",
+        "Kiềm chuyển hóa: bù trừ tăng PaCO₂ {{c1::0,2–0,9 mmHg (trung bình 0,7)}} cho mỗi 1 mEq HCO₃⁻ tăng.",
+        "B15.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B16-01", "B16", "Bù trừ rối loạn hô hấp",
+        "Toan hô hấp cấp: HCO₃⁻ tăng {{c1::1 mEq}} cho mỗi 10 mmHg PaCO₂ tăng.",
+        "B16.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B16-02", "B16", "Bù trừ rối loạn hô hấp",
+        "Toan hô hấp mạn: HCO₃⁻ tăng {{c1::5 mEq}} cho mỗi 10 mmHg PaCO₂ tăng.",
+        "B16.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B16-03", "B16", "Bù trừ rối loạn hô hấp",
+        "Kiềm hô hấp cấp: HCO₃⁻ giảm {{c1::2 mEq}} cho mỗi 10 mmHg PaCO₂ giảm.",
+        "B16.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B16-04", "B16", "Bù trừ rối loạn hô hấp",
+        "Kiềm hô hấp mạn: HCO₃⁻ giảm {{c1::5 mEq}} cho mỗi 10 mmHg PaCO₂ giảm.",
+        "B16.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B20-01", "B20", "Điều trị nhiễm toan",
+        "Bù kiềm: NaHCO₃ (mEq) = {{c1::0,3 × P × BE}}.",
+        "B20.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B20-02", "B20", "Điều trị nhiễm toan",
+        "1 ml NaHCO₃ 8,4% = {{c1::1 mEq}}.",
+        "B20.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B20-03", "B20", "Điều trị nhiễm toan",
+        "1 ml NaHCO₃ 4,2% = {{c1::0,5 mEq}} (barem in “mEq/l” — sic).",
+        "B20.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED11-CN-B20-04", "B20", "Điều trị nhiễm toan",
+        "1 ml NaHCO₃ 1,4% = {{c1::1/6 mEq}} (barem in “mEq/l” — sic).",
+        "B20.05", ["Cloze-so-lieu"],
+    ),
+]

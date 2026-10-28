@@ -908,3 +908,368 @@ cards_data = [
         "B24.03", ["Dieu-tri-tang-canxi"],
     ),
 ]
+
+# ------------------------------------------------------------ Cloze số liệu bổ sung (28/10): mỗi thẻ che 1 con số/ngưỡng/công thức;
+# chuỗi số liền nhau che trọn trong 1 cloze. Bảng 'Nước ngoài tế bào' (B1.03) chưa làm vì hai ô đầu đọc từ ảnh mờ.
+cards_data += [
+    cloze(
+        "PED50-CN-B1-01", "B1", "Khối lượng nước trong cơ thể",
+        f"Khối lượng nước trong cơ thể trẻ em: V (lít) = {{{{c1::{Y('0,6 × P (kg) + 0,25')}}}}}.",
+        "B1.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B1-02", "B1", "Khối lượng nước trong cơ thể",
+        f"Lượng nước (% trọng lượng) lúc 1 tháng – 6 tháng – 12 tháng – 5 tuổi – 15 tuổi lần lượt là {{{{c1::{Y('70 – 70 – 65 – 60 – 60')}}}}}.",
+        "B1.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B1-03", "B1", "Khối lượng nước trong cơ thể",
+        f"Thể tích máu bằng {{{{c1::{Y('8%')}}}}} trọng lượng cơ thể.",
+        "B1.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B1-04", "B1", "Khối lượng nước trong cơ thể",
+        f"Thể tích huyết tương bằng {{{{c1::{Y('5%')}}}}} trọng lượng cơ thể.",
+        "B1.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B2-01", "B2", "Nhu cầu nước theo cân nặng",
+        f"Nhu cầu nước của trẻ < 10 kg là {{{{c1::{Y('120–150 ml/kg/24h')}}}}}.",
+        "B2.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B2-02", "B2", "Nhu cầu nước theo cân nặng",
+        f"Nhu cầu nước của trẻ 10–40 kg là {{{{c1::{Y('70–110 ml/kg/24h')}}}}}.",
+        "B2.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B2-03", "B2", "Nhu cầu nước theo cân nặng",
+        f"Nhu cầu nước của trẻ > 40 kg là {{{{c1::{Y('40–50 ml/kg/24h')}}}}}.",
+        "B2.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B3-01", "B3", "Nguồn nước và nhu cầu duy trì",
+        f"Chuyển hóa 100 g Protid cho {{{{c1::{Y('56 ml')}}}}} nước.",
+        "B3.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B3-02", "B3", "Nguồn nước và nhu cầu duy trì",
+        f"Chuyển hóa 100 g Glucid cho {{{{c1::{Y('42 ml')}}}}} nước.",
+        "B3.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B3-03", "B3", "Nguồn nước và nhu cầu duy trì",
+        f"Chuyển hóa 100 g Lipid cho {{{{c1::{Y('107 ml')}}}}} nước.",
+        "B3.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B3-04", "B3", "Nguồn nước và nhu cầu duy trì",
+        f"Nước mất vô hình qua da – qua phổi – qua phân lần lượt là {{{{c1::{Y('30% – 15% – 5%')}}}}}.",
+        "B3.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B3-05", "B3", "Nguồn nước và nhu cầu duy trì",
+        f"Nước mất qua nước tiểu chiếm {{{{c1::{Y('50%')}}}}}.",
+        "B3.05", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B4-01", "B4", "Cách ước tính nhu cầu nước duy trì",
+        f"Ước tính nhu cầu nước duy trì theo diện tích da: {{{{c1::{Y('1500 ml/m²/24h')}}}}}.",
+        "B4.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B4-02", "B4", "Cách ước tính nhu cầu nước duy trì",
+        f"Ước tính nhu cầu nước duy trì theo năng lượng: {{{{c1::{Y('100–150 ml/100 kcal')}}}}}.",
+        "B4.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B4-03", "B4", "Cách ước tính nhu cầu nước duy trì",
+        f"Holliday–Segar: 10 kg đầu – 10 kg tiếp theo – sau 20 kg lần lượt là {{{{c1::{Y('100 – 50 – 20 ml/kg/24h')}}}}}.",
+        "B4.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-01", "B5", "Phân bố điện giải trong cơ thể",
+        f"Na⁺ huyết tương / trong tế bào: {{{{c1::{Y('145 / 5–10')}}}}}.",
+        "B5.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-02", "B5", "Phân bố điện giải trong cơ thể",
+        f"K⁺ huyết tương / trong tế bào: {{{{c1::{Y('3–5 / 150')}}}}}.",
+        "B5.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-03", "B5", "Phân bố điện giải trong cơ thể",
+        f"Ca⁺⁺ huyết tương / trong tế bào: {{{{c1::{Y('3–5 / 3')}}}}}.",
+        "B5.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-04", "B5", "Phân bố điện giải trong cơ thể",
+        f"Mg⁺⁺ huyết tương / trong tế bào: {{{{c1::{Y('2 / 30')}}}}}.",
+        "B5.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-05", "B5", "Phân bố điện giải trong cơ thể",
+        f"Cl⁻ huyết tương / trong tế bào: {{{{c1::{Y('103 / 5–10')}}}}}.",
+        "B5.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B5-06", "B5", "Phân bố điện giải trong cơ thể",
+        f"HCO₃⁻ huyết tương / trong tế bào: {{{{c1::{Y('26 / 10')}}}}}.",
+        "B5.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B6-01", "B6", "Nhu cầu điện giải",
+        f"Nhu cầu K⁺ mỗi ngày là {{{{c1::{Y('1–2 mEq/kg/24h')}}}}}.",
+        "B6.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B6-02", "B6", "Nhu cầu điện giải",
+        f"Nhu cầu Mg⁺⁺ mỗi ngày là {{{{c1::{Y('0,4–0,8 mEq/kg/24h')}}}}}.",
+        "B6.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B6-03", "B6", "Nhu cầu điện giải",
+        f"Nhu cầu Ca⁺⁺ mỗi ngày là {{{{c1::{Y('50–200 mg/kg/24h')}}}}}.",
+        "B6.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B7-01", "B7", "Đánh giá mức độ mất nước",
+        f"Chưa mất nước khi cân nặng giảm {{{{c1::{Y('≤ 5%')}}}}}.",
+        "B7.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B7-02", "B7", "Đánh giá mức độ mất nước",
+        f"Mất nước nhẹ và vừa khi cân nặng giảm {{{{c1::{Y('6–9%')}}}}}.",
+        "B7.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B7-03", "B7", "Đánh giá mức độ mất nước",
+        f"Mất nước nguy kịch khi cân nặng giảm {{{{c1::{Y('≥ 15%')}}}}}.",
+        "B7.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-01", "B8", "Các loại mất nước",
+        f"Lượng nước mất trong mất nước đẳng trương: {{{{c1::{Y('100–150 ml/kg')}}}}}.",
+        "B8.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-02", "B8", "Các loại mất nước",
+        f"Lượng nước mất trong mất nước ưu trương: {{{{c1::{Y('120–170 ml/kg')}}}}}.",
+        "B8.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-03", "B8", "Các loại mất nước",
+        f"Lượng nước mất trong mất nước nhược trương: {{{{c1::{Y('40–80 ml/kg')}}}}}.",
+        "B8.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-04", "B8", "Các loại mất nước",
+        f"Lượng Na mất trong mất nước đẳng trương: {{{{c1::{Y('7–11 mEq/kg')}}}}}.",
+        "B8.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-05", "B8", "Các loại mất nước",
+        f"Lượng Na mất trong mất nước ưu trương: {{{{c1::{Y('2–5 mEq/kg')}}}}}.",
+        "B8.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-06", "B8", "Các loại mất nước",
+        f"Lượng Na mất trong mất nước nhược trương: {{{{c1::{Y('10–14 mEq/kg')}}}}}.",
+        "B8.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-07", "B8", "Các loại mất nước",
+        f"Na máu trong mất nước đẳng trương: {{{{c1::{Y('130–150 mEq/l')}}}}}.",
+        "B8.05", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-08", "B8", "Các loại mất nước",
+        f"Na máu trong mất nước ưu trương: {{{{c1::{Y('> 150 mEq/l')}}}}}.",
+        "B8.05", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-09", "B8", "Các loại mất nước",
+        f"Áp lực thẩm thấu máu trong mất nước đẳng trương: {{{{c1::{Y('275–295 mOsmol/l')}}}}}.",
+        "B8.06", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-10", "B8", "Các loại mất nước",
+        f"Áp lực thẩm thấu máu trong mất nước ưu trương: {{{{c1::{Y('> 310 mOsmol/l')}}}}}.",
+        "B8.06", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B8-11", "B8", "Các loại mất nước",
+        f"Áp lực thẩm thấu máu trong mất nước nhược trương: {{{{c1::{Y('< 275 mOsmol/l')}}}}}.",
+        "B8.06", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B11-01", "B11", "VD1 — Mất nước đẳng trương",
+        f"VD1 (trẻ 5 kg, mất 10%, đẳng trương): lượng Na mất = 154 × 0,5 (l) = {{{{c1::{Y('77 mEq')}}}}}.",
+        "B11.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B11-02", "B11", "VD1 — Mất nước đẳng trương",
+        f"VD1: 92 mEq Na trong 1000 ml dịch truyền tương ứng {{{{c1::{Y('600 ml NaCl 9‰')}}}}}.",
+        "B11.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B12-01", "B12", "VD2 — Mất nước nhược trương",
+        f"Na cần điều chỉnh = {{{{c1::{Y('(Na mm − Na Bn) × 0,6 Po')}}}}}.",
+        "B12.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B12-02", "B12", "VD2 — Mất nước nhược trương",
+        f"VD2 trẻ 5 kg có Na 125: Na cần điều chỉnh = (135 − 125) × 0,6 × 5 = {{{{c1::{Y('30 mEq')}}}}}.",
+        "B12.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B12-03", "B12", "VD2 — Mất nước nhược trương",
+        f"VD2: 1000 ml dịch truyền cần có 107 + 15 = {{{{c1::{Y('122 mEq Na')}}}}}.",
+        "B12.06", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B13-01", "B13", "VD3 — Mất nước ưu trương",
+        f"Lượng nước không điện giải cần thiết = {{{{c1::{Y('Na Bn/Na mm × [0,6P − 0,6 Po]')}}}}}.",
+        "B13.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B13-02", "B13", "VD3 — Mất nước ưu trương",
+        f"VD3 trẻ 5 kg có Na 170: lượng nước không điện giải = 170/145 × [(0,6 × 5) − (0,6 × 4,5)] = {{{{c1::{Y('0,35 (350 ml)')}}}}}.",
+        "B13.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B13-03", "B13", "VD3 — Mất nước ưu trương",
+        f"VD3: lượng dịch có điện giải = 500 − 350 = 150 ml → Na mất = 154 × 0,15 = {{{{c1::{Y('23 mEq')}}}}}.",
+        "B13.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B13-04", "B13", "VD3 — Mất nước ưu trương",
+        f"VD3: 1000 ml dịch truyền cần có 15 + 23 = {{{{c1::{Y('38 mEq Na')}}}}}.",
+        "B13.05", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B15-01", "B15", "Hạ natri — phân loại theo khối lượng tuần hoàn",
+        f"Hạ natri: mốc natri niệu để chia nhóm nguyên nhân là {{{{c1::{Y('20 mEq/l')}}}}}.",
+        "B15.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B16-01", "B16", "Hạ natri — có shock hoặc triệu chứng thần kinh",
+        f"Hạ natri có shock do mất nước: bolus NaCl 0,9% {{{{c1::{Y('20 ml/kg/lần')}}}}}.",
+        "B16.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B16-02", "B16", "Hạ natri — có shock hoặc triệu chứng thần kinh",
+        f"Hạ natri có triệu chứng thần kinh khi Na {{{{c1::{Y('< 120 mEq/l')}}}}}.",
+        "B16.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B16-03", "B16", "Hạ natri — có shock hoặc triệu chứng thần kinh",
+        f"Hạ natri có triệu chứng thần kinh: truyền NaCl 3% {{{{c1::{Y('6–10 ml/kg/h')}}}}} bằng bơm tiêm điện.",
+        "B16.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B16-04", "B16", "Hạ natri — có shock hoặc triệu chứng thần kinh",
+        f"NaCl 3%: {{{{c1::{Y('4 ml/kg')}}}}} làm tăng Na lên 3 mEq/l.",
+        "B16.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B16-05", "B16", "Hạ natri — có shock hoặc triệu chứng thần kinh",
+        f"Hạ natri có triệu chứng thần kinh: lặp lại liều đến khi Na máu {{{{c1::{Y('> 125 mEq/l')}}}}}.",
+        "B16.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B17-01", "B17", "Hạ natri — không shock, không triệu chứng thần kinh",
+        f"Na⁺ thiếu = {{{{c1::{Y('0,6 × P × (135 − Na⁺bn)')}}}}}.",
+        "B17.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B18-01", "B18", "Hạ natri do SIADH",
+        f"SIADH: cho Na theo nhu cầu {{{{c1::{Y('3 mEq/100 ml')}}}}} dịch truyền.",
+        "B18.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B18-02", "B18", "Hạ natri do SIADH",
+        f"SIADH: Furocemid {{{{c1::{Y('0,5 mg/kg')}}}}} tiêm tĩnh mạch.",
+        "B18.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B19-01", "B19", "Tăng natri máu",
+        f"Tăng natri máu khi Na⁺ {{{{c1::{Y('> 150 mEq/l')}}}}}.",
+        "B19.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B19-02", "B19", "Tăng natri máu",
+        f"Tăng natri máu: giảm Na máu từ từ, không quá {{{{c1::{Y('12–15 mEq/l/24h')}}}}}.",
+        "B19.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B19-03", "B19", "Tăng natri máu",
+        f"Tăng natri có shock: sau khi huyết động ổn định truyền G5% in NaCl {{{{c1::{Y('0,45%')}}}}}.",
+        "B19.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B19-04", "B19", "Tăng natri máu",
+        f"Tăng natri không có shock: truyền G5% in NaCl {{{{c1::{Y('0,2%')}}}}}.",
+        "B19.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B20-01", "B20", "Hạ kali máu — định nghĩa, nguyên nhân",
+        f"Hạ kali 2,5 < K⁺ < 3,5: uống K {{{{c1::{Y('3–5 mEq/kg/24h')}}}}}.",
+        "B20.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B20-02", "B20", "Hạ kali máu — định nghĩa, nguyên nhân",
+        f"Hạ kali 2,5 < K⁺ < 3,5: uống K trong {{{{c1::{Y('3–5 ngày')}}}}}.",
+        "B20.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B21-01", "B21", "Hạ kali máu — K⁺ < 2,5",
+        f"K⁺ < 2,5 không triệu chứng tim mạch: KCl 10% liều {{{{c1::{Y('0,3 mEq/kg/h')}}}}} × 4h.",
+        "B21.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B21-02", "B21", "Hạ kali máu — K⁺ < 2,5",
+        f"K⁺ < 2,5 có triệu chứng tim mạch: KCl 10% liều {{{{c1::{Y('0,3–0,5 mEq/kg/h')}}}}} × 4h.",
+        "B21.02", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B21-03", "B21", "Hạ kali máu — K⁺ < 2,5",
+        f"X ml KCl 10% = {{{{c1::{Y('(4,5 − K Bn) × P/10')}}}}}.",
+        "B21.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B21-04", "B21", "Hạ kali máu — K⁺ < 2,5",
+        f"Truyền KCl khi K⁺ < 2,5 (B21.01–B21.02): pha với Glucose 5% tỉ lệ {{{{c1::{Y('1:3')}}}}}.",
+        "B21.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B21-05", "B21", "Hạ kali máu — K⁺ < 2,5",
+        f"Pha loãng 1 ml KCl 10% với {{{{c1::{Y('9 ml G5%')}}}}}, truyền TM trong 4h bằng bơm tiêm điện.",
+        "B21.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B22-01", "B22", "Tăng kali máu",
+        f"Tăng kali máu: tiêm chậm CaCl₂ {{{{c1::{Y('25 mg/kg')}}}}}.",
+        "B22.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B22-02", "B22", "Tăng kali máu",
+        f"Tăng kali máu: truyền Glucose và Insulin liều {{{{c1::{Y('0,5 g/kg và 0,1 UI/kg')}}}}}.",
+        "B22.03", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B23-01", "B23", "Hạ canxi máu",
+        f"Hạ canxi máu khi Canxi toàn phần {{{{c1::{Y('< 2,5 mEq/l')}}}}}.",
+        "B23.01", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B23-02", "B23", "Hạ canxi máu",
+        f"Hạ canxi máu: Canxi gluconate 10% {{{{c1::{Y('0,5–1 ml/kg')}}}}} tiêm tĩnh mạch chậm.",
+        "B23.04", ["Cloze-so-lieu"],
+    ),
+    cloze(
+        "PED50-CN-B23-03", "B23", "Hạ canxi máu",
+        f"Hạ canxi máu: Canxi clorua 10% {{{{c1::{Y('0,2–0,3 ml/kg')}}}}} tiêm tĩnh mạch chậm.",
+        "B23.04", ["Cloze-so-lieu"],
+    ),
+]
