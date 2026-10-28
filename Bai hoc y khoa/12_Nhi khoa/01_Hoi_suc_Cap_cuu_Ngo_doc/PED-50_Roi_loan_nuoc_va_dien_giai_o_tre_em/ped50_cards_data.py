@@ -23,10 +23,9 @@ def B(t):  # tên bệnh / phân loại / thực thể
     return _c("#74c0fc", t)
 
 
-KCL_NOTE = (" <br><b>⚖️ Đối chiếu (Ngoài barem):</b> barem ghi hai tỉ lệ pha khác nhau — pha G5% tỉ lệ 1:3 (B21.01, B21.02) và "
-            "1 ml KCl 10% + 9 ml G5% ≈ 1:9 (B21.04). KCl 10% ≈ 1,34 mEq/ml nên pha 1:3 ≈ 0,33 mEq/ml, pha 1:9 ≈ 0,13 mEq/ml; "
-            "cả hai đều đậm hơn nhiều so với nồng độ thường truyền qua tĩnh mạch ngoại vi (khoảng 40–80 mEq/l). "
-            "Khi thi ghi đúng từng câu theo barem; trên lâm sàng theo phác đồ của khoa.")
+KCL_NOTE = ("<br><br><b>📝 Ghi chú barem:</b> barem ghi hai tỉ lệ pha khác nhau — pha G5% tỉ lệ 1:3 (B21.01, B21.02) và "
+            "1 ml KCl 10% + 9 ml G5% (B21.04). KCl 10% ≈ 1,34 mEq/ml (100 mg/ml ÷ 74,55) nên pha 1:3 ≈ 0,33 mEq/ml, "
+            "pha 1 + 9 ≈ 0,13 mEq/ml. Khi thi ghi đúng từng câu theo barem, không gộp làm một; trên lâm sàng theo phác đồ của khoa.")
 
 BADGE = ("🏛️ BAREM GỐC · SLIDE BỘ MÔN NHI", "badge-barem")
 SRC = "📖 Nguồn: Handout slide bài giảng Rối loạn nước điện giải ở trẻ em — Bộ môn Nhi ĐHYDTB (ThS.BSCKII. Khúc Văn Lập). Barem: "
@@ -753,16 +752,16 @@ cards_data = [
         f"{B('[K⁺ < 2,5 không triệu chứng tim mạch]')} Nếu K⁺ < 2,5 mmol/l không có triệu chứng tim mạch, truyền KCl như thế nào?",
         f"KCl 10% liều {G('0,3 mEq/kg/h × 4h')}, pha với Dd {G('Glucose 5% tỉ lệ 1:3')}, truyền trong {Y('4 giờ')}.",
         "Đây là truyền KCl có kiểm soát trong 4 giờ, liều 0,3 mEq/kg/h. Pha loãng và truyền chậm để tránh tăng kali máu đột ngột "
-        "và tổn thương tĩnh mạch.",
-        "B21.01" + KCL_NOTE, ["Ha-kali-nang"],
+        "và tổn thương tĩnh mạch." + KCL_NOTE,
+        "B21.01", ["Ha-kali-nang"],
     ),
     basic(
         "PED50-B21-02", "B21", "Hạ kali máu — K⁺ < 2,5", 1,
         f"{B('[K⁺ < 2,5 có triệu chứng tim mạch]')} Nếu K⁺ < 2,5 mmol/l có triệu chứng tim mạch, truyền KCl như thế nào?",
         f"KCl 10% liều {G('0,3–0,5 mEq/kg/h × 4h')}, pha với Dd {G('Glucose 5% tỉ lệ 1:3')}, truyền trong {Y('4 giờ')}.",
         "Khi có triệu chứng tim mạch, liều cao hơn một chút (0,3–0,5 mEq/kg/h) để nhanh chóng ổn định nhịp tim, vẫn truyền trong 4 giờ "
-        "và pha loãng như nhánh trước.",
-        "B21.02" + KCL_NOTE, ["Ha-kali-nang"],
+        "và pha loãng như nhánh trước." + KCL_NOTE,
+        "B21.02", ["Ha-kali-nang"],
     ),
     basic(
         "PED50-B21-03", "B21", "Hạ kali máu — K⁺ < 2,5", 2,
@@ -776,8 +775,8 @@ cards_data = [
         "PED50-B21-04", "B21", "Hạ kali máu — K⁺ < 2,5", 2,
         f"{B('[Pha loãng KCl 10%]')} Cách pha loãng KCl 10% để truyền tĩnh mạch trong 4 giờ?",
         f"Pha {G('1 ml KCl 10% với 9 ml G5%')}, truyền tĩnh mạch trong {Y('4 giờ')} bằng {G('bơm tiêm điện')}.",
-        "Pha loãng 10 lần để giảm nồng độ KCl trong dịch truyền; dùng bơm tiêm điện để kiểm soát tốc độ đúng 4 giờ.",
-        "B21.04" + KCL_NOTE, ["Pha-KCl"],
+        "Pha loãng 10 lần để giảm nồng độ KCl trong dịch truyền; dùng bơm tiêm điện để kiểm soát tốc độ đúng 4 giờ." + KCL_NOTE,
+        "B21.04", ["Pha-KCl"],
     ),
     algo(
         "PED50-ALGO-08", "B21", "Hạ kali máu — truyền KCl theo mức K⁺ và triệu chứng tim mạch",
@@ -789,8 +788,8 @@ cards_data = [
         f"5) Pha loãng {G('1 ml KCl 10% với 9 ml G5%')}, truyền tĩnh mạch trong {Y('4h')} bằng {G('bơm tiêm điện')}.",
         "Triệu chứng tim mạch quyết định liều trên (0,3 hay 0,3–0,5 mEq/kg/h). Barem ghi hai cách pha ở hai slide khác nhau "
         "(pha G5% tỉ lệ 1:3 và pha 1 ml KCl 10% với 9 ml G5%) — nhớ đúng từng câu, không gộp làm một. Mọi trường hợp đều "
-        "truyền trong 4 giờ để tránh tăng kali nhanh.",
-        "B21.01, B21.02, B21.03, B21.04" + KCL_NOTE, ["Luu-do", "Ha-kali-nang"],
+        "truyền trong 4 giờ để tránh tăng kali nhanh." + KCL_NOTE,
+        "B21.01, B21.02, B21.03, B21.04", ["Luu-do", "Ha-kali-nang"],
     ),
 
     # ------------------------------------------------------------ B22. Tăng kali máu
