@@ -422,6 +422,88 @@ cards_data = [
         f"MUAC đọc chính xác đến {{{{c1::{Y('1 mm')}}}}}.",
         "3. Đo nhân trắc", ["MUAC"],
     ),
+    basic(
+        "PED68-S3-13", "S3", "Nếp gấp da", 2,
+        f"{B('[Nếp gấp da cơ tam đầu – TSF]')} Đo nếp gấp da cơ tam đầu bằng dụng cụ gì, độ chính xác bao nhiêu, ở vị trí nào "
+        f"và kỹ thuật véo – đọc thế nào?",
+        f"1) Dụng cụ: {G('compa đo nếp gấp da')} (Harpenden/Holtain, lực ép chuẩn); đọc đến {Y('0,1–0,2 mm')}.<br>"
+        f"2) Vị trí: {G('tay trái buông thõng')}, tại {G('điểm giữa đã đánh dấu khi đo MUAC')}, {G('mặt sau')} cánh tay.<br>"
+        f"3) Kỹ thuật: véo nếp da {G('dọc')} cách điểm đánh dấu khoảng {Y('1 cm')} phía trên, kéo tách khỏi cơ; đặt má compa "
+        f"tại điểm đánh dấu; đọc sau {Y('2–3 giây')}; đo {Y('2–3 lần')} lấy trung bình.",
+        "Nếp da phải gồm hai lớp da và mỡ dưới da, không kẹp cơ. Đọc ngay khi thả compa thì số đo cao giả; chờ lâu mỡ bị ép "
+        "thì số đo giảm dần, nên quy định đọc sau 2–3 giây để các lần đo so sánh được.",
+        "3. Đo nhân trắc", ["Nep-gap-da"], asks=["Dụng cụ", "Vị trí", "Kỹ thuật"],
+    ),
+    basic(
+        "PED68-S3-14", "S3", "Nếp gấp da", 2,
+        f"{B('[Nếp gấp da dưới bả vai và chuẩn tham chiếu]')} Nếp gấp da dưới xương bả vai: vị trí đo, hướng véo? "
+        f"Chuẩn WHO cho nếp gấp da áp dụng ở tuổi nào, và trẻ lớn hơn dùng tham chiếu gì?",
+        f"1) Vị trí: ngay {G('dưới góc dưới xương bả vai trái')}.<br>"
+        f"2) Hướng véo: {G('chéo khoảng 45°')}, xuống dưới – ra ngoài theo nếp da tự nhiên.<br>"
+        f"3) Chuẩn: {B('WHO 2007')} có TSF/tuổi và nếp gấp dưới bả vai/tuổi cho trẻ {Y('3 tháng – 5 tuổi')}.<br>"
+        f"4) Trẻ lớn hơn: tham chiếu {B('NHANES (Frisancho)')}.",
+        "Nếp gấp dưới bả vai phản ánh mỡ thân mình, nếp gấp cơ tam đầu phản ánh mỡ chi; hai số đo bổ sung nhau khi đánh giá "
+        "phân bố mỡ.",
+        "3. Đo nhân trắc", ["Nep-gap-da"], asks=["Vị trí", "Hướng véo", "Chuẩn", "Trẻ lớn hơn"],
+    ),
+    basic(
+        "PED68-S3-15", "S3", "Nếp gấp da", 1,
+        f"{B('[Vai trò của nếp gấp da]')} Nêu lý do nếp gấp da {R('không nằm trong bộ chẩn đoán SDD')} của WHO, chỉ số suy ra "
+        f"từ TSF, và khi nào đo?",
+        f"1) Lý do: {R('sai số giữa người đo lớn')}, cần người được huấn luyện và compa hiệu chuẩn; {R('vô giá trị khi có phù')}.<br>"
+        f"2) Chỉ số suy ra: {G('chu vi cơ cánh tay = MUAC − π × TSF')} (cùng đơn vị) → tách {B('cơ')} với {B('mỡ')}.<br>"
+        f"3) Khi nào đo: đánh giá thành phần cơ thể ở {Y('bệnh mạn')} (xơ nang, suy thận mạn, ung thư, bại não), "
+        f"{Y('béo phì')}, nghiên cứu.",
+        "MUAC gồm cả cơ và mỡ. Trẻ bệnh mạn có thể giữ MUAC nhờ mỡ trong khi cơ đã teo; trừ phần mỡ (π × TSF) mới thấy "
+        "được khối cơ thật.",
+        "3. Đo nhân trắc", ["Nep-gap-da"], asks=["Lý do", "Chỉ số suy ra", "Khi nào đo"],
+    ),
+    basic(
+        "PED68-S3-16", "S3", "Phù dinh dưỡng", 1,
+        f"{B('[Chẩn đoán phù dinh dưỡng]')} Nêu điều kiện chẩn đoán phù dinh dưỡng; dấu hiệu gợi ý các nguyên nhân phù cần loại trừ "
+        f"(hội chứng thận hư, viêm cầu thận, suy tim, bệnh gan); và gợi ý kwashiorkor?",
+        f"1) Điều kiện: phù {G('ấn lõm')} + {G('cả hai bên')} (bắt đầu từ bàn chân) + {G('đã loại trừ nguyên nhân khác')}.<br>"
+        f"2) Hội chứng thận hư: phù mi mắt buổi sáng, {Y('que thử protein niệu 3+–4+')}.<br>"
+        f"3) Viêm cầu thận: {R('tiểu máu, tăng huyết áp')}.<br>"
+        f"4) Suy tim: {R('thở nhanh, gan to, ngựa phi')}.<br>"
+        f"5) Bệnh gan: {R('vàng da, cổ trướng')} (thêm bệnh ruột mất protein).<br>"
+        f"6) Gợi ý kwashiorkor: da bong vảy “sơn tróc”, tóc thưa mất màu dễ nhổ, gan to, trẻ thờ ơ.",
+        "Phù dinh dưỡng là chẩn đoán loại trừ. Que thử protein niệu là xét nghiệm tại giường rẻ nhất để tách hội chứng thận hư — "
+        "nguyên nhân phù hai bên hay gặp nhất ở trẻ không suy dinh dưỡng.",
+        "3. Đo nhân trắc", ["Phu"], asks=["Điều kiện", "Hội chứng thận hư", "Viêm cầu thận", "Suy tim",
+                                         "Bệnh gan", "Gợi ý kwashiorkor"],
+    ),
+    basic(
+        "PED68-S3-17", "S3", "MUAC", 2,
+        f"{B('[MUAC tay trái]')} Vì sao MUAC đo ở {G('tay trái')}, và làm gì khi tay trái không đo được?",
+        f"1) {G('Chuẩn hoá')}: tay không thuận ở đa số trẻ → ít bị ảnh hưởng bởi phát triển cơ do vận động.<br>"
+        f"2) Chuẩn và ngưỡng WHO ({Y('115 / 125 mm')}) xây dựng trên số đo {G('tay trái')}.<br>"
+        f"3) Tay trái bó bột, vết thương, đường truyền, liệt → {G('đo tay phải và ghi rõ')} trong hồ sơ.",
+        "Chênh lệch giữa hai tay chỉ vài mm, nhưng hai ngưỡng phân loại chỉ cách nhau 10 mm, nên đổi tay giữa các lần đo có thể "
+        "làm đổi kết quả phân loại.",
+        "3. Đo nhân trắc", ["MUAC"],
+    ),
+    basic(
+        "PED68-S3-18", "S3", "Mất lớp mỡ dưới da", 2,
+        f"{B('[Mất lớp mỡ dưới da]')} Giáo trình cũ chia độ SDD theo thứ tự mất lớp mỡ dưới da thế nào, và theo EBM hiện nay "
+        f"dấu hiệu này còn dùng ra sao?",
+        f"1) Thứ tự mất mỡ: {Y('bụng')} → {Y('mông, chi')} → {Y('má')} (“mặt cụ già”).<br>"
+        f"2) Hiện nay: chỉ là {G('dấu hiệu lâm sàng')} gợi ý gầy còm kéo dài, vẫn mô tả trong bệnh án.<br>"
+        f"3) {R('Không dùng để phân độ')} — phân loại bằng {B('Z-score, MUAC, phù')}.",
+        "Nhìn và véo da bụng là đánh giá chủ quan, không có ngưỡng, khác nhau giữa người khám; Z-score và MUAC có ngưỡng gắn "
+        "với nguy cơ tử vong nên thay thế được.",
+        "3. Đo nhân trắc", ["Mo-duoi-da", "Cach-cu"],
+    ),
+    cloze(
+        "PED68-S3-C4", "S3", "Nếp gấp da",
+        f"Chu vi cơ cánh tay = {{{{c1::{G('MUAC − π × TSF')}}}}} (cùng đơn vị đo).",
+        "3. Đo nhân trắc", ["Nep-gap-da"],
+    ),
+    cloze(
+        "PED68-S3-C5", "S3", "Nếp gấp da",
+        f"Chuẩn WHO 2007 cho nếp gấp da cơ tam đầu và dưới bả vai áp dụng cho trẻ {{{{c1::{Y('3 tháng – 5 tuổi')}}}}}.",
+        "3. Đo nhân trắc", ["Nep-gap-da"],
+    ),
 
     # ------------------------------------------------------------ S4. Ý nghĩa chỉ số & phân loại 0–59 tháng
     basic(
@@ -808,5 +890,32 @@ cards_data = [
         f"6) {R('KHÔNG')}: kết luận khi gặp {R('Z-score cờ')} (HAZ ±6, WHZ ±5, WAZ −6/+5) hay {R('chiều cao “giảm”')} — đo lại trước.",
         "Phần lớn “bất thường” trên biểu đồ ở phòng khám là lỗi đo hoặc nhập liệu. Ba KHÔNG ở trên chặn ba nguồn sai số hay gặp nhất.",
         "3. Đo nhân trắc", ["Ky-thuat-do"],
+    ),
+    algo(
+        "PED68-A-06", "S4", "Chiến lược đo",
+        "Bộ đo tối thiểu theo tuổi",
+        f"1) {Y('< 2 tuổi')}: {G('CN, chiều dài nằm, vòng đầu, phù')}; MUAC từ 6 tháng.<br>"
+        f"2) {Y('2–5 tuổi')}: {G('CN, chiều cao đứng, MUAC, phù')}; vòng đầu khi nghi bất thường thần kinh.<br>"
+        f"3) {Y('5–19 tuổi')}: {G('CN, chiều cao, BMI/tuổi')}; {G('Tanner')} từ {Y('8 tuổi (nữ) / 9 tuổi (nam)')} hoặc khi nghi "
+        f"dậy thì sớm/muộn.<br>"
+        f"4) {R('Trẻ thấp')}: thêm {G('tỷ lệ cơ thể')}, {G('chiều cao bố mẹ đo trực tiếp')}, {G('tốc độ tăng chiều cao')}.<br>"
+        f"5) Cần biết {B('cơ hay mỡ')}: thêm {G('nếp gấp da')}, chu vi cơ cánh tay.",
+        "Đo đủ bộ tối thiểu đúng kỹ thuật có giá trị hơn đo nhiều chỉ số qua loa. Các phép đo theo chỉ định chỉ làm khi có "
+        "câu hỏi lâm sàng cần chúng trả lời.",
+        "4.0 Chiến lược dùng chỉ số", ["Chien-luoc"],
+    ),
+    algo(
+        "PED68-A-07", "S4", "Chiến lược đọc",
+        "Câu hỏi lâm sàng → chỉ số chính",
+        f"1) {R('SDD cấp?')} → {B('WHZ')} (0–5 tuổi) / {B('BMI/tuổi')} (5–19 tuổi) + {B('MUAC')} + {B('phù')}: "
+        f"{G('một tiêu chí dương tính là đủ')}.<br>"
+        f"2) {R('Thấp còi?')} → {B('HAZ')} {Y('< −2 SD')}.<br>"
+        f"3) {R('Thừa cân/béo phì?')} → WHZ/BMIz: {Y('< 5 tuổi > +2 / > +3')}; {Y('5–19 tuổi > +1 / > +2')}.<br>"
+        f"4) {R('Não?')} → {B('vòng đầu/tuổi')} {Y('< −2 hoặc > +2 SD')}, hoặc cắt kênh.<br>"
+        f"5) {B('WAZ')} → chỉ {G('sàng lọc, theo dõi')}, {R('không kết luận một mình')}.<br>"
+        f"6) Mọi chỉ số → {G('đọc theo thời gian')}: cắt {Y('≥ 2 đường bách phân vị')} là bất thường dù Z-score còn > −2.",
+        "WHZ và MUAC phát hiện những nhóm trẻ chỉ trùng một phần, nên dùng cả hai. WAZ lẫn cả thấp còi lẫn gầy còm nên không "
+        "cho biết trẻ thiếu cấp hay mạn.",
+        "4.0 Chiến lược dùng chỉ số", ["Chien-luoc"],
     ),
 ]
