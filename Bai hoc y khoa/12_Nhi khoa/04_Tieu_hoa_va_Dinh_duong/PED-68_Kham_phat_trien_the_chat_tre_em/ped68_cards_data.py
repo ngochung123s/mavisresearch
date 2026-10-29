@@ -894,7 +894,8 @@ cards_data = [
     algo(
         "PED68-A-06", "S4", "Chiến lược đo",
         "Bộ đo tối thiểu theo tuổi",
-        f"1) {Y('< 2 tuổi')}: {G('CN, chiều dài nằm, vòng đầu, phù')}; MUAC từ 6 tháng.<br>"
+        f"1) {Y('< 2 tuổi')}: {G('CN, chiều dài nằm, vòng đầu, phù')}; MUAC từ {Y('6 tuần')} (ngưỡng {Y('115/125 mm')} chỉ cho "
+        f"{Y('6–59 tháng')}; {Y('6 tuần – < 6 tháng')} dùng {Y('< 110 mm')}).<br>"
         f"2) {Y('2–5 tuổi')}: {G('CN, chiều cao đứng, MUAC, phù')}; vòng đầu khi nghi bất thường thần kinh.<br>"
         f"3) {Y('5–19 tuổi')}: {G('CN, chiều cao, BMI/tuổi')}; {G('Tanner')} từ {Y('8 tuổi (nữ) / 9 tuổi (nam)')} hoặc khi nghi "
         f"dậy thì sớm/muộn.<br>"
