@@ -1,0 +1,1274 @@
+{
+  "deck_id": 170968001,
+  "deck_name": "Nhi khoa Y6::PED-68: Khám phát triển thể chất trẻ em theo EBM",
+  "card_count": 69,
+  "cards": [
+    {
+      "id": "PED68-S1-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Nguyên tắc",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nguyên tắc EBM]</b></span> Theo EBM, đánh giá phát triển thể chất trẻ em dựa trên 3 nguyên tắc nào (thay cho <span style=\"color:#ff6b6b\"><b>công thức ước tính theo tuổi</b></span>)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đo đúng kỹ thuật chuẩn hoá</b></span>: dụng cụ, tư thế, độ chính xác, đo lặp.<br>2) <span style=\"color:#51cf66\"><b>Quy đổi ra Z-score / bách phân vị</b></span> trên <span style=\"color:#74c0fc\"><b>chuẩn tham chiếu đúng</b></span> theo tuổi, giới (và <span style=\"color:#ffd43b\"><b>tuổi hiệu chỉnh</b></span> nếu sinh non).<br>3) <span style=\"color:#51cf66\"><b>Diễn giải động</b></span>: đường tăng trưởng qua nhiều lần đo, tốc độ tăng trưởng, so với tiềm năng di truyền — <span style=\"color:#ff6b6b\"><b>không kết luận từ một lần đo</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Công thức kiểu <span style=\"color:#ff6b6b\"><b>“9 + 2(N−1)” kg</b></span> hay <span style=\"color:#ff6b6b\"><b>“75 + 5(N−1)” cm</b></span> chỉ cho con số trung bình, không cho biết trẻ lệch bao nhiêu so với quần thể chuẩn. Z-score trả lời đúng câu hỏi đó: trẻ cách trung vị bao nhiêu độ lệch chuẩn. Mốc dễ nhớ: <span style=\"color:#ffd43b\"><b>−2 SD ≈ bách phân vị 2,3</b></span>, <span style=\"color:#ffd43b\"><b>+2 SD ≈ bách phân vị 97,7</b></span>, <span style=\"color:#ffd43b\"><b>−3 SD ≈ bách phân vị 0,1</b></span>.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: Nguyên tắc cốt lõi",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Nguyen-tac"
+      ]
+    },
+    {
+      "id": "PED68-S1-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Chuẩn tham chiếu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuẩn tham chiếu]</b></span> Dùng chuẩn nào cho: <span style=\"color:#ffd43b\"><b>trẻ 0–5 tuổi</b></span>, <span style=\"color:#ffd43b\"><b>trẻ 5–19 tuổi</b></span>, <span style=\"color:#ffd43b\"><b>trẻ sinh non</b></span> và khi cần <span style=\"color:#ff6b6b\"><b>phân độ béo phì nặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Trẻ 0–5 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>WHO Child Growth Standards (2006)</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Trẻ 5–19 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>WHO Growth Reference (2007)</b></span> — BMI/tuổi, chiều cao/tuổi.<br>3) <span style=\"color:#ffd43b\"><b>Trẻ sinh non</b></span>: <span style=\"color:#74c0fc\"><b>INTERGROWTH-21st Postnatal Growth Standards for Preterm Infants</b></span> đến <span style=\"color:#ffd43b\"><b>64 tuần PMA</b></span>, sau đó chuyển sang WHO theo <span style=\"color:#ffd43b\"><b>tuổi hiệu chỉnh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Béo phì nặng</b></span> cần phân độ (tham khảo): <span style=\"color:#74c0fc\"><b>AAP CPG 2023 + CDC Extended BMI-for-age (2022)</b></span>, trẻ 2–19 tuổi.<br><br><b>💡 Giải thích của AI:</b><br>Ở Việt Nam đánh giá thường quy vẫn theo <span style=\"color:#74c0fc\"><b>WHO Z-score</b></span>; khi dùng AAP/CDC phải ghi rõ chuẩn đã dùng trong bệnh án. Fenton (2013) là biểu đồ sinh non thay thế phổ biến trong NICU.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuan-tham-chieu"
+      ]
+    },
+    {
+      "id": "PED68-S1-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Chuẩn tham chiếu",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[WHO 2006]</b></span> Vì sao <span style=\"color:#74c0fc\"><b>WHO Child Growth Standards 2006</b></span> được gọi là “chuẩn” (standard) chứ không chỉ là “tham chiếu”? Trẻ trong mẫu xây dựng có đặc điểm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mẫu: trẻ <span style=\"color:#51cf66\"><b>bú mẹ</b></span>, sống trong <span style=\"color:#51cf66\"><b>môi trường tối ưu</b></span> (dinh dưỡng, y tế, không hút thuốc), từ <span style=\"color:#ffd43b\"><b>6 quốc gia</b></span>.<br>2) Ý nghĩa: mô tả trẻ <span style=\"color:#51cf66\"><b>nên lớn thế nào</b></span> (chuẩn quy định), không chỉ trẻ <span style=\"color:#ff6b6b\"><b>đang lớn thế nào</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì mẫu được chọn trong điều kiện tối ưu ở nhiều châu lục, chuẩn WHO áp dụng được cho mọi trẻ bất kể chủng tộc — trẻ Việt Nam lệch khỏi chuẩn là do môi trường/bệnh, không phải “gen người Việt nhỏ”. Ngược lại, <span style=\"color:#74c0fc\"><b>WHO 2007</b></span> cho 5–19 tuổi là <span style=\"color:#74c0fc\"><b>tham chiếu</b></span> (reference) dựng lại từ số liệu NCHS 1977.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuan-tham-chieu"
+      ]
+    },
+    {
+      "id": "PED68-S1-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Công cụ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Công cụ tính Z-score]</b></span> Kể các công cụ tính Z-score cho <span style=\"color:#ffd43b\"><b>0–5 tuổi</b></span>, <span style=\"color:#ffd43b\"><b>5–19 tuổi</b></span>, <span style=\"color:#ffd43b\"><b>trẻ sinh non</b></span> và lý do không nên ước lượng bằng mắt trên biểu đồ.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>0–5 tuổi</b></span>: <span style=\"color:#51cf66\"><b>WHO Anthro</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>5–19 tuổi</b></span>: <span style=\"color:#51cf66\"><b>WHO AnthroPlus</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Sinh non</b></span>: <span style=\"color:#51cf66\"><b>INTERGROWTH-21st online calculator</b></span>.<br>4) Lý do: tính <span style=\"color:#51cf66\"><b>Z-score chính xác</b></span>, tránh <span style=\"color:#ff6b6b\"><b>sai số nội suy bằng mắt</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khi chấm tay, sai lệch nửa ô lưới ở vùng gần −2 SD có thể đổi kết luận từ “bình thường” sang “SDD vừa”. Phần mềm dùng phương pháp LMS của WHO nên xử lý đúng cả phân bố lệch của cân nặng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cong-cu"
+      ]
+    },
+    {
+      "id": "PED68-S1-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Chuẩn tham chiếu",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[WHO 2007]</b></span> Với trẻ 5–19 tuổi, chỉ số <span style=\"color:#74c0fc\"><b>cân nặng/tuổi</b></span> dùng được đến bao nhiêu tuổi và sau đó thay bằng chỉ số nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CN/tuổi</b></span> chỉ có đến <span style=\"color:#ffd43b\"><b>10 tuổi</b></span>.<br>2) Sau <span style=\"color:#ffd43b\"><b>10 tuổi</b></span>: dùng <span style=\"color:#74c0fc\"><b>BMI/tuổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Từ khoảng 10 tuổi, cân nặng bị dậy thì chi phối mạnh (trẻ cao nhanh nặng nhanh) nên CN/tuổi không còn phân biệt được trẻ gầy với trẻ chỉ đơn giản là thấp/chưa dậy thì; BMI/tuổi điều chỉnh theo chiều cao nên phù hợp hơn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuan-tham-chieu"
+      ]
+    },
+    {
+      "id": "PED68-S1-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Sinh non",
+      "tier": 2,
+      "text": "Trẻ sinh non chấm trên INTERGROWTH-21st đến {{c1::<span style=\"color:#ffd43b\"><b>64 tuần tuổi sau kinh cuối (PMA) – tức 6 tháng tuổi hiệu chỉnh</b></span>}}, rồi chuyển sang biểu đồ WHO.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Sinh-non"
+      ]
+    },
+    {
+      "id": "PED68-S2-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Hỏi bệnh",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hỏi bệnh]</b></span> Hỏi bệnh khi khám phát triển thể chất nhằm 3 mục tiêu nào và gồm 6 nhóm nội dung nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Mục tiêu</b></span>: xác định <span style=\"color:#ffd43b\"><b>tuổi chính xác</b></span>, <span style=\"color:#51cf66\"><b>tiềm năng tăng trưởng</b></span> (chu sinh, di truyền) và <span style=\"color:#ff6b6b\"><b>yếu tố làm lệch đường tăng trưởng</b></span> (dinh dưỡng, bệnh, thuốc, tâm lý xã hội).<br>2) <span style=\"color:#74c0fc\"><b>Nội dung (6 nhóm)</b></span>: <span style=\"color:#ffd43b\"><b>tuổi</b></span> — <span style=\"color:#74c0fc\"><b>tiền sử chu sinh</b></span> — <span style=\"color:#51cf66\"><b>dinh dưỡng</b></span> — <span style=\"color:#ff6b6b\"><b>bệnh lý và thuốc</b></span> — <span style=\"color:#74c0fc\"><b>gia đình</b></span> — <span style=\"color:#51cf66\"><b>số đo cũ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự hỏi đi từ “trẻ bắt đầu từ đâu” (tuổi, chu sinh, di truyền) đến “điều gì kéo trẻ lệch đi” (ăn, bệnh, thuốc, hoàn cảnh), cuối cùng là bằng chứng lệch thế nào (số đo cũ).",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2. Hỏi bệnh",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Hoi-benh"
+      ],
+      "asks": [
+        "Mục tiêu",
+        "Nội dung"
+      ]
+    },
+    {
+      "id": "PED68-S2-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Tuổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tuổi hiệu chỉnh]</b></span> Viết công thức tính <span style=\"color:#ffd43b\"><b>tuổi hiệu chỉnh</b></span> cho trẻ sinh non, cho biết dùng đến bao lâu, và tính ví dụ: sinh <span style=\"color:#ffd43b\"><b>32 tuần</b></span>, nay <span style=\"color:#ffd43b\"><b>6 tháng</b></span> tuổi thực.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Công thức</b></span>: tuổi hiệu chỉnh = tuổi thực − (<span style=\"color:#ffd43b\"><b>40</b></span> − tuổi thai lúc sinh) tuần.<br>2) <span style=\"color:#51cf66\"><b>Thời gian dùng</b></span>: cho mọi chỉ số đến <span style=\"color:#ffd43b\"><b>ít nhất 24 tháng</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Ví dụ</b></span>: non <span style=\"color:#ffd43b\"><b>8 tuần (≈ 2 tháng)</b></span> → tuổi hiệu chỉnh ≈ <span style=\"color:#ffd43b\"><b>4 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không hiệu chỉnh tuổi sẽ so trẻ sinh non với trẻ đủ tháng lớn hơn → <span style=\"color:#ff6b6b\"><b>chẩn đoán nhầm SDD/thấp còi</b></span>. Ngày sinh cũng phải lấy chính xác đến ngày: ở nhũ nhi, sai vài tuần tuổi đã làm Z-score lệch đáng kể.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.1 Tuổi",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Tuoi",
+        "Sinh-non"
+      ]
+    },
+    {
+      "id": "PED68-S2-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Chu sinh",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tiền sử chu sinh]</b></span> Khi khám phát triển thể chất cần hỏi những gì về giai đoạn chu sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tuổi thai</b></span>; <span style=\"color:#ffd43b\"><b>cân nặng – chiều dài – vòng đầu lúc sinh</b></span> → phân loại <span style=\"color:#74c0fc\"><b>SGA / AGA / LGA</b></span> (INTERGROWTH-21st newborn size standards).<br>2) Bệnh lý thai kỳ: <span style=\"color:#ff6b6b\"><b>tiền sản giật</b></span>, <span style=\"color:#ff6b6b\"><b>đái tháo đường</b></span>, <span style=\"color:#ff6b6b\"><b>nhiễm trùng bào thai</b></span>, <span style=\"color:#ff6b6b\"><b>rượu / thuốc lá</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Ngạt</b></span>, bệnh lý sơ sinh: <span style=\"color:#ff6b6b\"><b>BPD</b></span>, <span style=\"color:#ff6b6b\"><b>NEC</b></span>, <span style=\"color:#ff6b6b\"><b>nuôi dưỡng tĩnh mạch kéo dài</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cân nặng lúc sinh cho biết điểm xuất phát; tuổi thai cho biết phải hiệu chỉnh tuổi hay không; còn các bệnh sơ sinh nặng (loạn sản phế quản phổi, viêm ruột hoại tử) là nguyên nhân hay gặp của chậm lớn kéo dài ở trẻ sinh non.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.2 Chu sinh",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chu-sinh"
+      ]
+    },
+    {
+      "id": "PED68-S2-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "SGA",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trẻ SGA]</b></span> Đa số trẻ <span style=\"color:#74c0fc\"><b>SGA</b></span> bắt kịp tăng trưởng trong khoảng thời gian nào, và khi nào cần đánh giá chuyên khoa nội tiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đa số <span style=\"color:#51cf66\"><b>bắt kịp</b></span> trong <span style=\"color:#ffd43b\"><b>2 năm đầu</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Không bắt kịp ở tuổi 2–4</b></span> → đánh giá <span style=\"color:#51cf66\"><b>chuyên khoa nội tiết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ SGA bắt kịp thường tăng tốc mạnh trong 6–12 tháng đầu. Nhóm không bắt kịp có nguy cơ thấp kéo dài đến tuổi trưởng thành và là một chỉ định điều trị hormon tăng trưởng được công nhận, nên cần chuyển sớm để không lỡ thời điểm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.2 Chu sinh",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chu-sinh",
+        "SGA"
+      ]
+    },
+    {
+      "id": "PED68-S2-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Sơ sinh",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sụt cân sinh lý]</b></span> Trẻ sơ sinh thường về lại cân nặng lúc sinh sau bao lâu, và khi nào sụt cân cần đánh giá?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thường về lại cân nặng lúc sinh trong khoảng <span style=\"color:#ffd43b\"><b>10–14 ngày</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Sụt cân nhiều hoặc kéo dài</b></span> → <span style=\"color:#51cf66\"><b>đánh giá bú mẹ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sụt cân những ngày đầu là do mất nước ngoại bào và phân su. Trẻ chưa lấy lại cân nặng lúc sinh sau 2 tuần là dấu hiệu sớm nhất của bú không hiệu quả, cần quan sát một cữ bú thực tế.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.2 Chu sinh",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "So-sinh"
+      ]
+    },
+    {
+      "id": "PED68-S2-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Dinh dưỡng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hỏi dinh dưỡng]</b></span> Hỏi dinh dưỡng gồm những nội dung nào: <span style=\"color:#ffd43b\"><b>bú sữa</b></span>, <span style=\"color:#ffd43b\"><b>ăn bổ sung</b></span>, <span style=\"color:#ff6b6b\"><b>hành vi ăn</b></span> và <span style=\"color:#ffd43b\"><b>trẻ lớn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bú sữa</b></span>: bú mẹ hoàn toàn / hỗn hợp, số cữ, dấu hiệu bú hiệu quả (<span style=\"color:#51cf66\"><b>ngậm bắt vú, nuốt, số tã ướt</b></span>); sữa công thức: loại, cách pha, thể tích/ngày.<br>2) <span style=\"color:#ffd43b\"><b>Ăn bổ sung</b></span>: thời điểm, chất lượng (đa dạng nhóm thực phẩm, tần suất, độ đặc), <span style=\"color:#51cf66\"><b>hỏi khẩu phần 24 giờ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Hành vi ăn</b></span>: biếng ăn, ăn kéo dài, ép ăn, <span style=\"color:#ff6b6b\"><b>nước ngọt / nước trái cây quá nhiều</b></span>, <span style=\"color:#ff6b6b\"><b>uống sữa quá nhiều</b></span> (thiếu sắt).<br>4) <span style=\"color:#ffd43b\"><b>Trẻ lớn</b></span>: bữa phụ, đồ ăn nhanh, <span style=\"color:#ff6b6b\"><b>thời gian màn hình</b></span>, vận động, giấc ngủ.<br><br><b>💡 Giải thích của AI:</b><br>Hỏi khẩu phần 24 giờ cụ thể (sáng ăn gì, bao nhiêu) cho thông tin đáng tin hơn câu hỏi “cháu ăn có tốt không”. Uống quá nhiều sữa bò làm no, giảm ăn thực phẩm giàu sắt và gây mất máu ẩn qua ruột ở trẻ nhỏ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.3 Dinh dưỡng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Dinh-duong"
+      ]
+    },
+    {
+      "id": "PED68-S2-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Bệnh mạn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bệnh mạn gây chậm lớn]</b></span> Kể các triệu chứng gợi ý bệnh mạn tính gây chậm lớn cần hỏi (nhiễm trùng, tiêu hoá, thận, tim, phổi, ruột).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhiễm trùng tái diễn</b></span>, <span style=\"color:#ff6b6b\"><b>tiêu chảy kéo dài</b></span>, <span style=\"color:#ff6b6b\"><b>nôn trớ</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Kém hấp thu</b></span>: <span style=\"color:#ff6b6b\"><b>phân mỡ, chướng bụng</b></span> (celiac, xơ nang).<br>3) <span style=\"color:#74c0fc\"><b>Bệnh thận</b></span>: <span style=\"color:#ff6b6b\"><b>đa niệu, phù</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Tim bẩm sinh</b></span>: <span style=\"color:#ff6b6b\"><b>bú mệt, vã mồ hôi</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Hen / bệnh phổi mạn</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Bệnh viêm ruột</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh mạn làm chậm lớn qua 3 đường: ăn vào ít (chán ăn, khó thở khi bú), mất đi nhiều (kém hấp thu, tiểu đạm) và tiêu hao tăng (viêm, tăng công thở). Kiểu hình thường là cân nặng giảm trước chiều cao.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.4 Bệnh lý",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Benh-man"
+      ]
+    },
+    {
+      "id": "PED68-S2-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Nội tiết",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Gợi ý nội tiết]</b></span> Triệu chứng nào khi hỏi bệnh gợi ý <span style=\"color:#74c0fc\"><b>suy giáp</b></span>, <span style=\"color:#74c0fc\"><b>u vùng tuyến yên (craniopharyngioma)</b></span> và <span style=\"color:#74c0fc\"><b>Cushing</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Suy giáp</b></span>: <span style=\"color:#ff6b6b\"><b>mệt, táo bón, chậm chạp</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>U vùng tuyến yên</b></span>: <span style=\"color:#ff6b6b\"><b>đau đầu, nôn, giảm thị lực, đa niệu</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Cushing</b></span>: <span style=\"color:#ff6b6b\"><b>tăng cân + giảm tốc độ tăng chiều cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba bệnh này chung một kiểu hình: chiều cao chững lại trong khi cân nặng giữ hoặc tăng. Đa niệu ở trẻ có u vùng tuyến yên gợi ý đái tháo nhạt trung ương do khối u chèn ép.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.4 Bệnh lý",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Noi-tiet"
+      ]
+    },
+    {
+      "id": "PED68-S2-09",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Thuốc",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thuốc]</b></span> Kể các nhóm thuốc cần hỏi vì ảnh hưởng tăng trưởng hoặc cân nặng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Glucocorticoid kéo dài</b></span> (cả <span style=\"color:#ff6b6b\"><b>dạng hít liều cao</b></span>).<br>2) <span style=\"color:#ff6b6b\"><b>Thuốc kích thích điều trị ADHD</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Thuốc chống động kinh</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Thuốc gây tăng cân</b></span>: corticoid, một số thuốc an thần kinh.<br><br><b>💡 Giải thích của AI:</b><br>Corticoid ức chế trục GH–IGF-1 và trực tiếp ức chế sụn tăng trưởng; thuốc kích thích giảm cảm giác thèm ăn. Hỏi cả corticoid hít ở trẻ hen dùng liều cao kéo dài — hay bị bỏ sót.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.4 Bệnh lý",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Thuoc"
+      ]
+    },
+    {
+      "id": "PED68-S2-10",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Phát triển & tâm lý",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phát triển và tâm lý xã hội]</b></span> Ngoài bệnh và thuốc, cần hỏi thêm về <span style=\"color:#ffd43b\"><b>phát triển</b></span> và <span style=\"color:#ff6b6b\"><b>hoàn cảnh tâm lý xã hội</b></span> những gì? Vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Phát triển tâm vận động</b></span>; <span style=\"color:#ffd43b\"><b>mốc dậy thì</b></span> (trẻ lớn).<br>2) <span style=\"color:#ff6b6b\"><b>Hoàn cảnh gia đình, người chăm sóc, sang chấn, bỏ bê</b></span>.<br>3) Lý do: <span style=\"color:#ff6b6b\"><b>thiếu hụt tâm lý xã hội có thể gây chậm lớn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chậm lớn do tâm lý xã hội (psychosocial dwarfism) có thể kèm giảm tiết GH có hồi phục; trẻ thường lớn bắt kịp nhanh khi được đưa vào môi trường chăm sóc tốt.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.4 Bệnh lý",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Tam-ly-xa-hoi"
+      ]
+    },
+    {
+      "id": "PED68-S2-11",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Gia đình",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tiền sử gia đình]</b></span> Cần hỏi gì về gia đình khi khám phát triển thể chất, và vì sao nên <span style=\"color:#51cf66\"><b>đo trực tiếp</b></span> chiều cao bố mẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chiều cao bố và mẹ — nên đo trực tiếp</b></span> vì <span style=\"color:#ff6b6b\"><b>chiều cao tự khai thường sai lệch</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Tuổi dậy thì của bố mẹ</b></span>: tuổi có kinh của mẹ; bố “lớn muộn”? → gợi ý <span style=\"color:#74c0fc\"><b>chậm tăng trưởng thể tạng</b></span>.<br>3) Bệnh trong gia đình: <span style=\"color:#74c0fc\"><b>lùn, bệnh xương, bệnh nội tiết</b></span>, <span style=\"color:#74c0fc\"><b>béo phì, đái tháo đường type 2, rối loạn lipid</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chiều cao bố mẹ dùng để tính chiều cao đích; sai vài cm khi tự khai làm lệch cả khoảng đích. Tiền sử “bố cũng thấp rồi đến 16–17 tuổi mới vọt lên” là manh mối mạnh của chậm dậy thì thể tạng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.5 Gia đình",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Gia-dinh"
+      ]
+    },
+    {
+      "id": "PED68-S2-12",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Số đo cũ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Số đo cũ]</b></span> Lấy số đo cũ của trẻ ở đâu và dùng chúng thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nơi lấy: <span style=\"color:#51cf66\"><b>sổ theo dõi sức khoẻ bà mẹ – trẻ em</b></span>, <span style=\"color:#51cf66\"><b>sổ tiêm chủng</b></span>, <span style=\"color:#51cf66\"><b>hồ sơ khám</b></span>.<br>2) Cách dùng: <span style=\"color:#51cf66\"><b>chấm tất cả lên biểu đồ</b></span> — <span style=\"color:#ffd43b\"><b>một chuỗi số đo có giá trị hơn nhiều một lần đo đơn lẻ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Một lần đo chỉ cho vị trí; chuỗi số đo cho hướng đi và tốc độ. Trẻ ở −1,5 SD đi ngang đều từ nhỏ khác hẳn trẻ ở −1,5 SD vừa tụt xuống từ +0,5 SD.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.6 Số đo cũ",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "So-do-cu"
+      ]
+    },
+    {
+      "id": "PED68-S2-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S2",
+      "category": "Tuổi hiệu chỉnh",
+      "tier": 2,
+      "text": "Trẻ sinh non dùng tuổi hiệu chỉnh cho mọi chỉ số tăng trưởng đến ít nhất {{c1::<span style=\"color:#ffd43b\"><b>24 tháng</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 2.1 Tuổi",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Sinh-non"
+      ]
+    },
+    {
+      "id": "PED68-S3-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Nguyên tắc đo",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nguyên tắc đo]</b></span> Nêu các nguyên tắc chung khi đo nhân trắc trẻ em (dụng cụ, trang phục, số lần đo, cách ghi).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dụng cụ <span style=\"color:#51cf66\"><b>được chuẩn hoá / hiệu chỉnh định kỳ</b></span>.<br>2) Trẻ <span style=\"color:#51cf66\"><b>mặc tối thiểu</b></span>, <span style=\"color:#51cf66\"><b>không giày</b></span>, <span style=\"color:#51cf66\"><b>không kẹp / búi tóc</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Đo 2 lần</b></span>; chênh lệch vượt ngưỡng cho phép thì <span style=\"color:#51cf66\"><b>đo lần 3</b></span>; ghi <span style=\"color:#51cf66\"><b>giá trị trung bình</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Ghi ngay</b></span>, kèm <span style=\"color:#ffd43b\"><b>ngày đo</b></span> và <span style=\"color:#ffd43b\"><b>tư thế đo</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sai số đo thường lớn hơn mức thay đổi thật giữa hai lần khám — đó là lý do phải đo lặp và ghi tư thế. Búi tóc có thể làm sai chiều cao vài cm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Ky-thuat-do"
+      ]
+    },
+    {
+      "id": "PED68-S3-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Cân nặng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cân nặng]</b></span> Cân trẻ bằng dụng cụ gì, độ chính xác bao nhiêu, kỹ thuật với trẻ chưa đứng được, và cần ghi chú gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dụng cụ: <span style=\"color:#51cf66\"><b>cân điện tử</b></span>, đọc đến <span style=\"color:#ffd43b\"><b>0,1 kg</b></span> (cân nhũ nhi: <span style=\"color:#ffd43b\"><b>10–20 g</b></span>).<br>2) Kỹ thuật: <span style=\"color:#51cf66\"><b>cởi tã, mặc tối thiểu</b></span>; trẻ chưa đứng: <span style=\"color:#51cf66\"><b>cân nhũ nhi</b></span> hoặc <span style=\"color:#51cf66\"><b>cân mẹ – con</b></span> (cân mẹ, trừ bì, rồi bế trẻ).<br>3) Ghi chú: <span style=\"color:#ffd43b\"><b>giờ cân</b></span>, tình trạng (<span style=\"color:#ff6b6b\"><b>sau ăn, phù, mất nước</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Phù và mất nước làm cân nặng không phản ánh đúng khối mô: trẻ phù dinh dưỡng có thể “nặng bình thường” dù rất gầy. Cân mẹ – con dùng chức năng trừ bì để chỉ hiện cân nặng của trẻ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Can-nang"
+      ]
+    },
+    {
+      "id": "PED68-S3-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chiều dài nằm",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chiều dài nằm]</b></span> Đo chiều dài nằm áp dụng cho trẻ bao nhiêu tuổi, dùng dụng cụ gì, độ chính xác bao nhiêu, kỹ thuật 2 người thế nào và cách đo nào <span style=\"color:#ff6b6b\"><b>không đạt chuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Áp dụng: trẻ <span style=\"color:#ffd43b\"><b>dưới 2 tuổi</b></span>.<br>2) Dụng cụ: <span style=\"color:#51cf66\"><b>thước đo chiều dài (length board)</b></span> có chặn đầu cố định, chặn chân di động; đọc đến <span style=\"color:#ffd43b\"><b>0,1 cm</b></span>.<br>3) <span style=\"color:#51cf66\"><b>2 người đo</b></span>: người 1 giữ đầu sát chặn đầu, <span style=\"color:#51cf66\"><b>mặt phẳng Frankfurt thẳng đứng</b></span>; người 2 ấn nhẹ gối duỗi thẳng, áp chặn chân vuông góc vào gót.<br>4) <span style=\"color:#ff6b6b\"><b>Thước dây / đo trên giường</b></span> → không đạt chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Mặt phẳng Frankfurt là đường nối lỗ tai ngoài với bờ dưới hốc mắt. Một người đo không giữ được đồng thời đầu và gối của trẻ quấy khóc, nên sai số rất lớn; thước dây trên giường bị võng và không có chặn vuông góc.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chieu-dai"
+      ]
+    },
+    {
+      "id": "PED68-S3-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chiều cao đứng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chiều cao đứng]</b></span> Đo chiều cao đứng áp dụng từ tuổi nào, dụng cụ gì, độ chính xác bao nhiêu và tư thế chuẩn thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Áp dụng: trẻ <span style=\"color:#ffd43b\"><b>từ 2 tuổi</b></span>.<br>2) Dụng cụ: <span style=\"color:#51cf66\"><b>thước đo đứng gắn tường (stadiometer)</b></span>; đọc đến <span style=\"color:#ffd43b\"><b>0,1 cm</b></span>.<br>3) Tư thế: <span style=\"color:#51cf66\"><b>chân trần, gót chụm</b></span>; <span style=\"color:#51cf66\"><b>gót – mông – vai – chẩm (nếu được) chạm thước</b></span>; <span style=\"color:#51cf66\"><b>mặt phẳng Frankfurt nằm ngang</b></span>; hít vào nhẹ; hạ chặn đầu ép tóc.<br>4) Khi theo dõi: đo <span style=\"color:#ffd43b\"><b>cùng thời điểm trong ngày</b></span> (chiều cao giảm nhẹ về chiều).<br><br><b>💡 Giải thích của AI:</b><br>Đĩa đệm cột sống bị nén dần trong ngày nên chiều cao buổi chiều thấp hơn buổi sáng một chút; đo vào giờ khác nhau giữa hai lần khám có thể tạo ra “chậm lớn” giả.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chieu-cao"
+      ]
+    },
+    {
+      "id": "PED68-S3-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Hiệu chỉnh tư thế",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hiệu chỉnh tư thế WHO]</b></span> Khi đo sai tư thế so với tuổi, phải hiệu chỉnh số đo thế nào trước khi tra chuẩn WHO?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ <span style=\"color:#ffd43b\"><b>dưới 2 tuổi</b></span> nhưng <span style=\"color:#ff6b6b\"><b>đo đứng</b></span>: <span style=\"color:#51cf66\"><b>cộng 0,7 cm</b></span>.<br>2) Trẻ <span style=\"color:#ffd43b\"><b>từ 2 tuổi</b></span> nhưng <span style=\"color:#ff6b6b\"><b>đo nằm</b></span>: <span style=\"color:#51cf66\"><b>trừ 0,7 cm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chiều dài nằm luôn lớn hơn chiều cao đứng của cùng một trẻ khoảng 0,7 cm (cột sống và gót không chịu lực). Chuẩn WHO đổi từ chiều dài sang chiều cao đúng ở mốc 2 tuổi nên phải quy về đúng tư thế của chuẩn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Hieu-chinh"
+      ]
+    },
+    {
+      "id": "PED68-S3-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Vòng đầu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Vòng đầu]</b></span> Đo vòng đầu bằng dụng cụ gì, độ chính xác bao nhiêu, ở vị trí nào, đo mấy lần, và bắt buộc đo đến tuổi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dụng cụ: <span style=\"color:#51cf66\"><b>thước dây không giãn</b></span>; đọc đến <span style=\"color:#ffd43b\"><b>0,1 cm</b></span>.<br>2) Vị trí: <span style=\"color:#51cf66\"><b>chu vi chẩm – trán lớn nhất</b></span> — ngay trên cung mày, qua chỗ nhô nhất của xương chẩm.<br>3) <span style=\"color:#51cf66\"><b>Đo 3 lần, lấy giá trị lớn nhất</b></span>.<br>4) Bắt buộc ở mọi lần khám đến <span style=\"color:#ffd43b\"><b>2 tuổi</b></span> (chuẩn WHO có đến <span style=\"color:#ffd43b\"><b>5 tuổi</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Vòng đầu là chỉ điểm gián tiếp của sự lớn của não, tăng nhanh nhất trong 2 năm đầu — đây là cửa sổ phát hiện đầu nhỏ, não úng thuỷ. Lấy giá trị lớn nhất vì đặt lệch thước chỉ làm số đo nhỏ đi.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Vong-dau"
+      ]
+    },
+    {
+      "id": "PED68-S3-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "MUAC",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[MUAC]</b></span> Đo chu vi vòng cánh tay (MUAC) bằng dụng cụ gì, độ chính xác bao nhiêu, kỹ thuật thế nào và dùng cho trẻ từ bao nhiêu tuổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dụng cụ: <span style=\"color:#51cf66\"><b>thước MUAC chuyên dụng</b></span>; đọc đến <span style=\"color:#ffd43b\"><b>1 mm</b></span>.<br>2) Kỹ thuật: <span style=\"color:#51cf66\"><b>tay trái buông thõng</b></span>; đánh dấu <span style=\"color:#51cf66\"><b>điểm giữa mỏm cùng vai – mỏm khuỷu</b></span> (gấp khuỷu <span style=\"color:#ffd43b\"><b>90°</b></span> khi đánh dấu); quấn thước <span style=\"color:#51cf66\"><b>vừa khít, không ép lõm da</b></span>.<br>3) Đối tượng: trẻ <span style=\"color:#ffd43b\"><b>từ 6 tuần tuổi</b></span> — <span style=\"color:#ff6b6b\"><b>không dùng dưới 6 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Dưới 6 tuần, MUAC bị ảnh hưởng bởi dịch chuyển nước sau sinh và khối cơ còn ít nên chưa có ngưỡng đáng tin. Quấn quá chặt làm MUAC nhỏ giả → chẩn đoán SDD oan.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "MUAC"
+      ]
+    },
+    {
+      "id": "PED68-S3-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Phù dinh dưỡng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phù dinh dưỡng]</b></span> Cách khám phù dinh dưỡng, phân độ (+, ++, +++) và ý nghĩa khi có phù hai bên?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cách khám: <span style=\"color:#51cf66\"><b>ấn đồng thời cả hai mu bàn chân</b></span> khoảng <span style=\"color:#ffd43b\"><b>3 giây</b></span>; <span style=\"color:#ff6b6b\"><b>lõm cả hai bên</b></span> = phù dinh dưỡng.<br>2) Phân độ: <span style=\"color:#ffd43b\"><b>+</b></span> bàn chân; <span style=\"color:#ffd43b\"><b>++</b></span> thêm cẳng chân / bàn tay / cẳng tay; <span style=\"color:#ffd43b\"><b>+++</b></span> toàn thân kể cả mặt.<br>3) Ý nghĩa: <span style=\"color:#ff6b6b\"><b>phù 2 bên = SDD cấp nặng bất kể nhân trắc</b></span>; cân nặng lúc có phù <span style=\"color:#ff6b6b\"><b>không phản ánh đúng dinh dưỡng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phù dinh dưỡng (kiểu kwashiorkor) là dấu hiệu tử vong cao độc lập với WHZ, nên không cần chờ cân đo để phân loại nặng. Phải ấn cả hai bên để phân biệt với phù một bên do viêm, chấn thương.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Phu"
+      ],
+      "asks": [
+        "Cách khám",
+        "Phân độ",
+        "Ý nghĩa"
+      ]
+    },
+    {
+      "id": "PED68-S3-09",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "BMI",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[BMI]</b></span> Tính BMI thế nào và diễn giải BMI ở trẻ em khác người lớn ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>BMI = CN (kg) / CC² (m²)</b></span>.<br>2) Diễn giải theo <span style=\"color:#74c0fc\"><b>BMI/tuổi/giới</b></span> — <span style=\"color:#ff6b6b\"><b>không dùng ngưỡng người lớn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>BMI sinh lý của trẻ thay đổi mạnh theo tuổi (tăng trong năm đầu, giảm đến khoảng 5–6 tuổi rồi tăng lại — “adiposity rebound”), nên cùng một BMI có thể bình thường ở tuổi này và béo phì ở tuổi khác.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "BMI"
+      ]
+    },
+    {
+      "id": "PED68-S3-10",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Tỷ lệ cơ thể",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tỷ lệ cơ thể]</b></span> Khi trẻ thấp, đo những tỷ lệ cơ thể nào và bất thường gợi ý bệnh gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Chiều cao ngồi</b></span> → tỷ lệ chiều cao ngồi / chiều cao.<br>2) <span style=\"color:#51cf66\"><b>Tỷ lệ đoạn trên / đoạn dưới</b></span> (đoạn dưới = khớp mu → gót).<br>3) <span style=\"color:#51cf66\"><b>Sải tay</b></span> so với chiều cao.<br>4) Bất thường gợi ý <span style=\"color:#74c0fc\"><b>loạn sản xương</b></span> (vd <span style=\"color:#74c0fc\"><b>thiếu hụt SHOX</b></span>, <span style=\"color:#74c0fc\"><b>achondroplasia</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Trẻ thấp cân đối thường do dinh dưỡng, nội tiết, di truyền gia đình; trẻ thấp không cân đối (chi ngắn so với thân) gợi ý bệnh của sụn tiếp hợp chi. Thiếu hụt SHOX có thể chỉ biểu hiện bằng cẳng tay ngắn kín đáo.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Ty-le-co-the"
+      ]
+    },
+    {
+      "id": "PED68-S3-11",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Dậy thì",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đánh giá dậy thì]</b></span> Đánh giá dậy thì bằng gì ở <span style=\"color:#ffd43b\"><b>trẻ gái</b></span> và <span style=\"color:#ffd43b\"><b>trẻ trai</b></span>? Dấu hiệu bắt đầu dậy thì ở trẻ trai là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Trẻ gái</b></span>: <span style=\"color:#74c0fc\"><b>Tanner</b></span> vú (<span style=\"color:#ffd43b\"><b>B1–5</b></span>), lông mu (<span style=\"color:#ffd43b\"><b>PH1–5</b></span>).<br>2) <span style=\"color:#ffd43b\"><b>Trẻ trai</b></span>: thể tích tinh hoàn bằng <span style=\"color:#51cf66\"><b>thước Prader</b></span>, dương vật/bìu (<span style=\"color:#ffd43b\"><b>G1–5</b></span>), lông mu.<br>3) Bắt đầu dậy thì ở trai: <span style=\"color:#ffd43b\"><b>tinh hoàn ≥ 4 ml</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở trẻ gái dấu hiệu đầu tiên là nụ vú (B2). Ở trẻ trai, tinh hoàn to lên trước lông mu và dương vật — nên lông mu đơn độc không có tinh hoàn to gợi ý nguồn androgen thượng thận chứ không phải dậy thì trung ương.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Day-thi"
+      ]
+    },
+    {
+      "id": "PED68-S3-12",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Chất lượng số đo",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Kiểm tra chất lượng số đo]</b></span> Ngưỡng Z-score “cờ” trong WHO Anthro cho <span style=\"color:#74c0fc\"><b>HAZ</b></span>, <span style=\"color:#74c0fc\"><b>WHZ</b></span>, <span style=\"color:#74c0fc\"><b>WAZ</b></span> là bao nhiêu, gặp thì làm gì, và chiều cao “giảm” giữa hai lần đo được hiểu thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>HAZ</b></span> <span style=\"color:#ffd43b\"><b>< −6 hoặc > +6</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>WHZ</b></span> <span style=\"color:#ffd43b\"><b>< −5 hoặc > +5</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>WAZ</b></span> <span style=\"color:#ffd43b\"><b>< −6 hoặc > +5</b></span>.<br>4) Gặp cờ → <span style=\"color:#51cf66\"><b>đo lại trước khi kết luận</b></span> (nhiều khả năng sai số đo / nhập liệu).<br>5) <span style=\"color:#ff6b6b\"><b>Chiều cao “giảm”</b></span> giữa hai lần đo = <span style=\"color:#ff6b6b\"><b>sai số</b></span> cho đến khi chứng minh ngược lại.<br><br><b>💡 Giải thích của AI:</b><br>Z-score cực đoan như vậy gần như không gặp ở trẻ sống; hay gặp nhất là nhập nhầm ngày sinh, đảo cm/mm, nhầm giới. Chiều cao sinh học không giảm ở trẻ đang lớn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chat-luong"
+      ]
+    },
+    {
+      "id": "PED68-S3-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Hiệu chỉnh",
+      "tier": 2,
+      "text": "Trẻ dưới 2 tuổi đo đứng phải {{c1::<span style=\"color:#51cf66\"><b>cộng 0,7 cm</b></span>}}; trẻ từ 2 tuổi đo nằm phải {{c2::<span style=\"color:#51cf66\"><b>trừ 0,7 cm</b></span>}} trước khi tra chuẩn WHO.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Hieu-chinh"
+      ]
+    },
+    {
+      "id": "PED68-S3-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Độ chính xác",
+      "tier": 2,
+      "text": "Chiều dài, chiều cao và vòng đầu đọc chính xác đến {{c1::<span style=\"color:#ffd43b\"><b>0,1 cm</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Ky-thuat-do"
+      ]
+    },
+    {
+      "id": "PED68-S3-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Độ chính xác",
+      "tier": 2,
+      "text": "MUAC đọc chính xác đến {{c1::<span style=\"color:#ffd43b\"><b>1 mm</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "MUAC"
+      ]
+    },
+    {
+      "id": "PED68-S4-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Ý nghĩa chỉ số",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Ý nghĩa chỉ số]</b></span> Mỗi chỉ số <span style=\"color:#74c0fc\"><b>CN/CC (WHZ)</b></span>, <span style=\"color:#74c0fc\"><b>CC/T (HAZ)</b></span>, <span style=\"color:#74c0fc\"><b>CN/T (WAZ)</b></span>, <span style=\"color:#74c0fc\"><b>MUAC</b></span>, <span style=\"color:#74c0fc\"><b>vòng đầu/tuổi</b></span> phản ánh điều gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>WHZ</b></span> (hoặc BMI/tuổi): dinh dưỡng <span style=\"color:#ff6b6b\"><b>cấp</b></span> (gầy còm) hoặc <span style=\"color:#ff6b6b\"><b>thừa cân</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>HAZ</b></span>: tăng trưởng tuyến tính, thiếu hụt <span style=\"color:#ff6b6b\"><b>mạn</b></span> (thấp còi).<br>3) <span style=\"color:#74c0fc\"><b>WAZ</b></span>: chỉ số <span style=\"color:#ffd43b\"><b>tổng hợp</b></span> (cấp + mạn).<br>4) <span style=\"color:#74c0fc\"><b>MUAC</b></span>: khối cơ – mỡ; <span style=\"color:#ff6b6b\"><b>tiên lượng tử vong mạnh</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Vòng đầu/tuổi</b></span>: phát triển não – hộp sọ.<br><br><b>💡 Giải thích của AI:</b><br>Gầy còm là mất mô nhanh (tuần – tháng); thấp còi là hậu quả tích luỹ của nhiều tháng – năm. Vì vậy một trẻ có thể thấp còi mà không gầy, hoặc gầy mà chưa thấp.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.1 Ý nghĩa chỉ số",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chi-so"
+      ]
+    },
+    {
+      "id": "PED68-S4-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Ý nghĩa chỉ số",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Giới hạn từng chỉ số]</b></span> Nêu ưu điểm/giới hạn khi dùng <span style=\"color:#74c0fc\"><b>WHZ</b></span>, <span style=\"color:#74c0fc\"><b>HAZ</b></span>, <span style=\"color:#74c0fc\"><b>WAZ</b></span>, <span style=\"color:#74c0fc\"><b>MUAC</b></span>, <span style=\"color:#74c0fc\"><b>vòng đầu</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>WHZ</b></span>: <span style=\"color:#51cf66\"><b>độc lập với tuổi</b></span> → hữu ích khi không rõ tuổi; <span style=\"color:#ff6b6b\"><b>sai lệch khi có phù</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>HAZ</b></span>: phản ánh tích luỹ của <span style=\"color:#ffd43b\"><b>dinh dưỡng, nhiễm trùng, chu sinh, di truyền, nội tiết</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>WAZ</b></span>: <span style=\"color:#ff6b6b\"><b>không phân biệt gầy với thấp</b></span>; <span style=\"color:#ff6b6b\"><b>không dùng chẩn đoán thừa cân</b></span>; chỉ đến <span style=\"color:#ffd43b\"><b>10 tuổi</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>MUAC</b></span>: tiêu chí <span style=\"color:#51cf66\"><b>độc lập với WHZ</b></span> (<span style=\"color:#ffd43b\"><b>6–59 tháng</b></span>) — trẻ có thể đạt tiêu chí này mà không đạt tiêu chí kia.<br>5) <span style=\"color:#74c0fc\"><b>Vòng đầu</b></span>: diễn giải <span style=\"color:#51cf66\"><b>cùng chiều dài và vòng đầu bố mẹ</b></span>, theo dõi tốc độ.<br><br><b>💡 Giải thích của AI:</b><br>WHZ và MUAC chọn ra hai nhóm trẻ chồng lấn một phần: MUAC hay bắt trẻ nhỏ tuổi, trẻ gái; WHZ hay bắt trẻ chân dài so với thân (tỷ lệ chiều cao ngồi thấp). Vì vậy chỉ cần đạt một tiêu chí là đủ chẩn đoán SDD cấp.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.1 Ý nghĩa chỉ số",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chi-so"
+      ]
+    },
+    {
+      "id": "PED68-S4-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "SDD cấp",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[SDD cấp – gầy còm]</b></span> Tiêu chuẩn chẩn đoán SDD cấp ở trẻ <span style=\"color:#ffd43b\"><b>6–59 tháng</b></span> theo WHO và tiêu chí mức <span style=\"color:#ffd43b\"><b>vừa</b></span> / <span style=\"color:#ff6b6b\"><b>nặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu chuẩn chẩn đoán: <span style=\"color:#ff6b6b\"><b>WHZ < −2 SD</b></span> hoặc <span style=\"color:#ff6b6b\"><b>MUAC < 125 mm</b></span> hoặc <span style=\"color:#ff6b6b\"><b>phù dinh dưỡng 2 bên</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Vừa</b></span>: <span style=\"color:#ffd43b\"><b>−3 ≤ WHZ < −2</b></span> hoặc <span style=\"color:#ffd43b\"><b>MUAC 115 – < 125 mm</b></span>, <span style=\"color:#ffd43b\"><b>không phù</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Nặng</b></span>: <span style=\"color:#ff6b6b\"><b>WHZ < −3</b></span> hoặc <span style=\"color:#ff6b6b\"><b>MUAC < 115 mm</b></span> hoặc <span style=\"color:#ff6b6b\"><b>phù 2 bên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba tiêu chí độc lập, chỉ cần một là đủ. Phù hai bên luôn xếp mức nặng dù WHZ và MUAC bình thường, vì phù che giấu mức hao mòn thật và có tử vong cao.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại 0–59 tháng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "SDD-cap"
+      ],
+      "asks": [
+        "Tiêu chuẩn chẩn đoán",
+        "Vừa",
+        "Nặng"
+      ]
+    },
+    {
+      "id": "PED68-S4-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Thấp còi & nhẹ cân",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thấp còi và nhẹ cân]</b></span> Tiêu chí <span style=\"color:#74c0fc\"><b>thấp còi</b></span> và <span style=\"color:#74c0fc\"><b>nhẹ cân</b></span> theo WHO, mức <span style=\"color:#ffd43b\"><b>vừa</b></span> và <span style=\"color:#ff6b6b\"><b>nặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thấp còi</b></span> (stunting): <span style=\"color:#ff6b6b\"><b>HAZ (LAZ) < −2 SD</b></span>; vừa <span style=\"color:#ffd43b\"><b>−3 đến < −2</b></span>, nặng <span style=\"color:#ff6b6b\"><b>< −3</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Nhẹ cân</b></span> (underweight): <span style=\"color:#ff6b6b\"><b>WAZ < −2 SD</b></span>; vừa <span style=\"color:#ffd43b\"><b>−3 đến < −2</b></span>, nặng <span style=\"color:#ff6b6b\"><b>< −3</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhẹ cân là chỉ số dùng nhiều trong y tế công cộng nhưng lâm sàng ít giá trị: trẻ nhẹ cân có thể chỉ là thấp còi mà cân đối, hoặc gầy còm cấp — hai tình trạng cần xử trí rất khác nhau.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại 0–59 tháng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Thap-coi"
+      ]
+    },
+    {
+      "id": "PED68-S4-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Thừa cân <5 tuổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thừa cân – béo phì dưới 5 tuổi]</b></span> Theo WHO, ngưỡng <span style=\"color:#ffd43b\"><b>nguy cơ thừa cân</b></span>, <span style=\"color:#ff6b6b\"><b>thừa cân</b></span>, <span style=\"color:#ff6b6b\"><b>béo phì</b></span> ở trẻ dưới 5 tuổi là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Nguy cơ thừa cân</b></span>: WHZ (hoặc BMIz) <span style=\"color:#ffd43b\"><b>> +1 SD</b></span> → theo dõi, tư vấn.<br>2) <span style=\"color:#ff6b6b\"><b>Thừa cân</b></span>: <span style=\"color:#ff6b6b\"><b>> +2 SD</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Béo phì</b></span>: <span style=\"color:#ff6b6b\"><b>> +3 SD</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngưỡng ở trẻ dưới 5 tuổi cao hơn trẻ 5–19 tuổi (+2/+3 thay vì +1/+2) vì trẻ nhỏ có tăng mỡ sinh lý và bằng chứng về hậu quả lâu dài khi chỉ ở +1 SD chưa đủ mạnh. Không dùng CN/T để chẩn đoán thừa cân.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại 0–59 tháng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Thua-can"
+      ]
+    },
+    {
+      "id": "PED68-S4-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Vòng đầu",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đầu nhỏ – đầu to]</b></span> Ngưỡng vòng đầu/tuổi xác định <span style=\"color:#ff6b6b\"><b>đầu nhỏ</b></span>, <span style=\"color:#ff6b6b\"><b>đầu nhỏ nặng</b></span> và <span style=\"color:#ff6b6b\"><b>đầu to</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đầu nhỏ</b></span>: <span style=\"color:#ffd43b\"><b>< −2 SD</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Đầu nhỏ nặng</b></span>: <span style=\"color:#ffd43b\"><b>< −3 SD</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Đầu to</b></span>: <span style=\"color:#ffd43b\"><b>> +2 SD</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trước khi kết luận cần đo vòng đầu bố mẹ (đầu to gia đình lành tính rất hay gặp) và xem tốc độ: vòng đầu cắt lên nhanh qua các đường gợi ý não úng thuỷ; đầu nhỏ dần lại gợi ý tổn thương não mắc phải.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại 0–59 tháng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Vong-dau"
+      ]
+    },
+    {
+      "id": "PED68-S4-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Trẻ < 6 tháng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trẻ dưới 6 tháng – WHO 2023]</b></span> Khái niệm mới cho trẻ dưới 6 tháng là gì, nhận diện bằng những tiêu chí nào, và theo dõi hồi phục bằng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khái niệm: <span style=\"color:#74c0fc\"><b>“trẻ có nguy cơ tăng trưởng và phát triển kém”</b></span> (thay khái niệm SDD cấp nặng hẹp).<br>2) Tiêu chí nhân trắc: <span style=\"color:#ff6b6b\"><b>MUAC < 110 mm</b></span> (<span style=\"color:#ffd43b\"><b>chỉ 6 tuần – < 6 tháng</b></span>), <span style=\"color:#ff6b6b\"><b>WAZ < −2</b></span>, <span style=\"color:#ff6b6b\"><b>WLZ < −2</b></span>, <span style=\"color:#ff6b6b\"><b>chững cân / không tăng cân qua các lần khám</b></span>, <span style=\"color:#ff6b6b\"><b>phù dinh dưỡng 2 bên</b></span>.<br>3) Tiêu chí kèm theo: <span style=\"color:#ff6b6b\"><b>bú mẹ không hiệu quả</b></span>, <span style=\"color:#ff6b6b\"><b>nhẹ cân lúc sinh / sinh non</b></span>, yếu tố từ mẹ (<span style=\"color:#ff6b6b\"><b>bệnh, trầm cảm, hoàn cảnh</b></span>).<br>4) Theo dõi: <span style=\"color:#51cf66\"><b>tốc độ tăng cân</b></span> và tình trạng lâm sàng — <span style=\"color:#ff6b6b\"><b>không dùng MUAC</b></span> để theo dõi hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Ở nhũ nhi nhỏ, vấn đề thường nằm ở cặp mẹ – con (bú, sức khoẻ tâm thần của mẹ) chứ không chỉ ở trẻ, nên WHO 2023 chuyển từ chẩn đoán “SDD” sang đánh giá nguy cơ toàn diện. MUAC thay đổi chậm nên không nhạy để theo dõi đáp ứng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Trẻ dưới 6 tháng (WHO 2023)",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Duoi-6-thang"
+      ],
+      "asks": [
+        "Khái niệm",
+        "Tiêu chí",
+        "Theo dõi"
+      ]
+    },
+    {
+      "id": "PED68-S4-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "MUAC",
+      "tier": 2,
+      "text": "Trẻ 6–59 tháng: MUAC {{c1::<span style=\"color:#ffd43b\"><b>< 115 mm</b></span>}} là SDD cấp nặng; MUAC {{c2::<span style=\"color:#ffd43b\"><b>115 – < 125 mm</b></span>}} là SDD cấp vừa.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại 0–59 tháng",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "SDD-cap"
+      ]
+    },
+    {
+      "id": "PED68-S4-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Trẻ < 6 tháng",
+      "tier": 2,
+      "text": "WHO 2023: trẻ từ 6 tuần đến dưới 6 tháng có MUAC {{c1::<span style=\"color:#ffd43b\"><b>< 110 mm</b></span>}} được xếp vào nhóm nguy cơ tăng trưởng và phát triển kém.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Trẻ dưới 6 tháng (WHO 2023)",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Duoi-6-thang"
+      ]
+    },
+    {
+      "id": "PED68-S5-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "BMI 5–19 tuổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trẻ 5–19 tuổi – WHO 2007]</b></span> Phân loại theo <span style=\"color:#74c0fc\"><b>BMI/tuổi</b></span> ở các ngưỡng <span style=\"color:#ffd43b\"><b>< −3</b></span>, <span style=\"color:#ffd43b\"><b>< −2</b></span>, <span style=\"color:#ffd43b\"><b>> +1</b></span>, <span style=\"color:#ffd43b\"><b>> +2</b></span> SD; thừa cân và béo phì tương đương BMI người lớn bao nhiêu ở tuổi 19?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>< −3 SD</b></span>: <span style=\"color:#ff6b6b\"><b>gầy nặng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>< −2 SD</b></span>: <span style=\"color:#ff6b6b\"><b>gầy</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>> +1 SD</b></span>: <span style=\"color:#ff6b6b\"><b>thừa cân</b></span> (≈ <span style=\"color:#ffd43b\"><b>BMI 25</b></span> ở tuổi 19).<br>4) <span style=\"color:#ffd43b\"><b>> +2 SD</b></span>: <span style=\"color:#ff6b6b\"><b>béo phì</b></span> (≈ <span style=\"color:#ffd43b\"><b>BMI 30</b></span> ở tuổi 19).<br><br><b>💡 Giải thích của AI:</b><br>WHO dựng đường cong sao cho +1 SD và +2 SD nối liền với ngưỡng BMI 25 và 30 của người lớn ở tuổi 19 — giúp phân loại liên tục từ trẻ sang người lớn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.3 Trẻ 5–19 tuổi",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "BMI"
+      ]
+    },
+    {
+      "id": "PED68-S5-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Chiều cao 5–19 tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[CC/tuổi 5–19 tuổi]</b></span> Phân loại chiều cao/tuổi ở trẻ 5–19 tuổi: ngưỡng <span style=\"color:#ff6b6b\"><b>thấp còi</b></span>, <span style=\"color:#ff6b6b\"><b>thấp còi nặng</b></span>, và ý nghĩa của <span style=\"color:#ffd43b\"><b>CC/tuổi > +2 SD</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thấp còi</b></span>: <span style=\"color:#ffd43b\"><b>< −2 SD</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Thấp còi nặng</b></span>: <span style=\"color:#ffd43b\"><b>< −3 SD</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>> +2 SD</b></span>: <span style=\"color:#51cf66\"><b>thường bình thường</b></span> (bố mẹ cao); cân nhắc nguyên nhân nếu kèm <span style=\"color:#ff6b6b\"><b>dậy thì sớm</b></span>, <span style=\"color:#ff6b6b\"><b>dị hình</b></span>, <span style=\"color:#ff6b6b\"><b>tốc độ cao tăng bất thường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ cao hiếm khi là bệnh; nhưng trẻ cao vọt lên khỏi kênh cũ kèm dậy thì sớm (tuổi xương nhanh) thực ra sẽ thấp khi trưởng thành vì sụn tiếp hợp đóng sớm. Dị hình gợi ý Marfan, Klinefelter, Sotos.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.3 Trẻ 5–19 tuổi",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chieu-cao"
+      ]
+    },
+    {
+      "id": "PED68-S5-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "AAP 2023",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[AAP 2023 – biểu đồ CDC]</b></span> Phân loại <span style=\"color:#ff6b6b\"><b>thừa cân</b></span>, <span style=\"color:#ff6b6b\"><b>béo phì</b></span>, <span style=\"color:#ff6b6b\"><b>béo phì nặng độ 2</b></span>, <span style=\"color:#ff6b6b\"><b>độ 3</b></span> ở trẻ 2–19 tuổi theo AAP 2023, và vì sao dùng <span style=\"color:#ffd43b\"><b>%BMIp95</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thừa cân</b></span>: BMI bách phân vị <span style=\"color:#ffd43b\"><b>85 – < 95</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Béo phì</b></span>: <span style=\"color:#ffd43b\"><b>≥ 95</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Béo phì nặng độ 2</b></span>: <span style=\"color:#ffd43b\"><b>≥ 120% của bách phân vị 95</b></span> (hoặc <span style=\"color:#ffd43b\"><b>BMI ≥ 35</b></span>).<br>4) <span style=\"color:#ff6b6b\"><b>Độ 3</b></span>: <span style=\"color:#ffd43b\"><b>≥ 140%</b></span> (hoặc <span style=\"color:#ffd43b\"><b>BMI ≥ 40</b></span>).<br>5) Lý do dùng %BMIp95: <span style=\"color:#51cf66\"><b>Z-score / bách phân vị bị nén ở vùng cực trị</b></span> → không theo dõi được trẻ béo phì nặng.<br><br><b>💡 Giải thích của AI:</b><br>Ở vùng trên bách phân vị 97, Z-score gần như không đổi dù BMI tăng thêm nhiều; %BMIp95 là thang tuyến tính nên thấy rõ trẻ nặng lên hay cải thiện. Ở Việt Nam, đánh giá thường quy vẫn theo WHO Z-score.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.3 AAP 2023",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Beo-phi"
+      ]
+    },
+    {
+      "id": "PED68-S5-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "AAP 2023",
+      "tier": 2,
+      "text": "Theo AAP 2023, béo phì nặng độ 2 là BMI {{c1::<span style=\"color:#ffd43b\"><b>≥ 120% của bách phân vị 95</b></span>}}; độ 3 là {{c2::<span style=\"color:#ffd43b\"><b>≥ 140% của bách phân vị 95</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.3 AAP 2023",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Beo-phi"
+      ]
+    },
+    {
+      "id": "PED68-S6-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Đường tăng trưởng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chững tăng trưởng]</b></span> Thế nào là <span style=\"color:#ff6b6b\"><b>chững tăng trưởng (growth faltering)</b></span> trên biểu đồ, và có cần chờ Z-score < −2 mới đánh giá không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ khoẻ thường <span style=\"color:#51cf66\"><b>đi song song một kênh</b></span> bách phân vị / Z-score.<br>2) <span style=\"color:#ff6b6b\"><b>Chững tăng trưởng</b></span>: đường <span style=\"color:#ff6b6b\"><b>đi ngang</b></span>, hoặc <span style=\"color:#ff6b6b\"><b>cắt xuống ≥ 2 đường bách phân vị chính</b></span> (vd 50 → 9).<br>3) <span style=\"color:#ff6b6b\"><b>Không chờ</b></span>: cần đánh giá <span style=\"color:#ff6b6b\"><b>ngay cả khi Z-score vẫn > −2</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ từ bách phân vị 75 tụt xuống 10 vẫn “bình thường” nếu chỉ nhìn một lần đo, nhưng đã mất rất nhiều so với tiềm năng của chính nó. Phát hiện theo xu hướng giúp can thiệp trước khi thành SDD.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.4 Diễn giải động",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Duong-tang-truong"
+      ]
+    },
+    {
+      "id": "PED68-S6-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Đường tăng trưởng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuyển kênh sinh lý]</b></span> Những tình huống nào trẻ có thể “chuyển kênh” trên biểu đồ mà vẫn là sinh lý?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong <span style=\"color:#ffd43b\"><b>2–3 năm đầu</b></span>: chuyển kênh lên/xuống về <span style=\"color:#51cf66\"><b>kênh di truyền</b></span> (<span style=\"color:#74c0fc\"><b>canalization</b></span>) — nhất là trẻ <span style=\"color:#ffd43b\"><b>to / nhỏ lúc sinh</b></span>; sau đó tốc độ ổn định và trẻ khoẻ mạnh.<br>2) <span style=\"color:#74c0fc\"><b>Dậy thì sớm / muộn</b></span>: làm lệch kênh tạm thời.<br><br><b>💡 Giải thích của AI:</b><br>Cân nặng lúc sinh phản ánh môi trường tử cung nhiều hơn gen; sau sinh trẻ dần tìm về kênh của bố mẹ. Chìa khoá phân biệt với bệnh lý: sau khi chuyển kênh, trẻ đi ổn định theo kênh mới và hoàn toàn khoẻ mạnh.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.4 Diễn giải động",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Duong-tang-truong"
+      ]
+    },
+    {
+      "id": "PED68-S6-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Tốc độ tăng trưởng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tốc độ tăng chiều cao]</b></span> Tốc độ tăng chiều cao phải tính trên khoảng thời gian bao lâu, so với gì, và ngưỡng thực hành nào đáng lưu ý ở trẻ trước dậy thì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khoảng tính: <span style=\"color:#ffd43b\"><b>≥ 6 tháng</b></span> (lý tưởng <span style=\"color:#ffd43b\"><b>12 tháng</b></span>) — khoảng ngắn hơn thì <span style=\"color:#ff6b6b\"><b>sai số đo lấn át</b></span>.<br>2) So với <span style=\"color:#51cf66\"><b>chuẩn tốc độ theo tuổi – giới</b></span>.<br>3) Ngưỡng thực hành: trẻ từ khoảng <span style=\"color:#ffd43b\"><b>3–4 tuổi</b></span> đến trước dậy thì tăng <span style=\"color:#ff6b6b\"><b>< 4–5 cm/năm kéo dài</b></span> là đáng lưu ý.<br><br><b>💡 Giải thích của AI:</b><br>Sai số mỗi lần đo cỡ vài mm; nếu hai lần đo cách nhau chỉ 2 tháng (trẻ lớn khoảng 1 cm) thì sai số chiếm phần lớn chênh lệch đo được. Tốc độ thấp kéo dài là dấu hiệu nhạy của bệnh nội tiết, kể cả khi chiều cao còn trong giới hạn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.4 Diễn giải động · ⚠️ Ngưỡng thực hành lâm sàng, không phải tiêu chí chẩn đoán của guideline; barem trường có thể ghi khác.",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Toc-do"
+      ]
+    },
+    {
+      "id": "PED68-S6-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Chiều cao đích",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chiều cao đích – MPH]</b></span> Viết công thức chiều cao đích (mid-parental height), khoảng đích, và cách dùng để phát hiện bất thường.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>MPH</b></span> = (chiều cao bố + chiều cao mẹ <span style=\"color:#ffd43b\"><b>± 13 cm</b></span>) / 2 — <span style=\"color:#ffd43b\"><b>+13</b></span> cho trai, <span style=\"color:#ffd43b\"><b>−13</b></span> cho gái.<br>2) Khoảng đích ≈ <span style=\"color:#51cf66\"><b>MPH ± 8,5 cm</b></span> (≈ ± 2 SD).<br>3) HAZ của trẻ thấp hơn rõ rệt so với Z-score của MPH (<span style=\"color:#ff6b6b\"><b>chênh > ~2 SD</b></span>) là <span style=\"color:#ff6b6b\"><b>bất thường</b></span> dù bản thân HAZ chưa < −2.<br><br><b>💡 Giải thích của AI:</b><br>13 cm là chênh lệch chiều cao trung bình giữa nam và nữ trưởng thành. Ví dụ bố 168, mẹ 155: con trai (168 + 155 + 13)/2 = 168 cm (159,5–176,5); con gái (168 + 155 − 13)/2 = 155 cm (146,5–163,5). Trẻ có bố mẹ cao mà nằm ở −1,8 SD vẫn phải tìm nguyên nhân.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.5 Tiềm năng di truyền",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "MPH"
+      ]
+    },
+    {
+      "id": "PED68-S6-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Kiểu hình",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cân trước hay cao trước]</b></span> Phân biệt kiểu <span style=\"color:#ff6b6b\"><b>cân nặng giảm trước</b></span> với kiểu <span style=\"color:#ff6b6b\"><b>chiều cao giảm trước</b></span>: mỗi kiểu gợi ý nhóm nguyên nhân nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cân nặng giảm trước, chiều cao giảm sau</b></span>; <span style=\"color:#ffd43b\"><b>WHZ / BMI thấp</b></span> → <span style=\"color:#74c0fc\"><b>thiếu năng lượng</b></span>: ăn không đủ, kém hấp thu, bệnh mạn tiêu hao, tâm lý xã hội.<br>2) <span style=\"color:#ff6b6b\"><b>Chiều cao giảm trước, cân nặng giữ hoặc tăng</b></span>; <span style=\"color:#ffd43b\"><b>BMI bình thường / cao</b></span> → <span style=\"color:#74c0fc\"><b>nội tiết</b></span>: <span style=\"color:#74c0fc\"><b>suy giáp</b></span>, <span style=\"color:#74c0fc\"><b>thiếu GH</b></span>, <span style=\"color:#74c0fc\"><b>thừa glucocorticoid</b></span> (Cushing, corticoid ngoại sinh).<br><br><b>💡 Giải thích của AI:</b><br>Khi thiếu năng lượng, cơ thể hy sinh cân nặng trước rồi mới ngừng lớn chiều cao. Ngược lại, hormon chi phối sụn tăng trưởng (GH, thyroxin) giảm hoặc cortisol thừa làm ngừng lớn chiều cao trước, còn mỡ vẫn tích luỹ → trẻ “thấp mũm mĩm”.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.6 Kiểu hình – nguyên nhân",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Kieu-hinh"
+      ]
+    },
+    {
+      "id": "PED68-S6-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Kiểu hình",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[CDGP và thấp gia đình]</b></span> Phân biệt <span style=\"color:#74c0fc\"><b>chậm tăng trưởng – dậy thì thể tạng (CDGP)</b></span> với <span style=\"color:#74c0fc\"><b>thấp do gia đình</b></span> dựa vào tốc độ, tuổi xương và tiền sử gia đình.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CDGP</b></span>: thấp, <span style=\"color:#51cf66\"><b>tốc độ bình thường</b></span>, <span style=\"color:#ff6b6b\"><b>tuổi xương chậm</b></span>, <span style=\"color:#ffd43b\"><b>gia đình dậy thì muộn</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Thấp gia đình</b></span>: thấp, <span style=\"color:#51cf66\"><b>tốc độ bình thường</b></span>, <span style=\"color:#ffd43b\"><b>tuổi xương ≈ tuổi thực</b></span>, <span style=\"color:#ffd43b\"><b>phù hợp MPH thấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai đều là biến thể bình thường. Tuổi xương chậm nghĩa là còn nhiều thời gian lớn → trẻ CDGP thường đạt chiều cao trưởng thành trong khoảng đích, chỉ muộn hơn bạn bè. Trẻ thấp gia đình lớn đúng hạn nhưng đích vốn thấp.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.6 Kiểu hình – nguyên nhân",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Kieu-hinh",
+        "Thap"
+      ]
+    },
+    {
+      "id": "PED68-S6-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Kiểu hình",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Kiểu hình đặc biệt]</b></span> Gợi ý nguyên nhân của: <span style=\"color:#ff6b6b\"><b>thấp không cân đối</b></span>, <span style=\"color:#ff6b6b\"><b>trẻ gái thấp không giải thích được</b></span>, <span style=\"color:#ff6b6b\"><b>cao / BMI cao kèm dậy thì sớm</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thấp không cân đối</b></span> (tỷ lệ đoạn / sải tay bất thường) → <span style=\"color:#74c0fc\"><b>loạn sản xương</b></span>: <span style=\"color:#74c0fc\"><b>SHOX</b></span>, <span style=\"color:#74c0fc\"><b>achondroplasia / hypochondroplasia</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Trẻ gái thấp không giải thích được</b></span> → <span style=\"color:#74c0fc\"><b>hội chứng Turner</b></span>: <span style=\"color:#51cf66\"><b>làm karyotype</b></span> dù không có dị hình rõ.<br>3) <span style=\"color:#ff6b6b\"><b>Cao / BMI cao + dậy thì sớm</b></span> → <span style=\"color:#74c0fc\"><b>dậy thì sớm</b></span> (tăng tốc độ cao + tuổi xương nhanh).<br><br><b>💡 Giải thích của AI:</b><br>Turner có thể chỉ biểu hiện bằng thấp đơn độc trước tuổi dậy thì — guideline Turner khuyến cáo làm karyotype cho mọi trẻ gái thấp chưa rõ nguyên nhân để không bỏ sót suy buồng trứng và dị tật tim, thận đi kèm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.6 Kiểu hình – nguyên nhân",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Kieu-hinh"
+      ]
+    },
+    {
+      "id": "PED68-S6-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Dậy thì",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dậy thì sớm, muộn và tuổi xương]</b></span> Ngưỡng tuổi <span style=\"color:#ff6b6b\"><b>dậy thì sớm</b></span> và <span style=\"color:#ff6b6b\"><b>dậy thì muộn</b></span> ở trẻ gái, trẻ trai? Chụp <span style=\"color:#51cf66\"><b>tuổi xương</b></span> thế nào và khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dậy thì sớm</b></span>: dấu hiệu dậy thì trước <span style=\"color:#ffd43b\"><b>8 tuổi ở nữ</b></span> (vú B2), trước <span style=\"color:#ffd43b\"><b>9 tuổi ở nam</b></span> (tinh hoàn ≥ 4 ml).<br>2) <span style=\"color:#ff6b6b\"><b>Dậy thì muộn</b></span>: chưa có vú ở nữ <span style=\"color:#ffd43b\"><b>13 tuổi</b></span>; tinh hoàn <span style=\"color:#ffd43b\"><b>< 4 ml</b></span> ở nam <span style=\"color:#ffd43b\"><b>14 tuổi</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Tuổi xương</b></span>: X-quang <span style=\"color:#51cf66\"><b>bàn tay – cổ tay trái</b></span>, đọc theo <span style=\"color:#51cf66\"><b>Greulich–Pyle hoặc TW3</b></span>; chụp khi <span style=\"color:#ff6b6b\"><b>thấp</b></span>, <span style=\"color:#ff6b6b\"><b>cao bất thường</b></span>, <span style=\"color:#ff6b6b\"><b>dậy thì sớm / muộn</b></span> — để đánh giá <span style=\"color:#ffd43b\"><b>tiềm năng tăng trưởng còn lại</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 8/9 và 13/14 tuổi tương ứng khoảng 2–2,5 SD sớm hơn / muộn hơn tuổi khởi phát dậy thì trung bình. Tuổi xương là “đồng hồ sinh học”: chênh giữa tuổi xương và tuổi thực cho biết trẻ còn lớn được bao lâu.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.7 Dậy thì",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Day-thi"
+      ]
+    },
+    {
+      "id": "PED68-S6-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Chiều cao đích",
+      "tier": 2,
+      "text": "Chiều cao đích = (bố + mẹ {{c1::<span style=\"color:#ffd43b\"><b>+ 13 cm</b></span>}}) / 2 cho trẻ trai; khoảng đích ≈ MPH {{c2::<span style=\"color:#ffd43b\"><b>± 8,5 cm</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.5 Tiềm năng di truyền",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "MPH"
+      ]
+    },
+    {
+      "id": "PED68-S6-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Đường tăng trưởng",
+      "tier": 2,
+      "text": "Chững tăng trưởng khi đường tăng trưởng cắt xuống {{c1::<span style=\"color:#ffd43b\"><b>≥ 2 đường bách phân vị chính</b></span>}} — đánh giá ngay cả khi Z-score còn > −2.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.4 Diễn giải động",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Duong-tang-truong"
+      ]
+    },
+    {
+      "id": "PED68-S6-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Tốc độ",
+      "tier": 2,
+      "text": "Tốc độ tăng chiều cao phải tính trên khoảng thời gian ít nhất {{c1::<span style=\"color:#ffd43b\"><b>6 tháng</b></span>}}, lý tưởng {{c2::<span style=\"color:#ffd43b\"><b>12 tháng</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.4 Diễn giải động",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cloze-phu",
+        "Toc-do"
+      ]
+    },
+    {
+      "id": "PED68-S7-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Chuyển khám",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[SDD cấp nặng]</b></span> Trẻ <span style=\"color:#ff6b6b\"><b>SDD cấp nặng</b></span> nào cần điều trị nội trú, và khi nhập viện phải đánh giá ngay những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nội trú: SDD cấp nặng (<span style=\"color:#ff6b6b\"><b>WHZ < −3</b></span>, <span style=\"color:#ff6b6b\"><b>MUAC < 115 mm</b></span>, <span style=\"color:#ff6b6b\"><b>phù 2 bên</b></span>) nhất là khi <span style=\"color:#ff6b6b\"><b>có biến chứng</b></span>, <span style=\"color:#ff6b6b\"><b>không đạt thử nghiệm thèm ăn</b></span>, hoặc trẻ <span style=\"color:#ffd43b\"><b>dưới 6 tháng</b></span>.<br>2) Đánh giá ngay: <span style=\"color:#ff6b6b\"><b>nhiễm trùng</b></span>, <span style=\"color:#ff6b6b\"><b>hạ đường huyết</b></span>, <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt</b></span>, <span style=\"color:#ff6b6b\"><b>mất nước</b></span>; điều trị theo <span style=\"color:#51cf66\"><b>phác đồ WHO / Bộ Y tế</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ SDD nặng giảm đáp ứng viêm: nhiễm trùng nặng có thể không sốt, hạ đường huyết và hạ thân nhiệt hay gặp về đêm. Thử nghiệm thèm ăn (ăn thử chế phẩm điều trị) phân luồng trẻ đủ điều kiện điều trị ngoại trú.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 5. Chuyển khám",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuyen-kham",
+        "SDD-cap"
+      ]
+    },
+    {
+      "id": "PED68-S7-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Chuyển khám",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thăm dò trẻ thấp]</b></span> Khi nào trẻ thấp cần thăm dò nguyên nhân, và gồm những xét nghiệm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi nào: <span style=\"color:#ff6b6b\"><b>HAZ < −3 SD</b></span>, hoặc <span style=\"color:#ff6b6b\"><b>HAZ < −2 SD kèm tốc độ tăng chiều cao thấp</b></span>.<br>2) Xét nghiệm: <span style=\"color:#51cf66\"><b>CTM</b></span>, <span style=\"color:#51cf66\"><b>sinh hoá</b></span>, <span style=\"color:#51cf66\"><b>TSH / FT4</b></span>, <span style=\"color:#51cf66\"><b>IGF-1</b></span>, <span style=\"color:#51cf66\"><b>sàng lọc celiac</b></span>, <span style=\"color:#51cf66\"><b>tổng phân tích nước tiểu</b></span>, <span style=\"color:#51cf66\"><b>tuổi xương</b></span>; <span style=\"color:#51cf66\"><b>karyotype ở nữ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bộ xét nghiệm ban đầu nhằm loại trừ các bệnh “thầm lặng” chỉ biểu hiện bằng chậm lớn: thiếu máu, bệnh thận, nhiễm toan ống thận, suy giáp, celiac, Turner. IGF-1 thấp gợi ý thiếu GH nhưng cũng thấp khi SDD.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 5. Chuyển khám",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuyen-kham",
+        "Thap"
+      ],
+      "asks": [
+        "Khi nào",
+        "Xét nghiệm"
+      ]
+    },
+    {
+      "id": "PED68-S7-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Chuyển khám",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dấu hiệu chuyển khám – tăng trưởng]</b></span> Kể các dấu hiệu về đường tăng trưởng, chiều cao đích, tỷ lệ cơ thể và vòng đầu cần chuyển chuyên khoa / thăm dò thêm.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cắt ≥ 2 đường bách phân vị</b></span> (ngoài giai đoạn chuyển kênh sinh lý) → tìm nguyên nhân bệnh lý / dinh dưỡng / tâm lý xã hội.<br>2) <span style=\"color:#ff6b6b\"><b>Chênh với chiều cao đích > ~2 SD</b></span> → đánh giá <span style=\"color:#51cf66\"><b>nội tiết – di truyền</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Thấp không cân đối, dị hình</b></span> → <span style=\"color:#51cf66\"><b>di truyền / chỉnh hình</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Vòng đầu < −2 SD hoặc > +2 SD</b></span>, hoặc tăng/giảm tốc độ bất thường → <span style=\"color:#51cf66\"><b>thần kinh nhi</b></span>; <span style=\"color:#51cf66\"><b>siêu âm qua thóp / chẩn đoán hình ảnh</b></span>, đánh giá phát triển.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm dấu hiệu này đều nói về “hướng đi” và “so với chính trẻ / gia đình trẻ”, không phụ thuộc trẻ đã dưới ngưỡng −2 SD hay chưa.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 5. Chuyển khám",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuyen-kham"
+      ]
+    },
+    {
+      "id": "PED68-S7-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Chuyển khám",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dấu hiệu chuyển khám – béo phì và dậy thì]</b></span> Xử trí khi gặp <span style=\"color:#ff6b6b\"><b>béo phì kèm thấp / giảm tốc độ cao</b></span>, <span style=\"color:#ff6b6b\"><b>béo phì nặng hoặc có bệnh đi kèm</b></span>, <span style=\"color:#ff6b6b\"><b>dậy thì sớm / muộn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Béo phì kèm thấp hoặc giảm tốc độ cao</b></span> → <span style=\"color:#51cf66\"><b>loại trừ nguyên nhân nội tiết / di truyền</b></span> (béo phì đơn thuần thường <span style=\"color:#ffd43b\"><b>cao hơn so với tuổi</b></span>).<br>2) <span style=\"color:#ff6b6b\"><b>Béo phì nặng / có bệnh đi kèm</b></span> → <span style=\"color:#51cf66\"><b>đánh giá biến chứng</b></span>: huyết áp, lipid, glucose / HbA1c, men gan, ngưng thở khi ngủ; can thiệp tích cực theo <span style=\"color:#51cf66\"><b>AAP 2023</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Dậy thì sớm / muộn</b></span> → <span style=\"color:#51cf66\"><b>nội tiết nhi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ béo phì do ăn nhiều thường cao hơn bạn (dư năng lượng thúc đẩy tăng trưởng và dậy thì sớm). Béo phì mà lại thấp là “cờ đỏ” của suy giáp, Cushing, thiếu GH hoặc hội chứng di truyền (Prader–Willi).",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 5. Chuyển khám",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuyen-kham",
+        "Beo-phi"
+      ]
+    },
+    {
+      "id": "PED68-S7-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Bệnh án",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Mẫu bệnh án]</b></span> Phần phát triển thể chất trong bệnh án cần ghi những mục nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Tuổi</b></span> (tuổi hiệu chỉnh nếu sinh non), <span style=\"color:#ffd43b\"><b>giới</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>CN</b></span> (WAZ), <span style=\"color:#74c0fc\"><b>CD/CC</b></span> + <span style=\"color:#51cf66\"><b>tư thế đo</b></span> (HAZ), <span style=\"color:#74c0fc\"><b>WHZ</b></span>, <span style=\"color:#74c0fc\"><b>BMI</b></span> (BMIz).<br>3) <span style=\"color:#74c0fc\"><b>Vòng đầu</b></span> (HCZ), <span style=\"color:#74c0fc\"><b>MUAC</b></span>, <span style=\"color:#ff6b6b\"><b>phù dinh dưỡng</b></span> (không / +, ++, +++).<br>4) <span style=\"color:#51cf66\"><b>Xu hướng</b></span>: theo kênh / cắt mấy đường từ tháng nào; tốc độ CC (cm/năm, khoảng đo).<br>5) <span style=\"color:#51cf66\"><b>Chiều cao đích</b></span> và khoảng; trẻ trong / ngoài khoảng đích.<br>6) <span style=\"color:#74c0fc\"><b>Tanner</b></span>, <span style=\"color:#74c0fc\"><b>tuổi xương</b></span> (nếu có).<br>7) <span style=\"color:#51cf66\"><b>Kết luận</b></span>: theo chuẩn WHO 2006/2007 — bình thường / SDD cấp mức … / thấp còi mức … / thừa cân / béo phì, xu hướng, nghi nguyên nhân.<br><br><b>💡 Giải thích của AI:</b><br>Ghi Z-score cạnh mỗi số đo và nêu tên chuẩn đã dùng giúp người đọc sau kiểm tra lại được; kết luận phải có đủ 3 tầng: phân loại hiện tại, xu hướng, nghi nguyên nhân.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 6. Mẫu bệnh án",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Benh-an"
+      ]
+    },
+    {
+      "id": "PED68-S7-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · PHÁT TRIỂN THỂ CHẤT",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Cách cũ cần bỏ",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cách cũ cần bỏ]</b></span> Kể 6 cách đánh giá tăng trưởng “cũ” và cách làm tương ứng theo EBM hiện nay.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Công thức ước tính CN, CC theo tuổi</b></span> để kết luận → chỉ ước lượng nhanh (vd tính liều cấp cứu khi không cân được); <span style=\"color:#51cf66\"><b>chẩn đoán dùng Z-score</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Phân loại SDD theo % cân nặng chuẩn (Gomez, Waterlow)</b></span> → <span style=\"color:#51cf66\"><b>Z-score WHO + MUAC + phù</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Đánh giá một lần đo</b></span> → <span style=\"color:#51cf66\"><b>đường tăng trưởng, tốc độ, chiều cao đích</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Mốc thóp, mọc răng, vòng ngực/vòng đầu</b></span> để đánh giá tăng trưởng → <span style=\"color:#ffd43b\"><b>biên độ bình thường rất rộng</b></span>, chỉ có giá trị khi kèm bất thường khác.<br>5) <span style=\"color:#ff6b6b\"><b>Không hiệu chỉnh tuổi trẻ sinh non</b></span> → <span style=\"color:#51cf66\"><b>tuổi hiệu chỉnh đến ≥ 24 tháng</b></span>; INTERGROWTH-21st đến 64 tuần PMA.<br>6) <span style=\"color:#ff6b6b\"><b>Đo chiều dài trẻ nhỏ bằng thước dây trên giường</b></span> → <span style=\"color:#51cf66\"><b>thước đo chiều dài chuẩn, 2 người đo</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gomez/Waterlow dùng % so với trung vị nên không so sánh được giữa các tuổi và không chuẩn hoá theo độ phân tán; Z-score khắc phục cả hai. Khi đi thi, kiểm tra barem trường vì nhiều tài liệu cũ vẫn dạy công thức ước tính.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 7. Cách cũ cần bỏ",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cach-cu"
+      ]
+    },
+    {
+      "id": "PED68-A-01",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Giải mã Z-score",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Giải mã nhanh Z-score trẻ 0–59 tháng</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phù 2 bên</b></span> hoặc <span style=\"color:#ff6b6b\"><b>WHZ < −3</b></span> hoặc <span style=\"color:#ff6b6b\"><b>MUAC < 115 mm</b></span> → <span style=\"color:#ff6b6b\"><b>SDD cấp nặng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>−3 ≤ WHZ < −2</b></span> hoặc <span style=\"color:#ffd43b\"><b>MUAC 115 – < 125 mm</b></span>, không phù → <span style=\"color:#74c0fc\"><b>SDD cấp vừa</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>HAZ < −2</b></span> → <span style=\"color:#74c0fc\"><b>thấp còi</b></span> (<span style=\"color:#ff6b6b\"><b>< −3</b></span>: nặng) — đánh giá độc lập với WHZ.<br>4) <span style=\"color:#ffd43b\"><b>WHZ > +1</b></span> nguy cơ thừa cân; <span style=\"color:#ff6b6b\"><b>> +2</b></span> thừa cân; <span style=\"color:#ff6b6b\"><b>> +3</b></span> béo phì.<br>5) Dưới 6 tháng: <span style=\"color:#ff6b6b\"><b>MUAC < 110 mm</b></span> (từ 6 tuần), WAZ/WLZ < −2, chững cân → <span style=\"color:#74c0fc\"><b>nguy cơ tăng trưởng – phát triển kém</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự đọc: phù trước (vì phù làm sai cân nặng) → WHZ/MUAC (cấp) → HAZ (mạn) → phía trên (thừa cân). Một trẻ có thể vừa SDD cấp vừa thấp còi — ghi cả hai.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.2 Phân loại",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Phan-loai",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED68-A-02",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Chọn chuẩn và tuổi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Chọn chuẩn tham chiếu và tuổi để tra</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ <span style=\"color:#ffd43b\"><b>sinh non</b></span>? → <span style=\"color:#74c0fc\"><b>INTERGROWTH-21st</b></span> theo <span style=\"color:#ffd43b\"><b>PMA</b></span> đến <span style=\"color:#ffd43b\"><b>64 tuần</b></span> → chuyển <span style=\"color:#74c0fc\"><b>WHO</b></span> theo <span style=\"color:#ffd43b\"><b>tuổi hiệu chỉnh</b></span> đến <span style=\"color:#ffd43b\"><b>≥ 24 tháng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>0–5 tuổi</b></span> → <span style=\"color:#74c0fc\"><b>WHO 2006</b></span>: dưới 2 tuổi <span style=\"color:#51cf66\"><b>đo nằm</b></span>, từ 2 tuổi <span style=\"color:#51cf66\"><b>đo đứng</b></span> (sai tư thế → ± 0,7 cm).<br>3) <span style=\"color:#ffd43b\"><b>5–19 tuổi</b></span> → <span style=\"color:#74c0fc\"><b>WHO 2007</b></span>: <span style=\"color:#74c0fc\"><b>BMI/tuổi</b></span> + <span style=\"color:#74c0fc\"><b>CC/tuổi</b></span>; CN/tuổi chỉ đến <span style=\"color:#ffd43b\"><b>10 tuổi</b></span>.<br>4) Cần <span style=\"color:#ff6b6b\"><b>phân độ béo phì nặng</b></span> → tham khảo <span style=\"color:#74c0fc\"><b>AAP 2023 / CDC extended</b></span> (%BMIp95), ghi rõ chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Sai chuẩn hoặc sai tuổi là lỗi nền: mọi Z-score phía sau đều sai theo. Kiểm tra hai điều này trước khi đọc số.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 1. Chuẩn tham chiếu",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Chuan-tham-chieu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED68-A-03",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Công thức bỏ túi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Công thức bỏ túi khám phát triển thể chất</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tuổi hiệu chỉnh</b></span> = tuổi thực − (<span style=\"color:#ffd43b\"><b>40</b></span> − tuổi thai lúc sinh) tuần.<br>2) <span style=\"color:#51cf66\"><b>MPH</b></span> = (bố + mẹ <span style=\"color:#ffd43b\"><b>± 13</b></span>) / 2; khoảng đích <span style=\"color:#ffd43b\"><b>± 8,5 cm</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Hiệu chỉnh tư thế</b></span>: dưới 2 tuổi đo đứng <span style=\"color:#ffd43b\"><b>+ 0,7 cm</b></span>; từ 2 tuổi đo nằm <span style=\"color:#ffd43b\"><b>− 0,7 cm</b></span>.<br>4) <span style=\"color:#51cf66\"><b>BMI</b></span> = CN (kg) / CC² (m²).<br>5) <span style=\"color:#51cf66\"><b>%BMIp95</b></span> = BMI / BMI bách phân vị 95 × 100; <span style=\"color:#ffd43b\"><b>≥ 120%</b></span> độ 2, <span style=\"color:#ffd43b\"><b>≥ 140%</b></span> độ 3.<br>6) <span style=\"color:#51cf66\"><b>Tốc độ CC</b></span> = chênh chiều cao / khoảng thời gian (năm), khoảng <span style=\"color:#ffd43b\"><b>≥ 6 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc Z-score ↔ bách phân vị: −2 SD ≈ 2,3; −1 SD ≈ 15,9; +1 SD ≈ 84,1; +2 SD ≈ 97,7.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: Tổng hợp công thức",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Cong-thuc",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED68-A-04",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Lưu đồ trẻ thấp",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Trẻ thấp: lưu đồ tiếp cận 5 bước</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đo lại đúng kỹ thuật</b></span>, đúng tư thế, đúng tuổi (hiệu chỉnh nếu sinh non).<br>2) <span style=\"color:#51cf66\"><b>Xem tỷ lệ cơ thể</b></span>: <span style=\"color:#ff6b6b\"><b>không cân đối</b></span> → <span style=\"color:#74c0fc\"><b>loạn sản xương</b></span> (SHOX, achondroplasia).<br>3) <span style=\"color:#51cf66\"><b>Cân nặng so với chiều cao</b></span>: <span style=\"color:#ff6b6b\"><b>gầy trước</b></span> → <span style=\"color:#74c0fc\"><b>dinh dưỡng / bệnh mạn</b></span>; <span style=\"color:#ff6b6b\"><b>thấp mà mũm mĩm</b></span> → <span style=\"color:#74c0fc\"><b>nội tiết</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Tốc độ + tuổi xương + MPH</b></span>: tốc độ bình thường + tuổi xương chậm → <span style=\"color:#74c0fc\"><b>CDGP</b></span>; tốc độ bình thường + tuổi xương ≈ tuổi thực + MPH thấp → <span style=\"color:#74c0fc\"><b>thấp gia đình</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>HAZ < −3</b></span>, <span style=\"color:#ff6b6b\"><b>tốc độ thấp</b></span>, <span style=\"color:#ff6b6b\"><b>chênh MPH > ~2 SD</b></span>, <span style=\"color:#ff6b6b\"><b>trẻ gái chưa rõ nguyên nhân</b></span> → <span style=\"color:#51cf66\"><b>thăm dò</b></span> (CTM, sinh hoá, TSH/FT4, IGF-1, celiac, nước tiểu, tuổi xương, karyotype nữ).<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu: không làm xét nghiệm tràn lan cho trẻ thấp sinh lý (CDGP, gia đình), và không bỏ sót trẻ có tốc độ thấp kéo dài hoặc trẻ gái Turner.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 4.6 + 5 Tổng hợp",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Thap",
+        "Tiep-can",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED68-A-05",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Đo nhân trắc",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Đo nhân trắc: 3 NÊN & 3 KHÔNG</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>NÊN</b></span>: <span style=\"color:#51cf66\"><b>đo 2 lần</b></span>, ghi trung bình, ghi <span style=\"color:#ffd43b\"><b>ngày + tư thế</b></span>.<br>2) <span style=\"color:#51cf66\"><b>NÊN</b></span>: trẻ dưới 2 tuổi đo nằm bằng <span style=\"color:#51cf66\"><b>thước đo chiều dài, 2 người</b></span>.<br>3) <span style=\"color:#51cf66\"><b>NÊN</b></span>: khám <span style=\"color:#51cf66\"><b>phù 2 mu bàn chân</b></span> trước khi diễn giải cân nặng.<br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: đo chiều dài bằng <span style=\"color:#ff6b6b\"><b>thước dây trên giường</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: đo <span style=\"color:#ff6b6b\"><b>MUAC ở trẻ dưới 6 tuần</b></span> hoặc <span style=\"color:#ff6b6b\"><b>quấn thước ép lõm da</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: kết luận khi gặp <span style=\"color:#ff6b6b\"><b>Z-score cờ</b></span> (HAZ ±6, WHZ ±5, WAZ −6/+5) hay <span style=\"color:#ff6b6b\"><b>chiều cao “giảm”</b></span> — đo lại trước.<br><br><b>💡 Giải thích của AI:</b><br>Phần lớn “bất thường” trên biểu đồ ở phòng khám là lỗi đo hoặc nhập liệu. Ba KHÔNG ở trên chặn ba nguồn sai số hay gặp nhất.",
+      "extra": "📖 Nguồn: Chuyên đề PED-68 Khám phát triển thể chất trẻ em theo EBM quốc tế (WHO Child Growth Standards 2006; WHO Growth Reference 2007; WHO 2023 Guideline on wasting and nutritional oedema; INTERGROWTH-21st; AAP CPG 2023). Mục: 3. Đo nhân trắc",
+      "tags": [
+        "PED-68",
+        "Chuyen-de-EBM",
+        "Ky-thuat-do",
+        "Thuat-toan"
+      ]
+    }
+  ]
+}
