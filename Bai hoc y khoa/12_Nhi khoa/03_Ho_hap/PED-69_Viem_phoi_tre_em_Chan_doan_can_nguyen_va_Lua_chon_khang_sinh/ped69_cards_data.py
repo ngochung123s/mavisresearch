@@ -576,8 +576,9 @@ cards_data = [
         f"Liều doxycycline?",
         f"1) {Y('≥ 8 tuổi')}: {G('doxycycline')} (hoặc {G('minocycline')}).<br>"
         f"2) {Y('< 8 tuổi')}: {G('doxycycline đợt ngắn')} (AAP cho phép {Y('≤ 21 ngày')} ở mọi tuổi; Trung Quốc 2023 cho phép khi cân nhắc lợi – hại), "
-        f"hoặc {G('fluoroquinolon')} (levofloxacin; tosufloxacin ở Nhật) — {R('ngoài chỉ định, cần đồng thuận')}.<br>"
-        f"3) Doxycycline: {G('2–4 mg/kg/ngày chia 2')}, tối đa {Y('200 mg/ngày')}.",
+        f"hoặc {G('fluoroquinolon')} (levofloxacin; tosufloxacin ở Nhật) — {R('ngoài chỉ định ở mọi trẻ < 18 tuổi, cần đồng thuận')}.<br>"
+        f"3) Doxycycline: {G('2 mg/kg/lần mỗi 12 giờ')} (tối đa {Y('100 mg/lần')}) × khoảng {Y('10 ngày')} (Trung Quốc 2023); "
+        f"PIDS/IDSA 2011 ghi {G('2–4 mg/kg/ngày chia 2')}, tối đa {Y('200 mg/ngày')}.",
         "Lo ngại nhuộm răng của tetracyclin chủ yếu với tetracyclin thế hệ cũ dùng dài; doxycycline gắn calci yếu hơn và đợt ngắn "
         "không làm đổi màu răng có ý nghĩa. Tetracyclin hạ sốt nhanh hơn fluoroquinolon trong các nghiên cứu ở Nhật, Trung Quốc.",
         "5.4 Mycoplasma kháng macrolid", ["Mycoplasma", "Doxycycline"], warn=True,
@@ -594,11 +595,13 @@ cards_data = [
     ),
     basic(
         "PED69-S6-05", "S6", "Corticoid", 2,
-        f"{B('[Corticoid trong RMPP – Trung Quốc 2023]')} Liều methylprednisolon chuẩn và liều xung cho RMPP theo guideline Trung Quốc 2023, "
-        f"và mức độ bằng chứng ở phương Tây?",
-        f"1) Chuẩn: {G('methylprednisolon 1–2 mg/kg/ngày')} × {Y('3–5 ngày')}.<br>"
-        f"2) Rất nặng: {G('liều xung 10–30 mg/kg/ngày')} × {Y('3 ngày')} (tối đa {Y('1 g')}).<br>"
-        f"3) Phương Tây: {R('chưa có trong guideline')} — chỉ là tham khảo.",
+        f"{B('[Corticoid trong RMPP – Trung Quốc 2023]')} Theo guideline Trung Quốc 2023, liều methylprednisolon chuẩn, liều tăng khi không "
+        f"đáp ứng, thời gian dùng cho Mycoplasma nặng/kháng trị là bao nhiêu, và mức độ bằng chứng ở phương Tây?",
+        f"1) Chuẩn: {G('methylprednisolon 2 mg/kg/ngày')}.<br>"
+        f"2) Không đáp ứng (sốt cao kéo dài, đông đặc rộng, CRP/LDH/ferritin rất cao): {G('tăng 4–6 mg/kg/ngày')}; liều cao hơn chỉ ở "
+        f"{R('rất ít ca nguy kịch')}.<br>"
+        f"3) Thời gian: giảm liều khi hết sốt, CRP giảm; tổng {Y('≤ 14 ngày')}.<br>"
+        f"4) Phương Tây: {R('chưa có trong guideline')} — chỉ là tham khảo.",
         "Corticoid làm hạ sốt nhanh và giảm viêm trong các nghiên cứu quan sát/thử nghiệm nhỏ ở Trung Quốc, nhưng chưa có thử nghiệm "
         "lớn đa quốc gia. Khi dùng phải chắc đã điều trị đúng kháng sinh và loại trừ lao, nhiễm khuẩn khác.",
         "5.4 Mycoplasma kháng macrolid", ["Mycoplasma", "Corticoid"], warn=True,
@@ -639,7 +642,8 @@ cards_data = [
         f"1) {G('Azithromycin')}: {Y('10 mg/kg ngày 1')} (tối đa 500 mg) → {Y('5 mg/kg ngày 2–5')} (tối đa 250 mg).<br>"
         f"2) {G('Clarithromycin')}: {Y('15 mg/kg/ngày chia 2')} × 7–14 ngày (tối đa 1 g/ngày).<br>"
         f"3) {G('Erythromycin')}: {Y('40–50 mg/kg/ngày chia 4')}.<br>"
-        f"4) {G('Doxycycline')}: {Y('2–4 mg/kg/ngày chia 2')} (tối đa 200 mg/ngày).",
+        f"4) {G('Doxycycline')}: {Y('2–4 mg/kg/ngày chia 2')} (PIDS/IDSA 2011, tối đa 200 mg/ngày); Trung Quốc 2023: {Y('2 mg/kg/lần mỗi 12 giờ')} "
+        f"(tối đa 100 mg/lần).",
         "Azithromycin có thời gian bán thải mô rất dài nên 5 ngày tạo nồng độ mô kéo dài thêm nhiều ngày sau liều cuối. Erythromycin "
         "nhiều tác dụng phụ tiêu hóa (kích thích motilin) nên ít dùng.",
         "6. Bảng liều", ["Lieu"],
@@ -923,7 +927,7 @@ cards_data = [
         f"2) {G('Amoxicillin–clavulanat')} amoxicillin {Y('90 mg/kg/ngày chia 2')}, clavulanat ≤ 10 mg/kg/ngày.<br>"
         f"3) {G('Azithromycin')} {Y('10 → 5 mg/kg × 5 ngày')}; Chlamydia {Y('20 mg/kg × 3 ngày')}.<br>"
         f"4) {G('Clarithromycin')} {Y('15 mg/kg/ngày chia 2')}.<br>"
-        f"5) {G('Doxycycline')} {Y('2–4 mg/kg/ngày chia 2')} (tối đa 200 mg).<br>"
+        f"5) {G('Doxycycline')} {Y('2 mg/kg/lần × 2/ngày')} (tối đa 100 mg/lần).<br>"
         f"6) {G('Levofloxacin')} {Y('16–20 mg/kg/ngày chia 2')} (< 5 tuổi) / {Y('8–10 mg/kg 1 lần')} (5–16 tuổi).<br>"
         f"7) {G('Linezolid')} {Y('30 mg/kg/ngày chia 3')} (< 12 tuổi).<br>"
         f"8) {G('Oseltamivir')} {Y('30 – 45 – 60 – 75 mg × 2/ngày')} theo bậc 15 – 23 – 40 kg; < 1 tuổi 3 mg/kg × 2.",
@@ -941,8 +945,8 @@ cards_data = [
         f"6) {G('Clindamycin')} {Y('40 mg/kg/ngày chia 3–4')}.<br>"
         f"7) {G('Ampicillin–sulbactam')} ampicillin {Y('150–200 mg/kg/ngày chia 4')}.<br>"
         f"8) {G('Cotrimoxazol')} (PCP) TMP {Y('15–20 mg/kg/ngày chia 3–4')} × 21 ngày.",
-        "Thuốc bán thải ngắn (ampicillin, cefotaxime, vancomycin, clindamycin) chia nhiều lần; ceftriaxone và gentamicin (diệt khuẩn "
-        "phụ thuộc nồng độ) dùng 1 lần/ngày.",
+        "Thuốc bán thải ngắn (ampicillin, cefotaxime, vancomycin, clindamycin) chia nhiều lần; gentamicin 1 lần/ngày vì diệt khuẩn "
+        "phụ thuộc nồng độ; ceftriaxone vẫn là β-lactam (diệt khuẩn phụ thuộc thời gian) nhưng 1 lần/ngày được vì bán thải dài.",
         "6. Bảng liều", ["Lieu"],
     ),
     algo(
@@ -973,10 +977,10 @@ cards_data = [
         "Mycoplasma nghi kháng macrolid: cây quyết định",
         f"1) Đang macrolid {Y('48–72 giờ')}, {G('cải thiện')} → {G('tiếp tục')}, không đổi vì sợ kháng.<br>"
         f"2) {R('Sốt kéo dài / xấu đi')} → {G('PCR đột biến 23S (nếu có)')}, X-quang/siêu âm tìm biến chứng.<br>"
-        f"3) Chuyển thuốc: {Y('≥ 8 tuổi')} {G('doxycycline 2–4 mg/kg/ngày')}; {Y('< 8 tuổi')} {G('doxycycline đợt ngắn')} hoặc "
-        f"{G('levofloxacin')} (ngoài chỉ định, đồng thuận).<br>"
+        f"3) Chuyển thuốc: {Y('≥ 8 tuổi')} {G('doxycycline 2 mg/kg/lần × 2/ngày')}; {Y('< 8 tuổi')} {G('doxycycline đợt ngắn')} hoặc "
+        f"{G('levofloxacin')} (ngoài chỉ định ở mọi trẻ < 18 tuổi, cần đồng thuận).<br>"
         f"4) ≥ {Y('7 ngày')} vẫn tiến triển + {R('LDH, CRP, ferritin, D-dimer cao')} → {B('RMPP')}: cân nhắc "
-        f"{G('methylprednisolon 1–2 mg/kg/ngày')} (Trung Quốc 2023).<br>"
+        f"{G('methylprednisolon 2 mg/kg/ngày')}, không đáp ứng tăng 4–6 mg/kg/ngày (Trung Quốc 2023).<br>"
         f"5) {R('Xẹp thùy / nghi khuôn phế quản')} → {G('nội soi phế quản')}; {R('D-dimer cao')} → tìm huyết khối.",
         "Thứ tự: đánh giá đáp ứng → đổi kháng sinh → điều hòa miễn dịch → can thiệp cơ học. Bỏ qua bước 3 mà dùng corticoid ngay là "
         "che triệu chứng khi vi khuẩn còn nguyên.",
