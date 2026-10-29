@@ -1,0 +1,828 @@
+{
+  "deck_id": 170967001,
+  "deck_name": "Nhi khoa Y6::PED-67: Còi xương thiếu vitamin D",
+  "card_count": 45,
+  "cards": [
+    {
+      "id": "PED67-S1-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Định nghĩa",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Còi xương]</b></span> Định nghĩa còi xương do thiếu vitamin D: bệnh của đối tượng nào, rối loạn chuyển hóa gì, hậu quả ở xương và các hệ cơ quan nào khác?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Đối tượng</b></span>: cơ thể <span style=\"color:#ffd43b\"><b>đang lớn</b></span> (trẻ em).<br>2) <span style=\"color:#74c0fc\"><b>Rối loạn</b></span>: thiếu vitamin D → rối loạn chuyển hóa <span style=\"color:#ff6b6b\"><b>calci và phospho</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Ở xương</b></span>: <span style=\"color:#ff6b6b\"><b>sụn tăng trưởng không khoáng hóa được</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Hệ khác</b></span>: <span style=\"color:#ff6b6b\"><b>thần kinh, cơ, tạo máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ cơ thể có <span style=\"color:#ffd43b\"><b>sụn tăng trưởng còn mở</b></span> mới bị còi xương; người lớn thiếu vitamin D thì gọi là <span style=\"color:#74c0fc\"><b>nhuyễn xương</b></span>. Vì bệnh nằm ở sụn đang lớn nên biến dạng luôn đi theo vùng xương lớn nhanh nhất.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 1. Cơ chế",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dinh-nghia"
+      ]
+    },
+    {
+      "id": "PED67-S1-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Cơ chế",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuỗi cơ chế]</b></span> Trình bày chuỗi từ thiếu vitamin D đến <span style=\"color:#ff6b6b\"><b>biến dạng xương</b></span> và <span style=\"color:#ff6b6b\"><b>co giật</b></span> (qua ruột, PTH, xương, thận).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thiếu vitamin D → <span style=\"color:#ff6b6b\"><b>giảm hấp thu Ca, P ở ruột</b></span> → Ca máu có xu hướng giảm.<br>2) <span style=\"color:#51cf66\"><b>Tăng PTH</b></span> (cường cận giáp thứ phát).<br>3) PTH rút Ca từ xương → <span style=\"color:#ff6b6b\"><b>mất vôi</b></span>.<br>4) PTH tăng thải P qua thận → <span style=\"color:#ff6b6b\"><b>P máu giảm</b></span>.<br>5) Thiếu Ca và P → <span style=\"color:#ff6b6b\"><b>sụn tăng trưởng không khoáng hóa</b></span> → đầu xương phì đại, loe rộng; xương mềm, chịu lực bị cong.<br>6) PTH bù không kịp → <span style=\"color:#ff6b6b\"><b>Ca máu tụt</b></span> → co giật, khóc lặng, tetany.<br><br><b>💡 Giải thích của AI:</b><br>Điểm mấu chốt: nhờ PTH, <span style=\"color:#ffd43b\"><b>Ca máu thường còn bình thường</b></span> trong khi <span style=\"color:#ff6b6b\"><b>P giảm</b></span> và <span style=\"color:#ff6b6b\"><b>phosphatase kiềm tăng</b></span>. Đề hay cho Ca bình thường để bẫy người chỉ nhớ 'còi xương = hạ calci'.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 1. Cơ chế",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Co-che"
+      ]
+    },
+    {
+      "id": "PED67-S1-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Yếu tố nguy cơ",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Yếu tố nguy cơ]</b></span> Kể các yếu tố nguy cơ còi xương thiếu vitamin D (ánh nắng, nuôi dưỡng, mẹ, trẻ, bệnh và thuốc).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thiếu ánh nắng</b></span>: ở trong nhà, mặc kín, mùa đông.<br>2) <span style=\"color:#ff6b6b\"><b>Bú mẹ hoàn toàn</b></span> mà <span style=\"color:#ff6b6b\"><b>không bổ sung vitamin D</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Mẹ thiếu vitamin D</b></span> khi mang thai.<br>4) Trẻ <span style=\"color:#ff6b6b\"><b>đẻ non, nhẹ cân, sinh đôi</b></span>; <span style=\"color:#ff6b6b\"><b>da sẫm màu</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Ăn ít calci</b></span>.<br>6) <span style=\"color:#74c0fc\"><b>Bệnh gan mật, kém hấp thu</b></span>.<br>7) Thuốc <span style=\"color:#51cf66\"><b>chống động kinh</b></span> (phenytoin, phenobarbital).<br><br><b>💡 Giải thích của AI:</b><br>Nhóm theo cơ chế: thiếu nguồn (nắng, ăn, mẹ) — dự trữ kém (đẻ non, sinh đôi) — hấp thu kém (gan mật, ruột) — tăng chuyển hóa vitamin D (thuốc chống động kinh cảm ứng men gan).",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 1. Yếu tố nguy cơ",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Yeu-to-nguy-co"
+      ]
+    },
+    {
+      "id": "PED67-S1-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Dịch tễ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tuổi hay gặp]</b></span> Còi xương thiếu vitamin D gặp chủ yếu ở trẻ dưới bao nhiêu tuổi, đỉnh ở khoảng tuổi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chủ yếu trẻ <span style=\"color:#ffd43b\"><b>dưới 3 tuổi</b></span>.<br>2) Đỉnh khoảng <span style=\"color:#ffd43b\"><b>6–24 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là giai đoạn xương lớn nhanh nhất, nhu cầu calci cao, trong khi nguồn vitamin D từ sữa mẹ thấp và trẻ ít ra nắng.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 1. Yếu tố nguy cơ · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dich-te"
+      ]
+    },
+    {
+      "id": "PED67-S1-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S1",
+      "category": "Cơ chế",
+      "tier": 2,
+      "text": "Bộ ba sinh hóa điển hình của còi xương thiếu vitamin D (nhờ tăng PTH): {{c1::<span style=\"color:#ffd43b\"><b>calci bình thường</b></span>, <span style=\"color:#ff6b6b\"><b>phospho giảm</b></span>, <span style=\"color:#ff6b6b\"><b>phosphatase kiềm tăng</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 1. Cơ chế",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Co-che"
+      ]
+    },
+    {
+      "id": "PED67-S2-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Lâm sàng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[5 nhóm triệu chứng]</b></span> Kể <span style=\"color:#ffd43b\"><b>5 nhóm</b></span> triệu chứng lâm sàng của còi xương và nhóm nào xuất hiện sớm nhất.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thần kinh thực vật</b></span> — <span style=\"color:#ffd43b\"><b>sớm nhất</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Xương</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Cơ, dây chằng</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Máu</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>Hô hấp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo: 'Thần – Xương – Cơ – Máu – Thở'. Ngoài 5 nhóm này còn có bệnh cảnh hạ calci máu cấp (co giật, khóc lặng, tetany).",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 2. Lâm sàng",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S2-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thần kinh thực vật]</b></span> Kể các triệu chứng thần kinh thực vật của còi xương và giải thích vì sao trẻ <span style=\"color:#ff6b6b\"><b>rụng tóc gáy</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Quấy khóc</b></span>, <span style=\"color:#ff6b6b\"><b>ngủ không yên</b></span>, <span style=\"color:#ff6b6b\"><b>hay giật mình</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Ra nhiều mồ hôi</b></span> (mồ hôi trộm).<br>3) <span style=\"color:#ff6b6b\"><b>Rụng tóc vùng gáy</b></span> thành hình vành khăn: mồ hôi làm ngứa, trẻ <span style=\"color:#ff6b6b\"><b>cọ đầu xuống gối</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là nhóm dấu hiệu sớm nhưng không đặc hiệu (trẻ khỏe cũng hay ra mồ hôi đầu). Giá trị khi đi kèm yếu tố nguy cơ và dấu hiệu xương.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 2. Lâm sàng",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Lam-sang",
+        "Than-kinh"
+      ]
+    },
+    {
+      "id": "PED67-S2-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cơ, máu, hô hấp]</b></span> Nêu biểu hiện ở <span style=\"color:#74c0fc\"><b>cơ – dây chằng</b></span>, <span style=\"color:#74c0fc\"><b>máu</b></span> và <span style=\"color:#74c0fc\"><b>hô hấp</b></span> của trẻ còi xương.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Cơ, dây chằng</b></span>: trương lực cơ giảm, <span style=\"color:#ff6b6b\"><b>bụng to bè (bụng ếch)</b></span>, dây chằng lỏng lẻo, <span style=\"color:#ff6b6b\"><b>chậm lẫy, ngồi, bò, đứng, đi</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Máu</b></span>: <span style=\"color:#ff6b6b\"><b>thiếu máu</b></span> (hay kèm thiếu sắt); thể nặng có <span style=\"color:#ff6b6b\"><b>gan lách to</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Hô hấp</b></span>: lồng ngực biến dạng, cơ hô hấp yếu → <span style=\"color:#ff6b6b\"><b>dễ viêm phổi, viêm phổi kéo dài</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thiếu phospho làm cơ yếu (ATP kém) nên bụng ếch và chậm vận động. Ngực mềm, biến dạng cộng cơ yếu làm thông khí kém, nên trẻ còi xương viêm phổi dai dẳng.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 2. Lâm sàng",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S2-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Hạ calci máu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hạ calci máu cấp]</b></span> Nêu <span style=\"color:#ffd43b\"><b>3</b></span> biểu hiện của hạ calci máu cấp trong còi xương và <span style=\"color:#ffd43b\"><b>2</b></span> lứa tuổi hay gặp.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Co giật</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Cơn khóc lặng</b></span> (co thắt thanh quản).<br>3) <span style=\"color:#ff6b6b\"><b>Co cứng bàn tay, bàn chân (tetany)</b></span>.<br>4) Hay gặp ở <span style=\"color:#ffd43b\"><b>nhũ nhi dưới 6 tháng</b></span> và <span style=\"color:#ffd43b\"><b>tuổi dậy thì</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai lứa tuổi này là hai giai đoạn xương lớn nhanh nhất nên 'hút' calci mạnh nhất. Hạ calci có thể là biểu hiện ĐẦU TIÊN, trước khi có biến dạng xương.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 2. Lâm sàng",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Lam-sang",
+        "Ha-calci"
+      ]
+    },
+    {
+      "id": "PED67-S3-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nguyên tắc theo tuổi]</b></span> Vì sao biểu hiện xương của còi xương thay đổi theo tuổi? Nêu thứ tự vùng xương bị theo tuổi.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biến dạng xuất hiện ở <span style=\"color:#ff6b6b\"><b>vùng xương đang lớn nhanh nhất</b></span> ở lứa tuổi đó.<br>2) <span style=\"color:#ffd43b\"><b>0–6 tháng</b></span>: <span style=\"color:#74c0fc\"><b>hộp sọ</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>6–12 tháng</b></span>: <span style=\"color:#74c0fc\"><b>sọ, lồng ngực, cổ tay</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>12–24 tháng</b></span> (tập đứng, đi): <span style=\"color:#74c0fc\"><b>chi dưới</b></span> chịu lực.<br>5) <span style=\"color:#ffd43b\"><b>Trên 2 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>cột sống, khung chậu</b></span>, di chứng chi dưới.<br>6) <span style=\"color:#ffd43b\"><b>Trẻ lớn, dậy thì</b></span>: <span style=\"color:#ff6b6b\"><b>đau xương</b></span>, yếu cơ.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo: 'Sọ → Ngực → Chân → Đau'. Hỏi tuổi trước rồi khám đúng vùng: trẻ 4 tháng thì sờ sọ tìm mềm sọ, trẻ 9 tháng sờ sườn và cổ tay, trẻ 18 tháng nhìn chân.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S3-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sơ sinh và đẻ non]</b></span> Còi xương biểu hiện thế nào ở <span style=\"color:#ffd43b\"><b>trẻ sơ sinh</b></span> và ở <span style=\"color:#ffd43b\"><b>trẻ đẻ non</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Sơ sinh</b></span>: hiếm; <span style=\"color:#74c0fc\"><b>còi xương bẩm sinh</b></span> khi mẹ thiếu vitamin D nặng; trẻ có thể <span style=\"color:#ff6b6b\"><b>hạ Ca, co giật</b></span> sớm.<br>2) <span style=\"color:#ffd43b\"><b>Đẻ non</b></span>: <span style=\"color:#74c0fc\"><b>bệnh xương chuyển hóa của trẻ đẻ non</b></span>, lộ ra vài tuần sau sinh: <span style=\"color:#ff6b6b\"><b>P thấp</b></span>, <span style=\"color:#ff6b6b\"><b>ALP rất cao</b></span>, <span style=\"color:#ff6b6b\"><b>gãy xương sườn hoặc xương dài khi chăm sóc</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ đẻ non mất giai đoạn 3 tháng cuối thai kỳ — lúc mẹ chuyển phần lớn calci, phospho cho thai — nên dự trữ khoáng rất thấp.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi",
+        "De-non"
+      ]
+    },
+    {
+      "id": "PED67-S3-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[0–6 tháng]</b></span> Kể biểu hiện còi xương ở trẻ <span style=\"color:#ffd43b\"><b>0–6 tháng</b></span> (thần kinh, hộp sọ, thóp, hạ calci) và cách khám mềm sọ.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thần kinh thực vật</b></span> rõ nhất: <span style=\"color:#ff6b6b\"><b>mồ hôi trộm, rụng tóc gáy, quấy khóc</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Mềm xương sọ (craniotabes)</b></span>: ấn vào <span style=\"color:#51cf66\"><b>xương chẩm hoặc xương đỉnh</b></span> thấy lõm rồi bật lại <span style=\"color:#ff6b6b\"><b>như ấn quả bóng bàn</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Thóp rộng, bờ thóp mềm</b></span>.<br>4) Dễ <span style=\"color:#ff6b6b\"><b>hạ Ca máu</b></span>: co giật, khóc lặng.<br><br><b>💡 Giải thích của AI:</b><br>Ở tuổi này hộp sọ lớn nhanh nhất nên tổn thương ở sọ. Lưu ý: mềm sọ quanh đường khớp ở trẻ sơ sinh, đẻ non có thể là <span style=\"color:#ffd43b\"><b>sinh lý</b></span>, không vội kết luận còi xương.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S3-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[6–12 tháng]</b></span> Kể biểu hiện còi xương ở trẻ <span style=\"color:#ffd43b\"><b>6–12 tháng</b></span> (sọ, lồng ngực, cổ tay, răng, vận động, bụng).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Bướu đỉnh, bướu trán</b></span>, đầu to, <span style=\"color:#ff6b6b\"><b>đầu bẹt hoặc vuông</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Chuỗi hạt sườn</b></span> (khớp sụn sườn phình to); <span style=\"color:#ff6b6b\"><b>rãnh Harrison</b></span> (lõm ngang bờ dưới lồng ngực, chỗ cơ hoành kéo).<br>3) <span style=\"color:#ff6b6b\"><b>Vòng cổ tay</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Chậm mọc răng</b></span>, men răng xấu.<br>5) <span style=\"color:#ff6b6b\"><b>Chậm ngồi, chậm bò</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Bụng ếch</b></span>; thóp chậm liền.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi hạt và vòng cổ tay cùng một bản chất: sụn tăng trưởng không khoáng hóa nên phì đại, phình ra ở đầu xương (sụn sườn, đầu dưới xương quay). Rãnh Harrison do cơ hoành kéo lõm phần xương sườn mềm.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S3-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[12–24 tháng]</b></span> Kể biểu hiện còi xương ở trẻ <span style=\"color:#ffd43b\"><b>12–24 tháng</b></span> khi tập đứng, đi (chi dưới, lồng ngực, vận động, hàm, thóp).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chân vòng kiềng (chữ O)</b></span>, đôi khi <span style=\"color:#ff6b6b\"><b>chân chữ X</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Vòng cổ chân</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Ngực ức gà</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Chậm đứng, chậm đi</b></span>, đi lạch bạch.<br>5) <span style=\"color:#ff6b6b\"><b>Hàm trên hẹp, vòm miệng sâu, hai hàm không khớp</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Thóp chưa liền</b></span> sau <span style=\"color:#ffd43b\"><b>18 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khi trẻ bắt đầu chịu sức nặng cơ thể, xương chi dưới đang mềm sẽ cong — vì thế biến dạng chân chỉ rõ khi trẻ đã đứng, đi.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S3-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trên 2 tuổi]</b></span> Nêu biểu hiện và di chứng còi xương ở trẻ <span style=\"color:#ffd43b\"><b>trên 2 tuổi</b></span> (cột sống, khung chậu, chi dưới).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Gù, vẹo cột sống</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Khung chậu hẹp</b></span> — di chứng ở trẻ gái, sau này <span style=\"color:#ff6b6b\"><b>dễ đẻ khó</b></span>.<br>3) Chân O hoặc X <span style=\"color:#ff6b6b\"><b>còn lại thành di chứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Khung chậu hẹp do còi xương là liên hệ Nhi – Sản hay hỏi: đây là một nguyên nhân khung chậu méo/hẹp gây đẻ khó.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi",
+        "Di-chung"
+      ]
+    },
+    {
+      "id": "PED67-S3-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Trẻ lớn, dậy thì]</b></span> Còi xương muộn ở <span style=\"color:#ffd43b\"><b>trẻ lớn, tuổi dậy thì</b></span> biểu hiện khác trẻ nhỏ thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau xương, đau chân khi đi</b></span>, mỏi.<br>2) <span style=\"color:#ff6b6b\"><b>Yếu cơ gốc chi</b></span>, đi lạch bạch.<br>3) <span style=\"color:#ff6b6b\"><b>Chuột rút, tetany</b></span>.<br>4) Hay gặp <span style=\"color:#ff6b6b\"><b>chân chữ X</b></span>.<br>5) Có thể <span style=\"color:#ff6b6b\"><b>gãy xương</b></span> do nhuyễn xương.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ lớn ít biến dạng 'kinh điển' (sọ, chuỗi hạt) mà nổi bật là đau và yếu cơ — dễ bị bỏ sót hoặc nhầm 'đau tăng trưởng'.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S3-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Biểu hiện theo tuổi",
+      "tier": 2,
+      "text": "Mềm xương sọ (craniotabes) là dấu hiệu xương điển hình của trẻ {{c1::<span style=\"color:#ffd43b\"><b>0–6 tháng</b></span>}}; bướu đỉnh, bướu trán, chuỗi hạt sườn gặp ở trẻ {{c2::<span style=\"color:#ffd43b\"><b>6–12 tháng</b></span>}}; chân chữ O rõ khi trẻ {{c3::<span style=\"color:#ffd43b\"><b>12–24 tháng</b></span>}} tập đứng, đi.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biểu hiện theo tuổi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Theo-tuoi"
+      ]
+    },
+    {
+      "id": "PED67-S4-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Biến dạng sinh lý",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đừng nhầm sinh lý]</b></span> Chân O và chân X sinh lý gặp đến tuổi nào? Khi nào mới nghĩ biến dạng chân là do còi xương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chân O sinh lý</b></span>: đến khoảng <span style=\"color:#ffd43b\"><b>2 tuổi</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Chân X sinh lý</b></span>: khoảng <span style=\"color:#ffd43b\"><b>3–4 tuổi</b></span>, sau đó tự thẳng.<br>3) Nghĩ còi xương khi biến dạng <span style=\"color:#ff6b6b\"><b>nặng</b></span>, <span style=\"color:#ff6b6b\"><b>không đối xứng</b></span>, <span style=\"color:#ff6b6b\"><b>tồn tại quá các mốc trên</b></span>, hoặc <span style=\"color:#ff6b6b\"><b>kèm dấu hiệu khác</b></span> (vòng cổ tay, chuỗi hạt, ALP tăng).<br><br><b>💡 Giải thích của AI:</b><br>Trục chi dưới sinh lý đi theo trình tự: O lúc mới sinh → thẳng khoảng 18–24 tháng → X lúc 3–4 tuổi → thẳng dần. Một bên chân cong hơn hẳn bên kia thì không phải sinh lý.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Biến dạng sinh lý",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED67-S4-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Phân giai đoạn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[4 giai đoạn]</b></span> Kể <span style=\"color:#ffd43b\"><b>4</b></span> giai đoạn của còi xương và đặc điểm lâm sàng, sinh hóa, X quang của từng giai đoạn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Giai đoạn khởi phát</b></span>: chủ yếu thần kinh thực vật, có thể mềm sọ; Ca bình thường, <span style=\"color:#ff6b6b\"><b>P giảm</b></span>, ALP bình thường hoặc tăng nhẹ; X quang bình thường hoặc thay đổi nhẹ.<br>2) <span style=\"color:#74c0fc\"><b>Giai đoạn toàn phát</b></span>: thần kinh + xương + cơ rõ; Ca bình thường hoặc giảm, <span style=\"color:#ff6b6b\"><b>P giảm, ALP tăng rõ</b></span>; X quang điển hình.<br>3) <span style=\"color:#74c0fc\"><b>Giai đoạn hồi phục</b></span>: triệu chứng giảm; <span style=\"color:#51cf66\"><b>P về bình thường sớm</b></span>, ALP về chậm hơn; X quang <span style=\"color:#51cf66\"><b>xuất hiện vạch vôi hóa</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Giai đoạn di chứng</b></span>: còn biến dạng xương; sinh hóa <span style=\"color:#51cf66\"><b>bình thường</b></span>; không còn tổn thương hoạt động.<br><br><b>💡 Giải thích của AI:</b><br>Phospho là chỉ số 'nhạy' nhất: giảm sớm nhất và về bình thường sớm nhất. ALP phản ánh hoạt động tạo xương nên về chậm. Giai đoạn di chứng: xương đã khoáng hóa lại nhưng hình dạng đã cong thì không tự hết.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Phân giai đoạn · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Giai-doan"
+      ]
+    },
+    {
+      "id": "PED67-S4-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Phân giai đoạn",
+      "tier": 2,
+      "text": "Ở giai đoạn hồi phục còi xương, chỉ số sinh hóa về bình thường sớm nhất là {{c1::<span style=\"color:#51cf66\"><b>phospho</b></span>}}; X quang xuất hiện {{c2::<span style=\"color:#51cf66\"><b>vạch vôi hóa</b></span>}} ở đầu xương.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 3. Phân giai đoạn",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Giai-doan"
+      ]
+    },
+    {
+      "id": "PED67-S5-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Sinh hóa",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sinh hóa máu]</b></span> Nêu thay đổi của <span style=\"color:#51cf66\"><b>Ca, P, ALP, 25(OH)D, PTH</b></span> và dự trữ kiềm trong còi xương thiếu vitamin D.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Calci</b></span>: <span style=\"color:#ffd43b\"><b>bình thường</b></span> hoặc giảm (giảm rõ khi có tetany, co giật).<br>2) <span style=\"color:#51cf66\"><b>Phospho</b></span>: <span style=\"color:#ff6b6b\"><b>giảm</b></span> — dấu hiệu sớm.<br>3) <span style=\"color:#51cf66\"><b>Phosphatase kiềm (ALP)</b></span>: <span style=\"color:#ff6b6b\"><b>tăng</b></span> — nhạy, dùng theo dõi điều trị.<br>4) <span style=\"color:#51cf66\"><b>25(OH)D</b></span>: <span style=\"color:#ff6b6b\"><b>giảm</b></span>.<br>5) <span style=\"color:#51cf66\"><b>PTH</b></span>: <span style=\"color:#ff6b6b\"><b>tăng</b></span> (cường cận giáp thứ phát).<br>6) <span style=\"color:#51cf66\"><b>Dự trữ kiềm</b></span>: có thể giảm (toan chuyển hóa nhẹ).<br><br><b>💡 Giải thích của AI:</b><br>ALP phải so với <span style=\"color:#ffd43b\"><b>khoảng bình thường theo tuổi</b></span> vì trẻ đang lớn vốn có ALP cao. Toan nhẹ do PTH làm thận thải bicarbonat.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.1 Sinh hóa máu",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S5-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Sinh hóa",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[25(OH)D]</b></span> Vì sao định lượng <span style=\"color:#51cf66\"><b>25(OH)D</b></span> (không phải 1,25(OH)₂D) để đánh giá thiếu vitamin D? Nêu ngưỡng thiếu, chưa đủ, đủ theo Đồng thuận 2016.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>25(OH)D</b></span> phản ánh <span style=\"color:#74c0fc\"><b>dự trữ vitamin D</b></span>, nồng độ ổn định.<br>2) <span style=\"color:#74c0fc\"><b>1,25(OH)₂D</b></span> có thể <span style=\"color:#ff6b6b\"><b>bình thường hoặc tăng</b></span> khi thiếu vitamin D (PTH kích thích 1α-hydroxylase), thời gian bán hủy ngắn.<br>3) <span style=\"color:#ff6b6b\"><b>Thiếu</b></span>: <span style=\"color:#ffd43b\"><b>dưới 30 nmol/L (12 ng/mL)</b></span>.<br>4) <span style=\"color:#ffd43b\"><b>Chưa đủ</b></span>: <span style=\"color:#ffd43b\"><b>30–50 nmol/L</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Đủ</b></span>: <span style=\"color:#ffd43b\"><b>trên 50 nmol/L</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy MCQ kinh điển: chọn 1,25(OH)₂D vì là dạng hoạt động — sai, vì cơ thể bù bằng PTH nên dạng hoạt động không phản ánh dự trữ.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.1 Sinh hóa máu",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S5-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Nước tiểu",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nước tiểu]</b></span> Nêu thay đổi <span style=\"color:#51cf66\"><b>phospho niệu</b></span>, <span style=\"color:#51cf66\"><b>calci niệu</b></span> và acid amin niệu trong còi xương thiếu vitamin D.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Phospho niệu tăng</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Calci niệu giảm</b></span>.<br>3) Có thể có <span style=\"color:#ff6b6b\"><b>acid amin niệu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả ba đều do PTH tăng: PTH làm ống thận thải P, giữ Ca, và giảm tái hấp thu ở ống gần (acid amin niệu).",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.1 Sinh hóa máu",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S5-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "X quang",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[X quang]</b></span> Chụp X quang vị trí nào trong còi xương? Kể các hình ảnh tổn thương và hình ảnh khi hồi phục.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Vị trí chụp: <span style=\"color:#51cf66\"><b>cổ tay hoặc khớp gối</b></span> (nơi xương lớn nhanh).<br>2) <span style=\"color:#ff6b6b\"><b>Đầu hành xương loe rộng, lõm hình đài, bờ nham nhở</b></span> (cupping, fraying).<br>3) <span style=\"color:#ff6b6b\"><b>Đường vôi hóa tạm thời mờ hoặc mất</b></span>, khoảng cách đầu xương – hành xương rộng.<br>4) <span style=\"color:#ff6b6b\"><b>Mất vôi toàn bộ</b></span>, vỏ xương mỏng, bè xương thưa.<br>5) <span style=\"color:#ff6b6b\"><b>Điểm cốt hóa xuất hiện chậm</b></span>.<br>6) Có thể <span style=\"color:#ff6b6b\"><b>gãy cành tươi</b></span>, <span style=\"color:#ff6b6b\"><b>đường Looser</b></span> (gãy giả).<br>7) Hồi phục: <span style=\"color:#51cf66\"><b>vạch vôi hóa</b></span> xuất hiện sau khoảng <span style=\"color:#ffd43b\"><b>2–4 tuần</b></span> điều trị.<br><br><b>💡 Giải thích của AI:</b><br>Hình 'đài' (cupping) là hình ảnh trên phim của chính vòng cổ tay sờ thấy trên lâm sàng. Vạch vôi hóa là dấu đáp ứng sớm nhất trên phim, xuất hiện trước khi biến dạng cải thiện.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.2 X quang",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Can-lam-sang",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED67-S5-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Sinh hóa",
+      "tier": 2,
+      "text": "Theo Đồng thuận 2016, thiếu vitamin D khi 25(OH)D {{c1::<span style=\"color:#ffd43b\"><b>dưới 30 nmol/L (12 ng/mL)</b></span>}}; đủ khi {{c2::<span style=\"color:#ffd43b\"><b>trên 50 nmol/L</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.1 Sinh hóa máu",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "PED67-S5-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "X quang",
+      "tier": 2,
+      "text": "Sau khi điều trị vitamin D, vạch vôi hóa xuất hiện trên X quang đầu xương sau khoảng {{c1::<span style=\"color:#ffd43b\"><b>2–4 tuần</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.2 X quang",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED67-S6-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Phân biệt sinh hóa",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phân biệt thể giảm phosphat máu]</b></span> Còi xương giảm phosphat máu (kháng vitamin D) khác còi xương thiếu vitamin D thế nào về <span style=\"color:#51cf66\"><b>Ca, P, PTH, 25(OH)D</b></span> và đáp ứng điều trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thiếu vitamin D</b></span>: Ca bình thường hoặc giảm, P giảm, ALP tăng nhiều, <span style=\"color:#ff6b6b\"><b>PTH tăng</b></span>, <span style=\"color:#ff6b6b\"><b>25(OH)D giảm</b></span>; <span style=\"color:#51cf66\"><b>đáp ứng với vitamin D liều điều trị</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Giảm phosphat máu (kháng D)</b></span>, hay gặp nhất là thể <span style=\"color:#74c0fc\"><b>di truyền liên kết X</b></span>: <span style=\"color:#ffd43b\"><b>Ca bình thường</b></span>, <span style=\"color:#ff6b6b\"><b>P giảm rất nặng</b></span>, PTH bình thường hoặc tăng nhẹ, <span style=\"color:#ffd43b\"><b>25(OH)D bình thường</b></span>; có <span style=\"color:#ff6b6b\"><b>tính gia đình</b></span>, <span style=\"color:#ff6b6b\"><b>không đáp ứng vitamin D liều thường</b></span>, thận mất phospho.<br><br><b>💡 Giải thích của AI:</b><br>Câu chìa khóa: Ca bình thường + P rất thấp + 25(OH)D bình thường + bố/mẹ cũng chân cong → nghĩ thể giảm phosphat máu di truyền.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.3 Phân biệt",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED67-S6-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Phân biệt sinh hóa",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phụ thuộc vitamin D và do thận]</b></span> Phân biệt còi xương <span style=\"color:#74c0fc\"><b>phụ thuộc vitamin D typ 1</b></span>, <span style=\"color:#74c0fc\"><b>typ 2</b></span> và <span style=\"color:#74c0fc\"><b>còi xương do thận</b></span> dựa vào xét nghiệm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Typ 1</b></span> (thiếu men 1α-hydroxylase): Ca giảm, P giảm, PTH tăng, 25(OH)D bình thường, <span style=\"color:#ff6b6b\"><b>1,25(OH)₂D thấp</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Typ 2</b></span> (kháng thụ thể vitamin D): Ca giảm, P giảm, PTH tăng, 25(OH)D bình thường, <span style=\"color:#ff6b6b\"><b>1,25(OH)₂D rất cao</b></span>, hay kèm <span style=\"color:#ff6b6b\"><b>rụng tóc toàn bộ</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Do thận</b></span> (suy thận mạn): Ca giảm, <span style=\"color:#ff6b6b\"><b>P tăng</b></span>, PTH tăng rất cao, <span style=\"color:#ff6b6b\"><b>creatinin tăng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đọc theo trục: 25(OH)D thấp → thiếu D; 25(OH)D bình thường mà 1,25 thấp → không chuyển hóa được (typ 1); 1,25 cao → thụ thể hỏng (typ 2). P TĂNG là dấu hiệu riêng của bệnh thận vì thận không thải được phospho.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.3 Phân biệt",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED67-S6-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Phân biệt lâm sàng",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bệnh dễ nhầm]</b></span> Phân biệt còi xương với <span style=\"color:#74c0fc\"><b>suy giáp bẩm sinh</b></span>, <span style=\"color:#74c0fc\"><b>não úng thủy</b></span>, <span style=\"color:#74c0fc\"><b>loạn sản sụn</b></span> và <span style=\"color:#74c0fc\"><b>còi xương do thiếu calci</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Suy giáp bẩm sinh</b></span>: thóp rộng, chậm phát triển nhưng có <span style=\"color:#ff6b6b\"><b>lưỡi to, táo bón, vàng da kéo dài</b></span>; <span style=\"color:#51cf66\"><b>TSH tăng</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Não úng thủy</b></span>: đầu to, <span style=\"color:#ff6b6b\"><b>thóp phồng căng</b></span> chứ không mềm.<br>3) <span style=\"color:#74c0fc\"><b>Loạn sản sụn</b></span>: <span style=\"color:#ff6b6b\"><b>chi ngắn bẩm sinh</b></span>, không có rối loạn sinh hóa.<br>4) <span style=\"color:#74c0fc\"><b>Do thiếu calci</b></span>: chế độ ăn <span style=\"color:#ff6b6b\"><b>rất ít calci</b></span>; 25(OH)D bình thường, Ca giảm hoặc bình thường, P giảm, ALP và PTH tăng.<br><br><b>💡 Giải thích của AI:</b><br>Thóp rộng gặp ở cả còi xương, suy giáp và não úng thủy: sờ bờ thóp (mềm trong còi xương) và độ căng (phồng trong não úng thủy), nhìn lưỡi, hỏi táo bón và vàng da kéo dài (suy giáp).",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.3 Phân biệt",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phan-biet"
+      ]
+    },
+    {
+      "id": "PED67-S7-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Điều trị",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nguyên tắc điều trị]</b></span> Kể <span style=\"color:#ffd43b\"><b>5</b></span> nguyên tắc điều trị còi xương thiếu vitamin D.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Vitamin D liều điều trị</b></span> → chuyển <span style=\"color:#51cf66\"><b>liều duy trì</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Bổ sung calci</b></span> kèm theo.<br>3) <span style=\"color:#51cf66\"><b>Xử trí hạ calci máu có triệu chứng trước</b></span>, nếu có.<br>4) <span style=\"color:#51cf66\"><b>Tắm nắng, dinh dưỡng</b></span>, điều trị bệnh kèm (thiếu máu, nhiễm khuẩn hô hấp).<br>5) <span style=\"color:#51cf66\"><b>Theo dõi</b></span> đáp ứng và <span style=\"color:#ff6b6b\"><b>ngộ độc vitamin D</b></span>; <span style=\"color:#51cf66\"><b>chỉnh hình</b></span> nếu còn di chứng.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự trong cấp cứu: co giật hạ Ca thì nâng Ca trước, rồi mới cho vitamin D — cho vitamin D trước làm xương hút Ca, tụt thêm.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.1 Nguyên tắc",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED67-S7-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Vitamin D",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Vitamin D liều điều trị – Đồng thuận 2016]</b></span> Nêu dạng vitamin D ưu tiên, thời gian tối thiểu và liều hằng ngày theo <span style=\"color:#ffd43b\"><b>4 nhóm tuổi</b></span>; nhóm nào không dùng liều cao một lần?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dạng ưu tiên: <span style=\"color:#51cf66\"><b>vitamin D3 (cholecalciferol)</b></span>; dùng ít nhất <span style=\"color:#ffd43b\"><b>12 tuần</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Dưới 3 tháng</b></span>: <span style=\"color:#51cf66\"><b>2.000 IU/ngày</b></span>; <span style=\"color:#ff6b6b\"><b>không dùng liều cao một lần</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>3–12 tháng</b></span>: <span style=\"color:#51cf66\"><b>2.000 IU/ngày</b></span> hoặc <span style=\"color:#51cf66\"><b>50.000 IU</b></span> một lần.<br>4) <span style=\"color:#ffd43b\"><b>1–12 tuổi</b></span>: <span style=\"color:#51cf66\"><b>3.000–6.000 IU/ngày</b></span> hoặc <span style=\"color:#51cf66\"><b>150.000 IU</b></span> một lần.<br>5) <span style=\"color:#ffd43b\"><b>Trên 12 tuổi</b></span>: <span style=\"color:#51cf66\"><b>6.000 IU/ngày</b></span> hoặc <span style=\"color:#51cf66\"><b>300.000 IU</b></span> một lần.<br><br><b>💡 Giải thích của AI:</b><br>Liều một lần (stoss) hợp khi khó tuân thủ uống hằng ngày. Trẻ dưới 3 tháng không dùng stoss vì nguy cơ tăng calci máu.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.2 Vitamin D · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED67-S7-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Vitamin D",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phác đồ Việt Nam và liều duy trì]</b></span> Phác đồ vitamin D hay ghi trong sách Việt Nam là gì, và liều duy trì sau điều trị theo Đồng thuận 2016?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sách Việt Nam: <span style=\"color:#51cf66\"><b>2.000–4.000 IU/ngày</b></span> trong <span style=\"color:#ffd43b\"><b>4–6 tuần</b></span>, sau đó <span style=\"color:#51cf66\"><b>400 IU/ngày</b></span>; liều cao một lần chỉ khi <span style=\"color:#ff6b6b\"><b>không theo dõi được trẻ</b></span>.<br>2) Duy trì (Đồng thuận 2016): <span style=\"color:#51cf66\"><b>400 IU/ngày</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>dưới 1 tuổi</b></span>, <span style=\"color:#51cf66\"><b>600 IU/ngày</b></span> cho trẻ <span style=\"color:#ffd43b\"><b>từ 1 tuổi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai nguồn khác nhau ở thời gian điều trị (4–6 tuần so với ≥ 12 tuần). Đi thi viết theo số của trường; đi lâm sàng có thể tham khảo đồng thuận quốc tế.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.2 Vitamin D · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED67-S7-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Calci",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Calci và hội chứng xương đói]</b></span> Liều calci đi kèm vitamin D theo Đồng thuận 2016 là bao nhiêu, và vì sao bắt buộc bổ sung?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khoảng <span style=\"color:#51cf66\"><b>500 mg calci nguyên tố/ngày</b></span>, qua ăn uống hoặc thuốc, dùng <span style=\"color:#51cf66\"><b>song song với vitamin D</b></span>.<br>2) Lý do: vitamin D có tác dụng thì xương 'đói calci' hút calci rất mạnh (<span style=\"color:#74c0fc\"><b>hội chứng xương đói</b></span>) → không bù thì trẻ <span style=\"color:#ff6b6b\"><b>tụt Ca máu, co giật</b></span> trong những ngày đầu.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy: cho vitamin D liều cao mà quên calci → co giật ngày thứ vài sau điều trị, gia đình tưởng 'thuốc gây co giật'.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.3 Calci",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Calci"
+      ]
+    },
+    {
+      "id": "PED67-S7-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Hạ calci cấp",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Co giật, tetany do hạ Ca]</b></span> Trình bày xử trí hạ calci máu có triệu chứng: thuốc, liều, đường dùng, tốc độ, theo dõi, và các bước tiếp theo.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Calci gluconat 10%</b></span> khoảng <span style=\"color:#ffd43b\"><b>0,5–1 mL/kg</b></span> (50–100 mg/kg), tối đa <span style=\"color:#ffd43b\"><b>20 mL</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Tiêm tĩnh mạch chậm</b></span> trong <span style=\"color:#ffd43b\"><b>5–10 phút</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Theo dõi nhịp tim</b></span> (nguy cơ <span style=\"color:#ff6b6b\"><b>chậm nhịp</b></span>); tránh <span style=\"color:#ff6b6b\"><b>thoát mạch</b></span> (hoại tử mô).<br>4) Kiểm tra <span style=\"color:#51cf66\"><b>magie máu</b></span>: thiếu magie thì calci khó lên, phải bù magie.<br>5) Sau đó <span style=\"color:#51cf66\"><b>calci uống</b></span> rồi mới bắt đầu <span style=\"color:#51cf66\"><b>vitamin D</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Calci tiêm nhanh gây chậm nhịp, ngừng tim; thoát mạch gây hoại tử nặng — nên tiêm chậm qua đường truyền chắc chắn.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.4 Hạ calci · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED67-S7-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Hỗ trợ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Điều trị hỗ trợ]</b></span> Kể các biện pháp hỗ trợ: tắm nắng, dinh dưỡng, vận động, bệnh kèm và chỉnh hình.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Tắm nắng</b></span> khoảng <span style=\"color:#ffd43b\"><b>15–30 phút/ngày</b></span> buổi sáng sớm, để hở tay, chân, lưng; <span style=\"color:#ff6b6b\"><b>tránh nắng gắt buổi trưa</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Tiếp tục bú mẹ</b></span>; ăn dặm đủ calci: sữa, trứng, cá, tôm, cua.<br>3) <span style=\"color:#ff6b6b\"><b>Không cho trẻ đứng, đi sớm</b></span> khi xương còn mềm.<br>4) Điều trị <span style=\"color:#74c0fc\"><b>thiếu máu</b></span>, <span style=\"color:#74c0fc\"><b>nhiễm khuẩn hô hấp</b></span> kèm theo.<br>5) <span style=\"color:#51cf66\"><b>Chỉnh hình</b></span>: biến dạng nhẹ thường <span style=\"color:#51cf66\"><b>tự thẳng</b></span>; phẫu thuật chỉ khi biến dạng <span style=\"color:#ff6b6b\"><b>nặng, kéo dài sau khi bệnh ổn định</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bắt trẻ đứng sớm 'cho cứng chân' là quan niệm dân gian sai — xương mềm chịu lực sẽ cong thêm.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.5 Hỗ trợ",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri"
+      ]
+    },
+    {
+      "id": "PED67-S7-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Theo dõi",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Theo dõi và không đáp ứng]</b></span> Theo dõi đáp ứng điều trị còi xương bằng gì, khi nào; nếu điều trị đúng mà không đáp ứng thì nghĩ đến gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>P và ALP</b></span> cải thiện sau vài tuần; kiểm tra <span style=\"color:#51cf66\"><b>Ca, P, ALP, 25(OH)D</b></span> sau khoảng <span style=\"color:#ffd43b\"><b>3 tháng</b></span>.<br>2) <span style=\"color:#51cf66\"><b>X quang</b></span>: vạch vôi hóa sau <span style=\"color:#ffd43b\"><b>2–4 tuần</b></span>; chụp lại khoảng <span style=\"color:#ffd43b\"><b>3 tháng</b></span>.<br>3) Không đáp ứng dù đúng liều, đúng cách: nghĩ <span style=\"color:#74c0fc\"><b>còi xương kháng hoặc phụ thuộc vitamin D</b></span>, <span style=\"color:#74c0fc\"><b>bệnh thận</b></span>, <span style=\"color:#74c0fc\"><b>kém hấp thu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trước khi kết luận 'kháng', luôn hỏi lại tuân thủ: thuốc có thật sự được uống đủ không, có nôn trớ không.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.6 Theo dõi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Theo-doi"
+      ]
+    },
+    {
+      "id": "PED67-S7-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Ngộ độc vitamin D",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Ngộ độc vitamin D]</b></span> Nêu biểu hiện ngộ độc vitamin D (tăng calci máu) và cách xử trí.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biểu hiện: <span style=\"color:#ff6b6b\"><b>chán ăn, nôn, táo bón</b></span>; <span style=\"color:#ff6b6b\"><b>khát nhiều, tiểu nhiều</b></span>, sụt cân; <span style=\"color:#ff6b6b\"><b>vôi hóa thận, sỏi thận</b></span>.<br>2) Xử trí: <span style=\"color:#51cf66\"><b>ngừng vitamin D và calci</b></span>, <span style=\"color:#51cf66\"><b>truyền dịch</b></span>, kiểm tra <span style=\"color:#51cf66\"><b>Ca máu và Ca niệu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tăng calci làm thận mất khả năng cô đặc nước tiểu → tiểu nhiều, khát; calci lắng đọng ở thận gây sỏi, vôi hóa.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.6 Theo dõi",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Dieu-tri",
+        "Ngo-doc"
+      ],
+      "asks": [
+        "Biểu hiện",
+        "Xử trí"
+      ]
+    },
+    {
+      "id": "PED67-S7-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Vitamin D",
+      "tier": 2,
+      "text": "Theo Đồng thuận 2016, trẻ 1–12 tuổi bị còi xương dùng vitamin D {{c1::<span style=\"color:#51cf66\"><b>3.000–6.000 IU/ngày</b></span>}} trong ít nhất {{c2::<span style=\"color:#ffd43b\"><b>12 tuần</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.2 Vitamin D · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED67-S7-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Hạ calci cấp",
+      "tier": 2,
+      "text": "Co giật do hạ calci máu: liều calci gluconat 10% là {{c1::<span style=\"color:#ffd43b\"><b>0,5–1 mL/kg</b></span>}} (tối đa 20 mL).",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.4 Hạ calci · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "PED67-S8-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Phòng bệnh",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phòng bệnh]</b></span> Nêu các biện pháp phòng còi xương cho <span style=\"color:#ffd43b\"><b>bà mẹ mang thai</b></span>, <span style=\"color:#ffd43b\"><b>trẻ bú mẹ</b></span> và <span style=\"color:#ffd43b\"><b>trẻ đẻ non</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Bà mẹ mang thai</b></span>: tắm nắng, ăn đủ chất, <span style=\"color:#51cf66\"><b>bổ sung vitamin D trong 3 tháng cuối</b></span> theo hướng dẫn.<br>2) <span style=\"color:#ffd43b\"><b>Trẻ bú mẹ hoàn toàn hoặc bú mẹ là chính</b></span>: <span style=\"color:#51cf66\"><b>vitamin D 400 IU/ngày</b></span> từ <span style=\"color:#ffd43b\"><b>những ngày đầu sau sinh</b></span> đến <span style=\"color:#ffd43b\"><b>12 tháng tuổi</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Trẻ đẻ non</b></span>: <span style=\"color:#51cf66\"><b>liều cao hơn</b></span>, theo dõi Ca, P, ALP (theo phác đồ sơ sinh).<br>4) Chung: tắm nắng hợp lý, ăn dặm đủ calci, <span style=\"color:#ff6b6b\"><b>không kiêng khem</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sữa mẹ rất ít vitamin D, nên trẻ bú mẹ hoàn toàn cần bổ sung dù mẹ ăn uống tốt. Trẻ uống đủ sữa công thức có vitamin D thường đã đủ lượng khuyến nghị.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.7 Phòng bệnh · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED67-S8-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ ÔN THI · CÒI XƯƠNG",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "Phòng bệnh",
+      "tier": 2,
+      "text": "Trẻ bú mẹ hoàn toàn cần uống vitamin D {{c1::<span style=\"color:#51cf66\"><b>400 IU/ngày</b></span>}} từ những ngày đầu sau sinh đến {{c2::<span style=\"color:#ffd43b\"><b>12 tháng tuổi</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.7 Phòng bệnh",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cloze-phu",
+        "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED67-A-01",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Giải mã sinh hóa",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Giải mã nhanh Ca – P – ALP – PTH – 25(OH)D</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Ca bình thường</b></span> + <span style=\"color:#ff6b6b\"><b>P giảm</b></span> + <span style=\"color:#ff6b6b\"><b>ALP tăng</b></span> + <span style=\"color:#ff6b6b\"><b>PTH tăng</b></span> + <span style=\"color:#ff6b6b\"><b>25(OH)D thấp</b></span> → <span style=\"color:#74c0fc\"><b>còi xương thiếu vitamin D</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Ca bình thường</b></span> + <span style=\"color:#ff6b6b\"><b>P rất thấp</b></span> + <span style=\"color:#ffd43b\"><b>25(OH)D bình thường</b></span> + tính gia đình → <span style=\"color:#74c0fc\"><b>giảm phosphat máu di truyền</b></span>.<br>3) 25(OH)D bình thường + <span style=\"color:#ff6b6b\"><b>1,25(OH)₂D thấp</b></span> → <span style=\"color:#74c0fc\"><b>phụ thuộc vitamin D typ 1</b></span>; <span style=\"color:#ff6b6b\"><b>1,25 rất cao</b></span> → <span style=\"color:#74c0fc\"><b>typ 2</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>P TĂNG</b></span> + <span style=\"color:#ff6b6b\"><b>creatinin tăng</b></span> → <span style=\"color:#74c0fc\"><b>còi xương do thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba câu hỏi theo thứ tự: P tăng hay giảm (tăng = thận)? 25(OH)D thấp hay bình thường (thấp = thiếu D)? Nếu bình thường thì Ca và 1,25(OH)₂D phân định thể di truyền.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 4.3 Phân biệt",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Phan-biet",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED67-A-02",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều bỏ túi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Bảng liều bỏ túi điều trị còi xương</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Vitamin D3</b></span> (Đồng thuận 2016, ≥ <span style=\"color:#ffd43b\"><b>12 tuần</b></span>): <span style=\"color:#ffd43b\"><b>dưới 12 tháng</b></span> <span style=\"color:#51cf66\"><b>2.000 IU/ngày</b></span>; <span style=\"color:#ffd43b\"><b>1–12 tuổi</b></span> <span style=\"color:#51cf66\"><b>3.000–6.000 IU/ngày</b></span>; <span style=\"color:#ffd43b\"><b>trên 12 tuổi</b></span> <span style=\"color:#51cf66\"><b>6.000 IU/ngày</b></span>.<br>2) Vitamin D một lần (stoss): <span style=\"color:#51cf66\"><b>50.000 IU</b></span> (3–12 tháng), <span style=\"color:#51cf66\"><b>150.000 IU</b></span> (1–12 tuổi), <span style=\"color:#51cf66\"><b>300.000 IU</b></span> (trên 12 tuổi); <span style=\"color:#ff6b6b\"><b>không dùng dưới 3 tháng</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Duy trì</b></span>: <span style=\"color:#51cf66\"><b>400 IU/ngày</b></span> (dưới 1 tuổi), <span style=\"color:#51cf66\"><b>600 IU/ngày</b></span> (từ 1 tuổi).<br>4) <span style=\"color:#51cf66\"><b>Calci nguyên tố</b></span>: khoảng <span style=\"color:#51cf66\"><b>500 mg/ngày</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Calci gluconat 10%</b></span> khi co giật: <span style=\"color:#ffd43b\"><b>0,5–1 mL/kg</b></span>, tối đa <span style=\"color:#ffd43b\"><b>20 mL</b></span>, TM chậm <span style=\"color:#ffd43b\"><b>5–10 phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sách Việt Nam hay ghi phác đồ ngắn hơn: 2.000–4.000 IU/ngày × 4–6 tuần rồi 400 IU/ngày.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.2–5.4 Điều trị · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Lieu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED67-A-03",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Cấp cứu hạ calci",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Co giật do hạ calci ở trẻ còi xương: 3 NÊN & 3 KHÔNG</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>NÊN</b></span>: tiêm <span style=\"color:#51cf66\"><b>calci gluconat 10% TM chậm</b></span> có <span style=\"color:#51cf66\"><b>theo dõi nhịp tim</b></span>.<br>2) <span style=\"color:#51cf66\"><b>NÊN</b></span>: kiểm tra và <span style=\"color:#51cf66\"><b>bù magie</b></span> nếu thấp.<br>3) <span style=\"color:#51cf66\"><b>NÊN</b></span>: chuyển <span style=\"color:#51cf66\"><b>calci uống</b></span> rồi mới cho <span style=\"color:#51cf66\"><b>vitamin D</b></span> kèm calci.<br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: tiêm calci nhanh (nguy cơ <span style=\"color:#ff6b6b\"><b>chậm nhịp, ngừng tim</b></span>).<br>5) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: để <span style=\"color:#ff6b6b\"><b>thoát mạch</b></span> calci (hoại tử mô).<br>6) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: cho <span style=\"color:#ff6b6b\"><b>vitamin D liều cao trước khi nâng Ca</b></span> (xương đói calci làm Ca tụt thêm).<br><br><b>💡 Giải thích của AI:</b><br>Trình tự nhớ: 'Ca trước – Mg kiểm – D sau'.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 5.4 Hạ calci · ⚠️ Con số này các trường ghi khác nhau, đi thi dùng đúng số barem trường.",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Cap-cuu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED67-A-04",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Lưu đồ chẩn đoán",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Trẻ nghi còi xương: lưu đồ 3 bước</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bước 1 – Lâm sàng</b></span>: yếu tố nguy cơ + dấu hiệu <span style=\"color:#ff6b6b\"><b>đúng tuổi</b></span> (sọ / ngực, cổ tay / chân / đau) + loại trừ <span style=\"color:#ffd43b\"><b>biến dạng sinh lý</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Bước 2 – Xét nghiệm</b></span>: <span style=\"color:#51cf66\"><b>Ca, P, ALP, 25(OH)D, PTH, creatinin</b></span> + <span style=\"color:#51cf66\"><b>X quang cổ tay hoặc gối</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Bước 3 – Quyết định</b></span>: 25(OH)D thấp, P giảm, ALP tăng → <span style=\"color:#51cf66\"><b>điều trị vitamin D + calci</b></span>, kiểm tra lại sau <span style=\"color:#ffd43b\"><b>3 tháng</b></span>; có co giật → <span style=\"color:#ff6b6b\"><b>nâng Ca trước</b></span>; điều trị đúng mà không đáp ứng → <span style=\"color:#ff6b6b\"><b>tìm thể kháng, phụ thuộc, bệnh thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu lưu đồ: không bỏ sót hạ calci cấp, không điều trị oan biến dạng sinh lý, không 'tăng liều vô hạn' khi bệnh không phải thiếu D.",
+      "extra": "📖 Nguồn: Chuyên đề ôn thi PED-67 Còi xương thiếu vitamin D (khung sách Nhi Việt Nam; Munns CF et al. Global Consensus on Nutritional Rickets, J Clin Endocrinol Metab 2016;101(2):394–415). Mục: 2–5 Tổng hợp",
+      "tags": [
+        "PED-67",
+        "Chuyen-de-on-thi",
+        "Tiep-can",
+        "Thuat-toan"
+      ]
+    }
+  ]
+}

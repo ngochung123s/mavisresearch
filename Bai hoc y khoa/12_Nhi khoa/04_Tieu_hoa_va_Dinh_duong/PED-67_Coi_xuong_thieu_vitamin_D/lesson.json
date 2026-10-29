@@ -1,0 +1,12 @@
+{
+  "id": "PED-67",
+  "specialty": "nhi",
+  "profile": "disease",
+  "deck": {
+    "deck_id": 170967001,
+    "deck_name": "Nhi khoa Y6::PED-67: Còi xương thiếu vitamin D",
+    "basename": "PED-67_Coi_xuong_thieu_vitamin_D_MASTER_v1",
+    "required_sections": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+    "cards_source": "ped67_cards_data.py"
+  }
+}
