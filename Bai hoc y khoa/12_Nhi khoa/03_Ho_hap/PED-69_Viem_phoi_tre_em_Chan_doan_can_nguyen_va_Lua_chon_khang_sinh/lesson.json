@@ -1,0 +1,12 @@
+{
+  "id": "PED-69",
+  "specialty": "nhi",
+  "profile": "disease",
+  "deck": {
+    "deck_id": 170969001,
+    "deck_name": "Nhi khoa Y6::PED-69: Viêm phổi trẻ em – Chẩn đoán căn nguyên & Lựa chọn kháng sinh (chi tiết)",
+    "basename": "PED-69_Viem_phoi_tre_em_Chan_doan_can_nguyen_va_Lua_chon_khang_sinh_MASTER_v1",
+    "required_sections": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9"],
+    "cards_source": "ped69_cards_data.py"
+  }
+}

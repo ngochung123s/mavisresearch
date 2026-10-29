@@ -1,0 +1,1808 @@
+{
+  "deck_id": 170969001,
+  "deck_name": "Nhi khoa Y6::PED-69: Viêm phổi trẻ em – Chẩn đoán căn nguyên & Lựa chọn kháng sinh (chi tiết)",
+  "card_count": 91,
+  "cards": [
+    {
+      "id": "PED69-S1-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "WHO 2024",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[WHO 2024]</b></span> Theo WHO 2024 (trẻ <span style=\"color:#ffd43b\"><b>2–59 tháng</b></span>), 3 phân loại viêm phổi là gì, tiêu chí từng loại và xử trí kháng sinh tương ứng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm phổi thở nhanh</b></span>: ho/khó thở + thở nhanh theo tuổi, không rút lõm, không dấu hiệu nguy hiểm → <span style=\"color:#51cf66\"><b>amoxicillin uống 40 mg/kg/lần × 2 lần/ngày</b></span>, <span style=\"color:#ffd43b\"><b>3 ngày</b></span> (vùng HIV thấp) hoặc <span style=\"color:#ffd43b\"><b>5 ngày</b></span> (vùng HIV cao).<br>2) <span style=\"color:#74c0fc\"><b>Viêm phổi rút lõm lồng ngực</b></span>: rút lõm ± thở nhanh, không dấu hiệu nguy hiểm → <span style=\"color:#51cf66\"><b>amoxicillin uống 5 ngày, ngoại trú</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Viêm phổi nặng</b></span>: có ≥ 1 dấu hiệu nguy hiểm → <span style=\"color:#51cf66\"><b>nhập viện, ampicillin (hoặc benzylpenicillin) + gentamicin</b></span>; <span style=\"color:#51cf66\"><b>ceftriaxone</b></span> là lựa chọn thứ hai.<br><br><b>💡 Giải thích của AI:</b><br>Điểm mới so với cách dạy cũ: trẻ <span style=\"color:#ffd43b\"><b>chỉ có rút lõm</b></span> mà không có dấu hiệu nguy hiểm không còn bắt buộc nhập viện tiêm kháng sinh — các thử nghiệm cho thấy amoxicillin uống tại nhà hiệu quả tương đương. Nhập viện dành cho trẻ có dấu hiệu nguy hiểm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.1 WHO 2024",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "WHO"
+      ]
+    },
+    {
+      "id": "PED69-S1-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "WHO 2024",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dấu hiệu nguy hiểm]</b></span> Kể các dấu hiệu nguy hiểm toàn thân xếp trẻ ho/khó thở vào <span style=\"color:#ff6b6b\"><b>viêm phổi nặng</b></span> theo WHO 2024.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không uống / không bú được</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Nôn tất cả mọi thứ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Co giật</b></span> trong đợt bệnh.<br>4) <span style=\"color:#ff6b6b\"><b>Li bì hoặc hôn mê</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Thở rít khi nằm yên</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Giảm oxy máu nặng</b></span>: <span style=\"color:#ffd43b\"><b>SpO₂ < 90%</b></span> (hoặc dấu hiệu lâm sàng khi không có máy đo).<br><br><b>💡 Giải thích của AI:</b><br>Mỗi dấu hiệu là một con đường dẫn tới tử vong: không uống → mất nước, không dùng được thuốc uống; co giật/li bì → giảm oxy não hoặc nhiễm khuẩn huyết; thở rít → tắc nghẽn đường thở trên; SpO₂ < 90% → cần oxy ngay.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.1 WHO 2024",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "WHO",
+        "Dau-hieu-nguy-hiem"
+      ]
+    },
+    {
+      "id": "PED69-S1-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "WHO 2024",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[WHO 2024 – trẻ 5–9 tuổi và y tế cộng đồng]</b></span> WHO 2024 kết luận gì về thuật toán lâm sàng cho trẻ <span style=\"color:#ffd43b\"><b>5–9 tuổi</b></span>, và khuyến cáo gì về điều trị viêm phổi rút lõm tại cộng đồng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ <span style=\"color:#ffd43b\"><b>5–9 tuổi</b></span>: <span style=\"color:#ff6b6b\"><b>chưa đủ bằng chứng</b></span> cho một thuật toán chuẩn kiểu thở nhanh/rút lõm (khoảng trống nghiên cứu).<br>2) Cộng đồng: nơi có nhân viên y tế cộng đồng được đào tạo, WHO <span style=\"color:#51cf66\"><b>gợi ý điều trị tại cộng đồng</b></span> (đủ <span style=\"color:#ffd43b\"><b>5 ngày</b></span> amoxicillin + thăm lại) thay vì chỉ cho 1 liều rồi chuyển tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ lớn có nhịp thở nền khác, hay có hen/khò khè và nhiều Mycoplasma hơn, nên ngưỡng thở nhanh của trẻ nhỏ không áp dụng thẳng được. Thực hành: đánh giá lâm sàng đầy đủ theo tiêu chí PIDS/BTS.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.1 WHO 2024",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "WHO"
+      ]
+    },
+    {
+      "id": "PED69-S1-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "Nhập viện",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tiêu chí nhập viện]</b></span> Kể các tiêu chí nhập viện cho trẻ viêm phổi theo PIDS/IDSA 2011 và BTS 2011.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Suy hô hấp trung bình – nặng</b></span>; <span style=\"color:#ff6b6b\"><b>SpO₂ < 90%</b></span> (PIDS) / <span style=\"color:#ff6b6b\"><b>< 92%</b></span> (BTS) khí trời.<br>2) Nhũ nhi <span style=\"color:#ffd43b\"><b>≤ 3–6 tháng</b></span> nghi viêm phổi vi khuẩn.<br>3) Nghi tác nhân độc lực cao: <span style=\"color:#74c0fc\"><b>tụ cầu (CA-MRSA)</b></span>, <span style=\"color:#74c0fc\"><b>liên cầu nhóm A</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Không uống được, mất nước, li bì</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Gia đình không theo dõi / không tái khám được</b></span>.<br>6) <span style=\"color:#ff6b6b\"><b>Thất bại điều trị ngoại trú 48–72 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai guideline lệch nhau ở ngưỡng SpO₂ (90% vs 92%) vì BTS áp dụng cho nước có nguồn lực oxy dồi dào. Tiêu chí xã hội (không theo dõi được) là tiêu chí thật — trẻ nặng lên về đêm ở nhà xa viện có nguy cơ tử vong.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.2 Nhập viện · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Nhap-vien"
+      ]
+    },
+    {
+      "id": "PED69-S1-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S1",
+      "category": "ICU",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuyển ICU]</b></span> Những dấu hiệu nào ở trẻ viêm phổi cần chuyển hồi sức tích cực?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Cần thở máy xâm nhập hoặc thở không xâm nhập kéo dài</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>SpO₂ < 92% dù FiO₂ ≥ 0,5</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Rối loạn tri giác</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Sốc</b></span>: nhịp tim nhanh kéo dài, huyết áp tụt, cần vận mạch.<br>5) <span style=\"color:#ff6b6b\"><b>Ngừng thở, thở chậm bất thường, kiệt sức</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ cần FiO₂ ≥ 50% mà vẫn không giữ được SpO₂ 92% là có shunt lớn — oxy mũi không còn đủ, cần áp lực dương và theo dõi liên tục. Thở chậm lại ở trẻ đang suy hô hấp là kiệt sức, không phải cải thiện.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.2 Nhập viện",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "ICU"
+      ]
+    },
+    {
+      "id": "PED69-S1-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S1",
+      "category": "WHO 2024",
+      "tier": 2,
+      "text": "WHO 2024: viêm phổi thở nhanh ở vùng HIV thấp dùng amoxicillin uống {{c1::<span style=\"color:#ffd43b\"><b>3 ngày</b></span>}}; viêm phổi rút lõm lồng ngực dùng {{c2::<span style=\"color:#ffd43b\"><b>5 ngày</b></span>}} tại nhà.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.1 WHO 2024",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "WHO"
+      ]
+    },
+    {
+      "id": "PED69-S1-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S1",
+      "category": "WHO 2024",
+      "tier": 2,
+      "text": "WHO 2024: liều amoxicillin uống cho viêm phổi trẻ 2–59 tháng là {{c1::<span style=\"color:#51cf66\"><b>40 mg/kg/lần, 2 lần/ngày</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 1.1 WHO 2024",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "WHO",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S2-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "EPIC",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nghiên cứu EPIC]</b></span> Nghiên cứu EPIC (CDC, NEJM 2015) trên trẻ viêm phổi nhập viện tìm thấy tác nhân ở bao nhiêu %, tỷ lệ virus, vi khuẩn, đồng nhiễm và tác nhân đứng đầu mỗi nhóm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tìm thấy tác nhân: <span style=\"color:#ffd43b\"><b>81%</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Virus</b></span>: <span style=\"color:#ffd43b\"><b>73%</b></span> — đứng đầu <span style=\"color:#74c0fc\"><b>RSV</b></span> (<span style=\"color:#ffd43b\"><b>28%</b></span>).<br>3) <span style=\"color:#74c0fc\"><b>Vi khuẩn</b></span>: <span style=\"color:#ffd43b\"><b>15%</b></span> — <span style=\"color:#74c0fc\"><b>Mycoplasma</b></span> <span style=\"color:#ffd43b\"><b>8%</b></span>, <span style=\"color:#74c0fc\"><b>phế cầu</b></span> <span style=\"color:#ffd43b\"><b>4%</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Đồng nhiễm virus – vi khuẩn</b></span>: <span style=\"color:#ffd43b\"><b>7%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hàm ý: phần lớn viêm phổi trẻ nhỏ là virus, nhưng xét nghiệm hiện có <span style=\"color:#ff6b6b\"><b>không đủ nhạy để loại trừ vi khuẩn</b></span> (phế cầu hay bị bỏ sót vì cấy máu ít dương tính). Vì vậy vẫn dùng kháng sinh kinh nghiệm khi bệnh cảnh gợi ý vi khuẩn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.1 Căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Can-nguyen",
+        "EPIC"
+      ]
+    },
+    {
+      "id": "PED69-S2-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Theo tuổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Căn nguyên theo tuổi]</b></span> Tác nhân viêm phổi thường gặp ở 4 nhóm tuổi: <span style=\"color:#ffd43b\"><b>0–3 tuần</b></span>, <span style=\"color:#ffd43b\"><b>3 tuần – 3 tháng</b></span>, <span style=\"color:#ffd43b\"><b>3 tháng – 5 tuổi</b></span>, <span style=\"color:#ffd43b\"><b>≥ 5 tuổi</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>0–3 tuần</b></span>: <span style=\"color:#74c0fc\"><b>liên cầu nhóm B</b></span>, <span style=\"color:#74c0fc\"><b>Gram âm đường ruột</b></span> (E. coli, Klebsiella), <span style=\"color:#74c0fc\"><b>Listeria</b></span>; CMV, HSV.<br>2) <span style=\"color:#ffd43b\"><b>3 tuần – 3 tháng</b></span>: virus (RSV…), <span style=\"color:#74c0fc\"><b>phế cầu</b></span>, <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span>, <span style=\"color:#74c0fc\"><b>Bordetella pertussis</b></span>, tụ cầu.<br>3) <span style=\"color:#ffd43b\"><b>3 tháng – 5 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>virus chiếm đa số</b></span>; vi khuẩn hàng đầu <span style=\"color:#74c0fc\"><b>phế cầu</b></span>; Hib (chưa tiêm), tụ cầu, Mycoplasma tăng dần.<br>4) <span style=\"color:#ffd43b\"><b>≥ 5 tuổi</b></span>: <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span>, <span style=\"color:#74c0fc\"><b>Chlamydia pneumoniae</b></span>, <span style=\"color:#74c0fc\"><b>phế cầu</b></span>, virus.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ: sơ sinh = vi khuẩn đường sinh dục mẹ; 1–3 tháng = nhóm “không sốt” (Chlamydia, ho gà); trẻ nhỏ = virus + phế cầu; trẻ đi học = Mycoplasma + phế cầu. Phế cầu là đích chính của kháng sinh kinh nghiệm ở mọi tuổi > 3 tháng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.1 Căn nguyên theo tuổi",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Can-nguyen"
+      ]
+    },
+    {
+      "id": "PED69-S2-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Bối cảnh",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Căn nguyên theo bối cảnh]</b></span> Cần nghĩ thêm tác nhân nào trong các bối cảnh: <span style=\"color:#ff6b6b\"><b>sau cúm/thủy đậu/sởi</b></span>, <span style=\"color:#ff6b6b\"><b>chưa tiêm PCV/Hib</b></span>, <span style=\"color:#ff6b6b\"><b>rối loạn nuốt</b></span>, <span style=\"color:#ff6b6b\"><b>suy giảm miễn dịch</b></span>, <span style=\"color:#ff6b6b\"><b>tiếp xúc lao</b></span>, <span style=\"color:#ff6b6b\"><b>xơ nang</b></span>, <span style=\"color:#ff6b6b\"><b>nằm viện ≥ 48 giờ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau cúm/thủy đậu/sởi, nhiễm trùng da → <span style=\"color:#74c0fc\"><b>tụ cầu vàng (MSSA/MRSA)</b></span>, <span style=\"color:#74c0fc\"><b>liên cầu nhóm A</b></span>.<br>2) Chưa tiêm PCV/Hib → <span style=\"color:#74c0fc\"><b>phế cầu type vắc xin</b></span>, <span style=\"color:#74c0fc\"><b>Hib</b></span>.<br>3) Bệnh thần kinh, rối loạn nuốt, trào ngược, sau co giật → <span style=\"color:#74c0fc\"><b>viêm phổi hít</b></span> (liên cầu miệng, kỵ khí miệng).<br>4) HIV, suy giảm miễn dịch → <span style=\"color:#74c0fc\"><b>Pneumocystis jirovecii</b></span>, CMV, nấm, Gram âm, lao.<br>5) Tiếp xúc lao, sụt cân, ho > 2–3 tuần → <span style=\"color:#74c0fc\"><b>lao</b></span>.<br>6) Xơ nang, giãn phế quản → <span style=\"color:#74c0fc\"><b>Pseudomonas</b></span>, tụ cầu.<br>7) Nằm viện ≥ 48 giờ / thở máy → <span style=\"color:#74c0fc\"><b>Gram âm bệnh viện</b></span> (Pseudomonas, Klebsiella, Acinetobacter), MRSA.<br><br><b>💡 Giải thích của AI:</b><br>Bối cảnh quan trọng hơn tuổi khi có mặt: một trẻ 3 tuổi viêm phổi nặng nhanh sau thủy đậu phải được phủ tụ cầu ngay, không chờ “không đáp ứng” với ampicillin.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.2 Bối cảnh đặc biệt",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Can-nguyen",
+        "Boi-canh"
+      ]
+    },
+    {
+      "id": "PED69-S2-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S2",
+      "category": "Nhũ nhi nhỏ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chlamydia trachomatis và ho gà ở nhũ nhi]</b></span> Phân biệt viêm phổi do <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span> và <span style=\"color:#74c0fc\"><b>ho gà</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>3 tuần – 3 tháng</b></span> dựa vào sốt, kiểu ho, dấu hiệu kèm và công thức máu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span>: <span style=\"color:#ffd43b\"><b>không sốt</b></span>, <span style=\"color:#ff6b6b\"><b>ho từng tiếng (staccato)</b></span>, <span style=\"color:#ff6b6b\"><b>viêm kết mạc</b></span> (hoặc tiền sử), <span style=\"color:#ff6b6b\"><b>tăng bạch cầu ái toan</b></span>; X-quang thâm nhiễm kẽ, ứ khí.<br>2) <span style=\"color:#74c0fc\"><b>Ho gà</b></span>: thường không sốt, <span style=\"color:#ff6b6b\"><b>ho cơn rũ rượi, đỏ mặt, tím</b></span>, <span style=\"color:#ff6b6b\"><b>ngừng thở</b></span> ở nhũ nhi nhỏ, <span style=\"color:#ff6b6b\"><b>tăng bạch cầu lympho</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai đều lây từ người lớn/mẹ và không đáp ứng β-lactam; điều trị bằng macrolid (azithromycin). Ho gà ở nhũ nhi < 3 tháng có thể tử vong do ngừng thở và tăng áp phổi — bạch cầu lympho rất cao là dấu hiệu nặng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.1 Căn nguyên theo tuổi",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Can-nguyen",
+        "Chlamydia",
+        "Ho-ga"
+      ]
+    },
+    {
+      "id": "PED69-S2-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S2",
+      "category": "EPIC",
+      "tier": 2,
+      "text": "Trong nghiên cứu EPIC, tác nhân gây viêm phổi nhập viện thường gặp nhất ở trẻ em là {{c1::<span style=\"color:#74c0fc\"><b>RSV</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.1 Căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "EPIC"
+      ]
+    },
+    {
+      "id": "PED69-S2-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S2",
+      "category": "EPIC",
+      "tier": 2,
+      "text": "EPIC: virus tìm thấy ở {{c1::<span style=\"color:#ffd43b\"><b>73%</b></span>}} và vi khuẩn ở {{c2::<span style=\"color:#ffd43b\"><b>15%</b></span>}} trẻ viêm phổi nhập viện.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 2.1 Căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "EPIC"
+      ]
+    },
+    {
+      "id": "PED69-S3-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Virus vs vi khuẩn",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Virus hay vi khuẩn điển hình]</b></span> So sánh viêm phổi <span style=\"color:#74c0fc\"><b>virus</b></span> và <span style=\"color:#74c0fc\"><b>phế cầu / vi khuẩn điển hình</b></span> về lâm sàng, X-quang và xét nghiệm viêm.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Virus</b></span>: tuổi nhỏ, <span style=\"color:#51cf66\"><b>khởi phát từ từ</b></span>, chảy mũi, <span style=\"color:#51cf66\"><b>khò khè</b></span>, người nhà cùng bệnh; X-quang <span style=\"color:#51cf66\"><b>thâm nhiễm kẽ 2 bên, ứ khí, xẹp phổi</b></span>; CRP/PCT thường thấp (trừ adenovirus).<br>2) <span style=\"color:#74c0fc\"><b>Phế cầu</b></span>: <span style=\"color:#ff6b6b\"><b>sốt cao đột ngột ≥ 38,5 °C</b></span>, nhiễm độc, đau ngực/đau bụng, <span style=\"color:#ff6b6b\"><b>ran nổ khu trú</b></span>, <span style=\"color:#ff6b6b\"><b>không khò khè</b></span>; X-quang <span style=\"color:#ff6b6b\"><b>đông đặc thùy/phân thùy, tràn dịch</b></span>; bạch cầu, CRP, PCT cao.<br><br><b>💡 Giải thích của AI:</b><br>Không có dấu hiệu nào đơn độc đủ tin cậy; phải ghép nhiều manh mối. Bẫy: <span style=\"color:#ff6b6b\"><b>viêm phổi tròn</b></span> do phế cầu giống u; adenovirus có thể sốt cao, CRP rất cao giống vi khuẩn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi"
+      ]
+    },
+    {
+      "id": "PED69-S3-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Mycoplasma",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Mycoplasma]</b></span> Nêu manh mối lâm sàng, ngoài phổi, X-quang, xét nghiệm và đáp ứng điều trị gợi ý viêm phổi do <span style=\"color:#74c0fc\"><b>Mycoplasma pneumoniae</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lâm sàng: trẻ <span style=\"color:#ffd43b\"><b>≥ 5 tuổi</b></span>, <span style=\"color:#ff6b6b\"><b>ho dai dẳng</b></span>, <span style=\"color:#ff6b6b\"><b>đau đầu, đau họng</b></span>, có thể khò khè.<br>2) Ngoài phổi: <span style=\"color:#ff6b6b\"><b>ban / SJS, viêm niêm mạc (MIRM)</b></span>, <span style=\"color:#ff6b6b\"><b>tan máu</b></span>, <span style=\"color:#ff6b6b\"><b>viêm não</b></span>.<br>3) X-quang: thâm nhiễm kẽ hoặc đông đặc, <span style=\"color:#ff6b6b\"><b>“X-quang nặng hơn khám”</b></span>.<br>4) Xét nghiệm: <span style=\"color:#ff6b6b\"><b>LDH cao</b></span> gợi ý thể nặng.<br>5) Điều trị: <span style=\"color:#ff6b6b\"><b>không đáp ứng β-lactam</b></span>; ở châu Á <span style=\"color:#ff6b6b\"><b>phần lớn kháng macrolid</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>MIRM (Mycoplasma-induced rash and mucositis) khác SJS kinh điển: viêm niêm mạc nặng, ban da ít. Gặp viêm niêm mạc miệng – mắt ở trẻ đi học đang ho → phải nghĩ Mycoplasma.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi",
+        "Mycoplasma"
+      ],
+      "asks": [
+        "Lâm sàng",
+        "Ngoài phổi",
+        "X-quang",
+        "Xét nghiệm",
+        "Điều trị"
+      ]
+    },
+    {
+      "id": "PED69-S3-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Tụ cầu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tụ cầu vàng]</b></span> Bệnh cảnh, diễn tiến, hình ảnh X-quang nào gợi ý viêm phổi do <span style=\"color:#74c0fc\"><b>tụ cầu vàng</b></span>, và đáp ứng điều trị ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh cảnh: <span style=\"color:#ff6b6b\"><b>sau cúm / thủy đậu</b></span>, <span style=\"color:#ff6b6b\"><b>nhọt, nhiễm trùng da</b></span>.<br>2) Diễn tiến: <span style=\"color:#ff6b6b\"><b>rất nhanh</b></span>, có thể <span style=\"color:#ff6b6b\"><b>sốc</b></span>.<br>3) X-quang: <span style=\"color:#ff6b6b\"><b>bóng khí (pneumatocele)</b></span>, <span style=\"color:#ff6b6b\"><b>hoại tử, áp xe</b></span>, <span style=\"color:#ff6b6b\"><b>tràn mủ</b></span>, <span style=\"color:#ff6b6b\"><b>tràn khí màng phổi</b></span>.<br>4) Điều trị: <span style=\"color:#ff6b6b\"><b>đáp ứng chậm với β-lactam đơn thuần</b></span> → cần phủ tụ cầu.<br><br><b>💡 Giải thích của AI:</b><br>Cúm làm tổn thương biểu mô và giảm chức năng bạch cầu, mở đường cho tụ cầu bám dính; chủng có độc tố PVL gây hoại tử nhu mô và tạo bóng khí. Một trẻ đang hồi phục cúm bỗng sốt lại, thở nhanh là tín hiệu bội nhiễm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi",
+        "Tu-cau"
+      ],
+      "asks": [
+        "Bệnh cảnh",
+        "Diễn tiến",
+        "X-quang",
+        "Điều trị"
+      ]
+    },
+    {
+      "id": "PED69-S3-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Hít",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm phổi hít]</b></span> Trẻ nào có nguy cơ viêm phổi hít, tổn thương hay nằm ở đâu trên X-quang, và khi nào <span style=\"color:#51cf66\"><b>không cần kháng sinh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguy cơ: <span style=\"color:#ff6b6b\"><b>bại não, rối loạn nuốt, sặc, sau co giật/hôn mê</b></span>, trào ngược.<br>2) Vị trí: <span style=\"color:#74c0fc\"><b>phân thùy sau thùy trên phải</b></span>, <span style=\"color:#74c0fc\"><b>đỉnh thùy dưới</b></span> (hít khi nằm); <span style=\"color:#74c0fc\"><b>thùy dưới phải</b></span> (hít khi đứng/ngồi).<br>3) <span style=\"color:#51cf66\"><b>Viêm phổi hóa chất</b></span> trong những giờ đầu sau sặc dịch dạ dày → <span style=\"color:#51cf66\"><b>không cần kháng sinh</b></span> nếu không có bằng chứng nhiễm khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Phế quản gốc phải thẳng và to hơn nên dị vật/dịch hít vào bên phải nhiều hơn. Sặc dịch dạ dày gây viêm do axit (không phải nhiễm khuẩn) — tự cải thiện trong 24–48 giờ; chỉ dùng kháng sinh khi sốt, đờm mủ hoặc xấu đi.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi",
+        "Hit"
+      ]
+    },
+    {
+      "id": "PED69-S3-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Lao và PCP",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Lao và Pneumocystis]</b></span> Manh mối gợi ý <span style=\"color:#74c0fc\"><b>lao</b></span> và <span style=\"color:#74c0fc\"><b>viêm phổi Pneumocystis (PCP)</b></span> ở trẻ em là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Lao</b></span>: <span style=\"color:#ff6b6b\"><b>ho > 2–3 tuần</b></span>, <span style=\"color:#ff6b6b\"><b>sụt cân</b></span>, <span style=\"color:#ff6b6b\"><b>tiếp xúc nguồn lây</b></span>; X-quang <span style=\"color:#ff6b6b\"><b>hạch rốn phổi</b></span>, đông đặc không đáp ứng, hang, kê.<br>2) <span style=\"color:#74c0fc\"><b>PCP</b></span>: <span style=\"color:#ffd43b\"><b>nhũ nhi HIV 2–6 tháng</b></span>, thở nhanh, <span style=\"color:#ff6b6b\"><b>giảm oxy nặng</b></span> nhưng nghe phổi ít ran; X-quang <span style=\"color:#ff6b6b\"><b>mờ kẽ lan tỏa 2 bên</b></span>; <span style=\"color:#ff6b6b\"><b>LDH cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy lao: dùng <span style=\"color:#ff6b6b\"><b>fluoroquinolon</b></span> cho “viêm phổi không đáp ứng” làm lao đỡ tạm thời và che lấp chẩn đoán. Bẫy PCP: viêm phổi nặng ở trẻ HIV dưới 1 tuổi phải nghĩ PCP và thêm cotrimoxazol.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi",
+        "Lao",
+        "PCP"
+      ]
+    },
+    {
+      "id": "PED69-S3-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S3",
+      "category": "Nguyên tắc BTS",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nguyên tắc BTS]</b></span> Theo BTS 2011, trẻ <span style=\"color:#ffd43b\"><b>< 2 tuổi</b></span> có triệu chứng hô hấp dưới nhẹ và trẻ <span style=\"color:#51cf66\"><b>khò khè</b></span> thường là gì; khi nào nên nghĩ <span style=\"color:#ff6b6b\"><b>viêm phổi vi khuẩn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trẻ <span style=\"color:#ffd43b\"><b>< 2 tuổi</b></span>, triệu chứng nhẹ: thường <span style=\"color:#51cf66\"><b>không phải viêm phổi</b></span>.<br>2) Trẻ nhỏ <span style=\"color:#51cf66\"><b>khò khè</b></span>: nhiều khả năng <span style=\"color:#74c0fc\"><b>virus / hen</b></span>, ít khả năng viêm phổi vi khuẩn.<br>3) Nghĩ viêm phổi vi khuẩn khi: <span style=\"color:#ff6b6b\"><b>sốt > 38,5 °C dai dẳng hoặc tái lại</b></span> + <span style=\"color:#ff6b6b\"><b>rút lõm</b></span> + <span style=\"color:#ff6b6b\"><b>thở nhanh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc này giúp tránh kê kháng sinh cho viêm tiểu phế quản và khò khè do virus — nhóm chiếm phần lớn trẻ nhỏ đến khám vì ho, khó thở.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Manh-moi",
+        "BTS"
+      ]
+    },
+    {
+      "id": "PED69-S3-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Tụ cầu",
+      "tier": 2,
+      "text": "Hình ảnh {{c1::<span style=\"color:#ff6b6b\"><b>bóng khí (pneumatocele)</b></span>}} trên X-quang ở trẻ viêm phổi tiến triển nhanh sau cúm gợi ý tụ cầu vàng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Tu-cau"
+      ]
+    },
+    {
+      "id": "PED69-S3-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S3",
+      "category": "Chlamydia",
+      "tier": 2,
+      "text": "Viêm phổi nhũ nhi 1–3 tháng không sốt, ho từng tiếng, viêm kết mạc, tăng bạch cầu ái toan gợi ý {{c1::<span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 3. Manh mối căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Chlamydia"
+      ]
+    },
+    {
+      "id": "PED69-S4-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "X-quang kiểm tra",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[X-quang kiểm tra]</b></span> Khi nào <span style=\"color:#51cf66\"><b>cần</b></span> và khi nào <span style=\"color:#ff6b6b\"><b>không cần</b></span> chụp X-quang ngực kiểm tra sau viêm phổi? Chụp lại sau bao lâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không cần</b></span>: trẻ hồi phục bình thường.<br>2) <span style=\"color:#51cf66\"><b>Cần chụp lại sau 4–6 tuần</b></span>: <span style=\"color:#ff6b6b\"><b>viêm phổi tái diễn cùng thùy</b></span>, <span style=\"color:#ff6b6b\"><b>xẹp thùy</b></span> (nghi dị vật, bất thường giải phẫu, u), <span style=\"color:#ff6b6b\"><b>viêm phổi tròn</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Chụp sớm</b></span>: khi <span style=\"color:#ff6b6b\"><b>xấu đi</b></span> hoặc <span style=\"color:#ff6b6b\"><b>sốt kéo dài không đáp ứng 48–72 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương X-quang tồn tại nhiều tuần sau khi trẻ đã khỏi lâm sàng — chụp lại sớm ở trẻ khỏe chỉ tạo hình ảnh “chưa sạch” và dẫn đến kéo dài kháng sinh vô ích. Tái diễn cùng một vị trí thì phải tìm nguyên nhân tại chỗ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.1 Hình ảnh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED69-S4-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Siêu âm và CT",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Siêu âm phổi và CT ngực]</b></span> Vai trò của <span style=\"color:#51cf66\"><b>siêu âm phổi – màng phổi</b></span> và khi nào cần <span style=\"color:#51cf66\"><b>CT ngực</b></span> trong viêm phổi trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Siêu âm</b></span>: nhạy để phát hiện đông đặc, <span style=\"color:#51cf66\"><b>đánh giá tràn dịch và vách ngăn</b></span>, <span style=\"color:#51cf66\"><b>hướng dẫn chọc / đặt dẫn lưu</b></span>; không chiếu xạ — <span style=\"color:#51cf66\"><b>đầu tay khi nghi tràn dịch</b></span>.<br>2) <span style=\"color:#51cf66\"><b>CT</b></span>: <span style=\"color:#ff6b6b\"><b>không thường quy</b></span>; khi nghi <span style=\"color:#ff6b6b\"><b>hoại tử, áp xe, rò phế quản – màng phổi</b></span>, <span style=\"color:#ff6b6b\"><b>bất thường giải phẫu</b></span>, hoặc trước phẫu thuật.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm cho thấy dịch có vách hay không — điều X-quang không làm được — và quyết định dẫn lưu đơn thuần hay cần tiêu sợi huyết/VATS. CT tăng liều xạ đáng kể nên dành cho câu hỏi thật sự thay đổi xử trí.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.1 Hình ảnh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Sieu-am",
+        "CT"
+      ]
+    },
+    {
+      "id": "PED69-S4-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Biomarker",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[CRP, PCT, công thức máu]</b></span> PIDS/BTS khuyến cáo gì về dùng <span style=\"color:#51cf66\"><b>CRP, PCT, công thức máu</b></span> để phân biệt virus – vi khuẩn, ở trẻ ngoại trú và ở trẻ nội trú nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân biệt virus – vi khuẩn: <span style=\"color:#ff6b6b\"><b>không dùng đơn độc</b></span> (PIDS: khuyến cáo mạnh).<br>2) Ngoại trú: <span style=\"color:#ff6b6b\"><b>không đo thường quy</b></span>.<br>3) Nội trú nặng / biến chứng: <span style=\"color:#51cf66\"><b>theo dõi động CRP/PCT</b></span> giúp đánh giá đáp ứng; <span style=\"color:#51cf66\"><b>PCT thấp</b></span> làm giảm khả năng vi khuẩn điển hình nhưng <span style=\"color:#ff6b6b\"><b>chồng lấn lớn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trung vị CRP/PCT ở viêm phổi vi khuẩn cao hơn virus, nhưng phân bố chồng lấn rộng: adenovirus và Mycoplasma có thể cho CRP rất cao, phế cầu giai đoạn sớm có thể CRP chưa tăng. Dùng xu hướng nhiều lần đo có giá trị hơn một giá trị đơn lẻ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.2 Xét nghiệm viêm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Biomarker"
+      ],
+      "asks": [
+        "Phân biệt virus – vi khuẩn",
+        "Ngoại trú",
+        "Nội trú nặng"
+      ]
+    },
+    {
+      "id": "PED69-S4-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Xét nghiệm hỗ trợ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Điện giải và chức năng thận]</b></span> Ở trẻ viêm phổi nặng, vì sao cần làm <span style=\"color:#51cf66\"><b>điện giải đồ</b></span> và <span style=\"color:#51cf66\"><b>chức năng thận / công thức máu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Điện giải đồ</b></span>: phát hiện <span style=\"color:#ff6b6b\"><b>hạ natri do SIADH</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Chức năng thận + công thức máu + tiểu cầu</b></span>: phát hiện <span style=\"color:#ff6b6b\"><b>HUS do phế cầu</b></span> — <span style=\"color:#ff6b6b\"><b>thiếu máu tan máu, giảm tiểu cầu, suy thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viêm phổi nặng kích thích tiết ADH → giữ nước, hạ natri, co giật nếu truyền dịch nhược trương. HUS do phế cầu (neuraminidase bộc lộ kháng nguyên T) hay đi kèm tràn mủ màng phổi.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.2 Xét nghiệm viêm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "SIADH",
+        "HUS"
+      ]
+    },
+    {
+      "id": "PED69-S4-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Cấy máu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Cấy máu]</b></span> Theo PIDS/BTS, cấy máu chỉ định cho trẻ viêm phổi nào và không cần cho trẻ nào? Tỷ lệ dương tính, cấy lại và chờ kết quả khi ra viện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span>: trẻ ngoại trú đã tiêm chủng đủ.<br>2) <span style=\"color:#51cf66\"><b>Có</b></span>: trẻ nhập viện viêm phổi <span style=\"color:#ff6b6b\"><b>trung bình – nặng</b></span>, <span style=\"color:#ff6b6b\"><b>có biến chứng</b></span>, <span style=\"color:#ff6b6b\"><b>xấu đi dù điều trị</b></span>.<br>3) Dương tính thấp: khoảng <span style=\"color:#ffd43b\"><b>1–3%</b></span> ở viêm phổi không biến chứng, cao hơn ở thể có biến chứng.<br>4) <span style=\"color:#ff6b6b\"><b>Không cần cấy lại</b></span> khi trẻ đã cải thiện.<br>5) Kết quả đang chờ <span style=\"color:#ff6b6b\"><b>không phải lý do giữ trẻ</b></span> đã đủ tiêu chuẩn ra viện (nếu theo dõi được).<br><br><b>💡 Giải thích của AI:</b><br>Cấy máu ít dương tính vì phế cầu chỉ vào máu thoáng qua và trẻ thường đã dùng kháng sinh. Nhưng ở trẻ nặng/tràn mủ, một kết quả dương tính cho phép xuống thang chính xác (ví dụ về penicillin) — đó là giá trị thật của xét nghiệm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cay-mau"
+      ]
+    },
+    {
+      "id": "PED69-S4-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Virus",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[PCR / test nhanh virus]</b></span> Xét nghiệm virus dịch tỵ hầu nên làm cho trẻ nào, kết quả dương tính thay đổi xử trí thế nào, và giới hạn quan trọng nhất là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Làm cho: <span style=\"color:#51cf66\"><b>trẻ nhập viện</b></span>; khi kết quả <span style=\"color:#51cf66\"><b>thay đổi xử trí</b></span>.<br>2) Thay đổi xử trí: <span style=\"color:#74c0fc\"><b>cúm</b></span> → <span style=\"color:#51cf66\"><b>oseltamivir</b></span>; <span style=\"color:#51cf66\"><b>cách ly</b></span> đúng nhóm; ở trẻ ngoại trú bệnh cảnh phù hợp virus → <span style=\"color:#51cf66\"><b>có thể giảm kháng sinh</b></span>.<br>3) Giới hạn: <span style=\"color:#ff6b6b\"><b>dương tính virus không loại trừ đồng nhiễm vi khuẩn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>EPIC ghi nhận đồng nhiễm virus – vi khuẩn khoảng 7%; một trẻ có RSV dương tính nhưng đông đặc thùy, CRP rất cao vẫn cần kháng sinh. PCR đa tác nhân cũng phát hiện virus mang theo không triệu chứng (rhinovirus, adenovirus) — đọc cùng bệnh cảnh.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Virus"
+      ]
+    },
+    {
+      "id": "PED69-S4-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Mycoplasma",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Xét nghiệm Mycoplasma]</b></span> So sánh <span style=\"color:#51cf66\"><b>PCR</b></span>, <span style=\"color:#51cf66\"><b>IgM</b></span> và <span style=\"color:#51cf66\"><b>huyết thanh cặp IgG</b></span> trong chẩn đoán Mycoplasma: ưu tiên cái nào và giới hạn của từng cái?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>PCR</b></span> (tỵ hầu/họng): <span style=\"color:#51cf66\"><b>ưu tiên</b></span>, nhanh, nhạy; giới hạn: <span style=\"color:#ff6b6b\"><b>mang trùng không triệu chứng</b></span> và <span style=\"color:#ff6b6b\"><b>thải DNA kéo dài hàng tuần – tháng</b></span>.<br>2) <span style=\"color:#51cf66\"><b>IgM</b></span>: <span style=\"color:#ff6b6b\"><b>âm tính giả sớm</b></span> (cần khoảng <span style=\"color:#ffd43b\"><b>7–10 ngày</b></span>); <span style=\"color:#ff6b6b\"><b>dương tính giả</b></span> vì IgM tồn tại lâu.<br>3) <span style=\"color:#51cf66\"><b>Huyết thanh cặp</b></span>: <span style=\"color:#ffd43b\"><b>IgG tăng ≥ 4 lần</b></span> giữa 2 mẫu — chắc chắn nhưng <span style=\"color:#ff6b6b\"><b>hồi cứu</b></span>, không giúp quyết định cấp.<br><br><b>💡 Giải thích của AI:</b><br>Thực hành: PCR dương + bệnh cảnh phù hợp (trẻ đi học, ho kéo dài, X-quang thâm nhiễm) là đủ để điều trị. Một IgM dương đơn độc ở trẻ khò khè 2 tuổi không đủ chứng minh Mycoplasma là thủ phạm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma"
+      ]
+    },
+    {
+      "id": "PED69-S4-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Phế cầu niệu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Kháng nguyên phế cầu niệu]</b></span> Vì sao <span style=\"color:#ff6b6b\"><b>không làm</b></span> kháng nguyên phế cầu trong nước tiểu ở trẻ em? Mẫu nào thay thế có giá trị?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dương tính giả</b></span> do <span style=\"color:#ff6b6b\"><b>mang phế cầu vùng hầu họng</b></span> (rất phổ biến ở trẻ nhỏ).<br>2) <span style=\"color:#ff6b6b\"><b>Dương tính giả sau tiêm PCV</b></span>.<br>3) Thay thế: <span style=\"color:#51cf66\"><b>kháng nguyên / PCR phế cầu trong dịch màng phổi</b></span> — giá trị cao.<br><br><b>💡 Giải thích của AI:</b><br>Ở người lớn xét nghiệm này hữu ích vì ít người mang trùng; ở trẻ nhỏ một nửa có phế cầu ở họng nên kháng nguyên vào nước tiểu mà không có viêm phổi phế cầu. Dịch màng phổi là vị trí vô khuẩn nên dương tính có nghĩa thật.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Phe-cau"
+      ]
+    },
+    {
+      "id": "PED69-S4-09",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Dịch màng phổi",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dịch màng phổi]</b></span> Dịch màng phổi khi chọc/dẫn lưu cần gửi xét nghiệm gì, và BTS nói gì về <span style=\"color:#ff6b6b\"><b>sinh hóa dịch</b></span> ở trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gửi: <span style=\"color:#51cf66\"><b>nhuộm Gram</b></span>, <span style=\"color:#51cf66\"><b>cấy</b></span>, <span style=\"color:#51cf66\"><b>PCR / kháng nguyên phế cầu</b></span> (nhất là khi đã dùng kháng sinh).<br>2) BTS: <span style=\"color:#ff6b6b\"><b>sinh hóa dịch (pH, glucose, LDH) không cần</b></span> để quyết định xử trí ở trẻ em.<br><br><b>💡 Giải thích của AI:</b><br>Dịch thường đã vô khuẩn khi cấy vì trẻ dùng kháng sinh nhiều ngày — PCR vẫn bắt được DNA phế cầu, giúp xuống thang chính xác. Ở trẻ em, quyết định dẫn lưu dựa vào kích thước, vách ngăn trên siêu âm và tình trạng hô hấp hơn là pH.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mang-phoi"
+      ]
+    },
+    {
+      "id": "PED69-S4-10",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Lao, HIV, đờm",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Đờm, lao, HIV]</b></span> Khi nào xét nghiệm <span style=\"color:#51cf66\"><b>đờm</b></span>, <span style=\"color:#51cf66\"><b>lao</b></span> và <span style=\"color:#51cf66\"><b>HIV</b></span> có giá trị trong viêm phổi trẻ em, và làm xét nghiệm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đờm</b></span>: trẻ lớn khạc được, nhập viện; chỉ giá trị khi <span style=\"color:#51cf66\"><b>mẫu đạt chất lượng</b></span> (nhiều bạch cầu, ít tế bào biểu mô); trẻ đặt nội khí quản → <span style=\"color:#51cf66\"><b>dịch hút khí quản</b></span> nhuộm Gram + cấy.<br>2) <span style=\"color:#51cf66\"><b>Lao</b></span>: ho kéo dài, tiếp xúc, không đáp ứng, hình ảnh gợi ý → <span style=\"color:#51cf66\"><b>Xpert MTB/RIF Ultra</b></span> (dịch dạ dày / đờm / phân), <span style=\"color:#51cf66\"><b>TST / IGRA</b></span>, X-quang.<br>3) <span style=\"color:#51cf66\"><b>HIV</b></span>: viêm phổi nặng/tái diễn, nhũ nhi nghi PCP, mẹ nhiễm HIV → nếu dương tính <span style=\"color:#51cf66\"><b>thêm cotrimoxazol</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ nuốt đờm nên dịch dạ dày buổi sáng là mẫu tìm lao kinh điển; Xpert Ultra trên phân là lựa chọn không xâm lấn được WHO chấp nhận.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lao",
+        "HIV"
+      ]
+    },
+    {
+      "id": "PED69-S4-11",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Kháng macrolid",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Xét nghiệm đột biến kháng macrolid]</b></span> Xét nghiệm gì phát hiện <span style=\"color:#74c0fc\"><b>Mycoplasma kháng macrolid</b></span>, chỉ định khi nào và kết quả định hướng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xét nghiệm: <span style=\"color:#51cf66\"><b>PCR phát hiện đột biến 23S rRNA</b></span> (<span style=\"color:#74c0fc\"><b>A2063G</b></span> / <span style=\"color:#74c0fc\"><b>A2064G</b></span>).<br>2) Chỉ định: <span style=\"color:#ff6b6b\"><b>Mycoplasma nặng</b></span> hoặc <span style=\"color:#ff6b6b\"><b>không đáp ứng 48–72 giờ</b></span> với macrolid.<br>3) Định hướng: chuyển <span style=\"color:#51cf66\"><b>doxycycline / minocycline / fluoroquinolon</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>A2063G chiếm gần như toàn bộ chủng kháng ở Việt Nam và Trung Quốc. Biết sớm đột biến giúp không mất thêm 2–3 ngày với macrolid ở trẻ nặng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Khang-thuoc"
+      ],
+      "asks": [
+        "Xét nghiệm",
+        "Chỉ định",
+        "Định hướng"
+      ]
+    },
+    {
+      "id": "PED69-S4-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Mycoplasma",
+      "tier": 2,
+      "text": "Chẩn đoán huyết thanh chắc chắn Mycoplasma cần {{c1::<span style=\"color:#ffd43b\"><b>IgG tăng ≥ 4 lần</b></span>}} giữa mẫu cấp và mẫu hồi phục.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Mycoplasma"
+      ]
+    },
+    {
+      "id": "PED69-S4-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "X-quang",
+      "tier": 2,
+      "text": "X-quang kiểm tra (khi tái diễn cùng thùy, xẹp thùy, viêm phổi tròn) nên chụp sau {{c1::<span style=\"color:#ffd43b\"><b>4–6 tuần</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.1 Hình ảnh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "X-quang"
+      ]
+    },
+    {
+      "id": "PED69-S4-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S4",
+      "category": "Cấy máu",
+      "tier": 2,
+      "text": "Tỷ lệ cấy máu dương tính ở viêm phổi trẻ em không biến chứng chỉ khoảng {{c1::<span style=\"color:#ffd43b\"><b>1–3%</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Cay-mau"
+      ]
+    },
+    {
+      "id": "PED69-S5-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Nguyên tắc",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[6 nguyên tắc chọn kháng sinh]</b></span> Kể 6 câu hỏi/nguyên tắc theo thứ tự khi chọn kháng sinh cho trẻ viêm phổi.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Có cần kháng sinh không?</b></span> — bệnh cảnh virus rõ → không kháng sinh, hẹn đánh giá lại.<br>2) <span style=\"color:#51cf66\"><b>Tác nhân đích</b></span> theo tuổi + bối cảnh (phế cầu là đích chính ở mọi tuổi > 3 tháng).<br>3) <span style=\"color:#51cf66\"><b>Mức độ nặng + nơi điều trị</b></span>: uống ngoại trú hay tiêm nội trú.<br>4) <span style=\"color:#51cf66\"><b>Tiêm chủng + kháng thuốc tại chỗ</b></span>: phế cầu giảm nhạy penicillin → amoxicillin liều cao; <span style=\"color:#ff6b6b\"><b>phế cầu kháng macrolid rất cao ở châu Á</b></span> → không dùng macrolid đơn độc cho phế cầu.<br>5) <span style=\"color:#51cf66\"><b>Dị ứng, tuổi</b></span> (tetracyclin, fluoroquinolon), tương tác, khả năng uống.<br>6) <span style=\"color:#51cf66\"><b>Đánh giá lại 48–72 giờ</b></span>; xuống thang theo cấy; chuyển uống sớm.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự này ngăn hai sai lầm phổ biến: kê kháng sinh cho viêm phổi virus, và nâng bậc kháng sinh mạnh ngay từ đầu “cho chắc”. Phần lớn trẻ chỉ cần amoxicillin liều đúng trong 5 ngày.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.1 Nguyên tắc",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Nguyen-tac"
+      ]
+    },
+    {
+      "id": "PED69-S5-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Ngoại trú",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Ngoại trú]</b></span> Kháng sinh kinh nghiệm ngoại trú cho trẻ <span style=\"color:#ffd43b\"><b>< 5 tuổi</b></span> và <span style=\"color:#ffd43b\"><b>≥ 5 tuổi</b></span> nghi vi khuẩn điển hình, và cho trẻ nghi <span style=\"color:#74c0fc\"><b>Mycoplasma / Chlamydophila</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>< 5 tuổi</b></span>: <span style=\"color:#51cf66\"><b>amoxicillin 90 mg/kg/ngày chia 2</b></span> (tối đa <span style=\"color:#ffd43b\"><b>4 g/ngày</b></span>).<br>2) <span style=\"color:#ffd43b\"><b>≥ 5 tuổi</b></span>, nghi điển hình: <span style=\"color:#51cf66\"><b>amoxicillin liều cao</b></span>; không đáp ứng 48 giờ hoặc bệnh cảnh không điển hình → <span style=\"color:#51cf66\"><b>thêm hoặc chuyển macrolid</b></span>.<br>3) Nghi Mycoplasma/Chlamydophila: <span style=\"color:#51cf66\"><b>azithromycin 10 mg/kg ngày 1, 5 mg/kg ngày 2–5</b></span>; thay thế <span style=\"color:#51cf66\"><b>clarithromycin</b></span>, <span style=\"color:#51cf66\"><b>erythromycin</b></span>, <span style=\"color:#51cf66\"><b>doxycycline</b></span> (≥ 8 tuổi, hoặc đợt ngắn ≤ 21 ngày mọi tuổi theo AAP).<br><br><b>💡 Giải thích của AI:</b><br>Trẻ dưới 5 tuổi hiếm khi viêm phổi do Mycoplasma (EPIC), nên macrolid kinh nghiệm cho nhóm này chủ yếu tạo kháng thuốc. Ở trẻ lớn, chọn amoxicillin hay macrolid dựa vào bệnh cảnh: sốt cao đột ngột, đông đặc → amoxicillin; ho kéo dài, đau đầu, thâm nhiễm kẽ → macrolid.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Ngoai-tru"
+      ]
+    },
+    {
+      "id": "PED69-S5-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Amoxicillin–clavulanat",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Khi nào dùng amoxicillin–clavulanat]</b></span> Kể các tình huống ngoại trú nên chọn <span style=\"color:#51cf66\"><b>amoxicillin–clavulanat liều cao</b></span> thay amoxicillin, và cách chọn dạng bào chế.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chưa tiêm Hib</b></span> (nguy cơ H. influenzae tiết β-lactamase).<br>2) <span style=\"color:#ff6b6b\"><b>Viêm tai giữa kèm</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Vừa dùng amoxicillin trong 30 ngày</b></span>.<br>4) Dạng: <span style=\"color:#51cf66\"><b>tỷ lệ cao 14:1</b></span> để clavulanat <span style=\"color:#ffd43b\"><b>≤ 10 mg/kg/ngày</b></span>; nếu chỉ có 7:1/8:1 → <span style=\"color:#51cf66\"><b>ghép amoxicillin đơn chất</b></span> cho đủ 90 mg/kg/ngày.<br><br><b>💡 Giải thích của AI:</b><br>Clavulanat gây tiêu chảy theo liều; dùng dạng 7:1 để đạt amoxicillin 90 mg/kg/ngày sẽ đưa clavulanat lên gần 13 mg/kg/ngày. Ghép amoxicillin đơn chất giữ đủ amoxicillin mà clavulanat vẫn trong ngưỡng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Ngoai-tru",
+        "Amox-clav"
+      ]
+    },
+    {
+      "id": "PED69-S5-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Nội trú",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nội trú]</b></span> Kháng sinh kinh nghiệm cho trẻ viêm phổi nhập viện: (a) <span style=\"color:#51cf66\"><b>tiêm chủng đủ, phế cầu kháng thấp</b></span>, (b) <span style=\"color:#ff6b6b\"><b>chưa tiêm đủ / kháng cao / nặng đe dọa tính mạng</b></span>, (c) <span style=\"color:#74c0fc\"><b>nghi kèm không điển hình</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) (a): <span style=\"color:#51cf66\"><b>ampicillin 150–200 mg/kg/ngày chia 4</b></span> hoặc <span style=\"color:#51cf66\"><b>penicillin G</b></span>; WHO: <span style=\"color:#51cf66\"><b>ampicillin + gentamicin</b></span> cho viêm phổi nặng.<br>2) (b): <span style=\"color:#51cf66\"><b>ceftriaxone 50–100 mg/kg/ngày</b></span> hoặc <span style=\"color:#51cf66\"><b>cefotaxime 150 mg/kg/ngày</b></span>.<br>3) (c): <span style=\"color:#51cf66\"><b>β-lactam + macrolid</b></span>; ngừng macrolid nếu xét nghiệm âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Ở Việt Nam, phế cầu kháng thuốc cao và PCV chưa phủ đủ nên cephalosporin thế hệ 3 là lựa chọn nội trú phổ biến. Không có lý do dùng carbapenem hay cephalosporin thế hệ 4 làm kinh nghiệm cho viêm phổi cộng đồng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Noi-tru"
+      ]
+    },
+    {
+      "id": "PED69-S5-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Tụ cầu",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nghi tụ cầu / CA-MRSA]</b></span> Phác đồ khi nghi viêm phổi do tụ cầu vàng, phương án thay thế, và xuống thang khi cấy ra <span style=\"color:#74c0fc\"><b>MSSA</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Kinh nghiệm: <span style=\"color:#51cf66\"><b>β-lactam + vancomycin</b></span>; <span style=\"color:#51cf66\"><b>clindamycin</b></span> nếu nhạy và bệnh nặng vừa.<br>2) Thay thế: <span style=\"color:#51cf66\"><b>linezolid</b></span> khi không dùng được vancomycin.<br>3) Cấy ra <span style=\"color:#74c0fc\"><b>MSSA</b></span>: xuống <span style=\"color:#51cf66\"><b>cefazolin hoặc oxacillin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vancomycin diệt MSSA kém hơn β-lactam kháng penicillinase, nên khi kháng sinh đồ cho thấy MSSA phải chuyển ngay. Clindamycin/linezolid ức chế tổng hợp độc tố (PVL) — có lợi trong viêm phổi hoại tử.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Tu-cau",
+        "MRSA"
+      ]
+    },
+    {
+      "id": "PED69-S5-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Hít",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm phổi hít]</b></span> Kháng sinh cho viêm phổi hít ở trẻ em (đường tĩnh mạch, đường uống, khi dị ứng penicillin)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tĩnh mạch: <span style=\"color:#51cf66\"><b>ampicillin–sulbactam</b></span>.<br>2) Uống: <span style=\"color:#51cf66\"><b>amoxicillin–clavulanat</b></span>.<br>3) Dị ứng penicillin: <span style=\"color:#51cf66\"><b>clindamycin</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Viêm phổi hóa chất đơn thuần</b></span>: <span style=\"color:#51cf66\"><b>không cần kháng sinh</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ampicillin–sulbactam và amoxicillin–clavulanat đã phủ liên cầu miệng và vi khuẩn kỵ khí miệng, nên không cần thêm metronidazol ở viêm phổi hít cộng đồng không áp xe.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Hit"
+      ]
+    },
+    {
+      "id": "PED69-S5-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Sơ sinh và nhũ nhi nhỏ",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Sơ sinh và Chlamydia]</b></span> Kháng sinh cho viêm phổi <span style=\"color:#ffd43b\"><b>sơ sinh</b></span> và cho viêm phổi <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span> ở trẻ <span style=\"color:#ffd43b\"><b>1–3 tháng</b></span>? Lưu ý an toàn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Sơ sinh</b></span>: <span style=\"color:#51cf66\"><b>ampicillin + gentamicin</b></span> (± <span style=\"color:#51cf66\"><b>cefotaxime</b></span>); <span style=\"color:#ff6b6b\"><b>tránh ceftriaxone</b></span> (vàng da nhân, tương kỵ calci).<br>2) <span style=\"color:#74c0fc\"><b>Chlamydia trachomatis</b></span>: <span style=\"color:#51cf66\"><b>azithromycin 20 mg/kg/ngày × 3 ngày</b></span>; thay thế <span style=\"color:#51cf66\"><b>erythromycin 50 mg/kg/ngày chia 4 × 14 ngày</b></span>.<br>3) Lưu ý: macrolid ở trẻ <span style=\"color:#ffd43b\"><b>< 6 tuần</b></span> liên quan <span style=\"color:#ff6b6b\"><b>hẹp phì đại môn vị</b></span> → dặn theo dõi nôn vọt.<br><br><b>💡 Giải thích của AI:</b><br>Ampicillin phủ liên cầu nhóm B và Listeria (Listeria kháng tự nhiên cephalosporin), gentamicin phủ Gram âm. Azithromycin được ưu tiên hơn erythromycin vì liệu trình ngắn và ít nguy cơ hẹp môn vị hơn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "So-sinh",
+        "Chlamydia"
+      ]
+    },
+    {
+      "id": "PED69-S5-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Cúm",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm phổi do cúm]</b></span> Xử trí kháng virus và kháng sinh cho trẻ viêm phổi do cúm: dùng oseltamivir khi nào, có cần đợi xét nghiệm hay đang ở giờ thứ mấy, và khi nào thêm kháng sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Oseltamivir càng sớm càng tốt</b></span>, <span style=\"color:#51cf66\"><b>không chờ xét nghiệm</b></span> ở trẻ nhập viện / nặng / nguy cơ cao.<br>2) Dùng <span style=\"color:#51cf66\"><b>kể cả khi > 48 giờ</b></span> từ khởi phát ở trẻ nhập viện.<br>3) Nghi bội nhiễm → <span style=\"color:#51cf66\"><b>thêm kháng sinh phủ phế cầu + tụ cầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc 48 giờ áp dụng cho trẻ khỏe mạnh bệnh nhẹ; ở trẻ nặng, oseltamivir muộn vẫn giảm tử vong. Bội nhiễm sau cúm hay do phế cầu và tụ cầu (kể cả MRSA) — trẻ sốt lại sau vài ngày đỡ là tín hiệu.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cum"
+      ]
+    },
+    {
+      "id": "PED69-S5-09",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "HIV / PCP",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Nhũ nhi HIV nghi PCP]</b></span> Phác đồ bổ sung cho nhũ nhi nhiễm HIV viêm phổi nặng nghi <span style=\"color:#74c0fc\"><b>Pneumocystis</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thêm <span style=\"color:#51cf66\"><b>cotrimoxazol liều cao</b></span>: <span style=\"color:#51cf66\"><b>TMP 15–20 mg/kg/ngày chia 3–4</b></span> × <span style=\"color:#ffd43b\"><b>21 ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>± corticoid</b></span> khi giảm oxy nặng.<br>3) Kèm <span style=\"color:#51cf66\"><b>kháng sinh viêm phổi nặng chuẩn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>PCP ở nhũ nhi HIV có tử vong rất cao; không có xét nghiệm nhanh sẵn ở đa số nơi nên điều trị theo kinh nghiệm khi bệnh cảnh phù hợp (giảm oxy nặng, phổi ít ran, mờ kẽ lan tỏa).",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "HIV",
+        "PCP"
+      ]
+    },
+    {
+      "id": "PED69-S5-10",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Dị ứng penicillin",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Dị ứng penicillin]</b></span> Lựa chọn kháng sinh cho trẻ viêm phổi theo 3 kiểu dị ứng penicillin: <span style=\"color:#ffd43b\"><b>không nặng</b></span>, <span style=\"color:#ff6b6b\"><b>nặng tức thì</b></span>, <span style=\"color:#ffd43b\"><b>không rõ</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Không nặng, không phản vệ</b></span> (ban muộn): <span style=\"color:#51cf66\"><b>cephalosporin</b></span> — <span style=\"color:#51cf66\"><b>ceftriaxone</b></span> (TM), <span style=\"color:#51cf66\"><b>cefpodoxime, cefuroxime</b></span> (uống); phản ứng chéo thấp.<br>2) <span style=\"color:#ff6b6b\"><b>Nặng tức thì</b></span> (phản vệ, mày đay toàn thân, phù mạch): <span style=\"color:#51cf66\"><b>levofloxacin</b></span> hoặc <span style=\"color:#51cf66\"><b>linezolid</b></span>; <span style=\"color:#51cf66\"><b>clindamycin</b></span> nếu phế cầu nhạy; <span style=\"color:#ff6b6b\"><b>macrolid đơn độc không tin cậy</b></span> cho phế cầu ở châu Á.<br>3) <span style=\"color:#ffd43b\"><b>Không rõ</b></span>: khai thác kỹ — nhiều trẻ bị <span style=\"color:#ff6b6b\"><b>dán nhãn sai</b></span>; cân nhắc test/thử thách thuốc khi ổn định.<br><br><b>💡 Giải thích của AI:</b><br>Phản ứng chéo penicillin – cephalosporin chủ yếu do chuỗi bên giống nhau; ceftriaxone, cefpodoxime có chuỗi bên khác amoxicillin nên an toàn ở trẻ dị ứng không nặng. Nhãn “dị ứng penicillin” sai buộc trẻ dùng thuốc phổ rộng, đắt và nhiều tác dụng phụ hơn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.3 Dị ứng penicillin",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Di-ung"
+      ]
+    },
+    {
+      "id": "PED69-S5-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Chlamydia",
+      "tier": 2,
+      "text": "Viêm phổi do Chlamydia trachomatis ở nhũ nhi điều trị bằng azithromycin {{c1::<span style=\"color:#51cf66\"><b>20 mg/kg/ngày × 3 ngày</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Chlamydia"
+      ]
+    },
+    {
+      "id": "PED69-S5-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S5",
+      "category": "Amoxicillin–clavulanat",
+      "tier": 2,
+      "text": "Khi dùng amoxicillin–clavulanat liều cao, giữ clavulanat {{c1::<span style=\"color:#ffd43b\"><b>≤ 10 mg/kg/ngày</b></span>}} để hạn chế tiêu chảy.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.2 Phác đồ kinh nghiệm · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Amox-clav"
+      ]
+    },
+    {
+      "id": "PED69-S6-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Dịch tễ kháng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Mycoplasma kháng macrolid – dịch tễ]</b></span> Cơ chế kháng, đột biến chính, và tỷ lệ kháng ở Trung Quốc/Hàn Quốc, Việt Nam, châu Âu/Bắc Mỹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế: <span style=\"color:#74c0fc\"><b>đột biến 23S rRNA</b></span> làm macrolid <span style=\"color:#ff6b6b\"><b>mất gắn ribosom</b></span>; chủ yếu <span style=\"color:#74c0fc\"><b>A2063G</b></span>.<br>2) Trung Quốc, Hàn Quốc: thường <span style=\"color:#ffd43b\"><b>> 80%</b></span>.<br>3) Việt Nam — BV Nhi Trung ương 2021–2023: <span style=\"color:#ffd43b\"><b>69,9%</b></span> (A2063G chiếm <span style=\"color:#ffd43b\"><b>98,6%</b></span> chủng kháng).<br>4) Châu Âu/Bắc Mỹ: thấp (<span style=\"color:#ffd43b\"><b>< 10–15%</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Vì vậy guideline phương Tây (macrolid đầu tay cho Mycoplasma, đổi thuốc hiếm khi cần) phải áp dụng có điều chỉnh ở Việt Nam: theo dõi sát đáp ứng 48–72 giờ và chuẩn bị phương án thay thế.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Khang-thuoc"
+      ],
+      "asks": [
+        "Cơ chế",
+        "Trung Quốc",
+        "Việt Nam",
+        "Châu Âu"
+      ]
+    },
+    {
+      "id": "PED69-S6-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Không đáp ứng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Mycoplasma không đáp ứng macrolid]</b></span> Định nghĩa không đáp ứng macrolid, và có nên đổi thuốc ngay chỉ vì tỷ lệ kháng cao không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Định nghĩa: <span style=\"color:#ff6b6b\"><b>sốt kéo dài, lâm sàng/X-quang xấu đi</b></span> sau <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span> macrolid đúng liều.<br>2) Đổi thuốc ngay vì sợ kháng: <span style=\"color:#ff6b6b\"><b>không</b></span> — nhiều trẻ mang chủng kháng <span style=\"color:#51cf66\"><b>vẫn khỏi với macrolid</b></span> (bệnh tự giới hạn + tác dụng kháng viêm của macrolid) → quyết định dựa vào <span style=\"color:#51cf66\"><b>đáp ứng lâm sàng 48–72 giờ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nghiên cứu ở BV Nhi Trung ương ghi nhận phần lớn trẻ mang chủng kháng vẫn cải thiện. Đổi sang doxycycline/fluoroquinolon cho mọi trẻ ngay từ đầu sẽ đẩy nhanh kháng thuốc với nhóm dự trữ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma"
+      ],
+      "asks": [
+        "Định nghĩa",
+        "Đổi thuốc ngay"
+      ]
+    },
+    {
+      "id": "PED69-S6-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Chuyển thuốc",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuyển thuốc khi kháng macrolid]</b></span> Chọn thuốc thay thế cho Mycoplasma không đáp ứng macrolid ở trẻ <span style=\"color:#ffd43b\"><b>≥ 8 tuổi</b></span> và trẻ <span style=\"color:#ffd43b\"><b>< 8 tuổi</b></span>? Liều doxycycline?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>≥ 8 tuổi</b></span>: <span style=\"color:#51cf66\"><b>doxycycline</b></span> (hoặc <span style=\"color:#51cf66\"><b>minocycline</b></span>).<br>2) <span style=\"color:#ffd43b\"><b>< 8 tuổi</b></span>: <span style=\"color:#51cf66\"><b>doxycycline đợt ngắn</b></span> (AAP cho phép <span style=\"color:#ffd43b\"><b>≤ 21 ngày</b></span> ở mọi tuổi; Trung Quốc 2023 cho phép khi cân nhắc lợi – hại), hoặc <span style=\"color:#51cf66\"><b>fluoroquinolon</b></span> (levofloxacin; tosufloxacin ở Nhật) — <span style=\"color:#ff6b6b\"><b>ngoài chỉ định, cần đồng thuận</b></span>.<br>3) Doxycycline: <span style=\"color:#51cf66\"><b>2–4 mg/kg/ngày chia 2</b></span>, tối đa <span style=\"color:#ffd43b\"><b>200 mg/ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lo ngại nhuộm răng của tetracyclin chủ yếu với tetracyclin thế hệ cũ dùng dài; doxycycline gắn calci yếu hơn và đợt ngắn không làm đổi màu răng có ý nghĩa. Tetracyclin hạ sốt nhanh hơn fluoroquinolon trong các nghiên cứu ở Nhật, Trung Quốc.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Doxycycline"
+      ]
+    },
+    {
+      "id": "PED69-S6-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "RMPP",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Viêm phổi Mycoplasma kháng trị – RMPP]</b></span> Định nghĩa RMPP, cơ chế chính, và các xét nghiệm gợi ý?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Định nghĩa: <span style=\"color:#ff6b6b\"><b>sốt, tiến triển lâm sàng/X-quang</b></span> dù đã <span style=\"color:#ffd43b\"><b>≥ 7 ngày</b></span> điều trị phù hợp.<br>2) Cơ chế: <span style=\"color:#ff6b6b\"><b>đáp ứng viêm quá mức của cơ thể</b></span> (miễn dịch tế bào, cytokine), không chỉ do vi khuẩn.<br>3) Xét nghiệm gợi ý: <span style=\"color:#ff6b6b\"><b>LDH, CRP, ferritin, D-dimer tăng cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì tổn thương chủ yếu do phản ứng của cơ thể, diệt vi khuẩn đơn thuần không đủ — đây là lý do guideline Trung Quốc thêm corticoid. LDH là dấu ấn hay được dùng nhất để dự báo thể kháng trị.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "RMPP"
+      ],
+      "asks": [
+        "Định nghĩa",
+        "Cơ chế",
+        "Xét nghiệm"
+      ]
+    },
+    {
+      "id": "PED69-S6-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Corticoid",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Corticoid trong RMPP – Trung Quốc 2023]</b></span> Liều methylprednisolon chuẩn và liều xung cho RMPP theo guideline Trung Quốc 2023, và mức độ bằng chứng ở phương Tây?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuẩn: <span style=\"color:#51cf66\"><b>methylprednisolon 1–2 mg/kg/ngày</b></span> × <span style=\"color:#ffd43b\"><b>3–5 ngày</b></span>.<br>2) Rất nặng: <span style=\"color:#51cf66\"><b>liều xung 10–30 mg/kg/ngày</b></span> × <span style=\"color:#ffd43b\"><b>3 ngày</b></span> (tối đa <span style=\"color:#ffd43b\"><b>1 g</b></span>).<br>3) Phương Tây: <span style=\"color:#ff6b6b\"><b>chưa có trong guideline</b></span> — chỉ là tham khảo.<br><br><b>💡 Giải thích của AI:</b><br>Corticoid làm hạ sốt nhanh và giảm viêm trong các nghiên cứu quan sát/thử nghiệm nhỏ ở Trung Quốc, nhưng chưa có thử nghiệm lớn đa quốc gia. Khi dùng phải chắc đã điều trị đúng kháng sinh và loại trừ lao, nhiễm khuẩn khác.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Corticoid"
+      ]
+    },
+    {
+      "id": "PED69-S6-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Biến chứng Mycoplasma",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Biến chứng Mycoplasma nặng]</b></span> Kể các biến chứng tại phổi và ngoài phổi cần tìm ở trẻ Mycoplasma nặng/kháng trị và xử trí gợi ý.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đông đặc lớn / xẹp phổi</b></span>, <span style=\"color:#ff6b6b\"><b>viêm phế quản tạo khuôn (plastic bronchitis)</b></span> → <span style=\"color:#51cf66\"><b>nội soi phế quản</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Hoại tử phổi</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Huyết khối</b></span> (D-dimer cao).<br>4) <span style=\"color:#ff6b6b\"><b>Tràn dịch màng phổi</b></span>.<br>5) Ngoài phổi: <span style=\"color:#ff6b6b\"><b>MIRM / SJS</b></span>, <span style=\"color:#ff6b6b\"><b>tan máu</b></span>, <span style=\"color:#ff6b6b\"><b>viêm não</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viêm phế quản tạo khuôn là các nút fibrin bít khuôn cây phế quản, gây xẹp cả thùy — kháng sinh không giải quyết được, cần nội soi gắp/rửa. Huyết khối (phổi, não, chi) là biến chứng ít gặp nhưng nặng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Bien-chung"
+      ]
+    },
+    {
+      "id": "PED69-S6-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Dịch tễ kháng",
+      "tier": 2,
+      "text": "Tại Bệnh viện Nhi Trung ương 2021–2023, tỷ lệ Mycoplasma kháng macrolid ở trẻ viêm phổi là {{c1::<span style=\"color:#ffd43b\"><b>69,9%</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Khang-thuoc"
+      ]
+    },
+    {
+      "id": "PED69-S6-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Dịch tễ kháng",
+      "tier": 2,
+      "text": "Đột biến kháng macrolid chiếm ưu thế của Mycoplasma pneumoniae ở Việt Nam là {{c1::<span style=\"color:#74c0fc\"><b>A2063G</b></span>}} trên gen 23S rRNA.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Khang-thuoc"
+      ]
+    },
+    {
+      "id": "PED69-S6-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S6",
+      "category": "Không đáp ứng",
+      "tier": 2,
+      "text": "Đánh giá Mycoplasma không đáp ứng macrolid sau {{c1::<span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>}} điều trị đúng liều.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Mycoplasma"
+      ]
+    },
+    {
+      "id": "PED69-S7-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều uống",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Liều macrolid và doxycycline]</b></span> Liều <span style=\"color:#51cf66\"><b>azithromycin</b></span>, <span style=\"color:#51cf66\"><b>clarithromycin</b></span>, <span style=\"color:#51cf66\"><b>erythromycin</b></span>, <span style=\"color:#51cf66\"><b>doxycycline</b></span> đường uống cho viêm phổi trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Azithromycin</b></span>: <span style=\"color:#ffd43b\"><b>10 mg/kg ngày 1</b></span> (tối đa 500 mg) → <span style=\"color:#ffd43b\"><b>5 mg/kg ngày 2–5</b></span> (tối đa 250 mg).<br>2) <span style=\"color:#51cf66\"><b>Clarithromycin</b></span>: <span style=\"color:#ffd43b\"><b>15 mg/kg/ngày chia 2</b></span> × 7–14 ngày (tối đa 1 g/ngày).<br>3) <span style=\"color:#51cf66\"><b>Erythromycin</b></span>: <span style=\"color:#ffd43b\"><b>40–50 mg/kg/ngày chia 4</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Doxycycline</b></span>: <span style=\"color:#ffd43b\"><b>2–4 mg/kg/ngày chia 2</b></span> (tối đa 200 mg/ngày).<br><br><b>💡 Giải thích của AI:</b><br>Azithromycin có thời gian bán thải mô rất dài nên 5 ngày tạo nồng độ mô kéo dài thêm nhiều ngày sau liều cuối. Erythromycin nhiều tác dụng phụ tiêu hóa (kích thích motilin) nên ít dùng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều uống",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Liều thuốc thay thế đường uống]</b></span> Liều <span style=\"color:#51cf66\"><b>levofloxacin</b></span>, <span style=\"color:#51cf66\"><b>linezolid</b></span>, <span style=\"color:#51cf66\"><b>clindamycin</b></span>, <span style=\"color:#51cf66\"><b>cefpodoxime</b></span>, <span style=\"color:#51cf66\"><b>cefuroxime axetil</b></span> cho trẻ viêm phổi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Levofloxacin</b></span>: <span style=\"color:#ffd43b\"><b>6 tháng – < 5 tuổi 16–20 mg/kg/ngày chia 2</b></span>; <span style=\"color:#ffd43b\"><b>5–16 tuổi 8–10 mg/kg/ngày 1 lần</b></span> (tối đa 750 mg/ngày).<br>2) <span style=\"color:#51cf66\"><b>Linezolid</b></span>: <span style=\"color:#ffd43b\"><b>< 12 tuổi 30 mg/kg/ngày chia 3</b></span>; <span style=\"color:#ffd43b\"><b>≥ 12 tuổi 20 mg/kg/ngày chia 2</b></span> (tối đa 600 mg/lần).<br>3) <span style=\"color:#51cf66\"><b>Clindamycin</b></span>: <span style=\"color:#ffd43b\"><b>30–40 mg/kg/ngày chia 3–4</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Cefpodoxime</b></span>: <span style=\"color:#ffd43b\"><b>10 mg/kg/ngày chia 2</b></span> (tối đa 400 mg).<br>5) <span style=\"color:#51cf66\"><b>Cefuroxime axetil</b></span>: <span style=\"color:#ffd43b\"><b>30 mg/kg/ngày chia 2</b></span> (tối đa 1 g).<br><br><b>💡 Giải thích của AI:</b><br>Trẻ nhỏ thải trừ levofloxacin và linezolid nhanh hơn người lớn → phải chia nhiều lần hơn (levofloxacin 2 lần dưới 5 tuổi, linezolid 3 lần dưới 12 tuổi). Linezolid uống sinh khả dụng gần 100% nên chuyển uống không cần đổi liều.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều tĩnh mạch",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Liều β-lactam tĩnh mạch]</b></span> Liều <span style=\"color:#51cf66\"><b>ampicillin</b></span> (PIDS và WHO), <span style=\"color:#51cf66\"><b>penicillin G</b></span>, <span style=\"color:#51cf66\"><b>ceftriaxone</b></span> (PIDS, WHO, tối đa), <span style=\"color:#51cf66\"><b>cefotaxime</b></span>, <span style=\"color:#51cf66\"><b>ampicillin–sulbactam</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ampicillin</b></span>: <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4</b></span> (PIDS); WHO <span style=\"color:#ffd43b\"><b>50 mg/kg mỗi 6 giờ</b></span>; phế cầu kháng cao đến <span style=\"color:#ffd43b\"><b>300–400 mg/kg/ngày</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Penicillin G</b></span>: <span style=\"color:#ffd43b\"><b>200.000–250.000 UI/kg/ngày chia 4–6</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Ceftriaxone</b></span>: <span style=\"color:#ffd43b\"><b>50–100 mg/kg/ngày chia 1–2</b></span> (PIDS); WHO <span style=\"color:#ffd43b\"><b>80 mg/kg/ngày</b></span>; tối đa <span style=\"color:#ffd43b\"><b>2 g/ngày</b></span> (viêm màng não 4 g).<br>4) <span style=\"color:#51cf66\"><b>Cefotaxime</b></span>: <span style=\"color:#ffd43b\"><b>150 mg/kg/ngày chia 3</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Ampicillin–sulbactam</b></span>: ampicillin <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>β-lactam diệt khuẩn phụ thuộc thời gian trên MIC, nên ampicillin, penicillin, cefotaxime (bán thải ngắn) phải chia nhiều lần; ceftriaxone bán thải dài nên 1–2 lần/ngày đủ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều tĩnh mạch",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Liều thuốc tĩnh mạch khác]</b></span> Liều <span style=\"color:#51cf66\"><b>gentamicin</b></span> (WHO), <span style=\"color:#51cf66\"><b>vancomycin</b></span> (và cách theo dõi), <span style=\"color:#51cf66\"><b>clindamycin</b></span> TM, <span style=\"color:#51cf66\"><b>azithromycin</b></span> TM?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Gentamicin</b></span>: <span style=\"color:#ffd43b\"><b>7,5 mg/kg 1 lần/ngày</b></span> — theo dõi thận, thính lực.<br>2) <span style=\"color:#51cf66\"><b>Vancomycin</b></span>: <span style=\"color:#ffd43b\"><b>40–60 mg/kg/ngày chia 3–4</b></span>; theo dõi theo <span style=\"color:#ffd43b\"><b>AUC 400–600</b></span> (đồng thuận 2020) hoặc nồng độ đáy.<br>3) <span style=\"color:#51cf66\"><b>Clindamycin</b></span>: <span style=\"color:#ffd43b\"><b>40 mg/kg/ngày chia 3–4</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Azithromycin</b></span>: <span style=\"color:#ffd43b\"><b>10 mg/kg/ngày × 2 ngày</b></span> rồi chuyển uống.<br><br><b>💡 Giải thích của AI:</b><br>Đồng thuận vancomycin 2020 (ASHP/IDSA/PIDS) chuyển từ nhắm nồng độ đáy 15–20 sang AUC 400–600 vì đạt hiệu quả tương đương mà ít độc thận hơn. Nơi chưa tính được AUC vẫn dùng nồng độ đáy.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu",
+        "Vancomycin"
+      ]
+    },
+    {
+      "id": "PED69-S7-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Oseltamivir",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Liều oseltamivir – CDC]</b></span> Liều oseltamivir điều trị cho trẻ <span style=\"color:#ffd43b\"><b>< 1 tuổi</b></span> và trẻ <span style=\"color:#ffd43b\"><b>≥ 1 tuổi</b></span> theo cân nặng, số lần, thời gian?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>< 1 tuổi</b></span>: <span style=\"color:#51cf66\"><b>3 mg/kg/lần × 2 lần/ngày</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>≥ 1 tuổi</b></span> theo cân nặng (mỗi liều, 2 lần/ngày): <span style=\"color:#ffd43b\"><b>≤ 15 kg 30 mg</b></span>; <span style=\"color:#ffd43b\"><b>15–23 kg 45 mg</b></span>; <span style=\"color:#ffd43b\"><b>23–40 kg 60 mg</b></span>; <span style=\"color:#ffd43b\"><b>> 40 kg 75 mg</b></span>.<br>3) Thời gian: <span style=\"color:#ffd43b\"><b>5 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bậc cân nặng 15 – 23 – 40 kg là mốc chuyển liều; mẹo nhớ “30 – 45 – 60 – 75” tăng đều 15 mg. Dự phòng sau phơi nhiễm dùng cùng liều nhưng 1 lần/ngày.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu",
+        "Cum"
+      ]
+    },
+    {
+      "id": "PED69-S7-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Levofloxacin",
+      "tier": 2,
+      "text": "Levofloxacin cho trẻ 6 tháng đến dưới 5 tuổi: {{c1::<span style=\"color:#ffd43b\"><b>16–20 mg/kg/ngày chia 2</b></span>}}; trẻ 5–16 tuổi: {{c2::<span style=\"color:#ffd43b\"><b>8–10 mg/kg/ngày 1 lần</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Linezolid",
+      "tier": 2,
+      "text": "Linezolid cho trẻ dưới 12 tuổi: {{c1::<span style=\"color:#ffd43b\"><b>30 mg/kg/ngày chia 3</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Gentamicin",
+      "tier": 2,
+      "text": "WHO: gentamicin phối hợp ampicillin cho viêm phổi nặng liều {{c1::<span style=\"color:#ffd43b\"><b>7,5 mg/kg 1 lần/ngày</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S7-C4",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Vancomycin",
+      "tier": 2,
+      "text": "Theo đồng thuận 2020, vancomycin được chỉnh liều theo mục tiêu {{c1::<span style=\"color:#ffd43b\"><b>AUC 400–600</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Vancomycin"
+      ]
+    },
+    {
+      "id": "PED69-S7-C5",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S7",
+      "category": "Amoxicillin",
+      "tier": 2,
+      "text": "Amoxicillin liều cao cho viêm phổi theo PIDS: 90 mg/kg/ngày chia 2, tối đa {{c1::<span style=\"color:#ffd43b\"><b>4 g/ngày</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Lieu"
+      ]
+    },
+    {
+      "id": "PED69-S8-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Thời gian – bằng chứng",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[SCOUT-CAP]</b></span> Thử nghiệm SCOUT-CAP (JAMA Pediatr 2022) so sánh gì, trên đối tượng nào, kết quả và điểm mới so với CAP-IT, SAFER?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) So sánh: kháng sinh <span style=\"color:#ffd43b\"><b>5 ngày</b></span> vs <span style=\"color:#ffd43b\"><b>10 ngày</b></span>.<br>2) Đối tượng: trẻ <span style=\"color:#ffd43b\"><b>6–71 tháng</b></span> viêm phổi điều trị ngoại trú, đã cải thiện sau những ngày đầu.<br>3) Kết quả: <span style=\"color:#51cf66\"><b>5 ngày tốt hơn</b></span> theo thang tổng hợp lợi – hại (DOOR/RADAR), <span style=\"color:#51cf66\"><b>ít gen kháng thuốc</b></span> ở hệ vi khuẩn hầu họng.<br>4) Điểm mới: không chỉ “không thua” mà <span style=\"color:#51cf66\"><b>có lợi hơn</b></span> khi rút ngắn.<br><br><b>💡 Giải thích của AI:</b><br>CAP-IT chứng minh 3 ngày không thua 7 ngày, SAFER chứng minh 5 ngày không thua 10 ngày; SCOUT-CAP thêm bằng chứng rằng kéo dài gây hại (tác dụng phụ, chọn lọc kháng thuốc) mà không thêm lợi.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Thời gian",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Thoi-gian",
+        "SCOUT-CAP"
+      ],
+      "asks": [
+        "So sánh",
+        "Đối tượng",
+        "Kết quả",
+        "Điểm mới"
+      ]
+    },
+    {
+      "id": "PED69-S8-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Thời gian",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Thời gian kháng sinh]</b></span> Thời gian kháng sinh cho: viêm phổi ngoại trú không biến chứng, nội trú không biến chứng, Mycoplasma, tràn mủ màng phổi, viêm phổi hoại tử/áp xe/tụ cầu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngoại trú không biến chứng: <span style=\"color:#ffd43b\"><b>5 ngày</b></span> (hoặc <span style=\"color:#ffd43b\"><b>3 ngày</b></span> theo CAP-IT; WHO 3 ngày thở nhanh / 5 ngày rút lõm).<br>2) Nội trú không biến chứng: tổng thường <span style=\"color:#ffd43b\"><b>5–7 ngày</b></span>, chuyển uống sớm.<br>3) Mycoplasma: azithromycin <span style=\"color:#ffd43b\"><b>5 ngày</b></span>; clarithromycin/doxycycline <span style=\"color:#ffd43b\"><b>7–14 ngày</b></span>.<br>4) Tràn mủ màng phổi: tổng <span style=\"color:#ffd43b\"><b>2–4 tuần</b></span>.<br>5) Hoại tử, áp xe, tụ cầu: thường <span style=\"color:#ffd43b\"><b>≥ 2–4 tuần</b></span>, theo đáp ứng.<br><br><b>💡 Giải thích của AI:</b><br>Bằng chứng mạnh nhất là ở trẻ ngoại trú; thời gian nội trú 5–7 ngày là ngoại suy hợp lý. Biến chứng có mủ cần lâu hơn vì kháng sinh thấm kém vào ổ mủ — dẫn lưu tốt mới rút ngắn được.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Thời gian · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Thoi-gian"
+      ]
+    },
+    {
+      "id": "PED69-S8-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Chuyển uống",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Chuyển tĩnh mạch sang uống]</b></span> Tiêu chí chuyển kháng sinh tĩnh mạch sang đường uống và cách chọn thuốc uống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hết sốt hoặc cải thiện rõ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Giảm thở nhanh</b></span>, giảm công thở.<br>3) <span style=\"color:#51cf66\"><b>Uống được</b></span>, không nôn.<br>4) <span style=\"color:#51cf66\"><b>Không có biến chứng cần thủ thuật</b></span> đang xử trí.<br>5) Thuốc uống <span style=\"color:#51cf66\"><b>cùng phổ</b></span> (thường amoxicillin liều cao; theo kết quả cấy nếu có).<br><br><b>💡 Giải thích của AI:</b><br>Không cần chờ hết sốt hoàn toàn hay CRP về bình thường; chuyển uống sớm giảm đặt lại đường truyền, nhiễm trùng catheter và rút ngắn nằm viện.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Chuyển uống",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Chuyen-uong"
+      ]
+    },
+    {
+      "id": "PED69-S8-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Ra viện",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tiêu chuẩn ra viện – PIDS]</b></span> Kể các tiêu chuẩn cho trẻ viêm phổi ra viện theo PIDS/IDSA.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cải thiện chung</b></span> (hoạt động, ăn, giảm sốt) ≥ <span style=\"color:#ffd43b\"><b>12–24 giờ</b></span>.<br>2) <span style=\"color:#51cf66\"><b>SpO₂ > 90% khí trời</b></span> ≥ <span style=\"color:#ffd43b\"><b>12–24 giờ</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Tri giác bình thường</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Không tăng công thở</b></span>, nhịp thở cải thiện.<br>5) <span style=\"color:#51cf66\"><b>Uống được thuốc và dịch</b></span>.<br>6) Nếu có dẫn lưu: <span style=\"color:#51cf66\"><b>đã rút</b></span> ≥ <span style=\"color:#ffd43b\"><b>12–24 giờ</b></span> không xấu đi.<br>7) <span style=\"color:#51cf66\"><b>Gia đình đủ khả năng theo dõi</b></span>, tái khám được.<br><br><b>💡 Giải thích của AI:</b><br>Kết quả cấy máu đang chờ không phải lý do giữ trẻ khi đủ các tiêu chí trên và theo dõi được.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Ra viện",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Ra-vien"
+      ]
+    },
+    {
+      "id": "PED69-S8-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S8",
+      "category": "Hỗ trợ",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Điều trị hỗ trợ]</b></span> Ngưỡng cho oxy (WHO, BTS), cách truyền dịch, và những biện pháp <span style=\"color:#ff6b6b\"><b>không nên</b></span> dùng trong viêm phổi trẻ em?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Oxy</b></span> khi <span style=\"color:#ffd43b\"><b>SpO₂ < 90%</b></span> (WHO) / <span style=\"color:#ffd43b\"><b>< 92%</b></span> (BTS); nâng bậc HFNC/CPAP khi suy hô hấp tiến triển.<br>2) <span style=\"color:#51cf66\"><b>Dịch</b></span>: ưu tiên uống; nếu truyền → <span style=\"color:#51cf66\"><b>dịch đẳng trương</b></span>, khoảng <span style=\"color:#ffd43b\"><b>80% nhu cầu cơ bản</b></span>, theo dõi natri.<br>3) <span style=\"color:#ff6b6b\"><b>Không</b></span>: vật lý trị liệu hô hấp thường quy (BTS); <span style=\"color:#ff6b6b\"><b>không</b></span> thuốc giảm ho, long đờm cho trẻ nhỏ.<br>4) <span style=\"color:#51cf66\"><b>Hạ sốt, giảm đau</b></span> (đau ngực màng phổi): paracetamol / ibuprofen.<br><br><b>💡 Giải thích của AI:</b><br>Hạn chế dịch và dùng dịch đẳng trương vì nguy cơ SIADH gây hạ natri, co giật. Vỗ rung không rút ngắn bệnh ở viêm phổi cấp và làm trẻ mệt thêm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 8. Hỗ trợ",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Ho-tro"
+      ]
+    },
+    {
+      "id": "PED69-S8-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "SCOUT-CAP",
+      "tier": 2,
+      "text": "SCOUT-CAP (2022): ở trẻ 6–71 tháng viêm phổi ngoại trú, kháng sinh {{c1::<span style=\"color:#ffd43b\"><b>5 ngày</b></span>}} tốt hơn 10 ngày và ít gen kháng thuốc hơn.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Thời gian",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "SCOUT-CAP"
+      ]
+    },
+    {
+      "id": "PED69-S8-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "Ra viện",
+      "tier": 2,
+      "text": "Tiêu chuẩn ra viện PIDS: SpO₂ {{c1::<span style=\"color:#ffd43b\"><b>> 90% khí trời</b></span>}} duy trì ít nhất {{c2::<span style=\"color:#ffd43b\"><b>12–24 giờ</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Ra viện",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Ra-vien"
+      ]
+    },
+    {
+      "id": "PED69-S8-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S8",
+      "category": "Tràn mủ",
+      "tier": 2,
+      "text": "Tổng thời gian kháng sinh cho tràn mủ màng phổi ở trẻ em thường là {{c1::<span style=\"color:#ffd43b\"><b>2–4 tuần</b></span>}}.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 7. Thời gian",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Thoi-gian"
+      ]
+    },
+    {
+      "id": "PED69-S9-01",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Thất bại điều trị",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Không đáp ứng 48–72 giờ]</b></span> Kể 4 nhóm lý do trẻ viêm phổi không đáp ứng sau 48–72 giờ và ví dụ mỗi nhóm.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai chẩn đoán</b></span>: virus, hen/khò khè, <span style=\"color:#ff6b6b\"><b>dị vật</b></span>, suy tim/viêm cơ tim, lao, bất thường bẩm sinh (CPAM, phổi biệt lập).<br>2) <span style=\"color:#ff6b6b\"><b>Sai thuốc / liều</b></span>: amoxicillin liều thấp, tác nhân không điển hình (β-lactam vô hiệu), <span style=\"color:#74c0fc\"><b>MRSA</b></span>, Gram âm, <span style=\"color:#74c0fc\"><b>Mycoplasma kháng macrolid</b></span>, nôn – không uống được.<br>3) <span style=\"color:#ff6b6b\"><b>Có biến chứng</b></span>: <span style=\"color:#ff6b6b\"><b>tràn dịch / tràn mủ</b></span>, hoại tử, áp xe, nhiễm khuẩn huyết, ổ di bệnh (viêm màng não, viêm xương).<br>4) <span style=\"color:#ff6b6b\"><b>Cơ địa</b></span>: suy giảm miễn dịch, HIV, xơ nang, rối loạn nuốt/hít tái diễn.<br><br><b>💡 Giải thích của AI:</b><br>Câu hỏi đúng không phải “đổi sang kháng sinh mạnh hơn nào?” mà “vì sao chưa đáp ứng?”. Phần lớn trường hợp là biến chứng tràn dịch hoặc sai tác nhân, không phải kháng sinh “yếu”.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 9. Không đáp ứng",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "That-bai"
+      ]
+    },
+    {
+      "id": "PED69-S9-02",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Thất bại điều trị",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Hành động khi không đáp ứng]</b></span> Khi trẻ viêm phổi không đáp ứng 48–72 giờ, cần làm gì (khám, hình ảnh, xét nghiệm, điều chỉnh thuốc)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Khám lại toàn diện</b></span>.<br>2) <span style=\"color:#51cf66\"><b>X-quang + siêu âm màng phổi</b></span>; <span style=\"color:#51cf66\"><b>CT</b></span> khi nghi hoại tử/áp xe.<br>3) <span style=\"color:#51cf66\"><b>CTM, CRP/PCT, cấy máu</b></span>; <span style=\"color:#51cf66\"><b>PCR Mycoplasma / virus</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Mở rộng phổ theo giả thuyết</b></span>: thêm vancomycin/clindamycin (tụ cầu) hoặc macrolid (không điển hình), hoặc chuyển doxycycline (Mycoplasma kháng macrolid).<br><br><b>💡 Giải thích của AI:</b><br>Mở rộng phổ phải có giả thuyết cụ thể: nâng từ ceftriaxone lên carbapenem không giải quyết tụ cầu MRSA, Mycoplasma hay tràn mủ chưa dẫn lưu.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 9. Không đáp ứng",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "That-bai"
+      ]
+    },
+    {
+      "id": "PED69-S9-03",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Tràn dịch",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tràn dịch cận viêm – phân loại PIDS]</b></span> Phân loại kích thước tràn dịch cận viêm theo PIDS và xử trí mỗi mức?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Nhỏ</b></span>: <span style=\"color:#ffd43b\"><b>< 10 mm</b></span> trên phim nằm nghiêng hoặc <span style=\"color:#ffd43b\"><b>< ¼ nửa ngực</b></span> → <span style=\"color:#51cf66\"><b>kháng sinh, không chọc hút</b></span>.<br>2) <span style=\"color:#ffd43b\"><b>Trung bình</b></span>: <span style=\"color:#ffd43b\"><b>> 10 mm nhưng < ½ nửa ngực</b></span> → <span style=\"color:#51cf66\"><b>dẫn lưu nếu suy hô hấp hoặc dịch là mủ</b></span>.<br>3) <span style=\"color:#ffd43b\"><b>Lớn</b></span>: <span style=\"color:#ffd43b\"><b>≥ ½ nửa ngực</b></span> → <span style=\"color:#51cf66\"><b>dẫn lưu</b></span> (ống ± tiêu sợi huyết, hoặc VATS).<br><br><b>💡 Giải thích của AI:</b><br>Kích thước dịch + tình trạng hô hấp + tính chất dịch (mủ, vách) quyết định dẫn lưu, không phải một con số sinh hóa. Dịch nhỏ đa số tự tiêu khi điều trị kháng sinh đúng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 10.1 Tràn dịch – tràn mủ",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Tran-dich"
+      ]
+    },
+    {
+      "id": "PED69-S9-04",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Tràn mủ",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Tràn mủ màng phổi]</b></span> Tác nhân thường gặp của tràn mủ màng phổi ở trẻ em, so sánh <span style=\"color:#51cf66\"><b>tiêu sợi huyết</b></span> với <span style=\"color:#51cf66\"><b>VATS</b></span>, và kháng sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tác nhân: <span style=\"color:#74c0fc\"><b>phế cầu</b></span> (serotype <span style=\"color:#ffd43b\"><b>1, 3, 19A</b></span>), <span style=\"color:#74c0fc\"><b>tụ cầu vàng</b></span>, <span style=\"color:#74c0fc\"><b>liên cầu nhóm A</b></span>.<br>2) Tiêu sợi huyết vs VATS: <span style=\"color:#51cf66\"><b>urokinase qua ống dẫn lưu</b></span> và <span style=\"color:#51cf66\"><b>VATS</b></span> <span style=\"color:#51cf66\"><b>hiệu quả tương đương</b></span> trong tràn mủ có vách — chọn theo nguồn lực.<br>3) Kháng sinh: <span style=\"color:#51cf66\"><b>TM phủ phế cầu ± tụ cầu</b></span>, tổng <span style=\"color:#ffd43b\"><b>2–4 tuần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Serotype 3 và 19A vẫn gây tràn mủ dù đã có PCV vì vắc xin bảo vệ kém (serotype 3) hoặc thay thế serotype. Tiêu sợi huyết phá vách fibrin giúp dẫn lưu thông — tránh được phẫu thuật ở đa số trẻ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 10.1 Tràn dịch – tràn mủ",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Tran-mu"
+      ],
+      "asks": [
+        "Tác nhân",
+        "Tiêu sợi huyết",
+        "Kháng sinh"
+      ]
+    },
+    {
+      "id": "PED69-S9-05",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Biến chứng khác",
+      "tier": 2,
+      "front": "<span style=\"color:#74c0fc\"><b>[Biến chứng khác]</b></span> Kể các biến chứng khác của viêm phổi trẻ em (tại phổi, toàn thân) và lưu ý đặc biệt với <span style=\"color:#74c0fc\"><b>HUS do phế cầu</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm phổi hoại tử / áp xe</b></span>: phế cầu, tụ cầu (PVL) — thường điều trị nội khoa kéo dài, tránh dẫn lưu áp xe nếu không cần.<br>2) <span style=\"color:#ff6b6b\"><b>Tràn khí màng phổi, rò phế quản – màng phổi</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>HUS do phế cầu</b></span>: thiếu máu tan máu, giảm tiểu cầu, suy thận — <span style=\"color:#ff6b6b\"><b>tránh truyền huyết tương</b></span> (kháng nguyên T bộc lộ).<br>4) <span style=\"color:#ff6b6b\"><b>SIADH – hạ natri</b></span>; <span style=\"color:#ff6b6b\"><b>nhiễm khuẩn huyết, sốc</b></span>; <span style=\"color:#ff6b6b\"><b>viêm màng não</b></span>.<br>5) Theo tác nhân: Mycoplasma (tạo khuôn, huyết khối, MIRM/SJS, viêm não); Adenovirus (<span style=\"color:#ff6b6b\"><b>viêm tiểu phế quản tắc nghẽn – BO</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Neuraminidase của phế cầu cắt acid sialic, bộc lộ kháng nguyên T trên hồng cầu, tiểu cầu, nội mô thận; huyết tương người lớn có sẵn kháng thể kháng T nên truyền vào làm tan máu nặng thêm.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 10.2 Biến chứng khác",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Bien-chung",
+        "HUS"
+      ]
+    },
+    {
+      "id": "PED69-S9-06",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Phòng bệnh",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Phòng bệnh]</b></span> Kể các biện pháp phòng viêm phổi trẻ em: vắc xin, phòng RSV, và biện pháp chung.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Vắc xin</b></span>: <span style=\"color:#51cf66\"><b>PCV</b></span>, <span style=\"color:#51cf66\"><b>Hib</b></span>, <span style=\"color:#51cf66\"><b>ho gà</b></span>, <span style=\"color:#51cf66\"><b>sởi</b></span>, <span style=\"color:#51cf66\"><b>cúm hằng năm</b></span> từ <span style=\"color:#ffd43b\"><b>6 tháng</b></span>.<br>2) <span style=\"color:#51cf66\"><b>RSV</b></span>: <span style=\"color:#51cf66\"><b>nirsevimab</b></span> 1 liều cho nhũ nhi trong mùa RSV đầu tiên, hoặc <span style=\"color:#51cf66\"><b>vắc xin RSV cho mẹ</b></span> lúc <span style=\"color:#ffd43b\"><b>32–36 tuần</b></span> thai.<br>3) Chung: <span style=\"color:#51cf66\"><b>bú mẹ hoàn toàn 6 tháng</b></span>, <span style=\"color:#ff6b6b\"><b>tránh khói thuốc, khói bếp</b></span>, rửa tay, dinh dưỡng, kẽm, vitamin A theo chương trình, <span style=\"color:#51cf66\"><b>dự phòng cotrimoxazol</b></span> cho trẻ phơi nhiễm/nhiễm HIV.<br><br><b>💡 Giải thích của AI:</b><br>Sởi và ho gà là hai bệnh vắc xin phòng được nhưng gây viêm phổi tử vong cao ở trẻ nhỏ; trong các thử nghiệm, nirsevimab giảm phần lớn (khoảng 60–80%) số nhập viện do RSV.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 11. Phòng bệnh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED69-S9-07",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Bẫy",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy chẩn đoán căn nguyên]</b></span> Kể 4 bẫy về xét nghiệm căn nguyên và cách làm đúng tương ứng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Dùng CRP/PCT đơn độc quyết định kháng sinh</b></span> → <span style=\"color:#51cf66\"><b>kết hợp lâm sàng, tuổi, X-quang; biomarker chỉ hỗ trợ</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Làm kháng nguyên phế cầu niệu</b></span> → <span style=\"color:#51cf66\"><b>không làm — dương tính giả do mang trùng</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Kết luận Mycoplasma vì IgM dương một lần</b></span> → <span style=\"color:#51cf66\"><b>ưu tiên PCR</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Chụp X-quang kiểm tra cho mọi trẻ</b></span> → <span style=\"color:#51cf66\"><b>chỉ khi tái diễn, xẹp thùy, viêm phổi tròn, xấu đi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả bốn bẫy đều dẫn đến kê kháng sinh sai (thừa hoặc sai thuốc) dựa trên một xét nghiệm có giá trị dự đoán kém ở trẻ em.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 12. Bẫy",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Bay"
+      ]
+    },
+    {
+      "id": "PED69-S9-08",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Bẫy",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>[Bẫy lựa chọn kháng sinh]</b></span> Kể 4 bẫy về lựa chọn và thời gian kháng sinh, kèm cách làm đúng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Macrolid đơn độc cho viêm phổi nghi phế cầu</b></span> → <span style=\"color:#51cf66\"><b>β-lactam</b></span> (phế cầu kháng macrolid rất cao ở châu Á).<br>2) <span style=\"color:#ff6b6b\"><b>Đổi kháng sinh ngày 2 vì còn sốt</b></span> → <span style=\"color:#51cf66\"><b>đợi đủ 48–72 giờ</b></span> nếu không xấu đi.<br>3) <span style=\"color:#ff6b6b\"><b>Tăng bậc cephalosporin khi Mycoplasma không đáp ứng</b></span> → <span style=\"color:#51cf66\"><b>chuyển doxycycline/fluoroquinolon, tìm biến chứng</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Kéo dài 10–14 ngày cho viêm phổi không biến chứng</b></span> → <span style=\"color:#51cf66\"><b>5 ngày (hoặc 3 ngày)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sốt giảm dần trong 2–3 ngày là diễn tiến bình thường của viêm phổi vi khuẩn được điều trị đúng; đổi thuốc quá sớm làm mất khả năng đánh giá thuốc nào hiệu quả.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 12. Bẫy",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Bay"
+      ]
+    },
+    {
+      "id": "PED69-S9-C1",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "Tràn dịch",
+      "tier": 2,
+      "text": "Theo PIDS, tràn dịch cận viêm lớn (≥ {{c1::<span style=\"color:#ffd43b\"><b>½ nửa ngực</b></span>}}) cần dẫn lưu.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 10.1 Tràn dịch – tràn mủ",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Tran-dich"
+      ]
+    },
+    {
+      "id": "PED69-S9-C2",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "HUS",
+      "tier": 2,
+      "text": "Trong HUS do phế cầu cần tránh truyền {{c1::<span style=\"color:#ff6b6b\"><b>huyết tương</b></span>}} vì kháng nguyên T đã bộc lộ.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 10.2 Biến chứng khác",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "HUS"
+      ]
+    },
+    {
+      "id": "PED69-S9-C3",
+      "track": "ebm",
+      "badge": "📘 CHUYÊN ĐỀ EBM · VIÊM PHỔI",
+      "badge_class": "badge-ebm",
+      "type": "cloze",
+      "section": "S9",
+      "category": "Phòng bệnh",
+      "tier": 2,
+      "text": "Phòng RSV cho nhũ nhi bằng kháng thể đơn dòng {{c1::<span style=\"color:#51cf66\"><b>nirsevimab</b></span>}} 1 liều trong mùa RSV đầu tiên.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 11. Phòng bệnh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Cloze-phu",
+        "Phong-benh"
+      ]
+    },
+    {
+      "id": "PED69-A-01",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S5",
+      "category": "Chọn kháng sinh kinh nghiệm",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Chọn kháng sinh kinh nghiệm cho trẻ viêm phổi theo tình huống</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Sơ sinh</b></span> → <span style=\"color:#51cf66\"><b>ampicillin + gentamicin</b></span> (± cefotaxime).<br>2) <span style=\"color:#ffd43b\"><b>1–3 tháng</b></span>, không sốt, ho từng tiếng → <span style=\"color:#74c0fc\"><b>Chlamydia</b></span>: <span style=\"color:#51cf66\"><b>azithromycin 20 mg/kg × 3 ngày</b></span>.<br>3) Ngoại trú, &gt; 3 tháng → <span style=\"color:#51cf66\"><b>amoxicillin 90 mg/kg/ngày chia 2 × 5 ngày</b></span>; bệnh cảnh không điển hình (≥ 5 tuổi) → <span style=\"color:#51cf66\"><b>azithromycin</b></span>.<br>4) Nội trú → <span style=\"color:#51cf66\"><b>ampicillin</b></span> (tiêm chủng đủ) hoặc <span style=\"color:#51cf66\"><b>ceftriaxone/cefotaxime</b></span> (chưa đủ, kháng cao, nặng); ± <span style=\"color:#51cf66\"><b>macrolid</b></span> nếu nghi không điển hình.<br>5) Nghi <span style=\"color:#74c0fc\"><b>tụ cầu</b></span> (sau cúm/thủy đậu, bóng khí, hoại tử) → <span style=\"color:#51cf66\"><b>+ vancomycin</b></span> (hoặc clindamycin).<br>6) <span style=\"color:#74c0fc\"><b>Hít</b></span> → <span style=\"color:#51cf66\"><b>ampicillin–sulbactam / amoxicillin–clavulanat</b></span>; <span style=\"color:#74c0fc\"><b>cúm</b></span> → <span style=\"color:#51cf66\"><b>+ oseltamivir</b></span>; <span style=\"color:#74c0fc\"><b>HIV nhũ nhi</b></span> → <span style=\"color:#51cf66\"><b>+ cotrimoxazol</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đọc từ trên xuống: tuổi → nơi điều trị → bối cảnh đặc biệt. Mỗi bước chỉ thêm thuốc khi có giả thuyết tác nhân cụ thể.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5. Lựa chọn kháng sinh",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lua-chon",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED69-A-02",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều uống bỏ túi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Bảng liều kháng sinh đường uống bỏ túi</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Amoxicillin</b></span> <span style=\"color:#ffd43b\"><b>90 mg/kg/ngày chia 2</b></span> (tối đa 4 g); WHO 40 mg/kg/lần × 2.<br>2) <span style=\"color:#51cf66\"><b>Amoxicillin–clavulanat</b></span> amoxicillin <span style=\"color:#ffd43b\"><b>90 mg/kg/ngày chia 2</b></span>, clavulanat ≤ 10 mg/kg/ngày.<br>3) <span style=\"color:#51cf66\"><b>Azithromycin</b></span> <span style=\"color:#ffd43b\"><b>10 → 5 mg/kg × 5 ngày</b></span>; Chlamydia <span style=\"color:#ffd43b\"><b>20 mg/kg × 3 ngày</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Clarithromycin</b></span> <span style=\"color:#ffd43b\"><b>15 mg/kg/ngày chia 2</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Doxycycline</b></span> <span style=\"color:#ffd43b\"><b>2–4 mg/kg/ngày chia 2</b></span> (tối đa 200 mg).<br>6) <span style=\"color:#51cf66\"><b>Levofloxacin</b></span> <span style=\"color:#ffd43b\"><b>16–20 mg/kg/ngày chia 2</b></span> (< 5 tuổi) / <span style=\"color:#ffd43b\"><b>8–10 mg/kg 1 lần</b></span> (5–16 tuổi).<br>7) <span style=\"color:#51cf66\"><b>Linezolid</b></span> <span style=\"color:#ffd43b\"><b>30 mg/kg/ngày chia 3</b></span> (< 12 tuổi).<br>8) <span style=\"color:#51cf66\"><b>Oseltamivir</b></span> <span style=\"color:#ffd43b\"><b>30 – 45 – 60 – 75 mg × 2/ngày</b></span> theo bậc 15 – 23 – 40 kg; < 1 tuổi 3 mg/kg × 2.<br><br><b>💡 Giải thích của AI:</b><br>Luôn kiểm tra liều tối đa người lớn sau khi nhân mg/kg — trẻ lớn, nặng cân dễ vượt trần.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED69-A-03",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S7",
+      "category": "Liều tĩnh mạch bỏ túi",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Bảng liều kháng sinh tĩnh mạch bỏ túi</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Ampicillin</b></span> <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4</b></span> (WHO 50 mg/kg mỗi 6 giờ).<br>2) <span style=\"color:#51cf66\"><b>Gentamicin</b></span> <span style=\"color:#ffd43b\"><b>7,5 mg/kg 1 lần/ngày</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Ceftriaxone</b></span> <span style=\"color:#ffd43b\"><b>50–100 mg/kg/ngày</b></span> (WHO 80), tối đa <span style=\"color:#ffd43b\"><b>2 g/ngày</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Cefotaxime</b></span> <span style=\"color:#ffd43b\"><b>150 mg/kg/ngày chia 3</b></span>.<br>5) <span style=\"color:#51cf66\"><b>Vancomycin</b></span> <span style=\"color:#ffd43b\"><b>40–60 mg/kg/ngày chia 3–4</b></span>, AUC 400–600.<br>6) <span style=\"color:#51cf66\"><b>Clindamycin</b></span> <span style=\"color:#ffd43b\"><b>40 mg/kg/ngày chia 3–4</b></span>.<br>7) <span style=\"color:#51cf66\"><b>Ampicillin–sulbactam</b></span> ampicillin <span style=\"color:#ffd43b\"><b>150–200 mg/kg/ngày chia 4</b></span>.<br>8) <span style=\"color:#51cf66\"><b>Cotrimoxazol</b></span> (PCP) TMP <span style=\"color:#ffd43b\"><b>15–20 mg/kg/ngày chia 3–4</b></span> × 21 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc bán thải ngắn (ampicillin, cefotaxime, vancomycin, clindamycin) chia nhiều lần; ceftriaxone và gentamicin (diệt khuẩn phụ thuộc nồng độ) dùng 1 lần/ngày.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 6. Bảng liều",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Lieu",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED69-A-04",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S9",
+      "category": "Không đáp ứng 48–72 giờ",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Trẻ viêm phổi không đáp ứng 48–72 giờ: lưu đồ</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Kiểm tra lại</b></span>: đúng chẩn đoán? (dị vật, hen, tim, lao) — đúng liều? uống được?<br>2) <span style=\"color:#51cf66\"><b>Siêu âm màng phổi + X-quang</b></span>: có dịch → phân loại PIDS, <span style=\"color:#51cf66\"><b>dẫn lưu nếu lớn / mủ / suy hô hấp</b></span>.<br>3) Hình ảnh <span style=\"color:#ff6b6b\"><b>hoại tử, bóng khí</b></span> hoặc bối cảnh sau cúm → <span style=\"color:#51cf66\"><b>thêm vancomycin/clindamycin</b></span>.<br>4) Trẻ đi học, ho kéo dài, thâm nhiễm → <span style=\"color:#51cf66\"><b>PCR Mycoplasma</b></span>; đang dùng macrolid mà không đáp ứng → <span style=\"color:#51cf66\"><b>doxycycline / fluoroquinolon</b></span>.<br>5) Kéo dài &gt; 2–3 tuần, tiếp xúc lao, sụt cân → <span style=\"color:#51cf66\"><b>tìm lao</b></span>; viêm phổi nặng/tái diễn → <span style=\"color:#51cf66\"><b>HIV, miễn dịch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Không đổi kháng sinh “mù”. Mỗi nhánh của lưu đồ trả lời một câu hỏi: sai bệnh, sai tác nhân, hay có biến chứng.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 9. Không đáp ứng",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "That-bai",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED69-A-05",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S4",
+      "category": "Xét nghiệm căn nguyên",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Xét nghiệm căn nguyên: 3 NÊN & 3 KHÔNG</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>NÊN</b></span>: <span style=\"color:#51cf66\"><b>cấy máu</b></span> cho trẻ nhập viện viêm phổi trung bình – nặng / có biến chứng.<br>2) <span style=\"color:#51cf66\"><b>NÊN</b></span>: <span style=\"color:#51cf66\"><b>PCR Mycoplasma</b></span> khi nghi Mycoplasma ở trẻ nhập viện hoặc không đáp ứng β-lactam.<br>3) <span style=\"color:#51cf66\"><b>NÊN</b></span>: gửi <span style=\"color:#51cf66\"><b>Gram, cấy, PCR phế cầu</b></span> mọi dịch màng phổi chọc/dẫn lưu.<br>4) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: cấy máu, CRP/PCT thường quy cho trẻ ngoại trú đã tiêm chủng đủ.<br>5) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: làm <span style=\"color:#ff6b6b\"><b>kháng nguyên phế cầu niệu</b></span> ở trẻ em.<br>6) <span style=\"color:#ff6b6b\"><b>KHÔNG</b></span>: dựa vào <span style=\"color:#ff6b6b\"><b>IgM Mycoplasma một lần</b></span> hoặc <span style=\"color:#ff6b6b\"><b>CRP/PCT đơn độc</b></span> để quyết định kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm chỉ đáng làm khi kết quả có thể thay đổi xử trí; ở trẻ ngoại trú nhẹ hầu như không xét nghiệm nào làm được điều đó.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 4.3 Xét nghiệm căn nguyên",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Xet-nghiem",
+        "Thuat-toan"
+      ]
+    },
+    {
+      "id": "PED69-A-06",
+      "track": "ebm",
+      "type": "basic",
+      "section": "S6",
+      "category": "Mycoplasma không đáp ứng",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color:#74c0fc\"><b>Mycoplasma nghi kháng macrolid: cây quyết định</b></span>",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đang macrolid <span style=\"color:#ffd43b\"><b>48–72 giờ</b></span>, <span style=\"color:#51cf66\"><b>cải thiện</b></span> → <span style=\"color:#51cf66\"><b>tiếp tục</b></span>, không đổi vì sợ kháng.<br>2) <span style=\"color:#ff6b6b\"><b>Sốt kéo dài / xấu đi</b></span> → <span style=\"color:#51cf66\"><b>PCR đột biến 23S (nếu có)</b></span>, X-quang/siêu âm tìm biến chứng.<br>3) Chuyển thuốc: <span style=\"color:#ffd43b\"><b>≥ 8 tuổi</b></span> <span style=\"color:#51cf66\"><b>doxycycline 2–4 mg/kg/ngày</b></span>; <span style=\"color:#ffd43b\"><b>< 8 tuổi</b></span> <span style=\"color:#51cf66\"><b>doxycycline đợt ngắn</b></span> hoặc <span style=\"color:#51cf66\"><b>levofloxacin</b></span> (ngoài chỉ định, đồng thuận).<br>4) ≥ <span style=\"color:#ffd43b\"><b>7 ngày</b></span> vẫn tiến triển + <span style=\"color:#ff6b6b\"><b>LDH, CRP, ferritin, D-dimer cao</b></span> → <span style=\"color:#74c0fc\"><b>RMPP</b></span>: cân nhắc <span style=\"color:#51cf66\"><b>methylprednisolon 1–2 mg/kg/ngày</b></span> (Trung Quốc 2023).<br>5) <span style=\"color:#ff6b6b\"><b>Xẹp thùy / nghi khuôn phế quản</b></span> → <span style=\"color:#51cf66\"><b>nội soi phế quản</b></span>; <span style=\"color:#ff6b6b\"><b>D-dimer cao</b></span> → tìm huyết khối.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự: đánh giá đáp ứng → đổi kháng sinh → điều hòa miễn dịch → can thiệp cơ học. Bỏ qua bước 3 mà dùng corticoid ngay là che triệu chứng khi vi khuẩn còn nguyên.",
+      "extra": "📖 Nguồn: Chuyên đề PED-69 Viêm phổi trẻ em – Tổng ôn EBM (WHO 2024; PIDS/IDSA 2011; BTS 2011; EPIC 2015; CAP-IT, SAFER, SCOUT-CAP; guideline Mycoplasma Trung Quốc 2023). Mục: 5.4 Mycoplasma kháng macrolid · ⚠️ Con số/khuyến cáo khác nhau giữa các guideline hoặc ngoài chỉ định; đi thi dùng đúng barem trường, lâm sàng theo phác đồ bệnh viện.",
+      "tags": [
+        "PED-69",
+        "Chuyen-de-EBM",
+        "Viem-phoi",
+        "Mycoplasma",
+        "Thuat-toan"
+      ]
+    }
+  ]
+}
