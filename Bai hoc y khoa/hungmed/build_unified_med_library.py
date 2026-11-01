@@ -36,6 +36,9 @@ PED_DIR = REPO_ROOT / "12_Nhi khoa"
 CURRICULUM_PATH = REPO_ROOT / "_CURRICULUM_NHI_KHOA.md"
 DEFAULT_SAN_KHOA_DIR = Path(r"F:\DL\Giao_trinh_San_khoa_Y_Thai_Binh_2021")
 DEFAULT_HOASINH_DIR = REPO_ROOT / "14_Hoa sinh"
+DEFAULT_CLINICAL_SAN_DIR = REPO_ROOT / "01_San phu khoa"
+DEFAULT_CLINICAL_ART_DIR = REPO_ROOT / "02_Ho tro sinh san ART"
+DEFAULT_CLINICAL_FUS_DIR = REPO_ROOT / "03_Sieu am thai"
 DATA_JS_PATH = BASE_DIR / "data.js"
 CATALOG_JSON_PATH = BASE_DIR / "CATALOG_PED_VIEWER.json"
 CHECKLIST_PATH = BASE_DIR / "checklist.html"
@@ -258,8 +261,328 @@ def scan_hoasinh_files(hoasinh_dir: Path) -> list[dict]:
         })
     return lessons
 
+def docx_to_markdown(docx_path: Path) -> str:
+    try:
+        import docx
+    except ImportError:
+        return ""
+    doc = docx.Document(str(docx_path))
+    lines = []
+    for element in doc.element.body:
+        if element.tag.endswith('p'):
+            p = docx.text.paragraph.Paragraph(element, doc)
+            text = ""
+            for run in p.runs:
+                r_text = run.text
+                if not r_text:
+                    continue
+                if run.bold and run.italic:
+                    r_text = f"***{r_text}***"
+                elif run.bold:
+                    r_text = f"**{r_text}**"
+                elif run.italic:
+                    r_text = f"*{r_text}*"
+                text += r_text
+            text = text.strip()
+            if not text:
+                continue
+            style_name = p.style.name.lower()
+            if "title" in style_name:
+                lines.append(f"# {text}\n")
+            elif "heading 1" in style_name:
+                lines.append(f"## {text}\n")
+            elif "heading 2" in style_name:
+                lines.append(f"### {text}\n")
+            elif "heading 3" in style_name:
+                lines.append(f"#### {text}\n")
+            elif "bullet" in style_name:
+                lines.append(f"- {text}")
+            else:
+                lines.append(f"{text}\n")
+        elif element.tag.endswith('tbl'):
+            table = docx.table.Table(element, doc)
+            if not table.rows:
+                continue
+            table_lines = []
+            header_cells = [cell.text.replace("\n", " ").strip() for cell in table.rows[0].cells]
+            table_lines.append("| " + " | ".join(header_cells) + " |")
+            table_lines.append("| " + " | ".join(["---"] * len(header_cells)) + " |")
+            for row in table.rows[1:]:
+                row_cells = [cell.text.replace("\n", " ").strip() for cell in row.cells]
+                if len(row_cells) < len(header_cells):
+                    row_cells += [""] * (len(header_cells) - len(row_cells))
+                table_lines.append("| " + " | ".join(row_cells[:len(header_cells)]) + " |")
+            lines.append("\n" + "\n".join(table_lines) + "\n")
+    return "\n".join(lines)
 
-def build_payload(san_dir: Path, hoasinh_dir: Path, version: str, generated_at: str) -> dict:
+
+def extract_clinical_title(text: str, fallback: str) -> str:
+    m = re.search(r"^#\s+(.+)$", text, re.MULTILINE)
+    if m:
+        t = m.group(1).strip()
+        t = re.sub(r"^(BÀI HỌC[:\s]*|BÀI GIẢNG[:\s]*|BÀI HỌC Y KHOA[:\s]*|CHUYÊN ĐỀ[:\s]*)", "", t, flags=re.IGNORECASE).strip()
+        t = re.sub(r"\s*[-–—]\s*\d{4}[-/]\d{2}[-/]\d{2}.*$", "", t).strip()
+        return t
+    return fallback
+
+
+def count_clinical_cards(folder: Path) -> int:
+    card_files = [f for f in folder.iterdir() if "card" in f.name.lower() and f.suffix.lower() == ".json"]
+    if card_files:
+        try:
+            d = json.loads(card_files[0].read_text(encoding="utf-8"))
+            cards = d.get("cards", []) if isinstance(d, dict) else d
+            return len(cards)
+        except Exception:
+            pass
+    apkgs = [f for f in folder.iterdir() if f.suffix.lower() == ".apkg"]
+    if apkgs:
+        m = re.search(r"(\d+)\s*cards?", apkgs[0].name, re.IGNORECASE)
+        if m:
+            return int(m.group(1))
+    return 0
+
+
+def pick_best_docx(d: Path) -> Path | None:
+    docxs = [f for f in d.iterdir() if f.suffix.lower() == ".docx"]
+    if not docxs:
+        return None
+    if len(docxs) == 1:
+        return docxs[0]
+    import unicodedata
+    def norm(text: str) -> set:
+        text = unicodedata.normalize('NFD', text.lower())
+        text = ''.join(c for c in text if unicodedata.category(c) != 'Mn').replace('đ', 'd')
+        return {t for t in re.sub(r'[^a-z0-9]+', ' ', text).split() if len(t) >= 3 and t not in {'2026', 'docx', 'bai', 'hoc'}}
+    d_tokens = norm(d.name)
+    scored = []
+    for doc in docxs:
+        score = len(norm(doc.name) & d_tokens)
+        scored.append((score, doc.stat().st_size, doc))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return scored[0][2]
+
+
+def scan_clinical_san(san_dir: Path) -> list[dict]:
+    if not san_dir.exists():
+        return []
+    lessons = []
+    chapter_map = {
+        "01": "Bệnh lý Phụ khoa & Tử cung",
+        "02": "Bệnh lý Phụ khoa & Tử cung",
+        "03": "Sản khoa & Chuyển dạ",
+        "04": "Bệnh lý Phụ khoa & Tử cung",
+        "05": "Sản khoa & Chuyển dạ",
+        "06": "Bệnh lý Phụ khoa & Tử cung",
+        "07_De_chi_huy": "Sản khoa & Chuyển dạ",
+        "07_U_xo": "Bệnh lý Phụ khoa & Tử cung",
+        "22": "Nội tiết Sinh sản & Tránh thai",
+        "33": "Siêu âm Phụ khoa (TVS)",
+        "34": "Siêu âm Phụ khoa (TVS)",
+        "35": "Siêu âm Phụ khoa (TVS)",
+        "36": "Nội tiết Sinh sản & Tránh thai",
+        "37": "Nội tiết Sinh sản & Tránh thai",
+        "38": "Bệnh lý Phụ khoa & Tử cung",
+        "39": "Bệnh lý Phụ khoa & Tử cung",
+    }
+    for d in sorted(san_dir.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        m = re.match(r"^(\d+)", d.name)
+        num_str = m.group(1) if m else "00"
+        if d.name.startswith("07_De_chi_huy"):
+            lid = "OB-07"
+            ch = chapter_map["07_De_chi_huy"]
+        elif d.name.startswith("07_U_xo"):
+            lid = "OB-08"
+            ch = chapter_map["07_U_xo"]
+        else:
+            lid = f"OB-{int(num_str):02d}"
+            ch = chapter_map.get(num_str, "Sản Phụ khoa Lâm sàng")
+        content = ""
+        if d.name == "39_U_xo_tu_cung_ART_Infertility":
+            mfile = d / "U_xo_tu_cung_ART_Infertility_2026-07-12.md"
+            if mfile.exists():
+                content = mfile.read_text(encoding="utf-8", errors="ignore")
+        if not content:
+            mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+            if mds:
+                content = mds[0].read_text(encoding="utf-8", errors="ignore")
+            else:
+                best_doc = pick_best_docx(d)
+                if best_doc:
+                    content = docx_to_markdown(best_doc)
+        if not content.strip():
+            continue
+        fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
+        title = extract_clinical_title(content, fallback)
+        n_cards = count_clinical_cards(d)
+        lessons.append({
+            "id": lid,
+            "specialty": "san",
+            "specialty_name": "Sản Phụ Khoa",
+            "chapter": ch,
+            "folder": d.name,
+            "title": title,
+            "author": "Đỗ Văn Ngọc Hưng",
+            "word_count": len(content.split()),
+            "cards_count": n_cards,
+            "has_cards": n_cards > 0,
+            "content": content,
+            "folder_rel": "",
+        })
+    return lessons
+
+
+def scan_clinical_art(art_dir: Path) -> list[dict]:
+    if not art_dir.exists():
+        return []
+    lessons = []
+    chapter_map = {
+        "01": "Quản lý Thai sau ART",
+        "02": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "03": "Phác đồ Chuyên sâu & Bệnh lý",
+        "04": "Kích thích Buồng trứng (COS) & Trigger",
+        "05": "Kích thích Buồng trứng (COS) & Trigger",
+        "06": "Quản lý Thai sau ART",
+        "07": "Hội chứng Quá kích Buồng trứng (OHSS)",
+        "08": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "09": "Phác đồ Chuyên sâu & Bệnh lý",
+        "10": "Phác đồ Chuyên sâu & Bệnh lý",
+        "11": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "12": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "13": "Phác đồ Chuyên sâu & Bệnh lý",
+        "14": "Kích thích Buồng trứng (COS) & Trigger",
+        "15": "Kích thích Buồng trứng (COS) & Trigger",
+        "16": "Phác đồ Chuyên sâu & Bệnh lý",
+        "17": "Kích thích Buồng trứng (COS) & Trigger",
+        "18": "Kích thích Buồng trứng (COS) & Trigger",
+        "19": "Phác đồ Chuyên sâu & Bệnh lý",
+        "21": "Hội chứng Quá kích Buồng trứng (OHSS)",
+        "22": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "32": "Phác đồ Chuyên sâu & Bệnh lý",
+        "33": "Kích thích Buồng trứng (COS) & Trigger",
+        "41": "Kích thích Buồng trứng (COS) & Trigger",
+        "42": "Vô sinh Nam & Đánh giá Nội tiết",
+        "43": "Vô sinh Nam & Đánh giá Nội tiết",
+        "44": "Vô sinh Nam & Đánh giá Nội tiết",
+        "46": "Phác đồ Chuyên sâu & Bệnh lý",
+    }
+    for d in sorted(art_dir.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        m = re.match(r"^(\d+)", d.name)
+        num_str = m.group(1) if m else "00"
+        lid = f"ART-{int(num_str):02d}"
+        ch = chapter_map.get(num_str, "Hỗ trợ Sinh sản ART")
+        content = ""
+        if d.name == "46_Endometrioma_Adenomyosis_ART_Infertility":
+            mfile = d / "46_Endometrioma_Adenomyosis_ART_Infertility.md"
+            if mfile.exists():
+                content = mfile.read_text(encoding="utf-8", errors="ignore")
+        if not content:
+            mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+            if mds:
+                content = mds[0].read_text(encoding="utf-8", errors="ignore")
+            else:
+                best_doc = pick_best_docx(d)
+                if best_doc:
+                    content = docx_to_markdown(best_doc)
+        if not content.strip():
+            continue
+        fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
+        title = extract_clinical_title(content, fallback)
+        n_cards = count_clinical_cards(d)
+        lessons.append({
+            "id": lid,
+            "specialty": "art",
+            "specialty_name": "Hỗ trợ Sinh sản (ART)",
+            "chapter": ch,
+            "folder": d.name,
+            "title": title,
+            "author": "Đỗ Văn Ngọc Hưng",
+            "word_count": len(content.split()),
+            "cards_count": n_cards,
+            "has_cards": n_cards > 0,
+            "content": content,
+            "folder_rel": "",
+        })
+    return lessons
+
+
+def scan_clinical_fus(fus_dir: Path) -> list[dict]:
+    if not fus_dir.exists():
+        return []
+    lessons = []
+    chapter_map = {
+        "01": "Siêu âm Tim thai (Fetal Echo)",
+        "02": "Khảo sát Hình thái & Giải phẫu thai",
+        "03": "Bánh nhau, Nước ối & Nhiễm trùng thai",
+        "04": "Khảo sát Hình thái & Giải phẫu thai",
+        "05": "Siêu âm Tim thai (Fetal Echo)",
+        "06": "Siêu âm Tim thai (Fetal Echo)",
+        "07": "Hệ Thần kinh thai (Fetal Neurosonography)",
+        "08": "Khảo sát Hình thái & Giải phẫu thai",
+        "09_Cervical": "Sinh trắc, Doppler & Sàng lọc Quý 1",
+        "09_Sinh_trac": "Sinh trắc, Doppler & Sàng lọc Quý 1",
+        "10": "Sinh trắc, Doppler & Sàng lọc Quý 1",
+        "11": "Sinh trắc, Doppler & Sàng lọc Quý 1",
+        "12": "Sinh trắc, Doppler & Sàng lọc Quý 1",
+        "35": "Khảo sát Hình thái & Giải phẫu thai",
+        "36": "Khảo sát Hình thái & Giải phẫu thai",
+        "37": "Khảo sát Hình thái & Giải phẫu thai",
+        "38": "Khảo sát Hình thái & Giải phẫu thai",
+        "39": "Khảo sát Hình thái & Giải phẫu thai",
+        "40": "Bánh nhau, Nước ối & Nhiễm trùng thai",
+        "41": "Khảo sát Hình thái & Giải phẫu thai",
+        "43": "Bánh nhau, Nước ối & Nhiễm trùng thai",
+        "44": "Khảo sát Hình thái & Giải phẫu thai",
+    }
+    for d in sorted(fus_dir.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        m = re.match(r"^(\d+)", d.name)
+        num_str = m.group(1) if m else "00"
+        if d.name.startswith("09_Cervical"):
+            lid = "FUS-09A"
+            ch = chapter_map["09_Cervical"]
+        elif d.name.startswith("09_Sinh_trac"):
+            lid = "FUS-09B"
+            ch = chapter_map["09_Sinh_trac"]
+        else:
+            lid = f"FUS-{int(num_str):02d}"
+            ch = chapter_map.get(num_str, "Siêu âm Thai")
+        content = ""
+        mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+        if mds:
+            content = mds[0].read_text(encoding="utf-8", errors="ignore")
+        else:
+            best_doc = pick_best_docx(d)
+            if best_doc:
+                content = docx_to_markdown(best_doc)
+        if not content.strip():
+            continue
+        fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
+        title = extract_clinical_title(content, fallback)
+        n_cards = count_clinical_cards(d)
+        lessons.append({
+            "id": lid,
+            "specialty": "fus",
+            "specialty_name": "Siêu Âm Thai",
+            "chapter": ch,
+            "folder": d.name,
+            "title": title,
+            "author": "Đỗ Văn Ngọc Hưng",
+            "word_count": len(content.split()),
+            "cards_count": n_cards,
+            "has_cards": n_cards > 0,
+            "content": content,
+            "folder_rel": "",
+        })
+    return lessons
+
+
+def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, version: str, generated_at: str) -> dict:
     curriculum = parse_ped_curriculum()
     discovered = scan_ped_files()
     ped_lessons, curriculum_summary = [], []
@@ -270,13 +593,12 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, version: str, generated_at: 
                                    "cards_count": disc.get("cards_count", 0), "apkg_file": disc.get("apkg_file"),
                                    "folder_rel": disc.get("folder_rel", "")})
         if not (has_ped or has_pedytb):
-            continue  # chỉ đưa lên web bài đã có nội dung
+            continue
         ped_lessons.append({
             **item, "specialty": "ped", "specialty_name": "Nhi Khoa",
             "has_ped": has_ped, "has_pedytb": has_pedytb, "has_cards": disc.get("cards_count", 0) > 0,
             "ped_file": disc.get("ped_file"), "ped_content": disc.get("ped_content", ""),
             "pedytb_file": disc.get("pedytb_file"), "pedytb_content": disc.get("pedytb_content", ""),
-            # chỉ số thẻ — nội dung thẻ nằm trong APKG/cards.v2.json, viewer không đọc (bớt ~3,4 MB cho điện thoại)
             "cards_count": disc.get("cards_count", 0),
             "apkg_file": disc.get("apkg_file"), "html_file": disc.get("html_file"),
             "folder_rel": disc.get("folder_rel", ""),
@@ -285,6 +607,17 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, version: str, generated_at: 
     obgyn_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in obgyn_lessons))
     hoasinh_lessons = scan_hoasinh_files(hoasinh_dir)
     hoasinh_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in hoasinh_lessons))
+    
+    # New clinical specialties
+    san_clinical_lessons = scan_clinical_san(clin_san_dir)
+    san_clinical_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in san_clinical_lessons))
+    art_lessons = scan_clinical_art(clin_art_dir)
+    art_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in art_lessons))
+    fus_lessons = scan_clinical_fus(clin_fus_dir)
+    fus_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in fus_lessons))
+    
+    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons)
+    
     return {
         "metadata": {
             "title": "HungMed · Cẩm Nang Lâm Sàng & Giáo Trình Y Khoa",
@@ -298,19 +631,26 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, version: str, generated_at: 
             "total_cards": sum(lesson["cards_count"] for lesson in ped_lessons),
             "total_obgyn": len(obgyn_lessons),
             "total_hoasinh": len(hoasinh_lessons),
-            "total_all": len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons),
+            "total_san": len(san_clinical_lessons),
+            "total_art": len(art_lessons),
+            "total_fus": len(fus_lessons),
+            "total_all": total_all,
             "blocks": PED_BLOCKS,
             "ped_blocks": PED_BLOCKS,
             "obgyn_chapters": obgyn_chapters,
             "hoasinh_chapters": hoasinh_chapters,
+            "san_chapters": san_clinical_chapters,
+            "art_chapters": art_chapters,
+            "fus_chapters": fus_chapters,
         },
         "curriculum": curriculum_summary,
         "ped": ped_lessons,
         "obgyn": obgyn_lessons,
         "hoasinh": hoasinh_lessons,
+        "san": san_clinical_lessons,
+        "art": art_lessons,
+        "fus": fus_lessons,
     }
-
-
 def write_outputs(payload: dict) -> None:
     version = payload["metadata"]["version"]
     js = ("/* Auto-generated by build_unified_med_library.py — KHÔNG sửa tay */\n"
@@ -343,14 +683,17 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--san-dir", type=Path, default=DEFAULT_SAN_KHOA_DIR, help="thư mục giáo trình Sản khoa (có index.json)")
     ap.add_argument("--hoasinh-dir", type=Path, default=DEFAULT_HOASINH_DIR, help="thư mục Hóa sinh (có index.json)")
+    ap.add_argument("--clin-san-dir", type=Path, default=DEFAULT_CLINICAL_SAN_DIR, help="thư mục Sản phụ khoa lâm sàng")
+    ap.add_argument("--clin-art-dir", type=Path, default=DEFAULT_CLINICAL_ART_DIR, help="thư mục Hỗ trợ sinh sản ART")
+    ap.add_argument("--clin-fus-dir", type=Path, default=DEFAULT_CLINICAL_FUS_DIR, help="thư mục Siêu âm thai")
     args = ap.parse_args(argv)
     now = datetime.now()
-    payload = build_payload(args.san_dir, args.hoasinh_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
+    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
     write_outputs(payload)
     m = payload["metadata"]
     print(f"[OK] data.js v{m['version']} ({DATA_JS_PATH.stat().st_size / 1e6:.2f} MB): "
-          f"Nhi {m['total_ped']} bài ({m['total_ped_standard']} PED chuẩn, {m['total_pedytb']} YTB, {m['total_cards']} thẻ) · "
-          f"Sản {m['total_obgyn']} bài · Hóa sinh {m['total_hoasinh']} bài · giáo trình Nhi {m['total_curriculum']} mục")
+          f"Tổng {m['total_all']} bài (Nhi {m['total_ped']} · Sản YTB {m['total_obgyn']} · Hóa sinh {m['total_hoasinh']} · "
+          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']})")
     return 0
 
 

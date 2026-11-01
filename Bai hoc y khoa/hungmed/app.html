@@ -718,7 +718,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261101_205710"></script>
+<script src="data.js?v=20261101_212130"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -739,7 +739,7 @@
       if (savedFont) applyFontSize(Number(savedFont));
 
       const savedSpec = localStorage.getItem('hungmed_specialty');
-      if (savedSpec === 'ped' || savedSpec === 'obgyn' || savedSpec === 'hoasinh') currentSpecialty = savedSpec;
+      if (savedSpec && ['ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
     } catch(e) {}
 
     // 2. Setup IntersectionObserver cho H1
@@ -801,27 +801,18 @@
 
   function getUnifiedData() {
     if (window.HUNG_MED_DATA) return window.HUNG_MED_DATA;
-    const pedLessons = (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) ? window.PED_LIBRARY_DATA.lessons : [];
-    const obgynLessons = window.SAN_KHOA_DATA || [];
-    const hoasinhLessons = window.HOA_SINH_DATA || (window.HUNG_MED_DATA && window.HUNG_MED_DATA.hoasinh) || [];
     return {
-      metadata: (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.metadata) || { total_ped: pedLessons.length, total_obgyn: obgynLessons.length, total_hoasinh: hoasinhLessons.length },
-      ped: pedLessons,
-      obgyn: obgynLessons,
-      hoasinh: hoasinhLessons
+      metadata: {},
+      ped: (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) || [],
+      obgyn: window.SAN_KHOA_DATA || [],
+      hoasinh: window.HOA_SINH_DATA || [],
+      san: [],
+      art: [],
+      fus: []
     };
   }
 
   function initApp() {
-    const data = getUnifiedData();
-    const pCount = (data.ped || []).length;
-    const oCount = (data.obgyn || []).length;
-
-    document.getElementById('count-ped').textContent = `(${pCount})`;
-    document.getElementById('count-obgyn').textContent = `(${oCount})`;
-    const hsBadge = document.getElementById('count-hoasinh');
-    if (hsBadge) hsBadge.textContent = `(${(data.hoasinh || []).length})`;
-
     // Rule 5.12: Parse URL params
     const urlParams = new URLSearchParams(window.location.search);
     const kParam = urlParams.get('k');
@@ -829,8 +820,11 @@
     const xemParam = urlParams.get('xem');
 
     if (kParam === 'nhi' || kParam === 'ped') currentSpecialty = 'ped';
-    else if (kParam === 'san' || kParam === 'obgyn') currentSpecialty = 'obgyn';
     else if (kParam === 'hoasinh' || kParam === 'hs' || kParam === 'biochem') currentSpecialty = 'hoasinh';
+    else if (kParam === 'san' || kParam === 'ob') currentSpecialty = 'san';
+    else if (kParam === 'art' || kParam === 'ivf') currentSpecialty = 'art';
+    else if (kParam === 'fus' || kParam === 'sieuam' || kParam === 'sieu_am_thai') currentSpecialty = 'fus';
+    else if (kParam === 'obgyn' || kParam === 'ytb') currentSpecialty = 'obgyn';
 
     if (xemParam === 'song-song' || xemParam === 'split') currentViewMode = 'split';
     else if (xemParam === 'pedytb' || xemParam === 'ytb') currentViewMode = 'pedytb';
@@ -848,9 +842,40 @@
 
   const SPECIALTY_META = {
     ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
-    obgyn: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Phác đồ cấp cứu & lâm sàng Sản', unit: 'bài' },
-    hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' }
+    hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' },
+    san: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Chuyên đề lâm sàng & điều trị Sản Phụ khoa', unit: 'bài' },
+    art: { icon: '🧬', name: 'Hỗ trợ sinh sản (ART)', desc: 'Chuyên đề IVF, IUI, kích trứng & phôi học', unit: 'bài' },
+    fus: { icon: '🔊', name: 'Siêu âm thai', desc: 'Chẩn đoán trước sinh & siêu âm hình thái thai', unit: 'bài' },
+    obgyn: { icon: '📖', name: 'Giáo trình Sản khoa', desc: 'Giáo trình ĐHYD Thái Bình 2021 (Sách trường)', unit: 'bài' }
   };
+
+  function renderSpecialtyMenu() {
+    const menu = document.getElementById('specialtyMenu');
+    if (!menu) return;
+    const data = getUnifiedData();
+    const order = ['ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+    menu.innerHTML = order.map(s => {
+      const meta = SPECIALTY_META[s];
+      if (!meta) return '';
+      const pool = data[s] || [];
+      const isCur = s === currentSpecialty;
+      return `
+        <button onclick="selectSpecialty('${s}')" id="menu-opt-${s}" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg text-xs transition text-left hover:bg-[var(--surface-2)] ${isCur ? 'bg-[var(--surface-2)] border border-[var(--accent)]' : ''}">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="text-base shrink-0">${meta.icon}</span>
+            <div class="truncate">
+              <div class="font-bold text-[var(--text)] flex items-center gap-1.5">
+                <span>${meta.name}</span>
+                <span id="check-${s}" class="text-[var(--accent)] text-xs ${isCur ? '' : 'hidden'}">✓</span>
+              </div>
+              <div class="text-[10px] text-[var(--text-muted)] truncate">${meta.desc}</div>
+            </div>
+          </div>
+          <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface)] text-[var(--text-muted)] font-medium shrink-0 ml-1 border border-[var(--border)]" id="count-${s}">${pool.length}</span>
+        </button>
+      `;
+    }).join('');
+  }
 
   function toggleSpecialtyMenu(forceState) {
     const menu = document.getElementById('specialtyMenu');
@@ -890,10 +915,10 @@
 
   function updateSpecialtyView(preferLessonId) {
     const isPed = currentSpecialty === 'ped';
-    const isHoasinh = currentSpecialty === 'hoasinh';
-    const isObgyn = currentSpecialty === 'obgyn';
     const data = getUnifiedData();
     const pedSelector = document.getElementById('pedViewModesWrap');
+
+    renderSpecialtyMenu();
 
     // Cập nhật thông tin Trigger Selector
     const meta = SPECIALTY_META[currentSpecialty] || SPECIALTY_META.ped;
@@ -903,41 +928,15 @@
     if (curIcon) curIcon.textContent = meta.icon;
     if (curTitle) curTitle.textContent = meta.name;
 
-    const pool = isPed ? (data.ped || []) : (isHoasinh ? (data.hoasinh || []) : (data.obgyn || []));
+    const pool = data[currentSpecialty] || [];
     if (curCount) curCount.textContent = `${pool.length} ${meta.unit}`;
-
-    // Cập nhật số lượng bài trong menu
-    const countPedEl = document.getElementById('count-ped');
-    const countObgynEl = document.getElementById('count-obgyn');
-    const countHoasinhEl = document.getElementById('count-hoasinh');
-    if (countPedEl) countPedEl.textContent = (data.ped || []).length;
-    if (countObgynEl) countObgynEl.textContent = (data.obgyn || []).length;
-    if (countHoasinhEl) countHoasinhEl.textContent = (data.hoasinh || []).length;
-
-    // Cập nhật trạng thái active trong menu
-    ['ped', 'obgyn', 'hoasinh'].forEach(s => {
-      const check = document.getElementById(`check-${s}`);
-      const btn = document.getElementById(`menu-opt-${s}`);
-      const isCur = s === currentSpecialty;
-      if (check) check.classList.toggle('hidden', !isCur);
-      if (btn) {
-        if (isCur) {
-          btn.classList.add('bg-[var(--surface-2)]', 'border', 'border-[var(--accent)]');
-        } else {
-          btn.classList.remove('bg-[var(--surface-2)]', 'border', 'border-[var(--accent)]');
-        }
-      }
-    });
 
     if (isPed) {
       if (pedSelector) { pedSelector.classList.remove('hidden'); pedSelector.classList.add('flex'); }
-      document.getElementById('sidebarTotalLabel').textContent = `${(data.ped || []).length} bài · Nhi khoa`;
-    } else if (isHoasinh) {
-      if (pedSelector) { pedSelector.classList.add('hidden'); pedSelector.classList.remove('flex'); }
-      document.getElementById('sidebarTotalLabel').textContent = `${(data.hoasinh || []).length} chương · Hóa sinh YHN`;
+      document.getElementById('sidebarTotalLabel').textContent = `${pool.length} bài · Nhi khoa`;
     } else {
       if (pedSelector) { pedSelector.classList.add('hidden'); pedSelector.classList.remove('flex'); }
-      document.getElementById('sidebarTotalLabel').textContent = `${(data.obgyn || []).length} bài · Sản khoa`;
+      document.getElementById('sidebarTotalLabel').textContent = `${pool.length} ${meta.unit} · ${meta.name}`;
     }
 
     renderSidebarList(pool);
@@ -947,8 +946,11 @@
       defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
     }
     if (!defLesson) {
-      if (isPed) defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
-      else if (isHoasinh) defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+      if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
+      else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+      else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
+      else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
+      else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
       else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
     }
 
@@ -1063,7 +1065,7 @@
   function filterLessons() {
     const q = document.getElementById('searchInput').value.toLowerCase().trim();
     const data = getUnifiedData();
-    const pool = currentSpecialty === 'ped' ? (data.ped || []) : (currentSpecialty === 'hoasinh' ? (data.hoasinh || []) : (data.obgyn || []));
+    const pool = data[currentSpecialty] || [];
 
     const filtered = pool.filter(l => {
       return !q ||
@@ -1075,12 +1077,13 @@
     });
 
     renderSidebarList(filtered);
-    const countLabel = q ? `${filtered.length} kết quả` : (currentSpecialty === 'ped' ? `${pool.length} bài · Nhi khoa` : `${pool.length} bài · Sản khoa`);
+    const meta = SPECIALTY_META[currentSpecialty] || SPECIALTY_META.ped;
+    const countLabel = q ? `${filtered.length} kết quả` : `${pool.length} ${meta.unit} · ${meta.name}`;
     document.getElementById('sidebarTotalLabel').textContent = countLabel;
   }
   function selectLesson(id) {
     const data = getUnifiedData();
-    const pool = currentSpecialty === 'ped' ? (data.ped || []) : (currentSpecialty === 'hoasinh' ? (data.hoasinh || []) : (data.obgyn || []));
+    const pool = data[currentSpecialty] || [];
     const lesson = pool.find(l => l.id === id);
     if (!lesson) return;
 
@@ -1115,17 +1118,17 @@
 
     // Secondary meta (e.g. Sách YTB page / author)
     const secMeta = document.getElementById('secondarySourceMeta');
-    if (currentSpecialty === 'obgyn') {
-      secMeta.textContent = lesson.author ? `· ${lesson.author}` : '';
-      secMeta.classList.remove('hidden');
-      document.getElementById('lessonLeadScope').textContent = `${lesson.chapter || ''} · ${lesson.word_count ? lesson.word_count.toLocaleString() + ' từ' : ''}`;
+    if (currentSpecialty === 'ped') {
+      secMeta.classList.add('hidden');
+      document.getElementById('lessonLeadScope').textContent = lesson.scope || '';
     } else if (currentSpecialty === 'hoasinh') {
       secMeta.textContent = lesson.author ? `· ${lesson.author}` : '';
       secMeta.classList.remove('hidden');
       document.getElementById('lessonLeadScope').textContent = `${lesson.part || ''} · ${lesson.chapter || ''} · ${lesson.pages ? 'Tr. ' + lesson.pages : ''}`;
     } else {
-      secMeta.classList.add('hidden');
-      document.getElementById('lessonLeadScope').textContent = lesson.scope || '';
+      secMeta.textContent = lesson.author ? `· ${lesson.author}` : '';
+      secMeta.classList.remove('hidden');
+      document.getElementById('lessonLeadScope').textContent = `${lesson.chapter || ''} · ${lesson.word_count ? lesson.word_count.toLocaleString() + ' từ' : ''}`;
     }
 
     // Key chips
@@ -1247,7 +1250,7 @@
 
   function updateUrlState(isNewHistoryItem = false) {
     if (!currentLesson) return;
-    const kVal = currentSpecialty === 'ped' ? 'nhi' : (currentSpecialty === 'hoasinh' ? 'hoasinh' : 'san');
+    const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
     const xemVal = currentViewMode === 'split' ? 'song-song' : currentViewMode;
     const hashVal = window.location.hash || '';
     const newUrl = `?k=${kVal}&bai=${currentLesson.id}&xem=${xemVal}${hashVal}`;
@@ -1285,12 +1288,11 @@
     let tocSourceMd = '';
     let isSecondary = false;
 
-    if (currentSpecialty === 'obgyn' || currentSpecialty === 'hoasinh') {
+    if (currentSpecialty !== 'ped') {
       singleBody.classList.remove('hidden');
       splitWrap.classList.add('hidden');
       tocSourceMd = lesson.content || '';
       singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.content || '# Đang cập nhật nội dung chương...', lesson.id, false, lesson.folder_rel);
-    } else {
       if (currentViewMode === 'split') {
         singleBody.classList.add('hidden');
         splitWrap.classList.remove('hidden');
