@@ -394,7 +394,7 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
             lid = "OB-07"
             ch = chapter_map["07_De_chi_huy"]
         elif d.name.startswith("07_U_xo"):
-            lid = "OB-08"
+            lid = "OB-07B"
             ch = chapter_map["07_U_xo"]
         else:
             lid = f"OB-{int(num_str):02d}"
@@ -405,7 +405,7 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
             if mfile.exists():
                 content = mfile.read_text(encoding="utf-8", errors="ignore")
         if not content:
-            mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+            mds = [f for f in d.rglob("*.md") if not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
             if mds:
                 content = mds[0].read_text(encoding="utf-8", errors="ignore")
             else:
@@ -543,7 +543,43 @@ def scan_clinical_fus(fus_dir: Path) -> list[dict]:
             continue
         m = re.match(r"^(\d+)", d.name)
         num_str = m.group(1) if m else "00"
-        if d.name.startswith("09_Cervical"):
+        if d.name.startswith("42_Twin_Pregnancy"):
+            twin_modules = [
+                ("D1_Chorionicity_Amnionicity", "FUS-42A", "Song thai D1 — Xác định Chorionicity & Amnionicity"),
+                ("D2_MCMA", "FUS-42B", "Song thai D2 — MCMA: Song thai 1 buồng ối"),
+                ("D3_MCDA_TTTS_TAPS_sIUGR", "FUS-42C", "Song thai D3 — MCDA: TTTS, TAPS, sIUGR"),
+                ("D4_DCDA_Monitoring", "FUS-42D", "Song thai D4 — DCDA: Theo dõi, Biến chứng & Sinh"),
+            ]
+            for sub_name, tid, t_fallback in twin_modules:
+                sub_dir = d / sub_name
+                if not sub_dir.exists():
+                    continue
+                s_mds = [f for f in sub_dir.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+                if s_mds:
+                    s_content = s_mds[0].read_text(encoding="utf-8", errors="ignore")
+                else:
+                    best_doc = pick_best_docx(sub_dir)
+                    s_content = docx_to_markdown(best_doc) if best_doc else ""
+                if not s_content.strip():
+                    continue
+                t_title = extract_clinical_title(s_content, t_fallback)
+                n_cards = count_clinical_cards(sub_dir)
+                lessons.append({
+                    "id": tid,
+                    "specialty": "fus",
+                    "specialty_name": "Siêu Âm Thai",
+                    "chapter": "Song thai (Twin Pregnancy)",
+                    "folder": f"{d.name}/{sub_name}",
+                    "title": t_title,
+                    "author": "Đỗ Văn Ngọc Hưng",
+                    "word_count": len(s_content.split()),
+                    "cards_count": n_cards,
+                    "has_cards": n_cards > 0,
+                    "content": s_content,
+                    "folder_rel": "",
+                })
+            continue
+        elif d.name.startswith("09_Cervical"):
             lid = "FUS-09A"
             ch = chapter_map["09_Cervical"]
         elif d.name.startswith("09_Sinh_trac"):

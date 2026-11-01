@@ -718,7 +718,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261101_212130"></script>
+<script src="data.js?v=20261101_212648"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -1293,6 +1293,7 @@
       splitWrap.classList.add('hidden');
       tocSourceMd = lesson.content || '';
       singleBody.innerHTML = parseMarkdownWithKaTeX(lesson.content || '# Đang cập nhật nội dung chương...', lesson.id, false, lesson.folder_rel);
+    } else {
       if (currentViewMode === 'split') {
         singleBody.classList.add('hidden');
         splitWrap.classList.remove('hidden');
