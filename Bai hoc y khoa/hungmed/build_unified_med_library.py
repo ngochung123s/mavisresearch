@@ -217,6 +217,14 @@ def scan_hoasinh_files(hoasinh_dir: Path) -> list[dict]:
     index_file = hoasinh_dir / "index.json"
     if not index_file.exists():
         return []
+    hs_media_src = hoasinh_dir / "media"
+    hs_media_web = BASE_DIR / "hoasinh_media"
+    if hs_media_src.exists():
+        hs_media_web.mkdir(parents=True, exist_ok=True)
+        for f in hs_media_src.glob("*.*"):
+            dst = hs_media_web / f.name
+            if not dst.exists() or dst.stat().st_size != f.stat().st_size:
+                shutil.copy2(f, dst)
     lessons = []
     items = json.loads(index_file.read_text(encoding="utf-8"))
     for item in items:
