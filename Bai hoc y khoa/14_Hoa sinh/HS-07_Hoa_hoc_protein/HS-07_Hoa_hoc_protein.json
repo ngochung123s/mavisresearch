@@ -4,13 +4,118 @@
   "specialty_name": "Hóa Sinh Y Khoa",
   "part": "Phần I: Cấu tạo và Chuyển hóa chất",
   "chapter": "Chương 7. Hóa học acid amin, protein và hemoglobin",
-  "title": "Cấu trúc acid amin, liên kết peptid, protein và cấu tạo hemoglobin",
+  "title": "Cấu trúc acid amin, liên kết peptid, cấu trúc protein và hemoglobin",
   "author": "ThS. BS. Nguyễn Thị Ngọc Lan, PGS. TS. BS. Trần Huy Thịnh — ĐHY Hà Nội",
   "start_page": 152,
   "end_page": 176,
   "pages": "152-176",
-  "word_count": 6180,
-  "figures_count": 5,
-  "tables_count": 2,
-  "source": "Giáo trình Hóa sinh Y học ĐHY Hà Nội (2019/2023)"
+  "word_count": 6850,
+  "figures_count": 8,
+  "tables_count": 3,
+  "source": "Giáo trình Hóa sinh Y học ĐHY Hà Nội (2019/2023) kết hợp Lehninger Principles of Biochemistry (8th Ed) & Harper's Illustrated Biochemistry (32nd Ed)",
+  "learning_objectives": [
+    "Phân loại 20 acid amin tiêu chuẩn theo tính phân cực và điện tích chuỗi bên R ở pH 7.4; nhận diện 10 acid amin thiết yếu.",
+    "Biện giải bản chất lưỡng tính (zwitterion), tính điểm đẳng điện (pI) và ứng dụng điện di protein huyết thanh ở pH 8.6.",
+    "Phân tích đặc tính phẳng và liên kết đôi một phần của liên kết peptid, cơ chế phản ứng Biuret định lượng protein.",
+    "Phân biệt 4 bậc cấu trúc protein, các lực liên kết làm bền, định đề Anfinsen về cuộn gập protein và bệnh lý prion/amyloidosis.",
+    "So sánh cấu trúc và chức năng của Myoglobin (monomer, hyperbol, dự trữ) vs Hemoglobin (tetramer, chữ S, vận chuyển).",
+    "Làm chủ cơ chế điều hòa dị lập thể: hiệu ứng Bohr (H+, CO2), vai trò của 2,3-BPG trong thích nghi độ cao và vận chuyển oxy qua rau thai (HbF).",
+    "Biện giải cơ chế phân tử và liên hệ lâm sàng của các bệnh lý Hemoglobin: HbS (hồng cầu hình liềm), HbC, HbE, hội chứng Thalassemia và Methemoglobinemia."
+  ],
+  "sections": [
+    {
+      "id": "sec-1",
+      "title": "1. Cấu trúc và đặc tính của 20 acid amin tiêu chuẩn",
+      "subsections": [
+        "1.1. Cấu trúc tổng quát và tính đồng phân lập thể",
+        "1.2. Phân loại 20 acid amin theo tính phân cực và điện tích của chuỗi bên (R)",
+        "1.3. Bảng tổng hợp 20 acid amin tiêu chuẩn và các chỉ số hóa lý",
+        "1.4. Các acid amin thiết yếu và biến đổi sau dịch mã"
+      ]
+    },
+    {
+      "id": "sec-2",
+      "title": "2. Tính chất điện ly, điểm đẳng điện (pI) và điện di protein",
+      "subsections": [
+        "2.1. Bản chất lưỡng tính và dạng Zwitterion",
+        "2.2. Điểm đẳng điện (pI) và phương pháp tính",
+        "2.3. Đường cong chuẩn độ acid-base của acid amin",
+        "2.4. Ứng dụng điểm đẳng điện trong điện di protein huyết thanh (SPEP)"
+      ]
+    },
+    {
+      "id": "sec-3",
+      "title": "3. Liên kết peptid và các phản ứng hóa học đặc trưng",
+      "subsections": [
+        "3.1. Bản chất hóa học và đặc tính phẳng của liên kết peptid",
+        "3.2. Quy ước danh pháp và cấu trúc chuỗi peptid",
+        "3.3. Một số peptid có hoạt tính sinh học trọng yếu trong lâm sàng",
+        "3.4. Các phản ứng hóa học định tính và định lượng protein"
+      ]
+    },
+    {
+      "id": "sec-4",
+      "title": "4. Bốn bậc cấu trúc protein và động học cuộn gập",
+      "subsections": [
+        "4.1. Cấu trúc bậc I (Primary Structure)",
+        "4.2. Cấu trúc bậc II (Secondary Structure: xoắn alpha, phiến gấp beta, khúc cuộn beta)",
+        "4.3. Cấu trúc bậc III (Tertiary Structure và các lực liên kết làm bền)",
+        "4.4. Cấu trúc bậc IV (Quaternary Structure)",
+        "4.5. Động học cuộn gập protein, biến tính và thí nghiệm Anfinsen"
+      ]
+    },
+    {
+      "id": "sec-5",
+      "title": "5. Hóa sinh chuyên biệt của Hemoglobin và Myoglobin",
+      "subsections": [
+        "5.1. Cấu trúc Myoglobin (Mb)",
+        "5.2. Cấu trúc Hemoglobin A (HbA)",
+        "5.3. Cấu tạo chi tiết của nhân Hem và phối trí với sắt"
+      ]
+    },
+    {
+      "id": "sec-6",
+      "title": "6. Động học gắn oxy, tính hợp tác dị lập thể và hiệu ứng Bohr",
+      "subsections": [
+        "6.1. So sánh đường cong phân ly oxy của Myoglobin và Hemoglobin",
+        "6.2. Tính hợp tác dị lập thể (Allosteric Cooperativity) và mô hình T <-> R",
+        "6.3. Hiệu ứng Bohr (Điều hòa bởi H+ và CO2)",
+        "6.4. Vai trò điều hòa dị lập thể của 2,3-Bisphosphoglycerat (2,3-BPG)",
+        "6.5. Bảng tóm tắt các yếu tố làm dịch chuyển đường cong phân ly oxy"
+      ]
+    },
+    {
+      "id": "sec-7",
+      "title": "7. Bệnh học phân tử của Hemoglobin (Hemoglobinopathies)",
+      "subsections": [
+        "7.1. Bệnh Hồng cầu hình liềm (Sickle Cell Anemia - HbS)",
+        "7.2. Các biến thể Hemoglobin C (HbC) và Hemoglobin E (HbE)",
+        "7.3. Hội chứng Thalassemia (Bệnh tan máu bẩm sinh: alpha-Thal và beta-Thal)",
+        "7.4. Methemoglobinemia (Ngộ độc Methemoglobin)"
+      ]
+    },
+    {
+      "id": "sec-8",
+      "title": "8. Câu hỏi lượng giá và ca lâm sàng chuyên sâu",
+      "subsections": [
+        "8.1. Câu hỏi trắc nghiệm khách quan (MCQs)",
+        "8.2. Đáp án giải thích chi tiết câu hỏi trắc nghiệm",
+        "8.3. Ca lâm sàng chuyên sâu (Clinical Case Vignette)"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "20 L-alpha-acid amin được phân chia thành 5 nhóm: không phân cực (Gly, Ala, Val, Leu, Ile, Pro, Met), nhân thơm (Phe, Tyr, Trp), phân cực không tích điện (Ser, Thr, Cys, Asn, Gln), tích điện dương (Lys, Arg, His) và tích điện âm (Asp, Glu).",
+    "8 acid amin thiết yếu ở người lớn (Val, Leu, Ile, Met, Thr, Phe, Trp, Lys), trẻ em cần thêm Arg và His.",
+    "Acid amin là zwitterion lưỡng tính. Điểm đẳng điện pI = (pK1 + pK2)/2 với chuỗi bên trung hòa; pI = (pK1 + pKR)/2 với acid amin acid; pI = (pKR + pK2)/2 với acid amin base.",
+    "Trên điện di protein huyết thanh ở pH 8.6, Albumin (pI = 4.7) tích điện âm nhiều nhất và chạy nhanh nhất về phía Anot (+); gamma-globulin chạy chậm nhất.",
+    "Liên kết peptid có tính chất liên kết đôi một phần (40%), cấu trúc phẳng và hầu hết ở cấu hình trans, phản ứng Biuret tạo phức tím violet với Cu2+ trong môi trường kiềm.",
+    "Cấu trúc bậc I chứa đầy đủ thông tin để định hướng cuộn gập protein (Định đề Anfinsen). Cấu trúc bậc II (alpha-helix, beta-sheet) làm bền bằng liên kết hydro khung xương. Cấu trúc bậc III làm bền bởi tương tác kỵ nước, cầu disulfur, cầu muối, liên kết hydro.",
+    "Myoglobin là monomer đơn chuỗi có đường cong phân ly oxy hyperbol (P50 = 2-3 mmHg, chức năng dự trữ oxy mô cơ).",
+    "Hemoglobin là tetramer alpha2-beta2 có đường cong phân ly oxy hình chữ S sigmoidal (P50 = 26-27 mmHg) nhờ tính hợp tác dị lập thể giữa trạng thái T (Tense, Deoxy) và R (Relaxed, Oxy).",
+    "Hiệu ứng Bohr: H+ và CO2 làm bền trạng thái T, kéo đường cong sang PHẢI, kích thích nhả oxy cho mô. 2,3-BPG chèn vào khoang trung tâm chuỗi beta làm bền trạng thái T, giảm ái lực với oxy.",
+    "HbF (alpha2-gamma2) có Ser143 thay His143, gắn lỏng lẻo với 2,3-BPG, nên có ái lực oxy cao hơn HbA mẹ, kéo đường cong sang TRÁI.",
+    "HbS do đột biến beta6 Glu -> Val; ở trạng thái Deoxy, Val6 kỵ nước gắn vào hốc kỵ nước chuỗi đối diện tạo polymer tactoid biến hồng cầu thành hình liềm gây tắc mạch và tan máu.",
+    "Methemoglobinemia do Fe2+ bị oxy hóa thành Fe3+ mất khả năng gắn oxy và kéo lệch trái các chuỗi còn lại, điều trị bằng truyền Xanh Methylen."
+  ]
 }

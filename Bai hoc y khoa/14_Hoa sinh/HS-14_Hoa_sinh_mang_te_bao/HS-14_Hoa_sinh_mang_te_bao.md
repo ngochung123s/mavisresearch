@@ -2,686 +2,504 @@
 > **Tác giả:** PGS. TS. BS. Đặng Thị Ngọc Dụng, ThS. BS. Nguyễn Thị Thanh Hải — ĐHY Hà Nội
 > **Nguồn trích xuất:** Giáo trình Hóa sinh Y học (GS. TS. BS. Tạ Thành Văn chủ biên, Tái bản lần thứ 7, Nhà xuất bản Y học, Tr. 304 – 322)
 > **Chuẩn mực:** Khoa học chứng cứ (EBM), Danh pháp IUBMB & Y học lâm sàng
-**Phần:** Phần III: Hóa sinh màng tế bào | **Giáo trình:** Hóa sinh Y khoa — ĐH Y Hà Nội (Trang 198–216)
-Chương 13
-HÓA SINH MÀNG TẾ BẢO
-Màng tế bào bao gồm màng ] bào tương hay màng bề mặt tế bào (màng
-plasma), màng của các bào quan tế bào (như màng lưới nội nguyên sinh, màng
-ty thể, màng thể Golgi, màng nhân,...). Nhờ các màng mà tế bào cũng như các
-bào quan ngăn cách được với môi trường xung quanh chúng để duy trì các chức
-phận của mỗi tế bào và chức phận đặc trưng của từng bào quan tế bào. Trong
-các màng tế bào, màng bào tương đóng vai trò quan trọng trong sự kiểm tra và
-điều hòa nhiều chức phận cơ bản của tế bào như: chức phận sinh sản, chức
-phận biệt hóa, chức phận nhận diện và chức phận vận chuyển các chất qua
-màng... Bởi vậy, nghiên cứu về màng giúp việc tìm hiểu và giải thích cơ chế
-bệnh nguyên, bệnh sinh của nhiều bệnh cũng như cơ chế tác dụng của thuốc
-trong điều trị bệnh.
-Các phương pháp nghiên cứu về màng rất đa dạng, gồm 4 loại chính:
-phương pháp hóa lý (nhiễu xạ tia X, cộng hưởng từ điện tử, quang phổ tử
-ngoại, quang phổ hồng ngoại,...), phương pháp nghiên cứu về siêu cấu trúc,
-phương pháp hóa sinh, phương pháp siêu hóa học tế bào điện tử.
-## 1. CẤU TRÚC CỦA MÀNG TẾ BÀO
-### 1.1. Thành phần hóa học của màng tế bào
-- Tất cả các màng tế bào có nguồn gốc khác nhau đều chứa đựng hai
-thành phần chính là protein và lipid. Carbohydrat cũng là một thành phần
-quan trọng của nhiều màng tế bào. Tỷ lệ giữa thành phần lpid và protein
-thay đổi rất khác nhau trong các màng khác nhau, phản ánh tính đa dạng về
-chức năng sinh học của các màng.
-1.1.1. Lipid màng tế bào
-Thành phần lipid thay đổi rất khác nhau giữa các loại màng, gồm chủ
-yếu là phospholipid và cholesterol.
-Phospholipid: chủ yếu là phosphatidyl cholin (PC), phosphatidyl ethanolamin
-(PE), phosphatidyl serin (PS), phosphatidyl inositol (PI), sphingomyelin (8M).
-Ngoài ra còn có phosphatidyl glycerol (PG), diphosphatidyl glycerol (OPG) hay
-cardiolipin, phosphatidie acid (PA).- Cardiolipin là phospholipid đặc hiệu của
-màng trong ty thể.
-Hầu như tất cả các acid béo tìm thấy trong thành phần lipid màng của tế
-bào có nhân có số carbon là 16, 18 và 20. Các acid béo không bão hòa thường
-chứa một liên kết đôi, nhưng cũng có một số acid béo không bão hòa có 2, 3
-hoặc 4 liên kết đôi; những liên kết đôi đều ở dạng cis. Những acid béo thường
-gặp là a.palmitic (16:0), a.stearic (18:0), a.oleic [18:1(A9]], a.linoleie [18:2(A°'
-12], a.arachidonic [22:4(A581119].
-Cholesterol: chiếm tỷ lệ cao trong thành phần lipid của màng tế bào động
-vật có vú, không có trong hầu hết màng tế bào không nhân (prokaryotie). Phần
-lớn:cholesterol ở dạng este hóa, liên kết lỏng lẻo với màng và liên quan mật
-thiết đến tính lỏng của màng.
-Bảng 13.1. Thành phần lipid của các màng tế bào (%)
-Nguồn gốc
-Cho | PC | PE | PI | PS | SM | PG | DPG | PA | GL
-Màng
-Gan chuột
-Màng bào tương 300 | 180 |110 4 40 | 90 |140 | - - 10 | -
-Màng lưới nội bào
-(thể có hạt) 60 | 550 | 160 | 8,0 | 30 | 3,0 - - - ˆ
-Màng lưới nội nguyên sinh
-(thể không có hạt) 4001550 1210 1.67 | - |120|1 - | 19 | - -
-Màng trong ty thể 30 1450 1240 | 60 | 101.26 120 | 180 | 07 | -
-Màng ngoài ty thể 50 1500120011301 20150 1254 36 | 13 | -
-Màng nhân "140901550 |200 170. | 30.1 30 | - - 110.1 -
-Màng thể Golgi 75 1400 1150 | 60 | 36 |100 | - - - -
-Màng lysosom 1401250 1130170 | - |240| - | 50 | - | 120
-Màng myelin 22011101140| - |70| 60 | - - - 130.
-Màng hồng cầu chuột 2401310 | 15014 22 | 70 | 85 | - - loi l -
-Màng bào tương E.Coli 0410 |800| - - - 11501 50 | -
-(Cho: cholesterol; GL: giyeolipid)
-N zo
-še—t —c
-H©=Ø. O--CH;
-ó o
-my S
-ie—e O—cCH ơ
-C=P—o—H© CHz—o—P=o v CH
-NHz—CH¿—CHz—O O-CHz—CHz—NGCHp
-9 CH
-` „o 5
-»—¬ — † <4
-H,e—Ø O—CH;
-5 °
-N Z
-ln €
-ie-e O—CH ơ
-C=P—o—nz2¿ CH—o—F=o
-Ethanolamin—*O O—Cholin
-Phần ưa nước Phần kynước. Phần ưa nước
-Hình 13.1. Sơ đồ về sự sắp xếp của phospholipid màng
-Lipid màng được sắp xếp thành 2 lớp: phần ưa nước (gồm các nhóm chức
-có khả năng tạo liên kết hydro, ví dụ: nhóm phosphat, nhóm —OH,...) hướng ra
-ngoài và phần kỵ nước (chứa các chuỗi acy] của acid béo) hướng vào trong.
-1.1.2. Protein màng tế bào
-Đặc tính của các màng rất thay đổi, là do sự thay đổi của protein tham
-gia cấu tạo màng. Protein màng có các chức năng: (1) vận chuyển các chất vào
-hoặc ra ngoài tế bào; (2) tiếp nhận các tín hiệu từ các hormon và các chất hóa
-học khác ở dịch gian bào, truyền các tín hiệu này vào trong tế bào; (3) giữ vai
-trò như những neo cho các thành phần cốt lõi của bào tương và dịch gian bào;
-(4) giữ vai trò về sự hợp nhất chọn lọc của tế bào trong quá trình biệt hóa và
-hình thành những nối đặc hiệu với các tế bào khác; (5) một số protein màng là
-những enzym liên kết màng, tham gia xúc tác các phản ứng hóa học ở những
-khu vực khác nhau trong tế bào.
-Các acid amin của protein màng bao gồm acid amin có cực (ưa nước) như
-acid amin kiềm, acid amin acid; acid amin không phân cực (kỵ nước) hay acid
-amin trung tính. Cystein là acid amin chiếm tỷ lệ rất thấp trong thành phần
-của protein màng, do vậy protein màng có rất ít cầu nối disulfua.
-1.1.3. Glucid màng tế bào
-Phủ bên ngoài màng bào tương là lớp áo bề mặt mà thành phần hóa học
-là polysaccarid, được gọi là glycocalyx. Hiện nay, người ta biết được khoảng
-200 loại glucid tham gia cấu tạo màng tế bào; bao gồm những monosaccarid và
-dẫn xuất của chúng, thường gặp là glucose, glucosamin, N-acetylglucosamin,
-galactose, galactosamin, N-acetylgalactosamin. Glucid màng bào tương hình
-như đóng vai trò trong quá trình biệt hóa và phát triển của tế bào.
-Glueid màng ở dạng phức hợp, hoặc liên kết với protein như thành phần
-của glycoprotein, hoặc liên kết với lipid như thành phần của glycolipid.
-Glycolipid: chiếm 2-20% lipid màng, gồm 3 loại: glycolipid trung tính,
-glycolipid acid chứa acid sialic, glycolipid acid chứa acid sulfuric hoặc acid
-phosphoric.
-Glycoprotein: là những polysaccarid liên kết với protein màng; chúng
-tham gia trong thành phần của enzym màng, kháng nguyên bể mặt và các
-receptor màng.
-Bảng 13. 2. Thành phần hóa học cửa một số màng tỉnh khiết của tế bào (%)
-Các loại màng Protein Lipid Carbohydrat
-Myelin 18 79 3
-Màng bào tương
-Hồng cầu người 49 43 8
-Gan chuột 44 52 4
-Amip 54 42 4
-Màng trong ty thể 76 24 0
-Diệp lục tố 70 30 0
-(rau spinach)
-Tỷ lệ thành phần protein và lipid thay đổi rất khác nhau giữa các loại
-màng: màng trong ty thể có 76% là protein và 24% là lipid, màng myelin chỉ có
-18% là protein nhưng tỷ lệ lipid cao 79%. Carbohydrat đặc biệt phong phú
-trong màng bào tương của tế bào có nhân nhưng lại không có ở màng trong ty
-thể, hạt diệp lục. Glycoprotein không có trong tất cả các màng của tế bào
-không nhân.
-### 1.2. Cấu trúc của màng tế bào
-Mặc dù thành phần hóa học có thể khác nhau, các màng sinh học đều
-được cấu trúc trên cơ sở một mẫu hình chung.
-1.9.1. Nghiên cứu của Gortner và Grendel F (1925)
-Chiết xuất lipid của màng hồng cầu với số lượng hồng cầu nhất định. Từ
-lượng lipid thu được, các ông trải chúng trên bề mặt dung dịch nước. Trong
-điều kiện này, phospholipid màng hình thành một lớp phân tử duy nhất: các
-nhóm chức của đầu ưa nước hướng vào trong nước và các đuôi kỵ nước ngược
-vào trong không khí; diện tích của lớp đơn phân tử này (monolayer) xấp xỉ gấp
-2 lần diện tích của tổng số màng hồng cầu được tách. Bởi vì hồng cầu không có
-các màng khác bên trong nên các ông cho rằng: Iipid của màng được sắp xếp
-bởi một lớp kép (bilayer) nối tiếp nhau.
-Hình 13.2. Lớp đơn lipid
-được hình thành trong nghiên cứu
-của Gortner & Grendel
-Những thí nghiệm tiếp theo cho thấy: các phân tử phospholipid khi được
-phân tán vào dung dịch nước sẽ tự hình thành hoặc những tấm kép hoặc
-những túi kín mà thành túi là lớp kép phospholipid. Kết quả này xẩy ra với
-các loại phospholipid tinh khiết và với những hỗn hợp lipid giống như đã tìm
-thấy trong các màng tự nhiên.
-1.2.2. Mô hình chung của cấu trúc các màng sinh học
-Vào đầu những năm 1970, Singer SJ và Nicolson GL đã đưa ra “mô
-hình khám lỏng?” (luid mosaiec model) của màng tế bào gồm một lớp kép
-phospholipid có các protein xuyên màng và protein rìa màng.
-- Lớp kép phospholipid (phospholipid biloyer) là đơn vị cấu trúc eơ bản
-của màng sinh học. Phân tử phospholipid là phân tử phần cực: một phần ky
-nước và một phần ưa nước; nền móng tạo nên màng sinh học là tác dụng ky
-nước của các chuỗi acyl của acid béo trong phân tử phospholipid, vì tác dụng
-này dẫn đến sự hình thành lớp kép phospholipid — một tấm gồm 2 lớp phân tử
-phospholipid nối tiếp nhau- và các nhóm của đầu phân cực hướng về bề mặt có
-nước bao quanh, chuỗi acyl sẽ hình thành nối tiếp phần kỵ nước bên trong
-(phần giữa của lớp kép phospholipid).
-Hình 13.3. Mô hình lớp kép
-phospholipid (phospholipid
-bilayer) của màng sinhhọc Lõi kỵ nước
-- Các protein màng sẽ liên kết với màng theo các phương thức khác nhau
-và phản ánh các chức năng khác nhau trong tế bào: một số protein chỉ liên kết ở
-bề mặt màng, một số protein có những vùng được chôn vùi trong màng và có
-những vùng khác nhô ra phía ngoài màng, một số protein bắc cầu qua màng từ
-mặt ngoài phía này sang mặt ngoài phía đối diện của màng. Dựa vào sự liên kết
-này, protein màng được chia thành hai loại:
-+ Protein xuyên màng (integral membrane protein): gọi là protein bên
-trong (intrinsie protein), chiếm 70-80% protein màng, hầu hết protein liên kết
-xuyên màng không hoà tan trong nước. Protein liên kết xuyên màng có một
-hoặc nhiều hơn những vùng được khẳảm vào trong lớp kép phospholipid theo
-mô hình khảm lỏng (fluid mosaic model of membrane): màng tế bào là hệ
-thống lớp kép phospholipid ở trạng thái lỏng và các phân tử protein được
-khảm hoặc nhúng vào đó với mức độ nông sâu khác nhau. Theo mô hình này,
-có thể hình tượng hóa: màng tế bào là một biển lỏng Iipid, trong đó các phân
-tử protein như những cù lao trong biển lỏng (protein as islands in fluid sea of
-Iipids). Có 3 loại liên kết giữ cho protein xuyên màng khảm vào trong lớp kép
-lipid: (1) tương tác ion giữa những acid amin có cực của protein với những
-nhóm ở đầu phân cực của lipid, (2) liên kết kỵ nước giữa những gốc acid amin
-kỵ nước của phân tử protein với chuỗi acy] của acid béo ở phần lõi lipid màng,
-(3) liên kết đặc hiệu của protein với những cấu trúc xác định của lipid màng
-(ví dụ: những vùng có cholesterol hay phức hợp glycolipid).
-Phần chứa các nhóm phân cực
-Hình 13.4. Mô hình về sự tương tác của
-protein xuyên màng và protein rìa màng
-với lớp kép lipid màng
-Phần chứa những
-nhóm kỵ nước Protein liên kết
-Proteinria Xuyên màng
-màng
-Protein xuyên màng liên kết chặt chẽ với màng và rất khó tách chiết,
-phải dùng những tác nhân mạnh có khả năng phá vỡ các liên kết của protein
-với phần lipid màng theo cơ chế: tác nhân phá vỡ (bao gồm: triton X-100,
-sodium dodecylsulfat-.SDS, sodium deoxycholat,...) sẽ thay thế chỗ của phần
-Iipid để tương tác với phần kỵ nước của phân tử protein.
-Protein xuyên màng chủ yếu là các protein enzym, protein vận chuyển,
-protein kháng nguyên, protein nhận diện...
-+ Protein rìa màng (peripheral membrane protein): gọi là protein bên
-ngoài (extrinsic protein), chiếm 20-30% protein màng. Protein rìa màng không
-liên kết trực tiếp với phần lõi kỵ nước của phospholipid màng; chúng gắn với
-màng hoặc gián tiếp bỏi liên kết với những protein xuyên màng điên kết đặc
-hiệu protein-protein), hoặc trực tiếp bởi liên kết với những nhóm của đầu phân
-cực của lipid màng (bao gồm những liên kết ion hoặc các liên kết yếu khác).
-Hầu hết các protein rìa tràng khu trú ở mặt ngoài màng bào tương của tế
-bào, giống như một số protein của lớp áo glycocalyx. Protein rìa màng là các
-protein của những enzym không liên kết màng, protein của các cấu trúc sợi và
-ống siêu vi nằm dưới màng bào tương tế bào.
-- Tính lông của màng:
-+ Lớp đôi phospholipid hình thành tính lỏng hai bậc của màng tế bào:
-lipid có chuỗi acyl của acid béo mạch ngắn hoặc không bão hòa có sự chuyển
-dịch phase ở nhiệt độ thấp hơn so với lipid có chuỗi acy] của acid béo mạch dài
-hoặc bão hòa, bởi vì: chuỗi acy] mạch ngắn có diện tích bể mặt nhỏ hơn để hình
-thành liên kết Vander Waalls với các phân tử khác và chuỗi acyl không bão
-hoà có những điểm uốn nên có khuynh hướng chấp nhận trạng thái lỏng ngẫu
-nhiên hơn và hình thành liên kết Vander Waals kém vững bền với các phân tử
-khác, tạo phase lỏng dễ dàng hơn
-Nhiệt độ
-+ ——
-Lớp kép lipid Lớp kép lipid
-ở trạng thái gel ở trạng thái lỏng
-Hình 13.5. Các trạng thái thay đổi của lớp kép phospholipid màng tế bào
-Màng tế bào của động vật và vi khuẩn có tỷ lệ các acid béo không bão hòa
-nhiều hơn so với acid béo bão hòa, bởi vậy màng tế bào có sự vững bền của lớp
-kép lipid ở trạng thái lỏng tại nhiệt độ thấp.
-Oligasaccarid -
-Protein liên kết GWeppoten - Gbeolnid nalong
-xuyên màng
-Phần ưa nước của
-phospholipid
-Chuỗi acvyl
-của acid béo
-Lớp kép
-phospholipid
-Phần kỵ nước
-Protein liên kết
-xuyên màng Protein rìa màng
-Bào tương
-Hình 13.6. Mô hình chủng về cấu trúc của các màng sinh học
-+ Cholesterol là một yếu tố quyết định tính lỏng của màng tế bào. Phân
-tử cholesterol nằm xen kẽ trong lớp kép phospholipid. Vòng steroid liên kết với
-các chuỗi acy] của acid béo và có khuynh hướng cố định chúng, giới hạn sự
-chuyển động ngẫu nhiên của các chuỗi acy] của acid béo nằm gần nhất, ngăn
-cản các chuỗi acyl liên kết với nhau, phòng ngừa sự chuyển dời từ trạng thái
-lỏng sang trạng thái gel đặc. Mặt khác, cholesterol có tác dụng giảm tính lỏng
-xây ra nếu màng tế bào ở nhiệt độ thấp hơn.
-Tóm lại, tính lỏng của lớp kép phospholipid phụ thuộc vào thành phần
-Iipid, nồng độ cholesterol và nhiệt độ môi trường.
-## 2. VẬN CHUYỂN CÁC CHẤT QUA MÀNG BẢO TƯƠNG TẾ BẢO
-Nước HO
-Các chấtkh Ñ
-Các phân tử phân cực
-không mang điện,
-TLPT thấp Ethanol
-Các phân tử phân cực
-không mang điện, Glucose )
-TLPT lớn
-K' Mợ” Ca”
-Các ion ©r HCO;
-HPOZ
-Các phân tử Amino acid
-cực mang điện tích. ATP* ĩ
-GGlucose 6 - phosphate”
-Hình 13.7. Tính thấm của màng phospholipid tỉnh khiết
-Sự tồn tại của tế bào phụ thuộc vào sự thấm những chất cần thiết từ môi
-trường bên ngoài vào tế bào và loại trừ những chất chuyển hóa cặn bã ra ngoài
-tế bào. Màng bào tương tế bào đóng vai trò như một màng ngăn bán thấm giữa
-tế bào với khu vực ngoài tế bào. Tính thấm này có tính chọn lọc cao và cho
-phép tế bào giữ vững môi trường bên trong hằng định của nó.
-Một màng nhân tạo tỉnh khiết chỉ có phospholipid hoặc phospholipid và
-cholesterol có khả năng cho qua nước, các chất khí (O›, CO¿, N¿„...) và những
-phân tử thuộc loại kỵ nước có TLPT thấp, không mang điện, tan trong nước
-(ethanol,...); không cho qua hầu hết các phân tử tan trong nước như glucose,
-glucose-6-phosphat, ATP, nucleosid, acid amin, protein và các ion (H*, K*, Na',
-Ca°'...). Việc vận chuyển các phân tử và ion này qua màng cần đến những
-phân tử vận chuyển (gọi là chất mang=transport molecule) nằm ở màng tế
-bào. Hai cơ chế vận chuyển để cho phép các chất qua lại ở màng bào tương tế
-bào: vận chuyển trực tiếp và vận chuyển theo cơ chế nội nhập-ngoại xuất.
-### 9.1. Sự vận chuyển trực tiếp
-Sự vận chuyển trực tiếp các chất qua màng tế bào thực hiện theo các
-hình thức: vận chuyển thụ động bao gồm khuyếch tán đơn thuần và khuyếch
-tán tăng cường, vận chuyển tích cực.
-2.1.1. Khuyếch tán đơn thuần _
-Các phân tử nhỏ, tan trong nước được hoà vào lớp kép phospholipd, đi
-qua lớp này để hoà tan vào dung dịch nước ở phía bên đối diện của màng. Sự
-khuyếch tán này tỷ lệ thuận với gradient nồng độ cơ chất (chất được vận
-chuyển) ở hai phía của màng, không phụ thuộc vào sự có mặt của các chất
-khác và khi nồng độ cơ chất ở hai bên bề mặt của màng bằng nhau sẽ dẫn đến
-trạng thái cân bằng. Giả sử có một màng của vùng A với độ dày là Ax, hai bên
-màng có hai dung dịch chất tan với nồng độ Ơ¡, C và Ơ¡ > C¿. Trong điều kiện
-này, tốc độ khuyếch tán được tuân theo định luật Fick: tốc độ khuyếch tan J =
-dn/dt (mol/giây) là tỷ lệ thuận với gradient nồng độ dC/dx qua màng (mol/em%)
-vì C là nồng độ tính bằng mol/cm® và x là khoảng cách phải khuyếch tán qua
-màng tính bằng cm.
-dn hi AC -DA(G,-G,)
-— z=J=-DA— =-DA= =s——1—
-dt dx Ax Ax
-Trong đó D = hằng số khuyếch tán
-AC G.-C
-Ax Ax
-Dung địch 1 Dung địch 2
-G.-©2=ÁC
-Nóng độ chất na
-Ax: Độ đây của màng
-Tốc độ vận chuyểu — -s=
-Gmdient nồng độ —#
-Hình 13.8. Khuyếch tán đơn thuần các chất qua màng bào tương tế bào
-Tóm lại, vận chuyển dưới hình thức khuyếch tán đơn thuần được thực
-hiện do sự chênh lệch về nồng độ chất tan ở hai phía của màng. Hướng uận
-chuyển: từ nơi có nồng độ cao hay điện thế cao đến nơi có nồng độ thấp hay
-điện thế thấp hơn, không cần phản ứng hóa học và năng lượng chuyển hóa.
-Tốc độ khuyếch tán tỷ lệ thuận với độ chênh nồng độ hoặc điện thế của chất
-được vận chuyển ở 2 phía của màng và khi nồng độ của chất được vận chuyển
-ở hai bên bề mặt của màng bằng nhau sẽ dẫn đến trạng thái cân bằng, không
-có sự tích luỹ các chất. Điều giới hạn tốc độ vận chuyển là sự chuyển dời của
-chất được vận chuyển từ dung dịch nước vào trong phần kỵ nước của lớp kép
-phospholipid màng; do vậy tốc độ khuyếch tán tỷ lệ thuận với khả năng ky
-nước của chất khuyếch tán (chất được vận chuyển), nói cách khác hằng số
-khuyếch tán D phụ thuộc vào bản chất của chất khuyếch tán (độ hoà tan trong
-mỡ, độ lớn và độ ion hóa của phân tử chất khuyếch tán, màng tế bào luôn
-mang điện tích (-) nên các ion hóa trị 1 qua lại dễ dàng hơn): Giá trị của D khi
-khuyếch tán qua màng phospholipid là 100 đến 1000 lần thấp hơn khi
-khuyếch tán những phân tử giống HỎhau trong nước, bởi vì màng tế bào có độ
-nhớt là 100 đến 1000 lần hơn nước.
-Khuyếch tán qua màng được thực hiện bởi độ chênh nồng độ thu được
-năng lượng tự do có giá trị âm lớn. Ví dụ: vận chuyển 1 mol cơ chất từ dung
-dịch 1M đến dung dịch 0,1M - có độ chênh nồng độ 10 lần hơn, giải phóng
-1359 calo của năng lượng tự do (25°C); ngược lại, vận chuyển 1mol cơ chất
-chống lại gradient nồng độ như trên sẽ phải cần 1359 calo.
-Định luật Fick không áp dụng cho các phân tử mang điện. Sự khuyếch
-tán của các phân tử tích điện qua màng (ngay cả đối với những màng có tính
-thấm với ion) được xác định không chỉ bởi gradient nồng độ mà còn bởi bất kỳ
-gradient điện tích nào có thể tồn tại khi qua màng. Sự khuyếch tán của mỗi
-ion như Na' đều kèm theo sự chuyển dời của một ion mang điện tích trái dấu
-như ƠI.
-9.1.2. Khuyếch tán tăng cường
-Khuyếch tán tăng cường cần protein vận chuyển hay chất mang ở màng
-tế bào, gọi là permease. Khuyếch tán tăng cường có những đặc tính sau:
-— Tốc độ vận chuyển của chất được vận chuyển lớn hơn rất nhiều so với tốc
-độ khuyếch tắn đơn thuần.
-- Mỗi protein vận chuyển chỉ dùng cho một loại phân tử hay ion, hoặc một
-nhóm phân tử có liên quan mật thiết với nhau.
-- Khuyếch tán tăng cường có tốc độ vận chuyển tối đa: khi độ chênh nồng
-độ của các phân tử qua màng thấp thì nếu tăng độ chênh nồng độ sẽ dẫn đến
-sự tăng tương ứng của tốc độ vận chuyển qua màng, tốc độ này sẽ đạt cực đại
-khi gradient nồng độ chất qua màng trở nên cực lớn. Động học của sự khuyếch
-tán tăng cường có thể mô tả như phương trình dùng cho những phản ứng hóa
-học đơn giản được xúc tác bởi enzym
-Ñ Km Phức hợp Vmax
-3agoii * Permease q—=è: (8— Permease) ———% 8m
-S= cơ chất vận chuyển
-K„ = hằng số hình thành phức hợp 8-permease
-V„„, = tốc độ tối đa của sự vận chuyển
-Tốc độ vận chuyển — 9n
-Nóng độ cơ chất ở bên ngoài 9”
-Protein vận
-chuyển
-(Permease)
-Sự vận
-chuyển, Vmax
-Hình 13.9. Khuyếch tán tăng cường các chất qua màng bào tương
-Vận chuyển glucose vào trong tế bào hồng cầu:
-Năng lượng được sản sinh từ các chuyển hóa ở hồng cầu phụ thuộc vào sự
-cung cấp hằng định glucose từ huyết tương. Glucose vào trong hồng cầu theo
-con đường khuyếch tán tăng cường với sự tham gia của permease đặc hiệu với
-glucose ở màng hồng cầu. Đó là protein xuyên màng có TLPT = 45.000 Nhờ
-chất mang, glucose vào trong tế bào với tốc độ lớn gấp 50.000 lần so với tốc độ
-khuyếch tán không có chất hỗ trợ qua lớp kép lipid màng. Yếu tố vận chuyển
-là đặc hiệu với D-glucose và Km là 1,5 mM. Với những chất tương tự như D-
-mannose hay D-galactose giá trị Km thay đổi là 20 và 30 mM, tương tự với L-
-glucose thì Km vượt quá 8000mM. Do vậy, sự vận chuyển của glucose của
-màng hồng cầu cho thấy có 3 đặc điểm của sự vận chuyển thụ động này: tốc độ
-cao của sự khuyếch tán nhằm làm giảm gradient nồng độ, khả năng bão hòa
-và tính đặc hiệu.
-Sự trao đổi anion ở màng hồng cầu trong uận chuyển CO, từ các mô đến
-phổi:
-Tại mô, nồng độ CO; tăng do được tạo ra từ các chuyển hóa vào máu và
-đến hồng cấu tạo nên bicarbonat (HCO;) nhờ enzym carbonic anhydrase.
-HCO; trở lại huyết tương, được vận chuyển đến phổi. HCO;' có khả năng hoà
-tan trong huyết tương. nhiều hơn CO, nên nhờ cách này khả năng vận chuyển
-CO, từ các mô đến phổi sẽ tăng lên rất nhiều.
-Tại phổi, HCO, từ huyết tương. vào hồng cầu và bị phân ly dưới tác dụng
-của carbonic ønhydrase, tạo co, để vào phổi và đào thải. Như vậy, sự vận
-chuyển HCO¿ là một yêu cầu thiết yếu, sự trao đổi HCO¿ là sự trao đổi hai
-anion CI, HƠO¿ và cần permease — là một protein liên kết xuyên màng. Một
-1on HCO¿; được chuyển qua màng thì một ion CI được vận chuyển theo hướng
-ngược lại. Kết quả của vận chuyển cặp đôi này sẽ không làm thay đổi điện tích
-ở hai phía của màng hồng cầu. Sự vận chuyển cặp đôi của HCO,z và CI là bắt
-buộc. Đó là hệ thống đồng vận chuyển (cotransport).
-Tại các mô ngoại vi
-co, áp lực CO; cao o, co, LN
-áp lực O,thấp
-Hemoglobin
-Carbonic
-CO,+HO +
-H H
-lcoy
-CO,+HO
-Hcoy
-Hình 13.10. Sự trao đổi anion qua màng hồng cầu
-Đơn Vận chuyển Vận chuyển
-yến cùng chiều đối chiều
-unipol
-- _ —
-Đồng chuyển
-Hình 13.11. Các hình thức vận chuyển các chất qua màng tế bào
-(đơn chuyển và đồng chuyển)
-Nếu hai chất được vận chuyển từ hai phía đối diện nhau thì đó là quá
-trình vận chuyển đối chiều (antiport) và nếu hai chất được chuyển dời cùng
-một phía của màng thì gọi, là quá trình vận 'chuyển cùng chiều (symport)
-(Hình 13.11). Sự vận chuyển chỉ xảy ra với một chất như trường hợp vận
-chuyển glucose thì gọi là đơn chuyển hay vận chuyển một chất (uniport).
-2.1.3. Vận chuyển tích cực
-Vận chuyển tích cực đòi hỏi chất mang và năng lượng chuyển hóa, hướng
-vận chuyển cơ chất ngược với độ chênh nồng độ hoặc điện thế. Vận chuyển tích
-cực sẽ dẫn đến kết quả là có sự tích luỹ một chất.hoà tan ở một phía của
-màng. Sự vận chuyển tích cực là không thuận lợi về nhiệt động học (thu năng
-lượng) và chỉ xảy ra khi đi kèm hoặc trực tiếp hoặc gián tiếp với một quá trình
-phát năng lượng như sự hấp thu năng lượng ánh sáng mặt trời, các phản ứng
-oxi hóa; sự phân huỷ ATP hay dòng vận chuyển xảy ra đồng thời của những
-phản ứng hóa học dẫn đến giảm độ chênh nồng độ của chất được vận chuyển.
-Trong vận chuyển tích cực nguyên phát, sự tích tụ chất được vận chuyển đi
-kèm trực tiếp với một phản ứng phát năng (ví dụ: sự phân huỷ ATP thành
-ADP + P;). Vận chuyển tích cực thứ phát xảy ra khi sự vận chuyển thu năng
-(ngược dòng = = uphil]) của một chất hoà tan được đi kèm với dòng vận chuyển
-phát năng (xuôi dòng = downhill) của một chất hoà tan khác mà chất này đã
-được vận chuyển ngược dòng trước đó bởi một quá trình vận chuyển tích cực
-nguyên phát.
-Trị số năng lượng cần thiết để vận chuyển một chất hoà tan chống lại
-gradient có thể tính được dễ dàng từ gradient nồng độ ban đầu. Phương trình
-tổng quát biểu thị sự biến thiên răng lượng tự do trong các phản ứng hóa học
-biến chất 8 thành chất P là:
-AG = AG° + RT In [P]/[S] G)
-Trong đó R là hằng số khí 8,315 J/mol. K và T là nhiệt độ tuyệt đối. Khi
-“phản ứng” là sự vận chuyển đơn thuần của một chất tan từ vùng có nồng độ
-Ơ¡ đến vùng có nồng độ CƠ, không có liên kết hóa học nào được tạo ra hay bị
-chặt đứt thì sự thay đổi năng lượng tự do chuẩn ΔG°là 0 và sự biến thiên năng
-lượng tự do trong quá trình vận chuyển chất tan là:
-AGy = RT Ln [Cz/C,] 9)
-Phương trình (2) áp dụng với những chất tan không mang điện tích. Khi
-chất tan là ion, năng lượng cần thiết cho sự chuyển dời nó phụ thuộc vào hiệu
-thế điện tử qua lại màng cũng như sự khác nhau về nồng độ hóa học của ion —
-gọi là hiệu điện thế hóa (electrochemical potential):
-AGx = RT Ln [C⁄/C,J] + Z ƒ Ay 
-Trong đó Z là điện tích của ion, ƒ là hằng số Faraday bằng 96.480 J/Vmol
-và Av là hiệu thế điện tử của màng vận chuyển (volt). Hầu hết các tế bào đều
-có độ chênh ion lớn hơn 10 lần ở màng bào tương và các màng khác trong tế
-bào. Bởi vậy, đối với nhiều tế bào và mô sự vận chuyển tích cực chủ yếu là quá
-trình sử dụng năng lượng.
-Cơ chế của sự vận chuyển tích cực giữ tầm quan trọng trong sinh học,
-cần đến chất mang cùng năng lượng chuyển hóa và hướng vận chuyển ngược
-với gradient nồng độ hoặc điện hóa.
-2.1.3.1. Vận chuyển tích cực nguyên phát: ví dụ sự vận chuyển cặp đôi đối
-chiều Na* và K*. [Na*] trong tế bào < [Na'] ngoài tế bào và [K'] trong tế bào >
-[K1] ngoài tế bào, tuy nhiên sự vận chuyển Na' và K* qua lại màng tế bào
-không phụ thuộc vào định luật cân bằng Donan. Sự không cân bằng về nồng
-độ-của các ion này ở hai bên mặt của màng tế bào được thiết lập và tồn tại là +
-nhờ hệ thống vận chuyển tích cực có ở màng tế bào bao gồm enzym Na*K*-
-ATPase đi kèm với sự chặt đứt liên kết giàu năng lượng trong ATP để chuyển
-dời đồng thời hai ion Na* và K* chống lại độ chênh nồng độ. Ứng với sự chặt
-đứt liên kết trong phân tử ATP để thành ADP và Pi ở màng tế bào, sẽ có sự
-vận chuyển hai ion K* vào trong tế bào và ba ion Na* ra ngoài tế bào.
-Enzym Na⁺K*-ATPase là một protein xuyên màng dimer, mỗi monomer
-gồm 2 tiểu đơn vị: (1) tiểu đơn vị nhỏ có TLPT=ð0.000 Da, bản chất là
-glycoprotein; (2) tiểu đơn vị lớn có TLPT=120.000 Da, bản chất là polypeptid
-chứa vị trí xúc tác sự phân huỷ ATP (Hình 13.12).
-Na⁺K*-ATPase tổn tại 2 trạng thái: (1) trạng thái I — dạng khử
-phosphoryl, có ái lực cao với Na' và ái lực yếu với K*, (2) trạng thái II - dạng
-phosphoryl hóa, có ái lực cao với K* và ái lực yếu với Na'. Chu trình hoạt động
-của ATPase được thiết lập giữa hai trạng thái này.
-(1) Hình thành dạng phosphoryl hóa của enzym:
-ATP + Enz; —=—> ADP+P- Enzu
-(9) Thuỷ phân phosphoenzym:
-P- Enzu + H›O——¬ Enz +ADP++Bi
-Tóm lại ta có:
-ATP + HO ——> ADP + Eï
-2vị trí cho K
-liế KG
-Tiểu đơn vị lớn
-Tiểu đơn c 2 Lˆ nồng độ
-r §. IU
-Vị trí xúc tác sự N3vị trí Gradlont nồng độ
-thủy phân ATP. ATP.ADP +P, choNa" 2e TP ADP + P,
-(a) (b)
-Hình 13.12. Cấu trúc và chức năng của Na*K*-ATPase
-(a): cấu trúc phân tử - chuỗi lớn đóng vai trò vận chuyển ion, có 3 vị trí cho Na' và 2 vị trí cho K*, có 1
-phân tử ATP gắn ở bề mặt tiếp xúc với bào tương.
-(b): sự phân giải ATP kèm với sự vận chuyển 2 ion K* vào trong tế bào và 3 ion Na' ra dịch gian bào
-Theo cơ chế được thừa nhận, quá trình vận chuyển các ion Na' và K* qua
-màng bào tương tế bào được bắt đầu bằng sự gắn 3 Na' vào các vị trí có ái lực
-cao trên tiểu đơn vị lớn của protein vận chuyển ở bề mặt bên trong của màng
-tế bào. Tiểu đơn vị lớn này cũng có vị trí gắn với ATP. Sự phosphoryl hóa
-protein vận chuyển làm thay đổi trạng thái của nó và ái lực với Na* bị giảm
-dẫn đến kết quả là Na' được giải phóng ở mặt ngoài của màng bào tương tế
-bào. Tiếp theo 2 K* được gắn vào vị trí có ái lực cao với nó trên mặt ngoài của
-tiểu đơn vị lớn. Enzym vận chuyển bị khử phosphory], kết quả là ái lực của nó
-với K* giảm và K* được chuyển vào trong tế bào. Phân tử protein vận chuyển
-sẵn sàng bắt đầu chu kỳ mới của hoạt động bơm Na' và K'.
-Sự vận chuyển tích cực Na* và K* qua màng bào tương tế bào có ý nghĩa
-quan trọng đối với tế bào vì sự vận chuyển gây nên sự phân ly điện thế ở màng
-tế bào, bên trong của tế bào có điện tích âm hơn bên ngoài tế bào, hiệu điện
-thế vận chuyển màng là 50-70 mV, điều này là cần thiết cho sự dẫn truyền các
-xung động thần kinh và các hoạt động sinh lý khác của tế bào: vận chuyển
-nước để duy trì hình dạng tế bào, vận chuyển các chất dinh dưỡng như acid
-amin; glucose (vận chuyển tích cực thứ phát)
-Tóm lại, sự vận chuyển tích cực Na* và K* qua màng bào tương tế bào có
-ý nghĩa quan trọng: tạo điện thế khác nhau ở hai bên bề mặt của màng, dẫn
-truyền xung động điện thần kinh, vận chuyển nước duy trì hình dạng tế bào,
-vận chuyển các chất dinh dưỡng như acid amin, glucose (vận chuyển tích cực
-thứ phát).
-Bào tương Màng tế bào Gian bào
-3.Na*.E - (P) : 2> 3Na'
-Hình 13.13. Quá trình ADPx$
-hoạt động của bơm ATP _À :
-Na⁺K' - ATPase 3.Na'.E E-(
-3.Ne' L¬ 2K
-2x< Z hơi
-2.1.3.2. Vận chuyển tích cực thứ phát
-- Vận chuyển glucose từ lòng ruột vào tế bào riềm bàn chải của thành
-ruột: trong các tế bào niêm mạc ruột, glucose và một số acid amin sẽ được tích
-luỹ trong tế bào nhờ sự vận chuyển cùng chiều với Na', sử dụng gradient Na*
-được thiết lập với sự tham gia của Na*K*ATPase.
-Sự vận chuyển glucose từ lòng ruột vào các tế bào riềm bàn chải của
-thành Tuột thực hiện nhờ protein đồng vận chuyển cùng chiều đặc hiệu
-glucose- Na' (glucose- Na' Symport protein) có ở màng tế bào. Trong hệ thống
-này, sự vận chuyển qua màng của glucose là sự vận chuyển cặp đôi kết hợp
-bắt buộc (obligatorily coupled transport) với sự vận chuyển của Na'.
-+ +
-Na” xoa # G]ucose goi — +, Nglv † Glucoseong
-Nông độ Na' trong lòng ruột cao hơn rất nhiều so với nồng độ Na trong
-tế bào thành ruột nên hướng của phản ứng theo chiều sang phải mặc dù nồng
-độ glucose trong tế bào cao hơn trong lòng ruột. Tế bào đã sử dụng độ chênh
-Na” được sản sinh nhờ bơm Na⁺K”-ATPase để vận chuyển glucose chống lại
-gradient nồng độ của nó. Hệ thống đồng vận chuyển cùng chiều acid amin —
-Na' cũng tương tự, nó sử dụng gradient Na” để đưa acid amin từ lòng ruột vào
-trong tế bào.
-Người ta lưu ý rằng nồng độ glucose, acid amin ở trong tế bào được thiết
-lập nhờ sự đồng vận chuyển cùng chiều và cũng có thể do sự khuyếch tán ra
-ngoài tế bào (vào máu) gây nên bởi sự khuyếch tán tăng cường. Kết quả là sự
-chuyển dời của các ion Na", acid amin và glucose từ lòng ruột qua tế bào niêm
-mạc ruột để vào máu. Các liên kết nối các tế bào niêm mạc ruột với nhau đã
-ngăn ngừa được các phân tử những chất trên khỏi sự khuyếch tán trở lại lòng
-ruột. Tóm lại, sự vận chuyển #lucose và acid amin qua các tế bào niêm mạc
-ruột được thực hiện nhờ sự phân huỷ ATP trong tế bào. Sự cặp đôi của quá
-trình phân huỷ ATP với quá trình vận chuyển vào trong tế bào của glucose và
-Na'* là gián tiếp, sự phân huỷ ATP được sử dụng trực tiếp cho việc tạo nên
-gradient Na' và gradient Na' này là nguồn năng lượng để vận chuyển glucose
-và acid amin (đặc biệt là những acid amin có gốc R nhỏ, như alanin).
-Máu Tế bào niêm mạc ruột Lòng ống ruột
-Glucose thức ăn
-Na' c Na cao
-K' thấp
-Glucose
-permease
-Glucose
-Na\
-Na⁺K' -ATPase
-Protein đồng
-vận chuyển
-Glucose - Na”
-Màng nhung mao
-Hình 13.14. Vận chuyển glucose từ lòng ruột vào tế bào niêm mạc ruột
-(đồng vận chuyển cùng chiều)
-Trong vận chuyển cùng chiều, sự chuyển dời của một cơ chất (thường là
-Na*) vào trong tế bào theo chiều xuôi phụ thuộc độ chênh nồng độ đi kèm với
-sự chuyển dời cùng chiều hướng vào trong tế bào của một cơ chất khác như
-glucose để chống lại gradient nhỏ hơn. Sự vận chuyển đối chuyển (antiport) là
-một quá trình tương tự nhưng cùng với sự chuyển đời vào trong tế bào của Na*
-là sự chuyển đời bắt buộc ra ngoài tế bào của chất khác.
-Na”„gai # X
-X là chất vận chuyển ra ngoài tế bào chống lại độ chênh nồng độ.
-ngoài trong — Na ong # ngoài
-Một hệ thống vận chuyển đối chuyển quan trọng là sự vận chuyển ion
-Ca?' của tế bào cơ tim.
-+ „+ + 2+
-Na” ngài # C8” up <—— NaÝ song # Ca” ngoài
-Sự vận chuyển đối chuyển trên làm giảm nồng độ Ca?' trong tế bào cơ
-tim. Trong hầu hết các tế bào cơ, sự tăng nồng độ Ca°' gây nên co rút cơ. Bởi
-vậy, hoạt động của hệ vận chuyển ngược chiều Na*Ơa2' làm giảm tần số co cơ
-tim. Enzym Na⁺K*ATPase của màng bào tương của tế bào cơ tim tạo nên độ
-chênh Na' và nó được sử dụng làm nguồn vận chuyển Ca?' ra tế bào. Bơm
-Na*K'-ATPase và hệ thống vận chuyển đối chiều Na* Ca?' tồn tại theo mọi
-hướng ở bào tương của tế bào cơ không giống như Na*K'-ATPase khu trú trong
-tế bào niêm mạc ruột chỉ theo một hướng (hướng vào lòng ruột).
-Na' Ca”
-anipot Ca”
-Hình 13.15 . Vận chuyển Ca^'
-và H* ra ngoài tế bào
-(đồng vận chuyển đối chuyển)
-Vận chuyển đối chiều Na*Ca?* và
-Na*H'* của màng tế bào được sử „
-dụng để bơm Ca^' và:H* từ bào
-tương ra khu vực ngoài tế bào. Sự
-vận chuyển này dùng năng lượng antport
-tàng trữ trong độ chênh nồng độ
-Na' sinh ra bởi bơm Na*K°-ATPase
-Nai Kh -ATPase
-Gradient nồng độ Na"
-Các thuốc như ouabain và digoxin làm tăng co cơ tim và được sử dụng
-trong điều trị suy tim. Tác dụng đầu tiên của những thuốc này là ức chế
-Na*.K`-ATPase, dẫn đến làm tăng Na* trong tế bào. Với gradient nồng độ Na*
-thấp, chức năng của hệ vận chuyển ngược chiều Na' Ca?' kém hiệu quả, do
-vậy ion Ca”* được vận chuyển từ tế bào ra gian bào bị giảm, nồng độ Ca?' trong
-tế bào tăng và kích thích co cơ nhiều lần hơn với cường độ mạnh hơn.
-Màng bào tương tế bào cũng có hệ, thống vận. chuyển đối chiều Na*H*
-đóng vai trò quan trọng trong điều hòa nồng độ H' của bào tương. Ion Na* vào
-trong tế bào (vận chuyển xuôi dòng theo gradient nồng độ) gây nên sự vận
-chuyển cặp đôi cưỡng bức của proton từ bào tương ra ngoài tế bào (Hình
-13.15). Để pH bên trong tế bào và khu vực ngoài tế bào của cơ thể động vật là
-như nhau (pH = 7,0) tế bào cần năng lượng thường xuyên để bơm các proton ra
-ngoài tế bào. Chuyển hóa glucose trong điều kiện yếm khí sản sinh carbon
-dioxid (CO,) và nó được hydrat hóa thành acid carbonic (H¿ CO;). Những acid
-yếu này phân ly tạo ra các proton và các proton này không được thoát ra khỏi
-tế bào sẽ làm pH của bào tương giảm nghiêm trọng. Bởi vậy, sự vận chuyển
-đối chiều Na* H* đóng vai trò quan trọng để chuyển dời proton quá thừa sinh
-ra trong các chuyển hóa trên.
-### 2.2. Vận chuyển theo cơ chế endoeytosis và exocytosis
-Sự trao đổi chất của tế bào với môi trường xung quanh không chỉ đối với
-những phân tử nhỏ như các ion và monosaccarid, acid amin,... mà còn đối với
-những phân tử lớn đặc biệt như protein.
-Tế bào tiết ra các loại protein khác nhau (ví dụ: hormon peptid, protein
-của huyết tương,...) và protein cấu trúc ngoài tế bào (Ví dụ: collagen) bởi một
-quá trình gọi là exocytosis (ngoại: xuất), đó là sự hợp nhất các túi trong tế bào
-với màng bào tương của tế bào rồi giải phóng các thành phần trong túi ra môi
-trường xung quanh tế bào. Một quá trình khác mà nhờ nó, các tế bào liên kết
-và đưa vào bên trong bào tương những phân tử lớn và các tiểu thể từ khu vực
-ngoài tế bào liên quan đến cơ chế endocytosis (nội-nhập). Trong quá trình
-endocytosis, Teceptor đặc hiệu ở bề mặt của màng bào tương nhận biết phân tử
-ở bên ngoài tế bào và liên kết với nó. Vùng của màng bào tương tế bào chứa
-đựng phức hợp receptor - cơ chất lộn vào trong, hình thành túi (endocytic
-vesicle) chứa đựng chất cần vận chuyển từ bên ngoài vào trong tế bào. Túi này
-bị tan ra bởi lysosom và tạo nên lysosom ở trạng thái mới, trong đó có các chất
-từ môi trường bên ngoài vào. Các chất này bị chuyển hóa trong lysosom và tạo
-ra nhiều sản phẩm chuyển hóa trung gian như acid amin, nucleotid,.. .Các sản
-phẩm này có thể được vào trong bào tương — nơi chúng có thể được hợp nhất
-thành những phân tử lớn hơn. Các sản phẩm thoái hóa được tập hợp thành túi
-và chịu quá trình exocytosis (ngoại- xuất) để đào thải ra ngoài tế bào và màng
-tế bào được tái sinh.
-Hình 13.16. Quá trình nội nhập
-endocytosis - excytosis
-Túi dự trữ
-Ngoại xuất
-Sự hoà nhập các màng không đơn giản mà là một quá trình phức tạp có
-sự tham gia của yếu tố hoà nhập mà hiện nay còn chưa biết rõ ràng. Ơơ chế
-hoà nhập màng có nhiều giả thuyết đang được tranh cãi.
-CÂU HỎI ÔN TẬP
-1, Trình bày về thành phần hóa học chung của màng sinh học.
-## 2. Trình bày những nội dung cơ bản của mô hình cấu trúc màng sinh
-học (màng bào tương tế bào). ”
-3.. Trình bày đặc điểm của vận chuyển thụ động các chất qua màng bào
-tương tế bào theo cơ chế khuếch tán đơn thuần. Cho ví dụ. `
-## 4. Trình bày đặc điểm của vận chuyển thụ động các chất qua màng bào
-tương tế bào theo cơ chế khuếch tán tăng cường? Cho ví dụ.
-5. Thế nào là đơn vận chuyển? Thế nào là đồng vận chuyển và kể tên
-các loại đồng vận chuyển? Cho ví dụ từng loại vận chuyển kể trên.
-6. Thế nào là vận chuyển tích cực nguyên phát? Trình bày hoạt động
-của bơm Na'.K` - ATPase ở màng bào tương tế bào.
-7.: Thế nào là vận chuyển tích cực thứ phát? Trình bày quá trình vận
-chuyển glucose qua tế bào riềm bản chải ở ruột non.
-## 8. Phân tích quá trình vận chuyển tích cực thứ phát của sự vận chuyển
-Ca?' và H* qua màng bào tương tế bào.
-## 9. Trình bày bằng sơ đồ quá trình vận chuyển các chất qua màng tế bào
-theo cơ chế nội nhập và ngoại xuất.
-## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
-<div class="answer-card">
-<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 13)</div>
-<div class="answer-body">
-<h4>1. Nêu luận điểm chính của Mô hình Khảm lỏng (Singer &amp; Nicolson 1972):</h4>
-<ul>
-<li><strong>Khung cơ bản:</strong> Là một lớp kép phospholipid phân tử lưỡng cực; các đầu phân cực ưa nước quay ra ngoài và vào trong tiếp xúc môi trường nước; các đuôi hydrocacbon kỵ nước quay vào nhau tạo lõi kỵ nước ngăn cách các phân tử tích điện và phân cực lớn.</li>
-<li><strong>Tính chất khảm (Mosaic):</strong> Các phân tử protein màng phân bố không đối xứng: <em>Protein xuyên màng (Integral)</em> cắm sâu hoặc xuyên suốt lớp kép, và <em>Protein rìa màng (Peripheral)</em> liên kết tĩnh điện ở bề mặt.</li>
-<li><strong>Tính chất lỏng (Fluid):</strong> Các phân tử lipid và protein có thể chuyển động tự do trong mặt phẳng ngang của màng (khuếch tán bên). Độ lỏng màng phụ thuộc vào tỷ lệ acid béo chưa bão hòa dạng cis, nhiệt độ và hàm lượng cholesterol xen kẽ giữa các phân tử phospholipid.</li>
-</ul>
-<h4>2. Phân biệt Vận chuyển chủ động nguyên phát và thứ phát:</h4>
-<ul>
-<li><strong>Vận chuyển chủ động nguyên phát:</strong> Sử dụng trực tiếp năng lượng từ phản ứng thủy phân ATP để bơm ion/chất ngược chiều gradient nồng độ hoặc điện thế. Ví dụ tiêu biểu: <em>Bơm Na⁺/K⁺-ATPase</em> (bơm 3 Na⁺ ra ngoài, 2 K⁺ vào trong tế bào, tiêu tốn 1 ATP), Bơm Ca²⁺-ATPase (SERCA), Bơm H⁺/K⁺-ATPase ở tế bào viền dạ dày.</li>
-<li><strong>Vận chuyển chủ động thứ phát (Đồng vận chuyển):</strong> Không dùng ATP trực tiếp mà sử dụng năng lượng thế năng của <em>gradient nồng độ ion Na⁺ (hoặc H⁺)</em> do các bơm chủ động nguyên phát tạo ra trước đó để kéo theo một chất khác đi ngược chiều gradient nồng độ. Ví dụ: Protein đồng vận chuyển <strong>Na⁺ - Glucose (SGLT1)</strong> ở tế bào biểu mô niêm mạc ruột non và SGLT2 ở ống lượn gần thận.</li>
-</ul>
-</div>
-</div>
+**Phần:** Phần II: Hóa sinh tế bào, mô và cơ quan | **Chuyên đề:** Hóa sinh Màng tế bào và Vận chuyển qua màng
+
+---
+
+## MỤC TIÊU BÀI HỌC (CHUẨN BỘ MÔN HÓA SINH - ĐH Y HÀ NỘI)
+1. **Phân tích được cấu tạo hóa học và tổ chức không gian của màng sinh học** theo mô hình khảm động (Fluid Mosaic Model) của Singer & Nicolson (1972); giải thích được ý nghĩa sinh học của tính phân cực lưỡng ái, tính lỏng linh động và tính bất đối xứng của lớp lipid kép.
+2. **Trình bày được cấu trúc, sự phân bố và vai trò sinh lý của các nhóm protein màng tế bào** (protein xuyên màng $\alpha$-helix, $\beta$-barrel; protein ngoại vi liên kết tĩnh điện hoặc neo lipid GPI) cùng lớp áo glycocalyx trong nhận diện tế bào và tính kháng nguyên nhóm máu ABO.
+3. **Phân biệt và giải thích được các cơ chế vận chuyển thụ động qua màng:** Khuếch tán đơn thuần (định luật Fick, hệ số thấm lipid/nước), khuếch tán thuận hóa qua kênh ion có cổng (điện thế, phối tử, cơ học) và qua chất mang dòng GLUT (GLUT1, GLUT2, GLUT3, GLUT4, GLUT5).
+4. **Phân tích chi tiết cơ chế phân tử của vận chuyển tích cực nguyên phát:** Cấu trúc phân tử, chu trình chuyển dạng cấu hình $E_1/E_2$ (Post-Albers) của bơm $Na^+-K^+$-ATPase, bơm $Ca^{2+}$-ATPase (SERCA, PMCA), bơm $H^+-K^+$-ATPase dạ dày và cơ chế tác dụng của các thuốc ức chế đặc hiệu (Digoxin, Omeprazole).
+5. **Trình bày cơ chế phân tử của vận chuyển tích cực thứ phát và vận chuyển khối:** Cơ chế đồng vận chuyển SGLT1/SGLT2, đối vận chuyển NCX, NHE1; cơ chế nhập bào qua thụ thể Clathrin (con đường chuyển hóa LDL và bệnh FH) và xuất bào qua phức hợp protein SNARE cùng tác động của độc tố thần kinh.
+6. **Vận dụng kiến thức sinh hóa màng để giải thích cơ chế bệnh sinh phân tử và nguyên lý điều trị các bệnh lý màng tế bào & bệnh lý kênh ion (Channelopathies):** Bệnh Xơ nang (Cystic Fibrosis đột biến CFTR), bệnh hồng cầu hình cầu di truyền (khiếm khuyết khung xương màng), và hội chứng QT kéo dài (LQTS đột biến kênh $K^+/Na^+$).
+
+---
+
+
+## 1. CẤU TRÚC VÀ ĐẶC TÍNH SINH HỌC CỦA MÀNG TẾ BÀO
+
+Màng sinh học (Biological membranes) đóng vai trò là ranh giới rào cản ngăn cách không gian nội bào với môi trường ngoại bào (đối với màng bào tương hay màng tương - plasma membrane), đồng thời phân chia tế bào nhân thực (eukaryote) thành các ngăn bào quan chuyên biệt như ty thể, nhân, lưới nội chất, bộ máy Golgi, lysosome và peroxisome. Sự ngăn cách này cho phép duy trì các gradient nồng độ ion, duy trì thế hiệu màng, bảo toàn năng lượng sinh học dưới dạng gradient hóa điện thế, và tạo môi trường vi mô tối ưu cho các phản ứng sinh hóa đặc hiệu diễn ra mà không bị xáo trộn.
+
+### 1.1. Mô hình Khảm động Singer & Nicolson (1972)
+
+Vào năm 1972, S. Jonathan Singer và Garth L. Nicolson đã công bố mô hình kinh điển **"Mô hình Khảm động" (Fluid Mosaic Model)** trên tạp chí *Science*, tạo nên cuộc cách mạng trong sinh học tế bào và hóa sinh phân tử:
+- **Tính chất "Khảm" (Mosaic):** Màng tế bào là một cấu trúc khảm không đối xứng cấu tạo từ một lớp lipid kép (lipid bilayer) đóng vai trò làm nền tảng cấu trúc cơ bản, trong đó xen kẽ và gắn kết vô số các phân tử protein. Protein có thể xuyên suốt chiều dày màng (protein xuyên màng - integral membrane proteins) hoặc gắn lỏng lẻo ở bề mặt trong/ngoài của màng (protein ngoại vi - peripheral membrane proteins).
+- **Tính chất "Động / Lỏng" (Fluid):** Lớp kép lipid và hầu hết các protein không cố định ở trạng thái tĩnh thể rắn mà tồn tại ở trạng thái tinh thể lỏng (liquid-ordered hoặc liquid-disordered state) ở nhiệt độ sinh lý $37^\circ\text{C}$. Các phân tử lipid và protein có khả năng chuyển động nhiệt tự do theo nhiều chiều hướng trong mặt phẳng màng.
+
+### 1.2. Thành phần Lipid màng tế bào
+
+Lipid chiếm khoảng $40 - 50\%$ trọng lượng khô của hầu hết các màng sinh học (tỷ lệ này có thể thay đổi từ $20\%$ ở màng trong ty thể đến gần $80\%$ ở màng bao myelin của sợi thần kinh). Toàn bộ lipid màng đều thuộc nhóm **phân tử lưỡng ái (amphipathic molecules)**, nghĩa là mỗi phân tử đều sở hữu hai phần riêng biệt: một đầu ưa nước (hydrophilic head) phân cực và một đuôi kỵ nước (hydrophobic tail) không phân cực. Khi nằm trong môi trường nước, các phân tử này tự phát sắp xếp thành lớp kép kép kín (liposome hoặc màng phẳng) với đầu ưa nước quay ra ngoài tương tác với nước nội bào và ngoại bào, trong khi đuôi kỵ nước chôn giấu vào giữa để cực tiểu hóa năng lượng tự do nhiệt động học.
+
+Có ba lớp lipid chính cấu thành màng tế bào:
+
+#### 1.2.1. Phospholipid
+Phospholipid là thành phần lipid chiếm ưu thế tuyệt đối trong màng tế bào, được chia thành hai phân nhóm hóa học:
+1. **Glycerophospholipid:** Khung phân tử là glycerol-3-phosphat, trong đó hai nhóm hydroxyl ở vị trí $C_1$ và $C_2$ được este hóa với acid béo, nhóm phosphat ở vị trí $C_3$ liên kết với một nhóm đầu phân cực (alcohol có nhóm amin hoặc polyol):
+   - **Phosphatidylcholin (PC / Lecithin):** Chiếm tỷ lệ cao nhất ở lá ngoài màng tế bào, mang điện tích trung hòa ở pH sinh lý (zwitterion: phosphate mang điện âm, choline mang điện dương).
+   - **Phosphatidylethanolamin (PE / Cephalin):** Chiếm ưu thế ở lá trong màng bào tương, có kích thước nhóm đầu nhỏ hơn PC, thuận lợi cho việc uốn cong của màng.
+   - **Phosphatidylserin (PS):** Nằm hầu như độc quyền ở lá trong (monolayer tế bào chất). Nhóm đầu serin mang điện tích âm thuần túy ($-1$) ở pH sinh lý, tạo nên bề mặt tích điện âm của mặt trong màng tế bào.
+   - **Phosphatidylinositol (PI):** Chiếm tỷ lệ nhỏ ở lá trong nhưng mang vai trò tín hiệu sinh học tối quan trọng. Khi được phosphoryl hóa thành phosphatidylinositol 4,5-bisphosphat ($PIP_2$), nó là cơ chất của enzyme phospholipase C (PLC) để tạo ra hai chất truyền tin thứ hai là inositol 1,4,5-trisphosphat ($IP_3$) và diacylglycerol (DAG) dưới tác động của các hormon và chất dẫn truyền thần kinh.
+   - **Phosphatidylglycerol (PG) và Cardiolipin (Diphosphatidylglycerol):** Cardiolipin sở hữu cấu trúc độc đáo gồm 2 khung phosphatidic acid nối với nhau qua cầu nối glycerol (chứa 4 chuỗi acyl béo). Cardiolipin là phospholipid đặc hiệu của **màng trong ty thể** (chiếm tới $20\%$ lipid màng trong), đóng vai trò thiết yếu trong việc ổn định các phức hợp chuỗi hô hấp tế bào ($I, III, IV$) và bơm proton tạo ATP.
+
+2. **Sphingophospholipid (tiêu biểu là Sphingomyelin - SM):** Khung phân tử không phải là glycerol mà là **sphingosine** (một amino alcohol mạch dài 18 carbon không no). Sphingosine gắn với một acid béo qua liên kết amid tại nhóm mang amin tạo thành ceramide; nhóm hydroxyl ở vị trí $C_1$ được este hóa với phosphorylcholin. Sphingomyelin phân bố chủ yếu ở lá ngoài màng tế bào và đặc biệt phong phú ở bao myelin của tế bào thần kinh.
+
+#### 1.2.2. Cholesterol
+Cholesterol là một sterol phân tử gồm khung steroid phẳng, cứng gồm 4 vòng hydrocacbon (cyclopentanoperhydrophenanthrene), một nhóm hydroxyl ($-OH$) duy nhất tại vị trí $C_3$ (đóng vai trò đầu ưa nước cực nhỏ) và một đuôi hydrocarbon phân nhánh kỵ nước tại vị trí $C_{17}$.
+- **Vị trí sắp xếp:** Phân tử cholesterol chèn vuông góc vào giữa các phân tử phospholipid: nhóm $-OH$ phân cực tạo liên kết hydro với nhóm carbonyl este của phospholipid ở bề mặt màng, trong khi vòng steroid cứng và đuôi hydrocarbon tương tác kỵ nước Van der Waals với các chuỗi acid béo lân cận.
+- **Tác dụng điều hòa tính lỏng (Fluidity buffer):**
+  - Ở nhiệt độ sinh lý cao ($37^\circ\text{C}$): Khung steroid phẳng và cứng ngăn cản sự chuyển động xoay và dao động nhiệt quá mức của các chuỗi acyl béo, từ đó **hạn chế tính lỏng quá mức của màng và làm giảm tính thấm** đối với các phân tử nhỏ tan trong nước.
+  - Ở nhiệt độ thấp: Cholesterol xen kẽ vào giữa các chuỗi acid béo, ngăn cản các chuỗi này áp sát kết tinh đóng băng (chuyển sang pha gel rắn), từ đó **ngăn màng bị đông cứng và duy trì tính lỏng sinh học**.
+
+#### 1.2.3. Glycolipid (Sphingolipid chứa chuỗi đường)
+Gồm cerebroside (chứa một gốc đường đơn như glucose hoặc galactose) và ganglioside (chứa chuỗi oligosaccharid phức tạp có chứa một hoặc nhiều gốc acid sialic / $N$-acetylneuraminic acid - NANA, mang điện tích âm). Glycolipid chỉ phân bố độc quyền ở **bề mặt lá ngoài màng bào tương**, với các chuỗi carbohydrat chìa ra môi trường ngoại bào, tham gia tạo lớp glycocalyx, bảo vệ tế bào khỏi tác nhân enzym phân giải và đóng vai trò thụ thể nhận diện độc tố (ví dụ ganglioside $GM_1$ là thụ thể gắn của độc tố tả *Vibrio cholerae*).
+
+---
+
+### 1.3. Tính lỏng của màng (Membrane Fluidity) và các yếu tố điều hòa
+
+Tính lỏng là thuộc tính sống còn của màng sinh học. Màng phải ở trạng thái lỏng tối ưu để các protein màng có thể thay đổi cấu hình không gian khi thực hiện chức năng xúc tác hoặc vận chuyển, để các thụ thể và phối tử có thể khuếch tán tiếp cận nhau, và để các quá trình dung hợp màng (nhập bào, xuất bào, phân bào) diễn ra nhịp nhàng.
+
+Các kiểu chuyển động của phân tử lipid màng:
+1. **Khuếch tán ngang (Lateral diffusion):** Các phân tử lipid hoán đổi vị trí cho nhau dọc theo cùng một lá màng với tốc độ cực nhanh (khoảng $10^7$ lần mỗi giây, di chuyển quãng đường $2\,\mu\text{m}$ trong vòng 1 giây).
+2. **Chuyển động xoay trục (Rotational motion):** Phân tử lipid tự quay quanh trục dọc của chính nó.
+3. **Dao động uốn dẻo của chuỗi acyl (Flexion):** Các chuỗi hydrocarbon vung vẩy, uốn dẻo mạnh nhất ở phần đuôi kỵ nước sâu trong lòng màng.
+4. **Chuyển động lật mặt (Flip-flop / Transverse diffusion):** Phân tử lipid nhảy từ lá màng này sang lá màng đối diện. Vì đầu ưa nước phải đi xuyên qua lõi kỵ nước cực kỳ dày đặc năng lượng tự do, hiện tượng tự phát này diễn ra vô cùng hiếm hoi (chu kỳ bán rã có thể kéo dài hàng ngày đến hàng tháng nếu không có enzyme xúc tác).
+
+| Yếu tố ảnh hưởng | Cơ chế tác động lên tính lỏng của màng |
+| :--- | :--- |
+| **Nhiệt độ môi trường** | Nhiệt độ tăng làm tăng động năng phân tử, phá vỡ tương tác Van der Waals giữa các chuỗi acyl $\rightarrow$ tăng tính lỏng. Nhiệt độ hạ thấp làm màng kết tinh chuyển thành trạng thái gel đặc rắn. |
+| **Độ dài chuỗi acid béo** | Chuỗi hydrocarbon càng ngắn (14 - 16 carbon) càng ít diện tích tiếp xúc Van der Waals $\rightarrow$ nhiệt độ nóng chảy ($T_m$) thấp, màng lỏng hơn. Chuỗi càng dài ($18 - 24$ carbon) màng càng cứng. |
+| **Tỷ lệ liên kết đôi *cis*** | Chuỗi acid béo chưa bão hòa có liên kết đôi dạng đồng phân cấu hình *cis* tạo ra nếp gấp gấp khúc (kink) góc $120^\circ$ trong không gian. Nếp gấp này ngăn cản các chuỗi kỵ nước xếp chặt song song với nhau $\rightarrow$ hạ thấp điểm nóng chảy $T_m$, làm màng duy trì tính lỏng cao ngay cả ở nhiệt độ mát. |
+| **Nồng độ Cholesterol** | Hoạt động như "chất đệm tính lỏng" (fluidity buffer): Ở $37^\circ\text{C}$ làm giảm tính lỏng quá mức, ổn định cơ học; ở nhiệt độ thấp ngăn kết tinh pha gel. |
+
+---
+
+### 1.4. Tính bất đối xứng của màng tế bào và Ý nghĩa sinh học trong Apoptosis
+
+Màng sinh học không bao giờ đối xứng giữa hai lá kép (inner leaflet và outer leaflet):
+- **Lá ngoài (Outer leaflet - tiếp xúc dịch ngoại bào):** Giàu **Phosphatidylcholin (PC)**, **Sphingomyelin (SM)** và toàn bộ các **Glycolipid**.
+- **Lá trong (Inner leaflet - tiếp xúc bào tương):** Giàu **Phosphatidylethanolamin (PE)**, **Phosphatidylserin (PS)** và **Phosphatidylinositol (PI)**.
+
+Sự phân bố bất đối xứng này được thiết lập và duy trì liên tục nhờ ba hệ thống enzym chuyển vận lipid chuyên biệt:
+1. **Flippase (P4-type ATPase):** Bơm tiêu tốn ATP đặc hiệu, xúc tác vận chuyển ngược dòng các aminophospholipid (PS và PE) từ lá ngoài vào lá trong.
+2. **Floppase (ABC transporter):** Bơm phụ thuộc ATP, vận chuyển phospholipid (PC, sphingomyelin) và cholesterol từ lá trong ra lá ngoài.
+3. **Scramblase:** Protein không phụ thuộc ATP mà được hoạt hóa bởi nồng độ ion $Ca^{2+}$ nội bào tăng cao. Khi hoạt hóa, Scramblase cho phép tất cả các loại phospholipid trượt tự do theo gradient nồng độ qua lại giữa hai lá màng, phá vỡ hoàn toàn tính bất đối xứng.
+
+#### Ý nghĩa sinh học và dấu ấn phân tử của Chết theo chương trình (Apoptosis)
+Ở trạng thái tế bào khỏe mạnh bình thường, enzym Flippase hoạt động liên tục để giữ cho $100\%$ **Phosphatidylserin (PS)** nằm úp ở lá trong màng bào tương. 
+Khi tế bào nhận tín hiệu chết theo chương trình (Apoptosis), nồng độ $Ca^{2+}$ nội bào tăng vọt đồng thời nồng độ ATP sụt giảm:
+- Enzyme Flippase bị bất hoạt do cạn kiệt ATP và bị phân cắt bởi enzyme Caspase-3.
+- Enzyme Scramblase được kích hoạt mạnh mẽ bởi $Ca^{2+}$, lập tức đảo lộn màng, đưa một lượng lớn **Phosphatidylserin (PS) lộ diện ra lá ngoài của màng tế bào**.
+- Sự xuất hiện của phân tử PS tích điện âm ở bề mặt ngoài đóng vai trò là **"Tín hiệu Hãy ăn tôi" (Eat-me signal)**. Các đại thực bào (macrophage) sở hữu các thụ thể chuyên biệt (như TIM-4, Stabilin-2, hoặc qua trung gian opsonin Gas6 gắn vào thụ thể MerTK) sẽ nhận diện PS lộ diện, thực hiện quá trình thực bào nuốt trọn tế bào chết một cách êm thấm, không gây giải phóng các enzyme tiêu thể hay cytokine gây viêm ra mô xung quanh (khác biệt căn bản với hoại tử tế bào - necrosis).
+- **Ứng dụng cận lâm sàng:** Kỹ thuật nhuộm huỳnh quang với **Annexin V** (một protein có ái lực cực cao với Phosphatidylserin khi có mặt $Ca^{2+}$) kết hợp cùng thuốc nhuộm Propidium Iodide (PI) được sử dụng trong đếm tế bào dòng chảy (Flow Cytometry) để định lượng chính xác tỷ lệ tế bào đang trải qua giai đoạn sớm của Apoptosis ($Annexin\,V^+ / PI^-$).
+
+---
+
+### 1.5. Protein màng tế bào: Cấu trúc không gian và chức năng
+
+Mặc dù lipid tạo nên khung màng ngăn cách, nhưng protein màng mới là thành phần đảm nhận hầu hết các chức năng sinh học đặc hiệu (vận chuyển, dẫn truyền tín hiệu, xúc tác enzym, kết dính gian bào). Dựa trên bản chất tương tác với lớp lipid kép, protein màng được phân loại thành hai nhóm chính:
+
+#### 1.5.1. Protein xuyên màng (Integral / Transmembrane Proteins)
+Chiếm khoảng $70\%$ tổng số protein màng, gắn chặt vào lớp lipid kép thông qua các tương tác kỵ nước với chuỗi hydrocarbon của lipid. Để tách nhóm protein này ra khỏi màng, bắt buộc phải sử dụng các chất tẩy rửa (detergents như SDS, Triton X-100) nhằm phá vỡ cấu trúc lớp lipid kép.
+- **Dạng chuỗi xoắn $\alpha$ kỵ nước (Hydrophobic $\alpha$-helix):** Là cấu trúc phổ biến nhất ở màng tế bào eukaryote. Mỗi đoạn xuyên màng thường gồm $20 - 25$ acid amin mang chuỗi bên kỵ nước (như Leucine, Isoleucine, Valine, Phenylalanine, Alanine). Các liên kết hydro nội chuỗi giữa nhóm carbonyl ($C=O$) và amide ($N-H$) của khung peptide được bão hòa hoàn toàn bên trong lõi xoắn $\alpha$, che chắn tính phân cực để tương tác tối ưu với lõi lipid kỵ nước.
+  - *Protein đơn xuyên (Single-pass):* Chỉ có 1 chuỗi xoắn $\alpha$ xuyên màng (ví dụ: Glycophorin A ở màng hồng cầu, thụ thể RTK).
+  - *Protein đa xuyên (Multi-pass):* Có nhiều chuỗi xoắn $\alpha$ đi qua đi lại màng (ví dụ: Thụ thể gắn protein G - GPCR có 7 đoạn xuyên màng; các kênh ion và bơm ATPase có $10 - 12$ đoạn xuyên màng). Các chuỗi xoắn này có thể là dạng lưỡng ái (amphipathic helix) sắp xếp vòng tròn tạo thành một lòng dẫn truyền ưa nước ở giữa cho ion đi qua.
+- **Dạng thùng $\beta$ ($\beta$-barrel):** Cấu tạo từ $8 - 22$ dải $\beta$ đối song song cuộn tròn thành hình trụ ống rỗng. Mặt ngoài của thùng chứa các acid amin kỵ nước tiếp xúc với lipid màng, còn lòng trong của ống lót các acid amin ưa nước tạo thành lỗ thủng cho nước và các chất tan nhỏ khuếch tán qua. Cấu trúc thùng $\beta$ tìm thấy chủ yếu ở protein **Porin** của màng ngoài ty thể, màng ngoài lục lạp và màng ngoài của vi khuẩn Gram âm.
+
+#### 1.5.2. Protein ngoại vi (Peripheral Membrane Proteins)
+Không đâm sâu vào vùng kỵ nước của màng mà liên kết gián tiếp ở bề mặt trong hoặc ngoài của màng thông qua liên kết tĩnh điện hoặc liên kết hydro với đầu phân cực của phospholipid hoặc với các domain ưa nước của protein xuyên màng. Có thể dễ dàng tách protein ngoại vi ra khỏi màng bằng các biện pháp hóa học nhẹ nhàng như thay đổi lực ion (rửa muối đậm đặc) hoặc kiềm hóa môi trường (thay đổi pH) mà không làm rách vỡ màng lipid.
+- Ví dụ kinh điển: Protein **Spectrin** và **Ankyrin** ở mặt trong màng hồng cầu, tạo thành mạng lưới khung xương màng giúp hồng cầu giữ hình dạng đĩa lõm hai mặt và duy trì tính biến dạng đàn hồi siêu việt khi đi qua các mao mạch nhỏ.
+
+#### 1.5.3. Protein neo lipid (Lipid-anchored Proteins)
+Là các protein nằm ở bề mặt nước của màng nhưng được gắn cố định vào màng bằng một liên kết cộng hóa trị với một phân tử lipid:
+- **Neo GPI (Glycosylphosphatidylinositol):** Gắn protein ở bề mặt lá ngoài của màng bào tương (ví dụ: enzyme Phosphatase kiềm - ALP, protein CD55/CD59 bảo vệ tế bào khỏi sự tấn công của bổ thể).
+- **Gắn nhóm Acyl / Prenyl ở mặt trong tế bào chất:**
+  - *Myristoylation:* Gắn acid béo myristate ($C_{14}$) vào gốc Glycine ở đầu $N$-tận.
+  - *Palmitoylation:* Gắn acid palmitic ($C_{16}$) qua liên kết thioester vào gốc Cysteine.
+  - *Prenylation:* Gắn chuỗi farnesyl ($C_{15}$) hoặc geranylgeranyl ($C_{20}$) vào gốc Cysteine ở đầu $C$-tận (điển hình là protein tín hiệu gây ung thư Ras).
+
+---
+
+### 1.6. Glycocalyx: Lớp áo tế bào và Cơ sở kháng nguyên nhóm máu ABO
+
+Glycocalyx (lớp áo carbohydrat) là một vùng phủ giàu oligosaccharid dày từ $50 - 100\,\text{nm}$ bao bọc toàn bộ bề mặt ngoài của màng bào tương tế bào động vật. Glycocalyx được tạo thành từ các chuỗi nhánh carbohydrate gắn cộng hóa trị vào protein (Glycoprotein và Proteoglycan) và lipid (Glycolipid).
+
+#### Chức năng sinh học của Glycocalyx:
+1. **Bảo vệ cơ học và hóa học:** Tạo một lớp đệm nhầy giữ nước, bảo vệ tế bào khỏi các cọ xát cơ học và ngăn cản các enzym tiêu protein ngoại bào phân giải màng tế bào.
+2. **Nhận diện tế bào - tế bào (Cell-cell recognition) và Miễn dịch:** Các protein bám dính như Selectin ở tế bào nội mô mạch máu nhận diện các phối tử carbohydrate đặc hiệu trên bề mặt bạch cầu, giúp bạch cầu lăn và xuyên mạch tới ổ viêm.
+3. **Cơ sở sinh hóa phân tử của Hệ nhóm máu ABO:**
+   - Kháng nguyên hệ nhóm máu ABO bản chất là các chuỗi oligosaccharid gắn trên glycolipid và glycoprotein của màng hồng cầu và dịch tiết.
+   - Mọi cá thể đều tổng hợp chuỗi nền tảng gọi là **Kháng nguyên H** nhờ enzyme fucosyltransferase gắn một gốc L-fucose vào galactose tận cùng của chuỗi đường tiền thân.
+   - **Nhóm máu A:** Sở hữu gen mã hóa enzyme $\alpha-1,3-N\text{-acetylgalactosaminyltransferase}$, gắn thêm một gốc $N$-acetylgalactosamine (GalNAc) vào galactose của kháng nguyên H.
+   - **Nhóm máu B:** Sở hữu gen mã hóa enzyme $\alpha-1,3\text{-galactosyltransferase}$, gắn thêm một gốc D-galactose (Gal) vào galactose của kháng nguyên H.
+   - **Nhóm máu AB:** Biểu hiện đồng trội cả hai allele, sở hữu cả hai enzym transferase nên có cả hai loại chuỗi kháng nguyên A và B trên màng hồng cầu.
+   - **Nhóm máu O:** Do đột biến mất một nucleotide (mã dịch khung) dẫn đến tạo ra một protein enzym mất hoạt tính hoàn toàn; do đó màng hồng cầu nhóm O chỉ biểu hiện nguyên vẹn kháng nguyên H mà không được gắn thêm bất kỳ gốc đường nào khác.
+
+
+## 2. CƠ CHẾ VẬN CHUYỂN CÁC CHẤT QUA MÀNG TẾ BÀO
+
+Sự sống của tế bào phụ thuộc vào khả năng trao đổi liên tục các chất dinh dưỡng, ion, chất chuyển hóa và phân tử tín hiệu giữa môi trường nội bào và ngoại bào, đồng thời duy trì nồng độ các chất nội bào hoàn toàn khác biệt so với dịch ngoại bào. Màng lipid kép nguyên thủy là một rào cản tính thấm cao:
+- **Thấm tự do:** Các phân tử khí nhỏ không phân cực ($O_2, CO_2, N_2$), các phân tử kỵ nước không mang điện (hormon steroid, acid béo, thuốc tan trong dầu), và các phân tử phân cực cực nhỏ không mang điện ($H_2O, \text{ethanol}, \text{urea}$).
+- **Không thấm / Thấm cực kém:** Các phân tử phân cực lớn không mang điện (Glucose, Fructose, Sucrose) và **hoàn toàn không thấm đối với tất cả các phân tử mang điện tích và ion vô cơ** ($Na^+, K^+, Ca^{2+}, Mg^{2+}, Cl^-, HCO_3^-, H^+$, acid amin, ATP, glucose-6-phosphat) do năng lượng tự do cần thiết để tách lớp vỏ hydrat hóa của ion và đưa điện tích vào lòng lipid kỵ nước là quá lớn ($> 100\,\text{kJ/mol}$).
+
+Để vận chuyển các chất không thể tự thấm, màng tế bào phát triển hệ thống vận chuyển tinh vi chia làm hai nhóm lớn: Vận chuyển thụ động (không tiêu tốn năng lượng chuyển hóa) và Vận chuyển tích cực (tiêu tốn năng lượng).
+
+---
+
+### 2.1. Khuếch tán thụ động đơn thuần (Simple Diffusion)
+
+Là quá trình các phân tử tự do di chuyển qua lớp kép lipid từ nơi có nồng độ cao đến nơi có nồng độ thấp theo chiều gradient nồng độ (nhiệt động học $\Delta G < 0$) mà không cần sự trợ giúp của bất kỳ protein vận chuyển nào.
+- Quá trình này tuân theo **Định luật Fick thứ nhất**:
+$$J = -D \cdot \frac{dC}{dx} = P \cdot (C_1 - C_2)$$
+Trong đó:
+- $J$: Tốc độ dòng khuếch tán (flux, đơn vị: $\text{mol}\cdot\text{m}^{-2}\cdot\text{s}^{-1}$).
+- $D$: Hệ số khuếch tán của chất tan trong màng.
+- $P$: Hệ số thấm qua màng (Permeability coefficient), tỷ lệ thuận với hệ số phân bố dầu/nước ($K_{ow}$) của chất tan và tỷ lệ nghịch với bán kính phân tử và độ nhớt của màng.
+- $C_1 - C_2$: Độ chênh lệch nồng độ chất tan giữa hai bên màng tế bào.
+
+Đặc điểm động học của khuếch tán đơn thuần: Tốc độ vận chuyển tăng tuyến tính vô hạn định theo độ chênh nồng độ, không bao giờ xuất hiện hiện tượng bão hòa động học ($V_{max}$).
+
+---
+
+### 2.2. Khuếch tán thuận hóa (Facilitated Diffusion)
+
+Là quá trình vận chuyển các chất phân cực hoặc tích điện xuôi chiều gradient hóa điện thế (từ nơi có thế hóa điện cao đến nơi thấp) nhờ sự hỗ trợ của các protein màng đặc hiệu (protein mang - carrier hoặc kênh ion - channel). Quá trình này **không tiêu tốn năng lượng chuyển hóa (ATP)**.
+
+#### 2.2.1. Kênh ion (Ion Channels)
+Kênh ion là các phức hợp protein xuyên màng tạo thành các lỗ thủng ưa nước xuyên suốt lớp lipid kép, cho phép các ion đặc hiệu di chuyển qua với tốc độ cực kỳ nhanh (lên tới $10^7 - 10^8$ ion mỗi giây, tiếp cận giới hạn khuếch tán tự do trong nước).
+- **Tính chọn lọc ion cao (Ion selectivity):** Được quyết định bởi bộ lọc chọn lọc (Selectivity filter) nằm ở phần hẹp nhất của lòng kênh. Ví dụ: Kênh $K^+$ kinh điển ($KcsA$) có chuỗi acid amin bảo thủ $Gly-Tyr-Gly-Val-Thr$ chìa các nguyên tử oxy carbonyl ra lòng kênh với khoảng cách không gian mô phỏng chính xác vỏ hydrat gồm 8 phân tử nước bao quanh ion $K^+$, cho phép khử hydrat $K^+$ một cách thuận lợi về nhiệt động học. Ion $Na^+$ có bán kính nhỏ hơn nên không thể tương tác phối vị hoàn hảo với các nguyên tử oxy này, do đó bị loại trừ (tính chọn lọc của kênh đối với $K^+$ cao gấp 10.000 lần so với $Na^+$).
+- **Cơ chế đóng mở cổng (Gating mechanism):** Kênh ion không mở liên tục mà được điều hòa chuyển đổi giữa trạng thái đóng (closed) và mở (open) bởi các kích thích sinh lý:
+  1. *Cổng điện thế (Voltage-gated channels):* Nhạy cảm với sự biến đổi điện thế màng (ví dụ: kênh $Na_V, K_V, Ca_V$ trong điện thế hoạt động sợi trục thần kinh và cơ tim).
+  2. *Cổng phối tử (Ligand-gated channels):* Mở ra khi có một phân tử tín hiệu hóa học gắn đặc hiệu vào thụ thể (ví dụ: Thụ thể Nicotinic acetylcholine receptor - nAChR ở synapse thần kinh - cơ mở ra khi gắn acetylcholine; thụ thể GABA-A mở kênh $Cl^-$ gây ức chế thần kinh).
+  3. *Cổng cơ học (Mechanosensitive channels):* Mở ra do áp lực căng dãn vật lý của màng tế bào (ví dụ: kênh Piezo trong thụ cảm xúc giác và áp cảm thụ quan mạch máu).
+
+#### 2.2.2. Các protein vận chuyển dòng GLUT (Glucose Transporters - Kênh vận chuyển glucose thuận hóa)
+Các phân tử glucose tan trong nước không thể đi qua lipid kép. Họ protein vận chuyển GLUT (gồm 14 thành viên, cấu trúc 12 chuỗi xoắn $\alpha$ xuyên màng) xúc tác việc đưa glucose xuôi gradient nồng độ vào hoặc ra khỏi tế bào theo cơ chế thay đổi cấu hình xen kẽ (alternating conformation model).
+Động học vận chuyển tuân theo đường cong bão hòa Michaelis - Menten:
+$$v = \frac{V_{max} \cdot [S]}{K_m + [S]}$$
+
+| Dòng vận chuyển | Phân bố mô chính | Hằng số $K_m$ đối với Glucose | Đặc điểm chức năng & Ý nghĩa y sinh học lâm sàng |
+| :--- | :--- | :--- | :--- |
+| **GLUT1** | Màng hồng cầu, nội mô mạch máu hàng rào máu não (BBB), nhau thai | Thấp ($1 - 2\,\text{mmol/L}$) | Đảm bảo cung cấp glucose nền liên tục và ổn định cho não bộ và hồng cầu ngay cả khi đường huyết hạ. Đột biến gây hội chứng thiếu hụt GLUT1 (động kinh kháng trị, co giật ở trẻ em). |
+| **GLUT2** | Tế bào gan (hepatocyte), tế bào $\beta$ tiểu đảo tụy, biểu mô ruột và ống thận | Rất cao ($15 - 20\,\text{mmol/L}$) | Hoạt động như "Cảm biến đường huyết" (glucose sensor). Ở tế bào $\beta$ tụy, chỉ khi đường huyết sau ăn tăng vọt, GLUT2 mới cho glucose vào ồ ạt $\rightarrow$ tăng đường phân $\rightarrow$ tăng tỷ lệ $[ATP]/[ADP] \rightarrow$ đóng kênh $K_{ATP} \rightarrow$ khử cực màng $\rightarrow$ mở kênh $Ca^{2+} \rightarrow$ kích hoạt tiết Insulin. Ở gan, GLUT2 vận chuyển hai chiều (vào gan khi đường cao để tổng hợp glycogen; ra khỏi gan khi đói để duy trì đường huyết). |
+| **GLUT3** | Nơ-ron thần kinh não bộ, tinh trùng | Rất thấp ($< 1.5\,\text{mmol/L}$) | Có ái lực cực cao với glucose, đảm bảo các nơ-ron luôn ưu tiên chiếm đoạt glucose tối đa từ dịch kẽ não ngay cả trong điều kiện hạ đường huyết nặng. |
+| **GLUT4** | Cơ vân (cơ vân), cơ tim, mô mỡ trắng và mỡ nâu | Trung bình ($5\,\text{mmol/L}$) | **Là kênh vận chuyển glucose DUY NHẤT phụ thuộc hoàn toàn vào hormon INSULIN.** Khi không có insulin, $90\%$ GLUT4 bị giữ trong các túi bóng nội bào (intracellular vesicles). Khi insulin gắn vào thụ thể IR $\rightarrow$ hoạt hóa chuỗi truyền tín hiệu IRS-1 / PI3K / Akt $\rightarrow$ kích thích các túi GLUT4 hòa nhập tức thì vào màng bào tương, tăng thu nhận glucose vào tế bào lên $20 - 30$ lần. Trong Đái tháo đường týp 2, kháng insulin làm giảm sự huy động GLUT4, dẫn tới tăng đường huyết sau ăn. Luyện tập thể dục kích hoạt enzyme AMPK cũng kích thích huy động GLUT4 lên màng không phụ thuộc insulin (lợi ích điều trị ĐTĐ). |
+| **GLUT5** | Biểu mô niêm mạc ruột non (mặt đỉnh), tinh trùng, thận | Rất thấp với Glucose; chuyên biệt cho **Fructose** ($K_m \approx 6\,\text{mmol/L}$) | Chuyên chở đặc hiệu đường **Fructose** từ lòng ruột vào tế bào biểu mô ruột non theo cơ chế khuếch tán thuận hóa. Khả năng hấp thu Fructose qua GLUT5 có giới hạn; dư thừa fructose trong chế độ ăn gây hội chứng kém hấp thu fructose, tiêu chảy thẩm thấu và đầy hơi. |
+
+---
+
+### 2.3. Vận chuyển tích cực nguyên phát (Primary Active Transport)
+
+Vận chuyển tích cực nguyên phát là quá trình vận chuyển các phân tử hoặc ion **ngược chiều gradient hóa điện thế** (từ nơi nồng độ thấp đến nơi nồng độ cao), trong đó năng lượng cần thiết được cung cấp trực tiếp từ **phản ứng thủy phân Adenosine Triphosphate (ATP)** thành ADP và phosphate vô cơ ($P_i$).
+
+Hầu hết các bơm vận chuyển tích cực nguyên phát thuộc họ **P-type ATPase** (được đặc trưng bởi sự hình thành một chất trung gian phospho-enzyme có liên kết cộng hóa trị giàu năng lượng tại gốc aspartyl bảo thủ trong chu trình xúc tác).
+
+#### 2.3.1. Bơm $Na^+-K^+$-ATPase (Bơm Natri - Kali)
+Phát hiện bởi Jens Christian Skou năm 1957 (giải Nobel Hóa học 1997), bơm $Na^+-K^+$-ATPase hiện diện ở màng bào tương của hầu như mọi tế bào động vật, tiêu tốn tới $30 - 40\%$ tổng năng lượng ATP mà toàn bộ cơ thể tạo ra ở trạng thái nghỉ (ở tế bào thần kinh, tỷ lệ này lên tới $70\%$).
+
+##### Cấu trúc phân tử:
+- **Tiểu đơn vị $\alpha$ ($\,\approx 110\,\text{kDa}$, 10 chuỗi xoắn xuyên màng $M_1 - M_{10}$):** Là tiểu phần xúc tác trung tâm, chứa vị trí gắn $Na^+$, $K^+$, vị trí gắn và thủy phân ATP ở miền bào tương (miền N, P, A), gốc acid amin Aspartyl ($Asp_{369}$) tiếp nhận nhóm phosphate, và vị trí gắn của các glycoside tim (Ouabain, Digoxin) ở miền ngoại bào.
+- **Tiểu đơn vị $\beta$ ($\,\approx 40 - 55\,\text{kDa}$, glycoprotein 1 đoạn xuyên màng):** Thiết yếu cho sự gấp cuộn cấu hình đúng, ổn định và định vị bơm lên màng bào tương.
+- **Tiểu đơn vị $\gamma$ (họ protein FXYD):** Tiểu đơn vị điều hòa đặc hiệu mô, làm thay đổi ái lực của bơm đối với ion $Na^+$ hoặc $K^+$.
+
+##### Chu trình chuyển dạng cấu hình Post-Albers ($E_1 \leftrightarrow E_2$ Cycle):
+Mỗi chu trình tiêu tốn **1 phân tử ATP** để bơm chính xác **$3\,\text{ion}\ Na^+$ ra ngoài tế bào** và đưa **$2\,\text{ion}\ K^+$ vào trong tế bào**:
+1. **Trạng thái $E_1$:** Bơm mở về phía tế bào chất, có ái lực cực cao với $Na^+$ ($K_d \approx 0.2\,\text{mmol/L}$) và ái lực thấp với $K^+$. Ba ion $Na^+$ nội bào gắn vào các túi liên kết đặc hiệu trên tiểu đơn vị $\alpha$.
+2. **Phosphoryl hóa hình thành $E_1\sim P$:** Phân tử ATP gắn vào miền nucleotide (N-domain) và chuyển nhóm $\gamma$-phosphat tới gốc $Asp_{369}$ ở miền phosphoryl hóa (P-domain), giải phóng ADP. Năng lượng giải phóng khóa chặt $3\,Na^+$ bên trong phân tử bơm ($E_1\sim P(3Na^+)$ dạng bẫy kín - occluded state).
+3. **Chuyển dạng cấu hình sang $E_2-P$:** Bơm trải qua biến đổi cấu hình không gian lớn, mở lỗ xuất ra phía dịch ngoại bào. Ái lực của bơm với $Na^+$ giảm sút hàng trăm lần, khiến $3\,Na^+$ tách rời và khuếch tán vào dịch ngoại bào.
+4. **Gắn $2\,K^+$ ngoại bào:** Trạng thái $E_2-P$ phơi bày vị trí có ái lực cực cao với ion $K^+$. Hai ion $K^+$ từ dịch kẽ gắn vào bơm.
+5. **Khử phosphoryl hóa (Dephosphorylation) chuyển sang $E_2(2K^+)$:** Sự gắn kết của $K^+$ kích hoạt hoạt tính phosphatase nội tại ở miền A (actuator domain), cắt đứt liên kết acyl-phosphate tại $Asp_{369}$, giải phóng $P_i$ tự do. Hai ion $K^+$ bị bẫy kín bên trong.
+6. **Tái tạo trạng thái $E_1$:** Một phân tử ATP mới gắn vào vị trí điều hòa dị lập thể của bơm, thúc đẩy bơm chuyển dạng trở lại cấu hình $E_1$ ban đầu, mở về phía tế bào chất. Hai ion $K^+$ tách rời đi vào nội bào. Chu trình sẵn sàng lặp lại.
+
+##### Ý nghĩa sinh lý của Bơm $Na^+-K^+$-ATPase:
+1. **Tạo và duy trì gradient hóa điện thế giữa hai bên màng tế bào:** Giữ nồng độ $Na^+$ nội bào thấp ($\,\approx 10 - 14\,\text{mmol/L}$ so với ngoại bào $140 - 145\,\text{mmol/L}$) và nồng độ $K^+$ nội bào cao ($\,\approx 140\,\text{mmol/L}$ so with ngoại bào $4 - 5\,\text{mmol/L}$).
+2. **Duy trì thể tích tế bào:** Nếu bơm ngừng hoạt động, $Na^+$ sẽ ứ đọng trong tế bào, làm tăng áp suất thẩm thấu nội bào, kéo nước ồ ạt từ ngoài vào gây trương phình và vỡ tan tế bào.
+3. **Bơm sinh điện (Electrogenic pump):** Do mỗi chu trình tống 3 điện tích dương ($Na^+$) ra ngoài nhưng chỉ thu nhận 2 điện tích dương ($K^+$) vào trong, bơm tạo ra sự thiếu hụt thuần 1 điện tích dương bên trong tế bào, đóng góp trực tiếp khoảng $-5$ đến $-10\,\text{mV}$ vào thế hiệu nghỉ của màng tế bào.
+4. **Cung cấp động lực (Thế năng hóa điện) cho vận chuyển tích cực thứ phát:** Nguồn dự trữ thế năng tạo bởi chênh lệch nồng độ $Na^+$ được tế bào sử dụng để kéo glucose, acid amin và các ion khác qua màng.
+
+##### Cơ chế ức chế của Glycoside tim (Ouabain, Digoxin):
+Các glycoside tim chiết xuất từ cây mao địa hoàng (*Digitalis purpurea*) như **Digoxin** liên kết chuyên biệt và bền vững vào mặt ngoại bào của tiểu đơn vị $\alpha$ khi bơm ở **trạng thái cấu hình $E_2-P$**. 
+- Sự gắn kết này khóa chặt bơm ở trạng thái $E_2-P$, ngăn cản sự gắn kết của $K^+$ ngoại bào và phong bế hoàn toàn chu trình khử phosphoryl hóa, ức chế hoạt tính ATPase.
+- **Tương tác cạnh tranh với Kali:** Nồng độ $K^+$ ngoại bào tăng cao sẽ cạnh tranh vị trí gắn với Digoxin, làm giảm độc tính của thuốc. Ngược lại, khi bệnh nhân bị **Hạ Kali máu** ($[K^+] < 3.5\,\text{mmol/L}$), Digoxin dễ dàng gắn vào thụ thể hơn, dẫn đến nguy cơ **ngộ độc Digoxin cấp tính** gây loạn nhịp thất chết người ngay cả ở liều điều trị thông thường.
+
+#### 2.3.2. Bơm $Ca^{2+}$-ATPase
+Duy trì nồng độ canxi tự do trong bào tương ở mức cực thấp ($\,\approx 100\,\text{nmol/L}$ so với dịch ngoại bào $1.2 - 2.5\,\text{mmol/L}$, chênh lệch tới $10.000$ lần):
+- **SERCA (Sarco/Endoplasmic Reticulum $Ca^{2+}$-ATPase):** Nằm trên màng lưới nội cơ tương (SR ở cơ) hoặc màng lưới nội chất (ER ở các tế bào khác). Mỗi phân tử ATP thủy phân bơm $2\,\text{ion } Ca^{2+}$ từ bào tương vào trong lòng túi SR/ER đổi lấy $2 - 3\,\text{proton } H^+$. SERCA đóng vai trò cốt tử trong việc làm giảm nồng độ $Ca^{2+}$ bào tương để gây dãn cơ sau mỗi chu kỳ co tim/co cơ vân.
+- **PMCA (Plasma Membrane $Ca^{2+}$-ATPase):** Nằm trên màng bào tương, bơm $1\,\text{ion } Ca^{2+}$ ra ngoài tế bào đổi lấy $1\,H^+$, được điều hòa hoạt hóa bởi phức hợp Calmodulin-$Ca^{2+}$.
+
+#### 2.3.3. Bơm $H^+-K^+$-ATPase ở Tế bào viền dạ dày và Cơ chế tác dụng của thuốc PPI
+Nằm ở màng đỉnh (apical membrane) của tế bào viền (parietal cells) niêm mạc dạ dày.
+- **Cơ chế:** Thủy phân 1 ATP để bơm $1\,\text{ion } H^+$ ra lòng dạ dày đổi lấy $1\,\text{ion } K^+$ đi vào trong tế bào viền. Ion $K^+$ sau đó khuếch tán ngược ra lòng dạ dày qua kênh $K^+$ để tái sử dụng. Cùng lúc đó, kênh $Cl^-$ màng đỉnh đưa $Cl^-$ ra lòng dạ dày, tạo nên dung dịch acid clohydric $HCl$ cực kỳ đậm đặc (pH dịch vị $\approx 0.8 - 1.0$, chênh lệch nồng độ $H^+$ lên tới 1 triệu lần so với máu có pH 7.4).
+- **Cơ chế tác dụng của thuốc ức chế bơm proton (PPI: Omeprazole, Esomeprazole, Pantoprazole):**
+  - PPI là các tiền chất kiềm yếu (pKa $\approx 4.0$), lưu hành trong máu ở dạng trung hòa không tích điện.
+  - Khi đến các vi ống tiết (secretory canaliculi) cực toan của tế bào viền dạ dày (pH $< 2.0$), thuốc bị bắt giữ và proton hóa thành dạng cation có hoạt tính (sulfenamide).
+  - Cation sulfenamide tạo **liên kết cộng hóa trị disulfid ($-S-S-$) không hồi phục** với các gốc Cysteine đặc hiệu (đặc biệt là $Cys_{813}$) trên tiểu đơn vị $\alpha$ của bơm $H^+-K^+$-ATPase, làm tê liệt hoàn toàn chức năng bơm.
+  - Tác dụng ức chế tiết acid kéo dài $24 - 48$ giờ cho đến khi cơ thể tổng hợp được các phân tử bơm proton mới, làm nên hiệu quả vượt trội của PPI trong điều trị loét dạ dày - tá tràng và trào ngược dạ dày thực quản (GERD).
+
+
+### 2.4. Vận chuyển tích cực thứ phát (Secondary Active Transport)
+
+Khác với vận chuyển tích cực nguyên phát sử dụng trực tiếp ATP, vận chuyển tích cực thứ phát (còn gọi là vận chuyển liên kết ion - ion-coupled transport) **không sử dụng ATP trực tiếp**. Thay vào đó, nó khai thác **thế năng nhiệt động học lưu trữ trong gradient nồng độ ion điện thế** (chủ yếu là gradient nồng độ $Na^+$, đôi khi là $H^+$) do bơm $Na^+-K^+$-ATPase tạo ra từ trước:
+- Khi một ion (thường là $Na^+$) di chuyển *xuôi chiều gradient nồng độ* (từ ngoài vào trong tế bào), năng lượng tự do tỏa ra ($\Delta G < 0$) được protein vận chuyển ghép cặp (coupled) để kéo một chất tan khác di chuyển *ngược chiều gradient nồng độ* ($\Delta G > 0$).
+- Dựa vào chiều chuyển động của hai chất, vận chuyển tích cực thứ phát được chia thành hai dạng:
+  1. **Đồng vận chuyển (Symport / Cotransport):** Cả hai chất cùng di chuyển theo một chiều qua màng.
+  2. **Đối vận chuyển (Antiport / Countertransport / Exchanger):** Hai chất di chuyển theo hai chiều ngược nhau qua màng.
+
+#### 2.4.1. Đồng vận chuyển $Na^+$-Glucose (Họ protein SGLT)
+Là mô hình kinh điển của đồng vận chuyển dinh dưỡng ở tế bào biểu mô phân cực (Polarized epithelial cells):
+- **SGLT1 (Sodium-Glucose Linked Transporter 1):**
+  - *Vị trí phân bố:* Khu trú ở màng vi nhung mao (màng đỉnh / apical membrane) của tế bào biểu mô niêm mạc ruột non (ruột non) và đoạn S3 của ống lượn gần thận.
+  - *Tỷ lệ ghép cặp:* Ghép cặp **$2\,Na^+ : 1\,\text{Glucose}$** (hoặc Galactose). Nhờ sử dụng động lực từ 2 ion $Na^+$, SGLT1 có khả năng cô đặc glucose nội bào lên gấp hàng nghìn lần so với nồng độ trong lòng ruột, cho phép hấp thu triệt để dưỡng chất ngay cả khi lượng carbohydrate trong thức ăn đã cạn.
+- **SGLT2 (Sodium-Glucose Linked Transporter 2):**
+  - *Vị trí phân bố:* Khu trú đặc hiệu ở màng đỉnh đoạn S1 và S2 của ống lượn gần ở vỏ thận.
+  - *Tỷ lệ ghép cặp:* Ghép cặp **$1\,Na^+ : 1\,\text{Glucose}$**, có dung lượng vận chuyển cực lớn ($V_{max}$ rất cao), chịu trách nhiệm tái hấp thu khoảng **$90\%$** toàn bộ lượng glucose được lọc qua cầu thận mỗi ngày (khoảng $180\,\text{g/ngày}$). $10\%$ lượng glucose còn lại ở đoạn muộn được SGLT1 quét sạch, giúp nước tiểu của người khỏe mạnh hoàn toàn không có đường ($< 0.5\,\text{mmol/L}$).
+
+##### Ứng dụng lâm sàng đột phá của Thuốc ức chế SGLT2 (SGLT2 Inhibitors / Flozins):
+- Các hoạt chất như **Dapagliflozin, Empagliflozin, Canagliflozin** là các chất ức chế chọn lọc và cạnh tranh cao với protein SGLT2 ở ống lượn gần thận.
+- **Cơ chế hạ đường huyết:** Phong bế SGLT2 $\rightarrow$ ngăn cản tái hấp thu glucose $\rightarrow$ đào thải từ $70 - 100\,\text{g}$ glucose mỗi ngày qua nước tiểu (tương đương mất $280 - 400\,\text{kcal/ngày}$), giúp hạ $HbA1c$ an toàn, giảm cân nặng và huyết áp mà **hoàn toàn không có nguy cơ gây hạ đường huyết nguy hiểm** (vì không kích thích tế bào $\beta$ tụy tiết insulin).
+- **Lợi ích bảo vệ tim mạch và suy tim (Heart Failure) & Bệnh thận mạn (CKD):** Việc ức chế SGLT2 làm tăng đào thải natri và glucose đến quai Henle và ống lượn xa, làm phục hồi cơ chế phản hồi cầu - ống thận (Tubuloglomerular feedback) $\rightarrow$ co tiểu động mạch đến cầu thận $\rightarrow$ giảm áp lực lọc cầu thận, bảo tồn chức năng thận dài hạn. Đồng thời, thuốc làm giảm tiền gánh, hậu gánh thất trái và cải thiện chuyển hóa năng lượng cơ tim, trở thành một trong bốn trụ cột điều trị suy tim phân suất tống máu giảm (HFrEF) bất kể bệnh nhân có mắc đái tháo đường hay không.
+
+#### 2.4.2. Đối vận chuyển $Na^+-Ca^{2+}$ (NCX - Sodium-Calcium Exchanger) và Cơ chế tăng co bóp cơ tim của Digoxin
+- **Protein NCX:** Nằm trên màng bào tương cơ tim và tế bào thần kinh, vận hành theo cơ chế đối vận chuyển với tỷ lệ ghép cặp **$3\,Na^+ : 1\,Ca^{2+}$**.
+- Ở điều kiện sinh lý bình thường (thì tâm trương), gradient $Na^+$ ngoại bào cao kéo $3\,Na^+$ ùa vào trong tế bào cơ tim, năng lượng này được dùng để tống xuất $1\,Ca^{2+}$ ra ngoài dịch kẽ, giúp tế bào cơ tim dãn ra.
+- **Cơ chế tăng lực co bóp cơ tim (Inotropic effect) của Digoxin trong điều trị Suy tim:**
+  1. Digoxin ức chế bơm $Na^+-K^+$-ATPase ở màng sợi cơ tim $\rightarrow$ giảm tống $Na^+$ ra ngoài.
+  2. Nồng độ $Na^+$ nội bào cơ tim tăng dần từ $10\,\text{mmol/L}$ lên $15 - 18\,\text{mmol/L}$, làm **triệt tiêu hoặc suy giảm độ chênh lệch gradient nồng độ $Na^+$** giữa hai bên màng.
+  3. Sự suy giảm gradient $Na^+$ làm cho chất đối vận chuyển **NCX bị ức chế hoạt động** (hoặc thậm chí đảo ngược chiều vận chuyển, đưa thêm $Ca^{2+}$ vào nội bào).
+  4. Hậu quả là ion $Ca^{2+}$ nội bào không được tống ra ngoài hiệu quả, tích lũy trong bào tương và được bơm SERCA tích cực nhồi đầy vào các túi dự trữ của lưới nội cơ tương (SR).
+  5. Trong nhát bóp tâm thu tiếp theo, lượng $Ca^{2+}$ phóng thích ồ ạt từ SR vào bào tương tăng vọt, gắn kết tối đa vào Troponin C, làm tăng số lượng cầu nối actin - myosin, tạo nên **lực co bóp cơ tim mạnh mẽ và dứt khoát**, cải thiện cung lượng tim ở bệnh nhân suy tim ứ huyết.
+
+#### 2.4.3. Đối vận chuyển $Na^+-H^+$ (NHE1 - Sodium-Hydrogen Exchanger 1)
+- Phân bố khắp các mô tế bào, vận chuyển $1\,Na^+$ vào trong tế bào đổi lấy việc tống xuất $1\,H^+$ ra ngoài dịch kẽ.
+- Hoạt động của NHE1 được kích hoạt mạnh mẽ khi pH nội bào giảm (toan hóa nội bào), đóng vai trò then chốt trong việc duy trì pH bào tương hằng định quanh mức sinh lý $7.2 - 7.3$, đồng thời kiểm soát thể tích tế bào sau khi bị teo do ưu trương.
+
+---
+
+### 2.5. Vận chuyển khối (Bulk Transport): Nhập bào và Xuất bào
+
+Các đại phân tử sinh học (protein, lipoprotein, polysaccharid, kháng thể, vi khuẩn) không thể lọt qua kênh ion hay protein mang. Việc vận chuyển chúng qua màng đòi hỏi sự biến dạng màng tế bào và tạo thành các bóng màng (vesicles) tiêu tốn năng lượng ATP và GTP, gọi là vận chuyển khối.
+
+#### 2.5.1. Nhập bào (Endocytosis)
+Chia thành 3 hình thức:
+1. **Ẩm bào (Pinocytosis - "Uống của tế bào"):** Tế bào tạo các vết lõm nhỏ trên màng để nuốt các giọt dịch ngoại bào chứa các chất tan hòa tan không chọn lọc.
+2. **Thực bào (Phagocytosis - "Ăn của tế bào"):** Thực hiện bởi các tế bào chuyên trách (đại thực bào, bạch cầu trung tính). Khi tiếp xúc với vi khuẩn hoặc mảnh vỡ tế bào được bao phủ bởi kháng thể hoặc bổ thể (hiện tượng opsonin hóa), màng tế bào thò ra các chân giả (pseudopodia) bao bọc lấy vật thể, tạo thành không bào thực bào (phagosome), sau đó hòa màng với lysosome tạo thành phagolysosome để tiêu hóa dị vật.
+3. **Nhập bào qua trung gian thụ thể (Receptor-Mediated Endocytosis):** Là hình thức vận chuyển khối có tính đặc hiệu và hiệu quả cao nhất, phụ thuộc vào protein tạo vỏ **Clathrin**.
+   - *Chu trình chuyển hóa hạt LDL (Low-Density Lipoprotein) và Bệnh Tăng cholesterol máu gia đình (FH):*
+     - Hạt LDL mang cholesterol lưu hành trong máu gắn đặc hiệu vào **Thụ thể LDL (LDL Receptor)** khu trú tại các hố phủ Clathrin (clathrin-coated pits) ở màng bào tương tế bào gan.
+     - Các phân tử Clathrin polymer hóa tạo thành mạng lưới rọ hình đa diện kéo màng tế bào lõm sâu vào trong, enzyme dynamin (GTPase) cắt đứt cổ túi để giải phóng túi bóng phủ Clathrin (clathrin-coated vesicle) vào bào tương.
+     - Túi trút bỏ lớp vỏ clathrin và hòa màng với thể nội bào sớm (early endosome). Môi trường acid bên trong endosome (pH $\approx 5.0 - 5.5$) do bơm proton v-ATPase tạo ra làm thụ thể LDL thay đổi cấu hình, tách rời khỏi hạt LDL.
+     - Thụ thể LDL được đóng gói vào các túi tái chế (recycling vesicles) đưa trở lại bề mặt màng tế bào để tái sử dụng (mỗi thụ thể có thể tái chế $80 - 100$ lần trong vòng đời 20 giờ).
+     - Hạt LDL được đưa đến lysosome; tại đây enzym acid lipase và protease thủy phân cholesteryl este và ApoB-100 thành acid béo, acid amin và giải phóng **cholesterol tự do** vào tế bào chất.
+     - **Cơ chế bệnh sinh Bệnh Tăng cholesterol máu gia đình (Familial Hypercholesterolemia - FH):** Đột biến gen mã hóa thụ thể LDL (đột biến mất chức năng tổng hợp, đột biến sai hỏng vận chuyển từ ER lên màng, hoặc đột biến ở miền đuôi tế bào chất $NPXY$ khiến thụ thể gắn được LDL nhưng không tụ lại được vào hố Clathrin). Hậu quả: Tế bào gan không thể thu nạp LDL từ máu, nồng độ LDL-Cholesterol huyết tương tăng vọt gấp 3 - 6 lần bình thường, gây mảng xơ vữa động mạch sớm, xơ vữa mạch vành gây nhồi máu cơ tim ở tuổi thanh thiếu niên và u vàng ở gân (tendon xanthomas).
+
+#### 2.5.2. Xuất bào (Exocytosis) và Phức hợp Protein SNARE
+Xuất bào là quá trình các túi tiết (secretory vesicles) từ bộ máy Golgi di chuyển tới màng bào tương, hòa màng và tống xuất các chất chứa bên trong (hormon peptide, enzyme tiêu hóa, chất dẫn truyền thần kinh, collagen) ra môi trường ngoại bào.
+- **Cơ chế dung hợp màng qua phức hợp SNARE:**
+  - Sự dung hợp giữa hai màng lipid đối mặt với rào cản năng lượng đẩy tĩnh điện khổng lồ. Để khắc phục điều này, tế bào sử dụng phức hợp các protein bám dính đặc hiệu gọi là **SNAREs (Soluble $N$-ethylmaleimide-sensitive factor Attachment Protein Receptors)**:
+    - **v-SNARE (Vesicle SNARE):** Nằm trên màng túi tiết, tiêu biểu là **Synaptobrevin** (còn gọi là VAMP).
+    - **t-SNARE (Target SNARE):** Nằm trên màng đích bào tương, gồm **Syntaxin** (protein xuyên màng) và **SNAP-25** (protein ngoại vi bám màng).
+  - Khi túi tiết đến gần màng đích, bốn chuỗi xoắn $\alpha$ (1 từ Synaptobrevin, 1 từ Syntaxin và 2 từ SNAP-25) quấn chặt vào nhau tạo thành một bó xoắn siêu bền vững gọi là **phức hợp chuyển tiếp SNARE (trans-SNARE complex hay SNAREpin)**.
+  - Quá trình "kéo khóa" (zippering) của bó xoắn sinh ra lực cơ học cực lớn kéo hai màng lipid áp sát vào nhau ở khoảng cách dưới $1.5\,\text{nm}$, vắt kiệt các phân tử nước ở bề mặt tiếp xúc, cưỡng bức các phân tử lipid ở hai lá ngoài hòa lẫn vào nhau (tạo cuống dung hợp - hemifusion stalk) và mở toang lỗ thoát tiết (fusion pore).
+  - Cảm biến ion $Ca^{2+}$: Protein **Synaptotagmin** trên màng túi đóng vai trò công tắc nhạy cảm $Ca^{2+}$. Khi có sóng điện thế kích hoạt dòng $Ca^{2+}$ ùa vào cúc tận cùng synapse, $Ca^{2+}$ gắn vào Synaptotagmin, giải phóng ức chế và hoàn tất quá trình xuất bào chất dẫn truyền thần kinh trong vòng vài phần nghìn giây.
+- **Tác động phá hủy của Độc tố Uốn ván và Độc tố Botulinum:**
+  - Cả độc tố uốn ván (*Tetanus toxin* do *Clostridium tetani*) và độc tố thịt độc Botulinum (*Botulinum neurotoxin* do *Clostridium botulinum*) đều là các metalloprotease phụ thuộc kẽm ($Zn^{2+}$) có độc lực cao nhất từng được biết đến đối với hệ thần kinh.
+  - **Botulinum toxin:** Xâm nhập vào đầu mút cúc tận cùng thần kinh - cơ vận động, chọn lọc cắt đứt các protein SNARE (Botulinum typ A và E cắt SNAP-25; typ B, D, F, G cắt Synaptobrevin; typ C cắt Syntaxin). Phức hợp SNARE bị phá hủy khiến các túi chứa Acetylcholine không thể xuất bào $\rightarrow$ mất dẫn truyền thần kinh cơ $\rightarrow$ **Liệt mềm cơ hoàn toàn (flaccid paralysis)**, suy hô hấp do liệt cơ hoành.
+  - **Tetanus toxin:** Được vận chuyển ngược dòng sợi trục thần kinh (retrograde axonal transport) về tủy sống, xâm nhập có chọn lọc vào các **nơ-ron liên hợp ức chế (Renshaw cells)**, tại đây độc tố cắt đứt **Synaptobrevin**. Quá trình xuất bào các chất dẫn truyền ức chế (GABA và Glycine) bị chặn đứng hoàn toàn $\rightarrow$ mất sự ức chế phản xạ tủy $\rightarrow$ các nơ-ron vận động bị kích thích liên tục, mất kiểm soát $\rightarrow$ **Liệt cứng toàn thân (spastic paralysis)**, co giật cứng, uốn cong người (opisthotonus) và hàm cứng ngắc.
+
+
+## 3. BỆNH LÝ MÀNG TẾ BÀO VÀ BỆNH LÝ KÊNH ION (CHANNELOPATHIES)
+
+Các đột biến gen làm thay đổi thành phần lipid, cấu trúc protein khung xương màng, hoặc làm sai lệch chức năng của các kênh ion và bơm màng dẫn đến hàng loạt bệnh lý phân tử nguy hiểm trên lâm sàng.
+
+---
+
+### 3.1. Bệnh Xơ nang (Cystic Fibrosis - CF): Đột biến gen CFTR
+
+Bệnh xơ nang là bệnh di truyền lặn trên nhiễm sắc thể thường phổ biến nhất ở người da trắng (tỷ lệ mang gen đột biến khoảng 1/25).
+
+#### 3.1.1. Bản chất phân tử của protein CFTR
+- Gen *CFTR* nằm trên nhánh dài của nhiễm sắc thể số 7 ($7q31.2$), mã hóa protein **CFTR (Cystic Fibrosis Transmembrane Conductance Regulator)**.
+- CFTR là một protein màng thuộc siêu họ chất vận chuyển ABC (ATP-Binding Cassette), nhưng tiến hóa độc đáo để hoạt động như một **kênh ion $Cl^-$ (và $HCO_3^-$) phụ thuộc phosphoryl hóa cAMP và ATP**.
+- Cấu trúc gồm 2 miền xuyên màng (TMD1, TMD2 tạo lòng kênh), 2 miền liên kết nucleotide (NBD1, NBD2) và 1 miền điều hòa nội bào (R-domain). Kênh chỉ mở ra khi miền R được enzyme Protein Kinase A (PKA) phosphoryl hóa và miền NBD gắn kết phân tử ATP.
+
+#### 3.1.2. Cơ chế bệnh sinh phân tử của Đột biến $\Delta\text{F508}$
+- Có hơn 2.000 đột biến trên gen *CFTR* đã được phát hiện, nhưng đột biến phổ biến nhất (chiếm khoảng $70\%$ tổng số allele bệnh) là **đột biến mất 3 cặp base dẫn đến mất gốc Phenylalanine ở vị trí 508 ($\Delta\text{F508}$)** trong miền NBD1.
+- Hậu quả của $\Delta\text{F508}$:
+  - Phân tử protein CFTR bị sai lệch gấp cuộn cấu hình không gian bậc 3 (misfolding) ngay trong lòng lưới nội chất (ER).
+  - Hệ thống kiểm soát chất lượng của ER nhận diện protein sai hỏng và chuyển nó đến phức hợp Proteasome $26S$ để phân giải hoàn toàn qua con đường ERAD (Endoplasmic Reticulum-Associated Degradation).
+  - Hậu quả: **Không có protein CFTR nào được vận chuyển lên màng bào tương** của các tế bào biểu mô (đột biến nhóm II).
+
+#### 3.1.3. Biểu hiện lâm sàng và Cơ chế sinh lý bệnh
+- **Tại đường hô hấp và ống tuyến tụy:**
+  - Bình thường, CFTR bơm ion $Cl^-$ từ nội bào ra dịch lót lòng phế quản, đồng thời CFTR ức chế dòng hấp thu natri của kênh ENaC. Sự tiết muối $NaCl$ kéo theo nước thẩm thấu vào lòng phế quản, tạo nên lớp chất nhầy mỏng, trơn láng để hệ thống nhung mao đẩy bụi và vi khuẩn ra ngoài (thanh thải biểu mô nhung mao).
+  - Khi mất CFTR: Biểu mô mất khả năng tiết $Cl^-$, đồng thời mất sự ức chế ENaC khiến natri ($Na^+$) và nước bị hút ngược mạnh mẽ vào trong tế bào biểu mô. Lớp dịch nhầy phế quản bị mất nước nghiêm trọng, trở nên cực kỳ đặc quánh và kết dính (dehydrated, hyperviscous mucus).
+  - Dịch nhầy ứ đọng làm tê liệt cử động nhung mao, tắc nghẽn các phế quản nhỏ, gây nhiễm trùng đường hô hấp tái phát mạn tính (đặc biệt là vi khuẩn mủ xanh *Pseudomonas aeruginosa* và *Staphylococcus aureus*), giãn phế quản và suy hô hấp tiến triển.
+  - Tắc nghẽn các ống dẫn tụy gây ứ trệ enzyme tiêu hóa, viêm tụy xơ hóa, suy tụy ngoại tiết gây tiêu chảy phân mỡ, kém hấp thu vitamin tan trong dầu ($A, D, E, K$) và đái tháo đường liên quan đến xơ nang (CFRD).
+- **Tại tuyến mồ hôi - Tiêu chuẩn vàng chẩn đoán:**
+  - Ở ống tuyến mồ hôi, chức năng của CFTR là **tái hấp thu $Cl^-$ từ mồ hôi sơ cấp trở lại tế bào**.
+  - Mất CFTR khiến $Cl^-$ và $Na^+$ không thể tái hấp thu, bị tống xuất toàn bộ ra bề mặt da.
+  - **Xét nghiệm mồ hôi (Sweat Chloride Test):** Nồng độ $Cl^-$ trong mồ hôi tăng cao rõ rệt ($> 60\,\text{mmol/L}$, người bình thường $< 30\,\text{mmol/L}$) là tiêu chuẩn vàng kinh điển để chẩn đoán xác định bệnh xơ nang ("dấu hiệu nụ hôn mặn").
+
+---
+
+### 3.2. Bệnh Hồng cầu hình cầu di truyền (Hereditary Spherocytosis - HS)
+
+Bệnh hồng cầu hình cầu di truyền là bệnh thiếu máu huyết tán bẩm sinh do khiếm khuyết di truyền của khung xương màng hồng cầu, di truyền trội trên nhiễm sắc thể thường trong $75\%$ các trường hợp.
+
+#### 3.2.1. Cấu trúc khung xương màng hồng cầu bình thường
+Màng hồng cầu phải chịu đựng áp lực cắt (shear stress) cực lớn khi luồn lách qua các mao mạch có đường kính chỉ $3 - 4\,\mu\text{m}$ (trong khi đường kính hồng cầu là $7 - 8\,\mu\text{m}$). Tính đàn hồi cơ học siêu việt này được đảm bảo nhờ mạng lưới khung xương màng (membrane cytoskeleton) nằm ở mặt trong tế bào chất:
+- **Khung sợi Spectrin:** Cấu tạo từ các dị nhị phân (heterodimer) gồm chuỗi $\alpha$-spectrin và $\beta$-spectrin quấn vào nhau, liên kết đầu - đầu tạo thành các tetramer hình sợi dài, đan xen thành mạng lưới mắt cáo hai chiều.
+- **Phức hợp neo Ankyrin - Band 3 (Phức hợp dọc - Vertical linkage):**
+  - Khung spectrin được neo chắc chắn vào lớp lipid kép thông qua protein **Ankyrin**.
+  - Ankyrin liên kết trực tiếp với miền nội bào của protein xuyên màng **Band 3** (kênh trao đổi anion $Cl^- / HCO_3^-$) và protein $4.2$.
+- **Phức hợp Protein 4.1 - Glycophorin / Actin (Phức hợp ngang - Horizontal linkage):**
+  - Các đầu còn lại của spectrin gắn kết với chuỗi ngắn sợi Actin và protein $4.1$, neo vào protein xuyên màng Glycophorin C.
+
+#### 3.2.2. Cơ chế bệnh sinh phân tử và Lâm sàng của Bệnh hồng cầu hình cầu di truyền
+- **Khiếm khuyết di truyền:** Đột biến xảy ra phổ biến nhất ở gen mã hóa **Ankyrin** ($ANK1$, chiếm $\approx 50\%$), theo sau là đột biến gen **Band 3** ($SLC4A1$, $\approx 20\%$), $\beta$-spectrin ($SPTB$), và Protein $4.2$.
+- **Cơ chế mất màng và hình thành hồng cầu hình cầu:**
+  1. Khiếm khuyết liên kết dọc (Ankyrin, Band 3 hoặc Spectrin) làm mất sự gắn kết vững chắc giữa khung xương nâng đỡ với lớp lipid kép bên trên.
+  2. Các vùng lipid kép mất điểm tựa trở nên không ổn định, liên tục bong tách ra ngoài dưới dạng các vi túi bóng màng (membrane microvesicles) khi hồng cầu lưu thông trong lòng mạch.
+  3. Quá trình mất diện tích màng bề mặt diễn ra liên tục trong khi thể tích tế bào chất bên trong giữ nguyên.
+  4. Về mặt hình học không gian, hình cầu là hình có tỷ lệ diện tích bề mặt trên thể tích ($S/V$) nhỏ nhất. Sự sụt giảm diện tích màng cưỡng bức hồng cầu biến đổi từ **hình đĩa lõm hai mặt linh hoạt trở thành hình cầu đặc (Spherocyte)**.
+  5. Hồng cầu hình cầu mất tính biến dạng cơ học (rigid, inflexible cells).
+- **Huyết tán tại lách (Splenic hemolysis):**
+  - Khi đi qua lách, các hồng cầu hình cầu cứng đờ không thể chui lọt qua các khe hẹp (slit) của xoang tĩnh mạch lách (rộng chỉ $1 - 2\,\mu\text{m}$).
+  - Chúng bị mắc kẹt lại tại tủy đỏ của lách trong môi trường acid, thiếu oxy và cạn kiệt glucose.
+  - Các đại thực bào tại lách nhận diện và thực bào tiêu diệt hồng cầu hình cầu, gây ra tam chứng lâm sàng kinh điển: **Thiếu máu huyết tán mạn tính, Vàng da tăng bilirubin gián tiếp, và Lách to**.
+- **Xét nghiệm cận lâm sàng đặc hiệu:**
+  - *Sức bền thẩm thấu hồng cầu (Osmotic fragility test):* Hồng cầu hình cầu vỡ tan ở nồng độ dung dịch muối $NaCl$ cao hơn nhiều so với hồng cầu bình thường (tăng tính nhạy cảm thẩm thấu).
+  - *Nhuộm huỳnh quang EMA (Eosin-5-maleimide) bằng Flow Cytometry:* EMA gắn đặc hiệu vào protein Band 3; ở bệnh nhân HS cường độ huỳnh quang giảm rõ rệt.
+
+---
+
+### 3.3. Hội chứng QT kéo dài di truyền (Long QT Syndrome - LQTS)
+
+Hội chứng QT kéo dài là bệnh lý kênh ion màng tim (cardiac channelopathy) đặc trưng bởi sự kéo dài bất thường của khoảng QT trên điện tâm đồ ($QT_c > 460\,\text{ms}$ ở nữ hoặc $> 450\,\text{ms}$ ở nam), dẫn đến nguy cơ cao xuất hiện cơn nhịp nhanh thất xoắn đỉnh (Torsades de Pointes), ngất và đột tử do tim ở người trẻ tuổi.
+
+#### 3.3.1. Cơ sở điện sinh lý của Điện thế hoạt động cơ tim
+Thời gian của điện thế hoạt động thất (Action Potential Duration - APD), phản ánh bởi khoảng QT, được quyết định bởi sự cân bằng tinh tế giữa dòng ion dương đi vào nội bào (khử cực: dòng $Na^+$ qua kênh $Na_V1.5$ và dòng $Ca^{2+}$ qua kênh L-type $Ca^{2+}$) và dòng ion dương đi ra ngoại bào (tái cực: các dòng $K^+$ làm tái cực, chủ yếu là $I_{Kr}$ và $I_{Ks}$).
+
+#### 3.3.2. Cơ chế phân tử của các phân týp LQTS chính:
+1. **LQTS Thể 1 (LQT1 - Chiếm $\approx 40 - 45\%$):**
+   - *Gen đột biến:* **$KCNQ1$** (mã hóa kênh $K_V7.1$, tiểu đơn vị $\alpha$ dẫn truyền dòng kali tái cực chậm $I_{Ks}$).
+   - *Cơ chế:* Đột biến mất chức năng (loss-of-function) kênh $K_V7.1 \rightarrow$ suy giảm dòng $K^+$ đi ra trong pha 3 tái cực $\rightarrow$ kéo dài thời gian tái cực thất.
+   - *Đặc điểm kích hoạt lâm sàng:* Cơn ngất và xoắn đỉnh thường khởi phát khi **gắng sức thể lực mạnh, đặc biệt là khi bơi lội hoặc vận động căng thẳng**.
+2. **LQTS Thể 2 (LQT2 - Chiếm $\approx 35 - 40\%$):**
+   - *Gen đột biến:* **$KCNH2$** (còn gọi là gen **$HERG$**, mã hóa kênh $K_V11.1$ dẫn truyền dòng kali tái cực nhanh $I_{Kr}$).
+   - *Cơ chế:* Đột biến mất chức năng kênh HERG $\rightarrow$ giảm dòng tái cực nhanh $I_{Kr}$. Kênh HERG cũng là vị trí gắn kết và bị ức chế ngoài ý muốn bởi hàng loạt loại thuốc thông dụng (kháng sinh macrolide, fluoroquinolone, thuốc chống nấm azole, thuốc chống loạn thần, thuốc chống loạn nhịp nhóm IA, III), gây ra hội chứng QT kéo dài mắc phải (acquired LQTS).
+   - *Đặc điểm kích hoạt lâm sàng:* Cơn ngất thường kích hoạt bởi **cảm xúc mạnh, giật mình do tiếng chuông điện thoại, đồng hồ báo thức reo hoặc tiếng động bất thình lình**.
+3. **LQTS Thể 3 (LQT3 - Chiếm $\approx 5 - 10\%$):**
+   - *Gen đột biến:* **$SCN5A$** (mã hóa tiểu đơn vị $\alpha$ của kênh natri phụ thuộc điện thế cơ tim $Na_V1.5$).
+   - *Cơ chế:* Khác với thể 1 và 2, đây là **đột biến tăng chức năng (gain-of-function)**. Đột biến làm hỏng cổng bất hoạt nhanh (fast inactivation gate) của kênh $Na_V1.5$, khiến kênh không đóng kín hoàn toàn ở pha bình nguyên (pha 2) mà liên tục rò rỉ một dòng natri muộn kéo dài đi vào tế bào (late $I_{Na}$). Dòng điện dương liên tục tràn vào làm trì hoãn quá trình tái cực màng, kéo dài khoảng QT.
+   - *Đặc điểm kích hoạt lâm sàng:* Biến cố loạn nhịp và đột tử thường xảy ra **trong lúc ngủ sâu hoặc nghỉ ngơi tĩnh** (khi nhịp tim chậm). Thuốc ức chế kênh natri chọn lọc (như Mexiletine) có tác dụng rút ngắn khoảng QT và đặc trị cho thể bệnh này.
+
+
+## 4. HỆ THỐNG CÂU HỎI LƯỢNG GIÁ VÀ TÌNH HUỐNG LÂM SÀNG
+
+---
+
+### 4.1. Câu hỏi trắc nghiệm khách quan (MCQs - Kèm đáp án và giải thích chi tiết)
+
+#### Câu 1:
+Một bệnh nhân nam 64 tuổi có tiền sử suy tim phân suất tống máu giảm đang được điều trị bằng Digoxin và thuốc lợi tiểu quai Furosemide. Bệnh nhân nhập viện cấp cứu vì buồn nôn, mệt lả và nhìn thấy quầng màu vàng quanh bóng đèn (xanthopsia). Điện tâm đồ ghi nhận nhịp ngoại tâm thu thất xuất hiện từng chùm. Xét nghiệm điện giải đồ máu cho kết quả: $[Na^+] = 138\,\text{mmol/L}$, $[K^+] = 2.8\,\text{mmol/L}$, $[Ca^{2+}] = 2.4\,\text{mmol/L}$. Nồng độ Digoxin trong huyết tương đo được là $2.4\,\text{ng/mL}$ (ngưỡng điều trị khuyến cáo: $0.5 - 0.9\,\text{ng/mL}$). Yếu tố nào sau đây đóng vai trò trực tiếp nhất làm tăng độc tính và thúc đẩy ngộ độc Digoxin trên bệnh nhân này?
+- A. Nồng độ $Na^+$ máu bình thường làm tăng hoạt tính bơm SERCA.
+- B. Nồng độ $K^+$ ngoại bào hạ thấp làm giảm sự cạnh tranh gắn kết của $K^+$ với vị trí liên kết trên tiểu đơn vị $\alpha$ của bơm $Na^+-K^+$-ATPase ở trạng thái $E_2-P$.
+- C. Hạ kali máu kích thích trực tiếp quá trình xuất bào phụ thuộc Clathrin của thụ thể Digoxin.
+- D. Bơm $Na^+-K^+$-ATPase bị ức chế dẫn tới tăng đào thải ion $Ca^{2+}$ nội bào qua chất đối vận chuyển NCX.
+
+**Đáp án đúng: B**
+*Giải thích chi tiết:*
+Digoxin phát huy tác dụng thông qua liên kết đặc hiệu vào mặt ngoại bào của tiểu đơn vị $\alpha$ của bơm $Na^+-K^+$-ATPase khi bơm ở trạng thái cấu hình $E_2-P$. Tại vị trí này, ion $K^+$ ngoại bào đóng vai trò là chất cạnh tranh tự nhiên: khi nồng độ $K^+$ ngoại bào bình thường hoặc cao, $K^+$ sẽ chiếm giữ vị trí gắn, thúc đẩy phản ứng khử phosphoryl hóa giải phóng Digoxin ra ngoài. Khi bệnh nhân bị hạ kali máu nghiêm trọng ($[K^+] = 2.8\,\text{mmol/L}$) do tác dụng phụ đào thải kali của thuốc lợi tiểu Furosemide, sự cạnh tranh của $K^+$ bị suy giảm trầm trọng. Điều này tạo điều kiện thuận lợi cho Digoxin gắn chặt và kéo dài trên phân tử bơm, gây ức chế bơm nặng nề ngay cả khi nồng độ thuốc trong máu chỉ tăng nhẹ, dẫn tới tích lũy quá mức $Ca^{2+}$ nội bào, kích hoạt các ổ phát nhịp lạc chỗ và gây ngộ độc tim đe dọa tính mạng. Lựa chọn A, C sai bản chất sinh hóa; lựa chọn D sai vì ức chế bơm làm *giảm* đào thải $Ca^{2+}$ qua NCX (chứ không phải tăng).
+
+---
+
+#### Câu 2:
+Trong một nghiên cứu sinh học tế bào về chết tế bào theo chương trình (Apoptosis), người ta sử dụng kháng thể gắn huỳnh quang hoặc protein chuyên biệt để phát hiện các biến đổi sớm ở màng tế bào. Dấu hiệu biến đổi lipid màng nào sau đây là chỉ dấu kinh điển đặc hiệu cho thấy tế bào đang bắt đầu bước vào giai đoạn sớm của Apoptosis?
+- A. Sự chuyển dịch của Sphingomyelin từ lá màng ngoài vào lá màng trong nhờ enzyme Floppase.
+- B. Sự lộ diện của Phosphatidylserin (PS) từ lá trong ra bề mặt lá ngoài của màng tế bào do kích hoạt enzyme Scramblase và bất hoạt Flippase.
+- C. Sự tăng tổng hợp Cardiolipin tại màng ngoài tế bào chất để thu hút bổ thể.
+- D. Sự thủy phân hoàn toàn cholesterol màng bởi enzyme Phospholipase C để tạo diacylglycerol.
+
+**Đáp án đúng: B**
+*Giải thích chi tiết:*
+Ở tế bào sống bình thường, Phosphatidylserin (PS) phân bố độc quyền ở lá trong của màng tế bào nhờ hoạt động liên tục của enzyme Flippase (tiêu tốn ATP). Khi tế bào trải qua apoptosis, nồng độ $Ca^{2+}$ nội bào tăng cao kích hoạt enzyme Scramblase và enzyme Caspase-3 phân cắt bất hoạt Flippase. Hậu quả là tính bất đối xứng lipid bị phá vỡ, Phosphatidylserin bị lật ra lá ngoài màng tế bào. Phân tử PS ở mặt ngoài đóng vai trò là "tín hiệu hãy ăn tôi" (eat-me signal) để đại thực bào nhận diện và thực bào. Trong phòng thí nghiệm, protein Annexin V gắn huỳnh quang có ái lực cao với PS được sử dụng để phát hiện giai đoạn này. Cardiolipin là lipid đặc hiệu của màng trong ty thể (C sai); Sphingomyelin phân bố chủ yếu ở lá ngoài (A sai); Phospholipase C thủy phân $PIP_2$ chứ không thủy phân cholesterol (D sai).
+
+---
+
+#### Câu 3:
+Một trẻ sơ sinh nam 3 tuần tuổi được đưa đến bệnh viện khám vì biểu hiện bú kém, chậm tăng cân, nôn trớ và thường xuyên đi ngoài phân mỡ nhớt, có mùi thối khắm. Trẻ từng bị tắc ruột phân su sau sinh 48 giờ. Mẹ trẻ nhận thấy khi hôn lên má con thì có vị rất mặn. Xét nghiệm điện giải mồ hôi bằng phương pháp iontophoresis với pilocarpine ghi nhận nồng độ ion $Cl^-$ trong mồ hôi là $78\,\text{mmol/L}$ (giá trị bình thường: $< 30\,\text{mmol/L}$). Cơ chế phân tử nền tảng của khiếm khuyết di truyền phổ biến nhất ở bệnh nhân này là gì?
+- A. Đột biến vô nghĩa (Nonsense mutation) tạo mã kết thúc sớm làm mất hoàn toàn chuỗi peptide CFTR.
+- B. Đột biến mất 3 nucleotide dẫn tới mất gốc Phenylalanine ở vị trí 508 ($\Delta\text{F508}$), khiến protein bị sai cuộn cấu hình và bị thoái giáng bởi Proteasome tại lưới nội chất (ERAD).
+- C. Đột biến tăng chức năng kênh CFTR làm tăng tiết ồ ạt ion $Cl^-$ vào ống tuyến mồ hôi.
+- D. Đột biến gen mã hóa kênh ENaC làm tăng hấp thu clo thứ phát ở niêm mạc phế quản.
+
+**Đáp án đúng: B**
+*Giải thích chi tiết:*
+Bệnh cảnh lâm sàng (chậm lớn, phân mỡ, tắc ruột phân su, mồ hôi mặn với $Cl^- > 60\,\text{mmol/L}$) là điển hình của bệnh Xơ nang (Cystic Fibrosis). Đột biến gen phổ biến nhất chiếm khoảng $70\%$ trường hợp là đột biến $\Delta\text{F508}$ (mất codon mã hóa Phenylalanine tại vị trí 508). Đột biến này khiến chuỗi polypeptide CFTR không cuộn gấp đúng không gian bậc ba trong lưới nội chất (ER). Cơ chế kiểm soát chất lượng của tế bào nhận diện protein gấp cuộn sai và chuyển tới Proteasome 26S để phá hủy hoàn toàn (con đường ERAD), khiến cho không có kênh CFTR chức năng nào được biểu hiện trên bề mặt màng tế bào biểu mô (đột biến nhóm II). Mất CFTR ở tuyến mồ hôi làm giảm tái hấp thu $Cl^-$ từ dịch mồ hôi sơ cấp, dẫn tới tăng $Cl^-$ và $Na^+$ trong mồ hôi bài tiết ra ngoài.
+
+---
+
+#### Câu 4:
+Một bệnh nhân nữ 52 tuổi mắc đái tháo đường týp 2 và béo phì ($BMI = 31.5\,\text{kg/m}^2$) được bác sĩ chuyên khoa nội tiết kê đơn điều trị bằng Dapagliflozin (thuốc ức chế SGLT2). Cơ chế tác dụng hạ đường huyết và vị trí tác động chính của nhóm thuốc này là gì?
+- A. Ức chế cạnh tranh kênh GLUT4 ở mô mỡ và cơ vân, ngăn chặn tích lũy mỡ nội tạng.
+- B. Ức chế chọn lọc protein đồng vận chuyển $Na^+$-Glucose (SGLT2) tại màng đỉnh tế bào biểu mô ống lượn gần thận, làm giảm ngưỡng tái hấp thu glucose và tăng đào thải glucose qua nước tiểu.
+- C. Bất hoạt bơm $Na^+-K^+$-ATPase ở bờ bàn chải ruột non, ngăn cản hấp thu glucose từ thức ăn.
+- D. Tăng cường biểu hiện thụ thể insulin trên màng tế bào gan, kích hoạt chuỗi truyền tín hiệu IRS-1 / Akt.
+
+**Đáp án đúng: B**
+*Giải thích chi tiết:*
+Protein SGLT2 là protein đồng vận chuyển $Na^+$-Glucose ($1\,Na^+ : 1\,\text{Glucose}$) khu trú tại màng đỉnh (màng bờ bàn chải) đoạn S1 và S2 của ống lượn gần ở vỏ thận, chịu trách nhiệm tái hấp thu khoảng $90\%$ lượng glucose được lọc qua cầu thận. Thuốc Dapagliflozin (cũng như Empagliflozin, Canagliflozin) ức chế chọn lọc và cạnh tranh với SGLT2, ngăn chặn quá trình tái hấp thu glucose tại ống lượn gần, khiến một lượng lớn glucose (khoảng $70 - 100\,\text{g/ngày}$) bị đào thải qua nước tiểu, nhờ đó giúp hạ nồng độ đường huyết hiệu quả, đồng thời gây mất calo giúp giảm cân. SGLT1 mới là chất mang ở ruột non (C sai); thuốc không tác động lên GLUT4 (A sai) hay thụ thể insulin (D sai).
+
+---
+
+#### Câu 5:
+Một bệnh nhân nam 28 tuổi đến khám vì sốt nhẹ, mệt mỏi và vàng mắt vàng da từng đợt tái diễn từ nhỏ. Khám lâm sàng phát hiện lách to độ II. Bác sĩ huyết học nghi ngờ bệnh nhân mắc bệnh hồng cầu hình cầu di truyền (Hereditary Spherocytosis). Cơ chế bệnh sinh phân tử trực tiếp dẫn đến sự biến đổi từ hồng cầu hình đĩa lõm hai mặt sang hồng cầu hình cầu ở bệnh nhân này là gì?
+- A. Đột biến gen hemoglobin gây kết tủa chuỗi globin làm biến dạng màng tế bào.
+- B. Khiếm khuyết các protein khung xương màng (Ankyrin, Spectrin, hoặc Band 3) làm mất liên kết nâng đỡ giữa bộ khung xương màng và lớp lipid kép, dẫn tới sự bong bóng liên tục các vi túi lipid và làm giảm tỷ lệ diện tích bề mặt trên thể tích ($S/V$).
+- C. Tăng hoạt tính bơm $Ca^{2+}$-ATPase màng bào tương (PMCA) làm giảm nồng độ $Ca^{2+}$ nội bào, gây mất tính đàn hồi màng.
+- D. Đột biến kênh trao đổi anion Band 3 làm tăng tích lũy ion $HCO_3^-$ trong hồng cầu gây phù tế bào.
+
+**Đáp án đúng: B**
+*Giải thích chi tiết:*
+Bệnh hồng cầu hình cầu di truyền (Hereditary Spherocytosis) xuất phát từ các đột biến gen mã hóa các thành phần của bộ khung xương màng hồng cầu hoặc phức hợp neo thẳng đứng nối khung xương với màng lipid kép: phổ biến nhất là đột biến gen Ankyrin ($ANK1$), tiếp theo là Band 3 ($SLC4A1$), $\beta$-spectrin ($SPTB$) và Protein 4.2. Khi liên kết dọc giữa khung spectrin và màng lipid bị khiếm khuyết, lớp lipid kép thiếu điểm tựa trở nên không ổn định cơ học. Dưới tác động của lực xé và áp lực dòng chảy trong tuần hoàn, các phần lipid kép mất điểm tựa liên tục bong tách ra ngoài thành các vi túi màng (microvesicles). Do mất diện tích màng bề mặt nhưng thể tích tế bào chất bên trong không đổi, tỷ lệ diện tích bề mặt trên thể tích ($S/V$) bị sụt giảm, ép buộc hồng cầu chuyển thành hình cầu. Hồng cầu hình cầu mất tính dẻo dai cơ học, bị kẹt lại và phá hủy tại các xoang lách bởi đại thực bào, gây thiếu máu huyết tán và lách to.
+
+---
+
+### 4.2. Câu hỏi Tự luận chuyên sâu (Kèm Barem điểm chi tiết)
+
+#### Câu hỏi 1 (5,0 điểm):
+**Trình bày cấu trúc phân tử, chu trình chuyển dạng cấu hình hoạt động $E_1/E_2$ (chu trình Post-Albers) của bơm $Na^+-K^+$-ATPase ở màng bào tương tế bào. Phân tích cơ chế phân tử tác dụng làm tăng lực co bóp cơ tim của thuốc Glycoside tim (Digoxin) trong điều trị suy tim và giải thích vì sao hạ kali máu làm tăng độc tính của Digoxin.**
+
+#### BAREM ĐÁP ÁN VÀ THANG ĐIỂM CHI TIẾT CÂU 1:
+
+| Nội dung yêu cầu | Điểm thành phần |
+| :--- | :--- |
+| **1. Cấu trúc phân tử của Bơm $Na^+-K^+$-ATPase:**<br>- Thuộc họ P-type ATPase, gồm 3 tiểu đơn vị:<br>+ **Tiểu đơn vị $\alpha$ ($\,\approx 110\,\text{kDa}$, 10 chuỗi xoắn xuyên màng):** Là tiểu phần xúc tác chính, chứa vị trí gắn $Na^+$ và $K^+$, vị trí gắn và thủy phân ATP ở miền bào tương, gốc $Asp_{369}$ tiếp nhận nhóm phosphate, và vị trí gắn Digoxin/Ouabain ở mặt ngoại bào.<br>+ **Tiểu đơn vị $\beta$ ($\,\approx 40 - 55\,\text{kDa}$, glycoprotein 1 đoạn xuyên màng):** Cần thiết cho sự cuộn gập cấu hình, định vị và ổn định bơm trên màng bào tương.<br>+ **Tiểu đơn vị $\gamma$ (protein FXYD):** Điều hòa ái lực của bơm đối với ion. | **1,0 điểm**<br>(0,5 điểm cho $\alpha$; 0,25 điểm cho $\beta$; 0,25 điểm cho $\gamma$) |
+| **2. Chu trình chuyển dạng cấu hình Post-Albers ($E_1 \leftrightarrow E_2$):**<br>- Trình bày chính xác quá trình tiêu tốn 1 phân tử ATP để bơm $3\,Na^+$ ra ngoài và đưa $2\,K^+$ vào trong tế bào qua các bước chuyển dạng:<br>+ **Bước 1 (Trạng thái $E_1$):** Bơm mở về phía tế bào chất, có ái lực cao với $Na^+$. Ba ion $Na^+$ nội bào gắn vào tiểu đơn vị $\alpha$.<br>+ **Bước 2 (Phosphoryl hóa tạo $E_1\sim P$):** ATP gắn và chuyển nhóm $\gamma$-phosphate vào gốc $Asp_{369}$, giải phóng ADP, bẫy kín $3\,Na^+$.<br>+ **Bước 3 (Chuyển dạng sang $E_2-P$):** Bơm biến đổi cấu hình, mở ra phía dịch ngoại bào, giảm ái lực với $Na^+$, giải phóng $3\,Na^+$ ra ngoài dịch kẽ.<br>+ **Bước 4 (Gắn $K^+$):** Hai ion $K^+$ ngoại bào gắn vào các vị trí ái lực cao trên $E_2-P$.<br>+ **Bước 5 (Khử phosphoryl hóa tạo $E_2$):** Sự gắn $K^+$ kích hoạt thủy phân giải phóng $P_i$ khỏi gốc Aspartyl, bẫy kín $2\,K^+$.<br>+ **Bước 6 (Tái tạo $E_1$):** Phân tử ATP mới gắn vào thúc đẩy bơm trở lại cấu hình $E_1$, mở vào trong tế bào chất và giải phóng $2\,K^+$ vào nội bào. | **1,5 điểm**<br>(Nêu đúng nguyên lý 1 ATP tống $3\,Na^+$, đón $2\,K^+$: 0,5 điểm; mô tả đủ các bước chuyển đổi $E_1, E_1\sim P, E_2-P, E_2$: 1,0 điểm) |
+| **3. Cơ chế tăng lực co bóp cơ tim của Digoxin:**<br>- Digoxin gắn đặc hiệu vào mặt ngoại bào của tiểu đơn vị $\alpha$ khi bơm ở trạng thái cấu hình $E_2-P$, phong bế chu trình khử phosphoryl hóa, gây ức chế hoạt tính bơm $Na^+-K^+$-ATPase màng sợi cơ tim.<br>- Hậu quả: $Na^+$ không được tống ra ngoài $\rightarrow$ nồng độ $[Na^+]$ nội bào tăng lên $\rightarrow$ làm suy giảm gradient nồng độ $Na^+$ giữa hai bên màng.<br>- Gradient $Na^+$ bị suy giảm làm giảm động lực hoạt động của protein đối vận chuyển $Na^+-Ca^{2+}$ (NCX) $\rightarrow$ giảm tống xuất $Ca^{2+}$ ra dịch kẽ.<br>- Nồng độ $Ca^{2+}$ nội bào tăng cao được bơm SERCA tích cực tái thu nạp nhồi đầy vào các túi của lưới nội cơ tương (SR).<br>- Ở chu kỳ co bóp tiếp theo, lượng $Ca^{2+}$ giải phóng từ SR vào tế bào chất tăng vọt, gắn vào Troponin C làm tăng số cầu nối actin-myosin $\rightarrow$ làm tăng lực co bóp cơ tim (tác dụng inotropic dương tính). | **1,5 điểm**<br>(Ức chế bơm $\rightarrow$ tăng $Na^+$ nội bào: 0,5 điểm; giảm hoạt tính NCX $\rightarrow$ tăng tích lũy $Ca^{2+}$: 0,5 điểm; nhồi $Ca^{2+}$ vào SR và tăng co bóp cơ tim: 0,5 điểm) |
+| **4. Giải thích vì sao hạ kali máu làm tăng độc tính của Digoxin:**<br>- Vị trí gắn của Digoxin trên tiểu đơn vị $\alpha$ của bơm ở trạng thái $E_2-P$ có sự tương tác cạnh tranh dị lập thể/trực tiếp với ion $K^+$ ngoại bào.<br>- Bình thường nồng độ $K^+$ ngoại bào ($3.5 - 5.0\,\text{mmol/L}$) cạnh tranh gắn kết, thúc đẩy khử phosphoryl hóa và làm giảm sự gắn kết của Digoxin.<br>- Khi có tình trạng **hạ kali máu** (ví dụ do dùng kèm thuốc lợi tiểu mất kali quai Furosemide hoặc Thiazide): nồng độ $K^+$ dịch kẽ giảm làm mất sự cạnh tranh, tạo điều kiện cho Digoxin gắn kết chặt chẽ và kéo dài vào phân tử bơm.<br>- Hậu quả: Mức độ ức chế bơm $Na^+-K^+$-ATPase tăng vọt ngay cả khi nồng độ Digoxin trong huyết tương nằm trong khoảng điều trị thông thường, gây quá tải $Ca^{2+}$ nội bào cực độ, kích hoạt các điện thế sau khử cực muộn (DADs) gây loạn nhịp thất chết người (nhịp nhanh thất, rung thất). | **1,0 điểm**<br>(Phân tích tương tác cạnh tranh giữa $K^+$ và Digoxin: 0,5 điểm; liên hệ hậu quả lâm sàng gây ngộ độc loạn nhịp thất: 0,5 điểm) |
+
+---
+
+#### Câu hỏi 2 (5,0 điểm):
+**Phân tích và so sánh đặc điểm phân tử, vị trí giải phẫu, cơ chế vận chuyển và nguồn năng lượng của các protein họ SGLT (SGLT1, SGLT2) so với các protein họ GLUT (GLUT1, GLUT2, GLUT3, GLUT4). Trình bày cơ chế phân tử tác dụng hạ đường huyết và lợi ích bảo vệ tim - thận của nhóm thuốc ức chế SGLT2 (Dapagliflozin, Empagliflozin) trong điều trị bệnh đái tháo đường týp 2 và suy tim.**
+
+#### BAREM ĐÁP ÁN VÀ THANG ĐIỂM CHI TIẾT CÂU 2:
+
+| Nội dung yêu cầu | Điểm thành phần |
+| :--- | :--- |
+| **1. Bảng so sánh toàn diện giữa Họ SGLT và Họ GLUT:**<br>- Trình bày bảng so sánh đầy đủ các tiêu chí:<br>+ **Bản chất cơ chế:** SGLT là vận chuyển tích cực thứ phát (Secondary active transport - đồng vận chuyển symport); GLUT là khuếch tán thuận hóa (Facilitated diffusion - uniport).<br>+ **Nguồn năng lượng:** SGLT sử dụng thế năng từ gradient nồng độ ion $Na^+$ do bơm $Na^+-K^+$-ATPase tạo ra; GLUT không tiêu tốn năng lượng (hoàn toàn xuôi chiều gradient nồng độ glucose).<br>+ **Chiều vận chuyển:** SGLT có khả năng vận chuyển ngược chiều gradient nồng độ glucose (cô đặc glucose nội bào); GLUT chỉ vận chuyển xuôi chiều gradient nồng độ glucose.<br>+ **Chất vận chuyển kèm:** SGLT bắt buộc đồng vận chuyển với ion $Na^+$ ($2\,Na^+$ với SGLT1, $1\,Na^+$ với SGLT2); GLUT chỉ vận chuyển đơn thuần phân tử đường (glucose, fructose), không cần ion đi kèm.<br>+ **Phân bố giải phẫu chính:** SGLT khu trú ở màng đỉnh biểu mô phân cực (SGLT1 ở niêm mạc ruột non và ống thận S3; SGLT2 ở ống lượn gần S1-S2); GLUT phân bố rộng khắp các mô (GLUT1 ở hồng cầu/hàng rào máu não; GLUT2 ở gan/tế bào $\beta$ tụy; GLUT3 ở nơ-ron não; GLUT4 ở cơ vân/cơ tim/mô mỡ).<br>+ **Điều hòa bởi Insulin:** SGLT không phụ thuộc insulin; trong họ GLUT chỉ có **GLUT4 phụ thuộc hoàn toàn vào insulin** (huy động từ túi bóng nội bào lên màng). | **2,0 điểm**<br>(Nêu đúng bản chất và nguồn năng lượng: 0,5 điểm; chiều vận chuyển và ghép cặp ion: 0,5 điểm; phân bố giải phẫu các typ: 0,5 điểm; đặc điểm điều hòa bởi insulin: 0,5 điểm) |
+| **2. Cơ chế phân tử tác dụng hạ đường huyết của Thuốc ức chế SGLT2:**<br>- Bình thường ở người trưởng thành khỏe mạnh, mỗi ngày có khoảng $180\,\text{g}$ glucose được lọc tự do qua cầu thận và được tái hấp thu gần như hoàn toàn ở ống lượn gần ($90\%$ qua SGLT2 ở đoạn S1/S2 và $10\%$ qua SGLT1 ở đoạn S3).<br>- Thuốc ức chế SGLT2 (Dapagliflozin, Empagliflozin, Canagliflozin) là các chất ức chế cạnh tranh có ái lực rất cao và chọn lọc đối với protein SGLT2 tại bờ bàn chải màng đỉnh ống lượn gần.<br>- Ức chế SGLT2 làm giảm ngưỡng tái hấp thu glucose của thận, dẫn tới đào thải khoảng $70 - 100\,\text{g}$ glucose tự do mỗi ngày qua nước tiểu.<br>- Kết quả: Giúp hạ đường huyết lúc đói và sau ăn, giảm chỉ số $HbA1c$ hiệu quả mà không kích thích tế bào $\beta$ tụy tiết insulin, do đó **không có nguy cơ gây tác dụng phụ hạ đường huyết quá mức** (hypoglycemia). Đào thải đường còn kéo theo mất năng lượng khoảng $300\,\text{kcal/ngày}$, hỗ trợ giảm cân và giảm mỡ tạng cho bệnh nhân đái tháo đường. | **1,5 điểm**<br>(Sinh lý tái hấp thu glucose tại ống lượn gần: 0,5 điểm; cơ chế ức chế chọn lọc SGLT2 và đào thải glucose niệu: 0,5 điểm; ưu điểm hạ đường huyết không gây tụt đường huyết nguy hiểm và giảm cân: 0,5 điểm) |
+| **3. Cơ chế phân tử lợi ích bảo vệ Tim và Thận (Cardio-Renal Protection) của Thuốc ức chế SGLT2:**<br>- **Bảo vệ Thận (Renal protection):**<br>+ Ức chế SGLT2 làm giảm đồng tái hấp thu cả glucose và $Na^+$, dẫn đến tăng lượng natri và dịch được đưa đến tế bào Macula Densa (dết đặc) ở phức hợp cạnh cầu thận.<br>+ Tế bào Macula Densa nhận diện nồng độ natri cao sẽ kích hoạt cơ chế **Phản hồi cầu - ống thận (Tubuloglomerular feedback)**, gây giải phóng Adenosine cục bộ làm co tiểu động mạch đến của cầu thận.<br>+ Co tiểu động mạch đến làm giảm áp lực thủy tĩnh nội cầu thận và giảm tình trạng siêu lọc (hyperfiltration) - căn nguyên chính gây xơ hóa cầu thận trong bệnh thận đái tháo đường, nhờ đó làm chậm tiến triển suy giảm mức lọc cầu thận ($eGFR$) và giảm bài xuất albumin niệu dài hạn.<br>- **Bảo vệ Tim mạch và Cải thiện Suy tim (Heart failure benefits):**<br>+ Tác dụng lợi niệu thẩm thấu do đường và lợi niệu natri (natriuresis) giúp giảm thể tích tuần hoàn kẽ, giảm áp lực tiền gánh và hậu gánh của thất trái mà không kích hoạt phản xạ cường giao cảm.<br>+ Ức chế chất đối vận chuyển $Na^+-H^+$ (NHE1) ở tế bào cơ tim giúp giảm nồng độ $Na^+$ và $Ca^{2+}$ nội bào cơ tim, giảm tổn thương xơ hóa cơ tim.<br>+ Thúc đẩy chuyển dịch chuyển hóa nhiên liệu cơ tim: tăng sinh tổng hợp thể ceton ($\beta$-hydroxybutyrate) làm nguồn nguyên liệu oxy hóa tạo ATP hiệu quả và tiết kiệm oxy hơn so với acid béo, tối ưu hóa năng lượng co bóp cơ tim. | **1,5 điểm**<br>(Cơ chế bảo vệ thận qua phản hồi cầu - ống và giảm siêu lọc: 0,75 điểm; cơ chế bảo vệ tim mạch, giảm tiền/hậu gánh, chuyển hóa ceton và giảm tái cấu trúc thất: 0,75 điểm) |
+
+---
+
+## 5. TÀI LIỆU THAM KHẢO CHUẨN MỰC
+1. GS. TS. BS. Tạ Thành Văn (Chủ biên) (2023). *Giáo trình Hóa sinh Y học*, Tái bản lần thứ 7, Nhà xuất bản Y học Hà Nội (Chương 14: Hóa sinh màng tế bào, Tr. 304 – 322).
+2. David L. Nelson, Michael M. Cox (2021). *Lehninger Principles of Biochemistry*, 8th Edition, W. H. Freeman and Company (Chapter 11: Biological Membranes and Transport).
+3. Bruce Alberts, Alexander Johnson, Julian Lewis, David Morgan, Martin Raff, Keith Roberts, Peter Walter (2022). *Molecular Biology of the Cell*, 7th Edition, W. W. Norton & Company (Chapter 10: Membrane Structure; Chapter 11: Membrane Transport of Small Molecules and the Electrical Properties of Membranes; Chapter 13: Intracellular Membrane Traffic).
+4. Victor W. Rodwell, David A. Bender, Kathleen M. Botham, Peter J. Kennelly, P. Anthony Weil (2022). *Harper’s Illustrated Biochemistry*, 32nd Edition, McGraw-Hill Education (Chapter 40: Membranes: Structure & Function).
+5. John E. Hall, Michael E. Hall (2021). *Guyton and Hall Textbook of Medical Physiology*, 14th Edition, Elsevier (Chapter 4: Transport of Substances Through Cell Membranes).
+6. Joseph Loscalzo, Dennis Kasper, Dan Longo, Anthony Fauci, Stephen Hauser, J. Larry Jameson (2022). *Harrison's Principles of Internal Medicine*, 21st Edition, McGraw-Hill (Chapter 286: Heart Failure: Pathophysiology and Diagnosis; Chapter 315: Cystic Fibrosis; Chapter 418: Diabetes Mellitus).

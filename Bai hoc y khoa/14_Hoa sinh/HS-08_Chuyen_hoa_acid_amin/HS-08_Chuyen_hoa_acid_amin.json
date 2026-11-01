@@ -1,16 +1,106 @@
 {
   "id": "HS-08",
-  "specialty": "hoasinh",
-  "specialty_name": "Hóa Sinh Y Khoa",
-  "part": "Phần I: Cấu tạo và Chuyển hóa chất",
-  "chapter": "Chương 8. Chuyển hóa acid amin",
-  "title": "Khử amin, trao đổi amin, chu trình urê và bệnh lý chuyển hóa acid amin",
+  "specialty": "Biochemistry",
+  "part": "Phần II: Chuyển hóa chất",
+  "chapter": "Chương 8: Chuyển hóa acid amin và các hợp chất chứa nitơ",
+  "title": "Chuyển hóa acid amin, chu trình urê và rối loạn bẩm sinh",
   "author": "ThS. BS. Ngô Thị Thu Hiền, GS. TS. BS. Tạ Thành Văn — ĐHY Hà Nội",
-  "start_page": 177,
-  "end_page": 204,
+  "curators": "HungMed Biochemistry Master Team",
   "pages": "177-204",
-  "word_count": 5684,
+  "word_count": 8600,
   "figures_count": 5,
   "tables_count": 2,
-  "source": "Giáo trình Hóa sinh Y học ĐHY Hà Nội (2019/2023)"
+  "source": "Giáo trình Hóa sinh Y học (GS. TS. BS. Tạ Thành Văn chủ biên, NXB Y học)",
+  "learning_objectives": [
+    "Phân tích nguồn gốc và số phận của acid amin trong cơ thể, cơ chế thoái hóa protein nội sinh qua hệ thống Ubiquitin-Proteasome 26S.",
+    "Làm chủ cơ chế phản ứng trao đổi amin (Transamination), vai trò của coenzym PLP (Vitamin B6), phương trình xúc tác và ý nghĩa lâm sàng tỷ số De Ritis (AST/ALT).",
+    "Phân tích cơ chế khử amin oxy hóa, vai trò độc tôn của Glutamat dehydrogenase (GDH) tại ty thể gan và sự điều hòa dị lập thể bởi GTP/ATP và GDP/ADP.",
+    "Biện giải các con đường vận chuyển amoniac an toàn từ mô ngoại vi về gan qua Chu trình Glucose-Alanin và con đường Glutamin.",
+    "Trình bày chi tiết 5 bước của Chu trình Urê (Krebs-Henseleit cycle) tại gan, vai trò chất hoạt hóa NAG, chi phí năng lượng và cầu nối Krebs Bicycle.",
+    "Biện giải cơ chế sinh hóa học của Độc tính Amoniac và Bệnh não gan (Hepatic Encephalopathy), cơ chế tác dụng của Lactulose và Rifaximin.",
+    "Biện luận các rối loạn chuyển hóa acid amin bẩm sinh: Phenylketon niệu (PKU), Bệnh siro niệu (MSUD), Alkapton niệu, Bạch tạng và Homocystin niệu."
+  ],
+  "sections": [
+    {
+      "id": "1",
+      "title": "Nguồn gốc và số phận chuyển hóa của acid amin",
+      "subsections": [
+        "1.1. Nguồn cung cấp acid amin (Quỹ acid amin tự do)",
+        "1.2. Cơ chế thoái hóa protein nội sinh: Hệ thống Ubiquitin - Proteasome 26S"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Phản ứng trao đổi amin (Transamination)",
+      "subsections": [
+        "2.1. Phương trình phản ứng tổng quát và Coenzym Pyridoxal Phosphat (PLP)",
+        "2.2. Hai enzym Transaminase lâm sàng cốt lõi: ALT và AST",
+        "2.3. Ý nghĩa lâm sàng và Tỷ số De Ritis (AST/ALT)"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Phản ứng khử amin oxy hóa (Oxidative deamination)",
+      "subsections": [
+        "3.1. Cơ chế xúc tác của Glutamat Dehydrogenase (GDH)",
+        "3.2. Sự liên hợp Trao đổi amin - Khử amin oxy hóa (Transdeamination)",
+        "3.3. Cơ chế điều hòa dị lập thể của Glutamat Dehydrogenase"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Vận chuyển amoniac từ các mô về gan",
+      "subsections": [
+        "4.1. Con đường Glutamin: Vận chuyển amoniac từ não và hầu hết các mô",
+        "4.2. Chu trình Glucose - Alanin (Cơ - Gan / Cahill Cycle)"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Chu trình Urê (Krebs - Henseleit cycle)",
+      "subsections": [
+        "5.1. Cấu trúc phân tử Urê và nguồn gốc các nguyên tử",
+        "5.2. Năm phản ứng enzym chi tiết của Chu trình Urê",
+        "5.3. Chi phí năng lượng và Cầu nối Krebs - Aspartat (Krebs Bicycle)",
+        "5.4. Cơ chế điều hòa Chu trình Urê"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Độc tính của amoniac và cơ chế bệnh sinh Bệnh não gan",
+      "subsections": [
+        "6.1. Cơ chế sinh hóa học của Độc tính Amoniac lên hệ thần kinh trung ương",
+        "6.2. Cơ chế bệnh sinh Bệnh não gan (Hepatic Encephalopathy) và Phác đồ điều trị"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Rối loạn chuyển hóa acid amin bẩm sinh (Inborn errors of metabolism)",
+      "subsections": [
+        "7.1. Bảng đối chiếu tổng quan các bệnh chuyển hóa acid amin kinh điển",
+        "7.2. Phân tích cơ chế bệnh sinh chi tiết từng bệnh (PKU, MSUD, Alkapton niệu, Bạch tạng, Homocystin niệu)"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Câu hỏi lượng giá và ca lâm sàng chuyên sâu",
+      "subsections": [
+        "8.1. Bộ câu hỏi trắc nghiệm khách quan (MCQs - 10 câu)",
+        "8.2. Ca lâm sàng chuyên sâu: Hôn mê gan trên bệnh nhân xơ gan sau xuất huyết tiêu hóa"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Cơ thể không có kho dự trữ acid amin chuyên biệt; acid amin liên tục được luân chuyển và đổi mới protein (protein turnover ~300-400 g/ngày).",
+    "Thoái hóa protein nội sinh chọn lọc diễn ra qua hệ thống Ubiquitin - Proteasome 26S tiêu tốn ATP với sự tham gia của 3 enzym E1, E2, E3.",
+    "Phản ứng trao đổi amin (Transamination) gom các nhóm -NH2 về L-Glutamat, phụ thuộc coenzym PLP (Vitamin B6). Lys, Thr, Pro, Hyp không tham gia trao đổi amin.",
+    "ALT đặc hiệu ở tế bào chất của gan; AST phân bố cả ở bào tương (20%) và ty thể (80%) của gan, tim, cơ xương. Tỷ số De Ritis AST/ALT > 2 đặc hiệu cho tổn thương gan do rượu; AST/ALT < 1 điển hình cho viêm gan virus cấp.",
+    "Glutamat Dehydrogenase (GDH) ở ty thể tế bào gan là enzym then chốt khử amin oxy hóa Glutamat, giải phóng NH4+ cho chu trình urê; bị ức chế bởi GTP/ATP và kích hoạt bởi GDP/ADP.",
+    "Amoniac được vận chuyển an toàn về gan dưới dạng L-Glutamin (từ não và mô) và L-Alanin (chu trình Glucose - Alanin từ cơ).",
+    "Chu trình Urê gồm 5 bước diễn ra độc quyền tại gan (bước 1-2 trong ty thể, bước 3-5 trong bào tương), tiêu tốn 3 ATP (4 liên kết cao năng). CPS-I là enzym giới hạn tốc độ và bắt buộc có N-acetylglutamat (NAG) hoạt hóa dị lập thể.",
+    "Urê có 1 nguyên tử N từ NH4+, 1 nguyên tử N từ L-Aspartat, và carbon từ HCO3-. Cầu nối Krebs Bicycle qua Fumarat giúp thu hồi năng lượng.",
+    "Amoniac độc với não do gây sưng phồng tế bào hình sao (tích tụ Glutamin tăng áp lực thẩm thấu), cạn kiệt alpha-ketoglutarat làm suy kiệt ATP, và rối loạn cân bằng Glutamat/GABA.",
+    "Lactulose bẫy ion NH3 thành NH4+ trong lòng ruột acid (pH < 5); Rifaximin diệt vi khuẩn sinh urease, là hai trụ cột điều trị bệnh não gan.",
+    "Phenylketon niệu (PKU) do thiếu PAH hoặc BH4, nước tiểu mùi mốc; MSUD do thiếu phức hợp BCKD, nước tiểu mùi siro phong/đường cháy; Alkapton niệu do thiếu Homogentisat oxidase, nước tiểu hóa đen ngoài không khí và lắng đọng Ochronosis; Homocystin niệu do thiếu CBS, nguy cơ huyết khối mạch máu và trật thủy tinh thể hướng xuống dưới - vào trong."
+  ]
 }

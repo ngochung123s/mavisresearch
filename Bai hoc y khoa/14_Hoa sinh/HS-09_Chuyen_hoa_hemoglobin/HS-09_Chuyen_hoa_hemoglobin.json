@@ -1,16 +1,80 @@
 {
   "id": "HS-09",
-  "specialty": "hoasinh",
-  "specialty_name": "Hóa Sinh Y Khoa",
-  "part": "Phần I: Cấu tạo và Chuyển hóa chất",
-  "chapter": "Chương 9. Chuyển hóa hemoglobin",
-  "title": "Thoái hóa hemoglobin, chuyển hóa bilirubin và sinh tổng hợp hem",
+  "specialty": "Biochemistry",
+  "part": "Phần II: Chuyển hóa chất",
+  "chapter": "Chương 9: Chuyển hóa Porphyrin, Hemoglobin và Sắc tố mật",
+  "title": "Sinh tổng hợp Hem, thoái hóa hemoglobin và hội chứng vàng da",
   "author": "ThS. BS. Nguyễn Thị Ngọc Lan, PGS. TS. BS. Trần Huy Thịnh — ĐHY Hà Nội",
-  "start_page": 205,
-  "end_page": 215,
+  "curators": "HungMed Biochemistry Master Team",
   "pages": "205-215",
-  "word_count": 3514,
+  "word_count": 8400,
   "figures_count": 5,
   "tables_count": 2,
-  "source": "Giáo trình Hóa sinh Y học ĐHY Hà Nội (2019/2023)"
+  "source": "Giáo trình Hóa sinh Y học (GS. TS. BS. Tạ Thành Văn chủ biên, NXB Y học)",
+  "learning_objectives": [
+    "Trình bày chi tiết con đường sinh tổng hợp Hem: vị trí nội bào (ty thể - bào tương), enzym giới hạn ALAS, coenzym PLP (Vitamin B6), và cơ chế điều hòa khác biệt ALAS-1 (gan) và ALAS-2 (tủy xương).",
+    "Biện giải cơ chế ngộ độc chì (ức chế ALA dehydratase và Ferrochelatase) và các bệnh rối loạn chuyển hóa porphyrin (AIP vs PCT).",
+    "Phân tích toàn diện con đường thoái hóa Hemoglobin tại đại thực bào hệ võng nội mô bởi Heme oxygenase (giải phóng Fe3+, CO nội sinh, Biliverdin) và Biliverdin reductase.",
+    "Làm chủ quá trình vận chuyển (gắn Albumin), bắt giữ (OATP/Ligandin), liên hợp (UGT1A1 tạo Bilirubin diglucuronid) và bài tiết qua vi mật quản (MRP2 - bước giới hạn tốc độ).",
+    "Biện giải chu trình ruột - gan của Urobilinogen và sự tạo thành sắc tố phân (Stercobilin) và nước tiểu (Urobilin).",
+    "Làm chủ chẩn đoán phân biệt Hội chứng Vàng da (trước gan, tại gan, sau gan) dựa trên xét nghiệm sinh hóa máu, nước tiểu, phân và men gan mật.",
+    "Phân tích cơ chế các rối loạn chuyển hóa Bilirubin di truyền (Gilbert, Crigler-Najjar, Dubin-Johnson, Rotor) và nguyên lý quang trị liệu (Phototherapy) vàng da sơ sinh tạo Lumirubin."
+  ],
+  "sections": [
+    {
+      "id": "1",
+      "title": "Cấu trúc và đặc tính của nhóm ngoại prosthetic Hem",
+      "subsections": [
+        "1.1. Cấu tạo hóa học của Hem (Fe-Protoporphyrin IX)"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Con đường sinh tổng hợp Hem (Heme biosynthesis)",
+      "subsections": [
+        "2.1. Tám phản ứng enzym chi tiết của Con đường Sinh tổng hợp Hem",
+        "2.2. Ý nghĩa lâm sàng: Ngộ độc chì và Rối loạn chuyển hóa Porphyrin (Porphyria)"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Thoái hóa Hemoglobin và sự tạo thành sắc tố mật",
+      "subsections": [
+        "3.1. Các bước thoái hóa Hem tại Đại thực bào Hệ liên võng nội mô",
+        "3.2. Vận chuyển trong máu và Số phận của Bilirubin tại Tế bào gan",
+        "3.3. Chuyển hóa tại Ruột và Chu trình Ruột - Gan của Urobilinogen"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Hội chứng vàng da (Jaundice / Icterus) và chẩn đoán phân biệt",
+      "subsections": [
+        "4.1. Bảng đối chiếu sinh hóa phân biệt 3 nhóm Hội chứng Vàng da kinh điển",
+        "4.2. Các Hội chứng Rối loạn Chuyển hóa Bilirubin Di truyền",
+        "4.3. Vàng da Sơ sinh và Nguyên lý Quang trị liệu (Phototherapy)"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Câu hỏi lượng giá và ca lâm sàng chuyên sâu",
+      "subsections": [
+        "5.1. Bộ câu hỏi trắc nghiệm khách quan (MCQs - 10 câu)",
+        "5.2. Ca lâm sàng chuyên sâu: Vàng da tắc mật sau gan do u đầu tụy chèn ép ống mật chủ"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Hem cấu tạo từ Protoporphyrin IX gắn Fe2+ ở trung tâm. 85% tổng hợp ở tủy xương (tạo Hb), 15% ở gan (CYP450).",
+    "Sinh tổng hợp Hem diễn ra xen kẽ giữa ty thể và bào tương. Bước giới hạn tốc độ là phản ứng ALAS trong ty thể cần Vitamin B6. ALAS-1 (gan) bị ức chế ngược bởi Hemin; ALAS-2 (tủy xương) được điều hòa dịch mã bởi nồng độ sắt qua IRE/IRP.",
+    "Ngộ độc chì (Pb2+) ức chế ALA dehydratase và Ferrochelatase, làm ứ đọng ALA (gây đau bụng chì, tổn thương não) và tích tụ ZPP trong hồng cầu, tạo nguyên hồng cầu sắt dạng vòng (Ringed Sideroblasts) và thiếu máu nhược sắc.",
+    "Porphyria cấp từng cơn (AIP) do thiếu PBG deaminase, triệu chứng đau bụng cấp và thần kinh, hoàn toàn KHÔNG nhạy cảm ánh sáng; Porphyria da chậm (PCT) do thiếu UROD, nhạy cảm ánh sáng da dữ dội và bọng nước.",
+    "Heme oxygenase tại đại thực bào mở vòng Hem giải phóng Fe3+, khí CO nội sinh duy nhất và tạo Biliverdin xanh lục; Biliverdin reductase khử thành Bilirubin tự do vàng cam.",
+    "Bilirubin tự do kỵ nước do liên kết hydro nội phân tử, gắn Albumin trong máu, không qua màng lọc cầu thận. Tại gan, UGT1A1 gắn 2 acid glucuronic tạo Bilirubin diglucuronid (trực tiếp) tan trong nước; bài tiết qua vi mật quản nhờ bơm MRP2 (bước giới hạn tốc độ thanh thải tại gan).",
+    "Tại ruột, vi khuẩn khử liên hợp và hydro hóa Bilirubin tạo Urobilinogen và Stercobilinogen; oxy hóa tạo Stercobilin (màu nâu của phân). 10-20% Urobilinogen tái hấp thu qua chu trình ruột - gan; một lượng nhỏ (<4 mg/ngày) thoát ra nước tiểu oxy hóa thành Urobilin (màu vàng rơm).",
+    "Vàng da trước gan (tán huyết): tăng Bilirubin gián tiếp, Bilirubin nước tiểu âm tính, Urobilinogen nước tiểu tăng, phân sẫm màu.",
+    "Vàng da tại gan: tăng hỗn hợp cả trực tiếp và gián tiếp, ALT/AST tăng cao, Bilirubin nước tiểu dương tính.",
+    "Vàng da sau gan (tắc mật): tăng Bilirubin trực tiếp ưu thế, ALP và GGT tăng vọt, Bilirubin nước tiểu dương tính đậm (nước tiểu màu nước vối), Urobilinogen nước tiểu âm tính hoàn toàn, phân bạc màu đất sét, ngứa dữ dội do ứ đọng acid mật.",
+    "Hội chứng Gilbert (giảm 70% UGT1A1 do lặp TA promoter, vàng da nhẹ lành tính khi nhịn đói); Crigler-Najjar Type I (mất 100% UGT1A1, nguy cơ vàng da nhân não, không đáp ứng phenobarbital); Dubin-Johnson (đột biến MRP2, gan đen tuyền).",
+    "Quang trị liệu ánh sáng xanh (460-490 nm) biến đổi Bilirubin 4Z,15Z thành đồng phân cấu trúc Lumirubin cực kỳ ưa nước, đào thải nhanh qua mật và nước tiểu không cần liên hợp."
+  ]
 }
