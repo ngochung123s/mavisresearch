@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-04 Chuyển hóa carbohydrat và điều hòa đường huyết",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:14",
+  "generated_at": "2026-11-02T00:32:42",
   "cards_source": "HS-04_Chuyen_hoa_carbohydrat.cards.v2.json",
-  "cards_source_sha256": "0018e846484b4fd4c212ade124c7cccc7ee7a2617fb00b6ccced9face20ef1f6",
-  "card_count": 12,
+  "cards_source_sha256": "4a18eb3768180a618b7ace96a832f1ee0d88bc00cba57afa07feb80171cc77fc",
+  "card_count": 82,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-04_Chuyen_hoa_carbohydrat\\HS-04_Chuyen_hoa_carbohydrat_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 12,
     "unchanged": 0,
-    "added": 12,
+    "added": 70,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 12
+    "deck_notes": 82
   },
-  "apkg_sha256": "ee6b7edadf9d0c311f261929c5d4c381c578fde9ea258353e71d7ea6f6fc0e7f",
-  "sqlite_notes": 12,
-  "sqlite_cards": 12
+  "apkg_sha256": "bf394e8a295b51d33ec722e625820288a7d05c4d75165168f13ee8e822700839",
+  "sqlite_notes": 82,
+  "sqlite_cards": 82
 }
