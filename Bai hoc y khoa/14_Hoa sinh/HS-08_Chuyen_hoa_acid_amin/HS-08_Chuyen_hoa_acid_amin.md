@@ -69,6 +69,10 @@ Sự thoái hóa chọn lọc protein trong tế bào nhân thực được th�
 
 ## 2. PHẢN ỨNG TRAO ĐỔI AMIN (TRANSAMINATION)
 
+![Cơ chế phản ứng trao đổi amin và khử amin oxy hóa](hoasinh_media/HS-08_fig01_transamination_deamination.png)
+*Hình 8.1. Sơ đồ liên hợp giữa phản ứng trao đổi amin (Transamination qua PLP) và phản ứng khử amin oxy hóa (qua GDH).*
+
+
 Giai đoạn đầu tiên và then chốt trong thoái hóa acid amin là sự loại bỏ nhóm $\alpha$-amino. Cơ thể sử dụng một chiến lược tinh vi: thay vì giải phóng ngay lập tức amoniac tự do độc hại ở khắp các mô, nhóm amin được **chuyển giao** sang một $\alpha$-ketoacid nhận (chủ yếu là $\alpha$-ketoglutarat) để gom toàn bộ nhóm amin về một phân tử duy nhất là **Glutamat**.
 
 Phản ứng này được xúc tác bởi nhóm enzym **Aminotransferase** (hoặc **Transaminase**).
@@ -217,6 +221,10 @@ $$
 
 
 ## 5. CHU TRÌNH URÊ (KREBS - HENSELEIT CYCLE)
+
+![Chu trình sinh tổng hợp Urê tại ty thể và bào tương tế bào gan](hoasinh_media/HS-08_fig02_urea_cycle.png)
+*Hình 8.2. Chu trình Urê 5 bước xảy ra giữa ty thể và bào tương tế bào gan.*
+
 
 Chu trình Urê (được Hans Krebs và Kurt Henseleit khám phá năm 1932, trước cả chu trình acid citric) là con đường chuyển hóa độc quyền tại **GAN** của động vật có vú để biến đổi Amoniac ($NH_3/NH_4^+$) độc hại thành **Urê** ($H_2N-CO-NH_2$), một hợp chất trung tính, hòa tan cao trong nước, không độc và được thận đào thải dễ dàng ra nước tiểu.
 

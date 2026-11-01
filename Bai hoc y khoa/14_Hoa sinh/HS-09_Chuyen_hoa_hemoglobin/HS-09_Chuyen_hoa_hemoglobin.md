@@ -63,6 +63,10 @@ Hem là nhóm ngoại (prosthetic group) chứa sắt gắn chặt với các pr
 
 ## 2. CON ĐƯỜNG SINH TỔNG HỢP HEM (HEME BIOSYNTHESIS)
 
+![Con đường sinh tổng hợp Hem](hoasinh_media/HS-09_fig02_heme_biosynthesis.png)
+*Hình 9.1. Tám phản ứng enzym của con đường sinh tổng hợp Hem diễn ra giữa ty thể và bào tương.*
+
+
 Trong cơ thể người trưởng thành, mỗi ngày có khoảng **$6 - 7\text{ g}$ ($300\text{ mg}$ hay $\sim 500\text{ }\mu\text{mol}$)** Hem được tổng hợp mới.
 - **Vị trí cơ quan:**
   + Khoảng **$85\%$** tổng lượng Hem được tổng hợp tại **Tủy xương** trong các tế bào tiền thân dòng hồng cầu (nguyên hồng cầu ái kiềm, nguyên hồng cầu đa sắc) để phục vụ cho sự tạo thành Hemoglobin.
@@ -207,6 +211,10 @@ Porphyria là nhóm bệnh lý di truyền do đột biến làm suy giảm ho�
 
 
 ## 3. THOÁI HÓA HEMOGLOBIN VÀ SỰ TẠO THÀNH SẮC TỐ MẬT
+
+![Sơ đồ thoái hóa Hemoglobin và chu trình chuyển hóa Bilirubin](hoasinh_media/HS-09_fig01_bilirubin_metabolism.png)
+*Hình 9.2. Sơ đồ thoái hóa Hemoglobin, vận chuyển Bilirubin trong máu và chu trình ruột - gan của Urobilinogen.*
+
 
 Đời sống trung bình của một hồng cầu trưởng thành lưu hành trong hệ tuần hoàn là khoảng **$120\text{ ngày}$**. Khi già đi, màng hồng cầu mất dần tính đàn hồi, các enzym chống oxy hóa suy giảm hoạt tính và bề mặt tế bào bộc lộ các phân tử tín hiệu lão hóa (như phosphatidylserin). Các hồng cầu già này bị bắt giữ và tiêu hủy chủ yếu tại **hệ thống lưới nội mô (hệ liên võng nội mô - Reticuloendothelial System / Mononuclear Phagocyte System)**, đặc biệt là các đại thực bào tại **Lách** (màng lọc lách), **Tủy xương** và **Gan** (tế bào Kupffer).
 

@@ -25,7 +25,7 @@ Acid nucleic là đại phân tử sinh học mang và truyền đạt thông ti
 2. **Đường Pentose**: Aldopentose dạng vòng 5 cạnh ($\beta$-D-ribose hoặc $\beta$-D-2-deoxyribose).
 3. **Gốc Acid Phosphoric**: Một hoặc nhiều nhóm phosphate liên kết este.
 
-![Cấu trúc phân tử ribonucleotid và deoxyribonucleotid](../hungmed/hoasinh_media/fig_11_2.png)
+![Cấu trúc phân tử ribonucleotid và deoxyribonucleotid](hoasinh_media/fig_11_2.png)
 
 ### 1.1. Các Base Nitơ (Nitrogenous Bases)
 
@@ -42,7 +42,7 @@ Nhân Pyrimidin là một vòng dị vòng sáu cạnh chứa hai nguyên tử n
 - **Uracil (U):** $2,4\text{-dioxy pyrimidin}$ (thường chỉ có trong RNA).
 - **Thymin (T):** $5\text{-methyl-2,4-dioxy pyrimidin}$ hay $5\text{-methyluracil}$ (thường chỉ có trong DNA).
 
-![Cấu trúc hóa học của các base nitơ](../hungmed/hoasinh_media/fig_11_1.png)
+![Cấu trúc hóa học của các base nitơ](hoasinh_media/fig_11_1.png)
 
 #### 1.1.3. Tính chất hỗ biến Lactam - Lactim và Nguy cơ Đột biến Ghép đôi sai
 - Các base có chứa nguyên tử oxy (Guanin, Thymin, Uracil) tồn tại ở trạng thái cân bằng hỗ biến (tautomeric equilibrium) giữa hai dạng:
@@ -143,7 +143,7 @@ Trước khi cấu trúc xoắn kép được khám phá, nhà hóa sinh Erwin C
 
 Dựa trên dữ liệu nhiễu xạ tia X sắc nét của Rosalind Franklin và Maurice Wilkins cùng với quy luật Chargaff, James Watson và Francis Crick đã công bố mô hình cấu trúc không gian chuỗi xoắn kép của DNA vào năm 1953 (đoạt giải Nobel Y học năm 1962). Cấu trúc này đại diện cho dạng **B-DNA** (dạng sinh lý phổ biến nhất trong tế bào sống):
 
-![Cấu trúc chuỗi xoắn kép DNA theo Watson - Crick](../hungmed/hoasinh_media/HS-11_fig01_dna_double_helix.png)
+![Cấu trúc chuỗi xoắn kép DNA theo Watson - Crick](hoasinh_media/HS-11_fig01_dna_double_helix.png)
 
 #### Các Đặc điểm Cấu trúc Cốt lõi của B-DNA:
 1. **Hai chuỗi polynucleotid xoắn kép:** Gồm hai sợi đơn cuộn xoắn quanh một trục tưởng tượng chung theo chiều xoắn sang phải (right-handed helix).
@@ -276,7 +276,7 @@ Chiếm khoảng $15\%$ tổng lượng RNA tế bào, có kích thước nhỏ 
   - Được giải mã bằng tinh thể học tia X bởi Alexander Rich và Aaron Klug (1974).
   - Hai nhánh của chữ L dài khoảng $60\,\text{Å}$ và cách nhau một góc $90^\circ$: một đầu là nhánh gắn acid amin $-CCA-3'$, đầu kia là vòng đối mã anticodon. Khoảng cách không gian $70\,\text{Å}$ giữa hai đầu đảm bảo cho việc lắp ghép chính xác vào các vị trí A và P trên ribosome mà không gây va chạm lập thể.
 
-![Cấu trúc không gian của tRNA](../hungmed/hoasinh_media/HS-11_fig02_trna_structure.png)
+![Cấu trúc không gian của tRNA](hoasinh_media/HS-11_fig02_trna_structure.png)
 
 ---
 

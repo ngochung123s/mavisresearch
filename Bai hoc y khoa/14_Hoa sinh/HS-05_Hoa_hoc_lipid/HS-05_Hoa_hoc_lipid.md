@@ -46,7 +46,7 @@ Trong cơ thể người và động vật, lipid đảm nhiệm nhiều chức 
 ### 3. Phân loại tổng quát lipid
 Dựa vào thành phần cấu tạo hóa học và phản ứng xà phòng hóa, lipid được phân loại thành hai nhóm lớn:
 
-![Sơ đồ phân loại lipid màng và lipid dự trữ](../hungmed/hoasinh_media/fig_2_11.png)
+![Sơ đồ phân loại lipid màng và lipid dự trữ](hoasinh_media/fig_2_11.png)
 *Hình 5.1. Sơ đồ tổng quát về sự phân loại các lipid dự trữ (trung tính) và lipid màng (có cực).*
 
 1. **Lipid thuần (Homolipid):** Trong phân tử chỉ cấu tạo từ **carbon (C), hydro (H), oxy (O)**. Là este của acid béo với các alcol:
@@ -157,7 +157,7 @@ Trong tự nhiên, hầu hết các liên kết đôi của acid béo chưa bão
 
 Ngược lại, ở dạng **trans**, hai chuỗi hydrocarbon gắn vào liên kết đôi nằm về hai phía đối diện. Cấu trúc không gian của acid béo dạng *trans* gần như duỗi thẳng tương tự như một acid béo bão hòa.
 
-![Đồng phân hình học cis và trans của acid béo](../hungmed/hoasinh_media/fig_2_3.png)
+![Đồng phân hình học cis và trans của acid béo](hoasinh_media/fig_2_3.png)
 *Hình 5.2. Cấu trúc không gian của acid oleic (cấu hình cis, bẻ góc) và acid elaidic (cấu hình trans, duỗi thẳng).*
 
 * **Nguồn gốc chất béo Trans (*Trans Fat*):** Trong công nghiệp chế biến thực phẩm, quá trình hydro hóa dầu thực vật lỏng để tạo thành bơ thực vật (margarine) hoặc shortening (chất béo rắn) ở nhiệt độ và áp suất cao với xúc tác kim loại đã vô tình đồng phân hóa một phần liên kết đôi *cis* thành liên kết đôi *trans*.
@@ -219,7 +219,7 @@ Là các alcol vừa chứa nhóm chức hydroxyl ($-OH$) vừa chứa nhóm ami
 #### 1.2.4. Sterol (Alcol vòng Steroid)
 Sterol là các alcol vòng có trọng lượng phân tử cao, cấu trúc dựa trên khung nhân **Steran** (nhân Cyclopentanoperhydrophenanthren gồm 4 vòng ngưng tụ được ký hiệu là $A, B, C, D$ với tổng số 17 carbon cơ bản):
 
-![Cấu trúc phân tử cholesterol](../hungmed/hoasinh_media/HS-05_fig02_cholesterol_structure.png)
+![Cấu trúc phân tử cholesterol](hoasinh_media/HS-05_fig02_cholesterol_structure.png)
 *Hình 5.3. Cấu trúc hóa học và cách đánh số 27 nguyên tử carbon của phân tử Cholesterol.*
 
 Tiêu biểu và quan trọng nhất ở động vật là **Cholesterol** ($C_{27}H_{46}O$):
@@ -245,7 +245,7 @@ Glycerid là este của glycerol với acid béo. Tùy thuộc vào số lượn
 * **Diacylglycerol (DAG):** Este hóa ở 2 vị trí ($1,2$-DAG hoặc $1,3$-DAG). DAG là chất truyền tin thứ hai hoạt hóa Protein Kinase C (PKC).
 * **Triacylglycerol (TAG hay Triglycerid):** Este hóa ở cả 3 vị trí.
 
-![Cấu trúc hóa học của Glycerid](../hungmed/hoasinh_media/fig_2_7.png)
+![Cấu trúc hóa học của Glycerid](hoasinh_media/fig_2_7.png)
 *Hình 5.4. Cấu tạo hóa học của Monoglycerid, Diglycerid và Triglycerid (Triacylglycerol).*
 
 * **Công thức tổng quát của Triglycerid:**
@@ -292,7 +292,7 @@ Lipid tạp là các lipid phức tạp, ngoài acid béo và alcol còn chứa 
 
 Tùy theo bản chất của alcol mang khung chính, lipid tạp được chia làm hai nhóm lớn: **Glycerophospholipid** (alcol là glycerol) và **Sphingolipid** (alcol là sphingosin).
 
-![Cấu trúc và sự phân loại các Phospholipid màng sinh học](../hungmed/hoasinh_media/HS-05_fig01_phospholipids.png)
+![Cấu trúc và sự phân loại các Phospholipid màng sinh học](hoasinh_media/HS-05_fig01_phospholipids.png)
 *Hình 5.5. Cấu trúc lưỡng cực của các Glycerophospholipid: đầu ưa nước phân cực và 2 đuôi kỵ nước.*
 
 ---
@@ -367,7 +367,7 @@ Khi nhóm phosphat của acid phosphatidic liên kết este hóa tiếp với c�
 
 Sphingolipid là nhóm lipid màng phức tạp không sử dụng glycerol mà sử dụng aminoalcol **Sphingosin** làm bộ khung trung tâm.
 
-![Cấu trúc chung của Sphingolipid](../hungmed/hoasinh_media/fig_2_10.png)
+![Cấu trúc chung của Sphingolipid](hoasinh_media/fig_2_10.png)
 *Hình 5.6. Cấu trúc hóa học chung của Sphingolipid: bộ khung Sphingosin gắn Acid béo qua liên kết amid và nhóm thế $X$ ở vị trí $C_1$.*
 
 #### 3.2.1. Ceramid — Đơn vị cấu trúc nền tảng của mọi Sphingolipid

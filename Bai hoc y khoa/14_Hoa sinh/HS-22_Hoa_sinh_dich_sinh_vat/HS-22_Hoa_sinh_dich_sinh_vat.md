@@ -62,7 +62,7 @@ Dịch não tủy (CSF) là chất dịch sinh học trong suốt lấp đầy c
             [Xoang tĩnh mạch màng cứng (Dural Sinuses)]
 ```
 
-![Sơ đồ tuần hoàn và tái hấp thu dịch não tủy](../../hungmed/hoasinh_media/HS-22_fig01_csf_circulation.png)
+![Sơ đồ tuần hoàn và tái hấp thu dịch não tủy](hoasinh_media/HS-22_fig01_csf_circulation.png)
 *Hình 22.1: Sơ đồ nguồn gốc bài tiết, tuần hoàn qua các não thất và tái hấp thu dịch não tủy qua các hạt màng nhện vào xoang tĩnh mạch màng cứng.*
 
 

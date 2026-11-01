@@ -163,6 +163,10 @@ Albumin là protein đơn phân tử chiếm tỷ lệ áp đảo nhất trong h
 ---
 
 ### 2.2. Các phân đoạn Globulin và chức năng chuyên biệt
+
+![Điện di protein huyết thanh và các mẫu hình bệnh lý kinh điển](hoasinh_media/HS-19_fig01_protein_electrophoresis.png)
+*Hình 19.1. Năm phân đoạn điện di protein huyết thanh (Albumin, alpha 1/2, beta, gamma) và biến đổi bệnh lý.*
+
 Nồng độ Globulin huyết tương bình thường dao động từ **$20 - 35\,\text{g/L}$** ($2{,}0 - 3{,}5\,\text{g/dL}$). Tỷ số giữa Albumin và Globulin ($A/G\ \text{ratio}$) là một chỉ số lâm sàng kinh điển:
 $$\frac{A}{G} = 1{,}2 - 2{,}0$$
 Tỷ số $A/G < 1{,}0$ (đảo ngược tỷ số $A/G$) là dấu hiệu bệnh lý điển hình phản ánh tình trạng giảm sản xuất albumin (suy gan xơ gan) kết hợp hoặc đi kèm với tình trạng tăng sản xuất globulin (bệnh tự miễn, nhiễm trùng mạn hoặc bệnh lý tương bào ác tính).

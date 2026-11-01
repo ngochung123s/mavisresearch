@@ -47,6 +47,10 @@ Trong cơ thể sinh vật, nước tồn tại ở hai dạng vật lý - sinh 
 - **Ý nghĩa sinh học:** Tạo thành "áo hydrat hóa" (hydration shell) bảo vệ cấu trúc bậc ba, bậc bốn của protein enzym, ngăn cản protein bị kết tủa hoặc biến tính; duy trì cấu trúc gel của chất nền ngoại bào (nhờ liên kết với acid hyaluronic và proteoglycan mô liên kết).
 
 ### 1.3. Hàm lượng và phân bố nước giữa các khu vực dịch cơ thể
+
+![Phân bố các khoang dịch trong cơ thể](hoasinh_media/HS-15_fig01_fluid_compartments.png)
+*Hình 15.1. Sơ đồ phân bố các khoang dịch: Dịch nội bào (ICF) và Dịch ngoại bào (ECF gồm huyết tương và dịch kẽ).*
+
 Tổng lượng nước cơ thể (**TBW - Total Body Water**) dao động từ **50% đến 70%** trọng lượng cơ thể (trung bình lấy mốc **60%** trọng lượng ở người trưởng thành khỏe mạnh bình thường, tương đương 42 lít ở người nặng 70 kg).
 
 #### 1.3.1. Các yếu tố sinh lý ảnh hưởng đến hàm lượng nước cơ thể

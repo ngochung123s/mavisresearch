@@ -23,6 +23,10 @@ Màng sinh học (Biological membranes) đóng vai trò là ranh giới rào c�
 
 ### 1.1. Mô hình Khảm động Singer & Nicolson (1972)
 
+![Mô hình Khảm động của màng sinh học](hoasinh_media/HS-14_fig01_membrane_fluid_mosaic.png)
+*Hình 14.1. Mô hình khảm động Singer & Nicolson: Lớp lipid kép, protein xuyên màng và glycocalyx.*
+
+
 Vào năm 1972, S. Jonathan Singer và Garth L. Nicolson đã công bố mô hình kinh điển **"Mô hình Khảm động" (Fluid Mosaic Model)** trên tạp chí *Science*, tạo nên cuộc cách mạng trong sinh học tế bào và hóa sinh phân tử:
 - **Tính chất "Khảm" (Mosaic):** Màng tế bào là một cấu trúc khảm không đối xứng cấu tạo từ một lớp lipid kép (lipid bilayer) đóng vai trò làm nền tảng cấu trúc cơ bản, trong đó xen kẽ và gắn kết vô số các phân tử protein. Protein có thể xuyên suốt chiều dày màng (protein xuyên màng - integral membrane proteins) hoặc gắn lỏng lẻo ở bề mặt trong/ngoài của màng (protein ngoại vi - peripheral membrane proteins).
 - **Tính chất "Động / Lỏng" (Fluid):** Lớp kép lipid và hầu hết các protein không cố định ở trạng thái tĩnh thể rắn mà tồn tại ở trạng thái tinh thể lỏng (liquid-ordered hoặc liquid-disordered state) ở nhiệt độ sinh lý $37^\circ\text{C}$. Các phân tử lipid và protein có khả năng chuyển động nhiệt tự do theo nhiều chiều hướng trong mặt phẳng màng.
@@ -190,6 +194,10 @@ $$v = \frac{V_{max} \cdot [S]}{K_m + [S]}$$
 ---
 
 ### 2.3. Vận chuyển tích cực nguyên phát (Primary Active Transport)
+
+![Cơ chế hoạt động của bơm Na+-K+-ATPase](hoasinh_media/HS-14_fig02_na_k_atpase_pump.png)
+*Hình 14.2. Chu trình chuyển dạng cấu hình Post-Albers của bơm Na+-K+-ATPase và vị trí tác dụng của Digoxin.*
+
 
 Vận chuyển tích cực nguyên phát là quá trình vận chuyển các phân tử hoặc ion **ngược chiều gradient hóa điện thế** (từ nơi nồng độ thấp đến nơi nồng độ cao), trong đó năng lượng cần thiết được cung cấp trực tiếp từ **phản ứng thủy phân Adenosine Triphosphate (ATP)** thành ADP và phosphate vô cơ ($P_i$).
 

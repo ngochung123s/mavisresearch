@@ -52,7 +52,7 @@ Bằng các thí nghiệm sử dụng chất đồng vị phóng xạ ($^{14}\te
 - **Nguyên tử $C_4, C_5$ và $N_7$:** Toàn bộ khung 3 nguyên tử này được đóng góp trọn vẹn từ một phân tử acid amin **Glycin**.
 - **Nguyên tử $C_6$:** Cung cấp bởi ion bicarbonate vô cơ ($\text{HCO}_3^-$ / $\text{CO}_2$).
 
-![Nguồn gốc các nguyên tử trong nhân Purin](../hungmed/hoasinh_media/fig_12_4.png)
+![Nguồn gốc các nguyên tử trong nhân Purin](hoasinh_media/fig_12_4.png)
 
 ---
 
@@ -108,7 +108,7 @@ Quá trình bao gồm chuỗi 11 phản ứng tuần tự:
 
 Từ chất chuyển hóa ngã ba đường **IMP**, tế bào tổng hợp nên hai purin nucleotid thiết yếu là **AMP** và **GMP** qua hai nhánh độc lập nhưng phối hợp tương hỗ chặt chẽ:
 
-![Chuyển hóa từ IMP thành AMP và GMP](../hungmed/hoasinh_media/fig_12_5.png)
+![Chuyển hóa từ IMP thành AMP và GMP](hoasinh_media/fig_12_5.png)
 
 #### Nhánh 1: Tổng hợp Adenosine Monophosphate (AMP)
 1. **IMP kết hợp với Aspartat:**
@@ -138,7 +138,7 @@ Con đường tân tạo Purin de novo đòi hỏi tiêu tốn một lượng n�
 
 $$\text{Base Purin tự do} + \text{PRPP} \xrightarrow{\text{Phosphoribosyltransferase}} \text{Purin Nucleotid} + \text{PP}_i$$
 
-![Con đường trục vớt purin](../hungmed/hoasinh_media/HS-12_fig02_salvage_pathway.png)
+![Con đường trục vớt purin](hoasinh_media/HS-12_fig02_salvage_pathway.png)
 
 ### 3.1. Hai Enzyme Cốt lõi của Con đường Trục vớt
 1. **APRT (Adenine phosphoribosyltransferase):**
@@ -177,7 +177,7 @@ Hội chứng Lesch-Nyhan (được mô tả lần đầu bởi Michael Lesch v�
 
 Quá trình thoái hóa các purin ribonucleotid diễn ra liên tục trong cơ thể, chủ yếu tại **gan và ruột non**, chuyển đổi AMP và GMP thành sản phẩm chuyển hóa cuối cùng là **Acid Uric**:
 
-![Con đường thoái hóa Purin tạo Acid Uric và cơ chế bệnh Gout](../hungmed/hoasinh_media/HS-12_fig01_purine_catabolism_gout.png)
+![Con đường thoái hóa Purin tạo Acid Uric và cơ chế bệnh Gout](hoasinh_media/HS-12_fig01_purine_catabolism_gout.png)
 
 #### Các Phản ứng Thoái hóa Tuần tự:
 1. **Thoái hóa Nhánh AMP:**
@@ -246,7 +246,7 @@ Tại các vị trí có nhiệt độ ngoại biên thấp hơn trung tâm cơ 
 
 Phác đồ điều trị Gout hiện đại phân tách rõ ràng giữa điều trị cắt cơn viêm cấp tính và điều trị hạ acid uric máu mạn tính (ULT - Urate-Lowering Therapy):
 
-![Cấu trúc và cơ chế ức chế của Allopurinol](../hungmed/hoasinh_media/HS-01_fig19_allopurinol.png)
+![Cấu trúc và cơ chế ức chế của Allopurinol](hoasinh_media/HS-01_fig19_allopurinol.png)
 
 1. **Nhóm Ức chế Enzyme Xanthine Oxidase (XOI):**
    - **Allopurinol:**
@@ -271,7 +271,7 @@ Phác đồ điều trị Gout hiện đại phân tách rõ ràng giữa điề
 
 Khác với con đường tân tạo Purin (xây dựng từng bước nhân purin trực tiếp trên bộ khung ribose-5-phosphate), **con đường tân tạo Pyrimidin được tiến hành bằng cách tổng hợp nên nhân Pyrimidin 6 cạnh tự do trước (dưới dạng Acid Orotic), sau đó mới gắn vào khung ribose-phosphate của PRPP**.
 
-![Con đường sinh tổng hợp UMP](../hungmed/hoasinh_media/fig_12_6.png)
+![Con đường sinh tổng hợp UMP](hoasinh_media/fig_12_6.png)
 
 ### 5.1. Con đường Tân tạo Pyrimidin (De Novo Synthesis)
 
@@ -320,7 +320,7 @@ $$\text{OMP} \xrightarrow{\text{OMP Decarboxylase}} \text{Uridine Monophosphate 
 
 ### 5.3. Sinh tổng hợp CTP, dTMP và Đích tác động của Thuốc Chống Ung thư
 
-![Sơ đồ tổng hợp CTP từ UTP](../hungmed/hoasinh_media/fig_12_7.png)
+![Sơ đồ tổng hợp CTP từ UTP](hoasinh_media/fig_12_7.png)
 
 1. **Tổng hợp CTP từ UTP:**
    $$\text{UMP} \xrightarrow{\text{Kinase}} \text{UDP} \xrightarrow{\text{Kinase}} \text{UTP}$$

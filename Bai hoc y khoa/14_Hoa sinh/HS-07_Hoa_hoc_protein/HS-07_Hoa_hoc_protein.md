@@ -27,6 +27,10 @@ Trong các tế bào sống, protein là đại phân tử sinh học phong phú
 
 ### 1.1. Cấu trúc tổng quát và tính đồng phân lập thể
 
+![Cấu trúc và phân loại 20 acid amin tiêu chuẩn](hoasinh_media/HS-07_fig01_amino_acids_structure.png)
+*Hình 7.1. Cấu trúc hóa học và phân loại 20 acid amin tiêu chuẩn cấu thành protein.*
+
+
 Một $\alpha$-acid amin tiêu chuẩn gồm một nguyên tử carbon trung tâm mang tên **carbon $\alpha$** ($C_\alpha$), liên kết cộng hóa trị với 4 nhóm chức hóa học khác nhau:
 1. Nhóm carboxyl có tính acid: $-\text{COOH}$ (hoặc $-\text{COO}^-$ ở $pH$ sinh lý).
 2. Nhóm amin có tính base: $-\text{NH}_2$ (hoặc $-\text{NH}_3^+$ ở $pH$ sinh lý).
@@ -245,6 +249,10 @@ $$2\text{ GSH} + \text{H}_2\text{O}_2 \xrightarrow{\text{Glutathione Peroxidase}
 
 ## 4. BỐN BẬC CẤU TRÚC PROTEIN VÀ ĐỘNG HỌC CUỘN GẬP
 
+![Bốn bậc cấu trúc không gian của phân tử protein](hoasinh_media/HS-07_fig02_protein_structures.png)
+*Hình 7.2. Bốn bậc cấu trúc không gian của protein: từ chuỗi polypeptid bậc I đến cấu trúc bậc IV.*
+
+
 Phân tử protein là một chuỗi polymer sinh học phức tạp gồm hàng trăm đến hàng ngàn gốc acid amin. Hoạt tính sinh học của protein không chỉ phụ thuộc vào thành phần hóa học mà được quyết định tuyệt đối bởi cấu trúc không gian 3 chiều chính xác của nó. Theo truyền thống cấu trúc sinh học, protein được phân tích qua 4 bậc cấu trúc từ thấp đến cao:
 
 ### 4.1. Cấu trúc bậc I (Primary Structure)
@@ -333,6 +341,10 @@ $$\text{C}=\text{O}_n \cdots \text{H}-\text{N}_{n+4}$$
   * **Bệnh Alzheimer:** Sự cuộn gập sai và kết tụ của chuỗi peptid $\beta$-Amyloid ($A\beta_{42}$) tạo các mảng lão hóa ngoài tế bào và protein Tau bị tăng phosphoryl hóa tạo các đám rối sợi thần kinh trong tế bào não, gây thoái hóa thần kinh tiến triển.
 
 ## 5. HÓA SINH CHUYÊN BIỆT CỦA HEMOGLOBIN VÀ MYOGLOBIN
+
+![Cấu trúc phân tử Hemoglobin và Myoglobin](hoasinh_media/HS-07_fig03_hemoglobin_structure.png)
+*Hình 7.3. Cấu trúc tetramer của Hemoglobin gắn kết 4 phân tử oxy đối chiếu với monomer Myoglobin.*
+
 
 Hemoglobin ($Hb$) và Myoglobin ($Mb$) là hai protein vận chuyển và dự trữ oxy kiểu mẫu trong sinh học phân tử và y học. Chúng minh họa sâu sắc mối tương quan giữa cấu trúc 3 chiều bậc III và bậc IV với chức năng điều hòa dị lập thể tinh vi.
 

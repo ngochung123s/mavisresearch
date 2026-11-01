@@ -23,7 +23,7 @@ Sinh tổng hợp protein (dịch mã - translation) là quá trình tế bào c
 
 $$\text{DNA} \xrightarrow{\text{Phiên mã (Transcription)}} \text{mRNA} \xrightarrow{\text{Dịch mã (Translation)}} \text{Protein}$$
 
-![Bản đồ mã di truyền và quá trình dịch mã](../hungmed/hoasinh_media/HS-10_fig01_genetic_code_translation.png)
+![Bản đồ mã di truyền và quá trình dịch mã](hoasinh_media/HS-10_fig01_genetic_code_translation.png)
 
 ### 1.1. Bốn đặc tính cốt lõi của Mã di truyền
 
@@ -158,7 +158,7 @@ Phức tạp hơn rất nhiều, đòi hỏi hơn 12 yếu tố mở đầu nhâ
 
 Kéo dài là một chu kỳ lặp đi lặp lại gồm 3 bước tuần tự nhằm lắp ghép từng acid amin vào chuỗi theo đúng trật tự codon trên mRNA:
 
-![Các giai đoạn kéo dài chuỗi trên ribosome](../hungmed/hoasinh_media/fig_10_1.png)
+![Các giai đoạn kéo dài chuỗi trên ribosome](hoasinh_media/fig_10_1.png)
 
 #### Bước 1: Gắn Aminoacyl-tRNA mới vào vị trí A (Decoding / A-site binding)
 - Codon tiếp theo trên mRNA nằm lộ ra tại vị trí A của ribosom.
@@ -269,7 +269,7 @@ Tế bào không tổng hợp toàn bộ các loại protein mọi lúc với c�
 - **Các gen cấu trúc ($Z, Y, A$ hoặc $TrpE, D, C, B, A$):** Mã hóa các enzyme trong cùng một con đường chuyển hóa.
 - **Gen điều hòa ($R$ hoặc $I$):** Nằm ngoài operon, liên tục phiên mã tạo protein điều hòa (Repressor).
 
-![Mô hình điều hòa Operon Lac](../hungmed/hoasinh_media/HS-10_fig02_lac_operon.png)
+![Mô hình điều hòa Operon Lac](hoasinh_media/HS-10_fig02_lac_operon.png)
 
 #### 6.1.1. Operon Lac (Mô hình cảm ứng kinh điển của Jacob & Monod - Nobel 1965)
 Operon Lac của *E. coli* chứa 3 gen cấu trúc cần thiết cho việc vận chuyển và chuyển hóa đường lactose:

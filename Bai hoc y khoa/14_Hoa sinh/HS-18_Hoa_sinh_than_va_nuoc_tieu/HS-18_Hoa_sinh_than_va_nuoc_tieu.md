@@ -39,6 +39,10 @@ Phân bố tưới máu trong thận có sự bất đối xứng sâu sắc gi�
 Mức tiêu thụ oxy của thận cực kỳ khổng lồ, chiếm khoảng **$8 - 10\%$ tổng lượng oxy tiêu thụ của toàn bộ cơ thể** (chỉ đứng sau cơ tim tính theo đơn vị khối lượng mô). Đáng chú ý, trên $80\%$ nhu cầu năng lượng và tiêu thụ oxy của thận không phải dùng để duy trì cấu trúc tế bào, mà phục vụ cho hoạt động của các bơm vận chuyển tích cực nguyên phát — tiêu biểu là bơm $Na^+-K^+\text{-ATPase}$ tại bờ đáy màng tế bào ống thận nhằm tái hấp thu khối lượng khổng lồ $Na^+$ lọc qua cầu thận mỗi ngày.
 
 ### 1.2. Đơn vị chức năng thận (Nephron)
+
+![Cấu trúc Nephron và cơ chế lọc cầu thận](hoasinh_media/HS-18_fig01_nephron_filtration.png)
+*Hình 18.1. Cấu trúc Nephron và động học siêu lọc qua màng lọc cầu thận 3 lớp.*
+
 Mỗi bên thận người chứa khoảng $1{,}0 - 1{,}2$ triệu đơn vị chức năng gọi là **Nephron**. Nephron không có khả năng tái sinh hoặc phân chia sau khi sinh; khi các nephron bị phá hủy do bệnh lý tiến triển (như viêm cầu thận mạn, đái tháo đường, tăng huyết áp), các nephron còn lại phải tăng kích thước và phì đại hoạt động bù trừ ($hyperfiltration$).
 
 Một nephron hoàn chỉnh bao gồm hai phần chính:
