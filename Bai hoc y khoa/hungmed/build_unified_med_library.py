@@ -66,13 +66,13 @@ def normalize_image_paths(md_text: str, folder_rel: str) -> str:
 
     def repl_md(m):
         alt, src = m.group(1), m.group(2)
-        if not src.startswith(("http://", "https://", "data:", "/")) and not src.startswith(clean_folder):
+        if not src.startswith(("http://", "https://", "data:", "/", "san_khoa_media/", "hoasinh_media/")) and not src.startswith(clean_folder):
             return f"![{alt}]({clean_folder}/{src.lstrip('./')})"
         return m.group(0)
 
     def repl_img(m):
         pre, src, post = m.group(1), m.group(2), m.group(4)
-        if not src.startswith(("http://", "https://", "data:", "/")) and not src.startswith(clean_folder):
+        if not src.startswith(("http://", "https://", "data:", "/", "san_khoa_media/", "hoasinh_media/")) and not src.startswith(clean_folder):
             return f'<img {pre}src="{clean_folder}/{src.lstrip("./")}"{post}>'
         return m.group(0)
 
@@ -254,7 +254,7 @@ def scan_hoasinh_files(hoasinh_dir: Path) -> list[dict]:
             "content": norm_content,
             "key_numbers": meta.get("key_numbers", item.get("key_numbers", [])),
             "key_points": meta.get("key_points", item.get("key_points", [])),
-            "folder_rel": folder_rel,
+            "folder_rel": "",
         })
     return lessons
 

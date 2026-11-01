@@ -683,7 +683,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261101_104127"></script>
+<script src="data.js?v=20261101_104822"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -1275,13 +1275,13 @@
     if (folderRel) {
       const cleanFolder = folderRel.replace(/\/+$/, '');
       text = text.replace(/!\[(.*?)\]\(((?!https?:\/\/|\/|data:)(?:\.\/)?([^)]+))\)/g, (match, alt, fullSrc, cleanSrc) => {
-        if (!cleanSrc.startsWith(cleanFolder)) {
+        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
           return `![${alt}](${cleanFolder}/${cleanSrc.replace(/^\.\//, '')})`;
         }
         return match;
       });
       text = text.replace(/<img\s+([^>]*?)src=["']((?!https?:\/\/|\/|data:)(?:\.\/)?([^"']+))["']([^>]*?)>/gi, (match, pre, fullSrc, cleanSrc, post) => {
-        if (!cleanSrc.startsWith(cleanFolder)) {
+        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
           return `<img ${pre}src="${cleanFolder}/${cleanSrc.replace(/^\.\//, '')}"${post}>`;
         }
         return match;

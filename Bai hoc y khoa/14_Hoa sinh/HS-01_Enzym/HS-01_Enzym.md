@@ -112,7 +112,7 @@ Trung tâm hoạt động là vùng không gian 3 chiều đặc biệt trên b�
 *Hình 1.1. Mô hình không gian 3 chiều của trung tâm hoạt động enzym với các acid amin xúc tác định vị cơ chất.*
 
 #### Đặc điểm cấu tạo của trung tâm hoạt động:
-* Chỉ chiếm một phần rất nhỏ (thường chỉ $1 - 5\%$) tổng thể tích phân tử enzym.
+* Chỉ chiếm một phần rất nhỏ (thường chỉ $1 - 5\\%$) tổng thể tích phân tử enzym.
 * Được tạo thành từ các gốc acid amin nằm ở các vị trí rất xa nhau trên chuỗi polypeptide nguyên thủy, nhưng nhờ cấu trúc cuộn gấp không gian bậc 3 và bậc 4 mà chúng được đưa lại gần nhau trong không gian.
 * Các acid amin thường gặp tại trung tâm hoạt động:
   * **Serin (-OH):** Đóng vai trò acid-base và xúc tác cộng hóa trị (có mặt ở trung tâm hoạt động của chymotrypsin, acetylcholinesterase).
@@ -142,8 +142,8 @@ Isoenzym là các dạng phân tử khác nhau của cùng một enzym, cùng x�
 ##### Hai hệ thống Isoenzym kinh điển trong chẩn đoán y học:
 1. **Creatine Kinase (CK):** Là một dimer gồm 2 loại bán đơn vị: **M** (Muscle - Cơ) và **B** (Brain - Não), tạo thành 3 isoenzym:
    * **CK-BB ($CK_1$):** Chiếm ưu thế ở tổ chức não và hệ thần kinh trung ương.
-   * **CK-MB ($CK_2$):** Đặc hiệu cao cho cơ tim (chiếm $15 - 20\%$ tổng hoạt độ CK cơ tim; ở cơ vân bình thường chỉ $<1 - 2\%$). Là chất chỉ điểm vàng cổ điển trong chẩn đoán **Nhồi máu cơ tim cấp** (tăng sau 3 - 6 giờ, đỉnh 18 - 24 giờ, về bình thường sau 48 - 72 giờ).
-   * **CK-MM ($CK_3$):** Chiếm ưu thế tuyệt đối ở cơ vân ($98\%$) và huyết thanh người bình thường. Tăng rất mạnh trong viêm cơ, chấn thương dập nát cơ hoặc tiêu cơ vân cấp (Rhabdomyolysis).
+   * **CK-MB ($CK_2$):** Đặc hiệu cao cho cơ tim (chiếm $15 - 20\\%$ tổng hoạt độ CK cơ tim; ở cơ vân bình thường chỉ $<1 - 2\\%$). Là chất chỉ điểm vàng cổ điển trong chẩn đoán **Nhồi máu cơ tim cấp** (tăng sau 3 - 6 giờ, đỉnh 18 - 24 giờ, về bình thường sau 48 - 72 giờ).
+   * **CK-MM ($CK_3$):** Chiếm ưu thế tuyệt đối ở cơ vân ($98\\%$) và huyết thanh người bình thường. Tăng rất mạnh trong viêm cơ, chấn thương dập nát cơ hoặc tiêu cơ vân cấp (Rhabdomyolysis).
 2. **Lactat Dehydrogenase (LDH):** Là một tetramer gồm 4 bán đơn vị thuộc 2 loại: **H** (Heart - Tim) và **M** (Muscle - Cơ), tạo thành 5 isoenzym:
    * **LDH1 ($H_4$):** Nhiều nhất ở cơ tim và hồng cầu.
    * **LDH2 ($H_3M$):** Bình thường trong huyết thanh người khỏe mạnh, $LDH2 > LDH1$. Khi bị **Nhồi máu cơ tim cấp** hoặc tan máu cấp, cơ tim/hồng cầu giải phóng lượng lớn LDH1 vào máu tạo nên hiện tượng **"đảo ngược tỷ lệ" ($LDH1 > LDH2$)**.
@@ -162,8 +162,8 @@ Enzym dị lập thể là các enzym có thêm một hoặc nhiều **vị trí
 #### 2.3.3. Tiền enzym (Zymogen / Proenzyme)
 Là dạng enzym chưa có hoạt tính sinh học do tế bào tổng hợp và bài tiết ra. Khi được vận chuyển đến đúng cơ quan đích, zymogen sẽ được hoạt hóa bằng cách thủy phân cắt bỏ một hoặc vài đoạn peptid che lấp trung tâm hoạt động, làm bộc lộ trung tâm hoạt động chức năng.
 * *Ví dụ:*
-  * **Pepsinogen** do tế bào chính niêm mạc dạ dày tiết ra $\xrightarrow{HCl / Pepsin}$ cắt bỏ đoạn peptid 44 acid amin ở đầu N $\implies$ trở thành **Pepsin** hoạt động.
-  * **Trypsinogen** do tụy tiết ra $\xrightarrow{Enteropeptidase / Trypsin}$ cắt bỏ đoạn hexapeptid $\implies$ tạo thành **Trypsin** hoạt động trong lòng ruột non.
+  * **Pepsinogen** do tế bào chính niêm mạc dạ dày tiết ra $\\xrightarrow{HCl / Pepsin}$ cắt bỏ đoạn peptid 44 acid amin ở đầu N $\implies$ trở thành **Pepsin** hoạt động.
+  * **Trypsinogen** do tụy tiết ra $\\xrightarrow{Enteropeptidase / Trypsin}$ cắt bỏ đoạn hexapeptid $\implies$ tạo thành **Trypsin** hoạt động trong lòng ruột non.
 * *Ý nghĩa sinh học sống còn:* Bảo vệ tế bào và mô sản xuất không bị tự tiêu hóa (tự phân giải protein nội tại). Nếu zymogen của tụy (trypsinogen, chymotrypsinogen) bị hoạt hóa sớm ngay bên trong mô tụy sẽ dẫn đến bệnh cảnh cấp cứu ngoại khoa nguy kịch: **Viêm tụy cấp hoại tử (Acute pancreatitis)**.
 
 #### 2.3.4. Phức hợp đa enzym (Multienzyme Complex)
@@ -233,9 +233,9 @@ Coenzym là các phân tử hữu cơ phi protein trọng lượng phân tử nh
 
 ### 4.1. Năng lượng tự do và Trạng thái chuyển tiếp
 Trong một phản ứng hóa học:
-$$A + B \rightleftharpoons [X]^\ddagger \rightleftharpoons P + Q$$
-* Để các phân tử chất phản ứng biến đổi thành sản phẩm, chúng phải va chạm với nhau và vượt qua một rào cản năng lượng gọi là **Năng lượng hoạt hóa (Activation Energy - $\Delta G^\ddagger$)**.
-* Tại đỉnh của rào cản năng lượng này, các phân tử đạt tới một trạng thái giàu năng lượng, không ổn định và có liên kết bị kéo căng tối đa gọi là **Trạng thái chuyển tiếp (Transition State - $[X]^\ddagger$)**.
+$$A + B \rightleftharpoons [X]^\\ddagger \rightleftharpoons P + Q$$
+* Để các phân tử chất phản ứng biến đổi thành sản phẩm, chúng phải va chạm với nhau và vượt qua một rào cản năng lượng gọi là **Năng lượng hoạt hóa (Activation Energy - $\Delta G^\\ddagger$)**.
+* Tại đỉnh của rào cản năng lượng này, các phân tử đạt tới một trạng thái giàu năng lượng, không ổn định và có liên kết bị kéo căng tối đa gọi là **Trạng thái chuyển tiếp (Transition State - $[X]^\\ddagger$)**.
 
 ![Mô tả năng lượng tự do và trạng thái chuyển tiếp](hoasinh_media/HS-01_fig11_transition_state.png)
 *Hình 1.3. Giản đồ năng lượng phản ứng: Năng lượng hoạt hóa là hiệu số năng lượng giữa trạng thái ban đầu và trạng thái chuyển tiếp.*
@@ -270,7 +270,7 @@ Tốc độ phản ứng enzym ($v$) là lượng cơ chất bị biến đổi 
 
 ### 5.2. Thuyết Michaelis - Menten và Đồ thị hyperbol
 Năm 1913, Leonor Michaelis và Maud Menten đã xây dựng mô hình kinh điển giải thích động học enzym thông qua sự hình thành phức hợp trung gian enzym - cơ chất ($ES$):
-$$E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \xrightarrow{k_2} E + P$$
+$$E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \\xrightarrow{k_2} E + P$$
 Khi nồng độ enzym $[E]$ cố định, nếu tăng dần nồng độ cơ chất $[S]$, tốc độ phản ứng ban đầu ($v$) biến thiên theo dạng đường cong hyperbol:
 
 ![Đồ thị Michaelis - Menten](hoasinh_media/HS-01_fig13_michaelis_menten.png)
@@ -300,18 +300,18 @@ Trong đó:
 * **Định nghĩa:** $K_m$ là **nồng độ cơ chất** (đơn vị: $\text{mol/L}$ hoặc $\text{mmol/L}$) tại đó tốc độ phản ứng đạt bằng một nửa tốc độ tối đa ($V_{max}/2$).
 * **Đặc tính:** $K_m$ là một hằng số đặc trưng cho mỗi cặp enzym - cơ chất nhất định trong điều kiện xác định ($pH$, nhiệt độ), **hoàn toàn không phụ thuộc vào nồng độ enzym $[E]$**.
 * **Ý nghĩa ái lực:** $K_m$ tỷ lệ nghịch với ái lực của enzym đối với cơ chất:
-  * **$K_m$ càng nhỏ $\implies$ Ái lực enzym với cơ chất càng lớn:** Enzym chỉ cần một lượng rất nhỏ cơ chất là đã đạt được $50\%$ tốc độ tối đa.
+  * **$K_m$ càng nhỏ $\implies$ Ái lực enzym với cơ chất càng lớn:** Enzym chỉ cần một lượng rất nhỏ cơ chất là đã đạt được $50\\%$ tốc độ tối đa.
   * **$K_m$ càng lớn $\implies$ Ái lực enzym với cơ chất càng yếu:** Cần nồng độ cơ chất rất cao enzym mới hoạt động hiệu quả.
 
 #### Ứng dụng y học đối chiếu: Hexokinase vs Glucokinase
-* **Hexokinase (có ở hầu hết các mô, cơ vân, não):** Có $K_m$ với glucose rất thấp ($pprox 0,05 - 0,1\,\text{mmol/L}$), thấp hơn nhiều so với nồng độ glucose máu lúc đói ($3,9 - 5,6\,\text{mmol/L}$). Do đó, Hexokinase luôn hoạt động bão hòa ở tốc độ tối đa, đảm bảo não và các mô sống còn luôn thu nhận và thoái hóa glucose để sinh năng lượng liên tục ngay cả khi nhịn đói kéo dài.
-* **Glucokinase (chỉ có ở tế bào gan và tế bào $\beta$ tụy):** Có $K_m$ với glucose rất cao ($pprox 10\,\text{mmol/L}$). Ở trạng thái đói, enzym này hầu như không hoạt động. Chỉ sau bữa ăn khi nồng độ glucose từ tĩnh mạch cửa đổ về gan tăng vọt, Glucokinase mới hoạt hóa mạnh để bắt giữ glucose chuyển hóa thành Glycogen dự trữ, ngăn chặn hiện tượng tăng đường huyết đột ngột sau ăn và kích hoạt tụy tiết Insulin.
+* **Hexokinase (có ở hầu hết các mô, cơ vân, não):** Có $K_m$ với glucose rất thấp ($\approx 0,05 - 0,1\,\text{mmol/L}$), thấp hơn nhiều so với nồng độ glucose máu lúc đói ($3,9 - 5,6\,\text{mmol/L}$). Do đó, Hexokinase luôn hoạt động bão hòa ở tốc độ tối đa, đảm bảo não và các mô sống còn luôn thu nhận và thoái hóa glucose để sinh năng lượng liên tục ngay cả khi nhịn đói kéo dài.
+* **Glucokinase (chỉ có ở tế bào gan và tế bào $\beta$ tụy):** Có $K_m$ với glucose rất cao ($\approx 10\,\text{mmol/L}$). Ở trạng thái đói, enzym này hầu như không hoạt động. Chỉ sau bữa ăn khi nồng độ glucose từ tĩnh mạch cửa đổ về gan tăng vọt, Glucokinase mới hoạt hóa mạnh để bắt giữ glucose chuyển hóa thành Glycogen dự trữ, ngăn chặn hiện tượng tăng đường huyết đột ngột sau ăn và kích hoạt tụy tiết Insulin.
 
 ---
 
 ### 5.3. Phương trình và Đồ thị Lineweaver - Burk (Nghịch đảo kép)
 Vì đồ thị hyperbol của Michaelis-Menten tiệm cận $V_{max}$ ở vô cực nên rất khó xác định chính xác giá trị $V_{max}$ và $K_m$ trên thực nghiệm. Năm 1934, Hans Lineweaver và Dean Burk đã biến đổi phương trình Michaelis-Menten bằng cách lấy nghịch đảo hai vế:
-$$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \cdot \frac{1}{[S]} + \frac{1}{V_{max}}$$
+$$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \\cdot \frac{1}{[S]} + \frac{1}{V_{max}}$$
 Đây là phương trình đường thẳng bậc nhất có dạng $y = ax + b$ trong hệ tọa độ Descartes:
 * Trục tung $y = \frac{1}{v}$
 * Trục hoành $x = \frac{1}{[S]}$
@@ -401,7 +401,7 @@ Chất ức chế ($I$) là những chất hóa học khi gắn vào enzym làm 
 ---
 
 #### 6.3.3. Ức chế hỗn hợp (Mixed Inhibition)
-* **Bản chất:** Chất ức chế gắn vào cả enzym tự do $E$ và phức hợp $ES$, nhưng với ái lực khác nhau ($K_i \neq K_i'$).
+* **Bản chất:** Chất ức chế gắn vào cả enzym tự do $E$ và phức hợp $ES$, nhưng với ái lực khác nhau ($K_i \\neq K_i'$).
 
 ![Đồ thị Lineweaver-Burk ức chế hỗn hợp](hoasinh_media/HS-01_fig23_mixed_lineweaver.png)
 *Hình 1.14. Đồ thị Lineweaver - Burk trong ức chế hỗn hợp: Điểm giao nhau nằm ở góc phần tư thứ hai (cả $V_{max}$ giảm và $K_m$ thay đổi).*
@@ -448,7 +448,7 @@ Trong máu người khỏe mạnh bình thường, các enzym nội bào chỉ h
 | **Alanin Aminotransferase** | **ALT (GPT)** | $< 41\,\text{U/L}$ (Nam)<br>$< 31\,\text{U/L}$ (Nữ) | **Rất đặc hiệu cho nhu mô gan** (chủ yếu nằm ở bào tương tế bào gan). Tăng đột biến (hàng trăm đến hàng nghìn U/L) trong **Viêm gan virus cấp tính**, nhiễm độc gan do thuốc/paracetamol. |
 | **Tỷ lệ De Ritis (AST/ALT)** | **AST/ALT** | $\approx 1,15$ | - **AST/ALT > 2:** Gợi ý tổn thương cơ tim (nhồi máu cơ tim) hoặc **Xơ gan, Viêm gan do rượu** (rượu làm tổn thương ty thể phóng thích AST).<br>- **AST/ALT < 1:** Gợi ý điển hình của **Viêm gan virus cấp tính**. |
 | **Creatine Kinase toàn phần** | **CK (CPK)** | $24 - 195\,\text{U/L}$ | Tăng rất cao trong chấn thương dập cơ vân, loạn dưỡng cơ Duchenne, sốt cao ác tính, co giật kéo dài, tiêu cơ vân cấp ($Rhabdomyolysis$). |
-| **Creatine Kinase isoenzym MB** | **CK-MB** | $< 25\,\text{U/L}$<br>(hoặc $< 6\%$ CK tổng) | **Chỉ điểm vàng của tổn thương hoại tử cơ tim**. Tăng sau 3 - 6 giờ sau nhồi máu cơ tim, đạt đỉnh ở 18 - 24 giờ, giảm về bình thường sau 72 giờ. Giúp phát hiện nhồi máu cơ tim tái phát. |
+| **Creatine Kinase isoenzym MB** | **CK-MB** | $< 25\,\text{U/L}$<br>(hoặc $< 6\\%$ CK tổng) | **Chỉ điểm vàng của tổn thương hoại tử cơ tim**. Tăng sau 3 - 6 giờ sau nhồi máu cơ tim, đạt đỉnh ở 18 - 24 giờ, giảm về bình thường sau 72 giờ. Giúp phát hiện nhồi máu cơ tim tái phát. |
 | **Lactat Dehydrogenase** | **LDH** | $135 - 225\,\text{U/L}$ | Tăng trong nhồi máu cơ tim, tan máu cấp, ung thư di căn, nhồi máu phổi. Hiện tượng đảo ngược $LDH1 > LDH2$ đặc trưng cho nhồi máu cơ tim và tan máu. |
 | **Amylase huyết thanh & nước tiểu** | **AMY** | Máu: $28 - 100\,\text{U/L}$<br>Nước tiểu: $< 460\,\text{U/L}$ | Tăng vọt trong vòng 2 - 12 giờ trong **Viêm tụy cấp** (tăng gấp $\ge 3$ lần giới hạn trên bình thường). Cũng tăng trong quai bị (viêm tuyến nước bọt mang tai), tắc ruột. |
 | **Lipase huyết thanh** | **LPS** | $13 - 60\,\text{U/L}$ | **Đặc hiệu và nhạy hơn Amylase trong chẩn đoán Viêm tụy cấp**. Xuất hiện sớm và duy trì nồng độ cao kéo dài trong máu từ $8 - 14\,\text{ngày}$ (hữu ích cho bệnh nhân đến viện muộn). |
@@ -478,7 +478,7 @@ Trong máu người khỏe mạnh bình thường, các enzym nội bào chỉ h
 ### Câu 3: Định nghĩa Isoenzym. Trình bày ý nghĩa của các isoenzym CK và LDH trong chẩn đoán nhồi máu cơ tim cấp.
 * **Đáp án barem:**
   * Định nghĩa: Là các dạng phân tử khác nhau của cùng một enzym, cùng xúc tác một phản ứng hóa học nhưng khác nhau về cấu trúc acid amin, tính chất hóa lý và phân bố mô.
-  * Hệ thống CK: Dimer gồm M và B. $CK-MB$ đặc hiệu cho cơ tim ($15-20\%$ CK tim, $<2\%$ CK cơ vân). Tăng sau 3 - 6h, đỉnh 18 - 24h, về bình thường sau 72h.
+  * Hệ thống CK: Dimer gồm M và B. $CK-MB$ đặc hiệu cho cơ tim ($15-20\\%$ CK tim, $<2\\%$ CK cơ vân). Tăng sau 3 - 6h, đỉnh 18 - 24h, về bình thường sau 72h.
   * Hệ thống LDH: Tetramer gồm H và M. Bình thường $LDH2 > LDH1$. Khi nhồi máu cơ tim, lượng lớn $LDH1$ giải phóng làm đảo ngược tỷ lệ: $LDH1 > LDH2$.
 
 ### Câu 4: Thiết lập và viết phương trình Michaelis - Menten. Định nghĩa hằng số $K_m$ và nêu ý nghĩa lâm sàng đối chiếu giữa Hexokinase và Glucokinase.
