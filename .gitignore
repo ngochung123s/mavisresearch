@@ -1,6 +1,10 @@
 # Windows / Google Drive File Stream metadata
 desktop.ini
+Desktop.ini
+**/desktop.ini
+**/Desktop.ini
 .tmp.driveupload/
+.tmp.drivedownload/
 
 # Python bytecode
 __pycache__/
@@ -9,6 +13,12 @@ __pycache__/
 # Office lock/temp files
 ~$*
 
+
+# SQLite temporary database files
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
 # OS cruft
 Thumbs.db
 .DS_Store
