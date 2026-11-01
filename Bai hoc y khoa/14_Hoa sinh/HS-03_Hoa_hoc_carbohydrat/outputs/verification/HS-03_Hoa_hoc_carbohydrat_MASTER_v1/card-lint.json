@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-03 Cấu trúc và tính chất của Carbohydrat",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:03",
+  "generated_at": "2026-11-02T00:26:23",
   "cards_source": "HS-03_Hoa_hoc_carbohydrat.cards.v2.json",
-  "cards_source_sha256": "5c1d62b283a14f24710bd7eb2a0d8de96d34ff02a3a375380617d91798585e98",
-  "card_count": 14,
+  "cards_source_sha256": "24f76994b65a684bb20f2710f88c508f621d21db2dce8fff99623a229dde1e4a",
+  "card_count": 79,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-03_Hoa_hoc_carbohydrat\\HS-03_Hoa_hoc_carbohydrat_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 14,
     "unchanged": 0,
-    "added": 14,
+    "added": 65,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 14
+    "deck_notes": 79
   },
-  "apkg_sha256": "ef1ce19d84932776a1b87c29758f39aeb68ae881ae425bfe95abc9876e05db05",
-  "sqlite_notes": 14,
-  "sqlite_cards": 14
+  "apkg_sha256": "de19277cab639f8401b2e57ea280224e7a483679393fa2d58e9133d3b79070d0",
+  "sqlite_notes": 79,
+  "sqlite_cards": 79
 }
