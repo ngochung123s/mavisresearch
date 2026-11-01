@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-05 Cấu tạo và phân loại Lipid",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:25",
+  "generated_at": "2026-11-02T00:55:33",
   "cards_source": "HS-05_Hoa_hoc_lipid.cards.v2.json",
-  "cards_source_sha256": "dcc70084cfb7699a32ff61d049d8b9ba6527b65e77b108b4b1029984f3bf39c4",
-  "card_count": 11,
+  "cards_source_sha256": "a8d8df83335790f435d4ba58cd2f1ad15e2dfc80bd499bc225d815db9d3bdc00",
+  "card_count": 70,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-05_Hoa_hoc_lipid\\HS-05_Hoa_hoc_lipid_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 11,
     "unchanged": 0,
-    "added": 11,
+    "added": 59,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 11
+    "deck_notes": 70
   },
-  "apkg_sha256": "5123515773c7becc687aa5676c97ac2c2f62843d946e0bf2419d1117dd5c81de",
-  "sqlite_notes": 11,
-  "sqlite_cards": 11
+  "apkg_sha256": "5173617177f9aad6e03dccf1562ede287e941b6403ad15cd34afbcb9e628d362",
+  "sqlite_notes": 70,
+  "sqlite_cards": 70
 }
