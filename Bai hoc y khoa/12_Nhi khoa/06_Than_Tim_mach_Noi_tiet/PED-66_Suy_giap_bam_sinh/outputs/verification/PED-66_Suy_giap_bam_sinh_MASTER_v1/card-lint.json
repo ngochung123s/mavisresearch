@@ -1,0 +1,31 @@
+{
+  "id": "PED-66",
+  "specialty": "nhi",
+  "deck_name": "Nhi khoa Y6::PED-66: Suy giáp bẩm sinh",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-10-29T00:24:17",
+  "cards_source": "ped66_cards_data.py",
+  "cards_source_sha256": "332136f9364989f705bde8f05c8b8f50a1ac3993e4f19695f7951aed708d9f9d",
+  "card_count": 59,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\12_Nhi khoa\\06_Than_Tim_mach_Noi_tiet\\PED-66_Suy_giap_bam_sinh\\PED-66_Suy_giap_bam_sinh_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 57,
+    "added": 2,
+    "archived": 0,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 59
+  },
+  "apkg_sha256": "c8949861ae66c51ef383541111ece67a633d47392483c6e1bfffca863da0ecbc",
+  "sqlite_notes": 59,
+  "sqlite_cards": 90
+}

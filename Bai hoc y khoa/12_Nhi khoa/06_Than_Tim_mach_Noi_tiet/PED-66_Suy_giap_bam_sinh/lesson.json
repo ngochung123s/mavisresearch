@@ -1,0 +1,13 @@
+{
+  "id": "PED-66",
+  "specialty": "nhi",
+  "profile": "disease",
+  "barem": "PED-66_Suy_giap_bam_sinh_BAREM.md",
+  "deck": {
+    "deck_id": 170966001,
+    "deck_name": "Nhi khoa Y6::PED-66: Suy giáp bẩm sinh",
+    "basename": "PED-66_Suy_giap_bam_sinh_MASTER_v1",
+    "required_sections": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", "S11", "S12", "S13"],
+    "cards_source": "ped66_cards_data.py"
+  }
+}

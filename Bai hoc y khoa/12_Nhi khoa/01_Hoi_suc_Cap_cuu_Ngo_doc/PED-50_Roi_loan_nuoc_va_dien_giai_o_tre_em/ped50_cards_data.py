@@ -25,7 +25,12 @@ def B(t):  # tên bệnh / phân loại / thực thể
 
 KCL_NOTE = ("<br><br><b>📝 Ghi chú barem:</b> barem ghi hai tỉ lệ pha khác nhau — pha G5% tỉ lệ 1:3 (B21.01, B21.02) và "
             "1 ml KCl 10% + 9 ml G5% (B21.04). KCl 10% ≈ 1,34 mEq/ml (100 mg/ml ÷ 74,55) nên pha 1:3 ≈ 0,33 mEq/ml, "
-            "pha 1 + 9 ≈ 0,13 mEq/ml. Khi thi ghi đúng từng câu theo barem, không gộp làm một; trên lâm sàng theo phác đồ của khoa.")
+            "pha 1 + 9 ≈ 0,13 mEq/ml. Khi thi ghi đúng từng câu theo barem, không gộp làm một."
+            "<br><br><b>⚖️ Cập nhật EBM (ngoài barem, khi thi vẫn viết theo barem):</b> hướng dẫn nhi khoa NHS Lanarkshire 2024: "
+            "KCl truyền tĩnh mạch ngoại vi " + R("không vượt 40 mmol/L") + " (0,04 mEq/ml), tốc độ " + R("không quá 0,2 mmol/kg/giờ") + "; "
+            "nồng độ trên 40 mmol/L " + G("phải truyền qua tĩnh mạch trung tâm") + "; lúc đầu tránh dịch có glucose. "
+            "Hai cách pha của barem (≈ 335 và ≈ 134 mmol/L) đều vượt ngưỡng ngoại vi, liều 0,3–0,5 mEq/kg/giờ cũng vượt 0,2 → "
+            "trên lâm sàng chỉ truyền như vậy qua tĩnh mạch trung tâm, có monitor điện tim, theo phác đồ của khoa.")
 
 BADGE = ("🏛️ BAREM GỐC · SLIDE BỘ MÔN NHI", "badge-barem")
 SRC = "📖 Nguồn: Handout slide bài giảng Rối loạn nước điện giải ở trẻ em — Bộ môn Nhi ĐHYDTB (ThS.BSCKII. Khúc Văn Lập). Barem: "
