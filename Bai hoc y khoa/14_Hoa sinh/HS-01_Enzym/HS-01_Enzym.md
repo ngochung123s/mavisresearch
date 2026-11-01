@@ -233,9 +233,9 @@ Coenzym là các phân tử hữu cơ phi protein trọng lượng phân tử nh
 
 ### 4.1. Năng lượng tự do và Trạng thái chuyển tiếp
 Trong một phản ứng hóa học:
-$$A + B \rightleftharpoons [X]^\\ddagger \rightleftharpoons P + Q$$
-* Để các phân tử chất phản ứng biến đổi thành sản phẩm, chúng phải va chạm với nhau và vượt qua một rào cản năng lượng gọi là **Năng lượng hoạt hóa (Activation Energy - $\Delta G^\\ddagger$)**.
-* Tại đỉnh của rào cản năng lượng này, các phân tử đạt tới một trạng thái giàu năng lượng, không ổn định và có liên kết bị kéo căng tối đa gọi là **Trạng thái chuyển tiếp (Transition State - $[X]^\\ddagger$)**.
+$$A + B \rightleftharpoons [X]^\ddagger \rightleftharpoons P + Q$$
+* Để các phân tử chất phản ứng biến đổi thành sản phẩm, chúng phải va chạm với nhau và vượt qua một rào cản năng lượng gọi là **Năng lượng hoạt hóa (Activation Energy - $\Delta G^\ddagger$)**.
+* Tại đỉnh của rào cản năng lượng này, các phân tử đạt tới một trạng thái giàu năng lượng, không ổn định và có liên kết bị kéo căng tối đa gọi là **Trạng thái chuyển tiếp (Transition State - $[X]^\ddagger$)**.
 
 ![Mô tả năng lượng tự do và trạng thái chuyển tiếp](hoasinh_media/HS-01_fig11_transition_state.png)
 *Hình 1.3. Giản đồ năng lượng phản ứng: Năng lượng hoạt hóa là hiệu số năng lượng giữa trạng thái ban đầu và trạng thái chuyển tiếp.*
