@@ -49,6 +49,9 @@ Trong đó:
 
 Sự oxy hóa các chất hữu cơ (Glucid, Lipid, Protid) trong cơ thể sinh vật và sự đốt cháy một nhiên liệu trong động cơ nhiệt hay ngọn lửa ngoài cơ thể đều tạo ra sản phẩm cuối cùng là $CO_2, H_2O$ và giải phóng một lượng năng lượng tổng cộng tương đương nhau (theo định luật Hess). Tuy nhiên, cơ chế thực hiện giữa hai quá trình hoàn toàn khác biệt về mặt hóa lý và sinh học:
 
+![Khái quát sự đốt cháy các chất hữu cơ trong cơ thể](hoasinh_media/HS-02_fig2_1.png)
+*Hình 2.1. Khái quát sự đốt cháy các chất hữu cơ G, L, P trong cơ thể.*
+
 | Đặc tính | Đốt cháy ngoài cơ thể (Quá trình hóa lý) | Đốt cháy sinh học (Hô hấp tế bào) |
 | :--- | :--- | :--- |
 | **Bản chất xúc tác** | Không có xúc tác sinh học; cần nhiệt độ kích hoạt cao (châm lửa) | Hệ enzym và coenzym đặc hiệu cao xúc tác ở từng phản ứng cụ thể |
@@ -144,9 +147,26 @@ Ty thể (Mitochondria) là "nhà máy năng lượng" của tế bào nhân th�
 4. **Chất nền ty thể (Mitochondrial Matrix):**
    - Môi trường gel đậm đặc chứa hàng trăm loại enzym hòa tan tham gia vào các chuyển hóa cốt lõi: Chu trình acid citric (Krebs), chu trình urê (giai đoạn đầu), con đường $\beta$-oxy hóa acid béo, oxy hóa thoái hóa khung carbon acid amin, phức hợp Pyruvat Dehydrogenase.
    - Chứa DNA ty thể (mtDNA mạch vòng kép), RNA vận chuyển (tRNA), ribosom ty thể (70S) để tự tổng hợp 13 chuỗi polypeptid cốt lõi của chuỗi hô hấp.
+![Cơ chế vận chuyển điện tử và hydro của NAD+](hoasinh_media/HS-02_fig2_2.png)
+*Hình 2.2. Cơ chế vận chuyển điện tử và hydro của NAD+.*
 
-![Chuỗi vận chuyển điện tử](hoasinh_media/HS-02_fig01_electron_transport_chain.png)
+![Cơ chế vận chuyển điện tử và hydro của FMN](hoasinh_media/HS-02_fig2_3.png)
+*Hình 2.3. Cơ chế vận chuyển điện tử và hydro của FMN.*
 
+![Ba dạng trung tâm sắt - lưu huỳnh](hoasinh_media/HS-02_fig2_4.png)
+*Hình 2.4. Ba dạng trung tâm sắt - lưu huỳnh.*
+
+![Cơ chế vận chuyển điện tử của CoQ](hoasinh_media/HS-02_fig2_5.png)
+*Hình 2.5. Cơ chế vận chuyển điện tử của CoQ.*
+
+![Cấu trúc Hem c tham gia cấu tạo cytochrom](hoasinh_media/HS-02_fig2_6.png)
+*Hình 2.6. Cấu trúc Hem c tham gia cấu tạo cytochrom.*
+
+![Chuỗi vận chuyển điện tử](hoasinh_media/HS-02_fig2_7.png)
+*Hình 2.7. Chuỗi vận chuyển điện tử.*
+
+![Cấu tạo sơ lược ty thể](hoasinh_media/HS-02_fig2_8.png)
+*Hình 2.8. Cấu tạo sơ lược ty thể.*
 ### 2.2. Dòng điện tử và thế năng khử chuẩn (Standard Reduction Potential - $E^{\circ\prime}$)
 
 Chuỗi vận chuyển điện tử hô hấp là một chuỗi bậc thang gồm các chất mang điện tử gắn trên màng trong ty thể, được sắp xếp theo thứ tự **thế năng khử chuẩn ($E^{\circ\prime}$) tăng dần** (từ chất có ái lực với điện tử yếu nhất đến chất có ái lực mạnh nhất):
@@ -282,7 +302,20 @@ $$\Delta G = -F\Delta p = -(96.5\,\text{kJ/V}\cdot\text{mol}) \times (0.22\,\tex
 
 Đây là nguồn động lực năng lượng tự do trực tiếp vận hành cỗ máy phân tử ATP Synthase.
 
-![Cấu trúc và cơ chế ATP synthase](hoasinh_media/HS-02_fig02_atp_synthase.png)
+![Cấu tạo ATP synthase](hoasinh_media/HS-02_fig2_9.png)
+*Hình 2.9. Cấu tạo ATP synthase.*
+
+![Năng lượng tạo ra trong quá trình vận chuyển điện tử dùng bơm H+](hoasinh_media/HS-02_fig2_10.png)
+*Hình 2.10. Năng lượng tạo ra trong quá trình vận chuyển điện tử dùng bơm H+ từ trong ty thể ra ngoài ty thể và tạo ra chênh lệch nồng độ giữa 2 phía của màng.*
+
+![Cơ chế quay của ATP synthase tạo ATP](hoasinh_media/HS-02_fig2_11.png)
+*Hình 2.11. Cơ chế quay của ATP synthase tạo ATP.*
+
+![Năng lượng giải phóng khi vận chuyển e- được dùng để bơm H+ qua màng trong ty thể](hoasinh_media/HS-02_fig2_12.png)
+*Hình 2.12. Năng lượng giải phóng khi vận chuyển e- được dùng để bơm H+ qua màng trong ty thể.*
+
+![Điều hòa tổng hợp ATP](hoasinh_media/HS-02_fig2_13.png)
+*Hình 2.13. Điều hòa tổng hợp ATP phụ thuộc theo mức ADP trong môi trường.*
 
 ### 3.2. Cấu trúc không gian và cơ chế quay phân tử của Phức hợp V (ATP Synthase)
 
@@ -384,6 +417,8 @@ Chất ức chế gắn đặc hiệu vào một phức hợp hô hấp, ngăn c
 | | **Natri Azid ($NaN_3$)** | Tác dụng tương tự cyanid, phong bế Hem $a_3\,(\text{Fe}^{3+})$. |
 | | **Hydro sulfua ($H_2S$)** | Độc khí công nghiệp; gắn ức chế cực mạnh vào Hem $a_3$ tương tự cyanid. |
 
+![Một số chất ức chế chuỗi hô hấp tế bào và vị trí tác dụng](hoasinh_media/HS-02_fig2_14.png)
+*Hình 2.14. Một số chất ức chế chuỗi hô hấp tế bào và vị trí tác dụng.*
 ### 4.2. Các chất ức chế trực tiếp ATP Synthase
 
 - **Oligomycin:** Kháng sinh tự nhiên chiết xuất từ *Streptomyces diastatochromogenes*. Cơ chế: Oligomycin gắn đặc hiệu vào tiểu phần $c$ của khối $F_o$, bịt kín kênh dẫn proton qua màng.
@@ -478,6 +513,8 @@ $$\text{Glyceraldehyd-3-P} + \text{NAD}^+ + \text{P}_i \xrightarrow{\text{GAPDH}
 | **Hiệu suất thu hồi năng lượng** | **$2.5\,\text{ATP}$** cho mỗi $NADH$ bào tương | **$1.5\,\text{ATP}$** cho mỗi $NADH$ bào tương |
 | **Tổng ATP từ 1 Glucose hiếu khí** | $32\,\text{ATP}$ | $30\,\text{ATP}$ |
 
+![Sự phosphoryl-oxy hóa](hoasinh_media/HS-02_fig2_16.png)
+*Hình 2.16. Sự phosphoryl-oxy hóa được thể hiện bằng quá trình oxy hóa (vận chuyển điện tử) đi kèm với quá trình phosphoryl hóa (tạo ATP).*
 ---
 
 ## 6. CHU TRÌNH ACID CITRIC (CHU TRÌNH KREBS / TCA CYCLE)
@@ -510,7 +547,14 @@ $$\text{Pyruvat} + \text{CoA-SH} + \text{NAD}^+ \xrightarrow{\text{Phức hợp 
   + **PDH Kinase:** Gắn nhóm phosphat từ ATP vào gốc Serin trên tiểu phần $E_1$, làm **bất hoạt PDH**. PDH Kinase được hoạt hóa mạnh bởi $NADH, Acetyl-CoA, ATP$; và bị ức chế bởi Pyruvat, $ADP, NAD^+, CoA-SH$.
   + **PDH Phosphatase:** Cắt bỏ nhóm phosphat gắn trên $E_1$, làm **tái hoạt hóa PDH**. PDH Phosphatase được hoạt hóa mạnh mẽ bởi ion **$Ca^{2+}$** (tín hiệu co cơ ở cơ vân và tim) và hormon **Insulin** (ở mô mỡ và gan, thúc đẩy chuyển hóa carbohydrate dư thừa thành acid béo).
 
-![Chu trình acid citric Krebs](hoasinh_media/HS-02_fig03_citric_acid_cycle.png)
+![Chuyển hóa acid pyruvic thành acetyl-CoA](hoasinh_media/HS-02_fig2_17.png)
+*Hình 2.17. Chuyển hóa acid pyruvic thành acetyl-CoA.*
+
+![Tổng quát các phản ứng của chu trình acid citric](hoasinh_media/HS-02_fig2_18.png)
+*Hình 2.18. Tổng quát các phản ứng của chu trình acid citric.*
+
+![Tóm tắt phần năng lượng sinh học ở tế bào](hoasinh_media/HS-02_fig2_19.png)
+*Hình 2.19. Tóm tắt phần năng lượng sinh học ở tế bào.*
 
 ### 6.2. Tám phản ứng enzym tuần tự của Chu trình Acid Citric
 

@@ -65,6 +65,8 @@ Monosaccharid được phân loại phối hợp dựa trên:
    - $C_5$: Pentose (Aldopentose: Ribose, Arabinose, Xylose; Ketopentose: Ribulose, Xylulose).
    - $C_6$: Hexose (Aldohexose: Glucose, Galactose, Mannose; Ketohexose: Fructose).
    - $C_7$: Heptose (Ketoheptose: Sedoheptulose - chất trung gian chuyển hóa nhánh pentose phosphat).
+![Công thức chung của aldose và cetose](hoasinh_media/HS-03_fig3_1.png)
+*Hình 3.1. Công thức chung của aldose và cetose.*
 
 | Số C | Tên gọi chung | Aldose tiêu biểu | Ketose tiêu biểu | Vai trò sinh học chính |
 | :---: | :---: | :---: | :---: | :--- |
@@ -81,7 +83,12 @@ Monosaccharid được phân loại phối hợp dựa trên:
   $$N = 2^k$$
   * Aldohexose ($\text{C}_6\text{H}_{12}\text{O}_6$) có 4 carbon bất đối (C2, C3, C4, C5), suy ra $N = 2^4 = 16$ đồng phân quang học (gồm 8 dạng dãy D và 8 dạng dãy L).
   * Ketohexose (như Fructose) có 3 carbon bất đối (C3, C4, C5), suy ra $N = 2^3 = 8$ đồng phân quang học (4 dạng dãy D và 4 dạng dãy L).
-  * Dihydroxyaceton ($\text{CH}_2\text{OH}-\text{CO}-\text{CH}_2\text{OH}$) hoàn toàn không có $C^*$, do đó không có hoạt tính quang học.
+![Công thức hình chiếu Fischer biểu diễn D-glucose và D-fructose](hoasinh_media/HS-03_fig3_2.png)
+*Hình 3.2. Công thức hình chiếu Fischer biểu diễn D-glucose và D-fructose.*
+
+![Carbon bất đối (C*)](hoasinh_media/HS-03_fig3_3.png)
+*Hình 3.3. Carbon bất đối (C*).*
+
 - **Quy ước Cấu hình D và L theo Fischer:**
   Hệ thống danh pháp lập thể $D/L$ kinh điển dựa trên việc lấy phân tử chuẩn là **Glyceraldehyd** (aldotriose đơn giản nhất có 1 $C^*$ tại C2):
   * Đặt nhóm carbonyl oxy hóa cao nhất ở trên đỉnh công thức chiếu thẳng đứng.
@@ -175,10 +182,19 @@ Trong dung dịch nước, dưới $1\%$ phân tử aldose hay ketose tồn tạ
 
 $$\text{R'-OH} + \text{R-CHO} \rightleftharpoons \text{R-CH(OH)-OR'} \quad (\text{Bán acetal / Hemiacetal})$$
 $$\text{R'-OH} + \text{R-CO-R''} \rightleftharpoons \text{R-C(OH)(OR')-R''} \quad (\text{Bán cetal / Hemiketal})$$
+![Bán acetal (bán cetal) và acetal (cetal)](hoasinh_media/HS-03_fig3_6.png)
+*Hình 3.6. Bán acetal (bán cetal) và acetal (cetal).*
+
+![Cấu tạo của D-glucose dạng thẳng, dạng vòng D-glucopyranose](hoasinh_media/HS-03_fig3_7.png)
+*Hình 3.7. Cấu tạo của D-glucose dạng thẳng, dạng vòng D-glucopyranose.*
 
 1. **Vòng Furanose và Pyranose:**
    - Khi nhóm $-\text{OH}$ ở C5 của aldohexose tấn công carbonyl C1, tạo thành dị vòng 6 cạnh gồm 5 nguyên tử carbon và 1 nguyên tử oxy, cấu trúc này tương tự dị vòng pyran nên gọi là **vòng Pyranose** (ví dụ $\alpha$-D-glucopyranose).
    - Khi nhóm $-\text{OH}$ ở C4 của aldohexose (hoặc $-\text{OH}$ ở C5 của ketohexose như fructose tấn công C2), tạo dị vòng 5 cạnh gồm 4 carbon và 1 oxy, tương tự dị vòng furan nên gọi là **vòng Furanose** (ví dụ $\beta$-D-fructofuranose, $\beta$-D-ribofuranose).
+
+![Pyranose và Furanose](hoasinh_media/HS-03_fig3_8.png)
+*Hình 3.8. Pyranose và Furanose.*
+
 2. **Carbon Anomer và Cấu hình $\alpha / \beta$ theo Haworth:**
    - Quá trình khép vòng tạo ra một tâm bất đối xứng mới tại carbon carbonyl ban đầu (C1 của aldose hoặc C2 của ketose), được gọi là **carbon anomer ($C_{\text{anomer}}$)**. Nhóm $-\text{OH}$ gắn vào carbon này được gọi là **hydroxyl bán acetal / bán cetal (hydroxyl anomer)**.
    - Theo công thức chiếu Haworth:
@@ -193,8 +209,9 @@ $$\text{R'-OH} + \text{R-CO-R''} \rightleftharpoons \text{R-C(OH)(OR')-R''} \qua
 4. **Dạng Ghế (Chair Conformation) Bền vững của D-Glucopyranose:**
    - Trên thực tế không gian 3 chiều, góc liên kết $C-C-C$ và $C-O-C$ là góc tứ diện $109{,}5^\circ$, nên vòng 6 cạnh pyranose không thể phẳng như công thức Haworth mà gập ghềnh thành các dạng đồng phân cấu xạ (conformation), chủ yếu là **dạng ghế ($^4C_1$ và $^1C_4$)** và dạng thuyền.
    - Cấu xạ **ghế $^4C_1$** của $\beta$-D-glucopyranose là cấu trúc có mức năng lượng thấp nhất và bền vững nhiệt động học tuyệt đối trong tất cả các aldohexose, bởi vì **toàn bộ các nhóm thế cồng kềnh (4 nhóm $-\text{OH}$ và 1 nhóm $-\text{CH}_2\text{OH}$) đều định hướng nằm ở vị trí biên (equatorial)**, loại bỏ triệt để lực đẩy cản trở lập thể (1,3-diaxial strain). Điều này giải thích tại sao D-glucose là đơn vị monosaccharid dồi dào nhất trong toàn bộ sinh giới.
+![Công thức Haworth biểu diễn cấu trúc vòng của glucose](hoasinh_media/HS-03_fig3_9.png)
+*Hình 3.9. Công thức Haworth biểu diễn cấu trúc vòng của glucose.*
 
-![Cấu trúc Fischer và Haworth của D-glucose](hoasinh_media/HS-03_fig01_glucose_structures.png)
 ---
 
 ## 3. TÍNH CHẤT HÓA HỌC CỐT LÕI CỦA MONOSACCHARID VÀ Ý NGHĨA Y SINH HỌC
@@ -208,10 +225,18 @@ Monosaccharid là những chất khử mạnh nhờ sự hiện diện của nh�
      * **Thuốc thử Tollens (phản ứng tráng bạc):** Ion phức bạc $[\text{Ag}(\text{NH}_3)_2]^+$ bị khử tạo thành bạc kim loại $\text{Ag}^0$ bám sáng như gương vào thành ống nghiệm:
        $$\text{R-CHO} + 2[\text{Ag}(\text{NH}_3)_2]^+ + 3\text{OH}^- \xrightarrow{t^\circ} \text{R-COO}^- + 2\text{Ag}\downarrow (\text{gương}) + 4\text{NH}_3 + 2\text{H}_2\text{O}$$
      * **Thuốc thử Nylander:** Ion bismuth $\text{Bi}^{3+}$ bị khử thành bismuth kim loại kết tủa đen.
+
+![Phản ứng Fehling](hoasinh_media/HS-03_fig3_10.png)
+*Hình 3.10. Phản ứng Fehling.*
+
 2. **Cơ chế Chuyển hỗ biến dạng Enediol (Lobry de Bruyn - Alberda van Ekenstein):**
    - Về mặt lý thuyết, ketose (như D-fructose) chứa nhóm ceton vốn khó bị oxy hóa hơn aldehyd. Tuy nhiên, **trong môi trường kiềm loãng, Fructose vẫn cho phản ứng khử rất mạnh với thuốc thử Fehling và Benedict**.
    - Cơ chế: Môi trường kiềm kích hoạt sự chuyển dời proton tạo thành chất trung gian không bền là **enediol** mang liên kết đôi giữa C1 và C2. Dạng enediol này có thể chuyển hỗ biến thuận nghịch thành D-glucose và D-mannose (chứa nhóm aldehyd tự do), do đó mang lại tính khử tương đương aldose:
      $$\text{D-Fructose} \rightleftharpoons [\text{cis-Enediol intermediate}] \rightleftharpoons \text{D-Glucose} + \text{D-Mannose}$$
+
+![Sự chuyển dạng lẫn nhau của glucose, fructose và mannose](hoasinh_media/HS-03_fig3_14.png)
+*Hình 3.14. Sự chuyển dạng lẫn nhau của glucose, fructose và mannose.*
+
 3. **Ý nghĩa Lâm sàng và Xét nghiệm Nước tiểu:**
    - **Xét nghiệm Benedict cổ điển:** Từng được sử dụng rộng rãi để tầm soát đường niệu (glucosuria) ở bệnh nhân đái tháo đường. Tuy nhiên, phản ứng này không đặc hiệu vì bất kỳ chất khử nào xuất hiện trong nước tiểu (fructose, galactose, acid ascorbic - vitamin C liều cao, salicylat, kháng sinh beta-lactam) đều gây dương tính giả.
    - **Que thử nhúng bán định lượng hiện đại (Dipstick test):** Khắc phục triệt để nhược điểm trên bằng cách sử dụng **phản ứng enzym màu kép đặc hiệu tuyệt đối cho D-glucose**:
@@ -233,6 +258,10 @@ Tùy thuộc vào tác nhân oxy hóa và điều kiện phản ứng, quá trì
      * **Liên hợp giải độc Bilirubin:** Tại tế bào gan, enzym **UDP-glucuronosyltransferase (UGT1A1)** xúc tác gắn 2 phân tử acid D-glucuronic (dưới dạng hoạt hóa UDP-glucuronat) vào chuỗi carboxyl của Bilirubin tự do (gián tiếp, độc, không tan trong nước) tạo thành **Bilirubin diglucuronid** (trực tiếp, tan trong nước) để bài tiết an toàn vào dịch mật. Khiếm khuyết di truyền UGT1A1 gây các hội chứng vàng da tăng bilirubin gián tiếp nặng nề như Hội chứng Crigler-Najjar type I, II và Hội chứng Gilbert.
      * **Đào thải thuốc và độc chất ngoại sinh (Xenobiotics):** Quá trình liên hợp glucuronid là con đường chuyển hóa pha II chủ yếu tại gan đối với hàng loạt dược phẩm: paracetamol (acetaminophen), morphin, thuốc chống co giật, steroid, NSAIDs... giúp tăng độ tan để thải trừ qua thận và mật.
      * **Cấu tạo Glycosaminoglycan (GAGs):** Acid glucuronic và epimer của nó là Acid L-iduronic là thành phần monomer không thể thiếu của Hyaluronic acid, Chondroitin sulfat, Heparin...
+
+![Oxy hóa glucose thành acid glucuronic](hoasinh_media/HS-03_fig3_11.png)
+*Hình 3.11. Oxy hóa glucose thành acid glucuronic.*
+
 3. **Oxy hóa mạnh đồng thời cả C1 và C6 $\rightarrow$ Acid Aldaric (Acid Saccharic):**
    - Dưới tác dụng của chất oxy hóa mạnh như acid nitric đặc nóng ($\text{HNO}_3$ đậm đặc, nhiệt độ cao), cả nhóm $-\text{CHO}$ ở C1 và nhóm $-\text{CH}_2\text{OH}$ ở C6 đều bị oxy hóa triệt để thành nhóm carboxyl ($-\text{COOH}$), tạo thành dicarboxylic acid.
    - D-Glucose bị oxy hóa tạo thành **Acid D-glucosaccharic** (hay Acid D-glucaric).
@@ -313,6 +342,11 @@ Nhóm $-\text{OH}$ alcol của monosaccharid có thể phản ứng với acid v
   * **Glucose-6-phosphat (G-6-P):** Tạo thành nhờ Hexokinase hoặc Glucokinase, là "ngã tư đường" của chuyển hóa glucose (đường phân, pentose phosphat, tổng hợp glycogen).
   * **Fructose-6-phosphat (F-6-P)** và **Fructose-1,6-bisphosphat (F-1,6-BP):** Các chất trung gian then chốt của con đường đường phân (glycolysis).
   * **Glyceraldehyd-3-phosphat (GAP)** và **Dihydroxyaceton phosphat (DHAP):** Các triose phosphat trung gian.
+   * **Glyceraldehyd-3-phosphat (GAP)** và **Dihydroxyaceton phosphat (DHAP):** Các triose phosphat trung gian.
+
+![Một số dẫn xuất este phosphat quan trọng của các monosaccharid](hoasinh_media/HS-03_fig3_13.png)
+*Hình 3.13. Một số dẫn xuất este phosphat quan trọng của các monosaccharid.*
+
 - **Ý nghĩa sinh học:** Các nhóm phosphat tích điện âm mạnh ở pH sinh lý, ngăn cản hoàn toàn sự khuếch tán của monosaccharid ra khỏi màng sinh chất lipid kép, "bẫy" giữ đường bên trong tế bào.
 
 ### 3.5. Phản ứng Tạo Liên kết Glycosid ($O$- và $N$-glycosid)
@@ -320,6 +354,10 @@ Khi nhóm $-\text{OH}$ bán acetal (ở C1 aldose) hoặc bán cetal (ở C2 ket
 1. **Liên kết O-glycosid:**
    - Tạo thành khi nhóm $-\text{OH}$ anomer liên kết với nhóm hydroxyl ($-\text{OH}$) của một phân tử đường khác hoặc của alcol/phenol/acid amin (Serin, Threonin).
    - Đây là liên kết nền tảng để xây dựng nên toàn bộ các phân tử **Disaccharid, Oligosaccharid và Polysaccharid**.
+
+![Phản ứng tạo Methyl beta-D-glucosid](hoasinh_media/HS-03_fig3_12.png)
+*Hình 3.12. Phản ứng tạo Methyl beta-D-glucosid.*
+
 2. **Liên kết N-glycosid:**
    - Tạo thành khi nhóm $-\text{OH}$ anomer của đường pentose (D-ribose hoặc 2-deoxy-D-ribose) ngưng tụ với nguyên tử nitrogen (N9 của base purin Adenin/Guanin hoặc N1 của base pyrimidin Cytosin/Uracil/Thymin).
    - Đây là liên kết cộng hóa trị cốt lõi cấu tạo nên **Nucleosid, Nucleotid, ATP và các đại phân tử acid nucleic (DNA, RNA)**.
@@ -342,6 +380,10 @@ Khi nhóm $-\text{OH}$ bán acetal (ở C1 aldose) hoặc bán cetal (ở C2 ket
 - Phân loại theo tính chất khử:
   * **Disaccharid còn tính khử:** Khi liên kết glycosid được tạo thành giữa nhóm $-\text{OH}$ bán acetal của monosaccharid thứ nhất với một nhóm $-\text{OH}$ alcol thông thường (ở C4 hoặc C6) của monosaccharid thứ hai. Phân tử đường thứ hai vẫn bảo tồn nguyên vẹn nhóm $-\text{OH}$ bán acetal tự do, có khả năng mở vòng tạo nhóm carbonyl để khử thuốc thử Fehling/Benedict. Đại diện: **Maltose, Lactose, Cellobiose**.
   * **Disaccharid không còn tính khử:** Khi liên kết glycosid được tạo thành trực tiếp giữa 2 nhóm $-\text{OH}$ bán acetal/cetal của cả hai monosaccharid với nhau. Trong phân tử hoàn toàn không còn nhóm $-\text{OH}$ anomer tự do nào, không thể mở vòng dạng chuỗi hở, mất hoàn toàn tính khử kim loại kiềm. Đại diện: **Saccarose (Sucrose), Trehalose**.
+  * **Disaccharid không còn tính khử:** Khi liên kết glycosid được tạo thành trực tiếp giữa 2 nhóm $-\text{OH}$ bán acetal/cetal của cả hai monosaccharid với nhau. Trong phân tử hoàn toàn không còn nhóm $-\text{OH}$ anomer tự do nào, không thể mở vòng dạng chuỗi hở, mất hoàn toàn tính khử kim loại kiềm. Đại diện: **Saccarose (Sucrose), Trehalose**.
+
+![Thủy phân một số disaccharid thường gặp](hoasinh_media/HS-03_fig3_15.png)
+*Hình 3.15. Thủy phân một số disaccharid thường gặp.*
 
 ### 4.1. Maltose (Đường Mạch Nha)
 - **Cấu tạo và Danh pháp Chuẩn mực:**
@@ -351,8 +393,11 @@ Khi nhóm $-\text{OH}$ bán acetal (ở C1 aldose) hoặc bán cetal (ở C2 ket
   * Nhóm $-\text{OH}$ anomer tại C1 của gốc glucose thứ hai hoàn toàn tự do, do đó **Maltose còn tính khử mạnh** (làm mất màu Fehling tạo kết tủa đỏ $\text{Cu}_2\text{O}$), có hiện tượng biến triền (mutarotation) và tồn tại dưới 2 dạng anomer $\alpha$-maltose và $\beta$-maltose.
 - **Nguồn gốc Sinh học:**
   Maltose không tồn tại phổ biến ở trạng thái tự do trong mô động vật, mà là sản phẩm chuyển hóa trung gian chủ yếu của quá trình thủy phân tinh bột và glycogen bởi enzym **$\alpha$-amylase** (dịch nước bọt và dịch tụy). Tại bờ bàn chải ruột non, maltose bị thủy phân thành 2 phân tử D-glucose nhờ enzym **Maltase** ($\alpha$-glucosidase).
-- **Isomaltose:** Là đồng phân chứa liên kết **$\alpha-1,6-\text{glucosid}$**, sinh ra từ các điểm phân nhánh của amylopectin và glycogen, bị thủy phân bởi enzym isomaltase ruột.
 
+![Công thức cấu tạo maltose](hoasinh_media/HS-03_fig3_16.png)
+*Hình 3.16. Công thức cấu tạo maltose.*
+
+- **Isomaltose:** Là đồng phân chứa liên kết **$\alpha-1,6-\text{glucosid}$**, sinh ra từ các điểm phân nhánh của amylopectin và glycogen, bị thủy phân bởi enzym isomaltase ruột.
 ### 4.2. Lactose (Đường Sữa)
 - **Cấu tạo và Danh pháp Chuẩn mực:**
   Cấu tạo gồm 1 gốc $\beta$-D-galactopyranose liên kết với 1 gốc D-glucopyranose thông qua **liên kết $\beta-1,4-\text{galactosid}$**.
@@ -362,6 +407,9 @@ Khi nhóm $-\text{OH}$ bán acetal (ở C1 aldose) hoặc bán cetal (ở C2 ket
 - **Nguồn gốc Sinh học và Tiêu hóa:**
   * Lactose là loại glucid đặc trưng duy nhất có trong sữa người ($6-7\%$) và sữa động vật có vú ($4-5\%$ ở sữa bò). Đây là nguồn cung cấp năng lượng và galactose (thành phần myelin hóa thần kinh não bộ) thiết yếu cho trẻ sơ sinh.
   * Trong lòng ống tiêu hóa, lactose bị thủy phân thành D-galactose và D-glucose nhờ enzym **Lactase** ($\beta$-galactosidase) nằm ở diềm bàn chải tế bào niêm mạc ruột non.
+
+![Công thức cấu tạo của lactose/galactose](hoasinh_media/HS-03_fig3_17.png)
+*Hình 3.17. Công thức cấu tạo của galactose.*
 
 ### 4.3. Saccarose (Sucrose / Đường Mía / Đường Củ Cải)
 - **Cấu tạo và Danh pháp Chuẩn mực:**
@@ -377,8 +425,9 @@ Khi nhóm $-\text{OH}$ bán acetal (ở C1 aldose) hoặc bán cetal (ở C2 ket
     $$\text{Saccarose} + \text{H}_2\text{O} \xrightarrow{\text{Sucrase / H}^+} \text{D-Glucose} ([\alpha] = +52{,}7^\circ) + \text{D-Fructose} ([\alpha] = -92{,}4^\circ)$$
   * Do giá trị tả triền (quay trái) của D-fructose ($-92{,}4^\circ$) lấn át hoàn toàn giá trị hữu triền (quay phải) của D-glucose ($+52{,}7^\circ$), nên dung dịch sản phẩm sau thủy phân đổi dấu từ quay phải ($+66{,}5^\circ$) sang **quay trái (tả triền) ròng** với góc quay riêng xấp xỉ $[\alpha] = -19{,}8^\circ$.
   * Hiện tượng đổi chiều góc quay mặt phẳng ánh sáng phân cực từ phải sang trái này được gọi là **hiện tượng đảo cực đường**, và hỗn hợp dịch thủy phân tạo thành được gọi là **đường đảo (invert sugar)** (thành phần chủ yếu có trong mật ong tự nhiên, ngọt hơn saccarose ban đầu).
+![Công thức cấu tạo của saccharose](hoasinh_media/HS-03_fig3_18.png)
+*Hình 3.18. Công thức cấu tạo của saccharose.*
 
-![Cấu trúc các disaccharid quan trọng](hoasinh_media/HS-03_fig02_disaccharides.png)
 ---
 
 ## 5. CẤU TRÚC VÀ VAI TRÒ SINH HỌC CỦA POLYSACCHARID THUẦN (HOMOPOLYSACCHARID)
@@ -392,11 +441,19 @@ Tinh bột là dạng glucid dự trữ carbohydrate quan trọng nhất của t
    - **Cấu trúc:** Chuỗi polymer mạch thẳng dài không phân nhánh, cấu tạo từ hàng nghìn gốc $\alpha$-D-glucopyranose liên kết với nhau độc quyền bằng **liên kết $\alpha-1,4-\text{glucosid}$**. Khối lượng phân tử dao động từ $50{,}000$ đến $500{,}000 \text{ Da}$.
    - **Cấu trúc không gian:** Do góc liên kết $\alpha-1,4$ có độ cong tự nhiên, chuỗi amylose trong dung dịch nước không duỗi thẳng mà tự động cuộn lại thành một cấu trúc **xoắn ốc rỗng bên trong (left-handed helix)**, mỗi vòng xoắn gồm chính xác 6 gốc glucose.
    - **Phản ứng màu đặc trưng với Iod:** Các phân tử iod (dưới dạng chuỗi ion polyiodid $\text{I}_3^-$ và $\text{I}_5^-$) chui lọt vừa khít và bị bẫy bên trong lòng xoắn ốc của chuỗi amylose. Tương tác chuyển điện tích giữa iod và các nhóm hydroxyl của glucose tạo ra phức chất màu **xanh tím đậm (deep blue)** đặc trưng. Khi đun nóng dung dịch, liên kết hydro bị phá vỡ, chuỗi xoắn dãn ra giải phóng iod làm mất màu; khi để nguội, chuỗi cuộn xoắn trở lại và màu xanh tím tái xuất hiện.
+
+![Công thức cấu tạo của amylose](hoasinh_media/HS-03_fig3_19.png)
+*Hình 3.19. Công thức cấu tạo của amylose.*
+
 2. **Amylopectin:**
    - **Cấu trúc:** Đại phân tử có kích thước khổng lồ với khối lượng phân tử lên tới hàng triệu Dalton, có cấu trúc **phân nhánh cao độ**:
      * **Mạch chính:** Gồm các gốc $\alpha$-D-glucose liên kết với nhau bằng **liên kết $\alpha-1,4-\text{glucosid}$**.
      * **Điểm phân nhánh:** Cứ trung bình sau **$24 - 30$ gốc glucose** trên mạch chính lại xuất hiện một điểm rẽ nhánh được liên kết bằng **liên kết $\alpha-1,6-\text{glucosid}$**.
    - **Phản ứng màu với Iod:** Do chuỗi ngắn hơn giữa các điểm phân nhánh, amylopectin không thể tạo thành các vòng xoắn ốc dài hoàn chỉnh, do đó khi tác dụng với thuốc thử Iod chỉ tạo phức chất màu **tím đỏ hoặc nâu đỏ**.
+
+![Công thức cấu tạo của amylopectin](hoasinh_media/HS-03_fig3_20.png)
+*Hình 3.20. Công thức cấu tạo của amylopectin.*
+
 
 ### 5.2. Glycogen ("Tinh Bột Động Vật")
 - **Cấu trúc Không gian và Mật độ Phân nhánh:**
@@ -410,13 +467,21 @@ Tinh bột là dạng glucid dự trữ carbohydrate quan trọng nhất của t
   2. **Giảm thiểu Tối đa Áp lực Thẩm thấu Nội bào:**
      * Nếu cơ thể tích trữ $400 \text{ g}$ glucose ở dạng monomer tự do, nồng độ nội bào sẽ lên tới khoảng $0{,}4 \text{ M}$ ($400 \text{ mmol/L}$). Mức áp lực thẩm thấu khổng lồ này sẽ hút nước ồ ạt làm vỡ tung tế bào gan. Bằng cách ngưng tụ hàng triệu gốc glucose vào các hạt glycogen không tan, nồng độ thẩm thấu hiệu dụng giảm xuống dưới $0{,}01 \mu\text{M}$, bảo tồn tính toàn vẹn của tế bào.
 
-![Cấu trúc phân nhánh của Glycogen](hoasinh_media/HS-03_fig03_glycogen_structure.png)
+![Cấu trúc phân nhánh của Glycogen](hoasinh_media/HS-03_fig3_20.png)
+*Hình 3.20. Sơ đồ cấu tạo phân nhánh của Glycogen.*
 
 ### 5.3. Cellulose và Cơ sở Khoa học của Chất Xơ
 - **Cấu tạo Hóa học:**
   Cellulose là hợp chất hữu cơ dồi dào nhất trên Trái Đất, cấu thành bộ khung thành tế bào thực vật. Phân tử gồm hàng chục nghìn gốc $\beta$-D-glucopyranose liên kết với nhau độc quyền bằng **liên kết $\beta-1,4-\text{glucosid}$**.
 - **Cấu trúc Bền vững Cơ học:**
   Khác hoàn toàn với cấu trúc xoắn của chuỗi liên kết $\alpha-1,4$ ở amylose, liên kết $\beta-1,4$ buộc chuỗi polymer cellulose phải duỗi thẳng tắp ở cấu dạng dải băng phẳng kéo dài. Hàng trăm chuỗi cellulose thẳng nằm song song sát cạnh nhau được liên kết chặt chẽ bởi **mạng lưới liên kết hydro nội chuỗi và liên chuỗi cực kỳ dày đặc**, bện lại thành các bó sợi siêu vi (**microfibril**) có độ bền kéo cơ học phi thường (tương đương với sợi thép cùng kích thước) và hoàn toàn không tan trong nước.
+
+![Công thức cấu tạo của cellulose](hoasinh_media/HS-03_fig3_21.png)
+*Hình 3.21. Công thức cấu tạo của cellulose.*
+
+![Công thức cấu tạo của chitin](hoasinh_media/HS-03_fig3_22.png)
+*Hình 3.22. Công thức cấu tạo của chitin.*
+
 - **Lý do Người và Động vật Ăn thịt Không Tiêu Hóa được Cellulose:**
   * Hệ tiêu hóa của động vật có vú chỉ tiết ra các enzym $\alpha$-glucosidase (như $\alpha$-amylase nước bọt và tụy) có tính đặc hiệu lập thể chỉ cắt được liên kết $\alpha-1,4$, mà **hoàn toàn thiếu hụt enzym $\beta-1,4-\text{glucosidase}$ (Cellulase)**.
   * Động vật nhai lại (bò, cừu, dê) có thể sử dụng cellulose làm nguồn thức ăn chính là nhờ hệ vi sinh vật (vi khuẩn kỵ khí và nguyên sinh động vật) cộng sinh trong dạ cỏ (rumen) tiết ra enzym cellulase để lên men cellulose thành các acid béo chuỗi ngắn (SCFA).
@@ -474,6 +539,18 @@ Tinh bột là dạng glucid dự trữ carbohydrate quan trọng nhất của t
    - Heparin là GAG mang mật độ điện tích âm cao nhất trong toàn bộ sinh giới.
    - **Cơ chế chống đông máu:** Heparin liên kết với một ái lực cực cao vào vị trí pentasaccharid đặc hiệu trên phân tử **Antithrombin III (AT-III)**, gây biến đổi cấu hình không gian của AT-III. Sự thay đổi cấu hình này làm **tăng hoạt tính ức chế của Antithrombin III đối với Thrombin (Yếu tố IIa) và Yếu tố Xa lên gấp $1{,}000$ đến $4{,}000$ lần**, lập tức phong bế dòng thác đông máu.
    - Trong lâm sàng, Heparin không phân đoạn (UFH) và Heparin trọng lượng phân tử thấp (LMWH - Enoxaparin) là thuốc chống đông máu chủ lực trong điều trị và dự phòng huyết khối tĩnh mạch sâu (DVT), thuyên tắc phổi (PE) và hội chứng vành cấp (ACS). Ngộ độc quá liều heparin được trung hòa đặc hiệu bằng **Protamin sulfat** (protein kiềm tích điện dương mạnh).
+
+![Công thức cấu tạo của acid hyaluronic](hoasinh_media/HS-03_fig3_23.png)
+*Hình 3.23. Công thức cấu tạo của acid hyaluronic.*
+
+![Công thức cấu tạo của keratin sulphat](hoasinh_media/HS-03_fig3_24.png)
+*Hình 3.24. Công thức cấu tạo của keratin sulphat.*
+
+![Công thức cấu tạo của chondroitin sulphat](hoasinh_media/HS-03_fig3_25.png)
+*Hình 3.25. Công thức cấu tạo của chondroitin sulphat.*
+
+![Công thức cấu tạo của heparin](hoasinh_media/HS-03_fig3_26.png)
+*Hình 3.26. Công thức cấu tạo của heparin.*
 
 ### 6.3. Kháng nguyên Nhóm máu ABO trên Màng Hồng cầu
 Hệ thống nhóm máu ABO là một trong những ví dụ lâm sàng điển hình nhất về vai trò của chuỗi oligosaccharid trong nhận diện miễn dịch sinh học. Cấu trúc kháng nguyên màng hồng cầu bao gồm một chuỗi oligosaccharid gắn vào lipid màng (glycolipid) hoặc protein màng (glycoprotein):

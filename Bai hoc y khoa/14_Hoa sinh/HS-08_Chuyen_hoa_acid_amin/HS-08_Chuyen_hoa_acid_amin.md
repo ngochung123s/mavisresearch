@@ -65,12 +65,17 @@ Sự thoái hóa chọn lọc protein trong tế bào nhân thực được th�
   + Chuỗi Polyubiquitin gồm ít nhất 4 phân tử Ubiquitin (nối qua Lys48 của Ubiquitin) đóng vai trò là "tín hiệu tử thần" dẫn đường cho protein đến phức hợp Proteasome 26S.
 - **Phức hợp Proteasome 26S:** Gồm tiểu phần lõi 20S (hình trụ rỗng chứa các vị trí hoạt động protease dạng chymotrypsin-like, trypsin-like, caspase-like) và hai nắp điều hòa 19S (chứa các enzym ATPase phân giải và duỗi xoắn protein, đồng thời có enzym deubiquitinase cắt tái thu hồi Ubiquitin). Protein đích bị đẩy vào khoang lõi 20S và bị băm nhỏ thành các đoạn oligopeptid dài 7 - 9 acid amin, sau đó các peptidase bào tương thủy phân triệt để thành acid amin tự do.
 
+![Cấu trúc Proteasome](hoasinh_media/HS-08_fig8_1.png)
+*Hình 8.1. Cấu trúc phức hợp Proteasome 26S: (a) Phần trung tâm 20S; (b) Proteasom hoàn chỉnh.*
+
+![Sơ đồ quá trình gắn ubiquitin vào protein đích](hoasinh_media/HS-08_fig8_2.png)
+*Hình 8.2. Sơ đồ quá trình gắn ubiquitin vào protein đích (Ubiquitination).*
+
 ---
 
 ## 2. PHẢN ỨNG TRAO ĐỔI AMIN (TRANSAMINATION)
 
-![Cơ chế phản ứng trao đổi amin và khử amin oxy hóa](hoasinh_media/HS-08_fig01_transamination_deamination.png)
-*Hình 8.1. Sơ đồ liên hợp giữa phản ứng trao đổi amin (Transamination qua PLP) và phản ứng khử amin oxy hóa (qua GDH).*
+
 
 
 Giai đoạn đầu tiên và then chốt trong thoái hóa acid amin là sự loại bỏ nhóm $\alpha$-amino. Cơ thể sử dụng một chiến lược tinh vi: thay vì giải phóng ngay lập tức amoniac tự do độc hại ở khắp các mô, nhóm amin được **chuyển giao** sang một $\alpha$-ketoacid nhận (chủ yếu là $\alpha$-ketoglutarat) để gom toàn bộ nhóm amin về một phân tử duy nhất là **Glutamat**.
@@ -222,16 +227,34 @@ $$
 
 ## 5. CHU TRÌNH URÊ (KREBS - HENSELEIT CYCLE)
 
-![Chu trình sinh tổng hợp Urê tại ty thể và bào tương tế bào gan](hoasinh_media/HS-08_fig02_urea_cycle.png)
-*Hình 8.2. Chu trình Urê 5 bước xảy ra giữa ty thể và bào tương tế bào gan.*
+![Chu trình Urê](hoasinh_media/HS-08_fig8_3.png)
+*Hình 8.3. Chu trình Urê (Krebs - Henseleit cycle) gồm 5 phản ứng enzym.*
+
+![Sự liên quan giữa chu trình ure và chu trình acid citric](hoasinh_media/HS-08_fig8_4.png)
+*Hình 8.4. Sự liên quan giữa chu trình urê và chu trình acid citric (Krebs Bicycle).*
 
 
 Chu trình Urê (được Hans Krebs và Kurt Henseleit khám phá năm 1932, trước cả chu trình acid citric) là con đường chuyển hóa độc quyền tại **GAN** của động vật có vú để biến đổi Amoniac ($NH_3/NH_4^+$) độc hại thành **Urê** ($H_2N-CO-NH_2$), một hợp chất trung tính, hòa tan cao trong nước, không độc và được thận đào thải dễ dàng ra nước tiểu.
 
 Mỗi ngày, một người trưởng thành bài tiết khoảng $25 - 30\text{ g}$ Urê qua nước tiểu, tương ứng với việc đào thải gần $90\%$ tổng lượng nitơ bài xuất của cơ thể.
 
+![Số phận khung carbon của các acid amin](hoasinh_media/HS-08_fig8_5.png)
+*Hình 8.5. Số phận khung carbon của các acid amin.*
+
+![Khái quát con đường thoái hóa protein và acid amin](hoasinh_media/HS-08_fig8_6.png)
+*Hình 8.6. Khái quát con đường thoái hóa protein và acid amin.*
+
 ### 5.1. Cấu trúc phân tử Urê và nguồn gốc các nguyên tử
 Phân tử Urê gồm:
+
+![Sơ đồ tổng hợp acid amin ở thực vật](hoasinh_media/HS-08_fig8_7.png)
+*Hình 8.7. Sơ đồ tổng hợp acid amin ở thực vật và vi sinh vật.*
+
+![Sơ đồ tổng hợp creatin](hoasinh_media/HS-08_fig8_8.png)
+*Hình 8.8. Sơ đồ tổng hợp creatin từ acid amin.*
+
+![Sơ đồ tổng hợp glutathion](hoasinh_media/HS-08_fig8_9.png)
+*Hình 8.9. Sơ đồ tổng hợp glutathion (GSH).*
 $$
 \begin{matrix}
 \text{O}\\
@@ -474,6 +497,12 @@ Các bệnh lý rối loạn chuyển hóa acid amin bẩm sinh thuộc nhóm b�
   + **Sàng lọc sơ sinh (Guthrie test hoặc Tandem Mass Spectrometry - MS/MS):** Lấy máu gót chân trẻ vào ngày tuổi thứ 2 - 3 (sau khi trẻ đã bú sữa có chứa protein).
   + **Chế độ ăn:** Nguyên tắc cứu sống sự phát triển trí tuệ là **chế độ ăn nghèo Phenylalanin suốt đời** (sử dụng sữa công thức chuyên biệt loại bỏ Phenylalanin, kiêng tuyệt đối thực phẩm giàu đạm như thịt, cá, trứng, sữa và chất tạo ngọt nhân tạo Aspartame - vốn là methyl ester của dipeptid Asp-Phe). Đồng thời phải bổ sung đủ Tyrosin trong khẩu phần.
   + *Lưu ý thể không điển hình (Malignant PKU):* Do thiếu hụt enzym tổng hợp hoặc tái sinh cofactor $BH_4$ (Dihydropteridine reductase - DHPR). Thể này không đáp ứng với chế độ ăn đơn thuần mà bắt buộc phải điều trị bằng Kuvan (Sapropterin dihydrochloride - dạng đồng đẳng tổng hợp của $BH_4$) kết hợp bổ sung tiền chất dẫn truyền thần kinh (L-DOPA, 5-HTP).
+
+![Cơ chế bệnh lý phenylceton niệu](hoasinh_media/HS-08_fig8_10.png)
+*Hình 8.10. Cơ chế bệnh lý Phenylceton niệu (PKU).*
+
+![Một số bất thường chuyển hóa tyrosin](hoasinh_media/HS-08_fig8_11.png)
+*Hình 8.11. Một số bất thường chuyển hóa tyrosin trong tăng tyrosin máu.*
 
 ```
                      [ L-Phenylalanin ]

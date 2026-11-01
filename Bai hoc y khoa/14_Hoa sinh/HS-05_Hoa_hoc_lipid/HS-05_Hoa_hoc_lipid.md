@@ -46,8 +46,7 @@ Trong cơ thể người và động vật, lipid đảm nhiệm nhiều chức 
 ### 3. Phân loại tổng quát lipid
 Dựa vào thành phần cấu tạo hóa học và phản ứng xà phòng hóa, lipid được phân loại thành hai nhóm lớn:
 
-![Sơ đồ phân loại lipid màng và lipid dự trữ](hoasinh_media/fig_2_11.png)
-*Hình 5.1. Sơ đồ tổng quát về sự phân loại các lipid dự trữ (trung tính) và lipid màng (có cực).*
+
 
 1. **Lipid thuần (Homolipid):** Trong phân tử chỉ cấu tạo từ **carbon (C), hydro (H), oxy (O)**. Là este của acid béo với các alcol:
    * **Glycerid (Acylglycerol):** Este của glycerol với acid béo (mono-, di-, triglycerid).
@@ -157,8 +156,8 @@ Trong tự nhiên, hầu hết các liên kết đôi của acid béo chưa bão
 
 Ngược lại, ở dạng **trans**, hai chuỗi hydrocarbon gắn vào liên kết đôi nằm về hai phía đối diện. Cấu trúc không gian của acid béo dạng *trans* gần như duỗi thẳng tương tự như một acid béo bão hòa.
 
-![Đồng phân hình học cis và trans của acid béo](hoasinh_media/fig_2_3.png)
-*Hình 5.2. Cấu trúc không gian của acid oleic (cấu hình cis, bẻ góc) và acid elaidic (cấu hình trans, duỗi thẳng).*
+![Đồng phân hình học cis và trans của acid béo](hoasinh_media/HS-05_fig5_3.png)
+*Hình 5.3. Đồng phân hình học của acid oleic và acid elaidic: (a) acid oleic (cis); (b) acid elaidic (trans).*
 
 * **Nguồn gốc chất béo Trans (*Trans Fat*):** Trong công nghiệp chế biến thực phẩm, quá trình hydro hóa dầu thực vật lỏng để tạo thành bơ thực vật (margarine) hoặc shortening (chất béo rắn) ở nhiệt độ và áp suất cao với xúc tác kim loại đã vô tình đồng phân hóa một phần liên kết đôi *cis* thành liên kết đôi *trans*.
 * **Tác hại lâm sàng:** Chất béo dạng *trans* cạnh tranh với các acid béo thiết yếu, làm tăng nồng độ $LDL\text{-C}$ ("cholesterol xấu"), giảm nồng độ $HDL\text{-C}$ ("cholesterol tốt"), gây rối loạn chức năng nội mô mạch máu và làm tăng vọt nguy cơ bệnh mạch vành (xơ vữa động mạch, nhồi máu cơ tim). Tổ chức Y tế Thế giới (WHO) khuyến cáo loại bỏ hoàn toàn *trans fat* nhân tạo khỏi chuỗi cung ứng thực phẩm toàn cầu.
@@ -169,10 +168,16 @@ Ngược lại, ở dạng **trans**, hai chuỗi hydrocarbon gắn vào liên k
 * **Thromboxan (TX):** Chứa vòng oxan 6 cạnh. Tiêu biểu là $TXA_2$ do tiểu cầu hoạt hóa tiết ra, gây co mạch mạnh và kích hoạt sự kết tập tiểu cầu hình thành cục huyết khối. Sự cân bằng động giữa $PGI_2$ (nội mô) và $TXA_2$ (tiểu cầu) duy trì trạng thái huyết động bình thường.
 * **Leukotrien (LT):** Chứa 3 liên kết đôi liên hợp, được tổng hợp nhờ enzym Lipoxygenase (5-LOX) ở bạch cầu. Tiêu biểu là $LTC_4, LTD_4, LTE_4$ (trước đây gọi là chất phản vệ chậm - SRS-A), gây co thắt phế quản dữ dội gấp hàng nghìn lần histamin trong cơn hen phế quản ác tính và sốc phản vệ.
 
+![Acid béo có vòng](hoasinh_media/HS-05_fig5_2.png)
+*Hình 5.2. Acid béo có vòng.*
+
 #### 1.1.8. Acid béo mang chức alcol
 Tiêu biểu là **Acid Cerebronic** (Acid 2-hydroxytetracosanoic, $24\text{C}$):
 $$CH_3-(CH_2)_{21}-CH(OH)-COOH$$
 Acid này có một nhóm chức hydroxyl ($-OH$) ở vị trí carbon $\alpha$ ($C_2$). Acid cerebronic là thành phần đặc trưng cấu tạo nên cerebrosid (đặc biệt là cerebron) trong màng myelin của tế bào thần kinh não bộ.
+
+![Acid cerebronic](hoasinh_media/HS-05_fig5_1.png)
+*Hình 5.1. Cấu trúc hóa học của acid cerebronic (acid 2-hydroxytetracosanoic).*
 
 ### 1.2. Các Alcol của Lipid
 
@@ -192,6 +197,9 @@ $$\begin{matrix}
   * Vị trí $sn-1$ thường gắn acid béo bão hòa (như palmitic, stearic).
   * Vị trí $sn-2$ hầu như luôn gắn acid béo chưa bão hòa (như oleic, linoleic, arachidonic).
   * Vị trí $sn-3$ gắn acid béo thứ ba (trong triglycerid) hoặc nhóm phosphat (trong phospholipid).
+
+![Cách đánh số carbon trong phân tử glycerol](hoasinh_media/HS-05_fig5_4.png)
+*Hình 5.4. Cách đánh số carbon trong phân tử glycerol.*
 
 #### 1.2.2. Alcol cao phân tử
 Là các alcol đơn chức (monool) mạch thẳng có chuỗi hydrocarbon rất dài từ $16$ đến $34$ carbon, tham gia cấu tạo nên các loại **sáp (cerid)**:
@@ -216,11 +224,14 @@ Là các alcol vừa chứa nhóm chức hydroxyl ($-OH$) vừa chứa nhóm ami
      $$HO-CH_2-CH(NH_2)-COOH$$
    * Tham gia cấu tạo Phosphatidylserin (PS) và là tiền chất tổng hợp nên Sphingosin.
 
+![Một số aminoalcol trong lipid](hoasinh_media/HS-05_fig5_5.png)
+*Hình 5.5. Cấu trúc một số aminoalcol trong lipid: Sphingosin, Cholin, Ethanolamin, Serin.*
+
 #### 1.2.4. Sterol (Alcol vòng Steroid)
 Sterol là các alcol vòng có trọng lượng phân tử cao, cấu trúc dựa trên khung nhân **Steran** (nhân Cyclopentanoperhydrophenanthren gồm 4 vòng ngưng tụ được ký hiệu là $A, B, C, D$ với tổng số 17 carbon cơ bản):
 
-![Cấu trúc phân tử cholesterol](hoasinh_media/HS-05_fig02_cholesterol_structure.png)
-*Hình 5.3. Cấu trúc hóa học và cách đánh số 27 nguyên tử carbon của phân tử Cholesterol.*
+![Cholesterol và một số dẫn xuất hormon](hoasinh_media/HS-05_fig5_6.png)
+*Hình 5.6. Cholesterol và một số dẫn xuất hormon steroid.*
 
 Tiêu biểu và quan trọng nhất ở động vật là **Cholesterol** ($C_{27}H_{46}O$):
 * **Cấu tạo hóa học:**
@@ -245,8 +256,11 @@ Glycerid là este của glycerol với acid béo. Tùy thuộc vào số lượn
 * **Diacylglycerol (DAG):** Este hóa ở 2 vị trí ($1,2$-DAG hoặc $1,3$-DAG). DAG là chất truyền tin thứ hai hoạt hóa Protein Kinase C (PKC).
 * **Triacylglycerol (TAG hay Triglycerid):** Este hóa ở cả 3 vị trí.
 
-![Cấu trúc hóa học của Glycerid](hoasinh_media/fig_2_7.png)
-*Hình 5.4. Cấu tạo hóa học của Monoglycerid, Diglycerid và Triglycerid (Triacylglycerol).*
+![Cấu tạo hóa học của Glycerid](hoasinh_media/HS-05_fig5_7.png)
+*Hình 5.7. Cấu tạo hóa học của Glycerid.*
+
+![Hai dạng đồng phân của triglycerid](hoasinh_media/HS-05_fig3_8.png)
+*Hình 5.8. Hai dạng đồng phân của triglycerid.*
 
 * **Công thức tổng quát của Triglycerid:**
 $$\begin{matrix}
@@ -292,8 +306,8 @@ Lipid tạp là các lipid phức tạp, ngoài acid béo và alcol còn chứa 
 
 Tùy theo bản chất của alcol mang khung chính, lipid tạp được chia làm hai nhóm lớn: **Glycerophospholipid** (alcol là glycerol) và **Sphingolipid** (alcol là sphingosin).
 
-![Cấu trúc và sự phân loại các Phospholipid màng sinh học](hoasinh_media/HS-05_fig01_phospholipids.png)
-*Hình 5.5. Cấu trúc lưỡng cực của các Glycerophospholipid: đầu ưa nước phân cực và 2 đuôi kỵ nước.*
+![Cấu tạo của glycerophospholipid](hoasinh_media/HS-05_fig5_9.png)
+*Hình 5.9. Cấu tạo của glycerophospholipid.*
 
 ---
 
@@ -357,6 +371,9 @@ Khi nhóm phosphat của acid phosphatidic liên kết este hóa tiếp với c�
    * **Điểm khác biệt cấu trúc:** Vị trí $C_1$ của glycerol không phải là liên kết este mà là **liên kết ete** ($-O-CH=CH-R$) với một chuỗi alkyl không no có chứa liên kết đôi $\alpha,\beta$ (*alk-1-enyl* ether). Vị trí $C_2$ là liên kết este thông thường, và vị trí $C_3$ thường gắn phosphoethanolamin (hoặc phosphocholin).
    * **Chức năng:** Liên kết vinyl-ether rất dễ bị tấn công bởi các gốc tự do oxy hóa ($ROS$), do đó plasmalogen đóng vai trò như một "tấm lá chắn" chống oxy hóa tự nhiên bảo vệ màng tế bào thần kinh và cơ tim khỏi stress oxy hóa.
 
+![Plasmalogen](hoasinh_media/HS-05_fig5_10.png)
+*Hình 5.10. Cấu trúc hóa học của Plasmalogen.*
+
 6. **Yếu tố hoạt hóa tiểu cầu (Platelet-Activating Factor - PAF):**
    * Là một ether phospholipid đặc biệt: tại vị trí $C_1$ là liên kết ete bão hòa với chuỗi alkyl dài ($16\text{C}$ hoặc $18\text{C}$); vị trí $C_2$ là một gốc **acetyl** ngắn ($-CO-CH_3$); vị trí $C_3$ là phosphocholin.
    * PAF là một trong những phân tử tín hiệu lipid có hoạt tính sinh học mạnh nhất từng được biết đến (hoạt động ở nồng độ cực thấp cỡ $10^{-10}\text{ M}$). Được tiết ra bởi bạch cầu, đại thực bào và tiểu cầu hoạt hóa, PAF gây kết tập tiểu cầu cực mạnh, làm tăng tính thấm thành mạch, co thắt phế quản dữ dội và là chất trung gian then chốt trong sốc phản vệ và các phản ứng viêm cấp tính.
@@ -367,8 +384,8 @@ Khi nhóm phosphat của acid phosphatidic liên kết este hóa tiếp với c�
 
 Sphingolipid là nhóm lipid màng phức tạp không sử dụng glycerol mà sử dụng aminoalcol **Sphingosin** làm bộ khung trung tâm.
 
-![Cấu trúc chung của Sphingolipid](hoasinh_media/fig_2_10.png)
-*Hình 5.6. Cấu trúc hóa học chung của Sphingolipid: bộ khung Sphingosin gắn Acid béo qua liên kết amid và nhóm thế $X$ ở vị trí $C_1$.*
+![Cấu tạo chung của sphingolipid](hoasinh_media/HS-05_fig5_11.png)
+*Hình 5.11. Cấu tạo chung của sphingolipid.*
 
 #### 3.2.1. Ceramid — Đơn vị cấu trúc nền tảng của mọi Sphingolipid
 Khi nhóm amin ($-NH_2$) ở vị trí carbon $C_2$ của sphingosin tạo liên kết **amid** với nhóm carboxyl của một acid béo chuỗi dài ($C_{16} - C_{24}$, thường là acid bão hòa như acid lignoceric, stearic, palmitic hoặc acid cerebronic), phân tử tạo thành được gọi là **Ceramid**:

@@ -45,8 +45,11 @@ Bên cạnh vai trò cung cấp năng lượng tức thời dưới dạng adeno
 
 Đường phân (Glycolysis, bắt nguồn từ tiếng Hy Lạp *glykys* nghĩa là ngọt và *lysis* nghĩa là phân giải) là con đường chuyển hóa cổ xưa nhất và bảo tồn cao độ nhất trong sinh học tiến hóa. Quá trình này diễn ra hoàn toàn trong **bào tương (cytosol)** của mọi tế bào nhân chuẩn cũng như sinh vật nhân sơ, không cần sự tham gia của oxy phân tử ($\text{O}_2$).
 
-![Sơ đồ con đường đường phân](hoasinh_media/HS-04_fig01_glycolysis_pathway.png)
-*Hình 4.1. Sơ đồ tổng thể 10 phản ứng của con đường Đường phân (Glycolysis) chia thành 2 giai đoạn: Giai đoạn tiêu tốn năng lượng (phản ứng 1–5) và Giai đoạn sinh năng lượng (phản ứng 6–10).*
+![Cơ chế vận chuyển glucose, galactose qua màng tế bào niêm mạc ruột](hoasinh_media/HS-04_fig4_1.png)
+*Hình 4.1. Cơ chế vận chuyển glucose, galactose qua màng tế bào niêm mạc ruột.*
+
+![Quá trình thoái hóa glucose theo con đường đường phân](hoasinh_media/HS-04_fig4_4.png)
+*Hình 4.4. Quá trình thoái hóa glucose theo con đường đường phân.*
 
 Toàn bộ con đường đường phân gồm **10 phản ứng hóa sinh liên hoàn**, chuyển đổi 1 phân tử Glucose ($6\,\text{C}$) thành 2 phân tử Pyruvat ($3\,\text{C}$), được phân thành hai giai đoạn rõ rệt:
 1. **Giai đoạn 1 (Giai đoạn tiêu tốn / đầu tư năng lượng - Preparatory phase):** Gồm 5 phản ứng đầu tiên ($1 \to 5$). Phân tử Glucose được phosphoryl hóa hai lần và cắt đôi thành 2 phân tử đường ba carbon (triose phosphat), tiêu tốn **$2\,\text{ATP}$**.
@@ -123,8 +126,13 @@ $$\text{1,3-Bisphosphoglycerat} + \text{ADP} \xrightleftharpoons[\text{Mg}^{2+}]
 Chuyển đổi este phosphat có thế năng thấp thành dạng có cấu hình sẵn sàng tạo liên kết cao năng.
 $$\text{3-Phosphoglycerat} \xrightleftharpoons[\text{Mg}^{2+}]{{\text{Phosphoglycerat mutase (PGM)}}} \text{2-Phosphoglycerat} \quad (\Delta G^{\circ\prime} = +4,4\,\text{kJ/mol})$$
 
-- **Enzym xúc tác:** **Phosphoglycerat mutase (PGM)**.
-- **Cơ chế:** Enzym mang một gốc Histidin đã được phosphoryl hóa tại trung tâm hoạt động. Phosphat từ His được chuyển đến vị trí $\text{C-2}$ của 3-PG để tạo chất trung gian 2,3-Bisphosphoglycerat (2,3-BPG), sau đó phosphat ở vị trí $\text{C-3}$ được chuyển ngược lại cho His của enzym, giải phóng **2-Phosphoglycerat (2-PG)**.
+   - **Cơ chế:** Enzym mang một gốc Histidin đã được phosphoryl hóa tại trung tâm hoạt động. Phosphat từ His được chuyển đến vị trí $\text{C-2}$ của 3-PG để tạo chất trung gian 2,3-Bisphosphoglycerat (2,3-BPG), sau đó phosphat ở vị trí $\text{C-3}$ được chuyển ngược lại cho His của enzym, giải phóng **2-Phosphoglycerat (2-PG)**.
+
+![Con đường tổng hợp và thoái hóa của 2,3-DPG trong hồng cầu](hoasinh_media/HS-04_fig4_2.png)
+*Hình 4.2. Con đường tổng hợp và thoái hóa của 2,3-DPG trong hồng cầu.*
+
+![Đường cong bão hòa oxy của hemoglobin](hoasinh_media/HS-04_fig4_3.png)
+*Hình 4.3. Đường cong bão hòa oxy của hemoglobin.*
 
 ##### Phản ứng 9: Khử nước của 2-Phosphoglycerat tạo Phosphoenolpyruvat (PEP)
 Tạo ra phân tử có liên kết phosphat cao năng thứ hai của đường phân.
@@ -270,9 +278,13 @@ Xảy ra khi tế bào có đầy đủ oxy và ty thể nguyên vẹn (não, ti
 | | $2 \times (3\,\text{NADH})$ | $6\,\text{NADH}$ ty thể ($6 \times 2,5\,\text{ATP}$) | **$+15$** |
 | | $2 \times (1\,\text{FADH}_2)$ | $2\,\text{FADH}_2$ ty thể ($2 \times 1,5\,\text{ATP}$) | **$+3$** |
 | **Tổng kết toàn bộ quá trình** | $\text{Glucose} + 6\,\text{O}_2 \to 6\,\text{CO}_2 + 6\,\text{H}_2\text{O}$ | **Tổng năng lượng hiếu khí thu được:** | **$30\,\text{đến}\;32\,\text{ATP}$** |
-
 *Nhận xét:* Quá trình thoái hóa glucose hiếu khí hoàn toàn sinh ra lượng năng lượng gấp **15 đến 16 lần** so với thoái hóa yếm khí ($30 - 32\,\text{ATP}$ so với $2\,\text{ATP}$).
 
+![Vận chuyển NADH từ bào tương vào ty thể qua con thoi malat-aspartat](hoasinh_media/HS-04_fig4_5.png)
+*Hình 4.5. Vận chuyển NADH từ bào tương vào ty thể qua con thoi malat - aspartat.*
+
+![Vận chuyển NADH từ bào tương vào ty thể qua con thoi glycerol 3-phosphat](hoasinh_media/HS-04_fig4_6.png)
+*Hình 4.6. Vận chuyển NADH từ bào tương vào ty thể qua con thoi glycerol 3-phosphat.*
 
 ---
 
@@ -281,9 +293,8 @@ Xảy ra khi tế bào có đầy đủ oxy và ty thể nguyên vẹn (não, ti
 Chu trình Pentose Phosphat (HMP Shunt hay con đường Phosphogluconat) là một con đường chuyển hóa nhánh song song với đường phân, diễn ra hoàn toàn trong **bào tương** của tế bào. Con đường này không nhằm mục đích tạo năng lượng ATP mà có hai chức năng sinh học tối thượng:
 1. Sản xuất lực khử **$\text{NADPH} + \text{H}^+$** phục vụ các phản ứng đồng hóa khử và hệ thống chống oxy hóa tế bào.
 2. Sản xuất đường 5 carbon **D-Ribose-5-phosphat** làm nguyên liệu tổng hợp acid nucleic (RNA, DNA) và các coenzym tự do.
-
-![Chu trình Pentose Phosphat](hoasinh_media/HS-04_fig02_pentose_phosphate_cycle.png)
-*Hình 4.2. Sơ đồ Chu trình Pentose Phosphat (HMP Shunt): Phân định rõ Pha oxy hóa không thuận nghịch tạo NADPH và Pha không oxy hóa thuận nghịch hoán đổi các phân tử đường phosphat.*
+![Thoái hóa glucose theo chu trình pentose](hoasinh_media/HS-04_fig4_7.png)
+*Hình 4.7. Thoái hóa glucose theo chu trình pentose.*
 
 Con đường gồm hai pha tách biệt về mặt nhiệt động học và xúc tác:
 
@@ -429,7 +440,13 @@ Tổng hợp glycogen xảy ra khi cơ thể ở trạng thái no, dồi dào n�
      $$\text{UDP-Glucose} + (\text{Glucose})_n \xrightarrow{\text{Glycogen Synthase}} \text{UDP} + (\text{Glucose})_{n+1}$$
 5. **Tạo nhánh — Enzym Tạo Nhánh (Branching Enzyme):**
    - Khi mạch thẳng dài ra ít nhất 11 gốc glucose, **Enzym tạo nhánh** (Amylo-$\alpha(1\to 4)\to\alpha(1\to 6)$-transglucosidase) cắt một đoạn gồm $6 - 7$ gốc glucose từ đầu không khử của chuỗi mang đến gắn vào nhóm $\text{C6-OH}$ của một gốc glucose bên trong mạch để tạo liên kết $\alpha(1\to 6)$.
-   - *Ý nghĩa sinh học của phân nhánh:* Làm tăng độ tan của glycogen trong bào tương và tạo ra vô số các đầu không khử tận cùng. Điều này cho phép Glycogen phosphorylase và Glycogen synthase có thể gắn vào giải phóng hoặc tổng hợp hàng ngàn phân tử glucose cùng một lúc, đáp ứng cực nhanh với biến động chuyển hóa.
+  - *Ý nghĩa sinh học của phân nhánh:* Làm tăng độ tan của glycogen trong bào tương và tạo ra vô số các đầu không khử tận cùng. Điều này cho phép Glycogen phosphorylase và Glycogen synthase có thể gắn vào giải phóng hoặc tổng hợp hàng ngàn phân tử glucose cùng một lúc, đáp ứng cực nhanh với biến động chuyển hóa.
+
+![Sự tổng hợp glycogen mạch thẳng](hoasinh_media/HS-04_fig4_13.png)
+*Hình 4.13. Sự tổng hợp glycogen mạch thẳng.*
+
+![Sự tổng hợp glycogen mạch nhánh](hoasinh_media/HS-04_fig4_14.png)
+*Hình 4.14. Sự tổng hợp glycogen mạch nhánh.*
 
 ---
 
@@ -467,9 +484,6 @@ Tân tạo đường (Gluconeogenesis) là quá trình sinh tổng hợp glucose
 - **Vị trí giải phẫu:** Xảy ra chủ yếu tại **gan** (chiếm khoảng $90\%$) và một phần nhỏ tại **vỏ thận** (chiếm khoảng $10\%$, nhưng có thể tăng lên đến $40\%$ trong tình trạng nhịn đói kéo dài hoặc nhiễm toan chuyển hóa).
 - **Ý nghĩa sinh lý sống còn:** Nguồn dự trữ glycogen tại gan chỉ đủ duy trì đường huyết trong vòng $12 - 24\,\text{giờ}$. Khi nhịn đói qua ngày thứ hai trở đi, tân tạo đường là con đường duy nhất duy trì nồng độ glucose máu ổn định để nuôi dưỡng mô não, hồng cầu, tủy thận và võng mạc, ngăn chặn hôn mê hạ đường huyết tử vong.
 
-![Con đường tân tạo đường](hoasinh_media/HS-04_fig03_gluconeogenesis.png)
-*Hình 4.3. Sơ đồ Con đường Tân tạo đường (Gluconeogenesis): Đối chiếu các phản ứng thuận nghịch dùng chung với đường phân và 3 "đường vòng" vượt qua các hàng rào nhiệt động học.*
-
 ---
 
 ### 4.1. Các Cơ chất Tân tạo đường Đầu vào
@@ -480,12 +494,15 @@ Tân tạo đường (Gluconeogenesis) là quá trình sinh tổng hợp glucose
      $$\text{L-Lactat} + \text{NAD}^+ \xrightleftharpoons{\text{LDH gan}} \text{Pyruvat} + \text{NADH} + \text{H}^+$$
    - Pyruvat sau đó được tân tạo thành Glucose tự do rồi đổ vào máu quay trở lại nuôi cơ và hồng cầu. Vòng tuần hoàn khép kín này gọi là **Chu trình Cori (Lactat cycle)**.
 
-![Chu trình Cori giữa gan và cơ](hoasinh_media/HS-04_fig04_cori_cycle.png)
-*Hình 4.4. Chu trình Cori: Mối quan hệ tương hỗ chuyển hóa giữa mô cơ vân / hồng cầu và gan trong việc tái sinh Glucose từ Lactat.*
+![Chu trình Cori giữa gan và cơ](hoasinh_media/HS-04_fig4_10.png)
+*Hình 4.10. Chu trình Cori.*
 
 2. **Alanin (Chu trình Glucose - Alanin):**
    - Trong quá trình nhịn đói, protein cơ bị dị hóa thành các acid amin. Nhóm amin ($-\text{NH}_2$) được chuyển cho Pyruvat tạo thành **Alanin** nhờ enzym Alanin Aminotransferase (ALT).
    - Alanin theo máu về gan, tại đây ALT gan khử amin tái tạo Pyruvat đi vào tân tạo đường, còn nhóm amin được đưa vào Chu trình Urê để đào thải độc tính.
+
+![Chu trình glucose - alanin](hoasinh_media/HS-04_fig4_11.png)
+*Hình 4.11. Chu trình glucose - alanin.*
 
 3. **Glycerol:**
    - Được giải phóng từ sự thủy phân triglycerid tại **mô mỡ** khi đói (dưới tác dụng của Hormon-Sensitive Lipase do Glucagon và Adrenalin kích hoạt).
@@ -681,6 +698,8 @@ Là nhóm bệnh di truyền đơn gen lặn trên nhiễm sắc thể thường
   - Đồng thời, nồng độ cao của F-1-P và cạn kiệt ATP **ức chế cả hai enzym Glycogen Phosphorylase và FBPase-1**, làm gan không thể thoái hóa glycogen và không thể tân tạo đường $\implies$ **Hạ đường huyết kịch phát dữ dội sau ăn fructose**.
   - *Điều trị:* Loại bỏ tuyệt đối Fructose, Saccarose và Sorbitol khỏi khẩu phần ăn suốt đời.
 
+![Chuyển hóa của fructose](hoasinh_media/HS-04_fig4_8.png)
+*Hình 4.8. Chuyển hóa của fructose.*
 #### 5.4.2. Chuyển hóa Galactose và Bệnh Galactosemia Kinh điển
 - Galactose từ đường sữa (lactose) được chuyển hóa tại gan qua con đường Leloir:
   $$\text{Galactose} + \text{ATP} \xrightarrow{\text{Galactokinase (GALK)}} \text{Galactose-1-phosphat} + \text{ADP}$$
@@ -695,7 +714,8 @@ Là nhóm bệnh di truyền đơn gen lặn trên nhiễm sắc thể thường
   - *Chẩn đoán:* Tìm chất khử trong nước tiểu dương tính (nhưng que thử Glucose Oxidase âm tính), định lượng hoạt độ enzym GALT trong hồng cầu.
   - *Điều trị:* Cắt bỏ sữa mẹ và sữa có lactose ngay lập tức, thay bằng sữa công thức làm từ đạm đậu nành hoàn toàn không chứa galactose.
 
-
+![Chuyển hóa của galactose](hoasinh_media/HS-04_fig4_9.png)
+*Hình 4.9. Chuyển hóa của galactose.*
 ---
 
 ## 6. CÂU HỎI TỰ LƯỢNG GIÁ & BAREM ĐÁP ÁN CHI TIẾT

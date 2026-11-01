@@ -24,6 +24,7 @@ Sinh tổng hợp protein (dịch mã - translation) là quá trình tế bào c
 $$\text{DNA} \xrightarrow{\text{Phiên mã (Transcription)}} \text{mRNA} \xrightarrow{\text{Dịch mã (Translation)}} \text{Protein}$$
 
 ![Bản đồ mã di truyền và quá trình dịch mã](hoasinh_media/HS-10_fig01_genetic_code_translation.png)
+*Hình 10.0. Bản đồ mã di truyền chuẩn và sơ đồ tổng quan quá trình dịch mã.*
 
 ### 1.1. Bốn đặc tính cốt lõi của Mã di truyền
 
@@ -92,6 +93,9 @@ Quá trình dịch mã đòi hỏi sự phối hợp nhịp nhàng của một b
   3. **Vòng D (D-loop):** Chứa nhiều base lạ Dihydrouracil ($D$), tham gia vào sự nhận diện của enzyme aminoacyl-tRNA synthetase.
   4. **Vòng $T\psi C$ (T-loop):** Chứa base biến đổi Ribothymidin ($T$) và Pseudouridin ($\psi$), tham gia gắn kết tRNA với bề mặt ribosome.
 
+![Cấu trúc của RNA vận chuyển tRNA](hoasinh_media/HS-10_fig10_1.png)
+*Hình 10.1. Cấu trúc của RNA vận chuyển (tRNA) với đầu gắn acid amin CCA-3' và các nhánh đối mã, nhánh D, nhánh TψC.*
+
 ### 2.3. Ribosom - Nhà máy tổng hợp protein
 Ribosom là một phức hợp ribonucleoprotein (RNP) khổng lồ gồm hai tiểu đơn vị không đối xứng:
 
@@ -104,6 +108,9 @@ Trên phân tử ribosom hoàn chỉnh lắp ráp có **3 vị trí gắn tRNA**
 - **Vị trí A (Aminoacyl site):** Tiếp nhận phức hợp aminoacyl-tRNA mới đi vào theo đúng codon đối ứng trên mRNA.
 - **Vị trí P (Peptidyl site):** Chứa peptidyl-tRNA đang mang chuỗi polypeptide đang kéo dài (hoặc fMet-tRNA / Met-tRNA mở đầu).
 - **Vị trí E (Exit site):** Chứa phân tử tRNA đã mất acid amin (deacylated tRNA) chuẩn bị rời khỏi ribosom ra dịch bào.
+
+![Cấu trúc của Ribosom](hoasinh_media/HS-10_fig10_2.png)
+*Hình 10.2. Cấu trúc của Ribosom gồm các tiểu đơn vị và các vị trí gắn tRNA (vị trí A, P, E).*
 
 ---
 
@@ -132,6 +139,9 @@ Nhóm hydroxyl ($-OH$ ở vị trí $2'$ hoặc $3'$) của ribose thuộc gốc
   - Aminoacyl-tRNA synthetase là "người bảo vệ" trung thành nhất của mã di truyền. Nếu enzyme gắn nhầm acid amin vào tRNA (ví dụ gắn nhầm Valin thay vì Isoleucin), phân tử sai lệch sẽ bị chuyển sang một khoang xúc tác thứ hai gọi là **khoang hiệu đính (editing / hydrolytic site)** trên enzyme. Tại đây, liên kết este sai lệch bị thủy phân ngay lập tức trước khi phân tử rời khỏi enzyme.
   - Nhờ cơ chế sàng lọc kép này, tần suất sai sót của dịch mã giảm xuống dưới mức $1/10.000$.
 
+![Giai đoạn hoạt hóa amino acid](hoasinh_media/HS-10_fig10_3.png)
+*Hình 10.3. Giai đoạn hoạt hóa amino acid bởi aminoacyl-tRNA synthetase.*
+
 ---
 
 ### 3.2. Giai đoạn 2: Mở đầu Chuỗi Polypeptide (Initiation)
@@ -152,13 +162,21 @@ Phức tạp hơn rất nhiều, đòi hỏi hơn 12 yếu tố mở đầu nhâ
 3. **Quét tìm codon mở đầu (Scanning):** Phức hợp $43S$ gắn vào đầu $5'$ của mRNA và trượt dọc theo chiều $5' \to 3'$ để "quét" tìm codon mở đầu AUG đầu tiên nằm trong trình tự đồng thuận **Kozak** ($\text{5'-ACCAUGG-3'}$).
 4. **Hình thành Ribosom $80S$:** Khi gặp codon AUG, GTP trên eIF2 bị thủy phân nhờ eIF5 kích hoạt. Các eIFs giải phóng, cho phép tiểu đơn vị lớn $60S$ tiến vào gắn kết tạo nên **phức hợp mở đầu $80S$ hoạt động**.
 
+![Giai đoạn mở đầu chuỗi polypeptide](hoasinh_media/HS-10_fig10_4.png)
+*Hình 10.4. Giai đoạn mở đầu chuỗi tổng hợp polypeptide ở sinh vật nhân sơ.*
+
 ---
 
 ### 3.3. Giai đoạn 3: Kéo dài Chuỗi Polypeptide (Elongation)
 
 Kéo dài là một chu kỳ lặp đi lặp lại gồm 3 bước tuần tự nhằm lắp ghép từng acid amin vào chuỗi theo đúng trật tự codon trên mRNA:
 
-![Các giai đoạn kéo dài chuỗi trên ribosome](hoasinh_media/fig_10_1.png)
+![Giai đoạn kéo dài chuỗi polypeptide 10.5A](hoasinh_media/HS-10_fig10_5A.png)
+*Hình 10.5A. Giai đoạn kéo dài chuỗi: Gắn aminoacyl-tRNA mới vào vị trí A và tạo liên kết peptid.*
+
+![Giai đoạn kéo dài chuỗi polypeptide 10.5B](hoasinh_media/HS-10_fig10_5B.png)
+*Hình 10.5B. Giai đoạn kéo dài chuỗi: Chuyển vị của ribosom dọc theo phân tử mRNA.*
+
 
 #### Bước 1: Gắn Aminoacyl-tRNA mới vào vị trí A (Decoding / A-site binding)
 - Codon tiếp theo trên mRNA nằm lộ ra tại vị trí A của ribosom.
@@ -194,7 +212,13 @@ Quá trình dịch mã dừng lại khi một trong 3 codon kết thúc ($\text{
   - Ở nhân thực: Một yếu tố duy nhất **eRF1** nhận diện cả 3 codon kết thúc, phối hợp với **eRF3-GTP**.
 - Khi RF gắn vào vị trí A, nó làm biến đổi cấu hình trung tâm peptidyl transferase, khiến enzyme này chuyển hướng xúc tác phản ứng chuyển nhóm peptid sang một phân tử **nước** thay vì nhóm amin của aminoacyl-tRNA.
 - Chuỗi polypeptide hoàn chỉnh bị thủy phân cắt rời khỏi tRNA ở vị trí P và giải phóng vào bào tương.
-- Phân tử ribosome phân ly thành hai tiểu đơn vị nhỏ và lớn nhờ yếu tố tái chế ribosome **RRF (Ribosome Recycling Factor)** và EF-G (ở vi khuẩn) kèm theo sự thủy phân thêm 1 GTP/ATP, sẵn sàng cho một chu kỳ dịch mã mới.
+
+![Giai đoạn kết thúc chuỗi polypeptide](hoasinh_media/HS-10_fig10_6.png)
+*Hình 10.6. Giai đoạn kết thúc tổng hợp chuỗi polypeptide khi gặp codon kết thúc và giải phóng protein.*
+
+![Minh họa toàn bộ quá trình sinh tổng hợp protein](hoasinh_media/HS-10_fig10_7.png)
+*Hình 10.7. Minh họa quá trình sinh tổng hợp protein hoàn chỉnh từ nhân ra bào tương.*
+
 
 ### 3.5. Cân bằng Năng lượng của Sinh tổng hợp Protein
 
@@ -270,6 +294,8 @@ Tế bào không tổng hợp toàn bộ các loại protein mọi lúc với c�
 - **Gen điều hòa ($R$ hoặc $I$):** Nằm ngoài operon, liên tục phiên mã tạo protein điều hòa (Repressor).
 
 ![Mô hình điều hòa Operon Lac](hoasinh_media/HS-10_fig02_lac_operon.png)
+*Hình 10.8. Mô hình cảm ứng tổng hợp protein (Operon Lac).*
+
 
 #### 6.1.1. Operon Lac (Mô hình cảm ứng kinh điển của Jacob & Monod - Nobel 1965)
 Operon Lac của *E. coli* chứa 3 gen cấu trúc cần thiết cho việc vận chuyển và chuyển hóa đường lactose:
@@ -299,6 +325,9 @@ Operon Trp mã hóa 5 enzyme tổng hợp acid amin Tryptophan:
 - *Khi Tryptophan dư thừa:* Tryptophan đóng vai trò là **chất đồng ức chế (corepressor)**, gắn vào TrpR làm chuyển sang cấu hình hoạt động gắn vào Operator, dập tắt phiên mã.
 - *Cơ chế suy giảm (Attenuation):* Đoạn leader peptide phía trước operon chứa 2 codon Trp liên tiếp. Nếu thiếu Trp, ribosome bị ngập ngừng dừng lại ở các codon này, tạo điều kiện cho mRNA hình thành cấu trúc kẹp tóc $2-3$ (chống kết thúc), cho phép phiên mã tiếp tục. Nếu thừa Trp, ribosome trượt nhanh qua, thúc đẩy tạo cấu trúc kẹp tóc $3-4$ (tín hiệu kết thúc phụ thuộc Rho), cắt đứt phiên mã sớm.
 
+![Mô hình kìm hãm tổng hợp protein](hoasinh_media/HS-10_fig10_9.png)
+*Hình 10.9. Mô hình kìm hãm tổng hợp protein (Operon Tryptophan).*
+
 ---
 
 ### 6.2. Điều hòa biểu hiện gen ở Sinh vật nhân thực (Eukaryotes)
@@ -315,6 +344,9 @@ Yếu tố mở đầu **eIF2** là tâm điểm kiểm soát tốc độ dịch
    - Khi tế bào bị nhiễm virus, tế bào tiết ra **Interferon-$\alpha/\beta$**.
    - Interferon kích hoạt sự tổng hợp enzyme **Protein Kinase R (PKR)** trong tế bào.
    - RNA sợi đôi (dsRNA) của virus kích hoạt PKR tự phosphoryl hóa. Sau đó PKR phosphoryl hóa bất hoạt **eIF2-$\alpha$**, dập tắt toàn bộ quá trình sinh tổng hợp protein của tế bào ký chủ, khiến virus không thể nhân lên và tế bào nhiễm tự sát tế bào (apoptosis).
+
+![Điều hòa tổng hợp protein bởi Interferon](hoasinh_media/HS-10_fig10_10.png)
+*Hình 10.10. Điều hòa tổng hợp protein bởi interferon thông qua kích hoạt enzyme kinase phosphoryl hóa bất hoạt eIF2.*
 
 #### 6.2.2. Điều hòa Biểu sinh (Epigenetics) và Cấu trúc Chromatin
 - **Acetyl hóa Histone:** Enzyme *Histone Acetyltransferase (HAT)* chuyển nhóm acetyl từ Acetyl-CoA vào gốc Lysin trên đuôi histone, trung hòa điện tích dương của histone, làm lỏng lẻo tương tác tĩnh điện giữa histone và DNA tích điện âm $\to$ mở rộng chromatin (euchromatin), cho phép các yếu tố phiên mã tiếp cận gen để hoạt hóa phiên mã. Ngược lại, *Histone Deacetylase (HDAC)* đóng chặt chromatin (heterochromatin) làm câm lặng gen.

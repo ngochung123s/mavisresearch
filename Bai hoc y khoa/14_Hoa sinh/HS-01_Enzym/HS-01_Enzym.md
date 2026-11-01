@@ -107,10 +107,8 @@ $$\text{Holoenzym (Toàn phần)} = \text{Apoenzym (Phần protein)} + \text{Cof
 
 ### 2.2. Trung tâm hoạt động (Active Site) và Tính đặc hiệu cơ chất
 Trung tâm hoạt động là vùng không gian 3 chiều đặc biệt trên bề mặt phân tử enzym, nơi cơ chất gắn vào và diễn ra phản ứng xúc tác biến đổi cơ chất thành sản phẩm.
-
-![Cấu trúc trung tâm hoạt động gắn cơ chất](hoasinh_media/HS-01_fig01_active_site.png)
-*Hình 1.1. Mô hình không gian 3 chiều của trung tâm hoạt động enzym với các acid amin xúc tác định vị cơ chất.*
-
+![Vị trí gắn Glucose của glucokinase](hoasinh_media/HS-01_fig1_1.png)
+*Hình 1.1. Vị trí gắn Glucose của glucokinase: Glucose được gắn vào trung tâm hoạt động bởi các liên kết hydro giữa các nhóm OH của các acid amin phân cực ở các vị trí khác nhau.*
 #### Đặc điểm cấu tạo của trung tâm hoạt động:
 * Chỉ chiếm một phần rất nhỏ (thường chỉ $1 - 5\\%$) tổng thể tích phân tử enzym.
 * Được tạo thành từ các gốc acid amin nằm ở các vị trí rất xa nhau trên chuỗi polypeptide nguyên thủy, nhưng nhờ cấu trúc cuộn gấp không gian bậc 3 và bậc 4 mà chúng được đưa lại gần nhau trong không gian.
@@ -131,9 +129,10 @@ Trung tâm hoạt động là vùng không gian 3 chiều đặc biệt trên b�
 2. **Thuyết "Cảm ứng tiếp xúc" (Induced Fit Model - Daniel Koshland, 1958):**
 * Cho rằng trung tâm hoạt động của enzym có tính linh hoạt mềm dẻo. Ban đầu hình thể của nó chưa khớp hoàn toàn với cơ chất. Khi cơ chất tiếp cận và tương tác với vùng gắn, chính cơ chất sẽ **gây cảm ứng** làm thay đổi cấu hình không gian của trung tâm hoạt động, khiến các acid amin xúc tác chuyển dịch vào đúng vị trí tối ưu để ôm sát và tác dụng lên cơ chất.
 * Thuyết Koshland là học thuyết hiện đại được công nhận rộng rãi nhất hiện nay.
+![Mô hình ổ khóa chìa khóa và cảm ứng không gian](hoasinh_media/HS-01_fig1_2.png)
+*Hình 1.2. Mô hình "ổ khóa" và "chìa khóa" (a) của Emil Fischer và mô hình "cảm ứng không gian" của Koshland (b).*
 
 ---
-
 ### 2.3. Các dạng cấu trúc đặc biệt của phân tử enzym
 
 #### 2.3.1. Isoenzym (Isozyme)
@@ -157,8 +156,14 @@ Enzym dị lập thể là các enzym có thêm một hoặc nhiều **vị trí
 * **Chất điều hòa dị lập thể dương (Chất hoạt hóa):** Khi gắn vào vị trí dị lập thể sẽ làm thay đổi cấu hình enzym, làm tăng ái lực của trung tâm hoạt động với cơ chất $\implies$ tăng tốc độ phản ứng.
 * **Chất điều hòa dị lập thể âm (Chất ức chế):** Khi gắn vào sẽ làm biến dạng trung tâm hoạt động, làm giảm hoặc mất khả năng gắn cơ chất $\implies$ giảm tốc độ phản ứng.
 * *Đặc điểm động học:* Enzym dị lập thể không tuân theo đường cong hyperbol của Michaelis-Menten mà có **đường cong động học dạng chữ S (Sigmoidal curve)** do hiện tượng hợp tác tương hỗ (cooperativity) giữa các bán đơn vị.
-* *Vai trò điều hòa ngược (Feedback inhibition):* Thường là enzym then chốt (rate-limiting enzyme) xúc tác cho giai đoạn đầu tiên của một con đường chuyển hóa, bị ức chế dị lập thể bởi chính sản phẩm cuối cùng của con đường đó (ví dụ: Phosphofructokinase-1 trong đường phân bị ức chế bởi nồng độ cao của ATP và Citrat).
+![Tác dụng của yếu tố dị lập thể](hoasinh_media/HS-01_fig1_3.png)
+*Hình 1.3. Tác dụng của yếu tố dị lập thể âm (a) trên enzym dị lập thể khi có sự gắn chất dị lập thể âm làm cấu hình enzym biến đổi không thuận lợi cho gắn cơ chất, và tác dụng của yếu tố dị lập thể dương (b) làm thuận lợi cho gắn cơ chất.*
 
+![Điều hòa ngược trong chuỗi phản ứng](hoasinh_media/HS-01_fig1_4.png)
+*Hình 1.4. Điều hòa ngược (feedback inhibition) trong chuỗi phản ứng từ chất A đến F: Sản phẩm F ức chế dị lập thể enzym xúc tác phản ứng đầu tiên.*
+
+![Điều hòa hoạt tính glycogen phosphorylase](hoasinh_media/HS-01_fig1_5.png)
+*Hình 1.5. Ví dụ sự thay đổi hoạt tính glycogen phosphorylase cơ bằng thay đổi đồng hóa trị phosphoryl hóa.*
 #### 2.3.3. Tiền enzym (Zymogen / Proenzyme)
 Là dạng enzym chưa có hoạt tính sinh học do tế bào tổng hợp và bài tiết ra. Khi được vận chuyển đến đúng cơ quan đích, zymogen sẽ được hoạt hóa bằng cách thủy phân cắt bỏ một hoặc vài đoạn peptid che lấp trung tâm hoạt động, làm bộc lộ trung tâm hoạt động chức năng.
 * *Ví dụ:*
@@ -171,12 +176,15 @@ Là một tổ hợp cấu trúc gồm nhiều phân tử enzym khác nhau nhưn
 * Các enzym thành phần không thể tách rời nhau: nếu tách riêng, chúng sẽ bị biến tính và mất hoạt tính xúc tác.
 * *Ưu thế sinh học:* Giúp các chất chuyển hóa trung gian đi thẳng từ trung tâm hoạt động của enzym này sang enzym kế tiếp (hiện tượng dẫn truyền cơ chất - Substrate channeling) mà không bị khuếch tán ra ngoài môi trường dịch bào, làm tăng tối đa hiệu suất và tốc độ chuyển hóa.
 * *Ví dụ kinh điển:* **Phức hợp Pyruvat Dehydrogenase (PDH)** ở màng trong ty thể xúc tác cho quá trình khử carboxyl oxy hóa pyruvat thành acetyl-CoA, gồm 3 enzym ($E_1$: Pyruvat dehydrogenase, $E_2$: Dihydrolipoyl transacetylase, $E_3$: Dihydrolipoyl dehydrogenase) phối hợp với 5 coenzym ($TPP$, Lipoat, $CoA-SH$, $FAD$, $NAD^+$).
+![Phức hợp đa enzym pyruvat dehydrogenase](hoasinh_media/HS-01_fig1_6.png)
+*Hình 1.6. Phức hợp đa enzym pyruvat dehydrogenase gồm 3 enzym xúc tác chuyển pyruvat thành acetyl-CoA.*
 
 ---
-
 ## 3. CẤU TRÚC VÀ CHỨC NĂNG CỦA CÁC COENZYM
 
 Coenzym là các phân tử hữu cơ phi protein trọng lượng phân tử nhỏ, trực tiếp tham gia vào phản ứng xúc tác bằng cách vận chuyển hydro, điện tử hoặc các nhóm hóa học. Hầu hết các coenzym quan trọng trong cơ thể người đều có nguồn gốc từ các **vitamin tan trong nước nhóm B**.
+![Coenzym tham gia tạo trung tâm hoạt động](hoasinh_media/HS-01_fig1_7.png)
+*Hình 1.7. Coenzym tham gia tạo trung tâm hoạt động: Coenzym thể hiện vai trò tham gia hình thành trung tâm hoạt động, sau khi gắn với coenzym thì trung tâm hoạt động mới có hoạt tính.*
 
 ### 3.1. Các Coenzym oxy hóa - khử
 
@@ -188,6 +196,8 @@ $$AH_2 + NAD^+ \rightleftharpoons A + NADH + H^+$$
 * **Phân định chức năng sinh học cốt lõi:**
 * **$NAD^+ / NADH$:** Chủ yếu tham gia vào các quá trình **thoái hóa (dị hóa)** tạo năng lượng ATP (đường phân, chu trình Krebs, $\beta$-oxy hóa acid béo) và chuỗi hô hấp tế bào tại ty thể ($1\,NADH \implies 2,5\,ATP$).
 * **$NADP^+ / NADPH$:** Chủ yếu tham gia vào các quá trình **tổng hợp (đồng hóa)** cần lực khử cao (tổng hợp acid béo, cholesterol, hormon steroid) và khử độc chống gốc tự do tại hồng cầu (duy trì Glutathion dạng khử $GSH$ nhờ enzym Glutathion reductase).
+![Công thức và cơ chế phản ứng của NAD+](hoasinh_media/HS-01_fig1_8.png)
+*Hình 1.8. Công thức cấu tạo và cơ chế phản ứng của coenzym NAD+.*
 
 #### 3.1.2. Flavin Adenin Dinucleotid ($FAD$) và Flavin Mononucleotid ($FMN$)
 * **Nguồn gốc:** Dẫn xuất từ **Vitamin $B_2$** (Riboflavin).
@@ -195,9 +205,10 @@ $$AH_2 + NAD^+ \rightleftharpoons A + NADH + H^+$$
 * **Cơ chế hoạt động:** Nhân isoalloxazin có khả năng nhận liên tiếp **2 nguyên tử hydro ($2H^+ + 2e^-$)** tại vị trí nitơ $N_1$ và $N_{10}$ để chuyển thành dạng khử $FADH_2$ hoặc $FMNH_2$ (qua một trạng thái trung gian gốc tự do semiquinon):
 $$AH_2 + FAD \rightleftharpoons A + FADH_2$$
 * **Ví dụ:** Succinat dehydrogenase trong chu trình Krebs xúc tác khử hydro của succinat thành fumarat tạo $FADH_2$ (đi vào chuỗi hô hấp tế bào tạo $1,5\,ATP$).
+![Công thức và cơ chế hoạt động của FAD](hoasinh_media/HS-01_fig1_9.png)
+*Hình 1.9. Công thức cấu tạo và cơ chế hoạt động của coenzym FAD.*
 
 ---
-
 ### 3.2. Các Coenzym vận chuyển nhóm
 
 #### 3.2.1. Thiamine Pyrophosphat ($TPP$)
@@ -214,9 +225,8 @@ $$AH_2 + FAD \rightleftharpoons A + FADH_2$$
 * **Nguồn gốc:** Dẫn xuất từ **Vitamin $B_6$** (Pyridoxin / Pyridoxal).
 * **Cơ chế:** Nhóm aldehyd ($-CHO$) của PLP phản ứng với nhóm amin ($-NH_2$) của acid amin tạo liên kết base Schiff (aldimin) trung gian.
 
-![Cơ chế xúc tác chuyển nhóm amin của Transaminase với PLP](hoasinh_media/HS-01_fig10_transaminase.png)
-*Hình 1.2. Chu trình chuyển nhóm amin qua lại giữa PLP và PMP của enzym Transaminase.*
-
+![Cơ chế hoạt động của enzym transaminase](hoasinh_media/HS-01_fig1_10.png)
+*Hình 1.10. Cơ chế hoạt động của enzym transaminase.*
 * **Vai trò:** Coenzym thiết yếu của các enzym **Transaminase (AST, ALT)** trong phản ứng trao đổi amin và enzym decarboxylase xúc tác khử carboxyl tạo các amin sinh học (histamin, serotonin, GABA, dopamin).
 
 #### 3.2.4. Biotin (Vitamin $B_8$ / Vitamin H)
@@ -237,17 +247,16 @@ $$A + B \rightleftharpoons [X]^\ddagger \rightleftharpoons P + Q$$
 * Để các phân tử chất phản ứng biến đổi thành sản phẩm, chúng phải va chạm với nhau và vượt qua một rào cản năng lượng gọi là **Năng lượng hoạt hóa (Activation Energy - $\Delta G^\ddagger$)**.
 * Tại đỉnh của rào cản năng lượng này, các phân tử đạt tới một trạng thái giàu năng lượng, không ổn định và có liên kết bị kéo căng tối đa gọi là **Trạng thái chuyển tiếp (Transition State - $[X]^\ddagger$)**.
 
-![Mô tả năng lượng tự do và trạng thái chuyển tiếp](hoasinh_media/HS-01_fig11_transition_state.png)
-*Hình 1.3. Giản đồ năng lượng phản ứng: Năng lượng hoạt hóa là hiệu số năng lượng giữa trạng thái ban đầu và trạng thái chuyển tiếp.*
+![Mô tả năng lượng tự do và trạng thái chuyển tiếp](hoasinh_media/HS-01_fig1_11.png)
+*Hình 1.11. Mô tả năng lượng tự do và trạng thái chuyển tiếp của phản ứng.*
 
 ---
 
 ### 4.2. Cơ chế enzym làm giảm năng lượng hoạt hóa
 Enzym làm tăng tốc độ phản ứng lên hàng triệu đến hàng tỷ lần bằng một cơ chế thống nhất: **Làm giảm năng lượng hoạt hóa ($\Delta G^\ddagger$) của phản ứng**.
 
-![Cơ chế enzym làm giảm năng lượng hoạt hóa](hoasinh_media/HS-01_fig12_activation_energy.png)
-*Hình 1.4. So sánh con đường phản ứng khi không có chất xúc tác và khi có enzym: Enzym tạo con đường phản ứng mới có năng lượng hoạt hóa thấp hơn đáng kể.*
-
+![Cơ chế tác dụng của enzym làm giảm năng lượng hoạt hóa](hoasinh_media/HS-01_fig1_12.png)
+*Hình 1.12. Cơ chế tác dụng của enzym: enzym làm giảm năng lượng hoạt hóa của phản ứng bằng cách tạo phức hợp enzym - cơ chất (ES) với mức năng lượng hoạt hóa thấp hơn nhiều.*
 #### Hai nguyên lý nhiệt động học cốt tử của enzym:
 1. **Enzym chỉ làm giảm năng lượng hoạt hóa ($\Delta G^\ddagger$), hoàn toàn không làm thay đổi biến thiên năng lượng tự do toàn phần ($\Delta G$) của phản ứng:** 
 Mức năng lượng của cơ chất ban đầu ($S$) và sản phẩm cuối cùng ($P$) là hoàn toàn không đổi. Enzym không thể biến một phản ứng thu nhiệt không thuận lợi về mặt nhiệt động học thành phản ứng tự phát được.
@@ -273,9 +282,8 @@ Năm 1913, Leonor Michaelis và Maud Menten đã xây dựng mô hình kinh đi�
 $$E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \\xrightarrow{k_2} E + P$$
 Khi nồng độ enzym $[E]$ cố định, nếu tăng dần nồng độ cơ chất $[S]$, tốc độ phản ứng ban đầu ($v$) biến thiên theo dạng đường cong hyperbol:
 
-![Đồ thị Michaelis - Menten](hoasinh_media/HS-01_fig13_michaelis_menten.png)
-*Hình 1.5. Đồ thị Michaelis - Menten biểu diễn mối quan hệ giữa tốc độ phản ứng ($v$) và nồng độ cơ chất ($[S]$).*
-
+![Đồ thị Michaelis - Menten](hoasinh_media/HS-01_fig1_13.png)
+*Hình 1.13. Đồ thị Michaelis - Menten về sự phụ thuộc của tốc độ phản ứng vào nồng độ cơ chất: Km là nồng độ cơ chất mà ở đó tốc độ phản ứng bằng 1/2 tốc độ tối đa.*
 #### Phương trình Michaelis - Menten:
 $$v = \frac{V_{max} [S]}{K_m + [S]}$$
 Trong đó:
@@ -319,18 +327,16 @@ $$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \\cdot \frac{
 * Điểm cắt trục tung ($x = 0$): $\frac{1}{V_{max}}$
 * Điểm cắt trục hoành ($y = 0$): $-\frac{1}{K_m}$
 
-![Đồ thị Lineweaver - Burk](hoasinh_media/HS-01_fig14_lineweaver_burk.png)
-*Hình 1.6. Đồ thị Lineweaver - Burk (nghịch đảo kép): Cho phép ngoại suy chính xác điểm cắt trục tung $1/V_{max}$ và điểm cắt trục hoành $-1/K_m$.*
-
+![Đồ thị Lineweaver - Burk](hoasinh_media/HS-01_fig1_14.png)
+*Hình 1.14. Đồ thị Lineweaver - Burk.*
 ---
 
 ## 6. CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN HOẠT ĐỘNG CỦA ENZYM
 
 ### 6.1. Ảnh hưởng của nhiệt độ
 
-![Ảnh hưởng của nhiệt độ](hoasinh_media/HS-01_fig15_temperature.png)
-*Hình 1.7. Đồ thị biểu diễn ảnh hưởng của nhiệt độ đến tốc độ phản ứng enzym.*
-
+![Ảnh hưởng của nhiệt độ](hoasinh_media/HS-01_fig1_15.png)
+*Hình 1.15. Ảnh hưởng của nhiệt độ trên tốc độ phản ứng enzym.*
 * **Quy luật tăng tốc độ:** Khi nhiệt độ tăng, động năng các phân tử tăng làm tăng tần số va chạm hiệu quả giữa enzym và cơ chất. Trong khoảng $0 - 40^\circ\text{C}$, cứ tăng nhiệt độ thêm $10^\circ\text{C}$ thì tốc độ phản ứng tăng xấp xỉ gấp đôi (Hệ số nhiệt $Q_{10} \approx 2$).
 * **Nhiệt độ tối thích ($T_{opt}$):** Là nhiệt độ mà tại đó enzym có hoạt tính xúc tác cao nhất. Với hầu hết enzym trong cơ thể người, $T_{opt} \approx 37 - 40^\circ\text{C}$.
 * **Biến tính nhiệt:** Khi nhiệt độ vượt quá $55 - 60^\circ\text{C}$, các liên kết yếu (liên kết hydro, tương tác kỵ nước) duy trì cấu trúc không gian bậc 3 và bậc 4 của protein enzym bị phá vỡ hoàn toàn $\implies$ enzym bị đông tụ, biến tính không hồi phục và mất hoàn toàn hoạt tính xúc tác.
@@ -342,9 +348,8 @@ $$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \\cdot \frac{
 
 ### 6.2. Ảnh hưởng của pH môi trường
 
-![Ảnh hưởng của pH](hoasinh_media/HS-01_fig16_ph_effect.png)
-*Hình 1.8. Đồ thị biểu diễn hoạt tính enzym theo pH môi trường: Đạt đỉnh tại pH tối thích.*
-
+![Ảnh hưởng của pH](hoasinh_media/HS-01_fig1_16.png)
+*Hình 1.16. Ảnh hưởng của pH đến tốc độ phản ứng enzym.*
 * **Cơ chế:** pH môi trường làm thay đổi trạng thái ion hóa (điện tích) của các gốc acid amin tại trung tâm hoạt động và của chính cơ chất, từ đó ảnh hưởng đến khả năng liên kết giữa chúng. Ở các mức pH quá toan hoặc quá kiềm, enzym bị biến tính protein.
 * **pH tối thích ($pH_{opt}$):** Mỗi enzym hoạt động tối ưu ở một vùng pH hẹp đặc thù phản ánh môi trường sinh lý hoạt động của nó:
 * **Pepsin dạ dày:** $pH_{opt} \approx 1,5 - 2,0$ (môi trường dịch vị acid clohydric đậm đặc).
@@ -363,21 +368,19 @@ Chất ức chế ($I$) là những chất hóa học khi gắn vào enzym làm 
 $$E + S \rightleftharpoons ES \implies P$$
 $$E + I \rightleftharpoons EI \implies \text{Không tạo sản phẩm}$$
 
-![Mô hình ức chế cạnh tranh](hoasinh_media/HS-01_fig17_competitive_model.png)
-*Hình 1.9. Chất ức chế cạnh tranh ($I$) gắn vào trung tâm hoạt động ngăn cản cơ chất ($S$) tiếp cận.*
+![Mô hình ức chế cạnh tranh](hoasinh_media/HS-01_fig1_17.png)
+*Hình 1.17. Chất ức chế I cạnh tranh với cơ chất gắn vào trung tâm hoạt động của enzym, ngăn sự gắn của cơ chất vào enzym và phản ứng xúc tác không xảy ra.*
 
-![Đồ thị Lineweaver-Burk ức chế cạnh tranh](hoasinh_media/HS-01_fig18_competitive_lineweaver.png)
-*Hình 1.10. Đồ thị Lineweaver - Burk trong ức chế cạnh tranh: Đồ thị cắt nhau tại trục tung ($1/V_{max}$ không đổi, $-1/K_m$ tiến gần về gốc tọa độ $\implies K_m$ biểu kiến tăng).*
-
+![Đồ thị Lineweaver-Burk trong ức chế cạnh tranh](hoasinh_media/HS-01_fig1_18.png)
+*Hình 1.18. Ảnh hưởng của chất ức chế cạnh tranh trên đồ thị Lineweaver - Burk.*
 * **Đặc điểm động học:**
 * **$V_{max}$ không đổi:** Khi nồng độ cơ chất $[S]$ được tăng lên cực lớn, cơ chất áp đảo hoàn toàn chất ức chế và chiếm lĩnh toàn bộ trung tâm hoạt động, đưa tốc độ phản ứng đạt tới $V_{max}$ ban đầu.
 * **$K_m$ tăng ($K_m' > K_m$):** Sự có mặt của chất ức chế làm giảm ái lực biểu kiến của enzym đối với cơ chất, đòi hỏi nồng độ cơ chất cao hơn mới đạt được một nửa $V_{max}$.
 * **Ví dụ Y học & Dược lý kinh điển:**
 1. **Allopurinol điều trị bệnh Gout:** Allopurinol có cấu trúc tương tự hypoxanthin, cạnh tranh gắn vào trung tâm hoạt động của enzym **Xanthine oxidase**, ức chế quá trình oxy hóa tạo acid uric, từ đó hạ acid uric máu và dự phòng cơn Gout cấp.
 
-![Cấu trúc Allopurinol cạnh tranh với Hypoxanthin](hoasinh_media/HS-01_fig19_allopurinol.png)
-*Hình 1.11. Cấu trúc đối chiếu giữa Allopurinol và Hypoxanthin/Xanthin.*
-
+![Allopurinol cạnh tranh gắn xanthin oxidase](hoasinh_media/HS-01_fig1_19.png)
+*Hình 1.19. Allopurinol có cấu trúc tương tự xanthin đã cạnh tranh gắn vào trung tâm hoạt động xanthin oxidase và ức chế tạo acid uric.*
 2. **Nhóm thuốc Statin (Atorvastatin, Rosuvastatin):** Có cấu trúc tương tự HMG-CoA, ức chế cạnh tranh với enzym **HMG-CoA Reductase**, ngăn chặn sinh tổng hợp cholesterol nội sinh ở gan, là thuốc nền tảng điều trị rối loạn lipid máu và xơ vữa động mạch.
 3. **Thuốc kháng sinh Sulfamid:** Có cấu trúc tương tự acid para-aminobenzoic (PABA), cạnh tranh ức chế enzym tổng hợp acid folic của vi khuẩn.
 
@@ -388,12 +391,11 @@ $$E + I \rightleftharpoons EI \implies \text{Không tạo sản phẩm}$$
 $$E + I \rightleftharpoons EI$$
 $$ES + I \rightleftharpoons ESI$$
 
-![Mô hình ức chế không cạnh tranh](hoasinh_media/HS-01_fig20_noncompetitive_model.png)
-*Hình 1.12. Chất ức chế không cạnh tranh gắn vào vị trí riêng biệt ngoài trung tâm hoạt động.*
+![Mô hình ức chế không cạnh tranh](hoasinh_media/HS-01_fig1_20.png)
+*Hình 1.20. Chất ức chế I gắn vào phức hợp enzym - cơ chất (không gắn vào enzym tự do) và phản ứng xúc tác không xảy ra.*
 
-![Đồ thị Lineweaver-Burk ức chế không cạnh tranh](hoasinh_media/HS-01_fig21_noncompetitive_lineweaver.png)
-*Hình 1.13. Đồ thị Lineweaver - Burk trong ức chế không cạnh tranh: Cắt nhau tại trục hoành ($-1/K_m$ không đổi), trục tung nâng cao ($V_{max}$ giảm).*
-
+![Đồ thị Lineweaver-Burk trong ức chế không cạnh tranh](hoasinh_media/HS-01_fig1_21.png)
+*Hình 1.21. Ảnh hưởng của chất ức chế I không cạnh tranh trên đồ thị Lineweaver - Burk.*
 * **Đặc điểm động học:**
 * **$K_m$ không đổi:** Vì chất ức chế không can thiệp vào sự gắn của cơ chất vào trung tâm hoạt động nên ái lực của enzym với cơ chất hoàn toàn không bị ảnh hưởng.
 * **$V_{max}$ giảm ($V_{max}' < V_{max}$):** Phức hợp $ESI$ không thể phân giải thành sản phẩm. Vì vậy, một phần phân tử enzym bị vô hiệu hóa, việc tăng nồng độ cơ chất $[S]$ **không thể** khắc phục được sự ức chế này.
@@ -403,9 +405,11 @@ $$ES + I \rightleftharpoons ESI$$
 #### 6.3.3. Ức chế hỗn hợp (Mixed Inhibition)
 * **Bản chất:** Chất ức chế gắn vào cả enzym tự do $E$ và phức hợp $ES$, nhưng với ái lực khác nhau ($K_i \ eq K_i'$).
 
-![Đồ thị Lineweaver-Burk ức chế hỗn hợp](hoasinh_media/HS-01_fig23_mixed_lineweaver.png)
-*Hình 1.14. Đồ thị Lineweaver - Burk trong ức chế hỗn hợp: Điểm giao nhau nằm ở góc phần tư thứ hai (cả $V_{max}$ giảm và $K_m$ thay đổi).*
+![Mô hình ức chế hỗn hợp](hoasinh_media/HS-01_fig1_22.png)
+*Hình 1.22. Trong kiểu ức chế hỗn hợp, chất ức chế I gắn vào cả enzym tự do và phức hợp enzym - cơ chất và phản ứng xúc tác không xảy ra.*
 
+![Đồ thị Lineweaver-Burk trong ức chế hỗn hợp](hoasinh_media/HS-01_fig1_23.png)
+*Hình 1.23. Ảnh hưởng của chất ức chế hỗn hợp trên đồ thị Lineweaver - Burk.*
 * **Đặc điểm:** Cả $V_{max}$ giảm và $K_m$ đều bị biến đổi (thường là $K_m$ tăng lên).
 
 ---
@@ -413,9 +417,8 @@ $$ES + I \rightleftharpoons ESI$$
 #### 6.3.4. Ức chế không thuận nghịch và Bệnh học lâm sàng nhiễm độc Phospho hữu cơ
 Chất ức chế không thuận nghịch tạo liên kết cộng hóa trị bền vững hoặc phá hủy hoàn toàn nhóm chức thiết yếu của enzym tại trung tâm hoạt động, làm enzym mất hoạt tính vĩnh viễn và không thể phục hồi bằng lọc thẩm tích hay tăng cơ chất.
 
-![Cơ chế nhiễm độc Phospho hữu cơ DFP](hoasinh_media/HS-01_fig24_dfp_organophosphate_poisoning.png)
-*Hình 1.15. A) Phản ứng thủy phân acetylcholine bình thường của Acetylcholinesterase; B) DFP (phospho hữu cơ) gắn cộng hóa trị vào gốc Serin tại trung tâm hoạt động gây bất hoạt enzym vĩnh viễn.*
-
+![Cơ chế nhiễm độc Phospho hữu cơ](hoasinh_media/HS-01_fig1_24.png)
+*Hình 1.24. A) Acetylcholinesterase bình thường xúc tác phân hủy acetylcholin; B) Enzym bị ức chế bởi chất ức chế phosphor hữu cơ.*
 ##### Cơ chế bệnh sinh phân tử nhiễm độc thuốc trừ sâu Phospho hữu cơ (DFP, Parathion, Whorl):
 1. **Bình thường:** Enzym **Acetylcholinesterase (AChE)** tại các khe synap thần kinh xúc tác thủy phân chất dẫn truyền thần kinh Acetylcholin thành Cholin và Acetat với tốc độ siêu nhanh ($1\,\text{phân tử AChE thủy phân } 25.000\,\text{phân tử ACh/giây}$), giúp chấm dứt xung động thần kinh sau khi kích thích.
 2. **Khi nhiễm độc:** Các phân tử phospho hữu cơ (như Diisopropylphosphofluoridate - DFP, Parathion, Malathion, hoặc hơi ngạt thần kinh Sarin, VX) chứa nguyên tử phospho mang điện tích dương ái nhân sẽ tấn công và tạo **liên kết este phospho cộng hóa trị bền vững** với nhóm hydroxyl ($-OH$) của gốc **Serin** thiết yếu trong trung tâm hoạt động của AChE.

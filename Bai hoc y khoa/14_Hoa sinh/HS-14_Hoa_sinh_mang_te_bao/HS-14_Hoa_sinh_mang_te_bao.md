@@ -23,9 +23,8 @@ Màng sinh học (Biological membranes) đóng vai trò là ranh giới rào c�
 
 ### 1.1. Mô hình Khảm động Singer & Nicolson (1972)
 
-![Mô hình Khảm động của màng sinh học](hoasinh_media/HS-14_fig01_membrane_fluid_mosaic.png)
-*Hình 14.1. Mô hình khảm động Singer & Nicolson: Lớp lipid kép, protein xuyên màng và glycocalyx.*
-
+![Cấu trúc chung màng tế bào](hoasinh_media/HS-14_fig14_1.png)
+*Hình 14.1. Cấu trúc chung màng tế bào: Chuỗi acid béo trong cấu trúc màng tạo nên vùng kỵ nước. Các protein chìm trong lipid nhờ tương tác với phần kỵ nước. Cả protein và lipid đều di chuyển tự do theo chiều ngang trong mặt phẳng của lớp kép lipid, nhưng hạn chế di chuyển giữa 2 lớp.*
 
 Vào năm 1972, S. Jonathan Singer và Garth L. Nicolson đã công bố mô hình kinh điển **"Mô hình Khảm động" (Fluid Mosaic Model)** trên tạp chí *Science*, tạo nên cuộc cách mạng trong sinh học tế bào và hóa sinh phân tử:
 - **Tính chất "Khảm" (Mosaic):** Màng tế bào là một cấu trúc khảm không đối xứng cấu tạo từ một lớp lipid kép (lipid bilayer) đóng vai trò làm nền tảng cấu trúc cơ bản, trong đó xen kẽ và gắn kết vô số các phân tử protein. Protein có thể xuyên suốt chiều dày màng (protein xuyên màng - integral membrane proteins) hoặc gắn lỏng lẻo ở bề mặt trong/ngoài của màng (protein ngoại vi - peripheral membrane proteins).
@@ -33,8 +32,10 @@ Vào năm 1972, S. Jonathan Singer và Garth L. Nicolson đã công bố mô hì
 
 ### 1.2. Thành phần Lipid màng tế bào
 
-Lipid chiếm khoảng $40 - 50\%$ trọng lượng khô của hầu hết các màng sinh học (tỷ lệ này có thể thay đổi từ $20\%$ ở màng trong ty thể đến gần $80\%$ ở màng bao myelin của sợi thần kinh). Toàn bộ lipid màng đều thuộc nhóm **phân tử lưỡng ái (amphipathic molecules)**, nghĩa là mỗi phân tử đều sở hữu hai phần riêng biệt: một đầu ưa nước (hydrophilic head) phân cực và một đuôi kỵ nước (hydrophobic tail) không phân cực. Khi nằm trong môi trường nước, các phân tử này tự phát sắp xếp thành lớp kép kép kín (liposome hoặc màng phẳng) với đầu ưa nước quay ra ngoài tương tác với nước nội bào và ngoại bào, trong khi đuôi kỵ nước chôn giấu vào giữa để cực tiểu hóa năng lượng tự do nhiệt động học.
+![Màng tế bào hồng cầu nhuộm osmium tetroxid dưới kính hiển vi điện tử](hoasinh_media/HS-14_fig14_2.png)
+*Hình 14.2. Màng tế bào hồng cầu nhuộm osmium tetroxid dưới kính hiển vi điện tử gồm 3 lớp 5-8 nm (50-80 Å): Lớp trong, lớp ngoài và khoảng giữa 2 lớp.*
 
+Lipid chiếm khoảng $40 - 50\%$ trọng lượng khô của hầu hết các màng sinh học (tỷ lệ này có thể thay đổi từ $20\%$ ở màng trong ty thể đến gần $80\%$ ở màng bao myelin của sợi thần kinh). Toàn bộ lipid màng đều thuộc nhóm **phân tử lưỡng ái (amphipathic molecules)**, nghĩa là mỗi phân tử đều sở hữu hai phần riêng biệt: một đầu ưa nước (hydrophilic head) phân cực và một đuôi kỵ nước (hydrophobic tail) không phân cực. Khi nằm trong môi trường nước, các phân tử này tự phát sắp xếp thành lớp kép kép kín (liposome hoặc màng phẳng) với đầu ưa nước quay ra ngoài tương tác với nước nội bào và ngoại bào, trong khi đuôi kỵ nước chôn giấu vào giữa để cực tiểu hóa năng lượng tự do nhiệt động học.
 Có ba lớp lipid chính cấu thành màng tế bào:
 
 #### 1.2.1. Phospholipid
@@ -62,8 +63,13 @@ Gồm cerebroside (chứa một gốc đường đơn như glucose hoặc galact
 
 ### 1.3. Tính lỏng của màng (Membrane Fluidity) và các yếu tố điều hòa
 
-Tính lỏng là thuộc tính sống còn của màng sinh học. Màng phải ở trạng thái lỏng tối ưu để các protein màng có thể thay đổi cấu hình không gian khi thực hiện chức năng xúc tác hoặc vận chuyển, để các thụ thể và phối tử có thể khuếch tán tiếp cận nhau, và để các quá trình dung hợp màng (nhập bào, xuất bào, phân bào) diễn ra nhịp nhàng.
+![Di chuyển của phân tử phospholipid trong màng](hoasinh_media/HS-14_fig14_4.png)
+*Hình 14.4. Di chuyển của phân tử phospholipid trong màng.*
 
+![Caveolin](hoasinh_media/HS-14_fig14_5.png)
+*Hình 14.5. Caveolin.*
+
+Tính lỏng là thuộc tính sống còn của màng sinh học. Màng phải ở trạng thái lỏng tối ưu để các protein màng có thể thay đổi cấu hình không gian khi thực hiện chức năng xúc tác hoặc vận chuyển, để các thụ thể và phối tử có thể khuếch tán tiếp cận nhau, và để các quá trình dung hợp màng (nhập bào, xuất bào, phân bào) diễn ra nhịp nhàng.
 Các kiểu chuyển động của phân tử lipid màng:
 1. **Khuếch tán ngang (Lateral diffusion):** Các phân tử lipid hoán đổi vị trí cho nhau dọc theo cùng một lá màng với tốc độ cực nhanh (khoảng $10^7$ lần mỗi giây, di chuyển quãng đường $2\,\mu\text{m}$ trong vòng 1 giây).
 2. **Chuyển động xoay trục (Rotational motion):** Phân tử lipid tự quay quanh trục dọc của chính nó.
@@ -102,8 +108,10 @@ Khi tế bào nhận tín hiệu chết theo chương trình (Apoptosis), nồng
 
 ### 1.5. Protein màng tế bào: Cấu trúc không gian và chức năng
 
-Mặc dù lipid tạo nên khung màng ngăn cách, nhưng protein màng mới là thành phần đảm nhận hầu hết các chức năng sinh học đặc hiệu (vận chuyển, dẫn truyền tín hiệu, xúc tác enzym, kết dính gian bào). Dựa trên bản chất tương tác với lớp lipid kép, protein màng được phân loại thành hai nhóm chính:
+![Protein xuyên màng](hoasinh_media/HS-14_fig14_3.png)
+*Hình 14.3. Protein xuyên màng.*
 
+Mặc dù lipid tạo nên khung màng ngăn cách, nhưng protein màng mới là thành phần đảm nhận hầu hết các chức năng sinh học đặc hiệu (vận chuyển, dẫn truyền tín hiệu, xúc tác enzym, kết dính gian bào). Dựa trên bản chất tương tác với lớp lipid kép, protein màng được phân loại thành hai nhóm chính:
 #### 1.5.1. Protein xuyên màng (Integral / Transmembrane Proteins)
 Chiếm khoảng $70\%$ tổng số protein màng, gắn chặt vào lớp lipid kép thông qua các tương tác kỵ nước với chuỗi hydrocarbon của lipid. Để tách nhóm protein này ra khỏi màng, bắt buộc phải sử dụng các chất tẩy rửa (detergents như SDS, Triton X-100) nhằm phá vỡ cấu trúc lớp lipid kép.
 - **Dạng chuỗi xoắn $\alpha$ kỵ nước (Hydrophobic $\alpha$-helix):** Là cấu trúc phổ biến nhất ở màng tế bào eukaryote. Mỗi đoạn xuyên màng thường gồm $20 - 25$ acid amin mang chuỗi bên kỵ nước (như Leucine, Isoleucine, Valine, Phenylalanine, Alanine). Các liên kết hydro nội chuỗi giữa nhóm carbonyl ($C=O$) và amide ($N-H$) của khung peptide được bão hòa hoàn toàn bên trong lõi xoắn $\alpha$, che chắn tính phân cực để tương tác tối ưu với lõi lipid kỵ nước.
@@ -143,6 +151,8 @@ Glycocalyx (lớp áo carbohydrat) là một vùng phủ giàu oligosaccharid d�
 
 ## 2. CƠ CHẾ VẬN CHUYỂN CÁC CHẤT QUA MÀNG TẾ BÀO
 
+![Các dạng vận chuyển](hoasinh_media/HS-14_fig14_6.png)
+*Hình 14.6. Các dạng vận chuyển qua màng tế bào.*
 Sự sống của tế bào phụ thuộc vào khả năng trao đổi liên tục các chất dinh dưỡng, ion, chất chuyển hóa và phân tử tín hiệu giữa môi trường nội bào và ngoại bào, đồng thời duy trì nồng độ các chất nội bào hoàn toàn khác biệt so với dịch ngoại bào. Màng lipid kép nguyên thủy là một rào cản tính thấm cao:
 - **Thấm tự do:** Các phân tử khí nhỏ không phân cực ($O_2, CO_2, N_2$), các phân tử kỵ nước không mang điện (hormon steroid, acid béo, thuốc tan trong dầu), và các phân tử phân cực cực nhỏ không mang điện ($H_2O, \text{ethanol}, \text{urea}$).
 - **Không thấm / Thấm cực kém:** Các phân tử phân cực lớn không mang điện (Glucose, Fructose, Sucrose) và **hoàn toàn không thấm đối với tất cả các phân tử mang điện tích và ion vô cơ** ($Na^+, K^+, Ca^{2+}, Mg^{2+}, Cl^-, HCO_3^-, H^+$, acid amin, ATP, glucose-6-phosphat) do năng lượng tự do cần thiết để tách lớp vỏ hydrat hóa của ion và đưa điện tích vào lòng lipid kỵ nước là quá lớn ($> 100\,\text{kJ/mol}$).
@@ -179,6 +189,10 @@ Kênh ion là các phức hợp protein xuyên màng tạo thành các lỗ th�
   3. *Cổng cơ học (Mechanosensitive channels):* Mở ra do áp lực căng dãn vật lý của màng tế bào (ví dụ: kênh Piezo trong thụ cảm xúc giác và áp cảm thụ quan mạch máu).
 
 #### 2.2.2. Các protein vận chuyển dòng GLUT (Glucose Transporters - Kênh vận chuyển glucose thuận hóa)
+
+![Mô hình vận chuyển glucose vào hồng cầu nhờ GLUT1](hoasinh_media/HS-14_fig14_7.png)
+*Hình 14.7. Mô hình vận chuyển glucose vào hồng cầu nhờ GLUT1. Kênh GLUT1 có hai dạng cấu hình xen kẽ.*
+
 Các phân tử glucose tan trong nước không thể đi qua lipid kép. Họ protein vận chuyển GLUT (gồm 14 thành viên, cấu trúc 12 chuỗi xoắn $\alpha$ xuyên màng) xúc tác việc đưa glucose xuôi gradient nồng độ vào hoặc ra khỏi tế bào theo cơ chế thay đổi cấu hình xen kẽ (alternating conformation model).
 Động học vận chuyển tuân theo đường cong bão hòa Michaelis - Menten:
 $$v = \frac{V_{max} \cdot [S]}{K_m + [S]}$$
@@ -195,10 +209,11 @@ $$v = \frac{V_{max} \cdot [S]}{K_m + [S]}$$
 
 ### 2.3. Vận chuyển tích cực nguyên phát (Primary Active Transport)
 
-![Cơ chế hoạt động của bơm Na+-K+-ATPase](hoasinh_media/HS-14_fig02_na_k_atpase_pump.png)
-*Hình 14.2. Chu trình chuyển dạng cấu hình Post-Albers của bơm Na+-K+-ATPase và vị trí tác dụng của Digoxin.*
+![Bơm Na+-K+-ATPase](hoasinh_media/HS-14_fig14_9.png)
+*Hình 14.9. Cấu trúc bơm Na+-K+-ATPase.*
 
-
+![Cơ chế hoạt động của bơm Na+-K+-ATPase](hoasinh_media/HS-14_fig14_10.png)
+*Hình 14.10. Cơ chế hoạt động của bơm Na+-K+-ATPase.*
 Vận chuyển tích cực nguyên phát là quá trình vận chuyển các phân tử hoặc ion **ngược chiều gradient hóa điện thế** (từ nơi nồng độ thấp đến nơi nồng độ cao), trong đó năng lượng cần thiết được cung cấp trực tiếp từ **phản ứng thủy phân Adenosine Triphosphate (ATP)** thành ADP và phosphate vô cơ ($P_i$).
 
 Hầu hết các bơm vận chuyển tích cực nguyên phát thuộc họ **P-type ATPase** (được đặc trưng bởi sự hình thành một chất trung gian phospho-enzyme có liên kết cộng hóa trị giàu năng lượng tại gốc aspartyl bảo thủ trong chu trình xúc tác).
@@ -248,6 +263,8 @@ Nằm ở màng đỉnh (apical membrane) của tế bào viền (parietal cells
 
 ### 2.4. Vận chuyển tích cực thứ phát (Secondary Active Transport)
 
+![Vận chuyển tích cực nguyên phát và thứ phát](hoasinh_media/HS-14_fig14_8.png)
+*Hình 14.8. Vận chuyển tích cực nguyên phát và thứ phát.*
 Khác với vận chuyển tích cực nguyên phát sử dụng trực tiếp ATP, vận chuyển tích cực thứ phát (còn gọi là vận chuyển liên kết ion - ion-coupled transport) **không sử dụng ATP trực tiếp**. Thay vào đó, nó khai thác **thế năng nhiệt động học lưu trữ trong gradient nồng độ ion điện thế** (chủ yếu là gradient nồng độ $Na^+$, đôi khi là $H^+$) do bơm $Na^+-K^+$-ATPase tạo ra từ trước:
 - Khi một ion (thường là $Na^+$) di chuyển *xuôi chiều gradient nồng độ* (từ ngoài vào trong tế bào), năng lượng tự do tỏa ra ($\Delta G < 0$) được protein vận chuyển ghép cặp (coupled) để kéo một chất tan khác di chuyển *ngược chiều gradient nồng độ* ($\Delta G > 0$).
 - Dựa vào chiều chuyển động của hai chất, vận chuyển tích cực thứ phát được chia thành hai dạng:

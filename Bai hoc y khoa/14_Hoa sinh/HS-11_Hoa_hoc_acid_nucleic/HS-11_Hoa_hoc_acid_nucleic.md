@@ -25,7 +25,9 @@ Acid nucleic là đại phân tử sinh học mang và truyền đạt thông ti
 2. **Đường Pentose**: Aldopentose dạng vòng 5 cạnh ($\beta$-D-ribose hoặc $\beta$-D-2-deoxyribose).
 3. **Gốc Acid Phosphoric**: Một hoặc nhiều nhóm phosphate liên kết este.
 
-![Cấu trúc phân tử ribonucleotid và deoxyribonucleotid](hoasinh_media/fig_11_2.png)
+![Cấu trúc phân tử ribonucleotid và deoxyribonucleotid](hoasinh_media/HS-11_fig11_2.png)
+*Hình 11.2. Cấu trúc hóa học của (a) ribonucleotid và (b) deoxyribonucleotid.*
+
 
 ### 1.1. Các Base Nitơ (Nitrogenous Bases)
 
@@ -42,7 +44,6 @@ Nhân Pyrimidin là một vòng dị vòng sáu cạnh chứa hai nguyên tử n
 - **Uracil (U):** $2,4\text{-dioxy pyrimidin}$ (thường chỉ có trong RNA).
 - **Thymin (T):** $5\text{-methyl-2,4-dioxy pyrimidin}$ hay $5\text{-methyluracil}$ (thường chỉ có trong DNA).
 
-![Cấu trúc hóa học của các base nitơ](hoasinh_media/fig_11_1.png)
 
 #### 1.1.3. Tính chất hỗ biến Lactam - Lactim và Nguy cơ Đột biến Ghép đôi sai
 - Các base có chứa nguyên tử oxy (Guanin, Thymin, Uracil) tồn tại ở trạng thái cân bằng hỗ biến (tautomeric equilibrium) giữa hai dạng:
@@ -122,7 +123,10 @@ Bên cạnh 5 base chuẩn, trong tế bào còn có các base biến đổi sau
 
 Trong chuỗi polynucleotid, các mononucleotid liên kết đồng hóa trị với nhau thông qua **liên kết phosphodiester $3',5'$**:
 - Nhóm phosphate gắn ở vị trí carbon $C_5'$ của nucleotid này tạo liên kết este với nhóm hydroxyl ở vị trí carbon $C_3'$ của nucleotid kế tiếp.
-- Khung sườn của chuỗi acid nucleic là sự lặp lại đều đặn xen kẽ của các đơn vị: $\text{... - Đường - Phosphat - Đường - Phosphat - ...}$.
+
+![Mô hình cấu trúc của chuỗi gồm 3 nucleotid](hoasinh_media/HS-11_fig11_1.png)
+*Hình 11.1. Mô hình cấu trúc của chuỗi gồm 3 nucleotid liên kết với nhau qua liên kết 3',5'-phosphodiester.*
+
 - **Tính phân cực và định hướng của chuỗi:**
   - Đầu chuỗi mang một nhóm phosphate tự do ở vị trí carbon $5'$ của đường được gọi là **đầu $5'$ (5'-end)**.
   - Đầu chuỗi mang một nhóm hydroxyl tự do ở vị trí carbon $3'$ của đường được gọi là **đầu $3'$ (3'-end)**.
@@ -143,7 +147,9 @@ Trước khi cấu trúc xoắn kép được khám phá, nhà hóa sinh Erwin C
 
 Dựa trên dữ liệu nhiễu xạ tia X sắc nét của Rosalind Franklin và Maurice Wilkins cùng với quy luật Chargaff, James Watson và Francis Crick đã công bố mô hình cấu trúc không gian chuỗi xoắn kép của DNA vào năm 1953 (đoạt giải Nobel Y học năm 1962). Cấu trúc này đại diện cho dạng **B-DNA** (dạng sinh lý phổ biến nhất trong tế bào sống):
 
-![Cấu trúc chuỗi xoắn kép DNA theo Watson - Crick](hoasinh_media/HS-11_fig01_dna_double_helix.png)
+![Mô hình mô phỏng cấu trúc B-DNA](hoasinh_media/HS-11_fig11_4.png)
+*Hình 11.4. Mô hình mô phỏng cấu trúc B-DNA theo Watson và Crick.*
+
 
 #### Các Đặc điểm Cấu trúc Cốt lõi của B-DNA:
 1. **Hai chuỗi polynucleotid xoắn kép:** Gồm hai sợi đơn cuộn xoắn quanh một trục tưởng tượng chung theo chiều xoắn sang phải (right-handed helix).
@@ -166,6 +172,9 @@ Dựa trên dữ liệu nhiễu xạ tia X sắc nét của Rosalind Franklin v�
    - Do liên kết glycosidic của hai base không nằm thẳng hàng đối xứng mà tạo thành một góc khoảng $120^\circ$, bề mặt chuỗi xoắn kép hình thành hai rãnh xoắn không bằng nhau:
      - **Rãnh lớn (Major groove):** Rộng khoảng $22\,\text{Å}$, sâu, để lộ các nhóm chức năng cho - nhận liên kết hydro đặc thù của các base. Đây là vị trí nhận diện và gắn kết đặc hiệu của các protein điều hòa phiên mã (các yếu tố phiên mã, enzyme restriction, repressor).
      - **Rãnh nhỏ (Minor groove):** Hẹp hơn (khoảng $12\,\text{Å}$), nông hơn, là vị trí gắn của các thuốc kháng sinh hoặc chất nhuộm huỳnh quang bám DNA (DAPI, Hoechst).
+
+![Mô hình liên kết hydro giữa các cặp base bổ sung](hoasinh_media/HS-11_fig11_3.png)
+*Hình 11.3. Mô hình liên kết hydro giữa Adenin - Thymin và Guanin - Cytosin.*
 
 ---
 
@@ -217,7 +226,10 @@ Trái với quan niệm phổ biến cho rằng liên kết hydro là lực chí
 - Các base nitơ nhân thơm trong acid nucleic có khả năng hấp thụ ánh sáng tử ngoại (UV) rất mạnh với đỉnh hấp thụ cực đại ở bước sóng **$\lambda = 260\,\text{nm}$**.
 - Trong chuỗi xoắn kép tự nhiên, do các base bị giấu kín và xếp chồng chặt chẽ bên trong lõi kỵ nước, các đám mây điện tử $\pi$ bị giam hãm làm hạn chế khả năng tương tác với photon ánh sáng, khiến độ hấp thụ quang ($A_{260}$) ở mức thấp (**hiện tượng giảm sắc - hypochromicity**).
 - Khi DNA bị biến tính thành hai sợi đơn, các base nitơ tự do bung ra ngoài tiếp xúc trực tiếp với chùm tia tử ngoại, làm cho **độ hấp thụ quang $A_{260}$ tăng vọt lên khoảng $30 - 40\%$**. Hiện tượng này được gọi là **Hiện tượng tăng sắc (Hyperchromic effect)**.
-- Ứng dụng: Dựa vào sự gia tăng mật độ quang $A_{260}$ theo nhiệt độ, người ta thiết lập được **Đường cong nóng chảy của DNA (Melting curve)** để nghiên cứu cấu trúc hệ gen.
+
+![Sự biến tính của DNA là quá trình thuận nghịch](hoasinh_media/HS-11_fig11_5.png)
+*Hình 11.5. Sự biến tính của DNA là quá trình thuận nghịch (đường cong biến tính nhiệt và hồi tính).*
+
 
 #### 2.6.3. Nhiệt độ Nóng chảy $T_m$ (Melting Temperature)
 - **Nhiệt độ nóng chảy ($T_m$)** được định nghĩa là nhiệt độ mà tại đó **$50\%$ số phân tử DNA trong dung dịch đã bị biến tính** thành sợi đơn (tương ứng với điểm uốn của đường cong nóng chảy).
@@ -277,6 +289,7 @@ Chiếm khoảng $15\%$ tổng lượng RNA tế bào, có kích thước nhỏ 
   - Hai nhánh của chữ L dài khoảng $60\,\text{Å}$ và cách nhau một góc $90^\circ$: một đầu là nhánh gắn acid amin $-CCA-3'$, đầu kia là vòng đối mã anticodon. Khoảng cách không gian $70\,\text{Å}$ giữa hai đầu đảm bảo cho việc lắp ghép chính xác vào các vị trí A và P trên ribosome mà không gây va chạm lập thể.
 
 ![Cấu trúc không gian của tRNA](hoasinh_media/HS-11_fig02_trna_structure.png)
+*Hình 11.7. Mô hình cấu trúc không gian 3 chiều hình chữ L ngược của tRNA.*
 
 ---
 
@@ -291,6 +304,9 @@ Chiếm tỷ lệ áp đảo tới **$80\%$** tổng lượng RNA tế bào, li�
 - **Hoạt tính Ribozyme của rRNA:**
   - Trung tâm xúc tác **Peptidyl transferase** hình thành liên kết peptid nằm hoàn toàn trong lõi của rRNA $23S$ (ở vi khuẩn) hoặc rRNA $28S$ (ở nhân thực), không có bất kỳ chuỗi bên acid amin của protein nào nằm trong phạm vi $18\,\text{Å}$ của vị trí phản ứng.
   - Điều này chứng minh ribosome là một **Ribozyme khổng lồ**, ủng hộ giả thuyết nguồn gốc sự sống ban đầu xuất phát từ "Thế giới RNA" (RNA World Hypothesis).
+
+![Hoạt động xúc tác cắt mRNA của ribozym](hoasinh_media/HS-11_fig11_6.png)
+*Hình 11.6. Hoạt động xúc tác cắt mRNA của ribozym.*
 
 ---
 

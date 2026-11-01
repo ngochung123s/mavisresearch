@@ -63,8 +63,8 @@ Hem là nhóm ngoại (prosthetic group) chứa sắt gắn chặt với các pr
 
 ## 2. CON ĐƯỜNG SINH TỔNG HỢP HEM (HEME BIOSYNTHESIS)
 
-![Con đường sinh tổng hợp Hem](hoasinh_media/HS-09_fig02_heme_biosynthesis.png)
-*Hình 9.1. Tám phản ứng enzym của con đường sinh tổng hợp Hem diễn ra giữa ty thể và bào tương.*
+![Con đường tổng hợp hem và các bệnh lý liên quan](hoasinh_media/HS-09_fig9_8.png)
+*Hình 9.8. Con đường tổng hợp hem và các bệnh lý liên quan đến thiếu hụt enzym tổng hợp.*
 
 
 Trong cơ thể người trưởng thành, mỗi ngày có khoảng **$6 - 7\text{ g}$ ($300\text{ mg}$ hay $\sim 500\text{ }\mu\text{mol}$)** Hem được tổng hợp mới.
@@ -212,8 +212,20 @@ Porphyria là nhóm bệnh lý di truyền do đột biến làm suy giảm ho�
 
 ## 3. THOÁI HÓA HEMOGLOBIN VÀ SỰ TẠO THÀNH SẮC TỐ MẬT
 
-![Sơ đồ thoái hóa Hemoglobin và chu trình chuyển hóa Bilirubin](hoasinh_media/HS-09_fig01_bilirubin_metabolism.png)
-*Hình 9.2. Sơ đồ thoái hóa Hemoglobin, vận chuyển Bilirubin trong máu và chu trình ruột - gan của Urobilinogen.*
+![Quá trình thoái hóa Hemoglobin ngoại mạch](hoasinh_media/HS-09_fig9_1.png)
+*Hình 9.1. Quá trình thoái hóa Hemoglobin ngoại mạch.*
+
+![Cấu trúc của bilirubin IXa](hoasinh_media/HS-09_fig9_2.png)
+*Hình 9.2. Cấu trúc của bilirubin IXalpha: (A) Cấu trúc thẳng, không gập.*
+
+![Thoái hóa Hem thành bilirubin IXa](hoasinh_media/HS-09_fig9_3.png)
+*Hình 9.3. Thoái hóa Hem thành bilirubin IXalpha.*
+
+![Các bước chính của quá trình chuyển hóa bilirubin](hoasinh_media/HS-09_fig9_4.png)
+*Hình 9.4. Các bước chính của quá trình chuyển hóa bilirubin.*
+
+![Thoái hóa Hemoglobin nội mạch](hoasinh_media/HS-09_fig9_5.png)
+*Hình 9.5. Thoái hóa Hemoglobin nội mạch (< 10%).*
 
 
 Đời sống trung bình của một hồng cầu trưởng thành lưu hành trong hệ tuần hoàn là khoảng **$120\text{ ngày}$**. Khi già đi, màng hồng cầu mất dần tính đàn hồi, các enzym chống oxy hóa suy giảm hoạt tính và bề mặt tế bào bộc lộ các phân tử tín hiệu lão hóa (như phosphatidylserin). Các hồng cầu già này bị bắt giữ và tiêu hủy chủ yếu tại **hệ thống lưới nội mô (hệ liên võng nội mô - Reticuloendothelial System / Mononuclear Phagocyte System)**, đặc biệt là các đại thực bào tại **Lách** (màng lọc lách), **Tủy xương** và **Gan** (tế bào Kupffer).
@@ -412,6 +424,12 @@ Sau khi được bài tiết qua màng vi mật quản, Bilirubin diglucuronid t
 | **Ngứa ngoài da (Pruritus)** | Không có ngứa | Thường nhẹ hoặc thoáng qua | **NGỨA DỮ DỘI, DAI DẲNG** (do muối mật và acid mật ứ đọng ngấm vào da kích thích đầu tận thần kinh) |
 
 ---
+
+![Bilirubin và urobilinogen ở các loại vàng da khác nhau](hoasinh_media/HS-09_fig9_6.png)
+*Hình 9.6. Bilirubin và urobilinogen ở các loại vàng da khác nhau: Đường nét đứt màu đen chỉ bilirubin tự do; đường liên tục chỉ bilirubin liên hợp; đường màu đỏ chỉ urobilinogen.*
+
+![Nồng độ bilirubin máu và urobilinogen nước tiểu ở bệnh nhân viêm gan virus cấp](hoasinh_media/HS-09_fig9_7.png)
+*Hình 9.7. Nồng độ bilirubin máu và urobilinogen nước tiểu ở bệnh nhân viêm gan virus cấp tính.*
 
 ### 4.2. Các Hội chứng Rối loạn Chuyển hóa Bilirubin Di truyền
 

@@ -52,7 +52,9 @@ Bằng các thí nghiệm sử dụng chất đồng vị phóng xạ ($^{14}\te
 - **Nguyên tử $C_4, C_5$ và $N_7$:** Toàn bộ khung 3 nguyên tử này được đóng góp trọn vẹn từ một phân tử acid amin **Glycin**.
 - **Nguyên tử $C_6$:** Cung cấp bởi ion bicarbonate vô cơ ($\text{HCO}_3^-$ / $\text{CO}_2$).
 
-![Nguồn gốc các nguyên tử trong nhân Purin](hoasinh_media/fig_12_4.png)
+![Nguồn gốc các nguyên tử trong vòng purin](hoasinh_media/HS-12_fig12_3.png)
+*Hình 12.3. Nguồn gốc các nguyên tử trong vòng purin.*
+
 
 ---
 
@@ -102,13 +104,18 @@ Quá trình bao gồm chuỗi 11 phản ứng tuần tự:
     $$\text{FAICAR} \xrightarrow{\text{IMP Cyclohydrolase}} \text{Inosine Monophosphate (IMP)} + \text{H}_2\text{O}$$
     - Tạo thành phân tử Purin nucleotide hoàn chỉnh đầu tiên là **Inosine Monophosphate (IMP)** chứa base **Hypoxanthine**.
 
+![Con đường tổng hợp IMP gồm 11 phản ứng](hoasinh_media/HS-12_fig12_4.png)
+*Hình 12.4. Con đường tổng hợp IMP gồm 11 phản ứng với sự xúc tác của các enzym đặc hiệu.*
+
 ---
 
 ### 2.3. Chuyển hóa Phân nhánh từ IMP thành AMP và GMP (Tính Tương hỗ Điều hòa)
 
 Từ chất chuyển hóa ngã ba đường **IMP**, tế bào tổng hợp nên hai purin nucleotid thiết yếu là **AMP** và **GMP** qua hai nhánh độc lập nhưng phối hợp tương hỗ chặt chẽ:
 
-![Chuyển hóa từ IMP thành AMP và GMP](hoasinh_media/fig_12_5.png)
+![Quá trình tổng hợp AMP và GMP từ IMP](hoasinh_media/HS-12_fig12_5.png)
+*Hình 12.5. Quá trình tổng hợp AMP và GMP từ IMP.*
+
 
 #### Nhánh 1: Tổng hợp Adenosine Monophosphate (AMP)
 1. **IMP kết hợp với Aspartat:**
@@ -139,6 +146,8 @@ Con đường tân tạo Purin de novo đòi hỏi tiêu tốn một lượng n�
 $$\text{Base Purin tự do} + \text{PRPP} \xrightarrow{\text{Phosphoribosyltransferase}} \text{Purin Nucleotid} + \text{PP}_i$$
 
 ![Con đường trục vớt purin](hoasinh_media/HS-12_fig02_salvage_pathway.png)
+*Hình 12.5b. Sơ đồ con đường trục vớt tận dụng purin qua enzyme HGPRT và APRT.*
+
 
 ### 3.1. Hai Enzyme Cốt lõi của Con đường Trục vớt
 1. **APRT (Adenine phosphoribosyltransferase):**
@@ -177,7 +186,9 @@ Hội chứng Lesch-Nyhan (được mô tả lần đầu bởi Michael Lesch v�
 
 Quá trình thoái hóa các purin ribonucleotid diễn ra liên tục trong cơ thể, chủ yếu tại **gan và ruột non**, chuyển đổi AMP và GMP thành sản phẩm chuyển hóa cuối cùng là **Acid Uric**:
 
-![Con đường thoái hóa Purin tạo Acid Uric và cơ chế bệnh Gout](hoasinh_media/HS-12_fig01_purine_catabolism_gout.png)
+![Con đường thoái hóa của purin nucleotid](hoasinh_media/HS-12_fig12_1.png)
+*Hình 12.1. Con đường thoái hóa của purin nucleotid tạo thành acid uric.*
+
 
 #### Các Phản ứng Thoái hóa Tuần tự:
 1. **Thoái hóa Nhánh AMP:**
@@ -247,6 +258,7 @@ Tại các vị trí có nhiệt độ ngoại biên thấp hơn trung tâm cơ 
 Phác đồ điều trị Gout hiện đại phân tách rõ ràng giữa điều trị cắt cơn viêm cấp tính và điều trị hạ acid uric máu mạn tính (ULT - Urate-Lowering Therapy):
 
 ![Cấu trúc và cơ chế ức chế của Allopurinol](hoasinh_media/HS-01_fig19_allopurinol.png)
+*Hình 12.5c. Cấu trúc Allopurinol tương đồng Hypoxanthin trong ức chế Xanthine Oxidase.*
 
 1. **Nhóm Ức chế Enzyme Xanthine Oxidase (XOI):**
    - **Allopurinol:**
@@ -271,7 +283,9 @@ Phác đồ điều trị Gout hiện đại phân tách rõ ràng giữa điề
 
 Khác với con đường tân tạo Purin (xây dựng từng bước nhân purin trực tiếp trên bộ khung ribose-5-phosphate), **con đường tân tạo Pyrimidin được tiến hành bằng cách tổng hợp nên nhân Pyrimidin 6 cạnh tự do trước (dưới dạng Acid Orotic), sau đó mới gắn vào khung ribose-phosphate của PRPP**.
 
-![Con đường sinh tổng hợp UMP](hoasinh_media/fig_12_6.png)
+![Quá trình tổng hợp UMP gồm 6 phản ứng](hoasinh_media/HS-12_fig12_6.png)
+*Hình 12.6. Quá trình tổng hợp UMP gồm 6 phản ứng hóa học với sự xúc tác của enzym.*
+
 
 ### 5.1. Con đường Tân tạo Pyrimidin (De Novo Synthesis)
 
@@ -320,7 +334,9 @@ $$\text{OMP} \xrightarrow{\text{OMP Decarboxylase}} \text{Uridine Monophosphate 
 
 ### 5.3. Sinh tổng hợp CTP, dTMP và Đích tác động của Thuốc Chống Ung thư
 
-![Sơ đồ tổng hợp CTP từ UTP](hoasinh_media/fig_12_7.png)
+![Sơ đồ tổng hợp CTP từ UTP](hoasinh_media/HS-12_fig12_7.png)
+*Hình 12.7. Sơ đồ tổng hợp CTP từ UTP.*
+
 
 1. **Tổng hợp CTP từ UTP:**
    $$\text{UMP} \xrightarrow{\text{Kinase}} \text{UDP} \xrightarrow{\text{Kinase}} \text{UTP}$$
@@ -348,6 +364,12 @@ Trái ngược hoàn toàn với nhân Purin không thể bị mở vòng ở ng
    - **Thymin** thoái hóa tạo thành **$\beta$-Aminoisobutyrat**, sau đó chuyển hóa thành **Methylmalonyl-CoA** (biến đổi tiếp thành Succinyl-CoA đi vào chu trình Krebs).
 - *Ý nghĩa lâm sàng:* Cả $\beta$-alanin và $\beta$-aminoisobutyrat đều tan rất tốt trong nước và đào thải dễ dàng qua nước tiểu, do đó **rối loạn thoái hóa pyrimidin không bao giờ dẫn đến các bệnh lý kết tủa lắng đọng tinh thể như bệnh Gout**.
 
+![Con đường thoái hóa của pyrimidin nucleotid](hoasinh_media/HS-12_fig12_2.png)
+*Hình 12.2. Con đường thoái hóa của pyrimidin nucleotid.*
+
+![Các quá trình tái bản, sao chép và dịch mã](hoasinh_media/HS-12_fig12_8.png)
+*Hình 12.8. Các quá trình tái bản, sao chép, sao chép ngược và dịch mã.*
+
 ---
 
 ## 6. TÁI BẢN DNA, SỬA CHỮA DNA VÀ PHIÊN MÃ RNA
@@ -365,6 +387,15 @@ Quá trình tái bản DNA diễn ra ở pha S của chu kỳ tế bào theo cơ
 - **DNA Ligase:** Hàn kín liên kết phosphodiester giữa các đoạn Okazaki bằng năng lượng NAD⁺ hoặc ATP.
 - **Đầu mút Telomere và Enzyme Telomerase:** Ở tế bào nhân thực, đầu mút màng nhiễm sắc thể chứa các trình tự lặp lại $\text{5'-TTAGGG-3'}$ gọi là Telomere. Do không thể tổng hợp mồi RNA ở tận cùng đầu $5'$ của sợi muộn, nhiễm sắc thể bị ngắn lại sau mỗi lần phân bào (giới hạn Hayflick). Tế bào mầm, tế bào gốc và hơn $90\%$ tế bào ung thư biểu hiện enzyme **Telomerase** (mang khuôn RNA nội tại) để duy trì chiều dài telomere, tạo tính bất tử cho tế bào ung thư.
 
+![Quá trình tái bản của DNA](hoasinh_media/HS-12_fig12_9.png)
+*Hình 12.9. Quá trình tái bản của DNA.*
+
+![Cấu trúc và hoạt động của DNA polymerase I](hoasinh_media/HS-12_fig12_10.png)
+*Hình 12.10. Cấu trúc và hoạt động của DNA polymerase I.*
+
+![Quá trình tái bản của DNA và các đoạn Okazaki](hoasinh_media/HS-12_fig12_11.png)
+*Hình 12.11. Quá trình tái bản của DNA: Sợi dẫn đầu và sợi đi sau.*
+
 ---
 
 ### 6.2. Các Cơ chế Sửa chữa DNA (DNA Repair Mechanisms)
@@ -373,6 +404,9 @@ Quá trình tái bản DNA diễn ra ở pha S của chu kỳ tế bào theo cơ
 2. **Sửa chữa cắt bỏ Base (Base Excision Repair - BER):** Sửa chữa các base bị biến đổi hóa học đơn lẻ (ví dụ cytosine bị khử amin tự phát thành uracil). Enzyme *DNA Glycosylase* cắt liên kết N-glycosidic tạo vị trí AP (apurinic/apyrimidinic site), sau đó *AP Endonuclease* và DNA Pol $\beta$ lấp đầy.
 3. **Sửa chữa cắt bỏ Nucleotide (Nucleotide Excision Repair - NER):** Nhận diện và cắt bỏ các tổn thương cồng kềnh làm biến dạng chuỗi xoắn kép, đặc biệt là các **dimer pyrimidine (T-T dimer)** hình thành do bức xạ tia cực tím (UV). Đột biến các gen thuộc con đường NER (*XPA, XPC, ERCC*) gây **Bệnh Khô da sắc tố (Xeroderma Pigmentosum - XP)**: bệnh nhân cực kỳ nhạy cảm với ánh sáng mặt trời, tàn nhang sẫm màu và phát triển hàng loạt khối ung thư da ác tính (melanoma, ung thư biểu mô tế bào vảy) ngay từ khi còn nhỏ.
 4. **Sửa chữa đứt gãy sợi đôi DNA (Double-Strand Break Repair):** Con đường tái tổ hợp tương đồng (Homologous Recombination - HR) nhờ các protein **BRCA1, BRCA2, RAD51**. Đột biến gen *BRCA1/BRCA2* làm suy giảm sửa chữa HR, dẫn tới nguy cơ rất cao mắc ung thư vú và ung thư buồng trứng di truyền.
+
+![Phản ứng methyl hóa biến đổi cytosin](hoasinh_media/HS-12_fig12_12.png)
+*Hình 12.12. Phản ứng methyl hóa biến đổi cytosin thành 5-methylcytosin.*
 
 ---
 
@@ -386,6 +420,12 @@ Quá trình tái bản DNA diễn ra ở pha S của chu kỳ tế bào theo cơ
 - **Kháng sinh ức chế phiên mã:** **Rifampicin** gắn vào tiểu đơn vị $\beta$ của RNA polymerase vi khuẩn ức chế khởi đầu phiên mã, là thuốc chống lao thiết yếu; **Actinomycin D** chèn xen giữa các cặp base GC của DNA cản trở enzyme trượt kéo dài chuỗi.
 - **Hoàn thiện Tiền mRNA:** Gắn mũ $5'\text{-m}^7\text{Gppp}$, gắn đuôi poly(A) dài $150 - 250\text{ nt}$, và quá trình **cắt nối chọn lọc (Alternative Splicing)** qua phức hợp Spliceosome giúp một gen đơn lẻ có thể tạo ra nhiều dạng đồng phân protein khác nhau ở các mô chuyên biệt.
 - **Sao chép ngược (Reverse Transcription):** Virus Retrovirus (HIV, HTLV) sử dụng enzyme **Reverse Transcriptase (RT)** để phiên mã ngược hệ gen RNA sợi đơn thành thể lai RNA-DNA rồi thành DNA sợi đôi provirus tích hợp vào hệ gen người. Thuốc ức chế RT nucleoside (NRTIs: **AZT / Zidovudine, Tenofovir, Lamivudine**) và không nucleoside (NNRTIs: **Efavirenz, Nevirapine**) là các thuốc trụ cột trong phác đồ điều trị kháng HIV.
+
+![Quá trình mở đầu sự sao chép phiên mã](hoasinh_media/HS-12_fig12_13.png)
+*Hình 12.13. Quá trình mở đầu sự sao chép (phiên mã).*
+
+![Quá trình sao chép ngược](hoasinh_media/HS-12_fig12_14.png)
+*Hình 12.14. Quá trình sao chép ngược (Reverse Transcription) tạo cDNA.*
 
 ---
 

@@ -48,9 +48,6 @@ Trong cơ thể sinh vật, nước tồn tại ở hai dạng vật lý - sinh 
 
 ### 1.3. Hàm lượng và phân bố nước giữa các khu vực dịch cơ thể
 
-![Phân bố các khoang dịch trong cơ thể](hoasinh_media/HS-15_fig01_fluid_compartments.png)
-*Hình 15.1. Sơ đồ phân bố các khoang dịch: Dịch nội bào (ICF) và Dịch ngoại bào (ECF gồm huyết tương và dịch kẽ).*
-
 Tổng lượng nước cơ thể (**TBW - Total Body Water**) dao động từ **50% đến 70%** trọng lượng cơ thể (trung bình lấy mốc **60%** trọng lượng ở người trưởng thành khỏe mạnh bình thường, tương đương 42 lít ở người nặng 70 kg).
 
 #### 1.3.1. Các yếu tố sinh lý ảnh hưởng đến hàm lượng nước cơ thể
@@ -162,9 +159,10 @@ Mặc dù protein chỉ chiếm một phần rất nhỏ trong tổng nồng đ�
   - Trọng lượng phân tử của Albumin tương đối nhỏ ($66,5\text{ kDa}$) so với Globulin ($150 - 900\text{ kDa}$). Theo định luật Van't Hoff, ở cùng một khối lượng gam, chất có trọng lượng phân tử càng nhỏ thì số lượng phân tử càng nhiều, do đó tạo áp suất thẩm thấu càng lớn.
   - Hơn nữa, ở pH sinh lý $7,4$, phân tử Albumin tích điện âm ròng rất lớn (khoảng $-18$), hút và giữ lại một lượng lớn ion $Na^+$ xung quanh theo **hiệu ứng thăng bằng Donnan** (Donnan effect), làm tăng thêm khoảng 30% áp lực thẩm thấu hiệu dụng của chính nó.
   - Vì vậy, **Albumin đóng góp tới 75 - 80% tổng áp suất keo của huyết tương**. Giảm albumin máu (suy gan, hội chứng thận hư, suy dinh dưỡng Kwashiorkor) là nguyên nhân hàng đầu làm sụt giảm áp suất keo lòng mạch, dẫn đến phù toàn thân.
-
 ### 2.3. Cân bằng Starling mao mạch và Cơ chế bệnh sinh phân tử của Phù
 
+![Trao đổi nước và các chất giữa trong và ngoài thành mạch](hoasinh_media/HS-15_fig15_2.png)
+*Hình 15.2. Trao đổi nước và các chất giữa trong và ngoài thành mạch.*
 ```
        ĐẦU TIỂU ĐỘNG MẠCH                                                 ĐẦU TIỂU TĨNH MẠCH
        Áp lực lọc ròng: +10 mmHg                                          Áp lực tái hấp thu ròng: -8 mmHg
@@ -252,8 +250,10 @@ Thành phần ion trong các ngăn dịch cơ thể có sự khác biệt sâu s
      - **Insulin:** Kích thích bơm $Na^+-K^+-ATPase$, đưa $K^+$ từ ECF vào ICF. Do đó, insulin phối hợp glucose được dùng để điều trị cấp cứu tăng kali máu.
      - **Chất chủ vận $\beta_2$-adrenergic (Adrenalin, Salbutamol):** Kích hoạt thụ thể $\beta_2$ qua con đường $cAMP - PKA$, kích thích $Na^+-K^+-ATPase$, chuyển $K^+$ vào nội bào.
      - **Aldosteron:** Không chỉ làm tăng bài tiết $K^+$ tại thận mà còn kích thích đưa $K^+$ vào trong tế bào cơ.
-
 ### 3.3. Clorid ($Cl^-$) và Bicarbonat ($HCO_3^-$)
+
+![Sự đổi chỗ của clo giữa hồng cầu và huyết tương](hoasinh_media/HS-15_fig15_1.png)
+*Hình 15.1. Sự đổi chỗ của clo giữa hồng cầu và huyết tương (Hiện tượng Hamburger).*
 - **Clorid ($Cl^-$):** Là anion ngoại bào phong phú nhất ($98 - 106\text{ mmol/L}$). $Cl^-$ đi kèm với $Na^+$ để duy trì tính trung hòa điện tích của huyết tương. $Cl^-$ đóng vai trò then chốt trong:
   - Sự bài tiết acid dịch vị $HCl$ của tế bào viền dạ dày.
   - **Hiện tượng di chuyển Clorid (Hamburger shift / Chloride shift):** Tại các mô ngoại vi, hồng cầu hấp thu $CO_2$. Dưới tác dụng của carbonic anhydrase (CA), $CO_2 + H_2O \leftrightarrow H_2CO_3 \leftrightarrow H^+ + HCO_3^-$. $HCO_3^-$ được vận chuyển ra ngoài huyết tương để làm đệm qua protein trao đổi anion Band 3 (AE1), đổi lại một ion $Cl^-$ từ huyết tương đi vào hồng cầu. Tại phổi, quá trình này diễn ra theo chiều ngược lại.
@@ -276,6 +276,8 @@ Thành phần ion trong các ngăn dịch cơ thể có sự khác biệt sâu s
 
 ## 4. ĐIỀU HÒA THĂNG BẰNG MUỐI NƯỚC
 
+![Điều hòa trao đổi muối nước bởi hormon và một số cơ quan](hoasinh_media/HS-15_fig15_3.png)
+*Hình 15.3. Điều hòa trao đổi muối nước bởi hormon và một số cơ quan.*
 Hệ thống điều hòa muối nước của cơ thể là một mạng lưới tích hợp tinh vi giữa hệ thần kinh trung ương và các trục nội tiết, nhằm duy trì hằng định hai thông số sinh lý sống còn:
 1. **Áp suất thẩm thấu dịch ngoại bào ($P_{osm}$):** Được kiểm soát chặt chẽ thông qua cảm giác khát và hormon ADH (điều hòa nước).
 2. **Thể tích dịch ngoại bào hữu hiệu (Effective Circulating Volume - ECV):** Được kiểm soát thông qua hệ thống Renin - Angiotensin - Aldosteron (RAAS), hệ thần kinh giao cảm và các peptid lợi niệu tâm nhĩ/thất (ANP, BNP) (điều hòa Natri).

@@ -27,8 +27,8 @@ Trong các tế bào sống, protein là đại phân tử sinh học phong phú
 
 ### 1.1. Cấu trúc tổng quát và tính đồng phân lập thể
 
-![Cấu trúc và phân loại 20 acid amin tiêu chuẩn](hoasinh_media/HS-07_fig01_amino_acids_structure.png)
-*Hình 7.1. Cấu trúc hóa học và phân loại 20 acid amin tiêu chuẩn cấu thành protein.*
+![Cấu trúc chung của các acid amin](hoasinh_media/HS-07_fig7_1.png)
+*Hình 7.1. Cấu trúc chung của các acid amin.*
 
 
 Một $\alpha$-acid amin tiêu chuẩn gồm một nguyên tử carbon trung tâm mang tên **carbon $\alpha$** ($C_\alpha$), liên kết cộng hóa trị với 4 nhóm chức hóa học khác nhau:
@@ -45,10 +45,16 @@ $$\begin{matrix}
 & \text{R} &
 \end{matrix}$$
 
+![Sự phân ly của nhóm alpha-carboxyl và alpha-amin](hoasinh_media/HS-07_fig7_2.png)
+*Hình 7.2. Sự phân ly của nhóm alpha-carboxyl và alpha-amin của acid amin.*
+
 * **Đồng phân quang học (Chirality):**
   * Ngoại trừ **Glycin** (có chuỗi bên $R = -\text{H}$, do đó carbon $\alpha$ liên kết với hai nguyên tử hydro, không phải là carbon bất đối xứng), tất cả $19$ acid amin tiêu chuẩn còn lại đều sở hữu ít nhất một carbon bất đối xứng ($C^*$) và có tính hoạt quang. Riêng **Isoleucin** và **Threonin** sở hữu hai trung tâm bất đối xứng ($C_\alpha$ và carbon trên chuỗi bên).
   * Theo danh pháp quy ước Fischer (đối chiếu với L-glyceraldehyd), nhóm $-\text{NH}_3^+$ nằm bên trái carbon $\alpha$ khi mạch chính định hướng thẳng đứng với $-\text{COO}^-$ ở trên cùng được định danh là **dạng đồng phân L (L-enantiomer)**.
   * **Quy luật tiến hóa sinh học:** Toàn bộ protein trong tế bào người và sinh vật bậc cao đều được dịch mã cấu tạo **độc quyền từ L-$\alpha$-acid amin**. D-acid amin chỉ xuất hiện rất hạn chế ở vách peptidoglycan vi khuẩn (D-Ala, D-Glu) hoặc trong một số kháng sinh peptid chu kỳ ngắn do vi nấm tổng hợp phi ribosome (*non-ribosomal peptide synthesis*).
+
+![L và D-acid amin](hoasinh_media/HS-07_fig7_3.png)
+*Hình 7.3. Đồng phân L và D-acid amin.*
 * **Trường hợp ngoại lệ của Prolin:** Prolin không phải là một amin bậc một thông thường mà là một **$\alpha$-imino acid**. Chuỗi bên aliphatic gồm 3 carbon uốn cong và gắn ngược trở lại nguyên tử nitơ của nhóm amin chính, tạo nên vòng dị vòng pyrrolidin 5 cạnh. Vòng dị vòng cố định này hạn chế nghiêm trọng khả năng quay tự do của liên kết $N-C_\alpha$, tạo nên "nếp gấp" cứng nhắc (*conformational kink/bend*) phá vỡ các cấu trúc xoắn $\alpha$ chuẩn trong chuỗi polypeptid.
 
 ### 1.2. Phân loại 20 acid amin theo tính phân cực và điện tích của chuỗi bên ($R$)
@@ -60,7 +66,13 @@ Nhóm này gồm: **Glycin (Gly, G), Alanin (Ala, A), Valin (Val, V), Leucin (Le
 * **Đặc tính:** Chuỗi hydrocacbon no hoặc dị vòng pyrrolidin (Pro), liên kết thioether (Met). Chuỗi bên không tạo liên kết hydro với nước, có xu hướng vùi sâu vào lõi kỵ nước của phân tử protein trong môi trường nước (hiệu ứng kỵ nước — *hydrophobic effect*), đóng vai trò động lực nhiệt động học cốt lõi làm bền cấu trúc cuộn gập 3 chiều.
 * **Methionin (Met):** Chứa nguyên tử lưu huỳnh dạng liên kết không phân cực $-\text{CH}_2-\text{CH}_2-\text{S}-\text{CH}_3$ (thioether), là acid amin mở đầu quá trình dịch mã sinh tổng hợp protein ở sinh vật nhân thực và vi khuẩn (dạng $N$-formylmethionin).
 * **Valin, Leucin, Isoleucin (BCAA — Branched-Chain Amino Acids):** Các acid amin mạch nhánh, chiếm tỷ lệ lớn trong cơ xương, chuyển hóa chủ yếu tại cơ thay vì tại gan. Khi thiếu hụt phức hợp enzym dehydrogenase khử carboxyl của acid $\alpha$-keto chuỗi nhánh sẽ dẫn đến bệnh chuyển hóa nước tiểu siro phong (*Maple Syrup Urine Disease — MSUD*).
+* **Valin, Leucin, Isoleucin (BCAA — Branched-Chain Amino Acids):** Các acid amin mạch nhánh, chiếm tỷ lệ lớn trong cơ xương, chuyển hóa chủ yếu tại cơ thay vì tại gan. Khi thiếu hụt phức hợp enzym dehydrogenase khử carboxyl của acid $\alpha$-keto chuỗi nhánh sẽ dẫn đến bệnh chuyển hóa nước tiểu siro phong (*Maple Syrup Urine Disease — MSUD*).
 
+![Phân loại acid amin](hoasinh_media/HS-07_fig7_5.png)
+*Hình 7.5. Phân loại acid amin: Acid amin có chuỗi bên không phân cực và acid amin có nhân thơm.*
+
+![Liên kết hydro và liên kết kỵ nước](hoasinh_media/HS-07_fig7_6.png)
+*Hình 7.6. Liên kết hydro và liên kết kỵ nước giữa các acid amin.*
 #### Nhóm 2: Acid amin có chuỗi bên nhân thơm (Aromatic R Groups) — 3 acid amin
 Nhóm này gồm: **Phenylalanin (Phe, F), Tyrosin (Tyr, Y), và Tryptophan (Trp, W)**.
 * **Đặc tính:** Chứa vòng thơm liên hợp. Phenylalanin kỵ nước mạnh nhất. Tyrosin có thêm nhóm hydroxyl phenolic ($-\text{OH}$) với $pK_R = 10{,}07$, có tính phân cực nhẹ và có thể tạo liên kết hydro hoặc trải qua phản ứng phosphoryl hóa điều hòa tín hiệu (bởi các receptor gắn enzym Tyrosine Kinase). Tryptophan chứa vòng indol lưỡng vòng.
@@ -75,6 +87,12 @@ $$2\text{ Cys-SH} \xrightarrow{\text{[O]}} \text{Cys-S-S-Cys} + 2\text{H}^+ + 2e
 Cầu disulfur là liên kết cộng hóa trị cực kỳ vững chắc, giúp khóa chặt cấu trúc bậc III và bậc IV của các protein tiết ngoại bào (như Insulin, Kháng thể Immunoglobulin, Albumin), chống lại sự biến tính nhiệt và phân hủy protease.
 * **Vị trí biến đổi sau dịch mã (Post-translational Modification):** Nhóm $-\text{OH}$ của Ser/Thr là vị trí gắn gốc phosphat (O-phosphorylation) bởi các Ser/Thr protein kinase; nhóm amid của Asn là vị trí gắn chuỗi oligosaccharid (N-glycosylation) tại mạng lưới nội sinh chất.
 
+![Phân loại acid amin phần tiếp](hoasinh_media/HS-07_fig7_7.png)
+*Hình 7.7. Phân loại acid amin (tiếp): Acid amin phân cực không tích điện và acid amin chứa lưu huỳnh.*
+
+![Liên kết disulfid](hoasinh_media/HS-07_fig7_8.png)
+*Hình 7.8. Liên kết disulfid hình thành giữa 2 phân tử cystein.*
+
 #### Nhóm 4: Acid amin tích điện dương ở pH 7.4 (Positively Charged, Basic R Groups) — 3 acid amin
 Nhóm này gồm: **Lysin (Lys, K), Arginin (Arg, R), và Histidin (His, H)**.
 * **Lysin:** Mang nhóm amin thứ hai ở vị trí $\epsilon$ ($-\text{CH}_2-\text{CH}_2-\text{CH}_2-\text{CH}_2-\text{NH}_3^+$, $pK_R = 10{,}53$). Ở $pH = 7{,}4$, nhóm này bị proton hóa hoàn toàn, tích điện dương ($+1$).
@@ -85,6 +103,9 @@ Nhóm này gồm: **Lysin (Lys, K), Arginin (Arg, R), và Histidin (His, H)**.
 Nhóm này gồm: **Aspartat (Asp, D) và Glutamat (Glu, E)**.
 * **Đặc tính:** Chuỗi bên mang nhóm carboxyl thứ hai ($-\text{CH}_2-\text{COO}^-$ ở Asp, $pK_R = 3{,}65$; $-\text{CH}_2-\text{CH}_2-\text{COO}^-$ ở Glu, $pK_R = 4{,}25$). Ở $pH$ sinh lý, cả hai nhóm carboxyl chuỗi bên đều phân ly hoàn toàn thành carboxylat, tích điện âm ($-1$).
 * Các gốc Asp và Glu thường nằm trên bề mặt ngoài của protein tan, tham gia tạo các cầu muối ion (liên kết ion tĩnh điện) với các gốc tích điện dương (Lys, Arg, His) hoặc phối trí với các ion kim loại hóa trị hai như $Mg^{2+}, Ca^{2+}$.
+
+![Tương tác tĩnh điện giữa các nhóm bên](hoasinh_media/HS-07_fig7_9.png)
+*Hình 7.9. Tương tác tĩnh điện giữa nhóm bên tích điện dương của lysin và nhóm bên tích điện âm.*
 
 ### 1.3. Bảng tổng hợp 20 acid amin tiêu chuẩn và các chỉ số hóa lý
 
@@ -169,7 +190,13 @@ $$pI = \frac{6{,}00 + 9{,}17}{2} = 7{,}59$$
 * **Vùng đệm (Buffering region):** Xung quanh mỗi giá trị $pK_a \pm 1$ đơn vị $pH$, dung dịch có khả năng đệm acid-base tối ưu (chống lại sự thay đổi $pH$ khi thêm acid hoặc base).
 * **Glycin (2 nấc):** Bắt đầu ở $pH < 1$ (dạng cation +1: $\text{H}_3\text{N}^+-\text{CH}_2-\text{COOH}$). Thêm $0{,}5$ đương lượng $OH^-$ đạt $pH = pK_1 = 2{,}34$ ($[\text{Cation}] = [\text{Zwitterion}]$). Thêm $1{,}0$ đương lượng $OH^-$ đạt điểm uốn $pI = 5{,}97$ (100% Zwitterion). Thêm $1{,}5$ đương lượng $OH^-$ đạt $pH = pK_2 = 9{,}60$ ($[\text{Zwitterion}] = [\text{Anion}]$). Thêm $2{,}0$ đương lượng $OH^-$ đạt dạng Anion hoàn toàn ($\text{H}_2\text{N}-\text{CH}_2-\text{COO}^-$).
 * **Histidin (3 nấc chuẩn độ):** Bắt đầu từ dạng tích điện +2 (+H3N-CH(CH2-Im+)-COOH). Chuẩn độ nhóm $\alpha$-carboxyl ở $pK_1 = 1{,}82$ (thành dạng +1). Chuẩn độ vòng imidazol ở $pK_R = 6{,}00$ (thành dạng trung hòa Zwitterion 0). Điểm đẳng điện $pI = 7{,}59$. Cuối cùng chuẩn độ nhóm $\alpha$-amin ở $pK_2 = 9{,}17$ (thành anion -1).
+* **Histidin (3 nấc chuẩn độ):** Bắt đầu từ dạng tích điện +2 (+H3N-CH(CH2-Im+)-COOH). Chuẩn độ nhóm $\alpha$-carboxyl ở $pK_1 = 1{,}82$ (thành dạng +1). Chuẩn độ vòng imidazol ở $pK_R = 6{,}00$ (thành dạng trung hòa Zwitterion 0). Điểm đẳng điện $pI = 7{,}59$. Cuối cùng chuẩn độ nhóm $\alpha$-amin ở $pK_2 = 9{,}17$ (thành anion -1).
 
+![Đường cong chuẩn độ của histidin](hoasinh_media/HS-07_fig7_10.png)
+*Hình 7.10. Đường cong chuẩn độ của histidin.*
+
+![Sự phân ly của các gốc R của acid amin](hoasinh_media/HS-07_fig7_11a.png)
+*Hình 7.11. Sự phân ly của các gốc R của acid amin.*
 ### 2.4. Ứng dụng điểm đẳng điện trong Điện di Protein huyết thanh (Serum Protein Electrophoresis — SPEP)
 
 * **Nguyên lý điện di:** Đặt các phân tử protein vào một điện trường một chiều trên giá thể (gel agarose hoặc màng cellulose acetat).
@@ -197,7 +224,13 @@ $$pI = \frac{6{,}00 + 9{,}17}{2} = 7{,}59$$
 Liên kết peptid là liên kết cộng hóa trị hình thành giữa nhóm $\alpha$-carboxyl của một acid amin với nhóm $\alpha$-amin của một acid amin kế tiếp thông qua phản ứng ngưng tụ tách loại một phân tử nước:
 
 $$\text{R}_1-\text{CH}(\text{NH}_3^+)-\text{COO}^- + \text{R}_2-\text{CH}(\text{NH}_3^+)-\text{COO}^- \longrightarrow \text{R}_1-\text{CH}(\text{NH}_3^+)-\text{CO}-\text{NH}-\text{CH}(\text{R}_2)-\text{COO}^- + \text{H}_2\text{O}$$
+$$\text{R}_1-\text{CH}(\text{NH}_3^+)-\text{COO}^- + \text{R}_2-\text{CH}(\text{NH}_3^+)-\text{COO}^- \longrightarrow \text{R}_1-\text{CH}(\text{NH}_3^+)-\text{CO}-\text{NH}-\text{CH}(\text{R}_2)-\text{COO}^- + \text{H}_2\text{O}$$
 
+![Liên kết peptid](hoasinh_media/HS-07_fig7_4.png)
+*Hình 7.4. Cấu tạo liên kết peptid.*
+
+![Hình thành liên kết peptid](hoasinh_media/HS-07_fig7_12.png)
+*Hình 7.12. Sự hình thành liên kết peptid.*
 Các nghiên cứu tinh thể học tia X tiên phong của Linus Pauling và Robert Corey đã làm sáng tỏ các đặc tính vật lý lượng tử nền tảng của liên kết peptid:
 1. **Tính chất liên kết đôi một phần (Partial Double-Bond Character):** Cặp electron tự do không liên kết trên nguyên tử Nitơ của nhóm $-NH-$ có sự cộng hưởng mạnh với liên kết đôi của nhóm carbonyl $-C=O$. Cấu trúc cộng hưởng làm cho liên kết $C-N$ của peptid ngắn hơn liên kết đơn $C-N$ thông thường ($1{,}32\text{ \AA}$ so với $1{,}47\text{ \AA}$) và mang khoảng $40\%$ đặc tính của liên kết đôi $C=N$ ($1{,}28\text{ \AA}$).
 2. **Tính chất phẳng và cứng nhắc (Planarity and Rigidity):** Do đặc tính liên kết đôi một phần, **không có sự quay tự do quanh trục liên kết $C-N$**. Sáu nguyên tử nằm trong cùng một mặt phẳng cứng nhắc (gọi là mặt phẳng peptid): nguyên tử carbon $\alpha_1$, nguyên tử carbon carbonyl, nguyên tử oxy carbonyl, nguyên tử nitơ amid, nguyên tử hydro amid, và nguyên tử carbon $\alpha_2$.
@@ -214,7 +247,13 @@ Các nghiên cứu tinh thể học tia X tiên phong của Linus Pauling và Ro
   * **Đầu N-tận (Amino-terminal hay N-terminus):** Tận cùng mang nhóm $\alpha$-amin tự do (hoặc bị acetyl hóa), luôn được quy ước đánh số là acid amin số 1 và viết ở phía bên trái.
   * **Đầu C-tận (Carboxyl-terminal hay C-terminus):** Tận cùng mang nhóm $\alpha$-carboxyl tự do, mang số thứ tự cuối cùng ($n$) và viết ở phía bên phải.
 * **Cách gọi tên:** Thay đổi đuôi *-in* hoặc *-at* của các acid amin thành *-yl*, giữ nguyên tên acid amin C-tận. Ví dụ: tripeptid tạo bởi Glycin, Alanin và Serin được gọi tên là: *Glycyl-alanyl-serin* (viết tắt: Gly-Ala-Ser hoặc GAS).
+* **Cách gọi tên:** Thay đổi đuôi *-in* hoặc *-at* của các acid amin thành *-yl*, giữ nguyên tên acid amin C-tận. Ví dụ: tripeptid tạo bởi Glycin, Alanin và Serin được gọi tên là: *Glycyl-alanyl-serin* (viết tắt: Gly-Ala-Ser hoặc GAS).
 
+![Cấu tạo của pentapeptid](hoasinh_media/HS-07_fig7_13.png)
+*Hình 7.13. Cấu tạo của pentapeptid Serylglycyltyrosylalanylleucin (Ser-Gly-Tyr-Ala-Leu).*
+
+![Cấu tạo của tetrapeptid](hoasinh_media/HS-07_fig7_14.png)
+*Hình 7.14. Tetrapeptid Alanylglutamylglycyllysin.*
 ### 3.3. Một số peptid có hoạt tính sinh học trọng yếu trong lâm sàng
 
 Trong cơ thể người, nhiều chuỗi peptid ngắn (oligopeptid) đóng vai trò chất truyền tin hóa học, hormon hoặc chất chống oxy hóa cực kỳ mạnh mẽ:
@@ -247,10 +286,16 @@ $$2\text{ GSH} + \text{H}_2\text{O}_2 \xrightarrow{\text{Glutathione Peroxidase}
    * **Phản ứng chì sulfua (Tạo PbS):** Đun nóng protein chứa **Cystein** với dung dịch kiềm mạnh ($NaOH$) để cắt đứt liên kết lưu huỳnh tạo $Na_2S$, sau đó cho phản ứng với chì acetat $(CH_3COO)_2Pb$ tạo kết tủa màu đen chì sulfua ($PbS \downarrow$).
    * **Phản ứng Pauly:** Phản ứng diazo hóa giữa acid sulfanilic với vòng imidazol của **Histidin** hoặc phenol của Tyrosin trong môi trường kiềm tạo sản phẩm có màu đỏ anh đào.
 
+![Phổ hấp thụ của protein và acid nucleic](hoasinh_media/HS-07_fig7_21.png)
+*Hình 7.21. Phổ hấp thụ tử ngoại của protein và acid nucleic.*
+
 ## 4. BỐN BẬC CẤU TRÚC PROTEIN VÀ ĐỘNG HỌC CUỘN GẬP
 
-![Bốn bậc cấu trúc không gian của phân tử protein](hoasinh_media/HS-07_fig02_protein_structures.png)
-*Hình 7.2. Bốn bậc cấu trúc không gian của protein: từ chuỗi polypeptid bậc I đến cấu trúc bậc IV.*
+![Các bậc cấu trúc của protein](hoasinh_media/HS-07_fig7_15.png)
+*Hình 7.15. Các bậc cấu trúc của protein: Bậc 1, bậc 2, bậc 3 và bậc 4.*
+
+![Hình dạng chung của protein](hoasinh_media/HS-07_fig7_16.png)
+*Hình 7.16. Hình dạng chung của protein.*
 
 
 Phân tử protein là một chuỗi polymer sinh học phức tạp gồm hàng trăm đến hàng ngàn gốc acid amin. Hoạt tính sinh học của protein không chỉ phụ thuộc vào thành phần hóa học mà được quyết định tuyệt đối bởi cấu trúc không gian 3 chiều chính xác của nó. Theo truyền thống cấu trúc sinh học, protein được phân tích qua 4 bậc cấu trúc từ thấp đến cao:
@@ -266,7 +311,10 @@ Phân tử protein là một chuỗi polymer sinh học phức tạp gồm hàng
   * Phương pháp thoái biến Edman (Edman degradation): Sử dụng thuốc thử Phenylisothiocyanat (PITC) phản ứng đặc hiệu với nhóm $\alpha$-amin ở đầu $N$-tận, cắt rời từng acid amin một cách tuần tự từ đầu $N$ mà không phá vỡ phần còn lại của chuỗi polypeptid.
   * Phương pháp giải trình tự gen (suy diễn từ cARN/genoma): Giải trình tự ADN/ARN mã hóa protein nhờ kỹ thuật PCR và Next-Generation Sequencing (NGS).
   * Phương pháp khối phổ song song (Tandem Mass Spectrometry — MS/MS): Bắn phá chuỗi peptid ion hóa và đo chính xác tỷ lệ khối lượng/điện tích ($m/z$) của các mảnh vỡ.
+  * Phương pháp khối phổ song song (Tandem Mass Spectrometry — MS/MS): Bắn phá chuỗi peptid ion hóa và đo chính xác tỷ lệ khối lượng/điện tích ($m/z$) của các mảnh vỡ.
 
+![Hình dạng của liên kết peptid](hoasinh_media/HS-07_fig7_17.png)
+*Hình 7.17. Hình dạng của liên kết peptid và các góc quay phi, psi.*
 ### 4.2. Cấu trúc bậc II (Secondary Structure)
 
 * **Định nghĩa:** Cấu trúc bậc II là sự cuộn xoắn hoặc gấp nếp tuần hoàn đều đặn cục bộ của khung xương polypeptid chính ($N-C_\alpha-C$), được làm bền chủ yếu bởi các **liên kết hydro hình thành giữa nhóm carbonyl ($C=O$) và nhóm imin ($N-H$) của chính khung xương polypeptid**, hoàn toàn không liên quan đến chuỗi bên $R$.
@@ -286,7 +334,10 @@ $$\text{C}=\text{O}_n \cdots \text{H}-\text{N}_{n+4}$$
   * **Glycin:** Chuỗi bên quá nhỏ ($R = H$) làm cho chuỗi quá mềm dẻo và linh động, không ổn định được cấu trúc xoắn chặt.
   * Sự tập trung liên tiếp các acid amin mang điện tích cùng dấu ở $pH$ sinh lý (như cụm Lys, Arg mang điện dương hoặc Glu, Asp mang điện âm) sẽ đẩy nhau tĩnh điện và làm bung xoắn.
   * Sự tích tụ các acid amin có chuỗi bên phân nhánh cồng kềnh gần trục xoắn (như Val, Ile, Thr) gây cản trở không gian lập thể.
+  * Sự tích tụ các acid amin có chuỗi bên phân nhánh cồng kềnh gần trục xoắn (như Val, Ile, Thr) gây cản trở không gian lập thể.
 
+![Bốn mô hình của cấu trúc xoắn alpha](hoasinh_media/HS-07_fig7_18.png)
+*Hình 7.18. Bốn mô hình của cấu trúc xoắn alpha.*
 #### B. Cấu trúc phiến gấp $\beta$ ($\beta$-Pleated Sheet):
 * Khung xương polypeptid duỗi dài theo hình dích dắc ziczac (gọi là chuỗi $\beta$ hay $\beta$-strand), khoảng cách tịnh tiến giữa 2 acid amin lên tới $3{,}5\text{ \AA}$. Các chuỗi $\beta$ đặt cạnh nhau tạo nên một bề mặt gấp nếp giống hình nan quạt.
 * Các liên kết hydro hình thành **giữa các chuỗi $\beta$ khác nhau** (liên chuỗi hoặc giữa các đoạn uốn ngược của cùng một chuỗi).
@@ -294,6 +345,12 @@ $$\text{C}=\text{O}_n \cdots \text{H}-\text{N}_{n+4}$$
   1. **Phiến $\beta$ song song (Parallel $\beta$-sheet):** Các chuỗi $\beta$ chạy cùng chiều (từ đầu $N \to C$). Các liên kết hydro nằm chéo góc nghiêng so với trục chuỗi, độ bền kém hơn.
   2. **Phiến $\beta$ đối song (Antiparallel $\beta$-sheet):** Các chuỗi $\beta$ chạy ngược chiều nhau ($N \to C$ xen kẽ $C \to N$). Các liên kết hydro nằm thẳng hàng trực diện vuông góc với trục chuỗi, tạo cấu trúc bền vững và ổn định hơn rất nhiều.
 * Chuỗi bên $R$ của các acid amin kế tiếp nhau nhô luân phiên lên mặt trên và mặt dưới của phiến gấp $\beta$.
+
+![Cấu trúc gấp nếp beta đối song và song song](hoasinh_media/HS-07_fig7_19.png)
+*Hình 7.19. Cấu trúc gấp nếp beta đối song và song song.*
+
+![Cấu trúc của một số protein hình cầu](hoasinh_media/HS-07_fig7_20.png)
+*Hình 7.20. Cấu trúc của một số protein hình cầu chứa xoắn alpha và nếp gấp beta.*
 
 #### C. Cấu trúc khúc cuộn $\beta$ ($\beta$-Turn hay $\beta$-Bend) và Vòng lặp (Loops):
 * Cấu trúc $\beta$-turn gồm $4$ gốc acid amin, thực hiện bước ngoặt đảo chiều $180^\circ$ của khung xương polypeptid để nối liền hai chuỗi $\beta$ đối song hoặc đổi hướng chuỗi trong protein cầu.
@@ -342,8 +399,11 @@ $$\text{C}=\text{O}_n \cdots \text{H}-\text{N}_{n+4}$$
 
 ## 5. HÓA SINH CHUYÊN BIỆT CỦA HEMOGLOBIN VÀ MYOGLOBIN
 
-![Cấu trúc phân tử Hemoglobin và Myoglobin](hoasinh_media/HS-07_fig03_hemoglobin_structure.png)
-*Hình 7.3. Cấu trúc tetramer của Hemoglobin gắn kết 4 phân tử oxy đối chiếu với monomer Myoglobin.*
+![Cấu trúc nhân Hem trong Hb và Mb](hoasinh_media/HS-07_fig7_22.png)
+*Hình 7.22. Cấu trúc của nhân Hem trong Hemoglobin và Myoglobin.*
+
+![Cấu trúc bậc 3 của Mb và chuỗi beta của Hb](hoasinh_media/HS-07_fig7_23.png)
+*Hình 7.23. Cấu trúc bậc 3 của Myoglobin và chuỗi beta của Hemoglobin.*
 
 
 Hemoglobin ($Hb$) và Myoglobin ($Mb$) là hai protein vận chuyển và dự trữ oxy kiểu mẫu trong sinh học phân tử và y học. Chúng minh họa sâu sắc mối tương quan giữa cấu trúc 3 chiều bậc III và bậc IV với chức năng điều hòa dị lập thể tinh vi.
@@ -431,9 +491,15 @@ Theo lý thuyết dị lập thể Monod-Wyman-Changeux (MWC) và các nghiên c
    * Chuyển động kéo của $Fe^{2+}$ kéo theo gốc **Histidin F8 dịch chuyển khoảng $0{,}6\text{ \AA}$**. Chuyển động này làm dịch chuyển cả đoạn xoắn $F$ của chuỗi globin.
    * Sự xô lệch này truyền tới mặt tiếp xúc $\alpha_1\beta_2$, làm đứt gãy hoàn toàn mạng lưới cầu muối ion của trạng thái $T$. Hai cặp bán phần $(\alpha_1\beta_1)$ và $(\alpha_2\beta_2)$ xoay một góc $15^\circ$ trượt lên nhau, làm hốc trung tâm giữa 4 chuỗi co hẹp lại.
    * Sự chuyển dạng sang trạng thái $R$ làm phơi bày các vị trí Hem còn lại, **làm tăng ái lực gắn $O_2$ của các tiểu đơn vị còn lại lên hàng trăm lần**.
+   * Sự chuyển dạng sang trạng thái $R$ làm phơi bày các vị trí Hem còn lại, **làm tăng ái lực gắn $O_2$ của các tiểu đơn vị còn lại lên hàng trăm lần**.
 
+![Mô hình chuyển đổi từ dạng T sang dạng R](hoasinh_media/HS-07_fig7_24.png)
+*Hình 7.24. Mô hình đơn giản hóa sự chuyển đổi từ dạng T sang dạng R của Hemoglobin.*
+* **Hệ số Hill ($n_H$):** Đo lường mức độ hợp tác liên chuỗi. Đối với Myoglobin (không hợp tác), $n_H = 1{,}0$. Đối với Hemoglobin người, hệ số Hill thực nghiệm đạt $n_H \approx 2{,}8 - 3{,}0$, phản ánh tính hợp tác dị lập thể dương tính rất mạnh.
 * **Hệ số Hill ($n_H$):** Đo lường mức độ hợp tác liên chuỗi. Đối với Myoglobin (không hợp tác), $n_H = 1{,}0$. Đối với Hemoglobin người, hệ số Hill thực nghiệm đạt $n_H \approx 2{,}8 - 3{,}0$, phản ánh tính hợp tác dị lập thể dương tính rất mạnh.
 
+![Đường cong gắn oxy của Hb và Mb](hoasinh_media/HS-07_fig7_25.png)
+*Hình 7.25. Đường cong gắn oxy của Hemoglobin và Myoglobin.*
 ### 6.3. Hiệu ứng Bohr (Bohr Effect — Điều hòa bởi $H^+$ và $CO_2$)
 
 Được nhà sinh lý học Đan Mạch Christian Bohr (thân phụ của nhà vật lý Niels Bohr) phát hiện năm 1904: **Sự gắn oxy vào Hemoglobin bị nghịch đảo bởi nồng độ ion $H^+$ (giảm $pH$) và nồng độ $CO_2$**.
@@ -456,7 +522,10 @@ $$\text{H}^+ + \text{HCO}_3^- \xrightarrow{\text{Carbonic Anhydrase}} \text{H}_2
   * Khoảng $15\%$ lượng $CO_2$ sinh ra từ chuyển hóa mô được vận chuyển trong máu dưới dạng hợp chất carbamin gắn trực tiếp vào các nhóm $\alpha$-amin không ion hóa ở đầu $N$-tận của các chuỗi globin:
 $$\text{Hb}-\text{NH}_2 + \text{CO}_2 \rightleftharpoons \text{Hb}-\text{NH}-\text{COO}^- + \text{H}^+$$
   * Phản ứng gắn carbamin giải phóng thêm proton $H^+$, góp phần khuếch đại hiệu ứng Bohr. Hơn nữa, nhóm carbamat mang điện tích âm ở đầu $N$-tận tiếp tục tham gia hình thành thêm các cầu muối ion giúp khóa chặt trạng thái $T$, thúc đẩy nhả oxy.
+  * Phản ứng gắn carbamin giải phóng thêm proton $H^+$, góp phần khuếch đại hiệu ứng Bohr. Hơn nữa, nhóm carbamat mang điện tích âm ở đầu $N$-tận tiếp tục tham gia hình thành thêm các cầu muối ion giúp khóa chặt trạng thái $T$, thúc đẩy nhả oxy.
 
+![Cơ chế chính vận chuyển CO2](hoasinh_media/HS-07_fig7_28.png)
+*Hình 7.28. Cơ chế chính vận chuyển CO2 của hồng cầu.*
 ### 6.4. Vai trò điều hòa dị lập thể của 2,3-Bisphosphoglycerat (2,3-BPG)
 
 * **Nguồn gốc sinh hóa:** Phân tử $2,3$-BPG (trước đây gọi là $2,3$-DPG) được tổng hợp trong tế bào hồng cầu thông qua nhánh phụ **Rapoport-Luebering Shunt** từ chất trung gian $1,3$-bisphosphoglycerat của con đường thoái hóa đường phân (glycolysis), nhờ enzym lưỡng chức năng BPG mutase/phosphatase. Nồng độ $2,3$-BPG trong hồng cầu rất cao, tương đương với nồng độ phân tử của chính Hemoglobin (khoảng $5\text{ mmol/L}$).
@@ -466,6 +535,12 @@ $$\text{Hb}-\text{NH}_2 + \text{CO}_2 \rightleftharpoons \text{Hb}-\text{NH}-\te
   * Đúng **một phân tử $2,3$-BPG gắn vào khoang trung tâm này thông qua mạng lưới liên kết ion tĩnh điện dày đặc với các chuỗi bên tích điện dương của hai chuỗi $\beta$**.
   * Sự gắn kết này hoạt động như một "then chốt chèn cửa", **làm bền vững tuyệt đối trạng thái T, ngăn cản tetramer chuyển sang trạng thái R, do đó làm giảm ái lực của Hemoglobin với oxy**.
   * Khi oxy gắn vào ép Hemoglobin chuyển sang trạng thái $R$, khoang trung tâm co hẹp lại, phân tử $2,3$-BPG bị đẩy văng ra ngoài.
+
+![Ảnh hưởng của DPG lên sự cân bằng dạng T và R](hoasinh_media/HS-07_fig7_26.png)
+*Hình 7.26. Ảnh hưởng của 2,3-DPG lên sự cân bằng của hai dạng T và R của Hb.*
+
+![Ảnh hưởng của 2,3 DPG tới ái lực gắn oxy](hoasinh_media/HS-07_fig7_27.png)
+*Hình 7.27. Ảnh hưởng của 2,3-DPG tới ái lực gắn oxy của Hemoglobin.*
 * **Ý nghĩa y học lâm sàng của 2,3-BPG:**
   1. **Thích nghi với độ cao (High-Altitude Adaptation):** Khi lên vùng núi cao ($> 4000\text{ m}$), phân áp $pO_2$ trong khí quyển sụt giảm mạnh, gây thiếu oxy mô mô. Cơ thể phản ứng thích nghi nhanh chóng trong vòng $24 - 48\text{ giờ}$ bằng cách tăng hoạt động enzym tổng hợp $2,3$-BPG trong hồng cầu từ $5\text{ mM}$ lên tới $8\text{ mM}$. Lượng $2,3$-BPG tăng cao làm đường cong phân ly oxy dịch sang **PHẢI** (tăng $P_{50}$ từ $26$ lên $31\text{ mmHg}$), cho phép hồng cầu dễ dàng nhả oxy cho các mô ngoại vi đang đói dưỡng khí.
   2. **Bảo quản máu truyền tĩnh mạch:** Máu lưu trữ trong ngân hàng máu sử dụng dung dịch chống đông acid-citrate-dextrose (ACD) sẽ bị suy kiệt dần nồng độ $2,3$-BPG sau vài tuần lưu trữ do thoái hóa đường phân bị ức chế. Khi truyền lượng lớn máu thiếu hụt $2,3$-BPG cho bệnh nhân, Hemoglobin trong máu truyền có ái lực quá cao với oxy (đường cong lệch sâu sang TRÁI), dẫn đến hiện tượng "bắt giữ oxy" và không chịu nhả oxy cho các mô thiếu máu, có thể gây tổn thương mô cục bộ. Ngân hàng máu hiện đại bổ sung thêm inosine hoặc tiền chất phosphat để duy trì nồng độ $2,3$-BPG trong túi máu.

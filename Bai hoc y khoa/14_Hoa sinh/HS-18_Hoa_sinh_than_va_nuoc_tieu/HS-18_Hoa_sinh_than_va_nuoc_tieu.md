@@ -29,6 +29,9 @@ Sau khi hoàn thành chương học chuyên sâu này, học viên y khoa cần 
 
 ## 1. ĐẠI CƯƠNG VỀ HỆ THỐNG THẬN TIẾT NIỆU & CHỨC NĂNG TỔNG QUÁT
 
+![Cấu tạo của thận](hoasinh_media/HS-18_fig18_1.png)
+*Hình 18.1. Cấu tạo của thận.*
+
 ### 1.1. Đặc điểm giải phẫu chức năng và huyết động học thận
 Ở người trưởng thành khỏe mạnh, hai thận có tổng khối lượng khoảng $300\,\text{g}$, chỉ chiếm xấp xỉ $0{,}5\%$ trọng lượng cơ thể nhưng lại nhận tới **$20 - 25\%$ cung lượng tim khi nghỉ ngơi** — tương đương với lưu lượng dòng máu qua thận ($Renal\ Blood\ Flow - RBF$) khoảng $1000 - 1200\,\text{mL/phút}$ ($1500\,\text{L/24 giờ}$). 
 
@@ -40,9 +43,8 @@ Mức tiêu thụ oxy của thận cực kỳ khổng lồ, chiếm khoảng **$
 
 ### 1.2. Đơn vị chức năng thận (Nephron)
 
-![Cấu trúc Nephron và cơ chế lọc cầu thận](hoasinh_media/HS-18_fig01_nephron_filtration.png)
-*Hình 18.1. Cấu trúc Nephron và động học siêu lọc qua màng lọc cầu thận 3 lớp.*
-
+![Cấu tạo của một đơn vị nephron](hoasinh_media/HS-18_fig18_2.png)
+*Hình 18.2. Cấu tạo của một đơn vị nephron.*
 Mỗi bên thận người chứa khoảng $1{,}0 - 1{,}2$ triệu đơn vị chức năng gọi là **Nephron**. Nephron không có khả năng tái sinh hoặc phân chia sau khi sinh; khi các nephron bị phá hủy do bệnh lý tiến triển (như viêm cầu thận mạn, đái tháo đường, tăng huyết áp), các nephron còn lại phải tăng kích thước và phì đại hoạt động bù trừ ($hyperfiltration$).
 
 Một nephron hoàn chỉnh bao gồm hai phần chính:
@@ -235,8 +237,10 @@ Biểu mô ống góp gồm hai quần thể tế bào biệt hóa có chức n�
 
 ## 4. VAI TRÒ CỦA THẬN TRONG ĐIỀU HÒA THĂNG BẰNG ACID - BASE
 
-Phổi chịu trách nhiệm đào thải acid bay hơi carbonic ($CO_2$), trong khi **thận là cơ quan duy nhất có khả năng đào thải các acid cố định không bay hơi** (như acid sulfuric từ chuyển hóa protein chứa lưu huỳnh Met/Cys, acid phosphoric từ acid nucleic và phospholipid, acid uric, acid lactic và thể ceton), đồng thời tái hấp thu và **tổng hợp mới ion Bicarbonat ($HCO_3^-$)** để bù đắp cho lượng dự trữ kiềm đã tiêu hao.
+![Vai trò của thận trong thăng bằng acid-base](hoasinh_media/HS-18_fig18_3.png)
+*Hình 18.3. Vai trò của thận trong thăng bằng acid-base.*
 
+Phổi chịu trách nhiệm đào thải acid bay hơi carbonic ($CO_2$), trong khi **thận là cơ quan duy nhất có khả năng đào thải các acid cố định không bay hơi** (như acid sulfuric từ chuyển hóa protein chứa lưu huỳnh Met/Cys, acid phosphoric từ acid nucleic và phospholipid, acid uric, acid lactic và thể ceton), đồng thời tái hấp thu và **tổng hợp mới ion Bicarbonat ($HCO_3^-$)** để bù đắp cho lượng dự trữ kiềm đã tiêu hao.
 Thận thực hiện chức năng này qua 3 cơ chế sinh hóa phối hợp:
 1. Tái hấp thu gần như toàn bộ $HCO_3^-$ lọc qua cầu thận ($sim 4500\,\text{mmol/ngày}$, $85 - 90\%$ ở ống lượn gần, đã trình bày ở mục 3.1).
 2. Bài tiết ion $H^+$ dưới dạng acid chuẩn độ ($Titratable\ acid$, chủ yếu là hệ đệm phosphat).
@@ -548,10 +552,16 @@ Trụ niệu là các cấu trúc hình trụ đúc khuôn theo lòng ống th�
 Bên cạnh chức năng bài tiết nước tiểu, thận còn là một tuyến nội tiết phức hợp cực kỳ quan trọng, tham gia kiểm soát huyết áp, tạo máu và chuyển hóa chất khoáng:
 
 ### 8.1. Hệ thống Renin - Angiotensin - Aldosteron (RAAS)
+
+![Cơ chế điều hòa bài xuất renin](hoasinh_media/HS-18_fig18_4.png)
+*Hình 18.4. Cơ chế điều hòa bài xuất renin.*
+
+![Điều hòa bài tiết aldosteron](hoasinh_media/HS-18_fig18_5.png)
+*Hình 18.5. Điều hòa bài tiết aldosteron.*
+
 1. **Bộ máy cạnh cầu thận (Juxtaglomerular Apparatus - JGA):**
    - Nằm ở góc tiếp giáp giữa tiểu động mạch đến, tiểu động mạch đi và vết đặc (*Macula densa*) của ống lượn xa.
    - Tế bào cận cầu thận (tế bào cơ trơn biến đổi của thành tiểu động mạch đến) tổng hợp, tích trữ và bài tiết enzym phân cắt protein **Renin** (trọng lượng phân tử $\sim 40\,\text{kDa}$).
-2. **Kích thích bài tiết Renin:**
    - Giảm áp lực tưới máu thận cảm nhận qua thụ thể áp lực ở tiểu động mạch đến (hạ huyết áp, hẹp động mạch thận).
    - Tăng hoạt tính thần kinh giao cảm thận qua thụ thể $\beta_1$-adrenergic.
    - Giảm nồng độ ion $Na^+$ và $Cl^-$ đến vết đặc macula densa (do lưu lượng dịch ống thận giảm khi tụt huyết áp).

@@ -23,6 +23,9 @@
 
 ## 1. ĐẶC ĐIỂM THÀNH PHẦN HÓA HỌC CỦA TỔ CHỨC THẦN KINH
 
+![Cấu tạo neuron điển hình](hoasinh_media/HS-21_fig21_1.png)
+*Hình 21.1. Cấu tạo neuron điển hình.*
+
 Mô não và tổ chức thần kinh có thành phần hóa học rất đặc biệt so với các cơ quan khác trong cơ thể:
 * **Hàm lượng nước:** Chiếm $75 - 80\%$ ở chất xám (nơi tập trung thân nơron) và khoảng $70\%$ ở chất trắng (nơi tập trung các sợi trục có bao myelin).
 * **Chất khô:** Chiếm $20 - 30\%$, trong đó lipid chiếm tỷ lệ áp đảo (chiếm hơn $50\%$ trọng lượng khô của chất trắng).
@@ -67,8 +70,7 @@ Mặc dù não bộ chỉ chiếm khoảng **$2\%$ trọng lượng cơ thể** 
 ## 3. CƠ CHẾ DẪN TRUYỀN XUNG THẦN KINH QUA KHE SYNAP
 
 ![Cơ chế dẫn truyền xung thần kinh qua khe Synap](hoasinh_media/HS-21_fig01_synapse_neurotransmitters.png)
-*Hình 21.1. Cấu trúc khe Synap: Điện thế hoạt động mở kênh Ca2+, kích hoạt hòa màng túi synap giải phóng chất dẫn truyền thần kinh vào khe synap.*
-
+*Hình 21.1b. Cấu trúc khe Synap: Điện thế hoạt động mở kênh Ca2+, kích hoạt hòa màng túi synap giải phóng chất dẫn truyền thần kinh vào khe synap.*
 Quá trình dẫn truyền xung động thần kinh hóa học diễn ra qua 5 giai đoạn phân tử kế tiếp:
 1. **Sinh tổng hợp:** Chất dẫn truyền thần kinh (Neurotransmitter - NT) được tổng hợp tại thân nơron hoặc ngay tại cúc tận cùng synap nhờ các enzym đặc hiệu.
 2. **Đóng gói dự trữ:** NT được bơm tích cực vào bên trong các **túi synap (Synaptic vesicles)** nhờ các bơm proton phụ thuộc ATP.
@@ -90,10 +92,13 @@ Quá trình dẫn truyền xung động thần kinh hóa học diễn ra qua 5 g
 ## 4. CÁC CHẤT DẪN TRUYỀN THẦN KINH CHÍNH
 
 ### 4.1. Acid Gamma-Aminobutyric (GABA) và Chu trình GABA Shunt
+
+![Sơ đồ GABA shunt](hoasinh_media/HS-21_fig21_4.png)
+*Hình 21.4. Sơ đồ GABA shunt.*
+
 **GABA** là **chất dẫn truyền thần kinh ức chế chính** của hệ thần kinh trung ương (chiếm khoảng $30 - 40\%$ tất cả các synap trong não bộ), đặc biệt tập trung ở vỏ não, hạch nền và tiểu não.
 
 #### Chu trình chuyển hóa GABA (GABA Shunt):
-GABA shunt là một con đường chuyển hóa vòng khép kín liên kết chặt chẽ giữa chu trình Krebs và chuyển hóa acid amin trong mô thần kinh:
 
 1. **Tạo L-Glutamat từ Chu trình Krebs:**  
    $\alpha$-Ketoglutarat trong chu trình Krebs nhận nhóm amin nhờ enzym **GABA Transaminase (GABA-T)** để tạo thành L-Glutamat:
@@ -164,10 +169,14 @@ $$\text{Tyrosin} \xrightarrow{\text{Tyrosin hydroxylase (TH)}} \text{L-DOPA} \xr
 ---
 
 ### 4.5. Serotonin (5-Hydroxytryptamin / 5-HT) và Bệnh Trầm cảm
+
+![Sơ đồ tổng hợp serotonin](hoasinh_media/HS-21_fig21_2.png)
+*Hình 21.2. Sơ đồ tổng hợp serotonin (5-hydroxytryptamin).*
+
+![Sơ đồ thoái hóa serotonin](hoasinh_media/HS-21_fig21_3.png)
+*Hình 21.3. Sơ đồ thoái hóa serotonin.*
+
 * **Sinh tổng hợp:** Từ acid amin thiết yếu **L-Tryptophan** nhờ enzym Tryptophan hydroxylase và enzym decarboxylase (Vitamin $B_6$).
-* **Vai trò:** Chi phối giấc ngủ, cảm xúc, khí sắc, sự ngon miệng và điều hòa thân nhiệt.
-* **Thoái hóa:** Bị enzym $MAO-A$ oxy hóa tạo thành **Acid 5-Hydroxyindoleacetic (5-HIAA)** đào thải qua nước tiểu.  
-  *(Định lượng 5-HIAA nước tiểu 24 giờ dùng để chẩn đoán **Hội chứng Carcinoid** - U tế bào ưa bạc tiết serotonin).*
 * **Bệnh học Trầm cảm (Major Depressive Disorder):**  
   Thuyết monoamin cho rằng trầm cảm có liên quan mật thiết với sự suy giảm nồng độ serotonin và noradrenalin tại các khe synap thần kinh não bộ.  
   *Điều trị EBM:* Các thuốc chống trầm cảm thế hệ mới nhóm **SSRI (Selective Serotonin Reuptake Inhibitors - Fluoxetin, Sertralin, Escitalopram)** ức chế chọn lọc chất vận chuyển SERT, ngăn chặn tái hấp thu serotonin vào cúc tận cùng $\implies$ nâng cao nồng độ serotonin tự do trong khe synap, cải thiện rõ rệt khí sắc người bệnh.

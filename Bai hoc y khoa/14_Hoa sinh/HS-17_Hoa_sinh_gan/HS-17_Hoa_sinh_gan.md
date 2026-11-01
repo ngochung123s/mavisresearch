@@ -39,9 +39,8 @@ Sau khi hoàn thành chương học chuyên sâu này, học viên y khoa cần 
 
 ### 1.2. Đơn vị chức năng của gan: Từ tiểu thùy cổ điển đến nang tuyến Rappaport
 
-![Cấu trúc tiểu thùy gan và phân vùng chuyển hóa](hoasinh_media/HS-17_fig01_liver_lobule_metabolism.png)
-*Hình 17.1. Cấu trúc tiểu thùy gan và nang tuyến Rappaport với các phân vùng chuyển hóa Zone 1, 2, 3.*
-
+![Hình ảnh vi thể gan](hoasinh_media/HS-17_fig17_3.png)
+*Hình 17.3. Hình ảnh vi thể gan.*
 - **Tiểu thùy gan cổ điển (Classic hepatic lobule):** Hình lục lăng, ở trung tâm là tĩnh mạch trung tâm tiểu thùy (*central venule*), tại các góc là khoảng cửa (*portal tract / portal triad*) chứa nhánh tận của tĩnh mạch cửa, nhánh động mạch gan và ống mật liên tiểu thùy. Máu chảy từ ngoại vi (khoảng cửa) hướng tâm vào tĩnh mạch trung tâm; ngược lại, dịch mật do tế bào gan bài tiết chảy theo hướng ly tâm qua các vi quản mật (*bile canaliculi*) để đổ về ống mật khoảng cửa.
 - **Nang tuyến gan (Hepatic acinus of Rappaport) - Ý nghĩa chuyển hóa và bệnh học:**
   + Mô hình nang tuyến phân chia nhu mô gan dựa trên trục cấp máu xuất phát từ khoảng cửa, chia thành 3 vùng chuyển hóa chức năng riêng biệt:
@@ -411,6 +410,9 @@ Trong pha này, phân tử chất độc ban đầu hoặc chất chuyển hóa 
 
 
 ## 4. CHỨC NĂNG TẠO MẬT VÀ TUẦN HOÀN RUỘT - GAN CỦA MUỐI MẬT
+
+![Hệ thống bài tiết mật ở gan](hoasinh_media/HS-17_fig17_2.png)
+*Hình 17.2. Hệ thống bài tiết mật ở gan.*
 
 Mật là dịch ngoại tiết sinh lý của gan, được tế bào nhu mô gan sản xuất liên tục với thể tích từ **$500 - 1000\,\text{mL/ngày}$**. Mật đóng hai vai trò sống còn:
 1. Đào thải các chất cặn bã nội sinh và ngoại sinh không tan trong nước (cholesterol dư thừa, bilirubin, kim loại nặng, chất chuyển hóa thuốc).

@@ -81,10 +81,8 @@ Con số này gấp gần $70$ lần so với lượng oxy hòa tan đơn thuầ
 
 ### 1.2. Sự vận chuyển Carbon Dioxide ($CO_2$) trong máu
 
-![Hiện tượng di chuyển Clorid Hamburger tại hồng cầu](hoasinh_media/HS-16_fig01_chloride_shift_hamburger.png)
-*Hình 16.1. Hiện tượng dịch chuyển Clorid Hamburger (Chloride shift) qua kênh đối vận chuyển anion AE1 (Band 3).*
-
-
+![Sơ đồ vận chuyển O2 và sự vận chuyển CO2 dạng hydro của hemoglobin](hoasinh_media/HS-16_fig16_2.png)
+*Hình 16.2. Sơ đồ vận chuyển O2 và sự vận chuyển CO2 dạng hydro của hemoglobin.*
 Quá trình chuyển hóa các cơ chất (glucid, lipid, protid) trong chu trình Krebs tại ty thể giải phóng ra một lượng khổng lồ $CO_2$ (khoảng $13.000 - 15.000\text{ mmol } CO_2$ mỗi ngày). $CO_2$ khuếch tán nhanh chóng từ tế bào qua dịch kẽ vào huyết tương mao mạch. Tại đây, $CO_2$ được vận chuyển về phổi dưới ba dạng chính:
 
 #### 1.2.1. Dạng hòa tan vật lý trong huyết tương và hồng cầu (Chiếm $\approx 7 - 9\%$)
@@ -265,11 +263,6 @@ $$NH_3 + H^+ \rightarrow NH_4^+$$
 - **Khả năng thích ứng:** Ở trạng thái bình thường, lượng $NH_4^+$ đào thải khoảng $30 - 50\text{ mmol/ngày}$. Khi cơ thể bị nhiễm toan nặng kéo dài, sự biểu hiện của enzym Glutaminase tăng vọt, thận có thể tăng đào thải $NH_4^+$ lên tới $300 - 500\text{ mmol/ngày}$ (gấp 10 lần bình thường), đóng vai trò cứu cánh tối thượng của cơ thể.
 
 ## 4. PHÂN TÍCH KHÍ MÁU ĐỘNG MẠCH (ABG) VÀ CÁC RỐI LOẠN TOAN KIỀM LÂM SÀNG
-
-![Đồ thị toan kiềm và phân tích khí máu động mạch](hoasinh_media/HS-16_fig02_acid_base_nomogram.png)
-*Hình 16.2. Đồ thị Nomogram đánh giá các rối loạn thăng bằng toan kiềm nguyên phát và đáp ứng bù trừ.*
-
-
 Khí máu động mạch (Arterial Blood Gas - ABG) là xét nghiệm hồi sức thiết yếu, cung cấp thông tin tức thời về tình trạng oxy hóa máu, thông khí phế nang và trạng thái thăng bằng toan kiềm của bệnh nhân.
 
 ### 4.1. Các thông số sinh lý bình thường của Khí máu động mạch

@@ -47,6 +47,8 @@ Bên cạnh vai trò dự trữ nhiên liệu, lipid tham gia cấu trúc màng 
 
 Quá trình thoái hóa lipid bắt đầu từ sự thủy phân triglycerid dự trữ tại mô mỡ hoặc lipid ngoại sinh từ thức ăn, giải phóng glycerol và các acid béo tự do vào máu tuần hoàn để cung cấp cho các mô tiêu thụ (cơ xương, cơ tim, gan, thận).
 
+![Tác dụng của lipase](hoasinh_media/HS-06_fig6_1.png)
+*Hình 6.1. Tác dụng của lipase.*
 ### 1.1. Thoái hóa của Glycerol
 
 Glycerol tạo thành từ sự thủy phân triglycerid được khuếch tán ra khỏi tế bào mỡ (do tế bào mỡ thiếu enzym glycerol kinase) và vận chuyển theo dòng máu đến gan và thận. Tại các mô này, glycerol được chuyển hóa theo hai bước phản ứng:
@@ -58,6 +60,9 @@ $$\text{L-Glycerol-3-phosphat} + \text{NAD}^+ \xrightleftharpoons{\text{Glycerol
 Sản phẩm dihydroxyaceton phosphat (DHAP) có thể đồng phân hóa thuận nghịch thành **Glyceraldehyd-3-phosphat (G3P)** nhờ enzym *triose phosphat isomerase*. Từ G3P, chuyển hóa có hai con đường rẽ nhánh tùy thuộc trạng thái năng lượng tế bào:
 - **Đi vào con đường đường phân (Glycolysis):** Tiếp tục oxy hóa tạo ra pyruvat, acetyl-CoA rồi đi vào chu trình Krebs, cung cấp năng lượng ATP cho tế bào.
 - **Đi vào con đường tân tạo đường (Gluconeogenesis):** Trong trạng thái đói, DHAP và G3P ngưng tụ tạo fructose-1,6-bisphosphat để tái tổng hợp glucose cung cấp cho các mô phụ thuộc glucose như não và hồng cầu.
+
+![Thoái hóa triacylglycerol](hoasinh_media/HS-06_fig6_2.png)
+*Hình 6.2. Thoái hóa triacylglycerol.*
 
 ---
 
@@ -77,7 +82,8 @@ $$\text{PP}_i + \text{H}_2\text{O} \xrightarrow{\text{Pyrophosphatase}} 2\,\text
 
 *Ý nghĩa năng lượng:* Mặc dù chỉ tiêu tốn 1 phân tử ATP, nhưng do ATP bị cắt thành AMP và $\text{PP}_i$, tương đương với việc tiêu tốn **2 liên kết phosphat cao năng** ($\sim\text{P}$).
 
-![Hình 8.1. Vận chuyển acid béo vào ty thể theo hệ thống vận chuyển acyl-carnitin/carnitin](hoasinh_media/fig_8_1.png)
+![Vận chuyển acid béo vào ty thể](hoasinh_media/HS-06_fig6_3.png)
+*Hình 6.3. Vận chuyển acid béo vào ty thể theo hệ thống vận chuyển acyl-carnitin/carnitin.*
 
 #### Giai đoạn 2: Vận chuyển Acyl-CoA qua màng trong ty thể (Hệ thống con thoi Carnitin)
 
@@ -91,8 +97,8 @@ Màng ngoài ty thể có tính thấm tự do với Acyl-CoA thông qua các k�
 
 *Cơ chế điều hòa then chốt:* **CPT-I** là enzym giới hạn tốc độ của toàn bộ quá trình thoái hóa acid béo. CPT-I bị ức chế dị lập thể mạnh mẽ bởi **Malonyl-CoA** (chất trung gian đầu tiên của quá trình sinh tổng hợp acid béo tại bào tương). Cơ chế này đảm bảo sự ngăn chặn hiện tượng "chu trình vô công" (futile cycle): khi tế bào đang tích cực tổng hợp acid béo (nồng độ malonyl-CoA cao), sự thoái hóa acid béo qua ty thể lập tức bị khóa lại.
 
-![Hình 8.2. Quá trình beta-oxy hóa acid béo](hoasinh_media/fig_8_2.png)
-![HS-06_fig01. Chi tiết chu trình beta-oxy hóa acid béo](hoasinh_media/HS-06_fig01_beta_oxidation.png)
+![Quá trình beta-oxy hóa acid béo](hoasinh_media/HS-06_fig6_4.png)
+*Hình 6.4. Quá trình beta-oxy hóa acid béo.*
 
 #### Giai đoạn 3: Chu trình $\beta$-Oxy hóa trong chất nền ty thể
 
@@ -167,7 +173,8 @@ Acid Stearic có 18 carbon ($n = 9$):
 
 Phần lớn acid béo trong tự nhiên và chế độ ăn của con người là acid béo không bão hòa (chứa một hoặc nhiều liên kết đôi đồng phân dạng *cis*). Các enzym của chu trình $\beta$-oxy hóa thông thường không thể nhận diện cơ chất mang liên kết đôi dạng *cis* hoặc liên kết đôi nằm sai vị trí (không phải vị trí $\Delta^2$). Tế bào cần thêm hai enzym phụ trợ đặc hiệu:
 
-![Hình 8.3. Quá trình oxy hóa acid béo không bão hòa có một liên kết đôi (acid oleic)](hoasinh_media/fig_8_3.png)
+![Quá trình oxy hóa acid béo không bão hòa có một liên kết đôi](hoasinh_media/HS-06_fig6_5.png)
+*Hình 6.5. Quá trình oxy hóa acid béo không bão hòa có một liên kết đôi (acid oleic).*
 
 #### 1. Acid béo có một liên kết đôi (Ví dụ: Acid Oleic $18:1\,\Delta^9$, dạng *cis*)
 - Acid oleyl-CoA trải qua 3 vòng $\beta$-oxy hóa bình thường, giải phóng 3 Acetyl-CoA và còn lại phân tử acyl-CoA 12 carbon mang liên kết đôi ở vị trí $\text{cis}-\Delta^3$: $\text{cis}-\Delta^3\text{-dodecenoyl-CoA}$.
@@ -175,7 +182,8 @@ Phần lớn acid béo trong tự nhiên và chế độ ăn của con người 
   $$\text{cis-}\Delta^3\text{-dodecenoyl-CoA} \xrightarrow{\text{Enoyl-CoA isomerase}} \text{trans-}\Delta^2\text{-dodecenoyl-CoA}$$
 - Phân tử *trans*-$\Delta^2$-enoyl-CoA này lập tức trở thành cơ chất của enzym *Enoyl-CoA hydratase* và tiếp tục hoàn tất 5 vòng $\beta$-oxy hóa còn lại mà không cần qua phản ứng 1 (bỏ qua bước Acyl-CoA dehydrogenase tạo $\text{FADH}_2$). Do đó, năng lượng sinh ra ít hơn 1 phân tử $\text{FADH}_2$ ($1{,}5\text{ ATP}$) so với acid stearic bão hòa tương ứng.
 
-![Hình 8.4. Quá trình oxy hóa acid béo không bão hòa có nhiều liên kết đôi (acid linoleic)](hoasinh_media/fig_8_4.png)
+![Quá trình oxy hóa acid béo không bão hòa có nhiều liên kết đôi](hoasinh_media/HS-06_fig6_6.png)
+*Hình 6.6. Quá trình oxy hóa chất béo không bão hòa có nhiều liên kết đôi (acid linoleic).*
 
 #### 2. Acid béo có nhiều liên kết đôi (Ví dụ: Acid Linoleic $18:2\,\Delta^{9,12}$, dạng *cis, cis*)
 - Sau 3 vòng $\beta$-oxy hóa và 1 phản ứng đồng phân hóa bởi *isomerase*, chuỗi tiếp tục bị oxy hóa thêm 1 vòng, tạo ra sản phẩm mang hai liên kết đôi kề nhau: $\text{trans-}\Delta^2\text{, cis-}\Delta^4\text{-dienoyl-CoA}$.
@@ -210,8 +218,11 @@ Propionyl-CoA được chuyển hóa thành **Succinyl-CoA** để đi vào chu 
 
 ### 1.5. Các Thể Ceton và Sự Chuyển Hóa Của Chúng (Ketogenesis & Ketolysis)
 
-![Hình 8.5. Sự tạo thành các thể ceton từ acetyl-CoA](hoasinh_media/fig_8_5.png)
-![HS-06_fig02. Sơ đồ chi tiết chuyển hóa thể ceton](hoasinh_media/HS-06_fig02_ketone_bodies.png)
+![Sự tạo thành các thể ceton từ acetyl-CoA](hoasinh_media/HS-06_fig6_8.png)
+*Hình 6.8. Sự tạo thành các thể ceton từ acetyl-CoA.*
+
+![Thoái hóa thể cetonic](hoasinh_media/HS-06_fig6_9.png)
+*Hình 6.9. Thoái hóa thể cetonic.*
 
 #### 1. Định nghĩa và Nơi Sinh Tổng Hợp
 Các thể ceton (*ketone bodies*) gồm 3 hợp chất hòa tan trong nước:
@@ -281,7 +292,8 @@ $$\text{Monoglycerid (MG)} \xrightarrow{\text{MGL}} \text{Glycerol} + \text{Acid
 
 ### 1.7. Thoái Hóa Glycerophospholipid và Tác Dụng Của Phospholipase
 
-![Hình 8.9. Sơ đồ mô tả tác dụng của các enzym phospholipase](hoasinh_media/fig_8_9.png)
+![Thoái hóa phospholipid bởi phospholipase](hoasinh_media/HS-06_fig6_10.png)
+*Hình 6.10. Thoái hóa phospholipid bởi phospholipase.*
 
 Glycerophospholipid được thủy phân bởi 4 enzym phospholipase đặc hiệu tại từng vị trí liên kết este:
 1. **Phospholipase $A_1$ (PLA1):** Thủy phân liên kết este ở vị trí $C_1$ của khung glycerol, giải phóng acid béo bão hòa.
@@ -299,7 +311,7 @@ Khác với quá trình thoái hóa diễn ra trong chất nền ty thể, quá 
 
 #### 1. Vận chuyển Acetyl-CoA từ Ty Thể ra Bào Tương (Hệ Thống Con Thoi Citrat)
 
-![Hình 8.10. Sự vận chuyển acetyl-CoA qua màng ty thể ra bào tương nhờ con thoi citrat](hoasinh_media/fig_8_10.png)
+
 
 Nguyên liệu chính cho tổng hợp acid béo là **Acetyl-CoA**, được tạo ra bên trong ty thể (từ thoái hóa đường phân pyruvat qua pyruvate dehydrogenase). Tuy nhiên, màng trong ty thể hoàn toàn không thấm đối với Acetyl-CoA. Tế bào vượt qua trở ngại này bằng **con thoi Citrat** (*Citrate-malate shuttle*):
 1. Trong ty thể, acetyl-CoA ngưng tụ với oxaloacetat tạo thành **Citrat** nhờ enzym *citrat synthase*.
@@ -321,7 +333,10 @@ Nguyên liệu chính cho tổng hợp acid béo là **Acetyl-CoA**, được t�
 Phản ứng carboxyl hóa Acetyl-CoA thành **Malonyl-CoA** là phản ứng cam kết không thuận nghịch và là bước điều hòa kiểm soát tốc độ tối cao:
 
 $$\text{CH}_3\text{-CO}\sim\text{S-CoA} + \text{HCO}_3^- + \text{ATP} \xrightarrow{\text{Acetyl-CoA Carboxylase (ACC)}} ^-\text{OOC-CH}_2\text{-CO}\sim\text{S-CoA (Malonyl-CoA)} + \text{ADP} + \text{P}_i$$
+$$\text{CH}_3\text{-CO}\sim\text{S-CoA} + \text{HCO}_3^- + \text{ATP} \xrightarrow{\text{Acetyl-CoA Carboxylase (ACC)}} ^-\text{OOC-CH}_2\text{-CO}\sim\text{S-CoA (Malonyl-CoA)} + \text{ADP} + \text{P}_i$$
 
+![Tổng hợp malonyl CoA](hoasinh_media/HS-06_fig6_11.png)
+*Hình 6.11. Tổng hợp malonyl CoA.*
 - **Enzym xúc tác:** **Acetyl-CoA Carboxylase (ACC)** chứa nhóm ngoại **Biotin** (Vitamin $B_7$) gắn đồng hóa trị với gốc lysin của enzym.
 - **Cơ chế điều hòa đa tầng của ACC:**
   - *Điều hòa dị lập thể ngắn hạn:* Citrat là chất hoạt hóa dị lập thể mạnh nhất (kích thích các dimer ACC trùng ngưng thành các sợi polyme hoạt tính cao). Ngược lại, Palmitoyl-CoA (sản phẩm cuối của chu trình) là chất ức chế dị lập thể âm tính.
@@ -333,7 +348,8 @@ $$\text{CH}_3\text{-CO}\sim\text{S-CoA} + \text{HCO}_3^- + \text{ATP} \xrightarr
 
 #### 3. Phức Hợp Đa Enzym Acid Béo Synthase (FAS - Fatty Acid Synthase)
 
-![Hình 8.11. Sơ đồ quá trình tổng hợp acid béo ở bào tương với phức hợp đa enzym FAS](hoasinh_media/fig_8_11.png)
+![Tổng hợp acid béo](hoasinh_media/HS-06_fig6_12.png)
+*Hình 6.12. Tổng hợp acid béo.*
 
 Ở tế bào động vật có vú, toàn bộ các phản ứng kéo dài chuỗi được xúc tác bởi **phức hợp Fatty Acid Synthase I (FAS)**. Đây là một homodimer gồm hai chuỗi polypeptid đồng nhất xếp đối song song đầu - đuôi ($head-to-tail$). Mỗi monomer chứa 7 trung tâm hoạt động enzym riêng biệt và một domain mang protein vận chuyển gốc acyl (**ACP - Acyl Carrier Protein**). ACP chứa nhóm ngoại **4'-phosphopantethein** (dẫn xuất của acid pantothenic - Vitamin $B_5$) có nhóm sulfhydryl linh động ($-\text{SH}$) đóng vai trò như "cánh tay đòn" xoay chuyển cơ chất giữa các trung tâm xúc tác:
 1. **MAT (Malonyl/acetyl-CoA-ACP transferase):** Gắn mồi acetyl và nạp cơ chất malonyl vào ACP.
@@ -399,7 +415,10 @@ Palmitat ($C_{16:0}$) là sản phẩm chủ yếu của phức hợp FAS ở b�
    - Sử dụng **Malonyl-CoA** làm nguồn cấp 2 carbon và **NADPH** làm chất khử.
    - Cơ chất là các phân tử Acyl-CoA béo. Chuỗi phản ứng gồm 4 bước (ngưng tụ, khử, tách nước, khử) tương tự FAS nhưng các phản ứng được xúc tác bởi các enzym hòa tan riêng lẻ gắn màng lưới nội chất.
    - Đây là con đường chủ lực kéo dài Palmitoyl-CoA ($C_{16}$) thành Stearoyl-CoA ($C_{18}$) và các acid béo dài hơn ở não để tạo màng bao myelin ($C_{22}, C_{24}$).
+   - Đây là con đường chủ lực kéo dài Palmitoyl-CoA ($C_{16}$) thành Stearoyl-CoA ($C_{18}$) và các acid béo dài hơn ở não để tạo màng bao myelin ($C_{22}, C_{24}$).
 
+![Tổng hợp acid béo mạch dài](hoasinh_media/HS-06_fig6_13.png)
+*Hình 6.13. Tổng hợp acid béo mạch dài.*
 2. **Hệ thống kéo dài chuỗi ở Ty thể (Mitochondrial Elongation):**
    - Ngược lại với ER, hệ thống ty thể sử dụng trực tiếp **Acetyl-CoA** (chứ không phải malonyl-CoA) và dùng cả **NADH** và **NADPH** làm coenzym khử.
    - Cơ chế về cơ bản là sự đảo ngược của chu trình $\beta$-oxy hóa, ngoại trừ bước khử enoyl-CoA cuối cùng được xúc tác bởi *enoyl-CoA reductase* phụ thuộc NADPH.
@@ -411,18 +430,28 @@ Palmitat ($C_{16:0}$) là sản phẩm chủ yếu của phức hợp FAS ở b�
 Cơ thể người và động vật có vú có khả năng đưa liên kết đôi dạng *cis* vào chuỗi acid béo bão hòa nhờ hệ thống đa enzym phức hợp gắn ở màng lưới nội sinh chất: **Fatty Acyl-CoA Desaturase** (gồm enzym desaturase, Cytochrom $b_5$ và NADH-cytochrom $b_5$ reductase).
 
 $$\text{Stearoyl-CoA} + \text{NADH} + \text{H}^+ + \text{O}_2 \xrightarrow{\Delta^9\text{-Desaturase}} \text{Oleoyl-CoA (}18:1\,\Delta^9\text{)} + \text{NAD}^+ + 2\,\text{H}_2\text{O}$$
+$$\text{Stearoyl-CoA} + \text{NADH} + \text{H}^+ + \text{O}_2 \xrightarrow{\Delta^9\text{-Desaturase}} \text{Oleoyl-CoA (}18:1\,\Delta^9\text{)} + \text{NAD}^+ + 2\,\text{H}_2\text{O}$$
 
+![Vận chuyển điện tử trong tổng hợp acid béo không bão hòa](hoasinh_media/HS-06_fig6_14.png)
+*Hình 6.14. Vận chuyển điện tử trong tổng hợp acid béo không bão hòa.*
 - **Giới hạn enzym của động vật có vú:** Cơ thể người chỉ có các enzym $\Delta^9, \Delta^6, \Delta^5$ và $\Delta^4$-desaturase. Con người **hoàn toàn thiếu các enzym $\Delta^{12}$ và $\Delta^{15}$-desaturase** (vốn chỉ có ở giới thực vật).
 - Do đó, cơ thể người **không thể tự tổng hợp** được hai acid béo thiết yếu vô cùng quan trọng:
   - **Acid Linoleic** ($18:2\,\Delta^{9,12}$, họ Omega-6)
   - **Acid $\alpha$-Linolenic** ($18:3\,\Delta^{9,12,15}$, họ Omega-3)
 - Bắt buộc phải cung cấp hai acid béo này từ thức ăn (dầu thực vật, hạt có dầu, mỡ cá biển sâu). Từ acid linoleic, cơ thể kéo dài mạch và khử bão hòa để tổng hợp **Acid Arachidonic** ($20:4\,\omega-6$); từ acid $\alpha$-linolenic tổng hợp thành **EPA** ($20:5\,\omega-3$) và **DHA** ($22:6\,\omega-3$) cấu tạo màng tế bào võng mạc và vỏ não.
+  - Bắt buộc phải cung cấp hai acid béo này từ thức ăn (dầu thực vật, hạt có dầu, mỡ cá biển sâu). Từ acid linoleic, cơ thể kéo dài mạch và khử bão hòa để tổng hợp **Acid Arachidonic** ($20:4\,\omega-6$); từ acid $\alpha$-linolenic tổng hợp thành **EPA** ($20:5\,\omega-3$) và **DHA** ($22:6\,\omega-3$) cấu tạo màng tế bào võng mạc và vỏ não.
 
+![Tổng hợp prostaglandin và thromboxane](hoasinh_media/HS-06_fig6_15.png)
+*Hình 6.15. Tổng hợp prostaglandin và thromboxane.*
+
+![Tổng hợp leukotrien](hoasinh_media/HS-06_fig6_16.png)
+*Hình 6.16. Tổng hợp leukotrien.*
 ---
 
 ### 2.4. Sinh Tổng Hợp Triglycerid (Triacylglycerol)
 
-![Hình 8.14. Sự tổng hợp acid phosphatidic và triglycerid](hoasinh_media/fig_8_14.png)
+![Sự tổng hợp acid phosphatidic và triglycerid](hoasinh_media/HS-06_fig6_17.png)
+*Hình 6.17. Sự tổng hợp acid phosphatidic và triglycerid.*
 
 Sinh tổng hợp triglycerid diễn ra chủ yếu ở gan và mô mỡ theo 2 con đường chính:
 
@@ -445,7 +474,7 @@ Tại niêm mạc ruột non sau bữa ăn giàu mỡ, 2-monoacylglycerol hấp 
 
 ### 2.5. Sinh Tổng Hợp Glycerophospholipid
 
-![Hình 8.15. Sơ đồ tổng hợp lecithin và cephalin](hoasinh_media/fig_8_15.png)
+
 
 Glycerophospholipid (như Phosphatidylcholin - Lecithin và Phosphatidylethanolamin - Cephalin) được sinh tổng hợp chủ yếu qua **con đường cứu vớt Kennedy (Kennedy salvage pathway)** tại màng lưới nội chất:
 
@@ -499,7 +528,7 @@ Mevalonat được phosphoryl hóa tuần tự bởi 3 phân tử ATP tạo dẫ
 
 ### 3.2. Cơ Chế Điều Hòa Sinh Tổng Hợp Cholesterol Đa Tầng
 
-![Hình 8.17. Sơ đồ điều hòa sinh tổng hợp cholesterol ở tế bào gan](hoasinh_media/fig_8_17.png)
+
 
 Tế bào kiểm soát cực kỳ nghiêm ngặt mức cholesterol nội bào thông qua 4 cơ chế tác động lên enzym **HMG-CoA Reductase (HMGR)**:
 
@@ -529,7 +558,10 @@ Cơ thể con người không sở hữu các enzym để phá vỡ cấu trúc 
      $$\text{Cholesterol} + \text{NADPH} + \text{H}^+ + \text{O}_2 \xrightarrow{\mathbf{\text{Cholesterol } 7\alpha\text{-hydroxylase}}} 7\alpha\text{-Hydroxycholesterol} + \text{NADP}^+ + \text{H}_2\text{O}$$
    - Qua các bước tiếp theo tạo ra hai **acid mật nguyên phát**: **Acid Cholic** và **Acid Chenodeoxycholic**.
    - Các acid mật này được liên hợp với Glycin hoặc Taurin tạo thành các **muối mật liên hợp** (axit glycocholic, taurocholic...) bài tiết theo dịch mật vào ruột để nhũ tương hóa mỡ thức ăn.
-   - Tại hồi tràng, khoảng 95% muối mật được tái hấp thu chủ động vào máu tĩnh mạch cửa quay trở về gan qua **chu trình ruột - gan (enterohepatic circulation)**. Chỉ khoảng 5% (tương đương $0{,}5\text{ g}$/ngày) thoát xuống đại tràng, bị vi khuẩn biến đổi thành *acid mật thứ phát* (acid deoxycholic, lithocholic) và đào thải theo phân. Đây là con đường sinh lý duy nhất để loại bỏ lượng cholesterol dư thừa ra khỏi cơ thể.
+  - Tại hồi tràng, khoảng 95% muối mật được tái hấp thu chủ động vào máu tĩnh mạch cửa quay trở về gan qua **chu trình ruột - gan (enterohepatic circulation)**. Chỉ khoảng 5% (tương đương $0{,}5\text{ g}$/ngày) thoát xuống đại tràng, bị vi khuẩn biến đổi thành *acid mật thứ phát* (acid deoxycholic, lithocholic) và đào thải theo phân. Đây là con đường sinh lý duy nhất để loại bỏ lượng cholesterol dư thừa ra khỏi cơ thể.
+
+![Cholesterol chuyển hóa thành muối mật](hoasinh_media/HS-06_fig6_18.png)
+*Hình 6.18. Cholesterol chuyển hóa thành muối mật.*
 
 2. **Tổng hợp Hormon Steroid:**
    Tại vỏ thượng thận, buồng trứng và tinh hoàn, cholesterol được vận chuyển qua màng trong ty thể nhờ protein **StAR (Steroidogenic Acute Regulatory protein)**, sau đó bị enzym *Desmolase (CYP11A1)* cắt chuỗi bên 6 carbon để tạo thành **Pregnenolon** (21C) - tiền chất chung của mọi hormon steroid:
@@ -552,8 +584,7 @@ Do lipid là các hợp chất không tan trong nước, để có thể lưu th
 
 ### 4.1. Cấu Trúc Chung Của Phân Tử Lipoprotein
 
-![Hình 8.18. Cấu trúc không gian của phân tử lipoprotein huyết tương](hoasinh_media/fig_8_18.png)
-![HS-06_fig03. Sơ đồ toàn diện con đường chuyển hóa lipoprotein](hoasinh_media/HS-06_fig03_lipoproteins_metabolism.png)
+
 
 Một hạt lipoprotein hoàn chỉnh có cấu trúc phân tầng tối ưu về mặt hóa lý:
 - **Nhân kỵ nước trung tâm (Hydrophobic core):** Chứa các lipid hoàn toàn kỵ nước, không phân cực, chủ yếu là **Triglycerid (TAG)** và **Cholesterol este (CE)**.

@@ -62,10 +62,6 @@ Dịch não tủy (CSF) là chất dịch sinh học trong suốt lấp đầy c
             [Xoang tĩnh mạch màng cứng (Dural Sinuses)]
 ```
 
-![Sơ đồ tuần hoàn và tái hấp thu dịch não tủy](hoasinh_media/HS-22_fig01_csf_circulation.png)
-*Hình 22.1: Sơ đồ nguồn gốc bài tiết, tuần hoàn qua các não thất và tái hấp thu dịch não tủy qua các hạt màng nhện vào xoang tĩnh mạch màng cứng.*
-
-
 #### Cơ chế bài tiết tại đám rối màng mạch (Choroid Plexus)
 - Khoảng $70 - 80\%$ CSF được sản xuất chủ động bởi **đám rối màng mạch (choroid plexus)** nằm trong các não thất bên, não thất III và não thất IV. Khoảng $20 - 30\%$ còn lại bắt nguồn từ dòng dịch kẽ não qua lớp tế bào biểu mô màng ống nội tủy (ependymal cells).
 - Ở người trưởng thành bình thường, tốc độ sản xuất CSF đạt khoảng $0,35 - 0,40\,\text{mL/phút}$, tương đương khoảng **$500\,\text{mL/ngày}$**. Tổng thể tích CSF lưu hành trong hệ thống não thất và khoang dưới nhện ở người lớn là khoảng **$130 - 150\,\text{mL}$** (ở trẻ sơ sinh: $30 - 60\,\text{mL}$; trẻ 1 tuổi: $\sim 100\,\text{mL}$). Như vậy, toàn bộ thể tích CSF được thay mới và luân chuyển liên tục từ $3 - 4$ lần mỗi ngày.

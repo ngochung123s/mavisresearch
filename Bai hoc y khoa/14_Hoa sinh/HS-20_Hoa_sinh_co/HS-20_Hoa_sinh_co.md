@@ -37,17 +37,18 @@ Cơ là mô chiếm tỷ lệ khối lượng lớn nhất trong cơ thể ngư�
 ## 2. CẤU TRÚC PHÂN TỬ CỦA BỘ MÁY CO CƠ
 
 Đơn vị chức năng co cơ của sợi cơ vân là **Sarcomere** (lồng tơ cơ, dài khoảng $2 - 2,5\,\mu\text{m}$ khi nghỉ), giới hạn ở hai đầu bởi hai **Đĩa Z (Z-disc)**.
-
-![Cấu trúc vi thể của Sarcomere và các sợi tơ cơ](hoasinh_media/HS-20_fig01_sarcomere_sliding_filament.png)
-*Hình 20.1. Cấu trúc lồng tơ cơ Sarcomere: Sợi dày Myosin ở trung tâm lồng xen kẽ với các sợi mỏng Actin bám vào đĩa Z.*
-
+![Cấu trúc cơ vân](hoasinh_media/HS-20_fig20_1.png)
+*Hình 20.1. Cấu trúc cơ vân.*
 ### 2.1. Cấu trúc Sợi dày (Myosin)
+
+![Cấu trúc sợi myosin](hoasinh_media/HS-20_fig20_2.png)
+*Hình 20.2. Cấu trúc sợi myosin.*
+
 * Phân tử **Myosin II** là một hexamer bất đối xứng gồm 6 chuỗi: **2 chuỗi nặng (Heavy chains)** và **4 chuỗi nhẹ (Light chains)**.
 * **Chuỗi nặng:** Cuộn xoắn với nhau tạo thành phần đuôi hình que dài ($150\text{ nm}$), tận cùng bằng 2 đầu hình cầu lồi ra ngoài gọi là **Đầu S1 (Myosin head)**.
 * **Đầu S1 của Myosin** là trung tâm chức năng có 2 hoạt tính sinh học cốt lõi:
   1. **Vị trí gắn Actin:** Cho phép đầu Myosin tiếp xúc và tạo cầu nối ngang (cross-bridge) với sợi actin.
   2. **Hoạt tính enzym ATPase:** Xúc tác thủy phân $ATP$ giải phóng năng lượng để gập góc đầu Myosin thực hiện nhát đập lực.
-
 ### 2.2. Cấu trúc Sợi mỏng (Actin, Tropomyosin và Troponin)
 Sợi mỏng bám chặt vào đĩa Z ở hai đầu sarcomere, cấu tạo từ 3 loại protein:
 1. **F-Actin (Filamentous Actin):** Là chuỗi xoắn kép gồm các tiểu đơn vị hình cầu G-Actin (Globular actin) trùng hợp tạo thành. Mỗi tiểu đơn vị G-actin có một vị trí đặc hiệu để gắn với đầu Myosin.
@@ -61,8 +62,13 @@ Sợi mỏng bám chặt vào đĩa Z ở hai đầu sarcomere, cấu tạo từ
 
 ## 3. CƠ CHẾ SINH HỌC PHÂN TỬ CỦA SỰ CO CƠ VÂN
 
-Quá trình co cơ diễn ra theo **Thuyết trượt sợi cơ (Sliding Filament Mechanism)**: Các sợi dày Myosin và sợi mỏng Actin không hề bị co ngắn lại về chiều dài vật lý, mà chúng **trượt lồng vào nhau**, kéo hai đĩa Z lại gần nhau làm ngắn chiều dài sarcomere $\implies$ toàn bộ sợi cơ co rút.
+![Đơn vị co cơ](hoasinh_media/HS-20_fig20_3.png)
+*Hình 20.3. Đơn vị co cơ.*
 
+![Cơ chế phân tử co cơ vân](hoasinh_media/HS-20_fig20_4.png)
+*Hình 20.4. Cơ chế phân tử co cơ vân.*
+
+Quá trình co cơ diễn ra theo **Thuyết trượt sợi cơ (Sliding Filament Mechanism)**: Các sợi dày Myosin và sợi mỏng Actin không hề bị co ngắn lại về chiều dài vật lý, mà chúng **trượt lồng vào nhau**, kéo hai đĩa Z lại gần nhau làm ngắn chiều dài sarcomere $\implies$ toàn bộ sợi cơ co rút.
 ### 3.1. Vai trò khởi động của ion Calci ($Ca^{2+}$)
 * **Khi cơ nghỉ:** Nồng độ $Ca^{2+}$ tự do trong bào tương rất thấp ($< 10^{-7}\text{ mol/L}$). Troponin I và Tropomyosin che phủ vị trí gắn trên Actin $\implies$ Myosin không thể gắn vào Actin.
 * **Khi có xung động thần kinh:** Điện thế hoạt động lan truyền theo các ống T (Transverse tubules) khử cực màng lưới nội cơ tương (Sarcoplasmic Reticulum - SR) $\implies$ Mở các kênh phóng thích calci (Ryanodine receptors) $\implies$ Dòng ion $Ca^{2+}$ ùa ạt tràn vào bào tương làm nồng độ $Ca^{2+}$ tăng vọt lên gấp 100 lần ($> 10^{-5}\text{ mol/L}$).

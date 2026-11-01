@@ -48,8 +48,12 @@ Trong cơ thể động vật đa bào bậc cao, sự phối hợp nhịp nhàn
 4. **Truyền tin tiếp xúc trực tiếp (Juxtacrine signaling):** Tín hiệu đòi hỏi sự tiếp xúc trực tiếp màng-đối-màng giữa hai tế bào qua các protein xuyên màng liên kết (như con đường tín hiệu Notch-Delta) hoặc qua cầu nối liên bào (Gap junctions cho phép ion $\text{Ca}^{2+}$ hoặc $\text{cAMP}$ chuyển trực tiếp giữa các tế bào cơ tim).
 5. **Truyền tin thần kinh - nội tiết (Neuroendocrine signaling):** Các neuron thần kinh bài tiết "hormon thần kinh" (neurohormone) từ cúc tận cùng sợi trục trực tiếp vào dòng máu để đến cơ quan đích xa (Ví dụ: Các hormon giải phóng vùng hạ đồi như TRH, GnRH đổ vào hệ mao mạch cửa hạ đồi - tuyến yên; Vasopressin [ADH] và Oxytocin tổng hợp tại nhân trên thị và nhân cạnh não thất đi theo sợi trục đến dự trữ và giải phóng tại thùy sau tuyến yên).
 
-![Sơ đồ vị trí các tuyến nội tiết](hoasinh_media/fig_13_1.png)
-*Hình 13.1. Phân bố vị trí giải phẫu các tuyến nội tiết chủ chốt trong cơ thể người (Vùng hạ đồi, Tuyến yên, Tuyến giáp, Tuyến cận giáp, Tuyến thượng thận, Tuyến tụy nội tiết, Buồng trứng và Tinh hoàn).*
+![Sơ đồ vị trí các tuyến nội tiết](hoasinh_media/HS-13_fig13_2.png)
+*Hình 13.2. Phân bố vị trí giải phẫu các tuyến nội tiết chủ chốt trong cơ thể người.*
+
+![Các loại tín hiệu giữa các tế bào](hoasinh_media/HS-13_fig13_1.png)
+*Hình 13.1. Các loại tín hiệu giữa các tế bào: Nội tiết, cận tiết, tự tiết.*
+
 
 ---
 
@@ -102,7 +106,14 @@ Màng sinh chất đóng vai trò là một hàng rào kỵ nước ngăn cách 
 Hầu hết các thụ thể màng tế bào dành cho hormon peptid và catecholamin thuộc họ **Thụ thể 7 đoạn xuyên màng (7-Transmembrane Receptors / 7-TM)** hay **Thụ thể bắt cặp G-protein (GPCR - G-Protein Coupled Receptors)**. Phân tử thụ thể là một chuỗi polypeptide đơn cuộn thành 7 chuỗi xoắn $\\alpha$ kỵ nước cắm xuyên qua màng phospholipid kép, với đầu tận amin ($-NH_2$) hướng ra phía ngoại bào (chứa vị trí gắn hormon) và đầu tận carboxyl ($-COOH$) cùng 3 quai nội bào hướng vào bào tương (tiếp xúc trực tiếp với protein G).
 
 ![Sơ đồ chu trình hoạt hóa G-protein và tạo cAMP](hoasinh_media/HS-13_fig01_camp_second_messenger.png)
-*Hình 13.2. Cơ chế truyền tín hiệu qua thụ thể GPCR, chu trình nạp năng lượng GTP của Heterotrimeric G-protein và dòng thác khuếch đại tín hiệu tạo cAMP nội bào.*
+*Hình 13.4. Cơ chế truyền tín hiệu qua thụ thể GPCR, chu trình nạp năng lượng GTP của Heterotrimeric G-protein và tạo cAMP nội bào.*
+
+![Trạng thái hoạt động và không hoạt động của protein G](hoasinh_media/HS-13_fig13_5.png)
+*Hình 13.5. Trạng thái hoạt động và không hoạt động của protein G.*
+
+![Cơ chế tác dụng chung của loại hormon qua thụ thể GPCR](hoasinh_media/HS-13_fig13_6.png)
+*Hình 13.6. Cơ chế tác dụng chung của loại hormon thông qua thụ thể GPCR.*
+
 
 #### 2.1.1. Cấu trúc và Chu trình Vận hành của Heterotrimeric G-Protein
 Protein G dị ba phân tử (Heterotrimeric G-protein) định vị ở mặt trong của màng sinh chất, gồm ba tiểu đơn vị cấu trúc: $\\alpha$ ($39 - 52\,\text{kDa}$), $\beta$ ($35 - 36\,\text{kDa}$) và $\\gamma$ ($7 - 10\,\text{kDa}$):
@@ -148,6 +159,9 @@ Chất truyền tin thứ hai $\text{cAMP}$ thể hiện tác động sinh học
 - **Tiểu đơn vị xúc tác C hoạt động:** Sử dụng $\text{ATP}$ để chuyển gốc phosphat vô cơ lên nhóm hydroxyl ($-OH$) của các gốc acid amin **Serin hoặc Threonin** trên các protein đích chuyên biệt:
   $$\text{Protein-OH} + \text{ATP} \xrightarrow{\text{PKA Catalytic subunit}} \text{Protein-O-PO}_3^{2-} + \text{ADP}$$
 
+![Hoạt hóa protein kinase phụ thuộc cAMP](hoasinh_media/HS-13_fig13_8.png)
+*Hình 13.8. Hoạt hóa protein kinase phụ thuộc cAMP (PKA).*
+
 #### 2.2.4. Khuếch đại Tín hiệu Cực đại: Ví dụ Tác dụng của Adrenalin / Glucagon gây Tăng Đường Huyết
 Hệ thống truyền tin qua $\text{cAMP}$ có khả năng khuếch đại tín hiệu theo cấp số nhân (cascade amplification) lên hàng triệu lần:
 1. **$1$ phân tử hormon** (Adrenalin hoặc Glucagon) gắn vào thụ thể GPCR trên màng tế bào gan.
@@ -159,6 +173,9 @@ Hệ thống truyền tin qua $\text{cAMP}$ có khả năng khuếch đại tín
 7. Glycogen Phosphorylase a phân giải hàng triệu gốc Glucose từ Glycogen tạo **Glucose-1-phosphat**, chuyển hóa thành **Glucose tự do** đổ vào tuần hoàn máu.
 *Đồng thời*, PKA còn phosphoryl hóa enzym **Glycogen Synthase**, nhưng ở enzym này, việc gắn gốc phosphat lại làm **bất hoạt** enzym, triệt để ngăn chặn con đường tổng hợp glycogen dư thừa. Khi tế bào cần tắt tín hiệu, enzym **Protein Phosphatase-1 (PP-1)** sẽ khử phosphat để khôi phục trạng thái ban đầu.
 *Tác dụng lâu dài tại nhân tế bào:* Tiểu đơn vị C của PKA có thể khuếch tán qua lỗ màng nhân, phosphoryl hóa yếu tố phiên mã **CREB (cAMP-Response Element Binding Protein)**. Phospho-CREB gắn vào đoạn trình tự DNA đặc hiệu gọi là **CRE (cAMP Response Element)** để kích thích phiên mã các gen mã hóa enzym tân tạo đường như *PEPCK* và *Glucose-6-phosphatase*.
+
+![Dòng thác khuếch đại tín hiệu tạo glucose](hoasinh_media/HS-13_fig13_9.png)
+*Hình 13.9. Dòng thác phản ứng khuếch đại tín hiệu từ giai đoạn kích thích đầu tiên đến tăng tạo glucose.*
 
 ---
 
@@ -174,7 +191,10 @@ Hai độc tố vi khuẩn nguy hiểm minh chứng sâu sắc cho tầm quan tr
 | **Cơ chế Hóa sinh Phân tử** | Xúc tác phản ứng **ADP-ribosyl hóa** chuyển gốc ADP-ribose từ $\text{NAD}^+$ gắn vĩnh viễn vào gốc **Arginin** của $G_s\\alpha$:<br>$\text{NAD}^+ + G_s\\alpha\text{-(Arg)} \rightarrow \text{ADP-ribosyl-}G_s\\alpha + \text{Nicotinamid} + \text{H}^+$ | Xúc tác phản ứng **ADP-ribosyl hóa** chuyển gốc ADP-ribose từ $\text{NAD}^+$ gắn vĩnh viễn vào gốc **Cystein** ở đầu tận C của $G_i\\alpha$:<br>$\text{NAD}^+ + G_i\\alpha\text{-(Cys)} \rightarrow \text{ADP-ribosyl-}G_i\\alpha + \text{Nicotinamid} + \text{H}^+$ |
 | **Hậu quả phân tử** | Làm **mất hoàn toàn hoạt tính enzym GTPase nội tại** của $G_s\\alpha$. Phân tử $G_s\\alpha$ bị khóa chết ở trạng thái liên kết $\text{GTP}$ hoạt động vĩnh viễn không thể tự tắt. | Ngăn cản $G_i\\alpha$ tương tác với GPCR, **khóa chết $G_i\\alpha$ ở trạng thái liên kết GDP bất hoạt**, làm mất khả năng ức chế Adenylate Cyclase. |
 | **Biến đổi nồng độ $\text{cAMP}$** | Tăng vọt liên tục không kiểm soát (gấp hơn 100 lần bình thường). | Tích lũy $\text{cAMP}$ tăng cao kéo dài do mất cơ chế phanh hãm ức chế. |
-| **Biểu hiện Lâm sàng** | Tại tế bào biểu mô niêm mạc ruột non: $\text{cAMP}$ tăng cao kích hoạt PKA phosphoryl hóa liên tục kênh clo **CFTR**, mở toang kênh này gây bài tiết ồ ạt $\text{Cl}^-$ và $\text{HCO}_3^-$ vào lòng ruột kéo theo ion $\text{Na}^+$ và khối lượng nước khổng lồ qua áp lực thẩm thấu $\rightarrow$ **Tiêu chảy phân nước ồ ạt như nước vo gạo (lên tới 10-20 lít/ngày), mất nước điện giải trụy mạch tử vong nhanh chóng**. | Tăng nhạy cảm với histamin, tăng tiết dịch niêm mạc đường hô hấp dữ dội, ức chế hóa ứng động bạch cầu lympho dẫn đến phản ứng viêm đường thở nặng nề và **cơn ho rũ rượi, tím tái không thể hít thở (ho gà)**. |
+
+![Cơ chế tác dụng của độc tố vi khuẩn tả](hoasinh_media/HS-13_fig13_7.png)
+*Hình 13.7. Cơ chế tác dụng của độc tố vi khuẩn tả lên Gs alpha.*
+
 
 ---
 
@@ -183,7 +203,8 @@ Hai độc tố vi khuẩn nguy hiểm minh chứng sâu sắc cho tầm quan tr
 Nhiều hormon và chất dẫn truyền thần kinh vận hành thông qua việc kích hoạt chu trình chuyển hóa phospholipid màng tế bào. Con đường này được phát động bởi các thụ thể bắt cặp với **Protein $G_q$**.
 
 ![Sơ đồ con đường PLC, IP3, DAG và giải phóng Canxi nội bào](hoasinh_media/HS-13_fig02_ip3_dag_calcium.png)
-*Hình 13.3. Dòng thác tín hiệu màng tế bào qua hệ thống Phospholipase C (PLC), giải phóng hai chất truyền tin thứ hai: Inositol 1,4,5-triphosphat (IP3) và 1,2-Diacylglycerol (DAG).*
+*Hình 13.10. Cơ chế tác dụng của hormon qua chất truyền tin thứ hai Ca2+, IP3 và DAG.*
+
 
 #### 2.4.1. Các Hormon Tác dụng qua Hệ $G_q$ - PLC
 Điển hình gồm có:
@@ -210,6 +231,9 @@ Nhiều hormon và chất dẫn truyền thần kinh vận hành thông qua vi�
 #### 2.4.4. Hoạt hóa Protein Kinase C (PKC) và Phức hợp $\text{Ca}^{2+}$-Calmodulin
 - **Hoạt hóa Protein Kinase C (PKC):** Khi nồng độ $\text{Ca}^{2+}$ bào tương tăng cao, $\text{Ca}^{2+}$ liên kết với enzym **Protein Kinase C (PKC)** hòa tan, thúc đẩy PKC chuyển dịch vị trí (translocation) từ dịch bào tương tiến sát tới màng sinh chất. Tại màng, PKC gặp phân tử **DAG** và phospholipid tích điện âm (Phosphatidylserin). Dưới sự phối hợp của cả ba yếu tố: $\text{DAG}$, $\text{Ca}^{2+}$ và Phosphatidylserin, PKC chuyển sang trạng thái hoạt động tối đa. PKC tiến hành phosphoryl hóa các gốc Serin/Threonin trên hàng loạt enzym đích tham gia vào quá trình phân chia tế bào, điều hòa biểu hiện gen và co cơ trơn.
 - **Phức hợp $\text{Ca}^{2+}$-Calmodulin:** Ion $\text{Ca}^{2+}$ tăng vọt trong bào tương còn liên kết với **Calmodulin (CaM)**, một protein cảm biến ion canxi trọng lượng $17\,\text{kDa}$ có 4 vị trí gắn $\text{Ca}^{2+}$ cấu trúc "EF-hand" với ái lực rất cao. Khi gắn đủ $4\,\text{Ca}^{2+}$, Calmodulin thay đổi hình thể không gian tạo ra một rãnh kỵ nước kẹp lấy các enzym mục tiêu, đặc biệt là enzym **Myosin Light Chain Kinase (MLCK)** tại cơ trơn hoặc **$\text{Ca}^{2+}$/Calmodulin-dependent Protein Kinase II (CaMKII)**. MLCK được hoạt hóa sẽ phosphoryl hóa chuỗi nhẹ của phân tử Myosin, khởi động sự trượt của các sợi tơ actin-myosin gây co cơ trơn lòng mạch, cơ trơn tử cung hoặc co bóp các tế bào biểu mô tuyến sữa.
+
+![Sự thay đổi cấu hình calmodulin khi gắn Canxi](hoasinh_media/HS-13_fig13_11.png)
+*Hình 13.11. Sự thay đổi cấu hình Calmodulin khi gắn ion Ca2+.*
 
 ---
 
@@ -245,6 +269,9 @@ Khác với đa số RTK tồn tại dạng monomer chỉ dimer hóa khi gắn p
 1. Khi hai phân tử Insulin gắn vào hai tiểu đơn vị $\\alpha$ ở phía ngoài màng, nó kéo hai tiểu đơn vị $\beta$ ở phía trong màng lại gần nhau.
 2. Sự biến đổi cấu hình không gian này kích hoạt hoạt tính enzym Tyrosine Kinase của chuỗi $\beta$. Mỗi chuỗi $\beta$ sẽ dùng $\text{ATP}$ để phosphoryl hóa chéo các gốc **Tyrosin** nằm trên quai hoạt hóa (activation loop) của chuỗi $\beta$ đối diện (**Trans-autophosphorylation**).
 3. Khi 3 gốc Tyrosin chủ chốt được gắn phosphat, quai hoạt hóa mở toang, bộc lộ hoàn toàn trung tâm xúc tác, biến thụ thể Insulin thành một Tyrosine Kinase hoạt động tối đa.
+
+![Cấu trúc đơn giản của thụ thể insulin](hoasinh_media/HS-13_fig13_12.png)
+*Hình 13.12. Cấu trúc đơn giản của thụ thể Insulin (heterotetramer alpha2 beta2).*
 
 #### 2.6.3. Hai Nhánh Phân kỳ Tín hiệu của Insulin: PI3K/Akt và Ras/MAPK
 Sau khi tự phosphoryl hóa, thụ thể Insulin tuyển dụng và phosphoryl hóa các protein neo giữ trung gian gọi là **IRS (Insulin Receptor Substrates, chủ yếu là IRS-1 và IRS-2)** tại nhiều gốc Tyrosin. Các gốc Phospho-Tyrosin trên IRS trở thành các "ổ cắm" thu hút các phân tử mang domain nhận diện **SH2 (Src Homology 2)**, phát động hai nhánh tín hiệu phân kỳ quan trọng:
@@ -294,7 +321,8 @@ Nhiều hormon polypeptide quan trọng không sở hữu hoạt tính kinase n�
 Các hormon nhóm I bao gồm các **Hormon Steroid** (Glucocorticoid, Mineralocorticoid, Androgen, Estrogen, Progesteron), **Hormon Tuyến giáp** ($\text{T}_3, \text{T}_4$), **Calcitriol** ($1,25\text{-(OH)}_2\text{-D}_3$) và **Acid Retinoic** (dẫn xuất vitamin A).
 
 ![Sơ đồ thụ thể nội bào và thụ thể nhân của hormon steroid](hoasinh_media/HS-13_fig03_steroid_receptors.png)
-*Hình 13.4. Cơ chế tác dụng của hormon Steroid và Hormon Tuyến giáp: Khuếch tán qua màng tế bào, tương tác với thụ thể nội bào, gắn vào yếu tố đáp ứng hormon (HRE) trên DNA và điều hòa biểu hiện gen.*
+*Hình 13.3. Cơ chế tác dụng của hormon Steroid và Hormon Tuyến giáp qua thụ thể nội bào.*
+
 
 ### 3.1. Cấu trúc Miền Chức năng của Siêu họ Thụ thể Nhân (Nuclear Receptor Superfamily)
 Tất cả các thụ thể nội bào đều chia sẻ một cấu trúc bảo tồn cao độ gồm 5 miền chức năng (domains A đến F):
@@ -317,6 +345,9 @@ Tất cả các thụ thể nội bào đều chia sẻ một cấu trúc bảo 
 | **Điều hòa Phiên mã** | Tuyển dụng các **Protein đồng hoạt hóa (Coactivators: p300/CBP, SRC-1)** có hoạt tính **Histone Acetyltransferase (HAT)**, nới lỏng chất nhiễm sắc, lôi kéo RNA Polymerase II đẩy mạnh phiên mã mRNA. | Tuyển dụng các Coactivator mang hoạt tính HAT, tháo xoắn nucleosome tại promoter và khởi động phiên mã gen đích với tốc độ cao. |
 
 ---
+
+![Các hormon theo trục nội tiết của cơ thể](hoasinh_media/HS-13_fig13_13.png)
+*Hình 13.13. Các hormon theo trục nội tiết của cơ thể (Trục Hạ đồi - Tuyến yên - Tuyến đích).*
 
 ## 4. TRỤC ĐIỀU HÒA THẦN KINH - NỘI TIẾT HẠ ĐỒI - TUYẾN YÊN - TUYẾN ĐÍCH
 
@@ -343,12 +374,33 @@ Gồm các tế bào biểu mô nội tiết sản xuất 6 hormon chủ đạo:
 - **Nhóm Hormon Polypeptide dẫn xuất POMC:** **ACTH** (39 acid amin). Đoạn 24 acid amin đầu tận N mang đầy đủ hoạt tính sinh học kích thích vỏ thượng thận.
 - **Nhóm Hormon Somatomammotropin:** **GH** (191 acid amin) và **Prolactin** (199 acid amin), có cấu trúc tương đồng cao.
 
+![Cấu trúc sơ lược hormon tăng trưởng ở người](hoasinh_media/HS-13_fig13_14.png)
+*Hình 13.14. Cấu trúc sơ lược hormon tăng trưởng ở người (GH).*
+
+![Cấu trúc sơ lược HCG, FSH, LH và TSH](hoasinh_media/HS-13_fig13_15.png)
+*Hình 13.15. Cấu trúc sơ lược các hormon glycoprotein: hCG, FSH, LH và TSH.*
+
+![Cấu tạo ACTH](hoasinh_media/HS-13_fig13_16.png)
+*Hình 13.16. Cấu tạo phân tử ACTH.*
+
 #### 4.2.2. Thùy sau Tuyến yên (Neurohypophysis)
 Bản chất là mô thần kinh, không tự tổng hợp hormon mà là nơi tích trữ và phóng thích hai nonapeptid (9 acid amin) do các thân neuron ở nhân trên thị (supraoptic) và nhân cạnh não thất (paraventricular) vùng hạ đồi tổng hợp, đi kèm protein tải Neurophysin dọc theo sợi trục:
 - **Oxytocin:** Kích thích co bóp mạnh cơ trơn tử cung (gây chuyển dạ đẻ) và co bóp các tế bào biểu mô cơ bao quanh nang tuyến vú (phản xạ tống sữa khi trẻ bú mẹ).
 - **Vasopressin (ADH - Antidiuretic Hormone):**
   + Thụ thể $V_2$ ở màng đáy - bên tế bào ống góp thận $\rightarrow$ $G_s$ $\rightarrow$ $\text{cAMP}$ $\rightarrow$ PKA $\rightarrow$ Kích thích chuyển các bóng chứa kênh nước **Aquaporin-2 (AQP2)** ra cắm vào màng đỉnh, tăng cường tái hấp thu nước tự do từ dịch lọc ống thận vào máu, cô đặc nước tiểu và làm giảm áp lực thẩm thấu huyết tương.
   + Thụ thể $V_1$ ở cơ trơn mạch máu $\rightarrow$ $G_q$ $\rightarrow$ $\text{IP}_3/\text{DAG}/\text{Ca}^{2+}$ $\rightarrow$ Co thắt tiểu động mạch, tăng huyết áp (khi cơ thể mất máu cấp tính).
+
+![Cấu tạo của vasopressin và oxytocin](hoasinh_media/HS-13_fig13_17.png)
+*Hình 13.17. Cấu tạo phân tử của Vasopressin và Oxytocin.*
+
+![Cấu trúc bậc 1 của calcitonin](hoasinh_media/HS-13_fig13_18.png)
+*Hình 13.18. Cấu trúc bậc 1 của Calcitonin.*
+
+![Quá trình hình thành từ tiền chất và cấu trúc insulin](hoasinh_media/HS-13_fig13_19.png)
+*Hình 13.19. Quá trình hình thành từ tiền chất proinsulin và cấu trúc insulin.*
+
+![Cấu tạo sơ lược của glucagon](hoasinh_media/HS-13_fig13_20.png)
+*Hình 13.20. Cấu tạo sơ lược của Glucagon.*
 
 ---
 
@@ -371,6 +423,9 @@ Bản chất là mô thần kinh, không tự tổng hợp hormon mà là nơi t
 #### 5.1.1. Catecholamin (Tủy Thượng thận & Hệ Giao cảm)
 Catecholamin bao gồm **Dopamin, Noradrenalin (Norepinephrin)** và **Adrenalin (Epinephrin)**, đều chứa nhân Catechol (vòng benzen có 2 nhóm $-OH$ ở vị trí ortho) gắn với một chuỗi ethylamin.
 
+![Cấu tạo hóa học của catecholamin](hoasinh_media/HS-13_fig13_21.png)
+*Hình 13.21. Cấu tạo hóa học của catecholamin.*
+
 ##### Con đường Sinh tổng hợp Catecholamin:
 Diễn ra tại tế bào ưa crôm (chromaffin cells) của tủy thượng thận và neuron hậu hạch giao cảm từ acid amin thiết yếu L-Phenylalanin:
 1. **Phenylalanin $\rightarrow$ L-Tyrosin:** Nhờ enzym *Phenylalanin Hydroxylase* (cần Tetrahydrobiopterin - $\text{BH}_4$).
@@ -381,6 +436,9 @@ Diễn ra tại tế bào ưa crôm (chromaffin cells) của tủy thượng th�
 
 Tại tủy thượng thận người, tỷ lệ bài tiết thông thường là **$80\%$ Adrenalin** và **$20\%$ Noradrenalin**.
 
+![Tổng hợp epinephrin và norepinephrin](hoasinh_media/HS-13_fig13_22.png)
+*Hình 13.22. Con đường sinh tổng hợp Epinephrin và Norepinephrin.*
+
 ##### Con đường Thoái hóa Catecholamin:
 Catecholamin có thời gian bán hủy cực ngắn ($1-2$ phút) trong máu. Quá trình giáng hóa diễn ra chủ yếu ở gan và thận nhờ sự phối hợp của hai enzym chủ chốt:
 - **COMT (Catechol-O-Methyltransferase):** Chuyển nhóm methyl từ SAM vào nhóm $-OH$ vị trí carbon số 3 của vòng catechol (tạo Metanephrin từ Adrenalin, và Normetanephrin từ Noradrenalin).
@@ -388,10 +446,19 @@ Catecholamin có thời gian bán hủy cực ngắn ($1-2$ phút) trong máu. Q
 
 **Sản phẩm thoái hóa cuối cùng bền vững nhất:** Là **Acid Vanillylmandelic (VMA / 4-hydroxy-3-methoxymandelic acid)** cùng các dẫn xuất **Metanephrin / Normetanephrin**. Các chất này được liên hợp với acid glucuronic/sulfuric và đào thải hoàn toàn qua nước tiểu. Định lượng VMA và Metanephrin tự do trong nước tiểu 24 giờ là tiêu chuẩn vàng sinh hóa để chẩn đoán u tế bào ưa crôm tủy thượng thận (**Pheochromocytoma**).
 
+![Thoái hóa epinephrin và norepinephrin](hoasinh_media/HS-13_fig13_23.png)
+*Hình 13.23. Con đường thoái hóa Epinephrin và Norepinephrin tạo VMA.*
+
 ---
 
 #### 5.1.2. Hormon Tuyến giáp (Thyroid Hormones: $\text{T}_3$ và $\text{T}_4$)
 Tuyến giáp tổng hợp hai hormon chính là **Thyroxin (T4 / 3,5,3',5'-tetraiodothyronin)** và **Triiodothyronin (T3 / 3,5,3'-triiodothyronin)**.
+
+![Đơn vị chức năng tuyến giáp](hoasinh_media/HS-13_fig13_24.png)
+*Hình 13.24. Đơn vị chức năng nang tuyến giáp.*
+
+![Cấu tạo sơ lược T3 và T4](hoasinh_media/HS-13_fig13_25.png)
+*Hình 13.25. Cấu tạo sơ lược T3 và T4.*
 
 ##### 4 Giai đoạn Sinh tổng hợp và Giải phóng Hormon Tuyến giáp:
 1. **Giai đoạn 1 - Bắt giữ và Cô đặc Iodua ($I^-$ trapping):**
@@ -409,6 +476,9 @@ Tuyến giáp tổng hợp hai hormon chính là **Thyroxin (T4 / 3,5,3',5'-tetr
 4. **Giai đoạn 4 - Ẩm bào, Thủy phân và Bài tiết Hormon:**
    - Dưới sự kích thích của TSH, tế bào nang giáp vươn các chân giả bắt giữ các giọt keo Thyroglobulin đưa vào tế bào bằng hiện tượng ẩm bào (endocytosis).
    - Các túi này hòa màng với Lysosome. Các enzym protease và peptidase thủy phân phân tử Thyroglobulin giải phóng $\text{T}_3, \text{T}_4$ tự do khuếch tán vào mao mạch máu. Các phân tử MIT và DIT còn sót lại lập tức bị enzym **Iodotyrosine Deiodinase (DEHAL1)** khử lấy lại ion $I^-$ tái sử dụng bên trong tế bào.
+
+![Quá trình tổng hợp hormon giáp trạng](hoasinh_media/HS-13_fig13_26.png)
+*Hình 13.26. Quá trình tổng hợp hormon giáp trạng qua các giai đoạn.*
 
 ##### Vận chuyển trong Máu và Chuyển hóa Ngoại vi:
 - Sau khi vào máu, $>99,97\%$ $\text{T}_4$ và $>99,7\%$ $\text{T}_3$ gắn chặt chẽ với các protein huyết tương: **TBG (Thyroxine-Binding Globulin)** vận chuyển khoảng $75\%$, **Transthyretin (TBPA)** vận chuyển $15\%$, và **Albumin** vận chuyển $10\%$. Chỉ có **$0,03\%$ $\text{T}_4$ tự do (Free $\text{T}_4$ - $\text{FT}_4$)** và **$0,3\%$ $\text{T}_3$ tự do (Free $\text{T}_3$ - $\text{FT}_3$)** là có hoạt tính sinh học.
@@ -435,6 +505,9 @@ Căn cứ vào số lượng nguyên tử carbon và vị trí các nhóm thế,
 
 #### 5.2.2. Con đường Sinh tổng hợp Hormon Steroid (Steroidogenesis)
 Quá trình tổng hợp diễn ra tại ba vùng riêng biệt của **Vỏ thượng thận** (Glomerulosa - Cầu, Fasciculata - Bó, Reticularis - Lưới) và **Tuyến sinh dục** (Tinh hoàn, Buồng trứng):
+
+![Cấu trúc tuyến vỏ thượng thận](hoasinh_media/HS-13_fig13_27.png)
+*Hình 13.27. Cấu trúc các vùng của tuyến vỏ thượng thận (Cầu, Bó, Lưới).*
 
 1. **Phản ứng mở đầu giới hạn tốc độ (Rate-limiting step):**
    - Protein điều hòa **StAR (Steroidogenic Acute Regulatory protein)** vận chuyển Cholesterol từ màng ngoài vào màng trong ty thể.
