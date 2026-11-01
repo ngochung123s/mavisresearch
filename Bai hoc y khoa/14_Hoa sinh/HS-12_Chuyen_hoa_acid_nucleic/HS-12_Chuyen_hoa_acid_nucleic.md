@@ -55,7 +55,6 @@ Bằng các thí nghiệm sử dụng chất đồng vị phóng xạ ($^{14}\te
 ![Nguồn gốc các nguyên tử trong vòng purin](hoasinh_media/HS-12_fig12_3.png)
 *Hình 12.3. Nguồn gốc các nguyên tử trong vòng purin.*
 
-
 ---
 
 ### 2.2. Con đường Tân tạo (De Novo Synthesis) Purin Ribonucleotid
@@ -116,7 +115,6 @@ Từ chất chuyển hóa ngã ba đường **IMP**, tế bào tổng hợp nên
 ![Quá trình tổng hợp AMP và GMP từ IMP](hoasinh_media/HS-12_fig12_5.png)
 *Hình 12.5. Quá trình tổng hợp AMP và GMP từ IMP.*
 
-
 #### Nhánh 1: Tổng hợp Adenosine Monophosphate (AMP)
 1. **IMP kết hợp với Aspartat:**
    $$\text{IMP} + \text{Aspartat} + \mathbf{GTP} \xrightarrow{\text{Adenylosuccinate synthetase}} \text{Adenylosuccinate} + \text{GDP} + \text{P}_i$$
@@ -144,10 +142,6 @@ Từ chất chuyển hóa ngã ba đường **IMP**, tế bào tổng hợp nên
 Con đường tân tạo Purin de novo đòi hỏi tiêu tốn một lượng năng lượng khổng lồ (ít nhất 6 ATP cho mỗi phân tử IMP). Do đó, tế bào đã tiến hóa một con đường thứ hai cực kỳ tiết kiệm năng lượng gọi là **Con đường Trục vớt / Tận dụng (Salvage Pathway)**, cho phép tái chế trực tiếp các base Purin tự do giải phóng từ quá trình thoái hóa acid nucleic nội bào để tái tạo lại nucleotid chỉ qua một phản ứng đơn giản:
 
 $$\text{Base Purin tự do} + \text{PRPP} \xrightarrow{\text{Phosphoribosyltransferase}} \text{Purin Nucleotid} + \text{PP}_i$$
-
-![Con đường trục vớt purin](hoasinh_media/HS-12_fig02_salvage_pathway.png)
-*Hình 12.5b. Sơ đồ con đường trục vớt tận dụng purin qua enzyme HGPRT và APRT.*
-
 
 ### 3.1. Hai Enzyme Cốt lõi của Con đường Trục vớt
 1. **APRT (Adenine phosphoribosyltransferase):**
@@ -188,7 +182,6 @@ Quá trình thoái hóa các purin ribonucleotid diễn ra liên tục trong cơ
 
 ![Con đường thoái hóa của purin nucleotid](hoasinh_media/HS-12_fig12_1.png)
 *Hình 12.1. Con đường thoái hóa của purin nucleotid tạo thành acid uric.*
-
 
 #### Các Phản ứng Thoái hóa Tuần tự:
 1. **Thoái hóa Nhánh AMP:**
@@ -286,7 +279,6 @@ Khác với con đường tân tạo Purin (xây dựng từng bước nhân pur
 ![Quá trình tổng hợp UMP gồm 6 phản ứng](hoasinh_media/HS-12_fig12_6.png)
 *Hình 12.6. Quá trình tổng hợp UMP gồm 6 phản ứng hóa học với sự xúc tác của enzym.*
 
-
 ### 5.1. Con đường Tân tạo Pyrimidin (De Novo Synthesis)
 
 Con đường gồm 6 phản ứng chính diễn ra chủ yếu tại **bào tương và màng trong ty thể**:
@@ -336,7 +328,6 @@ $$\text{OMP} \xrightarrow{\text{OMP Decarboxylase}} \text{Uridine Monophosphate 
 
 ![Sơ đồ tổng hợp CTP từ UTP](hoasinh_media/HS-12_fig12_7.png)
 *Hình 12.7. Sơ đồ tổng hợp CTP từ UTP.*
-
 
 1. **Tổng hợp CTP từ UTP:**
    $$\text{UMP} \xrightarrow{\text{Kinase}} \text{UDP} \xrightarrow{\text{Kinase}} \text{UTP}$$

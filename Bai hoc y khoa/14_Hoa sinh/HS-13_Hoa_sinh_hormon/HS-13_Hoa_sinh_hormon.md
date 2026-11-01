@@ -32,8 +32,6 @@ Sau khi hoàn thành chương học này, học viên cần đạt được các
 
 ---
 
-
-
 ## 1. ĐẠI CƯƠNG VỀ HỆ THỐNG NỘI TIẾT VÀ PHÂN LOẠI HORMON
 
 ### 1.1. Khái niệm và Các hình thức truyền tin gian bào (Intercellular Signaling)
@@ -53,7 +51,6 @@ Trong cơ thể động vật đa bào bậc cao, sự phối hợp nhịp nhàn
 
 ![Các loại tín hiệu giữa các tế bào](hoasinh_media/HS-13_fig13_1.png)
 *Hình 13.1. Các loại tín hiệu giữa các tế bào: Nội tiết, cận tiết, tự tiết.*
-
 
 ---
 
@@ -94,7 +91,6 @@ Dựa vào cấu trúc lý hóa, khả năng đi qua lớp phospholipid kép c�
    - *Đặc điểm vận chuyển:* Tan tự do trong huyết tương, không cần chất mang (trừ GH và IGF-1 có protein gắn bảo vệ để kéo dài bán hủy).
    - *Đặc điểm tác dụng:* Do bản chất ưa nước và phân tử lớn phân cực, chúng không thể tự vượt qua lớp màng lipid kép. Chúng tác động như "chất thông tin thứ nhất" (first messenger), gắn đặc hiệu vào thụ thể xuyên màng ở mặt ngoài tế bào. Sự gắn này gây biến đổi cấu hình thụ thể, phát động dòng thác tín hiệu nội bào qua trung gian của các **chất thông tin thứ hai (second messengers)** như $\text{cAMP}$, $\text{cGMP}$, $\text{IP}_3$, $\text{DAG}$, $\text{Ca}^{2+}$ hoặc kích hoạt dòng thác kinase phosphoryl hóa protein sẵn có. Đáp ứng sinh học diễn ra cực kỳ nhanh chóng (từ vài phần giây đến vài phút) thông qua việc thay đổi tức thời hoạt tính của các enzym chuyển hóa hoặc tính thấm của kênh ion màng.
 
-
 ## 2. CƠ CHẾ TRUYỀN TÍN HIỆU CỦA HORMON GẮN THỤ THỂ MÀNG TẾ BÀO (NHÓM II)
 
 Màng sinh chất đóng vai trò là một hàng rào kỵ nước ngăn cách môi trường bào tương với dịch ngoại bào. Để truyền đạt thông tin vào bên trong tế bào, các hormon nhóm II sử dụng các hệ thống chuyển đổi tín hiệu xuyên màng tinh vi và phức tạp. Dưới đây là 5 con đường truyền tín hiệu chính được minh chứng chi tiết về mặt hóa sinh học phân tử:
@@ -105,15 +101,11 @@ Màng sinh chất đóng vai trò là một hàng rào kỵ nước ngăn cách 
 
 Hầu hết các thụ thể màng tế bào dành cho hormon peptid và catecholamin thuộc họ **Thụ thể 7 đoạn xuyên màng (7-Transmembrane Receptors / 7-TM)** hay **Thụ thể bắt cặp G-protein (GPCR - G-Protein Coupled Receptors)**. Phân tử thụ thể là một chuỗi polypeptide đơn cuộn thành 7 chuỗi xoắn $\\alpha$ kỵ nước cắm xuyên qua màng phospholipid kép, với đầu tận amin ($-NH_2$) hướng ra phía ngoại bào (chứa vị trí gắn hormon) và đầu tận carboxyl ($-COOH$) cùng 3 quai nội bào hướng vào bào tương (tiếp xúc trực tiếp với protein G).
 
-![Sơ đồ chu trình hoạt hóa G-protein và tạo cAMP](hoasinh_media/HS-13_fig01_camp_second_messenger.png)
-*Hình 13.4. Cơ chế truyền tín hiệu qua thụ thể GPCR, chu trình nạp năng lượng GTP của Heterotrimeric G-protein và tạo cAMP nội bào.*
-
 ![Trạng thái hoạt động và không hoạt động của protein G](hoasinh_media/HS-13_fig13_5.png)
 *Hình 13.5. Trạng thái hoạt động và không hoạt động của protein G.*
 
 ![Cơ chế tác dụng chung của loại hormon qua thụ thể GPCR](hoasinh_media/HS-13_fig13_6.png)
 *Hình 13.6. Cơ chế tác dụng chung của loại hormon thông qua thụ thể GPCR.*
-
 
 #### 2.1.1. Cấu trúc và Chu trình Vận hành của Heterotrimeric G-Protein
 Protein G dị ba phân tử (Heterotrimeric G-protein) định vị ở mặt trong của màng sinh chất, gồm ba tiểu đơn vị cấu trúc: $\\alpha$ ($39 - 52\,\text{kDa}$), $\beta$ ($35 - 36\,\text{kDa}$) và $\\gamma$ ($7 - 10\,\text{kDa}$):
@@ -195,16 +187,11 @@ Hai độc tố vi khuẩn nguy hiểm minh chứng sâu sắc cho tầm quan tr
 ![Cơ chế tác dụng của độc tố vi khuẩn tả](hoasinh_media/HS-13_fig13_7.png)
 *Hình 13.7. Cơ chế tác dụng của độc tố vi khuẩn tả lên Gs alpha.*
 
-
 ---
 
 ### 2.4. Con đường Phospholipase C (PLC) - $\text{IP}_3$ / Diacylglycerol (DAG) - $\text{Ca}^{2+}$ - Protein Kinase C (PKC) qua $G_q$
 
 Nhiều hormon và chất dẫn truyền thần kinh vận hành thông qua việc kích hoạt chu trình chuyển hóa phospholipid màng tế bào. Con đường này được phát động bởi các thụ thể bắt cặp với **Protein $G_q$**.
-
-![Sơ đồ con đường PLC, IP3, DAG và giải phóng Canxi nội bào](hoasinh_media/HS-13_fig02_ip3_dag_calcium.png)
-*Hình 13.10. Cơ chế tác dụng của hormon qua chất truyền tin thứ hai Ca2+, IP3 và DAG.*
-
 
 #### 2.4.1. Các Hormon Tác dụng qua Hệ $G_q$ - PLC
 Điển hình gồm có:
@@ -254,7 +241,6 @@ Hệ thống Guanylate Cyclase sử dụng $\text{cGMP}$ (Guanosin-3',5'-cyclic 
    - *Ứng dụng Dược lý học Lâm sàng:*
      - Thuốc cấp cứu cơn đau thắt ngực **Nitroglycerin** và dẫn xuất Nitrat hữu cơ khi vào cơ thể sẽ chuyển hóa giải phóng $\text{NO}$, kích hoạt sGC gây giãn tĩnh mạch ngoại vi và giãn động mạch vành, giảm tiền gánh và giảm tiêu thụ oxy cơ tim.
      - Phân tử $\text{cGMP}$ bị giáng hóa thành $5'\text{-GMP}$ bởi enzym **Phosphodiesterase typ 5 (PDE5)** phân bố nhiều ở mạch máu phổi và thể hang dương vật. Các thuốc **Sildenafil (Viagra), Tadalafil** là chất ức chế chọn lọc enzym PDE5, ngăn cản phân hủy $\text{cGMP}$, duy trì giãn mạch kéo dài được ứng dụng xuất sắc trong điều trị rối loạn cương dương và tăng áp lực động mạch phổi tiên phát.
-
 
 ### 2.6. Thụ thể gắn Enzym Nội tại: Thụ thể Tyrosine Kinase (RTK) và Tín hiệu Insulin
 
@@ -319,10 +305,6 @@ Nhiều hormon polypeptide quan trọng không sở hữu hoạt tính kinase n�
 ## 3. CƠ CHẾ TRUYỀN TÍN HIỆU QUA THỤ THỂ NỘI BÀO / NHÂN (NHÓM I)
 
 Các hormon nhóm I bao gồm các **Hormon Steroid** (Glucocorticoid, Mineralocorticoid, Androgen, Estrogen, Progesteron), **Hormon Tuyến giáp** ($\text{T}_3, \text{T}_4$), **Calcitriol** ($1,25\text{-(OH)}_2\text{-D}_3$) và **Acid Retinoic** (dẫn xuất vitamin A).
-
-![Sơ đồ thụ thể nội bào và thụ thể nhân của hormon steroid](hoasinh_media/HS-13_fig03_steroid_receptors.png)
-*Hình 13.3. Cơ chế tác dụng của hormon Steroid và Hormon Tuyến giáp qua thụ thể nội bào.*
-
 
 ### 3.1. Cấu trúc Miền Chức năng của Siêu họ Thụ thể Nhân (Nuclear Receptor Superfamily)
 Tất cả các thụ thể nội bào đều chia sẻ một cấu trúc bảo tồn cao độ gồm 5 miền chức năng (domains A đến F):

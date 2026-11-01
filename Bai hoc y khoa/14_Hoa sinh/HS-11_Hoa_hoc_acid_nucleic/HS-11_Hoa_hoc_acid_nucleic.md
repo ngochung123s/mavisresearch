@@ -28,7 +28,6 @@ Acid nucleic là đại phân tử sinh học mang và truyền đạt thông ti
 ![Cấu trúc phân tử ribonucleotid và deoxyribonucleotid](hoasinh_media/HS-11_fig11_2.png)
 *Hình 11.2. Cấu trúc hóa học của (a) ribonucleotid và (b) deoxyribonucleotid.*
 
-
 ### 1.1. Các Base Nitơ (Nitrogenous Bases)
 
 Các base nitơ trong acid nucleic là các hợp chất dị vòng chứa carbon và nitơ, có tính base yếu và cấu trúc phẳng thơm (aromatic planar):
@@ -43,7 +42,6 @@ Nhân Pyrimidin là một vòng dị vòng sáu cạnh chứa hai nguyên tử n
 - **Cytosin (C):** $2\text{-oxy-4-amino pyrimidin}$ (có ở cả DNA và RNA).
 - **Uracil (U):** $2,4\text{-dioxy pyrimidin}$ (thường chỉ có trong RNA).
 - **Thymin (T):** $5\text{-methyl-2,4-dioxy pyrimidin}$ hay $5\text{-methyluracil}$ (thường chỉ có trong DNA).
-
 
 #### 1.1.3. Tính chất hỗ biến Lactam - Lactim và Nguy cơ Đột biến Ghép đôi sai
 - Các base có chứa nguyên tử oxy (Guanin, Thymin, Uracil) tồn tại ở trạng thái cân bằng hỗ biến (tautomeric equilibrium) giữa hai dạng:
@@ -150,7 +148,6 @@ Dựa trên dữ liệu nhiễu xạ tia X sắc nét của Rosalind Franklin v�
 ![Mô hình mô phỏng cấu trúc B-DNA](hoasinh_media/HS-11_fig11_4.png)
 *Hình 11.4. Mô hình mô phỏng cấu trúc B-DNA theo Watson và Crick.*
 
-
 #### Các Đặc điểm Cấu trúc Cốt lõi của B-DNA:
 1. **Hai chuỗi polynucleotid xoắn kép:** Gồm hai sợi đơn cuộn xoắn quanh một trục tưởng tượng chung theo chiều xoắn sang phải (right-handed helix).
 2. **Nguyên tắc Đối song song (Antiparallel):** Hai sợi đơn chạy ngược chiều nhau: một sợi chạy theo hướng $5' \to 3'$ thì sợi đối diện chạy theo hướng $3' \to 5'$.
@@ -230,7 +227,6 @@ Trái với quan niệm phổ biến cho rằng liên kết hydro là lực chí
 ![Sự biến tính của DNA là quá trình thuận nghịch](hoasinh_media/HS-11_fig11_5.png)
 *Hình 11.5. Sự biến tính của DNA là quá trình thuận nghịch (đường cong biến tính nhiệt và hồi tính).*
 
-
 #### 2.6.3. Nhiệt độ Nóng chảy $T_m$ (Melting Temperature)
 - **Nhiệt độ nóng chảy ($T_m$)** được định nghĩa là nhiệt độ mà tại đó **$50\%$ số phân tử DNA trong dung dịch đã bị biến tính** thành sợi đơn (tương ứng với điểm uốn của đường cong nóng chảy).
 - Các yếu tố ảnh hưởng trực tiếp đến giá trị $T_m$:
@@ -287,9 +283,6 @@ Chiếm khoảng $15\%$ tổng lượng RNA tế bào, có kích thước nhỏ 
 - **Cấu trúc bậc ba hình chữ L ngược (L-shaped 3D structure):**
   - Được giải mã bằng tinh thể học tia X bởi Alexander Rich và Aaron Klug (1974).
   - Hai nhánh của chữ L dài khoảng $60\,\text{Å}$ và cách nhau một góc $90^\circ$: một đầu là nhánh gắn acid amin $-CCA-3'$, đầu kia là vòng đối mã anticodon. Khoảng cách không gian $70\,\text{Å}$ giữa hai đầu đảm bảo cho việc lắp ghép chính xác vào các vị trí A và P trên ribosome mà không gây va chạm lập thể.
-
-![Cấu trúc không gian của tRNA](hoasinh_media/HS-11_fig02_trna_structure.png)
-*Hình 11.7. Mô hình cấu trúc không gian 3 chiều hình chữ L ngược của tRNA.*
 
 ---
 

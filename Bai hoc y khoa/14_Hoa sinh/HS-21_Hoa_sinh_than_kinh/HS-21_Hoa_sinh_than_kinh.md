@@ -69,8 +69,7 @@ Mặc dù não bộ chỉ chiếm khoảng **$2\%$ trọng lượng cơ thể** 
 
 ## 3. CƠ CHẾ DẪN TRUYỀN XUNG THẦN KINH QUA KHE SYNAP
 
-![Cơ chế dẫn truyền xung thần kinh qua khe Synap](hoasinh_media/HS-21_fig01_synapse_neurotransmitters.png)
-*Hình 21.1b. Cấu trúc khe Synap: Điện thế hoạt động mở kênh Ca2+, kích hoạt hòa màng túi synap giải phóng chất dẫn truyền thần kinh vào khe synap.*
+
 Quá trình dẫn truyền xung động thần kinh hóa học diễn ra qua 5 giai đoạn phân tử kế tiếp:
 1. **Sinh tổng hợp:** Chất dẫn truyền thần kinh (Neurotransmitter - NT) được tổng hợp tại thân nơron hoặc ngay tại cúc tận cùng synap nhờ các enzym đặc hiệu.
 2. **Đóng gói dự trữ:** NT được bơm tích cực vào bên trong các **túi synap (Synaptic vesicles)** nhờ các bơm proton phụ thuộc ATP.

@@ -23,9 +23,6 @@ Sinh tổng hợp protein (dịch mã - translation) là quá trình tế bào c
 
 $$\text{DNA} \xrightarrow{\text{Phiên mã (Transcription)}} \text{mRNA} \xrightarrow{\text{Dịch mã (Translation)}} \text{Protein}$$
 
-![Bản đồ mã di truyền và quá trình dịch mã](hoasinh_media/HS-10_fig01_genetic_code_translation.png)
-*Hình 10.0. Bản đồ mã di truyền chuẩn và sơ đồ tổng quan quá trình dịch mã.*
-
 ### 1.1. Bốn đặc tính cốt lõi của Mã di truyền
 
 Mã di truyền (Genetic code) là từ điển ngôn ngữ phân tử quy định mối quan hệ tương ứng giữa 4 loại nucleotide ($A, U, G, C$) trên mRNA và 20 loại acid amin chuẩn tạo protein. Bằng các thí nghiệm đột phá của Marshall Nirenberg, Heinrich Matthaei và Har Gobind Khorana (đoạt giải Nobel Y học năm 1968), cấu trúc mã di truyền đã được làm sáng tỏ với 4 đặc tính nền tảng:
@@ -177,7 +174,6 @@ Kéo dài là một chu kỳ lặp đi lặp lại gồm 3 bước tuần tự n
 ![Giai đoạn kéo dài chuỗi polypeptide 10.5B](hoasinh_media/HS-10_fig10_5B.png)
 *Hình 10.5B. Giai đoạn kéo dài chuỗi: Chuyển vị của ribosom dọc theo phân tử mRNA.*
 
-
 #### Bước 1: Gắn Aminoacyl-tRNA mới vào vị trí A (Decoding / A-site binding)
 - Codon tiếp theo trên mRNA nằm lộ ra tại vị trí A của ribosom.
 - Một phân tử aminoacyl-tRNA tương ứng được vận chuyển đến vị trí A dưới dạng phức hợp ba phần: **EF-Tu · GTP · Aminoacyl-tRNA** (ở vi khuẩn) hoặc **eEF1A · GTP · Aminoacyl-tRNA** (ở nhân thực).
@@ -218,7 +214,6 @@ Quá trình dịch mã dừng lại khi một trong 3 codon kết thúc ($\text{
 
 ![Minh họa toàn bộ quá trình sinh tổng hợp protein](hoasinh_media/HS-10_fig10_7.png)
 *Hình 10.7. Minh họa quá trình sinh tổng hợp protein hoàn chỉnh từ nhân ra bào tương.*
-
 
 ### 3.5. Cân bằng Năng lượng của Sinh tổng hợp Protein
 
@@ -292,10 +287,6 @@ Tế bào không tổng hợp toàn bộ các loại protein mọi lúc với c�
 - **Operator ($O$):** Vị trí vận hành gắn protein điều hòa.
 - **Các gen cấu trúc ($Z, Y, A$ hoặc $TrpE, D, C, B, A$):** Mã hóa các enzyme trong cùng một con đường chuyển hóa.
 - **Gen điều hòa ($R$ hoặc $I$):** Nằm ngoài operon, liên tục phiên mã tạo protein điều hòa (Repressor).
-
-![Mô hình điều hòa Operon Lac](hoasinh_media/HS-10_fig02_lac_operon.png)
-*Hình 10.8. Mô hình cảm ứng tổng hợp protein (Operon Lac).*
-
 
 #### 6.1.1. Operon Lac (Mô hình cảm ứng kinh điển của Jacob & Monod - Nobel 1965)
 Operon Lac của *E. coli* chứa 3 gen cấu trúc cần thiết cho việc vận chuyển và chuyển hóa đường lactose:
