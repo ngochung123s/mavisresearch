@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-02 Hô hấp tế bào, phosphoryl-oxy hóa và chu trình acid citric",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:42:55",
+  "generated_at": "2026-11-02T00:02:32",
   "cards_source": "HS-02_Nang_luong_sinh_hoc.cards.v2.json",
-  "cards_source_sha256": "1437c8b7837507e3837eb25a2f36db380fe8dd1e1a89c17bdb8ebf23b239277a",
-  "card_count": 17,
+  "cards_source_sha256": "eaeded5c19300808204e787bb06662bc98700a60a10602869817afeb38ca47f4",
+  "card_count": 73,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-02_Nang_luong_sinh_hoc\\HS-02_Nang_luong_sinh_hoc_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 17,
     "unchanged": 0,
-    "added": 17,
+    "added": 56,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 17
+    "deck_notes": 73
   },
-  "apkg_sha256": "c095aa0ccb6f677fc8713ec268929150dfb16d575c5e76a1a0efb7c4aed18e78",
-  "sqlite_notes": 17,
-  "sqlite_cards": 17
+  "apkg_sha256": "fc0f269c18ec16e8930789fa5e61103a2327c805c52bf67fefcd928121db4a83",
+  "sqlite_notes": 73,
+  "sqlite_cards": 73
 }
