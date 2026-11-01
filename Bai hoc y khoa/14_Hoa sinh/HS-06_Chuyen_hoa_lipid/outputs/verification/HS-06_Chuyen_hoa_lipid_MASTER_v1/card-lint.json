@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-06 Chuyển hóa lipid và lipoprotein máu",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:34",
+  "generated_at": "2026-11-02T01:06:39",
   "cards_source": "HS-06_Chuyen_hoa_lipid.cards.v2.json",
-  "cards_source_sha256": "7c41719793cb5f4868d44abd19fe1fcfa017c480391f3e6507dde823f382e0c6",
-  "card_count": 12,
+  "cards_source_sha256": "89f536651dec9f0510376019632ab9dde08eb3e9badbf578ed4aae70520f3900",
+  "card_count": 71,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-06_Chuyen_hoa_lipid\\HS-06_Chuyen_hoa_lipid_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 12,
     "unchanged": 0,
-    "added": 12,
+    "added": 59,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 12
+    "deck_notes": 71
   },
-  "apkg_sha256": "82856d4b28234766eadc6f6f8d5d12ad412b186a3a321004c67fc9551aa706c0",
-  "sqlite_notes": 12,
-  "sqlite_cards": 12
+  "apkg_sha256": "5dbfb00f9df1fdeae03b74d113d381acfbb537bd8a65d6f5da7f7a86562a95c7",
+  "sqlite_notes": 71,
+  "sqlite_cards": 71
 }
