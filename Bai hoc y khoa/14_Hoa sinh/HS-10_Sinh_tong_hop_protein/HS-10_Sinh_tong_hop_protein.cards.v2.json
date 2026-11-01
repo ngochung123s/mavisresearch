@@ -1,0 +1,169 @@
+{
+  "deck_id": 1401010001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-10 Sinh tổng hợp protein và điều hòa biểu hiện gen",
+  "card_count": 9,
+  "cards": [
+    {
+      "id": "HS10-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · SINH TỔNG HỢP PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Mã di truyền",
+      "tier": 1,
+      "front": "Trình bày 4 đặc điểm cốt lõi của <span style=\"color:#74c0fc\"><b>Mã di truyền (Genetic Code)</b></span>: tính bộ ba, tính đặc hiệu, tính thoái hóa và tính vạn năng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mã bộ ba (Triplet code):</b> Cứ 3 nucleotide kế tiếp nhau trên mARN đọc theo chiều 5' → 3' mã hóa cho một acid amin nhất định; có tổng cộng <span style=\"color:#74c0fc\"><b>64 codon</b></span> (61 codon mã hóa cho 20 acid amin và 3 codon kết thúc UAA, UAG, UGA).<br>2) <b>Tính đặc hiệu (Unambiguous):</b> Một codon nhất định chỉ mã hóa cho duy nhất một loại acid amin.<br>3) <b>Tính thoái hóa / Dư thừa (Degenerate):</b> Một acid amin có thể được mã hóa bởi nhiều codon đồng nghĩa khác nhau (trừ Met AUG và Trp UGG chỉ có 1 codon duy nhất); cơ sở của thuyết bắt cặp lay động (Wobble hypothesis) ở vị trí base thứ 3 của codon.<br>4) <b>Tính vạn năng (Universal):</b> Mã di truyền giống nhau ở hầu như toàn bộ các loài sinh vật từ vi khuẩn đến con người (chỉ có một số ít ngoại lệ nhỏ ở hệ gen ty thể).<br><br><b>💡 Giải thích của AI:</b><br>Codon mở đầu AUG mã hóa cho Methionin ở sinh vật nhân thực và N-formylmethionin (fMet) ở sinh vật nhân sơ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Mã-di-truyền"
+      ]
+    },
+    {
+      "id": "HS10-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · SINH TỔNG HỢP PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Hoạt hóa acid amin",
+      "tier": 1,
+      "front": "Trình bày cơ chế hoạt hóa acid amin gắn vào tRNA bởi enzym <span style=\"color:#51cf66\"><b>Aminoacyl-tRNA Synthetase</b></span> và vai trò sửa sai phân tử.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng 2 bước tiêu tốn 1 ATP:</b><br>- Bước 1: Acid amin + ATP ⇌ Aminoacyl-AMP + PPi (thủy phân PPi thành 2 Pi giúp phản ứng một chiều không đảo ngược).<br>- Bước 2: Gốc aminoacyl được chuyển sang gắn vào nhóm -OH ở vị trí 2' hoặc 3' của nucleotide Adenin tại đầu tận cùng 3'-CCA của phân tử tRNA tương ứng, tạo thành <span style=\"color:#51cf66\"><b>Aminoacyl-tRNA</b></span>.<br>2) <b>Độ chính xác và khả năng đọc sửa (Proofreading):</b> Enzym Aminoacyl-tRNA Synthetase có trung tâm xúc tác và trung tâm đọc sửa riêng biệt; nếu nhận diện sai acid amin gắn vào, nó sẽ thủy phân cắt bỏ ngay lập tức, đảm bảo tỷ lệ sai sót cực thấp (&lt; 1 / 10.000).<br><br><b>💡 Giải thích của AI:</b><br>Sau khi aminoacyl-tRNA được nạp, ribosome hoàn toàn không thể nhận diện bản chất acid amin mà chỉ đối chiếu khớp mã giữa codon trên mARN và anticodon trên tARN.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Hoạt-hóa-acid-amin"
+      ]
+    },
+    {
+      "id": "HS10-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · SINH TỔNG HỢP PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Cơ chế dịch mã",
+      "tier": 1,
+      "front": "Mô tả 3 vị trí chức năng trên Ribosome (<span style=\"color:#74c0fc\"><b>A site</b></span>, <span style=\"color:#ffd43b\"><b>P site</b></span>, <span style=\"color:#ff6b6b\"><b>E site</b></span>) và chu kỳ 3 bước của giai đoạn <span style=\"color:#51cf66\"><b>Kéo dài chuỗi polypeptide (Elongation)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>3 vị trí trên Ribosome:</b><br>- <span style=\"color:#74c0fc\"><b>A site (Aminoacyl site):</b></span> Nơi tiếp nhận phức hợp aminoacyl-tRNA mới đi vào khớp mã.<br>- <span style=\"color:#ffd43b\"><b>P site (Peptidyl site):</b></span> Nơi giữ chuỗi peptidyl-tRNA đang tổng hợp (tRNA mở đầu fMet-tRNA gắn trực tiếp vào P site).<br>- <span style=\"color:#ff6b6b\"><b>E site (Exit site):</b></span> Nơi giữ tARN đã bị khử acyl trước khi giải phóng ra ngoài.<br>2) <b>Chu kỳ kéo dài chuỗi 3 bước:</b><br>1) <span style=\"color:#74c0fc\"><b>Gắn aminoacyl-tRNA:</b></span> Đưa phức hợp vào vị trí A nhờ yếu tố kéo dài EF-Tu (ở nhân sơ) hoặc eEF-1 (ở nhân thực) tiêu tốn 1 GTP.<br>2) <span style=\"color:#51cf66\"><b>Hình thành liên kết peptid:</b></span> Enzym Peptidyl transferase (bản chất là ribozyme 23S rRNA ở nhân sơ, 28S rRNA ở nhân thực) xúc tác chuyển chuỗi peptid từ P site sang acid amin ở A site.<br>3) <span style=\"color:#ffd43b\"><b>Chuyển vị Ribosome (Translocation):</b></span> Ribosome dịch chuyển đúng 1 bộ ba về phía đầu 3' mARN nhờ yếu tố EF-G (eEF-2) tiêu tốn 1 GTP.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi liên kết peptid được hình thành tiêu tốn tổng cộng 4 liên kết phosphate cao năng (2 từ ATP hoạt hóa acid amin + 2 từ GTP cho gắn tARN và chuyển vị).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Cơ-chế-dịch-mã"
+      ]
+    },
+    {
+      "id": "HS10-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · SINH TỔNG HỢP PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Kháng sinh ức chế dịch mã",
+      "tier": 1,
+      "front": "Phân tích cơ chế tác động vị trí của các nhóm kháng sinh ức chế dịch mã vi khuẩn: <span style=\"color:#ff6b6b\"><b>Aminoglycosid</b></span>, <span style=\"color:#ffd43b\"><b>Tetracyclin</b></span>, <span style=\"color:#74c0fc\"><b>Chloramphenicol</b></span>, <span style=\"color:#51cf66\"><b>Macrolid</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Aminoglycosid (Gentamicin, Streptomycin):</b> Gắn vào tiểu phần <span style=\"color:#ff6b6b\"><b>30S</b></span> làm biến dạng cấu hình, gây đọc sai mã bộ ba codon và ngăn cản hình thành phức hợp mở đầu dịch mã.<br>2) <b>Tetracyclin (Doxycyclin):</b> Gắn thuận nghịch vào tiểu phần <span style=\"color:#ffd43b\"><b>30S</b></span>, ngăn cản sự gắn của aminoacyl-tRNA vào vị trí A site trên ribosome vi khuẩn.<br>3) <b>Chloramphenicol:</b> Gắn vào tiểu phần <span style=\"color:#74c0fc\"><b>50S</b></span>, ức chế trực tiếp hoạt tính của enzym <span style=\"color:#74c0fc\"><b>Peptidyl transferase</b></span>, ngăn chặn hình thành liên kết peptid.<br>4) <b>Macrolid (Erythromycin, Azithromycin):</b> Gắn vào tiểu phần <span style=\"color:#51cf66\"><b>50S</b></span>, phong bế kênh thoát của chuỗi polypeptide và ức chế sự chuyển vị (translocation) của ribosome dọc theo mARN.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc chống ung thư Puromycin có cấu trúc tương tự tyrosyl-tRNA, gắn vào A site và tạo liên kết peptid làm đứt chuỗi sớm ở cả sinh vật nhân sơ và nhân thực.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Kháng-sinh-ức-chế-dịch-mã"
+      ]
+    },
+    {
+      "id": "HS10-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · SINH TỔNG HỢP PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Điều hòa Operon Lac",
+      "tier": 1,
+      "front": "Giải thích cơ chế điều hòa biểu hiện gen của <span style=\"color:#74c0fc\"><b>Operon Lac ở vi khuẩn E. coli</b></span> trong môi trường có <span style=\"color:#51cf66\"><b>Lactose</b></span> và vai trò ức chế dị hóa của <span style=\"color:#ff6b6b\"><b>Glucose</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc Operon Lac:</b> Gồm vùng khởi động (Promoter - P), vùng vận hành (Operator - O), và 3 gen cấu trúc: lacZ (beta-galactosidase), lacY (permease), lacA (transacetylase); được điều phối bởi gen điều hòa lacI mã hóa protein ức chế (Lac repressor).<br>2) <b>Cơ chế cảm ứng âm tính (Vai trò của Lactose):</b> Khi có lactose, một lượng nhỏ chuyển thành <span style=\"color:#51cf66\"><b>Allolactose (chất cảm ứng)</b></span> gắn vào protein ức chế Lac repressor làm nó biến đổi cấu hình không thể gắn vào Operator → RNA polymerase tự do phiên mã 3 gen cấu trúc.<br>3) <b>Cơ chế điều hòa dương tính (Ức chế dị hóa bởi Glucose):</b> Khi môi trường giàu Glucose, nồng độ cAMP nội bào tụt thấp → phức hợp <span style=\"color:#ff6b6b\"><b>cAMP-CAP không được tạo thành</b></span> → RNA polymerase gắn rất yếu vào promoter → Operon Lac hầu như không phiên mã. Chỉ khi cạn kiệt glucose và có nồng độ cao lactose, cAMP tăng vọt hoạt hóa CAP giúp phiên mã tối đa.<br><br><b>💡 Giải thích của AI:</b><br>Vi khuẩn luôn ưu tiên tiêu thụ nguồn glucose đơn giản trước; chỉ khi cạn kiệt glucose thì cơ chế dị hóa mới mở đường cho việc sử dụng lactose.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Điều-hòa-Operon-Lac"
+      ]
+    },
+    {
+      "id": "HS10-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tầng đích tác động của các <span style=\"color:#74c0fc\"><b>thuốc kháng sinh lên Ribosome</b></span> vi khuẩn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thuốc ức chế tiểu phần 30S:</b> Gợi nhớ cụm 'Buy AT 30':<br>- <span style=\"color:#ff6b6b\"><b>Aminoglycosid</b></span> (Gentamicin, Amikacin): Diệt khuẩn (bactericidal), gây đọc sai mã bộ ba.<br>- <span style=\"color:#ffd43b\"><b>Tetracyclin</b></span> (Doxycyclin): Kìm khuẩn (bacteriostatic), ức chế gắn tARN vào vị trí A.<br>2) <b>Thuốc ức chế tiểu phần 50S:</b> Gợi nhớ cụm 'CELL at 50':<br>- <span style=\"color:#74c0fc\"><b>Chloramphenicol:</b></span> Ức chế Peptidyl transferase.<br>- <span style=\"color:#51cf66\"><b>Erythromycin (Macrolid) & Clindamycin:</b></span> Ức chế chuyển vị ribosome (Translocation).<br>- <span style=\"color:#ffd43b\"><b>Linezolid (Oxazolidinone):</b></span> Ngăn chặn hình thành phức hợp mở đầu 70S.<br>3) <b>Độc tính chọn lọc:</b> Tế bào người có ribosome 80S (40S + 60S) nên không bị ảnh hưởng bởi nồng độ điều trị; tuy nhiên Chloramphenicol liều cao có thể ức chế ribosome 70S của ty thể người gây suy tủy xương (Hội chứng Baby xám).<br><br><b>💡 Giải thích của AI:</b><br>Đây là bảng nhớ siêu đẳng phối hợp giữa Dược lý lâm sàng và Hóa sinh phân tử.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS10-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt 4 loại <span style=\"color:#ff6b6b\"><b>Đột biến gen điểm (Point Mutations)</b></span> trên phân tử mRNA.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đột biến đồng nghĩa / Im lặng (Silent mutation):</b> Thay đổi một nucleotide nhưng codon mới <span style=\"color:#51cf66\"><b>vẫn mã hóa cho cùng một acid amin</b></span> ban đầu (do tính thoái hóa của mã di truyền, thường ở vị trí thứ 3 của codon); hoàn toàn không thay đổi chức năng protein.<br>2) <b>Đột biến sai nghĩa (Missense mutation):</b> Thay đổi nucleotid dẫn tới <span style=\"color:#ffd43b\"><b>thay thế một acid amin này bằng một acid amin khác</b></span> trong chuỗi polypeptide (ví dụ kinh điển HbS: Glu thay bằng Val).<br>3) <b>Đột biến vô nghĩa (Nonsense mutation):</b> Thay đổi nucleotid biến một codon mã hóa acid amin thành <span style=\"color:#ff6b6b\"><b>một codon kết thúc sớm (Stop codon: UAA, UAG, UGA)</b></span>; tạo chuỗi polypeptide cụt ngắn mất chức năng.<br>4) <b>Đột biến dịch khung (Frameshift mutation):</b> Thêm hoặc mất một số nucleotide <span style=\"color:#ff6b6b\"><b>KHÔNG PHẢI BỘI SỐ CỦA 3</b></span>; làm thay đổi toàn bộ khung đọc mã từ vị trí đột biến về sau, tạo protein hoàn toàn bất thường.<br><br><b>💡 Giải thích của AI:</b><br>Đột biến vô nghĩa và đột biến dịch khung thường gây hậu quả lâm sàng nghiêm trọng nhất do làm mất hoàn toàn hoạt tính protein.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS10-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Ma trận 4 trạng thái biểu hiện của <span style=\"color:#74c0fc\"><b>Operon Lac</b></span> theo nguồn đường môi trường.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trạng thái 1: Có Glucose (+) và Không có Lactose (-):</b> Repressor gắn vào Operator, cAMP thấp → <span style=\"color:#ff6b6b\"><b>OPERON BỊ KHÓA HOÀN TOÀN (Phiên mã = 0)</b></span>.<br>2) <b>Trạng thái 2: Không có Glucose (-) và Không có Lactose (-):</b> cAMP cao gắn CAP vào Promoter nhưng Repressor vẫn khóa Operator → <span style=\"color:#ff6b6b\"><b>KHÔNG PHIÊN MÃ</b></span>.<br>3) <b>Trạng thái 3: Có Glucose (+) và Có Lactose (+):</b> Allolactose giải phóng Repressor khỏi Operator, nhưng cAMP thấp nên không có CAP kích hoạt → <span style=\"color:#ffd43b\"><b>PHIÊN MÃ CỰC KỲ YẾU Ở MỨC CƠ BẢN</b></span>.<br>4) <b>Trạng thái 4: Không có Glucose (-) và CÓ LACTOSE (+):</b> Repressor bị tách rời HOÀN TOÀN + cAMP tăng vọt gắn CAP hoạt hóa promoter tối đa → <span style=\"color:#51cf66\"><b>PHIÊN MÃ BÙNG NỔ MẠNH MẼ NHẤT</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ duy nhất ở Trạng thái 4 khi hết glucose và có sẵn lactose thì vi khuẩn mới kích hoạt tổng hợp enzyme phân hủy lactose.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS10-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Nhận diện các <span style=\"color:#74c0fc\"><b>Biến đổi chuỗi Polypeptide sau dịch mã (PTM)</b></span> có ý nghĩa y học.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phosphoryl hóa (Phosphorylation):</b> Gắn nhóm phosphat vào nhóm -OH của gốc <span style=\"color:#74c0fc\"><b>Serin, Threonin hoặc Tyrosin</b></span> bởi Protein Kinase; công tắc bật/tắt hoạt tính enzym và truyền tín hiệu nội bào.<br>2) <b>Glycosyl hóa (Glycosylation):</b> Gắn chuỗi oligosaccharid tại lưới nội sinh chất và bộ máy Golgi; gồm N-glycosyl hóa (gốc <span style=\"color:#ffd43b\"><b>Asparagin - Asn</b></span>) và O-glycosyl hóa (gốc <span style=\"color:#ffd43b\"><b>Ser/Thr</b></span>); cần thiết cho protein màng và tiết.<br>3) <b>Hydroxyl hóa (Hydroxylation):</b> Hydroxyl hóa gốc Prolin và Lysin trong phân tử Collagen bởi enzym Prolyl/Lysyl hydroxylase; <span style=\"color:#51cf66\"><b>bắt buộc cần Vitamin C</b></span>; thiếu vitamin C gây bệnh chảy máu chân răng Scurvy do collagen kém bền.<br>4) <b>gamma-Carboxyl hóa (gamma-Carboxylation):</b> Gắn thêm nhóm carboxyl vào gốc Glutamat của các yếu tố đông máu II, VII, IX, X; <span style=\"color:#51cf66\"><b>bắt buộc cần Vitamin K</b></span>; giúp tạo vị trí gắn ion Ca²⁺ với màng phospholipid.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc chống đông máu kháng vitamin K (Warfarin) ức chế enzym epoxide reductase làm ngừng trệ phản ứng gamma-carboxyl hóa các yếu tố đông máu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 10: Sinh tổng hợp protein.",
+      "tags": [
+        "HS10",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

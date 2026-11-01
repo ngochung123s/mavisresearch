@@ -1,16 +1,24 @@
 {
   "id": "HS-13",
   "specialty": "hoasinh",
-  "specialty_name": "Hóa Sinh Y Khoa",
-  "part": "Phần I: Cấu tạo và Chuyển hóa chất",
-  "chapter": "Chương 13. Hóa sinh hormon",
-  "title": "Cơ chế tín hiệu thụ thể tế bào, hóa sinh hormon peptid, amin và steroid",
-  "author": "PGS. TS. BS. Phạm Thiện Ngọc — ĐHY Hà Nội",
-  "start_page": 267,
-  "end_page": 302,
-  "pages": "267-302",
-  "word_count": 16622,
-  "figures_count": 4,
-  "tables_count": 4,
-  "source": "Giáo trình Hóa sinh Y học ĐHY Hà Nội (2019/2023) & Harper 32nd Ed"
+  "profile": "foundation",
+  "lesson": "HS-13_Hoa_sinh_hormon.md",
+  "deck": {
+    "deck_id": 1401013001,
+    "deck_name": "HungMed::Hóa Sinh Y Học::HS-13 Cơ chế thụ thể, truyền tín hiệu tế bào và hóa sinh hormon",
+    "basename": "HS-13_Hoa_sinh_hormon_MASTER_v1",
+    "theme": "light",
+    "required_sections": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B_ALGO"
+    ],
+    "cards_source": "HS-13_Hoa_sinh_hormon.cards.v2.json",
+    "legacy_anki_decks": []
+  }
 }

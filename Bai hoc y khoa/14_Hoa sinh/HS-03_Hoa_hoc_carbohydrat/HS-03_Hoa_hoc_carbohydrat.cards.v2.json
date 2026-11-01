@@ -1,0 +1,259 @@
+{
+  "deck_id": 1401003001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-03 Cấu trúc và tính chất của Carbohydrat",
+  "card_count": 14,
+  "cards": [
+    {
+      "id": "HS03-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Đại cương",
+      "tier": 1,
+      "front": "Nêu định nghĩa hóa học chặt chẽ của <span style=\"color:#74c0fc\"><b>Carbohydrat</b></span> theo IUBMB và phân loại <span style=\"color:#51cf66\"><b>4 nhóm lớn</b></span> dựa trên mức độ trùng hợp phân tử.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất hóa học:</b> Là các <span style=\"color:#74c0fc\"><b>dẫn xuất polyhydroxyaldehyd (aldose) hoặc polyhydroxyceton (ketose)</b></span> của các rượu đa chức (polyalcol), hoặc các chất khi thủy phân hoàn toàn cho các dẫn xuất này.<br>2) <b>4 nhóm carbohydrat lớn:</b><br>- <span style=\"color:#ffd43b\"><b>Monosaccharid (đường đơn):</b></span> Đơn vị cấu trúc cơ sở không thể thủy phân đơn giản hơn (C3 – C7: glucose, galactose, fructose, ribose).<br>- <span style=\"color:#ffd43b\"><b>Disaccharid (đường đôi):</b></span> Gồm 2 monosaccharid liên kết O-glycosid (Maltose, Lactose, Saccarose).<br>- <span style=\"color:#74c0fc\"><b>Oligosaccharid:</b></span> Gồm 3 – 10 gốc monosaccharid (chủ yếu gắn glycoprotein và glycolipid màng tế bào).<br>- <span style=\"color:#51cf66\"><b>Polysaccharid (đường đa):</b></span> Polymer cao phân tử gồm homopolysaccharid (tinh bột, glycogen, cellulose, inulin) và heteropolysaccharid (GAGs: hyaluronic acid, heparin).<br><br><b>💡 Giải thích của AI:</b><br>Carbohydrat cung cấp 55 - 65% tổng năng lượng khẩu phần ăn; thoái hóa hoàn toàn 1 g carbohydrat giải phóng ~4.1 kcal (17.2 kJ).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Đại-cương"
+      ]
+    },
+    {
+      "id": "HS03-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Đồng phân lập thể",
+      "tier": 1,
+      "front": "Thế nào là <span style=\"color:#74c0fc\"><b>Carbon bất đối (C*)</b></span>? Giải thích quy ước xác định cấu hình tuyệt đối <span style=\"color:#ffd43b\"><b>dãy D và dãy L</b></span> theo Fischer.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Carbon bất đối (C* / Chiral center):</b> Là nguyên tử carbon liên kết với <span style=\"color:#74c0fc\"><b>4 nhóm nguyên tử hoàn toàn khác nhau</b></span> trong không gian. Phân tử có n carbon bất đối sẽ có 2ⁿ đồng phân lập thể.<br>2) <b>Quy ước dãy D/L theo Fischer:</b> Dựa vào vị trí của nhóm <span style=\"color:#51cf66\"><b>hydroxyl (-OH) tại carbon bất đối có số thứ tự xa nhất</b></span> (xa nhóm carbonyl nhất, C5 ở aldohexose). Nếu nhóm -OH hướng sang <span style=\"color:#51cf66\"><b>bên Phải (Right) → thuộc dãy D</b></span>; nếu hướng sang <span style=\"color:#ff6b6b\"><b>bên Trái (Left) → thuộc dãy L</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hầu hết các monosaccharid xuất hiện trong hệ thống sinh học người và động vật đều thuộc dãy D (ngược lại các acid amin cấu tạo protein lại thuộc dãy L).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Đồng-phân-lập-thể"
+      ]
+    },
+    {
+      "id": "HS03-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Đồng phân lập thể",
+      "tier": 1,
+      "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>Epimer sinh học</b></span> và phân tích 2 cặp epimer kinh điển của <span style=\"color:#51cf66\"><b>D-glucose</b></span> trong cơ thể người.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất của Epimer:</b> Là hai đồng phân quang học chỉ khác nhau duy nhất về cấu hình không gian tại <span style=\"color:#74c0fc\"><b>một carbon bất đối duy nhất</b></span> trong phân tử.<br>2) <b>Cặp epimer C2:</b> <span style=\"color:#51cf66\"><b>D-glucose và D-mannose</b></span> (chỉ khác nhau vị trí -OH ở carbon C2).<br>3) <b>Cặp epimer C4:</b> <span style=\"color:#51cf66\"><b>D-glucose và D-galactose</b></span> (chỉ khác nhau vị trí -OH ở carbon C4).<br><br><b>💡 Giải thích của AI:</b><br>Enzym chuyển đổi qua lại giữa các dạng epimer được gọi là Epimerase (ví dụ UDP-glucose epimerase trong chuyển hóa galactose).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Đồng-phân-lập-thể"
+      ]
+    },
+    {
+      "id": "HS03-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Cấu trúc vòng",
+      "tier": 1,
+      "front": "Trình bày cơ chế khép vòng bán acetal nội phân tử, cấu hình <span style=\"color:#74c0fc\"><b>anomer α và β</b></span>, và giải thích <span style=\"color:#51cf66\"><b>hiện tượng biến triền (Mutarotation)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khép vòng bán acetal:</b> Nhóm -OH ở C5 tấn công vào nhóm carbonyl -CHO ở C1 tạo cầu nối oxy nội phân tử, biến carbon C1 trở thành một <span style=\"color:#74c0fc\"><b>carbon bất đối mới (carbon anomer)</b></span> mang nhóm -OH bán acetal.<br>2) <b>Anomer α vs β:</b> Trên công thức Haworth, nếu nhóm -OH bán acetal ở C1 nằm <span style=\"color:#ffd43b\"><b>khác phía (hướng xuống dưới)</b></span> so với nhóm -CH₂OH ở C6 → <span style=\"color:#ffd43b\"><b>anomer α</b></span>; nếu nằm <span style=\"color:#51cf66\"><b>cùng phía (hướng lên trên)</b></span> → <span style=\"color:#51cf66\"><b>anomer β</b></span>.<br>3) <b>Hiện tượng biến triền (Mutarotation):</b> Là sự biến đổi độ quay cực quang học của dung dịch đường mới pha theo thời gian, cho tới khi đạt trạng thái cân bằng động (gồm ~64% dạng beta-D-glucopyranose, ~36% dạng alpha-D-glucopyranose và &lt; 0.02% dạng mạch thẳng mở vòng).<br><br><b>💡 Giải thích của AI:</b><br>Dạng beta-D-glucopyranose chiếm ưu thế bền vững nhất trong tự nhiên vì ở cấu hình dạng ghế, toàn bộ các nhóm thế cồng kềnh (-OH và -CH2OH) đều nằm ở vị trí liên kết xích đạo (equatorial).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Cấu-trúc-vòng"
+      ]
+    },
+    {
+      "id": "HS03-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Tính chất hóa học",
+      "tier": 1,
+      "front": "Giải thích cơ chế <span style=\"color:#74c0fc\"><b>tính khử</b></span> của monosaccharid (Fehling, Benedict) và phân biệt 3 mức độ oxy hóa tạo <span style=\"color:#ffd43b\"><b>acid aldonic</b></span>, <span style=\"color:#51cf66\"><b>acid uronic</b></span> và <span style=\"color:#ff6b6b\"><b>acid aldaric</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tính khử & Thuốc thử Fehling:</b> Nhờ nhóm -OH bán acetal tự do mở vòng tạo nhóm carbonyl có tính khử mạnh trong môi trường kiềm nóng; khử ion Cu²⁺ (xanh lam đậm) thành kết tủa <span style=\"color:#ff6b6b\"><b>Cu₂O (đỏ gạch)</b></span>.<br>2) <b>Acid aldonic:</b> Oxy hóa nhẹ nhàng chỉ nhóm chức aldehyd tại C1 tạo acid aldonic (ví dụ oxy hóa glucose tạo <span style=\"color:#ffd43b\"><b>acid gluconic</b></span>).<br>3) <b>Acid uronic (Cực kỳ quan trọng trong y học):</b> Oxy hóa chọn lọc nhóm rượu bậc 1 tại C6 giữ nguyên C1 tạo acid uronic (ví dụ tạo <span style=\"color:#51cf66\"><b>acid D-glucuronic</b></span> tham gia liên hợp bilirubin và độc chất tại gan để bài tiết qua mật/thận).<br>4) <b>Acid aldaric:</b> Oxy hóa mạnh mẽ bằng acid nitric (HNO₃) đồng thời cả C1 và C6 tạo acid dicarboxylic (acid aldaric / glucaric).<br><br><b>💡 Giải thích của AI:</b><br>Acid glucuronic là thành phần cấu tạo cốt tử của toàn bộ các Glycosaminoglycan (GAGs) và là phân tử giải độc hàng đầu của gan.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Tính-chất-hóa-học"
+      ]
+    },
+    {
+      "id": "HS03-B4-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Tính chất hóa học",
+      "tier": 1,
+      "front": "Trình bày phản ứng khử tạo polyalcol của monosaccharid và phân tích ý nghĩa lâm sàng của <span style=\"color:#51cf66\"><b>Mannitol</b></span> và <span style=\"color:#ff6b6b\"><b>Sorbitol</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mannitol (khử từ D-mannose):</b> Là một polyalcol không bị chuyển hóa trong cơ thể; được dùng trên lâm sàng làm <span style=\"color:#51cf66\"><b>thuốc lợi niệu thẩm thấu hàng đầu để chống phù não, hạ áp lực nội sọ và hạ nhãn áp</b></span> trong cấp cứu thần kinh và mắt.<br>2) <b>Sorbitol (khử từ D-glucose bởi Aldose reductase):</b> Trong bệnh cảnh đái tháo đường tăng đường huyết mạn tính kéo dài, glucose tràn vào con đường polyol tạo lượng lớn Sorbitol tích tụ nội bào (tại thủy tinh thể, tế bào Schwann thần kinh ngoại vi, võng mạc). Vì Sorbitol không khuếch tán được qua màng tế bào, nó gây <span style=\"color:#ff6b6b\"><b>phù nề thẩm thấu, dẫn đến đục thủy tinh thể (Cataract) và bệnh lý đa dây thần kinh đái tháo đường</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ức chế enzym Aldose reductase là một hướng nghiên cứu dược lý quan trọng nhằm ngăn chặn các biến chứng vi mạch và thần kinh ở bệnh nhân đái tháo đường.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Tính-chất-hóa-học"
+      ]
+    },
+    {
+      "id": "HS03-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Disaccharid",
+      "tier": 1,
+      "front": "So sánh cấu tạo phân tử, liên kết glycosid và tính khử giữa 3 Disaccharid quan trọng: <span style=\"color:#74c0fc\"><b>Maltose</b></span>, <span style=\"color:#51cf66\"><b>Lactose</b></span> và <span style=\"color:#ff6b6b\"><b>Saccarose (Sucrose)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Maltose (Đường mạch nha):</b> Cấu tạo từ 2 phân tử alpha-D-glucose liên kết qua <span style=\"color:#74c0fc\"><b>alpha-1,4-glycosid</b></span>; còn 1 nhóm -OH bán acetal tự do ở gốc glucose thứ hai → <span style=\"color:#74c0fc\"><b>CÒN TÍNH KHỬ</b></span>.<br>2) <b>Lactose (Đường sữa mẹ và động vật):</b> Cấu tạo từ beta-D-galactose liên kết với D-glucose qua <span style=\"color:#51cf66\"><b>beta-1,4-glycosid</b></span>; còn 1 nhóm -OH bán acetal tự do ở glucose → <span style=\"color:#51cf66\"><b>CÒN TÍNH KHỬ</b></span>.<br>3) <b>Saccarose (Đường mía / củ cải đường):</b> Cấu tạo từ alpha-D-glucose và beta-D-fructose liên kết qua <span style=\"color:#ff6b6b\"><b>alpha-1, beta-2-glycosid</b></span> giữa 2 nhóm -OH bán acetal của C1 glucose và C2 fructose → <span style=\"color:#ff6b6b\"><b>KHÔNG CÒN NHÓM -OH BÁN ACETAL TỰ DO → HOÀN TOÀN KHÔNG CÓ TÍNH KHỬ</b></span> (âm tính với Fehling).<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi BSNT kinh điển: Saccarose là đường KHÔNG có tính khử; chỉ khi bị thủy phân thành hỗn hợp glucose và fructose tự do (đường đảo) thì dung dịch mới cho phản ứng Fehling dương tính.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Disaccharid"
+      ]
+    },
+    {
+      "id": "HS03-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Homopolysaccharid",
+      "tier": 1,
+      "front": "So sánh đặc điểm liên kết, mức độ phân nhánh và phản ứng màu với Iod giữa <span style=\"color:#74c0fc\"><b>Amylose</b></span>, <span style=\"color:#74c0fc\"><b>Amylopectin</b></span> và <span style=\"color:#51cf66\"><b>Glycogen</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Amylose (15 – 20% tinh bột):</b> Chuỗi polymer mạch thẳng không phân nhánh chỉ gồm các liên kết <span style=\"color:#74c0fc\"><b>alpha-1,4-glucosid</b></span> cuộn thành hình lò xo xoắn ốc; bắt màu <span style=\"color:#74c0fc\"><b>xanh tím đậm</b></span> với dung dịch Iod.<br>2) <b>Amylopectin (80 – 85% tinh bột):</b> Cấu trúc phân nhánh gồm mạch chính alpha-1,4 và các nhánh gắn bằng liên kết <span style=\"color:#ffd43b\"><b>alpha-1,6-glucosid cứ mỗi 24 – 30 gốc glucose</b></span>; bắt màu <span style=\"color:#ffd43b\"><b>tím đỏ</b></span> với Iod.<br>3) <b>Glycogen (Dự trữ ở gan và cơ động vật):</b> Có cấu trúc tương tự amylopectin nhưng <span style=\"color:#51cf66\"><b>phân nhánh dày đặc hơn nhiều (cứ mỗi 8 – 12 gốc glucose lại có 1 nhánh alpha-1,6)</b></span>; bắt màu <span style=\"color:#ff6b6b\"><b>đỏ nâu</b></span> với Iod.<br><br><b>💡 Giải thích của AI:</b><br>Mật độ phân nhánh cực dày của Glycogen tạo ra vô số các đầu tận cùng không khử, cho phép enzym Glycogen phosphorylase cắt giải phóng đồng thời hàng nghìn phân tử glucose-1-P trong vài giây khi cơ thể cần đường.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Homopolysaccharid"
+      ]
+    },
+    {
+      "id": "HS03-B6-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Homopolysaccharid",
+      "tier": 1,
+      "front": "Giải thích lý do động vật có vú không tiêu hóa được <span style=\"color:#ff6b6b\"><b>Cellulose</b></span> và nêu ứng dụng y học của <span style=\"color:#51cf66\"><b>Inulin</b></span> và <span style=\"color:#74c0fc\"><b>Dextran</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lý do không tiêu hóa được Cellulose:</b> Các gốc glucose trong cellulose liên kết với nhau bằng <span style=\"color:#ff6b6b\"><b>liên kết beta-1,4-glucosid</b></span> tạo các dải băng phẳng xếp song song cực kỳ bền vững. Động vật có vú không có enzym <span style=\"color:#ff6b6b\"><b>Cellulase</b></span> nên không thể cắt đứt liên kết này (cellulose đóng vai trò chất xơ kích thích nhu động ruột).<br>2) <b>Inulin (Polymer của D-fructose liên kết beta-2,1):</b> Lọc tự do hoàn toàn qua màng lọc cầu thận, hoàn toàn không bị ống thận tái hấp thu hay bài tiết thêm; do đó độ thanh thải Inulin là <span style=\"color:#51cf66\"><b>tiêu chuẩn vàng sinh lý chính xác tuyệt đối để đo Mức lọc cầu thận (GFR)</b></span>.<br>3) <b>Dextran (Polymer glucose do vi khuẩn Leuconostoc tạo ra):</b> Dung dịch Dextran cao phân tử có áp suất keo tương đương protein huyết tương, được dùng làm <span style=\"color:#74c0fc\"><b>dịch bồi phụ thể tích tuần hoàn chống sốc giảm thể tích</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Động vật nhai lại (trâu, bò) tiêu hóa được cỏ là nhờ hệ vi sinh vật cộng sinh trong dạ cỏ tiết ra enzym cellulase.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Homopolysaccharid"
+      ]
+    },
+    {
+      "id": "HS03-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Heteropolysaccharid",
+      "tier": 1,
+      "front": "Phân biệt cấu tạo và cơ chế bệnh sinh di truyền giữa <span style=\"color:#ff6b6b\"><b>Hội chứng Hurler (MPS I)</b></span> và <span style=\"color:#51cf66\"><b>Hội chứng Hunter (MPS II)</b></span> trong các bệnh ứ đọng Mucopolysaccharidosis.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh học chung (MPS):</b> Là các bệnh di truyền do thiếu hụt enzym tiêu thể phân hủy Glycosaminoglycan (GAGs), gây ứ đọng heparan sulfat và dermatan sulfat trong tế bào màng mạch, xương, gan lách, não.<br>2) <b>Hội chứng Hurler (MPS I):</b> Do thiếu enzym <span style=\"color:#ff6b6b\"><b>alpha-L-Iduronidase</b></span>, di truyền <span style=\"color:#ff6b6b\"><b>lặn trên nhiễm sắc thể thường</b></span>. Dấu hiệu lâm sàng đặc trưng: bộ mặt thô ráp kỳ dị (Gargoylism), biến dạng xương khớp nặng, chậm phát triển trí tuệ và <span style=\"color:#ff6b6b\"><b>BẮT BUỘC CÓ ĐỤC GIÁC MẠC (Corneal clouding) XUẤT HIỆN RẤT SỚM</b></span>.<br>3) <b>Hội chứng Hunter (MPS II):</b> Do thiếu enzym <span style=\"color:#51cf66\"><b>Iduronat-2-sulfatase</b></span>, di truyền <span style=\"color:#51cf66\"><b>lặn liên kết nhiễm sắc thể giới tính X (chỉ gặp ở trẻ nam)</b></span>. Dấu hiệu phân biệt cốt tử số 1: <span style=\"color:#51cf66\"><b>HOÀN TOÀN KHÔNG CÓ ĐỤC GIÁC MẠC</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ bẫy thi lâm sàng: Hunter (thợ săn) cần mắt tinh tường để ngắm bắn nên mắt KHÔNG bị đục giác mạc (Hunter = No corneal clouding, X-linked).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Heteropolysaccharid"
+      ]
+    },
+    {
+      "id": "HS03-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt <span style=\"color:#74c0fc\"><b>tính khử của các loại đường</b></span> bằng thuốc thử Fehling / Benedict.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1: Thực hiện phản ứng Fehling/Benedict trong môi trường kiềm nóng:</b> Quan sát sự đổi màu và xuất hiện kết tủa đỏ gạch Cu₂O.<br>2) <b>Bước 2: Nếu PHẢN ỨNG DƯƠNG TÍNH (có kết tủa đỏ gạch Cu₂O):</b> Khẳng định mẫu chứa đường có tính khử (chứa nhóm -OH bán acetal tự do): gồm <span style=\"color:#74c0fc\"><b>tất cả Monosaccharid</b></span> (Glucose, Galactose, Fructose do chuyển hỗ biến enediol) và các Disaccharid <span style=\"color:#51cf66\"><b>Maltose, Lactose</b></span>.<br>3) <b>Bước 3: Nếu PHẢN ỨNG ÂM TÍNH (dung dịch giữ nguyên màu xanh lam):</b> Khẳng định mẫu chứa đường KHÔNG có tính khử (2 nhóm -OH bán acetal đã khóa vào liên kết glycosid): tiêu biểu là <span style=\"color:#ff6b6b\"><b>Saccarose (Sucrose)</b></span> hoặc các Polysaccharid cao phân tử (Tinh bột, Glycogen).<br><br><b>💡 Giải thích của AI:</b><br>Nếu đun sôi Saccarose với vài giọt acid vô cơ trước khi trung hòa và thử lại Fehling thì phản ứng sẽ chuyển sang dương tính do Saccarose bị thủy phân thành glucose và fructose tự do.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS03-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tầng nhanh <span style=\"color:#74c0fc\"><b>đáp ứng màu với thuốc thử Lugol (Iod)</b></span> của các Homopolysaccharid.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Màu Xanh lam tím đậm:</b> Khẳng định sự hiện diện của <span style=\"color:#74c0fc\"><b>Amylose</b></span> (chuỗi xoắn ốc không phân nhánh nhốt chặt các phân tử I₂ bên trong lòng ống xoắn).<br>2) <b>Màu Tím đỏ:</b> Khẳng định sự hiện diện của <span style=\"color:#ffd43b\"><b>Amylopectin</b></span> (phân nhánh thưa 24 – 30 gốc làm gãy chuỗi xoắn ốc dài).<br>3) <b>Màu Đỏ nâu:</b> Khẳng định sự hiện diện của <span style=\"color:#ff6b6b\"><b>Glycogen</b></span> (phân nhánh rất dày đặc 8 – 12 gốc).<br>4) <b>Hoàn toàn không đổi màu (dung dịch giữ màu vàng của iod):</b> Khẳng định là <span style=\"color:#51cf66\"><b>Cellulose</b></span> (cấu trúc dải băng phẳng) hoặc các đường đơn, đường đôi đã bị thủy phân hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Khi đun nóng, màu xanh tím của Amylose với Iod sẽ biến mất do cấu trúc xoắn ốc bị duỗi thẳng ra giải phóng I2; khi để nguội, xoắn ốc tái lập và màu xanh tím xuất hiện trở lại.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS03-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ phân biệt <span style=\"color:#ff6b6b\"><b>Hội chứng Hurler</b></span> vs <span style=\"color:#51cf66\"><b>Hội chứng Hunter</b></span> khi gặp trẻ nghi ngờ ứ đọng Mucopolysaccharidosis (MPS).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Khám chuyên khoa Mắt bằng đèn khe (Slit-lamp examination):</b> Kiểm tra giác mạc tìm tổn thương đục giác mạc (Corneal clouding).<br>2) <b>Bước 2 — Nếu CÓ ĐỤC GIÁC MẠC (Corneal clouding (+)):</b> Khẳng định ngay <span style=\"color:#ff6b6b\"><b>Hội chứng Hurler (MPS I)</b></span> → Định lượng hoạt độ enzym <span style=\"color:#ff6b6b\"><b>alpha-L-iduronidase</b></span> trong bạch cầu hoặc nguyên bào sợi da.<br>3) <b>Bước 3 — Nếu HOÀN TOÀN KHÔNG CÓ ĐỤC GIÁC MẠC (Corneal clouding (-)) ở bệnh nhi nam:</b> Khẳng định ngay <span style=\"color:#51cf66\"><b>Hội chứng Hunter (MPS II)</b></span> → Định lượng hoạt độ enzym <span style=\"color:#51cf66\"><b>Iduronat-2-sulfatase</b></span> và làm phả hệ di truyền liên kết NST X.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bước phân loại lâm sàng đầu tay có độ nhạy và độ đặc hiệu 100% trước khi có kết quả sinh học phân tử.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS03-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Cơ sở phân tử cấu trúc kháng nguyên bề mặt màng hồng cầu xác định <span style=\"color:#74c0fc\"><b>hệ nhóm máu ABO</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khung cơ sở (Kháng nguyên H - Nhóm máu O):</b> Chuỗi oligosaccharid gắn trên ceramide màng kết thúc bằng một phân tử đường <span style=\"color:#ffd43b\"><b>L-Fucose</b></span> gắn vào D-galactose nhờ Fucosyltransferase.<br>2) <b>Nhóm máu A:</b> Có thêm enzym N-acetylgalactosaminyltransferase gắn thêm một phân tử <span style=\"color:#ff6b6b\"><b>N-acetylgalactosamin (GalNAc)</b></span> vào đường tận cùng của kháng nguyên H.<br>3) <b>Nhóm máu B:</b> Có thêm enzym Galactosyltransferase gắn thêm một phân tử <span style=\"color:#74c0fc\"><b>D-galactose (Gal)</b></span> vào đường tận cùng của kháng nguyên H.<br>4) <b>Nhóm máu AB:</b> Mang đồng thời cả hai gen mã hóa hai enzym transferase, biểu hiện cả cấu trúc tận cùng GalNAc và Gal trên bề mặt hồng cầu.<br><br><b>💡 Giải thích của AI:</b><br>Sự khác biệt giữa kháng nguyên A và B chỉ vỏn vẹn ở 4 acid amin trong cấu trúc của enzym glycosyltransferase, quyết định sự gắn đặc hiệu của GalNAc hay Gal.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 3: Hóa học carbohydrat.",
+      "tags": [
+        "HS03",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

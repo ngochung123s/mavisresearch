@@ -1,0 +1,222 @@
+{
+  "deck_id": 1401013001,
+  "card_count": 12,
+  "cards": [
+    {
+      "id": "HS13-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Phân loại hormon",
+      "tier": 1,
+      "front": "So sánh toàn diện tính chất lý hóa, vị trí thụ thể và cơ chế tác dụng giữa <span style=\"color:#ffd43b\"><b>Hormon Nhóm I</b></span> và <span style=\"color:#74c0fc\"><b>Hormon Nhóm II</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hormon Nhóm I (Steroid, Iodothyronin T3/T4, Calcitriol):</b> Bản chất <span style=\"color:#ffd43b\"><b>ưa lipid (tan trong dầu)</b></span>; lưu hành trong máu gắn protein vận chuyển; thời gian bán hủy dài (hàng giờ đến hàng ngày); thụ thể nằm ở <span style=\"color:#ffd43b\"><b>bào tương hoặc nhân tế bào</b></span>; tác dụng bằng cách gắn vào yếu tố đáp ứng hormon (HRE) trên DNA để biến đổi phiên mã gen.<br>2) <b>Hormon Nhóm II (Polypeptid, Protein, Catecholamin):</b> Bản chất <span style=\"color:#74c0fc\"><b>ưa nước (tan trong nước)</b></span>; lưu hành tự do trong máu; thời gian bán hủy rất ngắn (vài phút); thụ thể nằm trên <span style=\"color:#74c0fc\"><b>bề mặt màng tế bào</b></span>; tác dụng thông qua các chất truyền tin thứ hai (cAMP, IP₃/DAG, Ca²⁺, cGMP) hoặc chuỗi phosphoryl hóa protein.<br><br><b>💡 Giải thích của AI:</b><br>Hormon nhóm II khởi phát đáp ứng cực nhanh tính bằng giây hoặc phút nhờ khuếch đại enzym nội bào, trong khi nhóm I tạo đáp ứng chậm hơn (hàng giờ) do đòi hỏi tổng hợp RNA và protein mới.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Phan-loai-hormon"
+      ]
+    },
+    {
+      "id": "HS13-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Con đường cAMP",
+      "tier": 1,
+      "front": "Trình bày chu trình truyền tín hiệu của <span style=\"color:#74c0fc\"><b>Adenylate Cyclase - cAMP - Protein Kinase A (PKA)</b></span> qua thụ thể bắt cặp G-protein.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tương tác thụ thể và hoạt hóa G-protein:</b> Hormon gắn vào thụ thể GPCR kích thích tiểu đơn vị Gαs giải phóng GDP và gắn GTP, sau đó tách khỏi phức hợp Gβγ để đến hoạt hóa enzyme <span style=\"color:#74c0fc\"><b>Adenylate Cyclase (AC)</b></span> trên màng tế bào.<br>2) <b>Tổng hợp chất truyền tin thứ hai cAMP:</b> Adenylate cyclase xúc tác chuyển đổi ATP thành <span style=\"color:#ffd43b\"><b>cAMP</b></span> (cyclic AMP); cAMP sau đó liên kết dị lập thể với các tiểu đơn vị điều hòa (R) của <span style=\"color:#51cf66\"><b>Protein Kinase A (PKA)</b></span>, giải phóng các tiểu đơn vị xúc tác (C) tự do có hoạt tính.<br>3) <b>Tác động sinh học và chấm dứt tín hiệu:</b> PKA tự do phosphoryl hóa các enzyme chuyển hóa trong bào tương hoặc phosphoryl hóa yếu tố phiên mã CREB trong nhân; tín hiệu được dập tắt nhờ enzyme <span style=\"color:#ff6b6b\"><b>Phosphodiesterase (PDE)</b></span> thủy phân cAMP thành 5'-AMP không có hoạt tính.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc Theophyllin và Cafein ức chế phosphodiesterase làm kéo dài nồng độ cAMP nội bào, tạo hiệu ứng giãn cơ trơn phế quản và kích thích tim mạch.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Con-duong-cAMP"
+      ]
+    },
+    {
+      "id": "HS13-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Con đường IP3 và DAG",
+      "tier": 1,
+      "front": "Cơ chế phân tử của con đường truyền tín hiệu qua <span style=\"color:#51cf66\"><b>Gq - Phospholipase C (PLC) - IP₃ / DAG - Ca²⁺</b></span> diễn ra như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hoạt hóa Phospholipase Cβ (PLCβ):</b> Hormon (ví dụ Oxytocin, Vasopressin V1, Angiotensin II) gắn GPCR hoạt hóa tiểu phần Gαq, kích thích enzym <span style=\"color:#51cf66\"><b>Phospholipase Cβ</b></span> cắt phospholipid màng PIP₂ (Phosphatidylinositol-4,5-bisphosphat) thành 2 chất truyền tin thứ hai riêng biệt: <span style=\"color:#74c0fc\"><b>IP₃</b></span> và <span style=\"color:#ffd43b\"><b>DAG</b></span>.<br>2) <b>Tác động của Inositol 1,4,5-trisphosphat (IP₃):</b> IP₃ khuếch tán vào bào tương gắn lên thụ thể kênh IP₃R trên màng mạng nội chất trơn (ER), giải phóng dòng ion <span style=\"color:#ff6b6b\"><b>Ca²⁺</b></span> ồ ạt vào bào tương để gắn kết Calmodulin kích hoạt chuỗi kinase phụ thuộc.<br>3) <b>Tác động của 1,2-Diacylglycerol (DAG):</b> DAG lưu lại trên màng bào tương, cùng với ion Ca²⁺ hoạt hóa enzym <span style=\"color:#51cf66\"><b>Protein Kinase C (PKC)</b></span> để phosphoryl hóa các protein đích điều hòa tăng sinh và co cơ trơn mạch máu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là hệ thống truyền tin kép độc đáo vì từ một phân tử phospholipid ban đầu (PIP₂) đã đồng thời sinh ra hai dòng tín hiệu tác động cộng hưởng điều hòa tế bào.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Con-duong-IP3-DAG"
+      ]
+    },
+    {
+      "id": "HS13-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Thụ thể nội bào",
+      "tier": 1,
+      "front": "Mô tả cơ chế hoạt hóa thụ thể nội bào của <span style=\"color:#ffd43b\"><b>Hormon Steroid</b></span> và vai trò của <span style=\"color:#74c0fc\"><b>Protein sốc nhiệt (Hsp90)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trạng thái nghỉ trong bào tương:</b> Ở trạng thái chưa gắn phối tử, thụ thể steroid (ví dụ Glucocorticoid Receptor - GR) liên kết chặt với phức hợp protein kèm cặp chaperone gồm <span style=\"color:#74c0fc\"><b>Hsp90</b></span> nhằm che giấu vùng tín hiệu định vị nhân (NLS) và giữ thụ thể ở trạng thái sẵn sàng tiếp nhận hormon.<br>2) <b>Hormon gắn kết và tách rời Hsp:</b> Phân tử hormon steroid ưa lipid khuếch tán tự do qua màng lipid kép, gắn đặc hiệu vào khoang LBD (Ligand Binding Domain) của thụ thể; tương tác này làm thay đổi cấu hình không gian khiến <span style=\"color:#51cf66\"><b>phức hợp Hsp90 tách rời</b></span>.<br>3) <b>Dime hóa và điều hòa phiên mã nhân:</b> Thụ thể hoạt hóa bộc lộ vùng NLS, chuyển vị vào trong nhân, tạo dạng đồng dime hóa (homodimer) và dùng các ngón tay kẽm (Zinc fingers) liên kết đặc hiệu với trình tự <span style=\"color:#ffd43b\"><b>HRE (Hormone Response Element)</b></span> trên DNA để tăng cường hoặc ức chế biểu hiện gen.<br><br><b>💡 Giải thích của AI:</b><br>Khác với thụ thể steroid ở bào tương, thụ thể hormon tuyến giáp (TR) và thụ thể acid retinoic (RAR) luôn thường trực sẵn bên trong nhân tế bào dưới dạng dị dime (heterodimer) với thụ thể RXR.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Thu-the-noi-bao"
+      ]
+    },
+    {
+      "id": "HS13-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Trục điều hòa nội tiết",
+      "tier": 1,
+      "front": "Trình bày nguyên lý hoạt động của <span style=\"color:#74c0fc\"><b>Trục Hạ đồi - Tuyến yên - Tuyến đích</b></span> và cơ chế điều hòa ngược âm tính (<span style=\"color:#ff6b6b\"><b>Negative Feedback</b></span>).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tầng điều khiển trung ương Hạ đồi:</b> Tế bào thần kinh vùng dưới đồi bài tiết các hormon giải phóng kích thích (RH) hoặc ức chế (IH) theo nhịp xung đổ vào hệ mạch cửa hạ đồi - yên.<br>2) <b>Tầng chuyển tiếp Tuyến yên trước:</b> Dưới tác dụng của các RH, thùy trước tuyến yên sản xuất các hormon hướng tuyến (TSH, ACTH, LH, FSH) vào hệ tuần hoàn chung để kích thích các tuyến đích.<br>3) <b>Tầng đáp ứng Tuyến đích và Feedback âm tính:</b> Tuyến đích (tuyến giáp, vỏ thượng thận, tuyến sinh dục) tổng hợp và bài xuất hormon ngoại vi (T3/T4, Cortisol, Testosteron, Estrogen); khi nồng độ hormon ngoại vi tự do tăng cao sẽ tác động ức chế ngược lên cả <span style=\"color:#ff6b6b\"><b>vùng hạ đồi (vòng dài)</b></span> và <span style=\"color:#ff6b6b\"><b>tuyến yên (vòng ngắn)</b></span> để duy trì nồng độ hormon hằng định sinh lý.<br><br><b>💡 Giải thích của AI:</b><br>Nếu bệnh lý phá hủy tuyến đích (như suy thượng thận nguyên phát Addison), sự mất hoàn toàn feedback âm tính sẽ làm nồng độ ACTH tuyến yên tăng vọt bù trừ gây sạm da do đồng kích hoạt thụ thể melanocortin.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Truc-noi-tiet"
+      ]
+    },
+    {
+      "id": "HS13-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Tín hiệu Insulin",
+      "tier": 1,
+      "front": "Cơ chế truyền tín hiệu qua thụ thể <span style=\"color:#74c0fc\"><b>Tyrosine Kinase (RTK) của Insulin</b></span> và con đường huy động kênh <span style=\"color:#51cf66\"><b>GLUT4</b></span> đưa glucose vào tế bào.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tự phosphoryl hóa thụ thể Insulin:</b> Insulin liên kết vào 2 tiểu đơn vị α ngoài màng tế bào, gây biến đổi cấu hình kích hoạt hoạt tính enzym Tyrosine kinase nội tại ở 2 tiểu phần β xuyên màng, dẫn đến <span style=\"color:#74c0fc\"><b>tự phosphoryl hóa lẫn nhau trên các gốc Tyrosine</b></span>.<br>2) <b>Hoạt hóa trục IRS - PI3K - Akt (PKB):</b> Thụ thể phosphoryl hóa các protein cơ chất <span style=\"color:#51cf66\"><b>IRS (Insulin Receptor Substrates)</b></span>, tạo vị trí tuyển mộ enzym Phosphoinositide 3-kinase (PI3K) biến PIP₂ thành PIP₃ màng; PIP₃ hoạt hóa enzym <span style=\"color:#ffd43b\"><b>Akt (Protein Kinase B)</b></span>.<br>3) <b>Huy động kênh vận chuyển GLUT4:</b> Akt hoạt hóa kích thích các túi nội bào chứa kênh vận chuyển glucose <span style=\"color:#51cf66\"><b>GLUT4 chuyển vị hòa màng bào tương</b></span> tại cơ vân và mô mỡ, làm tăng hấp thu glucose vào tế bào gấp hàng chục lần, đồng thời Akt phosphoryl hóa làm bất hoạt GSK3 giúp kích hoạt glycogen synthase tăng dự trữ glycogen.<br><br><b>💡 Giải thích của AI:</b><br>Bên cạnh nhánh chuyển hóa qua PI3K/Akt, thụ thể Insulin còn kích hoạt nhánh tăng sinh tế bào qua trục Grb2-SOS-Ras-Raf-MEK-MAPK.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Tin-hieu-Insulin"
+      ]
+    },
+    {
+      "id": "HS13-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Độc tố vi khuẩn",
+      "tier": 1,
+      "front": "So sánh cơ chế phân tử tác động lên G-protein của <span style=\"color:#ff6b6b\"><b>Độc tố Tả (Cholera toxin)</b></span> vs <span style=\"color:#ffd43b\"><b>Độc tố Ho gà (Pertussis toxin)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế phân tử của Độc tố Tả (Vibrio cholerae):</b> Enzyme A1 của độc tố xúc tác phản ứng <span style=\"color:#ff6b6b\"><b>ADP-ribosyl hóa không thuận nghịch lên tiểu đơn vị Gαs</b></span> tại gốc Arginin, khóa chặt Gαs ở trạng thái gắn GTP liên tục và bất hoạt hoạt tính GTPase nội tại; hậu quả là Adenylate Cyclase bị kích thích vĩnh viễn sản sinh ồ ạt cAMP, làm mở toang kênh CFTR màng ruột bài tiết ồ ạt ion Cl⁻, Na⁺ và nước gây tiêu chảy mất nước cấp xối xả dạng nước vo gạo.<br>2) <b>Cơ chế phân tử của Độc tố Ho gà (Bordetella pertussis):</b> Độc tố xúc tác phản ứng <span style=\"color:#ffd43b\"><b>ADP-ribosyl hóa lên tiểu đơn vị Gαi</b></span> tại gốc Cystein, ngăn cản Gαi tương tác với thụ thể GPCR khiến Gαi bị khóa cứng ở trạng thái bất hoạt (gắn GDP); do Gαi không thể ức chế Adenylate Cyclase, nồng độ cAMP nội bào cũng tăng cao mất kiểm soát gây tăng tiết dịch đường hô hấp và ức chế hóa ứng động bạch cầu.<br><br><b>💡 Giải thích của AI:</b><br>Mặc dù đích tác động phân tử đối lập nhau (Gαs kích thích vs Gαi ức chế), kết cục chung của cả hai độc tố vi khuẩn nguy hiểm này đều là làm bùng nổ nồng độ cAMP nội bào kéo dài.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Doc-to-G-protein"
+      ]
+    },
+    {
+      "id": "HS13-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HORMON",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Rối loạn tuyến giáp",
+      "tier": 1,
+      "front": "Cơ chế bệnh sinh tự miễn của <span style=\"color:#ff6b6b\"><b>Bệnh Basedow (Graves)</b></span> và biến đổi các chỉ số sinh hóa tuyến giáp (<span style=\"color:#74c0fc\"><b>FT3, FT4, TSH</b></span>) là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tự kháng thể kích thích tuyến giáp:</b> Tế bào lympho B tự phát sinh tự kháng thể <span style=\"color:#ff6b6b\"><b>TRAb / TSI (Thyroid Stimulating Immunoglobulin)</b></span> liên kết và kích hoạt đặc hiệu thụ thể TSH (TSH-R) trên màng tế bào nang giáp.<br>2) <b>Bùng phát tổng hợp hormon không phụ thuộc tuyến yên:</b> Kháng thể TSI gắn liên tục kích thích trục Gαs - Adenylate cyclase - cAMP, thúc đẩy tế bào nang giáp tăng sinh phì đại lan tỏa và giải phóng liên tục lượng khổng lồ <span style=\"color:#74c0fc\"><b>T3 và T4</b></span> vào tuần hoàn bất chấp cơ chế kiểm soát bình thường.<br>3) <b>Biến đổi sinh hóa đặc trưng:</b> Xét nghiệm huyết thanh cho thấy <span style=\"color:#74c0fc\"><b>FT4 và FT3 tăng rất cao</b></span>, trong khi <span style=\"color:#51cf66\"><b>TSH tuyến yên bị ức chế gần như bằng 0 (&lt; 0,01 µIU/mL)</b></span> do tác động feedback âm tính cực mạnh của nồng độ T3/T4 tự do.<br><br><b>💡 Giải thích của AI:</b><br>TSI còn kích thích các nguyên bào sợi hậu nhãn cầu biểu hiện thụ thể TSH-R tăng tổng hợp glycosaminoglycan gây phù nề, lắng đọng dịch và lồi mắt ác tính đặc trưng của bệnh Graves.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Basedow"
+      ]
+    },
+    {
+      "id": "HS13-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân tầng chẩn đoán rối loạn chức năng tuyến giáp dựa trên cặp đôi xét nghiệm <span style=\"color:#74c0fc\"><b>TSH</b></span> và <span style=\"color:#ffd43b\"><b>FT4</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng TSH huyết thanh độ nhạy cao thế hệ 3:</b> TSH là chỉ số sàng lọc nhạy nhất đối với toàn bộ trục hạ đồi - tuyến yên - tuyến giáp.<br>2) <b>Bước 2 — Nếu TSH GIẢM THẤP (&lt; 0,1 µIU/mL):</b> Kiểm tra ngay FT4: Nếu FT4 tăng cao → Khẳng định <span style=\"color:#ff6b6b\"><b>Cường giáp nguyên phát (Basedow, bướu nhân độc)</b></span>; nếu FT4 bình thường nhưng FT3 tăng → Nhiễm độc giáp do T3; nếu cả FT4 và FT3 bình thường → Cường giáp dưới lâm sàng.<br>3) <b>Bước 3 — Nếu TSH TĂNG CAO (&gt; 4,5 µIU/mL):</b> Kiểm tra ngay FT4: Nếu FT4 giảm thấp → Khẳng định <span style=\"color:#74c0fc\"><b>Suy giáp nguyên phát (Viêm tuyến giáp Hashimoto)</b></span>; nếu FT4 bình thường → Suy giáp dưới lâm sàng; nếu cả TSH và FT4 đều tăng cao → Định hướng u tuyến yên tiết TSH (Cường giáp thứ phát) hoặc hội chứng kháng hormon tuyến giáp.<br><br><b>💡 Giải thích của AI:</b><br>Nhờ mối tương quan logarit - tuyến tính giữa TSH và FT4, chỉ một dao động nhỏ của FT4 ngoài giới hạn tham chiếu đã kích hoạt sự biến đổi gấp hàng chục lần của TSH.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS13-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ phân biệt <span style=\"color:#ff6b6b\"><b>Hội chứng Cushing nguyên phát tại vỏ thượng thận</b></span> vs <span style=\"color:#ffd43b\"><b>Bệnh Cushing tuyến yên</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Xác thực hội chứng tăng Cortisol tự do:</b> Cortisol nước tiểu 24 giờ tăng cao hoặc nghiệm pháp ức chế Dexamethasone liều thấp qua đêm (1 mg) không ức chế được Cortisol sáng (&gt; 50 nmol/L / &gt; 1,8 µg/dL).<br>2) <b>Bước 2 — Định lượng nồng độ ACTH huyết tương buổi sáng:</b> Nếu ACTH <span style=\"color:#74c0fc\"><b>bị ức chế giảm sâu (&lt; 5 pg/mL)</b></span> → Khẳng định <span style=\"color:#ff6b6b\"><b>Hội chứng Cushing độc lập với ACTH</b></span> do u tuyến vỏ thượng thận (Adenoma) hoặc ung thư vỏ thượng thận tự chủ tiết Cortisol làm dập tắt ACTH tuyến yên.<br>3) <b>Bước 3 — Nếu ACTH bình thường hoặc tăng cao (≥ 15 – 20 pg/mL):</b> Khẳng định Hội chứng Cushing phụ thuộc ACTH; tiến hành <span style=\"color:#51cf66\"><b>Nghiệm pháp ức chế Dexamethasone liều cao (8 mg)</b></span>: Nếu nồng độ Cortisol bị ức chế giảm &gt; 50% → Khẳng định <span style=\"color:#ffd43b\"><b>Bệnh Cushing (U tuyến yên tiết ACTH)</b></span>; nếu không bị ức chế (&lt; 50%) → Định hướng u tiết ACTH lạc chỗ (ung thư tế bào nhỏ phổi).<br><br><b>💡 Giải thích của AI:</b><br>U tuyến yên vi thể trong Bệnh Cushing vẫn giữ lại được một phần cơ chế ức chế feedback khi gặp nồng độ steroid tổng hợp cực cao của Dexamethasone liều cao, khác với mô u ác tính lạc chỗ hoàn toàn trơ lỳ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS13-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Thuật toán chẩn đoán phân tầng khối <span style=\"color:#ff6b6b\"><b>U Tủy Thượng Thận (Pheochromocytoma)</b></span> ở bệnh nhân tăng huyết áp kịch phát.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Sàng lọc ban đầu bằng xét nghiệm sinh hóa chuyển hóa Catecholamin:</b> Định lượng nồng độ <span style=\"color:#74c0fc\"><b>Metanephrine và Normetanephrine tự do trong huyết tương</b></span> (hoặc Metanephrines toàn phần nước tiểu 24 giờ); đây là các sản phẩm giáng hóa liên tục của catecholamin trong mô u có độ nhạy chẩn đoán đạt 97 – 99%.<br>2) <b>Bước 2 — Nếu nồng độ Metanephrines huyết tương TĂNG CAO GẤP &gt; 3 – 4 LẦN giới hạn trên:</b> Khẳng định chắc chắn chẩn đoán sinh hóa của <span style=\"color:#ff6b6b\"><b>Pheochromocytoma / U tế bào cận hạch (Paraganglioma)</b></span> → Chuyển sang bước 3 chụp CT hoặc MRI ổ bụng có tiêm cản quang để định vị chính xác vị trí và kích thước khối u.<br>3) <b>Bước 3 — Quy tắc sống còn trong chuẩn bị trước phẫu thuật:</b> <span style=\"color:#51cf66\"><b>Bắt buộc phải phong bế thụ thể alpha-adrenergic trước (Phenoxybenzamine / Doxazosin)</b></span> ít nhất 10 – 14 ngày cho đến khi đạt huyết áp mục tiêu, sau đó MỚI ĐƯỢC bổ sung thuốc chẹn beta giao cảm (Propranolol) nếu có nhịp nhanh; <span style=\"color:#ff6b6b\"><b>tuyệt đối không dùng chẹn beta đơn độc trước</b></span> vì sẽ gây co mạch toàn thân dữ dội dẫn đến cơn tăng huyết áp kịch phát tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Dùng chẹn beta trước sẽ loại bỏ tác dụng giãn mạch của thụ thể β2, khiến nồng độ khổng lồ của adrenalin kích thích không đối kháng lên thụ thể α1 gây co thắt mạch ngoại vi cực độ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS13-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt tăng huyết áp kèm hạ Kali máu giữa <span style=\"color:#ff6b6b\"><b>Hội chứng Conn (Cường Aldosteron tiên phát)</b></span> vs <span style=\"color:#ffd43b\"><b>Hẹp động mạch thận (Cường Aldosteron thứ phát)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đo tỷ số nồng độ Aldosteron / hoạt độ Renin huyết tương (ARR - Aldosterone-to-Renin Ratio):</b> Lấy mẫu máu buổi sáng sau khi bệnh nhân đã ngồi nghỉ 15 phút và đã điều chỉnh các thuốc hạ áp gây nhiễu.<br>2) <b>Bước 2 — Nếu tỷ số ARR TĂNG CAO RÕ RỆT (Aldosteron tăng cao kèm Renin bị dập tắt giảm sâu):</b> Khẳng định <span style=\"color:#ff6b6b\"><b>Cường Aldosteron Tiên phát (Hội chứng Conn - U vỏ thượng thận hoặc tăng sản vỏ thượng thận hai bên)</b></span>; lượng Aldosteron dư thừa gây giữ Na⁺ và thải K⁺/H⁺, tăng gánh tuần hoàn ức chế tế bào cận cầu thận dập tắt Renin.<br>3) <b>Bước 3 — Nếu tỷ số ARR BÌNH THƯỜNG HOẶC THẤP (Cả Aldosteron và Renin ĐỀU TĂNG CAO):</b> Khẳng định <span style=\"color:#ffd43b\"><b>Cường Aldosteron Thứ phát</b></span>, nguyên nhân thường gặp nhất là <span style=\"color:#ffd43b\"><b>Hẹp động mạch thận</b></span> (thiếu máu nuôi cầu thận kích hoạt tiết Renin ồ ạt qua trục RAAS) hoặc suy tim xung huyết, xơ gan cổ trướng.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ số ARR là chìa khóa vàng phân biệt giữa căn nguyên u tiết aldosteron tự chủ nguyên phát và phản ứng bù trừ kích hoạt sinh lý của bộ máy cận cầu thận do giảm tưới máu thận.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 13: Hóa sinh hormon.",
+      "tags": [
+        "HS13",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "deck_id": 1401006001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-06 Chuyển hóa lipid và lipoprotein máu",
+  "card_count": 12,
+  "cards": [
+    {
+      "id": "HS06-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Tiêu hóa lipid",
+      "tier": 1,
+      "front": "Trình bày quá trình tiêu hóa triglycerid tại ruột non: vai trò của <span style=\"color:#ffd43b\"><b>muối mật</b></span>, enzym <span style=\"color:#74c0fc\"><b>Lipase tụy</b></span> và sự hình thành <span style=\"color:#51cf66\"><b>Chylomicron</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhũ tương hóa bởi muối mật:</b> Muối mật trong dịch mật phân tán các giọt mỡ lớn thành các vi hạt nhũ tương mịn, làm tăng diện tích tiếp xúc với enzym tiêu hóa.<br>2) <b>Thủy phân bởi Lipase tụy (cần Colipase):</b> Cắt chọn lọc các liên kết este ở vị trí carbon 1 và 3 của triglycerid, giải phóng <span style=\"color:#74c0fc\"><b>2 phân tử acid béo tự do và 1 phân tử 2-Monoacylglycerol (2-MAG)</b></span>.<br>3) <b>Đóng gói Chylomicron:</b> Sau khi ngấm vào tế bào niêm mạc ruột, 2-MAG và acid béo được tái tổng hợp lại thành triglycerid, kết hợp với phospholipid, cholesterol và <span style=\"color:#51cf66\"><b>Apo B-48</b></span> để tạo thành các hạt Chylomicron sơ khai đổ vào hệ bạch huyết.<br><br><b>💡 Giải thích của AI:</b><br>Sỏi mật gây tắc mật hoặc viêm tụy mạn suy tụy ngoại tiết làm lipid không tiêu hóa được, bài tiết nguyên vẹn ra phân gây triệu chứng ỉa phân mỡ (Steatorrhea) và thiếu hụt các vitamin tan trong dầu A, D, E, K.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Tiêu-hóa-lipid"
+      ]
+    },
+    {
+      "id": "HS06-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Thoái hóa mô mỡ",
+      "tier": 1,
+      "front": "Trình bày cơ chế điều hòa hoạt tính của enzym <span style=\"color:#74c0fc\"><b>Lipase nhạy cảm hormon (HSL)</b></span> tại mô mỡ bởi <span style=\"color:#ff6b6b\"><b>Glucagon / Adrenalin</b></span> và <span style=\"color:#51cf66\"><b>Insulin</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng hoạt hóa HSL (Trạng thái đói hoặc stress):</b> <span style=\"color:#ff6b6b\"><b>Glucagon và Adrenalin</b></span> gắn vào thụ thể màng tế bào mỡ kích hoạt adenyl cyclase tạo cAMP → hoạt hóa Protein Kinase A (PKA) → <span style=\"color:#ff6b6b\"><b>phosphoryl hóa hoạt hóa HSL</b></span> → thủy phân ồ ạt triglycerid giải phóng acid béo tự do (FFA) và glycerol vào máu.<br>2) <b>Tác dụng ức chế HSL (Trạng thái no):</b> <span style=\"color:#51cf66\"><b>Insulin</b></span> kích hoạt enzym phosphodiesterase giáng hóa cAMP và kích hoạt protein phosphatase dephosphoryl hóa làm <span style=\"color:#51cf66\"><b>bất hoạt HSL</b></span>, chấm dứt thoái hóa mỡ và thúc đẩy tích lũy mỡ.<br><br><b>💡 Giải thích của AI:</b><br>Trong đái tháo đường thể phụ thuộc insulin (typ 1), sự thiếu hụt insulin tuyệt đối làm HSL mất kiểm soát, giải phóng ồ ạt acid béo tự do về gan dẫn tới biến chứng Toan ceton cấp tính.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thoái-hóa-mô-mỡ"
+      ]
+    },
+    {
+      "id": "HS06-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Beta-oxy hóa",
+      "tier": 1,
+      "front": "Trình bày vai trò của <span style=\"color:#74c0fc\"><b>con thoi Carnitin (CPT-I, CPT-II)</b></span> và 4 phản ứng vòng lặp của quá trình <span style=\"color:#51cf66\"><b>Beta-oxy hóa acid béo no</b></span> trong chất nền ty thể.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Con thoi Carnitin:</b> Acyl-CoA được hoạt hóa ở bào tương (tiêu tốn 2 liên kết cao năng ATP); enzym <span style=\"color:#74c0fc\"><b>CPT-I (nằm ở màng ngoài ty thể, bị ức chế bởi Malonyl-CoA)</b></span> gắn acyl vào carnitin để đưa qua màng trong; enzym <span style=\"color:#74c0fc\"><b>CPT-II</b></span> tại chất nền tái tạo lại Acyl-CoA trong ty thể.<br>2) <b>4 bước vòng lặp Beta-oxy hóa:</b><br>1) <span style=\"color:#ffd43b\"><b>Khử hydro lần 1:</b></span> Acyl-CoA dehydrogenase tạo enoyl-CoA và <span style=\"color:#ffd43b\"><b>1 FADH₂ (1,5 ATP)</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Hợp nước:</b></span> Enoyl-CoA hydratase tạo 3-hydroxyacyl-CoA.<br>3) <span style=\"color:#ffd43b\"><b>Khử hydro lần 2:</b></span> 3-Hydroxyacyl-CoA dehydrogenase tạo 3-ketoacyl-CoA và <span style=\"color:#ffd43b\"><b>1 NADH (2,5 ATP)</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Cắt thiol (Thiolase):</b></span> Kết hợp với CoA-SH giải phóng <span style=\"color:#51cf66\"><b>1 phân tử Acetyl-CoA (10 ATP)</b></span> và chuỗi Acyl-CoA ngắn hơn 2 carbon.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi vòng lặp beta-oxy hóa giải phóng trực tiếp 1 FADH2 + 1 NADH + 1 Acetyl-CoA = 14 ATP.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Beta-oxy-hóa"
+      ]
+    },
+    {
+      "id": "HS06-B3-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Beta-oxy hóa",
+      "tier": 1,
+      "front": "Hạch toán chi tiết <span style=\"color:#51cf66\"><b>sản lượng năng lượng ATP</b></span> thoái hóa hoàn toàn 1 phân tử <span style=\"color:#74c0fc\"><b>Acid Palmitic (C16H32O2)</b></span> qua quá trình Beta-oxy hóa và chu trình Krebs.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Số vòng lặp và sản phẩm trung gian:</b> Phân tử Acid Palmitic (16 carbon) trải qua <span style=\"color:#ffd43b\"><b>7 vòng lặp beta-oxy hóa</b></span>, tạo ra <span style=\"color:#74c0fc\"><b>8 phân tử Acetyl-CoA</b></span>, <span style=\"color:#ffd43b\"><b>7 phân tử FADH₂</b></span> và <span style=\"color:#ffd43b\"><b>7 phân tử NADH</b></span>.<br>2) <b>Tổng năng lượng sinh ra:</b><br>- 8 Acetyl-CoA đi vào Krebs: 8 × 10 = <span style=\"color:#51cf66\"><b>80 ATP</b></span>.<br>- 7 FADH₂ qua chuỗi hô hấp: 7 × 1,5 = <span style=\"color:#51cf66\"><b>10,5 ATP</b></span>.<br>- 7 NADH qua chuỗi hô hấp: 7 × 2,5 = <span style=\"color:#51cf66\"><b>17,5 ATP</b></span>.<br>- Tổng cộng tạo thành = 80 + 10,5 + 17,5 = <span style=\"color:#51cf66\"><b>108 ATP</b></span>.<br>3) <b>Trừ năng lượng hoạt hóa ban đầu:</b> Hoạt hóa acid béo tiêu tốn 1 ATP thủy phân thành AMP + PPi (tương đương bẻ gãy 2 liên kết cao năng: <span style=\"color:#ff6b6b\"><b>- 2 ATP</b></span>) → <span style=\"color:#51cf66\"><b>SẢN LƯỢNG NĂNG LƯỢNG THỰC TẾ THU ĐƯỢC = 106 ATP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thoái hóa hoàn toàn 1 mol acid palmitic giải phóng tới 106 mol ATP, chứng minh hiệu suất năng lượng vượt trội của lipid so với glucid (chỉ 30 - 32 ATP/glucose).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Beta-oxy-hóa"
+      ]
+    },
+    {
+      "id": "HS06-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Thể Ceton",
+      "tier": 1,
+      "front": "Kể tên <span style=\"color:#74c0fc\"><b>3 thể ceton</b></span> sinh học; giải thích tại sao <span style=\"color:#ff6b6b\"><b>gan tổng hợp thể ceton nhưng không thể sử dụng</b></span> và cơ chế gây toan ceton đái tháo đường.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>3 thể ceton:</b> <span style=\"color:#74c0fc\"><b>Acetoacetat</b></span>, <span style=\"color:#74c0fc\"><b>D-beta-hydroxybutyrat</b></span> (chiếm ưu thế nhất trong máu), và <span style=\"color:#ffd43b\"><b>Aceton</b></span> (chất bay hơi đào thải qua hơi thở có mùi táo thối).<br>2) <b>Lý do gan không thể sử dụng:</b> Mô gan hoàn toàn thiếu enzym <span style=\"color:#ff6b6b\"><b>Thiophorase (beta-ketoacyl-CoA transferase)</b></span> cần thiết để chuyển acetoacetat thành acetoacetyl-CoA; do đó gan chỉ sản xuất và xuất khẩu thể ceton cho các mô ngoài gan (não, tim, cơ).<br>3) <b>Sinh bệnh học Toan ceton (DKA):</b> Khi thiếu insulin nặng, mô mỡ phóng thích ồ ạt acid béo về gan; đồng thời oxaloacetat cạn kiệt do bị kéo sang tân tạo đường khiến chu trình Krebs quá tải; lượng lớn Acetyl-CoA dư thừa chuyển hướng tổng hợp ồ ạt thể ceton (mang tính acid mạnh), gây toan chuyển hóa tăng Anion Gap.<br><br><b>💡 Giải thích của AI:</b><br>Trong giai đoạn nhịn đói kéo dài > 3 ngày, tế bào não bắt đầu thích nghi và sử dụng thể ceton thay thế cho 70% nhu cầu năng lượng hàng ngày.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thể-Ceton"
+      ]
+    },
+    {
+      "id": "HS06-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Sinh tổng hợp acid béo",
+      "tier": 1,
+      "front": "So sánh sự khác biệt cốt tử giữa <span style=\"color:#ff6b6b\"><b>Thoái hóa (Beta-oxy hóa)</b></span> và <span style=\"color:#51cf66\"><b>Sinh tổng hợp acid béo</b></span> về vị trí tế bào, chất mang acyl, coenzym và enzym xúc tác.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí nội bào:</b> Thoái hóa diễn ra trong <span style=\"color:#ff6b6b\"><b>Chất nền ty thể</b></span>; Sinh tổng hợp diễn ra ở <span style=\"color:#51cf66\"><b>Bào tương</b></span>.<br>2) <b>Chất mang gốc acyl:</b> Thoái hóa dùng <span style=\"color:#ff6b6b\"><b>Coenzym A (CoA-SH)</b></span>; Sinh tổng hợp dùng <span style=\"color:#51cf66\"><b>Protein mang nhóm acyl (ACP)</b></span> chứa nhóm phosphopantethein.<br>3) <b>Coenzym oxy hóa/khử:</b> Thoái hóa dùng <span style=\"color:#ff6b6b\"><b>FAD và NAD⁺</b></span> nhận hydro; Sinh tổng hợp dùng <span style=\"color:#51cf66\"><b>NADPH</b></span> làm lực khử.<br>4) <b>Hệ thống enzym:</b> Thoái hóa gồm các enzym hòa tan độc lập; Sinh tổng hợp sử dụng <span style=\"color:#51cf66\"><b>Phức hợp đa enzym Acid Fatty Synthase (FAS)</b></span> dạng dimer.<br><br><b>💡 Giải thích của AI:</b><br>Sự ngăn cách không gian (ty thể vs bào tương) và chất mang độc lập giúp tế bào kiểm soát hai quá trình nghịch chiều mà không bị triệt tiêu lẫn nhau.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Sinh-tổng-hợp-acid-béo"
+      ]
+    },
+    {
+      "id": "HS06-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Cholesterol & Statin",
+      "tier": 1,
+      "front": "Nêu bước giới hạn tốc độ của quá trình sinh tổng hợp cholesterol tại gan và cơ chế tác dụng dược lý của nhóm thuốc <span style=\"color:#51cf66\"><b>Statin</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước giới hạn tốc độ:</b> Phản ứng khử HMG-CoA thành Mevalonat: HMG-CoA + 2 NADPH + 2 H⁺ → Mevalonat + CoA-SH + 2 NADP⁺; xúc tác bởi enzym <span style=\"color:#ff6b6b\"><b>HMG-CoA Reductase</b></span> gắn trên màng lưới nội sinh chất.<br>2) <b>Cơ chế tác dụng của thuốc Statin (Atorvastatin, Rosuvastatin):</b> Có cấu trúc hóa học tương tự phân tử HMG-CoA, <span style=\"color:#51cf66\"><b>ức chế cạnh tranh đặc hiệu với enzym HMG-CoA Reductase</b></span>, ngăn chặn sinh tổng hợp cholesterol nội sinh ở gan.<br>3) <b>Tác động hạ lipid:</b> Lượng cholesterol trong tế bào gan sụt giảm kích hoạt tăng tổng hợp và phơi bày các <span style=\"color:#51cf66\"><b>thụ thể LDL-R trên bề mặt tế bào gan</b></span>, tăng cường dọn dẹp các hạt LDL-C xơ vữa từ máu vào gan, hạ mạnh nồng độ LDL-C huyết tương.<br><br><b>💡 Giải thích của AI:</b><br>Statin là thuốc nền tảng số 1 trong dự phòng tiên phát và thứ phát các biến cố tim mạch xơ vữa theo khuyến cáo toàn cầu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Cholesterol-&-Statin"
+      ]
+    },
+    {
+      "id": "HS06-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA LIPID",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Chuyển hóa Lipoprotein",
+      "tier": 1,
+      "front": "Trình bày vai trò của con đường vận chuyển cholesterol ngược của <span style=\"color:#51cf66\"><b>HDL</b></span> và cơ chế bệnh sinh của <span style=\"color:#ff6b6b\"><b>Tăng cholesterol máu có tính gia đình (FH - Typ IIa)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vận chuyển cholesterol ngược của HDL:</b> Hạt HDL sơ khai thu nhặt cholesterol tự do từ màng các tế bào ngoại biên và đại thực bào thành mạch; enzym <span style=\"color:#51cf66\"><b>LCAT (hoạt hóa bởi Apo A-I)</b></span> este hóa cholesterol đưa vào lõi kỵ nước của HDL; sau đó HDL vận chuyển về gan để đào thải qua dịch mật dưới dạng acid mật.<br>2) <b>Tăng cholesterol máu có tính gia đình (FH / Type IIa):</b> Bệnh di truyền trội trên nhiễm sắc thể thường do đột biến <span style=\"color:#ff6b6b\"><b>mất chức năng gen mã hóa thụ thể LDL-R (hoặc gen Apo B-100)</b></span>. Hậu quả: gan không thể thu nạp và thanh thải các hạt LDL-C từ máu, nồng độ LDL-C tăng vọt gấp 3 – 6 lần bình thường, gây u vàng gân gót (Xanthoma), mảng xơ vữa lan tỏa và <span style=\"color:#ff6b6b\"><b>nhồi máu cơ tim gây tử vong từ tuổi thiếu niên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc ức chế PCSK9 (Evolocumab, Alirocumab) ngăn chặn thoái hóa thụ thể LDL-R, là liệu pháp sinh học đột phá cho bệnh nhân FH.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Chuyển-hóa-Lipoprotein"
+      ]
+    },
+    {
+      "id": "HS06-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phác đồ sinh hóa xử trí cấp cứu bệnh nhân <span style=\"color:#ff6b6b\"><b>Toan Ceton do Đái tháo đường (DKA)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Bồi phụ thể tích tuần hoàn ngay lập tức:</b> Truyền tĩnh mạch nhanh <span style=\"color:#51cf66\"><b>Dung dịch Natri Clorid 0,9%</b></span> để khôi phục tưới máu mô và hạ đường huyết do pha loãng.<br>2) <b>Bước 2 — Kiểm tra nồng độ Kali máu TRƯỚC KHI tiêm insulin:</b> Nếu K⁺ &lt; 3,3 mmol/L → TRÌ HOÃN INSULIN, bù kali ngay (vì insulin đưa kali vào nội bào gây ngừng tim do hạ kali máu). Chỉ dùng insulin khi <span style=\"color:#ffd43b\"><b>K⁺ ≥ 3,3 mmol/L</b></span>.<br>3) <b>Bước 3 — Liệu pháp Insulin tĩnh mạch liều thấp liên tục:</b> Truyền tĩnh mạch <span style=\"color:#51cf66\"><b>Insulin Regular (0,1 UI/kg/giờ)</b></span> để ức chế HSL tại mô mỡ, dập tắt quá trình sinh thể ceton tại gan.<br>4) <b>Bước 4 — Bổ sung Glucose khi đường huyết hạ xuống &lt; 14 mmol/L (&lt; 250 mg/dL):</b> Chuyển sang truyền dịch Glucose 5% kèm insulin để tiếp tục đóng khoảng trống Anion Gap mà không bị hạ đường huyết.<br><br><b>💡 Giải thích của AI:</b><br>Tiêu chuẩn khỏi DKA không phải là đường huyết bình thường, mà là khi pH > 7.3, HCO3- > 18 mEq/L và khoảng trống Anion Gap trở về bình thường.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS06-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân loại 5 thể <span style=\"color:#ff6b6b\"><b>Rối loạn lipid máu theo Fredrickson</b></span> dựa trên điện di và nồng độ lipid.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Type I (Tăng Chylomicron đơn độc):</b> Huyết thanh đục như sữa có lớp váng mỡ nổi bên trên; Triglycerid tăng cực cao (&gt; 11 mmol/L / &gt; 1000 mg/dL); do <span style=\"color:#ff6b6b\"><b>thiếu hụt LPL hoặc Apo C-II</b></span>; nguy cơ viêm tụy cấp cao.<br>2) <b>Type IIa (Tăng LDL-C đơn độc):</b> Huyết thanh trong suốt; chỉ có Cholesterol toàn phần và <span style=\"color:#ff6b6b\"><b>LDL-C tăng rất cao</b></span>; Triglycerid hoàn toàn bình thường; do đột biến thụ thể <span style=\"color:#ff6b6b\"><b>LDL-R</b></span>.<br>3) <b>Type IIb (Tăng lipid máu hỗn hợp):</b> Huyết thanh hơi đục; tăng đồng thời cả <span style=\"color:#ff6b6b\"><b>LDL-C và VLDL (tăng cả Cholesterol và Triglycerid)</b></span>; thể thường gặp nhất ở bệnh nhân đái tháo đường và hội chứng chuyển hóa.<br>4) <b>Type IV (Tăng VLDL đơn độc):</b> Huyết thanh đục đồng nhất; <span style=\"color:#ffd43b\"><b>Triglycerid tăng cao</b></span>; Cholesterol bình thường hoặc tăng nhẹ; thường do tăng tổng hợp VLDL tại gan do uống rượu bia hoặc béo phì.<br><br><b>💡 Giải thích của AI:</b><br>Type IIa và IIb là 2 nhóm có nguy cơ biến cố xơ vữa động mạch và bệnh mạch vành cao nhất.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS06-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lựa chọn thuốc hạ lipid máu theo cơ chế tác động sinh hóa chính.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm Statin (Atorvastatin, Rosuvastatin):</b> Ức chế HMG-CoA Reductase → <span style=\"color:#51cf66\"><b>Lựa chọn số 1 tuyệt đối để hạ LDL-C (hạ 30 – 50%)</b></span> và giảm tỷ lệ tử vong tim mạch.<br>2) <b>Nhóm Fibrat (Fenofibrat, Gemfibrozil):</b> Kích hoạt thụ thể nhân PPAR-alpha, tăng tổng hợp LPL và tăng beta-oxy hóa → <span style=\"color:#51cf66\"><b>Lựa chọn hàng đầu khi Triglycerid tăng rất cao (&gt; 5,6 mmol/L / &gt; 500 mg/dL)</b></span> để phòng ngừa Viêm tụy cấp.<br>3) <b>Ezetimibe:</b> Ức chế chọn lọc protein vận chuyển NPC1L1 tại diềm bàn chải ruột non → <span style=\"color:#74c0fc\"><b>ngăn hấp thu cholesterol từ thức ăn</b></span>, phối hợp với statin khi chưa đạt mục tiêu LDL-C.<br>4) <b>Thuốc ức chế PCSK9 (Evolocumab, Alirocumab):</b> Kháng thể đơn dòng ngăn chặn sự thoái hóa thụ thể LDL-R → <span style=\"color:#51cf66\"><b>hạ LDL-C cực mạnh đến 60%</b></span> ở bệnh nhân nguy cơ rất cao.<br><br><b>💡 Giải thích của AI:</b><br>Lưu ý chống chỉ định phối hợp đồng thời Statin với Gemfibrozil do cạnh tranh chuyển hóa glucuronid hóa ở gan làm tăng vọt nguy cơ tiêu cơ vân cấp (Rhabdomyolysis).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS06-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Công thức hạch toán nhanh <span style=\"color:#74c0fc\"><b>năng lượng ATP</b></span> của một acid béo no có n carbon chẵn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1: Tính số phân tử Acetyl-CoA tạo thành:</b> Số Acetyl-CoA = <span style=\"color:#ffd43b\"><b>n / 2</b></span>; mỗi Acetyl-CoA vào Krebs sinh 10 ATP → Thu được <span style=\"color:#ffd43b\"><b>(n / 2) × 10 ATP</b></span>.<br>2) <b>Bước 2: Tính số vòng lặp Beta-oxy hóa:</b> Số vòng lặp = <span style=\"color:#74c0fc\"><b>(n / 2) - 1</b></span>; mỗi vòng lặp sinh 1 FADH₂ (1,5 ATP) + 1 NADH (2,5 ATP) = 4 ATP → Thu được <span style=\"color:#74c0fc\"><b>[(n / 2) - 1] × 4 ATP</b></span>.<br>3) <b>Bước 3: Trừ năng lượng hoạt hóa mồi:</b> Trừ đi <span style=\"color:#ff6b6b\"><b>2 ATP</b></span> hoạt hóa acid béo thành Acyl-CoA ban đầu.<br>4) <b>CÔNG THỨC RÚT GỌN TỔNG QUÁT:</b> <span style=\"color:#51cf66\"><b>Số ATP ròng = [(n / 2) × 10] + {[(n / 2) - 1] × 4} - 2 = 7n - 6 ATP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: Acid Stearic (C18): 7 × 18 - 6 = 120 ATP; Acid Myristic (C14): 7 × 14 - 6 = 92 ATP.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 6: Chuyển hóa lipid và lipoprotein.",
+      "tags": [
+        "HS06",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

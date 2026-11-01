@@ -1,0 +1,205 @@
+{
+  "deck_id": 1401018001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-18 Hóa sinh thận và nước tiểu, cơ chế lọc, tái hấp thu và xét nghiệm",
+  "card_count": 11,
+  "cards": [
+    {
+      "id": "HS18-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Cấu trúc chức năng thận",
+      "tier": 1,
+      "front": "Trình bày cấu tạo 3 lớp của <span style=\"color:#74c0fc\"><b>Màng lọc cầu thận</b></span> và cơ chế chọn lọc theo kích thước và điện tích âm.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lớp tế bào nội mô mao mạch có lỗ thủng (fenestrations):</b> Kích thước lỗ khoảng 70 – 100 nm, ngăn chặn hoàn toàn các tế bào máu (hồng cầu, bạch cầu, tiểu cầu) nhưng cho phép dịch và protein huyết tương đi qua tự do.<br>2) <b>Màng đáy cầu thận (GBM):</b> Cấu tạo từ lưới collagen typ IV, laminin, nidogen và giàu proteoglycan mang điện tích âm mạnh (<span style=\"color:#51cf66\"><b>heparan sulfat</b></span>); đóng vai trò như lưới lọc chính cản các phân tử có đường kính &gt; 4 nm.<br>3) <b>Lớp tế bào biểu mô có chân (Podocyte):</b> Các chân lồi đan cài tạo các khe lọc rộng 20 – 30 nm được bắc cầu bởi <span style=\"color:#74c0fc\"><b>màng khe bọc protein nephrin và podocin</b></span>; cũng được bao phủ bởi lớp glycocalyx mang điện tích âm mạnh (<span style=\"color:#ffd43b\"><b>podocalyxin</b></span>).<br>4) <b>Sự ngăn cản phân tử Albumin:</b> Albumin có bán kính phân tử 3,6 nm (nhỏ hơn lỗ lọc) nhưng mang điện tích âm thuần ở pH 7,4 nên bị <span style=\"color:#ff6b6b\"><b>sức đẩy tĩnh điện của màng đáy đẩy bật ngược lại</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trong bệnh thận thay đổi tối thiểu, sự mất điện tích âm của màng đáy dẫn đến thoát albumin ồ ạt gây hội chứng thận hư chọn lọc.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Mang-loc-cau-than"
+      ]
+    },
+    {
+      "id": "HS18-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Động học lọc cầu thận",
+      "tier": 1,
+      "front": "Phân tích biểu thức xác định <span style=\"color:#74c0fc\"><b>Áp lực lọc hiệu dụng (P_lọc)</b></span> tại mao mạch cầu thận theo định luật Starling.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình áp lực lọc:</b> <span style=\"color:#74c0fc\"><b>P_lọc = P_h - (P_k + P_b)</b></span>, trong đó P_lọc bình thường khoảng 10 – 15 mmHg.<br>2) <b>Áp lực thủy tĩnh mao mạch cầu thận (P_h):</b> Khoảng <span style=\"color:#51cf66\"><b>50 – 55 mmHg</b></span>, là lực duy nhất đẩy nước và các chất hòa tan từ lòng mao mạch vào khoang Bowman; duy trì ổn định nhờ cơ chế tự điều hòa co giãn tiểu động mạch đến và đi.<br>3) <b>Áp lực keo huyết tương (P_k):</b> Khoảng <span style=\"color:#ffd43b\"><b>25 – 30 mmHg</b></span> do protein huyết tương (chủ yếu là albumin) tạo ra, có xu hướng giữ nước lại trong lòng mao mạch.<br>4) <b>Áp lực thủy tĩnh bao Bowman (P_b):</b> Khoảng <span style=\"color:#ff6b6b\"><b>15 mmHg</b></span> do dịch lọc trong khoang tạo nên, chống lại sự lọc.<br><br><b>💡 Giải thích của AI:</b><br>Khi sỏi niệu quản gây tắc nghẽn, P_b tăng cao làm P_lọc giảm xuống 0, dẫn đến vô niệu sau thận cấp tính.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Loc-cau-than"
+      ]
+    },
+    {
+      "id": "HS18-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Tái hấp thu ống lượn gần",
+      "tier": 1,
+      "front": "Trình bày cơ chế tái hấp thu Glucose tại <span style=\"color:#74c0fc\"><b>Ống lượn gần</b></span> và giải thích khái niệm <span style=\"color:#ffd43b\"><b>Ngưỡng đường của thận</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vận chuyển tích cực thứ phát ở bờ bàn chải:</b> Glucose được đồng vận chuyển cùng ion Na⁺ từ lòng ống vào trong tế bào ống thận nhờ protein <span style=\"color:#74c0fc\"><b>SGLT2</b></span> (đảm nhận 90% ở đoạn S1) và <span style=\"color:#74c0fc\"><b>SGLT1</b></span> (đảm nhận 10% ở đoạn S3), tiêu tốn năng lượng gradient Na⁺ do bơm Na⁺/K⁺-ATPase duy trì.<br>2) <b>Khuếch tán thuận lợi ở màng đáy - bên:</b> Glucose đi vào dịch kẽ và mao mạch quanh ống thận nhờ chất vận chuyển khuếch tán thuận lợi <span style=\"color:#51cf66\"><b>GLUT2</b></span> (ở đoạn S1) và <span style=\"color:#51cf66\"><b>GLUT1</b></span> (ở đoạn S3).<br>3) <b>Ngưỡng đường của thận (Renal threshold for glucose):</b> Giá trị đường huyết khoảng <span style=\"color:#ffd43b\"><b>9 – 10 mmol/L (160 – 180 mg/dL)</b></span>; khi vượt quá ngưỡng này, các protein SGLT bị bão hòa vận chuyển cực đại (TmG = 375 mg/phút) khiến glucose tràn vào nước tiểu gây đa niệu thẩm thấu.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc ức chế SGLT2 (Dapagliflozin, Empagliflozin) hạ đường huyết độc lập với insulin bằng cách hạ thấp ngưỡng bài xuất đường của thận.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Ong-luon-gan"
+      ]
+    },
+    {
+      "id": "HS18-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Thăng bằng acid-base",
+      "tier": 1,
+      "front": "Trình bày 3 cơ chế sinh hóa của thận trong việc <span style=\"color:#74c0fc\"><b>đào thải H⁺</b></span> và <span style=\"color:#51cf66\"><b>tái tạo hoàn nguyên HCO₃⁻</b></span> mới cho cơ thể.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tái hấp thu hầu hết HCO₃⁻ lọc (tại ống lượn gần - 85%):</b> Tế bào bài tiết H⁺ qua bơm trao đổi Na⁺/H⁺ (NHE3); H⁺ kết hợp HCO₃⁻ trong lòng ống nhờ enzym Carbonic anhydrase màng (CA-IV) tạo H₂O và CO₂ khuếch tán vào tế bào; bên trong tế bào enzym CA-II biến đổi ngược lại tạo HCO₃⁻ đưa vào máu qua đồng vận chuyển NBCe1.<br>2) <b>Hệ đệm phosphat (Acid chuẩn độ được - Titratable acid):</b> H⁺ bài tiết kết hợp với Na₂HPO₄ trong lòng ống tạo thành <span style=\"color:#ffd43b\"><b>NaH₂PO₄</b></span> đào thải theo nước tiểu; giải phóng 1 HCO₃⁻ mới vào máu.<br>3) <b>Sự bài tiết dưới dạng ion Amoni (NH₄⁺):</b> Tế bào ống lượn gần giáng hóa Glutamin thành glutamate và alpha-ketoglutarat, sinh ra 2 phân tử NH₃ và tái tạo <span style=\"color:#51cf66\"><b>2 phân tử HCO₃⁻ mới</b></span>; NH₃ khuếch tán vào lòng ống bẫy H⁺ tạo ion <span style=\"color:#ff6b6b\"><b>NH₄⁺</b></span> không tan trong lipid đào thải ra nước tiểu.<br><br><b>💡 Giải thích của AI:</b><br>Đào thải H⁺ dưới dạng NH₄⁺ là cơ chế thích nghi mạnh nhất của thận khi nhiễm toan chuyển hóa mạn tính, có thể tăng gấp 10 lần.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Acid-base"
+      ]
+    },
+    {
+      "id": "HS18-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Cô đặc nước tiểu",
+      "tier": 1,
+      "front": "Phân tích cơ chế nhân nồng độ ngược dòng tại <span style=\"color:#74c0fc\"><b>Quai Henle</b></span> và vai trò điều hòa tính thấm nước của <span style=\"color:#51cf66\"><b>Hormon ADH (Vasopressin)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhánh xuống mỏng quai Henle:</b> Thấm tự do với nước qua kênh Aquaporin-1 nhưng hoàn toàn không thấm NaCl; nước bị hút ra dịch kẽ tủy thận làm dịch trong lòng ống cô đặc cực đại tại đỉnh quai (lên tới 1200 mOsm/kg).<br>2) <b>Nhánh lên dày quai Henle (TAL):</b> <span style=\"color:#ff6b6b\"><b>Hoàn toàn không thấm nước</b></span> nhưng tái hấp thu chủ động cực mạnh muối qua đồng vận chuyển <span style=\"color:#74c0fc\"><b>NKCC2 (Na⁺-K⁺-2Cl⁻)</b></span>; tạo ra độ thẩm thấu ưu trương sâu sắc cho dịch kẽ tủy thận và pha loãng dịch lòng ống (&lt; 100 mOsm/kg).<br>3) <b>Vai trò điều hòa của ADH tại ống góp:</b> ADH gắn thụ thể V2 màng đáy - bên kích hoạt tạo cAMP, kích thích các túi chứa kênh nước <span style=\"color:#51cf66\"><b>Aquaporin-2 (AQP2)</b></span> hòa màng vào bờ ngọn tế bào, cho phép nước tái hấp thu ồ ạt vào dịch kẽ tủy ưu trương, cô đặc nước tiểu.<br><br><b>💡 Giải thích của AI:</b><br>Đột biến bất hoạt thụ thể V2 hoặc kênh AQP2 gây đái tháo nhạt do thận với nước tiểu pha loãng bài xuất hàng chục lít mỗi ngày.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Co-dac-nuoc-tieu"
+      ]
+    },
+    {
+      "id": "HS18-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Đánh giá chức năng thận",
+      "tier": 1,
+      "front": "So sánh ưu nhược điểm giữa định lượng <span style=\"color:#74c0fc\"><b>Creatinin huyết thanh</b></span> và <span style=\"color:#51cf66\"><b>Cystatin C</b></span> trong đánh giá mức lọc cầu thận (eGFR).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Creatinin huyết thanh:</b> Nguồn gốc từ chuyển hóa creatin phosphat ở mô cơ; ưu điểm rẻ tiền, phổ biến; nhược điểm phụ thuộc lớn vào khối lượng cơ, tuổi, giới, chế độ ăn nhiều thịt, và có hiện tượng bài tiết thêm 10 – 15% tại ống lượn gần (gây ước tính eGFR cao hơn thực tế khi suy thận). Ngoài ra, Creatinin có khoảng mù (blind spot) khi GFR giảm từ 120 xuống 60 mL/phút/1,73 m² thì creatinin máu vẫn có thể trong giới hạn bình thường.<br>2) <b>Cystatin C:</b> Protein không glycosyl hóa (13 kDa) do tất cả tế bào có nhân sản xuất với tốc độ hằng định; được lọc tự do qua cầu thận và tái hấp thu, giáng hóa hoàn toàn ở ống lượn gần (không bài tiết thêm); <span style=\"color:#51cf66\"><b>hoàn toàn không phụ thuộc khối lượng cơ, tuổi hay chế độ ăn</b></span>; nhạy cảm hơn rõ rệt để phát hiện tổn thương thận giai đoạn sớm.<br><br><b>💡 Giải thích của AI:</b><br>KDIGO 2024 khuyến cáo sử dụng phương trình kết hợp Creatinin - Cystatin C để ước tính eGFR chính xác nhất.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Danh-gia-chuc-nang-than"
+      ]
+    },
+    {
+      "id": "HS18-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Sinh hóa nước tiểu",
+      "tier": 1,
+      "front": "Biện luận ý nghĩa sinh hóa của các thông số bất thường trong tổng phân tích nước tiểu: <span style=\"color:#ff6b6b\"><b>Protein niệu</b></span>, <span style=\"color:#ffd43b\"><b>Hồng cầu niệu</b></span> và <span style=\"color:#74c0fc\"><b>Trụ niệu (Casts)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Protein niệu:</b> Người bình thường bài xuất &lt; 150 mg/24h (Albumin &lt; 30 mg/24h); Microalbumin niệu (A2: 30 – 300 mg/g creatinin) là dấu hiệu sớm nhất của tổn thương vi mạch thận do đái tháo đường; Protein niệu ngưỡng thận hư (&gt; 3,5 g/24h) biểu hiện tổn thương nặng màng lọc cầu thận.<br>2) <b>Hồng cầu niệu:</b> Nước tiểu ly tâm có &gt; 3 hồng cầu/vi trường; nếu hồng cầu biến dạng méo mó (&gt; 80% dysmorphic RBCs hoặc tế bào gai Acanthocytes) chứng minh nguồn gốc xuất phát từ cầu thận.<br>3) <b>Trụ niệu:</b> Hình thành do sự đông tụ của protein Tamm-Horsfall (uromodulin) trong lòng ống lượn xa và ống góp; <span style=\"color:#ff6b6b\"><b>Trụ hồng cầu</b></span> đặc hiệu cho viêm cầu thận cấp; <span style=\"color:#74c0fc\"><b>Trụ bạch cầu</b></span> đặc hiệu cho viêm thận - bể thận hoặc viêm thận kẽ; <span style=\"color:#ffd43b\"><b>Trụ hạt nâu bùn</b></span> đặc hiệu cho hoại tử ống thận cấp (ATN).<br><br><b>💡 Giải thích của AI:</b><br>Soi cặn lắng nước tiểu tươi là sinh thiết lỏng của thận giúp định vị tổn thương giải phẫu bệnh tại giường bệnh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Nuoc-tieu"
+      ]
+    },
+    {
+      "id": "HS18-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt <span style=\"color:#74c0fc\"><b>Tổn thương thận cấp trước thận (Prerenal AKI)</b></span> vs <span style=\"color:#ff6b6b\"><b>Hoại tử ống thận cấp tại thận (ATN)</b></span> dựa trên FeNa và U/P Osmolality.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ số bài xuất phân đoạn Natri (FeNa = [U_Na × P_Cr] / [P_Na × U_Cr] × 100):</b><br>- <b>FeNa &lt; 1%:</b> Khẳng định <span style=\"color:#74c0fc\"><b>Tổn thương trước thận</b></span> (ống thận còn nguyên vẹn, đáp ứng bù trừ tái hấp thu triệt để Na⁺ và nước cứu thể tích tuần hoàn).<br>- <b>FeNa &gt; 2%:</b> Khẳng định <span style=\"color:#ff6b6b\"><b>Hoại tử ống thận cấp (ATN)</b></span> (tế bào ống thận bị hoại tử bong tróc, mất hoàn toàn khả năng tái hấp thu Na⁺).<br>2) <b>Tỷ số áp lực thẩm thấu niệu/huyết tương (U_Osm / P_Osm) và Natri niệu:</b><br>- <b>Trước thận:</b> Thận còn khả năng cô đặc tốt → U_Osm &gt; 500 mOsm/kg, U_Osm/P_Osm &gt; 1,5, U_Na &lt; 20 mmol/L.<br>- <b>Hoại tử ống thận cấp (ATN):</b> Thận mất khả năng cô đặc → U_Osm &lt; 350 mOsm/kg (đẳng trương với huyết tương), U_Osm/P_Osm &lt; 1,1, U_Na &gt; 40 mmol/L.<br><br><b>💡 Giải thích của AI:</b><br>Nếu bệnh nhân đang dùng thuốc lợi tiểu quai, FeNa mất độ chính xác; khi đó chỉ số phân đoạn bài xuất Urê (FeUrea &lt; 35%) được dùng thay thế.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Thuat-toan-than"
+      ]
+    },
+    {
+      "id": "HS18-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tầng nguy cơ và giai đoạn <span style=\"color:#74c0fc\"><b>Bệnh thận mạn (CKD) theo KDIGO</b></span> dựa trên eGFR và Albumin niệu (CGA Staging).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân độ mức lọc cầu thận (G1 – G5):</b><br>- G1: Bình thường hoặc cao (≥ 90 mL/phút/1,73 m² kèm tổn thương thận).<br>- G2: Giảm nhẹ (60 – 89 mL/phút/1,73 m²).<br>- G3a: Giảm nhẹ đến vừa (45 – 59 mL/phút/1,73 m²).<br>- G3b: Giảm vừa đến nặng (30 – 44 mL/phút/1,73 m²).<br>- G4: Giảm nặng (<span style=\"color:#ffd43b\"><b>15 – 29 mL/phút/1,73 m²</b></span>).<br>- G5: Suy thận giai đoạn cuối (<span style=\"color:#ff6b6b\"><b>&lt; 15 mL/phút/1,73 m²</b></span> hoặc cần lọc máu).<br>2) <b>Phân tầng Albumin niệu (A1 – A3 theo ACR):</b><br>- A1: Bình thường hoặc tăng nhẹ (&lt; 30 mg/g creatinin).<br>- A2: Tăng vừa (30 – 300 mg/g creatinin).<br>- A3: Tăng nặng (<span style=\"color:#ff6b6b\"><b>&gt; 300 mg/g creatinin</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Sự phối hợp giữa GFR và ACR tạo thành ma trận màu nhiệt dự báo chính xác nguy cơ tử vong tim mạch và tiến triển suy thận cần lọc máu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Thuat-toan-than"
+      ]
+    },
+    {
+      "id": "HS18-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Quy trình tính toán <span style=\"color:#74c0fc\"><b>Khoảng trống Anion niệu (Urine Anion Gap - UAG)</b></span> trong chẩn đoán căn nguyên toan chuyển hóa tăng clo máu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Công thức tính UAG:</b> <span style=\"color:#74c0fc\"><b>UAG = (Na⁺_niệu + K⁺_niệu) - Cl⁻_niệu</b></span>.<br>2) <b>Ý nghĩa sinh học:</b> Cl⁻ niệu phản ánh gián tiếp sự bài tiết ion NH₄⁺ (dưới dạng NH₄Cl); khi thận hoạt động bình thường đáp ứng toan chuyển hóa, đào thải NH₄⁺ tăng vọt kéo theo Cl⁻ tăng cao.<br>3) <b>Biện luận phân tầng:</b><br>- <b>UAG MANG DẤU ÂM (UAG &lt; 0, thường từ -20 đến -50 mmol/L):</b> Thận đáp ứng tốt đào thải nhiều NH₄⁺; nguyên nhân do <span style=\"color:#51cf66\"><b>Mất kiềm ngoài thận (Tiêu chảy cấp mất dịch mật tụy)</b></span>.<br>- <b>UAG MANG DẤU DƯƠNG (UAG &gt; 0, thường &gt; +20 mmol/L):</b> Thận suy giảm khả năng bài tiết acid và NH₄⁺; khẳng định nguyên nhân do <span style=\"color:#ff6b6b\"><b>Toan hóa ống thận (RTA typ 1 ở ống xa hoặc RTA typ 4)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>UAG là công cụ đơn giản tại giường giúp phân biệt nguồn gốc mất kiềm tiêu hóa so với tổn thương vận chuyển acid tại ống thận.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Thuat-toan-than"
+      ]
+    },
+    {
+      "id": "HS18-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ phân biệt <span style=\"color:#ff6b6b\"><b>Đái tháo nhạt trung ương</b></span> vs <span style=\"color:#ffd43b\"><b>Đái tháo nhạt do thận</b></span> bằng nghiệm pháp nhịn nước và test Desmopressin.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Nghiệm pháp nhịn nước (Water deprivation test):</b> Nhịn uống trong 8 giờ có giám sát sát sao cân nặng và áp lực thẩm thấu; nếu U_Osm vẫn &lt; 300 mOsm/kg dù P_Osm &gt; 295 mOsm/kg → Xác nhận bệnh nhân bị Đái tháo nhạt (mất khả năng cô đặc tự nhiên).<br>2) <b>Bước 2 — Tiêm hoặc xịt Desmopressin (dDAVP - dẫn xuất tổng hợp của ADH):</b> Sau đó theo dõi đáp ứng áp lực thẩm thấu nước tiểu (U_Osm) sau 1 – 2 giờ.<br>3) <b>Bước 3 — Biện luận kết quả:</b><br>- <b>Nếu U_Osm TĂNG VỌT &gt; 50% (thường tăng &gt; 100% lên &gt; 600 mOsm/kg):</b> Khẳng định <span style=\"color:#51cf66\"><b>Đái tháo nhạt trung ương</b></span> (tuyến yên không tiết được ADH nhưng thụ thể V2 ở ống thận hoàn toàn nhạy cảm).<br>- <b>Nếu U_Osm KHÔNG THAY ĐỔI HOẶC TĂNG &lt; 10%:</b> Khẳng định <span style=\"color:#ff6b6b\"><b>Đái tháo nhạt do thận</b></span> (ống thận kháng hoàn toàn với tác dụng của ADH).<br><br><b>💡 Giải thích của AI:</b><br>Test Desmopressin là tiêu chuẩn vàng sinh hóa phân tách rõ ràng khiếm khuyết thần kinh nội tiết so với khiếm khuyết cơ quan đích tại thận.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu.",
+      "tags": [
+        "HS18",
+        "Hoa-sinh",
+        "Thuat-toan-than"
+      ]
+    }
+  ]
+}

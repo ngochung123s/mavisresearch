@@ -1,0 +1,241 @@
+{
+  "deck_id": 1401016001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-16 Khí máu, hệ thống đệm sinh học và rối loạn thăng bằng acid-base",
+  "card_count": 13,
+  "cards": [
+    {
+      "id": "HS16-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Vận chuyển CO₂",
+      "tier": 1,
+      "front": "Trình bày 3 hình thức vận chuyển CO₂ trong máu và giải thích <span style=\"color:#74c0fc\"><b>Hiện tượng di chuyển Clorid (Hiện tượng Hamburger)</b></span> tại mao mạch mô.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ba hình thức vận chuyển CO₂:</b> Dạng hòa tan vật lý trong huyết tương chiếm ~5 – 7%; dạng hợp chất Carbamin (chủ yếu gắn vào nhóm amin tự do của Deoxyhemoglobin tạo Carbaminohemoglobin) chiếm ~15 – 20%; <span style=\"color:#51cf66\"><b>dạng ion Bicarbonat (HCO₃⁻) hòa tan trong huyết tương chiếm ưu thế tuyệt đối ~70 – 80%</b></span>.<br>2) <b>Phản ứng tạo HCO₃⁻ trong hồng cầu:</b> CO₂ từ mô khuếch tán vào hồng cầu được enzym <span style=\"color:#74c0fc\"><b>Carbonic Anhydrase (CA)</b></span> hydrat hóa thành H₂CO₃; phân ly tức thì thành H⁺ và HCO₃⁻; ion H⁺ được chuỗi đệm Deoxyhemoglobin bẫy giữ (Hiệu ứng Haldane).<br>3) <b>Hiện tượng Hamburger (Chloride Shift):</b> Nồng độ HCO₃⁻ nội bào tăng cao khuếch tán ra huyết tương qua protein đối vận chuyển AE1 (Band 3) trên màng hồng cầu; để đảm bảo cân bằng điện tích âm, <span style=\"color:#ff6b6b\"><b>ion Cl⁻ từ huyết tương đi ồ ạt vào trong hồng cầu</b></span> kèm theo các phân tử nước kéo vào làm hồng cầu trương nhẹ ở máu tĩnh mạch.<br><br><b>💡 Giải thích của AI:</b><br>Tại phế nang phổi, toàn bộ quá trình đảo ngược 180 độ: HCO₃⁻ đi ngược vào hồng cầu đổi lấy Cl⁻ đi ra ngoài, enzym CA khử nước giải phóng CO₂ khuếch tán vào phế nang để thở ra ngoài.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Van-chuyen-CO2"
+      ]
+    },
+    {
+      "id": "HS16-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Hệ đệm Bicarbonat",
+      "tier": 1,
+      "front": "Viết phương trình <span style=\"color:#74c0fc\"><b>Henderson - Hasselbalch</b></span> cho hệ đệm Bicarbonat và giải thích lý do hệ đệm này là <span style=\"color:#51cf66\"><b>hệ đệm mở tối quan trọng nhất</b></span> của dịch ngoại bào.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình Henderson - Hasselbalch:</b> pH = pK + log([HCO₃⁻] / [H₂CO₃]) = 6,1 + log([HCO₃⁻] / (0,03 × PaCO₂)); trong đó 0,03 là hệ số hòa tan của CO₂ trong huyết tương ở 37 °C, giá trị sinh lý [HCO₃⁻] = 24 mmol/L và PaCO₂ = 40 mmHg cho tỷ lệ [HCO₃⁻] / α.PaCO₂ = 20/1 tương ứng với <span style=\"color:#51cf66\"><b>pH máu động mạch = 7,40</b></span>.<br>2) <b>Lý do là hệ đệm mở tối quan trọng:</b> Mặc dù pK = 6,1 cách khá xa pH sinh lý 7,4 (về mặt hóa học thuần túy hiệu lực đệm không tối ưu), hệ đệm này vượt trội hoàn toàn vì nó là một <span style=\"color:#74c0fc\"><b>HỆ THỐNG MỞ CỰC KỲ LINH HOẠT</b></span>: nồng độ PaCO₂ được thông khí phổi điều chỉnh ngay lập tức trong vài phút và nồng độ HCO₃⁻ được thận điều hòa tái hấp thu/tạo mới trong vài ngày, giúp hai cấu phần này không bao giờ bị cạn kiệt.<br><br><b>💡 Giải thích của AI:</b><br>Mọi biến thiên của nồng độ ion H⁺ trong cơ thể đều lập tức được phản ánh và đệm chuyển hóa qua cặp đôi nồng độ giữa phổi (PaCO₂) và thận (HCO₃⁻).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "He-dem-Bicarbonat"
+      ]
+    },
+    {
+      "id": "HS16-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Hệ đệm sinh học",
+      "tier": 1,
+      "front": "Vai trò đệm acid-base của <span style=\"color:#ffd43b\"><b>Hệ đệm Hemoglobin</b></span> và tương tác qua lại giữa <span style=\"color:#ff6b6b\"><b>Hiệu ứng Bohr</b></span> và <span style=\"color:#74c0fc\"><b>Hiệu ứng Haldane</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ sở phân tử đệm của Hemoglobin:</b> Chuỗi globin chứa tới 38 gốc acid amin Histidin có nhóm imidazol với pK ≈ 6,8 rất gần pH sinh lý; đặc biệt <span style=\"color:#74c0fc\"><b>Deoxyhemoglobin (Hb khử) là một base yếu</b></span> có ái lực gắn kết ion H⁺ mạnh hơn nhiều so với Oxyhemoglobin (HbO₂).<br>2) <b>Hiệu ứng Bohr (Tại mô chuyển hóa):</b> Nồng độ ion H⁺ và CO₂ tại mô tăng cao làm dịch chuyển đường cong phân ly oxy sang phải, thúc đẩy HbO₂ giải phóng O₂ cho mô; đồng thời chuyển thành dạng <span style=\"color:#51cf66\"><b>Deoxyhemoglobin để gắn bẫy ion H⁺</b></span> chống toan hóa máu.<br>3) <b>Hiệu ứng Haldane (Tại phế nang phổi):</b> Phân áp O₂ cao ở phế nang thúc đẩy O₂ gắn vào Deoxyhemoglobin tạo HbO₂; sự oxy hóa này làm giảm ái lực của hemoglobin đối với H⁺ và CO₂, giải phóng <span style=\"color:#ff6b6b\"><b>ion H⁺ để kết hợp HCO₃⁻ tạo CO₂</b></span> đào thải qua đường thở.<br><br><b>💡 Giải thích của AI:</b><br>Hiệu ứng Bohr mô tả ảnh hưởng của H⁺/CO₂ lên khả năng vận chuyển Oxy; ngược lại Hiệu ứng Haldane mô tả ảnh hưởng của Oxy lên khả năng vận chuyển H⁺ và CO₂.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "He-dem-Hemoglobin"
+      ]
+    },
+    {
+      "id": "HS16-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Điều hòa hô hấp",
+      "tier": 1,
+      "front": "Cơ chế đáp ứng điều hòa thăng bằng acid-base của <span style=\"color:#74c0fc\"><b>Hệ thống Hô hấp</b></span> đối với biến thiên pH và PaCO₂.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cảm ứng thụ thể hóa học:</b> Các thụ cảm thể hóa học trung ương tại hành não cực kỳ nhạy cảm với sự thay đổi pH dịch não tủy (do CO₂ khuếch tán qua hàng rào máu não); các thụ thể hóa học ngoại vi tại xoang cảnh và quai động mạch chủ nhạy cảm với giảm pH máu động mạch, tăng PaCO₂ và hạ PaO₂.<br>2) <b>Đáp ứng bù trừ toan kiềm:</b> Khi máu bị toan hóa (pH giảm, [H⁺] tăng), trung tâm hô hấp lập tức bị kích thích gây <span style=\"color:#ff6b6b\"><b>tăng thông khí phế nang (thở sâu và nhanh kiểu Kussmaul)</b></span> để thổi bay CO₂ làm giảm PaCO₂ đưa pH về gần bình thường; ngược lại khi kiềm hóa trung tâm hô hấp bị ức chế gây giảm thông khí để giữ lại CO₂.<br>3) <b>Đặc tính thời gian và giới hạn:</b> Đáp ứng hô hấp khởi phát cực nhanh chỉ trong vài phút và đạt cực đại sau 12 – 24 giờ; tuy nhiên hô hấp <span style=\"color:#ffd43b\"><b>không thể bù trừ hoàn toàn 100% về pH bình thường</b></span> và không thể đào thải được các acid cố định không bay hơi (acid lactic, thể ceton).<br><br><b>💡 Giải thích của AI:</b><br>Phổi có khả năng đào thải tương đương 15.000 mmol acid bay hơi (CO₂) mỗi ngày dưới dạng carbonic acid qua đường thở.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Dieu-hoa-ho-hap"
+      ]
+    },
+    {
+      "id": "HS16-B3-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Điều hòa của thận",
+      "tier": 1,
+      "front": "Trình bày 2 cơ chế phân tử cốt lõi của <span style=\"color:#51cf66\"><b>Thận</b></span> trong duy trì kiềm dự trữ: Tái hấp thu Bicarbonat và Đào thải Acid cố định.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tái hấp thu HCO₃⁻ lọc tại ống lượn gần (~85 – 90%):</b> Kênh đối vận chuyển NHE3 bơm H⁺ vào lòng ống đổi lấy Na⁺; H⁺ kết hợp HCO₃⁻ dịch lọc tạo H₂CO₃; enzyme Carbonic Anhydrase IV (CA IV) trên bờ bàn chải phân hủy thành CO₂ và H₂O khuếch tán vào trong tế bào; bên trong tế bào enzym CA II tái tổng hợp thành H⁺ và HCO₃⁻; ion <span style=\"color:#51cf66\"><b>HCO₃⁻ được vận chuyển qua màng đáy bên về máu qua đồng vận chuyển NBCe1 (Na⁺-3HCO₃⁻)</b></span>.<br>2) <b>Tạo mới HCO₃⁻ qua bài xuất acid có thể chuẩn độ (Hệ đệm Phosphat):</b> Tế bào xen kẽ A tại ống góp dùng bơm H⁺-ATPase tiết ion H⁺ vào lòng ống; H⁺ được bẫy bởi HPO₄²⁻ dịch lọc tạo thành H₂PO₄⁻ bài xuất theo nước tiểu; mỗi ion H⁺ được đào thải sẽ sinh ra và đưa một ion <span style=\"color:#74c0fc\"><b>HCO₃⁻ mới hoàn toàn về máu</b></span>.<br>3) <b>Tạo mới HCO₃⁻ qua hệ thống sinh Amoniac (Ammoniagenesis):</b> Ống lượn gần phân giải acid amin Glutamin tạo ra 2 ion NH₄⁺ (bài xuất ra lòng ống) và tái tạo <span style=\"color:#ffd43b\"><b>2 ion HCO₃⁻ mới tinh đưa về tuần hoàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mỗi ngày thận đào thải khoảng 50 – 100 mmol acid cố định không bay hơi (acid sulfuric từ protein chứa lưu huỳnh, acid phosphoric); cơ chế thận cần từ 2 – 5 ngày mới đạt hiệu quả bù trừ tối đa.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Dieu-hoa-cua-than"
+      ]
+    },
+    {
+      "id": "HS16-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Khoảng trống Anion Gap",
+      "tier": 1,
+      "front": "Định nghĩa, công thức tính và giá trị lâm sàng của <span style=\"color:#ff6b6b\"><b>Khoảng trống Anion (Anion Gap - AG)</b></span> trong phân tầng Toan chuyển hóa.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất khoảng trống anion và công thức:</b> Anion Gap là nồng độ các anion không đo được trong huyết tương thông thường (protein tích điện âm như albumin, phosphat, sulfat, acid hữu cơ); công thức: <span style=\"color:#ff6b6b\"><b>AG = [Na⁺] - ([Cl⁻] + [HCO₃⁻])</b></span>; khoảng tham chiếu sinh lý bình thường là <span style=\"color:#74c0fc\"><b>12 ± 4 mmol/L (8 – 16 mmol/L)</b></span>.<br>2) <b>Tích tụ acid hữu cơ bất thường (HAGMA):</b> Xảy ra khi có sự tích tụ của các acid hữu cơ bất thường mang theo anion không đo được (A⁻); [HCO₃⁻] bị tiêu hao để đệm H⁺ nhưng nồng độ Cl⁻ không đổi khiến AG tăng cao (&gt; 16 mmol/L); nhóm nguyên nhân kinh điển theo ghi nhớ <span style=\"color:#ff6b6b\"><b>MUDPILES / GOLDMARK</b></span> (Methanol, Uremia suy thận, Diabetic Ketoacidosis toan ceton đái tháo đường, Propylene glycol, Isoniazid, Lactic acidosis toan lactic, Ethylene glycol, Salicylat/Aspirin).<br>3) <b>Mất Bicarbonat trực tiếp bù trừ bằng Clorid (NAGMA):</b> Xảy ra do mất trực tiếp ion HCO₃⁻ ra ngoài cơ thể; để bù trừ cân bằng điện tích thận tăng cường tái hấp thu ion Cl⁻ khiến [Cl⁻] máu tăng cao tương ứng; nguyên nhân hàng đầu gồm <span style=\"color:#ffd43b\"><b>Tiêu chảy mất dịch kiềm ruột, Toan hóa ống thận (RTA), truyền quá nhiều NaCl 0,9%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì Albumin đóng góp phần lớn điện tích âm của AG thông thường, bệnh nhân giảm albumin máu nặng cần hiệu chỉnh: AG hiệu chỉnh = AG tính toán + 2,5 × (40 - Albumin g/L) / 10.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Khoang-trong-Anion-Gap"
+      ]
+    },
+    {
+      "id": "HS16-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Toan chuyển hóa",
+      "tier": 1,
+      "front": "Cơ chế sinh bệnh học và đáp ứng bù trừ hô hấp trong <span style=\"color:#ff6b6b\"><b>Toan chuyển hóa (Metabolic Acidosis)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giảm nồng độ Bicarbonat tiên phát:</b> Do tích tụ acid nội sinh/ngoại sinh tiêu thụ kiềm hoặc mất trực tiếp HCO₃⁻ qua đường tiêu hóa/thận; xét nghiệm khí máu động mạch biểu hiện bằng <span style=\"color:#ff6b6b\"><b>pH &lt; 7,35 và [HCO₃⁻] &lt; 22 mmol/L</b></span>.<br>2) <b>Phản ứng tăng thông khí bù trừ của phổi:</b> Ion H⁺ tự do kích thích các thụ thể hóa học trung ương và xoang cảnh, thúc đẩy <span style=\"color:#51cf66\"><b>thở sâu và nhanh kiểu Kussmaul</b></span> để đào thải tối đa CO₂, làm PaCO₂ giảm xuống bù trừ theo tỷ lệ: cứ HCO₃⁻ giảm 1 mmol/L thì PaCO₂ giảm tương ứng khoảng 1,2 mmHg (hoặc ước tính theo công thức Winter: PaCO₂ = 1,5 × [HCO₃⁻] + 8 ± 2).<br>3) <b>Tác động chuyển hóa nguy hiểm:</b> Toan máu nặng (pH &lt; 7,10 – 7,20) gây ức chế co bóp cơ tim, giãn mạch ngoại vi tụt huyết áp trơ với vận mạch, và đẩy ion K⁺ từ nội bào ra ngoại bào gây tăng kali máu thứ phát.<br><br><b>💡 Giải thích của AI:</b><br>Bù trừ hô hấp là phản ứng bảo vệ tức thời tối quan trọng giúp cứu sống bệnh nhân trước khi các biện pháp điều trị nguyên nhân gốc rễ phát huy tác dụng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Toan-chuyen-hoa"
+      ]
+    },
+    {
+      "id": "HS16-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Kiềm chuyển hóa",
+      "tier": 1,
+      "front": "Căn nguyên sinh bệnh học và cơ chế duy trì kiềm của thận trong <span style=\"color:#ffd43b\"><b>Kiềm chuyển hóa (Metabolic Alkalosis)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng nồng độ Bicarbonat tiên phát:</b> Do mất ion H⁺ qua đường tiêu hóa (nôn ói nhiều, hút dịch dạ dày chứa HCl), mất H⁺ qua thận (dùng thuốc lợi tiểu quai/thiazide, cường aldosteron), hoặc nạp kiềm ngoại sinh; khí máu động mạch có <span style=\"color:#ffd43b\"><b>pH &gt; 7,45 và [HCO₃⁻] &gt; 26 mmol/L</b></span>.<br>2) <b>Bù trừ giảm thông khí của phổi:</b> Kiềm máu ức chế trung tâm hô hấp làm giảm thông khí nhẹ để giữ lại CO₂ (PaCO₂ tăng bù trừ ~0,7 mmHg cho mỗi 1 mmol/L HCO₃⁻ tăng thêm, nhưng PaCO₂ hiếm khi vượt quá 55 mmHg do phản xạ thiếu oxy máu kích thích thở lại).<br>3) <b>Cơ chế duy trì kiềm của thận (Maintenance phase):</b> Bình thường thận bài tiết kiềm thừa rất nhanh; tuy nhiên kiềm chuyển hóa bị duy trì dai dẳng khi có kèm 3 yếu tố: <span style=\"color:#ff6b6b\"><b>giảm thể tích tuần hoàn, giảm Clo máu và hạ Kali máu</b></span> (khiến ống thận bị buộc phải tái hấp thu triệt để Na⁺ kèm HCO₃⁻ và tăng bài tiết H⁺ qua nước tiểu).<br><br><b>💡 Giải thích của AI:</b><br>Muốn điều trị dứt điểm kiềm chuyển hóa đáp ứng clo, nguyên tắc bắt buộc là phải bù dịch muối NaCl 0,9% và bổ sung KCl để phá vỡ vòng duy trì kiềm tại ống thận.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Kiem-chuyen-hoa"
+      ]
+    },
+    {
+      "id": "HS16-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · KHÍ MÁU VÀ ACID-BASE",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Rối loạn toan kiềm hô hấp",
+      "tier": 1,
+      "front": "Phân biệt cơ chế sinh thái học, tiêu chuẩn khí máu và bù trừ của thận trong <span style=\"color:#ff6b6b\"><b>Toan hô hấp</b></span> vs <span style=\"color:#51cf66\"><b>Kiềm hô hấp</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Toan hô hấp (Respiratory Acidosis):</b> Giảm thông khí phế nang ứ CO₂ (COPD, hen phế quản nặng, suy hô hấp, liệt cơ hô hấp, ức chế thuốc phiện morphine); khí máu có <span style=\"color:#ff6b6b\"><b>pH &lt; 7,35 và PaCO₂ &gt; 45 mmHg</b></span>; thận bù trừ bằng cách tăng tái hấp thu và tạo mới HCO₃⁻ (cứ PaCO₂ tăng 10 mmHg thì HCO₃⁻ tăng 1 mmol/L ở thể cấp tính, và tăng 3,5 – 4,0 mmol/L ở thể mạn tính).<br>2) <b>Kiềm hô hấp (Respiratory Alkalosis):</b> Tăng thông khí phế nang quá mức thổi bay CO₂ (cơn hoảng sợ lo âu kích động thở gấp, sốt cao, thiếu oxy lên núi cao, ngộ độc Salicylat sớm, nhiễm trùng huyết); khí máu có <span style=\"color:#51cf66\"><b>pH &gt; 7,45 và PaCO₂ &lt; 35 mmHg</b></span>; thận bù trừ bằng cách tăng đào thải HCO₃⁻ qua nước tiểu (cứ PaCO₂ giảm 10 mmHg thì HCO₃⁻ giảm 2 mmol/L ở thể cấp tính, và giảm 4 – 5 mmol/L ở thể mạn tính).<br><br><b>💡 Giải thích của AI:</b><br>Sự khác biệt bù trừ giữa cấp tính và mạn tính phản ánh thời gian cần thiết để biểu mô ống thận điều biến enzym carbonic anhydrase và các kênh vận chuyển ion bicarbonat.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Toan-kiem-ho-hap"
+      ]
+    },
+    {
+      "id": "HS16-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Quy trình 6 bước chuẩn quốc tế phân tích toàn diện kết quả <span style=\"color:#74c0fc\"><b>Khí máu động mạch (ABG)</b></span> tại giường bệnh.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đánh giá tính nhất quán nội bộ:</b> Dùng phương trình Henderson kiểm tra [H⁺] = 24 × PaCO₂ / [HCO₃⁻] xem kết quả máy đo có hợp lệ không.<br>2) <b>Bước 2 — Xác định tình trạng toan hay kiềm máu:</b> So sánh pH: Nếu <span style=\"color:#ff6b6b\"><b>pH &lt; 7,35 → Toan máu (Acidemia)</b></span>; nếu <span style=\"color:#51cf66\"><b>pH &gt; 7,45 → Kiềm máu (Alkalemia)</b></span>; nếu 7,35 – 7,45 → Bình thường hoặc rối loạn hỗn hợp phức tạp đối kháng.<br>3) <b>Bước 3 — Xác định rối loạn tiên phát:</b> So sánh hướng dịch chuyển của PaCO₂ và HCO₃⁻: Biến đổi cùng chiều với pH là Chuyển hóa, biến đổi ngược chiều với pH là Hô hấp.<br>4) <b>Bước 4 — Đánh giá mức độ bù trừ thích hợp:</b> Dùng công thức Winter cho toan chuyển hóa: <span style=\"color:#74c0fc\"><b>PaCO₂ kỳ vọng = 1,5 × [HCO₃⁻] + 8 ± 2</b></span> để phát hiện rối loạn hô hấp đi kèm.<br>5) <b>Bước 5 — Tính Khoảng trống Anion (AG):</b> Tính <span style=\"color:#ff6b6b\"><b>AG = [Na⁺] - ([Cl⁻] + [HCO₃⁻])</b></span> để phân loại HAGMA vs NAGMA.<br>6) <b>Bước 6 — Đánh giá Tỷ số Delta-Delta (ΔAG / ΔHCO₃⁻):</b> Nếu toan tăng AG, tính <span style=\"color:#ffd43b\"><b>ΔAG / ΔHCO₃⁻ = (AG - 12) / (24 - HCO₃⁻)</b></span> để phát hiện kiềm chuyển hóa hoặc toan tăng clo ẩn giấu.<br><br><b>💡 Giải thích của AI:</b><br>Quy trình 6 bước đảm bảo chẩn đoán chính xác tuyệt đối không bỏ sót các rối loạn thăng bằng acid-base hỗn hợp phức tạp đe dọa tử vong ở bệnh nhân hồi sức tích cực.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS16-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Ứng dụng <span style=\"color:#ffd43b\"><b>Công thức Winter</b></span> để phát hiện rối loạn hô hấp hỗn hợp ở bệnh nhân <span style=\"color:#ff6b6b\"><b>Toan chuyển hóa</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Tính giá trị PaCO₂ kỳ vọng theo công thức Winter:</b> Khi bệnh nhân bị toan chuyển hóa nguyên phát, cơ thể phải bù trừ bằng tăng thông khí hạ PaCO₂ theo phương trình chuẩn: <span style=\"color:#74c0fc\"><b>PaCO₂ kỳ vọng = 1,5 × [HCO₃⁻] + 8 ± 2</b></span>.<br>2) <b>Bước 2 — Đo PaCO₂ thực tế trên kết quả ABG và đối chiếu:</b> So sánh nồng độ PaCO₂ đo được với khoảng giá trị kỳ vọng tính toán.<br>3) <b>Bước 3 — Kết luận chẩn đoán rối loạn hỗn hợp:</b><br>- Nếu PaCO₂ thực tế <span style=\"color:#51cf66\"><b>NẰM ĐÚNG TRONG KHOẢNG kỳ vọng</b></span> → Khẳng định <span style=\"color:#51cf66\"><b>Toan chuyển hóa đơn thuần có bù trừ hô hấp thích hợp</b></span>.<br>- Nếu PaCO₂ thực tế <span style=\"color:#ff6b6b\"><b>CAO HƠN khoảng kỳ vọng</b></span> → Khẳng định có kèm thêm <span style=\"color:#ff6b6b\"><b>Toan hô hấp phối hợp</b></span> (bệnh nhân bị suy hô hấp, kiệt cơ hô hấp không thở bù nổi hoặc có COPD đi kèm).<br>- Nếu PaCO₂ thực tế <span style=\"color:#ffd43b\"><b>THẤP HƠN khoảng kỳ vọng</b></span> → Khẳng định có kèm thêm <span style=\"color:#ffd43b\"><b>Kiềm hô hấp phối hợp</b></span> (thông khí quá mức do đau đớn, lo âu, sốc nhiễm trùng).<br><br><b>💡 Giải thích của AI:</b><br>Công thức Winter là tiêu chuẩn vàng hồi sức cấp cứu giúp phát hiện tình trạng suy hô hấp thầm lặng ở bệnh nhân toan chuyển hóa nặng trước khi ngừng thở.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS16-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Thuật toán biện giải <span style=\"color:#ff6b6b\"><b>Tỷ số Delta-Delta (ΔAG / ΔHCO₃⁻)</b></span> để chẩn đoán rối loạn chuyển hóa phức tạp che giấu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Xác định có Toan chuyển hóa tăng Anion Gap (HAGMA):</b> Khi Anion Gap &gt; 12 – 16 mmol/L.<br>2) <b>Bước 2 — Tính tỷ số biến thiên Delta-Delta:</b> Công thức: <span style=\"color:#74c0fc\"><b>Tỷ số Delta = ΔAG / ΔHCO₃⁻ = (AG đo được - 12) / (24 - [HCO₃⁻] đo được)</b></span>.<br>3) <b>Bước 3 — Biện giải 3 khoảng giá trị lâm sàng:</b><br>- <b>Nếu Tỷ số Delta = 1,0 – 2,0:</b> Khẳng định <span style=\"color:#51cf66\"><b>Toan chuyển hóa tăng AG đơn thuần</b></span> (mỗi phân tử acid hữu cơ sinh ra làm tăng 1 ion AG và tiêu thụ đúng 1 ion HCO₃⁻).<br>- <b>Nếu Tỷ số Delta &gt; 2,0:</b> Khẳng định phối hợp thêm <span style=\"color:#ffd43b\"><b>Kiềm chuyển hóa đi kèm</b></span> (nồng độ HCO₃⁻ thực tế cao hơn mong đợi, hay gặp ở bệnh nhân toan ceton đái tháo đường nhưng bị nôn ói nhiều mất acid dạ dày hoặc dùng lợi tiểu).<br>- <b>Nếu Tỷ số Delta &lt; 1,0:</b> Khẳng định phối hợp thêm <span style=\"color:#ff6b6b\"><b>Toan chuyển hóa tăng Clo máu (NAGMA) đi kèm</b></span> (HCO₃⁻ bị sụt giảm quá mức so với lượng AG tăng thêm, ví dụ toan lactic kèm tiêu chảy mất kiềm).<br><br><b>💡 Giải thích của AI:</b><br>Tỷ số Delta-Delta là công cụ sinh hóa sắc bén giúp vạch trần các bệnh lý đối nghịch nhau cùng tồn tại làm cho pH máu thoạt nhìn trông như bình thường.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS16-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ phân tầng tiếp cận nguyên nhân <span style=\"color:#ffd43b\"><b>Kiềm chuyển hóa (Metabolic Alkalosis)</b></span> dựa trên <span style=\"color:#74c0fc\"><b>nồng độ Clorid nước tiểu (UCl)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Xác định kiềm chuyển hóa trên khí máu:</b> pH &gt; 7,45 và HCO₃⁻ &gt; 28 mmol/L kèm PaCO₂ bù trừ tăng.<br>2) <b>Bước 2 — Định lượng ngay nồng độ Clorid trong nước tiểu (UCl):</b> Nồng độ Clorid niệu là chỉ số quyết định phân loại khả năng đáp ứng với điều trị truyền muối dịch.<br>3) <b>Bước 3 — Phân định dứt khoát 2 nhóm cơ chế bệnh sinh:</b><br>- <b>Nếu Clorid nước tiểu THẤP (&lt; 20 mmol/L):</b> Khẳng định <span style=\"color:#51cf66\"><b>Kiềm chuyển hóa đáp ứng với Clorid / Đáp ứng truyền muối (Saline-responsive)</b></span>; do mất dịch chứa HCl hoặc muối (nôn mửa nhiều, hút dẫn lưu dạ dày, dùng thuốc lợi tiểu trước đó); thể tích dịch ngoại bào giảm kích hoạt giữ Na⁺ và thải H⁺; điều trị khỏi hoàn toàn bằng cách truyền tĩnh mạch <span style=\"color:#51cf66\"><b>dung dịch NaCl 0,9%</b></span> bồi phụ thể tích và bù clo.<br>- <b>Nếu Clorid nước tiểu CAO (&gt; 20 – 40 mmol/L):</b> Khẳng định <span style=\"color:#ff6b6b\"><b>Kiềm chuyển hóa trơ với Clorid / Kháng truyền muối (Saline-resistant)</b></span>; thường đi kèm tăng huyết áp và tăng thể tích tuần hoàn do dư thừa Corticoid chuyển hóa khoáng (Cường Aldosteron tiên phát Hội chứng Conn, Hội chứng Cushing, U hẹp động mạch thận) hoặc do đột biến kênh ion di truyền (Hội chứng Bartter, Hội chứng Gitelman); <span style=\"color:#ff6b6b\"><b>hoàn toàn không đáp ứng với truyền NaCl 0,9%</b></span> mà bắt buộc phải điều trị u vỏ thượng thận hoặc dùng thuốc kháng aldosteron (Spironolactone).<br><br><b>💡 Giải thích của AI:</b><br>Đo Clorid nước tiểu là test phân loại lâm sàng đơn giản nhưng tối quan trọng giúp tránh truyền dịch thừa muối nguy hiểm cho bệnh nhân tăng huyết áp do cường aldosteron.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, PGS. TS. BS. Trần Huy Thịnh tác giả), NXB Y học, Chương 16: Khí máu và thăng bằng acid - base.",
+      "tags": [
+        "HS16",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

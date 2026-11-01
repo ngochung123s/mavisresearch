@@ -1,0 +1,187 @@
+{
+  "deck_id": 1401007001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-07 Hóa học acid amin, peptid và protein",
+  "card_count": 10,
+  "cards": [
+    {
+      "id": "HS07-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Acid amin",
+      "tier": 1,
+      "front": "Trình bày cấu tạo chung của các <span style=\"color:#74c0fc\"><b>alpha-acid amin</b></span> tiêu chuẩn và phân loại theo tính phân cực của chuỗi nhánh R.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu tạo chung:</b> Gồm một nguyên tử carbon alpha (C_alpha) gắn đồng thời với 4 nhóm: nhóm amin (-NH₂), nhóm carboxyl (-COOH), nguyên tử hydro (-H) và chuỗi nhánh biến thiên (-R). Toàn bộ 19 acid amin (trừ Glycin không có C*) đều có <span style=\"color:#ffd43b\"><b>đồng phân quang học dãy L</b></span> trong protein tự nhiên.<br>2) <b>4 nhóm theo tính phân cực chuỗi R:</b><br>- <span style=\"color:#74c0fc\"><b>Kỵ nước không phân cực:</b></span> Gly, Ala, Val, Leu, Ile, Pro, Phe, Trp, Met.<br>- <span style=\"color:#51cf66\"><b>Ưa nước phân cực không tích điện:</b></span> Ser, Thr, Cys (tạo cầu disulfid), Tyr, Asn, Gln.<br>- <span style=\"color:#ff6b6b\"><b>Tích điện âm (Acid):</b></span> Aspartat (-COO⁻), Glutamat (-COO⁻).<br>- <span style=\"color:#74c0fc\"><b>Tích điện dương (Base):</b></span> Lysin (-NH₃⁺), Arginin (nhân guanidin), Histidin (nhân imidazol).<br><br><b>💡 Giải thích của AI:</b><br>Histidin có pKa gần 6,0 nên ở pH sinh lý 7,4 nó đóng vai trò chất đệm proton nhận/nhượng H+ linh hoạt nhất trong các enzym.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Acid-amin"
+      ]
+    },
+    {
+      "id": "HS07-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Điểm đẳng điện",
+      "tier": 1,
+      "front": "Định nghĩa <span style=\"color:#74c0fc\"><b>Điểm đẳng điện (pI)</b></span> của acid amin/protein và nguyên lý di chuyển của protein trong <span style=\"color:#51cf66\"><b>Điện di trên gel (Electrophoresis)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điểm đẳng điện (pI):</b> Là giá trị pH của môi trường mà tại đó phân tử acid amin hoặc protein tồn tại ở dạng <span style=\"color:#ffd43b\"><b>ion lưỡng cực có tổng điện tích thực bằng 0</b></span>.<br>2) <b>Nguyên lý di chuyển điện di:</b><br>- Khi <span style=\"color:#ff6b6b\"><b>pH môi trường &gt; pI:</b></span> Protein mất proton mang <span style=\"color:#ff6b6b\"><b>điện tích âm (Anion)</b></span> → di chuyển về phía <span style=\"color:#ff6b6b\"><b>Cực dương (Anod +)</b></span>.<br>- Khi <span style=\"color:#74c0fc\"><b>pH môi trường &lt; pI:</b></span> Protein nhận proton mang <span style=\"color:#74c0fc\"><b>điện tích dương (Cation)</b></span> → di chuyển về phía <span style=\"color:#74c0fc\"><b>Cực âm (Catod -)</b></span>.<br>- Khi <span style=\"color:#51cf66\"><b>pH = pI:</b></span> Protein không mang điện tích → <span style=\"color:#51cf66\"><b>đứng yên tại chỗ, dễ bị tủa đông nhất</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trong điện di protein huyết tương ở pH 8,6 (cao hơn pI của hầu hết protein huyết tương ~4.7 - 7.0), tất cả protein đều tích điện âm và di chuyển về cực dương; Albumin di chuyển nhanh nhất vì có mật độ điện tích âm cao nhất.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Điểm-đẳng-điện"
+      ]
+    },
+    {
+      "id": "HS07-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Liên kết peptid",
+      "tier": 1,
+      "front": "Nêu đặc tính cấu trúc phẳng của <span style=\"color:#74c0fc\"><b>Liên kết peptid (-CO-NH-)</b></span> và nguyên lý phản ứng màu <span style=\"color:#51cf66\"><b>Biuret</b></span> định lượng protein.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc tính liên kết peptid:</b> Liên kết hình thành giữa nhóm alpha-carboxyl của acid amin này với nhóm alpha-amin của acid amin kế tiếp; có <span style=\"color:#ffd43b\"><b>tính chất một phần của liên kết đôi (khoảng 40%)</b></span> do sự giải tỏa electron giữa C, O và N, khiến liên kết peptid cứng nhắc, không quay tự do và 6 nguyên tử cùng nằm trên một mặt phẳng.<br>2) <b>Phản ứng màu Biuret:</b> Trong môi trường kiềm, các hợp chất chứa từ <span style=\"color:#51cf66\"><b>2 liên kết peptid trở lên</b></span> sẽ phản ứng phối trí với ion Cu²⁺ tạo phức chất màu <span style=\"color:#74c0fc\"><b>tím hồng đặc trưng</b></span>. Cường độ màu tỷ lệ thuận với số lượng liên kết peptid, dùng để định lượng nồng độ protein toàn phần huyết thanh.<br><br><b>💡 Giải thích của AI:</b><br>Các acid amin tự do và dipeptid (chỉ có 1 liên kết peptid) không cho phản ứng Biuret dương tính.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Liên-kết-peptid"
+      ]
+    },
+    {
+      "id": "HS07-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Cấu trúc 4 bậc protein",
+      "tier": 1,
+      "front": "So sánh đặc điểm không gian và các liên kết duy trì <span style=\"color:#74c0fc\"><b>Bốn bậc cấu trúc của phân tử protein</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc bậc 1:</b> Trật tự sắp xếp thẳng hàng của các acid amin trên chuỗi polypeptide, duy trì bằng <span style=\"color:#74c0fc\"><b>liên kết cộng hóa trị peptid</b></span> bền vững; quyết định toàn bộ cấu trúc bậc cao.<br>2) <b>Cấu trúc bậc 2:</b> Sự cuộn xoắn cục bộ tuần hoàn tạo chuỗi xoắn <span style=\"color:#ffd43b\"><b>alpha-helix</b></span> hoặc phiến gấp nếp <span style=\"color:#ffd43b\"><b>beta-sheet</b></span>, duy trì độc quyền bằng các <span style=\"color:#ffd43b\"><b>liên kết hydro</b></span> giữa các nhóm -CO- và -NH- của khung peptid.<br>3) <b>Cấu trúc bậc 3:</b> Cấu trúc cuộn gấp không gian 3 chiều hoàn chỉnh của 1 chuỗi polypeptide, duy trì bằng các tương tác yếu (liên kết ion, tương tác kỵ nước, lực van der Waals) và <span style=\"color:#51cf66\"><b>cầu disulfid (-S-S-)</b></span> giữa các gốc Cys.<br>4) <b>Cấu trúc bậc 4:</b> Tổ hợp của từ <span style=\"color:#ff6b6b\"><b>2 chuỗi polypeptide (tiểu phần) trở lên</b></span> liên kết với nhau bằng các tương tác phi cộng hóa trị (tiêu biểu như Hemoglobin gồm 4 tiểu phần 2 alpha 2 beta).<br><br><b>💡 Giải thích của AI:</b><br>Đột biến làm thay đổi chỉ một acid amin ở bậc 1 (ví dụ Glu6Val ở chuỗi beta Hb) có thể phá hủy hoàn toàn cấu trúc bậc 3 và bậc 4, dẫn tới bệnh thiếu máu hồng cầu liềm.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Cấu-trúc-4-bậc-protein"
+      ]
+    },
+    {
+      "id": "HS07-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Hemoglobin vs Myoglobin",
+      "tier": 1,
+      "front": "So sánh cấu tạo phân tử, đường cong phân ly oxy và chức năng sinh học giữa <span style=\"color:#74c0fc\"><b>Hemoglobin (Hb)</b></span> và <span style=\"color:#51cf66\"><b>Myoglobin (Mb)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu tạo:</b> <span style=\"color:#51cf66\"><b>Myoglobin</b></span> là monomer gồm 1 chuỗi polypeptide gắn 1 nhân Hem (chỉ chứa 1 vị trí gắn O₂); <span style=\"color:#74c0fc\"><b>Hemoglobin</b></span> là tetramer gồm 4 chuỗi (alpha₂beta₂) gắn 4 nhân Hem (chứa 4 vị trí gắn O₂).<br>2) <b>Đường cong phân ly oxy:</b> Myoglobin có đường cong <span style=\"color:#ffd43b\"><b>Hyperbol</b></span> với ái lực oxy rất cao (P50 ≈ 2 mmHg), giữ chặt oxy và chỉ giải phóng khi phân áp oxy mô tụt cực thấp; Hemoglobin có đường cong <span style=\"color:#51cf66\"><b>chữ S (Sigmoid)</b></span> do hiện tượng hợp tác tương hỗ dị lập thể giữa 4 tiểu phần (P50 ≈ 26 mmHg).<br>3) <b>Chức năng:</b> Myoglobin đóng vai trò <span style=\"color:#51cf66\"><b>dự trữ oxy trong mô cơ</b></span>; Hemoglobin đóng vai trò <span style=\"color:#74c0fc\"><b>vận chuyển oxy từ phổi đến các mô</b></span> và vận chuyển một phần CO2/H+ từ mô về phổi.<br><br><b>💡 Giải thích của AI:</b><br>Hiện tượng hợp tác (cooperativity) của Hemoglobin giúp nó nạp tối đa oxy ở phổi (pO2 100 mmHg) và nhả oxy hiệu quả tại mao mạch mô đích (pO2 40 mmHg).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Hemoglobin-vs-Myoglobin"
+      ]
+    },
+    {
+      "id": "HS07-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC PROTEIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Hiệu ứng Bohr & 2,3-BPG",
+      "tier": 1,
+      "front": "Giải thích bản chất của <span style=\"color:#74c0fc\"><b>Hiệu ứng Bohr</b></span> và vai trò của phân tử điều hòa <span style=\"color:#51cf66\"><b>2,3-Bisphosphoglycerat (2,3-BPG)</b></span> đối với ái lực của Hemoglobin với oxy.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hiệu ứng Bohr (Ảnh hưởng của pH và CO₂):</b> Khi mô hoạt động chuyển hóa mạnh sinh nhiều H⁺ (pH giảm toan) và CO₂, H⁺ và CO₂ gắn vào các vị trí dị lập thể trên Hemoglobin làm ổn định trạng thái căng <span style=\"color:#ff6b6b\"><b>T (Tense state)</b></span>, làm giảm ái lực của Hb với O₂ → <span style=\"color:#ff6b6b\"><b>đẩy đường cong phân ly oxy lệch sang Phải, thúc đẩy Hb nhả oxy cho mô thiếu</b></span>.<br>2) <b>Vai trò của 2,3-BPG:</b> Là sản phẩm phụ của đường phân trong hồng cầu (chu trình Rapoport-Luebering); 1 phân tử 2,3-BPG mang điện tích âm lọt vào khe khoang trung tâm của tetramer HbA, liên kết tĩnh điện với các acid amin tích điện dương của chuỗi beta, làm bền vững trạng thái T → <span style=\"color:#51cf66\"><b>giảm ái lực với oxy, giúp mô nhận oxy dễ dàng</b></span>.<br>3) <b>Ứng dụng sinh lý thai nhi:</b> Hemoglobin thai nhi (<span style=\"color:#74c0fc\"><b>HbF: alpha₂gamma₂</b></span>) có chuỗi gamma thay thế His bằng Ser nên giảm ái lực với 2,3-BPG → ái lực HbF với oxy cao hơn HbA mẹ, giúp thai nhi hút oxy dễ dàng từ máu mẹ qua bánh nhau.<br><br><b>💡 Giải thích của AI:</b><br>Khi lên vùng núi cao thiếu oxy hoặc thiếu máu mạn tính, hồng cầu tăng tổng hợp 2,3-BPG để tăng cường giải phóng oxy cho các mô ngoại biên.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Hiệu-ứng-Bohr-&-2,3-BPG"
+      ]
+    },
+    {
+      "id": "HS07-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt cấp cứu <span style=\"color:#ff6b6b\"><b>Ngộ độc Carbon Monoxid (CO)</b></span> vs <span style=\"color:#ffd43b\"><b>Methemoglobin huyết (MetHb)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đo độ bão hòa oxy máu bằng Co-oximetry:</b> Đánh giá màu sắc máu và SpO₂/SaO₂.<br>2) <b>Bước 2 — Nếu máu có màu đỏ tươi như quả anh đào (Cherry-red blood) và SpO₂ giả tạo bình thường:</b> Khẳng định ngộ độc <span style=\"color:#ff6b6b\"><b>Carboxyhemoglobin (CO-Hb)</b></span> (CO ái lực gấp 200 lần oxy) → Cho thở ngay <span style=\"color:#51cf66\"><b>Oxy 100% liều cao hoặc Oxy cao áp (HBO)</b></span>.<br>3) <b>Bước 3 — Nếu máu có màu nâu sô cô la (Chocolate-brown blood) và SpO₂ kẹt cứng quanh 85% không tăng khi thở oxy:</b> Khẳng định <span style=\"color:#ffd43b\"><b>Methemoglobin huyết (ion Fe²⁺ bị oxy hóa thành Fe³⁺ không gắn được O₂)</b></span> → Tiêm tĩnh mạch thuốc giải độc đặc hiệu <span style=\"color:#51cf66\"><b>Xanh Methylen (Methylene blue 1 – 2 mg/kg)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Xanh methylen nhờ NADPH từ chu trình pentose chuyển thành leukomethylene blue hoàn nguyên Fe3+ trở lại Fe2+.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS07-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận biện giải các yếu tố làm dịch chuyển <span style=\"color:#74c0fc\"><b>Đường cong phân ly Oxy - Hemoglobin</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dịch chuyển sang PHẢI (Giảm ái lực, Tăng nhả oxy cho mô):</b> Gợi nhớ mẹo 'CADET face right' gồm:<br>- Tăng <span style=\"color:#ff6b6b\"><b>CO₂</b></span>.<br>- Tăng <span style=\"color:#ff6b6b\"><b>Acid (Giảm pH / Tăng H⁺)</b></span>.<br>- Tăng <span style=\"color:#ff6b6b\"><b>2,3-BPG</b></span>.<br>- Tăng <span style=\"color:#ff6b6b\"><b>Exercise (Gắng sức)</b></span>.<br>- Tăng <span style=\"color:#ff6b6b\"><b>Temperature (Nhiệt độ / Sốt)</b></span>.<br>2) <b>Dịch chuyển sang TRÁI (Tăng ái lực, Giữ chặt oxy khó nhả):</b> Xảy ra khi:<br>- Giảm CO₂, Tăng pH (Kiềm máu).<br>- Giảm 2,3-BPG (máu truyền lưu trữ lâu ngày).<br>- Hạ thân nhiệt.<br>- Sự hiện diện của <span style=\"color:#74c0fc\"><b>HbF (máu thai nhi)</b></span>, Carboxyhemoglobin (CO) hoặc Methemoglobin.<br><br><b>💡 Giải thích của AI:</b><br>Máu ngân hàng để lưu trữ lâu ngày bị cạn kiệt 2,3-BPG nên khi truyền khối lượng lớn sẽ gây bẫy oxy làm mô thiếu oxy tạm thời.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS07-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Cơ chế phân tử và phương pháp chẩn đoán <span style=\"color:#ff6b6b\"><b>Bệnh thiếu máu hồng cầu liềm (HbS)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đột biến điểm gen beta-globin:</b> Đột biến thay thế nucleotid A thành T ở codon 6, làm thay thế acid amin tích điện âm ưa nước <span style=\"color:#74c0fc\"><b>Acid Glutamic (Glu)</b></span> bằng acid amin kỵ nước không phân cực <span style=\"color:#ff6b6b\"><b>Valin (Val)</b></span>.<br>2) <b>Biến dạng hồng cầu liềm (Deoxy-HbS):</b> Gốc Val kỵ nước bộc lộ ra ngoài tạo một 'mấu kỵ nước' gắn vào 'hốc kỵ nước' của phân tử HbS kế cận, thúc đẩy hàng nghìn phân tử HbS <span style=\"color:#ff6b6b\"><b>trùng hợp thành các dải sợi polymer dài hình que không tan</b></span>, làm biến dạng hồng cầu thành <span style=\"color:#ff6b6b\"><b>hình liềm</b></span>.<br>3) <b>Kỹ thuật điện di HbA vs HbS:</b> Thực hiện <span style=\"color:#51cf66\"><b>Điện di huyết sắc tố (Hb Electrophoresis)</b></span> ở pH kiềm 8,6: Do mất đi 2 điện tích âm của gốc Glu, phân tử HbS tích điện âm ít hơn HbA nên <span style=\"color:#51cf66\"><b>di chuyển chậm hơn về cực dương so với HbA (HbA chạy nhanh hơn HbS)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thuốc Hydroxyurea làm tăng tổng hợp chuỗi gamma tạo HbF giúp ức chế sự trùng hợp của HbS, là thuốc nền tảng điều trị dự phòng cơn tắc mạch hồng cầu liềm.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS07-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phân tích 5 dải băng <span style=\"color:#74c0fc\"><b>Điện di Protein Huyết thanh (SPEP)</b></span> bình thường.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Dải 1 — Albumin (Chiếm tỷ lệ lớn nhất 55 – 65%):</b> Di chuyển nhanh nhất về cực dương do pI thấp (4,7) và điện tích âm lớn nhất.<br>2) <b>Dải 2 — Alpha-1 globulin (2 – 4%):</b> Gồm <span style=\"color:#74c0fc\"><b>alpha-1-antitrypsin (AAT)</b></span> và alpha-1-acid glycoprotein.<br>3) <b>Dải 3 — Alpha-2 globulin (6 – 10%):</b> Gồm <span style=\"color:#ffd43b\"><b>Haptoglobin</b></span> (gắn Hb tự do chống thất thoát sắt) và <span style=\"color:#ffd43b\"><b>Ceruloplasmin</b></span> (vận chuyển đồng) và alpha-2-macroglobulin.<br>4) <b>Dải 4 — Beta globulin (9 – 13%):</b> Gồm <span style=\"color:#51cf66\"><b>Transferrin</b></span> (vận chuyển sắt Fe³⁺) và phân đoạn bổ thể C3, beta-lipoprotein (LDL).<br>5) <b>Dải 5 — Gamma globulin (12 – 20%):</b> Nằm gần cực âm nhất, chứa toàn bộ các <span style=\"color:#ff6b6b\"><b>Kháng thể miễn dịch (Immunoglobulin: IgG, IgA, IgM)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trong bệnh Đa u tủy xương (Multiple Myeloma), tế bào plasma ác tính tăng sinh đơn dòng tạo đỉnh nhọn hoắt hẹp đáy (M-spike) ở vùng gamma globulin.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 7: Hóa học protein.",
+      "tags": [
+        "HS07",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

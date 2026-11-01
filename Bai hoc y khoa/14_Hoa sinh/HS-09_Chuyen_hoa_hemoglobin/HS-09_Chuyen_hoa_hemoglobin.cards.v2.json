@@ -1,0 +1,151 @@
+{
+  "deck_id": 1401009001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-09 Chuyển hóa hemoglobin và sắc tố mật",
+  "card_count": 8,
+  "cards": [
+    {
+      "id": "HS09-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA HEMOGLOBIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Cấu tạo Hem",
+      "tier": 1,
+      "front": "Trình bày cấu tạo hóa học của <span style=\"color:#74c0fc\"><b>Nhân Hem (Protoporphyrin IX gắn Fe²⁺)</b></span> và các liên kết phối trí của nguyên tử sắt.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc vòng porphyrin:</b> Gồm 4 vòng pyrol (I, II, III, IV) liên kết với nhau bằng 4 cầu nối metin (-CH=); mang 8 nhóm thế phân bố đối xứng gồm: <span style=\"color:#ffd43b\"><b>4 nhóm methyl (-CH₃), 2 nhóm vinyl (-CH=CH₂), và 2 nhóm propionat (-CH₂-CH₂-COOH)</b></span>.<br>2) <b>Nguyên tử Sắt (Fe²⁺) và 6 liên kết phối trí:</b><br>- 4 liên kết phối trí nằm trên mặt phẳng vòng porphyrin liên kết với 4 nguyên tử nitơ của 4 vòng pyrol.<br>- Liên kết phối trí thứ 5 liên kết vuông góc với nguyên tử nitơ của gốc <span style=\"color:#51cf66\"><b>Histidin gần (His F8 / Proximal histidine)</b></span> của chuỗi globin.<br>- Liên kết phối trí thứ 6 là <span style=\"color:#ff6b6b\"><b>vị trí gắn thuận nghịch với phân tử Oxy (O₂)</b></span> nằm giữa Fe²⁺ và Histidin xa (His E7 / Distal histidine).<br><br><b>💡 Giải thích của AI:</b><br>Histidin xa (His E7) tạo một góc cản trở không gian giúp giảm mạnh ái lực của CO với Fe2+, bảo vệ cơ thể khỏi bị ngộ độc CO nội sinh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Cấu-tạo-Hem"
+      ]
+    },
+    {
+      "id": "HS09-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA HEMOGLOBIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Sinh tổng hợp Hem",
+      "tier": 1,
+      "front": "Trình bày bước phản ứng mở đầu kiểm soát tốc độ của quá trình sinh tổng hợp Hem bởi enzym <span style=\"color:#ff6b6b\"><b>ALA Synthase (ALAS)</b></span> và cơ chế ức chế ngược.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng mở đầu (Trong ty thể):</b> Ngưng tụ giữa <span style=\"color:#74c0fc\"><b>Succinyl-CoA</b></span> (từ chu trình Krebs) và acid amin <span style=\"color:#74c0fc\"><b>Glycin</b></span> tạo thành <span style=\"color:#51cf66\"><b>Acid delta-Aminolevulinic (ALA)</b></span>; xúc tác bởi enzym <span style=\"color:#ff6b6b\"><b>ALA Synthase (cần coenzym PLP - Vitamin B₆)</b></span>.<br>2) <b>Bước giới hạn tốc độ và điều hòa:</b> ALAS là enzym chìa khóa giới hạn tốc độ của toàn bộ quá trình sinh tổng hợp Hem; bị <span style=\"color:#ff6b6b\"><b>ức chế ngược allosteric trực tiếp bởi Hem tự do và Hemin (Fe³⁺)</b></span>.<br>3) <b>2 dạng đồng enzym:</b> <span style=\"color:#ffd43b\"><b>ALAS1</b></span> có ở gan (bị ức chế bởi heme và được cảm ứng bởi các thuốc chuyển hóa qua cytochrom P450 như barbiturat); <span style=\"color:#ffd43b\"><b>ALAS2</b></span> đặc hiệu cho mô tạo máu tủy xương (được điều hòa bởi nồng độ sắt qua yếu tố IRE-IRP).<br><br><b>💡 Giải thích của AI:</b><br>Độc chất Chì (Lead poisoning) ức chế 2 enzym trong con đường này là ALA Dehydratase và Ferrochelatase, làm ứ đọng ALA và protoporphyrin gây thiếu máu và đau bụng chì.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Sinh-tổng-hợp-Hem"
+      ]
+    },
+    {
+      "id": "HS09-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA HEMOGLOBIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Thoái hóa Hemoglobin",
+      "tier": 1,
+      "front": "Trình bày chuỗi thoái hóa Hem tại hệ liên võng nội mô tạo <span style=\"color:#ff6b6b\"><b>Bilirubin tự do (gián tiếp)</b></span> và cơ chế <span style=\"color:#51cf66\"><b>liên hợp Bilirubin tại gan</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thoái hóa tại đại thực bào (Lách, tủy xương):</b> Enzym <span style=\"color:#74c0fc\"><b>Heme Oxygenase (cần NADPH và O₂)</b></span> cắt mở vòng porphyrin giải phóng Fe²⁺ và CO, tạo thành phân tử sắc tố màu xanh <span style=\"color:#74c0fc\"><b>Biliverdin</b></span>; sau đó enzym <span style=\"color:#74c0fc\"><b>Biliverdin Reductase</b></span> khử thành <span style=\"color:#ff6b6b\"><b>Bilirubin tự do (Bilirubin gián tiếp)</b></span>.<br>2) <b>Đặc tính Bilirubin gián tiếp:</b> Hoàn toàn <span style=\"color:#ff6b6b\"><b>không tan trong nước, tan tốt trong mỡ, rất độc với hệ thần kinh</b></span>; bắt buộc phải gắn chặt với <span style=\"color:#ffd43b\"><b>Albumin huyết tương</b></span> để được vận chuyển an toàn về gan.<br>3) <b>Liên hợp tại gan:</b> Tại lưới nội sinh chất tế bào gan, enzym <span style=\"color:#51cf66\"><b>UDP-glucuronosyltransferase (UGT1A1)</b></span> gắn 2 phân tử acid glucuronic vào bilirubin tạo thành <span style=\"color:#51cf66\"><b>Bilirubin diglucuronid (Bilirubin liên hợp / trực tiếp)</b></span> tan trong nước, không độc, được bài tiết chủ động qua màng đỉnh vào vi quản mật.<br><br><b>💡 Giải thích của AI:</b><br>Sự tạo thành khí CO nội sinh từ bước Heme oxygenase là nguồn duy nhất sản xuất khí CO sinh lý trong cơ thể người, đóng vai trò phân tử truyền tin giãn mạch.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Thoái-hóa-Hemoglobin"
+      ]
+    },
+    {
+      "id": "HS09-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA HEMOGLOBIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Hội chứng vàng da",
+      "tier": 1,
+      "front": "So sánh cơ chế bệnh sinh và biến đổi sinh hóa xét nghiệm của 3 nhóm <span style=\"color:#ff6b6b\"><b>Hội chứng Vàng da: Trước gan, Tại gan và Sau gan</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vàng da Trước gan (Do Tan máu cấp/mạn):</b> Tốc độ phá hủy hồng cầu vượt quá khả năng liên hợp của gan; <span style=\"color:#ff6b6b\"><b>Bilirubin gián tiếp tăng ưu thế</b></span>; Bilirubin nước tiểu âm tính (do không tan trong nước); Urobilinogen nước tiểu tăng rất cao, phân màu sẫm sô cô la.<br>2) <b>Vàng da Tại gan (Viêm gan cấp, xơ gan hoại tử):</b> Tế bào gan tổn thương suy giảm cả chức năng liên hợp và bài tiết mật; <span style=\"color:#ffd43b\"><b>Tăng hỗn hợp cả Bilirubin trực tiếp và gián tiếp</b></span>; men gan <span style=\"color:#ff6b6b\"><b>AST và ALT tăng vọt</b></span>; Bilirubin niệu dương tính; Urobilinogen niệu có thể tăng.<br>3) <b>Vàng da Sau gan (Tắc mật cơ học do sỏi mật, u đầu tụy):</b> Dòng mật bị tắc nghẽn trào ngược vào xoang mạch; <span style=\"color:#51cf66\"><b>Bilirubin trực tiếp tăng chiếm ưu thế tuyệt đối (&gt; 50%)</b></span>; Bilirubin niệu dương tính đậm (nước tiểu sẫm màu như nước vối); Urobilinogen niệu âm tính hoàn toàn; <span style=\"color:#ff6b6b\"><b>phân mất màu trắng bệch như phân cò (màu đất sét)</b></span>; men ứ mật <span style=\"color:#51cf66\"><b>ALP và GGT tăng rất cao</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng Charcot kinh điển của sỏi mật tắc mật: Đau hạ sườn phải -> Sốt rét run -> Vàng da vàng mắt.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Hội-chứng-vàng-da"
+      ]
+    },
+    {
+      "id": "HS09-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ tiếp cận chẩn đoán phân tầng bệnh nhân <span style=\"color:#ff6b6b\"><b>Vàng da (Jaundice / Icterus)</b></span> dựa trên tỷ lệ Bilirubin.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng Bilirubin toàn phần và trực tiếp:</b> Tính tỷ lệ Bilirubin trực tiếp / Bilirubin toàn phần.<br>2) <b>Bước 2 — Nếu Bilirubin trực tiếp &lt; 20% (Tăng Bilirubin gián tiếp ưu thế):</b> Kiểm tra huyết đồ và xét nghiệm tan máu (Hb, hồng cầu lưới, haptoglobin, nghiệm pháp Coombs). Nếu có tan máu → <span style=\"color:#ff6b6b\"><b>Vàng da trước gan (Tan máu)</b></span>. Nếu không tan máu → Khẳng định các hội chứng khiếm khuyết liên hợp bẩm sinh (<span style=\"color:#ffd43b\"><b>Hội chứng Gilbert hoặc Crigler-Najjar</b></span>).<br>3) <b>Bước 3 — Nếu Bilirubin trực tiếp &gt; 50% (Tăng Bilirubin trực tiếp ưu thế):</b> Kiểm tra men gan (AST, ALT) và men ứ mật (ALP, GGT) kết hợp siêu âm ổ bụng. Nếu đường mật giãn, ALP/GGT tăng vọt → <span style=\"color:#51cf66\"><b>Tắc mật sau gan (Sỏi, u)</b></span>. Nếu men gan AST/ALT tăng cao hàng trăm nghìn U/L → <span style=\"color:#74c0fc\"><b>Tổn thương nhu mô gan tại gan (Viêm gan virus, ngộ độc)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ngưỡng lâm sàng phát hiện vàng da vàng mắt bằng mắt thường trên lâm sàng là khi Bilirubin toàn phần vượt quá 34 - 40 µmol/L (2 - 2.5 mg/dL).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS09-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phân biệt 4 hội chứng <span style=\"color:#74c0fc\"><b>Rối loạn chuyển hóa Bilirubin di truyền bẩm sinh</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hội chứng Gilbert:</b> Đột biến promoter gen UGT1A1 làm giảm 70% hoạt tính enzym; lành tính nhất, vàng da nhẹ từng đợt khi nhịn đói, stress, sốt; <span style=\"color:#ff6b6b\"><b>Tăng Bilirubin gián tiếp nhẹ (&lt; 50 µmol/L)</b></span>, chức năng gan và mô bệnh học hoàn toàn bình thường.<br>2) <b>Hội chứng Crigler-Najjar Typ I:</b> Mất hoàn toàn 100% hoạt tính enzym UGT1A1; di truyền lặn; <span style=\"color:#ff6b6b\"><b>Bilirubin gián tiếp tăng cực cao (&gt; 350 – 750 µmol/L) ngay sau sinh</b></span>, gây vàng da nhân não tử vong nếu không ghép gan.<br>3) <b>Hội chứng Dubin-Johnson:</b> Đột biến protein vận chuyển màng vi quản mật MRP2; <span style=\"color:#51cf66\"><b>Tăng Bilirubin trực tiếp</b></span>; đặc điểm mô bệnh học độc nhất: <span style=\"color:#ff6b6b\"><b>Nhu mô gan màu đen sẫm (Black liver)</b></span> do ứ đọng sắc tố melanin-like.<br>4) <b>Hội chứng Rotor:</b> Khiếm khuyết protein tái thu nhận OATP1B1/B3; <span style=\"color:#51cf66\"><b>Tăng Bilirubin trực tiếp</b></span>; tương tự Dubin-Johnson nhưng <span style=\"color:#51cf66\"><b>nhu mô gan hoàn toàn bình thường, không đen</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng Gilbert gặp ở 5 - 10% dân số, chỉ cần trấn an bệnh nhân và không đòi hỏi điều trị đặc hiệu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS09-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt 2 thể bệnh <span style=\"color:#ff6b6b\"><b>Rối loạn chuyển hóa Porphyrin (Porphyria)</b></span> thường gặp nhất.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Porphyria cấp ngắt quãng (AIP - Acute Intermittent Porphyria):</b> Thiếu enzym <span style=\"color:#ff6b6b\"><b>Porphobilinogen Deaminase (PBGD)</b></span>; biểu hiện cơn đau bụng dữ dội từng cơn, triệu chứng tâm thần kinh, nước tiểu để lâu chuyển màu đỏ rượu vang; <span style=\"color:#51cf66\"><b>HOÀN TOÀN KHÔNG CÓ BỎNG NẮNG NHẠY CẢM ÁNH SÁNG</b></span>.<br>2) <b>Porphyria da chậm (PCT - Porphyria Cutanea Tarda):</b> Thiếu enzym <span style=\"color:#ffd43b\"><b>Uroporphyrinogen Decarboxylase (UROD)</b></span>; thể phổ biến nhất, kích hoạt bởi rượu và quá tải sắt; biểu hiện <span style=\"color:#ff6b6b\"><b>BỎNG RỘP DA CỰC KỲ NHẠY CẢM VỚI ÁNH NẮNG MẶT TRỜI (Photosensitivity (+))</b></span>, teo sẹo loét da vùng phơi sáng.<br>3) <b>Quy tắc phân biệt cốt tử:</b> Bệnh lý ứ đọng porphyrinogen trước bước đóng vòng tetrapyrol (như AIP) chỉ có triệu chứng thần kinh, KHÔNG nhạy cảm ánh sáng; ứ đọng sau bước đóng vòng (như PCT) tạo nhân porphyrin phản ứng với tia UV phát huỳnh quang tạo bỏng rộp da.<br><br><b>💡 Giải thích của AI:</b><br>Điều trị cơn AIP cấp bằng truyền tĩnh mạch Hemin (Panhematin) hoặc Glucose ưu trương để ức chế ngược enzym ALAS1.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS09-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tích <span style=\"color:#74c0fc\"><b>Sắc tố mật và Urobilinogen nước tiểu</b></span> trong phân tầng vàng da.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bình thường:</b> Bilirubin niệu = <span style=\"color:#51cf66\"><b>Âm tính (-)</b></span>; Urobilinogen niệu = <span style=\"color:#51cf66\"><b>Dương tính nhẹ (vết, 0,1 – 1 đv Ehrlich)</b></span>.<br>2) <b>Vàng da Tan máu (Trước gan):</b> Bilirubin niệu = <span style=\"color:#ffd43b\"><b>Âm tính (-)</b></span> (do bilirubin gián tiếp gắn albumin không qua được màng lọc cầu thận); Urobilinogen niệu = <span style=\"color:#ff6b6b\"><b>TĂNG RẤT CAO (+++)</b></span>.<br>3) <b>Tắc mật hoàn toàn (Sau gan):</b> Bilirubin niệu = <span style=\"color:#ff6b6b\"><b>DƯƠNG TÍNH ĐẬM (+++)</b></span> (bilirubin trực tiếp tan trong nước thải qua thận); Urobilinogen niệu = <span style=\"color:#ff6b6b\"><b>ÂM TÍNH HOÀN TOÀN (-)</b></span> (do mật không xuống được ruột để vi khuẩn chuyển thành urobilinogen).<br>4) <b>Viêm gan tổn thương tế bào gan (Tại gan):</b> Cả Bilirubin niệu và Urobilinogen niệu đều <span style=\"color:#ffd43b\"><b>Dương tính (+)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm que nhúng 10 thông số nước tiểu đơn giản có thể định hướng ngay nguyên nhân vàng da trong 60 giây.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Nguyễn Thị Ngọc Lan, PGS. Trần Huy Thịnh tác giả), NXB Y học, Chương 9: Chuyển hóa hemoglobin.",
+      "tags": [
+        "HS09",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

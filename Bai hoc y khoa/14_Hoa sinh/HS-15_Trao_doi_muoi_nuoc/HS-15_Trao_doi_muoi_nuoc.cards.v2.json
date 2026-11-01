@@ -1,0 +1,241 @@
+{
+  "deck_id": 1401015001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-15 Phân bố nước, điện giải, áp suất thẩm thấu và rối loạn thăng bằng dịch",
+  "card_count": 13,
+  "cards": [
+    {
+      "id": "HS15-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Phân bố dịch",
+      "tier": 1,
+      "front": "Trình bày tỷ lệ phân bố nước giữa các khu vực dịch trong cơ thể theo <span style=\"color:#74c0fc\"><b>Quy tắc 60 - 40 - 20</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc 60 - 40 - 20 kinh điển:</b> Tổng lượng nước cơ thể (TBW) chiếm khoảng <span style=\"color:#74c0fc\"><b>60% trọng lượng cơ thể</b></span> ở nam giới trưởng thành khỏe mạnh (~42 lít ở người 70 kg); trong đó dịch nội bào (ICF) chiếm <span style=\"color:#51cf66\"><b>40% trọng lượng cơ thể (2/3 TBW, ~28 lít)</b></span> và dịch ngoại bào (ECF) chiếm <span style=\"color:#ffd43b\"><b>20% trọng lượng cơ thể (1/3 TBW, ~14 lít)</b></span>.<br>2) <b>Thành phần dịch kẽ và lòng mạch:</b> Trong khu vực dịch ngoại bào (20%), <span style=\"color:#ffd43b\"><b>Dịch kẽ (ISF) chiếm 15% trọng lượng cơ thể (~10,5 lít)</b></span> và <span style=\"color:#ff6b6b\"><b>Huyết tương lòng mạch chiếm 5% trọng lượng cơ thể (~3,5 lít)</b></span>; một lượng nhỏ dịch xuyên bào (dịch não tủy, dịch khớp, dịch màng phổi) chiếm ~1 – 2%.<br><br><b>💡 Giải thích của AI:</b><br>Tỷ lệ nước thay đổi theo lứa tuổi và lượng mỡ: trẻ sơ sinh có tỷ lệ nước cao nhất (~75 – 80%), người cao tuổi giảm còn ~50%; mô mỡ chứa rất ít nước nên người béo phì có tỷ lệ nước trên cân nặng thấp hơn người gầy.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Phan-bo-dich"
+      ]
+    },
+    {
+      "id": "HS15-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Áp suất thẩm thấu",
+      "tier": 1,
+      "front": "Công thức tính <span style=\"color:#74c0fc\"><b>Áp suất thẩm thấu huyết tương hiệu dụng</b></span> và vai trò quyết định của ion <span style=\"color:#ff6b6b\"><b>Natri (Na⁺)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Công thức tính áp suất thẩm thấu huyết tương toàn phần:</b> Posm = 2 × [Na⁺] + [Glucose] + [Ure] (tính theo mmol/L, giá trị sinh lý bình thường: <span style=\"color:#74c0fc\"><b>280 – 295 mOsm/kg H₂O</b></span>).<br>2) <b>Công thức tính áp suất thẩm thấu hiệu dụng (Tonicity):</b> Posm hiệu dụng = 2 × [Na⁺] + [Glucose] (do Ure khuếch tán tự do qua màng tế bào nên không tạo gradien thẩm thấu kéo nước).<br>3) <b>Vai trò quyết định của Natri:</b> Ion Na⁺ kèm theo các anion đối kháng (Cl⁻, HCO₃⁻) đóng góp <span style=\"color:#ff6b6b\"><b>trên 90 – 95% tổng áp suất thẩm thấu của dịch ngoại bào</b></span>, là yếu tố trung tâm điều hòa sự dịch chuyển nước giữa khoang nội bào và ngoại bào.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng trống thẩm thấu (Osmolal Gap) là hiệu số giữa áp suất thẩm thấu đo thực tế bằng máy hạ băng điểm trừ đi áp suất thẩm thấu ước tính theo công thức; giá trị bình thường &lt; 10 mOsm/kg, nếu tăng vọt gợi ý ngộ độc các rượu độc ngoại lai (Methanol, Ethylene glycol).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Ap-suat-tham-thau"
+      ]
+    },
+    {
+      "id": "HS15-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cân bằng Starling",
+      "tier": 1,
+      "front": "Phân tích <span style=\"color:#74c0fc\"><b>Phương trình Cân bằng Starling</b></span> và 4 nhóm căn nguyên gây <span style=\"color:#ff6b6b\"><b>Phù (Edema)</b></span> trên lâm sàng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình cân bằng Starling:</b> Lưu lượng dịch lọc qua thành mao mạch Jv = Kf × [(Pc - Pi) - σ × (πc - πi)]; trong đó Pc là áp lực thủy tĩnh mao mạch đẩy nước ra ngoài, πc là <span style=\"color:#74c0fc\"><b>áp lực keo huyết tương (chủ yếu do Albumin duy trì ~25 – 28 mmHg) giữ nước trong lòng mạch</b></span>.<br>2) <b>Bốn nhóm căn nguyên gây phù Starling:</b><br>- <b>Tăng áp lực thủy tĩnh mao mạch (Pc):</b> Suy tim ứ huyết, suy van tĩnh mạch chi dưới, tắc tĩnh mạch sâu, xơ gan gây tăng áp lực tĩnh mạch cửa.<br>- <b>Giảm áp lực keo huyết tương (πc):</b> Nồng độ Albumin máu giảm nặng (&lt; 25 g/L) do hội chứng thận hư (mất qua nước tiểu), xơ gan (giảm tổng hợp), suy dinh dưỡng Kwashiorkor.<br>- <b>Tăng tính thấm thành mao mạch (Kf):</b> Phản ứng viêm, dị ứng phản vệ giải phóng Histamin, Serotonin, bỏng diện rộng.<br>- <b>Tắc nghẽn lưu thông bạch huyết:</b> Phù bạch huyết (Lymphedema) sau nạo vét hạch ung thư hoặc nhiễm giun chỉ Wuchereria bancrofti.<br><br><b>💡 Giải thích của AI:</b><br>Bình thường lượng dịch lọc thừa ra khoang kẽ khoảng 2 – 4 lít mỗi ngày được hệ bạch huyết thu gom toàn bộ và đổ về tĩnh mạch dưới đòn, do đó phù chỉ xuất hiện khi tốc độ lọc vượt quá khả năng dẫn lưu bù trừ của hệ bạch huyết.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Can-bang-Starling-Phu"
+      ]
+    },
+    {
+      "id": "HS15-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Điện giải chính",
+      "tier": 1,
+      "front": "So sánh nồng độ, tỷ lệ phân bố và vai trò sinh học chủ đạo của <span style=\"color:#ff6b6b\"><b>Natri (Na⁺)</b></span> vs <span style=\"color:#51cf66\"><b>Kali (K⁺)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân bố bất đối xứng qua màng:</b> Ion <span style=\"color:#ff6b6b\"><b>Na⁺ là cation chủ yếu của dịch ngoại bào</b></span> với nồng độ huyết tương 135 – 145 mmol/L (trong nội bào chỉ ~10 – 14 mmol/L); ngược lại <span style=\"color:#51cf66\"><b>K⁺ là cation chủ yếu của dịch nội bào</b></span> với nồng độ ~140 – 150 mmol/L (trong huyết tương ngoại bào chỉ chiếm 3,5 – 5,0 mmol/L, chiếm &lt; 2% tổng lượng kali cơ thể).<br>2) <b>Vai trò sinh học chủ đạo của Natri:</b> Quyết định thể tích dịch ngoại bào và huyết áp động mạch; tạo gradien nồng độ thế năng cung cấp động lực cho các hệ thống đồng vận chuyển và đối vận chuyển thứ phát (glucose, acid amin).<br>3) <b>Vai trò sinh học chủ đạo của Kali:</b> Quyết định <span style=\"color:#51cf66\"><b>điện thế nghỉ của màng tế bào (RMP theo phương trình Nernst)</b></span>; duy trì tính hưng phấn thần kinh - cơ và dẫn truyền điện thế hoạt động cơ tim.<br><br><b>💡 Giải thích của AI:</b><br>Vì nồng độ K⁺ ngoại bào rất thấp (3,5 – 5,0 mmol/L), chỉ một dao động nhỏ của K⁺ máu đã làm thay đổi tỷ số [K⁺]trong/[K⁺]ngoài, gây loạn nhịp tim nguy hiểm đe dọa ngừng tim.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Natri-Kali"
+      ]
+    },
+    {
+      "id": "HS15-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Điều hòa thể tích",
+      "tier": 1,
+      "front": "Cơ chế điều hòa bài xuất nước qua thận của <span style=\"color:#74c0fc\"><b>ADH (Vasopressin)</b></span> và kênh nước <span style=\"color:#51cf66\"><b>Aquaporin-2</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kích thích bài tiết ADH:</b> Khi áp suất thẩm thấu máu tăng (&gt; 285 mOsm/kg) kích thích thụ cảm thẩm thấu vùng hạ đồi, hoặc thể tích tuần hoàn hiệu dụng giảm kích thích thụ thể áp lực xoang cảnh, thùy sau tuyến yên giải phóng <span style=\"color:#74c0fc\"><b>ADH (Arginin Vasopressin)</b></span> vào máu.<br>2) <b>Gắn thụ thể V2 màng đáy bên:</b> ADH liên kết với thụ thể V2 trên màng đáy bên của tế bào chính (Principal cells) tại ống góp tủy thận, kích hoạt protein Gs - Adenylate Cyclase làm tăng nồng độ cAMP nội bào.<br>3) <b>Chuyển vị kênh nước Aquaporin-2 (AQP2):</b> cAMP kích hoạt PKA phosphoryl hóa các túi nội bào chứa kênh nước <span style=\"color:#51cf66\"><b>Aquaporin-2</b></span>, thúc đẩy các túi hòa màng vào màng đỉnh (màng hướng lòng ống); lòng ống góp trở nên thấm nước cao độ, nước được tái hấp thu ồ ạt theo gradien thẩm thấu tủy thận về tuần hoàn giúp cô đặc nước tiểu và hạ áp suất thẩm thấu máu về bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Khiếm khuyết thụ thể V2 hoặc gen AQP2 gây ra bệnh Đái tháo nhạt do thận (Nephrogenic Diabetes Insipidus), bệnh nhân đi tiểu lượng cực lớn (10 – 20 lít/ngày) nước tiểu rất loãng trơ với ADH.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "ADH-Aquaporin2"
+      ]
+    },
+    {
+      "id": "HS15-B4-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Hệ thống RAAS",
+      "tier": 1,
+      "front": "Mô tả chuỗi phản ứng enzym của <span style=\"color:#ffd43b\"><b>Hệ thống Renin - Angiotensin - Aldosteron (RAAS)</b></span> trong điều hòa thăng bằng muối nước.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tế bào cận cầu thận bài tiết Renin:</b> Khi giảm áp lực tưới máu thận, giảm dòng Na⁺/Cl⁻ qua vết đặc (Macula densa) hoặc kích thích thần kinh giao cảm β1, tế bào cận cầu thận giải phóng enzyme <span style=\"color:#ffd43b\"><b>Renin</b></span> vào máu.<br>2) <b>Chuyển hóa tạo Angiotensin II:</b> Renin phân cắt Angiotensinogen do gan sản xuất thành decapeptid Angiotensin I (Ang I); enzyme chuyển <span style=\"color:#74c0fc\"><b>ACE (Angiotensin-Converting Enzyme)</b></span> tại nội mô mao mạch phổi cắt tiếp 2 acid amin tạo thành octapeptid hoạt tính cực mạnh <span style=\"color:#ff6b6b\"><b>Angiotensin II (Ang II)</b></span>.<br>3) <b>Tác động sinh học của Angiotensin II và Aldosteron:</b> Ang II gây co tiểu động mạch đi cầu thận và co mạch toàn thân nâng huyết áp, đồng thời kích thích lớp cầu vỏ thượng thận bài tiết <span style=\"color:#51cf66\"><b>Aldosteron</b></span>; Aldosteron gắn thụ thể MR kích hoạt tổng hợp và lắp ráp kênh Na⁺ biểu mô (ENaC) và bơm Na⁺/K⁺-ATPase tại ống lượn xa và ống góp để tăng tái hấp thu Na⁺/nước và tăng bài xuất K⁺/H⁺.<br><br><b>💡 Giải thích của AI:</b><br>Các thuốc ức chế men chuyển (ACEi: Enalapril, Lisinopril) và chẹn thụ thể AT1 (ARB: Losartan) phong bế trục RAAS là vũ khí nền tảng hàng đầu trong điều trị tăng huyết áp và suy tim.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "He-thong-RAAS"
+      ]
+    },
+    {
+      "id": "HS15-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Phân loại mất nước",
+      "tier": 1,
+      "front": "Phân biệt 3 thể <span style=\"color:#ff6b6b\"><b>Mất nước lâm sàng</b></span> (Ưu trương, Đẳng trương, Nhược trương) dựa trên nồng độ Natri máu và sự dịch chuyển thể tích dịch.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái mất nước ưu trương ([Na⁺] &gt; 145 mmol/L, Posm &gt; 295 mOsm/kg):</b> Lượng nước mất nhiều hơn mất điện giải (sốt cao vã mồ hôi, đái tháo nhạt, thở nhanh, hôn mê tăng áp lực thẩm thấu); áp suất thẩm thấu ngoại bào tăng cao kéo nước từ trong tế bào ra ngoài gây <span style=\"color:#ff6b6b\"><b>teo mất nước nội bào</b></span> (khát dữ dội, sốt, kích thích thần kinh, teo não).<br>2) <b>Hình thái mất nước đẳng trương ([Na⁺] 135 – 145 mmol/L, Posm bình thường):</b> Nước và điện giải mất tương đương nhau (nôn, tiêu chảy cấp, mất máu, bỏng); thể tích dịch ngoại bào giảm nhưng không có sự dịch chuyển nước giữa trong và ngoài tế bào, đe dọa <span style=\"color:#ffd43b\"><b>sốc giảm thể tích tuần hoàn</b></span>.<br>3) <b>Hình thái mất nước nhược trương ([Na⁺] &lt; 135 mmol/L, Posm &lt; 280 mOsm/kg):</b> Mất điện giải nhiều hơn mất nước hoặc mất nước đẳng trương nhưng chỉ bù bằng nước lọc/glucose không điện giải; dịch ngoại bào nhược trương khiến nước tràn vào trong tế bào gây <span style=\"color:#51cf66\"><b>phù nề nội bào (nguy hiểm nhất là phù não)</b></span> kèm trụy mạch tuần hoàn sớm.<br><br><b>💡 Giải thích của AI:</b><br>Xác định thể mất nước qua nồng độ Natri huyết thanh là nguyên tắc sống còn để lựa chọn chính xác loại dịch truyền bù thể tích (đẳng trương, ưu trương hay nhược trương).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Phan-loai-mat-nuoc"
+      ]
+    },
+    {
+      "id": "HS15-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Rối loạn Natri máu",
+      "tier": 1,
+      "front": "Căn nguyên sinh hóa và biểu hiện lâm sàng thần kinh của <span style=\"color:#ff6b6b\"><b>Hạ Natri máu (Hyponatremia)</b></span> và <span style=\"color:#ffd43b\"><b>Tăng Natri máu (Hypernatremia)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hạ Natri máu ([Na⁺] &lt; 135 mmol/L):</b> Do thừa nước tương đối hoặc mất muối vượt trội (SIADH, suy tim, suy gan xơ gan, mất qua nôn ói/tiêu chảy); áp suất thẩm thấu ngoại bào giảm làm nước di chuyển vào trong tế bào gây <span style=\"color:#ff6b6b\"><b>phù nề tế bào não</b></span> biểu hiện đau đầu, buồn nôn, lú lẫn, co giật và hôn mê tụt kẹt não.<br>2) <b>Tăng Natri máu ([Na⁺] &gt; 145 mmol/L):</b> Do mất nước tự do (đái tháo nhạt, mất nước qua mồ hôi/hô hấp không được uống bù) hoặc nạp muối ưu trương; áp suất thẩm thấu ngoại bào tăng cao hút nước ra khỏi tế bào gây <span style=\"color:#ffd43b\"><b>teo tế bào não, co kéo màng não rách tĩnh mạch cầu gây xuất huyết dưới nhện</b></span> kèm sốt, khát dữ dội và co cứng cơ.<br><br><b>💡 Giải thích của AI:</b><br>Rối loạn Natri máu thực chất là rối loạn thăng bằng chuyển hóa Nước hơn là thăng bằng Natri đơn thuần.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Roi-loan-Natri"
+      ]
+    },
+    {
+      "id": "HS15-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · TRAO ĐỔI MUỐI NƯỚC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Rối loạn Kali máu",
+      "tier": 1,
+      "front": "Đối chiếu biến đổi điện tâm đồ và nguy cơ loạn nhịp tim giữa <span style=\"color:#ff6b6b\"><b>Tăng Kali máu (Hyperkalemia)</b></span> vs <span style=\"color:#51cf66\"><b>Hạ Kali máu (Hypokalemia)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng Kali máu ([K⁺] &gt; 5,0 mmol/L):</b> Giảm nồng độ chênh lệch khiến màng tế bào bị khử cực một phần, làm bất hoạt kênh Na⁺ nhanh; biến đổi điện tâm đồ tiến triển tuần tự: <span style=\"color:#ff6b6b\"><b>sóng T cao nhọn đối xứng đáy hẹp</b></span> → khoảng PR kéo dài, sóng P dẹt dần rồi biến mất → phức bộ QRS giãn rộng hòa lẫn sóng T tạo sóng hình sin (Sine wave) → rung thất và ngừng tim trong thì tâm trương.<br>2) <b>Hạ Kali máu ([K⁺] &lt; 3,5 mmol/L):</b> Làm quá phân cực màng tế bào, chậm trễ pha tái cực; biến đổi điện tâm đồ gồm: <span style=\"color:#51cf66\"><b>sóng T dẹt hoặc đảo ngược, đoạn ST chênh xuống</b></span>, xuất hiện <span style=\"color:#ffd43b\"><b>sóng U nổi bật sau sóng T</b></span>, khoảng QT biểu kiến kéo dài (QU kéo dài) dễ khởi phát xoắn đỉnh (Torsades de pointes) và rung thất.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai thái cực rối loạn Kali máu đều có khả năng gây ngừng tim đột ngột, do đó điện tâm đồ là công cụ giám sát tức thì tốc độ ảnh hưởng cơ tim của nồng độ ion kali.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Roi-loan-Kali"
+      ]
+    },
+    {
+      "id": "HS15-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân tầng chẩn đoán căn nguyên <span style=\"color:#ff6b6b\"><b>Hạ Natri máu (Hyponatremia)</b></span> dựa trên áp suất thẩm thấu và thể tích dịch ngoại bào.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đo áp suất thẩm thấu huyết tương (Posm):</b> Khẳng định hạ natri máu thực sự khi Posm &lt; 280 mOsm/kg (Hạ natri máu nhược trương); loại trừ hạ natri máu giả do tăng lipid/protein máu (Posm bình thường) hoặc hạ natri máu ưu trương do tăng áp lực thẩm thấu khi tăng glucose máu nặng (cần hiệu chỉnh [Na⁺] hiệu chỉnh = Na⁺ đo được + 1,6 × (Glucose - 5) / 5).<br>2) <b>Bước 2 — Đánh giá lâm sàng thể tích dịch ngoại bào (ECF volume):</b> Phân thành 3 phân nhóm: Giảm thể tích (Hypovolemic), Bình thể tích (Euvolemic), hoặc Tăng thể tích (Hypervolemic).<br>3) <b>Bước 3 — Đo nồng độ Natri niệu (UNa) để phân định căn nguyên:</b><br>- ECF giảm kèm UNa &lt; 20 mmol/L → Mất qua đường tiêu hóa (nôn, tiêu chảy); nếu UNa &gt; 20 mmol/L → Mất qua thận (dùng lợi tiểu, suy thượng thận Addison).<br>- ECF bình thường kèm UNa &gt; 20 – 40 mmol/L, áp lực thẩm thấu niệu cao &gt; 100 mOsm/kg → <span style=\"color:#ff6b6b\"><b>Hội chứng tiết ADH không thích hợp (SIADH)</b></span>.<br>- ECF tăng kèm phù: Nếu UNa &lt; 20 mmol/L → Suy tim ứ huyết, Xơ gan cổ trướng, Hội chứng thận hư; nếu UNa &gt; 40 mmol/L → Suy thận cấp hoặc mạn.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ 3 bước chuẩn quốc tế giúp bác sĩ không bỏ sót căn nguyên và tránh truyền dịch mù quáng gây phù phổi cấp hoặc phù não.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS15-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Quy tắc điều chỉnh tốc độ bù dịch và giới hạn an toàn khi điều trị <span style=\"color:#ff6b6b\"><b>Hạ Natri máu nặng có triệu chứng</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Nhận diện triệu chứng thần kinh cấp cứu đe dọa tính mạng:</b> Co giật, hôn mê, suy hô hấp do phù não cấp tính ở bệnh nhân có [Na⁺] &lt; 120 mmol/L.<br>2) <b>Bước 2 — Cấp cứu cắt phù não bằng Natri Clorid ưu trương 3%:</b> Truyền tĩnh mạch nhanh <span style=\"color:#ff6b6b\"><b>100 mL dung dịch NaCl 3% trong 10 phút</b></span>, có thể nhắc lại tối đa 2 lần (tổng 300 mL) cho đến khi bệnh nhân ngừng co giật hoặc nồng độ Na⁺ máu tăng được 4 – 6 mmol/L.<br>3) <b>Bước 3 — Quy tắc giới hạn an toàn sống còn trong 24 giờ:</b> <span style=\"color:#ff6b6b\"><b>Tuyệt đối KHÔNG nâng nồng độ Na⁺ máu vượt quá 8 mmol/L trong 24 giờ đầu</b></span> (và &lt; 18 mmol/L trong 48 giờ); việc nâng Na⁺ quá nhanh sẽ gây biến chứng thảm khốc <span style=\"color:#ff6b6b\"><b>Hội chứng tiêu hủy Myelin cầu não (Osmotic Demyelination Syndrome - ODS)</b></span> dẫn đến liệt tứ chi và tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Tế bào não thích nghi với hạ natri máu bằng cách đẩy bớt các chất thẩm thấu hữu cơ (idiogenic osmolytes) ra ngoài; nếu bù dịch ưu trương quá nhanh nước sẽ bị hút ngược đột ngột ra ngoài làm teo tế bào thần kinh và phá hủy bao myelin cầu não.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS15-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phác đồ 3 bước cấp cứu tối khẩn bệnh nhân <span style=\"color:#ff6b6b\"><b>Tăng Kali máu nặng (K⁺ &gt; 6,5 mmol/L)</b></span> có biến đổi điện tâm đồ.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Ổn định màng tế bào cơ tim ngay tức khắc (trong vòng 1 – 3 phút):</b> Tiêm tĩnh mạch chậm <span style=\"color:#ff6b6b\"><b>10 mL Calci gluconat 10% (hoặc Calci clorid) trong 2 – 5 phút</b></span> dưới theo dõi monitor; Calci đối kháng trực tiếp điện học phục hồi điện thế ngưỡng màng tim, bảo vệ tim khỏi rung thất/ngừng tim nhưng <span style=\"color:#ffd43b\"><b>hoàn toàn không làm hạ nồng độ K⁺ máu</b></span>.<br>2) <b>Bước 2 — Đẩy nhanh Kali từ ngoại bào vào trong tế bào (trong vòng 15 – 30 phút):</b> Tiêm tĩnh mạch nhanh <span style=\"color:#51cf66\"><b>10 đơn vị Insulin nhanh (Regular) kèm 50 mL Glucose 50% (hoặc 500 mL Glucose 10%)</b></span>; phối hợp khí dung Albuterol (Salbutamol liều cao 10 – 20 mg); nếu có toan chuyển hóa nặng thì truyền Natri bicarbonat 8,4%.<br>3) <b>Bước 3 — Đào thải triệt để Kali ra khỏi cơ thể (duy trì):</b> Dùng thuốc lợi tiểu quai Furosemide tiêm tĩnh mạch; uống nhựa trao đổi ion gắn kali qua đường tiêu hóa (Patiromer, Natri zirconium cyclosilicate, Kayexalate); nếu vô niệu hoặc suy thận giai đoạn cuối thì chỉ định ngay <span style=\"color:#74c0fc\"><b>Lọc máu cấp cứu (Hemodialysis)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Theo quy luật bậc thang cấp cứu tim mạch, ổn định màng tim bằng Calci luôn là ưu tiên số 1 tuyệt đối trước khi tiến hành các biện pháp hạ kali khác.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS15-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ tiếp cận chẩn đoán phân biệt <span style=\"color:#ff6b6b\"><b>Đái tháo nhạt trung ương</b></span> vs <span style=\"color:#ffd43b\"><b>Đái tháo nhạt do thận</b></span> bằng nghiệm pháp nhịn nước và Test Desmopressin.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đo áp suất thẩm thấu nước tiểu ban đầu ở bệnh nhân đái nhiều:</b> Nếu Posm niệu &lt; 300 mOsm/kg đi kèm đái nhiều &gt; 3 lít/ngày → Khẳng định hội chứng đái tháo nhạt nước tiểu loãng.<br>2) <b>Bước 2 — Tiến hành Nghiệm pháp nhịn nước có kiểm soát (Water Deprivation Test):</b> Ngừng cung cấp nước và theo dõi sát cân nặng, thể tích nước tiểu, áp suất thẩm thấu huyết tương và niệu mỗi giờ; nếu bệnh nhân mắc chứng cuồng uống tâm thần (Psychogenic Polydipsia) nước tiểu sẽ cô đặc bình thường (Posm niệu &gt; 600 mOsm/kg); nếu nước tiểu vẫn loãng (&lt; 300 mOsm/kg) trong khi Posm máu &gt; 295 mOsm/kg → Khẳng định đái tháo nhạt thực sự.<br>3) <b>Bước 3 — Test tiêm Desmopressin (dDAVP) để phân định vị trí tổn thương:</b> Tiêm dưới da 2 – 4 µg Desmopressin (chất đồng đẳng tổng hợp của ADH):<br>- Nếu Posm niệu <span style=\"color:#51cf66\"><b>TĂNG VỌT &gt; 50% (thường &gt; 100%)</b></span> → Khẳng định <span style=\"color:#ff6b6b\"><b>Đái tháo nhạt trung ương (Tuyến yên thiếu hụt ADH)</b></span>; điều trị bù bằng Desmopressin xịt mũi.<br>- Nếu Posm niệu <span style=\"color:#ffd43b\"><b>KHÔNG THAY ĐỔI HOẶC TĂNG &lt; 50%</b></span> → Khẳng định <span style=\"color:#ffd43b\"><b>Đái tháo nhạt do thận (Thận kháng hoàn toàn với ADH)</b></span>; điều trị bằng lợi tiểu Thiazide và hạn chế muối Natri.<br><br><b>💡 Giải thích của AI:</b><br>Đái tháo nhạt trung ương đáp ứng ngoạn mục với Desmopressin vì thụ thể V2 ở ống góp còn nguyên vẹn, trong khi đái tháo nhạt do thận bị trơ do khiếm khuyết kênh Aquaporin-2 hoặc thụ thể V2.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, ThS. BS. Trần Khánh Chi, GS. TS. BS. Tạ Thành Văn tác giả), NXB Y học, Chương 15: Trao đổi muối nước.",
+      "tags": [
+        "HS15",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

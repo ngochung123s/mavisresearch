@@ -1,0 +1,241 @@
+{
+  "deck_id": 1401012001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-12 Thoái hóa và tổng hợp purin, pyrimidin, acid uric và bệnh Gout",
+  "card_count": 13,
+  "cards": [
+    {
+      "id": "HS12-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Tiêu hóa và hấp thu",
+      "tier": 1,
+      "front": "Trình bày tuần tự các enzyme xúc tác quá trình <span style=\"color:#74c0fc\"><b>tiêu hóa và hấp thu acid nucleic ngoại sinh</b></span> từ ống tiêu hóa vào máu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Giai đoạn tụy ngoại tiết:</b> Các enzyme <span style=\"color:#74c0fc\"><b>Ribonuclease (RNase) và Deoxyribonuclease (DNase)</b></span> thủy phân DNA và RNA mạch dài thành các đoạn oligonucleotide ngắn.<br>2) <b>Giai đoạn niêm mạc ruột:</b> Enzyme <span style=\"color:#51cf66\"><b>Phosphodiesterase</b></span> cắt oligonucleotide thành các mononucleotide tự do.<br>3) <b>Giai đoạn bờ bàn chải ruột:</b> Enzyme <span style=\"color:#ffd43b\"><b>Nucleotidase</b></span> thủy phân mononucleotide thành nucleosid tự do; tiếp tục bởi <span style=\"color:#ff6b6b\"><b>Nucleosidase (Nucleoside phosphorylase)</b></span> phân cắt thành base purin/pyrimidin tự do và ribose/deoxyribose để hấp thu vào tế bào niêm mạc ruột.<br><br><b>💡 Giải thích của AI:</b><br>Đa số các base purin và pyrimidin tự do sau khi hấp thu qua niêm mạc ruột đều bị thoái hóa tại chỗ hoặc ở gan (purin tạo thành acid uric bài xuất qua phân và nước tiểu) chứ ít khi được sáp nhập trực tiếp vào acid nucleic nội sinh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Tieu-hoa-acid-nucleic"
+      ]
+    },
+    {
+      "id": "HS12-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Tân tạo purin",
+      "tier": 1,
+      "front": "Nguồn gốc các nguyên tử cấu thành <span style=\"color:#74c0fc\"><b>khung nhân Purin</b></span> và enzyme xúc tác phản ứng bước đầu tiên tạo <span style=\"color:#51cf66\"><b>PRPP</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc các nguyên tử trên nhân Purin:</b> Gồm Glycin (C4, C5, N7); Aspartat (N1); Glutamin (N3, N9 cung cấp nhóm amin); CO₂ hô hấp (C6); và dẫn xuất N10-formyl-THF của Acid folic (C2 và C8).<br>2) <b>Phản ứng tạo tiền chất PRPP:</b> Enzyme <span style=\"color:#51cf66\"><b>PRPP synthetase</b></span> chuyển nhóm pyrophosphat từ ATP sang α-D-ribose-5-phosphat tạo thành 5-phosphoribosyl-1-pyrophosphat (PRPP).<br>3) <b>Bước cam kết giới hạn tốc độ:</b> Enzyme <span style=\"color:#ff6b6b\"><b>Glutamine-PRPP amidotransferase</b></span> chuyển nhóm amid của glutamin vào PRPP giải phóng PPi, tạo thành 5-phosphoribosylamine (bị ức chế dị lập thể ngược bởi AMP, GMP, IMP).<br><br><b>💡 Giải thích của AI:</b><br>Nhân purin được xây dựng từng mảnh trực tiếp trên giá đỡ ribose-5-phosphat (PRPP), khác với pyrimidin là nhân được tổng hợp hoàn chỉnh trước rồi mới gắn vào ribose.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Tan-tao-purin"
+      ]
+    },
+    {
+      "id": "HS12-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Điều hòa tương hỗ",
+      "tier": 1,
+      "front": "Trình bày cơ chế phân nhánh và tính tương hỗ năng lượng từ <span style=\"color:#74c0fc\"><b>Inosine Monophosphate (IMP)</b></span> để tổng hợp <span style=\"color:#51cf66\"><b>AMP</b></span> và <span style=\"color:#ffd43b\"><b>GMP</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhánh tổng hợp AMP từ IMP:</b> Cần nguồn nitơ từ Aspartat và <span style=\"color:#ffd43b\"><b>sử dụng năng lượng từ GTP</b></span> (qua enzyme Adenylosuccinate synthetase), sau đó adenylosuccinase giải phóng fumarat tạo AMP.<br>2) <b>Nhánh tổng hợp GMP từ IMP:</b> Trước hết bị oxy hóa bởi IMP dehydrogenase (dùng NAD⁺) tạo XMP, sau đó cần nitơ từ Glutamin và <span style=\"color:#51cf66\"><b>sử dụng năng lượng từ ATP</b></span> (qua GMP synthetase).<br>3) <b>Ý nghĩa tương hỗ sinh học:</b> Sự tổng hợp AMP cần GTP và tổng hợp GMP cần ATP đảm bảo sự cân bằng sản xuất chính xác tỷ lệ phân tử giữa adenin và guanin trong tế bào.<br><br><b>💡 Giải thích của AI:</b><br>Cơ chế này ngăn ngừa tình trạng mất cân đối kho nucleotid tự do nội bào, vốn là nguyên nhân gây đột biến sai sót trong tái bản DNA.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Dieu-hoa-purin"
+      ]
+    },
+    {
+      "id": "HS12-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Con đường trục vớt",
+      "tier": 1,
+      "front": "Trình bày vai trò của 2 enzyme trục vớt purin và giải thích cơ chế bệnh sinh của <span style=\"color:#ff6b6b\"><b>Hội chứng Lesch-Nyhan</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hai enzyme trục vớt purin:</b> Enzyme <span style=\"color:#74c0fc\"><b>APRT</b></span> (Adenine phosphoribosyltransferase) gắn adenin tự do vào PRPP tạo AMP; enzyme <span style=\"color:#51cf66\"><b>HGPRT</b></span> (Hypoxanthine-guanine phosphoribosyltransferase) gắn hypoxanthin hoặc guanin vào PRPP tạo IMP và GMP.<br>2) <b>Đột biến phân tử trong Hội chứng Lesch-Nyhan:</b> Là bệnh di truyền lặn liên kết nhiễm sắc thể X do đột biến mất hoàn toàn hoạt tính enzyme <span style=\"color:#ff6b6b\"><b>HGPRT</b></span>.<br>3) <b>Tác động sinh hóa và lâm sàng:</b> 1) Hypoxanthin và Guanin không được tái sử dụng dẫn đến bị oxy hóa ồ ạt thành <span style=\"color:#ff6b6b\"><b>Acid Uric gây tăng acid uric máu ác tính</b></span>, sỏi urat thận và tophi sớm; 2) PRPP không được tiêu thụ sẽ kích hoạt tối đa PRPP amidotransferase tăng tân tạo purin de novo mất kiểm soát; 3) Thiếu hụt nucleotid purin ở hệ thần kinh trung ương gây suy giảm trí tuệ, múa vờn co cứng và <span style=\"color:#ff6b6b\"><b>hành vi tự hủy hoại cắn môi xé ngón tay</b></span> điển hình.<br><br><b>💡 Giải thích của AI:</b><br>Tế bào não và tủy xương phụ thuộc rất lớn vào con đường trục vớt salvage do hoạt tính tổng hợp de novo ở các mô này rất thấp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Lesch-Nyhan"
+      ]
+    },
+    {
+      "id": "HS12-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Thoái hóa purin",
+      "tier": 1,
+      "front": "Mô tả con đường thoái hóa Purin tạo <span style=\"color:#ff6b6b\"><b>Acid Uric</b></span> và nêu đích tác động của enzym <span style=\"color:#74c0fc\"><b>Xanthine oxidase</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thoái hóa Adenosin:</b> Adenosin bị khử amin bởi <span style=\"color:#74c0fc\"><b>Adenosine deaminase (ADA)</b></span> thành Inosine, sau đó phosphoryl hóa thành Hypoxanthin.<br>2) <b>Thoái hóa Guanosin:</b> Guanosin giải phóng Guanin, sau đó Guanase khử amin Guanin tạo thành Xanthin.<br>3) <b>Tác dụng của Xanthine oxidase:</b> Là enzyme chứa Molypden và Sắt-Lưu huỳnh xúc tác 2 phản ứng oxy hóa liên tiếp: <span style=\"color:#ffd43b\"><b>Hypoxanthin → Xanthin</b></span> và <span style=\"color:#ff6b6b\"><b>Xanthin → Acid Uric</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở người và vượn người, gen mã hóa enzym Uricase (Urate oxidase) bị đột biến bất hoạt nên Acid Uric là sản phẩm thoái hóa cuối cùng của purin không thể thoái hóa tiếp thành allantoin hòa tan.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Thoai-hoa-purin"
+      ]
+    },
+    {
+      "id": "HS12-B4-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Bệnh Gout",
+      "tier": 1,
+      "front": "Cơ chế kích hoạt phản ứng viêm khớp cấp do tinh thể <span style=\"color:#ff6b6b\"><b>Monosodium Urat (MSU)</b></span> trong bệnh <span style=\"color:#ffd43b\"><b>Gout</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kết tủa tinh thể MSU:</b> Khi nồng độ acid uric huyết thanh vượt ngưỡng bão hòa sinh lý (&gt; 420 µmol/L / &gt; 7,0 mg/dL ở nhiệt độ 37 °C và pH 7,4), các vi tinh thể hình kim MSU kết tủa tại ổ khớp có nhiệt độ thấp (khớp bàn ngón chân cái).<br>2) <b>Thực bào và hoạt hóa miễn dịch:</b> Bạch cầu đa nhân trung tính và đại thực bào thực bào tinh thể MSU, làm vỡ lysosome tế bào và giải phóng các enzyme tiêu thể.<br>3) <b>Hoạt hóa phức hợp thể viêm NLRP3:</b> Tinh thể MSU kích hoạt trực tiếp thể viêm <span style=\"color:#ff6b6b\"><b>NLRP3 inflammasome</b></span>, hoạt hóa Caspase-1 để phân cắt tiền chất biến thành cytokine viêm cực mạnh <span style=\"color:#ff6b6b\"><b>Interleukin-1β (IL-1β)</b></span> gây sưng nóng đỏ đau dữ dội.<br><br><b>💡 Giải thích của AI:</b><br>Colchicine có hiệu quả cắt cơn Gout cấp nhanh chóng nhờ cơ chế gắn kết tubulin, ngăn trùng hợp vi ống nên ức chế bạch cầu thực bào tinh thể urat và ức chế lắp ráp thể viêm NLRP3.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Gout"
+      ]
+    },
+    {
+      "id": "HS12-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Chuyển hóa Pyrimidin",
+      "tier": 1,
+      "front": "So sánh vị trí và chức năng của <span style=\"color:#74c0fc\"><b>CPS-I</b></span> vs <span style=\"color:#51cf66\"><b>CPS-II</b></span>, và nêu nguyên nhân gây bệnh <span style=\"color:#ff6b6b\"><b>Acid Orotic niệu di truyền</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đối chiếu vị trí và vai trò CPS-I vs CPS-II:</b> CPS-I nằm ở <span style=\"color:#74c0fc\"><b>ty thể tế bào gan</b></span>, dùng NH₄⁺ tự do, cần N-acetylglutamat (NAG) hoạt hóa, phục vụ chu trình Ure; trong khi CPS-II nằm ở <span style=\"color:#51cf66\"><b>bào tương của mọi tế bào</b></span>, dùng nguồn nitơ từ glutamin, không cần NAG, là enzym mở đầu con đường tân tạo Pyrimidin.<br>2) <b>Khiếm khuyết di truyền UMP synthase:</b> Do đột biến thiếu hụt enzyme lưỡng chức năng <span style=\"color:#ff6b6b\"><b>UMP synthase</b></span> (gồm hai hoạt tính Orotate phosphoribosyltransferase và OMP decarboxylase).<br>3) <b>Hình thái lâm sàng và bù Uridine:</b> Trẻ bị thiếu máu hồng cầu to trơ với sắt/B12, chậm lớn, bài tiết lượng khổng lồ tinh thể acid orotic trong nước tiểu; bổ sung <span style=\"color:#51cf66\"><b>Uridine đường uống</b></span> để cung cấp UMP qua con đường trục vớt.<br><br><b>💡 Giải thích của AI:</b><br>Uridine sau khi vào cơ thể sẽ được phosphoryl hóa thành UMP, vừa bù đắp kho pyrimidin cho tế bào vừa gây ức chế dị lập thể ngược lên CPS-II làm dập tắt sự sản sinh acid orotic.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Pyrimidin"
+      ]
+    },
+    {
+      "id": "HS12-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Thuốc kháng ung thư",
+      "tier": 1,
+      "front": "Phân tích cơ chế phân tử ức chế sinh tổng hợp thymidylate (dTMP) của thuốc <span style=\"color:#ff6b6b\"><b>5-Fluorouracil (5-FU)</b></span> và <span style=\"color:#ffd43b\"><b>Methotrexate (MTX)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác động của 5-Fluorouracil (5-FU):</b> 5-FU trong tế bào chuyển hóa thành FdUMP đóng vai trò chất ức chế tự sát liên kết đồng hóa trị không thuận nghịch với enzyme <span style=\"color:#ff6b6b\"><b>Thymidylate synthase</b></span>, khóa chặt phản ứng methyl hóa dUMP thành dTMP.<br>2) <b>Tác động của Methotrexate (MTX):</b> Là đồng đẳng cấu trúc cạnh tranh của acid folic, ức chế mạnh enzyme <span style=\"color:#ffd43b\"><b>Dihydrofolate reductase (DHFR)</b></span>, ngăn cản tái tạo Tetrahydrofolate (THF) cần thiết để vận chuyển gốc một carbon methyl/formyl.<br>3) <b>Ý nghĩa tiêu diệt tế bào ác tính:</b> Cạn kiệt nguồn dTMP nội bào dẫn đến hiện tượng 'chết đói thymine' (thymineless death), làm đứt gãy DNA và giết chết các tế bào ung thư tăng sinh nhanh.<br><br><b>💡 Giải thích của AI:</b><br>Vì RNA sử dụng uracil còn DNA bắt buộc cần thymine, sự phong bế Thymidylate synthase đánh trúng tính đặc hiệu của quá trình nhân đôi DNA của tế bào ác tính.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Khang-ung-thu"
+      ]
+    },
+    {
+      "id": "HS12-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Sửa sai DNA",
+      "tier": 1,
+      "front": "Cơ chế phân tử và khiếm khuyết di truyền của bệnh <span style=\"color:#ff6b6b\"><b>Khô da sắc tố (Xeroderma Pigmentosum - XP)</b></span> liên quan đến hệ thống sửa chữa DNA nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tổn thương phân tử do tia UV:</b> Bức xạ tia cực tím (UV) trong ánh nắng mặt trời kích hoạt phản ứng dime hóa giữa hai base pyrimidin kế cận tạo thành <span style=\"color:#ff6b6b\"><b>Cyclobutane pyrimidine dimer (thường là Thymine-Thymine dimer)</b></span> làm biến dạng chuỗi xoắn kép DNA.<br>2) <b>Hệ thống sửa sai nucleotide (NER):</b> Bình thường enzyme UV-endonuclease (Excinuclease) cắt đoạn DNA mang tổn thương (~24 – 32 nucleotid), sau đó DNA Polymerase điền đầy và DNA Ligase hàn gắn vết cắt.<br>3) <b>Biến dị di truyền trong Khô da sắc tố:</b> Do đột biến gen thiếu hụt enzyme UV-specific endonuclease trong hệ thống NER; bệnh nhân cực kỳ nhạy cảm với ánh sáng, tăng sắc tố da dữ dội và có nguy cơ <span style=\"color:#ff6b6b\"><b>ung thư da ác tính tăng gấp hơn 1000 lần</b></span> ở tuổi thanh thiếu niên.<br><br><b>💡 Giải thích của AI:</b><br>Khô da sắc tố là ví dụ kinh điển về tầm quan trọng sống còn của hệ thống sửa sai DNA đối với việc bảo vệ cơ thể khỏi đột biến sinh ung thư.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Sua-sai-DNA"
+      ]
+    },
+    {
+      "id": "HS12-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận xử trí cấp cứu bệnh nhân xuất hiện <span style=\"color:#ff6b6b\"><b>Cơn Gout cấp điển hình</b></span> tại khớp bàn ngón chân cái.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Khởi động thuốc chống viêm giảm đau ngay trong 24 giờ đầu:</b> Lựa chọn ưu tiên hàng đầu là <span style=\"color:#51cf66\"><b>Colchicine liều thấp</b></span> (1 mg ngay, sau đó 0,5 mg sau 1 giờ) phối hợp hoặc thay thế bằng thuốc chống viêm không steroid (NSAID như Naproxen, Indomethacin); nếu có chống chỉ định thì dùng Corticosteroid toàn thân hoặc tiêm nội khớp.<br>2) <b>Bước 2 — Quy tắc vàng về thuốc hạ acid uric trong cơn cấp:</b> <span style=\"color:#ff6b6b\"><b>Tuyệt đối KHÔNG bắt đầu dùng thuốc hạ acid uric mới (Allopurinol / Febuxostat)</b></span> trong khi cơn viêm cấp đang diễn tiến rầm rộ vì sự thay đổi đột ngột nồng độ urat máu sẽ làm bong tróc thêm tinh thể MSU gây bùng phát viêm nặng nề hơn.<br>3) <b>Bước 3 — Nếu bệnh nhân đang uống thuốc hạ acid uric từ trước:</b> Tiếp tục duy trì liều hiện tại, không ngừng thuốc đột ngột.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ bắt đầu dùng hoặc tăng liều thuốc ức chế Xanthine oxidase sau khi cơn viêm khớp cấp đã lắng dịu hoàn toàn ít nhất 2 đến 4 tuần, kèm dùng Colchicine liều thấp dự phòng bùng phát cơn cấp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS12-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ lựa chọn <span style=\"color:#74c0fc\"><b>thuốc hạ Acid Uric máu (ULT)</b></span> dựa trên cơ chế sinh hóa và chức năng cơ quan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm ức chế tổng hợp Purin (Lựa chọn đầu tay hàng đầu):</b> Chỉ định <span style=\"color:#74c0fc\"><b>Allopurinol</b></span> (chất ức chế cạnh tranh và tự sát đối với Xanthine oxidase), khởi đầu liều thấp 100 mg/ngày (thận trọng sàng lọc alen HLA-B*5801 ở người châu Á để tránh hội chứng Steven-Johnson hoại tử thượng bì). Nếu dị ứng hoặc suy thận nặng thì chuyển sang <span style=\"color:#51cf66\"><b>Febuxostat</b></span> (ức chế không cạnh tranh đặc hiệu Xanthine oxidase qua gan).<br>2) <b>Nhóm tăng thải Acid Uric qua thận (Chỉ định khi giảm bài tiết qua thận):</b> Sử dụng <span style=\"color:#ffd43b\"><b>Probenecid</b></span> ức chế kênh tái hấp thu URAT1 tại ống lượn gần; điều kiện bắt buộc: độ thanh thải Creatinine ClCr &gt; 50 mL/phút và không có tiền sử sỏi thận urat.<br>3) <b>Nhóm tiêu hủy tinh thể trực tiếp (Gout kháng trị nặng):</b> Dùng <span style=\"color:#ff6b6b\"><b>Pegloticase</b></span> (enzyme uricase tái tổ hợp gắn PEG) biến acid uric thành allantoin tan trong nước đào thải nhanh chóng.<br><br><b>💡 Giải thích của AI:</b><br>Đích nồng độ acid uric mục tiêu cần đạt là &lt; 360 µmol/L (&lt; 6 mg/dL) đối với Gout chưa có tophi, và &lt; 300 µmol/L (&lt; 5 mg/dL) đối với bệnh nhân đã có hạt tophi nặng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS12-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Thuật toán dự phòng và xử trí <span style=\"color:#ff6b6b\"><b>Hội chứng ly giải u (Tumor Lysis Syndrome - TLS)</b></span> ở bệnh nhân hóa trị ung thư máu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Nhận diện rối loạn tứ chứng sinh hóa TLS kinh điển:</b> Sau hóa trị tế bào u ly giải hàng loạt giải phóng nội bào gây <span style=\"color:#ff6b6b\"><b>Tăng Kali máu, Tăng Phosphat máu, Tăng Acid Uric máu và Hạ Calci máu thứ phát</b></span>.<br>2) <b>Bước 2 — Dự phòng tích cực trước và trong hóa trị:</b> Truyền dịch đẳng trương lượng lớn để duy trì thể tích nước tiểu cao (≥ 2 – 3 lít/m² da/ngày) nhằm rửa trôi tinh thể urat và phosphat qua ống thận.<br>3) <b>Bước 3 — Lựa chọn thuốc chống tăng acid uric máu:</b> Bệnh nhân nguy cơ trung bình dùng <span style=\"color:#74c0fc\"><b>Allopurinol</b></span> ngăn tổng hợp acid uric mới; bệnh nhân nguy cơ cao hoặc acid uric đã tăng vọt dùng ngay <span style=\"color:#51cf66\"><b>Rasburicase (Uricase tái tổ hợp)</b></span> để phân hủy trực tiếp acid uric hiện có thành allantoin đào thải nhanh qua thận.<br><br><b>💡 Giải thích của AI:</b><br>Allopurinol chỉ ngăn tạo mới chứ không phân hủy được lượng acid uric đang lưu hành ồ ạt, do đó trong ca cấp cứu TLS nguy cơ cao bắt buộc phải chỉ định Rasburicase.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS12-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phân biệt nguyên nhân <span style=\"color:#ff6b6b\"><b>Tăng Acid Orotic niệu</b></span> giữa thiếu hụt enzyme chuyển hóa Pyrimidin vs thiếu hụt enzyme Chu trình Ure.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng nồng độ Amoniac máu (NH₃ / NH₄⁺):</b> Kiểm tra nồng độ khí máu và amoniac huyết tương.<br>2) <b>Bước 2 — Nếu Amoniac máu BÌNH THƯỜNG:</b> Đi kèm thiếu máu hồng cầu to trơ không đáp ứng B12/Folat, chậm lớn ở trẻ → Khẳng định <span style=\"color:#74c0fc\"><b>Bệnh Acid Orotic niệu di truyền (Hereditary Orotic Aciduria)</b></span> do khiếm khuyết enzyme <span style=\"color:#74c0fc\"><b>UMP synthase</b></span>; bù bằng Uridine.<br>3) <b>Bước 3 — Nếu Amoniac máu TĂNG CỰC CAO (Tăng NH₃ máu ác tính):</b> Đi kèm hôn mê ngủ lịm, giảm BUN, không có thiếu máu hồng cầu to → Khẳng định khiếm khuyết enzyme <span style=\"color:#ff6b6b\"><b>Ornithine Transcarbamylase (OTC)</b></span> trong chu trình Ure tại ty thể; Carbamoyl phosphat ứ đọng tràn ra bào tương kích hoạt sản xuất ồ ạt acid orotic.<br><br><b>💡 Giải thích của AI:</b><br>Định lượng Amoniac máu là bước phân định dứt khoát ranh giới giữa bệnh chuyển hóa pyrimidin thuần túy và bệnh lý chu trình ure đe dọa phù não do ngộ độc amoniac.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. BS. Tạ Thành Văn chủ biên), NXB Y học, Chương 12: Chuyển hóa acid nucleic.",
+      "tags": [
+        "HS12",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

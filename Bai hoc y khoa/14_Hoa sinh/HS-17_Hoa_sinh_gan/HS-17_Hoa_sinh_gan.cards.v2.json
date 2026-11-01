@@ -1,0 +1,223 @@
+{
+  "deck_id": 1401017001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-17 Hóa sinh gan, chức năng chuyển hóa, khử độc, tạo mật và xét nghiệm sinh hóa gan mật",
+  "card_count": 12,
+  "cards": [
+    {
+      "id": "HS17-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Cấu trúc vi tuần hoàn gan",
+      "tier": 1,
+      "front": "So sánh đặc điểm cấp máu, áp lực oxy và chức năng chuyển hóa giữa <span style=\"color:#74c0fc\"><b>Vùng 1 (Zone 1 - Periportal)</b></span> và <span style=\"color:#ff6b6b\"><b>Vùng 3 (Zone 3 - Centrilobular)</b></span> của nang tuyến gan Rappaport.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vùng 1 (Quanh khoảng cửa):</b> Nhận máu giàu oxy nhất (pO₂ ~ 60 – 65 mmHg) và dưỡng chất; là trung tâm chuyển hóa ái khí đòi hỏi năng lượng cao: <span style=\"color:#74c0fc\"><b>tân tạo glucose, thoái hóa glycogen, oxy hóa acid béo, chu trình urê và tạo mật</b></span>; nhạy cảm nhất với độc chất trực tiếp nhưng đề kháng tốt nhất với thiếu máu cục bộ.<br>2) <b>Vùng 3 (Quanh tĩnh mạch trung tâm):</b> Nhận máu nghèo oxy nhất (pO₂ ~ 30 – 35 mmHg); chiếm ưu thế chuyển hóa kỵ khí hoặc ít phụ thuộc oxy: <span style=\"color:#ffd43b\"><b>đường phân, tổng hợp acid béo và triacylglycerol, khử độc Cytochrom P450 (CYP2E1, CYP3A4)</b></span>; là vùng tổn thương sớm nhất khi thiếu máu tụt huyết áp và nơi sinh độc chất gây hoại tử do NAPQI (ngộ độc paracetamol).<br><br><b>💡 Giải thích của AI:</b><br>Mô hình acinus Rappaport giải thích trực tiếp tổn thương mô bệnh học dạng hoại tử trung tâm tiểu thùy khi sốc giảm thể tích hoặc ngộ độc thuốc.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Cau-truc-gan"
+      ]
+    },
+    {
+      "id": "HS17-B1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Tế bào học gan",
+      "tier": 1,
+      "front": "Phân tích vai trò sinh học của <span style=\"color:#74c0fc\"><b>Tế bào hình sao Ito (Stellate cell)</b></span> và <span style=\"color:#51cf66\"><b>Đại thực bào Kupffer</b></span> trong tổ chức vi tuần hoàn nhu mô gan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tế bào hình sao Ito (nằm trong khoang Disse):</b> Trạng thái sinh lý bình thường dự trữ tới 80% <span style=\"color:#ffd43b\"><b>Vitamin A (retinyl este)</b></span> của cơ thể; khi tổn thương mạn tính bị hoạt hóa bởi TGF-beta chuyển dạng thành <span style=\"color:#ff6b6b\"><b>myofibroblast</b></span> tổng hợp ồ ạt collagen typ I và III gây xơ hóa gan.<br>2) <b>Đại thực bào Kupffer (bám vào thành nội mô mao mạch nan hoa):</b> Chiếm 80 – 90% đại thực bào cố định toàn thân; thực bào vi khuẩn, kháng nguyên ngoại lai từ tuần hoàn tĩnh mạch cửa; tiết các cytokin tiền viêm (<span style=\"color:#51cf66\"><b>TNF-alpha, IL-1, IL-6</b></span>) điều phối đáp ứng miễn dịch bẩm sinh.<br><br><b>💡 Giải thích của AI:</b><br>Khoang Disse là khe hở giữa màng đáy tế bào nội mô và màng tế bào gan, cho phép trao đổi tự do các phân tử protein huyết tương.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Te-bao-gan"
+      ]
+    },
+    {
+      "id": "HS17-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Chuyển hóa glucid",
+      "tier": 1,
+      "front": "Giải thích vai trò của enzym <span style=\"color:#74c0fc\"><b>Glucose-6-phosphatase</b></span> trong việc biến gan thành cơ quan duy nhất duy trì đường huyết toàn thân.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng thủy phân enzym:</b> Thủy phân Glucose-6-phosphat thành <span style=\"color:#74c0fc\"><b>Glucose tự do + Pi</b></span>; diễn ra tại mặt trong màng lưới nội chất trơn (SER).<br>2) <b>Tính độc quyền sinh lý:</b> Gan (và một phần nhỏ ở vỏ thận) sở hữu enzym này; ngược lại, mô cơ <span style=\"color:#ff6b6b\"><b>hoàn toàn không có Glucose-6-phosphatase</b></span> nên glycogen thoái hóa ở cơ chỉ dùng cho co cơ tại chỗ dưới dạng G6P chứ không giải phóng được glucose vào tuần hoàn.<br>3) <b>Cân bằng nội môi đường huyết:</b> Khi đói xa bữa ăn, gan duy trì đường huyết bình thường thông qua phân giải glycogen và tân tạo glucose nhờ enzym này.<br><br><b>💡 Giải thích của AI:</b><br>Thiếu hụt di truyền enzym Glucose-6-phosphatase gây bệnh Von Gierke (GSD typ I) với hạ đường huyết nặng và gan to ứ đọng glycogen.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Chuyen-hoa-glucid"
+      ]
+    },
+    {
+      "id": "HS17-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Chuyển hóa lipid",
+      "tier": 1,
+      "front": "Trình bày con đường tổng hợp thể ceton tại gan và giải thích lý do <span style=\"color:#ff6b6b\"><b>gan không thể sử dụng thể ceton</b></span> để sinh năng lượng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quá trình tổng hợp thể ceton tại gan:</b> Khi thiếu oxy hoặc đói kéo dài, beta-oxy hóa acid béo tăng vọt tạo thừa acetyl-CoA; acetyl-CoA ngưng tụ thành Acetoacetyl-CoA, sau đó qua enzym HMG-CoA synthase tạo HMG-CoA rồi sinh <span style=\"color:#74c0fc\"><b>Acetoacetat, beta-hydroxybutyrat và aceton</b></span>.<br>2) <b>Lý do gan không thể sử dụng thể ceton:</b> Gan thiếu enzym then chốt <span style=\"color:#ff6b6b\"><b>Thiophorase (Succinyl-CoA:3-ketoacid CoA transferase)</b></span> cần thiết để chuyển hóa acetoacetat thành acetoacetyl-CoA kích hoạt; do đó thể ceton chỉ được xuất khẩu ra ngoại vi (não, cơ tim, cơ xương) làm nguồn năng lượng thay thế.<br><br><b>💡 Giải thích của AI:</b><br>Sự thiếu hụt enzym thiophorase đảm bảo gan hoạt động như một nhà sản xuất vị tha, không tranh giành cơ chất năng lượng với các mô sinh tồn như não khi đói.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Chuyen-hoa-lipid"
+      ]
+    },
+    {
+      "id": "HS17-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Chuyển hóa protein",
+      "tier": 1,
+      "front": "Trình bày 5 phản ứng enzym của <span style=\"color:#74c0fc\"><b>Chu trình Urê (Krebs-Henseleit)</b></span> và enzym điều hòa giới hạn tốc độ chu trình.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng 1 (Tại ty thể - Enzym giới hạn tốc độ):</b> NH₄⁺ + HCO₃⁻ + 2 ATP → Carbamoyl phosphat + 2 ADP + Pi; xúc tác bởi <span style=\"color:#ff6b6b\"><b>Carbamoyl phosphat synthetase I (CPS-I)</b></span>, cần chất hoạt hóa dị lập thể bắt buộc là N-acetylglutamat (NAG).<br>2) <b>Phản ứng 2 (Tại ty thể):</b> Carbamoyl phosphat + Ornithin → Citrullin + Pi; xúc tác bởi Ornithin transcarbamylase (OTC).<br>3) <b>Phản ứng 3 (Tại bào tương):</b> Citrullin + Aspartat + ATP → Argininosuccinat + AMP + PPi; xúc tác bởi Argininosuccinat synthetase.<br>4) <b>Phản ứng 4 (Tại bào tương):</b> Argininosuccinat → Arginin + Fumarat; xúc tác bởi Argininosuccinase (Argininosuccinat lyase).<br>5) <b>Phản ứng 5 (Tại bào tương):</b> Arginin + H₂O → <span style=\"color:#51cf66\"><b>Urê</b></span> + Ornithin; xúc tác bởi <span style=\"color:#74c0fc\"><b>Arginase</b></span> (chỉ có ở gan).<br><br><b>💡 Giải thích của AI:</b><br>Chu trình urê liên thông trực tiếp với chu trình acid citric thông qua con thoi Fumarat - Aspartat (chu trình Krebs hai càng).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Chu-trinh-ure"
+      ]
+    },
+    {
+      "id": "HS17-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Chức năng khử độc",
+      "tier": 1,
+      "front": "So sánh con đường khử độc của <span style=\"color:#74c0fc\"><b>Pha I (Oxy hóa - Cytochrome P450)</b></span> và <span style=\"color:#51cf66\"><b>Pha II (Liên hợp)</b></span> tại tế bào gan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Pha I (Biến đổi chức năng):</b> Gắn hoặc làm bộc lộ các nhóm phân cực (-OH, -NH₂, -SH, -COOH) thông qua phản ứng hydroxyl hóa, khử amin; xúc tác chủ yếu bởi hệ monooxygenase <span style=\"color:#74c0fc\"><b>Cytochrome P450 (CYP3A4, CYP2E1, CYP2D6)</b></span> tại màng lưới nội chất trơn; đôi khi tạo chất trung gian hoạt tính gây độc (như NAPQI).<br>2) <b>Pha II (Phản ứng liên hợp):</b> Gắn chất mẹ hoặc dẫn xuất Pha I với một phân tử nội sinh phân cực cao để bất hoạt hoàn toàn và tăng tính tan trong nước để đào thải qua mật hoặc thận: <span style=\"color:#51cf66\"><b>liên hợp acid glucuronic (UDP-glucuronosyltransferase - UGT)</b></span>, liên hợp sulfat (PAPS), liên hợp glutathion (GST), liên hợp glycin và acetyl hóa.<br><br><b>💡 Giải thích của AI:</b><br>Sự cạn kiệt phân tử glutathion nội bào là nguyên nhân chính gây hoại tử tế bào gan ồ ạt trong ngộ độc cấp Paracetamol.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Khu-doc-gan"
+      ]
+    },
+    {
+      "id": "HS17-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Chức năng tạo mật",
+      "tier": 1,
+      "front": "Phân biệt <span style=\"color:#74c0fc\"><b>Acid mật nguyên phát</b></span> và <span style=\"color:#ffd43b\"><b>Acid mật thứ phát</b></span> cùng vai trò của tuần hoàn muối mật ruột - gan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Acid mật nguyên phát:</b> Được tổng hợp trực tiếp từ cholesterol tại tế bào gan; gồm <span style=\"color:#74c0fc\"><b>Acid cholic và Acid chenodeoxycholic</b></span>; enzym giới hạn tốc độ là 7alpha-hydroxylase (CYP7A1).<br>2) <b>Acid mật thứ phát:</b> Do vi khuẩn đường ruột biến đổi (khử hydroxyl ở vị trí C-7) tại đại tràng; acid cholic tạo thành <span style=\"color:#ffd43b\"><b>Acid deoxycholic</b></span>, acid chenodeoxycholic tạo thành <span style=\"color:#ffd43b\"><b>Acid lithocholic</b></span>.<br>3) <b>Tuần hoàn ruột - gan:</b> Khoảng <span style=\"color:#51cf66\"><b>95% lượng muối mật bài tiết</b></span> được tái hấp thu tích cực tại đoạn cuối hồi tràng (qua đồng vận chuyển ASBT) theo tĩnh mạch cửa về gan tái sử dụng, chỉ 5% đào thải qua phân.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh lý viêm hoặc cắt bỏ đoạn cuối hồi tràng làm gián đoạn tái hấp thu muối mật, gây tiêu chảy mỡ và sỏi mật bù trừ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Tao-mat"
+      ]
+    },
+    {
+      "id": "HS17-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA SINH GAN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Xét nghiệm sinh hóa gan mật",
+      "tier": 1,
+      "front": "Biện luận ý nghĩa lâm sàng của tỷ số <span style=\"color:#74c0fc\"><b>De Ritis (AST/ALT)</b></span> trong viêm gan virus cấp, viêm gan do rượu và xơ gan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Viêm gan virus cấp:</b> Tỷ số <span style=\"color:#51cf66\"><b>AST/ALT &lt; 1</b></span> (ALT tăng ưu thế, thường hàng trăm đến hàng nghìn U/L do ALT phân bố hoàn toàn ở bào tương tế bào gan và thời gian bán hủy dài 47 giờ).<br>2) <b>Viêm gan do rượu:</b> Tỷ số <span style=\"color:#ff6b6b\"><b>AST/ALT &gt; 2</b></span> (đi kèm tăng GGT); do rượu gây độc ty thể trực tiếp giải phóng AST ty thể (ASTm chiếm 80% ở gan) và tình trạng thiếu hụt pyridoxal-5-phosphat (vitamin B6) làm giảm tổng hợp ALT mạnh hơn AST.<br>3) <b>Xơ gan:</b> Tỷ số đảo ngược <span style=\"color:#ffd43b\"><b>AST/ALT &gt; 1</b></span> do giảm độ thanh thải AST ở tế bào xoang và tổn thương sâu sắc cấu trúc ty thể nhu mô gan.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi động học AST/ALT giúp đánh giá tiến triển hoại tử nhu mô gan và định hướng nguyên nhân gây bệnh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Xet-nghiem-gan"
+      ]
+    },
+    {
+      "id": "HS17-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân tầng chẩn đoán phân biệt <span style=\"color:#ffd43b\"><b>Vàng da trước gan, tại gan và sau gan</b></span> dựa trên Bilirubin, Urobilinogen và sắc tố mật niệu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vàng da trước gan (Tán huyết):</b> Tăng ưu thế <span style=\"color:#ffd43b\"><b>Bilirubin gián tiếp</b></span>; Sắc tố mật niệu (-); Muối mật niệu (-); Urobilinogen nước tiểu tăng rất cao; Phân sẫm màu (Stercobilinogen tăng).<br>2) <b>Vàng da tại gan (Viêm gan cấp, xơ gan):</b> Tăng hỗn hợp <span style=\"color:#74c0fc\"><b>Bilirubin trực tiếp và gián tiếp</b></span>; Sắc tố mật niệu (+); Urobilinogen nước tiểu bình thường hoặc tăng; Phân bình thường hoặc nhạt màu nhẹ.<br>3) <b>Vàng da sau gan (Tắc mật hoàn toàn do sỏi, u):</b> Tăng ưu thế tuyệt đối <span style=\"color:#ff6b6b\"><b>Bilirubin trực tiếp</b></span>; Sắc tố mật niệu (+++); Muối mật niệu (+++); Urobilinogen nước tiểu biến mất hoàn toàn (bằng 0); Phân bạc màu như phân cò.<br><br><b>💡 Giải thích của AI:</b><br>Bilirubin gián tiếp không tan trong nước và gắn chặt với albumin nên không thể vượt qua màng lọc cầu thận xuất hiện trong nước tiểu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Thuat-toan-gan"
+      ]
+    },
+    {
+      "id": "HS17-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Quy trình biện luận <span style=\"color:#74c0fc\"><b>Nghiệm pháp Kohler (Test Vitamin K₁)</b></span> để phân biệt suy tế bào gan vs tắc mật kéo dài.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Xác định chỉ định:</b> Bệnh nhân có rối loạn đông máu với thời gian Prothrombin kéo dài (tỷ lệ Prothrombin giảm hoặc INR tăng) kèm vàng da ứ mật.<br>2) <b>Bước 2 — Tiến hành can thiệp:</b> Tiêm bắp hoặc tĩnh mạch chậm <span style=\"color:#51cf66\"><b>Vitamin K₁ 10 mg/ngày</b></span> liên tục trong 3 ngày, sau đó định lượng lại PT/INR.<br>3) <b>Bước 3 — Biện luận kết quả:</b> Nếu PT hồi phục nhanh chóng (tăng thêm &gt; 30% hoặc INR về bình thường) → Khẳng định <span style=\"color:#74c0fc\"><b>Tắc mật ngoài gan (Test Kohler dương tính)</b></span> do ruột không hấp thu được vitamin K tan trong mỡ nhưng gan còn tốt; Nếu PT vẫn không cải thiện → Khẳng định <span style=\"color:#ff6b6b\"><b>Suy chức năng tế bào gan nặng (Test Kohler âm tính)</b></span> do tế bào gan mất khả năng tổng hợp phức hệ prothrombin (yếu tố II, VII, IX, X).<br><br><b>💡 Giải thích của AI:</b><br>Nghiệm pháp Kohler phân tách chính xác cơ chế thiếu hụt cơ chất hấp thu so với suy bại nhà máy tổng hợp tại nhu mô gan.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Thuat-toan-gan"
+      ]
+    },
+    {
+      "id": "HS17-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ xử trí cấp cứu phân tầng <span style=\"color:#ff6b6b\"><b>Ngộ độc cấp Paracetamol (Acetaminophen)</b></span> dựa trên nồng độ máu và thuốc giải độc NAC.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng nồng độ Paracetamol máu:</b> Lấy máu xét nghiệm tại thời điểm 4 giờ sau khi uống (hoặc ngay khi vào viện nếu &gt; 4 giờ).<br>2) <b>Bước 2 — Chiếu đồ thị Rumack-Matthew:</b> Nếu nồng độ paracetamol nằm trên đường điều trị (bắt đầu từ 150 microgam/mL tại thời điểm 4 giờ) hoặc nghi ngờ uống liều độc &gt; 150 mg/kg → Tiến hành can thiệp ngay.<br>3) <b>Bước 3 — Thuốc giải độc đặc hiệu:</b> Truyền tĩnh mạch <span style=\"color:#51cf66\"><b>N-acetylcystein (NAC)</b></span> càng sớm càng tốt (tối ưu trong vòng 8 giờ đầu); NAC cung cấp cystein tổng hợp glutathion trung hòa gốc độc NAPQI và đóng vai trò chất chống oxy hóa thay thế.<br><br><b>💡 Giải thích của AI:</b><br>Điều trị NAC sớm trước 8 giờ giảm tỷ lệ tử vong và tổn thương gan nặng do ngộ độc paracetamol xuống gần như bằng 0.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Thuat-toan-gan"
+      ]
+    },
+    {
+      "id": "HS17-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Thuật toán phân biệt tăng Phosphatase kiềm (ALP) do <span style=\"color:#74c0fc\"><b>Bệnh lý gan mật</b></span> vs <span style=\"color:#ffd43b\"><b>Bệnh lý xương</b></span> dựa trên GGT và 5'-Nucleotidase.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Đánh giá hoạt độ ALP huyết thanh:</b> Khi ALP tăng cao đơn độc mà không có triệu chứng vàng da rõ rệt.<br>2) <b>Bước 2 — Đo đồng thời hoạt độ enzym GGT (gamma-glutamyl transferase) hoặc 5'-Nucleotidase (5'-NT):</b><br>- <b>Nếu GGT và 5'-NT ĐỒNG THỜI TĂNG CAO:</b> Khẳng định nguồn gốc <span style=\"color:#74c0fc\"><b>Bệnh lý ứ mật gan mật</b></span> (ứ mật vi quản mật, thâm nhiễm gan, u gan, sỏi mật giai đoạn sớm).<br>- <b>Nếu GGT và 5'-NT HOÀN TOÀN BÌNH THƯỜNG:</b> Khẳng định nguồn gốc <span style=\"color:#ffd43b\"><b>Bệnh lý tạo xương</b></span> (bệnh Paget xương, còi xương, nhuyễn xương, gãy xương đang liền, di căn ung thư vào xương) hoặc tăng sinh lý ở phụ nữ có thai (nguồn gốc bánh rau).<br><br><b>💡 Giải thích của AI:</b><br>GGT không có trong mô xương nên là chất chỉ điểm đối chiếu hoàn hảo để định vị nguồn gốc cơ quan của ALP.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 17: Hóa sinh gan.",
+      "tags": [
+        "HS17",
+        "Hoa-sinh",
+        "Thuat-toan-gan"
+      ]
+    }
+  ]
+}

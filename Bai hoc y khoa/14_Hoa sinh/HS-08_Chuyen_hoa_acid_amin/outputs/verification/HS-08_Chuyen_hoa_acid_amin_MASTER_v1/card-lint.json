@@ -1,0 +1,31 @@
+{
+  "id": "HS-08",
+  "specialty": "hoasinh",
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-08 Chuyển hóa acid amin và chu trình urê",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-01T23:43:58",
+  "cards_source": "HS-08_Chuyen_hoa_acid_amin.cards.v2.json",
+  "cards_source_sha256": "43c40f47ded90c77a564993e80343dd3cb0663866da197d24b6a304163ad9bac",
+  "card_count": 10,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-08_Chuyen_hoa_acid_amin\\HS-08_Chuyen_hoa_acid_amin_MASTER_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 10,
+    "archived": 0,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 10
+  },
+  "apkg_sha256": "177f138056532dee7f0a9f4f7885a24ce64aafecb8c9b1f36011e586bf61af0c",
+  "sqlite_notes": 10,
+  "sqlite_cards": 10
+}

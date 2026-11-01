@@ -1,0 +1,151 @@
+{
+  "deck_id": 1401011001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-11 Hóa học acid nucleic DNA và RNA",
+  "card_count": 8,
+  "cards": [
+    {
+      "id": "HS11-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Thành phần cấu tạo",
+      "tier": 1,
+      "front": "Phân biệt cấu tạo hóa học giữa <span style=\"color:#74c0fc\"><b>Base Nitơ</b></span>, <span style=\"color:#ffd43b\"><b>Nucleosid</b></span> và <span style=\"color:#51cf66\"><b>Nucleotid</b></span> trong phân tử acid nucleic.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Base Nitơ dị vòng:</b> Gồm nhóm nhân <span style=\"color:#74c0fc\"><b>Purin (Adenin - A, Guanin - G)</b></span> có 2 vòng ngưng tụ; và nhóm nhân <span style=\"color:#ffd43b\"><b>Pyrimidin (Cytosin - C, Thymin - T ở DNA, Uracil - U ở RNA)</b></span> có 1 vòng 6 cạnh.<br>2) <b>Nucleosid:</b> Cấu tạo gồm một Base nitơ liên kết với đường Pentose (D-ribose ở RNA hoặc 2-deoxy-D-ribose ở DNA) thông qua <span style=\"color:#ffd43b\"><b>liên kết N-glycosid</b></span> (giữa N9 purin hoặc N1 pyrimidin với C1' của đường).<br>3) <b>Nucleotid (Monomer cấu tạo acid nucleic):</b> Là este phosphat của nucleosid; gồm nucleosid liên kết với từ 1 đến 3 nhóm phosphat qua <span style=\"color:#51cf66\"><b>liên kết ester phosphat</b></span> tại vị trí C5' của đường pentose (NMP, NDP, NTP).<br><br><b>💡 Giải thích của AI:</b><br>Sự khác biệt giữa đường Ribose (có nhóm -OH ở C2') và 2-Deoxyribose (chỉ có -H ở C2') quyết định tính bền vững hóa học cao hơn của phân tử DNA so với RNA.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thành-phần-cấu-tạo"
+      ]
+    },
+    {
+      "id": "HS11-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Cấu trúc DNA",
+      "tier": 1,
+      "front": "Trình bày mô hình cấu trúc chuỗi xoắn kép của <span style=\"color:#74c0fc\"><b>B-DNA (Watson - Crick, 1953)</b></span>: chiều chuỗi, liên kết phosphodiester và nguyên tắc bổ sung.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Trục khung đường - phosphat:</b> Hai chuỗi polynucleotide sắp xếp <span style=\"color:#74c0fc\"><b>đối song song (Antiparallel)</b></span>: một chuỗi chạy theo chiều 5' → 3', chuỗi đối diện chạy theo chiều 3' → 5'; liên kết giữa các nucleotide là <span style=\"color:#74c0fc\"><b>liên kết 3',5'-phosphodiester</b></span>.<br>2) <b>Cấu trúc xoắn kép B-DNA:</b> Hai chuỗi xoắn theo chiều <span style=\"color:#ffd43b\"><b>quay phải</b></span> quanh một trục tưởng tượng; đường kính vòng xoắn là 2,0 nm; mỗi chu kỳ xoắn dài 3,4 nm chứa chính xác <span style=\"color:#ffd43b\"><b>10 cặp base (10 bp)</b></span>; tạo ra rãnh lớn (Major groove) và rãnh nhỏ (Minor groove).<br>3) <b>Nguyên tắc bổ sung (Base pairing):</b> Các base nitơ hướng vào trong lòng trục xoắn liên kết với nhau bằng các liên kết hydro: <span style=\"color:#51cf66\"><b>Adenin liên kết với Thymin bằng 2 liên kết hydro (A = T)</b></span>; <span style=\"color:#ff6b6b\"><b>Guanin liên kết với Cytosin bằng 3 liên kết hydro (G ≡ C)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì cặp G ≡ C có 3 liên kết hydro, phân tử DNA nào có tỷ lệ G-C càng cao thì liên kết càng bền vững và nhiệt độ nóng chảy (Tm) càng cao.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Cấu-trúc-DNA"
+      ]
+    },
+    {
+      "id": "HS11-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Cấu trúc RNA",
+      "tier": 1,
+      "front": "So sánh đặc điểm cấu tạo không gian và chức năng sinh học của 3 loại RNA chính: <span style=\"color:#74c0fc\"><b>mRNA</b></span>, <span style=\"color:#51cf66\"><b>tRNA</b></span> và <span style=\"color:#ffd43b\"><b>rRNA</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>mARN (RNA thông tin - Chiếm ~5% tổng RNA):</b> Chuỗi đơn mạch thẳng làm khuôn dịch mã; ở sinh vật nhân thực có đầu <span style=\"color:#74c0fc\"><b>5' gắn mũ 7-methylguanosin (5'-Cap)</b></span> giúp định vị ribosome và chống thoái hóa; đầu <span style=\"color:#74c0fc\"><b>3' mang đuôi Poly-A (150 – 250 adenin)</b></span> bảo vệ phân tử.<br>2) <b>tARN (RNA vận chuyển - Chiếm ~15%):</b> Chuỗi đơn cuộn gấp thành <span style=\"color:#51cf66\"><b>hình lá ba chẽ (Cloverleaf)</b></span> nhờ các liên kết hydro nội phân tử; đầu tận cùng 3' luôn mang trình tự <span style=\"color:#51cf66\"><b>3'-CCA</b></span> gắn acid amin; đối diện là <span style=\"color:#51cf66\"><b>vòng đối mã (Anticodon loop)</b></span> khớp với codon trên mARN.<br>3) <b>rARN (RNA ribosome - Chiếm ưu thế tuyệt đối ~80%):</b> Kết hợp với các protein để tạo thành các tiểu phần của Ribosome (ở nhân thực gồm 28S, 18S, 5.8S, 5S); trực tiếp tham gia xúc tác enzym tạo liên kết peptid (Ribozyme).<br><br><b>💡 Giải thích của AI:</b><br>Đuôi poly-A của mRNA là cơ sở để các nhà khoa học tinh sạch phân tử mRNA bằng cột sắc ký ái lực Oligo-dT.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Cấu-trúc-RNA"
+      ]
+    },
+    {
+      "id": "HS11-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · HÓA HỌC ACID NUCLEIC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Thuốc tác động acid nucleic",
+      "tier": 1,
+      "front": "Trình bày cơ chế tác dụng dược lý của 2 thuốc chống ung thư và kháng virus kinh điển: <span style=\"color:#ff6b6b\"><b>5-Fluorouracil (5-FU)</b></span> và <span style=\"color:#51cf66\"><b>Zidovudine (AZT)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>5-Fluorouracil (5-FU - Thuốc điều trị ung thư đại trực tràng, dạ dày):</b> Là chất đồng đẳng của Pyrimidin; chuyển hóa thành 5-FdUMP tạo phức bền vững bất hoạt enzym <span style=\"color:#ff6b6b\"><b>Thymidylate Synthase</b></span>, làm cạn kiệt dTMP cần thiết cho tổng hợp DNA, ngăn chặn tế bào ung thư tăng sinh.<br>2) <b>Zidovudine (AZT / 3'-azido-3'-deoxythymidine - Thuốc điều trị HIV):</b> Là chất tương tự nucleosid thymidin nhưng nhóm -OH tại vị trí C3' của đường được thay thế bằng <span style=\"color:#51cf66\"><b>nhóm azido (-N₃)</b></span>; enzym Reverse Transcriptase của virus HIV nhận nhầm AZT gắn vào chuỗi DNA bổ sung; do thiếu nhóm 3'-OH tự do, liên kết phosphodiester tiếp theo không thể hình thành, dẫn đến <span style=\"color:#51cf66\"><b>chấm dứt sớm sự kéo dài chuỗi DNA của virus</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>AZT có ái lực với enzym phiên mã ngược của retrovirus cao gấp 100 lần so với DNA polymerase của tế bào người, tạo nên chỉ số điều trị an toàn.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thuốc-tác-động-acid-nucleic"
+      ]
+    },
+    {
+      "id": "HS11-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Ứng dụng <span style=\"color:#74c0fc\"><b>Quy tắc Chargaff</b></span> trong giải mã thành phần nucleotide của phân tử DNA chuỗi đôi (dsDNA).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định luật tương đương Chargaff (Áp dụng cho mọi dsDNA):</b><br>- Tỷ lệ mol của Adenin luôn bằng Thymin: <span style=\"color:#74c0fc\"><b>%A = %T</b></span>.<br>- Tỷ lệ mol của Guanin luôn bằng Cytosin: <span style=\"color:#ffd43b\"><b>%G = %C</b></span>.<br>- Tổng số purin luôn bằng tổng số pyrimidin: <span style=\"color:#51cf66\"><b>%A + %G = %T + %C = 50%</b></span>.<br>2) <b>Thuật toán tính toán nhanh:</b> Nếu đề bài cho biết % của 1 loại base (ví dụ %A = 20%):<br>1) Xác định ngay: %T = %A = <span style=\"color:#74c0fc\"><b>20%</b></span>.<br>2) Tính tổng %G + %C = 100% - (%A + %T) = 100% - 40% = 60%.<br>3) Suy ra ngay: %G = %C = 60% / 2 = <span style=\"color:#ff6b6b\"><b>30%</b></span>.<br>3) <b>Trường hợp DNA chuỗi đơn (ssDNA):</b> Nếu một mẫu acid nucleic có <span style=\"color:#ff6b6b\"><b>%A ≠ %T hoặc %G ≠ %C</b></span>, khẳng định chắc chắn mẫu đó là <span style=\"color:#ff6b6b\"><b>DNA sợi đơn (ssDNA)</b></span> (ví dụ hệ gen của Parvovirus B19).<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc Chargaff là một trong hai bằng chứng thực nghiệm nền tảng giúp Watson và Crick xây dựng nên mô hình chuỗi xoắn kép.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS11-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phân tích <span style=\"color:#74c0fc\"><b>Nhiệt độ nóng chảy (Tm)</b></span> và hiện tượng biến tính DNA trong kỹ thuật PCR.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Khái niệm Nhiệt độ nóng chảy (Tm - Melting Temperature):</b> Là nhiệt độ mà tại đó <span style=\"color:#ffd43b\"><b>50% cấu trúc chuỗi đôi của phân tử DNA bị tách rời</b></span> thành hai sợi đơn tự do.<br>2) <b>Quy luật biến thiên Tm:</b> Nhiệt độ Tm tỷ lệ thuận trực tiếp với <span style=\"color:#ff6b6b\"><b>hàm lượng cặp base G ≡ C</b></span> trong đoạn DNA (cặp G-C có 3 liên kết hydro, bền nhiệt hơn cặp A=T chỉ có 2 liên kết hydro). Đoạn DNA càng giàu G-C thì Tm càng cao.<br>3) <b>Hiện tượng tăng sắc (Hyperchromic effect):</b> Khi chuỗi đôi DNA bị biến tính tách thành sợi đơn, độ hấp thụ ánh sáng tử ngoại ở bước sóng <span style=\"color:#51cf66\"><b>260 nm (A₂₆₀) tăng vọt từ 30 – 40%</b></span> do các base nitơ không còn bị che lấp trong trục xoắn.<br><br><b>💡 Giải thích của AI:</b><br>Trong phản ứng PCR, bước biến tính ban đầu thường cài đặt ở 94 - 95 °C trong 30 giây để đảm bảo tách rời 100% các chuỗi DNA khuôn.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS11-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tầng các <span style=\"color:#ff6b6b\"><b>Thuốc chống ung thư tác động lên chuyển hóa acid nucleic</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chất tương tự Folat (Kháng acid folic):</b> <span style=\"color:#ff6b6b\"><b>Methotrexate</b></span> ức chế enzym Dihydrofolate Reductase (DHFR) → cạn kiệt THF cần cho tổng hợp purin và dTMP.<br>2) <b>Chất tương tự Pyrimidin:</b> <span style=\"color:#ff6b6b\"><b>5-Fluorouracil (5-FU)</b></span> ức chế Thymidylate Synthase; <span style=\"color:#ff6b6b\"><b>Capecitabine</b></span> (tiền chất uống của 5-FU); <span style=\"color:#ffd43b\"><b>Cytarabine (Ara-C)</b></span> ức chế DNA polymerase.<br>3) <b>Chất tương tự Purin:</b> <span style=\"color:#74c0fc\"><b>6-Mercaptopurine (6-MP)</b></span> và tiền chất Azathioprine ức chế tổng hợp purin de novo.<br>4) <b>Chất ức chế Topoisomerase:</b> <span style=\"color:#51cf66\"><b>Etoposide</b></span> (ức chế Topo II); <span style=\"color:#51cf66\"><b>Irinotecan</b></span> (ức chế Topo I) gây đứt gãy không hồi phục sợi DNA.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhân dùng 6-MP nếu phối hợp với Allopurinol (chất ức chế xanthine oxidase làm giảm thoái hóa 6-MP) bắt buộc phải giảm liều 6-MP xuống 75% để tránh suy tủy tử vong.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS11-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Nguyên lý sinh hóa phân tử của kỹ thuật <span style=\"color:#74c0fc\"><b>RT-PCR (Reverse Transcription PCR)</b></span> trong chẩn đoán virus ARN.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Tách chiết RNA tổng số của virus:</b> Thu nhận RNA chuỗi đơn của virus (ví dụ virus SARS-CoV-2, HCV, HIV).<br>2) <b>Bước 2 — Phiên mã ngược (Reverse Transcription) tạo cADN:</b> Sử dụng enzym <span style=\"color:#51cf66\"><b>Reverse Transcriptase</b></span> và mồi ngẫu nhiên (hoặc mồi oligo-dT) để tổng hợp chuỗi đơn cADN (complementary DNA) bổ sung với sợi RNA khuôn.<br>3) <b>Bước 3 — Khuếch đại chuỗi đôi DNA bằng Taq Polymerase:</b> Chu kỳ PCR nhân bội đoạn gen mục tiêu với cặp mồi xuôi - ngược đặc hiệu qua 3 pha: Biến tính tách chuỗi (95 °C) → Bắt cặp mồi (55 – 60 °C) → Kéo dài chuỗi (72 °C).<br>4) <b>Bước 4 — Phát hiện tín hiệu huỳnh quang thời gian thực (Real-time):</b> Sử dụng mẫu dò TaqMan Probe đo giá trị chu kỳ ngưỡng <span style=\"color:#ffd43b\"><b>Ct (Cycle threshold)</b></span>: Ct càng nhỏ thì tải lượng virus trong mẫu bệnh phẩm ban đầu càng cao.<br><br><b>💡 Giải thích của AI:</b><br>Taq polymerase có nguồn gốc từ vi khuẩn suối nước nóng Thermus aquaticus chịu được nhiệt độ 95 °C mà không bị biến tính protein.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên), NXB Y học, Chương 11: Hóa học acid nucleic.",
+      "tags": [
+        "HS11",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

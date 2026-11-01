@@ -1,0 +1,187 @@
+{
+  "deck_id": 1401008001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-08 Chuyển hóa acid amin và chu trình urê",
+  "card_count": 10,
+  "cards": [
+    {
+      "id": "HS08-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Trao đổi amin",
+      "tier": 1,
+      "front": "Trình bày cơ chế phản ứng <span style=\"color:#74c0fc\"><b>Trao đổi amin (Transamination)</b></span>, vai trò của coenzym <span style=\"color:#ffd43b\"><b>PLP</b></span> và 2 enzym chỉ điểm <span style=\"color:#51cf66\"><b>AST, ALT</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình chuyển dịch nhóm amin:</b> Chuyển nhóm alpha-amin từ một acid amin sang một alpha-cetoacid để tạo thành acid amin mới và alpha-cetoacid mới, không giải phóng amoniac tự do; chất nhận amin phổ biến nhất là <span style=\"color:#74c0fc\"><b>alpha-Ketoglutarat</b></span> để tạo thành <span style=\"color:#74c0fc\"><b>L-Glutamat</b></span>.<br>2) <b>Coenzym bắt buộc:</b> <span style=\"color:#ffd43b\"><b>Pyridoxal phosphat (PLP - Vitamin B₆)</b></span> hoạt động qua việc tạo liên kết base Schiff trung gian giữa nhóm -CHO của PLP và nhóm -NH₂ của acid amin.<br>3) <b>2 enzym kinh điển:</b><br>- <span style=\"color:#51cf66\"><b>ALT (GPT):</b></span> Alanin + alpha-Ketoglutarat ⇌ Pyruvat + Glutamat (đặc hiệu cao cho tế bào gan).<br>- <span style=\"color:#51cf66\"><b>AST (GOT):</b></span> Aspartat + alpha-Ketoglutarat ⇌ Oxaloacetat + Glutamat (có nhiều ở cơ tim và ty thể gan).<br><br><b>💡 Giải thích của AI:</b><br>Toàn bộ nhóm amin từ các acid amin khác nhau qua phản ứng trao đổi amin đều được thu gom về phân tử L-Glutamat để chuẩn bị cho bước khử amin oxy hóa tiếp theo.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Trao-đổi-amin"
+      ]
+    },
+    {
+      "id": "HS08-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Khử amin oxy hóa",
+      "tier": 1,
+      "front": "Trình bày phản ứng <span style=\"color:#74c0fc\"><b>Khử amin oxy hóa của L-Glutamat</b></span> bởi enzym <span style=\"color:#51cf66\"><b>Glutamat Dehydrogenase (GDH)</b></span> và ý nghĩa điều hòa.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình phản ứng:</b> L-Glutamat + NAD(P)⁺ + H₂O ⇌ alpha-Ketoglutarat + NH₄⁺ + NAD(P)H + H⁺; xúc tác bởi enzym <span style=\"color:#51cf66\"><b>Glutamat Dehydrogenase (GDH)</b></span> trong chất nền ty thể.<br>2) <b>Đặc tính độc nhất:</b> GDH là enzym duy nhất có thể sử dụng linh hoạt cả <span style=\"color:#ffd43b\"><b>NAD⁺</b></span> (cho chiều oxy hóa giải phóng NH4+) lẫn <span style=\"color:#ffd43b\"><b>NADP⁺</b></span> (cho chiều đồng hóa gắn NH4+).<br>3) <b>Điều hòa dị lập thể:</b> Bị ức chế dị lập thể bởi mức năng lượng cao (<span style=\"color:#ff6b6b\"><b>GTP và ATP</b></span>); được hoạt hóa mạnh mẽ khi mức năng lượng tế bào thấp (<span style=\"color:#51cf66\"><b>GDP và ADP</b></span>) để giải phóng alpha-ketoglutarat đi vào chu trình Krebs sinh năng lượng.<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp giữa Transamination và Deamination tạo nên phức hợp quá trình Transdeamination - con đường chính giải phóng 90% lượng NH3 trong cơ thể người.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Khử-amin-oxy-hóa"
+      ]
+    },
+    {
+      "id": "HS08-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Vận chuyển amoniac",
+      "tier": 1,
+      "front": "Mô tả hai con đường vận chuyển <span style=\"color:#ff6b6b\"><b>Amoniac (NH₃) không độc</b></span> từ các mô ngoại vi và cơ vân về gan để tổng hợp urê.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Con đường Glutamin (Áp dụng cho não và hầu hết các mô):</b> Amoniac độc được gắn vào glutamate nhờ enzym <span style=\"color:#74c0fc\"><b>Glutamin Synthetase (cần ATP)</b></span> tạo thành <span style=\"color:#74c0fc\"><b>L-Glutamin</b></span> không độc, tan trong máu về gan; tại gan, enzym <span style=\"color:#74c0fc\"><b>Glutaminase</b></span> thủy phân giải phóng lại NH₄⁺ đi vào chu trình urê.<br>2) <b>Chu trình Glucose - Alanin (Đặc hiệu cho mô cơ vân):</b> Ở cơ co rút mạnh, pyruvat nhận nhóm amin từ glutamate tạo thành <span style=\"color:#51cf66\"><b>L-Alanin</b></span> đổ vào máu về gan; tại gan, enzym ALT chuyển amin từ alanin sang alpha-ketoglutarat để tái tạo pyruvat (đi vào tân tạo glucose) và giải phóng glutamate.<br><br><b>💡 Giải thích của AI:</b><br>Glutamin là acid amin có nồng độ lưu hành cao nhất trong huyết tương người, đóng vai trò chất đệm trung chuyển amoniac an toàn giữa các cơ quan.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Vận-chuyển-amoniac"
+      ]
+    },
+    {
+      "id": "HS08-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Chu trình Urê",
+      "tier": 1,
+      "front": "Kể tên <span style=\"color:#74c0fc\"><b>5 bước phản ứng của Chu trình Urê (Krebs - Henseleit)</b></span>, phân định vị trí nội bào và hạch toán năng lượng ATP tiêu tốn.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>2 bước trong Chất nền Ty thể:</b><br>1) Tạo Carbamoyl phosphat từ NH₄⁺, CO₂ và 2 ATP; xúc tác bởi enzym <span style=\"color:#ff6b6b\"><b>Carbamoyl Phosphat Synthetase I (CPS-I, cần N-acetylglutamat NAG hoạt hóa)</b></span>.<br>2) Ngưng tụ Carbamoyl phosphat với Ornithin tạo <span style=\"color:#ffd43b\"><b>Citrullin</b></span> (Ornithin transcarbamylase - OTC); Citrullin được xuất khẩu ra bào tương.<br>2) <b>3 bước trong Bào tương:</b><br>3) Ngưng tụ Citrullin với <span style=\"color:#74c0fc\"><b>Aspartat (cung cấp nguyên tử N thứ hai)</b></span> tiêu tốn 1 ATP (tạo AMP + PPi, tương đương 2 ~P) tạo Argininosuccinat (Argininosuccinat synthetase).<br>4) Phân cắt Argininosuccinat giải phóng <span style=\"color:#ffd43b\"><b>Fumarat</b></span> và tạo <span style=\"color:#51cf66\"><b>L-Arginin</b></span> (Argininosuccinase).<br>5) Thủy phân Arginin bởi enzym <span style=\"color:#51cf66\"><b>Arginase</b></span> giải phóng <span style=\"color:#51cf66\"><b>Urê</b></span> bài tiết qua thận và tái tạo lại <span style=\"color:#74c0fc\"><b>L-Ornithin</b></span> quay lại ty thể.<br>3) <b>Hạch toán năng lượng:</b> Tổng hợp 1 phân tử Urê tiêu tốn <span style=\"color:#ff6b6b\"><b>3 phân tử ATP nhưng bẻ gãy 4 liên kết cao năng (~P)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Urê chứa 2 nguyên tử nitơ: 1 nguyên tử đến từ amoniac tự do (bước CPS-I), nguyên tử còn lại đến từ acid amin Aspartat (bước 3).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Chu-trình-Urê"
+      ]
+    },
+    {
+      "id": "HS08-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Độc tính NH3 & Bệnh não gan",
+      "tier": 1,
+      "front": "Giải thích cơ chế phân tử của <span style=\"color:#ff6b6b\"><b>ngộ độc Amoniac (NH₃) lên não</b></span> dẫn tới bệnh cảnh <span style=\"color:#ff6b6b\"><b>Bệnh não gan (Hepatic Encephalopathy)</b></span> ở bệnh nhân xơ gan.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cạn kiệt alpha-Ketoglutarat:</b> Khi nồng độ NH₃ trong máu tăng cao, phản ứng của enzym GDH bị kéo theo chiều nghịch gắn NH₄⁺ vào alpha-ketoglutarat tạo glutamat, làm <span style=\"color:#ff6b6b\"><b>cạn kiệt alpha-ketoglutarat trong ty thể nơ-ron</b></span>, làm ngừng trệ chu trình Krebs và gây cạn kiệt năng lượng ATP của tế bào não.<br>2) <b>Phù nề thẩm thấu tế bào hình sao (Astrocyte swelling):</b> Enzym Glutamin synthetase ở tế bào hình sao tăng cường gắn NH₃ vào glutamate tạo <span style=\"color:#ffd43b\"><b>lượng lớn Glutamin nội bào</b></span>; nồng độ glutamin cao gây tăng áp suất thẩm thấu nội bào, hút nước vào làm <span style=\"color:#ff6b6b\"><b>phù nề tế bào thần kinh đệm và phù não cấp tính</b></span>.<br>3) <b>Mất cân bằng chất dẫn truyền thần kinh:</b> Giảm tổng hợp chất ức chế GABA và glutamate, làm tăng acid amin thơm (AAA: Phe, Tyr, Trp) đi qua hàng rào máu não tạo các chất dẫn truyền thần kinh giả (Octopamin) gây hôn mê.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu lâm sàng kinh điển của bệnh não gan là run vỗ cánh (Asterixis / Flapping tremor) kèm hơi thở mùi gan thối rữa (Fetour hepaticus).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Độc-tính-NH3-&-Bệnh-não-gan"
+      ]
+    },
+    {
+      "id": "HS08-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA ACID AMIN",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Bệnh lý acid amin",
+      "tier": 1,
+      "front": "Trình bày khiếm khuyết enzym, triệu chứng lâm sàng và nguyên tắc điều trị của <span style=\"color:#ff6b6b\"><b>Bệnh Phenylceton niệu (PKU)</b></span> và <span style=\"color:#ffd43b\"><b>Bệnh Alcapton niệu (Alkaptonuria)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phenylceton niệu (PKU):</b> Thiếu enzym <span style=\"color:#ff6b6b\"><b>Phenylalanin Hydroxylase (PAH)</b></span> (hoặc coenzym BH₄) làm phenylalanin không chuyển được thành Tyrosin; tích tụ phenylalanin và các sản phẩm chuyển hóa phụ (phenylpyruvat, phenyllactat); biểu hiện <span style=\"color:#ff6b6b\"><b>chậm phát triển trí tuệ nặng, co giật, da và tóc nhạt màu (thiếu hụt melanin) và nước tiểu có mùi ẩm mốc (musty odor)</b></span>; điều trị bằng chế độ ăn kiêng nghiêm ngặt giảm Phenylalanin trọn đời.<br>2) <b>Alcapton niệu (Alkaptonuria):</b> Thiếu enzym <span style=\"color:#ffd43b\"><b>Homogentisat Oxidase</b></span> trong thoái hóa Tyrosin; ứ đọng acid homogentisic tự oxy hóa tạo sắc tố đen; biểu hiện: <span style=\"color:#ffd43b\"><b>nước tiểu để lâu ngoài không khí chuyển sang màu đen sẫm</b></span>, lắng đọng sắc tố đen ở sụn tai, màng cứng mắt (Ochronosis) và viêm thoái hóa khớp nặng khi trưởng thành.<br><br><b>💡 Giải thích của AI:</b><br>PKU là một trong những bệnh chuyển hóa bắt buộc phải sàng lọc sơ sinh bằng lấy máu gót chân (Guthrie test) trong 48 - 72 giờ đầu sau sinh để can thiệp kịp thời bảo vệ não trẻ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Bệnh-lý-acid-amin"
+      ]
+    },
+    {
+      "id": "HS08-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phác đồ sinh hóa xử trí hạ amoniac máu cấp cứu trong <span style=\"color:#ff6b6b\"><b>Bệnh não gan</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Cắt giảm nguồn sản sinh amoniac từ ruột:</b> Dừng ngay khẩu phần protein thức ăn; cho uống hoặc thụt tháo <span style=\"color:#51cf66\"><b>Lactulose</b></span> (đường không hấp thu bị vi khuẩn đại tràng lên men tạo acid lactic làm toan hóa lòng ruột, chuyển NH₃ thành NH₄⁺ không ngấm qua niêm mạc ruột và đào thải ra phân).<br>2) <b>Bước 2 — Tiêu diệt vi khuẩn sinh urease đường ruột:</b> Dùng kháng sinh đường uống không hấp thu <span style=\"color:#51cf66\"><b>Rifaximin (hoặc Neomycin)</b></span> để diệt vi khuẩn phân giải urê ở đại tràng.<br>3) <b>Bước 3 — Thúc đẩy chuyển hóa urê và đào thải qua thận:</b> Truyền tĩnh mạch <span style=\"color:#74c0fc\"><b>L-Ornithin L-Aspartat (LOLA)</b></span> để cung cấp cơ chất mồi cho chu trình urê và tăng tổng hợp glutamin ở cơ; phối hợp <span style=\"color:#ffd43b\"><b>Natri Benzoat / Natri Phenylbutyrat</b></span> để tạo liên kết liên hợp đào thải nitơ qua nước tiểu mà không cần chu trình urê.<br><br><b>💡 Giải thích của AI:</b><br>Lactulose là thuốc nền tảng số 1, mục tiêu điều trị duy trì bệnh nhân đi ngoài phân mềm 2 - 3 lần/ngày.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS08-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt 2 thể khiếm khuyết chu trình urê thường gặp nhất: <span style=\"color:#ff6b6b\"><b>Thiếu OTC</b></span> vs <span style=\"color:#ffd43b\"><b>Thiếu CPS-I</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng Amoniac máu ở trẻ sơ sinh bú kém, li bì:</b> Xác định có hội chứng tăng amoniac máu nặng (&gt; 150 – 200 µmol/L).<br>2) <b>Bước 2 — Định lượng Acid Orotic trong nước tiểu:</b><br>- Nếu <span style=\"color:#ff6b6b\"><b>Acid Orotic niệu TĂNG RẤT CAO:</b></span> Khẳng định do <span style=\"color:#ff6b6b\"><b>Thiếu hụt enzym Ornithin Transcarbamylase (OTC)</b></span> (Carbamoyl phosphat ứ đọng trong ty thể tràn ra bào tương kích hoạt con đường tổng hợp pyrimidin tạo ồ ạt acid orotic; di truyền lặn liên kết NST X).<br>- Nếu <span style=\"color:#ffd43b\"><b>Acid Orotic niệu BÌNH THƯỜNG HOẶC RẤT THẤP:</b></span> Khẳng định do <span style=\"color:#ffd43b\"><b>Thiếu hụt enzym Carbamoyl Phosphat Synthetase I (CPS-I)</b></span> (hoặc thiếu N-acetylglutamat synthetase; di truyền lặn NST thường).<br><br><b>💡 Giải thích của AI:</b><br>Thiếu OTC là bệnh lý di truyền chu trình urê phổ biến nhất và là bệnh duy nhất trong chu trình này di truyền liên kết NST X.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS08-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận chẩn đoán phân biệt các bệnh rối loạn chuyển hóa acid amin bẩm sinh qua <span style=\"color:#74c0fc\"><b>Mùi đặc trưng của nước tiểu</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Mùi ẩm mốc, mùi lông chuột (Musty / Mousy odor):</b> Điển hình của <span style=\"color:#ff6b6b\"><b>Bệnh Phenylceton niệu (PKU)</b></span> do bài tiết acid phenylacetic.<br>2) <b>Mùi đường thắng, mùi siro cây phong (Maple syrup / Burnt sugar odor):</b> Điển hình của <span style=\"color:#ff6b6b\"><b>Bệnh siro niệu (Maple Syrup Urine Disease - MSUD)</b></span> do khiếm khuyết phức hợp khử carboxyl oxy hóa các acid amin chuỗi nhánh (BCAA: Leu, Ile, Val).<br>3) <b>Mùi bắp cải thối rữa (Boiled cabbage odor):</b> Điển hình của <span style=\"color:#ffd43b\"><b>Tăng Tyrosin máu typ I (Tyrosinemia type I)</b></span> do thiếu enzym fumarylacetoacetat hydrolase.<br>4) <b>Mùi chân hôi như vớ bẩn (Sweaty feet odor):</b> Điển hình của <span style=\"color:#74c0fc\"><b>Toan Isovaleric máu (Isovaleric acidemia)</b></span> do ứ đọng isovaleryl-CoA.<br><br><b>💡 Giải thích của AI:</b><br>Khám mùi nước tiểu là một kỹ năng lâm sàng kinh điển có giá trị gợi ý chẩn đoán sơ bộ ngay tại giường bệnh ở trẻ sơ sinh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS08-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng phân tầng số phận chuyển hóa của 20 acid amin thành <span style=\"color:#51cf66\"><b>Sinh đường (Glucogenic)</b></span> và <span style=\"color:#ff6b6b\"><b>Sinh ceton (Ketogenic)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm THUẦN TÚY SINH CETON (Chỉ có 2 acid amin):</b> <span style=\"color:#ff6b6b\"><b>Leucin (Leu) và Lysin (Lys)</b></span> (chỉ thoái hóa tạo Acetyl-CoA hoặc Acetoacetat, HOÀN TOÀN KHÔNG THỂ tân tạo thành Glucose).<br>2) <b>Nhóm VỪA SINH ĐƯỜNG VỪA SINH CETON (Gồm 5 acid amin):</b> <span style=\"color:#ffd43b\"><b>Phenylalanin, Tyrosin, Tryptophan, Isoleucin, Threonin</b></span> (mẹo nhớ: PITTT).<br>3) <b>Nhóm THUẦN TÚY SINH ĐƯỜNG (Gồm 13 acid amin còn lại):</b> Tiêu biểu như <span style=\"color:#51cf66\"><b>Alanin, Glutamat, Aspartat, Glycin, Serin</b></span> (thoái hóa tạo Pyruvat, Oxaloacetat, alpha-Ketoglutarat, Succinyl-CoA, Fumarat để đi vào tân tạo đường).<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân mắc bệnh lý ty thể hoặc toan lactic mạn tính, chế độ ăn ketogenic giàu Leucin và Lysin giúp sinh năng lượng mà không sinh thêm acid lactic.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Ngô Thị Thu Hiền tác giả), NXB Y học, Chương 8: Chuyển hóa acid amin.",
+      "tags": [
+        "HS08",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

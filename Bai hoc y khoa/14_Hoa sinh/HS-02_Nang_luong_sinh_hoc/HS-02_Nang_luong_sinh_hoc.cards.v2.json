@@ -1,0 +1,326 @@
+{
+  "deck_id": 1401002001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-02 Hô hấp tế bào, phosphoryl-oxy hóa và chu trình acid citric",
+  "card_count": 17,
+  "cards": [
+    {
+      "id": "HS02-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Nhiệt động học",
+      "tier": 1,
+      "front": "So sánh sự khác biệt cốt tử giữa <span style=\"color:#ffd43b\"><b>đốt cháy sinh học (hô hấp tế bào)</b></span> và <span style=\"color:#ff6b6b\"><b>đốt cháy ngoài cơ thể</b></span> về nhiệt độ và cơ chế giải phóng năng lượng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhiệt độ:</b> Đốt cháy ngoài cơ thể cần <span style=\"color:#ff6b6b\"><b>nhiệt độ rất cao (hàng trăm đến nghìn độ C)</b></span>; đốt cháy sinh học diễn ra ở <span style=\"color:#51cf66\"><b>thân nhiệt hằng định đẳng nhiệt (37 °C)</b></span>.<br>2) <b>Cơ chế giải phóng năng lượng:</b> Ngoài cơ thể giải phóng <span style=\"color:#ff6b6b\"><b>bùng nổ tức thời</b></span> toàn bộ thành nhiệt và ánh sáng; đốt cháy sinh học giải phóng <span style=\"color:#51cf66\"><b>từng bước qua chuỗi bậc thang</b></span>, bẫy được ~40% vào <span style=\"color:#74c0fc\"><b>liên kết ATP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tế bào sống là hệ thống mở đẳng nhiệt nên không thể dùng nhiệt lượng để sinh công cơ học; năng lượng bắt buộc phải bẫy vào thế năng hóa học của ATP.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Nhiệt-động-học"
+      ],
+      "asks": [
+        "Nhiệt độ",
+        "Cơ chế giải phóng năng lượng"
+      ]
+    },
+    {
+      "id": "HS02-B1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Nhiệt động học",
+      "tier": 1,
+      "front": "Phân tích cấu trúc phân tử của <span style=\"color:#74c0fc\"><b>Adenosin Triphosphat (ATP)</b></span> và giải thích lý do phản ứng thủy phân ATP tỏa <span style=\"color:#ffd43b\"><b>năng lượng tự do lớn (ΔG°' = -30,5 kJ/mol)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc phân tử:</b> Gồm adenin gắn ribose qua liên kết N-glycosid; nhóm alpha-phosphat gắn ester với ribose; hai liên kết giữa alpha-beta và beta-gamma là <span style=\"color:#74c0fc\"><b>liên kết phosphoanhydrid giàu năng lượng</b></span> (~P).<br>2) <b>Lý do phản ứng thủy phân ATP tỏa năng lượng tự do lớn:</b> 1) Sự giải tỏa <span style=\"color:#ff6b6b\"><b>sức đẩy tĩnh điện cực lớn</b></span> giữa 4 điện tích âm nằm kế cận nhau trên chuỗi phosphat ở pH 7,0; 2) Sản phẩm phosphat vô cơ (Pi) và ADP có <span style=\"color:#51cf66\"><b>cấu trúc cộng hưởng bền vững vượt trội</b></span>; 3) Sự hydrat hóa thuận lợi của các ion sản phẩm trong dung môi nước.<br><br><b>💡 Giải thích của AI:</b><br>Thế năng phosphoryl hóa thực tế trong nội bào (ΔGp) còn cao hơn điều kiện chuẩn, đạt tới -50 đến -65 kJ/mol.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Nhiệt-động-học"
+      ],
+      "asks": [
+        "Cấu trúc phân tử",
+        "Lý do phản ứng thủy phân ATP tỏa năng lượng tự do lớn"
+      ]
+    },
+    {
+      "id": "HS02-B1-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B1",
+      "category": "Nhiệt động học",
+      "tier": 2,
+      "text": "Một liên kết hóa học được định nghĩa là liên kết giàu năng lượng khi năng lượng tự do chuẩn của phản ứng thủy phân mang giá trị ΔG°' {{c1::<span style=\"color:#51cf66\"><b>≤ -21 kJ/mol</b></span>}} (tương đương {{c1::<span style=\"color:#ffd43b\"><b>-5 kcal/mol</b></span>}}).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Nhiệt-động-học"
+      ]
+    },
+    {
+      "id": "HS02-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Chuỗi hô hấp tế bào",
+      "tier": 1,
+      "front": "Trình bày tên gọi, cơ chất cho điện tử và các trung tâm oxy hóa khử của <span style=\"color:#74c0fc\"><b>Phức hợp I</b></span> và <span style=\"color:#51cf66\"><b>Phức hợp II</b></span> trong chuỗi hô hấp ty thể.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phức hợp I (NADH:ubiquinon oxidoreductase):</b> Nhận 2 điện tử từ <span style=\"color:#74c0fc\"><b>NADH</b></span>; chứa trung tâm chức năng <span style=\"color:#ffd43b\"><b>FMN</b></span> và các cụm <span style=\"color:#ffd43b\"><b>Fe-S</b></span>; bơm được <span style=\"color:#51cf66\"><b>4 H⁺</b></span> từ chất nền qua màng trong vào xoang gian màng.<br>2) <b>Phức hợp II (Succinat:ubiquinon oxidoreductase):</b> Nhận điện tử từ <span style=\"color:#51cf66\"><b>Succinat</b></span> (nhờ Succinat dehydrogenase); chứa nhóm ngoại <span style=\"color:#ffd43b\"><b>FAD</b></span>, cụm Fe-S và cytochrom b; chuyển điện tử cho CoQ nhưng <span style=\"color:#ff6b6b\"><b>hoàn toàn không bơm H⁺</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì Phức hợp II không xuyên màng và không bơm được H⁺, nên oxy hóa FADH2 giải phóng ít năng lượng hơn và chỉ tạo 1.5 ATP so với 2.5 ATP từ NADH.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Chuỗi-hô-hấp-tế-bào"
+      ]
+    },
+    {
+      "id": "HS02-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Chuỗi hô hấp tế bào",
+      "tier": 1,
+      "front": "Trình bày vai trò và cơ chế bơm proton của <span style=\"color:#74c0fc\"><b>Phức hợp III</b></span> và <span style=\"color:#51cf66\"><b>Phức hợp IV</b></span> cùng hai chất mang linh động <span style=\"color:#ffd43b\"><b>CoQ</b></span> và <span style=\"color:#ffd43b\"><b>Cytochrom c</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phức hợp III & Chu trình Q:</b> Vận chuyển điện tử từ CoQH2 sang Cytochrom c qua các hem b_L, b_H, c_1 và cụm Fe-S Rieske; bơm được <span style=\"color:#51cf66\"><b>4 H⁺</b></span> vào xoang gian màng.<br>2) <b>Phức hợp IV (Cytochrom c oxidase):</b> Thu nhận 4 điện tử từ 4 phân tử Cytochrom c; chứa trung tâm Cu_A, Cu_B và hem a, a_3; chuyển điện tử khử phân tử O₂ thành 2 phân tử H₂O; bơm được <span style=\"color:#51cf66\"><b>2 H⁺</b></span> vào xoang gian màng.<br>3) <b>Hai chất mang linh động:</b> <span style=\"color:#ffd43b\"><b>Coenzym Q (Ubiquinon)</b></span> tan trong lipid màng trong ty thể; <span style=\"color:#ffd43b\"><b>Cytochrom c</b></span> là protein ngoại vi tan trong nước ở xoang gian màng.<br><br><b>💡 Giải thích của AI:</b><br>Tổng cộng khi 1 đôi điện tử đi từ NADH đến O₂, chuỗi hô hấp bơm được 10 H⁺ (4 từ CI + 4 từ CIII + 2 từ CIV) tạo gradient hóa điện thế.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Chuỗi-hô-hấp-tế-bào"
+      ]
+    },
+    {
+      "id": "HS02-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Thuyết hóa thẩm thấu",
+      "tier": 1,
+      "front": "Trình bày luận điểm cốt lõi của <span style=\"color:#74c0fc\"><b>Thuyết hóa thẩm thấu Mitchell</b></span> và bản chất của <span style=\"color:#51cf66\"><b>Lực đẩy proton (pmf)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên lý Mitchell:</b> Năng lượng giải phóng từ dòng vận chuyển điện tử được dùng để <span style=\"color:#74c0fc\"><b>bơm proton H⁺ ra ngoài xoang gian màng</b></span>, tạo nên gradient nồng độ H⁺ và điện thế qua màng trong ty thể.<br>2) <b>Lực đẩy proton (pmf):</b> Gồm 2 thành phần: <span style=\"color:#51cf66\"><b>chênh lệch điện thế màng (Δψ ≈ 0,15 – 0,18 V)</b></span> (mặt ngoài dương, mặt trong âm) và <span style=\"color:#ffd43b\"><b>chênh lệch hóa học pH (ΔpH ≈ 0,75 – 1,0 đơn vị)</b></span>.<br>3) <b>Tổng hợp ATP:</b> Dòng H⁺ quay trở lại chất nền ty thể xuôi theo gradient qua kênh phân tử của <span style=\"color:#74c0fc\"><b>Phức hợp V (ATP Synthase)</b></span>, cung cấp động lực thúc đẩy tổng hợp ATP từ ADP và Pi.<br><br><b>💡 Giải thích của AI:</b><br>Peter Mitchell nhận giải Nobel Hóa học năm 1978 nhờ khám phá mang tính cách mạng này.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Thuyết-hóa-thẩm-thấu"
+      ]
+    },
+    {
+      "id": "HS02-B3-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "ATP Synthase",
+      "tier": 1,
+      "front": "Trình bày cấu trúc phân tử của <span style=\"color:#74c0fc\"><b>ATP Synthase (Phức hợp V)</b></span>, cơ chế quay 3 pha của Boyer và hạch toán <span style=\"color:#51cf66\"><b>tỷ lệ P/O hiện đại</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kiến trúc phân tử:</b> Gồm tiểu phần <span style=\"color:#74c0fc\"><b>F₀ nằm xuyên màng</b></span> (kênh dẫn H⁺ gồm vòng c) và tiểu phần <span style=\"color:#74c0fc\"><b>F₁ nằm trong chất nền</b></span> (gồm 3 cặp alpha-beta xúc tác gắn với trục quay gamma).<br>2) <b>Động học quay 3 pha (Paul Boyer):</b> Mỗi vị trí xúc tác trên tiểu phần beta luân chuyển qua 3 trạng thái cấu hình: <span style=\"color:#ffd43b\"><b>Mở (Open - O)</b></span> ái lực yếu; <span style=\"color:#ffd43b\"><b>Lỏng (Loose - L)</b></span> giữ ADP và Pi; <span style=\"color:#51cf66\"><b>Chặt (Tight - T)</b></span> xúc tác ép tạo ATP.<br>3) <b>Hiệu suất P/O hiện đại:</b> 1 phân tử <span style=\"color:#74c0fc\"><b>NADH</b></span> tạo <span style=\"color:#51cf66\"><b>~2,5 ATP</b></span> (bơm 10 H⁺); 1 phân tử <span style=\"color:#ffd43b\"><b>FADH₂</b></span> tạo <span style=\"color:#51cf66\"><b>~1,5 ATP</b></span> (bơm 6 H⁺).<br><br><b>💡 Giải thích của AI:</b><br>Cần xấp xỉ 4 H⁺ quay trở lại chất nền để tổng hợp và xuất khẩu 1 phân tử ATP ra bào tương (3 H⁺ qua ATP synthase + 1 H⁺ qua Phosphat Translocase).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "ATP-Synthase"
+      ]
+    },
+    {
+      "id": "HS02-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Độc chất chuỗi hô hấp",
+      "tier": 1,
+      "front": "Kể tên vị trí tác động của các chất ức chế chuỗi hô hấp tế bào: <span style=\"color:#ff6b6b\"><b>Rotenon</b></span>, <span style=\"color:#ff6b6b\"><b>Antimycin A</b></span>, <span style=\"color:#ff6b6b\"><b>Cyanid (CN⁻), CO</b></span> và <span style=\"color:#ff6b6b\"><b>Oligomycin</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ức chế Phức hợp I:</b> <span style=\"color:#ff6b6b\"><b>Rotenon</b></span> (thuốc trừ sâu) và <span style=\"color:#ff6b6b\"><b>Amytal</b></span> (thuốc ngủ barbiturat) ngăn truyền điện tử từ Fe-S sang CoQ.<br>2) <b>Ức chế Phức hợp II:</b> <span style=\"color:#ff6b6b\"><b>Malonat</b></span> (ức chế cạnh tranh với succinat).<br>3) <b>Ức chế Phức hợp III:</b> <span style=\"color:#ff6b6b\"><b>Antimycin A</b></span> ngăn chuyển điện tử từ hem b_H sang CoQ.<br>4) <b>Ức chế Phức hợp IV:</b> <span style=\"color:#ff6b6b\"><b>Cyanid (CN⁻), Carbon monoxid (CO), Azid (N₃⁻), H₂S</b></span> gắn chặt vào ion Fe³⁺/Fe²⁺ của hem a₃, phong bế hô hấp tế bào lập tức.<br>5) <b>Ức chế ATP Synthase:</b> <span style=\"color:#ff6b6b\"><b>Oligomycin</b></span> bịt kín kênh proton F₀.<br><br><b>💡 Giải thích của AI:</b><br>Khi Phức hợp IV bị ức chế bởi Cyanid hoặc CO, toàn bộ chuỗi hô hấp bị ứ đọng điện tử ở trạng thái khử, tiêu thụ oxy dừng lại hoàn toàn.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Độc-chất-chuỗi-hô-hấp"
+      ]
+    },
+    {
+      "id": "HS02-B4-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Chất phá ghép",
+      "tier": 1,
+      "front": "Thế nào là <span style=\"color:#ff6b6b\"><b>chất phá ghép (Uncouplers)</b></span>? Phân biệt chất phá ghép hóa học (<span style=\"color:#ff6b6b\"><b>2,4-DNP</b></span>) với protein sinh nhiệt sinh lý (<span style=\"color:#51cf66\"><b>UCP-1 / Thermogenin</b></span>) ở mô mỡ nâu.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất phá ghép:</b> Là những chất làm tách rời quá trình vận chuyển điện tử khỏi sự tổng hợp ATP; chúng vận chuyển H⁺ thẩm thấu tự do qua màng trong ty thể làm <span style=\"color:#ff6b6b\"><b>triệt tiêu lực đẩy proton (pmf)</b></span>.<br>2) <b>Tác động chuyển hóa:</b> Chuỗi chuyền điện tử và tiêu thụ O₂ vẫn diễn ra tối đa nhưng <span style=\"color:#ff6b6b\"><b>hoàn toàn không sinh được ATP</b></span>; toàn bộ năng lượng bị tiêu tán dưới dạng <span style=\"color:#ffd43b\"><b>nhiệt lượng tỏa ra ngoài</b></span>.<br>3) <b>2,4-Dinitrophenol (2,4-DNP):</b> Chất phá ghép hóa học gây sốt cao ác tính đe dọa tính mạng; trong khi <span style=\"color:#51cf66\"><b>UCP-1 (Thermogenin)</b></span> là kênh proton sinh lý trong mô mỡ nâu (BAT) giúp trẻ sơ sinh chống rét mà không cần run cơ.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ sơ sinh có lượng mô mỡ nâu dồi dào quanh vùng vai và sau xương ức giúp thích ứng ngay với nhiệt độ phòng sinh nhờ UCP-1.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Chất-phá-ghép"
+      ]
+    },
+    {
+      "id": "HS02-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Hệ thống con thoi",
+      "tier": 1,
+      "front": "So sánh cơ chế vận chuyển hydro, cơ quan phân bố và năng lượng thu hồi giữa con thoi <span style=\"color:#74c0fc\"><b>Malat - Aspartat</b></span> và con thoi <span style=\"color:#51cf66\"><b>Glycerol - 3 - phosphat</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Con thoi Malat - Aspartat:</b> Phân bố chủ yếu ở <span style=\"color:#74c0fc\"><b>tim, gan, thận</b></span>; chuyển hydro từ NADH bào tương vào tạo lại <span style=\"color:#74c0fc\"><b>NADH trong ty thể</b></span>; đi qua Phức hợp I thu hồi tối đa <span style=\"color:#74c0fc\"><b>2,5 ATP / NADH</b></span>.<br>2) <b>Con thoi Glycerol - 3 - phosphat:</b> Phân bố chủ yếu ở <span style=\"color:#51cf66\"><b>cơ vân và não bộ</b></span>; chuyển hydro từ NADH bào tương sang enzym Glycerol-3-P dehydrogenase ty thể tạo <span style=\"color:#ffd43b\"><b>FADH₂</b></span> gắn màng; đi qua CoQ bỏ qua Phức hợp I chỉ thu hồi <span style=\"color:#ffd43b\"><b>1,5 ATP / NADH</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Màng trong ty thể không thấm đối với phân tử NADH bào tương; do đó tế bào bắt buộc phải sử dụng 2 hệ thống con thoi này để đưa tương đương khử vào chuỗi hô hấp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Hệ-thống-con-thoi"
+      ]
+    },
+    {
+      "id": "HS02-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Chu trình Krebs",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>phản ứng bản lề</b></span> của <span style=\"color:#74c0fc\"><b>Phức hợp Pyruvat Dehydrogenase (PDH)</b></span>: cấu tạo <span style=\"color:#51cf66\"><b>3 enzym thành phần</b></span>, <span style=\"color:#ffd43b\"><b>5 coenzym phối hợp</b></span> và <span style=\"color:#74c0fc\"><b>ý nghĩa điều hòa</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng bản lề:</b> Khử carboxyl oxy hóa pyruvat thành acetyl-CoA tại chất nền ty thể: Pyruvat + CoA-SH + NAD⁺ → Acetyl-CoA + CO₂ + NADH + H⁺ (ΔG°' = -33,4 kJ/mol, một chiều).<br>2) <b>3 enzym thành phần:</b> E₁ (<span style=\"color:#74c0fc\"><b>Pyruvat dehydrogenase</b></span>), E₂ (<span style=\"color:#74c0fc\"><b>Dihydrolipoyl transacetylase</b></span>), E₃ (<span style=\"color:#74c0fc\"><b>Dihydrolipoyl dehydrogenase</b></span>).<br>3) <b>5 coenzym phối hợp:</b> <span style=\"color:#ffd43b\"><b>TPP (B₁)</b></span>, <span style=\"color:#ffd43b\"><b>Acid Lipoic</b></span>, <span style=\"color:#ffd43b\"><b>CoA-SH (B₅)</b></span>, <span style=\"color:#ffd43b\"><b>FAD (B₂)</b></span>, và <span style=\"color:#ffd43b\"><b>NAD⁺ (B₃)</b></span>.<br>4) <b>Ý nghĩa điều hòa:</b> Bị ức chế bởi nồng độ cao của Acetyl-CoA, ATP, NADH; được hoạt hóa khi nồng độ ADP, NAD⁺ và ion Ca²⁺ tăng cao.<br><br><b>💡 Giải thích của AI:</b><br>Thiếu hụt vitamin B1 làm phức hợp PDH ngừng hoạt động, gây ứ đọng acid lactic và pyruvat trong máu, dẫn đến bệnh Beri-beri và hội chứng não Wernicke.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Chu-trình-Krebs"
+      ],
+      "asks": [
+        "Phản ứng bản lề",
+        "3 enzym thành phần",
+        "5 coenzym phối hợp",
+        "Ý nghĩa điều hòa"
+      ]
+    },
+    {
+      "id": "HS02-B6-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Chu trình Krebs",
+      "tier": 1,
+      "front": "Kể tên <span style=\"color:#74c0fc\"><b>8 bước phản ứng của Chu trình acid citric (Krebs)</b></span> và hạch toán <span style=\"color:#51cf66\"><b>sản lượng năng lượng ATP</b></span> tạo thành từ 1 phân tử Acetyl-CoA.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>8 bước enzym:</b> 1) Ngưng tụ tạo Citrat (Citrat synthase); 2) Đồng phân hóa tạo Isocitrat (Aconitase); 3) Khử carboxyl oxy hóa tạo alpha-Ketoglutarat + <span style=\"color:#74c0fc\"><b>NADH</b></span> + CO₂; 4) Khử carboxyl oxy hóa tạo Succinyl-CoA + <span style=\"color:#74c0fc\"><b>NADH</b></span> + CO₂; 5) Phosphoryl hóa mức cơ chất tạo Succinat + <span style=\"color:#51cf66\"><b>GTP (ATP)</b></span>; 6) Khử hydro tạo Fumarat + <span style=\"color:#ffd43b\"><b>FADH₂</b></span> (Succinat DH); 7) Hợp nước tạo Malat (Fumarase); 8) Khử hydro tái tạo Oxaloacetat + <span style=\"color:#74c0fc\"><b>NADH</b></span> (Malat DH).<br>2) <b>Hạch toán năng lượng:</b> 1 Acetyl-CoA qua chu trình Krebs tạo ra: 3 NADH (× 2,5 = 7,5 ATP) + 1 FADH₂ (× 1,5 = 1,5 ATP) + 1 GTP (= 1 ATP) = <span style=\"color:#51cf66\"><b>Tổng cộng 10 ATP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba bước enzym kiểm soát giới hạn tốc độ của chu trình Krebs là: Citrat synthase, Isocitrat dehydrogenase và alpha-Ketoglutarat dehydrogenase.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Chu-trình-Krebs"
+      ]
+    },
+    {
+      "id": "HS02-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · NĂNG LƯỢNG SINH HỌC",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Bệnh học lâm sàng",
+      "tier": 1,
+      "front": "Trình bày cơ chế bệnh sinh phân tử và đặc điểm lâm sàng của <span style=\"color:#ff6b6b\"><b>Hội chứng MELAS</b></span> và dấu hiệu <span style=\"color:#74c0fc\"><b>sợi cơ đỏ rách rưới (Ragged-red fibers)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất di truyền:</b> Là bệnh lý ty thể di truyền độc quyền theo dòng mẹ; phổ biến nhất do đột biến điểm <span style=\"color:#ffd43b\"><b>m.3243A&gt;G</b></span> trên gen MT-TL1 mã hóa tRNA Leucin của ty thể.<br>2) <b>Phân tử bệnh sinh:</b> Đột biến làm suy giảm dịch mã tổng hợp protein của chuỗi hô hấp ty thể, gây <span style=\"color:#ff6b6b\"><b>cạn kiệt ATP và ứ đọng acid lactic mạn tính</b></span>.<br>3) <b>Tam chứng kinh điển:</b> Tam chứng kinh điển: Bệnh cơ não (Encephalomyopathy), Toan acid lactic (Lactic acidosis), và các cơn giống đột quỵ (Stroke-like episodes) trước 40 tuổi.<br>4) <b>Mô bệnh học:</b> Sinh thiết cơ nhuộm Gomori trichrome thấy hình ảnh <span style=\"color:#ff6b6b\"><b>Ragged-red fibers</b></span> do ty thể bất thường phì đại tăng sinh bù trừ lắng đọng dưới màng sợi cơ.<br><br><b>💡 Giải thích của AI:</b><br>Do DNA ty thể (mtDNA) chỉ được truyền qua noãn bào của mẹ, người mẹ mang đột biến sẽ truyền bệnh cho toàn bộ con cái nhưng chỉ con gái mới truyền tiếp cho thế hệ sau.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Bệnh-học-lâm-sàng"
+      ]
+    },
+    {
+      "id": "HS02-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt vị trí tác động của <span style=\"color:#ff6b6b\"><b>chất ức chế chuỗi hô hấp</b></span> vs <span style=\"color:#ffd43b\"><b>chất phá ghép</b></span> dựa trên tiêu thụ O₂ và tổng hợp ATP.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1: Kiểm tra tiêu thụ oxy (O₂) và tổng hợp ATP:</b> Nếu cả tiêu thụ O₂ VÀ tổng hợp ATP đều ngừng trệ → Chuyển sang Bước 2 (Chất ức chế chuỗi hô hấp hoặc ATP synthase).<br>2) <b>Bước 2: Bổ sung chất phá ghép 2,4-DNP:</b> Nếu sau khi thêm DNP, tốc độ tiêu thụ O₂ tăng vọt trở lại nhưng vẫn không tổng hợp được ATP → Khẳng định tác nhân là <span style=\"color:#ff6b6b\"><b>Oligomycin (ức chế ATP synthase)</b></span>. Nếu thêm DNP mà tiêu thụ O₂ vẫn bằng 0 → Khẳng định là <span style=\"color:#ff6b6b\"><b>Ức chế Phức hợp hô hấp I, III hoặc IV (Cyanid, Rotenon)</b></span>.<br>3) <b>Bước 3: Nếu tiêu thụ O₂ tăng cực đại nhưng tổng hợp ATP = 0:</b> Khẳng định ngay tác nhân là <span style=\"color:#ffd43b\"><b>Chất phá ghép (2,4-DNP, UCP-1 Thermogenin)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là thuật toán thực nghiệm kinh điển phân biệt cơ chế tác dụng của các chất độc dược lý lên hệ thống phosphoryl oxy hóa.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS02-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Phác đồ giải độc cấp cứu đặc hiệu bệnh nhân <span style=\"color:#ff6b6b\"><b>ngộ độc Cyanid (CN⁻)</b></span> trong hỏa hoạn hít khói.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Thở oxy 100% liều cao:</b> Hỗ trợ thông khí ngay lập tức nhằm tăng phân áp oxy hòa tan.<br>2) <b>Bước 2 — Thuốc giải độc lựa chọn hàng đầu:</b> Tiêm tĩnh mạch <span style=\"color:#51cf66\"><b>Hydroxocobalamin (Vitamin B12a)</b></span> liều 5 g; gốc coban gắn kết cực mạnh với CN⁻ tạo thành <span style=\"color:#74c0fc\"><b>Cyanocobalamin (Vitamin B12)</b></span> không độc bài tiết an toàn qua nước tiểu.<br>3) <b>Bước 3 — Phác đồ thay thế cổ điển (Bộ kít Cyanide Antidote Kit):</b> Hít amyl nitrit + tiêm tĩnh mạch natri nitrit để tạo <span style=\"color:#ffd43b\"><b>Methemoglobin (Fe³⁺)</b></span> kéo CN⁻ ra khỏi cytochrom oxidase; sau đó tiêm <span style=\"color:#51cf66\"><b>Natri Thiosulfat</b></span> để enzym Rhodanese chuyển thành Thiocyanat bài tiết qua thận.<br><br><b>💡 Giải thích của AI:</b><br>Hydroxocobalamin hiện là thuốc giải độc được ưu tiên số 1 vì không gây tụt huyết áp và không làm nặng thêm tình trạng thiếu oxy mô như liệu pháp tạo Methemoglobin.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS02-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Bảng hạch toán nhanh <span style=\"color:#74c0fc\"><b>năng lượng ATP</b></span> thoái hóa hoàn toàn 1 phân tử Glucose hiếu khí vs yếm khí.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thoái hóa yếm khí (tạo Lactat ở hồng cầu, cơ co rút mạnh):</b> Chỉ thu được thuần túy <span style=\"color:#ffd43b\"><b>2 ATP</b></span> ở mức cơ chất (Đường phân sinh 4 ATP - 2 ATP mồi = 2 ATP; 2 NADH được dùng hoàn nguyên pyruvat thành lactat).<br>2) <b>Thoái hóa hiếu khí qua con thoi Malat - Aspartat (Tim, Gan, Thận):</b> Đường phân (2 ATP + 2 NADH = 7 ATP) + Phức hợp PDH (2 NADH = 5 ATP) + 2 vòng Krebs (20 ATP) = <span style=\"color:#51cf66\"><b>Tổng cộng 32 ATP</b></span>.<br>3) <b>Thoái hóa hiếu khí qua con thoi Glycerol - 3 - phosphat (Cơ vân, Não):</b> 2 NADH đường phân chỉ tạo 2 FADH₂ (3 ATP) → <span style=\"color:#51cf66\"><b>Tổng cộng 30 ATP</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sự chuyển dịch từ 30-32 ATP hiếu khí sang 2 ATP yếm khí khi thiếu oxy mô giải thích tại sao thiếu máu cục bộ gây cạn kiệt ATP và phù tế bào chớp nhoáng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS02-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận chẩn đoán phân tầng bệnh nhân nghi ngờ <span style=\"color:#ff6b6b\"><b>bệnh lý chuỗi hô hấp ty thể</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Sàng lọc ban đầu:</b> Xuất hiện tổn thương đa cơ quan tiêu thụ nhiều năng lượng (não, tim, cơ) đi kèm <span style=\"color:#ff6b6b\"><b>nồng độ Lactat và Pyruvat máu/DNT tăng cao kéo dài</b></span> (tỷ lệ L/P &gt; 20).<br>2) <b>Bước 2 — Đo điện cơ (EMG) và Chẩn đoán hình ảnh não (MRI):</b> Tổn thương chất trắng, nhồi máu não không theo phân bố mạch máu (Stroke-like lesions ở thùy thái dương - chẩm).<br>3) <b>Bước 3 — Sinh thiết cơ và Xét nghiệm di truyền phân tử:</b> Nhuộm Gomori trichrome tìm <span style=\"color:#74c0fc\"><b>Ragged-red fibers</b></span>; giải trình tự gen mtDNA tìm đột biến điểm <span style=\"color:#51cf66\"><b>m.3243A&gt;G (MELAS)</b></span> hoặc m.8344A&gt;G (MERRF).<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhân có biểu hiện đột quỵ tái diễn ở người trẻ tuổi mà không có yếu tố nguy cơ tim mạch kèm toan lactic máu cần nghĩ ngay đến bệnh ty thể MELAS.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, PGS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 2: Năng lượng sinh học.",
+      "tags": [
+        "HS02",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}

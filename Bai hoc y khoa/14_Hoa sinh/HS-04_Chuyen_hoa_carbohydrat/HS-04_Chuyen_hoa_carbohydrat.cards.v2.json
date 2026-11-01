@@ -1,0 +1,223 @@
+{
+  "deck_id": 1401004001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-04 Chuyển hóa carbohydrat và điều hòa đường huyết",
+  "card_count": 12,
+  "cards": [
+    {
+      "id": "HS04-B1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1",
+      "category": "Vận chuyển glucose",
+      "tier": 1,
+      "front": "So sánh vị trí phân bố mô, đặc tính phụ thuộc insulin và vai trò sinh lý của các protein vận chuyển glucose <span style=\"color:#74c0fc\"><b>GLUT-1</b></span>, <span style=\"color:#ffd43b\"><b>GLUT-2</b></span>, <span style=\"color:#51cf66\"><b>GLUT-4</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>GLUT-1 (Phân bố rộng, màng hồng cầu và hàng rào máu não):</b> Có ái lực cao với glucose (Km thấp), đảm bảo cung cấp glucose nền liên tục cho não và hồng cầu, <span style=\"color:#ffd43b\"><b>hoàn toàn không phụ thuộc insulin</b></span>.<br>2) <b>GLUT-2 (Tế bào gan, tế bào beta tụy, ruột non, thận):</b> Có <span style=\"color:#ffd43b\"><b>Km rất cao (~ 15 – 20 mmol/L)</b></span>, hoạt động như một cảm biến glucose; đưa glucose vào gan khi đường huyết tăng cao sau ăn và kích hoạt tụy tiết insulin, <span style=\"color:#ffd43b\"><b>không phụ thuộc insulin</b></span>.<br>3) <b>GLUT-4 (Cơ vân, cơ tim và mô mỡ):</b> Là chất vận chuyển <span style=\"color:#51cf66\"><b>DUY NHẤT PHỤ THUỘC TUYỆT ĐỐI VÀO INSULIN</b></span>. Khi nồng độ insulin tăng, các bóng nội bào chứa GLUT-4 hòa màng ra bề mặt tế bào để bắt giữ glucose máu, hạ đường huyết nhanh chóng.<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân đái tháo đường typ 2 đề kháng insulin, sự di chuyển hòa màng của GLUT-4 bị suy giảm trầm trọng, khiến glucose không thể đi vào cơ và mô mỡ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Vận-chuyển-glucose"
+      ]
+    },
+    {
+      "id": "HS04-B2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Đường phân",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>3 phản ứng một chiều không thuận nghịch</b></span> của con đường Đường phân (Glycolysis) và enzym xúc tác tương ứng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng 1 (Phosphoryl hóa glucose):</b> Glucose + ATP → Glucose-6-phosphat (G6P) + ADP; xúc tác bởi <span style=\"color:#74c0fc\"><b>Hexokinase</b></span> (ở các mô) hoặc <span style=\"color:#74c0fc\"><b>Glucokinase</b></span> (ở gan và tụy).<br>2) <b>Phản ứng 2 (Chặng cam kết giới hạn tốc độ số 1):</b> Fructose-6-phosphat (F6P) + ATP → Fructose-1,6-bisphosphat (F1,6-BP) + ADP; xúc tác bởi <span style=\"color:#ff6b6b\"><b>Phosphofructokinase-1 (PFK-1)</b></span>.<br>3) <b>Phản ứng 3 (Tạo pyruvat và ATP mức cơ chất):</b> Phosphoenolpyruvat (PEP) + ADP → Pyruvat + ATP; xúc tác bởi <span style=\"color:#51cf66\"><b>Pyruvat kinase (PK)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba phản ứng này có biến thiên năng lượng tự do âm rất lớn (ΔG ≪ 0), quyết định tính một chiều của đường phân và là đích điều hòa chính của hormon.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Đường-phân"
+      ]
+    },
+    {
+      "id": "HS04-B2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2",
+      "category": "Đường phân",
+      "tier": 1,
+      "front": "Giải thích vai trò của <span style=\"color:#74c0fc\"><b>Fructose-2,6-bisphosphat (F2,6-BP)</b></span> trong điều hòa dị lập thể enzym <span style=\"color:#ff6b6b\"><b>PFK-1</b></span> và sự đối kháng giữa Insulin và Glucagon.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chất hoạt hóa dị lập thể mạnh nhất:</b> F2,6-BP là phân tử tín hiệu hoạt hóa dị lập thể mạnh nhất của enzym <span style=\"color:#ff6b6b\"><b>PFK-1</b></span> (kích hoạt đường phân) và đồng thời là chất ức chế dị lập thể của enzym <span style=\"color:#74c0fc\"><b>FBPase-1</b></span> (ngăn chặn tân tạo đường).<br>2) <b>Tác động của Insulin (Trạng thái no):</b> Kích hoạt PFK-2 tổng hợp nồng độ cao F2,6-BP → kích thích PFK-1 tối đa → <span style=\"color:#51cf66\"><b>thúc đẩy đường phân thoái hóa glucose</b></span>.<br>3) <b>Tác động của Glucagon (Trạng thái đói):</b> Qua tín hiệu cAMP/PKA làm phosphoryl hóa bất hoạt PFK-2 và hoạt hóa FBPase-2 làm cạn kiệt F2,6-BP → ức chế đường phân, <span style=\"color:#ffd43b\"><b>thúc đẩy tân tạo đường giải phóng glucose vào máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sự chuyển đổi tinh vi này ngăn cản chu trình vô ích (futile cycle) diễn ra đồng thời giữa đường phân và tân tạo đường tại gan.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Đường-phân"
+      ]
+    },
+    {
+      "id": "HS04-B3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3",
+      "category": "Đường phân yếm khí",
+      "tier": 1,
+      "front": "Trình bày phản ứng chuyển hóa pyruvat trong <span style=\"color:#ff6b6b\"><b>điều kiện yếm khí</b></span>, vai trò của <span style=\"color:#74c0fc\"><b>Lactat dehydrogenase (LDH)</b></span> và ý nghĩa của <span style=\"color:#51cf66\"><b>Chu trình Cori</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng tạo Lactat:</b> Pyruvat + NADH + H⁺ ⇌ L-Lactat + NAD⁺; xúc tác bởi enzym <span style=\"color:#74c0fc\"><b>Lactat dehydrogenase (LDH)</b></span>.<br>2) <b>Ý nghĩa sinh học cốt tử:</b> Mục đích chính của phản ứng KHÔNG PHẢI để tạo lactat, mà là để <span style=\"color:#ffd43b\"><b>tái tạo phân tử NAD⁺ tự do</b></span> cho bào tương; nếu thiếu NAD⁺, bước oxy hóa GAPDH trong đường phân sẽ ngừng trệ lập tức và tế bào cạn kiệt ATP.<br>3) <b>Chu trình Cori (Gan - Cơ):</b> Lactat sinh ra từ cơ co rút mạnh hoặc hồng cầu theo máu về gan; tại gan, enzym LDH chuyển lactat thành pyruvat để <span style=\"color:#51cf66\"><b>tân tạo lại Glucose</b></span>, sau đó đưa glucose trở lại cơ.<br><br><b>💡 Giải thích của AI:</b><br>Hồng cầu người không có ty thể nên 100% năng lượng phụ thuộc hoàn toàn vào đường phân yếm khí tạo lactat.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Đường-phân-yếm-khí"
+      ]
+    },
+    {
+      "id": "HS04-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Chu trình Pentose",
+      "tier": 1,
+      "front": "Nêu 2 sản phẩm sinh học cốt lõi của <span style=\"color:#74c0fc\"><b>Chu trình Pentose Phosphat (HMP Shunt)</b></span> và cơ chế bệnh sinh của <span style=\"color:#ff6b6b\"><b>thiếu hụt enzym G6PD</b></span> gây tan máu cấp tính.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>2 sản phẩm cốt lõi:</b> 1) <span style=\"color:#51cf66\"><b>NADPH</b></span> (cung cấp lực khử cho tổng hợp acid béo, steroid và hoàn nguyên glutathion GSH); 2) <span style=\"color:#74c0fc\"><b>Ribose-5-phosphat</b></span> (nguyên liệu tổng hợp nucleotide của DNA và RNA).<br>2) <b>Sinh bệnh học khi thiếu G6PD:</b> G6PD xúc tác bước đầu tiên tạo NADPH. Thiếu G6PD khiến hồng cầu không đủ NADPH để enzym Glutathion reductase duy trì <span style=\"color:#51cf66\"><b>Glutathion dạng khử (GSH)</b></span>. Khi tiếp xúc chất oxy hóa (thuốc chống sốt rét Primaquin, kháng sinh Sulfamid, đậu tằm Fava bean), các gốc tự do ROS phá hủy màng hồng cầu gây <span style=\"color:#ff6b6b\"><b>tan máu nội mạch cấp tính (thiếu máu, vàng da, tiểu huyết sắc tố)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Gen G6PD nằm trên nhiễm sắc thể X, do đó bệnh thiếu hụt G6PD di truyền lặn liên kết NST X và biểu hiện lâm sàng chủ yếu ở nam giới.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Chu-trình-Pentose"
+      ]
+    },
+    {
+      "id": "HS04-B5-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5",
+      "category": "Tân tạo đường",
+      "tier": 1,
+      "front": "Kể tên <span style=\"color:#74c0fc\"><b>4 enzym đặc hiệu</b></span> của con đường Tân tạo đường giúp vượt qua 3 chướng ngại vật một chiều của đường phân và nêu các nguồn cơ chất chính.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>4 enzym đặc hiệu vượt chướng ngại vật:</b><br>1) <span style=\"color:#74c0fc\"><b>Pyruvat carboxylase</b></span> (trong ty thể, cần Biotin và ATP) chuyển pyruvat thành oxaloacetat.<br>2) <span style=\"color:#74c0fc\"><b>Phosphoenolpyruvat carboxykinase (PEPCK)</b></span> chuyển oxaloacetat thành PEP.<br>3) <span style=\"color:#ffd43b\"><b>Fructose-1,6-bisphosphatase (FBPase-1)</b></span> thủy phân F1,6-BP thành F6P.<br>4) <span style=\"color:#51cf66\"><b>Glucose-6-phosphatase (G6Pase)</b></span> tại lưới nội sinh chất gan và thận thủy phân G6P thành Glucose tự do giải phóng vào máu.<br>2) <b>Các nguồn cơ chất chính:</b> <span style=\"color:#51cf66\"><b>Lactat</b></span> (từ cơ và hồng cầu qua chu trình Cori), <span style=\"color:#ffd43b\"><b>Glycerol</b></span> (từ thủy phân triglycerid mô mỡ), và <span style=\"color:#74c0fc\"><b>Acid amin sinh đường (đặc biệt là Alanin</b></span> qua chu trình Glucose - Alanin).<br><br><b>💡 Giải thích của AI:</b><br>Cơ vân hoàn toàn KHÔNG THỂ tân tạo đường giải phóng glucose vào máu vì tế bào cơ thiếu enzym Glucose-6-phosphatase.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Tân-tạo-đường"
+      ]
+    },
+    {
+      "id": "HS04-B6-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6",
+      "category": "Chuyển hóa Glycogen",
+      "tier": 1,
+      "front": "Phân tích cơ chế bệnh sinh phân tử và triệu chứng lâm sàng của <span style=\"color:#ff6b6b\"><b>Bệnh ứ đọng Glycogen Typ I (Bệnh von Gierke)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất di truyền:</b> Di truyền lặn trên nhiễm sắc thể thường do thiếu hụt enzym <span style=\"color:#ff6b6b\"><b>Glucose-6-phosphatase (G6Pase)</b></span> ở gan và vỏ thận.<br>2) <b>Rối loạn enzym:</b> Gan không thể giải phóng glucose tự do vào máu từ cả con đường thoái hóa glycogen lẫn tân tạo đường, khiến G6P ứ đọng ồ ạt trong tế bào gan.<br>3) <b>Hội chứng kinh điển:</b><br>- <span style=\"color:#ff6b6b\"><b>Hạ đường huyết trầm trọng khi đói</b></span> (co giật, hôn mê sau vài giờ nhịn ăn).<br>- <span style=\"color:#ffd43b\"><b>Gan to lớn phì đại bự chảng</b></span> do ứ đọng glycogen cấu trúc bình thường và mỡ hóa.<br>- <span style=\"color:#ff6b6b\"><b>Toan lactic máu nặng</b></span> (do G6P tràn vào đường phân tạo lactat).<br>- <span style=\"color:#ffd43b\"><b>Tăng acid uric máu (Gout thứ phát)</b></span> và tăng lipid máu rõ rệt.<br><br><b>💡 Giải thích của AI:</b><br>Điều trị nền tảng của bệnh von Gierke là cho trẻ ăn bột bắp sống (cornstarch) cách đều nhau ngày và đêm để giải phóng glucose chậm duy trì đường huyết.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Chuyển-hóa-Glycogen"
+      ]
+    },
+    {
+      "id": "HS04-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · CHUYỂN HÓA CARBOHYDRAT",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Điều hòa đường huyết",
+      "tier": 1,
+      "front": "Trình bày tác dụng chuyển hóa của hormon <span style=\"color:#51cf66\"><b>Insulin</b></span> lên các mô đích (gan, cơ, mỡ) và tiêu chuẩn cận lâm sàng xác định <span style=\"color:#ff6b6b\"><b>Đái tháo đường</b></span> theo ADA.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tác dụng hạ đường huyết của Insulin:</b> Kích hoạt chuyển bóng GLUT-4 lên màng tế bào cơ và mô mỡ; hoạt hóa Glycogen synthase tăng tổng hợp glycogen ở gan và cơ; ức chế enzym glycogen phosphorylase; ức chế tân tạo đường; tăng tổng hợp acid béo và triglycerid.<br>2) <b>Tiêu chuẩn chẩn đoán Đái tháo đường (ADA/WHO - cần ít nhất 1 trong 4 tiêu chuẩn):</b><br>1) <span style=\"color:#ff6b6b\"><b>Glucose huyết tương lúc đói (FPG) ≥ 7,0 mmol/L (≥ 126 mg/dL)</b></span> (nhịn ăn ≥ 8 giờ).<br>2) <span style=\"color:#ff6b6b\"><b>Glucose huyết tương 2 giờ sau nghiệm pháp dung nạp 75 g glucose (OGTT) ≥ 11,1 mmol/L (≥ 200 mg/dL)</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>HbA1c ≥ 6,5% (≥ 48 mmol/mol)</b></span> (chuẩn hóa quốc tế NGSP).<br>4) Bệnh nhân có triệu chứng kinh điển (tiểu nhiều, uống nhiều, sụt cân) + <span style=\"color:#ff6b6b\"><b>Glucose huyết tương ngẫu nhiên ≥ 11,1 mmol/L</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>HbA1c phản ánh nồng độ đường huyết trung bình trong vòng 2 – 3 tháng trước đó (tương đương đời sống trung bình 120 ngày của hồng cầu).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Điều-hòa-đường-huyết"
+      ]
+    },
+    {
+      "id": "HS04-ALGO-01",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân tầng chẩn đoán và xử trí cấp cứu <span style=\"color:#ff6b6b\"><b>Hạ đường huyết (Hypoglycemia)</b></span> trên lâm sàng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Xác định Tam chứng Whipple:</b> 1) Triệu chứng lâm sàng hạ đường huyết (vã mồ hôi, run tay, nhịp tim nhanh, lú lẫn); 2) Nồng độ <span style=\"color:#ff6b6b\"><b>Glucose máu &lt; 3,9 mmol/L (&lt; 70 mg/dL)</b></span>; 3) Triệu chứng thoái lui ngay khi được bổ sung glucose.<br>2) <b>Bước 2 — Xử trí cấp cứu theo quy tắc 15-15:</b> Nếu tỉnh táo: uống ngay <span style=\"color:#51cf66\"><b>15 g carbohydrat nhanh</b></span> (1/2 lon nước ngọt hoặc 3 thìa đường), đo lại đường huyết sau 15 phút. Nếu hôn mê/không nuốt được: tiêm tĩnh mạch ngay <span style=\"color:#51cf66\"><b>Glucose ưu trương (20 – 50 ml Glucose 20 – 30%)</b></span> hoặc tiêm bắp Glucagon 1 mg.<br>3) <b>Bước 3 — Biện giải căn nguyên:</b> Định lượng đồng thời Insulin và C-peptid: nếu cả Insulin và C-peptid đều tăng cao → Định hướng <span style=\"color:#ffd43b\"><b>U tụy tiết insulin (Insulinoma)</b></span> hoặc ngộ độc Sulfonylurea; nếu Insulin cao mà C-peptid thấp → Do tiêm Insulin ngoại sinh.<br><br><b>💡 Giải thích của AI:</b><br>C-peptid được bài tiết đồng lượng (1:1) với insulin nội sinh từ tiền chất proinsulin nhưng không có trong các chế phẩm insulin thương mại.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS04-ALGO-02",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ chẩn đoán phân biệt 3 thể bệnh <span style=\"color:#ff6b6b\"><b>ứ đọng Glycogen (GSD)</b></span> thường gặp nhất.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhánh 1 — Gan to lớn + Hạ đường huyết đói trầm trọng + Toan lactic cao:</b> Khẳng định ngay <span style=\"color:#ff6b6b\"><b>GSD Typ I (Bệnh von Gierke)</b></span> do thiếu enzym Glucose-6-phosphatase.<br>2) <b>Nhánh 2 — Bệnh cơ tim phì đại nặng tử vong sớm ở nhũ nhi + Tim to hình cầu, gan to, cơ yếu:</b> Khẳng định ngay <span style=\"color:#ff6b6b\"><b>GSD Typ II (Bệnh Pompe)</b></span> do thiếu enzym tiêu thể alpha-1,4-glucosidase.<br>3) <b>Nhánh 3 — Hạ đường huyết KHÔNG xảy ra, chỉ đau mỏi chuột rút và tiểu myoglobin khi gắng sức nặng:</b> Khẳng định ngay <span style=\"color:#ffd43b\"><b>GSD Typ V (Bệnh McArdle)</b></span> do thiếu hụt enzym Glycogen phosphorylase ở cơ vân.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ nhanh: Type I (von Gierke) = Gan to, hạ đường; Type II (Pompe) = Phì đại tim; Type V (McArdle) = Mỏi cơ gắng sức.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS04-ALGO-03",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận chẩn đoán phân biệt <span style=\"color:#ff6b6b\"><b>thiếu hụt enzym G6PD</b></span> ở bệnh nhân nam vào viện vì thiếu máu tan máu cấp.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Tìm yếu tố khởi kích (Trigger):</b> Khởi phát vàng da, nước tiểu màu xá xị sau khi uống thuốc oxy hóa (Primaquin, Cotrimoxazole, Dapsone) hoặc ăn đậu tằm (Fava beans) hoặc đang nhiễm trùng cấp.<br>2) <b>Bước 2 — Soi lam máu ngoại vi tìm dấu hiệu đặc trưng:</b> Thấy xuất hiện thể <span style=\"color:#ff6b6b\"><b>Heinz bodies</b></span> (các khối hemoglobin kết tủa biến tính) và các <span style=\"color:#74c0fc\"><b>tế bào hình vết cắn (Bite cells / Degmacytes)</b></span> do đại thực bào lách cắt bỏ thể Heinz.<br>3) <b>Bước 3 — Đo hoạt độ enzym G6PD trong hồng cầu:</b> Cần lưu ý đo <span style=\"color:#ffd43b\"><b>sau khi cơn tan máu cấp đã ổn định 2 – 3 tháng</b></span> (vì trong cơn cấp các hồng cầu già thiếu G6PD đã vỡ hết, các hồng cầu lưới mới sinh có mức enzym bình thường dễ gây âm tính giả).<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhân thiếu G6PD bắt buộc phải được cấp thẻ cảnh báo dị ứng thuốc mang theo người để tránh các nhóm thuốc oxy hóa.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS04-ALGO-04",
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ các phản ứng vượt chướng ngại vật một chiều trong <span style=\"color:#51cf66\"><b>Tân tạo đường (Gluconeogenesis)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chướng ngại vật 1 (Khắc phục Pyruvat kinase):</b> Pyruvat đi vào ty thể nhờ <span style=\"color:#74c0fc\"><b>Pyruvat carboxylase (Biotin, ATP)</b></span> tạo Oxaloacetat; Oxaloacetat chuyển thành Malat ra bào tương rồi biến thành Oxaloacetat; enzym <span style=\"color:#74c0fc\"><b>PEPCK (GTP)</b></span> khử carboxyl biến oxaloacetat thành Phosphoenolpyruvat (PEP).<br>2) <b>Chướng ngại vật 2 (Khắc phục PFK-1):</b> Fructose-1,6-bisphosphat nhờ enzym <span style=\"color:#ffd43b\"><b>Fructose-1,6-bisphosphatase (FBPase-1)</b></span> thủy phân giải phóng phosphat vô cơ (Pi) tạo Fructose-6-phosphat (F6P) mà không cần ADP.<br>3) <b>Chướng ngại vật 3 (Khắc phục Hexokinase):</b> Glucose-6-phosphat nhờ enzym <span style=\"color:#51cf66\"><b>Glucose-6-phosphatase</b></span> trong lòng mạng nội sinh chất gan thủy phân giải phóng <span style=\"color:#51cf66\"><b>D-glucose tự do</b></span> vào máu.<br><br><b>💡 Giải thích của AI:</b><br>Để tổng hợp 1 phân tử Glucose từ 2 phân tử Pyruvat, tế bào phải tiêu tốn tới 4 ATP + 2 GTP + 2 NADH.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. Tạ Thành Văn chủ biên, ThS. Trần Khánh Chi, PGS. Đặng Thị Ngọc Dụng tác giả), NXB Y học, Chương 4: Chuyển hóa carbohydrat.",
+      "tags": [
+        "HS04",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}
