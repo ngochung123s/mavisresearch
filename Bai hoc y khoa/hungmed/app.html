@@ -450,13 +450,16 @@
   <aside id="sidebar" class="w-[288px] border-r border-[var(--border)] bg-[var(--surface)] flex flex-col shrink-0 z-20 transition-all duration-150">
     <!-- 1. Header Sidebar: Logo HungMed / Đỗ Văn Ngọc Hưng -->
     <div class="h-12 px-3 border-b border-[var(--border)] flex items-center justify-between shrink-0 bg-[var(--surface)]">
-      <div class="flex items-center gap-2 min-w-0">
-        <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
+      <button onclick="showHomeView()" class="flex items-center gap-2 min-w-0 text-left hover:opacity-80 transition group" title="Về trang chủ HungMed">
+        <svg class="w-4 h-4 text-[var(--accent)] shrink-0 group-hover:scale-110 transition-transform" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
         <div class="truncate">
           <span class="font-bold text-sm tracking-tight text-[var(--text)]">HungMed</span>
           <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">Đỗ Văn Ngọc Hưng</span>
         </div>
-      </div>
+      </button>
+      <button onclick="showHomeView()" class="p-1 px-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] text-xs flex items-center gap-1 transition" title="Trang chủ">
+        <span>🏠</span>
+      </button>
     </div>
 
     <!-- 2. Bộ chọn môn học / chuyên khoa (Dropdown Selector mở rộng không giới hạn) -->
@@ -543,6 +546,10 @@
         <button id="sidebarToggleBtn" onclick="toggleSidebar()" aria-label="Đóng/mở danh sách bài" class="p-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
         </button>
+        <button id="homeTopBarBtn" onclick="showHomeView()" aria-label="Trang chủ HungMed" class="p-1.5 px-2 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] transition flex items-center gap-1.5 text-xs font-semibold shrink-0" title="Về trang chủ khởi đầu">
+          <svg class="w-4 h-4 text-[var(--accent)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span class="hidden sm:inline">Trang chủ</span>
+        </button>
         <div id="collapsedBrand" class="hidden items-center gap-1.5 font-bold text-xs text-[var(--text)] shrink-0">
           <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
           <span>HungMed</span>
@@ -560,7 +567,13 @@
           <button id="btn-view-split" onclick="setViewMode('split')" class="px-2.5 py-1 rounded text-xs font-medium transition text-[var(--text-muted)] hover:text-[var(--text)]">Song song</button>
         </div>
 
-        <!-- 2. Mục lục ▾ (chỉ hiện khi không có cột mục lục bên phải) -->
+        <!-- Nút Ẩn/Hiện Mục lục Desktop (Tùy chọn ẩn mục lục) -->
+        <button onclick="toggleDesktopToc()" id="toggleDesktopTocBtn" class="px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] flex items-center gap-1.5 font-medium transition text-xs" title="Ẩn/Hiện mục lục bài đọc (Phím T)">
+          <svg class="w-3.5 h-3.5 text-[var(--text-muted)]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h14"/><circle cx="19" cy="12" r="2"/></svg>
+          <span id="toggleDesktopTocText">Mục lục</span>
+        </button>
+
+        <!-- 2. Mục lục ▾ (dropdown dự phòng khi mục lục dính bị ẩn) -->
         <div class="relative">
           <button onclick="toggleTocDropdown()" id="tocDropdownBtn" class="px-2 py-1 rounded border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:text-[var(--text)] flex items-center gap-1 font-medium transition" aria-label="Mục lục bài đọc">
             <span>Mục lục ▾</span>
@@ -632,8 +645,12 @@
 
     <!-- VÙNG CUỘN ĐỌC BÀI GIẢNG -->
     <div id="scrollViewport" class="flex-1 overflow-y-auto p-4 sm:p-8 lg:p-10 relative">
-      <div id="readingWorkspaceWrap" class="max-w-[1040px] mx-auto flex items-start justify-center gap-8">
+      <!-- 0. TRANG KHỞI ĐẦU / TRANG CHỦ -->
+      <div id="homeViewWrap" class="max-w-[1040px] mx-auto pb-24 hidden">
+        <div id="homeViewContent"></div>
+      </div>
 
+      <div id="readingWorkspaceWrap" class="max-w-[1040px] mx-auto flex items-start justify-center gap-8">
         <!-- Cột bài đọc (max 62ch) -->
         <div id="articleContainer" class="w-full max-w-[62ch] min-w-0 pb-28">
 
@@ -700,11 +717,13 @@
         </div>
 
         <!-- CỘT MỤC LỤC DÍNH BÊN PHẢI (STICKY KHI MÀN HÌNH ĐỦ RỘNG) -->
-        <aside id="stickyRightToc" class="hidden xl:block w-[210px] shrink-0 sticky top-2 max-h-[calc(100vh-80px)] overflow-y-auto pl-4 border-l border-[var(--border)] text-xs space-y-1">
-          <div class="text-[11px] font-bold text-[var(--text-muted)] uppercase tracking-wider mb-2">Trong bài này</div>
+        <aside id="stickyRightToc" class="hidden xl:block w-[210px] shrink-0 sticky top-2 max-h-[calc(100vh-80px)] overflow-y-auto pl-4 border-l border-[var(--border)] text-xs space-y-1 transition-all duration-150">
+          <div class="flex items-center justify-between text-[11px] font-bold text-[var(--text-muted)] uppercase tracking-wider mb-2">
+            <span>Trong bài này</span>
+            <button onclick="toggleDesktopToc(true)" class="p-0.5 px-1.5 rounded hover:bg-[var(--surface-2)] text-[var(--text-muted)] hover:text-[var(--text)] text-[10px] font-normal transition" title="Ẩn mục lục (Phím T)">Ẩn ✕</button>
+          </div>
           <div id="stickyTocList" class="space-y-0.5"></div>
         </aside>
-
       </div>
     </div>
 
@@ -718,7 +737,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261101_212648"></script>
+<script src="data.js?v=20261101_214418"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -812,6 +831,44 @@
     };
   }
 
+  let isHomeView = false;
+  let isDesktopTocHidden = localStorage.getItem('hungmed_hide_toc') === 'true';
+
+  function applyDesktopTocVisibility() {
+    const aside = document.getElementById('stickyRightToc');
+    const btn = document.getElementById('toggleDesktopTocBtn');
+    const btnText = document.getElementById('toggleDesktopTocText');
+    const dropdownWrap = document.getElementById('tocDropdownBtn')?.parentElement;
+    if (!aside) return;
+
+    if (isDesktopTocHidden) {
+      aside.classList.add('!hidden');
+      if (btn) {
+        btn.classList.add('text-[var(--text-muted)]');
+        btn.classList.remove('text-[var(--accent)]');
+      }
+      if (btnText) btnText.textContent = 'Hiện mục lục';
+      if (dropdownWrap) dropdownWrap.classList.remove('xl:hidden');
+    } else {
+      aside.classList.remove('!hidden');
+      if (btn) {
+        btn.classList.add('text-[var(--accent)]');
+      }
+      if (btnText) btnText.textContent = 'Mục lục';
+      if (dropdownWrap) dropdownWrap.classList.add('xl:hidden');
+    }
+  }
+
+  function toggleDesktopToc(forceState) {
+    if (typeof forceState === 'boolean') {
+      isDesktopTocHidden = forceState;
+    } else {
+      isDesktopTocHidden = !isDesktopTocHidden;
+    }
+    try { localStorage.setItem('hungmed_hide_toc', String(isDesktopTocHidden)); } catch(e) {}
+    applyDesktopTocVisibility();
+  }
+
   function initApp() {
     // Rule 5.12: Parse URL params
     const urlParams = new URLSearchParams(window.location.search);
@@ -830,7 +887,14 @@
     else if (xemParam === 'pedytb' || xemParam === 'ytb') currentViewMode = 'pedytb';
     else if (xemParam === 'ped') currentViewMode = 'ped';
 
-    updateSpecialtyView(baiParam);
+    applyDesktopTocVisibility();
+
+    if (baiParam) {
+      updateSpecialtyView(baiParam);
+    } else {
+      updateSpecialtyView(null);
+      showHomeView();
+    }
 
     if (window.location.hash) {
       setTimeout(() => {
@@ -906,11 +970,19 @@
   });
 
   function switchSpecialty(spec) {
-    if (currentSpecialty === spec) return;
+    if (currentSpecialty === spec && !isHomeView) return;
     currentSpecialty = spec;
     try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
     document.getElementById('searchInput').value = '';
-    updateSpecialtyView();
+    if (isHomeView) {
+      updateSpecialtyView(null);
+      renderHomeView();
+    } else {
+      updateSpecialtyView();
+      const data = getUnifiedData();
+      const pool = data[spec] || [];
+      if (pool.length > 0) selectLesson(pool[0].id);
+    }
   }
 
   function updateSpecialtyView(preferLessonId) {
@@ -932,7 +1004,7 @@
     if (curCount) curCount.textContent = `${pool.length} ${meta.unit}`;
 
     if (isPed) {
-      if (pedSelector) { pedSelector.classList.remove('hidden'); pedSelector.classList.add('flex'); }
+      if (pedSelector && !isHomeView) { pedSelector.classList.remove('hidden'); pedSelector.classList.add('flex'); }
       document.getElementById('sidebarTotalLabel').textContent = `${pool.length} bài · Nhi khoa`;
     } else {
       if (pedSelector) { pedSelector.classList.add('hidden'); pedSelector.classList.remove('flex'); }
@@ -941,22 +1013,155 @@
 
     renderSidebarList(pool);
 
-    let defLesson = null;
     if (preferLessonId) {
-      defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
+      let defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
+      if (!defLesson) {
+        if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
+        else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+        else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
+        else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
+        else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
+        else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
+      }
+      if (defLesson) {
+        selectLesson(defLesson.id);
+      }
     }
-    if (!defLesson) {
-      if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
-      else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
-      else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
-      else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
-      else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
-      else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
-    }
+  }
 
-    if (defLesson) {
-      selectLesson(defLesson.id);
-    }
+  function showHomeView() {
+    isHomeView = true;
+    currentLesson = null;
+
+    document.querySelectorAll('#lessonsList .lesson-row').forEach(row => {
+      row.removeAttribute('aria-current');
+    });
+
+    const homeWrap = document.getElementById('homeViewWrap');
+    const workspaceWrap = document.getElementById('readingWorkspaceWrap');
+    if (homeWrap) homeWrap.classList.remove('hidden');
+    if (workspaceWrap) workspaceWrap.classList.add('hidden');
+
+    document.getElementById('breadcrumbText').innerHTML = '<span class="font-bold text-[var(--text)] flex items-center gap-1.5"><span>🏠 Trang chủ</span><span class="text-[var(--text-muted)] font-normal text-[11px]">· HungMed</span></span>';
+    document.getElementById('pedViewModesWrap')?.classList.add('hidden');
+    document.getElementById('copyBtn')?.classList.add('hidden');
+    document.getElementById('toggleDesktopTocBtn')?.classList.add('hidden');
+    document.getElementById('tocDropdownBtn')?.parentElement?.classList.add('hidden');
+
+    renderHomeView();
+    document.getElementById('scrollViewport').scrollTop = 0;
+
+    const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
+    history.replaceState(null, '', `?k=${kVal}`);
+  }
+
+  function openSpecialtyFromHome(spec) {
+    currentSpecialty = spec;
+    try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
+    const data = getUnifiedData();
+    const pool = data[spec] || [];
+    updateSpecialtyView(pool.length > 0 ? pool[0].id : null);
+  }
+
+  function renderHomeView() {
+    const container = document.getElementById('homeViewContent');
+    if (!container) return;
+    const data = getUnifiedData();
+    const specialties = ['ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+
+    const specialtyCardsHtml = specialties.map(s => {
+      const meta = SPECIALTY_META[s];
+      if (!meta) return '';
+      const pool = data[s] || [];
+      return `
+        <div onclick="openSpecialtyFromHome('${s}')" class="p-5 rounded-2xl bg-[var(--surface)] border border-[var(--border)] hover:border-[var(--accent)] hover:shadow-xl hover:-translate-y-0.5 transition-all cursor-pointer group flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-3xl p-2 rounded-xl bg-[var(--surface-2)]">${meta.icon}</span>
+              <span class="font-mono text-xs font-semibold px-2.5 py-0.5 rounded-full bg-[var(--surface-2)] border border-[var(--border)] text-[var(--accent)]">${pool.length} ${meta.unit}</span>
+            </div>
+            <h3 class="text-base font-bold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors mb-1.5 flex items-center gap-1.5">
+              <span>${meta.name}</span>
+            </h3>
+            <p class="text-xs text-[var(--text-muted)] leading-relaxed mb-4">${meta.desc}</p>
+          </div>
+          <div class="pt-3 border-t border-[var(--border)] flex items-center justify-between text-xs font-semibold text-[var(--accent)]">
+            <span>Bắt đầu học</span>
+            <span class="group-hover:translate-x-1 transition-transform">→</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    const featuredTopics = [
+      { id: 'PED-46', spec: 'ped', icon: '🩺', title: 'Tiếp cận gan to ở trẻ em (Hepatomegaly)', tag: 'Nhi khoa' },
+      { id: 'OB-01', spec: 'san', icon: '🤰', title: 'Lạc nội mạc tử cung & U dạng lạc nội mạc buồng trứng', tag: 'Sản phụ khoa' },
+      { id: 'OB-08', spec: 'san', icon: '🤰', title: 'Đái tháo đường thai kỳ (GDM) — Sàng lọc & Quản lý', tag: 'Sản phụ khoa' },
+      { id: 'ART-14', spec: 'art', icon: '🧬', title: 'Các phác đồ kích trứng hiện đại trong ART (ESHRE 2025)', tag: 'Hỗ trợ sinh sản' },
+      { id: 'ART-21', spec: 'art', icon: '🧬', title: 'Quá kích buồng trứng (OHSS) — Cơ chế & Xử trí toàn diện', tag: 'Hỗ trợ sinh sản' },
+      { id: 'FUS-01', spec: 'fus', icon: '🔊', title: 'Siêu âm tim thai — Siêu chi tiết (ISUOG/ASE/AHA)', tag: 'Siêu âm thai' },
+      { id: 'FUS-42A', spec: 'fus', icon: '🔊', title: 'Song thai D1 — Xác định Chorionicity & Amnionicity', tag: 'Siêu âm thai' },
+      { id: 'HS-01', spec: 'hoasinh', icon: '🧪', title: 'Hóa sinh Carbonhydrate (ĐHYHN 2023)', tag: 'Hóa sinh YHN' },
+      { id: 'SK-01', spec: 'obgyn', icon: '📖', title: 'Khung chậu nữ về phương diện sản khoa', tag: 'Giáo trình YTB' },
+    ];
+
+    const featuredHtml = featuredTopics.map(f => {
+      return `
+        <div onclick="switchSpecialty('${f.spec}'); selectLesson('${f.id}');" class="p-3.5 rounded-xl bg-[var(--surface)] border border-[var(--border)] hover:border-[var(--accent)] hover:bg-[var(--surface-2)] transition cursor-pointer group flex items-start gap-3">
+          <span class="text-xl shrink-0 mt-0.5">${f.icon}</span>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-1.5 mb-1">
+              <span class="font-mono text-[10px] font-bold px-1.5 py-0.2 rounded bg-[var(--surface-2)] text-[var(--accent)] border border-[var(--border)]">${f.id}</span>
+              <span class="text-[10px] text-[var(--text-muted)] font-medium">· ${f.tag}</span>
+            </div>
+            <div class="text-xs font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors truncate">${f.title}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    container.innerHTML = `
+      <!-- Hero -->
+      <div class="text-center py-8 sm:py-12 border-b border-[var(--border)] mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--surface-2)] border border-[var(--border)] text-xs text-[var(--text-muted)] mb-4">
+          <span class="w-2 h-2 rounded-full bg-[var(--accent)] animate-pulse"></span>
+          <span>Nền tảng Lâm sàng &amp; Giáo trình Y học Toàn diện</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--text)] tracking-tight mb-3">
+          HungMed
+        </h1>
+        <p class="text-sm sm:text-base text-[var(--text-secondary)] max-w-xl mx-auto leading-relaxed mb-6">
+          Hệ thống tra cứu lâm sàng, phác đồ điều trị và giáo trình y học chuẩn EBM &amp; Guideline quốc tế. Biên soạn &amp; tổng hợp bởi <strong class="text-[var(--text)] font-semibold">Đỗ Văn Ngọc Hưng</strong>.
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-3 text-xs text-[var(--text-muted)] font-mono">
+          <span class="px-2.5 py-1 rounded-md bg-[var(--surface)] border border-[var(--border)]">📚 ${(data.metadata?.total_all || 187)} Bài giảng &amp; Chuyên đề</span>
+          <span class="px-2.5 py-1 rounded-md bg-[var(--surface)] border border-[var(--border)]">🩺 6 Chuyên khoa</span>
+          <span class="px-2.5 py-1 rounded-md bg-[var(--surface)] border border-[var(--border)]">⚡ EBM 2024–2026</span>
+        </div>
+      </div>
+
+      <!-- Chuyên khoa Hub -->
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Chuyên khoa &amp; Giáo trình</h2>
+          <span class="text-xs text-[var(--text-muted)]">Chọn chuyên khoa để bắt đầu học</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          ${specialtyCardsHtml}
+        </div>
+      </div>
+
+      <!-- Chuyên đề nổi bật -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Chuyên đề lâm sàng nổi bật</h2>
+          <span class="text-xs text-[var(--text-muted)]">Mở nhanh bài đọc</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          ${featuredHtml}
+        </div>
+      </div>
+    `;
   }
 
   let collapsedBlocks = [];
@@ -1087,7 +1292,18 @@
     const lesson = pool.find(l => l.id === id);
     if (!lesson) return;
 
+    isHomeView = false;
     currentLesson = lesson;
+
+    // Toggle view containers
+    const homeWrap = document.getElementById('homeViewWrap');
+    const workspaceWrap = document.getElementById('readingWorkspaceWrap');
+    if (homeWrap) homeWrap.classList.add('hidden');
+    if (workspaceWrap) workspaceWrap.classList.remove('hidden');
+
+    document.getElementById('copyBtn')?.classList.remove('hidden');
+    document.getElementById('toggleDesktopTocBtn')?.classList.remove('hidden');
+    applyDesktopTocVisibility();
 
     // Sidebar active state
     document.querySelectorAll('#lessonsList .lesson-row').forEach(row => {
@@ -1099,10 +1315,16 @@
       activeRow.scrollIntoView({ block: 'nearest' });
     }
 
-    // Update Topbar Breadcrumb
-    const groupName = lesson.block || lesson.chapter || '';
-    document.getElementById('breadcrumbText').textContent = `${groupName} › ${lesson.id}`;
-
+    // Update Topbar Breadcrumb with clickable Home link
+    const meta = SPECIALTY_META[currentSpecialty] || SPECIALTY_META.ped;
+    const groupName = lesson.block || lesson.chapter || meta.name;
+    document.getElementById('breadcrumbText').innerHTML = `
+      <button onclick="showHomeView()" class="hover:text-[var(--text)] transition underline-offset-2 hover:underline">🏠 Trang chủ</button>
+      <span class="mx-1 text-[var(--border)]">›</span>
+      <span class="text-[var(--text-muted)]">${groupName}</span>
+      <span class="mx-1 text-[var(--border)]">›</span>
+      <span class="text-[var(--text)] font-semibold">${lesson.id}</span>
+    `;
     // Update Reader Header (Lead)
     document.getElementById('lessonBadgeID').textContent = lesson.id;
     document.getElementById('lessonMainTitle').textContent = lesson.title;
@@ -1249,7 +1471,13 @@
   }
 
   function updateUrlState(isNewHistoryItem = false) {
-    if (!currentLesson) return;
+    if (isHomeView || !currentLesson) {
+      const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
+      const newUrl = `?k=${kVal}`;
+      if (isNewHistoryItem) history.pushState(null, '', newUrl);
+      else history.replaceState(null, '', newUrl);
+      return;
+    }
     const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
     const xemVal = currentViewMode === 'split' ? 'song-song' : currentViewMode;
     const hashVal = window.location.hash || '';
@@ -1771,6 +1999,8 @@
         document.getElementById('tocDropdownMenu')?.classList.add('hidden');
       } else if (e.key.toLowerCase() === 'z' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
         toggleZenMode();
+      } else if (e.key.toLowerCase() === 't' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+        toggleDesktopToc();
       }
     });
   }

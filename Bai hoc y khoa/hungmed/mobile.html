@@ -422,9 +422,16 @@
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
         </button>
 
-        <div class="flex items-center gap-1.5 min-w-0">
+        <button onclick="showMobileHomeView()" aria-label="Trang chủ HungMed" class="h-11 px-1.5 rounded-lg flex items-center gap-1 text-[var(--text-muted)] hover:text-[var(--text)] active:bg-[var(--surface-2)] shrink-0 transition" title="Trang chủ">
+          <span>🏠</span>
+        </button>
+
+        <div id="headerLessonInfo" class="flex items-center gap-1.5 min-w-0">
           <span id="headerLessonID" class="font-mono text-xs font-bold px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--accent)] border border-[var(--border)] shrink-0">PED-46</span>
           <span id="headerLessonTitle" class="text-xs font-semibold text-[var(--text)] truncate">Tiếp cận gan to ở trẻ em</span>
+        </div>
+        <div id="headerHomeInfo" class="hidden font-bold text-xs text-[var(--text)] truncate">
+          <span>HungMed · Trang chủ</span>
         </div>
       </div>
 
@@ -491,9 +498,13 @@
   <!-- ================= 2. KHUNG NỘI DUNG CHÍNH ================= -->
   <main class="flex-1 overflow-hidden relative">
 
+    <!-- 0. TRANG KHỞI ĐẦU / TRANG CHỦ MOBILE -->
+    <div id="mobileHomeViewWrap" class="h-full w-full overflow-y-auto px-4 py-5 pb-24 hidden">
+      <div id="mobileHomeViewContent"></div>
+    </div>
+
     <!-- CỘT CUỘN ĐỌC BÀI GIẢNG -->
     <div id="mobileScrollViewport" class="h-full w-full overflow-y-auto px-4 py-5 select-text">
-      <div id="articleContainer" class="max-w-xl mx-auto pb-28">
 
         <!-- ĐẦU BÀI (META LINE -> H1 DUY NHẤT -> MÔ TẢ) -->
         <header id="mobileLeadHeader" class="mb-5 space-y-2">
@@ -553,14 +564,17 @@
   <div id="drawerPanel" class="drawer-panel fixed inset-y-0 left-0 w-[85%] max-w-sm bg-[var(--surface)] border-r border-[var(--border)] z-50 transform -translate-x-full transition-transform duration-200 flex flex-col shadow-2xl">
     <!-- Header ngăn kéo: Logo + Tên + Nút Desktop + Nút đóng -->
     <div class="h-12 px-3 border-b border-[var(--border)] flex items-center justify-between shrink-0">
-      <div class="flex items-center gap-2 min-w-0">
+      <button onclick="showMobileHomeView(); closeDrawer();" class="flex items-center gap-2 min-w-0 text-left hover:opacity-80 transition" title="Về trang chủ">
         <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
         <div class="truncate">
           <span class="font-bold text-sm tracking-tight text-[var(--text)]">HungMed</span>
           <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">Đỗ Văn Ngọc Hưng</span>
         </div>
-      </div>
+      </button>
       <div class="flex items-center gap-1">
+        <button onclick="showMobileHomeView(); closeDrawer();" class="p-1.5 rounded hover:bg-[var(--surface-2)] text-xs text-[var(--text-muted)] hover:text-[var(--text)]" title="Trang chủ">
+          <span>🏠</span>
+        </button>
         <a href="app.html" onclick="localStorage.setItem('ped_viewer_target','desktop')" class="px-2 py-1 rounded border border-[var(--border)] bg-[var(--surface-2)] text-[var(--accent)] font-semibold text-xs flex items-center gap-1" title="Bản Desktop">
           <span>💻 Desktop</span>
         </a>
@@ -639,7 +653,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261101_212648"></script>
+  <script src="data.js?v=20261101_214418"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -730,7 +744,12 @@
       if (xemParam === 'pedytb' || xemParam === 'ytb') mobileSource = 'pedytb';
       else if (xemParam === 'ped') mobileSource = 'ped';
 
-      updateMobileSpecialtyView(baiParam);
+      if (baiParam) {
+        updateMobileSpecialtyView(baiParam);
+      } else {
+        updateMobileSpecialtyView(null);
+        showMobileHomeView();
+      }
 
       if (window.location.hash) {
         setTimeout(() => {
@@ -804,12 +823,112 @@
       }
     });
 
+    let isMobileHomeView = false;
+
+    function showMobileHomeView() {
+      isMobileHomeView = true;
+      currentLesson = null;
+
+      document.querySelectorAll('#drawerList .lesson-row').forEach(row => {
+        row.removeAttribute('aria-current');
+      });
+
+      const homeWrap = document.getElementById('mobileHomeViewWrap');
+      const scrollViewport = document.getElementById('mobileScrollViewport');
+      if (homeWrap) homeWrap.classList.remove('hidden');
+      if (scrollViewport) scrollViewport.classList.add('hidden');
+
+      document.getElementById('headerLessonInfo')?.classList.add('hidden');
+      document.getElementById('headerHomeInfo')?.classList.remove('hidden');
+      document.getElementById('pedSubModesBar')?.classList.add('hidden');
+      document.getElementById('floatingTocBtn')?.classList.add('hidden');
+
+      renderMobileHomeView();
+      if (homeWrap) homeWrap.scrollTop = 0;
+
+      const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
+      history.replaceState(null, '', `?k=${kVal}`);
+    }
+
+    function openSpecialtyFromMobileHome(spec) {
+      currentSpecialty = spec;
+      try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
+      const data = getUnifiedData();
+      const pool = data[spec] || [];
+      if (pool.length > 0) {
+        updateMobileSpecialtyView(pool[0].id);
+      } else {
+        updateMobileSpecialtyView(null);
+      }
+    }
+
+    function renderMobileHomeView() {
+      const container = document.getElementById('mobileHomeViewContent');
+      if (!container) return;
+      const data = getUnifiedData();
+      const specialties = ['ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+
+      const cardsHtml = specialties.map(s => {
+        const meta = SPECIALTY_META[s];
+        if (!meta) return '';
+        const pool = data[s] || [];
+        return `
+          <div onclick="openSpecialtyFromMobileHome('${s}')" class="p-4 rounded-xl bg-[var(--surface)] border border-[var(--border)] active:scale-[0.98] transition cursor-pointer">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-2xl">${meta.icon}</span>
+              <span class="font-mono text-xs font-semibold px-2 py-0.5 rounded-full bg-[var(--surface-2)] border border-[var(--border)] text-[var(--accent)]">${pool.length} ${meta.unit}</span>
+            </div>
+            <h3 class="text-sm font-bold text-[var(--text)] mb-1">${meta.name}</h3>
+            <p class="text-xs text-[var(--text-muted)] line-clamp-2 mb-2 leading-relaxed">${meta.desc}</p>
+            <div class="text-xs font-semibold text-[var(--accent)] flex items-center justify-between pt-2 border-t border-[var(--border)]">
+              <span>Học chuyên khoa này</span>
+              <span>→</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      container.innerHTML = `
+        <div class="text-center py-6 border-b border-[var(--border)] mb-6">
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[var(--surface-2)] text-[11px] text-[var(--text-muted)] mb-3">
+            <span class="w-2 h-2 rounded-full bg-[var(--accent)]"></span>
+            <span>HungMed Mobile</span>
+          </div>
+          <h1 class="text-2xl font-bold text-[var(--text)] mb-2">Sổ Tay Lâm Sàng Y Khoa</h1>
+          <p class="text-xs text-[var(--text-muted)] leading-relaxed mb-4">
+            Tra cứu phác đồ, guideline EBM &amp; giáo trình y khoa chuẩn hóa. Biên soạn bởi <strong class="text-[var(--text)]">Đỗ Văn Ngọc Hưng</strong>.
+          </p>
+          <div class="flex items-center justify-center gap-2 text-[11px] text-[var(--text-muted)] font-mono">
+            <span class="px-2 py-0.5 rounded bg-[var(--surface)] border border-[var(--border)]">📚 ${(data.metadata?.total_all || 187)} bài</span>
+            <span class="px-2 py-0.5 rounded bg-[var(--surface)] border border-[var(--border)]">🩺 6 chuyên khoa</span>
+          </div>
+        </div>
+
+        <div class="mb-6">
+          <div class="flex items-center justify-between mb-3">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Chuyên khoa &amp; Giáo trình</h2>
+          </div>
+          <div class="grid grid-cols-1 gap-3">
+            ${cardsHtml}
+          </div>
+        </div>
+      `;
+    }
+
     function switchMobileSpecialty(spec) {
-      if (currentSpecialty === spec) return;
+      if (currentSpecialty === spec && !isMobileHomeView) return;
       currentSpecialty = spec;
       try { localStorage.setItem('hungmed_specialty', spec); } catch(e) {}
       document.getElementById('mobileSearchInput').value = '';
-      updateMobileSpecialtyView();
+      if (isMobileHomeView) {
+        updateMobileSpecialtyView(null);
+        renderMobileHomeView();
+      } else {
+        updateMobileSpecialtyView();
+        const data = getUnifiedData();
+        const pool = data[spec] || [];
+        if (pool.length > 0) selectLesson(pool[0].id);
+      }
     }
 
     function updateMobileSpecialtyView(preferLessonId) {
@@ -830,7 +949,7 @@
       if (curCount) curCount.textContent = `${pool.length} ${meta.unit}`;
 
       if (isPed) {
-        if (subModesBar) subModesBar.classList.remove('hidden');
+        if (subModesBar && !isMobileHomeView) subModesBar.classList.remove('hidden');
         document.getElementById('mobileTotalLabel').textContent = `${pool.length} bài · Nhi khoa`;
       } else {
         if (subModesBar) subModesBar.classList.add('hidden');
@@ -839,21 +958,19 @@
 
       renderDrawerList(pool);
 
-      let defLesson = null;
       if (preferLessonId) {
-        defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
-      }
-      if (!defLesson) {
-        if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
-        else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
-        else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
-        else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
-        else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
-        else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
-      }
-
-      if (defLesson) {
-        selectLesson(defLesson.id);
+        let defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
+        if (!defLesson) {
+          if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
+          else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+          else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
+          else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
+          else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
+          else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
+        }
+        if (defLesson) {
+          selectLesson(defLesson.id);
+        }
       }
     }
 
@@ -972,7 +1089,20 @@
       const lesson = pool.find(l => l.id === id);
       if (!lesson) return;
 
+      isMobileHomeView = false;
       currentLesson = lesson;
+
+      const homeWrap = document.getElementById('mobileHomeViewWrap');
+      const scrollViewport = document.getElementById('mobileScrollViewport');
+      if (homeWrap) homeWrap.classList.add('hidden');
+      if (scrollViewport) scrollViewport.classList.remove('hidden');
+
+      document.getElementById('headerLessonInfo')?.classList.remove('hidden');
+      document.getElementById('headerHomeInfo')?.classList.add('hidden');
+      document.getElementById('floatingTocBtn')?.classList.remove('hidden');
+      if (currentSpecialty === 'ped') {
+        document.getElementById('pedSubModesBar')?.classList.remove('hidden');
+      }
 
       // Drawer active item highlight
       document.querySelectorAll('#drawerList .lesson-row').forEach(row => {
@@ -1477,7 +1607,13 @@
     }
 
     function updateUrlState(isNewHistoryItem = false) {
-      if (!currentLesson) return;
+      if (isMobileHomeView || !currentLesson) {
+        const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
+        const newUrl = `?k=${kVal}`;
+        if (isNewHistoryItem) history.pushState(null, '', newUrl);
+        else history.replaceState(null, '', newUrl);
+        return;
+      }
       const kVal = currentSpecialty === 'ped' ? 'nhi' : currentSpecialty;
       const xemVal = mobileSource;
       const hashVal = window.location.hash || '';
