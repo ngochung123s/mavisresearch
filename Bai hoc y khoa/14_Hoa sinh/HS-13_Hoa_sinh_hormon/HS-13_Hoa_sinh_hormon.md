@@ -138,6 +138,9 @@ Hệ thống Adenylate Cyclase chịu sự điều khiển đối kháng nhịp 
 - **Tổng hợp:** Enzym **Adenylate Cyclase (AC)** là một protein gắn màng có 12 đoạn xuyên màng và 2 domain xúc tác hướng vào bào tương. Dưới sự kích thích của $G_s\\alpha\text{-GTP}$, AC xúc tác phản ứng chuyển hóa $\text{ATP}$ thành $\text{cAMP}$ (Adenosin-3',5'-cyclic monophosphat) đồng thời giải phóng một phân tử Pyrophosphat ($PP_i$):
   $$\text{ATP} \xrightarrow{\text{Adenylate Cyclase } (+\text{Mg}^{2+})} \text{cAMP} + PP_i$$
   Pyrophosphat lập tức bị enzym Pyrophosphatase nội bào thủy phân thành $2\,P_i$, biến phản ứng này trở thành một chiều không nghịch chuyển theo chiều tổng hợp $\text{cAMP}$.
+![Cơ chế tác dụng chung của hormon](hoasinh_media/HS-13_fig13_4.png)
+*Hình 13.4. Cơ chế tác dụng chung của hormon qua chất truyền tin thứ hai cAMP.*
+
 - **Thoái hóa:** Để tín hiệu không kéo dài liên tục, $\text{cAMP}$ bị thủy phân nhanh chóng thành hợp chất $5'\text{-AMP}$ không còn hoạt tính truyền tin nhờ enzym **Phosphodiesterase (PDE)**:
   $$\text{cAMP} + \text{H}_2\text{O} \xrightarrow{\text{Phosphodiesterase (PDE)}} 5'\text{-AMP}$$
   *Ý nghĩa dược lý:* Các methylxanthin tự nhiên như **Theophyllin** (trong lá trà), **Theobromin** (trong cacao) và **Caffein** (trong cà phê) là các chất ức chế cạnh tranh enzym Phosphodiesterase, ngăn cản sự phân hủy $\text{cAMP}$. Kết quả là $\text{cAMP}$ tích lũy kéo dài trong tế bào, khuếch đại tác dụng của Catecholamin, gây tăng co bóp cơ tim, giãn cơ trơn phế quản và hưng phấn vỏ não.
@@ -325,6 +328,9 @@ Tất cả các thụ thể nội bào đều chia sẻ một cấu trúc bảo 
 | **Quá trình Hoạt hóa khi Hormon xuất hiện** | 1. Hormon khuếch tán qua màng lipid vào bào tương gắn vào túi LBD của thụ thể.<br>2. Sự gắn này làm tách rời hoàn toàn protein sốc nhiệt $Hsp90$.<br>3. Thụ thể dimer hóa tạo thành **Đồng nhị tụ (Homodimer)** (ví dụ: GR-GR).<br>4. Phức hợp lộ tín hiệu NLS và di chuyển xuyên qua lỗ màng nhân vào trong nhân tế bào. | 1. Hormon (như $\text{T}_3$) khuếch tán thẳng vào nhân tế bào.<br>2. $\text{T}_3$ gắn trực tiếp vào thụ thể TR đã định vị sẵn trên DNA.<br>3. Sự gắn hormon làm thay đổi cấu hình thụ thể, tống xuất phức hợp đồng ức chế (Corepressor) và HDAC ra ngoài.<br>4. Thụ thể thường dimer hóa dạng **Dị nhị tụ (Heterodimer)** với thụ thể **RXR (Retinoid X Receptor)**. |
 | **Vị trí Gắn DNA (HRE)** | Gắn vào các đoạn trình tự lặp lại đối xứng đảo ngược (**Inverted Repeats - Palindrome**) phân cách nhau 3 nucleotide: **HRE** (ví dụ: GRE cho glucocorticoid: $5'\text{-GGTACAnnnTGTTCT-}3'$). | Gắn vào các đoạn trình tự lặp lại trực tiếp cùng chiều (**Direct Repeats**) phân cách nhau từ $1-5$ nucleotide. |
 | **Điều hòa Phiên mã** | Tuyển dụng các **Protein đồng hoạt hóa (Coactivators: p300/CBP, SRC-1)** có hoạt tính **Histone Acetyltransferase (HAT)**, nới lỏng chất nhiễm sắc, lôi kéo RNA Polymerase II đẩy mạnh phiên mã mRNA. | Tuyển dụng các Coactivator mang hoạt tính HAT, tháo xoắn nucleosome tại promoter và khởi động phiên mã gen đích với tốc độ cao. |
+
+![Cơ chế tác dụng của hormon steroid](hoasinh_media/HS-13_fig13_3.png)
+*Hình 13.3. Cơ chế tác dụng của hormon steroid qua thụ thể nội bào và kích hoạt phiên mã DNA.*
 
 ---
 

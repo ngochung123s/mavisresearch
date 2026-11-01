@@ -310,6 +310,9 @@ Hệ thống chịu sự điều hòa kép:
 | **- Glucose, - Lactose** | Gắn chặt vào Operator (Khóa $O$) | cAMP cao; Phức hợp cAMP-CAP gắn $P$ | **TẮT HOÀN TOÀN** (Bị khóa tại $O$) |
 | **- Glucose, + Lactose** | Allolactose gắn LacI; Rời $O$ | cAMP cao; Phức hợp cAMP-CAP gắn $P$ | **BẬT TỐI ĐA** (Phiên mã cực mạnh) |
 
+
+![Mô hình cảm ứng tổng hợp protein](hoasinh_media/HS-10_fig10_8.png)
+*Hình 10.8. Mô hình cảm ứng tổng hợp protein (Operon Lac).*
 #### 6.1.2. Operon Tryptophan (Mô hình kìm hãm và suy giảm - Attenuation)
 Operon Trp mã hóa 5 enzyme tổng hợp acid amin Tryptophan:
 - *Khi môi trường thiếu Tryptophan:* Protein ức chế TrpR ở trạng thái aporepressor bất hoạt, không gắn được vào Operator $\to$ Operon Trp được phiên mã tối đa để tổng hợp Tryptophan.

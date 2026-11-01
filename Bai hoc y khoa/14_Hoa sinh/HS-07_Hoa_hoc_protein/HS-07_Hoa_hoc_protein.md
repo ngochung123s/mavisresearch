@@ -105,8 +105,10 @@ Nhóm này gồm: **Aspartat (Asp, D) và Glutamat (Glu, E)**.
 * Các gốc Asp và Glu thường nằm trên bề mặt ngoài của protein tan, tham gia tạo các cầu muối ion (liên kết ion tĩnh điện) với các gốc tích điện dương (Lys, Arg, His) hoặc phối trí với các ion kim loại hóa trị hai như $Mg^{2+}, Ca^{2+}$.
 
 ![Tương tác tĩnh điện giữa các nhóm bên](hoasinh_media/HS-07_fig7_9.png)
-*Hình 7.9. Tương tác tĩnh điện giữa nhóm bên tích điện dương của lysin và nhóm bên tích điện âm.*
+*Hình 7.9. Tương tác tĩnh điện giữa nhóm bên tích điện dương của lysin và nhóm bên tích điện âm của aspartat.*
 
+![Phân loại acid amin phần tiếp](hoasinh_media/HS-07_fig7_11b.png)
+*Hình 7.11b. Phân loại acid amin (tiếp): Acid amin acid và acid amin base.*
 ### 1.3. Bảng tổng hợp 20 acid amin tiêu chuẩn và các chỉ số hóa lý
 
 | Tên Acid Amin | Ký hiệu 3 chữ | Ký hiệu 1 chữ | Đặc tính chuỗi bên ($R$) | $pK_1$ ($-\text{COOH}$) | $pK_2$ ($-\text{NH}_3^+$) | $pK_R$ (Chuỗi bên) | Điểm đẳng điện ($pI$) | Trọng lượng phân tử ($Da$) |

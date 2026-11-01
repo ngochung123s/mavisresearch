@@ -37,6 +37,9 @@ Sau khi hoàn thành chương học chuyên sâu này, học viên y khoa cần 
   + **Động mạch gan riêng (Hepatic artery):** Đảm nhận $20 - 25\%$ lưu lượng máu còn lại (khoảng $300 - 400\,\text{mL/phút}$), xuất phát từ động mạch thân tạng, cung cấp máu giàu oxy ($pO_2 \approx 95 - 100\,\text{mmHg}$), đáp ứng khoảng $50\%$ nhu cầu oxy cho mô gan.
   + Hai dòng máu này hòa trộn với nhau tại các mao mạch nan hoa (sinusoid) của gan trước khi đổ về tĩnh mạch trung tâm tiểu thùy, sau đó tập trung vào các tĩnh mạch trên gan (hepatic veins) và đổ vào tĩnh mạch chủ dưới.
 
+
+![Vị trí giải phẫu gan](hoasinh_media/HS-17_fig17_1.png)
+*Hình 17.1. Vị trí giải phẫu gan.*
 ### 1.2. Đơn vị chức năng của gan: Từ tiểu thùy cổ điển đến nang tuyến Rappaport
 
 ![Hình ảnh vi thể gan](hoasinh_media/HS-17_fig17_3.png)

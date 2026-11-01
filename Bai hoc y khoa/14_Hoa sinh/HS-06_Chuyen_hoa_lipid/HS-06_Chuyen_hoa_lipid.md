@@ -210,10 +210,12 @@ Propionyl-CoA được chuyển hóa thành **Succinyl-CoA** để đi vào chu 
    $$\text{L-Methylmalonyl-CoA} \xrightleftharpoons{\text{Methylmalonyl-CoA mutase (Vitamin } B_{12}\text{)}} \text{Succinyl-CoA}$$
    *Enzym Methylmalonyl-CoA mutase đòi hỏi Coenzym $B_{12}$ (Adenosylcobalamin).*
 
+![Thoái hóa acid béo có số carbon lẻ](hoasinh_media/HS-06_fig6_7.png)
+*Hình 6.7. Thoái hóa acid béo có số carbon lẻ.*
+
 *Tích hợp bệnh học:*
 - **Methylmalonic Acidemia (Axit niệu methylmalonic):** Do đột biến gen mã hóa enzym methylmalonyl-CoA mutase hoặc do thiếu hụt nghiêm trọng vitamin $B_{12}$. Bệnh nhi có biểu hiện toan chuyển hóa nặng, tổn thương thần kinh tiến triển, tích tụ acid methylmalonic trong máu và nước tiểu.
 - **Khả năng tân tạo đường:** Khác với Acetyl-CoA (không thể chuyển hóa thành glucose thuần ở động vật bậc cao do phản ứng pyruvate dehydrogenase là một chiều), **Propionyl-CoA chuyển thành Succinyl-CoA**, đi vào chu trình Krebs tạo oxaloacetat, do đó phân đoạn 3C tận cùng của acid béo lẻ **có thể tham gia tân tạo đường (gluconeogenesis)**.
-
 ---
 
 ### 1.5. Các Thể Ceton và Sự Chuyển Hóa Của Chúng (Ketogenesis & Ketolysis)
