@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 16
 
 KHÍ MÁU VÀ SỰ THĂNG BẰNG ACID - BASE
@@ -41,8 +40,6 @@ cơ hoạt động.
 
 Sự gắn O, của hemoglobin là sự cộng tác.
 
-
-\n\n
 1.1.2. Các yếu tố ảnh hưởng đến sự gắn O; của hemoglobin
 DPG
 HHKC + Q, <—> HbO; + CO; +DPG + H'
@@ -88,13 +85,12 @@ Dạng HƠO¿ chiếm 78% các dạng vận chuyển CO₂trong máu.
 máu. Dạng này được tạo thành do CO, phản ứng với các nhóm amin tự do của
 các chuỗi ơ và B của Hb theo phản ứng:
 
-\n\n
 R-NH,+CO, <—> R-NH-COƠ +H'
 
 Vì pH trong hồng cầu bằng 7,20 nên các nhóm R-NH, đều tích điện (+) :
 R-NH,', muốn có R-NH; để gắn ƠO; phải có phản ứng:
 
-R-NH@  < RÌNH,+H
+R-NH@ < RÌNH,+H
 Như vậy, sự tạo thành HCOz và R-NH, đều sản sinh H'.
 1.2.3. CO, dạng hoà tan: đây là dạng CO; được hoà tan trong máu, dạng này
 chỉ chiếm 9% các dạng vận chuyển CO, trong máu.
@@ -110,7 +106,7 @@ HCO; 78
 Carbamin 13
 CO, hoà tan, 9
 
-Bảng 16: 3. Các phần ứng xảy ra ở đầu tận N của chuỗi ơ và 8 của hemoglobin.
+Bảng 16: 3. Các phản ứng xảy ra ở đầu tận N của chuỗi ơ và 8 của hemoglobin.
 
 Quá trình Các đầu tận N
 Chuỗi ø Chuỗi B
@@ -128,8 +124,6 @@ máu. Còn lại, H' sinh ra từ H¿COạ được hấp thu theo một cơ ch�
 cơ chế đẳng hydro cũng của hemoglobin. Cơ chế đẳng hydro được biểu diễn ở
 hình 16.2.
 
-
-\n\n
 Máu
 
 HCO;
@@ -174,7 +168,6 @@ Hệ số cân bằng của sự phân ly của nước là:
 Eea=——-- (©
 [H,O]
 
-\n\n
 Nông độ của H,O trong 1 lít nước tỉnh khiết = 1000/18 = 55,5 mol/L
 [H⁺JIOH] = Keq[H₂O] = 1,8x1016x55,5=1,01x 101“ (3)
 [H']=[OH] = 1x10 moL (4)
@@ -224,8 +217,6 @@ Haselbalch sẽ là:
 pH=pK+log
 [H¿CO,J
 
-
-\n\n
 'Theo định luật Henry, nồng độ của một khí trong một dung dịch tỷ lệ với
 áp lực riêng phần của khí đó trên bề mặt của dịch. Đối với CO; nồng độ CO,
 hoà tan tỷ lệ với áp lực riêng phần của nó trong dung dịch, nghĩa là phụ thuộc
@@ -240,7 +231,7 @@ pH =pK + log
 0,03. pƠO;
 [HCO¿] được tính bằng mEg/ L.
 
-Khi một acid mạnh được thêm vào máu; [HCO;] sẽ phần ứng với acid đó,
+Khi một acid mạnh được thêm vào máu; [HCO;] sẽ phản ứng với acid đó,
 tạo thành H,CO¿, [HCO1] sẽ giảm đi và CO, được tạo thành. Vì cơ thể là một
 hệ thống mở nên CO, dư được thở ra, tỷ lệ [HCO₃⁻z]/ pƠO, không bị biến đổi
 nhiều. Tương tự như vậy, khi một base được thêm vào máu, nó sẽ bị trung hoà
@@ -267,7 +258,7 @@ pH máu được giữ thăng bằng nhờ các hệ đệm trong huyết tươn
 
 2.2.1. Các hệ đệm của cơ thể
 
-— Các hệ đệm của huyết tương uà dịch gian bào: huyết tương và dịch gian
+— Các hệ đệm của huyết tương và dịch gian bào: huyết tương và dịch gian
 bào có các hệ đệm sau:
 
 + Hệ đệm bicarbonat: HCO;/ H¿CO¿
@@ -275,7 +266,6 @@ bào có các hệ đệm sau:
 
 + Hệ đệm protein: proteinat/ protein
 
-\n\n
 - Các hệ đệm của hồng cầu: hồng cầu có các hệ đệm hemoglobin sau:
 + Hệ đệm hemoglobinat/ hemoglobin: KHb/ HHb
 
@@ -325,8 +315,6 @@ thể, mặc dù phải sử dụng một phần HCO;, nhưng tỷ số phương
 Henderson-Haselbalch ít thay đổi, điều này cũng có nghĩa là pH của máu ít bị
 thay đổi.
 
-
-\n\n
 Trái lại, khi một base, ví dụ NaOH xâm nhập vào cơ thể, nó sẽ tác dụng
 với phần H,CO¿ của hệ đệm bicarbonat (ví dụ base là NaOH):
 
@@ -379,7 +367,6 @@ thuỷ phân glutamin dưới tác dụng của gJutaminase. NH, khuếch tán t
 ra nước tiểu, cùng với H* đào thải dưới dạng muối NH," (xin xem thêm chương
 18: hóa sinh thận và nước tiểu).
 
-\n\n
 Hàng ngày có tới 30-50 mEq ion H* được đào thải ra nước tiểu dưới dạng
 muối amon và khoảng 10-30 mEq dưới dạng các muối acid khác.
 
@@ -433,8 +420,6 @@ Base dư (hoặc base thiếu) là lượng base thiếu hụt trong máu. Base 
 được xác định bằng lượng acid được thêm vào máu để đưa pH máu về pH =
 7,40 ở điều kiện pCO, = 40 mmHg và nhiệt độ = 370C.
 
-
-\n\n
 Giá trị EB bình thường của máu có pH = 7,4; pCO, = 40 mmHg ở 37°C
 là bằng 0. EB có giá trị âm khi thiếu base (thừa acid), EB có giá trị dương
 khi thừa base (thiếu acid) trong máu. Thông số EB của máu chẳng những thể
@@ -482,7 +467,6 @@ tăng bài tiết H' và tăng tái hấp thu HƠO;. Sự bù đối với nhi�
 hóa bởi thận được hoàn thành trong khoảng thời gian từ 2 đến 4 ngày, khi sự
 bài tiết H* trở về bình thường.
 
-\n\n
 ### 3.2. Nhiễm kiểm chuyển hóa
 
 3.2.1. Định nghĩa: nhiễm kiềm chuyển hóa (metabolic alkalosis) là một tình
@@ -532,8 +516,6 @@ thông khí phế nang. Nhiễm acid hô hấp thường gặp trong suy hô h�
 hoặc trong đợt cấp của suy hô hấp cấp. Khi bị nhiễm acid hô hấp cấp, pCO;
 máu tăng, pH giảm, HƠO; bình thường và tỷ số HCO;/ H,¿CO; giảm.
 
-
-\n\n
 3.3.9. Các nguyên nhân gây nhiễm acid hô hấp
 
 Nguyên nhân cơ bản của nhiễm acid hô hấp là do giảm thông khí phế
@@ -584,7 +566,6 @@ và làm tăng H,¿CO;, dẫn đến làm giảm tỷ số HCO7/H¿CO; của ph�
 Henderson-Hasselbalch, do đó làm giảm pH. H* của các hệ đệm đã sử dụng
 trong quá trình đệm được thay thế bởi K*, điều này làm K* máu hạ.
 
-\n\n
 ### 8.5. Những rối loạn acid-base hỗn hợp
 
 "Trong thực tế lâm sàng có thể thấy nhiều loại rối loạn acid-base. Có một
@@ -634,30 +615,25 @@ của cơ thể.
 
 5. Trình bày các loại rối loạn thăng bằng acid-base.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 16)</div>
-  <div class="answer-body">
-    <h4>1. Nêu 4 hệ thống đệm sinh học chính của cơ thể:</h4>
-    <ol>
-      <li><strong>Hệ đệm Bicarbonat (H₂CO₃ / HCO₃⁻):</strong> Là hệ đệm ngoại bào quan trọng nhất. Dù pKa = 6.1 (cách xa pH sinh lý 7.4), nhưng đây là <em>hệ thống đệm mở</em> cực mạnh nhờ sự phối hợp của 2 cơ quan: nồng độ H₂CO₃ (CO₂) được kiểm soát bởi <strong>Phổi</strong> (thải CO₂ qua hô hấp trong vài phút); nồng độ HCO₃⁻ được kiểm soát bởi <strong>Thận</strong> (tái hấp thu và tái tạo trong vài giờ đến vài ngày). Công thức Henderson-Hasselbalch: <code>pH = 6.1 + log([HCO₃⁻] / [0.03 × pCO₂])</code>. Tỷ lệ bình thường [HCO₃⁻] / [H₂CO₃] = 20 / 1 ứng với pH = 7.40.</li>
-      <li><strong>Hệ đệm Hemoglobin (HHb / HbO₂):</strong> Hệ đệm nội bào lớn nhất của máu (~35% dung tích đệm toàn phần). Nhờ chứa nhiều gốc Histidin có pKa gần 7.0, Hb đệm ion H⁺ sinh ra từ CO₂ tại mô, giải phóng oxy (hiệu ứng Bohr).</li>
-      <li><strong>Hệ đệm Protein:</strong> Hoạt động cả nội bào và huyết tương (chủ yếu là Albumin) nhờ các gốc acid amin phân ly.</li>
-      <li><strong>Hệ đệm Phosphat (H₂PO₄⁻ / HPO₄²⁻):</strong> pKa = 6.8 rất gần pH sinh lý. Đóng vai trò đệm chủ yếu bên trong dịch nội bào và trong lòng ống thận để đào thải acid chuẩn độ qua nước tiểu.</li>
-    </ol>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 16)</div>
+<div class="answer-body">
+<h4>1. Nêu 4 hệ thống đệm sinh học chính của cơ thể:</h4>
+<ol>
+<li><strong>Hệ đệm Bicarbonat (H₂CO₃ / HCO₃⁻):</strong> Là hệ đệm ngoại bào quan trọng nhất. Dù pKa = 6.1 (cách xa pH sinh lý 7.4), nhưng đây là <em>hệ thống đệm mở</em> cực mạnh nhờ sự phối hợp của 2 cơ quan: nồng độ H₂CO₃ (CO₂) được kiểm soát bởi <strong>Phổi</strong> (thải CO₂ qua hô hấp trong vài phút); nồng độ HCO₃⁻ được kiểm soát bởi <strong>Thận</strong> (tái hấp thu và tái tạo trong vài giờ đến vài ngày). Công thức Henderson-Hasselbalch: <code>pH = 6.1 + log([HCO₃⁻] / [0.03 × pCO₂])</code>. Tỷ lệ bình thường [HCO₃⁻] / [H₂CO₃] = 20 / 1 ứng với pH = 7.40.</li>
+<li><strong>Hệ đệm Hemoglobin (HHb / HbO₂):</strong> Hệ đệm nội bào lớn nhất của máu (~35% dung tích đệm toàn phần). Nhờ chứa nhiều gốc Histidin có pKa gần 7.0, Hb đệm ion H⁺ sinh ra từ CO₂ tại mô, giải phóng oxy (hiệu ứng Bohr).</li>
+<li><strong>Hệ đệm Protein:</strong> Hoạt động cả nội bào và huyết tương (chủ yếu là Albumin) nhờ các gốc acid amin phân ly.</li>
+<li><strong>Hệ đệm Phosphat (H₂PO₄⁻ / HPO₄²⁻):</strong> pKa = 6.8 rất gần pH sinh lý. Đóng vai trò đệm chủ yếu bên trong dịch nội bào và trong lòng ống thận để đào thải acid chuẩn độ qua nước tiểu.</li>
+</ol>
 
-    <h4>2. Phân tích 4 rối loạn thăng bằng acid-base nguyên phát:</h4>
-    <ul>
-      <li><strong>Toan chuyển hóa (Metabolic Acidosis):</strong> Nguyên phát do <em>giảm [HCO₃⁻]</em> (&lt; 22 mmol/L) do nhiễm toan ceton, toan lactic, suy thận ứ acid, hoặc mất HCO₃⁻ qua tiêu chảy nặng. Bù trừ bởi phổi: thở nhanh sâu (kiểu thở Kussmaul) tăng thải CO₂ làm giảm pCO₂.</li>
-      <li><strong>Kiềm chuyển hóa (Metabolic Alkalosis):</strong> Nguyên phát do <em>tăng [HCO₃⁻]</em> (&gt; 28 mmol/L) do nôn nhiều mất acid dạ dày, dùng thuốc lợi tiểu mất K⁺/H⁺, dùng nhiều thuốc kiềm. Bù trừ bởi phổi: thở chậm nông giữ lại CO₂ làm tăng pCO₂.</li>
-      <li><strong>Toan hô hấp (Respiratory Acidosis):</strong> Nguyên phát do <em>tăng pCO₂</em> (&gt; 45 mmHg) do giảm thông khí phế nang (COPD, hen phế quản nặng, liệt cơ hô hấp, ức chế trung tâm hô hấp). Bù trừ bởi thận: tăng bài tiết H⁺ và tăng tái hấp thu tối đa HCO₃⁻ làm tăng [HCO₃⁻] máu.</li>
-      <li><strong>Kiềm hô hấp (Respiratory Alkalosis):</strong> Nguyên phát do <em>giảm pCO₂</em> (&lt; 35 mmHg) do tăng thông khí phế nang (lo âu, kích thích, sốt cao, thiếu oxy ở độ cao). Bù trừ bởi thận: giảm tái hấp thu, tăng bài tiết HCO₃⁻ ra nước tiểu làm giảm [HCO₃⁻] máu.</li>
-    </ul>
-  </div>
+<h4>2. Phân tích 4 rối loạn thăng bằng acid-base nguyên phát:</h4>
+<ul>
+<li><strong>Toan chuyển hóa (Metabolic Acidosis):</strong> Nguyên phát do <em>giảm [HCO₃⁻]</em> (&lt; 22 mmol/L) do nhiễm toan ceton, toan lactic, suy thận ứ acid, hoặc mất HCO₃⁻ qua tiêu chảy nặng. Bù trừ bởi phổi: thở nhanh sâu (kiểu thở Kussmaul) tăng thải CO₂ làm giảm pCO₂.</li>
+<li><strong>Kiềm chuyển hóa (Metabolic Alkalosis):</strong> Nguyên phát do <em>tăng [HCO₃⁻]</em> (&gt; 28 mmol/L) do nôn nhiều mất acid dạ dày, dùng thuốc lợi tiểu mất K⁺/H⁺, dùng nhiều thuốc kiềm. Bù trừ bởi phổi: thở chậm nông giữ lại CO₂ làm tăng pCO₂.</li>
+<li><strong>Toan hô hấp (Respiratory Acidosis):</strong> Nguyên phát do <em>tăng pCO₂</em> (&gt; 45 mmHg) do giảm thông khí phế nang (COPD, hen phế quản nặng, liệt cơ hô hấp, ức chế trung tâm hô hấp). Bù trừ bởi thận: tăng bài tiết H⁺ và tăng tái hấp thu tối đa HCO₃⁻ làm tăng [HCO₃⁻] máu.</li>
+<li><strong>Kiềm hô hấp (Respiratory Alkalosis):</strong> Nguyên phát do <em>giảm pCO₂</em> (&lt; 35 mmHg) do tăng thông khí phế nang (lo âu, kích thích, sốt cao, thiếu oxy ở độ cao). Bù trừ bởi thận: giảm tái hấp thu, tăng bài tiết HCO₃⁻ ra nước tiểu làm giảm [HCO₃⁻] máu.</li>
+</ul>
+</div>
 </div>

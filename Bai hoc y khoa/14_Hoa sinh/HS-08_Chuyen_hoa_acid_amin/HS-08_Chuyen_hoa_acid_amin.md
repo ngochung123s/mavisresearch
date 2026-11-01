@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 9
 
 CHUYỂN HÓA ACID AMIN
@@ -37,8 +36,6 @@ và pepsin. Ở dạ dày, pH từ 1 đến 2 cấu trúc bậc 2, bậc 3, bậ
 vỡ, protein bị phân giải. Pepsin được bài tiết dưới dạng tiền chất không hoạt động
 là pepsinogen. Pepsinogen được hoạt hóa bởi HƠI thành pepsin hoạt động. Pepsin
 
-
-\n\n
 thuỷ phân đặc hiệu liên kết của acid amin nhân thơm hoặc liên kết của acid amin
 acid tạo ra các peptid ngắn hơn. Các peptid nầy xuống ruột non.
 
@@ -86,7 +83,6 @@ phức hợp ubiquitin- protein.
 - Bước 4: ubiquitin - protein được thoái hóa bởi phức hợp protease phụ
 thuộc ATP thành peptid và ubiquitin được giải phóng có thể trở lại bước 1.
 
-\n\n
 ## 2. SỰ THOÁI HÓA ACID AMIN
 ### 2.1. Sự thoái hóa chung của acid amin
 2.1.1. Chuyển hóa của nhóm qmin trong acid amin
@@ -105,10 +101,10 @@ NHớ ! NH4
 
 Hầu hết các äcid ämin chuyển nhóm amin sang chất nhận là α-
 cetoglutarat. Enzym xúc tác cho phản ứng này là enzym trao đổi amin
-#ransaminase. Các enzym này có phổ biến ở các mô và có hoạt tính xúc tác cao
-như: AST (aspartoi transaminase), ALT (alànin #ransaminase). Hai enzym
+#transaminase. Các enzym này có phổ biến ở các mô và có hoạt tính xúc tác cao
+như: AST (aspartoi transaminase), ALT (alànin #transaminase). Hai enzym
 này xúc tác cho sự vận chuyển nhóm amin của Asp, Ala sang chất nhận là α-
-cetoglutarat thành glutamat. Các enzym #ransaminase có ở cả ty thể và bào
+cetoglutarat thành glutamat. Các enzym #transaminase có ở cả ty thể và bào
 tương có coenzym là pyridoxalphosphat.
 
 ¡ ALT -
@@ -136,8 +132,6 @@ qcid ø Imin, . thuỷ phân tự phát acid Imin tạo ra acid α-cetonic và N
 trình này xảy ra ở bào tương, xúc tác cho phản ứng là các J, acid gmin oxidase
 có coenzym là FMN. Phản ứng có thể viết như sau:
 
-
-\n\n
 niệm coo: VN mĩ ——*ti R=-GO-COO+NH(I
 
 MN - FMNH;
@@ -163,7 +157,7 @@ HO
 ⁄Z% >>
 
 Glu NHớ NADT NADH α - cetoglutarat
-(NADP”  NADPH)
+(NADP” NADPH)
 
 Enzym glutamat dehydrogenase có hoạt tính xúc tác mạnh, nên trong
 hầu hết các sinh vật glutamat được khử amin oxy hóa với tốc độ cao. Vì vậy
@@ -188,7 +182,6 @@ Acid amin α-cetoglutarat NADH + NH!, — Urê
 Transaminase Glutamat dehydrogenase
 Acid α- cetonic Glutamat NAD+ + H,O.
 
-\n\n
 Số phận của NH.,'
 
 NH,' được sinh ra ở ở hầu hết các mô và là chất độc đối với cơi thể. Khi
@@ -237,8 +230,6 @@ qua chu trình ure. Nguyên liệu để tổng hợp ure gồm có:
 - Một phân tử N lấy từ NH!, tự do.
 - Một phân tử N lấy từ aspartat
 
-
-\n\n
 - Một phân tử Ơ lấy từ CO, dưới dạng HCO;,
 - Ba phân tử ATP.
 - . Một phân tử ornitin làm mồi
@@ -248,7 +239,7 @@ Bước 1: Tổng hợp carbamy] phosphat.
 Phản ứng xảy ra ở ty thể tế bào gan, từ nguyên liệu là HCO¿ và NH,"
 nhờ enzym carbam,yiphosphat synthetose I có ở ty thể:
 2ATP 2ADP+P -
-HCO;+NH, — A= X »  HỆN-COO-(Đ
+HCO;+NH, — A= X » HỆN-COO-(Đ
 Carbamzylphosphat syn‡hetase I là enzym then chốt của chu trình ure.
 Bước 2: Gồm 4 phản ứng. ,
 Phần ứng 1: Tạo citrulin từ carbamyl phosphat và ornithin. Phản ứng
@@ -280,7 +271,6 @@ Phản ứng 4: tạo ure và ornitin từ arginin nhờ enzym là arginase.
 "H,NZONH(CH,),PHCOO- —. H,NGONH; + HN CH‹(CH,,OHCOO-
 NH, NH4 NH†
 
-\n\n
 Arginase là protein có 4 tiểu đơn vị, cần ion Mn”' cho hoạt động xúc tác.
 Enzym thấy ở não, thận và một số cơ quan khác. Ornitin tạo thành được vận
 chuyển vào ty thể và phản ứng với carbamyl phosphat, bắt đầu một chu trình mới.
@@ -296,7 +286,7 @@ CO,ztNH, CH›
 H-P- NH2
 CooH
 2ATP NH2
-Mới s NH2  COOH
+Mới s NH2 COOH
 l
 €H2-NH CrNH- cn
 N-Aoetyl- (1) CH2 N gHz-NH CH;
@@ -331,8 +321,6 @@ chu trình acid citrie tham gia phản ứng trao đổi amin với acid amin đ
 glutamat tạo thành aspartat và α-cetoglutarat. Aspartat phản ứng với citrulin
 của chu trình ure tạo ra arginosuccinat.
 
-
-\n\n
 α-Keto
 
 . acid
@@ -376,7 +364,6 @@ Khi hết tác dụng các amin tiếp tục khử amin oxy hóa nhờ các enzy
 mono'amino oxidase (MAO) hoặc diamino oxidase tạo thành aldehyd, rồi
 thành acid tương ứng.
 
-\n\n
 Phản ứng tổng quát:
 
 mm HN
@@ -420,7 +407,7 @@ Tryptophan Lysin
 Isoleucin Phenylalanin
 Glucose | Leucin Typlophan
 Pyrwat | Typtophan yrosn
-Phosphoenöl l
+Phosphoenol l
 Pyruvat AcetylCoA 4= Acetoaoetyl CoA
 Asparlat 'Oxaloacetat
 Aspartat
@@ -434,8 +421,6 @@ Valin Prolin
 
 Hình 9.3. Số phận khung carbon của các acid amin
 
-
-\n\n
 — Thoái hóa trong chu trình acid citric
 
 Tất cả các sản phẩm trên của sự thoái hóa acid amin đều có thể đi vào
@@ -484,9 +469,8 @@ Trp —¬=¬3” Ala
 Gy —¬Ÿ ——
 
 Cys >> Pyr
-Thr —%  amino aeeton——Ÿ
+Thr —% amino aeeton——Ÿ
 
-\n\n
 3.2.2. Họ những acid amin có 4C biến đổi thành oxaloacetat: Asp, Asn
 
 Asp trao đổi amin với α-cetoglutarat thành glutamat, rồi Glu khử amin
@@ -512,7 +496,7 @@ H ——
 GIn bị thuỷ phân thành Glu và NH,?, enzym xúc tác là gJuztaminase. Pro,
 Arg biến đổi thành semialdehyd glutamat rồi thành Glu.
 
-2.2.4. Sự biến đổi thành acetyl CoA uà acetoacetat của các acid qmin
+2.2.4. Sự biến đổi thành acetyl CoA và acetoacetat của các acid qmin
 mạch nhánh: Leu, Ile, Vai.
 
 "Các acid amin mạch nhánh thoái hóa tương tự thành aeetyl CoA hoặc
@@ -538,8 +522,6 @@ trong tổng số 20 loại acid amin thường gặp. Còn các acid amin khác
 cung cấp từ thức ăn. Những acid amin mà cơ thể tổng hợp được là những acid
 amin không cần thiết. Còn 8 acid amin cơ thể không tổng hợp được đó là những
 
-
-\n\n
 acid amin cần thiết: Val, Ile, Leu, Lys, Met, Phe, Trp, Thr. Riêng Arg và His cơ
 thể trẻ em không tổng hợp được, nên gọi là các acid amin bán cần thiết.
 3.1. Quá trình tạo thành NH†, từ N¿„ nitrit và nitrat
@@ -586,7 +568,6 @@ quá trình sinh tổng hợp các acid amin và những hợp chất hữu cơ 
 Sự tổng hợp 20 acid amin thường gặp ở các cơ thể sinh vật có sự khác
 nhau. Thực vật thượng đẳng tổng hợp được tất cả các acid amin cần cho:sự
 
-\n\n
 tổng hợp protein từ nguồn N¿ nitrit, nitrat. E. Coli tổng hợp được tất cả các
 acid amin từ NH,'.
 
@@ -627,11 +608,9 @@ ra catecholamin. Taurin là thành phần của acid mật là sản phẩm chuy
 
 của cystein. ˆ
 
-3.4.1. Sự tạo thành creatin, cregtin phosphat uà creatinin
+3.4.1. Sự tạo thành creatin, cregtin phosphat và creatinin
 Creatin được tổng hợp từ 3 acid amin: Gly, Arg, Met
 
-
-\n\n
 NH,
 
 AAmidinotransferase - Ñ |
@@ -677,7 +656,6 @@ Coenzym khử NADPHH' được cung cấp từ chu trình pentose phosphat
 
 GSSG+NADPH.H'— NADP +2GSH
 
-\n\n
 Trong các tế bào tỷ lệ GSH/ GSSG (khử/ oxy hoá) là 500. Ngoài ra,
 glutathion khử độc của H¿O, và các gốc tự do nhờ enzym GSH peroxidase.
 
@@ -689,7 +667,7 @@ histamin là dẫn xuất của His. Còn GABA là sản phẩm khử carboxyl c
 Glyein cũng là chất ức chế dẫn truyền thần kinh (xem chương 21: hóa sinh
 thần kinh).
 
-3.4.4. Tổng hợp base nitơ: purin uà pyrimidin
+3.4.4. Tổng hợp base nitơ: purin và pyrimidin
 
 Các acid amin Gly, Asp, Gln cần cho sự tổng hợp các base nitơ (xem
 chương chuyển hóa acid nucleie). Các base nitơ có trong các nucleotid giàu
@@ -725,10 +703,7 @@ trong hệ thống vận chuyển acid amin qua màng. Những rối loạn này
 lượng acid amin trong máu, tăng đào thải ra nước tiểu, cùng với những dấu
 hiệu lâm sàng tương ứng với những rối loạn.
 
-
-\n\n
 CÂU HỎI ÔN TẬP
-
 
 ## 1.
 
@@ -746,45 +721,42 @@ Hãy trình bày sự tổng hợp và vai trò của glutathion trong tế bào
 
 Thế nào là bệnh lý acid amin:
 
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 9)</div>
-  <div class="answer-body">
-    <h4>1. Hai con đường thoái hóa chung của nhóm amin (-NH₂):</h4>
-    <ul>
-      <li><strong>Quá trình Trao đổi amin (Transamination):</strong> Enzym <em>Aminotransferase (Transaminase)</em> cùng coenzym PLP chuyển nhóm α-amin từ acid amin sang phân tử acid α-cetonic (thường là α-cetoglutarat) để tạo thành acid α-cetonic mới và phân tử <strong>L-Glutamat</strong>. Hai enzym quan trọng nhất: AST (GOT) chuyển nhóm amin giữa Aspartat và Oxaloacetat; ALT (GPT) chuyển nhóm amin giữa Alanin và Pyruvat. Phản ứng có tính thuận nghịch cao, không giải phóng NH₃ tự do.</li>
-      <li><strong>Quá trình Khử amin oxy hóa (Oxidative Deamination):</strong> Phân tử L-Glutamat (nơi thu gom nhóm amin của hầu hết các acid amin) đi vào ty thể tế bào gan, bị enzym <em>L-Glutamat dehydrogenase (GLDH)</em> khử amin oxy hóa giải phóng ra <strong>ion NH₄⁺ tự do</strong> và tái tạo α-cetoglutarat, đồng thời khử NAD⁺ thành NADH + H⁺. Đây là enzym duy nhất trong cơ thể có khả năng sử dụng cả NAD⁺ và NADP⁺.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 9)</div>
+<div class="answer-body">
+<h4>1. Hai con đường thoái hóa chung của nhóm amin (-NH₂):</h4>
+<ul>
+<li><strong>Quá trình Trao đổi amin (Transamination):</strong> Enzym <em>Aminotransferase (Transaminase)</em> cùng coenzym PLP chuyển nhóm α-amin từ acid amin sang phân tử acid α-cetonic (thường là α-cetoglutarat) để tạo thành acid α-cetonic mới và phân tử <strong>L-Glutamat</strong>. Hai enzym quan trọng nhất: AST (GOT) chuyển nhóm amin giữa Aspartat và Oxaloacetat; ALT (GPT) chuyển nhóm amin giữa Alanin và Pyruvat. Phản ứng có tính thuận nghịch cao, không giải phóng NH₃ tự do.</li>
+<li><strong>Quá trình Khử amin oxy hóa (Oxidative Deamination):</strong> Phân tử L-Glutamat (nơi thu gom nhóm amin của hầu hết các acid amin) đi vào ty thể tế bào gan, bị enzym <em>L-Glutamat dehydrogenase (GLDH)</em> khử amin oxy hóa giải phóng ra <strong>ion NH₄⁺ tự do</strong> và tái tạo α-cetoglutarat, đồng thời khử NAD⁺ thành NADH + H⁺. Đây là enzym duy nhất trong cơ thể có khả năng sử dụng cả NAD⁺ và NADP⁺.</li>
+</ul>
 
-    <h4>2. Nguồn gốc, độc tính và các hình thức vận chuyển, đào thải NH₃:</h4>
-    <ul>
-      <li><strong>Nguồn gốc:</strong> Khử amin oxy hóa acid amin; thủy phân glutamin ở thận; vi khuẩn ruột phân hủy thức ăn đạm và ure.</li>
-      <li><strong>Độc tính:</strong> Nồng độ NH₃/NH₄⁺ máu bình thường rất thấp (&lt; 50 μmol/L). Khi tăng cao, NH₃ dễ dàng qua hàng rào máu não: kết hợp với α-cetoglutarat thành glutamat làm cạn kiệt cơ chất của chu trình Krebs gây thiếu năng lượng não; kết hợp với glutamat thành glutamin làm tăng áp suất thẩm thấu nội bào tế bào hình sao (astrocytes) gây phù não, co giật và hôn mê gan.</li>
-      <li><strong>Vận chuyển an toàn trong máu:</strong>
-        <ul>
-          <li>Ở hầu hết các mô: NH₄⁺ gắn vào glutamat tạo <strong>Glutamin</strong> nhờ enzym <em>Glutamin synthetase</em> (tiêu tốn ATP). Glutamin trung tính, không độc, theo máu về gan và thận.</li>
-          <li>Ở mô cơ: Vận chuyển dưới dạng <strong>Alanin</strong> qua chu trình Glucose - Alanin về gan.</li>
-        </ul>
-      </li>
-      <li><strong>Đào thải chính:</strong> Tại gan, NH₄⁺ đi vào <strong>Chu trình Ure</strong> biến đổi thành Ure không độc để đào thải qua nước tiểu (>80% tổng nitơ nước tiểu). Tại thận, glutamin bị enzym glutaminase thủy phân giải phóng NH₃ kết hợp H⁺ thành NH₄⁺ đào thải qua nước tiểu giúp điều hòa thăng bằng toan kiềm.</li>
-    </ul>
+<h4>2. Nguồn gốc, độc tính và các hình thức vận chuyển, đào thải NH₃:</h4>
+<ul>
+<li><strong>Nguồn gốc:</strong> Khử amin oxy hóa acid amin; thủy phân glutamin ở thận; vi khuẩn ruột phân hủy thức ăn đạm và ure.</li>
+<li><strong>Độc tính:</strong> Nồng độ NH₃/NH₄⁺ máu bình thường rất thấp (&lt; 50 μmol/L). Khi tăng cao, NH₃ dễ dàng qua hàng rào máu não: kết hợp với α-cetoglutarat thành glutamat làm cạn kiệt cơ chất của chu trình Krebs gây thiếu năng lượng não; kết hợp với glutamat thành glutamin làm tăng áp suất thẩm thấu nội bào tế bào hình sao (astrocytes) gây phù não, co giật và hôn mê gan.</li>
+<li><strong>Vận chuyển an toàn trong máu:</strong>
+<ul>
+<li>Ở hầu hết các mô: NH₄⁺ gắn vào glutamat tạo <strong>Glutamin</strong> nhờ enzym <em>Glutamin synthetase</em> (tiêu tốn ATP). Glutamin trung tính, không độc, theo máu về gan và thận.</li>
+<li>Ở mô cơ: Vận chuyển dưới dạng <strong>Alanin</strong> qua chu trình Glucose - Alanin về gan.</li>
+</ul>
+</li>
+<li><strong>Đào thải chính:</strong> Tại gan, NH₄⁺ đi vào <strong>Chu trình Ure</strong> biến đổi thành Ure không độc để đào thải qua nước tiểu (>80% tổng nitơ nước tiểu). Tại thận, glutamin bị enzym glutaminase thủy phân giải phóng NH₃ kết hợp H⁺ thành NH₄⁺ đào thải qua nước tiểu giúp điều hòa thăng bằng toan kiềm.</li>
+</ul>
 
-    <h4>3. Các phản ứng và chi phí năng lượng của Chu trình Ure:</h4>
-    <ul>
-      <li>Gồm 5 phản ứng (2 ở ty thể, 3 ở bào tương):
-        <ol>
-          <li>NH₄⁺ + HCO₃⁻ + 2 ATP → Carbamoyl phosphat + 2 ADP + Pi (CPS-I, ty thể, cần N-acetylglutamat hoạt hóa).</li>
-          <li>Carbamoyl phosphat + Ornithin → Citrullin + Pi (OTC, ty thể). Citrullin ra bào tương.</li>
-          <li>Citrullin + Aspartat + ATP → Argininosuccinat + AMP + PPi (Bào tương).</li>
-          <li>Argininosuccinat → Arginin + Fumarat (Argininosuccinase, bào tương). Fumarat đi vào chu trình Krebs.</li>
-          <li>Arginin + H₂O → Ure + Ornithin (Arginase, bào tương). Ornithin tái sử dụng quay lại ty thể.</li>
-        </ol>
-      </li>
-      <li><strong>Chi phí năng lượng:</strong> Tiêu tốn <strong>3 ATP</strong> nhưng bẻ gãy <strong>4 liên kết phosphat giàu năng lượng</strong> (do phản ứng 3 thủy phân ATP thành AMP + 2 Pi).</li>
-    </ul>
-  </div>
+<h4>3. Các phản ứng và chi phí năng lượng của Chu trình Ure:</h4>
+<ul>
+<li>Gồm 5 phản ứng (2 ở ty thể, 3 ở bào tương):
+<ol>
+<li>NH₄⁺ + HCO₃⁻ + 2 ATP → Carbamoyl phosphat + 2 ADP + Pi (CPS-I, ty thể, cần N-acetylglutamat hoạt hóa).</li>
+<li>Carbamoyl phosphat + Ornithin → Citrullin + Pi (OTC, ty thể). Citrullin ra bào tương.</li>
+<li>Citrullin + Aspartat + ATP → Argininosuccinat + AMP + PPi (Bào tương).</li>
+<li>Argininosuccinat → Arginin + Fumarat (Argininosuccinase, bào tương). Fumarat đi vào chu trình Krebs.</li>
+<li>Arginin + H₂O → Ure + Ornithin (Arginase, bào tương). Ornithin tái sử dụng quay lại ty thể.</li>
+</ol>
+</li>
+<li><strong>Chi phí năng lượng:</strong> Tiêu tốn <strong>3 ATP</strong> nhưng bẻ gãy <strong>4 liên kết phosphat giàu năng lượng</strong> (do phản ứng 3 thủy phân ATP thành AMP + 2 Pi).</li>
+</ul>
+</div>
 </div>

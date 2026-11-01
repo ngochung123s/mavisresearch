@@ -1,8 +1,8 @@
 # HS-01 · CẤU TẠO, ĐỘNG HỌC VÀ CƠ CHẾ XÚC TÁC CỦA ENZYM
 
-> **Tác giả:** PGS. TS. BS. Phạm Thiện Ngọc — Bộ môn Hóa sinh, Trường Đại học Y Hà Nội  
-> **Nguồn trích xuất:** Giáo trình Hóa sinh Y học (GS. TS. BS. Tạ Thành Văn chủ biên, Tái bản lần thứ 7, Nhà xuất bản Y học, Tr. 10 – 42)  
-> **Đối tượng:** Sinh viên Y đa khoa (Bác sĩ Y khoa), Bác sĩ Nội trú & Học viên Sau đại học  
+> **Tác giả:** PGS. TS. BS. Phạm Thiện Ngọc — Bộ môn Hóa sinh, Trường Đại học Y Hà Nội 
+> **Nguồn trích xuất:** Giáo trình Hóa sinh Y học (GS. TS. BS. Tạ Thành Văn chủ biên, Tái bản lần thứ 7, Nhà xuất bản Y học, Tr. 10 – 42) 
+> **Đối tượng:** Sinh viên Y đa khoa (Bác sĩ Y khoa), Bác sĩ Nội trú & Học viên Sau đại học 
 > **Chuẩn mực:** Khoa học chứng cứ (EBM), Danh pháp Quốc tế IUBMB, Hoàn thiện cơ chế phân tử & Bệnh học lâm sàng
 
 ---
@@ -48,19 +48,19 @@ Trong điều kiện ôn hòa như vậy, nếu không có chất xúc tác, cá
 
 ### 1.1. Bốn cách gọi tên enzym
 Trong lịch sử và thực hành y khoa, enzym có 4 cách gọi tên:
-1. **Tên cơ chất + tiếp vĩ ngữ *-ase*:**  
-   * Cơ chất là urê $\implies$ enzym là *Urease*.
-   * Cơ chất là lipid $\implies$ enzym là *Lipase*.
-   * Cơ chất là protein $\implies$ enzym là *Proteinase*.
-2. **Tên kiểu phản ứng (tác dụng) + tiếp vĩ ngữ *-ase*:**  
-   * Tác dụng oxy hóa $\implies$ *Oxidase*.
-   * Tác dụng vận chuyển nhóm amin $\implies$ *Aminotransferase*.
-   * Tác dụng khử carboxyl $\implies$ *Decarboxylase*.
-3. **Tên cơ chất + Kiểu phản ứng + tiếp vĩ ngữ *-ase* (Tên ghép mô tả đầy đủ):**  
-   * Cơ chất là lactat, tác dụng khử hydro $\implies$ *Lactat dehydrogenase* (LDH).
-   * Cơ chất là glucose-6-phosphat, tác dụng khử hydro $\implies$ *Glucose-6-phosphat dehydrogenase* (G6PD).
-4. **Tên thường gọi kinh điển (không có đuôi *-ase*):**  
-   * Các enzym tiêu hóa được phát hiện từ thế kỷ 19: *Pepsin*, *Trypsin*, *Chymotrypsin*, *Ptyalin*.
+1. **Tên cơ chất + tiếp vĩ ngữ *-ase*:** 
+* Cơ chất là urê $\implies$ enzym là *Urease*.
+* Cơ chất là lipid $\implies$ enzym là *Lipase*.
+* Cơ chất là protein $\implies$ enzym là *Proteinase*.
+2. **Tên kiểu phản ứng (tác dụng) + tiếp vĩ ngữ *-ase*:** 
+* Tác dụng oxy hóa $\implies$ *Oxidase*.
+* Tác dụng vận chuyển nhóm amin $\implies$ *Aminotransferase*.
+* Tác dụng khử carboxyl $\implies$ *Decarboxylase*.
+3. **Tên cơ chất + Kiểu phản ứng + tiếp vĩ ngữ *-ase* (Tên ghép mô tả đầy đủ):** 
+* Cơ chất là lactat, tác dụng khử hydro $\implies$ *Lactat dehydrogenase* (LDH).
+* Cơ chất là glucose-6-phosphat, tác dụng khử hydro $\implies$ *Glucose-6-phosphat dehydrogenase* (G6PD).
+4. **Tên thường gọi kinh điển (không có đuôi *-ase*):** 
+* Các enzym tiêu hóa được phát hiện từ thế kỷ 19: *Pepsin*, *Trypsin*, *Chymotrypsin*, *Ptyalin*.
 
 ---
 
@@ -96,12 +96,12 @@ Trong lịch sử và thực hành y khoa, enzym có 4 cách gọi tên:
 Enzym là các protein hình cầu có khối lượng phân tử từ 12.000 đến hơn 1.000.000 Dalton. Về cấu tạo, enzym chia làm 2 nhóm lớn:
 1. **Enzym thuần (Enzym đơn giản):** Phân tử chỉ được cấu tạo duy nhất từ các chuỗi polypeptide (acid amin). Ví dụ: Pepsin, Trypsin, Ribonuclease, Urease.
 2. **Enzym tạp (Enzym phức hợp / Holoenzym):** Phân tử gồm hai phần liên kết chặt chẽ:
-   $$\text{Holoenzym (Toàn phần)} = \text{Apoenzym (Phần protein)} + \text{Cofactor / Coenzym (Phần phi protein)}$$
-   * **Apoenzym (Phần Protein):** Quyết định **tính đặc hiệu tuyệt đối** của enzym đối với cơ chất và tạo ra khung cấu trúc không gian 3 chiều để định vị cơ chất.
-   * **Cofactor / Coenzym (Phần phi protein):** Trực tiếp tham gia vào phản ứng hóa học (nhận/nhượng điện tử, vận chuyển nhóm chức).
-     * Nếu cofactor là chất hữu cơ liên kết lỏng lẻo, dễ tách rời bằng lọc thẩm tích $\implies$ gọi là **Coenzym** (thường là dẫn xuất của vitamin nhóm B như $NAD^+$, $CoA-SH$).
-     * Nếu cofactor liên kết rất chặt chẽ hoặc liên kết cộng hóa trị bền vững với apoenzym $\implies$ gọi là **Nhóm ngoại (Prosthetic group)**, ví dụ nhóm Hem trong catalase/cytochrome, Biotin liên kết đồng hóa trị với lysine.
-     * Nếu cofactor là các ion kim loại ($Mg^{2+}$, $Zn^{2+}$, $Cu^{2+}$, $Fe^{2+}$) $\implies$ gọi là **Ion hoạt hóa / Metalloenzyme**.
+$$\text{Holoenzym (Toàn phần)} = \text{Apoenzym (Phần protein)} + \text{Cofactor / Coenzym (Phần phi protein)}$$
+* **Apoenzym (Phần Protein):** Quyết định **tính đặc hiệu tuyệt đối** của enzym đối với cơ chất và tạo ra khung cấu trúc không gian 3 chiều để định vị cơ chất.
+* **Cofactor / Coenzym (Phần phi protein):** Trực tiếp tham gia vào phản ứng hóa học (nhận/nhượng điện tử, vận chuyển nhóm chức).
+* Nếu cofactor là chất hữu cơ liên kết lỏng lẻo, dễ tách rời bằng lọc thẩm tích $\implies$ gọi là **Coenzym** (thường là dẫn xuất của vitamin nhóm B như $NAD^+$, $CoA-SH$).
+* Nếu cofactor liên kết rất chặt chẽ hoặc liên kết cộng hóa trị bền vững với apoenzym $\implies$ gọi là **Nhóm ngoại (Prosthetic group)**, ví dụ nhóm Hem trong catalase/cytochrome, Biotin liên kết đồng hóa trị với lysine.
+* Nếu cofactor là các ion kim loại ($Mg^{2+}$, $Zn^{2+}$, $Cu^{2+}$, $Fe^{2+}$) $\implies$ gọi là **Ion hoạt hóa / Metalloenzyme**.
 
 ---
 
@@ -115,22 +115,22 @@ Trung tâm hoạt động là vùng không gian 3 chiều đặc biệt trên b�
 * Chỉ chiếm một phần rất nhỏ (thường chỉ $1 - 5\\%$) tổng thể tích phân tử enzym.
 * Được tạo thành từ các gốc acid amin nằm ở các vị trí rất xa nhau trên chuỗi polypeptide nguyên thủy, nhưng nhờ cấu trúc cuộn gấp không gian bậc 3 và bậc 4 mà chúng được đưa lại gần nhau trong không gian.
 * Các acid amin thường gặp tại trung tâm hoạt động:
-  * **Serin (-OH):** Đóng vai trò acid-base và xúc tác cộng hóa trị (có mặt ở trung tâm hoạt động của chymotrypsin, acetylcholinesterase).
-  * **Histidin (vòng Imidazol):** Hoạt động như chất nhận và nhượng proton linh hoạt ở pH sinh lý $7,4$.
-  * **Cystein (-SH):** Tham gia phản ứng oxy hóa - khử hoặc tạo liên kết acyl-thiol.
-  * **Aspartat, Glutamat (-COO⁻):** Tạo liên kết ion hoặc đóng vai trò acid xúc tác.
-  * **Lysin, Arginin (-NH₃⁺):** Tạo tương tác tĩnh điện với cơ chất mang điện âm.
+* **Serin (-OH):** Đóng vai trò acid-base và xúc tác cộng hóa trị (có mặt ở trung tâm hoạt động của chymotrypsin, acetylcholinesterase).
+* **Histidin (vòng Imidazol):** Hoạt động như chất nhận và nhượng proton linh hoạt ở pH sinh lý $7,4$.
+* **Cystein (-SH):** Tham gia phản ứng oxy hóa - khử hoặc tạo liên kết acyl-thiol.
+* **Aspartat, Glutamat (-COO⁻):** Tạo liên kết ion hoặc đóng vai trò acid xúc tác.
+* **Lysin, Arginin (-NH₃⁺):** Tạo tương tác tĩnh điện với cơ chất mang điện âm.
 * Trong trung tâm hoạt động thường chia làm 2 vùng chức năng:
-  1. **Vùng gắn cơ chất (Binding site):** Chứa các acid amin nhận diện và liên kết đặc hiệu với cơ chất bằng các liên kết yếu (liên kết hydro, liên kết ion, tương tác kỵ nước, lực van der Waals).
-  2. **Vùng xúc tác (Catalytic site):** Chứa các nhóm chức trực tiếp bẻ gãy hoặc hình thành liên kết hóa học.
+1. **Vùng gắn cơ chất (Binding site):** Chứa các acid amin nhận diện và liên kết đặc hiệu với cơ chất bằng các liên kết yếu (liên kết hydro, liên kết ion, tương tác kỵ nước, lực van der Waals).
+2. **Vùng xúc tác (Catalytic site):** Chứa các nhóm chức trực tiếp bẻ gãy hoặc hình thành liên kết hóa học.
 
 #### Hai học thuyết về cơ chế gắn cơ chất vào trung tâm hoạt động:
 1. **Thuyết "Ổ khóa - Chìa khóa" (Lock and Key Model - Emil Fischer, 1894):**
-   * Cho rằng trung tâm hoạt động của enzym có cấu trúc không gian cứng nhắc, cố định và bổ khuyết hoàn toàn với hình dạng của cơ chất ngay từ trước khi gắn kết, giống như một chiếc chìa khóa ăn khớp hoàn hảo vào ổ khóa.
-   * *Hạn chế:* Thuyết này giải thích được tính đặc hiệu cao nhưng không giải thích được cơ chế enzym làm biến dạng và hoạt hóa cơ chất để hạ năng lượng hoạt hóa.
+* Cho rằng trung tâm hoạt động của enzym có cấu trúc không gian cứng nhắc, cố định và bổ khuyết hoàn toàn với hình dạng của cơ chất ngay từ trước khi gắn kết, giống như một chiếc chìa khóa ăn khớp hoàn hảo vào ổ khóa.
+* *Hạn chế:* Thuyết này giải thích được tính đặc hiệu cao nhưng không giải thích được cơ chế enzym làm biến dạng và hoạt hóa cơ chất để hạ năng lượng hoạt hóa.
 2. **Thuyết "Cảm ứng tiếp xúc" (Induced Fit Model - Daniel Koshland, 1958):**
-   * Cho rằng trung tâm hoạt động của enzym có tính linh hoạt mềm dẻo. Ban đầu hình thể của nó chưa khớp hoàn toàn với cơ chất. Khi cơ chất tiếp cận và tương tác với vùng gắn, chính cơ chất sẽ **gây cảm ứng** làm thay đổi cấu hình không gian của trung tâm hoạt động, khiến các acid amin xúc tác chuyển dịch vào đúng vị trí tối ưu để ôm sát và tác dụng lên cơ chất.
-   * Thuyết Koshland là học thuyết hiện đại được công nhận rộng rãi nhất hiện nay.
+* Cho rằng trung tâm hoạt động của enzym có tính linh hoạt mềm dẻo. Ban đầu hình thể của nó chưa khớp hoàn toàn với cơ chất. Khi cơ chất tiếp cận và tương tác với vùng gắn, chính cơ chất sẽ **gây cảm ứng** làm thay đổi cấu hình không gian của trung tâm hoạt động, khiến các acid amin xúc tác chuyển dịch vào đúng vị trí tối ưu để ôm sát và tác dụng lên cơ chất.
+* Thuyết Koshland là học thuyết hiện đại được công nhận rộng rãi nhất hiện nay.
 
 ---
 
@@ -141,15 +141,15 @@ Isoenzym là các dạng phân tử khác nhau của cùng một enzym, cùng x�
 
 ##### Hai hệ thống Isoenzym kinh điển trong chẩn đoán y học:
 1. **Creatine Kinase (CK):** Là một dimer gồm 2 loại bán đơn vị: **M** (Muscle - Cơ) và **B** (Brain - Não), tạo thành 3 isoenzym:
-   * **CK-BB ($CK_1$):** Chiếm ưu thế ở tổ chức não và hệ thần kinh trung ương.
-   * **CK-MB ($CK_2$):** Đặc hiệu cao cho cơ tim (chiếm $15 - 20\\%$ tổng hoạt độ CK cơ tim; ở cơ vân bình thường chỉ $<1 - 2\\%$). Là chất chỉ điểm vàng cổ điển trong chẩn đoán **Nhồi máu cơ tim cấp** (tăng sau 3 - 6 giờ, đỉnh 18 - 24 giờ, về bình thường sau 48 - 72 giờ).
-   * **CK-MM ($CK_3$):** Chiếm ưu thế tuyệt đối ở cơ vân ($98\\%$) và huyết thanh người bình thường. Tăng rất mạnh trong viêm cơ, chấn thương dập nát cơ hoặc tiêu cơ vân cấp (Rhabdomyolysis).
+* **CK-BB ($CK_1$):** Chiếm ưu thế ở tổ chức não và hệ thần kinh trung ương.
+* **CK-MB ($CK_2$):** Đặc hiệu cao cho cơ tim (chiếm $15 - 20\\%$ tổng hoạt độ CK cơ tim; ở cơ vân bình thường chỉ $<1 - 2\\%$). Là chất chỉ điểm vàng cổ điển trong chẩn đoán **Nhồi máu cơ tim cấp** (tăng sau 3 - 6 giờ, đỉnh 18 - 24 giờ, về bình thường sau 48 - 72 giờ).
+* **CK-MM ($CK_3$):** Chiếm ưu thế tuyệt đối ở cơ vân ($98\\%$) và huyết thanh người bình thường. Tăng rất mạnh trong viêm cơ, chấn thương dập nát cơ hoặc tiêu cơ vân cấp (Rhabdomyolysis).
 2. **Lactat Dehydrogenase (LDH):** Là một tetramer gồm 4 bán đơn vị thuộc 2 loại: **H** (Heart - Tim) và **M** (Muscle - Cơ), tạo thành 5 isoenzym:
-   * **LDH1 ($H_4$):** Nhiều nhất ở cơ tim và hồng cầu.
-   * **LDH2 ($H_3M$):** Bình thường trong huyết thanh người khỏe mạnh, $LDH2 > LDH1$. Khi bị **Nhồi máu cơ tim cấp** hoặc tan máu cấp, cơ tim/hồng cầu giải phóng lượng lớn LDH1 vào máu tạo nên hiện tượng **"đảo ngược tỷ lệ" ($LDH1 > LDH2$)**.
-   * **LDH3 ($H_2M_2$):** Nhiều ở tổ chức phổi, lách, bạch cầu.
-   * **LDH4 ($HM_3$):** Phân bố ở thận, tụy, nhau thai.
-   * **LDH5 ($M_4$):** Nhiều nhất ở nhu mô gan và cơ vân. Tăng cao trong viêm gan cấp hoại tử tế bào gan và tổn thương cơ vân nặng.
+* **LDH1 ($H_4$):** Nhiều nhất ở cơ tim và hồng cầu.
+* **LDH2 ($H_3M$):** Bình thường trong huyết thanh người khỏe mạnh, $LDH2 > LDH1$. Khi bị **Nhồi máu cơ tim cấp** hoặc tan máu cấp, cơ tim/hồng cầu giải phóng lượng lớn LDH1 vào máu tạo nên hiện tượng **"đảo ngược tỷ lệ" ($LDH1 > LDH2$)**.
+* **LDH3 ($H_2M_2$):** Nhiều ở tổ chức phổi, lách, bạch cầu.
+* **LDH4 ($HM_3$):** Phân bố ở thận, tụy, nhau thai.
+* **LDH5 ($M_4$):** Nhiều nhất ở nhu mô gan và cơ vân. Tăng cao trong viêm gan cấp hoại tử tế bào gan và tổn thương cơ vân nặng.
 
 #### 2.3.2. Enzym dị lập thể (Allosteric Enzymes)
 Enzym dị lập thể là các enzym có thêm một hoặc nhiều **vị trí dị lập thể (Allosteric site)** nằm tách biệt hoàn toàn khỏi trung tâm hoạt động.
@@ -162,8 +162,8 @@ Enzym dị lập thể là các enzym có thêm một hoặc nhiều **vị trí
 #### 2.3.3. Tiền enzym (Zymogen / Proenzyme)
 Là dạng enzym chưa có hoạt tính sinh học do tế bào tổng hợp và bài tiết ra. Khi được vận chuyển đến đúng cơ quan đích, zymogen sẽ được hoạt hóa bằng cách thủy phân cắt bỏ một hoặc vài đoạn peptid che lấp trung tâm hoạt động, làm bộc lộ trung tâm hoạt động chức năng.
 * *Ví dụ:*
-  * **Pepsinogen** do tế bào chính niêm mạc dạ dày tiết ra $\\xrightarrow{HCl / Pepsin}$ cắt bỏ đoạn peptid 44 acid amin ở đầu N $\implies$ trở thành **Pepsin** hoạt động.
-  * **Trypsinogen** do tụy tiết ra $\\xrightarrow{Enteropeptidase / Trypsin}$ cắt bỏ đoạn hexapeptid $\implies$ tạo thành **Trypsin** hoạt động trong lòng ruột non.
+* **Pepsinogen** do tế bào chính niêm mạc dạ dày tiết ra $\\xrightarrow{HCl / Pepsin}$ cắt bỏ đoạn peptid 44 acid amin ở đầu N $\implies$ trở thành **Pepsin** hoạt động.
+* **Trypsinogen** do tụy tiết ra $\\xrightarrow{Enteropeptidase / Trypsin}$ cắt bỏ đoạn hexapeptid $\implies$ tạo thành **Trypsin** hoạt động trong lòng ruột non.
 * *Ý nghĩa sinh học sống còn:* Bảo vệ tế bào và mô sản xuất không bị tự tiêu hóa (tự phân giải protein nội tại). Nếu zymogen của tụy (trypsinogen, chymotrypsinogen) bị hoạt hóa sớm ngay bên trong mô tụy sẽ dẫn đến bệnh cảnh cấp cứu ngoại khoa nguy kịch: **Viêm tụy cấp hoại tử (Acute pancreatitis)**.
 
 #### 2.3.4. Phức hợp đa enzym (Multienzyme Complex)
@@ -184,16 +184,16 @@ Coenzym là các phân tử hữu cơ phi protein trọng lượng phân tử nh
 * **Nguồn gốc:** Dẫn xuất từ **Vitamin $B_3$** (Acid nicotinic / Niacin / Nicotinamid).
 * **Cấu tạo phân tử:** Gồm 2 nucleotid liên kết qua cầu nối pyrophosphat: một nucleotid chứa base adenin và một nucleotid chứa base nicotinamid. Ở $NADP^+$, có thêm nhóm phosphat gắn tại vị trí $C_{2'}$ của đường ribose phía adenin.
 * **Cơ chế hoạt động:** Vòng nicotinamid là trung tâm chức năng nhận hydro. Khi bị khử, vòng nicotinamid nhận **1 ion hydrid ($:H^-$ gồm 1 proton và 2 electron)** vào vị trí $C_4$, còn 1 proton ($H^+$) được giải phóng vào môi trường dịch bào:
-  $$AH_2 + NAD^+ \rightleftharpoons A + NADH + H^+$$
+$$AH_2 + NAD^+ \rightleftharpoons A + NADH + H^+$$
 * **Phân định chức năng sinh học cốt lõi:**
-  * **$NAD^+ / NADH$:** Chủ yếu tham gia vào các quá trình **thoái hóa (dị hóa)** tạo năng lượng ATP (đường phân, chu trình Krebs, $\beta$-oxy hóa acid béo) và chuỗi hô hấp tế bào tại ty thể ($1\,NADH \implies 2,5\,ATP$).
-  * **$NADP^+ / NADPH$:** Chủ yếu tham gia vào các quá trình **tổng hợp (đồng hóa)** cần lực khử cao (tổng hợp acid béo, cholesterol, hormon steroid) và khử độc chống gốc tự do tại hồng cầu (duy trì Glutathion dạng khử $GSH$ nhờ enzym Glutathion reductase).
+* **$NAD^+ / NADH$:** Chủ yếu tham gia vào các quá trình **thoái hóa (dị hóa)** tạo năng lượng ATP (đường phân, chu trình Krebs, $\beta$-oxy hóa acid béo) và chuỗi hô hấp tế bào tại ty thể ($1\,NADH \implies 2,5\,ATP$).
+* **$NADP^+ / NADPH$:** Chủ yếu tham gia vào các quá trình **tổng hợp (đồng hóa)** cần lực khử cao (tổng hợp acid béo, cholesterol, hormon steroid) và khử độc chống gốc tự do tại hồng cầu (duy trì Glutathion dạng khử $GSH$ nhờ enzym Glutathion reductase).
 
 #### 3.1.2. Flavin Adenin Dinucleotid ($FAD$) và Flavin Mononucleotid ($FMN$)
 * **Nguồn gốc:** Dẫn xuất từ **Vitamin $B_2$** (Riboflavin).
 * **Cấu tạo phân tử:** Gồm nhân dị vòng isoalloxazin gắn với rượu đường ribitol.
 * **Cơ chế hoạt động:** Nhân isoalloxazin có khả năng nhận liên tiếp **2 nguyên tử hydro ($2H^+ + 2e^-$)** tại vị trí nitơ $N_1$ và $N_{10}$ để chuyển thành dạng khử $FADH_2$ hoặc $FMNH_2$ (qua một trạng thái trung gian gốc tự do semiquinon):
-  $$AH_2 + FAD \rightleftharpoons A + FADH_2$$
+$$AH_2 + FAD \rightleftharpoons A + FADH_2$$
 * **Ví dụ:** Succinat dehydrogenase trong chu trình Krebs xúc tác khử hydro của succinat thành fumarat tạo $FADH_2$ (đi vào chuỗi hô hấp tế bào tạo $1,5\,ATP$).
 
 ---
@@ -249,11 +249,11 @@ Enzym làm tăng tốc độ phản ứng lên hàng triệu đến hàng tỷ l
 *Hình 1.4. So sánh con đường phản ứng khi không có chất xúc tác và khi có enzym: Enzym tạo con đường phản ứng mới có năng lượng hoạt hóa thấp hơn đáng kể.*
 
 #### Hai nguyên lý nhiệt động học cốt tử của enzym:
-1. **Enzym chỉ làm giảm năng lượng hoạt hóa ($\Delta G^\ddagger$), hoàn toàn không làm thay đổi biến thiên năng lượng tự do toàn phần ($\Delta G$) của phản ứng:**  
-   Mức năng lượng của cơ chất ban đầu ($S$) và sản phẩm cuối cùng ($P$) là hoàn toàn không đổi. Enzym không thể biến một phản ứng thu nhiệt không thuận lợi về mặt nhiệt động học thành phản ứng tự phát được.
-2. **Enzym chỉ làm tăng tốc độ đạt tới trạng thái cân bằng, hoàn toàn không làm thay đổi hằng số cân bằng phản ứng ($K_{eq}$):**  
-   Enzym làm tăng tốc độ phản ứng thuận ($v_1$) và tốc độ phản ứng nghịch ($v_2$) với tỷ lệ ngang nhau:
-   $$K_{eq} = \frac{k_1}{k_2} = \text{Hằng số không đổi}$$
+1. **Enzym chỉ làm giảm năng lượng hoạt hóa ($\Delta G^\ddagger$), hoàn toàn không làm thay đổi biến thiên năng lượng tự do toàn phần ($\Delta G$) của phản ứng:** 
+Mức năng lượng của cơ chất ban đầu ($S$) và sản phẩm cuối cùng ($P$) là hoàn toàn không đổi. Enzym không thể biến một phản ứng thu nhiệt không thuận lợi về mặt nhiệt động học thành phản ứng tự phát được.
+2. **Enzym chỉ làm tăng tốc độ đạt tới trạng thái cân bằng, hoàn toàn không làm thay đổi hằng số cân bằng phản ứng ($K_{eq}$):** 
+Enzym làm tăng tốc độ phản ứng thuận ($v_1$) và tốc độ phản ứng nghịch ($v_2$) với tỷ lệ ngang nhau:
+$$K_{eq} = \frac{k_1}{k_2} = \text{Hằng số không đổi}$$
 
 ---
 
@@ -262,9 +262,9 @@ Enzym làm tăng tốc độ phản ứng lên hàng triệu đến hàng tỷ l
 ### 5.1. Tốc độ phản ứng enzym và đơn vị đo
 Tốc độ phản ứng enzym ($v$) là lượng cơ chất bị biến đổi hoặc lượng sản phẩm được tạo thành dưới tác dụng của enzym trong một đơn vị thời gian dưới các điều kiện chuẩn hóa ($pH$, nhiệt độ tối ưu).
 * **Đơn vị quốc tế (IU - International Unit):** Là lượng enzym xúc tác chuyển hóa được $1\,\mu\text{mol}$ cơ chất trong thời gian $1\,\text{phút}$ ở điều kiện tiêu chuẩn ($25^\circ\text{C}$):
-  $$1\,\text{IU} = 1\,\mu\text{mol/phút} = 10^{-6}\,\text{mol/60 s} \approx 16,67\,\text{nkat}$$
+$$1\,\text{IU} = 1\,\mu\text{mol/phút} = 10^{-6}\,\text{mol/60 s} \approx 16,67\,\text{nkat}$$
 * **Hệ đơn vị SI (Katal - kat):** Là lượng enzym xúc tác chuyển hóa được $1\,\text{mol}$ cơ chất trong thời gian $1\,\text{giây}$:
-  $$1\,\text{kat} = 1\,\text{mol/s} = 6 \times 10^7\,\text{IU}$$
+$$1\,\text{kat} = 1\,\text{mol/s} = 6 \times 10^7\,\text{IU}$$
 
 ---
 
@@ -282,26 +282,26 @@ Trong đó:
 * $v$: Tốc độ phản ứng tại nồng độ cơ chất $[S]$.
 * $V_{max}$: Tốc độ tối đa khi toàn bộ enzym đều bão hòa cơ chất (tất cả enzym tồn tại ở dạng phức hợp $[ES]$).
 * $K_m$: Hằng số Michaelis, được định nghĩa bằng:
-  $$K_m = \frac{k_{-1} + k_2}{k_1}$$
+$$K_m = \frac{k_{-1} + k_2}{k_1}$$
 
 #### Khảo sát các trường hợp giới hạn:
-1. **Khi nồng độ cơ chất rất thấp ($[S] \ll K_m$):**  
-   Mẫu số $K_m + [S] \approx K_m$. Phương trình trở thành:
-   $$v \approx \left(\frac{V_{max}}{K_m}\right) [S]$$
-   Tốc độ phản ứng $v$ tỷ lệ thuận tuyến tính bậc nhất với nồng độ cơ chất $[S]$ (Động học bậc 1).
-2. **Khi nồng độ cơ chất rất cao đạt mức bão hòa ($[S] \gg K_m$):**  
-   Mẫu số $K_m + [S] \approx [S]$. Phương trình trở thành:
-   $$v \approx V_{max}$$
-   Tốc độ phản ứng đạt cực đại và không đổi dù có tiếp tục tăng thêm nồng độ cơ chất (Động học bậc 0).
-3. **Khi tốc độ phản ứng đạt bằng một nửa tốc độ tối đa ($v = \frac{V_{max}}{2}$):**  
-   $$\frac{V_{max}}{2} = \frac{V_{max} [S]}{K_m + [S]} \implies K_m + [S] = 2[S] \implies K_m = [S]$$
+1. **Khi nồng độ cơ chất rất thấp ($[S] \ll K_m$):** 
+Mẫu số $K_m + [S] \approx K_m$. Phương trình trở thành:
+$$v \approx \left(\frac{V_{max}}{K_m}\right) [S]$$
+Tốc độ phản ứng $v$ tỷ lệ thuận tuyến tính bậc nhất với nồng độ cơ chất $[S]$ (Động học bậc 1).
+2. **Khi nồng độ cơ chất rất cao đạt mức bão hòa ($[S] \gg K_m$):** 
+Mẫu số $K_m + [S] \approx [S]$. Phương trình trở thành:
+$$v \approx V_{max}$$
+Tốc độ phản ứng đạt cực đại và không đổi dù có tiếp tục tăng thêm nồng độ cơ chất (Động học bậc 0).
+3. **Khi tốc độ phản ứng đạt bằng một nửa tốc độ tối đa ($v = \frac{V_{max}}{2}$):** 
+$$\frac{V_{max}}{2} = \frac{V_{max} [S]}{K_m + [S]} \implies K_m + [S] = 2[S] \implies K_m = [S]$$
 
 #### Định nghĩa và Ý nghĩa cốt lõi của Hằng số $K_m$:
 * **Định nghĩa:** $K_m$ là **nồng độ cơ chất** (đơn vị: $\text{mol/L}$ hoặc $\text{mmol/L}$) tại đó tốc độ phản ứng đạt bằng một nửa tốc độ tối đa ($V_{max}/2$).
 * **Đặc tính:** $K_m$ là một hằng số đặc trưng cho mỗi cặp enzym - cơ chất nhất định trong điều kiện xác định ($pH$, nhiệt độ), **hoàn toàn không phụ thuộc vào nồng độ enzym $[E]$**.
 * **Ý nghĩa ái lực:** $K_m$ tỷ lệ nghịch với ái lực của enzym đối với cơ chất:
-  * **$K_m$ càng nhỏ $\implies$ Ái lực enzym với cơ chất càng lớn:** Enzym chỉ cần một lượng rất nhỏ cơ chất là đã đạt được $50\\%$ tốc độ tối đa.
-  * **$K_m$ càng lớn $\implies$ Ái lực enzym với cơ chất càng yếu:** Cần nồng độ cơ chất rất cao enzym mới hoạt động hiệu quả.
+* **$K_m$ càng nhỏ $\implies$ Ái lực enzym với cơ chất càng lớn:** Enzym chỉ cần một lượng rất nhỏ cơ chất là đã đạt được $50\\%$ tốc độ tối đa.
+* **$K_m$ càng lớn $\implies$ Ái lực enzym với cơ chất càng yếu:** Cần nồng độ cơ chất rất cao enzym mới hoạt động hiệu quả.
 
 #### Ứng dụng y học đối chiếu: Hexokinase vs Glucokinase
 * **Hexokinase (có ở hầu hết các mô, cơ vân, não):** Có $K_m$ với glucose rất thấp ($\approx 0,05 - 0,1\,\text{mmol/L}$), thấp hơn nhiều so với nồng độ glucose máu lúc đói ($3,9 - 5,6\,\text{mmol/L}$). Do đó, Hexokinase luôn hoạt động bão hòa ở tốc độ tối đa, đảm bảo não và các mô sống còn luôn thu nhận và thoái hóa glucose để sinh năng lượng liên tục ngay cả khi nhịn đói kéo dài.
@@ -335,8 +335,8 @@ $$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \\cdot \frac{
 * **Nhiệt độ tối thích ($T_{opt}$):** Là nhiệt độ mà tại đó enzym có hoạt tính xúc tác cao nhất. Với hầu hết enzym trong cơ thể người, $T_{opt} \approx 37 - 40^\circ\text{C}$.
 * **Biến tính nhiệt:** Khi nhiệt độ vượt quá $55 - 60^\circ\text{C}$, các liên kết yếu (liên kết hydro, tương tác kỵ nước) duy trì cấu trúc không gian bậc 3 và bậc 4 của protein enzym bị phá vỡ hoàn toàn $\implies$ enzym bị đông tụ, biến tính không hồi phục và mất hoàn toàn hoạt tính xúc tác.
 * *Ứng dụng y học:* 
-  * Bảo quản mẫu huyết thanh xét nghiệm enzym ở $2 - 8^\circ\text{C}$ hoặc đông sâu $-20^\circ\text{C}$ để làm chậm phản ứng tự thoái hóa.
-  * Ứng dụng hạ thân nhiệt chỉ huy trong phẫu thuật tim mạch hở để giảm chuyển hóa cơ thể.
+* Bảo quản mẫu huyết thanh xét nghiệm enzym ở $2 - 8^\circ\text{C}$ hoặc đông sâu $-20^\circ\text{C}$ để làm chậm phản ứng tự thoái hóa.
+* Ứng dụng hạ thân nhiệt chỉ huy trong phẫu thuật tim mạch hở để giảm chuyển hóa cơ thể.
 
 ---
 
@@ -347,11 +347,11 @@ $$\frac{1}{v} = \frac{K_m + [S]}{V_{max}[S]} = \frac{K_m}{V_{max}} \\cdot \frac{
 
 * **Cơ chế:** pH môi trường làm thay đổi trạng thái ion hóa (điện tích) của các gốc acid amin tại trung tâm hoạt động và của chính cơ chất, từ đó ảnh hưởng đến khả năng liên kết giữa chúng. Ở các mức pH quá toan hoặc quá kiềm, enzym bị biến tính protein.
 * **pH tối thích ($pH_{opt}$):** Mỗi enzym hoạt động tối ưu ở một vùng pH hẹp đặc thù phản ánh môi trường sinh lý hoạt động của nó:
-  * **Pepsin dạ dày:** $pH_{opt} \approx 1,5 - 2,0$ (môi trường dịch vị acid clohydric đậm đặc).
-  * **Trypsin & Chymotrypsin ruột non:** $pH_{opt} \approx 7,8 - 8,2$ (môi trường kiềm của dịch tụy và dịch mật).
-  * **Phosphatase acid (ACP):** $pH_{opt} \approx 4,5 - 5,0$ (trong tiêu thể lysosome và dịch tuyến tiền liệt).
-  * **Phosphatase kiềm (ALP):** $pH_{opt} \approx 9,5 - 10,0$.
-  * **Các enzym nội bào (AST, ALT, LDH):** $pH_{opt} \approx 7,2 - 7,4$.
+* **Pepsin dạ dày:** $pH_{opt} \approx 1,5 - 2,0$ (môi trường dịch vị acid clohydric đậm đặc).
+* **Trypsin & Chymotrypsin ruột non:** $pH_{opt} \approx 7,8 - 8,2$ (môi trường kiềm của dịch tụy và dịch mật).
+* **Phosphatase acid (ACP):** $pH_{opt} \approx 4,5 - 5,0$ (trong tiêu thể lysosome và dịch tuyến tiền liệt).
+* **Phosphatase kiềm (ALP):** $pH_{opt} \approx 9,5 - 10,0$.
+* **Các enzym nội bào (AST, ALT, LDH):** $pH_{opt} \approx 7,2 - 7,4$.
 
 ---
 
@@ -360,8 +360,8 @@ Chất ức chế ($I$) là những chất hóa học khi gắn vào enzym làm 
 
 #### 6.3.1. Ức chế cạnh tranh (Competitive Inhibition)
 * **Bản chất phân tử:** Chất ức chế ($I$) có cấu trúc hóa học và hình thể không gian **rất giống với cơ chất ($S$)**. Do đó, $I$ và $S$ cạnh tranh trực tiếp để tranh chấp gắn vào cùng một trung tâm hoạt động của enzym tự do ($E$):
-  $$E + S \rightleftharpoons ES \implies P$$
-  $$E + I \rightleftharpoons EI \implies \text{Không tạo sản phẩm}$$
+$$E + S \rightleftharpoons ES \implies P$$
+$$E + I \rightleftharpoons EI \implies \text{Không tạo sản phẩm}$$
 
 ![Mô hình ức chế cạnh tranh](hoasinh_media/HS-01_fig17_competitive_model.png)
 *Hình 1.9. Chất ức chế cạnh tranh ($I$) gắn vào trung tâm hoạt động ngăn cản cơ chất ($S$) tiếp cận.*
@@ -370,23 +370,23 @@ Chất ức chế ($I$) là những chất hóa học khi gắn vào enzym làm 
 *Hình 1.10. Đồ thị Lineweaver - Burk trong ức chế cạnh tranh: Đồ thị cắt nhau tại trục tung ($1/V_{max}$ không đổi, $-1/K_m$ tiến gần về gốc tọa độ $\implies K_m$ biểu kiến tăng).*
 
 * **Đặc điểm động học:**
-  * **$V_{max}$ không đổi:** Khi nồng độ cơ chất $[S]$ được tăng lên cực lớn, cơ chất áp đảo hoàn toàn chất ức chế và chiếm lĩnh toàn bộ trung tâm hoạt động, đưa tốc độ phản ứng đạt tới $V_{max}$ ban đầu.
-  * **$K_m$ tăng ($K_m' > K_m$):** Sự có mặt của chất ức chế làm giảm ái lực biểu kiến của enzym đối với cơ chất, đòi hỏi nồng độ cơ chất cao hơn mới đạt được một nửa $V_{max}$.
+* **$V_{max}$ không đổi:** Khi nồng độ cơ chất $[S]$ được tăng lên cực lớn, cơ chất áp đảo hoàn toàn chất ức chế và chiếm lĩnh toàn bộ trung tâm hoạt động, đưa tốc độ phản ứng đạt tới $V_{max}$ ban đầu.
+* **$K_m$ tăng ($K_m' > K_m$):** Sự có mặt của chất ức chế làm giảm ái lực biểu kiến của enzym đối với cơ chất, đòi hỏi nồng độ cơ chất cao hơn mới đạt được một nửa $V_{max}$.
 * **Ví dụ Y học & Dược lý kinh điển:**
-  1. **Allopurinol điều trị bệnh Gout:** Allopurinol có cấu trúc tương tự hypoxanthin, cạnh tranh gắn vào trung tâm hoạt động của enzym **Xanthine oxidase**, ức chế quá trình oxy hóa tạo acid uric, từ đó hạ acid uric máu và dự phòng cơn Gout cấp.
+1. **Allopurinol điều trị bệnh Gout:** Allopurinol có cấu trúc tương tự hypoxanthin, cạnh tranh gắn vào trung tâm hoạt động của enzym **Xanthine oxidase**, ức chế quá trình oxy hóa tạo acid uric, từ đó hạ acid uric máu và dự phòng cơn Gout cấp.
 
 ![Cấu trúc Allopurinol cạnh tranh với Hypoxanthin](hoasinh_media/HS-01_fig19_allopurinol.png)
 *Hình 1.11. Cấu trúc đối chiếu giữa Allopurinol và Hypoxanthin/Xanthin.*
 
-  2. **Nhóm thuốc Statin (Atorvastatin, Rosuvastatin):** Có cấu trúc tương tự HMG-CoA, ức chế cạnh tranh với enzym **HMG-CoA Reductase**, ngăn chặn sinh tổng hợp cholesterol nội sinh ở gan, là thuốc nền tảng điều trị rối loạn lipid máu và xơ vữa động mạch.
-  3. **Thuốc kháng sinh Sulfamid:** Có cấu trúc tương tự acid para-aminobenzoic (PABA), cạnh tranh ức chế enzym tổng hợp acid folic của vi khuẩn.
+2. **Nhóm thuốc Statin (Atorvastatin, Rosuvastatin):** Có cấu trúc tương tự HMG-CoA, ức chế cạnh tranh với enzym **HMG-CoA Reductase**, ngăn chặn sinh tổng hợp cholesterol nội sinh ở gan, là thuốc nền tảng điều trị rối loạn lipid máu và xơ vữa động mạch.
+3. **Thuốc kháng sinh Sulfamid:** Có cấu trúc tương tự acid para-aminobenzoic (PABA), cạnh tranh ức chế enzym tổng hợp acid folic của vi khuẩn.
 
 ---
 
 #### 6.3.2. Ức chế không cạnh tranh (Non-competitive Inhibition)
 * **Bản chất phân tử:** Chất ức chế ($I$) gắn vào một vị trí dị lập thể riêng biệt trên phân tử enzym, **không gắn vào trung tâm hoạt động**. Do đó, $I$ có thể gắn tự do vào cả enzym tự do ($E$) lẫn phức hợp enzym - cơ chất ($ES$):
-  $$E + I \rightleftharpoons EI$$
-  $$ES + I \rightleftharpoons ESI$$
+$$E + I \rightleftharpoons EI$$
+$$ES + I \rightleftharpoons ESI$$
 
 ![Mô hình ức chế không cạnh tranh](hoasinh_media/HS-01_fig20_noncompetitive_model.png)
 *Hình 1.12. Chất ức chế không cạnh tranh gắn vào vị trí riêng biệt ngoài trung tâm hoạt động.*
@@ -395,13 +395,13 @@ Chất ức chế ($I$) là những chất hóa học khi gắn vào enzym làm 
 *Hình 1.13. Đồ thị Lineweaver - Burk trong ức chế không cạnh tranh: Cắt nhau tại trục hoành ($-1/K_m$ không đổi), trục tung nâng cao ($V_{max}$ giảm).*
 
 * **Đặc điểm động học:**
-  * **$K_m$ không đổi:** Vì chất ức chế không can thiệp vào sự gắn của cơ chất vào trung tâm hoạt động nên ái lực của enzym với cơ chất hoàn toàn không bị ảnh hưởng.
-  * **$V_{max}$ giảm ($V_{max}' < V_{max}$):** Phức hợp $ESI$ không thể phân giải thành sản phẩm. Vì vậy, một phần phân tử enzym bị vô hiệu hóa, việc tăng nồng độ cơ chất $[S]$ **không thể** khắc phục được sự ức chế này.
+* **$K_m$ không đổi:** Vì chất ức chế không can thiệp vào sự gắn của cơ chất vào trung tâm hoạt động nên ái lực của enzym với cơ chất hoàn toàn không bị ảnh hưởng.
+* **$V_{max}$ giảm ($V_{max}' < V_{max}$):** Phức hợp $ESI$ không thể phân giải thành sản phẩm. Vì vậy, một phần phân tử enzym bị vô hiệu hóa, việc tăng nồng độ cơ chất $[S]$ **không thể** khắc phục được sự ức chế này.
 
 ---
 
 #### 6.3.3. Ức chế hỗn hợp (Mixed Inhibition)
-* **Bản chất:** Chất ức chế gắn vào cả enzym tự do $E$ và phức hợp $ES$, nhưng với ái lực khác nhau ($K_i \\neq K_i'$).
+* **Bản chất:** Chất ức chế gắn vào cả enzym tự do $E$ và phức hợp $ES$, nhưng với ái lực khác nhau ($K_i \ eq K_i'$).
 
 ![Đồ thị Lineweaver-Burk ức chế hỗn hợp](hoasinh_media/HS-01_fig23_mixed_lineweaver.png)
 *Hình 1.14. Đồ thị Lineweaver - Burk trong ức chế hỗn hợp: Điểm giao nhau nằm ở góc phần tư thứ hai (cả $V_{max}$ giảm và $K_m$ thay đổi).*
@@ -420,13 +420,13 @@ Chất ức chế không thuận nghịch tạo liên kết cộng hóa trị b�
 1. **Bình thường:** Enzym **Acetylcholinesterase (AChE)** tại các khe synap thần kinh xúc tác thủy phân chất dẫn truyền thần kinh Acetylcholin thành Cholin và Acetat với tốc độ siêu nhanh ($1\,\text{phân tử AChE thủy phân } 25.000\,\text{phân tử ACh/giây}$), giúp chấm dứt xung động thần kinh sau khi kích thích.
 2. **Khi nhiễm độc:** Các phân tử phospho hữu cơ (như Diisopropylphosphofluoridate - DFP, Parathion, Malathion, hoặc hơi ngạt thần kinh Sarin, VX) chứa nguyên tử phospho mang điện tích dương ái nhân sẽ tấn công và tạo **liên kết este phospho cộng hóa trị bền vững** với nhóm hydroxyl ($-OH$) của gốc **Serin** thiết yếu trong trung tâm hoạt động của AChE.
 3. **Hậu quả lâm sàng:** Enzym AChE bị phong bế hoàn toàn $\implies$ Acetylcholin không bị giáng hóa, tích tụ ồ ạt với nồng độ cực cao tại toàn bộ các synap thần kinh cholinergic trong cơ thể:
-   * **Hội chứng Muscarinic (Cường phó giao cảm cấp):** Đồng tử co nhỏ như đầu đinh ghim, tăng tiết dịch ồ ạt (chảy nước mắt, nước bọt, vã mồ hôi, ứ đọng dịch phế quản gây phù phổi cấp), co thắt phế quản gây khó thở dữ dội, tim đập chậm, đau quặn bụng, tiêu chảy mất kiểm soát.
-   * **Hội chứng Nicotinic:** Co giật thớ cơ cục bộ, rung giật bó cơ (fasciculation), sau đó liệt cơ toàn thân, nguy hiểm nhất là liệt cơ hoành và cơ liên sườn dẫn tới suy hô hấp tử vong.
-   * **Hội chứng Thần kinh trung ương:** Lo âu, lú lẫn, co giật toàn thân và hôn mê sâu.
+* **Hội chứng Muscarinic (Cường phó giao cảm cấp):** Đồng tử co nhỏ như đầu đinh ghim, tăng tiết dịch ồ ạt (chảy nước mắt, nước bọt, vã mồ hôi, ứ đọng dịch phế quản gây phù phổi cấp), co thắt phế quản gây khó thở dữ dội, tim đập chậm, đau quặn bụng, tiêu chảy mất kiểm soát.
+* **Hội chứng Nicotinic:** Co giật thớ cơ cục bộ, rung giật bó cơ (fasciculation), sau đó liệt cơ toàn thân, nguy hiểm nhất là liệt cơ hoành và cơ liên sườn dẫn tới suy hô hấp tử vong.
+* **Hội chứng Thần kinh trung ương:** Lo âu, lú lẫn, co giật toàn thân và hôn mê sâu.
 4. **Nguyên lý điều trị cấp cứu giải độc đặc hiệu EBM:**
-   * **Atropin sulfat liều cao:** Là chất đối kháng cạnh tranh đặc hiệu với acetylcholin tại thụ thể Muscarinic, giúp phong bế tác dụng của acetylcholin dư thừa tại cơ quan đích (dấu hiệu ngấm atropin: đồng tử giãn, da khô ấm, mạch nhanh, phổi hết ứ đọng rale ẩm).
-   * **Pralidoxime (PAM / 2-PAM) hoặc Obidoxime:** Là các **chất tái hoạt hóa enzym cholinesterase**. Nhóm oxime của PAM có ái lực cực cao với nguyên tử phospho, tấn công bẻ gãy liên kết este phospho - serin, giải phóng lại nhóm $-OH$ của Serin, phục hồi lại hoạt tính nguyên vẹn của enzym AChE.  
-     *(Lưu ý lâm sàng: PAM phải được dùng càng sớm càng tốt trong vòng 24 - 48 giờ đầu trước khi xảy ra hiện tượng "Lão hóa enzym" - Aging process, khi nhóm alkyl bị tách ra khiến liên kết phospho-enzym bền vững vĩnh viễn không thể đảo ngược).*
+* **Atropin sulfat liều cao:** Là chất đối kháng cạnh tranh đặc hiệu với acetylcholin tại thụ thể Muscarinic, giúp phong bế tác dụng của acetylcholin dư thừa tại cơ quan đích (dấu hiệu ngấm atropin: đồng tử giãn, da khô ấm, mạch nhanh, phổi hết ứ đọng rale ẩm).
+* **Pralidoxime (PAM / 2-PAM) hoặc Obidoxime:** Là các **chất tái hoạt hóa enzym cholinesterase**. Nhóm oxime của PAM có ái lực cực cao với nguyên tử phospho, tấn công bẻ gãy liên kết este phospho - serin, giải phóng lại nhóm $-OH$ của Serin, phục hồi lại hoạt tính nguyên vẹn của enzym AChE. 
+*(Lưu ý lâm sàng: PAM phải được dùng càng sớm càng tốt trong vòng 24 - 48 giờ đầu trước khi xảy ra hiện tượng "Lão hóa enzym" - Aging process, khi nhóm alkyl bị tách ra khiến liên kết phospho-enzym bền vững vĩnh viễn không thể đảo ngược).*
 
 ---
 
@@ -462,44 +462,44 @@ Trong máu người khỏe mạnh bình thường, các enzym nội bào chỉ h
 
 ### Câu 1: Trình bày nguyên tắc phân loại và cách gọi tên enzym theo IUBMB. Cho ví dụ mã số EC của một enzym và giải thích từng con số.
 * **Đáp án barem:**
-  * Nguyên tắc phân loại: Chia thành 6 lớp lớn dựa trên bản chất phản ứng hóa học (EC 1: Oxidoreductase, EC 2: Transferase, EC 3: Hydrolase, EC 4: Lyase, EC 5: Isomerase, EC 6: Ligase).
-  * Mã số EC gồm 4 số: Số 1 là Lớp; Số 2 là Tổ (nhóm chức tham gia); Số 3 là Phân tổ (chất nhận điện tử/coenzym); Số 4 là Số thứ tự của enzym.
-  * Ví dụ: Lactat dehydrogenase có mã **EC 1.1.1.27**:
-    * `1`: Lớp Oxidoreductase (phản ứng oxy hóa khử).
-    * `1`: Nhóm tác dụng lên nhóm chức $CH-OH$.
-    * `1`: Phân tổ dùng $NAD^+/NADP^+$ làm chất nhận hydro.
-    * `27`: Enzym thứ 27 trong phân tổ.
+* Nguyên tắc phân loại: Chia thành 6 lớp lớn dựa trên bản chất phản ứng hóa học (EC 1: Oxidoreductase, EC 2: Transferase, EC 3: Hydrolase, EC 4: Lyase, EC 5: Isomerase, EC 6: Ligase).
+* Mã số EC gồm 4 số: Số 1 là Lớp; Số 2 là Tổ (nhóm chức tham gia); Số 3 là Phân tổ (chất nhận điện tử/coenzym); Số 4 là Số thứ tự của enzym.
+* Ví dụ: Lactat dehydrogenase có mã **EC 1.1.1.27**:
+* `1`: Lớp Oxidoreductase (phản ứng oxy hóa khử).
+* `1`: Nhóm tác dụng lên nhóm chức $CH-OH$.
+* `1`: Phân tổ dùng $NAD^+/NADP^+$ làm chất nhận hydro.
+* `27`: Enzym thứ 27 trong phân tổ.
 
 ### Câu 2: Phân tích sự khác biệt giữa hai học thuyết về cơ chế tác dụng của enzym: Thuyết Fisher ("Ổ khóa - chìa khóa") và Thuyết Koshland ("Cảm ứng tiếp xúc").
 * **Đáp án barem:**
-  * *Thuyết Fisher (1894):* Trung tâm hoạt động cứng nhắc, bổ khuyết tĩnh với cơ chất ngay từ đầu. Ưu điểm: giải thích tính đặc hiệu cao. Hạn chế: không giải thích được khả năng làm biến dạng cơ chất để đạt trạng thái chuyển tiếp.
-  * *Thuyết Koshland (1958):* Trung tâm hoạt động mềm dẻo, linh hoạt. Khi cơ chất tiếp cận, tương tác ban đầu sẽ gây cảm ứng làm biến đổi cấu hình không gian trung tâm hoạt động để ôm khít cơ chất và đưa các nhóm xúc tác vào vị trí tối ưu. Giải thích hoàn hảo cơ chế xúc tác và enzym dị lập thể.
+* *Thuyết Fisher (1894):* Trung tâm hoạt động cứng nhắc, bổ khuyết tĩnh với cơ chất ngay từ đầu. Ưu điểm: giải thích tính đặc hiệu cao. Hạn chế: không giải thích được khả năng làm biến dạng cơ chất để đạt trạng thái chuyển tiếp.
+* *Thuyết Koshland (1958):* Trung tâm hoạt động mềm dẻo, linh hoạt. Khi cơ chất tiếp cận, tương tác ban đầu sẽ gây cảm ứng làm biến đổi cấu hình không gian trung tâm hoạt động để ôm khít cơ chất và đưa các nhóm xúc tác vào vị trí tối ưu. Giải thích hoàn hảo cơ chế xúc tác và enzym dị lập thể.
 
 ### Câu 3: Định nghĩa Isoenzym. Trình bày ý nghĩa của các isoenzym CK và LDH trong chẩn đoán nhồi máu cơ tim cấp.
 * **Đáp án barem:**
-  * Định nghĩa: Là các dạng phân tử khác nhau của cùng một enzym, cùng xúc tác một phản ứng hóa học nhưng khác nhau về cấu trúc acid amin, tính chất hóa lý và phân bố mô.
-  * Hệ thống CK: Dimer gồm M và B. $CK-MB$ đặc hiệu cho cơ tim ($15-20\\%$ CK tim, $<2\\%$ CK cơ vân). Tăng sau 3 - 6h, đỉnh 18 - 24h, về bình thường sau 72h.
-  * Hệ thống LDH: Tetramer gồm H và M. Bình thường $LDH2 > LDH1$. Khi nhồi máu cơ tim, lượng lớn $LDH1$ giải phóng làm đảo ngược tỷ lệ: $LDH1 > LDH2$.
+* Định nghĩa: Là các dạng phân tử khác nhau của cùng một enzym, cùng xúc tác một phản ứng hóa học nhưng khác nhau về cấu trúc acid amin, tính chất hóa lý và phân bố mô.
+* Hệ thống CK: Dimer gồm M và B. $CK-MB$ đặc hiệu cho cơ tim ($15-20\\%$ CK tim, $<2\\%$ CK cơ vân). Tăng sau 3 - 6h, đỉnh 18 - 24h, về bình thường sau 72h.
+* Hệ thống LDH: Tetramer gồm H và M. Bình thường $LDH2 > LDH1$. Khi nhồi máu cơ tim, lượng lớn $LDH1$ giải phóng làm đảo ngược tỷ lệ: $LDH1 > LDH2$.
 
 ### Câu 4: Thiết lập và viết phương trình Michaelis - Menten. Định nghĩa hằng số $K_m$ và nêu ý nghĩa lâm sàng đối chiếu giữa Hexokinase và Glucokinase.
 * **Đáp án barem:**
-  * Phương trình: $v = \frac{V_{max}[S]}{K_m + [S]}$.
-  * Định nghĩa $K_m$: Là nồng độ cơ chất $[S]$ tại đó tốc độ phản ứng $v = V_{max}/2$.
-  * Ý nghĩa: $K_m$ tỷ lệ nghịch với ái lực của enzym với cơ chất.
-  * Đối chiếu: Hexokinase ($K_m \approx 0,1\,\text{mmol/L}$) ái lực cực cao, bão hòa ngay ở mức đường huyết lúc đói giúp não và cơ luôn có năng lượng. Glucokinase ($K_m \approx 10\,\text{mmol/L}$) ái lực thấp, chỉ hoạt động khi đường huyết tăng cao sau ăn để gan tích trữ Glycogen và tụy tiết Insulin.
+* Phương trình: $v = \frac{V_{max}[S]}{K_m + [S]}$.
+* Định nghĩa $K_m$: Là nồng độ cơ chất $[S]$ tại đó tốc độ phản ứng $v = V_{max}/2$.
+* Ý nghĩa: $K_m$ tỷ lệ nghịch với ái lực của enzym với cơ chất.
+* Đối chiếu: Hexokinase ($K_m \approx 0,1\,\text{mmol/L}$) ái lực cực cao, bão hòa ngay ở mức đường huyết lúc đói giúp não và cơ luôn có năng lượng. Glucokinase ($K_m \approx 10\,\text{mmol/L}$) ái lực thấp, chỉ hoạt động khi đường huyết tăng cao sau ăn để gan tích trữ Glycogen và tụy tiết Insulin.
 
 ### Câu 5: Phân biệt ức chế cạnh tranh và ức chế không cạnh tranh trên hai khía cạnh: Cơ chế phân tử và Sự thay đổi các thông số động học ($V_{max}$, $K_m$) trên đồ thị Lineweaver - Burk.
 * **Đáp án barem:**
-  * *Ức chế cạnh tranh:* Chất ức chế gắn vào trung tâm hoạt động tranh chấp với cơ chất. Động học: $V_{max}$ không đổi, $K_m$ tăng ($K_m' > K_m$). Đồ thị Lineweaver-Burk cắt nhau tại trục tung ($1/V_{max}$). Tăng $[S]$ sẽ loại bỏ được ức chế.
-  * *Ức chế không cạnh tranh:* Chất ức chế gắn vào vị trí dị lập thể ngoài trung tâm hoạt động, gắn được vào cả $E$ và $ES$. Động học: $K_m$ không đổi, $V_{max}$ giảm ($V_{max}' < V_{max}$). Đồ thị cắt nhau tại trục hoành ($-1/K_m$). Tăng $[S]$ không hóa giải được.
+* *Ức chế cạnh tranh:* Chất ức chế gắn vào trung tâm hoạt động tranh chấp với cơ chất. Động học: $V_{max}$ không đổi, $K_m$ tăng ($K_m' > K_m$). Đồ thị Lineweaver-Burk cắt nhau tại trục tung ($1/V_{max}$). Tăng $[S]$ sẽ loại bỏ được ức chế.
+* *Ức chế không cạnh tranh:* Chất ức chế gắn vào vị trí dị lập thể ngoài trung tâm hoạt động, gắn được vào cả $E$ và $ES$. Động học: $K_m$ không đổi, $V_{max}$ giảm ($V_{max}' < V_{max}$). Đồ thị cắt nhau tại trục hoành ($-1/K_m$). Tăng $[S]$ không hóa giải được.
 
 ### Câu 6: Phân tích cơ chế bệnh sinh phân tử của nhiễm độc thuốc trừ sâu phospho hữu cơ và giải thích nguyên lý sử dụng hai thuốc giải độc Atropin và Pralidoxime (PAM).
 * **Đáp án barem:**
-  * Cơ chế: Gốc phospho hữu cơ gắn cộng hóa trị bền vững vào gốc Serin tại trung tâm hoạt động của Acetylcholinesterase (AChE), bất hoạt enzym không hồi phục.
-  * Hậu quả: Acetylcholin ứ đọng dữ dội tại synap gây hội chứng Muscarinic (co đồng tử, tăng tiết đờm dãi, co thắt phế quản, tim chậm), hội chứng Nicotinic (co giật cơ, liệt cơ hô hấp) và hôn mê.
-  * Điều trị:
-    * Atropin: Kháng cholinergic cạnh tranh tại thụ thể Muscarinic, triệt tiêu tác dụng của acetylcholin ứ đọng.
-    * Pralidoxime (PAM): Chứa nhóm oxime ái lực cực mạnh với phospho, bẻ gãy liên kết este phospho-serin, tái hoạt hóa lại enzym AChE tự do (cần dùng sớm trước hiện tượng lão hóa aging).
+* Cơ chế: Gốc phospho hữu cơ gắn cộng hóa trị bền vững vào gốc Serin tại trung tâm hoạt động của Acetylcholinesterase (AChE), bất hoạt enzym không hồi phục.
+* Hậu quả: Acetylcholin ứ đọng dữ dội tại synap gây hội chứng Muscarinic (co đồng tử, tăng tiết đờm dãi, co thắt phế quản, tim chậm), hội chứng Nicotinic (co giật cơ, liệt cơ hô hấp) và hôn mê.
+* Điều trị:
+* Atropin: Kháng cholinergic cạnh tranh tại thụ thể Muscarinic, triệt tiêu tác dụng của acetylcholin ứ đọng.
+* Pralidoxime (PAM): Chứa nhóm oxime ái lực cực mạnh với phospho, bẻ gãy liên kết este phospho-serin, tái hoạt hóa lại enzym AChE tự do (cần dùng sớm trước hiện tượng lão hóa aging).
 
 ---
 *Tài liệu nội bộ chuẩn hóa phục vụ học tập và nghiên cứu lâm sàng — Khoa Y, Trường Đại học Y Hà Nội & Hệ thống HungMed.*

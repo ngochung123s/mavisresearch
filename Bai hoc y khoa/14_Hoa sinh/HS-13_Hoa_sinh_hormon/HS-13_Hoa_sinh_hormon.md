@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 14
 HÓA SINH HORMON
 
@@ -41,7 +40,6 @@ phóng ra tác dụng ngay trên những tế bào gần kề với tế bào s�
 dẫn truyền xung điện từ một tế bào này tới tế bào khác hoặc từ tế bào thần
 kinh tới tế bào cơ (gây ức chế hoặc kích thích co cơ) xẩy ra qua kiểu tín hiệu
 
-\n\n
 tại chỗ. Các chất thuộc loại tín hiệu này là chất dẫn truyền thần kinh
 (neurotransmitter), hormon thần kinh (neurohormone)...sẽ trình bày riêng ở
 chương thần kinh. Mặc dù, thần kinh và nội tiết được trình bày riêng rẽ,
@@ -85,8 +83,6 @@ ra và cũng bài tiết vào máu (ví dụ vasopressin).
 thần kinh sản xuất ra, nhưng không bài tiết vào máu mà bài tiết vào khe
 synap là nơi tiếp giáp giữa những tế bào thần kinh và tế bào nhận để kích
 
-
-\n\n
 thích những tế bào nhận gần kề. (ví dụ norepinephrin hoặc acetyleholin). Tuy
 nhiên norepinephrin cũng được sản xuất bởi tủy thượng. thận và bài tiết trực
 tiếp vào mầu vì vậy cũng thuộc về horrmon theo định nghĩa cổ điển.
@@ -107,7 +103,7 @@ loại theo cơ chế tác dụng của hormon.
 
 1.1.Phân loại theo cấu tạo hóa học
 
-1.1.1. Hormon là peptid uà protein
+1.1.1. Hormon là peptid và protein
 
 Thuộc loại này có những hormon có từ 3 acid amin tới trên 200 acid amin
 gồm hormon các tuyến vùng dưới đổi, tuyến yên, tuyến tụy, ví dụ: insulin,
@@ -137,7 +133,6 @@ Gồm hormon vỏ thượng thận, tuyến sinh dục nam và nữ.
 'Tất cả các hormon steroid đều bắt nguồn từ cholesterol và có nhân cấu tạo
 cơ bản. Các hormon steroid lại chia thành các nhóm dựa vào số lượng carbon.
 
-\n\n
 C18: estrogen, C19: androgen
 C 21: corticoid chuyển hóa đường, cortieoid chuyển hóa muối và progestin.
 
@@ -187,8 +182,6 @@ chuyển đặc hiệu (protein). Tới tế bào nhận, những hormon này kh
 thuần qua màng tế bào và kết hợp với protein thụ thể trong bào tương hoặc
 trong nhân tế bào.
 
-
-\n\n
 Phức hợp
 hormon-protein
 vận chuyển Hormon
@@ -219,7 +212,7 @@ thông tin thứ hai đã được biết rõ nhất. Các chất thông tin th�
 đại tín hiệu hormon qua việc hoạt hóa các enzym nội bào hoặc tác động đến
 các quá trình chuyển hóa đặc biệt dẫn đến thể hiện tác dụng hormon.
 
-* Protein gắn uới GTP uà adenylat cyclase (AC).
+* Protein gắn uới GTP và adenylat cyclase (AC).
 
 Gần đây người ta đã phát hiện ra một chất trung gian trong quá trình
 
@@ -232,10 +225,9 @@ ATP nhờ AC làm tăng nồng độ cAMP trong bào tương. Gs gồm 3 tiểu 
 động. Khi vị trí gắn với nucleotid (của tiểu đơn vị ø) được kết hợp GDP, Gs
 không hoạt động và không-có khả năng hoạt hóa AC (Hình 14.3).
 
-\n\n
 Sự liên kết epinephrin với R 2 3.
-thụ thể thúc đẩy sự thay đổi @sgắnGDP  Tiếpxúc,với Gs gắn GTP
-phần thụ thể năm sâu ở màng thểlàmGs  vàhoạthóa AC
+thụ thể thúc đẩy sự thay đổi @sgắnGDP Tiếpxúc,với Gs gắn GTP
+phần thụ thể năm sâu ở màng thểlàmGs vàhoạthóa AC
 tế bào. Sự thay đổi cấu trúc của : gắn GTP
 vùng nội bào thụ thể sẽ xúc tác tay tế GDP
 sự thay thế GDP gắn với Gs GTP
@@ -251,7 +243,7 @@ GTP và trở thành dạng hoạt
 gắn với AC và chuyển AC
 thành dạng hoạt động. AC xúc na ;,_=
 
-tác phần ứng tạo cÃMP từ ATP và QDP ø gi gần trở Bắy, ñ và phức hợp không hoạt động
+tác phản ứng tạo cÃMP từ ATP và QDP ø gi gần trở Bắy, ñ và phức hợp không hoạt động
 n đóng, độ cAMP trong Linh 14.3. Trạng thái hoạt động và không
 
 : : hoạt động của protein G
@@ -276,8 +268,6 @@ cAMP và làm giảm quá trình phosphoryl hóa protein. Ví dụ somatostatin 
 kết hợp với chất thụ thể đặc hiệu thì protein G loại ức chế (Gi) ức chế AC làm
 giảm nồng độ cAMP làm đối trọng với tác dụng của epinephrin.
 
-
-\n\n
 KO¡
 
 Hormon gắn với thụ thể
@@ -320,7 +310,6 @@ cAMP được tạo thành từ ATP là dạng
 năng lượng hóa học dự trữ chủ yếu của cơ
 thể sống.
 
-\n\n
 Cơ chế hoạt động làm thay đổi chuyển hóa ở tế bào đích đáp ứng với tác
 dụng của hormon là thông qua việc hoạt hóa protein binase A. Enzym chịu tác
 động của cAMP có hai phần: phần điều hòa Œ-regulatory unit) và phần xúc tác
@@ -362,8 +351,6 @@ glucose máu thông qua sự khuyếch đại tác dụng hormon gắn với ch�
 Nhờ cách này mà từ một phân tử hormon có thể làm thay đổi hoạt động xúc
 tác của hàng nghìn phân tử enzym.
 
-
-\n\n
 TẾ BẢO GAN
 ATP È cAMP.
 Adenylyl 40x phân tử.
@@ -409,7 +396,6 @@ hoạt hóa guanylat cyclase (GC-enzym đóng
 vòng tạo cƠJMP từ GTP). Hormon được chuyển
 từ tim theo máu tới thận làm tăng cGMP ở ống
 
-
 <x=<€
 
 Glucose máu [_10,000x phân tử
@@ -417,7 +403,7 @@ Glucose máu [_10,000x phân tử
 'Guanosin 3',8'-cyclic monophosphat
 
 (cGMP)
-\n\n
+
 thu dẫn đến tăng bài xuất natri, nước ở ống thận. Tác dụng của cGMP thông
 qua protein, binase phụ thuộc vào cGMP (còn gọi là protein kizase G). Protein
 kinase Ở gồm những vùng xúc tác (C) và điều hòa (R) tương tự như protein,
@@ -457,8 +443,6 @@ tác dụng của phospholipase C, khuếch tán tới lưới nội nguyên sin
 sinh giải phóng Ca?' vào bào tương làm tăng nồng độ Ca?' ở bào tương gấp
 hàng 100 lần (hình 14.7)
 
-
-\n\n
 Khoảng gian bèo, _ Proteinkinase C
 
 Bào tương
@@ -508,8 +492,6 @@ Ngoài các chất truyền tin thứ 2 đã nêu _›
 lên ở trên, cho đến nay một số chất truyền Hình 14.8. Sự thay đổi cấu hình
 tin thứ 2 khác đang được phát hiện. calmodulin khi gắn Cai
 
-
-\n\n
 # H ñ : Insulin gắn
 8.5. Thụ thể loại tyrosin kinase \ ¡ vào thụ thể.
 Việc phát hiện ra tác dụng
@@ -573,8 +555,6 @@ nhau thai.
 Hình 14. 10. Cấu trúc hormon tăng
 trưởng ở người
 
-
-\n\n
 GH có tác dụng lên chuyển hóa glucid, lipid, protid và điện giải của
 nhiều tổ chức như cơ, mô mỡ, gan. GH có tác dụng lên sự phát triển của cơ thể.
 Thiếu GH dẫn đến hiện tượng Ï lùn. Thời gian bán huỷ của GH trong huyết
@@ -617,7 +597,6 @@ HN s r COOH HN sS m CcooH
 
 Hình 14.11. Cấu trúc HCG, FSH, LH và TSH
 
-\n\n
 - Hormon kích thích hoàng thể (LH = Luteinizing hormone).
 
 Trọng lượng phần tử: 28500 Da. Nồng độ cơ bản khoảng 2-5mU/mL
@@ -663,8 +642,6 @@ của loài
 
 Hình 14.12. Cấu tạo hóa học của ACTH
 
-
-\n\n
 4.9.3. Hormon của tuyến yên sau
 
 Hai hormon peptid có mặt ở thuỳ sau tuyến yên là oxytocin và
@@ -686,7 +663,7 @@ và nước tiểu có tỷ trọng thấp (1.001- Pro Pro
 -— Oxytocin: là peptid có 9 acid Gy Gy
 amin, khác vasopressin ở acid amin thứ Cc=0o Cc=0o
 3 và thứ 8. Oxytocin có tác dụng trên cơ NH› NH›
-trơn của tử cung và tuyến vú, gây eo cơ Ñ :
+trơn của tử cung và tuyến vú, gây co cơ Ñ :
 Oxytocin người Vasopressin người
 
 tử cung lúc chuyển dạ và kích thích tiết '
@@ -715,7 +692,6 @@ Thyrotropin).
 kinh có tác dụng điều hòa sự bài tiết những hormon của tuyến yên trước.
 Những hormon vùng dưới đồi thường là những peptid ngắn.
 
-\n\n
 Bảng 14.1. Các hormon peptid vùng dưới đồi
 
 Tên hormon . Cấu tạo Tác dụng chính
@@ -769,8 +745,6 @@ amin với hai chuỗi polypeptid: chuỗi A có 21 acid amin, chuỗi B có 80 
 hai chuỗi nối với nhau bằng hai cầu nối disulfua. Ngoài ra chuỗi A có một
 disulfua nội chuỗi. Cấu trúc bậc 2 và bậc 3 của insulin được xác định năm 1969.
 
-
-\n\n
 Chất tiền thân của isulin là proinsulin. Proinsulin của lợn gồm một chuỗi
 polypeptid, bắt đầu từ chuỗi B và nối với chuỗi A bởi một peptid gồm 30 acid
 amin. Trypsin đã thuỷ phân proinsulin, cắt mẩu peptid nối giữa chuỗi A và
@@ -818,7 +792,6 @@ enzym xúc tác sự tân tạo đường như pyruuat carboxylase.
 
 — Ức chế phân huỷ lipid, cho nên tăng cường đốt cháy glucose.
 
-\n\n
 Về cơ chế tác dụng: insulin tác dụng lên tế bào nhận (tế bào đích) gây
 giảm cAMP (trái với tác dụng của adrenalin và glucagon).
 
@@ -871,8 +844,6 @@ Tuỷ thượng thận có hai loại tế bào, một loại tế bào bài ti�
 một loại tế bào bài tiết noradrenalin; gọi chung là catecholamin vì chúng được
 coi là dẫn xuất của catechol.
 
-
-\n\n
 ki — CH›—NH= CHạ
 HO
 HO
@@ -896,7 +867,7 @@ hydroxylase.
 - Khử carboxyl của DOPA thành Dopamin nhờ DOPA-decarboxylase có
 coenzym là pyridoxalphosphat.
 
-- Chuyển döpamin thành norepinephrin nhờ dopamin B hydroxylase.
+- Chuyển dopamin thành norepinephrin nhờ dopamin B hydroxylase.
 Phần ứng này cần sự có mặt của oxy phân tử và vitamin Ơ.
 
 - Metyl hóa norepinephrin thành epinephrin nhờ 8-adenosyl-methionin
@@ -906,7 +877,6 @@ Norepinephrin còn được tổng hợp và dự trữ ở tận cùng dây th�
 Phản ứng metyl hóa norepinephrin xảy ra ở tuỷ thượng thận trong tế bào ưa
 crom. Tỷ lệ giữa 2 hormon được bài tiết là: Norepinephrin/Epinephrin = 1/4.
 
-\n\n
 — CH- coo- [Q) Z`Y- eHz- cH- coO-
 —— | ai
 Ho. ⁄ NH4
@@ -948,8 +918,6 @@ làm co mạch ở da, ở các tạng ổ bụng. Norepinephrin làm co mạch 
 cơ, làm tăng đường máu qua trung gian là cAMP; tăng phân huỷ lipid giải
 phóng acid béo và glycerol.
 
-
-\n\n
 HO CHOH — CH›NH HO CHOH — CH¿—NH2
 HO CH HO
 
@@ -1006,7 +974,6 @@ lượng lớn hơn nhiều.
 
 * Tổng hợp hormon giáp trạng ( hình 14.18).
 
-\n\n
 ` “ ˆ 100ug - 200ug/ngày
 . bi kh ” và gắn với TBG, TBPA
 , $
@@ -1036,7 +1003,7 @@ CH›
 ` @ cn,
 `
 Động mạch * MIT: Moniodotyrosin M
-v  DIT:Diiodotyrosin +
+v DIT:Diiodotyrosin +
 `
 `
 `
@@ -1072,8 +1039,6 @@ những gốc tyrosin của thyroglobulin tạo MIT và DỊT dưới tác dụn
 (chủ yếu) và của một phân tử DIT với một phân tử MIT để tạo thành T3 trên
 phân tử thyroglobulin.
 
-
-\n\n
 - Giai đoạn 4: thuỷ phân thyroglobulin:
 
 Dưới tác dụng của các protease, thyroglobulin được thuỷ phân giải phóng
@@ -1131,7 +1096,6 @@ Hormon steroid đều có nhân cơ bản là nhân cyclopentanoper -
 hydrophenantren (nhân gonan), 17C với 8 vòng 6 carbon và 1 vòng có õ
 carbon; đánh số A, B, C, D.
 
-\n\n
 * Hormon steroid chia làm 3 nhóm:
 
 - Nhóm 18 Ơ có nhân cơ bản là Estran, gốc mety] -CH3 (tức C18) đính ở
@@ -1179,8 +1143,6 @@ co oH
 
 11B, 21 dinydroxy 3,20 dioxopregn-4-en-18-al)
 
-
-\n\n
 - Hormon chuyển hóa đường (Glucocorticoid): gồm có cortisol, cortison
 và corticosteron, đều có 21C và có oxy ở C11 nên gọi là 11.oxysteron.
 
@@ -1197,7 +1159,6 @@ Cortisol (11B, 17, 21 trinydroxy
 oH
 
 Corticorsteron
-
 
 cHO
 
@@ -1219,7 +1180,6 @@ Cortison (11 dehydrocortisol)
 (DHEA), androstendion, 17 ceto androstendion (androstentrion) và 11 B-
 hydroxy androstendion. Nhóm này có 19C.
 
-
 oH
 
 DHEA (3B-hydroxy 5-androsten-17on)
@@ -1228,8 +1188,6 @@ O.
 [e]
 Ơ
 Andrrostentrion
-
-
 
 o
 
@@ -1240,8 +1198,8 @@ OHx
 ơ
 
 11 hydroxy-androstendion
-\n\n
-6.2.2. Tổng hợp uà thoái hóa hormon uỏ thượng thận
+
+6.2.2. Tổng hợp và thoái hóa hormon uỏ thượng thận
 Tổng hợp: nguyên liệu là mẩu 2Ơ (acetat) diễn ra qua nhiều bước
 Thoái hóa: chủ yếu ở gan, nhờ các phản ứng oxy hóa khử tạo các sản
 
@@ -1290,8 +1248,6 @@ thận. Như vậy, testosteron (nguồn gốc tinh hoàn) và androstendion (ng
 vỏ thượng thận) có chuyển hóa chung và biến đổi thành aldrosteron,
 etiocholanolon và một phần nhỏ thành epiandrosteron. Những sản phẩm này
 
-
-\n\n
 chiếm khoảng 80% trong các 17 cetosteroid trung tính đào thải ra nước tiểu
 dưới dạng liên hợp glucuronic hoặc sulfuric. Ở nước tiểu trẻ em, 17 cetosteroid
 có khoảng 2,5 mg/24 giờ, tăng dần ở tuổi dậy thì: nam khoảng 13 + 2mg/ 24 giờ
@@ -1343,7 +1299,6 @@ Sản phẩm thoái hóa chủ yếu của estrogen ở nước tiểu là estri
 dạng glucuro hoặc sulfo liên hợp, một phần nhỏ ở dạng tự do, gọi chung là các
 phenolsteroid.
 
-\n\n
 Ở người bình thường:
 
 - Trước ngày kinh nồng độ estrogen bài xuất ra nước tiểu là thấp nhất:
@@ -1389,41 +1344,36 @@ catecholamin và hormon tuyến giáp.
 
 7. Trình bày các loại hormon steroid, mỗi loại cho ví dụ.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 14)</div>
-  <div class="answer-body">
-    <h4>1. Phân loại Hormon theo cơ chế tác dụng:</h4>
-    <ul>
-      <li><strong>Nhóm I: Hormon gắn thụ thể nội bào (Tan trong lipid):</strong>
-        <ul>
-          <li>Bao gồm: Hormon steroid (Cortisol, Aldosteron, Androgen, Estrogen, Progesteron), Hormon tuyến giáp (T3, T4), Calcitriol (Vitamin D₃), Acid Retinoic.</li>
-          <li>Cơ chế: Vận chuyển trong máu nhờ protein gắn; khuếch tán tự do qua màng tế bào; phức hợp Hormon-Thụ thể dimer hóa đi vào nhân gắn vào trình tự HRE trên DNA để điều hòa phiên mã gen. Tác dụng chậm (vài giờ đến vài ngày) nhưng kéo dài.</li>
-        </ul>
-      </li>
-      <li><strong>Nhóm II: Hormon gắn thụ thể bề mặt màng tế bào (Tan trong nước):</strong>
-        <ul>
-          <li>Bao gồm: Hormon peptid/protein (Insulin, Glucagon, ACTH, TSH, LH, FSH, GH, PTH, ADH, Oxytocin) và Amin dẫn xuất tyrosin (Adrenalin, Noradrenalin).</li>
-          <li>Cơ chế: Không qua được màng lipid; gắn vào thụ thể bề mặt màng tế bào để kích hoạt các hệ thống chất truyền tin thứ hai nội bào (cAMP, cGMP, IP₃, DAG, Ca²⁺) hoặc kích hoạt hoạt tính enzym thụ thể (Tyrosin kinase như thụ thể Insulin). Tác dụng nhanh tức thì (vài giây đến vài phút).</li>
-        </ul>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 14)</div>
+<div class="answer-body">
+<h4>1. Phân loại Hormon theo cơ chế tác dụng:</h4>
+<ul>
+<li><strong>Nhóm I: Hormon gắn thụ thể nội bào (Tan trong lipid):</strong>
+<ul>
+<li>Bao gồm: Hormon steroid (Cortisol, Aldosteron, Androgen, Estrogen, Progesteron), Hormon tuyến giáp (T3, T4), Calcitriol (Vitamin D₃), Acid Retinoic.</li>
+<li>Cơ chế: Vận chuyển trong máu nhờ protein gắn; khuếch tán tự do qua màng tế bào; phức hợp Hormon-Thụ thể dimer hóa đi vào nhân gắn vào trình tự HRE trên DNA để điều hòa phiên mã gen. Tác dụng chậm (vài giờ đến vài ngày) nhưng kéo dài.</li>
+</ul>
+</li>
+<li><strong>Nhóm II: Hormon gắn thụ thể bề mặt màng tế bào (Tan trong nước):</strong>
+<ul>
+<li>Bao gồm: Hormon peptid/protein (Insulin, Glucagon, ACTH, TSH, LH, FSH, GH, PTH, ADH, Oxytocin) và Amin dẫn xuất tyrosin (Adrenalin, Noradrenalin).</li>
+<li>Cơ chế: Không qua được màng lipid; gắn vào thụ thể bề mặt màng tế bào để kích hoạt các hệ thống chất truyền tin thứ hai nội bào (cAMP, cGMP, IP₃, DAG, Ca²⁺) hoặc kích hoạt hoạt tính enzym thụ thể (Tyrosin kinase như thụ thể Insulin). Tác dụng nhanh tức thì (vài giây đến vài phút).</li>
+</ul>
+</li>
+</ul>
 
-    <h4>2. Sơ đồ thác truyền tín hiệu khuếch đại của Adrenalin gây tăng đường huyết:</h4>
-    <ol>
-      <li>1 phân tử Adrenalin gắn vào thụ thể β-adrenergic màng tế bào gan.</li>
-      <li>Hoạt hóa protein Gs (tiểu đơn vị αs-GTP).</li>
-      <li>Kích hoạt enzym <em>Adenyl Cyclase</em> tổng hợp hàng nghìn phân tử <strong>cAMP</strong>.</li>
-      <li>cAMP hoạt hóa enzym <strong>Protein Kinase A (PKA)</strong>.</li>
-      <li>PKA phosphoryl hóa hoạt hóa enzym <strong>Phosphorylase kinase</strong>.</li>
-      <li>Phosphorylase kinase phosphoryl hóa chuyển đổi <strong>Glycogen phosphorylase b (bất hoạt) thành dạng a (hoạt động)</strong>.</li>
-      <li>Glycogen phosphorylase a phân giải hàng triệu gốc glycogen giải phóng ồ ạt <strong>Glucose-1-phosphat</strong>, chuyển thành Glucose đưa vào máu làm tăng vọt đường huyết trong trạng thái phản ứng cấp cứu (Fight or Flight).</li>
-    </ol>
-  </div>
+<h4>2. Sơ đồ thác truyền tín hiệu khuếch đại của Adrenalin gây tăng đường huyết:</h4>
+<ol>
+<li>1 phân tử Adrenalin gắn vào thụ thể β-adrenergic màng tế bào gan.</li>
+<li>Hoạt hóa protein Gs (tiểu đơn vị αs-GTP).</li>
+<li>Kích hoạt enzym <em>Adenyl Cyclase</em> tổng hợp hàng nghìn phân tử <strong>cAMP</strong>.</li>
+<li>cAMP hoạt hóa enzym <strong>Protein Kinase A (PKA)</strong>.</li>
+<li>PKA phosphoryl hóa hoạt hóa enzym <strong>Phosphorylase kinase</strong>.</li>
+<li>Phosphorylase kinase phosphoryl hóa chuyển đổi <strong>Glycogen phosphorylase b (bất hoạt) thành dạng a (hoạt động)</strong>.</li>
+<li>Glycogen phosphorylase a phân giải hàng triệu gốc glycogen giải phóng ồ ạt <strong>Glucose-1-phosphat</strong>, chuyển thành Glucose đưa vào máu làm tăng vọt đường huyết trong trạng thái phản ứng cấp cứu (Fight or Flight).</li>
+</ol>
+</div>
 </div>

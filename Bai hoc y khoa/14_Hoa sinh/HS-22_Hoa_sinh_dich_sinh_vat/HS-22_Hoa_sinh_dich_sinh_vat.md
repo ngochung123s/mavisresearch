@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 22
 
 HÓA SINH CÁC DỊCH SINH VẬT
@@ -46,8 +45,6 @@ Dịch não tủy của người bình thường trong suốt và không màu, t
 Khoảng 80% protein trong dịch não tủy có nguồn gốc huyết tương, chúng
 được khuếch tán qua hàng rào máu não. Phần còn lại được tổng hợp trong não
 
-
-\n\n
 tủy. Sự thẩm thấu của protein qua hàng rào máu não phụ thuộc theo tuổi. Ở
 người trưởng thành, nồng độ protein toàn phần trong dịch não tủy khoảng
 1/250 của huyết tương. Nông độ protein toàn phần, albumin và IgG trong dịch
@@ -96,7 +93,6 @@ hoặc áp xe tủy.
 — Sự phá hủy của hệ thống trung ương thần kinh, tách rời các protein của
 tế bào não vào nước não tủy.
 
-\n\n
 Bảng 22.2. Nguyên nhân tăng protein toàn phần nước não tủy
 
 Nhiễm trùng
@@ -136,14 +132,12 @@ Protein phản ứng C (C reactiue protein : CRP) là protein được tổng h�
 quá trình viêm nhiễm. CRP không được tổng hợp bởi tế bào bị viêm nhiễm.
 Nồng độ CRP có thể tăng tới 600mg trong trường hợp viêm não nhiễm trùng.
 
-Neopterin uà Ø›- microglobulin
+Neopterin và Ø›- microglobulin
 
 Neopterin là sản phẩm oxy hóa của D 7,8-dinydroneopterin bởi đại thực
 bào. Nồng độ neopterin tăng trong não tủy thường gặp trong các bệnh nhiễm
 trùng, nhiễm virus, nhiễm nấm kết hợp với đáp ứng miễn dịch tế bào.
 
-
-\n\n
 B¿ microglobulir tăng thường kết hợp với sự có mặt bạch cầu lympho đã
 được hoạt hóa trong hệ thần kinh trung ương, hoặc do tăng sự tạo thành
 chúng. Xác định nồng độ 8, microglobulin có thể phát hiện sớm di căn
@@ -190,8 +184,6 @@ Khoảng 120 — 130 mEg/1. Nông độ CL giảm trong viêm màng não, viêm 
 viêm tủy xám và các bệnh khác trong hệ thần kinh trung ương. Nồng độ CI
 giảm mạnh trong viêm màng não do lao.
 
-
-\n\n
 Calei (Ca”') trong dịch não tủy người bình thường tương đối ổn định là
 2,43 + 0,05 mEg/l, Nông độ Ca”' tăng trong viêm màng não mủ hoặc do lao,
 trong chấn thương sọ não, xuất huyết não. Nông độ Ca?' giảm trong co giật,
@@ -235,8 +227,6 @@ phosphat, nhưng lại chứa nhiều lưu huỳnh. Có hai loại α, B-lactoal
 trong thành phần cấu tạo của chúng có nhiều tryptophan. Trong sữa còn có
 nhiều peptid và các acid amin tự do.
 
-
-\n\n
 Bảng 22.4. Thành phần acid amin, vitamin, chất khoáng, acid béo
 trong 100ml sữa mẹ ( sữa ổn định)
 
@@ -267,7 +257,7 @@ học 1995), (1) Jean Hamburger.
 
 Lipid trong sữa là một hỗn hợp phức tạp, chủ yếu là triglycerid, các lipid
 trong sữa có tỷ trọng thấp. Ở trạng thái nhũ tương hóa, các hạt nhũ tương có
-kích thước khoảng 0,5 — 10 n, trung bình 2 — 3 n. Trong 1 lít sữa có tới 2 tỷ hạt
+kích tnước khoảng 0,5 — 10 n, trung bình 2 — 3 n. Trong 1 lít sữa có tới 2 tỷ hạt
 nhũ tương.
 
 Trong sữa có nhiều acid béo chưa no cần thiết, có tới 20 loại acid béo
@@ -287,7 +277,6 @@ lactic (1L- biñdus). Các oligosaccarid này chứa N- acetyl- glucosamin, L-fu
 glucose và galactose. Vi khuẩn L - bidus là vi khuẩn ruột đặc trưng ở trẻ em
 còn bú, nó sẽ mất đi khi trẻ thôi bú.
 
-\n\n
 2.2.4. Các chất khoáng
 
 Các chất khoáng của sữa có ý nghĩa rất lớn đối với sự phát triển của trẻ.
@@ -339,8 +328,6 @@ từ nguồn H* của phản ứng phân ly của H¿CO;, Cl từ NaƠ] của m�
 vận chuyển ra lòng dạ dày bằng cơ chế vận chuyển tích cực. Sự bài tiết HƠI
 của dạ dày chịu ảnh hưởng của các hormon dạ dày - ruột, gastrin có tác dụng
 
-
-\n\n
 2.2.4. Các chất khoáng
 
 Ến vị
@@ -398,8 +385,6 @@ từ nguồn H* của phản ứng của H¿CO;, Cl từ NaƠ] của máu. H* đ
 vận chuyển ra lòng dạ dày chế vận chuyển tích cực. Sự bài tiết HƠI
 của dạ dày chịu ảnh hưởng của các 'hormon dạ dày - ruột, gastrin có tác dụng
 
-
-\n\n
 kích thích, secretin, cholecystokinin và p£
 
 bài tiết HƠI. Nông độ HƠI của dịch vị tha,
@@ -512,11 +497,9 @@ Trong các trường hợp bệnh lý có thể
 hẹp môn vị, sắc tố mật do dịch ruột trào
 máu dạ dày.
 
-
 «+ viện acid lactic, acid butyric do
 ến, mẫu tươi hoặc máu đen do chảy
 
-\n\n
 ## 4. BẠCH HUYẾT
 
 Bạch huyết được tạo ra t
@@ -579,7 +562,7 @@ rong dịch bạch huyết so với huyết tương
 
 Các chất Dịch TH Bn tở Dịch bạch huyết ở Huyết tương
 : vùn VAN ống ngực
-Nước  NGG 94g. 90g
+Nước NGG 94g. 90g
 Protein 2g 4g 759
 Fibrinogen I==¬ 40mg 300mg
 Glucose 100 110mg 100mg
@@ -603,41 +586,36 @@ hóa học của sữa mẹ.
 
 3. Trình bày thành phần của dịch vị.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 22)</div>
-  <div class="answer-body">
-    <h4>1. Thành phần sinh hóa và ý nghĩa chẩn đoán phân biệt Dịch Não Tủy (DNT):</h4>
-    <ul>
-      <li>DNT bình thường: Trong suốt không màu, áp lực 100-200 mmH₂O; Protein rất thấp (0.15 - 0.45 g/L); Glucose DNT bằng khoảng 60% glucose máu cùng thời điểm (2.2 - 4.4 mmol/L); Clo cao hơn máu (118 - 130 mmol/L); Tế bào &lt; 5 tế bào lympho/μL.</li>
-      <li><strong>Chẩn đoán phân biệt các thể Viêm màng não:</strong>
-        <ol>
-          <li><em>Viêm màng não mủ (do vi khuẩn: Não mô cầu, Phế cầu, H. influenzae):</em> DNT đục như nước vo gạo; Bạch cầu đa nhân trung tính tăng rất cao (> 1000/μL); <strong>Protein tăng rất cao (> 1.0 - 5.0 g/L)</strong>; <strong>Glucose DNT giảm sâu (&lt; 2.2 mmol/L hoặc tỷ lệ Glucose DNT/máu &lt; 0.4)</strong> do vi khuẩn và bạch cầu tiêu thụ mạnh; Clorur giảm.</li>
-          <li><em>Viêm màng não do Lao:</em> DNT màu vàng chanh hoặc có màng sương tơ khi để lắng; Tế bào tăng vừa (chủ yếu là tế bào lympho); Protein tăng cao; Glucose giảm; <strong>Clorur DNT giảm rất nặng (&lt; 100 mmol/L)</strong>.</li>
-          <li><em>Viêm màng não do Virus:</em> DNT trong suốt; Bạch cầu tăng nhẹ (chủ yếu là lympho); Protein tăng nhẹ hoặc bình thường (&lt; 1.0 g/L); <strong>Glucose DNT hoàn toàn bình thường</strong> (virus không tiêu thụ glucose); Clorur bình thường.</li>
-        </ol>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 22)</div>
+<div class="answer-body">
+<h4>1. Thành phần sinh hóa và ý nghĩa chẩn đoán phân biệt Dịch Não Tủy (DNT):</h4>
+<ul>
+<li>DNT bình thường: Trong suốt không màu, áp lực 100-200 mmH₂O; Protein rất thấp (0.15 - 0.45 g/L); Glucose DNT bằng khoảng 60% glucose máu cùng thời điểm (2.2 - 4.4 mmol/L); Clo cao hơn máu (118 - 130 mmol/L); Tế bào &lt; 5 tế bào lympho/μL.</li>
+<li><strong>Chẩn đoán phân biệt các thể Viêm màng não:</strong>
+<ol>
+<li><em>Viêm màng não mủ (do vi khuẩn: Não mô cầu, Phế cầu, H. influenzae):</em> DNT đục như nước vo gạo; Bạch cầu đa nhân trung tính tăng rất cao (> 1000/μL); <strong>Protein tăng rất cao (> 1.0 - 5.0 g/L)</strong>; <strong>Glucose DNT giảm sâu (&lt; 2.2 mmol/L hoặc tỷ lệ Glucose DNT/máu &lt; 0.4)</strong> do vi khuẩn và bạch cầu tiêu thụ mạnh; Clorur giảm.</li>
+<li><em>Viêm màng não do Lao:</em> DNT màu vàng chanh hoặc có màng sương tơ khi để lắng; Tế bào tăng vừa (chủ yếu là tế bào lympho); Protein tăng cao; Glucose giảm; <strong>Clorur DNT giảm rất nặng (&lt; 100 mmol/L)</strong>.</li>
+<li><em>Viêm màng não do Virus:</em> DNT trong suốt; Bạch cầu tăng nhẹ (chủ yếu là lympho); Protein tăng nhẹ hoặc bình thường (&lt; 1.0 g/L); <strong>Glucose DNT hoàn toàn bình thường</strong> (virus không tiêu thụ glucose); Clorur bình thường.</li>
+</ol>
+</li>
+</ul>
 
-    <h4>2. So sánh thành phần dinh dưỡng và miễn dịch giữa Sữa mẹ và Sữa bò:</h4>
-    <ul>
-      <li><strong>Protein:</strong> Sữa mẹ có nồng độ protein thấp hơn (~12 g/L so với 35 g/L ở sữa bò) giúp thận trẻ sơ sinh chưa trưởng thành không bị quá tải thẩm thấu; Tỷ lệ <em>Đạm Whey (hòa tan, dễ tiêu hóa) / Casein (đóng vón khó tiêu)</em> ở sữa mẹ là <strong>60 / 40</strong>, trong khi ở sữa bò là 20 / 80; Sữa mẹ giàu taurin và acid amin thiết yếu.</li>
-      <li><strong>Lipid:</strong> Cung cấp ~50% năng lượng; Sữa mẹ giàu acid béo không bão hòa chuỗi dài cần thiết (DHA, ARA) giúp phát triển não bộ và thị giác; Chứa enzym <em>lipase tiêu hóa chất béo sẵn</em> giúp trẻ hấp thu lipid tối đa.</li>
-      <li><strong>Glucid:</strong> Sữa mẹ có nồng độ <strong>Lactose cao hơn hẳn sữa bò (70 g/L so với 45 g/L)</strong>, cung cấp nhiều năng lượng cho não và tạo môi trường acid ruột thuận lợi cho vi khuẩn có lợi <em>Lactobacillus bifidus</em> phát triển; Giàu oligosaccarid đóng vai trò mồi nhử ngăn chặn vi khuẩn bám dính vào niêm mạc ruột.</li>
-      <li><strong>Yếu tố miễn dịch sinh học độc quyền của Sữa mẹ (sữa công thức không thể có):</strong>
-        <ul>
-          <li><strong>Kháng thể sIgA (Secretory IgA):</strong> Bọc lót niêm mạc đường tiêu hóa và hô hấp của trẻ, ngăn ngừa tiêu chảy và nhiễm trùng.</li>
-          <li><strong>Lactoferrin:</strong> Protein liên kết sắt chặt chẽ, tranh chấp nguồn sắt tự do khiến vi khuẩn gây bệnh không thể sinh sôi.</li>
-          <li><strong>Lysozym:</strong> Enzym thủy phân vách peptidoglycan tiêu diệt vi khuẩn.</li>
-          <li>Các đại thực bào, tế bào lympho T và B sống bảo vệ chủ động cho trẻ sơ sinh.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+<h4>2. So sánh thành phần dinh dưỡng và miễn dịch giữa Sữa mẹ và Sữa bò:</h4>
+<ul>
+<li><strong>Protein:</strong> Sữa mẹ có nồng độ protein thấp hơn (~12 g/L so với 35 g/L ở sữa bò) giúp thận trẻ sơ sinh chưa trưởng thành không bị quá tải thẩm thấu; Tỷ lệ <em>Đạm Whey (hòa tan, dễ tiêu hóa) / Casein (đóng vón khó tiêu)</em> ở sữa mẹ là <strong>60 / 40</strong>, trong khi ở sữa bò là 20 / 80; Sữa mẹ giàu taurin và acid amin thiết yếu.</li>
+<li><strong>Lipid:</strong> Cung cấp ~50% năng lượng; Sữa mẹ giàu acid béo không bão hòa chuỗi dài cần thiết (DHA, ARA) giúp phát triển não bộ và thị giác; Chứa enzym <em>lipase tiêu hóa chất béo sẵn</em> giúp trẻ hấp thu lipid tối đa.</li>
+<li><strong>Glucid:</strong> Sữa mẹ có nồng độ <strong>Lactose cao hơn hẳn sữa bò (70 g/L so với 45 g/L)</strong>, cung cấp nhiều năng lượng cho não và tạo môi trường acid ruột thuận lợi cho vi khuẩn có lợi <em>Lactobacillus bifidus</em> phát triển; Giàu oligosaccarid đóng vai trò mồi nhử ngăn chặn vi khuẩn bám dính vào niêm mạc ruột.</li>
+<li><strong>Yếu tố miễn dịch sinh học độc quyền của Sữa mẹ (sữa công thức không thể có):</strong>
+<ul>
+<li><strong>Kháng thể sIgA (Secretory IgA):</strong> Bọc lót niêm mạc đường tiêu hóa và hô hấp của trẻ, ngăn ngừa tiêu chảy và nhiễm trùng.</li>
+<li><strong>Lactoferrin:</strong> Protein liên kết sắt chặt chẽ, tranh chấp nguồn sắt tự do khiến vi khuẩn gây bệnh không thể sinh sôi.</li>
+<li><strong>Lysozym:</strong> Enzym thủy phân vách peptidoglycan tiêu diệt vi khuẩn.</li>
+<li>Các đại thực bào, tế bào lympho T và B sống bảo vệ chủ động cho trẻ sơ sinh.</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>

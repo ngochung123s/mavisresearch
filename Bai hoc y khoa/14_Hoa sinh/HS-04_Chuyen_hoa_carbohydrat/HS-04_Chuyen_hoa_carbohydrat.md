@@ -10,7 +10,6 @@
 
 ---
 
-
 PHẦN 2
 CHUYỂN HÓA CHẤT
 Chương 7
@@ -36,7 +35,6 @@ tổng hợp acid nucleic.
 carbon) thành pyruvat (8 carbon), xảy ra ở bào tương, qua 2 giai đoạn với 10
 phản ứng (hình 1).
 
-\n\n
 - Giai đoạn 1: gồm 5 phản ứng(1-5). Phân tử glucose được phosphoryl hóa
 và bị chặt đôi thành 2 triose: glyceraldehyd-3-phosphat với sự chi phí 2ATP
 “năng lượng đầu tư” (phản ứng 1 và 3).
@@ -81,8 +79,6 @@ thoái hóa tiếp tục trong các phản ứng của con đường đường p
 thể biến đổi thuận nghịch một cách nhanh chóng thành GAP nhờ enzym
 ‡riose phosphat isomerase.
 
-
-\n\n
 Glucose
 ÁP | vợ
 1] Hexokinase
@@ -168,7 +164,6 @@ Ga HN
 
 Hình 7.1. Quá trình thoái hóa glucose theo con đường đường phân
 
-\n\n
 1.1.6. Giyceraldehyd-3-phosphat dehydrogenase (GAPDH)
 
 he)
@@ -210,8 +205,6 @@ vị trí hoạt động. Phản ứng xảy ra qua õ bước; bước 1: Tạo
 phospho enzym; bước 2: nhóm phosphat của enzym được vận chuyển đến cơ
 chất, tạo phức hợp 2,3-DPG enzym; bước 3: chuyển nhóm phosphat khác của
 
-
-\n\n
 cơ chất sang enzym tạo phức hợp 2PG enzym; bước 4: tách 2PG khỏi enzym
 dạng hoạt động; bước ð: Thỉnh thoảng 2,3-DPG được tách ra khỏi enzym dạng
 không hoạt động (hình 7.3)
@@ -265,8 +258,6 @@ PGM
 
 2-Phosphoglyoerat
 
-
-\n\n
 Thiếu hụt
 
 Ñ Ñ n Ena cv 5 hẢ _ Hồng cầu
@@ -315,8 +306,6 @@ Lactat dehydrogenase H
 
 Pyruvat Lactat
 
-
-\n\n
 Bilan năng lượng
 
 Toàn bộ quá trình đường phân và sự khử pyruvat thành lactat tính từ
@@ -362,7 +351,6 @@ thành 6-phosphogluconat. 6-phosphogluconat oxy hóa bởi NADP' giải phóng
 CO, và tạo thành ribulose-5-phosphat dưới tác dụng của 6-phosphogluconat
 dehydrogenase
 
-\n\n
 K Glucose-8-phosphat (G-5-P) (3)
 
 lui lui NADP`(3)
@@ -412,8 +400,6 @@ li
 
 Hình 7.6. Thoái hóa của glucose theo chu trình pentose
 
-
-\n\n
 1.3.2. Giai đoạn 2
 
 Sự biến đổi tiếp tục của pentose-ð-phosphat. Trước hết ribulose-5-
@@ -425,7 +411,7 @@ Inucleotide).
 Nếu như nhu cầu chuyển hóa ribose-õ-phosphat và xylulose-õ-phosphat
 đã đầy đủ, phần dư thừa sẽ chuyển thành glyceraldehyd-3-phosphat và fructose
 -6-phosphat. Những phản ứng này là sự chuyển nhóm 2 carbon (#rar.scetolase,
-phần ứng 6 và 8) và chuyển nhóm 3 carbon (fransaldolase, phản ứng 7).
+phản ứng 6 và 8) và chuyển nhóm 3 carbon (fransaldolase, phản ứng 7).
 Glyceraldehyd-3-phosphat và fructose-6-phosphat đi vào con đường đường
 phân hoặc tân tạo glucose. Như vậy chu trình pentose phosphat có thể viết:
 
@@ -458,9 +444,8 @@ của hbexobinase, F-6-P thoái hóa tiếp tục theo con đường đường p
 
 - Ở gan: có ít hexobinase, một phần gljucobinase, nhưng chúng chỉ
 phosphoryl hóa glucose (xem phần 2.1.). Ở gan fructose chuyển hóa qua 6
-phần ứng để tạo thành sản phẩm trung gian của con đường đường phân.
+phản ứng để tạo thành sản phẩm trung gian của con đường đường phân.
 
-\n\n
 Fructose được phosphoryl hóa bởi ATP ở C1 thành fructose -1-phosphat
 (F1P) dưới tác dụng của /*uctobinase ( Không có hexokinase và cũng không có
 fructokinase có thể phosphoryl hóa F1P thành F-1,6-DP). Sau đó ajdolase typ B
@@ -498,9 +483,6 @@ qua 2 phản ứng:
 - Phosphomannose isomerase đồng phân hóa mannose-6-phosphat thành
 ftuctose-6-phosphat.
 
-
-\n\n
-
 H
 
 HO H
@@ -524,8 +506,8 @@ GH2OH
 Hồ H H—i—on
 Fructose-1-phosphat Ffuclose-1-phosphat l :
 (mở vòng) CH/O—PO{
-CH;OH Fmetose-eghosphatadolse| 2  c P. Glyoeraldehyd-3-
-làn Nha sẹ: NẠDH li 3 posinat
+CH;OH Fmetose-eghosphatadolse| 2 c P. Glyoeraldehyd-3-
+lần Nha sẹ: NẠDH li 3 posinat
 CHH . n—i—on
 Glycerol Alcool
 dehydrogenase CH/OH
@@ -544,7 +526,7 @@ phosphat phosphat
 Gan
 
 Hình 7.7. Thoái hóa của fructose ở cơ và gan
-\n\n
+
 Ị li
 H
 hò@n o8 —o—usen
@@ -562,7 +544,7 @@ UDP-galaclose| NAD+
 4-épimérase 3
 U0P0u5
 Phospho- -Gluose °
-Gloose8-  giieemdGse Glucoseri-l 2rophosphogase  lÏ vi
+Gloose8- giieemdGse Glucoseri-l 2rophosphogase lÏ vi
 phosphat ====5 phosphat 4 ơn H lIiESH
 (G-8-P) 5 (@†P) Ó-R-O-P-O-Uridn
 UTP PPi M ÔN: ở ở
@@ -598,8 +580,6 @@ ra bào tương nhờ con thoi malat-aspartat (chất vận chuyển dicarboxyla
 (hình 7.11), ở bào tương malat chuyển thành oxaloacetat rồi carboxyl hóa dưới
 tác dụng của phosphoenol pyruua‡ carboxybinase cần GTP tạo thành PEP.
 
-
-\n\n
 — Phản ứng từ F-1,6-DP thành G-6-P cần enzym /*uctose-1,6-diphosphatase.
 — Phản ứng từ G-6-P thành glucose cần sự xúc tác của gjucose-6-phosphaiase;
 Năng lượng cần thiết để tổng hợp glucose từ pyruvat có thể viết:
@@ -632,7 +612,7 @@ l l_ Arginin
 =o gu 'Glutamin
 Isoleuein S~ CoA Glutamat
 - dua +————
-Leucin mm” ?”  nceinyl - GoA S;eetoglutaral Histidin
+Leucin mm” ?” nceinyl - GoA S;eetoglutaral Histidin
 Prolin
 
 Hình 7.9. Nguồn nguyên liệu tổng hợp oxaloacetat và
@@ -646,7 +626,6 @@ gan. Ở gan lactat là nguồn nguyên liệu để tổng hợp glucose theo c
 tân tạo glucose. Vòng vận chuyển và biển đổi này được gọi là chu trình Cori
 (hình 7.10).
 
-\n\n
 Gan Máu Cơ
 Glucose ——> Glueose. —7987117^ đycogen, glucose
 
@@ -699,12 +678,11 @@ co,
 
 co
 
-CSBos2 —  suenioa
+CSBos2 — suenioa
 T ®—
 
 Hình 7.11. Quá trình tân tạo glucose tại gan (AAG: acid amin cho đường)
 
-\n\n
 ### 9.3. Chu trình Glucose - Alanin
 
 Trong nhiều tổ chức, trong đó có cơ, ajanin transaminase chuyển đổi các
@@ -750,8 +728,6 @@ Tổng hợp lactose
 Ở cơ thể người và động vật cao cấp, lactose được tổng hợp từ tuyến sữa
 của phụ nữ thời kỳ có thai và cho con bú.
 
-
-\n\n
 ## 3. CHUYỂN HÓA GLYCOGEN
 
 Glycogen được dự trữ trong bào tương dưới dạng hạt, đường kính khoảng
@@ -800,8 +776,6 @@ vào con đường "đường phân (ở cơ) hoặc có thể bị thuỷ phân
 gan) để cung cấp cho vòng tuần hoàn. Sau quá trình thoái hóa khoảng 90% gốc
 glucose của glycogen chuyển thành G1P và 10% chuyển thành glucose tự do.
 
-
-\n\n
 oesese
 
 | Phosphorylase
@@ -816,7 +790,7 @@ Glucose-l-phosphat ° hi
 Transferase
 
 Phosphoglucose @ © ẵ
-Trutan9 a bcecde ÍA$  „ @7 Gucose
+Trutan9 a bcecde ÍA$ „ @7 Gucose
 ñ α-1,6-glucosidase
 Glucose 6 rSm
 
@@ -849,10 +823,9 @@ mà chỉ có thể kéo dài mạch glycogen bằng liên kết 1-4.
 Sự tổng hợp từ đầu một phân tử glycogen là sự gắn gốc glucose vào nhóm
 OH của tyrosin 194 của phân tử protein được gọi là glycogenin bởi enzym
 
-\n\n
 #yrosin-glucosyltransferase, sau đó tự xúc tác kéo dài chuỗi bởi sự gắn thêm 7
 gốc glucose từ UDP-glucose tạo thành đoạn mồi “primer” cho sự mở đầu tổng
-hợp glycogen. Protein glycogenin tách rời khi hạt glycogen đạt kích thước tối
+hợp glycogen. Protein glycogenin tách rời khi hạt glycogen đạt kích tnước tối
 thiểu. Phân tích hạt glycogen cho thấy sự có mặt glycogenin và glycogen
 synthase với tỷ lệ 1:1.
 
@@ -897,8 +870,6 @@ Synthase
 
 Hình 7.15. Sự tổng hợp glycogen mạch nhánh
 
-
-\n\n
 ## 4. ĐIỀU HOÀ CHUYỂN HÓA GLUCID
 
 Con đường _ thoái hóa glucose và con đường tân tạo glucose song.song
@@ -949,7 +920,6 @@ Fructose 2,6 diphosphat hoạt hóa phospho fructobirase —1 và là một yế
 ## 5. RỐI LOẠN CHUYỂN HÓA GLUCID
 Một số tình trạng bệnh lý do rối loạn chuyển hóa glucid có thể gặp là:
 
-\n\n
 ### 5.1. Hạ đường huyết (hypoglycemia)
 
 Hạ đường huyết là một hội chứng được đặc trưng bởi sự giảm nồng độ
@@ -994,14 +964,12 @@ ngoài của gạo). Bệnh được đặc trưng bởi các triệu chứng th
 thần kinh ngoại biên thể hiện bằng sự đau tay chân, suy yếu hệ thống cơ, tê bì,
 rối loạn cảm giác da. Tìm có thể to, hoạt động tim suy yếu. Vitamin B1 cấu tạo
 thiaminpyrophosphat (TPP), là coenzym của 3 enzym pyruua¿ dehydrogenase, α-
-cetoglutorot debydrogerase và các trunscetolase. Ö bệnh Beriberi, pyruvat và ø-
+cetoglutorot debydrogerase và các trunscetolase. Ở bệnh Beriberi, pyruvat và ø-
 cetoglutarat cao hơn bình thường. Trên ¿n uitro hoạt độ pyruuat dehydrogenase,
 α-cetoglutarot deh,ydrogenase thấp, hoạt độ transcetolase trong hồng cầu thấp.
 Tuy nhiên, mức độ giảm của ba enzym này liên quan như thế nào với các triệu
 chứng lâm sàng là điều hiện còn chưa rõ ràng.
 
-
-\n\n
 ### 5.8. Các bệnh ứ glycogen bẩm sinh
 
 Các bệnh ứ glycogen là một tập hợp các bệnh thiếu hụt enzym của
@@ -1060,7 +1028,6 @@ Thiếu hụt ødenglat cyclase. Nông độ catecholamin cao trong nước ti�
 
 bệnh nhân chết từ tuổi ấu thơ. Bệnh,có biểu hiện như bệnh typ VI.
 
-\n\n
 Typ IX: thiếu phosphorylasebinase b
 
 Cấu trúc glycogen bình thường, lượng glycogen trong gan tăng, khối
@@ -1073,7 +1040,7 @@ tăng.
 
 Bệnh gây ra do fhiếu một trong ba enzym chuyển hóa gdlactose là:
 8glactokinase, golactose -1 -phosphat uridyiyl transferase và uridin diphospat
-@lucose  - 4 - epimerase bẩm sinh. Bệnh kinh điển là thiếu galactose -1-
+@lucose - 4 - epimerase bẩm sinh. Bệnh kinh điển là thiếu galactose -1-
 phosphat uridylyl transferase. Trẻ em bị bệnh này sẽ còi cọc, thường bị nôn
 mửa và tiêu chẩy sau khi ăn sữa, chậm "phát triển trí óc, có galactose niệu,
 galactose máu tăng gây đục thuỷ tinh thể. Bệnh được điều trị bằng chế độ ăn
@@ -1110,8 +1077,6 @@ dẫn đến nhiễm acid chuyển hóa.
 
 Các rối loạn chuyển hóa trong bệnh ĐTĐ.
 
-
-\n\n
 - Hiện tượng glycosyl hóa: glycosyl hóa là các phân tử protein và enzym
 trong máu hoặc trong tổ chức gắn với phân tử glucose và các dẫn xuất của
 glucose, phản ứng kết hợp này không cần enzym mà phụ thuộc vào nồng độ
@@ -1152,7 +1117,6 @@ Sự xuất hiện những triệu chứng trầm trọng
 
 — Khả năng xuất hiện thể ceton niệu
 
-
 Phụ thuộc vào insulin ngoại sinh để đầm bảo đời sống
 
 — Đái tháo đường không lệ thuộc insulin (non insulin dependent diabetes
@@ -1167,7 +1131,6 @@ triệu chứng
 
 - Không có khả năng xuất hiện thể ceton niệu.
 
-\n\n
 - Người bệnh không phụ thuộc insulin ngoại sinh
 
 Bệnh thường được chẩn đoán sau tuổi 40, thường được chẩn đoán một
@@ -1205,44 +1168,39 @@ Trình bày quá trình tổng hợp glycogen ở cơ.
 
 Trình bày sự khác nhau của quá trình tổng hợp glycogen ở gan và cơ.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 7)</div>
-  <div class="answer-body">
-    <h4>1. Nêu 3 phản ứng không thuận nghịch (điểm điều hòa) của Đường phân:</h4>
-    <ol>
-      <li><strong>Phản ứng 1 (Phosphoryl hóa glucose):</strong> Glucose + ATP → Glucose-6-P nhờ <em>Hexokinase</em> (ở mọi mô, bị ức chế ngược bởi G-6-P) hoặc <em>Glucokinase</em> (ở gan, Km cao, không bị ức chế bởi G-6-P, do insulin kích thích).</li>
-      <li><strong>Phản ứng 3 (Phosphoryl hóa F-6-P):</strong> Fructose-6-P + ATP → Fructose-1,6-bisphosphat nhờ <em>PFK-1</em>. Là <strong>bước điều hòa tốc độ quan trọng nhất</strong>: bị ức chế allosteric bởi ATP và Citrat (báo hiệu giàu năng lượng); được hoạt hóa mạnh mẽ bởi AMP, ADP và đặc biệt là <strong>Fructose-2,6-bisphosphat (F-2,6-BP)</strong>.</li>
-      <li><strong>Phản ứng 10 (Tạo Pyruvat):</strong> Phosphoenolpyruvat (PEP) + ADP → Pyruvat + ATP nhờ <em>Pyruvat kinase</em>. Được hoạt hóa bởi F-1,6-BP (cơ chế feed-forward); bị ức chế bởi ATP, Alanin và sự phosphoryl hóa do Glucagon kích thích tại gan.</li>
-    </ol>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 7)</div>
+<div class="answer-body">
+<h4>1. Nêu 3 phản ứng không thuận nghịch (điểm điều hòa) của Đường phân:</h4>
+<ol>
+<li><strong>Phản ứng 1 (Phosphoryl hóa glucose):</strong> Glucose + ATP → Glucose-6-P nhờ <em>Hexokinase</em> (ở mọi mô, bị ức chế ngược bởi G-6-P) hoặc <em>Glucokinase</em> (ở gan, Km cao, không bị ức chế bởi G-6-P, do insulin kích thích).</li>
+<li><strong>Phản ứng 3 (Phosphoryl hóa F-6-P):</strong> Fructose-6-P + ATP → Fructose-1,6-bisphosphat nhờ <em>PFK-1</em>. Là <strong>bước điều hòa tốc độ quan trọng nhất</strong>: bị ức chế allosteric bởi ATP và Citrat (báo hiệu giàu năng lượng); được hoạt hóa mạnh mẽ bởi AMP, ADP và đặc biệt là <strong>Fructose-2,6-bisphosphat (F-2,6-BP)</strong>.</li>
+<li><strong>Phản ứng 10 (Tạo Pyruvat):</strong> Phosphoenolpyruvat (PEP) + ADP → Pyruvat + ATP nhờ <em>Pyruvat kinase</em>. Được hoạt hóa bởi F-1,6-BP (cơ chế feed-forward); bị ức chế bởi ATP, Alanin và sự phosphoryl hóa do Glucagon kích thích tại gan.</li>
+</ol>
 
-    <h4>2. So sánh năng lượng Đường phân Hiếu khí và Yếm khí từ 1 Glucose:</h4>
-    <ul>
-      <li><strong>Đường phân yếm khí:</strong> 1 Glucose → 2 Lactat. Thu hoạch thuần: <strong>2 ATP</strong> (không tạo NADH do 2 NADH sinh ra ở phản ứng 6 đã bị tiêu thụ để khử pyruvat thành lactat nhờ LDH).</li>
-      <li><strong>Đường phân hiếu khí:</strong> 1 Glucose → 2 Pyruvat + 2 ATP thuần + 2 NADH.
-        <ul>
-          <li>2 Pyruvat qua phức hợp PDH tạo 2 Acetyl-CoA + 2 CO₂ + 2 NADH ty thể (2 × 2.5 = 5 ATP).</li>
-          <li>2 Acetyl-CoA qua chu trình Krebs tạo 2 × 10 = 20 ATP.</li>
-          <li>2 NADH bào tương chuyển vào ty thể qua con thoi Malat-Aspartat (tạo 2 × 2.5 = 5 ATP) hoặc con thoi Glycerol phosphat (tạo 2 × 1.5 = 3 ATP).</li>
-          <li><strong>Tổng năng lượng hiếu khí hoàn toàn: 30 đến 32 ATP / 1 phân tử Glucose</strong> (tạo ra gấp 15-16 lần so với đường phân yếm khí).</li>
-        </ul>
-      </li>
-    </ul>
+<h4>2. So sánh năng lượng Đường phân Hiếu khí và Yếm khí từ 1 Glucose:</h4>
+<ul>
+<li><strong>Đường phân yếm khí:</strong> 1 Glucose → 2 Lactat. Thu hoạch thuần: <strong>2 ATP</strong> (không tạo NADH do 2 NADH sinh ra ở phản ứng 6 đã bị tiêu thụ để khử pyruvat thành lactat nhờ LDH).</li>
+<li><strong>Đường phân hiếu khí:</strong> 1 Glucose → 2 Pyruvat + 2 ATP thuần + 2 NADH.
+<ul>
+<li>2 Pyruvat qua phức hợp PDH tạo 2 Acetyl-CoA + 2 CO₂ + 2 NADH ty thể (2 × 2.5 = 5 ATP).</li>
+<li>2 Acetyl-CoA qua chu trình Krebs tạo 2 × 10 = 20 ATP.</li>
+<li>2 NADH bào tương chuyển vào ty thể qua con thoi Malat-Aspartat (tạo 2 × 2.5 = 5 ATP) hoặc con thoi Glycerol phosphat (tạo 2 × 1.5 = 3 ATP).</li>
+<li><strong>Tổng năng lượng hiếu khí hoàn toàn: 30 đến 32 ATP / 1 phân tử Glucose</strong> (tạo ra gấp 15-16 lần so với đường phân yếm khí).</li>
+</ul>
+</li>
+</ul>
 
-    <h4>3. Cơ chế và vai trò sinh học của Chu trình Pentose Phosphat:</h4>
-    <ul>
-      <li>Không nhằm mục đích tạo ATP mà tạo ra 2 sản phẩm sống còn:
-        <ol>
-          <li><strong>NADPH:</strong> Cung cấp lực khử cho các phản ứng đồng hóa (tổng hợp acid béo, cholesterol, hormon steroid); Khử oxy hóa chất độc và thuốc ở gan qua hệ cytochrom P450; Tái tạo <em>Glutathion khử (GSH)</em> trong hồng cầu để phân hủy H₂O₂ bảo vệ màng hồng cầu chống tan máu (thiếu hụt enzym G6PD gây bệnh tan máu cấp do thiếu NADPH khi dùng thuốc oxy hóa hoặc ăn đậu tằm favism).</li>
-          <li><strong>Ribose-5-phosphat:</strong> Cung cấp nguyên liệu đường 5 carbon để tổng hợp nucleotid RNA, DNA, ATP, NAD⁺.</li>
-        </ol>
-      </li>
-    </ul>
-  </div>
+<h4>3. Cơ chế và vai trò sinh học của Chu trình Pentose Phosphat:</h4>
+<ul>
+<li>Không nhằm mục đích tạo ATP mà tạo ra 2 sản phẩm sống còn:
+<ol>
+<li><strong>NADPH:</strong> Cung cấp lực khử cho các phản ứng đồng hóa (tổng hợp acid béo, cholesterol, hormon steroid); Khử oxy hóa chất độc và thuốc ở gan qua hệ cytochrom P450; Tái tạo <em>Glutathion khử (GSH)</em> trong hồng cầu để phân hủy H₂O₂ bảo vệ màng hồng cầu chống tan máu (thiếu hụt enzym G6PD gây bệnh tan máu cấp do thiếu NADPH khi dùng thuốc oxy hóa hoặc ăn đậu tằm favism).</li>
+<li><strong>Ribose-5-phosphat:</strong> Cung cấp nguyên liệu đường 5 carbon để tổng hợp nucleotid RNA, DNA, ATP, NAD⁺.</li>
+</ol>
+</li>
+</ul>
+</div>
 </div>

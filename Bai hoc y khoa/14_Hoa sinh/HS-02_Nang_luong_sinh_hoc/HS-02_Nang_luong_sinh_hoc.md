@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 6
 
 NĂNG LƯỢNG SINH HỌC.
@@ -43,7 +42,6 @@ hữu. cơ; năng lượng (Q) giải phóng cùng một lúc.
 Sự đốt cháy các chất hữu cơ trong cơ thể trong điều kiện a nhiệt: độ không
 cao (37°C), môi trường 2/3 là nước, lượng nhiệt toả ra không được quá lớn một
 
-\n\n
 lúc, oxy không khí không tiếp xúc trực tiếp với carbon và hydro của cơ chất. Vì
 vậy quá trình đốt cháy các chất xảy ra từ từ, từng bước, không có ngọn lửa, ít
 tăng nhiệt độ, năng lượng được giải phóng dần. Năng lượng giải phóng trong
@@ -71,7 +69,7 @@ Bước 1 T [ [
 Acid amin Các đường đơn Acid béo, glycerol
 Bước 2
 Bước 3
-lÕ— ,„  NADHH
+lÕ— ,„ NADHH
 
 s5
 
@@ -81,8 +79,6 @@ ATP
 
 Hình 6.1. Khái quát sự đốt cháy các chất hữu cơ G, L, P trong cơ thể
 
-
-\n\n
 Bước 3: sự thoái hóa các chất chuyển hóa trung gian đến sản phẩm cuối
 cùng là các chất cặn bã (CO; NH;) đào thải ra ngoài cơ thể.
 
@@ -114,7 +110,7 @@ R-COOH —WW” RH+UCO,
 
 Phản ứng này không giải phóng nhiều năng lượng
 
-- H,O được tạo thành nhờ một dây chuyền phản ứng bao gồm hàng loạt
+- H,O được tạo thành nhờ một dây chuyển phản ứng bao gồm hàng loạt
 quá trình tách, vận chuyển H; ra khỏi cơ chất và vận chuyển H, qua một chuỗi
 dài các chất trung gian cuối cùng tới O;. Trong quá trình này, cả hydro và oxy
 đều được hoạt hóa chuyển thành dạng các ion H* và O°. Những ion này hoạt
@@ -134,8 +130,6 @@ chuyển điện tử và 2 chất vận chuyển điện tử riêng biệt nh�
 Trong phức hợp này, các điện tử được chuyển từ NADH trước tiên tới
 FMN (flavin mononucleotid, có chứa Vitamin B2) và được chuyển tới một
 
-
-\n\n
 protein chứa kim loại gắn với lưu huỳnh (trung tâm sắt lưu huỳnh). Sau đó 2e
 được chuyển tới OoQ tạo CoQH,. Toàn bộ phản ứng ở bước này có thể viết:
 
@@ -172,7 +166,6 @@ phản ứng có thể viết như sau.
 
 Succinat + CoQ.——Zz3z3› Tumarat + CoQh;.
 
-\n\n
 Cơ chế vận chuyển điện tử của FAD và trung tâm sắt -lưu huỳnh cũng
 giống như đã trình bày ở phức hợp trên.
 
@@ -224,8 +217,8 @@ kết hợp với 2H* tạo H,O. Phản ứng được xúc tác bởi phức h�
 tắt như sau:
 
 2Cyt c-Fe ”* gu + 1⁄2 O, + 2H' ——xz 2Cyt c-Fe”' eo + HẠO
-\n\n
-2.2.2. Trật tự sắp xếp của chuỗi uận chuyển điện tử uà năng lượng giải phóng
+
+2.2.2. Trật tự sắp xếp của chuỗi uận chuyển điện tử và năng lượng giải phóng
 + Thành phần của chuỗi vận chuyển điện tử được định hướng chặt chẽ
 theo trật tự thế năng oxy hóa - khử của các chất trong chuỗi. Theo tính toán,
 
@@ -272,8 +265,6 @@ Hình 6.6. Cấu tạo sơ lược Khoảng giữa hai màng
 
 ty thể
 
-
-\n\n
 TA uộIp U9ÁnUo UẬỢA IOnUO "6°9 UU|H
 d1V
 *od"H +d0V
@@ -305,7 +296,6 @@ HGVN
 
 91eJeuin4 91euioong
 
-\n\n
 2.3.2. ATPsynthase
 
 + ATPsynthase được cấu tạo bởi 2 phức hợp oligome Et, F,.
@@ -338,7 +328,6 @@ F
 
 9%
 
-\n\n
 1 đơn vị pH = 10 lần chênh lệch nồng độ H*
 
 chênh lệch một đơn vị pH qua màng = điện thế là 59 mV (ở 20oC)
@@ -386,7 +375,6 @@ nghiệm .
 mà năng lượng giải phóng từ sự vận chuyển e đủ để đẩy H* qua màng trong ty
 thể ra ngoài ty thể.
 
-\n\n
 2e vận chuyển qua phức hợp NADH-Co@ reductase tạo ra năng lượng đủ
 để bơm 4 H* qua màng trong. '
 
@@ -438,8 +426,6 @@ trong môi trường nuôi cấy tế bào.
 
 Thời gian
 
-
-\n\n
 Ty thể sinh tổng hợp ATP theo nhu cầu của tế bào thông qua nồng độ ADP.
 
 + Nông độ ADP thấp làm giảm tiêu thụ O¿, giảm quá trình oxy hóa (vận
@@ -496,7 +482,6 @@ gradient H*. Có 2 quá trình phosphoryl hóa ở mức cơ chất trong quá t
 
 Phosphoenol pyruvat + ADP —mmrh--+ #ứ Pyruvat + ATP
 
-\n\n
 ## 3. SỰ PHOSPHORYL -OXY HÓA
 
 Sự giải phóng năng lượng trong quá trình vận chuyển e- (oxy hóa) ở
@@ -542,7 +527,6 @@ giải phóng :
 Ký hiệu là R ~. Một số liên kết phosphat giàu năng lượng là:
 + Acylphosphat: tạo thành do H¿PO, kết hợp với gốc acid của chất hữu cơ.
 
-\n\n
 Ví dụ: Acid 1-3 diphosphogl 1
 í dụ: Aci: iphosphoglyceric go %
 
@@ -588,14 +572,13 @@ trên).
 ADP thành ATP đi kèm với sự oxy hóa - khử (chuỗi vận chuyển điện tử) nên
 được gọi thành từ ghép là sự phosphoryl — oxy hóa. `
 
-\n\n
 ## 4. CHU TRÌNH ACID CITRIC
 
 ### 4.1. Khái quát về chu trình acid citric và sự hình thành acetyl-CoA từ
 acid pyruvic
 
 Chu trình acid citric là giai đoạn thoái hóa cuối cùng chung của các chất
-glucid, lipid và protein. Chất đầu tiên tham gia vào phần ứng của chu trình là
+glucid, lipid và protein. Chất đầu tiên tham gia vào phản ứng của chu trình là
 acetyl CoA mà sản phẩm thoái hóa các chất chủ yếu tạo ra là acid pyruvic. Vì
 vậy, phải có phản ứng chuyển acid pyruvic tạo acetyl-CoA.
 
@@ -625,8 +608,6 @@ dichydrogenase transacebyse dehydrogensse
 
 Hình 6.11. Chuyển hóa acid pyruvic thành acetylCoA.
 
-
-\n\n
 4.2. Các phản ứng của chu trình acid citric. (còn gọi là chu trình Krebs)
 
 Toàn bộ các phản ứng (kể cả các enzym xúc tác) của chu trình acid citric
@@ -663,7 +644,7 @@ coø CHU TRÌNH ACID CITRIC €Hz-COO-
 HỆ=CoØ :
 Fumarase Họ k4 HỆ-COƠ Isoeitrat
 OJ +
-coơ 3a /ZNAD”  ¡socirat
+coơ 3a /ZNAD” ¡socirat
 Fumarat cn NADH đGehdrogenase
 Hệ se TH
 Coo €H2-COO
@@ -677,13 +658,12 @@ CoA~ SH COzCoA~SH .
 GTP H2- coơ M” l α- Cetoglutarat
 (ATP) GDP
 NHA (ADP) NAD
-Thiokinase +P £-S-CoA NADH  ~ Catoglutarat
+Thiokinase +P £-S-CoA NADH ~ Catoglutarat
 ° H Dehydrogenase
 Sucinyl CoA
 
 Hình 6.12. Tổng quát các phản ứng của chu trình acid citric
 
-\n\n
 - Phản ứng 3: khử carboxyl oxy hóa isocitrat thành ơœ-cetoglutarat.
 
 Jsocitrate loại đi một cặp Hạ nhờ xúc tấc của enzym isocifrte
@@ -739,8 +719,6 @@ protein.
 
 - Cung cấp nhiều năng lượng.
 
-
-\n\n
 — Cung cấp các chất chuyển hóa trung gian cho các chuyển hóa khác
 (liên hệ với các chuyển hóa khác ở những chương sau).
 
@@ -758,7 +736,7 @@ enzym dị lập thể xúc tác có tác dụng điều tiết hoạt động c
 
 Toàn bộ chương năng lượng sinh học có thể tóm tắt như hình 6.13.
 
-Trong tế bào, các chất Pynwvat  Acid béo
+Trong tế bào, các chất Pynwvat Acid béo
 G, L, P thoái hóa sẽ tạo ra
 acid pyruvic, acid béo. Các
 chất này thoái hóa tiếp
@@ -792,7 +770,6 @@ CÂU HỎI ÔN TẬP
 ## 1. Hãy chứng minh (bằng sơ đồ) sự đốt cháy các chất hữu cơ sinh năng
 lượng trong cơ thể khác với sự đốt cháy các chất đó ở ngoài cơ thể.
 
-\n\n
 Thành phần, thứ tự của chuỗi vận chuyển điện tử? hãy tính năng
 lượng giải phóng dưới dạng calo khi vận chuyển 2e từ NADH, đến O¿.
 
@@ -811,47 +788,42 @@ chuỗi vận chuyển điện tử? Hậu quả cuối cùng của sự ức ch
 Hãy trình bày chu trình acid citric: các phản ứng, enzym xúc tác,
 năng lượng, đặc điểm và ý nghĩa.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 6)</div>
-  <div class="answer-body">
-    <h4>1. Trình bày chuỗi vận chuyển điện tử ty thể và các phức hợp:</h4>
-    <ul>
-      <li>Nằm ở màng trong ty thể, gồm 4 phức hợp protein vận chuyển e⁻ theo chiều thế năng oxy hóa - khử tăng dần tới chất nhận điện tử cuối cùng là Oxy phân tử:
-        <ol>
-          <li><strong>Phức hợp I (NADH-Q oxidoreductase):</strong> Nhận 2e⁻ từ NADH, chuyển qua FMN và Fe-S tới Coenzym Q (Ubiquinon); bơm <strong>4 H⁺</strong> từ chất nền ra xoang gian màng.</li>
-          <li><strong>Phức hợp II (Succinat-Q reductase):</strong> Chuyển 2e⁻ từ FADH₂ (trong phản ứng oxy hóa succinat) qua Fe-S tới Coenzym Q; không bơm H⁺ do năng lượng tự do thấp.</li>
-          <li><strong>Phức hợp III (Q-Cytochrom c oxidoreductase):</strong> Chu trình Q chuyển e⁻ từ CoQH₂ tới Cytochrom c (protein tan trong xoang gian màng); bơm <strong>4 H⁺</strong>.</li>
-          <li><strong>Phức hợp IV (Cytochrom c oxidase):</strong> Chuyển 4e⁻ từ Cytochrom c qua CuA, Hem a, Hem a3-CuB để khử O₂ thành 2 H₂O; bơm <strong>2 H⁺</strong>.</li>
-        </ol>
-      </li>
-      <li><strong>Tổng kết:</strong> 1 NADH chuyển e⁻ tới O₂ bơm tổng cộng <strong>10 H⁺</strong>; 1 FADH₂ bơm tổng cộng <strong>6 H⁺</strong>.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 6)</div>
+<div class="answer-body">
+<h4>1. Trình bày chuỗi vận chuyển điện tử ty thể và các phức hợp:</h4>
+<ul>
+<li>Nằm ở màng trong ty thể, gồm 4 phức hợp protein vận chuyển e⁻ theo chiều thế năng oxy hóa - khử tăng dần tới chất nhận điện tử cuối cùng là Oxy phân tử:
+<ol>
+<li><strong>Phức hợp I (NADH-Q oxidoreductase):</strong> Nhận 2e⁻ từ NADH, chuyển qua FMN và Fe-S tới Coenzym Q (Ubiquinon); bơm <strong>4 H⁺</strong> từ chất nền ra xoang gian màng.</li>
+<li><strong>Phức hợp II (Succinat-Q reductase):</strong> Chuyển 2e⁻ từ FADH₂ (trong phản ứng oxy hóa succinat) qua Fe-S tới Coenzym Q; không bơm H⁺ do năng lượng tự do thấp.</li>
+<li><strong>Phức hợp III (Q-Cytochrom c oxidoreductase):</strong> Chu trình Q chuyển e⁻ từ CoQH₂ tới Cytochrom c (protein tan trong xoang gian màng); bơm <strong>4 H⁺</strong>.</li>
+<li><strong>Phức hợp IV (Cytochrom c oxidase):</strong> Chuyển 4e⁻ từ Cytochrom c qua CuA, Hem a, Hem a3-CuB để khử O₂ thành 2 H₂O; bơm <strong>2 H⁺</strong>.</li>
+</ol>
+</li>
+<li><strong>Tổng kết:</strong> 1 NADH chuyển e⁻ tới O₂ bơm tổng cộng <strong>10 H⁺</strong>; 1 FADH₂ bơm tổng cộng <strong>6 H⁺</strong>.</li>
+</ul>
 
-    <h4>2. Cơ chế phosphoryl hóa oxy hóa và tổng hợp ATP:</h4>
-    <ul>
-      <li>Theo thuyết Hóa thẩm thấu của Peter Mitchell: Sự bơm proton H⁺ tạo ra một chênh lệch điện hóa proton (Proton Motive Force - pmf gồm chênh lệch nồng độ ΔpH và chênh lệch điện thế màng Δψ).</li>
-      <li>Dòng H⁺ từ xoang gian màng chỉ có thể chảy ngược về chất nền thông qua kênh F₀ của phức hợp <strong>ATP Synthase</strong>. Năng lượng cơ học dòng proton làm quay trục γ của đầu F₁, làm biến đổi cấu hình xúc tác của 3 dị dimer αβ luân phiên: Mở (O) → Lỏng (L) → Chặt (T) để ép ADP + Pi tổng hợp thành ATP.</li>
-      <li>Cứ 4 H⁺ chuyển qua màng tổng hợp và đưa được 1 ATP ra bào tương → <strong>Tỷ lệ P/O: 1 NADH tạo 2.5 ATP; 1 FADH₂ tạo 1.5 ATP</strong>.</li>
-    </ul>
+<h4>2. Cơ chế phosphoryl hóa oxy hóa và tổng hợp ATP:</h4>
+<ul>
+<li>Theo thuyết Hóa thẩm thấu của Peter Mitchell: Sự bơm proton H⁺ tạo ra một chênh lệch điện hóa proton (Proton Motive Force - pmf gồm chênh lệch nồng độ ΔpH và chênh lệch điện thế màng Δψ).</li>
+<li>Dòng H⁺ từ xoang gian màng chỉ có thể chảy ngược về chất nền thông qua kênh F₀ của phức hợp <strong>ATP Synthase</strong>. Năng lượng cơ học dòng proton làm quay trục γ của đầu F₁, làm biến đổi cấu hình xúc tác của 3 dị dimer αβ luân phiên: Mở (O) → Lỏng (L) → Chặt (T) để ép ADP + Pi tổng hợp thành ATP.</li>
+<li>Cứ 4 H⁺ chuyển qua màng tổng hợp và đưa được 1 ATP ra bào tương → <strong>Tỷ lệ P/O: 1 NADH tạo 2.5 ATP; 1 FADH₂ tạo 1.5 ATP</strong>.</li>
+</ul>
 
-    <h4>3. Hạch toán năng lượng Chu trình Acid Citric (Krebs):</h4>
-    <ul>
-      <li>1 phân tử Acetyl-CoA (2C) đi vào chu trình Krebs trải qua 8 phản ứng oxy hóa hoàn toàn tạo ra:
-        <ul>
-          <li>2 phân tử CO₂ (tách ra ở phản ứng Isocitrat dehydrogenase và α-Cetoglutarat dehydrogenase).</li>
-          <li>3 phân tử NADH (ở phản ứng 3, 4 và 8) × 2.5 = <strong>7.5 ATP</strong>.</li>
-          <li>1 phân tử FADH₂ (ở phản ứng 6 Succinat dehydrogenase) × 1.5 = <strong>1.5 ATP</strong>.</li>
-          <li>1 phân tử GTP (ở phản ứng 5 Succinyl-CoA synthetase) = <strong>1.0 ATP</strong>.</li>
-        </ul>
-      </li>
-      <li><strong>Tổng thu hoạch: 10 ATP cho mỗi phân tử Acetyl-CoA</strong> đốt cháy hoàn toàn trong chu trình Krebs.</li>
-    </ul>
-  </div>
+<h4>3. Hạch toán năng lượng Chu trình Acid Citric (Krebs):</h4>
+<ul>
+<li>1 phân tử Acetyl-CoA (2C) đi vào chu trình Krebs trải qua 8 phản ứng oxy hóa hoàn toàn tạo ra:
+<ul>
+<li>2 phân tử CO₂ (tách ra ở phản ứng Isocitrat dehydrogenase và α-Cetoglutarat dehydrogenase).</li>
+<li>3 phân tử NADH (ở phản ứng 3, 4 và 8) × 2.5 = <strong>7.5 ATP</strong>.</li>
+<li>1 phân tử FADH₂ (ở phản ứng 6 Succinat dehydrogenase) × 1.5 = <strong>1.5 ATP</strong>.</li>
+<li>1 phân tử GTP (ở phản ứng 5 Succinyl-CoA synthetase) = <strong>1.0 ATP</strong>.</li>
+</ul>
+</li>
+<li><strong>Tổng thu hoạch: 10 ATP cho mỗi phân tử Acetyl-CoA</strong> đốt cháy hoàn toàn trong chu trình Krebs.</li>
+</ul>
+</div>
 </div>

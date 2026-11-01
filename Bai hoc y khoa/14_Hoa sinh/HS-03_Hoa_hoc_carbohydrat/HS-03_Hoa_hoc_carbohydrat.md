@@ -10,7 +10,6 @@
 
 ---
 
-
 PHẦN 1
 CẤU TẠO CHẤT
 
@@ -39,8 +38,6 @@ không thể bị thuỷ phân thành những phần tử nhỏ hơn.
 Monosaccarid được phân loại và gọi tên theo bản chất hóa học của nhóm
 carbony] và số lượng nguyên tử carbon của chúng:
 
-
-\n\n
 - Theo nhóm carbonyl: nếu nhóm carbonyl là aldehyd thuộc loại aldose
 (aldehyd alcol), ví dụ: glucose. Nếu nhóm carbonyl là ceton thì monosaccarid
 thuộc loại cetose (ceton alcol), ví dụ: fructose.
@@ -70,7 +67,6 @@ D-Glyceraldehyd
 
 Aldotriose
 
-
 CH¿OH
 
 „” N
@@ -91,7 +87,7 @@ D-Arabinose (Ara)
 
 CHO CcHO cHO CcHO
 
-HCHO  HOCH HCOH  HOCH
+HCHO HOCH HCOH HOCH
 
 HCOH HCOH - HOCH
 
@@ -157,7 +153,7 @@ Aldohexose
 Mình 1.1. Sự liên quan hóa học lập thể của các D-aldose có 3 - 6 nguyên tử carbon
 
 (aldotriose - aldohexose), sự tạo thành từng cặp với sự khác biệt của C2
-\n\n
+
 Sự liên quan hóa học lập thể của các D — cetose trình bày ở hình 1.2.
 
 Do vị trí của nhóm carbonyl khác nhau trong aldose và éetose làm cho số
@@ -235,7 +231,6 @@ các D-cetose có 3 - 6 nguyên tử carbon
 (cetotriose - cetohexose), sự tạo thành
 từng cặp với sự khác biệt của C3
 
-\n\n
 D-Glucose d-D-Glucopyranose
 
 (Ð) 'cH¿OH
@@ -272,7 +267,6 @@ thành bismut kim loại màu đen.
 - Hydroxyd đồngII (Cu (OH),) bị khử tạo thành kết tủa oxyd đồng I (Cu¿O)
 . màu đỏ gạch.
 
-\n\n
 -— Tụo thành dẫn xuất là các acid uronie: sự oxy hóa đặc biệt của nhóm
 alcol bậc 1 của các aldose tạo thành các acid uronic như. D- glucuronic acid,
 D-galacturonic acid, D-mannuronic acid.
@@ -291,7 +285,7 @@ trường kiềm yếu như Ba(OH)„ hoặc Ôa(OH); qua dạng trung gian ened
 
 1.8.4. Dẫn xuất este
 
-Nhóm -OH alool trong phân tử monosaccarid phần ứng với các ácid tạo
+Nhóm -OH alool trong phân tử monosaccarid phản ứng với các ácid tạo
 thành các este tương ứng. Một số dẫn xuất este quan trọng trong cơ thể sinh
 vật như: Phospho gÌyceraldehyd, phosphodihydroxyaceton, ribose-5-phosphat,
 D-xylulose-5-phosphat, glucose-1-phosphat, glucose-6-phosphat, β-D-fructose-
@@ -322,8 +316,6 @@ hiệu là +55,59. Lactose có trong sữa người và động vật nên còn 
 Maltose là [O- α- D-glucopyranosyl a2 4)- glucopyranosel, có tính khử,
 maltose có trong mầm lúa, kẹo mạch nha, là sản phẩm thuỷ phân của tinh bột.
 
-
-\n\n
 2| (Qà] H 5
 Ỳ—-1⁄0oh
 HH
@@ -361,7 +353,6 @@ Amylopectin
 
 Hình 1.5. Liên kết a-(1-> 4) và liên kết (1¬ 6) glucosid trong phân tử amylopectin
 
-\n\n
 Hình 1.6. Amylose (Hình của Irving Qeis) ' Hình1.7. Amyloposin
 
 Amylopeetin chiếm từ 75:— 85% trong tỉnh bột, gồm: “khoảng 108 gốc
@@ -394,8 +385,6 @@ nên tiêu hóa được cellulose.
 Chitin là thành phần quan trọng của các động vật không xương sống như
 loại giáp xác, sâu bọ và nhện, nó cũng có trong các tế bào vách của các loại
 
-
-\n\n
 nấm và tảo. Chitin là homopolyme của N-acetyl-D-glucosamin, liên kết với
 nhau bồi liên kết 8 (1->4) glucosid. Về cấu tạo hóa học chitin khác với cellulose
 là ở các C2 nhóm —OH được thay thế bằng gốc acetamid. '
@@ -440,7 +429,6 @@ máu, được dùng để điều trị những trường hợp nghẽn mạch 
 Keratan sulfat cấu tạo gồm các đơn vị là β-D-galactose và N-acetyl-D-
 glucosamin-6-sulfat.
 
-\n\n
 ### 3.6. Glycoprotein
 
 Glycoprotein là mucopolysaccarid liên kết với protein bằng liên kết đồng
@@ -459,50 +447,45 @@ Trình bày sự giống nhau và khác nhau của saccarose và lactose. ˆ
 
 Trình bày sự giống nhau và khác nhau của tinh bột, glycogen, cellulose.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 1)</div>
-  <div class="answer-body">
-    <h4>1. Viết tên hóa học và công thức cấu tạo của α-D-glucose, β-D-fructose:</h4>
-    <ul>
-      <li><strong>α-D-glucopyranose:</strong> Công thức Haworth vòng 6 cạnh, nhóm -OH anomer ở C1 quay xuống dưới mặt phẳng vòng, nhóm -CH₂OH ở C6 quay lên trên. Các nhóm -OH ở C2 quay xuống, C3 quay lên, C4 quay xuống. Tên hóa học: α-D-glucopyranose.</li>
-      <li><strong>β-D-fructofuranose:</strong> Vòng 5 cạnh furanose hình thành giữa nhóm ceton ở C2 và nhóm -OH ở C5. Nhóm -OH anomer ở C2 quay lên trên mặt phẳng vòng (cùng phía với nhóm -CH₂OH ở C6). Tên hóa học: β-D-fructofuranose.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 1)</div>
+<div class="answer-body">
+<h4>1. Viết tên hóa học và công thức cấu tạo của α-D-glucose, β-D-fructose:</h4>
+<ul>
+<li><strong>α-D-glucopyranose:</strong> Công thức Haworth vòng 6 cạnh, nhóm -OH anomer ở C1 quay xuống dưới mặt phẳng vòng, nhóm -CH₂OH ở C6 quay lên trên. Các nhóm -OH ở C2 quay xuống, C3 quay lên, C4 quay xuống. Tên hóa học: α-D-glucopyranose.</li>
+<li><strong>β-D-fructofuranose:</strong> Vòng 5 cạnh furanose hình thành giữa nhóm ceton ở C2 và nhóm -OH ở C5. Nhóm -OH anomer ở C2 quay lên trên mặt phẳng vòng (cùng phía với nhóm -CH₂OH ở C6). Tên hóa học: β-D-fructofuranose.</li>
+</ul>
 
-    <h4>2. Trình bày tính chất khử của monosaccarid:</h4>
-    <ul>
-      <li><strong>Cơ chế:</strong> Nhờ có nhóm carbonyl (-CHO của aldose hoặc -CO-CH₂OH của cetose có khả năng hỗ biến thành aldose qua dạng enediol trong môi trường kiềm), monosaccarid có khả năng khử các ion kim loại nặng (Cu²⁺, Ag⁺, Bi³⁺) ở nhiệt độ cao.</li>
-      <li><strong>Phản ứng Fehling / Benedict:</strong> Trong môi trường kiềm nóng, monosaccarid khử Cu²⁺ (màu xanh lam) thành Cu⁺ tạo kết tủa đồng (I) oxid Cu₂O có màu đỏ gạch: <code>R-CHO + 2 Cu²⁺ + 4 OH⁻ → R-COOH + Cu₂O↓ (đỏ gạch) + 2 H₂O</code>.</li>
-      <li><strong>Ứng dụng y học:</strong> Dùng định tính và bán định lượng glucose niệu trong theo dõi bệnh đái tháo đường.</li>
-    </ul>
+<h4>2. Trình bày tính chất khử của monosaccarid:</h4>
+<ul>
+<li><strong>Cơ chế:</strong> Nhờ có nhóm carbonyl (-CHO của aldose hoặc -CO-CH₂OH của cetose có khả năng hỗ biến thành aldose qua dạng enediol trong môi trường kiềm), monosaccarid có khả năng khử các ion kim loại nặng (Cu²⁺, Ag⁺, Bi³⁺) ở nhiệt độ cao.</li>
+<li><strong>Phản ứng Fehling / Benedict:</strong> Trong môi trường kiềm nóng, monosaccarid khử Cu²⁺ (màu xanh lam) thành Cu⁺ tạo kết tủa đồng (I) oxid Cu₂O có màu đỏ gạch: <code>R-CHO + 2 Cu²⁺ + 4 OH⁻ → R-COOH + Cu₂O↓ (đỏ gạch) + 2 H₂O</code>.</li>
+<li><strong>Ứng dụng y học:</strong> Dùng định tính và bán định lượng glucose niệu trong theo dõi bệnh đái tháo đường.</li>
+</ul>
 
-    <h4>3. So sánh sự giống nhau và khác nhau của Saccarose và Lactose:</h4>
-    <ul>
-      <li><strong>Giống nhau:</strong> Đều là disaccarid có công thức phân tử C₁₂H₂₂O₁₁, tan tốt trong nước, cấu tạo từ 2 gốc monosaccarid liên kết qua cầu nối glycosid.</li>
-      <li><strong>Khác nhau:</strong>
-        <ul>
-          <li><em>Saccarose:</em> Cấu tạo từ α-D-glucose và β-D-fructose qua liên kết α-1,β-2-glycosid. Cả 2 nhóm -OH bán acetal đều tham gia liên kết nên <strong>không còn tính khử</strong>. Thủy phân bởi enzym sucrase tạo hỗn hợp đường đảo cực.</li>
-          <li><em>Lactose:</em> Cấu tạo từ β-D-galactose và D-glucose qua liên kết β-1,4-galactosid. Gốc glucose còn 1 nhóm -OH bán acetal tự do ở C1 nên <strong>vẫn còn tính khử</strong>. Thủy phân bởi enzym lactase ở ruột non.</li>
-        </ul>
-      </li>
-    </ul>
+<h4>3. So sánh sự giống nhau và khác nhau của Saccarose và Lactose:</h4>
+<ul>
+<li><strong>Giống nhau:</strong> Đều là disaccarid có công thức phân tử C₁₂H₂₂O₁₁, tan tốt trong nước, cấu tạo từ 2 gốc monosaccarid liên kết qua cầu nối glycosid.</li>
+<li><strong>Khác nhau:</strong>
+<ul>
+<li><em>Saccarose:</em> Cấu tạo từ α-D-glucose và β-D-fructose qua liên kết α-1,β-2-glycosid. Cả 2 nhóm -OH bán acetal đều tham gia liên kết nên <strong>không còn tính khử</strong>. Thủy phân bởi enzym sucrase tạo hỗn hợp đường đảo cực.</li>
+<li><em>Lactose:</em> Cấu tạo từ β-D-galactose và D-glucose qua liên kết β-1,4-galactosid. Gốc glucose còn 1 nhóm -OH bán acetal tự do ở C1 nên <strong>vẫn còn tính khử</strong>. Thủy phân bởi enzym lactase ở ruột non.</li>
+</ul>
+</li>
+</ul>
 
-    <h4>4. So sánh sự giống nhau và khác nhau của Tinh bột, Glycogen và Cellulose:</h4>
-    <ul>
-      <li><strong>Giống nhau:</strong> Đều là homopolysaccarid phân tử lớn cấu tạo từ hàng nghìn gốc D-glucose.</li>
-      <li><strong>Khác nhau:</strong>
-        <ul>
-          <li><em>Tinh bột:</em> Glucid dự trữ của thực vật, gồm 2 thành phần: Amylose (mạch thẳng không phân nhánh, liên kết α-1,4, tạo màu xanh tím với iod) và Amylopectin (mạch phân nhánh, mạch chính α-1,4, phân nhánh α-1,6 sau mỗi 24-30 gốc, màu tím đỏ với iod).</li>
-          <li><em>Glycogen:</em> Glucid dự trữ của động vật (tập trung ở gan và cơ), cấu trúc tương tự amylopectin nhưng <strong>phân nhánh dày đặc hơn nhiều</strong> (cứ sau 8-12 gốc glucose lại có 1 nhánh α-1,6), tạo màu đỏ nâu với iod, phân giải cực nhanh khi cần năng lượng.</li>
-          <li><em>Cellulose:</em> Thành phần cấu trúc vách tế bào thực vật, liên kết bằng <strong>liên kết β-1,4-glucosid</strong> tạo chuỗi thẳng kéo dài xếp song song thành bó sợi bền vững. Động vật có vú không có enzym cellulase nên không tiêu hóa được cellulose (đóng vai trò chất xơ kích thích nhu động ruột).</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+<h4>4. So sánh sự giống nhau và khác nhau của Tinh bột, Glycogen và Cellulose:</h4>
+<ul>
+<li><strong>Giống nhau:</strong> Đều là homopolysaccarid phân tử lớn cấu tạo từ hàng nghìn gốc D-glucose.</li>
+<li><strong>Khác nhau:</strong>
+<ul>
+<li><em>Tinh bột:</em> Glucid dự trữ của thực vật, gồm 2 thành phần: Amylose (mạch thẳng không phân nhánh, liên kết α-1,4, tạo màu xanh tím với iod) và Amylopectin (mạch phân nhánh, mạch chính α-1,4, phân nhánh α-1,6 sau mỗi 24-30 gốc, màu tím đỏ với iod).</li>
+<li><em>Glycogen:</em> Glucid dự trữ của động vật (tập trung ở gan và cơ), cấu trúc tương tự amylopectin nhưng <strong>phân nhánh dày đặc hơn nhiều</strong> (cứ sau 8-12 gốc glucose lại có 1 nhánh α-1,6), tạo màu đỏ nâu với iod, phân giải cực nhanh khi cần năng lượng.</li>
+<li><em>Cellulose:</em> Thành phần cấu trúc vách tế bào thực vật, liên kết bằng <strong>liên kết β-1,4-glucosid</strong> tạo chuỗi thẳng kéo dài xếp song song thành bó sợi bền vững. Động vật có vú không có enzym cellulase nên không tiêu hóa được cellulose (đóng vai trò chất xơ kích thích nhu động ruột).</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>

@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 8
 
 CHUYỂN HÓA LIPID VÀ LIPOPROTEIN
@@ -36,7 +35,6 @@ Nhu cầu lipid của cơ thể: 60-100g/ngày với người trưởng thành, 
 ### 1.1. Thoái hóa của glyeerol
 Quá trình xây ra ở gan và một số mô. Mô mỡ không có gjycerolbinase.
 
-\n\n
 CH,OH hề CH,OH
 
 Ị ATP. ADP NAD' NADH +H* |
@@ -47,7 +45,7 @@ H oH
 Glycerol Glycerol-3-phosphat Dioxyaceton phosphat
 
 ### 1.2. Thoái hóa của acid béo bão hòa có số carbon chấn
-1.2.1. Hoạt hóa uà uận chuyển acid béo uào ty thể
+1.2.1. Hoạt hóa và uận chuyển acid béo vào ty thể
 o o.o
 li AcylCoAsynthetase || ||
 R-C-OH+ATP+CoASH ——ả-”?> R-C~ SCoA + AMP + PPi
@@ -82,8 +80,6 @@ acyltransferase |
 
 Hình 8.1. Vận chuyển acid béo vào ty thể theo hệ thống vận chuyển aoylcarnitin/carnitin
 
-
-\n\n
 Trong ty thể, gốc acyl được chuyển từ carnitin đến coenzym A có ở trong
 ty thể dưới tác dụng của carnitin acyltransferase II khu trú ở mặt trong của
 màng trong ty thể. Carnitin được giải phóng sẽ trở lại khoảng giữa của hai
@@ -128,7 +124,6 @@ hóa cho đến khi gốc acylCoA chỉ còn một phân tử acetylCoA. Như v�
 phân tử acid palmitic có 16C được hoạt hóa thành palmitylCoA và trải qua 7
 vòng oxy hóa để giải phóng 8 phân tử acety]CoA (Hình 8.2).
 
-\n\n
 p α«
 R¬ CH,~ CH, — Ch mu
 
@@ -181,8 +176,6 @@ Các acid béo không bão hòa (ví dụ: acid oleie) được oxy hóa gần g
 con đường oxy hóa acid béo bão hòa, nhưng có hai vấn đề cần chú ý. Một là,
 liên kết đôi trong phân tử acid béo không bão hòa trong tự nhiên thuộc dạng
 
-
-\n\n
 cis, còn liên kết đôi của chất chuyển hóa trung gian trong quá trình oxy hóa
 acid béo bão hòa thuộc dạng trans. Hai là, các liên kết đôi của hầu hết phân tử
 acid béo không bão hòa thường ở những vị trí mà sau khi phân cắt dần những
@@ -199,7 +192,7 @@ của quá trình oxy hóa acid béo, bởi vậy sự oxy hóa acid oleic đư�
 khi kết thúc sẽ tạo ra 9 mẩu 2C.
 
 o
- _
+_
 ` SCoA Oleyl - CoA
 
 8 oxy hóa
@@ -222,7 +215,7 @@ hydratase Trans - A? - Dodecenyl - CoA
 o
 oH Z
 
-A  À B - Hydroxydecanyl CoA
+A À B - Hydroxydecanyl CoA
 H
 
 B oxy hóa
@@ -238,7 +231,6 @@ Như vậy, các enzym phụ của quá trình oxy hóa acid béo có thể làm
 tất cả acid béo không bão hòa gặp trong các lipid tự nhiên được oxy hóa hoàn
 toàn.
 
-\n\n
 12 $ BẠ ũ
 1872327 V7T7VTXZXXZ ^ SCOA - LInoleylCoA
 
@@ -257,7 +249,7 @@ N
 #npyiGoA — NAD CB XenoylCoA
 cdehydrogengse ^NADH +H'
 4.2
-0  —
+0 —
 l3
 S Trans-2Ỷ ch A dienoyl CoA
 ¬.ˆ: 7:7 2224- dienoVl COA- NADPH +HT
@@ -282,8 +274,6 @@ Hình 8.4. Quá trình oxy hóa acid béo không bão hòa có nhiều liên k�
 Ở cơ thể người và động vật có vú, acetylGoA được hình thành ở gan trong:
 quá trình oxy hóa acid béo có thể đi vào chu trình acid citric hoặc có thể tạo ra
 
-
-\n\n
 các thể ceton gồm acetoacetat, D-β-hydroxybutyrat và aceton để cung cấp cho
 các mô ngoại vi (Hình 8.5).
 
@@ -345,7 +335,6 @@ Tại các mô ngoại vi, D-β-hydroxybutyrat được oxy hóa thành acetoace
 sau đó chất này được hoạt hóa thành acetoacety]CoA và rồi phân tách tạo nên
 2 phân tử acetyl]CoA (Hình 8.6). AcetylCoA sẽ đi vào chu trình acid citric.
 
-\n\n
 oH
 
 l Z
@@ -362,13 +351,13 @@ Suceinyl CoA
 B - Cetoacyl CoA C conv
 transferase l Asuccinie
 Ĩ °
-AceloacelylCoA  CH CC CH— cƒ
+AceloacelylCoA CH CC CH— cƒ
 SCoA
 CoASH
 Thiolase ⁄.
 M
 z z
-2AcsylCoA  CH,—CỐ + CH-cố
+2AcsylCoA CH,—CỐ + CH-cố
 SCoA SCoA
 _Hình 8. 6. Sự tạo thành acetylCoA từ D-β-hydroxybutyrat ở các mô ngoại vi
 
@@ -396,7 +385,6 @@ béo và xảy ra theo từng giai đoạn: trước hết, liên kết este ở
 
 _ 133
 
-\n\n
 phân khá nhanh, phần còn lại là 2-monoglycerid bị thuỷ phân chậm (Hình
 8.7). Enzym /ipaøse khu trú ở microsom của tế bào mỡ-và nhậy cảm với hormon;
 enzym hoạt động dưới dạng phosphory] hóa, cần proteinbinase và ATP.
@@ -447,7 +435,6 @@ Acid béo tự do vào máu, gắn với albumin huyết tương tạo thành m�
 dạng lipoprotein, rồi được dòng máu đưa đến các mô để thực hiện quá trình
 oxy hóa và tạo năng lượng (Hình 8.8).
 
-\n\n
 Z
 CHO-CCRi
 | °
@@ -495,8 +482,6 @@ này thường có trong nọc rắn, nọc ong và dịch tụy.
 của phospholipid, giải phóng 2 phân tử acid béo và phẩn còn lại là
 glyeerophosphat-base nitơ.
 
-
-\n\n
 - Lysophospholipase: xúc tác sự thuỷ phân đặc hiệu liên kết este ở G¡ của
 lysophospholipid (ysophosphatidyl cholin hoặc lysophosphatidyl ethanolamin).
 
@@ -550,7 +535,6 @@ lecithin đến cholesterol để tạo cholesterol este hóa và lysolecithin.
 Quá trình tổng hợp acid béo bão hòa từ acety]CoA xảy. ra ở tất cả các mô
 nhưng đặc biệt rất mạnh trong gan, mô mỡ, ruột và tuyến vú của các loài động
 
-\n\n
 vật cấp ¿ao.:Sự tổng hợp.cũng như sự oxy hóa acid béo được xảy ra theo những
 con đường khác nhau.với sự xúc tác bởi các hệ enzym khác nhau và ở các vị trí
 khác nhau trong tế bào. Acid béo được tổng hợp bởi những nguyên liệu từ lipid
@@ -604,8 +588,6 @@ transferase Ì
 
 Hình 8.10. Sự vận chuyển acetylCoA qua màng ty thể ra bào tương nhờ carnitin
 
-
-\n\n
 Chất trung gian để tổng hợp acid béo là malonylCoA: chất này được hình
 thành nhờ enzÿm œcety]CoA carboxÿlase xúc tác. Emnzym này có 3 vùng chức
 năng: protein mang biotin, biotin carboxylase hoạt hóa CO; bằng cách gắn CO;
@@ -658,14 +640,13 @@ sang —SH của KG, tạo điều kiện cho SH của ACP tiếp nhận nhóm m
 mới từ malonylOoA để tiếp tục các phản ứng trên (Hình 8.11) cho đến khi
 palmityl ACP được tạo ra.
 
-\n\n
 Gốc palmityl có thể được giải phóng, tạo acid palmitic tự do dưới tác dụng
 của thioesterase; hoặc có thể được chuyển sang phân tử coenzym A, tạo
 palmitylCoA. Với hầu hết cơ thể sống, sự tổng hợp acid béo ở bào tương sẽ
 dừng lại khi acid palmitie được tạo thành (có thể do tính đặc hiệu của K8 với
 chiều dài gốc acy] mà nó tiếp nhận).
 
-CHạ—CH2—CH2—CO—S,  ButyØlACP
+CHạ—CH2—CH2—CO—S, ButyØlACP
 HS (Trung tâm) 5“ CHz-CHa CO:
 
 (Ngoại vị) HS — —
@@ -715,15 +696,13 @@ synthaso
 
 Hình 8.11. Sơ đồ quá trình tổng hợp acid béo ở bào tương với phức hợp multienzym
 
-
-\n\n
 ### 2.2. Tổng hợp äcid béo ở ty thể tế bào
 
 Là sự tổng hợp acid béo mạch dài mà chất tiền thân là acid palmitic. Cơ
 chế kéo dài chuỗi carbon của. acid béo được thực hiện tương tự ngược với quá
 trình 8-oxy hóa và chất vận chuyển gốc acyl là phân tử coenzym A (Hình 8.12).
 
-—  CÄGyl—CoA có (n92)C R-CHz—CH2—CH2—CO~S CoA
+— CÄGyl—CoA có (n92)C R-CHz—CH2—CH2—CO~S CoA
 h 4 NADP"
 Khử lần thứ hai (se - Av~ Enoyl CoA reductase
 NADPH +H*
@@ -767,7 +746,6 @@ Trong mô động vật, acid palmitic và acid stearic là tiền chất của 
 béo không bão hòa có một liên kết đôi phổ biến là acid palmitoleic, 16:1(A°) và
 acid oleie, 18:1(A°). Sự tổng hợp các acid béo này xảy ra ở hệ thống lưới nội bào
 
-\n\n
 của gan và mô mỡ nhờ hệ /zono-oxygenase đặc hiệu xúc tác. Một phân tử oxy
 tiếp nhận hai cặp điện tử, một cặp từ cơ chất acid béo bão hòa (acid palmitic
 hoặc acid stearic) và một cặp từ NADPH. Sự vận chuyển điện tử được thực
@@ -801,14 +779,14 @@ lu má
 °
 Z
 SCoA Rieoø.
-CoAsH AcylCoAsynihase  Acid béo
+CoAsH AcylCoAsynihase Acid béo
 
-AMP +PPi ATP  CoASH
+AMP +PPi ATP CoASH
 = li
 _
 SCoA Rzcoo
 
-° ©oAsH AcykCoAsynhase  Acld béo
+° ©oAsH AcykCoAsynhase Acld béo
 
 li HO,
 ° CH/=O—C—Ri HO - ° mm
@@ -844,7 +822,6 @@ Triglycerid được tổng hợp mạnh ở các tế bào của loài có xư�
 là tế bào gan và tế bào mỡ), cũng như trong các loài thực vật bậc cao. Hai tiền
 chất chủ yếu cần cho sự tổng hợp triglycerid là glycerol-3-phosphat và acylCoA.
 
-\n\n
 Glycerol-3-phosphat được hình thành từ 2 con đường: (1) từ
 hydroxyaceton phosphat dưới tác dụng của gjycerol-3-phosphet dehydrogenase
 trong bào tương, (2) từ glycerol tự do dưới tác dụng của gjycerolkinase có ở tế
@@ -906,7 +883,6 @@ methionin homocystein
 
 Hình 8.15. Sơ đồ tổng hợp lecithin và cephalin
 
-\n\n
 Xây ra ở các mô động vật. Enzym xúc tác của quá trình này thường gắn
 chặt vào màng của hệ thống lưới nội nguyên sinh chất (Hình 8.15).
 
@@ -960,8 +936,6 @@ este ACAT, AT Cholesterol
 
 Hình 8.17. Sơ đồ điều hòa sinh tổng hợp cholesterol ở tế bào gan
 
-
-\n\n
 ## 4. LIPOPROTEIN - DẠNG LIPID VẬN CHUYỂN
 
 Lipid không tan trong nước. Lipid lưu hành trong máu và dịch sinh vật,
@@ -1005,13 +979,11 @@ ApoD 34.145 Chylomicron, VLDL, HDL
 Với phương pháp siêu ly tâm phân tích, lipoprotein được chia thành các
 loại sau:
 
-Chylomicron (CM): là lipoprotein có kích thước lớn nhất và hàm lượng
+Chylomicron (CM): là lipoprotein có kích tnước lớn nhất và hàm lượng
 triglycerid cao, apoprotein chủ yếu là apoB-48, apoE và apoC-II. CM được tông
 hợp độc nhất ở lưới nội nguyên sinh của tế bào niêm mạc ruột, chỉ có mặt
 trong thời gian ngắn ở huyết tương sau bữa ăn giàu mỡ, là yếu tố làm cho
 
-
-\n\n
 huyết tương có màu đục và trắng. CM sẽ biến mất sau vài giờ và huyết tương
 của người bình thường khi đói phải trong.
 
@@ -1061,8 +1033,6 @@ bào, sau đó chúng được đưa vào trong tế bào. Cholesterol trong LDL
 là cholesterol “xấu” vì nó tham gia vào sự phát triển các mảng vữa xơ động
 mạch ở thành của động mạch.
 
-
-\n\n
 Lipoprotein tỷ trọng trung gian (IDL — intermediate density
 lipoprotein): có tỷ trọng giữa VLDL-và LDL. VLDL sau khi giải phóng
 triglycerid, nhận thêm cholesterol este và mất đi apoC sẽ chuyển thành IDL
@@ -1109,39 +1079,35 @@ Trình bày sự thoái hóa lecithin ở tế bào.
 11. Định nghĩa và phân loại lipoprotein huyết tương? Nêu đặc điểm sinh
 học và những chức năng chính của từng loại lipoprotein huyết tương.
 
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 8)</div>
-  <div class="answer-body">
-    <h4>1. Tính năng lượng thu được từ β-oxy hóa hoàn toàn 1 phân tử Acid Palmitic (16C):</h4>
-    <ul>
-      <li>Acid Palmitic (CH₃(CH₂)₁₄COOH, 16C) trải qua <strong>7 vòng chu trình β-oxy hóa</strong> và tạo ra <strong>8 phân tử Acetyl-CoA</strong>:
-        <ul>
-          <li>7 vòng β-oxy hóa sinh ra: 7 FADH₂ (7 × 1.5 = 10.5 ATP) + 7 NADH (7 × 2.5 = 17.5 ATP) = <strong>28 ATP</strong>.</li>
-          <li>8 phân tử Acetyl-CoA đi vào chu trình Krebs sinh ra: 8 × 10 ATP = <strong>80 ATP</strong>.</li>
-          <li>Tổng ATP tạo thành: 28 + 80 = 108 ATP.</li>
-          <li>Khấu trừ năng lượng hoạt hóa ban đầu (Acid béo + ATP → Acyl-CoA + AMP + PPi tiêu tốn tương đương 2 liên kết phosphat cao năng): 108 - 2 = <strong>106 ATP thuần</strong>.</li>
-        </ul>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 8)</div>
+<div class="answer-body">
+<h4>1. Tính năng lượng thu được từ β-oxy hóa hoàn toàn 1 phân tử Acid Palmitic (16C):</h4>
+<ul>
+<li>Acid Palmitic (CH₃(CH₂)₁₄COOH, 16C) trải qua <strong>7 vòng chu trình β-oxy hóa</strong> và tạo ra <strong>8 phân tử Acetyl-CoA</strong>:
+<ul>
+<li>7 vòng β-oxy hóa sinh ra: 7 FADH₂ (7 × 1.5 = 10.5 ATP) + 7 NADH (7 × 2.5 = 17.5 ATP) = <strong>28 ATP</strong>.</li>
+<li>8 phân tử Acetyl-CoA đi vào chu trình Krebs sinh ra: 8 × 10 ATP = <strong>80 ATP</strong>.</li>
+<li>Tổng ATP tạo thành: 28 + 80 = 108 ATP.</li>
+<li>Khấu trừ năng lượng hoạt hóa ban đầu (Acid béo + ATP → Acyl-CoA + AMP + PPi tiêu tốn tương đương 2 liên kết phosphat cao năng): 108 - 2 = <strong>106 ATP thuần</strong>.</li>
+</ul>
+</li>
+</ul>
 
-    <h4>2. Cơ chế sinh tổng hợp và ý nghĩa lâm sàng của Thể Ceton:</h4>
-    <ul>
-      <li><strong>Cơ chế:</strong> Khi tế bào thiếu glucose nội bào (như khi nhịn đói kéo dài hoặc đái tháo đường typ 1 không điều trị), tốc độ phân giải mỡ tăng vọt, giải phóng ồ ạt acid béo về gan. Quá trình β-oxy hóa tạo lượng Acetyl-CoA khổng lồ vượt quá khả năng chuyển hóa của chu trình Krebs (vốn cạn kiệt oxaloacetat do bị rút đi tân tạo đường). Acetyl-CoA dư thừa được ty thể gan chuyển hướng tổng hợp thành 3 thể ceton: <em>Acetoacetat, β-hydroxybutyrat và Aceton</em>.</li>
-      <li><strong>Ý nghĩa:</strong> Thể ceton là nhiên liệu tan trong nước quý giá cho não, cơ và tim khi đói. Tuy nhiên, Acetoacetat và β-hydroxybutyrat là các acid carboxylic phân ly giải phóng H⁺; khi nồng độ thể ceton trong máu tăng vọt vượt quá khả năng đệm của cơ thể sẽ dẫn đến <strong>Nhiễm toan Ceton đái tháo đường (Diabetic Ketoacidosis - DKA)</strong>, gây hôn mê và tử vong nếu không cấp cứu kịp thời bằng insulin và bù dịch điện giải.</li>
-    </ul>
+<h4>2. Cơ chế sinh tổng hợp và ý nghĩa lâm sàng của Thể Ceton:</h4>
+<ul>
+<li><strong>Cơ chế:</strong> Khi tế bào thiếu glucose nội bào (như khi nhịn đói kéo dài hoặc đái tháo đường typ 1 không điều trị), tốc độ phân giải mỡ tăng vọt, giải phóng ồ ạt acid béo về gan. Quá trình β-oxy hóa tạo lượng Acetyl-CoA khổng lồ vượt quá khả năng chuyển hóa của chu trình Krebs (vốn cạn kiệt oxaloacetat do bị rút đi tân tạo đường). Acetyl-CoA dư thừa được ty thể gan chuyển hướng tổng hợp thành 3 thể ceton: <em>Acetoacetat, β-hydroxybutyrat và Aceton</em>.</li>
+<li><strong>Ý nghĩa:</strong> Thể ceton là nhiên liệu tan trong nước quý giá cho não, cơ và tim khi đói. Tuy nhiên, Acetoacetat và β-hydroxybutyrat là các acid carboxylic phân ly giải phóng H⁺; khi nồng độ thể ceton trong máu tăng vọt vượt quá khả năng đệm của cơ thể sẽ dẫn đến <strong>Nhiễm toan Ceton đái tháo đường (Diabetic Ketoacidosis - DKA)</strong>, gây hôn mê và tử vong nếu không cấp cứu kịp thời bằng insulin và bù dịch điện giải.</li>
+</ul>
 
-    <h4>3. So sánh 4 loại Lipoprotein huyết tương chính:</h4>
-    <ul>
-      <li><strong>Chylomicron (CM):</strong> Tỷ trọng thấp nhất, kích thước lớn nhất, chứa >85% triglycerid ngoại sinh từ thức ăn; vận chuyển lipid từ ruột theo hệ bạch huyết về mô mỡ và cơ; Apo đặc trưng: Apo B-48, Apo C-II, Apo E.</li>
-      <li><strong>VLDL (Very Low Density Lipoprotein):</strong> Giàu triglycerid nội sinh (~55%) do gan tổng hợp; vận chuyển mỡ từ gan đến các mô ngoại vi; Apo: Apo B-100, Apo C-II, Apo E.</li>
-      <li><strong>LDL (Low Density Lipoprotein):</strong> Giàu cholesterol nhất (~50% cholesterol este hóa); là sản phẩm thoái hóa của VLDL qua IDL; vận chuyển cholesterol từ gan đến các mô ngoại vi. LDL dư thừa bị oxy hóa xâm nhập vào lớp dưới nội mạc mạch máu, bị đại thực bào thực bào tạo tế bào bọt (foam cells) khởi phát mảng xơ vữa (<strong>"Cholesterol xấu"</strong>). Apo đặc trưng: duy nhất Apo B-100.</li>
-      <li><strong>HDL (High Density Lipoprotein):</strong> Tỷ trọng cao nhất, giàu protein (~50%) và phospholipid; vận chuyển cholesterol dư thừa từ các mô ngoại vi quay trở về gan để đào thải qua đường mật (quá trình vận chuyển cholesterol ngược - Reverse Cholesterol Transport), có tác dụng bảo vệ chống xơ vữa động mạch (<strong>"Cholesterol tốt"</strong>). Apo đặc trưng: Apo A-I, Apo A-II.</li>
-    </ul>
-  </div>
+<h4>3. So sánh 4 loại Lipoprotein huyết tương chính:</h4>
+<ul>
+<li><strong>Chylomicron (CM):</strong> Tỷ trọng thấp nhất, kích tnước lớn nhất, chứa >85% triglycerid ngoại sinh từ thức ăn; vận chuyển lipid từ ruột theo hệ bạch huyết về mô mỡ và cơ; Apo đặc trưng: Apo B-48, Apo C-II, Apo E.</li>
+<li><strong>VLDL (Very Low Density Lipoprotein):</strong> Giàu triglycerid nội sinh (~55%) do gan tổng hợp; vận chuyển mỡ từ gan đến các mô ngoại vi; Apo: Apo B-100, Apo C-II, Apo E.</li>
+<li><strong>LDL (Low Density Lipoprotein):</strong> Giàu cholesterol nhất (~50% cholesterol este hóa); là sản phẩm thoái hóa của VLDL qua IDL; vận chuyển cholesterol từ gan đến các mô ngoại vi. LDL dư thừa bị oxy hóa xâm nhập vào lớp dưới nội mạc mạch máu, bị đại thực bào thực bào tạo tế bào bọt (foam cells) khởi phát mảng xơ vữa (<strong>"Cholesterol xấu"</strong>). Apo đặc trưng: duy nhất Apo B-100.</li>
+<li><strong>HDL (High Density Lipoprotein):</strong> Tỷ trọng cao nhất, giàu protein (~50%) và phospholipid; vận chuyển cholesterol dư thừa từ các mô ngoại vi quay trở về gan để đào thải qua đường mật (quá trình vận chuyển cholesterol ngược - Reverse Cholesterol Transport), có tác dụng bảo vệ chống xơ vữa động mạch (<strong>"Cholesterol tốt"</strong>). Apo đặc trưng: Apo A-I, Apo A-II.</li>
+</ul>
+</div>
 </div>

@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 12
 
 SINH TỔNG HỢP PROTEIN
@@ -44,8 +43,6 @@ DNA sẽ dẫn đến sự thay đổi về cấu trúc của protein tổng h�
 bào có nhân), còn mRNA là chất truyền thông tin di truyền từ DNA tới phân tử
 protein tổng hợp (ở bào tương tế bào).
 
-
-\n\n
 — mRNA có thành phần và trật tự các mononucleotid phù hợp với đoạn
 DNA tương ứng (xem phần sinh tổng hợp RNA).
 
@@ -95,7 +92,6 @@ protein, nhiều ribosom gắn trên cùng
 một phân tử mRNA tạo thành
 polyribosom hay polysom.
 
-
 HẠ ¡trí Gắ
 <—Vị trí gắn
 75 acid amin
@@ -107,7 +103,7 @@ Tiểu đơn vị lớn
 Tiểu đơn vị nhỏ
 
 Hình 12.2. Cấu trúc của rRNA
-\n\n
+
 1.1.5. Các enzym
 
 - Aminogcyl-tRNA syntetase; xúc tác tạo phức hợp aa-tRNA. Enzym đặc
@@ -127,7 +123,7 @@ cho sự chuyển aa-tRNA đến ribosom). EFG cần cho sự chuyển vị củ
 tRNA.
 
 - Yếu tố kết thúc: RF1, RF2, RF3.
-1.1.7. Năng lượng uà các ion: ATP, GTP, Mg?', NH,', K*
+1.1.7. Năng lượng và các ion: ATP, GTP, Mg?', NH,', K*
 1.1.8. Nguyên liệu là 20 acid amin
 ### 1.2. Quá trình sinh tổng hợp protein
 1.2.1. Hoạt hóa acid amin
@@ -135,8 +131,6 @@ tRNA.
 Xây ra ở bào tương nhờ xúc tác của enzym øa-‡RNAsyn‡hetase. Mỗi aa kết
 hợp đồng hóa trị với tRNA. Phản ứng diễn ra qua 2 bước như hình 12.3.
 
-
-\n\n
 H ° ° °
 
 1 " u u
@@ -197,7 +191,6 @@ methionin, mã hóa bởi bộ 3 AUG (mã mở đầu) nằm trên mRNA. Met tha
 mở đầu chuỗi polypeptid ở dưới dạng fMet-tRNA. Quá trình mở đầu tổng hợp
 protein diễn ra như hình 12.4.
 
-\n\n
 Ribosom 708 không hoạt động ở
 trạng thái phân ly thành 2 tiểu phần
 508 và 308. Đầu tiên tiểu phần 30S gắn
@@ -254,8 +247,6 @@ không cần năng lượng từ GTP mà lấy năng lượng từ sự thuỷ p
 
 tRNA..
 
-
-\n\n
 — Sau khi liên kết peptid được hình thành, nhờ tác dụng của EFG (có gắn
 với CTP) ribosom trượt theo chiều 5'- 3' miột khoảng tương đương với chiều dài
 một bộ 3 mật mã. Do đó peptidyl -tRNA chuyển từ vị trí A sang vị trí P. EFG
@@ -271,7 +262,6 @@ Bước 1
 
 Hình12.5a. Giải đoạn kéo dài tổng hợp chuỗi protein
 
-\n\n
 VịitríE VịtíE VitíP VitíA
 
 tRNA bị tách
@@ -293,13 +283,11 @@ h Phản ứng tạo liên kết Ủ
 VitíP VịtíA
 
 ñ Ñ Uncharged- idyl-
-Peptidyl-  Aminoacyl- Peptidyl
+Peptidyl- Aminoacyl- Peptidyl
 tRNA tRNA TRNA tRNA
 
 Hình 12.5b. Giai đoạn kéo dài tổng hợp chuỗi protein
 
-
-\n\n
 1.2.4. Giai đoạn kết thúc
 
 - Sự kéo dài chuỗi polypeptid
@@ -352,7 +340,6 @@ tRNA là Met-tRNA.
 — mRNA của tế bào có nhân là các mRNA monocistron và mRNA ở tế bào
 nhân xơ là các mRNA polycistron. Nghĩa là mRNA của tế bào nhân thật chỉ có
 
-\n\n
 một điểm xuất phát, chỉ làm khuôn cho sự tổng hợp một protein. Trái lại,
 mRNA của tế bào nhân xơ có thể có nhiều điểm xuất phát và làm khuôn cho sự
 tổng hợp nhiều protein thường có liên quan với nhau trong một operon.
@@ -399,8 +386,6 @@ người ta thấy lượng enzym Øgalactosidase tăng lên rất cao. Như v�
 sinh tổng hợp protein là enzym đã tăng lên. Lactose chính là chất gây cảm ứng
 tổng hợp protein enzym.
 
-
-\n\n
 4.1.2. Giỏi thích. Jacob và Monod (giải thưởng Nobel về Y học năm 1965) đã
 mô tả operoh lactose như hình 12.7.
 
@@ -443,7 +428,6 @@ Ngoài gen cấu trúc, operon còn chứa :
 
 Đoạn gen chỉ huy, ký hiệu O là gen điều khiển hoạt động của các gen cấu trúc.
 
-\n\n
 Đoạn gen điều hòa, ký hiệu R mã hóa một protein có tác dụng kìm hãm
 hoạt động của operon lactose nên gọi là chất kìm hãm. -
 
@@ -496,8 +480,6 @@ enzym xúc tác các phản ứng tổng hợp tryptophan. Tuy nhiên khi cho tr
 vào trong môi trường nuôi cấy, người ta thấy lượng enzym E1, E2, E3 giảm đi.
 Như vậy, tryptophan đã kìm hãm tổng nên các protein (E1, E2, E3).
 
-
-\n\n
 4.2.2. Giải thích
 
 - Mô hình operon tryptophan cũng gồm các đoạn gen O, P, gen cấu trúc
@@ -545,7 +527,6 @@ polymerase vào vị trí gen P. Vì vậy, các gen cấu trúc không phiên m
 các enzym E1, E2, E3. Đây chính cơ chế điều hòa, tiết kiệm năng lượng sống
 của sinh vật.
 
-\n\n
 ### 5.3. Điều hoà sinh tổng hợp protein ở tế bào có nhân
 õ.3.1. Ví dụ uề sự điều hòa tổng hợp chuỗi globin bởi Hem
 Khi lượng hem trong tế bào tạo hồng cầu tăng sẽ tạo phức HCR-hem
@@ -583,8 +564,6 @@ Như vậy, điều hòa sinh tổng hợp protein ở tế bào có nhân khôn
 tác động ức chế hoặc hoạt hóa gen mà thông qua các yếu tố mở đầu tổng hợp
 protein.
 
-
-\n\n
 Interferon — — » Protoinkinaso
 
 lui ADP
@@ -635,40 +614,36 @@ ngoài tế bào.
 ## 6. Giải thích cơ chế điều hòa sinh tổng hợp protein ở tế bào nhân sơ bằng
 những ví dụ cụ thể.
 
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 12)</div>
-  <div class="answer-body">
-    <h4>1. Nêu 4 đặc điểm cốt lõi của Mã di truyền:</h4>
-    <ol>
-      <li><strong>Mã bộ ba (Triplet code):</strong> Cứ 3 nucleotid liền kề trên mRNA tạo thành 1 codon quy định 1 acid amin (4³ = 64 bộ ba: 61 bộ ba mã hóa acid amin, 3 bộ ba kết thúc UAA, UAG, UGA; bộ ba mở đầu AUG mã hóa Methionin).</li>
-      <li><strong>Tính liên tục và không chồng gối:</strong> Mã được đọc liên tục từ một điểm bắt đầu cố định từng cụm 3 nucleotid, không có dấu phẩy ngăn cách và không gối lên nhau.</li>
-      <li><strong>Tính thoái hóa (Độ dư thừa - Degeneracy):</strong> Một acid amin có thể được mã hóa bởi nhiều codon đồng nghĩa khác nhau (trừ Met và Trp chỉ có 1 codon). Tính thoái hóa chủ yếu nằm ở vị trí nucleotid thứ 3 (thuyết dao động Wobble).</li>
-      <li><strong>Tính vạn năng (Universal):</strong> Hầu như tất cả các loài sinh vật từ vi khuẩn, nấm, thực vật đến động vật và con người đều dùng chung một bảng mã di truyền (chỉ trừ một vài ngoại lệ nhỏ ở DNA ty thể).</li>
-    </ol>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 12)</div>
+<div class="answer-body">
+<h4>1. Nêu 4 đặc điểm cốt lõi của Mã di truyền:</h4>
+<ol>
+<li><strong>Mã bộ ba (Triplet code):</strong> Cứ 3 nucleotid liền kề trên mRNA tạo thành 1 codon quy định 1 acid amin (4³ = 64 bộ ba: 61 bộ ba mã hóa acid amin, 3 bộ ba kết thúc UAA, UAG, UGA; bộ ba mở đầu AUG mã hóa Methionin).</li>
+<li><strong>Tính liên tục và không chồng gối:</strong> Mã được đọc liên tục từ một điểm bắt đầu cố định từng cụm 3 nucleotid, không có dấu phẩy ngăn cách và không gối lên nhau.</li>
+<li><strong>Tính thoái hóa (Độ dư thừa - Degeneracy):</strong> Một acid amin có thể được mã hóa bởi nhiều codon đồng nghĩa khác nhau (trừ Met và Trp chỉ có 1 codon). Tính thoái hóa chủ yếu nằm ở vị trí nucleotid thứ 3 (thuyết dao động Wobble).</li>
+<li><strong>Tính vạn năng (Universal):</strong> Hầu như tất cả các loài sinh vật từ vi khuẩn, nấm, thực vật đến động vật và con người đều dùng chung một bảng mã di truyền (chỉ trừ một vài ngoại lệ nhỏ ở DNA ty thể).</li>
+</ol>
 
-    <h4>2. Ba giai đoạn dịch mã trên Ribosom:</h4>
-    <ul>
-      <li><strong>Mở đầu:</strong> Nhận diện codon AUG; đưa fMet-tRNA (hoặc Met-tRNA) vào vị trí P của ribosom; tiêu tốn GTP.</li>
-      <li><strong>Kéo dài:</strong> Chu kỳ 3 bước lặp lại:
-        <ol>
-          <li>Nhận diện codon vị trí A: Aminoacyl-tRNA kế tiếp đi vào vị trí A nhờ EF-Tu và GTP.</li>
-          <li>Tạo liên kết peptid: Enzym <em>Peptidyl transferase</em> (rRNA 23S/28S) chuyển chuỗi peptid từ vị trí P sang gắn với acid amin tại vị trí A.</li>
-          <li>Chuyển vị (Translocation): Ribosom trượt 1 codon theo chiều 5'→3' nhờ EF-G và GTP; peptid-tRNA chuyển từ A sang P; tRNA rỗng rời khỏi vị trí E.</li>
-        </ol>
-      </li>
-      <li><strong>Kết thúc:</strong> Khi codon kết thúc (UAA, UAG, UGA) xuất hiện tại vị trí A, yếu tố giải phóng RF gắn vào kích hoạt thủy phân chuỗi polypeptid rời khỏi ribosom.</li>
-    </ul>
+<h4>2. Ba giai đoạn dịch mã trên Ribosom:</h4>
+<ul>
+<li><strong>Mở đầu:</strong> Nhận diện codon AUG; đưa fMet-tRNA (hoặc Met-tRNA) vào vị trí P của ribosom; tiêu tốn GTP.</li>
+<li><strong>Kéo dài:</strong> Chu kỳ 3 bước lặp lại:
+<ol>
+<li>Nhận diện codon vị trí A: Aminoacyl-tRNA kế tiếp đi vào vị trí A nhờ EF-Tu và GTP.</li>
+<li>Tạo liên kết peptid: Enzym <em>Peptidyl transferase</em> (rRNA 23S/28S) chuyển chuỗi peptid từ vị trí P sang gắn với acid amin tại vị trí A.</li>
+<li>Chuyển vị (Translocation): Ribosom trượt 1 codon theo chiều 5'→3' nhờ EF-G và GTP; peptid-tRNA chuyển từ A sang P; tRNA rỗng rời khỏi vị trí E.</li>
+</ol>
+</li>
+<li><strong>Kết thúc:</strong> Khi codon kết thúc (UAA, UAG, UGA) xuất hiện tại vị trí A, yếu tố giải phóng RF gắn vào kích hoạt thủy phân chuỗi polypeptid rời khỏi ribosom.</li>
+</ul>
 
-    <h4>3. Cơ chế điều hòa Operon Lac:</h4>
-    <ul>
-      <li>Khi không có lactose: Protein ức chế (LacI) gắn vào Operator (O) ngăn cản RNA polymerase phiên mã.</li>
-      <li>Khi có lactose: Allolactose gắn vào protein ức chế làm biến đổi cấu hình khiến nó rời khỏi Operator, giải phóng vùng khởi động cho RNA polymerase phiên mã các gen cấu trúc lacZ, lacY, lacA tổng hợp enzym tiêu hóa lactose.</li>
-    </ul>
-  </div>
+<h4>3. Cơ chế điều hòa Operon Lac:</h4>
+<ul>
+<li>Khi không có lactose: Protein ức chế (LacI) gắn vào Operator (O) ngăn cản RNA polymerase phiên mã.</li>
+<li>Khi có lactose: Allolactose gắn vào protein ức chế làm biến đổi cấu hình khiến nó rời khỏi Operator, giải phóng vùng khởi động cho RNA polymerase phiên mã các gen cấu trúc lacZ, lacY, lacA tổng hợp enzym tiêu hóa lactose.</li>
+</ul>
+</div>
 </div>

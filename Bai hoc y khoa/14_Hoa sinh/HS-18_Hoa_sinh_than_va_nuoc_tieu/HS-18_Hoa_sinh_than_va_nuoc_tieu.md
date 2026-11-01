@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 18
 
 HÓA SINH THẬN VÀ NƯỚC TIỂU
@@ -45,7 +44,6 @@ mạch có tác dụng đẩy nước vào bao Bowman).
 Po: áp suất keo của huyết tương (có tác dụng hút nước từ bao Bowman
 vào mao mạch).
 
-\n\n
 Pe: áp suất thuỷ tĩnh trong bao Bowman (đối lập với sự hút nước từ bao
 Bowman vào trong mạch). „
 
@@ -66,14 +64,14 @@ thuật tự chúp phóng xạ, miễn dịch hóa học, người ta đã nhậ
 yếu tố khác nhau ảnh hưởng tới quá trình siêu lọc của các chất có phân tử lớn
 như protein.
 
-1.1.1.1. Kích thước của phân tử được lọc
+1.1.1.1. Kích tnước của phân tử được lọc
 
 Một bằng chứng rõ ràng và đã xưa cũ đó là sự lọc khác biệt giữa
 hemoglobin (Hb có TLPT 70.000) và albumin (TLPT 68000). Khi tiêm tĩnh
 mạch Hb, Hb nhanh chóng được đào thải ra nước tiểu, trong khi đó Alb nhỏ
 hơn Hb, không bị đào thải. Một thí nghiệm khác dựa trên hệ số lọc (coefficient
 de tamisage) của inulin =1, người ta đồng thời xác định hệ số lọc của dextran
-(đường kính 20 Ẵ ) có hệ số lọc =1 và các dextran có kích thước lớn dần (từ 20-
+(đường kính 20 Ẵ ) có hệ số lọc =1 và các dextran có kích tnước lớn dần (từ 20-
 42Ä), với ba loại dextran tích điện dương, dextran tích điện âm và dextran
 trung tính, kết quả thu được như hình 18.1, clearance giảm dần, với dextran
 đường kính 42 Ẳ có hệ số lọc gần bằng 0.
@@ -86,17 +84,15 @@ Dextran trung tính
 
 Dextran tích điện âm
 
-18 22 26 30 34 38 42 Â Kích thước phân tử
+18 22 26 30 34 38 42 Â Kích tnước phân tử
 
 Hình 18.1. Hệ số lọc của các dextran tích điện dương,
-âm và trung tính theo kích thước của chúng
+âm và trung tính theo kích tnước của chúng
 
-
-\n\n
 1.1.1.2. Tình trạng huyết động cục bộ hay lưu lượng máu
 
 Sự vận chuyển những phân tử lớn qua màng cầu thận liên quán tới sự
-thẩm thấu, chức năng này không chỉ phụ thuộc vào kích thước của phân tử mà
+thẩm thấu, chức năng này không chỉ phụ thuộc vào kích tnước của phân tử mà
 còn phụ thuộc vào quá trình lọc, nghĩa là phụ thuộc vào lưu lượng máu cầu
 thận, gradient áp suất chuyển màng, nồng độ protein trong máu cũng như hệ
 số siêu lọc của mạch cầu thận. Lưu lượng máu là thể tích máu qua thận tính
@@ -114,15 +110,15 @@ tăng huyết áp.
 1.1.1.3. Sự tích điện của phân tử protein
 
 Người ta tính được hệ số lọc của albumin là 0,0375 trong khi hệ số lọc của
-dextran trung tính có cùng kích thước (35 Ä) là 0,24. Ở pH sinh học, albumin
+dextran trung tính có cùng kích tnước (35 Ä) là 0,24. Ở pH sinh học, albumin
 như một polyanion, người tà cũng nhận thấy hệ số lọc của albumin gần giống
-với hệ số lọc của dextran sulfat (cũng là anion) có cùng kích thước (dextran tích
+với hệ số lọc của dextran sulfat (cũng là anion) có cùng kích tnước (dextran tích
 điện âm). 8o sánh hệ số lọc của dextran trung tính và hệ số lọc của dextran
 sulfat, Chang (1975) đã đưa ra các giá trị về hệ số lọc của dextran trung tính và
-dextran sulfat (hình 18.1). Hệ số lọc giảm dần theo sự tăng của kích thước phân
-tử, tuy nhiên với cùng kích thước phân tử hệ số lọc của dextran sulfat thấp hơn.
+dextran sulfat (hình 18.1). Hệ số lọc giảm dần theo sự tăng của kích tnước phân
+tử, tuy nhiên với cùng kích tnước phân tử hệ số lọc của dextran sulfat thấp hơn.
 Đối với diethylaminoethyl dextran (dextran điện tích dương) hệ số lọc cao hơn
-cả dextran trung tính có cùng kích thước. Những kết quả trên củng cố cho giả
+cả dextran trung tính có cùng kích tnước. Những kết quả trên củng cố cho giả
 thiết thành mao mạch cầu thận được coi là hàng rào tĩnh điện.
 
 Màng mạch cầu thận được cấu tạo bởi 3 lớp
@@ -143,7 +139,6 @@ các glycoprotein chứa nhiều gốc acid sialic và nhất là các proteogly
 nhiều nhóm sulfat mà cụ thể là heparin sulfat glycosaminglycan là thành
 phần mang điện tích âm chính trong màng cơ bản, còn những tế bào nội mô và
 
-\n\n
 biểu mô được phủ đầy những mucoprotein giàu acid sialic. Người ta cũng thấy
 những cation được gắn trên những polyanion của màng cơ bản cầu thận và tế
 bào nội mô. Như vậy cùng với những kết quả nghiên cứu ở hình 18.1, chính lớp
@@ -196,8 +191,6 @@ thu. Sự hấp thu thay đổi ngược chiều với áp lực động mạch 
 vỏ sâu (áp lực động mạch thận thấp hơn) ở đây hấp thu muối nhiều hơn. Yếu
 tố chính gây sự tái hấp thu là áp suất thẩm thấu và áp lực thuỷ tĩnh trong
 
-
-\n\n
 mao mạch ống thận. Sự giảm của dòng máu qua thận (hạ huyết áp, giảm thể
 tích máu) thì sự tái hấp thu ở ống lượn gần lại tăng để hạ thấp lượng natri đào
 thải ra nước tiểu và ngược lai. Ở ống lượn gần lượng Na* được tái hấp thu là
@@ -219,7 +212,7 @@ Cuối cùng thì lượng natri còn lại trong nước tiểu là 100 - 150 m
 Urê được tái hấp thu đến 40 - 50%, urê tái hấp thu thụ động hoàn toàn
 phụ thuộc vào nồng độ urê trong máu.
 
-1.1.2.5. Chất được bài tiết ở cầu thận, ống thận uà tái hấp thu ở ống thận
+1.1.2.5. Chất được bài tiết ở cầu thận, ống thận và tái hấp thu ở ống thận
 
 Acid uric được cầu thận lọc khoảng 6 mg/ phút, ống thận bài tiết khoảng
 6mg/ phút. Ở ống thận 95 - 98% lượng đó được tái hấp thu, lượng acid urie đào
@@ -249,7 +242,6 @@ Nhờ quá trình tái hấp thu ở ống thận mà trong nước tiểu ngư�
 thường khỏe mạnh lượng protein rất thấp. Các xét nghiệm thông thường không
 phát hiện được và được coi là không có protein.
 
-\n\n
 ### 1.2. Chức phận chuyển hóa
 
 Chuyển hóa chất xảy ra ở thận rất mạnh nhằm cung cấp năng lượng cho
@@ -289,7 +281,7 @@ thành H›CO; dưới tác dụng của carbonic anhydrase. H,¿CO; phân ly th
 và HCOz. Ion H' được bài tiết ra khỏi tế bào ống thận, HCOz cùng với Na'
 được tái hấp thu trở lại máu. (hình 18. 2)
 
-1.3.2. Thận đào thỏi ion H* dưới dạng muối acid uà acid không bay hơi
+1.3.2. Thận đào thỏi ion H* dưới dạng muối acid và acid không bay hơi
 Ở ống lượn xa ion H* cũng được đào thải thế chỗ cho Na* đã được tái hấp
 thu cùng với HCO; , Na' từ các muối phosphat dinatri chuyển thành muối
 phosphat mononatri, pH của nước tiểu cũng giảm (hình 18.3). i
@@ -297,8 +289,6 @@ Thận đào thải các acid không bay hơi như acid lactic, thể ceton, aci
 sulfuric sản phẩm của chuyển hóa protid, acid phosphoric sản phẩm của
 chuyển hóa các phospholipid.
 
-
-\n\n
 NƯỚC TIỂU
 
 co,
@@ -351,7 +341,6 @@ loi
 
 Hình 18.4. Sự đào thải H' dưới dạng muối amon
 
-\n\n
 1.3.3. Thận đào thỏi ion H*dưới dạng muối amon
 
 Một cơ chế nữa cũng xảy ra ở ống lượn xa là tế bào ống thận bài tiết ion
@@ -386,7 +375,7 @@ có chất thụ thể ở màng tế bào vùng cầu của vỏ thượng th�
 soát sự tổng hợp và bài tiết aldosteron. Sự tạo thành và thoái hóa angiotensin I,
 1, TH được trình bày ở hình 18.5.
 
-1.4.1.1. Sự điều hòa bài tiết uà giải phóng renin
+1.4.1.1. Sự điều hòa bài tiết và giải phóng renin
 
 - Hệ thống thần kinh giao cẩm và catecholamin điều hòa giải phóng
 renin qua trung gian của chất cảm thụ beta adrenergic (chất giải phóng
@@ -401,8 +390,6 @@ giảm làm tăng sự bài tiết renin.
 ngược này có vai trò quan trọng trong điều hòa hệ thống renin — angiotensin
 (hình 18.6).
 
-
-\n\n
 Angiotensinogen 1 2.3.4 5 6 7 8 9 10 l1 12 13 14
 Asp-Arg-Val-Tyr-Ile-His-Pro-Phe-His-Leu-Leu-Val-Tyr-Ser-R
 †
@@ -437,7 +424,7 @@ Angiotensin I YÝ tU}- HạHA
 Angiotensin II mm Hạ Na' tế bào ống thận
 
 Hình 18.6. Cơ chế điều hòa bài xuất Renin
-1.4.1.2. Sự điều hòa tổng hợp uà bài tiết g1dosteron
+1.4.1.2. Sự điều hòa tổng hợp và bài tiết g1dosteron
 
 - Nồng độ natri máu: sự tổng hợp aldosteron tăng khi nồng độ natri máu
 hạ. Khi natri máu hạ hơn 10 mEg/l, aldosteron tăng bằng cách chuyển
@@ -446,7 +433,6 @@ corticosteron thành aldosteron.
 -Nồông độ kali máu: kali máu tăng kích thích sự chuyển cholesterol
 thành pregnenolon để thành aldosteron.
 
-\n\n
 - Nồng độ natri trong máu tăng (áp suất thẩm thấu khu vực ngoài tế
 bào tăng ảnh hưởng đến tế bào vùng dưới đồi) gây tăng bài suất ADH hậu
 quả là tăng tái hấp thu nước ở ống thận, tác dụng trở lại với sự bài tiết
@@ -487,8 +473,6 @@ Từ năm 1950 người ta đã xác định được mối liên quan trực ti
 trạng thiếu oxy và nồng độ một hormon mới trong huyết tương đó là
 erythropoietin - Ep (chất tạo hồng cầu) có tác dụng kích thích tế bào hồng cầu
 
-
-\n\n
 tiền thân phát triển thành hồng cầu trưởng thành. Mối liên quan của
 erythropoietin (Ep) với thận được phát hiện năm 1957 bởi Jacobson. Ep được tạo
 ra từ alpha-1-globulin do gan tổng hợp. Ep (không hoạt động) trở thành dạng
@@ -535,7 +519,6 @@ Nước tiểu là dịch bài suất quan trọng nhất chứa phần lớn c�
 của cơ thể. Những thay đổi về các chỉ số hóa lý và đặc biệt là những thay đổi
 về thành phần hóa học của nước tiểu phần ánh các rối loạn chuyển hóa.
 
-\n\n
 ### 2.1. Tính chất chung của nước tiểu
 
 2.1.1. Thể tích nước tiểu
@@ -590,8 +573,6 @@ Tỷ trọng nước tiểu thay đổi trong ngày. Nước tiểu 24h ở đi�
 tỷ trọng dao động 1, 005 - 1,030, trung bình là 1,018 + 0,022. Trường hợp đái
 đường tỷ trọng có thể tới 1,03 - 1,04 , trường hợp đái nhạt tỷ trọng lại thấp.
 
-
-\n\n
 2.1.2.6.pH
 
 pH của nước tiểu 24h hơi acid khoảng ð - 6, trung bình 5,8. Nước tiểu acid
@@ -643,8 +624,6 @@ trạng creatinin trong nước tiểu tăng.
 chuyển hóa nucleoprotein ở tế bào như bệnh bạch cầu, acid uric nước tiểu
 tăng.
 
-
-\n\n
 —Acid amin: nước tiểu chứa tất cả acid amin, mỗi acid amin chiếm
 khoảng 10 — 30mg trong nước tiểu 24h. Riêng glycin và histidin nhiều hơn,
 khoảng trên 100mg/ 24h. Ở phụ nữ sự bài xuất His cao nhất vào giữa ngày thứ
@@ -695,14 +674,12 @@ Nước tiểu bình thường chứa vài miligam acid acetie/1 lít nước ti
 trăm miligam acid beta hydroxybutyric. Các chất này tăng trong trường hợp đói
 lâu ngày, trong bệnh đái tháo đường và sau một số trường hợp dùng thuốc mê.
 
-
-\n\n
 9.2.4. Sắc tố một, muối một
 
 Sắc tố mật là bilirubin liên hợp, sắc tố mật và muối mật có trong nước
 tiểu trong các trường hợp tổn thương gan và đường mật, nhất là trong các
 trường hợp vàng da do viêm gan và tắc mật.
-2.9.5. Hồng cầu uà hemoglobin
+2.9.5. Hồng cầu và hemoglobin
 
 Nước tiểu có hồng cầu trong viêm thận cấp, trong lao thận, ung thư thận.
 Có hemoglobin trong các trường hợp sốt rét ác tính, hoàng đảm do tiêu huyết,
@@ -729,28 +706,24 @@ CÂU HỎI ÔN TẬP .
 2. Trình bày vai trò của thận trong thăng bằng acid - base.
 3. Trình bày các chất bất thường trong nước tiểu.
 
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 18)</div>
-  <div class="answer-body">
-    <h4>1. Cơ chế tái hấp thu Bicarbonat và bài tiết H⁺ ở ống thận:</h4>
-    <ul>
-      <li><strong>Tại ống lượn gần (Tái hấp thu 85-90% HCO₃⁻):</strong> Bơm NHE3 bài tiết H⁺ đổi lấy Na⁺ vào tế bào. H⁺ kết hợp HCO₃⁻ trong lòng ống tạo H₂CO₃. Enzym <em>Carbonic anhydrase màng (CA-IV)</em> phân giải H₂CO₃ thành CO₂ và H₂O. CO₂ khuếch tán vào trong tế bào ống thận, được <em>CA-II nội bào</em> tái tạo thành H₂CO₃ phân ly giải phóng H⁺ (tiếp tục bài tiết) và HCO₃⁻ (được đồng vận chuyển với Na⁺ vào máu).</li>
-      <li><strong>Tại ống lượn xa và ống góp (Acid hóa nước tiểu):</strong> Tế bào kẽ loại A dùng bơm H⁺-ATPase chủ động bài tiết H⁺ vào lòng ống. H⁺ kết hợp với HPO₄²⁻ tạo H₂PO₄⁻ (acid chuẩn độ) hoặc kết hợp với NH₃ (sinh ra từ chuyển hóa glutamin nhờ enzym glutaminase) tạo ion amoni <strong>NH₄⁺</strong> bài tiết theo nước tiểu.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 18)</div>
+<div class="answer-body">
+<h4>1. Cơ chế tái hấp thu Bicarbonat và bài tiết H⁺ ở ống thận:</h4>
+<ul>
+<li><strong>Tại ống lượn gần (Tái hấp thu 85-90% HCO₃⁻):</strong> Bơm NHE3 bài tiết H⁺ đổi lấy Na⁺ vào tế bào. H⁺ kết hợp HCO₃⁻ trong lòng ống tạo H₂CO₃. Enzym <em>Carbonic anhydrase màng (CA-IV)</em> phân giải H₂CO₃ thành CO₂ và H₂O. CO₂ khuếch tán vào trong tế bào ống thận, được <em>CA-II nội bào</em> tái tạo thành H₂CO₃ phân ly giải phóng H⁺ (tiếp tục bài tiết) và HCO₃⁻ (được đồng vận chuyển với Na⁺ vào máu).</li>
+<li><strong>Tại ống lượn xa và ống góp (Acid hóa nước tiểu):</strong> Tế bào kẽ loại A dùng bơm H⁺-ATPase chủ động bài tiết H⁺ vào lòng ống. H⁺ kết hợp với HPO₄²⁻ tạo H₂PO₄⁻ (acid chuẩn độ) hoặc kết hợp với NH₃ (sinh ra từ chuyển hóa glutamin nhờ enzym glutaminase) tạo ion amoni <strong>NH₄⁺</strong> bài tiết theo nước tiểu.</li>
+</ul>
 
-    <h4>2. Các thành phần hóa học bất thường trong nước tiểu bệnh lý:</h4>
-    <ul>
-      <li><strong>Protein niệu (Proteinuria):</strong> Bình thường nước tiểu &lt; 150 mg/24h. Khi màng lọc cầu thận bị tổn thương mất hàng rào điện tích âm (hội chứng thận hư, viêm cầu thận), albumin thoát ra nước tiểu lượng lớn (> 3.5 g/24h trong hội chứng thận hư gây giảm protein máu và phù toàn thân).</li>
-      <li><strong>Glucose niệu (Glycosuria):</strong> Xuất hiện khi nồng độ glucose máu vượt quá ngưỡng tái hấp thu tối đa của ống thận (<em>ngưỡng thận: ~9.9 - 10.0 mmol/L / 180 mg/dL</em>), hay gặp nhất trong bệnh đái tháo đường.</li>
-      <li><strong>Thể Ceton niệu (Ketonuria):</strong> Xuất hiện trong nhiễm toan ceton do đái tháo đường hoặc nhịn đói kéo dài.</li>
-      <li><strong>Hồng cầu niệu / Hemoglobin niệu:</strong> Đái máu đại thể hoặc vi thể do viêm cầu thận, sỏi thận, u đường tiết niệu, tan máu nội mạch cấp.</li>
-      <li><strong>Sắc tố mật (Bilirubin trực tiếp niệu):</strong> Dấu hiệu đặc trưng của viêm gan hoặc tắc mật cơ học.</li>
-    </ul>
-  </div>
+<h4>2. Các thành phần hóa học bất thường trong nước tiểu bệnh lý:</h4>
+<ul>
+<li><strong>Protein niệu (Proteinuria):</strong> Bình thường nước tiểu &lt; 150 mg/24h. Khi màng lọc cầu thận bị tổn thương mất hàng rào điện tích âm (hội chứng thận hư, viêm cầu thận), albumin thoát ra nước tiểu lượng lớn (> 3.5 g/24h trong hội chứng thận hư gây giảm protein máu và phù toàn thân).</li>
+<li><strong>Glucose niệu (Glycosuria):</strong> Xuất hiện khi nồng độ glucose máu vượt quá ngưỡng tái hấp thu tối đa của ống thận (<em>ngưỡng thận: ~9.9 - 10.0 mmol/L / 180 mg/dL</em>), hay gặp nhất trong bệnh đái tháo đường.</li>
+<li><strong>Thể Ceton niệu (Ketonuria):</strong> Xuất hiện trong nhiễm toan ceton do đái tháo đường hoặc nhịn đói kéo dài.</li>
+<li><strong>Hồng cầu niệu / Hemoglobin niệu:</strong> Đái máu đại thể hoặc vi thể do viêm cầu thận, sỏi thận, u đường tiết niệu, tan máu nội mạch cấp.</li>
+<li><strong>Sắc tố mật (Bilirubin trực tiếp niệu):</strong> Dấu hiệu đặc trưng của viêm gan hoặc tắc mật cơ học.</li>
+</ul>
+</div>
 </div>

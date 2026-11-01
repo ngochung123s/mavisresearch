@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 3.
 
 HÓA HỌC ACID AMIN, PROTEIN VÀ HEMOGLOBIN
@@ -40,8 +39,6 @@ Trừ prolin, còn tất cả các acid amin có cấu tạo chung như trên v�
 khác nhau ở gốc R. Thành phần gốc R đơn giản nhất là H, hoặc chỉ là gốc
 hydrocacbon, hoặc còn có thêm nhóm chức: -8H, -OH, -NH;, -COOH.
 
-
-\n\n
 - Ký hiệu: α cho carbon có liên kết với 2 nhóm chức chính, tiếp theo là B...
 —- Trong tự nhiên có 20 acid amin thường gặp đều có đồng phân quang học
 (trừ glycin):
@@ -89,7 +86,6 @@ carboxyglutamat. Ngoài ra trong cơ thể có một số acid amin không tham 
 cấu tạo protein mà có vai trò quan trọng trong chuyển hóa acid amin, » protein:
 ơrnitin, cltrulin.
 
-\n\n
 . Bảng 3.1. Phân loại - kí hiệu, trọng lượng phân tử (TLPT) và.
 : pl của 20 acid amin thường gặp
 Acid amin Acid amin | Tên viết tắt
@@ -160,8 +156,6 @@ H HẠ o
 CH›
 Methionin Aspragin 'Glutamin
 
-
-\n\n
 ### 1.3. Tính chất của acid äamin
 
 Các acid amin dễ tan trong nước, khônng tan trong ete, ít tan trong alcol.
@@ -218,7 +212,6 @@ Tất cả các acid amin có một nhóm α amin và một nhóm cacboxyl và g
 không ion hóa có đường cong chuẩn độ tương tự glycin nhưng không đồng nhất
 về giá trị pK, và pK,. Các giá trị pK, từ 1,8 đến 2,4 , còn pE; từ 8,8 đến 11.
 
-\n\n
 +
 NHp nn i NH;
 
@@ -244,8 +237,6 @@ Có 3 bước ion hóa với 3 giá trị khác nhau. Bước 3 là sự chuẩn
 hóa như Glu, His. điểm đẳng điện của các acid amin phần ánh sự hiện diện
 của các gốc bị ion hóa: pI của Glu là 3,22. Giá trị này là trung bình của 2 nhóm
 
-
-\n\n
 carboxyl, nên Glu tích điện —1 và +1 của nhóm amin. Còn His có pI là 7,59.
 Giá trị này là trung bình của nhóm amin và nhân imidazon.
 
@@ -305,7 +296,6 @@ kết với nhau bằng những liên kết peptid.
 - Tuỳ theo số lượng acid amin mà có tên gọi như: dipeptid gồm 2 acid
 amin, tripeptid gồm 3 acid amin..., oligopeptid gồm hàng chục acid amin và
 
-\n\n
 khi có nhiều acid amin được gọi là polypeptid. Những a acid amin trong peptid
 gợi là các gốc acid amin.
 
@@ -356,15 +346,13 @@ Trong thành phần ngoài acid amin còn có những chất không phải là a
 amin. Thành phần không phải là acid amin gọi là nhóm ngoại. Nhóm ngoại có
 thể là glueid, lipid, acid nuecleic, kim loại...
 
-
-\n\n
 3.1.2. Phân loại theo hình dạng
 
--— Protein cầu: là những protein có kích thước chiều dài /kích thước ngang
+-— Protein cầu: là những protein có kích tnước chiều dài /kích tnước ngang
 nhỏ hơn 10. Thuộc nhóm này là các protein enzym và những protein huyết
 thanh...
 
--— Protein sợi: là những protein có ó kích thước dài / kích thước ngang lớn
+-— Protein sợi: là những protein có ó kích tnước dài / kích tnước ngang lớn
 hơn 10 như keratin của tóc, móng vuốt và collagen của tổ chức liên kết.
 
 ### 8.2. Cấu trúc phân tử protein
@@ -406,7 +394,6 @@ Chuỗi B lì
 
 - Hình 3.4. Trật tự các ao¡d amin trọng Insulin ở người
 
-\n\n
 3.2.2.2. Cấu trúc bậc 2 ¡
 Cấu trúc bậc 2 của protein, là sự xoắn một cách đều đặn hoặc sự gấp nếp
 
@@ -442,8 +429,6 @@ trong cấu trúc gấp nếp B
 (b) Cấu trúc B đối song
 (b)
 
-
-\n\n
 3.2.2.3. Cấu trúc bậc 3
 
 Cấu trúc bậc 3 là cấu trúc không gian
@@ -461,7 +446,7 @@ hemoglobin. Phương pháp nghiên cứu cấu
 trúc bậc 3 là phương pháp nhiễu xạ tia X.
 
 Hình 3.7. Cấu trúc bậc 3 của
-3.2.2.3: Cấu trúc bậc 4 chuỗi polypetid trong Hb.
+3.2.2.3: Cấu trúc bậc 4 chuỗi polypeptid trong Hb.
 
 Cấu trúc bậc 4 của protein là sự sắp xếp tương hỗ của các chuỗi
 polypeptid trong phân tử protein có từ 2 chuỗi polypeptid trở lên. Mỗi chuỗi
@@ -484,7 +469,7 @@ pHĩ của protein và protein không di chuyển trong điện trường. Ứng
 chất này để phân tích protein bằng những phương pháp như: điện di, sắc ký ái
 lực hoặc sắc kỷ trao đổi ioh.
 
-3.3.2. Tính chất höà tan, Bết tủa uà biến tính
+3.3.2. Tính chất hòa tan, Bết tủa và biến tính
 
 — Tính chất hoà tan: trong nước các protein tồn tại dưới dạng keo, đa số
 protein tan trong dung dịch muối loãng. Protein tan được nhờ có lớp áo nước
@@ -493,7 +478,6 @@ và các tiểu phân protein tích điện cùng dấu.
 — Sự kết tủa protein: khi lầm mất lớp áo nước và trung hoà điện tích của
 protein thì protein sẽ bị kết tủa.
 
-\n\n
 -— Sự biến tính protein: protein bị biến tính khi thay đổi hoặc đảo lộn cấu
 trúc bậc 2, bậc 3, bậc 4. Các liên kết trong phân tử protein bị đứt trừ liên kết
 peptid. Tính chất lý hóa của protein như độ nhớt, độ hoà tan bị thay đổi. Hoạt
@@ -536,8 +520,6 @@ Ribonuclease nguyên thuỷ Ribonuclease biến tính
 
 Hình 3.9. Sự khử và quá trình biến tính thuận nghịch của ribonuclease
 
-
-\n\n
 ị
 
 3.4. Chức năng của protein ]
@@ -588,7 +570,6 @@ và gọi là các nhựa trao đổi cation (cation - exchange resins). Tưởn
 nhựa tích điện dương kết hợp chặt với các anion được coi là các nhựa trao đối
 anion (anion- exchange resins). Tốc độ di chuyển của protein hoặc acid amin
 
-\n\n
 bằng nhựa phụ thuộc vào sự tích điện của chúng tại pH thí nghiệm. Những
 phân tử có cùng điện tích với nhựa sẽ được loại đầu tiên. Sau đó là các protein
 tích điện trái dấu với nhựa. Sắc ký trao đổi ion:
@@ -635,8 +616,6 @@ porphyrin. Trong cơ thể sống chủ yếu là protoporphyrin IX. Sự gắn 
 trí trung tâm phân tử protoporphyrin IX, Fe'' liên kết với 4 nguyên tử nitơ
 nằm trên mặt phẳng của vòng porphyrin, tạo thành hem.
 
-
-\n\n
 N / { coo
 ®: ch; kè củ
 c H
@@ -652,7 +631,7 @@ H Hư / U ]
 ` ⁄e C ^”ó"Z
 Lế S{ capZS ⁄Z^S PS sZG—Chp
 HẠ H ñ lei
-ch Hồ=CH  : `
+ch Hồ=CH : `
 2 re
 . ` 2x Hem cH,
 (a) Protoporphyrin IX . (b) (Fe-protoporphyrin IX)
@@ -681,7 +660,6 @@ muối với 2 chuỗi β. Phân tử Hb có cấu trúc bậc 4.
 
 ũ
 
-\n\n
 ñ PC
 nh
 | N-FeSN
@@ -724,8 +702,6 @@ Thời kỳ bào thai Lúc sinh Sau khi sinh
 
 Hình 3.13. Những thay đổi của sự tạo thành chuỗi globin trong quá trình phát triển '
 
-
-\n\n
 ### 4.8. Tính chất của hemoglobin
 4.3.1. Sự kết hợp uới khí
 - Sự kết hợp với oxy: Hb.kết hợp thuận nghịch với O„ và phụ thuộc vào H*,
@@ -741,7 +717,7 @@ kết hợp và vận chuyển được 4 phân tử O,.
 - Kết hợp với CO, tạo thành dẫn xuất carbamin:
 HbNH, + CO, —^ ẫHbNH COOH
 - Kết hợp với CO: tạo thành carboxy hemoglobin:
-HbO,+CO ——»  HbOO+O,
+HbO,+CO ——» HbOO+O,
 Ái lực của CO với Hb mạnh gấp 210 lần so với ái lực của O,
 4.3.2. Sự oxy hóa Hb
 
@@ -765,14 +741,13 @@ tương tự chuỗi polypeptid của globin. Khoảng 75% chuỗi có cấu tr�
 Các đoạn xoắn theo hướng phải và có 8 đoạn xoắn tương tự các chuỗi globin
 của Hb.
 
-\n\n
 So sánh trật tự các acid amin trong myoglobin của cá nhà táng và các
 chuỗi α, 8 của hemoglobin ở người trong đoạn xoắn F các gốc từ F1 đến F9
 
 Hemoglobin người F1 F2 F3 F4 F5 F6 F7 F8 F9
 
 Chuỗi α -Leu -Ser- Ala- Leu- Ser- Asp- Leu- Ala-
-Chuỗi 8 -Phe-  Ala- Thr- Leu-| Ser- Glu- Leu- Cys
+Chuỗi 8 -Phe- Ala- Thr- Leu-| Ser- Glu- Leu- Cys
 Myoglobin cá nhà táng -Leu- Lys- Pro- Leu- Ala- Gin- Ser- Ala-
 
 Các gốc acid amin trong đoạn xoắn F đều giống nhau ở vị trí F, và F, ở
@@ -813,10 +788,7 @@ rất cao sau 5-12 giờ. Lượng Mb trở lại bình thường sau 18- 30 gi�
 máu cơ tim cấp. Myoglobin cũng tăng trong các trường hợp phá huỷ cơ xương
 và trong các bệnh thận do giảm đào thải.
 
-
-\n\n
 CÂU HỎI ÔN TẬP
-
 
 1.
 
@@ -842,42 +814,39 @@ Hãy cho biết những loại Hb ở người trưởng thành và ở trẻ 1 
 
 10. Hãy so sánh cấu trúc và tính chất của Hb và Mb.
 
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 3)</div>
-  <div class="answer-body">
-    <h4>1. Phân loại 20 acid amin thường gặp:</h4>
-    <ul>
-      <li>Dựa vào độ phân cực của chuỗi bên (-R) ở pH sinh lý 7.4 chia thành 5 nhóm:
-        <ol>
-          <li><em>Nhóm kỵ nước, không phân cực:</em> Gly, Ala, Val, Leu, Ile, Pro, Met.</li>
-          <li><em>Nhóm nhân thơm:</em> Phe, Tyr, Trp (hấp thụ cực đại tia cực tím tại bước sóng 280 nm).</li>
-          <li><em>Nhóm phân cực không tích điện:</em> Ser, Thr, Cys (chứa nhóm -SH tạo cầu disulfur), Asn, Gln.</li>
-          <li><em>Nhóm tích điện dương (kiềm):</em> Lys, Arg, His (vòng imidazol đệm sinh học tốt nhất).</li>
-          <li><em>Nhóm tích điện âm (acid):</em> Asp, Glu (mang 2 nhóm carboxyl).</li>
-        </ol>
-      </li>
-      <li><em>Acid amin cần thiết (8 loại ở người lớn, 10 loại ở trẻ em):</em> Val, Leu, Ile, Thr, Met, Phe, Trp, Lys (thêm His, Arg ở trẻ em).</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 3)</div>
+<div class="answer-body">
+<h4>1. Phân loại 20 acid amin thường gặp:</h4>
+<ul>
+<li>Dựa vào độ phân cực của chuỗi bên (-R) ở pH sinh lý 7.4 chia thành 5 nhóm:
+<ol>
+<li><em>Nhóm kỵ nước, không phân cực:</em> Gly, Ala, Val, Leu, Ile, Pro, Met.</li>
+<li><em>Nhóm nhân thơm:</em> Phe, Tyr, Trp (hấp thụ cực đại tia cực tím tại bước sóng 280 nm).</li>
+<li><em>Nhóm phân cực không tích điện:</em> Ser, Thr, Cys (chứa nhóm -SH tạo cầu disulfur), Asn, Gln.</li>
+<li><em>Nhóm tích điện dương (kiềm):</em> Lys, Arg, His (vòng imidazol đệm sinh học tốt nhất).</li>
+<li><em>Nhóm tích điện âm (acid):</em> Asp, Glu (mang 2 nhóm carboxyl).</li>
+</ol>
+</li>
+<li><em>Acid amin cần thiết (8 loại ở người lớn, 10 loại ở trẻ em):</em> Val, Leu, Ile, Thr, Met, Phe, Trp, Lys (thêm His, Arg ở trẻ em).</li>
+</ul>
 
-    <h4>2. Các bậc cấu trúc của phân tử protein và lực làm bền:</h4>
-    <ul>
-      <li><strong>Cấu trúc bậc 1:</strong> Trật tự sắp xếp tuyến tính của các gốc acid amin nối với nhau bằng <em>liên kết cộng hóa trị peptid (-CO-NH-)</em>. Quyết định toàn bộ các bậc cấu trúc cao hơn và tính chất sinh học của protein.</li>
-      <li><strong>Cấu trúc bậc 2:</strong> Sự cuộn xoắn hoặc gấp nếp có chu kỳ của chuỗi polypeptid (chuỗi xoắn α và phiến gấp nếp β), được làm bền chủ yếu bằng <em>liên kết hydro</em> giữa nhóm -C=O và -NH- của khung xương polypeptid.</li>
-      <li><strong>Cấu trúc bậc 3:</strong> Cấu trúc không gian ba chiều hoàn chỉnh của một chuỗi polypeptid đơn lẻ, tạo nên các túi hoạt động chức năng; được làm bền bởi <em>cầu nối disulfur (-S-S-)</em>, liên kết ion (cầu muối), tương tác kỵ nước và liên kết van der Waals.</li>
-      <li><strong>Cấu trúc bậc 4:</strong> Sự sắp xếp và phối hợp không gian của 2 hay nhiều chuỗi polypeptid (tiểu đơn vị) có cấu trúc bậc 3 liên kết phi cộng hóa trị với nhau (ví dụ: Hemoglobin gồm 4 tiểu đơn vị α₂β₂).</li>
-    </ul>
+<h4>2. Các bậc cấu trúc của phân tử protein và lực làm bền:</h4>
+<ul>
+<li><strong>Cấu trúc bậc 1:</strong> Trật tự sắp xếp tuyến tính của các gốc acid amin nối với nhau bằng <em>liên kết cộng hóa trị peptid (-CO-NH-)</em>. Quyết định toàn bộ các bậc cấu trúc cao hơn và tính chất sinh học của protein.</li>
+<li><strong>Cấu trúc bậc 2:</strong> Sự cuộn xoắn hoặc gấp nếp có chu kỳ của chuỗi polypeptid (chuỗi xoắn α và phiến gấp nếp β), được làm bền chủ yếu bằng <em>liên kết hydro</em> giữa nhóm -C=O và -NH- của khung xương polypeptid.</li>
+<li><strong>Cấu trúc bậc 3:</strong> Cấu trúc không gian ba chiều hoàn chỉnh của một chuỗi polypeptid đơn lẻ, tạo nên các túi hoạt động chức năng; được làm bền bởi <em>cầu nối disulfur (-S-S-)</em>, liên kết ion (cầu muối), tương tác kỵ nước và liên kết van der Waals.</li>
+<li><strong>Cấu trúc bậc 4:</strong> Sự sắp xếp và phối hợp không gian của 2 hay nhiều chuỗi polypeptid (tiểu đơn vị) có cấu trúc bậc 3 liên kết phi cộng hóa trị với nhau (ví dụ: Hemoglobin gồm 4 tiểu đơn vị α₂β₂).</li>
+</ul>
 
-    <h4>3. Cấu tạo và tính chất kết hợp khí của Hemoglobin:</h4>
-    <ul>
-      <li><strong>Cấu tạo:</strong> Gồm 4 tiểu đơn vị (2α 141 aa + 2β 146 aa), mỗi tiểu đơn vị gắn 1 nhân Hem (Protoporphyrin IX gắn Fe²⁺ tại tâm).</li>
-      <li><strong>Kết hợp Oxy (O₂):</strong> 1 phân tử Hb gắn tối đa 4 O₂: <code>Hb + 4 O₂ ⇌ Hb(O₂)₄</code>. Tính hợp tác dị lập thể tạo đường cong phân ly O₂ dạng sigma chữ S. Khi Fe²⁺ bị oxy hóa thành Fe³⁺ sẽ tạo Methemoglobin mất khả năng vận chuyển O₂.</li>
-      <li><strong>Kết hợp CO (Carbon monoxid):</strong> Ái lực của Hb với CO cao gấp 210-250 lần so với O₂, tạo Carboxyhemoglobin (HbCO) rất bền vững, chiếm chỗ gắn O₂ và ngăn Hb nhả O₂ cho mô, gây ngạt thở tế bào cấp tính đe dọa tính mạng.</li>
-      <li><strong>Hiệu ứng Bohr:</strong> Khi mô hoạt động sinh nhiều CO₂ và H⁺ (giảm pH), H⁺ gắn vào các gốc histidin của globin làm ổn định dạng T, kích thích Hb nhả O₂ cho mô. Ngược lại tại phổi, pO₂ cao kích thích nhả H⁺ để tái tạo CO₂ đào thải ra ngoài.</li>
-    </ul>
-  </div>
+<h4>3. Cấu tạo và tính chất kết hợp khí của Hemoglobin:</h4>
+<ul>
+<li><strong>Cấu tạo:</strong> Gồm 4 tiểu đơn vị (2α 141 aa + 2β 146 aa), mỗi tiểu đơn vị gắn 1 nhân Hem (Protoporphyrin IX gắn Fe²⁺ tại tâm).</li>
+<li><strong>Kết hợp Oxy (O₂):</strong> 1 phân tử Hb gắn tối đa 4 O₂: <code>Hb + 4 O₂ ⇌ Hb(O₂)₄</code>. Tính hợp tác dị lập thể tạo đường cong phân ly O₂ dạng sigma chữ S. Khi Fe²⁺ bị oxy hóa thành Fe³⁺ sẽ tạo Methemoglobin mất khả năng vận chuyển O₂.</li>
+<li><strong>Kết hợp CO (Carbon monoxid):</strong> Ái lực của Hb với CO cao gấp 210-250 lần so với O₂, tạo Carboxyhemoglobin (HbCO) rất bền vững, chiếm chỗ gắn O₂ và ngăn Hb nhả O₂ cho mô, gây ngạt thở tế bào cấp tính đe dọa tính mạng.</li>
+<li><strong>Hiệu ứng Bohr:</strong> Khi mô hoạt động sinh nhiều CO₂ và H⁺ (giảm pH), H⁺ gắn vào các gốc histidin của globin làm ổn định dạng T, kích thích Hb nhả O₂ cho mô. Ngược lại tại phổi, pO₂ cao kích thích nhả H⁺ để tái tạo CO₂ đào thải ra ngoài.</li>
+</ul>
+</div>
 </div>

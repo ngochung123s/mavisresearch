@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 20
 
 HÓA SINH CƠ
@@ -33,22 +32,21 @@ sợi cơ. Dưới kính hiển vi điện
 tử, hình ảnh tơ cơ của các tế ! Hệ, —L Đơn vị cô cơ ¬—i
 bào cơ vân gồm những vùng ưy mem:
 sáng tối rõ rệt. Các vùng sẵm ¡
-hơn là băng A, các vùng nhạt
-hơn là băng I. Các đơn vị được
+hơn là bằng A, các vùng nhạt
+hơn là bằng I. Các đơn vị được
 lặp lại của tơ cơ được gọi là đơn
 vị co cơ (sarcomere). Đơn vị cơ
-gồm băng A và 2 nửa băng I, có
+gồm bằng A và 2 nửa bằng I, có
 chiều dài từ 2,5 đến 3 pm khi
 cơ giãn, nhưng ngắn dần khi cơ
 
 II
 
 co, được giới hạn bởi hai đĩa Z Cá min uốn
-(đĩa Z nằm ở giữa các băng I).
-Nằm giữa các băng A là đĩa M. Hình 20.1. Cấu trúc của cơ vân
+(đĩa Z nằm ở giữa các bằng I).
+Nằm giữa các bằng A là đĩa M. Hình 20.1. Cấu trúc của cơ vân
 
-\n\n
-Cơ vân gồm hai loại sợi, sợi dày và sợi mỏng. Các vùng tối hơn của các băng A
+Cơ vân gồm hai loại sợi, sợi dày và sợi mỏng. Các vùng tối hơn của các bằng A
 được tạo thành do hai loại sợi này đan xen nhau (Hình 20.1).
 
 ### 1.1. Sợi dày
@@ -59,7 +57,7 @@ phân tử 470 kDa, chứa 6 chuỗi polypeptid, gồm: 2 chuỗi nặng (mỗi 
 khối lượng phân tử 230 kDa) và 4 chuỗi nhẹ (có khối lượng phân tử 18 kDa và
 20 kDa). Vi ảnh điện tử cho thấy myosin là một protein có hình dạng đặc biệt,
 gồm phần đầu hình cầu gắn với phần đuôi dài hình gậy. Phần đầu tận N của
-chuỗi cuộn lại thành một hình cầu có kích thước khoảng 55 x 200 Ả, phần đầu
+chuỗi cuộn lại thành một hình cầu có kích tnước khoảng 55 x 200 Ả, phần đầu
 G tận lại tạo thành một sợi polypeptid xoắn kép ơ có chiều dài khoảng 1600 Ả.
 
 Myosin có thể bị thuỷ phân bởi enzym trypsin thành các: đoạn có hoạt
@@ -104,8 +102,6 @@ protein có phổ biến ở tế bào
 Hình 20.2 . Cấu trúc sợi mỏng F-actin, sợi dày
 myosin và sản phẩm thuỷ phân myosin bởi trypsin
 
-
-\n\n
 thật (eukaryote) có khối lượng phân tử 4 kDa. Trong môi trường có lực ion
 thấp, actin tồn tại ở đưới dạng các chuỗi đơn như những hình cầu có hai thuỳ
 gọi là G-actin, mỗi chuỗi gắn với một phân tử ATP. Dưới các điều kiện sinh lý,
@@ -154,7 +150,6 @@ protein khác. Các protein phụ này có vai trò kiểm soát sự lắp ráp
 là nơi neo đậu của hai sợi móng đối ngược nhau, cũng là một vị trí chứa một số
 protein sợi, gồm các protein:
 
-\n\n
 @-qctinin: protein này gắn vào đầu tận của sợi F-actin ở phía trong của
 đĩa Z, nên được cho là có vai trò đối với sự gắn của các sợi mỏng vào đĩa Z.
 
@@ -183,11 +178,11 @@ mang oxy tới.
 ## 2. SỰ CO CƠ VÂN
 
 Khi cơ co, chiều dài của các đơn vị co cơ giảm đi. Tuy nhiên, trên kính
-hiển vi điện tử, người ta thấy rằng độ rộng của băng I và của vùng H giảm đi,
+hiển vi điện tử, người ta thấy rằng độ rộng của bằng I và của vùng H giảm đi,
 trong khi chiều dài của các sợi dày và sợi mỏng không thay đổi. Như vậy, để co
 cơ, các đầu 8, của sợi dày (myosin) kéo các sợi mỏng (actin) từ 2 phía về đĩa M,
 làm cho các phần của các sợi
-dày và sợi mỏng trượt lên Cdgiãn  Đẩumyosn  Sợidày Sợi mỏng
+dày và sợi mỏng trượt lên Cdgiãn Đẩumyosn Sợidày Sợi mỏng
 nhau và cài vào nhau, làm
 cho các đĩa Z sát lại gần
 nhau, chiều dài của cơ sẽ
@@ -206,8 +201,6 @@ thay đối hình dạng của actin các sợi mỏng (actin) trong quá trình
 
 Đĩa Z Đĩa Z
 
-
-\n\n
 và làm cho myosin gắn vào actin, tạo thành phức hợp actin-myosin. Quá trình
 co cơ được thực hiện qua quá trình ghép cặp giữa sự thuỷ phân ATP và sự
 trượt của đầu myosin dọc theo sợi actin, bắt đầu từ phức hợp actin-myosin
@@ -255,7 +248,6 @@ cánh tay đòn làm khuếch đại sự thay đổi hình dạng để tạo n
 có hiệu quả”, làm cho đầu 81 của myosin bước một bước dọc theo sợi actin về
 phía đĩa Z.
 
-\n\n
 ### 2.2. Năng lượng co cơ vân
 
 2.2.1. ATP tự do: hợp chất dụ trữ
@@ -322,20 +314,19 @@ gấp khoảng 3-4 lần nồng độ ATP tự do trong cơ, nhưng nó cũng ch
 cung cấp ATP cho cơ hoạt động thêm một thời gian rất ngắn, nghĩa là chỉ
 khoảng 6-7 giây.
 
-2.9.3. ADP: ö thời điểm nồng độ ADP cao nhất do sự thuỷ phân ATP để cung
-cấp năng lượng cho sự eo cơ sinh ra, ADP cũng có thể kết hợp với phân tử ADP
-thứ hai dưới tác dụng của enzym adenylat /binase để tạo thành một phân tử
+### 2.3. Tái tạo ATP từ ADP nhờ Adenylat kinase
+
+Ở thời điểm nồng độ ADP cao nhất do sự thuỷ phân ATP để cung
+cấp năng lượng cho sự co cơ sinh ra, ADP cũng có thể kết hợp với phân tử ADP
+thứ hai dưới tác dụng của enzym adenylat kinase để tạo thành một phân tử
 ATP và một phân tử AMP theo phản ứng sau:
 
-adenylat kinase
-ADP + ADP .-..----.-..------cc- >ATP +AMP
+$$\text{ADP} + \text{ADP} \xrightarrow{\text{Adenylat kinase}} \text{ATP} + \text{AMP}$$
 
-
-\n\n
 Tuy nhiên, cách hình thành ATP thứ hai này ít thuận lợi bởi vì nó làm
 giảm hàm lượng ADP trong cơ.
 
-2.2.4. Con đường đường phân yếm khí uà ái khí
+### 2.4. Con đường đường phân yếm khí và ái khí
 
 Như trên đã thấy, khả năng cung cấp năng lượng tức thì của ATP và
 creatin phosphat chỉ cho phép cơ hoạt động trong khoảng 7 đến 8 giây.
@@ -349,7 +340,7 @@ hóa theo con đường đường phân ái khí cung cấp 36 hoặc 38 phân t
 nhiên, sự thoái hóa của glucose theo cả con đường yếm khí và con đường ái khí
 cũng chỉ có thể cung cấp lượng ATP để cơ hoạt động trong vài phút.
 
-2.2.5. Thoái hóa lipid uà protein
+2.2.5. Thoái hóa lipid và protein
 
 Để có thể co cơ trong một thời gian dài hơn, cơ phải sử dụng năng lượng
 lấy từ các quá trình chuyển hóa các chất lipid và protein (acid amin). Nguồn
@@ -383,7 +374,6 @@ trong lipid. Vì vậy, trong quá trình thoái hóa, số đương lượng kh
 protein. Các đương lượng khử này có thể được sử dụng để tổng hợp ATP trong
 quá trình vận chuyển H' và điện tử trong chuỗi hô hấp tế bào ở ty thể.
 
-\n\n
 2.8. Điều hoà sự co cơ vân. Phân tử điều hòa chủ yếu của sự co cơ vân là ion Ca”,
 
 Sự co cơ vân được kích thích bởi các xung động thần kinh vận động. Các
@@ -436,9 +426,7 @@ một trong các chuỗi nhẹ của nó được phosphoryl hóa.
 —Myosin của cơ trơn tạo nên các sợi dày với số liên kết ngang ít hơn so.
 với các sợi dày do myosin tạo nên của cơ vân.
 
-
-\n\n
-3.1. Sự eo cơ trơn được khơi mào bởi Ca”* '
+3.1. Sự co cơ trơn được khơi mào bởi Ca”* '
 
 Các sợi mỏng của cơ trơn chứa actin và tropomyosin nhưng không chứa
 troponin. Tuy nhiên, sự co cơ trơn cũng được kích thích bởi Ca?' bởi vì enzym
@@ -486,7 +474,6 @@ tế bào khác. Trong thực tế, actin là một protein có ở nhiều nơi
 các tế bào nhân thật, chiếm từ 5 đến 10% protein toàn phần của các tế bào
 này. Trái lại, số lượng myosin chỉ bằng khoảng 1/ 10 số lượng của actin. Tỷ lệ
 
-\n\n
 này cũng cho thấy ngoài vai trò co cơ trong hệ thống actin-myosin, actin còn có
 vai trò trong một số hệ thống chuyển động không phụ thuộc myosin, cũng như
 vai trò làm thành phần bộ khung của tế bào.
@@ -530,40 +517,35 @@ CÂU HỎI ÔN TẬP
 
 8. Trình bày năng lượng co cơ vân.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 20)</div>
-  <div class="answer-body">
-    <h4>1. Phân tích vai trò của Ion Ca²⁺ và ATP trong cơ chế co giãn cơ vân:</h4>
-    <ul>
-      <li><strong>Vai trò của Ion Ca²⁺ (Chất mở khóa kích hoạt co cơ):</strong>
-        <ul>
-          <li>Ở trạng thái cơ giãn nghỉ: Nồng độ Ca²⁺ nội bào cực thấp (&lt; 0.1 μmol/L). Vị trí gắn myosin trên sợi F-actin bị phức hợp Tropomyosin-Troponin che chắn hoàn toàn.</li>
-          <li>Khi có xung thần kinh kích thích: Điện thế hoạt động lan truyền theo ống T kích hoạt mở kênh phóng thích ồ ạt ion Ca²⁺ từ các túi chứa của lưới nội bào (sarcoplasmic reticulum) ra dịch bào tương, nồng độ Ca²⁺ tăng vọt lên &gt; 10 μmol/L.</li>
-          <li>Ca²⁺ gắn đặc hiệu vào <strong>Troponin C</strong> (mỗi phân tử gắn tối đa 4 Ca²⁺), gây biến đổi cấu hình không gian làm xoay trục Tropomyosin lọt sâu vào rãnh xoắn, bộc lộ hoàn toàn các vị trí gắn trên sợi actin cho đầu myosin tiếp cận.</li>
-        </ul>
-      </li>
-      <li><strong>Vai trò kép của phân tử ATP:</strong>
-        <ol>
-          <li><em>Cung cấp năng lượng phát lực:</em> Hoạt tính ATPase của đầu Myosin thủy phân ATP thành ADP và Pi, nạp năng lượng đưa đầu myosin về cấu hình 90° sẵn sàng. Khi giải phóng Pi, đầu myosin gập góc 45° kéo sợi actin trượt về trung tâm sarcomere (nhát kéo phát lực).</li>
-          <li><em>Tách rời cầu nối (Giúp giãn cơ):</em> Một phân tử ATP mới gắn vào đầu myosin làm suy giảm mạnh ái lực của myosin với actin, tách đầu myosin rời khỏi sợi actin để sẵn sàng chu kỳ tiếp theo. Khi cơ thể chết, sự cạn kiệt ATP khiến các cầu nối actin-myosin bị khóa cứng vĩnh viễn ở trạng thái gập, gây hiện tượng <strong>Cứng xác tử thi (Rigor mortis)</strong>.</li>
-          <li><em>Bơm tái thu hồi Ca²⁺:</em> Bơm Ca²⁺-ATPase (SERCA) trên màng lưới nội bào dùng ATP bơm ngược Ca²⁺ từ bào tương vào trong bể chứa để kết thúc co cơ và đưa cơ về trạng thái giãn nghỉ.</li>
-        </ol>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 20)</div>
+<div class="answer-body">
+<h4>1. Phân tích vai trò của Ion Ca²⁺ và ATP trong cơ chế co giãn cơ vân:</h4>
+<ul>
+<li><strong>Vai trò của Ion Ca²⁺ (Chất mở khóa kích hoạt co cơ):</strong>
+<ul>
+<li>Ở trạng thái cơ giãn nghỉ: Nồng độ Ca²⁺ nội bào cực thấp (&lt; 0.1 μmol/L). Vị trí gắn myosin trên sợi F-actin bị phức hợp Tropomyosin-Troponin che chắn hoàn toàn.</li>
+<li>Khi có xung thần kinh kích thích: Điện thế hoạt động lan truyền theo ống T kích hoạt mở kênh phóng thích ồ ạt ion Ca²⁺ từ các túi chứa của lưới nội bào (sarcoplasmic reticulum) ra dịch bào tương, nồng độ Ca²⁺ tăng vọt lên &gt; 10 μmol/L.</li>
+<li>Ca²⁺ gắn đặc hiệu vào <strong>Troponin C</strong> (mỗi phân tử gắn tối đa 4 Ca²⁺), gây biến đổi cấu hình không gian làm xoay trục Tropomyosin lọt sâu vào rãnh xoắn, bộc lộ hoàn toàn các vị trí gắn trên sợi actin cho đầu myosin tiếp cận.</li>
+</ul>
+</li>
+<li><strong>Vai trò kép của phân tử ATP:</strong>
+<ol>
+<li><em>Cung cấp năng lượng phát lực:</em> Hoạt tính ATPase của đầu Myosin thủy phân ATP thành ADP và Pi, nạp năng lượng đưa đầu myosin về cấu hình 90° sẵn sàng. Khi giải phóng Pi, đầu myosin gập góc 45° kéo sợi actin trượt về trung tâm sarcomere (nhát kéo phát lực).</li>
+<li><em>Tách rời cầu nối (Giúp giãn cơ):</em> Một phân tử ATP mới gắn vào đầu myosin làm suy giảm mạnh ái lực của myosin với actin, tách đầu myosin rời khỏi sợi actin để sẵn sàng chu kỳ tiếp theo. Khi cơ thể chết, sự cạn kiệt ATP khiến các cầu nối actin-myosin bị khóa cứng vĩnh viễn ở trạng thái gập, gây hiện tượng <strong>Cứng xác tử thi (Rigor mortis)</strong>.</li>
+<li><em>Bơm tái thu hồi Ca²⁺:</em> Bơm Ca²⁺-ATPase (SERCA) trên màng lưới nội bào dùng ATP bơm ngược Ca²⁺ từ bào tương vào trong bể chứa để kết thúc co cơ và đưa cơ về trạng thái giãn nghỉ.</li>
+</ol>
+</li>
+</ul>
 
-    <h4>2. Nêu 4 nguồn cung cấp năng lượng ATP cho hoạt động co cơ:</h4>
-    <ol>
-      <li><strong>Lượng ATP có sẵn trong tế bào cơ:</strong> Rất ít, chỉ đủ duy trì co cơ tối đa trong khoảng 1 đến 2 giây.</li>
-      <li><strong>Hệ thống Creatin Phosphat (Phosphagen):</strong> Là nguồn tái tạo ATP nhanh nhất trong vài giây đầu co cơ mạnh: <code>Creatin phosphat + ADP ⇌ Creatin + ATP</code> nhờ enzym <em>Creatin Kinase (CK, đặc biệt là isoenzym CK-MM ở cơ xương và CK-MB ở cơ tim)</em>. Nguồn này đủ duy trì vận động tối đa trong khoảng 8-10 giây (chạy nước rút 100m).</li>
-      <li><strong>Đường phân yếm khí (Glycogen / Glucose cơ):</strong> Phân giải glycogen tạo ATP không cần oxy, sinh ra acid lactic; cung cấp năng lượng nhanh cho các vận động cường độ cao kéo dài từ 30 giây đến 2 phút (chạy 400m). Nhược điểm: Tích tụ acid lactic gây mỏi cơ và toan hóa nội bào.</li>
-      <li><strong>Oxy hóa hiếu khí hoàn toàn (Glucose, Acid béo qua chu trình Krebs &amp; Chuỗi hô hấp ty thể):</strong> Là nguồn cung cấp năng lượng bền bỉ, dồi dào nhất (>95% tổng năng lượng) cho các hoạt động thể lực kéo dài (chạy marathon, đi bộ, lao động thường nhật), sử dụng cơ chất chính là acid béo từ mô mỡ.</li>
-    </ol>
-  </div>
+<h4>2. Nêu 4 nguồn cung cấp năng lượng ATP cho hoạt động co cơ:</h4>
+<ol>
+<li><strong>Lượng ATP có sẵn trong tế bào cơ:</strong> Rất ít, chỉ đủ duy trì co cơ tối đa trong khoảng 1 đến 2 giây.</li>
+<li><strong>Hệ thống Creatin Phosphat (Phosphagen):</strong> Là nguồn tái tạo ATP nhanh nhất trong vài giây đầu co cơ mạnh: <code>Creatin phosphat + ADP ⇌ Creatin + ATP</code> nhờ enzym <em>Creatin Kinase (CK, đặc biệt là isoenzym CK-MM ở cơ xương và CK-MB ở cơ tim)</em>. Nguồn này đủ duy trì vận động tối đa trong khoảng 8-10 giây (chạy nước rút 100m).</li>
+<li><strong>Đường phân yếm khí (Glycogen / Glucose cơ):</strong> Phân giải glycogen tạo ATP không cần oxy, sinh ra acid lactic; cung cấp năng lượng nhanh cho các vận động cường độ cao kéo dài từ 30 giây đến 2 phút (chạy 400m). Nhược điểm: Tích tụ acid lactic gây mỏi cơ và toan hóa nội bào.</li>
+<li><strong>Oxy hóa hiếu khí hoàn toàn (Glucose, Acid béo qua chu trình Krebs &amp; Chuỗi hô hấp ty thể):</strong> Là nguồn cung cấp năng lượng bền bỉ, dồi dào nhất (>95% tổng năng lượng) cho các hoạt động thể lực kéo dài (chạy marathon, đi bộ, lao động thường nhật), sử dụng cơ chất chính là acid béo từ mô mỡ.</li>
+</ol>
+</div>
 </div>

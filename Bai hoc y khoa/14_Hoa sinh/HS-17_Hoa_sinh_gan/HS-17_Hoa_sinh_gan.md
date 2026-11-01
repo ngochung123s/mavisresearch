@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 17
 HÓA SINH GAN
 
@@ -47,7 +46,6 @@ Cholesterol 23
 Các chất khoáng rất thấp
 Các vitamin rất thấp
 
-\n\n
 - Protein: protein chiếm khoảng 1/2 chất khô của gan. Những protein
 của gan là albumin, globulin, một ít nucleoprotein, collagen, ferritin. Ferritin
 là sự kết hợp của apoferritin và sắt, vì vậy ferritin là dạng dự trữ sắt của cơ
@@ -97,8 +95,6 @@ thời gian ngắn; đồng thời quá trình này cũng sinh ra nhiều sản 
 hóa trung gian. Các sản phẩm chuyển hóa trung gian ở cơ sẽ được vận chuyển
 về gan để tân tạo glucose và tổng hợp glycogen vì cơ không có khả năng này.
 
-
-\n\n
 Khi glucose máu có xu hướng giảm dưới mức bình thường, gan sẽ tăng
 
 cường phân huỷ glycogen tạo glucose cung cấp cho máu. Mặc dù cơ và một số
@@ -151,7 +147,6 @@ lipid trung tính, cholesterol gan còn tổng hợp rất nhiều các phosphol
 phân tử lipid có cực giữ vai trò chính trong cấu tạo các lipoprotein huyết
 thanh. Nhờ quá trình tổng hợp này gan đóng vai trò quan trọng trong việc vận
 
-\n\n
 chuyển lipid trung tính, cholesterol ra khỏi gan, tránh ứ đọng mỡ ở gan. Khi
 chức năng gan bị suy giảm trong một số bệnh, quá trình tổng hợp và vận
 chuyển lipid ra khỏi gan bị rối loạn có thể dẫn đến ứ đọng mỡ ở gan.
@@ -201,8 +196,6 @@ tràng. Lượng mật bài tiết hàng ngày ở người trưởng thành tru
 
 Thành phần hóa học chính của mật là muối mật, sắc tố mật, cholesterol.
 
-
-\n\n
 Bảng 17.2. Một số đặc tính và thành phần hóa học chính của mật
 
 Mật ở ống gan Mật ở túi mật
@@ -247,7 +240,6 @@ Muối mật | Glycocholat Na và K
 
 Taurocholat Na và K
 
-\n\n
 Một thành phần. quan trọng khác của mật là sắc tố mật. Sắc tố mật-là
 sản phẩm thoái hóa của hemoglobin. Sắc tố mật chủ yếu là bilirubin liên hợp
 và bilivecdin (xem phần chuyển hóa hemoglobin).
@@ -300,8 +292,6 @@ nhất định người ta lấy máu và định lượng chất màu. Nếu ch
 chất màu sẽ bị gan giữ lại để thải trừ qua đường mật và hàm lượng chất màu
 trong máu sẽ giảm nhanh chóng theo thời gian.
 
-
-\n\n
 ### 4.2. Khử độc theo cơ chế hóa học
 
 Đây là cách khử độc chính và quan trọng của gan. Đặc điểm của quá
@@ -356,7 +346,6 @@ Acetanilit Octo (hay para) hydroxyacetanllit.
 C¿Hz- CH/- CH¿/-NH, ——^:° CHr Chp~ CHO + NH
 Phenylethylamin Phenylacetaldehyd
 
-\n\n
 - N-oxihóa.
 
 zehs CHp
@@ -403,8 +392,6 @@ osid giữa nhóm OH bán acetal của glucuronic với nhóm phenol, alcol ho�
 nhóm carboxyl. Các sản phẩm liên hợp thường ở dạng không độc, dễ hoà tan,
 dễ đào thải theo đường mật hoặc theo nước tiểu.
 
-
-\n\n
 CH¿OH
 GooH
 
@@ -448,7 +435,6 @@ CO-NH-CH2
 + H¿N-CH;-COOH
 Acid benzoic Glycin Acid hippuric
 
-\n\n
 - Phản ứng liên hợp với glutamin.
 
 Ví dụ acid phenyl acetic liên hợp với glutamin để đào thải dưới dạng
@@ -497,8 +483,6 @@ Aspartot-aminotransferase (AST) hay glutamat oxaloacetat transaminase
 (GOT) và aJanin- -Gminotransferase (ALT) hay gjutomat Pyruuat trarsaminase
 (GPT) là 2 enzym được sử dụng rộng rãi trong đánh giá sự tổn thương của tế
 
-
-\n\n
 bào gan. AST được phân bố rộng rãi trong các mô của cơ thể, có nhiều ở gan,
 tìm, cơ xương. Hoạt độ AST bình thường trong huyết tương đo ở 37°C, ở nam là
 10-50 U/L và ở nữ là 10-35 U/L.
@@ -548,7 +532,6 @@ Hoạt độ GLDH bình thường trong huyết tương đo ở 37°C ở nam l�
 U/L và ở nữ là 9-35 U/L. Là enzym có nhiều ở ty thể tế bào gan, tim, thận. Khi
 mức độ tổn thương gan nhẹ (viêm gan cấp những tuần đầu) hoặc tổn thương ít
 
-\n\n
 ở giai đoạn viêm gan mạn, xơ gan,... GLDH tăng nhẹ. Khi tổn thương gan
 nặng, mức độ tổn thương sâu, GLDH tăng cao trong huyết tương.
 
@@ -598,8 +581,6 @@ không phản ánh tổn thương gan hoặc suy giảm chức năng gan mà th�
 dùng giúp chẩn đoán ung thư gan nguyên phát. AFP là một glucoprotein có ở
 bào thai và biến mất sau khi sinh 4 tuần do gan ngừng tổng hợp. Ở người
 
-
-\n\n
 trưởng thành khỏe mạnh AFP huyết thanh không còn hoặc có rất ít. AFP tăng
 rất cao hàng trăm lần so với bình thường ở ung thư gan nguyên phát, tăng ít
 hơn ở ung thư gan thứ phát, viêm gan virus cấp, viêm gan mạn.
@@ -644,7 +625,6 @@ CÂU HỎI ÔN TẬP
 ## 2. Vì sao nói gan là cơ quan duy nhất (không kể các tuyến nội tiết) tham
 gia vào điều hòa glucose máu.
 
-\n\n
 Ý nghĩa của việc tạo thể cetonic máu và vai tro tham gia của gan như
 thế nào. Gan có vai trò gì trong điều hòa các dạng lipoprotein máu.
 

@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 21
 
 HÓA SINH THẦN KINH
@@ -45,7 +44,6 @@ truyền xung động thần kinh qua các synap.
 Chuyển hóa các chất ở mô thần kinh xảy ra mạnh mẽ nhằm cung cấp
 năng lượng cho các hoạt động phức tạp của não.
 
-\n\n
 Não sử dụng một lượng oxy rất lớn để phục vụ cho sự hô hấp tế bào xảy ra
 rất mạnh. Khi phân tích máu động mạch đến và tĩnh mạch từ não ra, người ta
 thấy cứ 100g não tiêu thụ 3,3 m] oxy trong 1 phút, lớn hơn 20 lần lượng oxy cơ
@@ -97,8 +95,6 @@ Các protein của não có tốc độ quay vòng tương đối nhanh so với
 protein của các mô khác của cơ thể mặc dù các tế bào não không phân chia sau
 khi chúng đã được biệt hóa.
 
-
-\n\n
 Chuyển hóa của các acid amin ở mô thần kinh nói chung cũng giống như
 chuÿyển hóa acid amin ở các mô khác. Tuy: nhiên, do đặc điểm chức năng của hệ
 thống thần kinh, chuyển hóa của một số acid amin riêng biệt có những đặc
@@ -147,7 +143,6 @@ chuyển đi vào tế bào theo cơ chế vận chuyển đối kháng (antipor
 Na'* đi vào tế bào gồm các protein thay đổi hình dạng khi thế năng qua màng
 giảm (trở nên âm hơn) xuống dưới một giá trị ngưỡng. Khi màng bị khử cực, cả
 
-\n\n
 Na' với nồng độ ở ngoài cao hơn ở trong tế bào sẽ đi vào tế bào và K* với nồng độ
 ở trong lớn hơn ở trong tế bào sẽ đi ra ngoài, để đạt được những gradient nồng
 độ cần thiết. Các kênh được mở nhanh chóng ở một vùng nhất định của tế bào
@@ -203,8 +198,6 @@ acetylcholin và các catecholamin.
 Một số chất dẫn truyền thần kinh ức chế là các chất như y-aAminobutyric
 acid (GABA), glyein và taurin (Bảng 21.1).
 
-
-\n\n
 Bảng 21.1. Các chất dẫn truyền thần kinh trong mô thần kinh
 
 Các chất dẫn truyền thần kinh kích thích:
@@ -265,7 +258,6 @@ phép các iọn tích điện âm nhỏ, đặc biệt là CI đi vào tế bà
 khả năng dẫn ion ƠI: của màng hậu synap, làm tế bào khó khử cực hơn và như
 vậy chất ức chế dẫn truyền thần kinh tăng tạo cực.
 
-\n\n
 Hai chất ức chế dẫn truyền thần kinh trong hệ thống thần kinh trung
 ương là glycin - chất có tác dụng chủ yếu trên dây thần kinh tuỷ sống và thân
 não, và y - aminobutyric acid (GABA) - chất tác động chủ yếu lên tất cả các
@@ -303,8 +295,8 @@ bá xung điện ở tế bào hậu synap.
 
 ### 2.4. Sự kết thúc tín hiệu ở khớp synap
 
-Sự kết thúc tín hiệu ở khớp synap được thực hiện băng 3 cách sau:
-chuyển hóa, túi hấp thu uà khuếch tán. Các chất hóa học có thể đáp ứng đối với
+Sự kết thúc tín hiệu ở khớp synap được thực hiện bằng 3 cách sau:
+chuyển hóa, túi hấp thu và khuếch tán. Các chất hóa học có thể đáp ứng đối với
 các đáp ứng nhanh thường được thực hiện bởi một hoặc cả hai cơ chế đầu tiên.
 
 ## 8. CÁC CHẤT DẪN TRUYỀN THẦN KINH
@@ -314,8 +306,6 @@ kinh, có tác dụng dẫn truyền xung động qua synap. Các chất này đ
 thành 2 nhóm: nhóm các chất phân tử nhỏ (thường là các dẫn xuất acid amin)
 và nhóm các phân tử lớn (các peptid thần kinh).
 
-
-\n\n
 ### 3.1. Các chất dẫn truyền thần kinh phân tử nhỏ
 
 Nhóm các chất dẫn truyền thần kinh phân tử nhỏ gồm những chất có tác
@@ -368,7 +358,6 @@ Các catecholamin như epinephrin, norepinephrin và dopamin (3,4-
 dihydroxyphenylethylamin) được tổng hợp từ phenylalanin và thoái hóa như
 đã được trình bày ở chương hormon.
 
-\n\n
 Có 3 cách chủ yếu để kết thúc tác động của các chất dẫn truyền thần
 kinh loại catecholamin: methy] hóa một trong các nhóm OH của catechol, khử
 amin oxy hóa nhánh chuỗi bên và tái hấp thu vào neuron tiền synap (các phản
@@ -427,8 +416,6 @@ hóa chủ yếu là khử amin oxy hóa bởi enzym /monoamin oxidase (MAO).
 Aldehyd được oxy hóa thêm nữa nhờ enzym ajdehyd dehydrogenase để thành
 õ5-hydroxyindol-3-acetat (Hình 21.2).
 
-
-\n\n
 3.1.4. J- 0minobutyric acid (GABA)
 
 1- aminobutyric acid (GABA) được tổng hợp và thoái hóa qua một loạt các
@@ -478,7 +465,6 @@ BiNOC-OH, CH„GH-COOR +H,O ------- > HOOC-CH;-CH;-CH-COOH
 NH› NH; +NH;
 Glutamin Acid glutamic
 
-\n\n
 Sau đó, glutamat lại được biến đổi theo phản ứng 2 thành GABA ở túi
 tiền synap để tham gia quá trình ức chế thần kinh. Như vậy, glutamat được
 coi như một chất trung gian trong quá trình chuyển hóa của GABA.
@@ -529,8 +515,6 @@ Oxaloacelat Suenat
 : (4)
 Hình 21. 3. Sự chuyển hóa của GABA và glutamat trong tế bào thần kinh
 
-
-\n\n
 ### 3.2. Các chất dẫn truyền thần kinh phân tử lớn (các peptid thần kinh)
 
 Các chất dẫn truyền thần kinh phân tử lớn có bản chất peptid, còn gọi là
@@ -579,8 +563,6 @@ amin 61 đến acid amin 91).
 Các chất này gắn vào các opiat receptor trong não và thể hiện tác dụng
 giảm đau rất mạnh mỗi khi có kích thích đau.
 
-
-\n\n
 8.2.3. Các enkephalin
 
 Enkephalin là các pentapeptid, gồm hai chất. Một enkephalin có đầu tận
@@ -628,10 +610,7 @@ vận chuyển với tốc độ chậm khoảng từ 1 đến 5 mm/ ngày. Vì 
 độ dài rất khác nhau: từ 1 mm đến 1 m nên thời gian vận chuyển một chất dẫn
 truyền thần kinh peptid có thể kéo dài từ 150 miligiây đến 200 ngày.
 
-
-\n\n
 CÂU HỎI ÔN TẬP
-
 
 1.
 
@@ -647,37 +626,34 @@ Trình bày chuyển hóa của các chất dẫn truyền thần kinh phân t�
 Trình bày cấu tạo và chức năng của một số chất dẫn truyền thần
 kinh phân tử lớn.
 
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 21)</div>
-  <div class="answer-body">
-    <h4>1. Đặc điểm chuyển hóa năng lượng, oxy và glucose chuyên biệt của Não:</h4>
-    <ul>
-      <li>Mặc dù não chỉ chiếm khoảng <strong>2% trọng lượng cơ thể</strong> (~1.4 kg), nhưng tiêu thụ tới <strong>20% tổng lượng oxy</strong> và <strong>25% tổng lượng glucose</strong> của toàn bộ cơ thể lúc nghỉ ngơi.</li>
-      <li><strong>Nhiên liệu duy nhất trong điều kiện bình thường là D-Glucose:</strong> Tế bào não tiêu thụ khoảng 120g glucose/ngày. Glucose được vận chuyển qua hàng rào máu não nhờ protein vận chuyển GLUT1 (qua tế bào nội mô mạch máu) và GLUT3 (vào tế bào thần kinh neuron), cả hai đều hoạt động không phụ thuộc hormon insulin. Não hầu như không có dự trữ glycogen, do đó cực kỳ nhạy cảm với tình trạng <strong>Hạ đường huyết</strong> (khi glucose máu &lt; 2.5 mmol/L gây chóng mặt, vã mồ hôi, lú lẫn, hôn mê và tổn thương vỏ não không hồi phục).</li>
-      <li><strong>Khi nhịn đói kéo dài (> vài ngày):</strong> Não có khả năng thích nghi đặc biệt, chuyển sang sử dụng <strong>Thể Ceton (β-hydroxybutyrat và acetoacetat)</strong> để cung cấp tới 50-70% nhu cầu năng lượng, giúp tiết kiệm tối đa sự phân giải protein cơ thể để tân tạo đường.</li>
-      <li>Não hầu như không sử dụng acid béo tự do làm nhiên liệu vì acid béo gắn albumin không qua được hàng rào máu não. Hơn 50% tổng năng lượng ATP của não được dành riêng cho hoạt động của bơm Na⁺/K⁺-ATPase nhằm duy trì điện thế màng cần thiết cho sự dẫn truyền xung động thần kinh liên tục.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 21)</div>
+<div class="answer-body">
+<h4>1. Đặc điểm chuyển hóa năng lượng, oxy và glucose chuyên biệt của Não:</h4>
+<ul>
+<li>Mặc dù não chỉ chiếm khoảng <strong>2% trọng lượng cơ thể</strong> (~1.4 kg), nhưng tiêu thụ tới <strong>20% tổng lượng oxy</strong> và <strong>25% tổng lượng glucose</strong> của toàn bộ cơ thể lúc nghỉ ngơi.</li>
+<li><strong>Nhiên liệu duy nhất trong điều kiện bình thường là D-Glucose:</strong> Tế bào não tiêu thụ khoảng 120g glucose/ngày. Glucose được vận chuyển qua hàng rào máu não nhờ protein vận chuyển GLUT1 (qua tế bào nội mô mạch máu) và GLUT3 (vào tế bào thần kinh neuron), cả hai đều hoạt động không phụ thuộc hormon insulin. Não hầu như không có dự trữ glycogen, do đó cực kỳ nhạy cảm với tình trạng <strong>Hạ đường huyết</strong> (khi glucose máu &lt; 2.5 mmol/L gây chóng mặt, vã mồ hôi, lú lẫn, hôn mê và tổn thương vỏ não không hồi phục).</li>
+<li><strong>Khi nhịn đói kéo dài (> vài ngày):</strong> Não có khả năng thích nghi đặc biệt, chuyển sang sử dụng <strong>Thể Ceton (β-hydroxybutyrat và acetoacetat)</strong> để cung cấp tới 50-70% nhu cầu năng lượng, giúp tiết kiệm tối đa sự phân giải protein cơ thể để tân tạo đường.</li>
+<li>Não hầu như không sử dụng acid béo tự do làm nhiên liệu vì acid béo gắn albumin không qua được hàng rào máu não. Hơn 50% tổng năng lượng ATP của não được dành riêng cho hoạt động của bơm Na⁺/K⁺-ATPase nhằm duy trì điện thế màng cần thiết cho sự dẫn truyền xung động thần kinh liên tục.</li>
+</ul>
 
-    <h4>2. Phân loại và cơ chế các Chất dẫn truyền thần kinh (Neurotransmitters):</h4>
-    <ul>
-      <li><strong>Nhóm kích thích (Excitatory):</strong>
-        <ul>
-          <li><em>Acetylcholin (ACh):</em> Chất dẫn truyền ở synap thần kinh - cơ và hệ thần kinh đối giao cảm; gắn thụ thể nicotinic mở kênh Na⁺ gây khử cực kích thích; bị phân hủy bởi acetylcholinesterase.</li>
-          <li><em>Glutamat:</em> Chất dẫn truyền thần kinh kích thích quan trọng nhất trong não bộ (>50% synap não); gắn thụ thể ionotropic (NMDA, AMPA) mở kênh đưa Ca²⁺ và Na⁺ vào tế bào sau synap, đóng vai trò then chốt trong quá trình học tập và ghi nhớ dài hạn (LTP). Nồng độ glutamat ngoại bào tăng quá mức gây độc thần kinh (excitotoxicity) trong đột quỵ thiếu máu não.</li>
-          <li><em>Catecholamin (Dopamin, Noradrenalin, Adrenalin):</em> Điều hòa vận động, cảm xúc, hành vi, huyết áp và sự thức tỉnh. Thiếu hụt Dopamin ở liềm đen thể vân là nguyên nhân sinh bệnh kinh điển của <strong>Bệnh Parkinson</strong>.</li>
-        </ul>
-      </li>
-      <li><strong>Nhóm ức chế (Inhibitory):</strong>
-        <ul>
-          <li><em>GABA (Acid γ-aminobutyric):</em> Chất dẫn truyền thần kinh ức chế chính trong não bộ, được tổng hợp từ glutamat nhờ enzym glutamat decarboxylase (GAD, coenzym PLP). Thụ thể GABA-A là kênh ion Cl⁻; khi GABA gắn vào làm mở kênh Cl⁻, dòng Cl⁻ tràn vào trong tế bào gây <strong>ưu phân cực màng (Hyperpolarization)</strong>, nâng ngưỡng kích thích, làm dịu thần kinh. Các thuốc an thần, gây ngủ (Benzodiazepin, Barbiturat) hoạt động bằng cách tăng cường tác dụng của GABA trên thụ thể này.</li>
-          <li><em>Glycin:</em> Chất dẫn truyền thần kinh ức chế chính ở tủy sống và thân não, mở kênh Cl⁻. Độc chất <em>Strychnin</em> ức chế cạnh tranh thụ thể glycin gây co giật toàn thân cứng đờ đe dọa tính mạng.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+<h4>2. Phân loại và cơ chế các Chất dẫn truyền thần kinh (Neurotransmitters):</h4>
+<ul>
+<li><strong>Nhóm kích thích (Excitatory):</strong>
+<ul>
+<li><em>Acetylcholin (ACh):</em> Chất dẫn truyền ở synap thần kinh - cơ và hệ thần kinh đối giao cảm; gắn thụ thể nicotinic mở kênh Na⁺ gây khử cực kích thích; bị phân hủy bởi acetylcholinesterase.</li>
+<li><em>Glutamat:</em> Chất dẫn truyền thần kinh kích thích quan trọng nhất trong não bộ (>50% synap não); gắn thụ thể ionotropic (NMDA, AMPA) mở kênh đưa Ca²⁺ và Na⁺ vào tế bào sau synap, đóng vai trò then chốt trong quá trình học tập và ghi nhớ dài hạn (LTP). Nồng độ glutamat ngoại bào tăng quá mức gây độc thần kinh (excitotoxicity) trong đột quỵ thiếu máu não.</li>
+<li><em>Catecholamin (Dopamin, Noradrenalin, Adrenalin):</em> Điều hòa vận động, cảm xúc, hành vi, huyết áp và sự thức tỉnh. Thiếu hụt Dopamin ở liềm đen thể vân là nguyên nhân sinh bệnh kinh điển của <strong>Bệnh Parkinson</strong>.</li>
+</ul>
+</li>
+<li><strong>Nhóm ức chế (Inhibitory):</strong>
+<ul>
+<li><em>GABA (Acid γ-aminobutyric):</em> Chất dẫn truyền thần kinh ức chế chính trong não bộ, được tổng hợp từ glutamat nhờ enzym glutamat decarboxylase (GAD, coenzym PLP). Thụ thể GABA-A là kênh ion Cl⁻; khi GABA gắn vào làm mở kênh Cl⁻, dòng Cl⁻ tràn vào trong tế bào gây <strong>ưu phân cực màng (Hyperpolarization)</strong>, nâng ngưỡng kích thích, làm dịu thần kinh. Các thuốc an thần, gây ngủ (Benzodiazepin, Barbiturat) hoạt động bằng cách tăng cường tác dụng của GABA trên thụ thể này.</li>
+<li><em>Glycin:</em> Chất dẫn truyền thần kinh ức chế chính ở tủy sống và thân não, mở kênh Cl⁻. Độc chất <em>Strychnin</em> ức chế cạnh tranh thụ thể glycin gây co giật toàn thân cứng đờ đe dọa tính mạng.</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>

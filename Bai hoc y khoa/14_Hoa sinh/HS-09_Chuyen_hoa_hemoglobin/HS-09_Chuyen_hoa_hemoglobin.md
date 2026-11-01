@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 10
 
 CHUYỂN HÓA HEMOGLOBIN
@@ -44,10 +43,8 @@ với cytocrom P-450 có coenzym là NADPH và cần một phân tử oxy,giải
 ra CO và ion sắt II. lon sắt được vận chuyển đến transferrin. Enzym
 hemoxygenase đặc hiệu với hem vì sắt tham gia vào cơ chế mở vòng. Sản phẩm
 
-
-\n\n
 tạo thành của phản ứng này là biliverdin có màu xanh. Ở một số loài động vật
-như chim và bò sát sự thoái hóa hémoglöbin tạo ra biliverdin xuống ruột và
+như chim và bò sát sự thoái hóa hémoglobin tạo ra biliverdin xuống ruột và
 đào thải ra phân. Ở người và một số động vật khác biliverdin tiếp tục bị khử
 thành bilirubin nhờ eñZzÿym biliÿgerdin reduetase có cöenzym NADPH và giải
 phóng coenzym dạng oxy hóa NADP'.
@@ -59,7 +56,7 @@ I—* Globin ——^ aa (tái sử dụng hoặc thoái hóa)
 HEM 'Hemoxygenase
 0.——> —¬ Fe transferin
 NADPHH' ——= Ï ” —” %c
-NADP'  —-
+NADP' —-
 
 Biliverdin
 
@@ -95,7 +92,6 @@ trực tiếp với muối diazo tạo thành chất màu azo gọi là phản �
 Trong một số bệnh của tế bào khi bilirubin kết hợp chặt chẽ với albumin của
 huyết thanh mà không thể tách được gặp trong hội chứng Gilberts.
 
-\n\n
 Bilirubin glucuronid từ túi mật xuống ruột, nhờ các enzym của vi khuẩn
 đường ruột thuỷ phân tách glucuronat và bilirubin bị oxy hóa thành urobilinogen.
 Urobilinogen tiếp tục oxy hóa thành stecobilinogen. Hai sắc tố này đào thải ra
@@ -141,8 +137,6 @@ mg% và liên hợp chỉ dưới 0,2mg%. Sự tăng bilirubin toàn phần tron
 thanh gây ra vàng da (jaundice). Những nguyên nhân của vàng da có thể chia
 thành 3 nhóm chính: vàng da trước gan, vàng da tại gan và vàng da sau gan.
 
-
-\n\n
 1.2.1. Vòng du trước gơn (prehepatic jaundice)
 
 Do tăng bilirubin toàn phần, những nguyên nhân làm tăng bilirubin
@@ -192,7 +186,6 @@ kéo dài, gan có thể bị tổn thương, khả năng liên hợp giảm. N�
 hợp này bilirubin liên hợp có thể tăng nhưng không cao như trong những
 trường hợp vàng da sau gan với chức năng gan bình thường.
 
-\n\n
 ## 2. SỰ TỔNG HỢP HEMOGLOBIN
 
 Sự tổng hợp hemoglobin ở hồng cầu chưa trưởng thành trong tuỷ xương.
@@ -227,7 +220,7 @@ trình tổng hợp hem.
 
 Bước 6: sự tạo thành protoporphyrinogen IX trong ty thể do sự oxy hóa
 coproporphyrinogen III loại đi hai phân tử CO; và hai hydro. Enzym xúc tác
-phần ứng này là coproporphyrinogen oxidase.
+phản ứng này là coproporphyrinogen oxidase.
 
 Bước 7: sự tạo thành protoporphyrin IX enzym xúc tác phản ứng này là
 protoporphyrinogen oxidase.
@@ -244,8 +237,6 @@ thay đổi nhanh chóng đáp ứng với những kích thích khác nhau: số
 cầu trong tuỷ xương, các enzym khác trên con đường tổng hợp hem và tốc độ giữ
 sắt của tế bào cũng góp phần điều hòa sự tổng hợp hem.
 
-
-\n\n
 Sự tổng hợp hem và những bệnh liên quan tới sự thiếu hụt các enzym.
 
 Glycin + Succinyl CoA ALA Synthase H Aminolevunilic acid
@@ -305,7 +296,6 @@ sắc thể. Ở người những gen mã hóa cho chuỗi α trên sắc thể 
 cho sự tổng hợp chuỗi α. Còn gen mã hóa cho chuỗi không phải là α sắp xếp trên
 sắc thể sắc thể 11 và không thể hiện như những chuỗi polypeptid.
 
-\n\n
 2.2.2. Sự sai sót trong tổng hợp globin
 
 Sự tổng hợp globin có thể gặp những sai sót về chất lượng chuỗi globin
@@ -348,57 +338,52 @@ Thế nào là bệnh lý hemoglobin.
 
 Thế nào là bệnh Thalassemia.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 10)</div>
-  <div class="answer-body">
-    <h4>1. Phân biệt Bilirubin gián tiếp (tự do) và Bilirubin trực tiếp (liên hợp):</h4>
-    <ul>
-      <li><strong>Bilirubin gián tiếp (tự do / chưa liên hợp):</strong>
-        <ul>
-          <li>Nguồn gốc: Sản phẩm thoái hóa của nhân Hem tại hệ võng nội mô do enzym Hem oxygenase và Biliverdin reductase xúc tác.</li>
-          <li>Tính chất lý hóa: Hoàn toàn không tan trong nước, tan tốt trong lipid; rất độc với hệ thần kinh trung ương (nguy cơ vàng da nhân não ở sơ sinh).</li>
-          <li>Vận chuyển: Bắt buộc gắn chặt với protein vận chuyển Albumin huyết tương; không lọc qua cầu thận, không xuất hiện trong nước tiểu.</li>
-          <li>Phản ứng Diazo (Van den Bergh): Cho phản ứng chậm hoặc gián tiếp (chỉ phản ứng sau khi thêm cồn làm tách phức hợp albumin).</li>
-        </ul>
-      </li>
-      <li><strong>Bilirubin trực tiếp (liên hợp):</strong>
-        <ul>
-          <li>Nguồn gốc: Được tạo thành tại tế bào gan nhờ enzym <em>UDP-glucuronyl transferase</em> gắn 2 phân tử acid glucuronic tạo Bilirubin diglucuronid.</li>
-          <li>Tính chất lý hóa: Tan rất tốt trong nước, không độc; bài xuất chủ động theo dịch mật xuống ruột.</li>
-          <li>Đào thải: Có khả năng lọc qua cầu thận khi nồng độ máu tăng cao, làm nước tiểu có màu vàng sẫm / nâu sẫm (sắc tố mật nước tiểu dương tính).</li>
-          <li>Phản ứng Diazo: Cho phản ứng nhanh tức thì (phản ứng trực tiếp).</li>
-        </ul>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 10)</div>
+<div class="answer-body">
+<h4>1. Phân biệt Bilirubin gián tiếp (tự do) và Bilirubin trực tiếp (liên hợp):</h4>
+<ul>
+<li><strong>Bilirubin gián tiếp (tự do / chưa liên hợp):</strong>
+<ul>
+<li>Nguồn gốc: Sản phẩm thoái hóa của nhân Hem tại hệ võng nội mô do enzym Hem oxygenase và Biliverdin reductase xúc tác.</li>
+<li>Tính chất lý hóa: Hoàn toàn không tan trong nước, tan tốt trong lipid; rất độc với hệ thần kinh trung ương (nguy cơ vàng da nhân não ở sơ sinh).</li>
+<li>Vận chuyển: Bắt buộc gắn chặt với protein vận chuyển Albumin huyết tương; không lọc qua cầu thận, không xuất hiện trong nước tiểu.</li>
+<li>Phản ứng Diazo (Van den Bergh): Cho phản ứng chậm hoặc gián tiếp (chỉ phản ứng sau khi thêm cồn làm tách phức hợp albumin).</li>
+</ul>
+</li>
+<li><strong>Bilirubin trực tiếp (liên hợp):</strong>
+<ul>
+<li>Nguồn gốc: Được tạo thành tại tế bào gan nhờ enzym <em>UDP-glucuronyl transferase</em> gắn 2 phân tử acid glucuronic tạo Bilirubin diglucuronid.</li>
+<li>Tính chất lý hóa: Tan rất tốt trong nước, không độc; bài xuất chủ động theo dịch mật xuống ruột.</li>
+<li>Đào thải: Có khả năng lọc qua cầu thận khi nồng độ máu tăng cao, làm nước tiểu có màu vàng sẫm / nâu sẫm (sắc tố mật nước tiểu dương tính).</li>
+<li>Phản ứng Diazo: Cho phản ứng nhanh tức thì (phản ứng trực tiếp).</li>
+</ul>
+</li>
+</ul>
 
-    <h4>2. Chẩn đoán phân biệt 3 hội chứng vàng da (Jaundice):</h4>
-    <ul>
-      <li><strong>Vàng da trước gan (Tan máu - Hemolytic):</strong> Tốc độ phá hủy hồng cầu tăng vọt.
-        <ul>
-          <li>Xét nghiệm máu: <em>Bilirubin gián tiếp tăng ưu thế</em>; Bilirubin trực tiếp bình thường.</li>
-          <li>Nước tiểu: <em>Không có sắc tố mật</em> (Bilirubin nước tiểu âm tính), nhưng Urobilinogen nước tiểu tăng rất cao. Phân sẫm màu (Stercobilin tăng).</li>
-        </ul>
-      </li>
-      <li><strong>Vàng da sau gan (Tắc mật - Obstructive):</strong> Sỏi đường mật, u đầu tụy chèn ép đường dẫn mật.
-        <ul>
-          <li>Xét nghiệm máu: <em>Bilirubin trực tiếp tăng rất cao</em>; Phosphatase kiềm (ALP) và GGT tăng vọt.</li>
-          <li>Nước tiểu: <em>Sắc tố mật (Bilirubin) dương tính đậm</em>, nước tiểu vàng sẫm; Urobilinogen nước tiểu giảm hoặc mất hoàn toàn.</li>
-          <li>Phân: <em>Mất màu / trắng bệch như phân cò (phân màu đất sét)</em> do sắc tố mật không xuống được ruột.</li>
-        </ul>
-      </li>
-      <li><strong>Vàng da tại gan (Viêm gan, xơ gan - Hepatocellular):</strong> Tế bào gan bị hoại tử hoặc suy giảm chức năng liên hợp và bài tiết.
-        <ul>
-          <li>Xét nghiệm máu: <em>Tăng cả Bilirubin trực tiếp và gián tiếp</em> (tăng hỗn hợp); enzym gan AST, ALT tăng cao (viêm gan cấp).</li>
-          <li>Nước tiểu: Cả Bilirubin và Urobilinogen nước tiểu đều có thể dương tính.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+<h4>2. Chẩn đoán phân biệt 3 hội chứng vàng da (Jaundice):</h4>
+<ul>
+<li><strong>Vàng da trước gan (Tan máu - Hemolytic):</strong> Tốc độ phá hủy hồng cầu tăng vọt.
+<ul>
+<li>Xét nghiệm máu: <em>Bilirubin gián tiếp tăng ưu thế</em>; Bilirubin trực tiếp bình thường.</li>
+<li>Nước tiểu: <em>Không có sắc tố mật</em> (Bilirubin nước tiểu âm tính), nhưng Urobilinogen nước tiểu tăng rất cao. Phân sẫm màu (Stercobilin tăng).</li>
+</ul>
+</li>
+<li><strong>Vàng da sau gan (Tắc mật - Obstructive):</strong> Sỏi đường mật, u đầu tụy chèn ép đường dẫn mật.
+<ul>
+<li>Xét nghiệm máu: <em>Bilirubin trực tiếp tăng rất cao</em>; Phosphatase kiềm (ALP) và GGT tăng vọt.</li>
+<li>Nước tiểu: <em>Sắc tố mật (Bilirubin) dương tính đậm</em>, nước tiểu vàng sẫm; Urobilinogen nước tiểu giảm hoặc mất hoàn toàn.</li>
+<li>Phân: <em>Mất màu / trắng bệch như phân cò (phân màu đất sét)</em> do sắc tố mật không xuống được ruột.</li>
+</ul>
+</li>
+<li><strong>Vàng da tại gan (Viêm gan, xơ gan - Hepatocellular):</strong> Tế bào gan bị hoại tử hoặc suy giảm chức năng liên hợp và bài tiết.
+<ul>
+<li>Xét nghiệm máu: <em>Tăng cả Bilirubin trực tiếp và gián tiếp</em> (tăng hỗn hợp); enzym gan AST, ALT tăng cao (viêm gan cấp).</li>
+<li>Nước tiểu: Cả Bilirubin và Urobilinogen nước tiểu đều có thể dương tính.</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>

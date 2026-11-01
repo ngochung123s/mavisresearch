@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 2
 
 HÓA HỌC LIPID
@@ -48,7 +47,6 @@ Lipid là những este hoặc amid của acid béo với alcol hoặc aminoalcol
 Acid béo là những acid carboxylic với chuỗi hydrocarbon chứa từ 4 đến 36
 carbon. Một số acid béo có chuỗi hydrocarbon bão hòa (không chứa liên kết
 
-\n\n
 đôi) và không có nhánh; một số acid béo có chuỗi hydrocarbon không bão hòa
 (chứa một hay nhiều liên kết đôi), hoặc có nhánh, hoặc vòng, hoặc chứa nhóm
 chức hydroxyl.
@@ -124,8 +122,6 @@ Acid linoleic F 18:2 (A2)
 Acid linolenic 18:3 (A1219)
 Acidarachidonic | 20: (A5811)
 
-
-\n\n
 — Acid béo có một liên bết đôi (monounsaturated fatty acid): công thức tổng
 quát là C,H¿„:COOH. Acid ỏleic là acid béo không bão hòa rất phổ biến; có
 trong tất cả dầu và mỡ động vật, thực vật: mỡ dự trữ của bò và lợn (40%), dầu
@@ -169,7 +165,6 @@ Acid prostanoic - ˆ“Prostaglandin E;
 
 Hình 2.2. Acid béo vòng
 
-\n\n
 1.1.5. Đồng phân của acid béo không bão hòa
 
 Các acid béo không bão hòa tồn 18 CH, 18 CH,
@@ -222,8 +217,6 @@ Tham gia trồng thành phần của cerebrosid và một số phosphatid. Các
 aminoalcol thường gặp là sphingosin, cholin (ethanolamin trimethylamin),
 ethanolamin (cholamin), serin, cerebrin (có trong nấm men, hạt ngô).
 
-
-\n\n
 - (CH,)„ - CH = CH - CH - CH - CH/OH Sphingosin
 
 OH NH;
@@ -250,7 +243,7 @@ CH› 2
 ma” —¬=rˆ202~,22
 eH, | T 7|
 Lư 14 1ói
- - 15 2123
+- 15 2123
 (2 Hồ ˆ đi ¿24
 3 ¡ 125
 HO . 27 %
@@ -274,7 +267,6 @@ giống nhau hoặc khác nhau (glycerid thuần nhất hoặc glycerid hỗn h�
 triglycerid có chứa cùng một loại acid béo trong phân tử chiếm tỷ lệ rất nhỏ.
 Tuỳ theo thành phần của acid béo mà glycerid có tên gọi khác nhau, ví dụ:
 
-\n\n
 tristearin là triglyeerid có 3 gốc acid béo là acid stearice; 1.2-distearopalmitin
 là triglycerid có 2 gốc acid stearic ở Ơ, và Ơ, và 1 gốc acid palmitic.
 
@@ -320,12 +312,11 @@ alcol là glycerol và sphingolipid có alcol là sphingosin.
 
 Bài
 
-\n\n
 ### 3.1. Glycerophospholipid (glycerophosphatid hay diacylphosphatid)
 
 loi
 1 lI :
--  ềừ
+- ềừ
 | (ví dụ: a.palmitic)
 la] ¡
 ng L __ Acid béo không bão hòa
@@ -361,7 +352,6 @@ CH-O-C-R; :
 l
 CH2-O-C-R,
 
-\n\n
 Glycerophospholipid là dẫn xuất của acid phosphatidie; bao gồm acid
 phosphatidic, phosphatidylglycerol, phosphatidylcholin (lecithin),
 phosphatidylethanolamin (cephalin), phosphatidylinositol phosphatidylserin,
@@ -411,8 +401,6 @@ Plasmalogen chiếm khoảng 10% phospholipid của não và cơ. Trong phân
 tử plasmalogen, vị trí C (α) không phải là liên kết este mà là liên kết ete giữa
 nhóm —OH của glycerol với một gốc rượu không bão hòa.
 
-
-\n\n
 ### 3.2. Sphingolipid
 
 O=T 97 GH/-CHz-N (CHỈ)
@@ -454,7 +442,6 @@ NAc ˆ
 Ollgosoccorid ï
 <<)- Gdl N Gœnglosd
 
-\n\n
 Các sphingolipid là thành phần cấu tạo quan trọng của màng tế bào động
 vật và thực vật, đặc biệt ở mô não và mô thần kinh. Sphingolipid chứa .alcol là
 sphingosin. Sphingosin được nối với acid béo bởi nhóm amin, tạo thành
@@ -506,8 +493,6 @@ galactose, nhưng không có acid phosphoric. Acid béo trong cerebrosid gồm 2
 carbon như acid lignoceric, acid cerebronic, acid nervonic acid
 hydroxynervonic. Tuỳ theo thành phần acid béo trong phân tử mà cerebrosid
 
-
-\n\n
 có-tên khác nhau, ví dụ: kerasin là cerebrosid chứa acid d lignoceric, cerebron là
 cerebrosid chứa acid-cerebronic, .- :
 
@@ -550,40 +535,36 @@ glycerophospholipid phổ biến trong cơ thể.
 ## 8. Cấu tạo hóa học của sphingolipid và đặc điểm chính của một số
 sphingolipid phổ biến trong cơ thể người.
 
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 2)</div>
-  <div class="answer-body">
-    <h4>1. Nêu đặc điểm chính của acid béo trong cơ thể:</h4>
-    <ul>
-      <li>Là các acid monocarboxylic mạch thẳng, hầu hết có số nguyên tử carbon chẵn (từ 14 đến 24C), thường gặp nhất là 16C và 18C.</li>
-      <li><strong>Acid béo bão hòa (no):</strong> Không có liên kết đôi, mạch duỗi thẳng, thể rắn ở nhiệt độ phòng (ví dụ: Acid Palmitic 16C, Acid Stearic 18C).</li>
-      <li><strong>Acid béo chưa bão hòa (không no):</strong> Có 1 hoặc nhiều liên kết đôi, hầu hết ở dạng đồng phân <em>cis</em> làm bẻ gập chuỗi, thể lỏng ở nhiệt độ phòng (ví dụ: Acid Oleic 18:1 cis-Δ⁹).</li>
-      <li><strong>Acid béo cần thiết (Essential Fatty Acids):</strong> Cơ thể người không tự tổng hợp được do thiếu enzym desaturase tạo liên kết đôi sau carbon C9, phải cung cấp từ thức ăn: Acid Linoleic (18:2, ω-6) và Acid α-Linolenic (18:3, ω-3). Là tiền chất tổng hợp Acid Arachidonic (20:4) và các chất eicosanoid (Prostaglandin, Thromboxan, Leukotrien).</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 2)</div>
+<div class="answer-body">
+<h4>1. Nêu đặc điểm chính của acid béo trong cơ thể:</h4>
+<ul>
+<li>Là các acid monocarboxylic mạch thẳng, hầu hết có số nguyên tử carbon chẵn (từ 14 đến 24C), thường gặp nhất là 16C và 18C.</li>
+<li><strong>Acid béo bão hòa (no):</strong> Không có liên kết đôi, mạch duỗi thẳng, thể rắn ở nhiệt độ phòng (ví dụ: Acid Palmitic 16C, Acid Stearic 18C).</li>
+<li><strong>Acid béo chưa bão hòa (không no):</strong> Có 1 hoặc nhiều liên kết đôi, hầu hết ở dạng đồng phân <em>cis</em> làm bẻ gập chuỗi, thể lỏng ở nhiệt độ phòng (ví dụ: Acid Oleic 18:1 cis-Δ⁹).</li>
+<li><strong>Acid béo cần thiết (Essential Fatty Acids):</strong> Cơ thể người không tự tổng hợp được do thiếu enzym desaturase tạo liên kết đôi sau carbon C9, phải cung cấp từ thức ăn: Acid Linoleic (18:2, ω-6) và Acid α-Linolenic (18:3, ω-3). Là tiền chất tổng hợp Acid Arachidonic (20:4) và các chất eicosanoid (Prostaglandin, Thromboxan, Leukotrien).</li>
+</ul>
 
-    <h4>2. Cấu tạo và phân loại Triglycerid và Phospholipid:</h4>
-    <ul>
-      <li><strong>Triglycerid (Triacylglycerol):</strong> Là este của glycerol với 3 phân tử acid béo. Là lipid trung tính không phân cực, kỵ nước hoàn toàn, đóng vai trò dự trữ năng lượng mô mỡ dưới da và quanh các tạng.</li>
-      <li><strong>Phospholipid:</strong> Là lipid tạp lưỡng cực cấu trúc màng, gồm đầu ưa nước (nhóm phosphat gắn alcol amin) và đuôi kỵ nước (2 chuỗi acid béo). Gồm 2 nhóm: <em>Glycerophospholipid</em> (dẫn xuất của acid phosphatidic: Lecithin, Cephalin, Phosphatidylserin, Phosphatidylinositol) và <em>Sphingophospholipid</em> (khung sphingosin: Sphingomyelin).</li>
-    </ul>
+<h4>2. Cấu tạo và phân loại Triglycerid và Phospholipid:</h4>
+<ul>
+<li><strong>Triglycerid (Triacylglycerol):</strong> Là este của glycerol với 3 phân tử acid béo. Là lipid trung tính không phân cực, kỵ nước hoàn toàn, đóng vai trò dự trữ năng lượng mô mỡ dưới da và quanh các tạng.</li>
+<li><strong>Phospholipid:</strong> Là lipid tạp lưỡng cực cấu trúc màng, gồm đầu ưa nước (nhóm phosphat gắn alcol amin) và đuôi kỵ nước (2 chuỗi acid béo). Gồm 2 nhóm: <em>Glycerophospholipid</em> (dẫn xuất của acid phosphatidic: Lecithin, Cephalin, Phosphatidylserin, Phosphatidylinositol) và <em>Sphingophospholipid</em> (khung sphingosin: Sphingomyelin).</li>
+</ul>
 
-    <h4>3. Cấu tạo của Cholesterol và vai trò sinh học:</h4>
-    <ul>
-      <li><strong>Cấu tạo:</strong> Khung steran (cyclopentanoperhydrophenanthren) gồm 4 vòng ngưng tụ (A, B, C, D) với 27 carbon, nhóm -OH ở C3 (phân cực nhẹ), liên kết đôi C5-C6 và chuỗi nhánh 8C ở C17.</li>
-      <li><strong>Vai trò sinh học:</strong>
-        <ol>
-          <li>Thành phần cấu trúc thiết yếu của màng tế bào, điều hòa độ lỏng và tính thấm của màng kép lipid.</li>
-          <li>Tiền chất duy nhất để sinh tổng hợp các <strong>Acid mật và Muối mật</strong> tại gan phục vụ tiêu hóa lipid.</li>
-          <li>Tiền chất sinh tổng hợp các <strong>Hormon Steroid</strong> (Hormon vỏ thượng thận: Cortisol, Aldosteron; Hormon sinh dục: Testosteron, Estrogen, Progesteron).</li>
-          <li>Tiền chất tổng hợp <strong>Vitamin D₃</strong> dưới da nhờ tác dụng của tia cực tím (UV).</li>
-        </ol>
-      </li>
-    </ul>
-  </div>
+<h4>3. Cấu tạo của Cholesterol và vai trò sinh học:</h4>
+<ul>
+<li><strong>Cấu tạo:</strong> Khung steran (cyclopentanoperhydrophenanthren) gồm 4 vòng ngưng tụ (A, B, C, D) với 27 carbon, nhóm -OH ở C3 (phân cực nhẹ), liên kết đôi C5-C6 và chuỗi nhánh 8C ở C17.</li>
+<li><strong>Vai trò sinh học:</strong>
+<ol>
+<li>Thành phần cấu trúc thiết yếu của màng tế bào, điều hòa độ lỏng và tính thấm của màng kép lipid.</li>
+<li>Tiền chất duy nhất để sinh tổng hợp các <strong>Acid mật và Muối mật</strong> tại gan phục vụ tiêu hóa lipid.</li>
+<li>Tiền chất sinh tổng hợp các <strong>Hormon Steroid</strong> (Hormon vỏ thượng thận: Cortisol, Aldosteron; Hormon sinh dục: Testosteron, Estrogen, Progesteron).</li>
+<li>Tiền chất tổng hợp <strong>Vitamin D₃</strong> dưới da nhờ tác dụng của tia cực tím (UV).</li>
+</ol>
+</li>
+</ul>
+</div>
 </div>

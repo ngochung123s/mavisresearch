@@ -10,7 +10,6 @@
 
 ---
 
-
 PHẦN III
 
 HÓA SINH MÔ VÀ CƠ QUAN
@@ -42,7 +41,6 @@ những tính chất lý hóa đặc biệt quan trọng. Nước hoà tan đư�
 
 cơ và hữu cơ và là môi trường sống không thể thiếu của mọi sinh vật nói chung
 
-\n\n
 và của con người nói riêng. Trong cơ thể nước tham gia vào nhiều phản ứng
 hóa sinh. Tỷ khối của nước biến thiên theo sự thay đổi của nhiệt độ. Tất cả
 những tính chất trên là do đặc điểm phân cực của phân tử nước làm cho nước
@@ -63,7 +61,7 @@ có độ rắn chắc nhất định nhưng chứa tỷ lệ nước từ 70-80
 nước là 83% lại ở trạng thái lỏng vì không có cấu tạo gel. Trong phần nước kết
 hợp thì nước bị cầm chiếm lượng nhiều hơn nước hydrat hóa.
 
-Nước kết hợp không đóng băng ở 0°Ơ mà ở nhiệt độ thấp hơn -0°C.
+Nước kết hợp không đóng bằng ở 0°Ơ mà ở nhiệt độ thấp hơn -0°C.
 
 ### 1.2. Hàm lượng nước trong cơ thể
 
@@ -94,8 +92,6 @@ Xương 16-46 Sữa 89
 
 Cơ 70 Nước bọt 99,4
 
-
-\n\n
 Như vậy nước có trong mọi tế bào, mọi mô tạo ra môi trường lỏng bên
 trong cơ thể, môi trường thiết yếu của sự sống.
 
@@ -142,15 +138,13 @@ thăng bằng xuất nhập nước ở một mức độ nhất định. Có th
 bằng xuất nhập nước trong một số bệnh: nội tiết, bệnh thận, suy tim, bệnh
 gan...
 
-
-\n\n
 Bảng 15.3: Thăng bằng xuất nhập nước ở cơ thể.
 
 Nước nhập Nước xuất
 
 Nước qua đường uống: 1200m] Nước tiểu: 1400m]
 
-Nước trong thứcăn  : 1000ml Nước qua mồ hôi: 500ml
+Nước trong thứcăn : 1000ml Nước qua mồ hôi: 500ml
 
 Nước từchuyển hóa : 300ml Nước qua Hơi thở... 500ml
 Nước qua phân: 100ml
@@ -197,8 +191,6 @@ chức năng sinh lý cũng như nhu cầu của cơ thể. Một số chất t�
 lượng lớn như Na, E, CI, Ca, P, Mg. Một số tồn tại với số lượng nhỏ như: I, Br,
 Cu, Co, Mn, Zn, Mo...những nguyên tố này được gọi là những nguyên tố vi
 
-
-\n\n
 lượng. Một số có lượng rất nhỏ trong cơ thể gọi là nguyên tố siêu vi lượng như:
 Cr, Si, Ti... Các chất này có thể ở dạng muối không tan, có thể là muối tan
 trong các dịch hoặc ở dạng kết hợp với protein.
@@ -246,7 +238,6 @@ muối không tan tạo nên hình dạng đặc thù của tổ chức xương 
 Tham gia cấu tạo các thành phần quan trọng của tế bào như acid nucleic,
 màng tế bào.
 
-\n\n
 - Tham gia bình ổn protein ở trạng thái keo trong tế bào và mô. Nồng
 độ và tỷ lệ của một số chất vô cơ ảnh hưởng tới chức phận sinh lý của tế bào
 nhất là các chất ở dạng phức hợp với protein.
@@ -297,8 +288,6 @@ ATPase. Kali giữ vai trò quan trọng trong chuyển hóa tế bào, đặc b
 điều hòa nhiều quá trình của tế bào. Kali có vai trò quan trọng trong kích
 thích thần kinh cơ. Nông độ kali có vai trò trong điều hòa nồng độ H'.
 
-
-\n\n
 Cân bằng K* ngoài tế bào được duy trì bởi thận. Chế độ ăn hàng ngày
 bình thường cung cấp lượng kali từ 80-100 mmol. Kali được hấp thu ở ruột
 non, được lọc qua thận và tái hấp thu ở ống lượn gần. Sự bài xuất kali phụ
@@ -354,7 +343,6 @@ hoạt động ngay khi có sự thay đổi pH máu. HƠO; cũng là dạng v�
 Hình 15.1. Sự đổi chỗ của clo giữa
 hồng cầu và huyết tương
 
-\n\n
 CO, tạo ra trong quá trình chuyển hóa chất ở các mô đến phổi để đào thải.
 HƠO; được đào thải chủ yếu bởi thận qua sự tăng hoặc giảm tái hấp thu của
 ống thận để duy trì cân bằng acid: base của nội môi. Giảm lượng HCOÿ của
@@ -404,8 +392,6 @@ hoà bởi thận. Nồng độ phosphat trong máu khoảng 12mg%(3,9mmol/L) ch
 yếu là phosphat hữu cơ. Phosphat vô cơ chỉ chiếm khoảng từ 3 đến 4mg%.
 'Trong xương lượng phosphat chiếm 80% lượng phosphat toàn phần của cơ thể.
 
-
-\n\n
 ## 3. SỰ TRAO ĐỔI MUỐI - NƯỚC
 
 'Trong cơ thể nước và muối liên quan mật thiết với nhau. Quá trình trao
@@ -450,12 +436,11 @@ trương duy trì hoạt động sống của tế bào.
 nước ra khỏi nơi nó chiếm giữ. Khu vực nào có áp lực thuỷ tĩnh cao nước sẽ từ
 khu vực đó đi ra.
 
-3.1.3. Cân bằng Donnan uà áp suất do keo
+3.1.3. Cân bằng Donnan và áp suất do keo
 
 Thí nghiệm của Donnan: lấy một bình được ngăn đôi bình bằng một
 màng bán thấm. Đổ vào mỗi nửa của bình các muối NaƠl và Na proteinat
 
-\n\n
 (RNa) riêng biệt. Các muối này có nồng độ khác nhau tương ứng với a và b.
 Nước và các ion Na!, ƠI: qua màng dễ dàng, ion keo proteinat (R) không qua
 màng. Sau một thời gian khuếch tán, cân bằng được thiết lập và gọi là trạng
@@ -491,7 +476,7 @@ Ngoài ra còn một số yếu tố khác cũng ảnh hưởng tới sự vận
 lượng máu.
 
 ### 8.2. Sự trao đổi muối nước và các chất giữa các khu vực
-3.2.1. Sự trao đổi nước uà các chất giữa huyết tương uà dịch gian bào
+3.2.1. Sự trao đổi nước và các chất giữa huyết tương và dịch gian bào
 
 Ngăn cách giữa hai khu vực này là thành mạch. Giữa hai khu vực có sự
 khác nhau về nồng độ protein, nên có sự khấc nhau về ASTT. Trong huyết
@@ -501,8 +486,6 @@ tuỳ phần của hệ mạch: HA mao động mạch là 30mmHg, HA mao tĩnh m
 15mmHg. Còn áp suất thuỷ lĩnh của dịch gian bào là 8mmHg. Sự trao đổi
 nước giữa huyết tương và dịch gian bào xẩy ra theo sơ đồ sau:
 
-
-\n\n
 Mao động mạch Mao tĩnh mạch
 
 HA:30ASTT.25 HA:23 ASTT: 25 HA:15 | ASTT: ]
@@ -514,7 +497,7 @@ Nước và các chất dinh dưỡng đi ra Nước và các chất cặn bã �
 
 Hình 15.2. Sự trao đổi nước và các chất giữa trong và ngoài thành mạch
 
-3.2.2. Sự trao đổi nước uà các chất giữa khu uực trong uà ngoài tế bào
+3.2.2. Sự trao đổi nước và các chất giữa khu uực trong và ngoài tế bào
 
 Ngăn cách giữa hai khu vực này là màng tế bào. Màng tế bào cho nước
 qua lại tự do và thường đi theo các chất vận chuyển qua màng, đặc biệt là điện
@@ -549,7 +532,6 @@ Các receptor thẩm thấu và các Teceptor thể tích của hypothalamus nh�
 cảm với những thay đổi về áp suất thẩm thấu và thay đổi thể tich tuần hoàn.
 Các receptor này đáp ứng nhanh với những thay đổi nhỏ về áp suất thẩm
 
-\n\n
 thấu. Khi á ấp suất thẩm thấu huyết tương tăng từ 1% đến 2% sẽ kích thích làm
 tăng bài tiết ADH trong tuần hoàn lên 4 lần. Còn khi áp suất thẩm thấu giảm
 1% đến 2% sẽ ngừng bài tiết ADH.
@@ -602,8 +584,6 @@ dGiảm áp suất thận Giữ Na+ và H,O
 
 Hình 15.3. Điều hoà trao đổi mưối nước bởi hormon và một số cơ quan
 
-
-\n\n
 ### 4.8. Một số cơ quan tham gia điều hòa trao đổi muối nước
 
 Trong số những cơ quan tham gia điều hòa trao đổi muối nước quan

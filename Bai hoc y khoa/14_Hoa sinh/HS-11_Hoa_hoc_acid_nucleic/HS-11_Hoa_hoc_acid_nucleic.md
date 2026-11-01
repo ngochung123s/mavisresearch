@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 4
 
 HÓA HỌC ACID NUCLEIC
@@ -30,8 +29,6 @@ Todd đưa ra trong những năm đầu của thập kỷ 50. Acid nucleic là c
 polyme của nucleotid trong đó có cầu nối phosphate ở vị trí 3 và ðõ của 3 hại
 phân tử đường liên tiếp.
 
-
-\n\n
 E
 
 Ạ U c S
@@ -42,7 +39,6 @@ nu
 Q NG P P, L4 L
 lời HO
 ẫ 5 5 5
-
 
 Hình 4.1. Mô hình cấu trúc của tetranucleotid
 adenyl - 3',5'-uridyl-3',5'-cytidyl - 3',5'-guanylyl-
@@ -68,8 +64,6 @@ DNA của một số virus lại có cấu trúc xoắn đơn. Tuy nhiên khi c�
 DNA này xâm nhập vào trong tế bào chủ và nhân lên, nó sẽ hình thành cấu
 trúc xoắn kép.
 
-
-\n\n
 Bảng 4.1. Tên gọi và cách viết tắt của các base nitơ, nucleosid và nucleotid
 
 Base Base Nucleosid Nucleotid
@@ -97,7 +91,7 @@ N ] Ura Urd Uridin monophosphat
 Ả. U U UMP
 ơ N
 X
-CH§ Thymin Deoxythymidin  Deoxythymidylic acid
+CH§ Thymin Deoxythymidin Deoxythymidylic acid
 Thy dThd : Deoxythymidin
 vụ T -dT monophosphat
 Hi dTMP
@@ -111,8 +105,6 @@ RNA dễ dàng bị thuỷ phân trong môi trường kiểm để tạo ra mộ
 các 2 và 8 nucleotid trong khi DNA vì không có nhóm 2-OH nên bền vững trong
 môi trường kiểm và do vậy mà nó rất bền vững so với RNA.
 
-
-\n\n
 Nucleotid là este phosphat của đường pentose, trong đó base nitơ liên kết
 với C1 của đường. Trong ribonucleotid, đường pentose là D-ribose còn trong
 deoxyribonucleotid (hay còn gọi là deoxynucleotid) có trong DNA thì lại là 2-
@@ -161,7 +153,6 @@ kỳ xoắn là 10,1 đôi base và góc xoắn vặn
 của mỗi cặp base là 35,6°. Hình 4.3. Mô hình mô phỏng
 cấu trúc B-DNA
 
-\n\n
 2.1.2. Các dạng cấu trúc xoắn khác của acid nucleic
 
 - Dạng A-DNA: cấu trúc A-DNA rộng hơn, vòng xoắn theo quy tắc bàn tay
@@ -211,8 +202,6 @@ mang điện. Thực nghiệm cho thấy 7m tỷ lệ thuận với nồng độ
 đóng vai trò quan trọng trong việc duy trì cấu trúc của nhiều loại RNA như
 RNA vận chuyển, RNA ribosom.
 
-
-\n\n
 — Cấu trúc siêu xoắn của DNA: tất cả các phân tử DNA của vi khuẩn và đa
 số DNA của virus có cấu trúc hình vòng. Cấu trúc DNA vòng cũng xuất hiện ở
 trong ty thể mà ty thể thì có ở hầu hết các tế bào bậc cao. Mỗi đầu của chuỗi
@@ -264,7 +253,6 @@ RNA là một chuỗi nucleotid xoắn đơn, cấu trúc bậc 2 do sự xoắn
 đoạn bổ sung nhau trên phân tử RNA. Ngoài ra RNA cũng có cấu trúc bậc 3 do
 phân tử RNA tồn tại nhiều liên kết hydro.
 
-\n\n
 ### 8.2. Các loại RNA
 
 '- RNA vận chuyển (tRNA), chiếm khoảng 15% tổng số RNA của tế bào.

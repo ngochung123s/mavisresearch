@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 11
 
 CHUYỂN HÓA ACID NUCLEIC
@@ -33,7 +32,7 @@ do, ribose hoặc ribose-l-phosphat nhờ các enzym nucleosidase và nucleoside
 phosphorylase:
 
 Nucleosid + H¿O _ Nucleosidase „ base + ribose
-Nucleosid + H¿O  Nucleosido phosphorylase base +ribose-1- P
+Nucleosid + H¿O Nucleosido phosphorylase base +ribose-1- P
 ANucieoside phospioryZas8.
 
 Các acid nucleic trong tế bào thường xuyên bị thoái hóa và quá trình đó
@@ -43,7 +42,6 @@ nằm trong sự biến đổi liên tục của tất cả các bộ phận c�
 Khởi đầu của quá trình thoái hóa là phản ứng thủy phân gốc phosphat
 dưới tác dụng của ðzuucleotidase. Sau khi bị thủy phân gốc phosphat, adenylat
 
-\n\n
 (adenosin nucleotid) tạo thành adenosin. Adenosin tiếp tục bị khử amin thành
 inosin với sự xúc tác của adenosine dea/minase để tạo thành inosin. Inosin bị
 thủy phân giải phóng hypoxanthin và ribose- 1 P dưới tác dụng của
@@ -63,8 +61,8 @@ Pi adenosin Pi Pi Pi
 Adenosin 9aminese Inosin Xanthosin Guanosin
 HO. NHẾ Ô Pi~|J puine Ñ Pi-]paine :- Pi—}.pàine x
 'nucleoside . “nucleosido. nucleosido
-Ribose -1-P] phosphonylase  Ribose -1-PA⁄ T] 09v Teen: 1P. Điespnenes
-©N) xanthine. (PNP)  quanine
+Ribose -1-P] phosphonylase Ribose -1-PA⁄ T] 09v Teen: 1P. Điespnenes
+©N) xanthine. (PNP) quanine
 Hypbxanthin — 91/082 Xanthin uuou Guanin
 O₂+HO: HO, NHÀ H2)
 O₂+H₂O | xanthine
@@ -94,8 +92,6 @@ Lượng acid uric trong nước tiểu khoảng 0,3-0,8 g/24 giờ và thay đ�
 ăn. Trong bệnh Gout (bệnh Thống phong), bệnh tăng bạch cầu, lượng acid uric
 trong máu có thể tăng tới 7-8 g/d1 có sự lắng đọng urat tại một số tổ chức như
 
-
-\n\n
 sụn, bao gân, túi nhầy của các khớp, đôi khi cả ở thận và cơ. Bệnh Gout có tỷ lệ
 khoảng 3/1000 người, thường gặp ở nam giới và liên quan đến thói quen ăn
 uống quá nhiều. Nguyên nhân thường gặp nhất của bệnh là do thương tổn quá
@@ -130,7 +126,6 @@ chuyển hóa pyrimidin là amino acid: B- alanin và -aminoisobutyrat. Hai acid
 này thông qua phản ứng trao đổi amin để tạo manonyl]-CoA và methylmalonyl- CoA
 để tiếp tục tham gia chuyển hóa.
 
-\n\n
 le]
 
 NH
@@ -142,7 +137,7 @@ I
 Rb—(P) (gJRb —(P)
 CMP UMP (dTMP)
 HO : H¿/© °
-c  À nucleotdase is) nucleoidaso
+c À nucleotdase is) nucleoidaso
 Pi cylidine Pi H_. (CHa)
 cua
 Cytidin 59» uridin (Dooxythymidin) N h
@@ -163,10 +158,10 @@ GH — (CH) ẻ " SN" cH,
 cH=O HNỔ °
 aminotransforase 2 Ñ i h
 Malonic somialdehyd B-Alanin 8-ureldopropionas9 B.Uroidopropionat
-(Methylmalonie semialdehyd)  n. (8-Ureidolsobuyrat)
+(Methylmalonie semialdehyd) n. (8-Ureidolsobuyrat)
 Glutamat
 NH4 + CO, HO
-CoA+ NAD! ..  œCetoglutarai La. SH," sR
+CoA+ NAD! .. œCetoglutarai La. SH," sR
 NADH+ HT
 coo
 ï
@@ -190,7 +185,6 @@ Bằng các nghiên cứu thực nghiệm sử dụng các chất ghi dấu đ�
 xạ 1C, 1N các nhà khoa học đã xác định được nguồn gốc các nguyên tử trong
 nhân purin.
 
-\n\n
 N, có nguồn gốc từ acid aspartic
 
 C„ và Cạ có nguồn gốc từ acid formic
@@ -240,8 +234,6 @@ thành aminoimidazole-4-(N-succinylocarboxamid) ribotid (SACAIR) (8): Phản
 ứng này có sự xúc tác của enzym SACAIR synthetase và cần năng lượng từ một
 phân tử ATP. Tiếp theo fumarat tách khỏi SACAIR dưới tác dụng của
 
-
-\n\n
 qdenylosuccinat iyøse để tạo thành ð-aminoimidazole-4-carboxamid ribotid
 (AICAR) (9). Trong phản ứng 10, AICAR bị formyl hóa với sự tham gia của N19.
 formyltetrahydrofolat nhờ enzym AJCAR transformylase để tạo thành 5-
@@ -289,10 +281,7 @@ carbamoyl aspartat. Chất này đóng vòng để tạo thành; dihydroorotat d
 dụng của dih,ydroorotase. Sau đó dihydroorotat bị oxy hóa dưới tác dụng của
 enzym di¡hydroorotat dehydrogenase có coenzym là NAD' để tạo thành orotat.
 
-
-\n\n
-
-204PCO—CH¿ ö H
+204PCO—CH¿ ở H
 
 n me
 .H oH
@@ -361,7 +350,7 @@ c§
 HẠNG CN
 
 Ribose-5-phosphat
-5-Aminoimidazole ribotide  (AIF)
+5-Aminoimidazole ribotide (AIF)
 
 ATP+HCO+
 AIR carboxylase
@@ -441,7 +430,7 @@ Inosin monophosphat (IMP)
 
 Hình 11.4. Con đường tổng hợp IMP gồm 11 phản ứng với
 sự xúc tác của các enzym đặc hiệu
-\n\n
+
 o
 H Ñ N
 N
@@ -489,8 +478,6 @@ pyrimidin tạo thành cytidine - ð - triphosphat (CTP) dưới tác dụng c�
 cytidylote synthetase. Ở động vật, chất cho nhóm amin là glutamin còn ở vi
 khuẩn chất cho nhóm amin là NH.".
 
-
-\n\n
 1.9.3. Tổng hợp deoxyribonucleotid
 
 Thay vì được tổng hợp trực tiếp từ nguyên liệu ban đầu, các
@@ -546,7 +533,6 @@ Uridino monophosphat (UMP)
 
 Hình 11.6: Quá trình tổng hợp UMP gồm 6 phản ứng hóa học với sự xúc tác của enzym
 
-\n\n
 Con đường tận dụng:
 
 Trong con đường này các base purin và pyrimidin được tổng hợp trong tế
@@ -596,8 +582,6 @@ nucleotid ở đầu 5 hoặc đầu 3 để tạo ra một oligonucleotid ngắ
 - Endonuclease là enzym thủy phân liên kết phosphodieste ở giữa chuỗi
 polynucleotid.
 
-
-\n\n
 2.1.2. Thoái hóa RNA: thời gian bán hủy của các RNA rất khác nhau. Các
 nuclease thủy phân liên kết phosphodieste trong RNA được gọi là z¿boruciease
 và cũng gồm hai loại là exonucjease và endonuclease.
@@ -641,7 +625,6 @@ chuỗi DNA song song với sự mở xoắn kép. Vùng này có cấu trúc h�
 hợp với sự xúc tác của hệ thống đa enzym. Trong đó một sợi được tổng hợp liên
 tục (chuỗi nhanh) còn sợi kia được tổng hợp ngắt quãng (chuỗi chậm) trên
 
-\n\n
 khuôn mẫu của mỗi sợi DNA mẹ. Quá trình tổng hợp chuỗi chậm tạo nên các
 đoạn Okazaki. Kết thúc quá trình tổng hợp, các đoạn Okazaki này được nối với
 nhau nhờ sự xúc tác của enzym DNA /igase.
@@ -690,7 +673,6 @@ trình kéo dài chuỗi DNA mới theo chiều ð > 3E. colji. Pol II cũng ch�
 tính exonuclease theo chiều 3- 5. Đây là một phân tử lớn có 13 tiểu đơn vị liên
 kết với nhau.
 
-\n\n
 DNA khuôn
 
 “Trung tâm hoạt động ' .' ø: DNA khuôn
@@ -737,7 +719,6 @@ mồi. Đoạn này được kéo dài tới đoạn RNA mồi tiếp theo.
 polymerase I. Enzym này đồng thời xúc tác phản ứng kéo dài chuỗi DNA thế chỗ
 cho vị trí RNA mồi.
 
-\n\n
 + Các đoạn Okazaki được nối với nhau nhờ sự xúc tác của enzym DNA
 jigase thông qua sự hình thành liên kết phosphodieste giữa hai đầu tự do của
 đoạn DNA mới được tổng hợp.
@@ -788,8 +769,6 @@ tái bản dừng tại đó chứ không vượt qua. Quá trình này cần s�
 protein (8309 acid äamin) (terminator utilization substance). Sau đó với sự xúc tác
 của các enzym £opoisomerase hai chuỗi DNA mới được tách khỏi DNA mẹ.
 
-
-\n\n
 100/0
 
 Hình 11.11. Quá trình kết thúc sự tái bản
@@ -821,12 +800,11 @@ trình tổng hợp không cần có sự tham gia của mồi.
 trực tiếp của RNA virus.
 - RNA polymerase phụ thuộc DNA. Enzym này xúc tác phản ứng tổng hợp
 RNA từ các nucleosid triphosphat bằng cách kéo dài chuỗi RNA theo phản ứng:
-(iNMP, + NTP S  (ÑMP,ar + - PE
+(iNMP, + NTP S (ÑMP,ar + - PE
 RNA RNA kéo dài
 Ở E. coli, RNA polymerase phụ thuộc DNA không chỉ tổng hợp mRNA mà
 còn tổng hợp cả tRNA và rRNA. Enzym này gắn với RNVA pojymerose đề nhận biết
 
-\n\n
 vị trí khởi đầu sự sao chép. Ở tế bào có nhân, RNA pojymerose Ï xúc tác quá trình
 tổng hợp rRNA. RNA pojymerose II xúc tác quá trình tổng hợp mRNA còn RNA
 polymerase Iil xúc tác quá trình tổng hợp tRNA và snRNA (RNA nhỏ của nhân).
@@ -871,9 +849,7 @@ DNA, được dephosphoryl hóa để có thể bắt đầu một chu kỳ sao 
 pojymerase ở tế bào có nhân. Actinomycin D ngăn cản sự chuyển dịch của RNA
 polymerase trên chiều dài DNA, kết quả là ngăn trở sự tổng hợp RNA.
 
-
-\n\n
-RNApolymeraSe  Promoter
+RNApolymeraSe Promoter
 
 'Polymorase hình thành phức hợp
 đồng tại vị trí -35 với sự tham gia
@@ -916,7 +892,6 @@ phân tử guanine nucleosid. Nhóm OH 3 của guanin nucleosid tạo thành li�
 phosphodieste với OH 5 của đoạn intron. Sau đó nhóm OH 3 của đoạn exon trước
 sẽ nối với nhóm OH ð của exon sau và giải phóng đoạn intron.
 
-\n\n
 + Nhóm 2: theo cách này, cần có sự tham gia của một phân tử adenosin
 monophosphat ngay trong đoạn intron để tạo thành cầu nối giữa 2 đầu intron
 được cắt bỏ.
@@ -969,8 +944,6 @@ khác nhau để tạo nên phân tử tRNA trưởng thành.
 ribosom (preribosome) RNA 45S. Phân tử này được biến đổi tạo ra các rRNA
 188, rRNA 5,88 và rRNA 288. Ở tế bào không nhân có sự tạo thành tiền rRNA
 
-
-\n\n
 ## 308. Phân tử này cũng được biến đổi để tạo thành các rRNA 168, rRNA 288,
 rRNA 58 và một số tRNA.
 
@@ -1022,33 +995,29 @@ Quá trình hoàn thiện mRNA.
 
 α z Ø 6 e ® b
 
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 11)</div>
-  <div class="answer-body">
-    <h4>1. Con đường thoái hóa Purin tạo Acid Uric và cơ chế bệnh sinh Bệnh Gout:</h4>
-    <ul>
-      <li>AMP và GMP thoái hóa tạo sản phẩm trung gian là <strong>Hypoxanthin</strong> và <strong>Xanthin</strong>.</li>
-      <li>Enzym <strong>Xanthin oxidase</strong> oxy hóa liên tiếp 2 bước: <code>Hypoxanthin → Xanthin → Acid Uric</code>.</li>
-      <li>Ở người thiếu enzym uricase, Acid Uric là sản phẩm thoái hóa đào thải cuối cùng. Khi nồng độ acid uric máu tăng cao (> 420 μmol/L) do tăng sinh tổng hợp purin (nguyên phát, hội chứng Lesch-Nyhan) hoặc giảm bài tiết qua thận, tinh thể muối <em>Mononatri Urat</em> kết tinh hình kim lắng đọng tại màng hoạt dịch khớp, hoạt hóa bạch cầu đa nhân thực bào giải phóng enzym lysosom gây viêm khớp dữ dội (<strong>Cơn Gout cấp tính</strong>). Lắng đọng mạn tính tạo hạt tophi và sỏi urat đường tiết niệu.</li>
-      <li>Thuốc <strong>Allopurinol</strong> có cấu trúc đồng phân của hypoxanthin, là chất ức chế cạnh tranh và tự sát đối với Xanthin oxidase, làm ngừng trệ sản xuất acid uric, tăng bài tiết hypoxanthin và xanthin (dễ tan hơn) giúp điều trị hạ acid uric máu.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 11)</div>
+<div class="answer-body">
+<h4>1. Con đường thoái hóa Purin tạo Acid Uric và cơ chế bệnh sinh Bệnh Gout:</h4>
+<ul>
+<li>AMP và GMP thoái hóa tạo sản phẩm trung gian là <strong>Hypoxanthin</strong> và <strong>Xanthin</strong>.</li>
+<li>Enzym <strong>Xanthin oxidase</strong> oxy hóa liên tiếp 2 bước: <code>Hypoxanthin → Xanthin → Acid Uric</code>.</li>
+<li>Ở người thiếu enzym uricase, Acid Uric là sản phẩm thoái hóa đào thải cuối cùng. Khi nồng độ acid uric máu tăng cao (> 420 μmol/L) do tăng sinh tổng hợp purin (nguyên phát, hội chứng Lesch-Nyhan) hoặc giảm bài tiết qua thận, tinh thể muối <em>Mononatri Urat</em> kết tinh hình kim lắng đọng tại màng hoạt dịch khớp, hoạt hóa bạch cầu đa nhân thực bào giải phóng enzym lysosom gây viêm khớp dữ dội (<strong>Cơn Gout cấp tính</strong>). Lắng đọng mạn tính tạo hạt tophi và sỏi urat đường tiết niệu.</li>
+<li>Thuốc <strong>Allopurinol</strong> có cấu trúc đồng phân của hypoxanthin, là chất ức chế cạnh tranh và tự sát đối với Xanthin oxidase, làm ngừng trệ sản xuất acid uric, tăng bài tiết hypoxanthin và xanthin (dễ tan hơn) giúp điều trị hạ acid uric máu.</li>
+</ul>
 
-    <h4>2. Tóm tắt các giai đoạn tái bản DNA ở tế bào nhân sơ:</h4>
-    <ol>
-      <li><strong>Mở đầu:</strong> Protein DnaA nhận diện điểm khởi đầu sao chép oriC; <em>Helicase (DnaB)</em> dùng ATP bẻ gãy liên kết hydro tháo xoắn chuỗi kép; Protein <em>SSB</em> giữ chuỗi đơn ổn định; <em>DNA Topoisomerase (Gyrase)</em> giải phóng sức căng xoắn vặn ngược.</li>
-      <li><strong>Kéo dài:</strong>
-        <ul>
-          <li><em>Primase:</em> Tổng hợp đoạn mồi RNA ngắn (~10 nucleotid).</li>
-          <li><em>DNA Polymerase III:</em> Xúc tác gắn dNTP theo chiều 5'→3' với độ chính xác cực cao (nhờ hoạt tính sửa sai exonuclease 3'→5'). Chuỗi sớm tổng hợp liên tục; chuỗi muộn tổng hợp gián đoạn thành các đoạn Okazaki.</li>
-        </ul>
-      </li>
-      <li><strong>Kết thúc &amp; Hoàn thiện:</strong> <em>DNA Polymerase I</em> dùng hoạt tính exonuclease 5'→3' cắt bỏ mồi RNA và lấp đầy bằng deoxyribonucleotid; <em>DNA Ligase</em> dùng năng lượng NAD⁺/ATP tạo liên kết phosphodieste hàn kín các khe hở giữa các đoạn Okazaki.</li>
-    </ol>
-  </div>
+<h4>2. Tóm tắt các giai đoạn tái bản DNA ở tế bào nhân sơ:</h4>
+<ol>
+<li><strong>Mở đầu:</strong> Protein DnaA nhận diện điểm khởi đầu sao chép oriC; <em>Helicase (DnaB)</em> dùng ATP bẻ gãy liên kết hydro tháo xoắn chuỗi kép; Protein <em>SSB</em> giữ chuỗi đơn ổn định; <em>DNA Topoisomerase (Gyrase)</em> giải phóng sức căng xoắn vặn ngược.</li>
+<li><strong>Kéo dài:</strong>
+<ul>
+<li><em>Primase:</em> Tổng hợp đoạn mồi RNA ngắn (~10 nucleotid).</li>
+<li><em>DNA Polymerase III:</em> Xúc tác gắn dNTP theo chiều 5'→3' với độ chính xác cực cao (nhờ hoạt tính sửa sai exonuclease 3'→5'). Chuỗi sớm tổng hợp liên tục; chuỗi muộn tổng hợp gián đoạn thành các đoạn Okazaki.</li>
+</ul>
+</li>
+<li><strong>Kết thúc &amp; Hoàn thiện:</strong> <em>DNA Polymerase I</em> dùng hoạt tính exonuclease 5'→3' cắt bỏ mồi RNA và lấp đầy bằng deoxyribonucleotid; <em>DNA Ligase</em> dùng năng lượng NAD⁺/ATP tạo liên kết phosphodieste hàn kín các khe hở giữa các đoạn Okazaki.</li>
+</ol>
+</div>
 </div>

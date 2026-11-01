@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 19
 
 HÓA SINH MÁU
@@ -41,8 +40,6 @@ vận chuyển các hormon từ các tuyến nội tiết đến các tổ chứ
 
 - Máu duy trì thăng bằng acid base của cơ thể.
 
-
-\n\n
 - Máu điều hòa thăng bằng nước nhờ tác dụng của máu lên sự trao đổi
 nước giữa dịch lưu thông và dịch mô.
 
@@ -95,7 +92,6 @@ Chỉ số khúc xạ của huyết tương thay đổi từ 1,3487 đến 1,351
 phụ thuộc vào nồng độ các muối vô cơ và nồng độ protein (chủ yếu là nồng độ
 protein). Có thể đo chỉ số khúc xạ của huyết tương để suy ra nồng độ protein.
 
-\n\n
 ### 2.5. pH và hệ đệm của máu
 
 pH máu người và động vật cao cấp hằng định, dao động trong khoảng
@@ -145,8 +141,6 @@ Các chất điện giải: 80% phospho máu ở trong hồng cầu. Nồng đ�
 trong hồng cầu cao hơn huyết tương tới 20-30 lần (450-480 mg %). Nông độ
 Na: õ0-110 mg %, Mg: 5 mg %; Fe: 100 mg % và Cu: 1,5 mg %.
 
-
-\n\n
 Màng hồng cầu có chứa các chất quyết định nhóm máu mang tính kháng
 nguyên của hồng cầu. Các chất này là phức hợp của gluco-protein, gluco-lipid
 trong đó phần glucid đóng vai trò quan trọng và đặc hiệu.
@@ -194,8 +188,6 @@ C 300-380 mg %
 Phospho vô cơ 5mg %
 Phospho toàn phần 10-15 mg %
 
-
-\n\n
 — Tính theo nồng độ mili đương lượng trong 100 m].hay 1000 m] (mEq %
 hay mEq ). Là khối lượng ion tính ra mg chia cho hóa trị của ion đó.
 
@@ -242,8 +234,6 @@ Donnan, trong đó:
 Anion trong tế bào Cation ngoài tế bào
 Anion ngoài tế bào Cation trong tế bào
 
-
-\n\n
 ¬ Nếu đo áp suất thẩm thấu theo đơn vị mili phân tử thẩm thấu (mosm/])
 trong đó: 1 osmol chứa 6,02 1023 tiểu phân thì máu toàn phần có áp suất
 thẩm thấu là 305 mosm/l. Trong đó:
@@ -293,7 +283,6 @@ Khi mất nước thì tất cả các phân đoạn protein trong huyết thanh
 tăng gây ra hội chứng tăng protein. Sự mất nước có thể bị gây ra bởi giảm hấp
 thu hoặc là tăng sự mất nước trong một số bệnh như: Addison, đái tháo đường
 
-\n\n
 hoặc là ỉa chảy nặng..Trong giai đoạn khởi phát của bệnh u tủy xương có sự
 gia tăng của một phân đoạn protein gây ra sự tăng trị số protein toàn phần
 trong huyết thanh. Nguyên nhân gây ra giảm protein huyết thanh có thể do
@@ -343,8 +332,6 @@ chức năng ngăn cản sự phá hủy mô liên kết gây ra do elastase gi�
 bạch cầu ở vùng viêm. AAT là protein có nhiều dạng phân tử khác nhau.
 Thiếu hụt AAT d ẫn đến các bệnh về gan ở trẻ em và amphysema (rối loạn tổ
 
-
-\n\n
 chức xơ, mô liên kết) ở tuổi 20-30. Tổn thương này là do AAT không ức chế
 được các protease gây ra sự rối loạn cấu trúc của các mô. AAT còn là chất phản
 ứng pha cấp (Acute phase reaction/APR).
@@ -395,7 +382,6 @@ haptoglobin sẽ được lọc qua màng cầu thận, lắng đọng ở ống
 thương thận. Oòn hemoglobin gắn với haptoglobin có trọng lượng phân tử quá
 lớn so với lỗ lọc ở màng cầu thận nên không gây tổn thương thận. Điều này
 
-\n\n
 giải thích tại sao haptoglobin thường bị giảm khi bệnh nhân bị tan máu.
 Haptoglobin có thể đồng vai trò như APR nên nó tăng trong viêm nhiễm, chấn
 thương, ung thư...
@@ -447,8 +433,6 @@ CRP có giá trị trong việc theo dõi quá trình điều trị và tiến t
 còn tham gia trong quá trình hoạt hóa bổ thể, thực bào và giải phóng
 lymphokine.
 
-
-\n\n
 CRP được định lượng bằng kỹ thuật miễn dịch enzym (EIA) hay kỹ thuật
 đo độ tán xạ.
 
@@ -497,7 +481,6 @@ dịch mũi và dịch ruột....Vai trò của IgA là bảo vệ bề mặt c�
 khuẩn. IgA có cấu trúc dimer trong các dịch trên và bền vững với các protease
 nhờ các thành phần phụ trợ gọi là protein bài tiết. Trong huyết tương, IgA tồn
 
-\n\n
 tại ở dạng monomer. Ở người trưởng thành nồng độ IgA từ 3,26 + 0,11 g/L. Ở
 trẻ sơ sinh, hàm lượng thường vào khoảng 25% của người lớn và đạt 50% vào
 tuổi thứ 3 và đạt 100% vào tuổi thứ 16. IgA không vượt qua hàng rào rau thai
@@ -546,8 +529,6 @@ B2M được định lượng nhờ kỹ thuật miễn dịch phóng xạ (RIA)
 miễn dịch. Lượng B2M trong huyết thanh dao động trong khoảng 0.7-3.4
 mg/dl và trong nước tiểu là 0-300 ng/1.
 
-
-\n\n
 - Lipid
 
 Iipid toàn phần trong huyết thanh trong khoảng 4-7 g/1 bao gồm
@@ -597,7 +578,6 @@ thiểu năng tuyến yên và tuyến thượng thận...
 Ngoài ra trong mấu còn có các chất nitơ không phải protid như: urê
 (3,537 mmoll); acid uric (190-420 pmoll); bilirubin (tự do: 2-8 mg/1; toàn
 
-\n\n
 phần 10 mg/l); creatinin (nam: 83,33 20,50 moUL; nữ: 64,95 19,80 mol/I) ;
 creatin (1-1,5 mg/l) ¡; NH (bình thường rất ít). Trong máu còn có các enzym và
 các enzym này được chia thành hai nhóm: ) nhóm enzym huyết thanh có chức
@@ -611,49 +591,44 @@ CÂU HỎI ÔN TẬP
 2. Thành phần vô cơ của máu, vai trò và thay đổi bệnh lý.
 3. Protein trong huyết thanh, chức năng và thay đổi bệnh lý.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 19)</div>
-  <div class="answer-body">
-    <h4>1. Nêu các thành phần protein huyết tương chính và chức năng:</h4>
-    <ul>
-      <li>Nồng độ protein toàn phần huyết tương: 65 - 82 g/L. Gồm 3 nhóm chính:
-        <ol>
-          <li><strong>Albumin (35 - 50 g/L, chiếm 55-65%):</strong> Do gan tổng hợp độc quyền.
-            <ul>
-              <li>Chức năng 1: Tạo ra 75-80% <strong>Áp lực keo (áp lực thẩm thấu keo ~25 mmHg)</strong> của huyết tương, giữ nước trong lòng mạch. Khi Albumin giảm &lt; 25 g/L (xơ gan, hội chứng thận hư, suy dinh dưỡng nặng), nước thoát ra mô kẽ gây phù toàn thân và cổ trướng.</li>
-              <li>Chức năng 2: Vận chuyển các chất kỵ nước hoặc độc trong máu: acid béo tự do, bilirubin tự do, hormon steroid, hormon tuyến giáp, thuốc (kháng sinh, aspirin...).</li>
-            </ul>
-          </li>
-          <li><strong>Globulin (20 - 35 g/L, gồm α₁, α₂, β, γ-globulin):</strong>
-            <ul>
-              <li>α₁-globulin: α₁-antitrypsin (ức chế elastase bảo vệ mô phổi), α₁-acid glycoprotein.</li>
-              <li>α₂-globulin: Haptoglobin (gắn Hb tự do chống mất sắt qua thận), Ceruloplasmin (vận chuyển đồng và oxy hóa Fe²⁺ thành Fe³⁺), α₂-macroglobulin.</li>
-              <li>β-globulin: Transferrin (chuyên chở sắt trong máu), Hemopexin, Bổ thể C3, C4.</li>
-              <li>γ-globulin: Các <strong>Kháng thể miễn dịch (Immunoglobulin: IgG, IgA, IgM, IgE, IgD)</strong> do tương bào (plasma cells) tổng hợp tham gia miễn dịch dịch thể.</li>
-            </ul>
-          </li>
-          <li><strong>Fibrinogen (2 - 4 g/L):</strong> Yếu tố I đông máu, do gan tổng hợp, bị thrombin phân cắt thành mạng lưới sợi huyết Fibrin trong quá trình đông máu. (Huyết thanh = Huyết tương trừ Fibrinogen và các yếu tố đông máu đã tiêu thụ).</li>
-        </ol>
-      </li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 19)</div>
+<div class="answer-body">
+<h4>1. Nêu các thành phần protein huyết tương chính và chức năng:</h4>
+<ul>
+<li>Nồng độ protein toàn phần huyết tương: 65 - 82 g/L. Gồm 3 nhóm chính:
+<ol>
+<li><strong>Albumin (35 - 50 g/L, chiếm 55-65%):</strong> Do gan tổng hợp độc quyền.
+<ul>
+<li>Chức năng 1: Tạo ra 75-80% <strong>Áp lực keo (áp lực thẩm thấu keo ~25 mmHg)</strong> của huyết tương, giữ nước trong lòng mạch. Khi Albumin giảm &lt; 25 g/L (xơ gan, hội chứng thận hư, suy dinh dưỡng nặng), nước thoát ra mô kẽ gây phù toàn thân và cổ trướng.</li>
+<li>Chức năng 2: Vận chuyển các chất kỵ nước hoặc độc trong máu: acid béo tự do, bilirubin tự do, hormon steroid, hormon tuyến giáp, thuốc (kháng sinh, aspirin...).</li>
+</ul>
+</li>
+<li><strong>Globulin (20 - 35 g/L, gồm α₁, α₂, β, γ-globulin):</strong>
+<ul>
+<li>α₁-globulin: α₁-antitrypsin (ức chế elastase bảo vệ mô phổi), α₁-acid glycoprotein.</li>
+<li>α₂-globulin: Haptoglobin (gắn Hb tự do chống mất sắt qua thận), Ceruloplasmin (vận chuyển đồng và oxy hóa Fe²⁺ thành Fe³⁺), α₂-macroglobulin.</li>
+<li>β-globulin: Transferrin (chuyên chở sắt trong máu), Hemopexin, Bổ thể C3, C4.</li>
+<li>γ-globulin: Các <strong>Kháng thể miễn dịch (Immunoglobulin: IgG, IgA, IgM, IgE, IgD)</strong> do tương bào (plasma cells) tổng hợp tham gia miễn dịch dịch thể.</li>
+</ul>
+</li>
+<li><strong>Fibrinogen (2 - 4 g/L):</strong> Yếu tố I đông máu, do gan tổng hợp, bị thrombin phân cắt thành mạng lưới sợi huyết Fibrin trong quá trình đông máu. (Huyết thanh = Huyết tương trừ Fibrinogen và các yếu tố đông máu đã tiêu thụ).</li>
+</ol>
+</li>
+</ul>
 
-    <h4>2. Đặc điểm chuyển hóa chuyên biệt của Tế bào Hồng cầu:</h4>
-    <ul>
-      <li>Hồng cầu trưởng thành không có nhân, không có ty thể và ribosom. Do đó:
-        <ol>
-          <li>Năng lượng hoàn toàn phụ thuộc vào <strong>Đường phân yếm khí (Glycolysis)</strong> tạo 2 ATP và 2 Lactat từ Glucose để duy trì hoạt động của bơm Na⁺/K⁺-ATPase và duy trì hình đĩa lõm hai mặt dẻo dai.</li>
-          <li>Khoảng 10-20% glucose chuyển qua <strong>Chu trình Rapoport-Luebering</strong> tổng hợp <strong>2,3-DPG</strong> điều hòa sự nhả oxy của hemoglobin tại mô.</li>
-          <li>Khoảng 5-10% glucose đi qua <strong>Chu trình Pentose Phosphat (G6PD)</strong> tạo NADPH duy trì Glutathion khử (GSH), bảo vệ màng lipid và các nhóm -SH của hemoglobin chống lại sự tấn công của các gốc oxy hóa tự do (ROS).</li>
-          <li>Chứa enzym <strong>Methemoglobin Reductase</strong> (sử dụng NADH) để khử liên tục Met-Hb (Fe³⁺) trở lại dạng hoạt động Hb (Fe²⁺).</li>
-        </ol>
-      </li>
-    </ul>
-  </div>
+<h4>2. Đặc điểm chuyển hóa chuyên biệt của Tế bào Hồng cầu:</h4>
+<ul>
+<li>Hồng cầu trưởng thành không có nhân, không có ty thể và ribosom. Do đó:
+<ol>
+<li>Năng lượng hoàn toàn phụ thuộc vào <strong>Đường phân yếm khí (Glycolysis)</strong> tạo 2 ATP và 2 Lactat từ Glucose để duy trì hoạt động của bơm Na⁺/K⁺-ATPase và duy trì hình đĩa lõm hai mặt dẻo dai.</li>
+<li>Khoảng 10-20% glucose chuyển qua <strong>Chu trình Rapoport-Luebering</strong> tổng hợp <strong>2,3-DPG</strong> điều hòa sự nhả oxy của hemoglobin tại mô.</li>
+<li>Khoảng 5-10% glucose đi qua <strong>Chu trình Pentose Phosphat (G6PD)</strong> tạo NADPH duy trì Glutathion khử (GSH), bảo vệ màng lipid và các nhóm -SH của hemoglobin chống lại sự tấn công của các gốc oxy hóa tự do (ROS).</li>
+<li>Chứa enzym <strong>Methemoglobin Reductase</strong> (sử dụng NADH) để khử liên tục Met-Hb (Fe³⁺) trở lại dạng hoạt động Hb (Fe²⁺).</li>
+</ol>
+</li>
+</ul>
+</div>
 </div>

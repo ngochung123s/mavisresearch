@@ -10,7 +10,6 @@
 
 ---
 
-
 Chương 13
 HÓA SINH MÀNG TẾ BẢO
 
@@ -46,8 +45,6 @@ chức năng sinh học của các màng.
 Thành phần lipid thay đổi rất khác nhau giữa các loại màng, gồm chủ
 yếu là phospholipid và cholesterol.
 
-
-\n\n
 Phospholipid: chủ yếu là phosphatidyl cholin (PC), phosphatidyl ethanolamin
 (PE), phosphatidyl serin (PS), phosphatidyl inositol (PI), sphingomyelin (8M).
 Ngoài ra còn có phosphatidyl glycerol (PG), diphosphatidyl glycerol (OPG) hay
@@ -90,7 +87,6 @@ Màng bào tương E.Coli 0410 |800| - - - 11501 50 | -
 
 (Cho: cholesterol; GL: giyeolipid)
 
-\n\n
 N zo
 še—t —c
 H©=Ø. O--CH;
@@ -143,8 +139,6 @@ dẫn xuất của chúng, thường gặp là glucose, glucosamin, N-acetylgluc
 galactose, galactosamin, N-acetylgalactosamin. Glucid màng bào tương hình
 như đóng vai trò trong quá trình biệt hóa và phát triển của tế bào.
 
-
-\n\n
 Glueid màng ở dạng phức hợp, hoặc liên kết với protein như thành phần
 của glycoprotein, hoặc liên kết với lipid như thành phần của glycolipid.
 
@@ -182,7 +176,7 @@ Mặc dù thành phần hóa học có thể khác nhau, các màng sinh học �
 được cấu trúc trên cơ sở một mẫu hình chung.
 l
 
-1.9.1. Nghiên cứu của Gortner Euà Grendel F (1925)
+1.9.1. Nghiên cứu của Gortner và Grendel F (1925)
 
 Chiết xuất lipid của màng hồng cầu với số lượng hồng cầu nhất định. Từ
 lượng lipid thu được, các ông trải chúng trên bề mặt dung dịch nước. Trong
@@ -193,7 +187,6 @@ vào trong không khí; diện tích của lớp đơn phân tử này (monolaye
 các màng khác bên trong nên các ông cho rằng: Iipid của màng được sắp xếp
 bởi một lớp kép (bilayer) nối tiếp nhau.
 
-\n\n
 Hình 13.2. Lớp đơn lipid
 được hình thành trong nghiên cứu
 của Gortner & Grendel
@@ -230,8 +223,6 @@ những vùng khác nhô ra phía ngoài màng, một số protein bắc cầu q
 mặt ngoài phía này sang mặt ngoài phía đối diện của màng. Dựa vào sự liên kết
 này, protein màng được chia thành hai loại:
 
-
-\n\n
 + Protein xuyên màng (integral membrane protein): gọi là protein bên
 trong (intrinsie protein), chiếm 70-80% protein màng, hầu hết protein liên kết
 xuyên màng không hoà tan trong nước. Protein liên kết xuyên màng có một
@@ -277,7 +268,6 @@ màng hoặc gián tiếp bỏi liên kết với những protein xuyên màng �
 hiệu protein-protein), hoặc trực tiếp bởi liên kết với những nhóm của đầu phân
 cực của lipid màng (bao gồm những liên kết ion hoặc các liên kết yếu khác).
 
-\n\n
 Hầu hết các protein rìa tràng khu trú ở mặt ngoài màng bào tương của tế
 bào, giống như một số protein của lớp áo glycocalyx. Protein rìa màng là các
 protein của những enzym không liên kết màng, protein của các cấu trúc sợi và
@@ -328,8 +318,6 @@ Bào tương
 
 Hình 13.6. Mô hình chủng về cấu trúc của các màng sinh học
 
-
-\n\n
 + Cholesterol là một yếu tố quyết định tính lỏng của màng tế bào. Phân
 tử cholesterol nằm xen kẽ trong lớp kép phospholipid. Vòng steroid liên kết với
 các chuỗi acy] của acid béo và có khuynh hướng cố định chúng, giới hạn sự
@@ -381,7 +369,6 @@ phân tử vận chuyển (gọi là chất mang=transport molecule) nằm ở m
 bào. Hai cơ chế vận chuyển để cho phép các chất qua lại ở màng bào tương tế
 bào: vận chuyển trực tiếp và vận chuyển theo cơ chế nội nhập-ngoại xuất.
 
-\n\n
 ### 9.1. Sự vận chuyển trực tiếp
 
 Sự vận chuyển trực tiếp các chất qua màng tế bào thực hiện theo các
@@ -431,8 +418,6 @@ chuyển: từ nơi có nồng độ cao hay điện thế cao đến nơi có n
 điện thế thấp hơn, không cần phản ứng hóa học và năng lượng chuyển hóa.
 Tốc độ khuyếch tán tỷ lệ thuận với độ chênh nồng độ hoặc điện thế của chất
 
-
-\n\n
 được vận chuyển ở 2 phía của màng và khi nồng độ của chất được vận chuyển
 ở hai bên bề mặt của màng bằng nhau sẽ dẫn đến trạng thái cân bằng, không
 có sự tích luỹ các chất. Điều giới hạn tốc độ vận chuyển là sự chuyển dời của
@@ -480,8 +465,6 @@ học đơn giản được xúc tác bởi enzym
 Ñ Km Phức hợp Vmax
 3agoii * Permease q—=è: (8— Permease) ———% 8m
 
-
-\n\n
 S= cơ chất vận chuyển
 K„ = hằng số hình thành phức hợp 8-permease
 
@@ -507,7 +490,7 @@ Sự vận
 chuyển, Vmax
 
 Hình 13.9. Khuyếch tán tăng cường các chất qua màng bào tương
-Vận chuyển glucose uào trong tế bào hồng cầu:
+Vận chuyển glucose vào trong tế bào hồng cầu:
 
 Năng lượng được sản sinh từ các chuyển hóa ở hồng cầu phụ thuộc vào sự
 cung cấp hằng định glucose từ huyết tương. Glucose vào trong hồng cầu theo
@@ -526,7 +509,7 @@ Sự trao đổi anion ở màng hồng cầu trong uận chuyển CO, từ các
 phổi:
 
 Tại mô, nồng độ CO; tăng do được tạo ra từ các chuyển hóa vào máu và
-đến hồng cầu tạo nên bicarbonat (HCO;) nhờ enzym carbonic anhydrase.
+đến hồng cấu tạo nên bicarbonat (HCO;) nhờ enzym carbonic anhydrase.
 HCO; trở lại huyết tương, được vận chuyển đến phổi. HCO;' có khả năng hoà
 tan trong huyết tương. nhiều hơn CO, nên nhờ cách này khả năng vận chuyển
 CO, từ các mô đến phổi sẽ tăng lên rất nhiều.
@@ -536,8 +519,6 @@ của carbonic ønhydrase, tạo co, để vào phổi và đào thải. Như v�
 chuyển HCO¿ là một yêu cầu thiết yếu, sự trao đổi HCO¿ là sự trao đổi hai
 anion CI, HƠO¿ và cần permease — là một protein liên kết xuyên màng. Một
 
-
-\n\n
 1on HCO¿; được chuyển qua màng thì một ion CI được vận chuyển theo hướng
 ngược lại. Kết quả của vận chuyển cặp đôi này sẽ không làm thay đổi điện tích
 ở hai phía của màng hồng cầu. Sự vận chuyển cặp đôi của HCO,z và CI là bắt
@@ -580,7 +561,6 @@ chuyển glucose thì gọi là đơn chuyển hay vận chuyển một chất (
 Vận chuyển tích cực đòi hỏi chất mang và năng lượng chuyển hóa, hướng
 vận chuyển cơ chất ngược với độ chênh nồng độ hoặc điện thế. Vận chuyển tích
 
-\n\n
 cực sẽ dẫn đến kết quả là có sự tích luỹ một chất.hoà tan ở một phía của
 màng. Sự vận chuyển tích cực là không thuận lợi về nhiệt động học (thu năng
 lượng) và chỉ xảy ra khi đi kèm hoặc trực tiếp hoặc gián tiếp với một quá trình
@@ -630,8 +610,6 @@ với gradient nồng độ hoặc điện hóa.
 chiều Na* và K*. [Na*] trong tế bào < [Na'] ngoài tế bào và [K'] trong tế bào >
 [K1] ngoài tế bào, tuy nhiên sự vận chuyển Na' và K* qua lại màng tế bào
 
-
-\n\n
 không phụ thuộc vào định luật cân bằng Donan. Sự không cân bằng về nồng
 độ-của các ion này ở hai bên mặt của màng tế bào được thiết lập và tồn tại là +
 nhờ hệ thống vận chuyển tích cực có ở màng tế bào bao gồm enzym Na*K*-
@@ -683,7 +661,6 @@ màng bào tương tế bào được bắt đầu bằng sự gắn 3 Na' vào 
 cao trên tiểu đơn vị lớn của protein vận chuyển ở bề mặt bên trong của màng
 tế bào. Tiểu đơn vị lớn này cũng có vị trí gắn với ATP. Sự phosphoryl hóa
 
-\n\n
 protein vận chuyển làm thay đổi trạng thái của nó và ái lực với Na* bị giảm
 dẫn đến kết quả là Na' được giải phóng ở mặt ngoài của màng bào tương tế
 bào. Tiếp theo 2 K* được gắn vào vị trí có ái lực cao với nó trên mặt ngoài của
@@ -729,8 +706,6 @@ glucose- Na' (glucose- Na' Symport protein) có ở màng tế bào. Trong hệ 
 này, sự vận chuyển qua màng của glucose là sự vận chuyển cặp đôi kết hợp
 bắt buộc (obligatorily coupled transport) với sự vận chuyển của Na'.
 
-
-\n\n
 + +
 Na” xoa # G]ucose goi — +, Nglv † Glucoseong
 
@@ -780,7 +755,6 @@ Na*) vào trong tế bào theo chiều xuôi phụ thuộc độ chênh nồng �
 sự chuyển dời cùng chiều hướng vào trong tế bào của một cơ chất khác như
 glucose để chống lại gradient nhỏ hơn. Sự vận chuyển đối chuyển (antiport) là
 
-\n\n
 một quá trình tương tự nhưng cùng với sự chuyển đời vào trong tế bào của Na*
 là sự chuyển đời bắt buộc ra ngoài tế bào của chất khác.
 
@@ -839,8 +813,6 @@ chuyển cặp đôi cưỡng bức của proton từ bào tương ra ngoài t�
 như nhau (pH = 7,0) tế bào cần năng lượng thường xuyên để bơm các proton ra
 ngoài tế bào. Chuyển hóa glucose trong điều kiện yếm khí sản sinh carbon
 
-
-\n\n
 dioxid (CO,) và nó được hydrat hóa thành acid carbonic (H¿ CO;). Những acid
 yếu này phân ly tạo ra các proton và các proton này không được thoát ra khỏi
 tế bào sẽ làm pH của bào tương giảm nghiêm trọng. Bởi vậy, sự vận chuyển
@@ -879,7 +851,6 @@ Túi dự trữ
 
 Ngoại xuất
 
-\n\n
 Sự hoà nhập các màng không đơn giản mà là một quá trình phức tạp có
 sự tham gia của yếu tố hoà nhập mà hiện nay còn chưa biết rõ ràng. Ơơ chế
 hoà nhập màng có nhiều giả thuyết đang được tranh cãi.
@@ -911,27 +882,22 @@ Ca?' và H* qua màng bào tương tế bào.
 ## 9. Trình bày bằng sơ đồ quá trình vận chuyển các chất qua màng tế bào
 theo cơ chế nội nhập và ngoại xuất.
 
-
-
-
-
 ## ĐÁP ÁN GỢI Ý & HƯỚNG DẪN TRẢ LỜI CÂU HỎI ÔN TẬP
 
-
 <div class="answer-card">
-  <div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 13)</div>
-  <div class="answer-body">
-    <h4>1. Nêu luận điểm chính của Mô hình Khảm lỏng (Singer &amp; Nicolson 1972):</h4>
-    <ul>
-      <li><strong>Khung cơ bản:</strong> Là một lớp kép phospholipid phân tử lưỡng cực; các đầu phân cực ưa nước quay ra ngoài và vào trong tiếp xúc môi trường nước; các đuôi hydrocacbon kỵ nước quay vào nhau tạo lõi kỵ nước ngăn cách các phân tử tích điện và phân cực lớn.</li>
-      <li><strong>Tính chất khảm (Mosaic):</strong> Các phân tử protein màng phân bố không đối xứng: <em>Protein xuyên màng (Integral)</em> cắm sâu hoặc xuyên suốt lớp kép, và <em>Protein rìa màng (Peripheral)</em> liên kết tĩnh điện ở bề mặt.</li>
-      <li><strong>Tính chất lỏng (Fluid):</strong> Các phân tử lipid và protein có thể chuyển động tự do trong mặt phẳng ngang của màng (khuếch tán bên). Độ lỏng màng phụ thuộc vào tỷ lệ acid béo chưa bão hòa dạng cis, nhiệt độ và hàm lượng cholesterol xen kẽ giữa các phân tử phospholipid.</li>
-    </ul>
+<div class="answer-header">💡 HƯỚNG DẪN TRẢ LỜI &amp; ĐÁP ÁN GỢI Ý (CHƯƠNG 13)</div>
+<div class="answer-body">
+<h4>1. Nêu luận điểm chính của Mô hình Khảm lỏng (Singer &amp; Nicolson 1972):</h4>
+<ul>
+<li><strong>Khung cơ bản:</strong> Là một lớp kép phospholipid phân tử lưỡng cực; các đầu phân cực ưa nước quay ra ngoài và vào trong tiếp xúc môi trường nước; các đuôi hydrocacbon kỵ nước quay vào nhau tạo lõi kỵ nước ngăn cách các phân tử tích điện và phân cực lớn.</li>
+<li><strong>Tính chất khảm (Mosaic):</strong> Các phân tử protein màng phân bố không đối xứng: <em>Protein xuyên màng (Integral)</em> cắm sâu hoặc xuyên suốt lớp kép, và <em>Protein rìa màng (Peripheral)</em> liên kết tĩnh điện ở bề mặt.</li>
+<li><strong>Tính chất lỏng (Fluid):</strong> Các phân tử lipid và protein có thể chuyển động tự do trong mặt phẳng ngang của màng (khuếch tán bên). Độ lỏng màng phụ thuộc vào tỷ lệ acid béo chưa bão hòa dạng cis, nhiệt độ và hàm lượng cholesterol xen kẽ giữa các phân tử phospholipid.</li>
+</ul>
 
-    <h4>2. Phân biệt Vận chuyển chủ động nguyên phát và thứ phát:</h4>
-    <ul>
-      <li><strong>Vận chuyển chủ động nguyên phát:</strong> Sử dụng trực tiếp năng lượng từ phản ứng thủy phân ATP để bơm ion/chất ngược chiều gradient nồng độ hoặc điện thế. Ví dụ tiêu biểu: <em>Bơm Na⁺/K⁺-ATPase</em> (bơm 3 Na⁺ ra ngoài, 2 K⁺ vào trong tế bào, tiêu tốn 1 ATP), Bơm Ca²⁺-ATPase (SERCA), Bơm H⁺/K⁺-ATPase ở tế bào viền dạ dày.</li>
-      <li><strong>Vận chuyển chủ động thứ phát (Đồng vận chuyển):</strong> Không dùng ATP trực tiếp mà sử dụng năng lượng thế năng của <em>gradient nồng độ ion Na⁺ (hoặc H⁺)</em> do các bơm chủ động nguyên phát tạo ra trước đó để kéo theo một chất khác đi ngược chiều gradient nồng độ. Ví dụ: Protein đồng vận chuyển <strong>Na⁺ - Glucose (SGLT1)</strong> ở tế bào biểu mô niêm mạc ruột non và SGLT2 ở ống lượn gần thận.</li>
-    </ul>
-  </div>
+<h4>2. Phân biệt Vận chuyển chủ động nguyên phát và thứ phát:</h4>
+<ul>
+<li><strong>Vận chuyển chủ động nguyên phát:</strong> Sử dụng trực tiếp năng lượng từ phản ứng thủy phân ATP để bơm ion/chất ngược chiều gradient nồng độ hoặc điện thế. Ví dụ tiêu biểu: <em>Bơm Na⁺/K⁺-ATPase</em> (bơm 3 Na⁺ ra ngoài, 2 K⁺ vào trong tế bào, tiêu tốn 1 ATP), Bơm Ca²⁺-ATPase (SERCA), Bơm H⁺/K⁺-ATPase ở tế bào viền dạ dày.</li>
+<li><strong>Vận chuyển chủ động thứ phát (Đồng vận chuyển):</strong> Không dùng ATP trực tiếp mà sử dụng năng lượng thế năng của <em>gradient nồng độ ion Na⁺ (hoặc H⁺)</em> do các bơm chủ động nguyên phát tạo ra trước đó để kéo theo một chất khác đi ngược chiều gradient nồng độ. Ví dụ: Protein đồng vận chuyển <strong>Na⁺ - Glucose (SGLT1)</strong> ở tế bào biểu mô niêm mạc ruột non và SGLT2 ở ống lượn gần thận.</li>
+</ul>
+</div>
 </div>
