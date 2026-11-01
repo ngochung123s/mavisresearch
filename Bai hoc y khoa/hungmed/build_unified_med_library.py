@@ -288,7 +288,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, version: str, generated_at: 
     return {
         "metadata": {
             "title": "HungMed · Cẩm Nang Lâm Sàng & Giáo Trình Y Khoa",
-            "author": "BS. Đỗ Văn Ngọc Hưng",
+            "author": "Đỗ Văn Ngọc Hưng",
             "version": version,
             "generated_at": generated_at,
             "total_curriculum": len(curriculum),

@@ -557,7 +557,7 @@
         <svg class="w-4 h-4 text-[var(--accent)] shrink-0" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"/><path d="M9 12.5v4a4.5 4.5 0 0 0 9 0v-2"/><circle cx="18" cy="12" r="2.5"/></svg>
         <div class="truncate">
           <span class="font-bold text-sm tracking-tight text-[var(--text)]">HungMed</span>
-          <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">BS. Đỗ Văn Ngọc Hưng</span>
+          <span class="text-[11px] text-[var(--text-muted)] block truncate -mt-0.5">Đỗ Văn Ngọc Hưng</span>
         </div>
       </div>
       <div class="flex items-center gap-1">
@@ -570,17 +570,52 @@
       </div>
     </div>
 
-    <!-- Segmented control chọn chuyên khoa: Nhi khoa | Sản khoa -->
-    <div class="p-2.5 border-b border-[var(--border)]">
-      <div class="grid grid-cols-3 p-0.5 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] gap-1 text-xs font-semibold">
-        <button onclick="switchMobileSpecialty('ped')" id="mobile-tab-ped" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm">
-          <span>Nhi khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="mobile-count-ped">(39)</span>
+    <!-- Segmented control chọn chuyên khoa / môn học (Dropdown Selector mở rộng không giới hạn) -->
+    <div class="p-2 border-b border-[var(--border)] relative">
+      <button id="mobileSpecialtyTriggerBtn" onclick="toggleMobileSpecialtyMenu()" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] hover:border-[var(--accent)] hover:bg-[var(--surface)] transition text-xs font-semibold text-[var(--text)] group shadow-sm">
+        <div class="flex items-center gap-2 truncate">
+          <span id="mobileCurSpecialtyIcon" class="text-sm shrink-0">🩺</span>
+          <span id="mobileCurSpecialtyTitle" class="truncate font-semibold text-[var(--text)]">Nhi khoa</span>
+        </div>
+        <div class="flex items-center gap-1.5 shrink-0">
+          <span id="mobileCurSpecialtyCount" class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface)] border border-[var(--border)] text-[var(--text-muted)] font-medium">39 bài</span>
+          <svg id="mobileSpecialtyChevron" class="w-3.5 h-3.5 text-[var(--text-muted)] transition-transform duration-200 group-hover:text-[var(--text)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </div>
+      </button>
+
+      <!-- Floating Popover Menu -->
+      <div id="mobileSpecialtyMenu" class="hidden absolute left-2 right-2 top-full mt-1.5 bg-[var(--surface)] border border-[var(--border)] rounded-xl shadow-2xl p-1.5 z-50 space-y-1 backdrop-blur-md max-h-72 overflow-y-auto">
+        <button onclick="selectMobileSpecialty('ped')" id="mobile-menu-opt-ped" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg text-xs transition text-left hover:bg-[var(--surface-2)]">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="text-base shrink-0">🩺</span>
+            <div class="truncate">
+              <div class="font-bold text-[var(--text)] flex items-center gap-1.5">Nhi khoa <span id="mobile-check-ped" class="text-[var(--accent)] text-xs">✓</span></div>
+              <div class="text-[10px] text-[var(--text-muted)] truncate">Cẩm nang tiếp cận lâm sàng Nhi</div>
+            </div>
+          </div>
+          <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--text-muted)] font-medium shrink-0 ml-1" id="mobile-count-ped">39</span>
         </button>
-        <button onclick="switchMobileSpecialty('obgyn')" id="mobile-tab-obgyn" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]">
-          <span>Sản khoa</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="mobile-count-obgyn">(55)</span>
+
+        <button onclick="selectMobileSpecialty('obgyn')" id="mobile-menu-opt-obgyn" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg text-xs transition text-left hover:bg-[var(--surface-2)]">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="text-base shrink-0">🤰</span>
+            <div class="truncate">
+              <div class="font-bold text-[var(--text)] flex items-center gap-1.5">Sản phụ khoa <span id="mobile-check-obgyn" class="text-[var(--accent)] text-xs hidden">✓</span></div>
+              <div class="text-[10px] text-[var(--text-muted)] truncate">Phác đồ cấp cứu &amp; lâm sàng Sản</div>
+            </div>
+          </div>
+          <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--text-muted)] font-medium shrink-0 ml-1" id="mobile-count-obgyn">55</span>
         </button>
-        <button onclick="switchMobileSpecialty('hoasinh')" id="mobile-tab-hoasinh" class="py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]">
-          <span>Hóa sinh</span> <span class="text-[10px] font-mono tabular-nums text-[var(--text-muted)]" id="mobile-count-hoasinh">(22)</span>
+
+        <button onclick="selectMobileSpecialty('hoasinh')" id="mobile-menu-opt-hoasinh" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg text-xs transition text-left hover:bg-[var(--surface-2)]">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="text-base shrink-0">🧪</span>
+            <div class="truncate">
+              <div class="font-bold text-[var(--text)] flex items-center gap-1.5">Hóa sinh Y học <span id="mobile-check-hoasinh" class="text-[var(--accent)] text-xs hidden">✓</span></div>
+              <div class="text-[10px] text-[var(--text-muted)] truncate">Giáo trình ĐHYHN (GS. Tạ Thành Văn)</div>
+            </div>
+          </div>
+          <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[var(--surface-2)] text-[var(--text-muted)] font-medium shrink-0 ml-1" id="mobile-count-hoasinh">22</span>
         </button>
       </div>
     </div>
@@ -604,7 +639,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261101_204549"></script>
+  <script src="data.js?v=20261101_205710"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -623,7 +658,7 @@
         const savedFont = localStorage.getItem('hungmed_font');
         if (savedFont) applyFontSize(Number(savedFont));
         const savedSpec = localStorage.getItem('hungmed_specialty');
-        if (savedSpec === 'ped' || savedSpec === 'obgyn') currentSpecialty = savedSpec;
+        if (savedSpec === 'ped' || savedSpec === 'obgyn' || savedSpec === 'hoasinh') currentSpecialty = savedSpec;
       } catch(e) {}
 
       initMobileApp();
@@ -702,6 +737,39 @@
       }
     }
 
+    const SPECIALTY_META = {
+      ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
+      obgyn: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Phác đồ cấp cứu & lâm sàng Sản', unit: 'bài' },
+      hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' }
+    };
+
+    function toggleMobileSpecialtyMenu(forceState) {
+      const menu = document.getElementById('mobileSpecialtyMenu');
+      const chevron = document.getElementById('mobileSpecialtyChevron');
+      if (!menu) return;
+      const shouldOpen = typeof forceState === 'boolean' ? forceState : menu.classList.contains('hidden');
+      if (shouldOpen) {
+        menu.classList.remove('hidden');
+        if (chevron) chevron.classList.add('rotate-180');
+      } else {
+        menu.classList.add('hidden');
+        if (chevron) chevron.classList.remove('rotate-180');
+      }
+    }
+
+    function selectMobileSpecialty(spec) {
+      toggleMobileSpecialtyMenu(false);
+      switchMobileSpecialty(spec);
+    }
+
+    document.addEventListener('click', (e) => {
+      const btn = document.getElementById('mobileSpecialtyTriggerBtn');
+      const menu = document.getElementById('mobileSpecialtyMenu');
+      if (btn && menu && !btn.contains(e.target) && !menu.contains(e.target)) {
+        toggleMobileSpecialtyMenu(false);
+      }
+    });
+
     function switchMobileSpecialty(spec) {
       if (currentSpecialty === spec) return;
       currentSpecialty = spec;
@@ -712,24 +780,56 @@
 
     function updateMobileSpecialtyView(preferLessonId) {
       const isPed = currentSpecialty === 'ped';
+      const isHoasinh = currentSpecialty === 'hoasinh';
+      const isObgyn = currentSpecialty === 'obgyn';
       const data = getUnifiedData();
-      const tabPed = document.getElementById('mobile-tab-ped');
-      const tabObgyn = document.getElementById('mobile-tab-obgyn');
       const subModesBar = document.getElementById('pedSubModesBar');
 
+      // Cập nhật thông tin Trigger Selector
+      const meta = SPECIALTY_META[currentSpecialty] || SPECIALTY_META.ped;
+      const curIcon = document.getElementById('mobileCurSpecialtyIcon');
+      const curTitle = document.getElementById('mobileCurSpecialtyTitle');
+      const curCount = document.getElementById('mobileCurSpecialtyCount');
+      if (curIcon) curIcon.textContent = meta.icon;
+      if (curTitle) curTitle.textContent = meta.name;
+
+      const pool = isPed ? (data.ped || []) : (isHoasinh ? (data.hoasinh || []) : (data.obgyn || []));
+      if (curCount) curCount.textContent = `${pool.length} ${meta.unit}`;
+
+      // Cập nhật số lượng bài trong menu
+      const countPedEl = document.getElementById('mobile-count-ped');
+      const countObgynEl = document.getElementById('mobile-count-obgyn');
+      const countHoasinhEl = document.getElementById('mobile-count-hoasinh');
+      if (countPedEl) countPedEl.textContent = (data.ped || []).length;
+      if (countObgynEl) countObgynEl.textContent = (data.obgyn || []).length;
+      if (countHoasinhEl) countHoasinhEl.textContent = (data.hoasinh || []).length;
+
+      // Cập nhật trạng thái active trong menu
+      ['ped', 'obgyn', 'hoasinh'].forEach(s => {
+        const check = document.getElementById(`mobile-check-${s}`);
+        const btn = document.getElementById(`mobile-menu-opt-${s}`);
+        const isCur = s === currentSpecialty;
+        if (check) check.classList.toggle('hidden', !isCur);
+        if (btn) {
+          if (isCur) {
+            btn.classList.add('bg-[var(--surface-2)]', 'border', 'border-[var(--accent)]');
+          } else {
+            btn.classList.remove('bg-[var(--surface-2)]', 'border', 'border-[var(--accent)]');
+          }
+        }
+      });
+
       if (isPed) {
-        tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
-        tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
-        subModesBar.classList.remove('hidden');
+        if (subModesBar) subModesBar.classList.remove('hidden');
         document.getElementById('mobileTotalLabel').textContent = `${(data.ped || []).length} bài · Nhi khoa`;
+      } else if (isHoasinh) {
+        if (subModesBar) subModesBar.classList.add('hidden');
+        document.getElementById('mobileTotalLabel').textContent = `${(data.hoasinh || []).length} chương · Hóa sinh YHN`;
       } else {
-        tabObgyn.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 bg-[var(--surface)] text-[var(--text)] shadow-sm';
-        tabPed.className = 'py-1.5 rounded-md transition text-center flex items-center justify-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--text)]';
-        subModesBar.classList.add('hidden');
+        if (subModesBar) subModesBar.classList.add('hidden');
         document.getElementById('mobileTotalLabel').textContent = `${(data.obgyn || []).length} bài · Sản khoa`;
       }
 
-      const pool = isPed ? (data.ped || []) : (data.obgyn || []);
       renderDrawerList(pool);
 
       let defLesson = null;
@@ -737,9 +837,9 @@
         defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
       }
       if (!defLesson) {
-        defLesson = isPed
-          ? (pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0])
-          : (pool.find(l => l.id === 'SK-01') || pool[0]);
+        if (isPed) defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
+        else if (isHoasinh) defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+        else defLesson = pool.find(l => l.id === 'SK-01') || pool[0];
       }
 
       if (defLesson) {
