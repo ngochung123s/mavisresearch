@@ -110,6 +110,34 @@
       "artifact_dir": "outputs",
       "curriculum": "_README.md",
       "post_release": []
+    },
+    {
+      "key": "hoasinh",
+      "name": "Hóa sinh Y học",
+      "folder": "14_Hoa sinh",
+      "id_prefix": "HS",
+      "id_from": "folder",
+      "deck_root": "HungMed::Hóa Sinh Y Học",
+      "deck_example": "HungMed::Hóa Sinh Y Học::Chương 01 - Enzym",
+      "evidence_mode": "ncbi_artifacts",
+      "artifact_dir": ".",
+      "curriculum": "index.json",
+      "theme": "light",
+      "models": {
+        "basic": {
+          "id": 1790604700051,
+          "name": "HoaSinh_Master_Basic_Light",
+          "template": "Hóa sinh Master Basic"
+        },
+        "cloze": {
+          "id": 1790604702152,
+          "name": "HoaSinh_Master_Cloze_Light",
+          "template": "Hóa sinh Master Cloze"
+        }
+      },
+      "post_release": [
+        "hungmed/build_unified_med_library.py"
+      ]
     }
   ]
 }

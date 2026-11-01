@@ -23,6 +23,7 @@
 | Siêu âm tổng quát | `04_Sieu am tong quat` | `US-<số folder>` | `Imaging` | `evidence_bundle` | `outputs/` |
 | Vi sinh – Miễn dịch | `05_Vi sinh - Mien dich` | `MIC-<số>` (`V4_` → `MIC-4`) | `2. Y Khoa - Sản Phụ Khoa & ART` | `evidence_bundle` | `outputs/` |
 | Giáo trình Sản YTB 2021 (thẻ bám sách) | `13_Giao trinh San YTB` | `SK-xx` | `2. Y Khoa - Sản Phụ Khoa & ART` (nhóm `Giáo trình Sản YTB 2021::<Chương>`) | — (không có bài `.md`; build bằng `deck_builder.py`, không qua `release_lesson.py`) | `outputs/` |
+| Hóa sinh Y học | `14_Hoa sinh` | `HS-xx` | `HungMed::Hóa Sinh Y Học` | `evidence_bundle` | root folder bài (như Nhi khoa) |
 
 - **Tên deck:** `<Gốc deck>::[<Nhóm>::]<Mã bài>[:] <Tên bài có dấu>` (+ ` (EBM Update)` cho deck EBM tách riêng). Ví dụ:
   - `Nhi khoa Y6::PED-63: Biến thiên công thức bạch cầu theo tuổi`
@@ -97,7 +98,7 @@ Chưa enforce bằng code: chất lượng y khoa của nội dung, chọn ảnh
 
 ## 5. Rule thẻ — `card_lint.py`
 
-Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Giải thích của AI:</b><br>…`. Nguồn chỉ ở `Extra` (`📖 Nguồn: …`). Màu: 🔴 `#ff6b6b` cờ đỏ/triệu chứng, 🟡 `#ffd43b` con số/tuổi/âm tính, 🟢 `#51cf66` xử trí/thuốc, 🔵 `#74c0fc` tên bệnh/giải phẫu/phân loại. Basic-first: mọi danh mục có thẻ Basic nền tảng; cloze chỉ nhắc phụ cho con số/ngưỡng, từ khóa định nghĩa 1 mệnh đề, tên hội chứng; liệt kê thì che trọn danh mục trong 1 cloze hoặc dùng Basic. 3–5 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH`.
+Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Giải thích của AI:</b><br>…`. Nguồn chỉ ở `Extra` (`📖 Nguồn: …`). Màu: 🔴 `#ff6b6b` cờ đỏ/triệu chứng, 🟡 `#ffd43b` con số/tuổi/âm tính, 🟢 `#51cf66` xử trí/thuốc, 🔵 `#74c0fc` tên bệnh/giải phẫu/phân loại. Hỗ trợ **Notetype Nền Sáng (Clean Light Theme)** khi chuyên khoa khai `"theme": "light"` (tối ưu độ tương phản văn bản và dải màu trên nền trắng/off-white sáng sủa). Basic-first: mọi danh mục có thẻ Basic nền tảng; cloze chỉ nhắc phụ cho con số/ngưỡng, từ khóa định nghĩa 1 mệnh đề, tên hội chứng; liệt kê thì che trọn danh mục trong 1 cloze hoặc dùng Basic. 3–5 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH`.
 
 | Gate skill | Mã linter | Kiểm tra | Nhóm |
 |---|---|---|---|

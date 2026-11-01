@@ -34,7 +34,7 @@ class Specialty:
     curriculum: str
     post_release: tuple[str, ...]
     models: tuple = ()  # (("basic", {...}), ("cloze", {...})) — notetype riêng của chuyên khoa (rỗng = YKhoa_Master_*)
-
+    theme: str = "dark"
     @property
     def model_overrides(self) -> dict:
         return dict(self.models)

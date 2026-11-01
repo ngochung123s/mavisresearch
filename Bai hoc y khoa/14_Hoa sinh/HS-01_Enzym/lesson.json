@@ -1,0 +1,33 @@
+{
+  "id": "HS-01",
+  "specialty": "hoasinh",
+  "profile": "foundation",
+  "lesson": "HS-01_Enzym.md",
+  "deck": {
+    "deck_id": 1401001001,
+    "deck_name": "HungMed::Hóa Sinh Y Học::HS-01 Cấu tạo, động học và cơ chế xúc tác của Enzym",
+    "basename": "HS-01_Enzym_MASTER_v1",
+    "theme": "light",
+    "required_sections": [
+      "B0",
+      "B1_1",
+      "B1_2",
+      "B2_1",
+      "B2_2",
+      "B2_3",
+      "B3_1",
+      "B3_2",
+      "B4",
+      "B5_1",
+      "B5_2",
+      "B5_3",
+      "B6_1",
+      "B6_2",
+      "B6_3",
+      "B7",
+      "B_ALGO"
+    ],
+    "cards_source": "HS-01_Enzym.cards.v2.json",
+    "legacy_anki_decks": []
+  }
+}

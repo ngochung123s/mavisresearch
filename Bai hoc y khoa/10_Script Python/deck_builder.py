@@ -61,6 +61,37 @@ CSS = """
 .cloze { font-weight: 700; color: #ffd43b; }
 img { max-width: 100%; height: auto; border-radius: 8px; }
 """
+
+LIGHT_CSS = """
+.card { font-family: 'Be Vietnam Pro', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; line-height: 1.65;
+  color: #1e293b; background-color: #ffffff; padding: 22px; max-width: 680px; margin: 0 auto; border-radius: 14px;
+  border: 1px solid #e2e8f0; box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05); }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 800;
+  letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 12px; }
+.badge-barem { background-color: #fef3c7; color: #b45309; border: 1px solid #fcd34d; }
+.badge-ebm { background-color: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
+.badge-red { background-color: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; }
+.badge-amber { background-color: #fef9c3; color: #a16207; border: 1px solid #fde047; }
+.badge-green { background-color: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+.badge-blue, .badge-cyan { background-color: #e0f2fe; color: #0369a1; border: 1px solid #7dd3fc; }
+.badge-purple { background-color: #f3e8ff; color: #7e22ce; border: 1px solid #d8b4fe; }
+.badge-algo { background-color: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+.question { font-size: 16.5px; font-weight: 700; color: #0f172a; margin-bottom: 12px; line-height: 1.5; }
+hr#answer { border: 0; height: 1px; background: #e2e8f0; margin: 16px 0; }
+.answer-box { background-color: #f8fafc; border-radius: 10px; padding: 14px 18px;
+  border: 1px solid #e2e8f0; border-left: 4px solid #0284c7; margin-top: 12px; font-size: 15px; color: #1e293b; }
+.extra-box { margin-top: 16px; padding: 10px 14px; border-radius: 8px; background-color: #f1f5f9;
+  border-left: 3px solid #64748b; font-size: 13.5px; color: #475569; }
+.extra-title { font-weight: 700; color: #334155; margin-bottom: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+.cloze { font-weight: 700; color: #0284c7; background-color: #e0f2fe; padding: 1px 6px; border-radius: 4px; border-bottom: 2px solid #0284c7; }
+img { max-width: 100%; height: auto; border-radius: 8px; }
+
+/* Semantic color contrast optimization on light background */
+span[style*="#ff6b6b"], span[style*="#FF6B6B"] { color: #dc2626 !important; }
+span[style*="#ffd43b"], span[style*="#FFD43B"] { color: #b45309 !important; }
+span[style*="#51cf66"], span[style*="#51CF66"] { color: #16a34a !important; }
+span[style*="#74c0fc"], span[style*="#74C0FC"] { color: #0284c7 !important; }
+"""
 BADGE_HTML = '<div class="badge {{BadgeClass}}">{{Badge}}{{#Category}} • {{Category}}{{/Category}}</div>'
 EXTRA_HTML = '{{#Extra}}<div class="extra-box"><div class="extra-title">Nguồn trích dẫn y chứng & Tài liệu học tập:</div>{{Extra}}</div>{{/Extra}}'
 
@@ -69,12 +100,14 @@ def model_specs(spec: dict, specialty_models: dict | None = None) -> dict[str, d
     """Notetype: mặc định YKhoa_Master_*; chuyên khoa (specialties.json) rồi lesson.json có thể ghi đè."""
     chosen = {**SHARED_MODELS, **(specialty_models or {}), **(spec.get("models") or {})}
     basic, cloze = chosen["basic"], chosen["cloze"]
+    is_light = spec.get("theme") == "light" or (specialty_models and specialty_models.get("theme") == "light") or "light" in basic.get("name", "").lower()
+    chosen_css = basic.get("css") or (LIGHT_CSS if is_light else CSS)
     return {
-        "basic": {"id": int(basic["id"]), "name": basic["name"], "fields": BASIC_FIELDS, "is_cloze": False, "css": CSS,
+        "basic": {"id": int(basic["id"]), "name": basic["name"], "fields": BASIC_FIELDS, "is_cloze": False, "css": chosen_css,
                   "template_name": basic.get("template", "Y khoa Master Basic"),
                   "qfmt": BADGE_HTML + '<div class="question">{{Front}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{Front}}</div><hr id="answer"><div class="answer-box">{{Back}}</div>' + EXTRA_HTML},
-        "cloze": {"id": int(cloze["id"]), "name": cloze["name"], "fields": CLOZE_FIELDS, "is_cloze": True, "css": CSS,
+        "cloze": {"id": int(cloze["id"]), "name": cloze["name"], "fields": CLOZE_FIELDS, "is_cloze": True, "css": chosen_css,
                   "template_name": cloze.get("template", "Y khoa Master Cloze"),
                   "qfmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>',
                   "afmt": BADGE_HTML + '<div class="question">{{cloze:Text}}</div>' + EXTRA_HTML},

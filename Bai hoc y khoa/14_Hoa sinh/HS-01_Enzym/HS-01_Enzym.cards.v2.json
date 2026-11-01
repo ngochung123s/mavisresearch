@@ -1,0 +1,875 @@
+{
+  "deck_id": 1401001001,
+  "deck_name": "HungMed::Hóa Sinh Y Học::HS-01 Cấu tạo, động học và cơ chế xúc tác của Enzym",
+  "card_count": 48,
+  "cards": [
+    {
+      "id": "HS01-B0-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B0",
+      "category": "Đại cương",
+      "tier": 1,
+      "front": "So sánh <span style=\"color:#74c0fc\"><b>bản chất hóa học</b></span> và <span style=\"color:#51cf66\"><b>khả năng tăng tốc độ phản ứng</b></span> giữa <span style=\"color:#ffd43b\"><b>chất xúc tác vô cơ</b></span> và <span style=\"color:#74c0fc\"><b>enzym</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất hóa học:</b> <span style=\"color:#ffd43b\"><b>Chất vô cơ</b></span> là kim loại (Pt, Ni) hoặc acid, base vô cơ; còn <span style=\"color:#74c0fc\"><b>enzym</b></span> có bản chất là <span style=\"color:#74c0fc\"><b>protein</b></span> (protein đơn thuần hoặc protein kết hợp).<br>2) <b>Khả năng tăng tốc độ phản ứng:</b> Xúc tác vô cơ chỉ tăng từ <span style=\"color:#ffd43b\"><b>10² đến 10⁴ lần</b></span>; trong khi enzym có hiệu lực xúc tác siêu việt làm tăng từ <span style=\"color:#51cf66\"><b>10⁸ đến 10¹¹ lần</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Enzym là những chất xúc tác sinh học có bản chất protein được tổng hợp bởi tế bào sống, giúp các phản ứng sinh hóa diễn ra chớp nhoáng ở điều kiện ôn hòa của cơ thể.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Đại-cương"
+      ],
+      "asks": [
+        "Bản chất hóa học",
+        "Khả năng tăng tốc độ phản ứng"
+      ]
+    },
+    {
+      "id": "HS01-B0-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B0",
+      "category": "Đại cương",
+      "tier": 1,
+      "front": "So sánh <span style=\"color:#ffd43b\"><b>điều kiện phản ứng</b></span> và <span style=\"color:#51cf66\"><b>tính đặc hiệu</b></span> giữa <span style=\"color:#ffd43b\"><b>xúc tác vô cơ</b></span> và <span style=\"color:#74c0fc\"><b>enzym</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điều kiện phản ứng:</b> Xúc tác vô cơ cần <span style=\"color:#ff6b6b\"><b>nhiệt độ rất cao</b></span> (hàng trăm độ C), áp suất lớn, acid/kiềm mạnh; trong khi enzym hoạt động ở <span style=\"color:#51cf66\"><b>điều kiện sinh lý ôn hòa</b></span> (thân nhiệt 35 – 40 °C, 1 atm, pH trung tính 7,0 – 8,0) và bị <span style=\"color:#ff6b6b\"><b>biến tính ở &gt; 60 °C</b></span>.<br>2) <b>Tính đặc hiệu:</b> Xúc tác vô cơ có tính đặc hiệu <span style=\"color:#ff6b6b\"><b>thấp hoặc không đặc hiệu</b></span> (xúc tác nhiều loại phản ứng); trong khi enzym có tính đặc hiệu <span style=\"color:#74c0fc\"><b>rất cao</b></span> gồm đặc hiệu phản ứng và đặc hiệu cơ chất.<br><br><b>💡 Giải thích của AI:</b><br>Nhờ cấu trúc không gian bậc 3, bậc 4 tinh vi của protein, enzym có khả năng nhận diện cơ chất chính xác theo mô hình lập thể và hoạt động hoàn hảo trong dung dịch sinh học.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Đại-cương"
+      ]
+    },
+    {
+      "id": "HS01-B0-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B0",
+      "category": "Đại cương",
+      "tier": 2,
+      "text": "Trong cơ thể sống, enzym làm tăng tốc độ phản ứng hóa học từ {{c1::<span style=\"color:#51cf66\"><b>10⁸ đến 10¹¹ lần</b></span>}}, hoạt động tối ưu ở thân nhiệt {{c1::<span style=\"color:#ffd43b\"><b>35 – 40 °C</b></span>}} và bị biến tính protein mất hoạt tính khi nhiệt độ {{c1::<span style=\"color:#ff6b6b\"><b>&gt; 60 °C</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Đại-cương"
+      ]
+    },
+    {
+      "id": "HS01-B1_1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1_1",
+      "category": "Danh pháp",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>4 cách gọi tên enzym</b></span> trong lịch sử và thực hành y học, kèm ví dụ minh họa.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tên cơ chất + tiếp vĩ ngữ -ase: <span style=\"color:#74c0fc\"><b>Urease</b></span> (cơ chất ure), <span style=\"color:#74c0fc\"><b>Lipase</b></span> (cơ chất lipid), <span style=\"color:#74c0fc\"><b>Proteinase</b></span> (cơ chất protein).<br>2) Tên kiểu phản ứng (tác dụng) + tiếp vĩ ngữ -ase: <span style=\"color:#51cf66\"><b>Oxidase</b></span> (xúc tác oxy hóa), <span style=\"color:#51cf66\"><b>Aminotransferase</b></span> (vận chuyển nhóm amin), <span style=\"color:#51cf66\"><b>Decarboxylase</b></span> (khử carboxyl).<br>3) Tên cơ chất + kiểu phản ứng + tiếp vĩ ngữ -ase (Tên ghép mô tả đầy đủ): <span style=\"color:#74c0fc\"><b>Lactat dehydrogenase (LDH)</b></span>, <span style=\"color:#74c0fc\"><b>Glucose-6-phosphat dehydrogenase (G6PD)</b></span>.<br>4) Tên thường gọi kinh điển (không có đuôi -ase): Các enzym tiêu hóa kinh điển như <span style=\"color:#ffd43b\"><b>Pepsin</b></span>, <span style=\"color:#ffd43b\"><b>Trypsin</b></span>, <span style=\"color:#ffd43b\"><b>Chymotrypsin</b></span>, <span style=\"color:#ffd43b\"><b>Ptyalin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cách gọi tên ghép (Cơ chất + Kiểu phản ứng + -ase) là cách gọi tên khoa học thông dụng nhất trước khi có hệ thống phân loại mã số quốc tế EC của IUBMB.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Danh-pháp"
+      ]
+    },
+    {
+      "id": "HS01-B1_2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1_2",
+      "category": "Phân loại",
+      "tier": 1,
+      "front": "Ý nghĩa từng con số trong mã số quốc tế <span style=\"color:#74c0fc\"><b>EC x.y.z.w</b></span> của enzym là gì? Phân tích ví dụ mã số <span style=\"color:#51cf66\"><b>EC 1.1.1.27 (Lactat dehydrogenase)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ý nghĩa 4 con số: <b>x</b> là 1 trong <span style=\"color:#74c0fc\"><b>6 lớp lớn</b></span>; <b>y</b> là <span style=\"color:#ffd43b\"><b>tổ (dưới lớp)</b></span> chỉ nhóm chức tham gia; <b>z</b> là <span style=\"color:#51cf66\"><b>phân tổ</b></span> chỉ chất nhận electron/coenzym; <b>w</b> là <span style=\"color:#ff6b6b\"><b>số thứ tự</b></span> cụ thể của enzym trong phân tổ.<br>2) Giải mã EC 1.1.1.27 (LDH): Số <b>1</b> = Lớp <span style=\"color:#74c0fc\"><b>Oxidoreductase</b></span> (phản ứng oxy hóa - khử); số <b>1</b> = Tổ tác dụng lên nhóm chức <span style=\"color:#ffd43b\"><b>CH-OH</b></span>; số <b>1</b> = Phân tổ sử dụng coenzym <span style=\"color:#51cf66\"><b>NAD⁺/NADP⁺</b></span> nhận hydro; số <b>27</b> = Enzym thứ 27 trong phân tổ (khử hydro của L-lactat thành pyruvat).<br><br><b>💡 Giải thích của AI:</b><br>Mã số EC (Enzyme Commission) do IUBMB ban hành giúp định danh chính xác không thể nhầm lẫn hàng nghìn enzym trên thế giới dựa vào cơ chế phản ứng hóa học.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Phân-loại"
+      ]
+    },
+    {
+      "id": "HS01-B1_2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1_2",
+      "category": "Phân loại",
+      "tier": 1,
+      "front": "Kể tên <span style=\"color:#74c0fc\"><b>6 lớp enzym quốc tế (EC 1 đến EC 6)</b></span> theo IUBMB và kiểu phản ứng đặc trưng của từng lớp.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>EC 1 (Oxidoreductase):</b> Xúc tác các phản ứng <span style=\"color:#51cf66\"><b>oxy hóa - khử</b></span> (chuyển điện tử hoặc nguyên tử hydro giữa 2 cơ chất: A_red + B_ox ⇌ A_ox + B_red).<br>2) <b>EC 2 (Transferase):</b> Xúc tác phản ứng <span style=\"color:#74c0fc\"><b>vận chuyển nhóm chức</b></span> (không phải hydro) từ chất cho sang chất nhận: A-X + B ⇌ A + B-X.<br>3) <b>EC 3 (Hydrolase):</b> Xúc tác phản ứng <span style=\"color:#ffd43b\"><b>thủy phân</b></span> bẻ gãy liên kết hóa học với sự tham gia của phân tử nước: A-B + H₂O ⇌ A-OH + B-H.<br>4) <b>EC 4 (Lyase):</b> Xúc tác phản ứng bẻ gãy liên kết (C-C, C-O, C-N) tạo <span style=\"color:#ff6b6b\"><b>liên kết đôi mà không cần nước</b></span>, hoặc phản ứng ngược gắn nhóm vào liên kết đôi.<br>5) <b>EC 5 (Isomerase):</b> Xúc tác phản ứng biến đổi <span style=\"color:#74c0fc\"><b>đồng phân hóa</b></span> (đồng phân hình học, quang học, vị trí nhóm chức) trong cùng một phân tử.<br>6) <b>EC 6 (Ligase / Synthetase):</b> Xúc tác phản ứng <span style=\"color:#51cf66\"><b>gắn kết hai phân tử</b></span> đi kèm với sự thủy phân liên kết giàu năng lượng của <span style=\"color:#ffd43b\"><b>ATP hoặc NTP khác</b></span>: A + B + ATP ⇌ A-B + ADP + Pi.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ thứ tự 6 lớp IUBMB: O-T-H-L-I-L (Over The Hill, Little Insects Laugh — Oxidoreductase, Transferase, Hydrolase, Lyase, Isomerase, Ligase).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Phân-loại"
+      ]
+    },
+    {
+      "id": "HS01-B1_2-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1_2",
+      "category": "Phân loại",
+      "tier": 2,
+      "front": "Kể tên các phân nhóm chính và ví dụ điển hình của lớp <span style=\"color:#74c0fc\"><b>EC 1 (Oxidoreductase)</b></span> và lớp <span style=\"color:#74c0fc\"><b>EC 2 (Transferase)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lớp EC 1 (Oxidoreductase):</b> Gồm <span style=\"color:#51cf66\"><b>Dehydrogenase</b></span> (khử hydro đưa sang coenzym: LDH, Malat DH, G6PD); <span style=\"color:#51cf66\"><b>Oxidase</b></span> (chuyển hydro trực tiếp đến O₂ tạo H₂O hoặc H₂O₂: Cytochrom oxidase, Xanthine oxidase); <span style=\"color:#51cf66\"><b>Peroxidase</b></span> (dùng H₂O₂ oxy hóa); <span style=\"color:#51cf66\"><b>Oxygenase</b></span> (gắn O vào cơ chất).<br>2) <b>Lớp EC 2 (Transferase):</b> Gồm <span style=\"color:#74c0fc\"><b>Transaminase / Aminotransferase</b></span> (chuyển nhóm -NH₂: AST, ALT); <span style=\"color:#74c0fc\"><b>Kinase (Phosphotransferase)</b></span> (chuyển gốc phosphat từ ATP: Hexokinase, Creatine kinase - CK); <span style=\"color:#74c0fc\"><b>Transketolase, Transaldolase</b></span> (chuyển gốc 2C, 3C); <span style=\"color:#74c0fc\"><b>Acyltransferase</b></span> (chuyển gốc acyl).<br><br><b>💡 Giải thích của AI:</b><br>Trong xét nghiệm sinh hóa lâm sàng, hầu hết các enzym chỉ điểm hoại tử tế bào gan và cơ tim thuộc về EC 1 (LDH) và EC 2 (AST, ALT, CK).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Phân-loại"
+      ]
+    },
+    {
+      "id": "HS01-B1_2-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B1_2",
+      "category": "Phân loại",
+      "tier": 2,
+      "front": "Phân biệt sự khác biệt cốt tử giữa <span style=\"color:#74c0fc\"><b>Hydrolase (EC 3)</b></span>, <span style=\"color:#ff6b6b\"><b>Lyase (EC 4)</b></span> và <span style=\"color:#51cf66\"><b>Ligase (EC 6)</b></span> trong cách bẻ gãy hoặc tạo lập liên kết.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hydrolase (EC 3):</b> Cắt đứt liên kết (este, peptid, glycosid) <span style=\"color:#74c0fc\"><b>bắt buộc có sự tham gia của phân tử nước</b></span> (Pepsin, Trypsin, Lipase, Amylase, Phosphatase kiềm ALP).<br>2) <b>Lyase (EC 4):</b> Cắt đứt liên kết (C-C, C-O, C-N) tạo liên kết đôi <span style=\"color:#ff6b6b\"><b>hoàn toàn không cần nước</b></span> và không cần năng lượng ATP (Decarboxylase, Aldolase, Fumarase).<br>3) <b>Ligase (EC 6):</b> Nối kết 2 phân tử tạo liên kết mới <span style=\"color:#51cf66\"><b>bắt buộc tiêu tốn năng lượng thủy phân ATP</b></span> (Carboxylase như Pyruvat carboxylase, DNA ligase, Aminoacyl-tRNA synthetase).<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt Lyase (EC 4) và Ligase (EC 6): Lyase cắt không cần nước và không cần ATP; Ligase nối tổng hợp và bắt buộc cần ATP (Synthetase).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Phân-loại"
+      ]
+    },
+    {
+      "id": "HS01-B1_2-05",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B1_2",
+      "category": "Phân loại",
+      "tier": 2,
+      "text": "Enzym <span style=\"color:#74c0fc\"><b>Lactat dehydrogenase (LDH)</b></span> có mã số quốc tế là {{c1::<span style=\"color:#51cf66\"><b>EC 1.1.1.27</b></span>}}, trong đó số 1 đầu tiên chỉ lớp {{c1::<span style=\"color:#74c0fc\"><b>Oxidoreductase</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Phân-loại"
+      ]
+    },
+    {
+      "id": "HS01-B2_1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_1",
+      "category": "Cấu tạo",
+      "tier": 1,
+      "front": "Phân biệt <span style=\"color:#74c0fc\"><b>Enzym thuần</b></span> và <span style=\"color:#74c0fc\"><b>Enzym tạp (Holoenzym)</b></span>. Nêu vai trò của <span style=\"color:#ffd43b\"><b>Apoenzym</b></span> và <span style=\"color:#51cf66\"><b>Cofactor / Coenzym</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Enzym thuần vs Enzym tạp:</b> <span style=\"color:#74c0fc\"><b>Enzym thuần</b></span> chỉ cấu tạo từ các acid amin (Pepsin, Trypsin, Ribonuclease, Urease); còn <span style=\"color:#74c0fc\"><b>Enzym tạp (Holoenzym)</b></span> gồm 2 phần: Apoenzym (protein) + Cofactor (phi protein).<br>2) <b>Apoenzym (phần protein):</b> Quyết định <span style=\"color:#ffd43b\"><b>tính đặc hiệu tuyệt đối</b></span> của enzym đối với cơ chất và tạo khung không gian 3 chiều định vị cơ chất.<br>3) <b>Cofactor / Coenzym (phần phi protein):</b> Trực tiếp tham gia vào phản ứng hóa học (<span style=\"color:#51cf66\"><b>nhận/nhượng điện tử, hydro hoặc vận chuyển nhóm chức</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Apoenzym đơn độc không có hoạt tính xúc tác; chỉ khi kết hợp với cofactor tạo phức hợp Holoenzym hoàn chỉnh thì enzym mới có khả năng xúc tác phản ứng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-tạo"
+      ]
+    },
+    {
+      "id": "HS01-B2_1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_1",
+      "category": "Cấu tạo",
+      "tier": 2,
+      "front": "Phân biệt <span style=\"color:#74c0fc\"><b>Coenzym</b></span>, <span style=\"color:#ff6b6b\"><b>Nhóm ngoại (Prosthetic group)</b></span> và <span style=\"color:#ffd43b\"><b>Ion hoạt hóa (Metalloenzyme)</b></span> trong phân tử enzym tạp.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Coenzym:</b> Là phân tử hữu cơ liên kết <span style=\"color:#74c0fc\"><b>lỏng lẻo</b></span> với apoenzym, dễ tách rời bằng phương pháp lọc thẩm tích (thường là dẫn xuất vitamin nhóm B như NAD⁺, CoA-SH).<br>2) <b>Nhóm ngoại (Prosthetic group):</b> Là phân tử hữu cơ liên kết <span style=\"color:#ff6b6b\"><b>rất chặt chẽ hoặc liên kết cộng hóa trị</b></span> với apoenzym, không thể tách rời bằng lọc thẩm tích thông thường (nhóm Hem trong catalase/cytochrom, Biotin gắn lysine).<br>3) <b>Ion hoạt hóa (Metalloenzyme):</b> Là các <span style=\"color:#ffd43b\"><b>ion kim loại</b></span> (Mg²⁺, Zn²⁺, Cu²⁺, Fe²⁺/Fe³⁺) tham gia ổn định cấu trúc hoặc trực tiếp vào trung tâm xúc tác (Zn²⁺ trong Carbonic anhydrase và ALP, Mg²⁺ trong các phản ứng cần ATP).<br><br><b>💡 Giải thích của AI:</b><br>Trong cơ thể, hầu hết các phản ứng phosphoryl hóa cần ATP đều bắt buộc có ion Mg²⁺ làm cofactor (tạo phức hợp Mg-ATP hoạt động).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-tạo"
+      ]
+    },
+    {
+      "id": "HS01-B2_2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_2",
+      "category": "Trung tâm hoạt động",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>cấu trúc không gian</b></span> và các <span style=\"color:#51cf66\"><b>acid amin xúc tác chính</b></span> tại trung tâm hoạt động của phân tử enzym.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu trúc không gian trung tâm hoạt động:</b> Chiếm thể tích rất nhỏ (<span style=\"color:#ffd43b\"><b>1 – 5%</b></span> phân tử enzym); tạo thành từ các gốc acid amin ở xa nhau trên chuỗi polypeptide được đưa lại gần nhau nhờ cấu trúc cuộn gấp bậc 3, 4; gồm 2 vùng: <span style=\"color:#74c0fc\"><b>vùng gắn cơ chất</b></span> (nhận diện cơ chất qua liên kết yếu) và <span style=\"color:#51cf66\"><b>vùng xúc tác</b></span> (bẻ gãy/tạo liên kết).<br>2) <b>Các acid amin xúc tác chính:</b> <span style=\"color:#51cf66\"><b>Serin (-OH)</b></span> (xúc tác cộng hóa trị/acid-base ở chymotrypsin, acetylcholinesterase); <span style=\"color:#51cf66\"><b>Histidin (nhân imidazol)</b></span> (nhận/nhượng proton linh hoạt ở pH 7,4); <span style=\"color:#51cf66\"><b>Cystein (-SH)</b></span> (oxy hóa - khử, acyl-thiol); <span style=\"color:#74c0fc\"><b>Aspartat/Glutamat (-COO⁻)</b></span> (tương tác ion, acid xúc tác); <span style=\"color:#74c0fc\"><b>Lysin/Arginin (-NH₃⁺)</b></span> (tương tác tĩnh điện).<br><br><b>💡 Giải thích của AI:</b><br>Vùng gắn cơ chất tạo tính đặc hiệu cơ chất; vùng xúc tác chứa các nhóm hoạt động của acid amin và coenzym trực tiếp biến đổi cơ chất thành sản phẩm.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Trung-tâm-hoạt-động"
+      ]
+    },
+    {
+      "id": "HS01-B2_2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_2",
+      "category": "Trung tâm hoạt động",
+      "tier": 1,
+      "front": "So sánh hai học thuyết giải thích cơ chế gắn cơ chất vào trung tâm hoạt động: <span style=\"color:#ffd43b\"><b>Thuyết Fisher (Ổ khóa - Chìa khóa)</b></span> và <span style=\"color:#51cf66\"><b>Thuyết Koshland (Cảm ứng tiếp xúc)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thuyết Ổ khóa - Chìa khóa (Emil Fischer, 1894):</b> Cho rằng trung tâm hoạt động có cấu trúc không gian <span style=\"color:#ffd43b\"><b>cứng nhắc, cố định</b></span> và bổ khuyết hoàn toàn với cơ chất ngay từ trước khi gắn kết. Hạn chế: giải thích được tính đặc hiệu cao nhưng không giải thích được khả năng làm biến dạng cơ chất để đạt trạng thái chuyển tiếp.<br>2) <b>Thuyết Cảm ứng tiếp xúc (Daniel Koshland, 1958):</b> Cho rằng trung tâm hoạt động <span style=\"color:#51cf66\"><b>mềm dẻo, linh hoạt</b></span>. Khi cơ chất tiếp cận, chính cơ chất gây cảm ứng làm thay đổi cấu hình enzym, đưa các acid amin xúc tác vào vị trí tối ưu để ôm sát và hoạt hóa cơ chất. Đây là thuyết hiện đại được công nhận rộng rãi.<br><br><b>💡 Giải thích của AI:</b><br>Thuyết cảm ứng không gian (Induced fit) giải thích rõ ràng tại sao enzym có thể ổn định trạng thái chuyển tiếp và tạo điều kiện cho cơ chế dị lập thể.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Trung-tâm-hoạt-động"
+      ]
+    },
+    {
+      "id": "HS01-B2_3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_3",
+      "category": "Cấu trúc đặc biệt",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>Isoenzym là gì?</b></span> Trình bày cấu tạo, nguồn gốc mô và ý nghĩa chẩn đoán của 3 isoenzym <span style=\"color:#51cf66\"><b>Creatine Kinase (CK)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất của Isoenzym:</b> Isoenzym là các dạng phân tử khác nhau của cùng 1 enzym, cùng xúc tác 1 phản ứng nhưng khác nhau về cấu trúc acid amin, tính chất hóa lý (pI, điện di, Km) và phân bố ở các mô khác nhau.<br>2) <b>Hệ thống CK (Dimer gồm 2 bán đơn vị M và B):</b><br>- <span style=\"color:#74c0fc\"><b>CK-BB (CK₁):</b></span> Chiếm ưu thế ở tổ chức <span style=\"color:#74c0fc\"><b>não và thần kinh trung ương</b></span>.<br>- <span style=\"color:#ff6b6b\"><b>CK-MB (CK₂):</b></span> Đặc hiệu cao cho <span style=\"color:#ff6b6b\"><b>cơ tim</b></span> (chiếm 15 – 20% CK tim; cơ vân chỉ &lt; 2%). Tăng sau 3 – 6 giờ, đỉnh 18 – 24 giờ, về bình thường sau 48 – 72 giờ trong <span style=\"color:#ff6b6b\"><b>Nhồi máu cơ tim cấp</b></span>.<br>- <span style=\"color:#ffd43b\"><b>CK-MM (CK₃):</b></span> Chiếm ưu thế tuyệt đối ở <span style=\"color:#ffd43b\"><b>cơ vân (98%)</b></span> và huyết thanh bình thường. Tăng cao trong tiêu cơ vân cấp (Rhabdomyolysis), chấn thương dập cơ.<br><br><b>💡 Giải thích của AI:</b><br>Định lượng CK-MB hoặc tỷ lệ CK-MB/CK toàn phần là xét nghiệm kinh điển để xác định tổn thương hoại tử cơ tim và phát hiện tái nhồi máu.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-trúc-đặc-biệt"
+      ]
+    },
+    {
+      "id": "HS01-B2_3-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_3",
+      "category": "Cấu trúc đặc biệt",
+      "tier": 1,
+      "front": "Trình bày cấu tạo của 5 isoenzym <span style=\"color:#74c0fc\"><b>Lactat Dehydrogenase (LDH)</b></span> và ý nghĩa của <span style=\"color:#ff6b6b\"><b>hiện tượng đảo ngược tỷ lệ LDH1/LDH2</b></span> trong lâm sàng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu tạo 5 isoenzym (Tetramer gồm 2 loại chuỗi H và M):</b><br>- <span style=\"color:#74c0fc\"><b>LDH1 (H₄):</b></span> Nhiều nhất ở cơ tim và hồng cầu.<br>- <span style=\"color:#74c0fc\"><b>LDH2 (H₃M):</b></span> Nhiều ở hệ liên võng nội mô, bạch cầu.<br>- <span style=\"color:#74c0fc\"><b>LDH3 (H₂M₂):</b></span> Nhiều ở phổi, lách.<br>- <span style=\"color:#74c0fc\"><b>LDH4 (HM₃):</b></span> Nhiều ở thận, tụy.<br>- <span style=\"color:#74c0fc\"><b>LDH5 (M₄):</b></span> Nhiều ở nhu mô gan và cơ vân.<br>2) <b>Hiện tượng đảo ngược LDH1/LDH2:</b> Bình thường trong huyết thanh <span style=\"color:#ffd43b\"><b>LDH2 &gt; LDH1</b></span>. Khi có hoại tử cơ tim cấp (<span style=\"color:#ff6b6b\"><b>Nhồi máu cơ tim</b></span>) hoặc <span style=\"color:#ff6b6b\"><b>tan máu cấp</b></span>, lượng lớn LDH1 giải phóng vào máu làm tỷ lệ bị đảo ngược: <span style=\"color:#ff6b6b\"><b>LDH1 &gt; LDH2</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mặc dù LDH tăng chậm và kéo dài (về bình thường sau 10 – 14 ngày), hiện tượng 'LDH flipped pattern' (LDH1 > LDH2) là bằng chứng xác thực của nhồi máu cơ tim ở bệnh nhân nhập viện muộn.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-trúc-đặc-biệt"
+      ]
+    },
+    {
+      "id": "HS01-B2_3-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_3",
+      "category": "Cấu trúc đặc biệt",
+      "tier": 1,
+      "front": "Thế nào là <span style=\"color:#74c0fc\"><b>Enzym dị lập thể (Allosteric enzymes)</b></span>? Phân biệt chất điều hòa dị lập thể dương và âm, và nêu đặc điểm đường cong động học của chúng.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất enzym dị lập thể:</b> Là enzym ngoài trung tâm hoạt động còn có thêm <span style=\"color:#74c0fc\"><b>vị trí dị lập thể (allosteric site)</b></span> để gắn các phân tử điều hòa (effector).<br>2) <b>Chất điều hòa dương vs âm:</b> Chất điều hòa dương làm thay đổi cấu hình enzym làm <span style=\"color:#51cf66\"><b>tăng ái lực với cơ chất</b></span>, tăng tốc độ phản ứng; chất điều hòa âm làm biến dạng trung tâm hoạt động làm <span style=\"color:#ff6b6b\"><b>giảm hoặc mất gắn cơ chất</b></span>, giảm tốc độ phản ứng.<br>3) <b>Đường cong động học dạng chữ S:</b> Đồ thị tốc độ phản ứng theo nồng độ cơ chất có <span style=\"color:#ffd43b\"><b>dạng chữ S (Sigmoidal curve)</b></span> do hiện tượng hợp tác tương hỗ (cooperativity) giữa các bán đơn vị, không tuân theo đường hyperbol của Michaelis - Menten.<br><br><b>💡 Giải thích của AI:</b><br>Enzym dị lập thể thường là các enzym đóng vai trò 'chìa khóa' (rate-limiting enzymes) điều hòa các chặng đầu tiên của các chu trình chuyển hóa trong tế bào.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-trúc-đặc-biệt"
+      ]
+    },
+    {
+      "id": "HS01-B2_3-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_3",
+      "category": "Cấu trúc đặc biệt",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>Tiền enzym (Zymogen / Proenzyme) là gì?</b></span> Nêu cơ chế hoạt hóa, ví dụ sinh lý và <span style=\"color:#ff6b6b\"><b>ý nghĩa sinh học sống còn</b></span> đối với tế bào tụy.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất và quá trình hoạt hóa:</b> Zymogen là dạng enzym chưa có hoạt tính sinh học; được hoạt hóa tại đích bằng cách <span style=\"color:#51cf66\"><b>thủy phân cắt bỏ đoạn peptid</b></span> che lấp trung tâm hoạt động để bộc lộ trung tâm hoạt động chức năng.<br>2) <b>Ví dụ sinh lý:</b> <span style=\"color:#74c0fc\"><b>Pepsinogen</b></span> ở dạ dày nhờ HCl/pepsin cắt bỏ 44 acid amin đầu N thành <span style=\"color:#74c0fc\"><b>Pepsin</b></span>; <span style=\"color:#74c0fc\"><b>Trypsinogen</b></span> ở tụy nhờ enteropeptidase/trypsin cắt bỏ hexapeptid thành <span style=\"color:#74c0fc\"><b>Trypsin</b></span>.<br>3) <b>Ý nghĩa sinh học sống còn:</b> Bảo vệ tế bào sản xuất không bị <span style=\"color:#51cf66\"><b>tự tiêu hóa (tự phân giải protein nội tại)</b></span>. Nếu zymogen của tụy (trypsinogen) bị hoạt hóa sớm ngay bên trong mô tụy sẽ gây hoại tử tụy cấp tính: <span style=\"color:#ff6b6b\"><b>Viêm tụy cấp hoại tử</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Enteropeptidase (enterokinase) ở diềm bàn chải niêm mạc tá tràng là ngòi nổ sinh lý duy nhất kích hoạt dòng thác hoạt hóa zymogen tiêu hóa trong lòng ruột non.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-trúc-đặc-biệt"
+      ]
+    },
+    {
+      "id": "HS01-B2_3-05",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B2_3",
+      "category": "Cấu trúc đặc biệt",
+      "tier": 2,
+      "front": "Thế nào là <span style=\"color:#74c0fc\"><b>Phức hợp đa enzym (Multienzyme complex)</b></span>? Nêu ưu thế sinh học và phân tích ví dụ phức hợp <span style=\"color:#51cf66\"><b>Pyruvat Dehydrogenase (PDH)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất và ưu thế sinh học:</b> Là khối siêu phân tử gồm nhiều phân tử enzym liên kết chặt chẽ xúc tác cho chuỗi phản ứng chuyển hóa liên tiếp. Ưu thế: tạo ra hiện tượng <span style=\"color:#51cf66\"><b>dẫn truyền cơ chất (substrate channeling)</b></span> đưa chất trung gian đi thẳng giữa các trung tâm hoạt động mà không bị khuếch tán ra ngoài môi trường dịch bào, tăng tối đa hiệu suất chuyển hóa.<br>2) <b>Ví dụ phức hợp PDH:</b> Nằm ở màng trong ty thể xúc tác khử carboxyl oxy hóa pyruvat thành acetyl-CoA; gồm <span style=\"color:#74c0fc\"><b>3 enzym</b></span> (E₁: Pyruvat dehydrogenase, E₂: Dihydrolipoyl transacetylase, E₃: Dihydrolipoyl dehydrogenase) phối hợp nhịp nhàng với <span style=\"color:#ffd43b\"><b>5 coenzym</b></span> (TPP, Lipoat, CoA-SH, FAD, NAD⁺).<br><br><b>💡 Giải thích của AI:</b><br>Nếu tách rời các enzym thành phần của phức hợp đa enzym, các chuỗi polypeptide sẽ bị biến tính và mất hoàn toàn hoạt tính xúc tác liên hợp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Cấu-trúc-đặc-biệt"
+      ]
+    },
+    {
+      "id": "HS01-B3_1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_1",
+      "category": "Coenzym",
+      "tier": 1,
+      "front": "So sánh nguồn gốc vitamin, cơ chế nhận hydro và phân định chức năng sinh học giữa <span style=\"color:#74c0fc\"><b>NAD⁺/NADH</b></span> và <span style=\"color:#51cf66\"><b>NADP⁺/NADPH</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc vitamin:</b> Đều là dẫn xuất từ <span style=\"color:#ffd43b\"><b>Vitamin B₃ (Niacin / Acid nicotinic / Nicotinamid)</b></span>. NADP⁺ có thêm nhóm phosphat gắn tại C₂' của ribose phía adenin.<br>2) <b>Phản ứng nhận hydro:</b> Nhân nicotinamid nhận <span style=\"color:#74c0fc\"><b>1 ion hydrid (:H⁻ gồm 1 proton và 2 electron)</b></span> vào vị trí C₄, giải phóng 1 proton H⁺ vào môi trường: AH₂ + NAD⁺ ⇌ A + NADH + H⁺.<br>3) <b>Phân định chức năng sinh học:</b><br>- <span style=\"color:#74c0fc\"><b>NAD⁺/NADH:</b></span> Tham gia các phản ứng <span style=\"color:#74c0fc\"><b>dị hóa (thoái hóa)</b></span> tạo năng lượng ATP (đường phân, chu trình Krebs, β-oxy hóa) và chuỗi hô hấp tế bào (1 NADH tạo ~2,5 ATP).<br>- <span style=\"color:#51cf66\"><b>NADP⁺/NADPH:</b></span> Cung cấp lực khử cho các phản ứng <span style=\"color:#51cf66\"><b>đồng hóa (tổng hợp)</b></span> (tổng hợp acid béo, cholesterol, steroid) và bảo vệ màng hồng cầu chống gốc tự do (hoàn nguyên glutathion GSH qua G6PD).<br><br><b>💡 Giải thích của AI:</b><br>Sự phân định rạch ròi giữa tỉ lệ NAD⁺/NADH cao (thúc đẩy oxy hóa dị hóa) và NADP⁺/NADPH thấp (thúc đẩy khử tổng hợp) giúp tế bào điều phối các chiều chuyển hóa độc lập.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B3_1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_1",
+      "category": "Coenzym",
+      "tier": 1,
+      "front": "Trình bày nguồn gốc vitamin, cấu tạo nhân hoạt động và cơ chế nhận hydro của <span style=\"color:#ffd43b\"><b>FAD</b></span> và <span style=\"color:#ffd43b\"><b>FMN</b></span>. Cho ví dụ enzym sử dụng FAD.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc vitamin & Cấu tạo:</b> Dẫn xuất từ <span style=\"color:#ffd43b\"><b>Vitamin B₂ (Riboflavin)</b></span>. Trung tâm chức năng là <span style=\"color:#74c0fc\"><b>nhân dị vòng isoalloxazin</b></span> gắn với rượu đường ribitol.<br>2) <b>Phản ứng nhận hydro:</b> Nhân isoalloxazin nhận liên tiếp <span style=\"color:#51cf66\"><b>2 nguyên tử hydro (2H⁺ + 2e⁻)</b></span> tại vị trí nitơ N₁ và N₁₀ để chuyển thành dạng khử FADH₂ hoặc FMNH₂ (qua gốc tự do trung gian semiquinon): AH₂ + FAD ⇌ A + FADH₂.<br>3) <b>Ví dụ điển hình:</b> <span style=\"color:#74c0fc\"><b>Succinat dehydrogenase</b></span> trong chu trình Krebs xúc tác khử hydro của succinat thành fumarat tạo FADH₂ (đi vào phức hợp II chuỗi hô hấp tế bào tạo ~1,5 ATP).<br><br><b>💡 Giải thích của AI:</b><br>FAD và FMN thường liên kết rất chặt chẽ (nhóm ngoại) với protein enzym gọi là Flavoprotein, cho phép chuyển giao 1 hoặc 2 điện tử linh hoạt.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B3_2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_2",
+      "category": "Coenzym",
+      "tier": 1,
+      "front": "Trình bày nguồn gốc vitamin, cơ chế hoạt động và vai trò của <span style=\"color:#74c0fc\"><b>Thiamine Pyrophosphat (TPP)</b></span> và liên hệ bệnh lý thiếu hụt.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc vitamin & Cơ chế:</b> Dẫn xuất từ <span style=\"color:#ffd43b\"><b>Vitamin B₁ (Thiamine)</b></span> gắn 2 phosphat; trung tâm hoạt động là vòng thiazol chứa C₂ có tính acid yếu dễ tạo <span style=\"color:#74c0fc\"><b>carbanion</b></span> hoạt động.<br>2) <b>Vai trò chuyển hóa:</b> Coenzym xúc tác phản ứng <span style=\"color:#51cf66\"><b>khử carboxyl oxy hóa các α-cetoacid</b></span> (Pyruvat dehydrogenase, α-Ketoglutarat dehydrogenase) và chuyển đơn vị 2C (Transketolase trong chu trình pentose).<br>3) <b>Liên hệ bệnh lý:</b> Thiếu vitamin B₁ làm ứ trệ pyruvat và lactat, gây bệnh tê phù <span style=\"color:#ff6b6b\"><b>Beri-beri</b></span> (suy tim, viêm đa dây thần kinh) và hội chứng não <span style=\"color:#ff6b6b\"><b>Wernicke - Korsakoff</b></span> ở người nghiện rượu mạn tính.<br><br><b>💡 Giải thích của AI:</b><br>Não bộ phụ thuộc hoàn toàn vào chuyển hóa glucose hiếu khí; thiếu TPP làm phức hợp PDH ngừng trệ, dẫn đến tổn thương hoại tử thể vú và chất xám quanh cống não (Wernicke).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B3_2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_2",
+      "category": "Coenzym",
+      "tier": 1,
+      "front": "Trình bày cấu tạo, cơ chế hoạt động của <span style=\"color:#74c0fc\"><b>Coenzym A (CoA-SH)</b></span> và bản chất của <span style=\"color:#ffd43b\"><b>liên kết thioester giàu năng lượng</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cấu tạo:</b> Cấu thành từ <span style=\"color:#ffd43b\"><b>Vitamin B₅ (Acid pantothenic)</b></span>, ATP và phân tử β-mercaptoethylamin.<br>2) <b>Nhóm hoạt động & Liên kết thioester:</b> Nhóm <span style=\"color:#51cf66\"><b>thiol (-SH) tự do</b></span> ở đầu tận cùng là trung tâm hoạt động, phản ứng với nhóm carboxyl của acid hữu cơ tạo <span style=\"color:#51cf66\"><b>liên kết thioester giàu năng lượng (~ 31,5 kJ/mol)</b></span>: R-COOH + CoA-SH + ATP → R-CO~S-CoA + AMP + PPi.<br>3) <b>Vai trò trung tâm:</b> Đóng vai trò ngã tư trung tâm của toàn bộ chuyển hóa năng lượng (Acetyl-CoA đi vào chu trình Krebs, tổng hợp acid béo, cholesterol, thể ceton; Acyl-CoA trong β-oxy hóa; Succinyl-CoA trong tổng hợp Hem).<br><br><b>💡 Giải thích của AI:</b><br>Năng lượng giải phóng khi thủy phân liên kết thioester (~S~) tương đương hoặc cao hơn thủy phân liên kết phosphoanhydrid của ATP, cung cấp lực đẩy nhiệt động học cho các phản ứng ngưng tụ.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B3_2-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_2",
+      "category": "Coenzym",
+      "tier": 1,
+      "front": "Trình bày nguồn gốc, cơ chế tạo liên kết base Schiff và vai trò của <span style=\"color:#74c0fc\"><b>Pyridoxal Phosphat (PLP)</b></span> trong chuyển hóa acid amin.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguồn gốc vitamin & Tạo base Schiff:</b> Dẫn xuất từ <span style=\"color:#ffd43b\"><b>Vitamin B₆ (Pyridoxin / Pyridoxal)</b></span>. Nhóm aldehyd (-CHO) của PLP phản ứng thuận nghịch với nhóm amin (-NH₂) của acid amin tạo liên kết <span style=\"color:#74c0fc\"><b>base Schiff (aldimin)</b></span> trung gian.<br>2) <b>Vai trò trong Transaminase:</b> Coenzym thiết yếu của <span style=\"color:#51cf66\"><b>AST và ALT</b></span> vận chuyển nhóm amin giữa acid amin và α-cetoacid.<br>3) <b>Vai trò tạo amin sinh học:</b> Tham gia phản ứng khử carboxyl tạo các <span style=\"color:#ffd43b\"><b>amin sinh học dẫn truyền thần kinh</b></span> (GABA từ glutamat, histamin từ histidin, serotonin từ tryptophan, dopamin từ DOPA).<br><br><b>💡 Giải thích của AI:</b><br>Thiếu hụt vitamin B6 hoặc tương tác thuốc (như thuốc chống lao Isoniazid INH tạo phức bất hoạt PLP) làm giảm tổng hợp GABA ức chế thần kinh, gây co giật và viêm dây thần kinh ngoại biên.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B3_2-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B3_2",
+      "category": "Coenzym",
+      "tier": 2,
+      "front": "Trình bày vai trò của <span style=\"color:#74c0fc\"><b>Biotin (Vitamin B₈ / H)</b></span> và <span style=\"color:#51cf66\"><b>Tetrahydrofolat (THF, Vitamin B₉)</b></span> trong các phản ứng vận chuyển nhóm.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Biotin (Vitamin B₈):</b> Vận chuyển nhóm <span style=\"color:#74c0fc\"><b>carboxyl (-COO⁻)</b></span> trong các phản ứng carboxyl hóa cần năng lượng ATP và ion Mg²⁺ (Pyruvat carboxylase trong tân tạo đường, Acetyl-CoA carboxylase trong tổng hợp acid béo).<br>2) <b>Tetrahydrofolat (THF, dẫn xuất Vitamin B₉):</b> Vận chuyển các <span style=\"color:#51cf66\"><b>mảnh 1 carbon</b></span> (-CH₃, -CH₂-, -CHO, -CH=NH) phục vụ sinh tổng hợp nhân purin và pyrimidin (dTMP tổng hợp DNA) và chuyển hóa homocystein thành methionin.<br>3) <b>Ứng dụng Dược lý:</b> Thuốc chống ung thư <span style=\"color:#ff6b6b\"><b>Methotrexate</b></span> ức chế cạnh tranh enzym Dihydrofolate Reductase (DHFR) làm cạn kiệt THF, ngăn chặn tế bào ác tính phân chia DNA.<br><br><b>💡 Giải thích của AI:</b><br>Ăn nhiều lòng trắng trứng sống chứa avidin sẽ liên kết không hồi phục với biotin ở ruột, ngăn cản hấp thu và gây thiếu hụt biotin.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Coenzym"
+      ]
+    },
+    {
+      "id": "HS01-B4-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Nhiệt động học",
+      "tier": 1,
+      "front": "Giải thích bản chất của <span style=\"color:#ffd43b\"><b>Năng lượng hoạt hóa (Ea)</b></span> và <span style=\"color:#ff6b6b\"><b>Trạng thái chuyển tiếp</b></span> trong một phản ứng hóa sinh.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Năng lượng hoạt hóa (Activation Energy - ΔG‡):</b> Là <span style=\"color:#ffd43b\"><b>rào cản năng lượng tối thiểu</b></span> mà các phân tử cơ chất phải vượt qua để các liên kết hóa học bị phá vỡ và bắt đầu phản ứng.<br>2) <b>Trạng thái chuyển tiếp (Transition state - [X]‡):</b> Là trạng thái ở <span style=\"color:#ff6b6b\"><b>đỉnh rào cản năng lượng</b></span>, nơi các liên kết hóa học cũ bị kéo căng cực đại và các liên kết mới bắt đầu hình thành; trạng thái này có mức năng lượng cao nhất và độ bền thấp nhất.<br>3) <b>Tác dụng của enzym:</b> Enzym gắn kết và làm bền vững trạng thái chuyển tiếp, từ đó <span style=\"color:#51cf66\"><b>làm giảm đáng kể năng lượng hoạt hóa</b></span> của phản ứng.<br><br><b>💡 Giải thích của AI:</b><br>Enzym có ái lực cao nhất không phải với cơ chất ban đầu hay sản phẩm cuối cùng, mà chính là với cấu hình của trạng thái chuyển tiếp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Nhiệt-động-học"
+      ]
+    },
+    {
+      "id": "HS01-B4-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B4",
+      "category": "Nhiệt động học",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>2 nguyên lý nhiệt động học bất biến</b></span> của phản ứng có enzym xúc tác đối với <span style=\"color:#ffd43b\"><b>biến thiên năng lượng tự do (ΔG)</b></span> và <span style=\"color:#51cf66\"><b>hằng số cân bằng (Keq)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên lý về biến thiên năng lượng tự do (ΔG):</b> Enzym <span style=\"color:#ffd43b\"><b>hoàn toàn không làm thay đổi</b></span> biến thiên năng lượng tự do toàn phần (ΔG) giữa trạng thái cơ chất ban đầu và sản phẩm cuối cùng. Enzym không thể biến phản ứng thu năng lượng không thuận lợi thành phản ứng tự phát.<br>2) <b>Nguyên lý về hằng số cân bằng (Keq):</b> Enzym <span style=\"color:#51cf66\"><b>hoàn toàn không làm thay đổi</b></span> hằng số cân bằng phản ứng (Keq). Enzym chỉ làm tăng tốc độ đạt tới trạng thái cân bằng nhanh hơn gấp hàng triệu lần bằng cách tăng đồng thời cả tốc độ phản ứng thuận (v₁) và nghịch (v₂) với tỉ lệ ngang nhau: Keq = k₁ / k₂ = không đổi.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy thi BSNT kinh điển: 'Enzym làm thay đổi hằng số cân bằng phản ứng' là nhận định SAI; enzym chỉ rút ngắn thời gian đạt tới cân bằng chứ không dịch chuyển vị trí cân bằng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Nhiệt-động-học"
+      ]
+    },
+    {
+      "id": "HS01-B5_1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5_1",
+      "category": "Động học",
+      "tier": 1,
+      "front": "Viết <span style=\"color:#74c0fc\"><b>phương trình Michaelis - Menten</b></span>, giải thích các đại lượng và khảo sát phương trình ở 2 trường hợp giới hạn: <span style=\"color:#ffd43b\"><b>[S] ≪ Km</b></span> và <span style=\"color:#51cf66\"><b>[S] ≫ Km</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình Michaelis - Menten:</b> <span style=\"color:#74c0fc\"><b>v = (Vmax × [S]) / (Km + [S])</b></span>; trong đó v là tốc độ ban đầu, Vmax là tốc độ cực đại khi enzym bão hòa cơ chất, [S] là nồng độ cơ chất, Km là hằng số Michaelis.<br>2) <b>Trường hợp [S] ≪ Km (nồng độ cơ chất rất thấp):</b> Mẫu số Km + [S] ≈ Km → <span style=\"color:#ffd43b\"><b>v ≈ (Vmax / Km) × [S]</b></span>. Tốc độ phản ứng tỉ lệ thuận tuyến tính bậc nhất với nồng độ cơ chất (động học bậc 1).<br>3) <b>Trường hợp [S] ≫ Km (cơ chất bão hòa):</b> Mẫu số Km + [S] ≈ [S] → <span style=\"color:#51cf66\"><b>v ≈ Vmax</b></span>. Tốc độ đạt cực đại và không phụ thuộc vào nồng độ cơ chất (động học bậc 0).<br><br><b>💡 Giải thích của AI:</b><br>Đồ thị biểu diễn mối liên hệ giữa tốc độ v và nồng độ cơ chất [S] trong phương trình Michaelis - Menten là một đường cong hyperbol vuông góc tiệm cận Vmax.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Động-học"
+      ]
+    },
+    {
+      "id": "HS01-B5_1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5_1",
+      "category": "Động học",
+      "tier": 1,
+      "front": "<span style=\"color:#74c0fc\"><b>Ý nghĩa hằng số Km</b></span> trong phương trình Michaelis - Menten và phân tích mối liên hệ giữa <span style=\"color:#ffd43b\"><b>Km</b></span> với <span style=\"color:#51cf66\"><b>ái lực</b></span> của enzym đối với cơ chất.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất của hằng số Km:</b> Km là <span style=\"color:#74c0fc\"><b>nồng độ cơ chất [S]</b></span> (đơn vị: mol/L hoặc mmol/L) tại đó tốc độ phản ứng đạt bằng <span style=\"color:#ffd43b\"><b>một nửa tốc độ tối đa (v = Vmax / 2)</b></span>.<br>2) <b>Đặc tính độc lập:</b> Km là hằng số đặc trưng cho mỗi cặp enzym - cơ chất ở điều kiện pH, nhiệt độ xác định, <span style=\"color:#74c0fc\"><b>hoàn toàn không phụ thuộc vào nồng độ enzym [E]</b></span>.<br>3) <b>Ý nghĩa ái lực (tỉ lệ nghịch):</b><br>- <span style=\"color:#51cf66\"><b>Km càng nhỏ → Ái lực của enzym với cơ chất càng cao</b></span> (chỉ cần nồng độ cơ chất rất thấp enzym đã hoạt động đạt 50% Vmax).<br>- <span style=\"color:#ff6b6b\"><b>Km càng lớn → Ái lực của enzym với cơ chất càng yếu</b></span> (phải cần nồng độ cơ chất rất cao mới đạt nửa tốc độ tối đa).<br><br><b>💡 Giải thích của AI:</b><br>Về mặt toán học khi k₂ ≪ k₋₁, Km xấp xỉ hằng số phân ly Ks = k₋₁ / k₁ của phức hợp ES, do đó Km đo lường trực tiếp độ bền của phức hợp enzym - cơ chất.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Động-học"
+      ]
+    },
+    {
+      "id": "HS01-B5_2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5_2",
+      "category": "Ứng dụng động học",
+      "tier": 1,
+      "front": "So sánh vị trí phân bố mô, giá trị hằng số Km với glucose và ý nghĩa sinh lý chuyển hóa giữa <span style=\"color:#74c0fc\"><b>Hexokinase</b></span> và <span style=\"color:#51cf66\"><b>Glucokinase</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hexokinase (phân bố rộng rãi ở hầu hết các mô, não, cơ vân):</b> Có <span style=\"color:#74c0fc\"><b>Km với glucose rất thấp (~ 0,05 – 0,1 mmol/L)</b></span>, thấp hơn nhiều nồng độ glucose máu lúc đói (3,9 – 5,6 mmol/L). Do đó, enzym này <span style=\"color:#74c0fc\"><b>luôn bão hòa và hoạt động ở tốc độ tối đa</b></span>, đảm bảo não luôn thu nhận và thoái hóa glucose sinh năng lượng liên tục ngay cả khi đói.<br>2) <b>Glucokinase (chỉ có ở tế bào gan và tế bào β đảo tụy):</b> Có <span style=\"color:#51cf66\"><b>Km với glucose rất cao (~ 10 mmol/L)</b></span>. Khi đói enzym hầu như không hoạt động. Chỉ sau bữa ăn khi glucose tĩnh mạch cửa tăng vọt, Glucokinase mới hoạt hóa mạnh để <span style=\"color:#51cf66\"><b>bắt giữ glucose tổng hợp glycogen dự trữ</b></span> tại gan, chống tăng đường huyết sau ăn và kích thích tụy tiết insulin.<br><br><b>💡 Giải thích của AI:</b><br>Hexokinase bị ức chế ngược bởi sản phẩm Glucose-6-phosphat (G6P); trong khi Glucokinase ở gan không bị ức chế bởi G6P, cho phép gan tiếp tục giữ glucose máu khi nồng độ dâng cao.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ứng-dụng-động-học"
+      ]
+    },
+    {
+      "id": "HS01-B5_2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B5_2",
+      "category": "Ứng dụng động học",
+      "tier": 2,
+      "text": "Enzym <span style=\"color:#74c0fc\"><b>Hexokinase</b></span> ở não có Km với glucose rất nhỏ (khoảng {{c1::<span style=\"color:#51cf66\"><b>0,05 – 0,1 mmol/L</b></span>}}), trong khi <span style=\"color:#74c0fc\"><b>Glucokinase</b></span> ở gan có Km rất lớn (khoảng {{c1::<span style=\"color:#ffd43b\"><b>10 mmol/L</b></span>}}).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ứng-dụng-động-học"
+      ]
+    },
+    {
+      "id": "HS01-B5_3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B5_3",
+      "category": "Đồ thị Lineweaver - Burk",
+      "tier": 1,
+      "front": "Viết phương trình đường thẳng <span style=\"color:#74c0fc\"><b>Lineweaver - Burk (nghịch đảo kép)</b></span> và giải thích ý nghĩa của <span style=\"color:#ffd43b\"><b>giao điểm trục tung</b></span>, <span style=\"color:#51cf66\"><b>giao điểm trục hoành</b></span> và <span style=\"color:#74c0fc\"><b>độ dốc</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phương trình nghịch đảo kép:</b> Lấy nghịch đảo phương trình Michaelis - Menten: <span style=\"color:#74c0fc\"><b>1/v = (Km / Vmax) × (1/[S]) + (1 / Vmax)</b></span>, có dạng y = ax + b.<br>2) <b>Giao điểm với trục tung (khi 1/[S] = 0):</b> Tung độ gốc b = <span style=\"color:#ffd43b\"><b>1 / Vmax</b></span>.<br>3) <b>Giao điểm với trục hoành (khi 1/v = 0):</b> Hoành độ cắt trục âm = <span style=\"color:#51cf66\"><b>- 1 / Km</b></span> (giúp xác định chính xác Km).<br>4) <b>Hệ số góc (độ dốc của đường thẳng):</b> Slope = <span style=\"color:#74c0fc\"><b>Km / Vmax</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đồ thị Lineweaver - Burk tuyến tính hóa đường cong hyperbol thành đường thẳng bậc nhất, là công cụ vàng để phân biệt các kiểu ức chế cạnh tranh, không cạnh tranh trên thực nghiệm.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Đồ-thị-Lineweaver---Burk"
+      ]
+    },
+    {
+      "id": "HS01-B6_1-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_1",
+      "category": "Yếu tố ảnh hưởng",
+      "tier": 1,
+      "front": "Trình bày ảnh hưởng của <span style=\"color:#ff6b6b\"><b>nhiệt độ</b></span> lên hoạt tính enzym: <span style=\"color:#ffd43b\"><b>hệ số nhiệt Q₁₀</b></span>, <span style=\"color:#51cf66\"><b>nhiệt độ tối thích Topt</b></span> và <span style=\"color:#ff6b6b\"><b>hiện tượng biến tính nhiệt</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hệ số nhiệt Q₁₀:</b> Trong khoảng 0 – 40 °C, khi tăng nhiệt độ thêm 10 °C thì tốc độ phản ứng enzym tăng xấp xỉ gấp đôi (<span style=\"color:#ffd43b\"><b>Q₁₀ ≈ 2</b></span>) do tăng động năng và tần số va chạm hiệu quả.<br>2) <b>Nhiệt độ tối thích (Topt):</b> Là nhiệt độ mà hoạt tính enzym đạt cao nhất; với hầu hết enzym cơ thể người <span style=\"color:#51cf66\"><b>Topt ≈ 37 – 40 °C</b></span>.<br>3) <b>Biến tính nhiệt:</b> Khi nhiệt độ vượt quá <span style=\"color:#ff6b6b\"><b>55 – 60 °C</b></span>, các liên kết yếu duy trì cấu trúc không gian bậc 3, 4 bị phá vỡ hoàn toàn, protein enzym bị đông tụ biến tính không hồi phục và mất hoàn toàn hoạt tính.<br><br><b>💡 Giải thích của AI:</b><br>Ứng dụng y học: Bảo quản mẫu bệnh phẩm xét nghiệm enzym ở 2 – 8 °C hoặc âm sâu -20 °C/-80 °C để làm chậm phản ứng tự hủy phân của enzym.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Yếu-tố-ảnh-hưởng"
+      ]
+    },
+    {
+      "id": "HS01-B6_1-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_1",
+      "category": "Yếu tố ảnh hưởng",
+      "tier": 1,
+      "front": "Giải thích cơ chế ảnh hưởng của <span style=\"color:#74c0fc\"><b>pH môi trường</b></span> đến hoạt tính enzym và nêu <span style=\"color:#ffd43b\"><b>pH tối thích (pHopt)</b></span> của Pepsin, Trypsin và Phosphatase kiềm (ALP).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ảnh hưởng lên trạng thái ion hóa:</b> pH làm thay đổi <span style=\"color:#74c0fc\"><b>điện tích</b></span> của các nhóm chức acid amin tại trung tâm hoạt động và của cơ chất; môi trường quá toan hoặc quá kiềm làm biến tính protein enzym.<br>2) <b>Pepsin dịch vị dạ dày:</b> <span style=\"color:#ffd43b\"><b>pHopt ≈ 1,5 – 2,0</b></span> (thích nghi hoàn hảo với môi trường acid clohydric đậm đặc của dạ dày).<br>3) <b>Trypsin ruột non:</b> <span style=\"color:#51cf66\"><b>pHopt ≈ 7,8 – 8,2</b></span> (thích nghi với dịch tụy và dịch mật có tính kiềm nhẹ ở ruột non).<br>4) <b>Phosphatase kiềm (ALP):</b> <span style=\"color:#74c0fc\"><b>pHopt ≈ 9,5 – 10,0</b></span> (ngược lại Phosphatase acid ACP có pHopt ≈ 4,5 – 5,0).<br><br><b>💡 Giải thích của AI:</b><br>Hầu hết các enzym nội bào (AST, ALT, LDH) có pH tối thích trùng khớp với pH sinh lý của máu và dịch ngoại bào (7,35 – 7,45).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Yếu-tố-ảnh-hưởng"
+      ]
+    },
+    {
+      "id": "HS01-B6_2-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_2",
+      "category": "Ức chế enzym",
+      "tier": 1,
+      "front": "Phân tích bản chất phân tử, sự thay đổi các thông số động học (<span style=\"color:#ffd43b\"><b>Vmax</b></span>, <span style=\"color:#51cf66\"><b>Km</b></span>) và đồ thị Lineweaver - Burk trong <span style=\"color:#74c0fc\"><b>Ức chế cạnh tranh (Competitive Inhibition)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất phân tử:</b> Chất ức chế (I) có cấu trúc không gian <span style=\"color:#74c0fc\"><b>rất giống cơ chất (S)</b></span>, tranh chấp gắn trực tiếp vào cùng một trung tâm hoạt động của enzym tự do (E): E + I ⇌ EI.<br>2) <b>Thông số động học:</b><br>- <span style=\"color:#ffd43b\"><b>Vmax không đổi:</b></span> Khi nồng độ cơ chất [S] tăng lên cực lớn sẽ đẩy bật chất ức chế ra khỏi trung tâm hoạt động, đưa vận tốc đạt cực đại ban đầu.<br>- <span style=\"color:#51cf66\"><b>Km tăng (Km' &gt; Km):</b></span> Ái lực biểu kiến của enzym với cơ chất bị giảm, cần nồng độ cơ chất cao hơn mới đạt nửa Vmax.<br>3) <b>Giao điểm trên đồ thị Lineweaver - Burk:</b> Các đường biểu diễn <span style=\"color:#ff6b6b\"><b>giao nhau tại một điểm trên trục tung (1/Vmax)</b></span>, điểm cắt trục hoành âm dịch gần về gốc tọa độ (-1/Km' &gt; -1/Km).<br><br><b>💡 Giải thích của AI:</b><br>Đặc trưng cốt tử của ức chế cạnh tranh: Có thể hoàn toàn hóa giải và khắc phục sự ức chế bằng cách tăng nồng độ cơ chất lên thật cao.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ức-chế-enzym"
+      ]
+    },
+    {
+      "id": "HS01-B6_2-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_2",
+      "category": "Ức chế enzym",
+      "tier": 1,
+      "front": "Phân tích cơ chế tác dụng dược lý của 3 thuốc kinh điển theo cơ chế <span style=\"color:#74c0fc\"><b>ức chế cạnh tranh</b></span>: <span style=\"color:#51cf66\"><b>Allopurinol</b></span>, <span style=\"color:#ffd43b\"><b>Statin</b></span> và <span style=\"color:#74c0fc\"><b>Sulfamid</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Allopurinol (điều trị Gout):</b> Có cấu trúc tương tự hypoxanthin, <span style=\"color:#51cf66\"><b>ức chế cạnh tranh enzym Xanthine oxidase</b></span>, ngăn chặn quá trình oxy hóa xanthin thành acid uric, hạ acid uric máu và ngừa cơn Gout cấp.<br>2) <b>Nhóm thuốc Statin (hạ lipid máu):</b> Có cấu trúc tương tự HMG-CoA, <span style=\"color:#ffd43b\"><b>ức chế cạnh tranh enzym HMG-CoA Reductase</b></span>, ức chế bước giới hạn tốc độ tổng hợp cholesterol nội sinh ở gan.<br>3) <b>Thuốc Sulfamid:</b> Có cấu trúc tương tự acid para-aminobenzoic (PABA), <span style=\"color:#74c0fc\"><b>ức chế cạnh tranh enzym tổng hợp acid folic</b></span> của vi khuẩn, làm ngừng trệ phân chia tế bào vi khuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Các chất tương tự cơ chất (substrate analogs) là nền tảng thiết kế của hàng trăm loại thuốc tân dược hiện đại trong y học điều trị.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ức-chế-enzym"
+      ]
+    },
+    {
+      "id": "HS01-B6_2-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_2",
+      "category": "Ức chế enzym",
+      "tier": 1,
+      "front": "Phân tích bản chất phân tử, sự biến đổi <span style=\"color:#ffd43b\"><b>Vmax</b></span>, <span style=\"color:#51cf66\"><b>Km</b></span> và đồ thị Lineweaver - Burk trong <span style=\"color:#ff6b6b\"><b>Ức chế không cạnh tranh (Non-competitive Inhibition)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất phân tử:</b> Chất ức chế (I) gắn vào <span style=\"color:#ff6b6b\"><b>vị trí dị lập thể riêng biệt ngoài trung tâm hoạt động</b></span>, có thể gắn tự do vào cả enzym tự do (E) và phức hợp enzym - cơ chất (ES) tạo phức hợp bất hoạt ESI.<br>2) <b>Thông số động học:</b><br>- <span style=\"color:#51cf66\"><b>Km không đổi:</b></span> Ái lực của trung tâm hoạt động với cơ chất không bị ảnh hưởng.<br>- <span style=\"color:#ffd43b\"><b>Vmax giảm (Vmax' &lt; Vmax):</b></span> Số lượng phân tử enzym chức năng bị suy giảm, tăng nồng độ cơ chất [S] <span style=\"color:#ff6b6b\"><b>hoàn toàn không thể hóa giải</b></span> được sự ức chế.<br>3) <b>Giao điểm trên đồ thị Lineweaver - Burk:</b> Các đường biểu diễn <span style=\"color:#74c0fc\"><b>giao nhau tại một điểm duy nhất trên trục hoành âm (-1/Km)</b></span>, điểm cắt trục tung dịch lên trên cao (1/Vmax' &gt; 1/Vmax).<br><br><b>💡 Giải thích của AI:</b><br>Khác biệt then chốt: Ức chế cạnh tranh cắt nhau tại trục tung; ức chế không cạnh tranh cắt nhau tại trục hoành.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ức-chế-enzym"
+      ]
+    },
+    {
+      "id": "HS01-B6_2-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_2",
+      "category": "Ức chế enzym",
+      "tier": 2,
+      "front": "Phân biệt nhanh sự biến đổi <span style=\"color:#ffd43b\"><b>Vmax</b></span> và <span style=\"color:#51cf66\"><b>Km</b></span> giữa 3 kiểu ức chế thuận nghịch: <span style=\"color:#74c0fc\"><b>Cạnh tranh</b></span>, <span style=\"color:#ff6b6b\"><b>Không cạnh tranh</b></span> và <span style=\"color:#ffd43b\"><b>Hỗn hợp</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ức chế cạnh tranh:</b> <span style=\"color:#ffd43b\"><b>Vmax KHÔNG ĐỔI</b></span>, <span style=\"color:#51cf66\"><b>Km TĂNG</b></span> (đồ thị cắt nhau tại trục tung 1/Vmax).<br>2) <b>Ức chế không cạnh tranh:</b> <span style=\"color:#ffd43b\"><b>Vmax GIẢM</b></span>, <span style=\"color:#51cf66\"><b>Km KHÔNG ĐỔI</b></span> (đồ thị cắt nhau tại trục hoành -1/Km).<br>3) <b>Ức chế hỗn hợp (Mixed):</b> Cả <span style=\"color:#ffd43b\"><b>Vmax GIẢM</b></span> và <span style=\"color:#51cf66\"><b>Km BIẾN ĐỔI (thường tăng)</b></span> do chất ức chế gắn vào E và ES với ái lực khác nhau (đồ thị cắt nhau ở góc phần tư thứ hai).<br><br><b>💡 Giải thích của AI:</b><br>Bảng tóm tắt động học này là câu hỏi thường trực trong các kỳ thi tuyển sinh Sau đại học và BSNT Hóa sinh.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Ức-chế-enzym"
+      ]
+    },
+    {
+      "id": "HS01-B6_3-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B6_3",
+      "category": "Nhiễm độc Phospho hữu cơ",
+      "tier": 1,
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>cơ chế</b></span>, <span style=\"color:#ff6b6b\"><b>hậu quả</b></span> và <span style=\"color:#51cf66\"><b>điều trị</b></span> của nhiễm độc thuốc trừ sâu phospho hữu cơ.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế:</b> Gốc phospho hữu cơ mang điện tích dương tấn công tạo <span style=\"color:#ff6b6b\"><b>liên kết este phospho cộng hóa trị bền vững</b></span> với nhóm -OH của gốc <span style=\"color:#74c0fc\"><b>Serin</b></span> tại trung tâm hoạt động của Acetylcholinesterase (AChE), bất hoạt enzym vĩnh viễn.<br>2) <b>Hậu quả:</b> Acetylcholin ứ đọng ồ ạt tại các synap gây 3 hội chứng: <span style=\"color:#ff6b6b\"><b>Muscarinic</b></span> (co đồng tử đinh ghim, tăng tiết đờm dãi, co thắt phế quản, mạch chậm), <span style=\"color:#ff6b6b\"><b>Nicotinic</b></span> (giật rung bó cơ, liệt cơ hoành suy hô hấp), và <span style=\"color:#ff6b6b\"><b>Thần kinh trung ương</b></span> (hôn mê, co giật).<br>3) <b>Điều trị:</b> Dùng <span style=\"color:#51cf66\"><b>Atropin</b></span> phong bế thụ thể Muscarinic để kháng acetylcholin dư thừa; kết hợp <span style=\"color:#51cf66\"><b>Pralidoxime (PAM)</b></span> bẻ gãy liên kết phospho-serin để tái hoạt hóa enzym AChE (phải dùng sớm trước khi xảy ra hiện tượng lão hóa liên kết aging).<br><br><b>💡 Giải thích của AI:</b><br>Hiện tượng 'Aging' xảy ra sau 24 – 48 giờ khi một nhóm alkoxy của phospho hữu cơ bị thủy phân tách rời, làm liên kết phospho-AChE bền vững vĩnh viễn và không thể đảo ngược bằng PAM.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Nhiễm-độc-Phospho-hữu-cơ"
+      ],
+      "asks": [
+        "Cơ chế",
+        "Hậu quả",
+        "Điều trị"
+      ]
+    },
+    {
+      "id": "HS01-B6_3-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B6_3",
+      "category": "Nhiễm độc Phospho hữu cơ",
+      "tier": 2,
+      "text": "Thuốc trừ sâu phospho hữu cơ (DFP, Parathion) làm bất hoạt không thuận nghịch enzym Acetylcholinesterase bằng cách gắn cộng hóa trị vào nhóm -OH của acid amin {{c1::<span style=\"color:#74c0fc\"><b>Serin</b></span>}} tại trung tâm hoạt động.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Nhiễm-độc-Phospho-hữu-cơ"
+      ]
+    },
+    {
+      "id": "HS01-B6_3-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "cloze",
+      "section": "B6_3",
+      "category": "Nhiễm độc Phospho hữu cơ",
+      "tier": 2,
+      "text": "Trong cấp cứu nhiễm độc phospho hữu cơ, thuốc {{c1::<span style=\"color:#51cf66\"><b>Pralidoxime (PAM)</b></span>}} đóng vai trò là chất tái hoạt hóa enzym cholinesterase và bắt buộc phải dùng sớm trước khi xảy ra hiện tượng {{c1::<span style=\"color:#ff6b6b\"><b>lão hóa enzym (Aging process)</b></span>}}.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Nhiễm-độc-Phospho-hữu-cơ"
+      ]
+    },
+    {
+      "id": "HS01-B7-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Enzym huyết thanh",
+      "tier": 1,
+      "front": "So sánh đặc tính phân bố mô và giá trị chẩn đoán giữa <span style=\"color:#74c0fc\"><b>AST (GOT)</b></span> và <span style=\"color:#51cf66\"><b>ALT (GPT)</b></span>. Nêu ý nghĩa của <span style=\"color:#ffd43b\"><b>tỷ lệ De Ritis (AST/ALT)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phân bố mô & Đặc tính:</b> <span style=\"color:#74c0fc\"><b>AST</b></span> phân bố nhiều ở cơ tim, gan, cơ vân, thận (60% ở ty thể, 40% ở bào tương); còn <span style=\"color:#51cf66\"><b>ALT</b></span> chủ yếu nằm ở bào tương tế bào gan nên <span style=\"color:#51cf66\"><b>đặc hiệu nhất cho tổn thương gan</b></span>.<br>2) <b>Ý nghĩa tỷ lệ De Ritis (AST/ALT bình thường ≈ 1,15):</b><br>- <span style=\"color:#ff6b6b\"><b>AST/ALT &gt; 2:</b></span> Gợi ý tổn thương cơ tim (nhồi máu cơ tim) hoặc <span style=\"color:#ff6b6b\"><b>viêm gan/xơ gan do rượu</b></span> (rượu gây độc trực tiếp phá hủy ty thể tế bào gan phóng thích lượng lớn AST ty thể).<br>- <span style=\"color:#51cf66\"><b>AST/ALT &lt; 1:</b></span> Điển hình của <span style=\"color:#51cf66\"><b>viêm gan virus cấp tính</b></span> (tế bào gan bị hoại tử giải phóng ồ ạt ALT bào tương).<br><br><b>💡 Giải thích của AI:</b><br>ALT có thời gian bán hủy dài hơn (~47 giờ so với ~17 giờ của AST), do đó trong viêm gan cấp ALT thường tăng cao hơn và duy trì kéo dài hơn AST.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Enzym-huyết-thanh"
+      ]
+    },
+    {
+      "id": "HS01-B7-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Enzym huyết thanh",
+      "tier": 1,
+      "front": "Trình bày động học huyết thanh của <span style=\"color:#ff6b6b\"><b>CK-MB</b></span> trong Nhồi máu cơ tim cấp và so sánh với <span style=\"color:#51cf66\"><b>Troponin tim siêu nhạy (hs-cTn)</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Động học CK-MB:</b> Bắt đầu tăng sau <span style=\"color:#ffd43b\"><b>3 – 6 giờ</b></span> sau cơn đau ngực, đạt đỉnh ở <span style=\"color:#ffd43b\"><b>18 – 24 giờ</b></span>, và trở về mức bình thường sau <span style=\"color:#ffd43b\"><b>48 – 72 giờ</b></span>. Hữu ích hàng đầu để phát hiện <span style=\"color:#51cf66\"><b>nhồi máu cơ tim tái phát sớm</b></span>.<br>2) <b>Đối chiếu với Troponin tim (hs-cTnI / hs-cTnT):</b> Troponin tim là protein cấu trúc của bộ co cơ (không phải enzym xúc tác), có độ nhạy và độ đặc hiệu cao hơn hẳn CK-MB, bắt đầu tăng sau 2 – 4 giờ và duy trì kéo dài <span style=\"color:#74c0fc\"><b>10 – 14 ngày</b></span>; hiện là <span style=\"color:#51cf66\"><b>tiêu chuẩn vàng số 1 tuyệt đối</b></span> theo khuyến cáo của Hội Tim mạch Châu Âu (ESC) và Hoa Kỳ (ACC/AHA).<br><br><b>💡 Giải thích của AI:</b><br>Nhờ cửa sổ thanh thải ngắn (về bình thường sau 72h), nếu bệnh nhân đau ngực lại ở ngày thứ 4 mà CK-MB tăng vọt trở lại thì chắc chắn có tái nhồi máu; trong khi Troponin lúc này vẫn còn cao từ đợt trước.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Enzym-huyết-thanh"
+      ]
+    },
+    {
+      "id": "HS01-B7-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Enzym huyết thanh",
+      "tier": 1,
+      "front": "So sánh độ nhạy, độ đặc hiệu và cửa sổ thời gian giữa <span style=\"color:#74c0fc\"><b>Amylase</b></span> và <span style=\"color:#51cf66\"><b>Lipase</b></span> huyết thanh trong chẩn đoán <span style=\"color:#ff6b6b\"><b>Viêm tụy cấp</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Amylase huyết thanh:</b> Tăng sớm sau 2 – 12 giờ, đạt đỉnh sau 12 – 24 giờ, nhưng <span style=\"color:#ffd43b\"><b>giảm nhanh về bình thường sau 3 – 5 ngày</b></span>. Độ đặc hiệu thấp hơn vì có nguồn gốc cả từ tuyến nước bọt (tăng trong quai bị, tắc tuyến nước bọt, suy thận).<br>2) <b>Lipase huyết thanh:</b> Có nguồn gốc gần như duy nhất từ tế bào nang tụy nên <span style=\"color:#51cf66\"><b>đặc hiệu và nhạy hơn hẳn Amylase</b></span>. Tăng trong vòng 4 – 8 giờ và <span style=\"color:#51cf66\"><b>duy trì nồng độ cao kéo dài từ 8 – 14 ngày</b></span>, cực kỳ hữu ích cho bệnh nhân đến viện muộn sau khởi phát đau bụng.<br><br><b>💡 Giải thích của AI:</b><br>Tiêu chuẩn Atlanta chẩn đoán viêm tụy cấp yêu cầu Amylase hoặc Lipase huyết thanh tăng gấp ≥ 3 lần giới hạn trên của khoảng tham chiếu bình thường.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Enzym-huyết-thanh"
+      ]
+    },
+    {
+      "id": "HS01-B7-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B7",
+      "category": "Enzym huyết thanh",
+      "tier": 1,
+      "front": "Phân tích ý nghĩa lâm sàng của <span style=\"color:#74c0fc\"><b>Phosphatase kiềm (ALP)</b></span> và <span style=\"color:#51cf66\"><b>Gamma-Glutamyltransferase (GGT)</b></span> trong bệnh lý <span style=\"color:#ffd43b\"><b>gan mật</b></span> và <span style=\"color:#ff6b6b\"><b>xương</b></span>.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hội chứng ứ mật (Tắc mật):</b> Cả <span style=\"color:#74c0fc\"><b>ALP và GGT đều tăng rất cao</b></span> song hành trong sỏi đường mật, u đầu tụy, tắc mật trong và ngoài gan do acid mật kích thích tế bào biểu mô đường mật tổng hợp enzym.<br>2) <b>Phân biệt bệnh lý tạo xương vs gan mật:</b> ALP có nguồn gốc từ cả gan và nguyên bào xương. Khi ALP tăng cao đơn độc mà <span style=\"color:#51cf66\"><b>GGT bình thường → khẳng định tổn thương từ xương</b></span> (còi xương trẻ em, bệnh Paget, u xương, ung thư di căn xương). Nếu cả ALP và GGT cùng tăng → khẳng định tổn thương gan mật.<br>3) <b>Chỉ điểm nghiện rượu:</b> <span style=\"color:#51cf66\"><b>GGT là enzym cảm ứng cực kỳ nhạy với rượu</b></span>, tăng sớm ở người uống nhiều rượu ngay cả khi chưa có hoại tử gan, dùng để theo dõi tuân thủ cai rượu.<br><br><b>💡 Giải thích của AI:</b><br>GGT hoàn toàn không có trong mô xương, do đó GGT là chiếc 'chìa khóa vàng' để giải mã nguồn gốc khi gặp một xét nghiệm ALP huyết thanh tăng cao.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Enzym-huyết-thanh"
+      ]
+    },
+    {
+      "id": "HS01-ALGO-01",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Tiếp cận phân biệt 3 kiểu ức chế enzym thuận nghịch (<span style=\"color:#74c0fc\"><b>Cạnh tranh</b></span>, <span style=\"color:#ff6b6b\"><b>Không cạnh tranh</b></span>, <span style=\"color:#ffd43b\"><b>Hỗn hợp</b></span>) trên đồ thị Lineweaver - Burk.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1: Quan sát giao điểm trên trục tung (1/Vmax):</b> Nếu tất cả các đường biểu diễn giao nhau tại 1 điểm duy nhất trên trục tung → Vmax không đổi → Khẳng định là <span style=\"color:#74c0fc\"><b>Ức chế cạnh tranh</b></span> (Km tăng, điểm cắt trục hoành âm dịch về gần gốc tọa độ).<br>2) <b>Bước 2: Quan sát giao điểm trên trục hoành (-1/Km):</b> Nếu tất cả các đường biểu diễn giao nhau tại 1 điểm duy nhất trên trục hoành âm → Km không đổi → Khẳng định là <span style=\"color:#ff6b6b\"><b>Ức chế không cạnh tranh</b></span> (Vmax giảm, điểm cắt trục tung dịch lên cao).<br>3) <b>Bước 3: Nếu giao điểm nằm ở góc phần tư thứ 2 (không nằm trên trục):</b> Cả Vmax giảm và Km đều thay đổi → Khẳng định là <span style=\"color:#ffd43b\"><b>Ức chế hỗn hợp (Mixed inhibition)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mẹo nhớ thuật toán: Cạnh tranh = Cắt Tung (C - T); Không cạnh tranh = Cắt Hoành (K - H).",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS01-ALGO-02",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Quy trình cấp cứu điều trị giải độc đặc hiệu bệnh nhân <span style=\"color:#ff6b6b\"><b>nhiễm độc thuốc trừ sâu Phospho hữu cơ</b></span> (DFP, Parathion).",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Atropin hóa ngay lập tức:</b> Tiêm tĩnh mạch <span style=\"color:#51cf66\"><b>Atropin liều cao</b></span> nhắc lại nhanh mỗi 5 – 10 phút để phong bế tác dụng muscarinic đe dọa tính mạng; đích duy trì tình trạng 'ngấm Atropin' (da khô ấm, đồng tử giãn nhẹ 3 – 4 mm, nhịp tim &gt; 80 ck/phút, phổi hết rale ẩm).<br>2) <b>Bước 2 — Sử dụng chất tái hoạt hóa AChE sớm:</b> Truyền tĩnh mạch <span style=\"color:#74c0fc\"><b>Pralidoxime (PAM / 2-PAM)</b></span> liều nạp 1 – 2 g, sau đó truyền liên tục duy trì; <span style=\"color:#ff6b6b\"><b>bắt buộc dùng trong 24 – 48 giờ đầu</b></span> trước khi enzym bị lão hóa (aging).<br>3) <b>Bước 3 — Hồi sức hô hấp và tẩy độc:</b> Đảm bảo thông khí, thở oxy/đặt nội khí quản thở máy nếu suy hô hấp trước khi tiêm atropin để tránh rung thất; rửa dạ dày và dùng than hoạt đa liều, tắm rửa thay quần áo loại bỏ độc chất qua da.<br><br><b>💡 Giải thích của AI:</b><br>Atropin chỉ đối kháng tại thụ thể muscarinic, không có tác dụng trên thụ thể nicotinic ở cơ hoành; chỉ có PAM tái hoạt hóa AChE mới cứu vãn được tình trạng liệt cơ hô hấp.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS01-ALGO-03",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Lưu đồ phân tầng men gan và tỷ lệ <span style=\"color:#ffd43b\"><b>De Ritis (AST/ALT)</b></span> trong định hướng tổn thương tế bào gan và tim mạch.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhánh 1 — Men gan tăng cực đại (&gt; 1000 U/L) với AST/ALT &lt; 1:</b> Định hướng hàng đầu <span style=\"color:#51cf66\"><b>Viêm gan virus cấp tính (HAV, HBV, HEV)</b></span> hoặc <span style=\"color:#ff6b6b\"><b>Hoại tử gan do ngộ độc Paracetamol / thiếu máu cục bộ (Ischemic hepatitis)</b></span>.<br>2) <b>Nhánh 2 — Men gan tăng vừa (&lt; 300 – 500 U/L) với AST/ALT &gt; 2:</b> Định hướng điển hình của <span style=\"color:#ff6b6b\"><b>Viêm gan do rượu</b></span> hoặc <span style=\"color:#ff6b6b\"><b>Xơ gan</b></span> (kèm GGT tăng vọt; AST &gt; 2 lần ALT do rượu gây tổn thương màng ty thể).<br>3) <b>Nhánh 3 — AST tăng cao đơn độc trong khi ALT bình thường:</b> Nghĩ ngay đến tổn thương ngoài gan: <span style=\"color:#74c0fc\"><b>Nhồi máu cơ tim cấp</b></span> (kiểm tra ngay Troponin, CK-MB) hoặc <span style=\"color:#ffd43b\"><b>Tiêu cơ vân cấp / chấn thương cơ vân</b></span> (kiểm tra CK toàn phần, Myoglobin).<br><br><b>💡 Giải thích của AI:</b><br>De Ritis ratio là một chỉ số không tốn thêm chi phí nhưng mang lại giá trị định hướng phân loại bệnh học cực kỳ mạnh mẽ trên lâm sàng.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    },
+    {
+      "id": "HS01-ALGO-04",
+      "track": "barem_goc",
+      "badge": "🔬 HÓA SINH Y HỌC · ENZYM",
+      "badge_class": "badge-barem",
+      "type": "basic",
+      "section": "B_ALGO",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH</b></span>: Thuật toán biện giải khi <span style=\"color:#74c0fc\"><b>Phosphatase kiềm (ALP) tăng cao</b></span> trong huyết thanh để phân biệt bệnh gan mật vs bệnh lý xương.",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bước 1 — Định lượng đồng thời GGT huyết thanh:</b> Kiểm tra ngay nồng độ GGT trong cùng mẫu máu.<br>2) <b>Bước 2 — Nếu GGT TĂNG CAO:</b> Khẳng định ALP tăng do <span style=\"color:#51cf66\"><b>nguồn gốc Gan Mật (Hội chứng Ứ mật)</b></span> → Chỉ định siêu âm bụng hoặc MRCP tìm sỏi mật, u đường mật, u đầu tụy chèn ép tắc mật.<br>3) <b>Bước 3 — Nếu GGT HOÀN TOÀN BÌNH THƯỜNG:</b> Khẳng định ALP tăng do <span style=\"color:#ff6b6b\"><b>nguồn gốc Xương (Tăng hoạt động nguyên bào xương)</b></span> → Định hướng còi xương, nhuyễn xương, bệnh Paget xương, gãy xương đang liền, hoặc u xương / ung thư di căn xương.<br><br><b>💡 Giải thích của AI:</b><br>Trẻ em đang tuổi dậy thì lớn nhanh hoặc phụ nữ có thai quý 3 có ALP tăng sinh lý (do sụn tiếp hợp phát triển hoặc bánh nhau sản xuất), lúc này GGT bình thường giúp bác sĩ tránh chẩn đoán nhầm bệnh lý gan mật.",
+      "extra": "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, PGS. TS. Phạm Thiện Ngọc tác giả), NXB Y học, Chương 1: Enzym.",
+      "tags": [
+        "HS-01",
+        "Hoa-sinh",
+        "Thuật-toán-quyết-định"
+      ]
+    }
+  ]
+}
