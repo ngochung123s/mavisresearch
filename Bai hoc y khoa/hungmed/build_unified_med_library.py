@@ -376,6 +376,7 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
         "06": "Bệnh lý Phụ khoa & Tử cung",
         "07_De_chi_huy": "Sản khoa & Chuyển dạ",
         "07_U_xo": "Bệnh lý Phụ khoa & Tử cung",
+        "10": "Bệnh lý Phụ khoa & Nhiễm trùng",
         "22": "Nội tiết Sinh sản & Tránh thai",
         "33": "Siêu âm Phụ khoa (TVS)",
         "34": "Siêu âm Phụ khoa (TVS)",
