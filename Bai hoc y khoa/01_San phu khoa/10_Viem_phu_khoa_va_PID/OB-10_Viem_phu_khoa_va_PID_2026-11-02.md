@@ -80,7 +80,7 @@ Mục tiêu tối thượng của người thầy thuốc là: **Nhận diện v
 1. **Thụt rửa sâu trong âm đạo:** Hành vi dùng vòi xịt hoặc tay thụt rửa sâu làm rửa trôi toàn bộ màng sinh học của *Lactobacillus*, kiềm hóa môi trường.
 2. **Kháng sinh phổ rộng đường toàn thân:** (Ampicillin, Cephalosporin, Quinolone) tiêu diệt sạch *Lactobacillus*, giải phóng khoảng trống sinh thái cho vi nấm *Candida* bùng phát.
 3. **Máu kinh và Tinh dịch:** Máu kinh ($\text{pH} \approx 7{,}4$) và tinh dịch ($\text{pH} = 7{,}2 - 8{,}0$) có tính kiềm, làm trung hòa acid âm đạo tạm thời, tạo điều kiện cho vi khuẩn kỵ khí nhân lên gấp hàng trăm lần sau mỗi chu kỳ kinh hoặc sau giao hợp.
-4. **Suy giảm Estrogen:** Ở phụ nữ mãn kinh, tiền mãn kinh hoặc cho con bú $\rightarrow$ niêm mạc âm đạo teo mỏng, cạn kiệt glycogen $\rightarrow$ mất *Lactobacillus* $\rightarrow$ $\text{pH} > 5{,}5$ gây viêm âm đạo teo.
+4. **Suy giảm Estrogen:** Ở phụ nữ mãn kinh, tiền mãn kinh hoặc cho con bú → niêm mạc âm đạo teo mỏng, cạn kiệt glycogen → mất *Lactobacillus* → $\text{pH} > 5{,}5$ gây viêm âm đạo teo.
 5. **Thủ thuật phụ khoa & Đặt dụng cụ tử cung (IUD):** Nạo phá thai, nong gắp, đặt vòng tránh thai không đảm bảo vô khuẩn phá vỡ nút nhầy cổ tử cung.
 6. **Bệnh chuyển hóa:** Đái tháo đường kiểm soát kém làm nồng độ glycogen trong dịch âm đạo tăng vọt, tạo môi trường dinh dưỡng lý tưởng cho nấm men.
 
@@ -124,7 +124,7 @@ Tuyến Bartholin (tuyến tiền đình lớn) là hai tuyến dạng túi nh�
 
 #### Phác đồ Xử trí Cụ thể
 1. **Viêm cấp giai đoạn thâm nhiễm (chưa hóa mủ):**
-   * Kháng sinh phổ rộng đường uống bao phủ Lậu cầu, Chlamydia và vi khuẩn kỵ khí: Cefixime $400\text{ mg}$ uống liều duy nhất $+$ Doxycycline $100\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày $+$ Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày.
+   * Kháng sinh phổ rộng đường uống bao phủ Lậu cầu, Chlamydia và vi khuẩn kỵ khí: Cefixime $400\text{ mg}$ uống liều duy nhất $+$ Doxycycline $100\text{ mg}$ uống $2$ lần/ngày × 7 ngày $+$ Metronidazole 500 mg uống $2$ lần/ngày × 7 ngày.
    * Giảm đau kháng viêm (Ibuprofen $400\text{ mg} \times 3$ lần/ngày), ngâm hậu môn - âm hộ trong chậu nước ấm sạch $15 - 20$ phút $\times 3$ lần/ngày giúp dãn mạch và thông ống tuyến.
 2. **Giai đoạn đã tụ mủ thành áp xe (Gold Standard Intervention):**
    * <span style="color:#51cf66"><b>Bắt buộc phải can thiệp tháo mủ</b></span> (kháng sinh đơn thuần không thể thẩm thấu qua vỏ bao áp xe dày).
@@ -169,20 +169,20 @@ Ba bệnh lý này chịu trách nhiệm cho hơn $90\%$ các ca viêm âm đạ
 
 ##### 1. Viêm âm đạo do vi khuẩn (Bacterial Vaginosis - BV)
 * **Phác đồ khuyến cáo ưu tiên hàng đầu:**
-  * <span style="color:#51cf66"><b>Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày</b></span> (tỷ lệ khỏi bệnh $85 - 90\%$, tốt hơn liều đơn).
+  * <span style="color:#51cf66"><b>Metronidazole 500 mg uống $2$ lần/ngày × 7 ngày</b></span> (tỷ lệ khỏi bệnh $85 - 90\%$, tốt hơn liều đơn).
   * *Hoặc dạng đặt tại chỗ:* Metronidazole gel $0{,}75\%$ bơm âm đạo $1$ ống ($5\text{ g}$)/ngày vào buổi tối $\times 5$ ngày.
-  * *Hoặc dạng kem bôi:* Clindamycin cream $2\%$ bơm âm đạo $1$ lần/ngày vào buổi tối $\times 7$ ngày.
+  * *Hoặc dạng kem bôi:* Clindamycin cream $2\%$ bơm âm đạo $1$ lần/ngày vào buổi tối × 7 ngày.
 * **Phác đồ thay thế:**
-  * Tinidazole $2\text{ g}$ uống $1$ lần/ngày $\times 2$ ngày; hoặc Tinidazole $1\text{ g}$ uống $1$ lần/ngày $\times 5$ ngày.
+  * Tinidazole $2\text{ g}$ uống $1$ lần/ngày × 2 ngày; hoặc Tinidazole $1\text{ g}$ uống $1$ lần/ngày $\times 5$ ngày.
   * Secnidazole $2\text{ g}$ dạng gói hạt cốm uống $1$ liều duy nhất (pha cùng sữa chua hoặc sốt táo).
-* **Phụ nữ có thai:** Điều trị bằng <span style="color:#51cf66"><b>Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày</b></span> (an toàn trong mọi quý thai kỳ theo CDC 2021; việc điều trị giúp giảm rõ rệt nguy cơ vỡ màng ối non và đẻ non).
+* **Phụ nữ có thai:** Điều trị bằng <span style="color:#51cf66"><b>Metronidazole 500 mg uống $2$ lần/ngày × 7 ngày</b></span> (an toàn trong mọi quý thai kỳ theo CDC 2021; việc điều trị giúp giảm rõ rệt nguy cơ vỡ màng ối non và đẻ non).
 * **Quản lý bạn tình nam:** <span style="color:#ffd43b"><b>KHÔNG khuyến cáo điều trị thường quy cho bạn tình nam</b></span> (các nghiên cứu chứng minh điều trị bạn tình không làm giảm tỷ lệ tái phát BV ở phụ nữ).
-* ⚠️ **Cảnh báo quan trọng:** Bệnh nhân uống Metronidazole / Tinidazole **tuyệt đối không uống rượu bia** trong thời gian dùng thuốc và sau khi ngừng thuốc $48 - 72$ giờ (nguy cơ phản ứng giống Disulfiram gây nôn mửa dữ dội, tụt huyết áp, nhịp tim nhanh).
+* ⚠️ **Cảnh báo quan trọng:** Bệnh nhân uống Metronidazole / Tinidazole **tuyệt đối không uống rượu bia** trong thời gian dùng thuốc và sau khi ngừng thuốc 48 - 72 giờ (nguy cơ phản ứng giống Disulfiram gây nôn mửa dữ dội, tụt huyết áp, nhịp tim nhanh).
 
 ##### 2. Nhiễm nấm âm hộ - âm đạo (Vulvovaginal Candidiasis - VVC)
 * **Thể không biến chứng (nhiễm lần đầu, mức độ nhẹ - vừa, cơ địa khỏe mạnh, do *C. albicans*):**
   * <span style="color:#51cf66"><b>Fluconazole $150\text{ mg}$ uống $1$ liều duy nhất</b></span> (tiện lợi, tỷ lệ khỏi $> 90\%$).
-  * *Hoặc thuốc đặt tại chỗ nhóm Azole:* Clotrimazole viên đặt $500\text{ mg}$ uống $1$ liều duy nhất; hoặc Clotrimazole viên đặt $100\text{ mg} \times 6$ đêm; Miconazole viên đặt $200\text{ mg} \times 3$ đêm.
+  * *Hoặc thuốc đặt tại chỗ nhóm Azole:* Clotrimazole viên đặt 500 mg uống $1$ liều duy nhất; hoặc Clotrimazole viên đặt $100\text{ mg} \times 6$ đêm; Miconazole viên đặt $200\text{ mg} \times 3$ đêm.
 * **Thể tái phát dai dẳng (Recurrent VVC — $\ge 4$ đợt/năm):**
   * **Pha tấn công giải phóng triệu chứng:** Fluconazole $150\text{ mg}$ uống vào **Ngày 1, Ngày 4 và Ngày 7** (tổng $3$ liều cách nhau 72 giờ).
   * **Pha duy trì ức chế:** Fluconazole $150\text{ mg}$ uống **$1$ lần/tuần liên tục trong $6$ tháng**.
@@ -192,12 +192,12 @@ Ba bệnh lý này chịu trách nhiệm cho hơn $90\%$ các ca viêm âm đạ
 
 ##### 3. Trùng roi âm đạo (Trichomonas vaginalis - TV)
 * **Phác đồ khuyến cáo chuẩn:**
-  * <span style="color:#51cf66"><b>Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày</b></span> (CDC 2021 đã chính thức hạ liều đơn $2\text{ g}$ xuống hàng thay thế, vì phác đồ 7 ngày giảm tái phát vượt trội ở nữ giới).
+  * <span style="color:#51cf66"><b>Metronidazole 500 mg uống $2$ lần/ngày × 7 ngày</b></span> (CDC 2021 đã chính thức hạ liều đơn $2\text{ g}$ xuống hàng thay thế, vì phác đồ 7 ngày giảm tái phát vượt trội ở nữ giới).
   * *Phác đồ thay thế:* Tinidazole $2\text{ g}$ uống $1$ liều duy nhất.
 * **BẮT BUỘC ĐIỀU TRỊ BẠN TÌNH:**
   * <span style="color:#ff6b6b"><b>BẮT BUỘC ĐIỀU TRỊ ĐỒNG THỜI TẤT CẢ BẠN TÌNH</b></span> cùng phác đồ, bất kể bạn tình có triệu chứng hay không (bạn tình nam thường là nguồn mang mầm bệnh không triệu chứng trong niệu đạo/tiền liệt tuyến).
   * Kiêng quan hệ tình dục cho đến khi cả hai người đã uống hết thuốc và hoàn toàn sạch triệu chứng.
-* **Phụ nữ có thai:** Dùng Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 7$ ngày (ngăn ngừa sinh non và trẻ nhẹ cân).
+* **Phụ nữ có thai:** Dùng Metronidazole 500 mg uống $2$ lần/ngày × 7 ngày (ngăn ngừa sinh non và trẻ nhẹ cân).
 
 ---
 
@@ -334,15 +334,15 @@ Kháng sinh bắt buộc phải bao phủ trọn gói: **Lậu cầu + Chlamydia
 * **Phác đồ khuyến cáo A:**
   * <span style="color:#51cf66"><b>Ceftriaxone $1\text{ g}$ IV mỗi $24$ giờ</b></span>
   * $+$ <span style="color:#51cf66"><b>Doxycycline $100\text{ mg}$ uống (hoặc IV) mỗi $12$ giờ</b></span>
-  * $+$ <span style="color:#51cf66"><b>Metronidazole $500\text{ mg}$ uống (hoặc IV) mỗi $12$ giờ</b></span> (bắt buộc thêm để diệt kỵ khí).
-* *Khi lâm sàng cải thiện rõ rệt (hết sốt $\ge 24$ giờ, giảm đau bụng, bạch cầu về bình thường):* Chuyển sang Doxycycline $100\text{ mg}$ uống $\times 2$ lần/ngày $+$ Metronidazole $500\text{ mg}$ uống $\times 2$ lần/ngày để hoàn thành **đủ $14$ ngày điều trị**.
+  * $+$ <span style="color:#51cf66"><b>Metronidazole 500 mg uống (hoặc IV) mỗi $12$ giờ</b></span> (bắt buộc thêm để diệt kỵ khí).
+* *Khi lâm sàng cải thiện rõ rệt (hết sốt $\ge 24$ giờ, giảm đau bụng, bạch cầu về bình thường):* Chuyển sang Doxycycline $100\text{ mg}$ uống × 2 lần/ngày $+$ Metronidazole 500 mg uống × 2 lần/ngày để hoàn thành **đủ 14 ngày điều trị**.
 
 #### Phác đồ Ngoại trú (Đường tiêm bắp + Đường uống)
-* **Liều khởi đầu:** <span style="color:#51cf66"><b>Ceftriaxone $500\text{ mg}$ Tiêm bắp (IM) liều duy nhất</b></span> (nếu $\ge 150\text{ kg}$ dùng $1\text{ g}$).
+* **Liều khởi đầu:** <span style="color:#51cf66"><b>Ceftriaxone 500 mg Tiêm bắp (IM) liều duy nhất</b></span> (nếu $\ge 150\text{ kg}$ dùng $1\text{ g}$).
 * **Kèm theo duy trì đủ 14 ngày:**
   * <span style="color:#51cf66"><b>Doxycycline $100\text{ mg}$ uống $2$ lần/ngày $\times 14$ ngày</b></span>
-  * $+$ <span style="color:#51cf66"><b>Metronidazole $500\text{ mg}$ uống $2$ lần/ngày $\times 14$ ngày</b></span>.
-* ⚠️ **Lịch hẹn tái khám:** Bắt buộc hẹn bệnh nhân tái khám đánh giá lại sau **$48 - 72$ giờ**. Nếu triệu chứng không thuyên giảm $\rightarrow$ Chuyển nhập viện nội trú ngay lập tức!
+  * $+$ <span style="color:#51cf66"><b>Metronidazole 500 mg uống $2$ lần/ngày $\times 14$ ngày</b></span>.
+* ⚠️ **Lịch hẹn tái khám:** Bắt buộc hẹn bệnh nhân tái khám đánh giá lại sau **48 - 72 giờ**. Nếu triệu chứng không thuyên giảm → Chuyển nhập viện nội trú ngay lập tức!
 
 ---
 
@@ -350,8 +350,8 @@ Kháng sinh bắt buộc phải bao phủ trọn gói: **Lậu cầu + Chlamydia
 
 #### Áp xe phần phụ (Tubo-Ovarian Abscess - TOA)
 * Là khối mủ giải phẫu bao gồm vòi tử cung, buồng trứng và các quai ruột dính xung quanh.
-* **Nguy cơ tử vong:** Khối TOA vỡ dẫn tới sốc nhiễm khuẩn và viêm phúc mạc toàn thể $\rightarrow$ Cấp cứu ngoại khoa tối khẩn cấp!
-* **Chiến lược:** Điều trị nội trú kháng sinh tĩnh mạch phổ rộng (có Metronidazole liều cao). Nếu sau $48 - 72$ giờ khối áp xe không thu nhỏ hoặc kích thước $\ge 7 - 8\text{ cm}$: Phối hợp dẫn lưu qua da/qua túi cùng dưới hướng dẫn siêu âm/CT, hoặc phẫu thuật nội soi làm sạch ổ mủ.
+* **Nguy cơ tử vong:** Khối TOA vỡ dẫn tới sốc nhiễm khuẩn và viêm phúc mạc toàn thể → Cấp cứu ngoại khoa tối khẩn cấp!
+* **Chiến lược:** Điều trị nội trú kháng sinh tĩnh mạch phổ rộng (có Metronidazole liều cao). Nếu sau 48 - 72 giờ khối áp xe không thu nhỏ hoặc kích thước $\ge 7 - 8\text{ cm}$: Phối hợp dẫn lưu qua da/qua túi cùng dưới hướng dẫn siêu âm/CT, hoặc phẫu thuật nội soi làm sạch ổ mủ.
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -410,12 +410,132 @@ Bệnh nhân đến khám vì Khí hư / Ngứa / Đau bụng dưới
 
 ### 10 Điểm Cốt Tử Lâm Sàng Bỏ Túi (Clinical Pearls)
 1. **Không điều trị BV cho bạn tình nam**, nhưng **bắt buộc điều trị bạn tình trong Trichomonas, Lậu và Chlamydia**.
-2. Phụ nữ mang thai bị nấm Candida: **CẤM TUYỆT ĐỐI Fluconazole uống** $\rightarrow$ Chỉ kê **thuốc đặt âm đạo nhóm Azole (Clotrimazole) $\times 7$ ngày**.
-3. Bệnh nhân uống Metronidazole / Tinidazole: Nhắc nhở dứt khoát **kiêng rượu bia $100\%$** (chống ngộ độc Disulfiram).
-4. Phụ nữ mang thai bị BV hoặc Trichomonas: Điều trị bằng **Metronidazole $500\text{ mg}$ uống $\times 2$ lần/ngày $\times 7$ ngày** (an toàn mọi tam cá nguyệt, giúp giảm tỷ lệ vỡ ối non và đẻ non).
-5. Khí hư sinh lý không bao giờ gây ngứa hay hôi; hễ có ngứa dữ dội $\rightarrow$ nghĩ ngay tới **Candida**; hễ có mùi tanh cá sau khi quan hệ $\rightarrow$ nghĩ ngay tới **BV**.
+2. Phụ nữ mang thai bị nấm Candida: **CẤM TUYỆT ĐỐI Fluconazole uống** → Chỉ kê **thuốc đặt âm đạo nhóm Azole (Clotrimazole) × 7 ngày**.
+3. Bệnh nhân uống Metronidazole / Tinidazole: Nhắc nhở dứt khoát **kiêng rượu bia 100%** (chống ngộ độc Disulfiram).
+4. Phụ nữ mang thai bị BV hoặc Trichomonas: Điều trị bằng **Metronidazole 500 mg uống × 2 lần/ngày × 7 ngày** (an toàn mọi tam cá nguyệt, giúp giảm tỷ lệ vỡ ối non và đẻ non).
+5. Khí hư sinh lý không bao giờ gây ngứa hay hôi; hễ có ngứa dữ dội → nghĩ ngay tới **Candida**; hễ có mùi tanh cá sau khi quan hệ → nghĩ ngay tới **BV**.
 6. Soi tươi nấm men: Nhỏ một giọt KOH 10% sẽ làm tan tế bào biểu mô và hồng cầu/bạch cầu, làm lộ rõ các **sợi tơ nấm giả (Pseudohyphae)**.
 7. Cổ tử cung chảy mủ nhầy hoặc rỉ máu khi chạm tăm bông: Luôn luôn điều trị bao phủ đồng thời cả **Lậu cầu (Ceftriaxone)** và **Chlamydia (Doxycycline)** trong khi chờ PCR.
-8. Ở phụ nữ trẻ bị đau bụng dưới: Luôn làm test thử thai (**$\beta\text{-hCG}$**) trước tiên để loại trừ **Thai ngoài tử cung** trước khi kết luận là PID.
+8. Ở phụ nữ trẻ bị đau bụng dưới: Luôn làm test thử thai (**Beta-hCG**) trước tiên để loại trừ **Thai ngoài tử cung** trước khi kết luận là PID.
 9. Dấu hiệu Chandelier (đau khi lắc cổ tử cung) là phản xạ viêm phúc mạc tiểu khung do vòi tử cung bị kéo căng, là chìa khóa nhận diện PID tại giường.
-10. Đơn thuốc PID ngoại trú bắt buộc phải kéo dài **đủ $14$ ngày liên tục** để diệt tận gốc Chlamydia và vi khuẩn kỵ khí sâu trong vòi tử cung, hẹn tái khám sau **$48 - 72$ giờ**.
+10. Đơn thuốc PID ngoại trú bắt buộc phải kéo dài **đủ 14 ngày liên tục** để diệt tận gốc Chlamydia và vi khuẩn kỵ khí sâu trong vòi tử cung, hẹn tái khám sau **48 - 72 giờ**.
+
+
+---
+
+## 5. CHUYÊN ĐỀ MỞ RỘNG: LỘ TUYẾN CỔ TỬ CUNG (CERVICAL ECTROPION) — TỪ SINH LÝ ĐẾN VIÊM BỘI NHIỄM & NANG NABOTH
+
+Lộ tuyến cổ tử cung (*Cervical Ectropion / Cervical Eversion*) là một trong những thực thể **bị hiểu lầm, bị thổi phồng nguy cơ và bị lạm dụng can thiệp (đốt điện, áp lạnh)** nhiều nhất trong thực hành sản phụ khoa tại Việt Nam.
+
+### 5.1. Bản chất Mô học: Lộ tuyến KHÔNG PHẢI LÀ BỆNH LÝ
+
+Cổ tử cung của người phụ nữ có 2 loại biểu mô lót riêng biệt:
+* **Cổ ngoài tử cung (Ectocervix):** Được phủ bởi lớp **biểu mô lát tầng (biểu mô vảy không sừng hóa)** trơn láng, màu hồng nhạt, biểu mô gồm nhiều lớp tế bào dày dặn bảo vệ.
+* **Cổ trong ống tử cung (Endocervix):** Được lót bởi lớp **biểu mô trụ đơn** có chức năng tiết chất nhầy kiềm, chỉ gồm 1 lớp tế bào hình trụ xếp hàng rào, bên dưới có lớp đệm giàu mao mạch máu, màu đỏ tươi.
+
+```text
+       Ống cổ trong (Biểu mô TRỤ đơn tiết nhầy, màu đỏ rực)
+                             │
+            (Chịu tác động của ESTROGEN bò lấn ra ngoài)
+                             ▼
+       Cổ ngoài tử cung (Vốn là Biểu mô LÁT TẦNG, màu hồng nhạt)
+                             │
+                             ▼
+  ┌────────────────────────────────────────────────────────┐
+  │ LỘ TUYẾN CTC = Lộn biểu mô trụ từ trong ra ngoài       │
+  │ • Nhìn qua mỏ vịt: ĐỎ RỰC, sần sùi dạng hạt chùm nho   │
+  │ • Bản chất: HIỆN TƯỢNG SINH LÝ BÌNH THƯỜNG             │
+  │ • KHÔNG PHẢI "VIÊM LOÉT" như lời đồn thổi              │
+  └────────────────────────────────────────────────────────┘
+```
+
+> 🔄 **Chuỗi cơ chế sinh lý học:**  
+> Dưới tác động kích thích của hormone <span style="color:#74c0fc"><b>Estrogen</b></span> nội sinh tăng cao (tuổi dậy thì, phụ nữ trong độ tuổi hoạt động tình dục và sinh sản, phụ nữ mang thai, hoặc phụ nữ dùng thuốc tránh thai kết hợp) → Biểu mô trụ đơn ống cổ trong tăng sinh mạnh mẽ và <span style="color:#74c0fc"><b>bò lan ra ngoài</b></span> mặt cổ ngoài tử cung → Do biểu mô trụ chỉ dày 1 lớp tế bào, mạng lưới mao mạch màu đỏ bên dưới ánh lên rõ rệt → Khi bác sĩ đặt mỏ vịt quan sát sẽ thấy một vùng màu <span style="color:#ff6b6b"><b>đỏ rực, sần sùi dạng hạt tuyến</b></span> xung quanh lỗ cổ tử cung → Bằng mắt thường nhìn giống như một "vết trợt", nhưng về bản chất đây hoàn toàn là <span style="color:#51cf66"><b>hiện tượng lộn biểu mô sinh lý bình thường</b></span>, không phải tổn thương loét hay ác tính.  
+> Khi người phụ nữ bước vào giai đoạn mãn kinh (nồng độ Estrogen sụt giảm), ranh giới lát - trụ rụt lùi sâu vào trong ống cổ tử cung, <span style="color:#ffd43b"><b>lộ tuyến tự động co nhỏ và biến mất hoàn toàn</b></span>.
+
+---
+
+### 5.2. Phân biệt Đối đầu: Lộ Tuyến Sinh Lý vs. Viêm Lộ Tuyến Bội Nhiễm
+
+| Đặc điểm | <span style="color:#51cf66"><b>Lộ Tuyến Sinh Lý Đơn Thuần</b></span> | <span style="color:#ff6b6b"><b>Viêm Lộ Tuyến Bội Nhiễm</b></span> |
+| :--- | :--- | :--- |
+| **Bản chất bệnh học** | Biểu mô trụ bò ra ngoài nhưng **hoàn toàn vô khuẩn**, không có vi khuẩn gây hại xâm lấn. | Biểu mô trụ bị bội nhiễm bởi **vi khuẩn kỵ khí âm đạo, nấm Candida, trùng roi Trichomonas, Chlamydia hoặc Lậu cầu**. |
+| **Tính chất khí hư** | Dịch tiết âm đạo **trong suốt, dai dính như lòng trắng trứng**, không mùi, ra lượng nhiều hơn bình thường (do các tế bào tuyến biểu mô trụ tiếp tục bài tiết chất nhầy). | Khí hư **đục, vàng hoặc xanh lá, vón cục bã đậu, lẫn mủ nhầy đặc, có bọt**, bốc mùi hôi tanh khó chịu. |
+| **Triệu chứng cơ năng** | Hoàn toàn <span style="color:#ffd43b"><b>không ngứa ngáy, không bỏng rát, không đau bụng</b></span>. Người phụ nữ chỉ có cảm giác hơi ẩm ướt vùng đáy quần lót. | <span style="color:#ff6b6b"><b>Ngứa ngáy dữ dội, nóng rát âm hộ - âm đạo</b></span>, giao hợp đau rát, tiểu buốt rát, đau tức nặng vùng hạ vị. |
+| **Dấu hiệu chạm khám** | Cổ tử cung đỏ tươi nhưng bề mặt trơn mềm, chạm gạc tăm bông **không chảy máu** hoặc chỉ rỉ dịch nhầy trong. | Vùng lộ tuyến **sung huyết đỏ rực, phù nề, bở mục (friability)**; chạm nhẹ tăm bông hoặc sau giao hợp là **chảy máu tươi (postcoital bleeding)**. |
+| **Thử nghiệm Lugol (Schiller test)** | Vùng lộ tuyến **không bắt màu iod** (do biểu mô trụ không có glycogen) → hiện màu vàng nhạt/trắng. | Vùng lộ tuyến không bắt màu iod, niêm mạc xung quanh sung huyết viêm đỏ. |
+| **Chiến lược xử trí** | <span style="color:#51cf66"><b>TUYỆT ĐỐI KHÔNG CẦN CAN THIỆP GÌ</b></span>. Không đốt, không áp lạnh. Vệ sinh ngoài sạch sẽ và giải thích trấn an người bệnh. | <span style="color:#ff6b6b"><b>Điều trị nội khoa bằng thuốc đặc hiệu</b></span> (kháng sinh uống/đặt, kháng nấm, trị trùng roi) để diệt sạch mầm bệnh. |
+
+---
+
+### 5.3. Sự Tái Tạo Tự Nhiên & Cơ Chế Hình Thành Nang Naboth
+
+Cổ tử cung có khả năng tự phục hồi sinh lý tuyệt vời thông qua quá trình **Chuyển sản vảy (Squamous Metaplasia)**:
+
+```text
+Môi trường acid tự nhiên của âm đạo (pH 3,8 - 4,5)
+     │ (Kích thích tế bào dự trữ dưới biểu mô trụ biệt hóa)
+     ▼
+Các tế bào biểu mô lát non bò từ mép ngoài vào CHE PHỦ lại vùng lộ tuyến
+     │
+     ├─▶ LÀNH TỰ NHIÊN HOÀN TOÀN ──▶ Cổ tử cung nhẵn bóng màu hồng nhạt
+     │
+     └─▶ BIỂU MÔ LÁT BÒ CHE PHỦ QUA MIỆNG TUYẾN TRƯỚC KHI TUYẾN THOÁI HÓA
+           ▼
+         Tuyến bên dưới tiếp tục tiết dịch nhầy nhưng miệng thoát đã bị bịt kín
+           ▼
+         Chất nhầy tích tụ làm phồng căng tuyến thành nang: NANG NABOTH
+```
+
+* **Nang Naboth là gì?** Là những nang tròn nhỏ màu trắng đục, vàng nhạt hoặc trong suốt, nhẵn bóng, nổi gồ trên mặt cổ tử cung, kích thước từ vài milimet đến 1 – 2 cm.
+* **Nang Naboth có nguy hiểm không?** **Hoàn toàn lành tính 100%**. Đây là dấu hiệu minh chứng cho quá trình tái tạo biểu mô lát đang diễn ra thành công. Không phải khối u ác tính. Tuyệt đối **không cần chọc hút, không cần đốt** trừ khi nang phát triển quá lớn gây biến dạng lỗ cổ tử cung.
+
+---
+
+### 5.4. Lộ Tuyến và Ung Thư Cổ Tử Cung: Nhận Thức Đúng Đắn
+
+1. **Lộ tuyến KHÔNG PHẢI là ung thư và KHÔNG TỰ BIẾN ĐỔI thành ung thư.** Ung thư cổ tử cung do sự tích hợp gen của các chủng virus **HPV nguy cơ cao (đặc biệt HPV 16, 18, 31, 33, 45, 52, 58)** kéo dài nhiều năm.
+2. **Tại sao lộ tuyến lại liên quan đến tầm soát ung thư?** Ranh giới giữa biểu mô lát và biểu mô trụ (gọi là **Vùng chuyển tiếp - Transformation Zone - TZ**) chính là nơi các tế bào đang phân chia chuyển sản mạnh mẽ nhất, khiến nó trở thành **"cửa ngõ" ưa thích nhất để virus HPV xâm nhập**.
+3. **Quy tắc vàng trước mọi can thiệp:** Mọi bệnh nhân có hình ảnh lộ tuyến cổ tử cung **bắt buộc phải được làm xét nghiệm Tế bào học cổ tử cung (Pap smear / ThinPrep) và xét nghiệm HPV DNA** để loại trừ hoàn toàn các tổn thương tiền ung thư (CIN 1, CIN 2, CIN 3 / HSIL) trước khi kết luận là lộ tuyến lành tính.
+
+---
+
+### 5.5. Vấn Nạn "Đốt Diệt Tuyến" Vô Tội Vạ & Di Chứng Nghiêm Trọng
+
+Trong thực tế, nhiều cơ sở y tế tư nhân thường chia lộ tuyến thành "Độ 1 (< 1/3 diện tích), Độ 2 (1/3 - 2/3 diện tích), Độ 3 (> 2/3 diện tích)" và hù dọa bệnh nhân rằng để lâu sẽ biến thành ung thư, sau đó chỉ định **đốt điện, đốt laser, áp lạnh (cryotherapy) hoặc dùng dao LEEP** bừa bãi. Đây là một sai lầm điều trị để lại nhiều hệ lụy nặng nề:
+
+#### ⚠️ Những Di chứng Nặng nề của Đốt Diệt Tuyến Bừa bãi:
+1. **Sẹo xơ cứng cổ tử cung gây Vô sinh thứ phát:** Nhiệt độ hoặc độ lạnh phá hủy mô cổ tử cung sâu, làm mất vĩnh viễn các tuyến tiết nhầy sinh lý và tạo dải xơ co kéo → tinh trùng không thể bơi qua chất nhầy cổ tử cung để vào buồng tử cung thụ tinh.
+2. **Rách cổ tử cung phức tạp khi chuyển dạ đẻ:** Khi có thai, cổ tử cung bị xơ hóa không thể chín muồi, không thể mỏng và mở trọn được → gây chuyển dạ đình trệ, rách cổ tử cung sâu chảy máu ồ ạt, hoặc bắt buộc phải mổ lấy thai.
+3. **Chít hẹp lỗ cổ trong (Cervical Stenosis):** Sẹo dính làm bít kín ống cổ tử cung → máu kinh hàng tháng không thoát ra ngoài được, bị ứ đọng lại trong buồng tử cung (*hematometra*) gây đau bụng dữ dội và lạc nội mạc tử cung thứ phát.
+4. **Bùng phát nhiễm trùng ngược dòng (PID):** Đốt diệt tuyến khi đang có viêm âm đạo cấp tính sẽ đẩy vi khuẩn vào sâu bên trong, gây viêm nội mạc tử cung, viêm phần phụ và áp xe buồng trứng.
+
+---
+
+### 5.6. Lưu Đồ & Tiêu Chí Khắt Khe Khi Cân Nhắc Diệt Tuyến
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│             LƯU ĐỒ XỬ TRÍ LỘ TUYẾN CỔ TỬ CUNG CHUẨN                   │
+├────────────────────────────────────────────────────────────────────────┤
+│ 1. LỘ TUYẾN SINH LÝ (Khí hư trong dai, không ngứa, không rát):        │
+│    • TUYỆT ĐỐI KHÔNG ĐỐT, KHÔNG ÁP LẠNH, KHÔNG DÙNG DAO LEEP.        │
+│    • Làm tầm soát định kỳ: Tế bào học Pap smear + HPV DNA.             │
+│    • Trấn an người bệnh: Hiện tượng sinh lý sẽ tự tái tạo chuyển sản.  │
+│                                                                        │
+│ 2. VIÊM LỘ TUYẾN (Bội nhiễm: khí hư mủ đục, ngứa rát, hôi tanh):       │
+│    • ĐIỀU TRỊ CHỐNG VIÊM NỘI KHOA TRIỆT ĐỂ BẰNG THUỐC ĐẶC HIỆU:        │
+│      Kê đơn kháng sinh, kháng nấm, trị trùng roi theo đúng nguyên nhân.│
+│    • Sau khi sạch viêm, diện tích biểu mô trụ sẽ tự co nhỏ lại.        │
+│                                                                        │
+│ 3. KHI NÀO MỚI CÂN NHẮC DIỆT TUYẾN (Đốt điện / Áp lạnh)?               │
+│    CHỈ ĐƯỢC PHÉP THỰC HIỆN KHI THỎA MÃN CẢ 4 ĐIỀU KIỆN KHẮT KHE:     │
+│    (1) Lộ tuyến diện tích rộng, tiết dịch nhầy ẩm ướt liên tục gây     │
+│        ảnh hưởng nặng nề đến chất lượng cuộc sống dù đã trị sạch viêm; │
+│        HOẶC thường xuyên ra máu chạm sau quan hệ.                      │
+│    (2) ĐÃ LÀM Pap smear + HPV DNA VÀ HOÀN TOÀN BÌNH THƯỜNG (loại trừ K)│
+│    (3) ĐÃ ĐIỀU TRỊ KHỎI HOÀN TOÀN TẤT CẢ VIÊM NHIỄM ÂM ĐẠO - CỔ TỬ CUNG│
+│    (4) Thực hiện đúng thời điểm: SAU SẠCH KINH 3 – 5 NGÀY              │
+│        (Chống chỉ định tuyệt đối khi đang có thai hoặc viêm cấp).     │
+└────────────────────────────────────────────────────────────────────────┘
+```
