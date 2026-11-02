@@ -1068,14 +1068,9 @@ cards.append(make_card(
     "HS15-ALGO-05", "Xử trí An toàn Hạ Natri Máu Nặng", "HỒI SỨC CẤP CỨU",
     "Lưu đồ thuật toán xử trí an toàn Hạ Natri máu nặng có triệu chứng thần kinh cấp tính và phòng ngừa Hội chứng Hủy Myelin Cầu Não?",
     [
-        "Bước 2 - Điều trị cắt cơn cấp cứu bằng Natri Clorid 3%:",
-        "   - Tiêm tĩnh mạch bolus 100 mL Natri Clorid 3% trong 10 đến 15 phút.",
-        "   - Nếu triệu chứng chưa cải thiện: Có thể lặp lại liều bolus 100 mL lần 2 và lần 3 (mỗi lần cách nhau 10 phút, tối đa 3 liều).",
-        "   - Mục tiêu cấp cứu: Nâng nồng độ Natri máu lên khoảng 4 đến 6 mmol/L là đủ để giảm thể tích phù não và cắt đứt cơn co giật.",
-        "Bước 3 - Kiểm soát tốc độ nâng Natri trong 24 giờ để phòng ngừa HỦY MYELIN CẦU NÃO (ODS):",
-        "   - Tốc độ nâng Natri tối đa: KHÔNG vượt quá 8 mmol/L trong 24 giờ đầu (đối với bệnh nhân xơ gan, suy dinh dưỡng, nghiện rượu: không quá 6 mmol/L/24h).",
-        "   - Xét nghiệm điện giải máu mỗi 2 - 4 giờ một lần để điều chỉnh tốc độ truyền dịch.",
-        "   - Nếu phát hiện Natri máu tăng quá nhanh (> 8 - 10 mmol/L): Ngừng ngay dung dịch ưu trương, truyền dịch nhược trương Glucose 5% hoặc dùng thuốc Desmopressin (dDAVP 1 - 2 µg tiêm tĩnh mạch) để đưa Natri trở lại ngưỡng an toàn."
+        "Bước 1 - Nhận diện triệu chứng thần kinh nguy kịch — Co giật toàn thể, hôn mê, lú lẫn nặng, suy hô hấp do phù não cấp.",
+        "Bước 2 - Điều trị cắt cơn cấp cứu bằng Natri Clorid 3% — Tiêm tĩnh mạch bolus 100 mL Natri Clorid 3% trong 10 đến 15 phút; nếu chưa đỡ có thể lặp lại tối đa 3 lần (cách nhau 10 phút); mục tiêu nâng 4 đến 6 mmol/L là đủ để cắt cơn co giật và giải áp não.",
+        "Bước 3 - Kiểm soát tốc độ nâng Natri phòng ngừa HỦY MYELIN CẦU NÃO (ODS) — Tốc độ nâng tối đa KHÔNG vượt quá 8 mmol/L trong 24 giờ đầu (bệnh nhân xơ gan, suy dinh dưỡng, nghiện rượu không quá 6 mmol/L/24h); xét nghiệm Na+ mỗi 2 đến 4 giờ; nếu tăng quá nhanh (> 8-10 mmol/L) ngừng ngay ưu trương, truyền Glucose 5% hoặc dùng Desmopressin để hạ Natri trở lại ngưỡng an toàn."
     ],
     "Ghi nhớ quy tắc nằm lòng: 'Mục tiêu cấp cứu hạ natri máu chỉ là nâng 4-6 mmol/L để cứu tính mạng, tuyệt đối không được tham lam đưa Natri về mức bình thường ngay trong ngày đầu tiên'.",
     algo=True
