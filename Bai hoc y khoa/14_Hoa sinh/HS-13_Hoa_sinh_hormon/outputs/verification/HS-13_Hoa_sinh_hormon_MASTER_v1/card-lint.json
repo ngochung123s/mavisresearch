@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-13 Cơ chế thụ thể, truyền tín hiệu tế bào và hóa sinh hormon",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:45:02",
+  "generated_at": "2026-11-02T20:57:54",
   "cards_source": "HS-13_Hoa_sinh_hormon.cards.v2.json",
-  "cards_source_sha256": "c8dd545f0b26e517470024414287e1712f2d996b3cbe6e40ab40921a2ab0cebd",
-  "card_count": 12,
+  "cards_source_sha256": "df27fceb80899f54dc2e632ac66bacd243059504405ccdd2756b0eeec54a277c",
+  "card_count": 88,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-13_Hoa_sinh_hormon\\HS-13_Hoa_sinh_hormon_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 12,
     "unchanged": 0,
-    "added": 12,
+    "added": 76,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 12
+    "deck_notes": 88
   },
-  "apkg_sha256": "275ac0703ee3a07fdd7f0280b80d09523335293cafe2adfc205041e7a3b6c719",
-  "sqlite_notes": 12,
-  "sqlite_cards": 12
+  "apkg_sha256": "dc9e6ee0e880cabee8b5dc28f096f8a76fce02865084bdf2873130ab406e0cd6",
+  "sqlite_notes": 88,
+  "sqlite_cards": 88
 }
