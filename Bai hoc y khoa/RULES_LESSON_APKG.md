@@ -100,6 +100,10 @@ Chưa enforce bằng code: chất lượng y khoa của nội dung, chọn ảnh
 
 Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Giải thích của AI:</b><br>…`. Nguồn chỉ ở `Extra` (`📖 Nguồn: …`). Màu: 🔴 `#ff6b6b` cờ đỏ/triệu chứng, 🟡 `#ffd43b` con số/tuổi/âm tính, 🟢 `#51cf66` xử trí/thuốc, 🔵 `#74c0fc` tên bệnh/giải phẫu/phân loại. Hỗ trợ **Notetype Nền Sáng (Clean Light Theme)** khi chuyên khoa khai `"theme": "light"` (tối ưu độ tương phản văn bản và dải màu trên nền trắng/off-white sáng sủa). Basic-first: mọi danh mục có thẻ Basic nền tảng; cloze chỉ nhắc phụ cho con số/ngưỡng, từ khóa định nghĩa 1 mệnh đề, tên hội chứng; liệt kê thì che trọn danh mục trong 1 cloze hoặc dùng Basic. 3–5 thẻ `⚡ THUẬT TOÁN QUYẾT ĐỊNH`.
 
+**Nguyên tắc Bao phủ theo Đơn vị Ý Kiến thức (Atomic Idea Coverage — Không áp số lượng cơ học):**
+- **Không áp hạn ngạch số lượng thẻ cứng nhắc:** Tuyệt đối không ép số lượng thẻ cơ học (ví dụ: cấm ép bài phải đủ 60 hay 100 thẻ) để ngăn chặn hành vi tạo thẻ rác, thẻ chẻ câu đối phó mà vẫn bỏ sót ý cốt lõi.
+- **Mọi ý đều phải có thẻ:** Số lượng thẻ là hệ quả tự nhiên tất yếu của mật độ ý trong bài viết gốc. Mọi đơn vị kiến thức lâm sàng xuất hiện trong bài học `.md` bắt buộc phải có thẻ kiểm tra tương ứng trong Anki.
+- **8 Đơn vị Ý bắt buộc có thẻ:** (1) Mỗi tiểu mục `###`; (2) Mọi chuỗi cơ chế `🔄`; (3) Mọi cảnh báo cờ đỏ `⚠️` / chống chỉ định `🛑`; (4) Mọi thuật toán phân nhánh `⚡`; (5) Mọi bảng phân loại/tiêu chuẩn chẩn đoán; (6) Mọi phác đồ điều trị và thuốc; (7) Mọi bẫy lâm sàng `❌`; (8) Mọi ngưỡng con số/thời gian cắt.
 | Gate skill | Mã linter | Kiểm tra | Nhóm |
 |---|---|---|---|
 | 2.9 Escape HTML | `T_ESCAPED_TAG` | Không còn `&lt;b`, `&lt;br`, `&lt;span`… | T |
@@ -109,7 +113,7 @@ Mặt sau Basic: `<b>🎯 Trả lời cốt lõi:</b><br>…<br><br><b>💡 Gi�
 | 2.9 HTML cân bằng | `T_TAG_BALANCE` | `<b>`/`<span>`/`<div>` mở-đóng khớp | T |
 | Cấu trúc | `T_EMPTY`, `T_CLOZE_SYNTAX`, `T_DUP_ID`, `T_DUP_FRONT` | Field bắt buộc; cloze đúng cú pháp; basic không chứa cloze; id/front không trùng | T |
 | 2.7 Back-purity | `P_BACK_SOURCE` | Back/Text không chứa `trang N`, `giáo trình`, `văn bản gốc`, `nguồn:`, `PMID`, `Ch.N`, `mục N` | P |
-| 2.3 Zero-omission | `D_SECTION_MISSING` | Mọi `required_sections` có ≥1 thẻ | D |
+| 2.3 Zero-omission | `D_SECTION_MISSING`, `D_IDEA_COVERAGE` | Mọi `required_sections` có ≥1 thẻ; mọi đơn vị ý cấu trúc (`###`, chuỗi `🔄`, hộp đỏ `⚠️`/`🛑`, bẫy `❌`) trong bài học phải có thẻ tương ứng | D |
 | Tên deck | `D_DECK_NAME` | Theo §1 (gốc deck của chuyên khoa, mã bài khớp manifest, tên có dấu) | D |
 | Media | `D_MEDIA` | Ảnh trong thẻ tồn tại, ≤150 KB, ≤1200 px | D |
 | 2.10 Dấu tiếng Việt | `D_DIACRITICS` | APKG ratio ≥ 80% | D |
