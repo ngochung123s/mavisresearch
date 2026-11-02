@@ -155,14 +155,14 @@
     "specialty": "nhi",
     "id": "PED-07",
     "folder": "12_Nhi khoa/01_Hoi_suc_Cap_cuu_Ngo_doc/PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh",
-    "manifest": false,
-    "profile": "disease (giả định)",
+    "manifest": true,
+    "profile": "disease",
     "lesson": "PED-07_Co_giat_do_sot_va_Trang_thai_dong_kinh_2026-09-16_RELEASE_v1.md",
     "debt": 14,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
       "F_LATEX": 12,
-      "M_MANIFEST": 1
+      "M_PROFILE": 1
     },
     "depth_fails": [],
     "decks": [
@@ -171,9 +171,9 @@
         "deck": "Nhi khoa Y6::PED-07: Co giật do sốt & Cắt cơn co giật / Trạng thái động kinh",
         "id": "PED-07",
         "specialty": "nhi",
-        "notes": 68,
+        "notes": 111,
         "basic": 68,
-        "cloze": 0,
+        "cloze": 43,
         "block": 0,
         "debt": 165,
         "by_code": {
@@ -190,37 +190,26 @@
     "specialty": "nhi",
     "id": "PED-11",
     "folder": "12_Nhi khoa/01_Hoi_suc_Cap_cuu_Ngo_doc/PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi",
-    "manifest": false,
-    "profile": "disease (giả định)",
-    "lesson": "PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi_2026-09-27_RELEASE_v1.md",
-    "debt": 9,
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
     "by_code": {
-      "C_CHAIN_FORMAT": 1,
-      "F_LATEX": 5,
-      "M_MANIFEST": 1,
-      "S_DEPTH": 2
+      "M_MANIFEST": 1
     },
-    "depth_fails": [
-      "Main sections count (##) & keywords",
-      "Mechanism chains (→ / Tầng 1..5)"
-    ],
+    "depth_fails": [],
     "decks": [
       {
         "apkg": "12_Nhi khoa/01_Hoi_suc_Cap_cuu_Ngo_doc/PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi/PED-11_Roi_loan_toan_kiem_va_Doc_khi_mau_dong_mach_nhi_MASTER_v1.apkg",
-        "deck": "Nhi khoa Y6::PED-11: Rối loạn toan kiềm & Đọc khí máu động mạch nhi",
+        "deck": "Nhi khoa Y6::PED-11: Sinh lý và bệnh lý thăng bằng toan kiềm ở trẻ em",
         "id": "PED-11",
         "specialty": "nhi",
-        "notes": 126,
-        "basic": 126,
-        "cloze": 0,
+        "notes": 101,
+        "basic": 64,
+        "cloze": 37,
         "block": 0,
-        "debt": 281,
+        "debt": 0,
         "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 27,
-          "G_BACK_STRUCTURE": 1,
-          "G_COLOR_BACK": 126,
-          "G_COLOR_FRONT": 126,
           "W_TIER": 1
         }
       }
@@ -230,36 +219,26 @@
     "specialty": "nhi",
     "id": "PED-50",
     "folder": "12_Nhi khoa/01_Hoi_suc_Cap_cuu_Ngo_doc/PED-50_Roi_loan_nuoc_va_dien_giai_o_tre_em",
-    "manifest": false,
-    "profile": "disease (giả định)",
-    "lesson": "PED-50_Roi_loan_nuoc_va_dien_giai_o_tre_em_2026-09-27_RELEASE_v1.md",
-    "debt": 90,
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
     "by_code": {
-      "C_CHAIN_FORMAT": 1,
-      "F_LATEX": 86,
-      "M_MANIFEST": 1,
-      "S_DEPTH": 2
+      "M_MANIFEST": 1
     },
-    "depth_fails": [
-      "Examples (ví dụ / VD)",
-      "Main sections count (##) & keywords"
-    ],
+    "depth_fails": [],
     "decks": [
       {
         "apkg": "12_Nhi khoa/01_Hoi_suc_Cap_cuu_Ngo_doc/PED-50_Roi_loan_nuoc_va_dien_giai_o_tre_em/PED-50_Roi_loan_nuoc_va_dien_giai_o_tre_em_MASTER_v1.apkg",
-        "deck": "Nhi khoa Y6::PED-50: Tiếp cận & Xử trí Rối loạn điện giải ở trẻ em",
+        "deck": "Nhi khoa Y6::PED-50: Rối loạn chuyển hóa nước điện giải ở trẻ em",
         "id": "PED-50",
         "specialty": "nhi",
-        "notes": 116,
-        "basic": 116,
-        "cloze": 0,
+        "notes": 169,
+        "basic": 87,
+        "cloze": 82,
         "block": 0,
-        "debt": 244,
+        "debt": 0,
         "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 11,
-          "G_COLOR_BACK": 116,
-          "G_COLOR_FRONT": 116,
           "W_TIER": 1
         }
       }
@@ -283,14 +262,15 @@
         "deck": "Nhi khoa Y6::PED-52: Đánh giá & Xử trí bệnh nhân nặng",
         "id": "PED-52",
         "specialty": "nhi",
-        "notes": 89,
-        "basic": 27,
+        "notes": 96,
+        "basic": 34,
         "cloze": 62,
         "block": 0,
-        "debt": 69,
+        "debt": 74,
         "by_code": {
           "G_ALGO_COUNT": 1,
           "G_ASKS_MISSING": 3,
+          "G_BACK_STRUCTURE": 5,
           "G_COLOR_BACK": 27,
           "G_COLOR_FRONT": 27,
           "G_PARTIAL_CLOZE": 11,
@@ -450,32 +430,24 @@
     "folder": "12_Nhi khoa/02_So_sinh_hoc/PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh",
     "manifest": true,
     "profile": "disease",
-    "lesson": "PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_2026-09-17_RELEASE_v1.md",
-    "debt": 138,
+    "lesson": null,
+    "debt": 1,
     "by_code": {
-      "C_CHAIN_FORMAT": 1,
-      "F_LATEX": 133,
-      "M_PROFILE": 1,
-      "S_DEPTH": 2,
-      "V_NO_ARTIFACTS": 1
+      "M_MANIFEST": 1
     },
-    "depth_fails": [
-      "Clinical cases with solutions",
-      "Tips bullets (Section 7)"
-    ],
+    "depth_fails": [],
     "decks": [
       {
         "apkg": "12_Nhi khoa/02_So_sinh_hoc/PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh/PED-17_Ha_duong_huyet_va_Ha_than_nhiet_so_sinh_MASTER_v2.apkg",
-        "deck": "Nhi khoa Y6::PED-17: Hạ đường huyết & Hạ thân nhiệt sơ sinh",
+        "deck": "Nhi khoa Y6::PED-17: Hạ đường huyết sơ sinh",
         "id": "PED-17",
         "specialty": "nhi",
-        "notes": 140,
-        "basic": 76,
-        "cloze": 64,
+        "notes": 71,
+        "basic": 37,
+        "cloze": 34,
         "block": 0,
-        "debt": 11,
+        "debt": 0,
         "by_code": {
-          "G_ASKS_MISSING": 11,
           "W_TIER": 1
         }
       }
@@ -583,6 +555,35 @@
         "debt": 15,
         "by_code": {
           "G_ASKS_MISSING": 15,
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-23",
+    "folder": "12_Nhi khoa/03_Ho_hap/PED-23_Hen_phe_quan_tre_em",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/03_Ho_hap/PED-23_Hen_phe_quan_tre_em/PED-23_Hen_phe_quan_tre_em_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-23: Hen phế quản trẻ em",
+        "id": "PED-23",
+        "specialty": "nhi",
+        "notes": 60,
+        "basic": 44,
+        "cloze": 16,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
           "W_TIER": 1
         }
       }
@@ -794,6 +795,35 @@
   },
   {
     "specialty": "nhi",
+    "id": "PED-69",
+    "folder": "12_Nhi khoa/03_Ho_hap/PED-69_Viem_phoi_tre_em_Chan_doan_can_nguyen_va_Lua_chon_khang_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/03_Ho_hap/PED-69_Viem_phoi_tre_em_Chan_doan_can_nguyen_va_Lua_chon_khang_sinh/PED-69_Viem_phoi_tre_em_Chan_doan_can_nguyen_va_Lua_chon_khang_sinh_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-69: Viêm phổi trẻ em – Chẩn đoán căn nguyên & Lựa chọn kháng sinh (chi tiết)",
+        "id": "PED-69",
+        "specialty": "nhi",
+        "notes": 91,
+        "basic": 66,
+        "cloze": 25,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
     "id": "PED-27",
     "folder": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-27_Tieu_chay_cap_Phan_loai_mat_nuoc_va_Phac_do_A_B_C",
     "manifest": true,
@@ -895,16 +925,16 @@
         "deck": "Nhi khoa Y6::PED-46: Tiếp cận gan to ở trẻ em",
         "id": "PED-46",
         "specialty": "nhi",
-        "notes": 97,
-        "basic": 97,
+        "notes": 99,
+        "basic": 99,
         "cloze": 0,
         "block": 0,
-        "debt": 199,
+        "debt": 203,
         "by_code": {
           "G_ALGO_COUNT": 1,
           "G_ASKS_MISSING": 4,
-          "G_COLOR_BACK": 97,
-          "G_COLOR_FRONT": 97,
+          "G_COLOR_BACK": 99,
+          "G_COLOR_FRONT": 99,
           "W_TIER": 1
         }
       }
@@ -928,16 +958,18 @@
         "deck": "Nhi khoa Y6::PED-55: Xuất huyết tiêu hóa ở trẻ em",
         "id": "PED-55",
         "specialty": "nhi",
-        "notes": 68,
-        "basic": 68,
+        "notes": 78,
+        "basic": 78,
         "cloze": 0,
-        "block": 0,
-        "debt": 163,
+        "block": 48,
+        "debt": 150,
         "by_code": {
           "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 26,
-          "G_COLOR_BACK": 68,
-          "G_COLOR_FRONT": 68,
+          "G_ASKS_MISSING": 30,
+          "G_BACK_STRUCTURE": 33,
+          "G_COLOR_BACK": 45,
+          "G_COLOR_FRONT": 41,
+          "T_ESCAPED_TAG": 48,
           "W_TIER": 1
         }
       }
@@ -1004,6 +1036,118 @@
           "G_BACK_STRUCTURE": 88,
           "G_COLOR_BACK": 92,
           "G_COLOR_FRONT": 92,
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-64",
+    "folder": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-64_Tiep_can_lach_to",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": "PED-64_Tiep_can_lach_to_2026-10-22_RELEASE_v1.md",
+    "debt": 0,
+    "by_code": {},
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-64_Tiep_can_lach_to/PED-64_Tiep_can_lach_to_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-64: Tiếp cận lách to ở trẻ em",
+        "id": "PED-64",
+        "specialty": "nhi",
+        "notes": 178,
+        "basic": 145,
+        "cloze": 33,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-65",
+    "folder": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-65_Tao_bon_chuc_nang_o_tre_em",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": "PED-65_Tao_bon_chuc_nang_o_tre_em_2026-10-24_RELEASE_v1.md",
+    "debt": 0,
+    "by_code": {},
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-65_Tao_bon_chuc_nang_o_tre_em/PED-65_Tao_bon_chuc_nang_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-65: Táo bón chức năng ở trẻ em",
+        "id": "PED-65",
+        "specialty": "nhi",
+        "notes": 70,
+        "basic": 66,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-67",
+    "folder": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-67_Coi_xuong_thieu_vitamin_D",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-67_Coi_xuong_thieu_vitamin_D/PED-67_Coi_xuong_thieu_vitamin_D_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-67: Còi xương thiếu vitamin D",
+        "id": "PED-67",
+        "specialty": "nhi",
+        "notes": 45,
+        "basic": 37,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-68",
+    "folder": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-68_Kham_phat_trien_the_chat_tre_em",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/04_Tieu_hoa_va_Dinh_duong/PED-68_Kham_phat_trien_the_chat_tre_em/PED-68_Kham_phat_trien_the_chat_tre_em_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-68: Khám phát triển thể chất trẻ em theo EBM",
+        "id": "PED-68",
+        "specialty": "nhi",
+        "notes": 79,
+        "basic": 66,
+        "cloze": 13,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
           "W_TIER": 1
         }
       }
@@ -1186,16 +1330,16 @@
         "deck": "Nhi khoa Y6::PED-53: Hạch to ở trẻ em",
         "id": "PED-53",
         "specialty": "nhi",
-        "notes": 60,
-        "basic": 60,
+        "notes": 63,
+        "basic": 63,
         "cloze": 0,
         "block": 0,
-        "debt": 139,
+        "debt": 144,
         "by_code": {
           "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 18,
-          "G_COLOR_BACK": 60,
-          "G_COLOR_FRONT": 60,
+          "G_ASKS_MISSING": 17,
+          "G_COLOR_BACK": 63,
+          "G_COLOR_FRONT": 63,
           "W_TIER": 1
         }
       }
@@ -1232,14 +1376,13 @@
         "notes": 63,
         "basic": 63,
         "cloze": 0,
-        "block": 2,
-        "debt": 153,
+        "block": 0,
+        "debt": 151,
         "by_code": {
           "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 26,
-          "G_COLOR_BACK": 63,
+          "G_ASKS_MISSING": 27,
+          "G_COLOR_BACK": 60,
           "G_COLOR_FRONT": 63,
-          "P_BACK_SOURCE": 2,
           "W_TIER": 1
         }
       }
@@ -1277,38 +1420,24 @@
     "specialty": "nhi",
     "id": "PED-40",
     "folder": "12_Nhi khoa/06_Than_Tim_mach_Noi_tiet/PED-40_Hoi_chung_than_hu_nguyen_phat",
-    "manifest": false,
-    "profile": "disease (giả định)",
+    "manifest": true,
+    "profile": "foundation",
     "lesson": "PED-40_Hoi_chung_than_hu_nguyen_phat_2026-09-21_RELEASE_v1.md",
-    "debt": 5,
-    "by_code": {
-      "C_CHAIN_FORMAT": 1,
-      "F_LATEX": 1,
-      "M_MANIFEST": 1,
-      "S_DEPTH": 1,
-      "V_NO_ARTIFACTS": 1
-    },
-    "depth_fails": [
-      "Clinical cases with solutions"
-    ],
+    "debt": 0,
+    "by_code": {},
+    "depth_fails": [],
     "decks": [
       {
         "apkg": "12_Nhi khoa/06_Than_Tim_mach_Noi_tiet/PED-40_Hoi_chung_than_hu_nguyen_phat/PED-40_Hoi_chung_than_hu_nguyen_phat_MASTER_v1.apkg",
         "deck": "Nhi khoa Y6::PED-40: Hội chứng thận hư nguyên phát ở trẻ em",
         "id": "PED-40",
         "specialty": "nhi",
-        "notes": 98,
-        "basic": 64,
-        "cloze": 34,
+        "notes": 103,
+        "basic": 70,
+        "cloze": 33,
         "block": 0,
-        "debt": 198,
+        "debt": 0,
         "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 5,
-          "G_COLOR_BACK": 64,
-          "G_COLOR_FRONT": 64,
-          "G_EXTRA_EMPTY": 62,
-          "G_PARTIAL_CLOZE": 2,
           "W_TIER": 1
         }
       }
@@ -1318,13 +1447,13 @@
     "specialty": "nhi",
     "id": "PED-43",
     "folder": "12_Nhi khoa/06_Than_Tim_mach_Noi_tiet/PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot",
-    "manifest": false,
-    "profile": "disease (giả định)",
+    "manifest": true,
+    "profile": "disease",
     "lesson": "PED-43_Benh_tim_bam_sinh_thuong_gap_va_Con_tim_Fallot_2026-09-19_RELEASE_v1.md",
     "debt": 5,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
-      "M_MANIFEST": 1,
+      "M_PROFILE": 1,
       "S_DEPTH": 2,
       "V_NO_ARTIFACTS": 1
     },
@@ -1338,9 +1467,9 @@
         "deck": "Nhi khoa Y6::PED-43: Bệnh tim bẩm sinh thường gặp & Cơn tim Fallot",
         "id": "PED-43",
         "specialty": "nhi",
-        "notes": 75,
+        "notes": 115,
         "basic": 75,
-        "cloze": 0,
+        "cloze": 40,
         "block": 0,
         "debt": 179,
         "by_code": {
@@ -1383,14 +1512,13 @@
         "deck": "Nhi khoa Y6::PED-47: Tiếp cận đái máu ở trẻ em",
         "id": "PED-47",
         "specialty": "nhi",
-        "notes": 83,
-        "basic": 39,
-        "cloze": 44,
+        "notes": 95,
+        "basic": 46,
+        "cloze": 49,
         "block": 0,
-        "debt": 15,
+        "debt": 12,
         "by_code": {
-          "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 11,
+          "G_ASKS_MISSING": 9,
           "G_PARTIAL_CLOZE": 3,
           "W_TIER": 1
         }
@@ -1417,16 +1545,16 @@
         "deck": "Nhi khoa Y6::PED-48: Suy tim ở trẻ em",
         "id": "PED-48",
         "specialty": "nhi",
-        "notes": 137,
+        "notes": 141,
         "basic": 38,
-        "cloze": 99,
+        "cloze": 103,
         "block": 0,
-        "debt": 95,
+        "debt": 94,
         "by_code": {
           "G_ALGO_COUNT": 1,
           "G_COLOR_BACK": 38,
           "G_COLOR_FRONT": 38,
-          "G_PARTIAL_CLOZE": 18,
+          "G_PARTIAL_CLOZE": 17,
           "W_TIER": 1
         }
       }
@@ -1456,17 +1584,46 @@
         "deck": "Nhi khoa Y6::PED-51: Thấp tim ở trẻ em",
         "id": "PED-51",
         "specialty": "nhi",
-        "notes": 50,
-        "basic": 50,
+        "notes": 53,
+        "basic": 53,
         "cloze": 0,
-        "block": 1,
-        "debt": 111,
+        "block": 0,
+        "debt": 104,
         "by_code": {
           "G_ALGO_COUNT": 1,
-          "G_ASKS_MISSING": 10,
-          "G_COLOR_BACK": 50,
+          "G_ASKS_MISSING": 9,
+          "G_BACK_STRUCTURE": 1,
+          "G_COLOR_BACK": 43,
           "G_COLOR_FRONT": 50,
-          "P_BACK_SOURCE": 1,
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "nhi",
+    "id": "PED-66",
+    "folder": "12_Nhi khoa/06_Than_Tim_mach_Noi_tiet/PED-66_Suy_giap_bam_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "12_Nhi khoa/06_Than_Tim_mach_Noi_tiet/PED-66_Suy_giap_bam_sinh/PED-66_Suy_giap_bam_sinh_MASTER_v1.apkg",
+        "deck": "Nhi khoa Y6::PED-66: Suy giáp bẩm sinh",
+        "id": "PED-66",
+        "specialty": "nhi",
+        "notes": 59,
+        "basic": 41,
+        "cloze": 18,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
           "W_TIER": 1
         }
       }
@@ -4095,14 +4252,14 @@
     "specialty": "san",
     "id": "OB-22",
     "folder": "01_San phu khoa/22_AUB_Abnormal_Uterine_Bleeding",
-    "manifest": false,
-    "profile": "disease (giả định)",
+    "manifest": true,
+    "profile": "disease",
     "lesson": "AUB_Abnormal_Uterine_Bleeding_2026-06-29.md",
-    "debt": 21,
+    "debt": 54,
     "by_code": {
       "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 34,
       "M_FILENAME": 1,
-      "M_MANIFEST": 1,
       "S_DEPTH": 7,
       "V_BANNED_LABEL": 11
     },
@@ -4117,23 +4274,16 @@
     ],
     "decks": [
       {
-        "apkg": "01_San phu khoa/22_AUB_Abnormal_Uterine_Bleeding/Anki - AUB_Abnormal_Uterine_Bleeding_2026-06-29 - 2026-06-29.apkg",
-        "deck": "Medical::AUB Abnormal Uterine Bleeding 2026-06-29::2026-06-29",
+        "apkg": "01_San phu khoa/22_AUB_Abnormal_Uterine_Bleeding/outputs/AUB_Abnormal_Uterine_Bleeding_2026-06-29.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Xuất Huyết Tử Cung Bất Thường (AUB)::OB-22 Xuất huyết tử cung bất thường",
         "id": "OB-22",
         "specialty": "san",
-        "notes": 42,
-        "basic": 23,
-        "cloze": 19,
-        "block": 1,
-        "debt": 96,
+        "notes": 95,
+        "basic": 77,
+        "cloze": 18,
+        "block": 0,
+        "debt": 0,
         "by_code": {
-          "D_DECK_NAME": 1,
-          "G_ALGO_COUNT": 1,
-          "G_BACK_STRUCTURE": 23,
-          "G_COLOR_BACK": 23,
-          "G_COLOR_FRONT": 23,
-          "G_EXTRA_EMPTY": 23,
-          "G_PARTIAL_CLOZE": 3,
           "W_TIER": 1
         }
       }
@@ -5069,6 +5219,33 @@
           "G_COLOR_FRONT": 30,
           "G_EXTRA_EMPTY": 30,
           "P_BACK_SOURCE": 1,
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "art",
+    "id": "ART-45",
+    "folder": "02_Ho tro sinh san ART/45_Recurrent_Implantation_Failure_RIF",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": "ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.md",
+    "debt": 0,
+    "by_code": {},
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "02_Ho tro sinh san ART/45_Recurrent_Implantation_Failure_RIF/outputs/ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Hỗ Trợ Sinh Sản (ART)::ART-45 Thất bại làm tổ liên tiếp (RIF)",
+        "id": "ART-45",
+        "specialty": "art",
+        "notes": 91,
+        "basic": 50,
+        "cloze": 41,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
           "W_TIER": 1
         }
       }
@@ -6131,6 +6308,2699 @@
           "G_COLOR_FRONT": 12,
           "G_EXTRA_EMPTY": 12,
           "G_PARTIAL_CLOZE": 1,
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-01",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-01_Khung_chau_nu_ve_phuong_dien_san_khoa",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-01_Khung_chau_nu_ve_phuong_dien_san_khoa/outputs/SK-01_Khung_chau_nu_ve_phuong_dien_san_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-01 Khung chậu nữ về phương diện sản khoa",
+        "id": "SK-01",
+        "specialty": "san_ytb",
+        "notes": 68,
+        "basic": 58,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-02",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-02_Sinh_ly_phu_khoa",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-02_Sinh_ly_phu_khoa/outputs/SK-02_Sinh_ly_phu_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-02 Sinh lý phụ khoa",
+        "id": "SK-02",
+        "specialty": "san_ytb",
+        "notes": 75,
+        "basic": 66,
+        "cloze": 9,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-03",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-03_Su_thu_tinh_lam_to_va_phat_trien_cua_trung",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-03_Su_thu_tinh_lam_to_va_phat_trien_cua_trung/outputs/SK-03_Su_thu_tinh_lam_to_va_phat_trien_cua_trung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-03 Sự thụ tinh, làm tổ và phát triển của trứng",
+        "id": "SK-03",
+        "specialty": "san_ytb",
+        "notes": 58,
+        "basic": 48,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-04",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-04_Tinh_chat_thai_nhi_va_phan_phu_du_thang",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-04_Tinh_chat_thai_nhi_va_phan_phu_du_thang/outputs/SK-04_Tinh_chat_thai_nhi_va_phan_phu_du_thang_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-04 Tính chất thai nhi và phần phụ đủ tháng",
+        "id": "SK-04",
+        "specialty": "san_ytb",
+        "notes": 71,
+        "basic": 63,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-05",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-05_Thay_doi_giai_phau_sinh_ly_nguoi_phu_nu_co_thai",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-05_Thay_doi_giai_phau_sinh_ly_nguoi_phu_nu_co_thai/outputs/SK-05_Thay_doi_giai_phau_sinh_ly_nguoi_phu_nu_co_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-05 Thay đổi giải phẫu, sinh lý người phụ nữ có thai",
+        "id": "SK-05",
+        "specialty": "san_ytb",
+        "notes": 59,
+        "basic": 57,
+        "cloze": 2,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-06",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-06_Chan_doan_thai_nghen",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-06_Chan_doan_thai_nghen/outputs/SK-06_Chan_doan_thai_nghen_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-06 Chẩn đoán thai nghén",
+        "id": "SK-06",
+        "specialty": "san_ytb",
+        "notes": 29,
+        "basic": 25,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-07",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-07_Sinh_ly_chuyen_da",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-07_Sinh_ly_chuyen_da/outputs/SK-07_Sinh_ly_chuyen_da_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-07 Sinh lý chuyển dạ",
+        "id": "SK-07",
+        "specialty": "san_ytb",
+        "notes": 62,
+        "basic": 54,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-08",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-08_Chan_doan_ngoi_the_kieu_the",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-08_Chan_doan_ngoi_the_kieu_the/outputs/SK-08_Chan_doan_ngoi_the_kieu_the_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-08 Chẩn đoán ngôi, thế, kiểu thế",
+        "id": "SK-08",
+        "specialty": "san_ytb",
+        "notes": 39,
+        "basic": 35,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-09",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-09_Ngoi_chom_va_co_che_de_ngoi_chom",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-09_Ngoi_chom_va_co_che_de_ngoi_chom/outputs/SK-09_Ngoi_chom_va_co_che_de_ngoi_chom_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-09 Ngôi chỏm và cơ chế đẻ ngôi chỏm",
+        "id": "SK-09",
+        "specialty": "san_ytb",
+        "notes": 47,
+        "basic": 39,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-10",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-10_Cac_thuoc_dieu_chinh_con_co_tu_cung",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-10_Cac_thuoc_dieu_chinh_con_co_tu_cung/outputs/SK-10_Cac_thuoc_dieu_chinh_con_co_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-10 Các thuốc điều chỉnh cơn co tử cung",
+        "id": "SK-10",
+        "specialty": "san_ytb",
+        "notes": 92,
+        "basic": 81,
+        "cloze": 11,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-11",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-11_Nhung_yeu_to_tien_luong_mot_cuoc_de",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-11_Nhung_yeu_to_tien_luong_mot_cuoc_de/outputs/SK-11_Nhung_yeu_to_tien_luong_mot_cuoc_de_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-11 Những yếu tố tiên lượng một cuộc đẻ",
+        "id": "SK-11",
+        "specialty": "san_ytb",
+        "notes": 56,
+        "basic": 46,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-12",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-12_So_rau_thuong",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-12_So_rau_thuong/outputs/SK-12_So_rau_thuong_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-12 Sổ rau thường",
+        "id": "SK-12",
+        "specialty": "san_ytb",
+        "notes": 28,
+        "basic": 24,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-13",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-13_Hau_san_thuong",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-13_Hau_san_thuong/outputs/SK-13_Hau_san_thuong_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-13 Hậu sản thường",
+        "id": "SK-13",
+        "specialty": "san_ytb",
+        "notes": 57,
+        "basic": 42,
+        "cloze": 15,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-14",
+    "folder": "13_Giao trinh San YTB/01_San_thuong/SK-14_Mot_so_phuong_phap_tham_do_trong_san_khoa",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/01_San_thuong/SK-14_Mot_so_phuong_phap_tham_do_trong_san_khoa/outputs/SK-14_Mot_so_phuong_phap_tham_do_trong_san_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::01. Sản thường::SK-14 Một số phương pháp thăm dò trong sản khoa",
+        "id": "SK-14",
+        "specialty": "san_ytb",
+        "notes": 68,
+        "basic": 52,
+        "cloze": 16,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-15",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-15_Say_thai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-15_Say_thai/outputs/SK-15_Say_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-15 Sẩy thai",
+        "id": "SK-15",
+        "specialty": "san_ytb",
+        "notes": 64,
+        "basic": 47,
+        "cloze": 17,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-16",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-16_Thai_chet_luu_trong_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-16_Thai_chet_luu_trong_tu_cung/outputs/SK-16_Thai_chet_luu_trong_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-16 Thai chết lưu trong tử cung",
+        "id": "SK-16",
+        "specialty": "san_ytb",
+        "notes": 59,
+        "basic": 53,
+        "cloze": 6,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-17",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-17_Thai_ngoai_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-17_Thai_ngoai_tu_cung/outputs/SK-17_Thai_ngoai_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-17 Thai ngoài tử cung",
+        "id": "SK-17",
+        "specialty": "san_ytb",
+        "notes": 55,
+        "basic": 49,
+        "cloze": 6,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-18",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-18_Chua_trung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-18_Chua_trung/outputs/SK-18_Chua_trung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-18 Chửa trứng",
+        "id": "SK-18",
+        "specialty": "san_ytb",
+        "notes": 70,
+        "basic": 60,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-19",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-19_De_kho",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-19_De_kho/outputs/SK-19_De_kho_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-19 Đẻ khó",
+        "id": "SK-19",
+        "specialty": "san_ytb",
+        "notes": 59,
+        "basic": 51,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-20",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-20_Ngoi_mat_ngoi_tran_ngoi_thop_truoc_ngoi_vai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-20_Ngoi_mat_ngoi_tran_ngoi_thop_truoc_ngoi_vai/outputs/SK-20_Ngoi_mat_ngoi_tran_ngoi_thop_truoc_ngoi_vai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-20 Ngôi mặt, ngôi trán, ngôi thóp trước, ngôi vai",
+        "id": "SK-20",
+        "specialty": "san_ytb",
+        "notes": 57,
+        "basic": 47,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-21",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-21_De_non",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-21_De_non/outputs/SK-21_De_non_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-21 Đẻ non",
+        "id": "SK-21",
+        "specialty": "san_ytb",
+        "notes": 55,
+        "basic": 51,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-22",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-22_Da_oi",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-22_Da_oi/outputs/SK-22_Da_oi_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-22 Đa ối",
+        "id": "SK-22",
+        "specialty": "san_ytb",
+        "notes": 59,
+        "basic": 49,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-23",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-23_Thieu_oi",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-23_Thieu_oi/outputs/SK-23_Thieu_oi_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-23 Thiểu ối",
+        "id": "SK-23",
+        "specialty": "san_ytb",
+        "notes": 30,
+        "basic": 26,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-24",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-24_Thai_nghen_nguy_co_cao",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-24_Thai_nghen_nguy_co_cao/outputs/SK-24_Thai_nghen_nguy_co_cao_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-24 Thai nghén nguy cơ cao",
+        "id": "SK-24",
+        "specialty": "san_ytb",
+        "notes": 71,
+        "basic": 64,
+        "cloze": 7,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-25",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-25_Chi_dinh_mo_lay_thai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-25_Chi_dinh_mo_lay_thai/outputs/SK-25_Chi_dinh_mo_lay_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-25 Chỉ định mổ lấy thai",
+        "id": "SK-25",
+        "specialty": "san_ytb",
+        "notes": 43,
+        "basic": 37,
+        "cloze": 6,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-26",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-26_Forceps_san_khoa",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-26_Forceps_san_khoa/outputs/SK-26_Forceps_san_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-26 Forceps sản khoa",
+        "id": "SK-26",
+        "specialty": "san_ytb",
+        "notes": 40,
+        "basic": 36,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-27",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-27_Giac_hut_san_khoa",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-27_Giac_hut_san_khoa/outputs/SK-27_Giac_hut_san_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-27 Giác hút sản khoa",
+        "id": "SK-27",
+        "specialty": "san_ytb",
+        "notes": 30,
+        "basic": 27,
+        "cloze": 3,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-28",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-28_Vo_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-28_Vo_tu_cung/outputs/SK-28_Vo_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-28 Vỡ tử cung",
+        "id": "SK-28",
+        "specialty": "san_ytb",
+        "notes": 43,
+        "basic": 38,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-29",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-29_Rau_tien_dao",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-29_Rau_tien_dao/outputs/SK-29_Rau_tien_dao_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-29 Rau tiền đạo",
+        "id": "SK-29",
+        "specialty": "san_ytb",
+        "notes": 40,
+        "basic": 37,
+        "cloze": 3,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-30",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-30_Rau_bong_non",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-30_Rau_bong_non/outputs/SK-30_Rau_bong_non_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-30 Rau bong non (Sản bệnh)",
+        "id": "SK-30",
+        "specialty": "san_ytb",
+        "notes": 61,
+        "basic": 52,
+        "cloze": 9,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-31",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-31_Da_thai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-31_Da_thai/outputs/SK-31_Da_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-31 Đa thai",
+        "id": "SK-31",
+        "specialty": "san_ytb",
+        "notes": 56,
+        "basic": 51,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-32",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-32_Ngoi_mong",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-32_Ngoi_mong/outputs/SK-32_Ngoi_mong_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-32 Ngôi mông",
+        "id": "SK-32",
+        "specialty": "san_ytb",
+        "notes": 42,
+        "basic": 37,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-33",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-33_Chay_mau_sau_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-33_Chay_mau_sau_sinh/outputs/SK-33_Chay_mau_sau_sinh_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-33 Chảy máu sau sinh",
+        "id": "SK-33",
+        "specialty": "san_ytb",
+        "notes": 70,
+        "basic": 62,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-34",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-34_Suy_thai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-34_Suy_thai/outputs/SK-34_Suy_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-34 Suy thai (Sản bệnh)",
+        "id": "SK-34",
+        "specialty": "san_ytb",
+        "notes": 67,
+        "basic": 52,
+        "cloze": 15,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-35",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-35_Tien_san_giat_san_giat",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-35_Tien_san_giat_san_giat/outputs/SK-35_Tien_san_giat_san_giat_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-35 Tiền sản giật - Sản giật",
+        "id": "SK-35",
+        "specialty": "san_ytb",
+        "notes": 77,
+        "basic": 73,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-36",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-36_Thai_qua_ngay_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-36_Thai_qua_ngay_sinh/outputs/SK-36_Thai_qua_ngay_sinh_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-36 Thai quá ngày sinh",
+        "id": "SK-36",
+        "specialty": "san_ytb",
+        "notes": 53,
+        "basic": 42,
+        "cloze": 11,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-37",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-37_Nhiem_khuan_hau_san",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-37_Nhiem_khuan_hau_san/outputs/SK-37_Nhiem_khuan_hau_san_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-37 Nhiễm khuẩn hậu sản",
+        "id": "SK-37",
+        "specialty": "san_ytb",
+        "notes": 57,
+        "basic": 54,
+        "cloze": 3,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-55",
+    "folder": "13_Giao trinh San YTB/02_San_benh/SK-55_Thai_gia_thang",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/02_San_benh/SK-55_Thai_gia_thang/outputs/SK-55_Thai_gia_thang_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::02. Sản bệnh::SK-55 Thai già tháng",
+        "id": "SK-55",
+        "specialty": "san_ytb",
+        "notes": 37,
+        "basic": 28,
+        "cloze": 9,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-38",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-38_Tham_do_trong_phu_khoa",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-38_Tham_do_trong_phu_khoa/outputs/SK-38_Tham_do_trong_phu_khoa_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-38 Thăm dò trong phụ khoa",
+        "id": "SK-38",
+        "specialty": "san_ytb",
+        "notes": 59,
+        "basic": 51,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-39",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-39_Ton_thuong_lanh_tinh_co_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-39_Ton_thuong_lanh_tinh_co_tu_cung/outputs/SK-39_Ton_thuong_lanh_tinh_co_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-39 Tổn thương lành tính cổ tử cung",
+        "id": "SK-39",
+        "specialty": "san_ytb",
+        "notes": 35,
+        "basic": 31,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-40",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-40_Ung_thu_co_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-40_Ung_thu_co_tu_cung/outputs/SK-40_Ung_thu_co_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-40 Ung thư cổ tử cung",
+        "id": "SK-40",
+        "specialty": "san_ytb",
+        "notes": 64,
+        "basic": 53,
+        "cloze": 11,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-41",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-41_Ung_thu_niem_mac_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-41_Ung_thu_niem_mac_tu_cung/outputs/SK-41_Ung_thu_niem_mac_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-41 Ung thư niêm mạc tử cung",
+        "id": "SK-41",
+        "specialty": "san_ytb",
+        "notes": 48,
+        "basic": 43,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-42",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-42_Ung_thu_nguyen_bao_nuoi",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-42_Ung_thu_nguyen_bao_nuoi/outputs/SK-42_Ung_thu_nguyen_bao_nuoi_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-42 Ung thư nguyên bào nuôi",
+        "id": "SK-42",
+        "specialty": "san_ytb",
+        "notes": 45,
+        "basic": 37,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-43",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-43_Benh_cua_tuyen_vu",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-43_Benh_cua_tuyen_vu/outputs/SK-43_Benh_cua_tuyen_vu_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-43 Bệnh của tuyến vú",
+        "id": "SK-43",
+        "specialty": "san_ytb",
+        "notes": 64,
+        "basic": 59,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-44",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-44_Roi_loan_kinh_nguyet",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-44_Roi_loan_kinh_nguyet/outputs/SK-44_Roi_loan_kinh_nguyet_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-44 Rối loạn kinh nguyệt",
+        "id": "SK-44",
+        "specialty": "san_ytb",
+        "notes": 64,
+        "basic": 52,
+        "cloze": 12,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-45",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-45_Viem_sinh_duc",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-45_Viem_sinh_duc/outputs/SK-45_Viem_sinh_duc_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-45 Viêm sinh dục",
+        "id": "SK-45",
+        "specialty": "san_ytb",
+        "notes": 93,
+        "basic": 84,
+        "cloze": 9,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-46",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-46_U_xo_tu_cung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-46_U_xo_tu_cung/outputs/SK-46_U_xo_tu_cung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-46 U xơ tử cung",
+        "id": "SK-46",
+        "specialty": "san_ytb",
+        "notes": 41,
+        "basic": 41,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-47",
+    "folder": "13_Giao trinh San YTB/03_Phu_khoa/SK-47_Khoi_u_buong_trung",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/03_Phu_khoa/SK-47_Khoi_u_buong_trung/outputs/SK-47_Khoi_u_buong_trung_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::03. Phụ khoa::SK-47 Khối u buồng trứng",
+        "id": "SK-47",
+        "specialty": "san_ytb",
+        "notes": 74,
+        "basic": 67,
+        "cloze": 7,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-48",
+    "folder": "13_Giao trinh San YTB/04_So_sinh/SK-48_Tu_vong_ba_me_va_tre_so_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/04_So_sinh/SK-48_Tu_vong_ba_me_va_tre_so_sinh/outputs/SK-48_Tu_vong_ba_me_va_tre_so_sinh_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::04. Sơ sinh::SK-48 Tử vong bà mẹ và trẻ sơ sinh",
+        "id": "SK-48",
+        "specialty": "san_ytb",
+        "notes": 32,
+        "basic": 28,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-49",
+    "folder": "13_Giao trinh San YTB/04_So_sinh/SK-49_Hoi_suc_so_sinh_ngat",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/04_So_sinh/SK-49_Hoi_suc_so_sinh_ngat/outputs/SK-49_Hoi_suc_so_sinh_ngat_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::04. Sơ sinh::SK-49 Hồi sức sơ sinh ngạt",
+        "id": "SK-49",
+        "specialty": "san_ytb",
+        "notes": 53,
+        "basic": 45,
+        "cloze": 8,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-50",
+    "folder": "13_Giao trinh San YTB/05_Ke_hoach_hoa_gia_dinh/SK-50_Cac_bien_phap_tranh_thai",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/05_Ke_hoach_hoa_gia_dinh/SK-50_Cac_bien_phap_tranh_thai/outputs/SK-50_Cac_bien_phap_tranh_thai_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::05. Kế hoạch hóa gia đình::SK-50 Các biện pháp tránh thai",
+        "id": "SK-50",
+        "specialty": "san_ytb",
+        "notes": 89,
+        "basic": 78,
+        "cloze": 11,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-51",
+    "folder": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-51_Dai_cuong_vo_sinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-51_Dai_cuong_vo_sinh/outputs/SK-51_Dai_cuong_vo_sinh_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::06. Hỗ trợ sinh sản::SK-51 Đại cương vô sinh",
+        "id": "SK-51",
+        "specialty": "san_ytb",
+        "notes": 53,
+        "basic": 48,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-52",
+    "folder": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-52_Suc_khoe_sinh_san_vi_thanh_nien",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-52_Suc_khoe_sinh_san_vi_thanh_nien/outputs/SK-52_Suc_khoe_sinh_san_vi_thanh_nien_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::06. Hỗ trợ sinh sản::SK-52 Sức khoẻ sinh sản vị thành niên",
+        "id": "SK-52",
+        "specialty": "san_ytb",
+        "notes": 52,
+        "basic": 42,
+        "cloze": 10,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-53",
+    "folder": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-53_Suc_khoe_sinh_san_trong_thoi_ky_man_kinh",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-53_Suc_khoe_sinh_san_trong_thoi_ky_man_kinh/outputs/SK-53_Suc_khoe_sinh_san_trong_thoi_ky_man_kinh_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::06. Hỗ trợ sinh sản::SK-53 Sức khoẻ sinh sản trong thời kỳ mãn kinh",
+        "id": "SK-53",
+        "specialty": "san_ytb",
+        "notes": 39,
+        "basic": 35,
+        "cloze": 4,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "san_ytb",
+    "id": "SK-54",
+    "folder": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-54_Cac_phuong_phap_ho_tro_sinh_san",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": null,
+    "debt": 1,
+    "by_code": {
+      "M_MANIFEST": 1
+    },
+    "depth_fails": [],
+    "decks": [
+      {
+        "apkg": "13_Giao trinh San YTB/06_Ho_tro_sinh_san/SK-54_Cac_phuong_phap_ho_tro_sinh_san/outputs/SK-54_Cac_phuong_phap_ho_tro_sinh_san_YTB2021_v1.apkg",
+        "deck": "2. Y Khoa - Sản Phụ Khoa & ART::Giáo trình Sản YTB 2021::06. Hỗ trợ sinh sản::SK-54 Các phương pháp hỗ trợ sinh sản",
+        "id": "SK-54",
+        "specialty": "san_ytb",
+        "notes": 68,
+        "basic": 63,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-01",
+    "folder": "14_Hoa sinh/HS-01_Enzym",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-01_Enzym.md",
+    "debt": 254,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 171,
+      "I_COUNT": 1,
+      "I_MISSING": 24,
+      "I_NAME": 24,
+      "I_PATH": 24,
+      "M_FILENAME": 1,
+      "S_DEPTH": 8
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-01_Enzym/HS-01_Enzym_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-01 Cấu tạo, động học và cơ chế xúc tác của Enzym",
+        "id": "HS-01",
+        "specialty": "hoasinh",
+        "notes": 48,
+        "basic": 43,
+        "cloze": 5,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-02",
+    "folder": "14_Hoa sinh/HS-02_Nang_luong_sinh_hoc",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-02_Nang_luong_sinh_hoc.md",
+    "debt": 400,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 334,
+      "I_COUNT": 1,
+      "I_MISSING": 18,
+      "I_NAME": 18,
+      "I_PATH": 18,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-02_Nang_luong_sinh_hoc/HS-02_Nang_luong_sinh_hoc_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-02 Hô hấp tế bào, phosphoryl-oxy hóa và chu trình acid citric",
+        "id": "HS-02",
+        "specialty": "hoasinh",
+        "notes": 73,
+        "basic": 49,
+        "cloze": 24,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-03",
+    "folder": "14_Hoa sinh/HS-03_Hoa_hoc_carbohydrat",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-03_Hoa_hoc_carbohydrat.md",
+    "debt": 298,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 1,
+      "F_LATEX": 210,
+      "I_COUNT": 1,
+      "I_MISSING": 25,
+      "I_NAME": 25,
+      "I_PATH": 25,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-03_Hoa_hoc_carbohydrat/HS-03_Hoa_hoc_carbohydrat_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-03 Cấu trúc và tính chất của Carbohydrat",
+        "id": "HS-03",
+        "specialty": "hoasinh",
+        "notes": 79,
+        "basic": 79,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-04",
+    "folder": "14_Hoa sinh/HS-04_Chuyen_hoa_carbohydrat",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-04_Chuyen_hoa_carbohydrat.md",
+    "debt": 287,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 4,
+      "F_LATEX": 233,
+      "I_COUNT": 1,
+      "I_MISSING": 13,
+      "I_NAME": 13,
+      "I_PATH": 13,
+      "M_FILENAME": 1,
+      "S_DEPTH": 8
+    },
+    "depth_fails": [
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-04_Chuyen_hoa_carbohydrat/HS-04_Chuyen_hoa_carbohydrat_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-04 Chuyển hóa carbohydrat và điều hòa đường huyết",
+        "id": "HS-04",
+        "specialty": "hoasinh",
+        "notes": 82,
+        "basic": 82,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-05",
+    "folder": "14_Hoa sinh/HS-05_Hoa_hoc_lipid",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-05_Hoa_hoc_lipid.md",
+    "debt": 259,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 214,
+      "I_COUNT": 1,
+      "I_MISSING": 11,
+      "I_NAME": 11,
+      "I_PATH": 11,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-05_Hoa_hoc_lipid/HS-05_Hoa_hoc_lipid_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-05 Cấu tạo và phân loại Lipid",
+        "id": "HS-05",
+        "specialty": "hoasinh",
+        "notes": 70,
+        "basic": 70,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-06",
+    "folder": "14_Hoa sinh/HS-06_Chuyen_hoa_lipid",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-06_Chuyen_hoa_lipid.md",
+    "debt": 325,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 4,
+      "F_LATEX": 254,
+      "I_COUNT": 1,
+      "I_MISSING": 18,
+      "I_NAME": 18,
+      "I_PATH": 18,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-06_Chuyen_hoa_lipid/HS-06_Chuyen_hoa_lipid_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-06 Chuyển hóa lipid và lipoprotein máu",
+        "id": "HS-06",
+        "specialty": "hoasinh",
+        "notes": 71,
+        "basic": 71,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-07",
+    "folder": "14_Hoa sinh/HS-07_Hoa_hoc_protein",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-07_Hoa_hoc_protein.md",
+    "debt": 455,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 356,
+      "I_COUNT": 1,
+      "I_MISSING": 29,
+      "I_NAME": 29,
+      "I_PATH": 29,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-07_Hoa_hoc_protein/HS-07_Hoa_hoc_protein_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-07 Hóa học acid amin, peptid và protein",
+        "id": "HS-07",
+        "specialty": "hoasinh",
+        "notes": 86,
+        "basic": 86,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-08",
+    "folder": "14_Hoa sinh/HS-08_Chuyen_hoa_acid_amin",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-08_Chuyen_hoa_acid_amin.md",
+    "debt": 232,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 188,
+      "I_COUNT": 1,
+      "I_MISSING": 11,
+      "I_NAME": 11,
+      "I_PATH": 11,
+      "M_FILENAME": 1,
+      "S_DEPTH": 8
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-08_Chuyen_hoa_acid_amin/HS-08_Chuyen_hoa_acid_amin_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-08 Chuyển hóa acid amin và chu trình urê",
+        "id": "HS-08",
+        "specialty": "hoasinh",
+        "notes": 84,
+        "basic": 84,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-09",
+    "folder": "14_Hoa sinh/HS-09_Chuyen_hoa_hemoglobin",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-09_Chuyen_hoa_hemoglobin.md",
+    "debt": 172,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 135,
+      "I_COUNT": 1,
+      "I_MISSING": 8,
+      "I_NAME": 8,
+      "I_PATH": 8,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Subsections (### X.Y)",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-09_Chuyen_hoa_hemoglobin/HS-09_Chuyen_hoa_hemoglobin_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-09 Chuyển hóa hemoglobin và sắc tố mật",
+        "id": "HS-09",
+        "specialty": "hoasinh",
+        "notes": 83,
+        "basic": 83,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-10",
+    "folder": "14_Hoa sinh/HS-10_Sinh_tong_hop_protein",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-10_Sinh_tong_hop_protein.md",
+    "debt": 164,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 118,
+      "I_COUNT": 1,
+      "I_MISSING": 11,
+      "I_NAME": 11,
+      "I_PATH": 11,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-10_Sinh_tong_hop_protein/HS-10_Sinh_tong_hop_protein_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-10 Sinh tổng hợp protein và điều hòa biểu hiện gen",
+        "id": "HS-10",
+        "specialty": "hoasinh",
+        "notes": 71,
+        "basic": 71,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-11",
+    "folder": "14_Hoa sinh/HS-11_Hoa_hoc_acid_nucleic",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-11_Hoa_hoc_acid_nucleic.md",
+    "debt": 165,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 1,
+      "F_LATEX": 133,
+      "I_COUNT": 1,
+      "I_MISSING": 6,
+      "I_NAME": 6,
+      "I_PATH": 6,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-11_Hoa_hoc_acid_nucleic/HS-11_Hoa_hoc_acid_nucleic_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-11 Hóa học acid nucleic DNA và RNA",
+        "id": "HS-11",
+        "specialty": "hoasinh",
+        "notes": 73,
+        "basic": 73,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-12",
+    "folder": "14_Hoa sinh/HS-12_Chuyen_hoa_acid_nucleic",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-12_Chuyen_hoa_acid_nucleic.md",
+    "debt": 162,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 104,
+      "I_COUNT": 1,
+      "I_MISSING": 15,
+      "I_NAME": 15,
+      "I_PATH": 15,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-12_Chuyen_hoa_acid_nucleic/HS-12_Chuyen_hoa_acid_nucleic_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-12 Thoái hóa và tổng hợp purin, pyrimidin, acid uric và bệnh Gout",
+        "id": "HS-12",
+        "specialty": "hoasinh",
+        "notes": 81,
+        "basic": 81,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-13",
+    "folder": "14_Hoa sinh/HS-13_Hoa_sinh_hormon",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-13_Hoa_sinh_hormon.md",
+    "debt": 324,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 2,
+      "F_LATEX": 233,
+      "I_COUNT": 1,
+      "I_MISSING": 26,
+      "I_NAME": 26,
+      "I_PATH": 26,
+      "M_FILENAME": 1,
+      "S_DEPTH": 8
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-13_Hoa_sinh_hormon/HS-13_Hoa_sinh_hormon_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-13 Cơ chế thụ thể, truyền tín hiệu tế bào và hóa sinh hormon",
+        "id": "HS-13",
+        "specialty": "hoasinh",
+        "notes": 12,
+        "basic": 12,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-14",
+    "folder": "14_Hoa sinh/HS-14_Hoa_sinh_mang_te_bao",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-14_Hoa_sinh_mang_te_bao.md",
+    "debt": 216,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 174,
+      "I_COUNT": 1,
+      "I_MISSING": 10,
+      "I_NAME": 10,
+      "I_PATH": 10,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-14_Hoa_sinh_mang_te_bao/HS-14_Hoa_sinh_mang_te_bao_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-14 Cấu trúc màng tế bào, kênh ion, vận chuyển tích cực và bệnh lý màng",
+        "id": "HS-14",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-15",
+    "folder": "14_Hoa sinh/HS-15_Trao_doi_muoi_nuoc",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-15_Trao_doi_muoi_nuoc.md",
+    "debt": 232,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 211,
+      "I_MISSING": 3,
+      "I_NAME": 3,
+      "I_PATH": 3,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-15_Trao_doi_muoi_nuoc/HS-15_Trao_doi_muoi_nuoc_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-15 Phân bố nước, điện giải, áp suất thẩm thấu và rối loạn thăng bằng dịch",
+        "id": "HS-15",
+        "specialty": "hoasinh",
+        "notes": 13,
+        "basic": 13,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-16",
+    "folder": "14_Hoa sinh/HS-16_Khi_mau_va_thang_bang_acid_base",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-16_Khi_mau_va_thang_bang_acid_base.md",
+    "debt": 298,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 284,
+      "I_MISSING": 1,
+      "I_NAME": 1,
+      "I_PATH": 1,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-16_Khi_mau_va_thang_bang_acid_base/HS-16_Khi_mau_va_thang_bang_acid_base_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-16 Khí máu, hệ thống đệm sinh học và rối loạn thăng bằng acid-base",
+        "id": "HS-16",
+        "specialty": "hoasinh",
+        "notes": 13,
+        "basic": 13,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-17",
+    "folder": "14_Hoa sinh/HS-17_Hoa_sinh_gan",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-17_Hoa_sinh_gan.md",
+    "debt": 210,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 190,
+      "I_MISSING": 3,
+      "I_NAME": 3,
+      "I_PATH": 3,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-17_Hoa_sinh_gan/HS-17_Hoa_sinh_gan_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-17 Hóa sinh gan, chức năng chuyển hóa, khử độc, tạo mật và xét nghiệm sinh hóa gan mật",
+        "id": "HS-17",
+        "specialty": "hoasinh",
+        "notes": 12,
+        "basic": 12,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-18",
+    "folder": "14_Hoa sinh/HS-18_Hoa_sinh_than_va_nuoc_tieu",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-18_Hoa_sinh_than_va_nuoc_tieu.md",
+    "debt": 307,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 1,
+      "F_LATEX": 279,
+      "I_COUNT": 1,
+      "I_MISSING": 5,
+      "I_NAME": 5,
+      "I_PATH": 5,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-18_Hoa_sinh_than_va_nuoc_tieu/HS-18_Hoa_sinh_than_va_nuoc_tieu_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-18 Hóa sinh thận và nước tiểu, cơ chế lọc, tái hấp thu và xét nghiệm",
+        "id": "HS-18",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-19",
+    "folder": "14_Hoa sinh/HS-19_Hoa_sinh_mau",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-19_Hoa_sinh_mau.md",
+    "debt": 233,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 221,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-19_Hoa_sinh_mau/HS-19_Hoa_sinh_mau_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-19 Hóa sinh máu, protein huyết tương, điện di, enzym và hóa sinh hồng cầu",
+        "id": "HS-19",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-20",
+    "folder": "14_Hoa sinh/HS-20_Hoa_sinh_co",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-20_Hoa_sinh_co.md",
+    "debt": 78,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 53,
+      "I_MISSING": 4,
+      "I_NAME": 4,
+      "I_PATH": 4,
+      "M_FILENAME": 1,
+      "S_DEPTH": 11
+    },
+    "depth_fails": [
+      "Basic concepts explained",
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)",
+      "Total size (words / nonblank lines)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-20_Hoa_sinh_co/HS-20_Hoa_sinh_co_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-20 Hóa sinh cơ, protein co cơ, hóa sinh co cơ vân và cơ trơn",
+        "id": "HS-20",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-21",
+    "folder": "14_Hoa sinh/HS-21_Hoa_sinh_than_kinh",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-21_Hoa_sinh_than_kinh.md",
+    "debt": 87,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 62,
+      "I_MISSING": 4,
+      "I_NAME": 4,
+      "I_PATH": 4,
+      "M_FILENAME": 1,
+      "S_DEPTH": 11
+    },
+    "depth_fails": [
+      "Basic concepts explained",
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)",
+      "Total size (words / nonblank lines)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-21_Hoa_sinh_than_kinh/HS-21_Hoa_sinh_than_kinh_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-21 Hóa sinh thần kinh, chất dẫn truyền thần kinh và chuyển hóa não",
+        "id": "HS-21",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "hoasinh",
+    "id": "HS-22",
+    "folder": "14_Hoa sinh/HS-22_Hoa_sinh_dich_sinh_vat",
+    "manifest": true,
+    "profile": "foundation",
+    "lesson": "HS-22_Hoa_sinh_dich_sinh_vat.md",
+    "debt": 220,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 208,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (foundation)",
+      "Section 0.1 depth (foundation primer ≥15 lines)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)"
+    ],
+    "decks": [
+      {
+        "apkg": "14_Hoa sinh/HS-22_Hoa_sinh_dich_sinh_vat/HS-22_Hoa_sinh_dich_sinh_vat_MASTER_v1.apkg",
+        "deck": "HungMed::Hóa Sinh Y Học::HS-22 Hóa sinh dịch sinh vật, dịch não tủy, dịch tràn màng và dịch tiêu hóa",
+        "id": "HS-22",
+        "specialty": "hoasinh",
+        "notes": 11,
+        "basic": 11,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "faq",
+    "id": "QNA-01",
+    "folder": "15_Cau_hoi_tu_hoi/QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": "QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC_2026-11-02.md",
+    "debt": 34,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_CONTROL_CHAR": 3,
+      "F_LATEX": 19,
+      "M_FILENAME": 1,
+      "S_DEPTH": 10
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "No padding or duplicated sections",
+      "Profile structural markers (disease)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)",
+      "Total size (words / nonblank lines)"
+    ],
+    "decks": [
+      {
+        "apkg": "15_Cau_hoi_tu_hoi/QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC/outputs/QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC_2026-11-02.apkg",
+        "deck": "HungMed::Các Câu Hỏi Tự Hỏi::QNA-01: Nhiễm khuẩn sinh dục & Lộ tuyến CTC",
+        "id": "QNA-01",
+        "specialty": "faq",
+        "notes": 31,
+        "basic": 28,
+        "cloze": 3,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
+          "W_TIER": 1
+        }
+      }
+    ]
+  },
+  {
+    "specialty": "faq",
+    "id": "QNA-02",
+    "folder": "15_Cau_hoi_tu_hoi/QNA-02_Dieu_tri_nam_am_dao",
+    "manifest": true,
+    "profile": "disease",
+    "lesson": "QNA-02_Dieu_tri_nam_am_dao_2026-11-02.md",
+    "debt": 11,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "M_FILENAME": 1,
+      "S_DEPTH": 9
+    },
+    "depth_fails": [
+      "Clinical cases with solutions",
+      "Examples (ví dụ / VD)",
+      "Main sections count (##) & keywords",
+      "Mechanism chains (→ / Tầng 1..5)",
+      "Misconceptions / traps (bẫy / hay nhầm)",
+      "Profile structural markers (disease)",
+      "Self-check checkpoints",
+      "Tips bullets (Section 7)",
+      "Total size (words / nonblank lines)"
+    ],
+    "decks": [
+      {
+        "apkg": "15_Cau_hoi_tu_hoi/QNA-02_Dieu_tri_nam_am_dao/outputs/QNA-02_Dieu_tri_nam_am_dao_2026-11-02.apkg",
+        "deck": "HungMed::Các Câu Hỏi Tự Hỏi::QNA-02: Phác đồ Điều trị Nấm Âm Đạo & Các Ca Khó",
+        "id": "QNA-02",
+        "specialty": "faq",
+        "notes": 25,
+        "basic": 25,
+        "cloze": 0,
+        "block": 0,
+        "debt": 0,
+        "by_code": {
           "W_TIER": 1
         }
       }
