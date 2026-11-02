@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-10 Sinh tổng hợp protein và điều hòa biểu hiện gen",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:44:17",
+  "generated_at": "2026-11-02T10:23:09",
   "cards_source": "HS-10_Sinh_tong_hop_protein.cards.v2.json",
-  "cards_source_sha256": "5c8a47a1a6965b4f689380c1855f097cb18ba1548f51da9cf3b59b652d1d634b",
-  "card_count": 9,
+  "cards_source_sha256": "e5259b2ebb421458b059f8c1a0218c259fec363897e166d806d173df2cd327dc",
+  "card_count": 71,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-10_Sinh_tong_hop_protein\\HS-10_Sinh_tong_hop_protein_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 9,
     "unchanged": 0,
-    "added": 9,
+    "added": 62,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 9
+    "deck_notes": 71
   },
-  "apkg_sha256": "932421fe2b41a1f0f7ba27b1083bc5865a4811180c8e22a995ee0782de009b93",
-  "sqlite_notes": 9,
-  "sqlite_cards": 9
+  "apkg_sha256": "99fdc8a68ae86fe442c1b395f38feab4205179345f5800652187d2bbe90b4e98",
+  "sqlite_notes": 71,
+  "sqlite_cards": 71
 }
