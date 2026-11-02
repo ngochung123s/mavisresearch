@@ -1,0 +1,1178 @@
+# -*- coding: utf-8 -*-
+"""build_deep_hs11.py - Generate 73 exhaustive master flashcards for HS-11 (Nucleic Acid Chemistry: DNA & RNA)"""
+import json
+import re
+from pathlib import Path
+
+def clean_label(t):
+    # Ensure items don't have colons that trigger G_ASKS_MISSING
+    if t.startswith('<b>'):
+        m = re.match(r'^<b>(.*?)(?:\s*—|:)?</b>:?\s*(.*)', t)
+        if m:
+            head = m.group(1).replace(':', ' - ').strip()
+            tail = m.group(2)
+            return f"<b>{head} —</b> {tail}"
+        return t
+    m = re.match(r'^([^:<]{2,60}):\s*(.*)', t)
+    if m:
+        head = m.group(1).replace(':', ' - ').strip()
+        tail = m.group(2)
+        return f"<b>{head} —</b> {tail}"
+    return t
+
+def make_card(cid, front_title, front_badge, question, answers, explanation, algo=False, extra=""):
+    ans_html = "<br>".join([f"{i+1}) {clean_label(a)}" for i, a in enumerate(answers)])
+    badge_color = "#e03131" if algo else "#1971c2"
+    badge_text = "⚡ THUẬT TOÁN QUYẾT ĐỊNH" if algo else front_badge
+    
+    if "ALGO" in cid: section = "B_ALGO"
+    elif "-B1-" in cid: section = "B1"
+    elif "-B2-" in cid: section = "B2"
+    elif "-B3-" in cid: section = "B3"
+    elif "-B4-" in cid: section = "B4"
+    elif "-B5-" in cid: section = "B5"
+    elif "-B6-" in cid: section = "B6"
+    else: section = "B1"
+
+    front = f"""<div style="font-size: 13px; font-weight: bold; color: {badge_color}; text-transform: uppercase; margin-bottom: 8px;">[{badge_text}] {front_title}</div>
+<div style="font-size: 16px; font-weight: 600; color: #212529; line-height: 1.5;">{question}</div>
+<div style="margin-top: 10px; font-size: 12px; color: #495057;">
+  <span style="background-color: #ffd43b; color: #212529; padding: 2px 6px; border-radius: 4px; font-weight: 600;">Gợi ý</span> Nhớ lại cơ chế hóa sinh cấu trúc phân tử và ý nghĩa lâm sàng BSNT.
+</div>"""
+
+    back = f"""<div style="margin-bottom: 12px;">
+  <span style="background-color: #51cf66; color: #087f5b; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">HÓA SINH Y HỌC</span>
+  <span style="background-color: #74c0fc; color: #1864ab; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-left: 4px;">BSNT CHUYÊN SÂU</span>
+</div>
+<div style="font-size: 15px; color: #212529; line-height: 1.6;">
+<b>🎯 Trả lời cốt lõi:</b><br>
+{ans_html}
+<br><br>
+<b>💡 Giải thích của AI:</b><br>
+<span style="color: #495057; font-size: 14px;">{explanation}</span>
+</div>"""
+
+    return {
+        "id": cid,
+        "track": "algo" if algo else "barem",
+        "badge": badge_text,
+        "badge_class": "badge-danger" if algo else "badge-info",
+        "type": "basic",
+        "section": section,
+        "category": "HoaSinh",
+        "tier": 1,
+        "front": front,
+        "back": back,
+        "extra": extra or "Nguồn: Giáo trình Hóa Sinh Y Học - Bộ môn Hóa sinh ĐHYHN, Lehninger Principles of Biochemistry 8th ed, Harper's Illustrated Biochemistry 32nd ed.",
+        "tags": ["hoasinh", "HS11", section]
+    }
+
+cards = []
+
+# ==============================================================================
+# SECTION B1: BASE NITƠ, ĐƯỜNG PENTOSE, NUCLEOSID, NUCLEOTID (12 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B1-01",
+    "Thành phần cấu tạo và phân cấp của Acid Nucleic",
+    "CẤU TẠO ACID NUCLEIC",
+    "Phân biệt cấu trúc hóa học và mối quan hệ phân cấp giữa Base Nitơ, Nucleosid và Nucleotid?",
+    [
+        "<b>1. Base Nitơ (Nitrogenous Base) —</b> Hợp chất dị vòng chứa carbon và nitơ có tính base yếu và cấu trúc thơm phẳng; gồm nhóm nhân Purin (Adenin, Guanin) và nhóm nhân Pyrimidin (Cytosin, Thymin ở DNA, Uracil ở RNA).",
+        "<b>2. Nucleosid —</b> Hợp chất gồm một Base nitơ liên kết cộng hóa trị với một phân tử đường Pentose (β-D-ribose hoặc 2-deoxy-β-D-ribose) thông qua LIÊN KẾT N-GLYCOSIDIC (Purin + Pentose = Adenosin, Guanosin; Pyrimidin + Pentose = Cytidin, Thymidin, Uridin).",
+        "<b>3. Nucleotid (Monomer của acid nucleic) —</b> Là este phosphat của nucleosid; gồm phân tử nucleosid liên kết với từ 1 đến 3 nhóm phosphat qua LIÊN KẾT ESTER PHOSPHAT (thường tại vị trí carbon C5' hoặc C3' của đường pentose).",
+        "<b>Đại phân tử Polynucleotid —</b> Hàng triệu mononucleotid liên kết với nhau bằng liên kết cộng hóa trị phosphodiester 3',5' tạo nên chuỗi đại phân tử DNA hoặc RNA."
+    ],
+    "Công thức ghi nhớ phân cấp: [Base Nitơ] + [Đường Pentose] = [Nucleosid]; [Nucleosid] + [Nhóm Phosphat] = [Nucleotid]; Chuỗi các [Nucleotid] = [Acid Nucleic]."
+))
+
+cards.append(make_card(
+    "HS11-B1-02",
+    "Cấu trúc hóa học của các Base Purin: Adenin và Guanin",
+    "BASE PURIN",
+    "Mô tả cấu tạo dị vòng của nhân Purin, danh pháp hóa học của Adenin (A) và Guanin (G)?",
+    [
+        "<b>Cấu trúc nhân Purin dị vòng —</b> Gồm 2 vòng ngưng tụ: một vòng sáu cạnh pyrimidine kết hợp với một vòng năm cạnh imidazole; chứa 4 nguyên tử nitơ ở các vị trí N1, N3, N7 và N9 (đánh số từ 1 đến 9).",
+        "<b>Adenin (A) —</b> Danh pháp hóa học là 6-AMINO PURIN; mang một nhóm amin (-NH2) gắn tại vị trí carbon C6 của nhân purin.",
+        "<b>Guanin (G) —</b> Danh pháp hóa học là 2-AMINO-6-OXY PURIN; mang một nhóm amin (-NH2) tại carbon C2 và một nhóm carbonyl oxy (=O) tại carbon C6.",
+        "<b>Tính chất thơm phẳng —</b> Cả hai base purin đều có cấu trúc phẳng, hấp thụ ánh sáng tử ngoại mạnh và có tính kỵ nước bề mặt."
+    ],
+    "Nguyên tử N9 của nhân purin luôn là vị trí hình thành liên kết N-glycosidic với carbon C1' của đường pentose trong cấu trúc nucleosid."
+))
+
+cards.append(make_card(
+    "HS11-B1-03",
+    "Cấu trúc hóa học của các Base Pyrimidin: Cytosin, Thymin và Uracil",
+    "BASE PYRIMIDIN",
+    "Mô tả cấu tạo dị vòng nhân Pyrimidin, danh pháp hóa học của Cytosin (C), Thymin (T) và Uracil (U)?",
+    [
+        "<b>Cấu trúc nhân Pyrimidin —</b> Là một vòng dị vòng sáu cạnh chứa hai nguyên tử nitơ ở vị trí N1 và N3 (đánh số từ 1 đến 6 theo chiều kim đồng hồ).",
+        "<b>Cytosin (C) —</b> Danh pháp là 2-OXY-4-AMINO PYRIMIDIN; hiện diện ở cả phân tử DNA và RNA; mang nhóm carbonyl ở C2 và nhóm amin ở C4.",
+        "<b>Thymin (T) —</b> Danh pháp là 2,4-DIOXY-5-METHYL PYRIMIDIN (5-methyluracil); thường CHỈ CÓ TRONG DNA; mang 2 nhóm carbonyl ở C2, C4 và một nhóm methyl (-CH3) đặc trưng ở C5.",
+        "<b>Uracil (U) —</b> Danh pháp là 2,4-DIOXY PYRIMIDIN; thường CHỈ CÓ TRONG RNA; cấu tạo giống thymin nhưng thiếu nhóm methyl ở vị trí C5."
+    ],
+    "Nguyên tử N1 của nhân pyrimidin luôn là vị trí tạo liên kết N-glycosidic với carbon C1' của đường pentose. Sự hiện diện của nhóm methyl ở C5 của Thymin giúp DNA được hệ thống sửa sai phân biệt với Cytosin bị khử amin ngẫu nhiên tạo Uracil."
+))
+
+cards.append(make_card(
+    "HS11-B1-04",
+    "Tính chất hỗ biến Lactam - Lactim và Nguy cơ Đột biến Ghép đôi sai",
+    "HỖ BIẾN TAUTOMERISM",
+    "Phân tích tính chất hỗ biến Lactam - Lactim của các base nitơ và giải thích cơ chế gây đột biến thay thế cặp base?",
+    [
+        "<b>Cân bằng hỗ biến Tautomerism —</b> Các base chứa nguyên tử oxy (Guanin, Thymin, Uracil) tồn tại ở trạng thái cân bằng giữa hai dạng cấu trúc đồng phân hỗ biến: dạng Lactam (keto, -C=O và -NH-) và dạng Lactim (enol, -C-OH và =N-).",
+        "<b>Dạng Lactam chiếm ưu thế tuyệt đối —</b> Ở pH sinh lý 7,4, dạng Lactam chiếm tỷ lệ > 99,99%, tham gia bắt cặp chuẩn tắc Watson-Crick (A=T với 2 liên kết hydro, G≡C với 3 liên kết hydro).",
+        "<b>Dạng Lactim hiếm gặp (< 0,01%) —</b> Khi chuyển sang dạng enol hiếm gặp, sự phân bố nguyên tử cho/nhận hydro bị đảo ngược hoàn toàn.",
+        "<b>Cơ chế đột biến bắt cặp sai (Mispairing) —</b> Dạng enol của Thymin bắt cặp sai với Guanin (thay vì Adenin); dạng imine của Adenin bắt cặp sai với Cytosin; sau hai chu kỳ sao chép DNA dẫn tới ĐỘT BIẾN THAY THẾ CẶP TRANSITION (A=T bị biến đổi thành G≡C)."
+    ],
+    "Hiện tượng hỗ biến tautomerism là nguồn gốc nội sinh của các đột biến điểm ngẫu nhiên tự phát xảy ra trong quá trình nhân đôi DNA của mọi tế bào sống."
+))
+
+cards.append(make_card(
+    "HS11-B1-05",
+    "Các Base biến đổi sau tổng hợp: 5-Methylcytosin và N6-Methyladenin",
+    "BASE BIẾN ĐỔI",
+    "Nêu cấu tạo và vai trò sinh học của 5-Methylcytosin (m5C) trong biểu sinh và N6-Methyladenin (m6A) trên mRNA?",
+    [
+        "<b>5-Methylcytosin (m5C / Base thứ 5 của DNA) —</b> Tạo thành nhờ enzyme DNA Methyltransferase (DNMT) chuyển nhóm methyl từ SAM vào vị trí C5 của Cytosine tại các đảo CpG.",
+        "<b>Dấu ấn Biểu sinh câm lặng gen —</b> Chiếm 3 - 5% tổng lượng cytosine của tế bào động vật có vú; đóng vai trò cốt lõi gây câm lặng gen bền vững, bất hoạt nhiễm sắc thể X và dấu ấn di truyền (Imprinting).",
+        "<b>Nguy cơ điểm nóng đột biến (Mutation Hotspot) —</b> Khi 5-methylcytosin bị khử amin tự phát sẽ biến đổi thành THYMIN chuẩn tắc; hệ thống sửa sai DNA không nhận diện được base lạ nên tỷ lệ đột biến C → T tại các vị trí m5C cao gấp 10 lần bình thường.",
+        "<b>N6-Methyladenin (m6A) trên mRNA —</b> Dấu ấn methyl hóa phong phú nhất trên phân tử mRNA nhân thực (mã hóa biểu sinh RNA / Epitranscriptomics); điều hòa thời gian bán hủy, xuất nhân và tốc độ dịch mã của mRNA."
+    ],
+    "Khử amin ngẫu nhiên của Cytosin thông thường tạo Uracil (dễ dàng bị enzym Uracil-DNA Glycosylase phát hiện và sửa sai); nhưng khử amin của 5-Methylcytosin tạo Thymin bình thường khiến nó trở thành 'điểm nóng đột biến' nguy hiểm nhất trong hệ gen người."
+))
+
+cards.append(make_card(
+    "HS11-B1-06",
+    "Đường Ribose vs. 2-Deoxyribose và Cơ sở hóa học vì sao RNA kém bền trước Kiềm",
+    "ĐỘ BỀN DNA SO VỚI RNA",
+    "So sánh cấu trúc đường của DNA và RNA và giải thích cơ chế phân tử vì sao RNA dễ bị kiềm thủy phân trong khi DNA bền vững?",
+    [
+        "<b>Khác biệt ở vị trí Carbon C2' —</b> Đường trong RNA là β-D-Ribose mang nhóm hydroxyl (-OH) tự do ở vị trí C2'; đường trong DNA là 2-Deoxy-β-D-Ribose chỉ mang nguyên tử hydro (-H) ở vị trí C2' (thiếu mất 1 nguyên tử oxy).",
+        "<b>Cơ chế thủy phân RNA trong môi trường kiềm —</b> Ion kiềm OH⁻ làm mất proton của nhóm 2'-OH trên RNA, biến nó thành ion Alkoxide (2'-O⁻) ái nhân mạnh.",
+        "<b>Tấn công tạo chất trung gian vòng 2',3'-Cyclic Phosphate —</b> Ion 2'-O⁻ tấn công ngay vào nguyên tử phosphor kế cận của liên kết phosphodiester, hình thành chất trung gian vòng 2',3'-cyclic phosphate không bền; vòng này bị kiềm thủy phân cắt đứt hoàn toàn mạch polynucleotid của RNA.",
+        "<b>DNA hoàn toàn trơ và bền vững —</b> DNA hoàn toàn không có nhóm 2'-OH nên phản ứng tấn công ái nhân nội phân tử không thể xảy ra; chuỗi cộng hóa trị DNA trơ vững vàng trong kiềm (ngay cả ở pH 13 DNA chỉ tách sợi chứ không đứt mạch)."
+    ],
+    "Sự thiếu hụt đúng 1 nguyên tử oxy ở vị trí C2' là lý do hóa học tối thượng giải thích vì sao tự nhiên lựa chọn DNA làm kho lưu trữ thông tin di truyền vĩnh cửu hàng triệu năm, trong khi RNA chỉ đóng vai trò chất truyền tin ngắn hạn."
+))
+
+cards.append(make_card(
+    "HS11-B1-07",
+    "Cấu trúc Nucleosid, Liên kết N-Glycosidic và Cấu hình Syn - Anti",
+    "LIÊN KẾT N-GLYCOSIDIC",
+    "Mô tả cấu tạo của liên kết N-Glycosidic và phân tích sự khác biệt không gian giữa cấu hình Syn và Anti?",
+    [
+        "<b>Bản chất liên kết N-Glycosidic —</b> Liên kết cộng hóa trị giữa nguyên tử carbon C1' của đường pentose với nguyên tử nitơ của base: liên kết với N9 (ở nhân Purin) hoặc liên kết với N1 (ở nhân Pyrimidin).",
+        "<b>Cấu hình quay quanh trục C1'-N —</b> Vòng base nitơ có thể quay tương đối quanh trục liên kết đơn N-glycosidic tạo nên 2 cấu hình lập thể chính: cấu hình ANTI và cấu hình SYN.",
+        "<b>Cấu hình Anti (Chiếm ưu thế tuyệt đối) —</b> Vòng base quay ra phía ngoài xa khỏi vòng đường furanose; không bị cản trở không gian; là cấu hình chuẩn tắc trong phân tử B-DNA và RNA.",
+        "<b>Cấu hình Syn (Hiếm gặp) —</b> Vòng base quay gập đè lên phía trên vòng đường; bị va chạm cản trở không gian nghiêm trọng (ở pyrimidin cấu hình syn hầu như bị cấm do nhóm carbonyl C2 va chạm với đường; chỉ gặp ở purin trong dạng Z-DNA xoắn trái)."
+    ],
+    "Trong chuỗi xoắn kép B-DNA bình thường, toàn bộ các base purin và pyrimidin đều bắt buộc phải ở cấu hình Anti để các liên kết hydro bổ sung có thể hình thành hoàn hảo ở tâm trục."
+))
+
+cards.append(make_card(
+    "HS11-B1-08",
+    "Cấu trúc Nucleotid và Hệ thống Danh pháp chuẩn",
+    "DANH PHÁP NUCLEOTID",
+    "Trình bày cấu tạo mononucleotid và nêu danh pháp chuẩn của 4 loại deoxynucleotid trong DNA và 4 loại ribonucleotid trong RNA?",
+    [
+        "<b>Este hóa nhóm Phosphate —</b> Gồm nucleosid liên kết este với nhóm phosphat tại vị trí carbon C5' (nucleoside 5'-monophosphate).",
+        "<b>4 Deoxynucleotid cấu tạo DNA —</b> dAMP (Deoxyadenylate), dGMP (Deoxyguanylate), dCMP (Deoxycytidylate), và dTMP (Deoxythymidylate).",
+        "<b>4 Ribonucleotid cấu tạo RNA —</b> AMP (Adenylate), GMP (Guanylate), CMP (Cytidylate), và UMP (Uridylate).",
+        "<b>Mức độ phosphoryl hóa —</b> Nucleosid có thể gắn 1, 2 hoặc 3 nhóm phosphat tạo NMP (monophosphat), NDP (diphosphat) và NTP (triphosphat; như ATP, GTP, CTP, UTP mang liên kết phosphoanhydrid giàu năng lượng)."
+    ],
+    "Nhóm phosphate tích điện âm ở pH sinh lý mang lại điện tích âm toàn phần đậm đặc cho toàn bộ các phân tử acid nucleic."
+))
+
+cards.append(make_card(
+    "HS11-B1-09",
+    "Vai trò của Nucleotid làm Đồng tiền năng lượng (ATP, GTP)",
+    "NĂNG LƯỢNG NUCLEOTID",
+    "Phân tích vai trò của ATP như đồng tiền năng lượng vạn năng và sự phân công chức năng chuyên biệt của GTP?",
+    [
+        "<b>ATP - Đồng tiền năng lượng phổ quát (Universal Energy Currency) —</b> Phân tử Adenosin Triphosphat (ATP) mang 2 liên kết phosphoanhydrid giàu năng lượng (thủy phân giải phóng ΔG°' ≈ -30,5 kJ/mol).",
+        "<b>Nối ghép năng lượng (Energy Coupling) —</b> Sự thủy phân ATP được ghép đôi trực tiếp để dẫn động các phản ứng thu nhiệt đòi hỏi năng lượng: co cơ, tổng hợp đại phân tử, và bơm ion tích cực qua màng (Na⁺/K⁺-ATPase tiêu thụ 30% ATP cơ thể).",
+        "<b>GTP - Năng lượng chuyên biệt cho Dịch mã và Tín hiệu —</b> Phân tử Guanosin Triphosphat (GTP) cung cấp năng lượng chuyên biệt cho quá trình sinh tổng hợp protein (bước nạp tRNA của EF-Tu và bước chuyển vị của EF-G).",
+        "<b>Công tắc phân tử Protein G —</b> GTP liên kết và hoạt hóa các protein G truyền tin (G-protein coupled receptors) và các GTPase nhỏ (như Ras, Ran vận chuyển nhân tế bào)."
+    ],
+    "Sự phân công tiến hóa: ATP đảm nhận nguồn năng lượng chung cho toàn bộ cơ thể, trong khi GTP được bảo lưu chuyên biệt cho các cỗ máy dịch mã và các công tắc điều khiển tín hiệu chính xác."
+))
+
+cards.append(make_card(
+    "HS11-B1-10",
+    "Vai trò của Nucleotid làm Chất truyền tin thứ hai (cAMP, cGMP)",
+    "CHẤT TRUYỀN TIN THỨ HAI",
+    "Trình bày cấu tạo hóa học và con đường truyền tín hiệu nội bào của AMP vòng (cAMP) và GMP vòng (cGMP)?",
+    [
+        "<b>AMP vòng (cAMP — Cyclic AMP) —</b> Tạo thành từ ATP nhờ enzym Adenylyl Cyclase tại màng tế bào dưới tác động của các hormon như Glucagon, Adrenalin (thụ thể gắn protein Gs).",
+        "<b>Cấu trúc vòng 3',5'-diester —</b> Nhóm phosphat tạo liên kết este vòng đồng thời với cả carbon C3' và C5' của cùng một phân tử đường ribose.",
+        "<b>Kích hoạt Protein Kinase A (PKA) —</b> cAMP gắn vào tiểu phần điều hòa của PKA, giải phóng tiểu phần xúc tác để phosphoryl hóa hàng loạt enzym chuyển hóa (kích hoạt thoái hóa glycogen giải phóng glucose máu).",
+        "<b>GMP vòng (cGMP — Cyclic GMP) —</b> Tạo thành từ GTP nhờ enzym Guanylyl Cyclase (kích hoạt bởi khí NO hoặc hormon ANP); cGMP kích hoạt Protein Kinase G (PKG) gây giãn cơ trơn mạch máu hạ huyết áp.",
+        "<b>Giáng hóa bởi Phosphodiesterase (PDE) —</b> Enzym PDE thủy phân phá vỡ liên kết vòng để dập tắt tín hiệu; thuốc ức chế PDE5 (Sildenafil / Viagra) duy trì nồng độ cGMP gây giãn mạch điều trị rối loạn cương dương và tăng áp động mạch phổi."
+    ],
+    "Khám phá về cAMP của Earl Sutherland (Giải Nobel Y học 1971) đã khai sinh ra khái niệm Chất truyền tin thứ hai (Second Messenger) trong nội tiết học hiện đại."
+))
+
+cards.append(make_card(
+    "HS11-B1-11",
+    "Vai trò của Nucleotid làm Chất mang chuyển hóa hoạt hóa (UDP-Glucose, CDP-Cholin)",
+    "CHẤT MANG CHUYỂN HÓA",
+    "Nêu vai trò của UDP-Glucose trong chuyển hóa glucid và CDP-Cholin trong tổng hợp phospholipid?",
+    [
+        "<b>Chất mang dạng Nucleosid Diphosphat —</b> Đóng vai trò chất hoạt hóa trung gian gắn với cơ chất để cung cấp thế năng chuyển nhóm trong các phản ứng sinh tổng hợp.",
+        "<b>UDP-Glucose (Uridin Diphosphat Glucose) —</b> Là dạng hoạt hóa của glucose; là cơ chất nhượng gốc glucosyl trực tiếp cho enzym Glycogen Synthase để kéo dài mạch glycogen và là tiền chất tạo UDP-Glucuronat giải độc bilirubin tại gan.",
+        "<b>CDP-Cholin (Cytidin Diphosphat Cholin) —</b> Là dạng hoạt hóa của cholin; cung cấp gốc phosphocholin để tổng hợp Phosphatidylcholin (Lecithin) - thành phần phospholipid cấu trúc màng tế bào và chất diện hoạt surfactant phổi.",
+        "<b>CDP-Diacylglycerol —</b> Dạng hoạt hóa trung gian để tổng hợp Phosphatidylinositol và Cardiolipin ở màng trong ty thể."
+    ],
+    "Mỗi loại nucleotid đảm nhận một vai trò mang cơ chất đặc thù: UDP chuyên chở đường (carbohydrate), CDP chuyên chở lipid/cholin, trong khi ADP/ATP chuyên chở phosphat năng lượng."
+))
+
+cards.append(make_card(
+    "HS11-B1-12",
+    "Vai trò của Nucleotid trong cấu trúc các Coenzyme oxy hóa khử (NAD+, NADP+, FAD, CoA)",
+    "COENZYME NUCLEOTID",
+    "Chỉ ra thành phần cấu trúc nucleotide hiện diện trong 4 coenzyme kinh điển: NAD+, NADP+, FAD và Coenzyme A?",
+    [
+        "<b>Tất cả đều chứa Adenosin Monophosphat (AMP) —</b> Đóng vai trò như một 'tay cầm phân tử' giúp coenzyme khớp vào các rãnh liên kết chuyên biệt (nếp gấp Rossmann fold) trên phân tử apo-protein.",
+        "<b>NAD⁺ và NADP⁺ (Nicotinamid Adenin Dinucleotid) —</b> Gồm vòng Nicotinamid (từ Vitamin B3 / Niacin) nối qua cầu pyrophosphat với một gốc AMP (NADP⁺ có thêm nhóm phosphat ở vị trí 2'-OH của adenosin); chuyên trách vận chuyển 2 electron và 1 proton trong các phản ứng oxy hóa khử.",
+        "<b>FAD (Flavin Adenin Dinucleotid) —</b> Gồm vòng dị vòng Isoalloxazine gắn rượu ribitol (từ Vitamin B2 / Riboflavin) nối qua cầu pyrophosphat với một gốc AMP; chuyên trách vận chuyển 2 electron và 2 proton.",
+        "<b>Coenzyme A (CoA-SH) —</b> Gồm nhóm hoạt động thiol (-SH), β-mercaptoethylamine, acid pantothenic (Vitamin B5) nối với phân tử 3'-phosphoadenosin-5'-diphosphat; chuyên trách vận chuyển các nhóm acyl giàu năng lượng (Acetyl-CoA, Succinyl-CoA)."
+    ],
+    "Sự hiện diện phổ quát của gốc Adenin trong hầu hết mọi coenzyme chuyển hóa cổ xưa là bằng chứng hóa thạch phân tử ủng hộ Giả thuyết Thế giới RNA."
+))
+
+# ==============================================================================
+# SECTION B2: CẤU TRÚC DNA, QUY LUẬT CHARGAFF & MÔ HÌNH XOẮN KÉP B-DNA (12 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B2-01",
+    "Liên kết Phosphodiester 3',5' và Tính định hướng của chuỗi Polynucleotid",
+    "LIÊN KẾT PHOSPHODIESTER",
+    "Mô tả cấu tạo của liên kết phosphodiester 3',5', điện tích âm của bộ khung và tính phân cực định hướng của chuỗi DNA?",
+    [
+        "<b>Bản chất liên kết cộng hóa trị —</b> Nhóm phosphat gắn ở vị trí carbon C5' của một nucleotid tạo liên kết ester thứ hai với nhóm hydroxyl tự do ở vị trí C3' của nucleotid kế tiếp.",
+        "<b>Bộ khung Đường - Phosphat lặp lại —</b> Tạo thành một khung xương cộng hóa trị bền vững luân phiên: -Đường - Phosphat - Đường - Phosphat-.",
+        "<b>Điện tích âm toàn phần —</b> Tại pH sinh lý 7,4, mỗi nhóm phosphat mang một điện tích âm (-1); làm chuỗi DNA tích điện âm đậm đặc dọc toàn bộ chiều dài phân tử.",
+        "<b>Tính phân cực và Định hướng chuỗi (5' → 3') —</b> Mỗi chuỗi polynucleotid luôn có 2 đầu tận cùng khác biệt: Đầu 5'-tận cùng mang nhóm phosphat tự do (hoặc triphosphat) gắn tại C5'; Đầu 3'-tận cùng mang nhóm hydroxyl (-OH) tự do tại C3'; quy ước quốc tế luôn viết trình tự nucleotide theo chiều từ đầu 5' sang 3'."
+    ],
+    "Mọi enzyme DNA Polymerase và RNA Polymerase trong sinh giới đều chỉ có khả năng tổng hợp chuỗi polynucleotid mới duy nhất theo một chiều từ đầu 5' kéo dài dần về phía đầu 3'."
+))
+
+cards.append(make_card(
+    "HS11-B2-02",
+    "Quy luật Chargaff (Erwin Chargaff, 1950) về thành phần Base của DNA",
+    "QUY LUẬT CHARGAFF",
+    "Trình bày 3 nội dung kinh điển của Quy luật Chargaff áp dụng cho phân tử DNA chuỗi kép tự nhiên?",
+    [
+        "<b>1. Tỷ lệ tương đương tuyệt đối —</b> Trong mọi phân tử DNA chuỗi kép tự nhiên từ bất kỳ loài sinh vật nào: Số lượng gốc Adenin luôn luôn bằng Thymin (A = T hay A/T = 1); Số lượng gốc Guanin luôn luôn bằng Cytosin (G = C hay G/C = 1).",
+        "<b>2. Tổng Purin bằng tổng Pyrimidin —</b> Tổng số base purin luôn bằng tổng số base pyrimidin: (A + G) = (T + C) hay (A + G) / (T + C) = 1,0.",
+        "<b>3. Tỷ lệ %GC là đặc trưng loài —</b> Tỷ số (A + T) / (G + C) hoặc tỷ lệ %GC biến thiên đa dạng giữa các loài sinh vật khác nhau (từ 25% ở một số vi khuẩn đến 75% ở vi khuẩn chịu nhiệt), nhưng không đổi trong mọi mô của cùng một cá thể.",
+        "<b>Điều kiện tiên quyết áp dụng —</b> Quy luật Chargaff CHỈ ÁP DỤNG ĐÚNG CHO DNA CHUỖI KÉP; hoàn toàn không áp dụng cho DNA sợi đơn (như một số virus parvovirus) hoặc phân tử RNA."
+    ],
+    "Khám phá của Erwin Chargaff là mảnh ghép quyết định giúp Watson và Crick tìm ra nguyên tắc bắt cặp bổ sung giữa A với T và G với C trong chuỗi xoắn kép."
+))
+
+cards.append(make_card(
+    "HS11-B2-03",
+    "Bài toán ứng dụng Quy luật Chargaff trong phân tích DNA",
+    "BÀI TOÁN CHARGAFF",
+    "Một mẫu DNA chuỗi kép có tỷ lệ gốc Cytosin (C) chiếm 34% tổng số nucleotide. Tính tỷ lệ % của các gốc A, T, G và tỷ lệ %GC của mẫu DNA này?",
+    [
+        "<b>Bước 1: Tính gốc Guanin (G) —</b> Theo quy luật Chargaff, trong DNA chuỗi kép: G = C = 34%.",
+        "<b>Bước 2: Tính tổng % của G và C —</b> %G + %C = 34% + 34% = 68% (Đây chính là tỷ lệ %GC = 68%).",
+        "<b>Bước 3: Tính tổng % của A và T —</b> %A + %T = 100% - 68% = 32%.",
+        "<b>Bước 4: Tính gốc Adenin (A) và Thymin (T) —</b> Theo quy luật Chargaff: A = T = 32% / 2 = 16%.",
+        "<b>Kết luận —</b> Mẫu DNA chuỗi kép này có: C = 34%, G = 34%, A = 16%, T = 16%; %GC = 68% (thuộc nhóm vi khuẩn chịu nhiệt có Tm rất cao)."
+    ],
+    "Dạng bài tập tính toán % nucleotide theo quy luật Chargaff là câu hỏi tính nhanh kinh điển thường gặp trong các đề thi tuyển sinh y khoa."
+))
+
+cards.append(make_card(
+    "HS11-B2-04",
+    "Mô hình Chuỗi Xoắn Kép B-DNA của Watson - Crick (1953)",
+    "MÔ HÌNH WATSON - CRICK",
+    "Mô tả các đặc điểm cấu trúc không gian nền tảng của mô hình B-DNA do James Watson và Francis Crick công bố?",
+    [
+        "<b>Hai chuỗi polynucleotid xoắn kép —</b> Gồm hai sợi đơn cuộn xoắn đều đặn quanh một trục tưởng tượng chung theo chiều xoắn sang phải (Right-handed double helix).",
+        "<b>Nguyên tắc Đối song song (Antiparallel) —</b> Hai sợi đơn chạy ngược chiều nhau: một sợi định hướng 5' → 3' thì sợi đối diện bắt buộc chạy theo hướng 3' → 5'.",
+        "<b>Bộ khung Đường - Phosphat ở phía ngoài —</b> Các nhóm phosphat tích điện âm và đường ribose ưa nước quay ra bề mặt ngoài tạo vỏ hydrat hóa tiếp xúc với nước tế bào tương.",
+        "<b>Các Base Nitơ xếp chồng ở bên trong —</b> Các base nitơ kỵ nước xếp vuông góc với trục xoắn, giấu kín vào lõi bên trong phân tử.",
+        "<b>Nguyên tắc Bổ sung (Complementary Base Pairing) —</b> Các base của hai sợi đơn bắt cặp đôi với nhau ở tâm trục thông qua các liên kết hydro đặc hiệu: A bắt cặp với T qua 2 LIÊN KẾT HYDRO; G bắt cặp với C qua 3 LIÊN KẾT HYDRO."
+    ],
+    "Mô hình chuỗi xoắn kép lập tức giải thích cơ chế sao chép thông tin di truyền: mỗi sợi đơn đóng vai trò làm khuôn mẫu chính xác để tổng hợp nên sợi bổ sung mới."
+))
+
+cards.append(make_card(
+    "HS11-B2-05",
+    "Các thông số hình học kinh điển của phân tử B-DNA",
+    "THÔNG SỐ HÌNH HỌC B-DNA",
+    "Nêu 4 thông số hình học kích thước chuẩn của phân tử B-DNA theo mô hình Watson - Crick?",
+    [
+        "<b>1. Đường kính chuỗi xoắn kép —</b> Cố định chính xác là 2,0 nm (20 Å); kích thước này vừa khít với một cặp base gồm một base purin lớn (kích thước rộng) bắt cặp với một base pyrimidin nhỏ (kích thước hẹp).",
+        "<b>2. Khoảng cách giữa hai cặp base kế tiếp —</b> Là 0,34 nm (3,4 Å) dọc theo trục xoắn.",
+        "<b>3. Bước xoắn (Pitch of the helix) —</b> Mỗi chu kỳ xoắn trọn vẹn 360° có độ dài 3,4 nm (34 Å).",
+        "<b>4. Số cặp base trong mỗi chu kỳ xoắn —</b> Mỗi vòng xoắn trọn vẹn chứa đúng 10,0 đến 10,5 cặp base (bp); góc xoay giữa hai cặp base liền kề là 36°."
+    ],
+    "Tính cố định tuyệt đối của đường kính 2,0 nm giải thích vì sao hai purin không thể bắt cặp với nhau (sẽ quá rộng làm phình sợi DNA) và hai pyrimidin không thể bắt cặp với nhau (sẽ quá hẹp làm lõm sợi DNA)."
+))
+
+cards.append(make_card(
+    "HS11-B2-06",
+    "Cấu trúc Rãnh lớn (Major Groove) và Rãnh nhỏ (Minor Groove)",
+    "RÃNH LỚN VÀ RÃNH NHỎ",
+    "Mô tả sự hình thành của Rãnh lớn và Rãnh nhỏ trên phân tử B-DNA và vai trò của chúng trong việc gắn Protein điều hòa?",
+    [
+        "<b>Bản chất hình thành không đối xứng —</b> Do hai liên kết N-glycosidic gắn base vào đường pentose không nằm thẳng hàng đối xứng 180° mà tạo một góc xiên khoảng 120°, bề mặt ngoài của chuỗi xoắn kép lõm vào tạo 2 rãnh xoắn không đều nhau.",
+        "<b>Rãnh lớn (Major Groove) —</b> Rộng khoảng 1,2 nm (12 Å) và sâu 0,85 nm; để lộ ra nhiều nguyên tử cho và nhận liên kết hydro của các base nitơ.",
+        "<b>Vị trí nhận diện của các Yếu tố phiên mã —</b> Rãnh lớn cung cấp một 'mã nhận diện bề mặt' phong phú (chuỗi các nguyên tử H-bond donor, acceptor, methyl), cho phép các protein điều hòa (Yếu tố phiên mã mang motif ngón tay kẽm Zinc-finger, Leucine zipper, Helix-turn-helix) đọc chính xác trình tự DNA mà KHÔNG CẦN THÁO XOẮN TÁCH RỜI HAI SỢI DNA.",
+        "<b>Rãnh nhỏ (Minor Groove) —</b> Hẹp hơn (khoảng 0,6 nm / 6 Å) và nông hơn; là đích gắn của các protein gắn không đặc hiệu (như TATA-binding protein TBP) hoặc các thuốc kháng sinh/chống ung thư gắn rãnh nhỏ (DAPI, Netropsin)."
+    ],
+    "Rãnh lớn là 'bảng thông tin mở' của DNA: các yếu tố phiên mã có thể lướt ngón tay phân tử dọc theo rãnh lớn để tìm kiếm chính xác promoter mục tiêu."
+))
+
+cards.append(make_card(
+    "HS11-B2-07",
+    "Tương tác Xếp chồng Base (Base Stacking) và Hiệu ứng Kỵ nước",
+    "LỰC LÀM BỀN DNA",
+    "Phân tích vai trò nhiệt động học của lực xếp chồng base (Base Stacking) và giải thích vì sao nó là động lực chính làm bền DNA?",
+    [
+        "<b>Bản chất tương tác xếp chồng base —</b> Các mặt phẳng nhân thơm của các base nitơ kế tiếp nhau xếp chồng song song khít khao lên nhau dọc theo trục xoắn kép giống như các bậc của chiếc cầu thang xoắn.",
+        "<b>Lực hút van der Waals phân tán —</b> Mặc dù từng tương tác van der Waals rất yếu, nhưng hàng triệu tương tác giữa các đám mây electron π xếp chồng phẳng khít tạo nên một tổng lực hút phi cộng hóa trị khổng lồ.",
+        "<b>Hiệu ứng kỵ nước (Động lực nhiệt động học cốt lõi) —</b> Các base nitơ có tính chất kỵ nước; việc giấu kín toàn bộ các base vào lõi bên trong tránh tiếp xúc với nước giải phóng các phân tử nước xung quanh, làm TĂNG MẠNH ENTROPY TOÀN PHẦN CỦA HỆ (ΔS > 0), khiến năng lượng tự do Gibbs ΔG < 0.",
+        "<b>Đóng góp năng lượng áp đảo —</b> Tương tác xếp chồng base đóng góp tới hơn 70 - 80% tổng năng lượng tự do làm bền chuỗi xoắn kép DNA (vượt trội hơn hẳn so với liên kết hydro)."
+    ],
+    "Trái với quan niệm thông thường, liên kết hydro không phải là lực chính giữ 2 sợi DNA cuộn xoắn với nhau mà chủ yếu đóng vai trò tạo tính đặc hiệu bổ sung (A bắt cặp với T, G với C); chính lực xếp chồng kỵ nước mới là chiếc keo dán giữ chặt chuỗi kép."
+))
+
+cards.append(make_card(
+    "HS11-B2-08",
+    "Vai trò của Liên kết Hydro giữa các cặp Base bổ sung",
+    "LIÊN KẾT HYDRO TRONG DNA",
+    "Phân tích số lượng liên kết hydro giữa các cặp A-T và G-C và vai trò của chúng đối với tính đặc hiệu di truyền?",
+    [
+        "<b>Cặp Adenin - Thymin (A = T) —</b> Hình thành đúng 2 LIÊN KẾT HYDRO: Một liên kết giữa nhóm 6-amino của A (cho H) với nhóm 4-keto của T (nhận H); Một liên kết giữa nhóm 1-nitơ của A (nhận H) với nhóm 3-imino của T (cho H).",
+        "<b>Cặp Guanin - Cytosin (G ≡ C) —</b> Hình thành đúng 3 LIÊN KẾT HYDRO: Giữa 6-keto của G với 4-amino của C; giữa 1-imino của G với 3-nitơ của C; và giữa 2-amino của G với 2-keto của C.",
+        "<b>Độ bền nhiệt lớn hơn của cặp G-C —</b> Cặp G≡C có 3 liên kết hydro và năng lượng xếp chồng base lớn hơn cặp A=T (2 liên kết hydro); do đó phân tử DNA càng giàu cặp G-C thì chuỗi xoắn kép càng bền nhiệt.",
+        "<b>Vai trò tạo tính trung thực sao chép —</b> Các liên kết hydro đảm bảo độ chính xác tuyệt đối trong sao chép và phiên mã: kích thước không gian và vị trí cho/nhận hydro bắt buộc A chỉ có thể bắt cặp khít khao với T, và G chỉ bắt cặp với C."
+    ],
+    "Mặc dù năng lượng của liên kết hydro trong nước là tương đối nhỏ (do các base cạnh tranh liên kết hydro với phân tử nước), nhưng việc giấu kín liên kết hydro vào lõi kỵ nước không có nước đã làm tăng mạnh độ bền của chúng."
+))
+
+cards.append(make_card(
+    "HS11-B2-09",
+    "Vai trò của Cation Kim loại (Na+, Mg2+) trong trung hòa điện tích khung Phosphat",
+    "LỰC LÀM BỀN DNA",
+    "Giải thích vì sao sự có mặt của các ion kim loại hóa trị 1 (Na+) và hóa trị 2 (Mg2+) là điều kiện bắt buộc để ổn định DNA chuỗi kép?",
+    [
+        "<b>Lực đẩy tĩnh điện cực mạnh giữa các nhóm phosphat —</b> Hai sợi đơn DNA đều mang các nhóm phosphat tích điện âm (-1) chạy song song kề nhau ở khoảng cách gần.",
+        "<b>Nguy cơ bung xoắn phân tử —</b> Lực đẩy tĩnh điện giữa các điện tích âm cùng dấu này rất lớn; nếu đặt DNA trong nước cất tinh khiết không có muối, lực đẩy tĩnh điện sẽ xé toạc hai sợi đơn rời nhau ngay ở nhiệt độ phòng.",
+        "<b>Hiệu ứng che chắn tĩnh điện của Cation kim loại —</b> Các ion dương trong dung dịch (Na⁺, K⁺, và đặc biệt là Mg²⁺) bị hút về phía khung xương DNA, bao bọc và tạo lớp vỏ TRUNG HÒA HOÀN TOÀN CÁC ĐIỆN TÍCH ÂM PHOSPHAT.",
+        "<b>Ổn định cấu trúc chuỗi xoắn kép —</b> Khi lực đẩy tĩnh điện bị triệt tiêu, tương tác xếp chồng base và liên kết hydro có thể phát huy tối đa lực hút để giữ chặt hai sợi đơn xoắn kép với nhau."
+    ],
+    "Đây là cơ sở giải thích vì sao trong kỹ thuật PCR hoặc tách chiết DNA, nồng độ muối NaCl và ion Mg²⁺ luôn phải được chuẩn độ cực kỳ chính xác để kiểm soát nhiệt độ bắt cặp mồi."
+))
+
+cards.append(make_card(
+    "HS11-B2-10",
+    "Cấu trúc Nhiễm sắc chất (Chromatin) và Hạt Nucleosome",
+    "ĐÓNG GÓI DNA NHÂN THỰC",
+    "Mô tả cấu tạo phân tử của Hạt Nucleosome và các bậc đóng gói thu nhỏ chiều dài phân tử DNA trong nhân tế bào?",
+    [
+        "<b>Thách thức kích thước —</b> Phân tử DNA trong một tế bào người dài khoảng 2 mét nhưng phải đóng gói gọn gàng vào trong nhân tế bào có đường kính chỉ 5 đến 10 µm (thu nhỏ chiều dài hơn 10.000 lần).",
+        "<b>Hạt Nucleosome (Đơn vị cấu trúc cơ bản) —</b> Gồm một lõi protein bát phân HISTONE OCTAMER (chứa 2 phân tử mỗi loại: H2A, H2B, H3, H4) được một đoạn DNA chuỗi kép dài khoảng 146 - 147 cặp base quấn quanh 1,65 vòng theo chiều xoắn trái.",
+        "<b>Histone H1 (Histone khóa nẹp) —</b> Nằm ngoài lõi, liên kết với đoạn DNA nối (linker DNA dài khoảng 20 - 80 bp) để khóa chặt vòng DNA quấn quanh nucleosome.",
+        "<b>Sợi hạt chuỗi ngọc 10 nm —</b> Chuỗi các nucleosome nối tiếp nhau tạo hình ảnh sợi hạt chuỗi ngọc (Beads-on-a-string) đường kính 10 nm.",
+        "<b>Các bậc cuộn xoắn cao hơn —</b> Sợi 10 nm cuộn thành sợi 30 nm (solenoid), sau đó gập thành các quai lặp (loops) gắn vào khung scaffold protein tạo sợi 300 nm, sợi 700 nm, và cuối cùng cô đặc tối đa thành NHIỄM SẮC THỂ KỲ GIỮA (Metaphase Chromosome đường kính 1400 nm)."
+    ],
+    "Các histone mang điện tích dương dày đặc (giàu Lys và Arg) tạo lực hút tĩnh điện liên kết tự nhiên với khung phosphat mang điện âm của DNA."
+))
+
+cards.append(make_card(
+    "HS11-B2-11",
+    "Cấu trúc đầu mút Nhiễm sắc thể (Telomere) và Enzym Telomerase",
+    "TELOMERE VÀ TELOMERASE",
+    "Mô tả cấu tạo của vùng Telomere và cơ chế duy trì chiều dài đầu mút nhiễm sắc thể của enzym Telomerase?",
+    [
+        "<b>Cấu trúc Telomere —</b> Đoạn DNA lặp lại đặc hiệu nằm ở hai đầu mút của nhiễm sắc thể thẳng ở tế bào nhân thực; ở người là hàng nghìn đoạn lặp bất biến: 5'-TTAGGG-3'.",
+        "<b>Vấn đề đầu mút sao chép (End-Replication Problem) —</b> Do DNA Polymerase cần mồi RNA và chỉ tổng hợp chiều 5'→3', sợi chậm (lagging strand) sau khi loại bỏ mồi RNA tận cùng sẽ bị mất một đoạn DNA; làm nhiễm sắc thể bị ngắn dần sau mỗi lần phân bào (đồng hồ sinh học lão hóa tế bào).",
+        "<b>Enzym Telomerase —</b> Là một phức hợp Ribonucleoprotein (RNP) gồm: tiểu phần xúc tác enzym TERT (Telomerase Reverse Transcriptase) và một khuôn mẫu RNA nội tại TERC mang trình tự bổ sung 3'-AAUCCC-5'.",
+        "<b>Cơ chế kéo dài —</b> Sử dụng khuôn mẫu RNA nội tại, Telomerase phiên mã ngược kéo dài thêm các đoạn lặp TTAGGG vào đầu 3' của sợi DNA mẹ.",
+        "<b>Ý nghĩa trong Ung thư học và Lão hóa —</b> Tế bào sinh dưỡng bình thường không có telomerase nên bị lão hóa và chết sau khoảng 50 - 70 lần phân chia (giới hạn Hayflick); trong khi > 85 - 90% TẾ BÀO UNG THƯ ĐÃ TÁI KÍCH HOẠT TELOMERASE giúp chúng phân chia vô hạn bất tử."
+    ],
+    "Khám phá về cấu trúc Telomere và enzym Telomerase của Elizabeth Blackburn, Carol Greider và Jack Szostak đã được trao giải Nobel Y học năm 2009."
+))
+
+cards.append(make_card(
+    "HS11-B2-12",
+    "Đột biến mất gốc Base (Vị trí AP) và Khử amin ngẫu nhiên của Cytosin",
+    "TỔN THƯƠNG TỰ NHIÊN CỦA DNA",
+    "Mô tả hai dạng tổn thương hóa học tự phát phổ biến nhất của DNA: Mất purin (Vị trí AP) và Khử amin Cytosin thành Uracil?",
+    [
+        "<b>1. Mất base Purin tự phát (Depurination) —</b> Nhiệt độ cơ thể và nước cắt đứt liên kết N-glycosidic giữa purin và đường deoxyribose, giải phóng Adenin hoặc Guanin tự do; mỗi tế bào người mất khoảng 5.000 đến 10.000 gốc purin mỗi ngày.",
+        "<b>Tạo vị trí vô base AP (Apurinic / Apyrimidinic Site) —</b> Để lại vị trí đường trơ không có base nitơ; nếu không được sửa sai sẽ gây ngừng chẽ ba sao chép hoặc gây đột biến chèn ngẫu nhiên.",
+        "<b>2. Khử amin tự phát của Cytosin (Deamination) —</b> Nhóm amin (-NH2) ở C4 của Cytosin bị thủy phân oxy hóa tự phát chuyển thành nhóm carbonyl (=O); biến phân tử CYTOSIN THÀNH URACIL; mỗi tế bào xảy ra khoảng 100 - 500 lần/ngày.",
+        "<b>Hệ thống sửa sai cắt base BER (Base Excision Repair) —</b> Enzym URACIL-DNA GLYCOSYLASE (UDG) nhận diện và cắt bỏ ngay lập tức gốc Uracil bất thường khỏi DNA; sau đó enzym AP Endonuclease cắt khung đường và DNA Polymerase / Ligase vá lại Cytosin chính xác."
+    ],
+    "Sự hiện diện của base Uracil trong phân tử DNA luôn được tế bào xem là một dấu hiệu bất thường cần phải dọn dẹp ngay lập tức."
+))
+
+# ==============================================================================
+# SECTION B3: SO SÁNH CÁC DẠNG XOẮN & TÍNH CHẤT LÝ HÓA CỦA DNA (12 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B3-01",
+    "So sánh ba dạng cấu trúc xoắn của DNA: B-DNA, A-DNA và Z-DNA",
+    "CÁC DẠNG XOẮN CỦA DNA",
+    "Lập bảng so sánh chiều xoắn, số cặp base/vòng và điều kiện tồn tại của 3 dạng cấu trúc DNA: B-DNA, A-DNA và Z-DNA?",
+    [
+        "<b>1. Dạng B-DNA (Dạng sinh lý phổ biến nhất) —</b> Chiều xoắn PHẢI (Right-handed); 10 - 10,5 cặp base/vòng; bước xoắn 3,4 nm; đường kính 2,0 nm; tồn tại trong điều kiện dung dịch nước sinh lý tế bào (độ ẩm cao > 92%, nồng độ muối sinh lý).",
+        "<b>2. Dạng A-DNA (Dạng mập dẹt, mất nước) —</b> Chiều xoắn PHẢI; 11 cặp base/vòng; bước xoắn 2,8 nm; đường kính to hơn (2,3 nm); các base nghiêng 20° so với trục; gặp trong điều kiện môi trường mất nước (độ ẩm < 75%) và ĐẶC BIỆT LÀ CẤU TRÚC CHUỖI XOẮN KÉP LAI DNA-RNA HOẶC RNA-RNA.",
+        "<b>3. Dạng Z-DNA (Dạng thanh mảnh dích dắc) —</b> Chiều xoắn TRÁI (Left-handed); 12 cặp base/vòng; bước xoắn dài 4,5 nm; đường kính hẹp nhất (1,8 nm); bộ khung đường-phosphat chạy theo hình dích dắc Ziczac; gặp ở các đoạn trình tự lặp luân phiên Purin - Pyrimidin (như poly(dG-dC)).",
+        "<b>Ý nghĩa sinh học của Z-DNA —</b> Hình thành tạm thời phía sau các phức hợp phiên mã để giải tỏa áp lực siêu xoắn âm và điều hòa biểu hiện gen."
+    ],
+    "Mẹo nhớ nhanh: B-DNA và A-DNA xoắn sang PHẢI; chỉ duy nhất Z-DNA xoắn sang TRÁI (Ziczac Left-handed)."
+))
+
+cards.append(make_card(
+    "HS11-B3-02",
+    "Sự Biến tính của DNA (DNA Melting / Denaturation)",
+    "BIẾN TÍNH DNA",
+    "Định nghĩa hiện tượng biến tính DNA, nêu các tác nhân gây biến tính và biến đổi độ nhớt của dung dịch?",
+    [
+        "<b>Định nghĩa Biến tính DNA —</b> Quá trình tách rời hai sợi đơn của chuỗi xoắn kép DNA khi các liên kết hydro và tương tác xếp chồng base bị phá vỡ.",
+        "<b>Bảo toàn liên kết cộng hóa trị —</b> Quá trình biến tính HOÀN TOÀN KHÔNG LÀM ĐỨT GÃY BẤT KỲ LIÊN KẾT PHOSPHODIESTER nào; khung xương cộng hóa trị của từng sợi đơn vẫn nguyên vẹn 100%.",
+        "<b>Các tác nhân gây biến tính —</b> 1) Nhiệt độ cao (> 80 - 95°C); 2) pH kiềm cực đoan (pH > 11,5 - 12 làm ion hóa các gốc base); 3) Hóa chất phá vỡ liên kết hydro (Urê nồng độ cao, Formamide).",
+        "<b>Sụt giảm đột ngột độ nhớt —</b> Phân tử DNA chuỗi kép nguyên bản dài cứng nhắc tạo độ nhớt rất cao cho dung dịch; khi bị biến tính thành hai sợi đơn mềm dẻo linh hoạt, độ nhớt của dung dịch sụt giảm đột ngột."
+    ],
+    "Sự biến tính thuận nghịch bởi nhiệt độ là nền tảng cốt lõi của toàn bộ phản ứng chuỗi polymerase (PCR) trong sinh học phân tử."
+))
+
+cards.append(make_card(
+    "HS11-B3-03",
+    "Hiện tượng Tăng sắc (Hyperchromic Effect) ở bước sóng 260 nm",
+    "HIỆN TƯỢNG TĂNG SẮC",
+    "Giải thích cơ chế vật lý của Hiện tượng Tăng sắc khi đo độ hấp thụ tử ngoại A260 của dung dịch DNA bị biến tính?",
+    [
+        "<b>Đỉnh hấp thụ tử ngoại cực đại ở λ = 260 nm —</b> Các electron π bất định xứ của các vòng thơm base nitơ hấp thụ mạnh ánh sáng tử ngoại UV vùng 260 nm (A260).",
+        "<b>Hiện tượng giảm sắc trong DNA chuỗi kép (Hypochromicity) —</b> Trong chuỗi xoắn kép tự nhiên, các base xếp chồng khít khao bên trong lõi kỵ nước; các đám mây electron tương tác chặt chẽ với nhau làm giảm khả năng bắt photon ánh sáng, khiến độ hấp thụ A260 ở mức thấp.",
+        "<b>Hiện tượng Tăng sắc khi biến tính (Hyperchromic Effect) —</b> Khi DNA bị biến tính thành hai sợi đơn, cấu trúc xoắn kép bị phá vỡ, các base nitơ bung tháo tự do ra ngoài tiếp xúc trực tiếp với chùm tia tử ngoại.",
+        "<b>Mức độ tăng vọt A260 —</b> Độ hấp thụ quang A260 của dung dịch TĂNG VỌT LÊN KHOẢNG 30% ĐẾN 40%.",
+        "<b>Ứng dụng thực nghiệm —</b> Đo quang phổ A260 liên tục theo nhiệt độ để vẽ đường cong nóng chảy và xác định chính xác nhiệt độ nóng chảy Tm của phân tử DNA."
+    ],
+    "Tỷ lệ độ hấp thụ A260/A280 chuẩn của phân tử DNA tinh sạch là khoảng 1,8; nếu tỷ lệ này < 1,6 chứng tỏ mẫu DNA bị nhiễm protein (chứa nhiều Trp và Tyr hấp thụ ở 280 nm)."
+))
+
+cards.append(make_card(
+    "HS11-B3-04",
+    "Nhiệt độ Nóng chảy Tm (Melting Temperature) của phân tử DNA",
+    "NHIỆT ĐỘ NÓNG CHẢY Tm",
+    "Định nghĩa Nhiệt độ Nóng chảy (Tm) của DNA và phân tích 2 yếu tố quyết định giá trị Tm?",
+    [
+        "<b>Định nghĩa Nhiệt độ Nóng chảy (Tm) —</b> Là giá trị nhiệt độ mà tại đó đúng 50% SỐ PHÂN TỬ DNA TRONG DUNG DỊCH BỊ BIẾN TÍNH TÁCH THÀNH SỢI ĐƠN (tương ứng với điểm uốn trung gian của đường cong tăng sắc A260).",
+        "<b>Yếu tố 1: Tỷ lệ phần trăm các cặp G-C (%GC) —</b> Cặp G≡C có 3 liên kết hydro và năng lượng xếp chồng base lớn hơn nhiều so với cặp A=T (2 liên kết hydro); do đó TỶ LỆ %GC CÀNG CAO THÌ NHIỆT ĐỘ NÓNG CHẢY Tm CÀNG LỚN.",
+        "<b>Yếu tố 2: Nồng độ ion muối (Na⁺, K⁺, Mg²⁺) —</b> Nồng độ muối trong dung dịch càng cao, các ion dương càng che chắn hiệu quả lực đẩy tĩnh điện giữa các nhóm phosphat; do đó NỒNG ĐỘ MUỐI CÀNG CAO THÌ GIÁ TRỊ Tm CÀNG TĂNG.",
+        "<b>Yếu tố chiều dài phân tử —</b> Đoạn DNA càng dài thì tổng số liên kết càng nhiều, giá trị Tm càng cao."
+    ],
+    "Công thức ước tính nhanh nhiệt độ Tm cho đoạn mồi oligonucleotide ngắn trong PCR (Công thức Wallace): Tm (°C) = 2 × (Số nucleotide A + T) + 4 × (Số nucleotide G + C)."
+))
+
+cards.append(make_card(
+    "HS11-B3-05",
+    "Sự Hồi tính (Renaturation / Annealing) và Động học Cot",
+    "HỒI TÍNH DNA",
+    "Mô tả quá trình Hồi tính của DNA và ý nghĩa của Đồ thị đường cong phân tích Cot trong việc đánh giá độ phức tạp hệ gen?",
+    [
+        "<b>Khái niệm Hồi tính (Annealing) —</b> Khi dung dịch DNA biến tính nhiệt được làm nguội từ từ xuống nhiệt độ khoảng 20 - 25°C dưới điểm Tm, hai sợi đơn bổ sung sẽ tìm thấy nhau và bắt cặp chính xác tái lập cấu trúc xoắn kép ban đầu.",
+        "<b>Hai giai đoạn của hồi tính —</b> 1) Giai đoạn tạo mầm (Nucleation - bước chậm giới hạn tốc độ): Hai sợi đơn va chạm ngẫu nhiên và bắt cặp đúng một vài base đầu tiên; 2) Giai đoạn khóa kéo (Zippering - cực kỳ nhanh chóng): Toàn bộ các base còn lại nhanh chóng bắt cặp khép kín.",
+        "<b>Động học đường cong Cot (Cot Curve) —</b> Đo tốc độ hồi tính phụ thuộc vào tích số giữa nồng độ DNA ban đầu (Co) và thời gian (t).",
+        "<b>Đánh giá độ phức tạp hệ gen —</b> Đoạn DNA có trình tự lặp lại nhiều lần (như DNA vệ tinh, transposon) hồi tính cực nhanh (giá trị Cot rất thấp); các gen đơn bản duy nhất đòi hỏi thời gian tìm kiếm lâu hơn nên hồi tính chậm hơn (giá trị Cot cao)."
+    ],
+    "Đường cong Cot do Roy Britten phát hiện đã chứng minh lần đầu tiên rằng hệ gen sinh vật nhân thực chứa một tỷ lệ khổng lồ các đoạn trình tự DNA lặp lại không mã hóa."
+))
+
+cards.append(make_card(
+    "HS11-B3-06",
+    "Nguyên lý Kỹ thuật Lai phân tử (Molecular Hybridization)",
+    "KỸ THUẬT LAI PHÂN TỬ",
+    "Trình bày nguyên lý chung của kỹ thuật Lai phân tử và kể tên 4 kỹ thuật sinh học phân tử kinh điển ứng dụng nguyên lý này?",
+    [
+        "<b>Nguyên lý chung —</b> Dựa trên khả năng bắt cặp bổ sung chính xác giữa hai sợi đơn acid nucleic bất kỳ (DNA-DNA hoặc DNA-RNA) khi chúng có trình tự bổ sung cho nhau để tạo thành thể lai chuỗi kép.",
+        "<b>Sử dụng Mẫu dò phân tử (Probe) —</b> Một đoạn oligonucleotide hoặc cDNA đặc hiệu được đánh dấu bằng đồng vị phóng xạ (³²P) hoặc chất phát huỳnh quang/enzyme tạo màu để nhận diện đoạn gen mục tiêu.",
+        "<b>1. Southern Blot —</b> Lai mẫu dò DNA với các đoạn cắt DNA trên màng thẩm tích để phát hiện đột biến gen, mất đoạn hoặc thêm đoạn.",
+        "<b>2. Northern Blot —</b> Lai mẫu dò với các phân tử RNA trên màng để định lượng mức độ biểu hiện gen (mức độ phiên mã mRNA).",
+        "<b>3. Lai huỳnh quang tại chỗ (FISH) —</b> Lai mẫu dò huỳnh quang trực tiếp trên tiêu bản nhiễm sắc thể để phát hiện chuyển đoạn gen ung thư.",
+        "<b>4. Vi mảng DNA (DNA Microarray) —</b> Hàng chục ngàn mẫu dò gắn cố định trên chip kính để giải mã hồ sơ biểu hiện của toàn bộ hệ gen cùng một lúc."
+    ],
+    "Mẹo nhớ kinh điển của sinh viên y khoa: 'SNOW DROP' = Southern blot tìm DNA; Northern blot tìm RNA; O - O; Western blot tìm Protein."
+))
+
+cards.append(make_card(
+    "HS11-B3-07",
+    "Ứng dụng Lai huỳnh quang tại chỗ (FISH) trong chẩn đoán Ung thư học",
+    "KỸ THUẬT LAI FISH",
+    "Trình bày ứng dụng lâm sàng của kỹ thuật Lai huỳnh quang tại chỗ (FISH) trong chẩn đoán bệnh Bạch cầu kinh dòng tủy (CML) và Ung thư vú?",
+    [
+        "<b>Nguyên lý kỹ thuật FISH —</b> Mẫu dò DNA sợi đơn gắn chất huỳnh quang lai trực tiếp với DNA trên tiêu bản tế bào hoặc mô cố định kỳ giữa; quan sát tín hiệu phát sáng dưới kính hiển vi huỳnh quang.",
+        "<b>Chẩn đoán Bạch cầu kinh dòng tủy (CML) —</b> Mẫu dò gen BCR (màu xanh lục) và mẫu dò gen ABL1 (màu đỏ); ở người bình thường hai tín hiệu tách rời nhau; ở bệnh nhân CML mang chuyển đoạn t(9;22) (Nhiễm sắc thể Philadelphia), hai gen dung hợp lại tạo TÍN HIỆU LAI KÉP MÀU VÀNG đặc trưng.",
+        "<b>Đánh giá Khuếch đại gen HER2 trong Ung thư vú —</b> Đo tỷ lệ tín hiệu huỳnh quang của gen HER2/neu so với tín hiệu tâm động nhiễm sắc thể 17 (CEP17); nếu tỷ lệ HER2/CEP17 ≥ 2,0 chứng tỏ gen HER2 bị khuếch đại mạnh mẽ.",
+        "<b>Định hướng điều trị trúng đích —</b> Bệnh nhân CML dương tính Philadelphia được chỉ định thuốc ức chế tyrosine kinase Imatinib (Gleevec); bệnh nhân ung thư vú khuếch đại HER2 được chỉ định kháng thể đơn dòng Trastuzumab (Herceptin)."
+    ],
+    "Kỹ thuật FISH có ưu điểm vượt trội là độ phân giải cực cao, thực hiện được trên cả tế bào gian kỳ không cần nuôi cấy phân bào và trả kết quả nhanh chóng trong vòng 24 giờ."
+))
+
+cards.append(make_card(
+    "HS11-B3-08",
+    "Nguyên lý Phản ứng Chuỗi Polymerase (PCR) và 3 bước chu kỳ nhiệt",
+    "KỸ THUẬT PCR",
+    "Trình bày nguyên lý và 3 bước biến thiên nhiệt độ trong một chu kỳ của kỹ thuật PCR?",
+    [
+        "<b>Phát minh của Kary Mullis (Giải Nobel Hóa học 1993) —</b> Phương pháp nhân bản vô tính in vitro khuếch đại hàng triệu bản sao của một đoạn DNA mục tiêu trong ống nghiệm chỉ sau vài giờ.",
+        "<b>Bước 1: Biến tính tách sợi (Denaturation ở 94 - 95°C trong 30 giây) —</b> Nhiệt độ cao phá vỡ toàn bộ các liên kết hydro, tách chuỗi xoắn kép DNA khuôn mẫu thành hai sợi đơn.",
+        "<b>Bước 2: Bắt cặp mồi (Annealing ở 50 - 65°C trong 30 giây) —</b> Hạ nhiệt độ xuống dưới điểm Tm của cặp mồi để hai mồi oligonucleotide xuôi và ngược bắt cặp bổ sung chính xác vào hai đầu đoạn DNA mục tiêu.",
+        "<b>Bước 3: Kéo dài chuỗi (Extension ở 72°C) —</b> Enzyme Taq DNA Polymerase (chịu nhiệt từ vi khuẩn suối nước nóng Thermus aquaticus) sử dụng các dNTPs tự do tổng hợp sợi DNA mới kéo dài từ đầu 3'-OH của mồi.",
+        "<b>Quy luật nhân đôi hàm số mũ —</b> Sau n chu kỳ nhiệt, số lượng bản sao DNA mục tiêu tăng lên theo cấp số nhân: 2^n bản sao (sau 30 chu kỳ khuếch đại hơn 1 tỷ lần)."
+    ],
+    "Kỹ thuật Real-time RT-PCR khuếch đại kết hợp đầu dò huỳnh quang là tiêu chuẩn vàng chẩn đoán chính xác nồng độ virus (tải lượng virus HBV, HCV, HIV, SARS-CoV-2) trong mẫu bệnh phẩm lâm sàng."
+))
+
+cards.append(make_card(
+    "HS11-B3-09",
+    "Cơ chế Giải trình tự DNA theo phương pháp Sanger (Dideoxy Termination)",
+    "GIẢI TRÌNH TỰ SANGER",
+    "Giải thích nguyên lý kết thúc chuỗi của phương pháp giải trình tự DNA Sanger bằng cách sử dụng các dideoxynucleotid (ddNTPs)?",
+    [
+        "<b>Cấu trúc đặc biệt của ddNTPs (Dideoxynucleotide) —</b> Khác với dNTPs thông thường, phân tử ddNTP (ddATP, ddTTP, ddGTP, ddCTP) BỊ THIẾU NHÓM HYDROXYL Ở CẢ VỊ TRÍ C2' VÀ C3' của vòng đường (chỉ có liên kết C3'-H).",
+        "<b>Nguyên lý kết thúc chuỗi sớm (Chain Termination) —</b> Khi DNA Polymerase bắt cặp nhầm một phân tử ddNTP vào chuỗi đang kéo dài, do KHÔNG CÓ NHÓM 3'-OH TỰ DO, enzym không thể tạo liên kết phosphodiester với nucleotide tiếp theo.",
+        "<b>Đình trệ kéo dài chuỗi tức thì —</b> Quá trình tổng hợp chuỗi dừng lại ngay lập tức tại vị trí nucleotide tương ứng đó.",
+        "<b>Tạo các đoạn DNA có độ dài khác nhau đúng 1 nucleotide —</b> Trộn tỷ lệ nhỏ ddNTPs gắn huỳnh quang 4 màu khác nhau với dNTPs bình thường tạo ra tập hợp hàng loạt đoạn DNA đứt gãy kết thúc ở mọi vị trí nucleotide; điện di mao quản đọc màu huỳnh quang xác định chính xác trình tự base."
+    ],
+    "Phương pháp Sanger (Nobel Hóa học 1980) là nền tảng giải mã thành công Dự án Hệ gen Người (Human Genome Project); nguyên lý thiếu 3'-OH này cũng là cơ chế của nhiều thuốc kháng virus HIV như AZT."
+))
+
+cards.append(make_card(
+    "HS11-B3-10",
+    "Nguyên lý Điện di Acid Nucleic trên gel Agarose",
+    "ĐIỆN DI ACID NUCLEIC",
+    "Trình bày nguyên lý phân tách các đoạn DNA trên gel agarose dựa trên kích thước phân tử và điện tích?",
+    [
+        "<b>Điện tích âm đồng đều trên đơn vị khối lượng —</b> Mọi phân tử DNA đều có mật độ điện tích âm không đổi dọc theo chiều dài (mỗi cặp base mang 2 nhóm phosphat tích điện âm); do đó tỷ số điện tích/khối lượng là hoàn toàn giống nhau.",
+        "<b>Di chuyển về phía cực dương Anot (+) —</b> Khi đặt vào điện trường một chiều, toàn bộ các đoạn DNA đều di chuyển từ cực âm (Catot) về phía cực dương (Anot).",
+        "<b>Tác dụng rây phân tử của Gel Agarose (Molecular Sieve) —</b> Gel agarose tạo nên một mạng lưới các lỗ rỗng vi thể đan xen.",
+        "<b>Tốc độ di chuyển tỷ lệ nghịch với độ dài —</b> Các đoạn DNA ngắn kích thước nhỏ len lỏi qua các lỗ gel nhanh hơn nên CHẠY XA NHẤT VỀ PHÍA ANOT (+); các đoạn DNA dài cồng kềnh bị cản trở nhiều hơn nên CHẠY CHẬM VÀ Ở LẠI GẦN GIẾNG ĐẶT MẪU.",
+        "<b>Hiện màu bằng thuốc nhuộm xen kẽ —</b> Nhuộm gel bằng Ethidium Bromide (EtBr) hoặc GelRed chèn vào giữa các base nitơ, phát huỳnh quang màu cam rực rỡ dưới ánh đèn tia cực tím (UV transilluminator) để quan sát vạch DNA."
+    ],
+    "Điện di gel agarose kết hợp thang chuẩn kích thước DNA ladder là công cụ thường quy đầu tay của mọi phòng xét nghiệm sinh học phân tử để kiểm tra sản phẩm PCR."
+))
+
+cards.append(make_card(
+    "HS11-B3-11",
+    "Siêu xoắn DNA (DNA Supercoiling) và Trạng thái Thư giãn",
+    "SIÊU XOẮN DNA",
+    "Định nghĩa hiện tượng Siêu xoắn DNA (Supercoiling) và phân biệt Siêu xoắn dương vs. Siêu xoắn âm?",
+    [
+        "<b>Hiện tượng Siêu xoắn (Supercoiling) —</b> Sự cuộn xoắn bổ sung của chính trục chuỗi xoắn kép DNA trong không gian; xảy ra khi phân tử DNA dạng vòng kín (ở vi khuẩn, plasmid, ty thể) hoặc DNA bị cố định hai đầu.",
+        "<b>Siêu xoắn âm (Negative Supercoiling - Trạng thái sinh lý) —</b> Chuỗi xoắn kép bị tháo xoắn bớt vòng xoắn quanh trục (dưới mức xoắn chuẩn B-DNA); tạo sức căng xoắn thuận lợi giúp hai sợi đơn DỄ DÀNG TÁCH RỜI NHAU để khởi động sao chép và phiên mã.",
+        "<b>Siêu xoắn dương (Positive Supercoiling) —</b> Chuỗi xoắn kép bị xoắn chặt hơn mức bình thường; làm tăng sức căng phân tử chống lại sự tách sợi.",
+        "<b>Sức căng phía trước chạc ba sao chép —</b> Khi Helicase tách hai sợi DNA tiến về phía trước, phần DNA phía trước chạc ba sao chép bị nén dồn lại tạo nên các SIÊU XOẮN DƯƠNG NẶNG NỀ, có thể làm kẹt cứng bộ máy sao chép nếu không có enzyme Topoisomerase tháo gỡ."
+    ],
+    "DNA trong tế bào sống luôn được duy trì ở trạng thái siêu xoắn âm nhẹ nhờ các enzyme topoisomerase, đảm bảo DNA vừa được đóng gói gọn gàng vừa sẵn sàng bung mở khi cần phiên mã."
+))
+
+cards.append(make_card(
+    "HS11-B3-12",
+    "Cấu trúc DNA Vòng (Circular DNA) ở Ty thể và Vi khuẩn",
+    "DNA VÒNG TY THỂ VÀ VI KHUẨN",
+    "Mô tả đặc điểm cấu trúc của phân tử DNA dạng vòng kín ở tế bào vi khuẩn và hệ gen ty thể người?",
+    [
+        "<b>Hai đầu nối khép kín cộng hóa trị —</b> Khác với DNA nhiễm sắc thể nhân tế bào là dạng sợi thẳng có hai đầu mút telomere, DNA vi khuẩn và DNA ty thể là phân tử CHUỖI XOẮN KÉP KHÉP KÍN DẠNG VÒNG (Covalently Closed Circular DNA - cccDNA).",
+        "<b>Không có đầu tận cùng tự do —</b> Không có đầu 5'-phosphat hay 3'-OH tự do; do đó KHÔNG CẦN CẤU TRÚC TELOMERE và không gặp vấn đề ngắn đầu mút sao chép.",
+        "<b>Đặc điểm DNA ty thể người (mtDNA) —</b> Là vòng kép dài 16.569 cặp base; mã hóa cho 13 protein chuỗi hô hấp tế bào, 22 tRNA và 2 rRNA; di truyền độc quyền theo dòng mẹ (Maternal inheritance).",
+        "<b>Plasmid ở vi khuẩn —</b> Các phân tử DNA vòng nhỏ ngoài nhiễm sắc thể mang các gen đề kháng kháng sinh, có thể truyền ngang giữa các vi khuẩn qua cơ chế tiếp hợp (Conjugation)."
+    ],
+    "Do cấu trúc vòng khép kín, DNA vi khuẩn và ty thể cực kỳ nhạy cảm với các enzyme điều hòa sức căng siêu xoắn như DNA Gyrase (Topoisomerase II vi khuẩn)."
+))
+
+# ==============================================================================
+# SECTION B4: CẤU TRÚC VÀ CHỨC NĂNG CÁC LOẠI RNA CHÍNH (mRNA, tRNA, rRNA) (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B4-01",
+    "So sánh tổng thể giữa hai đại phân tử DNA và RNA",
+    "SO SÁNH DNA VÀ RNA",
+    "Lập bảng so sánh 5 điểm khác biệt căn bản về thành phần hóa học và cấu trúc giữa phân tử DNA và RNA?",
+    [
+        "<b>1. Đường Pentose —</b> DNA chứa đường 2-DEOXY-β-D-RIBOSE (thiếu oxy ở C2'); RNA chứa đường β-D-RIBOSE (mang nhóm 2'-OH tự do).",
+        "<b>2. Thành phần Base Pyrimidin —</b> DNA chứa THYMIN (T) và Cytosin (C); RNA chứa URACIL (U) và Cytosin (C).",
+        "<b>3. Cấu trúc không gian chuỗi —</b> DNA là CHUỖI XOẮN KÉP (Double-stranded) dạng sợi dài bền vững; RNA hầu hết là CHUỖI ĐƠN (Single-stranded) ngắn hơn, tự cuộn gấp cục bộ.",
+        "<b>4. Độ bền hóa học trong kiềm —</b> DNA vô cùng bền vững trước môi trường kiềm; RNA cực kỳ kém bền và bị kiềm thủy phân nhanh chóng.",
+        "<b>5. Chức năng sinh học cốt lõi —</b> DNA là kho lưu trữ và truyền đạt thông tin di truyền vĩnh viễn; RNA đóng vai trò truyền tin, vận chuyển, cấu trúc và xúc tác sinh học ngắn hạn."
+    ],
+    "Sự khác biệt nhỏ ở mức độ nguyên tử (thiếu 1 nguyên tử oxy ở đường và thêm 1 nhóm methyl ở base thymin) đã phân định ranh giới chức năng tuyệt đối giữa DNA lưu trữ và RNA truyền tin."
+))
+
+cards.append(make_card(
+    "HS11-B4-02",
+    "Cấu trúc bậc hai và bậc ba phức tạp của phân tử RNA đơn sợi",
+    "CẤU TRÚC KHÔNG GIAN RNA",
+    "Giải thích vì sao phân tử RNA là chuỗi đơn nhưng lại có thể tạo nên các cấu trúc không gian 3 chiều phức tạp?",
+    [
+        "<b>Bắt cặp bổ sung nội chuỗi (Intramolecular Base Pairing) —</b> Mặc dù được tổng hợp dưới dạng chuỗi đơn, phân tử RNA tự uốn cong gập ngược lại để các đoạn trình tự bổ sung bắt cặp với nhau.",
+        "<b>Các motif cấu trúc bậc hai kinh điển —</b> Tạo nên các cấu trúc Thân xoắn kép (Stem / Duplex), Vòng lặp đỉnh (Hairpin loop), Vòng lặp phình (Bulge loop), và Vòng lặp ngã ba/ngã tư (Junctions).",
+        "<b>Bắt cặp dao động không chuẩn tắc —</b> Bên cạnh các cặp chuẩn Watson-Crick (A=U, G≡C), RNA có thể bắt cặp dao động G · U với 2 liên kết hydro, làm tăng tính linh hoạt uốn cong.",
+        "<b>Cuộn gấp thành cấu trúc 3 chiều đặc hiệu —</b> Tương tự chuỗi polypeptide cuộn thành protein hình cầu, phân tử RNA cuộn gấp chặt chẽ tạo nên các túi liên kết cơ chất và rãnh hoạt tính xúc tác (Ribozyme)."
+    ],
+    "Khả năng cuộn gấp không gian phức tạp biến RNA thành đại phân tử đa năng duy nhất vừa mang thông tin di truyền dạng chuỗi vừa sở hữu hoạt tính xúc tác sinh học dạng khối 3D."
+))
+
+cards.append(make_card(
+    "HS11-B4-03",
+    "Đặc tính và Thời gian bán hủy của RNA Thông tin (mRNA)",
+    "RNA THÔNG TIN (mRNA)",
+    "Nêu tỷ lệ phần trăm, chức năng và phân tích ý nghĩa của thời gian bán hủy ngắn của phân tử mRNA trong tế bào?",
+    [
+        "<b>Tỷ lệ phần trăm —</b> Chiếm khoảng 3% đến 5% tổng lượng RNA của tế bào; nhưng là phân tử đa dạng nhất về kích thước và trình tự nucleotide.",
+        "<b>Chức năng sinh học —</b> Bản sao thông tin di truyền từ gen trên DNA mang mã lệnh đến ribosome làm khuôn mẫu dịch mã tổng hợp protein.",
+        "<b>Thời gian bán hủy ngắn (t1/2) —</b> Ở vi khuẩn thời gian bán hủy chỉ khoảng vài phút (1 - 3 phút); ở tế bào nhân thực dao động từ vài chục phút đến vài giờ (trung bình 30 phút đến 10 giờ).",
+        "<b>Ý nghĩa điều hòa năng động —</b> Thời gian bán hủy ngắn giúp tế bào thay đổi nhanh chóng biểu hiện protein theo nhu cầu: khi ngừng phiên mã, lượng mRNA cũ nhanh chóng bị thoái hóa sạch sẽ, ngăn cản việc tổng hợp thừa mứa protein không còn cần thiết."
+    ],
+    "Các mRNA mã hóa cho các yếu tố phiên mã và protein kiểm soát chu kỳ tế bào thường có thời gian bán hủy cực ngắn (vài phút) nhờ các chuỗi giàu AU (AU-rich elements) ở vùng 3'-UTR kích hoạt thoái hóa nhanh."
+))
+
+cards.append(make_card(
+    "HS11-B4-04",
+    "Đặc tính và Vai trò sinh học của RNA Vận chuyển (tRNA)",
+    "RNA VẬN CHUYỂN (tRNA)",
+    "Nêu tỷ lệ phần trăm, kích thước, hệ số lắng và vai trò 'người phiên dịch phân tử' của phân tử tRNA?",
+    [
+        "<b>Tỷ lệ và Kích thước phân tử —</b> Chiếm khoảng 15% tổng lượng RNA tế bào; gồm 73 đến 93 ribonucleotide với hệ số lắng khoảng 4S.",
+        "<b>Người phiên dịch phân tử (Molecular Adaptor) —</b> Là phân tử duy nhất có khả năng kết nối hai ngôn ngữ sinh học khác nhau: ngôn ngữ bộ ba nucleotide trên mRNA và ngôn ngữ acid amin của chuỗi protein.",
+        "<b>Khả năng nhận diện hai đầu —</b> Một đầu (vòng anticodon) đọc và giải mã codon trên mRNA; đầu đối diện (nhánh CCA-3') mang chính xác acid amin tương ứng được gắn nạp bởi aminoacyl-tRNA synthetase.",
+        "<b>Độ bền phân tử cao —</b> Nhờ cấu trúc bậc 3 hình chữ L ngược cuộn chặt và các base lạ bảo vệ, tRNA có thời gian bán hủy dài hơn nhiều so với mRNA."
+    ],
+    "Mỗi tế bào sở hữu một bộ hoàn chỉnh các tRNA đặc hiệu đồng chức năng (isoacceptor tRNAs) để đảm bảo mọi codon có nghĩa trên mRNA đều được dịch mã chính xác."
+))
+
+cards.append(make_card(
+    "HS11-B4-05",
+    "Đặc tính áp đảo của RNA Ribosom (rRNA) trong tế bào",
+    "RNA RIBOSOM (rRNA)",
+    "Nêu tỷ lệ phần trăm áp đảo của rRNA và phân tích vai trò cấu trúc lẫn xúc tác của rRNA trong phức hợp Ribosom?",
+    [
+        "<b>Chiếm tỷ lệ áp đảo tuyệt đối —</b> rRNA chiếm tới 80% TỔNG LƯỢNG RNA CỦA TOÀN BỘ TẾ BÀO; là loại RNA phong phú nhất trong mọi sinh vật sống.",
+        "<b>Thành phần cấu trúc chính của Ribosom —</b> Chiếm khoảng 60% khối lượng phân tử của hạt ribosom (phần còn lại 40% là các protein ribosom).",
+        "<b>Vai trò giàn giáo cấu trúc (Scaffold) —</b> Các phân tử rRNA cuộn gấp tạo bộ khung xương nâng đỡ định hình toàn bộ không gian của hai tiểu đơn vị ribosom.",
+        "<b>Vai trò nhận diện và định vị —</b> rRNA 16S (ở 30S) nhận diện trình tự Shine-Dalgarno và kiểm tra sự bắt cặp codon-anticodon tại vị trí A.",
+        "<b>Vai trò xúc tác Enzym Peptidyl Transferase —</b> rRNA 23S (ở 50S) hoặc rRNA 28S (ở 60S) trực tiếp xúc tác hình thành liên kết peptid (hoạt tính Ribozyme)."
+    ],
+    "Do rRNA chiếm tới 80% tổng RNA, khi điện di kiểm tra RNA toàn phần trên gel, người ta luôn quan sát thấy hai vạch băng sáng rực rỡ đại diện cho 2 loại rRNA lớn (vạch 28S và 18S ở nhân thực với tỷ lệ độ đậm 28S/18S ≈ 2:1 là chỉ số vàng đánh giá độ nguyên vẹn của mẫu RNA)."
+))
+
+cards.append(make_card(
+    "HS11-B4-06",
+    "Các base biến đổi hóa học phong phú trên phân tử tRNA",
+    "BASE BIẾN ĐỔI TRÊN tRNA",
+    "Kể tên 4 loại base biến đổi hóa học kỳ lạ có mặt phổ biến trên phân tử tRNA và nêu chức năng của chúng?",
+    [
+        "<b>Tỷ lệ base biến đổi cao (> 10%) —</b> tRNA chứa mật độ base biến đổi sau phiên mã cao nhất trong tất cả các loại acid nucleic.",
+        "<b>1. Dihydrouracil (D) —</b> Nhận thêm 2 nguyên tử hydro bão hòa liên kết đôi C5-C6; làm cong gãy chuỗi RNA; tập trung ở Nhánh D (D arm).",
+        "<b>2. Pseudouridine (ψ) —</b> Vòng uracil gắn vào carbon C1' của đường qua liên kết carbon-carbon C5-C1' (thay vì liên kết N1-C1' thông thường); làm tăng độ cứng và bền vững của Nhánh TψC.",
+        "<b>3. Ribothymidine (T) —</b> Mang nhóm methyl ở C5 giống hệt thymin của DNA; hiện diện trong nhánh TψC của hầu hết tRNA.",
+        "<b>4. Inosine (I) —</b> Base hypoxanthine; định vị tại vị trí dao động số 34 của vòng anticodon cho phép bắt cặp linh hoạt với U, C, A theo thuyết Wobble."
+    ],
+    "Sự có mặt của các base biến đổi lạ giúp tRNA chống lại sự phân hủy của các enzym ribonuclease và được enzym aminoacyl-tRNA synthetase nhận diện đặc hiệu."
+))
+
+cards.append(make_card(
+    "HS11-B4-07",
+    "Sinh tổng hợp và Cắt xén rRNA tại Hạch nhân tế bào (Nucleolus)",
+    "SINH TỔNG HỢP rRNA",
+    "Mô tả quá trình phiên mã và cắt xén tạo cụm rRNA tại Hạch nhân tế bào nhờ RNA Polymerase I?",
+    [
+        "<b>Nhà máy sản xuất Hạch nhân (Nucleolus) —</b> Hạch nhân là cấu trúc không màng trong nhân tế bào chuyên trách sản xuất rRNA và lắp ráp các tiểu phần ribosom.",
+        "<b>Phiên mã tiền chất khổng lồ 45S —</b> Enzyme RNA Polymerase I phiên mã cụm gen rDNA lặp lại tạo phân tử tiền chất tiền rRNA 45S (pre-rRNA).",
+        "<b>Cắt xén nội phân tử (Processing) —</b> Pre-rRNA 45S được các phức hợp snoRNP hướng dẫn biến đổi hóa học (methyl hóa 2'-O và gắn pseudouridine), sau đó được các endonuclease cắt xén chính xác thành 3 phân tử rRNA trưởng thành: rRNA 28S, 18S, và 5,8S.",
+        "<b>rRNA 5S phiên mã độc lập ngoài hạch nhân —</b> Riêng phân tử rRNA 5S được enzyme RNA Polymerase III phiên mã độc lập ngoài nhân, sau đó di chuyển vào hạch nhân để cùng lắp ráp.",
+        "<b>Lắp ráp với protein và Xuất bào —</b> Các rRNA liên kết với các protein ribosom tạo thành tiền tiểu phần 40S và 60S, sau đó được xuất qua lỗ màng nhân ra bào tương."
+    ],
+    "Sự phì đại kích thước hạch nhân dưới kính hiển vi quang học là một dấu ấn kinh điển của các tế bào ung thư tăng sinh ác tính do nhu cầu sinh tổng hợp ribosom tăng vọt."
+))
+
+cards.append(make_card(
+    "HS11-B4-08",
+    "Hiện tượng Ribozyme: RNA có hoạt tính xúc tác sinh học",
+    "HOẠT TÍNH XÚC TÁC RIBOZYME",
+    "Định nghĩa Ribozyme, nêu cơ chế xúc tác và kể tên 3 Ribozyme tự nhiên quan trọng nhất?",
+    [
+        "<b>Khái niệm Ribozyme —</b> Phân tử RNA có khả năng xúc tác đặc hiệu cho một phản ứng hóa học tương tự như enzyme protein (Thomas Cech và Sidney Altman đoạt Giải Nobel Hóa học 1989).",
+        "<b>Cơ chế xúc tác —</b> Dựa trên cấu trúc cuộn gập 3D tạo túi xúc tác, sử dụng các nhóm 2'-OH làm chất cho/nhận proton, và phối trí với các ion kim loại hóa trị hai (Mg²⁺) để ổn định trạng thái chuyển tiếp.",
+        "<b>1. Peptidyl Transferase (rRNA 23S / 28S) —</b> Xúc tác hình thành liên kết peptid trong nhà máy ribosome của mọi sinh vật sống.",
+        "<b>2. Spliceosome (snRNA U2 / U6) —</b> Xúc tác phản ứng cắt bỏ intron và nối exon trong quá trình hoàn thiện tiền mRNA.",
+        "<b>3. Ribonuclease P (RNase P) —</b> Phức hợp chứa phân tử RNA xúc tác cắt chính xác đầu 5' của các phân tử tiền chất tRNA."
+    ],
+    "Khám phá về Ribozyme đã phá vỡ giáo điều cổ điển 'mọi enzyme đều là protein', chứng minh rằng RNA vừa là phần mềm mang thông tin vừa là phần cứng xúc tác phản ứng."
+))
+
+cards.append(make_card(
+    "HS11-B4-09",
+    "Khái niệm Cắt nối chọn lọc (Alternative Splicing) của tiền mRNA",
+    "CẮT NỐI CHỌN LỌC",
+    "Định nghĩa Cắt nối chọn lọc (Alternative Splicing) và ý nghĩa trong việc tạo ra sự đa dạng protein từ một gen duy nhất?",
+    [
+        "<b>Bản chất phân tử —</b> Quá trình bộ máy Spliceosome lựa chọn và ghép nối các tổ hợp exon khác nhau từ cùng một phân tử tiền mRNA (pre-mRNA) ban đầu.",
+        "<b>Tạo nhiều mRNA trưởng thành từ một gen —</b> Một gen đơn lẻ trên DNA có thể tạo ra nhiều phân tử mRNA trưởng thành khác nhau mã hóa cho các biến thể protein (protein isoforms) có chức năng khác biệt hoặc đối kháng nhau.",
+        "<b>Tần suất áp đảo ở người —</b> Hơn 95% gen mã hóa protein ở người đều trải qua quá trình cắt nối chọn lọc.",
+        "<b>Ví dụ kinh điển Gen Tropomyosin —</b> Cùng một gen Tropomyosin nhưng cắt nối chọn lọc tạo ra các isoform protein đặc hiệu khác nhau tại cơ vân, cơ trơn, não và nguyên bào sợi.",
+        "<b>Giải quyết nghịch lý số lượng gen —</b> Giải thích vì sao hệ gen người chỉ có khoảng 20.000 gen mã hóa nhưng có thể tạo ra hơn 100.000 chuỗi polypeptide khác nhau."
+    ],
+    "Đột biến tại các vị trí nhận diện cắt nối (Splice site mutations) chiếm tới 15% các đột biến gây bệnh di truyền ở người (như trong bệnh β-Thalassemia hoặc bệnh Teo cơ tủy SMA)."
+))
+
+cards.append(make_card(
+    "HS11-B4-10",
+    "Biên tập RNA (RNA Editing) và ví dụ tạo Apolipoprotein B-48 vs. B-100",
+    "BIÊN TẬP RNA EDITING",
+    "Trình bày cơ chế Biên tập RNA (RNA Editing) và phân tích sự tạo thành ApoB-48 ở ruột so với ApoB-100 ở gan?",
+    [
+        "<b>Khái niệm Biên tập RNA (RNA Editing) —</b> Quá trình làm thay đổi trình tự nucleotide của phân tử mRNA sau khi đã được phiên mã hoàn chỉnh bằng cách biến đổi hóa học các base nitơ.",
+        "<b>Cơ chế Khử amin Cytosine thành Uracil —</b> Enzym cytidine deaminase (APOBEC-1) xúc tác khử amin một nucleotide Cytosine (C) biến thành Uracil (U).",
+        "<b>Tại tế bào Gan: Tạo ApoB-100 đủ chiều dài —</b> Enzym APOBEC-1 không biểu hiện; codon 2153 trên mRNA giữ nguyên là 5'-CAA-3' (mã hóa cho Glutamin); dịch mã tạo protein APOLIPOPROTEIN B-100 nguyên vẹn gồm 4536 acid amin cấu thành hạt VLDL và LDL.",
+        "<b>Tại tế bào Niêm mạc Ruột non: Tạo ApoB-48 cụt ngắn —</b> Enzym APOBEC-1 được biểu hiện mạnh mẽ; biến đổi codon 2153 từ 5'-CAA-3' thành CODON KẾT THÚC SỚM 5'-UAA-3'.",
+        "<b>Hậu quả dịch mã —</b> Ribosome dừng dịch mã ngay tại vị trí 2153, tạo ra protein APOLIPOPROTEIN B-48 chỉ dài đúng 48% chiều dài của ApoB-100 (gồm 2152 acid amin), chuyên trách cấu tạo hạt Chylomicron vận chuyển mỡ thức ăn."
+    ],
+    "Biên tập RNA là một ví dụ mẫu mực về sự điều hòa biểu hiện gen đặc hiệu mô: một gen duy nhất nhưng tạo ra 2 protein có kích thước và chức năng vận chuyển lipid hoàn toàn khác biệt giữa Gan và Ruột."
+))
+
+# ==============================================================================
+# SECTION B5: CÁC LOẠI RNA CHỨC NĂNG KHÔNG MÃ HÓA (ncRNAs) (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B5-01",
+    "Thế giới RNA không mã hóa (Non-coding RNAs - ncRNAs)",
+    "HỆ GEN RNA KHÔNG MÃ HÓA",
+    "Phân tích tỷ lệ phân bố của DNA không mã hóa trong hệ gen người và phân loại các nhóm ncRNAs chính?",
+    [
+        "<b>Nghịch lý hệ gen người —</b> Toàn bộ 20.000 gen mã hóa protein chỉ chiếm khoảng 1,5% đến 2% kích thước của hệ gen DNA nhân tế bào.",
+        "<b>Hơn 70 - 80% hệ gen được phiên mã thành RNA —</b> Đại đa số hệ gen được phiên mã thành các phân tử RNA không mã hóa (Non-coding RNAs - ncRNAs) đảm nhận các chức năng điều hòa sinh học tối thượng.",
+        "<b>1. Nhóm ncRNA có kích thước ngắn (< 200 nt) —</b> Gồm miRNA (microRNA, 21 - 25 nt), siRNA (small interfering RNA), piRNA (piwi-interacting RNA), snRNA (small nuclear RNA), và snoRNA (small nucleolar RNA).",
+        "<b>2. Nhóm ncRNA có kích thước dài (lncRNA, > 200 nt) —</b> Hàng chục ngàn phân tử lncRNA tham gia điều hòa biểu sinh, tái cấu trúc chất nhiễm sắc và kiểm soát phiên mã (như lncRNA Xist, HOTAIR)."
+    ],
+    "Khái niệm cổ điển coi 98% hệ gen không mã hóa là 'DNA rác' (Junk DNA) đã hoàn toàn bị bác bỏ bởi dự án ENCODE: các phân tử RNA không mã hóa chính là hệ điều hành điều khiển hoạt động của bộ gen."
+))
+
+cards.append(make_card(
+    "HS11-B5-02",
+    "snRNA, Phức hợp snRNP và Kháng thể kháng Smith trong bệnh Lupus ban đỏ",
+    "snRNA VÀ BỆNH LUPUS",
+    "Mô tả cấu trúc của snRNA, bộ máy Spliceosome và ý nghĩa lâm sàng của Kháng thể kháng Smith (anti-Sm)?",
+    [
+        "<b>Các phân tử snRNA giàu Uridine —</b> Gồm 5 loại RNA nhỏ trong nhân: U1, U2, U4, U5, và U6 có chiều dài từ 100 đến 300 nucleotide.",
+        "<b>Phức hợp ribonucleoprotein snRNP (snurps) —</b> Mỗi phân tử snRNA liên kết với một nhóm protein lõi chung mang tên Kháng nguyên Smith (Sm proteins) để tạo thành các hạt snRNP.",
+        "<b>Bộ máy cắt nối Spliceosome —</b> Tập hợp của 5 hạt snRNP cùng hàng trăm protein bổ trợ cấu thành bộ máy Spliceosome khổng lồ, nhận diện các vị trí nối 5' và 3' để cắt bỏ các Intron và nối các Exon.",
+        "<b>Ý nghĩa lâm sàng Kháng thể kháng Smith (anti-Sm) —</b> Kháng thể tự miễn nhắm trực tiếp vào các protein Sm của phức hợp snRNP là DẤU ẤN MIỄN DỊCH ĐẶC HIỆU CAO (> 99%) để chẩn đoán xác định bệnh LUPUS BAN ĐỎ HỆ THỐNG (Systemic Lupus Erythematosus - SLE)."
+    ],
+    "Kháng thể anti-Sm nằm trong bộ tiêu chuẩn phân loại bệnh Lupus ban đỏ hệ thống của Hội Thấp khớp học Hoa Kỳ (ACR/EULAR)."
+))
+
+cards.append(make_card(
+    "HS11-B5-03",
+    "snoRNA và quá trình biến đổi hóa học của rRNA tại Hạch nhân",
+    "snoRNA TẠI HẠCH NHÂN",
+    "Nêu vị trí và vai trò sinh học của các phân tử RNA nhỏ hạch nhân (snoRNA)?",
+    [
+        "<b>Định vị tại Hạch nhân tế bào (Nucleolus) —</b> Kích thước ngắn gồm 60 đến 300 nucleotide; liên kết với các protein hạch nhân tạo thành phức hợp snoRNP.",
+        "<b>Dẫn đường biến đổi hóa học (Guide RNAs) —</b> snoRNA chứa các đoạn trình tự bổ sung bắt cặp chính xác với các vị trí nucleotide mục tiêu trên tiền rRNA 45S.",
+        "<b>Nhóm Box C/D snoRNAs —</b> Tuyển dụng enzym Fibrillarin xúc tác phản ứng 2'-O-METHYL HÓA đường ribose của rRNA (bảo vệ rRNA khỏi bị phân hủy).",
+        "<b>Nhóm Box H/ACA snoRNAs —</b> Tuyển dụng enzym Dyskerin xúc tác chuyển đổi Uracil thành PSEUDOURIDINE (ψ) trên rRNA.",
+        "<b>Ý nghĩa —</b> Cần thiết cho sự cuộn gập chính xác và hoạt tính xúc tác của ribosome; đột biến gen Dyskerin gây bệnh loạn sừng bẩm sinh (Dyskeratosis congenita)."
+    ],
+    "snoRNA hoạt động như những chiếc 'thước đo phân tử' hướng dẫn chính xác các enzyme sửa đổi hóa học đến đúng từng nucleotide đơn lẻ trong chuỗi rRNA dài hàng ngàn base."
+))
+
+cards.append(make_card(
+    "HS11-B5-04",
+    "MicroRNA (miRNA): Con đường sinh tổng hợp và Ức chế Dịch mã",
+    "microRNA (miRNA)",
+    "Tóm tắt các bước sinh tổng hợp MicroRNA từ nhân ra bào tương và cơ chế làm câm lặng gen?",
+    [
+        "<b>Phiên mã pri-miRNA trong nhân —</b> Được RNA Polymerase II phiên mã tạo phân tử tiền chất pri-miRNA mang cấu trúc kẹp tóc.",
+        "<b>Cắt bước 1 bởi phức hợp Drosha - DGCR8 —</b> Cắt pri-miRNA thành phân tử pre-miRNA dài khoảng 70 nt hình kẹp tóc; pre-miRNA được Exportin-5 đưa qua lỗ màng nhân ra bào tương.",
+        "<b>Cắt bước 2 bởi enzym Dicer ngoài bào tương —</b> Enzyme endonuclease Dicer cắt bỏ quai kẹp tóc, tạo đoạn RNA sợi đôi ngắn duplex dài 21 - 25 bp.",
+        "<b>Nạp vào Phức hợp RISC (Argonaute) —</b> Một sợi của duplex (sợi dẫn đường) được tích hợp vào phức hợp câm lặng gen cảm ứng bởi RNA (RISC); sợi kia bị thoái hóa.",
+        "<b>Cơ chế câm lặng gen —</b> Bắt cặp bổ sung không hoàn toàn với vùng 3'-UTR của mRNA mục tiêu, gây ỨC CHẾ DỊCH MÃ hoặc thúc đẩy cắt ngắn đuôi polyA làm thoái hóa mRNA."
+    ],
+    "Một phân tử miRNA duy nhất có thể điều hòa đồng thời hàng trăm phân tử mRNA mục tiêu khác nhau, đóng vai trò như các 'tổng chỉ huy' điều phối mạng lưới biểu hiện gen."
+))
+
+cards.append(make_card(
+    "HS11-B5-05",
+    "Sự khác biệt giữa microRNA (miRNA) và siRNA (Small Interfering RNA)",
+    "SO SÁNH miRNA VÀ siRNA",
+    "So sánh nguồn gốc, tính đặc hiệu bắt cặp và hậu quả phân tử giữa miRNA và siRNA?",
+    [
+        "<b>Nguồn gốc phát sinh —</b> miRNA có nguồn gốc NỘI SINH (được mã hóa sẵn trong hệ gen tế bào vật chủ); siRNA thường có nguồn gốc NGOẠI SINH (từ virus xâm nhập, chuyển gen hoặc thuốc tổng hợp nhân tạo).",
+        "<b>Cấu trúc sợi đôi ban đầu —</b> Tiền chất miRNA là sợi đơn tự cuộn kẹp tóc (pri-miRNA); siRNA bắt nguồn từ các phân tử RNA sợi đôi dài (dsRNA).",
+        "<b>Độ chính xác bắt cặp bổ sung —</b> miRNA bắt cặp BỔ SUNG KHÔNG HOÀN TOÀN với vùng 3'-UTR của mRNA đích (cho phép 1 miRNA ức chế hàng trăm gen); siRNA bắt cặp BỔ SUNG CHÍNH XÁC HOÀN HẢO 100% với trình tự mRNA đích.",
+        "<b>Cơ chế tác động phân tử —</b> miRNA chủ yếu gây ỨC CHẾ DỊCH MÃ và thoái hóa chậm mRNA; siRNA kích hoạt protein Argonaute 2 (Ago2) trực tiếp CẮT ĐỨT ĐÔI PHÂN TỬ mRNA đích ngay tại vị trí bắt cặp (phân hủy tức thì 100%)."
+    ],
+    "Nhờ tính đặc hiệu tuyệt đối 100%, siRNA nhân tạo được ứng dụng mạnh mẽ làm thuốc điều trị trúng đích (siRNA therapeutics như Patisiran điều trị thoái hóa dạng bột amyloidosis, Inclisiran hạ cholesterol PCSK9)."
+))
+
+cards.append(make_card(
+    "HS11-B5-06",
+    "RNA không mã hóa dài (lncRNA) và Cơ chế Bất hoạt NST X của lncRNA Xist",
+    "lncRNA VÀ BẤT HOẠT NST X",
+    "Mô tả cấu tạo của RNA không mã hóa dài (lncRNA) và cơ chế bất hoạt một nhiễm sắc thể X ở nữ giới của lncRNA Xist?",
+    [
+        "<b>Khái niệm lncRNA —</b> Các phân tử RNA không mã hóa có chiều dài lớn hơn 200 nucleotide; có cấu trúc tương tự mRNA (có mũ 5'-cap, đuôi polyA và cắt nối exon) nhưng không dịch mã ra protein.",
+        "<b>lncRNA Xist (X-inactive specific transcript) —</b> Dài 17.000 nucleotide, được phiên mã từ trung tâm bất hoạt XIC trên nhiễm sắc thể X.",
+        "<b>Bao bọc nhiễm sắc thể (Chromosome Coating) —</b> Ở phôi nữ (XX), phân tử RNA Xist được phiên mã sẽ lan tỏa bao bọc bám dọc toàn bộ chiều dài của chính nhiễm sắc thể X đó.",
+        "<b>Tuyển dụng phức hợp biến đổi Biểu sinh —</b> RNA Xist thu hút phức hợp Polycomb Repressive Complex 2 (PRC2) gây methyl hóa histone H3K27me3 và enzym DNMT gây methyl hóa DNA diện rộng.",
+        "<b>Ngưng kết thành Thể Barr (Barr Body) —</b> Nhiễm sắc thể X bị cuộn chặt đóng thành dị nhiễm sắc câm lặng hoàn toàn (Thể Barr gắn ở rìa màng nhân), giúp cân bằng liều lượng gen giữa nam (XY) và nữ (XX)."
+    ],
+    "Cơ chế bất hoạt NST X qua lncRNA Xist của Mary Lyon (1961) là ví dụ vĩ đại nhất về khả năng của một phân tử RNA đơn lẻ có thể làm câm lặng vĩnh viễn cả một nhiễm sắc thể khổng lồ chứa hàng ngàn gen."
+))
+
+cards.append(make_card(
+    "HS11-B5-07",
+    "piRNA và sự bảo vệ hệ gen tế bào mầm chống lại Transposon",
+    "piRNA TẾ BÀO MẦM",
+    "Nêu vị trí biểu hiện và chức năng bảo vệ bộ gen của các phân tử Piwi-interacting RNA (piRNA)?",
+    [
+        "<b>Kích thước và Phân bố —</b> Kích thước ngắn 26 đến 31 nucleotide; biểu hiện phong phú nhất trong TẾ BÀO DÒNG MẦM (tinh hoàn, buồng trứng).",
+        "<b>Tương tác với protein họ PIWI —</b> Liên kết với các protein PIWI (phân nhánh của họ Argonaute) tạo phức hợp piRNP.",
+        "<b>Câm lặng các Yếu tố di truyền vận động (Transposons) —</b> Các gen nhảy transposon có xu hướng nhân bản và chèn bừa bãi làm đứt gãy DNA tế bào mầm; piRNA bắt cặp bổ sung với mRNA của transposon để phân hủy chúng.",
+        "<b>Methyl hóa DNA vùng gen nhảy —</b> Phức hợp piRNA-PIWI di chuyển vào nhân định hướng sự methyl hóa DNA câm lặng vĩnh viễn các vùng transposon trên chất nhiễm sắc.",
+        "<b>Bảo tồn tính toàn vẹn nòi giống —</b> Đảm bảo hệ gen của tinh trùng và trứng không bị đột biến phá hủy, duy trì khả năng sinh sản của giống loài."
+    ],
+    "Đột biến làm mất chức năng của hệ thống piRNA ở động vật dẫn đến sự bùng nổ chuyển vị của các gen nhảy làm tổn thương DNA hàng loạt, gây teo tinh hoàn và vô sinh tuyệt đối."
+))
+
+cards.append(make_card(
+    "HS11-B5-08",
+    "RNA Vòng (Circular RNA - circRNA) và chức năng Bọt biển hút miRNA",
+    "CIRCULAR RNA (circRNA)",
+    "Mô tả cấu trúc của circRNA và vai trò của nó như một 'miRNA Sponge' (Bọt biển hút miRNA)?",
+    [
+        "<b>Cấu trúc vòng khép kín —</b> Được tạo thành từ quá trình cắt nối ngược (Back-splicing) của pre-mRNA; đầu 3' của một exon nối cộng hóa trị với đầu 5' của một exon phía trước tạo phân tử RNA dạng vòng kín.",
+        "<b>Kháng hoàn toàn Exonuclease —</b> Do không có hai đầu tận cùng tự do, circRNA hoàn toàn không bị phân hủy bởi các enzym exonuclease thông thường, có thời gian bán hủy cực kỳ dài trong tế bào và huyết tương.",
+        "<b>Cơ chế Bọt biển hút miRNA (miRNA Sponge) —</b> Phân tử circRNA chứa hàng chục vị trí gắn bổ sung cho cùng một loại miRNA.",
+        "<b>Bẫy và Bất hoạt miRNA —</b> circRNA hoạt động như một miếng bọt biển hút và giữ chặt các phân tử miRNA, giải phóng các mRNA mục tiêu khỏi sự ức chế của miRNA đó (cơ chế mạng lưới cạnh tranh RNA nội sinh - ceRNA).",
+        "<b>Dấu ấn sinh học trong máu —</b> Nhờ độ bền cao, circRNA trong huyết tương đang được phát triển làm dấu ấn sinh học chẩn đoán sớm ung thư."
+    ],
+    "Ví dụ kinh điển: circRNA mang tên ciRS-7 chứa hơn 70 vị trí gắn bổ sung cho miR-7, hoạt động như một bẫy phân tử kiểm soát chặt chẽ hoạt tính của miR-7 trong não bộ."
+))
+
+cards.append(make_card(
+    "HS11-B5-09",
+    "Ứng dụng điều trị y học của Oligonucleotide Tổng hợp Antisense (ASO)",
+    "DƯỢC LÝ ASO",
+    "Trình bày cơ chế tác dụng của thuốc Oligonucleotide đối mã (Antisense Oligonucleotide - ASO) trong điều trị Teo cơ tủy (SMA)?",
+    [
+        "<b>Bản chất Oligonucleotide đối mã (ASO) —</b> Đoạn DNA hoặc RNA tổng hợp nhân tạo ngắn (15 - 25 nucleotide) được biến đổi hóa học khung xương (như phosphorothioate) để chống phân hủy nuclease.",
+        "<b>Bắt cặp bổ sung đặc hiệu mục tiêu —</b> Gắn đặc hiệu vào một vị trí xác định trên phân tử pre-mRNA hoặc mRNA đích trong nhân tế bào.",
+        "<b>Cơ chế thuốc Nusinersen (Spinraza) điều trị bệnh Teo cơ tủy SMA —</b> Bệnh nhân SMA bị đột biến mất gen SMN1, chỉ còn gen phụ SMN2 nhưng gen SMN2 thường bị cắt nối sai bỏ sót exon 7 tạo protein không ổn định.",
+        "<b>Điều chỉnh Cắt nối Exon (Splice-switching ASO) —</b> Thuốc Nusinersen bắt cặp vào vùng ức chế cắt nối trên pre-mRNA của SMN2, phong bế yếu tố ức chế, bắt buộc bộ máy Spliceosome PHẢI GIỮ LẠI EXON 7, tạo ra protein SMN chức năng đủ chiều dài phục hồi vận động cho trẻ.",
+        "<b>Cơ chế kích hoạt RNase H —</b> Các ASO khác bắt cặp với mRNA tạo thể lai DNA-RNA kích hoạt enzyme RNase H phân hủy mRNA gây bệnh (như thuốc Mipomersen hạ ApoB điều trị tăng cholesterol máu gia đình)."
+    ],
+    "Sự phê duyệt của FDA cho thuốc Nusinersen (Spinraza) tiêm tủy sống điều trị SMA là một chiến thắng vĩ đại của sinh học phân tử ứng dụng trực tiếp cấu trúc RNA vào cứu sống người bệnh."
+))
+
+cards.append(make_card(
+    "HS11-B5-10",
+    "Vaccine công nghệ mRNA (COVID-19) và Biến đổi N1-Methylpseudouridine",
+    "VACCINE CÔNG NGHỆ mRNA",
+    "Trình bày cơ chế và giải thích vì sao việc thay thế Uridine bằng N1-Methylpseudouridine giúp vaccine mRNA thành công (Nobel 2023)?",
+    [
+        "<b>Nguyên lý Vaccine mRNA —</b> Đưa phân tử mRNA tổng hợp mã hóa protein kháng nguyên gai (Spike protein) của virus vào tế bào cơ thể đóng gói trong hạt hạt nano lipid (LNP); ribosome tế bào người dịch mã tạo kháng nguyên kích hoạt đáp ứng miễn dịch hoàn hảo.",
+        "<b>Thách thức miễn dịch bẩm sinh ban đầu —</b> RNA ngoại lai đưa vào cơ thể bị các thụ thể Toll-like receptor (TLR3, TLR7, TLR8) nhận diện là virus xâm nhập, kích hoạt giải phóng ồ ạt Interferon làm thoái hóa ngay phân tử mRNA và gây viêm nặng.",
+        "<b>Đột phá của Katalin Karikó và Drew Weissman (Giải Nobel Y học 2023) —</b> Thay thế toàn bộ các nucleotide URIDINE (U) thông thường trên chuỗi mRNA bằng N1-METHYLPSEUDOURIDINE (m1ψ).",
+        "<b>Hiệu quả kép vượt bậc —</b> 1) Giúp phân tử mRNA 'tàng hình' hoàn toàn trước hệ thống cảm biến miễn dịch bẩm sinh TLRs (không kích hoạt viêm đào thải); 2) Tăng vọt độ bền vững và hiệu suất dịch mã tạo kháng nguyên trên ribosome lên gấp hàng chục lần."
+    ],
+    "Khám phá về biến đổi nucleotide m1ψ đã cứu sống hàng chục triệu sinh mạng trong đại dịch COVID-19 và mở ra kỷ nguyên mới cho vaccine ung thư và liệu pháp protein thay thế."
+))
+
+# ==============================================================================
+# SECTION B6: Ý NGHĨA LÂM SÀNG & CÁC THUỐC TÁC ĐỘNG LÊN ACID NUCLEIC (12 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-B6-01",
+    "Cơ chế enzym Topoisomerase I và II trong giải tỏa sức căng xoắn DNA",
+    "ENZYM TOPOISOMERASE",
+    "Phân biệt cơ chế tác dụng phân tử giữa Topoisomerase I và Topoisomerase II?",
+    [
+        "<b>Nhu cầu giải tỏa siêu xoắn —</b> Khi DNA tháo xoắn để sao chép hoặc phiên mã, phía trước chạc ba sao chép tích tụ áp lực siêu xoắn dương khổng lồ có thể làm đứt gãy DNA.",
+        "<b>Topoisomerase I —</b> Cắt đứt tạm thời MỘT SỢI ĐƠN DNA; cho phép đầu cắt tự do xoay quanh sợi đơn nguyên vẹn đối diện để giải tỏa sức căng; sau đó tự hàn gắn lại liên kết phosphodiester; HOÀN TOÀN KHÔNG CẦN TIÊU TỐN ATP.",
+        "<b>Topoisomerase II (DNA Gyrase ở vi khuẩn) —</b> Cắt đứt hoàn toàn CẢ HAI SỢI ĐƠN DNA (đứt gãy sợi kép tạm thời); luồn một đoạn chuỗi xoắn kép DNA khác đi xuyên qua khe đứt; sau đó hàn gắn lại cả hai sợi; BẮT BUỘC TIÊU TỐN NĂNG LƯỢNG THỦY PHÂN ATP.",
+        "<b>Vết cắt qua liên kết cộng hóa trị Tyrosine-Phosphat —</b> Cả hai enzym đều sử dụng gốc Tyrosine tại trung tâm hoạt động tấn công liên kết phosphodiester tạo liên kết phosphotyrosine tạm thời bảo tồn năng lượng liên kết để hàn gắn lại."
+    ],
+    "Cơ chế cắt - luồn - hàn gắn kỳ diệu của Topoisomerase ví như một ảo thuật gia phân tử, giúp tháo gỡ mọi nút thắt rối ren của các đại phân tử DNA dài hàng mét trong nhân tế bào."
+))
+
+cards.append(make_card(
+    "HS11-B6-02",
+    "Thuốc chống ung thư ức chế Topoisomerase I: Irinotecan và Topotecan",
+    "THUỐC ỨC CHẾ TOPOISOMERASE I",
+    "Trình bày cơ chế phân tử của thuốc chống ung thư dẫn xuất Camptothecin (Irinotecan, Topotecan)?",
+    [
+        "<b>Cơ chế bẫy phân tử (Topoisomerase I Poison) —</b> Thuốc gắn chọn lọc vào phức hợp trung gian [Topoisomerase I - DNA] ngay sau khi enzyme đã cắt đứt một sợi đơn DNA.",
+        "<b>Khóa chặt bước hàn gắn sợi —</b> Ức chế phản ứng hàn gắn liên kết phosphodiester, cố định enzyme kẹt cứng trên sợi DNA tạo nên các tổn thương đứt gãy sợi đơn bền vững.",
+        "<b>Va chạm với chạc ba sao chép —</b> Khi chạc ba sao chép tiến đến va chạm với phức hợp bị bẫy này, vết đứt sợi đơn lập tức biến đổi thành ĐỨT GÃY SỢI KÉP DNA KHÔNG THỂ SỬA CHỮA (Double-strand breaks - DSBs).",
+        "<b>Kích hoạt Apoptosis tế bào ung thư —</b> Kích hoạt con đường chết tế bào theo chương trình; được sử dụng làm phác đồ hàng đầu điều trị ung thư đại trực tràng di căn (Irinotecan trong phác đồ FOLFIRI) và ung thư buồng trứng, ung thư phổi tế bào nhỏ (Topotecan).",
+        "<b>Tác dụng phụ hội chứng cholinergic —</b> Irinotecan ức chế men acetylcholinesterase gây tiêu chảy cấp tính dữ dội trong lúc truyền (điều trị bằng Atropin)."
+    ],
+    "Thuốc ức chế Topoisomerase được gọi chính xác là 'chất độc enzyme' (enzyme poisons) vì chúng biến một enzyme bảo vệ bình thường thành một vũ khí phân tử cắt đứt DNA giết chết tế bào ung thư."
+))
+
+cards.append(make_card(
+    "HS11-B6-03",
+    "Thuốc chống ung thư ức chế Topoisomerase II: Etoposide và Teniposide",
+    "THUỐC ỨC CHẾ TOPOISOMERASE II",
+    "Trình bày cơ chế phân tử của thuốc nhóm Epipodophyllotoxin (Etoposide / VP-16)?",
+    [
+        "<b>Đích tác động đặc hiệu —</b> Enzyme Topoisomerase II của tế bào nhân thực.",
+        "<b>Bẫy phức hợp phân cắt DNA —</b> Gắn vào phức hợp [Topoisomerase II - DNA] sau khi enzyme đã cắt đứt cả 2 sợi đơn DNA, ngăn cản phản ứng hàn gắn liên kết phosphodiester.",
+        "<b>Tích tụ đứt gãy sợi kép DNA (DSBs) —</b> Làm tế bào tích tụ ồ ạt các đứt gãy sợi kép trong pha S và G2 của chu kỳ tế bào.",
+        "<b>Kích hoạt chốt kiểm soát DNA damage —</b> Hoạt hóa protein p53 và ATM/ATR kinase dẫn thẳng tới chết tế bào theo chương trình (Apoptosis).",
+        "<b>Chỉ định lâm sàng —</b> Thành phần cốt lõi trong phác đồ điều trị Ung thư phổi tế bào nhỏ (SCLC), Ung thư tinh hoàn và U lympho ác tính.",
+        "<b>Nguy cơ bệnh bạch cầu thứ phát —</b> Tổn thương DNA kéo dài có thể kích hoạt đột biến chuyển đoạn gen MLL trên NST 11q23 gây bệnh bạch cầu cấp dòng tủy (AML thứ phát sau điều trị)."
+    ],
+    "Etoposide là một trong những thuốc hóa trị ung thư tinh hoàn thành công nhất trong lịch sử, nâng tỷ lệ chữa khỏi ung thư tinh hoàn di căn lên trên 90%."
+))
+
+cards.append(make_card(
+    "HS11-B6-04",
+    "Kháng sinh nhóm Quinolone (Ciprofloxacin, Levofloxacin): Ức chế DNA Gyrase",
+    "KHÁNG SINH QUINOLONE",
+    "Trình bày cơ chế tác dụng diệt khuẩn chọn lọc của kháng sinh Quinolone lên DNA Gyrase và Topoisomerase IV?",
+    [
+        "<b>Đích tác động trên vi khuẩn gram âm: DNA GYRASE (Topoisomerase II vi khuẩn) —</b> Enzym duy nhất có khả năng tạo siêu xoắn âm ở vi khuẩn; Quinolone bẫy phức hợp [DNA Gyrase - DNA] ngăn hàn gắn tạo đứt gãy sợi kép DNA.",
+        "<b>Đích tác động trên vi khuẩn gram dương: TOPOISOMERASE IV —</b> Enzym chịu trách nhiệm gỡ rối tách rời hai phân tử DNA vòng sau khi sao chép; ức chế enzyme này khiến hai tế bào vi khuẩn con không thể phân chia.",
+        "<b>Tác dụng diệt khuẩn nhanh chóng (Bactericidal) —</b> Các đứt gãy DNA lan tỏa kích hoạt phản ứng SOS tự tiêu diệt vi khuẩn.",
+        "<b>Tính độc tính chọn lọc cao —</b> Ái lực của Quinolone với Topoisomerase II của vi khuẩn cao gấp hàng ngàn lần so với Topoisomerase II của tế bào người.",
+        "<b>Tác dụng phụ cờ đỏ lâm sàng —</b> Gây độc sụn khớp đang phát triển (chống chỉ định cho trẻ em và phụ nữ có thai) và NGUY CƠ VIÊM ĐỨT GÂN GÓT (Achilles Tendinitis / Tendon Rupture) do hủy hoại mô liên kết."
+    ],
+    "Kháng sinh Quinolone (Fluoroquinolones) là vũ khí cực mạnh điều trị nhiễm khuẩn đường tiết niệu, viêm phổi bệnh viện và nhiễm khuẩn tiêu hóa do vi khuẩn gram âm."
+))
+
+cards.append(make_card(
+    "HS11-B6-05",
+    "Anthracycline (Doxorubicin, Daunorubicin): Cơ chế Chèn xen kẽ và Gốc tự do",
+    "THUỐC CHỐNG UNG THƯ ANTHRACYCLINE",
+    "Phân tích cơ chế tác dụng đa cơ chế của Doxorubicin (Adriamycin) và độc tính tim mạch đặc trưng?",
+    [
+        "<b>1. Chèn xen kẽ vào DNA (Intercalation) —</b> Cấu trúc 4 vòng phẳng anthraquinone chèn lọt khít khao vào giữa các cặp base kề nhau của chuỗi xoắn kép B-DNA, làm giãn và biến dạng khung xoắn ngăn cản phiên mã và sao chép.",
+        "<b>2. Ức chế Topoisomerase II —</b> Khóa phức hợp phân cắt Topoisomerase II gây tích tụ đứt gãy sợi kép DNA.",
+        "<b>3. Sinh gốc tự do ROS gây độc —</b> Vòng quinone bị khử tạo gốc tự do semiquinone, phản ứng với oxy sinh ra lượng lớn gốc oxy hóa tự do (Superoxide O2•⁻, H2O2, •OH) phá hủy lipid màng tế bào và DNA.",
+        "<b>ĐỘC TÍNH TIM MẠCH ĐẶC TRƯNG (Cardiotoxicity) —</b> Tế bào cơ tim chứa nồng độ enzyme chống oxy hóa catalase và GPx rất thấp; gốc tự do ROS do doxorubicin sinh ra phá hủy màng ty thể tế bào cơ tim gây bệnh cơ tim giãn suy tim xung huyết phụ thuộc liều tích lũy.",
+        "<b>Thuốc giải độc bảo vệ tim Dexrazoxane —</b> Chất chelate hóa sắt nội bào ngăn chặn sắt phản ứng với doxorubicin sinh gốc tự do."
+    ],
+    "Doxorubicin (Adriamycin) được mệnh danh là 'Hóa chất đỏ' (Red Devil) trong khoa ung bướu vì dịch thuốc có màu đỏ rực rỡ và có độc tính rụng tóc, suy tủy và độc tim dữ dội."
+))
+
+cards.append(make_card(
+    "HS11-B6-06",
+    "Cơ chế Kết thúc chuỗi (Chain Termination) của Thuốc kháng HIV Zidovudine (AZT)",
+    "THUỐC KHÁNG RETROVIRUS (NRTI)",
+    "Trình bày cấu tạo tương đồng và cơ chế làm kết thúc chuỗi sao chép ngược của thuốc Zidovudine (AZT) trong điều trị HIV?",
+    [
+        "<b>Nhóm thuốc NRTI (Nucleoside Reverse Transcriptase Inhibitors) —</b> Thuốc kháng retrovirus ức chế enzyme phiên mã ngược.",
+        "<b>Cấu trúc tương đồng của AZT (Zidovudine / 3'-azido-3'-deoxythymidine) —</b> Là dẫn xuất tương đồng của Deoxythymidine; điểm khác biệt cốt tử là NHÓM 3'-OH BỊ THAY THẾ BẰNG NHÓM AZIDO (-N3).",
+        "<b>Phosphoryl hóa thành dạng hoạt tính AZT-Triphosphat —</b> Các kinase nội bào gắn 3 nhóm phosphat biến đổi AZT thành AZT-triphosphat (AZT-TP).",
+        "<b>Cơ chế kết thúc chuỗi sớm (Chain Termination) —</b> Enzyme phiên mã ngược (Reverse Transcriptase) của HIV bắt nhầm AZT-TP chèn vào chuỗi cDNA virus đang tổng hợp; do KHÔNG CÓ NHÓM 3'-OH TỰ DO, không thể tạo liên kết phosphodiester với nucleotide tiếp theo.",
+        "<b>Dập tắt nhân đôi virus HIV —</b> Quá trình tổng hợp cDNA virus bị đứt gãy dừng lại ngay lập tức, ngăn chặn virus tích hợp vào hệ gen tế bào chủ."
+    ],
+    "AZT có ái lực gắn với enzyme phiên mã ngược của virus HIV cao gấp 100 lần so với DNA Polymerase của tế bào người; tuy nhiên ở liều cao AZT vẫn ức chế DNA Polymerase gamma của ty thể gây độc tính suy tủy và toan lactic máu."
+))
+
+cards.append(make_card(
+    "HS11-B6-07",
+    "Cơ chế tác dụng chọn lọc của Thuốc kháng Virus Herpes Acyclovir",
+    "THUỐC KHÁNG VIRUS ACYCLOVIR",
+    "Giải thích vì sao Acyclovir có tính độc tính chọn lọc tuyệt hảo chỉ tiêu diệt tế bào nhiễm virus Herpes (HSV, VZV)?",
+    [
+        "<b>Cấu trúc tương đồng Guanosine thiếu vòng đường —</b> Là dẫn xuất acyclic của guanosine; chuỗi aliphatic không có vòng đường ribose hoàn chỉnh và hoàn toàn thiếu nhóm 3'-OH.",
+        "<b>Bước hoạt hóa mở đầu chỉ diễn ra trong tế bào nhiễm virus —</b> Bước phosphoryl hóa đầu tiên tạo Acyclovir-Monophosphat BẮT BUỘC ĐÒI HỎI ENZYM THYMIDINE KINASE CỦA VIRUS (Viral Thymidine Kinase).",
+        "<b>Tế bào bình thường hoàn toàn không hoạt hóa thuốc —</b> Enzyme kinase của tế bào người bình thường không nhận diện acyclovir; do đó thuốc chỉ được hoạt hóa thành dạng độc tính bên trong các tế bào đang bị nhiễm virus Herpes.",
+        "<b>Ức chế cạnh tranh và Kết thúc chuỗi —</b> Acyclovir-Triphosphat ức chế mạnh mẽ DNA Polymerase của virus và chèn vào chuỗi DNA virus gây kết thúc chuỗi sớm do thiếu 3'-OH.",
+        "<b>Độ an toàn lâm sàng tuyệt vời —</b> Thuốc hầu như không gây độc cho các tế bào lành xung quanh; là lựa chọn hàng đầu điều trị viêm não do Herpes (HSV-1), mụn rộp sinh dục và bệnh Zona thần kinh (VZV)."
+    ],
+    "Cơ chế kích hoạt chọn lọc nhờ enzyme của chính virus (Prodrug activation) là một tuyệt tác dược lý hóa sinh: biến vũ khí của kẻ thù thành phương tiện tự tiêu diệt kẻ thù."
+))
+
+cards.append(make_card(
+    "HS11-B6-08",
+    "Thuốc kháng virus viêm gan C Sofosbuvir và Remdesivir (Thuốc kháng RNA virus)",
+    "THUỐC KHÁNG RNA VIRUS",
+    "Trình bày cơ chế ức chế enzyme RNA-dependent RNA Polymerase (RdRp) của Sofosbuvir và Remdesivir?",
+    [
+        "<b>Đích tác động đặc hiệu: Enzyme RdRp của virus —</b> Các virus RNA (HCV, Coronavirus) bắt buộc phải sử dụng enzyme RNA Polymerase phụ thuộc RNA (RdRp) để sao chép bộ gen RNA (người không có enzyme này).",
+        "<b>Sofosbuvir (Đặc trị Viêm gan C) —</b> Là chất tương đồng nucleotide uridin; sau khi vào gan chuyển thành dạng triphosphat, chèn vào chuỗi RNA của virus HCV gây KẾT THÚC CHUỖI SỚM do biến đổi nhóm 2'-methyl-2'-fluoro cản trở không gian.",
+        "<b>Cuộc cách mạng chữa khỏi Viêm gan C —</b> Phối hợp Sofosbuvir với các thuốc DAA khác giúp chữa khỏi dứt điểm hoàn toàn bệnh Viêm gan C mạn tính với tỷ lệ thành công > 95 - 98%.",
+        "<b>Remdesivir (Kháng SARS-CoV-2) —</b> Là chất tương đồng adenosin; chèn vào chuỗi RNA virus và gây KẾT THÚC CHUỖI TRỄ (Delayed Chain Termination) sau khi kéo dài thêm 3 nucleotide, vượt qua cơ chế đọc sửa sai exonuclease của coronavirus."
+    ],
+    "Các thuốc tương đồng nucleoside ức chế RdRp là bước đột phá vĩ đại của y học hiện đại trong cuộc chiến chống lại các đại dịch virus RNA toàn cầu."
+))
+
+cards.append(make_card(
+    "HS11-B6-09",
+    "Thuốc chống ung thư 5-Fluorouracil (5-FU) và 'Cái chết không có Thymin'",
+    "THUỐC CHỐNG CHUYỂN HÓA 5-FU",
+    "Trình bày cơ chế ức chế enzym Thymidylate Synthase của 5-Fluorouracil và hiện tượng 'Thymineless Death'?",
+    [
+        "<b>Chất tương đồng Pyrimidin —</b> 5-Fluorouracil (5-FU) mang nguyên tử Fluor gắn tại vị trí carbon C5 của vòng Uracil thay thế cho nguyên tử hydro.",
+        "<b>Chuyển hóa thành chất ức chế tự sát 5-FdUMP —</b> Trong tế bào, 5-FU được chuyển hóa thành 5-fluoro-2'-deoxyuridine-5'-monophosphate (5-FdUMP).",
+        "<b>Ức chế bất thuận nghịch enzym Thymidylate Synthase —</b> 5-FdUMP liên kết đồng hóa trị bền vững với enzym Thymidylate Synthase và coenzyme N5,N10-methylene-THF, khóa chặt enzym trong phức hợp tam phân không thể giải phóng (Cơ chế ức chế tự sát - Suicide inhibition).",
+        "<b>Cắt đứt nguồn cung cấp dTMP duy nhất —</b> Tế bào hoàn toàn không thể tổng hợp được dTMP từ dUMP; cạn kiệt nguồn nguyên liệu dTTP để sao chép DNA.",
+        "<b>Hiện tượng 'Cái chết không có Thymin' (Thymineless Death) —</b> Thiếu hụt dTTP làm DNA Polymerase chèn nhầm dUTP vào DNA hàng loạt; hệ thống sửa sai cắt base liên tục gây đứt gãy DNA diện rộng và giết chết tế bào ung thư đang phân chia nhanh."
+    ],
+    "Thuốc 5-FU thường được truyền kết hợp với Leucovorin (Acid Folinic): Leucovorin làm tăng nồng độ phức hợp folate, giúp 5-FdUMP gắn chặt và làm bền phức hợp ức chế thymidylate synthase gấp nhiều lần."
+))
+
+cards.append(make_card(
+    "HS11-B6-10",
+    "Methotrexate: Ức chế Dihydrofolate Reductase (DHFR) cạn kiệt Tetrahydrofolate",
+    "THUỐC CHỐNG CHUYỂN HÓA FOLATE",
+    "Trình bày cơ chế phân tử của Methotrexate trong việc làm tê liệt con đường tổng hợp Purin và Thymin?",
+    [
+        "<b>Chất tương đồng cấu trúc với Acid Folic —</b> Methotrexate (MTX) có cấu trúc hóa học tương tự acid folic, gắn vào trung tâm hoạt động của enzym với ái lực mạnh gấp 1.000 lần acid folic.",
+        "<b>Ức chế cạnh tranh enzyme Dihydrofolate Reductase (DHFR) —</b> Khóa chặt enzym DHFR, ngăn cản phản ứng khử Dihydrofolate (DHF) thành Tetrahydrofolate (THF).",
+        "<b>Cạn kiệt toàn bộ nguồn dẫn xuất Folate một carbon —</b> Cạn kiệt N5,N10-methylene-THF (cần cho tổng hợp dTMP) và N10-formyl-THF (cần cho sinh tổng hợp de novo nhân Purin).",
+        "<b>Đình trệ tổng hợp đồng thời cả DNA và RNA —</b> Tế bào không thể tổng hợp được cả dTMP lẫn dATP, dGTP; ức chế mạnh mẽ sự phân bào trong pha S.",
+        "<b>Chỉ định lâm sàng đa dạng —</b> Liều cao điều trị Ung thư bạch cầu cấp, U lympho, Ung thư biểu mô màng đệm (Choriocarcinoma); Liều thấp điều trị ức chế miễn dịch trong Viêm khớp dạng thấp và Bệnh Vẩy nến."
+    ],
+    "Liệu pháp giải cứu bằng Leucovorin (Leucovorin Rescue): Sau khi truyền Methotrexate liều cao diệt tế bào ung thư, bệnh nhân được tiêm Leucovorin (chất dạng khử sẵn của folate) để giải cứu các tế bào lành của tủy xương và niêm mạc ruột khỏi bị hoại tử."
+))
+
+cards.append(make_card(
+    "HS11-B6-11",
+    "Chất tương đồng Purin 6-Mercaptopurine (6-MP) và Tương tác nguy hiểm với Allopurinol",
+    "DƯỢC LÝ HÓA SINH 6-MP",
+    "Trình bày cơ chế tác dụng của 6-Mercaptopurine và giải thích tương tác thuốc nguy hiểm gây suy tủy khi dùng chung với Allopurinol?",
+    [
+        "<b>Chất tương đồng Purin —</b> 6-Mercaptopurine (6-MP, và tiền chất Azathioprine) mang nhóm thiol (-SH) thay cho nhóm oxy ở carbon C6 của Guanin.",
+        "<b>Chuyển hóa thành TIMP ức chế tổng hợp de novo Purin —</b> Nhờ enzym HGPRT chuyển thành Thioinosine Monophosphate (TIMP); TIMP ức chế ngược giả enzym PRPP Amidotransferase (bước 1 tổng hợp purin) và ức chế tạo AMP/GMP.",
+        "<b>Hai con đường thoái hóa của 6-MP —</b> 1) Qua enzym Thiopurine Methyltransferase (TPMT); 2) Qua enzym XANTHINE OXIDASE (XO) tại gan và ruột tạo acid thiouric bất hoạt.",
+        "<b>TƯƠNG TÁC THUỐC NGUY HIỂM VỚI ALLOPURINOL —</b> Allopurinol là thuốc trị Gout ức chế Xanthine Oxidase; khi dùng chung, con đường thoái hóa chính của 6-MP bị khóa chặt, làm nồng độ 6-MP hoạt tính trong máu TĂNG VỌT GẤP 4 ĐẾN 5 LẦN.",
+        "<b>Hậu quả lâm sàng —</b> Gây ỨC CHẾ TỦY XƯƠNG CỰC KỲ NẶNG NỀ (giảm toàn thể huyết cầu, nhiễm trùng huyết đe dọa tử vong); bắt buộc phải GIẢM LIỀU 6-MP XUỐNG CÒN 25% (giảm 75% liều) nếu bắt buộc phải phối hợp cùng Allopurinol."
+    ],
+    "Xét nghiệm hoạt tính enzym TPMT hoặc giải trình tự gen TPMT trước khi khởi động điều trị Azathioprine/6-MP là tiêu chuẩn thực hành y học cá thể hóa để tránh ngộ độc tủy xương ở những bệnh nhân mang đột biến giảm chuyển hóa."
+))
+
+cards.append(make_card(
+    "HS11-B6-12",
+    "Các Tác nhân Alkyl hóa DNA (Cyclophosphamide, Cisplatin) và Liên kết chéo DNA",
+    "TÁC NHÂN ALKYL HÓA DNA",
+    "Trình bày cơ chế tạo liên kết chéo (Cross-linking) phá hủy DNA của các thuốc Alkyl hóa (Cyclophosphamide) và hợp chất Platin (Cisplatin)?",
+    [
+        "<b>Tác nhân Alkyl hóa hai chức (Bifunctional Alkylating Agents) —</b> Cyclophosphamide chuyển hóa tại gan tạo phosphoramide mustard mang 2 nhóm phản ứng electrophilic cực mạnh.",
+        "<b>Vị trí tấn công: Nguyên tử N7 của Guanin —</b> Vị trí N7 trên nhân purin của Guanin nằm lộ ra ở rãnh lớn DNA là vị trí ái nhân giàu electron nhất; thuốc tạo liên kết cộng hóa trị alkyl hóa với N7 của Guanin.",
+        "<b>Tạo liên kết chéo liên sợi (Interstrand Cross-links) —</b> Phân tử hai chức gắn đồng thời vào 2 gốc Guanin nằm trên hai sợi đơn đối diện của chuỗi xoắn kép, 'hàn dính' chặt hai sợi đơn với nhau.",
+        "<b>Ngăn cản hoàn toàn tháo xoắn sao chép —</b> Khi tế bào bước vào phân chia, chạc ba sao chép không thể tháo xoắn tách hai sợi DNA; kích hoạt đứt gãy DNA diện rộng và thúc đẩy Apoptosis tế bào ung thư.",
+        "<b>Cơ chế của Cisplatin —</b> Hợp chất phức phối trí Bạch kim tạo liên kết chéo nội sợi giữa hai gốc Guanin kề nhau (Intrastrand cross-links d(GpG)), bẻ cong chuỗi xoắn kép DNA một góc 30 - 45° gây chết tế bào ung thư tinh hoàn, buồng trứng, phổi."
+    ],
+    "Tác dụng phụ độc bàng quang của Cyclophosphamide: Chất chuyển hóa Acrolein bài tiết ra nước tiểu gây viêm bàng quang chảy máu dữ dội (Hemorrhagic Cystitis); phòng ngừa bằng cách truyền nhiều dịch và dùng thuốc giải độc MESNA (gắn bất hoạt acrolein)."
+))
+
+# ==============================================================================
+# SECTION B_ALGO: 5 THẺ THUẬT TOÁN QUYẾT ĐỊNH NHANH (5 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS11-ALGO-01",
+    "Phân tầng Kháng sinh và Thuốc chống ung thư theo cơ chế ức chế Topoisomerase",
+    "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "Lưu đồ thuật toán 4 bước phân loại các thuốc tác động lên enzyme Topoisomerase của Acid Nucleic?",
+    [
+        "<b>Bước 1 (Xác định thuốc ức chế Topoisomerase I tế bào người - Cắt 1 sợi) —</b> Nhóm Camptothecin: IRINOTECAN (đặc trị ung thư đại trực tràng) và TOPOTECAN (ung thư buồng trứng, phổi nhỏ); cơ chế bẫy phức hợp cắt sợi đơn biến thành đứt sợi kép khi sao chép.",
+        "<b>Bước 2 (Xác định thuốc ức chế Topoisomerase II tế bào người - Cắt 2 sợi) —</b> Nhóm Epipodophyllotoxin: ETOPOSIDE (VP-16) và TENIPOSIDE (ung thư phổi nhỏ, tinh hoàn, u lympho); cơ chế tích tụ đứt gãy sợi kép DSBs.",
+        "<b>Bước 3 (Xác định thuốc đa cơ chế: Chèn xen kẽ + Ức chế Topo II + Tạo ROS) —</b> Nhóm Anthracycline: DOXORUBICIN (Adriamycin) và DAUNORUBICIN (đặc trị ung thư vú, bạch cầu cấp; theo dõi độc tính cơ tim suy tim).",
+        "<b>Bước 4 (Xác định Kháng sinh ức chế chọn lọc Topoisomerase vi khuẩn) —</b> Nhóm Fluoroquinolone: CIPROFLOXACIN, LEVOFLOXACIN (ức chế DNA Gyrase vi khuẩn gram âm và Topoisomerase IV vi khuẩn gram dương; cờ đỏ viêm đứt gân gót)."
+    ],
+    "Cây quyết định giúp phân biệt chính xác đích tác động dược lý: Topo I (Irinotecan) vs Topo II người (Etoposide, Doxorubicin) vs Topo II vi khuẩn (Quinolone).",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS11-ALGO-02",
+    "Phân tầng cơ chế tác dụng của các Thuốc tương đồng Nucleoside / Nucleotide",
+    "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "Lưu đồ thuật toán phân loại 4 nhóm thuốc tương đồng Nucleoside trong điều trị Kháng virus và Chống ung thư?",
+    [
+        "<b>Bước 1 (Nhóm kết thúc chuỗi sao chép ngược HIV do thiếu 3'-OH) —</b> Thuốc NRTI: ZIDOVUDINE (AZT: nhóm 3'-azido), EMTRICITABINE, TENOFOVIR (chèn vào cDNA virus HIV làm dừng kéo dài chuỗi).",
+        "<b>Bước 2 (Nhóm thuốc kháng virus Herpes phụ thuộc Thymidine Kinase virus) —</b> ACYCLOVIR, GANCICLOVIR: chỉ được phosphoryl hóa hoạt hóa bước đầu bởi enzym kinase của virus trong tế bào nhiễm bệnh, ức chế chọn lọc DNA polymerase của virus.",
+        "<b>Bước 3 (Nhóm ức chế enzyme tổng hợp dTMP - Cái chết thiếu Thymin) —</b> 5-FLUOROURACIL (5-FU): chuyển thành 5-FdUMP ức chế tự sát enzyme Thymidylate Synthase; METHOTREXATE: ức chế DHFR cạn kiệt THF.",
+        "<b>Bước 4 (Nhóm ức chế tổng hợp Purin và Tương tác Xanthine Oxidase) —</b> 6-MERCAPTOPURINE (6-MP), AZATHIOPRINE: ức chế tổng hợp de novo purin; CẢNH BÁO TỬ VONG NẾU DÙNG CÙNG ALLOPURINOL (bắt buộc giảm 75% liều 6-MP)."
+    ],
+    "Lưu đồ phân tầng các thuốc tương đồng nucleoside là công cụ cốt tử giúp nắm vững cả hai mảng Hóa sinh và Dược lý học lâm sàng.",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS11-ALGO-03",
+    "Lưu đồ tính toán Nhiệt độ Nóng chảy Tm và Thiết kế cặp mồi PCR",
+    "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "Lưu đồ thuật toán 4 bước tính toán giá trị Tm và tối ưu hóa nhiệt độ bắt cặp mồi (Ta) trong phản ứng PCR?",
+    [
+        "<b>Bước 1 (Đếm số lượng từng loại nucleotide trên đoạn mồi) —</b> Xác định số lượng gốc Adenin (A), Thymin (T), Guanin (G) và Cytosin (C) trên đoạn mồi oligonucleotide (chiều dài tối ưu 18 - 25 nt).",
+        "<b>Bước 2 (Áp dụng công thức Wallace ước tính Tm) —</b> Tm (°C) = 2 × (Số A + Số T) + 4 × (Số G + Số C) (áp dụng chính xác cho mồi dài 14 - 20 nt trong nồng độ muối chuẩn 50 mM Na⁺).",
+        "<b>Bước 3 (Tính toán cho đoạn mồi dài hơn bằng %GC) —</b> Áp dụng công thức SantaLucia: Tm = 81,5 + 0,41 × (%GC) - (675 / Chiều dài L) + 16,6 × log[Na⁺].",
+        "<b>Bước 4 (Xác định Nhiệt độ bắt cặp mồi tối ưu Ta - Annealing Temperature) —</b> Nhiệt độ bắt cặp mồi trong chu trình nhiệt PCR luôn được cài đặt ở mức THẤP HƠN NHIỆT ĐỘ Tm KHOẢNG 3 ĐẾN 5°C: Ta = Tm - (3 đến 5°C) (và chênh lệch Tm giữa mồi xuôi và mồi ngược không được vượt quá 1 - 2°C)."
+    ],
+    "Cài đặt nhiệt độ Ta chuẩn xác là chìa khóa thành công của phản ứng PCR: nếu Ta quá cao mồi không bắt cặp được; nếu Ta quá thấp mồi sẽ bắt cặp không đặc hiệu tạo các vạch phụ sai lệch.",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS11-ALGO-04",
+    "Phân tầng các Kỹ thuật Sinh học Phân tử dựa trên Acid Nucleic",
+    "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "Lưu đồ thuật toán lựa chọn kỹ thuật sinh học phân tử phù hợp theo mục tiêu chẩn đoán lâm sàng?",
+    [
+        "<b>Mục tiêu 1 (Khuếch đại và Định lượng tải lượng DNA/RNA virus nhanh chóng) —</b> Chọn REAL-TIME PCR / RT-PCR (đo tải lượng HBV, HCV, HIV, SARS-CoV-2 với ngưỡng phát hiện cực nhạy vài bản sao/ml).",
+        "<b>Mục tiêu 2 (Phát hiện chuyển đoạn nhiễm sắc thể hoặc khuếch đại gen ung thư) —</b> Chọn KỸ THUẬT LAI HUỲNH QUANG TẠI CHỖ (FISH) (chẩn đoán gen BCR-ABL1 trong CML, khuếch đại HER2 trong ung thư vú).",
+        "<b>Mục tiêu 3 (Phát hiện đột biến điểm đơn nucleotide hoặc giải mã gen mới) —</b> Chọn GIẢI TRÌNH TỰ SANGER (tiêu chuẩn vàng cho đoạn đơn gen < 1000 bp) hoặc GIẢI TRÌNH TỰ THẾ HỆ MỚI (NGS - giải mã toàn bộ hệ gen biểu hiện WES/WGS).",
+        "<b>Mục tiêu 4 (Khảo sát hồ sơ biểu hiện của hàng chục ngàn gen cùng lúc) —</b> Chọn VI MẢNG DNA (DNA Microarray - phân loại phân tử ung thư vú PAM50, ung thư máu)."
+    ],
+    "Cây quyết định lựa chọn kỹ thuật phân tử: Tải lượng virus (Real-time PCR) vs Đột biến cấu trúc lớn (FISH) vs Đột biến điểm (Sanger/NGS) vs Biểu hiện toàn hệ gen (Microarray).",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS11-ALGO-05",
+    "Lưu đồ phân biệt 3 dạng xoắn DNA: B-DNA, A-DNA và Z-DNA",
+    "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+    "Lưu đồ thuật toán 4 bước phân biệt nhanh các dạng cấu hình xoắn DNA trong các câu hỏi trắc nghiệm?",
+    [
+        "<b>Bước 1 (Kiểm tra Chiều xoắn sang Phải hay sang Trái) —</b> Nếu XOẮN SANG TRÁI (Left-handed) → Kết luận ngay Z-DNA; Nếu XOẮN SANG PHẢI (Right-handed) → Phân vân giữa B-DNA và A-DNA.",
+        "<b>Bước 2 (Kiểm tra Số cặp base trên mỗi chu kỳ xoắn) —</b> 10 đến 10,5 bp/vòng → B-DNA; 11 bp/vòng → A-DNA; 12 bp/vòng (hình dích dắc ziczac) → Z-DNA.",
+        "<b>Bước 3 (Kiểm tra Cấu hình liên kết N-glycosidic) —</b> Toàn bộ base ở cấu hình Anti → B-DNA và A-DNA; Luân phiên Purin ở dạng Syn và Pyrimidin ở dạng Anti → Z-DNA.",
+        "<b>Bước 4 (Kiểm tra Điều kiện sinh học xuất hiện) —</b> Dung dịch nước sinh lý tế bào → B-DNA; Môi trường mất nước hoặc THỂ LAI DNA-RNA / CHUỖI XOẮN KÉP RNA → A-DNA; Vùng trình tự lặp purin-pyrimidin luân phiên chịu áp lực siêu xoắn → Z-DNA."
+    ],
+    "Bảng phản xạ 4 bước: Z-DNA = Xoắn trái + 12 bp + Syn/Anti; A-DNA = Xoắn phải mập dẹt + 11 bp + Lai DNA-RNA; B-DNA = Xoắn phải chuẩn sinh lý + 10 bp + Anti.",
+    algo=True
+))
+
+# ==============================================================================
+# XUẤT FILE CARDS V2 JSON
+# ==============================================================================
+
+out_dir = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\14_Hoa sinh\HS-11_Hoa_hoc_acid_nucleic")
+cards_file = out_dir / "HS-11_Hoa_hoc_acid_nucleic.cards.v2.json"
+
+output_data = {
+    "cards": cards,
+    "total": len(cards),
+    "version": "v2"
+}
+
+with open(cards_file, "w", encoding="utf-8") as f:
+    json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+print(f"Đã tạo thành công {len(cards)} thẻ Master chuyên sâu cho HS-11 tại:")
+print(f"-> {cards_file}")
