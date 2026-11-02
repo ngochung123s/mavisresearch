@@ -3,6 +3,8 @@
 > Lập ngày 2026-07-15 từ `LESSON_BACKLOG.md`, `_CATALOG.md`, cây thư mục thực tế và `SESSION_LOG_2026-07-06.md`.
 >
 > Phạm vi: Sản Phụ khoa theo nghĩa thực hành, gồm sản khoa, phụ khoa, hỗ trợ sinh sản (ART), siêu âm thai và siêu âm phụ khoa. Đây là **thứ tự làm bài**, không khẳng định các bài cũ đã đạt toàn bộ cổng kiểm tra. Trước khi build bất kỳ bài nào, bắt buộc chạy quy trình trong `WORKFLOW.md`.
+> 
+> 📌 **Ngân hàng khoảng trống & Bộ chọn nhanh:** Xem toàn văn bảng tra cứu chi tiết và hồ sơ lâm sàng tại [`KHOANG_TRONG_SAN_PHU_KHOA_ART.md`](./KHOANG_TRONG_SAN_PHU_KHOA_ART.md).
 
 ## Nguyên tắc xếp ưu tiên
 

@@ -557,43 +557,48 @@ Tsakiridis 2022 (PMID 36053280): Review so sánh ACOG, NICE, RANZCOG, SOGC, FIGO
 
 ## 11. LƯU ĐỒ QUYẾT ĐỊNH LÂM SÀNG
 
-```mermaid
-flowchart TD
-    A["Bệnh nhân đến vì AUB"] --> B{"Có dấu hiệu shock?<br>tụt huyết áp, nhịp nhanh?"}
-    B -->|"Có"| C["Acute AUB protocol:<br>IV access, CBC, type&screen,<br>β-hCG, CEE IV/COC liều cao + TXA"]
-    B -->|"Không"| D["Bệnh sử + khám phụ khoa<br>+ β-hCG + CBC + TVUS"]
-    D --> E{"Tuổi + nguy cơ ung thư?"}
-    E -->|"≥45 tuổi hoặc yếu tố nguy cơ"| F["Endometrial biopsy<br>TRƯỚC khi điều trị hormone"]
-    E -->|"<45, không yếu tố nguy cơ"| G["PALM-COEIN classification"]
-    F --> H{"Kết quả sinh thiết?"}
-    H -->|"Hyperplasia/atypia/cancer"| I["Hysterectomy hoặc<br>chuyên khoa ung thư"]
-    H -->|"Bình thường"| G
-    G --> J{"Nguyên nhân PALM?"}
-    J -->|"Polyp"| K["Hysteroscopic polypectomy"]
-    J -->|"Adenomyosis"| L["LNG-IUS first-line"]
-    J -->|"Leiomyoma"| M["Myomectomy / UAE /<br>GnRH antagonist"]
-    J -->|"Malignancy"| I
-    J -->|"Không PALM"| N{"COEIN?"}
-    N -->|"Coagulopathy"| O["Hematology consult<br>TXA ± desmopressin ± LNG-IUS"]
-    N -->|"Ovulatory dysfunction"| P["COC / progestin cyclic<br>+ điều trị nguyên nhân"]
-    N -->|"Endometrial"| Q["LNG-IUS / TXA / COC"]
-    N -->|"Iatrogenic"| R["Điều chỉnh thuốc / thay IUD"]
-    C --> S{"Cầm máu?"}
-    S -->|"Không"| T["Surgical hemostasis:<br>D&C, hysteroscopy, UAE,<br>hay hysterectomy"]
-    S -->|"Có"| U["Chuyển duy trì:<br>LNG-IUS / COC / progestin"]
-    K --> U
-    L --> U
-    M --> U
-    O --> U
-    P --> U
-    Q --> U
-    R --> U
-    style A fill:#e3f2fd,stroke:#1976d2
-    style C fill:#ffcdd2,stroke:#c2185b
-    style I fill:#ffcdd2,stroke:#c2185b
-    style U fill:#c8e6c9,stroke:#388e3c
-    style F fill:#fff3cd,stroke:#f57c00
+```text
+BỆNH NHÂN ĐẾN VÌ XUẤT HUYẾT TỬ CUNG BẤT THƯỜNG (AUB)
+   │
+   ├─▶ [BƯỚC 1: ĐÁNH GIÁ HUYẾT ĐỘNG & LOẠI TRỪ BIẾN CHỨNG THAI]
+   │     ├─ β-hCG (+) ──▶ BIẾN CHỨNG THAI NGHÉN (Dọa sảy thai, Thai ngoài tử cung, Thai lưu, Chửa trứng)
+   │     └─ Có dấu hiệu sốc mất máu? (Tụt huyết áp, mạch nhanh > 110 bpm, da xanh tái lạnh)
+   │           ├─ [CÓ] ──▶ KÍCH HOẠT ACUTE AUB PROTOCOL:
+   │           │            • 2 đường truyền lớn (16–18G) + Bù dịch tinh thể + Truyền máu nếu Hb < 70 g/L
+   │           │            • Cầm máu: COCs dồn dập (1 viên q6-8h rồi giảm liều) HOẶC CEE 25 mg IV q4-6h
+   │           │            • Chèn bóng Foley buồng tử cung (10–30 mL nước muối) nếu máu tiếp tục chảy xối xả
+   │           └─ [KHÔNG] ─▶ Chuyển sang thăm dò AUB mạn tính (BƯỚC 2)
+   │
+   ├─▶ [BƯỚC 2: TẦM SOÁT NGUY CƠ ÁC TÍNH (UNG THƯ NỘI MẠC TỬ CUNG)]
+   │     ├─ Phụ nữ ≥ 45 tuổi
+   │     ├─ Phụ nữ < 45 tuổi có yếu tố nguy cơ phơi nhiễm estrogen kéo dài (BMI ≥ 30, PCOS, Lynch, Tamoxifen)
+   │     └─ Xuất huyết sau mãn kinh (PMB) có siêu âm TVUS đo ET > 4 mm (hoặc ra máu tái phát)
+   │           │
+   │           ▼
+   │     BẮT BUỘC: SINH THIẾT NỘI MẠC TỬ CUNG (Pipelle ngoại trú hoặc nạo sinh thiết dưới soi buồng TC)
+   │           ├─ Kết quả: Ung thư / Quá sản không điển hình ──▶ CẮT TỬ CUNG TOÀN BỘ HOẶC UNG BƯỚU
+   │           └─ Kết quả: Lành tính / Không quá sản ────────▶ TIẾP TỤC BƯỚC 3
+   │
+   └─▶ [BƯỚC 3: PHÂN LOẠI NGUYÊN NHÂN THEO HỆ THỐNG FIGO PALM-COEIN]
+         │
+         ├─▶ CĂN NGUYÊN CẤU TRÚC (PALM) — Khảo sát bằng TVUS / SIS / Soi buồng tử cung:
+         │     ├─ AUB-P (Polyp nội mạc) ───────▶ Cắt polyp qua nội soi buồng tử cung (Hysteroscopic Polypectomy)
+         │     ├─ AUB-A (Adenomyosis) ─────────▶ Lựa chọn 1: Vòng LNG-IUS (Mirena) / Thuốc mới Relugolix combo
+         │     ├─ AUB-L (U xơ tử cung) ────────▶ Type 0–1: Mổ cắt soi buồng TC; Type 2–5: Relugolix / UAE / Mổ mở
+         │     └─ AUB-M (Ác tính / Quá sản) ──▶ Phẫu thuật cắt tử cung + nạo vét hạch theo chuyên khoa ung thư
+         │
+         └─▶ CĂN NGUYÊN KHÔNG DO CẤU TRÚC (COEIN):
+               ├─ AUB-C (Rối loạn đông máu/vWD) ─▶ Hội chẩn Huyết học + Tranexamic acid + LNG-IUS
+               ├─ AUB-O (Rối loạn rụng trứng/PCOS) ▶ Progestin chu kỳ (ngày 16–25) HOẶC Viên tránh thai kết hợp (COCs)
+               ├─ AUB-E (Rối loạn nội mạc tại chỗ) ▶ Vòng nội tiết LNG-IUS (Mirena) HOẶC Tranexamic acid + NSAIDs
+               ├─ AUB-I (Do thầy thuốc / do thuốc) ▶ Tháo vòng đồng / Đổi thuốc chống đông / Điều chỉnh hormone
+               └─ AUB-N (Khuyết sẹo mổ đẻ Isthmocele) ▶ Cắt gọt mép khuyết sẹo soi buồng TC HOẶC Mổ phục hồi thành sẹo
 ```
+
+### Tóm tắt Lưu đồ Hành động 3 Bước tại Giường bệnh (Pocket Action Checklist):
+1. **Bước 1 (An toàn tính mạng):** Xét nghiệm $\beta$-hCG ngay lập tức để không bỏ sót thai ngoài tử cung vỡ. Bắt mạch, đo huyết áp; nếu tụt huyết áp $\rightarrow$ truyền dịch, truyền máu $\text{Hb} < 70\text{ g/L}$, uống COCs dồn dập và đặt bóng Foley chèn buồng tử cung.
+2. **Bước 2 (Chống bỏ sót ung thư):** Phụ nữ $\ge 45$ tuổi hoặc xuất huyết sau mãn kinh (PMB) $\rightarrow$ Tuyệt đối không cho về với đơn thuốc cầm máu khi chưa làm sinh thiết nội mạc tử cung.
+3. **Bước 3 (Điều trị đích theo PALM-COEIN):** Dùng siêu âm đầu dò âm đạo TVUS + SIS phân loại chính xác tổn thương. Ưu tiên hàng đầu các biện pháp bảo tồn tử cung: Vòng nội tiết **LNG-IUS (Mirena)** cho AUB-E/AUB-A, mổ nội soi buồng tử cung cho Polyp và U xơ dưới niêm mạc Type 0–1.
 
 ---
 

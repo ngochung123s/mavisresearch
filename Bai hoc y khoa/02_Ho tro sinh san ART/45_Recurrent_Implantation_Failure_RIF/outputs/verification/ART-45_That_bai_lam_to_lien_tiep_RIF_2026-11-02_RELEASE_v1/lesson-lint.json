@@ -1,0 +1,23 @@
+{
+  "id": "ART-45",
+  "specialty": "art",
+  "profile": "disease",
+  "lesson": "ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.md",
+  "mode": "hotfix",
+  "summary": {
+    "block": 0,
+    "debt": 1,
+    "warn": 0,
+    "by_code": {
+      "M_MANIFEST": 1
+    }
+  },
+  "issues": [
+    {
+      "code": "M_MANIFEST",
+      "card_id": "lesson.json",
+      "message": "cards_source: không thấy ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.cards.v2.json",
+      "severity": "DEBT"
+    }
+  ]
+}

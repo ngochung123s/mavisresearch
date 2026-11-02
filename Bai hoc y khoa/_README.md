@@ -9,6 +9,7 @@
 ```
 Bai hoc y khoa/
 ├── _CATALOG.md                             ← Bảng tra cứu nhanh folder bài học
+├── KHOANG_TRONG_SAN_PHU_KHOA_ART.md          ← Ngân hàng khoảng trống & Bộ chọn bài SPK / ART
 ├── _CURRICULUM_NOI_KHOA.md                 ← Curriculum Nội khoa người lớn
 ├── 01_San phu khoa/                       ← Sản phụ khoa tổng quát
 │   ├── 01_Lac noi mac tu cung - Endometriosis/

@@ -1,8 +1,8 @@
 # SEARCH_STRATEGY.md — Chiến lược tìm kiếm tài liệu cho bài học Sản Phụ khoa
 
 > **Mục đích:** Mô tả cách tìm tài liệu cho mỗi loại nội dung trong bài học, từ guideline đến kiến thức nền.
-> **Cập nhật:** 2026-07-15 (test thực tế trên 2 chủ đề: sinh non & GDM)
-> **Công cụ:** `C:\Users\THANHANH\.local\bin\biomcp.exe` + web trực tiếp (`read`)
+> **Cập nhật:** 2026-11-02 (Kiểm định thực tế & chuẩn hóa bộ Science Skills Y khoa trên thiết bị: Python 3.13 + uv 0.11.7)
+> **Bộ công cụ chuẩn hóa:** Science Skills CLI (`pubmed-database`, `europepmc`, `clinical-trials`, `openalex`, `medrxiv`, `clinvar`, `ols`) + Web trực tiếp (`read`, `web_search`).
 
 ---
 
@@ -81,37 +81,24 @@ read https://www.nice.org.uk/guidance
 - Nếu guideline đó cũng có PMID → cite cả hai: bản web đầy đủ + PMID để truy xuất
 - Nếu không có guideline nào → ghi nhận và tiếp tục tìm trên PubMed
 
-### Tầng 1: PubMed + Europe PMC (article)
+### Tầng 1: Bộ công cụ Science Skills đã kiểm định thực tế (Verified 2026-11-02)
 
-Đây là tầng tìm article học thuật qua biomcp. **Lưu ý quan trọng về `--source` và `--type`:**
+Hệ thống đã chuẩn hóa và kiểm định thành công bộ CLI y sinh dựa trên `uv` và `Python 3.13`:
 
-| Lệnh | Semantic Scholar? | Phủ được gì? | Trạng thái |
-|---|---|---|---|
-| `search article` (mặc định) | ✅ Có | PubMed + Europe PMC + Semantic Scholar + PubTator3 | ⚠️ S2 rate limit + PubTator3 lỗi → kết quả thiếu |
-| `search article --source pubmed` | ❌ Tắt | Chỉ PubMed | ✅ **Ổn định — khuyến nghị** |
-| `search article --source europepmc` | ❌ Tắt | Chỉ Europe PMC | ✅ **Ổn định — nhanh nhất (~7s)** |
-| `search article --type review` | ❌ Tắt | Chỉ Europe PMC + PubMed | ✅ OK |
-| `search article --type meta-analysis` | ❌ Tắt | Chỉ Europe PMC + PubMed | ✅ OK |
+| Công cụ / Skill | Vị trí script | Chức năng chính | Trạng thái test | Lệnh mẫu chuẩn |
+|---|---|---|:---:|---|
+| **`pubmed-database`** | `~/.agents/skills/pubmed-database/scripts/pubmed_api.py` | Tìm kiếm PubMed, trích xuất Abstract, kiểm tra lỗi chính tả y khoa, linking sinh học | 🟢 PASS (<2s) | `uv run scripts/pubmed_api.py out.json search_pubmed "<query>" --max_results 10` |
+| **`literature-search-europepmc`** | `~/.agents/skills/literature-search-europepmc/scripts/europepmc_api.py` | Lấy PMCID, tải PDF Open Access, lấy full-text XML/text, trích xuất cây trích dẫn | 🟢 PASS (~2.5s) | `uv run scripts/europepmc_api.py search "EXT_ID:<PMID> AND SRC:MED" --output out.json` |
+| **`clinical-trials-database`** | `~/.agents/skills/clinical-trials-database/scripts/clinical_trials_api.py` | Truy vấn ClinicalTrials.gov API v2: đếm trial, lọc theo pha, can thiệp, tiêu chuẩn chọn vào | 🟢 PASS (~2s) | `uv run scripts/clinical_trials_api.py count --condition "<disease>" --intervention "<drug>" --output out.json` |
+| **`literature-search-openalex`** | `~/.agents/skills/literature-search-openalex/scripts/openalex_cli.py` | Tra cứu DOI, đếm số lượt trích dẫn học thuật, phân tích uy tín tạp chí/tác giả | 🟢 PASS (~2s) | `uv run scripts/openalex_cli.py get works "https://doi.org/<DOI>" --select "id,display_name,cited_by_count"` |
+| **`literature-search-biorxiv`** | `~/.agents/skills/literature-search-biorxiv/scripts/search_by_dates.py` | Quét bản thảo tiền ấn phẩm trên medRxiv/bioRxiv theo chuyên ngành hẹp | 🟢 PASS (~12s) | `uv run scripts/search_by_dates.py --server medrxiv --start_date YYYY-MM-DD --end_date YYYY-MM-DD --category obstetrics_and_gynecology` |
+| **`clinvar-database`** | `~/.agents/skills/clinvar-database/scripts/clinvar_api.py` | Kiểm tra phân loại gây bệnh của biến thể gen (Pathogenic, Benign, VUS) | 🟢 PASS (~2s) | `uv run scripts/clinvar_api.py count --query "<GENE>[gene] AND pathogenic[clinsig]" --output out.json` |
+| **`embl-ebi-ols`** | `~/.agents/skills/embl-ebi-ols/scripts/search_ols.py` | Tra cứu định nghĩa bản thể chuẩn quốc tế (Human Disease Ontology DOID, HPO, GO) | 🟢 PASS (~3.5s) | `uv run scripts/search_ols.py --query "<term>" --ontology doid --rows 5 --output out.json` |
 
-→ **Luôn dùng `--source pubmed` hoặc `--source europepmc`** thay vì mặc định. Khi cần lọc, thêm `--type`.
-
----
-
-## Quy trình tìm kiếm chuẩn — 6 bước
-
-> **QUAN TRỌNG (cập nhật 2026-07-19):** Semantic Scholar + PubTator3 trong biomcp
-> hiện không khả dụng (rate limit + HTML error). Để search ổn định, LUÔN thêm
-> `--source pubmed` hoặc `--source europepmc`:
-> ```bash
-> # PubMed only — ổn định nhất, ~15s
-> biomcp search article --source pubmed -d "<disease>" -k "<keywords>" --limit 10
->
-> # Europe PMC only — nhanh hơn (~7s), có fulltext link
-> biomcp search article --source europepmc -d "<disease>" -k "<keywords>" --limit 10
-> ```
-> `biomcp get article <PMID>` hiện KHÔNG hoạt động (lỗi PubTator3).
-> Dùng `python 10_Script Python/fetch_article.py --pmid <PMID>` thay thế.
-
+> ⚠️ **LƯU Ý QUAN TRỌNG:**
+> 1. **Môi trường:** `uv.exe` nằm tại `C:\Users\THANHANH\.local\bin` và `python.exe` tại `C:\Users\THANHANH\AppData\Local\Programs\Python\Python313`. Cả hai đã được thêm vào `User PATH`.
+> 2. **Tránh dùng arXiv cho Y lâm sàng:** `literature-search-arxiv` dễ bị timeout (>300s) do server `export.arxiv.org` nghẽn mạng. Hãy dùng PubMed, Europe PMC và OpenAlex làm trục chính.
+> 3. **Lấy Abstract chuẩn:** Ưu tiên dùng `pubmed_api.py fetch_article_abstracts "<PMID>"` hoặc `fetch_article.py` nội bộ repo.
 ```bash
 # ═══════════════════════════════════════════════════════════════
 # BƯỚC 0: Web trực tiếp — tìm guideline gốc từ xã hội nghề nghiệp

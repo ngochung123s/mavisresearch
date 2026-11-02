@@ -24,6 +24,15 @@ In checklist này ra hoặc copy vào session, check từng mục:
         - Crossref/Retraction Watch kiểm integrity; OpenAlex corroborate identity/topic; official manifest xử lý guideline không PMID.
         - Raw cache immutable + normalized cache + bundle lưu SHA-256/provenance/freshness/license. HTTP 429/5xx/malformed/outage fail-closed, không retry/fallback NCBI.
         - Zero OA/full text không đồng nghĩa bài không tồn tại; existence chỉ từ exact unfiltered metadata record.
+ [ ] **3a. BỘ SCIENCE SKILLS NGHIÊN CỨU Y KHOA ĐÃ KIỂM ĐỊNH (Verified 2026-11-02):**
+       - Tra cứu PMID/Abstract: `pubmed-database` (`scripts/pubmed_api.py search_pubmed` & `fetch_article_abstracts`).
+       - Toàn văn/PDF Open Access & Trích dẫn: `literature-search-europepmc` (`scripts/europepmc_api.py search` & `get_fulltext`).
+       - Thử nghiệm lâm sàng: `clinical-trials-database` (`scripts/clinical_trials_api.py count` & `search`).
+       - Trắc lượng học/DOI: `literature-search-openalex` (`scripts/openalex_cli.py get works`).
+       - Tiền ấn phẩm: `literature-search-biorxiv` (medRxiv theo chuyên ngành).
+       - Di truyền học biến thể: `clinvar-database` (CFTR, FMR1...).
+       - Bản thể học thuật ngữ: `embl-ebi-ols` (DOID, HPO).
+       - Xem chi tiết cú pháp và ví dụ thực tế tại `SEARCH_STRATEGY.md §Tầng 1`.
  [ ] **3b. RESEARCH BRIEF BẮT BUỘC** — tạo từ `RESEARCH_BRIEF_TEMPLATE.md` trước khi viết bài.
        - Khóa `profile`, danh sách `required_gates`, output basename và bộ nguồn; không đổi contract sau research.
        - Mỗi occurrence của claim có một `Claim ID`; nhiều claim dùng cùng PMID vẫn là nhiều đối tượng phải kiểm riêng.
