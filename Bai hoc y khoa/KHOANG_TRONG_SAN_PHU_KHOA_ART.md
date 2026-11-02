@@ -15,7 +15,7 @@
 
 | Chọn | Mã | Mức | Tên chuyên đề (Việt - Anh) | Thư mục dự kiến / Hiện có | Trạng thái |
 |:---:|:---|:---:|:---|:---|:---:|
-| [x] | **ART-GAP-01** | **P0** | Thất bại làm tổ liên tiếp (Recurrent Implantation Failure — RIF) | `02_Ho tro sinh san ART/45_Recurrent_Implantation_Failure_RIF` | ✅ Đã build MD (Chờ APKG) |
+| [x] | **ART-GAP-01** | **P0** | Thất bại làm tổ liên tiếp (Recurrent Implantation Failure — RIF) | `02_Ho tro sinh san ART/45_Recurrent_Implantation_Failure_RIF` | ✅ ĐÃ HOÀN TẤT (MD + APKG) |
 | [ ] | **ART-GAP-02** | **P0** | Phác đồ đối kháng GnRH chuyên sâu (GnRH Antagonist Protocol Mastery) | `02_Ho tro sinh san ART/47_GnRH_Antagonist_Protocol_Mastery` | Chưa có bài riêng |
 | [ ] | **ART-GAP-03** | **P0** | Xử trí Niêm mạc tử cung mỏng & Tối ưu hóa cửa sổ làm tổ trong FET | `02_Ho tro sinh san ART/48_Thin_Endometrium_FET_Optimization` | Chưa có bài riêng |
 | [ ] | **ART-GAP-04** | **P1** | Kỹ thuật Chọc hút noãn (OPU) & Chuyển phôi (ET) dưới hướng dẫn siêu âm | `02_Ho tro sinh san ART/49_OPU_ET_Ultrasound_Guided_Procedures` | Bài mới |
@@ -256,4 +256,4 @@ flowchart LR
 | Ngày cập nhật | Mã bài | Người thực hiện | Deliverables hoàn tất | Trạng thái nghiệm thu |
 |:---:|:---:|:---:|:---|:---:|
 | 2026-11-02 | *Khởi tạo* | System | Tạo bảng tổng hợp khoảng trống & hồ sơ chi tiết | ✅ Sẵn sàng cho chọn bài |
-| 2026-11-02 | **ART-45** | AI Assistant / Dr. Hung | `ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.md`, `lesson.json` | 🟢 Hoàn tất MD chuẩn (Chưa build APKG) |
+| 2026-11-02 | **ART-45** | AI Assistant / Dr. Hung | `ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.md`, `cards.v2.json`, `APKG` | ✅ PUBLISH READY (0 block / 0 debt) |

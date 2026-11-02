@@ -1,0 +1,471 @@
+{
+  "cards": [
+    {
+      "id": "ART45-B0-01",
+      "type": "basic",
+      "section": "B0",
+      "category": "Tổng quan RIF",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Bản chất bệnh học",
+        "Sai lầm thường gặp"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Bản chất bệnh học</b></span> của Thất bại làm tổ liên tiếp (RIF) và <span style=\"color:#ff6b6b\"><b>sai lầm thường gặp</b></span> trong thực hành lâm sàng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bản chất bệnh học:</b> RIF <span style=\"color:#51cf66\"><b>không phải là một bệnh lý độc lập</b></span> mà là một <span style=\"color:#74c0fc\"><b>hiện tượng thứ phát của thụ tinh trong ống nghiệm (ART)</b></span> phản ánh sự tương tác bất đối xứng giữa phôi và niêm mạc tử cung.<br>2) <b>Sai lầm thường gặp:</b> Hội chứng <span style=\"color:#ff6b6b\"><b>\"phải làm một cái gì đó\" (the urge to do something)</b></span> khiến bác sĩ lạm dụng hàng loạt xét nghiệm và can thiệp add-on đắt tiền thiếu bằng chứng (cào niêm mạc, xét nghiệm ERA, truyền lipid, ức chế miễn dịch) thay vì tối ưu chất lượng phôi.<br><br><b>💡 Giải thích của AI:</b><br>Khi thất bại chuyển phôi, phản xạ tự nhiên của bệnh nhân là lo sợ cơ thể đào thải phôi, từ đó ép bác sĩ phải kê thêm thuốc. Bác sĩ cần tỉnh táo phân định giữa thất bại do ngẫu nhiên thống kê và bệnh lý thực thể.",
+      "extra": "📖 Nguồn: ESHRE Working Group on RIF (2023) & Macklon N et al.",
+      "tags": [
+        "ART-45",
+        "B0",
+        "Tong_quan",
+        "Ban_chat_RIF"
+      ]
+    },
+    {
+      "id": "ART45-B1-01",
+      "type": "basic",
+      "section": "B1",
+      "category": "Định nghĩa RIF",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Định nghĩa ESHRE 2023",
+        "Ngưỡng xác suất"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Định nghĩa ESHRE 2023</b></span> về Thất bại làm tổ liên tiếp và <span style=\"color:#ffd43b\"><b>ngưỡng xác suất</b></span> khuyến cáo để bắt đầu thăm dò sâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Định nghĩa ESHRE 2023:</b> RIF là kịch bản trong đó việc chuyển các <span style=\"color:#74c0fc\"><b>phôi có tiềm năng sống (viable embryos)</b></span> thất bại không tạo ra thai lâm sàng đủ nhiều lần ở một bệnh nhân cụ thể để bắt đầu xem xét thăm dò chuyên sâu.<br>2) <b>Ngưỡng xác suất:</b> Ngưỡng xác suất làm tổ tích lũy dự đoán (<span style=\"color:#ffd43b\"><b>cumulative predicted chance of implantation</b></span>) đạt <span style=\"color:#ffd43b\"><b>vượt quá 60%</b></span> mà vẫn beta-hCG âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Khác với định nghĩa cứng nhắc cũ (chuyển ≥ 3 chu kỳ hoặc ≥ 10 phôi), định nghĩa mới tính đến tuổi mẹ và loại phôi. Chuyển 2 phôi nang nguyên bội (euploid) đã đạt xác suất 88% (> 60%) nên được coi là RIF ngay, trong khi chuyển 2 phôi ngày 3 ở phụ nữ 40 tuổi chưa đạt ngưỡng 60% thì chưa phải RIF.",
+      "extra": "📖 Nguồn: ESHRE Good Practice Recommendations on RIF (2023)",
+      "tags": [
+        "ART-45",
+        "B1",
+        "Dinh_nghia_RIF",
+        "Nguong_60_phan_tram"
+      ]
+    },
+    {
+      "id": "ART45-B1-02",
+      "type": "basic",
+      "section": "B1",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Tiêu chuẩn phôi nang Euploid",
+        "Tiêu chuẩn phôi chưa sàng lọc",
+        "Quyết định lâm sàng"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH:</b></span> Phân định thời điểm chẩn đoán RIF theo <span style=\"color:#74c0fc\"><b>tiêu chuẩn phôi nang Euploid</b></span>, <span style=\"color:#ffd43b\"><b>tiêu chuẩn phôi chưa sàng lọc</b></span> và <span style=\"color:#51cf66\"><b>quyết định lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn phôi nang Euploid:</b> Thất bại sau khi chuyển <span style=\"color:#74c0fc\"><b>1 đến 2 phôi nang Euploid</b></span> (đạt ngưỡng ESHRE > 60%) hoặc thất bại sau <span style=\"color:#ff6b6b\"><b>3 phôi nang Euploid</b></span> (đạt ngưỡng Ata 95%).<br>2) <b>Tiêu chuẩn phôi chưa sàng lọc:</b> Phụ nữ dưới 35 tuổi thất bại sau <span style=\"color:#ffd43b\"><b>2 phôi nang</b></span>; phụ nữ 35 đến 39 tuổi thất bại sau <span style=\"color:#ffd43b\"><b>3 phôi nang</b></span>; phụ nữ từ 40 tuổi trở lên chỉ tính RIF khi thất bại sau ít nhất <span style=\"color:#ffd43b\"><b>6 phôi nang</b></span>.<br>3) <b>Quyết định lâm sàng:</b> Nếu xác suất tích lũy ≤ 60% → <span style=\"color:#51cf66\"><b>chuyển phôi tiếp không làm thêm xét nghiệm</b></span>; nếu > 60% → <span style=\"color:#ff6b6b\"><b>dừng chuyển phôi để thăm dò hệ thống 3 trục</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán này bảo vệ bệnh nhân lớn tuổi khỏi việc bị dán nhãn oan là lỗi niêm mạc, giúp tập trung nguồn lực tài chính vào việc gom noãn và sàng lọc phôi.",
+      "extra": "📖 Nguồn: ESHRE Guidelines 2023 & Ata B et al. Hum Reprod 2021",
+      "tags": [
+        "ART-45",
+        "B1",
+        "Thuat_toan",
+        "Phan_dinh_RIF"
+      ]
+    },
+    {
+      "id": "ART45-B2-01",
+      "type": "basic",
+      "section": "B2",
+      "category": "Yếu tố phôi",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Tỷ lệ căn nguyên",
+        "Cơ chế bám dính"
+      ],
+      "front": "<span style=\"color:#ffd43b\"><b>Tỷ lệ căn nguyên</b></span> do phôi trong RIF và <span style=\"color:#74c0fc\"><b>cơ chế bám dính</b></span> bị suy giảm ở phôi lệch bội nhiễm sắc thể?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tỷ lệ căn nguyên:</b> Bất thường di truyền của phôi chiếm <span style=\"color:#ffd43b\"><b>trên 50% nguyên nhân thất bại làm tổ</b></span> trong IVF.<br>2) <b>Cơ chế bám dính:</b> Phôi mang bộ nhiễm sắc thể lệch bội (<span style=\"color:#ff6b6b\"><b>Aneuploidy</b></span>) bị suy giảm biểu hiện các phân tử bám dính bề mặt nguyên bào nuôi như <span style=\"color:#74c0fc\"><b>L-selectin và Integrin αvβ3</b></span> → thất bại liên kết với màng rụng nội mạc và không kích thích được phản ứng màng rụng hóa.<br><br><b>💡 Giải thích của AI:</b><br>Nghiên cứu sinh thiết cho thấy 40-50% phôi nang có hình thái đẹp hoàn hảo (grade AA) ở phụ nữ trên 35 tuổi thực chất là phôi lệch bội.",
+      "extra": "📖 Nguồn: ASRM Committee Opinion (2020) & Cimadomo D et al. (2021)",
+      "tags": [
+        "ART-45",
+        "B2",
+        "Yeu_to_phoi",
+        "Lech_boi_NST"
+      ]
+    },
+    {
+      "id": "ART45-B2-02",
+      "type": "basic",
+      "section": "B2",
+      "category": "Yếu tố nam giới",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Chỉ số đứt gãy DNA",
+        "Thời điểm ảnh hưởng"
+      ],
+      "front": "<span style=\"color:#ffd43b\"><b>Chỉ số đứt gãy DNA tinh trùng</b></span> ngưỡng bệnh lý và <span style=\"color:#74c0fc\"><b>thời điểm ảnh hưởng</b></span> của bộ gen cha mẹ lên phôi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ số đứt gãy DNA tinh trùng:</b> Ngưỡng <span style=\"color:#ffd43b\"><b>DFI lớn hơn 30%</b></span> là bất thường nặng do stress oxy hóa mào tinh hoặc giãn tĩnh mạch thừng tinh.<br>2) <b>Thời điểm ảnh hưởng:</b> Tinh trùng đứt gãy DNA vẫn thụ tinh tạo phôi ngày 1 đến ngày 3 bình thường; nhưng đến <span style=\"color:#ff6b6b\"><b>ngày 3 khi hoạt hóa bộ gen phôi (EGA)</b></span>, các đoạn đứt gãy làm phôi ngừng phân chia hoặc thoái hóa.<br><br><b>💡 Giải thích của AI:</b><br>Nếu chuyển phôi ngày 3 thất bại liên tiếp, bắt buộc phải kiểm tra DFI và Karyotype của người chồng trước khi kết luận lỗi do người vợ.",
+      "extra": "📖 Nguồn: EAU Guidelines on Male Infertility (2026) & ESHRE 2023",
+      "tags": [
+        "ART-45",
+        "B2",
+        "Nam_khoa",
+        "Sperm_DNA_Fragmentation"
+      ]
+    },
+    {
+      "id": "ART45-B3-01",
+      "type": "basic",
+      "section": "B3",
+      "category": "Khảo sát tử cung",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Vai trò soi buồng tử cung",
+        "Bằng chứng lâm sàng"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Vai trò soi buồng tử cung</b></span> chẩn đoán trong RIF và <span style=\"color:#ffd43b\"><b>bằng chứng lâm sàng</b></span> về tỷ lệ sinh sống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vai trò soi buồng tử cung:</b> Là <span style=\"color:#74c0fc\"><b>tiêu chuẩn vàng</b></span> giúp quan sát trực tiếp khoang nội mạc, phát hiện các tổn thương cơ học nhỏ (polyp < 5mm, dải dính buồng tử cung, viêm niêm mạc) mà siêu âm 2D bỏ sót.<br>2) <b>Bằng chứng lâm sàng:</b> Phân tích gộp của Cao et al. (2018) trên 2,247 bệnh nhân RIF chứng minh soi buồng tử cung giúp <span style=\"color:#51cf66\"><b>tăng 29% tỷ lệ sinh sống</b></span> (RR = 1.29; 95% CI: 1.03 - 1.62; P = 0.046).<br><br><b>💡 Giải thích của AI:</b><br>Nội soi buồng tử cung vừa chẩn đoán vừa có thể can thiệp cắt bỏ ngay tổn thương trong cùng một thì thủ thuật.",
+      "extra": "📖 Nguồn: Cao H et al. Reprod Biol Endocrinol 2018 (PMID: 29462371)",
+      "tags": [
+        "ART-45",
+        "B3",
+        "Hysteroscopy",
+        "Soi_buong_tu_cung"
+      ]
+    },
+    {
+      "id": "ART45-B3-02",
+      "type": "basic",
+      "section": "B3",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Phát hiện ứ dịch tai vòi",
+        "Xử trí ngoại khoa bắt buộc"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH:</b></span> Xử trí khi <span style=\"color:#ff6b6b\"><b>phát hiện ứ dịch tai vòi</b></span> (Hydrosalpinx) ở bệnh nhân RIF và <span style=\"color:#51cf66\"><b>xử trí ngoại khoa bắt buộc</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phát hiện ứ dịch tai vòi:</b> Siêu âm TVS thấy khối thuôn dài cạnh tử cung có vách ngăn không hoàn toàn, nếp niêm mạc hình bánh xe răng cưa; dịch ứ trào ngược vào buồng tử cung làm <span style=\"color:#ff6b6b\"><b>giảm 50% tỷ lệ làm tổ</b></span> và tăng gấp đôi tỷ lệ sảy thai.<br>2) <b>Xử trí ngoại khoa bắt buộc:</b> Phẫu thuật nội soi ổ bụng <span style=\"color:#51cf66\"><b>cắt bỏ vòi trứng ứ dịch (Salpingectomy)</b></span> hoặc <span style=\"color:#51cf66\"><b>kẹp clip tắc đoạn kẽ sát góc tử cung</b></span> trước khi thực hiện chu kỳ chuyển phôi tiếp theo (Cochrane: tăng gấp đôi tỷ lệ sinh sống RR 2.14).<br><br><b>💡 Giải thích của AI:</b><br>Tuyệt đối không chọc hút dịch vòi trứng qua ngã âm đạo vì dịch sẽ tái lập chỉ sau vài ngày và làm tăng nguy cơ nhiễm trùng vùng chậu.",
+      "extra": "📖 Nguồn: Cochrane Database Syst Rev (Salpingectomy before IVF) & ESHRE 2023",
+      "tags": [
+        "ART-45",
+        "B3",
+        "Thuat_toan",
+        "Hydrosalpinx",
+        "Cat_voi_trung"
+      ]
+    },
+    {
+      "id": "ART45-B4-01",
+      "type": "basic",
+      "section": "B4",
+      "category": "Viêm nội mạc mạn",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Tiêu chuẩn chẩn đoán",
+        "Dấu ấn miễn dịch"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Tiêu chuẩn chẩn đoán</b></span> Viêm nội mạc tử cung mạn tính (CE) và <span style=\"color:#ffd43b\"><b>dấu ấn miễn dịch</b></span> đặc hiệu trên sinh thiết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn chẩn đoán:</b> Sinh thiết hút nội mạc tử cung bằng ống Pipelle ở pha hoàng thể, phát hiện sự hiện diện bất thường của các <span style=\"color:#ff6b6b\"><b>tương bào (plasma cells)</b></span> thâm nhiễm trong mô đệm nội mạc.<br>2) <b>Dấu ấn miễn dịch:</b> Nhuộm hóa mô miễn dịch đặc hiệu với kháng nguyên <span style=\"color:#ffd43b\"><b>CD138 (Syndecan-1)</b></span>; tiêu chuẩn dương tính khi có từ <span style=\"color:#ffd43b\"><b>1 đến 5 tương bào CD138+</b></span> trên một vi trường năng lượng cao (HPF x400).<br><br><b>💡 Giải thích của AI:</b><br>Viêm nội mạc mạn tính không gây đau bụng rầm rộ hay sốt mà diễn tiến âm thầm, làm biến đổi thụ thể Progesterone khiến nội mạc đề kháng với tín hiệu làm tổ của phôi.",
+      "extra": "📖 Nguồn: ESHRE RIF Guidelines 2023 & Cicinelli E et al. Hum Reprod",
+      "tags": [
+        "ART-45",
+        "B4",
+        "Viem_noi_mac_man",
+        "CD138"
+      ]
+    },
+    {
+      "id": "ART45-B4-02",
+      "type": "basic",
+      "section": "B4",
+      "category": "Điều trị kháng sinh",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Phác đồ tầng 1",
+        "Phác đồ tầng 2"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Phác đồ tầng 1</b></span> và <span style=\"color:#51cf66\"><b>phác đồ tầng 2</b></span> điều trị Viêm nội mạc tử cung mạn tính (CE) có CD138+?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phác đồ tầng 1 (Đầu tay):</b> Uống <span style=\"color:#51cf66\"><b>Doxycycline 100 mg</b></span> x 2 lần/ngày trong <span style=\"color:#ffd43b\"><b>14 ngày liên tục</b></span> (uống sau ăn no, uống cho cả hai vợ chồng).<br>2) <b>Phác đồ tầng 2 (Nếu dai dẳng):</b> Phối hợp <span style=\"color:#51cf66\"><b>Ciprofloxacin 500 mg</b></span> x 2 lần/ngày + <span style=\"color:#51cf66\"><b>Metronidazole 500 mg</b></span> x 2 lần/ngày trong <span style=\"color:#ffd43b\"><b>14 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sau 2 tầng kháng sinh, tỷ lệ làm sạch tương bào mô học đạt trên 90%. Bệnh nhân được điều trị sạch viêm có tỷ lệ mang thai ở chu kỳ sau tương đương với người không viêm.",
+      "extra": "📖 Nguồn: Kitaya K et al. & ESHRE Working Group on RIF (2023)",
+      "tags": [
+        "ART-45",
+        "B4",
+        "Phac_do_khang_sinh",
+        "Doxycycline"
+      ]
+    },
+    {
+      "id": "ART45-B5-01",
+      "type": "basic",
+      "section": "B5",
+      "category": "EBM Add-ons",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Bằng chứng cào niêm mạc",
+        "Khuyến cáo chính thức"
+      ],
+      "front": "<span style=\"color:#ffd43b\"><b>Bằng chứng cào niêm mạc</b></span> tử cung (Endometrial Scratching) từ thử nghiệm PIP trial và <span style=\"color:#ff6b6b\"><b>khuyến cáo chính thức</b></span> của ESHRE?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bằng chứng cào niêm mạc:</b> Thử nghiệm ngẫu nhiên lớn nhất thế giới PIP trial (Lensen et al., NEJM 2019, n = 1,364) chứng minh tỷ lệ sinh sống giữa nhóm cào niêm mạc và nhóm chứng là <span style=\"color:#ffd43b\"><b>26.1% so với 26.1%</b></span> (hoàn toàn không có sự khác biệt).<br>2) <b>Khuyến cáo chính thức:</b> ESHRE 2023 xếp cào niêm mạc vào nhóm <span style=\"color:#ff6b6b\"><b>KHÔNG KHUYẾN CÁO (Not recommended)</b></span>; thủ thuật gây đau, chảy máu và tăng chi phí mà không đem lại lợi ích.<br><br><b>💡 Giải thích của AI:</b><br>Giả thuyết cào niêm mạc gây phản ứng viêm có lợi từng rất thịnh hành nhưng đã bị các thử nghiệm RCT chất lượng cao phủ nhận hoàn toàn.",
+      "extra": "📖 Nguồn: Lensen S et al. N Engl J Med 2019 (PMID: 30673547) & Cochrane 2021",
+      "tags": [
+        "ART-45",
+        "B5",
+        "PIP_trial",
+        "Cao_niem_mac_vo_hieu"
+      ]
+    },
+    {
+      "id": "ART45-B5-02",
+      "type": "basic",
+      "section": "B5",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Thẩm định xét nghiệm ERA",
+        "Quyết định lâm sàng"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH:</b></span> Bằng chứng <span style=\"color:#ffd43b\"><b>thẩm định xét nghiệm ERA</b></span> (Endometrial Receptivity Analysis) và <span style=\"color:#ff6b6b\"><b>quyết định lâm sàng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thẩm định xét nghiệm ERA:</b> Thử nghiệm ngẫu nhiên đa trung tâm của Doyle et al. (JAMA 2022) chứng minh chuyển phôi cá thể hóa theo kết quả ERA <span style=\"color:#ff6b6b\"><b>không làm tăng tỷ lệ sinh sống tích lũy</b></span> so với chuyển phôi chuẩn (<span style=\"color:#ffd43b\"><b>58.5% so với 61.7%</b></span>).<br>2) <b>Quyết định lâm sàng:</b> ESHRE 2023 và ASRM <span style=\"color:#ff6b6b\"><b>KHÔNG KHUYẾN CÁO chỉ định ERA thường quy</b></span> cho bệnh nhân RIF vì tính dao động tự nhiên của cửa sổ làm tổ giữa các chu kỳ.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết ERA làm tốn thêm hàng chục triệu đồng và hoãn chuyển phôi ít nhất 1-2 tháng mà không chứng minh được ưu thế lâm sàng trong các RCT mù đôi.",
+      "extra": "📖 Nguồn: Doyle N et al. JAMA 2022 (PMID: 36472600) & ESHRE 2023",
+      "tags": [
+        "ART-45",
+        "B5",
+        "Thuat_toan",
+        "ERA_test",
+        "Khong_khuyen_cao"
+      ]
+    },
+    {
+      "id": "ART45-B5-03",
+      "type": "basic",
+      "section": "B5",
+      "category": "Miễn dịch học RIF",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Xét nghiệm tế bào uNK",
+        "Liệu pháp ức chế miễn dịch"
+      ],
+      "front": "Bằng chứng về <span style=\"color:#74c0fc\"><b>xét nghiệm tế bào uNK</b></span> tử cung và nguy cơ của <span style=\"color:#ff6b6b\"><b>liệu pháp ức chế miễn dịch</b></span> bừa bãi trong RIF?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm tế bào uNK:</b> Mật độ tế bào Natural Killer tại tử cung biến thiên sinh lý rất lớn giữa các ngày của chu kỳ; chưa có ngưỡng cắt bệnh lý chuẩn; ESHRE 2023 phân loại <span style=\"color:#ff6b6b\"><b>KHÔNG KHUYẾN CÁO xét nghiệm uNK thường quy</b></span>.<br>2) <b>Liệu pháp ức chế miễn dịch:</b> Truyền Intralipid, tiêm Corticoid liều cao, Anti-TNF-alpha không có bằng chứng RCT cải thiện sinh sống mà gây <span style=\"color:#ff6b6b\"><b>suy tủy, nhiễm trùng cơ hội và dị tật thai nhi</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tế bào uNK thực chất đóng vai trò nuôi dưỡng và thúc đẩy tái cấu trúc mạch máu màng rụng; việc tìm cách tiêu diệt uNK bằng thuốc ức chế miễn dịch là sai lầm về sinh lý bệnh.",
+      "extra": "📖 Nguồn: ESHRE RIF Guidelines 2023 & RCOG Scientific Impact Paper",
+      "tags": [
+        "ART-45",
+        "B5",
+        "uNK_cells",
+        "Intralipid",
+        "Canh_bao_an_toan"
+      ]
+    },
+    {
+      "id": "ART45-B6-01",
+      "type": "basic",
+      "section": "B6",
+      "category": "Can thiệp thuốc",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Chỉ định kháng đông",
+        "Nguy cơ khi dùng sai"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Chỉ định kháng đông</b></span> (Aspirin + LMWH) chuẩn trong RIF và <span style=\"color:#ff6b6b\"><b>nguy cơ khi dùng sai</b></span> ở bệnh nhân đông máu bình thường?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định kháng đông:</b> Chỉ có bằng chứng rõ ràng khi bệnh nhân <span style=\"color:#51cf66\"><b>được chẩn đoán xác định Hội chứng kháng phospholipid (APS)</b></span> hoặc tiền sử thuyên tắc huyết khối tĩnh mạch.<br>2) <b>Nguy cơ khi dùng sai:</b> Ở bệnh nhân đông máu bình thường, dùng Heparin/Aspirin bao vây không làm tăng tỷ lệ làm tổ mà <span style=\"color:#ff6b6b\"><b>tăng nguy cơ tụ máu dưới màng đệm và xuất huyết âm đạo 3 tháng đầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bác sĩ không nên cho Enoxaparin dự phòng chỉ vì bệnh nhân thất bại chuyển phôi nếu bilan đông máu và kháng thể APS âm tính.",
+      "extra": "📖 Nguồn: ESHRE Working Group on RIF (2023) & Cochrane Review",
+      "tags": [
+        "ART-45",
+        "B6",
+        "Aspirin",
+        "LMWH",
+        "APS"
+      ]
+    },
+    {
+      "id": "ART45-B6-02",
+      "type": "basic",
+      "section": "B6",
+      "category": "Add-ons sinh học",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Môi trường EmbryoGlue",
+        "Bơm PRP buồng tử cung"
+      ],
+      "front": "Bằng chứng về <span style=\"color:#51cf66\"><b>môi trường EmbryoGlue</b></span> (Hyaluronic Acid) và vị trí của <span style=\"color:#74c0fc\"><b>bơm PRP buồng tử cung</b></span> trong RIF?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Môi trường EmbryoGlue:</b> Cochrane Review chứng minh bổ sung Hyaluronic Acid vào môi trường chuyển phôi giúp <span style=\"color:#51cf66\"><b>tăng nhẹ tỷ lệ sinh sống</b></span> (OR = 1.33; 95% CI: 1.11 - 1.60); ESHRE xếp vào nhóm <span style=\"color:#ffd43b\"><b>Có thể cân nhắc</b></span> vì an toàn và chi phí thấp.<br>2) <b>Bơm PRP buồng tử cung:</b> ESHRE 2023 xếp vào nhóm <span style=\"color:#ff6b6b\"><b>KHÔNG KHUYẾN CÁO thường quy</b></span> do thiếu thử nghiệm RCT quy chuẩn; chỉ được dùng trong nghiên cứu lâm sàng.<br><br><b>💡 Giải thích của AI:</b><br>EmbryoGlue làm tăng độ nhớt giúp cố định giọt phôi tại vị trí chuyển, trong khi PRP tự thân chưa có quy trình ly tâm và định liều tiểu cầu chuẩn hóa.",
+      "extra": "📖 Nguồn: Heymann D et al. Cochrane 2020 & ESHRE RIF Guidelines 2023",
+      "tags": [
+        "ART-45",
+        "B6",
+        "EmbryoGlue",
+        "PRP_buong_tu_cung"
+      ]
+    },
+    {
+      "id": "ART45-B7-01",
+      "type": "basic",
+      "section": "B7",
+      "category": "Phác đồ Adenomyosis",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Phác đồ Ultra-long",
+        "Cơ chế cải thiện"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Phác đồ Ultra-long GnRHa</b></span> cho bệnh nhân RIF có Lạc tuyến cơ tử cung (Adenomyosis) và <span style=\"color:#74c0fc\"><b>cơ chế cải thiện</b></span> làm tổ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phác đồ Ultra-long:</b> Tiêm bắp <span style=\"color:#51cf66\"><b>Goserelin 3.6 mg hoặc Diphereline 3.75 mg</b></span> mỗi 28 ngày, dùng liên tục từ <span style=\"color:#ffd43b\"><b>2 đến 3 tháng (2 đến 3 liều)</b></span> trước khi chuẩn bị niêm mạc chuyển phôi trữ (FET).<br>2) <b>Cơ chế cải thiện:</b> Ức chế trục dưới đồi - tuyến yên làm giảm nồng độ Estrogen về mức mãn kinh → <span style=\"color:#51cf66\"><b>teo nhỏ ổ lạc tuyến, làm mỏng vùng chuyển tiếp JZ</b></span>, dập tắt các cơn co bóp tử cung bất thường và giảm cytokine tiền viêm tại nội mạc.<br><br><b>💡 Giải thích của AI:</b><br>Adenomyosis làm tăng sóng co bóp tử cung ngược chiều đẩy văng phôi ra ngoài; ức chế 3 tháng giúp đưa cơ tử cung về trạng thái yên lặng sinh lý.",
+      "extra": "📖 Nguồn: ESHRE Guidelines 2023 & Park CW et al. Clin Exp Reprod Med",
+      "tags": [
+        "ART-45",
+        "B7",
+        "Ultra_long_GnRHa",
+        "Adenomyosis"
+      ]
+    },
+    {
+      "id": "ART45-B7-02",
+      "type": "basic",
+      "section": "B7",
+      "category": "Kỹ thuật chuyển phôi",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Vị trí đặt phôi",
+        "Yếu tố kỹ thuật chuẩn"
+      ],
+      "front": "<span style=\"color:#ffd43b\"><b>Vị trí đặt phôi lý tưởng</b></span> cách đáy tử cung và các <span style=\"color:#51cf66\"><b>yếu tố kỹ thuật chuẩn</b></span> trong thủ thuật chuyển phôi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vị trí đặt phôi lý tưởng:</b> Đặt giọt môi trường chứa phôi ở vị trí cách đáy buồng tử cung <span style=\"color:#ffd43b\"><b>từ 10 đến 15 mm</b></span> (chuyển quá sát đáy < 5 mm kích thích co thắt cơ tử cung tống xuất phôi).<br>2) <b>Yếu tố kỹ thuật chuẩn:</b> Bắt buộc thực hiện <span style=\"color:#51cf66\"><b>dưới hướng dẫn siêu âm ngã bụng</b></span>, bàng quang căng vừa để nắn thẳng góc tử cung, <span style=\"color:#51cf66\"><b>lau sạch nhầy cổ tử cung</b></span> bằng tăm bông, bơm chậm và kiểm tra catheter không dính phôi sót.<br><br><b>💡 Giải thích của AI:</b><br>Chuyển phôi chạm đáy gây xuất huyết vi thể và co thắt tử cung là một trong những nguyên nhân cơ học gây thất bại làm tổ thường bị bỏ qua nhất.",
+      "extra": "📖 Nguồn: ESHRE Good Practice Guide on Embryo Transfer & ASRM Guidelines",
+      "tags": [
+        "ART-45",
+        "B7",
+        "Ky_thuat_chuyen_phoi",
+        "US_guided_ET"
+      ]
+    },
+    {
+      "id": "ART45-B8-01",
+      "type": "basic",
+      "section": "B8",
+      "category": "Ca lâm sàng",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Nhận định sai lầm",
+        "Chiến lược đúng"
+      ],
+      "front": "Phụ nữ 39 tuổi thất bại 2 lần FET (tổng cộng 4 phôi nang BB chưa PGT-A): <span style=\"color:#ff6b6b\"><b>Nhận định sai lầm</b></span> khi vội chỉ định ERA/cào niêm mạc và <span style=\"color:#51cf66\"><b>chiến lược đúng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhận định sai lầm:</b> Cho rằng niêm mạc bị lỗi và tốn 40-50 triệu làm ERA, cào niêm mạc; thực tế ở tuổi 39, tỷ lệ phôi lệch bội lên tới 70%, xác suất cả 4 phôi đều bất thường di truyền là <span style=\"color:#ffd43b\"><b>khoảng 24% (đơn thuần do phôi)</b></span>.<br>2) <b>Chiến lược đúng:</b> Dành ngân sách gom noãn chu kỳ mới và <span style=\"color:#51cf66\"><b>thực hiện sinh thiết PGT-A</b></span> để chọn phôi nguyên bội (Euploid); chuyển đơn phôi Euploid đạt tỷ lệ thành công ≥ 60%.<br><br><b>💡 Giải thích của AI:</b><br>Bác sĩ cần dũng cảm giải thích với bệnh nhân rằng nguyên nhân chính là đồng hồ sinh học của noãn chứ không phải buồng tử cung thù địch.",
+      "extra": "📖 Nguồn: ESHRE RIF Working Group (2023) Case Discussion",
+      "tags": [
+        "ART-45",
+        "B8",
+        "Case_study",
+        "Phu_nu_lon_tuoi",
+        "PGT_A"
+      ]
+    },
+    {
+      "id": "ART45-B8-02",
+      "type": "basic",
+      "section": "B8",
+      "category": "Thuật toán quyết định",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Đánh giá thất bại Euploid",
+        "Các bước xử trí đích"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>⚡ THUẬT TOÁN QUYẾT ĐỊNH:</b></span> <span style=\"color:#ff6b6b\"><b>Đánh giá thất bại Euploid</b></span> sau 2 lần chuyển phôi nang nguyên bội và <span style=\"color:#51cf66\"><b>các bước xử trí đích</b></span> trước phôi cuối?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đánh giá thất bại Euploid:</b> Thất bại 2 phôi Euploid là <span style=\"color:#ff6b6b\"><b>RIF thực thụ do yếu tố tử cung/làm tổ</b></span> (xác suất tích lũy kỳ vọng đạt gần 90%); bắt buộc tạm dừng chuyển phôi thứ 3.<br>2) <b>Các bước xử trí đích:</b><br>• Bước 1: <span style=\"color:#51cf66\"><b>Nội soi buồng tử cung</b></span> kết hợp <span style=\"color:#51cf66\"><b>sinh thiết nhuộm CD138</b></span> tìm Viêm nội mạc mạn (CE) → điều trị Doxycycline nếu dương tính.<br>• Bước 2: Kiểm tra <span style=\"color:#74c0fc\"><b>bilan kháng thể APS</b></span> (LA, aCL, aβ2GPI) loại trừ hội chứng kháng phospholipid.<br>• Bước 3: Đảm bảo kỹ thuật chuyển phôi dưới siêu âm và nồng độ Progesterone máu ngày FET đạt chuẩn (> 10 ng/mL).<br><br><b>💡 Giải thích của AI:</b><br>Với phôi Euploid, căn nguyên chuyển dịch hẳn từ giao tử sang môi trường tiếp nhận của buồng tử cung.",
+      "extra": "📖 Nguồn: ESHRE Good Practice Recommendations on RIF 2023",
+      "tags": [
+        "ART-45",
+        "B8",
+        "Thuat_toan",
+        "That_bai_Euploid"
+      ]
+    },
+    {
+      "id": "ART45-B9-01",
+      "type": "basic",
+      "section": "B9",
+      "category": "Tư vấn tâm lý",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Liệu pháp thống kê tích lũy",
+        "Chiến lược Multi-cycle"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Liệu pháp thống kê tích lũy</b></span> giải tỏa lo âu cho bệnh nhân RIF và <span style=\"color:#74c0fc\"><b>chiến lược Multi-cycle</b></span> trong tư vấn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liệu pháp thống kê tích lũy:</b> Cung cấp số liệu EBM khách quan: Dù thất bại 2-3 chu kỳ trước, nếu tiếp tục chuyển phôi tiềm năng ở chu kỳ tới, <span style=\"color:#51cf66\"><b>tỷ lệ sinh sống tích lũy sau 2-3 lần tiếp vẫn đạt từ 50% đến 60%</b></span> mà không cần add-on đắt tiền.<br>2) <b>Chiến lược Multi-cycle:</b> Đồng hành theo kế hoạch dài hạn (ngân hàng phôi tích lũy để chuyển nhiều lần), xem mỗi lần chuyển là một phần của quy trình, tránh áp lực tâm lý dồn vào một lần chuyển duy nhất.<br><br><b>💡 Giải thích của AI:</b><br>Sự giải tỏa tâm lý giúp giảm hormone cortisol stress, cải thiện tuần hoàn chậu và nâng cao sự tuân thủ điều trị của cặp vợ chồng.",
+      "extra": "📖 Nguồn: ESHRE Patient Care and Counselling Guidelines (2023)",
+      "tags": [
+        "ART-45",
+        "B9",
+        "Tu_van_tam_ly",
+        "Multi_cycle"
+      ]
+    },
+    {
+      "id": "ART45-B9-02",
+      "type": "basic",
+      "section": "B9",
+      "category": "Bẫy lâm sàng",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Bẫy hình thái phôi",
+        "Bẫy bỏ quên nam giới"
+      ],
+      "front": "<span style=\"color:#ff6b6b\"><b>Bẫy hình thái phôi</b></span> đẹp trong RIF và <span style=\"color:#ff6b6b\"><b>bẫy bỏ quên nam giới</b></span> trong quy trình workup?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bẫy hình thái phôi:</b> Ngộ nhận phôi nở nang độ 1 (<span style=\"color:#ffd43b\"><b>grade AA</b></span>) là phôi bình thường; thực tế hình thái không phản ánh được bộ nhiễm sắc thể, dẫn đến việc <span style=\"color:#ff6b6b\"><b>đổ lỗi oan cho niêm mạc tử cung</b></span>.<br>2) <b>Bẫy bỏ quên nam giới:</b> Chỉ tập trung làm xét nghiệm xâm lấn trên người vợ mà quên kiểm tra <span style=\"color:#74c0fc\"><b>Karyotype và chỉ số đứt gãy DNA tinh trùng (SDF)</b></span> của người chồng.<br><br><b>💡 Giải thích của AI:</b><br>Thụ tinh trong ống nghiệm là sự phối hợp của cả hai giao tử; đánh giá RIF bắt buộc phải tiến hành song song trên cả hai vợ chồng.",
+      "extra": "📖 Nguồn: ESHRE Working Group on RIF (2023) Misconceptions",
+      "tags": [
+        "ART-45",
+        "B9",
+        "Bay_lam_sang",
+        "Karyotype",
+        "SDF"
+      ]
+    }
+  ]
+}
