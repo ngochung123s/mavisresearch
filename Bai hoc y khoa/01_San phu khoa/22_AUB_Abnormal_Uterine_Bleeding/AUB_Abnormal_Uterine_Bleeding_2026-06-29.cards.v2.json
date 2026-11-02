@@ -9,386 +9,530 @@
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Cấu trúc 2 lớp của <span style=\"color:#74c0fc\"><b>nội mạc tử cung</b></span> và cơ chế khởi phát kinh nguyệt của trục HPO?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lớp đáy (Basalis)</b> — Lớp cố định sâu, không bị bong tróc khi hành kinh; giữ nhiệm vụ <span style=\"color:#51cf66\"><b>tái tạo lại toàn bộ lớp chức năng</b></span> sau mỗi chu kỳ.<br>2) <b>Lớp chức năng (Functionalis)</b> — Chịu ảnh hưởng trực tiếp của hormone buồng trứng; tăng sinh dưới tác động của Estrogen và chế tiết dưới tác động của Progesterone.<br>3) <b>Tín hiệu khởi động kinh nguyệt</b> — Hiện tượng thoái hóa hoàng thể làm <span style=\"color:#ff6b6b\"><b>sụt giảm đột ngột Progesterone (Progesterone withdrawal)</b></span> kích hoạt giải phóng enzym MMPs phá vỡ mô liên kết và vỡ động mạch xoắn.<br><br><b>💡 Giải thích của AI:</b><br>Nếu không có phóng noãn (AUB-O), nội mạc bị Estrogen kích thích đơn độc kéo dài không có Progesterone đối kháng sẽ tăng sinh quá dày và bong tróc nham nhở không đồng bộ gây rong kinh kéo dài.",
+      "asks": [
+        "Lớp cấu trúc",
+        "Tín hiệu khởi động"
+      ],
+      "front": "Cấu trúc 2 <span style=\"color:#74c0fc\"><b>lớp cấu trúc</b></span> của nội mạc tử cung và <span style=\"color:#ffd43b\"><b>tín hiệu khởi động</b></span> kinh nguyệt của trục HPO?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lớp cấu trúc:</b> Lớp đáy (<span style=\"color:#51cf66\"><b>Basalis</b></span>) cố định sâu không bong giúp tái tạo nội mạc; lớp chức năng (<span style=\"color:#74c0fc\"><b>Functionalis</b></span>) tăng sinh và bong tróc theo chu kỳ hormone.<br>2) <b>Tín hiệu khởi động:</b> Hiện tượng thoái hóa hoàng thể gây sụt giảm đột ngột <span style=\"color:#ff6b6b\"><b>Progesterone withdrawal</b></span> kích hoạt giải phóng enzym MMPs phá hủy mô liên kết.<br><br><b>💡 Giải thích của AI:</b><br>Nếu không có rụng trứng (AUB-O), nồng độ Estrogen cao liên tục không có Progesterone đối kháng sẽ làm nội mạc tăng sinh quá mức và bong tróc nham nhở không đồng bộ.",
       "extra": "📖 Nguồn: FIGO Menstrual Disorders Committee & Yen & Jaffe's Reproductive Endocrinology",
       "tags": [
         "OB-22",
-        "Sinh_ly_kinh_nguyet",
-        "Basalis",
-        "Functionalis"
+        "B0",
+        "Sinh_ly_kinh_nguyet"
       ]
     },
     {
       "id": "OB22-B0-02",
       "type": "basic",
       "section": "B0",
-      "category": "Cơ chế cầm máu nội mạc",
-      "tier": 1,
+      "category": "Cơ chế phân tử",
+      "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "<span style=\"color:#74c0fc\"><b>4 cơ chế cầm máu nội mạc tử cung</b></span> tự nhiên và giải thích vì sao Tranexamic acid có hiệu quả cao?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Co mạch</b> — Động mạch xoắn co thắt mạnh mẽ nhờ chất co mạch tại chỗ <span style=\"color:#51cf66\"><b>Prostaglandin F2α (PGF2α)</b></span> và Endothelin-1.<br>2) <b>Huyết khối tại chỗ</b> — Tiểu cầu ngưng tập và hình thành lưới Fibrin bịt kín các mao mạch vỡ.<br>3) <b>Tái lập biểu mô</b> — Tế bào biểu mô từ lớp đáy di chuyển nhanh chóng phủ kín lòng tử cung trong vài ngày.<br>4) <b>Cân bằng tiêu sợi huyết</b> — Ức chế plasminogen (PAI-1); ở bệnh nhân HMB, enzym tiêu sợi huyết tPA tăng cao làm tan cục máu đông quá sớm → <span style=\"color:#51cf66\"><b>Tranexamic acid ức chế plasminogen</b></span> giúp bảo tồn cục máu đông giảm 40–60% lượng máu mất.<br><br><b>💡 Giải thích của AI:</b><br>Mọi rối loạn ở 1 trong 4 khâu trên (thiếu PGF2α, rối loạn đông máu, hoặc diện bóc tách quá rộng do u xơ) đều dẫn đến xuất huyết tử cung bất thường kéo dài.",
-      "extra": "📖 Nguồn: Fraser IS et al. Endocrine Reviews & ACOG PB 128",
+      "asks": [
+        "Enzyme thoái hóa",
+        "Dòng thác viêm"
+      ],
+      "front": "Vai trò của <span style=\"color:#74c0fc\"><b>enzyme thoái hóa</b></span> MMPs và <span style=\"color:#ff6b6b\"><b>dòng thác viêm</b></span> trong cơ chế hành kinh tự nhiên?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Enzyme thoái hóa:</b> Sự tụt giảm progesterone kích hoạt giải phóng ồ ạt <span style=\"color:#74c0fc\"><b>MMP-1, MMP-2, MMP-3 và MMP-9</b></span> tiêu hủy chọn lọc collagen và chất nền ngoại bào màng đáy mao mạch.<br>2) <b>Dòng thác viêm:</b> Tế bào đệm giải phóng các cytokine tiền viêm (<span style=\"color:#ff6b6b\"><b>TNF-α, IL-8</b></span>) thu hút bạch cầu đa nhân trung tính gây hoại tử thiếu máu và bong tróc kinh nguyệt đồng bộ.<br><br><b>💡 Giải thích của AI:</b><br>Hiểu rõ cơ chế MMPs giải thích vì sao phản ứng viêm tại chỗ là điều kiện bắt buộc để nội mạc bong sạch hoàn toàn trong kỳ kinh.",
+      "extra": "📖 Nguồn: Salamonsen LA et al. Best Pract Res Clin Obstet Gynaecol",
       "tags": [
         "OB-22",
-        "Cam_mau_noi_mac",
-        "Tranexamic_acid",
-        "PGF2a"
+        "B0",
+        "MMPs",
+        "Bong_niem_mac"
       ]
     },
     {
       "id": "OB22-B1-01",
       "type": "basic",
       "section": "B1",
-      "category": "Định nghĩa FIGO",
+      "category": "Cơ chế cầm máu",
       "tier": 1,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Tiêu chuẩn chu kỳ kinh nguyệt bình thường và định nghĩa <span style=\"color:#74c0fc\"><b>AUB, HMB, IMB</b></span> theo FIGO?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chu kỳ bình thường</b> — Tần suất <span style=\"color:#ffd43b\"><b>24 – 38 ngày</b></span>; thời gian hành kinh <span style=\"color:#ffd43b\"><b>≤ 8 ngày</b></span>; độ dài thay đổi giữa các chu kỳ <span style=\"color:#ffd43b\"><b>< 7 – 9 ngày</b></span>.<br>2) <b>AUB (Abnormal Uterine Bleeding)</b> — Xuất huyết từ buồng tử cung bất thường về tần suất, thời gian, lượng máu hoặc thời điểm, không liên quan đến thai kỳ.<br>3) <b>HMB (Heavy Menstrual Bleeding)</b> — Lượng máu kinh nhiều ảnh hưởng thể chất, tinh thần hoặc chất lượng sống (thang điểm PBAC <span style=\"color:#ffd43b\"><b>≥ 100 điểm</b></span>).<br>4) <b>IMB (Intermenstrual Bleeding)</b> — Ra máu giữa chu kỳ kinh tự nhiên.<br><br><b>💡 Giải thích của AI:</b><br>FIGO đã khuyến cáo khai tử các thuật ngữ mơ hồ cổ điển như \"rong kinh\" (menorrhagia), \"rong huyết\" (metrorrhagia) và \"chảy máu cơ năng\" (DUB) để dùng hệ thống phân loại chuẩn hóa quốc tế.",
-      "extra": "📖 Nguồn: Munro MG et al. FIGO Menstrual Disorders Working Group 2011/2018",
+      "asks": [
+        "Cơ chế co mạch",
+        "Cơ chế tiêu sợi huyết"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Cơ chế co mạch</b></span> tự nhiên tại nội mạc và <span style=\"color:#51cf66\"><b>cơ chế tiêu sợi huyết</b></span> giải thích tác dụng của Tranexamic acid?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế co mạch:</b> Động mạch xoắn co thắt cực mạnh nhờ chất co mạch tại chỗ <span style=\"color:#51cf66\"><b>Prostaglandin F2α (PGF2α)</b></span> và Endothelin-1 giúp giảm lưu lượng máu tức thì.<br>2) <b>Cơ chế tiêu sợi huyết:</b> Ở bệnh nhân HMB, nồng độ enzym tPA tăng cao làm tan cục máu đông quá sớm; <span style=\"color:#51cf66\"><b>Tranexamic acid ức chế plasminogen</b></span> giúp bảo tồn lưới Fibrin giảm 40–60% lượng máu mất.<br><br><b>💡 Giải thích của AI:</b><br>Sự kết hợp giữa co mạch và ổn định mạng lưới Fibrin là 2 yếu tố then chốt quyết định khả năng tự cầm máu của buồng tử cung.",
+      "extra": "📖 Nguồn: Fraser IS et al. Endocrine Reviews & ACOG PB 128",
       "tags": [
         "OB-22",
-        "Dinh_nghia_FIGO",
-        "AUB",
-        "HMB",
-        "PBAC"
+        "B1",
+        "PGF2a",
+        "Tranexamic_acid"
       ]
     },
     {
       "id": "OB22-B2-01",
       "type": "basic",
       "section": "B2",
-      "category": "Nhóm PALM",
+      "category": "Định nghĩa FIGO",
       "tier": 1,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Các thành tố trong nhóm nguyên nhân cấu trúc <span style=\"color:#74c0fc\"><b>PALM</b></span> theo hệ thống phân loại FIGO?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>P (Polyp)</b> — Polyp nội mạc tử cung hoặc polyp cổ tử cung; chẩn đoán tốt nhất bằng siêu âm bơm nước buồng tử cung (SIS) hoặc soi buồng tử cung.<br>2) <b>A (Adenomyosis)</b> — Lạc nội mạc trong cơ tử cung; tử cung to hình cầu mềm đau, vùng tiếp giáp (junctional zone) dày <span style=\"color:#ffd43b\"><b>> 12 mm</b></span>.<br>3) <b>L (Leiomyoma)</b> — U xơ tử cung; chia 2 tầng: dưới niêm mạc (SM) và các type khác (O).<br>4) <b>M (Malignancy & Hyperplasia)</b> — Quá sản nội mạc tử cung có hoặc không điển hình, và ung thư biểu mô nội mạc tử cung.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm PALM là các tổn thương thực thể có thể quan sát trực tiếp trên chẩn đoán hình ảnh (siêu âm TVUS, MRI) hoặc giải phẫu bệnh học.",
-      "extra": "📖 Nguồn: Munro MG et al. Int J Gynaecol Obstet 2018 (FIGO 2018)",
+      "asks": [
+        "Thông số chu kỳ",
+        "Định nghĩa HMB"
+      ],
+      "front": "Các <span style=\"color:#ffd43b\"><b>thông số chu kỳ</b></span> bình thường và <span style=\"color:#74c0fc\"><b>định nghĩa HMB</b></span> theo FIGO System 1?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thông số chu kỳ:</b> Tần suất <span style=\"color:#ffd43b\"><b>24 – 38 ngày</b></span>; thời gian hành kinh <span style=\"color:#ffd43b\"><b>≤ 8 ngày</b></span>; biến thiên chu kỳ <span style=\"color:#ffd43b\"><b>< 7 – 9 ngày</b></span>.<br>2) <b>Định nghĩa HMB:</b> Lượng máu kinh nhiều gây ảnh hưởng thể chất, cảm xúc, hoặc sinh hoạt hàng ngày; tương đương điểm PBAC <span style=\"color:#ff6b6b\"><b>≥ 100 điểm</b></span> (hoặc lượng máu mất thực tế > 80 mL).<br><br><b>💡 Giải thích của AI:</b><br>FIGO System 1 chuẩn hóa các định nghĩa quốc tế để thay thế hoàn toàn các từ ngữ không rõ ràng như menorrhagia hay metrorrhagia.",
+      "extra": "📖 Nguồn: Munro MG et al. FIGO System 1 (2018 Update)",
       "tags": [
         "OB-22",
-        "PALM",
-        "FIGO_2018",
-        "Cau_truc"
-      ]
-    },
-    {
-      "id": "OB22-B2-02",
-      "type": "basic",
-      "section": "B2",
-      "category": "U xơ tử cung FIGO",
-      "tier": 1,
-      "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>PHÂN LOẠI & QUYẾT ĐỊNH MỔ:</b> Hệ thống phân loại U xơ tử cung <span style=\"color:#74c0fc\"><b>FIGO 2018 (Type 0 đến 8)</b></span> và chỉ định mổ soi buồng tử cung?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nhóm dưới niêm mạc (SM)</b> — <span style=\"color:#51cf66\"><b>Type 0</b></span> (có cuống hoàn toàn trong buồng); <span style=\"color:#51cf66\"><b>Type 1</b></span> (trong buồng > 50%); <span style=\"color:#ffd43b\"><b>Type 2</b></span> (trong cơ ≥ 50%).<br>2) <b>Nhóm khác (O)</b> — Type 3 (trong cơ tiếp xúc nội mạc); Type 4 (trong cơ 100%); Type 5 (dưới thanh mạc ăn sâu ≥ 50%); Type 6 (dưới thanh mạc < 50%); Type 7 (có cuống ngoài thanh mạc); Type 8 (vị trí đặc biệt).<br>3) <b>Chỉ định mổ soi buồng tử cung</b> — <span style=\"color:#51cf66\"><b>Type 0 và Type 1</b></span> mổ cắt qua nội soi buồng tử cung (Hysteroscopy) cực kỳ thuận lợi; Type 2 cần phẫu thuật viên kinh nghiệm hoặc mổ 2 thì.<br><br><b>💡 Giải thích của AI:</b><br>U xơ lai ghép (Hybrid leiomyoma Type 2–5) xuyên qua toàn bộ thành cơ tử cung, vừa lồi vào lòng buồng vừa lồi ra dưới thanh mạc.",
-      "extra": "📖 Nguồn: Munro MG et al. FIGO 2018 Classification System for Causes of AUB",
-      "tags": [
-        "OB-22",
-        "U_xo_tu_cung",
-        "FIGO_Type",
-        "Hysteroscopy"
+        "B2",
+        "FIGO_System_1",
+        "PBAC"
       ]
     },
     {
       "id": "OB22-B3-01",
       "type": "basic",
       "section": "B3",
-      "category": "Nhóm COEIN",
+      "category": "Nhóm PALM",
       "tier": 1,
       "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Các nguyên nhân không do tổn thương cấu trúc <span style=\"color:#74c0fc\"><b>COEIN</b></span> trong phân loại FIGO?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>C (Coagulopathy)</b> — Rối loạn đông máu toàn thân (<span style=\"color:#ff6b6b\"><b>bệnh von Willebrand</b></span>, giảm tiểu cầu, suy gan).<br>2) <b>O (Ovulatory dysfunction)</b> — Rối loạn phóng noãn (<span style=\"color:#74c0fc\"><b>PCOS</b></span>, trục HPO vị thành niên, suy buồng trứng tiền mãn kinh, bệnh tuyến giáp).<br>3) <b>E (Endometrial)</b> — Rối loạn cầm máu nguyên phát tại nội mạc (<span style=\"color:#51cf66\"><b>tăng tiêu sợi huyết tPA</b></span>, mất cân bằng prostaglandin).<br>4) <b>I (Iatrogenic)</b> — Do can thiệp y khoa (<span style=\"color:#ff6b6b\"><b>vòng tránh thai chứa đồng</b></span>, thuốc chống đông máu, thuốc chống loạn thần làm tăng prolactin).<br>5) <b>N (Not yet classified)</b> — Dị dạng động tĩnh mạch (<span style=\"color:#74c0fc\"><b>AVM</b></span>), khuyết sẹo mổ đẻ (isthmocele).<br><br><b>💡 Giải thích của AI:</b><br>Nhóm COEIN không thể nhìn thấy bằng mắt thường trên siêu âm hay đại thể mà đòi hỏi xét nghiệm huyết học, nội tiết và khai thác kỹ tiền sử dùng thuốc.",
-      "extra": "📖 Nguồn: Munro MG et al. FIGO 2018 System 1 & 2",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Bốn nhóm tổn thương",
+        "Phân loại u xơ"
+      ],
+      "front": "⚡ <b>THUẬT TOÁN PALM:</b> <span style=\"color:#74c0fc\"><b>Bốn nhóm tổn thương</b></span> cấu trúc PALM và <span style=\"color:#51cf66\"><b>phân loại u xơ</b></span> dưới niêm mạc theo FIGO?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bốn nhóm tổn thương:</b> <span style=\"color:#74c0fc\"><b>P (Polyp)</b></span>, <span style=\"color:#74c0fc\"><b>A (Adenomyosis)</b></span>, <span style=\"color:#74c0fc\"><b>L (Leiomyoma)</b></span> và <span style=\"color:#ff6b6b\"><b>M (Malignancy & Hyperplasia)</b></span>.<br>2) <b>Phân loại u xơ:</b> Dưới niêm mạc chia 3 phân nhóm: <span style=\"color:#51cf66\"><b>Type 0</b></span> (có cuống hoàn toàn trong lòng buồng), <span style=\"color:#51cf66\"><b>Type 1</b></span> (trong buồng > 50%), và <span style=\"color:#ffd43b\"><b>Type 2</b></span> (trong cơ ≥ 50%).<br><br><b>💡 Giải thích của AI:</b><br>U xơ Type 0 và Type 1 là chỉ định phẫu thuật cắt u xơ qua nội soi buồng tử cung (Hysteroscopic Myomectomy) lý tưởng nhất.",
+      "extra": "📖 Nguồn: Munro MG et al. FIGO 2018 System 2 & ACOG PB 128",
       "tags": [
         "OB-22",
-        "COEIN",
-        "FIGO_2018",
-        "Phi_cau_truc"
+        "B3",
+        "PALM",
+        "U_xo_FIGO"
       ]
     },
     {
       "id": "OB22-B3-02",
       "type": "basic",
       "section": "B3",
-      "category": "AUB do đông máu (AUB-C)",
+      "category": "Adenomyosis",
       "tier": 2,
       "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>BẪY VỊ THÀNH NIÊN:</b> Tỷ lệ và dấu hiệu nghi ngờ <span style=\"color:#ff6b6b\"><b>Bệnh von Willebrand (vWD)</b></span> ở trẻ gái bị ra máu kinh nhiều (HMB)?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tỷ lệ mắc</b> — Chiếm tới <span style=\"color:#ffd43b\"><b>13 – 20%</b></span> các trường hợp trẻ vị thành niên nhập viện vì HMB nặng ngay từ những kỳ kinh đầu.<br>2) <b>Dấu hiệu chỉ điểm</b> — Ra máu kinh xối xả ngay từ kỳ kinh đầu tiên (menarche); tiền sử hay chảy máu cam kéo dài, chảy máu chân răng, bầm tím tự nhiên dưới da, hoặc chảy máu kéo dài sau nhổ răng.<br>3) <b>Bộ xét nghiệm tầm soát</b> — Công thức máu, PT, aPTT, Fibrinogen, xét nghiệm kháng nguyên yếu tố von Willebrand (<span style=\"color:#51cf66\"><b>vWF:Ag</b></span>), hoạt tính vWF (<span style=\"color:#51cf66\"><b>vWF:RCo</b></span>) và Yếu tố VIII.<br><br><b>💡 Giải thích của AI:</b><br>Nếu không tầm soát vWD mà chỉ quy kết cho trục HPO chưa hoàn thiện, người bệnh có thể bị thiếu máu nặng nguy hiểm tính mạng và xử trí nội tiết đơn thuần kém hiệu quả.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 785 · Screening for Hemostatic Disorders",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Tiêu chuẩn chẩn đoán",
+        "Xử trí hàng đầu"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Tiêu chuẩn chẩn đoán</b></span> hình ảnh Adenomyosis (AUB-A) và <span style=\"color:#51cf66\"><b>xử trí hàng đầu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn chẩn đoán:</b> Siêu âm TVUS thấy bóng cản quạt xòe (<span style=\"color:#74c0fc\"><b>fan-shaped shadowing</b></span>), nang nhỏ trong cơ; tiêu chuẩn vàng MRI có bề dày vùng tiếp giáp (JZ) <span style=\"color:#ff6b6b\"><b>> 12 mm</b></span>.<br>2) <b>Xử trí hàng đầu:</b> Vòng đặt tử cung giải phóng Levonorgestrel (<span style=\"color:#51cf66\"><b>LNG-IUS / Mirena</b></span>) làm teo mô nội mạc lạc chỗ và giảm đau bụng kinh.<br><br><b>💡 Giải thích của AI:</b><br>Adenomyosis phá vỡ cấu trúc cơ tử cung vùng tiếp giáp khiến các sợi cơ không thể co thắt bịt kín động mạch xoắn gây kinh nhiều ồ ạt.",
+      "extra": "📖 Nguồn: MUSA Group Consensus & NICE NG88",
       "tags": [
         "OB-22",
-        "von_Willebrand",
-        "AUB_C",
-        "Vi_thanh_nien"
+        "B3",
+        "Adenomyosis",
+        "LNG_IUS"
       ]
     },
     {
       "id": "OB22-B4-01",
       "type": "basic",
       "section": "B4",
-      "category": "Cận lâm sàng AUB",
+      "category": "Nhóm COEIN",
       "tier": 1,
       "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Xét nghiệm đầu tay bắt buộc và các phương tiện chẩn đoán hình ảnh hàng đầu trong thăm dò <span style=\"color:#74c0fc\"><b>AUB</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm loại trừ sống còn</b> — <span style=\"color:#ff6b6b\"><b>β-hCG</b></span> định lượng nước tiểu/máu bắt buộc ở mọi phụ nữ trong độ tuổi sinh sản để loại trừ thai ngoài tử cung và dọa sảy thai.<br>2) <b>Hình ảnh học hàng đầu (First-line)</b> — <span style=\"color:#51cf66\"><b>Siêu âm đầu dò âm đạo (TVUS)</b></span> khảo sát cơ tử cung, độ dày nội mạc tử cung và hai buồng trứng.<br>3) <b>Khảo sát buồng tử cung chuyên sâu</b> — <span style=\"color:#51cf66\"><b>Siêu âm bơm nước buồng tử cung (SIS)</b></span> phân biệt polyp với u xơ dưới niêm mạc; MRI khi nghi ngờ adenomyosis phức tạp.<br><br><b>💡 Giải thích của AI:</b><br>Nội soi buồng tử cung chẩn đoán kết hợp sinh thiết (Office Hysteroscopy) được coi là tiêu chuẩn vàng để khảo sát trực tiếp tổn thương trong lòng buồng.",
-      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 128 & NICE Guideline NG88",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Năm nhóm căn nguyên",
+        "Đặc điểm khuyết sẹo"
+      ],
+      "front": "⚡ <b>THUẬT TOÁN COEIN:</b> <span style=\"color:#74c0fc\"><b>Năm nhóm căn nguyên</b></span> phi cấu trúc COEIN và <span style=\"color:#ff6b6b\"><b>đặc điểm khuyết sẹo</b></span> mổ đẻ (Isthmocele)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Năm nhóm căn nguyên:</b> <span style=\"color:#74c0fc\"><b>C</b></span> (Coagulopathy), <span style=\"color:#74c0fc\"><b>O</b></span> (Ovulatory), <span style=\"color:#74c0fc\"><b>E</b></span> (Endometrial), <span style=\"color:#74c0fc\"><b>I</b></span> (Iatrogenic) và <span style=\"color:#74c0fc\"><b>N</b></span> (Not yet classified).<br>2) <b>Đặc điểm khuyết sẹo:</b> Khuyết sẹo mổ đẻ (<span style=\"color:#ff6b6b\"><b>Isthmocele / Niche</b></span>) thuộc nhóm N, gây ứ đọng máu kinh tạo triệu chứng ra máu nâu thẫm thấm giọt sau sạch kinh (<span style=\"color:#ff6b6b\"><b>Postmenstrual spotting</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Ở phụ nữ từng mổ lấy thai bị ra máu nâu rỉ rả kéo dài sau sạch kinh, siêu âm đo bề dày cơ tồn dư RMT < 3 mm là chỉ định can thiệp phục hồi thành sẹo.",
+      "extra": "📖 Nguồn: FIGO 2018 & EES/ESGE Isthmocele Consensus 2023",
       "tags": [
         "OB-22",
-        "Can_lam_sang",
-        "beta_hCG",
-        "TVUS",
-        "SIS"
+        "B4",
+        "COEIN",
+        "Isthmocele"
       ]
     },
     {
       "id": "OB22-B4-02",
       "type": "basic",
       "section": "B4",
-      "category": "Chỉ định sinh thiết nội mạc",
-      "tier": 1,
+      "category": "Rối loạn đông máu AUB-C",
+      "tier": 2,
       "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>THUẬT TOÁN UNG THƯ:</b> Tiêu chuẩn chỉ định <span style=\"color:#ff6b6b\"><b>sinh thiết nội mạc tử cung (Endometrial Biopsy)</b></span> ở bệnh nhân AUB?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn tuổi</b> — Mọi phụ nữ <span style=\"color:#ffd43b\"><b>≥ 45 tuổi</b></span> bị AUB mới xuất hiện hoặc thay đổi tính chất kinh nguyệt.<br>2) <b>Tuổi < 45 có yếu tố nguy cơ</b> — Béo phì (<span style=\"color:#ffd43b\"><b>BMI ≥ 30</b></span>), hội chứng buồng trứng đa nang (PCOS), dùng Tamoxifen, tiền sử gia đình ung thư đại trực tràng không polyp di truyền (Hội chứng Lynch), hoặc đái tháo đường.<br>3) <b>Xuất huyết sau mãn kinh (PMB)</b> — Mọi trường hợp PMB có độ dày nội mạc tử cung trên TVUS <span style=\"color:#ff6b6b\"><b>> 4 mm</b></span> hoặc ra máu tái phát.<br>4) <b>Thất bại nội khoa</b> — Chảy máu tiếp diễn dai dẳng dù đã điều trị thuốc đúng phác đồ.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết bằng ống hút Pipelle tại phòng khám là thủ thuật nhanh, ít đau, độ nhạy phát hiện ung thư biểu mô nội mạc tử cung > 95%.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 734 & ACOG PB 128",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Tỷ lệ mắc bệnh",
+        "Bộ xét nghiệm tầm soát"
+      ],
+      "front": "<span style=\"color:#ffd43b\"><b>Tỷ lệ mắc bệnh</b></span> von Willebrand ở vị thành niên HMB và <span style=\"color:#51cf66\"><b>bộ xét nghiệm tầm soát</b></span> chuẩn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tỷ lệ mắc bệnh:</b> Bệnh von Willebrand (vWD) chiếm tới <span style=\"color:#ffd43b\"><b>13 – 20%</b></span> các trường hợp trẻ vị thành niên nhập viện vì HMB nặng ngay từ kỳ kinh đầu.<br>2) <b>Bộ xét nghiệm tầm soát:</b> Công thức máu, PT, aPTT, Fibrinogen, kết hợp đo nồng độ kháng nguyên <span style=\"color:#51cf66\"><b>vWF:Ag</b></span>, hoạt tính <span style=\"color:#51cf66\"><b>vWF:RCo</b></span> và định lượng <span style=\"color:#51cf66\"><b>Yếu tố VIII</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cần hỏi tiền sử chảy máu cam kéo dài, bầm tím dưới da tự nhiên hoặc chảy máu rỉ rả sau nhổ răng để không bỏ sót rối loạn đông máu bẩm sinh.",
+      "extra": "📖 Nguồn: ACOG Committee Opinion No. 785 · Hemostatic Disorders",
       "tags": [
         "OB-22",
-        "Sinh_thiet_noi_mac",
-        "Pipelle",
-        "Thuat_toan",
-        "Ung_thu"
+        "B4",
+        "AUB_C",
+        "vWD"
       ]
     },
     {
       "id": "OB22-B5-01",
       "type": "basic",
       "section": "B5",
-      "category": "Cấp cứu Acute AUB",
+      "category": "Cận lâm sàng",
       "tier": 1,
       "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>THUẬT TOÁN CẤP CỨU:</b> Phác đồ xử trí ban đầu và liệu pháp hormone dồn dập trong <span style=\"color:#ff6b6b\"><b>Acute AUB (chảy máu ồ ạt)</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồi sức ban đầu</b> — Thiết lập 2 đường truyền tĩnh mạch lớn (16–18G); bù dịch đẳng trương; truyền máu khẩn cấp nếu <span style=\"color:#ff6b6b\"><b>Hb < 70 g/L</b></span> hoặc có sốc mất máu.<br>2) <b>Phác đồ COCs dồn dập (Chuẩn ACOG)</b> — Viên tránh thai kết hợp (chứa 30–35 µg EE): uống <span style=\"color:#51cf66\"><b>1 viên mỗi 6 – 8 giờ</b></span> cho đến khi dứt hẳn máu (thường sau 24–48 giờ); sau đó bắt buộc <span style=\"color:#ffd43b\"><b>giảm liều từ từ (Tapering)</b></span>: 3 viên/ngày × 2 ngày, 2 viên/ngày × 2 ngày, rồi 1 viên/ngày cho đủ vỉ 21 ngày.<br>3) <b>Phác đồ thay thế</b> — Estrogen liên hợp CEE 25 mg IV mỗi 4–6 giờ (tối đa 24 giờ); hoặc Medroxyprogesterone acetate (MPA) 20 mg uống 3 lần/ngày × 7 ngày nếu chống chỉ định Estrogen.<br><br><b>💡 Giải thích của AI:</b><br>Bắt buộc kê kèm thuốc chống nôn (Metoclopramide) trước khi uống COC vì liều estrogen cao gây kích thích trung tâm nôn rất dữ dội.",
-      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 557 (Reaffirmed 2020) · Acute AUB",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Xét nghiệm loại trừ",
+        "Hình ảnh học đầu tay"
+      ],
+      "front": "<span style=\"color:#ff6b6b\"><b>Xét nghiệm loại trừ</b></span> bắt buộc đầu tiên và <span style=\"color:#51cf66\"><b>hình ảnh học đầu tay</b></span> trong thăm dò AUB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Xét nghiệm loại trừ:</b> Xét nghiệm <span style=\"color:#ff6b6b\"><b>β-hCG</b></span> định lượng nước tiểu hoặc máu ở mọi phụ nữ trong độ tuổi sinh sản để loại trừ dọa sảy thai và thai ngoài tử cung.<br>2) <b>Hình ảnh học đầu tay:</b> <span style=\"color:#51cf66\"><b>Siêu âm đầu dò âm đạo (TVUS)</b></span> khảo sát cơ tử cung, buồng trứng và đo độ dày nội mạc tử cung (ET).<br><br><b>💡 Giải thích của AI:</b><br>Nếu siêu âm TVUS nghi ngờ có tổn thương trong buồng, thực hiện tiếp siêu âm bơm nước buồng tử cung (SIS) để phân biệt polyp với u xơ dưới niêm mạc.",
+      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 128 & NICE NG88",
       "tags": [
         "OB-22",
-        "Acute_AUB",
-        "Thuat_toan",
-        "COCs_tapering",
-        "Cap_cuu"
-      ]
-    },
-    {
-      "id": "OB22-B5-02",
-      "type": "basic",
-      "section": "B5",
-      "category": "Chèn bóng Foley buồng tử cung",
-      "tier": 2,
-      "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>THỦ THUẬT CƠ HỌC:</b> Kỹ thuật và nguyên tắc an toàn khi <span style=\"color:#51cf66\"><b>chèn bóng Foley buồng tử cung (Tamponade)</b></span> cầm máu trong Acute AUB?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định</b> — Chảy máu tử cung cấp tính xối xả đe dọa tính mạng khi điều trị nội khoa chưa kịp phát huy tác dụng hoặc đang chờ phẫu thuật/truyền máu.<br>2) <b>Kỹ thuật thực hiện</b> — Đưa ống thông Foley vô khuẩn (cỡ 16 Fr hoặc 18 Fr) qua cổ tử cung vào đáy buồng tử cung; bơm <span style=\"color:#ffd43b\"><b>10 – 30 mL nước muối sinh lý vô khuẩn</b></span> làm phình bóng chèn ép trực diện diện chảy máu nội mạc.<br>3) <b>Thời gian lưu và kháng sinh</b> — Kẹp đuôi ống, lưu bóng tối đa trong vòng <span style=\"color:#ffd43b\"><b>12 – 24 giờ</b></span> và bắt buộc dùng kháng sinh dự phòng toàn thân.<br><br><b>💡 Giải thích của AI:</b><br>Không lưu bóng quá 24 giờ vì áp lực chèn ép kéo dài có nguy cơ gây thiếu máu cục bộ hoại tử cơ tử cung và nhiễm khuẩn nặng.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 557 & Practical Gynecologic Procedures",
-      "tags": [
-        "OB-22",
-        "Foley_tamponade",
-        "Acute_AUB",
-        "Thu_thuat",
-        "Chen_bong"
+        "B5",
+        "beta_hCG",
+        "TVUS"
       ]
     },
     {
       "id": "OB22-B6-01",
       "type": "basic",
       "section": "B6",
-      "category": "Điều trị nội khoa mạn tính",
+      "category": "Sinh thiết nội mạc",
       "tier": 1,
       "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Các bậc điều trị nội khoa cho <span style=\"color:#74c0fc\"><b>HMB / Chronic AUB</b></span> và hiệu quả của <span style=\"color:#51cf66\"><b>LNG-IUS (Mirena)</b></span> theo NICE NG88?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lựa chọn hàng đầu (First-line)</b> — <span style=\"color:#51cf66\"><b>Vòng đặt tử cung giải phóng Levonorgestrel (LNG-IUS)</b></span>; làm teo mỏng niêm mạc tại chỗ, giảm tới <span style=\"color:#ffd43b\"><b>90% lượng máu kinh sau 6 tháng</b></span>.<br>2) <b>Lựa chọn không chứa hormone</b> — <span style=\"color:#51cf66\"><b>Tranexamic acid</b></span> (1 – 1,5 g uống 3 lần/ngày trong các ngày hành kinh) phối hợp với <span style=\"color:#51cf66\"><b>NSAIDs</b></span> (Axit Mefenamic hoặc Ibuprofen) giúp giảm 40–60% lượng máu và giảm đau bụng kinh.<br>3) <b>Lựa chọn hormone đường uống</b> — Viên tránh thai kết hợp (COCs) hoặc Progestin chu kỳ (Dydrogesterone, MPA).<br><br><b>💡 Giải thích của AI:</b><br>LNG-IUS được chứng minh có hiệu quả cải thiện chất lượng sống và lượng huyết sắc tố tương đương với phẫu thuật triệt đốt nội mạc tử cung nhưng lại bảo tồn được tử cung.",
-      "extra": "📖 Nguồn: NICE Guideline NG88 (2018/Updated 2022) · Heavy Menstrual Bleeding",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Tiêu chuẩn tuổi",
+        "Yếu tố nguy cơ cao"
+      ],
+      "front": "⚡ <b>THUẬT TOÁN SINH THIẾT:</b> <span style=\"color:#ffd43b\"><b>Tiêu chuẩn tuổi</b></span> và các <span style=\"color:#ff6b6b\"><b>yếu tố nguy cơ cao</b></span> bắt buộc sinh thiết nội mạc tử cung?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tiêu chuẩn tuổi:</b> Phụ nữ <span style=\"color:#ffd43b\"><b>≥ 45 tuổi</b></span> có AUB mới xuất hiện hoặc thay đổi chu kỳ kinh nguyệt.<br>2) <b>Yếu tố nguy cơ cao:</b> Phụ nữ < 45 tuổi có tình trạng phơi nhiễm estrogen không đối kháng kéo dài: béo phì (<span style=\"color:#ff6b6b\"><b>BMI ≥ 30</b></span>), hội chứng PCOS, dùng Tamoxifen, hoặc hội chứng Lynch.<br><br><b>💡 Giải thích của AI:</b><br>Sinh thiết bằng ống hút Pipelle tại phòng khám là thủ thuật nhanh, ít đau, độ nhạy phát hiện ung thư biểu mô nội mạc tử cung > 95%.",
+      "extra": "📖 Nguồn: ACOG Committee Opinion No. 734 & ACOG PB 128",
       "tags": [
         "OB-22",
-        "LNG_IUS",
-        "Mirena",
-        "NICE_NG88",
-        "Tranexamic_acid"
-      ]
-    },
-    {
-      "id": "OB22-B6-02",
-      "type": "basic",
-      "section": "B6",
-      "category": "Điều trị ngoại khoa",
-      "tier": 2,
-      "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Chỉ định và so sánh các phương pháp can thiệp ngoại khoa trong <span style=\"color:#74c0fc\"><b>AUB mạn tính</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cắt polyp/u xơ qua soi buồng tử cung (Hysteroscopy)</b> — Chỉ định đầu tay cho polyp nội mạc và u xơ dưới niêm mạc Type 0, Type 1; bảo tồn tối đa khả năng sinh sản.<br>2) <b>Triệt đốt nội mạc tử cung (Endometrial Ablation)</b> — Phá hủy lớp màng đáy nội mạc bằng nhiệt/sóng RF; chỉ định cho phụ nữ <span style=\"color:#ff6b6b\"><b>ĐÃ ĐỦ CON VÀ KHÔNG MUỐN MANG THAI NỮA</b></span> (hiệu quả giảm máu 80–90%).<br>3) <b>Nút mạch động mạch tử cung (UAE)</b> — Làm tắc mạch nuôi u xơ, giữ lại tử cung.<br>4) <b>Cắt tử cung (Hysterectomy)</b> — Biện pháp triệt để cuối cùng khi điều trị nội khoa thất bại hoặc có tổn thương ác tính/tiền ung thư.<br><br><b>💡 Giải thích của AI:</b><br>Sau triệt đốt nội mạc tử cung, bệnh nhân vẫn có nguy cơ mang thai ngoài tử cung dị tật nguy hiểm nên bắt buộc phải phối hợp biện pháp tránh thai triệt để (như triệt sản vòi trứng).",
-      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 128 & NICE NG88",
-      "tags": [
-        "OB-22",
-        "Ngoai_khoa",
-        "Endometrial_ablation",
-        "Hysteroscopy",
-        "Hysterectomy"
+        "B6",
+        "Pipelle",
+        "Sinh_thiet",
+        "Ung_thu"
       ]
     },
     {
       "id": "OB22-B7-01",
       "type": "basic",
       "section": "B7",
-      "category": "Xuất huyết sau mãn kinh PMB",
+      "category": "Cấp cứu Acute AUB",
       "tier": 1,
       "track": "ebm",
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-algo",
-      "front": "⚡ <b>THUẬT TOÁN PMB:</b> Quy trình xử trí chuẩn cho <span style=\"color:#ff6b6b\"><b>Xuất huyết sau mãn kinh (Postmenopausal Bleeding - PMB)</b></span> theo ACOG CO #734?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên tắc vàng</b> — Mọi PMB đều phải coi là <span style=\"color:#ff6b6b\"><b>Ung thư nội mạc tử cung cho đến khi chứng minh ngược lại</b></span> (khoảng 10% ca PMB là ung thư).<br>2) <b>Đánh giá đầu tay bằng TVUS</b> — Đo độ dày nội mạc tử cung (Endometrial Thickness - ET):<br>   * <span style=\"color:#51cf66\"><b>ET ≤ 4 mm:</b></span> Giá trị dự đoán âm tính > 99%, nguy cơ ung thư cực thấp (< 1%), có thể theo dõi sát nếu là lần đầu tiên ra máu.<br>   * <span style=\"color:#ff6b6b\"><b>ET > 4 mm (hoặc không đo rõ, hoặc ra máu tái phát):</b></span> Bắt buộc chỉ định <span style=\"color:#ff6b6b\"><b>Sinh thiết nội mạc tử cung (Pipelle hoặc nạo sinh thiết dưới soi buồng tử cung)</b></span>.<br>3) <b>Cấm chỉ định</b> — Tuyệt đối không kê đơn thuốc cầm máu hay hormone rồi cho về mà chưa làm rõ mô bệnh học.<br><br><b>💡 Giải thích của AI:</b><br>Dù ET ≤ 4 mm nhưng nếu bệnh nhân bị ra máu tái phát lần 2, bác sĩ vẫn bắt buộc phải tiến hành sinh thiết để không bỏ sót ung thư thể thanh dịch tiến triển trên niêm mạc teo.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 734 · Evaluation of Postmenopausal Bleeding",
+      "asks": [
+        "Hồi sức ban đầu",
+        "Phác đồ hormone dồn dập"
+      ],
+      "front": "⚡ <b>CẤP CỨU ACUTE AUB:</b> Các bước <span style=\"color:#ff6b6b\"><b>hồi sức ban đầu</b></span> và <span style=\"color:#51cf66\"><b>phác đồ hormone dồn dập</b></span> theo ACOG PB #557?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hồi sức ban đầu:</b> Thiết lập 2 đường truyền tĩnh mạch lớn (16–18G), bù dịch đẳng trương, truyền máu khẩn cấp nếu <span style=\"color:#ff6b6b\"><b>Hb < 70 g/L</b></span> hoặc huyết động không ổn định.<br>2) <b>Phác đồ hormone dồn dập:</b> Viên tránh thai kết hợp (COCs chứa 30–35 µg EE) uống <span style=\"color:#51cf66\"><b>1 viên mỗi 6 – 8 giờ</b></span> cho đến khi dứt máu, sau đó giảm liều dần: 3 viên/ngày × 2 ngày, 2 viên/ngày × 2 ngày, rồi 1 viên/ngày cho đủ vỉ 21 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Luôn kê kèm thuốc chống nôn (Metoclopramide) trước khi uống COC 30 phút vì nồng độ estrogen liều cao gây kích thích trung tâm nôn rất dữ dội.",
+      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 557 (Reaffirmed 2020) · Acute AUB",
       "tags": [
         "OB-22",
-        "PMB",
-        "Thuat_toan",
-        "ACOG_CO_734",
-        "ET_4mm"
+        "B7",
+        "Acute_AUB",
+        "COCs_tapering"
       ]
     },
     {
       "id": "OB22-B7-02",
       "type": "basic",
       "section": "B7",
-      "category": "AUB vị thành niên",
+      "category": "Thủ thuật chèn bóng Foley",
       "tier": 2,
       "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Căn nguyên phổ biến nhất của AUB ở <span style=\"color:#74c0fc\"><b>lứa tuổi vị thành niên</b></span> và chiến lược điều trị duy trì chu kỳ?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân chính</b> — <span style=\"color:#74c0fc\"><b>AUB-O do trục HPO chưa trưởng thành</b></span>; mất phản xạ điều hòa ngược dương tính của Estrogen gây không rụng trứng (chiếm tới 70–80% các ca).<br>2) <b>Loại trừ bệnh kèm theo</b> — Bắt buộc làm xét nghiệm β-hCG (loại trừ thai) và tầm soát rối loạn đông máu bẩm sinh vWD nếu kinh nhiều từ menarche.<br>3) <b>Phác đồ tạo chu kỳ</b> — Dùng Progestin chu kỳ (<span style=\"color:#51cf66\"><b>Dydrogesterone 10–20 mg/ngày</b></span> hoặc MPA 10 mg/ngày uống từ ngày thứ 16 đến ngày thứ 25 của chu kỳ) trong 3–6 tháng; hoặc dùng viên tránh thai kết hợp liều thấp.<br><br><b>💡 Giải thích của AI:</b><br>Trục HPO thường mất khoảng 2–3 năm sau kỳ kinh đầu tiên để đạt được sự trưởng thành hoàn toàn và thiết lập các chu kỳ rụng trứng đều đặn.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 651 · Menstruation in Girls and Adolescents",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Chỉ định chèn bóng",
+        "Kỹ thuật bơm bóng"
+      ],
+      "front": "⚡ <b>CẦM MÁU CƠ HỌC:</b> <span style=\"color:#ff6b6b\"><b>Chỉ định chèn bóng</b></span> Foley buồng tử cung và <span style=\"color:#51cf66\"><b>kỹ thuật bơm bóng</b></span> an toàn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chỉ định chèn bóng:</b> Chảy máu tử cung cấp tính xối xả đe dọa tính mạng khi thuốc chưa kịp tác dụng hoặc đang chờ truyền máu/chuẩn bị mổ.<br>2) <b>Kỹ thuật bơm bóng:</b> Đưa ống thông Foley 16–18 Fr qua cổ tử cung vào đáy buồng tử cung, bơm <span style=\"color:#ffd43b\"><b>10 – 30 mL nước muối sinh lý vô khuẩn</b></span> ép chặt diện mạch máu, kẹp đuôi ống, lưu bóng tối đa <span style=\"color:#ffd43b\"><b>12 – 24 giờ</b></span> phối hợp kháng sinh dự phòng.<br><br><b>💡 Giải thích của AI:</b><br>Không lưu bóng quá 24 giờ vì áp lực chèn ép kéo dài có nguy cơ gây thiếu máu cục bộ hoại tử cơ tử cung và nhiễm trùng ngược dòng.",
+      "extra": "📖 Nguồn: ACOG Committee Opinion No. 557 & Practical Gynecologic Procedures",
       "tags": [
         "OB-22",
-        "Vi_thanh_nien",
-        "Truc_HPO",
-        "Progestin_chu_ky"
+        "B7",
+        "Foley_tamponade",
+        "Acute_AUB"
       ]
     },
     {
       "id": "OB22-B8-01",
       "type": "basic",
       "section": "B8",
+      "category": "Điều trị nội khoa mạn tính",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Lựa chọn số 1",
+        "Liệu pháp không hormone"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Lựa chọn số 1</b></span> cho HMB mạn tính theo NICE NG88 và <span style=\"color:#74c0fc\"><b>liệu pháp không hormone</b></span> thay thế?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lựa chọn số 1:</b> Vòng đặt tử cung giải phóng Levonorgestrel (<span style=\"color:#51cf66\"><b>LNG-IUS / Mirena</b></span>), giúp giảm tới <span style=\"color:#ffd43b\"><b>90% lượng máu kinh sau 6 tháng</b></span> sử dụng.<br>2) <b>Liệu pháp không hormone:</b> Phối hợp <span style=\"color:#51cf66\"><b>Tranexamic acid</b></span> (1–1,5 g uống 3 lần/ngày trong các ngày hành kinh) với thuốc <span style=\"color:#51cf66\"><b>NSAIDs</b></span> (Axit Mefenamic hoặc Ibuprofen) giúp giảm 40–60% lượng máu mất.<br><br><b>💡 Giải thích của AI:</b><br>LNG-IUS được chứng minh có hiệu quả cải thiện chất lượng sống và lượng huyết sắc tố tương đương với phẫu thuật triệt đốt nội mạc tử cung nhưng lại bảo tồn được tử cung.",
+      "extra": "📖 Nguồn: NICE Guideline NG88 (2018/Updated 2022) · Heavy Menstrual Bleeding",
+      "tags": [
+        "OB-22",
+        "B8",
+        "LNG_IUS",
+        "NICE_NG88",
+        "Tranexamic_acid"
+      ]
+    },
+    {
+      "id": "OB22-B9-01",
+      "type": "basic",
+      "section": "B9",
+      "category": "Thuốc mới GnRH Antagonist",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Cơ chế tác động",
+        "Bằng chứng thử nghiệm"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Cơ chế tác động</b></span> của Relugolix phối hợp (Ryeqo / Myfembree) và <span style=\"color:#51cf66\"><b>bằng chứng thử nghiệm</b></span> LIBERTY 1 & 2 (NEJM 2021)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế tác động:</b> Kháng trực tiếp thụ thể GnRH tại tuyến yên gây ức chế tức thì LH/FSH mà không có giai đoạn bùng phát; phối hợp sẵn liều sinh lý Estrogen + Progestin (<span style=\"color:#51cf66\"><b>Add-Back Therapy</b></span>) để bảo vệ mật độ khoáng xương.<br>2) <b>Bằng chứng thử nghiệm:</b> Các thử nghiệm lâm sàng đối chứng pha 3 chứng minh tỷ lệ đáp ứng cầm máu đạt <span style=\"color:#ffd43b\"><b>71 – 73%</b></span> (so với 15–19% ở giả dược, p < 0,001), tỷ lệ vô kinh > 50%.<br><br><b>💡 Giải thích của AI:</b><br>Relugolix phối hợp mở ra kỷ nguyên điều trị nội khoa ngoại trú không xâm lấn hiệu quả cao cho u xơ tử cung và lạc nội mạc trong cơ tử cung.",
+      "extra": "📖 Nguồn: Al-Hendy A et al. NEJM 2021 (PMID: 33596357) & AJOG 2023 (PMID: 37666383) · LIBERTY trials",
+      "tags": [
+        "OB-22",
+        "B9",
+        "Relugolix",
+        "LIBERTY",
+        "NEJM_2021"
+      ]
+    },
+    {
+      "id": "OB22-B10-01",
+      "type": "basic",
+      "section": "B10",
+      "category": "Điều trị ngoại khoa",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Can thiệp bảo tồn",
+        "Can thiệp triệt để"
+      ],
+      "front": "Chỉ định các phương pháp <span style=\"color:#51cf66\"><b>can thiệp bảo tồn</b></span> buồng tử cung và <span style=\"color:#ff6b6b\"><b>can thiệp triệt để</b></span> trong AUB mạn tính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Can thiệp bảo tồn:</b> Cắt u xơ/polyp qua soi buồng tử cung (<span style=\"color:#51cf66\"><b>Hysteroscopy</b></span>) cho Type 0–1; nút mạch động mạch tử cung (<span style=\"color:#51cf66\"><b>UAE</b></span>) làm teo khối u xơ ở người muốn giữ tử cung.<br>2) <b>Can thiệp triệt để:</b> Triệt đốt nội mạc tử cung (<span style=\"color:#ff6b6b\"><b>Endometrial Ablation</b></span>) chỉ dùng cho người đã đủ con; cắt tử cung (<span style=\"color:#ff6b6b\"><b>Hysterectomy</b></span>) khi thất bại mọi biện pháp nội khoa hoặc có tổn thương tiền ung thư/ác tính.<br><br><b>💡 Giải thích của AI:</b><br>Triệt đốt nội mạc tử cung chống chỉ định tuyệt đối cho người còn muốn sinh con vì nguy cơ biến dạng dính buồng tử cung và thai ngoài tử cung nguy hiểm.",
+      "extra": "📖 Nguồn: ACOG Practice Bulletin No. 128 & NICE NG88",
+      "tags": [
+        "OB-22",
+        "B10",
+        "Ngoai_khoa",
+        "Hysteroscopy",
+        "Hysterectomy"
+      ]
+    },
+    {
+      "id": "OB22-B11-01",
+      "type": "basic",
+      "section": "B11",
+      "category": "Xuất huyết sau mãn kinh PMB",
+      "tier": 1,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Nguyên tắc lâm sàng",
+        "Ngưỡng cắt siêu âm"
+      ],
+      "front": "⚡ <b>THUẬT TOÁN PMB:</b> <span style=\"color:#ff6b6b\"><b>Nguyên tắc lâm sàng</b></span> vàng và <span style=\"color:#ffd43b\"><b>ngưỡng cắt siêu âm</b></span> TVUS theo ACOG CO #734?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên tắc lâm sàng:</b> Mọi trường hợp xuất huyết sau mãn kinh (PMB) đều phải coi là <span style=\"color:#ff6b6b\"><b>Ung thư nội mạc tử cung cho đến khi có bằng chứng ngược lại</b></span> (khoảng 10% ca PMB là ung thư).<br>2) <b>Ngưỡng cắt siêu âm:</b> Đo độ dày nội mạc TVUS:<br>   * <span style=\"color:#51cf66\"><b>ET ≤ 4 mm:</b></span> Giá trị dự đoán âm tính > 99%, có thể theo dõi sát nếu ra máu lần đầu.<br>   * <span style=\"color:#ff6b6b\"><b>ET > 4 mm (hoặc ra máu tái phát):</b></span> Bắt buộc chỉ định sinh thiết nội mạc tử cung (Pipelle hoặc nạo sinh thiết dưới soi buồng tử cung).<br><br><b>💡 Giải thích của AI:</b><br>Nếu bệnh nhân bị ra máu tái phát lần thứ 2 dù ET ≤ 4 mm vẫn bắt buộc phải làm sinh thiết để loại trừ ung thư biểu mô tuyến nhú thanh dịch phát triển trên niêm mạc teo.",
+      "extra": "📖 Nguồn: ACOG Committee Opinion No. 734 · Postmenopausal Bleeding",
+      "tags": [
+        "OB-22",
+        "B11",
+        "PMB",
+        "ACOG_CO_734",
+        "ET_4mm"
+      ]
+    },
+    {
+      "id": "OB22-B12-01",
+      "type": "basic",
+      "section": "B12",
+      "category": "So sánh Guideline",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Điểm đồng thuận",
+        "Khác biệt first-line"
+      ],
+      "front": "Các <span style=\"color:#74c0fc\"><b>điểm đồng thuận</b></span> và <span style=\"color:#51cf66\"><b>khác biệt first-line</b></span> trong quản lý HMB giữa FIGO 2023, ACOG và NICE NG88?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Điểm đồng thuận:</b> Cả 3 tổ chức đều thống nhất dùng phân loại PALM-COEIN; loại trừ thai bằng β-hCG; siêu âm đầu dò âm đạo TVUS là hình ảnh học đầu tay; sinh thiết nội mạc khi ≥ 45 tuổi hoặc có yếu tố nguy cơ.<br>2) <b>Khác biệt first-line:</b> NICE NG88 chỉ định dứt khoát <span style=\"color:#51cf66\"><b>LNG-IUS là thuốc đầu tay số 1</b></span> cho mọi HMB; ACOG cho phép lựa chọn linh hoạt giữa LNG-IUS, COCs và Tranexamic acid tùy theo sở thích và nhu cầu tránh thai của người bệnh.<br><br><b>💡 Giải thích của AI:</b><br>Sự khác biệt phản ánh tiếp cận y tế công cộng ưu tiên chi phí - hiệu quả cao nhất của Anh (NICE) so với tiếp cận cá thể hóa lựa chọn người bệnh tại Mỹ (ACOG).",
+      "extra": "📖 Nguồn: Tsakiridis I et al. Obstet Gynecol Surv 2022 & FIGO 2023",
+      "tags": [
+        "OB-22",
+        "B12",
+        "So_sanh_guideline",
+        "NICE_ACOG"
+      ]
+    },
+    {
+      "id": "OB22-B13-01",
+      "type": "basic",
+      "section": "B13",
+      "category": "Ca lâm sàng thực chiến",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "asks": [
+        "Chẩn đoán ban đầu",
+        "Kế hoạch điều trị"
+      ],
+      "front": "⚡ <b>CA LÂM SÀNG:</b> Nữ 28 tuổi, BMI 33, chu kỳ kinh 3 tháng/lần, ra máu kéo dài 18 ngày — <span style=\"color:#74c0fc\"><b>Chẩn đoán ban đầu</b></span> và <span style=\"color:#51cf66\"><b>kế hoạch điều trị</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chẩn đoán ban đầu:</b> <span style=\"color:#74c0fc\"><b>AUB-O do Hội chứng buồng trứng đa nang (PCOS)</b></span>; niêm mạc tử cung bị estrogen kích thích không đối kháng kéo dài.<br>2) <b>Kế hoạch điều trị:</b> Siêu âm TVUS đo độ dày nội mạc; cân nhắc sinh thiết nếu niêm mạc quá dày để loại trừ quá sản; sau đó dùng <span style=\"color:#51cf66\"><b>Progestin chu kỳ</b></span> (ngày 16–25) hoặc COCs kết hợp giảm cân và kiểm soát đề kháng insulin bằng Metformin.<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân béo phì và PCOS, mô mỡ ngoại vi chuyển đổi Androgen thành Estrogen liên tục làm tăng nguy cơ ung thư nội mạc tử cung gấp nhiều lần.",
+      "extra": "📖 Nguồn: Case Records of the Clinical Gynecologic Endocrinology & ACOG PB 136",
+      "tags": [
+        "OB-22",
+        "B13",
+        "Ca_lam_sang",
+        "PCOS",
+        "AUB_O"
+      ]
+    },
+    {
+      "id": "OB22-B14-01",
+      "type": "basic",
+      "section": "B14",
+      "category": "Sai lầm thường gặp",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Hai sai lầm chết người",
+        "Biện pháp phòng tránh"
+      ],
+      "front": "<span style=\"color:#ff6b6b\"><b>Hai sai lầm chết người</b></span> thường gặp nhất khi tiếp cận bệnh nhân AUB và <span style=\"color:#51cf66\"><b>biện pháp phòng tránh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hai sai lầm chết người:</b> Quên làm xét nghiệm <span style=\"color:#ff6b6b\"><b>β-hCG</b></span> ở phụ nữ tuổi sinh sản (bỏ sót thai ngoài tử cung vỡ); và tự ý kê đơn hormone cầm máu cho phụ nữ sau mãn kinh mà <span style=\"color:#ff6b6b\"><b>chưa làm sinh thiết loại trừ ung thư</b></span>.<br>2) <b>Biện pháp phòng tránh:</b> Thiết lập phản xạ tự động: Mọi phụ nữ tuổi sinh đẻ AUB đều test β-hCG; mọi phụ nữ PMB có ET > 4 mm đều phải lấy bệnh phẩm giải phẫu bệnh trước khi can thiệp nội tiết.<br><br><b>💡 Giải thích của AI:</b><br>Kê hormone cầm máu cho ca ung thư nội mạc tử cung chỉ tạo cảm giác khỏi bệnh giả tạo khiến bệnh nhân quay lại ở giai đoạn muộn di căn.",
+      "extra": "📖 Nguồn: Patient Safety in Obstetrics and Gynecology & ACOG Guidelines",
+      "tags": [
+        "OB-22",
+        "B14",
+        "Sai_lam_thuong_gap",
+        "An_toan_nguoi_benh"
+      ]
+    },
+    {
+      "id": "OB22-B15-01",
+      "type": "basic",
+      "section": "B15",
       "category": "Câu hỏi thực chiến",
       "tier": 1,
       "track": "ebm",
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-algo",
-      "front": "⚡ <b>CÂU HỎI PHẢN XẠ:</b> Nữ 16 tuổi vào viện vì ra máu âm đạo xối xả ướt sũng băng vệ sinh: Phản xạ xét nghiệm số 1 <span style=\"color:#ff6b6b\"><b>BẮT BUỘC PHẢI LÀM</b></span> là gì?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản xạ số 1 bắt buộc</b> — Xét nghiệm <span style=\"color:#ff6b6b\"><b>β-hCG định lượng nước tiểu hoặc máu</b></span>.<br>2) <b>Nguyên tắc y khoa</b> — Mọi phụ nữ trong độ tuổi sinh sản bị xuất huyết âm đạo bất thường đều phải loại trừ <span style=\"color:#ff6b6b\"><b>biến chứng thai nghén (dọa sảy, thai ngoài tử cung vỡ, thai lưu)</b></span> đầu tiên.<br>3) <b>Cảnh báo bẫy tâm lý</b> — Dù người nhà hay bệnh nhân khẳng định \"chưa từng quan hệ tình dục\", bác sĩ không được bỏ qua xét nghiệm này vì bỏ sót thai ngoài tử cung vỡ có thể gây sốc mất máu tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ sau khi có kết quả β-hCG âm tính thì bác sĩ mới được phép bắt tay vào tìm nguyên nhân theo bảng PALM-COEIN.",
+      "asks": [
+        "Phản xạ bắt buộc",
+        "Lý do sinh tử"
+      ],
+      "front": "⚡ <b>CÂU HỎI PHẢN XẠ:</b> Nữ 16 tuổi vào viện vì ra máu âm đạo xối xả — <span style=\"color:#ff6b6b\"><b>Phản xạ bắt buộc</b></span> số 1 và <span style=\"color:#ffd43b\"><b>lý do sinh tử</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản xạ bắt buộc:</b> Xét nghiệm <span style=\"color:#ff6b6b\"><b>β-hCG định lượng nước tiểu hoặc máu</b></span> ngay lập tức.<br>2) <b>Lý do sinh tử:</b> Mọi phụ nữ trong độ tuổi sinh sản ra máu bất thường đều phải loại trừ <span style=\"color:#ff6b6b\"><b>biến chứng thai nghén (thai ngoài tử cung vỡ, dọa sảy, thai lưu)</b></span> đầu tiên; bỏ sót thai ngoài tử cung vỡ có thể gây sốc mất máu tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Dù người nhà hay bệnh nhân khẳng định chưa từng quan hệ tình dục, bác sĩ tuyệt đối không được bỏ qua nguyên tắc vàng này.",
       "extra": "📖 Nguồn: Phản xạ lâm sàng Cấp cứu Phụ khoa & ACOG Practice Bulletin 128",
       "tags": [
         "OB-22",
+        "B15",
         "Cau_hoi_thuc_chien",
-        "beta_hCG",
-        "Thai_ngoai_tu_cung"
+        "beta_hCG"
       ]
     },
     {
-      "id": "OB22-B8-02",
+      "id": "OB22-B15-02",
       "type": "basic",
-      "section": "B8",
+      "section": "B15",
       "category": "Câu hỏi thực chiến",
       "tier": 1,
       "track": "ebm",
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-algo",
-      "front": "⚡ <b>CÂU HỎI VỀ DƯỢC PHẨM:</b> Khi dùng COCs liều cao dồn dập cầm máu cấp cứu: Bác sĩ bắt buộc phải kê kèm thuốc gì và <span style=\"color:#ff6b6b\"><b>cấm kỵ sai lầm nào khi ngừng thuốc</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thuốc bắt buộc kê kèm</b> — <span style=\"color:#51cf66\"><b>Thuốc chống nôn (Metoclopramide hoặc Ondansetron)</b></span> uống trước viên COC 30 phút vì estrogen liều cao gây nôn dữ dội làm mất tác dụng của thuốc.<br>2) <b>Cấm ngừng thuốc đột ngột</b> — <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG NGỪNG THUỐC ĐỘT NGỘT</b></span> ngay khi vừa hết máu; ngừng đột ngột sẽ gây sụt giảm hormone làm nội mạc bong tróc ồ ạt trở lại (Estrogen withdrawal bleeding).<br>3) <b>Bắt buộc giảm liều từ từ (Tapering)</b> — 3 viên/ngày × 2 ngày → 2 viên/ngày × 2 ngày → 1 viên/ngày uống cho đến hết vỉ 21 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Quá trình giảm liều từ từ giúp niêm mạc tử cung có thời gian biểu mô hóa hoàn chỉnh và lớp đệm mao mạch được ổn định bền vững.",
+      "asks": [
+        "Thuốc uống kèm",
+        "Quy tắc giảm liều"
+      ],
+      "front": "⚡ <b>CÂU HỎI VỀ DƯỢC PHẨM:</b> Khi dùng COCs liều cao dồn dập cầm máu cấp tính — <span style=\"color:#51cf66\"><b>Thuốc uống kèm</b></span> bắt buộc và <span style=\"color:#ff6b6b\"><b>quy tắc giảm liều</b></span> an toàn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Thuốc uống kèm:</b> <span style=\"color:#51cf66\"><b>Thuốc chống nôn (Metoclopramide hoặc Ondansetron)</b></span> uống trước viên COC 30 phút vì nồng độ Estrogen cao kích thích trung tâm nôn rất dữ dội.<br>2) <b>Quy tắc giảm liều:</b> <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG NGỪNG ĐỘT NGỘT</b></span>; phải giảm liều từ từ (Tapering): 3 viên/ngày × 2 ngày → 2 viên/ngày × 2 ngày → 1 viên/ngày cho đủ vỉ 21 ngày để tránh chảy máu bong tróc tái phát (Estrogen withdrawal bleeding).<br><br><b>💡 Giải thích của AI:</b><br>Quá trình giảm liều từ từ giúp lớp biểu mô nội mạc kịp thời phục hồi che phủ các mạch máu bị bóc tách.",
       "extra": "📖 Nguồn: Dược lý học lâm sàng Sản Phụ khoa & ACOG PB 557",
       "tags": [
         "OB-22",
+        "B15",
         "Cau_hoi_thuc_chien",
-        "COCs",
-        "Chong_non",
-        "Tapering"
+        "COCs_tapering"
       ]
     },
     {
-      "id": "OB22-B8-03",
+      "id": "OB22-B15-03",
       "type": "basic",
-      "section": "B8",
+      "section": "B15",
       "category": "Câu hỏi thực chiến",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Tại sao bệnh nhân mắc <span style=\"color:#74c0fc\"><b>Hội chứng buồng trứng đa nang (PCOS)</b></span> bị AUB-O bắt buộc phải dùng Progestin định kỳ?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế nguy cơ</b> — Không rụng trứng làm buồng trứng không tạo hoàng thể và không có Progesterone; nồng độ Estrogen nội sinh cao liên tục kích thích niêm mạc tăng sinh.<br>2) <b>Nguy cơ ác tính</b> — Tình trạng estrogen không đối kháng kéo dài làm tăng nguy cơ tiến triển thành <span style=\"color:#ff6b6b\"><b>Quá sản nội mạc tử cung và Ung thư nội mạc tử cung</b></span> lên gấp 3–5 lần.<br>3) <b>Vai trò Progestin</b> — Dùng Progestin chu kỳ (Dydrogesterone, MPA từ ngày 16–25) chuyển hóa nội mạc sang pha chế tiết và bong tróc có chu kỳ, <span style=\"color:#51cf66\"><b>bảo vệ tuyệt đối niêm mạc khỏi ung thư hóa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân PCOS, mục tiêu của Progestin không chỉ là cầm máu mà quan trọng nhất là tấm khiên phòng ngừa ung thư nội mạc tử cung lâu dài.",
+      "asks": [
+        "Nguy cơ ung thư",
+        "Tác dụng bảo vệ"
+      ],
+      "front": "Tại sao bệnh nhân PCOS bị AUB-O có <span style=\"color:#ff6b6b\"><b>nguy cơ ung thư</b></span> cao và <span style=\"color:#51cf66\"><b>tác dụng bảo vệ</b></span> của Progestin định kỳ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguy cơ ung thư:</b> Không có rụng trứng làm thiếu hụt hoàn toàn Progesterone; nồng độ Estrogen nội sinh cao liên tục kích thích niêm mạc tăng sinh dẫn đến <span style=\"color:#ff6b6b\"><b>Quá sản và Ung thư nội mạc tử cung</b></span>.<br>2) <b>Tác dụng bảo vệ:</b> Dùng Progestin chu kỳ (<span style=\"color:#51cf66\"><b>Dydrogesterone hoặc MPA từ ngày 16–25</b></span>) chuyển hóa niêm mạc sang pha chế tiết và tạo hiện tượng bong tróc có chu kỳ, bảo vệ an toàn niêm mạc khỏi ung thư hóa.<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân PCOS, mục tiêu của việc kê Progestin không chỉ đơn thuần là chỉnh chu kỳ kinh mà quan trọng nhất là tấm khiên phòng ngừa ung thư nội mạc tử cung lâu dài.",
       "extra": "📖 Nguồn: ASRM PCOS Practice Guideline & ACOG Practice Bulletin 136",
       "tags": [
         "OB-22",
+        "B15",
         "Cau_hoi_thuc_chien",
         "PCOS",
-        "Progestin",
-        "Qua_san"
+        "Progestin"
       ]
     },
     {
-      "id": "OB22-B8-04",
+      "id": "OB22-B15-04",
       "type": "basic",
-      "section": "B8",
+      "section": "B15",
       "category": "Câu hỏi thực chiến",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Các nguyên nhân <span style=\"color:#74c0fc\"><b>AUB do can thiệp y khoa (AUB-I)</b></span> thường gặp nhất trên thực tế lâm sàng?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Vòng tránh thai chứa đồng (Copper-IUD)</b> — Gây tăng lượng máu kinh và đau bụng kinh ở <span style=\"color:#ffd43b\"><b>30–50% phụ nữ</b></span> trong 3–6 tháng đầu.<br>2) <b>Thuốc chống đông máu</b> — <span style=\"color:#ff6b6b\"><b>Warfarin, thuốc DOACs (Rivaroxaban, Apixaban)</b></span>, Aspirin làm nặng thêm tình trạng xuất huyết kinh nguyệt.<br>3) <b>Thuốc chống loạn thần</b> — Các thuốc như <span style=\"color:#74c0fc\"><b>Risperidone</b></span> ức chế thụ thể Dopamine làm tăng tiết Prolactin máu gây ức chế trục HPO dẫn đến AUB-O.<br>4) <b>Quên uống thuốc tránh thai</b> — Bỏ cữ thuốc gây tụt nồng độ hormone đột ngột dẫn đến ra máu thấm giọt giữa chu kỳ (<span style=\"color:#ff6b6b\"><b>Breakthrough bleeding</b></span>).<br><br><b>💡 Giải thích của AI:</b><br>Luôn khai thác kỹ danh mục thuốc bệnh nhân đang sử dụng trước khi chỉ định các thăm dò xâm lấn đắt tiền.",
+      "asks": [
+        "Nguyên nhân do thuốc",
+        "Nguyên nhân do dụng cụ"
+      ],
+      "front": "Các <span style=\"color:#ff6b6b\"><b>nguyên nhân do thuốc</b></span> và <span style=\"color:#74c0fc\"><b>nguyên nhân do dụng cụ</b></span> phổ biến nhất của nhóm AUB do thầy thuốc (AUB-I)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân do thuốc:</b> Thuốc chống đông máu (<span style=\"color:#ff6b6b\"><b>Warfarin, DOACs</b></span>), thuốc chống kết tập tiểu cầu; thuốc chống loạn thần (<span style=\"color:#74c0fc\"><b>Risperidone</b></span>) gây tăng prolactin máu; và quên uống thuốc tránh thai gây chảy máu thấm giọt.<br>2) <b>Nguyên nhân do dụng cụ:</b> <span style=\"color:#ff6b6b\"><b>Vòng tránh thai chứa đồng (Copper-IUD)</b></span> làm tăng phản ứng viêm và tiêu sợi huyết tại chỗ gây rong kinh ở 30–50% phụ nữ trong những tháng đầu.<br><br><b>💡 Giải thích của AI:</b><br>Luôn rà soát danh mục thuốc và tiền sử đặt dụng cụ tử cung trước khi chỉ định các can thiệp ngoại khoa xâm lấn.",
       "extra": "📖 Nguồn: FIGO 2018 System 2 & Clinical Pharmacology in Obstetrics and Gynecology",
       "tags": [
         "OB-22",
+        "B15",
         "Cau_hoi_thuc_chien",
-        "AUB_I",
-        "Vong_dong",
-        "Thuoc_chong_dong"
-      ]
-    },
-    {
-      "id": "OB22-B0-03",
-      "type": "basic",
-      "section": "B0",
-      "category": "Cơ chế phân tử bong niêm mạc",
-      "tier": 2,
-      "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Vai trò của enzyme <span style=\"color:#74c0fc\"><b>Matrix Metalloproteinases (MMPs)</b></span> và dòng thác viêm trong cơ chế bong tróc niêm mạc tử cung?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Kích hoạt enzyme</b> — Sự sụt giảm Progesterone làm giải ức chế các tế bào đệm, kích hoạt giải phóng ồ ạt các enzyme <span style=\"color:#74c0fc\"><b>MMP-1, MMP-2, MMP-3 và MMP-9</b></span>.<br>2) <b>Tiêu hủy mô liên kết</b> — MMPs phân hủy chọn lọc chất nền ngoại bào (Collagen, Gelatin) và màng đáy mao mạch lớp chức năng.<br>3) <b>Dòng thác viêm</b> — Tăng tiết các cytokine viêm (<span style=\"color:#ff6b6b\"><b>TNF-α, IL-8</b></span>) thu hút bạch cầu giải phóng thêm enzyme tiêu protein, dẫn đến hoại tử thiếu máu và bong tróc kinh nguyệt đồng bộ.<br><br><b>💡 Giải thích của AI:</b><br>Ở bệnh nhân AUB-O không rụng trứng, Progesterone không xuất hiện nên sự bong tróc không theo chu kỳ mà diễn ra rải rác từng vùng gây chảy máu rỉ rả kéo dài.",
-      "extra": "📖 Nguồn: Salamonsen LA et al. Best Practice & Research Clinical Obstetrics & Gynaecology",
-      "tags": [
-        "OB-22",
-        "MMPs",
-        "Bong_niem_mac",
-        "Sinh_ly_benh"
+        "AUB_I"
       ]
     },
     {
@@ -400,173 +544,160 @@
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Cách tính và ngưỡng cut-off chẩn đoán HMB của bảng đánh giá lượng máu kinh bằng hình ảnh <span style=\"color:#74c0fc\"><b>PBAC (Pictorial Blood Loss Assessment Chart)</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc tính điểm</b> — Băng vệ sinh thấm nhẹ = <span style=\"color:#ffd43b\"><b>1 điểm</b></span>; thấm vừa = <span style=\"color:#ffd43b\"><b>5 điểm</b></span>; ướt đẫm = <span style=\"color:#ff6b6b\"><b>20 điểm</b></span>; cục máu nhỏ (≤ 2,5 cm) = 1 điểm; cục máu to (> 2,5 cm) = 5 điểm.<br>2) <b>Ngưỡng chẩn đoán HMB</b> — Tổng điểm PBAC trong một chu kỳ kinh nguyệt <span style=\"color:#ff6b6b\"><b>≥ 100 điểm</b></span>.<br>3) <b>Tương đương định lượng</b> — Điểm PBAC ≥ 100 tương đương với lượng máu kinh mất thực tế <span style=\"color:#ffd43b\"><b>> 80 mL</b></span> (độ nhạy và độ đặc hiệu > 85%).<br><br><b>💡 Giải thích của AI:</b><br>PBAC là công cụ bán định lượng được công nhận trên toàn thế giới trong các thử nghiệm lâm sàng và phòng khám phụ khoa để đánh giá đáp ứng điều trị HMB.",
+      "asks": [
+        "Quy tắc tính điểm",
+        "Ngưỡng chẩn đoán"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Quy tắc tính điểm</b></span> và <span style=\"color:#ff6b6b\"><b>ngưỡng chẩn đoán</b></span> HMB theo thang điểm hình ảnh PBAC?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc tính điểm:</b> Băng vệ sinh ướt nhẹ = 1 điểm; ướt vừa = 5 điểm; ướt đẫm = <span style=\"color:#ffd43b\"><b>20 điểm</b></span>; cục máu nhỏ = 1 điểm; cục máu to (> 2,5 cm) = <span style=\"color:#ffd43b\"><b>5 điểm</b></span>.<br>2) <b>Ngưỡng chẩn đoán:</b> Tổng điểm PBAC trong một chu kỳ kinh nguyệt <span style=\"color:#ff6b6b\"><b>≥ 100 điểm</b></span> (tương đương lượng máu mất thực tế > 80 mL).<br><br><b>💡 Giải thích của AI:</b><br>PBAC là công cụ bán định lượng được công nhận trên toàn thế giới trong các thử nghiệm lâm sàng phụ khoa để đánh giá đáp ứng điều trị HMB.",
       "extra": "📖 Nguồn: Higham JM et al. Br J Obstet Gynaecol & FIGO 2018",
       "tags": [
         "OB-22",
+        "B1",
         "PBAC",
-        "HMB",
-        "Dinh_luong"
+        "HMB"
       ]
     },
     {
-      "id": "OB22-B2-03",
+      "id": "OB22-B2-02",
       "type": "basic",
       "section": "B2",
-      "category": "Dấu hiệu Adenomyosis",
+      "category": "Phân biệt cấp vs mạn",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Các dấu hiệu hình ảnh kinh điển của <span style=\"color:#74c0fc\"><b>Adenomyosis (Lạc nội mạc trong cơ tử cung)</b></span> trên TVUS và MRI?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Hình thái tử cung</b> — Tử cung to hình cầu, thành cơ tử cung dày bất đối xứng (thường dày ở thành sau).<br>2) <b>Dấu hiệu trên TVUS (MUSA consensus)</b> — Vùng tiếp giáp (junctional zone) dày không đều, bóng cản hình quạt xòe nan hoa (<span style=\"color:#74c0fc\"><b>fan-shaped shadowing</b></span>), nang nhỏ hồi âm trống trong lớp cơ tử cung.<br>3) <b>Tiêu chuẩn vàng trên MRI</b> — Bề dày vùng tiếp giáp (Junctional Zone - JZ) <span style=\"color:#ff6b6b\"><b>> 12 mm</b></span> (nếu JZ 8–12 mm cần kết hợp dấu hiệu thứ phát; JZ < 8 mm loại trừ adenomyosis).<br><br><b>💡 Giải thích của AI:</b><br>Adenomyosis làm suy yếu khả năng co bóp tự nhiên của các sợi cơ tử cung bao quanh động mạch xoắn, dẫn đến lượng máu kinh ra ồ ạt kèm đau bụng kinh dữ dội.",
-      "extra": "📖 Nguồn: MUSA (Morphological Uterus Sonographic Assessment) group consensus",
+      "asks": [
+        "Đặc điểm cấp tính",
+        "Đặc điểm mạn tính"
+      ],
+      "front": "So sánh <span style=\"color:#ff6b6b\"><b>đặc điểm cấp tính</b></span> (Acute AUB) vs <span style=\"color:#74c0fc\"><b>đặc điểm mạn tính</b></span> (Chronic AUB)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Đặc điểm cấp tính:</b> Đợt ra máu lượng nhiều, đột ngột, đòi hỏi can thiệp khẩn cấp ngay lập tức để ngăn ngừa mất máu nặng đe dọa <span style=\"color:#ff6b6b\"><b>huyết động</b></span>.<br>2) <b>Đặc điểm mạn tính:</b> Xuất huyết tử cung bất thường về tần suất, thời gian hoặc lượng máu kéo dài trong suốt <span style=\"color:#ffd43b\"><b>ít nhất 6 tháng</b></span> gần đây.<br><br><b>💡 Giải thích của AI:</b><br>Acute AUB có thể xảy ra đột ngột trên nền một bệnh nhân hoàn toàn bình thường hoặc là đợt bùng phát cấp tính của một Chronic AUB sẵn có.",
+      "extra": "📖 Nguồn: FIGO 2018 & ACOG Practice Bulletin No. 128",
       "tags": [
         "OB-22",
-        "Adenomyosis",
-        "TVUS",
-        "MRI",
-        "Junctional_zone"
+        "B2",
+        "Acute_AUB",
+        "Chronic_AUB"
       ]
     },
     {
-      "id": "OB22-B2-04",
+      "id": "OB22-B5-02",
       "type": "basic",
-      "section": "B2",
-      "category": "Polyp nội mạc tử cung",
-      "tier": 2,
-      "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Tỷ lệ ác tính hóa và chỉ định phẫu thuật cắt polyp nội mạc tử cung <span style=\"color:#74c0fc\"><b>(AUB-P)</b></span> qua soi buồng tử cung?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tỷ lệ ác tính</b> — Tỷ lệ ung thư hoặc tiền ung thư trong polyp nội mạc ở phụ nữ trong độ tuổi sinh sản là <span style=\"color:#ffd43b\"><b>1 – 3%</b></span>, nhưng tăng vọt lên <span style=\"color:#ff6b6b\"><b>5 – 10% ở phụ nữ sau mãn kinh</b></span> có triệu chứng ra máu.<br>2) <b>Chỉ định cắt qua nội soi buồng tử cung</b> — Polyp có triệu chứng (AUB, IMB); polyp kích thước <span style=\"color:#ffd43b\"><b>> 1,5 cm</b></span>; polyp ở phụ nữ sau mãn kinh; hoặc bệnh nhân đang điều trị vô sinh.<br>3) <b>Ưu thế của soi buồng tử cung</b> — <span style=\"color:#51cf66\"><b>Hysteroscopic Polypectomy</b></span> cho phép cắt trọn chân cuống polyp dưới quan sát trực tiếp, tránh sót tổn thương so với nạo mù.<br><br><b>💡 Giải thích của AI:</b><br>Nạo buồng tử cung bằng thìa nạo mù (blind D&C) có thể bỏ sót tới 50% các polyp có cuống di động tự do trong buồng tử cung.",
-      "extra": "📖 Nguồn: AAGL Practice Guideline · Diagnosis and Management of Endometrial Polyps",
-      "tags": [
-        "OB-22",
-        "Polyp",
-        "AUB_P",
-        "Hysteroscopy",
-        "Ac_tinh"
-      ]
-    },
-    {
-      "id": "OB22-B3-03",
-      "type": "basic",
-      "section": "B3",
-      "category": "Bệnh lý tuyến giáp & AUB",
-      "tier": 2,
-      "track": "ebm",
-      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
-      "badge_class": "badge-ebm",
-      "front": "Cơ chế gây rối loạn kinh nguyệt (AUB-O) của <span style=\"color:#74c0fc\"><b>bệnh lý suy giáp (Hypothyroidism)</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Tăng tiết TRH</b> — Nồng độ hormone giáp (T3, T4) suy giảm kích thích vùng dưới đồi tăng tiết hormone <span style=\"color:#74c0fc\"><b>TRH</b></span>.<br>2) <b>Tăng Prolactin máu</b> — TRH kích thích trực tiếp thùy trước tuyến yên tăng tiết <span style=\"color:#ff6b6b\"><b>Prolactin</b></span> → Prolactin ức chế giải phóng GnRH ngắt quãng.<br>3) <b>Hậu quả lâm sàng</b> — Mất đỉnh LH, không rụng trứng, nội mạc tăng sinh không đối kháng gây <span style=\"color:#ff6b6b\"><b>rong kinh lượng nhiều (HMB)</b></span> hoặc vô kinh kéo dài.<br><br><b>💡 Giải thích của AI:</b><br>Xét nghiệm TSH là một trong những xét nghiệm sàng lọc cơ bản rẻ tiền bắt buộc phải làm khi đánh giá bệnh nhân AUB-O không rõ nguyên nhân.",
-      "extra": "📖 Nguồn: Yen & Jaffe's Reproductive Endocrinology & ACOG PB 136",
-      "tags": [
-        "OB-22",
-        "Suy_giap",
-        "AUB_O",
-        "TRH",
-        "Prolactin"
-      ]
-    },
-    {
-      "id": "OB22-B4-03",
-      "type": "basic",
-      "section": "B4",
+      "section": "B5",
       "category": "Siêu âm bơm nước SIS",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Ưu thế vượt trội của <span style=\"color:#51cf66\"><b>Siêu âm bơm nước buồng tử cung (SIS)</b></span> so với siêu âm đầu dò âm đạo thông thường?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Làm căng buồng tử cung</b> — Nước muối sinh lý vô khuẩn bơm vào lòng buồng tạo môi trường tương phản âm học hoàn hảo giữa dịch và niêm mạc.<br>2) <b>Phân biệt bản chất tổn thương</b> — Phân biệt rõ ràng giữa <span style=\"color:#74c0fc\"><b>Polyp nội mạc tử cung (xuất phát từ niêm mạc)</b></span> và <span style=\"color:#74c0fc\"><b>U xơ dưới niêm mạc (xuất phát từ cơ, có lớp nội mạc phủ)</b></span>.<br>3) <b>Độ chính xác tương đương soi buồng tử cung</b> — Độ nhạy đạt <span style=\"color:#ffd43b\"><b>> 95%</b></span> trong phát hiện các tổn thương xâm lấn lòng buồng nhưng ít xâm lấn và chi phí thấp hơn nhiều.<br><br><b>💡 Giải thích của AI:</b><br>SIS giúp đo chính xác tỷ lệ lồi vào buồng tử cung của u xơ để phân loại chính xác Type 0, Type 1 hay Type 2 trước khi quyết định phẫu thuật.",
+      "asks": [
+        "Nguyên lý kỹ thuật",
+        "Giá trị chẩn đoán"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Nguyên lý kỹ thuật</b></span> và <span style=\"color:#74c0fc\"><b>giá trị chẩn đoán</b></span> của Siêu âm bơm nước buồng tử cung (SIS)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên lý kỹ thuật:</b> Bơm nước muối sinh lý vô khuẩn vào buồng tử cung qua ống thông nhỏ làm căng lòng buồng, tạo độ tương phản âm học vượt trội.<br>2) <b>Giá trị chẩn đoán:</b> Phân biệt chính xác giữa <span style=\"color:#74c0fc\"><b>Polyp nội mạc tử cung</b></span> và <span style=\"color:#74c0fc\"><b>U xơ dưới niêm mạc</b></span> với độ nhạy và độ đặc hiệu > 95%.<br><br><b>💡 Giải thích của AI:</b><br>SIS giúp bác sĩ đo chính xác tỷ lệ lồi vào buồng tử cung của u xơ để phân loại chính xác Type 0, Type 1 hay Type 2 trước khi quyết định phẫu thuật.",
       "extra": "📖 Nguồn: AIUM Practice Parameter for the Performance of Sonohysterography",
       "tags": [
         "OB-22",
+        "B5",
         "SIS",
-        "Sonohysterography",
         "Polyp",
         "U_xo"
       ]
     },
     {
-      "id": "OB22-B5-03",
-      "type": "basic",
-      "section": "B5",
-      "category": "Chỉ định truyền máu",
-      "tier": 1,
-      "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>THUẬT TOÁN CẤP CỨU:</b> Ngưỡng chỉ định <span style=\"color:#ff6b6b\"><b>truyền máu khối hồng cầu</b></span> trong cấp cứu Acute AUB?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Bệnh nhân bình thường khỏe mạnh</b> — Truyền máu khi nồng độ Hemoglobin <span style=\"color:#ff6b6b\"><b>Hb < 70 g/L (hoặc Hct < 21%)</b></span>.<br>2) <b>Bệnh nhân có bệnh tim mạch hoặc triệu chứng sốc</b> — Truyền máu khi <span style=\"color:#ff6b6b\"><b>Hb < 80 g/L</b></span> hoặc khi có tụt huyết áp tư thế, hoa mắt chóng mặt dữ dội, mạch nhanh <span style=\"color:#ffd43b\"><b>> 110 lần/phút</b></span>.<br>3) <b>Mục tiêu hồi sức</b> — Duy trì Hb ở mức <span style=\"color:#51cf66\"><b>70 – 90 g/L</b></span> đủ để đảm bảo oxy hóa tổ chức mà không làm quá tải tuần hoàn.<br><br><b>💡 Giải thích của AI:</b><br>Không nhất thiết phải nâng Hb lên mức bình thường (> 120 g/L) bằng truyền máu; phần còn lại sẽ được bổ sung bằng liệu pháp sắt đường tĩnh mạch hoặc đường uống sau khi đã cầm máu.",
-      "extra": "📖 Nguồn: AABB Guidelines on Blood Transfusion & ACOG PB 557",
-      "tags": [
-        "OB-22",
-        "Truyen_mau",
-        "Acute_AUB",
-        "Thuat_toan",
-        "Hb_70"
-      ]
-    },
-    {
-      "id": "OB22-B6-03",
+      "id": "OB22-B6-02",
       "type": "basic",
       "section": "B6",
-      "category": "Nút mạch tử cung UAE",
+      "category": "Sinh thiết Pipelle",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Chỉ định, cơ chế và lưu ý sinh sản của phương pháp <span style=\"color:#51cf66\"><b>Nút mạch động mạch tử cung (UAE)</b></span> trong điều trị AUB do u xơ?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế</b> — Đưa vi ống thông qua động mạch đùi vào chọn lọc động mạch tử cung 2 bên, bơm các hạt vi cầu (PVA hoặc gelatin) gây tắc nghẽn nuôi dưỡng khối u xơ → khối u bị thiếu máu hoại tử và teo nhỏ dần.<br>2) <b>Chỉ định</b> — U xơ tử cung nhiều nhân gây HMB nặng ở phụ nữ <span style=\"color:#51cf66\"><b>muốn bảo tồn tử cung và không muốn phẫu thuật mổ mở</b></span>.<br>3) <b>Lưu ý sinh sản</b> — <span style=\"color:#ff6b6b\"><b>Không khuyến cáo ưu tiên cho phụ nữ còn nguyện vọng mang thai</b></span> do nguy cơ suy giảm dự trữ buồng trứng sớm, tăng tỷ lệ sảy thai và bất thường bám bánh rau sau can thiệp.<br><br><b>💡 Giải thích của AI:</b><br>Sau thủ thuật, bệnh nhân thường gặp hội chứng sau nút mạch (đau bụng vùng chậu, sốt nhẹ, buồn nôn) cần kiểm soát giảm đau đa mô thức tốt trong 48 giờ đầu.",
+      "asks": [
+        "Ưu điểm thủ thuật",
+        "Độ nhạy phát hiện"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Ưu điểm thủ thuật</b></span> và <span style=\"color:#ffd43b\"><b>độ nhạy phát hiện</b></span> ung thư của phương pháp hút sinh thiết Pipelle tại phòng khám?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Ưu điểm thủ thuật:</b> Thực hiện nhanh gọn ngay tại phòng khám ngoại trú, sử dụng ống hút nhựa mềm dẻo, <span style=\"color:#51cf66\"><b>không cần gây mê</b></span> và không cần nong cổ tử cung.<br>2) <b>Độ nhạy phát hiện:</b> Độ nhạy phát hiện ung thư biểu mô nội mạc tử cung đạt tới <span style=\"color:#ffd43b\"><b>> 95 – 98%</b></span> ở phụ nữ sau mãn kinh có tổn thương lan tỏa.<br><br><b>💡 Giải thích của AI:</b><br>Nếu sinh thiết Pipelle cho kết quả mô bệnh học không đủ chẩn đoán hoặc âm tính nhưng bệnh nhân vẫn tiếp tục ra máu, bắt buộc phải nội soi buồng tử cung và sinh thiết dưới quan sát trực tiếp.",
+      "extra": "📖 Nguồn: Dijkhuizen FP et al. Cancer 2000 & ACOG PB 128",
+      "tags": [
+        "OB-22",
+        "B6",
+        "Pipelle",
+        "Do_nhay",
+        "Sinh_thiet"
+      ]
+    },
+    {
+      "id": "OB22-B8-02",
+      "type": "basic",
+      "section": "B8",
+      "category": "Tranexamic acid",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Liều lượng chuẩn",
+        "Mức độ giảm máu"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Liều lượng chuẩn</b></span> và <span style=\"color:#ffd43b\"><b>mức độ giảm máu</b></span> của Tranexamic acid trong điều trị HMB mạn tính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Liều lượng chuẩn:</b> Uống <span style=\"color:#51cf66\"><b>1 – 1,3 g (2 viên 650 mg hoặc 500 mg) × 3 lần/ngày</b></span> chỉ uống trong những ngày có kinh nhiều (tối đa 4–5 ngày).<br>2) <b>Mức độ giảm máu:</b> Giúp giảm từ <span style=\"color:#ffd43b\"><b>40% đến 60% lượng máu kinh</b></span> mất thực tế so với trước điều trị.<br><br><b>💡 Giải thích của AI:</b><br>Tranexamic acid là lựa chọn không chứa hormone hàng đầu cho những phụ nữ muốn có thai hoặc có chống chỉ định với liệu pháp nội tiết.",
+      "extra": "📖 Nguồn: Cochrane Systematic Review & NICE NG88",
+      "tags": [
+        "OB-22",
+        "B8",
+        "Tranexamic_acid",
+        "Lieu_luong"
+      ]
+    },
+    {
+      "id": "OB22-B10-02",
+      "type": "basic",
+      "section": "B10",
+      "category": "Nút mạch động mạch tử cung",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "asks": [
+        "Nguyên lý nút mạch",
+        "Lưu ý sinh sản"
+      ],
+      "front": "<span style=\"color:#51cf66\"><b>Nguyên lý nút mạch</b></span> động mạch tử cung (UAE) và <span style=\"color:#ff6b6b\"><b>lưu ý sinh sản</b></span> ở bệnh nhân u xơ tử cung?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên lý nút mạch:</b> Luồn vi ống thông qua động mạch đùi vào động mạch tử cung 2 bên, bơm hạt vi cầu làm tắc mạch nuôi khối u khiến u xơ bị thiếu máu <span style=\"color:#51cf66\"><b>hoại tử và teo nhỏ</b></span>.<br>2) <b>Lưu ý sinh sản:</b> <span style=\"color:#ff6b6b\"><b>Không khuyến cáo ưu tiên cho phụ nữ còn muốn sinh con</b></span> do nguy cơ suy giảm dự trữ buồng trứng sớm, tăng tỷ lệ sảy thai và bất thường bám bánh rau.<br><br><b>💡 Giải thích của AI:</b><br>Sau thủ thuật, bệnh nhân thường gặp hội chứng sau nút mạch (đau vùng chậu, sốt nhẹ, buồn nôn) cần kiểm soát giảm đau tốt trong 48 giờ đầu.",
       "extra": "📖 Nguồn: CIRSE & ACOG Practice Bulletin No. 128",
       "tags": [
         "OB-22",
+        "B10",
         "UAE",
         "Nut_mach",
-        "U_xo",
         "Sinh_san"
       ]
     },
     {
-      "id": "OB22-B8-05",
+      "id": "OB22-B11-02",
       "type": "basic",
-      "section": "B8",
-      "category": "Câu hỏi thực chiến",
-      "tier": 1,
-      "track": "ebm",
-      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
-      "badge_class": "badge-algo",
-      "front": "⚡ <b>CÂU HỎI VỀ PHẪU THUẬT:</b> Nữ 32 tuổi chưa đủ con bị HMB do u xơ Type 1: Vì sao <span style=\"color:#ff6b6b\"><b>CẤM CHỈ ĐỊNH Triệt đốt nội mạc tử cung (Endometrial Ablation)</b></span>?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chống chỉ định tuyệt đối</b> — Triệt đốt nội mạc tử cung <span style=\"color:#ff6b6b\"><b>CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI Ở PHỤ NỮ CÒN MUỐN MANG THAI</b></span>.<br>2) <b>Hậu quả</b> — Phá hủy lớp màng đáy nội mạc tử cung làm buồng tử cung bị xơ dính hoàn toàn (dính buồng tử cung nặng nề), không còn niêm mạc chức năng để phôi thai làm tổ.<br>3) <b>Lựa chọn chuẩn mực</b> — <span style=\"color:#51cf66\"><b>Phẫu thuật bóc u xơ qua nội soi buồng tử cung (Hysteroscopic Myomectomy)</b></span> để bảo tồn toàn vẹn buồng tử cung cho sinh sản.<br><br><b>💡 Giải thích của AI:</b><br>Nếu mang thai sau triệt đốt nội mạc tử cung, thai kỳ có nguy cơ cực cao bị thai bám vết mổ, rau cài răng lược, sảy thai và vỡ tử cung.",
-      "extra": "📖 Nguồn: ACOG Committee Opinion No. 819 · Endometrial Ablation",
-      "tags": [
-        "OB-22",
-        "Cau_hoi_thuc_chien",
-        "Endometrial_ablation",
-        "Chong_chi_dinh"
-      ]
-    },
-    {
-      "id": "OB22-B8-06",
-      "type": "basic",
-      "section": "B8",
-      "category": "Câu hỏi thực chiến",
+      "section": "B11",
+      "category": "AUB vị thành niên",
       "tier": 2,
       "track": "ebm",
       "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
       "badge_class": "badge-ebm",
-      "front": "Bệnh nhân nữ bị AUB đang điều trị thuốc chống đông máu <span style=\"color:#ff6b6b\"><b>(Warfarin / DOACs)</b></span>: Biện pháp kiểm soát kinh nguyệt nào an toàn nhất?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Lựa chọn số 1 tối ưu</b> — <span style=\"color:#51cf66\"><b>Vòng đặt tử cung giải phóng Levonorgestrel (LNG-IUS / Mirena)</b></span>; tác dụng làm mỏng niêm mạc tại chỗ, giảm 90% lượng máu mất mà hoàn toàn không ảnh hưởng đến chuyển hóa thuốc chống đông.<br>2) <b>Lựa chọn thuốc uống</b> — Progestin liều liên tục (Dienogest, Norethisterone, hoặc DMPA tiêm bắp); hoặc viên tránh thai kết hợp nếu không có tiền sử huyết khối tĩnh mạch.<br>3) <b>Thận trọng với Tranexamic acid</b> — Tranexamic acid chống chỉ định phối hợp khi bệnh nhân đang dùng thuốc chống đông để điều trị huyết khối cấp tính.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng 20–30% phụ nữ bắt đầu dùng thuốc chống đông toàn thân sẽ gặp phải tình trạng cường kinh nặng nề cần can thiệp dự phòng sớm.",
-      "extra": "📖 Nguồn: Thrombosis and Haemostasis & FIGO 2018",
+      "asks": [
+        "Nguyên nhân chính",
+        "Phác đồ tạo chu kỳ"
+      ],
+      "front": "<span style=\"color:#74c0fc\"><b>Nguyên nhân chính</b></span> gây AUB ở vị thành niên và <span style=\"color:#51cf66\"><b>phác đồ tạo chu kỳ</b></span> an toàn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Nguyên nhân chính:</b> <span style=\"color:#74c0fc\"><b>Trục HPO chưa trưởng thành hoàn toàn</b></span> dẫn đến các chu kỳ không rụng trứng (chiếm tới 70–80% các ca).<br>2) <b>Phác đồ tạo chu kỳ:</b> Dùng Progestin chu kỳ (<span style=\"color:#51cf66\"><b>Dydrogesterone 10–20 mg/ngày</b></span> hoặc MPA 10 mg/ngày từ ngày thứ 16 đến ngày thứ 25 của chu kỳ) trong 3–6 tháng.<br><br><b>💡 Giải thích của AI:</b><br>Trục HPO thường mất từ 2 đến 3 năm sau kỳ kinh đầu tiên để đạt được sự hoàn thiện và rụng trứng đều đặn tự nhiên.",
+      "extra": "📖 Nguồn: ACOG Committee Opinion No. 651 · Menstruation in Adolescents",
       "tags": [
         "OB-22",
-        "Cau_hoi_thuc_chien",
-        "Chong_dong",
-        "Warfarin",
-        "DOACs"
+        "B11",
+        "Vi_thanh_nien",
+        "Truc_HPO",
+        "Progestin"
       ]
     }
   ]

@@ -246,6 +246,18 @@ Masood 2025 (PMID 41050634): LNG-IUS hiệu quả nhất trong AUB do rối lo�
 - Thiết bị: IUD đồng (copper IUD) gây HMB phổ biến.
 - Hormone therapy: unopposed estrogen, irregular progestin use.
 
+
+#### AUB-N: Khuyết sẹo mổ lấy thai (Cesarean Scar Defect / Isthmocele) — Điểm nóng lâm sàng AUB hiện đại
+
+Với tỷ lệ mổ lấy thai gia tăng trên toàn cầu, **Khuyết sẹo mổ lấy thai (Isthmocele / Niche)** đã trở thành nguyên nhân AUB-N hàng đầu ở phụ nữ từng mổ đẻ:
+* **Cơ chế:** Vết mổ cơ tử cung không liền sẹo hoàn toàn tạo thành một hốc khuyết hình túi ở đoạn dưới thân tử cung. Máu kinh nguyệt bị ứ đọng lại trong hốc này trong kỳ kinh, sau đó rỉ rả thoát ra ngoài nhiều ngày sau khi sạch kinh $\rightarrow$ Gây triệu chứng kinh điển: **Ra máu nâu thẫm thấm giọt kéo dài sau sạch kinh (Postmenstrual spotting)**, đau hạ vị mạn tính và vô sinh thứ phát do dịch nhầy viêm trong hốc cản trở tinh trùng.
+* **Chẩn đoán (Đồng thuận EES / ESGE 2023, PMID: 37406450):**
+  * Siêu âm đầu dò âm đạo (TVUS) hoặc siêu âm bơm nước (SIS): Hốc khuyết hình tam giác hồi âm trống ở thành trước đoạn dưới tử cung với độ dày cơ tử cung tồn dư (Residual Myometrial Thickness - RMT).
+  * Khuyết sẹo lớn khi $\text{RMT} < 2{,}5 - 3\text{ mm}$ hoặc độ sâu khuyết $\ge 50\%$ bề dày thành cơ.
+* **Xử trí:**
+  * Nội khoa: Dùng thuốc tránh thai Progestin đơn thuần hoặc COCs liên tục để ức chế kinh.
+  * Phẫu thuật: Cắt gọt mép sẹo khuyết qua **Nội soi buồng tử cung (Hysteroscopic niche resection)** nếu $\text{RMT} \ge 3\text{ mm}$; hoặc phẫu thuật tạo hình phục hồi thành sẹo qua **Nội soi ổ bụng / Mổ mở (Laparoscopic/Robotic repair)** nếu $\text{RMT} < 2{,}5 - 3\text{ mm}$ và bệnh nhân còn muốn mang thai để phòng ngừa vỡ tử cung thai kỳ sau.
+
 #### AUB-N: Not yet classified
 
 - Các nguyên nhân chưa xác định rõ: vascular malformation, chronic endometritis, myometrial hypertrophy...
@@ -336,6 +348,24 @@ ACOG CO #734 (PMID 29683909): Ở PMB, **ET ≤4 mm** có **NPV >99%** cho ung t
 **Evidence:**
 - Vani Lanka 2026 (PMID 41664752): Trong 240 phụ nữ HMB, **LNG-IUS giảm PBAC 93% sau 6 tháng**, TXA giảm 78%, DMPA giảm 78%, COC giảm ~70%. LNG-IUS có tuân thủ cao nhất và cải thiện Hb đáng kể.
 - NICE NG88: First-line cho HMB là **LNG-IUS**; nếu từ chối hoặc chống chỉ định → COC, TXA, NSAID.
+
+
+### 6.2.1. Đột phá Y học chứng cứ: Thuốc kháng thụ thể GnRH đường uống phối hợp (Oral GnRH Receptor Antagonists with Add-Back Therapy)
+
+Trong thập kỷ qua, sự ra đời của nhóm **thuốc kháng thụ thể GnRH đường uống thế hệ mới** đã tạo ra cuộc cách mạng trong điều trị nội khoa U xơ tử cung (AUB-L) và Lạc nội mạc trong cơ tử cung (AUB-A):
+
+* **Cơ chế tác động:** Khác với GnRH đồng vận (Agonist) gây bùng phát ban đầu (flare-up), GnRH đối kháng (Antagonist) cạnh tranh trực tiếp tại thụ thể GnRH ở thùy trước tuyến yên $\rightarrow$ **ức chế tức thì tiết LH và FSH trong vòng vài giờ**, nhanh chóng đưa nồng độ Estrogen và Progesterone buồng trứng về mức nền.
+* **Liệu pháp bổ sung ngược (Add-Back Therapy - ABT):** Để ngăn chặn tác dụng phụ bốc hỏa, khô âm đạo và đặc biệt là hiện tượng **mất khoáng xương (loãng xương)** khi dùng kéo dài, thuốc được bào chế phối hợp sẵn với liều sinh lý Estrogen + Progestin.
+* **Các chế phẩm đã được FDA & EMA phê duyệt:**
+  1. **Relugolix Combination Therapy (Ryeqo / Myfembree):**
+     * Thành phần: Relugolix 40 mg $+$ Estradiol 1 mg $+$ Norethisterone acetate 0,5 mg uống 1 viên/ngày.
+     * **Bằng chứng thử nghiệm LIBERTY 1 & LIBERTY 2 (NEJM 2021, PMID: 33596357):** Trong 2 thử nghiệm đa trung tâm ngẫu nhiên có đối chứng, tỷ lệ đáp ứng cầm máu (lượng máu kinh $< 80\text{ mL}$ và giảm $\ge 50\%$ so với ban đầu) đạt **73% ở LIBERTY 1 và 71% ở LIBERTY 2** (so với 19% và 15% ở nhóm giả dược, $p < 0{,}001$). Tỷ lệ vô kinh hoàn toàn đạt $> 50\%$.
+     * **Nghiên cứu mở rộng LIBERTY 2 năm (AJOG 2023, PMID: 37666383):** Hiệu quả duy trì bền vững suốt 24 tháng, mật độ khoáng xương (BMD) được bảo toàn nguyên vẹn.
+     * **Hiệu quả trên Adenomyosis (Fertility & Sterility 2025, PMID: 40320117):** Giảm đau vùng chậu và giảm HMB vượt trội ở phân nhóm bệnh nhân vừa có u xơ vừa có lạc nội mạc trong cơ tử cung.
+  2. **Elagolix with Add-Back Therapy (Oriahnn):**
+     * Thành phần: Elagolix 300 mg $+$ Estradiol 1 mg $+$ Norethindrone acetate 0,5 mg (uống 2 lần/ngày).
+  3. **Linzagolix (Yselty):**
+     * Được EMA phê duyệt 2022 với 2 chế độ liều linh hoạt: 100 mg/ngày không kèm ABT (dành cho người có chống chỉ định Estrogen) hoặc 200 mg/ngày kèm ABT.
 
 ### 6.3. Acute AUB — Protocol Cấp Cứu Xuất Huyết Tử Cung Cấp Tính Nặng (Chuẩn ACOG PB #557 & ACOG #128)
 

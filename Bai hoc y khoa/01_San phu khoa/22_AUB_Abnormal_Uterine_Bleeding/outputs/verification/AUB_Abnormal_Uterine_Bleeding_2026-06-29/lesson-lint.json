@@ -1,0 +1,333 @@
+{
+  "id": "OB-22",
+  "specialty": "san",
+  "profile": "disease",
+  "lesson": "AUB_Abnormal_Uterine_Bleeding_2026-06-29.md",
+  "mode": "hotfix",
+  "summary": {
+    "block": 0,
+    "debt": 52,
+    "warn": 0,
+    "by_code": {
+      "C_CHAIN_FORMAT": 1,
+      "F_LATEX": 32,
+      "M_FILENAME": 1,
+      "S_DEPTH": 7,
+      "V_BANNED_LABEL": 11
+    }
+  },
+  "issues": [
+    {
+      "code": "M_FILENAME",
+      "card_id": "AUB_Abnormal_Uterine_Bleeding_2026-06-29.md",
+      "message": "tên file bài phải dạng OB-22_<Ten_khong_dau>_YYYY-MM-DD_RELEASE_vN.md",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Profile structural markers (disease)",
+      "message": "5 issues (cần 0 issues) missing heading: theo dõi; missing heading: tóm tắt; missing heading: bằng chứng; missing prerequisite: nền tảng tối thiểu cần dùng ngay; missing safety: box đỏ",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Main sections count (##) & keywords",
+      "message": "18 sections (7/10 keywords) (cần ≥10 sections (10 keywords)) Missing keywords: ['CHẨN ĐOÁN', 'THEO DÕI', 'BẰNG CHỨNG']",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Examples (ví dụ / VD)",
+      "message": "0 (cần 8)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Misconceptions / traps (bẫy / hay nhầm)",
+      "message": "3 (cần 8)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Self-check checkpoints",
+      "message": "0 (cần 5)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "Tips bullets (Section 7)",
+      "message": "10 (cần 12)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "S_DEPTH",
+      "card_id": "No padding or duplicated sections",
+      "message": "1 issues (cần 0 issues) - **PMB = ung thư nội mạc tử cung cho đến khi chứng minh ngư...",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 198",
+      "message": "LaTeX/escape thừa `$> 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 199",
+      "message": "LaTeX/escape thừa `$\\ge 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 201",
+      "message": "LaTeX/escape thừa `$100\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 202",
+      "message": "LaTeX/escape thừa `$100\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 203",
+      "message": "LaTeX/escape thừa `$\\ge 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 204",
+      "message": "LaTeX/escape thừa `$< 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 207",
+      "message": "LaTeX/escape thừa `$< 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 210",
+      "message": "LaTeX/escape thừa `$> 90\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 253",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 256",
+      "message": "LaTeX/escape thừa `$\\text{RMT} < 2{,}5 - 3\\text{ ` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 259",
+      "message": "LaTeX/escape thừa `$\\text{RMT} \\ge 3\\text{ mm}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 357",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 361",
+      "message": "LaTeX/escape thừa `$+$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 362",
+      "message": "LaTeX/escape thừa `$< 80\\text{ mL}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 366",
+      "message": "LaTeX/escape thừa `$+$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 378",
+      "message": "LaTeX/escape thừa `$\\text{Hb} < 70\\text{ g/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 379",
+      "message": "LaTeX/escape thừa `$\\text{Hb} < 80\\text{ g/L}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 387",
+      "message": "LaTeX/escape thừa `$\\times$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 388",
+      "message": "LaTeX/escape thừa `$\\times$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 399",
+      "message": "LaTeX/escape thừa `$10\\text{ mg/kg}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 737",
+      "message": "LaTeX/escape thừa `$> 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 738",
+      "message": "LaTeX/escape thừa `$\\ge 50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 745",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 760",
+      "message": "LaTeX/escape thừa `$> 85\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 767",
+      "message": "LaTeX/escape thừa `$10\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 770",
+      "message": "LaTeX/escape thừa `$\\text{ET} > 4\\text{ mm}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 777",
+      "message": "LaTeX/escape thừa `$\\text{ET} \\le 4\\text{ mm}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 778",
+      "message": "LaTeX/escape thừa `$\\text{ET} \\le 4\\text{ mm}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 779",
+      "message": "LaTeX/escape thừa `$\\le 4\\text{ mm}$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 799",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 806",
+      "message": "LaTeX/escape thừa `$30–50\\%$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "F_LATEX",
+      "card_id": "dòng 808",
+      "message": "LaTeX/escape thừa `$\\rightarrow$` — dùng Unicode → ≥ ≤ ×",
+      "severity": "DEBT"
+    },
+    {
+      "code": "C_CHAIN_FORMAT",
+      "card_id": "*",
+      "message": "chỉ 0 chuỗi cơ chế dạng `> 🔄 **Chuỗi cơ chế:** … → …` (profile disease cần ≥ 4)",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 670",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 680",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 682",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 684",
+      "message": "nhãn cũ [FULL VERIFIED] bị cấm — dùng [FULL TEXT VERIFIED] hoặc [FULL TEXT / VISUAL VERIFIED]",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 687",
+      "message": "nhãn cũ [FULL VERIFIED] bị cấm — dùng [FULL TEXT VERIFIED] hoặc [FULL TEXT / VISUAL VERIFIED]",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 689",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 691",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 693",
+      "message": "nhãn cũ [FULL VERIFIED] bị cấm — dùng [FULL TEXT VERIFIED] hoặc [FULL TEXT / VISUAL VERIFIED]",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 696",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 698",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    },
+    {
+      "code": "V_BANNED_LABEL",
+      "card_id": "dòng 701",
+      "message": "nhãn cũ [DIRECTION ONLY] bị cấm — bỏ nhãn",
+      "severity": "DEBT"
+    }
+  ]
+}
