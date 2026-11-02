@@ -177,8 +177,14 @@
       margin: 1.2em 0;
       overflow-x: auto;
       text-align: center;
+      -webkit-overflow-scrolling: touch;
+      padding: 8px 0;
     }
-    .prose-reader .mermaid-diagram svg { max-width: 100%; height: auto; }
+    .prose-reader .mermaid-diagram svg {
+      max-width: none;
+      height: auto;
+      display: inline-block;
+    }
     .prose-reader pre {
       background: var(--surface);
       padding: 14px;
