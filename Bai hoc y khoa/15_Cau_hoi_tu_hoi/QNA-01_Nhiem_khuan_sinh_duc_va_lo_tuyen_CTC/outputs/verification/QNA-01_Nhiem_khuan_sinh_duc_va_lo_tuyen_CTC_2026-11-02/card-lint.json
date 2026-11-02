@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Các Câu Hỏi Tự Hỏi::QNA-01: Nhiễm khuẩn sinh dục & Lộ tuyến CTC",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-02T10:21:08",
+  "generated_at": "2026-11-02T10:31:40",
   "cards_source": "QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC_2026-11-02.cards.v2.json",
-  "cards_source_sha256": "cfd1b3dc046e52cc2fa8ce88a68196598a013813e2af1cecad3a2a069e9b8d25",
-  "card_count": 28,
+  "cards_source_sha256": "e3ab4809245240288143bd52b8ef6560fd7433dadc31bfcd452a85e76635c45a",
+  "card_count": 31,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\15_Cau_hoi_tu_hoi\\QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC\\outputs\\QNA-01_Nhiem_khuan_sinh_duc_va_lo_tuyen_CTC_2026-11-02.apkg",
   "anki_sync": {
-    "updated": 0,
-    "unchanged": 0,
-    "added": 28,
+    "updated": 1,
+    "unchanged": 27,
+    "added": 3,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 28
+    "deck_notes": 31
   },
-  "apkg_sha256": "b08fdb5d95e95693ec99f506b37a40cd179e088df173503f5cf18dc0ded36bd7",
-  "sqlite_notes": 28,
-  "sqlite_cards": 31
+  "apkg_sha256": "b2f75e4d9cee39e51df8569dd0792736d6ed90556c7f3345d9b18a8f6c5d1369",
+  "sqlite_notes": 31,
+  "sqlite_cards": 34
 }

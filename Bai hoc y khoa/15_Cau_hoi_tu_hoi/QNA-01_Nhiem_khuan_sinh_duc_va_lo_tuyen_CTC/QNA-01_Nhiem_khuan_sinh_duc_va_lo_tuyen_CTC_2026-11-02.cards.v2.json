@@ -565,14 +565,71 @@
       "track": "ebm",
       "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
       "badge_class": "badge-algo",
-      "front": "⚡ <b>CÂU HỎI TỰ HỎI:</b> Bệnh nhân đau hạ vị, sốt, nghi <span style=\"color:#ff6b6b\"><b>Viêm phần phụ (PID)</b></span> có dùng viên đặt âm đạo được không và nguyên tắc chọn thuốc?",
-      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Quy tắc ranh giới</b> — <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG DÙNG VIÊN ĐẶT LÀM THUỐC CHÍNH</b></span>; thuốc đặt không thể ngấm vào vòi trứng và buồng trứng.<br>2) <b>Bắt buộc toàn thân</b> — Phải dùng <span style=\"color:#51cf66\"><b>Ceftriaxone (tiêm) + Doxycycline (uống) + Metronidazole (uống) đủ 14 ngày</b></span>.<br>3) <b>Chỉ kê viên đặt khi</b> — Bệnh nhân có bằng chứng đồng nhiễm nấm hoặc loạn khuẩn tại âm đạo; ưu tiên đơn chất hoặc Fluomizin.<br><br><b>💡 Giải thích của AI:</b><br>Nhiều bệnh nhân bị lạm dụng viên đặt điều trị sai cho viêm phần phụ làm bệnh diễn tiến âm thầm thành áp xe vòi trứng buồng trứng (TOA) và vô sinh.",
+      "front": "⚡ <b>CÂU HỎI VỀ CHẾ PHẨM:</b> Bệnh nhân nghi ngờ <span style=\"color:#ff6b6b\"><b>Viêm phần phụ (PID)</b></span> có dùng viên đặt âm đạo làm thuốc chính được không và vì sao bắt buộc kháng sinh toàn thân đủ <span style=\"color:#ffd43b\"><b>14 ngày</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Viên đặt không có tác dụng</b> —  <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI KHÔNG DÙNG VIÊN ĐẶT LÀM THUỐC CHÍNH</b></span>; thuốc đặt chỉ tác dụng nông ở âm đạo, không ngấm tới vòi trứng và buồng trứng.<br>2) <b>Bắt buộc toàn thân</b> —  Phải dùng <span style=\"color:#51cf66\"><b>Ceftriaxone (tiêm) + Doxycycline (uống) + Metronidazole (uống)</b></span>.<br>3) <b>Lý do bắt buộc đủ 14 ngày</b> —  Chlamydia nhân lên chậm trong tế bào vòi trứng; dừng thuốc sớm gây viêm mạn tính và <span style=\"color:#ff6b6b\"><b>tắc vòi tử cung vô sinh vĩnh viễn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Viên đặt chỉ dùng hỗ trợ nếu bệnh nhân có bội nhiễm nấm hoặc loạn khuẩn tại âm đạo.",
       "extra": "📖 Nguồn: Phản xạ lâm sàng Sản Phụ khoa & CDC STI Guidelines 2021",
       "tags": [
         "QNA-01",
         "Cau_Hoi_Tu_Hoi",
         "PID",
         "Thuat_toan"
+      ]
+    },
+    {
+      "id": "QNA01-B8-04",
+      "type": "basic",
+      "section": "B8",
+      "category": "Kê đơn thai kỳ",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-algo",
+      "front": "⚡ <b>CÂU HỎI VỀ CHẾ PHẨM:</b> Phụ nữ mang thai bị viêm nấm hoặc loạn khuẩn thì chế phẩm nào <span style=\"color:#ff6b6b\"><b>TUYỆT ĐỐI CẤM</b></span> và chế phẩm nào <span style=\"color:#51cf66\"><b>AN TOÀN TUYỆT ĐỐI</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Chế phẩm tuyệt đối cấm</b> —  <span style=\"color:#ff6b6b\"><b>Fluconazole đường uống</b></span> (nguy cơ sảy thai và dị tật thai); viên đặt <span style=\"color:#ff6b6b\"><b>Mycogynax</b></span> (chứa Chloramphenicol và Dexamethasone); kháng sinh Doxycycline.<br>2) <b>Chế phẩm an toàn tuyệt đối</b> —  Viên đặt <span style=\"color:#51cf66\"><b>Clotrimazole hoặc Miconazole đặt 7 ngày</b></span> cho Nấm; <span style=\"color:#51cf66\"><b>Metronidazole uống hoặc gel</b></span> cho BV; và viên đặt sát khuẩn <span style=\"color:#51cf66\"><b>Dequalinium chloride (Fluomizin)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phụ nữ mang thai bị nấm chỉ được dùng thuốc đặt tại chỗ nhóm Azole đủ 7 ngày, không dùng liều ngắn 1-3 ngày.",
+      "extra": "📖 Nguồn: CDC STI Guidelines 2021 & FDA Drug Safety Communication",
+      "tags": [
+        "QNA-01",
+        "Cau_Hoi_Tu_Hoi",
+        "Thai_ky",
+        "Thuat_toan"
+      ]
+    },
+    {
+      "id": "QNA01-B8-05",
+      "type": "basic",
+      "section": "B8",
+      "category": "Sát khuẩn Fluomizin",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cơ chế chống kháng thuốc và chỉ định ưu tiên của chế phẩm đặt <span style=\"color:#51cf66\"><b>Dequalinium chloride 10 mg (Fluomizin)</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Cơ chế đa đích</b> —  Hợp chất amoni bậc 4 làm biến tính màng tế bào, đông tụ protein và làm tê liệt enzyme hô hấp, đồng thời <span style=\"color:#51cf66\"><b>phá vỡ màng sinh học (biofilm)</b></span>.<br>2) <b>Không gây kháng thuốc</b> —  Cơ chế sát khuẩn vật lý - hóa học trực tiếp khiến vi khuẩn và nấm <span style=\"color:#51cf66\"><b>không thể tạo đột biến kháng thuốc</b></span>.<br>3) <b>Chỉ định ưu tiên</b> —  Viêm âm đạo hỗn hợp, viêm tái phát nhiều lần, bệnh nhân kháng kháng sinh hoặc phụ nữ mang thai.<br><br><b>💡 Giải thích của AI:</b><br>Fluomizin được IUSTI/WHO khuyến cáo tương đương Clindamycin và Metronidazole trong điều trị BV với liệu trình đặt 6 ngày liên tục.",
+      "extra": "📖 Nguồn: IUSTI/WHO European Guidelines on Vaginal Discharge 2023 · Fluomizin",
+      "tags": [
+        "QNA-01",
+        "Cau_Hoi_Tu_Hoi",
+        "Fluomizin",
+        "Dequalinium"
+      ]
+    },
+    {
+      "id": "QNA01-B8-06",
+      "type": "basic",
+      "section": "B8",
+      "category": "Tương tác và phục hồi",
+      "tier": 2,
+      "track": "ebm",
+      "badge": "🔬 EBM HIỆN ĐẠI & LÂM SÀNG",
+      "badge_class": "badge-ebm",
+      "front": "Cơ chế ngộ độc rượu của chế phẩm <span style=\"color:#74c0fc\"><b>Metronidazole</b></span> và thời điểm vàng bổ sung <span style=\"color:#51cf66\"><b>men vi sinh đặt âm đạo (Gynophilus)</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <b>Phản ứng giống Disulfiram</b> —  Metronidazole ức chế enzyme aldehyde dehydrogenase làm tích tụ acetaldehyde trong máu; bắt buộc <span style=\"color:#ff6b6b\"><b>kiêng rượu bia 100%</b></span> trong khi dùng và sau khi ngừng <span style=\"color:#ffd43b\"><b>48 - 72 giờ</b></span>.<br>2) <b>Thời điểm vàng men vi sinh</b> —  Đặt <span style=\"color:#51cf66\"><b>ngay sau khi vừa kết thúc đợt kháng sinh</b></span>; nếu đặt cùng lúc sẽ bị kháng sinh tiêu diệt hết Lactobacillus sống.<br><br><b>💡 Giải thích của AI:</b><br>Bổ sung men vi sinh 7-14 ngày sau kháng sinh giúp tái tạo mật độ Lactobacillus ≥ 10^7 CFU/mL, cắt đứt vòng xoắn viêm tái phát.",
+      "extra": "📖 Nguồn: Dược lý học lâm sàng & Hướng dẫn phục hồi hệ vi sinh âm đạo",
+      "tags": [
+        "QNA-01",
+        "Cau_Hoi_Tu_Hoi",
+        "Disulfiram",
+        "Men_vi_sinh"
       ]
     }
   ]

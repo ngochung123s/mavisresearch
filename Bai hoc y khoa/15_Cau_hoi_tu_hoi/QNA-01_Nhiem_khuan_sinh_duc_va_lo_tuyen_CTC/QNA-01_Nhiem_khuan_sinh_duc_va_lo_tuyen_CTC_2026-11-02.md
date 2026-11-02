@@ -257,36 +257,105 @@ Lộ tuyến cổ tử cung (*Cervical Ectropion / Cervical Eversion*) là một
 
 ---
 
-## 7. 10 CÂU HỎI TỰ HỎI THỰC CHIẾN (CLINICAL SELF-ASSESSMENT TẠI BÀN KHÁM)
+## 7. CÁC CÂU HỎI TỰ HỎI VỀ CÁC CHẾ PHẨM & DƯỢC PHẨM ĐIỀU TRỊ (PHARMACEUTICAL CLINICAL SELF-ASSESSMENT)
 
-Đây là 10 câu hỏi tự vấn phản xạ mà mỗi bác sĩ lâm sàng cần tự đặt ra trước khi đặt bút kê đơn:
+Mục này tập hợp 12 câu hỏi tự vấn phản xạ lâm sàng mà mỗi bác sĩ, dược sĩ cần tự hỏi và tự trả lời dứt khoát trước khi đặt bút chọn chế phẩm điều trị:
 
-1. **Câu hỏi 1: Bệnh nhân đau hạ vị, sốt, nghi ngờ Viêm phần phụ (PID) thì có nên kê đơn viên đặt âm đạo (như Neo-Tergynan, Polygynax) không?**  
-   * *Tự trả lời:* **KHÔNG ĐƯỢC DÙNG VIÊN ĐẶT LÀM THUỐC CHÍNH.** Thuốc đặt chỉ có tác dụng nông tại âm đạo, không thể ngấm vào vòi trứng và buồng trứng. Bắt buộc phải dùng **kháng sinh đường toàn thân** (Ceftriaxone IM/IV + Doxycycline uống + Metronidazole uống đủ 14 ngày). Chỉ kê thêm viên đặt nếu bệnh nhân có bằng chứng đồng nhiễm nấm hoặc loạn khuẩn tại âm đạo.
+---
 
-2. **Câu hỏi 2: Khí hư sinh lý khác gì khí hư bệnh lý trong vòng 30 giây quan sát?**  
-   * *Tự trả lời:* Khí hư sinh lý màu trắng trong dai dính như lòng trắng trứng, không mùi, hoàn toàn không ngứa rát. Hễ có ngứa dữ dội $\rightarrow$ nghĩ ngay tới **Candida**. Hễ có mùi tanh cá thối sau quan hệ $\rightarrow$ nghĩ ngay tới **BV**. Hễ có mủ nhầy cổ tử cung $\rightarrow$ nghĩ ngay tới **Chlamydia / Lậu**.
+### Câu hỏi 1: Khi nào NÊN chọn viên đặt đơn chất trúng đích (Canesten, MetroGel) và khi nào MỚI ĐƯỢC dùng viên phối hợp (Polygynax, Neo-Tergynan)?
+* **Tự trả lời:**
+  * **Ưu tiên số 1 là Đơn chất trúng đích (Chuẩn CDC/ACOG):** Khi đã có kết quả soi tươi lam kính hoặc PCR xác định rõ căn nguyên. Nếu là Nấm *Candida* $ightarrow$ chọn đơn chất kháng nấm Azole (*Canesten / Clotrimazole*). Nếu là Loạn khuẩn BV $ightarrow$ chọn đơn chất *Metronidazole gel 0,75%* hoặc *Clindamycin cream 2%*. Việc này giúp diệt đúng mầm bệnh, bảo tồn tối đa trực khuẩn *Lactobacillus* có lợi.
+  * **Chỉ dùng Viên phối hợp đa thành phần khi:** Tuyến cơ sở không có kính hiển vi soi tươi, hoặc bệnh nhân có biểu hiện lâm sàng viêm hỗn hợp rõ (vừa có mảng bã đậu của nấm, vừa có dịch loãng bọt khí hôi của vi khuẩn). Chỉ dùng đợt ngắn ngày ($6 - 10$ ngày), tuyệt đối không lạm dụng kéo dài.
 
-3. **Câu hỏi 3: Lộ tuyến cổ tử cung nhìn đỏ rực có phải là viêm loét và có nên đem đi đốt điện hay áp lạnh không?**  
-   * *Tự trả lời:* **KHÔNG.** Lộ tuyến là hiện tượng sinh lý bình thường do Estrogen lộn biểu mô trụ ra ngoài, không phải loét và không phải ung thư. Tuyệt đối không được đốt bừa bãi vì sẽ gây sẹo xơ vô sinh, rách cổ tử cung khi sinh và chít hẹp lỗ cổ tử cung ứ máu kinh. Chỉ điều trị thuốc nếu có viêm; chỉ cân nhắc diệt tuyến khi thỏa mãn cả 4 điều kiện khắt khe.
+---
 
-4. **Câu hỏi 4: Thấy có Nang Naboth trên bề mặt cổ tử cung thì giải thích và xử trí thế nào cho bệnh nhân an tâm?**  
-   * *Tự trả lời:* Nang Naboth là tổn thương lành tính 100%, là "vết sẹo sinh lý" đánh dấu quá trình biểu mô lát tự lành che phủ lộ tuyến. Không phải khối u, không biến thành ung thư, không cần chọc hút hay đốt trừ khi nang quá to gây biến dạng cổ tử cung.
+### Câu hỏi 2: Tại sao Polygynax KHÔNG THỂ điều trị được Trùng roi (Trichomonas) và Loạn khuẩn kỵ khí (BV)?
+* **Tự trả lời:**
+  * Nhìn vào công thức của Polygynax: Gồm *Neomycin + Polymyxin B + Nystatin*.
+  * Trong đó: Neomycin và Polymyxin B chỉ có hoạt tính trên vi khuẩn ái khí Gram âm/dương (đặc biệt là tụ cầu và trực khuẩn mủ xanh); Nystatin chỉ diệt nấm men *Candida*.
+  * Trong công thức **HOÀN TOÀN KHÔNG CÓ METRONIDAZOLE hay dẫn xuất 5-Nitroimidazole**. Vì vậy, Polygynax hoàn toàn bất lực trước đơn bào *Trichomonas vaginalis* và các chủng vi khuẩn kỵ khí nghiêm ngặt (*Gardnerella, Prevotella*). Kê Polygynax cho bệnh nhân BV hoặc trùng roi là sai lầm dược lý cơ bản.
 
-5. **Câu hỏi 5: Phụ nữ mang thai bị ngứa rát âm đạo dữ dội do nhiễm nấm Candida thì kê đơn thế nào an toàn tuyệt đối?**  
-   * *Tự trả lời:* **CẤM TUYỆT ĐỐI Fluconazole đường uống** (nguy cơ sảy thai trong 3 tháng đầu và dị tật sọ mặt/tim thai nhi). **CHỈ ĐƯỢC DÙNG thuốc đặt âm đạo nhóm Azole tại chỗ** (Clotrimazole hoặc Miconazole viên đặt) liên tục trong đủ **7 ngày**.
+---
 
-6. **Câu hỏi 6: Tại sao bệnh nhân uống Metronidazole / Tinidazole bắt buộc phải kiêng rượu bia tuyệt đối?**  
-   * *Tự trả lời:* Vì thuốc ức chế enzyme aldehyde dehydrogenase, gây tích tụ acetaldehyde trong máu tạo phản ứng ngộ độc giống Disulfiram (tụt huyết áp, nôn mửa dữ dội, đỏ bừng mặt, tim đập nhanh). Phải kiêng rượu bia trong thời gian dùng thuốc và sau khi ngừng thuốc 48 – 72 giờ.
+### Câu hỏi 3: Mycogynax có thành phần Dexamethasone (Corticoid) mang lại lợi ích gì và tiềm ẩn nguy cơ tai hại nào?
+* **Tự trả lời:**
+  * **Lợi ích tức thì:** *Dexamethasone acetate ($0{,}5	ext{ mg}$)* là chất kháng viêm steroid mạnh, giúp dập tắt nhanh chóng phản ứng viêm phù nề, cắt cơn ngứa ngáy bỏng rát dữ dội tại âm hộ - âm đạo chỉ sau $1 - 2$ liều đặt đầu tiên, tạo cảm giác "thuốc rất nhạy" cho người bệnh.
+  * **Nguy cơ tai hại nếu lạm dụng:** Corticoid ức chế miễn dịch tại chỗ của niêm mạc âm đạo. Dùng kéo dài sẽ gây teo mỏng niêm mạc âm đạo, làm bùng phát bội nhiễm nấm kháng thuốc dai dẳng và làm chậm quá trình biểu mô hóa tự nhiên. Ngoài ra, Mycogynax có chứa *Chloramphenicol* nên **CHỐNG CHỈ ĐỊNH CHO PHỤ NỮ CÓ THAI**.
 
-7. **Câu hỏi 7: Những bệnh nhiễm khuẩn sinh dục nào BẮT BUỘC phải điều trị cả bạn tình?**  
-   * *Tự trả lời:* Bắt buộc điều trị bạn tình trong: **Trùng roi (Trichomonas vaginalis)**, **Lậu cầu (Neisseria gonorrhoeae)**, và **Chlamydia trachomatis**. Ngược lại, Viêm âm đạo do vi khuẩn (BV) và Nấm Candida không khuyến cáo điều trị thường quy cho bạn tình nam.
+---
 
-8. **Câu hỏi 8: Khi nào một ca Viêm phần phụ (PID) bắt buộc phải chuyển viện điều trị nội trú thay vì cho về uống thuốc?**  
-   * *Tự trả lời:* Nhập viện ngay khi có 1 trong 5 tiêu chí: (1) Không loại trừ cấp cứu ngoại khoa (ruột thừa, chửa ngoài tử cung); (2) Nghi ngờ có áp xe phần phụ TOA; (3) Bệnh nhân đang mang thai; (4) Bệnh cảnh nặng (sốt cao, nôn ói không uống được thuốc); (5) Điều trị ngoại trú thất bại sau 48 – 72 giờ.
+### Câu hỏi 4: Dequalinium chloride 10 mg (Fluomizin) có cơ chế gì đặc biệt mà không bao giờ gây kháng thuốc?
+* **Tự trả lời:**
+  * Fluomizin không phải là kháng sinh thông thường, mà là một **hợp chất amoni bậc 4 sát khuẩn bề mặt**.
+  * **Cơ chế:** Tác động đa đích — làm tăng tính thấm màng tế bào, làm biến tính và đông tụ protein nội bào của vi khuẩn/nấm, đồng thời làm tê liệt các enzyme hô hấp tế bào và **phá vỡ màng sinh học (biofilm)**.
+  * Do cơ chế tiêu diệt mang tính chất vật lý - hóa học trực tiếp lên cấu trúc màng, vi khuẩn và nấm **không thể phát triển đột biến kháng thuốc**. Thuốc không hấp thu vào máu, cực kỳ an toàn cho thai kỳ và là lựa chọn hàng đầu cho các ca viêm tái phát nhiều lần.
 
-9. **Câu hỏi 9: Tại sao không nên lạm dụng viên đặt phối hợp (Neo-Tergynan, Mycogynax) kéo dài quá 10 – 12 ngày?**  
-   * *Tự trả lời:* Vì viên phối hợp chứa kháng sinh phổ rộng (Neomycin, Chloramphenicol) sẽ tiêu diệt toàn bộ trực khuẩn *Lactobacillus* có lợi, làm "sa mạc hóa" môi trường âm đạo, mất hàng rào acid bảo vệ, tạo điều kiện cho vi nấm và vi khuẩn kháng thuốc bùng phát tái phát dai dẳng.
+---
 
-10. **Câu hỏi 10: Sau khi điều trị dứt điểm đợt viêm âm đạo cấp, bước tiếp theo cần làm gì để ngăn ngừa tái phát?**  
-    * *Tự trả lời:* Bổ sung 1 đợt men vi sinh đặt âm đạo (*Lactobacillus* sống) hoặc viên đặt acid lactic để phục hồi nhanh pH 3,8 – 4,5; ngừng tuyệt đối hành vi thụt rửa âm đạo sâu; mặc quần lót cotton thoáng khí; và kiểm soát tốt đường huyết nếu có đái tháo đường.
+### Câu hỏi 5: Bệnh nhân đau hạ vị, sốt, nghi ngờ Viêm phần phụ (PID) thì có được kê viên đặt âm đạo làm thuốc chính không?
+* **Tự trả lời:**
+  * **TUYỆT ĐỐI KHÔNG.** Đây là sai lầm lâm sàng nguy hiểm nhất. Dược chất từ viên đặt âm đạo chỉ giải phóng và ngấm nông ở niêm mạc âm đạo và cổ tử cung ngoài, hoàn toàn không thể khuếch tán ngược qua lỗ trong cổ tử cung để đạt nồng độ điều trị tại vòi tử cung, buồng trứng và ổ bụng.
+  * Viêm phần phụ bắt buộc phải dùng **kháng sinh đường toàn thân** (Tiêm tĩnh mạch hoặc Tiêm bắp phối hợp đường uống đủ 14 ngày: *Ceftriaxone + Doxycycline + Metronidazole*). Viên đặt chỉ được kê bổ trợ nếu bệnh nhân có bội nhiễm nấm/loạn khuẩn ở âm đạo.
+
+---
+
+### Câu hỏi 6: Phụ nữ mang thai bị ngứa rát dữ dội do Nấm Candida: Chế phẩm nào CẤM DÙNG và chế phẩm nào AN TOÀN TUYỆT ĐỐI?
+* **Tự trả lời:**
+  * **CHỐNG CHỈ ĐỊNH TUYỆT ĐỐI:** <span style="color:#ff6b6b"><b>Fluconazole đường uống</b></span> (kể cả liều duy nhất 150 mg), vì FDA đã cảnh báo làm tăng tỷ lệ sảy thai tự nhiên trong tam cá nguyệt 1 và dị tật tim/sọ mặt ở liều cao. Đồng thời **CẤM Mycogynax** (chứa Chloramphenicol và Dexamethasone).
+  * **LỰA CHỌN AN TOÀN SỐ 1 (Chuẩn CDC/ACOG):** <span style="color:#51cf66"><b>Clotrimazole hoặc Miconazole viên đặt âm đạo tại chỗ liên tục đủ 7 ngày</b></span>. Thuốc tác dụng tại chỗ, hấp thu toàn thân cực thấp, an toàn tuyệt đối cho thai nhi.
+
+---
+
+### Câu hỏi 7: Khi kê đơn Metronidazole / Tinidazole (dù dạng uống hay dạng gel đặt), vì sao bắt buộc phải dặn bệnh nhân kiêng rượu bia 100%?
+* **Tự trả lời:**
+  * Dẫn xuất 5-Nitroimidazole ức chế mạnh mẽ enzyme **Aldehyde dehydrogenase** trong gan — enzyme chịu trách nhiệm chuyển hóa Acetaldehyde (sản phẩm chuyển hóa độc của rượu) thành Acid Acetic vô hại.
+  * Nếu bệnh nhân uống rượu bia khi đang dùng thuốc: Acetaldehyde sẽ tích tụ ồ ạt trong máu gây **Phản ứng giống Disulfiram (Antabuse reaction)** với triệu chứng cấp tính: tụt huyết áp nghiêm trọng, đau đầu dữ dội, đỏ bừng mặt cổ, nôn mửa liên tục, tim đập nhanh hồi hộp và khó thở.
+  * Phải dặn bệnh nhân kiêng rượu bia trong suốt thời gian dùng thuốc và sau khi dứt liều cuối cùng ít nhất **48 – 72 giờ**.
+
+---
+
+### Câu hỏi 8: Tại sao phác đồ kháng sinh điều trị PID ngoại trú (Ceftriaxone IM + Doxycycline + Metronidazole) bắt buộc phải uống ĐỦ 14 NGÀY dù sau 3 ngày bệnh nhân đã hết đau?
+* **Tự trả lời:**
+  * Triệu chứng đau bụng giảm nhanh sau $48 - 72$ giờ là do thuốc tiêm Ceftriaxone dập tắt các triệu chứng rầm rộ của Lậu cầu và vi khuẩn ruột.
+  * Tuy nhiên, mầm bệnh nguy hiểm nhất gây xơ hóa vòi tử cung là **Chlamydia trachomatis** và **vi khuẩn kỵ khí sâu trong vách vòi trứng**. *Chlamydia* là vi khuẩn nội bào có chu kỳ nhân lên chậm (chu kỳ thể lưới - thể cơ bản kéo dài 48 - 72 giờ).
+  * Nếu dừng thuốc sớm (chỉ uống $5 - 7$ ngày), Chlamydia và kỵ khí sẽ không bị tiêu diệt hết, âm thầm tiếp tục gây phản ứng viêm mạn tính phá hủy lớp lông mao niêm mạc vòi trứng, dẫn đến **tắc vòi tử cung gây vô sinh vĩnh viễn và thai ngoài tử cung**.
+
+---
+
+### Câu hỏi 9: Bệnh nhân Viêm phần phụ (PID) bị dị ứng nặng với Penicillin / Cephalosporin thì thay thế bằng chế phẩm nào?
+* **Tự trả lời:**
+  * **Phác đồ nội trú thay thế hàng đầu (Chuẩn CDC):**
+    * <span style="color:#51cf66"><b>Clindamycin 900 mg IV mỗi 8 giờ</b></span> $+$ <span style="color:#51cf66"><b>Gentamicin liều tải 2 mg/kg, sau đó 1,5 mg/kg IV mỗi 8 giờ</b></span>.
+    * Clindamycin bao phủ kỵ khí và cầu khuẩn Gr(+); Gentamicin diệt trực khuẩn Gr(-) đường ruột.
+  * **Phác đồ đường uống thay thế:** <span style="color:#51cf66"><b>Moxifloxacin 400 mg uống 1 lần/ngày × 14 ngày</b></span>.
+  * *Bẫy cảnh báo:* Tỷ lệ Lậu cầu kháng Fluoroquinolone tại Việt Nam $> 90%$. Vì vậy, chỉ dùng Moxifloxacin khi đã xét nghiệm PCR âm tính với Lậu cầu hoặc đã có kháng sinh đồ Lậu cầu còn nhạy cảm.
+
+---
+
+### Câu hỏi 10: Men vi sinh đặt âm đạo (Gynophilus, Ecocillin) và viên đặt Acid Lactic nên dùng vào thời điểm nào để đạt hiệu quả cao nhất?
+* **Tự trả lời:**
+  * **Thời điểm vàng:** Bắt đầu đặt **ngay sau khi bệnh nhân vừa hoàn thành xong đợt kháng sinh / kháng nấm**.
+  * Nếu đặt men vi sinh cùng lúc với viên đặt kháng sinh (như Neo-Tergynan, Polygynax): Kháng sinh trong viên đặt sẽ tiêu diệt chính các chủng *Lactobacillus* sống trong men vi sinh, làm mất tác dụng của thuốc.
+  * Dùng men vi sinh liên tục $7 - 14$ ngày giúp tái thiết lập mật độ vi khuẩn có lợi $ge 10^7	ext{ CFU/mL}$, tạo lại màng chắn sinh học acid lactic ($	ext{pH} = 3{,}8 - 4{,}5$) để ngăn chặn hoàn toàn vòng xoắn tái phát.
+
+---
+
+### Câu hỏi 11: Phụ nữ mãn kinh bị khô rát, viêm âm đạo teo (GSM): Dùng viên đặt kháng sinh/phối hợp có đỡ không, và chế phẩm nào mới giải quyết được tận gốc?
+* **Tự trả lời:**
+  * **Viên đặt kháng sinh/phối hợp hoàn toàn KHÔNG CÓ TÁC DỤNG, thậm chí làm bệnh nặng hơn.** Viêm âm đạo sau mãn kinh không phải do nhiễm khuẩn ngoại lai, mà do buồng trứng ngừng hoạt động làm sụt giảm Estrogen $ightarrow$ biểu mô teo mỏng, cạn glycogen, mất acid lactic.
+  * **Chế phẩm duy nhất điều trị tận gốc:** <span style="color:#51cf66"><b>Estrogen tại chỗ liều thấp</b></span>:
+    * Viên đặt âm đạo *Estradiol 10 µg (Vagifem)*: Đặt 1 viên/ngày trong 2 tuần đầu, sau đó duy trì 1 viên $	imes 2$ lần/tuần.
+    * Hoặc kem bôi *Estriol (Ovestin)* tại chỗ.
+    * Thuốc gắn vào thụ thể Estrogen tại chỗ làm dày tế bào biểu mô âm đạo, tăng tiết dịch nhờn tự nhiên mà không làm tăng nồng độ Estrogen trong máu, an toàn cho cả bệnh nhân lớn tuổi.
+
+---
+
+### Câu hỏi 12: Những chế phẩm nào BẮT BUỘC phải kê đồng thời cho bạn tình nam, và bạn tình có dùng viên đặt âm đạo được không?
+* **Tự trả lời:**
+  * **Bạn tình nam KHÔNG DÙNG VIÊN ĐẶT ÂM ĐẠO** (đây là lỗi hài hước nhưng có thật khi tư vấn bệnh nhân). Bạn tình nam phải được kê **dược phẩm đường uống toàn thân**.
+  * **Bắt buộc điều trị bạn tình trong 3 bệnh:**
+    1. **Trùng roi (Trichomonas):** Kê cho bạn tình nam *Metronidazole 500 mg uống 2 lần/ngày × 7 ngày* (hoặc Tinidazole 2 g liều duy nhất).
+    2. **Lậu cầu (Gonorrhea):** Kê *Ceftriaxone 500 mg IM 1 liều duy nhất*.
+    3. **Chlamydia:** Kê *Doxycycline 100 mg uống 2 lần/ngày × 7 ngày*.
+  * Ngược lại, Viêm âm đạo do vi khuẩn (BV) và Nấm Candida không khuyến cáo điều trị thường quy cho bạn tình nam nếu bạn tình không có triệu chứng viêm bao quy đầu.
