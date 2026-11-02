@@ -4,7 +4,7 @@
   "deck_name": "2. Y Khoa - Sản Phụ Khoa & ART::Xuất Huyết Tử Cung Bất Thường (AUB)::OB-22 Xuất huyết tử cung bất thường",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-02T12:01:36",
+  "generated_at": "2026-11-02T12:15:08",
   "cards_source": "AUB_Abnormal_Uterine_Bleeding_2026-06-29.cards.v2.json",
   "cards_source_sha256": "3a27d3c03b73b02e29f85ac3c495cbc38451bb34dd9858ace4ab037436949a8b",
   "card_count": 95,
@@ -16,7 +16,16 @@
   },
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\01_San phu khoa\\22_AUB_Abnormal_Uterine_Bleeding\\outputs\\AUB_Abnormal_Uterine_Bleeding_2026-06-29.apkg",
-  "apkg_sha256": "2922229871f8c6a8fbe233a941875b12fb0f269259dbd2a96baab0ed9647c95a",
+  "anki_sync": {
+    "updated": 15,
+    "unchanged": 14,
+    "added": 66,
+    "archived": 1,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 95
+  },
+  "apkg_sha256": "0f2e88cc39ace04e5c0440ccf19cca2421e5600618b3e1ba2c2d46316a57db09",
   "sqlite_notes": 95,
   "sqlite_cards": 109
 }
