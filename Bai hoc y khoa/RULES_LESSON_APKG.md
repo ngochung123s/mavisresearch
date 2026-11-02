@@ -138,7 +138,7 @@ Schema 1 thẻ: `{"id", "type": "basic|cloze", "section", "category", "tier", "t
 - Note trong deck không còn trong nguồn thẻ → suspend + chuyển sang `<Gốc deck>::_Archive::<Mã bài>`, tag `lesson_archived`. **Không xóa note của người học.**
 - Ảnh mà thẻ tham chiếu (`<img src>` trong `deck.media_dir`) được đưa vào media của Anki (`storeMediaFile`); ảnh thiếu sau sync là BLOCK.
 - Sau sync: số note trong deck == số thẻ, field khớp; lệch là BLOCK. AnkiConnect chậm → chạy các bài **tuần tự**; chạy lại an toàn (ghép lại note theo nội dung).
-
+- **Tự động đồng bộ lên AnkiWeb (cloud):** Sau khi đối soát thành công, `anki_sync.py` tự động kích hoạt lệnh `ac("sync")` để đẩy toàn bộ thay đổi lên máy chủ AnkiWeb. Người học mở app trên điện thoại (AnkiMobile / AnkiDroid) hoặc AnkiWeb là nhận ngay thẻ mới mà không cần thao tác đồng bộ thủ công.
 ## 7. Lệnh nhanh
 
 ```bash

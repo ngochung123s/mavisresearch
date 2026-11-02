@@ -271,4 +271,12 @@ def sync(code: str, specialty, deck_name: str, cards: list[dict], models: dict[s
     if missing := [p.name for p in media or [] if not ac("retrieveMediaFile", filename=p.name)]:
         raise AnkiError(f"ảnh chưa có trong media Anki: {missing}")
     report["deck_notes"] = len(final_ids)
+
+    # Tự động đồng bộ lên AnkiWeb (cloud) để điện thoại/web nhận thẻ ngay lập tức
+    try:
+        ac("sync")
+        log("  [ANKI] đã kích hoạt đồng bộ AnkiWeb (cloud) thành công")
+    except Exception as exc:
+        log(f"  [ANKI] cảnh báo đồng bộ AnkiWeb: {exc}")
+
     return report
