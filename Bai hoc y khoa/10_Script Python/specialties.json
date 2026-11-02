@@ -43,7 +43,9 @@
       "evidence_mode": "evidence_bundle",
       "artifact_dir": "outputs",
       "curriculum": "_README.md",
-      "post_release": []
+      "post_release": [
+        "hungmed/build_unified_med_library.py"
+      ]
     },
     {
       "key": "art",

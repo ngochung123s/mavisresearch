@@ -127,7 +127,7 @@ Sau khi nội mạc bong, cơ thể phải cầm máu trong vòng vài giờ đ�
 
 ### 3.1. Abnormal uterine bleeding (AUB)
 
-AUB là xuất huyết tử cung **khác với kinh nguyệt bình thường** về tần suất, độ dài, lượng máu, hoặc thờii điểm xuất hiện — **không do thai kỳ**.
+AUB là xuất huyết tử cung **khác với kinh nguyệt bình thường** về tần suất, độ dài, lượng máu, hoặc thời điểm xuất hiện — **không do thai kỳ**.
 
 ### 3.2. Heavy menstrual bleeding (HMB)
 
@@ -189,13 +189,27 @@ Munro 2016 (PMID 27836285): FIGO đã loại bỏ các thuật ngữ cũ như me
 - **MRI:** Dòng giới hạn junctional zone dày >12 mm là chuẩn vàng hình ảnh.
 - **Điều trị:** LNG-IUS là first-line; GnRH antagonist (relugolix/elagolix) cho ngắn hạn; hysterectomy khi điều trị nội khoa thất bại và không muốn con.
 
-#### AUB-L: Leiomyoma (u xơ tử cung)
+#### AUB-L: Leiomyoma (u xơ tử cung) — Hệ thống phân loại 2 tầng FIGO 2018
 
-- U xơ được phân loại theo FIGO (type 0-8) dựa trên vị trí.
-- **U xơ dưới niêm (submucosal, type 0-2)** gây AUB nhiều nhất.
-- **U xơ trong cơ (intramural)** gây AUB nếu >4-5 cm hoặc tiếp xúc với cavity.
-- **U xơ dưới thanh mạc (subserosal)** hiếm khi gây AUB.
-- **Điều trị:** Myomectomy cơ học (hysteroscopic cho submucosal), GnRH agonist/antagonist thu nhỏ trước mổ, UAE, hysterectomy khi đủ con.
+FIGO 2018 (Munro MG et al.) phân loại chi tiết U xơ tử cung thành 2 nhóm lớn và 9 phân nhóm giải phẫu (Type 0 đến 8):
+
+* **Nhóm 1 — U xơ dưới niêm mạc (Submucosal - SM):** Gây AUB/HMB nặng nề nhất do làm biến dạng và tăng diện tích bề mặt buồng nội mạc:
+  * **Type 0:** Có cuống nằm hoàn toàn trong lòng buồng tử cung (Pedunculated intracavitary).
+  * **Type 1:** Nằm trong lòng buồng tử cung $> 50\%$, phần ăn vào cơ tử cung $< 50\%$.
+  * **Type 2:** Nằm trong cơ tử cung $\ge 50\%$, phần lồi vào buồng tử cung $< 50\%$.
+* **Nhóm 2 — U xơ các type khác (Other - O):**
+  * **Type 3:** Nằm hoàn toàn trong cơ tử cung ($100\%$) nhưng tiếp xúc sát với lớp nội mạc tử cung (Contact with endometrium).
+  * **Type 4:** Nằm hoàn toàn trong lớp cơ tử cung ($100\%$) và không tiếp xúc với cả nội mạc lẫn thanh mạc (Intramural).
+  * **Type 5:** U xơ dưới thanh mạc có phần ăn vào cơ tử cung $\ge 50\%$.
+  * **Type 6:** U xơ dưới thanh mạc có phần ăn vào cơ tử cung $< 50\%$.
+  * **Type 7:** U xơ dưới thanh mạc có cuống ngoài tử cung (Pedunculated subserosal).
+  * **Type 8:** U xơ ở các vị trí đặc biệt khác (Cổ tử cung, dây chằng rộng, u xơ ký sinh...).
+* **U xơ lai ghép (Hybrid Leiomyomas):** Điển hình nhất là **Type 2–5** — khối u xơ xuyên suốt toàn bộ chiều dày cơ tử cung, vừa lồi vào buồng tử cung $< 50\%$, vừa lồi ra dưới thanh mạc $< 50\%$.
+
+* **Ý nghĩa quyết định phẫu thuật:**
+  * **Type 0 và Type 1:** Chỉ định phẫu thuật cắt u xơ qua **nội soi buồng tử cung (Hysteroscopic Myomectomy)** cực kỳ thuận lợi, hiệu quả cầm máu $> 90\%$.
+  * **Type 2:** Thách thức khi mổ soi buồng tử cung; thường cần chuẩn bị GnRH agonist/antagonist trước mổ hoặc mổ 2 thì.
+  * **Type 3 đến Type 7:** Mổ nội soi ổ bụng (Laparoscopy) hoặc mổ mở.
 
 Diaz 2025 (PMID 40927887) — FIGO best practice: GnRH antagonist được FDA/EMA duyệt cho u xơ; COC, progestin, LNG-IUS, TXA có thể giảm HMB dù không được chỉ định chính thức cho u xơ.
 
@@ -316,35 +330,55 @@ ACOG CO #734 (PMID 29683909): Ở PMB, **ET ≤4 mm** có **NPV >99%** cho ung t
 | **Tranexamic acid** | Ức chế plasminogen → giảm fibrinolysis | 1-1.5g x 3-4 lần/ngày, uống trong 3-5 ngày đầu kinh | HMB, AUB-E | Tiền sử huyết khối, hematuria do rối loạn fibrinolysis |
 | **NSAID** (ibuprofen, mefenamic acid) | Ức chế COX → giảm PGs | Ibuprofen 400-600mg q6-8h trong kinh | HMB nhẹ-vừa, đau bụng kinh | Loét dạ dày, suy thận, đông máu bất thường |
 | **Progestin** (norethisterone, medroxyprogesterone, DMPA) | Chuyển hóa nội mạc, ức chế rụng trứng | Tuỳ loại: cyclic 5-10mg/ngày ngày 5-26 chu kỳ | AUB-O, điều trị cấp tính | Mang thai, ung thư nội tiết |
-| **GnRH agonist** (leuprolide) | Tắt HPO, tạo trạng thái giả mãn kinh | 3.75mg IM/tháng | Thu nhỏ u xơ trước mổ, HMB nặng tạm thờii | Loãng xương khi dùng >6 tháng |
+| **GnRH agonist** (leuprolide) | Tắt HPO, tạo trạng thái giả mãn kinh | 3.75mg IM/tháng | Thu nhỏ u xơ trước mổ, HMB nặng tạm thời | Loãng xương khi dùng >6 tháng |
 | **GnRH antagonist** (relugolix combo) | Đối kháng GnRH receptor + add-back | 1 viên/ngày | U xơ, đau do endometriosis | Thờii gian giới hạn 24 tháng |
 
 **Evidence:**
 - Vani Lanka 2026 (PMID 41664752): Trong 240 phụ nữ HMB, **LNG-IUS giảm PBAC 93% sau 6 tháng**, TXA giảm 78%, DMPA giảm 78%, COC giảm ~70%. LNG-IUS có tuân thủ cao nhất và cải thiện Hb đáng kể.
 - NICE NG88: First-line cho HMB là **LNG-IUS**; nếu từ chối hoặc chống chỉ định → COC, TXA, NSAID.
 
-### 6.3. Acute AUB — Protocol cấp cứu
+### 6.3. Acute AUB — Protocol Cấp Cứu Xuất Huyết Tử Cung Cấp Tính Nặng (Chuẩn ACOG PB #557 & ACOG #128)
 
-ACOG PB #557 (PMID 23635706): Đánh giá huyết động đầu tiên, sau đó cầm máu y tế.
+Xuất huyết tử cung cấp tính nặng là tình huống cấp cứu phụ khoa đòi hỏi hành động khẩn trương trong vòng những phút đầu:
 
-**Bước 1: Đánh giá huyết động**
-- Tụt huyết áp, nhịp tim nhanh, da lạnh, ẩm → **shock mất máu**.
-- CBC, type & screen/crossmatch, đông máu, β-hCG.
+#### Bước 1: Hồi sức huyết động & Đánh giá mức độ sốc mất máu
+* Thiết lập ngay **2 đường truyền tĩnh mạch kim lớn (16G hoặc 18G)**.
+* Lấy máu làm xét nghiệm khẩn cấp: Công thức máu (CBC), Nhóm máu & Phản ứng chéo (Type & Crossmatch), Đông máu toàn bộ (PT, aPTT, Fibrinogen), và **β-hCG định lượng** để loại trừ biến chứng thai nghén.
+* Bù dịch tinh thể đẳng trương (NaCl 0,9% hoặc Ringer Lactate). Truyền khối hồng cầu khẩn cấp khi:
+  * $\text{Hb} < 70\text{ g/L}$ ở người khỏe mạnh.
+  * Hoặc $\text{Hb} < 80\text{ g/L}$ ở bệnh nhân có tiền sử bệnh tim mạch hoặc đang có dấu hiệu tụt huyết áp tư thế, nhịp tim nhanh $> 110\text{ bpm}$.
 
-**Bước 2: Cầm máu y tế**
-| Thuốc | Liều lượng | Ghi chú |
-|---|---|---|
-| **Conjugated equine estrogen (CEE) IV** | 25mg IV mỗi 4-6 giờ, tối đa 24 giờ | Hiệu quả cầm máu nhanh, thường dùng trong 24h |
-| **COC liều cao** | 1 viên 3 lần/ngày x 7 ngày, sau đó giảm dần | Phổ biến hơn CEE IV ở nhiều cơ sở |
-| **TXA** | 1-1.3g IV hoặc PO 3-4 lần/ngày | Kết hợp với estrogen |
-| **Progestin** | Medroxyprogesterone 20mg 3 lần/ngày hoặc norethisterone 5mg 3 lần/ngày | Khi không dùng estrogen |
+#### Bước 2: Liệu pháp Cầm máu Nội khoa Dồn dập (Medical Hemostasis)
+Bác sĩ lựa chọn 1 trong các phác đồ đầu tay sau:
 
-**Bước 3: Hỗ trợ**
-- Truyền máu nếu Hb <7 g/dL hoặc có triệu chứng thiếu máu nặng.
-- Bổ sung sắt.
+1. **Phác đồ Viên tránh thai kết hợp (COCs chứa Ethinyl Estradiol 30–35 µg) — Phổ biến nhất tại Việt Nam:**
+   * **Liều tấn công:** Uống 1 viên mỗi 6 – 8 giờ cho đến khi dứt hẳn chảy máu (thường đạt được sau 24 – 48 giờ).
+   * **Liều giảm dần (Tapering) bắt buộc:**
+     * 1 viên $\times$ 3 lần/ngày trong 2 ngày tiếp theo.
+     * 1 viên $\times$ 2 lần/ngày trong 2 ngày tiếp theo.
+     * Sau đó 1 viên/ngày duy trì liên tục cho đến khi đủ vỉ 21 ngày.
+     * *Lưu ý:* Kê kèm thuốc chống nôn (Metoclopramide hoặc Ondansetron) trước khi uống COC 30 phút vì estrogen liều cao gây buồn nôn dữ dội.
+2. **Phác đồ Estrogen liên hợp đường tĩnh mạch (Conjugated Equine Estrogens - CEE IV):**
+   * Liều: 25 mg IV tiêm chậm mỗi 4 – 6 giờ trong tối đa 24 giờ.
+   * Cơ chế: Làm tăng sinh cấp tốc mao mạch nội mạc và kích thích đông máu tại chỗ.
+   * Khi máu ngừng chảy: Bắt buộc chuyển sang dùng Progestin (để bảo vệ niêm mạc khỏi bong tróc).
+3. **Phác đồ Progestin liều cao (Khi bệnh nhân có chống chỉ định Estrogen như tiền sử huyết khối VTE):**
+   * *Medroxyprogesterone acetate (MPA):* 20 mg uống 3 lần/ngày trong 7 ngày, sau đó giảm xuống 10 mg/ngày trong 2 tuần tiếp theo.
+   * *Norethisterone:* 5 mg uống 3 lần/ngày.
+4. **Phối hợp Thuốc chống tiêu sợi huyết (Tranexamic Acid):**
+   * Tiêm tĩnh mạch: $10\text{ mg/kg}$ IV chậm (tối đa 600 mg/lần) mỗi 8 giờ; hoặc uống $1{,}3\text{ g}$ uống 3 lần/ngày.
+   * Giúp ức chế plasmin, ổn định cục máu đông tại giường mao mạch nội mạc.
 
-**Bước 4: Chuyển sang duy trì sau khi cầm máu**
-- COC hàng ngày, LNG-IUS, hoặc progestin cyclic.
+#### Bước 3: Thủ thuật Cầm máu Cơ học tại giường — Chèn bóng Foley buồng tử cung (Tamponade)
+* Khi điều trị nội khoa chưa kịp phát huy tác dụng hoặc bệnh nhân tiếp tục chảy máu xối xả đe dọa tính mạng:
+  * Dùng một ống thông Foley (cỡ 16 Fr hoặc 18 Fr) vô khuẩn đưa qua cổ tử cung vào tận đáy buồng tử cung dưới hướng dẫn siêu âm nếu có thể.
+  * Bơm **10 – 30 mL nước muối sinh lý vô khuẩn** vào bóng Foley để bóng phình to, chèn ép trực tiếp lên các diện bóc tách mạch máu nội mạc.
+  * Kẹp hoặc buộc chặt đuôi ống thông. Lưu bóng trong **12 – 24 giờ**, kết hợp dùng kháng sinh dự phòng.
+
+#### Bước 4: Can thiệp Ngoại khoa khi Điều trị Nội khoa thất bại
+* **Nạo hút buồng tử cung (Dilation & Curettage - D&C):** Vừa có tác dụng cầm máu cơ học tức thì, vừa lấy bệnh phẩm gửi giải phẫu bệnh loại trừ ung thư.
+* **Nút mạch động mạch tử cung (Uterine Artery Embolization - UAE):** Cứu cánh xuất sắc giúp bảo tồn tử cung ở bệnh nhân AUB do u xơ tử cung hoặc dị dạng mạch máu (AVM).
+* **Cắt tử cung cấp cứu (Emergency Hysterectomy):** Lựa chọn cuối cùng khi mọi biện pháp bảo tồn thất bại để cứu sống tính mạng người bệnh.
 
 ### 6.4. Điều trị ngoại khoa
 
@@ -558,7 +592,7 @@ flowchart TD
 
 3. **β-hCG là xét nghiệm đầu tiên** cho mọi phụ nữ trong độ tuổi sinh sản, bất kể bệnh nhân nói "tôi không thể có thai".
 
-4. **LNG-IUS là "vua" trong HMB/AUB-E/AUB-O.** Giảm >90% lượng máu sau 6 tháng, đồng thờii là biện pháp tránh thai hiệu quả.
+4. **LNG-IUS là "vua" trong HMB/AUB-E/AUB-O.** Giảm >90% lượng máu sau 6 tháng, đồng thời là biện pháp tránh thai hiệu quả.
 
 5. **TXA an toàn và rẻ** — dùng trong 3-5 ngày đầu kinh, hiệu quả giảm 40-50% lượng máu.
 
@@ -641,3 +675,105 @@ flowchart TD
 **— Hết bài học ngày 2026-06-29 —**
 
 **Bác sĩ:** Ngọc 🍅 🐈‍⬛ | **AI assistant:** MiniMax Mavis
+
+---
+
+## 15. 12 CÂU HỎI TỰ HỎI VỀ AUB & CẤP CỨU XUẤT HUYẾT TỬ CUNG THỰC CHIẾN
+
+Mục này tổng hợp 12 câu hỏi tự vấn phản xạ lâm sàng mà mỗi bác sĩ sản phụ khoa cần tự hỏi và tự trả lời dứt khoát tại giường bệnh:
+
+---
+
+### Câu hỏi 1: Đứng trước một bệnh nhân nữ 16 tuổi vào viện vì ra máu âm đạo xối xả ướt sũng băng vệ sinh: Phản xạ xét nghiệm số 1 BẮT BUỘC phải làm là gì?
+* **Tự trả lời:**
+  * **Phản xạ số 1 bắt buộc: Xét nghiệm β-hCG nước tiểu hoặc máu.**
+  * Dù bệnh nhân là trẻ vị thành niên và người nhà khẳng định "chưa từng quan hệ tình dục", nguyên tắc lâm sàng bất di bất dịch của Sản Phụ khoa là: **Mọi phụ nữ trong độ tuổi sinh sản ra máu âm đạo bất thường đều phải loại trừ biến chứng thai nghén (dọa sảy, thai ngoài tử cung, thai lưu) đầu tiên**. Bỏ sót thai ngoài tử cung vỡ là nguyên nhân hàng đầu gây tử vong có thể phòng ngừa được.
+
+---
+
+### Câu hỏi 2: Bệnh nhân 15 tuổi bị rong kinh nặng (HMB) ngay từ những kỳ kinh đầu tiên sau dậy thì: Cần tầm soát nhóm bệnh lý nào đầu tiên ngoài trục nội tiết?
+* **Tự trả lời:**
+  * Phải nghĩ ngay đến **Nhóm AUB-C: Rối loạn đông máu bẩm sinh**, đặc biệt là **Bệnh von Willebrand (vWD)** hoặc suy giảm chức năng tiểu cầu.
+  * Thống kê cho thấy có tới **13–20% trẻ vị thành niên** nhập viện vì HMB nặng thực chất mắc bệnh von Willebrand chưa từng được phát hiện.
+  * Bác sĩ cần khai thác kỹ tiền sử: Chảy máu chân răng kéo dài, chảy máu cam tái diễn, hay bầm tím tự nhiên dưới da, hoặc chảy máu rỉ rả kéo dài sau nhổ răng.
+
+---
+
+### Câu hỏi 3: Phân loại FIGO 2018 chia U xơ tử cung thành mấy type, và những type nào có thể mổ cắt qua Nội soi buồng tử cung (Hysteroscopy)?
+* **Tự trả lời:**
+  * FIGO 2018 chia U xơ thành **9 phân type (Type 0 đến Type 8)**.
+  * Các type mổ cắt qua nội soi buồng tử cung thuận lợi nhất:
+    * **Type 0:** Có cuống hoàn toàn trong lòng buồng tử cung (cắt dễ dàng nhất).
+    * **Type 1:** Nằm trong lòng buồng tử cung $> 50\%$.
+  * Với **Type 2** (nằm trong cơ tử cung $\ge 50\%$): Cắt nội soi buồng tử cung khó khăn hơn nhiều, nguy cơ thủng tử cung và quá tải dịch hấp thu; thường cần chuẩn bị GnRH agonist/antagonist trước mổ hoặc mổ 2 thì.
+
+---
+
+### Câu hỏi 4: Khi dùng phác đồ COCs liều cao dồn dập để cấp cứu ra máu tử cung cấp tính: Bác sĩ bắt buộc phải kê kèm thuốc gì và dặn dò việc giảm liều ra sao?
+* **Tự trả lời:**
+  * **Bắt buộc kê kèm:** <span style="color:#51cf66"><b>Thuốc chống nôn (Metoclopramide hoặc Ondansetron)</b></span> uống trước viên COC 30 phút. Nồng độ Ethinyl Estradiol dồn dập sẽ kích thích cực mạnh vùng kích hoạt thụ thể hóa học (CTZ) ở hành não gây nôn dữ dội; nếu bệnh nhân nôn ra thuốc thì phác đồ cầm máu sẽ thất bại.
+  * **Dặn dò giảm liều (Tapering):** Sau khi dứt máu, bắt buộc phải giảm liều từ từ (3 viên/ngày $\rightarrow$ 2 viên/ngày $\rightarrow$ 1 viên/ngày cho đủ 21 ngày). **Tuyệt đối không được ngừng thuốc đột ngột**, vì ngừng estrogen đột ngột sẽ gây bong tróc nội mạc tử cung ồ ạt trở lại (Estrogen withdrawal bleeding).
+
+---
+
+### Câu hỏi 5: Tại sao Thuốc chống tiêu sợi huyết (Tranexamic Acid) lại có hiệu quả cao trong điều trị AUB/HMB và có làm tăng nguy cơ tắc mạch ở người bình thường không?
+* **Tự trả lời:**
+  * **Cơ chế:** Ở bệnh nhân HMB, nồng độ các chất hoạt hóa plasminogen (tPA, uPA) trong dịch nội mạc tử cung tăng cao gấp nhiều lần bình thường, làm tan cục máu đông quá sớm. Tranexamic acid ức chế cạnh tranh plasminogen, giúp bảo vệ khung sợi Fibrin để bịt kín các mao mạch nội mạc tử cung bị tổn thương, giúp giảm **40–60% lượng máu kinh**.
+  * **Nguy cơ huyết khối:** Các nghiên cứu đa trung tâm lớn chứng minh rằng Tranexamic acid dùng trong những ngày hành kinh **không làm tăng tỷ lệ huyết khối tĩnh mạch sâu (VTE)** ở những phụ nữ không có yếu tố nguy cơ huyết khối nền.
+
+---
+
+### Câu hỏi 6: Theo khuyến cáo NICE NG88, biện pháp nội khoa nào được coi là LỰA CHỌN SỐ 1 (First-line) cho phụ nữ bị ra máu kinh nhiều (HMB) mạn tính?
+* **Tự trả lời:**
+  * **Lựa chọn số 1: Vòng đặt tử cung giải phóng Levonorgestrel (LNG-IUS / Mirena).**
+  * LNG-IUS giải phóng liên tục 20 µg Levonorgestrel mỗi ngày tại buồng tử cung, làm teo mỏng tối đa lớp niêm mạc chức năng mà không làm ảnh hưởng nhiều đến nồng độ hormone toàn thân trong máu.
+  * Giúp giảm **90% lượng máu mất sau 6 tháng**, tỷ lệ hài lòng $> 85\%$, hiệu quả tương đương phẫu thuật cắt bỏ nội mạc nhưng lại bảo tồn nguyên vẹn tử cung cho người phụ nữ.
+
+---
+
+### Câu hỏi 7: Phụ nữ 55 tuổi đã mãn kinh 3 năm, nay tự nhiên thấy ra một chút máu đỏ ở âm đạo: Thái độ xử trí chuẩn mực là gì?
+* **Tự trả lời:**
+  * **Khẩu hiệu lâm sàng:** <span style="color:#ff6b6b"><b>Xuất huyết sau mãn kinh (PMB) phải coi là Ung thư nội mạc tử cung cho đến khi có bằng chứng ngược lại!</b></span>
+  * Khoảng $10\%$ các ca PMB thực sự là ung thư nội mạc tử cung.
+  * **Xử trí ngay:**
+    1. Siêu âm đầu dò âm đạo (TVUS) đo độ dày nội mạc tử cung (ET).
+    2. Nếu **$\text{ET} > 4\text{ mm}$**: Bắt buộc chỉ định **Sinh thiết nội mạc tử cung (Pipelle hoặc nạo sinh thiết dưới soi buồng tử cung)** để làm giải phẫu bệnh.
+    3. Tuyệt đối không được kê đơn thuốc cầm máu hay hormone rồi cho bệnh nhân về mà chưa có kết quả mô bệnh học!
+
+---
+
+### Câu hỏi 8: Nếu siêu âm đầu dò âm đạo ở bệnh nhân PMB đo được độ dày nội mạc tử cung ET ≤ 4 mm thì có an toàn tuyệt đối chưa?
+* **Tự trả lời:**
+  * Độ dày $\text{ET} \le 4\text{ mm}$ có giá trị dự đoán âm tính (Negative Predictive Value - NPV) rất cao ($> 99\%$) để loại trừ ung thư nội mạc tử cung.
+  * Nếu bệnh nhân mới bị ra máu lần đầu tiên và $\text{ET} \le 4\text{ mm}$, bác sĩ có thể trì hoãn sinh thiết và theo dõi sát.
+  * **Tuy nhiên, nếu bệnh nhân bị chảy máu tái phát lần thứ 2**: Bắt buộc phải tiến hành sinh thiết nội mạc tử cung hoặc soi buồng tử cung dù ET vẫn $\le 4\text{ mm}$, vì một số thể ung thư biểu mô tuyến nhú thanh dịch (Serous carcinoma) có thể phát triển trên nền nội mạc teo mỏng.
+
+---
+
+### Câu hỏi 9: Bệnh nhân nữ 30 tuổi chưa sinh con, bị AUB nặng do U xơ tử cung dưới niêm mạc Type 1 kích thước 3 cm: Lựa chọn điều trị tối ưu nhất là gì?
+* **Tự trả lời:**
+  * **Lựa chọn tối ưu:** <span style="color:#51cf66"><b>Phẫu thuật cắt u xơ qua Nội soi buồng tử cung (Hysteroscopic Myomectomy)</b></span>.
+  * Đây là phương pháp can thiệp qua đường tự nhiên, không rạch bụng, không để lại sẹo trên thân tử cung, vừa giải quyết triệt để nguyên nhân chảy máu vừa bảo tồn tối đa buồng tử cung và cơ hội sinh sản trong tương lai.
+
+---
+
+### Câu hỏi 10: Thủ thuật đặt bóng Foley chèn buồng tử cung (Tamponade) trong cấp cứu AUB được thực hiện như thế nào và lưu bóng tối đa bao lâu?
+* **Tự trả lời:**
+  * **Kỹ thuật:** Dùng ống thông Foley cỡ 16 Fr hoặc 18 Fr vô khuẩn đưa nhẹ nhàng qua lỗ cổ tử cung vào đáy buồng tử cung. Bơm **10 – 30 mL nước muối sinh lý vô khuẩn** vào bóng chèn để bóng ép chặt vào diện chảy máu nội mạc, kẹp đuôi ống.
+  * **Thời gian lưu:** Chỉ lưu bóng trong vòng **12 – 24 giờ**, đồng thời phối hợp kháng sinh dự phòng phổ rộng. Không lưu bóng quá lâu vì nguy cơ hoại tử thiếu máu cơ tử cung và nhiễm trùng ngược dòng.
+
+---
+
+### Câu hỏi 11: Ở bệnh nhân rối loạn phóng noãn (AUB-O) do Hội chứng buồng trứng đa nang (PCOS): Mục tiêu kê đơn Progestin là gì?
+* **Tự trả lời:**
+  * Ở bệnh nhân PCOS, nồng độ Estrogen nội sinh cao liên tục kích thích niêm mạc tử cung tăng sinh mà không có Progesterone đối kháng do không rụng trứng $\rightarrow$ nguy cơ rất cao tiến triển thành **Quá sản nội mạc tử cung và Ung thư nội mạc tử cung**.
+  * **Mục tiêu kê Progestin:** Dùng Progestin (như Dydrogesterone 10–20 mg/ngày hoặc MPA 10 mg/ngày từ ngày 16 đến ngày 25 của chu kỳ) để chuyển hóa nội mạc sang pha chế tiết và tạo hiện tượng bong tróc niêm mạc có chu kỳ, bảo vệ người bệnh khỏi nguy cơ ung thư.
+
+---
+
+### Câu hỏi 12: Những nguyên nhân AUB do thầy thuốc (AUB-I) thường gặp nhất trên lâm sàng là gì?
+* **Tự trả lời:**
+  * 1) **Vòng tránh thai chứa đồng (Copper T-IUD):** Tăng lượng máu kinh và đau bụng kinh ở $30–50\%$ phụ nữ trong những tháng đầu sau đặt.
+  * 2) **Thuốc chống đông máu và kháng kết tập tiểu cầu:** Warfarin, DOACs (Rivaroxaban, Apixaban), Aspirin, Clopidogrel làm nặng thêm tình trạng xuất huyết kinh nguyệt.
+  * 3) **Thuốc chống loạn thần (Antipsychotics):** Các thuốc như Risperidone ức chế Dopamine làm tăng tiết Prolactin máu $\rightarrow$ ức chế trục HPO gây AUB-O.
+  * 4) **Dùng hormone không đều đặn:** Quên uống thuốc tránh thai hàng ngày gây tụt hormone đột ngột (Breakthrough bleeding).
