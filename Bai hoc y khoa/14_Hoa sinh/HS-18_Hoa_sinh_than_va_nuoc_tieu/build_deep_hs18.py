@@ -1,0 +1,1017 @@
+# -*- coding: utf-8 -*-
+"""
+Script build_deep_hs18.py:
+Sinh 78 the Master chuan BSNT cho HS-18 (Hoa sinh than va nuoc tieu, co che loc, tai hap thu va xet nghiem)
+100% Unicode, khong LaTeX , dung dinh dang nhan ' — ' de tranh G_ASKS_MISSING, tich hop palette mau chuan.
+"""
+
+import json
+from pathlib import Path
+
+DECK_ID = 1401018001
+DECK_NAME = "HungMed::Hóa Sinh Y Học::HS-18 Hóa sinh thận và nước tiểu, cơ chế lọc, tái hấp thu và xét nghiệm"
+OUTPUT_PATH = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\14_Hoa sinh\HS-18_Hoa_sinh_than_va_nuoc_tieu\HS-18_Hoa_sinh_than_va_nuoc_tieu.cards.v2.json")
+EXTRA_SOURCE = "📖 Nguồn: Giáo trình Hóa sinh Y học (ĐHY Hà Nội, GS. TS. Tạ Thành Văn chủ biên, ThS. BS. Nguyễn Thị Ngọc Lan, PGS. TS. Trần Huy Thịnh tác giả), NXB Y học, Chương 18: Hóa sinh thận và nước tiểu."
+
+def make_card(cid, section, category, front, items, explanation, is_algo=False, tags=None):
+    if tags is None:
+        tags = ["HS18", "Hoa-sinh", "Hoa-sinh-than", section]
+    
+    badge_label = "⚡ THUẬT TOÁN QUYẾT ĐỊNH" if is_algo else "🔬 HÓA SINH Y HỌC · HÓA SINH THẬN"
+    badge_color = "#e03131" if is_algo else "#1971c2"
+    badge_class = "badge-algo" if is_algo else "badge-barem"
+    
+    front_html = f"""<div style="font-size: 13px; font-weight: bold; color: {badge_color}; text-transform: uppercase; margin-bottom: 8px;">[{badge_label}] {category}</div>
+<div style="font-size: 16px; font-weight: 600; color: #212529; line-height: 1.5;">{front}</div>
+<div style="margin-top: 10px; font-size: 12px; color: #495057;">
+  <span style="background-color: #ffd43b; color: #212529; padding: 2px 6px; border-radius: 4px; font-weight: 600;">Gợi ý</span> Vận dụng kiến thức sinh hóa thận, cơ chế siêu lọc cầu thận, vận chuyển ống thận, cô đặc nước tiểu và xét nghiệm lâm sàng.
+</div>"""
+
+    ans_lines = []
+    for idx, (label, content) in enumerate(items, 1):
+        clean_label = label.replace(":", " —").strip().rstrip("—").strip()
+        ans_lines.append(f"{idx}) <b>{clean_label} —</b> {content}")
+    ans_html = "<br>".join(ans_lines)
+    
+    back_html = f"""<div style="margin-bottom: 12px;">
+  <span style="background-color: #51cf66; color: #087f5b; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">HÓA SINH Y HỌC</span>
+  <span style="background-color: #74c0fc; color: #1864ab; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-left: 4px;">BSNT CHUYÊN SÂU</span>
+</div>
+<div style="font-size: 15px; color: #212529; line-height: 1.6;">
+<b>🎯 Trả lời cốt lõi:</b><br>
+{ans_html}
+<br><br>
+<b>💡 Giải thích của AI:</b><br>
+<span style="color: #495057; font-size: 14px;">{explanation}</span>
+</div>"""
+    
+    return {
+        "id": cid,
+        "track": "algo" if is_algo else "barem_goc",
+        "badge": badge_label,
+        "badge_class": badge_class,
+        "type": "basic",
+        "section": section,
+        "category": category,
+        "tier": 1,
+        "front": front_html,
+        "back": back_html,
+        "extra": EXTRA_SOURCE,
+        "tags": tags
+    }
+
+cards = []
+
+# ==========================================
+# B1: HUYẾT ĐỘNG HỌC THẬN VÀ CẤU TRÚC MÀNG LỌC CẦU THẬN (10 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B1-01", "B1", "Đại cương huyết động học thận",
+    "[HUYẾT ĐỘNG HỌC THẬN] Lưu Lượng Dòng Máu Qua Thận và Phân Bố Vỏ vs Tủy<br>Nêu lưu lượng máu qua thận (RBF), tỷ lệ phần trăm cung lượng tim và sự khác biệt về tưới máu giữa vùng vỏ thận và vùng tủy thận.",
+    [
+        ("Lưu lượng dòng máu qua thận (RBF)", "Khoảng 1000 – 1200 mL/phút ở người lớn khỏe mạnh (tương đương 1500 lít/24 giờ); chiếm 20 – 25% tổng cung lượng tim lúc nghỉ ngơi dù hai thận chỉ nặng khoảng 300 g (0.5% trọng lượng cơ thể)."),
+        ("Tưới máu vùng vỏ thận (Renal cortex)", "Nhận tới 90 – 95% tổng lượng máu đến thận; lưu lượng máu rất cao (4 – 5 mL/phút/g mô) để phục vụ chức năng siêu lọc cầu thận; nồng độ oxy mô cao (pO2 ~ 50 mmHg)."),
+        ("Tưới máu vùng tủy thận (Renal medulla)", "Chỉ nhận 5 – 10% lưu lượng máu qua mạng mao mạch thẳng Vasa Recta; lưu lượng thấp (0.2 – 0.5 mL/phút/g mô) nhằm tránh cuốn trôi gradient thẩm thấu ưu trương tủy; môi trường tương đối thiếu oxy (pO2 ~ 10 – 20 mmHg) khiến tế bào ống tủy rất dễ hoại tử khi thiếu máu.")
+    ],
+    "Lưu lượng tưới máu vỏ thận cao gấp nhiều lần não và cơ tim, nhưng không phải do nhu cầu oxy mà để duy trì áp lực lọc cầu thận khổng lồ."
+))
+
+cards.append(make_card(
+    "HS18-B1-02", "B1", "Đơn vị Nephron",
+    "[ĐƠN VỊ NEPHRON] So Sánh Nephron Vỏ vs Nephron Cận Tủy<br>Phân biệt tỷ lệ, vị trí cầu thận, độ dài quai Henle và vai trò chức năng sinh lý giữa Nephron vỏ và Nephron cận tủy.",
+    [
+        ("Nephron vỏ (Cortical nephrons)", "Chiếm 85% tổng số nephron; cầu thận nằm ở vùng vỏ nông hoặc vỏ giữa; quai Henle ngắn chỉ cắm vào phần ngoài của tủy thận; được bao quanh bởi mạng mao mạch quanh ống thận; chuyên trách lọc và tái hấp thu phần lớn dịch lọc."),
+        ("Nephron cận tủy (Juxtamedullary nephrons)", "Chiếm 15% tổng số nephron; cầu thận nằm ở vùng vỏ sâu sát ranh giới tủy; quai Henle rất dài cắm sâu xuống tận chóp nhú tủy thận; đi kèm với mạng mao mạch thẳng hình chữ U (Vasa Recta)."),
+        ("Ý nghĩa sinh lý nephron cận tủy", "Đóng vai trò quyết định xây dựng và duy trì thang áp suất thẩm thấu ưu trương tủy thận phục vụ cơ chế nhân nồng độ ngược dòng và cô đặc nước tiểu.")
+    ],
+    "Mỗi thận người có từ 1.0 đến 1.2 triệu nephron, số lượng này cố định từ khi sinh và không có khả năng sinh mới khi bị phá hủy."
+))
+
+cards.append(make_card(
+    "HS18-B1-03", "B1", "Động học siêu lọc cầu thận",
+    "[ÁP LỰC LỌC CẦU THẬN] Định Luật Starling và Công Thức Xác Định P_lọc<br>Trình bày công thức tính Áp lực lọc hiệu dụng (P_lọc) tại mao mạch cầu thận và các giá trị áp suất thành phần bình thường.",
+    [
+        ("Công thức định luật Starling", "P_lọc = P_h - (P_k + P_b); trong đó P_h là áp suất thủy tĩnh mao mạch cầu thận, P_k là áp suất keo huyết tương mao mạch, P_b là áp suất thủy tĩnh trong bao Bowman."),
+        ("Các trị số sinh lý bình thường", "P_h ~ 60 mmHg (áp lực đẩy dịch ra); P_k ~ 28 – 32 mmHg (áp lực kéo nước giữ lại lòng mạch); P_b ~ 15 mmHg (áp lực cản của bao Bowman)."),
+        ("Giá trị Áp lực lọc hiệu dụng P_lọc", "P_lọc = 60 - (28 + 15) = +17 mmHg (dao động từ 10 – 17 mmHg); áp lực dương này tạo ra Tốc độ lọc cầu thận GFR khoảng 120 – 125 mL/phút (180 L/24 giờ).")
+    ],
+    "Không giống như mao mạch toàn thân giảm áp lực thủy tĩnh từ đầu tiểu động mạch sang tiểu tĩnh mạch, mao mạch cầu thận duy trì P_h cao và ổn định nhờ đường kính tiểu động mạch đi hẹp hơn tiểu động mạch đến."
+))
+
+cards.append(make_card(
+    "HS18-B1-04", "B1", "Biến đổi huyết động và vô niệu",
+    "[RỐI LOẠN HUYẾT ĐỘNG CẦU THẬN] Cơ Chế Thiểu Niệu và Vô Niệu Trong Sốc Tuần Hoàn<br>Giải thích cơ chế sinh hóa huyết động học dẫn đến thiểu niệu (< 400 mL/ngày) hoặc vô niệu (< 100 mL/ngày) khi huyết áp tụt sâu.",
+    [
+        ("Ngưỡng sụp đổ áp lực lọc", "Khi huyết áp tâm thu tụt xuống dưới 60 – 70 mmHg (như trong sốc mất máu, sốc nhiễm khuẩn, sốc tim), áp suất thủy tĩnh mao mạch cầu thận P_h sụt giảm xuống dưới 40 mmHg."),
+        ("P_lọc triệt tiêu về 0 hoặc âm tính", "Khi đó: P_lọc = P_h - (P_k + P_b) <= 40 - (28 + 15) = -3 mmHg <= 0; quá trình siêu lọc cầu thận ngừng trệ hoàn toàn."),
+        ("Hậu quả lâm sàng", "Dịch lọc không còn được tạo ra dẫn đến thiểu niệu hoặc vô niệu cấp tính; nếu thiếu tưới máu kéo dài sẽ gây tổn thương thiếu oxy hoại tử biểu mô ống thận (Hoại tử ống thận cấp — ATN), biến suy thận cấp trước thận thành suy thận cấp tại thận.")
+    ],
+    "Khả năng tự điều hòa của thận duy trì GFR ổn định chỉ phát huy hiệu quả khi huyết áp động mạch trung bình (MAP) dao động trong khoảng 80 – 180 mmHg."
+))
+
+cards.append(make_card(
+    "HS18-B1-05", "B1", "Cấu trúc màng lọc cầu thận",
+    "[MÀNG LỌC CẦU THẬN - GFB] Cấu Tạo 3 Lớp Mô Học và Kích Thước Lỗ Rây<br>Mô tả giải phẫu siêu vi của 3 lớp cấu tạo nên Màng lọc cầu thận (Glomerular Filtration Barrier - GFB).",
+    [
+        ("Lớp 1 — Tế bào nội mô mao mạch có lỗ sàng (Fenestrated Endothelium)", "Lớp tế bào lót lòng mạch được đục thủng bởi hàng triệu lỗ sàng kích thước 70 – 100 nm (700 – 1000 Angstrom); ngăn cản tuyệt đối các tế bào máu (hồng cầu, bạch cầu, tiểu cầu); bề mặt phủ lớp glycocalyx tích điện âm."),
+        ("Lớp 2 — Màng đáy cầu thận (Glomerular Basement Membrane - GBM)", "Lớp màng vô bào dày 300 – 350 nm gồm 3 tầng (Lamina rara interna, Lamina densa, Lamina rara externa); tạo thành từ mạng lưới Collagen typ IV (chuỗi alpha-3, 4, 5), Laminin-521, Nidogen và proteoglycan Heparan sulfat tích điện âm."),
+        ("Lớp 3 — Lớp tế bào có chân (Podocytes)", "Biểu mô lá tạng bao Bowman tỏa các nhánh chân thứ cấp (pedicels) cài răng lược vào nhau tạo khe lọc 25 – 40 nm; được bắc cầu bởi Màng khe lọc (Slit diaphragm) có lỗ rây hữu dụng chỉ từ 4 – 14 nm.")
+    ],
+    "Đột biến gen Collagen typ IV (COL4A3, COL4A4, COL4A5) gây hội chứng Alport (viêm thận di truyền kèm điếc thần kinh và tổn thương mắt)."
+))
+
+cards.append(make_card(
+    "HS18-B1-06", "B1", "Sinh học phân tử Màng khe lọc Podocyte",
+    "[MÀNG KHE LỌC PODOCYTE] Phức Hợp Phân Tử Nephrin, Podocin và Đột Biến Gen<br>Trình bày các protein xuyên màng chủ chốt cấu tạo nên màng khe lọc (Slit diaphragm) và bệnh lý di truyền liên quan.",
+    [
+        ("Protein Nephrin (mã hóa bởi gen NPHS1)", "Protein xuyên màng có đoạn ngoại bào dài chứa các domain Ig; hai phân tử nephrin từ hai nhánh chân đối diện liên kết tương tác tạo thành bộ khung rây rãnh dọc của màng khe lọc."),
+        ("Protein Podocin (mã hóa bởi gen NPHS2)", "Protein màng dạng kẹp tóc, cư trú tại bè lipid màng tế bào; liên kết trực tiếp với đoạn nội bào của nephrin và CD2AP, neo giữ phức hợp màng khe vào khung xương actin nội bào."),
+        ("Bệnh lý di truyền tương ứng", "Đột biến gen NPHS1 gây Hội chứng thận hư bẩm sinh kiểu Phần Lan (Congenital nephrotic syndrome of the Finnish type); đột biến gen NPHS2 gây Hội chứng thận hư kháng corticoid khởi phát sớm.")
+    ],
+    "Màng khe lọc podocyte là chướng ngại vật kích thước cuối cùng và tinh vi nhất ngăn chặn protein huyết tương lọt vào nước tiểu."
+))
+
+cards.append(make_card(
+    "HS18-B1-07", "B1", "Cơ chế chọn lọc kép của Màng lọc",
+    "[CƠ CHẾ CHỌN LỌC KÉP] Rây Kích Thước vs Hàng Rào Điện Tích Âm Của GFB<br>Phân tích cơ chế chọn lọc theo kích thước phân tử và điện tích của màng lọc cầu thận đối với phân tử Albumin.",
+    [
+        ("Rây kích thước (Size selectivity)", "Các phân tử có bán kính thủy động học < 18 Angstrom (như nước, điện giải, glucose, urê) lọc tự do 100%; phân tử > 42 Angstrom bị giữ lại hoàn toàn; Albumin có trọng lượng 66 kDa và bán kính 36 Angstrom nằm ở vùng ranh giới."),
+        ("Hàng rào điện tích âm (Charge selectivity)", "Màng đáy giàu Agrin / Heparan sulfat và tế bào podocyte phủ Podocalyxin đều tích điện tích âm mạnh; ở pH sinh lý 7.4, phân tử Albumin mang điện tích âm mạnh (-19) nên bị lực đẩy tĩnh điện đẩy bật trở lại lòng mạch."),
+        ("Thực nghiệm đối chiếu Dextran", "Ở cùng bán kính 36 Angstrom, Dextran tích điện dương (cationic) lọc qua màng dễ dàng nhất, Dextran trung tính lọc hạn chế, còn Dextran tích điện âm (anionic) bị chặn lại gần như hoàn toàn.")
+    ],
+    "Albumin không lọt vào nước tiểu chủ yếu là nhờ hàng rào điện tích âm đẩy tĩnh điện, chứ không phải hoàn toàn do kích thước."
+))
+
+cards.append(make_card(
+    "HS18-B1-08", "B1", "Tổn thương màng lọc cầu thận",
+    "[BỆNH TỔN THƯƠNG TỐI THIỂU] Mất Điện Tích Âm và Hiện Tượng Dính Chân Podocyte<br>Trình bày cơ chế sinh hóa phân tử gây Protein niệu chọn lọc trong Bệnh tổn thương tối thiểu (MCD) ở trẻ em.",
+    [
+        ("Mất điện tích âm màng đáy", "Do rối loạn miễn dịch tiết cytokine tổn thương tế bào podocyte, làm giảm tổng hợp và phân giải các chuỗi polyanion Heparan sulfat trên màng đáy cầu thận; hàng rào đẩy tĩnh điện bị biến mất hoàn toàn."),
+        ("Dính phẳng các nhánh chân Podocyte (Foot process effacement)", "Dưới kính hiển vi điện tử thấy các nhánh chân thứ cấp bị co rút, dính bè bẹt phẳng vào màng đáy, làm rối loạn cấu trúc màng khe lọc."),
+        ("Đặc điểm Protein niệu chọn lọc", "Albumin mang điện tích âm không còn bị lực đẩy tĩnh điện cản trở, tự do thoát ồ ạt qua màng lọc vào nước tiểu (> 3.5 g/24h); các đại phân tử lớn hơn như IgG (150 kDa) và IgM (900 kDa) vẫn bị rây kích thước giữ lại nên không lọt qua.")
+    ],
+    "Chỉ số chọn lọc protein niệu (Clearance IgG / Clearance Transferrin) < 0.1 khẳng định Protein niệu có tính chọn lọc cao, đáp ứng rất nhạy với điều trị Corticoid."
+))
+
+cards.append(make_card(
+    "HS18-B1-09", "B1", "Protein niệu không chọn lọc",
+    "[PROTEIN NIỆU KHÔNG CHỌN LỌC] Đứt Gãy Cấu Trúc Cơ Học Màng Đáy Cầu Thận<br>Phân tích cơ chế bệnh sinh và thành phần protein niệu trong Viêm cầu thận tăng sinh hoặc Xơ hóa cầu thận ổ đoạn (FSGS).",
+    [
+        ("Phá hủy cấu trúc cơ học màng rây", "Lắng đọng phức hợp miễn dịch, thâm nhiễm bạch cầu hoặc xơ hóa làm nứt rách màng đáy cầu thận (GBM) và đứt gãy hoàn toàn các màng khe lọc podocyte."),
+        ("Mất đồng thời cả rây kích thước và điện tích", "Lỗ rây cơ học bị giãn rộng bất thường vượt quá 42 – 100 Angstrom; không chỉ Albumin mà toàn bộ các protein đại phân tử huyết tương đều tự do tràn qua lỗ rách vào khoang Bowman."),
+        ("Thành phần Protein niệu không chọn lọc", "Nước tiểu xuất hiện cả Albumin, Transferrin cùng với các đại phân tử protein kích thước lớn như Immunoglobulin G (IgG), Immunoglobulin M (IgM) và alpha-2-macroglobulin; chỉ số chọn lọc > 0.2, tiên lượng đáp ứng corticoid kém.")
+    ],
+    "Protein niệu không chọn lọc phản ánh tổn thương hoại tử cấu trúc giải phẫu nặng nề của cầu thận, nguy cơ cao tiến triển xơ thận và suy thận mạn."
+))
+
+cards.append(make_card(
+    "HS18-B1-10", "B1", "Tự điều hòa huyết động cầu thận",
+    "[TỰ ĐIỀU HÒA GFR] Vai Trò Của Cơ Chế Myogenic và Cơ Chế Phản Hồi Ống - Cầu Thận<br>Nêu hai cơ chế sinh lý giúp thận duy trì lưu lượng máu RBF và GFR ổn định khi huyết áp hệ thống thay đổi từ 80 đến 180 mmHg.",
+    [
+        ("Cơ chế cơ trơn nội tại (Myogenic mechanism)", "Khi huyết áp tăng làm căng thành tiểu động mạch đến, các kênh ion nhạy cảm sức căng mở ra làm ion Ca2+ tràn vào tế bào cơ trơn mạch máu gây co thắt tiểu động mạch đến, giữ áp lực mao mạch cầu thận P_h không tăng vọt."),
+        ("Phản hồi Ống — Cầu thận (Tubuloglomerular Feedback — TGF)", "Khi GFR tăng, dòng dịch lọc chảy nhanh qua quai Henle làm tăng lượng NaCl đến tế bào Vết đặc (Macula densa) tại đầu ống lượn xa; tế bào vết đặc thu nhận Na+ qua NKCC2 giải phóng Adenosine co tiểu động mạch đến."),
+        ("Ý nghĩa bảo vệ", "Ngăn chặn các cơn tăng huyết áp đột ngột làm vỡ mao mạch cầu thận và đảm bảo tải lượng dịch lọc đưa đến ống thận luôn nằm trong năng lực tái hấp thu.")
+    ],
+    "Khi huyết áp trung bình rơi ra ngoài khoảng 80 – 180 mmHg, cơ chế tự điều hòa bị phá vỡ hoàn toàn, GFR sẽ biến thiên thụ động theo huyết áp hệ thống."
+))
+
+# ==========================================
+# B2: VẬN CHUYỂN VÀ TÁI HẤP THU TẠI ỐNG LƯỢN GẦN VÀ QUAI HENLE (11 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B2-01", "B2", "Tái hấp thu tại Ống lượn gần",
+    "[ỐNG LƯỢN GẦN - PCT] Năng Lực Tái Hấp Thu Khổng Lồ và Đặc Điểm Mô Học Biểu Mô<br>Trình bày tỷ lệ tái hấp thu các chất tại Ống lượn gần (PCT) và hai đặc điểm mô học siêu vi thích nghi với chức năng này.",
+    [
+        ("Tỷ lệ tái hấp thu định lượng", "Tái hấp thu 65 – 70% tổng lượng nước, Na+ và Cl- lọc qua cầu thận; tái hấp thu 85 – 90% lượng HCO3-; tái hấp thu gần như 100% Glucose, Acid amin, Kali, Phosphat và protein nhỏ."),
+        ("Diềm bàn chải vi nhung mao (Brush border)", "Màng đỉnh hướng lòng ống phát triển dày đặc hàng triệu vi nhung mao, làm tăng diện tích bề mặt tiếp xúc trao đổi chất lên gấp 20 – 40 lần."),
+        ("Mật độ ty thể đáy tế bào cực cao", "Vùng màng đáy bên gấp nếp sâu chứa mật độ ty thể dồi dào nhất nephron để cung cấp liên tục ATP cho hàng triệu bơm Na+/K+-ATPase hoạt động vận chuyển tích cực nguyên phát.")
+    ],
+    "Mỗi ngày ống lượn gần tái hấp thu khoảng 120 lít nước, gần 1 kg NaCl và 180 g glucose, tiêu tốn phần lớn năng lượng ATP của thận."
+))
+
+cards.append(make_card(
+    "HS18-B2-02", "B2", "Tái hấp thu Glucose và SGLT2",
+    "[TÁI HẤP THU GLUCOSE] Cơ Chế Đồng Vận SGLT2 Màng Đỉnh và Khuếch Tán GLUT2 Màng Đáy<br>Mô tả cơ chế phân tử tái hấp thu glucose từ lòng ống thận vào máu mao mạch quanh ống tại tế bào ống lượn gần.",
+    [
+        ("Vận chuyển tích cực thứ phát màng đỉnh (SGLT2 / SGLT1)", "Chất đồng vận chuyển Na+ - Glucose SGLT2 (ở đoạn S1/S2, đảm nhiệm 90%) vận chuyển 1 Na+ cùng 1 glucose; SGLT1 (ở đoạn S3, đảm nhiệm 10%) vận chuyển 2 Na+ cùng 1 glucose; động lực là gradient Na+ dốc do bơm Na+/K+-ATPase tạo ra."),
+        ("Khuếch tán thuận hóa màng đáy bên (GLUT2 / GLUT1)", "Nồng độ glucose nội bào tăng cao tự khuếch tán thuận hóa qua kênh protein GLUT2 (đoạn S1/S2) hoặc GLUT1 (đoạn S3) vào mô kẽ rồi vào máu mao mạch quanh ống thận."),
+        ("Bơm Na+/K+-ATPase giữ thế năng", "Bơm màng đáy bên liên tục đẩy 3 Na+ ra mô kẽ đổi 2 K+ vào trong, duy trì nồng độ Na+ nội bào luôn ở mức cực thấp để kéo glucose từ lòng ống vào.")
+    ],
+    "Thuốc ức chế kênh SGLT2 (Dapagliflozin, Empagliflozin) ngăn chặn tái hấp thu glucose ở ống gần, giúp hạ đường huyết và hạ huyết áp an toàn qua đường nước tiểu."
+))
+
+cards.append(make_card(
+    "HS18-B2-03", "B2", "Ngưỡng thận của Glucose",
+    "[NGƯỠNG THẬN GLUCOSE] Khái Niệm Vận Chuyển Tối Đa (Tm) và Ngưỡng Đường Huyết Gây Đái Đường<br>Nêu khái niệm khả năng vận chuyển tối đa (TmG), ngưỡng thận của glucose và hiện tượng vát góc (Splay) trên đồ thị bài xuất.",
+    [
+        ("Vận chuyển tối đa của ống thận (TmG)", "Tốc độ tái hấp thu glucose tối đa khi toàn bộ các protein vận chuyển SGLT2/SGLT1 trên màng đỉnh bị bão hòa hoàn toàn; ở người bình thường TmG khoảng 375 mg/phút."),
+        ("Ngưỡng thận của Glucose (Renal threshold)", "Nồng độ glucose máu mà tại đó bắt đầu xuất hiện glucose trong nước tiểu; ở người bình thường ngưỡng thận khoảng 10 mmol/L (tương đương 180 mg/dL)."),
+        ("Hiện tượng vát góc (Splay)", "Glucose bắt đầu rò rỉ ra nước tiểu ở mức đường huyết 180 mg/dL (trước khi đạt tới mức bão hòa hoàn toàn lý thuyết 300 mg/dL tương ứng TmG); nguyên nhân do tính không đồng nhất về chiều dài và khả năng vận chuyển giữa hàng triệu nephron khác nhau.")
+    ],
+    "Ở phụ nữ mang thai, GFR tăng sinh lý có thể làm giảm ngưỡng thận của glucose, gây ra đường niệu thai kỳ mà đường máu vẫn bình thường."
+))
+
+cards.append(make_card(
+    "HS18-B2-04", "B2", "Tái hấp thu Bicarbonat tại Ống gần",
+    "[TÁI HẤP THU BICARBONAT] Vai Trò Kênh NHE3 và Hai Dạng Enzyme Carbonic Anhydrase<br>Trình bày chu trình sinh hóa tái hấp thu 85 – 90% ion HCO3- tại tế bào ống lượn gần và đích tác dụng của thuốc Acetazolamide.",
+    [
+        ("Bơm NHE3 bài tiết H+ màng đỉnh", "Bơm đối vận Na+/H+ (NHE3) màng đỉnh tống ion H+ ra lòng ống đổi lấy Na+ đi vào; tại lòng ống, H+ kết hợp với HCO3- của dịch lọc tạo acid carbonic (H2CO3)."),
+        ("CA-IV màng đỉnh phân hủy H2CO3", "Enzyme Carbonic Anhydrase gắn màng (CA-IV) nhanh chóng phân giải H2CO3 thành CO2 và H2O; CO2 là phân tử không phân cực dễ dàng khuếch tán tự do qua màng lipid vào bào tương."),
+        ("CA-II nội bào tái tạo HCO3-", "Enzyme CA-II trong bào tương kết hợp CO2 với H2O tạo lại H2CO3, phân ly thành H+ (được NHE3 dùng tiếp) và HCO3-; HCO3- được đồng vận chuyển cùng Na+ vào máu qua kênh NBCe1 màng đáy bên."),
+        ("Ức chế bởi Acetazolamide", "Thuốc ức chế men CA ngăn cản tái hấp thu HCO3-, gây kiềm hóa nước tiểu và toan chuyển hóa máu; dùng điều trị say độ cao và bệnh tăng nhãn áp.")
+    ],
+    "Không có phân tử HCO3- nào trong lòng ống trực tiếp đi qua màng đỉnh; quá trình này thực chất là sự thu hồi gián tiếp thông qua phân tử khí CO2."
+))
+
+cards.append(make_card(
+    "HS18-B2-05", "B2", "Tái hấp thu Protein qua Megalin-Cubilin",
+    "[TÁI HẤP THU PROTEIN ỐNG GẦN] Phức Hợp Thụ Thể Megalin - Cubilin và Hiện Tượng Nhập Bào<br>Mô tả cơ chế tế bào học tái hấp thu các phân tử albumin và protein trọng lượng thấp lọt qua màng lọc cầu thận tại ống lượn gần.",
+    [
+        ("Lượng protein lọt qua màng lọc", "Mỗi ngày có khoảng 2 – 4 g protein phân tử nhỏ (albumin, beta-2-microglobulin, lysozyme, chuỗi nhẹ) lọt qua màng lọc vào dịch siêu lọc."),
+        ("Gắn thụ thể Megalin - Cubilin", "Tại bờ diềm bàn chải ống lượn gần, protein gắn đặc hiệu vào phức hợp thụ thể xuyên màng Megalin - Cubilin, khởi động quá trình nhập bào (endocytosis) tạo túi bọc clathrin."),
+        ("Thoái hóa tại Lysosome", "Túi nội bào hòa màng với lysosome; các enzyme protease (Cathepsin) phân cắt toàn bộ protein thành các acid amin tự do khuếch tán qua màng đáy bên về tuần hoàn; thụ thể Megalin/Cubilin được tái chế quay lại màng đỉnh.")
+    ],
+    "Khi lượng protein lọc qua cầu thận vượt quá khả năng bão hòa của Megalin-Cubilin (như trong hội chứng thận hư), protein sẽ tràn ra nước tiểu và gây độc thoái hóa biểu mô ống thận."
+))
+
+cards.append(make_card(
+    "HS18-B2-06", "B2", "Hội chứng Fanconi ống thận",
+    "[HỘI CHỨNG FANCONI] Khiếm Khuyết Toàn Bộ Chức Năng Tái Hấp Thu Của Ống Lượn Gần<br>Nêu cơ chế bệnh sinh và các thành phần sinh hóa bất thường đặc trưng xuất hiện đồng thời trong nước tiểu ở bệnh nhân mắc Hội chứng Fanconi.",
+    [
+        ("Bản chất khiếm khuyết", "Rối loạn chức năng vận chuyển toàn diện của tế bào biểu mô ống lượn gần (do cạn kiệt ATP, tổn thương ty thể do ngộ độc kim loại nặng chì, cadmium, thuốc kháng virus tenofovir, hoặc bệnh tích trữ Cystinosis)."),
+        ("Các chất bị mất đồng thời qua nước tiểu", "1) Đường niệu do thận (Renal glycosuria dù đường máu hoàn toàn bình thường); 2) Acid amin niệu toàn phần (Aminoaciduria); 3) Tăng bài tiết Phosphat niệu gây hạ phosphat máu và còi xương/nhuyễn xương; 4) Mất HCO3- gây Toan hóa ống thận Typ 2 (Proximal RTA); 5) Mất Kali và Acid uric niệu gây hạ acid uric máu."),
+        ("Dấu ấn protein niệu ống thận", "Xuất hiện nhiều protein trọng lượng phân tử thấp (beta-2-microglobulin, alpha-1-microglobulin) do hỏng phức hợp nhập bào Megalin-Cubilin.")
+    ],
+    "Bệnh cảnh điển hình: Trẻ chậm phát triển thể chất, còi xương đề kháng vitamin D, hạ phosphat máu, toan chuyển hóa giảm kali máu kèm đường niệu bình đường huyết."
+))
+
+cards.append(make_card(
+    "HS18-B2-07", "B2", "Nhánh xuống mảnh Quai Henle",
+    "[NHÁNH XUỐNG MẢNH QUAI HENLE] Biểu Hiện Kênh Aquaporin-1 và Tính Không Thấm Muối<br>Trình bày đặc điểm tính thấm độc đáo của Nhánh xuống mảnh quai Henle (tDLH) và sự biến đổi áp suất thẩm thấu của dịch lòng ống.",
+    [
+        ("Mật độ kênh Aquaporin-1 (AQP1) cực cao", "Biểu mô nhánh xuống mảnh quai Henle biểu hiện mật độ kênh nước AQP1 dày đặc ở cả màng đỉnh và màng đáy bên, tạo tính thấm nước thụ động cực kỳ cao."),
+        ("Hoàn toàn không thấm NaCl và Urê", "Vách tế bào hoàn toàn không biểu hiện các kênh ion hay chất vận chuyển muối, tính thấm đối với NaCl và urê gần như bằng 0."),
+        ("Cô đặc dịch lòng ống theo gradient tủy", "Khi dịch lọc đi sâu vào vùng tủy thận ngày càng ưu trương, nước bị hút mạnh mẽ từ lòng ống ra mô kẽ; dịch lòng ống bị cô đặc tăng vọt từ 300 mOsm/kg ở đầu quai lên tới cực đại 1200 – 1400 mOsm/kg tại chóp nhú quai Henle.")
+    ],
+    "Nhánh xuống quai Henle là đoạn duy nhất của nephron cô đặc dịch lọc bằng cách thuần túy rút nước mà không dịch chuyển bất kỳ chất tan nào."
+))
+
+cards.append(make_card(
+    "HS18-B2-08", "B2", "Nhánh lên dày Quai Henle và NKCC2",
+    "[NHÁNH LÊN DÀY QUAI HENLE] Kênh Đồng Vận NKCC2 và Tính Không Thấm Nước Hoàn Toàn<br>Mô tả cơ chế phân tử vận chuyển muối tại Nhánh lên dày quai Henle (TAL) và giải thích vì sao đoạn này được gọi là 'phân đoạn pha loãng' (Diluting segment).",
+    [
+        ("Hoàn toàn không thấm nước", "Biểu mô TAL có liên kết vòng bịt claudin-16/19 rất chặt chẽ và hoàn toàn không biểu hiện bất kỳ kênh nước aquaporin nào; nước bị giữ lại 100% trong lòng ống."),
+        ("Đồng vận chuyển tích cực NKCC2 màng đỉnh", "Chất vận chuyển NKCC2 đưa đồng thời 1 Na+, 1 K+ và 2 Cl- từ lòng ống vào bào tương; động lực do bơm Na+/K+-ATPase màng đáy bên tiêu tốn ATP tạo ra; tái hấp thu 20 – 25% lượng muối lọc qua cầu thận."),
+        ("Phân đoạn pha loãng (Diluting segment)", "Muối bị tích cực rút ra khỏi lòng ống đưa vào mô kẽ tủy trong khi nước không thể đi theo; dịch lòng ống rời khỏi quai Henle bị giảm nồng độ thẩm thấu xuống còn khoảng 100 – 150 mOsm/kg (nhược trương hơn huyết tương).")
+    ],
+    "Hoạt động của NKCC2 tại nhánh lên dày quai Henle chính là động cơ sinh năng lượng kiến tạo nên toàn bộ gradient ưu trương của mô kẽ tủy thận."
+))
+
+cards.append(make_card(
+    "HS18-B2-09", "B2", "Kênh ROMK và Tái hấp thu Calci/Magie",
+    "[KÊNH ROMK VÀ TÁI HẤP THU CANXI] Điện Thế Dương Lòng Ống và Con Đường Cận Bào<br>Giải thích cơ chế kênh ROMK tạo điện thế dương trong lòng ống tại nhánh lên dày quai Henle và vai trò thúc đẩy tái hấp thu Ca2+ và Mg2+.",
+    [
+        ("Kênh kali tủy ngoài ROMK", "Ion K+ được NKCC2 đưa vào tế bào có nồng độ cao sẽ khuếch tán ngược trở lại lòng ống thông qua kênh kali chuyên biệt ROMK (Renal Outer Medullary K+ channel) ở màng đỉnh."),
+        ("Tạo điện thế dương lòng ống (+8 đến +10 mV)", "Dòng ion K+ mang điện dương quay trở lại lòng ống trong khi Cl- tiếp tục đi qua màng đáy bên vào máu tạo nên sự chênh lệch điện thế xuyên biểu mô với lòng ống tích điện dương."),
+        ("Đẩy Ca2+ và Mg2+ tái hấp thu cận bào", "Điện thế dương lòng ống tạo lực đẩy tĩnh điện xua đuổi các cation hóa trị hai Ca2+ và Mg2+ đi xuyên qua khoảng kẽ giữa các tế bào (paracellular pathway) qua protein Claudin-16 và Claudin-19 vào máu (tái hấp thu 50 – 60% Mg2+ và 25% Ca2+ toàn thân).")
+    ],
+    "Khi sử dụng thuốc lợi tiểu quai, sự ức chế NKCC2 làm sụp đổ điện thế dương lòng ống, dẫn đến mất khả năng tái hấp thu Ca2+ và Mg2+, gây tăng thải calci niệu và hạ magie máu."
+))
+
+cards.append(make_card(
+    "HS18-B2-10", "B2", "Cơ chế tác dụng Thuốc lợi tiểu Quai",
+    "[LỢI TIỂU QUAI] Cơ Chế Dược Lý Của Furosemid và Các Rối Loạn Điện Giải Kèm Theo<br>Trình bày vị trí đích tác dụng phân tử của thuốc lợi tiểu Furosemid tại quai Henle và 4 rối loạn điện giải thường gặp khi lạm dụng thuốc.",
+    [
+        ("Đích tác dụng phân tử", "Furosemid cạnh tranh vị trí gắn của ion Cl- trên chất đồng vận chuyển NKCC2 ở màng đỉnh nhánh lên dày quai Henle; làm bất hoạt hoàn toàn sự tái hấp thu Na+, K+ và Cl-."),
+        ("Hiệu lực lợi tiểu mạnh nhất", "Do ức chế đoạn tái hấp thu tới 25% tải lượng muối và phá vỡ gradient ưu trương tủy thận; nước không thể tái hấp thu ở ống góp, gây đào thải ồ ạt lượng lớn nước tiểu."),
+        ("4 rối loạn điện giải đặc trưng", "1) Hạ Natri máu; 2) Hạ Kali máu (do tăng lượng Na+ và dịch đến ống góp kích thích bài tiết K+); 3) Hạ Calci và Magie máu (do mất điện thế dương lòng ống đẩy cận bào); 4) Nhiễm kiềm chuyển hóa co thể tích (Contraction alkalosis).")
+    ],
+    "Furosemid là thuốc lợi tiểu lựa chọn hàng đầu trong cấp cứu phù phổi cấp, suy tim ứ huyết mất bù và suy thận cấp thừa dịch."
+))
+
+cards.append(make_card(
+    "HS18-B2-11", "B2", "Hội chứng Bartter di truyền",
+    "[HỘI CHỨNG BARTTER] Khiếm Khuyết Di Truyền Nhánh Lên Dày Quai Henle<br>Nêu cơ chế di truyền phân tử của Hội chứng Bartter và giải thích vì sao bệnh cảnh này được ví như 'dùng Furosemid bẩm sinh suốt đời'.",
+    [
+        ("Bản chất đột biến gen", "Di truyền lặn trên nhiễm sắc thể thường; đột biến mất chức năng các gen mã hóa các protein tại nhánh lên dày quai Henle: NKCC2 (Typ 1), ROMK (Typ 2), Kênh Cl- màng đáy bên CLC-Kb (Typ 3), hoặc Barttin (Typ 4)."),
+        ("Sinh lý bệnh tương đương dùng Furosemid mạn tính", "Mất hoàn toàn khả năng tái hấp thu NaCl tại quai Henle; gây mất muối mất nước qua nước tiểu, hạ huyết áp, hoạt hóa mạnh mẽ hệ thống RAAS."),
+        ("Bộ xét nghiệm sinh hóa đặc trưng", "1) Hạ Kali máu nặng; 2) Nhiễm kiềm chuyển hóa; 3) Tăng Calci niệu nặng dẫn đến lắng đọng calci tủy thận (Nephrocalcinosis); 4) Tăng nồng độ Renin và Aldosteron huyết tương nhưng huyết áp bình thường hoặc thấp.")
+    ],
+    "Phân biệt với Hội chứng Gitelman: Bartter có tăng calci niệu nặng và khởi phát sớm ở trẻ sơ sinh, còn Gitelman có hạ calci niệu và khởi phát muộn hơn."
+))
+
+# ==========================================
+# B3: VẬN CHUYỂN TẠI ỐNG LƯỢN XA VÀ ỐNG GÓP (10 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B3-01", "B3", "Ống lượn xa và Lợi tiểu Thiazid",
+    "[ỐNG LƯỢN XA - DCT] Kênh Đồng Vận NCCT và Cơ Chế Tác Dụng Thuốc Lợi Tiểu Thiazid<br>Trình bày cơ chế tái hấp thu muối qua kênh NCCT tại đoạn đầu ống lượn xa và tác dụng đối lập của Thiazid lên chuyển hóa Calci so với Furosemid.",
+    [
+        ("Tái hấp thu qua kênh NCCT", "Chất đồng vận chuyển Na+-Cl- (NCCT hay NCC) ở màng đỉnh tái hấp thu khoảng 5% lượng NaCl lọc qua cầu thận; thành ống không thấm nước tiếp tục pha loãng dịch lọc."),
+        ("Cơ chế của Thiazid (Hydrochlorothiazid)", "Ức chế cạnh tranh vị trí gắn Cl- của kênh NCCT, làm giảm tái hấp thu NaCl, gây lợi tiểu mức độ vừa phải."),
+        ("Tác dụng tăng tái hấp thu Calci (Khác biệt sống còn)", "Thiazid làm giảm Na+ nội bào, kích thích bơm trao đổi Na+/Ca2+ (NCX1) ở màng đáy bên tăng kéo Ca2+ từ tế bào vào máu; tạo gradient kéo Ca2+ từ lòng ống qua kênh TRPV5 vào trong tế bào; kết quả LÀM GIẢM CALCI NIỆU (ngược với Furosemid làm tăng thải calci niệu).")
+    ],
+    "Thiazid là thuốc lựa chọn lý tưởng điều trị tăng huyết áp ở bệnh nhân loãng xương hoặc dự phòng tái phát sỏi thận do tăng calci niệu vô căn."
+))
+
+cards.append(make_card(
+    "HS18-B3-02", "B3", "Hội chứng Gitelman di truyền",
+    "[HỘI CHỨNG GITELMAN] Khiếm Khuyết Gen SLC12A3 Kênh NCCT Ống Lượn Xa<br>Nêu cơ chế phân tử và các dấu hiệu sinh hóa phân biệt kinh điển của Hội chứng Gitelman so với Hội chứng Bartter.",
+    [
+        ("Bản chất đột biến", "Đột biến lặn trên NST thường làm mất chức năng gen SLC12A3 mã hóa kênh đồng vận chuyển Na+-Cl- (NCCT) tại ống lượn xa; tương đương với tình trạng 'dùng thuốc lợi tiểu Thiazid suốt đời'."),
+        ("Đặc điểm sinh hóa kinh điển", "1) Hạ Kali máu; 2) Nhiễm kiềm chuyển hóa; 3) Hạ Magie máu nặng (do ống lượn xa là nơi tinh chỉnh tái hấp thu magie qua kênh TRPM6); 4) HẠ CALCI NIỆU RÕ RỆT (Urine Ca2+ < 2 mg/kg/ngày)."),
+        ("Phân biệt với Bartter", "Gitelman khởi phát muộn ở tuổi thanh thiếu niên hoặc người lớn, có HẠ CALCI NIỆU (Bartter tăng calci niệu) và HẠ MAGIE MÁU NẶNG; không có lắng đọng calci tủy thận.")
+    ],
+    "Bệnh nhân Gitelman thường vào viện vì mệt mỏi, chuột rút cơ, yếu cơ từng cơn do hạ magie và hạ kali máu mạn tính."
+))
+
+cards.append(make_card(
+    "HS18-B3-03", "B3", "Tế bào chính Ống góp và ENaC",
+    "[TẾ BÀO CHÍNH ỐNG GÓP] Kênh Natri Biểu Mô ENaC và Kênh ROMK<br>Mô tả cơ chế tái hấp thu Na+ và bài tiết K+ tại Tế bào chính (Principal Cells) của ống góp.",
+    [
+        ("Kênh Natri biểu mô ENaC màng đỉnh", "Na+ từ lòng ống khuếch tán thuận hóa vào trong tế bào chính thông qua kênh ENaC (Epithelial Sodium Channel); bơm Na+/K+-ATPase màng đáy bên bơm Na+ vào máu."),
+        ("Tạo điện thế âm lòng ống (-10 đến -20 mV)", "Dòng ion Na+ mang điện dương di chuyển vào tế bào nhanh hơn dòng anion Cl- đi theo, tạo ra điện thế âm trong lòng ống góp."),
+        ("Bài tiết Kali qua kênh ROMK và BK", "Điện thế âm lòng ống tạo lực hút tĩnh điện kéo ion K+ từ bào tương tế bào chính bài tiết ồ ạt ra lòng ống nước tiểu qua kênh ROMK và kênh Maxi-K (BK channel).")
+    ],
+    "Tốc độ dòng chảy dịch lọc đến ống góp càng cao (như khi dùng lợi tiểu quai) thì gradient K+ càng bị pha loãng, càng thúc đẩy bài tiết K+ gây hạ kali máu nặng."
+))
+
+cards.append(make_card(
+    "HS18-B3-04", "B3", "Tác dụng của Aldosteron tại Ống góp",
+    "[TÁC DỤNG ALDOSTERON] Thụ Thể MR và Cơ Chế Tăng Tái Hấp Thu Natri, Thải Kali/Proton<br>Trình bày cơ chế phiên mã của hormon Aldosteron tại tế bào chính và tế bào kẽ ống góp.",
+    [
+        ("Gắn thụ thể khoáng hóa Mineralocorticoid (MR)", "Aldosteron tan trong lipid khuếch tán qua màng gắn vào thụ thể MR trong bào tương; phức hợp hormon-thụ thể chuyển dịch vào nhân tế bào."),
+        ("Kích hoạt phiên mã SGK1 và kênh ENaC", "Kích hoạt enzym SGK1 (Serum and Glucocorticoid-regulated Kinase 1) phosphoryl hóa bất hoạt ubiquitin-ligase Nedd4-2; ngăn chặn sự tiêu hủy kênh ENaC, làm tăng biểu hiện và gắn thêm hàng ngàn kênh ENaC lên màng đỉnh."),
+        ("Tăng sinh bơm Na+/K+-ATPase và bài xuất H+", "Kích thích tăng tổng hợp bơm Na+/K+-ATPase ở màng đáy bên tế bào chính (tăng giữ Na+, tăng thải K+); đồng thời kích thích trực tiếp bơm H+-ATPase ở tế bào kẽ loại A tăng tống H+ ra nước tiểu."),
+        ("Hệ quả lâm sàng", "Cường Aldosteron gây tăng huyết áp giữ muối nước, hạ Kali máu và nhiễm kiềm chuyển hóa.")
+    ],
+    "Enzyme 11beta-HSD2 tại tế bào chính biến Cortisol thành Cortisone bất hoạt, ngăn Cortisol gắn nhầm vào thụ thể MR gây hội chứng giả cường aldosteron."
+))
+
+cards.append(make_card(
+    "HS18-B3-05", "B3", "Thuốc Lợi tiểu giữ Kali",
+    "[LỢI TIỂU GIỮ KALI] Đối Kháng Thụ Thể Aldosteron vs Ức Chế Kênh ENaC Trực Tiếp<br>Phân loại 2 nhóm thuốc lợi tiểu giữ kali và cơ chế tác dụng phân tử của từng nhóm tại ống góp.",
+    [
+        ("Nhóm đối kháng thụ thể Aldosteron (Spironolactone, Eplerenone)", "Cạnh tranh vị trí gắn trực tiếp với Aldosteron tại thụ thể MR nội bào; ngăn cản quá trình phiên mã tạo kênh ENaC và bơm Na+/K+-ATPase; làm giảm tái hấp thu Na+ và ngăn chặn bài tiết K+, H+."),
+        ("Nhóm ức chế trực tiếp kênh ENaC (Amiloride, Triamterene)", "Chẹn trực tiếp vào lỗ kênh ENaC ở màng đỉnh tế bào chính độc lập hoàn toàn với nồng độ aldosteron; ngăn Na+ đi vào tế bào, làm mất điện thế âm lòng ống nên K+ và H+ không bị hút ra nước tiểu."),
+        ("Ứng dụng lâm sàng và Cảnh báo", "Dùng điều trị suy tim, xơ gan cổ trướng, hội chứng Conn; NGUY CƠ CAO GÂY TĂNG KALI MÁU TỬ VONG nếu phối hợp với thuốc ức chế men chuyển (ACEi) hoặc ở bệnh nhân suy thận.")
+    ],
+    "Spironolactone còn có tác dụng kháng androgen (gây chứng vú to ở nam giới), trong khi Eplerenone có tính chọn lọc cao trên thụ thể MR nên không có tác dụng phụ này."
+))
+
+cards.append(make_card(
+    "HS18-B3-06", "B3", "Hội chứng Liddle di truyền",
+    "[HỘI CHỨNG LIDDLE] Đột Bến Hoạt Hóa Kênh ENaC Gây Tăng Huyết Áp Giả Cường Aldosteron<br>Nêu cơ chế phân tử của Hội chứng Liddle và giải thích vì sao bệnh nhân có triệu chứng cường aldosteron nhưng nồng độ Aldosteron và Renin máu lại giảm rất thấp.",
+    [
+        ("Bản chất đột biến gen", "Di truyền trội trên NST thường; đột biến mất domain PY ở đoạn đuôi C của chuỗi beta hoặc gamma của kênh ENaC."),
+        ("Mất khả năng thoái giáng kênh ENaC", "Ubiquitin-ligase Nedd4-2 không còn nhận diện và gắn ubiquitin lên kênh ENaC được nữa; kênh ENaC tồn tại vĩnh viễn trên màng đỉnh không bị nhập bào tiêu hủy (Gain-of-function)."),
+        ("Tái hấp thu Natri mất kiểm soát", "Na+ bị hút ồ ạt liên tục gây tăng thể tích dịch ngoại bào, tăng huyết áp nặng, bài tiết cạn kiệt K+ gây hạ kali máu và nhiễm kiềm chuyển hóa; thể tích máu căng ức chế hoàn toàn phức hợp cận cầu thận làm RENIN MÁU VÀ ALDOSTERON MÁU ĐỀU GIẢM VỀ 0."),
+        ("Điều trị đặc hiệu", "Kháng hoàn toàn với Spironolactone (vì không phụ thuộc thụ thể MR); điều trị đặc hiệu bằng thuốc chẹn kênh ENaC trực tiếp Amiloride.")
+    ],
+    "Cần nghĩ đến Hội chứng Liddle ở bệnh nhân trẻ tuổi có tăng huyết áp kháng trị kèm hạ kali máu nặng nhưng xét nghiệm thấy Renin và Aldosteron máu đều bị ức chế sâu."
+))
+
+cards.append(make_card(
+    "HS18-B3-07", "B3", "Hormon ADH và Kênh Aquaporin-2",
+    "[TÁI HẤP THU NƯỚC QUA ADH] Thụ Thể V2, Tín Hiệu cAMP và Sự Chèn Kênh Aquaporin-2<br>Mô tả chuỗi dẫn truyền tín hiệu từ hormon ADH (Vasopressin) tại màng đáy bên dẫn đến việc chèn các kênh Aquaporin-2 lên màng đỉnh tế bào ống góp.",
+    [
+        ("Gắn thụ thể V2 màng đáy bên", "Hormon chống bài niệu ADH từ thùy sau tuyến yên theo máu đến gắn vào thụ thể V2 (kết cặp protein Gs) ở màng đáy bên tế bào chính ống góp."),
+        ("Kích hoạt Adenylyl Cyclase tăng cAMP", "Gs hoạt hóa enzyme Adenylyl cyclase chuyển ATP thành cAMP; cAMP kích hoạt Protein Kinase A (PKA)."),
+        ("Chèn kênh Aquaporin-2 (AQP2) lên màng đỉnh", "PKA phosphoryl hóa các túi nội bào chứa kênh nước Aquaporin-2; các túi này lập tức di chuyển và hòa màng vào màng đỉnh hướng lòng ống, mở ra hàng triệu lỗ thấm nước."),
+        ("Thu hồi kênh khi hết ADH", "Khi nồng độ ADH giảm, kênh AQP2 bị nhập bào thu hồi trở lại vào bào tương qua túi bọc clathrin; màng đỉnh trở lại trạng thái không thấm nước hoàn toàn.")
+    ],
+    "Nước từ lòng ống đi qua AQP2 vào tế bào, sau đó thoát ra mô kẽ tủy ưu trương thông qua các kênh Aquaporin-3 và Aquaporin-4 nằm thường trực ở màng đáy bên."
+))
+
+cards.append(make_card(
+    "HS18-B3-08", "B3", "Đái tháo nhạt Trung ương vs Do thận",
+    "[ĐÁI THÁO NHẠT] Phân Biệt Đái Tháo Nhạt Trung Ương vs Do Thận Qua Test Desmopressin<br>So sánh nguyên nhân và đáp ứng với nghiệm pháp tiêm dDAVP (Desmopressin) trong chẩn đoán phân biệt Đái tháo nhạt trung ương và Đái tháo nhạt do thận.",
+    [
+        ("Đái tháo nhạt trung ương (Central DI)", "Tổn thương vùng dưới đồi - tuyến yên (chấn thương sọ não, phẫu thuật, u tuyến yên) làm giảm hoặc mất hoàn toàn bài tiết hormon ADH vào máu."),
+        ("Đái tháo nhạt do thận (Nephrogenic DI)", "Tuyến yên tiết đủ hoặc thừa ADH nhưng tế bào ống góp mất khả năng đáp ứng với ADH (do đột biến thụ thể V2, đột biến kênh AQP2, ngộ độc thuốc Lithium, hoặc tăng calci máu)."),
+        ("Nghiệm pháp Desmopressin (dDAVP test)", "Cho bệnh nhân nhịn nước đến khi nồng độ thẩm thấu niệu ổn định, sau đó tiêm dDAVP: Nhóm Trung ương: Nồng độ thẩm thấu nước tiểu tăng vọt > 50% (đáp ứng tốt với ADH ngoại sinh); Nhóm Do thận: Nồng độ thẩm thấu nước tiểu không thay đổi hoặc tăng < 10% (ống thận trơ với ADH).")
+    ],
+    "Cả hai thể đều biểu hiện lâm sàng bằng hội chứng đái nhiều (5 – 15 lít/ngày), nước tiểu cực kỳ pha loãng (nồng độ thẩm thấu < 200 mOsm/kg) và khát nhiều liên tục."
+))
+
+cards.append(make_card(
+    "HS18-B3-09", "B3", "Tế bào kẽ loại A Ống góp",
+    "[TẾ BÀO KẼ LOẠI A] Bơm Proton H+-ATPase Màng Đỉnh và Chống Toan Máu<br>Trình bày cơ chế phân tử giúp Tế bào kẽ loại A (Type A Intercalated Cells) đào thải ion H+ và bảo tồn HCO3- khi cơ thể bị nhiễm toan.",
+    [
+        ("Hoạt động khi toan máu (Acidosis)", "Được kích hoạt mạnh mẽ khi nồng độ ion H+ máu tăng cao để bài xuất acid bảo vệ nội môi."),
+        ("Bơm chủ động H+-ATPase màng đỉnh", "Bơm trực tiếp ion H+ từ bào tương ra lòng ống nước tiểu chống lại gradient nồng độ rất dốc (tạo chênh lệch nồng độ H+ gấp 1000 lần, có thể hạ pH nước tiểu xuống mức tối thiểu 4.5); đồng thời có bơm đối vận H+/K+-ATPase hỗ trợ."),
+        ("Bơm đối vận Anion AE1 màng đáy bên", "Ion HCO3- mới sinh trong tế bào (nhờ enzyme CA-II) được bơm đối vận AE1 (Band 3) vận chuyển qua màng đáy bên vào máu để đổi lấy Cl- đi vào tế bào; bổ sung lượng đệm kiềm cho tuần hoàn.")
+    ],
+    "Đột biến mất chức năng bơm H+-ATPase hoặc kênh AE1 tại tế bào kẽ loại A dẫn đến bệnh Toan hóa ống thận xa (Distal RTA / Typ 1), pH nước tiểu không bao giờ hạ được dưới 5.5."
+))
+
+cards.append(make_card(
+    "HS18-B3-10", "B3", "Tế bào kẽ loại B Ống góp",
+    "[TẾ BÀO KẼ LOẠI B] Kênh Đối Vận Pendrin Màng Đỉnh và Bài Tiết Kiềm<br>Mô tả cấu trúc phân tử đảo ngược cực tính của Tế bào kẽ loại B (Type B Intercalated Cells) và cơ chế bài tiết kiềm khi nhiễm kiềm máu.",
+    [
+        ("Hoạt động khi kiềm máu (Alkalosis)", "Được huy động khi nồng độ HCO3- máu tăng cao để thải bớt lượng kiềm dư thừa ra nước tiểu."),
+        ("Đảo ngược cực tính hoàn toàn so với loại A", "Bơm bài xuất acid và bazo nằm ở các vị trí màng hoàn toàn đối lập nhau."),
+        ("Chất đối vận Pendrin màng đỉnh (SLC26A4)", "Bơm trực tiếp ion HCO3- từ trong tế bào tống ra lòng ống nước tiểu để đổi lấy Cl- đi vào tế bào, giúp kiềm hóa nước tiểu."),
+        ("Bơm H+-ATPase màng đáy bên", "Bơm chủ động ion H+ từ tế bào vào mô kẽ và máu mao mạch quanh ống, giúp đưa acid trở lại tuần hoàn để hạ thấp pH máu.")
+    ],
+    "Hội chứng Pendred do đột biến gen SLC26A4 gây điếc tiếp nhận bẩm sinh phối hợp với bướu cổ do rối loạn vận chuyển Iod tại tuyến giáp."
+))
+
+# ==========================================
+# B4: ĐIỀU HÒA ACID - BASE VÀ CƠ CHẾ CÔ ĐẶC NƯỚC TIỂU (10 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B4-01", "B4", "Cơ chế bài tiết Acid chuẩn độ",
+    "[ACID CHUẨN ĐỘ] Hệ Đệm Phosphat Lòng Ống và Giới Hạn Tối Đa Bài Tiết H+<br>Trình bày cơ chế tạo Acid chuẩn độ (Titratable Acid) qua hệ đệm phosphat tại ống lượn xa và lý do vì sao hệ thống này bị giới hạn công suất.",
+    [
+        ("Hệ đệm Phosphat lọc qua cầu thận", "Dịch siêu lọc chứa nồng độ cao dinatri phosphat (Na2HPO4); phân ly thành 2 Na+ và HPO4 2- (dibasic phosphat có pKa = 6.8)."),
+        ("Tạo Monobasic Phosphat đào thải", "Ion H+ do tế bào kẽ loại A bơm ra kết hợp với HPO4 2- tạo thành H2PO4- (monobasic phosphat); chất này gắn với 1 Na+ đào thải theo nước tiểu dưới dạng muối NaH2PO4 vô hại; mỗi ion H+ được cố định sẽ sinh mới 1 ion HCO3- đưa vào máu."),
+        ("Giới hạn công suất bài tiết", "Lượng phosphat lọc qua cầu thận tương đối hằng định (khoảng 20 – 40 mmol/ngày) và không thể tăng sinh theo nhu cầu; do đó khi cơ thể bị toan máu nặng, hệ đệm phosphat nhanh chóng bị bão hòa hoàn toàn.")
+    ],
+    "Thuật ngữ 'acid chuẩn độ' bắt nguồn từ lượng dung dịch NaOH cần dùng trong phòng xét nghiệm để chuẩn độ đưa pH nước tiểu từ mức acid trở về pH sinh lý 7.4."
+))
+
+cards.append(make_card(
+    "HS18-B4-02", "B4", "Cơ chế tạo Amoni Ammoniagenesis",
+    "[TẠO AMONI ỐNG THẬN] Chuyển Hóa Glutamin Tại Ống Lượn Gần và Vai Trò Bẫy Ion NH4+<br>Mô tả con đường thoái hóa Glutamin tại ty thể tế bào ống lượn gần và vai trò thích ứng khổng lồ của đệm Amoni trong toan chuyển hóa nặng.",
+    [
+        ("Thoái hóa Glutamin tạo NH4+ và HCO3-", "Enzym Glutaminase ty thể phân cắt Glutamin thành Glutamat và giải phóng 1 NH4+; tiếp tục enzym Glutamat dehydrogenase phân cắt glutamat tạo alpha-ketoglutarat và giải phóng NH4+ thứ hai; alpha-ketoglutarat chuyển hóa tạo 2 ion HCO3- mới đưa vào máu."),
+        ("Bài tiết NH4+ vào lòng ống", "Ion NH4+ được bài tiết vào lòng ống lượn gần chủ yếu thông qua bơm NHE3 (thay thế vị trí ion H+), theo dòng dịch lọc chảy xuống quai Henle."),
+        ("Bẫy ion tại ống góp (Diffusion trapping)", "Tại tủy thận, NH3 tự do khuếch tán vào lòng ống góp kết hợp ngay với H+ do bơm proton bài tiết tạo thành ion NH4+; màng tế bào ống góp hoàn toàn không thấm cation NH4+ nên nó bị 'bẫy' vĩnh viễn trong lòng ống và đào thải ra nước tiểu dưới dạng muối NH4Cl."),
+        ("Năng lực thích ứng không giới hạn", "Trong toan máu mạn tính (như DKA), thận có thể tăng sinh enzyme Glutaminase gấp 10 lần, tăng bài xuất NH4+ từ 30 mmol/ngày lên tới 300 – 500 mmol/ngày.")
+    ],
+    "Bài tiết muối amoni (NH4+) là cơ chế bù trừ acid quan trọng nhất và linh hoạt nhất của thận giúp cứu sống bệnh nhân nhiễm toan chuyển hóa nặng."
+))
+
+cards.append(make_card(
+    "HS18-B4-03", "B4", "Khoảng trống Anion nước tiểu",
+    "[KHOẢNG TRỐNG ANION NIỆU] Công Thức UAG và Phân Biệt Toan Chuyển Hóa Tiêu Chảy vs RTA<br>Nêu công thức tính Khoảng trống Anion nước tiểu (Urine Anion Gap — UAG) và giá trị của nó trong chẩn đoán nguyên nhân toan chuyển hóa tăng Clo máu.",
+    [
+        ("Công thức tính UAG", "UAG = [Na+ niệu] + [K+ niệu] - [Cl- niệu]; đơn vị tính mmol/L."),
+        ("Ý nghĩa sinh lý phản ánh bài tiết NH4+", "Nước tiểu phải trung hòa về điện tích; ion Cl- đi kèm với cả Na+, K+ và cation bài tiết chính là NH4+ (đo lượng NH4+ trực tiếp rất phức tạp nên dùng Cl- làm chỉ dấu đại diện); do đó: UAG xấp xỉ bằng [Cation khác] - [NH4+]."),
+        ("UAG âm tính (UAG < 0, thường -20 đến -50) — Tiêu chảy", "Thận còn nguyên vẹn đáp ứng bù trừ toan máu bằng cách tăng bài xuất NH4+ đi kèm Cl-; Cl- niệu tăng rất cao vượt trội tổng Na+ và K+ làm UAG âm tính; chỉ điểm mất kiềm qua đường tiêu hóa (tiêu chảy cấp)."),
+        ("UAG dương tính (UAG > 0) — Toan hóa ống thận RTA", "Ống thận bị tổn thương không thể tăng tổng hợp và bài xuất NH4+; Cl- niệu thấp khiến tổng Na+ và K+ lớn hơn Cl-; khẳng định toan chuyển hóa do tổn thương ống thận (RTA Typ 1 hoặc Typ 4).")
+    ],
+    "UAG là công cụ sinh hóa tại giường bệnh cực kỳ sắc bén giúp phân biệt nguyên nhân toan chuyển hóa do mất kiềm ngoài thận hay do bệnh lý ống thận."
+))
+
+cards.append(make_card(
+    "HS18-B4-04", "B4", "Cơ chế nhân nồng độ ngược dòng",
+    "[NHÂN NỒNG ĐỘ NGƯỢC DÒNG] Hiệu Ứng Đơn Độc (Single Effect) và Sự Nhân Nồng Độ Chiều Dọc<br>Giải thích cơ chế vận hành của Hệ thống nhân nồng độ ngược dòng (Countercurrent Multiplier) tại quai Henle của các nephron cận tủy.",
+    [
+        ("Dòng chảy ngược chiều nhau", "Dịch lọc chảy xuống ở nhánh xuống và chảy ngược lên ở nhánh lên dày trong hai ống song song sát cạnh nhau."),
+        ("Hiệu ứng đơn độc (Single effect tại mặt cắt ngang)", "Tại nhánh lên dày (TAL), bơm NKCC2 tích cực tống NaCl ra mô kẽ mà không cho nước đi theo; tạo ra mức chênh lệch áp suất thẩm thấu tối đa khoảng 200 mOsm/kg giữa lòng ống và mô kẽ tại bất kỳ mặt cắt ngang nào."),
+        ("Nhân nồng độ theo chiều dọc (Multiplier)", "Dịch lọc mới liên tục tràn từ ống gần vào nhánh xuống; nước bị hút ra mô kẽ ưu trương làm dịch đến chóp quai ngày càng đậm đặc (từ 300 lên 400, 600, 800...); nhánh lên lại tiếp tục bơm muối từ dịch đậm đặc này tạo gradient mới."),
+        ("Kết quả chung cuộc", "Hiệu ứng đơn độc 200 mOsm/kg được nhân lên hàng nghìn lần dọc theo chiều dài của quai, kiến tạo thang áp suất thẩm thấu tăng dần từ 300 mOsm/kg ở vỏ lên tới cực đại 1200 – 1400 mOsm/kg ở chóp nhú tủy.")
+    ],
+    "Nephron cận tủy có quai Henle càng dài thì khả năng cô đặc nước tiểu của loài động vật đó càng cao (ví dụ chuột sa mạc có quai rất dài cô đặc nước tiểu tới 5000 mOsm/kg)."
+))
+
+cards.append(make_card(
+    "HS18-B4-05", "B4", "Tái tuần hoàn Urê tại tủy thận",
+    "[TÁI TUẦN HOÀN URÊ] Vai Trò Kênh UT-A1/UT-A3 và Đóng Góp 50% Nồng Độ Thẩm Thấu Tủy Sâu<br>Trình bày con đường tái tuần hoàn của phân tử Urê tại thận và vai trò của nó trong việc duy trì ưu trương vùng tủy sâu.",
+    [
+        ("Đóng góp 50% áp suất thẩm thấu tủy sâu", "Trong tổng số 1200 mOsm/kg tại chóp nhú tủy thận, khoảng 600 mOsm/kg do NaCl tạo ra, và 600 mOsm/kg còn lại hoàn toàn do Urê tạo nên."),
+        ("Cô đặc urê dọc theo nephron", "Urê lọc tự do qua cầu thận; quai Henle và ống lượn xa hầu như không thấm urê; khi đến ống góp vỏ và tủy ngoài dưới tác dụng của ADH, nước bị rút mạnh ra ngoài khiến nồng độ urê trong lòng ống góp tủy tăng vọt lên cực cao."),
+        ("Khuếch tán ra mô kẽ qua kênh UT-A1/UT-A3", "Tại đoạn cuối ống góp tủy trong, ADH kích hoạt các kênh vận chuyển urê đặc hiệu UT-A1 (màng đỉnh) và UT-A3 (màng đáy bên); urê khuếch tán ồ ạt ra mô kẽ tủy sâu tạo ưu trương tột độ."),
+        ("Tái tuần hoàn vào quai Henle", "Lượng urê mô kẽ này lại khuếch tán vào lòng nhánh lên mảnh quai Henle qua kênh UT-A2, tạo thành vòng tái tuần hoàn khép kín giữ urê không bị thất thoát.")
+    ],
+    "Chế độ ăn nghèo protein làm giảm lượng urê tạo thành tại gan, dẫn đến suy giảm khả năng cô đặc nước tiểu tối đa của thận."
+))
+
+cards.append(make_card(
+    "HS18-B4-06", "B4", "Trao đổi ngược dòng Vasa Recta",
+    "[VASA RECTA] Cơ Chế Trao Đổi Ngược Dòng Thụ Động và Bảo Vệ Gradient Tủy Thận<br>Giải thích vì sao mạng mao mạch thẳng Vasa Recta không làm rửa trôi thang nồng độ thẩm thấu ưu trương của vùng tủy thận.",
+    [
+        ("Cấu trúc hình chữ U song song quai Henle", "Mao mạch Vasa Recta xuất phát từ tiểu động mạch đi của nephron cận tủy, uốn cong hình chữ U chạy sâu vào chóp tủy rồi quay ngược trở lại vùng vỏ."),
+        ("Tính thấm tự do hoàn toàn", "Thành mao mạch Vasa Recta có tính thấm tự do cao đối với cả nước, NaCl và urê; vận chuyển hoàn toàn thụ động."),
+        ("Khi dòng máu đi xuống tủy sâu", "Mô kẽ ngày càng ưu trương hút nước từ lòng mạch ra ngoài, đồng thời NaCl và urê từ mô kẽ khuếch tán vào trong lòng mạch; máu trở nên ưu trương dần đạt 1200 mOsm/kg tại đáy uốn cong."),
+        ("Khi dòng máu đi ngược lên vỏ", "Máu ưu trương đi vào vùng mô kẽ loãng hơn; NaCl và urê lại khuếch tán ngược từ máu ra ngoài mô kẽ, còn nước từ mô kẽ lại khuếch tán trở lại vào lòng mạch; lượng chất tan được hoàn trả trọn vẹn cho mô kẽ, ngăn chặn hiện tượng rửa trôi chất tan (Solute washout).")
+    ],
+    "Lưu lượng dòng máu qua Vasa Recta rất chậm đảm bảo đủ thời gian cho sự cân bằng thẩm thấu thụ động diễn ra hoàn hảo."
+))
+
+cards.append(make_card(
+    "HS18-B4-07", "B4", "Cơ chế pha loãng nước tiểu",
+    "[PHA LOÃNG NƯỚC TIỂU] Sự Vắng Mặt Của ADH và Nồng Độ Thẩm Thấu Tối Thiểu 50 mOsm/kg<br>Mô tả cơ chế thận bài xuất nước tiểu cực kỳ pha loãng khi cơ thể uống thừa nước.",
+    [
+        ("Ức chế tiết ADH từ tuyến yên", "Uống nhiều nước làm giảm áp suất thẩm thấu huyết tương xuống < 280 mOsm/kg; các thụ thể thẩm thấu tại vùng dưới đồi ngừng kích thích thùy sau tuyến yên giải phóng ADH."),
+        ("Màng tế bào ống góp hoàn toàn không thấm nước", "Không có ADH, các kênh Aquaporin-2 bị thu hồi hoàn toàn vào các túi nội bào; toàn bộ đoạn ống lượn xa và ống góp trở nên không thấm nước tuyệt đối."),
+        ("Tiếp tục tái hấp thu muối", "Trong khi nước không thể đi qua, các bơm ion (NCCT ở ống xa và ENaC ở ống góp) vẫn tiếp tục tích cực bơm NaCl ra ngoài mô kẽ."),
+        ("Kết quả nước tiểu nhược trương", "Dịch lòng ống bị rút bớt chất tan mà không mất nước, bài xuất ra ngoài với nồng độ thẩm thấu có thể hạ xuống mức tối thiểu khoảng 50 mOsm/kg (thể tích nước tiểu có thể lên tới 15 – 20 L/ngày).")
+    ],
+    "Uống nước quá nhiều vượt quá tốc độ thanh thải nước tự do của thận (> 1 lít/giờ) có thể dẫn đến ngộ độc nước (Water intoxication) và phù não do hạ natri máu cấp."
+))
+
+cards.append(make_card(
+    "HS18-B4-08", "B4", "Cơ chế cô đặc nước tiểu",
+    "[CÔ ĐẶC NƯỚC TIỂU] Tác Dụng Tối Đa Của ADH và Nồng Độ Thẩm Thấu 1400 mOsm/kg<br>Mô tả cơ chế thận bài xuất nước tiểu cực kỳ cô đặc để bảo tồn nước khi cơ thể bị mất nước hoặc nhịn uống.",
+    [
+        ("Kích thích tối đa tiết ADH", "Mất nước làm tăng áp suất thẩm thấu huyết tương > 295 mOsm/kg hoặc tụt huyết áp kích thích tuyến yên bài tiết lượng lớn ADH vào máu."),
+        ("Mở tối đa các kênh nước Aquaporin-2", "ADH kích hoạt chèn ồ ạt kênh AQP2 lên màng đỉnh tế bào chính ống góp trên toàn bộ chiều dài từ vỏ đến tủy sâu."),
+        ("Nước bị hút thụ động ra mô kẽ ưu trương", "Dịch lọc chảy qua ống góp xuyên qua vùng tủy thận có gradient thẩm thấu ưu trương khổng lồ (lên tới 1200 – 1400 mOsm/kg); nước bị hút cực mạnh từ lòng ống ra mô kẽ rồi theo Vasa Recta về đại tuần hoàn."),
+        ("Kết quả nước tiểu cô đặc tối đa", "Dịch trong lòng ống đạt cân bằng thẩm thấu hoàn toàn với mô kẽ chóp tủy, bài xuất lượng nước tiểu tối thiểu (khoảng 500 mL/24h) với nồng độ thẩm thấu đạt cực đại 1200 – 1400 mOsm/kg.")
+    ],
+    "Thể tích nước tiểu bắt buộc tối thiểu mỗi ngày là 500 mL để hòa tan đào thải khoảng 600 mOsm chất tan chuyển hóa của cơ thể."
+))
+
+cards.append(make_card(
+    "HS18-B4-09", "B4", "Toan hóa ống thận Typ 1 (Distal RTA)",
+    "[TOAN HÓA ỐNG THẬN TYP 1] Hỏng Bơm H+-ATPase Ống Góp, pH Niệu Không Thể Hạ và Sỏi Thận<br>Nêu cơ chế phân tử, đặc điểm xét nghiệm và biến chứng sỏi thận của Toan hóa ống thận xa (Distal RTA / Typ 1).",
+    [
+        ("Cơ chế phân tử khiếm khuyết", "Hỏng bơm H+-ATPase hoặc kênh đối vận anion AE1 tại Tế bào kẽ loại A ở ống góp; tế bào mất khả năng bơm ion H+ ra lòng ống nước tiểu chống lại gradient."),
+        ("Đặc điểm sinh hóa cốt lõi", "1) Toan chuyển hóa tăng Clo máu có Anion Gap bình thường; 2) Hạ Kali máu (do ống thận tăng thải K+ qua ENaC bù trừ); 3) pH nước tiểu KHÔNG BAO GIỜ HẠ ĐƯỢC XUỐNG DƯỚI 5.5 dù cơ thể đang bị toan máu rất nặng; 4) Khoảng trống anion niệu UAG dương tính (+)."),
+        ("Biến chứng sỏi thận và Lắng đọng calci tủy", "Nước tiểu kiềm mạn tính làm giảm độ hòa tan của calci phosphat, kết hợp với toan máu gây tăng huy động calci từ xương và giảm bài tiết citrat niệu (Hypocitraturia); dẫn đến hình thành sỏi Calci Phosphat tái phát và vôi hóa tủy thận (Nephrocalcinosis).")
+    ],
+    "Nghiệm pháp tải acid bằng Amoni Clorid (NH4Cl load test) không thể làm hạ pH nước tiểu xuống dưới 5.3 là tiêu chuẩn vàng chẩn đoán RTA Typ 1."
+))
+
+cards.append(make_card(
+    "HS18-B4-10", "B4", "Toan hóa ống thận Typ 4 (Hyperkalemic RTA)",
+    "[TOAN HÓA ỐNG THẬN TYP 4] Giảm Tiết Hoặc Đề Kháng Aldosteron và Tăng Kali Máu<br>Trình bày cơ chế sinh hóa phân tử và đặc điểm phân biệt của Toan hóa ống thận Typ 4 so với các typ RTA khác.",
+    [
+        ("Cơ chế bệnh sinh", "Suy giảm tổng hợp Aldosteron (Hội chứng suy thượng thận, đái tháo đường biến chứng thận gây Hyporeninemic hypoaldosteronism) hoặc ống thận đề kháng với aldosteron (do thuốc chẹn thụ thể spironolactone, amiloride, trimethoprim)."),
+        ("Thể DUY NHẤT có TĂNG KALI MÁU", "Thiếu aldosteron làm giảm hoạt tính kênh ENaC và bơm Na+/K+-ATPase tại tế bào chính; thận không thể bài tiết Kali dẫn đến TĂNG KALI MÁU (trong khi Typ 1 và Typ 2 đều hạ kali máu)."),
+        ("Cơ chế gây toan máu", "Tăng kali máu ức chế enzyme Glutaminase tại ống lượn gần, làm giảm sinh amoniac (NH3); lòng ống góp thiếu hụt chất đệm NH3 để cố định ion H+, làm suy giảm đào thải acid toàn thân."),
+        ("Đặc điểm nước tiểu", "pH nước tiểu vẫn có thể hạ được xuống < 5.5 khi toan máu nặng (do bơm H+-ATPase không bị hỏng cấu trúc trực tiếp).")
+    ],
+    "Toan hóa ống thận Typ 4 là thể RTA phổ biến nhất trên thực hành lâm sàng, thường gặp nhất ở bệnh nhân đái tháo đường lớn tuổi có suy thận nhẹ đến vừa."
+))
+
+# ==========================================
+# B5: ĐÁNH GIÁ CHỨC NĂNG THẬN TRÊN THỰC HÀNH LÂM SÀNG (11 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B5-01", "B5", "Động học Creatinin huyết thanh",
+    "[CREATININ HUYẾT THANH] Nguồn Gốc Thoái Hóa Cơ Bắp và Sự Bài Tiết Thêm Tại Ống Thận<br>Nêu nguồn gốc sinh hóa của creatinin, tốc độ sinh creatinin mỗi ngày và đặc tính lọc - bài tiết của phân tử này qua thận.",
+    [
+        ("Nguồn gốc sinh hóa", "Sản phẩm thoái hóa tự nhiên, không thuận nghịch từ Creatin phosphat trong mô cơ vân thông qua phản ứng tự đóng vòng không cần enzyme."),
+        ("Tốc độ tạo thành tương đối hằng định", "Tỷ lệ thuận trực tiếp với tổng khối lượng cơ bắp của cơ thể; khoảng 1 – 2% creatin cơ bị biến đổi thành creatinin mỗi ngày (15 – 25 mg/kg thể trọng/ngày); ít chịu ảnh hưởng bởi chế độ ăn thông thường (trừ khi ăn quá nhiều thịt bò nướng)."),
+        ("Đặc tính đào thải qua thận", "Lọc tự do hoàn toàn qua màng lọc cầu thận, không bị tái hấp thu ở ống thận; TUY NHIÊN có khoảng 10 – 15% được bài tiết chủ động thêm tại tế bào ống lượn gần qua hệ chất vận chuyển cation hữu cơ OCT2 và MATE1."),
+        ("Hậu quả đo lường", "Độ thanh thải creatinin (Ccr) luôn ước tính GFR CAO HƠN thực tế khoảng 10 – 20%; khi GFR giảm nặng, tỷ lệ bài tiết thêm tại ống thận tăng lên làm sai số ước tính càng lớn.")
+    ],
+    "Các thuốc như Cimetidine, Trimethoprim ức chế kênh OCT2 làm giảm bài tiết creatinin ở ống gần, gây tăng creatinin máu giả tạo mà GFR thực tế không thay đổi."
+))
+
+cards.append(make_card(
+    "HS18-B5-02", "B5", "Hiện tượng Hố mù Creatinin",
+    "[HỐ MÙ CREATININ] Mối Quan Hệ Phi Tuyến Tính Parabol Giữa Creatinin Máu và GFR<br>Giải thích vì sao nồng độ Creatinin huyết thanh là một chỉ số kém nhạy để phát hiện suy thận ở giai đoạn sớm (Creatinine blind spot).",
+    [
+        ("Mối quan hệ phi tuyến tính hàm nghịch đảo", "Mối quan hệ giữa Creatinin máu (Pcr) và GFR tuân theo đường cong hyperbol: Pcr tỷ lệ nghịch với GFR (Pcr xấp xỉ 1 / GFR)."),
+        ("Vùng hố mù (Creatinine blind spot: GFR từ 60 đến 120 mL/min)", "Khi GFR sụt giảm tới 50% (từ 120 xuống 60 mL/phút), nồng độ creatinin huyết thanh chỉ nhích tăng nhẹ từ 0.8 lên 1.2 mg/dL — trị số này VẪN HOÀN TOÀN NẰM TRONG KHOẢNG THAM CHIẾU BÌNH THƯỜNG của phòng xét nghiệm."),
+        ("Chỉ tăng vọt ở giai đoạn muộn", "Chỉ khi GFR giảm sâu dưới 60 mL/phút, đường cong hyperbol mới chuyển sang đoạn dốc đứng, nồng độ creatinin máu mới tăng vọt vượt ngưỡng báo động."),
+        ("Ý nghĩa cảnh báo lâm sàng", "Không bao giờ được kết luận chức năng thận bình thường chỉ dựa vào chỉ số creatinin máu đơn độc; bắt buộc phải tính độ lọc cầu thận ước tính (eGFR).")
+    ],
+    "Người già suy dinh dưỡng teo cơ có thể có GFR giảm sâu còn 30 mL/phút nhưng nồng độ creatinin máu vẫn chỉ 0.9 mg/dL do khối cơ bắp quá nhỏ tạo ra ít creatinin."
+))
+
+cards.append(make_card(
+    "HS18-B5-03", "B5", "Độ thanh thải Creatinin 24 giờ",
+    "[ĐỘ THANH THẢI CREATININ] Công Thức Ccr và Các Nguồn Sai Số Thực Hành<br>Nêu công thức tính độ thanh thải creatinin nước tiểu 24 giờ (Ccr) và các nguyên nhân gây sai số thường gặp nhất.",
+    [
+        ("Công thức tính Ccr", "Ccr = (Ucr x V) / (Pcr x T); trong đó Ucr là nồng độ creatinin nước tiểu (mg/dL hoặc µmol/L), V là thể tích nước tiểu (mL), Pcr là nồng độ creatinin huyết thanh, T là thời gian thu thập nước tiểu (1440 phút đối với 24 giờ)."),
+        ("Hiệu chỉnh theo diện tích da", "Ccr hiệu chỉnh = Ccr x (1.73 / BSA); đơn vị chuẩn mL/min/1.73 m2."),
+        ("Các nguồn sai số lớn trong thực hành", "1) Sai sót thu thập nước tiểu 24 giờ của bệnh nhân (quên gom một lần đi tiểu hoặc gom quá 24h — là nguyên nhân sai số phổ biến nhất); 2) Bài tiết thêm creatinin tại ống thận làm kết quả cao hơn GFR thực; 3) Sai số bảo quản mẫu nước tiểu ở nhiệt độ phòng làm vi khuẩn chuyển hóa creatinin thành creatin.")
+    ],
+    "Để kiểm tra bệnh nhân có gom đủ nước tiểu 24h không, kiểm tra tổng lượng creatinin bài xuất: nam giới bình thường 20 – 25 mg/kg/ngày, nữ giới 15 – 20 mg/kg/ngày."
+))
+
+cards.append(make_card(
+    "HS18-B5-04", "B5", "Công thức Cockcroft - Gault",
+    "[CÔNG THỨC COCKCROFT - GAULT] Biểu Thức Toán Học và Ứng Dụng Chỉnh Liều Thuốc<br>Nêu công thức Cockcroft-Gault (1976), ý nghĩa hệ số hiệu chỉnh ở nữ giới và vai trò hiện nay trên lâm sàng dược học.",
+    [
+        ("Biểu thức toán học", "eCcr = [(140 - Tuổi) x Cân nặng (kg)] / [72 x Pcr (mg/dL)]; nếu nồng độ creatinin tính bằng µmol/L thì mẫu số nhân thêm hệ số chuyển đổi."),
+        ("Hệ số hiệu chỉnh ở nữ giới (x 0.85)", "Kết quả tính được bắt buộc phải nhân với 0.85 nếu là bệnh nhân nữ; do nữ giới có khối lượng cơ bắp trung bình ít hơn nam giới khoảng 15% ở cùng cân nặng."),
+        ("Ứng dụng cốt lõi hiện nay", "Cockcroft-Gault ước tính độ thanh thải creatinin (eCcr tính bằng mL/phút) chứ không phải eGFR chuẩn hóa theo diện tích da; vẫn là CÔNG THỨC TIÊU CHUẨN ĐƯỢC FDA VÀ DƯỢC THƯ QUỐC TẾ KHUYẾN CÁO ĐỂ HIỆU CHỈNH LIỀU THUỐC đào thải qua thận (kháng sinh, thuốc tim mạch, thuốc ung thư).")
+    ],
+    "Hạn chế lớn: Công thức Cockcroft-Gault ước tính sai lệch nghiêm trọng ở bệnh nhân béo phì nặng (phải dùng cân nặng lý tưởng IBW) hoặc bệnh nhân phù nề giữ nước cổ trướng."
+))
+
+cards.append(make_card(
+    "HS18-B5-05", "B5", "Công thức CKD-EPI 2021",
+    "[CÔNG THỨC CKD-EPI 2021] Bước Tiến Loại Bỏ Biến Số Chủng Tộc và Ưu Thế Vượt Trội<br>Nêu những ưu thế vượt trội của phương trình CKD-EPI 2021 so với MDRD và lý do quốc tế loại bỏ hệ số chủng tộc da đen.",
+    [
+        ("Khắc phục nhược điểm của MDRD", "Công thức MDRD đánh giá thấp GFR ở dải bình thường (GFR > 60 mL/min/1.73 m2), dẫn đến chẩn đoán quá mức bệnh thận mạn ở người khỏe mạnh; CKD-EPI sử dụng hàm lũy thừa giải quyết triệt để nhược điểm này."),
+        ("Bản cập nhật CKD-EPI 2021 (Refit without race)", "Loại bỏ hoàn toàn biến số 'Chủng tộc: Người Mỹ gốc Phi / Da đen' ra khỏi phương trình toán học theo khuyến cáo đồng thuận của KDIGO và ASN-NKF."),
+        ("Lý do loại bỏ biến số chủng tộc", "1) Chủng tộc là một khái niệm xã hội chứ không phải biến số sinh học thuần nhất; 2) Hệ số nhân chủng tộc da đen (1.159) trước đây làm eGFR tính ra cao hơn thực tế, dẫn đến chậm trễ phát hiện bệnh thận, chậm giới thiệu chuyên khoa và bất bình đẳng trong tiếp cận ghép thận."),
+        ("Khuyến cáo tiêu chuẩn vàng", "CKD-EPI 2021 dựa trên Creatinine (hoặc phối hợp Creatinine - Cystatin C) là công thức khuyến cáo hàng đầu trên toàn thế giới để phân giai đoạn Bệnh thận mạn (CKD).")
+    ],
+    "Kết quả eGFR từ CKD-EPI luôn được biểu thị theo đơn vị chuẩn hóa mL/phút/1.73 m2 diện tích bề mặt cơ thể."
+))
+
+cards.append(make_card(
+    "HS18-B5-06", "B5", "Chỉ số vàng Cystatin C",
+    "[DẤU ẤN VÀNG CYSTATIN C] Nguồn Gốc Sinh Học, Động Học Qua Thận và Ưu Thế Tuyệt Đối<br>Trình bày đặc tính sinh hóa của Cystatin C và 4 ưu thế vượt trội của nó so với Creatinin trong việc đánh giá chức năng thận.",
+    [
+        ("Bản chất sinh học", "Protein trọng lượng phân tử thấp (13.3 kDa), thuộc họ chất ức chế cysteine protease nội sinh; được sản xuất liên tục với tốc độ hằng định bởi TẤT CẢ CÁC TẾ BÀO CÓ NHÂN trong cơ thể."),
+        ("Động học hoàn hảo qua thận", "Lọc tự do 100% qua màng lọc cầu thận; được tế bào ống lượn gần tái hấp thu hoàn toàn và giáng hóa triệt để; HOÀN TOÀN KHÔNG BỊ BÀI TIẾT THÊM Ở ỐNG THẬN và không quay trở lại máu."),
+        ("Không phụ thuộc cơ bắp và chế độ ăn", "Nồng độ không chịu ảnh hưởng bởi khối lượng cơ vân, tuổi tác, giới tính, tình trạng teo cơ hay chế độ ăn nhiều thịt."),
+        ("Nhạy cảm vượt trội phát hiện suy thận sớm", "Xóa bỏ hoàn toàn hiện tượng 'hố mù creatinin'; nồng độ Cystatin C huyết thanh tăng sớm ngay khi GFR bắt đầu sụt giảm từ 90 xuống 60 mL/phút."),
+        ("Ứng dụng khẳng định", "Chỉ định đo Cystatin C (và tính eGFR kết hợp Creatinine-Cystatin C) để xác nhận chẩn đoán bệnh thận mạn khi eGFR creatinin nằm ở vùng nghi ngờ 45 – 59 mL/min/1.73 m2 mà không có tổn thương thận khác.")
+    ],
+    "Cystatin C chỉ bị sai lệch nhẹ ở bệnh nhân rối loạn chức năng tuyến giáp nặng (suy giáp làm giảm, cường giáp làm tăng) hoặc đang dùng corticoid liều cao."
+))
+
+cards.append(make_card(
+    "HS18-B5-07", "B5", "Phân tầng Albumin niệu KDIGO",
+    "[ALBUMIN NIỆU KDIGO] 3 Mức Độ A1, A2, A3 và Tỷ Số Albumin/Creatinin Niệu (UACR)<br>Nêu các ngưỡng phân loại mức độ Albumin niệu theo Hướng dẫn quốc tế KDIGO và ý nghĩa tiên lượng độc lập.",
+    [
+        ("Mức A1 — Bình thường đến tăng nhẹ", "Albumin niệu 24h < 30 mg/24h HOẶC Tỷ số Albumin/Creatinin niệu (UACR) < 30 mg/g (tương đương < 3 mg/mmol)."),
+        ("Mức A2 — Tăng mức độ vừa (Microalbumin niệu - Vi lượng)", "Albumin niệu 24h từ 30 – 300 mg/24h HOẶC UACR từ 30 – 300 mg/g (tương đương 3 – 30 mg/mmol); là dấu ấn báo động sớm nhất của bệnh thận đái tháo đường và tổn thương nội mạc mạch máu."),
+        ("Mức A3 — Tăng mức độ nặng (Macroalbumin niệu - Đại lượng)", "Albumin niệu 24h > 300 mg/24h HOẶC UACR > 300 mg/g (tương đương > 30 mg/mmol); nguy cơ tiến triển suy thận giai đoạn cuối và biến cố tim mạch rất cao."),
+        ("Ý nghĩa tiên lượng độc lập", "Mức Albumin niệu phối hợp cùng giai đoạn GFR (G1 – G5) tạo nên Bản đồ nhiệt KDIGO (Heatmap) dự báo chính xác nguy cơ tử vong tim mạch và suy thận mạn tiến triển.")
+    ],
+    "Thuật ngữ 'Microalbumin niệu' hiện nay KDIGO khuyến cáo thay thế bằng thuật ngữ chuẩn xác hơn là 'Albumin niệu tăng mức độ vừa' (A2)."
+))
+
+cards.append(make_card(
+    "HS18-B5-08", "B5", "Ưu thế của Tỷ số UACR mẫu nước tiểu ngẫu nhiên",
+    "[TỶ SỐ UACR] Vì Sao Mẫu Nước Tiểu Buổi Sáng Thay Thế Nước Tiểu 24 Giờ?<br>Giải thích cơ chế toán học giúp Tỷ số Albumin/Creatinin niệu (UACR) trên mẫu nước tiểu ngẫu nhiên triệt tiêu được sự biến thiên nồng độ nước tiểu.",
+    [
+        ("Sự phiền toái của nước tiểu 24h", "Thu thập nước tiểu 24 giờ cực kỳ phức tạp, phiền hà cho bệnh nhân và có tỷ lệ sai số do gom thiếu mẫu lên tới trên 30%."),
+        ("Biến thiên nồng độ nước tiểu ngẫu nhiên", "Định lượng nồng độ Albumin đơn độc (mg/L) trên mẫu nước tiểu ngẫu nhiên bị sai lệch lớn: uống nhiều nước làm mẫu loãng cho kết quả thấp giả tạo; mất nước làm mẫu cô đặc cho kết quả cao giả tạo."),
+        ("Triệt tiêu sai số nhờ chia cho Creatinin", "Tốc độ bài xuất Creatinin ra nước tiểu diễn ra liên tục với tốc độ gần như không đổi (~ 1 g/ngày); do đó lấy [Albumin niệu] chia cho [Creatinin niệu] sẽ triệt tiêu hoàn toàn yếu tố thể tích và độ cô đặc của nước tiểu."),
+        ("Giá trị tương đương hoàn hảo", "Tỷ số UACR tính bằng mg/g trên mẫu nước tiểu buổi sáng đầu tiên tương đương gần như chính xác 1 : 1 với lượng Albumin đào thải trong 24 giờ tính bằng mg/24h.")
+    ],
+    "Mẫu nước tiểu buổi sáng đầu tiên ngay sau khi ngủ dậy là mẫu chuẩn nhất để đo UACR vì tránh được hiện tượng protein niệu tư thế (Orthostatic proteinuria)."
+))
+
+cards.append(make_card(
+    "HS18-B5-09", "B5", "Hạn chế của Que nhúng nước tiểu Dipstick",
+    "[QUE NHÚNG NƯỚC TIỂU] Nguyên Lý Đo Protein và Vì Sao Bỏ Sót Microalbumin Niệu và Bence Jones?<br>Trình bày nguyên lý đo protein của que nhúng tổng phân tích nước tiểu và hai cạm bẫy âm tính giả nguy hiểm trên lâm sàng.",
+    [
+        ("Nguyên lý sai số protein của chất chỉ thị màu", "Dựa trên sự biến đổi màu của chất chỉ thị pH (Tetraphénol blue) khi có mặt protein mang điện tích âm ở pH đệm cố định; độ nhạy gần như độc quyền đối với Albumin."),
+        ("Bẫy 1 — Bỏ sót hoàn toàn Microalbumin niệu (A2)", "Giới hạn phát hiện dưới của que nhúng thông thường là 150 – 300 mg/L; que nhúng chỉ chuyển sang (+) khi albumin niệu đã vượt ngưỡng 300 mg/ngày; do đó que nhúng hoàn toàn 'mù' trước giai đoạn Microalbumin niệu (30 – 300 mg/ngày) của bệnh nhân đái tháo đường."),
+        ("Bẫy 2 — Âm tính giả tuyệt đối với Protein Bence Jones", "Que nhúng không nhạy với globulin và hoàn toàn không phản ứng với các chuỗi nhẹ globulin miễn dịch đơn dòng (chuỗi kappa/lambda); bệnh nhân Đa u tủy xương (Multiple Myeloma) bài tiết hàng chục gam protein Bence Jones mỗi ngày nhưng kết quả que nhúng vẫn trả về ÂM TÍNH HOÀN TOÀN.")
+    ],
+    "Khi nghi ngờ đa u tủy xương, bắt buộc phải làm xét nghiệm kết tủa protein bằng Acid Sulfosalicylic (SSA) hoặc điện di miễn dịch cố định protein niệu."
+))
+
+cards.append(make_card(
+    "HS18-B5-10", "B5", "Xét nghiệm kết tủa Acid Sulfosalicylic",
+    "[TEST SSA] Nguyên Lý Kết Tủa Biến Tính và Giải Mã Âm Tính Giả Que Nhúng<br>Trình bày nguyên lý của xét nghiệm kết tủa bằng Acid Sulfosalicylic (SSA) và giá trị của nó trong phát hiện protein niệu bất thường.",
+    [
+        ("Nguyên lý kết tủa protein", "Acid sulfosalicylic là một acid hữu cơ mạnh; khi nhỏ vào nước tiểu, acid làm trung hòa điện tích và phá vỡ cấu trúc bậc 3, bậc 4 của tất cả các phân tử protein, làm chúng biến tính và kết tủa tạo độ đục."),
+        ("Độ nhạy phổ rộng với mọi loại protein", "Khác với que nhúng chỉ nhạy với albumin, test SSA kết tủa đồng đều và phát hiện TẤT CẢ CÁC DẠNG PROTEIN: Albumin, Globulin, Chuỗi nhẹ Bence Jones, Glycoprotein Tamm-Horsfall và hemoglobin."),
+        ("Bẫy bất tương xứng trên lâm sàng", "Nếu que nhúng Dipstick ÂM TÍNH nhưng test SSA DƯƠNG TÍNH ĐẬM (+++) → Khẳng định chắc chắn trong nước tiểu có một lượng lớn protein KHÔNG PHẢI ALBUMIN, chỉ điểm kinh điển của bệnh Đa u tủy xương (bài tiết chuỗi nhẹ Bence Jones).")
+    ],
+    "Test SSA là xét nghiệm bán định lượng cổ điển đơn giản nhưng giữ vai trò chốt chặn chẩn đoán không thể thiếu tại các khoa thận học."
+))
+
+cards.append(make_card(
+    "HS18-B5-11", "B5", "Phân biệt AKI Trước thận vs Tại thận",
+    "[CHẨN ĐOÁN PHÂN BIỆT AKI] Phân Số Thải Natri FeNa và Tỷ Số BUN/Creatinine<br>So sánh các chỉ số sinh hóa nước tiểu giúp phân biệt Tổn thương thận cấp trước thận (Prerenal AKI) và Hoại tử ống thận cấp tại thận (ATN).",
+    [
+        ("Chỉ số FeNa (Fractional Excretion of Sodium)", "FeNa = [(Na niệu x Cr máu) / (Na máu x Cr niệu)] x 100%; Trước thận: FeNa < 1% (ống thận còn nguyên vẹn, tái hấp thu tối đa Na+ để cứu thể tích máu); Tại thận (ATN): FeNa > 2% (tế bào ống thận hoại tử mất khả năng giữ muối, Na+ bị thất thoát ồ ạt ra nước tiểu)."),
+        ("Nồng độ Natri nước tiểu (UNa)", "Trước thận: UNa < 20 mmol/L (nước tiểu giữ muối); Tại thận (ATN): UNa > 40 mmol/L (mất muối qua ống thận)."),
+        ("Tỷ số BUN / Creatinine huyết thanh", "Trước thận: BUN/Cr > 20 (thận tăng tái hấp thu urê thụ động theo Na+ và nước tại ống gần); Tại thận (ATN): BUN/Cr bình thường ~ 10 – 15."),
+        ("Áp suất thẩm thấu nước tiểu (Urine Osmolality)", "Trước thận: UOsm > 500 mOsm/kg (thận cô đặc nước tiểu tối đa nhờ ADH); Tại thận (ATN): UOsm < 350 mOsm/kg (đẳng trương niệu do mất khả năng cô đặc).")
+    ],
+    "Cảnh báo: Chỉ số FeNa mất độ chính xác nếu bệnh nhân đang dùng thuốc lợi tiểu; khi đó cần thay thế bằng Chỉ số phân số bài xuất Urê (FeUrea: Trước thận < 35%, Tại thận > 50%)."
+))
+
+# ==========================================
+# B6: SINH HÓA NƯỚC TIỂU BÌNH THƯỜNG VÀ BỆNH LÝ (11 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B6-01", "B6", "Tính chất lý hóa nước tiểu",
+    "[LÝ HÓA NƯỚC TIỂU] Thể Tích, pH và Hiện Tượng Đẳng Trương Niệu (Isosthenuria)<br>Nêu các giá trị sinh lý bình thường của thể tích, tỷ trọng, pH nước tiểu và ý nghĩa bệnh lý của hiện tượng Đẳng trương niệu.",
+    [
+        ("Thể tích nước tiểu 24 giờ", "Người lớn bình thường bài xuất 1000 – 1500 mL/24h (15 – 20 mL/kg); Đa niệu (Polyuria): > 2500 – 3000 mL/24h; Thiểu niệu (Oliguria): < 400 mL/24h; Vô niệu (Anuria): < 100 mL/24h."),
+        ("Tỷ trọng và pH nước tiểu", "Tỷ trọng bình thường dao động linh hoạt từ 1.003 đến 1.030 (trung bình 1.015 – 1.025); pH bình thường toan nhẹ từ 5.0 đến 7.0 (trung bình 6.0) do đào thải các acid chuyển hóa không bay hơi."),
+        ("Hiện tượng Đẳng trương niệu (Isosthenuria)", "Tỷ trọng nước tiểu cố định hằng định ở mức 1.010 (nồng độ thẩm thấu ~ 300 mOsm/kg đúng bằng áp suất thẩm thấu của huyết tương ban đầu), hoàn toàn không thay đổi dù bệnh nhân nhịn khát hay uống nhiều nước."),
+        ("Ý nghĩa bệnh học", "Là dấu hiệu sinh hóa kinh điển báo hiệu Thận đã mất hoàn toàn cả hai chức năng cô đặc và pha loãng nước tiểu; gặp trong Suy thận mạn giai đoạn cuối hoặc hoại tử ống thận cấp.")
+    ],
+    "Tỷ trọng 1.010 phản ánh dịch lọc cầu thận chảy thẳng tuột qua ống thận ra ngoài mà không hề được biến đổi nồng độ do toàn bộ tế bào ống thận đã bị phá hủy."
+))
+
+cards.append(make_card(
+    "HS18-B6-02", "B6", "Phân loại cơ chế Protein niệu",
+    "[CƠ CHẾ PROTEIN NIỆU] 4 Phân Nhóm: Cầu Thận, Ống Thận, Quá Tải và Sau Thận<br>Phân tích cơ chế bệnh sinh, thành phần protein chiếm ưu thế và bệnh cảnh điển hình của 4 nhóm protein niệu lâm sàng.",
+    [
+        ("1) Protein niệu cầu thận (Glomerular proteinuria)", "Chiếm tỷ lệ phổ biến nhất; do tăng tính thấm màng lọc cầu thận (mất điện tích âm hoặc đứt rách màng khe); thành phần chủ yếu là Albumin; mức độ protein niệu thường rất cao (> 1 – 3.5 g/24h); gặp trong hội chứng thận hư, viêm cầu thận."),
+        ("2) Protein niệu ống thận (Tubular proteinuria)", "Cầu thận lọc bình thường nhưng ống lượn gần bị tổn thương không tái hấp thu được các protein nhỏ; thành phần là beta-2-microglobulin, alpha-1-microglobulin, lysozyme; mức độ nhẹ (< 1.5 – 2 g/24h); gặp trong hoại tử ống thận cấp, viêm thận kẽ, hội chứng Fanconi."),
+        ("3) Protein niệu quá tải (Overflow proteinuria)", "Cầu thận và ống thận ban đầu hoàn toàn bình thường; do nồng độ protein nhỏ bất thường trong máu tăng quá cao tràn ngập vượt quá khả năng tái hấp thu của ống gần; thành phần là chuỗi nhẹ Bence Jones (đa u tủy xương), Myoglobin (tiêu cơ vân), Hemoglobin (tan máu)."),
+        ("4) Protein niệu sau thận (Post-renal proteinuria)", "Do xuất tiết protein và bạch cầu từ đường dẫn niệu bị viêm loét, nhiễm trùng, sỏi hoặc u bàng quang; thường kèm theo bạch cầu niệu và hồng cầu niệu vi thể.")
+    ],
+    "Điện di protein nước tiểu là tiêu chuẩn vàng giúp phân biệt chính xác tổn thương tại cầu thận (ưu thế đỉnh Albumin) hay tổn thương tại ống thận (ưu thế đỉnh alpha/beta globulin)."
+))
+
+cards.append(make_card(
+    "HS18-B6-03", "B6", "Đường niệu Đái tháo đường vs Do thận",
+    "[ĐƯỜNG NIỆU] Phân Biệt Đái Tháo Đường vs Đường Niệu Đơn Thuần Do Thận<br>So sánh nồng độ glucose máu và cơ chế phân tử giữa Đường niệu trong Đái tháo đường và Đường niệu do thận (Renal Glycosuria).",
+    [
+        ("Đường niệu trong bệnh Đái tháo đường", "Nồng độ Glucose máu tăng rất cao vượt quá ngưỡng thận (> 10 mmol/L hay > 180 mg/dL); lượng glucose lọc qua cầu thận vượt quá khả năng vận chuyển tối đa TmG của các kênh SGLT2/SGLT1 làm glucose tràn ra nước tiểu; chức năng ống thận ban đầu hoàn toàn bình thường."),
+        ("Đường niệu do thận (Renal Glycosuria)", "Nồng độ Glucose máu HOÀN TOÀN BÌNH THƯỜNG (3.9 – 6.4 mmol/L) ở tất cả các thời điểm; nguyên nhân do khiếm khuyết di truyền đột biến gen SLC5A2 mã hóa kênh SGLT2 làm hạ ngưỡng thận của glucose."),
+        ("Tiên lượng lâm sàng", "Đường niệu do thận là một biến thể di truyền lành tính, không gây rối loạn chuyển hóa mỡ hay biến chứng tim mạch, không tiến triển thành đái tháo đường, hoàn toàn không cần điều trị hạ đường huyết.")
+    ],
+    "Cần lưu ý nhóm thuốc ức chế SGLT2 điều trị đái tháo đường và suy tim hiện nay chủ động tạo ra tình trạng 'đường niệu do thuốc' để đào thải bớt calo và đường."
+))
+
+cards.append(make_card(
+    "HS18-B6-04", "B6", "Thể Ceton niệu và Bẫy que nhúng",
+    "[THỂ CETON NIỆU] Phản Ứng Legal Nitroprusside và Bẫy Âm Tính Giả Với Beta-Hydroxybutyrat<br>Trình bày nguyên lý phát hiện thể ceton của que nhúng nước tiểu và giải thích vì sao que nhúng có thể âm tính giả trong giai đoạn toan ceton nặng nhất.",
+    [
+        ("Các thể ceton trong nước tiểu", "Gồm hỗn hợp 3 chất sinh ra từ chuyển hóa mỡ tại gan: Acetoacetat (20%), beta-Hydroxybutyrat (78%) và Aceton (2%)."),
+        ("Nguyên lý phản ứng Legal Nitroprusside của que nhúng", "Chất thử Natri nitroprussid trên que nhúng chỉ phản ứng tạo phức màu tím với nhóm ceton (=O) của Acetoacetat và Aceton; HOÀN TOÀN KHÔNG PHẢN ỨNG với beta-Hydroxybutyrat (vì chất này có nhóm -OH chứ không có nhóm ceton)."),
+        ("Cạm bẫy âm tính giả nguy hiểm trong DKA", "Trong nhiễm toan ceton nặng, trạng thái thiếu oxy mô và ứ đọng NADH đẩy cân bằng chuyển hóa chuyển gần như 100% acetoacetat thành beta-hydroxybutyrat; khi đó que nhúng nước tiểu có thể cho kết quả ÂM TÍNH HOẶC CHỈ VẾT (+) dù bệnh nhân đang toan ceton đe dọa tử vong."),
+        ("Giải pháp lâm sàng", "Bắt buộc phải xét nghiệm định lượng trực tiếp nồng độ beta-Hydroxybutyrat trong máu mao mạch để chẩn đoán và theo dõi đáp ứng điều trị DKA.")
+    ],
+    "Khi điều trị DKA hồi phục bằng truyền dịch và insulin, beta-hydroxybutyrat biến ngược lại thành acetoacetat, khiến que nhúng ceton niệu có thể dương tính đậm hơn dù bệnh nhân đang tiến triển tốt lên."
+))
+
+cards.append(make_card(
+    "HS18-B6-05", "B6", "Sắc tố mật và Muối mật nước tiểu",
+    "[SẮC TỐ MẬT NƯỚC TIỂU] Ý Nghĩa Tuyệt Đối Của Bilirubin Niệu và Biến Thiên Urobilinogen<br>Giải thích vì sao chỉ có Bilirubin trực tiếp mới xuất hiện trong nước tiểu và ý nghĩa đối chiếu của Urobilinogen niệu trong phân biệt vàng da.",
+    [
+        ("Bilirubin gián tiếp không qua màng lọc", "Bilirubin tự do (gián tiếp) hoàn toàn không tan trong nước, gắn chặt với phân tử Albumin kích thước lớn trong máu nên không bao giờ lọc qua màng lọc cầu thận được; nước tiểu người bình thường hoàn toàn KHÔNG CÓ Bilirubin."),
+        ("Bilirubin trực tiếp lọc qua cầu thận", "Bilirubin liên hợp (trực tiếp) tan trong nước, phân tử nhỏ không gắn chặt với protein; khi tắc mật hoặc tổn thương tế bào gan, nồng độ trong máu tăng vọt tràn qua cầu thận vào nước tiểu làm nước tiểu sẫm màu như nước vối đặc."),
+        ("Ý nghĩa lâm sàng Bilirubin niệu (+)", "Là bằng chứng khẳng định chắc chắn có tăng Bilirubin TRỰC TIẾP trong máu (Vàng da tại gan do viêm gan hoặc Vàng da sau gan do sỏi/u tắc mật); luôn luôn ÂM TÍNH trong vàng da trước gan do tan máu."),
+        ("Urobilinogen niệu", "Tắc mật cơ học hoàn toàn: Urobilinogen niệu = 0 (âm tính tuyệt đối vì sắc tố không xuống được ruột); Tan máu hoặc suy gan: Urobilinogen niệu tăng rất cao (+++).")
+    ],
+    "Nước tiểu lắc có bọt màu vàng tươi là dấu hiệu lâm sàng kinh điển phân biệt nước tiểu có sắc tố mật với nước tiểu cô đặc thông thường (bọt trắng nhanh tan)."
+))
+
+cards.append(make_card(
+    "HS18-B6-06", "B6", "Hồng cầu niệu: Cầu thận vs Sau thận",
+    "[HỒNG CẦU NIỆU] Soi Cặn Lắng Phân Biệt Nguồn Gốc Cầu Thận vs Đường Tiết Niệu Dưới<br>Mô tả hình thái tế bào hồng cầu dưới kính hiển vi quang học và kính hiển vi pha giúp phân định chính xác vị trí chảy máu trong hệ tiết niệu.",
+    [
+        ("Hồng cầu nguồn gốc Cầu thận (Glomerular Hematuria)", "Hồng cầu bị biến dạng méo mó, kích thước không đều, teo tóp, phân mảnh, có hình dạng nụ gai (Acanthocytes / G1 cells) hoặc hình nhẫn; xuất hiện >= 5% hồng cầu hình gai Acanthocyte hoặc >= 40% hồng cầu biến dạng khẳng định 100% xuất huyết từ cầu thận."),
+        ("Cơ chế gây biến dạng", "Hồng cầu bị bóp méo khi cố chui qua các lỗ rách màng đáy cầu thận và chịu sự thay đổi nồng độ thẩm thấu, pH toan gay gắt dọc theo ống thận."),
+        ("Hồng cầu nguồn gốc Sau cầu thận (Ngoại khoa đường tiết niệu)", "Hồng cầu có hình đĩa lõm hai mặt đồng nhất, bờ đều đặn, kích thước đồng đều giống hệt hồng cầu trong máu ngoại vi."),
+        ("Nguyên nhân sau cầu thận", "Chảy máu từ đài bể thận, niệu quản, bàng quang hoặc niệu đạo do sỏi tiết niệu, u đường niệu, viêm bàng quang cấp hoặc chấn thương; không bao giờ có trụ hồng cầu.")
+    ],
+    "Phát hiện hồng cầu biến dạng và trụ hồng cầu giúp cứu bệnh nhân viêm cầu thận khỏi các thủ thuật soi bàng quang can thiệp không cần thiết."
+))
+
+cards.append(make_card(
+    "HS18-B6-07", "B6", "Hemoglobin niệu vs Myoglobin niệu",
+    "[PHÂN BIỆT NƯỚC TIỂU ĐỎ] So Sánh Hồng Cầu Niệu vs Hemoglobin Niệu vs Myoglobin Niệu<br>Trình bày thuật toán xét nghiệm phân biệt 3 nguyên nhân làm que nhúng dipstick phản ứng peroxidase dương tính với máu.",
+    [
+        ("1) Hồng cầu niệu (Hematuria)", "Nước tiểu đỏ đục; ly tâm nước tiểu: cặn lắng kết tụ màu đỏ ở đáy ống, phần dịch nổi bên trên TRONG SUỐT; soi kính hiển vi thấy tế bào hồng cầu nguyên vẹn."),
+        ("2) Hemoglobin niệu (Hemoglobinuria)", "Tan máu nội mạch cấp; ly tâm nước tiểu dịch nổi VẪN GIỮ MÀU ĐỎ NÂU; soi kính hiển vi KHÔNG CÓ tế bào hồng cầu; HUYẾT TƯƠNG ĐỒNG THỜI CÓ MÀU HỒNG ĐỎ (do Hb vượt quá khả năng gắn kết của haptoglobin, Haptoglobin máu giảm sâu về 0)."),
+        ("3) Myoglobin niệu (Myoglobinuria)", "Tiêu cơ vân cấp (dập nát cơ, sốc nhiệt, co giật, statin); ly tâm nước tiểu dịch nổi VẪN CÓ MÀU NÂU ĐEN (như xì dầu/nước tương); soi cặn không thấy hồng cầu; HUYẾT TƯƠNG HOÀN TOÀN TRONG SUỐT KHÔNG ĐỔI MÀU (do Myoglobin phân tử rất nhỏ 17 kDa đào thải qua thận cực nhanh không tích lũy trong máu)."),
+        ("Xét nghiệm khẳng định Myoglobin", "Định lượng men Creatine Kinase (CK) huyết thanh tăng vọt hàng chục đến hàng trăm nghìn U/L.")
+    ],
+    "Myoglobin lắng đọng gây tắc ống thận kết hợp với độc tính sắt gây co mạch thận và hoại tử ống thận cấp (ATN) đe dọa suy thận cấp vô niệu."
+))
+
+cards.append(make_card(
+    "HS18-B6-08", "B6", "Bản chất protein tạo Trụ niệu",
+    "[TRỤ NIỆU - URINARY CASTS] Bản Chất Mucoprotein Tamm-Horsfall và Điều Kiện Hình Thành<br>Nêu bản chất sinh hóa của chất nền tạo trụ niệu và 3 điều kiện lý hóa tại ống thận thúc đẩy sự kết tủa tạo trụ.",
+    [
+        ("Chất nền Uromodulin (Tamm-Horsfall protein)", "Glycoprotein có trọng lượng phân tử lớn (khoảng 80 kDa monomer, kết tụ thành polyme hàng triệu Da); là protein sinh lý phong phú nhất trong nước tiểu bình thường (bài tiết 30 – 50 mg/ngày)."),
+        ("Nơi sản xuất độc quyền", "Được tổng hợp và bài tiết duy nhất bởi các tế bào biểu mô của Nhánh lên dày quai Henle (TAL) và đoạn đầu ống lượn xa."),
+        ("3 điều kiện lý hóa thúc đẩy kết tủa", "1) Nồng độ chất tan và áp suất thẩm thấu cao (nước tiểu bị cô đặc tối đa); 2) Tốc độ dòng chảy dịch lọc trong lòng ống thận bị đình trệ, ứ trệ kéo dài; 3) Môi trường pH nước tiểu có tính acid mạnh."),
+        ("Cơ chế đúc khuôn", "Các sợi uromodulin đông tụ kết lưới mạng với nhau theo đúng khuôn hình lòng ống thận; bắt giữ các thành phần tế bào hoặc mảnh vụn đang lưu hành tạo nên các loại trụ niệu khác nhau.")
+    ],
+    "Protein Tamm-Horsfall sinh lý có vai trò bảo vệ đường tiết niệu: ức chế sự bám dính của vi khuẩn E. coli và ngăn ngừa hình thành sỏi thận calci oxalat."
+))
+
+cards.append(make_card(
+    "HS18-B6-09", "B6", "Trụ hồng cầu và Trụ bạch cầu",
+    "[TRỤ TẾ BÀO] Ý Nghĩa Chẩn Đoán Đặc Hiệu Của Trụ Hồng Cầu vs Trụ Bạch Cầu<br>Mô tả hình thái và ý nghĩa định vị tổn thương giải phẫu bệnh học của Trụ hồng cầu và Trụ bạch cầu trong nước tiểu.",
+    [
+        ("Trụ hồng cầu (RBC casts)", "Cấu tạo gồm các tế bào hồng cầu kết dính dày đặc bên trong chất nền trụ Tamm-Horsfall; dưới kính hiển vi có màu vàng cam hoặc nâu đỏ; nếu hồng cầu thoái hóa vỡ vụn biến thành trụ hemoglobin."),
+        ("Ý nghĩa đặc hiệu tuyệt đối của Trụ hồng cầu", "Là BẰNG CHỨNG CHẮC CHẮN 100% CỦA TỔN THƯƠNG VIÊM CẦU THẬN TIẾN TRIỂN (Viêm cầu thận cấp sau nhiễm liên cầu, Viêm thận Lupus, Bệnh thận IgA, Viêm mạch máu ANCA); không bao giờ xuất hiện trong chảy máu đường tiết niệu dưới."),
+        ("Trụ bạch cầu (WBC casts)", "Chứa các tế bào bạch cầu đa nhân trung tính kết cụm trong chất nền trụ; phản ánh tình trạng viêm thâm nhiễm bạch cầu tại nhu mô thận."),
+        ("Ý nghĩa định vị Trụ bạch cầu", "Khẳng định tổn thương viêm nhiễm trùng nằm ở ĐÀI BỂ THẬN VÀ NHU MÔ THẬN (Viêm đài bể thận cấp — Acute Pyelonephritis) hoặc Viêm thận kẽ dị ứng do thuốc; giúp phân biệt với Nhiễm trùng đường tiết niệu dưới (Viêm bàng quang không có trụ bạch cầu).")
+    ],
+    "Chỉ cần tìm thấy 1 trụ hồng cầu duy nhất trên mẫu cặn lắng ly tâm nước tiểu cũng đủ tiêu chuẩn xác lập chẩn đoán Viêm cầu thận."
+))
+
+cards.append(make_card(
+    "HS18-B6-10", "B6", "Trụ hạt nâu bùn trong ATN",
+    "[TRỤ HOẠI TỬ ỐNG THẬN] Trụ Hạt Nâu Bùn (Muddy Brown Casts) Trong Hoại Tử Ống Thận Cấp<br>Mô tả đặc điểm hình thái và cơ chế sinh bệnh của Trụ hạt nâu bùn và Trụ tế bào biểu mô ống thận trong tổn thương thận cấp tại thận.",
+    [
+        ("Hình thái Trụ hạt nâu bùn (Muddy brown granular casts)", "Các trụ có kích thước lớn, chứa đầy các hạt thô màu nâu sẫm như bùn đất; cấu tạo từ các mảnh vỡ tế bào biểu mô ống thận thoái hóa kết tụ cùng uromodulin."),
+        ("Trụ tế bào biểu mô ống thận (RTE casts)", "Chứa các tế bào biểu mô ống thận hình đa diện nhân tròn bị bong tróc nguyên vẹn đúc trong lòng trụ."),
+        ("Cơ chế bệnh sinh", "Thiếu máu cục bộ kéo dài (sốc, tụt huyết áp) hoặc độc chất nội sinh/ngoại sinh (kháng sinh aminoglycosid, thuốc cản quang, myoglobin) gây tổn thương stress oxy hóa và hoại tử bong tróc hàng loạt tế bào biểu mô ống lượn gần và nhánh lên quai Henle."),
+        ("Giá trị chẩn đoán xác định", "Là tiêu chuẩn vàng trên cặn lắng nước tiểu xác nhận Hoại tử ống thận cấp (Acute Tubular Necrosis — ATN); phân biệt dứt khoát với Suy thận cấp trước thận (chỉ có trụ trong đơn thuần).")
+    ],
+    "Sự biến mất của trụ hạt nâu bùn và xuất hiện trở lại trụ trong trên cặn lắng là dấu hiệu sinh học báo hiệu biểu mô ống thận đang bắt đầu tái sinh phục hồi."
+))
+
+cards.append(make_card(
+    "HS18-B6-11", "B6", "Trụ sáp và Trụ mỡ",
+    "[TRỤ SÁP VÀ TRỤ MỠ] Dấu Ấn Xơ Thận Giai Đoạn Cuối vs Hội Chứng Thận Hư<br>Trình bày đặc điểm và ý nghĩa lâm sàng của Trụ sáp (Waxy casts) và Trụ mỡ (Fatty casts) có hình ảnh Chữ thập Malta.",
+    [
+        ("Trụ sáp (Waxy casts)", "Trụ có bề mặt nhẵn bóng như sáp nến, chiết quang cao, bờ sắc nét có các khía nứt vuông góc; đường kính trụ thường rất rộng (Broad casts) do hình thành trong các ống góp bị giãn rộng của các nephron xơ hóa phì đại bù trừ."),
+        ("Ý nghĩa lâm sàng Trụ sáp", "Dấu ấn chỉ điểm BỆNH THẬN MẠN GIAI ĐOẠN TIẾN TRIỂN HOẶC GIAI ĐOẠN CUỐI (ESKD); phản ánh tình trạng dòng nước tiểu bị ứ trệ cực kỳ kéo dài trong các nephron xơ teo."),
+        ("Trụ mỡ (Fatty casts) và Thể bầu dục mỡ", "Trụ chứa các giọt lipid và cholesterol este hóa; khi các tế bào ống thận thoái hóa mỡ bị bong tróc ra ngoài gọi là Thể bầu dục mỡ (Oval fat bodies)."),
+        ("Hiện tượng Chữ thập Malta (Maltese cross)", "Dưới kính hiển vi phân cực (Polarizing microscopy), các giọt lipid cholesterol este hóa phát ra hiện tượng khúc xạ kép tạo hình ảnh Chữ thập Malta phát sáng rực rỡ; là dấu hiệu bệnh lý đặc hiệu tuyệt đối của Hội chứng Thận hư có protein niệu ồ ạt.")
+    ],
+    "Phát hiện trụ mỡ và chữ thập Malta trên mẫu nước tiểu khẳng định bệnh nhân có tình trạng tăng tính thấm màng lọc cầu thận cực kỳ trầm trọng đối với lipoprotein huyết tương."
+))
+
+# ==========================================
+# B7: CHỨC NĂNG NỘI TIẾT VÀ CÁC CA LÂM SÀNG THẬN (10 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-B7-01", "B7", "Hệ thống Renin - Angiotensin - Aldosteron",
+    "[HỆ THỐNG RAAS] Phức Hợp Cận Cầu Thận và Tác Dụng Co Tiểu Động Mạch Đi Của Angiotensin II<br>Trình bày 3 kích thích giải phóng Renin tại Phức hợp cận cầu thận (JGA) và cơ chế Angiotensin II duy trì GFR khi huyết áp tụt.",
+    [
+        ("3 yếu tố kích thích bài tiết Renin", "1) Tụt huyết áp hoặc giảm áp lực căng giãn thành tiểu động mạch đến (cảm thụ áp lực cơ học); 2) Giảm tải lượng NaCl đưa đến tế bào Vết đặc (Macula densa) tại đầu ống xa; 3) Kích thích thần kinh giao cảm thận qua thụ thể beta-1 adrenergic."),
+        ("Chuỗi sinh hóa tạo Angiotensin II", "Renin từ tế bào cận cầu thận thủy phân Angiotensinogen (từ gan) tạo Angiotensin I (decapeptid); enzym ACE (tại nội mô mao mạch phổi và thận) cắt tạo Angiotensin II (octapeptid có hoạt tính co mạch cực mạnh)."),
+        ("Tác dụng chọn lọc co tiểu động mạch đi", "Angiotensin II gây co thắt Tiểu động mạch đi mạnh hơn nhiều so với tiểu động mạch đến; làm tăng sức cản dòng máu thoát khỏi cầu thận, đẩy áp suất thủy tĩnh mao mạch P_h tăng lên để DUY TRÌ GFR KHÔNG BỊ SỤT GIẢM khi huyết áp toàn thân hạ."),
+        ("Tác dụng toàn thân", "Kích thích vỏ thượng thận bài tiết Aldosteron (giữ muối nước), kích thích vùng dưới đồi gây khát và tiết ADH, co tiểu động mạch toàn thân nâng huyết áp.")
+    ],
+    "Cơ chế co chọn lọc tiểu động mạch đi của Angiotensin II là cái phao cứu sinh huyết động bảo tồn độ lọc cầu thận trong các tình huống giảm thể tích tuần hoàn."
+))
+
+cards.append(make_card(
+    "HS18-B7-02", "B7", "Hormon Erythropoietin (EPO)",
+    "[HORMON EPO THẬN] Tế Bào Kẽ Sản Xuất, Cơ Chế Cảm Ứng Thiếu Oxy HIF-1alpha và Thiếu Máu CKD<br>Nêu nguồn gốc tế bào sản xuất Erythropoietin tại thận, cơ chế phân tử cảm ứng thiếu oxy và nguyên nhân thiếu máu trong bệnh thận mạn.",
+    [
+        ("Nơi sản xuất chủ yếu", "Khoảng 90% lượng Erythropoietin (EPO) của toàn cơ thể do các tế bào nguyên bào sợi kẽ quanh ống thận (Peritubular interstitial fibroblasts) ở vùng vỏ sâu sản xuất (10% còn lại do gan)."),
+        ("Cơ chế phân tử qua yếu tố HIF-1alpha", "Khi oxy mô bình thường, HIF-1alpha bị enzyme Prolyl hydroxylase (PHD) phân hủy; khi thiếu oxy mô (Hypoxia), enzyme PHD bị ức chế, HIF-1alpha ổn định chuyển dịch vào nhân kích hoạt phiên mã gen EPO."),
+        ("Tác dụng kích thích tủy xương", "EPO gắn vào thụ thể trên bề mặt các tiền thân dòng hồng cầu (CFU-E) tại tủy xương, ức chế apoptosis và thúc đẩy tăng sinh, biệt hóa thành hồng cầu trưởng thành."),
+        ("Cơ chế thiếu máu trong bệnh thận mạn (CKD)", "Khi mô thận bị xơ hóa tiến triển, các tế bào kẽ sản xuất EPO bị phá hủy hàng loạt; cơ thể thiếu hụt EPO trầm trọng dẫn đến thiếu máu đẳng sắc đẳng bào tiến triển song hành với mức độ suy giảm GFR; điều trị đặc hiệu bằng thuốc kích thích tạo hồng cầu (ESA / rHuEPO).")
+    ],
+    "Thuốc ức chế HIF-PHD đường uống thế hệ mới (như Roxadustat) bắt chước trạng thái thiếu oxy giúp cơ thể tự tăng sản xuất EPO nội sinh điều trị thiếu máu CKD."
+))
+
+cards.append(make_card(
+    "HS18-B7-03", "B7", "Chuyển hóa Vitamin D tại thận",
+    "[CHUYỂN HÓA VITAMIN D] Enzyme 1alpha-Hydroxylase và Cơ Chế Bệnh Loạn Dưỡng Xương Do Thận<br>Trình bày phản ứng hoạt hóa Vitamin D tại ống lượn gần và chuỗi rối loạn khoáng xương (CKD-MBD) khi chức năng thận suy giảm.",
+    [
+        ("Phản ứng hoạt hóa tối cao tại thận", "Tiền chất 25(OH)D3 (Calcidiol từ gan) đến tế bào ống lượn gần được enzym ty thể 1alpha-Hydroxylase (CYP27B1) xúc tác gắn thêm nhóm -OH tại vị trí C1 tạo thành hormon có hoạt tính sinh học tối cao là 1,25-(OH)2D3 (Calcitriol)."),
+        ("Điều hòa enzym 1alpha-Hydroxylase", "Kích hoạt bởi hormon tuyến cận giáp (PTH) và tình trạng hạ phosphat máu; ức chế bởi hormon FGF-23 (từ xương) và tăng calci máu."),
+        ("Cơ chế bệnh sinh loạn dưỡng xương do thận (CKD-MBD)", "Khi GFR giảm < 60 mL/min, thận giảm đào thải gây Ứ TRỆ PHOSPHAT MÁU; phosphat máu tăng kích thích xương tiết FGF-23 ức chế mạnh enzym 1alpha-hydroxylase; thận xơ hóa làm giảm sản xuất Calcitriol."),
+        ("Cường cận giáp thứ phát", "Thiếu Calcitriol làm giảm hấp thu calci tại ruột gây hạ calci máu; hạ calci máu kích thích tuyến cận giáp tăng tiết ồ ạt PTH (Cường cận giáp thứ phát); PTH kéo calci từ xương ra máu gây xơ hóa nang xương, loãng xương và vôi hóa mạch máu.")
+    ],
+    "Điều trị CKD-MBD đòi hỏi phối hợp chế độ ăn giảm phosphat, thuốc gắn phosphat tại ruột (Sevelamer) và bổ sung Calcitriol hoạt tính hoặc chất đồng vận thụ thể vitamin D."
+))
+
+cards.append(make_card(
+    "HS18-B7-04", "B7", "Ca lâm sàng Hoại tử ống thận cấp ATN",
+    "[CA LÂM SÀNG 1] Hoại Tử Ống Thận Cấp Do Thiếu Máu Cục Bộ Sau Sốc Mất Máu<br>Bệnh nhân nam 40 tuổi sốc mất máu do tai nạn, huyết áp tụt 60/40 mmHg trong 2 giờ. Sau hồi sức dịch và truyền máu, huyết áp 110/70 mmHg nhưng bệnh nhân thiểu niệu (250 mL/24h); Xét nghiệm: Creatinin máu tăng từ 80 lên 380 µmol/L, Na niệu 65 mmol/L, FeNa 3.2%, cặn lắng có nhiều trụ hạt nâu bùn. Biện luận cơ chế.",
+    [
+        ("Chẩn đoán giai đoạn tổn thương", "Bệnh nhân đã chuyển từ Suy thận cấp trước thận sang Tổn thương thận cấp tại thận do Hoại tử ống thận cấp (Ischemic ATN)."),
+        ("Bằng chứng ống thận mất chức năng giữ muối", "FeNa = 3.2% (> 2%) và Natri niệu = 65 mmol/L (> 40 mmol/L) chứng minh các tế bào biểu mô ống thận (nhánh lên dày và ống lượn gần) đã bị hoại tử, mất hoàn toàn khả năng vận chuyển tích cực Na+."),
+        ("Bằng chứng cặn lắng tế bào", "Sự xuất hiện dày đặc của Trụ hạt nâu bùn (Muddy brown casts) là dấu ấn giải phẫu bệnh khẳng định hoại tử bong tróc biểu mô ống thận."),
+        ("Xử trí lâm sàng", "Không tiếp tục bù dịch ồ ạt (nguy cơ phù phổi cấp); kiểm soát bilan dịch, theo dõi sát kali máu và chỉ định lọc máu cấp cứu nếu có toan máu nặng hoặc tăng kali máu trơ.")
+    ],
+    "Tiên lượng: Biểu mô ống thận có khả năng phân bào tái sinh sau 1 – 3 tuần nếu bệnh nhân được kiểm soát tốt qua giai đoạn thiểu niệu/vô niệu."
+))
+
+cards.append(make_card(
+    "HS18-B7-05", "B7", "Ca lâm sàng Bệnh tổn thương tối thiểu MCD",
+    "[CA LÂM SÀNG 2] Hội Chứng Thận Hư Do Bệnh Tổn Thương Tối Thiểu Ở Trẻ Em<br>Bé trai 6 tuổi phù toàn thân mi mắt và hai chân; Xét nghiệm: Albumin máu giảm sâu 18 g/L, Protein niệu 24h lên tới 4.8 g/24h, Cholesterol máu tăng cao 9.2 mmol/L; Soi cặn lắng thấy thể bầu dục mỡ có hình chữ thập Malta, que nhúng protein (++++), chỉ số chọn lọc protein niệu 0.05. Phân tích cơ chế sinh hóa.",
+    [
+        ("Tam chứng Hội chứng thận hư nguyên phát", "1) Phù to toàn thân; 2) Protein niệu ồ ạt ngưỡng thận hư (> 50 mg/kg/ngày hoặc > 3.5 g/24h); 3) Giảm nặng Albumin máu (< 20 – 30 g/L)."),
+        ("Bản chất Protein niệu chọn lọc", "Chỉ số chọn lọc 0.05 (< 0.1) chứng minh protein niệu gần như hoàn toàn là Albumin; phù hợp cơ chế mất điện tích âm màng đáy và dính chân podocyte của Bệnh tổn thương tối thiểu (MCD)."),
+        ("Cơ chế tăng lipid máu phản ứng", "Albumin máu giảm sâu làm giảm áp suất keo huyết tương; gan phản ứng bù trừ bằng cách tăng sinh tổng hợp toàn bộ protein bao gồm cả ApoB-100 đóng gói VLDL; kết hợp giảm enzym LPL làm tăng triglycerid và cholesterol máu."),
+        ("Ý nghĩa thể bầu dục mỡ", "Hạt mỡ cholesterol este hóa lọt qua màng lọc được biểu mô ống thận hấp thu rồi bong tróc tạo chữ thập Malta dưới kính phân cực; khẳng định hội chứng thận hư tiến triển.")
+    ],
+    "MCD là nguyên nhân gây hội chứng thận hư phổ biến nhất ở trẻ em (80 – 90%), đáp ứng ngoạn mục với liệu pháp điều trị Corticoid đơn thuần."
+))
+
+cards.append(make_card(
+    "HS18-B7-06", "B7", "Ca lâm sàng Đa u tủy xương Bence Jones",
+    "[CA LÂM SÀNG 3] Protein Niệu Bence Jones Trong Bệnh Đa U Tủy Xương (Multiple Myeloma)<br>Bệnh nhân nam 62 tuổi đau xương sườn, thiếu máu; Xét nghiệm que nhúng tổng phân tích nước tiểu Protein niệu ÂM TÍNH (-), nhưng xét nghiệm kết tủa SSA nước tiểu DƯƠNG TÍNH ĐẬM (+++); Gom nước tiểu 24h định lượng protein đạt 3.6 g/24h; Creatinin máu 240 µmol/L. Giải thích cơ chế bất tương xứng.",
+    [
+        ("Giải mã mâu thuẫn que nhúng vs SSA", "Que nhúng dipstick chỉ nhạy với Albumin; bệnh nhân hoàn toàn không có protein niệu cầu thận nên que nhúng âm tính; trong khi test SSA kết tủa mọi loại protein đã phát hiện lượng khổng lồ chuỗi nhẹ globulin miễn dịch đơn dòng (Protein Bence Jones)."),
+        ("Cơ chế Protein niệu quá tải (Overflow)", "Tương bào ác tính trong tủy xương sản xuất ồ ạt chuỗi nhẹ tự do kappa hoặc lambda kích thước nhỏ (22 – 44 kDa); chúng lọc tự do qua cầu thận làm tràn ngập bão hòa hoàn toàn thụ thể Megalin-Cubilin ở ống gần."),
+        ("Cơ chế suy thận do bệnh thận ống tủy (Cast Nephropathy)", "Chuỗi nhẹ Bence Jones xuống quai Henle kết hợp với mucoprotein Tamm-Horsfall tạo thành các nút trụ cứng gây tắc nghẽn lòng ống thận; đồng thời chuỗi nhẹ gây độc trực tiếp làm hoại tử tế bào ống thận dẫn đến suy thận cấp tiến triển.")
+    ],
+    "Khi gặp bệnh nhân lớn tuổi có suy thận không rõ nguyên nhân kèm đau xương hoặc thiếu máu, luôn phải làm xét nghiệm SSA hoặc định lượng chuỗi nhẹ tự do (Free Light Chains)."
+))
+
+cards.append(make_card(
+    "HS18-B7-07", "B7", "Ca lâm sàng Tiêu cơ vân cấp Myoglobin niệu",
+    "[CA LÂM SÀNG 4] Tiêu Cơ Vân Cấp Sau Chấn Thương Gây Suy Thận Do Myoglobin Niệu<br>Nam thanh niên 24 tuổi bị vùi lấp cơ đùi sau sập tường 6 giờ; Nước tiểu màu nâu đen sẫm như xì dầu; Que nhúng nước tiểu: Blood (+++) dương tính đậm, nhưng soi cặn lắng ly tâm KHÔNG THẤY HỒNG CẦU; Huyết tương ly tâm trong suốt không màu; Creatinine máu 310 µmol/L, Kali máu 6.2 mmol/L, CK huyết thanh 85.000 U/L. Biện luận chẩn đoán.",
+    [
+        ("Khẳng định Myoglobin niệu (Loại trừ đái máu)", "Que nhúng dương tính với máu do nhân Hem của Myoglobin có hoạt tính giả peroxidase xúc tác đổi màu que thử; soi cặn không có hồng cầu khẳng định không phải chảy máu tiết niệu."),
+        ("Phân biệt với Hemoglobin niệu", "Huyết tương hoàn toàn trong suốt không màu (trong tan máu nội mạch, huyết tương đổi màu hồng đỏ) do Myoglobin phân tử nhỏ (17 kDa) không gắn haptoglobin, bị thận đào thải cực nhanh khỏi máu."),
+        ("Cơ chế gây suy thận cấp", "1) Myoglobin kết tủa cùng protein Tamm-Horsfall ở pH toan tạo trụ gây tắc ống thận; 2) Sắt Fe2+ tự do trong nhân Hem giải phóng tạo gốc tự do oxy hóa gây hoại tử tế bào ống thận; 3) Giảm thể tích nội mạch do dịch thoát vào mô cơ bị dập nát."),
+        ("Chiến lược hồi sức sống còn", "Truyền dịch đẳng trương lượng lớn (duy trì nước tiểu 200 – 300 mL/h) kết hợp truyền Natri Bicarbonat để kiềm hóa nước tiểu (pH niệu > 6.5 ngăn myoglobin kết tủa) và xử trí cấp cứu hạ kali máu.")
+    ],
+    "Kiềm hóa nước tiểu bằng NaHCO3 làm tăng độ hòa tan của myoglobin lên gấp nhiều lần, là chìa khóa vàng bảo vệ thận trong tiêu cơ vân cấp."
+))
+
+cards.append(make_card(
+    "HS18-B7-08", "B7", "Ca lâm sàng Suy thận cấp do NSAIDs phối hợp ACEi",
+    "[CA LÂM SÀNG 5] Suy Thận Cấp Huyết Động Do Phối Hợp Thuốc NSAIDs và Thuốc Ức Chế Men Chuyển<br>Bệnh nhân nữ 68 tuổi tiền sử đái tháo đường đang dùng Enalapril (ACEi); do đau khớp gối bệnh nhân tự ý uống thêm Ibuprofen (NSAID) liều cao 5 ngày. Bệnh nhân nhập viện vì thiểu niệu, Creatinin máu tăng vọt từ 90 lên 420 µmol/L, Kali máu 6.0 mmol/L. Phân tích cơ chế suy sụp GFR.",
+    [
+        ("Cơ chế của thuốc NSAID (Ibuprofen)", "NSAID ức chế enzym Cyclooxygenase (COX-1/COX-2), làm ngưng trệ sinh tổng hợp Prostaglandin (PGE2, PGI2); mất tác dụng dãn mạch bảo vệ của prostaglandin dẫn đến CO THẮT NẶNG NỀ TIỂU ĐỘNG MẠCH ĐẾN, làm giảm mạnh dòng máu và áp lực thủy tĩnh P_h đưa vào cầu thận."),
+        ("Cơ chế của thuốc Ức chế men chuyển (Enalapril)", "ACEi ức chế tạo Angiotensin II; làm MẤT KHẢ NĂNG CO TIỂU ĐỘNG MẠCH ĐI (tiểu động mạch đi bị giãn rộng), làm máu thoát tự do khỏi búi mao mạch khiến áp suất lọc P_h tụt dốc không phanh."),
+        ("Hiệu ứng kép triệt tiêu áp lực lọc P_lọc", "Tiểu động mạch đến bị co thắt (chặn dòng vào) trong khi tiểu động mạch đi bị giãn rộng (mở toang dòng ra); Áp lực lọc cầu thận P_lọc sụp đổ hoàn toàn về 0 gây suy thận cấp huyết động cấp tính vô niệu."),
+        ("Tăng Kali máu phối hợp", "Mất GFR kết hợp với ACEi giảm tiết aldosteron làm thận mất khả năng đào thải K+, gây tăng kali máu đe dọa ngừng tim.")
+    ],
+    "Bộ ba thuốc nguy hiểm tử thần (Triple Whammy): Thuốc lợi tiểu + ACEi/ARB + NSAIDs là nguyên nhân hàng đầu gây tổn thương thận cấp do thầy thuốc trên người cao tuổi."
+))
+
+cards.append(make_card(
+    "HS18-B7-09", "B7", "Ca lâm sàng Bệnh thận đái tháo đường A2",
+    "[CA LÂM SÀNG 6] Bệnh Thận Đái Tháo Đường Giai Đoạn Sớm Phát Hiện Qua Tỷ Số UACR<br>Bệnh nhân nam 52 tuổi mắc Đái tháo đường typ 2 được 6 năm, huyết áp 135/85 mmHg; Que nhúng nước tiểu Protein niệu ÂM TÍNH (-), Creatinin máu 85 µmol/L (eGFR 92 mL/min/1.73 m2); Bác sĩ chỉ định làm Tỷ số Albumin/Creatinin niệu (UACR) sáng sớm ghi nhận kết quả 145 mg/g. Biện luận chẩn đoán và hướng xử trí.",
+    [
+        ("Khẳng định Albumin niệu mức độ A2 (Microalbumin niệu)", "UACR = 145 mg/g nằm trong khoảng 30 – 300 mg/g; que nhúng âm tính do nồng độ nằm dưới ngưỡng phát hiện 150 mg/L; khẳng định có tổn thương nội mạc cầu thận giai đoạn sớm."),
+        ("Bệnh thận đái tháo đường giai đoạn sớm", "Mặc dù GFR vẫn ở mức tối ưu (> 90 mL/min/1.73 m2, giai đoạn G1) nhưng sự xuất hiện của albumin niệu A2 là bằng chứng sớm nhất của xơ hóa cầu thận do đái tháo đường và tăng nguy cơ biến cố xơ vữa tim mạch."),
+        ("Chỉ định điều trị can thiệp bảo tồn thận", "1) Khởi động ngay thuốc Ức chế men chuyển (ACEi) hoặc Ức chế thụ thể (ARB) để giảm áp lực nội cầu thận, làm giảm albumin niệu; 2) Bổ sung thuốc ức chế SGLT2 (Dapagliflozin/Empagliflozin) đã được chứng minh làm chậm tiến triển suy thận và bảo vệ tim mạch; 3) Kiểm soát tối ưu đường huyết (HbA1c < 7%) và huyết áp (< 130/80 mmHg).")
+    ],
+    "Tầm soát UACR định kỳ hàng năm là bắt buộc cho tất cả bệnh nhân đái tháo đường ngay từ thời điểm chẩn đoán (typ 2) hoặc sau 5 năm (typ 1)."
+))
+
+cards.append(make_card(
+    "HS18-B7-10", "B7", "Ca lâm sàng Viêm cầu thận cấp Bệnh thận IgA",
+    "[CA LÂM SÀNG 7] Bệnh Thận IgA Khởi Phát Sau Nhiễm Trùng Hô Hấp Trên<br>Nam sinh viên 20 tuổi, 2 ngày sau sốt viêm họng hạt xuất hiện tiểu nước tiểu màu đỏ sẫm như nước rửa thịt; Huyết áp 145/90 mmHg, phù nhẹ hai mi mắt; Xét nghiệm: Que nhúng Protein (++), Blood (+++); Soi cặn lắng ly tâm thấy 80% hồng cầu biến dạng gai Acanthocyte và có nhiều Trụ hồng cầu. Biện luận vị trí xuất huyết và bệnh cảnh.",
+    [
+        ("Vị trí xuất huyết chắc chắn tại Cầu thận", "Sự hiện diện đồng thời của Hồng cầu biến dạng hình gai (> 80%) và TRỤ HỒNG CẦU khẳng định tổn thương xuất huyết nằm tại búi mao mạch cầu thận; loại trừ hoàn toàn chảy máu đường niệu dưới."),
+        ("Hội chứng Viêm cầu thận cấp (Nephritic syndrome)", "Bệnh cảnh gồm: Đái máu đại thể + Tăng huyết áp + Phù mi mắt + Protein niệu mức độ vừa (< 3 g/ngày)."),
+        ("Chẩn đoán hướng tới Bệnh thận IgA (Berger disease)", "Khởi phát đái máu đại thể đồng thời hoặc chỉ 1 – 2 ngày ngay sau nhiễm trùng hô hấp trên (Synpharyngitic hematuria); khác với Viêm cầu thận sau nhiễm liên cầu (APSGN) có khoảng thời gian tiềm tàng từ 1 – 3 tuần."),
+        ("Cơ chế phân tử", "Rối loạn glycosyl hóa phân tử IgA1 (Galactose-deficient IgA1) tạo kháng thể tự miễn IgG/IgA chống lại, tạo phức hợp miễn dịch lắng đọng tại vùng gian mạch (Mesangium) cầu thận, kích hoạt bổ thể gây viêm và đứt vách mao mạch.")
+    ],
+    "Bệnh thận IgA là bệnh lý cầu thận nguyên phát phổ biến nhất trên toàn thế giới, chẩn đoán xác định dựa trên sinh thiết thận thấy lắng đọng IgA ưu thế tại vùng gian mạch."
+))
+
+# ==========================================
+# B_ALGO: 5 THUẬT TOÁN QUYẾT ĐỊNH LÂM SÀNG (5 THẺ)
+# ==========================================
+
+cards.append(make_card(
+    "HS18-ALGO-01", "B_ALGO", "Thuật toán phân tầng AKI",
+    "[⚡ THUẬT TOÁN QUYẾT ĐỊNH] Quy Trình Phân Tầng và Tiếp Cận Tổn Thương Thận Cấp (AKI) Theo KDIGO<br>Trình bày lưu đồ thuật toán 4 bước chẩn đoán phân tầng nguyên nhân Tổn thương thận cấp (Trước thận vs Tại thận vs Sau thận) tại giường bệnh.",
+    [
+        ("Bước 1 — Khẳng định chẩn đoán AKI theo Tiêu chuẩn KDIGO", "Xác định 1 trong 3 tiêu chuẩn: 1) Creatinin máu tăng >= 0.3 mg/dL (>= 26.5 µmol/L) trong 48 giờ; 2) Creatinin máu tăng >= 1.5 lần so với giá trị nền trong vòng 7 ngày; 3) Thể tích nước tiểu < 0.5 mL/kg/giờ kéo dài trên 6 giờ."),
+        ("Bước 2 — Siêu âm hệ tiết niệu khẩn cấp loại trừ Nhánh Sau Thận (Tắc nghẽn)", "Siêu âm thận — bàng quang khảo sát ứ nước đài bể thận và giãn niệu quản; Nếu có giãn đài bể thận 2 bên hoặc cầu bàng quang → Chẩn đoán AKI Sau thận do sỏi kẹt, u chèn ép, phì đại tiền liệt tuyến → Chỉ định đặt thông tiểu hoặc can thiệp giải áp ngoại khoa cấp cứu."),
+        ("Bước 3 — Đánh giá tình trạng huyết động phân định Nhánh Trước Thận", "Khảo sát dấu hiệu giảm thể tích tuần hoàn (mất máu, nôn tiêu chảy, tụt huyết áp, suy tim ứ huyết, dùng lợi tiểu/ACEi); Test truyền dịch thử thách nếu có giảm thể tích: Nếu sau bù dịch đủ huyết áp lên và nước tiểu tăng vọt, Creatinin hồi phục nhanh → Kết luận AKI Trước thận."),
+        ("Bước 4 — Xét nghiệm sinh hóa nước tiểu và Soi cặn lắng phân biệt Trước thận vs Tại thận (ATN)", "Định lượng FeNa và soi cặn lắng: Nếu FeNa < 1%, UNa < 20 mmol/L, cặn lắng chỉ có trụ trong → AKI Trước thận; Nếu FeNa > 2%, UNa > 40 mmol/L, cặn lắng dày đặc Trụ hạt nâu bùn hoặc trụ tế bào biểu mô → Khẳng định Hoại tử ống thận cấp (ATN) tại thận → Ngừng ngay các thuốc độc thận, tối ưu hóa huyết động và hội chẩn lọc máu.")
+    ],
+    "Thuật toán giúp phân định chính xác trong vòng 1 giờ tiếp cận bệnh nhân, tránh bù dịch quá tải gây phù phổi cho bệnh nhân ATN và tránh bỏ sót chỉ định giải áp sỏi tắc mật sau thận.",
+    is_algo=True
+))
+
+cards.append(make_card(
+    "HS18-ALGO-02", "B_ALGO", "Thuật toán phân tích Protein niệu",
+    "[⚡ THUẬT TOÁN QUYẾT ĐỊNH] Thuật Toán Phân Tích Tiếp Cận Protein Niệu Lâm Sàng<br>Trình bày lưu đồ thuật toán 4 bước tiếp cận chẩn đoán bản chất và nguồn gốc của Protein niệu từ que nhúng đến điện di.",
+    [
+        ("Bước 1 — Đánh giá ban đầu qua Que nhúng và Loại trừ yếu tố nhiễu", "Que nhúng tổng phân tích nước tiểu: Nếu Protein (-), kiểm tra test SSA; nếu cả hai đều âm tính loại trừ protein niệu; Nếu Protein (+) que nhúng, loại trừ các nguyên nhân thoáng qua: sốt cao, gắng sức nặng, co giật, suy tim ứ huyết, protein niệu tư thế đứng (Orthostatic)."),
+        ("Bước 2 — Định lượng chuẩn hóa Tỷ số UACR hoặc UPCR mẫu sáng sớm", "Lấy mẫu nước tiểu buổi sáng đầu tiên đo Tỷ số Protein/Creatinin niệu (UPCR) hoặc Albumin/Creatinin niệu (UACR); Phân tầng mức độ: UPCR < 150 mg/g (bình thường); 150 – 500 mg/g (tăng nhẹ); 500 – 3000 mg/g (tăng vừa); > 3000 – 3500 mg/g (ngưỡng Thận hư)."),
+        ("Bước 3 — Đối chiếu mâu thuẫn Que nhúng vs SSA tìm Protein quá tải", "Nếu Que nhúng ÂM TÍNH nhưng Test SSA DƯƠNG TÍNH ĐẬM (hoặc UPCR tăng rất cao nhưng UACR lại rất thấp) → Định hướng Protein niệu quá tải (Overflow) bài xuất chuỗi nhẹ Bence Jones → Chỉ định Điện di miễn dịch cố định protein huyết thanh/nước tiểu (IFE) và sinh thiết tủy xương tìm Đa u tủy xương (Multiple Myeloma)."),
+        ("Bước 4 — Phân định Protein niệu Cầu Thận vs Ống Thận", "Nếu Albumin chiếm ưu thế tuyệt đối (> 70% tổng protein) → Protein niệu Cầu thận: đánh giá tính chọn lọc và soi cặn tìm hồng cầu biến dạng/trụ hồng cầu → Chỉ định Sinh thiết thận nếu nghi ngờ viêm cầu thận tiến triển hoặc hội chứng thận hư người lớn; Nếu Albumin chiếm tỷ lệ thấp (< 40%), ưu thế beta-2-microglobulin → Protein niệu Ống thận → Tầm soát bệnh lý ống kẽ thận và ngộ độc thuốc.")
+    ],
+    "Lưu đồ thuật toán bóc tách từng lớp nguyên nhân, giải quyết triệt để nguy cơ bỏ sót bệnh lý đa u tủy xương và phân loại chính xác chỉ định sinh thiết thận.",
+    is_algo=True
+))
+
+cards.append(make_card(
+    "HS18-ALGO-03", "B_ALGO", "Thuật toán nước tiểu đỏ",
+    "[⚡ THUẬT TOÁN QUYẾT ĐỊNH] Thuật Toán Tiếp Cận Bệnh Nhân Có Nước Tiểu Đỏ / Sẫm Màu<br>Trình bày lưu đồ thuật toán 4 bước chẩn đoán phân biệt nước tiểu đỏ (Đái máu vs Hemoglobin niệu vs Myoglobin niệu vs Thuốc/Thực phẩm).",
+    [
+        ("Bước 1 — Kiểm tra phản ứng Heme qua Que nhúng nước tiểu", "Nhúng que thử tổng phân tích nước tiểu kiểm tra ô xét nghiệm Blood (hoạt tính giả peroxidase của Hem): Nếu Que nhúng ÂM TÍNH HOÀN TOÀN → Đổi màu nước tiểu do Thuốc (Rifampicin, Metronidazole, Sulfasalazine) hoặc Thực phẩm (Củ dền đỏ, phẩm màu anthocyanin) hoặc Porphyria → Bệnh nhân an toàn, giải thích và theo dõi; Nếu Que nhúng DƯƠNG TÍNH → Chuyển sang Bước 2."),
+        ("Bước 2 — Ly tâm nước tiểu và Soi cặn lắng kính hiển vi", "Ly tâm ống nước tiểu: Quan sát sự phân tách dịch nổi và cặn lắng: Nếu Cặn lắng màu đỏ ở đáy ống và DỊCH NỔI PHÍA TRÊN TRONG SUỐT, đồng thời soi cặn THẤY TẾ BÀO HỒNG CẦU → Kết luận ĐÁI MÁU (Hematuria) → Chuyển Bước 3; Nếu DỊCH NỔI PHÍA TRÊN VẪN GIỮ MÀU ĐỎ NÂU và soi cặn HOÀN TOÀN KHÔNG CÓ HỒNG CẦU → Kết luận Sắc tố niệu (Hemoglobin niệu hoặc Myoglobin niệu) → Chuyển Bước 4."),
+        ("Bước 3 — Phân định nguồn gốc Đái máu qua hình thái hồng cầu", "Soi kính hiển vi pha: Nếu có > 40% hồng cầu biến dạng méo mó hoặc có Trụ hồng cầu → Xuất huyết từ CẦU THẬN (Viêm cầu thận cấp, bệnh thận IgA, viêm thận Lupus); Nếu hồng cầu đồng dạng hình đĩa bình thường → Chảy máu SAU CẦU THẬN (Sỏi tiết niệu, ung thư bàng quang/thận, viêm đường tiết niệu) → Chỉ định chụp CT-Urography và soi bàng quang."),
+        ("Bước 4 — Phân biệt Hemoglobin niệu vs Myoglobin niệu qua Huyết tương và Men CK", "Lấy máu chống đông ly tâm quan sát màu sắc huyết tương: Nếu Huyết tương có MÀU HỒNG ĐỎ, Haptoglobin máu sụt giảm về 0, LDH tăng cao → Tan máu nội mạch cấp giải phóng Hemoglobin niệu; Nếu Huyết tương HOÀN TOÀN TRONG SUỐT KHÔNG MÀU và Men Creatine Kinase (CK) máu tăng vọt hàng chục nghìn U/L → Khẳng định TIÊU CƠ VÂN CẤP (Rhabdomyolysis) giải phóng Myoglobin niệu → Truyền dịch tích cực và kiềm hóa nước tiểu cấp cứu.")
+    ],
+    "Lưu đồ thuật toán 4 bước giải mã toàn bộ các nguyên nhân gây đổi màu nước tiểu, định hướng cấp cứu chính xác trong vòng 15 phút tại khoa cấp cứu.",
+    is_algo=True
+))
+
+cards.append(make_card(
+    "HS18-ALGO-04", "B_ALGO", "Thuật toán phân tầng CKD theo KDIGO",
+    "[⚡ THUẬT TOÁN QUYẾT ĐỊNH] Lưu Đồ Tiếp Cận và Phân Tầng Bệnh Thận Mạn Theo Bản Đồ Nhiệt KDIGO<br>Trình bày các bước xác lập chẩn đoán Bệnh thận mạn (CKD) và phân tầng nguy cơ theo phân loại kết hợp GFR (G1 – G5) và Albumin niệu (A1 – A3).",
+    [
+        ("Bước 1 — Xác lập tiêu chuẩn chẩn đoán Bệnh Thận Mạn (CKD)", "Khẳng định có tổn thương cấu trúc hoặc chức năng thận KÉO DÀI TRÊN 3 THÁNG, thể hiện qua 1 trong 2 tiêu chí: 1) eGFR < 60 mL/min/1.73 m2; HOẶC 2) Có ít nhất một dấu ấn tổn thương thận: Albumin niệu (UACR >= 30 mg/g), bất thường cặn lắng nước tiểu (hồng cầu, trụ niệu), bất thường điện giải do bệnh ống thận, bất thường mô học trên sinh thiết thận, hoặc bất thường cấu trúc trên hình ảnh học (thận đa nang, teo thận)."),
+        ("Bước 2 — Xác định giai đoạn suy giảm chức năng lọc GFR (G1 đến G5)", "Tính eGFR theo công thức CKD-EPI 2021: G1 (Bình thường hoặc cao: >= 90 mL/min); G2 (Giảm nhẹ: 60 – 89 mL/min); G3a (Giảm nhẹ đến vừa: 45 – 59 mL/min); G3b (Giảm vừa đến nặng: 30 – 44 mL/min); G4 (Giảm nặng: 15 – 29 mL/min); G5 (Suy thận giai đoạn cuối - ESKD: < 15 mL/min)."),
+        ("Bước 3 — Xác định phân tầng mức độ Albumin niệu (A1 đến A3)", "Định lượng Tỷ số UACR: A1 (Bình thường đến tăng nhẹ: < 30 mg/g); A2 (Tăng mức độ vừa: 30 – 300 mg/g); A3 (Tăng mức độ nặng: > 300 mg/g)."),
+        ("Bước 4 — Ghép Bản đồ nhiệt KDIGO (Heatmap) và Lập kế hoạch quản lý", "Đối chiếu trục G (G1 – G5) và trục A (A1 – A3) xác định 4 vùng nguy cơ: Vùng Xanh lá (Nguy cơ thấp) → Tái khám hàng năm; Vùng Vàng (Nguy cơ trung bình) → Tái khám 1 lần/năm; Vùng Cam (Nguy cơ cao) → Tái khám 2 lần/năm, tối ưu thuốc bảo vệ thận (ACEi/ARB, SGLT2i, Finrenone); Vùng Đỏ (Nguy cơ rất cao: G4-G5 hoặc G3b-A3) → Chuyển chuyên khoa Thận học theo dõi 3 – 4 lần/năm, chuẩn bị tạo thông động tĩnh mạch (AVF) và lập kế hoạch lọc máu/ghép thận.")
+    ],
+    "Bản đồ nhiệt KDIGO chuyển đổi mô hình đánh giá chức năng thận từ một chiều (chỉ nhìn vào GFR) sang hai chiều toàn diện, nâng cao độ chính xác dự báo biến cố tim mạch và suy thận tử vong.",
+    is_algo=True
+))
+
+cards.append(make_card(
+    "HS18-ALGO-05", "B_ALGO", "Thuật toán suy thận cấp do thuốc huyết động",
+    "[⚡ THUẬT TOÁN QUYẾT ĐỊNH] Lưu Đồ Điều Hòa Huyết Động Cầu Thận và Xử Trí Suy Thận Cấp Do Thuốc<br>Trình bày lưu đồ cơ chế tác động của các thuốc lên tiểu động mạch vào/ra và các bước xử trí khi bệnh nhân dùng thuốc bị sụt giảm GFR cấp tính.",
+    [
+        ("Bước 1 — Nhận diện cơ chế sinh lý huyết động tại hai đầu mao mạch cầu thận", "Tiểu động mạch đến (Afferent arteriole) được dãn nở bảo vệ bởi PROSTAGLANDIN nội sinh; Tiểu động mạch đi (Efferent arteriole) được co thắt duy trì áp lực lọc bởi ANGIOTENSIN II."),
+        ("Bước 2 — Xác định các nhóm thuốc can thiệp huyết động nguy cơ cao", "1) Nhóm thuốc NSAIDs: Ức chế tổng hợp Prostaglandin → Gây CO THẮT TIỂU ĐỘNG MẠCH ĐẾN (giảm dòng máu vào cầu thận); 2) Nhóm thuốc ACEi / ARB: Ức chế tạo hoặc chẹn thụ thể Angiotensin II → Gây GIÃN TIỂU ĐỘNG MẠCH ĐI (mất áp lực giữ trong cầu thận); 3) Nhóm thuốc ức chế Calcineurin (Cyclosporine, Tacrolimus): Gây co thắt mạnh tiểu động mạch đến."),
+        ("Bước 3 — Đánh giá ngưỡng biến đổi Creatinin máu an toàn vs Bệnh lý khi bắt đầu dùng ACEi/ARB", "Sau khi khởi đầu thuốc ACEi/ARB, Creatinin máu tăng nhẹ < 30% so với giá trị nền trong vòng 2 – 4 tuần đầu là DỰ KIẾN SINH LÝ CHẤP NHẬN ĐƯỢC (do giảm áp lực lọc bảo vệ cầu thận lâu dài), TIẾP TỤC DUY TRÌ THUỐC; Nếu Creatinin máu tăng vọt > 30% hoặc Kali máu > 5.5 mmol/L → BẤT THƯỜNG BỆNH LÝ → Tầm soát ngay HẸP ĐỘNG MẠCH THẬN HAI BÊN hoặc giảm thể tích tuần hoàn phối hợp."),
+        ("Bước 4 — Xử trí cấp cứu khi xảy ra hội chứng Suy thận cấp huyết động", "Khi bệnh nhân rơi vào suy thận cấp thiểu niệu: 1) Ngừng ngay lập tức toàn bộ các thuốc NSAIDs và thuốc ức chế men chuyển/chẹn thụ thể; 2) Bù dịch đẳng trương khôi phục thể tích tuần hoàn; 3) Theo dõi sát phục hồi GFR sau 48 – 72 giờ trước khi quyết định tái sử dụng thuốc với liều lượng thích hợp.")
+    ],
+    "Lưu đồ thuật toán giúp người thầy thuốc phân biệt ranh giới giữa tác dụng bảo vệ thận dài hạn và biến chứng suy thận cấp huyết động cấp tính của các thuốc tim mạch.",
+    is_algo=True
+))
+
+# ==========================================
+# GHI VÀO FILE CARDS.V2.JSON
+# ==========================================
+
+output_data = {
+    "deck_id": DECK_ID,
+    "deck_name": DECK_NAME,
+    "card_count": len(cards),
+    "cards": cards
+}
+
+OUTPUT_PATH.write_text(json.dumps(output_data, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Tong so the moi: {len(cards)} the")
+print(f"Da ghi thanh cong vao {OUTPUT_PATH}")
