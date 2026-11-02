@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-12 Thoái hóa và tổng hợp purin, pyrimidin, acid uric và bệnh Gout",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:44:40",
+  "generated_at": "2026-11-02T10:42:36",
   "cards_source": "HS-12_Chuyen_hoa_acid_nucleic.cards.v2.json",
-  "cards_source_sha256": "b8dd2070252a43242cdcc83391790365ea730c256c2d0eb5292875a94ea0ce3c",
-  "card_count": 13,
+  "cards_source_sha256": "7fe9286437e90f4d485cb249dd03294c88b23a960a12ca01351aa99cba035509",
+  "card_count": 81,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-12_Chuyen_hoa_acid_nucleic\\HS-12_Chuyen_hoa_acid_nucleic_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 13,
     "unchanged": 0,
-    "added": 13,
+    "added": 68,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 13
+    "deck_notes": 81
   },
-  "apkg_sha256": "3a9dbd00c41a505d19ecf423eeb0a7d065a503eec53a18a4e1d620b51e84ed24",
-  "sqlite_notes": 13,
-  "sqlite_cards": 13
+  "apkg_sha256": "d6dac0632c3f39ce8fdad6d170e8dc259dc3cc50216929477f898afa788bc91a",
+  "sqlite_notes": 81,
+  "sqlite_cards": 81
 }
