@@ -1,0 +1,1111 @@
+# -*- coding: utf-8 -*-
+"""build_deep_hs16.py - Generate 75 exhaustive master flashcards for HS-16 (Khí máu, hệ thống đệm sinh học và rối loạn thăng bằng acid-base)"""
+import json
+import re
+from pathlib import Path
+
+def clean_label(t):
+    if t.startswith('<b>'):
+        m = re.match(r'^<b>(.*?)(?:\s*—|:)?</b>:?\s*(.*)', t)
+        if m:
+            head = m.group(1).replace(':', ' - ').strip()
+            tail = m.group(2)
+            return f"<b>{head} —</b> {tail}"
+        return t
+    m = re.match(r'^([^:<]{2,60}):\s*(.*)', t)
+    if m:
+        head = m.group(1).replace(':', ' - ').strip()
+        tail = m.group(2)
+        return f"<b>{head} —</b> {tail}"
+    return t
+
+def make_card(cid, front_title, front_badge, question, answers, explanation, algo=False, extra=""):
+    ans_html = "<br>".join([f"{i+1}) {clean_label(a)}" for i, a in enumerate(answers)])
+    badge_color = "#e03131" if algo else "#1971c2"
+    badge_text = "⚡ THUẬT TOÁN QUYẾT ĐỊNH" if algo else front_badge
+    
+    if "ALGO" in cid: section = "B_ALGO"
+    elif "-B1-" in cid: section = "B1"
+    elif "-B2-" in cid: section = "B2"
+    elif "-B3-" in cid: section = "B3"
+    elif "-B4-" in cid: section = "B4"
+    elif "-B5-" in cid: section = "B5"
+    elif "-B6-" in cid: section = "B6"
+    elif "-B7-" in cid: section = "B7"
+    else: section = "B1"
+
+    front = f"""<div style="font-size: 13px; font-weight: bold; color: {badge_color}; text-transform: uppercase; margin-bottom: 8px;">[{badge_text}] {front_title}</div>
+<div style="font-size: 16px; font-weight: 600; color: #212529; line-height: 1.5;">{question}</div>
+<div style="margin-top: 10px; font-size: 12px; color: #495057;">
+  <span style="background-color: #ffd43b; color: #212529; padding: 2px 6px; border-radius: 4px; font-weight: 600;">Gợi ý</span> Nhớ lại cơ chế vận chuyển khí, hệ đệm sinh học và quy trình 6 bước phân tích khí máu ABG.
+</div>"""
+
+    back = f"""<div style="margin-bottom: 12px;">
+  <span style="background-color: #51cf66; color: #087f5b; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">HÓA SINH Y HỌC</span>
+  <span style="background-color: #74c0fc; color: #1864ab; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-left: 4px;">BSNT CHUYÊN SÂU</span>
+</div>
+<div style="font-size: 15px; color: #212529; line-height: 1.6;">
+<b>🎯 Trả lời cốt lõi:</b><br>
+{ans_html}
+<br><br>
+<b>💡 Giải thích của AI:</b><br>
+<span style="color: #495057; font-size: 14px;">{explanation}</span>
+</div>"""
+
+    return {
+        "id": cid,
+        "track": "algo" if algo else "barem",
+        "badge": badge_text,
+        "badge_class": "badge-danger" if algo else "badge-info",
+        "type": "basic",
+        "section": section,
+        "category": "HoaSinh",
+        "tier": 1,
+        "front": front,
+        "back": back,
+        "extra": extra or "Nguồn: Giáo trình Hóa Sinh Y Học - ĐHYHN (GS. Tạ Thành Văn, Tr. 339-352), Harrison's Principles of Internal Medicine 21st ed (Chap 53), West's Respiratory Physiology 11th ed (Chap 5, 6).",
+        "tags": ["hoasinh", "HS16", section]
+    }
+
+cards = []
+
+# ==============================================================================
+# B1: SỰ VẬN CHUYỂN OXY VÀ CARBON DIOXIDE TRONG MÁU (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B1-01", "Dạng Vận chuyển Oxy trong Máu", "VẬN CHUYỂN OXY",
+    "So sánh tỷ lệ và dung tích vận chuyển giữa Oxy hòa tan vật lý và Oxy kết hợp Hemoglobin trong máu động mạch?",
+    [
+        "Oxy hòa tan vật lý — Tuân theo định luật Henry: [O2 hòa tan] = 0.003 mL O2 / (100 mL máu × mmHg PaO2). Với PaO2 bình thường 100 mmHg, máu chỉ chứa 0.3 mL O2 / 100 mL máu (chiếm chưa đầy 1.5% tổng lượng oxy).",
+        "Oxy kết hợp Hemoglobin (HbO2) — Chiếm ưu thế tuyệt đối (> 98.5% lượng oxy chuyên chở). 1g Hb bão hòa hoàn toàn gắn được 1.34 mL O2 trên lâm sàng.",
+        "Dung tích Oxy của máu (Oxygen Capacity) — Với nồng độ Hb bình thường 15 g/dL (150 g/L), lượng oxy tối đa mà Hemoglobin chuyên chở đạt: 15 × 1.34 = 20.1 mL O2 / 100 mL máu (~201 mL O2 / 1 lít máu).",
+        "Ý nghĩa sinh học — Dạng kết hợp Hb tăng dung tích chuyên chở oxy của máu lên gấp gần 70 lần so với dạng hòa tan đơn thuần, đáp ứng hoàn hảo nhu cầu tiêu thụ 250 mL O2/phút của mô cơ thể."
+    ],
+    "Dù chỉ chiếm 1.5%, phân đoạn oxy hòa tan vật lý là dạng duy nhất tạo ra phân áp PaO2 trong máu và khuếch tán trực tiếp qua màng phế nang - mao mạch cũng như vào ty thể tế bào."
+))
+
+cards.append(make_card(
+    "HS16-B1-02", "Hiệu ứng Hợp tác Gắn Oxy của Hb", "CẤU HÌNH PHÂN TỬ",
+    "Cơ chế phân tử của Hiệu ứng hợp tác dị lập thể đồng loại (Cooperative Binding) và Chuyển đổi cấu hình T sang R của Hemoglobin?",
+    [
+        "Cấu hình T (Tense / Căng) ở Deoxyhemoglobin — Giữa 4 tiểu đơn vị tồn tại nhiều cầu muối liên kết ion; ion Fe2+ có bán kính lớn bị kéo lệch khỏi mặt phẳng vòng porphyrin 0.4 Å về phía Histidin F8; ái lực gắn O2 đầu tiên rất thấp.",
+        "Bước chuyển dịch sang Cấu hình R (Relaxed / Thư giãn) — Khi phân tử O2 đầu tiên gắn vào, Fe2+ co nhỏ bán kính và trượt phẳng vào giữa vòng porphyrin, kéo theo gốc His F8 làm xoay tetramer một góc 15° và bẻ gãy hàng loạt cầu muối.",
+        "Tăng ái lực lũy tiến — Trạng thái R mở rộng khoang gắn, giải phóng lực cản không gian làm các vị trí tiếp theo tăng ái lực; phân tử O2 thứ 4 gắn vào Hb với ái lực cao gấp 300 - 500 lần so với phân tử O2 thứ nhất.",
+        "Đường cong phân ly dạng chữ S (Sigmoidal curve) — Tạo ra đoạn tiệm cận bão hòa nằm ngang ở phổi (bảo vệ bão hòa oxy) và đoạn dốc đứng ở mô ngoại vi (dễ dàng nhả một lượng lớn oxy chỉ với dao động phân áp nhỏ)."
+    ],
+    "Myoglobin là protein đơn chuỗi monomer không có cấu trúc bậc 4 nên đường cong gắn oxy có dạng hyperbol tiệm cận, chỉ nhả oxy khi phân áp tụt rất thấp (< 10-20 mmHg) trong cơ co bóp nặng."
+))
+
+cards.append(make_card(
+    "HS16-B1-03", "Chỉ số P50 và Đường cong Phân ly HbO2", "ĐƯỜNG CONG PHÂN LY",
+    "Khái niệm Chỉ số P50 và ý nghĩa sinh học khi Đường cong phân ly HbO2 dịch chuyển sang PHẢI hoặc sang TRÁI?",
+    [
+        "Khái niệm P50 — Phân áp oxy mà tại đó 50% các vị trí gắn trên phân tử Hemoglobin được bão hòa oxy (SaO2 = 50%). Giá trị bình thường ở người trưởng thành (pH 7.40, pCO2 40 mmHg, 37°C) là 26.6 mmHg (26 - 27 mmHg).",
+        "Đường cong dịch chuyển sang PHẢI (P50 tăng > 27 mmHg) — Ái lực của Hemoglobin với oxy giảm, cấu hình T được ổn định → Hemoglobin DỄ DÀNG NHẢ OXY cho các mô tế bào ngoại vi tiêu thụ.",
+        "Đường cong dịch chuyển sang TRÁI (P50 giảm < 26 mmHg) — Ái lực của Hemoglobin với oxy tăng cao, cấu hình R chiếm ưu thế → Hemoglobin GIỮ CHẶT OXY, khó nhả oxy cho mô, gây nguy cơ thiếu oxy tổ chức."
+    ],
+    "Tại mô đang vận động mạnh (cơ bắp sinh nhiệt, tăng CO2, tăng acid lactic), đường cong tự động dịch phải giúp tăng tối đa lượng oxy nhả ra phục vụ chuyển hóa năng lượng."
+))
+
+cards.append(make_card(
+    "HS16-B1-04", "Yếu tố Dịch chuyển Đường cong HbO2", "ĐIỀU HÒA PHÂN TỬ",
+    "Bốn yếu tố sinh học làm dịch chuyển Đường cong phân ly HbO2 sang PHẢI và cơ chế phân tử của từng yếu tố?",
+    [
+        "Tăng nồng độ ion H+ (Giảm pH - Toan máu) — Hiệu ứng Bohr: H+ proton hóa các gốc Histidin (đặc biệt His146 chuỗi beta), tạo cầu muối với Asp94 ổn định cấu hình T (khử oxy).",
+        "Tăng phân áp pCO2 — CO2 vừa hydrate hóa tạo H+ (gây hiệu ứng Bohr), vừa phản ứng trực tiếp với nhóm amin đầu N của globin tạo carbamat giải phóng H+ và ổn định thể T.",
+        "Tăng Nhiệt độ cơ thể — Phản ứng gắn oxy vào Hemoglobin là phản ứng tỏa nhiệt; nhiệt độ cao làm đứt gãy liên kết phối trí Fe-O2 thúc đẩy nhả oxy.",
+        "Tăng nồng độ 2,3-Diphosphoglycerat (2,3-DPG) — Polyanion mang điện tích âm cao gắn đặc hiệu vào hốc trung tâm mang điện tích dương giữa 2 chuỗi beta của cấu hình T, khóa chặt cấu hình T."
+    ],
+    "Ngược lại: Giảm H+ (kiềm máu), giảm pCO2, hạ thân nhiệt và cạn kiệt 2,3-DPG (trong máu truyền lưu trữ lâu ngày) sẽ làm đường cong dịch TRÁI, giữ chặt oxy gây thiếu oxy mô."
+))
+
+cards.append(make_card(
+    "HS16-B1-05", "So sánh HbA và HbF", "HÓA SINH BÀO THAI",
+    "Cơ chế phân tử giải thích tại sao Hemoglobin bào thai (HbF) có ái lực oxy cao hơn Hemoglobin người trưởng thành (HbA)?",
+    [
+        "Cấu trúc tiểu đơn vị — HbA cấu tạo từ 2 chuỗi alpha và 2 chuỗi beta (alpha2 beta2); HbF cấu tạo từ 2 chuỗi alpha và 2 chuỗi gamma (alpha2 gamma2).",
+        "Đột biến acid amin vị trí 143 — Hốc trung tâm chuỗi beta của HbA chứa gốc Histidin-143 tích điện dương tạo cầu muối chặt chẽ với 2,3-DPG. Ở chuỗi gamma của HbF, vị trí 143 bị thay thế bởi Serin-143 trung tính không tích điện.",
+        "Hậu quả mất điện tích dương — HbF mất đi 2 điện tích dương trong hốc trung tâm → giảm ái lực liên kết với 2,3-DPG tới 80% → cấu hình T không bị kẹp chặt → cân bằng dịch mạnh sang cấu hình R.",
+        "Ái lực oxy vượt trội của HbF — P50 của HbF chỉ khoảng 19 - 20 mmHg (so với 26.6 mmHg của HbA), đường cong phân ly lệch hẳn sang trái giúp thai nhi 'hút' oxy hiệu quả từ máu mẹ tại hồ máu rau thai."
+    ],
+    "Thuốc Hydroxyurea điều trị bệnh hồng cầu hình liềm (HbS) hoạt động bằng cách tái kích hoạt biểu hiện gen chuỗi gamma, làm tăng nồng độ HbF để pha loãng HbS ngăn chặn kết tinh hình liềm."
+))
+
+cards.append(make_card(
+    "HS16-B1-06", "Ba Dạng Vận chuyển CO2 trong Máu", "VẬN CHUYỂN CO2",
+    "Ba dạng vận chuyển Carbon Dioxide (CO2) trong máu từ mô ngoại vi về phổi và tỷ lệ phần trăm của từng dạng?",
+    [
+        "Dạng Ion Bicarbonat (HCO3-) — Chiếm ưu thế tuyệt đối (75 - 80% tổng lượng CO2 chuyên chở). CO2 vào hồng cầu kết hợp H2O nhờ Carbonic Anhydrase tạo H2CO3 phân ly thành H+ và HCO3-.",
+        "Dạng Hợp chất Carbamin (Carbamino-Hemoglobin) — Chiếm khoảng 13 - 15%. CO2 gắn tự phát vào các nhóm amin tự do đầu N của chuỗi globin tạo carbamat (R-NH-COO-).",
+        "Dạng Hòa tan vật lý trong huyết tương — Chiếm khoảng 7 - 9%. [CO2 hòa tan] = 0.03 mmol/L/mmHg × pCO2 (với pCO2 40 mmHg nồng độ khoảng 1.2 mmol/L).",
+        "Hệ số hòa tan của CO2 — Cao gấp 24 lần so với oxy, giúp CO2 khuếch tán qua màng phế nang mao mạch cực kỳ nhanh chóng."
+    ],
+    "Mặc dù chỉ chiếm 7-9%, phân đoạn CO2 hòa tan vật lý quyết định trực tiếp phân áp PaCO2 đo được trên khí máu động mạch và kích thích trung tâm hô hấp."
+))
+
+cards.append(make_card(
+    "HS16-B1-07", "Hiện tượng Dịch chuyển Clorid Hamburger", "SINH LÝ HỒNG CẦU",
+    "Cơ chế phân tử của Hiện tượng dịch chuyển Clorid (Chloride Shift / Hamburger) tại mao mạch mô ngoại vi và tại phổi?",
+    [
+        "Tại mao mạch mô ngoại vi — Carbonic Anhydrase (CA-II) trong hồng cầu tạo ra lượng lớn HCO3- và H+. Kênh trao đổi anion AE1 (Band 3) bơm 1 ion HCO3- ra huyết tương đổi 1 ion Cl- từ huyết tương vào trong hồng cầu.",
+        "Biến đổi thể tích hồng cầu tĩnh mạch — Ion Cl- vào làm tăng áp suất thẩm thấu nội bào hồng cầu, hút nước vào làm hồng cầu ở máu tĩnh mạch phồng to nhẹ so với máu động mạch (Hematocrit máu tĩnh mạch cao hơn động mạch ~3%).",
+        "Tại mao mạch phế nang phổi — Phản ứng đảo chiều hoàn toàn: Kênh AE1 bơm Cl- ra ngoài huyết tương để kéo HCO3- từ huyết tương trở lại vào hồng cầu tạo H2CO3; CA phân giải tạo CO2 khuếch tán ra phế nang.",
+        "Biến đổi thể tích tại phổi — Mất Cl- kéo theo nước thoát ra ngoài làm hồng cầu co nhỏ trở lại kích thước bình thường."
+    ],
+    "Hiện tượng Hamburger cho phép huyết tương đảm nhiệm việc chuyên chở phần lớn lượng CO2 dưới dạng đệm kiềm HCO3- mà không làm thay đổi pH của tế bào hồng cầu."
+))
+
+cards.append(make_card(
+    "HS16-B1-08", "Hiệu ứng Bohr vs Hiệu ứng Haldane", "ĐIỀU HÒA ĐỐI ỨNG",
+    "Phân biệt bản chất sinh học và vị trí diễn ra giữa Hiệu ứng Bohr và Hiệu ứng Haldane?",
+    [
+        "Hiệu ứng Bohr — Tác động của [H+] và pCO2 lên ái lực của Hemoglobin với OXY. Diễn ra chủ yếu tại MÔ NGOẠI VI: Mô chuyển hóa tạo nhiều H+ và CO2 làm ổn định cấu hình T → thúc đẩy Hemoglobin nhả O2 cho mô.",
+        "Hiệu ứng Haldane — Tác động của Oxy (pO2) lên ái lực của Hemoglobin với CO2 và H+. Diễn ra chủ yếu tại MAO MẠCH PHỔI: Phân áp O2 phế nang cao kích thích O2 gắn vào Hemoglobin chuyển sang cấu hình R → đẩy H+ và CO2 ra khỏi Hemoglobin để đào thải ra ngoài phế nang.",
+        "Mối quan hệ tương hỗ — Hiệu ứng Bohr giúp mô nhận được nhiều oxy; Hiệu ứng Haldane giúp phổi đào thải CO2 nhanh gấp đôi bình thường."
+    ],
+    "Nói một cách ngắn gọn: Hiệu ứng Bohr mô tả việc CO2/H+ đuổi Oxy ra khỏi Hb tại mô; Hiệu ứng Haldane mô tả việc Oxy đuổi CO2/H+ ra khỏi Hb tại phổi."
+))
+
+cards.append(make_card(
+    "HS16-B1-09", "Enzyme Carbonic Anhydrase (CA)", "ENZYME HÔ HẤP",
+    "Cấu trúc tâm xúc tác và vai trò sinh lý của Enzyme Carbonic Anhydrase (CA-II) trong cơ thể?",
+    [
+        "Tâm xúc tác ion Kẽm (Zn2+) — Ion Zn2+ nằm tại đáy khe hở xúc tác phối trí với 3 gốc Histidin, kích hoạt một phân tử nước tạo nhóm nucleophil Zn2+-OH- cực mạnh tấn công phân tử CO2.",
+        "Tốc độ xúc tác khủng khiếp — Là một trong những enzyme có vận tốc quay vòng nhanh nhất sinh học (kcat ~ 10^6 phản ứng mỗi giây), đạt giới hạn tốc độ khuếch tán vật lý.",
+        "Phản ứng hai chiều thuận nghịch — Xúc tác phản ứng: CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3-.",
+        "Vị trí phân bố và ứng dụng dược lý — Có nhiều ở hồng cầu (CA-II) và ống lượn gần thận (CA-II nội bào và CA-IV màng đỉnh); Thuốc ức chế CA Acetazolamide gây bài tiết HCO3- và nước tiểu kiềm, dùng hạ nhãn áp và chống say độ cao (Acute Mountain Sickness)."
+    ],
+    "Nếu không có enzyme Carbonic Anhydrase, phản ứng hòa tan CO2 tạo acid carbonic trong máu sẽ diễn ra quá chậm chạp, không thể đáp ứng nổi nhu cầu đào thải 15.000 mmol acid bay hơi mỗi ngày."
+))
+
+cards.append(make_card(
+    "HS16-B1-10", "Ngộ độc Khí Carbon Monoxide (CO)", "ĐỘC CHẤT HỌC",
+    "Cơ chế phân tử gây thiếu oxy mô kép của Khí Carbon Monoxide (CO) đối với phân tử Hemoglobin?",
+    [
+        "Ái lực áp đảo với Fe2+ — Khí CO gắn vào vị trí gắn oxy trên Hemoglobin với ái lực cao gấp 200 đến 250 lần so với oxy, tạo thành Carboxyhemoglobin (COHb) bền vững.",
+        "Cơ chế 1 - Chiếm chỗ cạnh tranh — Chỉ cần một lượng rất nhỏ CO trong không khí hít vào cũng chiếm chỗ của oxy, làm giảm nghiêm trọng số lượng vị trí gắn oxy khả dụng của máu.",
+        "Cơ chế 2 - Khóa cấu hình R gây dịch TRÁI đường cong — Khi CO gắn vào 1 hoặc 2 vị trí trên tetramer, nó làm phân tử Hemoglobin chuyển hẳn sang cấu hình R (Relaxed) → làm các vị trí còn lại giữ chặt oxy không chịu nhả cho mô tại mao mạch.",
+        "Hậu quả kép — Vừa làm giảm dung tích chuyên chở oxy vừa làm đường cong phân ly dịch mạnh sang trái khiến mô bị ngạt oxy tế bào sâu sắc.",
+        "Xử trí cấp cứu — Thở oxy 100% qua mặt nạ có túi khí (rút ngắn thời gian bán hủy của COHb từ 320 phút xuống 80 phút) hoặc Liệu pháp Oxy cao áp (Hyperbaric Oxygen HBO rút ngắn bán hủy xuống 20 phút)."
+    ],
+    "Bệnh nhân ngộ độc CO thường có da niêm mạc màu 'đỏ quả anh đào' (cherry-red) và chỉ số đo SpO2 bằng kẹp mạch nảy ngón tay bị sai số dương giả tạo (máy không phân biệt được OxyHb và COHb)."
+))
+
+# ==============================================================================
+# B2: CÁC HỆ THỐNG ĐỆM SINH HỌC TRONG CƠ THỂ (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B2-01", "Phương trình Henderson-Hasselbalch", "HÓA LÝ ĐỆM",
+    "Nguyên lý hoạt động của một hệ thống đệm và Phương trình Henderson-Hasselbalch?",
+    [
+        "Định nghĩa hệ đệm — Dung dịch chứa một acid yếu (HA) và bazo liên hợp của nó (A-), có khả năng chống lại sự biến đổi nồng độ ion H+ (giữ pH ổn định) khi thêm một lượng acid hoặc bazo mạnh.",
+        "Phương trình Henderson-Hasselbalch — pH = pKa + log([A-] / [HA]), trong đó pKa là hằng số phân ly của acid yếu.",
+        "Khoảng đệm hiệu quả tối ưu — Hệ đệm hoạt động mạnh mẽ nhất ở vùng pH = pKa ± 1.0 (khi [A-] = [HA] thì pH = pKa và khả năng đệm đạt cực đại).",
+        "Khả năng đệm (Buffer Capacity) — Phụ thuộc vào hai yếu tố: (1) Độ gần của pKa hệ đệm so với pH môi trường; (2) Tổng nồng độ tuyệt đối của các thành phần đệm trong dung dịch."
+    ],
+    "Nguyên lý đệm là tuyến phòng thủ đầu tiên diễn ra tức thì trong vòng vài phần nghìn giây để trung hòa acid hoặc kiềm trước khi phổi và thận kịp thời điều hòa."
+))
+
+cards.append(make_card(
+    "HS16-B2-02", "Hệ Đệm Bicarbonat (H2CO3 / HCO3-)", "HỆ ĐỆM CHỦ LỰC",
+    "Tại sao Hệ đệm Bicarbonat có pKa = 6.1 (khá xa pH sinh lý 7.4) nhưng lại là Hệ đệm quyền lực nhất của dịch ngoại bào?",
+    [
+        "Nồng độ phân tử rất dồi dào — Nồng độ ion HCO3- trong dịch ngoại bào rất cao (24 mmol/L) so với nồng độ H2CO3 hòa tan (1.2 mmol/L).",
+        "Tỷ lệ vàng 20:1 — Ở pH sinh lý 7.4: log([HCO3-] / [H2CO3]) = 7.4 - 6.1 = 1.3 → tỷ số [HCO3-] / [H2CO3] = 20 / 1.",
+        "Bản chất của một Hệ thống đệm MỞ (Open Buffer System) — Khác với các hệ đệm kín trong ống nghiệm, hệ đệm Bicarbonat liên kết mở với môi trường bên ngoài:",
+        "   - Thành phần acid (CO2/H2CO3) được điều hòa thông khí độc lập bởi PHỔI (thải CO2 trong vài phút).",
+        "   - Thành phần bazo (HCO3-) được tái hấp thu và sinh mới độc lập bởi THẬN (trong vài ngày).",
+        "Khả năng đệm vô hạn — Khi H+ tăng, nó kết hợp HCO3- tạo CO2 được phổi thở bay ra ngoài ngay lập tức, ngăn cản phản ứng bị dồn ứ dừng lại."
+    ],
+    "Sự kết hợp giữa một hệ đệm mở và hai cơ quan chấp hành Phổi - Thận biến hệ đệm Bicarbonat thành trụ cột số 1 bảo vệ thăng bằng toan kiềm của toàn bộ cơ thể."
+))
+
+cards.append(make_card(
+    "HS16-B2-03", "Hệ Đệm Hemoglobin", "HỆ ĐỆM NỘI BÀO",
+    "Cơ chế phân tử giúp Hemoglobin trở thành Hệ đệm nội bào quan trọng nhất trong máu toàn phần?",
+    [
+        "Giàu gốc Histidin có pKa tối ưu — Phân tử Hemoglobin chứa tới 38 gốc acid amin Histidin; vòng imidazole của Histidin có hằng số pKa xấp xỉ 6.8, rất gần với pH sinh lý nội bào 7.2.",
+        "Độ phong phú trong máu — Nồng độ Hemoglobin trong máu rất cao (150 g/L), tạo nên dung lượng đệm protein khổng lồ (đảm nhiệm tới 80% khả năng đệm không phải bicarbonat của máu).",
+        "Hiệu ứng đệm vượt trội của Deoxyhemoglobin — Khi Hemoglobin nhả O2 tại mô, cấu hình khử Deoxyhemoglobin có tính kiềm mạnh hơn Oxyhemoglobin (pKa của DeoxyHb là 7.9 so với 6.7 của OxyHb).",
+        "Bắt giữ trọn vẹn proton H+ — Deoxyhemoglobin lập tức bắt giữ ion H+ vừa sinh ra từ phản ứng Carbonic Anhydrase mà hầu như không làm thay đổi pH của máu tĩnh mạch."
+    ],
+    "Khả năng đệm của Hemoglobin tăng lên đúng vào thời điểm nó đến mô ngoại vi nhả oxy, tạo nên một sự phối hợp hoàn hảo giữa chức năng vận chuyển khí và chức năng đệm acid-base."
+))
+
+cards.append(make_card(
+    "HS16-B2-04", "Hệ Đệm Phosphat (H2PO4- / HPO4 2-)", "HỆ ĐỆM ỐNG THẬN",
+    "Vị trí phân bố và vai trò sinh học của Hệ đệm Phosphat vô cơ trong cơ thể?",
+    [
+        "Cặp đệm acid - bazo liên hợp — Gồm acid yếu H2PO4- (Dihydrogen phosphat) và bazo liên hợp HPO4 2- (Monohydrogen phosphat).",
+        "Hằng số pKa lý tưởng — pKa = 6.8 rất gần với pH sinh lý nội bào (pH 7.0 - 7.2), giúp hệ đệm đạt hiệu suất đệm hóa học tối đa.",
+        "Hệ đệm chủ lực trong dịch nội bào (ICF) — Nồng độ phosphat hữu cơ và vô cơ trong tế bào rất cao, là hệ đệm hóa học chính chống toan hóa nội bào.",
+        "Hệ đệm chính trong lòng ống thận (Acid chuẩn độ) — Nước tiểu được cô đặc làm nồng độ phosphat tăng cao; HPO4 2- bắt giữ ion H+ bài tiết từ tế bào ống thận tạo H2PO4- đào thải ra ngoài, cho phép thận thải lượng lớn acid mà pH nước tiểu không bị tụt quá giới hạn cho phép (pH tối thiểu 4.5)."
+    ],
+    "Trong dịch ngoại bào, nồng độ phosphat vô cơ khá thấp (~1 mmol/L) nên đóng góp vào khả năng đệm ngoại bào rất nhỏ so với hệ đệm Bicarbonat."
+))
+
+cards.append(make_card(
+    "HS16-B2-05", "Hệ Đệm Protein Huyết tương", "HỆ ĐỆM NGOẠI BÀO",
+    "Cơ chế đệm lưỡng tính của Protein huyết tương (chủ yếu là Albumin)?",
+    [
+        "Tính chất phân tử lưỡng tính (Amphoteric) — Protein chứa cả nhóm mang tính acid (-COOH) và nhóm mang tính bazo (-NH2, gốc Histidin) trên cùng chuỗi polypeptide.",
+        "Khi môi trường bị toan hóa (pH giảm, [H+] tăng) — Các nhóm carboxylat (-COO-) và gốc imidazole bắt giữ ion H+ tạo thành -COOH và imidazolium.",
+        "Khi môi trường bị kiềm hóa (pH tăng, [H+] giảm) — Các nhóm -NH3+ và -COOH phân ly nhả ion H+ ra ngoài để trung hòa kiềm.",
+        "Vai trò của Albumin — Là protein dồi dào nhất huyết tương (40 g/L), chứa 16 gốc Histidin có khả năng đệm ở pH sinh lý, đảm nhiệm phần lớn dung lượng đệm protein dịch ngoại bào."
+    ],
+    "Nhiễm toan máu nặng làm H+ chiếm chỗ gắn trên phân tử Albumin, đẩy ion Calci tự do ra ngoài làm nồng độ Calci ion hóa (iCa) trong máu tăng lên."
+))
+
+cards.append(make_card(
+    "HS16-B2-06", "Nguồn gốc Acid trong Cơ thể", "CHUYỂN HÓA ACID",
+    "Phân biệt hai loại Acid sinh ra từ chuyển hóa cơ thể: Acid bay hơi (Volatile Acid) và Acid không bay hơi (Fixed / Non-volatile Acid)?",
+    [
+        "Acid bay hơi (Volatile Acid - H2CO3 / CO2) — Sinh ra từ quá trình oxy hóa hoàn toàn carbohydrate, lipid và protein trong chu trình Krebs; Lượng sinh ra khổng lồ: 13.000 đến 15.000 mmol CO2 mỗi ngày; Đào thải duy nhất qua đường PHỔI dưới dạng khí CO2.",
+        "Acid không bay hơi (Fixed Acid / Non-volatile Acid) — Sinh ra từ quá trình chuyển hóa protid (acid sulfuric từ methionin, cystein; acid phosphoric từ phosphoprotein, acid nucleic) và chuyển hóa yếm khí (acid lactic, acid beta-hydroxybutyric, acetoacetic).",
+        "Số lượng acid cố định — Khoảng 1 mmol/kg cân nặng/ngày (50 - 100 mmol H+/ngày ở người lớn); Hoàn toàn KHÔNG THỂ đào thải qua phổi, bắt buộc phải được đào thải qua THẬN.",
+        "Ý nghĩa lâm sàng — Suy hô hấp gây tích tụ acid bay hơi (toan hô hấp); Suy thận gây tích tụ acid không bay hơi (toan chuyển hóa)."
+    ],
+    "Chế độ ăn nhiều thịt động vật (chứa nhiều acid amin chứa lưu huỳnh) sinh ra nhiều acid cố định làm nước tiểu có tính toan; chế độ ăn chay nhiều rau quả sinh ra muối kiềm hữu cơ làm nước tiểu có tính kiềm."
+))
+
+cards.append(make_card(
+    "HS16-B2-07", "Điều hòa Hô hấp trong Thăng bằng Acid-Base", "ĐIỀU HÒA HÔ HẤP",
+    "Cơ chế thụ thể hóa học và động học đáp ứng bù trừ của Phổi đối với rối loạn toan kiềm?",
+    [
+        "Thụ thể hóa học trung ương (Central Chemoreceptors) — Định vị ở mặt bụng hành não, cực kỳ nhạy cảm với sự thay đổi nồng độ ion H+ trong dịch não tủy do CO2 khuếch tán qua hàng rào máu não tạo thành.",
+        "Thụ thể hóa học ngoại vi (Peripheral Chemoreceptors) — Định vị tại xoang cảnh và quai động mạch chủ, nhạy cảm với giảm PaO2, tăng PaCO2 và tăng trực tiếp [H+] máu động mạch.",
+        "Đáp ứng khi Toan chuyển hóa ([H+] tăng, pH giảm) — Kích thích trung tâm hô hấp tăng cả tần số và biên độ thở (kiểu thở Kussmaul sâu nhanh) → tăng đào thải CO2 → làm giảm PaCO2 đưa pH máu trở về gần bình thường.",
+        "Đáp ứng khi Kiềm chuyển hóa (pH tăng) — Ức chế trung tâm hô hấp làm thở nông chậm → giữ lại CO2 làm tăng PaCO2 bù trừ.",
+        "Động học đáp ứng — Khởi phát cực nhanh (trong vài phút), đạt mức bù trừ tối đa sau 12 đến 24 giờ."
+    ],
+    "Sự bù trừ hô hấp không bao giờ đưa pH trở về hoàn toàn bình thường 7.40, vì khi pH gần về bình thường thì chính động lực kích thích trung tâm hô hấp sẽ suy giảm."
+))
+
+cards.append(make_card(
+    "HS16-B2-08", "Tái hấp thu Bicarbonat tại Ống lượn gần", "ĐIỀU HÒA THẬN",
+    "Cơ chế phân tử của quá trình tái hấp thu 85 - 90% ion Bicarbonat (HCO3-) tại Ống lượn gần thận?",
+    [
+        "Bơm H+ qua màng đỉnh — Bơm trao đổi Na+/H+ (NHE3) và bơm H+-ATPase bài tiết H+ từ tế bào vào lòng ống thận.",
+        "Tạo CO2 nhờ Carbonic Anhydrase IV màng đỉnh — Trong lòng ống, H+ kết hợp với HCO3- lọc qua cầu thận tạo H2CO3; enzyme CA-IV gắn trên bờ bàn chải phân giải tức thì thành CO2 và H2O.",
+        "Khuếch tán CO2 vào tế bào — Khí CO2 khuếch tán tự do qua màng đỉnh vào trong bào tương tế bào ống lượn gần.",
+        "Tái tạo HCO3- nhờ CA-II nội bào — Enzyme CA-II bào tương hydrate hóa CO2 tái tạo H2CO3 phân ly thành H+ (được bơm NHE3 tái sử dụng) và HCO3-.",
+        "Vận chuyển HCO3- vào máu — Chất đồng vận Na+-HCO3- (NBCe1) ở màng đáy bên vận chuyển 3 HCO3- cùng 1 Na+ vào dịch kẽ hấp thu về tuần hoàn máu."
+    ],
+    "Mỗi phân tử HCO3- lọc qua cầu thận được tái hấp thu không phải là chính phân tử đó đi qua màng, mà được 'chuyển đổi' thành CO2 rồi tái sinh thành một phân tử HCO3- tương đương bên trong tế bào."
+))
+
+cards.append(make_card(
+    "HS16-B2-09", "Bài tiết Acid Chuẩn độ (Titratable Acid)", "ĐIỀU HÒA THẬN",
+    "Cơ chế phân tử của quá trình đào thải ion H+ dưới dạng Acid chuẩn độ tại Ống lượn xa và Ống góp?",
+    [
+        "Khái niệm Acid chuẩn độ — Lượng acid trong nước tiểu được đệm bởi các chất đệm không phải amoni (chủ yếu là hệ đệm Phosphat vô cơ HPO4 2-).",
+        "Cơ chế tại tế bào kẽ A (Intercalated cells type A) — Bơm H+-ATPase và bơm H+-K+-ATPase ở màng đỉnh chủ động bơm ion H+ ngược chiều gradient vào lòng ống nước tiểu.",
+        "Bắt giữ proton bởi Monohydrogen Phosphat — Ion H+ bài tiết gắn với HPO4 2- lọc qua cầu thận tạo thành Dihydrogen Phosphat (H2PO4-) đào thải ra nước tiểu.",
+        "Sinh mới phân tử Bicarbonat — Cứ mỗi ion H+ được bài tiết gắn vào phosphat thì bên trong tế bào tạo ra một phân tử HCO3- MỚI được kênh AE1 bơm qua màng đáy vào tuần hoàn máu.",
+        "Giới hạn dung lượng — Đào thải tối đa khoảng 20 đến 30 mmol H+/ngày, bị giới hạn bởi lượng phosphat lọc qua cầu thận."
+    ],
+    "Thuật ngữ 'Acid chuẩn độ' bắt nguồn từ kỹ thuật đo trong phòng thí nghiệm: là lượng dung dịch NaOH 0.1M cần dùng để chuẩn độ nước tiểu từ pH acid trở về pH sinh lý 7.4."
+))
+
+cards.append(make_card(
+    "HS16-B2-10", "Bài tiết Amoni (NH4+) tại Thận", "ĐIỀU HÒA THẬN",
+    "Cơ chế sinh tổng hợp và bài tiết ion Amoni (NH4+) từ Glutamine tại ống thận và khả năng thích ứng khi nhiễm toan?",
+    [
+        "Khử amin Glutamine tại ống lượn gần — Enzyme Glutaminase và Glutamate Dehydrogenase phân giải acid amin Glutamine tạo 2 ion NH4+ và 2 phân tử HCO3- mới.",
+        "Vận chuyển NH4+ vào lòng ống — NH4+ thay thế ion H+ trên bơm đối vận NHE3 để bài tiết vào lòng ống lượn gần.",
+        "Tái hấp thu và tích tụ tại tủy thận — NH4+ được tái hấp thu ở nhánh lên quai Henle (thay thế K+ trên kênh NKCC2) tạo nồng độ NH3/NH4+ rất cao ở mô kẽ tủy thận.",
+        "Bẫy ion tại ống góp (Ammonia trapping) — Khí NH3 khuếch tán qua màng tế bào kẽ A vào lòng ống góp acid kết hợp với H+ (do bơm H+-ATPase bài tiết) tạo thành ion NH4+ tích điện không thể khuếch tán ngược lại, bị 'bẫy' và đào thải theo nước tiểu.",
+        "Khả năng thích ứng khổng lồ — Bình thường bài tiết 30 - 50 mmol NH4+/ngày; khi toan máu mạn tính, enzyme Glutaminase tăng biểu hiện mạnh mẽ giúp bài xuất tới 300 - 500 mmol H+/ngày."
+    ],
+    "Sự sinh mới Bicarbonat từ chuyển hóa Glutamine kết hợp với đào thải NH4+ là vũ khí quyền lực tối thượng của thận để chống lại tình trạng toan chuyển hóa nặng kéo dài."
+))
+
+# ==============================================================================
+# B3: QUY TRÌNH PHÂN TÍCH KHÍ MÁU ĐỘNG MẠCH (ABG) (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B3-01", "Các Chỉ số Khí Máu Bình thường", "KHÍ MÁU ĐỘNG MẠCH",
+    "Nêu các giá trị tham chiếu sinh lý bình thường của xét nghiệm Khí máu động mạch (ABG) ở người trưởng thành?",
+    [
+        "pH máu động mạch — 7.35 đến 7.45 (mốc trung tâm chuẩn là 7.40; pH < 7.35 là Toan máu, pH > 7.45 là Kiềm máu).",
+        "Phân áp CO2 máu động mạch (PaCO2) — 35 đến 45 mmHg (mốc trung tâm chuẩn là 40 mmHg; đại diện cho thành phần Hô hấp).",
+        "Nồng độ Bicarbonat thực tế (HCO3-) — 22 đến 26 mmol/L (mốc trung tâm chuẩn là 24 mmol/L; đại diện cho thành phần Chuyển hóa).",
+        "Kiềm dư (Base Excess - BE) — -2 đến +2 mmol/L (phản ánh lượng kiềm dư thừa hoặc thiếu hụt để đưa 1 lít máu về pH 7.40 ở pCO2 40 mmHg).",
+        "Phân áp Oxy máu động mạch (PaO2) — 80 đến 100 mmHg ở khí trời (FiO2 21%).",
+        "Độ bão hòa Oxy máu động mạch (SaO2) — 95% đến 98%."
+    ],
+    "Giới hạn sinh tồn tối thiểu và tối đa của pH máu động mạch dao động từ 6.8 đến 7.8; vượt ra ngoài khoảng này các enzyme sinh học bị biến tính và ngừng tim tử vong."
+))
+
+cards.append(make_card(
+    "HS16-B3-02", "Quy trình 6 Bước Phân tích ABG", "KHÍ MÁU ĐỘNG MẠCH",
+    "Trình bày Quy trình 6 bước chuẩn mực tiếp cận đọc kết quả Khí máu động mạch (ABG)?",
+    [
+        "Bước 1 - Đánh giá Oxy hóa máu — Kiểm tra PaO2 và SaO2 để xác định mức độ suy hô hấp thiếu oxy máu (PaO2 < 60 mmHg là suy hô hấp cấp).",
+        "Bước 2 - Đánh giá Tình trạng Toan Kiềm theo pH — pH < 7.35 là Nhiễm toan (Acidemia); pH > 7.45 là Nhiễm kiềm (Alkalemia); pH 7.35 - 7.45 có thể bình thường hoặc rối loạn toan kiềm hỗn hợp tự triệt tiêu.",
+        "Bước 3 - Xác định Rối loạn Tiên phát (Hô hấp vs Chuyển hóa) — Đối chiếu hướng biến thiên của pH với PaCO2 và HCO3-.",
+        "Bước 4 - Đánh giá Mức độ Bù trừ kỳ vọng — Tính toán xem cơ quan bù trừ đã đáp ứng thích hợp hay có rối loạn thứ hai đi kèm (dùng công thức bù trừ).",
+        "Bước 5 - Tính Khoảng trống Anion (Anion Gap) — Bắt buộc tính AG ở mọi bệnh nhân toan chuyển hóa: AG = Na+ - (Cl- + HCO3-).",
+        "Bước 6 - Đánh giá Rối loạn Hỗn hợp qua Tỷ số Delta-Delta — Tính tỷ số Delta AG / Delta HCO3- để phát hiện các rối loạn toan kiềm hỗn hợp ẩn giấu."
+    ],
+    "Quy trình 6 bước đảm bảo bác sĩ không bao giờ bỏ sót các rối loạn toan kiềm phức tạp 2 hoặc 3 thành phần trên bệnh nhân hồi sức cấp cứu."
+))
+
+cards.append(make_card(
+    "HS16-B3-03", "Xác định Rối loạn Tiên phát", "KHÍ MÁU ĐỘNG MẠCH",
+    "Nguyên tắc xác định Rối loạn tiên phát dựa trên hướng biến đổi đồng chiều và ngược chiều giữa pH, PaCO2 và HCO3-?",
+    [
+        "Rối loạn Chuyển hóa (Biến đổi ĐỒNG CHIỀU): pH và thành phần chuyển hóa HCO3- biến đổi cùng chiều nhau:",
+        "   - Toan chuyển hóa tiên phát: pH giảm (< 7.35) đi kèm HCO3- giảm (< 22 mmol/L).",
+        "   - Kiềm chuyển hóa tiên phát: pH tăng (> 7.45) đi kèm HCO3- tăng (> 26 mmol/L).",
+        "Rối loạn Hô hấp (Biến đổi NGƯỢC CHIỀU): pH và thành phần hô hấp PaCO2 biến đổi ngược chiều nhau:",
+        "   - Toan hô hấp tiên phát: pH giảm (< 7.35) đi kèm PaCO2 tăng (> 45 mmHg).",
+        "   - Kiềm hô hấp tiên phát: pH tăng (> 7.45) đi kèm PaCO2 giảm (< 35 mmHg)."
+    ],
+    "Quy tắc vàng ghi nhớ nhanh: ROME (Respiratory Opposite, Metabolic Equal) — Hô hấp thì ngược chiều, Chuyển hóa thì cùng chiều."
+))
+
+cards.append(make_card(
+    "HS16-B3-04", "Công thức Winter trong Toan Chuyển hóa", "CÔNG THỨC BÙ TRỪ",
+    "Công thức Winter tính PaCO2 bù trừ kỳ vọng trong Toan chuyển hóa và cách biện luận rối loạn hô hấp đi kèm?",
+    [
+        "Công thức Winter chuẩn — PaCO2 kỳ vọng = (1.5 × [HCO3-]) + 8 ± 2 (với HCO3- tính bằng mmol/L).",
+        "Nhánh 1 - Bù trừ hô hấp thích hợp — PaCO2 thực tế đo được NẰM TRONG KHOẢNG kỳ vọng → Chẩn đoán: Toan chuyển hóa đơn thuần có bù trừ hô hấp.",
+        "Nhánh 2 - Toan hô hấp phối hợp — PaCO2 thực tế CAO HƠN khoảng kỳ vọng → Chẩn đoán: Toan chuyển hóa kết hợp TOAN HÔ HẤP (bệnh nhân bị ức chế thở, suy hô hấp không bù trừ nổi).",
+        "Nhánh 3 - Kiềm hô hấp phối hợp — PaCO2 thực tế THẤP HƠN khoảng kỳ vọng → Chẩn đoán: Toan chuyển hóa kết hợp KIỀM HÔ HẤP (bệnh nhân tăng thông khí quá mức do đau, sốt, nhiễm trùng huyết hoặc ngộ độc salicylate)."
+    ],
+    "Công thức Winter là công thức bắt buộc phải dùng trong mọi trường hợp toan chuyển hóa để phát hiện kịp thời tình trạng suy hô hấp giảm thông khí đi kèm."
+))
+
+cards.append(make_card(
+    "HS16-B3-05", "Bù trừ trong Kiềm Chuyển hóa", "CÔNG THỨC BÙ TRỪ",
+    "Quy tắc tính PaCO2 bù trừ kỳ vọng trong Kiềm chuyển hóa và giới hạn bù trừ tối đa của phổi?",
+    [
+        "Quy tắc bù trừ hô hấp — Khi nồng độ HCO3- tăng, phổi giảm thông khí giữ CO2 để kéo pH về bình thường. Cứ mỗi khi [HCO3-] tăng thêm 1.0 mmol/L trên 24, PaCO2 kỳ vọng sẽ tăng thêm khoảng 0.7 mmHg.",
+        "Công thức tính nhanh — PaCO2 kỳ vọng = 40 + 0.7 × ([HCO3-] - 24) ± 2. Hoặc ước tính: PaCO2 kỳ vọng ≈ [HCO3-] + 15.",
+        "Giới hạn bù trừ tối đa của phổi — Phổi không thể giảm thông khí vô hạn vì cơ thể sẽ bị thiếu oxy máu; PaCO2 tối đa mà phổi có thể giữ để bù trừ chỉ khoảng 55 đến 60 mmHg.",
+        "Biện luận kết quả — Nếu PaCO2 thực tế > khoảng kỳ vọng → Kiềm chuyển hóa phối hợp Toan hô hấp; Nếu PaCO2 < khoảng kỳ vọng → Kiềm chuyển hóa phối hợp Kiềm hô hấp."
+    ],
+    "Nếu bệnh nhân kiềm chuyển hóa có PaCO2 tăng trên 60 mmHg, chắc chắn có bệnh lý suy hô hấp hoặc bệnh phổi tắc nghẽn mạn tính (COPD) đi kèm."
+))
+
+cards.append(make_card(
+    "HS16-B3-06", "Bù trừ trong Toan Hô hấp Cấp vs Mãn", "CÔNG THỨC BÙ TRỪ",
+    "Quy tắc bù trừ nồng độ Bicarbonat của Thận trong Toan hô hấp Cấp tính vs Mãn tính?",
+    [
+        "Bản chất toan hô hấp — Tăng phân áp PaCO2 do giảm thông khí phế nang (COPD, ức chế thuốc phiện, nhược cơ).",
+        "Toan hô hấp CẤP TÍNH (Thận chưa kịp bù, chỉ có đệm tế bào) — Cứ mỗi khi PaCO2 tăng thêm 10 mmHg trên 40, nồng độ HCO3- chỉ tăng nhẹ 1.0 mmol/L (tỷ lệ 10 : 1). Delta [HCO3-] = 1 × (PaCO2 - 40) / 10.",
+        "Toan hô hấp MÃN TÍNH (Sau 3 - 5 ngày, thận đã tái hấp thu tối đa) — Cứ mỗi khi PaCO2 tăng thêm 10 mmHg trên 40, nồng độ HCO3- tăng mạnh tới 3.5 đến 4.0 mmol/L (tỷ lệ 10 : 4). Delta [HCO3-] = 3.5 × (PaCO2 - 40) / 10.",
+        "Ý nghĩa phân biệt lâm sàng — Giúp phân biệt đợt cấp tính của suy hô hấp mới xuất hiện hay tình trạng ứ trệ CO2 mạn tính ở bệnh nhân COPD lâu năm."
+    ],
+    "Bệnh nhân COPD giai đoạn nặng quen sống với PaCO2 60-70 mmHg có nồng độ HCO3- máu thường xuyên ở mức 32-36 mmol/L mà pH máu vẫn gần như bình thường."
+))
+
+cards.append(make_card(
+    "HS16-B3-07", "Bù trừ trong Kiềm Hô hấp Cấp vs Mãn", "CÔNG THỨC BÙ TRỪ",
+    "Quy tắc bù trừ nồng độ Bicarbonat của Thận trong Kiềm hô hấp Cấp tính vs Mãn tính?",
+    [
+        "Bản chất kiềm hô hấp — Giảm phân áp PaCO2 do tăng thông khí phế nang quá mức (cơn hoảng loạn, đau đớn, thở máy quá mức, ngộ độc salicylate giai đoạn đầu).",
+        "Kiềm hô hấp CẤP TÍNH (Đệm tế bào nhả H+) — Cứ mỗi khi PaCO2 giảm đi 10 mmHg dưới 40, nồng độ HCO3- giảm nhẹ 2.0 mmol/L (tỷ lệ 10 : 2). Delta [HCO3-] = 2 × (40 - PaCO2) / 10.",
+        "Kiềm hô hấp MÃN TÍNH (Thận giảm tái hấp thu HCO3-) — Cứ mỗi khi PaCO2 giảm đi 10 mmHg dưới 40, nồng độ HCO3- giảm mạnh từ 4.0 đến 5.0 mmol/L (tỷ lệ 10 : 5). Delta [HCO3-] = 5 × (40 - PaCO2) / 10.",
+        "Giới hạn bù trừ tối thiểu — Nồng độ HCO3- tối thiểu mà thận có thể hạ xuống để bù trừ kiềm hô hấp là khoảng 12 đến 14 mmol/L."
+    ],
+    "Phụ nữ mang thai bình thường có tình trạng kiềm hô hấp mãn tính nhẹ sinh lý (PaCO2 ~ 30 mmHg, HCO3- ~ 20 mmol/L) do hormone Progesterone kích thích trực tiếp trung tâm hô hấp."
+))
+
+cards.append(make_card(
+    "HS16-B3-08", "Khoảng trống Anion (Anion Gap)", "TOAN CHUYỂN HÓA",
+    "Ý nghĩa lâm sàng và Công thức tính Khoảng trống Anion (Anion Gap) hiệu chỉnh theo nồng độ Albumin máu?",
+    [
+        "Công thức tính chuẩn — Anion Gap (AG) = [Na+] - ([Cl-] + [HCO3-]). Giá trị bình thường là 8 đến 12 mmol/L.",
+        "Bản chất sinh học — Đại diện cho nồng độ các anion không đo được trong huyết tương, trong đó protein Albumin (tích điện âm) đóng góp tới 75 - 80% giá trị Anion Gap bình thường.",
+        "Sai số khi Hạ Albumin máu — Cứ mỗi khi Albumin máu giảm 10 g/L (hoặc 1 g/dL) dưới mức bình thường 40 g/L, giá trị Anion Gap sẽ bị tụt giảm giả tạo khoảng 2.5 mmol/L.",
+        "Công thức hiệu chỉnh Anion Gap (Figge-Jabor-Kazda) — AG hiệu chỉnh = AG tính toán + 0.25 × (40 - Albumin g/L). Hoặc theo đơn vị g/dL: AG hiệu chỉnh = AG tính + 2.5 × (4.0 - Albumin g/dL).",
+        "Ý nghĩa sống còn — Ở bệnh nhân sốc nhiễm khuẩn hoặc xơ gan nằm ICU có Albumin máu tụt nặng (20 g/L), AG tính toán ra 10 mmol/L (tưởng bình thường) nhưng AG hiệu chỉnh thực tế là 15 mmol/L (bỏ sót toan chuyển hóa tăng AG nặng)."
+    ],
+    "Luôn luôn phải hiệu chỉnh Anion Gap theo nồng độ Albumin máu ở tất cả các bệnh nhân hồi sức cấp cứu và bệnh nhân nặng."
+))
+
+cards.append(make_card(
+    "HS16-B3-09", "Tỷ số Delta-Delta (Delta AG / Delta HCO3-)", "TOAN KIỀM HỖN HỢP",
+    "Khái niệm, công thức tính và cách biện luận Tỷ số Delta-Delta (Delta Ratio) trong chẩn đoán rối loạn toan kiềm hỗn hợp?",
+    [
+        "Khái niệm Delta Ratio — Tỷ số so sánh giữa mức độ gia tăng của Khoảng trống Anion (Delta AG) so với mức độ sụt giảm của nồng độ Bicarbonat (Delta HCO3-).",
+        "Công thức tính toán — Delta Ratio = (AG bệnh nhân - 12) ÷ (24 - [HCO3-] bệnh nhân) = Delta AG ÷ Delta HCO3-.",
+        "Biện luận Tỷ số = 1.0 đến 2.0 — TOAN CHUYỂN HÓA TĂNG ANION GAP ĐƠN THUẦN (Cứ 1 phân tử acid lạ sinh ra sẽ trung hòa đúng 1 phân tử HCO3-).",
+        "Biện luận Tỷ số < 0.4 đến 0.8 — Phối hợp TOAN CHUYỂN HÓA ANION GAP BÌNH THƯỜNG (Mức tụt HCO3- sâu hơn nhiều so với mức tăng AG, chứng tỏ có mất trực tiếp HCO3- qua tiêu chảy hoặc toan hóa ống thận RTA).",
+        "Biện luận Tỷ số > 2.0 — Phối hợp KIỀM CHUYỂN HÓA (Mức tụt HCO3- ít hơn dự kiến, chứng tỏ có tình trạng kiềm chuyển hóa đi kèm do nôn mửa hoặc dùng lợi tiểu) hoặc có toan hô hấp mãn tính từ trước."
+    ],
+    "Tỷ số Delta-Delta là vũ khí phân tích tối thượng giúp bóc tách các rối loạn toan kiềm ẩn giấu phức tạp trong các bệnh cảnh ngộ độc hoặc hồi sức đa cơ quan."
+))
+
+cards.append(make_card(
+    "HS16-B3-10", "Chỉ số PaO2 / FiO2 và Phân độ ARDS", "HÔ HẤP HỒI SỨC",
+    "Ý nghĩa của Chỉ số oxy hóa máu PaO2 / FiO2 (Tỷ số P/F) và Tiêu chuẩn Berlin phân độ Hội chứng suy hô hấp cấp tiến triển (ARDS)?",
+    [
+        "Khái niệm Tỷ số P/F (Horowitz Index) — Tỷ số giữa phân áp oxy máu động mạch (PaO2 tính bằng mmHg) và phân số oxy khí hít vào (FiO2 tính bằng số thập phân từ 0.21 đến 1.0).",
+        "Giá trị bình thường ở người khỏe mạnh — P/F > 400 đến 500 mmHg (ví dụ thở khí trời PaO2 100 mmHg / FiO2 0.21 ≈ 476 mmHg).",
+        "Tiêu chuẩn Berlin phân độ ARDS (ở bệnh nhân thở máy có PEEP ≥ 5 cmH2O):",
+        "   - ARDS mức độ Nhẹ (Mild): P/F từ 201 đến 300 mmHg.",
+        "   - ARDS mức độ Vừa (Moderate): P/F từ 101 đến 200 mmHg.",
+        "   - ARDS mức độ Nặng (Severe): P/F ≤ 100 mmHg (tỷ lệ tử vong lên tới > 45%).",
+        "Ý nghĩa lâm sàng — Phản ánh chính xác mức độ tổn thương màng phế nang mao mạch và mức độ shunt phổi bất kể bệnh nhân đang thở oxy nồng độ bao nhiêu."
+    ],
+    "Chỉ số P/F giúp bác sĩ quyết định các chiến lược thông khí bảo vệ phổi nâng cao: thông khí nằm sấp (Prone positioning khi P/F < 150) hoặc chỉ định can thiệp ECMO (khi P/F < 80 kéo dài)."
+))
+
+# ==============================================================================
+# B4: ĐIỀU HÒA THĂNG BẰNG ACID - BASE CỦA PHỔI VÀ THẬN (10 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B4-01", "Kiểu thở Kussmaul", "LÂM SÀNG HÔ HẤP",
+    "Đặc điểm lâm sàng và cơ chế phân tử của Kiểu thở Kussmaul trong Toan chuyển hóa nặng?",
+    [
+        "Đặc điểm lâm sàng — Kiểu thở sâu, đều đặn, tần số nhanh, thở gắng sức rõ rệt nhưng không có tiếng rít hay tắc nghẽn đường thở, bệnh nhân trông như 'đói không khí'.",
+        "Cơ chế kích hoạt — Nồng độ ion H+ máu động mạch tăng cao kích thích thụ thể hóa học ngoại vi xoang cảnh và vượt hàng rào máu não kích thích thụ thể hóa học trung ương tại hành não.",
+        "Mục tiêu sinh lý — Tăng tối đa thông khí phút phế nang để 'thổi bay' khí CO2 ra khỏi cơ thể, hạ thấp PaCO2 máu nhằm bù trừ kéo pH về ngưỡng an toàn.",
+        "Gặp điển hình trong — Nhiễm toan ceton đái tháo đường (DKA), Toan Lactic nặng, Ngộ độc cồn Methanol, Suy thận urê huyết cao giai đoạn cuối."
+    ],
+    "Kiểu thở Kussmaul do bác sĩ người Đức Adolf Kussmaul mô tả năm 1874 ở các bệnh nhân đái tháo đường hôn mê giai đoạn sắp tử vong."
+))
+
+cards.append(make_card(
+    "HS16-B4-02", "Bẫy Ngừng thở trong Kiềm Chuyển hóa", "LÂM SÀNG HÔ HẤP",
+    "Tại sao sự bù trừ hô hấp trong Kiềm chuyển hóa nặng lại bị giới hạn và có thể gây nguy cơ Thiếu oxy máu?",
+    [
+        "Cơ chế bù trừ kiềm chuyển hóa — pH máu tăng ức chế trung tâm hô hấp làm giảm thông khí phút (thở nông và chậm) để giữ lại khí CO2 làm tăng PaCO2.",
+        "Xung đột giữa tín hiệu toan kiềm và tín hiệu oxy — Khi phổi giảm thông khí quá mức để giữ CO2, phân áp oxy phế nang và máu động mạch (PaO2) sẽ tụt dốc nhanh chóng.",
+        "Tín hiệu thiếu oxy máu đè bẹp tín hiệu kiềm — Khi PaO2 tụt xuống dưới 60 mmHg, thụ thể hóa học ngoại vi cảnh báo thiếu oxy sẽ bị kích hoạt dữ dội, bắt buộc trung tâm hô hấp phải thở trở lại để cứu oxy não, không cho phép giảm thông khí thêm nữa.",
+        "Giới hạn bù trừ tối đa — PaCO2 hiếm khi có thể tăng vượt quá 55 - 60 mmHg để bù trừ kiềm chuyển hóa đơn thuần.",
+        "Nguy cơ lâm sàng — Cố gắng bù trừ kiềm chuyển hóa nặng có thể đẩy bệnh nhân vào tình trạng thiếu oxy mô và ngừng thở ngạt."
+    ],
+    "Đây là lý do kiềm chuyển hóa nặng (pH > 7.55) là một cấp cứu nguy hiểm đòi hỏi điều trị tích cực bằng truyền dịch muối NaCl 0.9% hoặc thậm chí acid hóa máu."
+))
+
+cards.append(make_card(
+    "HS16-B4-03", "Cơ chế Tái hấp thu Bicarbonat tại Thận", "HÓA SINH THẬN",
+    "Các yếu tố điều hòa làm tăng hoặc giảm quá trình tái hấp thu Bicarbonat tại ống lượn gần?",
+    [
+        "Tăng PaCO2 máu động mạch — Tăng cung cấp cơ chất CO2 cho enzyme Carbonic Anhydrase tế bào ống thận → kích thích bài tiết H+ và tăng tái hấp thu HCO3- (cơ chế thận bù trừ toan hô hấp).",
+        "Giảm thể tích dịch ngoại bào ECF — Kích hoạt hệ RAAS tăng tiết Angiotensin II; Angiotensin II kích thích trực tiếp bơm NHE3 màng đỉnh làm tăng tái hấp thu HCO3- (giải thích tại sao mất nước duy trì kiềm chuyển hóa).",
+        "Hạ Kali máu — Tăng bài tiết H+ qua bơm H+-K+-ATPase và dịch chuyển H+ vào tế bào ống thận làm toan hóa nội bào kích thích tái hấp thu HCO3-.",
+        "Hormon Aldosteron — Kích thích bài tiết H+ tại ống lượn xa và ống góp, gián tiếp tăng sinh mới HCO3-.",
+        "Yếu tố ức chế — Tăng thể tích dịch ngoại bào ECF, thuốc ức chế Carbonic Anhydrase (Acetazolamide), tăng nồng độ ion Kali máu."
+    ],
+    "Bộ ba 'Giảm thể tích ECF + Hạ Kali máu + Cường Aldosteron' là thủ phạm kinh điển duy trì tình trạng Kiềm chuyển hóa dai dẳng (Maintenance of Metabolic Alkalosis)."
+))
+
+cards.append(make_card(
+    "HS16-B4-04", "Khoảng trống Anion Nước tiểu (Urine Anion Gap)", "CHẨN ĐOÁN THẬN",
+    "Công thức tính và ý nghĩa của Khoảng trống Anion Nước tiểu (Urine AG) trong chẩn đoán Toan chuyển hóa Anion Gap bình thường?",
+    [
+        "Công thức tính — Urine Anion Gap (UAG) = ([Na+ niệu] + [K+ niệu]) - [Cl- niệu].",
+        "Bản chất sinh học — Là chỉ số gián tiếp phản ánh khả năng bài tiết ion Amoni (NH4+) của thận (vì NH4+ trong nước tiểu luôn đồng hành với ion Cl- dưới dạng muối NH4Cl).",
+        "UAG ÂM TÍNH (UAG < 0, Cl- niệu > Na+ + K+) — Thận bài tiết một lượng rất lớn NH4Cl để chống toan; chứng tỏ ống thận hoàn toàn bình thường, nguyên nhân mất HCO3- nằm NGOÀI THẬN (kinh điển nhất là Tiêu chảy cấp).",
+        "UAG DƯƠNG TÍNH (UAG > 0, Cl- niệu < Na+ + K+) — Thận không thể bài tiết được NH4Cl tương xứng; chứng tỏ khiếm khuyết bài tiết acid nằm TẠI ỐNG THẬN (Toan hóa ống thận typ 1 xa hoặc suy thận)."
+    ],
+    "Urine Anion Gap là xét nghiệm đơn giản, rẻ tiền nhưng có giá trị định đoạt phân biệt nhanh giữa tiêu chảy mất kiềm và bệnh toan hóa ống thận RTA."
+))
+
+cards.append(make_card(
+    "HS16-B4-05", "Toan hóa Ống thận Typ 1 (RTA Typ 1)", "BỆNH HỌC THẬN",
+    "Cơ chế bệnh sinh phân tử và đặc điểm lâm sàng của Toan hóa Ống thận Typ 1 (Distal RTA)?",
+    [
+        "Khiếm khuyết phân tử — Đột biến gen bơm H+-ATPase hoặc kênh trao đổi anion AE1 (Band 3) ở màng tế bào kẽ A ống góp → mất hoàn toàn khả năng bài tiết ion H+ vào lòng ống nước tiểu.",
+        "Không thể acid hóa nước tiểu — pH nước tiểu luôn ở mức kiềm bất thường (pH niệu > 5.5) bất chấp cơ thể đang bị nhiễm toan chuyển hóa nặng nề.",
+        "Khoảng trống Anion nước tiểu DƯƠNG TÍNH — Giảm bài tiết NH4+ niệu.",
+        "Biến chứng kinh điển — Tăng thải Calci niệu và nước tiểu kiềm gây Lắng đọng Calci tủy thận (Nephrocalcinosis) và Sỏi thận Calci Phosphat tái phát nhiều lần.",
+        "Hạ Kali máu — Điện thế lòng ống âm tính kéo K+ đào thải qua kênh ROMK gây hạ kali máu phối hợp."
+    ],
+    "Đặc trưng số 1 của RTA typ 1 là: 'Máu thì toan mà nước tiểu thì không bao giờ toan hóa được (pH luôn > 5.5)'."
+))
+
+cards.append(make_card(
+    "HS16-B4-06", "Toan hóa Ống thận Typ 2 (RTA Typ 2)", "BỆNH HỌC THẬN",
+    "Cơ chế bệnh sinh phân tử và đặc điểm lâm sàng của Toan hóa Ống thận Typ 2 (Proximal RTA)?",
+    [
+        "Khiếm khuyết phân tử — Khiếm khuyết chất đồng vận Na+-HCO3- (NBCe1) hoặc enzyme Carbonic Anhydrase tại ống lượn gần → suy giảm khả năng tái hấp thu Bicarbonat (ngưỡng tái hấp thu HCO3- tụt từ 24 xuống 12 - 16 mmol/L).",
+        "Mất Bicarbonat qua nước tiểu ban đầu — Giai đoạn đầu HCO3- bị tràn ra nước tiểu làm pH niệu kiềm.",
+        "Khả năng toan hóa nước tiểu giai đoạn muộn — Khi nồng độ HCO3- máu tụt xuống dưới ngưỡng tái hấp thu mới (ví dụ < 15 mmol/L), toàn bộ HCO3- lọc qua đều được tái hấp thu hết → ống lượn xa bình thường vẫn có thể acid hóa nước tiểu (pH niệu có thể hạ được < 5.5).",
+        "Thường nằm trong Hội chứng Fanconi — Đi kèm mất tái hấp thu toàn bộ chất tan ở ống lượn gần: Đái ra đường (đường niệu bình thường đường huyết), Đái ra acid amin, Đái ra phosphat (gây còi xương, nhuyễn xương)."
+    ],
+    "Khác với Typ 1, RTA Typ 2 hiếm khi gây sỏi thận hay lắng đọng calci tủy thận vì nước tiểu vẫn có thể toan hóa và citrate niệu bình thường."
+))
+
+cards.append(make_card(
+    "HS16-B4-07", "Toan hóa Ống thận Typ 4 (RTA Typ 4)", "BỆNH HỌC THẬN",
+    "Cơ chế bệnh sinh phân tử và đặc điểm phân biệt duy nhất của Toan hóa Ống thận Typ 4?",
+    [
+        "Bản chất phân tử — Thiếu hụt bài tiết Aldosteron hoặc đề kháng Aldosteron tại tế bào chính ống góp thận (Hyporeninemic Hypoaldosteronism).",
+        "Đặc điểm phân biệt DUY NHẤT — Là thể RTA duy nhất đi kèm TĂNG KALI MÁU (trong khi Typ 1 và Typ 2 đều hạ Kali máu).",
+        "Cơ chế sinh toan máu — Thiếu aldosteron làm giảm hoạt tính kênh ENaC và bơm H+-ATPase; Tăng Kali máu ức chế enzyme tổng hợp amoni tại ống lượn gần làm giảm bài tiết NH4+.",
+        "Nguyên nhân thường gặp nhất — Bệnh thận đái tháo đường (Diabetic Nephropathy) gây xơ hóa phức hợp cận cầu thận giảm tiết renin; Tác dụng phụ của thuốc chẹn RAAS, Spironolactone, Bactrim (Trimethoprim).",
+        "Điều trị — Hạn chế kali, dùng thuốc lợi tiểu quai Furosemide hoặc hormone khoáng Fludrocortisone thay thế."
+    ],
+    "Câu hỏi thi kinh điển: 'Bệnh nhân đái tháo đường suy thận nhẹ có toan chuyển hóa kèm tăng Kali máu nghĩ tới thể RTA nào?' → Đáp án luôn là RTA Typ 4."
+))
+
+cards.append(make_card(
+    "HS16-B4-08", "Ngưỡng Thẩm thấu Tái hấp thu Bicarbonat", "SINH LÝ THẬN",
+    "Khái niệm Ngưỡng bài tiết Bicarbonat của Thận (Renal Bicarbonate Threshold) và hiện tượng tràn kiềm niệu?",
+    [
+        "Khái niệm ngưỡng tái hấp thu — Nồng độ Bicarbonat trong huyết tương mà tại đó toàn bộ lượng HCO3- lọc qua cầu thận được ống thận tái hấp thu 100%, không bị lọt ra nước tiểu.",
+        "Giá trị bình thường — Khoảng 24 đến 26 mmol/L.",
+        "Khi nồng độ HCO3- máu < 24 mmol/L — Toàn bộ HCO3- lọc qua cầu thận đều được thu hồi hoàn toàn về máu, nước tiểu hoàn toàn không có Bicarbonat, pH nước tiểu có tính acid.",
+        "Khi nồng độ HCO3- máu > 26 - 28 mmol/L — Vượt quá khả năng vận chuyển tối đa (Tm) của các chất mang tại ống lượn gần → lượng HCO3- dư thừa lập tức tràn ra nước tiểu làm nước tiểu bị kiềm hóa (pH niệu > 7.0 - 8.0).",
+        "Ứng dụng điều trị — Giải thích tại sao khi bù Natri Bicarbonat điều trị kiềm hóa nước tiểu (ngộ độc Aspirin, tan máu), chỉ cần nâng nhẹ HCO3- máu vượt ngưỡng 26 mmol/L là nước tiểu đã kiềm hóa thành công."
+    ],
+    "Thận người bình thường bài xuất kiềm dư thừa cực kỳ nhanh chóng và dễ dàng; do đó kiềm chuyển hóa chỉ có thể duy trì kéo dài khi có kèm suy giảm chức năng thận hoặc giảm thể tích ECF."
+))
+
+cards.append(make_card(
+    "HS16-B4-09", "Cơ chế Thở Kussmaul trong Toan Ceton ĐTĐ", "LÂM SÀNG NỘI TIẾT",
+    "Tại sao kiểu thở Kussmaul lại là cơ chế bù trừ sống còn nhưng có thể gây kiệt sức ở bệnh nhân Toan Ceton Đái tháo đường (DKA)?",
+    [
+        "Sản sinh ồ ạt Ketoacid — Thiếu hụt Insulin kích hoạt phân giải mỡ ồ ạt, gan tạo lượng lớn acid acetoacetic và acid beta-hydroxybutyric làm cạn kiệt nồng độ HCO3- máu (thường tụt xuống < 10 mmol/L).",
+        "Phản xạ thở sâu tối đa — Trung tâm hô hấp kích hoạt kiểu thở Kussmaul ép PaCO2 tụt sâu xuống mức 10 đến 15 mmHg để giữ pH máu không bị tụt dưới 7.10.",
+        "Công cơ thở khổng lồ — Kiểu thở sâu nhanh liên tục làm tăng công của các cơ hô hấp lên gấp 10-20 lần, tiêu tốn năng lượng khổng lồ.",
+        "Nguy cơ kiệt cơ hô hấp — Khi bệnh nhân bị kiệt sức mệt cơ hoặc dùng thuốc an thần làm PaCO2 tăng vọt trở lại mức bình thường (40 mmHg) → pH máu sẽ lập tức tụt xuống dưới 6.9 gây ngừng tim tử vong ngay lập tức."
+    ],
+    "Ở bệnh nhân DKA đang thở Kussmaul mà thấy thở chậm dần hoặc PaCO2 tăng lên là dấu hiệu tối nguy kịch báo trước kiệt cơ hô hấp đòi hỏi đặt nội khí quản hỗ trợ thở máy ngay."
+))
+
+cards.append(make_card(
+    "HS16-B4-10", "Khí máu ở Bệnh nhân Thở máy", "HỒI SỨC CẤP CỨU",
+    "Hai lỗi cài đặt máy thở thường gặp gây biến đổi Khí máu động mạch và cách xử trí?",
+    [
+        "Lỗi Tăng thông khí quá mức (Overventilation) — Cài đặt thể tích lưu thông (Vt) hoặc tần số thở quá cao → gây KIỀM HÔ HẤP CẤP TÍNH (PaCO2 < 30 mmHg, pH > 7.50).",
+        "Hậu quả kiềm hô hấp do máy thở — Gây co thắt mạch máu não làm thiếu máu não cục bộ, dịch chuyển ion Kali vào trong tế bào gây loạn nhịp tim và giảm Calci ion hóa gây co giật; Xử trí: Giảm tần số thở hoặc giảm Vt.",
+        "Lỗi Giảm thông khí (Underventilation) — Cài đặt Vt hoặc tần số quá thấp, hoặc tắc đờm ống nội khí quản → gây TOAN HÔ HẤP CẤP TÍNH (PaCO2 > 50 mmHg, pH < 7.30).",
+        "Hậu quả toan hô hấp — Giãn mạch não gây tăng áp lực nội sọ, ức chế co bóp cơ tim; Xử trí: Hút đờm thông thoáng khí đạo, tăng tần số thở hoặc tăng Vt."
+    ],
+    "Sau khi thay đổi bất kỳ thông số máy thở nào 30 phút, bắt buộc phải lấy lại khí máu động mạch để kiểm tra đáp ứng của bệnh nhân."
+))
+
+# ==============================================================================
+# B5: TOAN CHUYỂN HÓA VÀ KHOẢNG TRỐNG ANION (11 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B5-01", "Mnemonic GOLD MARK", "TOAN CHUYỂN HÓA",
+    "Nêu Mnemonic kinh điển GOLD MARK đại diện cho các nguyên nhân gây Toan chuyển hóa tăng Khoảng trống Anion (High Anion Gap Metabolic Acidosis)?",
+    [
+        "G - Glycols — Ethylene glycol (chất chống đông, tạo acid oxalic gây suy thận và acid glycolic gây toan).",
+        "O - Oxoproline (5-oxoproline / Pyroglutamic acid) — Do lạm dụng thuốc hạ sốt Paracetamol / Acetaminophen kéo dài ở phụ nữ suy dinh dưỡng.",
+        "L - L-Lactate — Toan Lactic typ A (thiếu oxy mô do sốc, ngừng tuần hoàn) hoặc typ B (suy gan, ung thư, Metformin).",
+        "D - D-Lactate — Toan do vi khuẩn đường ruột lên men ở bệnh nhân mắc hội chứng ruột ngắn (Short bowel syndrome).",
+        "M - Methanol — Cồn công nghiệp chuyển hóa thành Acid Formic gây mù mắt và toan máu nặng.",
+        "A - Aspirin (Salicylate) — Ngộ độc acid acetylsalicylic gây toan chuyển hóa tăng AG kết hợp kiềm hô hấp.",
+        "R - Renal Failure — Suy thận cấp hoặc mạn tính giai đoạn cuối (không đào thải được các acid cố định phosphat và sulfat).",
+        "K - Ketoacidosis — Nhiễm toan ceton: Đái tháo đường (DKA), Nghiện rượu (AKA) hoặc Đói ăn kéo dài (Starvation)."
+    ],
+    "Bảng chữ cái GOLD MARK hiện đại thay thế cho mnemonic cổ điển MUDPILES, bổ sung thêm các căn nguyên ngộ độc mới như Paracetamol và D-Lactate."
+))
+
+cards.append(make_card(
+    "HS16-B5-02", "Toan Lactic Typ A vs Typ B", "TOAN CHUYỂN HÓA",
+    "Phân biệt cơ chế bệnh sinh phân tử giữa Nhiễm toan Lactic Typ A và Typ B?",
+    [
+        "Nhiễm toan Lactic Typ A (Thiếu oxy mô rõ rệt - Phổ biến nhất) — Ty thể thiếu oxy ngừng chuỗi hô hấp tế bào; chu trình Krebs ngưng trệ làm tích tụ Pyruvate; enzyme Lactate Dehydrogenase (LDH) chuyển Pyruvate thành L-Lactate để tái sinh NAD+ cho đường phân duy trì sinh tồn.",
+        "Nguyên nhân Typ A — Sốc giảm thể tích, sốc tim, sốc nhiễm khuẩn nặng, ngừng tuần hoàn, thiếu máu cục bộ mạc treo ruột, ngộ độc CO.",
+        "Nhiễm toan Lactic Typ B (Không có bằng chứng thiếu oxy mô trên lâm sàng) — Rối loạn chức năng ty thể hoặc quá tải chuyển hóa:",
+        "   - Typ B1: Bệnh lý toàn thân tiềm ẩn (suy gan mất bù không thanh thải được lactate, ung thư bạch cầu lymphoma tăng đường phân hiếu khí hiệu ứng Warburg).",
+        "   - Typ B2: Do thuốc và độc chất (thuốc đái tháo đường Metformin ức chế phức hợp I ty thể, thuốc kháng virus NRTI, rượu cồn).",
+        "   - Typ B3: Bệnh lý chuyển hóa bẩm sinh (thiếu hụt enzyme pyruvate dehydrogenase, bệnh cơ ty thể mitochondrial myopathy)."
+    ],
+    "Nồng độ Lactate máu > 2.0 mmol/L là bất thường; nồng độ > 4.0 mmol/L trong sốc nhiễm khuẩn là chỉ dấu tiên lượng tỷ lệ tử vong tăng vọt đòi hỏi hồi sức dịch tích cực."
+))
+
+cards.append(make_card(
+    "HS16-B5-03", "Cơ chế Toan Chuyển hóa do Metformin", "DƯỢC LÝ ĐỘC CHẤT",
+    "Cơ chế phân tử của biến chứng Nhiễm toan Lactic do thuốc Metformin (MALA)?",
+    [
+        "Ức chế Phức hợp I ty thể — Metformin ức chế nhẹ Phức hợp I (NADH dehydrogenase) của chuỗi hô hấp tế bào ty thể tại gan.",
+        "Ức chế tân tạo đường từ Lactate — Tỷ số NADH/NAD+ tăng cao ức chế enzyme Pyruvate Carboxylase, chặn đứng con đường biến đổi Lactate thành Glucose tại gan.",
+        "Tích lũy nồng độ Metformin khi suy thận — Metformin được đào thải nguyên vẹn 100% qua thận; khi bệnh nhân bị suy thận cấp hoặc eGFR < 30 mL/phút, nồng độ Metformin trong máu tăng vọt gấp hàng chục lần.",
+        "Hậu quả — Ức chế ty thể diện rộng làm tế bào chuyển sang đường phân yếm khí, Lactate không được gan tiêu thụ tích tụ ồ ạt trong máu gây Toan Lactic nặng (tỷ lệ tử vong lên tới 30-50%).",
+        "Xử trí — Ngừng ngay Metformin, hồi sức dịch kiềm và Lọc máu thẩm tách cấp cứu (Hemodialysis) vừa để dọn sạch Lactate vừa lọc bỏ Metformin tự do ra khỏi máu."
+    ],
+    "Chống chỉ định tuyệt đối dùng Metformin khi eGFR < 30 mL/phút và bắt buộc tạm ngừng Metformin 48 giờ trước và sau khi chụp phim có tiêm thuốc cản quang tĩnh mạch."
+))
+
+cards.append(make_card(
+    "HS16-B5-04", "Ngộ độc Rượu Cồn Methanol", "ĐỘC CHẤT HỌC",
+    "Cơ chế chuyển hóa phân tử và tam chứng lâm sàng ngộ độc Cồn công nghiệp Methanol?",
+    [
+        "Chuyển hóa tạo Acid Formic độc tính — Methanol bị enzyme Alcohol Dehydrogenase (ADH) tại gan oxy hóa thành Formaldehyde, sau đó Aldehyde Dehydrogenase chuyển thành Acid Formic.",
+        "Ức chế hô hấp tế bào ty thể — Acid Formic ức chế mạnh mẽ enzyme Cytochrome c Oxidase (Phức hợp IV) của chuỗi hô hấp tế bào gây ngạt tế bào mô.",
+        "Gây toan chuyển hóa tăng AG nặng — Acid formic phân ly giải phóng lượng lớn proton H+ và anion format làm Anion Gap tăng rất cao và khoảng trống thẩm thấu tăng vọt.",
+        "Tổn thương thần kinh thị giác đặc hiệu — Acid formic phá hủy chọn lọc dây thần kinh thị giác và hạch nền não bộ (hoại tử bèo não Putamen necrosis), gây triệu chứng nhìn mờ 'nhìn như qua bão tuyết', sợ ánh sáng và mù lòa vĩnh viễn.",
+        "Tam chứng lâm sàng — Toan chuyển hóa tăng AG rất nặng + Nhìn mờ/mù mắt + Rối loạn tri giác hôn mê."
+    ],
+    "Thuốc giải độc đặc hiệu Fomepizole (hoặc Ethanol 40 độ uống) có ái lực với enzyme ADH cao gấp hàng nghìn lần so với Methanol, chiếm lấy enzyme không cho chuyển hóa Methanol thành acid formic độc."
+))
+
+cards.append(make_card(
+    "HS16-B5-05", "Ngộ độc Ethylene Glycol", "ĐỘC CHẤT HỌC",
+    "Cơ chế chuyển hóa phân tử và tổn thương thận đặc trưng trong ngộ độc Ethylene Glycol (Chất chống đông)?",
+    [
+        "Chuỗi chuyển hóa tạo độc chất — Ethylene glycol bị enzyme Alcohol Dehydrogenase chuyển hóa thành Glycolaldehyde → Acid Glycolic (gây toan máu nặng) → Acid Glyoxylic → Acid Oxalic.",
+        "Lắng đọng tinh thể Calci Oxalate tại thận — Acid Oxalic kết hợp với ion Calci tạo thành muối Calci Oxalate không tan, lắng đọng dày đặc hình phong bì/hình thoi trong lòng ống thận.",
+        "Gây Hoại tử ống thận cấp và Suy thận cấp — Tinh thể oxalate chọc thủng màng tế bào ống thận gây thiểu niệu, vô niệu và suy thận cấp đe dọa tử vong.",
+        "Hạ Calci máu cấp tính — Quá trình kết tủa oxalate rút cạn nồng độ Calci ion hóa trong máu, gây cơn co giật tetany và kéo dài khoảng QT.",
+        "Dấu hiệu cận lâm sàng vàng — Soi cặn nước tiểu thấy vô số tinh thể Calci Oxalate hình phong bì (Monohydrate/Dihydrate) dưới kính hiển vi ánh sáng phân cực."
+    ],
+    "Nước tiểu của bệnh nhân ngộ độc Ethylene glycol có thể phát huỳnh quang dưới đèn cực tím Wood (do các nhà sản xuất dung dịch chống đông pha thêm chất chỉ thị huỳnh quang Fluorescein)."
+))
+
+cards.append(make_card(
+    "HS16-B5-06", "Toan Chuyển hóa Anion Gap Bình thường", "TOAN CHUYỂN HÓA",
+    "Cơ chế và hai nhóm nguyên nhân chính gây Toan chuyển hóa Anion Gap bình thường (Toan tăng Clo máu)?",
+    [
+        "Bản chất cơ chế — Không có sự xuất hiện của acid lạ; nồng độ HCO3- máu bị mất ra ngoài trực tiếp và được bù trừ bằng sự gia tăng tương đương của ion Cl- để giữ trung hòa điện tích ([Na+] - [Cl-] - [HCO3-] không đổi = 8 - 12 mmol/L).",
+        "Nhóm 1 - Mất Bicarbonat qua Đường Tiêu hóa (Urine Anion Gap ÂM TÍNH): Tiêu chảy mất nước cấp tính; Dẫn lưu dịch tụy, dịch mật hoặc mở thông ruột non (dịch tiêu hóa dưới dạ dày chứa lượng kiềm HCO3- rất lớn); Phẫu thuật nối niệu quản vào đại tràng sigma (Ureterosigmoidostomy).",
+        "Nhóm 2 - Khiếm khuyết tại Thận (Urine Anion Gap DƯƠNG TÍNH): Toan hóa ống thận (RTA typ 1, typ 2, typ 4); Thuốc ức chế Carbonic Anhydrase (Acetazolamide); Suy thận giai đoạn sớm.",
+        "Nguyên nhân truyền dịch — Truyền một lượng quá lớn dung dịch muối đẳng trương Natri Clorid 0.9% (chứa nồng độ Cl- cao 154 mmol/L) gây toan chuyển hóa tăng clo máu do pha loãng (Dilutional hyperchloremic acidosis)."
+    ],
+    "Dung dịch Ringer Lactate có nồng độ Cl- sinh lý hơn (109 mmol/L) và chứa đệm lactate nên ít gây toan tăng clo máu hơn so với muối NaCl 0.9% khi hồi sức dịch lượng lớn."
+))
+
+cards.append(make_card(
+    "HS16-B5-07", "Ngộ độc Thuốc Salicylate (Aspirin)", "ĐỘC CHẤT HỌC",
+    "Rối loạn toan kiềm hỗn hợp kinh điển và cơ chế phân tử trong Ngộ độc cấp thuốc Aspirin (Salicylate)?",
+    [
+        "Rối loạn hỗn hợp kinh điển — KIỀM HÔ HẤP KẾT HỢP VỚI TOAN CHUYỂN HÓA TĂNG ANION GAP.",
+        "Cơ chế Kiềm hô hấp giai đoạn sớm — Salicylate kích thích trực tiếp trung tâm hô hấp tại hành não làm tăng thông khí phút dữ dội, thổi bay khí CO2 (PaCO2 tụt sâu < 20-25 mmHg) tạo kiềm hô hấp.",
+        "Cơ chế Toan chuyển hóa tăng AG giai đoạn sau — Salicylate là chất giải cặp (uncoupler) quá trình oxy hóa phosphoryl hóa ty thể: ức chế chu trình Krebs và tích tụ acid hữu cơ (Lactate, Pyruvate, Ketoacids), đồng thời bản thân acid salicylic tích tụ đóng góp vào Anion Gap.",
+        "Hậu quả — Khí máu cho thấy pH máu có thể bình thường hoặc hơi kiềm/toan, nhưng PaCO2 tụt rất sâu và Anion Gap tăng cao vượt trội.",
+        "Xử trí kiềm hóa nước tiểu — Truyền Natri Bicarbonat để kiềm hóa nước tiểu (pH niệu > 7.5) giúp bẫy ion Salicylate dạng phân cực trong lòng ống thận làm tăng đào thải thuốc gấp 10-20 lần."
+    ],
+    "Dấu hiệu lâm sàng sớm đặc trưng của ngộ độc Aspirin là ù tai (tinnitus), chóng mặt, thở nhanh sâu và sốt cao do năng lượng ty thể bị giải phóng thành nhiệt."
+))
+
+cards.append(make_card(
+    "HS16-B5-08", "Toan Ceton do Rượu (AKA)", "BỆNH HỌC PHÂN TỬ",
+    "Cơ chế bệnh sinh phân tử của Nhiễm toan Ceton do Rượu (Alcoholic Ketoacidosis - AKA)?",
+    [
+        "Bối cảnh lâm sàng — Người nghiện rượu nặng uống triền miên nhiều ngày, sau đó nhịn ăn đói do nôn mửa và đau dạ dày cấp.",
+        "Tỷ số NADH/NAD+ tăng vọt — Quá trình chuyển hóa Ethanol tại gan bởi enzyme ADH và ALDH tạo lượng khổng lồ NADH, làm cạn kiệt nguồn NAD+ nội bào.",
+        "Ức chế tân tạo đường và cạn Glycogen — Tỷ số NADH cao làm ngưng trệ tân tạo đường, dự trữ glycogen cạn kiệt → nồng độ Insulin máu giảm sút nghiêm trọng, các hormone đối kháng (Glucagon, Cortisol, Epinephrine) tăng vọt.",
+        "Sinh thể Ceton ồ ạt ưu thế Beta-Hydroxybutyrate — Tăng ly giải mỡ tạo thể ceton; nồng độ NADH cao ép toàn bộ Acetoacetate chuyển thành Beta-Hydroxybutyrate.",
+        "Bẫy xét nghiệm — Que thử ceton nước tiểu (phản ứng Nitroprusside chỉ nhận diện Acetoacetate) có thể cho kết quả ÂM TÍNH GIẢ TẠO hoặc dương tính rất yếu dù nồng độ thể ceton máu tăng cực cao."
+    ],
+    "Điều trị AKA chỉ cần truyền dịch mặn đẳng trương NaCl 0.9% kết hợp Glucose 5% và tiêm Thiamine (Vitamin B1); Glucose sẽ kích thích tiết insulin tự nhiên dập tắt sinh ceton mà không cần tiêm insulin ngoại sinh."
+))
+
+cards.append(make_card(
+    "HS16-B5-09", "Chỉ định Bù Natri Bicarbonat trong Toan Máu", "HỒI SỨC CẤP CỨU",
+    "Chỉ định chặt chẽ và các nguy cơ tai biến khi bù Natri Bicarbonat (NaHCO3) trong Toan chuyển hóa?",
+    [
+        "Chỉ định hạn chế nghiêm ngặt — Hầu hết các hướng dẫn hồi sức quốc tế CHỈ khuyến cáo bù NaHCO3 khi nhiễm toan chuyển hóa nặng đe dọa tính mạng: pH < 7.10 (hoặc pH < 7.20 kèm suy thận cấp nặng), [HCO3-] < 6 mmol/L.",
+        "Nguy cơ Toan hóa nội bào nghịch ngôn (Paradoxical intracellular acidosis) — NaHCO3 kết hợp H+ tạo nhiều CO2; CO2 là chất khí hòa tan khuếch tán qua màng tế bào vào trong tế bào nhanh hơn nhiều so với ion HCO3- → làm pH nội bào và dịch não tủy tụt sâu hơn.",
+        "Nguy cơ Hạ Kali máu và Hạ Calci ion hóa — Nâng pH máu làm dịch chuyển K+ vào tế bào gây loạn nhịp tim và tăng gắn Ca2+ vào albumin gây co giật tetany.",
+        "Quá tải dịch và tăng Natri máu — Dung dịch NaHCO3 8.4% rất ưu trương (2.000 mOsm/L), nạp nhiều muối gây tăng huyết áp, phù phổi cấp.",
+        "Làm đường cong HbO2 dịch trái — Làm Hemoglobin giữ chặt oxy không chịu nhả cho mô đang bị thiếu máu."
+    ],
+    "Nguyên tắc cốt tử: Điều trị toan chuyển hóa căn bản là điều trị NGUYÊN NHÂN GỐC (bù dịch trong sốc, insulin trong DKA, lọc máu trong suy thận), tuyệt đối không lạm dụng bù kiềm truyền thống."
+))
+
+cards.append(make_card(
+    "HS16-B5-10", "D-Lactic Acidosis", "BỆNH HỌC TIÊU HÓA",
+    "Cơ chế bệnh sinh và triệu chứng thần kinh đặc thù của Nhiễm toan D-Lactic (D-Lactic Acidosis)?",
+    [
+        "Bối cảnh lâm sàng — Xảy ra ở bệnh nhân có tiền sử phẫu thuật cắt ngắn ruột non (Hội chứng ruột ngắn - Short bowel syndrome) hoặc bắc cầu dạ dày ruột.",
+        "Vi khuẩn đường ruột lên men carbohydrate — Một lượng lớn tinh bột chưa tiêu hóa hết tràn xuống đại tràng; hệ vi khuẩn kỵ khí đại tràng lên men carbohydrate sinh ra đồng phân D-Lactate.",
+        "Con người không có enzyme D-LDH — Cơ thể người chỉ sở hữu enzyme L-Lactate Dehydrogenase chuyển hóa L-Lactate; phân tử D-Lactate không thể chuyển hóa bị hấp thu vào máu gây toan chuyển hóa tăng Anion Gap.",
+        "Bẫy xét nghiệm — Xét nghiệm định lượng Lactate máu thông thường tại bệnh viện CHỈ đo L-Lactate nên kết quả xét nghiệm Lactate hoàn toàn BÌNH THƯỜNG.",
+        "Triệu chứng thần kinh đặc trưng — Độc tính của D-Lactate lên não bộ gây lú lẫn từng đợt, nói lắp, thất điều dáng đi loạng choạng như người say rượu (say sau khi ăn bữa nhiều tinh bột)."
+    ],
+    "Chẩn đoán xác định đòi hỏi xét nghiệm sắc ký đặc hiệu định lượng D-Lactate; điều trị bằng chế độ ăn giảm tinh bột và kháng sinh đường ruột (Metronidazole) tiêu diệt vi khuẩn sinh D-lactate."
+))
+
+cards.append(make_card(
+    "HS16-B5-11", "Hội chứng Pyroglutamic Acidosis", "ĐỘC CHẤT HỌC",
+    "Cơ chế phân tử gây Toan chuyển hóa tăng Anion Gap do dùng Paracetamol kéo dài (5-Oxoprolinuria)?",
+    [
+        "Bối cảnh — Phụ nữ cao tuổi, suy dinh dưỡng, xơ gan hoặc suy thận dùng thuốc giảm đau Paracetamol (Acetaminophen) liều điều trị kéo dài liên tục.",
+        "Cạn kiệt Glutathione nội bào — Paracetamol chuyển hóa làm cạn kiệt kho dự trữ chất chống oxy hóa Glutathione tại gan.",
+        "Giải phóng ức chế ngược chu trình Gamma-Glutamyl — Bình thường Glutathione ức chế ngược enzyme gamma-glutamylcysteine synthetase; khi thiếu glutathione, enzyme này tăng hoạt tối đa tích tụ lượng lớn gamma-glutamylcysteine.",
+        "Tích lũy Acid 5-Oxoproline (Pyroglutamic acid) — Sản phẩm chuyển hóa phụ là 5-oxoproline không chuyển hóa kịp tràn vào máu gây toan chuyển hóa tăng Anion Gap nặng.",
+        "Xử trí — Ngừng ngay Paracetamol và truyền thuốc giải độc N-acetylcysteine (NAC) để phục hồi kho dự trữ glutathione nội bào."
+    ],
+    "Chữ O trong bảng mnemonic GOLD MARK chính là đại diện cho Oxoproline; luôn phải hỏi tiền sử dùng Paracetamol ở bệnh nhân toan máu tăng AG không rõ nguyên nhân."
+))
+
+# ==============================================================================
+# B6: RỐI LOẠN TOAN KIỀM HÔ HẤP VÀ TOAN KIỀM HỖN HỢP (11 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B6-01", "Toan Hô hấp Cấp tính", "TOAN HÔ HẤP",
+    "Nguyên nhân, biến đổi khí máu và cơ chế nguy kịch của Toan hô hấp Cấp tính (Acute Respiratory Acidosis)?",
+    [
+        "Bản chất cơ chế — Giảm thông khí phế nang đột ngột làm khí CO2 không đào thải được tích tụ ồ ạt trong máu, PaCO2 tăng vọt trong vài phút.",
+        "Nguyên nhân thường gặp — Quá liều thuốc ức chế hô hấp (Opioid morphin, Benzodiazepin); Ngừng tim ngừng thở; Co thắt phế quản cấp tính nặng (cơn hen phế quản ác tính); Dị vật đường thở; Chấn thương sọ não ức chế hành não; Liệt cơ hô hấp cấp (Hội chứng Guillain-Barré, Myasthenia gravis).",
+        "Biến đổi khí máu điển hình — pH máu tụt sâu (< 7.30), PaCO2 tăng cao (> 50-60 mmHg); Nồng độ HCO3- chỉ tăng nhẹ phản ứng đệm (tăng 1 mmol/L cho mỗi 10 mmHg PaCO2 tăng).",
+        "Triệu chứng thần kinh (Hôn mê do tăng CO2 - CO2 Narcosis) — Tăng CO2 máu gây giãn mạch não dữ dội, tăng áp lực nội sọ gây đau đầu, ngủ gà, lú lẫn, run vỗ cánh (asterixis), co giật và hôn mê sâu.",
+        "Xử trí cấp cứu — Hồi phục thông khí ngay lập tức: Giải tỏa đường thở, tiêm Naloxone (nếu quá liều opioid), thở máy không xâm nhập hoặc đặt nội khí quản thở máy xâm nhập."
+    ],
+    "Trong toan hô hấp cấp, bù Natri Bicarbonat là chống chỉ định vì chỉ làm tăng thêm nồng độ CO2 hòa tan; chìa khóa duy nhất cứu sống bệnh nhân là hỗ trợ thông khí cơ học."
+))
+
+cards.append(make_card(
+    "HS16-B6-02", "Toan Hô hấp Mãn tính (Bệnh Phổi Tắc nghẽn Mạn tính - COPD)", "TOAN HÔ HẤP",
+    "Đặc điểm thích ứng khí máu và cạm bẫy thở oxy liều cao ở bệnh nhân COPD có Toan hô hấp Mãn tính?",
+    [
+        "Thích ứng bù trừ của Thận — Bệnh nhân COPD ứ trệ CO2 kéo dài nhiều tháng; thận tăng tối đa tái hấp thu và sinh mới HCO3- (tăng 3.5 - 4.0 mmol/L cho mỗi 10 mmHg PaCO2 tăng) giúp đưa pH máu trở về gần bình thường (7.35 - 7.38) dù PaCO2 rất cao (55 - 70 mmHg).",
+        "Cơ chế ức chế trung tâm hô hấp khi thở oxy liều cao (Hypoxic Drive) — Trung tâm hô hấp của bệnh nhân COPD mạn tính đã trơ lì hoàn toàn với kích thích của CO2 cao; động lực duy nhất duy trì nhịp thở là tín hiệu Thiếu oxy máu (Hypoxemia) tác động lên thụ thể xoang cảnh.",
+        "Hậu quả khi cho thở Oxy nồng độ cao (FiO2 100%) — Xóa bỏ tín hiệu kích thích thiếu oxy máu → bệnh nhân thở chậm dần, giảm thông khí phế nang nghiêm trọng hơn → PaCO2 tăng vọt lên 90-100 mmHg gây hôn mê toan CO2 tử vong.",
+        "Nguyên tắc thở oxy an toàn cho bệnh nhân COPD — Chỉ cho thở oxy liều thấp có kiểm soát qua van Venturi (FiO2 24 - 28%) hoặc canula 1 - 2 Lít/phút với mục tiêu duy trì SpO2 từ 88% đến 92% (không nâng lên 98-100%)."
+    ],
+    "Mục tiêu SpO2 ở bệnh nhân đợt cấp COPD luôn là 88 - 92%, một nguyên tắc nằm lòng đối với mọi bác sĩ Hô hấp và Hồi sức cấp cứu."
+))
+
+cards.append(make_card(
+    "HS16-B6-03", "Kiềm Hô hấp Cấp tính", "KIỀM HÔ HẤP",
+    "Nguyên nhân, cơ chế triệu chứng tê bì bàn tay và co quắp trong Kiềm hô hấp Cấp tính (Hội chứng Tăng thông khí)?",
+    [
+        "Bản chất cơ chế — Tăng thông khí phế nang quá mức làm thổi bay khí CO2 ra khỏi cơ thể, PaCO2 tụt dốc nhanh chóng (< 30 mmHg), pH máu tăng cao (> 7.50).",
+        "Nguyên nhân thường gặp — Cơn hoảng loạn tâm lý (Panic attack, hội chứng tăng thông khí Hyperventilation); Đau đớn dữ dội; Thuyên tắc động mạch phổi cấp (PE); Thiếu oxy máu độ cao; Giai đoạn sớm của sốc nhiễm khuẩn hoặc ngộ độc Salicylate.",
+        "Cơ chế gây Hạ Calci ion hóa (iCa) — Khi pH máu tăng cao, các ion H+ phân ly rời khỏi phân tử Albumin; bề mặt Albumin tích điện âm tự do bộc lộ nhiều hơn sẽ bắt giữ và gắn chặt các ion Calci tự do trong máu làm nồng độ Calci ion hóa tụt giảm cấp tính.",
+        "Triệu chứng lâm sàng điển hình — Tê bì châm chích quanh miệng và các đầu ngón tay ngón chân (paresthesia), co thắt bàn tay bàn chân (dấu hiệu bàn tay người đỡ đẻ - Trousseau sign, tetany), chóng mặt ngất xỉu do co thắt mạch máu não.",
+        "Xử trí cơn tăng thông khí tâm lý — Trấn an người bệnh, hướng dẫn thở chậm theo nhịp, hít thở vào túi giấy kín (rebreathing) để hít lại lượng CO2 vừa thở ra giúp nâng nhanh PaCO2."
+    ],
+    "Bệnh nhân kiềm hô hấp cấp co quắp chân tay có nồng độ Calci toàn phần trong máu hoàn toàn bình thường, nhưng nồng độ Calci ion hóa tự do thì bị tụt sâu do bị Albumin bắt giữ."
+))
+
+cards.append(make_card(
+    "HS16-B6-04", "Kiềm Chuyển hóa Phụ thuộc Clo vs Kháng Clo", "KIỀM CHUYỂN HÓA",
+    "Phân loại Kiềm chuyển hóa dựa trên Nồng độ Clorid nước tiểu (Chloride-Responsive vs Chloride-Resistant)?",
+    [
+        "Thể Nhạy cảm với Clo / Phụ thuộc Clo (Chloride-Responsive: Cl- niệu < 15 - 20 mmol/L):",
+        "   - Cơ chế: Do mất dịch chứa Clo và giảm thể tích ECF (nôn mửa kéo dài, hút dịch dạ dày, dùng thuốc lợi tiểu quai/thiazide đã ngừng).",
+        "   - Thiếu hụt ion Cl- làm ống thận không thể tái hấp thu Cl- để bài tiết HCO3- qua kênh trao đổi Pendrin.",
+        "   - Điều trị: Đáp ứng ngoạn mục với bù dịch muối đẳng trương Natri Clorid 0.9% (cung cấp Cl- giúp thận thải bỏ HCO3-).",
+        "Thể Kháng Clo / Không phụ thuộc Clo (Chloride-Resistant: Cl- niệu > 20 - 25 mmol/L):",
+        "   - Cơ chế: Do tăng hoạt tính Mineralocorticoid độc lập (Hội chứng Conn cường aldosteron tiên phát, Hội chứng Cushing, hẹp động mạch thận, Hội chứng Bartter/Gitelman) hoặc Hạ Kali máu cực nặng.",
+        "   - Thể tích dịch ngoại bào thường bình thường hoặc tăng nhẹ, huyết áp thường tăng cao.",
+        "   - Điều trị: Không đáp ứng với truyền muối NaCl 0.9%; bắt buộc điều trị nguyên nhân nội tiết (thuốc Spironolactone, phẫu thuật u tuyến thượng thận, bù kali liều cao)."
+    ],
+    "Xét nghiệm nồng độ Clorid trong mẫu nước tiểu ngẫu nhiên là xét nghiệm phân loại số 1 để quyết định chiến lược truyền dịch trong kiềm chuyển hóa."
+))
+
+cards.append(make_card(
+    "HS16-B6-05", "Rối loạn Toan Kiềm Hỗn hợp 2 Thành phần", "TOAN KIỀM HỖN HỢP",
+    "Các dạng Rối loạn Toan Kiềm Hỗn hợp hai thành phần thường gặp trên lâm sàng?",
+    [
+        "Toan chuyển hóa + Toan hô hấp (Cực kỳ nguy kịch) — pH tụt sâu nghiêm trọng: Gặp trong Ngừng tuần hoàn ngừng thở (vừa toan lactic do thiếu oxy vừa toan hô hấp do ngừng thở); Phù phổi cấp nặng; Bệnh nhân COPD bị sốc nhiễm khuẩn.",
+        "Kiềm chuyển hóa + Kiềm hô hấp — pH tăng vọt rất cao: Gặp ở bệnh nhân xơ gan cổ trướng (kiềm hô hấp mạn) dùng thuốc lợi tiểu hoặc nôn mửa; Bệnh nhân hồi sức thở máy quá mức có dùng thuốc lợi tiểu.",
+        "Toan chuyển hóa + Kiềm hô hấp — pH có thể bình thường: Điển hình nhất trong Ngộ độc Salicylate cấp tính; Bệnh nhân Sốc nhiễm khuẩn (Toan lactic + Thở nhanh kiềm hô hấp).",
+        "Toan chuyển hóa + Kiềm chuyển hóa — pH có thể bình thường: Bệnh nhân Toan Ceton ĐTĐ (DKA) hoặc suy thận nhưng bị nôn ói nhiều ngày mất acid dịch vị dạ dày."
+    ],
+    "Khi thấy một bệnh nhân có pH máu hoàn toàn bình thường 7.40 nhưng PaCO2 và HCO3- biến đổi lệch xa khoảng sinh lý, chắc chắn có hai rối loạn toan kiềm đối kháng đang triệt tiêu lẫn nhau."
+))
+
+cards.append(make_card(
+    "HS16-B6-06", "Rối loạn Toan Kiềm Hỗn hợp 3 Thành phần", "TOAN KIỀM HỖN HỢP",
+    "Cơ chế và ví dụ lâm sàng kinh điển của Rối loạn Toan Kiềm Phức tạp Ba thành phần (Triple Acid-Base Disorder)?",
+    [
+        "Định nghĩa — Tình trạng bệnh nhân đồng thời mắc 3 rối loạn toan kiềm cùng một lúc (thường là: 1 rối loạn hô hấp + 2 rối loạn chuyển hóa đối kháng).",
+        "Ví dụ ca bệnh kinh điển — Bệnh nhân đái tháo đường cao tuổi có tiền sử Bệnh phổi tắc nghẽn mạn tính (COPD), nhập viện vì nôn mửa nhiều ngày và sốt cao nhiễm trùng huyết:",
+        "   - Thành phần 1: TOAN HÔ HẤP MÃN TÍNH do bệnh lý nền COPD ứ trệ khí CO2.",
+        "   - Thành phần 2: TOAN CHUYỂN HÓA TĂNG ANION GAP do sốc nhiễm khuẩn sinh toan Lactic và nhiễm toan ceton do đái tháo đường.",
+        "   - Thành phần 3: KIỀM CHUYỂN HÓA do nôn mửa nhiều ngày mất acid HCl dạ dày.",
+        "Cách nhận diện — Bắt buộc phải tính toán qua toàn bộ các bước: (1) Tính Anion Gap hiệu chỉnh; (2) Tính Tỷ số Delta-Delta; (3) Tính công thức bù trừ hô hấp kỳ vọng."
+    ],
+    "Không bao giờ có thể tồn tại đồng thời Toan hô hấp và Kiềm hô hấp trên cùng một bệnh nhân (vì một người không thể vừa thở quá nhanh vừa thở quá chậm cùng lúc)."
+))
+
+cards.append(make_card(
+    "HS16-B6-07", "Khoảng Trống Anion Nước tiểu (UAG) trong Tiêu chảy vs RTA", "CHẨN ĐOÁN THẬN",
+    "So sánh biến đổi điện giải nước tiểu và Urine Anion Gap giữa Tiêu chảy mất nước và Toan hóa ống thận typ 1?",
+    [
+        "Bệnh nhân Tiêu chảy cấp — Ống thận hoàn toàn khỏe mạnh; Thận tăng tối đa bài tiết H+ dưới dạng NH4Cl để bù trừ toan máu → Nồng độ Cl- niệu tăng rất cao vượt trội so với (Na+ + K+) niệu → Khoảng trống Anion nước tiểu UAG ÂM TÍNH (-20 đến -50 mmol/L).",
+        "Bệnh nhân Toan hóa ống thận typ 1 (Distal RTA) — Bơm H+ ống thận bị tổn thương không thể bài tiết H+ → không tổng hợp được NH4Cl nước tiểu → Cl- niệu thấp hơn (Na+ + K+) niệu → Khoảng trống Anion nước tiểu UAG DƯƠNG TÍNH (+10 đến +40 mmol/L).",
+        "pH nước tiểu — Tiêu chảy có pH niệu toan thích hợp (< 5.5); RTA typ 1 có pH niệu kiềm bất thường (> 5.5).",
+        "Ý nghĩa — Giúp bác sĩ cấp cứu khẳng định ngay lập tức vị trí mất Bicarbonat nằm ở đường tiêu hóa hay nằm tại ống thận."
+    ],
+    "Quy tắc vàng: UAG âm tính là nguyên nhân đường ruột; UAG dương tính là nguyên nhân ống thận."
+))
+
+cards.append(make_card(
+    "HS16-B6-08", "Toan Hô hấp sau Hồi sức Tim Phổi", "HỒI SỨC CẤP CỨU",
+    "Nguyên nhân và biến đổi khí máu sau Cấp cứu Ngừng tuần hoàn (Post-Cardiac Arrest Acidosis)?",
+    [
+        "Rối loạn toan kiềm kết hợp — TOAN CHUYỂN HÓA TĂNG ANION GAP NẶNG KẾT HỢP VỚI TOAN HÔ HẤP NẶNG.",
+        "Cơ chế sinh toan chuyển hóa — Ngừng tuần hoàn làm toàn bộ mô cơ thể bị thiếu oxy tuyệt đối, tế bào chuyển sang đường phân yếm khí sinh lượng khổng lồ Acid Lactic (Lactate máu thường > 10-15 mmol/L).",
+        "Cơ chế sinh toan hô hấp — Ngừng thở làm khí CO2 ứ đọng hoàn toàn trong máu (PaCO2 có thể tăng vọt > 70-80 mmHg).",
+        "Hậu quả — pH máu tụt sâu nghiêm trọng (< 6.9 - 7.0), gây ức chế co bóp cơ tim và giảm đáp ứng của thụ thể mạch máu với thuốc vận mạch Adrenalin.",
+        "Xử trí ưu tiên — Thông khí bóp bóng/thở máy hiệu quả để đào thải CO2 nhanh chóng, ép tim ngoài lồng ngực chất lượng cao để tái tưới máu giải phóng acid lactic, chỉ cân nhắc bù NaHCO3 khi toan máu trơ lì kéo dài."
+    ],
+    "Hồi phục thông khí phế nang hiệu quả là biện pháp hạ acid máu nhanh nhất và tự nhiên nhất trong những phút đầu sau cấp cứu ngừng tuần hoàn."
+))
+
+cards.append(make_card(
+    "HS16-B6-09", "Cơn Hen Phế quản Ác tính", "CẤP CỨU HÔ HẤP",
+    "Ý nghĩa báo động đỏ của một kết quả Khí máu động mạch 'bình thường' ở bệnh nhân Cơn hen phế quản ác tính?",
+    [
+        "Diễn biến khí máu giai đoạn sớm của cơn hen — Co thắt phế quản làm bệnh nhân khó thở và thở nhanh kích thích → khí máu cho thấy KIỀM HÔ HẤP (PaCO2 giảm < 35 mmHg, pH tăng).",
+        "Khi cơn hen tiến triển nặng kiệt cơ — Bệnh nhân mệt lả, tắc nghẽn phế quản nặng hơn làm thông khí phế nang giảm sút.",
+        "Ý nghĩa của PaCO2 'Bình thường' (PaCO2 = 40 mmHg) — Ở một người đang thở gắng sức co kéo cơ hô hấp dữ dội, PaCO2 trở về mức 40 mmHg KHÔNG PHẢI là dấu hiệu cải thiện, mà là DẤU HIỆU BÁO ĐỘNG ĐỎ bệnh nhân đã bắt đầu kiệt cơ hô hấp không thể bù trừ nổi.",
+        "Giai đoạn muộn tử vong — Nếu không can thiệp, PaCO2 sẽ tăng vọt (> 50 mmHg) và pH tụt dốc (Toan hô hấp mất bù) dẫn đến ngừng thở.",
+        "Hành động khẩn cấp — Chuẩn bị sẵn sàng dụng cụ đặt ống nội khí quản và thở máy xâm nhập ngay khi PaCO2 có xu hướng tăng."
+    ],
+    "Đây là câu hỏi bẫy lâm sàng kinh điển: 'Một bệnh nhân hen phế quản đang thở nhanh co kéo mà xét nghiệm PaCO2 = 40 mmHg thì thái độ là gì?' → Phải coi đây là dấu hiệu suy hô hấp tối nguy kịch."
+))
+
+cards.append(make_card(
+    "HS16-B6-10", "Hội chứng Milk-Alkali", "BỆNH HỌC THẬN",
+    "Cơ chế bệnh sinh tam chứng của Hội chứng Milk-Alkali (Hội chứng Burnett) do lạm dụng Calci và Thuốc kháng acid?",
+    [
+        "Nguyên nhân — Uống quá nhiều muối Calci Carbonat (để điều trị loãng xương hoặc tự điều trị đau dạ dày) kết hợp với các thuốc trung hòa acid kiềm hóa.",
+        "Tam chứng lâm sàng — Tăng Calci máu + Kiềm chuyển hóa + Suy giảm chức năng thận.",
+        "Cơ chế sinh kiềm chuyển hóa — Calci Carbonat cung cấp lượng lớn Bicarbonat vào máu; Tăng Calci máu làm co tiểu động mạch thận giảm mức lọc GFR và kích thích thụ thể CaSR ở quai Henle gây mất nước mất muối natri.",
+        "Duy trì kiềm hóa — Giảm thể tích máu kích thích ống lượn gần tăng tái hấp thu Bicarbonat, khóa chặt bệnh nhân trong tình trạng kiềm chuyển hóa dai dẳng.",
+        "Điều trị — Ngừng ngay các chế phẩm calci và thuốc kháng acid, truyền tĩnh mạch dung dịch Natri Clorid 0.9% để bù thể tích và kích thích thận đào thải calci."
+    ],
+    "Sự phổ biến của các chế phẩm bổ sung Calci không kê đơn đã đưa Hội chứng Milk-Alkali trở thành nguyên nhân gây tăng Calci máu nội trú phổ biến thứ 3 sau cường cận giáp và ung thư."
+))
+
+cards.append(make_card(
+    "HS16-B6-11", "Khí máu Dây rốn Sơ sinh", "SẢN KHOA VÀ SƠ SINH",
+    "Ý nghĩa của Xét nghiệm Khí máu động mạch rốn ngay sau sinh trong đánh giá Ngạt chu sinh (Perinatal Asphyxia)?",
+    [
+        "Mẫu thử chuẩn — Lấy máu từ Động mạch rốn (mang máu từ thai nhi trở về bánh rau) trước khi trẻ thở nhát đầu tiên.",
+        "Giá trị bình thường động mạch rốn — pH ≥ 7.20 đến 7.25; PaCO2 khoảng 45 - 55 mmHg; HCO3- khoảng 18 - 22 mmol/L; Base Deficit < 8 mmol/L.",
+        "Tiêu chuẩn chẩn đoán Ngạt sơ sinh chu sinh nặng — pH máu động mạch rốn < 7.00 VÀ Kiềm thiếu hụt (Base Deficit) ≥ 12 mmol/L.",
+        "Phân biệt Toan hô hấp vs Toan chuyển hóa thai nhi — Toan hô hấp (chèn ép dây rốn thoáng qua: pH < 7.20 nhưng BD bình thường < 8, PaCO2 tăng cao) tiên lượng tốt; Toan chuyển hóa (suy thai thiếu oxy kéo dài: pH < 7.00, BD ≥ 12, Lactate máu tăng vọt) nguy cơ tổn thương não bệnh não thiếu oxy thiếu máu cục bộ (HIE).",
+        "Chỉ định can thiệp — Là tiêu chuẩn bắt buộc để chỉ định Liệu pháp hạ thân nhiệt chủ động (Therapeutic Hypothermia) bảo vệ tế bào não trong 6 giờ đầu sau sinh."
+    ],
+    "Khí máu động mạch rốn là bằng chứng y pháp khách quan và chính xác nhất để đánh giá tình trạng suy thai thực sự trong chuyển dạ."
+))
+
+# ==============================================================================
+# B7: CÁC CA LÂM SÀNG KHÍ MÁU THỰC CHIẾN (9 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-B7-01", "Ca Lâm sàng 1 - Toan Ceton ĐTĐ (DKA)", "CA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.15, PaCO2 18 mmHg, HCO3- 6 mmol/L, Na+ 132 mmol/L, Cl- 94 mmol/L, Glucose 28 mmol/L. Chẩn đoán và biện luận?",
+    [
+        "Bước 1 (pH 7.15 < 7.35) — Nhiễm toan máu nặng (Acidemia).",
+        "Bước 2 (HCO3- 6 < 22 mmol/L đồng chiều với pH) — Rối loạn tiên phát là TOAN CHUYỂN HÓA.",
+        "Bước 3 (Bù trừ hô hấp theo công thức Winter) — PaCO2 kỳ vọng = (1.5 × 6) + 8 ± 2 = 17 ± 2 (15 - 19 mmHg). PaCO2 thực tế = 18 mmHg nằm trong khoảng kỳ vọng → Phổi bù trừ hô hấp thích hợp (thở Kussmaul).",
+        "Bước 4 (Tính Khoảng trống Anion) — AG = [Na+] - ([Cl-] + [HCO3-]) = 132 - (94 + 6) = 32 mmol/L (tăng rất cao > 12).",
+        "Bước 5 (Tính Tỷ số Delta-Delta) — Delta AG = 32 - 12 = 20; Delta HCO3- = 24 - 6 = 18. Tỷ số Delta AG / Delta HCO3- = 20 / 18 = 1.11 (nằm trong khoảng 1.0 - 2.0).",
+        "Chẩn đoán kết luận — TOAN CHUYỂN HÓA TĂNG ANION GAP ĐƠN THUẦN có bù trừ hô hấp thích hợp, nguyên nhân do Nhiễm toan Ceton đái tháo đường (DKA)."
+    ],
+    "Biện luận 5 bước chuẩn mực khẳng định bệnh nhân chỉ có một rối loạn toan chuyển hóa duy nhất do thể ceton, phổi bù trừ hoàn hảo và không có rối loạn thứ hai đi kèm."
+))
+
+cards.append(make_card(
+    "HS16-B7-02", "Ca Lâm sàng 2 - Ngộ độc Aspirin", "CA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.42, PaCO2 20 mmHg, HCO3- 13 mmol/L, Na+ 140 mmol/L, Cl- 101 mmol/L. Chẩn đoán và biện luận?",
+    [
+        "Bước 1 (pH 7.42 nằm trong khoảng 7.35 - 7.45) — pH bình thường nhưng PaCO2 và HCO3- biến đổi lệch xa chuẩn → Chắc chắn có RỐI LOẠN TOAN KIỀM HỖN HỢP tự triệt tiêu.",
+        "Bước 2 (Tính Khoảng trống Anion) — AG = 140 - (101 + 13) = 26 mmol/L (tăng rất cao > 12) → Khẳng định có TOAN CHUYỂN HÓA TĂNG ANION GAP.",
+        "Bước 3 (Tính bù trừ theo công thức Winter) — PaCO2 kỳ vọng = (1.5 × 13) + 8 ± 2 = 27.5 ± 2 (25.5 - 29.5 mmHg).",
+        "Bước 4 (Phát hiện rối loạn hô hấp phối hợp) — PaCO2 thực tế = 20 mmHg THẤP HƠN NHIỀU so với kỳ vọng (20 < 25.5 mmHg) → Bệnh nhân tăng thông khí độc lập gây KIỀM HÔ HẤP ĐI KÈM.",
+        "Chẩn đoán kết luận — RỐI LOẠN TOAN KIỀM HỖN HỢP: TOAN CHUYỂN HÓA TĂNG ANION GAP KẾT HỢP KIỀM HÔ HẤP, bệnh cảnh kinh điển của Ngộ độc cấp Salicylate (Aspirin)."
+    ],
+    "Nếu chỉ nhìn vào pH 7.42 bình thường mà kết luận bệnh nhân ổn là sai lầm chết người; phân tích AG và công thức Winter vạch trần hai rối loạn nặng nề cùng tồn tại."
+))
+
+cards.append(make_card(
+    "HS16-B7-03", "Ca Lâm sàng 3 - Sốc Nhiễm khuẩn Nôn mửa", "CA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.40, PaCO2 40 mmHg, HCO3- 24 mmol/L, Na+ 140 mmol/L, Cl- 86 mmol/L, Lactate 8 mmol/L. Chẩn đoán và biện luận?",
+    [
+        "Bước 1 (pH 7.40, PaCO2 40, HCO3- 24) — Thoạt nhìn toàn bộ các chỉ số khí máu kinh điển đều bình thường hoàn hảo.",
+        "Bước 2 (Tính Khoảng trống Anion) — AG = [Na+] - ([Cl-] + [HCO3-]) = 140 - (86 + 24) = 30 mmol/L (tăng cực cao > 12) → Bắt buộc có TOAN CHUYỂN HÓA TĂNG ANION GAP (do toan Lactic máu 8 mmol/L).",
+        "Bước 3 (Tính Tỷ số Delta-Delta) — Delta AG = 30 - 12 = 18; Delta HCO3- = 24 - 24 = 0. Tỷ số Delta AG / Delta HCO3- = 18 / 0 = Vô cùng lớn (> 2.0).",
+        "Bước 4 (Biện luận) — Đáng lẽ với lượng acid lactic sinh ra làm tăng AG thêm 18, nồng độ HCO3- phải tụt giảm tương ứng xuống còn 6 mmol/L; nhưng HCO3- thực tế vẫn là 24 mmol/L → chứng tỏ có một lượng kiềm ngoại lai rất lớn bù vào làm tăng HCO3- lên 18 mmol/L.",
+        "Chẩn đoán kết luận — RỐI LOẠN TOAN KIỀM HỖN HỢP: TOAN CHUYỂN HÓA TĂNG ANION GAP (DO SỐC NHIỄM KHUẨN) KẾT HỢP KIỀM CHUYỂN HÓA (DO NÔN MỬA MẤT ACID DẠ DÀY)."
+    ],
+    "Đây là ca bệnh kinh điển chứng minh sức mạnh của việc tính Anion Gap thường quy ở mọi bệnh nhân cấp cứu dù khí máu có vẻ 'bình thường'."
+))
+
+cards.append(make_card(
+    "HS16-B7-04", "Ca Lâm sàng 4 - Đợt cấp COPD", "CA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.28, PaCO2 70 mmHg, HCO3- 32 mmol/L. Chẩn đoán và phân biệt toan hô hấp cấp trên nền mãn?",
+    [
+        "Bước 1 (pH 7.28 < 7.35) — Nhiễm toan máu (Acidemia).",
+        "Bước 2 (PaCO2 70 > 45 mmHg ngược chiều với pH) — Rối loạn tiên phát là TOAN HÔ HẤP.",
+        "Bước 3 (Đánh giá mức độ bù trừ của thận) — PaCO2 tăng 30 mmHg trên 40:",
+        "   - Nếu Toan hô hấp CẤP THUẦN TÚY: HCO3- kỳ vọng = 24 + 1 × (70 - 40)/10 = 27 mmol/L.",
+        "   - Nếu Toan hô hấp MÃN THUẦN TÚY: HCO3- kỳ vọng = 24 + 3.5 × (70 - 40)/10 = 34.5 mmol/L.",
+        "Bước 4 (Biện luận) — Nồng độ HCO3- thực tế = 32 mmol/L nằm kẹp giữa khoảng cấp (27) và mãn (34.5) → Thận đã có thời gian bù trừ mãn tính từ trước, nhưng hiện tại có tình trạng ứ trệ CO2 cấp tính mới xuất hiện đè lên.",
+        "Chẩn đoán kết luận — ĐỢT CẤP TRÊN NỀN TOAN HÔ HẤP MÃN TÍNH (Acute-on-chronic respiratory acidosis) ở bệnh nhân đợt cấp COPD."
+    ],
+    "Phân tích mức độ bù trừ giúp bác sĩ phân biệt đợt cấp mới bùng phát của COPD với tình trạng suy hô hấp ổn định hàng ngày của người bệnh."
+))
+
+cards.append(make_card(
+    "HS16-B7-05", "Ca Lâm sàng 5 - Tiêu chảy Cấp Mất nước", "CA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.25, PaCO2 28 mmHg, HCO3- 12 mmol/L, Na+ 138 mmol/L, Cl- 114 mmol/L. Chẩn đoán và biện luận?",
+    [
+        "Bước 1 (pH 7.25 < 7.35) — Nhiễm toan máu (Acidemia).",
+        "Bước 2 (HCO3- 12 < 22 mmol/L cùng chiều với pH) — Rối loạn tiên phát là TOAN CHUYỂN HÓA.",
+        "Bước 3 (Bù trừ hô hấp theo Winter) — PaCO2 kỳ vọng = (1.5 × 12) + 8 ± 2 = 26 ± 2 (24 - 28 mmHg). PaCO2 thực tế = 28 mmHg nằm trong khoảng kỳ vọng → Phổi bù trừ hô hấp thích hợp.",
+        "Bước 4 (Tính Khoảng trống Anion) — AG = [Na+] - ([Cl-] + [HCO3-]) = 138 - (114 + 12) = 12 mmol/L (nằm trong giới hạn bình thường 8 - 12).",
+        "Chẩn đoán kết luận — TOAN CHUYỂN HÓA ANION GAP BÌNH THƯỜNG / TĂNG CLO MÁU (Normal Anion Gap / Hyperchloremic Metabolic Acidosis) có bù trừ hô hấp, nguyên nhân do mất dịch kiềm Bicarbonat qua Tiêu chảy cấp."
+    ],
+    "Nồng độ Cl- máu tăng cao (114 mmol/L) để lấp đầy khoảng trống điện tích do HCO3- bị mất qua phân, giữ cho Anion Gap hoàn toàn không đổi."
+))
+
+cards.append(make_card(
+    "HS16-B7-06", "Ca Lâm sàng 6 - Ngừng Tuần hoàn", "HỒI SỨC CẤP CỨU",
+    "Phân tích kết quả khí máu ABG: pH 6.90, PaCO2 75 mmHg, HCO3- 14 mmol/L, Lactate 16 mmol/L ở bệnh nhân sau ép tim ngừng tuần hoàn?",
+    [
+        "Bước 1 (pH 6.90 cực thấp) — Nhiễm toan máu tối nguy kịch đe dọa ngừng tim tái phát tức thì.",
+        "Bước 2 (Cả PaCO2 tăng 75 mmHg và HCO3- giảm 14 mmol/L) — Cả hai thành phần hô hấp và chuyển hóa đều biến đổi theo hướng gây toan nặng.",
+        "Thành phần 1: TOAN HÔ HẤP NẶNG do ngừng thở làm ứ trệ CO2 cấp tính.",
+        "Thành phần 2: TOAN CHUYỂN HÓA TĂNG ANION GAP NẶNG do thiếu oxy mô toàn thân giải phóng ồ ạt acid lactic (Lactate 16 mmol/L).",
+        "Chẩn đoán kết luận — RỐI LOẠN TOAN KIỀM HỖN HỢP HAI THÀNH PHẦN NGUY KỊCH: TOAN HÔ HẤP CẤP KẾT HỢP TOAN LACTIC NẶNG (Post-cardiac arrest acidosis).",
+        "Xử trí tối khẩn — Thông khí nhân tạo bóp bóng qua ống nội khí quản với tần số cao để tống khứ CO2, hồi sức tuần hoàn ép tim liên tục và tiêm Adrenalin tái lập tuần hoàn tự nhiên."
+    ],
+    "Sự kết hợp của cả hai cơ chế gây toan làm pH tụt dốc thảm hại, làm tê liệt hoàn toàn chức năng co bóp của cơ tim và dãn mạch toàn thân."
+))
+
+cards.append(make_card(
+    "HS16-B7-07", "Ca Lâm sàng 7 - Hẹp Môn vị Nôn nhiều", "TIÊU HÓA LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.55, PaCO2 48 mmHg, HCO3- 40 mmol/L, K+ 2.4 mmol/L, Cl- 80 mmol/L ở bệnh nhân hẹp môn vị nôn nhiều ngày?",
+    [
+        "Bước 1 (pH 7.55 > 7.45) — Nhiễm kiềm máu nặng (Alkalemia).",
+        "Bước 2 (HCO3- 40 > 26 mmol/L cùng chiều với pH) — Rối loạn tiên phát là KIỀM CHUYỂN HÓA.",
+        "Bước 3 (Bù trừ hô hấp) — PaCO2 kỳ vọng = 40 + 0.7 × (40 - 24) ± 2 = 51 ± 2 (49 - 53 mmHg). PaCO2 thực tế = 48 mmHg (thở chậm giữ CO2 bù trừ thích hợp).",
+        "Đặc điểm điện giải phối hợp — HẠ CLO MÁU NẶNG (Cl- 80 mmol/L) và HẠ KALI MÁU NẶNG (K+ 2.4 mmol/L) do nôn mất acid HCl dạ dày và thận tăng thải K+.",
+        "Chẩn đoán kết luận — KIỀM CHUYỂN HÓA HẠ CLO HẠ KALI MÁU có bù trừ hô hấp do hẹp môn vị.",
+        "Xử trí điều trị — Truyền tĩnh mạch dung dịch Natri Clorid 0.9% bù thể tích và ion Cl-, phối hợp truyền bù Kali Clorid (KCl)."
+    ],
+    "Bù đủ muối NaCl 0.9% cung cấp Cl- cho thận sẽ giúp thận đảo ngược quá trình bài tiết H+ và tăng đào thải HCO3- dư thừa ra nước tiểu."
+))
+
+cards.append(make_card(
+    "HS16-B7-08", "Ca Lâm sàng 8 - Cơn Hoảng loạn Tăng thông khí", "TÂM THẦN LÂM SÀNG",
+    "Phân tích kết quả khí máu ABG: pH 7.58, PaCO2 22 mmHg, HCO3- 20 mmol/L ở nữ sinh 18 tuổi thở nhanh co quắp bàn tay trước kỳ thi?",
+    [
+        "Bước 1 (pH 7.58 > 7.45) — Nhiễm kiềm máu cấp tính nặng.",
+        "Bước 2 (PaCO2 22 < 35 mmHg ngược chiều với pH) — Rối loạn tiên phát là KIỀM HÔ HẤP CẤP TÍNH do tăng thông khí tâm lý (cơn hoảng loạn).",
+        "Bước 3 (Đánh giá bù trừ cấp) — PaCO2 giảm 18 mmHg dưới 40: HCO3- kỳ vọng giảm = 2 × 1.8 ≈ 3.6 mmol/L → HCO3- kỳ vọng = 24 - 3.6 = 20.4 mmol/L. HCO3- thực tế = 20 mmol/L khớp hoàn toàn với đệm cấp tính.",
+        "Cơ chế co quắp tay chân — Kiềm máu cấp làm H+ rời khỏi Albumin, Albumin bắt giữ Ca2+ tự do làm Calci ion hóa tụt cấp tính gây tăng hưng phấn thần kinh cơ (dấu hiệu bàn tay người đỡ đẻ).",
+        "Chẩn đoán kết luận — KIỀM HÔ HẤP CẤP TÍNH DO CƠN TĂNG THÔNG KHÍ TÂM LÝ (Panic Attack Hyperventilation).",
+        "Xử trí — Trấn an tâm lý, hít thở vào túi giấy hoặc thở chậm theo nhịp, tuyệt đối không tiêm truyền canxi tĩnh mạch bừa bãi."
+    ],
+    "Nhận diện đúng cơn hoảng loạn giúp tránh được các chỉ định chụp CT sọ não hay xét nghiệm xâm lấn không cần thiết ở người trẻ tuổi."
+))
+
+cards.append(make_card(
+    "HS16-B7-09", "Ca Lâm sàng 9 - DKA kèm Nôn ói và Tiêu chảy", "HỒI SỨC PHỨC TẠP",
+    "Cách áp dụng Tỷ số Delta-Delta để bóc tách 3 rối loạn chuyển hóa phức tạp ở bệnh nhân Đái tháo đường nhập viện?",
+    [
+        "Tình huống thực tế — Bệnh nhân đái tháo đường typ 1 bỏ tiêm insulin 3 ngày, bị viêm dạ dày ruột vừa nôn mửa vừa tiêu chảy dữ dội.",
+        "Phân tích khí máu phát hiện — Toan chuyển hóa tăng Anion Gap (do DKA sinh ceton) đi kèm:",
+        "   - Nếu Delta Ratio < 0.8: Khẳng định có TOAN CHUYỂN HÓA BÌNH THƯỜNG ANION GAP đi kèm do mất Bicarbonat qua TIÊU CHẢY.",
+        "   - Nếu Delta Ratio > 2.0: Khẳng định có KIỀM CHUYỂN HÓA đi kèm do mất acid HCl qua NÔN MỬA.",
+        "Ý nghĩa quyết định điều trị — Giúp bác sĩ tính toán chính xác lượng dịch bù: vừa phải truyền Insulin dập ceton, vừa phải chọn đúng tỷ lệ giữa NaCl 0.9% và Ringer Lactate để cân bằng toan kiềm tối ưu."
+    ],
+    "Tỷ số Delta-Delta là cầu nối giữa các phương trình hóa lý sinh học và thực hành hồi sức bệnh nhân đa bệnh lý phức tạp."
+))
+
+# ==============================================================================
+# B_ALGO: 5 THẺ THUẬT TOÁN QUYẾT ĐỊNH NHANH (5 thẻ)
+# ==============================================================================
+
+cards.append(make_card(
+    "HS16-ALGO-01", "Quy trình 6 Bước Đọc Khí Máu ABG", "QUY TRÌNH PHÂN TÍCH",
+    "Lưu đồ thuật toán Quy trình 6 bước chuẩn mực phân tích kết quả Khí máu động mạch (ABG) tại giường bệnh?",
+    [
+        "Bước 1 - Đánh giá Oxy hóa máu: Kiểm tra PaO2 (bình thường 80-100 mmHg) và SaO2 (> 95%); Tính tỷ số P/F = PaO2 / FiO2 để phân độ suy hô hấp ARDS.",
+        "Bước 2 - Đánh giá Tình trạng Toan Kiềm theo pH: pH < 7.35 = Nhiễm toan (Acidemia); pH > 7.45 = Nhiễm kiềm (Alkalemia); pH 7.35 - 7.45 = Bình thường hoặc Rối loạn hỗn hợp tự triệt tiêu.",
+        "Bước 3 - Xác định Rối loạn Tiên phát: Hô hấp (pH và PaCO2 ngược chiều) vs Chuyển hóa (pH và HCO3- cùng chiều).",
+        "Bước 4 - Đánh giá Đáp ứng Bù trừ kỳ vọng: Dùng Công thức Winter cho toan chuyển hóa; công thức bù trừ cấp/mãn cho hô hấp để phát hiện rối loạn thứ hai.",
+        "Bước 5 - Tính Khoảng trống Anion (Anion Gap) hiệu chỉnh Albumin: AG = Na+ - (Cl- + HCO3-) + 0.25 × (40 - Albumin). Nếu AG > 12 = Bắt buộc có Toan chuyển hóa tăng AG.",
+        "Bước 6 - Tính Tỷ số Delta-Delta (Delta AG / Delta HCO3-): Nhận diện toan chuyển hóa bình thường AG đi kèm (< 0.8) hoặc kiềm chuyển hóa đi kèm (> 2.0)."
+    ],
+    "Quy trình 6 bước là thuật toán vàng bắt buộc mọi bác sĩ lâm sàng và học viên sau đại học phải thuộc lòng để không bao giờ bỏ sót tổn thương toan kiềm ẩn giấu.",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS16-ALGO-02", "Thuật toán Phân loại Toan Chuyển hóa", "TOAN CHUYỂN HÓA",
+    "Lưu đồ thuật toán phân tầng nguyên nhân Toan chuyển hóa dựa trên Khoảng trống Anion máu và Khoảng trống Anion nước tiểu?",
+    [
+        "Nhánh 1 - TOAN CHUYỂN HÓA TĂNG ANION GAP (AG > 12 mmol/L):",
+        "   - Kiểm tra Glucose máu và Ceton máu/niệu → Nhiễm toan ceton ĐTĐ (DKA), nghiện rượu (AKA), đói ăn.",
+        "   - Kiểm tra Lactate máu → Nhiễm toan Lactic (sốc, thiếu máu mô, Metformin).",
+        "   - Kiểm tra Ure, Creatinin máu → Suy thận cấp hoặc mạn tính giai đoạn cuối (ứ acid cố định).",
+        "   - Đo Khoảng trống Thẩm thấu (Osmolar Gap): Nếu > 10 mOsm/kg → Ngộ độc cồn độc: Methanol, Ethylene glycol, Salicylate.",
+        "Nhánh 2 - TOAN CHUYỂN HÓA ANION GAP BÌNH THƯỜNG / TĂNG CLO MÁU (AG 8 - 12 mmol/L):",
+        "   - Tính Khoảng trống Anion nước tiểu: Urine AG = (Na+ niệu + K+ niệu) - Cl- niệu.",
+        "   - Nhánh [Urine AG ÂM TÍNH (< 0)]: Thận bài tiết NH4+ bình thường → Mất Bicarbonat ngoài thận (TIÊU CHẢY CẤP, mở thông ruột).",
+        "   - Nhánh [Urine AG DƯƠNG TÍNH (> 0)]: Thận không bài tiết được NH4+ → Bệnh lý ống thận (TOAN HÓA ỐNG THẬN RTA typ 1, typ 2, typ 4)."
+    ],
+    "Lưu đồ 2 nhánh (Máu AG → Nước tiểu UAG) là phác đồ tiếp cận chẩn đoán phân tầng nguyên nhân toan chuyển hóa chuẩn mực quốc tế.",
+    algo=True
+))
+
+cards.append(make_card(
+    "HS16-ALGO-03", "Lưu đồ Phân biệt 4 Thể Toan Hóa Ống Thận", "BỆNH HỌC THẬN",
+    "Lưu đồ thuật toán phân biệt 4 thể Toan hóa Ống thận (RTA) dựa trên nồng độ Kali máu và pH nước tiểu?",
+    [
+        "Bước 1 - Đánh giá nồng độ Kali máu (K+):",
+        "   - Nếu [K+ MÁU TĂNG CAO]: Chẩn đoán ngay TOAN HÓA ỐNG THẬN TYP 4 (Hypoaldosteronism, thường gặp ở bệnh nhân đái tháo đường suy thận nhẹ, pH niệu < 5.5).",
+        "   - Nếu [K+ MÁU BÌNH THƯỜNG HOẶC HẠ THẤP]: Đi tiếp sang Bước 2 phân biệt Typ 1 và Typ 2.",
+        "Bước 2 - Đánh giá pH nước tiểu (pH niệu) khi đang bị toan máu:",
+        "   - Nhánh [pH niệu KHÔNG THỂ HẠ, LUÔN > 5.5]: TOAN HÓA ỐNG THẬN TYP 1 (Distal RTA do hỏng bơm H+ ống góp; đi kèm sỏi thận calci phosphat và lắng đọng calci tủy thận).",
+        "   - Nhánh [pH niệu CÓ THỂ HẠ ĐƯỢC < 5.5 khi HCO3- máu tụt sâu]: TOAN HÓA ỐNG THẬN TYP 2 (Proximal RTA do hỏng tái hấp thu HCO3- ống gần; thường nằm trong Hội chứng Fanconi có đường niệu và phosphat niệu).",
+        "Thể hiếm gặp Typ 3: Thể hỗn hợp typ 1 và typ 2 do thiếu hụt enzyme Carbonic Anhydrase II di truyền."
+    ],
+    "Ghi nhớ quy tắc 2 bước: Kali tăng = Typ 4; Kali hạ + pH niệu > 5.5 = Typ 1; Kali hạ + pH niệu < 5.5 = Typ 2."
+    ,algo=True
+))
+
+cards.append(make_card(
+    "HS16-ALGO-04", "Thuật toán Toan Hô hấp Cấp vs Mãn", "HÔ HẤP LÂM SÀNG",
+    "Lưu đồ thuật toán phân tầng Toan Hô hấp Cấp tính vs Mãn tính và Đợt cấp trên nền mãn dựa trên quy tắc bù trừ Bicarbonat?",
+    [
+        "Bước 1 - Xác định mức độ tăng của PaCO2: Delta PaCO2 = PaCO2 thực tế - 40 mmHg.",
+        "Bước 2 - Tính nồng độ HCO3- kỳ vọng cho từng thể:",
+        "   - Mốc CẤP TÍNH (Tỷ lệ 10 : 1): HCO3- kỳ vọng cấp = 24 + 1.0 × (Delta PaCO2 ÷ 10).",
+        "   - Mốc MÃN TÍNH (Tỷ lệ 10 : 4): HCO3- kỳ vọng mãn = 24 + 3.5 × (Delta PaCO2 ÷ 10).",
+        "Bước 3 - Đối chiếu nồng độ HCO3- thực tế của bệnh nhân:",
+        "   - Nhánh [HCO3- thực tế = Mốc Cấp]: TOAN HÔ HẤP CẤP TÍNH (quá liều thuốc phiện, dị vật đường thở, ngừng tuần hoàn).",
+        "   - Nhánh [HCO3- thực tế = Mốc Mãn]: TOAN HÔ HẤP MÃN TÍNH (COPD giai đoạn ổn định, béo phì giảm thông khí Pickwick).",
+        "   - Nhánh [HCO3- thực tế NẰM GIỮA Mốc Cấp và Mãn]: ĐỢT CẤP TRÊN NỀN TOAN HÔ HẤP MÃN TÍNH (đợt nhiễm trùng bội nhiễm của bệnh nhân COPD).",
+        "   - Nhánh [HCO3- thực tế THẤP HƠN Mốc Cấp]: Toan hô hấp cấp kết hợp TOAN CHUYỂN HÓA.",
+        "   - Nhánh [HCO3- thực tế CAO HƠN Mốc Mãn]: Toan hô hấp mãn kết hợp KIỀM CHUYỂN HÓA."
+    ],
+    "Quy tắc 10:1 (cấp) và 10:4 (mãn) là công cụ tính nhẩm nhanh tại giường bệnh giúp bác sĩ đưa ra quyết định cài đặt máy thở chính xác trong 30 giây."
+    ,algo=True
+))
+
+cards.append(make_card(
+    "HS16-ALGO-05", "Thuật toán Phân tầng Kiềm Chuyển hóa", "KIỀM CHUYỂN HÓA",
+    "Lưu đồ thuật toán tiếp cận chẩn đoán phân tầng Kiềm chuyển hóa ([HCO3-] > 26 mmol/L, pH > 7.45) dựa trên nồng độ Clorid nước tiểu?",
+    [
+        "Bước 1 - Đo nồng độ Clorid nước tiểu (UCl):",
+        "Nhánh 1 - KIỀM CHUYỂN HÓA NHẠY CẢM VỚI CLO (UCl < 15 - 20 mmol/L):",
+        "   - Cơ chế: Thiếu hụt thể tích ECF và cạn kiệt ion Cl- làm thận không thể bài xuất HCO3-.",
+        "   - Nguyên nhân: Nôn ói nhiều ngày, hút dịch dạ dày liên tục, dùng thuốc lợi tiểu quai/thiazide đã ngừng, adenoma nhung mao đại tràng tiết nhầy.",
+        "   - Xử trí đặc hiệu: BÙ DỊCH MUỐI ĐẲNG TRƯƠNG Natri Clorid 0.9% kết hợp bù Kali Clorid (cung cấp Cl- giúp thận thải bỏ HCO3- dứt điểm).",
+        "Nhánh 2 - KIỀM CHUYỂN HÓA KHÁNG CLO (UCl > 20 - 25 mmol/L):",
+        "   - Cơ chế: Hoạt tính Mineralocorticoid tăng cao độc lập không phụ thuộc thể tích.",
+        "   - Đánh giá Huyết áp động mạch:",
+        "     * [Huyết áp TĂNG CAO]: Cường Aldosteron tiên phát (Hội chứng Conn), Hẹp động mạch thận, U tiết renin, Hội chứng Cushing, Hội chứng Liddle.",
+        "     * [Huyết áp BÌNH THƯỜNG / HẠ]: Hội chứng Bartter, Hội chứng Gitelman, Hạ Magie máu nặng, đang dùng thuốc lợi tiểu hoạt động.",
+        "   - Xử trí đặc hiệu: Không truyền muối; điều trị đích nguyên nhân nội tiết (Spironolactone, Amiloride, phẫu thuật u thượng thận, bù kali/magie)."
+    ],
+    "Đo Clorid nước tiểu là xét nghiệm quyết định phân định giữa việc 'cần truyền nhiều chai muối 0.9%' (nhạy clo) hay 'tuyệt đối không truyền muối mà phải hạ huyết áp chẹn aldosteron' (kháng clo)."
+    ,algo=True
+))
+
+# Ghi ra file JSON
+manifest_dir = Path(r"F:\DL\mavisresearch\Bai hoc y khoa\14_Hoa sinh\HS-16_Khi_mau_va_thang_bang_acid_base")
+target_json = manifest_dir / "HS-16_Khi_mau_va_thang_bang_acid_base.cards.v2.json"
+target_json.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Tong so the moi: {len(cards)} the")
+print(f"Da ghi thanh cong vao {target_json}")
