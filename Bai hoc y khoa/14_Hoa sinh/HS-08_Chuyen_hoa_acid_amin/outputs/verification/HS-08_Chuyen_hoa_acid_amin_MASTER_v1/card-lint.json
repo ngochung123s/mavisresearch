@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-08 Chuyển hóa acid amin và chu trình urê",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:58",
+  "generated_at": "2026-11-02T09:49:52",
   "cards_source": "HS-08_Chuyen_hoa_acid_amin.cards.v2.json",
-  "cards_source_sha256": "43c40f47ded90c77a564993e80343dd3cb0663866da197d24b6a304163ad9bac",
-  "card_count": 10,
+  "cards_source_sha256": "6688e66db9e368065f86aba8df998f8ad8020f76cfecc1e5a6e247d683b1e179",
+  "card_count": 84,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-08_Chuyen_hoa_acid_amin\\HS-08_Chuyen_hoa_acid_amin_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 10,
     "unchanged": 0,
-    "added": 10,
+    "added": 74,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 10
+    "deck_notes": 84
   },
-  "apkg_sha256": "177f138056532dee7f0a9f4f7885a24ce64aafecb8c9b1f36011e586bf61af0c",
-  "sqlite_notes": 10,
-  "sqlite_cards": 10
+  "apkg_sha256": "7c43e9dc88b32f9a67a4133c9aede13f7cc5e0e72d23a4ab919c022b2d2e4630",
+  "sqlite_notes": 84,
+  "sqlite_cards": 84
 }
