@@ -39,6 +39,7 @@ DEFAULT_HOASINH_DIR = REPO_ROOT / "14_Hoa sinh"
 DEFAULT_CLINICAL_SAN_DIR = REPO_ROOT / "01_San phu khoa"
 DEFAULT_CLINICAL_ART_DIR = REPO_ROOT / "02_Ho tro sinh san ART"
 DEFAULT_CLINICAL_FUS_DIR = REPO_ROOT / "03_Sieu am thai"
+DEFAULT_FAQ_DIR = REPO_ROOT / "15_Cau_hoi_tu_hoi"
 DATA_JS_PATH = BASE_DIR / "data.js"
 CATALOG_JSON_PATH = BASE_DIR / "CATALOG_PED_VIEWER.json"
 CHECKLIST_PATH = BASE_DIR / "checklist.html"
@@ -376,7 +377,6 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
         "06": "Bệnh lý Phụ khoa & Tử cung",
         "07_De_chi_huy": "Sản khoa & Chuyển dạ",
         "07_U_xo": "Bệnh lý Phụ khoa & Tử cung",
-        "10": "Bệnh lý Phụ khoa & Nhiễm trùng",
         "22": "Nội tiết Sinh sản & Tránh thai",
         "33": "Siêu âm Phụ khoa (TVS)",
         "34": "Siêu âm Phụ khoa (TVS)",
@@ -618,8 +618,43 @@ def scan_clinical_fus(fus_dir: Path) -> list[dict]:
         })
     return lessons
 
+def scan_faq_files(faq_dir: Path) -> list[dict]:
+    if not faq_dir.exists():
+        return []
+    lessons = []
+    for d in sorted(faq_dir.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        m = re.match(r"^QNA-(\d+)", d.name, re.IGNORECASE) or re.match(r"^(\d+)", d.name)
+        num_str = m.group(1) if m else "01"
+        lid = f"QNA-{int(num_str):02d}"
+        content = ""
+        mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+        if mds:
+            content = mds[0].read_text(encoding="utf-8", errors="ignore")
+        if not content.strip():
+            continue
+        fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
+        title = extract_clinical_title(content, fallback)
+        n_cards = count_clinical_cards(d)
+        lessons.append({
+            "id": lid,
+            "specialty": "faq",
+            "specialty_name": "Các Câu Hỏi Tự Hỏi",
+            "chapter": "Hỏi - Đáp Lâm Sàng Thực Chiến",
+            "folder": d.name,
+            "title": title,
+            "author": "Đỗ Văn Ngọc Hưng",
+            "word_count": len(content.split()),
+            "cards_count": n_cards,
+            "has_cards": n_cards > 0,
+            "content": content,
+            "folder_rel": "",
+        })
+    return lessons
 
-def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, version: str, generated_at: str) -> dict:
+
+def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, faq_dir: Path, version: str, generated_at: str) -> dict:
     curriculum = parse_ped_curriculum()
     discovered = scan_ped_files()
     ped_lessons, curriculum_summary = [], []
@@ -652,8 +687,10 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
     art_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in art_lessons))
     fus_lessons = scan_clinical_fus(clin_fus_dir)
     fus_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in fus_lessons))
+    faq_lessons = scan_faq_files(faq_dir)
+    faq_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in faq_lessons))
     
-    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons)
+    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons) + len(faq_lessons)
     
     return {
         "metadata": {
@@ -671,6 +708,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "total_san": len(san_clinical_lessons),
             "total_art": len(art_lessons),
             "total_fus": len(fus_lessons),
+            "total_faq": len(faq_lessons),
             "total_all": total_all,
             "blocks": PED_BLOCKS,
             "ped_blocks": PED_BLOCKS,
@@ -679,6 +717,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "san_chapters": san_clinical_chapters,
             "art_chapters": art_chapters,
             "fus_chapters": fus_chapters,
+            "faq_chapters": faq_chapters,
         },
         "curriculum": curriculum_summary,
         "ped": ped_lessons,
@@ -687,6 +726,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
         "san": san_clinical_lessons,
         "art": art_lessons,
         "fus": fus_lessons,
+        "faq": faq_lessons,
     }
 def write_outputs(payload: dict) -> None:
     version = payload["metadata"]["version"]
@@ -723,14 +763,15 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--clin-san-dir", type=Path, default=DEFAULT_CLINICAL_SAN_DIR, help="thư mục Sản phụ khoa lâm sàng")
     ap.add_argument("--clin-art-dir", type=Path, default=DEFAULT_CLINICAL_ART_DIR, help="thư mục Hỗ trợ sinh sản ART")
     ap.add_argument("--clin-fus-dir", type=Path, default=DEFAULT_CLINICAL_FUS_DIR, help="thư mục Siêu âm thai")
+    ap.add_argument("--faq-dir", type=Path, default=DEFAULT_FAQ_DIR, help="thư mục Các câu hỏi tự hỏi")
     args = ap.parse_args(argv)
     now = datetime.now()
-    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
+    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, args.faq_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
     write_outputs(payload)
     m = payload["metadata"]
     print(f"[OK] data.js v{m['version']} ({DATA_JS_PATH.stat().st_size / 1e6:.2f} MB): "
           f"Tổng {m['total_all']} bài (Nhi {m['total_ped']} · Sản YTB {m['total_obgyn']} · Hóa sinh {m['total_hoasinh']} · "
-          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']})")
+          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']} · Câu hỏi {m['total_faq']})")
     return 0
 
 

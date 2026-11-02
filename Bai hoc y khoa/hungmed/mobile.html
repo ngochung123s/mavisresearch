@@ -653,7 +653,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261102_012503"></script>
+  <script src="data.js?v=20261102_102623"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -672,7 +672,7 @@
         const savedFont = localStorage.getItem('hungmed_font');
         if (savedFont) applyFontSize(Number(savedFont));
         const savedSpec = localStorage.getItem('hungmed_specialty');
-        if (savedSpec && ['ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
+        if (savedSpec && ['faq', 'ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
       } catch(e) {}
 
       initMobileApp();
@@ -760,6 +760,7 @@
     }
 
     const SPECIALTY_META = {
+      faq: { icon: '💡', name: 'Các câu hỏi tự hỏi', desc: 'Hỏi - Đáp & Phản xạ lâm sàng thực chiến', unit: 'bài' },
       ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
       hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' },
       san: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Chuyên đề lâm sàng & điều trị Sản Phụ khoa', unit: 'bài' },
@@ -772,7 +773,7 @@
       const menu = document.getElementById('mobileSpecialtyMenu');
       if (!menu) return;
       const data = getUnifiedData();
-      const order = ['ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+      const order = ['faq', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
       menu.innerHTML = order.map(s => {
         const meta = SPECIALTY_META[s];
         if (!meta) return '';
@@ -866,7 +867,7 @@
       const container = document.getElementById('mobileHomeViewContent');
       if (!container) return;
       const data = getUnifiedData();
-      const specialties = ['ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+      const specialties = ['faq', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
 
       const cardsHtml = specialties.map(s => {
         const meta = SPECIALTY_META[s];

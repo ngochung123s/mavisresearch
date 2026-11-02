@@ -138,6 +138,22 @@
       "post_release": [
         "hungmed/build_unified_med_library.py"
       ]
+    },
+    {
+      "key": "faq",
+      "name": "Các câu hỏi tự hỏi",
+      "folder": "15_Cau_hoi_tu_hoi",
+      "id_prefix": "QNA",
+      "id_from": "folder",
+      "deck_root": "HungMed::Các Câu Hỏi Tự Hỏi",
+      "deck_example": "HungMed::Các Câu Hỏi Tự Hỏi::QNA-01 Nhiễm khuẩn sinh dục & Lộ tuyến CTC",
+      "evidence_mode": "evidence_bundle",
+      "artifact_dir": "outputs",
+      "curriculum": "_README.md",
+      "theme": "light",
+      "post_release": [
+        "hungmed/build_unified_med_library.py"
+      ]
     }
   ]
 }
