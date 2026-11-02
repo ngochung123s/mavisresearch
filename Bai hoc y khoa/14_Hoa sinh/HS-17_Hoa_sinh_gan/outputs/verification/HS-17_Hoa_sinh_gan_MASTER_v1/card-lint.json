@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-17 Hóa sinh gan, chức năng chuyển hóa, khử độc, tạo mật và xét nghiệm sinh hóa gan mật",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:45:47",
+  "generated_at": "2026-11-02T22:30:14",
   "cards_source": "HS-17_Hoa_sinh_gan.cards.v2.json",
-  "cards_source_sha256": "0e28303e0cc42bf94f1355aac36251b74ddcabeb5492ba19292061074ed1ea83",
-  "card_count": 12,
+  "cards_source_sha256": "6b917c3132e54f1dcadfaeb2f165aa9c6c56760f55e6652313d70521e3bcba87",
+  "card_count": 85,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-17_Hoa_sinh_gan\\HS-17_Hoa_sinh_gan_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 12,
     "unchanged": 0,
-    "added": 12,
+    "added": 73,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 12
+    "deck_notes": 85
   },
-  "apkg_sha256": "c418bcb6838f63b7f273f4fa288a59a10449ca21aae204941758ec13334aba7d",
-  "sqlite_notes": 12,
-  "sqlite_cards": 12
+  "apkg_sha256": "36d0af68ba9e59c297ddecf7ffd787e79a57032e84b3c0700880c12c1f3b58a1",
+  "sqlite_notes": 85,
+  "sqlite_cards": 85
 }
