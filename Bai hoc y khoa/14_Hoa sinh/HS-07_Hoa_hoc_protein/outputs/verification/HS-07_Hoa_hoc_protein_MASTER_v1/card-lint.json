@@ -4,10 +4,10 @@
   "deck_name": "HungMed::Hóa Sinh Y Học::HS-07 Hóa học acid amin, peptid và protein",
   "mode": "release",
   "status": "PASS",
-  "generated_at": "2026-11-01T23:43:43",
+  "generated_at": "2026-11-02T09:39:22",
   "cards_source": "HS-07_Hoa_hoc_protein.cards.v2.json",
-  "cards_source_sha256": "b5c7a21a58d24cd6658aee6384327aa66c6a0836a1cc05c0ce8f2d82ccfde52f",
-  "card_count": 10,
+  "cards_source_sha256": "3b2bcd90b240b43ce5d5a8e6e1efed5ea3076ef961f7a786696246e31fbd0b1d",
+  "card_count": 86,
   "summary": {
     "block": 0,
     "debt": 0,
@@ -17,15 +17,15 @@
   "issues": [],
   "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\14_Hoa sinh\\HS-07_Hoa_hoc_protein\\HS-07_Hoa_hoc_protein_MASTER_v1.apkg",
   "anki_sync": {
-    "updated": 0,
+    "updated": 10,
     "unchanged": 0,
-    "added": 10,
+    "added": 76,
     "archived": 0,
     "moved": 0,
     "media": 0,
-    "deck_notes": 10
+    "deck_notes": 86
   },
-  "apkg_sha256": "dc92f722d20a6ad6119f1ecee3c40cce3c3fc26f445d5d57cacaab021604767e",
-  "sqlite_notes": 10,
-  "sqlite_cards": 10
+  "apkg_sha256": "748dd240eebb7bf327b42bcd650dfc779b6addfd40f600d5248e75f9dfa7478d",
+  "sqlite_notes": 86,
+  "sqlite_cards": 86
 }
