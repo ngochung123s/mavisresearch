@@ -105,7 +105,7 @@ Curriculum này được thiết kế theo mô hình **Thực chiến Đa tầng
 
 | ID | Ưu tiên | Tên bài học | Trọng tâm thực hành & Quyết định lâm sàng | Trạng thái |
 | :---: | :---: | :--- | :--- | :---: |
-| **SURG-52** | **P0** | **Chấn thương Hệ Tiết niệu: Chấn thương Thận, Vỡ Bàng quang & Đứt Niệu đạo** | Thận AAST I–V (NOM vs mổ); vỡ bàng quang trong phúc mạc (mổ khâu) vs ngoài phúc mạc (sonde Foley); cờ đỏ đứt niệu đạo cấm đặt Foley. | 📋 QUY HOẠCH |
+| **SURG-52** | **P0** | **Chấn thương Niệu đạo (Chấn thương Thận, Vỡ Bàng quang & Đứt Niệu đạo)** | Thận AAST I–V (NOM vs mổ); đứt niệu đạo trước vs sau; vỡ bàng quang; cờ đỏ đứt niệu đạo cấm đặt Foley; dẫn lưu bàng quang trên mu; mổ nội soi chỉnh trục vs tạo hình muộn. | ✅ GATES ĐẠT (MD) |
 | **SURG-53** | **P0** | **Cơn đau Quặn thận Cấp & Tắc nghẽn Đường tiểu: Xử trí Giảm đau & Dẫn lưu Giải áp Cấp cứu** | NSAIDs đầu tay; cờ đỏ đau quặn thận kèm sốt rét run/thận duy nhất ➔ cấp cứu đặt Double-J hoặc dẫn lưu thận qua da PCN. | 📋 QUY HOẠCH |
 | **SURG-54** | **P1** | **Sỏi Thận & Sỏi Niệu quản: Các Phương pháp Can thiệp Ít xâm lấn Hiện đại (PCNL, URS, RIRS, ESWL)** | ESWL sỏi thận < 20mm; URS sỏi niệu quản; RIRS ống mềm laser sỏi đài thận; Mini-PCNL tiêu chuẩn vàng sỏi san hô; chỉ định mổ mở. | 📋 QUY HOẠCH |
 | **SURG-55** | **P1** | **Tăng sinh Lành tính Tuyến Tiền liệt (BPH): Đánh giá IPSS, Điều trị Nội khoa & Cắt đốt Nội soi TURP / HoLEP** | LUTS; thang điểm IPSS; DRE & PSA; ức chế alpha-1 + 5-ARI; cắt đốt nội soi TURP Monopolar/Bipolar & bóc nhân bằng laser HoLEP. | 📋 QUY HOẠCH |
