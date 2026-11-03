@@ -16,6 +16,11 @@
 | **06** | **Ung thư phụ khoa** | `06_Ung thu phu khoa/` | Ung thư cổ tử cung, buồng trứng, nội mạc |
 | **10** | **Scripts Python & Toolchain** | `10_Script Python/` | Bộ công cụ build APKG, verify diacritics, citation audit |
 | **11** | **Nội khoa người lớn** | `11_Noi khoa/` | Chương trình 100 bài Nội khoa phân theo 13 Block chuẩn |
+| **12** | **Nhi khoa lâm sàng** | `12_Nhi khoa/` | Chương trình Nhi khoa Y6 / PEDYTB bám sát barem Bộ môn |
+| **13** | **Giáo trình Sản YTB** | `13_Giao trinh San YTB/` | Bộ thẻ bám nguyên văn giáo trình Sản phụ khoa YTB 2021 |
+| **14** | **Hóa sinh Y học** | `14_Hoa sinh/` | Trọn bộ 22 chương Giáo trình Hóa sinh Y Hà Nội |
+| **15** | **Các câu hỏi tự hỏi** | `15_Cau_hoi_tu_hoi/` | Bộ Q&A lâm sàng giải đáp băn khoăn thực địa |
+| **16** | **Ngoại khoa & Chu phẫu** | `16_Ngoai khoa/` | 86 bài (15 bài Kỹ năng Chu phẫu + 71 bài Bệnh học Ngoại khoa) |
 
 ---
 

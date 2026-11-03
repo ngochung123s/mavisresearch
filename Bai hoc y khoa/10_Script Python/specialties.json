@@ -14,10 +14,20 @@
       "curriculum": "_CURRICULUM_NHI_KHOA.md",
       "models": {
         "_doc": "notetype đã dùng cho 24 deck PED trong Anki — KHÔNG đổi id/tên (đổi = import APKG bỏ qua note cùng GUID)",
-        "basic": {"id": 1790604700021, "name": "NhiKhoa_Master_Basic", "template": "Nhi khoa Master Basic"},
-        "cloze": {"id": 1790604702132, "name": "NhiKhoa_Master_Cloze", "template": "Nhi khoa Master Cloze"}
+        "basic": {
+          "id": 1790604700021,
+          "name": "NhiKhoa_Master_Basic",
+          "template": "Nhi khoa Master Basic"
+        },
+        "cloze": {
+          "id": 1790604702132,
+          "name": "NhiKhoa_Master_Cloze",
+          "template": "Nhi khoa Master Cloze"
+        }
       },
-      "post_release": ["hungmed/build_unified_med_library.py"]
+      "post_release": [
+        "hungmed/build_unified_med_library.py"
+      ]
     },
     {
       "key": "noi",
@@ -153,6 +163,34 @@
       "artifact_dir": "outputs",
       "curriculum": "_README.md",
       "theme": "light",
+      "post_release": [
+        "hungmed/build_unified_med_library.py"
+      ]
+    },
+    {
+      "key": "ngoai",
+      "name": "Ngoại khoa thực hành & Chu phẫu",
+      "folder": "16_Ngoai khoa",
+      "id_prefix": "SURG",
+      "id_from": "folder",
+      "deck_root": "HungMed::Ngoại Khoa Thực Hành",
+      "deck_example": "HungMed::Ngoại Khoa Thực Hành::SURG-01 Nguyên tắc vô khuẩn & Văn hóa phòng mổ",
+      "evidence_mode": "ncbi_artifacts",
+      "artifact_dir": ".",
+      "curriculum": "_CURRICULUM_NGOAI_KHOA.md",
+      "theme": "light",
+      "models": {
+        "basic": {
+          "id": 1790604700061,
+          "name": "NgoaiKhoa_Master_Basic_Light",
+          "template": "Ngoại khoa Master Basic"
+        },
+        "cloze": {
+          "id": 1790604702162,
+          "name": "NgoaiKhoa_Master_Cloze_Light",
+          "template": "Ngoại khoa Master Cloze"
+        }
+      },
       "post_release": [
         "hungmed/build_unified_med_library.py"
       ]
