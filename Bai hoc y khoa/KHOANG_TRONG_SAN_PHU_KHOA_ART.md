@@ -52,7 +52,7 @@
 | Chọn | Mã | Mức | Tên chuyên đề (Việt - Anh) | Thư mục dự kiến / Hiện có | Trạng thái |
 |:---:|:---|:---:|:---|:---|:---:|
 | [ ] | **ENDO-GAP-01** | **P0** | Hội chứng buồng trứng đa nang (PCOS) toàn diện: Đồng thuận Quốc tế 2023 & Điều trị vô sinh | `04_Noi tiet - Hormone/01_PCOS_International_Guideline_2023` | Bài mới mở chuỗi |
-| [ ] | **ENDO-GAP-02** | **P1** | Sảy thai liên tiếp (RPL) & Hội chứng Kháng Phospholipid (APS) trong Sản khoa | `01_San phu khoa/50_Recurrent_Pregnancy_Loss_APS` | Bài mới |
+| [x] | **ART-47 (ENDO-GAP-02)** | **P1** | Sảy thai liên tiếp (RPL) & Hội chứng Kháng Phospholipid (APS) trong Sản khoa | `02_Ho tro sinh san ART/47_Recurrent_Pregnancy_Loss_RPL` | ✅ Đã phát hành Master MD (0 block/0 debt) |
 | [ ] | **ENDO-GAP-03** | **P1** | Tăng prolactin máu (Hyperprolactinemia) & U tuyến yên trong vô sinh | `04_Noi tiet - Hormone/02_Hyperprolactinemia_Pituitary_Adenoma` | Bài mới |
 | [ ] | **ENDO-GAP-04** | **P2** | Di truyền học trong vô sinh nam & nữ: Karyotype, Đột biến CFTR, Mất đoạn AZF, Hội chứng Klinefelter & Turner | `02_Ho tro sinh san ART/53_Reproductive_Genetics_Karyotype_AZF_CFTR` | Bài mới |
 
@@ -257,3 +257,4 @@ flowchart LR
 |:---:|:---:|:---:|:---|:---:|
 | 2026-11-02 | *Khởi tạo* | System | Tạo bảng tổng hợp khoảng trống & hồ sơ chi tiết | ✅ Sẵn sàng cho chọn bài |
 | 2026-11-02 | **ART-45** | AI Assistant / Dr. Hung | `ART-45_That_bai_lam_to_lien_tiep_RIF_2026-11-02_RELEASE_v1.md`, `cards.v2.json`, `APKG` | ✅ PUBLISH READY (0 block / 0 debt) |
+| 2026-11-03 | **ART-47** | AI Assistant / Dr. Hung | `ART-47_Say_thai_lien_tiep_RPL_2026-11-03_RELEASE_v1.md`, `lesson.json` | ✅ PUBLISH READY (Master MD, 0 block / 0 debt) |
