@@ -520,7 +520,7 @@ Dưới đây là 15 lời khuyên lâm sàng và cạm bẫy thực tế đúc 
 
 ## 11. BẰNG CHỨNG Y HỌC & TÀI LIỆU THAM KHẢO
 
-1. **WSES Jerusalem Guidelines 2020:** Di Saverio S, Podda M, De Simone B, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. *World Journal of Emergency Surgery*. 2020;15(1):27. [PMID: 32669385]
+1. **WSES Jerusalem Guidelines 2020:** Di Saverio S, Podda M, De Simone B, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. *World Journal of Emergency Surgery*. 2020;15(1):27. [PMID: 32295644]
 2. **Review về Viêm ruột thừa cấp:** Bhangu A, Søreide K, Di Saverio S, Assarsson JH, Bemelman WA. Acute appendicitis: modern understanding of pathogenesis, diagnosis, and management. *The Lancet*. 2015;386(10000):1278-1287. [PMID: 26460662]
 3. **Thử nghiệm ngẫu nhiên APPAC về điều trị kháng sinh:** Salminen P, Paajanen H, Rautio T, et al. Antibiotic Therapy vs Appendectomy for Treatment of Uncomplicated Acute Appendicitis: The APPAC Randomized Clinical Trial. *JAMA*. 2015;313(23):2340-2348. [PMID: 26080338]
 4. **Giáo trình Bệnh học Ngoại khoa:** Bộ môn Ngoại, Trường Đại học Y Hà Nội. *Bài giảng Bệnh học Ngoại khoa tập 1: Bệnh học Ống tiêu hóa và Ổ bụng*. Nhà xuất bản Y học; 2020.
