@@ -323,6 +323,7 @@ def extract_clinical_title(text: str, fallback: str) -> str:
     if m:
         t = m.group(1).strip()
         t = re.sub(r"^(BÀI HỌC Y KHOA[:\s]*|BÀI HỌC[:\s]*|BÀI GIẢNG[:\s]*|CHUYÊN ĐỀ[:\s]*|Y KHOA[:\s]*)", "", t, flags=re.IGNORECASE).strip()
+        t = re.sub(r"\s*[-–—]\s*(BÀI GIẢNG|BÀI HỌC).*$", "", t, flags=re.IGNORECASE).strip()
         t = re.sub(r"\s*[-–—]\s*\d{4}[-/]\d{2}[-/]\d{2}.*$", "", t).strip()
         return t
     return fallback
