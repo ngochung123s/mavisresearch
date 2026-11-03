@@ -659,7 +659,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261102_112735"></script>
+  <script src="data.js?v=20261103_143430"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -678,7 +678,7 @@
         const savedFont = localStorage.getItem('hungmed_font');
         if (savedFont) applyFontSize(Number(savedFont));
         const savedSpec = localStorage.getItem('hungmed_specialty');
-        if (savedSpec && ['faq', 'ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
+        if (savedSpec && ['faq', 'ngoai', 'ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
       } catch(e) {}
 
       initMobileApp();
@@ -767,6 +767,7 @@
 
     const SPECIALTY_META = {
       faq: { icon: '💡', name: 'Các câu hỏi tự hỏi', desc: 'Hỏi - Đáp & Phản xạ lâm sàng thực chiến', unit: 'bài' },
+      ngoai: { icon: '🔪', name: 'Ngoại khoa thực hành', desc: 'Kỹ năng chu phẫu & Bệnh học ngoại khoa lâm sàng', unit: 'bài' },
       ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
       hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' },
       san: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Chuyên đề lâm sàng & điều trị Sản Phụ khoa', unit: 'bài' },
@@ -779,7 +780,7 @@
       const menu = document.getElementById('mobileSpecialtyMenu');
       if (!menu) return;
       const data = getUnifiedData();
-      const order = ['faq', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+      const order = ['faq', 'ngoai', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
       menu.innerHTML = order.map(s => {
         const meta = SPECIALTY_META[s];
         if (!meta) return '';
@@ -873,7 +874,7 @@
       const container = document.getElementById('mobileHomeViewContent');
       if (!container) return;
       const data = getUnifiedData();
-      const specialties = ['faq', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+      const specialties = ['faq', 'ngoai', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
 
       const cardsHtml = specialties.map(s => {
         const meta = SPECIALTY_META[s];
@@ -968,7 +969,8 @@
       if (preferLessonId) {
         let defLesson = pool.find(l => l.id.toLowerCase() === preferLessonId.toLowerCase());
         if (!defLesson) {
-          if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
+          if (currentSpecialty === 'ngoai') defLesson = pool.find(l => l.id === 'SURG-16') || pool[0];
+          else if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
           else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
           else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
           else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];

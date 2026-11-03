@@ -40,6 +40,7 @@ DEFAULT_CLINICAL_SAN_DIR = REPO_ROOT / "01_San phu khoa"
 DEFAULT_CLINICAL_ART_DIR = REPO_ROOT / "02_Ho tro sinh san ART"
 DEFAULT_CLINICAL_FUS_DIR = REPO_ROOT / "03_Sieu am thai"
 DEFAULT_FAQ_DIR = REPO_ROOT / "15_Cau_hoi_tu_hoi"
+DEFAULT_CLINICAL_NGOAI_DIR = REPO_ROOT / "16_Ngoai khoa"
 DATA_JS_PATH = BASE_DIR / "data.js"
 CATALOG_JSON_PATH = BASE_DIR / "CATALOG_PED_VIEWER.json"
 CHECKLIST_PATH = BASE_DIR / "checklist.html"
@@ -653,8 +654,132 @@ def scan_faq_files(faq_dir: Path) -> list[dict]:
         })
     return lessons
 
+def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
+    if not ngoai_dir.exists():
+        return []
+    lessons = []
+    chapter_map = {
+        "01": "Block 1 — Vô trùng & Văn hóa OR",
+        "02": "Block 1 — Vô trùng & Văn hóa OR",
+        "03": "Block 2 — Bàn mổ & Mô",
+        "04": "Block 2 — Bàn mổ & Mô",
+        "05": "Block 2 — Bàn mổ & Mô",
+        "06": "Block 3 — Tiền phẫu & ERAS",
+        "07": "Block 3 — Tiền phẫu & ERAS",
+        "08": "Block 4 — Hậu phẫu & Biến chứng",
+        "09": "Block 4 — Hậu phẫu & Biến chứng",
+        "10": "Block 4 — Hậu phẫu & Biến chứng",
+        "11": "Block 4 — Hậu phẫu & Biến chứng",
+        "12": "Block 5 — Thủ thuật & Cấp cứu",
+        "13": "Block 5 — Thủ thuật & Cấp cứu",
+        "14": "Block 5 — Thủ thuật & Cấp cứu",
+        "15": "Block 5 — Thủ thuật & Cấp cứu",
+        "16": "Block 6 — Ngoại Tiêu Hóa",
+        "17": "Block 6 — Ngoại Tiêu Hóa",
+        "18": "Block 6 — Ngoại Tiêu Hóa",
+        "19": "Block 6 — Ngoại Tiêu Hóa",
+        "20": "Block 6 — Ngoại Tiêu Hóa",
+        "21": "Block 6 — Ngoại Tiêu Hóa",
+        "22": "Block 6 — Ngoại Tiêu Hóa",
+        "23": "Block 6 — Ngoại Tiêu Hóa",
+        "24": "Block 6 — Ngoại Tiêu Hóa",
+        "25": "Block 6 — Ngoại Tiêu Hóa",
+        "26": "Block 6 — Ngoại Tiêu Hóa",
+        "27": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "28": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "29": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "30": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "31": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "32": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "33": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "34": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "35": "Block 7 — Ngoại Gan - Mật - Tụy",
+        "36": "Block 8 — Chấn thương Bụng",
+        "37": "Block 8 — Chấn thương Bụng",
+        "38": "Block 8 — Chấn thương Bụng",
+        "39": "Block 8 — Chấn thương Bụng",
+        "40": "Block 8 — Chấn thương Bụng",
+        "41": "Block 9 — Lồng ngực & Mạch máu",
+        "42": "Block 9 — Lồng ngực & Mạch máu",
+        "43": "Block 9 — Lồng ngực & Mạch máu",
+        "44": "Block 9 — Lồng ngực & Mạch máu",
+        "45": "Block 9 — Lồng ngực & Mạch máu",
+        "46": "Block 9 — Lồng ngực & Mạch máu",
+        "47": "Block 9 — Lồng ngực & Mạch máu",
+        "48": "Block 9 — Lồng ngực & Mạch máu",
+        "49": "Block 9 — Lồng ngực & Mạch máu",
+        "50": "Block 9 — Lồng ngực & Mạch máu",
+        "51": "Block 9 — Lồng ngực & Mạch máu",
+        "52": "Block 10 — Thận & Tiết niệu - Nam học",
+        "53": "Block 10 — Thận & Tiết niệu - Nam học",
+        "54": "Block 10 — Thận & Tiết niệu - Nam học",
+        "55": "Block 10 — Thận & Tiết niệu - Nam học",
+        "56": "Block 10 — Thận & Tiết niệu - Nam học",
+        "57": "Block 10 — Thận & Tiết niệu - Nam học",
+        "58": "Block 10 — Thận & Tiết niệu - Nam học",
+        "59": "Block 10 — Thận & Tiết niệu - Nam học",
+        "60": "Block 10 — Thận & Tiết niệu - Nam học",
+        "61": "Block 10 — Thận & Tiết niệu - Nam học",
+        "62": "Block 11 — Chấn thương Chỉnh hình",
+        "63": "Block 11 — Chấn thương Chỉnh hình",
+        "64": "Block 11 — Chấn thương Chỉnh hình",
+        "65": "Block 11 — Chấn thương Chỉnh hình",
+        "66": "Block 11 — Chấn thương Chỉnh hình",
+        "67": "Block 11 — Chấn thương Chỉnh hình",
+        "68": "Block 11 — Chấn thương Chỉnh hình",
+        "69": "Block 11 — Chấn thương Chỉnh hình",
+        "70": "Block 11 — Chấn thương Chỉnh hình",
+        "71": "Block 11 — Chấn thương Chỉnh hình",
+        "72": "Block 11 — Chấn thương Chỉnh hình",
+        "73": "Block 11 — Chấn thương Chỉnh hình",
+        "74": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "75": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "76": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "77": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "78": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "79": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "80": "Block 12 — Ngoại Thần kinh - Sọ não",
+        "81": "Block 13 — Ngoại Nhi & Dị tật",
+        "82": "Block 13 — Ngoại Nhi & Dị tật",
+        "83": "Block 13 — Ngoại Nhi & Dị tật",
+        "84": "Block 13 — Ngoại Nhi & Dị tật",
+        "85": "Block 13 — Ngoại Nhi & Dị tật",
+        "86": "Block 13 — Ngoại Nhi & Dị tật",
+    }
+    for d in sorted(ngoai_dir.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        m = re.match(r"^SURG-(\d+)", d.name, re.IGNORECASE) or re.match(r"^(\d+)", d.name)
+        num_str = m.group(1) if m else "01"
+        lid = f"SURG-{int(num_str):02d}"
+        ch = chapter_map.get(f"{int(num_str):02d}", "Ngoại Khoa Lâm Sàng")
+        content = ""
+        mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit", "brief"])]
+        if mds:
+            content = mds[0].read_text(encoding="utf-8", errors="ignore")
+        if not content.strip():
+            continue
+        fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
+        title = extract_clinical_title(content, fallback)
+        n_cards = count_clinical_cards(d)
+        lessons.append({
+            "id": lid,
+            "specialty": "ngoai",
+            "specialty_name": "Ngoại Khoa Thực Hành",
+            "chapter": ch,
+            "folder": d.name,
+            "title": title,
+            "author": "Đỗ Văn Ngọc Hưng",
+            "word_count": len(content.split()),
+            "cards_count": n_cards,
+            "has_cards": n_cards > 0,
+            "content": content,
+            "folder_rel": "",
+        })
+    return lessons
 
-def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, faq_dir: Path, version: str, generated_at: str) -> dict:
+
+def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, faq_dir: Path, ngoai_dir: Path, version: str, generated_at: str) -> dict:
     curriculum = parse_ped_curriculum()
     discovered = scan_ped_files()
     ped_lessons, curriculum_summary = [], []
@@ -689,8 +814,10 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
     fus_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in fus_lessons))
     faq_lessons = scan_faq_files(faq_dir)
     faq_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in faq_lessons))
+    ngoai_lessons = scan_clinical_ngoai(ngoai_dir)
+    ngoai_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in ngoai_lessons))
     
-    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons) + len(faq_lessons)
+    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons) + len(faq_lessons) + len(ngoai_lessons)
     
     return {
         "metadata": {
@@ -709,6 +836,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "total_art": len(art_lessons),
             "total_fus": len(fus_lessons),
             "total_faq": len(faq_lessons),
+            "total_ngoai": len(ngoai_lessons),
             "total_all": total_all,
             "blocks": PED_BLOCKS,
             "ped_blocks": PED_BLOCKS,
@@ -718,6 +846,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "art_chapters": art_chapters,
             "fus_chapters": fus_chapters,
             "faq_chapters": faq_chapters,
+            "ngoai_chapters": ngoai_chapters,
         },
         "curriculum": curriculum_summary,
         "ped": ped_lessons,
@@ -727,6 +856,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
         "art": art_lessons,
         "fus": fus_lessons,
         "faq": faq_lessons,
+        "ngoai": ngoai_lessons,
     }
 def write_outputs(payload: dict) -> None:
     version = payload["metadata"]["version"]
@@ -764,14 +894,15 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--clin-art-dir", type=Path, default=DEFAULT_CLINICAL_ART_DIR, help="thư mục Hỗ trợ sinh sản ART")
     ap.add_argument("--clin-fus-dir", type=Path, default=DEFAULT_CLINICAL_FUS_DIR, help="thư mục Siêu âm thai")
     ap.add_argument("--faq-dir", type=Path, default=DEFAULT_FAQ_DIR, help="thư mục Các câu hỏi tự hỏi")
+    ap.add_argument("--ngoai-dir", type=Path, default=DEFAULT_CLINICAL_NGOAI_DIR, help="thư mục Ngoại khoa thực hành")
     args = ap.parse_args(argv)
     now = datetime.now()
-    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, args.faq_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
+    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, args.faq_dir, args.ngoai_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"))
     write_outputs(payload)
     m = payload["metadata"]
     print(f"[OK] data.js v{m['version']} ({DATA_JS_PATH.stat().st_size / 1e6:.2f} MB): "
           f"Tổng {m['total_all']} bài (Nhi {m['total_ped']} · Sản YTB {m['total_obgyn']} · Hóa sinh {m['total_hoasinh']} · "
-          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']} · Câu hỏi {m['total_faq']})")
+          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']} · Câu hỏi {m['total_faq']} · Ngoại {m['total_ngoai']})")
     return 0
 
 
