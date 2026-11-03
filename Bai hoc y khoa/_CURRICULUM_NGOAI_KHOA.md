@@ -50,7 +50,7 @@ Curriculum này được thiết kế theo mô hình **Thực chiến Đa tầng
 | ID | Ưu tiên | Tên bài học | Trọng tâm thực hành & Quyết định lâm sàng | Trạng thái |
 | :---: | :---: | :--- | :--- | :---: |
 | **SURG-16** | **P0** | **Viêm ruột thừa cấp & Các thể biến chứng phức tạp** | Thang điểm Alvarado/AIR; chẩn đoán phân biệt phụ nữ/trẻ nhỏ/người già; đám quánh vs áp xe vs viêm phúc mạc ruột thừa; cắt ruột thừa nội soi. | ✅ GATES ĐẠT (MD) |
-| **SURG-17** | **P0** | **Thủng ổ loét dạ dày - tá tràng & Thủng tạng rỗng** | Co cứng thành bụng như gỗ; liềm hơi dưới hoành; phẫu thuật khâu lỗ thủng đắp mạc nối lớn Graham patch qua nội soi/mổ mở. | 📋 QUY HOẠCH |
+| **SURG-17** | **P0** | **Thủng ổ loét dạ dày - tá tràng & Thủng tạng rỗng** | Co cứng thành bụng như gỗ; liềm hơi dưới hoành; phẫu thuật khâu lỗ thủng đắp mạc nối lớn Graham patch qua nội soi/mổ mở. | ✅ GATES ĐẠT (MD) |
 | **SURG-18** | **P0** | **Tắc ruột cơ học: Cơ chế quai kín, thắt nghẹt & Tắc do bít** | Đau-Nôn-Bí-Chướng; mức nước-hơi ruột non vs đại tràng; nhận diện tắc ruột nghẹt mổ tối khẩn; tắc ruột quai kín van Bauhin. | 📋 QUY HOẠCH |
 | **SURG-19** | **P0** | **Xoắn đại tràng Sigma & Xoắn manh tràng** | Dấu hiệu hạt cà phê trên X-quang; tháo xoắn nội soi vs phẫu thuật cắt đoạn đại tràng đưa 2 đầu ra da (Hartmann). | 📋 QUY HOẠCH |
 | **SURG-20** | **P1** | **Hẹp môn vị: Loét xơ chai hành tá tràng vs Ung thư hang môn vị** | Rối loạn kiềm chuyển hóa giảm clo hạ kali; dấu Bouveret; rửa dạ dày sonde Faucher; nối vị tràng vs cắt đoạn dạ dày. | 📋 QUY HOẠCH |
