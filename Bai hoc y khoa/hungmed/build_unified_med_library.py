@@ -322,7 +322,7 @@ def extract_clinical_title(text: str, fallback: str) -> str:
     m = re.search(r"^#\s+(.+)$", text, re.MULTILINE)
     if m:
         t = m.group(1).strip()
-        t = re.sub(r"^(BÀI HỌC[:\s]*|BÀI GIẢNG[:\s]*|BÀI HỌC Y KHOA[:\s]*|CHUYÊN ĐỀ[:\s]*)", "", t, flags=re.IGNORECASE).strip()
+        t = re.sub(r"^(BÀI HỌC Y KHOA[:\s]*|BÀI HỌC[:\s]*|BÀI GIẢNG[:\s]*|CHUYÊN ĐỀ[:\s]*|Y KHOA[:\s]*)", "", t, flags=re.IGNORECASE).strip()
         t = re.sub(r"\s*[-–—]\s*\d{4}[-/]\d{2}[-/]\d{2}.*$", "", t).strip()
         return t
     return fallback
@@ -754,9 +754,19 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
         lid = f"SURG-{int(num_str):02d}"
         ch = chapter_map.get(f"{int(num_str):02d}", "Ngoại Khoa Lâm Sàng")
         content = ""
-        mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit", "brief"])]
-        if mds:
-            content = mds[0].read_text(encoding="utf-8", errors="ignore")
+        lesson_json = d / "lesson.json"
+        if lesson_json.exists():
+            try:
+                lj = json.loads(lesson_json.read_text(encoding="utf-8"))
+                target = lj.get("lesson")
+                if target and (d / target).exists():
+                    content = (d / target).read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                pass
+        if not content:
+            mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name.lower() for x in ["knowledge_check", "research", "audit", "brief", "verify", "cards"])]
+            if mds:
+                content = mds[0].read_text(encoding="utf-8", errors="ignore")
         if not content.strip():
             continue
         fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
