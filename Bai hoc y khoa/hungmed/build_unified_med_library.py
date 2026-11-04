@@ -479,7 +479,16 @@ def scan_clinical_art(art_dir: Path) -> list[dict]:
         lid = f"ART-{int(num_str):02d}"
         ch = chapter_map.get(num_str, "Hỗ trợ Sinh sản ART")
         content = ""
-        if d.name == "46_Endometrioma_Adenomyosis_ART_Infertility":
+        lesson_json = d / "lesson.json"
+        if lesson_json.exists():
+            try:
+                lj = json.loads(lesson_json.read_text(encoding="utf-8"))
+                target = lj.get("lesson")
+                if target and (d / target).exists():
+                    content = (d / target).read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                pass
+        if not content and d.name == "46_Endometrioma_Adenomyosis_ART_Infertility":
             mfile = d / "46_Endometrioma_Adenomyosis_ART_Infertility.md"
             if mfile.exists():
                 content = mfile.read_text(encoding="utf-8", errors="ignore")
