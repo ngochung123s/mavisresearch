@@ -160,6 +160,54 @@ Nứt thứ phát có cơ chế khác, với trương lực cơ thắt trong bì
 
 ---
 
+
+
+---
+
+## 2b. BIẾN CHỨNG CỦA NỨT MẠN VÀ BIẾN CHỨNG SAU ĐIỀU TRỊ [BẢN VÁ BỔ SUNG — RESEARCH 04/11/2026]
+
+Bài Nứt kẽ đã có chuỗi cơ chế cho vòng xoắn tăng trương lực và thiếu máu, cho nốt sentinel và nhú phì đại, và phần theo dõi sau điều trị nhắc tới liền nứt, đau, són và tái phát. Phần vá này đi sâu biến chứng của nứt mạn như một quá trình tiến triển, rồi đi sâu biến chứng sau từng phương pháp điều trị, vì són sau cắt cơ thắt là biến chứng quyết định lựa chọn điều trị và phải được dạy theo thời gian theo dõi và định nghĩa.
+
+### 4.1 Biến chứng của nứt mạn: áp xe, rò, hẹp và ý nghĩa của nốt sentinel [CỐT LÕI]
+
+Chuỗi cơ chế từ nứt mạn tới áp xe bắt đầu từ vết rách không liền, đáy vết nứt xơ hóa và nhiễm khuẩn tuyến hậu môn ở hốc hậu môn kề bên. Vi khuẩn từ vết rách đi vào khoang gian cơ thắt, tạo áp xe, và áp xe vỡ hoặc dẫn lưu không đúng đường tạo đường rò. Chuỗi cơ chế tới hẹp hậu môn bắt đầu từ xơ hóa lặp đi lặp lại ở đáy và bờ vết nứt, mô sẹo co rút, lòng ống hậu môn hẹp dần, và đại tiện càng khó càng làm vết nứt tái chấn thương, tạo vòng xoắn xơ hóa và hẹp tiến triển. Cả hai chuỗi này đều dạy bằng cơ chế và kinh nghiệm lâm sàng, vì không tìm được tỉ lệ tiến triển từ nứt mạn thành áp xe, rò hay hẹp nào đã kiểm chứng trong đợt research này, và file vá ghi rõ khoảng trống đó. Không được bịa tỉ lệ tiến triển, và không được dạy rằng mọi nứt mạn đều sẽ thành áp xe hay rò.
+
+Nốt sentinel và nhú phì đại là dấu hiệu của nứt mạn, không phải đích điều trị đơn độc. Nốt sentinel là mô da dày lên ở đầu xa của vết nứt do phù nề và xơ hóa lặp đi lặp lại, nhú phì đại là nhú hậu môn phì đại ở đầu gần, và bộ ba nốt sentinel, vết nứt và nhú phì đại là dấu hiệu nứt đã mạn tính, như bài gốc đã dạy. Một nghiên cứu đoàn hệ hồi cứu đơn trung tâm năm 2026 trên bệnh nhân nứt mạn tiêm độc tố botulinum thấy tỉ lệ liền khách quan sau một mũi tiêm ở hai tháng thấp hơn rõ rệt ở nhóm có nốt sentinel nổi bật so với nhóm không có nốt sentinel, và phân tích đa biến xác nhận có nốt sentinel là yếu tố dự báo độc lập làm giảm liền khách quan sau tiêm độc tố [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Nghiên cứu này hồi cứu, đơn trung tâm, chỉ đo sau tiêm độc tố, không so sánh cắt nốt với không cắt nốt, và không đo áp xe, rò hay hẹp. Vì vậy file vá chỉ dạy nốt sentinel nổi bật là dấu hiệu nứt mạn và yếu tố dự báo liền kém hơn sau tiêm độc tố trong một đoàn hệ hồi cứu, không chứng minh được cắt nốt sentinel sẽ cải thiện liền, và không được dạy cắt nốt đơn độc như điều trị. Điều trị nứt mạn phải xử trí vết nứt và tăng trương lực cơ thắt, không chỉ cắt nốt sentinel hay nhú phì đại, như bài gốc đã dạy.
+
+### 4.2 Biến chứng sau điều trị: són, không liền, tái phát và tác dụng phụ của thuốc [CỐT LÕI]
+
+Són sau cắt cơ thắt trong bên là biến chứng quan trọng nhất của phẫu thuật nứt kẽ, và phải được dạy theo ba tầng bằng chứng không so sánh trực tiếp được với nhau. Tầng thứ nhất là tổng quan Cochrane về phẫu thuật nứt kẽ, chỉ kết luận định tính: kéo giãn hậu môn bằng tay có nguy cơ nứt tồn tại cao hơn và nguy cơ són nhẹ cao hơn đáng kể so với cắt cơ thắt trong, cắt cơ thắt trong bên mở và đóng ít khác biệt cả về tồn tại nứt lẫn nguy cơ són, cắt một bên dễ thất bại hơn cắt hai bên nhưng không khác biệt đáng kể về són, và cắt cơ thắt ít thất bại hơn cắt bỏ nứt mà không khác biệt đáng kể về són [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Bản tóm tắt không đưa bất kỳ tỉ lệ nào, nên chỉ dạy định tính từ nguồn này, và kết luận thực hành là có lẽ nên bỏ kéo giãn hậu môn bằng tay ở người lớn. Tầng thứ hai là phân tích gộp mạng lưới các thử nghiệm ngẫu nhiên với theo dõi trung vị hai tháng, thấy tỉ lệ liền cao nhất ở cắt cơ thắt trong, và tỉ lệ són ngắn hạn ở cắt cơ thắt trong cao hơn điều trị không xâm lấn và tiêm độc tố, trong khi giãn hậu môn có tỉ lệ són cao nhất [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Tầng thứ ba là tổng quan dài hạn với theo dõi trung bình từ hai năm tới hơn mười năm, thấy rối loạn đại tiện tổng thể ở khoảng một phần bảy số bệnh nhân, với són hơi là dạng thường gặp nhất, són dây hoặc rò rỉ ít hơn, và són phân đặc hiếm nhất [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Ba tầng này đo ở thời gian theo dõi và định nghĩa són khác nhau, nên không được gộp thành một con số, và không được so sánh trực tiếp tỉ lệ ngắn hạn với tỉ lệ dài hạn. Thông điệp lâm sàng là són hơi là dạng thường gặp nhất và són phân đặc hiếm, nhưng nguy cơ rối loạn đại tiện dài hạn sau cắt cơ thắt là đáng kể và phải được tư vấn trước mổ, đặc biệt ở bệnh nhân đã có yếu tố nguy cơ són từ trước như tiền sử sản khoa, phẫu thuật hậu môn trước đây hoặc bệnh nền.
+
+Chuỗi cơ chế són sau cắt cơ thắt bắt đầu từ cắt một phần cơ thắt trong, là cơ duy trì áp lực nghỉ của ống hậu môn. Áp lực nghỉ giảm làm ống hậu môn đóng không kín khi nghỉ, hơi và dịch rò rỉ ra ngoài. Són có thể thoáng qua do phù nề và đau trong những tuần đầu, hoặc kéo dài do mất cơ thật sự và sẹo. Phân biệt thoáng qua với kéo dài cần thời gian theo dõi, và không có nguồn nào trong đợt research này tách són theo thời gian một cách hệ thống, nên file vá ghi rõ phân biệt này là suy luận lâm sàng từ cơ chế và theo dõi, không phải tỉ lệ đã kiểm chứng. Cắt cơ thắt cho nứt thứ phát do bệnh Crohn làm són nặng thêm mà không liền nứt, như bài gốc đã cảnh báo, vì nứt thứ phát không có vòng xoắn tăng trương lực và thiếu máu, mà có bệnh nền xuyên thành. Vì vậy nứt không điển hình, lệch vị trí, nhiều vết, không đau, hoặc không liền phải được đánh giá bệnh thứ phát trước khi cắt cơ thắt.
+
+Tiêm độc tố botulinum có tín hiệu són thoáng qua, nhưng chưa chứng minh được khác biệt. Một phân tích gộp so sánh tiêm độc tố với nitrat bôi thấy tiêm độc tố gắn với tỉ lệ són hậu môn thoáng qua cao hơn, nhưng khác biệt không đạt ý nghĩa thống kê, trong khi tiêm độc tố ít tác dụng phụ tổng thể hơn và ít đau đầu hơn đáng kể so với nitrat bôi [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. File vá chỉ viết tín hiệu són thoáng qua cao hơn nhưng chưa đạt ý nghĩa trong phân tích gộp nhỏ, không viết tiêm độc tố gây són nhiều hơn nitrat. Một phân tích gộp mạng lưới về liều và vị trí tiêm độc tố thấy liều cao tiêm ngoài vết nứt có liền ngắn hạn cao hơn, liều cao và liều thấp cùng vị trí có liền tương tự nhưng nguy cơ són không chắc chắn, và tiêm ngoài vết nứt có tái phát cao hơn tiêm mỗi bên vết nứt [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. File vá không ghi bất kỳ con số liều nào, vì lệnh cấm liều và vì bản tóm tắt chỉ phân loại liều cao và thấp, không nêu liều số. Bài học là liều và vị trí tiêm ảnh hưởng đánh đổi giữa liền, són và tái phát, với bằng chứng mức trung bình và mạng lưới gián tiếp.
+
+Thuốc bôi nitrat, thường gọi là GTN, có mâu thuẫn trực tiếp phải dạy cả hai mặt. Tổng quan Cochrane về điều trị không phẫu thuật thấy GTN tốt hơn giả dược một cách khiêm tốn nhưng có ý nghĩa về liền nứt, nhưng tái phát muộn thường gặp ở khoảng một nửa số người ban đầu khỏi, và không liệu pháp nội khoa nào gần bằng hiệu quả của cắt cơ thắt trong, cũng không liệu pháp nội khoa nào trong các thử nghiệm gắn với nguy cơ són [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Ngược lại, một thử nghiệm ngẫu nhiên đa trung tâm, mù đôi, có đối chứng giả dược thấy GTN liền tương đương giả dược và không có ý nghĩa thống kê, với đau đầu ở hơn hai mươi người và hạ huyết áp tư thế ở vài người sau GTN, và tác giả kết luận thử nghiệm không chứng minh được GTN hơn giả dược [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Hai nguồn đều đã đọc bản tóm tắt đầy đủ, và file vá không chọn một bên, không viết GTN hiệu quả hơn giả dược như sự thật đã chốt. Dạy đúng là bằng chứng gộp cũ ủng hộ GTN khiêm tốn, nhưng một thử nghiệm mù đôi có đối chứng không tái lập được, và tái phát muộn sau GTN thường gặp. Nứt không điển hình gắn với bệnh viêm ruột, ung thư hoặc nhiễm trùng hậu môn bị loại khỏi tổng quan Cochrane, nên mọi số của tổng quan đó không áp dụng cho nứt thứ phát.
+
+Không liền và tái phát là biến chứng theo dõi dài hạn của mọi phương pháp điều trị nứt kẽ, không riêng phương pháp nào. Phân tích gộp mạng lưới thấy tỉ lệ liền cao nhất ở cắt cơ thắt trong, tiếp theo là giãn hậu môn và cắt bỏ nứt kèm tạo hình, thấp hơn ở tiêm độc tố và điều trị không xâm lấn, với theo dõi trung vị chỉ hai tháng [BẢN TÓM TẮT ĐÃ KIỂM CHỨNG]. Tái phát muộn sau điều trị nội khoa thường gặp, và bệnh nhân phải được dặn tái khám khi đau tái phát, không được coi khỏi sau một đợt thuốc là khỏi vĩnh viễn. Chảy máu, nhiễm khuẩn và tụ máu sau tiêm độc tố không có số liệu trong các bản tóm tắt đã đọc, nên file vá không bịa tỉ lệ cho các biến chứng này, và chỉ dạy nhận biết chung là đau tăng, sốt và chảy máu sau thủ thuật cần đánh giá.
+
+> **BOX ĐỎ — Nứt kẽ không điển hình và sau điều trị [CỐT LÕI]**
+>
+> - Nứt lệch vị trí, nhiều vết nứt, nứt không đau, hoặc nứt không liền sau điều trị đúng phải nghĩ tới bệnh thứ phát như Crohn, ung thư hoặc nhiễm trùng, cần soi, sinh thiết và đánh giá bệnh nền trước khi cắt cơ thắt.
+> - Sốt, đau tăng dữ dội, hoặc chảy mủ sau tiêm độc tố hay sau phẫu thuật gợi ý áp xe, cần đánh giá cấp cứu, không trấn an bằng thuốc giảm đau.
+> - Són phân đặc sau cắt cơ thắt, dù hiếm, là biến chứng nặng cần hội chẩn chuyên khoa và đánh giá chức năng sàn chậu, không trấn an là sẽ tự hết.
+> - Đau đầu dữ dội hoặc tụt huyết áp sau thuốc bôi nitrat cần ngừng thuốc và đánh giá, đặc biệt ở bệnh nhân có bệnh tim mạch hoặc đang dùng thuốc hạ huyết áp.
+
+## 6. BẢNG DẤU HIỆU NGUY HIỂM CHUNG CHO CẢ NĂM BÀI [CỐT LÕI]
+
+Bảng này tổng hợp dấu hiệu nguy hiểm dùng chung cho cả năm bệnh, để người đọc tra nhanh khi trực. Mỗi dấu hiệu đều đã được dạy chi tiết trong các mục trên, và bảng này không thay thế phần dạy chi tiết.
+
+| Dấu hiệu | Nghĩ tới | Hành động đầu tiên |
+|---|---|---|
+| Sốt kèm đau hông ở bệnh nhân sỏi | Nhiễm khuẩn tắc nghẽn, ứ mủ bể thận | Giải áp cấp cứu kèm kháng sinh và hồi sức |
+| Đau bụng, bí tiểu, sốt sau stapled | Thủng trực tràng, nhiễm khuẩn huyết | Đánh giá cấp cứu, không trấn an rồi hẹn lại |
+| Đau vượt da, lan nhanh, lạo xạo, sốc | Hoại tử mô mềm tầng sinh môn | Cắt lọc cấp cứu, không chờ đủ tiêu chuẩn |
+| Búi trĩ tím đen, loét, đau dữ dội | Sa nghẹt, hoại tử búi trĩ | Cấp cứu, không đẩy búi hoại tử vào trong |
+| Són phân đặc mới sau mổ hậu môn | Tổn thương cơ thắt nặng | Hội chẩn chuyên khoa, đánh giá sàn chậu |
+| Vô niệu hoặc thiểu niệu sau can thiệp sỏi | Tắc hai bên, tắc thận độc nhất, chuỗi mảnh kẹt | Hình ảnh cấp cứu, giải tắc |
+
+---
+
 ## 3. CHẨN ĐOÁN VÀ ĐÁNH GIÁ — KHÁM KỸ, NHẬN DIỆN MẠN, LOẠI TRỪ BỆNH NỀN [CỐT LÕI]
 
 ### 3.1. Hỏi bệnh sử: đau, máu, táo bón và bệnh nền [CỐT LÕI]
@@ -886,3 +934,36 @@ Các tài liệu dưới đây là bằng chứng đã kiểm chứng qua PubMed
 1. Non surgical therapy for anal fissure, tổng quan Cochrane về điều trị không phẫu thuật cho nứt kẽ hậu môn, với kết luận thuốc bôi liền cao hơn giả dược nhưng tái phát muộn ở khoảng một nửa số bệnh nhân ban đầu liền, và không thuốc nào tiếp cận được hiệu quả của cắt cơ thắt trong bên. PMID: 22336789. [ABSTRACT VERIFIED]
 
 Ghi chú về nguồn trích dẫn: tổng quan Cochrane trên đây là nguồn PMID duy nhất trong bài này, vì các tạp chí còn lại trong hồ sơ nứt kẽ không nằm trong bảng phân tầng của dự án, và các bài báo trên tạp chí lớn khác không có abstract trong PubMed, vì vậy bài giảng trích dẫn các nguồn còn lại bằng lời trong thân bài, kèm mức nguồn rõ ràng, và không bịa abstract hay số liệu cho các nguồn đó.
+
+
+### Bổ sung tài liệu tham khảo kiểm chứng (Bản vá 04/11/2026)
+
+Tổng quan Cochrane so sánh tán sỏi ngoài cơ thể với lấy sỏi qua da hoặc nội soi ngược dòng cho sỏi thận, năm 2023 — PMID: 37526261, tóm tắt định tính: tổng quan hệ thống về hiệu quả và biến chứng của tán sỏi ngoài cơ thể so với lấy sỏi qua da và nội soi ngược dòng, kết luận tán sỏi có lẽ ít biến chứng hơn lấy sỏi qua da nhưng khác biệt so với nội soi ngược dòng rất không chắc chắn, thành công thấp hơn, chất lượng cuộc sống ít khác biệt.
+
+Tổng quan Cochrane so sánh lấy sỏi qua da với nội soi ngược dòng cho sỏi thận ở người lớn, năm 2023, PMID 37955353 — tóm tắt định tính: tổng quan hệ thống về sạch sỏi, biến chứng nặng, hẹp hoặc rách niệu quản, nhu cầu can thiệp thứ phát và thời gian nằm viện, kết luận biến chứng nặng có lẽ ít hoặc không khác biệt, sạch sỏi có thể tốt hơn với lấy sỏi qua da, nằm viện có thể dài hơn.
+
+Tổng quan Cochrane về acid tranexamic cho lấy sỏi qua da, năm 2023; PMID: 37882229. Tóm tắt định tính: tổng quan hệ thống về truyền máu, biến chứng phẫu thuật nặng và nhẹ, biến cố huyết khối tắc mạch và tác dụng phụ của acid tranexamic toàn thân so với giả dược, kết luận có thể giảm truyền máu và biến chứng nặng nhưng tín hiệu tác dụng phụ rất không chính xác và không nêu liều.
+
+Bài tổng quan Cochrane về stent niệu quản so với không đặt stent sau nội soi niệu quản cho sỏi thận và sỏi niệu quản, năm 2019, PMID 30726554: tóm tắt định tính là tổng quan hệ thống trên thử nghiệm nội soi không biến chứng, kết luận đặt stent có thể giảm nhẹ tái khám không hẹn trước nhưng đau kéo dài hơn, nhiễm khuẩn tiết niệu có lẽ không khác biệt, hẹp niệu quản tới ba tháng rất không chắc chắn.
+
+Tổng quan Cochrane, năm 2020, về thuốc chẹn alpha sau tán sỏi bằng sóng xung kích cho sỏi thận hoặc sỏi niệu quản ở người lớn — PMID 33179245; tóm tắt định tính: tổng quan hệ thống về đào thải mảnh sỏi, nhu cầu điều trị hỗ trợ, biến cố bất lợi nặng chủ yếu là khám cấp cứu và tái nhập viện, thời gian đào thải, kết luận chẹn alpha có thể cải thiện đào thải mảnh và giảm biến cố nặng, không có bằng chứng về chất lượng cuộc sống.
+
+Tổng quan Cochrane năm 2012 so sánh tán sỏi ngoài cơ thể với nội soi niệu quản cho sỏi niệu quản, PMID 22592707, tóm tắt định tính: tổng quan hệ thống về sạch sỏi, điều trị lại, điều trị hỗ trợ, biến chứng và nằm viện, kết luận nội soi sạch sỏi cao hơn nhưng biến chứng nhiều hơn và nằm viện lâu hơn, bằng chứng cũ với tìm kiếm từ nhiều năm trước.
+
+Tổng quan Cochrane về can thiệp phẫu thuật cho rò hậu môn trực tràng, năm 2010, PMID 20464741: tóm tắt định tính là tổng quan hệ thống về tái phát và són của các kỹ thuật mổ rò, kết luận rất ít thử nghiệm ngẫu nhiên so sánh các kỹ thuật, không khác biệt có ý nghĩa trừ vạt tiến khi kết hợp keo, keo và vạt có tỉ lệ són thấp.
+
+PMID: 20614450 — tổng quan Cochrane năm 2010 về rạch dẫn lưu áp xe quanh hậu môn kèm hoặc không kèm điều trị rò hậu môn, tóm tắt định tính: tổng quan hệ thống về tái phát, áp xe hoặc rò tồn tại, phải mổ lại, áp lực cơ thắt và són, kết luận xử lý rò cùng lúc có thể giảm tái phát ở bệnh nhân chọn lọc cẩn thận, són sau một năm không khác biệt có ý nghĩa.
+
+Tổng quan Cochrane năm 2015 về oxy cao áp hỗ trợ trong hoại tử cân, PMID 25879088, tóm tắt định tính: tổng quan hệ thống tìm kiếm thử nghiệm về oxy cao áp cho hoại tử cân, kết luận không tìm thấy thử nghiệm nào đạt tiêu chí đưa vào, không có bằng chứng lâm sàng ủng hộ hay bác bỏ hiệu quả, cần thử nghiệm chất lượng tốt.
+
+Năm 2018, tổng quan Cochrane về can thiệp cho nhiễm khuẩn mô mềm hoại tử ở người lớn; PMID 29851032 — tóm tắt định tính: tổng quan hệ thống với rất ít thử nghiệm và cỡ mẫu nhỏ, mọi người tham gia đều nhận điều trị chuẩn kèm theo, kết luận không thể kết luận về hiệu quả tương đối của bất kỳ can thiệp nào lên tử vong hay tác dụng phụ nghiêm trọng do chất lượng bằng chứng rất thấp.
+
+Tổng quan Cochrane về thủ thuật phẫu thuật cho nứt kẽ hậu môn, năm 2011, PMID 22071803: tóm tắt định tính là tổng quan hệ thống về thất bại điều trị và són sau mổ của nhiều kỹ thuật phẫu thuật, kết luận kéo giãn hậu môn bằng tay có lẽ nên bỏ ở người lớn, cắt cơ thắt trong bên mở và đóng hiệu quả tương đương, cắt hai bên có triển vọng nhưng cần thêm nghiên cứu.
+
+Tổng quan Cochrane về điều trị không phẫu thuật cho nứt kẽ hậu môn, năm 2012 — PMID 22336789, tóm tắt định tính: tổng quan hệ thống về liền nứt, tái phát muộn, són, đau đầu, nhiễm trùng và phản vệ của thuốc bôi, độc tố botulinum và thuốc chẹn kênh calci, kết luận không liệu pháp nội khoa nào gần bằng cắt cơ thắt trong và nứt không điển hình bị loại khỏi tổng quan.
+
+PMID: 16034963: tổng quan Cochrane năm 2005 so sánh thắt vòng cao su với cắt trĩ cho bệnh trĩ, tóm tắt định tính là tổng quan hệ thống chỉ gồm ít thử nghiệm chất lượng phương pháp kém, kết luận cắt trĩ khỏi triệu chứng tốt hơn và ít cần điều trị lại hơn nhưng đau sau mổ cao hơn và biến chứng muộn tổng thể khác biệt có ý nghĩa với khoảng tin cậy rất rộng.
+
+Thử nghiệm ngẫu nhiên đa trung tâm thực dụng trên tạp chí The Lancet, năm 2016, so sánh stapled với phẫu thuật cắt trĩ truyền thống cho bệnh trĩ, PMID 27726951: tóm tắt định tính là thử nghiệm về chất lượng cuộc sống, đau ngắn hạn, biến chứng phẫu thuật và tác dụng phụ nghiêm trọng, kết luận stapled ít đau ngắn hạn hơn nhưng chất lượng cuộc sống dài hạn kém hơn, biến chứng phẫu thuật tương tự nhau.
+
+Thử nghiệm ngẫu nhiên đa trung tâm nhãn mở trên tạp chí The Lancet, năm 2016, so sánh cột động mạch trĩ với thắt vòng cao su cho trĩ độ hai và ba, PMID 27236344: tóm tắt định tính là thử nghiệm về tái phát, thủ thuật thêm, đau, và tác dụng phụ nghiêm trọng cần nhập viện gồm đau, chảy máu, bí tiểu, rối loạn thần kinh phế vị và một ca nghi ngờ nhiễm khuẩn huyết, kết luận tái phát thấp hơn với cột động mạch nhưng đau sớm nhiều hơn.

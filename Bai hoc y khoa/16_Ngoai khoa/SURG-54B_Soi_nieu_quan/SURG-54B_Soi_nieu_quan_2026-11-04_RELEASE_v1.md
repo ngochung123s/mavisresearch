@@ -184,6 +184,40 @@ Diễn biến bất lợi thứ ba là tổn thương niệu quản do sỏi k�
 Biến chứng sau can thiệp gồm đái máu, nhiễm khuẩn tiết niệu, sót mảnh sỏi, hẹp niệu quản, tổn thương niệu quản và biến chứng do stent, và mỗi phương pháp can thiệp có phổ biến chứng riêng, nên lựa chọn phương pháp phải cân nhắc cả hiệu quả sạch sỏi lẫn phổ biến chứng chứ không chỉ nhìn tỉ lệ sạch sỏi đơn thuần.
 Yếu tố tiên lượng xấu gồm sỏi lớn, sỏi đoạn trên, tắc hoàn toàn, nhiễm khuẩn đi kèm, suy thận, thận độc nhất, sỏi hai bên, sỏi kẹt lâu ngày, bệnh nhân không thể theo dõi sát, và các yếu tố này khi xuất hiện thì ngưỡng can thiệp phải hạ xuống thay vì chờ đợi theo lịch thông thường.
 
+
+
+---
+
+### 2.9b BẢNG TỔNG HỢP NHANH BIẾN CHỨNG SỎI NIỆU QUẢN [BẢN VÁ BỔ SUNG — RESEARCH 04/11/2026]
+
+Mục 2.9 của bài Sỏi niệu quản đã dạy kỹ diễn biến tự nhiên và biến chứng, gồm ba hướng bất lợi là sỏi đứng yên gây tắc kéo dài, nhiễm khuẩn tắc nghẽn, và tổn thương niệu quản do sỏi kẹt lâu ngày, cùng phổ biến chứng sau can thiệp theo từng phương pháp ở mức liệt kê. Phần vá này không dạy lại những nội dung đó. Phần vá chỉ tổng hợp thành một bảng tra nhanh, để người đọc nhìn một lần là thấy toàn bộ phổ biến chứng và biết mình đang ở nhánh nào. Chi tiết cơ chế của từng biến chứng thuộc về mục 2 của file vá này, vì sỏi thận và sỏi niệu quản chia sẻ cùng một hệ thống tắc nghẽn và nhiễm khuẩn.
+
+| Biến chứng | Cơ chế cốt lõi | Nhận biết và xử trí |
+|---|---|---|
+| Tắc nghẽn kéo dài, teo nhu mô thận | Sỏi kẹt, phù nề tăng, áp lực đài bể thận cao kéo dài, nhu mô thiếu máu và xơ hóa | Đau chuyển từ quặn từng cơn sang âm ỉ hoặc hết đau giả tạo, giãn đài bể thận tăng, chức năng thận giảm; giải tắc sớm, theo dõi hình ảnh và chức năng thận |
+| Nhiễm khuẩn tắc nghẽn, ứ mủ bể thận, sốc nhiễm khuẩn | Nước tiểu ứ đọng trên chỗ tắc thành môi trường vi khuẩn sinh sôi, áp lực cao đẩy vi khuẩn và nội độc tố vào máu | Sốt, rét run kèm đau hông là báo động; giải áp cấp cứu, xem BOX ĐỎ ở mục 2.1 |
+| Tổn thương niệu quản do sỏi kẹt | Viêm xơ thành niệu quản, phù nề và dính, thủng khi can thiệp trên đoạn phù nề | Sỏi kẹt lâu ngày, giãn đài bể thận trước mổ; can thiệp cẩn trọng, theo dõi hẹp muộn |
+| Sỏi chạy ngược lên thận khi nội soi | Đẩy sỏi ngược dòng trong lúc thao tác | Lựa chọn phương pháp theo vị trí sỏi, cân nhắc đặt stent và kế hoạch lấy sỏi lần hai |
+| Biến chứng sau can thiệp theo phương pháp | Mỗi phương pháp có phổ riêng, xem mục 2.4 tới 2.7 | Cân nhắc cả hiệu quả sạch sỏi lẫn phổ biến chứng khi chọn phương pháp |
+| Stent bị quên | Stent lưu quá lâu, đóng cặn, nhiễm khuẩn, khó lấy | Sổ theo dõi stent, ngày tháo ghi trong hồ sơ và giấy ra viện, xem mục 2.7 |
+
+Người đọc cần nhớ một điểm phân biệt quan trọng: hết đau không đồng nghĩa với hết tắc nghẽn. Khi nhu động niệu quản kiệt vì tắc kéo dài, đau có thể giảm trong khi thận vẫn đang tổn thương. Vì vậy theo dõi sau cơn cấp phải dựa vào hình ảnh và chức năng thận, không dựa vào cảm giác đau của bệnh nhân, như bài gốc đã dạy.
+
+## 6. BẢNG DẤU HIỆU NGUY HIỂM CHUNG CHO CẢ NĂM BÀI [CỐT LÕI]
+
+Bảng này tổng hợp dấu hiệu nguy hiểm dùng chung cho cả năm bệnh, để người đọc tra nhanh khi trực. Mỗi dấu hiệu đều đã được dạy chi tiết trong các mục trên, và bảng này không thay thế phần dạy chi tiết.
+
+| Dấu hiệu | Nghĩ tới | Hành động đầu tiên |
+|---|---|---|
+| Sốt kèm đau hông ở bệnh nhân sỏi | Nhiễm khuẩn tắc nghẽn, ứ mủ bể thận | Giải áp cấp cứu kèm kháng sinh và hồi sức |
+| Đau bụng, bí tiểu, sốt sau stapled | Thủng trực tràng, nhiễm khuẩn huyết | Đánh giá cấp cứu, không trấn an rồi hẹn lại |
+| Đau vượt da, lan nhanh, lạo xạo, sốc | Hoại tử mô mềm tầng sinh môn | Cắt lọc cấp cứu, không chờ đủ tiêu chuẩn |
+| Búi trĩ tím đen, loét, đau dữ dội | Sa nghẹt, hoại tử búi trĩ | Cấp cứu, không đẩy búi hoại tử vào trong |
+| Són phân đặc mới sau mổ hậu môn | Tổn thương cơ thắt nặng | Hội chẩn chuyên khoa, đánh giá sàn chậu |
+| Vô niệu hoặc thiểu niệu sau can thiệp sỏi | Tắc hai bên, tắc thận độc nhất, chuỗi mảnh kẹt | Hình ảnh cấp cứu, giải tắc |
+
+---
+
 ## 3. CHẨN ĐOÁN [CỐT LÕI]
 
 ### 3.1 Lâm sàng: hỏi bệnh và khám như thế nào [CỐT LÕI]
@@ -883,3 +917,36 @@ PMID: 25229916
 Bài báo thuộc tạp chí New England Journal of Medicine, phát hành năm 2014.
 
 Các bản tóm tắt guideline, tổng quan hệ thống và nghiên cứu còn lại được trích ở mức văn xuôi trong các phần chính của bài, với mức nguồn ghi rõ ở từng đoạn, và không đưa vào danh mục này vì tạp chí của chúng chưa được đối chiếu bảng phân tầng hoặc vì toàn văn guideline chưa được đọc trực tiếp, và người học cần tra cứu toàn văn guideline trên trang web của hội trước khi áp dụng chi tiết cho bệnh nhân cụ thể.
+
+
+### Bổ sung tài liệu tham khảo kiểm chứng (Bản vá 04/11/2026)
+
+Tổng quan Cochrane so sánh tán sỏi ngoài cơ thể với lấy sỏi qua da hoặc nội soi ngược dòng cho sỏi thận, năm 2023 — PMID: 37526261, tóm tắt định tính: tổng quan hệ thống về hiệu quả và biến chứng của tán sỏi ngoài cơ thể so với lấy sỏi qua da và nội soi ngược dòng, kết luận tán sỏi có lẽ ít biến chứng hơn lấy sỏi qua da nhưng khác biệt so với nội soi ngược dòng rất không chắc chắn, thành công thấp hơn, chất lượng cuộc sống ít khác biệt.
+
+Tổng quan Cochrane so sánh lấy sỏi qua da với nội soi ngược dòng cho sỏi thận ở người lớn, năm 2023, PMID 37955353 — tóm tắt định tính: tổng quan hệ thống về sạch sỏi, biến chứng nặng, hẹp hoặc rách niệu quản, nhu cầu can thiệp thứ phát và thời gian nằm viện, kết luận biến chứng nặng có lẽ ít hoặc không khác biệt, sạch sỏi có thể tốt hơn với lấy sỏi qua da, nằm viện có thể dài hơn.
+
+Tổng quan Cochrane về acid tranexamic cho lấy sỏi qua da, năm 2023; PMID: 37882229. Tóm tắt định tính: tổng quan hệ thống về truyền máu, biến chứng phẫu thuật nặng và nhẹ, biến cố huyết khối tắc mạch và tác dụng phụ của acid tranexamic toàn thân so với giả dược, kết luận có thể giảm truyền máu và biến chứng nặng nhưng tín hiệu tác dụng phụ rất không chính xác và không nêu liều.
+
+Bài tổng quan Cochrane về stent niệu quản so với không đặt stent sau nội soi niệu quản cho sỏi thận và sỏi niệu quản, năm 2019, PMID 30726554: tóm tắt định tính là tổng quan hệ thống trên thử nghiệm nội soi không biến chứng, kết luận đặt stent có thể giảm nhẹ tái khám không hẹn trước nhưng đau kéo dài hơn, nhiễm khuẩn tiết niệu có lẽ không khác biệt, hẹp niệu quản tới ba tháng rất không chắc chắn.
+
+Tổng quan Cochrane, năm 2020, về thuốc chẹn alpha sau tán sỏi bằng sóng xung kích cho sỏi thận hoặc sỏi niệu quản ở người lớn — PMID 33179245; tóm tắt định tính: tổng quan hệ thống về đào thải mảnh sỏi, nhu cầu điều trị hỗ trợ, biến cố bất lợi nặng chủ yếu là khám cấp cứu và tái nhập viện, thời gian đào thải, kết luận chẹn alpha có thể cải thiện đào thải mảnh và giảm biến cố nặng, không có bằng chứng về chất lượng cuộc sống.
+
+Tổng quan Cochrane năm 2012 so sánh tán sỏi ngoài cơ thể với nội soi niệu quản cho sỏi niệu quản, PMID 22592707, tóm tắt định tính: tổng quan hệ thống về sạch sỏi, điều trị lại, điều trị hỗ trợ, biến chứng và nằm viện, kết luận nội soi sạch sỏi cao hơn nhưng biến chứng nhiều hơn và nằm viện lâu hơn, bằng chứng cũ với tìm kiếm từ nhiều năm trước.
+
+Tổng quan Cochrane về can thiệp phẫu thuật cho rò hậu môn trực tràng, năm 2010, PMID 20464741: tóm tắt định tính là tổng quan hệ thống về tái phát và són của các kỹ thuật mổ rò, kết luận rất ít thử nghiệm ngẫu nhiên so sánh các kỹ thuật, không khác biệt có ý nghĩa trừ vạt tiến khi kết hợp keo, keo và vạt có tỉ lệ són thấp.
+
+PMID: 20614450 — tổng quan Cochrane năm 2010 về rạch dẫn lưu áp xe quanh hậu môn kèm hoặc không kèm điều trị rò hậu môn, tóm tắt định tính: tổng quan hệ thống về tái phát, áp xe hoặc rò tồn tại, phải mổ lại, áp lực cơ thắt và són, kết luận xử lý rò cùng lúc có thể giảm tái phát ở bệnh nhân chọn lọc cẩn thận, són sau một năm không khác biệt có ý nghĩa.
+
+Tổng quan Cochrane năm 2015 về oxy cao áp hỗ trợ trong hoại tử cân, PMID 25879088, tóm tắt định tính: tổng quan hệ thống tìm kiếm thử nghiệm về oxy cao áp cho hoại tử cân, kết luận không tìm thấy thử nghiệm nào đạt tiêu chí đưa vào, không có bằng chứng lâm sàng ủng hộ hay bác bỏ hiệu quả, cần thử nghiệm chất lượng tốt.
+
+Năm 2018, tổng quan Cochrane về can thiệp cho nhiễm khuẩn mô mềm hoại tử ở người lớn; PMID 29851032 — tóm tắt định tính: tổng quan hệ thống với rất ít thử nghiệm và cỡ mẫu nhỏ, mọi người tham gia đều nhận điều trị chuẩn kèm theo, kết luận không thể kết luận về hiệu quả tương đối của bất kỳ can thiệp nào lên tử vong hay tác dụng phụ nghiêm trọng do chất lượng bằng chứng rất thấp.
+
+Tổng quan Cochrane về thủ thuật phẫu thuật cho nứt kẽ hậu môn, năm 2011, PMID 22071803: tóm tắt định tính là tổng quan hệ thống về thất bại điều trị và són sau mổ của nhiều kỹ thuật phẫu thuật, kết luận kéo giãn hậu môn bằng tay có lẽ nên bỏ ở người lớn, cắt cơ thắt trong bên mở và đóng hiệu quả tương đương, cắt hai bên có triển vọng nhưng cần thêm nghiên cứu.
+
+Tổng quan Cochrane về điều trị không phẫu thuật cho nứt kẽ hậu môn, năm 2012 — PMID 22336789, tóm tắt định tính: tổng quan hệ thống về liền nứt, tái phát muộn, són, đau đầu, nhiễm trùng và phản vệ của thuốc bôi, độc tố botulinum và thuốc chẹn kênh calci, kết luận không liệu pháp nội khoa nào gần bằng cắt cơ thắt trong và nứt không điển hình bị loại khỏi tổng quan.
+
+PMID: 16034963: tổng quan Cochrane năm 2005 so sánh thắt vòng cao su với cắt trĩ cho bệnh trĩ, tóm tắt định tính là tổng quan hệ thống chỉ gồm ít thử nghiệm chất lượng phương pháp kém, kết luận cắt trĩ khỏi triệu chứng tốt hơn và ít cần điều trị lại hơn nhưng đau sau mổ cao hơn và biến chứng muộn tổng thể khác biệt có ý nghĩa với khoảng tin cậy rất rộng.
+
+Thử nghiệm ngẫu nhiên đa trung tâm thực dụng trên tạp chí The Lancet, năm 2016, so sánh stapled với phẫu thuật cắt trĩ truyền thống cho bệnh trĩ, PMID 27726951: tóm tắt định tính là thử nghiệm về chất lượng cuộc sống, đau ngắn hạn, biến chứng phẫu thuật và tác dụng phụ nghiêm trọng, kết luận stapled ít đau ngắn hạn hơn nhưng chất lượng cuộc sống dài hạn kém hơn, biến chứng phẫu thuật tương tự nhau.
+
+Thử nghiệm ngẫu nhiên đa trung tâm nhãn mở trên tạp chí The Lancet, năm 2016, so sánh cột động mạch trĩ với thắt vòng cao su cho trĩ độ hai và ba, PMID 27236344: tóm tắt định tính là thử nghiệm về tái phát, thủ thuật thêm, đau, và tác dụng phụ nghiêm trọng cần nhập viện gồm đau, chảy máu, bí tiểu, rối loạn thần kinh phế vị và một ca nghi ngờ nhiễm khuẩn huyết, kết luận tái phát thấp hơn với cột động mạch nhưng đau sớm nhiều hơn.

@@ -877,3 +877,36 @@ Các tài liệu dưới đây là bằng chứng đã kiểm chứng qua PubMed
 1. Surgical intervention for anorectal fistula, tổng quan Cochrane về can thiệp phẫu thuật cho rò hậu môn–trực tràng, với kết luận không khác biệt lớn về tái phát và són giữa các kỹ thuật, trừ vạt tiến kèm keo tái phát nhiều hơn vạt tiến đơn độc, và cần thêm thử nghiệm ngẫu nhiên cho plug và LIFT. PMID: 20464741. [ABSTRACT VERIFIED]
 
 Ghi chú về nguồn trích dẫn: tổng quan Cochrane trên đây là nguồn PMID duy nhất trong bài này, vì các tạp chí còn lại trong hồ sơ áp xe và rò không nằm trong bảng phân tầng của dự án, và hướng dẫn ASCRS 2022 được đọc qua toàn văn PDF nhưng không có PMID riêng cho khuyến cáo, vì vậy bài giảng trích dẫn các nguồn còn lại bằng lời trong thân bài, kèm mức nguồn rõ ràng, và không bịa abstract hay số liệu cho các nguồn đó.
+
+
+### Bổ sung tài liệu tham khảo kiểm chứng (Bản vá 04/11/2026)
+
+Tổng quan Cochrane so sánh tán sỏi ngoài cơ thể với lấy sỏi qua da hoặc nội soi ngược dòng cho sỏi thận, năm 2023 — PMID: 37526261, tóm tắt định tính: tổng quan hệ thống về hiệu quả và biến chứng của tán sỏi ngoài cơ thể so với lấy sỏi qua da và nội soi ngược dòng, kết luận tán sỏi có lẽ ít biến chứng hơn lấy sỏi qua da nhưng khác biệt so với nội soi ngược dòng rất không chắc chắn, thành công thấp hơn, chất lượng cuộc sống ít khác biệt.
+
+Tổng quan Cochrane so sánh lấy sỏi qua da với nội soi ngược dòng cho sỏi thận ở người lớn, năm 2023, PMID 37955353 — tóm tắt định tính: tổng quan hệ thống về sạch sỏi, biến chứng nặng, hẹp hoặc rách niệu quản, nhu cầu can thiệp thứ phát và thời gian nằm viện, kết luận biến chứng nặng có lẽ ít hoặc không khác biệt, sạch sỏi có thể tốt hơn với lấy sỏi qua da, nằm viện có thể dài hơn.
+
+Tổng quan Cochrane về acid tranexamic cho lấy sỏi qua da, năm 2023; PMID: 37882229. Tóm tắt định tính: tổng quan hệ thống về truyền máu, biến chứng phẫu thuật nặng và nhẹ, biến cố huyết khối tắc mạch và tác dụng phụ của acid tranexamic toàn thân so với giả dược, kết luận có thể giảm truyền máu và biến chứng nặng nhưng tín hiệu tác dụng phụ rất không chính xác và không nêu liều.
+
+Bài tổng quan Cochrane về stent niệu quản so với không đặt stent sau nội soi niệu quản cho sỏi thận và sỏi niệu quản, năm 2019, PMID 30726554: tóm tắt định tính là tổng quan hệ thống trên thử nghiệm nội soi không biến chứng, kết luận đặt stent có thể giảm nhẹ tái khám không hẹn trước nhưng đau kéo dài hơn, nhiễm khuẩn tiết niệu có lẽ không khác biệt, hẹp niệu quản tới ba tháng rất không chắc chắn.
+
+Tổng quan Cochrane, năm 2020, về thuốc chẹn alpha sau tán sỏi bằng sóng xung kích cho sỏi thận hoặc sỏi niệu quản ở người lớn — PMID 33179245; tóm tắt định tính: tổng quan hệ thống về đào thải mảnh sỏi, nhu cầu điều trị hỗ trợ, biến cố bất lợi nặng chủ yếu là khám cấp cứu và tái nhập viện, thời gian đào thải, kết luận chẹn alpha có thể cải thiện đào thải mảnh và giảm biến cố nặng, không có bằng chứng về chất lượng cuộc sống.
+
+Tổng quan Cochrane năm 2012 so sánh tán sỏi ngoài cơ thể với nội soi niệu quản cho sỏi niệu quản, PMID 22592707, tóm tắt định tính: tổng quan hệ thống về sạch sỏi, điều trị lại, điều trị hỗ trợ, biến chứng và nằm viện, kết luận nội soi sạch sỏi cao hơn nhưng biến chứng nhiều hơn và nằm viện lâu hơn, bằng chứng cũ với tìm kiếm từ nhiều năm trước.
+
+Tổng quan Cochrane về can thiệp phẫu thuật cho rò hậu môn trực tràng, năm 2010, PMID 20464741: tóm tắt định tính là tổng quan hệ thống về tái phát và són của các kỹ thuật mổ rò, kết luận rất ít thử nghiệm ngẫu nhiên so sánh các kỹ thuật, không khác biệt có ý nghĩa trừ vạt tiến khi kết hợp keo, keo và vạt có tỉ lệ són thấp.
+
+PMID: 20614450 — tổng quan Cochrane năm 2010 về rạch dẫn lưu áp xe quanh hậu môn kèm hoặc không kèm điều trị rò hậu môn, tóm tắt định tính: tổng quan hệ thống về tái phát, áp xe hoặc rò tồn tại, phải mổ lại, áp lực cơ thắt và són, kết luận xử lý rò cùng lúc có thể giảm tái phát ở bệnh nhân chọn lọc cẩn thận, són sau một năm không khác biệt có ý nghĩa.
+
+Tổng quan Cochrane năm 2015 về oxy cao áp hỗ trợ trong hoại tử cân, PMID 25879088, tóm tắt định tính: tổng quan hệ thống tìm kiếm thử nghiệm về oxy cao áp cho hoại tử cân, kết luận không tìm thấy thử nghiệm nào đạt tiêu chí đưa vào, không có bằng chứng lâm sàng ủng hộ hay bác bỏ hiệu quả, cần thử nghiệm chất lượng tốt.
+
+Năm 2018, tổng quan Cochrane về can thiệp cho nhiễm khuẩn mô mềm hoại tử ở người lớn; PMID 29851032 — tóm tắt định tính: tổng quan hệ thống với rất ít thử nghiệm và cỡ mẫu nhỏ, mọi người tham gia đều nhận điều trị chuẩn kèm theo, kết luận không thể kết luận về hiệu quả tương đối của bất kỳ can thiệp nào lên tử vong hay tác dụng phụ nghiêm trọng do chất lượng bằng chứng rất thấp.
+
+Tổng quan Cochrane về thủ thuật phẫu thuật cho nứt kẽ hậu môn, năm 2011, PMID 22071803: tóm tắt định tính là tổng quan hệ thống về thất bại điều trị và són sau mổ của nhiều kỹ thuật phẫu thuật, kết luận kéo giãn hậu môn bằng tay có lẽ nên bỏ ở người lớn, cắt cơ thắt trong bên mở và đóng hiệu quả tương đương, cắt hai bên có triển vọng nhưng cần thêm nghiên cứu.
+
+Tổng quan Cochrane về điều trị không phẫu thuật cho nứt kẽ hậu môn, năm 2012 — PMID 22336789, tóm tắt định tính: tổng quan hệ thống về liền nứt, tái phát muộn, són, đau đầu, nhiễm trùng và phản vệ của thuốc bôi, độc tố botulinum và thuốc chẹn kênh calci, kết luận không liệu pháp nội khoa nào gần bằng cắt cơ thắt trong và nứt không điển hình bị loại khỏi tổng quan.
+
+PMID: 16034963: tổng quan Cochrane năm 2005 so sánh thắt vòng cao su với cắt trĩ cho bệnh trĩ, tóm tắt định tính là tổng quan hệ thống chỉ gồm ít thử nghiệm chất lượng phương pháp kém, kết luận cắt trĩ khỏi triệu chứng tốt hơn và ít cần điều trị lại hơn nhưng đau sau mổ cao hơn và biến chứng muộn tổng thể khác biệt có ý nghĩa với khoảng tin cậy rất rộng.
+
+Thử nghiệm ngẫu nhiên đa trung tâm thực dụng trên tạp chí The Lancet, năm 2016, so sánh stapled với phẫu thuật cắt trĩ truyền thống cho bệnh trĩ, PMID 27726951: tóm tắt định tính là thử nghiệm về chất lượng cuộc sống, đau ngắn hạn, biến chứng phẫu thuật và tác dụng phụ nghiêm trọng, kết luận stapled ít đau ngắn hạn hơn nhưng chất lượng cuộc sống dài hạn kém hơn, biến chứng phẫu thuật tương tự nhau.
+
+Thử nghiệm ngẫu nhiên đa trung tâm nhãn mở trên tạp chí The Lancet, năm 2016, so sánh cột động mạch trĩ với thắt vòng cao su cho trĩ độ hai và ba, PMID 27236344: tóm tắt định tính là thử nghiệm về tái phát, thủ thuật thêm, đau, và tác dụng phụ nghiêm trọng cần nhập viện gồm đau, chảy máu, bí tiểu, rối loạn thần kinh phế vị và một ca nghi ngờ nhiễm khuẩn huyết, kết luận tái phát thấp hơn với cột động mạch nhưng đau sớm nhiều hơn.
