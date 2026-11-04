@@ -631,9 +631,19 @@ def scan_faq_files(faq_dir: Path) -> list[dict]:
         num_str = m.group(1) if m else "01"
         lid = f"QNA-{int(num_str):02d}"
         content = ""
-        mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
-        if mds:
-            content = mds[0].read_text(encoding="utf-8", errors="ignore")
+        lesson_json = d / "lesson.json"
+        if lesson_json.exists():
+            try:
+                lj = json.loads(lesson_json.read_text(encoding="utf-8"))
+                target = lj.get("lesson")
+                if target and (d / target).exists():
+                    content = (d / target).read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                pass
+        if not content:
+            mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name for x in ["knowledge_check", "research", "audit"])]
+            if mds:
+                content = mds[0].read_text(encoding="utf-8", errors="ignore")
         if not content.strip():
             continue
         fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
