@@ -391,8 +391,9 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
     for d in sorted(san_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):
             continue
-        m = re.match(r"^(\d+)", d.name)
+        m = re.match(r"^(?:OB-)?(\d+)([A-Za-z]?)", d.name, re.IGNORECASE) or re.match(r"^(\d+)([A-Za-z]?)", d.name)
         num_str = m.group(1) if m else "00"
+        suffix = m.group(2).upper() if m and m.group(2) else ""
         if d.name.startswith("07_De_chi_huy"):
             lid = "OB-07"
             ch = chapter_map["07_De_chi_huy"]
@@ -400,10 +401,21 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
             lid = "OB-07B"
             ch = chapter_map["07_U_xo"]
         else:
-            lid = f"OB-{int(num_str):02d}"
-            ch = chapter_map.get(num_str, "Sản Phụ khoa Lâm sàng")
+            lid = f"OB-{int(num_str):02d}{suffix}"
+            ch = chapter_map.get(f"{int(num_str):02d}", "Sản Phụ khoa Lâm sàng")
         content = ""
-        if d.name == "39_U_xo_tu_cung_ART_Infertility":
+        lesson_json = d / "lesson.json"
+        if lesson_json.exists():
+            try:
+                lj = json.loads(lesson_json.read_text(encoding="utf-8"))
+                if lj.get("id"):
+                    lid = lj.get("id")
+                target = lj.get("lesson")
+                if target and (d / target).exists():
+                    content = (d / target).read_text(encoding="utf-8", errors="ignore")
+            except Exception:
+                pass
+        if not content and d.name == "39_U_xo_tu_cung_ART_Infertility":
             mfile = d / "U_xo_tu_cung_ART_Infertility_2026-07-12.md"
             if mfile.exists():
                 content = mfile.read_text(encoding="utf-8", errors="ignore")
