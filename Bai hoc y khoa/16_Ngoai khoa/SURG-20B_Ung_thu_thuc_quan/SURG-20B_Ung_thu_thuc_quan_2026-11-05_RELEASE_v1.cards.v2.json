@@ -1,0 +1,1562 @@
+{
+  "deck_id": 7600000000202,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-20B: Ung Thư Thực Quản",
+  "card_count": 116,
+  "cards": [
+    {
+      "id": "SURG20B-CARD-001",
+      "note_id": 1793862964398,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "quy-tac-cung",
+        "giao-trinh"
+      ],
+      "type": "basic",
+      "front": "Bài Ung thư thực quản này được build theo <span style=\"color:#74c0fc\"><b>quy tắc cứng</b></span> nào, vì đây là tài liệu người học sẽ thi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giữ nguyên toàn bộ chi tiết trong sách, chỉ được sắp xếp lại và giải thích lại cho dễ hiểu hơn, cấm lược bỏ, cắt gọt hay tóm tắt làm mất chi tiết nào.<br>2) Mọi nội dung mới đều nằm trong khối riêng gắn nhãn 🆕 CẬP NHẬT MỚI, tách khỏi chữ gốc, kèm nguồn là guideline hay thử nghiệm đã kiểm chứng.<br>3) Các chỗ transcript ghi [KHÔNG CHẮC] hay [KHÔNG ĐỌC ĐƯỢC] được giữ nguyên marker trong bài, không đoán, không bịa.<br><br><b>💡 Giải thích của AI:</b><br>Bài build từ chương Ung thư thực quản trong sách ung thư của <span style=\"color:#74c0fc\"><b>TS. Phan Văn Cương</b></span>, sách, transcript photo_001–009. Phần bổ sung đã qua gate citation_audit và depth_check như thường lệ, trong khi phần chữ gốc giữ nguyên và không cần gate lại nội dung gốc.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 0.1 — Nền tảng tối thiểu cần dùng ngay.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">quy-tac-cung</span> <span class=\"tag\">giao-trinh</span>"
+    },
+    {
+      "id": "SURG20B-CARD-002",
+      "note_id": 1793862964400,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chu-goc",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "Khi đọc bài này, người học phải luôn tự hỏi <span style=\"color:#ffd43b\"><b>hai câu</b></span> nào, và vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Câu này là chữ gốc của sách hay khối cập nhật?<br>2) Con số này thuộc về thời điểm nào?<br><br><b>💡 Giải thích của AI:</b><br>Sách dùng số liệu năm <span style=\"color:#ffd43b\"><b>2008 trở về trước</b></span>, trong khi khối cập nhật dùng số liệu tới năm <span style=\"color:#ffd43b\"><b>2025</b></span>, nên cùng một chỉ số ở hai thời điểm có thể khác nhau rất nhiều mà không phải là sai số.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 0.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chu-goc</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-003",
+      "note_id": 1793862964402,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "transcript",
+        "khoang-trong"
+      ],
+      "type": "basic",
+      "front": "Transcript dùng cho bài này gồm những gì, và <span style=\"color:#ff6b6b\"><b>khoảng trống</b></span> nào người học phải biết?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bài chỉ dùng chương thực quản, sách, là 9 ảnh đầu trong một file ZIP ghi tên \"Ung thư thực quản\" nhưng thực tế chứa 7 chương liên tiếp của sách.<br>2) 6 chương còn lại gồm dạ dày, gan, đại tràng, trực tràng, thận và tuyến tiền liệt là 6 bài riêng, theo đúng thứ tự trong transcript.<br>3) Các trang sách 71–136 không có trong file ZIP, nằm giữa chương trực tràng và chương thận, và khoảng trống này không ảnh hưởng chương thực quản.<br><br><b>💡 Giải thích của AI:</b><br>Trong chương <span style=\"color:#74c0fc\"><b>thực quản</b></span> không có chỗ nào ghi [KHÔNG ĐỌC ĐƯỢC]. Các chỗ [KHÔNG CHẮC] gồm tên nước thứ hai sau Trung Quốc, từ \"Gubaroff\" ở phần giải phẫu, vài từ trong mục sinh lý, hai mục \"Hội chứng thiếu máu\" và \"Hạch thượng đòn\", và một cụm từ ở mục điều trị, tất cả đều được giữ nguyên trong bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 0.2 — Phạm vi nguồn và khoảng trống của transcript.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">transcript</span> <span class=\"tag\">khoang-trong</span>"
+    },
+    {
+      "id": "SURG20B-CARD-004",
+      "note_id": 1793862964404,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "loi-danh-so",
+        "phong-benh"
+      ],
+      "type": "basic",
+      "front": "Sách đánh số mục phòng bệnh là <span style=\"color:#ffd43b\"><b>mục 7 đặt sau mục 9 điều trị</b></span>. Đây là lỗi gì và bài giảng xử trí ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là một lỗi đánh số trong sách.<br>2) Bài giảng giữ nguyên nội dung nhưng sắp xếp lại thứ tự cho đúng logic, với ghi chú rõ đây là lỗi đánh số của sách chứ không phải thiếu mục.<br><br><b>💡 Giải thích của AI:</b><br>Chú thích hình ở hai ảnh <span style=\"color:#51cf66\"><b>nội soi</b></span> và X-quang có thông tin định danh bệnh nhân nên đã được lược bỏ khỏi transcript theo quy tắc riêng tư, và bài này không khôi phục các thông tin đó.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 0.2 và 8.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">loi-danh-so</span> <span class=\"tag\">phong-benh</span>"
+    },
+    {
+      "id": "SURG20B-CARD-005",
+      "note_id": 1793862964406,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "dich-te",
+        "18-thang"
+      ],
+      "type": "basic",
+      "front": "Ung thư thực quản xếp <span style=\"color:#ffd43b\"><b>thứ mấy</b></span> về mắc và về tử vong, và thời gian <span style=\"color:#ff6b6b\"><b>sống thêm trung bình</b></span> của bệnh nhân đã có triệu chứng lúc chẩn đoán là bao lâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh hay gặp xếp hàng thứ 9 trong các bệnh ung thư, là nguyên nhân gây tử vong vì ung thư đứng thứ 6.<br>2) Tỉ lệ điều trị khỏi cao nếu được phát hiện sớm, tuy nhiên thường được phát hiện ở giai đoạn muộn.<br>3) Thời gian sống thêm trung bình của bệnh nhân đã có triệu chứng tại thời điểm chẩn đoán là khoảng 18 tháng.<br><br><b>💡 Giải thích của AI:</b><br>Trong 2 thập kỷ qua mặc dù có nhiều tiến bộ trong chẩn đoán và điều trị nhưng sống thêm trung bình vẫn khoảng <span style=\"color:#ffd43b\"><b>18 tháng</b></span>, vì vậy phát hiện sớm là yếu tố quyết định tiên lượng, chứ không phải chỉ do điều trị muộn.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.1 — Đại cương theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">dich-te</span> <span class=\"tag\">18-thang</span>"
+    },
+    {
+      "id": "SURG20B-CARD-006",
+      "note_id": 1793862964408,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "dich-te",
+        "my-2008"
+      ],
+      "type": "basic",
+      "front": "Tại Mỹ năm <span style=\"color:#ffd43b\"><b>2008</b></span>, ung thư thực quản có bao nhiêu ca mới và tử vong, tuổi trung bình mắc bệnh, và chênh lệch <span style=\"color:#ff6b6b\"><b>nam – nữ</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Năm 2008 ung thư thực quản chiếm 1% tổng số ung thư và 6% trong các loại ung thư tiêu hoá, với 16.470 trường hợp mới mắc và 14.280 bệnh nhân tử vong.<br>2) Tuổi trung bình mắc bệnh là 69, hiếm gặp ở bệnh nhân dưới 25 tuổi.<br>3) Ung thư thực quản hay gặp ở nam nhiều gấp 4 lần so với nữ giới, trong đó ung thư biểu mô tuyến hay gặp gấp 8–9 lần ở nam giới hơn so với nữ giới.<br><br><b>💡 Giải thích của AI:</b><br>Vì vậy một bệnh nhân nam <span style=\"color:#ffd43b\"><b>69 tuổi</b></span> tới khám vì nuốt nghẹn là đối tượng phải nghĩ tới ung thư thực quản trước tiên, thay vì chỉ nghĩ tới bệnh lành tính.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">dich-te</span> <span class=\"tag\">my-2008</span>"
+    },
+    {
+      "id": "SURG20B-CARD-007",
+      "note_id": 1793862964410,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "song-5-nam"
+      ],
+      "type": "cloze",
+      "text": "Thời gian sống 5 năm của ung thư thực quản theo sách là {{c1::<span style=\"color:#ffd43b\"><b>10%</b></span>}} trong giai đoạn 1996–2003, tăng từ 5% giai đoạn 1975–1977.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 1.1 — số liệu sống 5 năm của sách.",
+      "front": "Thời gian sống 5 năm của ung thư thực quản theo sách là {{c1::<span style=\"color:#ffd43b\"><b>10%</b></span>}} trong giai đoạn 1996–2003, tăng từ 5% giai đoạn 1975–1977.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 1.1 — số liệu sống 5 năm của sách."
+    },
+    {
+      "id": "SURG20B-CARD-008",
+      "note_id": 1793862964412,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "viet-nam-2008",
+        "globocan"
+      ],
+      "type": "basic",
+      "front": "Tại Việt Nam theo <span style=\"color:#74c0fc\"><b>GLOBOCAN 2008</b></span>, ung thư thực quản có bao nhiêu ca mới và tử vong, và tỉ lệ mắc chuẩn theo tuổi là bao nhiêu? Mô học nào chiếm ưu thế theo thời gian?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Năm 2008 có khoảng 1.511 ca mới mắc, tỉ lệ tử vong là 1.157 ca; tỉ lệ mắc chuẩn và tỉ lệ tử vong chuẩn theo tuổi là 1,9/100.000 dân và 1,4/100.000 dân.<br>2) Những năm 70, khoảng 90% <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> là ung thư biểu mô vảy; ung thư biểu mô tuyến tăng nhanh và chiếm 60%–70% trong những năm gần đây.<br>3) Tỉ lệ mắc cao ở các nước Trung Quốc, [KHÔNG CHẮC: tên nước thứ hai], Iran, Pháp và Nam Phi.<br><br><b>💡 Giải thích của AI:</b><br>Tên nước thứ hai sau Trung Quốc được giữ nguyên marker [KHÔNG CHẮC] vì trong ảnh đọc giống \"Trung Quốc\" lặp lại, có thể là lỗi in, không được đoán thay.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">viet-nam-2008</span> <span class=\"tag\">globocan</span>"
+    },
+    {
+      "id": "SURG20B-CARD-009",
+      "note_id": 1793862964414,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "18-thang"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy rằng thời gian sống thêm trung bình của ung thư thực quản là <span style=\"color:#ffd43b\"><b>khoảng 18 tháng</b></span> cho mọi bệnh nhân. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Con số 18 tháng chỉ áp cho bệnh nhân đã có triệu chứng tại thời điểm chẩn đoán, theo sách.<br>2) Bệnh có tỉ lệ điều trị khỏi cao nếu được phát hiện sớm, nên không được áp con số 18 tháng cho bệnh nhân phát hiện sớm chưa có triệu chứng.<br>3) Sống thêm phụ thuộc giai đoạn lúc chẩn đoán nhiều hơn bất kỳ yếu tố nào khác.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bẫy do tách con số khỏi quần thể của nó: <span style=\"color:#ff6b6b\"><b>đã có triệu chứng lúc chẩn đoán</b></span> mới sống thêm trung bình khoảng 18 tháng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">18-thang</span>"
+    },
+    {
+      "id": "SURG20B-CARD-010",
+      "note_id": 1793862964416,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "viet-nam-2024",
+        "globocan",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Theo fact sheet <span style=\"color:#74c0fc\"><b>GLOBOCAN 2024</b></span> cho Việt Nam, ung thư thực quản năm 2024 có bao nhiêu ca mới và tử vong, xếp hạng mấy, và ở nam giới ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cả 2 giới năm 2024 có 6.792 ca mới, xếp hạng 8, chiếm 3,8% tổng số ca ung thư, với nguy cơ tích lũy 0,66%; và 6.467 ca tử vong, xếp hạng 6, chiếm 5,8%, với nguy cơ tích lũy 0,63%, cùng hiện mắc 5 năm 9.796 ca.<br>2) Ở nam giới, ung thư thực quản là ung thư thường gặp thứ 5, với 6.362 ca mới, chiếm 7,4% ca ung thư ở nam.<br>3) Tỉ lệ chuẩn hoá theo tuổi trong fact sheet không trích được rõ do bố cục bảng vỡ khi trích text, nên bài này không dạy số đó.<br><br><b>💡 Giải thích của AI:</b><br>Đây là khối 🆕 CẬP NHẬT MỚI, nguồn là fact sheet <span style=\"color:#74c0fc\"><b>GLOBOCAN</b></span> 2024 của IARC đã đọc trực tiếp, khác hẳn số GLOBOCAN 2008 trong sách là 1.511 ca mới và 1.157 ca tử vong.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.2 🆕 — fact sheet GLOBOCAN 2024 cho Việt Nam.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">viet-nam-2024</span> <span class=\"tag\">globocan</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-011",
+      "note_id": 1793862964418,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "globocan"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Trình bày số liệu Việt Nam từ 1.511 ca mới năm 2008 lên 6.792 ca năm 2024 như một <span style=\"color:#ff6b6b\"><b>xu hướng tăng thuần túy</b></span> của bệnh. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phương pháp ước tính và độ bao phủ đăng ký ung thư đã thay đổi giữa năm 2008 và năm 2024, nên hai bộ số không được trình bày như một xu hướng tăng thuần túy.<br>2) Phải đọc hai bộ số ở hai thời điểm khác nhau, kèm cờ về phương pháp.<br>3) Đây là bẫy số 5 trong danh sách mười bẫy của bài.<br><br><b>💡 Giải thích của AI:</b><br>Tương tự, số ca mới và tử vong riêng cho <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> toàn cầu năm 2022 chưa trích được từ nguồn đã đọc, nên bài này không dạy số toàn cầu riêng cho thực quản.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.2 🆕 và 9.2 — Bẫy 5.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">globocan</span>"
+    },
+    {
+      "id": "SURG20B-CARD-012",
+      "note_id": 1793862964420,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "song-5-nam",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Tỉ lệ <span style=\"color:#ffd43b\"><b>sống 5 năm</b></span> hiện tại của ung thư thực quản có một con số duy nhất cho mọi bệnh nhân không? Khoảng dao động toàn cầu ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không có một con số duy nhất đã kiểm chứng; tỉ lệ sống 5 năm khoảng 10% trong sách là số liệu giai đoạn 1996–2003.<br>2) Sau năm 2010, sống tương đối 5 năm chuẩn hoá theo tuổi cao nhất ở Jordan 41,1% giai đoạn 2010–2014, thấp nhất ở Ấn Độ 4,1%, Trung Quốc 33,4% giai đoạn 2015–2017.<br>3) Hàn Quốc tăng 12,7 điểm phần trăm và Trung Quốc tăng 10,5 điểm phần trăm giai đoạn 2000–2017; sống cao hơn ở nữ từ 0,4 tới 10,9 điểm phần trăm; biểu mô tuyến và biểu mô vảy tương tự nhau với chênh lệch khoảng 4%.<br><br><b>💡 Giải thích của AI:</b><br>Tiên lượng phụ thuộc quốc gia, giai đoạn và <span style=\"color:#74c0fc\"><b>mô học</b></span>, và không được dạy một con số sống 5 năm hiện tại duy nhất cho mọi bệnh nhân — đây là bẫy số 2 của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 1.2 🆕 — tổng quan sống còn toàn cầu từ đăng ký ung thư dân số tới cuối năm 2023.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">song-5-nam</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-013",
+      "note_id": 1793862964422,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "toan-cau-2022"
+      ],
+      "type": "cloze",
+      "text": "Toàn cầu năm 2022 có gần {{c1::<span style=\"color:#ffd43b\"><b>20 triệu ca ung thư mới gồm ung thư da không hắc tố, và 9,7 triệu ca tử vong, với số ca mới dự báo đạt 35 triệu vào năm 2050</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 1.2 🆕 — số chung cho mọi ung thư, không phải số riêng cho ung thư thực quản.",
+      "front": "Toàn cầu năm 2022 có gần {{c1::<span style=\"color:#ffd43b\"><b>20 triệu ca ung thư mới gồm ung thư da không hắc tố, và 9,7 triệu ca tử vong, với số ca mới dự báo đạt 35 triệu vào năm 2050</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 1.2 🆕 — số chung cho mọi ung thư, không phải số riêng cho ung thư thực quản."
+    },
+    {
+      "id": "SURG20B-CARD-014",
+      "note_id": 1793862964424,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-phau",
+        "killian"
+      ],
+      "type": "basic",
+      "front": "Thực quản dài bao nhiêu, từ đâu tới đâu theo <span style=\"color:#74c0fc\"><b>cung răng</b></span>, và có mấy <span style=\"color:#ff6b6b\"><b>chỗ hẹp sinh lý</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thực quản là một ống cơ dài 25–30 cm đi từ miệng thực quản, cách cung răng khoảng 15 cm, đến tâm vị, cách cung răng khoảng 40 cm.<br>2) Miệng thực quản còn được gọi là miệng Killian, được bao bọc bởi các cơ thắt hầu nên tạo thành một khe, hai đầu khe là những xoang van [KHÔNG CHẮC: \"Gubaroff\"], góc His chống lại sự trào ngược của dịch dạ dày lên thực quản.<br>3) Thực quản có 4 chỗ hẹp sinh lý tương ứng với sụn nhẫn, <span style=\"color:#74c0fc\"><b>quai động mạch chủ</b></span>, phế quản trái, và cơ hoành.<br>4) Phần lớn thực quản nằm trong lồng ngực, còn 2–4 cm thực quản nằm trong ổ bụng.<br><br><b>💡 Giải thích của AI:</b><br>Từ \"Gubaroff\" được giữ nguyên marker [KHÔNG CHẮC] vì ảnh mờ, không đoán thay, đúng quy tắc giữ nguyên transcript.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.1 — Giải phẫu thực quản theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-phau</span> <span class=\"tag\">killian</span>"
+    },
+    {
+      "id": "SURG20B-CARD-015",
+      "note_id": 1793862964426,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-phau",
+        "doan-thuc-quan"
+      ],
+      "type": "basic",
+      "front": "Thực quản chia làm <span style=\"color:#74c0fc\"><b>4 đoạn</b></span> nào với chiều dài mỗi đoạn, và trên thực tế chia làm <span style=\"color:#74c0fc\"><b>3 phần</b></span> theo cung răng ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đoạn cổ từ ngang sụn nhẫn đến bờ trên hõm ức, dài 5–6 cm; đoạn ngực dài 16–25 cm, tiếp theo đoạn trên đến ngang cơ hoành; đoạn hoành dài 1–1,5 cm, thực quản chui qua lỗ thực quản của cơ hoành; đoạn bụng dài 2–3 cm, từ lỗ cơ hoành đến lỗ tâm vị dạ dày.<br>2) Trên thực tế chia làm 3 đoạn tính từ cung răng: một phần ba trên nằm trong khoảng từ 15–25 cm; một phần ba giữa nằm trong khoảng từ 26–32 cm; một phần ba dưới nằm trong khoảng từ 33 cm đến cơ thắt tâm vị.<br><br><b>💡 Giải thích của AI:</b><br>Một khối u ở đoạn ngực giữa, dài 16–25 cm, và phẫu thuật viên phải biết đúng đoạn để chọn đường mổ và mức cắt, vì mỗi đoạn có quan hệ giải phẫu khác nhau với <span style=\"color:#74c0fc\"><b>quai động mạch chủ</b></span>, phế quản trái và cơ hoành.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-phau</span> <span class=\"tag\">doan-thuc-quan</span>"
+    },
+    {
+      "id": "SURG20B-CARD-016",
+      "note_id": 1793862964428,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-phau",
+        "tinh-mach"
+      ],
+      "type": "basic",
+      "front": "Máu tĩnh mạch của từng <span style=\"color:#74c0fc\"><b>một phần ba thực quản</b></span> đổ về đâu, và vì sao vị trí u quyết định hướng di căn đầu tiên?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Máu tĩnh mạch của một phần ba thực quản trên đổ vào tĩnh mạch chủ trên, máu của một phần ba thực quản giữa đổ vào tĩnh mạch Azygos, còn máu của một phần ba thực quản dưới đổ vào tĩnh mạch cửa qua các tĩnh mạch dạ dày.<br>2) Động mạch tưới máu gồm các nhánh nhỏ của động mạch chủ ngực, các nhánh của động mạch hoành dưới, động mạch vành vị, động mạch giáp dưới và động mạch thực quản giữa.<br>3) Một khối u ở một phần ba dưới thực quản di căn theo đường tĩnh mạch cửa về gan, trong khi một khối u ở một phần ba trên di căn theo tĩnh mạch chủ trên.<br><br><b>💡 Giải thích của AI:</b><br>Kiến thức dẫn lưu tĩnh mạch theo đoạn này giải thích vì sao vị trí u quyết định hướng <span style=\"color:#ff6b6b\"><b>di căn</b></span> đầu tiên, và khớp với tỉ lệ di căn gan 35% của sách ở phần chẩn đoán.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-phau</span> <span class=\"tag\">tinh-mach</span>"
+    },
+    {
+      "id": "SURG20B-CARD-017",
+      "note_id": 1793862964430,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-phau",
+        "than-kinh",
+        "thanh-thuc-quan"
+      ],
+      "type": "basic",
+      "front": "Thần kinh thực quản gồm những gì, và thành thực quản có <span style=\"color:#74c0fc\"><b>4 lớp</b></span> nào theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thần kinh phó giao cảm của thực quản bắt đầu từ dây X và các nhánh của nó, tiếp nối với đám rối thần kinh Auerbach.<br>2) Thần kinh giao cảm bắt nguồn từ các rễ cổ lưng, có những tiếp nối ở đoạn hạch cổ trên, giữa và hạch sao ngực để tới thực quản; hệ thống giao cảm không tham gia vào chức năng vận động của thực quản, chỉ có tác động dẫn truyền cảm giác.<br>3) Thành thực quản được chia thành 4 lớp tính từ trong ra: niêm mạc, dưới niêm mạc, lớp cơ, và lớp thanh mạc.<br><br><b>💡 Giải thích của AI:</b><br>Lớp thứ tư theo sách là thanh mạc, nhưng khối 🆕 ngay sau làm rõ phần lớn <span style=\"color:#74c0fc\"><b>thực quản</b></span> ngực không có thanh mạc mà chỉ có ngoại mạc, chỉ đoạn bụng ngắn 2–3 cm mới có thanh mạc.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-phau</span> <span class=\"tag\">than-kinh</span> <span class=\"tag\">thanh-thuc-quan</span>"
+    },
+    {
+      "id": "SURG20B-CARD-018",
+      "note_id": 1793862964432,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "killian"
+      ],
+      "type": "cloze",
+      "text": "Miệng thực quản còn được gọi là {{c1::<span style=\"color:#74c0fc\"><b>miệng Killian</b></span>}}, được bao bọc bởi các cơ thắt hầu nên tạo thành một khe.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 2.1.",
+      "front": "Miệng thực quản còn được gọi là {{c1::<span style=\"color:#74c0fc\"><b>miệng Killian</b></span>}}, được bao bọc bởi các cơ thắt hầu nên tạo thành một khe.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 2.1."
+    },
+    {
+      "id": "SURG20B-CARD-019",
+      "note_id": 1793862964434,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ngoai-mac",
+        "thanh-mac",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Lớp ngoài của thực quản là <span style=\"color:#74c0fc\"><b>thanh mạc hay ngoại mạc</b></span>, và vì sao điểm này làm ung thư thực quản xâm lấn sớm hơn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phần lớn thực quản trong lồng ngực không có lớp thanh mạc mà được bao bọc bởi lớp ngoại mạc là mô liên kết lỏng lẻo, chỉ đoạn bụng ngắn 2–3 cm mới có thanh mạc như các tạng trong ổ bụng khác.<br>2) Chính vì thiếu lớp thanh mạc mà ung thư thực quản xâm lấn ra ngoài thành và vào tổ chức lân cận sớm hơn so với các tạng có thanh mạc.<br>3) Đây là ghi chú làm rõ, không thay đổi chữ gốc của sách.<br><br><b>💡 Giải thích của AI:</b><br>Người học vẫn phải thuộc bốn lớp theo cách sách trình bày khi làm bài thi theo sách, đồng thời hiểu đúng bản chất <span style=\"color:#74c0fc\"><b>giải phẫu</b></span> khi đọc tài liệu hiện đại.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.2 🆕 — Lớp ngoài của thực quản.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ngoai-mac</span> <span class=\"tag\">thanh-mac</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-020",
+      "note_id": 1793862964436,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "ngoai-mac"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy rằng thành thực quản được bao bởi <span style=\"color:#ff6b6b\"><b>lớp thanh mạc ở mọi đoạn</b></span> như các tạng trong ổ bụng khác. Sai ở đâu, và khi thi theo giáo trình thì thuộc ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai vì phần lớn thực quản ngực chỉ có lớp ngoại mạc là mô liên kết lỏng lẻo, chỉ đoạn bụng ngắn 2–3 cm mới có thanh mạc.<br>2) Khi thi theo sách, vẫn thuộc bốn lớp theo cách sách trình bày là niêm mạc, dưới niêm mạc, lớp cơ và lớp thanh mạc.<br>3) Khi đọc tài liệu hiện đại thì hiểu đúng là ngoại mạc ở đoạn ngực.<br><br><b>💡 Giải thích của AI:</b><br>Hai lớp trình bày này không mâu thuẫn nhau nếu phân biệt rõ \"chữ gốc của sách để thi\" với \"bản chất <span style=\"color:#74c0fc\"><b>giải phẫu</b></span> hiện đại\".<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.2 🆕.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">ngoai-mac</span>"
+    },
+    {
+      "id": "SURG20B-CARD-021",
+      "note_id": 1793862964438,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "sinh-ly",
+        "co-that"
+      ],
+      "type": "basic",
+      "front": "Thực quản có <span style=\"color:#74c0fc\"><b>hai chức năng chính</b></span> nào, và cơ thắt thực quản trên giữ đóng nhờ gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai chức năng chính của <span style=\"color:#74c0fc\"><b>thực quản</b></span> là vận chuyển viên nuốt từ thực quản đến dạ dày và ngăn dòng chảy ngược của các chất chứa trong dạ dày ruột.<br>2) Chức năng vận chuyển được hoàn thành bởi các cơ nhu động của thực quản; dòng chảy được ngăn lại bởi hai cơ thắt của thực quản, vẫn đóng giữa các lần nuốt.<br>3) Cơ thắt thực quản trên vẫn đóng là nhờ tính đàn hồi của thành của nó và có trương lực của cơ [KHÔNG CHẮC: \"nhẫn hầu\"] và các cơ [KHÔNG CHẮC: \"hậu dưới\"].<br><br><b>💡 Giải thích của AI:</b><br>Các từ trong ngoặc được giữ nguyên marker [KHÔNG CHẮC] vì ảnh mờ, không đoán thay. Sự co thắt trên là do ức chế sự co cơ và di chuyển ra phía trước của thanh quản do các cơ trên móng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.3 — Sinh lý thực quản theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">sinh-ly</span> <span class=\"tag\">co-that</span>"
+    },
+    {
+      "id": "SURG20B-CARD-022",
+      "note_id": 1793862964440,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chuoi-co-che",
+        "trao-nguoc",
+        "barrett"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>Chuỗi 1 (trào ngược và cơ thắt dưới)</b></span> theo 5 tầng, từ giải phẫu tới hậu quả?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1, giải phẫu: cơ thắt thực quản dưới có trương lực cơ sinh tại nó, được bổ sung bởi các cột cơ hoành bao quanh và góc His chống trào ngược.<br>2) Tầng 2, cơ chế: trương lực cơ thắt và cơ hoành giữ áp lực trong cơ thắt cao hơn áp lực dạ dày, ngăn dòng chảy ngược, và áp lực giảm một cách phản xạ khi ợ hơi hay dạ dày căng.<br>3) Tầng 3, lâm sàng: khi cơ thắt yếu hay góc His mất, dịch dạ dày trào ngược lên thực quản gây viêm.<br>4) Tầng 4, quyết định: đánh giá trào ngược và viêm thực quản khi có triệu chứng, và bảo vệ niêm mạc khỏi tiếp xúc acid kéo dài.<br>5) Tầng 5, hậu quả: trào ngược mạn tính gây viêm loét thực quản Barrett, là yếu tố nguy cơ quan trọng của ung thư biểu mô tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi này nối sinh lý với bệnh nguyên: cơ thắt dưới yếu không chỉ gây trào ngược mà còn mở đường cho Barrett rồi <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span>, như phần bệnh nguyên trình bày.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 2.3 — Chuỗi 1 (trào ngược và cơ thắt dưới).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chuoi-co-che</span> <span class=\"tag\">trao-nguoc</span> <span class=\"tag\">barrett</span>"
+    },
+    {
+      "id": "SURG20B-CARD-023",
+      "note_id": 1793862964442,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "co-that-duoi"
+      ],
+      "type": "cloze",
+      "text": "Chức năng chống hồi lưu của cơ thắt thực quản dưới được bổ sung bằng {{c1::<span style=\"color:#74c0fc\"><b>các cột cơ hoành</b></span>}} đã bao quanh cơ thắt.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 2.3.",
+      "front": "Chức năng chống hồi lưu của cơ thắt thực quản dưới được bổ sung bằng {{c1::<span style=\"color:#74c0fc\"><b>các cột cơ hoành</b></span>}} đã bao quanh cơ thắt.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 2.3."
+    },
+    {
+      "id": "SURG20B-CARD-024",
+      "note_id": 1793862964444,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "benh-nguyen",
+        "tuyen",
+        "vay"
+      ],
+      "type": "basic",
+      "front": "Bệnh nguyên của <span style=\"color:#74c0fc\"><b>ung thư biểu mô tuyến</b></span> và của <span style=\"color:#ff6b6b\"><b>ung thư biểu mô vảy</b></span> theo sách gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nguyên ung thư biểu mô tuyến gồm viêm loét thực quản Barrett chủ yếu là hậu quả của viêm trào ngược dạ dày–thực quản; béo phì; và hội chứng trào ngược dạ dày–thực quản.<br>2) Bệnh nguyên ung thư biểu mô vảy gồm hút thuốc lá; uống rượu; và các yếu tố khác gồm sự tăng sừng hoá, nhược cơ, virus HPV, các bệnh thuộc vùng ổ bụng, môi trường làm việc ở các nhà máy, và loạn sản nặng với nội soi thực quản 3 tháng một lần.<br>3) Sách xếp nội soi thực quản 3 tháng một lần vào mục loạn sản nặng, tức là theo dõi sát khi đã có loạn sản nặng, và người học phải nhớ đây là theo dõi, không phải điều trị.<br><br><b>💡 Giải thích của AI:</b><br>Hai mô học có hai con đường khác nhau: tuyến đi qua <span style=\"color:#74c0fc\"><b>trào ngược</b></span> rồi Barrett, vảy đi qua tổn thương niêm mạc mạn tính do thuốc lá và rượu.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.1 — Bệnh nguyên theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">benh-nguyen</span> <span class=\"tag\">tuyen</span> <span class=\"tag\">vay</span>"
+    },
+    {
+      "id": "SURG20B-CARD-025",
+      "note_id": 1793862964446,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chuoi-co-che",
+        "barrett"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>Chuỗi 2 (trào ngược → Barrett → biểu mô tuyến)</b></span> theo 5 tầng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1, cơ chế: dịch dạ dày trào ngược kéo dài làm tổn thương niêm mạc vảy của thực quản dưới.<br>2) Tầng 2, tế bào: niêm mạc vảy bị thay thế bằng biểu mô trụ dạng ruột, gọi là thực quản Barrett, để thích nghi với môi trường acid.<br>3) Tầng 3, lâm sàng: Barrett thường không có triệu chứng riêng, chỉ phát hiện qua nội soi ở người trào ngược mạn tính.<br>4) Tầng 4, quyết định: theo dõi Barrett bằng nội soi và sinh thiết để phát hiện loạn sản sớm, vì loạn sản là bước trung gian.<br>5) Tầng 5, hậu quả: loạn sản tiến triển thành ung thư biểu mô tuyến, và phát hiện ở giai đoạn loạn sản hay ung thư sớm cho phép cắt hớt nội soi thay vì cắt thực quản.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân béo phì có trào ngược mạn tính, và con đường là trào ngược gây viêm, viêm gây Barrett, Barrett gây loạn sản, loạn sản gây <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span>.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.1 — Chuỗi 2 (trào ngược → Barrett → biểu mô tuyến).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chuoi-co-che</span> <span class=\"tag\">barrett</span>"
+    },
+    {
+      "id": "SURG20B-CARD-026",
+      "note_id": 1793862964448,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chuoi-co-che",
+        "thuoc-la",
+        "ruou"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>Chuỗi 3 (thuốc lá và rượu → biểu mô vảy)</b></span> theo 5 tầng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1, cơ chế: khói thuốc và rượu tiếp xúc trực tiếp và kéo dài với niêm mạc thực quản, gây tổn thương và đột biến tích lũy.<br>2) Tầng 2, tế bào: niêm mạc vảy tăng sừng hoá và loạn sản, với các thay đổi di truyền tích lũy theo thời gian tiếp xúc.<br>3) Tầng 3, lâm sàng: bệnh thường tiến triển lặng lẽ, không có triệu chứng sớm, và chỉ biểu hiện khi khối u đã hẹp lòng thực quản.<br>4) Tầng 4, quyết định: hỏi kỹ tiền sử hút thuốc và uống rượu ở mọi bệnh nhân nuốt nghẹn, và nội soi sớm thay vì chờ đợi.<br>5) Tầng 5, hậu quả: ung thư biểu mô vảy thường phát hiện muộn, và tiên lượng phụ thuộc giai đoạn lúc chẩn đoán nhiều hơn bất kỳ yếu tố nào khác.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân hút thuốc lá và uống rượu nhiều năm, và con đường bệnh nguyên là tổn thương niêm mạc mạn tính gây <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>, với loạn sản nặng là bước trung gian cần theo dõi nội soi sát.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.1 — Chuỗi 3 (thuốc lá và rượu → biểu mô vảy).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chuoi-co-che</span> <span class=\"tag\">thuoc-la</span> <span class=\"tag\">ruou</span>"
+    },
+    {
+      "id": "SURG20B-CARD-027",
+      "note_id": 1793862964450,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "benh-nguyen"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Tự suy diễn ý nghĩa của <span style=\"color:#ff6b6b\"><b>\"nhược cơ\"</b></span> và <span style=\"color:#ff6b6b\"><b>\"các bệnh thuộc vùng ổ bụng\"</b></span> trong danh sách bệnh nguyên biểu mô vảy của sách. Vì sao không được làm vậy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sách liệt kê \"nhược cơ\" và \"các bệnh thuộc vùng ổ bụng\" một cách vắn tắt, không giải thích thêm, và bài này giữ nguyên hai mục đó đúng như trong sách, không suy diễn thêm ý nghĩa.<br>2) Khi thi theo sách, hai mục này vẫn là đáp án trong danh sách bệnh nguyên của <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>.<br>3) Khi đi lâm sàng thì không được tự gán cho chúng một cơ chế cụ thể chưa được sách nêu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là trường hợp giữ nguyên chữ gốc: thiếu giải thích không có nghĩa là được bịa thêm giải thích.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">benh-nguyen</span>"
+    },
+    {
+      "id": "SURG20B-CARD-028",
+      "note_id": 1793862964452,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "barrett",
+        "nguy-co",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Nguy cơ tuyệt đối ung thư biểu mô tuyến ở bệnh nhân <span style=\"color:#74c0fc\"><b>Barrett</b></span> là bao nhiêu mỗi năm, và tỉ số nguy cơ so với dân số chung là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu đoàn hệ dân số toàn Đan Mạch từ năm 1992 tới năm 2009, với 11.028 bệnh nhân Barrett và theo dõi trung vị 5,2 năm, ghi nhận nguy cơ ung thư biểu mô tuyến hàng năm là 0,12%, tức 1,2 trên 1.000 người-năm, với tỉ số nguy cơ 11,3 so với dân số chung.<br>2) Nguy cơ ở người có loạn sản độ thấp là 5,1 trên 1.000 người-năm, và ở người không loạn sản là 1,0 trên 1.000 người-năm.<br>3) Guideline về Barrett của Hội Tiêu hoá Hoa Kỳ bản 2022 có tồn tại, nhưng abstract và toàn văn không lấy được trong đợt nghiên cứu này, nên bài này không trích khoảng theo dõi cụ thể nào từ guideline đó.<br><br><b>💡 Giải thích của AI:</b><br>Phải phân biệt hai con số: tỉ số nguy cơ cao gấp <span style=\"color:#ffd43b\"><b>11,3 lần</b></span>, nhưng nguy cơ tuyệt đối chỉ <span style=\"color:#ffd43b\"><b>0,12% mỗi năm</b></span>, và chính sự chênh lệch này làm nền cho câu hỏi về lý do theo dõi liên tục ở người Barrett không loạn sản.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.2 🆕 — nghiên cứu đoàn hệ Đan Mạch về Barrett.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">barrett</span> <span class=\"tag\">nguy-co</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-029",
+      "note_id": 1793862964454,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "barrett"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Thấy tỉ số nguy cơ Barrett là <span style=\"color:#ffd43b\"><b>11,3 lần</b></span> thì kết luận nguy cơ tuyệt đối rất cao và theo dõi liên tục là hiển nhiên. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tỉ số nguy cơ 11,3 lần là nguy cơ tương đối, còn nguy cơ tuyệt đối chỉ 0,12% mỗi năm, thấp hơn nhiều so với giả định cũ 0,5% mỗi năm.<br>2) Theo dõi liên tục ở người Barrett không loạn sản vì vậy là câu hỏi mở, không phải điều hiển nhiên.<br>3) Không được trích khoảng <span style=\"color:#51cf66\"><b>theo dõi</b></span> cụ thể từ guideline Barrett ACG 2022 vì abstract và toàn văn đều không lấy được.<br><br><b>💡 Giải thích của AI:</b><br>Đây là mâu thuẫn thứ năm của bài: nguy cơ tương đối cao nhưng nguy cơ tuyệt đối thấp, và người học phải dạy cả hai con số cùng nhau.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.2 🆕 và 9.1 — Mâu thuẫn thứ năm.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">barrett</span>"
+    },
+    {
+      "id": "SURG20B-CARD-030",
+      "note_id": 1793862964456,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "hpv",
+        "vay",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 <span style=\"color:#ff6b6b\"><b>HPV</b></span> có phải là yếu tố nguy cơ chắc chắn của ung thư biểu mô vảy thực quản không? Tỉ lệ dương tính gộp là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một phân tích gộp với 152 nghiên cứu và 10.234 ca biểu mô vảy ghi nhận tỉ lệ HPV dương tính gộp là 30,6%, nhưng khác biệt lớn giữa các vùng địa lý, với phân tích meta-regression có ý nghĩa thống kê, và không phải do phương pháp phát hiện.<br>2) Kết luận của phân tích là HPV có thể quan trọng chỉ ở vùng có tỉ lệ mắc cao, và ung thư biểu mô vảy có thể có bệnh nguyên khác nhau giữa vùng mắc thấp và vùng mắc cao.<br>3) Người học phải dạy HPV như yếu tố liên quan chưa chứng minh nhân quả, không dạy HPV như yếu tố nguy cơ chắc chắn.<br><br><b>💡 Giải thích của AI:</b><br>Không được suy ra rằng tiêm phòng HPV ngừa được <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span>, vì không có bằng chứng nào trong tập đã đọc cho kết luận đó — đây là bẫy số 9 của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.2 🆕 — phân tích gộp HPV và biểu mô vảy.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">hpv</span> <span class=\"tag\">vay</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-031",
+      "note_id": 1793862964458,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "dai-the",
+        "60-25-15"
+      ],
+      "type": "basic",
+      "front": "Về đại thể, ung thư thực quản có <span style=\"color:#74c0fc\"><b>ba dạng</b></span> nào, chiếm tỉ lệ bao nhiêu mỗi dạng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khối đầu là một vùng dày lên của niêm mạc có màu trắng xám; sau khoảng thời gian từ vài tháng đến vài năm, tổn thương phát triển thành các dạng sau, riêng biệt hoặc phối hợp.<br>2) Dạng chồi sùi nhỏ vào lòng ống chiếm 60%; dạng loét chiếm 25% do khối u bị hoại tử, ăn sâu xuống bên dưới; và dạng thâm nhiễm lan tỏa chiếm 15% làm dày cứng thành thực quản và hẹp lòng.<br>3) Người học phải nhớ tỉ lệ ba dạng đại thể 60%, 25% và 15% là số liệu của sách, và không có nguồn cập nhật nào trong tập đã đọc để đối chiếu.<br><br><b>💡 Giải thích của AI:</b><br>Một khối u dạng chồi sùi lồi vào lòng sẽ gây <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> sớm hơn vì hẹp lòng nhanh, trong khi dạng thâm nhiễm lan tỏa làm dày cứng thành và hẹp lòng từ từ, nên nuốt nghẹn xuất hiện muộn hơn nhưng khi xuất hiện thì thành đã dày cứng và khó cắt.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.3 — Giải phẫu bệnh theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">dai-the</span> <span class=\"tag\">60-25-15</span>"
+    },
+    {
+      "id": "SURG20B-CARD-032",
+      "note_id": 1793862964460,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "dai-the",
+        "thung",
+        "vi-the"
+      ],
+      "type": "basic",
+      "front": "Khối u dạng loét có thể <span style=\"color:#ff6b6b\"><b>thủng vào đâu</b></span>, gây biến chứng gì? Về vi thể, mô học nào chiếm đa số?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dạng loét do khối u bị hoại tử, ăn sâu xuống bên dưới, có thể thủng gây phế quản, động mạch chủ, hoặc màng bao tim.<br>2) Thủng vào phế quản gây rò thực quản–phế quản, vào động mạch chủ gây chảy máu ồ ạt, hay vào màng bao tim gây viêm màng ngoài tim, và ba biến chứng thủng này đều là cấp cứu.<br>3) Về vi thể, hầu hết các trường hợp mới được chẩn đoán là ung thư biểu mô vảy, có ít hơn 1% là lymphoma, u hắc tố, và ung thư tế bào nhỏ.<br><br><b>💡 Giải thích của AI:</b><br>Ba biến chứng thủng này khớp với các nhánh cấp cứu trong BOX ĐỎ ở phần triệu chứng: khó thở đột ngột, đau ngực dữ dội và dấu hiệu <span style=\"color:#ff6b6b\"><b>viêm trung thất</b></span>.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.3.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">dai-the</span> <span class=\"tag\">thung</span> <span class=\"tag\">vi-the</span>"
+    },
+    {
+      "id": "SURG20B-CARD-033",
+      "note_id": 1793862964462,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chuoi-co-che",
+        "di-can"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>Chuỗi 4 (xâm lấn thành → hạch → di căn xa)</b></span> theo 5 tầng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1, giải phẫu: thành thực quản mỏng, không có thanh mạc ở đoạn ngực, và hệ bạch huyết phong phú trong lớp dưới niêm mạc.<br>2) Tầng 2, cơ chế: tế bào ung thư xâm lấn qua các lớp thành, vào mạch bạch huyết và mạch máu, và theo đường bạch huyết tới hạch vùng rồi theo đường tĩnh mạch tới tạng xa.<br>3) Tầng 3, lâm sàng: xâm lấn tại chỗ gây nuốt nghẹn và đau, di căn hạch gây hạch to, di căn xa gây triệu chứng tại tạng di căn như gan và xương.<br>4) Tầng 4, quyết định: chẩn đoán giai đoạn bằng chụp cắt lớp, siêu âm nội soi, và chụp PET để xác định mức xâm lấn, hạch, và di căn xa trước khi chọn điều trị.<br>5) Tầng 5, hậu quả: giai đoạn càng cao thì càng ít khả năng mổ triệt căn, và điều trị chuyển sang đa mô thức hay giảm nhẹ.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi này giải thích vì sao thiếu <span style=\"color:#74c0fc\"><b>thanh mạc</b></span> ở đoạn ngực, đã dạy ở khối cập nhật về lớp ngoài, làm ung thư xâm lấn ra ngoài thành sớm hơn.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 3.3 — Chuỗi 4 (xâm lấn thành → hạch → di căn xa).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chuoi-co-che</span> <span class=\"tag\">di-can</span>"
+    },
+    {
+      "id": "SURG20B-CARD-034",
+      "note_id": 1793862964464,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "dai-the"
+      ],
+      "type": "cloze",
+      "text": "Về đại thể, ung thư thực quản có ba dạng: {{c1::<span style=\"color:#ff6b6b\"><b>dạng chồi sùi nhỏ vào lòng ống chiếm 60%, dạng loét chiếm 25%, và dạng thâm nhiễm lan tỏa chiếm 15%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 3.3.",
+      "front": "Về đại thể, ung thư thực quản có ba dạng: {{c1::<span style=\"color:#ff6b6b\"><b>dạng chồi sùi nhỏ vào lòng ống chiếm 60%, dạng loét chiếm 25%, và dạng thâm nhiễm lan tỏa chiếm 15%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 3.3."
+    },
+    {
+      "id": "SURG20B-CARD-035",
+      "note_id": 1793862964466,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "nuot-nghen",
+        "90-phan-tram"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Nuốt nghẹn</b></span> gặp ở bao nhiêu phần trăm bệnh nhân, diễn tiến ra sao, và toàn thân biểu hiện thế nào theo giai đoạn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nuốt nghẹn, gặp tới 90%, là triệu chứng chính nhưng thường ở giai đoạn muộn của bệnh; lúc đầu nuốt nghẹn với thức ăn đặc, về sau nuốt nghẹn cả khi uống nước.<br>2) Về toàn thân, ở giai đoạn đầu thường không có biểu hiện gì đặc biệt, giai đoạn sau có biểu hiện sụt cân nhanh do bệnh nhân không ăn uống được.<br>3) Hai mục [KHÔNG CHẮC: \"Hội chứng thiếu máu\"] và [KHÔNG CHẮC: \"Hạch thượng đòn\"] được giữ nguyên marker vì ảnh mờ, không đoán thay.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân lúc đầu chỉ nghẹn khi ăn thịt hay cơm khô, vài tháng sau nghẹn cả khi uống nước, và tiến triển từ nghẹn đặc sang nghẹn lỏng này là dấu hiệu hẹp lòng thực quản tăng dần, không phải bệnh <span style=\"color:#74c0fc\"><b>trào ngược</b></span> đơn thuần.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 4.1 — Toàn thân và cơ năng theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">nuot-nghen</span> <span class=\"tag\">90-phan-tram</span>"
+    },
+    {
+      "id": "SURG20B-CARD-036",
+      "note_id": 1793862964468,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-doan-muon",
+        "trieu-chung"
+      ],
+      "type": "basic",
+      "front": "Các triệu chứng ở <span style=\"color:#ff6b6b\"><b>giai đoạn muộn</b></span> của ung thư thực quản gồm những gì, kể cả dấu hiệu thực thể?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Có thể gặp hiện tượng ợ, trào ngược thức ăn qua đường miệng khi nuốt do hẹp thực quản trên chỗ có u; có thể có ứ đọng và giãn thực quản trên chỗ có u.<br>2) Nuốt khó, nuốt đau; nôn máu; giọng khàn; khó thở, hơi thở có mùi hôi do giai đoạn muộn của bệnh.<br>3) Về thực thể, có thể thấy được một số triệu chứng sau nhưng thường ở giai đoạn muộn như di căn vào gan, và dấu hiệu di căn xương.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân gầy sút nhanh kèm hơi thở hôi và giọng khàn, và ba triệu chứng này cùng nhau gợi ý bệnh đã muộn với khối u lớn gây ứ đọng thức ăn trên chỗ hẹp, xâm lấn thần kinh thanh quản quặt ngược, và <span style=\"color:#ff6b6b\"><b>suy dinh dưỡng</b></span> do không ăn được.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 4.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-doan-muon</span> <span class=\"tag\">trieu-chung</span>"
+    },
+    {
+      "id": "SURG20B-CARD-037",
+      "note_id": 1793862964470,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chuoi-co-che",
+        "nuot-nghen"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>Chuỗi 5 (nuốt nghẹn → hẹp lòng → suy dinh dưỡng → gầy sút)</b></span> theo 5 tầng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1, giải phẫu: khối u lồi vào lòng thực quản hay làm dày cứng thành, làm hẹp đường đi của viên nuốt.<br>2) Tầng 2, cơ chế: viên nuốt đặc bị kẹt trước, rồi viên nuốt lỏng cũng bị kẹt khi lòng hẹp thêm, và thức ăn ứ đọng trên chỗ hẹp gây trào ngược và giãn thực quản.<br>3) Tầng 3, lâm sàng: bệnh nhân ăn ít dần, sợ ăn vì nghẹn và đau, và bắt đầu sụt cân.<br>4) Tầng 4, quyết định: đánh giá dinh dưỡng ngay khi có nuốt nghẹn, nội soi sớm để xác định nguyên nhân hẹp, và không chờ tới khi bệnh nhân không uống được nước mới can thiệp.<br>5) Tầng 5, hậu quả: suy dinh dưỡng làm giảm khả năng chịu đựng phẫu thuật và hoá xạ, và hỗ trợ dinh dưỡng là một phần của điều trị, không phải chỉ chăm sóc thêm.<br><br><b>💡 Giải thích của AI:</b><br>Tip 1 của bài nhắc lại: <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> từ đặc sang lỏng là dấu hiệu hẹp lòng tăng dần, và phải nội soi sớm thay vì chờ tới khi không uống được nước.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 4.1 — Chuỗi 5 (nuốt nghẹn → hẹp lòng → suy dinh dưỡng → gầy sút).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chuoi-co-che</span> <span class=\"tag\">nuot-nghen</span>"
+    },
+    {
+      "id": "SURG20B-CARD-038",
+      "note_id": 1793862964472,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "box-do",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Liệt kê <span style=\"color:#ff6b6b\"><b>5 dấu hiệu báo động</b></span> cần đánh giá khẩn ở bệnh nhân ung thư thực quản, và cơ chế của mỗi dấu hiệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nôn máu hay đi ngoài phân đen: có thể do khối u loét chảy máu hay thủng vào mạch máu lớn, cần đánh giá và hồi sức khẩn, không chờ nội soi theo lịch thường.<br>2) Khó thở đột ngột hay tăng dần kèm nuốt nghẹn: có thể do khối u chèn ép hay thủng vào đường thở gây rò thực quản–phế quản, cần đánh giá đường thở khẩn.<br>3) Giọng khàn mới xuất hiện ở bệnh nhân nuốt nghẹn: có thể do khối u xâm lấn thần kinh thanh quản quặt ngược, gợi ý bệnh đã tiến triển tại chỗ và cần chẩn đoán giai đoạn đầy đủ trước khi quyết định mổ.<br>4) Đau ngực dữ dội hay dấu hiệu viêm trung thất: có thể do thủng khối u vào trung thất hay màng bao tim, cần đánh giá khẩn.<br>5) Nuốt nghẹn tiến triển nhanh tới không uống được nước: có nguy cơ mất nước và suy dinh dưỡng cấp, cần hỗ trợ dinh dưỡng và can thiệp giảm nhẹ sớm, không chờ điều trị triệt căn.<br><br><b>💡 Giải thích của AI:</b><br>Mọi nhánh cấp cứu này đều đi trước nhánh thường quy trong lưu đồ <span style=\"color:#51cf66\"><b>điều trị</b></span> ở phần bảy, và không có bước thường quy nào được phép bỏ qua BOX ĐỎ.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 4.2 — BOX ĐỎ.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">box-do</span> <span class=\"tag\">cap-cuu</span>"
+    },
+    {
+      "id": "SURG20B-CARD-039",
+      "note_id": 1793862964474,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "box-do",
+        "khan-giong"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Bệnh nhân nuốt nghẹn mới xuất hiện <span style=\"color:#ff6b6b\"><b>giọng khàn</b></span>. Nghĩ tới cơ chế gì và bước tiếp theo là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giọng khàn mới ở bệnh nhân nuốt nghẹn có thể do khối u xâm lấn thần kinh thanh quản quặt ngược.<br>2) Đây là dấu hiệu gợi ý bệnh đã tiến triển tại chỗ, không phải triệu chứng lành tính đi kèm.<br>3) Cần chẩn đoán giai đoạn đầy đủ trước khi quyết định mổ, thay vì mổ ngay theo lịch thường.<br><br><b>💡 Giải thích của AI:</b><br>Khàn giọng nằm trong BOX ĐỎ ở phần triệu chứng và trong tiêu chuẩn chẩn đoán xác định ở phần chẩn đoán, nên gặp khàn mới kèm <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> thì phải xếp giai đoạn trước rồi mới quyết định điều trị.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 4.2 — BOX ĐỎ.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">box-do</span> <span class=\"tag\">khan-giong</span>"
+    },
+    {
+      "id": "SURG20B-CARD-040",
+      "note_id": 1793862964476,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "noi-soi",
+        "tieu-chuan-vang"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Tiêu chuẩn vàng</b></span> chẩn đoán ung thư thực quản là gì, độ chính xác bao nhiêu, và chụp cản quang có vai trò gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nội soi sinh thiết chẩn đoán là tiêu chuẩn vàng để chẩn đoán, vừa kết hợp nội soi vừa sinh thiết bộ tổn thương cho kết quả chính xác đến 90%.<br>2) Chụp thực quản có cản quang có thể thấy u lồi vào lòng thực quản, thâm nhiễm cứng, và loét thành thực quản; hình ảnh X-quang có ích khi chuẩn bị soi thực quản, tránh biến chứng khi soi.<br>3) Mặc dù vậy cần có tiêu chuẩn giải phẫu bệnh để chẩn đoán.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân có phim cản quang bình thường nhưng vẫn <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span>, và nội soi vẫn phải làm, vì phim cản quang có thể bỏ sót tổn thương sớm khu trú ở niêm mạc mà nội soi thấy được.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.1 — Cận lâm sàng theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">noi-soi</span> <span class=\"tag\">tieu-chuan-vang</span>"
+    },
+    {
+      "id": "SURG20B-CARD-041",
+      "note_id": 1793862964478,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "can-quang"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Phim cản quang thấy u lồi vào lòng thực quản thì kết luận chẩn đoán xác định ung thư thực quản, không cần <span style=\"color:#51cf66\"><b>sinh thiết</b></span>. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hình ảnh nội soi trong sách mô tả một khối u lồi vào lòng thực quản, bề mặt nhẵn, và chú thích hình có thông tin định danh bệnh nhân nên đã được lược bỏ khỏi transcript, bài này không khôi phục.<br>2) Phim chụp thực quản có cản quang giúp bác sĩ nội soi biết trước vị trí và mức hẹp để soi an toàn, nhưng chẩn đoán xác định vẫn phải chờ kết quả sinh thiết.<br>3) Một bệnh nhân nuốt nghẹn, phim cản quang thấy đoạn thực quản hẹp với bờ nham nhở, và phim này giúp chuẩn bị soi, không thay thế sinh thiết.<br><br><b>💡 Giải thích của AI:</b><br>Đây là tip 2 của bài: nội soi kèm <span style=\"color:#51cf66\"><b>sinh thiết</b></span> là tiêu chuẩn vàng với độ chính xác tới 90% theo sách, và phim cản quang chỉ giúp chuẩn bị soi an toàn, không thay thế sinh thiết.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">can-quang</span>"
+    },
+    {
+      "id": "SURG20B-CARD-042",
+      "note_id": 1793862964480,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chan-doan",
+        "di-can"
+      ],
+      "type": "basic",
+      "front": "Chẩn đoán xác định dựa trên những triệu chứng nào, và chụp cắt lớp đánh giá di căn tới <span style=\"color:#ff6b6b\"><b>gan, phổi, xương</b></span> với tỉ lệ bao nhiêu theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán xác định dựa trên nuốt khó, nuốt đau; ngẹn đặc, sặc lỏng; nôn máu; giọng khàn; và khó thở.<br>2) Chụp cắt lớp vi tính ổ bụng và lồng ngực giúp đánh giá sự di căn hạch hay di căn xa tới gan 35%, phổi 20%, và xương 9%; ngoài ra chụp cắt lớp có thể đánh giá mức độ xâm lấn của khối u ra xung quanh.<br>3) Chụp cộng hưởng từ cho kết quả tương tự.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ <span style=\"color:#ff6b6b\"><b>di căn</b></span> gan 35%, phổi 20% và xương 9% là số liệu của sách, và không có nguồn cập nhật nào trong tập đã đọc để đối chiếu, nên bài này giữ nguyên chữ gốc và ghi rõ nguồn là sách.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.2 — Chẩn đoán xác định theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chan-doan</span> <span class=\"tag\">di-can</span>"
+    },
+    {
+      "id": "SURG20B-CARD-043",
+      "note_id": 1793862964482,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "sieu-am-noi-soi",
+        "pet"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Siêu âm nội soi</b></span> có giá trị cao nhất khi nào, và <span style=\"color:#51cf66\"><b>PET</b></span> dùng để làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Siêu âm nội soi có giá trị cao khi trên các phương tiện chẩn đoán hình ảnh khác không có bằng chứng di căn, và là phương tiện chẩn đoán đánh giá giai đoạn tại chỗ.<br>2) Chụp PET giúp đánh giá toàn bộ sự di căn.<br>3) Một bệnh nhân không có bằng chứng di căn trên chụp cắt lớp, và siêu âm nội soi trở thành phương tiện quyết định để đánh giá khối u đã xâm lấn tới lớp nào và có hạch vùng hay không, vì hai thông tin này quyết định mổ được hay cần hoá xạ tân bổ trợ trước.<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh X-quang <span style=\"color:#74c0fc\"><b>thực quản</b></span> có cản quang trong sách gồm hai ảnh cho thấy đoạn thực quản hẹp và tổn thương dạng loét, với chi tiết mờ, và chú thích hình có thông tin định danh bệnh nhân nên đã được lược bỏ khỏi transcript.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">sieu-am-noi-soi</span> <span class=\"tag\">pet</span>"
+    },
+    {
+      "id": "SURG20B-CARD-044",
+      "note_id": 1793862964484,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "di-can"
+      ],
+      "type": "cloze",
+      "text": "Chụp cắt lớp đánh giá di căn xa tới {{c1::<span style=\"color:#ffd43b\"><b>gan 35%, phổi 20%, và xương 9%</b></span>}} theo số liệu của sách.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 5.2 — tỉ lệ di căn theo sách.",
+      "front": "Chụp cắt lớp đánh giá di căn xa tới {{c1::<span style=\"color:#ffd43b\"><b>gan 35%, phổi 20%, và xương 9%</b></span>}} theo số liệu của sách.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 5.2 — tỉ lệ di căn theo sách."
+    },
+    {
+      "id": "SURG20B-CARD-045",
+      "note_id": 1793862964486,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "sieu-am-noi-soi",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Độ nhạy và độ đặc hiệu của <span style=\"color:#51cf66\"><b>siêu âm nội soi</b></span> cho giai đoạn T1 và T4 là bao nhiêu, và chọc hút kim nhỏ làm tăng độ nhạy đánh giá hạch ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một phân tích gộp với 49 nghiên cứu và 2.558 bệnh nhân ghi nhận độ nhạy và độ đặc hiệu gộp của siêu âm nội soi là 81,6% và 99,4% cho giai đoạn T1, và 92,4% và 97,4% cho giai đoạn T4.<br>2) Đánh giá hạch vùng có độ nhạy 84,7% khi không có chọc hút kim nhỏ, tăng lên 96,7% khi có chọc hút kim nhỏ.<br>3) Siêu âm nội soi tốt hơn với bệnh tiến triển, giai đoạn T4, so với bệnh sớm, giai đoạn T1.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải nhớ rằng siêu âm <span style=\"color:#51cf66\"><b>nội soi</b></span> mạnh nhất ở hai đầu, xác định u còn nông và xác định u đã xâm lấn sâu, nhưng yếu nhất ở các giai đoạn giữa, và chọc hút kim nhỏ làm tăng rõ rệt độ chính xác đánh giá hạch — đây là tip 4 của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.3 🆕 — phân tích gộp siêu âm nội soi (49 nghiên cứu, 2.558 bệnh nhân).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">sieu-am-noi-soi</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-046",
+      "note_id": 1793862964488,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "emr",
+        "esd",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 So sánh <span style=\"color:#51cf66\"><b>EMR và ESD</b></span>: khác biệt về biến chứng, tái phát và hẹp thực quản ra sao, và yếu tố nào dự báo tái phát tại chỗ và hạch dương tính?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một tổng quan hệ thống với 80 nghiên cứu hồi cứu và 4.241 bệnh nhân ghi nhận cắt hớt niêm mạc nội soi và cắt tách dưới niêm mạc nội soi không khác biệt về biến chứng, bờ dương tính, hạch dương tính, tái phát tại chỗ, và ung thư dị thời.<br>2) Cắt tách dưới niêm mạc ít cắt thành mảnh hơn và tái phát tại chỗ thấp hơn, nhưng hẹp thực quản nhiều hơn.<br>3) Yếu tố dự báo tái phát tại chỗ là biệt hoá độ 3 và cắt thành mảnh, yếu tố dự báo hạch dương tính là xâm lấn mạch bạch huyết, và tổn thương T1b nên mổ thay vì cắt hớt.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải phân biệt rõ: tổn thương khu trú ở <span style=\"color:#74c0fc\"><b>niêm mạc</b></span>, giai đoạn T1a, là đối tượng của cắt hớt nội soi; tổn thương đã xuống dưới niêm mạc, giai đoạn T1b, có nguy cơ hạch và nên mổ.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.3 🆕 — tổng quan hệ thống EMR so với ESD (80 nghiên cứu, 4.241 bệnh nhân).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">emr</span> <span class=\"tag\">esd</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-047",
+      "note_id": 1793862964490,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "esd",
+        "emr",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Phân tích gộp <span style=\"color:#51cf66\"><b>ESD so với EMR</b></span> cho thấy tỉ lệ cắt nguyên khối, cắt trọn mô học và tái phát tại chỗ khác nhau thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một phân tích gộp khác với 5 thử nghiệm, 710 bệnh nhân, và 795 tổn thương ghi nhận cắt tách dưới niêm mạc có tỉ lệ cắt nguyên khối cao hơn với tỉ số chênh 27,3, cắt trọn về mô học cao hơn với tỉ số chênh 18,4, và tái phát tại chỗ thấp hơn với tỉ số chênh 0,13.<br>2) Cắt tách dưới niêm mạc tốn thời gian hơn nhưng không tăng biến chứng.<br>3) Quyết định dựa trên độ sâu xâm lấn cùng xâm lấn mạch bạch huyết, không phải chỉ kích thước tổn thương.<br><br><b>💡 Giải thích của AI:</b><br>Đây là tip 5 của bài: tổn thương T1a thì cắt hớt <span style=\"color:#51cf66\"><b>nội soi</b></span>, tổn thương T1b thì nên mổ, và quyết định dựa trên độ sâu xâm lấn cùng xâm lấn mạch bạch huyết.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 5.3 🆕 — phân tích gộp ESD so với EMR (5 thử nghiệm, 710 bệnh nhân).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">esd</span> <span class=\"tag\">emr</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-048",
+      "note_id": 1793862964492,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-doan",
+        "bang-sach"
+      ],
+      "type": "basic",
+      "front": "Trình bày đầy đủ <span style=\"color:#74c0fc\"><b>bảng xếp giai đoạn bệnh của sách</b></span>, từ GĐ 0 tới GĐ IVB?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) GĐ 0 là Tis N0 M0; GĐ I là T1aN0 M0 với u lớp niêm mạc và T1bN0M0 với u lớp dưới niêm mạc; GĐ IIA là T2/3 N0 M0; GĐ IIB là T1/T2N1 M0.<br>2) GĐ III là T3N1, T4N0M0; GĐ IV là T0-4 N0/1M1; GĐ IVA là T0-4 N0/1M1a; GĐ IVB là T0-4 N0/1M1b.<br>3) Bảng này giữ nguyên toàn bộ, không sửa, và người học phải học thuộc bảng này khi thi theo sách.<br><br><b>💡 Giải thích của AI:</b><br>Đồng thời phải biết bảng này đã lỗi thời so với phân loại hiện hành, như khối cập nhật ngay sau đây giải thích; hai bảng không được trộn lẫn với nhau khi làm bài. Chẩn đoán giai đoạn theo sách còn dựa trên [KHÔNG CHẮC: \"Hội chứng thiếu máu\"], hạch thượng đòn trái, gầy sút cân, dấu hiệu di căn xương, và nội soi <span style=\"color:#51cf66\"><b>sinh thiết</b></span>.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.1 — Bảng xếp giai đoạn bệnh của sách (giữ nguyên toàn bộ).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">giai-doan</span> <span class=\"tag\">bang-sach</span>"
+    },
+    {
+      "id": "SURG20B-CARD-049",
+      "note_id": 1793862964494,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "m1a",
+        "ajcc8"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dùng bảng xếp giai đoạn của sách có <span style=\"color:#ff6b6b\"><b>M1a và M1b</b></span> khi đọc tài liệu hiện đại. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân loại AJCC 8th chỉ còn M0 và M1, và M1a cùng M1b đã bị bỏ hoàn toàn; đây là thay đổi lớn nhất so với bảng của sách.<br>2) Phân loại N trong AJCC 8th tính theo số hạch dương tính, không theo vị trí hay khoảng cách như sách cũ.<br>3) Người học không được dùng M1a hay M1b khi xếp giai đoạn theo AJCC 8th, và không được trộn hai bảng với nhau khi làm bài.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân có u ở lớp dưới <span style=\"color:#74c0fc\"><b>niêm mạc</b></span>, không hạch, không di căn xa, và theo bảng của sách là giai đoạn I, ký hiệu T1bN0M0; một bệnh nhân có di căn xa, và theo bảng của sách là giai đoạn IV, với IVa là M1a và IVb là M1b, một cách phân chia mà phân loại hiện hành đã bỏ.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.1 và 6.2 🆕 — Bẫy 1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">m1a</span> <span class=\"tag\">ajcc8</span>"
+    },
+    {
+      "id": "SURG20B-CARD-050",
+      "note_id": 1793862964496,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "giai-doan"
+      ],
+      "type": "cloze",
+      "text": "Theo bảng của sách, giai đoạn I là {{c1::<span style=\"color:#74c0fc\"><b>T1aN0M0 với u lớp niêm mạc, và T1bN0M0 với u lớp dưới niêm mạc</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 6.1.",
+      "front": "Theo bảng của sách, giai đoạn I là {{c1::<span style=\"color:#74c0fc\"><b>T1aN0M0 với u lớp niêm mạc, và T1bN0M0 với u lớp dưới niêm mạc</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 6.1."
+    },
+    {
+      "id": "SURG20B-CARD-051",
+      "note_id": 1793862964498,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "phan-loai-t",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Phân loại <span style=\"color:#74c0fc\"><b>T trong AJCC 8th</b></span>, từ Tis tới T4b, định nghĩa ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tis là loạn sản độ cao; T1a là u ở niêm mạc và cơ niêm; T1b là u ở dưới niêm mạc; T2 là u ở lớp cơ; T3 là u ở ngoại mạc.<br>2) T4a là u xâm lấn màng phổi, màng ngoài tim, tĩnh mạch azygos, cơ hoành, hay phúc mạc; T4b là u xâm lấn cấu trúc lân cận khác như động mạch chủ, thân đốt sống, hay khí quản.<br>3) Bảng xếp giai đoạn trong sách dựa trên phân loại cũ, và tài liệu tham khảo của sách trích phân loại AJCC 7th năm 2010, nay đã bị AJCC 8th thay thế.<br><br><b>💡 Giải thích của AI:</b><br>Khối này trình bày phân loại <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span> theo bài primer đã đọc toàn văn qua PMC, và người học phải dùng bảng này khi đọc tài liệu hiện đại và khi đi lâm sàng, đồng thời vẫn thuộc bảng của sách khi thi theo sách.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕 — Xếp giai đoạn AJCC 8th (bài primer đọc toàn văn qua PMC).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ajcc8</span> <span class=\"tag\">phan-loai-t</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-052",
+      "note_id": 1793862964500,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "phan-loai-n",
+        "m1a"
+      ],
+      "type": "basic",
+      "front": "🆕 Phân loại <span style=\"color:#74c0fc\"><b>N và M trong AJCC 8th</b></span> khác sách cũ ở đâu, và ung thư nối dạ dày–thực quản xếp giai đoạn ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân loại N tính theo số hạch dương tính, không theo vị trí hay khoảng cách như sách cũ: N1 là 1–2 hạch, N2 là 3–6 hạch, và N3 là từ 7 hạch trở lên.<br>2) Phân loại M chỉ còn M0 và M1, và M1a cùng M1b đã bị bỏ hoàn toàn.<br>3) Độ biệt hoá G4 đã bị loại bỏ; vị trí khối u chỉ còn ý nghĩa cho ung thư biểu mô vảy ở giai đoạn pT2N0M0.<br>4) Với ung thư nối dạ dày–thực quản, tâm điểm khối u trong 2 cm đầu của tâm vị thì xếp giai đoạn như ung thư thực quản, và tâm điểm hơn 2 cm dưới nối thì xếp như ung thư dạ dày.<br><br><b>💡 Giải thích của AI:</b><br>Ba điểm cốt lõi của <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span>: hạch tính theo số lượng, không còn M1a và M1b, và ba hệ nhóm giai đoạn riêng biệt với nhóm giai đoạn khác nhau giữa hai mô học.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ajcc8</span> <span class=\"tag\">phan-loai-n</span> <span class=\"tag\">m1a</span>"
+    },
+    {
+      "id": "SURG20B-CARD-053",
+      "note_id": 1793862964502,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "ptnm"
+      ],
+      "type": "basic",
+      "front": "🆕 AJCC 8th có <span style=\"color:#74c0fc\"><b>ba hệ nhóm giai đoạn</b></span> nào, và nhóm giai đoạn pTNM cho biểu mô tuyến gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) AJCC 8th có ba hệ nhóm giai đoạn riêng biệt: cTNM là nhóm giai đoạn lâm sàng trước điều trị, pTNM là nhóm giai đoạn bệnh học sau mổ, và ypTNM là nhóm giai đoạn bệnh học sau điều trị tân bổ trợ, giống nhau cho cả hai mô học và không dùng độ biệt hoá.<br>2) Nhóm giai đoạn pTNM và cTNM khác nhau giữa biểu mô tuyến và biểu mô vảy, nên người học không được dùng một bảng chung cho cả hai mô học.<br>3) Ví dụ nhóm giai đoạn pTNM cho biểu mô tuyến: IA là pT1aN0M0G1; IB là pT1aN0M0G2 và pT1bN0M0G1–2; IC là pT1N0M0G3 và pT2N0M0G1–2; IIA là pT2N0M0G3; IIB là T3N0M0 và pT1N1M0; IIIA là pT2N1M0 và pT1N2M0; IIIB là pT2N2M0, pT3N1–2M0, và pT4aN0–1M0; IVA là pT4aN2M0, pT4bN0–2M0, và mọi pT có N3M0; IVB là M1.<br><br><b>💡 Giải thích của AI:</b><br>Đây là tip 3 của bài: hạch tính theo số lượng trong <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span>, không còn M1a và M1b, và ba hệ nhóm giai đoạn riêng biệt với nhóm giai đoạn khác nhau giữa hai mô học.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ajcc8</span> <span class=\"tag\">ptnm</span>"
+    },
+    {
+      "id": "SURG20B-CARD-054",
+      "note_id": 1793862964504,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "ctnm"
+      ],
+      "type": "basic",
+      "front": "🆕 Nhóm giai đoạn <span style=\"color:#74c0fc\"><b>cTNM</b></span> khác nhau giữa biểu mô tuyến và biểu mô vảy ra sao? Cho ví dụ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ví dụ nhóm giai đoạn cTNM cho biểu mô tuyến: I là cT1N0M0; IIA là cT1N1M0; IIB là cT2N0M0; III là cT2N1M0 và cT3–4aN0–1M0; IVA là T4bN0–1M0 và mọi cN2–N3M0; IVB là cM1.<br>2) Ví dụ nhóm giai đoạn cTNM cho biểu mô vảy: I là cT1N0–1M0; II là cT2N0–1M0 và cT3N0M0; III là cT3N1M0 và cT1–3N2M0; IVA là cT4N0–2M0 và mọi cN3M0; IVB là cM1.<br>3) Cùng một ký hiệu cT và cN nhưng nhóm giai đoạn khác nhau giữa hai mô học, nên không được dùng một bảng chung.<br><br><b>💡 Giải thích của AI:</b><br>So sánh hai ví dụ trên cho thấy biểu mô vảy được xếp nhóm thấp hơn <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span> ở cùng mức xâm lấn và hạch trong một số trường hợp, vì vậy phải tra đúng bảng theo mô học.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ajcc8</span> <span class=\"tag\">ctnm</span>"
+    },
+    {
+      "id": "SURG20B-CARD-055",
+      "note_id": 1793862964506,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "yptnm"
+      ],
+      "type": "basic",
+      "front": "🆕 Nhóm giai đoạn <span style=\"color:#74c0fc\"><b>ypTNM</b></span> gồm những gì, và chỗ nào trong bài primer được ghi chú là có thể lỗi in?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhóm giai đoạn ypTNM gồm I là ypT0–2N0M0, II là ypT3N0M0, IIIA là ypT0–2N1M0, IIIB là ypT1–3N2M0, ypT3N1M0, và ypT4aN0M0, IVA là ypT4aN1–2M0, ypT4bN0–2M0, và mọi ypT có N3M0, và IVB là M1.<br>2) Trong toàn văn bài primer có một chỗ ghi ypT0–2N1M1, có thể là lỗi in của bài primer, và người viết không dạy chi tiết đó nếu chưa đối chiếu, chỉ dạy khung ypTNM chung như trên.<br>3) ypTNM là nhóm giai đoạn bệnh học sau điều trị tân bổ trợ, khác với cTNM trước điều trị và pTNM sau mổ.<br><br><b>💡 Giải thích của AI:</b><br>Ba điểm cốt lõi của <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span> phải nhớ: hạch tính theo số lượng, không còn M1a và M1b, và ba hệ nhóm giai đoạn riêng biệt.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ajcc8</span> <span class=\"tag\">yptnm</span>"
+    },
+    {
+      "id": "SURG20B-CARD-056",
+      "note_id": 1793862964508,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ajcc8",
+        "phan-loai-n"
+      ],
+      "type": "cloze",
+      "text": "Trong AJCC 8th, phân loại N tính theo số hạch dương tính: {{c1::<span style=\"color:#74c0fc\"><b>N1 là 1–2 hạch, N2 là 3–6 hạch, và N3 là từ 7 hạch trở lên</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕.",
+      "front": "Trong AJCC 8th, phân loại N tính theo số hạch dương tính: {{c1::<span style=\"color:#74c0fc\"><b>N1 là 1–2 hạch, N2 là 3–6 hạch, và N3 là từ 7 hạch trở lên</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 6.2 🆕."
+    },
+    {
+      "id": "SURG20B-CARD-057",
+      "note_id": 1793862964510,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "chan-doan-phan-biet"
+      ],
+      "type": "basic",
+      "front": "Cần phân biệt ung thư thực quản với <span style=\"color:#74c0fc\"><b>bảy bệnh</b></span> nào theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cần lưu ý phân biệt ung thư thực quản với bảy bệnh sau: túi thừa thực quản; co thắt tâm vị; nuốt nghẹn do rối loạn tâm thần; viêm hẹp thực quản do trào ngược; sẹo hẹp thực quản; u bên ngoài đè vào thực quản; và ung thư tâm vị, phình vị dạ dày.<br>2) Người học phải nhớ rằng danh sách phân biệt này của sách không gồm rối loạn vận động thực quản khác ngoài co thắt tâm vị, và khi đi lâm sàng thì danh sách phân biệt rộng hơn, nhưng khi thi theo sách thì bảy bệnh này là đáp án.<br><br><b>💡 Giải thích của AI:</b><br>Bảy bệnh này đều gây <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> hoặc hẹp thực quản, nên chỉ dựa vào triệu chứng hay phim cản quang thì không phân biệt được với ung thư.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.3 — Chẩn đoán phân biệt theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">chan-doan-phan-biet</span>"
+    },
+    {
+      "id": "SURG20B-CARD-058",
+      "note_id": 1793862964512,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "co-that-tam-vi",
+        "seo-hep"
+      ],
+      "type": "basic",
+      "front": "Phân biệt ung thư thực quản với <span style=\"color:#74c0fc\"><b>co thắt tâm vị</b></span> và với <span style=\"color:#74c0fc\"><b>sẹo hẹp thực quản</b></span> bằng cách nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một bệnh nhân nuốt nghẹn với thực quản giãn trên chỗ hẹp, và co thắt tâm vị cũng gây hình ảnh tương tự, nên nội soi và sinh thiết là cách phân biệt, không phải chỉ dựa vào phim cản quang.<br>2) Một bệnh nhân nuốt nghẹn sau bỏng hay trào ngược lâu ngày, và sẹo hẹp thực quản do trào ngược hay viêm có thể giống ung thư trên phim, nên sinh thiết là bắt buộc trước khi kết luận.<br>3) Nguyên tắc chung: mọi hẹp thực quản nghi ngờ đều cần sinh thiết trước khi kết luận lành hay ác.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai ví dụ đều dẫn về cùng một nguyên tắc: phim cản quang thấy hẹp không phân biệt được sẹo lành với ung thư, chỉ có <span style=\"color:#74c0fc\"><b>mô học</b></span> mới phân biệt được.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 6.3.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">co-that-tam-vi</span> <span class=\"tag\">seo-hep</span>"
+    },
+    {
+      "id": "SURG20B-CARD-059",
+      "note_id": 1793862964514,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "da-mo-thuc"
+      ],
+      "type": "basic",
+      "front": "Nguyên tắc điều trị <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> theo sách là gì, và gồm những chuyên ngành nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều trị ung thư thực quản là điều trị đa mô thức cần phối hợp nhiều chuyên ngành bao gồm phẫu thuật, xạ trị và hoá trị.<br>2) Nguyên tắc này của sách vẫn đúng tới nay, và các khối cập nhật sau đây chỉ làm rõ thêm từng mô thức đã thay đổi ra sao, không thay đổi nguyên tắc.<br>3) Quyết định điều trị phải qua hội chẩn đa chuyên khoa gồm ngoại khoa, xạ trị, hoá trị, chẩn đoán hình ảnh, nội soi, giải phẫu bệnh, và dinh dưỡng, thay vì một chuyên khoa quyết định đơn độc.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân giai đoạn tiến triển tại chỗ, và quyết định điều trị phải qua <span style=\"color:#51cf66\"><b>hội chẩn</b></span> đa chuyên khoa thay vì một chuyên khoa quyết định đơn độc.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.1 — Nguyên tắc điều trị theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">da-mo-thuc</span>"
+    },
+    {
+      "id": "SURG20B-CARD-060",
+      "note_id": 1793862964516,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "phau-thuat",
+        "hoa-xa"
+      ],
+      "type": "basic",
+      "front": "Vai trò của <span style=\"color:#51cf66\"><b>phẫu thuật</b></span> trong điều trị ung thư thực quản theo sách, và khi không mổ được thì thay thế bằng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phẫu thuật có vai trò quan trọng nhất trong điều trị ung thư thực quản, tuy nhiên, với các tổn thương không thể phẫu thuật, hoá–xạ trị triệt căn là phương pháp thay thế hiệu quả.<br>2) Tùy vị trí khối u và giai đoạn bệnh mà bác sĩ lựa chọn chiến thuật điều trị hợp lý.<br>3) Sách nói phẫu thuật có vai trò quan trọng nhất, và điều này vẫn đúng theo nghĩa phẫu thuật là mô thức triệt căn chính, nhưng nay chuẩn điều trị là đa mô thức, không phải mổ đơn thuần.<br><br><b>💡 Giải thích của AI:</b><br>Các khối cập nhật sau đây trình bày chuẩn đa mô thức theo mô học: FLOT vượt CROSS ở <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span>, bộ ba DCF ở biểu mô vảy, và miễn dịch theo PD-L1.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.2 — Điều trị cụ thể theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">phau-thuat</span> <span class=\"tag\">hoa-xa</span>"
+    },
+    {
+      "id": "SURG20B-CARD-061",
+      "note_id": 1793862964518,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "cat-hot",
+        "quang-dong"
+      ],
+      "type": "basic",
+      "front": "Tổn thương sớm chưa xâm lấn lớp cơ và tổn thương giai đoạn I được điều trị ra sao theo sách, và cụm từ <span style=\"color:#ff6b6b\"><b>\"quang động (cryotherapy)\"</b></span> có vấn đề gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương thực quản giai đoạn sớm, chưa xâm lấn tới lớp cơ, được điều trị bằng cắt hớt niêm mạc nội soi, laser hoặc quang động (cryotherapy), giữ nguyên chữ gốc của sách.<br>2) Phẫu thuật cắt thực quản làm ống cuộn dạ dày, laser hoặc quang động cho tổn thương chưa xâm lấn khỏi thành thực quản và chưa có di căn hạch, tức giai đoạn I.<br>3) Sách viết \"quang động (cryotherapy)\" và đây là lỗi trong sách, vì quang động là <span style=\"color:#51cf66\"><b>liệu pháp quang động</b></span> dùng thuốc nhạy sáng và ánh sáng, khác với cryotherapy là liệu pháp lạnh, và khối cập nhật ngay sau giải thích rõ.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải nhận ra cách viết này khi gặp trong sách để khỏi nhầm lẫn, đồng thời không được viết gộp hai phương pháp thành một thuật ngữ khi làm bài theo tài liệu hiện đại.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">cat-hot</span> <span class=\"tag\">quang-dong</span>"
+    },
+    {
+      "id": "SURG20B-CARD-062",
+      "note_id": 1793862964520,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "triet-can",
+        "r0"
+      ],
+      "type": "basic",
+      "front": "Khi u xâm lấn khỏi thành hoặc có di căn hạch thì điều trị ra sao, và điều kiện nào gọi là <span style=\"color:#51cf66\"><b>phẫu thuật triệt căn</b></span> theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi u xâm lấn khỏi thành thực quản hoặc có di căn hạch, tức giai đoạn II, III, cần kết hợp hoá chất, xạ trị và phẫu thuật.<br>2) Phẫu thuật triệt căn khi diện cắt cách khối u lớn hơn 5 cm có giải phẫu bệnh R0 và vét được hết hạch vùng.<br>3) Nếu ung thư thực quản có khả năng phẫu thuật được thì phải cắt thực quản đoạn ruột non hoặc dùng đại tràng nối lên hầu.<br><br><b>💡 Giải thích của AI:</b><br>Đoạn về cắt <span style=\"color:#74c0fc\"><b>thực quản</b></span> và tái tạo bằng ruột non hay đại tràng nối lên hầu trong sách viết vắn tắt và có câu chưa trọn vẹn, bài này giữ nguyên đúng như transcript, không tự viết lại cho trôi chảy.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">triet-can</span> <span class=\"tag\">r0</span>"
+    },
+    {
+      "id": "SURG20B-CARD-063",
+      "note_id": 1793862964522,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "vi-tri-u",
+        "phau-thuat"
+      ],
+      "type": "basic",
+      "front": "Chiến thuật phẫu thuật khác nhau ra sao giữa ung thư <span style=\"color:#74c0fc\"><b>một phần ba trên, giữa và dưới</b></span> thực quản theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ung thư một phần ba trên thực quản: phẫu thuật ít khi lấy hết được tổ chức u nên xạ trị được ưu tiên áp dụng trong trường hợp này.<br>2) Ung thư một phần ba giữa thực quản: thường phải cắt thực quản toàn bộ, tái tạo đường tiêu hoá bằng đoạn dạ dày hoặc có thể dùng đại tràng để tái tạo kết hợp với xạ trị và hoá trị liệu trước và sau mổ.<br>3) Ung thư một phần ba dưới thực quản: điều trị phẫu thuật là cắt thực quản–dạ dày và nối dạ dày–thực quản đoạn còn lại trong lồng ngực.<br><br><b>💡 Giải thích của AI:</b><br>Chiến thuật thay đổi theo vị trí vì mỗi đoạn có quan hệ <span style=\"color:#74c0fc\"><b>giải phẫu</b></span> khác nhau, và nguyên khối với hầu, mở khí quản ra da vĩnh viễn và tái tạo ống tiêu hoá bằng một đoạn ruột non hoặc dùng đại tràng nối lên hầu được sách nhắc cho tổn thương vùng trên.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">vi-tri-u</span> <span class=\"tag\">phau-thuat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-064",
+      "note_id": 1793862964524,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "di-can-xa",
+        "giam-nhe",
+        "imrt"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân <span style=\"color:#ff6b6b\"><b>di căn xa</b></span> chỉ điều trị gì, và tổn thương xâm lấn rộng gây nuốt nghẹn, đau ngực, khó thở được giảm nhẹ ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân có di căn xa chỉ điều trị hoá chất hoặc chăm sóc giảm nhẹ.<br>2) Những tổn thương xâm lấn rộng gây triệu chứng nuốt nghẹn, đau ngực, khó thở có thể chỉ định xạ giảm nhẹ, đặt stent hoặc mở thông dạ dày nuôi dưỡng.<br>3) Các kỹ thuật xạ trị hiện đại như xạ trị điều biến liều (IMRT) hay xạ trị quay điều biến thể tích (VMAT) giúp kiểm soát u tốt hơn trong khi hạn chế tác dụng phụ trên mô lành, đặc biệt trong ung thư thực quản một phần ba trên.<br><br><b>💡 Giải thích của AI:</b><br>IMRT và VMAT là kỹ thuật phân phối liều, không phải tăng liều tổng, và trực giác \"liều cao hơn kiểm soát tốt hơn\" đã bị thử nghiệm ARTDECO bác bỏ, như khối cập nhật về <span style=\"color:#51cf66\"><b>hoá xạ</b></span> triệt căn trình bày.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">di-can-xa</span> <span class=\"tag\">giam-nhe</span> <span class=\"tag\">imrt</span>"
+    },
+    {
+      "id": "SURG20B-CARD-065",
+      "note_id": 1793862964526,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "triet-can",
+        "r0"
+      ],
+      "type": "cloze",
+      "text": "Phẫu thuật triệt căn khi diện cắt cách khối u lớn hơn {{c1::<span style=\"color:#ffd43b\"><b>5 cm</b></span>}} có giải phẫu bệnh R0 và vét được hết hạch vùng.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 7.2.",
+      "front": "Phẫu thuật triệt căn khi diện cắt cách khối u lớn hơn {{c1::<span style=\"color:#ffd43b\"><b>5 cm</b></span>}} có giải phẫu bệnh R0 và vét được hết hạch vùng.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 7.2."
+    },
+    {
+      "id": "SURG20B-CARD-066",
+      "note_id": 1793862964528,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "quang-dong",
+        "cryotherapy",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 <span style=\"color:#51cf66\"><b>Liệu pháp quang động</b></span> khác <span style=\"color:#51cf66\"><b>cryotherapy</b></span> ở cơ chế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Liệu pháp quang động (photodynamic therapy) dùng một thuốc nhạy sáng được chiếu bằng ánh sáng có bước sóng phù hợp để tạo ra oxy đơn bội diệt tế bào ung thư.<br>2) Cryotherapy dùng lạnh cực độ để đông và hoại tử mô.<br>3) Hai phương pháp khác nhau về cơ chế, thiết bị, và chỉ định, và người học không được viết \"quang động (cryotherapy)\" như một thuật ngữ duy nhất khi làm bài theo tài liệu hiện đại.<br><br><b>💡 Giải thích của AI:</b><br>Sách viết \"laser hoặc quang động (cryotherapy)\" khi nói về <span style=\"color:#51cf66\"><b>điều trị</b></span> tổn thương sớm, và cách viết này gộp hai phương pháp khác nhau thành một, là lỗi trong sách, giữ nguyên chữ gốc ở phần điều trị theo sách và ghi chú ở đây.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.3 🆕 — Lỗi trong sách: quang động khác cryotherapy.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">quang-dong</span> <span class=\"tag\">cryotherapy</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-067",
+      "note_id": 1793862964530,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "quang-dong"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Viết <span style=\"color:#ff6b6b\"><b>\"quang động (cryotherapy)\"</b></span> như một thuật ngữ duy nhất khi làm bài theo tài liệu hiện đại. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là lỗi trong sách, vì quang động là <span style=\"color:#51cf66\"><b>liệu pháp quang động</b></span> dùng thuốc nhạy sáng và ánh sáng, khác với cryotherapy là liệu pháp lạnh.<br>2) Khi làm bài theo tài liệu hiện đại, không được viết \"quang động (cryotherapy)\" như một thuật ngữ duy nhất.<br>3) Khi gặp trong sách thì vẫn phải nhận ra cách viết này để khỏi nhầm lẫn, và đây là bẫy số 3 trong danh sách mười bẫy của bài.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy này kiểm tra đúng kỷ luật hai lớp nội dung: chữ gốc giữ nguyên để thi, khối cập nhật để hiểu đúng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.3 🆕 và 9.2 — Bẫy 3.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">quang-dong</span>"
+    },
+    {
+      "id": "SURG20B-CARD-068",
+      "note_id": 1793862964532,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "cross",
+        "hoa-xa",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>CROSS</b></span>: quần thể, phác đồ hoá xạ tân bổ trợ, tỉ lệ R0, đáp ứng hoàn toàn bệnh học và sống thêm ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm CROSS, một thử nghiệm ngẫu nhiên với 366 bệnh nhân ung thư thực quản hay nối dạ dày–thực quản, trong đó 75% là biểu mô tuyến và 23% là biểu mô vảy, so sánh hoá xạ tân bổ trợ gồm carboplatin và paclitaxel hàng tuần trong 5 tuần cùng xạ 41,4 Gy chia 23 phân liều rồi mổ, với mổ đơn thuần.<br>2) Tỉ lệ cắt R0 là 92% so với 69%, đáp ứng hoàn toàn về bệnh học là 29%, biến chứng sau mổ tương tự, tử vong nội viện 4% ở cả hai nhóm.<br>3) Sống thêm toàn bộ trung vị là 49,4 tháng so với 24,0 tháng, với tỉ số nguy cơ 0,657; theo dõi dài hạn với thời gian theo dõi trung vị 84,1 tháng ghi nhận sống trung vị 48,6 tháng so với 24,0 tháng, tỉ số nguy cơ 0,68, với biểu mô vảy là 0,48 và biểu mô tuyến là 0,73, và 95% bệnh nhân hoàn thành đủ hoá xạ.<br><br><b>💡 Giải thích của AI:</b><br>Kết luận là CROSS là chuẩn chăm sóc cho <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> và nối tiến triển tại chỗ có thể mổ. Liều trong thử nghiệm chỉ dạy ở mức liều trong thử nghiệm, không trình bày thành phác đồ guideline.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.4 🆕 — Thử nghiệm CROSS và theo dõi dài hạn.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">cross</span> <span class=\"tag\">hoa-xa</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-069",
+      "note_id": 1793862964534,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "magic",
+        "ecf",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>MAGIC</b></span>: quần thể, phác đồ ECF quanh mổ, sống 5 năm và tỉ số nguy cơ ra sao, và phác đồ này nay còn dùng không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm MAGIC, một thử nghiệm ngẫu nhiên với 503 bệnh nhân ung thư biểu mô tuyến dạ dày, nối dạ dày–thực quản, và thực quản dưới, so sánh hoá trị quanh mổ gồm epirubicin, cisplatin, và fluorouracil truyền liên tục, 3 chu kỳ trước và 3 chu kỳ sau mổ, với mổ đơn thuần.<br>2) Sống 5 năm là 36% so với 23%, tỉ số nguy cơ tử vong là 0,75, và tỉ số nguy cơ tiến triển là 0,66, với biến chứng sau mổ và tử vong 30 ngày tương tự.<br>3) Phác đồ ECF trong MAGIC nay đã cũ và đã bị FLOT thay thế, nhưng MAGIC chứng minh nguyên tắc hoá trị quanh mổ có lợi cho biểu mô tuyến.<br><br><b>💡 Giải thích của AI:</b><br>MAGIC là điểm tựa lịch sử cho hoá trị quanh mổ, còn FLOT4 mới là phác đồ quanh mổ chuẩn hiện nay cho <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span> dạ dày và nối.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.4 🆕 — Thử nghiệm MAGIC.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">magic</span> <span class=\"tag\">ecf</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-070",
+      "note_id": 1793862964536,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "flot4",
+        "flot",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>FLOT4</b></span>: FLOT quanh mổ so với ECF hay ECX cho kết quả sống thêm và độc tính ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm FLOT4, một thử nghiệm ngẫu nhiên pha 2/3 với 716 bệnh nhân biểu mô tuyến dạ dày hay nối dạ dày–thực quản tiến triển tại chỗ có thể mổ, so sánh FLOT quanh mổ, 4 chu kỳ trước và 4 chu kỳ sau, với ECF hay ECX.<br>2) Sống toàn bộ trung vị là 50 tháng so với 35 tháng, tỉ số nguy cơ 0,77, tác dụng phụ nặng tương tự ở 27% cả hai nhóm, và tử vong do độc tính dưới 1% cả hai nhóm.<br>3) FLOT là phác đồ quanh mổ chuẩn cho biểu mô tuyến dạ dày và nối.<br><br><b>💡 Giải thích của AI:</b><br>FLOT thắng ECF về sống thêm mà không tăng độc tính nặng, vì vậy ECF của MAGIC đã bị FLOT thay thế, nhưng nguyên tắc <span style=\"color:#51cf66\"><b>hoá trị</b></span> quanh mổ do MAGIC chứng minh vẫn đứng vững.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.4 🆕 — Thử nghiệm FLOT4.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">flot4</span> <span class=\"tag\">flot</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-071",
+      "note_id": 1793862964538,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "cross",
+        "xa"
+      ],
+      "type": "cloze",
+      "text": "Hoá xạ tân bổ trợ CROSS gồm carboplatin và paclitaxel hàng tuần trong 5 tuần cùng xạ {{c1::<span style=\"color:#ffd43b\"><b>41,4 Gy</b></span>}} chia 23 phân liều rồi mổ.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 7.4 🆕 — Thử nghiệm CROSS.",
+      "front": "Hoá xạ tân bổ trợ CROSS gồm carboplatin và paclitaxel hàng tuần trong 5 tuần cùng xạ {{c1::<span style=\"color:#ffd43b\"><b>41,4 Gy</b></span>}} chia 23 phân liều rồi mổ.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 7.4 🆕 — Thử nghiệm CROSS."
+    },
+    {
+      "id": "SURG20B-CARD-072",
+      "note_id": 1793862964540,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "esopec",
+        "flot",
+        "cross",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>ESOPEC 2025</b></span>: FLOT so với CROSS ở biểu mô tuyến thực quản cho sống 3 năm, sống không tiến triển và tái phát xa ra sao, và FLOT thắng nhờ đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ESOPEC, một thử nghiệm ngẫu nhiên pha 3 năm 2025 với 438 bệnh nhân biểu mô tuyến thực quản có thể mổ, so sánh FLOT quanh mổ với hoá xạ tân bổ trợ CROSS rồi mổ; với theo dõi trung vị 55 tháng, sống 3 năm là 57,4% với FLOT so với 50,7% với CROSS, tỉ số nguy cơ tử vong là 0,70.<br>2) Sống không tiến triển 3 năm là 51,6% so với 35,0%, tỉ số nguy cơ là 0,66; tác dụng phụ độ 3 trở lên là 58,0% so với 50,0%, và tử vong 90 ngày sau mổ là 3,1% so với 5,6%.<br>3) Phân tích tái phát ghi nhận sống không tái phát 3 năm là 54,5% so với 39,0%, tỉ số nguy cơ là 0,67; tái phát tại chỗ tương tự nhau là 20,2% so với 17,4%, và tái phát xa là 31,5% so với 47,2%, tỉ số nguy cơ là 0,59.<br><br><b>💡 Giải thích của AI:</b><br>FLOT thắng nhờ kiểm soát toàn thân tốt hơn, không phải nhờ kiểm soát tại chỗ. Kết luận là FLOT quanh mổ vượt hoá xạ CROSS ở <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span> thực quản, và đây là kết quả mới nhất và quan trọng nhất cho biểu mô tuyến.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.5 🆕 — Thử nghiệm ESOPEC 2025 và phân tích tái phát.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">esopec</span> <span class=\"tag\">flot</span> <span class=\"tag\">cross</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-073",
+      "note_id": 1793862964542,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "jcog1109",
+        "dcf",
+        "vay",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>JCOG1109 2024</b></span>: bộ ba DCF so với bộ đôi CF và bộ đôi kèm xạ ở biểu mô vảy cho sống 3 năm và độc tính ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm JCOG1109, một thử nghiệm ngẫu nhiên pha 3 năm 2024 với 601 bệnh nhân biểu mô vảy thực quản tiến triển tại chỗ chưa điều trị ở Nhật Bản, so sánh hoá trị bộ ba DCF gồm docetaxel, cisplatin, và fluorouracil với hoá trị bộ đôi CF và với CF kèm xạ 41,4 Gy, rồi mổ.<br>2) Sống 3 năm là 72,1% với bộ ba so với 62,6% với bộ đôi, tỉ số nguy cơ là 0,68, và 68,3% với bộ đôi kèm xạ, tỉ số nguy cơ là 0,84 và không có ý nghĩa thống kê.<br>3) Sốt giảm bạch cầu độ 3 trở lên là 16% với bộ ba so với 1% với bộ đôi và 5% với bộ đôi kèm xạ; rò miệng nối độ 2 trở lên là 9–13% ở các nhóm, và liệt dây thanh âm quặt ngược là 10–15%.<br><br><b>💡 Giải thích của AI:</b><br>Kết luận là hoá trị bộ ba tân bổ trợ có thể là chuẩn mới cho <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span> ở Nhật, và thêm xạ vào hoá trị bộ đôi không cải thiện sống thêm, trái với giả định phương Tây; người học phải dạy khác biệt phác đồ, quần thể và thời điểm, không được gộp thành \"thêm xạ luôn tốt\" hay \"thêm xạ vô ích\".<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.5 🆕 — Thử nghiệm JCOG1109 2024.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">jcog1109</span> <span class=\"tag\">dcf</span> <span class=\"tag\">vay</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-074",
+      "note_id": 1793862964544,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "esopec",
+        "jcog1109",
+        "mo-hoc"
+      ],
+      "type": "basic",
+      "front": "🆕 Vì sao không được gộp ESOPEC và JCOG1109 thành <span style=\"color:#51cf66\"><b>một chuẩn chung</b></span> cho mọi ung thư thực quản?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai thử nghiệm mới nhất đã thay đổi chuẩn điều trị theo mô học, và người học phải dạy cả hai kèm quần thể của từng thử nghiệm, không được gộp thành một chuẩn chung.<br>2) Biểu mô tuyến: FLOT quanh mổ vượt CROSS theo ESOPEC 2025, nhờ giảm tái phát xa.<br>3) Biểu mô vảy: hoá trị bộ ba DCF có thể là chuẩn mới theo JCOG1109 ở Nhật, và thêm xạ vào hoá trị bộ đôi không cải thiện sống, trái với giả định phương Tây.<br><br><b>💡 Giải thích của AI:</b><br>Đây là mâu thuẫn thứ ba của bài: CROSS ở châu Âu cải thiện sống rõ, trong khi JCOG1109 ở Nhật cho thấy thêm xạ vào <span style=\"color:#51cf66\"><b>hoá trị</b></span> bộ đôi không cải thiện sống, nhưng hoá trị bộ ba DCF lại cải thiện; người học phải dạy sự khác nhau về phác đồ, quần thể và thời điểm.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.5 🆕 và 9.1 — Mâu thuẫn thứ ba.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">esopec</span> <span class=\"tag\">jcog1109</span> <span class=\"tag\">mo-hoc</span>"
+    },
+    {
+      "id": "SURG20B-CARD-075",
+      "note_id": 1793862964546,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "esopec"
+      ],
+      "type": "cloze",
+      "text": "ESOPEC 2025: sống 3 năm với FLOT quanh mổ là {{c1::<span style=\"color:#ffd43b\"><b>57,4%</b></span>}} so với 50,7% với hoá xạ CROSS.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 7.5 🆕 — Thử nghiệm ESOPEC 2025.",
+      "front": "ESOPEC 2025: sống 3 năm với FLOT quanh mổ là {{c1::<span style=\"color:#ffd43b\"><b>57,4%</b></span>}} so với 50,7% với hoá xạ CROSS.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 7.5 🆕 — Thử nghiệm ESOPEC 2025."
+    },
+    {
+      "id": "SURG20B-CARD-076",
+      "note_id": 1793862964548,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "cochrane",
+        "hoa-xa-triet-can",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Tổng quan <span style=\"color:#51cf66\"><b>Cochrane 2006</b></span>: hoá xạ đồng thời so với xạ đơn thuần không mổ cho kết quả sống còn, tái phát và độc tính ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một tổng quan Cochrane năm 2006 với 19 thử nghiệm ngẫu nhiên so sánh hoá xạ đồng thời với xạ đơn thuần, không mổ, cho ung thư thực quản tại chỗ, ghi nhận hoá xạ đồng thời giảm tử vong với tỉ số nguy cơ 0,73, lợi ích sống tuyệt đối 9% ở 1 năm và 4% ở 2 năm, giảm tái phát tại chỗ tuyệt đối 12% với số cần điều trị là 9.<br>2) Độc tính nặng đe dọa tính mạng tăng với số cần hại là 6; hoá xạ tuần tự không có lợi ích sống còn.<br>3) Tổng quan này tìm kiếm tới tháng 4 năm 2005, và kết luận vẫn đứng vững và là cơ sở cho hoá xạ triệt căn, nhưng người học phải nhớ đây là tổng quan cũ và là nguồn Q1 duy nhất cho hoá xạ triệt căn so với xạ đơn thuần trong đợt nghiên cứu này, vì bài gốc RTOG 85-01 không tách được mã số bài báo.<br><br><b>💡 Giải thích của AI:</b><br>Sách nói với tổn thương không thể <span style=\"color:#51cf66\"><b>phẫu thuật</b></span> thì hoá–xạ trị triệt căn là phương pháp thay thế hiệu quả, và bằng chứng này định lượng được hiệu quả đó cùng giới hạn của nó.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.6 🆕 — Tổng quan Cochrane 2006 về hoá xạ đồng thời so với xạ đơn thuần.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">cochrane</span> <span class=\"tag\">hoa-xa-triet-can</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-077",
+      "note_id": 1793862964550,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "ffcd",
+        "bao-ton-co-quan",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>FFCD 9102</b></span>: bệnh nhân đáp ứng hoá xạ được mổ hay tiếp tục hoá xạ cho sống 2 năm, tử vong 3 tháng và nhu cầu stent ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm FFCD 9102 với 444 bệnh nhân, trong đó 88,8% là biểu mô vảy, ở giai đoạn T3N0–1M0, so sánh bệnh nhân đáp ứng hoá xạ được random mổ hay tiếp tục hoá xạ.<br>2) Sống 2 năm là 34% với mổ so với 40% với hoá xạ, tỉ số nguy cơ là 0,90 và không có ý nghĩa, kiểm soát tại chỗ 2 năm là 66,4% so với 57,0%.<br>3) Tử vong 3 tháng là 9,3% so với 0,8%, cần stent ít hơn ở nhóm mổ là 5% so với 32%, và nằm viện tích lũy là 68 ngày so với 52 ngày.<br><br><b>💡 Giải thích của AI:</b><br>Kết luận là ở bệnh nhân đáp ứng hoá xạ, thêm mổ không có lợi ích sống còn so với tiếp tục hoá xạ, và đây là nền tảng cho hướng bảo tồn cơ quan ở <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.6 🆕 — Thử nghiệm FFCD 9102.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">ffcd</span> <span class=\"tag\">bao-ton-co-quan</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-078",
+      "note_id": 1793862964552,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "sano",
+        "theo-doi-chu-dong",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>SANO 2025</b></span>: theo dõi chủ động so với mổ chuẩn ở bệnh nhân đáp ứng hoàn toàn lâm sàng sau hoá xạ cho sống 2 năm ra sao, và giới hạn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm SANO năm 2025, một thử nghiệm ngẫu nhiên cụm với 12 bệnh viện Hà Lan và 309 bệnh nhân đạt đáp ứng hoàn toàn lâm sàng sau hoá xạ tân bổ trợ, so sánh theo dõi chủ động với mổ chuẩn.<br>2) Sống 2 năm là 74% so với 71%, không thua kém, với tỉ số nguy cơ là 1,14 theo phân tích hiệu chỉnh và 0,83 theo phân tích ý định điều trị, biến chứng và tử vong sau mổ tương tự kể cả mổ trì hoãn sau theo dõi.<br>3) Tác giả kết luận cần theo dõi dài hạn hơn, kết quả dùng cho tư vấn và quyết định chung.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải dạy bảo tồn cơ quan là hướng mới có bằng chứng, nhưng SANO mới <span style=\"color:#51cf66\"><b>theo dõi</b></span> trung vị 38 tháng và cần theo dõi dài hạn, và mổ vẫn là chuẩn khi không đáp ứng hoàn toàn.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.6 🆕 — Thử nghiệm SANO 2025.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">sano</span> <span class=\"tag\">theo-doi-chu-dong</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-079",
+      "note_id": 1793862964554,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "artdeco",
+        "lieu-xa",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>ARTDECO</b></span>: tăng liều xạ triệt căn từ 50,4 Gy lên 61,6 Gy có cải thiện kiểm soát tại chỗ không, và độc tính ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ARTDECO với 260 bệnh nhân, trong đó 61% là biểu mô vảy và 39% là biểu mô tuyến, so sánh hoá xạ triệt căn với liều chuẩn 50,4 Gy và liều cao tới 61,6 Gy vào u nguyên phát, cùng carboplatin và paclitaxel hàng tuần.<br>2) Sống không tiến triển tại chỗ 3 năm là 70% so với 73% và không có ý nghĩa, độc tính độ 4 và 5 là 12% và 5% so với 14% và 10%.<br>3) Tăng liều xạ không cải thiện kiểm soát tại chỗ.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải phân biệt hai khái niệm: <span style=\"color:#51cf66\"><b>IMRT</b></span> và VMAT trong sách là kỹ thuật phân phối liều giúp hạn chế tác dụng phụ trên mô lành, không phải tăng liều tổng, và trực giác \"liều cao hơn kiểm soát tốt hơn\" đã bị ARTDECO bác bỏ — đây là mâu thuẫn thứ tám của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.6 🆕 — Thử nghiệm ARTDECO.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">artdeco</span> <span class=\"tag\">lieu-xa</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-080",
+      "note_id": 1793862964556,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "time",
+        "mo-noi-soi",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>TIME</b></span>: cắt thực quản nội soi so với mổ mở giảm nhiễm trùng phổi ra sao, và tỉ lệ rò miệng nối có dạy được không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm TIME, một thử nghiệm ngẫu nhiên đa trung tâm với 115 bệnh nhân, so sánh cắt thực quản nội soi với mổ mở qua ngực.<br>2) Nhiễm trùng phổi trong 2 tuần đầu là 9% so với 29%, tỉ số nguy cơ là 0,30, và nhiễm trùng phổi trong viện là 12% so với 34%, tỉ số nguy cơ là 0,35.<br>3) Tử vong nội viện gồm 1 ca mổ mở do rò miệng nối và 2 ca nội soi do hít sặc và <span style=\"color:#ff6b6b\"><b>viêm trung thất</b></span> sau rò miệng nối; mổ nội soi giảm biến chứng phổi ngắn hạn, và rò miệng nối vẫn xảy ra ở cả hai nhóm.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ rò miệng nối tổng thể không có số gộp đã kiểm chứng trong tập đã đọc, nên bài này không dạy tỉ lệ rò — đây là bẫy số 7 của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm TIME.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">time</span> <span class=\"tag\">mo-noi-soi</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-081",
+      "note_id": 1793862964558,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "checkmate-577",
+        "nivolumab",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>CheckMate 577</b></span>: nivolumab bổ trợ sau mổ cho quần thể nào, và sống không bệnh trung vị ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm CheckMate 577, một thử nghiệm ngẫu nhiên pha 3 với 794 bệnh nhân ung thư thực quản hay nối giai đoạn II–III đã mổ R0 sau hoá xạ tân bổ trợ và còn bệnh tồn dư về bệnh học, so sánh nivolumab bổ trợ tối đa 1 năm với giả dược.<br>2) Sống không bệnh trung vị là 22,4 tháng so với 11,0 tháng, tỉ số nguy cơ là 0,69, tác dụng phụ độ 3–4 liên quan thuốc là 13% so với 6%, và ngừng thuốc do tác dụng phụ là 9% so với 3%.<br>3) Đây là miễn dịch bổ trợ sau mổ cho bệnh tồn dư sau hoá xạ tân bổ trợ, không phải miễn dịch cho mọi bệnh nhân đã mổ.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ định hẹp: giai đoạn II–III, đã mổ R0 sau <span style=\"color:#51cf66\"><b>hoá xạ</b></span> tân bổ trợ, và còn bệnh tồn dư về bệnh học — thiếu một trong ba điều kiện thì không thuộc quần thể của thử nghiệm này.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm CheckMate 577.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">checkmate-577</span> <span class=\"tag\">nivolumab</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-082",
+      "note_id": 1793862964560,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "keynote-590",
+        "pembrolizumab",
+        "pd-l1",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>KEYNOTE-590</b></span>: pembrolizumab kèm hoá trị tuyến đầu cho sống thêm ra sao, và lợi ích tập trung ở nhóm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm KEYNOTE-590, một thử nghiệm ngẫu nhiên pha 3 với 749 bệnh nhân ung thư thực quản tiến triển hay di căn chưa điều trị, so sánh pembrolizumab kèm hoá trị với giả dược kèm hoá trị.<br>2) Sống toàn bộ ở nhóm biểu mô vảy có PD-L1 CPS từ 10 trở lên là 13,9 tháng so với 8,8 tháng, tỉ số nguy cơ là 0,57, và ở toàn bộ bệnh nhân là 12,4 tháng so với 9,8 tháng, tỉ số nguy cơ là 0,73, với tác dụng phụ độ 3 trở lên là 72% so với 68%.<br>3) Lợi ích tập trung ở nhóm biểu mô vảy có PD-L1 cao, không phải có lợi như nhau cho mọi người.<br><br><b>💡 Giải thích của AI:</b><br>Đây là tip 8 của bài: lợi ích miễn dịch tuyến đầu phụ thuộc PD-L1 và <span style=\"color:#74c0fc\"><b>mô học</b></span>, và xét nghiệm PD-L1 có ý nghĩa chọn bệnh nhân.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm KEYNOTE-590.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">keynote-590</span> <span class=\"tag\">pembrolizumab</span> <span class=\"tag\">pd-l1</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-083",
+      "note_id": 1793862964562,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "checkmate-648",
+        "nivolumab",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>CheckMate 648</b></span>: hai phác đồ nivolumab tuyến đầu cho biểu mô vảy tiến triển cho sống thêm và độc tính ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm CheckMate 648, một thử nghiệm ngẫu nhiên pha 3 với 970 bệnh nhân biểu mô vảy thực quản tiến triển chưa điều trị, so sánh nivolumab kèm hoá trị và nivolumab kèm ipilimumab với hoá trị đơn thuần.<br>2) Ở nhóm PD-L1 từ 1% trở lên, nivolumab kèm hoá trị cho sống 15,4 tháng so với 9,1 tháng, tỉ số nguy cơ là 0,54, và toàn bộ là 13,2 tháng so với 10,7 tháng, tỉ số nguy cơ là 0,74.<br>3) Nivolumab kèm ipilimumab cho sống 13,7 tháng so với 9,1 tháng, tỉ số nguy cơ là 0,64; tác dụng phụ độ 3–4 là 47% với nivolumab kèm hoá trị, 32% với nivolumab kèm ipilimumab, và 36% với hoá trị.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai phác đồ miễn dịch đều cải thiện sống thêm so với hoá trị đơn thuần ở <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>, nhưng mức lợi ích và độc tính khác nhau, nên chọn theo PD-L1 và thể trạng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm CheckMate 648.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">checkmate-648</span> <span class=\"tag\">nivolumab</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-084",
+      "note_id": 1793862964564,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "escort",
+        "camrelizumab",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Thử nghiệm <span style=\"color:#51cf66\"><b>ESCORT</b></span>: camrelizumab kèm hoá trị tuyến đầu cho biểu mô vảy ở Trung Quốc cho sống thêm ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ESCORT, một thử nghiệm ngẫu nhiên pha 3 với 596 bệnh nhân biểu mô vảy tiến triển hay di căn chưa điều trị ở Trung Quốc, so sánh camrelizumab kèm paclitaxel và cisplatin với giả dược kèm hoá trị.<br>2) Sống toàn bộ là 15,3 tháng so với 12,0 tháng, tỉ số nguy cơ là 0,70, và sống không tiến triển là 6,9 tháng so với 5,6 tháng, tỉ số nguy cơ là 0,56.<br>3) Tác dụng phụ độ 3 trở lên là 63,4% so với 67,7%, tức không tăng so với hoá trị đơn thuần.<br><br><b>💡 Giải thích của AI:</b><br>ESCORT cùng KEYNOTE-590 và CheckMate 648 tạo thành bộ ba bằng chứng miễn dịch tuyến đầu cho <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>, và cả ba đều cho thấy lợi ích phụ thuộc PD-L1 và mô học.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm ESCORT.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">escort</span> <span class=\"tag\">camrelizumab</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-085",
+      "note_id": 1793862964566,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "stent",
+        "xa-ap-sat",
+        "giam-nhe",
+        "cap-nhat"
+      ],
+      "type": "basic",
+      "front": "🆕 Giảm nhẹ nuốt nghẹn: <span style=\"color:#51cf66\"><b>stent</b></span> so với <span style=\"color:#51cf66\"><b>xạ áp sát liều đơn 12 Gy</b></span> khác nhau về tốc độ, hiệu quả dài hạn và biến chứng ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một thử nghiệm ngẫu nhiên với 209 bệnh nhân ung thư thực quản không mổ được gây nuốt nghẹn ở 9 bệnh viện Hà Lan so sánh xạ áp sát liều đơn 12 Gy với đặt stent kim loại tự giãn.<br>2) Stent cải thiện nuốt nghẹn nhanh hơn, nhưng xạ áp sát giảm nuốt nghẹn tốt hơn về dài hạn; biến chứng là 33% với stent so với 21% với xạ áp sát, chủ yếu do xuất huyết muộn là 13% so với 5%.<br>3) Không khác biệt nuốt nghẹn dai dẳng hay tái phát và sống thêm trung vị, chất lượng sống nghiêng về xạ áp sát, và chi phí tương tự nhau.<br><br><b>💡 Giải thích của AI:</b><br>Người học chọn theo tuổi thọ kỳ vọng và mức độ khẩn: cần giảm <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> ngay thì stent, sống thêm kỳ vọng dài hơn thì xạ áp sát — đây là tip 9 và mâu thuẫn thứ bảy của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 — Thử nghiệm Homs về xạ áp sát so với stent.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">stent</span> <span class=\"tag\">xa-ap-sat</span> <span class=\"tag\">giam-nhe</span> <span class=\"tag\">cap-nhat</span>"
+    },
+    {
+      "id": "SURG20B-CARD-086",
+      "note_id": 1793862964568,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "mo-thong-da-day",
+        "pd-l1",
+        "khoang-trong"
+      ],
+      "type": "basic",
+      "front": "Vì sao không dạy số liệu so sánh <span style=\"color:#51cf66\"><b>mở thông dạ dày nuôi dưỡng</b></span> với stent hay xạ áp sát, và nguyên tắc chọn miễn dịch tuyến đầu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lợi ích miễn dịch tuyến đầu phụ thuộc PD-L1 và mô học, và xét nghiệm PD-L1 có ý nghĩa chọn bệnh nhân, không phải miễn dịch có lợi như nhau cho mọi người.<br>2) Sách nhắc <span style=\"color:#51cf66\"><b>mở thông dạ dày</b></span> nuôi dưỡng cho tổn thương xâm lấn rộng, và bài này giữ nguyên chữ gốc, không thêm số, vì không có thử nghiệm so sánh nào về mở thông dạ dày trong tập đã đọc.<br>3) Không có dữ liệu đã kiểm chứng về so sánh mở thông dạ dày với stent hay xạ áp sát, và đây là một trong ba khoảng trống lớn nhất của bằng chứng.<br><br><b>💡 Giải thích của AI:</b><br>Một khoảng trống được nói thẳng an toàn hơn một con số bịa, như tip 12 của bài nhắc: ghi rõ khoảng trống bằng chứng trong bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.7 🆕 và 10.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">mo-thong-da-day</span> <span class=\"tag\">pd-l1</span> <span class=\"tag\">khoang-trong</span>"
+    },
+    {
+      "id": "SURG20B-CARD-087",
+      "note_id": 1793862964570,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "thuat-toan",
+        "t1a",
+        "t1b"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>Thuật toán:</b> Bệnh nhân ung thư thực quản có dấu hiệu cấp cứu thì xử trí ra sao, và tổn thương sớm <span style=\"color:#51cf66\"><b>T1a so với T1b</b></span> thì chọn cắt hớt hay mổ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhánh cấp cứu: nôn máu, khó thở, <span style=\"color:#ff6b6b\"><b>đau ngực</b></span> dữ dội, nghi thủng vào phế quản, động mạch chủ hay màng bao tim thì hồi sức, đánh giá khẩn, chuyển tuyến khẩn, không chờ điều trị triệt căn theo lịch thường.<br>2) Tổn thương sớm, khu trú niêm mạc (T1a), không hạch thì cắt hớt nội soi (EMR/ESD) theo sách và cập nhật.<br>3) T1b, tức đã xuống dưới niêm mạc, thì nên mổ.<br><br><b>💡 Giải thích của AI:</b><br>Mọi nhánh cấp cứu này đều đi trước nhánh thường quy, và không có bước thường quy nào được phép bỏ qua BOX ĐỎ ở phần triệu chứng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.8 — Lưu đồ quyết định điều trị.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">thuat-toan</span> <span class=\"tag\">t1a</span> <span class=\"tag\">t1b</span>"
+    },
+    {
+      "id": "SURG20B-CARD-088",
+      "note_id": 1793862964572,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "thuat-toan",
+        "flot",
+        "cross",
+        "dcf"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>Thuật toán:</b> Ung thư thực quản tiến triển tại chỗ, có thể mổ, chưa di căn xa thì chọn <span style=\"color:#51cf66\"><b>đa mô thức theo mô học</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiến triển tại chỗ, có thể mổ, chưa di căn xa thì hội chẩn đa chuyên khoa.<br>2) Biểu mô tuyến: FLOT quanh mổ theo ESOPEC 2025 hoặc hoá xạ tân bổ trợ CROSS rồi mổ.<br>3) Biểu mô vảy: hoá xạ CROSS hoặc hoá trị bộ ba DCF theo JCOG1109 rồi mổ; cân nhắc hoá xạ triệt căn nếu đáp ứng tốt theo FFCD 9102 và SANO.<br>4) Sau mổ còn bệnh tồn dư thì nivolumab bổ trợ theo CheckMate 577.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định theo mô học cùng <span style=\"color:#51cf66\"><b>hội chẩn</b></span> đa chuyên khoa, không theo một thử nghiệm duy nhất, và mổ vẫn là chuẩn khi không đáp ứng hoàn toàn với hoá xạ.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.8 — Lưu đồ quyết định điều trị.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">thuat-toan</span> <span class=\"tag\">flot</span> <span class=\"tag\">cross</span> <span class=\"tag\">dcf</span>"
+    },
+    {
+      "id": "SURG20B-CARD-089",
+      "note_id": 1793862964574,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "thuat-toan",
+        "di-can-xa",
+        "ke-hoach"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>Thuật toán:</b> Bệnh không mổ được và bệnh di căn xa xử trí ra sao, và <span style=\"color:#51cf66\"><b>kế hoạch A so với kế hoạch B</b></span> khác nhau ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không mổ được, chưa di căn xa thì hoá xạ triệt căn theo Cochrane 2006, và không tăng liều xạ vượt 50,4 Gy theo ARTDECO.<br>2) Di căn xa thì hoá chất toàn thân kèm miễn dịch theo PD-L1 và mô học theo KEYNOTE-590, CheckMate 648 và ESCORT, cùng chăm sóc giảm nhẹ song song.<br>3) Giảm nhẹ nuốt nghẹn: cần giảm ngay thì stent, kỳ vọng sống dài hơn thì xạ áp sát liều đơn; mở thông dạ dày nuôi dưỡng khi không ăn được theo sách.<br>4) Kế hoạch A, đủ nguồn lực: chẩn đoán giai đoạn đầy đủ gồm CT và siêu âm nội soi kèm PET khi cần, hội chẩn đa chuyên khoa, đa mô thức theo mô học, miễn dịch khi đủ điều kiện.<br>5) Kế hoạch B, nguồn lực hạn chế: chẩn đoán mô học và CT, mổ khi có thể, hoá xạ triệt căn khi không mổ được, giảm nhẹ nuốt nghẹn bằng stent hay xạ giảm nhẹ, hỗ trợ dinh dưỡng, và không bỏ bước chẩn đoán giai đoạn.<br><br><b>💡 Giải thích của AI:</b><br>Kế hoạch B vẫn giữ nguyên tắc: không bỏ bước chẩn đoán giai đoạn, vì giai đoạn quyết định chiến lược <span style=\"color:#51cf66\"><b>điều trị</b></span>.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 7.8 — Lưu đồ quyết định điều trị.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">thuat-toan</span> <span class=\"tag\">di-can-xa</span> <span class=\"tag\">ke-hoach</span>"
+    },
+    {
+      "id": "SURG20B-CARD-090",
+      "note_id": 1793862964576,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "phong-benh",
+        "theo-doi"
+      ],
+      "type": "basic",
+      "front": "Phòng bệnh ung thư thực quản gồm <span style=\"color:#51cf66\"><b>hai bước</b></span> nào, và lịch theo dõi sau điều trị triệt căn theo sách ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phòng bệnh bước 1 là tránh tiếp xúc các yếu tố nguy cơ như rượu, thuốc lá, và các yếu tố đã nêu ở phần bệnh nguyên.<br>2) Phòng bệnh bước 2 là sàng lọc phát hiện sớm ung thư thực quản.<br>3) Theo dõi sau điều trị triệt căn gồm khám lâm sàng và làm các xét nghiệm cơ bản 4 tháng một lần trong 1 năm đầu tiên, tiếp theo 6 tháng một lần trong 2 năm tiếp theo; chụp X-quang, chụp cắt lớp phổi, chụp cắt lớp ổ bụng; và nội soi dạ dày thực quản.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ của sách: một bệnh nhân đã điều trị triệt căn, và lịch khám 4 tháng một lần trong năm đầu rồi 6 tháng một lần trong 2 năm sau, kèm <span style=\"color:#51cf66\"><b>chụp cắt lớp</b></span> và nội soi, là lịch của sách; nếu cơ sở có phác đồ theo dõi riêng thì đối chiếu với lịch này và ghi rõ nguồn.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 8.1 — Phòng bệnh theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">phong-benh</span> <span class=\"tag\">theo-doi</span>"
+    },
+    {
+      "id": "SURG20B-CARD-091",
+      "note_id": 1793862964578,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "esmo",
+        "theo-doi"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy lịch theo dõi sau mổ trong sách như <span style=\"color:#74c0fc\"><b>lịch của ESMO</b></span>. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Lịch <span style=\"color:#51cf66\"><b>theo dõi</b></span> sau mổ trong sách chưa đối chiếu với guideline ESMO 2022, vì toàn văn ESMO không lấy được trong đợt nghiên cứu này, nên lịch trong sách được giữ nguyên là chữ gốc và gắn cờ chưa đối chiếu.<br>2) Không được trình bày lịch trong sách như lịch theo dõi của ESMO, và đây là bẫy số 6 trong danh sách mười bẫy của bài.<br>3) Sách đánh số phần phòng bệnh mang số 7 đặt sau phần 9 về điều trị, một lỗi đánh số trong sách, và bài này sắp xếp lại thứ tự cho đúng logic mà không bỏ nội dung nào.<br><br><b>💡 Giải thích của AI:</b><br>Thực hành phổ biến kiểm tra chỉ sau bốn tới sáu tuần không liên quan ở đây; nguyên tắc chung là lịch nào chưa đối chiếu thì ghi rõ cờ, không gán cho guideline.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 8.1 và 9.2 — Bẫy 6.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">esmo</span> <span class=\"tag\">theo-doi</span>"
+    },
+    {
+      "id": "SURG20B-CARD-092",
+      "note_id": 1793862964580,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "viet-nam",
+        "gioi-han"
+      ],
+      "type": "basic",
+      "front": "Áp dụng tại Việt Nam: <span style=\"color:#ffd43b\"><b>số liệu Việt Nam</b></span> nào đã kiểm chứng, và giới hạn nào phải ghi rõ trước mọi khuyến cáo tuyến?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong đợt nghiên cứu này, số liệu Việt Nam đã kiểm chứng duy nhất là dịch tễ từ fact sheet GLOBOCAN 2024, và không có dữ liệu nào về kết cục điều trị, khả năng tiếp cận, hay chi phí tại Việt Nam.<br>2) Mọi khuyến cáo tuyến và chuyển tuyến dưới đây là suy luận từ khung quốc tế, không phải số liệu Việt Nam, và người học phải đối chiếu khả năng thực tế tại cơ sở mình.<br>3) So sánh với số liệu GLOBOCAN 2008 trong sách, với 1.511 ca mới và 1.157 ca tử vong, phải kèm cờ rằng phương pháp ước tính và độ bao phủ đăng ký ung thư đã thay đổi giữa năm 2008 và năm 2024.<br><br><b>💡 Giải thích của AI:</b><br>Người học không được bịa bất kỳ số liệu Việt Nam nào ngoài fact sheet đã nêu, và không được gán khuyến cáo chi tiết nào cho <span style=\"color:#74c0fc\"><b>ESMO</b></span> hay NCCN.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 8.2 — Áp dụng tại Việt Nam.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">viet-nam</span> <span class=\"tag\">gioi-han</span>"
+    },
+    {
+      "id": "SURG20B-CARD-093",
+      "note_id": 1793862964582,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "viet-nam",
+        "chuyen-tuyen"
+      ],
+      "type": "basic",
+      "front": "Suy luận tuyến từ khung quốc tế: nền tảng chẩn đoán ở mọi tuyến, điều trị đa mô thức ở tuyến nào, và những tình huống nào cần <span style=\"color:#51cf66\"><b>chuyển tuyến</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán mô học và chẩn đoán giai đoạn bằng chụp cắt lớp cùng siêu âm nội soi là nền tảng ở mọi tuyến có thể.<br>2) Điều trị đa mô thức gồm hoá xạ tân bổ trợ hay hoá trị quanh mổ, phẫu thuật cắt thực quản, và miễn dịch cần hội chẩn đa chuyên khoa tại tuyến có đủ chuyên khoa.<br>3) Các tình huống chuyển tuyến gồm tổn thương sớm cần cắt hớt nội soi chuyên sâu, bệnh tiến triển tại chỗ cần đa mô thức, nghi di căn xa cần đánh giá toàn thân, và nuốt nghẹn nặng cần giảm nhẹ bằng stent hay xạ áp sát.<br><br><b>💡 Giải thích của AI:</b><br>Đào tạo phải nhấn mạnh ba khoảng trống đã nêu: toàn văn ESMO 2022 và NCCN không lấy được, không có số liệu toàn cầu riêng cho <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> năm 2022 đã kiểm chứng, và không có dữ liệu về tỉ lệ rò miệng nối, so sánh mở thông dạ dày, dinh dưỡng, và kết cục điều trị tại Việt Nam.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 8.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">viet-nam</span> <span class=\"tag\">chuyen-tuyen</span>"
+    },
+    {
+      "id": "SURG20B-CARD-094",
+      "note_id": 1793862964584,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay",
+        "viet-nam"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy tỉ lệ rò miệng nối hay số ca thực quản toàn cầu 2022 như <span style=\"color:#ff6b6b\"><b>số đã kiểm chứng</b></span> tại Việt Nam. Sai ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không được bịa bất kỳ số liệu Việt Nam nào ngoài fact sheet GLOBOCAN 2024 đã nêu.<br>2) Không được gán khuyến cáo chi tiết nào cho ESMO hay NCCN khi toàn văn cả hai đều chưa lấy được.<br>3) Không được dạy tỉ lệ rò miệng nối, tỉ lệ chuẩn hoá theo tuổi Việt Nam 2024, hay số ca <span style=\"color:#74c0fc\"><b>thực quản</b></span> toàn cầu 2022 như số đã kiểm chứng, vì không có số nào trong các số đó đã kiểm chứng trong đợt nghiên cứu này.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bẫy số 7 trong danh sách mười bẫy của bài, và tip 12 nhắc lại: ghi rõ khoảng trống bằng chứng trong bài, vì một khoảng trống được nói thẳng an toàn hơn một con số bịa.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 8.2 và 9.2 — Bẫy 7.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span> <span class=\"tag\">viet-nam</span>"
+    },
+    {
+      "id": "SURG20B-CARD-095",
+      "note_id": 1793862964586,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "mau-thuan",
+        "flot",
+        "cross"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>mâu thuẫn 1–4</b></span>: FLOT so với CROSS, mổ so với bảo tồn cơ quan, thêm xạ cho biểu mô vảy, và hoá trị tân bổ trợ cho biểu mô vảy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn thứ nhất, FLOT so với CROSS cho biểu mô tuyến: CROSS dài hạn cho thấy hoá xạ cải thiện sống còn với tỉ số nguy cơ 0,68, với biểu mô vảy là 0,48 và biểu mô tuyến là 0,73, và là chuẩn nhiều năm, trong khi ESOPEC 2025 cho thấy FLOT quanh mổ vượt CROSS ở biểu mô tuyến thực quản với tỉ số nguy cơ tử vong 0,70 và sống 3 năm 57,4% so với 50,7%, nhờ giảm tái phát xa trong khi tái phát tại chỗ tương tự.<br>2) Mâu thuẫn thứ hai, mổ so với hoá xạ triệt căn và bảo tồn cơ quan ở biểu mô vảy: FFCD 9102 cho thấy ở người đáp ứng hoá xạ, thêm mổ không cải thiện sống 2 năm nhưng tử vong 3 tháng cao hơn nhiều, và SANO 2025 cho thấy theo dõi chủ động ở người đáp ứng hoàn toàn lâm sàng không thua kém mổ về sống 2 năm.<br>3) Mâu thuẫn thứ ba, thêm xạ vào hoá trị tân bổ trợ cho biểu mô vảy: CROSS ở châu Âu cải thiện sống rõ, trong khi JCOG1109 ở Nhật cho thấy thêm xạ vào hoá trị bộ đôi không cải thiện sống, nhưng hoá trị bộ ba DCF lại cải thiện.<br>4) Mâu thuẫn thứ tư, hoá trị tân bổ trợ cho biểu mô vảy: một phân tích gộp cho thấy hoá trị bộ đôi không đủ cho biểu mô vảy, nhưng JCOG1109 cho thấy bộ ba DCF cải thiện sống ở biểu mô vảy.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải dạy rằng ESOPEC chỉ gồm <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span> tại trung tâm Đức, CROSS vẫn là chuẩn cho biểu mô vảy và cho nối dạ dày–thực quản khi ưu tiên kiểm soát tại chỗ, và quyết định theo mô học cùng hội chẩn đa chuyên khoa; bảo tồn cơ quan là hướng mới có bằng chứng, nhưng SANO mới theo dõi trung vị 38 tháng và cần theo dõi dài hạn, và mổ vẫn là chuẩn khi không đáp ứng hoàn toàn.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 9.1 — Mâu thuẫn thứ nhất tới thứ tư.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">mau-thuan</span> <span class=\"tag\">flot</span> <span class=\"tag\">cross</span>"
+    },
+    {
+      "id": "SURG20B-CARD-096",
+      "note_id": 1793862964588,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "mau-thuan",
+        "barrett",
+        "hpv"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>mâu thuẫn 5–8</b></span>: nguy cơ Barrett, HPV, stent so với xạ áp sát, và tăng liều xạ triệt căn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn thứ năm, nguy cơ Barrett: tỉ số nguy cơ cao gấp 11,3 lần nhưng nguy cơ tuyệt đối chỉ 0,12% mỗi năm, thấp hơn nhiều so với giả định cũ 0,5% mỗi năm; người học phải dạy cả hai con số cùng nhau.<br>2) Mâu thuẫn thứ sáu, HPV và <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>: sách liệt kê HPV là yếu tố nguy cơ, nhưng phân tích gộp cho thấy tỉ lệ dương tính khác biệt lớn theo vùng địa lý, gợi ý HPV chỉ quan trọng ở vùng mắc cao; người học phải dạy HPV là yếu tố liên quan chưa chứng minh nhân quả.<br>3) Mâu thuẫn thứ bảy, stent so với xạ áp sát giảm nhẹ: stent nhanh hơn, xạ áp sát tốt hơn dài hạn và ít biến chứng hơn; người học chọn theo tuổi thọ kỳ vọng và mức độ khẩn.<br>4) Mâu thuẫn thứ tám, tăng liều xạ triệt căn: trực giác liều cao hơn kiểm soát tốt hơn đã bị ARTDECO bác bỏ, và IMRT cùng VMAT là kỹ thuật phân phối liều, không phải tăng liều tổng; người học phải phân biệt hai khái niệm.<br><br><b>💡 Giải thích của AI:</b><br>Cả bốn mâu thuẫn này đều có chung một nguyên tắc dạy: trình bày đủ hai phía kèm quần thể và số liệu, rồi mới kết luận theo bối cảnh, không chọn một phía duy nhất.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 9.1 — Mâu thuẫn thứ năm tới thứ tám.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">mau-thuan</span> <span class=\"tag\">barrett</span> <span class=\"tag\">hpv</span>"
+    },
+    {
+      "id": "SURG20B-CARD-097",
+      "note_id": 1793862964590,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "Liệt kê <span style=\"color:#ff6b6b\"><b>bẫy 1–5</b></span> trong mười bẫy hay gặp của bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bẫy 1, dùng bảng xếp giai đoạn của sách có M1a và M1b khi đọc tài liệu hiện đại, trong khi AJCC 8th đã bỏ M1a và M1b, và hạch tính theo số lượng chứ không theo vị trí hay khoảng cách.<br>2) Bẫy 2, dạy một con số sống 5 năm hiện tại duy nhất cho mọi bệnh nhân, trong khi sách cho khoảng 10% giai đoạn 1996–2003 và hiện tại chỉ có khoảng dao động theo quốc gia từ 4,1% tới 41,1%.<br>3) Bẫy 3, viết \"quang động (cryotherapy)\" như một thuật ngữ duy nhất, trong khi <span style=\"color:#51cf66\"><b>liệu pháp quang động</b></span> khác cryotherapy, và đây là lỗi trong sách.<br>4) Bẫy 4, gán khuyến cáo chi tiết cho ESMO 2022 hay NCCN, trong khi toàn văn cả hai đều không lấy được trong đợt nghiên cứu này.<br>5) Bẫy 5, trình bày số liệu Việt Nam 2008 và 2024 như một xu hướng tăng thuần túy, trong khi phương pháp ước tính và độ bao phủ đăng ký đã thay đổi.<br><br><b>💡 Giải thích của AI:</b><br>Năm bẫy đầu đều là lỗi do trộn hai lớp nội dung: chữ gốc của sách với khối cập nhật, hoặc số chưa kiểm chứng với số đã kiểm chứng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 9.2 — Bẫy hay gặp: mười bẫy (bẫy 1–5).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span>"
+    },
+    {
+      "id": "SURG20B-CARD-098",
+      "note_id": 1793862964592,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "Liệt kê <span style=\"color:#ff6b6b\"><b>bẫy 6–10</b></span> trong mười bẫy hay gặp của bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bẫy 6, dạy lịch theo dõi sau mổ trong sách như lịch của ESMO, trong khi lịch này chưa đối chiếu với ESMO 2022.<br>2) Bẫy 7, dạy tỉ lệ rò miệng nối, tỉ lệ chuẩn hoá theo tuổi Việt Nam 2024, hay số ca thực quản toàn cầu 2022 như số đã kiểm chứng, trong khi không có số nào trong các số đó đã kiểm chứng trong đợt nghiên cứu này.<br>3) Bẫy 8, chọn một phía duy nhất trong các mâu thuẫn FLOT so với CROSS, mổ so với bảo tồn cơ quan, hay thêm xạ cho <span style=\"color:#74c0fc\"><b>biểu mô vảy</b></span>, trong khi bằng chứng phụ thuộc mô học, quần thể, và phác đồ.<br>4) Bẫy 9, dạy HPV như yếu tố nguy cơ chắc chắn của biểu mô vảy, trong khi bằng chứng chỉ cho thấy liên quan chưa chứng minh nhân quả và khác biệt theo vùng địa lý.<br>5) Bẫy 10, dạy cắt hớt nội soi cho mọi tổn thương sớm mà không phân biệt T1a và T1b, trong khi tổn thương T1b có nguy cơ hạch và nên mổ.<br><br><b>💡 Giải thích của AI:</b><br>Năm bẫy sau đều là lỗi do dạy một phía duy nhất hoặc dạy số chưa kiểm chứng như số chắc chắn, và cả mười bẫy đều đã có thẻ bẫy riêng trong deck này.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 9.2 — Bẫy hay gặp: mười bẫy (bẫy 6–10).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bay</span>"
+    },
+    {
+      "id": "SURG20B-CARD-099",
+      "note_id": 1793862964594,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bang-chung",
+        "esmo",
+        "nccn"
+      ],
+      "type": "basic",
+      "front": "Khung bằng chứng của bài gồm <span style=\"color:#74c0fc\"><b>ba mức</b></span> nào: đã đọc toàn văn, đã đọc abstract, và chưa lấy được?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mức đã đọc toàn văn gồm bài primer về xếp giai đoạn AJCC 8th qua PMC, là nguồn chính cho khối cập nhật về xếp giai đoạn, và fact sheet GLOBOCAN 2024 cho Việt Nam của IARC, là nguồn duy nhất cho số liệu Việt Nam cập nhật.<br>2) Mức đã đọc abstract gồm 13 thử nghiệm và tổng quan trong bundle lõi, tất cả đều là tạp chí Q1 theo quy tắc hẹp, gồm CROSS, MAGIC, FLOT4, CheckMate 577, KEYNOTE-590, CheckMate 648, ESCORT, Homs về xạ áp sát so với stent, TIME về mổ nội soi, ESOPEC, JCOG1109, tổng quan Cochrane về hoá xạ so với xạ đơn thuần, và Hvid-Jensen về Barrett.<br>3) Mức chưa lấy được gồm toàn văn guideline ESMO 2022 và NCCN, với abstract của ESMO không có trong PubMed và truy cập DOI thất bại, cùng guideline Barrett của ACG 2022 với abstract và toàn văn đều không lấy được.<br><br><b>💡 Giải thích của AI:</b><br>Bài này chỉ nêu tên các guideline chưa lấy được là khung hiện hành, không gán bất kỳ khuyến cáo chi tiết nào cho chúng. Sách dùng phân loại AJCC 7th năm 2010 trong tài liệu tham khảo, và phân loại này đã bị <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span> thay thế.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 10.1 — Khung bằng chứng của bài.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bang-chung</span> <span class=\"tag\">esmo</span> <span class=\"tag\">nccn</span>"
+    },
+    {
+      "id": "SURG20B-CARD-100",
+      "note_id": 1793862964596,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "bang-chung",
+        "so-sach"
+      ],
+      "type": "basic",
+      "front": "Những số liệu nào của sách được giữ nguyên vì <span style=\"color:#ffd43b\"><b>không có nguồn cập nhật đối chiếu</b></span>, và các nguồn prose-only gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các số liệu trong sách gồm tỉ lệ dạng đại thể 60%, 25%, và 15%, tỉ lệ di căn gan 35%, phổi 20%, và xương 9%, cùng các số liệu dịch tễ năm 2008, là số liệu của sách.<br>2) Không có nguồn cập nhật nào trong tập đã đọc để đối chiếu, nên bài này giữ nguyên chữ gốc và ghi rõ nguồn là sách.<br>3) Các nguồn prose-only đã đọc abstract gồm <span style=\"color:#51cf66\"><b>theo dõi</b></span> dài hạn CROSS, phân tích gộp Sjoquist, phân tích tái phát ESOPEC, SANO, Puli về siêu âm nội soi, FFCD 9102, ARTDECO, Bray về GLOBOCAN 2022, và phân tích gộp HPV.<br><br><b>💡 Giải thích của AI:</b><br>Giữ nguyên chữ gốc và ghi rõ nguồn là sách là cách duy nhất đúng khi không có nguồn cập nhật đối chiếu, thay vì thay số sách bằng số nhớ từ nơi khác.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 10.1.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">bang-chung</span> <span class=\"tag\">so-sach</span>"
+    },
+    {
+      "id": "SURG20B-CARD-101",
+      "note_id": 1793862964598,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "khoang-trong",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Ba khoảng trống lớn nhất</b></span> của bằng chứng là gì, và các khoảng trống khác gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Toàn văn ESMO 2022 và NCCN không lấy được, không có số liệu toàn cầu riêng cho <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> năm 2022 đã kiểm chứng, và không có dữ liệu đã kiểm chứng về tỉ lệ rò miệng nối, so sánh mở thông dạ dày với stent hay xạ áp sát, so sánh siêu âm nội soi với PET-CT, kết cục dinh dưỡng, và kết cục điều trị cùng chi phí và tiếp cận tại Việt Nam.<br>2) Các khoảng trống khác gồm khoảng theo dõi Barrett theo ACG 2022 và chỉ định cắt hớt hay sàng lọc chi tiết, liều hoá chất và xạ chi tiết của hoá xạ triệt căn RTOG 85-01 vì bài gốc không tách được mã số bài báo, theo dõi dài hạn của SANO trên 2 năm, miễn dịch tân bổ trợ, liệu pháp proton, và ctDNA theo dõi sau mổ, cùng lịch theo dõi sau điều trị triệt căn theo ESMO 2022.<br>3) Mọi liều trong thử nghiệm như carboplatin, paclitaxel, xạ 41,4 Gy, FLOT, và DCF chỉ dạy ở mức liều trong thử nghiệm, không trình bày thành phác đồ guideline.<br><br><b>💡 Giải thích của AI:</b><br>Đây là ba khoảng trống lớn nhất của bằng chứng, và mọi khoảng trống này phải được nói thẳng, không lấp bằng số liệu bịa.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 10.2 — Giới hạn và khoảng trống của bằng chứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">khoang-trong</span> <span class=\"tag\">bang-chung</span>"
+    },
+    {
+      "id": "SURG20B-CARD-102",
+      "note_id": 1793862964600,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "pmid",
+        "phuong-phap"
+      ],
+      "type": "basic",
+      "front": "Vì sao trong đợt nghiên cứu này <span style=\"color:#ff6b6b\"><b>không bao giờ được trích PMID từ trí nhớ</b></span>? Chuyện gì đã xảy ra với 11 PMID ban đầu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Công cụ tìm kiếm esearch của NCBI trả lỗi 500 liên tục trong đợt nghiên cứu này, <span style=\"color:#74c0fc\"><b>Europe PMC</b></span> trả lỗi 503, và OpenAlex hết ngân sách IP dùng chung, nên khám phá mã số bài báo thực hiện qua trang web PubMed và một lần tìm kiếm trên trình duyệt, sau đó mọi mã số đều được xác minh lại bằng esummary và efetch.<br>2) 11 mã số nhớ từ trí nhớ ban đầu đã kiểm chứng sai, mỗi số là một bài hoàn toàn khác, và đã bị loại, ghi rõ trong dossier.<br>3) Bài học là không bao giờ trích mã số bài báo từ trí nhớ.<br><br><b>💡 Giải thích của AI:</b><br>Điểm trung thực về phương pháp này giải thích vì sao mọi mã số trong bundle đều đã được xác minh lại, và vì sao phần tham khảo §14.1 chỉ nêu định tính, không kèm số liệu.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 10.2.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">pmid</span> <span class=\"tag\">phuong-phap</span>"
+    },
+    {
+      "id": "SURG20B-CARD-103",
+      "note_id": 1793862964602,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "nuot-nghen"
+      ],
+      "type": "basic",
+      "front": "Giải <span style=\"color:#74c0fc\"><b>Case 1</b></span> 5 bước: nam lớn tuổi hút thuốc và uống rượu nhiều năm, nuốt nghẹn từ đặc sang lỏng, gầy sút nhanh, hơi thở hôi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, bệnh sử: một bệnh nhân nam lớn tuổi, hút thuốc lá và uống rượu nhiều năm, tới khám vì nuốt nghẹn tăng dần, lúc đầu chỉ nghẹn thức ăn đặc, nay nghẹn cả khi uống nước, kèm gầy sút nhanh và hơi thở có mùi hôi.<br>2) Bước 2, cơ chế: khối u lồi vào lòng thực quản hay làm dày cứng thành gây hẹp lòng tăng dần, thức ăn ứ đọng trên chỗ hẹp gây trào ngược và giãn thực quản, và bệnh nhân ăn ít dần dẫn tới <span style=\"color:#ff6b6b\"><b>suy dinh dưỡng</b></span>.<br>3) Bước 3, chẩn đoán: nội soi thực quản kèm sinh thiết là tiêu chuẩn vàng, chụp cắt lớp ổ bụng và lồng ngực đánh giá xâm lấn và di căn, và siêu âm nội soi đánh giá giai đoạn tại chỗ khi không có bằng chứng di căn trên các phương tiện khác.<br>4) Bước 4, hướng xử trí: nội soi sớm kèm sinh thiết để xác định mô học, chẩn đoán giai đoạn đầy đủ gồm chụp cắt lớp và siêu âm nội soi, hội chẩn đa chuyên khoa để chọn đa mô thức theo giai đoạn và mô học, và đánh giá dinh dưỡng ngay từ đầu.<br>5) Bước 5, theo dõi: theo dõi cân nặng và khả năng ăn uống, giải thích cho bệnh nhân rằng nuốt nghẹn từ đặc sang lỏng là dấu hiệu hẹp lòng tăng dần, và hẹn tái khám theo lịch trong sách là khám 4 tháng một lần trong năm đầu sau điều trị triệt căn, kèm chụp cắt lớp và nội soi, với cờ lịch này chưa đối chiếu với ESMO 2022.<br><br><b>💡 Giải thích của AI:</b><br>Cả bốn case đều là tình huống lâm sàng điển hình, không phải ca bệnh cụ thể nào, và không có dữ kiện định danh.<br><br>📖 Nguồn: Bài Ung thư thực quản, Case 1 — Nam giới lớn tuổi, nuốt nghẹn từ đặc sang lỏng, gầy sút.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">case</span> <span class=\"tag\">nuot-nghen</span>"
+    },
+    {
+      "id": "SURG20B-CARD-104",
+      "note_id": 1793862964604,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "theo-doi"
+      ],
+      "type": "cloze",
+      "text": "Case 1: hẹn tái khám theo lịch trong sách là khám {{c1::<span style=\"color:#ffd43b\"><b>4 tháng một lần trong năm đầu</b></span>}} sau điều trị triệt căn.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, Case 1 — Bước 5, theo dõi (lịch trong sách, chưa đối chiếu ESMO 2022).",
+      "front": "Case 1: hẹn tái khám theo lịch trong sách là khám {{c1::<span style=\"color:#ffd43b\"><b>4 tháng một lần trong năm đầu</b></span>}} sau điều trị triệt căn.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, Case 1 — Bước 5, theo dõi (lịch trong sách, chưa đối chiếu ESMO 2022)."
+    },
+    {
+      "id": "SURG20B-CARD-105",
+      "note_id": 1793862964606,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "tuyen",
+        "flot"
+      ],
+      "type": "basic",
+      "front": "Giải <span style=\"color:#74c0fc\"><b>Case 2</b></span> 5 bước: biểu mô tuyến thực quản tiến triển tại chỗ, có thể mổ, chưa di căn xa, tiền sử trào ngược mạn và béo phì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, bệnh sử: một bệnh nhân ung thư biểu mô tuyến thực quản tiến triển tại chỗ, có thể mổ, chưa di căn xa, có tiền sử trào ngược dạ dày–thực quản mạn tính và béo phì.<br>2) Bước 2, cơ chế: trào ngược mạn tính gây Barrett rồi loạn sản rồi biểu mô tuyến, và khối u đã xâm lấn khỏi thành hay có hạch vùng nên cần điều trị toàn thân trước mổ để diệt vi di căn và tăng tỉ lệ cắt R0.<br>3) Bước 3, chẩn đoán: xác định mô học là biểu mô tuyến, xếp giai đoạn theo AJCC 8th với hạch tính theo số lượng và không còn M1a hay M1b, và đánh giá khả năng mổ cùng thể trạng.<br>4) Bước 4, hướng xử trí: hội chẩn đa chuyên khoa, cân nhắc FLOT quanh mổ và hoá xạ tân bổ trợ CROSS theo mô học, với bằng chứng ESOPEC 2025 cho thấy FLOT vượt CROSS ở biểu mô tuyến nhờ giảm tái phát xa, và sau mổ còn bệnh tồn dư thì cân nhắc nivolumab bổ trợ.<br>5) Bước 5, theo dõi: theo dõi đáp ứng sau tân bổ trợ, đánh giá lại giai đoạn trước mổ, và theo dõi sau mổ theo lịch trong sách kèm cờ chưa đối chiếu ESMO 2022.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định cuối cùng theo hội chẩn, không theo một thử nghiệm duy nhất, vì ESOPEC chỉ gồm <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span> tại trung tâm Đức và CROSS vẫn là chuẩn khi ưu tiên kiểm soát tại chỗ.<br><br>📖 Nguồn: Bài Ung thư thực quản, Case 2 — Biểu mô tuyến thực quản tiến triển tại chỗ, FLOT hay CROSS.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">case</span> <span class=\"tag\">tuyen</span> <span class=\"tag\">flot</span>"
+    },
+    {
+      "id": "SURG20B-CARD-106",
+      "note_id": 1793862964608,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "thuat-toan",
+        "flot",
+        "cross"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>Thuật toán:</b> Biểu mô tuyến thực quản tiến triển tại chỗ, có thể mổ, chưa di căn xa thì chọn <span style=\"color:#51cf66\"><b>FLOT hay CROSS</b></span>, và sau mổ còn bệnh tồn dư thì làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biểu mô tuyến tiến triển tại chỗ, có thể mổ, chưa di căn xa thì hội chẩn đa chuyên khoa.<br>2) Lựa chọn thứ nhất là FLOT quanh mổ theo ESOPEC 2025, vì FLOT vượt CROSS ở biểu mô tuyến nhờ giảm tái phát xa, với sống 3 năm 57,4% so với 50,7% và tỉ số nguy cơ tử vong 0,70.<br>3) Lựa chọn thay thế là hoá xạ tân bổ trợ CROSS rồi mổ, vẫn là chuẩn khi ưu tiên kiểm soát tại chỗ hoặc cho nối dạ dày–thực quản.<br>4) Sau mổ còn bệnh tồn dư thì cân nhắc nivolumab bổ trợ theo CheckMate 577.<br>5) Quyết định cuối cùng theo hội chẩn, không theo một thử nghiệm duy nhất.<br><br><b>💡 Giải thích của AI:</b><br>Đây là thuật toán quyết định thứ tư của deck, nối trực tiếp với lưu đồ <span style=\"color:#51cf66\"><b>điều trị</b></span> ở trên và case 2.<br><br>📖 Nguồn: Bài Ung thư thực quản, Case 2 và phần 7.8 — Lưu đồ quyết định điều trị.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">thuat-toan</span> <span class=\"tag\">flot</span> <span class=\"tag\">cross</span>"
+    },
+    {
+      "id": "SURG20B-CARD-107",
+      "note_id": 1793862964610,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "t1a",
+        "cat-hot"
+      ],
+      "type": "basic",
+      "front": "Giải <span style=\"color:#74c0fc\"><b>Case 3</b></span> 5 bước: tổn thương khu trú ở niêm mạc thực quản dưới, sinh thiết là biểu mô tuyến, chưa có hạch trên hình ảnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, bệnh sử: một bệnh nhân được nội soi vì trào ngược mạn tính, phát hiện tổn thương khu trú ở niêm mạc thực quản dưới, sinh thiết là ung thư <span style=\"color:#74c0fc\"><b>biểu mô tuyến</b></span>, chưa có hạch trên hình ảnh.<br>2) Bước 2, cơ chế: tổn thương còn khu trú ở niêm mạc có nguy cơ hạch rất thấp, trong khi tổn thương đã xuống dưới niêm mạc có nguy cơ hạch cao hơn do xâm lấn mạch bạch huyết, nên độ sâu xâm lấn quyết định cắt hớt hay mổ.<br>3) Bước 3, chẩn đoán: siêu âm nội soi đánh giá độ sâu xâm lấn, với lưu ý siêu âm nội soi mạnh nhất ở T1 và T4 nhưng yếu hơn ở giai đoạn giữa, và sinh thiết xác định mô học cùng độ biệt hoá.<br>4) Bước 4, hướng xử trí: tổn thương T1a khu trú niêm mạc thì cắt hớt nội soi, với cắt tách dưới niêm mạc cho tỉ lệ cắt nguyên khối và cắt trọn cao hơn cùng tái phát tại chỗ thấp hơn so với cắt hớt niêm mạc, nhưng hẹp thực quản nhiều hơn; tổn thương T1b xuống dưới niêm mạc thì nên mổ, vì nguy cơ hạch và yếu tố dự báo là xâm lấn mạch bạch huyết cùng biệt hoá độ 3.<br>5) Bước 5, theo dõi: theo dõi tái phát tại chỗ và ung thư dị thời sau cắt hớt, và giải thích cho bệnh nhân rằng cắt hớt chỉ đủ khi tổn thương còn nông và bờ cắt âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định dựa trên độ sâu xâm lấn cùng xâm lấn mạch bạch huyết, không phải chỉ kích thước tổn thương, và đây là bẫy số 10 của bài.<br><br>📖 Nguồn: Bài Ung thư thực quản, Case 3 — Tổn thương sớm khu trú niêm mạc, cắt hớt hay mổ.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">case</span> <span class=\"tag\">t1a</span> <span class=\"tag\">cat-hot</span>"
+    },
+    {
+      "id": "SURG20B-CARD-108",
+      "note_id": 1793862964612,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "t1b",
+        "hach"
+      ],
+      "type": "cloze",
+      "text": "Tổn thương T1b xuống dưới niêm mạc nên mổ vì nguy cơ hạch, và yếu tố dự báo hạch dương tính là {{c1::<span style=\"color:#ff6b6b\"><b>xâm lấn mạch bạch huyết</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, Case 3 và phần 5.3 🆕 — yếu tố dự báo hạch dương tính là xâm lấn mạch bạch huyết.",
+      "front": "Tổn thương T1b xuống dưới niêm mạc nên mổ vì nguy cơ hạch, và yếu tố dự báo hạch dương tính là {{c1::<span style=\"color:#ff6b6b\"><b>xâm lấn mạch bạch huyết</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, Case 3 và phần 5.3 🆕 — yếu tố dự báo hạch dương tính là xâm lấn mạch bạch huyết."
+    },
+    {
+      "id": "SURG20B-CARD-109",
+      "note_id": 1793862964614,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "case",
+        "di-can-xa",
+        "giam-nhe"
+      ],
+      "type": "basic",
+      "front": "Giải <span style=\"color:#74c0fc\"><b>Case 4</b></span> 5 bước: ung thư thực quản di căn gan, nuốt nghẹn nặng, đau ngực, khó thở, không còn khả năng mổ triệt căn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, bệnh sử: một bệnh nhân ung thư thực quản có di căn gan, nuốt nghẹn nặng, đau ngực, và khó thở, không còn khả năng mổ triệt căn.<br>2) Bước 2, cơ chế: khối u xâm lấn rộng gây hẹp lòng thực quản và chèn ép lân cận, di căn xa theo đường tĩnh mạch cửa về gan, và toàn thân suy kiệt do không ăn được.<br>3) Bước 3, chẩn đoán: xác định mô học và PD-L1 để chọn hoá chất toàn thân kèm miễn dịch theo mô học, chụp cắt lớp đánh giá di căn, và đánh giá dinh dưỡng.<br>4) Bước 4, hướng xử trí: hoá chất toàn thân kèm miễn dịch tuyến đầu theo mô học và PD-L1, chăm sóc giảm nhẹ song song, và giảm nhẹ nuốt nghẹn bằng stent khi cần giảm ngay hay xạ áp sát liều đơn khi kỳ vọng sống dài hơn, với mở thông dạ dày nuôi dưỡng khi không ăn được theo sách; không mổ triệt căn khi đã di căn xa.<br>5) Bước 5, theo dõi: theo dõi đáp ứng toàn thân, biến chứng của stent hay xạ áp sát, và hỗ trợ dinh dưỡng cùng chăm sóc giảm nhẹ liên tục.<br><br><b>💡 Giải thích của AI:</b><br>Di căn gan khớp với đường <span style=\"color:#74c0fc\"><b>tĩnh mạch cửa</b></span> của một phần ba dưới thực quản đã dạy ở phần giải phẫu, và với tỉ lệ di căn gan 35% theo sách ở phần chẩn đoán.<br><br>📖 Nguồn: Bài Ung thư thực quản, Case 4 — Di căn xa, nuốt nghẹn nặng, giảm nhẹ.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">case</span> <span class=\"tag\">di-can-xa</span> <span class=\"tag\">giam-nhe</span>"
+    },
+    {
+      "id": "SURG20B-CARD-110",
+      "note_id": 1793862964616,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "tips"
+      ],
+      "type": "basic",
+      "front": "Liệt kê <span style=\"color:#51cf66\"><b>tip 1–6</b></span> trong 12 tips lâm sàng của bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tip 1: nuốt nghẹn từ đặc sang lỏng là dấu hiệu hẹp lòng tăng dần, và phải nội soi sớm thay vì chờ tới khi không uống được nước.<br>2) Tip 2: nội soi kèm sinh thiết là tiêu chuẩn vàng với độ chính xác tới 90% theo sách, và phim cản quang chỉ giúp chuẩn bị soi an toàn, không thay thế sinh thiết.<br>3) Tip 3: hạch tính theo số lượng trong AJCC 8th, không còn M1a và M1b, và ba hệ nhóm giai đoạn riêng biệt với nhóm giai đoạn khác nhau giữa hai mô học.<br>4) Tip 4: siêu âm nội soi mạnh nhất ở T1 và T4, và chọc hút kim nhỏ làm tăng độ nhạy đánh giá hạch từ 84,7% lên 96,7%.<br>5) Tip 5: tổn thương T1a thì cắt hớt nội soi, tổn thương T1b thì nên mổ, và quyết định dựa trên độ sâu xâm lấn cùng xâm lấn mạch bạch huyết.<br>6) Tip 6: FLOT vượt CROSS ở biểu mô tuyến theo ESOPEC 2025, và hoá trị bộ ba DCF có thể là chuẩn mới cho biểu mô vảy theo JCOG1109, nên quyết định theo mô học.<br><br><b>💡 Giải thích của AI:</b><br>Sáu tip đầu bao phủ chẩn đoán và <span style=\"color:#51cf66\"><b>điều trị</b></span> theo mô học, và sáu tip sau bao phủ liều xạ, miễn dịch, giảm nhẹ, Barrett, HPV và kỷ luật bằng chứng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 12.1 — Tips lâm sàng (tip 1–6).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">tips</span>"
+    },
+    {
+      "id": "SURG20B-CARD-111",
+      "note_id": 1793862964618,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "tips"
+      ],
+      "type": "basic",
+      "front": "Liệt kê <span style=\"color:#51cf66\"><b>tip 7–12</b></span> trong 12 tips lâm sàng của bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tip 7: tăng liều xạ triệt căn không cải thiện kiểm soát tại chỗ, và IMRT cùng VMAT là kỹ thuật phân phối liều, không phải tăng liều tổng.<br>2) Tip 8: lợi ích miễn dịch tuyến đầu phụ thuộc PD-L1 và mô học, và xét nghiệm PD-L1 có ý nghĩa chọn bệnh nhân.<br>3) Tip 9: stent giảm <span style=\"color:#ff6b6b\"><b>nuốt nghẹn</b></span> nhanh hơn, xạ áp sát tốt hơn dài hạn và ít biến chứng hơn, và chọn theo tuổi thọ kỳ vọng cùng mức độ khẩn.<br>4) Tip 10: nguy cơ Barrett tuyệt đối chỉ 0,12% mỗi năm dù tỉ số nguy cơ là 11,3, và HPV là yếu tố liên quan chưa chứng minh nhân quả.<br>5) Tip 11: phân biệt chữ gốc của sách với khối cập nhật, và không bao giờ gán khuyến cáo chi tiết cho ESMO hay NCCN khi toàn văn chưa lấy được.<br>6) Tip 12: ghi rõ khoảng trống bằng chứng trong bài, vì một khoảng trống được nói thẳng an toàn hơn một con số bịa.<br><br><b>💡 Giải thích của AI:</b><br>Tip 11 và tip 12 là kỷ luật làm việc với tài liệu thi: giữ nguyên chữ gốc, tách khối cập nhật, và nói thẳng khoảng trống thay vì lấp bằng số bịa.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 12.1 — Tips lâm sàng (tip 7–12).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">tips</span>"
+    },
+    {
+      "id": "SURG20B-CARD-112",
+      "note_id": 1793862964620,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "checkpoint"
+      ],
+      "type": "basic",
+      "front": "Liệt kê <span style=\"color:#74c0fc\"><b>năm checkpoint tự kiểm tra</b></span> của bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Checkpoint 1, dịch tễ và bệnh nguyên: <span style=\"color:#74c0fc\"><b>ung thư thực quản</b></span> xếp thứ 9 về mắc và thứ 6 về tử vong theo sách, biểu mô tuyến tăng từ Barrett do trào ngược, và biểu mô vảy liên quan thuốc lá cùng rượu.<br>2) Checkpoint 2, giải phẫu và sinh lý: thực quản dài 25–30 cm với 4 chỗ hẹp sinh lý, hai cơ thắt giữ vận chuyển và chống hồi lưu, và thành có 4 lớp theo sách với ghi chú ngoại mạc ở đoạn ngực.<br>3) Checkpoint 3, chẩn đoán: nội soi kèm sinh thiết là tiêu chuẩn vàng, siêu âm nội soi đánh giá giai đoạn tại chỗ, và xếp giai đoạn theo AJCC 8th với hạch tính theo số lượng và không còn M1a hay M1b.<br>4) Checkpoint 4, điều trị: đa mô thức là chuẩn, FLOT vượt CROSS ở biểu mô tuyến, bộ ba DCF ở biểu mô vảy, hoá xạ triệt căn cho bệnh không mổ được, và miễn dịch phụ thuộc PD-L1 cùng mô học.<br>5) Checkpoint 5, giới hạn bằng chứng: toàn văn ESMO và NCCN chưa lấy được, không có số thực quản toàn cầu 2022 đã kiểm chứng, và không có dữ liệu điều trị hay chi phí tại Việt Nam ngoài dịch tễ GLOBOCAN 2024.<br><br><b>💡 Giải thích của AI:</b><br>Năm checkpoint này là khung tự kiểm tra toàn bài, mỗi checkpoint tương ứng một khối lớn của bài giảng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 12.2 — Năm checkpoint tự kiểm tra.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">checkpoint</span>"
+    },
+    {
+      "id": "SURG20B-CARD-113",
+      "note_id": 1793862964622,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "checklist"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Checklist</b></span> chẩn đoán và điều trị rút gọn gồm những bước nào, và không gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hỏi tiền sử trào ngược, thuốc lá, rượu, và béo phì; khám nuốt nghẹn, gầy sút, hạch thượng đòn, và di căn.<br>2) Nội soi kèm sinh thiết; chụp cắt lớp ổ bụng và lồng ngực; siêu âm nội soi khi không có di căn; chụp PET khi cần đánh giá toàn bộ.<br>3) Xếp giai đoạn theo AJCC 8th; hội chẩn đa chuyên khoa; chọn đa mô thức theo mô học; và hỗ trợ dinh dưỡng cùng theo dõi sau điều trị.<br>4) Checklist không gồm khuyến cáo chi tiết của ESMO hay NCCN, tỉ lệ rò miệng nối, số ca thực quản toàn cầu 2022, hay tỉ lệ chuẩn hoá theo tuổi Việt Nam 2024, vì không có nội dung nào trong số đó đã kiểm chứng.<br><br><b>💡 Giải thích của AI:</b><br>Checklist này là bản rút gọn của toàn bộ lưu đồ chẩn đoán và <span style=\"color:#51cf66\"><b>điều trị</b></span>, và phần \"không gồm\" cũng quan trọng như phần \"gồm\", vì nó ngăn việc dạy số chưa kiểm chứng.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 12.3 — Checklist chẩn đoán và điều trị rút gọn.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">checklist</span>"
+    },
+    {
+      "id": "SURG20B-CARD-114",
+      "note_id": 1793862964624,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "tham-khao",
+        "bundle-q1"
+      ],
+      "type": "basic",
+      "front": "Phần tham khảo của phần bổ sung gồm <span style=\"color:#74c0fc\"><b>13 thử nghiệm và tổng quan</b></span> nào, và vì sao phần này chỉ nêu định tính, không kèm số liệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các tóm tắt chỉ nêu định tính, không kèm số liệu, để tránh mọi sai lệch số học, và mỗi mã số đều đã được kiểm chứng qua E-utilities trong đợt nghiên cứu ngày 05/11/2026.<br>2) Mọi số liệu trong bài đều nằm ở phần thân bài kèm nguồn và quần thể, không nằm ở phần tham khảo này.<br>3) Một tổng quan trong danh sách này đã cũ và được dùng kèm điểm tựa là các thử nghiệm mới hơn trong cùng danh sách, đó là tổng quan Cochrane về hoá xạ so với xạ đơn thuần.<br>4) Danh sách gồm CROSS, MAGIC, FLOT4, CheckMate 577, KEYNOTE-590, CheckMate 648, ESCORT, Homs về <span style=\"color:#51cf66\"><b>xạ áp sát</b></span> so với stent, TIME về mổ nội soi, ESOPEC, JCOG1109, tổng quan Cochrane, và Hvid-Jensen về Barrett, tất cả đều là tạp chí Q1 theo quy tắc hẹp.<br><br><b>💡 Giải thích của AI:</b><br>Vì quy tắc Back-purity, các mã số của 13 thử nghiệm và tổng quan này nằm ở Extra của thẻ, không nằm trong mặt sau của thẻ.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 14.1 — Tài liệu tham khảo của phần bổ sung (bundle Q1). Các PMID: CROSS 22646630; MAGIC 16822992; FLOT4 30982686; CheckMate 577 33789008; KEYNOTE-590 34454674; CheckMate 648 35108470; ESCORT 34519801; Homs 15500894; TIME 22552194; ESOPEC 39842010; JCOG1109 38876133; Cochrane 16437440; Hvid-Jensen 21995385.",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">tham-khao</span> <span class=\"tag\">bundle-q1</span>"
+    },
+    {
+      "id": "SURG20B-CARD-115",
+      "note_id": 1793862964626,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "cochrane"
+      ],
+      "type": "cloze",
+      "text": "Tổng quan Cochrane về hoá xạ đồng thời so với xạ đơn thuần có tìm kiếm tới tháng {{c1::<span style=\"color:#ffd43b\"><b>4 năm 2005</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư thực quản, phần 14.1 — Tổng quan Cochrane 2006 về hoá xạ đồng thời so với xạ đơn thuần.",
+      "front": "Tổng quan Cochrane về hoá xạ đồng thời so với xạ đơn thuần có tìm kiếm tới tháng {{c1::<span style=\"color:#ffd43b\"><b>4 năm 2005</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư thực quản, phần 14.1 — Tổng quan Cochrane 2006 về hoá xạ đồng thời so với xạ đơn thuần."
+    },
+    {
+      "id": "SURG20B-CARD-116",
+      "note_id": 1793862964628,
+      "tags": [
+        "ung-thu-thuc-quan",
+        "tham-khao",
+        "giao-trinh"
+      ],
+      "type": "basic",
+      "front": "Tài liệu tham khảo của <span style=\"color:#74c0fc\"><b>giáo trình gốc</b></span> gồm những mục nào, và mục nào đã lỗi thời so với hiện nay?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bài giảng ung thư học, Trường Đại học Y Hà Nội – Bộ môn Ung thư, Bộ y tế 2001, Nxb Y học.<br>2) Điều trị nội khoa bệnh ung thư, Nguyễn Bá Đức – Trần Văn Thuấn – Nguyễn Tuyết Mai, 2010, Nxb Y học; Điều trị phẫu thuật bệnh ung thư, Nguyễn Văn Hiếu, 2010, Nxb Y học.<br>3) IARC WHO (2015), Global morbidity and mortality (Globcal cancer factsheet).<br>4) Edge SB, Compton CC (2010), The American Joint Committee on Cancer: the 7th edition of the AJCC cancer staging manual and the future of TNM, Ann Surg Oncol 17 (6): 1471-1474.<br>5) Engholm GFJ, Christensen N, et al (2015), Cancer Incidence, Mortality, Prevalence and Survival in the Nordic Countries.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại AJCC 7th năm 2010 trong tài liệu tham khảo của sách nay đã bị <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span> thay thế, và bài giảng giữ nguyên danh mục này ở §14.2, tách riêng với tài liệu tham khảo của phần bổ sung ở §14.1.<br><br>📖 Nguồn: Bài Ung thư thực quản, phần 14.2 — Tài liệu tham khảo của giáo trình gốc (giữ nguyên từ sách, tr. 13).",
+      "tags_html": "<span class=\"tag\">ung-thu-thuc-quan</span> <span class=\"tag\">tham-khao</span> <span class=\"tag\">giao-trinh</span>"
+    }
+  ]
+}

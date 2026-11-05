@@ -1,0 +1,1528 @@
+{
+  "deck_id": 7600000000021,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-21: Ung Thư Dạ Dày",
+  "card_count": 136,
+  "cards": [
+    {
+      "id": "SURG21-CARD-001",
+      "note_id": 1793862975485,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Bài này có mấy <span style=\"color:#74c0fc\"><b>lớp nội dung</b></span>, và <span style=\"color:#ff6b6b\"><b>quy tắc cứng</b></span> khi học từ sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai lớp nội dung: <span style=\"color:#74c0fc\"><b>chữ gốc của sách</b></span> (không gắn nhãn) và khối <span style=\"color:#51cf66\"><b>🆕 CẬP NHẬT MỚI</b></span> tách riêng, kèm nguồn là guideline hay thử nghiệm đã kiểm chứng.<br>2) Quy tắc cứng: giữ nguyên toàn bộ chi tiết trong sách, chỉ sắp xếp lại và giải thích lại cho dễ hiểu hơn, <span style=\"color:#ff6b6b\"><b>cấm lược bỏ, cắt gọt hay tóm tắt làm mất chi tiết nào</b></span>.<br>3) Phần bổ sung đã qua gate citation_audit và depth_check; phần chữ gốc giữ nguyên, <span style=\"color:#51cf66\"><b>không cần gate lại</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải luôn tự hỏi hai câu: câu này là chữ gốc của sách hay khối cập nhật, và con số này thuộc về thời điểm nào — sách dùng số liệu năm 2009 trở về trước, trong khi khối cập nhật dùng số liệu tới năm 2024.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 0.1 — hai lớp nội dung và quy tắc cứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-002",
+      "note_id": 1793862975487,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Gặp marker <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC]</b></span> hay <span style=\"color:#ffd43b\"><b>[KHÔNG ĐỌC ĐƯỢC]</b></span> trong bài thì hiểu thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đó là chỗ ảnh transcript mờ, <span style=\"color:#ffd43b\"><b>không đọc được trọn vẹn</b></span>, được giữ nguyên marker trong bài.<br>2) <span style=\"color:#ff6b6b\"><b>Không đoán, không bịa, không tự điền phần thiếu.</b></span><br>3) Người học phải biết đó là chỗ ảnh mờ chứ không phải kiến thức chắc chắn.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: từ vô toan trong phần yếu tố thuận lợi và đoạn giữa tr.22 về Nhật Bản và Việt Nam đều giữ marker [KHÔNG CHẮC]; người học ghi nhớ đó là chỗ mờ, không học thuộc như kiến thức chắc chắn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 0.1 — marker [KHÔNG CHẮC] và [KHÔNG ĐỌC ĐƯỢC].",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-003",
+      "note_id": 1793862975489,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Transcript dùng cho bài này gồm những gì, và <span style=\"color:#ff6b6b\"><b>khoảng trống lớn nhất</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chương dạ dày, sách tr.14–25, photo_010–021, là chương thứ hai trong một file ZIP ghi tên ung thư thực quản nhưng thực tế chứa <span style=\"color:#74c0fc\"><b>7 chương liên tiếp</b></span>.<br>2) Các trang sách 71–136 <span style=\"color:#ff6b6b\"><b>không có trong file ZIP</b></span>, nằm giữa chương trực tràng và chương thận; khoảng trống này không ảnh hưởng chương dạ dày nhưng ảnh hưởng toàn bộ loạt bài.<br>3) Sách đánh số phần phân loại giai đoạn là 2.1 đặt sau phần 2.3 — <span style=\"color:#ffd43b\"><b>lỗi đánh số trong sách</b></span>; bài giữ nguyên nội dung, sắp xếp lại thứ tự cho đúng logic.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng trống được ghi rõ để người học biết, không bịa nội dung các trang thiếu; lỗi đánh số được ghi chú rõ là lỗi của sách chứ không phải thiếu mục.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 0.2 — phạm vi nguồn và khoảng trống transcript.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-004",
+      "note_id": 1793862975491,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phần <span style=\"color:#74c0fc\"><b>7.3 miễn dịch trị liệu</b></span> trong sách có gì đặc biệt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phần 7.3 chỉ có tiêu đề <span style=\"color:#74c0fc\"><b>Miễn dịch trị liệu trong ung thư (Immunotherapy)</b></span>, <span style=\"color:#ff6b6b\"><b>không có nội dung nào</b></span> sau tiêu đề.<br>2) Bài giữ nguyên tiêu đề trống đó đúng như trong sách.<br>3) Toàn bộ nội dung miễn dịch hiện nay nằm trong <span style=\"color:#51cf66\"><b>khối cập nhật ở phần 8</b></span>, để thấy rõ khoảng trống của sách và phần mới lấp vào chỗ đó.<br><br><b>💡 Giải thích của AI:</b><br>Khi sách được viết, miễn dịch trị liệu còn là hướng nghiên cứu; nay miễn dịch cùng đích phân tử đã là chuẩn điều trị tuyến đầu cho bệnh không cắt được và di căn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 0.2 và 8.1 — tiêu đề trống 7.3.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-005",
+      "note_id": 1793862975493,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Sách nêu mấy <span style=\"color:#74c0fc\"><b>mục tiêu học tập</b></span> cho chương ung thư dạ dày?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nêu được <span style=\"color:#74c0fc\"><b>dịch tễ học, nguyên nhân và tổn thương giải phẫu bệnh</b></span> của ung thư dạ dày.<br>2) Trình bày được <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span> của ung thư dạ dày.<br>3) Nêu được giá trị của <span style=\"color:#51cf66\"><b>nội soi dạ dày</b></span> trong chẩn đoán ung thư dạ dày.<br>4) Chẩn đoán được ung thư dạ dày <span style=\"color:#74c0fc\"><b>thể điển hình</b></span>.<br>5) Trình bày được các <span style=\"color:#51cf66\"><b>phương pháp điều trị</b></span> ung thư dạ dày.<br><br><b>💡 Giải thích của AI:</b><br>Bài giảng bao quát cả 5 mục tiêu; khối cập nhật bổ sung mục tiêu ngầm thứ sáu là phân biệt đâu là chữ gốc của sách và đâu là bằng chứng hiện hành, vì người học sẽ thi theo sách nhưng đi lâm sàng theo bằng chứng hiện hành.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 0.3 — 5 mục tiêu học tập của sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-006",
+      "note_id": 1793862975495,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Sách nêu {{c1::<span style=\"color:#ffd43b\"><b>5 mục tiêu</b></span>}} học tập cho chương ung thư dạ dày.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 0.3 — 5 mục tiêu học tập.",
+      "front": "Sách nêu {{c1::<span style=\"color:#ffd43b\"><b>5 mục tiêu</b></span>}} học tập cho chương ung thư dạ dày.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 0.3 — 5 mục tiêu học tập."
+    },
+    {
+      "id": "SURG21-CARD-007",
+      "note_id": 1793862975497,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Ung thư dạ dày đứng ở đâu trong các ung thư tiêu hoá, và vùng nào có <span style=\"color:#ff6b6b\"><b>tỉ lệ mắc cao</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một trong các ung thư phổ biến nhất thế giới và <span style=\"color:#74c0fc\"><b>đứng hàng đầu</b></span> trong số các ung thư đường tiêu hoá.<br>2) Tỉ lệ cao ở Nhật Bản, Nam Mỹ, Tây Ban Nha, Bồ Đào Nha, Đông Âu, Trung Quốc và Đông Nam Á.<br>3) Tần số thấp ở Bắc Mỹ, Trung Đông, Ấn Độ và Úc.<br>4) Nguy cơ cao ở tầng lớp có đời sống <span style=\"color:#ffd43b\"><b>kinh tế xã hội thấp</b></span>; tỉ lệ đang giảm ở nhiều nước nhưng vẫn cao ở châu Á.<br><br><b>💡 Giải thích của AI:</b><br>Dịch tễ của sách giúp hiểu vì sao nam giới 50–60 tuổi có triệu chứng tiêu hoá trên là đối tượng phải nghĩ tới ung thư dạ dày trước tiên; ở vùng nguy cơ cao, tuổi mắc bệnh thấp hơn nên không được chờ tới 60 tuổi mới nghi ngờ.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.1 — dịch tễ học theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-008",
+      "note_id": 1793862975499,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Số liệu dịch tễ theo sách ở <span style=\"color:#74c0fc\"><b>Mỹ</b></span> và <span style=\"color:#74c0fc\"><b>Nhật Bản</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mỹ: tỉ lệ mắc giảm, nam từ <span style=\"color:#ffd43b\"><b>28 xuống 5/100.000</b></span>, nữ từ <span style=\"color:#ffd43b\"><b>27 xuống 2,3/100.000</b></span>; tỉ lệ nam/nữ 1,7; tuổi trung bình 63.<br>2) Tử vong ở Mỹ giảm từ <span style=\"color:#ffd43b\"><b>33/100.000 năm 1930 xuống 3,7/100.000 năm 1990</b></span>; năm 1996 có khoảng <span style=\"color:#ffd43b\"><b>22.800 ca mới và 14.000 người chết</b></span>.<br>3) Nhật: <span style=\"color:#ffd43b\"><b>69/100.000</b></span>, tuổi trung bình 55; người Mỹ gốc da đen, da đỏ và gốc Tây Ban Nha có tỉ lệ <span style=\"color:#ff6b6b\"><b>gấp 2 lần</b></span> người Mỹ da trắng.<br><br><b>💡 Giải thích của AI:</b><br>Tần số mắc đã giảm tại nhiều nước; ví dụ tại Mỹ, tỉ lệ mắc năm 1930 là 33/100.000, hiện nay là 5/100.000 ở nam và 2/100.000 ở nữ — hai cách trình bày số trong sách được giữ nguyên cả hai.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.1 — số liệu Mỹ và Nhật Bản.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-009",
+      "note_id": 1793862975501,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Số liệu ung thư dạ dày tại <span style=\"color:#74c0fc\"><b>Việt Nam</b></span> theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gặp nhiều ở cả 2 giới, đứng <span style=\"color:#ffd43b\"><b>thứ 2 ở nam</b></span> sau ung thư phế quản và <span style=\"color:#ffd43b\"><b>thứ 2 ở nữ</b></span> sau ung thư vú.<br>2) Hà Nội 1993–1995: nam <span style=\"color:#ffd43b\"><b>25,7/100.000</b></span>, nữ <span style=\"color:#ffd43b\"><b>12,5/100.000</b></span>; TP. Hồ Chí Minh 1997: nam <span style=\"color:#ffd43b\"><b>18,8/100.000</b></span>, nữ <span style=\"color:#ffd43b\"><b>7,3/100.000</b></span>.<br>3) Tuổi thường gặp <span style=\"color:#ffd43b\"><b>50–60</b></span>, vùng nguy cơ cao tuổi mắc thấp hơn; nam nhiều hơn nữ, tỉ lệ <span style=\"color:#ffd43b\"><b>2/1</b></span>.<br>4) Dự báo tới năm 2020: gần <span style=\"color:#ffd43b\"><b>27 nghìn nam và gần 13 nghìn nữ</b></span> mắc bệnh — đây là dự báo của sách, xem bẫy ở khối cập nhật.<br><br><b>💡 Giải thích của AI:</b><br>Thống kê những năm gần đây cho thấy bệnh đang có tỉ lệ tăng theo sách; dự báo 2020 được giữ nguyên là chữ gốc và được đối chiếu với số thực tế ở khối cập nhật, không tự ý sửa số trong sách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.1 — số liệu Việt Nam theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-010",
+      "note_id": 1793862975503,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Tỉ lệ ung thư dạ dày ở Nhật Bản theo sách là {{c1::<span style=\"color:#ffd43b\"><b>69/100.000</b></span>}}, tuổi trung bình 55.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 1.1 — Nhật Bản 69/100.000.",
+      "front": "Tỉ lệ ung thư dạ dày ở Nhật Bản theo sách là {{c1::<span style=\"color:#ffd43b\"><b>69/100.000</b></span>}}, tuổi trung bình 55.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 1.1 — Nhật Bản 69/100.000."
+    },
+    {
+      "id": "SURG21-CARD-011",
+      "note_id": 1793862975505,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Dịch tễ toàn cầu năm <span style=\"color:#ffd43b\"><b>2020</b></span> của ung thư dạ dày là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chiếm <span style=\"color:#ffd43b\"><b>5,6% ca ung thư mới, đứng thứ 5</b></span>, và <span style=\"color:#ff6b6b\"><b>7,7% tử vong do ung thư, đứng thứ 4</b></span>.<br>2) Tổng số <span style=\"color:#ffd43b\"><b>19,3 triệu ca ung thư mới và 10,0 triệu ca tử vong</b></span> do mọi ung thư.<br>3) Dự báo <span style=\"color:#ffd43b\"><b>28,4 triệu ca mới vào năm 2040, tăng 47%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sách dùng số liệu dịch tễ từ thập niên 1990 và dự báo tới năm 2020; người học phải đọc hai bộ số ở hai thời điểm khác nhau, không trình bày như một xu hướng tăng thuần túy, vì phương pháp ước tính và độ bao phủ đăng ký ung thư đã thay đổi.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.2 — GLOBOCAN 2020 toàn cầu.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-012",
+      "note_id": 1793862975507,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Số liệu <span style=\"color:#74c0fc\"><b>GLOBOCAN 2024</b></span> cho Việt Nam là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>12.373 ca mới, đứng thứ 5, chiếm 7,0%</b></span> mọi ung thư; nam <span style=\"color:#ffd43b\"><b>7.900 ca, đứng thứ 4, chiếm 9,2%</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>10.280 ca tử vong, đứng thứ 5, chiếm 9,3%</b></span>; <span style=\"color:#ffd43b\"><b>18.889 ca hiện mắc 5 năm, tức 18,7/100.000</b></span>.<br>3) Nguy cơ tích lũy tới 75 tuổi: mắc <span style=\"color:#ffd43b\"><b>1,2%</b></span> và tử vong <span style=\"color:#ffd43b\"><b>1,0%</b></span>; tỉ suất chuẩn theo tuổi đọc từ biểu đồ là nam khoảng 9,8 và nữ khoảng 8,1/100.000, nhưng nhãn biểu đồ chồng lấn một phần nên hai số này dùng với lưu ý đó.<br><br><b>💡 Giải thích của AI:</b><br>Fact sheet GLOBOCAN 2024 của IARC cho Việt Nam đã đọc trực tiếp file fact sheet; tại Việt Nam bệnh vẫn là gánh nặng lớn nhưng thứ hạng đã thay đổi so với thứ 2 trong sách, và thứ hạng phụ thuộc thời điểm và nguồn thống kê.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.2 — fact sheet GLOBOCAN 2024 Việt Nam.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-013",
+      "note_id": 1793862975509,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> dự báo năm 2020 của sách là gần <span style=\"color:#ffd43b\"><b>27 nghìn nam và gần 13 nghìn nữ</b></span>, còn GLOBOCAN 2024 chỉ có <span style=\"color:#ffd43b\"><b>12.373 ca</b></span> cả hai giới — kết luận nào sau đây là sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai nếu nói bệnh đang giảm mạnh theo xu hướng đó, hay trình bày hai bộ số như một <span style=\"color:#ff6b6b\"><b>xu hướng tăng thuần túy</b></span>.<br>2) Hai bộ số thuộc hai thời điểm khác nhau; <span style=\"color:#ffd43b\"><b>phương pháp ước tính và độ bao phủ đăng ký ung thư đã thay đổi</b></span> giữa các thời điểm.<br>3) Chênh lệch được ghi rõ, <span style=\"color:#ff6b6b\"><b>không tự ý sửa số trong sách</b></span>; thứ hạng đã thay đổi: sách đứng thứ 2, nay đứng thứ 5 về mắc và tử vong, nam đứng thứ 4.<br><br><b>💡 Giải thích của AI:</b><br>So sánh số thực tế 2024 với dự báo 2020 của sách mà không ghi rõ phương pháp khác nhau là bẫy hay gặp; người học phải nhớ thứ hạng phụ thuộc thời điểm và nguồn thống kê.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 1.2 — đối chiếu dự báo sách với GLOBOCAN 2024.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-014",
+      "note_id": 1793862975511,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Theo GLOBOCAN 2024, Việt Nam có {{c1::<span style=\"color:#ffd43b\"><b>12.373 ca mới</b></span>}} ung thư dạ dày, đứng thứ 5.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 1.2 — GLOBOCAN 2024, 12.373 ca mới.",
+      "front": "Theo GLOBOCAN 2024, Việt Nam có {{c1::<span style=\"color:#ffd43b\"><b>12.373 ca mới</b></span>}} ung thư dạ dày, đứng thứ 5.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 1.2 — GLOBOCAN 2024, 12.373 ca mới."
+    },
+    {
+      "id": "SURG21-CARD-015",
+      "note_id": 1793862975513,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Yếu tố <span style=\"color:#74c0fc\"><b>môi trường và chế độ ăn</b></span> nào liên quan ung thư dạ dày theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Môi trường giữ vai trò quan trọng — người Nhật di cư sang Mỹ có <span style=\"color:#51cf66\"><b>tỉ lệ mắc thấp</b></span>.<br>2) Thức ăn <span style=\"color:#ff6b6b\"><b>hun khói, khô, bảo quản, nhiều muối</b></span>, chứa nhiều <span style=\"color:#ff6b6b\"><b>nitrosamin, nitrates, nitrites</b></span>.<br>3) Thức ăn chứa nhiều <span style=\"color:#51cf66\"><b>vitamin C như cam chanh</b></span> có thể trung hoà được các chất gây ung thư.<br>4) Ở Việt Nam, gia tăng tỉ lệ hiện nay chủ yếu do <span style=\"color:#ff6b6b\"><b>hoá chất độc hại trong thức ăn hằng ngày</b></span> (theo sách).<br><br><b>💡 Giải thích của AI:</b><br>Chế độ ăn là yếu tố quan trọng trong quá trình phát triển thành ung thư dạ dày; khi đánh giá nguy cơ phải hỏi kỹ chế độ ăn và yếu tố môi trường, đồng thời tư vấn giảm thức ăn hun khói, khô và nhiều muối.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — môi trường và chế độ ăn.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-016",
+      "note_id": 1793862975515,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>H. pylori</b></span>, béo phì và các <span style=\"color:#74c0fc\"><b>yếu tố thuận lợi</b></span> của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khoảng <span style=\"color:#ffd43b\"><b>70% dân số nhiễm HP</b></span> — yếu tố làm tăng nguy cơ và là yếu tố hàng đầu tăng tỉ lệ ung thư dạ dày ở Việt Nam.<br>2) Thừa cân hay béo phì: nguy cơ cao <span style=\"color:#ff6b6b\"><b>gấp 2 lần</b></span> người duy trì cân nặng hợp lý.<br>3) Yếu tố thuận lợi: <span style=\"color:#74c0fc\"><b>viêm teo dạ dày</b></span>, [KHÔNG CHẮC: vô toan], <span style=\"color:#74c0fc\"><b>thiếu máu ác tính, u tuyến dạ dày</b></span>.<br>4) Tính chất gia đình: dòng họ Gauser <span style=\"color:#ffd43b\"><b>174 người có 41 người ung thư dạ dày</b></span>; gia đình Napoléon có nhiều người bị; vai trò của <span style=\"color:#74c0fc\"><b>gen p53</b></span> được đề cập trong các nghiên cứu gần đây.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân có viêm teo dạ dày kèm thiếu máu ác tính thì hai yếu tố thuận lợi cùng nhau làm tăng nguy cơ, nên cần theo dõi sát hơn; một gia đình có nhiều người bị gợi ý cần hỏi kỹ tiền sử gia đình và cân nhắc tư vấn di truyền.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — H. pylori, béo phì, yếu tố thuận lợi.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-017",
+      "note_id": 1793862975517,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế từ <span style=\"color:#74c0fc\"><b>H. pylori</b></span> tới ung thư dạ dày đi qua những tầng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) HP nhiễm vào niêm mạc dạ dày và gây <span style=\"color:#ff6b6b\"><b>viêm mạn tính kéo dài</b></span>.<br>2) Viêm mạn gây <span style=\"color:#74c0fc\"><b>viêm teo dạ dày</b></span>, mất tế bào thành và tế bào chính, rồi <span style=\"color:#74c0fc\"><b>dị sản ruột</b></span> thay thế niêm mạc dạ dày bình thường.<br>3) Giai đoạn viêm teo và dị sản ruột thường <span style=\"color:#ffd43b\"><b>không có triệu chứng riêng</b></span>, chỉ phát hiện qua nội soi và sinh thiết ở người có yếu tố nguy cơ.<br>4) <span style=\"color:#ff6b6b\"><b>Loạn sản</b></span> tiến triển thành ung thư biểu mô tuyến; diệt trừ muộn khi đã có tổn thương tiền ung thư <span style=\"color:#ff6b6b\"><b>không đảo ngược được nguy cơ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định là diệt trừ H. pylori sớm trước khi có tổn thương tiền ung thư, và theo dõi nội soi ở người đã có teo hay dị sản ruột — chuỗi này là nền tảng cho khối cập nhật về diệt trừ ở phần 2.2.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — Chuỗi 1, H. pylori tới ung thư.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-018",
+      "note_id": 1793862975519,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế từ <span style=\"color:#ff6b6b\"><b>chế độ ăn và nitrosamin</b></span> tới ung thư dạ dày diễn ra thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thức ăn hun khói, khô, nhiều muối, chứa nitrosamin, nitrates, nitrites <span style=\"color:#ff6b6b\"><b>tiếp xúc kéo dài</b></span> với niêm mạc dạ dày.<br>2) Các chất gây ung thư gây <span style=\"color:#74c0fc\"><b>đột biến tích lũy</b></span> trong tế bào niêm mạc, trong khi vitamin C có thể trung hoà một phần các chất này.<br>3) Người ăn nhiều thức ăn bảo quản và ít rau quả tươi có nguy cơ cao hơn; nguy cơ cao hơn ở tầng lớp <span style=\"color:#ffd43b\"><b>kinh tế xã hội thấp</b></span>.<br>4) Thay đổi chế độ ăn làm giảm nguy cơ ở mức quần thể, nhưng <span style=\"color:#ff6b6b\"><b>không thay thế được nội soi chẩn đoán sớm</b></span> ở người đã có triệu chứng.<br><br><b>💡 Giải thích của AI:</b><br>Khi đánh giá nguy cơ phải hỏi kỹ chế độ ăn và yếu tố môi trường; tư vấn giảm thức ăn hun khói, khô và nhiều muối là quyết định phòng ngừa ở mức quần thể.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — Chuỗi 2, chế độ ăn và nitrosamin.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-019",
+      "note_id": 1793862975521,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Khoảng {{c1::<span style=\"color:#ffd43b\"><b>70% dân số</b></span>}} nhiễm Helicobacter pylori theo sách.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — khoảng 70% dân số nhiễm HP.",
+      "front": "Khoảng {{c1::<span style=\"color:#ffd43b\"><b>70% dân số</b></span>}} nhiễm Helicobacter pylori theo sách.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 2.1 — khoảng 70% dân số nhiễm HP."
+    },
+    {
+      "id": "SURG21-CARD-020",
+      "note_id": 1793862975523,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tổng quan <span style=\"color:#74c0fc\"><b>Cochrane 2020</b></span> về diệt trừ H. pylori cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 7 thử nghiệm, 8.323 người: diệt trừ giảm mắc ung thư dạ dày, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,54</b></span>, và giảm tử vong do ung thư dạ dày, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,61</b></span>.<br>2) Tử vong toàn nguyên nhân <span style=\"color:#ffd43b\"><b>không đổi</b></span>, tỉ số nguy cơ 0,97.<br>3) Quần thể nghiên cứu là người <span style=\"color:#74c0fc\"><b>châu Á khỏe mạnh không triệu chứng</b></span> — không ngoại suy sang quần thể khác.<br>4) Diệt trừ <span style=\"color:#51cf66\"><b>không làm tăng ung thư thực quản</b></span>, tỉ số nguy cơ 1,22.<br><br><b>💡 Giải thích của AI:</b><br>Diệt trừ H. pylori giảm mắc và giảm tử vong do ung thư dạ dày ở quần thể nghiên cứu; kết quả này là một phía của mâu thuẫn với thử nghiệm Wong, được dạy đủ hai phía ở thẻ tiếp theo.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.2 — Cochrane 2020 diệt trừ H. pylori; PMID 32628791.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-021",
+      "note_id": 1793862975525,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>Wong 2004</b></span> về diệt trừ H. pylori cho kết quả gì, và mâu thuẫn với Cochrane ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ở người nhiễm HP không triệu chứng tại Trung Quốc, diệt trừ <span style=\"color:#ff6b6b\"><b>không giảm chung</b></span> tỉ lệ ung thư dạ dày: <span style=\"color:#ffd43b\"><b>7 ca so với 11 ca, p = 0,33</b></span>.<br>2) Phân nhóm <span style=\"color:#51cf66\"><b>chưa có tổn thương tiền ung thư</b></span> (teo, viêm teo, dị sản ruột) thì có lợi: <span style=\"color:#ffd43b\"><b>0 ca so với 6 ca, p = 0,02</b></span>.<br>3) Mâu thuẫn với Cochrane được dạy đủ hai phía; kết luận chung là lợi ích rõ nhất khi <span style=\"color:#51cf66\"><b>diệt sớm, trước khi có teo hay dị sản ruột</b></span>.<br>4) Một khi đã có tổn thương tiền ung thư thì diệt trừ <span style=\"color:#ff6b6b\"><b>không đảo ngược được nguy cơ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hai nguồn không mâu thuẫn tuyệt đối: Cochrane gộp nhiều thử nghiệm cho lợi ích chung, còn Wong cho thấy lợi ích tập trung ở nhóm chưa có tổn thương tiền ung thư — điểm chung là diệt sớm mới có lợi rõ nhất.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.2 — thử nghiệm Wong 2004; PMID 14722144.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-022",
+      "note_id": 1793862975527,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>Fukase</b></span> về diệt trừ H. pylori sau cắt hớt nội soi cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 544 bệnh nhân ung thư dạ dày sớm sau cắt hớt nội soi: diệt trừ giảm ung thư dạ dày dị thời sau 3 năm, <span style=\"color:#ffd43b\"><b>9 ca so với 24 ca</b></span>, tỉ số chênh 0,353 và tỉ số nguy cơ 0,339.<br>2) Phác đồ trong thử nghiệm: <span style=\"color:#51cf66\"><b>lansoprazole 30 mg × 2 lần, amoxicillin 750 mg × 2 lần, clarithromycin 200 mg × 2 lần trong 1 tuần</b></span>.<br>3) Tác dụng phụ: <span style=\"color:#ff6b6b\"><b>tiêu chảy 7% và phân mềm 12%</b></span>.<br>4) Phác đồ này là phác đồ trong thử nghiệm, <span style=\"color:#ff6b6b\"><b>không phải phác đồ diệt trừ chuẩn hiện hành</b></span> cho mọi bệnh nhân — phải đối chiếu phác đồ hiện hành của cơ sở trước khi áp dụng.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ nhiễm HP khoảng 70% trong sách được giữ nguyên là chữ gốc; tỉ lệ nhiễm HP hiện nay theo vùng và nhóm tuổi rất khác nhau, không có số Việt Nam đã kiểm chứng trong dossier, nên bài không dạy số tỉ lệ nhiễm HP hiện tại cho Việt Nam.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 2.2 — thử nghiệm Fukase sau cắt hớt; PMID 18675689.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-023",
+      "note_id": 1793862975529,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Diệt trừ H. pylori giảm mắc ung thư dạ dày với tỉ số nguy cơ {{c1::<span style=\"color:#ffd43b\"><b>0,54</b></span>}} trong tổng quan Cochrane 2020.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 2.2 — Cochrane 2020, tỉ số nguy cơ 0,54; PMID 32628791.",
+      "front": "Diệt trừ H. pylori giảm mắc ung thư dạ dày với tỉ số nguy cơ {{c1::<span style=\"color:#ffd43b\"><b>0,54</b></span>}} trong tổng quan Cochrane 2020.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 2.2 — Cochrane 2020, tỉ số nguy cơ 0,54; PMID 32628791."
+    },
+    {
+      "id": "SURG21-CARD-024",
+      "note_id": 1793862975531,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Vị trí và ba <span style=\"color:#74c0fc\"><b>thể đại thể</b></span> của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hang và môn vị <span style=\"color:#ffd43b\"><b>50–60%</b></span>, bờ cong nhỏ <span style=\"color:#ffd43b\"><b>25–30%</b></span>, tâm vị dưới <span style=\"color:#ffd43b\"><b>10%</b></span>, bờ cong lớn ít gặp.<br>2) Ba thể đại thể: <span style=\"color:#74c0fc\"><b>thể u, thể loét, thể thâm nhiễm cứng</b></span>.<br>3) Vị trí hang môn vị giải thích vì sao <span style=\"color:#ff6b6b\"><b>hẹp môn vị</b></span> là biến chứng hay gặp; u tâm vị khó phân biệt với ung thư thực quản dưới nên cần quy tắc tâm vị trong AJCC 8th.<br><br><b>💡 Giải thích của AI:</b><br>Một khối u ở hang môn vị chiếm hơn một nửa các trường hợp; một khối u ở tâm vị chiếm dưới 10% và vị trí này là lý do quy tắc tâm vị trong 2 cm ở khối cập nhật sau đây là cần thiết để xếp giai đoạn đúng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.1 — vị trí và ba thể đại thể.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-025",
+      "note_id": 1793862975533,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Ung thư dạ dày ở hang và môn vị chiếm {{c1::<span style=\"color:#ffd43b\"><b>50–60%</b></span>}} các trường hợp.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.1 — hang và môn vị 50–60%.",
+      "front": "Ung thư dạ dày ở hang và môn vị chiếm {{c1::<span style=\"color:#ffd43b\"><b>50–60%</b></span>}} các trường hợp.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.1 — hang và môn vị 50–60%."
+    },
+    {
+      "id": "SURG21-CARD-026",
+      "note_id": 1793862975535,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Hệ TNM cũ trong sách định nghĩa <span style=\"color:#74c0fc\"><b>T</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tx</b></span>: không đánh giá được u nguyên phát; <span style=\"color:#74c0fc\"><b>T0</b></span>: không có u nguyên phát.<br>2) <span style=\"color:#74c0fc\"><b>Tis</b></span>: ung thư khu trú ở lớp niêm mạc, chưa tới lớp dưới niêm mạc.<br>3) <span style=\"color:#74c0fc\"><b>T1</b></span>: khu trú ở niêm mạc và dưới niêm mạc.<br>4) <span style=\"color:#74c0fc\"><b>T2</b></span>: đã xâm lấn xuống lớp cơ.<br>5) <span style=\"color:#74c0fc\"><b>T3</b></span>: đã lan tới lớp thanh mạc.<br>6) <span style=\"color:#74c0fc\"><b>T4</b></span>: đã lan qua thanh mạc vào tổ chức lân cận.<br><br><b>💡 Giải thích của AI:</b><br>Hình trong sách là sơ đồ độ xâm lấn theo chiều sâu của thành dạ dày, với chữ chú thích nhỏ trong hình mờ, không đọc được chi tiết; phân loại TNM có vai trò quan trọng trong trao đổi thông tin giữa các vùng, liên quan chiến thuật điều trị và tiên lượng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — định nghĩa T trong hệ TNM cũ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-027",
+      "note_id": 1793862975537,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Hệ TNM cũ trong sách định nghĩa <span style=\"color:#74c0fc\"><b>N và M</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>N0</b></span>: không có hạch vùng.<br>2) <span style=\"color:#74c0fc\"><b>N1</b></span>: hạch cạnh dạ dày cách u không quá <span style=\"color:#ffd43b\"><b>3 cm</b></span> dọc theo bờ cong lớn và bờ cong nhỏ.<br>3) <span style=\"color:#74c0fc\"><b>N2</b></span>: hạch vùng đã vượt quá u 3 cm, gồm hạch dọc động mạch vành vị, thân tạng, lách, động mạch gan chung.<br>4) <span style=\"color:#74c0fc\"><b>N3</b></span>: hạch xa gồm hạch dọc động mạch chủ, hạch mạc treo ruột, hạch sau tá tràng đầu tụy, hạch cuống gan, dây chằng gan tá tràng.<br>5) <span style=\"color:#74c0fc\"><b>M0</b></span>: không di căn xa; <span style=\"color:#74c0fc\"><b>M1</b></span>: có di căn xa, gồm <span style=\"color:#ff6b6b\"><b>gan, phúc mạc, phổi, buồng trứng, hạch trên đòn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Hệ TNM cũ dùng N theo khoảng cách 3 cm và chặng hạch — điểm này đã lỗi thời so với AJCC 8th dùng N theo số lượng hạch, được trình bày ở phần 3.3.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — định nghĩa N và M trong hệ TNM cũ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-028",
+      "note_id": 1793862975539,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> sách mô tả <span style=\"color:#ffd43b\"><b>T2</b></span> vừa là xâm lấn xuống lớp cơ vừa là lan tới thanh mạc, <span style=\"color:#ffd43b\"><b>T3</b></span> vừa là lan tới lớp thanh mạc vừa là xuyên qua thanh mạc — xử trí thế nào khi thi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là <span style=\"color:#ff6b6b\"><b>mâu thuẫn nội bộ trong sách</b></span>; bài giữ nguyên đúng như sách viết, <span style=\"color:#ff6b6b\"><b>không tự sửa cho nhất quán</b></span>.<br>2) Tài liệu thi phải theo đúng chữ gốc — học thuộc cả hai cách mô tả như sách viết.<br>3) Đồng thời phải biết bảng này đã lỗi thời so với <span style=\"color:#51cf66\"><b>AJCC 8th</b></span>; hai bảng <span style=\"color:#ff6b6b\"><b>không được trộn lẫn</b></span> khi làm bài.<br><br><b>💡 Giải thích của AI:</b><br>Sách mô tả T2 vừa là xâm lấn xuống lớp cơ trong định nghĩa T, vừa là lan tới thanh mạc trong mô tả giai đoạn Ib; T3 vừa là lan tới lớp thanh mạc trong định nghĩa T, vừa là xuyên qua thanh mạc trong mô tả giai đoạn II và III — giữ nguyên cả hai, không tự sửa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — mâu thuẫn nội bộ T2/T3 trong sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-029",
+      "note_id": 1793862975541,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Bảng giai đoạn theo sách (giữ nguyên, không sửa) gồm những <span style=\"color:#74c0fc\"><b>giai đoạn</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giai đoạn <span style=\"color:#74c0fc\"><b>0</b></span>: Tis N0 M0 — ung thư khu trú trong lớp niêm mạc, không di căn hạch, không di căn xa.<br>2) Giai đoạn <span style=\"color:#74c0fc\"><b>I</b></span>: Ia là T1 N0 M0; Ib là T1 N1 M0 hoặc T2 N0 M0.<br>3) Giai đoạn <span style=\"color:#74c0fc\"><b>II</b></span>: T1 N2 M0, T2 N1 M0, hoặc T3 N0 M0.<br>4) Giai đoạn <span style=\"color:#74c0fc\"><b>III</b></span>: IIIa là T2 N2 M0, T3 N1 M0, hoặc T4 N0 M0; IIIb là T3 N2 M0 hoặc T4 N1 M0.<br>5) Giai đoạn <span style=\"color:#74c0fc\"><b>IV</b></span>: ung thư xuyên qua thanh mạc tới tổ chức xung quanh, di căn hạch chặng 1 cách u trên 3 cm hoặc chặng 2, không di căn xa, hoặc T bất kỳ N bất kỳ M1.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải học thuộc bảng này khi thi theo sách, vì đây là bảng trong sách, và đồng thời phải biết bảng này đã lỗi thời so với phân loại hiện hành — hai bảng không được trộn lẫn với nhau khi làm bài.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — bảng giai đoạn theo sách, giữ nguyên.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-030",
+      "note_id": 1793862975543,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong hệ TNM cũ, N1 là hạch cạnh dạ dày cách u không quá {{c1::<span style=\"color:#ffd43b\"><b>3 cm</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — N1 cách u không quá 3 cm.",
+      "front": "Trong hệ TNM cũ, N1 là hạch cạnh dạ dày cách u không quá {{c1::<span style=\"color:#ffd43b\"><b>3 cm</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.2 — N1 cách u không quá 3 cm."
+    },
+    {
+      "id": "SURG21-CARD-031",
+      "note_id": 1793862975545,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "AJCC 8th định nghĩa <span style=\"color:#74c0fc\"><b>T</b></span> cho ung thư dạ dày thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Tis</b></span>: ung thư tại chỗ, gồm loạn sản độ cao và ung thư biểu mô tại chỗ, chưa xâm lấn qua màng đáy.<br>2) <span style=\"color:#74c0fc\"><b>T1a</b></span>: xâm lấn lá propria hoặc cơ niêm; <span style=\"color:#74c0fc\"><b>T1b</b></span>: xâm lấn dưới niêm mạc.<br>3) <span style=\"color:#74c0fc\"><b>T2</b></span>: xâm lấn lớp cơ riêng.<br>4) <span style=\"color:#74c0fc\"><b>T3</b></span>: xâm lấn qua lớp cơ tới mô dưới thanh mạc.<br>5) <span style=\"color:#74c0fc\"><b>T4a</b></span>: xuyên qua thanh mạc; <span style=\"color:#74c0fc\"><b>T4b</b></span>: xâm lấn cấu trúc hay cơ quan lân cận.<br><br><b>💡 Giải thích của AI:</b><br>Hệ TNM trong sách dùng N theo khoảng cách 3 cm và chặng hạch, và phân loại này đã lỗi thời; khối này trình bày AJCC 8th theo bảng phụ lục của guideline ESMO 2022, đã xác minh nguyên văn từng dòng — dùng bảng này khi đọc tài liệu hiện đại và khi đi lâm sàng, đồng thời vẫn thuộc bảng của sách khi thi.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.3 — AJCC 8th, định nghĩa T; phụ lục ESMO 2022.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-032",
+      "note_id": 1793862975547,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "AJCC 8th tính <span style=\"color:#74c0fc\"><b>N</b></span> theo gì, và <span style=\"color:#74c0fc\"><b>M1</b></span> gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) N tính theo <span style=\"color:#51cf66\"><b>số hạch di căn</b></span>, không theo khoảng cách hay chặng hạch như sách cũ: N1 là <span style=\"color:#ffd43b\"><b>1–2 hạch</b></span>, N2 là <span style=\"color:#ffd43b\"><b>3–6 hạch</b></span>, N3a là <span style=\"color:#ffd43b\"><b>7–15 hạch</b></span>, N3b là từ <span style=\"color:#ffd43b\"><b>16 hạch trở lên</b></span>.<br>2) M1 là di căn xa, bao gồm <span style=\"color:#ff6b6b\"><b>gieo rắc phúc mạc, tế bào học dịch màng bụng dương tính, và u mạc nối không liên tục với u nguyên phát</b></span> — ba tiêu chí này sách không nêu.<br>3) Số hạch nạo vét được ảnh hưởng độ chính xác xếp giai đoạn, vì xếp giai đoạn theo số hạch chỉ đúng khi <span style=\"color:#51cf66\"><b>nạo vét đủ hạch</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba điểm cốt lõi của AJCC 8th cho dạ dày: T chia nhỏ thành T1a và T1b cùng T4a và T4b, hạch tính theo số lượng với N3a và N3b, và số hạch nạo vét được ảnh hưởng độ chính xác xếp giai đoạn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.3 — AJCC 8th, N theo số hạch và M1.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-033",
+      "note_id": 1793862975549,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Nhóm giai đoạn <span style=\"color:#74c0fc\"><b>AJCC 8th</b></span> và quy tắc <span style=\"color:#74c0fc\"><b>u tâm vị</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 0: TisN0M0; IA: T1N0; IB: <span style=\"color:#74c0fc\"><b>T2N0 và T1N1</b></span>.<br>2) IIA: T3N0, T2N1, T1N2; IIB: <span style=\"color:#74c0fc\"><b>T4aN0, T3N1, T2N2, T1N3a</b></span>.<br>3) IIIA: T4bN0, T4aN1–2, T3N2, T2N3a; IIIB: T4bN1–2, T3–4aN3a, T1–2N3b; IIIC: T4bN3a–3b, T3–4aN3b; IV: <span style=\"color:#ff6b6b\"><b>bất kỳ T, bất kỳ N, M1</b></span>.<br>4) Quy tắc tâm vị: u có tâm điểm trong <span style=\"color:#ffd43b\"><b>2 cm</b></span> vào phía dạ dày gần thì xếp giai đoạn như ung thư thực quản, hơn 2 cm thì xếp như ung thư dạ dày; sách không nêu quy tắc này.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm giai đoạn AJCC 8th phải học cùng với định nghĩa T và N; quy tắc 2 cm là điểm mới hoàn toàn so với sách và hay bị bỏ sót khi xếp giai đoạn u tâm vị.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.3 — AJCC 8th, nhóm giai đoạn và quy tắc tâm vị.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-034",
+      "note_id": 1793862975551,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong AJCC 8th, N3b là từ {{c1::<span style=\"color:#ffd43b\"><b>16 hạch</b></span>}} di căn trở lên.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.3 — AJCC 8th, N3b từ 16 hạch.",
+      "front": "Trong AJCC 8th, N3b là từ {{c1::<span style=\"color:#ffd43b\"><b>16 hạch</b></span>}} di căn trở lên.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.3 — AJCC 8th, N3b từ 16 hạch."
+    },
+    {
+      "id": "SURG21-CARD-035",
+      "note_id": 1793862975553,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Về <span style=\"color:#74c0fc\"><b>mô học và thâm nhiễm</b></span>, ung thư dạ dày gồm những gì theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Về vị thế: <span style=\"color:#74c0fc\"><b>ung thư tuyến gặp tới 90%</b></span>, và <span style=\"color:#74c0fc\"><b>ung thư tổ chức liên kết gặp 10%</b></span>.<br>2) Về thâm nhiễm: theo <span style=\"color:#ff6b6b\"><b>chiều rộng, bề sâu, hệ thống bạch huyết, mạch máu</b></span>, và xâm lấn vào các tạng lân cận.<br>3) Năm hướng thâm nhiễm giải thích vì sao chẩn đoán giai đoạn phải đánh giá cả <span style=\"color:#74c0fc\"><b>độ sâu, hạch, và di căn xa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: một khối u ung thư tuyến ở hang môn vị thâm nhiễm theo bề sâu xuống lớp cơ rồi qua thanh mạc, theo hệ bạch huyết tới hạch vùng, và theo mạch máu tới gan; một khối u tổ chức liên kết chiếm 10% các trường hợp — ung thư dạ dày không phải chỉ có ung thư tuyến, dù ung thư tuyến chiếm tới 90%.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.4 — mô học và thâm nhiễm theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-036",
+      "note_id": 1793862975555,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Ung thư tuyến chiếm tới {{c1::<span style=\"color:#ffd43b\"><b>90%</b></span>}} các trường hợp ung thư dạ dày theo sách.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.4 — ung thư tuyến 90%.",
+      "front": "Ung thư tuyến chiếm tới {{c1::<span style=\"color:#ffd43b\"><b>90%</b></span>}} các trường hợp ung thư dạ dày theo sách.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.4 — ung thư tuyến 90%."
+    },
+    {
+      "id": "SURG21-CARD-037",
+      "note_id": 1793862975557,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phân loại <span style=\"color:#74c0fc\"><b>Lauren</b></span> chia ung thư dạ dày thành những thể nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Thể ruột và thể lan toả</b></span>; thể lan toả liên quan gen <span style=\"color:#74c0fc\"><b>CDH1</b></span>.<br>2) Đây là phân loại kinh điển <span style=\"color:#51cf66\"><b>vẫn dùng trong thực hành</b></span>.<br>3) Phân loại chi tiết của Tổ chức Y tế Thế giới bản 2019 <span style=\"color:#ffd43b\"><b>chưa lấy được sách</b></span>, nên bài chỉ trình bày Lauren ở mức khái quát và ghi rõ không trích tiêu chí chi tiết chưa kiểm chứng.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại Lauren và phân loại phân tử là kiến thức nâng cao, không thay thế phân loại hai loại trong sách khi thi theo sách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — phân loại Lauren.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-038",
+      "note_id": 1793862975559,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phân loại phân tử <span style=\"color:#74c0fc\"><b>TCGA 2014</b></span> chia ung thư dạ dày thành những phân nhóm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>EBV dương tính</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Vi vệ tinh không ổn định</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>Ổn định hệ gen và giàu thể lan toả</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>Bất ổn nhiễm sắc thể và giàu thể ruột</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phân loại phân tử này là nền tảng cho phân loại phân tử hiện đại và được dùng ở mức nâng cao; sách chỉ phân loại mô học thành ung thư tuyến 90% và ung thư tổ chức liên kết 10%, và khối này bổ sung phân loại được dùng trong thực hành hiện đại.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — phân loại phân tử TCGA 2014.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-039",
+      "note_id": 1793862975561,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Ung thư dạ dày lan toả di truyền (<span style=\"color:#74c0fc\"><b>HDGC</b></span>) theo guideline cập nhật 2020 có điểm gì mới?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu chí xét nghiệm gen <span style=\"color:#74c0fc\"><b>CDH1 được nới lỏng</b></span>, giới hạn tuổi ít khắt khe hơn.<br>2) <span style=\"color:#51cf66\"><b>Cắt toàn bộ dạ dày dự phòng</b></span> vẫn là lựa chọn khuyến cáo cho người mang biến thể CDH1 gây bệnh.<br>3) <span style=\"color:#51cf66\"><b>Giám sát nội soi tại trung tâm chuyên sâu</b></span> có thể được đề nghị để trì hoãn phẫu thuật.<br>4) Guideline thêm nhóm mới: <span style=\"color:#74c0fc\"><b>ung thư vú tiểu thùy di truyền và nhóm giống lan toả di truyền</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>HDGC là kiến thức nâng cao; người học phải nhớ phân loại Lauren và phân loại phân tử không thay thế phân loại hai loại trong sách khi thi.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — HDGC, guideline cập nhật 2020.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-040",
+      "note_id": 1793862975563,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chuỗi <span style=\"color:#ff6b6b\"><b>xâm lấn thành → hạch → di căn xa</b></span> diễn ra thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thành dạ dày có 4 lớp và hệ bạch huyết phong phú, với các trạm hạch dọc theo bờ cong, động mạch vành vị, thân tạng, lách, và động mạch gan chung.<br>2) Tế bào ung thư xâm lấn qua các lớp thành, vào <span style=\"color:#74c0fc\"><b>mạch bạch huyết và mạch máu</b></span>, theo đường bạch huyết tới hạch vùng rồi theo đường tĩnh mạch tới tạng xa như <span style=\"color:#ff6b6b\"><b>gan, phúc mạc, phổi, và buồng trứng</b></span>.<br>3) Xâm lấn tại chỗ gây đau và hẹp môn vị, di căn hạch gây hạch to, di căn xa gây triệu chứng tại tạng di căn như <span style=\"color:#ff6b6b\"><b>cổ chướng do phúc mạc hay khối buồng trứng</b></span>.<br>4) Giai đoạn càng cao thì càng <span style=\"color:#ff6b6b\"><b>ít khả năng mổ triệt căn</b></span>, và điều trị chuyển sang đa mô thức hay toàn thân.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định là chẩn đoán giai đoạn bằng chụp cắt lớp, siêu âm, và nội soi siêu âm để xác định mức xâm lấn, số hạch, và di căn xa trước khi chọn điều trị.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — Chuỗi 3, xâm lấn thành tới di căn xa.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-041",
+      "note_id": 1793862975565,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Thể lan toả trong phân loại Lauren liên quan gen {{c1::<span style=\"color:#ffd43b\"><b>CDH1</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — thể lan toả liên quan CDH1.",
+      "front": "Thể lan toả trong phân loại Lauren liên quan gen {{c1::<span style=\"color:#ffd43b\"><b>CDH1</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 3.5 — thể lan toả liên quan CDH1."
+    },
+    {
+      "id": "SURG21-CARD-042",
+      "note_id": 1793862975567,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#74c0fc\"><b>giai đoạn sớm</b></span> của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Triệu chứng <span style=\"color:#ffd43b\"><b>không đặc hiệu</b></span>; <span style=\"color:#ffd43b\"><b>80% thường không có triệu chứng</b></span>, số còn lại thường có triệu chứng của loét.<br>2) Các triệu chứng gợi ý: <span style=\"color:#ff6b6b\"><b>đau bụng mơ hồ vùng thượng vị</b></span>, đôi khi chỉ thấy <span style=\"color:#ff6b6b\"><b>ậm ạch khó tiêu</b></span>.<br>3) Toàn thân: <span style=\"color:#ff6b6b\"><b>mệt mỏi, da xanh, gầy sút không rõ nguyên nhân</b></span>, và <span style=\"color:#ffd43b\"><b>giảm khả năng lao động</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Vì 80% bệnh nhân giai đoạn sớm không có triệu chứng nên nội soi là cách duy nhất phát hiện sớm, không phải chờ triệu chứng điển hình; triệu chứng giống loét là lý do ung thư dạ dày giai đoạn sớm hay bị bỏ sót khi chỉ điều trị loét mà không nội soi kiểm tra.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.1 — giai đoạn sớm, 80% không triệu chứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-043",
+      "note_id": 1793862975569,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Ở giai đoạn sớm, {{c1::<span style=\"color:#ffd43b\"><b>80%</b></span>}} bệnh nhân ung thư dạ dày thường không có triệu chứng.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.1 — 80% giai đoạn sớm không triệu chứng.",
+      "front": "Ở giai đoạn sớm, {{c1::<span style=\"color:#ffd43b\"><b>80%</b></span>}} bệnh nhân ung thư dạ dày thường không có triệu chứng.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.1 — 80% giai đoạn sớm không triệu chứng."
+    },
+    {
+      "id": "SURG21-CARD-044",
+      "note_id": 1793862975571,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#ff6b6b\"><b>giai đoạn muộn</b></span> của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau bụng vùng trên rốn kéo dài, ngày càng tăng, không có chu kỳ</b></span>.<br>2) Toàn thân <span style=\"color:#ff6b6b\"><b>gầy sút hơn</b></span>, muộn hơn <span style=\"color:#ffd43b\"><b>da vàng rơm</b></span>.<br>3) Khám thấy <span style=\"color:#ff6b6b\"><b>khối u bụng hoặc một mảng cứng ở vùng thượng vị</b></span>, muộn hơn bụng có <span style=\"color:#ff6b6b\"><b>cổ chướng</b></span>; di căn đến hạch thượng đòn trái, gọi là <span style=\"color:#74c0fc\"><b>hạch Troisier</b></span>, và bụng trướng.<br>4) Biểu hiện biến chứng: <span style=\"color:#ff6b6b\"><b>hẹp môn vị, chảy máu tiêu hoá trên hay thủng dạ dày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đau thượng vị kéo dài không có chu kỳ khác với đau loét có chu kỳ và đỡ khi ăn, và tính chất không có chu kỳ này là gợi ý quan trọng để nội soi; hạch Troisier là dấu hiệu di căn xa, nên chiến lược điều trị chuyển sang toàn thân thay vì mổ triệt căn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.2 — giai đoạn muộn và hạch Troisier.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-045",
+      "note_id": 1793862975573,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ <span style=\"color:#51cf66\"><b>chẩn đoán sớm</b></span> ung thư dạ dày ở Nhật Bản và Việt Nam theo sách là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đa số còn chẩn đoán muộn, trừ Nhật Bản chẩn đoán sớm đến <span style=\"color:#ffd43b\"><b>62%</b></span>.<br>2) Việt Nam chỉ chẩn đoán sớm được <span style=\"color:#ff6b6b\"><b>dưới 10%</b></span>.<br>3) Tỉ lệ chẩn đoán sớm tại Việt Nam hiện nay <span style=\"color:#ffd43b\"><b>chưa có số cập nhật đã kiểm chứng</b></span>, nên bài không dạy số hiện tại nào.<br><br><b>💡 Giải thích của AI:</b><br>Chênh lệch 62% so với dưới 10% phản ánh hệ thống sàng lọc và nội soi ở Nhật Bản; con số dưới 10% của Việt Nam là số trong sách, không phải số hiện tại đã kiểm chứng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.2 — chẩn đoán sớm Nhật 62%, Việt Nam dưới 10%.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-046",
+      "note_id": 1793862975575,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Nhật Bản chẩn đoán sớm ung thư dạ dày đến {{c1::<span style=\"color:#ffd43b\"><b>62%</b></span>}}, Việt Nam chỉ dưới 10% theo sách.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.2 — Nhật Bản chẩn đoán sớm 62%.",
+      "front": "Nhật Bản chẩn đoán sớm ung thư dạ dày đến {{c1::<span style=\"color:#ffd43b\"><b>62%</b></span>}}, Việt Nam chỉ dưới 10% theo sách.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.2 — Nhật Bản chẩn đoán sớm 62%."
+    },
+    {
+      "id": "SURG21-CARD-047",
+      "note_id": 1793862975577,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> những <span style=\"color:#ff6b6b\"><b>dấu hiệu báo động</b></span> nào của ung thư dạ dày cần đánh giá khẩn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nôn máu hay đi ngoài phân đen</b></span>: có thể do khối u loét chảy máu, cần đánh giá và hồi sức khẩn, không chờ nội soi theo lịch thường.<br>2) <span style=\"color:#ff6b6b\"><b>Đau bụng dữ dội đột ngột kèm bụng cứng</b></span>: có thể do thủng dạ dày, thường gặp trong ung thư thể loét ở bờ cong nhỏ hay mặt trước dạ dày, cần đánh giá ngoại khoa khẩn.<br>3) <span style=\"color:#ff6b6b\"><b>Nôn liên tục, không ăn uống được, và bụng trướng</b></span>: có thể do hẹp môn vị, cần đánh giá tắc nghẽn và hỗ trợ dinh dưỡng khẩn.<br>4) <span style=\"color:#ff6b6b\"><b>Hạch thượng đòn trái mới xuất hiện</b></span> ở bệnh nhân đau thượng vị và gầy sút: có thể là hạch Troisier di căn, cần chẩn đoán giai đoạn đầy đủ trước khi quyết định mổ.<br>5) <span style=\"color:#ff6b6b\"><b>Gầy sút nhanh kèm da vàng rơm và cổ chướng</b></span>: có thể là bệnh đã tiến triển với di căn phúc mạc hay gan, cần đánh giá toàn thân khẩn.<br><br><b>💡 Giải thích của AI:</b><br>Mọi nhánh cấp cứu này đều đi trước nhánh thường quy trong lưu đồ điều trị ở phần 7, và không có bước thường quy nào được phép bỏ qua BOX ĐỎ.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.3 — BOX ĐỎ, dấu hiệu báo động.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-048",
+      "note_id": 1793862975579,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tiến triển và <span style=\"color:#ff6b6b\"><b>biến chứng</b></span> của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiến triển nhanh; nếu không được điều trị kịp thời, tử vong trong khoảng <span style=\"color:#ffd43b\"><b>5–6 tháng</b></span>.<br>2) Biến chứng gồm <span style=\"color:#ff6b6b\"><b>hẹp môn vị, chảy máu dạ dày, và thủng dạ dày</b></span>, thường gặp trong ung thư thể loét ở bờ cong nhỏ hay mặt trước dạ dày.<br>3) Thủng là <span style=\"color:#ff6b6b\"><b>cấp cứu ngoại khoa</b></span>, không phải biến chứng nội khoa có thể điều trị bảo tồn.<br><br><b>💡 Giải thích của AI:</b><br>Con số tử vong trong khoảng 5–6 tháng của sách giải thích vì sao chẩn đoán sớm và điều trị kịp thời là yếu tố quyết định, chứ không phải chỉ do điều trị muộn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.4 — tiến triển và biến chứng theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-049",
+      "note_id": 1793862975581,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chuỗi từ <span style=\"color:#ff6b6b\"><b>khối u lớn dần</b></span> tới hẹp môn vị, chảy máu và thủng diễn ra thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khối u ở hang môn vị chiếm 50–60%, và môn vị là <span style=\"color:#74c0fc\"><b>đoạn hẹp nhất của dạ dày</b></span>.<br>2) Khối u lớn dần gây <span style=\"color:#ff6b6b\"><b>hẹp môn vị</b></span>; khối u loét ăn sâu gây <span style=\"color:#ff6b6b\"><b>chảy máu hay thủng</b></span> thành dạ dày.<br>3) Hẹp môn vị gây <span style=\"color:#ff6b6b\"><b>nôn và không ăn được</b></span>, chảy máu gây <span style=\"color:#ff6b6b\"><b>nôn máu và phân đen</b></span>, thủng gây <span style=\"color:#ff6b6b\"><b>đau bụng dữ dội và bụng cứng</b></span>.<br>4) Biến chứng làm tăng tử vong và giảm khả năng mổ triệt căn; <span style=\"color:#51cf66\"><b>xử trí biến chứng là ưu tiên trước điều trị triệt căn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đánh giá cấp cứu ngay khi có nôn máu, đau bụng dữ dội, hay nôn liên tục, và không chờ điều trị triệt căn theo lịch thường.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 4.4 — Chuỗi 4, khối u lớn dần tới biến chứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-050",
+      "note_id": 1793862975583,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Ung thư dạ dày không điều trị kịp thời thì tử vong trong khoảng {{c1::<span style=\"color:#ffd43b\"><b>5–6 tháng</b></span>}} theo sách.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.4 — tử vong trong 5–6 tháng.",
+      "front": "Ung thư dạ dày không điều trị kịp thời thì tử vong trong khoảng {{c1::<span style=\"color:#ffd43b\"><b>5–6 tháng</b></span>}} theo sách.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 4.4 — tử vong trong 5–6 tháng."
+    },
+    {
+      "id": "SURG21-CARD-051",
+      "note_id": 1793862975585,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Hình ảnh <span style=\"color:#74c0fc\"><b>X-quang</b></span> sớm và muộn của ung thư dạ dày theo sách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giai đoạn đầu: <span style=\"color:#74c0fc\"><b>ứ đọng thuốc trên bề mặt, hình niêm mạc hội tụ, và một đoạn cứng</b></span>.<br>2) Giai đoạn sau có 3 hình ảnh tương đương 3 thể giải phẫu bệnh: hình <span style=\"color:#74c0fc\"><b>ổ đọng thuốc</b></span> tương ứng thể loét, điển hình là <span style=\"color:#74c0fc\"><b>hình thấu kính</b></span>.<br>3) Hình <span style=\"color:#74c0fc\"><b>khuyết bờ nham nhở</b></span> tương ứng với thể sùi.<br>4) Hình <span style=\"color:#74c0fc\"><b>thâm nhiễm cứng</b></span>: một đoạn bờ cong cứng thường xuyên, ví dụ <span style=\"color:#74c0fc\"><b>hình cao nguyên</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân có phim X-quang thấy hình ổ đọng thuốc hình thấu kính thì hình ảnh này tương ứng với thể loét, nên nội soi kèm sinh thiết là bước tiếp theo; một đoạn bờ cong cứng thường xuyên tương ứng với thể thâm nhiễm, nên cần nội soi để đánh giá mức độ lan rộng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.1 — hình ảnh X-quang theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-052",
+      "note_id": 1793862975587,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Hình ổ đọng thuốc {{c1::<span style=\"color:#ffd43b\"><b>hình thấu kính</b></span>}} trên X-quang tương ứng với ung thư dạ dày thể loét.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 5.1 — ổ đọng thuốc hình thấu kính.",
+      "front": "Hình ổ đọng thuốc {{c1::<span style=\"color:#ffd43b\"><b>hình thấu kính</b></span>}} trên X-quang tương ứng với ung thư dạ dày thể loét.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 5.1 — ổ đọng thuốc hình thấu kính."
+    },
+    {
+      "id": "SURG21-CARD-053",
+      "note_id": 1793862975589,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Nội soi dạ dày</b></span> có ưu điểm gì trong chẩn đoán ung thư dạ dày theo sách?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán sớm khi còn khu trú ở <span style=\"color:#74c0fc\"><b>lớp niêm mạc</b></span>.<br>2) Thấy được thương tổn ở vị trí <span style=\"color:#74c0fc\"><b>X-quang có thể bỏ sót</b></span>.<br>3) Soi kết hợp với <span style=\"color:#51cf66\"><b>sinh thiết</b></span> xác định ung thư hay loét.<br>4) <span style=\"color:#74c0fc\"><b>Nội soi siêu âm</b></span> được sách nêu trong phần cận lâm sàng.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân có phim X-quang bình thường nhưng vẫn đau thượng vị và gầy sút thì nội soi vẫn phải làm, vì nội soi thấy được thương tổn khu trú ở niêm mạc mà X-quang có thể bỏ sót; sinh thiết qua nội soi là cách duy nhất phân biệt ung thư với loét lành tính, không phải chỉ dựa vào hình ảnh.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.2 — nội soi và sinh thiết theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-054",
+      "note_id": 1793862975591,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Các <span style=\"color:#74c0fc\"><b>xét nghiệm khác</b></span> trong chẩn đoán ung thư dạ dày theo sách gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span> giúp tìm di căn vào các tạng như <span style=\"color:#ff6b6b\"><b>gan, tụy, và buồng trứng</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Chụp cắt lớp vi tính</b></span>, <span style=\"color:#74c0fc\"><b>chụp PET</b></span> và <span style=\"color:#74c0fc\"><b>xét nghiệm tế bào học</b></span> được sách nêu trong phần cận lâm sàng.<br>3) Xét nghiệm sinh hoá ghi nhận <span style=\"color:#ffd43b\"><b>CEA tăng cao</b></span> trong ung thư dạ dày.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm, chụp cắt lớp, PET và tế bào học đều là phương tiện hỗ trợ chẩn đoán giai đoạn và di căn; chẩn đoán xác định mô học vẫn cần nội soi kèm sinh thiết.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.3 — siêu âm, CT, PET, tế bào học, sinh hoá.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-055",
+      "note_id": 1793862975593,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Sách trình bày <span style=\"color:#74c0fc\"><b>chất chỉ điểm khối u</b></span> thế nào, và đoạn này có vấn đề gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sách viết việc phát hiện hơn <span style=\"color:#ffd43b\"><b>40 oncogen</b></span> là thành công to lớn; tổ chức ung thư sản sinh kháng nguyên ung thư là chất chỉ điểm đặc hiệu; dựa vào sự có mặt hay không của chất này trong máu có thể khẳng định được là có tồn tại tế bào ung thư hay không.<br>2) Mỗi loại u có một marker đặc hiệu riêng, dù tính đặc hiệu chỉ tương đối — ví dụ <span style=\"color:#74c0fc\"><b>AFP trong ung thư gan nguyên phát, CEA trong ung thư đại tràng, CA125 trong ung thư buồng trứng, CA 15-3 trong ung thư vú, CA19-9 trong ung thư tụy, thyroglobulin trong ung thư tuyến giáp, và riêng ung thư dạ dày là CA72-4</b></span>.<br>3) Người học phải nhớ đoạn này của sách trình bày chất chỉ điểm <span style=\"color:#ff6b6b\"><b>quá mạnh</b></span>, và khối cập nhật ngay sau đây đính chính cách trình bày này.<br><br><b>💡 Giải thích của AI:</b><br>Đoạn marker của sách được giữ nguyên là chữ gốc; khối cập nhật ở phần 5.4 đính chính ngay bên cạnh chữ gốc, không sửa chữ gốc — cách đọc hai lớp này là cốt lõi của bài.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.3 — chất chỉ điểm khối u theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-056",
+      "note_id": 1793862975595,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> sách viết dựa vào chất chỉ điểm trong máu thì có thể <span style=\"color:#ff6b6b\"><b>khẳng định được là có tồn tại tế bào ung thư</b></span> — vì sao khẳng định này sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không marker nào khẳng định được chẩn đoán</b></span>; cách viết này nói quá và được khối cập nhật đính chính ngay bên cạnh chữ gốc, không sửa chữ gốc.<br>2) Độ nhạy đơn độc: CEA <span style=\"color:#ffd43b\"><b>37,2%</b></span>, CA19-9 <span style=\"color:#ffd43b\"><b>34,3%</b></span>, CA72-4 <span style=\"color:#ffd43b\"><b>34,0%</b></span>, CA125 <span style=\"color:#ffd43b\"><b>29,9%</b></span>, dao động theo từng nghiên cứu chỉ từ 0,09 tới 0,43; độ đặc hiệu khoảng 0,9 trở lên.<br>3) Marker đơn độc <span style=\"color:#ff6b6b\"><b>không đủ nhạy để chẩn đoán</b></span>, chỉ có vai trò hỗ trợ và theo dõi.<br><br><b>💡 Giải thích của AI:</b><br>Chẩn đoán ung thư dạ dày vẫn là nội soi kèm sinh thiết, và không được dùng CEA hay CA72-4 để khẳng định hay loại trừ ung thư dạ dày.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.4 — độ nhạy marker đơn độc 34–37%.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-057",
+      "note_id": 1793862975597,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>CA72-4</b></span> đơn độc và kết hợp ba marker có độ nhạy, độ đặc hiệu thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CA72-4 đơn độc: độ nhạy <span style=\"color:#ffd43b\"><b>0,58</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>0,86</b></span>, diện tích dưới đường cong <span style=\"color:#ffd43b\"><b>0,84</b></span>.<br>2) Kết hợp CEA, CA19-9 và CA72-4: độ nhạy <span style=\"color:#ffd43b\"><b>0,67</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>0,89</b></span>, diện tích dưới đường cong <span style=\"color:#ffd43b\"><b>0,87</b></span> — vẫn chưa đủ để thay nội soi và sinh thiết.<br>3) <span style=\"color:#74c0fc\"><b>CEA và CA125 là marker tiên lượng độc lập</b></span>; <span style=\"color:#74c0fc\"><b>CA125 cùng CA72-4 liên quan di căn phúc mạc</b></span>.<br>4) Vai trò chính của marker là <span style=\"color:#51cf66\"><b>tiên lượng và theo dõi, không phải chẩn đoán</b></span>; ngưỡng cắt chẩn đoán chuẩn thống nhất chưa xác minh được nên bài không dạy ngưỡng cắt nào.<br><br><b>💡 Giải thích của AI:</b><br>Hai phân tích gộp cho số khác nhau vì quần thể và phương pháp khác nhau; kết luận chung là marker đơn độc không đủ nhạy để chẩn đoán — vai trò chính là tiên lượng và theo dõi.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.4 — CA72-4 đơn độc và kết hợp ba marker.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-058",
+      "note_id": 1793862975599,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Độ nhạy đơn độc của CEA trong chẩn đoán ung thư dạ dày là {{c1::<span style=\"color:#ffd43b\"><b>37,2%</b></span>}} theo tổng quan 2010–2025.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 5.4 — CEA nhạy 37,2%.",
+      "front": "Độ nhạy đơn độc của CEA trong chẩn đoán ung thư dạ dày là {{c1::<span style=\"color:#ffd43b\"><b>37,2%</b></span>}} theo tổng quan 2010–2025.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 5.4 — CEA nhạy 37,2%."
+    },
+    {
+      "id": "SURG21-CARD-059",
+      "note_id": 1793862975601,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chẩn đoán xác định <span style=\"color:#74c0fc\"><b>ung thư dạ dày giai đoạn đầu</b></span> theo sách cần chú ý gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán xác định ở giai đoạn đầu <span style=\"color:#ff6b6b\"><b>rất khó</b></span>; dấu hiệu lâm sàng chỉ có tính chất <span style=\"color:#ffd43b\"><b>gợi ý</b></span>.<br>2) Cần chú ý bệnh nhân tuổi từ <span style=\"color:#ffd43b\"><b>45–50</b></span> với triệu chứng gợi ý: <span style=\"color:#ff6b6b\"><b>đau trên rốn, ăn khó tiêu, đầy bụng, và gầy sút</b></span>.<br>3) Chỉ định <span style=\"color:#51cf66\"><b>nội soi dạ dày kết hợp với sinh thiết</b></span> để xác định tổn thương.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân 48 tuổi có đau trên rốn, ăn khó tiêu, đầy bụng và gầy sút thì bốn triệu chứng gợi ý này cùng nhau là chỉ định nội soi kèm sinh thiết, không phải chỉ điều trị triệu chứng rồi hẹn tái khám.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.5 — chẩn đoán xác định theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-060",
+      "note_id": 1793862975603,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> bệnh nhân <span style=\"color:#ffd43b\"><b>40 tuổi</b></span> có đau trên rốn, ăn khó tiêu, đầy bụng và gầy sút — có được bỏ qua nội soi vì chưa tới 45–50 tuổi không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tuổi 45–50 trong sách là độ tuổi cần chú ý, <span style=\"color:#ff6b6b\"><b>không phải ngưỡng tuyệt đối</b></span>.<br>2) Vẫn phải cân nhắc nội soi khi triệu chứng kéo dài hay có <span style=\"color:#ff6b6b\"><b>dấu hiệu báo động</b></span>.<br>3) Bốn triệu chứng gợi ý cùng nhau là chỉ định <span style=\"color:#51cf66\"><b>nội soi kèm sinh thiết</b></span>, không phải chỉ điều trị triệu chứng rồi hẹn tái khám.<br><br><b>💡 Giải thích của AI:</b><br>Tuổi 45–50 là độ tuổi cần chú ý trong sách, không phải ngưỡng cắt để loại trừ; triệu chứng kéo dài hay dấu hiệu báo động ở người trẻ hơn vẫn phải nội soi.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.5 — tuổi 45–50 không phải ngưỡng tuyệt đối.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-061",
+      "note_id": 1793862975605,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Siêu âm nội soi</b></span> và <span style=\"color:#74c0fc\"><b>PET-CT</b></span> có vai trò gì trong ung thư dạ dày theo khối cập nhật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) JGCA bản 5 dùng <span style=\"color:#74c0fc\"><b>siêu âm nội soi</b></span> để đánh giá độ sâu xâm lấn trước cắt hớt nội soi, nhằm chẩn đoán lâm sàng giai đoạn <span style=\"color:#74c0fc\"><b>T1a</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>PET-CT</b></span> giúp đánh giá di căn xa.<br>3) Độ chính xác của siêu âm nội soi và PET-CT trong xếp giai đoạn (độ nhạy và độ đặc hiệu theo T và N) <span style=\"color:#ffd43b\"><b>không có nguồn nào được lấy trong dossier</b></span>, nên bài không dạy số độ chính xác nào.<br>4) Cả hai đều là phương tiện hỗ trợ, <span style=\"color:#ff6b6b\"><b>không thay thế sinh thiết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm nội soi giúp chọn bệnh nhân cho cắt hớt nội soi, còn PET-CT giúp đánh giá di căn xa; không ghi số chưa kiểm chứng cho độ chính xác của hai phương tiện này.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 5.6 — siêu âm nội soi và PET-CT; JGCA bản 5.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-062",
+      "note_id": 1793862975607,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phân loại <span style=\"color:#74c0fc\"><b>R0, R1, R2</b></span> của UICC 1992 là gì, và mục tiêu phẫu thuật triệt căn là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>R0 (No residual tumor)</b></span>: lấy bỏ triệt để ung thư cả về đại thể và vi thể.<br>2) <span style=\"color:#ffd43b\"><b>R1 (Microscopic residual tumor)</b></span>: lấy bỏ triệt để về đại thể nhưng vi thể còn mô ung thư.<br>3) <span style=\"color:#ff6b6b\"><b>R2 (Macroscopic residual tumor)</b></span>: cắt bỏ còn mô ung thư về đại thể.<br>4) Mục tiêu phẫu thuật triệt căn là <span style=\"color:#51cf66\"><b>R0</b></span>, tức là không còn mô ung thư cả về đại thể lẫn vi thể.<br><br><b>💡 Giải thích của AI:</b><br>Một bệnh nhân được mổ và diện cắt có tế bào ung thư trên vi thể thì trường hợp này là R1, cần điều trị bổ trợ thêm, không phải R0; phân loại R0, R1 và R2 của UICC 1992 vẫn dùng tới nay.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.1 — R0, R1, R2 theo UICC 1992.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-063",
+      "note_id": 1793862975609,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Phẫu thuật R1 là lấy bỏ triệt để về đại thể nhưng vi thể còn mô ung thư, ký hiệu {{c1::<span style=\"color:#ffd43b\"><b>Microscopic residual tumor</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 6.1 — R1, Microscopic residual tumor.",
+      "front": "Phẫu thuật R1 là lấy bỏ triệt để về đại thể nhưng vi thể còn mô ung thư, ký hiệu {{c1::<span style=\"color:#ffd43b\"><b>Microscopic residual tumor</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 6.1 — R1, Microscopic residual tumor."
+    },
+    {
+      "id": "SURG21-CARD-064",
+      "note_id": 1793862975611,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Các <span style=\"color:#51cf66\"><b>kỹ thuật mổ</b></span> ung thư dạ dày với kỳ vọng triệt căn theo sách gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cắt bán phần dạ dày cao, cắt cực trên dạ dày hay cắt toàn bộ dạ dày</b></span> kèm nạo vét hạch.<br>2) Cắt toàn bộ dạ dày có 2 loại: <span style=\"color:#51cf66\"><b>cắt toàn bộ theo yêu cầu</b></span> và <span style=\"color:#51cf66\"><b>cắt toàn bộ mở rộng</b></span>, tức là cắt bỏ dạ dày kèm các cơ quan bị di căn.<br>3) Đoạn giữa tr.22 về Nhật Bản và Việt Nam bị mờ, đọc không trọn vẹn — bài giữ nguyên marker <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC]</b></span> và chỉ ghi đại ý đã đọc được, <span style=\"color:#ff6b6b\"><b>không tự điền phần thiếu</b></span>.<br>4) Đoạn cuối phần này trong sách viết vắn tắt về tỉ lệ chẩn đoán sớm còn thấp, bài giữ nguyên đúng như transcript, <span style=\"color:#ff6b6b\"><b>không tự viết lại cho trôi chảy</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải lưu ý đoạn mờ ở giữa trang không đọc được trọn vẹn, và bài không tự điền phần thiếu, mà chỉ ghi đại ý đã đọc được và giữ nguyên marker [KHÔNG CHẮC].<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.2 — kỹ thuật mổ theo sách, đoạn mờ [KHÔNG CHẮC].",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-065",
+      "note_id": 1793862975613,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>Hà Lan</b></span> so sánh nạo vét D1 và D2 cho kết quả gì sau 15,2 năm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 711 bệnh nhân: sống thêm toàn bộ 15 năm <span style=\"color:#ffd43b\"><b>21% với D1 so với 29% với D2</b></span>, p = 0,34, <span style=\"color:#ffd43b\"><b>không khác biệt có ý nghĩa</b></span>.<br>2) Tử vong do ung thư dạ dày <span style=\"color:#51cf66\"><b>48% so với 37%, thấp hơn với D2</b></span>; tái phát tại chỗ <span style=\"color:#51cf66\"><b>22% so với 12%</b></span>, tái phát vùng <span style=\"color:#51cf66\"><b>19% so với 13%</b></span>.<br>3) Đổi lại, tử vong sau mổ với D2 là <span style=\"color:#ff6b6b\"><b>10% so với 4%, p = 0,004</b></span>; biến chứng <span style=\"color:#ff6b6b\"><b>43% so với 25%</b></span>; mổ lại <span style=\"color:#ff6b6b\"><b>18% so với 8%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lợi ích của D2 nằm ở kiểm soát tại chỗ và tử vong do ung thư, không phải sống thêm toàn bộ trong thử nghiệm cũ — điểm này được dạy lại như một bẫy ở thẻ sau.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — thử nghiệm Hà Lan D1/D2, theo dõi 15,2 năm.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-066",
+      "note_id": 1793862975615,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>MRC</b></span> so sánh D1 và D2 cho kết quả gì, và bài học về cắt tụy–lách là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 400 bệnh nhân: tử vong sau mổ với D2 là <span style=\"color:#ff6b6b\"><b>13% so với 6,5%, p = 0,04</b></span>; biến chứng <span style=\"color:#ff6b6b\"><b>46% so với 28%, p dưới 0,001</b></span>.<br>2) Bất lợi này phần lớn do <span style=\"color:#ff6b6b\"><b>cắt tụy và lách kèm theo</b></span>; sống thêm trên 3 năm là <span style=\"color:#ffd43b\"><b>30% nếu cắt tụy và lách en bloc so với 50% nếu không cắt</b></span>.<br>3) Bài học: D2 <span style=\"color:#51cf66\"><b>không kèm cắt tụy và lách thường quy</b></span>; D2 chuẩn hiện nay là <span style=\"color:#51cf66\"><b>D2 bảo tồn tụy và lách</b></span>, không phải D2 kiểu cũ kèm cắt tụy và lách.<br><br><b>💡 Giải thích của AI:</b><br>Sách nêu cắt toàn bộ dạ dày kèm nạo vét hạch, và bằng chứng hiện tại làm rõ nạo vét hạch D2 cụ thể là gì: D2 bảo tồn tụy và lách, không phải D2 kiểu cũ kèm cắt tụy và lách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — thử nghiệm MRC D1/D2, bài học cắt tụy–lách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-067",
+      "note_id": 1793862975617,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>KLASS-01</b></span> về mổ nội soi cắt đoạn xa cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 1.416 bệnh nhân ung thư dạ dày sớm: <span style=\"color:#51cf66\"><b>cắt đoạn xa nội soi so với mổ mở</b></span>.<br>2) Sống thêm 5 năm <span style=\"color:#ffd43b\"><b>94,2% so với 93,3%, p = 0,64</b></span>, <span style=\"color:#51cf66\"><b>không thua kém với biên không thua kém trừ 5%</b></span>.<br>3) Sống thêm đặc hiệu ung thư <span style=\"color:#ffd43b\"><b>97,1% so với 97,2%</b></span>; nghiên cứu ngắn hạn cùng thử nghiệm ghi nhận cắt đoạn xa nội soi <span style=\"color:#51cf66\"><b>giảm biến chứng sau mổ</b></span>.<br>4) Quyết định mổ nội soi hay mổ mở phụ thuộc <span style=\"color:#74c0fc\"><b>giai đoạn, vị trí u, và kinh nghiệm của cơ sở</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mổ nội soi không thua kém mổ mở về sống thêm 5 năm ở ung thư dạ dày sớm; đây là bằng chứng cập nhật cho phần kỹ thuật mổ trong sách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — thử nghiệm KLASS-01, mổ nội soi.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-068",
+      "note_id": 1793862975619,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> nạo vét <span style=\"color:#74c0fc\"><b>D2</b></span> có làm bệnh nhân sống lâu hơn không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong thử nghiệm Hà Lan 15 năm, sống thêm toàn bộ <span style=\"color:#ffd43b\"><b>không khác biệt có ý nghĩa (21% so với 29%, p = 0,34)</b></span>.<br>2) Lợi ích của D2 nằm ở <span style=\"color:#51cf66\"><b>kiểm soát tại chỗ và tử vong do ung thư</b></span> (tử vong do ung thư 48% so với 37%; tái phát tại chỗ 22% so với 12%), đổi bằng tử vong sau mổ và biến chứng cao hơn.<br>3) <span style=\"color:#ff6b6b\"><b>Không dạy D2 luôn làm sống lâu hơn</b></span>; D2 chuẩn hiện nay là <span style=\"color:#51cf66\"><b>D2 bảo tồn tụy và lách</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn D2 là một trong mười mâu thuẫn phải dạy đủ hai phía: lợi ích kiểm soát tại chỗ và tử vong do ung thư, đánh đổi bằng tử vong sau mổ cao hơn trong thử nghiệm cũ dùng D2 kèm cắt tụy và lách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 và 10.1 — mâu thuẫn nạo vét D2.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-069",
+      "note_id": 1793862975621,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế <span style=\"color:#51cf66\"><b>hoá chất quanh mổ → diệt vi di căn → R0 → sống thêm</b></span> diễn ra thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hoá chất quanh mổ diệt tế bào ung thư <span style=\"color:#74c0fc\"><b>vi di căn</b></span> trước khi mổ và sau khi mổ, trong khi phẫu thuật chỉ lấy bỏ khối u nhìn thấy được.<br>2) Hoá chất làm <span style=\"color:#51cf66\"><b>thu nhỏ khối u</b></span> và diệt tế bào ung thư đã lan vào mạch bạch huyết hay mạch máu nhưng chưa thấy trên hình ảnh.<br>3) Bệnh nhân có khối u <span style=\"color:#74c0fc\"><b>tiến triển tại chỗ nhưng chưa di căn xa</b></span> là đối tượng của hoá chất quanh mổ, và cần đánh giá đáp ứng trước khi mổ.<br>4) Tỉ lệ cắt <span style=\"color:#51cf66\"><b>R0 cao hơn và sống thêm dài hơn</b></span> so với mổ đơn thuần, như các thử nghiệm MAGIC và FLOT đã chứng minh.<br><br><b>💡 Giải thích của AI:</b><br>Quyết định là chọn phác đồ quanh mổ theo mô học và thể trạng, hoàn thành đủ chu kỳ trước mổ, và mổ triệt căn với nạo vét hạch D2 bảo tồn tụy và lách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — Chuỗi 5, hoá chất quanh mổ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-070",
+      "note_id": 1793862975623,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Mổ nội soi cắt đoạn xa cho ung thư dạ dày sớm có sống thêm 5 năm {{c1::<span style=\"color:#ffd43b\"><b>94,2% so với 93,3%</b></span>}} so với mổ mở trong KLASS-01.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — KLASS-01, sống 5 năm 94,2% so với 93,3%.",
+      "front": "Mổ nội soi cắt đoạn xa cho ung thư dạ dày sớm có sống thêm 5 năm {{c1::<span style=\"color:#ffd43b\"><b>94,2% so với 93,3%</b></span>}} so với mổ mở trong KLASS-01.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 6.3 — KLASS-01, sống 5 năm 94,2% so với 93,3%."
+    },
+    {
+      "id": "SURG21-CARD-071",
+      "note_id": 1793862975625,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phác đồ <span style=\"color:#51cf66\"><b>ELF và PC</b></span> trong sách gồm những liều nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đa hoá trị; phối hợp có <span style=\"color:#51cf66\"><b>5-FU</b></span> được coi là nhiều hứa hẹn nhất vì tỉ lệ đáp ứng cao và cải thiện thời gian sống thêm rõ rệt.<br>2) ELF: <span style=\"color:#51cf66\"><b>etoposide 120 mg/m2, leucovorin 300 mg/m2, 5-fluorouracil 500 mg/m2</b></span>, truyền tĩnh mạch, chu kỳ <span style=\"color:#ffd43b\"><b>21 ngày, 6 đợt, mỗi đợt 3 ngày</b></span>.<br>3) PC: <span style=\"color:#51cf66\"><b>paclitaxel 175 mg/m2, cisplatin 75 mg/m2</b></span> truyền tĩnh mạch, ngày 1, chu kỳ 21 ngày; ngoài ra còn <span style=\"color:#74c0fc\"><b>EAP, FAM</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Liều ELF và liều PC trong sách được giữ nguyên toàn bộ, vì đây là tài liệu thi, và khối cập nhật sau đây ghi rõ ELF đã lỗi thời và phác đồ thay thế là gì, không tự sửa liều trong sách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.1 — phác đồ ELF và PC theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-072",
+      "note_id": 1793862975627,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu <span style=\"color:#74c0fc\"><b>Bệnh viện K KC 10.06</b></span> về ELF cho kết quả gì, và lưu ý gì về con số này?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đề tài cấp nhà nước KC 10.06, tổng kết năm 2005: dùng ELF (etoposide, leucovorin, 5-FU) điều trị ung thư dạ dày tiên tiến, <span style=\"color:#ffd43b\"><b>sống sau 3 năm là 63,36%</b></span>.<br>2) Kết quả được giữ nguyên là chữ gốc và <span style=\"color:#ffd43b\"><b>chưa kiểm chứng độc lập</b></span> trong dossier này.<br>3) <span style=\"color:#ff6b6b\"><b>Không được trình bày con số này như kết quả đã kiểm chứng độc lập.</b></span><br><br><b>💡 Giải thích của AI:</b><br>Nghiên cứu Bệnh viện K là số liệu của sách; không có nguồn cập nhật nào trong tập đã đọc để kiểm chứng độc lập, nên bài giữ nguyên chữ gốc và ghi rõ nguồn là sách.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.1 — nghiên cứu Bệnh viện K KC 10.06.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-073",
+      "note_id": 1793862975629,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> trình bày phác đồ <span style=\"color:#51cf66\"><b>ELF</b></span> như chuẩn hoá chất hiện hành cho ung thư dạ dày — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai</b></span> — ELF đã lỗi thời; <span style=\"color:#51cf66\"><b>FLOT là chuẩn quanh mổ</b></span> hiện nay, <span style=\"color:#51cf66\"><b>S-1 và CAPOX là chuẩn bổ trợ sau D2</b></span>.<br>2) Liều ELF trong sách được giữ nguyên vì đây là tài liệu thi, và khối cập nhật ghi rõ ELF đã lỗi thời cùng phác đồ thay thế.<br>3) <span style=\"color:#ff6b6b\"><b>Không tự sửa liều trong sách</b></span>, nhưng cũng <span style=\"color:#ff6b6b\"><b>không dạy ELF như chuẩn hiện hành</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn ELF so với FLOT, S-1 và CAPOX là một trong mười mâu thuẫn của bài: giữ nguyên liều ELF trong chữ gốc vì thi, và khối cập nhật ghi rõ ELF đã lỗi thời cùng phác đồ thay thế.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.1 và 10.1 — ELF lỗi thời, FLOT thay thế.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-074",
+      "note_id": 1793862975631,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Nghiên cứu Bệnh viện K KC 10.06 ghi nhận sống sau 3 năm với ELF là {{c1::<span style=\"color:#ffd43b\"><b>63,36%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.1 — Bệnh viện K, sống 3 năm 63,36%.",
+      "front": "Nghiên cứu Bệnh viện K KC 10.06 ghi nhận sống sau 3 năm với ELF là {{c1::<span style=\"color:#ffd43b\"><b>63,36%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.1 — Bệnh viện K, sống 3 năm 63,36%."
+    },
+    {
+      "id": "SURG21-CARD-075",
+      "note_id": 1793862975633,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>MAGIC</b></span> về hoá trị quanh mổ cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 503 bệnh nhân ung thư biểu mô tuyến dạ dày, nối dạ dày–thực quản và thực quản dưới: hoá trị quanh mổ <span style=\"color:#51cf66\"><b>ECF 3 chu kỳ trước và 3 chu kỳ sau mổ</b></span> so với mổ đơn thuần.<br>2) Sống 5 năm <span style=\"color:#ffd43b\"><b>36% so với 23%</b></span>; tỉ số nguy cơ tử vong <span style=\"color:#51cf66\"><b>0,75</b></span>; tỉ số nguy cơ tiến triển <span style=\"color:#51cf66\"><b>0,66</b></span>; biến chứng sau mổ tương tự nhau.<br>3) Liều ECF trong thử nghiệm: <span style=\"color:#51cf66\"><b>epirubicin 50 mg/m2 và cisplatin 60 mg/m2 ngày 1, cùng 5-FU 200 mg/m2 mỗi ngày truyền liên tục 21 ngày</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>MAGIC chứng minh nguyên tắc hoá trị quanh mổ cho biểu mô tuyến; liều ECF trong thử nghiệm chỉ dạy ở mức liều trong thử nghiệm, không trình bày thành phác đồ guideline.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.2 — thử nghiệm MAGIC; PMID 16822992.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-076",
+      "note_id": 1793862975635,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>FLOT4</b></span> so sánh FLOT với ECF/ECX cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 716 bệnh nhân biểu mô tuyến dạ dày hay nối dạ dày–thực quản tiến triển tại chỗ có thể mổ: FLOT quanh mổ <span style=\"color:#51cf66\"><b>4 chu kỳ trước và 4 chu kỳ sau</b></span> so với ECF hay ECX.<br>2) Sống toàn bộ trung vị <span style=\"color:#ffd43b\"><b>50 tháng so với 35 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,77</b></span>; tác dụng phụ nghiêm trọng tương đương nhau ở <span style=\"color:#ffd43b\"><b>27% cả hai nhóm</b></span>.<br>3) Liều FLOT trong thử nghiệm: <span style=\"color:#51cf66\"><b>docetaxel 50, oxaliplatin 85, leucovorin 200, và 5-FU 2600 mg/m2 truyền 24 giờ ngày 1, mỗi 2 tuần</b></span>, nhân 4 chu kỳ trước và 4 chu kỳ sau mổ.<br>4) <span style=\"color:#51cf66\"><b>FLOT là phác đồ quanh mổ chuẩn hiện nay, thay ECF.</b></span><br><br><b>💡 Giải thích của AI:</b><br>FLOT cải thiện sống thêm toàn bộ so với ECF/ECX; liều trong thử nghiệm chỉ dạy ở mức liều trong thử nghiệm và phải đối chiếu phác đồ hiện hành của cơ sở trước khi áp dụng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.2 — thử nghiệm FLOT4; PMID 30982686.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-077",
+      "note_id": 1793862975637,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tổng quan <span style=\"color:#74c0fc\"><b>Cochrane 2013</b></span> về hoá chất quanh mổ cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 14 thử nghiệm ngẫu nhiên, 2.422 bệnh nhân ung thư dạ dày và thực quản: hoá chất quanh mổ cải thiện sống thêm toàn bộ, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,81</b></span> — tức là tăng sống thêm tương đối <span style=\"color:#51cf66\"><b>19%</b></span> và tuyệt đối <span style=\"color:#51cf66\"><b>9% ở 5 năm</b></span>.<br>2) Dữ liệu cá thể chỉ có cho <span style=\"color:#ffd43b\"><b>8 thử nghiệm và 1.049 bệnh nhân</b></span>.<br>3) Liều trong các thử nghiệm chỉ dạy ở mức liều trong thử nghiệm, <span style=\"color:#ff6b6b\"><b>không trình bày thành phác đồ guideline</b></span>; phải đối chiếu phác đồ hiện hành của cơ sở trước khi áp dụng.<br><br><b>💡 Giải thích của AI:</b><br>Cochrane 2013 là tổng quan đã cũ và được dùng kèm điểm tựa là các thử nghiệm mới hơn trong cùng danh sách — MAGIC và FLOT4.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.2 — Cochrane 2013 hoá chất quanh mổ; PMID 23728671.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-078",
+      "note_id": 1793862975639,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong FLOT4, sống toàn bộ trung vị với FLOT là {{c1::<span style=\"color:#ffd43b\"><b>50 tháng so với 35 tháng</b></span>}} với ECF/ECX.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.2 — FLOT4, sống trung vị 50 so với 35 tháng.",
+      "front": "Trong FLOT4, sống toàn bộ trung vị với FLOT là {{c1::<span style=\"color:#ffd43b\"><b>50 tháng so với 35 tháng</b></span>}} với ECF/ECX.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.2 — FLOT4, sống trung vị 50 so với 35 tháng."
+    },
+    {
+      "id": "SURG21-CARD-079",
+      "note_id": 1793862975641,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>ACTS-GC</b></span> về S-1 bổ trợ sau cắt D2 cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân Nhật giai đoạn II–III sau cắt D2: <span style=\"color:#51cf66\"><b>S-1 bổ trợ 1 năm</b></span> so với theo dõi.<br>2) Liều S-1 trong thử nghiệm: <span style=\"color:#51cf66\"><b>80 mg/m2 mỗi ngày uống 4 tuần nghỉ 2 tuần, chu kỳ 6 tuần nhân 1 năm, bắt đầu trong 6 tuần sau mổ</b></span>.<br>3) Sống thêm 3 năm <span style=\"color:#ffd43b\"><b>80,1% so với 70,1%</b></span>, tỉ số nguy cơ tử vong <span style=\"color:#51cf66\"><b>0,68</b></span>; tác dụng phụ độ 3–4 thường gặp: chán ăn <span style=\"color:#ff6b6b\"><b>6,0%</b></span>, buồn nôn <span style=\"color:#ff6b6b\"><b>3,7%</b></span>, tiêu chảy <span style=\"color:#ff6b6b\"><b>3,1%</b></span>.<br>4) Theo dõi 5 năm xác nhận lợi ích S-1 bền vững; quần thể nghiên cứu là <span style=\"color:#74c0fc\"><b>Đông Á</b></span>, không ngoại suy liều S-1 sang mọi quần thể mà không đối chiếu.<br><br><b>💡 Giải thích của AI:</b><br>Sách không trình bày hoá chất bổ trợ sau cắt dạ dày triệt căn; khối này bổ sung hai phác đồ bổ trợ sau nạo vét D2 là S-1 và CAPOX.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.3 — thử nghiệm ACTS-GC; PMID 17978289.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-080",
+      "note_id": 1793862975643,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>CLASSIC</b></span> về CAPOX bổ trợ sau cắt D2 cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 1.035 bệnh nhân giai đoạn II–IIIB sau cắt D2: <span style=\"color:#51cf66\"><b>CAPOX bổ trợ</b></span> so với theo dõi.<br>2) Liều CAPOX trong thử nghiệm: <span style=\"color:#51cf66\"><b>capecitabine 1000 mg/m2 × 2 lần ngày 1–14 và oxaliplatin 130 mg/m2 ngày 1, chu kỳ 3 tuần nhân 8 đợt trong 6 tháng</b></span>.<br>3) Sống không bệnh 5 năm <span style=\"color:#ffd43b\"><b>68% so với 53%</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,58</b></span>; sống thêm 5 năm <span style=\"color:#ffd43b\"><b>78% so với 69%</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,66</b></span>.<br>4) Phân biệt <span style=\"color:#74c0fc\"><b>hoá chất quanh mổ</b></span> (trước và sau mổ cho bệnh tiến triển tại chỗ) với <span style=\"color:#74c0fc\"><b>hoá chất bổ trợ</b></span> (sau mổ triệt căn cho giai đoạn II–III); hai chiến lược <span style=\"color:#ff6b6b\"><b>không thay thế cho nhau</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>S-1 ở Nhật và CAPOX là hai phác đồ bổ trợ sau D2; liều trong thử nghiệm chỉ dạy ở mức liều trong thử nghiệm, không trình bày thành phác đồ guideline.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.3 — thử nghiệm CLASSIC, CAPOX bổ trợ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-081",
+      "note_id": 1793862975645,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong ACTS-GC, sống thêm 3 năm với S-1 bổ trợ là {{c1::<span style=\"color:#ffd43b\"><b>80,1% so với 70,1%</b></span>}} so với theo dõi.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.3 — ACTS-GC, sống 3 năm 80,1% so với 70,1%.",
+      "front": "Trong ACTS-GC, sống thêm 3 năm với S-1 bổ trợ là {{c1::<span style=\"color:#ffd43b\"><b>80,1% so với 70,1%</b></span>}} so với theo dõi.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.3 — ACTS-GC, sống 3 năm 80,1% so với 70,1%."
+    },
+    {
+      "id": "SURG21-CARD-082",
+      "note_id": 1793862975647,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>INT-0116</b></span> về hoá xạ bổ trợ cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 556 bệnh nhân sau cắt dạ dày hay hợp lưu: <span style=\"color:#51cf66\"><b>hoá xạ bổ trợ</b></span> so với mổ đơn thuần.<br>2) Phác đồ: <span style=\"color:#51cf66\"><b>5-FU 425 mg/m2 mỗi ngày và leucovorin 20 mg/m2 mỗi ngày × 5 ngày, rồi xạ 4500 cGy với 180 cGy mỗi ngày × 5 tuần kèm 5-FU và leucovorin, rồi 2 chu kỳ 5-FU và leucovorin nữa</b></span>.<br>3) Sống thêm trung vị <span style=\"color:#ffd43b\"><b>36 tháng so với 27 tháng</b></span>; tỉ số nguy cơ tử vong 1,35 tính theo nhóm mổ đơn thuần; tỉ số nguy cơ tái phát 1,52.<br>4) Độc tính độ 3 là <span style=\"color:#ff6b6b\"><b>41%</b></span>, độ 4 là <span style=\"color:#ff6b6b\"><b>32%</b></span>, <span style=\"color:#ff6b6b\"><b>1% tử vong do độc tính</b></span>.<br>5) INT-0116 thực hiện trong bối cảnh <span style=\"color:#ffd43b\"><b>nạo vét hạch hạn chế</b></span>; tỉ lệ nạo vét D2 thường được trích khoảng 10% nhưng <span style=\"color:#ff6b6b\"><b>không có trong abstract đã đọc</b></span>, nên bài không khẳng định tỉ lệ đó từ abstract.<br><br><b>💡 Giải thích của AI:</b><br>INT-0116 cho lợi ích sống thêm rõ rệt nhưng trong bối cảnh nạo vét hạch hạn chế — đây là một phía của mâu thuẫn hoá xạ bổ trợ, phải dạy đủ ba thử nghiệm, không chọn một phía.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.4 — thử nghiệm INT-0116; PMID 11547741.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-083",
+      "note_id": 1793862975649,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>ARTIST</b></span> và <span style=\"color:#74c0fc\"><b>CRITICS</b></span> về hoá xạ bổ trợ cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ARTIST (2012, sau cắt D2): hoá xạ bổ trợ so với hoá chất đơn thuần — <span style=\"color:#ffd43b\"><b>không cải thiện sống không bệnh chung</b></span>, nhưng phân nhóm có di căn hạch (396 bệnh nhân) thì sống không bệnh tốt hơn với hoá xạ, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,6865</b></span>.<br>2) CRITICS (2018, 788 bệnh nhân): hoá chất trước mổ rồi ngẫu nhiên hoá xạ sau mổ hay hoá chất sau mổ — sống thêm trung vị <span style=\"color:#ffd43b\"><b>37 tháng so với 43 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#ffd43b\"><b>1,01, không có ý nghĩa</b></span>; chỉ <span style=\"color:#ff6b6b\"><b>59–62% bệnh nhân bắt đầu được điều trị sau mổ</b></span>.<br>3) Kết luận: hoá xạ sau mổ <span style=\"color:#ff6b6b\"><b>không cải thiện sống thêm khi đã có hoá chất trước mổ và phẫu thuật đầy đủ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>ARTIST và CRITICS là hai phía còn lại của mâu thuẫn hoá xạ bổ trợ; giá trị hoá xạ phụ thuộc mức độ nạo vét hạch và đã có hoá chất quanh mổ hay chưa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.4 — thử nghiệm ARTIST và CRITICS.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-084",
+      "note_id": 1793862975651,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Giá trị của <span style=\"color:#51cf66\"><b>hoá xạ bổ trợ</b></span> phụ thuộc vào những yếu tố nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phụ thuộc <span style=\"color:#74c0fc\"><b>mức độ nạo vét hạch</b></span>: INT-0116 có lợi trong bối cảnh nạo vét hạn chế; ARTIST sau D2 không có lợi chung, chỉ phân nhóm hạch dương có thể có lợi.<br>2) Phụ thuộc <span style=\"color:#74c0fc\"><b>đã có hoá chất quanh mổ hay chưa</b></span>: CRITICS cho thấy sau hoá chất trước mổ và phẫu thuật đầy đủ, hoá xạ sau mổ không hơn hoá chất sau mổ.<br>3) <span style=\"color:#ff6b6b\"><b>Không dạy hoá xạ luôn tốt hay hoá xạ vô ích</b></span> — phải dạy đủ ba thử nghiệm, không chọn một phía.<br><br><b>💡 Giải thích của AI:</b><br>Hoá xạ bổ trợ là chủ đề mâu thuẫn nhất trong điều trị ung thư dạ dày; người học phải dạy rằng giá trị hoá xạ phụ thuộc mức độ nạo vét hạch và đã có hoá chất quanh mổ hay chưa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.4 và 10.1 — mâu thuẫn hoá xạ bổ trợ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-085",
+      "note_id": 1793862975653,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong INT-0116, sống thêm trung vị với hoá xạ bổ trợ là {{c1::<span style=\"color:#ffd43b\"><b>36 tháng so với 27 tháng</b></span>}} so với mổ đơn thuần.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.4 — INT-0116, sống trung vị 36 so với 27 tháng.",
+      "front": "Trong INT-0116, sống thêm trung vị với hoá xạ bổ trợ là {{c1::<span style=\"color:#ffd43b\"><b>36 tháng so với 27 tháng</b></span>}} so với mổ đơn thuần.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 7.4 — INT-0116, sống trung vị 36 so với 27 tháng."
+    },
+    {
+      "id": "SURG21-CARD-086",
+      "note_id": 1793862975655,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "⚡ Thuật toán: bệnh nhân ung thư dạ dày có <span style=\"color:#ff6b6b\"><b>nôn máu, đau bụng dữ dội đột ngột nghi thủng, hay nôn liên tục nghi hẹp môn vị</b></span> — bước đầu tiên là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là <span style=\"color:#ff6b6b\"><b>nhánh cấp cứu</b></span>: hồi sức, đánh giá khẩn, xử trí biến chứng trước.<br>2) <span style=\"color:#ff6b6b\"><b>Không chờ điều trị triệt căn theo lịch thường.</b></span><br>3) Mọi nhánh cấp cứu đều đi trước nhánh thường quy; <span style=\"color:#ff6b6b\"><b>không có bước thường quy nào được phép bỏ qua BOX ĐỎ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Nhánh cấp cứu trong lưu đồ nối trực tiếp với BOX ĐỎ ở phần 4.3: nôn máu do khối u loét chảy máu, đau dữ dội do thủng, nôn liên tục do hẹp môn vị — xử trí biến chứng là ưu tiên trước điều trị triệt căn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.5 — lưu đồ, nhánh cấp cứu.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-087",
+      "note_id": 1793862975657,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "⚡ Thuật toán: ung thư sớm khu trú niêm mạc (<span style=\"color:#74c0fc\"><b>T1a</b></span>) thì cắt hớt hay mổ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>T1a</b></span> — khu trú niêm mạc: <span style=\"color:#51cf66\"><b>cắt hớt nội soi (EMR/ESD) theo chỉ định JGCA</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>T1b</b></span> — đã xuống dưới niêm mạc: <span style=\"color:#51cf66\"><b>nên mổ</b></span>, vì nguy cơ hạch cao hơn.<br>3) Quyết định dựa trên <span style=\"color:#74c0fc\"><b>độ sâu xâm lấn</b></span> cùng chỉ định tuyệt đối, mở rộng và tương đối của JGCA; siêu âm nội soi đánh giá độ sâu trước cắt hớt.<br><br><b>💡 Giải thích của AI:</b><br>Tổn thương T1a có nguy cơ di căn hạch dưới 1%, trong khi T1b xâm lấn mạch bạch huyết nên nguy cơ hạch cao hơn — độ sâu xâm lấn là điểm phân nhánh của lưu đồ.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.5 — lưu đồ, ung thư sớm T1a/T1b.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-088",
+      "note_id": 1793862975659,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "⚡ Thuật toán: ung thư <span style=\"color:#74c0fc\"><b>tiến triển tại chỗ, có thể mổ, chưa di căn xa</b></span> — điều trị theo trình tự nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hội chẩn đa chuyên khoa.</b></span><br>2) Hoá chất quanh mổ <span style=\"color:#51cf66\"><b>FLOT (chuẩn hiện nay)</b></span> hoặc ECF (MAGIC, đã cũ), rồi <span style=\"color:#51cf66\"><b>mổ triệt căn R0 + nạo vét D2 bảo tồn tụy–lách</b></span>.<br>3) Sau mổ: <span style=\"color:#51cf66\"><b>S-1 (Đông Á) hoặc CAPOX bổ trợ</b></span>.<br>4) Hoá xạ bổ trợ: cân nhắc khi <span style=\"color:#ffd43b\"><b>nạo vét hạn chế hoặc có hạch dương (ARTIST)</b></span>; <span style=\"color:#ff6b6b\"><b>không thêm khi đã có hoá chất quanh mổ đầy đủ (CRITICS)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trình tự đa mô thức là chuẩn cho bệnh tiến triển tại chỗ: hoá chất quanh mổ trước, mổ triệt căn với D2 bảo tồn, rồi bổ trợ sau mổ — quyết định cuối cùng theo hội chẩn, không theo một thử nghiệm duy nhất.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.5 — lưu đồ, tiến triển tại chỗ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-089",
+      "note_id": 1793862975661,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "⚡ Thuật toán: ung thư dạ dày <span style=\"color:#ff6b6b\"><b>di căn xa hoặc không mổ được</b></span> — điều trị thế nào, và kế hoạch A khác kế hoạch B ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hoá chất toàn thân ± miễn dịch/đích theo HER2, PD-L1, CLDN18.2</b></span>; <span style=\"color:#51cf66\"><b>chăm sóc giảm nhẹ song song</b></span>.<br>2) Kế hoạch A (đủ nguồn lực): chẩn đoán giai đoạn đầy đủ (<span style=\"color:#74c0fc\"><b>CT + EUS ± PET</b></span>), hội chẩn đa chuyên khoa, đa mô thức theo giai đoạn, xét nghiệm HER2/PD-L1/CLDN18.2.<br>3) Kế hoạch B (nguồn lực hạn chế): chẩn đoán mô học + CT, mổ khi có thể, hoá chất quanh mổ khi có thể, giảm nhẹ biến chứng, hỗ trợ dinh dưỡng.<br>4) <span style=\"color:#ff6b6b\"><b>Không bỏ bước chẩn đoán giai đoạn</b></span> trong cả hai kế hoạch.<br><br><b>💡 Giải thích của AI:</b><br>Kế hoạch A và B khác nhau ở mức nguồn lực, không khác nhau ở nguyên tắc: luôn chẩn đoán giai đoạn đầy đủ trước khi chọn chiến lược, và luôn giảm nhẹ song song khi bệnh đã di căn xa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 7.5 — lưu đồ, di căn xa và kế hoạch A/B.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-090",
+      "note_id": 1793862975663,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Phần <span style=\"color:#74c0fc\"><b>7.3 trong sách</b></span> chỉ có tiêu đề, không có nội dung — điều này nói lên gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phần 7.3 chỉ có tiêu đề <span style=\"color:#74c0fc\"><b>Miễn dịch trị liệu trong ung thư (Immunotherapy)</b></span>, <span style=\"color:#ff6b6b\"><b>không có nội dung nào</b></span> sau tiêu đề; bài giữ nguyên tiêu đề trống đó đúng như trong sách.<br>2) Khi sách được viết, miễn dịch trị liệu còn là <span style=\"color:#ffd43b\"><b>hướng nghiên cứu</b></span>.<br>3) Nay miễn dịch cùng đích phân tử đã là <span style=\"color:#51cf66\"><b>chuẩn điều trị tuyến đầu</b></span> cho bệnh không cắt được và di căn, như các khối cập nhật ở phần 8 trình bày.<br><br><b>💡 Giải thích của AI:</b><br>Khoảng trống của sách và phần mới lấp vào chỗ đó được thấy rõ khi đặt tiêu đề trống cạnh các khối cập nhật: mục trống trong sách nay là chuẩn điều trị.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.1 — tiêu đề trống 7.3.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-091",
+      "note_id": 1793862975665,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>CheckMate 649</b></span> về nivolumab tuyến đầu cho HER2 âm tính cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 1.581 bệnh nhân HER2 âm tính, chưa điều trị, không cắt được hay di căn: <span style=\"color:#51cf66\"><b>nivolumab kèm hoá chất</b></span> so với hoá chất đơn thuần.<br>2) Nhóm PD-L1 CPS từ 5 trở lên: tỉ số nguy cơ sống thêm toàn bộ <span style=\"color:#51cf66\"><b>0,71</b></span> và tỉ số nguy cơ sống không tiến triển <span style=\"color:#51cf66\"><b>0,68</b></span>.<br>3) Lợi ích sống thêm toàn bộ cũng có ở nhóm <span style=\"color:#74c0fc\"><b>CPS từ 1 trở lên và toàn bộ quần thể</b></span>.<br>4) Liều nivolumab trong thử nghiệm: <span style=\"color:#51cf66\"><b>360 mg mỗi 3 tuần hoặc 240 mg mỗi 2 tuần kèm hoá chất XELOX hoặc FOLFOX</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Lợi ích miễn dịch tuyến đầu phụ thuộc PD-L1, và xét nghiệm PD-L1 có ý nghĩa chọn bệnh nhân, không phải miễn dịch có lợi như nhau cho mọi người.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.2 — thử nghiệm CheckMate 649; PMID 34102137.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-092",
+      "note_id": 1793862975667,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>KEYNOTE-859</b></span> về pembrolizumab tuyến đầu cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 1.579 bệnh nhân HER2 âm tính: <span style=\"color:#51cf66\"><b>pembrolizumab kèm hoá chất tuyến đầu</b></span> so với hoá chất đơn thuần.<br>2) Sống thêm toàn bộ ở toàn bộ bệnh nhân: <span style=\"color:#ffd43b\"><b>12,9 tháng so với 11,5 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,78</b></span>.<br>3) Nhóm CPS từ 10 trở lên: <span style=\"color:#ffd43b\"><b>15,7 tháng so với 11,8 tháng</b></span>; nhóm CPS từ 1 trở lên: <span style=\"color:#ffd43b\"><b>13,0 tháng so với 11,4 tháng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>KEYNOTE-859 đa quốc gia cho sống thêm toàn bộ cải thiện, củng cố bức tranh miễn dịch tuyến đầu — đối lập với ATTRACTION-4 ở châu Á, được dạy ở thẻ tiếp theo.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.2 — thử nghiệm KEYNOTE-859.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-093",
+      "note_id": 1793862975669,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>ATTRACTION-4</b></span> mâu thuẫn với CheckMate 649 thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ATTRACTION-4 ở bệnh nhân <span style=\"color:#74c0fc\"><b>châu Á</b></span>: nivolumab kèm hoá chất oxaliplatin so với hoá chất đơn thuần.<br>2) Sống không tiến triển cải thiện: <span style=\"color:#ffd43b\"><b>10,45 tháng so với 8,34 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,68</b></span> — nhưng sống thêm toàn bộ <span style=\"color:#ff6b6b\"><b>không cải thiện</b></span>: <span style=\"color:#ffd43b\"><b>17,45 tháng so với 17,15 tháng</b></span>, tỉ số nguy cơ 0,90.<br>3) <span style=\"color:#ff6b6b\"><b>Mâu thuẫn trực tiếp với CheckMate 649</b></span>; phải dạy đủ hai phía, với khác biệt quần thể và phác đồ nền.<br>4) KEYNOTE-859 đa quốc gia lại cho sống thêm toàn bộ cải thiện, nên <span style=\"color:#ffd43b\"><b>bức tranh chưa thống nhất tuyệt đối</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn nivolumab toàn cầu so với châu Á là một trong mười mâu thuẫn của bài; người học phải dạy khác biệt quần thể và phác đồ nền, không chọn một phía.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.2 — thử nghiệm ATTRACTION-4, mâu thuẫn với CheckMate 649.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-094",
+      "note_id": 1793862975671,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Ở nhóm PD-L1 CPS từ 5 trở lên trong CheckMate 649, tỉ số nguy cơ sống thêm toàn bộ với nivolumab là {{c1::<span style=\"color:#ffd43b\"><b>0,71</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 8.2 — CheckMate 649, tỉ số nguy cơ 0,71.",
+      "front": "Ở nhóm PD-L1 CPS từ 5 trở lên trong CheckMate 649, tỉ số nguy cơ sống thêm toàn bộ với nivolumab là {{c1::<span style=\"color:#ffd43b\"><b>0,71</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 8.2 — CheckMate 649, tỉ số nguy cơ 0,71."
+    },
+    {
+      "id": "SURG21-CARD-095",
+      "note_id": 1793862975673,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>ToGA</b></span> về trastuzumab cho HER2 dương tính cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân HER2 dương tính (<span style=\"color:#74c0fc\"><b>IHC3+ hoặc FISH dương tính</b></span>), tuyến đầu: <span style=\"color:#51cf66\"><b>trastuzumab kèm hoá chất</b></span> so với hoá chất đơn thuần.<br>2) Sống thêm trung vị <span style=\"color:#ffd43b\"><b>13,8 tháng so với 11,1 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,74</b></span>.<br>3) Tác dụng phụ độ 3–4 tương đương nhau ở <span style=\"color:#ffd43b\"><b>68% cả hai nhóm</b></span>; biến cố tim <span style=\"color:#ffd43b\"><b>6% cả hai nhóm</b></span>.<br>4) Trastuzumab kèm hoá chất trở thành <span style=\"color:#51cf66\"><b>chuẩn mới cho HER2 dương tính</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sách viết điều trị đích là tương lai — ToGA năm 2010 đã đưa trastuzumab thành chuẩn, đính chính khẳng định lỗi thời đó; đích phân tử đã là hiện tại từ năm 2010.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.3 — thử nghiệm ToGA; PMID 20728210.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-096",
+      "note_id": 1793862975675,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#74c0fc\"><b>KEYNOTE-811</b></span> về pembrolizumab kèm trastuzumab cho kết quả gì, và vì sao không được tuyên bố kéo dài sống thêm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 698 bệnh nhân HER2 dương tính: thêm <span style=\"color:#51cf66\"><b>pembrolizumab</b></span> vào trastuzumab kèm hoá chất.<br>2) Sống không tiến triển trung vị <span style=\"color:#ffd43b\"><b>10,0 tháng so với 8,1 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,72, có ý nghĩa</b></span>.<br>3) Sống thêm toàn bộ trung vị <span style=\"color:#ffd43b\"><b>20,0 tháng so với 16,9 tháng</b></span>, tỉ số nguy cơ 0,87 ở phân tích giữa kỳ lần 2 và 0,84 ở lần 3, <span style=\"color:#ff6b6b\"><b>chưa đạt ý nghĩa thống kê</b></span>; theo dõi vẫn tiếp tục tới phân tích cuối.<br>4) Liều pembrolizumab trong thử nghiệm: <span style=\"color:#51cf66\"><b>200 mg mỗi 3 tuần kèm trastuzumab và hoá chất fluoropyrimidine-platinum, tối đa 35 chu kỳ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phải phân biệt kết cục chính là sống không tiến triển với sống thêm toàn bộ, và không tuyên bố pembrolizumab kèm trastuzumab kéo dài sống thêm khi sống thêm toàn bộ chưa đạt ý nghĩa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.3 — thử nghiệm KEYNOTE-811; PMID 37871604.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-097",
+      "note_id": 1793862975677,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Zolbetuximab</b></span> cho CLDN18.2 dương tính và <span style=\"color:#74c0fc\"><b>ramucirumab</b></span> tuyến hai cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) SPOTLIGHT (CLDN18.2 dương tính — từ <span style=\"color:#ffd43b\"><b>75% tế bào u trở lên nhuộm màng vừa tới mạnh</b></span> — và HER2 âm tính): zolbetuximab kèm mFOLFOX6; sống không tiến triển <span style=\"color:#ffd43b\"><b>10,61 tháng so với 8,67 tháng</b></span>, tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,75</b></span>; sống thêm toàn bộ cũng giảm nguy cơ tử vong với tỉ số nguy cơ 0,75; tác dụng phụ độ 3 trở lên <span style=\"color:#ff6b6b\"><b>87% so với 78%</b></span>.<br>2) GLOW (cùng quần thể, zolbetuximab kèm CAPOX): sống không tiến triển <span style=\"color:#ffd43b\"><b>8,21 tháng so với 6,80 tháng</b></span>, tỉ số nguy cơ 0,687; sống thêm toàn bộ <span style=\"color:#ffd43b\"><b>14,39 tháng so với 12,16 tháng</b></span>, tỉ số nguy cơ 0,771.<br>3) Thư NEJM 2024 gộp SPOTLIGHT và GLOW (1.072 bệnh nhân): tỉ số nguy cơ tiến triển và tử vong <span style=\"color:#51cf66\"><b>0,71</b></span>, tỉ số nguy cơ tử vong 0,77 — đây là <span style=\"color:#ffd43b\"><b>phân tích gộp hai thử nghiệm, không phải thử nghiệm ngẫu nhiên mới</b></span>; ngày phê duyệt zolbetuximab theo từng cơ quan chưa kiểm chứng nên bài không ghi ngày cụ thể.<br>4) RAINBOW tuyến hai (sau thất bại platinum và fluoropyrimidine): ramucirumab kèm paclitaxel; sống thêm toàn bộ <span style=\"color:#ffd43b\"><b>9,6 tháng so với 7,4 tháng</b></span>, tỉ số nguy cơ 0,807; giảm bạch cầu trung tính độ 3 trở lên <span style=\"color:#ff6b6b\"><b>41% so với 19%</b></span>, tăng huyết áp <span style=\"color:#ff6b6b\"><b>14% so với 2%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Liều trastuzumab, zolbetuximab và ramucirumab không có trong abstract đã đọc, nên bài không ghi liều cho ba thuốc này, chỉ ghi tên thuốc và chỉ định.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.3 — SPOTLIGHT, GLOW, NEJM 2024, RAINBOW; PMID 37068504.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-098",
+      "note_id": 1793862975679,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Trong ToGA, sống thêm trung vị với trastuzumab kèm hoá chất là {{c1::<span style=\"color:#ffd43b\"><b>13,8 tháng so với 11,1 tháng</b></span>}} so với hoá chất đơn thuần.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 8.3 — ToGA, sống trung vị 13,8 so với 11,1 tháng.",
+      "front": "Trong ToGA, sống thêm trung vị với trastuzumab kèm hoá chất là {{c1::<span style=\"color:#ffd43b\"><b>13,8 tháng so với 11,1 tháng</b></span>}} so với hoá chất đơn thuần.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 8.3 — ToGA, sống trung vị 13,8 so với 11,1 tháng."
+    },
+    {
+      "id": "SURG21-CARD-099",
+      "note_id": 1793862975681,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Xạ trị</b></span> và điều trị đích theo sách được trình bày thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xạ trị dùng <span style=\"color:#74c0fc\"><b>bức xạ ion hoá</b></span> để tiêu diệt tế bào ung thư; bức xạ có năng lượng càng cao thì khả năng đâm xuyên càng lớn và hiệu quả sinh học càng cao.<br>2) Xu hướng hiện nay: <span style=\"color:#51cf66\"><b>phẫu thuật triệt căn kết hợp các phương pháp bổ trợ khác</b></span> như hoá chất đa hoá trị, miễn dịch và xạ trị.<br>3) Xạ trị đối với ung thư dạ dày hiện nay <span style=\"color:#ffd43b\"><b>mới áp dụng ở Việt Nam</b></span> — khẳng định này được giữ nguyên là chữ gốc vì không có số liệu cập nhật nào về xạ trị tại Việt Nam trong dossier.<br>4) Sách viết điều trị đích phân tử là <span style=\"color:#ffd43b\"><b>tương lai</b></span> và kháng thể đơn dòng còn đang được nghiên cứu.<br><br><b>💡 Giải thích của AI:</b><br>Hai khẳng định ở ý 4 đã lỗi thời — xem thẻ bẫy tiếp theo; khẳng định về xạ trị tại Việt Nam được giữ nguyên là chữ gốc vì không có số liệu cập nhật trong dossier.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.4 — xạ trị và đích phân tử theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-100",
+      "note_id": 1793862975683,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> sách viết <span style=\"color:#ffd43b\"><b>điều trị đích phân tử là tương lai</b></span> và <span style=\"color:#ffd43b\"><b>kháng thể đơn dòng đang còn là vấn đề được nghiên cứu</b></span> — vì sao hai khẳng định này đã lỗi thời?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>ToGA năm 2010</b></span> đã đưa trastuzumab thành chuẩn cho HER2 dương tính.<br>2) Tới năm 2024 đã có <span style=\"color:#51cf66\"><b>nivolumab, pembrolizumab, zolbetuximab, và ramucirumab</b></span>.<br>3) Phần 7.3 trống của sách nay là <span style=\"color:#51cf66\"><b>chuẩn điều trị tuyến đầu và di căn</b></span>.<br>4) Khi thi theo sách thì giữ nguyên chữ gốc, nhưng khi đi lâm sàng phải dùng <span style=\"color:#51cf66\"><b>bằng chứng hiện hành</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn sách so với hiện tại về đích phân tử là một trong mười mâu thuẫn của bài: sách viết đích là tương lai, trong khi ToGA 2010 đã đưa trastuzumab thành chuẩn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 8.4 và 10.1 — đích phân tử đã lỗi thời.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-101",
+      "note_id": 1793862975685,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Sống thêm sau mổ theo sách ở <span style=\"color:#74c0fc\"><b>Nhật Bản và Việt Nam</b></span> là bao nhiêu, và lưu ý gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nếu chẩn đoán sớm và phẫu thuật triệt căn thì sống thêm rất khả quan: tại Nhật Bản tỉ lệ sống sau 5 năm là <span style=\"color:#ffd43b\"><b>97%</b></span>, tại Việt Nam là <span style=\"color:#ffd43b\"><b>91%</b></span>.<br>2) Hai con số này là <span style=\"color:#ffd43b\"><b>nhóm chọn lọc</b></span> — bệnh nhân được chẩn đoán sớm và phẫu thuật triệt căn, không phải toàn bộ bệnh nhân ung thư dạ dày.<br>3) Tại Việt Nam hầu hết bệnh nhân đến viện ở <span style=\"color:#ff6b6b\"><b>giai đoạn tiến triển</b></span>, vì thế kết quả này còn hạn chế.<br><br><b>💡 Giải thích của AI:</b><br>Các con số 97% của Nhật Bản và 91% của Việt Nam là nhóm chọn lọc; không được so sánh trực tiếp với các con số của Bệnh viện Việt Đức và Thái Bình, vì quần thể khác nhau và thời kỳ khác nhau — xem thẻ bẫy tiếp theo.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.1 — sống 5 năm Nhật 97%, Việt Nam 91%.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-102",
+      "note_id": 1793862975687,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Sống thêm sau mổ theo sách ở <span style=\"color:#74c0fc\"><b>Bệnh viện Việt Đức và Thái Bình</b></span> là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh viện Việt Đức: sống sau 5 năm năm 1970 <span style=\"color:#ffd43b\"><b>không có</b></span>, năm 1980 là <span style=\"color:#ffd43b\"><b>7%</b></span>, năm 1990 là <span style=\"color:#ffd43b\"><b>17%</b></span>, năm 2004 là <span style=\"color:#ffd43b\"><b>27%</b></span>.<br>2) Thái Bình (Đỗ Trọng Quyết, 153 trường hợp 2000–2005): cắt đoạn dạ dày sống trung bình <span style=\"color:#ffd43b\"><b>14,9 tháng</b></span>, chỉ <span style=\"color:#ffd43b\"><b>8,7% sống sau 5 năm</b></span>; giai đoạn 2006–2009, thời gian sống trung bình sau 3 năm là <span style=\"color:#ffd43b\"><b>62,6%</b></span>.<br>3) Nếu không cắt được dạ dày, thời gian sống sau mổ trung bình là <span style=\"color:#ff6b6b\"><b>6 tháng</b></span>.<br>4) Toàn bộ số liệu trong phần này được giữ nguyên là chữ gốc và <span style=\"color:#ffd43b\"><b>chưa kiểm chứng độc lập</b></span> trong dossier.<br><br><b>💡 Giải thích của AI:</b><br>Kết quả sống thêm sau mổ phụ thuộc rất nhiều vào giai đoạn bệnh; các con số Việt Đức và Thái Bình thuộc quần thể tới viện ở giai đoạn tiến triển, khác mẫu số với nhóm chọn lọc 97% và 91%.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.1 — Việt Đức và Thái Bình theo sách.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-103",
+      "note_id": 1793862975689,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> <span style=\"color:#ffd43b\"><b>Việt Nam sống 91% còn Việt Đức chỉ 27%</b></span> — vì sao so sánh này sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai con số <span style=\"color:#ff6b6b\"><b>không cùng mẫu số</b></span>: 91% là nhóm chọn lọc được chẩn đoán sớm và phẫu thuật triệt căn, còn 27% là quần thể bệnh nhân tới viện ở giai đoạn tiến triển.<br>2) Các con số thuộc các <span style=\"color:#ffd43b\"><b>thời kỳ khác nhau</b></span> và không so sánh được với nhau.<br>3) Phải ghi rõ bối cảnh từng con số và <span style=\"color:#ff6b6b\"><b>cấm so sánh trực tiếp</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn nội bộ sách về các con số sống thêm là một trong mười mâu thuẫn của bài; người học phải ghi rõ bối cảnh từng con số, ví dụ không được nói Việt Nam sống 91% còn Việt Đức chỉ 27% như thể hai con số này cùng mẫu số.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.1, 9.2 và 10.1 — cấm so sánh trực tiếp.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-104",
+      "note_id": 1793862975691,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Tại Bệnh viện Việt Đức, tỉ lệ sống sau 5 năm năm 2004 là {{c1::<span style=\"color:#ffd43b\"><b>27%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, phần 9.1 — Việt Đức 2004, sống 5 năm 27%.",
+      "front": "Tại Bệnh viện Việt Đức, tỉ lệ sống sau 5 năm năm 2004 là {{c1::<span style=\"color:#ffd43b\"><b>27%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, phần 9.1 — Việt Đức 2004, sống 5 năm 27%."
+    },
+    {
+      "id": "SURG21-CARD-105",
+      "note_id": 1793862975693,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Vì sao các con số <span style=\"color:#ffd43b\"><b>sống thêm trong sách</b></span> không so sánh được với nhau?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhật Bản 97% và Việt Nam 91% là <span style=\"color:#ffd43b\"><b>nhóm chọn lọc</b></span> gồm bệnh nhân được chẩn đoán sớm và phẫu thuật triệt căn.<br>2) Việt Đức 27% năm 2004 và Thái Bình 8,7% sống 5 năm là <span style=\"color:#ff6b6b\"><b>quần thể bệnh nhân tới viện ở giai đoạn tiến triển</b></span>; thời gian sống trung bình 6 tháng khi không cắt được là nhóm bệnh nhân không mổ được.<br>3) Tỉ lệ chẩn đoán sớm tại Việt Nam hiện nay <span style=\"color:#ffd43b\"><b>chưa có số cập nhật đã kiểm chứng</b></span>; sách ghi dưới 10%, nên bài không dạy số tỉ lệ chẩn đoán sớm hiện tại nào cho Việt Nam.<br><br><b>💡 Giải thích của AI:</b><br>Các con số sống thêm trong sách không so sánh được với nhau vì chúng thuộc về các quần thể khác nhau ở các thời kỳ khác nhau — đây là mâu thuẫn thứ sáu trong mười mâu thuẫn của bài.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.2 — bối cảnh chọn lọc của số sống thêm.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-106",
+      "note_id": 1793862975695,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Theo dõi sau <span style=\"color:#51cf66\"><b>cắt hớt nội soi</b></span> và sau <span style=\"color:#51cf66\"><b>cắt dạ dày</b></span> theo JGCA bản 5 thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau cắt hớt nội soi, nếu đạt <span style=\"color:#74c0fc\"><b>eCuraA</b></span> thì nội soi hằng năm hoặc 2 lần một năm; sau <span style=\"color:#74c0fc\"><b>eCuraB</b></span> thì thêm siêu âm bụng hoặc chụp cắt lớp để giám sát di căn.<br>2) Sau cắt dạ dày, không có nghiên cứu tiền cứu nào đủ để khuyến cáo tần suất cố định; guideline đưa mô hình theo dõi cho <span style=\"color:#74c0fc\"><b>giai đoạn I và giai đoạn II–III</b></span>.<br>3) Theo dõi <span style=\"color:#ffd43b\"><b>không quá 5 năm</b></span>, sau đó chuyển về bác sĩ đa khoa khu vực.<br>4) Tần suất nội soi sau cắt hớt phụ thuộc <span style=\"color:#74c0fc\"><b>mức độ triệt căn về bệnh học</b></span>, không phải một lịch chung cho mọi bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi sau cắt hớt nội soi khác với theo dõi sau cắt dạ dày; chương dạ dày trong sách không có lịch tái khám cụ thể nào, nên bài chỉ trình bày mô hình theo dõi theo JGCA bản 5 đã đọc toàn văn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.3 — theo dõi theo JGCA bản 5.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-107",
+      "note_id": 1793862975697,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> dạy lịch tái khám <span style=\"color:#ffd43b\"><b>4 tháng một lần trong năm đầu rồi 6 tháng một lần trong 2 năm sau</b></span> cho chương dạ dày — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sai</b></span> — lịch này chỉ có ở <span style=\"color:#74c0fc\"><b>chương thực quản</b></span>.<br>2) Chương dạ dày trong sách <span style=\"color:#ff6b6b\"><b>không có lịch tái khám cụ thể nào</b></span>, nên bài không bịa lịch tái khám cho chương này.<br>3) Chỉ trình bày mô hình theo dõi theo <span style=\"color:#51cf66\"><b>JGCA bản 5</b></span> như khối cập nhật.<br><br><b>💡 Giải thích của AI:</b><br>Lịch khám 4 tháng một lần trong năm đầu rồi 6 tháng một lần trong 2 năm sau chỉ có ở chương thực quản; dạy lịch này cho chương dạ dày là một trong mười bẫy của bài.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.3 và 10.2 — lịch tái khám chỉ ở chương thực quản.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-108",
+      "note_id": 1793862975699,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Số liệu <span style=\"color:#74c0fc\"><b>Việt Nam</b></span> nào đã kiểm chứng trong đợt nghiên cứu này, và những gì chưa có số liệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số liệu Việt Nam đã kiểm chứng duy nhất là dịch tễ từ <span style=\"color:#51cf66\"><b>fact sheet GLOBOCAN 2024</b></span>: <span style=\"color:#ffd43b\"><b>12.373 ca mới, 10.280 ca tử vong, 18.889 ca hiện mắc 5 năm</b></span>.<br>2) Không có dữ liệu về <span style=\"color:#ff6b6b\"><b>tỉ lệ chẩn đoán sớm hiện nay, tính sẵn có và liều dùng thực tế của S-1, FLOT, nivolumab, pembrolizumab, trastuzumab, zolbetuximab và ramucirumab tại Việt Nam</b></span>, cùng sống thêm cập nhật sau năm 2009.<br>3) Mọi khẳng định tại Việt Nam ngoài các số dịch tễ trên đều phải ghi rõ là <span style=\"color:#ff6b6b\"><b>chưa có số liệu đã kiểm chứng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phần này phải bắt đầu bằng giới hạn: trong đợt nghiên cứu này, số liệu Việt Nam đã kiểm chứng duy nhất là dịch tễ từ fact sheet GLOBOCAN 2024.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.4 — giới hạn số liệu Việt Nam.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-109",
+      "note_id": 1793862975701,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Suy luận tuyến từ khung quốc tế cho ung thư dạ dày tại <span style=\"color:#74c0fc\"><b>Việt Nam</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chẩn đoán mô học và chẩn đoán giai đoạn bằng <span style=\"color:#51cf66\"><b>nội soi, siêu âm, và chụp cắt lớp</b></span> là nền tảng ở mọi tuyến có thể.<br>2) Điều trị đa mô thức gồm hoá chất quanh mổ, phẫu thuật cắt dạ dày với <span style=\"color:#51cf66\"><b>nạo vét D2 bảo tồn tụy và lách</b></span>, và miễn dịch cùng đích phân tử cần <span style=\"color:#51cf66\"><b>hội chẩn đa chuyên khoa</b></span> tại tuyến có đủ chuyên khoa và xét nghiệm <span style=\"color:#74c0fc\"><b>HER2, PD-L1, và CLDN18.2</b></span>.<br>3) Các tình huống chuyển tuyến: ung thư sớm cần <span style=\"color:#74c0fc\"><b>cắt hớt nội soi chuyên sâu</b></span>; bệnh tiến triển tại chỗ cần đa mô thức; nghi di căn xa cần đánh giá toàn thân; biến chứng <span style=\"color:#ff6b6b\"><b>hẹp môn vị, chảy máu, hay thủng</b></span> cần xử trí cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Không được bịa bất kỳ số liệu Việt Nam nào ngoài fact sheet đã nêu, và không được gán khuyến cáo chi tiết nào cho ESMO hay NCCN.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 9.4 — suy luận tuyến tại Việt Nam.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-110",
+      "note_id": 1793862975703,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 1 — <span style=\"color:#51cf66\"><b>hoá xạ bổ trợ</b></span> có lợi hay không: dạy đủ ba phía thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) INT-0116 cho lợi ích sống thêm rõ rệt, nhưng trong bối cảnh <span style=\"color:#ffd43b\"><b>nạo vét hạch hạn chế</b></span>.<br>2) ARTIST sau cắt D2 <span style=\"color:#ffd43b\"><b>không cho lợi ích sống không bệnh chung</b></span>, chỉ phân nhóm có hạch dương có thể có lợi.<br>3) CRITICS cho thấy sau hoá chất trước mổ và phẫu thuật, hoá xạ sau mổ <span style=\"color:#ff6b6b\"><b>không hơn hoá chất sau mổ</b></span>.<br>4) Dạy giá trị hoá xạ phụ thuộc <span style=\"color:#74c0fc\"><b>mức độ nạo vét hạch và đã có hoá chất quanh mổ hay chưa</b></span>; không dạy hoá xạ luôn tốt hay hoá xạ vô ích.<br><br><b>💡 Giải thích của AI:</b><br>Hoá xạ bổ trợ là chủ đề mâu thuẫn nhất trong điều trị ung thư dạ dày; người học phải dạy đủ ba thử nghiệm, không chọn một phía.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.1 — mâu thuẫn 1, hoá xạ bổ trợ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-111",
+      "note_id": 1793862975705,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 2 và 5 — <span style=\"color:#74c0fc\"><b>miễn dịch tuyến đầu</b></span>: CheckMate 649, ATTRACTION-4 và KEYNOTE-811 khác nhau ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CheckMate 649 đa quốc gia cho sống thêm toàn bộ cải thiện ở nhóm <span style=\"color:#51cf66\"><b>CPS từ 5 trở lên, CPS từ 1 trở lên, và toàn bộ quần thể</b></span>.<br>2) ATTRACTION-4 ở châu Á cho sống không tiến triển cải thiện nhưng sống thêm toàn bộ <span style=\"color:#ff6b6b\"><b>không cải thiện</b></span>.<br>3) KEYNOTE-859 đa quốc gia lại cho sống thêm toàn bộ cải thiện, nên <span style=\"color:#ffd43b\"><b>bức tranh chưa thống nhất tuyệt đối</b></span>.<br>4) KEYNOTE-811: sống không tiến triển tốt (tỉ số nguy cơ 0,72, có ý nghĩa) nhưng sống thêm toàn bộ <span style=\"color:#ff6b6b\"><b>chưa đạt ý nghĩa (tỉ số nguy cơ 0,84–0,87)</b></span> — phải phân biệt hai kết cục và không tuyên bố kéo dài sống thêm.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải dạy khác biệt quần thể và phác đồ nền; lợi ích miễn dịch tuyến đầu phụ thuộc PD-L1, và xét nghiệm PD-L1 có ý nghĩa chọn bệnh nhân.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.1 — mâu thuẫn 2 và 5, miễn dịch tuyến đầu.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-112",
+      "note_id": 1793862975707,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 3 — diệt trừ <span style=\"color:#74c0fc\"><b>H. pylori</b></span> có giảm ung thư hay không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm Wong 2004 <span style=\"color:#ff6b6b\"><b>không giảm chung</b></span> tỉ lệ ung thư dạ dày, chỉ phân nhóm chưa có tổn thương tiền ung thư có lợi.<br>2) Tổng quan Cochrane 2020 gộp 7 thử nghiệm cho giảm mắc với tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,54</b></span> và giảm tử vong với tỉ số nguy cơ <span style=\"color:#51cf66\"><b>0,61</b></span>.<br>3) Lợi ích rõ nhất khi <span style=\"color:#51cf66\"><b>diệt sớm, trước khi có teo hay dị sản ruột</b></span>; một khi đã có tổn thương tiền ung thư thì diệt trừ <span style=\"color:#ff6b6b\"><b>không đảo ngược được nguy cơ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn Wong so với Cochrane được dạy đủ hai phía; kết luận chung là diệt sớm mới có lợi rõ nhất.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.1 — mâu thuẫn 3, diệt trừ H. pylori.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-113",
+      "note_id": 1793862975709,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 4 — nạo vét <span style=\"color:#74c0fc\"><b>D2</b></span> có sống lâu hơn hay chỉ ít tái phát hơn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm Hà Lan 15 năm: sống thêm toàn bộ <span style=\"color:#ffd43b\"><b>không khác biệt</b></span>, nhưng tử vong do ung thư dạ dày thấp hơn và tái phát tại chỗ cùng vùng thấp hơn, đổi bằng <span style=\"color:#ff6b6b\"><b>tử vong sau mổ cao hơn</b></span>.<br>2) Thử nghiệm MRC: tử vong và biến chứng cao hơn, phần lớn do <span style=\"color:#ff6b6b\"><b>cắt tụy và lách kèm theo</b></span>.<br>3) D2 chuẩn hiện nay là <span style=\"color:#51cf66\"><b>D2 bảo tồn tụy và lách</b></span>, không phải D2 kiểu cũ kèm cắt tụy và lách; lợi ích D2 nằm ở <span style=\"color:#51cf66\"><b>kiểm soát tại chỗ và tử vong do ung thư</b></span>, không phải sống thêm toàn bộ trong thử nghiệm cũ.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải dạy D2 chuẩn hiện nay là D2 bảo tồn tụy và lách, và lợi ích D2 nằm ở kiểm soát tại chỗ và tử vong do ung thư.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.1 — mâu thuẫn 4, nạo vét D2.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-114",
+      "note_id": 1793862975711,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 6–10 — <span style=\"color:#ffd43b\"><b>sách so với hiện tại</b></span>: những điểm nào phải dạy đủ hai phía?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số sống thêm nội bộ sách <span style=\"color:#ff6b6b\"><b>không so sánh được với nhau</b></span>, vì nhóm chọn lọc sớm và triệt căn đặt cạnh quần thể tiến triển ở thời kỳ khác.<br>2) Sách viết đích phân tử là tương lai, trong khi <span style=\"color:#74c0fc\"><b>ToGA 2010</b></span> đã đưa trastuzumab thành chuẩn; tới 2024 đã có nivolumab, pembrolizumab, zolbetuximab và ramucirumab.<br>3) Sách dùng hạch theo <span style=\"color:#ffd43b\"><b>khoảng cách 3 cm và chặng hạch</b></span>, AJCC 8th dùng hạch theo số lượng (N1 1–2, N2 3–6, N3a 7–15, N3b từ 16 trở lên).<br>4) Sách trình bày <span style=\"color:#ffd43b\"><b>ELF</b></span> như phác đồ chính, hiện nay quanh mổ dùng <span style=\"color:#51cf66\"><b>FLOT</b></span>, bổ trợ sau D2 dùng <span style=\"color:#51cf66\"><b>S-1 hoặc CAPOX</b></span>.<br>5) Sách viết marker có thể khẳng định có tế bào ung thư, trong khi tổng quan 2025 cho độ nhạy đơn độc chỉ <span style=\"color:#ffd43b\"><b>34–37%</b></span>; marker chỉ hỗ trợ, theo dõi và tiên lượng, chẩn đoán vẫn là <span style=\"color:#51cf66\"><b>nội soi kèm sinh thiết</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giữ nguyên chữ gốc kèm khối cập nhật AJCC 8th bên cạnh; nhấn mạnh số hạch di căn quyết định giai đoạn và tiên lượng, cùng số hạch nạo vét được ảnh hưởng độ chính xác xếp giai đoạn.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.1 — mâu thuẫn 6–10, sách so với hiện tại.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-115",
+      "note_id": 1793862975713,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> gán khuyến cáo chi tiết cho <span style=\"color:#74c0fc\"><b>ESMO 2022 hay NCCN</b></span> khi dạy ung thư dạ dày — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Toàn văn chính của ESMO 2022 chỉ lấy được <span style=\"color:#ffd43b\"><b>phụ lục bảng</b></span> (TNM AJCC 8th, ESCAT, MCBS); toàn văn và abstract của NCCN <span style=\"color:#ff6b6b\"><b>hoàn toàn không lấy được</b></span>.<br>2) Bài chỉ nêu tên hai guideline này là khung hiện hành, <span style=\"color:#ff6b6b\"><b>không gán bất kỳ khuyến cáo chi tiết nào theo số hiệu hay mức GRADE</b></span> cho chúng.<br>3) Tương tự, không dạy <span style=\"color:#ff6b6b\"><b>tỉ lệ chẩn đoán sớm tại Việt Nam hiện nay, tính sẵn có thuốc tại Việt Nam hay tỉ lệ nạo vét D2 trong INT-0116</b></span> như số đã kiểm chứng — không số nào trong các số đó đã kiểm chứng trong dossier.<br><br><b>💡 Giải thích của AI:</b><br>Gán khuyến cáo chi tiết cho ESMO hay NCCN khi toàn văn chưa lấy được là bẫy số 4; dạy số chưa kiểm chứng như số đã kiểm chứng là bẫy số 7.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.2 — bẫy 4 và 7, ESMO/NCCN và số chưa kiểm chứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-116",
+      "note_id": 1793862975715,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> chọn một phía duy nhất trong các <span style=\"color:#ff6b6b\"><b>mâu thuẫn</b></span> hoá xạ, nivolumab châu Á, diệt H. pylori và nạo vét D2 — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bằng chứng phụ thuộc <span style=\"color:#74c0fc\"><b>quần thể, phác đồ nền, và mức độ nạo vét hạch</b></span>.<br>2) Phải dạy <span style=\"color:#51cf66\"><b>đủ hai phía</b></span> trong mỗi mâu thuẫn, không chọn một phía.<br>3) Tuyên bố pembrolizumab kèm trastuzumab kéo dài sống thêm khi sống thêm toàn bộ trong KEYNOTE-811 <span style=\"color:#ff6b6b\"><b>chưa đạt ý nghĩa thống kê</b></span> cũng là bẫy tương tự.<br><br><b>💡 Giải thích của AI:</b><br>Chọn một phía duy nhất trong các mâu thuẫn là bẫy số 8; tuyên bố kéo dài sống thêm khi sống thêm toàn bộ chưa đạt ý nghĩa là bẫy số 9.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.2 — bẫy 8 và 9, chọn một phía.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-117",
+      "note_id": 1793862975717,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> dạy <span style=\"color:#51cf66\"><b>cắt hớt nội soi</b></span> cho mọi tổn thương sớm mà không phân biệt T1a và T1b — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương <span style=\"color:#74c0fc\"><b>T1b</b></span> có nguy cơ hạch và <span style=\"color:#51cf66\"><b>nên mổ</b></span>; quyết định dựa trên độ sâu xâm lấn cùng chỉ định tuyệt đối, mở rộng và tương đối của JGCA.<br>2) Tổn thương <span style=\"color:#74c0fc\"><b>T1a</b></span> khu trú niêm mạc có nguy cơ di căn hạch <span style=\"color:#ffd43b\"><b>dưới 1%</b></span> mới là đối tượng cắt hớt.<br>3) <span style=\"color:#74c0fc\"><b>Siêu âm nội soi</b></span> đánh giá độ sâu xâm lấn trước cắt hớt để chẩn đoán lâm sàng giai đoạn T1a.<br><br><b>💡 Giải thích của AI:</b><br>Dạy cắt hớt nội soi cho mọi tổn thương sớm mà không phân biệt T1a và T1b là bẫy số 10; độ sâu xâm lấn là điểm phân nhánh của lưu đồ điều trị.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.2 — bẫy 10, T1a so với T1b.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-118",
+      "note_id": 1793862975719,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Khung bằng chứng của bài gồm <span style=\"color:#74c0fc\"><b>ba mức</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đã đọc toàn văn: <span style=\"color:#51cf66\"><b>JGCA bản 5</b></span> (khung chính cho cắt hớt nội soi, nạo vét D2 và theo dõi sau mổ), <span style=\"color:#51cf66\"><b>phụ lục ESMO 2022</b></span> (bảng TNM AJCC 8th, ESCAT, MCBS), <span style=\"color:#51cf66\"><b>toàn văn thư NEJM 2024 gộp SPOTLIGHT và GLOW</b></span>, <span style=\"color:#51cf66\"><b>fact sheet GLOBOCAN 2024 cho Việt Nam</b></span> — nguồn duy nhất cho số liệu Việt Nam cập nhật.<br>2) Đã đọc abstract: <span style=\"color:#74c0fc\"><b>12 thử nghiệm và tổng quan trong bundle lõi, tất cả tạp chí Q1</b></span> (MAGIC, FLOT4, ACTS-GC, INT-0116, CheckMate 649, ToGA, KEYNOTE-811, SPOTLIGHT, Wong, Cochrane diệt HP, Cochrane hoá chất quanh mổ, Fukase) cùng các nguồn prose-only (GLOBOCAN 2020, RAINBOW, Dutch D1/D2, KEYNOTE-859, ATTRACTION-4, GLOW, ARTIST, CRITICS, CLASSIC, KLASS-01, HDGC, TCGA, MRC ST01, tổng quan marker 2025).<br>3) Chưa lấy được: <span style=\"color:#ff6b6b\"><b>toàn văn chính ESMO 2022, toàn văn và abstract NCCN, sách phân loại WHO 2019</b></span> — không gán khuyến cáo chi tiết nào cho các nguồn này.<br><br><b>💡 Giải thích của AI:</b><br>Người học phải phân biệt rõ ba mức bằng chứng: đã đọc toàn văn, đã đọc abstract, và chưa lấy được — và không gán khuyến cáo chi tiết nào cho nguồn chưa lấy được.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.3 — ba mức bằng chứng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-119",
+      "note_id": 1793862975721,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Số liệu trong sách được đối xử thế nào về mặt <span style=\"color:#ffd43b\"><b>kiểm chứng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Các số liệu trong sách — tỉ lệ vị trí u, liều ELF, số liệu sống thêm của Bệnh viện Việt Đức và Thái Bình, nghiên cứu Bệnh viện K KC 10.06 — là <span style=\"color:#ffd43b\"><b>số liệu của sách</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Không có nguồn cập nhật nào trong tập đã đọc để kiểm chứng độc lập.</b></span><br>3) Bài giữ nguyên chữ gốc và ghi rõ nguồn là sách; sách dùng tài liệu tham khảo từ năm <span style=\"color:#ffd43b\"><b>1991 tới 2010</b></span>, và phân loại TNM trong sách đã bị <span style=\"color:#51cf66\"><b>AJCC 8th</b></span> thay thế.<br><br><b>💡 Giải thích của AI:</b><br>Số liệu của sách được giữ nguyên là chữ gốc và ghi rõ nguồn là sách — người học không được trình bày số của sách như số đã kiểm chứng độc lập.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.3 — số liệu sách chưa kiểm chứng độc lập.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-120",
+      "note_id": 1793862975723,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Ba <span style=\"color:#ff6b6b\"><b>khoảng trống lớn nhất</b></span> của bằng chứng trong bài là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khung guideline chính không đầy đủ: ESMO 2022 chỉ có phụ lục và NCCN hoàn toàn không lấy được, nên <span style=\"color:#ff6b6b\"><b>không trích bất kỳ khuyến cáo ESMO hay NCCN cụ thể nào</b></span> theo số hiệu hay mức GRADE.<br>2) Không có số liệu Việt Nam hiện tại đã kiểm chứng cho tỉ lệ chẩn đoán sớm, tính sẵn có và liều dùng thực tế của S-1, FLOT và thuốc miễn dịch cùng đích tại Việt Nam, và sống thêm cập nhật sau năm 2009; GLOBOCAN 2024 chỉ cho <span style=\"color:#ffd43b\"><b>số mắc, tử vong, và hiện mắc</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Không có quét hệ thống</b></span> do esearch của NCBI sập toàn phiên, Europe PMC trả lỗi 503, OpenAlex bị rate-limit ẩn danh, Semantic Scholar trả lỗi 429 — nên <span style=\"color:#ff6b6b\"><b>không được tuyên bố đã tìm toàn diện</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Các mã định danh bài báo được tìm qua tìm kiếm trên trình duyệt và tra DOI qua OpenAlex rồi xác minh thủ công, đủ cho các thử nghiệm và guideline lớn đã định trước trong brief, nhưng có thể bỏ sót các tổng quan Cochrane khác, thử nghiệm sàng lọc nội soi Nhật và Hàn, dữ liệu siêu âm nội soi và PET-CT, cùng các thử nghiệm miễn dịch quanh mổ mới.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.4 — ba khoảng trống lớn nhất.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-121",
+      "note_id": 1793862975725,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Những <span style=\"color:#ffd43b\"><b>khoảng trống khác</b></span> và bài học về PMID trong dossier là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân loại WHO 2019 chi tiết, độ chính xác siêu âm nội soi và PET-CT trong xếp giai đoạn, ngưỡng cắt chuẩn của CEA, CA19-9 và CA72-4, nghiên cứu Bệnh viện K KC 10.06 chưa kiểm chứng độc lập, dữ liệu về phẫu thuật giảm nhẹ, dinh dưỡng quanh mổ và chăm sóc giảm nhẹ chuyên biệt, cùng <span style=\"color:#ffd43b\"><b>ngày phê duyệt zolbetuximab theo từng cơ quan</b></span>.<br>2) Bài học phương pháp: esearch của NCBI trả lỗi 500 liên tục với thông báo không kết nối được SOLR, và <span style=\"color:#ff6b6b\"><b>6 mã định danh nhớ từ trí nhớ ban đầu đã kiểm chứng sai và bị xóa khỏi thư mục raw</b></span>, trong đó có một số là bài về vi khuẩn hoàn toàn khác.<br>3) <span style=\"color:#ff6b6b\"><b>Không bao giờ trích mã định danh bài báo từ trí nhớ</b></span>; mọi liều trong thử nghiệm chỉ dạy ở mức liều trong thử nghiệm, không trình bày thành phác đồ guideline; liều trastuzumab, zolbetuximab và ramucirumab không có trong abstract đã đọc nên bài không ghi liều cho ba thuốc này.<br><br><b>💡 Giải thích của AI:</b><br>Một khoảng trống được nói thẳng an toàn hơn một con số bịa; người viết không được tuyên bố đã tìm toàn diện khi công cụ tìm kiếm sập toàn phiên.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 10.4 — khoảng trống khác và bài học PMID.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-122",
+      "note_id": 1793862975727,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Case 1 — nam <span style=\"color:#ffd43b\"><b>52 tuổi</b></span> đau thượng vị, ăn khó tiêu, gầy sút: giải 5 bước thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử: nam 52 tuổi, <span style=\"color:#ff6b6b\"><b>đau bụng vùng trên rốn kéo dài, ngày càng tăng, không có chu kỳ</b></span>, kèm ăn khó tiêu, đầy bụng, gầy sút không rõ nguyên nhân; tiền sử ăn nhiều thức ăn hun khói và nhiều muối, nhiễm H. pylori chưa diệt trừ.<br>2) Cơ chế: viêm mạn do H. pylori gây <span style=\"color:#74c0fc\"><b>viêm teo và dị sản ruột</b></span>, cùng chất gây ung thư trong thức ăn gây đột biến tích lũy; khối u tiến triển lặng lẽ tới khi gây đau và gầy sút.<br>3) Chẩn đoán: <span style=\"color:#51cf66\"><b>nội soi dạ dày kèm sinh thiết là tiêu chuẩn vàng</b></span>; lưu ý 80% bệnh nhân giai đoạn sớm không có triệu chứng; chụp cắt lớp cùng siêu âm đánh giá di căn vào gan, tụy và buồng trứng.<br>4) Xử trí: nội soi sớm kèm sinh thiết để xác định mô học, chẩn đoán giai đoạn đầy đủ gồm chụp cắt lớp và siêu âm nội soi, hội chẩn đa chuyên khoa để chọn chiến lược theo giai đoạn, diệt trừ H. pylori theo phác đồ hiện hành của cơ sở — lưu ý diệt trừ <span style=\"color:#ff6b6b\"><b>không đảo ngược được nguy cơ khi đã có tổn thương tiền ung thư</b></span>.<br>5) Theo dõi: theo dõi cân nặng và triệu chứng, giải thích đau thượng vị không có chu kỳ khác với đau loét có chu kỳ, hẹn tái khám theo mô hình theo dõi của JGCA sau khi có chẩn đoán và điều trị, <span style=\"color:#ff6b6b\"><b>không bịa lịch tái khám cụ thể nào</b></span> cho chương này.<br><br><b>💡 Giải thích của AI:</b><br>Case này là tình huống minh họa cho đau thượng vị và gầy sút ở người lớn tuổi, không phải ca bệnh cụ thể nào, và không có dữ kiện định danh.<br><br>📖 Nguồn: Bài Ung thư dạ dày, Case 1 — nam 52 tuổi, đau thượng vị, gầy sút.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-123",
+      "note_id": 1793862975729,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Case 2 — tổn thương sớm khu trú niêm mạc: <span style=\"color:#51cf66\"><b>cắt hớt hay mổ</b></span>? Giải 5 bước thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử: nội soi vì khó tiêu kéo dài, phát hiện tổn thương khu trú ở niêm mạc, đường kính <span style=\"color:#ffd43b\"><b>dưới 2 cm, không loét</b></span>, sinh thiết là ung thư biểu mô tuyến thể biệt hoá, chưa có hạch trên hình ảnh.<br>2) Cơ chế: tổn thương khu trú ở niêm mạc có nguy cơ di căn hạch <span style=\"color:#ffd43b\"><b>dưới 1%</b></span>, trong khi tổn thương đã xuống dưới niêm mạc có nguy cơ hạch cao hơn do xâm lấn mạch bạch huyết.<br>3) Chẩn đoán: <span style=\"color:#74c0fc\"><b>siêu âm nội soi</b></span> đánh giá độ sâu xâm lấn trước cắt hớt, nhằm chẩn đoán lâm sàng giai đoạn <span style=\"color:#74c0fc\"><b>T1a</b></span>; sinh thiết xác định mô học, độ biệt hoá và tình trạng loét.<br>4) Xử trí: tổn thương thể biệt hoá, không loét, T1a, đường kính dưới 2 cm là <span style=\"color:#51cf66\"><b>chỉ định tuyệt đối cho cắt hớt niêm mạc nội soi</b></span>; cắt tách dưới niêm mạc là chỉ định tuyệt đối khi đường kính trên 2 cm hoặc có loét với đường kính dưới 3 cm; tổn thương <span style=\"color:#74c0fc\"><b>T1b</b></span> xuống dưới niêm mạc thì <span style=\"color:#51cf66\"><b>nên mổ</b></span>, vì nguy cơ hạch và yếu tố dự báo là xâm lấn mạch bạch huyết cùng biệt hoá độ 3; sau cắt hớt thì diệt trừ H. pylori để giảm ung thư dạ dày dị thời.<br>5) Theo dõi: sau cắt hớt đạt <span style=\"color:#74c0fc\"><b>eCuraA</b></span> thì nội soi hằng năm hoặc 2 lần một năm; sau <span style=\"color:#74c0fc\"><b>eCuraB</b></span> thì thêm siêu âm bụng hoặc chụp cắt lớp để giám sát di căn, theo mô hình của JGCA.<br><br><b>💡 Giải thích của AI:</b><br>Case này là tình huống minh họa cho ung thư sớm và cắt hớt nội soi; độ sâu xâm lấn quyết định cắt hớt hay mổ, và quyết định dựa trên chỉ định tuyệt đối, mở rộng và tương đối của JGCA.<br><br>📖 Nguồn: Bài Ung thư dạ dày, Case 2 — tổn thương sớm khu trú niêm mạc.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-124",
+      "note_id": 1793862975731,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "cloze",
+      "text": "Tổn thương ung thư dạ dày khu trú ở niêm mạc (T1a) có nguy cơ di căn hạch dưới {{c1::<span style=\"color:#ffd43b\"><b>1%</b></span>}}.",
+      "extra": "📖 Nguồn: Bài Ung thư dạ dày, Case 2 — T1a nguy cơ hạch dưới 1%.",
+      "front": "Tổn thương ung thư dạ dày khu trú ở niêm mạc (T1a) có nguy cơ di căn hạch dưới {{c1::<span style=\"color:#ffd43b\"><b>1%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Ung thư dạ dày, Case 2 — T1a nguy cơ hạch dưới 1%."
+    },
+    {
+      "id": "SURG21-CARD-125",
+      "note_id": 1793862975733,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Case 3 — ung thư <span style=\"color:#74c0fc\"><b>tiến triển tại chỗ, có thể mổ, chưa di căn xa</b></span>: giải 5 bước thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử: khối u ở <span style=\"color:#74c0fc\"><b>hang môn vị và hạch vùng</b></span>, đau thượng vị và gầy sút.<br>2) Cơ chế: khối u đã xâm lấn qua lớp cơ tới mô dưới thanh mạc và có hạch vùng, nên phẫu thuật đơn thuần ít khả năng diệt hết <span style=\"color:#74c0fc\"><b>vi di căn</b></span>; hoá chất quanh mổ diệt tế bào vi di căn trước và sau mổ để tăng tỉ lệ cắt R0.<br>3) Chẩn đoán: xác định mô học và xếp giai đoạn theo <span style=\"color:#51cf66\"><b>AJCC 8th với hạch tính theo số lượng</b></span>, đánh giá khả năng mổ cùng thể trạng, xét nghiệm <span style=\"color:#74c0fc\"><b>HER2, PD-L1, cùng CLDN18.2</b></span> để chuẩn bị cho điều trị toàn thân nếu cần.<br>4) Xử trí: hội chẩn đa chuyên khoa, hoá chất quanh mổ <span style=\"color:#51cf66\"><b>FLOT là chuẩn hiện nay</b></span>, rồi mổ triệt căn R0 với nạo vét D2 bảo tồn tụy và lách; sau mổ dùng <span style=\"color:#51cf66\"><b>S-1 hoặc CAPOX bổ trợ</b></span>; hoá xạ bổ trợ chỉ cân nhắc khi nạo vét hạch hạn chế hoặc có hạch dương, không thêm khi đã có hoá chất quanh mổ đầy đủ; quyết định cuối cùng theo hội chẩn, không theo một thử nghiệm duy nhất.<br>5) Theo dõi: theo dõi đáp ứng sau hoá chất trước mổ, đánh giá lại giai đoạn trước mổ, theo dõi sau mổ <span style=\"color:#ffd43b\"><b>không quá 5 năm</b></span> theo mô hình của JGCA, sau đó chuyển về bác sĩ đa khoa khu vực.<br><br><b>💡 Giải thích của AI:</b><br>Case này là tình huống minh họa cho bệnh tiến triển tại chỗ và hoá chất quanh mổ; trình tự đa mô thức là chuẩn, và quyết định cuối cùng theo hội chẩn đa chuyên khoa.<br><br>📖 Nguồn: Bài Ung thư dạ dày, Case 3 — tiến triển tại chỗ, hoá chất quanh mổ.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-126",
+      "note_id": 1793862975735,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Case 4 — ung thư <span style=\"color:#ff6b6b\"><b>di căn gan, HER2 dương tính</b></span>: giải 5 bước thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh sử: di căn gan, <span style=\"color:#ff6b6b\"><b>không còn khả năng mổ triệt căn</b></span>, đau thượng vị, gầy sút, cổ chướng, chưa điều trị toàn thân.<br>2) Cơ chế: khối u đã di căn xa theo đường mạch máu tới gan và gieo rắc phúc mạc, nên điều trị phải là <span style=\"color:#51cf66\"><b>toàn thân</b></span>; đích phân tử phụ thuộc <span style=\"color:#74c0fc\"><b>HER2, PD-L1, và CLDN18.2</b></span> của khối u.<br>3) Chẩn đoán: xác định mô học và xét nghiệm HER2, PD-L1 cùng CLDN18.2, chụp cắt lớp đánh giá di căn, đánh giá dinh dưỡng cùng thể trạng.<br>4) Xử trí: HER2 dương tính thì <span style=\"color:#51cf66\"><b>trastuzumab kèm hoá chất là chuẩn</b></span>, thêm pembrolizumab có thể cải thiện sống không tiến triển nhưng sống thêm toàn bộ chưa đạt ý nghĩa nên cần tư vấn rõ; HER2 âm tính và CLDN18.2 dương tính thì <span style=\"color:#51cf66\"><b>zolbetuximab kèm hoá chất</b></span>; PD-L1 cao thì <span style=\"color:#51cf66\"><b>nivolumab hoặc pembrolizumab kèm hoá chất</b></span>; tuyến hai sau thất bại platinum và fluoropyrimidine thì <span style=\"color:#51cf66\"><b>ramucirumab kèm paclitaxel</b></span>; chăm sóc giảm nhẹ song song, <span style=\"color:#ff6b6b\"><b>không mổ triệt căn khi đã di căn xa</b></span>.<br>5) Theo dõi: theo dõi đáp ứng toàn thân, tác dụng phụ của miễn dịch và đích phân tử, hỗ trợ dinh dưỡng cùng chăm sóc giảm nhẹ liên tục.<br><br><b>💡 Giải thích của AI:</b><br>Case này là tình huống minh họa cho di căn xa và miễn dịch cùng đích phân tử; lựa chọn điều trị phụ thuộc xét nghiệm HER2, PD-L1 và CLDN18.2 của khối u.<br><br>📖 Nguồn: Bài Ung thư dạ dày, Case 4 — di căn xa, HER2 dương tính.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-127",
+      "note_id": 1793862975737,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Câu 1 lượng giá của sách: những yếu tố nào là nguy cơ của ung thư dạ dày, <span style=\"color:#ff6b6b\"><b>ngoại trừ</b></span> phương án nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Câu hỏi: Dưới đây đều là những yếu tố nguy cơ của ung thư dạ dày, ngoại trừ: A. Thịt cá ướp muối hoặc xông khói. B. Hút nhiều thuốc lá. C. Uống nhiều rượu. D. Uống nước có chứa nhiều nitrate. E. Uống nước có nhiều Helicobacter pylori.<br>2) Đáp án bổ sung: <span style=\"color:#51cf66\"><b>E</b></span> — H. pylori là vi khuẩn lây qua đường miệng–miệng và phân–miệng trong gia đình, <span style=\"color:#ff6b6b\"><b>không phải chất gây ô nhiễm trong nước uống</b></span>.<br>3) A và D thuộc nhóm <span style=\"color:#74c0fc\"><b>nitrosamin và nitrat</b></span> trong sách; B và C là yếu tố nguy cơ chung của ung thư đường tiêu hoá trên trong sách.<br>4) Lưu ý: chương dạ dày không liệt kê hút thuốc và uống rượu trong danh sách yếu tố nguy cơ của riêng chương này, nên câu này kiểm tra <span style=\"color:#ffd43b\"><b>kiến thức liên chương</b></span> — nên hỏi lại giảng viên nếu đề thi yêu cầu đúng theo chương.<br><br><b>💡 Giải thích của AI:</b><br>Đáp án là bổ sung, sách không in đáp án; câu hỏi được giữ nguyên nguyên văn từ sách, đáp án cùng giải thích ngắn được gắn nhãn bổ sung để phân biệt với chữ gốc.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 11.5 — câu 1 lượng giá, đáp án bổ sung E.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-128",
+      "note_id": 1793862975739,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> câu 2 lượng giá của sách — <span style=\"color:#74c0fc\"><b>Các cơ địa sau theo kinh điển rất dễ bị mắc ung thư dạ dày, ngoại trừ:</b></span> — đáp án là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Câu 2 <span style=\"color:#ff6b6b\"><b>KHÔNG có đáp án chắc chắn</b></span> theo đúng chữ in trong sách.<br>2) Cả bốn phương án A, B, C và D đều là cơ địa dễ mắc theo chương: A. <span style=\"color:#74c0fc\"><b>đã cắt đoạn dạ dày</b></span>; B. <span style=\"color:#74c0fc\"><b>viêm dạ dày mãn tính</b></span>; C. <span style=\"color:#74c0fc\"><b>thiếu máu ác tính Biermer</b></span>; D. <span style=\"color:#74c0fc\"><b>teo niêm mạc vùng đáy vị</b></span>.<br>3) Phương án E bị <span style=\"color:#ff6b6b\"><b>lỗi in hay chuyển cột trong sách</b></span> và không đọc được nội dung — cuối cột có dòng về giải phẫu bệnh của ung thư dạ dày, có thể là phần đầu của câu 3.<br>4) <span style=\"color:#ff6b6b\"><b>Tuyệt đối không đoán đáp án cho câu này</b></span>; nên hỏi lại giảng viên.<br><br><b>💡 Giải thích của AI:</b><br>Câu 2 là bẫy thi: cả bốn phương án A–D đều là cơ địa dễ mắc, phương án E lỗi in — người học không được đoán đáp án, mà nên hỏi lại giảng viên.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 11.5 — câu 2 lượng giá, không có đáp án chắc chắn.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-129",
+      "note_id": 1793862975741,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Câu 3 lượng giá của sách: <span style=\"color:#74c0fc\"><b>thể giải phẫu bệnh</b></span> của ung thư dạ dày là gì? (Chọn đúng/sai)",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) A. Thể loét — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>2) B. Thể thâm nhiễm cứng — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>3) C. Thể u — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>4) D. Thể loét thâm nhiễm — <span style=\"color:#ff6b6b\"><b>sai</b></span>.<br>5) E. Thể sùi loét — <span style=\"color:#ff6b6b\"><b>sai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sách liệt kê ba thể là thể u, thể loét và thể thâm nhiễm cứng; thể loét thâm nhiễm và thể sùi loét không phải thể riêng trong sách, dù các thể có thể phối hợp với nhau. Đáp án là bổ sung, sách không in đáp án.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 11.5 — câu 3 lượng giá, đáp án bổ sung A/B/C đúng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-130",
+      "note_id": 1793862975743,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Câu 4 lượng giá của sách: <span style=\"color:#74c0fc\"><b>hình ảnh X-quang</b></span> nào là hình ảnh X-quang của ung thư dạ dày? (Chọn đúng/sai)",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) A. Hình ổ đọng thuốc hình thấu kính — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>2) B. Hình thoát thuốc — <span style=\"color:#ff6b6b\"><b>sai</b></span>.<br>3) C. Hình khuyết bờ nham nhở — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>4) D. Hình thâm nhiễm cứng — <span style=\"color:#51cf66\"><b>đúng</b></span>.<br>5) E. Hình thuốc không xuống được tá tràng — <span style=\"color:#ff6b6b\"><b>sai</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Sách nêu ba hình ảnh X-quang tương ứng với ba thể: ổ đọng thuốc hình thấu kính cho thể loét, khuyết bờ nham nhở cho thể sùi, thâm nhiễm cứng cho thể thâm nhiễm; hình thoát thuốc và hình thuốc không xuống được tá tràng không có trong sách. Đáp án là bổ sung, sách không in đáp án.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 11.5 — câu 4 lượng giá, đáp án bổ sung A/C/D đúng.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-131",
+      "note_id": 1793862975745,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tips lâm sàng <span style=\"color:#ffd43b\"><b>1–4</b></span> của bài là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau thượng vị kéo dài không có chu kỳ</b></span> khác với đau loét có chu kỳ; tính chất không chu kỳ là gợi ý quan trọng để nội soi.<br>2) <span style=\"color:#ffd43b\"><b>80% bệnh nhân giai đoạn sớm không có triệu chứng</b></span>, nên nội soi là cách duy nhất phát hiện sớm, không chờ triệu chứng điển hình.<br>3) Hạch tính theo số lượng trong AJCC 8th: <span style=\"color:#74c0fc\"><b>N3a là 7–15 hạch, N3b là từ 16 hạch trở lên</b></span>; T chia nhỏ thành <span style=\"color:#74c0fc\"><b>T1a, T1b, T4a, và T4b</b></span>.<br>4) Tổn thương <span style=\"color:#74c0fc\"><b>T1a thì cắt hớt nội soi, T1b thì nên mổ</b></span>; quyết định dựa trên độ sâu xâm lấn cùng chỉ định tuyệt đối, mở rộng và tương đối của JGCA.<br><br><b>💡 Giải thích của AI:</b><br>Bốn tips đầu nối triệu chứng với chẩn đoán và xếp giai đoạn: đau không chu kỳ gợi ý nội soi, 80% sớm không triệu chứng nên nội soi là cách duy nhất phát hiện sớm, và T1a so với T1b quyết định cắt hớt hay mổ.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 12.1 — tips 1–4.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-132",
+      "note_id": 1793862975747,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Tips lâm sàng <span style=\"color:#ffd43b\"><b>5–12</b></span> của bài là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>FLOT là chuẩn quanh mổ hiện nay, S-1 và CAPOX là chuẩn bổ trợ sau D2, và ELF đã lỗi thời.</b></span><br>2) Hoá xạ bổ trợ có lợi hay không phụ thuộc <span style=\"color:#74c0fc\"><b>mức độ nạo vét hạch và đã có hoá chất quanh mổ hay chưa</b></span>; không dạy hoá xạ luôn tốt hay hoá xạ vô ích.<br>3) <span style=\"color:#51cf66\"><b>D2 chuẩn hiện nay là D2 bảo tồn tụy và lách</b></span>, không phải D2 kiểu cũ kèm cắt tụy và lách.<br>4) Lợi ích miễn dịch tuyến đầu phụ thuộc <span style=\"color:#74c0fc\"><b>PD-L1</b></span>; xét nghiệm <span style=\"color:#74c0fc\"><b>HER2, PD-L1, cùng CLDN18.2</b></span> có ý nghĩa chọn bệnh nhân.<br>5) Marker đơn độc không đủ nhạy để chẩn đoán, độ nhạy chỉ <span style=\"color:#ffd43b\"><b>34–37%</b></span>; chẩn đoán vẫn là <span style=\"color:#51cf66\"><b>nội soi kèm sinh thiết</b></span>.<br>6) Diệt trừ H. pylori có lợi rõ nhất khi <span style=\"color:#51cf66\"><b>diệt sớm, trước khi có teo hay dị sản ruột</b></span>; diệt trừ muộn không đảo ngược được nguy cơ.<br>7) Phân biệt <span style=\"color:#74c0fc\"><b>chữ gốc của sách với khối cập nhật</b></span>; không bao giờ gán khuyến cáo chi tiết cho ESMO hay NCCN khi toàn văn chưa lấy được.<br>8) <span style=\"color:#51cf66\"><b>Ghi rõ khoảng trống bằng chứng trong bài</b></span>, vì một khoảng trống được nói thẳng an toàn hơn một con số bịa.<br><br><b>💡 Giải thích của AI:</b><br>Tám tips sau nối điều trị với bằng chứng: FLOT và S-1/CAPOX thay ELF, D2 bảo tồn, miễn dịch phụ thuộc PD-L1, marker không chẩn đoán được, diệt HP sớm, và kỷ luật phân biệt chữ gốc với khối cập nhật.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 12.1 — tips 5–12.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-133",
+      "note_id": 1793862975749,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Năm <span style=\"color:#74c0fc\"><b>checkpoint tự kiểm tra</b></span> của bài là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch tễ và bệnh nguyên: ung thư dạ dày đứng hàng đầu trong các ung thư tiêu hoá, tỉ lệ mắc cao ở Nhật Bản và Đông Nam Á; bệnh nguyên gồm <span style=\"color:#74c0fc\"><b>chế độ ăn, H. pylori, béo phì, viêm teo, thiếu máu ác tính, u tuyến, gia đình, và gen p53</b></span>.<br>2) Giải phẫu bệnh: ung thư tuyến chiếm <span style=\"color:#ffd43b\"><b>90%</b></span>, ba thể đại thể là thể u, thể loét và thể thâm nhiễm cứng; xếp giai đoạn theo <span style=\"color:#51cf66\"><b>AJCC 8th với hạch tính theo số lượng</b></span>.<br>3) Chẩn đoán: <span style=\"color:#51cf66\"><b>nội soi kèm sinh thiết là tiêu chuẩn vàng</b></span>, X-quang có ba hình ảnh tương ứng với ba thể, và marker không chẩn đoán được.<br>4) Điều trị: <span style=\"color:#51cf66\"><b>đa mô thức là chuẩn</b></span> — FLOT quanh mổ, S-1 và CAPOX bổ trợ, D2 bảo tồn tụy và lách, miễn dịch cùng đích phân tử phụ thuộc HER2, PD-L1 và CLDN18.2.<br>5) Giới hạn bằng chứng: toàn văn ESMO chỉ có phụ lục và NCCN chưa lấy được, không có số Việt Nam hiện tại ngoài GLOBOCAN 2024, và <span style=\"color:#ff6b6b\"><b>không có quét hệ thống do esearch sập</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Năm checkpoint bao quát toàn bộ bài từ dịch tễ tới giới hạn bằng chứng; người học tự kiểm tra được cả năm checkpoint thì đã nắm khung của bài.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 12.2 — năm checkpoint tự kiểm tra.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-134",
+      "note_id": 1793862975751,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Checklist <span style=\"color:#51cf66\"><b>chẩn đoán và điều trị rút gọn</b></span> của bài gồm những gì, và không gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hỏi tiền sử <span style=\"color:#74c0fc\"><b>chế độ ăn, H. pylori, béo phì, viêm teo, thiếu máu ác tính, u tuyến, và gia đình</b></span>.<br>2) Khám <span style=\"color:#ff6b6b\"><b>đau thượng vị, gầy sút, khối u, cổ chướng, và hạch Troisier</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Nội soi kèm sinh thiết; chụp cắt lớp và siêu âm; siêu âm nội soi trước cắt hớt; xếp giai đoạn theo AJCC 8th</b></span>.<br>4) Xét nghiệm <span style=\"color:#74c0fc\"><b>HER2, PD-L1, và CLDN18.2</b></span>; hội chẩn đa chuyên khoa; chọn đa mô thức theo giai đoạn; theo dõi sau điều trị <span style=\"color:#ffd43b\"><b>không quá 5 năm</b></span>.<br>5) Checklist <span style=\"color:#ff6b6b\"><b>không gồm</b></span> khuyến cáo chi tiết của ESMO hay NCCN, tỉ lệ chẩn đoán sớm tại Việt Nam hiện nay, tính sẵn có thuốc tại Việt Nam, hay tỉ lệ nạo vét D2 trong INT-0116 — vì không nội dung nào trong số đó đã kiểm chứng.<br><br><b>💡 Giải thích của AI:</b><br>Checklist rút gọn là công cụ tra nhanh ở ca trực; phần không gồm cũng quan trọng như phần gồm, vì nó nhắc người học không dạy số chưa kiểm chứng.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 12.3 — checklist chẩn đoán và điều trị.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-135",
+      "note_id": 1793862975753,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Danh mục tài liệu tham khảo của <span style=\"color:#51cf66\"><b>phần bổ sung</b></span> gồm những thử nghiệm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>12 thử nghiệm và tổng quan trong bundle lõi, tất cả tạp chí Q1</b></span>, đã kiểm chứng qua E-utilities ngày 05/11/2026: MAGIC, FLOT4, ACTS-GC, INT-0116, CheckMate 649, ToGA, KEYNOTE-811, SPOTLIGHT, Wong, Cochrane diệt trừ H. pylori, Cochrane hoá chất quanh mổ, và Fukase.<br>2) Các tóm tắt chỉ nêu <span style=\"color:#ffd43b\"><b>định tính, không kèm số liệu</b></span>, để tránh mọi sai lệch số học; mọi số liệu trong bài đều nằm ở phần thân bài kèm nguồn và quần thể.<br>3) Tổng quan Cochrane hoá chất quanh mổ <span style=\"color:#ffd43b\"><b>đã cũ</b></span> và được dùng kèm điểm tựa là các thử nghiệm mới hơn trong cùng danh sách.<br><br><b>💡 Giải thích của AI:</b><br>Danh mục phần bổ sung tách riêng với danh mục của sách; người học đọc hai danh mục này như hai nguồn khác nhau, một nguồn là sách dùng để thi, và một nguồn là bằng chứng hiện hành dùng để cập nhật kiến thức.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 14.1 — tài liệu tham khảo phần bổ sung; PMID 16822992, 30982686, 17978289, 11547741, 34102137, 20728210, 37871604, 37068504, 14722144, 32628791, 23728671, 18675689.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    },
+    {
+      "id": "SURG21-CARD-136",
+      "note_id": 1793862975755,
+      "tags": [
+        "ung-thu-da-day"
+      ],
+      "type": "basic",
+      "front": "Danh mục tài liệu tham khảo của <span style=\"color:#74c0fc\"><b>sách gốc</b></span> gồm những mục nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Bệnh học ngoại khoa</b></span>, Nhà xuất bản Y học Hà Nội, 1999, tập 1, tr. 24–41.<br>2) <span style=\"color:#74c0fc\"><b>Bách khoa thư bệnh học</b></span>, trung tâm quốc gia biên soạn từ điển bách khoa Việt Nam, Hà Nội, 1991, tập 1, tr. 284–287.<br>3) <span style=\"color:#74c0fc\"><b>Bài giảng bệnh học ngoại khoa</b></span>, Trường Đại học Y Dược Thành phố Hồ Chí Minh, 1998, tr. 140–151.<br>4) <span style=\"color:#74c0fc\"><b>Bài giảng ung thư học</b></span>, Nhà xuất bản Y học Hà Nội, 1999, tr. 184–187.<br>5) <span style=\"color:#74c0fc\"><b>Bài giảng điều trị học ngoại khoa</b></span>, Trường Đại học Y Dược Thành phố Hồ Chí Minh, 1998, tr. 101–128.<br>6) <span style=\"color:#74c0fc\"><b>Trịnh Hồng Sơn (2001)</b></span>: nghiên cứu nạo vét hạch trong điều trị phẫu thuật ung thư dạ dày, luận án Tiến sỹ y học.<br>7) <span style=\"color:#74c0fc\"><b>Đỗ Trọng Quyết (2010)</b></span>: nghiên cứu điều trị ung thư dạ dày bằng phẫu thuật có kết hợp hoá chất ELF và miễn dịch trị liệu Aslem, luận án Tiến sỹ y học.<br><br><b>💡 Giải thích của AI:</b><br>Danh mục được giữ nguyên toàn bộ từ sách, tách riêng với danh mục tài liệu tham khảo của phần bổ sung; hai danh mục là hai nguồn khác nhau — sách dùng để thi và bằng chứng hiện hành dùng để cập nhật kiến thức.<br><br>📖 Nguồn: Bài Ung thư dạ dày, phần 14.2 — tài liệu tham khảo của sách gốc, giữ nguyên.",
+      "tags_html": "<span class=\"tag\">ung-thu-da-day</span>"
+    }
+  ]
+}
