@@ -387,6 +387,7 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
         "37": "Nội tiết Sinh sản & Tránh thai",
         "38": "Bệnh lý Phụ khoa & Tử cung",
         "39": "Bệnh lý Phụ khoa & Tử cung",
+        "40": "Sản khoa & Chuyển dạ",
     }
     for d in sorted(san_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):
@@ -482,6 +483,8 @@ def scan_clinical_art(art_dir: Path) -> list[dict]:
         "43": "Vô sinh Nam & Đánh giá Nội tiết",
         "44": "Vô sinh Nam & Đánh giá Nội tiết",
         "46": "Phác đồ Chuyên sâu & Bệnh lý",
+        "47": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "48": "Pha Hoàng thể & Tiếp nhận Nội mạc",
     }
     for d in sorted(art_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):

@@ -17,7 +17,7 @@
 |:---:|:---|:---:|:---|:---|:---:|
 | [x] | **ART-GAP-01** | **P0** | Thất bại làm tổ liên tiếp (Recurrent Implantation Failure — RIF) | `02_Ho tro sinh san ART/45_Recurrent_Implantation_Failure_RIF` | ✅ ĐÃ HOÀN TẤT (MD + APKG) |
 | [ ] | **ART-GAP-02** | **P0** | Phác đồ đối kháng GnRH chuyên sâu (GnRH Antagonist Protocol Mastery) | `02_Ho tro sinh san ART/47_GnRH_Antagonist_Protocol_Mastery` | Chưa có bài riêng |
-| [ ] | **ART-GAP-03** | **P0** | Xử trí Niêm mạc tử cung mỏng & Tối ưu hóa cửa sổ làm tổ trong FET | `02_Ho tro sinh san ART/48_Thin_Endometrium_FET_Optimization` | Chưa có bài riêng |
+| [x] | **ART-GAP-03** | **P0** | Xử trí Niêm mạc tử cung mỏng & Tối ưu hóa cửa sổ làm tổ trong FET |  | ✅ ĐÃ HOÀN TẤT (MD + APKG) |
 | [ ] | **ART-GAP-04** | **P1** | Kỹ thuật Chọc hút noãn (OPU) & Chuyển phôi (ET) dưới hướng dẫn siêu âm | `02_Ho tro sinh san ART/49_OPU_ET_Ultrasound_Guided_Procedures` | Bài mới |
 | [ ] | **ART-GAP-05** | **P1** | Labo IVF lâm sàng: Đánh giá phôi, Time-lapse, Sinh thiết PGT & Thể khảm | `02_Ho tro sinh san ART/50_Clinical_Embryology_Lab_TimeLapse_PGT` | Bài mới |
 | [ ] | **ART-GAP-06** | **P1** | Suy buồng trứng sớm (POI) & Giảm dự trữ buồng trứng sớm (DOR) | `02_Ho tro sinh san ART/51_POI_DOR_Management_Oocyte_Donation` | Bài mới |
@@ -30,7 +30,7 @@
 | [ ] | **OB-GAP-01** | **P0** | Băng huyết sau sinh (Postpartum Hemorrhage — PPH): Tiếp cận 4T, MTP & Thang can thiệp | `01_San phu khoa/41_Postpartum_Hemorrhage_PPH_Management` | Cực kỳ cấp bách |
 | [ ] | **OB-GAP-02** | **P0** | Tiền sản giật thể nặng, Cơn tăng huyết áp kịch phát & Hội chứng HELLP | `01_San phu khoa/42_Severe_Preeclampsia_Eclampsia_HELLP` | Chưa có bài điều trị |
 | [ ] | **OB-GAP-03** | **P0** | Phổ gai nhau cài răng lược (PAS) & Cấp cứu Bánh nhau (Nhau tiền đạo, Nhau bong non) | `01_San phu khoa/43_Placenta_Accreta_Spectrum_PAS_Abruptio` | Cấp cứu ngoại sản |
-| [ ] | **OB-GAP-04** | **P0** | Chiều dài cổ tử cung (TVS CL), Hở eo CTC & Dự phòng sinh non | `03_Sieu am thai/09_Cervical_Length_PTB` | Cần cập nhật toàn diện |
+| [x] | **OB-GAP-04** | **P0** | Quản lý dự phòng đẻ non, doạ đẻ non & Chiều dài cổ tử cung |  | ✅ ĐÃ HOÀN TẤT (MD + APKG) |
 | [ ] | **OB-GAP-05** | **P0** | Ối vỡ non (PPROM), Kháng sinh chờ đợi & Quản lý nhiễm trùng ối | `03_Sieu am thai/45_PPROM_Ultrasound_Management` | Khoảng trống P0 |
 | [ ] | **OB-GAP-06** | **P1** | Chuyển dạ đình trệ, Biểu đồ chuyển dạ WHO Labour Care Guide & Chỉ định mổ lấy thai | `01_San phu khoa/44_Dystocia_Labour_Care_Guide_Cesarean_Audit` | Bài mới |
 | [ ] | **OB-GAP-07** | **P1** | Khởi phát chuyển dạ (IOL): Điểm Bishop, Làm chín muồi CTC cơ học vs thuốc | `01_San phu khoa/45_Induction_of_Labour_IOL_Cervical_Ripening` | Bài mới |

@@ -1,0 +1,1644 @@
+{
+  "deck_id": 7600000000028,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-28: Viêm Đường Mật Cấp",
+  "card_count": 134,
+  "cards": [
+    {
+      "id": "SURG28-CARD-001",
+      "note_id": 1793959204925,
+      "tags": [
+        "viem-duong-mat",
+        "dinh-nghia",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Viêm đường mật cấp</b></span> là gì, và vì sao bài này nhấn mạnh <span style=\"color:#51cf66\"><b>dẫn lưu đường mật</b></span> hơn là kháng sinh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm đường mật cấp là nhiễm trùng cấp tính của đường mật, xảy ra khi đường mật bị tắc và vi khuẩn phát triển trong mật ứ đọng.<br>2) Bệnh khởi phát đột ngột, diễn tiến nhanh, có thể tử vong trong vài ngày nếu không được dẫn lưu kịp thời, với tử vong <span style=\"color:#ffd43b\"><b>10–30%</b></span>.<br>3) Kháng sinh diệt vi khuẩn trong máu nhưng <span style=\"color:#ff6b6b\"><b>không hạ được áp lực đường mật</b></span>, nên chừng nào ống mật còn tắc thì vi khuẩn còn tiếp tục vào máu.<br>4) Chỉ có dẫn lưu đường mật mới làm mật chảy ra ngoài, hạ áp lực đường mật và cắt nguồn nhiễm trùng, vì vậy dẫn lưu là điều trị quyết định còn kháng sinh chỉ là điều trị hỗ trợ.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi cơ chế là tắc mật → ứ mật → tăng áp lực đường mật → vi khuẩn chuyển vị qua thành ống mật vào máu → nhiễm trùng huyết. Đây là điểm khác biệt căn bản với nhiều bệnh nhiễm trùng khác: trong viêm đường mật, kiểm soát nguồn nhiễm trùng bằng dẫn lưu quan trọng hơn kháng sinh. Người học hay nhầm rằng kháng sinh mạnh là đủ và dẫn lưu có thể chờ, nhưng không đúng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần tổng quan — định nghĩa, tử vong 10–30%, nguyên tắc dẫn lưu là then chốt."
+    },
+    {
+      "id": "SURG28-CARD-002",
+      "note_id": 1793959204927,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Khung bằng chứng của bài này là gì, và <span style=\"color:#ff6b6b\"><b>2 hạn chế lớn</b></span> phải nhớ ngay từ đầu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khung của bài là <span style=\"color:#74c0fc\"><b>Tokyo Guidelines 2018 (TG18)</b></span>, guideline quốc tế về viêm đường mật cấp và viêm túi mật cấp, đưa ra tiêu chuẩn chẩn đoán, phân độ nặng thành 3 độ và phác đồ xử trí theo từng độ nặng.<br>2) Hạn chế thứ nhất là toàn văn TG18 không lấy được vì nhà xuất bản trả phí, nên nội dung TG18 trong bài dùng ở mức tóm tắt của các bài gốc cộng với toàn văn thứ cấp tái bản đầy đủ bảng tiêu chuẩn và phân độ, và mọi khuyến cáo đều ghi rõ nguồn thứ cấp đã xác minh.<br>3) Hạn chế thứ hai là sau nhiều vòng tìm kiếm, không tìm thấy bài nào về viêm đường mật cấp trên các tạp chí hàng đầu trong danh sách hẹp có tóm tắt, nên bài không có tài liệu nào từ danh sách đó; thử nghiệm mạnh nhất về chủ đề này là một thử nghiệm ngẫu nhiên trên tạp chí Gut, còn các bài TG18 gốc đăng trên tạp chí chuyên về gan mật tụy.<br><br><b>💡 Giải thích của AI:</b><br>Bài không giấu 2 hạn chế này mà ghi rõ trong phần ghi chú nguồn. Người học phải biết mức bằng chứng của khung mình đang dùng: khuyến cáo TG18 ở đây không đọc từ toàn văn gốc mà từ tóm tắt và toàn văn thứ cấp đã xác minh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần tổng quan — khung TG18 và 2 hạn chế về toàn văn và tạp chí hàng đầu."
+    },
+    {
+      "id": "SURG28-CARD-003",
+      "note_id": 1793959204929,
+      "tags": [
+        "viem-duong-mat",
+        "giai-phau",
+        "duong-mat"
+      ],
+      "type": "basic",
+      "front": "Mật đi từ gan xuống ruột qua những ống nào, và <span style=\"color:#74c0fc\"><b>túi mật</b></span> nằm ở đâu trên đường đi đó?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gan sản xuất mật, mật chảy qua các ống mật nhỏ trong gan, tập trung vào <span style=\"color:#74c0fc\"><b>ống gan phải và ống gan trái</b></span>, hợp lại thành ống gan chung.<br>2) Ống gan chung hợp với ống túi mật thành <span style=\"color:#74c0fc\"><b>ống mật chủ</b></span>, chạy xuống, xuyên qua đầu tụy và đổ vào tá tràng tại <span style=\"color:#74c0fc\"><b>nhú Vater</b></span>, nơi có cơ vòng Oddi kiểm soát dòng mật.<br>3) Túi mật là túi chứa mật nằm dưới gan, nối với ống mật chủ qua ống túi mật, chứa được khoảng <span style=\"color:#ffd43b\"><b>30–50 mL</b></span> mật cô đặc.<br>4) Khi ăn mỡ, hormone cholecystokinin làm túi mật co bóp, đẩy mật xuống tá tràng để tiêu hóa mỡ.<br><br><b>💡 Giải thích của AI:</b><br>Khi ống mật chủ bị tắc, mật không xuống được tá tràng mà ứ lại trong đường mật và trong gan, đó là ứ mật. Hiểu đường đi của mật là nền để hiểu vì sao sỏi kẹt ở ống mật chủ gây ứ mật toàn bộ hệ thống phía trên chỗ tắc.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần nền tảng tối thiểu — giải phẫu đường mật và dòng mật."
+    },
+    {
+      "id": "SURG28-CARD-004",
+      "note_id": 1793959204931,
+      "tags": [
+        "viem-duong-mat",
+        "co-che",
+        "vi-khuan"
+      ],
+      "type": "basic",
+      "front": "Vì sao mật bình thường là <span style=\"color:#51cf66\"><b>vô trùng</b></span>, và tắc mật làm mất cơ chế bảo vệ đó ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong điều kiện bình thường, đường mật không có vi khuẩn, nhờ 2 cơ chế bảo vệ là <span style=\"color:#51cf66\"><b>cơ vòng Oddi</b></span> và <span style=\"color:#51cf66\"><b>dòng mật chảy liên tục</b></span> xuống ruột, rửa trôi vi khuẩn từ ruột đi ngược lên.<br>2) Khi mật ứ đọng do tắc, cả 2 cơ chế bảo vệ này mất đi vì mật đứng yên và cơ vòng Oddi không còn dòng chảy để rửa trôi vi khuẩn.<br>3) Vi khuẩn từ ruột, chủ yếu là vi khuẩn Gram âm đường ruột như <span style=\"color:#ff6b6b\"><b>E. coli và Klebsiella</b></span>, đi ngược lên đường mật, phát triển trong mật ứ và gây viêm đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Tên gọi ascending, nghĩa là đi lên, phản ánh đúng đường đi của vi khuẩn từ ruột ngược lên đường mật. Mật đứng yên là môi trường nuôi cấy lý tưởng cho vi khuẩn ruột, vì vậy tắc mật là điều kiện tiên quyết của viêm đường mật cấp.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần nền tảng tối thiểu — mật vô trùng và cơ chế bảo vệ đường mật."
+    },
+    {
+      "id": "SURG28-CARD-005",
+      "note_id": 1793959204933,
+      "tags": [
+        "viem-duong-mat",
+        "co-che",
+        "ap-luc-duong-mat"
+      ],
+      "type": "basic",
+      "front": "Áp lực đường mật bình thường là bao nhiêu, và áp lực tăng gây <span style=\"color:#ff6b6b\"><b>nhiễm trùng huyết</b></span> bằng cách nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bình thường, áp lực trong ống mật chủ thấp, khoảng <span style=\"color:#ffd43b\"><b>7–14 cm nước</b></span>.<br>2) Khi ống mật bị tắc, áp lực trong đường mật tăng lên và làm giãn các <span style=\"color:#74c0fc\"><b>mối nối chặt</b></span> giữa các tế bào ống mật.<br>3) Khi các mối nối này giãn ra, vi khuẩn và độc tố vi khuẩn từ trong lòng ống mật chuyển vị qua thành ống mật vào máu, đó là cơ chế gây nhiễm trùng huyết trong viêm đường mật.<br>4) Kháng sinh một mình không giải quyết được gốc rễ vì kháng sinh không làm giảm áp lực đường mật, chỉ có dẫn lưu mới hạ áp lực và cắt nguồn vi khuẩn vào máu.<br><br><b>💡 Giải thích của AI:</b><br>Áp lực đường mật là chìa khóa của nhiễm trùng huyết. Đây là lý do bài nhấn mạnh viêm đường mật cấp là bệnh cần dẫn lưu, kháng sinh chỉ là điều trị hỗ trợ.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần nền tảng tối thiểu — áp lực đường mật và cơ chế chuyển vị vi khuẩn."
+    },
+    {
+      "id": "SURG28-CARD-006",
+      "note_id": 1793959204935,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>ERCP, cắt cơ thắt, PTBD và EUS-BD</b></span> khác nhau ra sao, và phương pháp nào là dẫn lưu đầu tay?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>ERCP</b></span> là thủ thuật đưa ống nội soi qua miệng, dạ dày, tá tràng tới nhú Vater rồi đưa dụng cụ qua nhú vào ống mật chủ để lấy sỏi hoặc đặt ống dẫn lưu, và là phương pháp dẫn lưu đầu tay trong viêm đường mật cấp theo TG18.<br>2) <span style=\"color:#51cf66\"><b>Cắt cơ thắt</b></span> là cắt cơ vòng Oddi qua nội soi để mở rộng lỗ đổ của ống mật chủ giúp lấy sỏi dễ hơn, nhưng có nguy cơ chảy máu sau thủ thuật nên TG18 khuyến cáo không cắt thường quy nếu chỉ cần dẫn lưu, chỉ cắt khi cần lấy sỏi.<br>3) <span style=\"color:#51cf66\"><b>PTBD</b></span> là chọc kim qua da và qua gan vào ống mật trong gan rồi đặt ống dẫn lưu ra ngoài, là lựa chọn khi ERCP thất bại hoặc không làm được.<br>4) <span style=\"color:#51cf66\"><b>EUS-BD</b></span> là dùng siêu âm nội soi để dẫn lưu đường mật từ trong dạ dày hoặc tá tràng, là lựa chọn thứ 2 sau khi ERCP thất bại nếu có chuyên môn.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự lựa chọn là ERCP trước, rồi EUS-BD hoặc PTBD khi ERCP thất bại, phẫu thuật mở chỉ khi cả hai đều thất bại. Phân biệt rõ 4 thủ thuật này giúp người học không nhầm vai trò của từng phương pháp.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần nền tảng tối thiểu — ERCP, cắt cơ thắt, PTBD, EUS-BD."
+    },
+    {
+      "id": "SURG28-CARD-007",
+      "note_id": 1793959204937,
+      "tags": [
+        "viem-duong-mat",
+        "dinh-nghia",
+        "phan-biet"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Viêm đường mật cấp</b></span> khác <span style=\"color:#74c0fc\"><b>viêm túi mật cấp</b></span> ở điểm nào, và điều trị khác nhau ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm đường mật là viêm của hệ thống ống mật, thường do sỏi kẹt trong <span style=\"color:#74c0fc\"><b>ống mật chủ</b></span>, còn viêm túi mật là viêm của túi mật, thường do sỏi kẹt ở <span style=\"color:#74c0fc\"><b>cổ túi mật</b></span>.<br>2) Hai bệnh này có thể đi kèm nhau, nhưng điều trị khác nhau vì viêm túi mật cần <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> còn viêm đường mật cần <span style=\"color:#51cf66\"><b>dẫn lưu đường mật</b></span>.<br>3) Viêm đường mật cấp là nhiễm trùng cấp tính của đường mật khi đường mật bị tắc và vi khuẩn phát triển trong mật ứ đọng, diễn tiến trong vài ngày và có thể tử vong nhanh nếu không dẫn lưu.<br><br><b>💡 Giải thích của AI:</b><br>Nhầm hai bệnh này sẽ dẫn tới điều trị sai hướng: cắt túi mật không giải quyết được ống mật chủ đang tắc, và dẫn lưu đường mật không chữa được túi mật đang viêm. Khi gặp đau hạ sườn phải kèm sốt và vàng da, phải xác định viêm ở ống mật hay ở túi mật trước khi quyết định.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.1 — định nghĩa và phân biệt với viêm túi mật cấp."
+    },
+    {
+      "id": "SURG28-CARD-008",
+      "note_id": 1793959204939,
+      "tags": [
+        "viem-duong-mat",
+        "PSC",
+        "phan-biet"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Viêm đường mật xơ hóa nguyên phát (PSC)</b></span> khác viêm đường mật cấp ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>PSC</b></span> là bệnh viêm mạn tính của đường mật, tiến triển chậm qua nhiều năm, gây hẹp đường mật dần dần và cuối cùng dẫn tới xơ gan.<br>2) PSC không có sốt cao đột ngột, không có đau hạ sườn phải cấp tính, và không đáp ứng với kháng sinh và dẫn lưu cấp cứu, ngược hẳn với viêm đường mật cấp là bệnh nhiễm trùng cấp tính diễn tiến trong vài ngày và có thể tử vong nhanh nếu không dẫn lưu.<br>3) Bệnh nhân PSC có thể bị viêm đường mật cấp trên nền PSC khi đường mật hẹp bị tắc hoàn toàn, lúc đó điều trị như viêm đường mật cấp.<br><br><b>💡 Giải thích của AI:</b><br>PSC chỉ được nhắc ở mức phân biệt, không phải trọng tâm của bài. Bẫy hay gặp là nhầm một bệnh mạn tính tiến triển chậm với một bệnh nhiễm trùng cấp tính, dẫn tới điều trị hoàn toàn khác nhau.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.1 và 4.4 — phân biệt PSC với viêm đường mật cấp."
+    },
+    {
+      "id": "SURG28-CARD-009",
+      "note_id": 1793959204941,
+      "tags": [
+        "viem-duong-mat",
+        "soi-ong-mat-chu",
+        "nguyen-nhan"
+      ],
+      "type": "basic",
+      "front": "Nguyên nhân hay gặp nhất gây viêm đường mật cấp là <span style=\"color:#ff6b6b\"><b>sỏi ống mật chủ</b></span>, và sỏi gây bệnh bằng cách nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân hay gặp nhất là <span style=\"color:#ff6b6b\"><b>sỏi ống mật chủ</b></span>, có thể là sỏi từ túi mật rơi xuống ống mật chủ hoặc sỏi hình thành ngay trong ống mật chủ.<br>2) Sỏi kẹt trong ống mật chủ làm tắc dòng mật hoàn toàn hoặc một phần, mật ứ lại phía trên chỗ tắc, vi khuẩn phát triển và viêm đường mật xảy ra.<br>3) Khi gặp viêm đường mật cấp, câu hỏi đầu tiên là có sỏi ống mật chủ không, sỏi ở đâu và lấy sỏi bằng cách nào.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ trong bài: bệnh nhân đau hạ sườn phải, sốt, vàng da, siêu âm thấy sỏi ống mật chủ 12 mm kẹt ở đoạn cuối, đây là viêm đường mật do sỏi điển hình, cần ERCP lấy sỏi và dẫn lưu. Thứ tự tần suất phải nhớ: sỏi ống mật chủ là hay gặp nhất, các nguyên nhân còn lại ít gặp hơn nhiều.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.2 — sỏi ống mật chủ là nguyên nhân hay gặp nhất."
+    },
+    {
+      "id": "SURG28-CARD-010",
+      "note_id": 1793959204943,
+      "tags": [
+        "viem-duong-mat",
+        "nguyen-nhan",
+        "soi-trong-gan"
+      ],
+      "type": "basic",
+      "front": "Ngoài sỏi, những nguyên nhân nào khác gây <span style=\"color:#ff6b6b\"><b>tắc đường mật</b></span> và viêm đường mật cấp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hẹp đường mật lành tính sau mổ hoặc sau viêm, và hẹp đường mật ác tính do <span style=\"color:#ff6b6b\"><b>ung thư đầu tụy, ung thư đường mật, ung thư nhú tá tràng</b></span>; u đầu tụy chèn ép ống mật chủ từ bên ngoài gây tắc mật từ từ, và di căn hạch rốn gan cũng có thể chèn ép ống mật chủ.<br>2) <span style=\"color:#74c0fc\"><b>Sỏi trong gan</b></span> là sỏi nằm trong các ống mật trong gan phía trên chỗ hợp lưu ống gan, hay gặp hơn ở châu Á, liên quan tới chế độ ăn, kinh tế xã hội và ký sinh trùng đường mật, gây ra hội chứng viêm đường mật mủ tái phát.<br>3) Ký sinh trùng đường mật như giun đũa và sán lá gan cũng có thể gây tắc đường mật nhưng ít gặp hơn sỏi, và hẹp miệng nối sau phẫu thuật nối mật ruột cũng là nguyên nhân tắc mật gây viêm đường mật tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Sỏi trong gan gây ra vòng luẩn quẩn tự duy trì: viêm gây hẹp, hẹp gây ứ mật, ứ mật gây nhiễm trùng, nhiễm trùng gây viêm và hẹp thêm. Sỏi trong gan lâu ngày còn là yếu tố nguy cơ ung thư đường mật trong gan.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.2 — hẹp đường mật, u, sỏi trong gan, ký sinh trùng, hẹp miệng nối."
+    },
+    {
+      "id": "SURG28-CARD-011",
+      "note_id": 1793959204945,
+      "tags": [
+        "viem-duong-mat",
+        "tu-vong",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Tử vong của <span style=\"color:#74c0fc\"><b>viêm đường mật cấp</b></span> là bao nhiêu, và phụ thuộc vào điều gì nhất?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử vong của viêm đường mật cấp là <span style=\"color:#ffd43b\"><b>10–30%</b></span> theo một tổng quan hệ thống và phân tích gộp.<br>2) Một bài tổng quan khác cho thấy tử vong vẫn có thể lên tới <span style=\"color:#ffd43b\"><b>15%</b></span> dù đã dùng kháng sinh phổ rộng và dẫn lưu cấp cứu.<br>3) Tử vong phụ thuộc rất nhiều vào độ nặng lúc chẩn đoán: Grade I tử vong thấp, Grade III tử vong cao.<br>4) Viêm đường mật là nguyên nhân đứng thứ 2 gây nhiễm khuẩn huyết cộng đồng và đứng thứ 3 gây nhiễm khuẩn huyết bệnh viện.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh hay gặp ở người trung niên và người già vì sỏi mật tăng dần theo tuổi, gặp ở cả nam và nữ nhưng sỏi mật hay gặp hơn ở nữ nên viêm đường mật do sỏi cũng hay gặp hơn ở nữ. Con số tử vong cao này là lý do bài nhấn mạnh quyết định dẫn lưu phải được đưa ra trong giờ đầu tiên, không phải ngày hôm sau.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.3 — tử vong 10–30%, tới 15% dù kháng sinh phổ rộng và dẫn lưu cấp cứu."
+    },
+    {
+      "id": "SURG28-CARD-012",
+      "note_id": 1793959204947,
+      "tags": [
+        "viem-duong-mat",
+        "tu-vong",
+        "tien-luong"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu trên <span style=\"color:#ffd43b\"><b>262 bệnh nhân</b></span>, tử vong 30 ngày, 90 ngày và nội viện là bao nhiêu, và yếu tố nào dự báo tử vong nội viện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tử vong 30 ngày là <span style=\"color:#ffd43b\"><b>1,1%</b></span>, tử vong 90 ngày là <span style=\"color:#ffd43b\"><b>4,2%</b></span>, và tử vong nội viện là <span style=\"color:#ffd43b\"><b>5,7%</b></span>.<br>2) Con số này thấp hơn con số 10–30% trong tổng quan vì nghiên cứu này gồm nhiều bệnh nhân nhẹ và trung bình.<br>3) Yếu tố dự báo tử vong nội viện gồm đái tháo đường type 2, huyết áp tâm thu dưới <span style=\"color:#ffd43b\"><b>100 mmHg</b></span>, điểm Glasgow dưới <span style=\"color:#ffd43b\"><b>15</b></span>, và bệnh ác tính.<br>4) Tỉ số odds của đái tháo đường type 2 là 12,531 nhưng khoảng tin cậy cực rộng từ 0,354 tới 116,015, nên con số này không chắc chắn và phải dạy kèm cờ.<br><br><b>💡 Giải thích của AI:</b><br>Huyết áp tâm thu dưới 100 mmHg có tỉ số odds 10,108, điểm Glasgow dưới 15 có tỉ số odds 38,16, bệnh ác tính có tỉ số odds 14,135. Không có số liệu dịch tễ Việt Nam nào về viêm đường mật và sỏi mật được kiểm chứng trong đợt nghiên cứu này, nên phần áp dụng tại Việt Nam chỉ dạy nguyên lý và bối cảnh tuyến, không bịa số liệu Việt Nam.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 1.3 — nghiên cứu 262 bệnh nhân, tử vong 30/90 ngày và nội viện, yếu tố dự báo tử vong."
+    },
+    {
+      "id": "SURG28-CARD-013",
+      "note_id": 1793959204949,
+      "tags": [
+        "viem-duong-mat",
+        "giai-phau",
+        "dong-mat"
+      ],
+      "type": "basic",
+      "front": "Gan sản xuất bao nhiêu mật mỗi ngày, <span style=\"color:#74c0fc\"><b>ống mật chủ</b></span> bình thường rộng bao nhiêu, và túi mật chứa được bao nhiêu mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Gan sản xuất mật liên tục, khoảng <span style=\"color:#ffd43b\"><b>500–1000 mL</b></span> mỗi ngày.<br>2) Mật chảy từ các ống mật nhỏ trong gan ra ống gan phải và ống gan trái, hợp thành ống gan chung, rồi hợp với ống túi mật thành ống mật chủ, đường kính bình thường khoảng <span style=\"color:#ffd43b\"><b>6 mm</b></span>.<br>3) Ống mật chủ chạy xuống sau tá tràng, xuyên qua đầu tụy và đổ vào tá tràng tại nhú Vater.<br>4) Túi mật chứa được khoảng <span style=\"color:#ffd43b\"><b>30–50 mL</b></span> mật cô đặc, và khi ăn mỡ thì hormone cholecystokinin làm túi mật co bóp đẩy mật xuống tá tràng để tiêu hóa mỡ.<br><br><b>💡 Giải thích của AI:</b><br>Cơ vòng Oddi ở nhú Vater kiểm soát dòng mật: khi cơ vòng đóng, mật chảy ngược lên túi mật để dự trữ; khi cơ vòng mở sau ăn, mật chảy xuống tá tràng. Biết các kích thước nền này giúp nhận ra giãn đường mật trên hình ảnh là bất thường.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.1 — dòng mật bình thường, 500–1000 mL/ngày, ống mật chủ 6 mm, túi mật 30–50 mL."
+    },
+    {
+      "id": "SURG28-CARD-014",
+      "note_id": 1793959204951,
+      "tags": [
+        "viem-duong-mat",
+        "co-che",
+        "dong-mat"
+      ],
+      "type": "basic",
+      "front": "Hai cơ chế nào bảo vệ <span style=\"color:#74c0fc\"><b>đường mật</b></span> khỏi vi khuẩn ruột, và khi nào chúng mất đi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hai cơ chế bảo vệ là <span style=\"color:#51cf66\"><b>dòng mật chảy liên tục</b></span> và <span style=\"color:#51cf66\"><b>cơ vòng Oddi</b></span>, giữ cho vi khuẩn từ ruột không đi ngược lên đường mật.<br>2) Khi dòng mật ngừng chảy do tắc, vi khuẩn từ ruột có đường đi ngược lên đường mật mà không bị rửa trôi.<br>3) Dòng mật chảy liên tục và cơ vòng Oddi là 2 cơ chế bảo vệ đường mật khỏi vi khuẩn từ ruột, và cả hai đều mất đi khi ống mật bị tắc.<br><br><b>💡 Giải thích của AI:</b><br>Khi mật ứ đọng, vi khuẩn Gram âm đường ruột phát triển trong mật ứ và gây viêm. Vì vậy tắc mật không chỉ gây vàng da mà còn mở đường cho nhiễm trùng đường mật.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.1 — dòng mật và cơ vòng Oddi bảo vệ đường mật."
+    },
+    {
+      "id": "SURG28-CARD-015",
+      "note_id": 1793959204953,
+      "tags": [
+        "viem-duong-mat",
+        "co-che",
+        "chuoi-5-tang"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng từ <span style=\"color:#ff6b6b\"><b>tắc mật</b></span> tới <span style=\"color:#ff6b6b\"><b>nhiễm trùng huyết</b></span> đi qua những tầng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1 là sỏi kẹt trong ống mật chủ làm tắc dòng mật, mật ứ đọng phía trên chỗ tắc, vi khuẩn Gram âm đường ruột như E. coli và Klebsiella đi ngược lên đường mật và phát triển trong mật ứ.<br>2) Tầng 2 là vi khuẩn sinh sôi trong mật ứ và giải phóng độc tố, áp lực trong lòng ống mật tăng dần, áp lực tăng làm giãn các mối nối chặt giữa các tế bào ống mật, vi khuẩn và độc tố chuyển vị qua thành ống mật vào máu và vào hệ bạch huyết.<br>3) Tầng 3 là bệnh nhân sốt, rét run, đau hạ sườn phải, vàng da, xét nghiệm cho thấy bạch cầu tăng, CRP tăng, bilirubin tăng, ALP và GGT tăng, cấy máu dương tính với vi khuẩn Gram âm đường ruột.<br>4) Tầng 4 là khi chẩn đoán viêm đường mật cấp thì phải bắt đầu kháng sinh ngay và quyết định thời điểm dẫn lưu theo độ nặng, vì dẫn lưu là điều trị then chốt do chỉ dẫn lưu mới hạ được áp lực đường mật và cắt nguồn vi khuẩn vào máu.<br>5) Tầng 5 là nếu không dẫn lưu kịp thời thì vi khuẩn tiếp tục vào máu gây nhiễm trùng huyết, sốc nhiễm trùng, suy đa tạng và tử vong, với tử vong của viêm đường mật cấp là <span style=\"color:#ffd43b\"><b>10–30%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi này giải thích vì sao kháng sinh một mình không đủ: kháng sinh diệt vi khuẩn trong máu, nhưng chừng nào ống mật còn tắc và áp lực đường mật còn cao, vi khuẩn còn tiếp tục chuyển vị từ đường mật vào máu. Trong viêm đường mật, kiểm soát nguồn nhiễm trùng bằng dẫn lưu quan trọng hơn kháng sinh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.2 — chuỗi 5 tầng từ tắc mật tới nhiễm trùng huyết."
+    },
+    {
+      "id": "SURG28-CARD-016",
+      "note_id": 1793959204955,
+      "tags": [
+        "viem-duong-mat",
+        "Charcot",
+        "Reynolds",
+        "chuoi-5-tang"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng từ <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span> tới <span style=\"color:#ff6b6b\"><b>ngũ chứng Reynolds</b></span> diễn tiến ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1 là tắc mật gây ứ mật và viêm đường mật, vi khuẩn vào máu gây đáp ứng viêm toàn thân.<br>2) Tầng 2 là đáp ứng viêm toàn thân gây sốt và rét run, ứ mật gây vàng da, viêm đường mật gây đau hạ sườn phải.<br>3) Tầng 3 là 3 triệu chứng cùng xuất hiện, đau hạ sườn phải, sốt và vàng da, tạo thành <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span>, xét nghiệm cho thấy bạch cầu tăng và bilirubin tăng.<br>4) Tầng 4 là tam chứng Charcot đầy đủ có độ đặc hiệu rất cao từ <span style=\"color:#ffd43b\"><b>97–99%</b></span>, nên khi có đủ 3 triệu chứng thì khả năng viêm đường mật rất cao, nhưng tam chứng chỉ gặp ở thiểu số bệnh nhân nên không được chờ đủ tam chứng mới chẩn đoán.<br>5) Tầng 5 là khi nhiễm trùng huyết nặng lên, bệnh nhân thêm rối loạn ý thức và sốc, 5 triệu chứng cùng nhau tạo thành <span style=\"color:#ff6b6b\"><b>ngũ chứng Reynolds</b></span>, là dấu hiệu của viêm đường mật nặng, tiên lượng xấu, cần hồi sức và dẫn lưu cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng Charcot được mô tả từ thế kỷ 19 và vẫn được dạy tới nay, nhưng phải dạy đúng: tam chứng có độ đặc hiệu cao nhưng độ nhạy thấp. Ngũ chứng Reynolds còn hiếm gặp hơn tam chứng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.3 — chuỗi 5 tầng Charcot tới Reynolds."
+    },
+    {
+      "id": "SURG28-CARD-017",
+      "note_id": 1793959204957,
+      "tags": [
+        "viem-duong-mat",
+        "Charcot",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Độ nhạy và độ đặc hiệu của <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span> đầy đủ là bao nhiêu, và hệ quả thực hành là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong một nghiên cứu đoàn hệ lớn, độ nhạy của tam chứng Charcot đầy đủ chỉ là <span style=\"color:#ffd43b\"><b>25,4%</b></span>, trong khi độ đặc hiệu là <span style=\"color:#ffd43b\"><b>97,5%</b></span>.<br>2) Nghĩa là trong 100 bệnh nhân viêm đường mật, chỉ khoảng 25 người có đủ tam chứng Charcot, còn 75 người không có đủ 3 triệu chứng, vì vậy chờ đủ tam chứng mới chẩn đoán sẽ bỏ sót phần lớn bệnh nhân.<br>3) Ngũ chứng Reynolds, thêm rối loạn ý thức và sốc, còn hiếm gặp hơn.<br>4) Một số nguồn trích dẫn cho rằng độ nhạy của tam chứng Charcot có thể thấp tới 7% và của ngũ chứng Reynolds dưới 5%, nhưng đây là con số trích dẫn trong một bài tổng quan, không phải dữ liệu gốc của nghiên cứu đó, nên phải dạy kèm cờ.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng Charcot tốt để khẳng định khi dương tính vì độ đặc hiệu cao, nhưng kém để sàng lọc vì độ nhạy thấp. Bài học thực hành: dùng tiêu chuẩn TG18 để không bỏ sót, dùng tam chứng Charcot để khẳng định khi có đủ 3 triệu chứng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.3 — độ nhạy 25,4%, độ đặc hiệu 97,5% của tam chứng Charcot; cờ về con số 7% và dưới 5%."
+    },
+    {
+      "id": "SURG28-CARD-018",
+      "note_id": 1793959204959,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "suy-da-tang",
+        "chuoi-5-tang"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng <span style=\"color:#ff6b6b\"><b>suy đa tạng</b></span> ở viêm đường mật Grade III đi qua những tầng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1 là vi khuẩn và độc tố từ đường mật vào máu liên tục do áp lực đường mật cao không được giải quyết, đáp ứng viêm toàn thân mất kiểm soát và giải phóng cytokine ồ ạt.<br>2) Tầng 2 là cytokine gây giãn mạch toàn thân, tăng tính thấm mạch máu và giảm tưới máu các tạng, các tạng bắt đầu suy chức năng theo thứ tự tim mạch gây hạ huyết áp, thận gây thiểu niệu, hô hấp gây suy hô hấp, thần kinh gây rối loạn ý thức, gan gây rối loạn đông máu, huyết học gây giảm tiểu cầu.<br>3) Tầng 3 là bệnh nhân hạ huyết áp cần thuốc vận mạch, thiểu niệu, creatinine tăng, PaO2/FiO2 giảm, rối loạn ý thức, PT-INR tăng, tiểu cầu giảm, mỗi rối loạn tương ứng với 1 trong 6 hệ trong tiêu chuẩn Grade III của TG18.<br>4) Tầng 4 là khi bệnh nhân có suy chức năng bất kỳ 1 trong 6 hệ thì đó là Grade III, phải hồi sức tích cực về hô hấp và tuần hoàn rồi dẫn lưu đường mật cấp cứu trong vài giờ đầu, không chờ tới ngày hôm sau.<br>5) Tầng 5 là nếu không dẫn lưu kịp thời thì suy đa tạng tiến triển không hồi phục và tử vong, phẫu thuật mở dẫn lưu trong tình huống này có tử vong tới <span style=\"color:#ffd43b\"><b>40%</b></span> nên dẫn lưu nội soi là lựa chọn đầu tay.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi này giải thích vì sao phân độ nặng TG18 dựa vào suy tạng, không dựa vào triệu chứng. Một bệnh nhân có thể đau ít, sốt không cao, nhưng đã suy thận và hạ huyết áp thì đó là Grade III, còn một bệnh nhân đau dữ dội, sốt cao nhưng không suy tạng nào thì đó mới là Grade II. Người học phải đánh giá đủ 6 hệ cơ quan khi phân độ, không chỉ nhìn triệu chứng đau và sốt.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.4 — chuỗi 5 tầng suy đa tạng ở Grade III."
+    },
+    {
+      "id": "SURG28-CARD-019",
+      "note_id": 1793959204961,
+      "tags": [
+        "viem-duong-mat",
+        "nguoi-gia",
+        "khong-dien-hinh"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style=\"color:#ff6b6b\"><b>người già</b></span> bị viêm đường mật thường không có biểu hiện điển hình?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cơ chế là lão hóa làm giảm đáp ứng viêm, với sốt thấp hơn hoặc không sốt, bạch cầu tăng ít hơn và cảm giác đau giảm đi.<br>2) Trong một nghiên cứu trên 257 bệnh nhân viêm đường mật do sỏi ống mật chủ, tam chứng Charcot giảm dần theo tuổi, và ở nhóm từ <span style=\"color:#ffd43b\"><b>80 tuổi</b></span> trở lên thì mệt mỏi là triệu chứng hay gặp nhất, không phải đau, không phải sốt, không phải vàng da.<br>3) Ở nhóm từ 80 tuổi trở lên, <span style=\"color:#ffd43b\"><b>33,6%</b></span> bệnh nhân có rối loạn ý thức và <span style=\"color:#ffd43b\"><b>9,1%</b></span> bệnh nhân không đau, không sốt, không vàng da, cả 3 triệu chứng kinh điển đều vắng mặt.<br>4) Nhóm từ 80 tuổi trở lên cũng có tỉ lệ cấy máu dương tính cao hơn, nằm viện lâu hơn và nằm ICU lâu hơn có ý nghĩa.<br><br><b>💡 Giải thích của AI:</b><br>Hệ quả là người già có thể đang nhiễm trùng huyết do viêm đường mật mà chỉ biểu hiện mệt mỏi và lơ mơ. Ở người già, đừng chờ sốt và đau mới nghĩ tới viêm đường mật, vàng da kèm mệt mỏi và lơ mơ đã đủ để nghi ngờ và làm xét nghiệm.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.5 — người già không điển hình, nghiên cứu 257 bệnh nhân, 33,6% rối loạn ý thức, 9,1% không có cả 3 triệu chứng."
+    },
+    {
+      "id": "SURG28-CARD-020",
+      "note_id": 1793959204963,
+      "tags": [
+        "viem-duong-mat",
+        "nguoi-gia",
+        "TG18",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Ở người già, tiêu chuẩn <span style=\"color:#74c0fc\"><b>ứ mật</b></span> và tiêu chuẩn <span style=\"color:#74c0fc\"><b>viêm toàn thân</b></span> của Tokyo có mặt ở tỉ lệ bao nhiêu, và đề xuất tranh luận là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong nghiên cứu ở người già, tiêu chuẩn ứ mật của Tokyo có mặt ở <span style=\"color:#ffd43b\"><b>96,0%</b></span> bệnh nhân, trong khi tiêu chuẩn viêm toàn thân chỉ có mặt ở <span style=\"color:#ffd43b\"><b>75,9%</b></span>.<br>2) Vì vậy, tác giả đề xuất ứ mật nên thay viêm toàn thân làm tiêu chuẩn thiết yếu trong chẩn đoán.<br>3) Đề xuất này còn đang tranh luận và chưa được TG18 chấp nhận, vì TG18 coi viêm toàn thân là thiết yếu, nghĩa là không có viêm toàn thân thì không chẩn đoán viêm đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Bài học thực hành thì rõ: ở người già, đừng chờ sốt và đau mới nghĩ tới viêm đường mật, vàng da kèm mệt mỏi và lơ mơ đã đủ để nghi ngờ và làm xét nghiệm. Tranh luận về tiêu chuẩn thiết yếu cho thấy TG18 không hoàn hảo ở người già, và người học phải biết giới hạn này.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.5 và 3.1 — ứ mật 96,0%, viêm toàn thân 75,9%, đề xuất còn tranh luận."
+    },
+    {
+      "id": "SURG28-CARD-021",
+      "note_id": 1793959204965,
+      "tags": [
+        "viem-duong-mat",
+        "tu-vong"
+      ],
+      "type": "basic",
+      "front": "Tử vong của viêm đường mật cấp là {{c1::<span style=\"color:#ffd43b\"><b>10–30%</b></span>}}. Tới {{c2::<span style=\"color:#ffd43b\"><b>15%</b></span>}} dù đã dùng kháng sinh phổ rộng và dẫn lưu cấp cứu.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 1.3 — tử vong 10–30%, tới 15% dù kháng sinh phổ rộng và dẫn lưu cấp cứu."
+    },
+    {
+      "id": "SURG28-CARD-022",
+      "note_id": 1793959204968,
+      "tags": [
+        "viem-duong-mat",
+        "ap-luc-duong-mat"
+      ],
+      "type": "basic",
+      "front": "Áp lực bình thường trong ống mật chủ khoảng {{c1::<span style=\"color:#ffd43b\"><b>7–14 cm nước</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 2.1 — áp lực đường mật bình thường 7–14 cm nước."
+    },
+    {
+      "id": "SURG28-CARD-023",
+      "note_id": 1793959204970,
+      "tags": [
+        "viem-duong-mat",
+        "dong-mat"
+      ],
+      "type": "basic",
+      "front": "Gan sản xuất khoảng {{c1::<span style=\"color:#ffd43b\"><b>500–1000 mL</b></span>}} mật mỗi ngày.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 2.1 — gan sản xuất 500–1000 mL mật mỗi ngày."
+    },
+    {
+      "id": "SURG28-CARD-024",
+      "note_id": 1793959204972,
+      "tags": [
+        "viem-duong-mat",
+        "Charcot",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Tam chứng Charcot đầy đủ có độ nhạy {{c1::<span style=\"color:#ffd43b\"><b>25–46%</b></span>}} nhưng độ đặc hiệu tới {{c2::<span style=\"color:#ffd43b\"><b>97–99%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 2.3 và 3.3 — Charcot nhạy 25–46%, đặc hiệu 97–99%."
+    },
+    {
+      "id": "SURG28-CARD-025",
+      "note_id": 1793959204975,
+      "tags": [
+        "viem-duong-mat",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "Ở nhóm từ 80 tuổi trở lên, {{c1::<span style=\"color:#ffd43b\"><b>33,6%</b></span>}} có rối loạn ý thức. {{c2::<span style=\"color:#ffd43b\"><b>9,1%</b></span>}} bệnh nhân không có cả 3 triệu chứng kinh điển.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 2.5 — nhóm từ 80 tuổi trở lên, 33,6% rối loạn ý thức, 9,1% không có cả 3 triệu chứng."
+    },
+    {
+      "id": "SURG28-CARD-026",
+      "note_id": 1793959204978,
+      "tags": [
+        "viem-duong-mat",
+        "nguoi-gia",
+        "TG18"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn ứ mật có mặt ở {{c1::<span style=\"color:#ffd43b\"><b>96,0%</b></span>}} bệnh nhân già, trong khi tiêu chuẩn viêm toàn thân chỉ có mặt ở {{c2::<span style=\"color:#ffd43b\"><b>75,9%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 2.5 — ứ mật 96,0%, viêm toàn thân 75,9% ở người già."
+    },
+    {
+      "id": "SURG28-CARD-027",
+      "note_id": 1793959204981,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn chẩn đoán <span style=\"color:#74c0fc\"><b>TG18</b></span> gồm 3 nhóm nào, và mỗi nhóm có những mục gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhóm A là <span style=\"color:#ff6b6b\"><b>viêm toàn thân</b></span>, gồm sốt và rét run, cùng xét nghiệm cho thấy có đáp ứng viêm là bạch cầu tăng hoặc CRP tăng.<br>2) Nhóm B là ứ mật, gồm vàng da, cùng xét nghiệm chức năng gan bất thường là bilirubin tăng, ALP tăng, GGT tăng, ALT và AST tăng.<br>3) Nhóm C là hình ảnh, gồm giãn đường mật trên hình ảnh, cùng bằng chứng về nguyên nhân gây tắc trên hình ảnh như thấy sỏi, thấy khối u hoặc thấy hẹp.<br>4) Trong 3 nhóm, TG18 coi viêm toàn thân ở nhóm A là thiết yếu, nghĩa là không có viêm toàn thân thì không chẩn đoán viêm đường mật, và điểm này đang gây tranh luận vì nghiên cứu ở người già cho thấy tiêu chuẩn ứ mật có mặt ở 96,0% bệnh nhân trong khi viêm toàn thân chỉ có mặt ở 75,9%.<br><br><b>💡 Giải thích của AI:</b><br>Nhớ 3 nhóm A, B, C và quy tắc chẩn đoán là khung chính của bài, sẽ được dùng lại trong lưu đồ quyết định. Nhóm A là viêm toàn thân, nhóm B là ứ mật, nhóm C là hình ảnh, và thứ tự này phản ánh logic chẩn đoán từ lâm sàng tới xét nghiệm rồi tới hình ảnh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.1 — tiêu chuẩn TG18 3 nhóm A, B, C."
+    },
+    {
+      "id": "SURG28-CARD-028",
+      "note_id": 1793959204983,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Các <span style=\"color:#ffd43b\"><b>ngưỡng xét nghiệm</b></span> cụ thể trong tiêu chuẩn TG18 là gì, và quy tắc nghi ngờ với chắc chắn ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốt trên <span style=\"color:#ffd43b\"><b>38°C</b></span>.<br>2) Bilirubin toàn phần từ <span style=\"color:#ffd43b\"><b>2 mg/dL</b></span> trở lên.<br>3) ALP, ALT và AST trên <span style=\"color:#ffd43b\"><b>1,5 lần</b></span> giới hạn trên bình thường.<br>4) Quy tắc chẩn đoán là nghi ngờ cần 1 mục nhóm A cộng với 1 mục nhóm B hoặc nhóm C, còn chắc chắn cần đủ cả 3 nhóm là 1 mục A cộng 1 mục B cộng 1 mục C.<br><br><b>💡 Giải thích của AI:</b><br>Các ngưỡng này được xác minh qua toàn văn thứ cấp tái bản bảng TG18 vì toàn văn TG18 gốc không lấy được. Ví dụ trong bài: bệnh nhân sốt 38,5°C, bilirubin 3,2 mg/dL, siêu âm thấy giãn đường mật thì có đủ nhóm A, nhóm B và nhóm C nên chẩn đoán chắc chắn theo TG18.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.1 — ngưỡng TG18: sốt trên 38°C, bilirubin từ 2 mg/dL, ALP/ALT/AST trên 1,5 lần giới hạn trên."
+    },
+    {
+      "id": "SURG28-CARD-029",
+      "note_id": 1793959204985,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Chẩn đoán <span style=\"color:#74c0fc\"><b>nghi ngờ</b></span> và <span style=\"color:#74c0fc\"><b>chắc chắn</b></span> theo TG18 khác nhau ra sao, và nghi ngờ có phải chờ không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Chẩn đoán nghi ngờ</b></span> cần ít bằng chứng hơn, chỉ cần viêm toàn thân cộng với ứ mật hoặc hình ảnh, còn chẩn đoán chắc chắn cần đủ cả 3 nhóm.<br>2) Bệnh nhân chẩn đoán nghi ngờ vẫn cần được điều trị như viêm đường mật, với kháng sinh và đánh giá dẫn lưu, không phải chờ đủ tiêu chuẩn chắc chắn mới điều trị.<br>3) Trong thực hành cấp cứu, nhiều bệnh nhân lúc vào viện chỉ đạt mức nghi ngờ vì chưa có hình ảnh, ví dụ bệnh nhân sốt, rét run, vàng da, bilirubin tăng thì đạt nhóm A và nhóm B nhưng chưa siêu âm nên đó là chẩn đoán nghi ngờ.<br>4) Bệnh nhân này vẫn cần kháng sinh ngay và siêu âm khẩn để tìm bằng chứng nhóm C, và nếu siêu âm thấy giãn đường mật hoặc thấy sỏi ống mật chủ thì chẩn đoán trở thành chắc chắn, còn nếu siêu âm không thấy gì bất thường thì vẫn không loại trừ được viêm đường mật và cần làm thêm CT hoặc MRCP.<br><br><b>💡 Giải thích của AI:</b><br>Nghi ngờ không có nghĩa là chưa chắc nên chờ, nghi ngờ có nghĩa là đủ bằng chứng để bắt đầu điều trị và làm thêm hình ảnh. Đây là checkpoint 1 của bài: bệnh nhân sốt 38,5°C, rét run, vàng da, bilirubin 3,2 mg/dL, chưa làm hình ảnh thì đó là chẩn đoán nghi ngờ, xử trí là kháng sinh ngay và siêu âm khẩn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.2 — nghi ngờ và chắc chắn theo TG18, checkpoint 1."
+    },
+    {
+      "id": "SURG28-CARD-030",
+      "note_id": 1793959204987,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "Charcot",
+        "DPSG",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu đoàn hệ Hà Lan trên 794 bệnh nhân, độ nhạy và độ đặc hiệu của <span style=\"color:#74c0fc\"><b>TG18, DPSG và Charcot</b></span> là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong số 794 bệnh nhân nghi tắc mật được làm ERCP, 127 bệnh nhân, tức 16%, thật sự bị viêm đường mật.<br>2) Tiêu chuẩn TG18 có độ nhạy <span style=\"color:#ffd43b\"><b>82%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>60%</b></span>, tiêu chuẩn DPSG có độ nhạy <span style=\"color:#ffd43b\"><b>42%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>99,7%</b></span>, tam chứng Charcot có độ nhạy <span style=\"color:#ffd43b\"><b>46%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>99%</b></span>.<br>3) Kết luận của nghiên cứu là tiêu chuẩn TG18 chẩn đoán sai 4 trong 10 bệnh nhân viêm đường mật thật, trong khi tiêu chuẩn DPSG và Charcot bỏ sót hơn một nửa số bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>TG18 tốt để không bỏ sót bệnh nhân nên dùng TG18 để sàng lọc, còn Charcot tốt để khẳng định khi dương tính vì độ đặc hiệu rất cao. Phải dùng kết hợp, không dùng một mình tiêu chuẩn nào.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.3 — nghiên cứu đoàn hệ Hà Lan 794 bệnh nhân, TG18 82%/60%, DPSG 42%/99,7%, Charcot 46%/99%."
+    },
+    {
+      "id": "SURG28-CARD-031",
+      "note_id": 1793959204989,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "Charcot",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Hai nghiên cứu kiểm chứng khác nói gì thêm về độ chính xác của <span style=\"color:#74c0fc\"><b>TG18 và Charcot</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu khác trên 91 bệnh nhân cho thấy tiêu chuẩn TG18 có độ nhạy <span style=\"color:#ffd43b\"><b>86%</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>63%</b></span> và độ chính xác <span style=\"color:#ffd43b\"><b>81%</b></span>, trong khi khám lâm sàng của bác sĩ nội trú có độ nhạy 90,3% nhưng độ đặc hiệu 0%, nghĩa là khám lâm sàng nghi ngờ gần như mọi bệnh nhân đều bị viêm đường mật.<br>2) Tiêu chuẩn TG18 giúp giảm tỉ lệ dương tính giả, cải thiện độ chính xác và tránh ERCP không cần thiết.<br>3) Một nghiên cứu thứ 3 trên 1.643 bệnh nhân viêm đường mật do vỡ nang sán vào đường mật cho thấy tam chứng Charcot đầy đủ có độ nhạy 25,4% và độ đặc hiệu 97,5%, tiêu chuẩn TG18 chắc chắn có độ nhạy 65,1% và độ đặc hiệu 88,4%, tiêu chuẩn TG18 nghi ngờ hoặc chắc chắn có độ nhạy 74,6% và độ đặc hiệu 68,2%.<br>4) Một nghiên cứu ở Ấn Độ cho thấy 51,7% bệnh nhân không đạt tam chứng Charcot vẫn thuộc nhóm chẩn đoán chắc chắn theo tiêu chuẩn Tokyo, và hệ số kappa giữa tiêu chuẩn TG07 và TG13 chỉ là 0,404, mức thỏa thuận trung bình yếu, cho thấy các phiên bản tiêu chuẩn Tokyo khác nhau khá nhiều.<br><br><b>💡 Giải thích của AI:</b><br>Bài học từ 3 nghiên cứu này là nhất quán: TG18 nhạy nhưng kém đặc hiệu, Charcot và DPSG đặc hiệu nhưng kém nhạy. Kết luận của nghiên cứu ở Ấn Độ là tam chứng Charcot không đủ nhạy và không đủ đặc hiệu để chẩn đoán viêm đường mật.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.3 — nghiên cứu 91 bệnh nhân và 1.643 bệnh nhân, nghiên cứu Ấn Độ, kappa 0,404."
+    },
+    {
+      "id": "SURG28-CARD-032",
+      "note_id": 1793959204991,
+      "tags": [
+        "viem-duong-mat",
+        "Charcot",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân có đủ <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span> thì kết luận nào đúng: chắc chắn viêm đường mật, hay vẫn cần TG18 và hình ảnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân có đủ tam chứng Charcot, đau hạ sườn phải cộng sốt cộng vàng da, thì khả năng viêm đường mật rất cao vì tam chứng có độ đặc hiệu <span style=\"color:#ffd43b\"><b>97–99%</b></span>.<br>2) Nhưng vẫn cần đánh giá đầy đủ theo TG18 và làm hình ảnh để tìm nguyên nhân tắc và quyết định dẫn lưu, chứ không kết luận chắc chắn viêm đường mật chỉ dựa vào tam chứng.<br>3) Đây là checkpoint 2 của bài, và đáp án đúng là khả năng viêm đường mật rất cao nhưng vẫn cần tiêu chuẩn TG18 và hình ảnh để xác nhận.<br><br><b>💡 Giải thích của AI:</b><br>Tam chứng Charcot khẳng định mạnh khi dương tính, nhưng TG18 mới là khung chẩn đoán đầy đủ để phân độ và quyết định dẫn lưu. Đừng dừng lại ở tam chứng mà bỏ qua xét nghiệm và hình ảnh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.3 — checkpoint 2 về tam chứng Charcot đầy đủ."
+    },
+    {
+      "id": "SURG28-CARD-033",
+      "note_id": 1793959204993,
+      "tags": [
+        "viem-duong-mat",
+        "xet-nghiem",
+        "u-mat"
+      ],
+      "type": "basic",
+      "front": "Xét nghiệm máu trong viêm đường mật gồm những gì, và mẫu <span style=\"color:#74c0fc\"><b>ứ mật</b></span> khác viêm gan ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xét nghiệm máu gồm công thức máu, CRP, chức năng gan với bilirubin, ALP, GGT, ALT, AST, chức năng thận với creatinine, đông máu với PT-INR và khí máu khi bệnh nặng.<br>2) Bạch cầu tăng và CRP tăng phản ánh đáp ứng viêm toàn thân, thuộc nhóm A của tiêu chuẩn TG18, còn bilirubin toàn phần tăng phản ánh ứ mật, thuộc nhóm B.<br>3) <span style=\"color:#74c0fc\"><b>ALP và GGT</b></span> tăng cao hơn ALT và AST trong ứ mật, đây là mẫu xét nghiệm đặc trưng của tắc mật, khác với viêm gan là trong viêm gan thì ALT và AST tăng cao hơn ALP và GGT.<br>4) Bạch cầu bất thường trên 12.000/mm³ hoặc dưới 4.000/mm³ là một trong 5 tiêu chí của Grade II, bilirubin từ 2 mg/dL trở lên là ngưỡng trong tiêu chuẩn chẩn đoán, còn bilirubin từ 5 mg/dL trở lên là một trong 5 tiêu chí của Grade II.<br><br><b>💡 Giải thích của AI:</b><br>Đọc mẫu xét nghiệm ứ mật giúp phân biệt tắc mật với viêm gan: tắc mật thì ALP và GGT chiếm ưu thế, viêm gan thì ALT và AST chiếm ưu thế. Bạch cầu và bilirubin vừa là tiêu chí chẩn đoán vừa là tiêu chí phân độ, nên một xét nghiệm phục vụ hai mục đích.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — xét nghiệm máu và mẫu ứ mật ALP/GGT cao hơn ALT/AST."
+    },
+    {
+      "id": "SURG28-CARD-034",
+      "note_id": 1793959204995,
+      "tags": [
+        "viem-duong-mat",
+        "albumin",
+        "tien-luong"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Albumin thấp</b></span> có ý nghĩa gì trong viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Albumin máu thấp dưới <span style=\"color:#ffd43b\"><b>0,7 lần</b></span> giá trị chuẩn là một trong 5 tiêu chí của Grade II.<br>2) Albumin thấp còn là yếu tố tiên lượng xấu: một tổng quan hệ thống và phân tích gộp trên 8 nghiên cứu đoàn hệ với 2.215 bệnh nhân cho thấy hạ albumin máu liên quan tới tử vong với tỉ số odds <span style=\"color:#ffd43b\"><b>8,02</b></span>.<br>3) Mỗi giảm 1 g/dL albumin làm tăng <span style=\"color:#ffd43b\"><b>23%</b></span> nguy cơ tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Albumin thấp phản ánh tình trạng viêm mạn và suy dinh dưỡng nền, làm giảm khả năng chống đỡ nhiễm trùng. Vì vậy albumin vừa là tiêu chí phân độ vừa là yếu tố tiên lượng độc lập, phải đọc cùng với bạch cầu và bilirubin khi đánh giá độ nặng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 và 4.2 — albumin dưới 0,7 lần giá trị chuẩn, tỉ số odds tử vong 8,02, mỗi giảm 1 g/dL tăng 23% nguy cơ tử vong."
+    },
+    {
+      "id": "SURG28-CARD-035",
+      "note_id": 1793959204997,
+      "tags": [
+        "viem-duong-mat",
+        "cay-mau",
+        "cay-mat",
+        "vi-sinh"
+      ],
+      "type": "basic",
+      "front": "Cấy máu và cấy mật lấy khi nào, và vi khuẩn nào hay gặp nhất trong <span style=\"color:#ff6b6b\"><b>cấy mật</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cấy máu phải được lấy trước khi dùng kháng sinh, và cấy 2 bộ ở 2 vị trí khác nhau.<br>2) Cấy mật được lấy trong lúc làm ERCP, khi ống mật đã được dẫn lưu, và có tỉ lệ dương tính cao hơn cấy máu.<br>3) Trong một nghiên cứu trên 262 bệnh nhân, cấy máu dương tính ở <span style=\"color:#ffd43b\"><b>36,3%</b></span> bệnh nhân, và 83,2% trong số đó là nhiễm đơn vi khuẩn.<br>4) Một tổng quan hệ thống và phân tích gộp trên 5.147 bệnh nhân cho thấy cấy mật dương tính ở <span style=\"color:#ffd43b\"><b>77,3%</b></span> bệnh nhân, vi khuẩn Gram âm chiếm 69,8%, E. coli chiếm <span style=\"color:#ffd43b\"><b>27,4%</b></span>, K. pneumoniae chiếm <span style=\"color:#ffd43b\"><b>14,1%</b></span>.<br>5) Tuy nhiên, tính không đồng nhất giữa các nghiên cứu rất cao và kháng thuốc không gộp được, vì vậy nên điều trị theo kháng sinh đồ địa phương thay vì theo một phác đồ kinh nghiệm chung.<br><br><b>💡 Giải thích của AI:</b><br>Cấy máu dương tính với vi khuẩn Gram âm đường ruột ủng hộ chẩn đoán viêm đường mật. Cấy mật dương tính cao hơn nhiều vì mật là nơi nhiễm trùng trực tiếp, nhưng cấy mật chỉ lấy được khi đã làm ERCP, còn cấy máu lấy được ngay lúc vào viện.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — cấy máu 36,3%, cấy mật 77,3%, E. coli 27,4%, K. pneumoniae 14,1%."
+    },
+    {
+      "id": "SURG28-CARD-036",
+      "note_id": 1793959204999,
+      "tags": [
+        "viem-duong-mat",
+        "nhiem-hon-hop",
+        "tien-luong"
+      ],
+      "type": "basic",
+      "front": "Nhiễm <span style=\"color:#ff6b6b\"><b>hỗn hợp</b></span> Gram âm và Gram dương gặp ở bao nhiêu bệnh nhân, và ý nghĩa tiên lượng ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm hỗn hợp, tức cả vi khuẩn Gram âm và Gram dương cùng lúc, gặp ở <span style=\"color:#ffd43b\"><b>26,6%</b></span> bệnh nhân trong một nghiên cứu trên 503 bệnh nhân.<br>2) Nhiễm hỗn hợp là yếu tố nguy cơ độc lập của tử vong nội viện, với tỉ số odds <span style=\"color:#ffd43b\"><b>5,23</b></span>.<br>3) Các yếu tố nguy cơ nhiễm hỗn hợp gồm bệnh tim mạch với tỉ số odds 1,75, suy thận mạn 4,68, đặt stent đường mật 3,12, tiền sử mổ hoặc dẫn lưu 1,98, và nối mật ruột 9,53, trong đó nối mật ruột có tỉ số odds cao nhất.<br><br><b>💡 Giải thích của AI:</b><br>Vi khuẩn Gram dương như Enterococcus và Streptococcus ít gặp hơn Gram âm, nhưng khi có mặt cùng với Gram âm thì tiên lượng xấu hơn. Khi cấy mật cho thấy nhiễm hỗn hợp, phải đánh giá lại kháng sinh và tiên lượng, vì đây là dấu hiệu bệnh nặng hơn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — nhiễm hỗn hợp 26,6%, tỉ số odds tử vong 5,23, yếu tố nguy cơ."
+    },
+    {
+      "id": "SURG28-CARD-037",
+      "note_id": 1793959205001,
+      "tags": [
+        "viem-duong-mat",
+        "sieu-am",
+        "hinh-anh"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Siêu âm bụng</b></span> có vai trò gì trong viêm đường mật, và hạn chế lớn nhất là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Siêu âm bụng</b></span> là hình ảnh đầu tay vì rẻ, sẵn có, không bức xạ và làm được ở giường bệnh.<br>2) Siêu âm có thể thấy giãn đường mật trong gan và ngoài gan, thấy sỏi túi mật, và đôi khi thấy sỏi ống mật chủ.<br>3) Nhưng siêu âm hay bỏ sót sỏi ống mật chủ vì ống mật chủ nằm sâu và hay bị hơi ruột che lấp.<br>4) Vì vậy siêu âm bình thường không loại trừ được viêm đường mật, cần làm thêm CT hoặc MRCP khi nghi ngờ cao.<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh trong viêm đường mật có 2 mục đích: xác nhận giãn đường mật thuộc nhóm C của tiêu chuẩn TG18 và tìm nguyên nhân gây tắc. Siêu âm là bước đầu tiên và nhanh nhất, nhưng độ nhạy với sỏi ống mật chủ thấp nên không được dùng để loại trừ bệnh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.5 — siêu âm đầu tay, hay bỏ sót sỏi ống mật chủ."
+    },
+    {
+      "id": "SURG28-CARD-038",
+      "note_id": 1793959205003,
+      "tags": [
+        "viem-duong-mat",
+        "CT",
+        "MRCP",
+        "EUS",
+        "hinh-anh"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>CT, MRCP và siêu âm nội soi</b></span> khác nhau ra sao trong viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>CT bụng</b></span> có cản quang giúp thấy giãn đường mật, thấy sỏi, thấy khối u và đánh giá biến chứng như áp xe gan và viêm tụy, tốt hơn siêu âm trong đánh giá nguyên nhân tắc và biến chứng nhưng có bức xạ và cần thuốc cản quang.<br>2) MRCP là phương pháp không xâm lấn tốt nhất để thấy toàn bộ hệ thống đường mật và tìm sỏi ống mật chủ, không có bức xạ, không cần thuốc cản quang và thấy được sỏi nhỏ mà siêu âm hay CT bỏ sót, nhưng nhược điểm là đắt, chậm và không làm được ở bệnh nhân quá nặng hoặc có chống chỉ định chụp cộng hưởng từ.<br>3) Siêu âm nội soi là đưa đầu dò siêu âm qua nội soi vào tá tràng để nhìn ống mật chủ từ khoảng cách rất gần, có độ chính xác cao trong tìm sỏi ống mật chủ, tương đương MRCP.<br>4) Một guideline của ASGE năm 2019 so sánh siêu âm nội soi với MRCP trong đánh giá sỏi ống mật chủ và đưa ra phân tầng nguy cơ sỏi ống mật chủ để quyết định làm siêu âm nội soi, MRCP hay ERCP trực tiếp.<br>5) Trong đợt nghiên cứu này, không có số liệu độ chính xác hiện đại nào cho siêu âm, CT hay MRCP trong chẩn đoán viêm đường mật cấp, chỉ có độ chính xác cho sỏi ống mật chủ qua phân tầng ASGE và ESGE, vì vậy phần hình ảnh dạy theo khung TG18 nhóm C ở mức định tính, không dạy số liệu độ chính xác cho từng phương pháp hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Một guideline của IDSA năm 2024 về hình ảnh chẩn đoán nhiễm trùng trong ổ bụng có khuyến cáo về hình ảnh khi nghi viêm túi mật hoặc viêm đường mật cấp, nhưng chi tiết khuyến cáo không trích xuất được từ tóm tắt chỉ 710 ký tự nên bài chỉ dạy IDSA 2024 ở mức khung, không gán khuyến cáo cụ thể.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 3.5 — CT, MRCP, siêu âm nội soi, ASGE 2019, IDSA 2024 ở mức khung."
+    },
+    {
+      "id": "SURG28-CARD-039",
+      "note_id": 1793959205005,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Ngưỡng trong tiêu chuẩn TG18 là sốt trên {{c1::<span style=\"color:#ffd43b\"><b>38°C</b></span>}} và bilirubin toàn phần từ {{c2::<span style=\"color:#ffd43b\"><b>2 mg/dL</b></span>}} trở lên.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.1 — ngưỡng TG18: sốt trên 38°C, bilirubin từ 2 mg/dL."
+    },
+    {
+      "id": "SURG28-CARD-040",
+      "note_id": 1793959205008,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trong tiêu chuẩn TG18, ngưỡng men gan là trên {{c1::<span style=\"color:#ffd43b\"><b>1,5 lần</b></span>}} giới hạn trên bình thường.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.1 — ALP, ALT và AST trên 1,5 lần giới hạn trên bình thường."
+    },
+    {
+      "id": "SURG28-CARD-041",
+      "note_id": 1793959205010,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn TG18 có độ nhạy {{c1::<span style=\"color:#ffd43b\"><b>82–86%</b></span>}} nhưng độ đặc hiệu chỉ {{c2::<span style=\"color:#ffd43b\"><b>60–63%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.3 — TG18 nhạy 82–86%, đặc hiệu 60–63%."
+    },
+    {
+      "id": "SURG28-CARD-042",
+      "note_id": 1793959205013,
+      "tags": [
+        "viem-duong-mat",
+        "DPSG",
+        "do-nhay"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn Hà Lan (DPSG) có độ nhạy {{c1::<span style=\"color:#ffd43b\"><b>42%</b></span>}} và độ đặc hiệu {{c2::<span style=\"color:#ffd43b\"><b>99,7%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.3 — DPSG nhạy 42%, đặc hiệu 99,7%."
+    },
+    {
+      "id": "SURG28-CARD-043",
+      "note_id": 1793959205016,
+      "tags": [
+        "viem-duong-mat",
+        "cay-mat"
+      ],
+      "type": "basic",
+      "front": "Cấy mật dương tính ở {{c1::<span style=\"color:#ffd43b\"><b>77,3%</b></span>}} bệnh nhân viêm đường mật cấp.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — cấy mật dương tính 77,3%."
+    },
+    {
+      "id": "SURG28-CARD-044",
+      "note_id": 1793959205018,
+      "tags": [
+        "viem-duong-mat",
+        "cay-mat",
+        "vi-sinh"
+      ],
+      "type": "basic",
+      "front": "Trong cấy mật, E. coli chiếm {{c1::<span style=\"color:#ffd43b\"><b>27,4%</b></span>}} và K. pneumoniae chiếm {{c2::<span style=\"color:#ffd43b\"><b>14,1%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — E. coli 27,4%, K. pneumoniae 14,1% trong cấy mật."
+    },
+    {
+      "id": "SURG28-CARD-045",
+      "note_id": 1793959205021,
+      "tags": [
+        "viem-duong-mat",
+        "nhiem-hon-hop"
+      ],
+      "type": "basic",
+      "front": "Nhiễm hỗn hợp Gram âm và Gram dương gặp ở {{c1::<span style=\"color:#ffd43b\"><b>26,6%</b></span>}} bệnh nhân. Nhiễm hỗn hợp làm tăng tử vong nội viện với tỉ số odds {{c2::<span style=\"color:#ffd43b\"><b>5,23</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 3.4 — nhiễm hỗn hợp 26,6%, tỉ số odds tử vong nội viện 5,23."
+    },
+    {
+      "id": "SURG28-CARD-046",
+      "note_id": 1793959205024,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Phân độ nặng <span style=\"color:#74c0fc\"><b>TG18</b></span> chia viêm đường mật cấp thành 3 độ ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Grade I</b></span>, nhẹ, là viêm đường mật không đạt tiêu chí của Grade II hay Grade III lúc chẩn đoán, nghĩa là bệnh nhân không có bất kỳ yếu tố nguy cơ nào trong 5 tiêu chí Grade II và không suy chức năng hệ cơ quan nào trong 6 tiêu chí Grade III.<br>2) Grade II, trung bình, là viêm đường mật có bất kỳ 2 trong 5 tiêu chí, không cần đủ cả 5.<br>3) Grade III, nặng, là viêm đường mật có rối loạn chức năng bất kỳ 1 trong 6 hệ cơ quan, không cần suy nhiều hệ.<br><br><b>💡 Giải thích của AI:</b><br>Độ nặng quyết định thời điểm dẫn lưu: càng nặng càng phải dẫn lưu sớm. Phân độ là khung quyết định trung tâm của bài, mọi phác đồ sau này đều dựa vào 3 độ này.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — phân độ nặng TG18 Grade I, II, III."
+    },
+    {
+      "id": "SURG28-CARD-047",
+      "note_id": 1793959205026,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "Grade-II",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "5 tiêu chí của <span style=\"color:#74c0fc\"><b>Grade II</b></span> là gì, và cần bao nhiêu tiêu chí để xếp Grade II?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bạch cầu bất thường, trên <span style=\"color:#ffd43b\"><b>12.000/mm³</b></span> hoặc dưới <span style=\"color:#ffd43b\"><b>4.000/mm³</b></span>.<br>2) Sốt cao, từ <span style=\"color:#ffd43b\"><b>39°C</b></span> trở lên.<br>3) Tuổi từ <span style=\"color:#ffd43b\"><b>75</b></span> trở lên.<br>4) Tăng bilirubin máu, bilirubin toàn phần từ <span style=\"color:#ffd43b\"><b>5 mg/dL</b></span> trở lên.<br>5) Hạ albumin máu, dưới <span style=\"color:#ffd43b\"><b>0,7 lần</b></span> giá trị chuẩn.<br>6) Chỉ cần 2 trong 5 tiêu chí là đủ để xếp Grade II, không cần đủ cả 5.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ trong bài: bệnh nhân 78 tuổi, sốt 39,2°C, bilirubin 4,0 mg/dL thì có 2 tiêu chí Grade II là tuổi từ 75 và sốt từ 39°C nên xếp Grade II dù bilirubin chưa tới 5 mg/dL. Học thuộc 5 tiêu chí và con số 2 là đủ để phân độ Grade II nhanh ở giường bệnh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — 5 tiêu chí Grade II, cần 2 trong 5."
+    },
+    {
+      "id": "SURG28-CARD-048",
+      "note_id": 1793959205028,
+      "tags": [
+        "viem-duong-mat",
+        "TG18",
+        "Grade-III",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "6 hệ cơ quan trong tiêu chuẩn <span style=\"color:#ff6b6b\"><b>Grade III</b></span> là gì, và cần suy bao nhiêu hệ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tim mạch là hạ huyết áp cần dopamine từ <span style=\"color:#ffd43b\"><b>5 µg/kg/phút</b></span> trở lên hoặc bất kỳ liều norepinephrine nào.<br>2) Thần kinh là rối loạn ý thức.<br>3) Hô hấp là PaO2/FiO2 dưới <span style=\"color:#ffd43b\"><b>300</b></span>.<br>4) Thận là thiểu niệu và creatinine trên <span style=\"color:#ffd43b\"><b>2,0 mg/dL</b></span>.<br>5) Gan là PT-INR trên <span style=\"color:#ffd43b\"><b>1,5</b></span>.<br>6) Huyết học là tiểu cầu dưới <span style=\"color:#ffd43b\"><b>100.000/mm³</b></span>.<br>7) Chỉ cần suy 1 trong 6 hệ là đủ để xếp Grade III, không cần suy nhiều hệ.<br><br><b>💡 Giải thích của AI:</b><br>Một cờ đơn vị quan trọng: bản tái bản bảng TG18 trong một bài tổng quan in dopamine từ 5 mg/kg/phút, gần như chắc chắn đây là lỗi in vì liều dopamine tính bằng microgam, và 5 mg/kg/phút là liều gây chết. Đơn vị đúng theo TG18 là 5 µg/kg/phút, bài dạy 5 µg/kg/phút và ghi rõ cờ lỗi in này.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — 6 hệ của Grade III, cần suy 1 hệ; cờ đơn vị dopamine 5 µg/kg/phút, bản tái bản in sai thành mg/kg/phút."
+    },
+    {
+      "id": "SURG28-CARD-049",
+      "note_id": 1793959205030,
+      "tags": [
+        "viem-duong-mat",
+        "tien-luong",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Tiên lượng thay đổi ra sao theo độ nặng, và nhóm nào <span style=\"color:#51cf66\"><b>lợi nhất</b></span> từ dẫn lưu sớm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiên lượng phụ thuộc rất nhiều vào độ nặng lúc chẩn đoán, và một nghiên cứu kiểm chứng tiêu chuẩn TG13 cho thấy tử vong 30 ngày cao hơn có ý nghĩa ở độ nặng cao hơn.<br>2) Ở <span style=\"color:#74c0fc\"><b>Grade II</b></span>, bệnh nhân được dẫn lưu sớm hoặc cấp cứu có tử vong 30 ngày thấp hơn có ý nghĩa so với bệnh nhân không được dẫn lưu sớm, đây là nhóm có lợi nhất từ dẫn lưu sớm.<br>3) Ở Grade I, nghiên cứu không thấy khác biệt tử vong 30 ngày giữa dẫn lưu sớm hay cấp cứu và không dẫn lưu sớm, vì bệnh nhẹ và kháng sinh thường đủ nên tử vong thấp dù dẫn lưu sớm hay không.<br>4) Ở Grade III, nghiên cứu cũng không thấy khác biệt tử vong 30 ngày, không phải vì Grade III không cần dẫn lưu sớm mà vì ở Grade III tử vong cao dù dẫn lưu sớm hay không, do bệnh đã quá nặng.<br><br><b>💡 Giải thích của AI:</b><br>Vì vậy phân độ nặng không chỉ để mô tả bệnh mà để quyết định thời điểm dẫn lưu: Grade I thì kháng sinh thường đủ và đa số không cần dẫn lưu, cân nhắc dẫn lưu nếu không đáp ứng; Grade II thì dẫn lưu sớm; Grade III thì hồi sức hô hấp và tuần hoàn trước rồi dẫn lưu càng sớm càng tốt sau khi tình trạng cải thiện.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.2 — tiên lượng theo độ nặng, Grade II lợi nhất từ dẫn lưu sớm."
+    },
+    {
+      "id": "SURG28-CARD-050",
+      "note_id": 1793959205032,
+      "tags": [
+        "viem-duong-mat",
+        "phan-do",
+        "Grade-III"
+      ],
+      "type": "basic",
+      "front": "Vì sao bệnh nhân <span style=\"color:#ff6b6b\"><b>đau ít, sốt không cao</b></span> vẫn có thể là Grade III, còn bệnh nhân đau dữ dội, sốt cao lại chỉ là Grade II?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một bệnh nhân có thể đau ít, sốt không cao, nhưng đã suy thận và hạ huyết áp thì đó là <span style=\"color:#ff6b6b\"><b>Grade III</b></span>, nặng, cần dẫn lưu cấp cứu.<br>2) Ngược lại, một bệnh nhân đau dữ dội, sốt cao, nhưng không suy tạng nào thì đó là Grade II, chưa phải nặng nhất.<br>3) Người học phải đánh giá đủ 6 hệ cơ quan khi phân độ, không chỉ nhìn triệu chứng đau và sốt.<br><br><b>💡 Giải thích của AI:</b><br>Đây là điểm khác biệt căn bản của phân độ TG18: phân độ dựa vào suy tạng, không dựa vào triệu chứng. Đau dữ dội và sốt cao gây ấn tượng nặng nhưng chưa chắc đã nặng, còn suy tạng âm thầm mới là dấu hiệu nặng thật sự.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 2.4 và 4.2 — phân độ dựa vào suy tạng, không dựa vào triệu chứng."
+    },
+    {
+      "id": "SURG28-CARD-051",
+      "note_id": 1793959205034,
+      "tags": [
+        "viem-duong-mat",
+        "nguoi-gia",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Khi phân độ cho <span style=\"color:#ff6b6b\"><b>người già</b></span> cần cẩn thận điều gì, và ngưỡng dẫn lưu đặt ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tuổi từ 75 trở lên là một trong 5 tiêu chí của <span style=\"color:#74c0fc\"><b>Grade II</b></span>, nghĩa là chỉ cần thêm 1 tiêu chí nữa, ví dụ sốt cao hoặc bilirubin cao, là bệnh nhân già đã thành Grade II.<br>2) Người già thường không có biểu hiện điển hình nên dễ bị phân độ thấp hơn thực tế, trong nghiên cứu trên 257 bệnh nhân thì nhóm từ 80 tuổi trở lên có 33,6% rối loạn ý thức và 9,1% không đau, không sốt, không vàng da.<br>3) Rối loạn ý thức là tiêu chí suy thần kinh của Grade III, nghĩa là bệnh nhân già lơ mơ đã là Grade III dù không đau và không sốt.<br>4) Vì vậy khi phân độ cho người già, phải đánh giá đủ 6 hệ cơ quan, đặc biệt là ý thức, huyết áp và chức năng thận, đừng chỉ nhìn đau và sốt để phân độ.<br>5) Ngưỡng dẫn lưu ở người già phải thấp hơn người trẻ: khi nghi ngờ viêm đường mật ở người già, nên dẫn lưu sớm hơn, không chờ đủ tiêu chuẩn chắc chắn.<br><br><b>💡 Giải thích của AI:</b><br>Người già là nhóm cần phân độ cẩn thận nhất vì 2 lý do trái ngược nhau: tuổi cao tự nó đã là một tiêu chí Grade II, nhưng biểu hiện nghèo nàn lại khiến người khám dễ đánh giá thấp độ nặng. Người già cũng có tỉ lệ cấy máu dương tính cao hơn, nằm viện lâu hơn và nằm ICU lâu hơn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.3 — người già cần phân độ cẩn thận, ngưỡng dẫn lưu thấp hơn."
+    },
+    {
+      "id": "SURG28-CARD-052",
+      "note_id": 1793959205036,
+      "tags": [
+        "viem-duong-mat",
+        "PSC",
+        "soi-trong-gan",
+        "phan-biet"
+      ],
+      "type": "basic",
+      "front": "Phân biệt viêm đường mật cấp với <span style=\"color:#74c0fc\"><b>PSC và sỏi trong gan</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) PSC là bệnh viêm mạn tính của đường mật, tiến triển qua nhiều năm, gây hẹp đường mật dần dần và cuối cùng dẫn tới xơ gan và suy gan, hay gặp ở người trẻ và trung niên, thường kèm bệnh viêm ruột như viêm loét đại tràng.<br>2) Tỉ lệ PSC toàn cầu tới <span style=\"color:#ffd43b\"><b>31,7/100.000</b></span> người, đa số bệnh nhân PSC cuối cùng cần ghép gan hoặc gặp biến chứng nặng như bệnh gan giai đoạn cuối và ung thư đường mật.<br>3) PSC khác với viêm đường mật cấp ở chỗ PSC diễn tiến mạn tính, không có sốt cao đột ngột, không có đau hạ sườn phải cấp tính, và không đáp ứng với kháng sinh và dẫn lưu cấp cứu.<br>4) Sỏi trong gan là sỏi nằm trong các ống mật ở phía trong gan, phía trên chỗ hợp lưu của ống gan phải và ống gan trái, ở châu Á gặp nhiều hơn so với phương Tây do chế độ ăn, điều kiện kinh tế xã hội và ký sinh trùng đường mật.<br>5) Cơ chế của sỏi trong gan là vòng luẩn quẩn tự duy trì: viêm đường mật gây hẹp đường mật, hẹp gây ứ mật, ứ mật gây nhiễm trùng, nhiễm trùng gây viêm và hẹp thêm, và sỏi trong gan lâu ngày là yếu tố nguy cơ ung thư đường mật trong gan.<br><br><b>💡 Giải thích của AI:</b><br>Hội chứng viêm đường mật mủ tái phát là viêm đường mật tái đi tái lại nhiều lần do sỏi trong gan, điều trị cần đa chuyên khoa và thường khó khăn hơn sỏi ống mật chủ. Tuy nhiên, bệnh nhân PSC có thể bị viêm đường mật cấp trên nền PSC khi đường mật hẹp bị tắc hoàn toàn, lúc đó điều trị như viêm đường mật cấp.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.4 — PSC tỉ lệ 31,7/100.000, sỏi trong gan và vòng luẩn quẩn viêm hẹp ứ nhiễm trùng."
+    },
+    {
+      "id": "SURG28-CARD-053",
+      "note_id": 1793959205038,
+      "tags": [
+        "viem-duong-mat",
+        "phan-biet",
+        "viem-tuy",
+        "ung-thu"
+      ],
+      "type": "basic",
+      "front": "Phân biệt viêm đường mật với <span style=\"color:#74c0fc\"><b>viêm túi mật cấp, viêm tụy do sỏi và ung thư đường mật</b></span> bằng dấu hiệu nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Viêm túi mật cấp</b></span> phân biệt với viêm đường mật cấp ở chỗ viêm túi mật đau hạ sườn phải và sốt nhưng thường không vàng da, bilirubin tăng ít, và siêu âm thấy túi mật to, thành dày, có sỏi, còn viêm đường mật đau hạ sườn phải, sốt, vàng da rõ, bilirubin tăng cao, ALP và GGT tăng cao.<br>2) Viêm tụy cấp do sỏi phân biệt với viêm đường mật ở chỗ viêm tụy đau thượng vị dữ dội lan ra sau lưng, amylase và lipase tăng rất cao trên 3 lần giới hạn trên, còn viêm đường mật đau hạ sườn phải, amylase và lipase tăng ít hoặc bình thường, bilirubin tăng cao.<br>3) Sỏi ống mật chủ có thể gây cả viêm đường mật và viêm tụy cùng lúc vì sỏi kẹt ở đoạn cuối ống mật chủ làm tắc cả ống mật và ống tụy.<br>4) Ung thư đường mật phân biệt với viêm đường mật do sỏi ở chỗ ung thư gây tắc mật từ từ, vàng da tăng dần trong nhiều tuần, sụt cân, không sốt cao đột ngột, và hình ảnh thấy khối u hoặc hẹp đường mật không đều, còn viêm đường mật do sỏi gây sốt cao đột ngột, đau hạ sườn phải, và hình ảnh thấy sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Hai bệnh viêm túi mật và viêm đường mật có thể đi kèm nhau và cùng do sỏi mật gây ra, vì vậy phải đánh giá cả túi mật và ống mật chủ trên cùng một bệnh nhân thay vì chỉ nhìn một cơ quan.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 4.4 — phân biệt viêm túi mật, viêm tụy do sỏi, ung thư đường mật."
+    },
+    {
+      "id": "SURG28-CARD-054",
+      "note_id": 1793959205040,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-II",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Grade II cần bất kỳ {{c1::<span style=\"color:#ffd43b\"><b>2</b></span>}} trong 5 tiêu chí.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — Grade II cần bất kỳ 2 trong 5 tiêu chí."
+    },
+    {
+      "id": "SURG28-CARD-055",
+      "note_id": 1793959205042,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "dopamine"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn tim mạch của Grade III là dopamine từ {{c1::<span style=\"color:#ffd43b\"><b>5 µg/kg/phút</b></span>}} trở lên hoặc bất kỳ liều norepinephrine nào.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — tiêu chuẩn tim mạch Grade III, dopamine 5 µg/kg/phút, cờ lỗi in mg/kg/phút."
+    },
+    {
+      "id": "SURG28-CARD-056",
+      "note_id": 1793959205044,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Grade III cần suy chức năng bất kỳ {{c1::<span style=\"color:#ffd43b\"><b>1</b></span>}} trong 6 hệ cơ quan.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — Grade III cần suy 1 trong 6 hệ."
+    },
+    {
+      "id": "SURG28-CARD-057",
+      "note_id": 1793959205046,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Tiêu chí thận của Grade III là creatinine trên {{c1::<span style=\"color:#ffd43b\"><b>2,0 mg/dL</b></span>}}, và tiêu chí huyết học là tiểu cầu dưới {{c2::<span style=\"color:#ffd43b\"><b>100.000/mm³</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — tiêu chí thận creatinine trên 2,0 mg/dL, tiêu chí huyết học tiểu cầu dưới 100.000/mm³."
+    },
+    {
+      "id": "SURG28-CARD-058",
+      "note_id": 1793959205049,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Tiêu chí hô hấp của Grade III là PaO2/FiO2 dưới {{c1::<span style=\"color:#ffd43b\"><b>300</b></span>}}, và tiêu chí gan là PT-INR trên {{c2::<span style=\"color:#ffd43b\"><b>1,5</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 4.1 — tiêu chí hô hấp PaO2/FiO2 dưới 300, tiêu chí gan PT-INR trên 1,5."
+    },
+    {
+      "id": "SURG28-CARD-059",
+      "note_id": 1793959205052,
+      "tags": [
+        "viem-duong-mat",
+        "hoi-suc",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "Xử trí ban đầu ở bệnh nhân nghi viêm đường mật bắt đầu bằng gì, và <span style=\"color:#51cf66\"><b>hồi sức</b></span> gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xử trí ban đầu bắt đầu bằng <span style=\"color:#51cf66\"><b>đo sinh hiệu</b></span> để đánh giá tình huống có cấp cứu hay không, và nếu đánh giá là cấp cứu thì phải bắt đầu điều trị nội khoa ngay, bao gồm hồi sức hô hấp và tuần hoàn nếu cần, mà không chờ chẩn đoán xác định.<br>2) Hồi sức ban đầu gồm đặt đường truyền tĩnh mạch lớn, truyền dịch, đo huyết áp và mạch liên tục, đo SpO2, và cho thở oxy nếu cần.<br>3) Bệnh nhân hạ huyết áp cần truyền dịch tích cực và thuốc vận mạch, với norepinephrine là thuốc đầu tay trong sốc nhiễm trùng; bệnh nhân suy hô hấp cần thở oxy và cân nhắc thở máy nếu suy hô hấp nặng; bệnh nhân rối loạn ý thức cần bảo vệ đường thở.<br>4) Bệnh nhân không được ăn uống nếu nghi ngờ cần làm ERCP hoặc mổ, vì dạ dày đầy thức ăn làm tăng nguy cơ trào ngược và hít sặc khi gây mê hoặc an thần.<br><br><b>💡 Giải thích của AI:</b><br>Hồi sức không thay thế được dẫn lưu, hồi sức chỉ giúp bệnh nhân đủ ổn định để làm thủ thuật dẫn lưu an toàn. Đây là checkpoint 3 của bài: bệnh nhân Grade III, huyết áp 85/50 mmHg, SpO2 89%, lơ mơ thì thứ tự đúng là hồi sức hô hấp và tuần hoàn trước rồi dẫn lưu càng sớm càng tốt sau khi tình trạng cải thiện, làm ERCP khi huyết áp tụt và suy hô hấp chưa được hồi sức là nguy hiểm.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.1 — hồi sức ban đầu, checkpoint 3."
+    },
+    {
+      "id": "SURG28-CARD-060",
+      "note_id": 1793959205054,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "hoi-suc",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "Thuật toán xử trí <span style=\"color:#ff6b6b\"><b>Grade III</b></span>: hồi sức trước hay dẫn lưu trước, và trình tự đúng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hồi sức hô hấp và tuần hoàn</b></span> ngay tại ICU, gồm truyền dịch, thuốc vận mạch, thở oxy, thở máy nếu suy hô hấp nặng, và bảo vệ đường thở nếu rối loạn ý thức.<br>2) Bắt đầu kháng sinh phổ rộng ngay, không chờ kết quả cấy máu.<br>3) Dẫn lưu càng sớm càng tốt sau khi tình trạng cải thiện đủ để làm thủ thuật, và hồi sức song song với chuẩn bị dẫn lưu, không trì hoãn dẫn lưu vô thời hạn.<br>4) Phương pháp dẫn lưu đầu tay vẫn là ERCP qua nhú, và nếu ERCP thất bại thì chuyển sang EUS-BD hoặc PTBD ngay.<br><br><b>💡 Giải thích của AI:</b><br>Hồi sức trước, dẫn lưu sau không có nghĩa là trì hoãn dẫn lưu vô thời hạn, mà có nghĩa là hồi sức song song với chuẩn bị dẫn lưu và dẫn lưu ngay khi bệnh nhân đủ ổn định để làm thủ thuật. Ở Grade III, TG18 khuyến cáo hồi sức hô hấp và tuần hoàn trước rồi dẫn lưu càng sớm càng tốt sau khi tình trạng cải thiện.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.1 — hồi sức trước, dẫn lưu sau ở Grade III theo TG18."
+    },
+    {
+      "id": "SURG28-CARD-061",
+      "note_id": 1793959205056,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "TG18"
+      ],
+      "type": "basic",
+      "front": "Kháng sinh kinh nghiệm trong viêm đường mật phải bao phủ vi khuẩn nào, và <span style=\"color:#51cf66\"><b>nhóm thuốc cho nhiễm trùng cộng đồng</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Kháng sinh kinh nghiệm</b></span> phải bao phủ vi khuẩn Gram âm đường ruột như E. coli và Klebsiella, cùng vi khuẩn kỵ khí.<br>2) Nhóm penicillin gồm ampicillin/sulbactam, không khuyến cáo nếu tỉ lệ kháng trên 20%, và piperacillin/tazobactam.<br>3) Nhóm cephalosporin gồm cefazolin, cefotiam, cefuroxime, ceftriaxone, cefotaxime có hoặc không kèm metronidazole, cùng cefmetazole, cefoxitin, flomoxef và cefoperazone-sulbactam.<br>4) Nhóm carbapenem gồm ertapenem cho Grade I và II, còn imipenem, meropenem và doripenem cho Grade III.<br><br><b>💡 Giải thích của AI:</b><br>Lựa chọn nhóm thuốc phụ thuộc vào độ nặng: Grade I và II dùng nhóm nhẹ hơn như ertapenem và cephalosporin, Grade III dùng nhóm mạnh hơn như imipenem, meropenem và doripenem. Lựa chọn cũng phụ thuộc vào kháng sinh đồ địa phương: nếu tỉ lệ kháng ampicillin/sulbactam trên 20% ở địa phương thì không dùng nhóm này. Ví dụ: bệnh nhân Grade III dùng imipenem hoặc meropenem, bệnh nhân Grade I dùng ertapenem hoặc ceftriaxone kèm metronidazole.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.2 — nhóm thuốc TG18 cho nhiễm trùng cộng đồng theo độ nặng."
+    },
+    {
+      "id": "SURG28-CARD-062",
+      "note_id": 1793959205058,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "lieu"
+      ],
+      "type": "basic",
+      "front": "Vì sao bài này <span style=\"color:#ff6b6b\"><b>không dạy liều mg</b></span> của bất kỳ kháng sinh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bài này không dạy <span style=\"color:#ffd43b\"><b>liều mg</b></span> của bất kỳ kháng sinh nào, vì trong mọi tóm tắt và toàn văn lấy được, không có nguồn nào ghi liều mg kháng sinh.<br>2) Liều kháng sinh trong TG18 nằm trong toàn văn trả phí, không lấy được.<br>3) Người học dùng liều theo hướng dẫn của bệnh viện, theo chức năng thận của bệnh nhân, và theo kháng sinh đồ.<br>4) Không được bịa liều mg để viết cho đủ bài, và nhiễm trùng liên quan chăm sóc y tế cần kháng sinh phổ rộng hơn vì vi khuẩn kháng thuốc hay gặp hơn.<br><br><b>💡 Giải thích của AI:</b><br>Đây là một bẫy lâm sàng của bài: dạy liều mg khi không có liều nào được kiểm chứng. Thẻ này chỉ dạy tên nhóm thuốc, không dạy liều, đúng như bài giảng. Khi đi lâm sàng, liều luôn phải tra theo hướng dẫn của bệnh viện và chức năng thận của từng bệnh nhân.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.2 — không dạy liều mg vì không có liều nào được kiểm chứng."
+    },
+    {
+      "id": "SURG28-CARD-063",
+      "note_id": 1793959205060,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "thoi-gian"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Kháng sinh</b></span> trong viêm đường mật dùng bao lâu, và tính thời gian từ khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) TG18 khuyến cáo thời gian kháng sinh là <span style=\"color:#ffd43b\"><b>4–7 ngày</b></span> sau khi dẫn lưu đường mật thành công.<br>2) Thời gian này được tính từ sau khi dẫn lưu, không phải từ lúc bắt đầu dùng kháng sinh, vì sau khi dẫn lưu thành công thì nguồn nhiễm trùng đã được kiểm soát nên không cần kháng sinh kéo dài.<br>3) Đây là checkpoint 4 của bài: bệnh nhân Grade II đã được dẫn lưu thành công bằng ERCP, đang dùng kháng sinh ngày thứ 5, hết sốt, bạch cầu bình thường thì không nên kéo dài kháng sinh thêm 7 ngày nữa cho chắc chắn.<br><br><b>💡 Giải thích của AI:</b><br>Sau khi dẫn lưu thành công và bệnh nhân đáp ứng tốt, không cần kháng sinh kéo dài. Kháng sinh ngắn ngày đang được nghiên cứu nhưng chưa đủ bằng chứng đổi thực hành, nên chuẩn hiện hành vẫn là 4–7 ngày sau dẫn lưu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.3 — kháng sinh 4–7 ngày sau dẫn lưu, checkpoint 4."
+    },
+    {
+      "id": "SURG28-CARD-064",
+      "note_id": 1793959205062,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Khuyến cáo kháng sinh <span style=\"color:#ffd43b\"><b>4–7 ngày</b></span> có bằng chứng mạnh không, và hướng nghiên cứu kháng sinh ngắn ngày hiện ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khuyến cáo <span style=\"color:#ffd43b\"><b>4–7 ngày</b></span> có bằng chứng yếu, và một protocol thử nghiệm ghi nhận khuyến cáo này thiếu bằng chứng mạnh về hiệu quả, chủ yếu dựa trên kết quả lâm sàng không đồng nhất và ý kiến chuyên gia.<br>2) Hướng nghiên cứu hiện nay là kháng sinh ngắn ngày hơn, với 2 thử nghiệm ngẫu nhiên đang chạy và chưa có kết quả: BOLT-P3 so sánh 1–3 ngày tiêm tĩnh mạch với chuẩn 4–7 ngày, 210 bệnh nhân dự kiến, và COBRA so sánh 1 ngày với 4–7 ngày sau dẫn lưu đầy đủ, 416 bệnh nhân dự kiến.<br>3) Một nghiên cứu đoàn hệ ở Colombia trên 317 bệnh nhân cho thấy kháng sinh ngắn dưới 4 ngày, 59 bệnh nhân, so với kháng sinh dài, 258 bệnh nhân, không khác nhau về kết cục gộp gồm tử vong nội viện, vào ICU và tái nhập viện 30 ngày, còn nhóm dùng kháng sinh dài nằm viện lâu hơn có ý nghĩa.<br>4) Trong nghiên cứu này, Grade III theo Tokyo với tỉ số odds 32,07 và kháng carbapenem với tỉ số odds 4,07 là yếu tố nguy cơ độc lập của kết cục gộp, còn E. coli là vi khuẩn hay gặp nhất với 54% nhạy cảm hoàn toàn với kháng sinh.<br><br><b>💡 Giải thích của AI:</b><br>Bài học thực hành: chuẩn hiện hành vẫn là 4–7 ngày sau dẫn lưu, kháng sinh ngắn ngày là hướng nghiên cứu, chưa đủ bằng chứng để đổi thực hành. Không được tự ý rút ngắn kháng sinh xuống 1–3 ngày chỉ vì đọc được protocol thử nghiệm.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.3 — bằng chứng yếu của 4–7 ngày, BOLT-P3, COBRA, nghiên cứu Colombia 317 bệnh nhân."
+    },
+    {
+      "id": "SURG28-CARD-065",
+      "note_id": 1793959205064,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "cay-mau",
+        "khang-sinh-do"
+      ],
+      "type": "basic",
+      "front": "Sau khi có kết quả <span style=\"color:#51cf66\"><b>cấy máu và cấy mật</b></span> thì xử trí kháng sinh ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau khi có kết quả <span style=\"color:#74c0fc\"><b>cấy máu và cấy mật</b></span>, phải điều chỉnh kháng sinh theo kháng sinh đồ, tức đổi sang kháng sinh hẹp phổ hơn nếu vi khuẩn nhạy cảm.<br>2) Không được tiếp tục kháng sinh phổ rộng khi đã biết vi khuẩn nhạy cảm với kháng sinh hẹp phổ.<br>3) Ví dụ: cấy máu mọc E. coli nhạy cảm với ceftriaxone thì đổi sang ceftriaxone và ngừng carbapenem để tránh kháng thuốc.<br><br><b>💡 Giải thích của AI:</b><br>Vì tính không đồng nhất giữa các nghiên cứu rất cao và kháng thuốc không gộp được, nên điều trị kháng sinh phải theo kháng sinh đồ địa phương thay vì theo một phác đồ kinh nghiệm chung. Điều chỉnh kháng sinh theo kháng sinh đồ là bước bắt buộc sau khi có kết quả cấy, không phải lựa chọn tùy ý.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.4 — điều chỉnh kháng sinh theo kháng sinh đồ, de-escalation."
+    },
+    {
+      "id": "SURG28-CARD-066",
+      "note_id": 1793959205066,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "ERCP",
+        "du-phong"
+      ],
+      "type": "basic",
+      "front": "TG18 còn khuyến cáo <span style=\"color:#51cf66\"><b>kháng sinh dự phòng</b></span> cho ERCP elective không, và nhầm lẫn hay gặp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) TG18 không còn khuyến cáo dùng <span style=\"color:#51cf66\"><b>kháng sinh dự phòng</b></span> cho ERCP elective, và phần về kháng sinh dự phòng cho ERCP elective đã bị xóa trong TG18, vì ERCP elective ở bệnh nhân không nhiễm trùng không cần kháng sinh dự phòng.<br>2) Nhưng ERCP trong viêm đường mật cấp là ERCP điều trị, không phải ERCP elective, nên bệnh nhân viêm đường mật cấp vẫn cần kháng sinh điều trị đầy đủ.<br>3) Người học hay nhầm 2 khái niệm này: không cần kháng sinh dự phòng cho ERCP elective không có nghĩa là không cần kháng sinh cho ERCP trong viêm đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Viêm đường mật cấp luôn cần kháng sinh điều trị cộng với dẫn lưu. Đây là thay đổi quan trọng trong TG18 so với phiên bản trước, và phải phân biệt rõ dự phòng với điều trị để không bỏ sót kháng sinh ở bệnh nhân đang nhiễm trùng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 5.5 — TG18 bỏ khuyến cáo dự phòng cho ERCP elective, phân biệt với ERCP điều trị."
+    },
+    {
+      "id": "SURG28-CARD-067",
+      "note_id": 1793959205068,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh",
+        "thoi-gian"
+      ],
+      "type": "basic",
+      "front": "Kháng sinh dùng {{c1::<span style=\"color:#ffd43b\"><b>4–7 ngày</b></span>}} sau khi dẫn lưu đường mật thành công.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 5.3 — kháng sinh 4–7 ngày sau dẫn lưu thành công."
+    },
+    {
+      "id": "SURG28-CARD-068",
+      "note_id": 1793959205070,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "Ertapenem dùng cho Grade {{c1::<span style=\"color:#51cf66\"><b>I và II</b></span>}}. Imipenem, meropenem và doripenem dùng cho Grade III.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 5.2 — ertapenem cho Grade I và II, imipenem/meropenem/doripenem cho Grade III."
+    },
+    {
+      "id": "SURG28-CARD-069",
+      "note_id": 1793959205072,
+      "tags": [
+        "viem-duong-mat",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "Không dùng ampicillin/sulbactam nếu tỉ lệ kháng trên {{c1::<span style=\"color:#ffd43b\"><b>20%</b></span>}} ở địa phương.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 5.2 — không dùng ampicillin/sulbactam nếu tỉ lệ kháng trên 20% ở địa phương."
+    },
+    {
+      "id": "SURG28-CARD-070",
+      "note_id": 1793959205074,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Dẫn lưu đầu tay</b></span> trong viêm đường mật là gì, và dẫn lưu qua nhú có những cách nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) TG18 khuyến cáo dẫn lưu đường mật qua nội soi xuyên nhú, tức <span style=\"color:#51cf66\"><b>ERCP qua nhú</b></span>, là điều trị đầu tay cho viêm đường mật cấp.<br>2) Dẫn lưu qua nhú có thể bằng đặt ống dẫn lưu mũi mật hoặc đặt stent đường mật, cả 2 đều được chấp nhận.<br>3) Đặt ống dẫn lưu mũi mật là đưa một ống nhỏ qua mũi, qua dạ dày, tá tràng, qua nhú Vater vào ống mật chủ, để mật chảy ra ngoài qua mũi.<br>4) Đặt stent đường mật là đặt một ống nhỏ bằng nhựa hoặc kim loại vào trong ống mật chủ, để mật chảy qua stent xuống tá tràng, và lựa chọn giữa 2 phương pháp phụ thuộc vào tình huống lâm sàng và thói quen của trung tâm.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai phương pháp đều là dẫn lưu qua nhú, khác nhau ở đường ra của mật: một ra ngoài qua mũi, một xuống tá tràng qua stent. Điểm chung là cả hai đều hạ áp lực đường mật, và đó mới là điều trị quyết định.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.1 — ERCP qua nhú là đầu tay, dẫn lưu mũi mật và stent đường mật."
+    },
+    {
+      "id": "SURG28-CARD-071",
+      "note_id": 1793959205076,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "cat-co-that",
+        "nong-bong"
+      ],
+      "type": "basic",
+      "front": "Khi nào <span style=\"color:#51cf66\"><b>cắt cơ thắt</b></span>, khi nào <span style=\"color:#51cf66\"><b>nong bóng</b></span>, và sỏi lấy trong 1 thì hay 2 thì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Cắt cơ thắt</b></span> không cần thiết thường quy nếu chỉ cần dẫn lưu, vì lo ngại chảy máu sau cắt cơ thắt, và cắt cơ thắt chỉ cần khi lấy sỏi.<br>2) Lấy sỏi trong cùng 1 thì sau cắt cơ thắt có thể cân nhắc ở bệnh nhân nhẹ và trung bình, trừ bệnh nhân đang dùng thuốc kháng đông hoặc rối loạn đông máu.<br>3) Sỏi khó, sỏi lớn hoặc nhiều sỏi nên lấy ở thì 2, sau khi đã dẫn lưu và tình trạng bệnh nhân ổn định.<br>4) Nong bóng nhú nội soi tốt hơn cắt cơ thắt nếu bệnh nhân có rối loạn đông máu, vì nong bóng ít chảy máu hơn cắt.<br>5) Khi giải phẫu thay đổi, ví dụ sau mổ nối dạ dày ruột, ERCP qua nội soi ruột non 2 bóng là đầu tay nếu có chuyên môn, và EUS-BD là lựa chọn thứ 2 sau khi ERCP qua nội soi ruột non 2 bóng thất bại, thay cho PTBD, nếu có chuyên môn.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ trong bài: sỏi ống mật chủ 15 mm không lấy được trong 1 thì thì đặt stent dẫn lưu trước, lấy sỏi ở thì 2 sau khi tình trạng ổn định. Nguyên tắc là dẫn lưu trước, lấy sỏi sau khi bệnh nhân đã ổn định, chứ không cố lấy sỏi bằng mọi giá trong lúc bệnh nhân đang nhiễm trùng nặng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.1 — cắt cơ thắt, nong bóng nhú, lấy sỏi 1 thì hay 2 thì, ERCP qua nội soi ruột non 2 bóng."
+    },
+    {
+      "id": "SURG28-CARD-072",
+      "note_id": 1793959205078,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "thoi-diem",
+        "Gut-2026"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm ngẫu nhiên trên tạp chí Gut 2026 so sánh <span style=\"color:#51cf66\"><b>ERCP trong 24 giờ</b></span> với <span style=\"color:#51cf66\"><b>ERCP 24–48 giờ</b></span> ở nhẹ và trung bình cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ngẫu nhiên trên tạp chí Gut năm 2026 trên 304 bệnh nhân viêm đường mật nhẹ và trung bình, đơn trung tâm, mở nhãn, so sánh ERCP cấp cứu trong 24 giờ với ERCP sớm trong 24–48 giờ.<br>2) Tử vong 30 ngày là <span style=\"color:#ffd43b\"><b>3,95%</b></span> ở nhóm cấp cứu và <span style=\"color:#ffd43b\"><b>6,58%</b></span> ở nhóm sớm, khác biệt không có ý nghĩa thống kê với tỉ số nguy cơ 0,70 và p bằng 0,47.<br>3) Tử vong nội viện là 1,97% so với 3,28%, suy tạng ngày thứ 3 là 9,2% so với 11,2%, suy tạng ngày thứ 30 là 11,8% so với 17,1%, thời gian nằm viện là 6,94 ngày so với 7,84 ngày, tất cả đều không khác biệt có ý nghĩa.<br>4) Nhưng biến cố sau ERCP nhiều hơn ở nhóm cấp cứu, với <span style=\"color:#ffd43b\"><b>17,1%</b></span> so với <span style=\"color:#ffd43b\"><b>9,2%</b></span> và tỉ số nguy cơ 2,03.<br>5) Kết luận của thử nghiệm là ERCP cấp cứu trong 24 giờ không vượt trội so với ERCP sớm trong 24–48 giờ ở bệnh nhân nhẹ và trung bình, và có nhiều biến cố hơn.<br><br><b>💡 Giải thích của AI:</b><br>Điểm mấu chốt: thử nghiệm này chỉ làm ở bệnh nhân nhẹ và trung bình, kết quả này không áp dụng được cho bệnh nhân nặng Grade III, và ở bệnh nhân nặng thì vẫn phải dẫn lưu cấp cứu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.2 — thử nghiệm Gut 2026, 304 bệnh nhân, ERCP trong 24 giờ so với 24–48 giờ."
+    },
+    {
+      "id": "SURG28-CARD-073",
+      "note_id": 1793959205080,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "thoi-diem",
+        "nhieu-chi-dinh"
+      ],
+      "type": "basic",
+      "front": "Dữ liệu quan sát về thời điểm <span style=\"color:#51cf66\"><b>ERCP</b></span> mâu thuẫn ra sao, và giải thích bằng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu quan sát lớn trên cơ sở dữ liệu quốc gia Mỹ với 137.100 bệnh nhân, trong đó 31,91% là nặng, cho thấy ERCP cấp cứu trong 24 giờ làm giảm tử vong ở mọi nhóm tuổi, cả nặng và không nặng.<br>2) Ngược lại, một nghiên cứu đoàn hệ trên 271 bệnh nhân viêm đường mật do sỏi cho thấy tử vong 30 ngày cao nhất ở nhóm làm ERCP trong 24 giờ, với <span style=\"color:#ffd43b\"><b>16,7%</b></span> so với 5,6% và 6,6%, p bằng 0,020.<br>3) Mâu thuẫn này giải thích bằng nhiễu do chỉ định: bệnh nhân nặng hơn được làm ERCP sớm hơn, nên nhóm làm sớm có tử vong cao hơn, không phải vì làm sớm gây tử vong cao hơn mà vì bệnh nhân làm sớm vốn đã nặng hơn.<br>4) Sau khi hiệu chỉnh đa biến, ERCP trong 24–72 giờ liên quan tới tử vong thấp hơn ERCP trong 24 giờ, và tuổi tăng cùng chỉ số bệnh kèm trên 5 là yếu tố dự báo tử vong độc lập.<br><br><b>💡 Giải thích của AI:</b><br>Dạy: dữ liệu quan sát về thời điểm luôn nhiễu do chỉ định, thử nghiệm ngẫu nhiên là bằng chứng mạnh nhất nhưng chỉ có ở nhẹ và trung bình. Đây là mâu thuẫn 2 của bài, phải dạy cả hai phía chứ không chọn một phía.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.2 — NIS 137.100 bệnh nhân, đoàn hệ 271 bệnh nhân, nhiễu do chỉ định."
+    },
+    {
+      "id": "SURG28-CARD-074",
+      "note_id": 1793959205082,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "thoi-diem",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Hai nghiên cứu đoàn hệ khác nói gì về thời điểm dẫn lưu theo <span style=\"color:#74c0fc\"><b>độ nặng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu đoàn hệ khác trên 301 bệnh nhân cho thấy ERCP cấp cứu trong 48 giờ so với ERCP thường quy có thời gian nằm viện là <span style=\"color:#ffd43b\"><b>8,00 ngày</b></span> so với <span style=\"color:#ffd43b\"><b>11,00 ngày</b></span> với p bằng 0,0001, còn tử vong tới 1 năm là 22,1% so với 31,0% với p bằng 0,135, không có ý nghĩa.<br>2) Tử vong liên quan độc lập với tuổi cao, tỉ số nguy cơ 1,034, và bệnh ác tính, tỉ số nguy cơ 8,64.<br>3) Một nghiên cứu ở Okinawa trên 214 bệnh nhân cho thấy Grade I chiếm 43%, Grade II chiếm 39%, Grade III chiếm 18%, tỉ lệ xuất viện về nhà là 95%, 80% và 69% theo từng độ.<br>4) Ở Grade I, dẫn lưu trong 24 giờ cho tỉ lệ về nhà 100% so với 88% với p bằng 0,013; ở Grade II, dẫn lưu trong 48 giờ cho tỉ lệ sống 99% so với 82% với p bằng 0,045; ở Grade III, dẫn lưu trong 24 giờ cho tỉ lệ hồi phục chức năng 92% so với 50% với p bằng 0,014, nhưng chỉ có 10 bệnh nhân trong nhóm trì hoãn nên phải diễn giải thận trọng.<br><br><b>💡 Giải thích của AI:</b><br>Bài học tổng hợp: ở nhẹ và trung bình, không cần vội làm ERCP trong 24 giờ đầu nếu bệnh nhân ổn định, làm trong 24–48 giờ cũng được và có thể ít biến cố hơn; ở nặng, vẫn dẫn lưu cấp cứu. Dữ liệu quan sát về thời điểm luôn nhiễu do chỉ định, thử nghiệm ngẫu nhiên là bằng chứng mạnh nhất nhưng chỉ có ở nhẹ và trung bình.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.2 — đoàn hệ 301 bệnh nhân, nghiên cứu Okinawa 214 bệnh nhân theo độ nặng."
+    },
+    {
+      "id": "SURG28-CARD-075",
+      "note_id": 1793959205084,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "EUS-BD",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>ERCP</b></span> thất bại ở bao nhiêu trường hợp, và <span style=\"color:#51cf66\"><b>EUS-BD</b></span> có kết quả ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) ERCP thất bại ở <span style=\"color:#ffd43b\"><b>5–7%</b></span> trường hợp, do không đưa được ống nội soi tới nhú Vater, không đưa được dụng cụ vào ống mật chủ, hoặc giải phẫu thay đổi sau mổ.<br>2) EUS-BD là dùng siêu âm nội soi để chọc từ dạ dày hoặc tá tràng vào ống mật rồi đặt stent dẫn lưu.<br>3) Một tổng quan hệ thống và phân tích gộp trên 5 nghiên cứu với 109 bệnh nhân cho thấy EUS-BD có thành công kỹ thuật <span style=\"color:#ffd43b\"><b>95,5%</b></span>, thành công lâm sàng <span style=\"color:#ffd43b\"><b>92,1%</b></span>, và biến chứng <span style=\"color:#ffd43b\"><b>12,2%</b></span>, đa số nhẹ và tự giới hạn.<br>4) Tuy nhiên, bằng chứng về EUS-BD còn ít, chỉ 5 nghiên cứu và 109 bệnh nhân, vì vậy EUS-BD được dạy như lựa chọn khi ERCP thất bại hoặc không làm được nếu có chuyên môn, không dạy như đầu tay.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ thành công cao nhưng cỡ mẫu nhỏ, nên không được nâng EUS-BD lên thành đầu tay. Thứ tự đúng là ERCP trước, EUS-BD hoặc PTBD khi ERCP thất bại, và lựa chọn giữa EUS-BD với PTBD phụ thuộc vào chuyên môn sẵn có tại trung tâm.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.3 — ERCP thất bại 5–7%, EUS-BD 95,5%/92,1%/12,2% trên 109 bệnh nhân."
+    },
+    {
+      "id": "SURG28-CARD-076",
+      "note_id": 1793959205086,
+      "tags": [
+        "viem-duong-mat",
+        "PTBD",
+        "mo-mo",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>PTBD</b></span> và <span style=\"color:#51cf66\"><b>phẫu thuật mở</b></span> dẫn lưu đứng ở đâu trong thứ tự lựa chọn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) PTBD là chọc kim qua da và qua gan vào ống mật trong gan rồi đặt ống dẫn lưu ra ngoài, là lựa chọn khi ERCP thất bại và không có chuyên môn EUS-BD.<br>2) Trong đợt nghiên cứu này, không có thử nghiệm ngẫu nhiên đối đầu nào so sánh PTBD với ERCP, vì vậy bài dạy PTBD là lựa chọn khi ERCP thất bại hoặc không làm được theo TG18, không dạy PTBD như đầu tay.<br>3) Phẫu thuật mở dẫn lưu đường mật, tức mổ mở để đặt ống dẫn lưu vào ống mật chủ, có tử vong tới <span style=\"color:#ffd43b\"><b>40%</b></span> so với dẫn lưu nội soi, theo một tổng quan state-of-the-art.<br>4) Vì vậy, phẫu thuật mở chỉ được cân nhắc khi dẫn lưu nội soi và dẫn lưu qua da đều thất bại hoặc không làm được, và đây là quyết định ở mức chỉ định, kỹ thuật mổ mở dẫn lưu chi tiết thuộc bài kỹ thuật riêng, không dạy trong bài bệnh học này.<br><br><b>💡 Giải thích của AI:</b><br>Tử vong 40% của mổ mở phản ánh cả mức độ nặng của bệnh nhân phải mổ mở lẫn tính xâm lấn của phẫu thuật, nhưng thông điệp thực hành vẫn rõ: nội soi trước, qua da sau, mổ mở là lựa chọn cuối cùng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.3 — PTBD khi ERCP thất bại, mổ mở tử vong tới 40%."
+    },
+    {
+      "id": "SURG28-CARD-077",
+      "note_id": 1793959205088,
+      "tags": [
+        "viem-duong-mat",
+        "dan-luu",
+        "thuat-toan",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Thuật toán <span style=\"color:#51cf66\"><b>dẫn lưu đường mật</b></span> theo độ nặng TG18: Grade I, II, III xử trí khác nhau ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Grade I</b></span>, nhẹ: bắt đầu kháng sinh ngay, hồi sức cơ bản và theo dõi sát, đa số bệnh nhân Grade I không cần dẫn lưu ngay vì kháng sinh thường đủ, cân nhắc dẫn lưu nếu bệnh nhân không đáp ứng với kháng sinh sau 24–48 giờ với sốt không hạ, đau không giảm và bilirubin không giảm, và khi dẫn lưu thì chọn ERCP qua nhú là đầu tay.<br>2) Grade II, trung bình: bắt đầu kháng sinh ngay, hồi sức, và dẫn lưu sớm trong 24–48 giờ bằng ERCP qua nhú là đầu tay, và nếu ERCP thất bại thì chuyển sang EUS-BD nếu có chuyên môn hoặc PTBD.<br>3) Grade III, nặng: hồi sức hô hấp và tuần hoàn ngay, bắt đầu kháng sinh phổ rộng ngay, và dẫn lưu cấp cứu trong vài giờ đầu sau khi tình trạng cải thiện đủ để làm thủ thuật, phương pháp đầu tay vẫn là ERCP qua nhú, nếu ERCP thất bại thì chuyển sang EUS-BD hoặc PTBD ngay không trì hoãn, và phẫu thuật mở dẫn lưu chỉ khi dẫn lưu nội soi và qua da đều thất bại.<br>4) Phác đồ này không ghi liều mg kháng sinh vì không có liều mg nào được kiểm chứng trong đợt nghiên cứu này, liều kháng sinh theo hướng dẫn của bệnh viện và chức năng thận của bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ này là phác đồ quyết định, tức khi nào dẫn lưu và bằng phương pháp nào, không phải phác đồ kỹ thuật, tức làm thủ thuật như thế nào. Ba độ nặng, ba tốc độ dẫn lưu: Grade I theo dõi, Grade II sớm trong 24–48 giờ, Grade III cấp cứu trong vài giờ đầu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 6.4 — phác đồ mẫu 1, dẫn lưu đường mật theo độ nặng."
+    },
+    {
+      "id": "SURG28-CARD-078",
+      "note_id": 1793959205090,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "bien-co"
+      ],
+      "type": "basic",
+      "front": "Trong thử nghiệm Gut, biến cố sau ERCP ở nhóm cấp cứu là {{c1::<span style=\"color:#ffd43b\"><b>17,1%</b></span>}} so với {{c2::<span style=\"color:#ffd43b\"><b>9,2%</b></span>}} ở nhóm sớm.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 6.2 — biến cố sau ERCP 17,1% so với 9,2%, tỉ số nguy cơ 2,03."
+    },
+    {
+      "id": "SURG28-CARD-079",
+      "note_id": 1793959205093,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP"
+      ],
+      "type": "basic",
+      "front": "ERCP thất bại ở {{c1::<span style=\"color:#ffd43b\"><b>5–7%</b></span>}} trường hợp.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 6.3 — ERCP thất bại 5–7%."
+    },
+    {
+      "id": "SURG28-CARD-080",
+      "note_id": 1793959205095,
+      "tags": [
+        "viem-duong-mat",
+        "EUS-BD"
+      ],
+      "type": "basic",
+      "front": "EUS-BD có thành công kỹ thuật {{c1::<span style=\"color:#ffd43b\"><b>95,5%</b></span>}} và thành công lâm sàng {{c2::<span style=\"color:#ffd43b\"><b>92,1%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 6.3 — EUS-BD thành công kỹ thuật 95,5%, lâm sàng 92,1%."
+    },
+    {
+      "id": "SURG28-CARD-081",
+      "note_id": 1793959205098,
+      "tags": [
+        "viem-duong-mat",
+        "EUS-BD",
+        "bien-chung"
+      ],
+      "type": "basic",
+      "front": "Biến chứng của EUS-BD là {{c1::<span style=\"color:#ffd43b\"><b>12,2%</b></span>}} trong phân tích gộp 5 nghiên cứu với 109 bệnh nhân.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 6.3 — biến chứng EUS-BD 12,2%, phân tích gộp 5 nghiên cứu, 109 bệnh nhân."
+    },
+    {
+      "id": "SURG28-CARD-082",
+      "note_id": 1793959205100,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat",
+        "thoi-diem"
+      ],
+      "type": "basic",
+      "front": "Vì sao phải <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> sau viêm đường mật do sỏi, và thời điểm nào tốt nhất?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Túi mật là nguồn sinh sỏi, nếu không cắt túi mật thì sỏi mới có thể rơi xuống ống mật chủ và gây viêm đường mật tái phát, vì vậy cắt túi mật sau viêm đường mật do sỏi là cần thiết, trừ khi bệnh nhân có chống chỉ định mổ.<br>2) Một phân tích gộp các thử nghiệm ngẫu nhiên trên 7 thử nghiệm với 593 bệnh nhân so sánh cắt túi mật sớm trong 72 giờ sau ERCP với cắt trì hoãn sau 72 giờ cho thấy cắt sớm giảm tỉ lệ chuyển mổ mở với tỉ số nguy cơ <span style=\"color:#ffd43b\"><b>0,35</b></span>, rút ngắn thời gian mổ 14,37 phút, rút ngắn thời gian nằm viện sau mổ 0,81 ngày, và giảm nhiễm trùng vết mổ với tỉ số nguy cơ 0,21.<br>3) Không khác biệt về rò mật, với hiệu số nguy cơ âm 0,04 và p bằng 0,30.<br>4) Kết luận của phân tích gộp là cắt túi mật sớm trong 72 giờ sau ERCP tốt hơn cắt trì hoãn.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ trong bài: bệnh nhân làm ERCP thứ 2, ổn định, hết sốt thì cắt túi mật nội soi ngày thứ 4 sau ERCP. Cắt sớm tốt hơn vì viêm chưa tạo dính nhiều, mổ dễ hơn và ít biến chứng hơn, ngược với suy nghĩ thường gặp là phải chờ viêm hết hẳn mới mổ.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.1 — phân tích gộp 7 thử nghiệm, 593 bệnh nhân, cắt sớm trong 72 giờ sau ERCP."
+    },
+    {
+      "id": "SURG28-CARD-083",
+      "note_id": 1793959205102,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu hồi cứu trên 241 bệnh nhân nói gì thêm về <span style=\"color:#51cf66\"><b>cắt túi mật sớm</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu hồi cứu trên <span style=\"color:#ffd43b\"><b>241 bệnh nhân</b></span> cũng ủng hộ cắt sớm: nhóm cắt trong khoảng 72 giờ tới 2 tuần nằm viện tổng lâu hơn, chi phí cao hơn, viêm túi mật sau ERCP nhiều hơn với p bằng 0,005, và biến cố sau mổ nhiều hơn với p bằng 0,042.<br>2) Khuyến cáo từ nghiên cứu này là cắt túi mật trong 72 giờ sau ERCP nếu không có biến chứng nặng.<br><br><b>💡 Giải thích của AI:</b><br>Trì hoãn cắt túi mật không chỉ làm tăng nguy cơ tái phát mà còn làm tăng nằm viện, chi phí và biến cố sau mổ. Vì vậy trì hoãn phải có lý do cụ thể, không trì hoãn vô cớ.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.1 — nghiên cứu hồi cứu 241 bệnh nhân ủng hộ cắt sớm."
+    },
+    {
+      "id": "SURG28-CARD-084",
+      "note_id": 1793959205104,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat",
+        "tri-hoan"
+      ],
+      "type": "basic",
+      "front": "Khi nào <span style=\"color:#ffd43b\"><b>trì hoãn cắt túi mật</b></span> sau viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trì hoãn cắt túi mật nếu bilirubin toàn phần trên <span style=\"color:#ffd43b\"><b>3 lần</b></span> giới hạn trên bình thường, hoặc nếu có biến cố sau ERCP như viêm tụy sau ERCP, chảy máu và thủng.<br>2) Lý do là bilirubin rất cao gợi ý tắc mật chưa được giải quyết hoàn toàn, và mổ trong lúc tắc mật chưa hết sẽ khó khăn và nguy hiểm hơn, còn biến cố sau ERCP cần được xử trí ổn định trước khi mổ.<br>3) Bệnh nhân Grade III nặng, suy đa tạng chưa hồi phục, cũng nên trì hoãn cắt túi mật tới khi tình trạng ổn định.<br>4) Bệnh nhân có bệnh kèm nặng như suy tim, suy hô hấp và rối loạn đông máu cần được đánh giá và tối ưu hóa trước mổ.<br>5) Trong thời gian trì hoãn, bệnh nhân cần được theo dõi sát và dặn quay lại ngay nếu đau bụng, sốt hoặc vàng da tái phát, vì sỏi có thể rơi xuống lại và gây viêm đường mật tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Cắt sớm là mặc định khi bệnh nhân ổn định, trì hoãn là ngoại lệ khi có lý do. Phải phân biệt trì hoãn có lý do với trì hoãn vô cớ, vì trì hoãn vô cớ làm tăng chuyển mổ mở và tái phát.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.2 — trì hoãn cắt túi mật khi bilirubin trên 3 lần giới hạn trên hoặc biến cố sau ERCP."
+    },
+    {
+      "id": "SURG28-CARD-085",
+      "note_id": 1793959205106,
+      "tags": [
+        "viem-duong-mat",
+        "LCBDE",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>LCBDE một thì</b></span> là gì, và kết quả ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) LCBDE là lấy sỏi ống mật chủ trong cùng một lần mổ nội soi cắt túi mật, đây là phương pháp một thì, vừa cắt túi mật vừa lấy sỏi ống mật chủ trong một lần mổ, không cần làm ERCP trước.<br>2) LCBDE là lựa chọn thay thế cho phương pháp hai thì, tức ERCP trước rồi cắt túi mật sau.<br>3) Một tổng quan hệ thống trên 10 nghiên cứu, gồm 7 hồi cứu, 3 tiền cứu và 1 thử nghiệm ngẫu nhiên, cho thấy LCBDE có tỉ lệ chuyển mổ mở <span style=\"color:#ffd43b\"><b>0–16,92%</b></span>, biến chứng <span style=\"color:#ffd43b\"><b>0–26,3%</b></span>, và tử vong <span style=\"color:#ffd43b\"><b>0–3,07%</b></span>.<br>4) Không khác biệt về sỏi sót hoặc tái phát, rò mật, xuất huyết và viêm tụy sau mổ so với phương pháp hai thì, và thời gian nằm viện trung bình khoảng <span style=\"color:#ffd43b\"><b>5,86 ngày</b></span>.<br>5) Kết luận của tổng quan là LCBDE một thì cấp cứu là phương pháp an toàn và khả thi cho viêm đường mật không nặng, dù vẫn còn tranh luận, và lựa chọn giữa một thì và hai thì phụ thuộc vào chuyên môn của trung tâm, tình trạng bệnh nhân, và kích thước cùng vị trí sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Bài bệnh học này chỉ dạy quyết định chọn phương pháp ở mức chỉ định, kỹ thuật LCBDE chi tiết thuộc bài kỹ thuật riêng. Một thì hay hai thì không có đáp án đúng tuyệt đối, mà phụ thuộc vào trung tâm và bệnh nhân.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.3 — LCBDE một thì, tổng quan 10 nghiên cứu."
+    },
+    {
+      "id": "SURG28-CARD-086",
+      "note_id": 1793959205108,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "LCBDE",
+        "so-sanh"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu so sánh <span style=\"color:#51cf66\"><b>ERCP với LCBDE</b></span> trên 31.817 bệnh nhân cho thấy gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu so sánh ERCP với LCBDE trên 31.817 bệnh nhân cho thấy ERCP chiếm <span style=\"color:#ffd43b\"><b>95,3%</b></span> và LCBDE chiếm <span style=\"color:#ffd43b\"><b>4,67%</b></span>.<br>2) ERCP muộn liên quan tới sốc nhiễm trùng cao hơn với 1,23%, suy hô hấp cao hơn với 3,80%, thủng ống mật cao hơn với 0,93%, nằm viện lâu hơn và chi phí cao hơn.<br>3) LCBDE nằm viện lâu hơn với 8,92 ngày so với 4,89 ngày, chi phí cao hơn, suy hô hấp nhiều hơn với 3,34% so với 2,34%, và thủng ống mật nhiều hơn với 1,55% so với 0,64%.<br>4) ERCP có tỉ lệ viêm tụy và vàng da nhiều hơn.<br><br><b>💡 Giải thích của AI:</b><br>ERCP chiếm đa số tuyệt đối trong thực hành, LCBDE chỉ chiếm một phần nhỏ, phản ánh chuyên môn và thói quen của các trung tâm. So sánh này là dữ liệu quan sát nên phải diễn giải thận trọng, nhưng cho thấy mỗi phương pháp có mặt mạnh và mặt yếu riêng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.3 — so sánh ERCP với LCBDE trên 31.817 bệnh nhân."
+    },
+    {
+      "id": "SURG28-CARD-087",
+      "note_id": 1793959205110,
+      "tags": [
+        "viem-duong-mat",
+        "thuat-toan",
+        "cat-tui-mat",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "Thuật toán toàn bộ quá trình từ lúc vào viện tới <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> đi qua những mốc nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Ngày 0</b></span> lúc vào viện: đo sinh hiệu, đánh giá độ nặng theo TG18 là Grade I, II hay III, lấy máu làm xét nghiệm gồm công thức máu, CRP, bilirubin, ALP, GGT, ALT, AST, creatinine và PT-INR, lấy cấy máu 2 bộ trước khi dùng kháng sinh, bắt đầu kháng sinh kinh nghiệm theo nhóm thuốc và độ nặng, hồi sức với truyền dịch, thở oxy nếu cần và thuốc vận mạch nếu hạ huyết áp, siêu âm bụng khẩn để tìm giãn đường mật và sỏi.<br>2) Ngày 0 tới 1 là dẫn lưu: Grade III thì dẫn lưu cấp cứu trong vài giờ đầu sau khi hồi sức đủ ổn định, Grade II thì dẫn lưu sớm trong 24–48 giờ, Grade I thì theo dõi đáp ứng kháng sinh và dẫn lưu nếu không đáp ứng sau 24–48 giờ, dẫn lưu bằng ERCP qua nhú là đầu tay, EUS-BD hoặc PTBD nếu ERCP thất bại, và lấy cấy mật trong lúc làm ERCP.<br>3) Ngày 1 tới 7 sau dẫn lưu: tiếp tục kháng sinh 4–7 ngày sau dẫn lưu, điều chỉnh kháng sinh theo kết quả cấy máu và cấy mật, theo dõi sốt, bạch cầu, bilirubin và dấu hiệu suy tạng.<br>4) Sau khi ổn định thì cắt túi mật: cắt túi mật sớm trong 72 giờ sau ERCP nếu bệnh nhân ổn định và không có chống chỉ định, trì hoãn cắt túi mật nếu bilirubin toàn phần trên 3 lần giới hạn trên, hoặc có biến cố sau ERCP, hoặc bệnh nhân còn suy đa tạng, và nếu trung tâm có chuyên môn LCBDE thì có thể cân nhắc lấy sỏi ống mật chủ và cắt túi mật trong một thì.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ này là phác đồ quyết định, tức làm gì và khi nào, không phải phác đồ kỹ thuật. Phác đồ mẫu này không ghi liều mg kháng sinh, liều dùng theo hướng dẫn của bệnh viện vì không có liều nào được kiểm chứng trong đợt tìm kiếm này.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 7.4 — phác đồ mẫu 2, kháng sinh, dẫn lưu và cắt túi mật."
+    },
+    {
+      "id": "SURG28-CARD-088",
+      "note_id": 1793959205112,
+      "tags": [
+        "viem-duong-mat",
+        "nhiem-trung-huyet",
+        "soc",
+        "bien-chung"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Nhiễm trùng huyết và sốc nhiễm trùng</b></span> trong viêm đường mật nhận ra và xử trí ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhiễm trùng huyết là biến chứng hay gặp nhất và nguy hiểm nhất của viêm đường mật cấp, xảy ra khi vi khuẩn từ đường mật vào máu gây đáp ứng viêm toàn thân với sốt cao, rét run, mạch nhanh, thở nhanh và bạch cầu tăng.<br>2) Khi đáp ứng viêm mất kiểm soát, bệnh nhân rơi vào sốc nhiễm trùng với hạ huyết áp không đáp ứng với truyền dịch và cần thuốc vận mạch để duy trì huyết áp, và sốc nhiễm trùng trong viêm đường mật là cấp cứu với tử vong cao nếu không dẫn lưu kịp thời.<br>3) Dấu hiệu cảnh báo sốc nhiễm trùng gồm huyết áp tâm thu dưới <span style=\"color:#ffd43b\"><b>100 mmHg</b></span>, mạch trên <span style=\"color:#ffd43b\"><b>100 lần/phút</b></span>, thở nhanh, lơ mơ, thiểu niệu, và da lạnh ẩm.<br>4) Khi có dấu hiệu sốc, phải hồi sức tích cực ngay với truyền dịch, thuốc vận mạch, thở oxy và dẫn lưu đường mật cấp cứu sau khi hồi sức đủ ổn định, còn kháng sinh phổ rộng phải được bắt đầu trong giờ đầu tiên khi nghi ngờ sốc nhiễm trùng, không chờ kết quả cấy máu.<br><br><b>💡 Giải thích của AI:</b><br>Sốc nhiễm trùng là hậu quả cuối cùng của chuỗi tắc mật tới nhiễm trùng huyết khi không được dẫn lưu kịp thời. Nhận ra sớm các dấu hiệu cảnh báo và xử trí trong giờ đầu là yếu tố quyết định sống còn, trước cả việc chọn kháng sinh nào.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.1 — nhiễm trùng huyết và sốc nhiễm trùng, dấu hiệu cảnh báo, kháng sinh giờ đầu."
+    },
+    {
+      "id": "SURG28-CARD-089",
+      "note_id": 1793959205114,
+      "tags": [
+        "viem-duong-mat",
+        "ap-xe-gan",
+        "bien-chung"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Áp xe gan</b></span> do viêm đường mật hình thành và điều trị ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Áp xe gan</b></span> là biến chứng của viêm đường mật khi nhiễm trùng lan từ đường mật vào nhu mô gan, vi khuẩn từ đường mật bị tắc xâm nhập vào các tiểu thùy gan và tạo thành ổ áp xe.<br>2) Áp xe gan gây sốt kéo dài, đau hạ sườn phải, và bạch cầu tăng cao dù đã dùng kháng sinh và dẫn lưu đường mật.<br>3) Chẩn đoán áp xe gan bằng siêu âm hoặc CT, thấy ổ dịch trong gan, có thể một ổ hoặc nhiều ổ.<br>4) Điều trị áp xe gan gồm kháng sinh kéo dài và dẫn lưu áp xe bằng chọc hút qua da dưới hướng dẫn siêu âm hoặc CT, áp xe nhỏ có thể chỉ cần kháng sinh, áp xe lớn cần dẫn lưu.<br><br><b>💡 Giải thích của AI:</b><br>Áp xe gan do viêm đường mật thường là áp xe đường mật, tức nhiều ổ nhỏ dọc theo đường mật, khác với áp xe gan đơn độc do amip hoặc do vi khuẩn từ đường ruột qua tĩnh mạch cửa. Sốt kéo dài dù đã dẫn lưu đường mật là dấu hiệu phải nghĩ tới áp xe gan.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.2 — áp xe gan, chẩn đoán và điều trị."
+    },
+    {
+      "id": "SURG28-CARD-090",
+      "note_id": 1793959205116,
+      "tags": [
+        "viem-duong-mat",
+        "viem-tuy",
+        "bien-chung"
+      ],
+      "type": "basic",
+      "front": "Vì sao sỏi ống mật chủ có thể gây cả <span style=\"color:#ff6b6b\"><b>viêm đường mật và viêm tụy</b></span>, và ưu tiên điều trị là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm tụy cấp do sỏi</b></span> xảy ra khi sỏi ống mật chủ kẹt ở đoạn cuối ống mật chủ, làm tắc cả ống mật và ống tụy, vì ống tụy và ống mật chủ hợp nhau ở đoạn cuối trước khi đổ vào tá tràng.<br>2) Viêm tụy do sỏi gây đau thượng vị dữ dội, lan ra sau lưng, buồn nôn, nôn, và amylase cùng lipase tăng rất cao.<br>3) Viêm tụy do sỏi và viêm đường mật có thể xảy ra cùng lúc ở một bệnh nhân, vì cùng một viên sỏi gây ra cả 2 bệnh.<br>4) Khi bệnh nhân có cả viêm đường mật và viêm tụy, ưu tiên điều trị là dẫn lưu đường mật cấp cứu, vì viêm đường mật gây nhiễm trùng huyết nhanh hơn viêm tụy.<br><br><b>💡 Giải thích của AI:</b><br>ERCP trong viêm tụy do sỏi cần được thực hiện sớm nếu có viêm đường mật kèm theo, hoặc nếu viêm tụy nặng và sỏi còn kẹt. Hiểu giải phẫu đoạn cuối chung của ống mật và ống tụy là chìa khóa để hiểu vì sao một viên sỏi gây được hai bệnh cùng lúc.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.3 — viêm tụy cấp do sỏi, ưu tiên dẫn lưu đường mật."
+    },
+    {
+      "id": "SURG28-CARD-091",
+      "note_id": 1793959205118,
+      "tags": [
+        "viem-duong-mat",
+        "tai-phat",
+        "soi-sot"
+      ],
+      "type": "basic",
+      "front": "Viêm đường mật <span style=\"color:#ff6b6b\"><b>tái phát</b></span> do nguyên nhân nào hay gặp nhất, và phòng tái phát bằng gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân tái phát hay gặp nhất là sỏi sót sau ERCP, tức sỏi không lấy hết, hoặc sỏi mới hình thành và rơi xuống ống mật chủ.<br>2) Sỏi sót sau ERCP gặp ở khoảng <span style=\"color:#ffd43b\"><b>5–10%</b></span> bệnh nhân, và là nguyên nhân tái phát trong vài tuần tới vài tháng sau đợt đầu.<br>3) Sỏi mới hình thành gặp ở bệnh nhân chưa cắt túi mật, vì túi mật còn sỏi sẽ tiếp tục sinh sỏi rơi xuống ống mật chủ.<br>4) Vì vậy, cắt túi mật sau viêm đường mật do sỏi là biện pháp phòng tái phát quan trọng nhất.<br>5) Viêm đường mật tái phát do sỏi trong gan hoặc hẹp đường mật khó điều trị hơn, vì nguyên nhân tắc không giải quyết được triệt để bằng ERCP, và bệnh nhân viêm đường mật tái phát cần được đánh giá lại toàn diện với MRCP để tìm sỏi sót, sỏi trong gan, hoặc hẹp đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Tái phát không phải là bệnh mới mà là hậu quả của nguyên nhân tắc chưa được giải quyết triệt để, hoặc là sỏi sót, hoặc là túi mật còn sinh sỏi. Vì vậy phòng tái phát phải nhắm vào nguyên nhân: lấy hết sỏi và cắt túi mật.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.4 — viêm đường mật tái phát, sỏi sót 5–10%, cắt túi mật phòng tái phát."
+    },
+    {
+      "id": "SURG28-CARD-092",
+      "note_id": 1793959205120,
+      "tags": [
+        "viem-duong-mat",
+        "tai-phat",
+        "chuoi-5-tang"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng từ <span style=\"color:#ff6b6b\"><b>sỏi sót</b></span> tới viêm đường mật tái phát đi qua những tầng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng 1 là <span style=\"color:#ff6b6b\"><b>sỏi sót sau ERCP</b></span> hoặc sỏi mới từ túi mật rơi xuống ống mật chủ làm tắc dòng mật trở lại, mật ứ đọng, và vi khuẩn Gram âm đường ruột phát triển trong mật ứ.<br>2) Tầng 2 là áp lực đường mật tăng trở lại, các mối nối chặt giữa các tế bào ống mật giãn ra, và vi khuẩn chuyển vị qua thành ống mật vào máu.<br>3) Tầng 3 là bệnh nhân sốt trở lại, đau hạ sườn phải, vàng da tái phát, bạch cầu và bilirubin tăng trở lại, cấy máu dương tính với cùng loại vi khuẩn hoặc vi khuẩn khác.<br>4) Tầng 4 là làm MRCP để tìm sỏi sót, sỏi mới, tình trạng stent hoặc hẹp đường mật, làm ERCP lại để lấy sỏi và dẫn lưu, và cắt túi mật sau khi nhiễm trùng được kiểm soát để phòng tái phát lần nữa.<br>5) Tầng 5 là nếu không cắt túi mật thì sỏi mới tiếp tục rơi xuống và viêm đường mật tái phát lần nữa, mỗi đợt tái phát làm tăng nguy cơ biến chứng và tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi tái phát giống hệt chuỗi của đợt đầu, chỉ khác ở điểm khởi đầu là sỏi sót hoặc sỏi mới thay vì sỏi ban đầu. Vì vậy xử trí tái phát cũng giống đợt đầu: dẫn lưu lại, lấy hết sỏi, và lần này phải cắt túi mật để cắt vòng luẩn quẩn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.4 — chuỗi 5 tầng từ sỏi sót tới viêm đường mật tái phát."
+    },
+    {
+      "id": "SURG28-CARD-093",
+      "note_id": 1793959205122,
+      "tags": [
+        "viem-duong-mat",
+        "theo-doi",
+        "khong-dap-ung"
+      ],
+      "type": "basic",
+      "front": "Theo dõi sau điều trị viêm đường mật trong <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> đầu gồm những gì, và không đáp ứng thì làm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong <span style=\"color:#ffd43b\"><b>24–48 giờ</b></span> đầu sau dẫn lưu, theo dõi sốt, mạch, huyết áp, bạch cầu, CRP và bilirubin.<br>2) Đáp ứng tốt là sốt hạ dần, bạch cầu giảm, bilirubin giảm, và bệnh nhân đỡ đau.<br>3) Không đáp ứng là sốt không hạ, bạch cầu không giảm, bilirubin không giảm, hoặc xuất hiện suy tạng mới, có thể do dẫn lưu không đầy đủ như stent tắc hoặc sỏi còn sót, kháng sinh không phù hợp như vi khuẩn kháng thuốc, hoặc biến chứng như áp xe gan và viêm tụy.<br>4) Khi không đáp ứng, cần làm lại hình ảnh với siêu âm hoặc CT để kiểm tra dẫn lưu, và điều chỉnh kháng sinh theo kháng sinh đồ.<br>5) Sau khi ra viện, bệnh nhân cần tái khám để đánh giá cắt túi mật nếu chưa cắt và tầm soát sỏi sót, và bệnh nhân chưa cắt túi mật cần được dặn quay lại ngay nếu đau bụng, sốt hoặc vàng da tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Không đáp ứng sau dẫn lưu không có nghĩa là kháng sinh yếu, mà thường có nghĩa là dẫn lưu chưa đầy đủ hoặc có biến chứng. Vì vậy bước đầu tiên khi không đáp ứng là kiểm tra lại dẫn lưu bằng hình ảnh, không phải đổi kháng sinh mạnh hơn một cách mù quáng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 8.5 — theo dõi sau điều trị, đáp ứng tốt và không đáp ứng."
+    },
+    {
+      "id": "SURG28-CARD-094",
+      "note_id": 1793959205124,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Cắt túi mật sớm trong {{c1::<span style=\"color:#ffd43b\"><b>72 giờ</b></span>}} sau ERCP giảm chuyển mổ mở với tỉ số nguy cơ {{c2::<span style=\"color:#ffd43b\"><b>0,35</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 7.1 — cắt túi mật sớm trong 72 giờ sau ERCP giảm chuyển mổ mở, tỉ số nguy cơ 0,35."
+    },
+    {
+      "id": "SURG28-CARD-095",
+      "note_id": 1793959205127,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Trì hoãn cắt túi mật nếu bilirubin toàn phần trên {{c1::<span style=\"color:#ffd43b\"><b>3 lần</b></span>}} giới hạn trên bình thường.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 7.2 — trì hoãn cắt túi mật khi bilirubin trên 3 lần giới hạn trên."
+    },
+    {
+      "id": "SURG28-CARD-096",
+      "note_id": 1793959205129,
+      "tags": [
+        "viem-duong-mat",
+        "tai-phat",
+        "soi-sot"
+      ],
+      "type": "basic",
+      "front": "Sỏi sót sau ERCP gặp ở khoảng {{c1::<span style=\"color:#ffd43b\"><b>5–10%</b></span>}} bệnh nhân.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 8.4 — sỏi sót sau ERCP 5–10%."
+    },
+    {
+      "id": "SURG28-CARD-097",
+      "note_id": 1793959205131,
+      "tags": [
+        "viem-duong-mat",
+        "soc",
+        "nhiem-trung-huyet"
+      ],
+      "type": "basic",
+      "front": "Dấu hiệu cảnh báo sốc nhiễm trùng gồm huyết áp tâm thu dưới {{c1::<span style=\"color:#ffd43b\"><b>100 mmHg</b></span>}} và mạch trên {{c2::<span style=\"color:#ffd43b\"><b>100 lần/phút</b></span>}}.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 8.1 — dấu hiệu cảnh báo sốc: huyết áp tâm thu dưới 100 mmHg, mạch trên 100 lần/phút."
+    },
+    {
+      "id": "SURG28-CARD-098",
+      "note_id": 1793959205134,
+      "tags": [
+        "viem-duong-mat",
+        "phan-tang",
+        "phan-do"
+      ],
+      "type": "basic",
+      "front": "Phân tầng nguy cơ trong viêm đường mật chính là gì, và vì sao phải <span style=\"color:#ffd43b\"><b>đánh giá lại liên tục</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân tầng nguy cơ trong viêm đường mật cấp chính là <span style=\"color:#74c0fc\"><b>phân độ nặng TG18</b></span>: Grade I, II, III.<br>2) Grade I, nhẹ, là nhóm nguy cơ thấp, không suy tạng và không có yếu tố nguy cơ nặng, có thể điều trị bằng kháng sinh, đa số không cần dẫn lưu ngay, và có thể theo dõi tại khoa nội hoặc ngoại khoa.<br>3) Grade II, trung bình, là nhóm nguy cơ trung gian, có 2 trong 5 yếu tố nguy cơ nhưng chưa suy tạng, cần dẫn lưu sớm trong 24–48 giờ và theo dõi sát tại khoa có khả năng làm ERCP.<br>4) Grade III, nặng, là nhóm nguy cơ cao, đã suy chức năng ít nhất 1 trong 6 hệ cơ quan, cần hồi sức tích cực tại ICU, kháng sinh phổ rộng, và dẫn lưu cấp cứu trong vài giờ đầu.<br>5) Phân tầng nguy cơ phải được đánh giá lại liên tục, vì bệnh nhân có thể chuyển độ: từ Grade I lên Grade II khi sốt cao hơn hoặc bilirubin tăng lên, từ Grade II lên Grade III khi xuất hiện suy tạng, vì vậy phải khám lại và làm lại xét nghiệm định kỳ, không phân độ một lần rồi thôi.<br><br><b>💡 Giải thích của AI:</b><br>Phân độ không phải là nhãn dán một lần mà là quá trình theo dõi liên tục. Bệnh nhân vào viện là Grade I vẫn có thể thành Grade III trong vài giờ nếu xuất hiện suy tạng, vì vậy khám lại và làm lại xét nghiệm định kỳ là bắt buộc.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 9.1 — phân tầng nguy cơ theo Grade TG18, đánh giá lại liên tục."
+    },
+    {
+      "id": "SURG28-CARD-099",
+      "note_id": 1793959205136,
+      "tags": [
+        "viem-duong-mat",
+        "luu-do",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "Lưu đồ từ nghi ngờ viêm đường mật tới <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> gồm những bước nào, và nhánh cấp cứu áp dụng khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1 là <span style=\"color:#51cf66\"><b>đo sinh hiệu</b></span> trước khi làm gì khác, vì phải biết bệnh nhân có sốc hay suy tạng không, điều đó quyết định tốc độ xử trí.<br>2) Bước 2 là làm xét nghiệm máu gồm bạch cầu, CRP, bilirubin, ALP, GGT, creatinine và PT-INR để áp tiêu chuẩn TG18 và phân độ nặng.<br>3) Bước 3 là áp tiêu chuẩn TG18: nếu không đạt tiêu chuẩn nghi ngờ thì tìm nguyên nhân khác như viêm túi mật, viêm gan và viêm tụy, nếu đạt tiêu chuẩn nghi ngờ thì bắt đầu kháng sinh kinh nghiệm ngay và lấy cấy máu trước kháng sinh.<br>4) Bước 4 là siêu âm bụng khẩn để tìm bằng chứng nhóm C và nguyên nhân tắc, và bước 5 là phân độ nặng Grade I, II hay III, mỗi độ có thời điểm dẫn lưu khác nhau.<br>5) Grade I thì kháng sinh và theo dõi sát, dẫn lưu nếu không đáp ứng sau 24–48 giờ, và khi hết sốt, bạch cầu và bilirubin giảm thì xem xét cắt túi mật trong cùng đợt nằm viện.<br>6) Grade II thì dẫn lưu sớm bằng ERCP trong 24–48 giờ, sau dẫn lưu thì kháng sinh 4–7 ngày và cắt túi mật sớm trong 72 giờ sau ERCP nếu ổn định.<br>7) Grade III thì hồi sức tích cực tại ICU và kháng sinh phổ rộng ngay, dẫn lưu cấp cứu bằng ERCP trong vài giờ đầu sau khi hồi sức đủ ổn định, sau dẫn lưu thì kháng sinh 4–7 ngày và cắt túi mật khi tình trạng ổn định.<br>8) Nếu ERCP thất bại thì chuyển sang EUS-BD nếu có chuyên môn hoặc PTBD, và nếu dẫn lưu nội soi và qua da đều thất bại thì hội chẩn phẫu thuật mở dẫn lưu.<br>9) Nhánh cấp cứu áp dụng bất kỳ lúc nào trong lưu đồ: sốc nhiễm trùng thì hồi sức tích cực, kháng sinh phổ rộng trong giờ đầu và dẫn lưu cấp cứu; suy hô hấp thì thở oxy, cân nhắc thở máy rồi dẫn lưu cấp cứu; rối loạn ý thức với Glasgow dưới 15 thì bảo vệ đường thở, hồi sức và dẫn lưu cấp cứu; người già trên 80 tuổi lơ mơ và mệt mỏi, không đau, không sốt, không vàng da thì vẫn nghi ngờ viêm đường mật, làm xét nghiệm và siêu âm ngay.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ này là toàn bộ bài thu gọn thành một dòng chảy quyết định: đo sinh hiệu, xét nghiệm, áp TG18, siêu âm, phân độ, dẫn lưu theo độ, rồi cắt túi mật. Nhánh cấp cứu chạy song song với mọi bước, không chờ tới lượt của nó.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 9.2 — lưu đồ quyết định từ nghi ngờ viêm đường mật tới cắt túi mật."
+    },
+    {
+      "id": "SURG28-CARD-100",
+      "note_id": 1793959205138,
+      "tags": [
+        "viem-duong-mat",
+        "Grade-III",
+        "soc",
+        "co-do"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Bệnh nhân viêm đường mật <span style=\"color:#ff6b6b\"><b>Grade III</b></span> và bệnh nhân <span style=\"color:#ff6b6b\"><b>sốc nhiễm trùng</b></span> phải xử trí ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân viêm đường mật có suy chức năng bất kỳ 1 trong 6 hệ, gồm tim mạch, thần kinh, hô hấp, thận, gan và huyết học, là <span style=\"color:#ff6b6b\"><b>Grade III</b></span>, phải hồi sức tích cực ngay và dẫn lưu đường mật cấp cứu trong vài giờ đầu sau khi hồi sức đủ ổn định, không được trì hoãn dẫn lưu tới ngày hôm sau ở Grade III.<br>2) Bệnh nhân viêm đường mật kèm hạ huyết áp, mạch nhanh và lơ mơ là sốc nhiễm trùng, phải bắt đầu kháng sinh phổ rộng trong giờ đầu tiên, truyền dịch tích cực, dùng thuốc vận mạch, và dẫn lưu cấp cứu.<br>3) Kháng sinh không thay thế được dẫn lưu, và dẫn lưu không thay thế được kháng sinh, cần cả 2.<br><br><b>💡 Giải thích của AI:</b><br>Hai tình huống này là cấp cứu tuyệt đối trong viêm đường mật. Grade III mà chờ tới ngày hôm sau mới dẫn lưu là sai lầm chết người, và sốc nhiễm trùng mà chỉ cho kháng sinh không dẫn lưu cũng là sai lầm chết người.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 9.3 — BOX ĐỎ Grade III cấp cứu và sốc nhiễm trùng cần kháng sinh trong giờ đầu."
+    },
+    {
+      "id": "SURG28-CARD-101",
+      "note_id": 1793959205140,
+      "tags": [
+        "viem-duong-mat",
+        "co-do",
+        "nguoi-gia",
+        "Charcot"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Ba sai lầm không được mắc khi chẩn đoán và điều trị <span style=\"color:#ff6b6b\"><b>viêm đường mật</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>Người già trên 80 tuổi</b></span> có thể không đau, không sốt, không vàng da, với 9,1% bệnh nhân từ 80 tuổi trở lên không có cả 3 triệu chứng kinh điển và 33,6% có rối loạn ý thức, vì vậy người già lơ mơ và mệt mỏi, dù không đau và không sốt, vẫn phải nghi ngờ viêm đường mật và làm xét nghiệm cùng siêu âm ngay.<br>2) Không chờ đủ tam chứng Charcot mới chẩn đoán, vì tam chứng Charcot đầy đủ chỉ gặp ở khoảng 25% bệnh nhân viêm đường mật, chờ đủ 3 triệu chứng mới chẩn đoán sẽ bỏ sót phần lớn bệnh nhân, vì vậy dùng tiêu chuẩn TG18 để không bỏ sót và dùng tam chứng Charcot để khẳng định khi dương tính.<br>3) Kháng sinh không thay thế được dẫn lưu, vì chừng nào ống mật còn tắc và áp lực đường mật còn cao thì vi khuẩn còn tiếp tục vào máu, kháng sinh diệt vi khuẩn trong máu nhưng không hạ được áp lực đường mật, chỉ có dẫn lưu mới cắt được nguồn nhiễm trùng, và không được điều trị viêm đường mật chỉ bằng kháng sinh mà không có kế hoạch dẫn lưu.<br><br><b>💡 Giải thích của AI:</b><br>Ba sai lầm này đều có chung một gốc: đánh giá thấp bệnh vì biểu hiện nghèo nàn hoặc vì tin vào một tiêu chuẩn duy nhất. Người già không điển hình, Charcot không nhạy, và kháng sinh không hạ được áp lực đường mật là 3 điều phải khắc cốt ghi tâm.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 9.3 — BOX ĐỎ người già trên 80 tuổi, không chờ đủ Charcot, kháng sinh không thay thế dẫn lưu."
+    },
+    {
+      "id": "SURG28-CARD-102",
+      "note_id": 1793959205142,
+      "tags": [
+        "viem-duong-mat",
+        "Plan-A",
+        "Plan-B",
+        "chuyen-tuyen"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Plan A và Plan B</b></span> khi nguồn lực hạn chế khác nhau ra sao, và ngưỡng chuyển tuyến đặt ở đâu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Plan A</b></span> là khi có đủ nguồn lực, gồm xét nghiệm máu đầy đủ, siêu âm, CT, MRCP, ERCP 24 giờ, ICU và ngoại khoa trực, với phân tầng bằng TG18 đầy đủ, siêu âm khẩn cho mọi bệnh nhân nghi ngờ, ERCP trong 24–48 giờ ở Grade II và cấp cứu trong vài giờ đầu ở Grade III, và cắt túi mật sớm trong 72 giờ sau ERCP.<br>2) Plan B là khi thiếu nguồn lực, tuyến huyện không có ERCP, không có MRCP, không có ICU, hoặc không có ngoại khoa trực, với chẩn đoán bằng tiêu chuẩn TG18 gồm nhóm A cộng nhóm B và siêu âm tìm nhóm C, bắt đầu kháng sinh ngay, hồi sức cơ bản, và chuyển tuyến trên ngay cho bệnh nhân Grade II và Grade III.<br>3) Bệnh nhân Grade I có thể theo dõi tại tuyến dưới với kháng sinh và khám lại định kỳ, chuyển tuyến trên nếu không đáp ứng sau 24–48 giờ.<br>4) Điều Plan B vẫn làm được ngay là đo sinh hiệu, làm xét nghiệm máu cơ bản, siêu âm bụng, bắt đầu kháng sinh, và chuyển tuyến kịp thời.<br>5) Điều Plan B không được suy diễn là không được dùng siêu âm bình thường để loại trừ viêm đường mật, không được dùng xét nghiệm máu bình thường để kết luận không có bệnh, và không được trì hoãn chuyển tuyến khi bệnh nhân đã Grade II hoặc III.<br>6) Ngưỡng chuyển tuyến trong Plan B phải thấp hơn Plan A: khi không chắc chắn về độ nặng, chuyển tuyến trên sớm hơn là an toàn hơn.<br><br><b>💡 Giải thích của AI:</b><br>Plan B không phải là điều trị kém hơn mà là điều trị phù hợp với nguồn lực: làm ngay những gì làm được và chuyển tuyến kịp thời những gì không làm được. Sai lầm lớn nhất của Plan B là trì hoãn chuyển tuyến hoặc dùng kết quả âm tính để loại trừ bệnh.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 9.4 — Plan A và Plan B khi nguồn lực hạn chế."
+    },
+    {
+      "id": "SURG28-CARD-103",
+      "note_id": 1793959205144,
+      "tags": [
+        "viem-duong-mat",
+        "viet-nam",
+        "tuyen"
+      ],
+      "type": "basic",
+      "front": "Áp dụng khung TG18 tại <span style=\"color:#74c0fc\"><b>Việt Nam</b></span> theo tuyến ra sao, và vì sao không có số liệu Việt Nam trong bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong đợt nghiên cứu này, nhóm nghiên cứu không tìm thấy <span style=\"color:#ffd43b\"><b>số liệu dịch tễ Việt Nam</b></span> nào về viêm đường mật và sỏi mật đã được kiểm chứng, vì vậy phần này không bịa số liệu Việt Nam mà chỉ dạy nguyên lý và bối cảnh tuyến.<br>2) Ở tuyến trung ương và tuyến tỉnh, có đủ siêu âm, CT, MRCP, ERCP và ICU, nên áp dụng Plan A với phân tầng bằng TG18 đầy đủ, siêu âm khẩn, ERCP trong 24–48 giờ ở Grade II và cấp cứu ở Grade III, cắt túi mật sớm trong 72 giờ sau ERCP.<br>3) Ở tuyến huyện, thường không có ERCP và MRCP, có khi không có CT, và không có ICU, nên áp dụng Plan B với chẩn đoán bằng tiêu chuẩn TG18 với siêu âm, bắt đầu kháng sinh ngay, hồi sức cơ bản, và chuyển tuyến trên ngay cho bệnh nhân Grade II và Grade III.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ trong bài: bệnh nhân ở tuyến huyện, Grade II, không có ERCP thì hướng xử trí là bắt đầu kháng sinh ngay, hồi sức cơ bản, siêu âm bụng, và chuyển tuyến tỉnh làm ERCP trong 24–48 giờ, không chờ đợi tại tuyến dưới.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 10 — áp dụng tại Việt Nam theo tuyến, không có số liệu Việt Nam đã kiểm chứng."
+    },
+    {
+      "id": "SURG28-CARD-104",
+      "note_id": 1793959205146,
+      "tags": [
+        "viem-duong-mat",
+        "viet-nam",
+        "soi-trong-gan"
+      ],
+      "type": "basic",
+      "front": "Những điểm đặc biệt nào của <span style=\"color:#74c0fc\"><b>Việt Nam</b></span> ảnh hưởng tới chẩn đoán và điều trị viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Sỏi trong gan</b></span> và viêm đường mật mủ tái phát hay gặp hơn ở châu Á so với phương Tây, liên quan tới chế độ ăn, kinh tế xã hội và ký sinh trùng đường mật, vì vậy bệnh nhân viêm đường mật tái phát nhiều lần ở Việt Nam cần được nghĩ tới sỏi trong gan và làm MRCP để đánh giá toàn bộ hệ thống đường mật trong gan.<br>2) Bệnh nhân Việt Nam thường đến khám muộn vì tự mua thuốc hạ sốt và giảm đau uống ở nhà trước, và thuốc hạ sốt che lấp sốt, thuốc giảm đau che lấp đau, làm cho tiêu chuẩn TG18 khó áp dụng vì nhóm A viêm toàn thân có thể bị che lấp.<br>3) Vì vậy, phải hỏi kỹ bệnh nhân đã uống thuốc gì trước khi đến viện và ghi rõ vào bệnh án, khi bệnh nhân đã uống thuốc hạ sốt thì sốt đo được có thể thấp hơn sốt thật, phải dựa vào các dấu hiệu khác như rét run, bạch cầu, CRP và bilirubin để chẩn đoán.<br>4) Về kháng sinh, lựa chọn nhóm thuốc phải theo kháng sinh đồ địa phương vì tỉ lệ kháng thuốc khác nhau giữa các bệnh viện và các vùng, và TG18 khuyến cáo không dùng ampicillin/sulbactam nếu tỉ lệ kháng trên 20% ở địa phương, vì vậy người học phải biết tỉ lệ kháng thuốc tại bệnh viện của mình.<br>5) Về chi phí, ERCP và đặt stent tốn kém và không phải bệnh viện nào cũng làm được, bệnh nhân nghèo không có bảo hiểm y tế có thể trì hoãn ERCP vì chi phí, vì vậy bác sĩ cần tư vấn rõ về tính cấp thiết của dẫn lưu và hỗ trợ bệnh nhân tiếp cận bảo hiểm y tế.<br><br><b>💡 Giải thích của AI:</b><br>Ba điểm đặc biệt của Việt Nam là sỏi trong gan hay gặp hơn, bệnh nhân đến muộn vì tự dùng thuốc che lấp triệu chứng, và chi phí ERCP là rào cản thực tế. Cả ba đều ảnh hưởng trực tiếp tới chẩn đoán và quyết định dẫn lưu, không phải là chi tiết ngoài lề.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 10 — sỏi trong gan ở châu Á, thuốc hạ sốt và giảm đau che lấp triệu chứng, kháng sinh đồ địa phương, chi phí ERCP."
+    },
+    {
+      "id": "SURG28-CARD-105",
+      "note_id": 1793959205148,
+      "tags": [
+        "viem-duong-mat",
+        "mau-thuan",
+        "ERCP",
+        "thoi-diem"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn về thời điểm <span style=\"color:#51cf66\"><b>ERCP</b></span> ở nhẹ và trung bình: TG18, thử nghiệm Gut và dữ liệu quan sát nói gì khác nhau?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) TG18 khuyến cáo <span style=\"color:#51cf66\"><b>dẫn lưu sớm</b></span>, nhưng thử nghiệm ngẫu nhiên trên tạp chí Gut năm 2026 cho thấy ERCP trong 24 giờ không vượt trội so với ERCP trong 24–48 giờ ở bệnh nhân nhẹ và trung bình, và có nhiều biến cố sau thủ thuật hơn với 17,1% so với 9,2%, vì vậy dạy rằng ở nhẹ và trung bình thì không cần vội làm ERCP trong 24 giờ đầu nếu bệnh nhân ổn định, còn ở nặng thì vẫn dẫn lưu cấp cứu.<br>2) Nghiên cứu trên cơ sở dữ liệu quốc gia Mỹ với 137.100 bệnh nhân cho thấy ERCP trong 24 giờ làm giảm tử vong ở mọi nhóm tuổi, trong khi nghiên cứu đoàn hệ trên 271 bệnh nhân cho thấy tử vong 30 ngày cao nhất ở nhóm làm ERCP trong 24 giờ với 16,7%, và khác nhau do nhiễu do chỉ định vì bệnh nặng hơn được làm sớm hơn.<br>3) Dạy rằng dữ liệu quan sát về thời điểm luôn nhiễu do chỉ định, thử nghiệm ngẫu nhiên là bằng chứng mạnh nhất nhưng chỉ có ở nhẹ và trung bình.<br><br><b>💡 Giải thích của AI:</b><br>Hai mâu thuẫn này dạy cùng một bài học: thời điểm dẫn lưu không có đáp án tuyệt đối cho mọi bệnh nhân, mà phụ thuộc vào độ nặng và vào loại bằng chứng đang đọc. Thử nghiệm ngẫu nhiên nói không cần vội ở nhẹ và trung bình, dữ liệu quan sát thì mâu thuẫn nhau vì nhiễu do chỉ định.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.1 — mâu thuẫn 1 và 2 về thời điểm ERCP."
+    },
+    {
+      "id": "SURG28-CARD-106",
+      "note_id": 1793959205150,
+      "tags": [
+        "viem-duong-mat",
+        "mau-thuan",
+        "TG18",
+        "Charcot"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn về tiêu chuẩn chẩn đoán: <span style=\"color:#74c0fc\"><b>TG18 nhạy nhưng kém đặc hiệu</b></span>, và viêm toàn thân có phải thiết yếu không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tiêu chuẩn TG18 có độ nhạy <span style=\"color:#ffd43b\"><b>82–86%</b></span> nhưng độ đặc hiệu chỉ 60–63%, tức 4 trong 10 bệnh nhân chẩn đoán sai, còn tam chứng Charcot và tiêu chuẩn Hà Lan có độ đặc hiệu 99% nhưng độ nhạy chỉ 42–46%, tức bỏ sót hơn một nửa, vì vậy dạy rằng TG18 tốt để không bỏ sót, Charcot tốt để khẳng định khi dương tính, và dùng kết hợp, không dùng một mình.<br>2) TG18 coi viêm toàn thân là thiết yếu, nhưng nghiên cứu ở người già cho thấy tiêu chuẩn ứ mật có mặt ở 96,0% bệnh nhân trong khi viêm toàn thân chỉ có mặt ở 75,9%, và tác giả đề xuất ứ mật thay viêm toàn thân làm tiêu chuẩn thiết yếu.<br>3) Dạy rằng tranh luận còn mở, đặc biệt ở người già, với 9,1% bệnh nhân từ 80 tuổi trở lên không đau, không sốt, không vàng da.<br><br><b>💡 Giải thích của AI:</b><br>Không có tiêu chuẩn chẩn đoán nào hoàn hảo: tiêu chuẩn nhạy thì kém đặc hiệu, tiêu chuẩn đặc hiệu thì kém nhạy. Người học phải biết điểm mạnh và điểm yếu của từng tiêu chuẩn để dùng chúng bổ sung cho nhau thay vì tranh cãi tiêu chuẩn nào đúng tuyệt đối.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.1 — mâu thuẫn 3 và 6 về tiêu chuẩn chẩn đoán và viêm toàn thân thiết yếu."
+    },
+    {
+      "id": "SURG28-CARD-107",
+      "note_id": 1793959205152,
+      "tags": [
+        "viem-duong-mat",
+        "mau-thuan",
+        "khang-sinh",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn về <span style=\"color:#51cf66\"><b>kháng sinh ngắn ngày</b></span> và <span style=\"color:#51cf66\"><b>cắt túi mật sớm</b></span>: dạy cả hai phía ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) TG18 khuyến cáo kháng sinh <span style=\"color:#ffd43b\"><b>4–7 ngày</b></span>, nhưng bằng chứng yếu và chủ yếu dựa trên ý kiến chuyên gia, trong khi nghiên cứu đoàn hệ ở Colombia cho thấy kháng sinh ngắn dưới 4 ngày không khác kết cục, và 2 thử nghiệm ngẫu nhiên về kháng sinh ngắn ngày đang chạy, vì vậy dạy rằng chuẩn hiện hành vẫn là 4–7 ngày, kháng sinh ngắn ngày là hướng nghiên cứu, chưa đủ bằng chứng đổi thực hành.<br>2) Phân tích gộp các thử nghiệm ngẫu nhiên ủng hộ cắt sớm trong 72 giờ sau ERCP với ít chuyển mổ mở và ít nhiễm trùng vết mổ, nhưng thực hành trì hoãn khi bilirubin trên 3 lần giới hạn trên hoặc có biến cố sau ERCP.<br>3) Dạy rằng cắt sớm nếu bệnh nhân ổn định, trì hoãn nếu có lý do như tăng bilirubin nặng, biến cố sau ERCP, hoặc suy đa tạng chưa hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Cả hai mâu thuẫn này đều có chung một cấu trúc: bằng chứng mới gợi ý thay đổi thực hành nhưng chưa đủ mạnh để đổi chuẩn, vì vậy dạy cả hai phía và giữ chuẩn hiện hành cho tới khi có bằng chứng mạnh hơn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.1 — mâu thuẫn 4 và 5 về kháng sinh ngắn ngày và cắt túi mật sớm hay trì hoãn."
+    },
+    {
+      "id": "SURG28-CARD-108",
+      "note_id": 1793959205154,
+      "tags": [
+        "viem-duong-mat",
+        "mau-thuan",
+        "mo-mo",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn <span style=\"color:#51cf66\"><b>phẫu thuật mở</b></span> so với <span style=\"color:#51cf66\"><b>dẫn lưu nội soi</b></span>: tử vong khác nhau ra sao và dạy thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phẫu thuật mở dẫn lưu có tử vong tới <span style=\"color:#ffd43b\"><b>40%</b></span> so với dẫn lưu nội soi.<br>2) Dạy rằng dẫn lưu nội soi là đầu tay, và phẫu thuật mở chỉ khi dẫn lưu nội soi và dẫn lưu qua da đều thất bại hoặc không làm được.<br><br><b>💡 Giải thích của AI:</b><br>Tử vong 40% của mổ mở phản ánh cả mức độ nặng của bệnh nhân phải mổ mở lẫn tính xâm lấn của phẫu thuật. Thông điệp thực hành vẫn rõ: nội soi trước, qua da sau, mổ mở là lựa chọn cuối cùng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.1 — mâu thuẫn 7, phẫu thuật mở so với dẫn lưu nội soi."
+    },
+    {
+      "id": "SURG28-CARD-109",
+      "note_id": 1793959205156,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "Charcot"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Chờ đủ <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span> mới chẩn đoán viêm đường mật. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là chờ đủ tam chứng Charcot mới chẩn đoán viêm đường mật.<br>2) Tam chứng đầy đủ chỉ gặp ở khoảng <span style=\"color:#ffd43b\"><b>25%</b></span> bệnh nhân, vì vậy chờ đủ 3 triệu chứng sẽ bỏ sót phần lớn bệnh nhân.<br>3) Đúng là dùng tiêu chuẩn TG18 để không bỏ sót, và dùng tam chứng Charcot để khẳng định khi dương tính.<br><br><b>💡 Giải thích của AI:</b><br>Charcot có độ đặc hiệu cao nhưng độ nhạy thấp, nên chờ đủ tam chứng là chờ một dấu hiệu hiếm gặp. Trong 100 bệnh nhân viêm đường mật thì chỉ khoảng 25 người có đủ tam chứng, 75 người còn lại sẽ bị bỏ sót nếu chờ đủ.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 1, chờ đủ tam chứng Charcot mới chẩn đoán."
+    },
+    {
+      "id": "SURG28-CARD-110",
+      "note_id": 1793959205158,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "khang-sinh",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Nghĩ rằng <span style=\"color:#51cf66\"><b>kháng sinh mạnh</b></span> là đủ và dẫn lưu có thể chờ. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là nghĩ rằng <span style=\"color:#51cf66\"><b>kháng sinh mạnh</b></span> là đủ và dẫn lưu có thể chờ.<br>2) Kháng sinh không hạ được áp lực đường mật, vì vậy chừng nào ống mật còn tắc thì vi khuẩn còn tiếp tục vào máu.<br>3) Đúng là kháng sinh là cần thiết nhưng không đủ, dẫn lưu là điều trị quyết định và phải có kế hoạch dẫn lưu ngay từ đầu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bẫy hay gặp nhất trong viêm đường mật, vì kháng sinh mạnh tạo cảm giác an toàn giả. Kháng sinh diệt vi khuẩn trong máu nhưng không cắt được nguồn vi khuẩn từ đường mật, và nguồn đó chỉ dẫn lưu mới cắt được.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 2, kháng sinh mạnh là đủ và dẫn lưu có thể chờ."
+    },
+    {
+      "id": "SURG28-CARD-111",
+      "note_id": 1793959205160,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "ERCP",
+        "Grade-III"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Áp kết quả thử nghiệm <span style=\"color:#51cf66\"><b>ERCP ở nhẹ và trung bình</b></span> sang bệnh nhân nặng. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là áp kết quả <span style=\"color:#51cf66\"><b>thử nghiệm ERCP</b></span> ở nhẹ và trung bình sang bệnh nhân nặng.<br>2) Thử nghiệm Gut chỉ làm ở bệnh nhân nhẹ và trung bình, và kết quả ERCP trong 24 giờ không vượt trội so với 24–48 giờ chỉ áp dụng cho nhóm đó.<br>3) Đúng là bệnh nhân nặng Grade III vẫn phải dẫn lưu cấp cứu trong vài giờ đầu, không được chờ 24–48 giờ.<br><br><b>💡 Giải thích của AI:</b><br>Áp dụng kết quả thử nghiệm sai quần thể là lỗi ngoại suy. Thử nghiệm loại trừ bệnh nhân nặng, vì vậy kết quả của nó không nói gì về bệnh nhân nặng, và bệnh nhân nặng vẫn tuân theo khuyến cáo dẫn lưu cấp cứu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 3, áp kết quả thử nghiệm ở nhẹ và trung bình sang bệnh nhân nặng."
+    },
+    {
+      "id": "SURG28-CARD-112",
+      "note_id": 1793959205162,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "nhieu-chi-dinh"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Tin dữ liệu quan sát về thời điểm <span style=\"color:#51cf66\"><b>ERCP</b></span> mà không nghĩ tới nhiễu do chỉ định. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là tin <span style=\"color:#74c0fc\"><b>dữ liệu quan sát</b></span> về thời điểm ERCP mà không nghĩ tới nhiễu do chỉ định.<br>2) Bệnh nhân nặng hơn được làm ERCP sớm hơn, nên nhóm làm sớm có tử vong cao hơn, không phải vì làm sớm gây tử vong, mà vì bệnh nhân làm sớm vốn đã nặng hơn.<br>3) Đúng là dữ liệu quan sát về thời điểm luôn nhiễu do chỉ định, và thử nghiệm ngẫu nhiên là bằng chứng mạnh nhất nhưng chỉ có ở nhẹ và trung bình.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: nghiên cứu đoàn hệ trên 271 bệnh nhân cho thấy tử vong cao nhất ở nhóm làm ERCP trong 24 giờ, nhưng sau hiệu chỉnh đa biến thì ERCP trong 24–72 giờ lại liên quan tới tử vong thấp hơn. Đọc dữ liệu quan sát mà không nghĩ tới nhiễu do chỉ định sẽ kết luận ngược hoàn toàn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 4, tin dữ liệu quan sát mà không nghĩ tới nhiễu do chỉ định."
+    },
+    {
+      "id": "SURG28-CARD-113",
+      "note_id": 1793959205164,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "khang-sinh",
+        "lieu"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy <span style=\"color:#ff6b6b\"><b>liều mg kháng sinh</b></span> khi không có liều nào được kiểm chứng. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là dạy <span style=\"color:#ffd43b\"><b>liều mg</b></span> kháng sinh khi không có liều nào được kiểm chứng.<br>2) Bài này không dạy liều mg, vì trong mọi tóm tắt và toàn văn lấy được, không có nguồn nào ghi liều mg kháng sinh, và liều trong TG18 nằm trong toàn văn trả phí không lấy được.<br>3) Đúng là liều theo hướng dẫn của bệnh viện, theo chức năng thận của bệnh nhân, và theo kháng sinh đồ, không được bịa liều mg để viết cho đủ bài.<br><br><b>💡 Giải thích của AI:</b><br>Bịa liều thuốc là lỗi nguy hiểm nhất trong dạy học y khoa, vì người học có thể dùng liều bịa đó cho bệnh nhân thật. Thà nói rõ không có liều đã kiểm chứng còn hơn dạy một liều không có nguồn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 5, dạy liều mg kháng sinh khi không có liều nào được kiểm chứng."
+    },
+    {
+      "id": "SURG28-CARD-114",
+      "note_id": 1793959205166,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "dopamine",
+        "Grade-III"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Nhầm lẫn đơn vị <span style=\"color:#ffd43b\"><b>dopamine</b></span> trong tiêu chuẩn Grade III. Đơn vị đúng là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là nhầm lẫn đơn vị dopamine trong tiêu chuẩn Grade III.<br>2) Bản tái bản in 5 mg/kg/phút là lỗi in, và đơn vị đúng là <span style=\"color:#ffd43b\"><b>5 µg/kg/phút</b></span>.<br>3) Liều 5 mg/kg/phút là liều gây chết, vì liều dopamine tính bằng microgam, không phải miligam.<br><br><b>💡 Giải thích của AI:</b><br>Nhầm microgam với miligam là nhầm gấp 1000 lần, và trong tiêu chuẩn phân độ thì nhầm này làm sai cả phân độ lẫn liều thuốc vận mạch. Đây là cờ đơn vị mà bài giảng ghi rõ, phải nhớ đúng đơn vị microgam.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 6, nhầm đơn vị dopamine, cờ lỗi in 5 mg/kg/phút."
+    },
+    {
+      "id": "SURG28-CARD-115",
+      "note_id": 1793959205168,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bỏ sót viêm đường mật ở <span style=\"color:#ff6b6b\"><b>người già</b></span> vì không đau, không sốt, không vàng da. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là bỏ sót viêm đường mật ở <span style=\"color:#ffd43b\"><b>người già</b></span> vì không đau, không sốt, không vàng da.<br>2) Ở nhóm từ 80 tuổi trở lên, 9,1% bệnh nhân không có cả 3 triệu chứng kinh điển, và 33,6% có rối loạn ý thức.<br>3) Đúng là người già lơ mơ và mệt mỏi, dù không đau và không sốt, vẫn phải nghi ngờ viêm đường mật và làm xét nghiệm cùng siêu âm ngay.<br><br><b>💡 Giải thích của AI:</b><br>Lão hóa làm giảm đáp ứng viêm nên sốt thấp hoặc không sốt, bạch cầu tăng ít và cảm giác đau giảm. Người già có thể đang nhiễm trùng huyết mà chỉ biểu hiện mệt mỏi và lơ mơ, vì vậy không được dùng biểu hiện nghèo nàn để loại trừ bệnh nặng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 7, bỏ sót viêm đường mật ở người già."
+    },
+    {
+      "id": "SURG28-CARD-116",
+      "note_id": 1793959205170,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "sieu-am"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dùng <span style=\"color:#51cf66\"><b>siêu âm bình thường</b></span> để loại trừ viêm đường mật. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là dùng <span style=\"color:#74c0fc\"><b>siêu âm bình thường</b></span> để loại trừ viêm đường mật.<br>2) Siêu âm hay bỏ sót sỏi ống mật chủ vì ống mật chủ nằm sâu và hay bị hơi ruột che lấp.<br>3) Đúng là siêu âm bình thường không loại trừ được viêm đường mật, cần làm thêm CT hoặc MRCP khi nghi ngờ cao.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm là hình ảnh đầu tay vì nhanh và sẵn có, nhưng độ nhạy với sỏi ống mật chủ thấp. Một siêu âm bình thường chỉ có nghĩa là chưa thấy sỏi, không có nghĩa là không có sỏi, và càng không có nghĩa là không có viêm đường mật.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 8, dùng siêu âm bình thường để loại trừ viêm đường mật."
+    },
+    {
+      "id": "SURG28-CARD-117",
+      "note_id": 1793959205172,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Tự ý rút ngắn kháng sinh xuống <span style=\"color:#ffd43b\"><b>1–3 ngày</b></span> vì đọc được protocol thử nghiệm. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là tự ý rút ngắn kháng sinh xuống <span style=\"color:#ffd43b\"><b>1–3 ngày</b></span> vì đọc được protocol thử nghiệm.<br>2) Hai thử nghiệm về kháng sinh ngắn ngày đang chạy và chưa có kết quả, và chuẩn hiện hành vẫn là 4–7 ngày sau dẫn lưu.<br>3) Đúng là không tự ý rút ngắn kháng sinh chỉ vì đọc được protocol, vì protocol chưa phải là kết quả, và bằng chứng của khuyến cáo 4–7 ngày tuy yếu nhưng vẫn là chuẩn hiện hành.<br><br><b>💡 Giải thích của AI:</b><br>Nghiên cứu đoàn hệ ở Colombia cho thấy kháng sinh ngắn dưới 4 ngày không khác kết cục, nhưng đó là dữ liệu quan sát, chưa đủ để đổi thực hành. Phải chờ kết quả của BOLT-P3 và COBRA trước khi thay đổi chuẩn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 9, tự ý rút ngắn kháng sinh xuống 1–3 ngày."
+    },
+    {
+      "id": "SURG28-CARD-118",
+      "note_id": 1793959205174,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Trì hoãn <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> vô cớ sau viêm đường mật do sỏi. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là trì hoãn <span style=\"color:#51cf66\"><b>cắt túi mật</b></span> vô cớ sau viêm đường mật do sỏi.<br>2) Cắt sớm trong 72 giờ sau ERCP giảm chuyển mổ mở với tỉ số nguy cơ 0,35, và chỉ trì hoãn khi có lý do như bilirubin trên 3 lần giới hạn trên hoặc biến cố sau ERCP.<br>3) Đúng là cắt túi mật sớm khi bệnh nhân ổn định, vì trì hoãn vô cớ làm tăng chuyển mổ mở, tăng nằm viện, tăng chi phí và tăng tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Túi mật là nguồn sinh sỏi, nên trì hoãn cắt túi mật là để lại nguồn sinh sỏi trong cơ thể bệnh nhân. Mỗi ngày trì hoãn là thêm nguy cơ sỏi mới rơi xuống và gây viêm đường mật tái phát.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 10, trì hoãn cắt túi mật vô cớ."
+    },
+    {
+      "id": "SURG28-CARD-119",
+      "note_id": 1793959205176,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "PSC"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Nhầm viêm đường mật cấp với <span style=\"color:#74c0fc\"><b>PSC</b></span>. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là nhầm viêm đường mật cấp với viêm đường mật xơ hóa nguyên phát, tức <span style=\"color:#74c0fc\"><b>PSC</b></span>.<br>2) PSC là bệnh mạn tính tiến triển chậm qua nhiều năm, gây hẹp đường mật dần dần và cuối cùng dẫn tới xơ gan, không phải nhiễm trùng cấp tính.<br>3) Đúng là điều trị hai bệnh khác nhau hoàn toàn: viêm đường mật cấp cần kháng sinh và dẫn lưu cấp cứu, còn PSC không đáp ứng với kháng sinh và dẫn lưu cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>PSC hay gặp ở người trẻ và trung niên, thường kèm bệnh viêm ruột, và đa số cuối cùng cần ghép gan. Nhầm một bệnh mạn tính với một bệnh nhiễm trùng cấp tính sẽ dẫn tới điều trị sai hoàn toàn, vì vậy phải phân biệt rõ ngay từ đầu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 11, nhầm viêm đường mật cấp với PSC."
+    },
+    {
+      "id": "SURG28-CARD-120",
+      "note_id": 1793959205178,
+      "tags": [
+        "viem-duong-mat",
+        "bay",
+        "cay-mau"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Quên lấy <span style=\"color:#51cf66\"><b>cấy máu</b></span> trước khi dùng kháng sinh. Vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai lầm là quên lấy <span style=\"color:#74c0fc\"><b>cấy máu</b></span> trước khi dùng kháng sinh.<br>2) Cấy máu sau khi đã dùng kháng sinh thường âm tính giả, mất cơ hội biết vi khuẩn gây bệnh và điều chỉnh kháng sinh theo kháng sinh đồ.<br>3) Đúng là lấy cấy máu 2 bộ ở 2 vị trí khác nhau trước khi dùng kháng sinh, rồi mới bắt đầu kháng sinh kinh nghiệm.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự này không được đảo ngược: cấy máu trước, kháng sinh sau. Lấy cấy máu chỉ mất vài phút nhưng mất cơ hội này là mất luôn thông tin vi sinh quan trọng nhất để điều chỉnh kháng sinh về sau.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 11.2 — bẫy 12, quên lấy cấy máu trước khi dùng kháng sinh."
+    },
+    {
+      "id": "SURG28-CARD-121",
+      "note_id": 1793959205180,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "TG18",
+        "Grade-I"
+      ],
+      "type": "basic",
+      "front": "Case 1: Nữ 68 tuổi, sốt 38,8°C, đau hạ sườn phải, vàng da 2 ngày, bạch cầu 14.200/mm³, bilirubin 4,8 mg/dL, ALP tăng 3 lần giới hạn trên, siêu âm giãn ống mật chủ và sỏi 12 mm. Chẩn đoán <span style=\"color:#74c0fc\"><b>TG18</b></span> và <span style=\"color:#74c0fc\"><b>phân độ</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân có đủ cả <span style=\"color:#74c0fc\"><b>3 nhóm tiêu chuẩn TG18</b></span>: nhóm A với sốt, rét run và bạch cầu tăng, nhóm B với vàng da, bilirubin tăng và ALP tăng, nhóm C với giãn đường mật và sỏi ống mật chủ trên siêu âm, vì vậy đây là chẩn đoán chắc chắn theo TG18.<br>2) Phân độ nặng: bệnh nhân 68 tuổi, chưa tới 75, sốt 38,8°C, chưa tới 39°C, bạch cầu 14.200/mm³, trên 12.000 nên đạt 1 tiêu chí Grade II, bilirubin 4,8 mg/dL, chưa tới 5 nên không đạt tiêu chí, và không suy tạng nào, vì vậy bệnh nhân có 1 trong 5 tiêu chí Grade II, chưa đủ 2 tiêu chí, nên đây là Grade I, nhẹ.<br>3) Dấu Murphy âm tính, bụng mềm, không gồng, phù hợp với viêm đường mật chứ không phải viêm túi mật.<br><br><b>💡 Giải thích của AI:</b><br>Ca này dạy cách đếm tiêu chí Grade II một cách chính xác: bạch cầu trên 12.000 là 1 tiêu chí, nhưng bilirubin 4,8 chưa tới 5 nên không tính, tuổi 68 chưa tới 75 nên không tính, sốt 38,8 chưa tới 39 nên không tính. Chỉ 1 tiêu chí thì chưa đủ Grade II, và không suy tạng thì chưa phải Grade III, vì vậy là Grade I.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 1 — nữ 68 tuổi, chẩn đoán chắc chắn TG18, Grade I."
+    },
+    {
+      "id": "SURG28-CARD-122",
+      "note_id": 1793959205182,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "Grade-I",
+        "ERCP"
+      ],
+      "type": "basic",
+      "front": "Case 1: Với ca nữ 68 tuổi <span style=\"color:#74c0fc\"><b>Grade I</b></span>, sỏi ống mật chủ 12 mm, xử trí tiếp theo là gì và vì sao các lựa chọn khác sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bắt đầu <span style=\"color:#51cf66\"><b>kháng sinh kinh nghiệm</b></span> ngay với nhóm cephalosporin hoặc piperacillin/tazobactam theo hướng dẫn bệnh viện, lấy cấy máu trước kháng sinh, hồi sức cơ bản và theo dõi sát.<br>2) Vì là Grade I, đa số không cần dẫn lưu ngay, nhưng bệnh nhân có sỏi ống mật chủ 12 mm đã xác định nên cần hội chẩn nội soi để làm ERCP lấy sỏi và dẫn lưu trong 24–48 giờ.<br>3) Sau khi dẫn lưu thành công, tiếp tục kháng sinh 4–7 ngày và cắt túi mật sớm trong 72 giờ sau ERCP nếu bệnh nhân ổn định.<br>4) Chỉ dùng kháng sinh mà không có kế hoạch dẫn lưu là sai, vì sỏi 12 mm không tự ra được và ống mật còn tắc thì vi khuẩn còn vào máu.<br>5) Chờ đủ tam chứng Charcot mới chẩn đoán là sai, vì bệnh nhân này đã có đủ 3 triệu chứng nhưng nhiều bệnh nhân khác không có đủ.<br>6) Mổ mở cắt túi mật ngay là sai, vì phải dẫn lưu đường mật trước và cắt túi mật sau khi nhiễm trùng đã được kiểm soát.<br><br><b>💡 Giải thích của AI:</b><br>Ca này cho thấy Grade I không có nghĩa là không cần dẫn lưu: Grade I nghĩa là kháng sinh thường đủ, nhưng khi đã thấy sỏi 12 mm kẹt trong ống mật chủ thì vẫn cần ERCP lấy sỏi và dẫn lưu trong 24–48 giờ, vì sỏi lớn không tự ra được.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 1 — xử trí Grade I với sỏi ống mật chủ 12 mm, ERCP 24–48 giờ, cắt túi mật sớm."
+    },
+    {
+      "id": "SURG28-CARD-123",
+      "note_id": 1793959205184,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "Grade-III",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "Case 2: Nam 82 tuổi, mệt mỏi 3 ngày, lơ mơ, Glasgow 13, huyết áp 85/50 mmHg, không đau rõ, không sốt, không vàng da rõ, bạch cầu 16.500/mm³, bilirubin 6,2 mg/dL, creatinine 2,4 mg/dL, PT-INR 1,8, tiểu cầu 85.000/mm³, siêu âm giãn đường mật. Chẩn đoán và <span style=\"color:#ff6b6b\"><b>phân độ</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đây là viêm đường mật cấp ở <span style=\"color:#ffd43b\"><b>người già</b></span> với biểu hiện không điển hình, đã có nhiễm trùng huyết và suy đa tạng: bệnh nhân không đau rõ, không sốt, không vàng da rõ, cả 3 triệu chứng kinh điển đều mờ nhạt, đúng như mô tả ở người trên 80 tuổi với 9,1% không có cả 3 triệu chứng.<br>2) Nhưng xét nghiệm cho thấy ứ mật rõ với bilirubin 6,2 mg/dL và ALP tăng 4 lần giới hạn trên, viêm toàn thân rõ với bạch cầu 16.500/mm³ và CRP tăng rất cao, cộng với giãn đường mật trên siêu âm, vì vậy đủ tiêu chuẩn TG18 chắc chắn.<br>3) Phân độ nặng là Grade III với suy 5 trong 6 hệ: tim mạch với hạ huyết áp cần thuốc vận mạch, thần kinh với Glasgow 13, thận với creatinine 2,4 mg/dL, gan với PT-INR 1,8, và huyết học với tiểu cầu 85.000/mm³.<br>4) Ngoài ra bệnh nhân có nhiều tiêu chí Grade II: tuổi trên 75, bạch cầu trên 12.000, bilirubin trên 5 mg/dL và albumin thấp.<br><br><b>💡 Giải thích của AI:</b><br>Ca này là ví dụ kinh điển của người già không điển hình: không đau, không sốt, không vàng da, nhưng đã suy 5 hệ. Ai chỉ nhìn triệu chứng sẽ bỏ sót ca này hoàn toàn, còn ai đọc xét nghiệm và đánh giá đủ 6 hệ sẽ thấy ngay đây là Grade III nặng.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 2 — nam 82 tuổi, Grade III suy 5 trong 6 hệ, TG18 chắc chắn."
+    },
+    {
+      "id": "SURG28-CARD-124",
+      "note_id": 1793959205186,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "Grade-III",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "Case 2: Với ca nam 82 tuổi <span style=\"color:#ff6b6b\"><b>Grade III</b></span> suy 5 hệ, xử trí tiếp theo là gì và vì sao các lựa chọn khác sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Hồi sức tích cực</b></span> ngay tại ICU với truyền dịch, thuốc vận mạch norepinephrine, thở oxy, và bảo vệ đường thở vì lơ mơ.<br>2) Bắt đầu kháng sinh phổ rộng ngay trong giờ đầu với nhóm carbapenem cho Grade III theo TG18, và lấy cấy máu trước kháng sinh.<br>3) Dẫn lưu đường mật cấp cứu bằng ERCP trong vài giờ đầu sau khi hồi sức đủ ổn định, không trì hoãn tới ngày hôm sau, và nếu ERCP thất bại thì chuyển sang EUS-BD hoặc PTBD ngay.<br>4) Sau khi dẫn lưu, tiếp tục kháng sinh 4–7 ngày, theo dõi sát chức năng các tạng, và cắt túi mật khi tình trạng ổn định, trì hoãn vì bệnh nhân còn suy đa tạng.<br>5) Kết luận không có gì nghiêm trọng vì bệnh nhân không đau, không sốt, không vàng da là sai lầm chết người ở người già, vì người trên 80 tuổi thường không có biểu hiện điển hình dù bệnh đã nặng.<br>6) Làm ERCP ngay không cần hồi sức là nguy hiểm, vì bệnh nhân đang hạ huyết áp và suy hô hấp, cần hồi sức trước.<br>7) Chỉ dùng kháng sinh mà không dẫn lưu là sai, vì ở Grade III, kháng sinh không thay thế được dẫn lưu.<br><br><b>💡 Giải thích của AI:</b><br>Ca này dạy thứ tự xử trí ở Grade III: hồi sức trước, dẫn lưu sau, nhưng dẫn lưu ngay khi đủ ổn định, không trì hoãn. Hồi sức và dẫn lưu đều cần, thiếu một trong hai đều chết người.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 2 — xử trí Grade III suy 5 hệ, hồi sức ICU, kháng sinh giờ đầu, ERCP cấp cứu."
+    },
+    {
+      "id": "SURG28-CARD-125",
+      "note_id": 1793959205188,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "tai-phat"
+      ],
+      "type": "basic",
+      "front": "Case 3: Nữ 55 tuổi, <span style=\"color:#ff6b6b\"><b>viêm đường mật tái phát</b></span> 2 tháng sau ERCP lấy sỏi và đặt stent, chưa cắt túi mật, nay sốt 38,6°C, đau hạ sườn phải, vàng da trở lại, túi mật còn nhiều sỏi. Nguyên nhân tái phát có thể là gì và cần làm thêm gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyên nhân tái phát hay gặp nhất là <span style=\"color:#ff6b6b\"><b>sỏi sót sau ERCP</b></span> hoặc sỏi mới từ túi mật rơi xuống ống mật chủ.<br>2) Bệnh nhân chưa cắt túi mật và túi mật còn nhiều sỏi, vì vậy nguy cơ sỏi mới rơi xuống ống mật chủ rất cao, và stent còn nằm trong ống mật chủ cũng có thể bị tắc do cặn mật và vi khuẩn, gây viêm đường mật tái phát.<br>3) Cần làm thêm kháng sinh kinh nghiệm ngay, lấy cấy máu trước kháng sinh, và làm MRCP để đánh giá toàn bộ hệ thống đường mật, tìm sỏi sót, sỏi mới, tình trạng stent, và loại trừ hẹp đường mật hoặc sỏi trong gan.<br><br><b>💡 Giải thích của AI:</b><br>Viêm đường mật tái phát 2 tháng sau ERCP ở bệnh nhân chưa cắt túi mật thì nguyên nhân đầu tiên phải nghĩ tới là sỏi, hoặc sỏi sót, hoặc sỏi mới, hoặc stent tắc. MRCP là hình ảnh phù hợp nhất để đánh giá toàn bộ hệ thống đường mật trước khi làm ERCP lại.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 3 — nữ 55 tuổi tái phát 2 tháng sau ERCP, chưa cắt túi mật, nguyên nhân và hình ảnh cần làm."
+    },
+    {
+      "id": "SURG28-CARD-126",
+      "note_id": 1793959205190,
+      "tags": [
+        "viem-duong-mat",
+        "case",
+        "tai-phat",
+        "cat-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Case 3: Với ca nữ 55 tuổi <span style=\"color:#ff6b6b\"><b>tái phát sau ERCP</b></span>, chưa cắt túi mật, xử trí tiếp theo là gì và vì sao các lựa chọn khác sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hội chẩn nội soi để làm <span style=\"color:#51cf66\"><b>ERCP lại</b></span>, lấy sỏi sót hoặc sỏi mới, thay stent nếu stent bị tắc, và dẫn lưu đường mật.<br>2) Sau khi nhiễm trùng được kiểm soát, cắt túi mật sớm trong cùng đợt nằm viện, không trì hoãn nữa, vì trì hoãn cắt túi mật là nguyên nhân trực tiếp gây tái phát lần này.<br>3) Dặn bệnh nhân rõ rằng cắt túi mật là biện pháp phòng tái phát quan trọng nhất, không được trì hoãn vô cớ.<br>4) Chỉ dùng kháng sinh mà không làm ERCP lại là sai, vì sỏi sót hoặc stent tắc cần được giải quyết bằng thủ thuật, kháng sinh không làm sỏi biến mất.<br>5) Trì hoãn cắt túi mật thêm một lần nữa là sai, vì bệnh nhân đã tái phát một lần vì chưa cắt túi mật, trì hoãn nữa sẽ tái phát lần nữa.<br>6) Chỉ thay stent mà không lấy sỏi là sai, vì phải lấy hết sỏi trong ống mật chủ, không chỉ thay stent.<br><br><b>💡 Giải thích của AI:</b><br>Ca này là hậu quả trực tiếp của việc trì hoãn cắt túi mật sau đợt đầu vì bận việc gia đình. Bài học là trì hoãn cắt túi mật phải có lý do y khoa, không phải lý do cá nhân, và bệnh nhân phải được dặn rõ nguy cơ tái phát nếu trì hoãn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, Case 3 — xử trí tái phát, ERCP lại, cắt túi mật sớm trong cùng đợt nằm viện."
+    },
+    {
+      "id": "SURG28-CARD-127",
+      "note_id": 1793959205192,
+      "tags": [
+        "viem-duong-mat",
+        "tips",
+        "chan-doan",
+        "dan-luu"
+      ],
+      "type": "basic",
+      "front": "Những điểm thực hành cốt lõi nào cần nhớ khi <span style=\"color:#74c0fc\"><b>chẩn đoán và dẫn lưu</b></span> viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đừng chờ đủ <span style=\"color:#74c0fc\"><b>tam chứng Charcot</b></span> mới chẩn đoán, vì tam chứng đầy đủ chỉ gặp ở khoảng 25% bệnh nhân viêm đường mật, dùng tiêu chuẩn TG18 để không bỏ sót.<br>2) Kháng sinh không thay thế được dẫn lưu, vì chừng nào ống mật còn tắc và áp lực đường mật còn cao thì vi khuẩn còn tiếp tục vào máu.<br>3) Phân độ nặng bằng suy tạng, không bằng triệu chứng, vì bệnh nhân đau ít và sốt không cao vẫn có thể là Grade III nếu đã suy thận hoặc hạ huyết áp.<br>4) Người già trên 80 tuổi có thể không đau, không sốt, không vàng da, và mệt mỏi cùng lơ mơ có thể là biểu hiện duy nhất của viêm đường mật.<br>5) Lấy cấy máu trước khi dùng kháng sinh, vì cấy máu sau khi đã dùng kháng sinh thường âm tính giả và mất cơ hội biết vi khuẩn gây bệnh.<br>6) Ở nhẹ và trung bình, không cần vội làm ERCP trong 24 giờ đầu nếu bệnh nhân ổn định, làm trong 24–48 giờ cũng được và có thể ít biến cố hơn.<br>7) Ở nặng Grade III, vẫn dẫn lưu cấp cứu trong vài giờ đầu, đừng áp kết quả thử nghiệm ở nhẹ và trung bình sang bệnh nhân nặng.<br><br><b>💡 Giải thích của AI:</b><br>Bảy điểm này là những điểm thực hành cốt lõi khi chẩn đoán và dẫn lưu. Nắm được bảy điểm này là nắm được khung quyết định của toàn bộ bài, từ chẩn đoán tới phân độ tới thời điểm dẫn lưu.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 13 — tips thực hành 1 tới 7."
+    },
+    {
+      "id": "SURG28-CARD-128",
+      "note_id": 1793959205194,
+      "tags": [
+        "viem-duong-mat",
+        "tips",
+        "cat-tui-mat",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "Những điểm thực hành nào cần nhớ về <span style=\"color:#51cf66\"><b>cắt túi mật, liều kháng sinh, đơn vị dopamine</b></span> và người già?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cắt túi mật sớm trong <span style=\"color:#ffd43b\"><b>72 giờ</b></span> sau ERCP khi bệnh nhân ổn định, vì trì hoãn vô cớ làm tăng chuyển mổ mở và tái phát.<br>2) Trì hoãn cắt túi mật khi bilirubin trên 3 lần giới hạn trên hoặc có biến cố sau ERCP, vì mổ trong lúc tắc mật chưa hết sẽ khó khăn và nguy hiểm hơn.<br>3) Đừng dạy liều mg kháng sinh khi không có liều nào được kiểm chứng, liều theo hướng dẫn bệnh viện và chức năng thận của bệnh nhân.<br>4) Nhớ cờ đơn vị dopamine: tiêu chuẩn Grade III là 5 µg/kg/phút, không phải 5 mg/kg/phút, vì bản tái bản in sai đơn vị.<br>5) Nhiễm hỗn hợp Gram âm và Gram dương làm tăng tử vong, vì vậy khi cấy mật cho thấy nhiễm hỗn hợp thì phải đánh giá lại kháng sinh và tiên lượng.<br>6) Siêu âm bình thường không loại trừ được viêm đường mật, vì siêu âm hay bỏ sót sỏi ống mật chủ, cần làm thêm CT hoặc MRCP khi nghi ngờ cao.<br>7) Hỏi kỹ bệnh nhân đã uống thuốc hạ sốt và giảm đau trước khi đến viện, vì thuốc che lấp sốt và đau, làm tiêu chuẩn TG18 khó áp dụng.<br><br><b>💡 Giải thích của AI:</b><br>Checkpoint 5 của bài: bệnh nhân Grade II, đã làm ERCP dẫn lưu thành công, đang dùng kháng sinh ngày thứ 6, hết sốt, bạch cầu và bilirubin đã về gần bình thường thì xử trí đúng là ngừng kháng sinh và lên kế hoạch cắt túi mật sớm, không tiếp tục kháng sinh thêm 7 ngày nữa, vì TG18 khuyến cáo kháng sinh 4–7 ngày sau dẫn lưu. Checkpoint 6 của bài: bệnh nhân 85 tuổi, mệt mỏi, lơ mơ nhẹ, không đau bụng, không sốt, bilirubin 3,5 mg/dL, bạch cầu 13.000/mm³ thì kết luận đúng là vẫn nghi ngờ viêm đường mật và cần siêu âm cùng đánh giá đầy đủ theo TG18, vì người trên 80 tuổi thường không có biểu hiện điển hình và 9,1% không đau, không sốt, không vàng da.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 13 — tips thực hành 8 tới 14, checkpoint 5 và 6."
+    },
+    {
+      "id": "SURG28-CARD-129",
+      "note_id": 1793959205196,
+      "tags": [
+        "viem-duong-mat",
+        "tom-tat"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Mười điểm cần nhớ</b></span> của bài viêm đường mật cấp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm đường mật cấp là nhiễm trùng đường mật do tắc mật, tử vong <span style=\"color:#ffd43b\"><b>10–30%</b></span>, nguyên nhân hay gặp nhất là sỏi ống mật chủ.<br>2) Chuỗi cơ chế là tắc mật, ứ mật, tăng áp lực đường mật, vi khuẩn chuyển vị qua thành ống mật vào máu, rồi nhiễm trùng huyết, và kháng sinh không hạ được áp lực đường mật, chỉ dẫn lưu mới cắt được nguồn nhiễm trùng.<br>3) Tiêu chuẩn TG18 gồm 3 nhóm là viêm toàn thân, ứ mật và hình ảnh, nghi ngờ cần viêm toàn thân cộng với ứ mật hoặc hình ảnh, chắc chắn cần đủ cả 3 nhóm.<br>4) Tam chứng Charcot có độ đặc hiệu 97–99% nhưng độ nhạy chỉ 25–46%, đừng chờ đủ tam chứng mới chẩn đoán, còn TG18 nhạy 82–86% nhưng đặc hiệu chỉ 60–63%.<br>5) Phân độ nặng: Grade II cần 2 trong 5 tiêu chí là bạch cầu bất thường, sốt từ 39°C, tuổi từ 75, bilirubin từ 5 mg/dL, albumin dưới 0,7 lần giá trị chuẩn; Grade III cần suy 1 trong 6 hệ là tim mạch, thần kinh, hô hấp, thận, gan và huyết học.<br>6) Kháng sinh kinh nghiệm theo nhóm thuốc và độ nặng, thời gian 4–7 ngày sau dẫn lưu, và bài này không dạy liều mg vì không có liều nào được kiểm chứng.<br>7) Dẫn lưu đầu tay là ERCP qua nhú, ở nhẹ và trung bình thì ERCP trong 24 giờ không vượt trội so với 24–48 giờ và có nhiều biến cố hơn, còn ở nặng thì vẫn dẫn lưu cấp cứu trong vài giờ đầu.<br>8) Cắt túi mật sớm trong 72 giờ sau ERCP giảm chuyển mổ mở với tỉ số nguy cơ 0,35, trì hoãn nếu bilirubin trên 3 lần giới hạn trên hoặc có biến cố sau ERCP.<br>9) Người già trên 80 tuổi thường không điển hình, với 33,6% rối loạn ý thức và 9,1% không đau, không sốt, không vàng da.<br>10) Cấy mật dương tính 77,3%, E. coli 27,4% và K. pneumoniae 14,1% hay gặp nhất, nhiễm hỗn hợp Gram âm và Gram dương làm tăng tử vong nội viện với tỉ số odds 5,23.<br><br><b>💡 Giải thích của AI:</b><br>Khám và điều trị viêm đường mật giỏi không phải là nhớ được nhiều tên thuốc, mà là biết khi nào áp lực đường mật đang giết bệnh nhân và làm cho mật chảy ra càng sớm càng tốt. Người học nắm được bài này sẽ không còn chờ đủ tam chứng mới chẩn đoán, không còn tin rằng kháng sinh mạnh là đủ mà quên dẫn lưu, và biết khi nào cần dẫn lưu cấp cứu, khi nào có thể chờ, khi nào cắt túi mật.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 14.1 — tóm tắt 10 điểm cần nhớ."
+    },
+    {
+      "id": "SURG28-CARD-130",
+      "note_id": 1793959205198,
+      "tags": [
+        "viem-duong-mat",
+        "tai-lieu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Tài liệu tham khảo</b></span> của bài gồm những nguồn nào, và chúng được tóm tắt ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ngẫu nhiên so sánh <span style=\"color:#51cf66\"><b>ERCP cấp cứu</b></span> với ERCP sớm ở viêm đường mật nhẹ và trung bình, với tử vong, suy tạng và biến cố sau thủ thuật, đăng trên tạp chí Gut.<br>2) Các bài của Tokyo Guidelines về tiêu chuẩn chẩn đoán và phân độ nặng, về xử trí ban đầu và lưu đồ, về kháng sinh, và về chỉ định cùng kỹ thuật dẫn lưu, đăng trên tạp chí chuyên về gan mật tụy.<br>3) Guideline của Hội Nội soi Tiêu hóa Hoa Kỳ về sỏi ống mật chủ, phân tầng nguy cơ, vai trò của siêu âm nội soi và cộng hưởng từ mật tụy, cùng thời điểm cắt túi mật.<br>4) Nghiên cứu đoàn hệ tiền cứu kiểm chứng tiêu chuẩn chẩn đoán Tokyo so với tiêu chuẩn Hà Lan và tam chứng Charcot.<br>5) Nghiên cứu về viêm đường mật ở người già, biểu hiện không điển hình theo nhóm tuổi, tỉ lệ rối loạn ý thức và cấy máu dương tính.<br>6) Tất cả các tài liệu này được tóm tắt định tính, không ghi số liệu trong phần tài liệu tham khảo.<br><br><b>💡 Giải thích của AI:</b><br>Các tài liệu này là những nguồn đã kiểm chứng mạnh nhất về chủ đề này, với tóm tắt định tính và không ghi số liệu. Số liệu của từng nguồn đã được dạy đầy đủ trong thân bài, vì vậy phần tài liệu tham khảo chỉ cần nêu tên và nội dung định tính của từng nguồn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 14.2 — tài liệu tham khảo: PMID 42161575, 29032610, 28941329, 29090866, 28834389, 30979521, 34932265, 33997636."
+    },
+    {
+      "id": "SURG28-CARD-131",
+      "note_id": 1793959205200,
+      "tags": [
+        "viem-duong-mat",
+        "tai-lieu",
+        "han-che"
+      ],
+      "type": "basic",
+      "front": "Bài này có những <span style=\"color:#ff6b6b\"><b>hạn chế nguồn</b></span> nào phải nhớ khi dạy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khung chính của bài là <span style=\"color:#74c0fc\"><b>Tokyo Guidelines</b></span> bản cập nhật về viêm đường mật cấp, dùng ở mức tóm tắt của các bài gốc cộng với toàn văn thứ cấp tái bản đầy đủ bảng tiêu chuẩn và phân độ.<br>2) Sau nhiều vòng tìm kiếm, không tìm thấy bài nào về viêm đường mật cấp trên các tạp chí hàng đầu trong danh sách hẹp có tóm tắt, nên bài này không có tài liệu tham khảo nào từ danh sách đó, và các tài liệu liệt kê là những nguồn đã kiểm chứng mạnh nhất về chủ đề này.<br>3) Toàn văn của Tokyo Guidelines bản gốc không lấy được vì nhà xuất bản trả phí, nên mọi khuyến cáo trong bài đều ghi rõ nguồn thứ cấp đã xác minh.<br>4) Không có liều kháng sinh nào tính bằng miligam được kiểm chứng trong đợt nghiên cứu này, nên bài không dạy liều kháng sinh.<br>5) Không có số liệu Việt Nam nào được kiểm chứng trong đợt nghiên cứu này, nên phần áp dụng tại Việt Nam chỉ dạy nguyên lý và bối cảnh tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Năm hạn chế này phải được nhớ khi dạy bài, vì chúng xác định ranh giới của những gì bài có thể khẳng định. Biết giới hạn của bằng chứng cũng quan trọng như biết bản thân bằng chứng, và bài không giấu các hạn chế này mà ghi rõ trong phần ghi chú nguồn.<br><br>📖 Nguồn: Bài Viêm đường mật cấp, phần 14.3 — ghi chú nguồn: hạn chế về toàn văn TG18, tạp chí hàng đầu, liều kháng sinh, số liệu Việt Nam."
+    },
+    {
+      "id": "SURG28-CARD-132",
+      "note_id": 1793959205202,
+      "tags": [
+        "viem-duong-mat",
+        "cat-tui-mat",
+        "tips"
+      ],
+      "type": "basic",
+      "front": "Cắt túi mật sớm trong {{c1::<span style=\"color:#ffd43b\"><b>72 giờ</b></span>}} sau ERCP khi bệnh nhân ổn định.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 13 — cắt túi mật sớm trong 72 giờ sau ERCP khi bệnh nhân ổn định."
+    },
+    {
+      "id": "SURG28-CARD-133",
+      "note_id": 1793959205204,
+      "tags": [
+        "viem-duong-mat",
+        "Charcot",
+        "co-do"
+      ],
+      "type": "basic",
+      "front": "Tam chứng Charcot đầy đủ chỉ gặp ở khoảng {{c1::<span style=\"color:#ffd43b\"><b>25%</b></span>}} bệnh nhân viêm đường mật.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 9.3 — tam chứng Charcot đầy đủ chỉ gặp ở khoảng 25% bệnh nhân."
+    },
+    {
+      "id": "SURG28-CARD-134",
+      "note_id": 1793959205206,
+      "tags": [
+        "viem-duong-mat",
+        "ERCP",
+        "thoi-diem"
+      ],
+      "type": "basic",
+      "front": "ERCP trong 24 giờ không vượt trội so với ERCP trong {{c1::<span style=\"color:#ffd43b\"><b>24–48 giờ</b></span>}} ở bệnh nhân nhẹ và trung bình.",
+      "back": "📖 Nguồn: Bài Viêm đường mật cấp, phần 6.2 — ERCP trong 24 giờ không vượt trội so với ERCP trong 24–48 giờ ở nhẹ và trung bình."
+    }
+  ]
+}

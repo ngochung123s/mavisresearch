@@ -1,0 +1,1366 @@
+{
+  "deck_id": 7600000000027,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-27: Sỏi Mật",
+  "card_count": 111,
+  "cards": [
+    {
+      "id": "SURG27-CARD-001",
+      "note_id": 1793960271200,
+      "tags": [
+        "soi-mat",
+        "giai-phau",
+        "tui-mat"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#74c0fc'><b>Túi mật</b></span> chứa bao nhiêu mật, và sỏi kẹt ở đâu thì gây <span style='color:#ff6b6b'><b>viêm túi mật</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Túi mật chứa khoảng <span style='color:#ffd43b'><b>30–50 mL</b></span> mật cô đặc, gấp khoảng <span style='color:#ffd43b'><b>5–10 lần</b></span> mật trong gan.<br>2) Khi ăn mỡ, hormone <span style='color:#74c0fc'><b>cholecystokinin</b></span> làm túi mật co bóp, đẩy mật xuống tá tràng để tiêu hóa mỡ.<br>3) Sỏi muốn xuống ống mật chủ phải qua <span style='color:#74c0fc'><b>ống túi mật</b></span> hẹp và ngoằn ngoèo, nên sỏi hay kẹt ở <span style='color:#ff6b6b'><b>cổ túi mật hoặc trong ống túi mật</b></span>.<br>4) Sỏi kẹt ở cổ túi mật làm túi mật không thoát được mật, mật ứ trong túi mật và gây <span style='color:#ff6b6b'><b>viêm túi mật</b></span>; sỏi rơi qua ống túi mật xuống ống mật chủ có thể gây viêm đường mật hoặc viêm tụy do sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Ống túi mật hẹp là nút thắt giải phẫu của toàn bộ bệnh sỏi mật: sỏi kẹt tại đây thì viêm túi mật, sỏi lọt qua được thì tắc ống mật chủ. Vì vậy vị trí sỏi kẹt quyết định thể lâm sàng, không phải kích thước sỏi đơn thuần.<br><br>📖 Nguồn: Bài Sỏi mật, §0.1 — nền tảng túi mật, ống túi mật, cơ chế ứ mật."
+    },
+    {
+      "id": "SURG27-CARD-002",
+      "note_id": 1793960271202,
+      "tags": [
+        "soi-mat",
+        "giai-phau",
+        "CVS",
+        "Calot"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#74c0fc'><b>Tam giác Calot</b></span> gồm những gì, và <span style='color:#51cf66'><b>critical view of safety (CVS)</b></span> yêu cầu thấy rõ mấy điều trước khi cắt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tam giác Calot được giới hạn bởi <span style='color:#74c0fc'><b>ống gan chung</b></span> ở trong, <span style='color:#74c0fc'><b>ống túi mật</b></span> ở dưới và <span style='color:#74c0fc'><b>bờ dưới của gan</b></span> ở trên; trong đó có <span style='color:#74c0fc'><b>động mạch túi mật</b></span> và <span style='color:#74c0fc'><b>ống túi mật</b></span>.<br>2) Nhầm ống mật chủ với ống túi mật là tai biến nguy hiểm nhất của cắt túi mật nội soi.<br>3) CVS yêu cầu thấy rõ 3 điều: chỉ có <span style='color:#51cf66'><b>2 cấu trúc đi vào túi mật</b></span> (ống túi mật và động mạch túi mật), phần dưới túi mật đã được bóc tách khỏi giường gan, và thấy rõ <span style='color:#51cf66'><b>mặt sau của túi mật</b></span>.<br>4) Chỉ khi đủ 3 tiêu chí CVS mới được cắt ống túi mật và động mạch túi mật; nếu không đạt được CVS do sẹo không bóc tách được hoặc xơ hóa nặng thì phải <span style='color:#51cf66'><b>bail-out</b></span> (chuyển mổ mở, cắt bán phần hoặc dẫn lưu túi mật), không cố bóc tách khi không nhận diện được giải phẫu.<br><br><b>💡 Giải thích của AI:</b><br>CVS là bằng chứng thị giác rằng 2 cấu trúc sắp cắt đúng là của túi mật, không phải ống mật chủ. Không đạt CVS mà vẫn cắt là con đường ngắn nhất tới tổn thương đường mật, vì vậy bail-out là quyết định an toàn chứ không phải thất bại.<br><br>📖 Nguồn: Bài Sỏi mật, §0.1 — tam giác Calot, CVS 3 tiêu chí, bail-out."
+    },
+    {
+      "id": "SURG27-CARD-003",
+      "note_id": 1793960271204,
+      "tags": [
+        "soi-mat",
+        "dinh-nghia",
+        "loai-soi"
+      ],
+      "type": "basic",
+      "front": "Có mấy loại <span style='color:#74c0fc'><b>sỏi mật</b></span>, mỗi loại hình thành như thế nào và hay gặp ở ai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style='color:#74c0fc'><b>Sỏi cholesterol</b></span> hay gặp nhất ở phương Tây, chứa trên <span style='color:#ffd43b'><b>70% cholesterol</b></span>, hình thành khi mật quá bão hòa cholesterol, cholesterol kết tinh lại thành sỏi.<br>2) <span style='color:#74c0fc'><b>Sỏi sắc tố</b></span> chứa chủ yếu bilirubin, màu đen hoặc nâu, nhỏ, cứng, thường nhiều viên; hay gặp ở bệnh nhân <span style='color:#ff6b6b'><b>tan máu mạn</b></span>, bệnh gan và nhiễm trùng đường mật.<br>3) <span style='color:#74c0fc'><b>Sỏi hỗn hợp</b></span> chứa cả cholesterol và bilirubin, hay gặp nhất ở châu Á.<br>4) Loại sỏi quyết định cơ chế hình thành, nhưng <span style='color:#51cf66'><b>không quyết định điều trị</b></span> — dù sỏi cholesterol hay sỏi sắc tố, khi đã gây triệu chứng thì xử trí giống nhau.<br><br><b>💡 Giải thích của AI:</b><br>Điểm mấu chốt là mật quá bão hòa cholesterol vượt quá khả năng hòa tan của muối mật và phospholipid. Tan máu mạn làm bilirubin tăng cao nên sinh sỏi sắc tố, còn béo phì, nữ giới và estrogen làm tăng cholesterol trong mật nên sinh sỏi cholesterol.<br><br>📖 Nguồn: Bài Sỏi mật, §1.1 — 3 loại sỏi, cơ chế hình thành, loại sỏi không quyết định điều trị."
+    },
+    {
+      "id": "SURG27-CARD-004",
+      "note_id": 1793960271206,
+      "tags": [
+        "soi-mat",
+        "dinh-nghia",
+        "vi-tri-soi"
+      ],
+      "type": "basic",
+      "front": "Sỏi mật có thể nằm ở những <span style='color:#74c0fc'><b>vị trí</b></span> nào, và sỏi ở mỗi vị trí gây bệnh gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sỏi có thể nằm trong <span style='color:#74c0fc'><b>túi mật</b></span> (hay gặp nhất), trong <span style='color:#74c0fc'><b>ống mật chủ</b></span>, hoặc trong các <span style='color:#74c0fc'><b>ống mật trong gan</b></span>.<br>2) Sỏi ống mật chủ có thể là sỏi từ túi mật rơi xuống, hoặc sỏi hình thành ngay trong ống mật chủ.<br>3) Sỏi trong gan hay gặp hơn ở châu Á, liên quan tới chế độ ăn, kinh tế–xã hội và ký sinh trùng đường mật.<br><br><b>💡 Giải thích của AI:</b><br>Vị trí sỏi quyết định bệnh: sỏi túi mật gây đau quặn mật và viêm túi mật, sỏi ống mật chủ gây viêm đường mật và viêm tụy do sỏi. Sỏi trong gan đã được dạy kỹ trong bài viêm đường mật cấp, bài này chỉ nhắc lại để gắn chéo.<br><br>📖 Nguồn: Bài Sỏi mật, §1.1 — vị trí sỏi, sỏi trong gan hay gặp ở châu Á."
+    },
+    {
+      "id": "SURG27-CARD-005",
+      "note_id": 1793960271208,
+      "tags": [
+        "soi-mat",
+        "nguyen-nhan",
+        "yeu-to-nguy-co"
+      ],
+      "type": "basic",
+      "front": "Sỏi mật hình thành khi có 3 yếu tố nào cùng xuất hiện, và những <span style='color:#ff6b6b'><b>yếu tố nguy cơ</b></span> hay gặp nhất là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ba yếu tố cùng xuất hiện: mật <span style='color:#ff6b6b'><b>quá bão hòa cholesterol</b></span>, túi mật <span style='color:#ff6b6b'><b>co bóp kém</b></span> làm mật ứ đọng lâu, và có <span style='color:#ff6b6b'><b>nhân kết tinh</b></span> để cholesterol bám vào.<br>2) <span style='color:#ff6b6b'><b>Nữ giới</b></span> là yếu tố nguy cơ hay gặp nhất — estrogen làm tăng cholesterol trong mật và làm giảm co bóp túi mật; tuổi càng cao nguy cơ càng tăng.<br>3) <span style='color:#ff6b6b'><b>Béo phì</b></span>, <span style='color:#ff6b6b'><b>giảm cân nhanh</b></span> (sau mổ giảm béo, ăn kiêng khắc nghiệt), <span style='color:#ff6b6b'><b>thai kỳ</b></span> và một số thuốc (thuốc tránh thai, fibrate, octreotide) đều làm tăng nguy cơ.<br>4) <span style='color:#ff6b6b'><b>Tan máu mạn</b></span> (hồng cầu hình cầu di truyền, thalassemia) tăng nguy cơ sỏi sắc tố; bệnh Crohn ở hồi tràng giảm tái hấp thu muối mật làm tăng sỏi cholesterol; bệnh gan mạn và xơ gan tăng sỏi sắc tố.<br><br><b>💡 Giải thích của AI:</b><br>Cả 3 yếu tố đều cần thiết: chỉ quá bão hòa mà túi mật co bóp tốt thì cholesterol chưa kịp kết tinh đã bị đẩy xuống ruột; chỉ ứ đọng mà mật không bão hòa thì không có gì để kết tinh. Estrogen giải thích vì sao nữ bị sỏi mật nhiều hơn nam nhiều lần.<br><br>📖 Nguồn: Bài Sỏi mật, §1.2 — 3 yếu tố hình thành sỏi, yếu tố nguy cơ."
+    },
+    {
+      "id": "SURG27-CARD-006",
+      "note_id": 1793960271210,
+      "tags": [
+        "soi-mat",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ sỏi mật trong dân số trưởng thành phương Tây là bao nhiêu, và mỗi năm có bao nhiêu % người có sỏi bắt đầu <span style='color:#ff6b6b'><b>có triệu chứng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sỏi mật có ở khoảng <span style='color:#ffd43b'><b>10–15%</b></span> dân số trưởng thành phương Tây.<br>2) Mỗi năm khoảng <span style='color:#ffd43b'><b>1–4%</b></span> số người có sỏi bắt đầu có triệu chứng — chủ yếu là đau quặn mật, một phần đáng kể là viêm túi mật cấp.<br>3) Một phân tích gộp Cochrane năm 2007 cho thấy khoảng <span style='color:#ffd43b'><b>4%</b></span> sỏi không triệu chứng phát triển triệu chứng, gồm viêm túi mật, vàng da tắc mật, viêm tụy và ung thư túi mật; Cochrane 2007 không tìm thấy thử nghiệm ngẫu nhiên nào so sánh cắt túi mật với không cắt ở sỏi không triệu chứng.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ 10–15% nghe cao nhưng phần lớn sỏi nằm yên không gây bệnh, vì vậy có sỏi trên siêu âm không đồng nghĩa với phải mổ. Con số 1–4% mỗi năm là nền tảng cho quyết định theo dõi sỏi không triệu chứng ở §5.1.<br><br>📖 Nguồn: Bài Sỏi mật, §1.3 — dịch tễ 10–15%, 1–4% mỗi năm, Cochrane 2007."
+    },
+    {
+      "id": "SURG27-CARD-007",
+      "note_id": 1793960271212,
+      "tags": [
+        "soi-mat",
+        "dich-te",
+        "dien-tien-tu-nhien"
+      ],
+      "type": "basic",
+      "front": "Diễn tiến tự nhiên của sỏi không triệu chứng: tỉ lệ tích lũy có triệu chứng sau 5, 10 và 15 năm, và <span style='color:#ffd43b'><b>yếu tố dự báo</b></span> mạnh nhất là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nghiên cứu đoàn hệ trên <span style='color:#ffd43b'><b>22.257</b></span> bệnh nhân sỏi không triệu chứng, theo dõi trung vị <span style='color:#ffd43b'><b>4,6 năm</b></span>, cho thấy <span style='color:#ffd43b'><b>14,5%</b></span> phát triển thành có triệu chứng; tỉ lệ tích lũy là <span style='color:#ffd43b'><b>10,1% sau 5 năm, 21,5% sau 10 năm và 32,6% sau 15 năm</b></span> — khoảng <span style='color:#ffd43b'><b>2% mỗi năm</b></span>.<br>2) Yếu tố dự báo mạnh nhất: <span style='color:#ff6b6b'><b>nữ</b></span> (tỉ số nguy cơ 1,50), <span style='color:#ff6b6b'><b>tuổi trẻ hơn</b></span> (1,15 cho mỗi 5 năm tuổi trẻ hơn), <span style='color:#ff6b6b'><b>nhiều sỏi</b></span> (2,42), <span style='color:#ff6b6b'><b>polyp túi mật kèm theo</b></span> (2,55), <span style='color:#ff6b6b'><b>sỏi lớn</b></span> (2,03) và <span style='color:#ff6b6b'><b>thiếu máu tan máu mạn</b></span> (1,90); mô hình dự báo có C-statistic 0,70, mức dự báo trung bình.<br>3) Nghiên cứu ở Malaysia trên 213 bệnh nhân cho thấy 10,8% phát triển đau sau trung bình 4,02 năm; tỉ lệ chuyển đổi cao trong 2 năm đầu (khoảng 4,03% mỗi năm), chậm dần còn khoảng 1,38% mỗi năm vào năm thứ 10; nguy cơ trọn đời là 6,15% ở nam và 22,1% ở nữ.<br><br><b>💡 Giải thích của AI:</b><br>Diễn tiến tự nhiên lành tính nhưng không phải bằng 0: sau 15 năm, cứ 3 người có sỏi không triệu chứng thì 1 người có triệu chứng. Nhiều sỏi và polyp kèm theo dự báo mạnh hơn cả giới tính, vì vậy bệnh nhân nhiều sỏi cần được dặn dò kỹ hơn dù hiện tại chưa đau.<br><br>📖 Nguồn: Bài Sỏi mật, §1.3 — đoàn hệ 22.257 BN, tỉ lệ tích lũy 10,1%/21,5%/32,6%, yếu tố dự báo HR."
+    },
+    {
+      "id": "SURG27-CARD-008",
+      "note_id": 1793960271214,
+      "tags": [
+        "soi-mat",
+        "co-che",
+        "chuoi-5-tang"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng: mật quá bão hòa cholesterol dẫn tới sỏi, tắc và viêm như thế nào, và vì sao sỏi <span style='color:#51cf66'><b>không triệu chứng</b></span> với sỏi <span style='color:#ff6b6b'><b>có triệu chứng</b></span> xử trí hoàn toàn khác nhau?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng phân tử: gan tiết mật <span style='color:#ff6b6b'><b>quá bão hòa cholesterol</b></span>, túi mật co bóp kém làm mật ứ đọng lâu, các chất tạo nhân kết tinh (mucin, bilirubin) làm cholesterol bám vào và kết tinh.<br>2) Tầng tế bào/mô: tinh thể cholesterol lớn dần thành sỏi; sỏi cọ xát vào thành túi mật gây viêm mạn nhẹ.<br>3) Tầng lâm sàng: sỏi nhỏ không tắc thì <span style='color:#51cf66'><b>không có triệu chứng</b></span>; sỏi kẹt ở cổ túi mật thì đau quặn mật hoặc viêm túi mật; sỏi rơi xuống ống mật chủ thì vàng da, viêm đường mật hoặc viêm tụy do sỏi.<br>4) Tầng quyết định: sỏi không triệu chứng thì <span style='color:#51cf66'><b>theo dõi, không cắt dự phòng thường quy</b></span>; sỏi có triệu chứng thì cắt túi mật; sỏi gây viêm túi mật cấp thì cắt sớm theo thời điểm; sỏi ống mật chủ thì lấy sỏi bằng ERCP hoặc LCBDE.<br>5) Tầng phản chứng: nếu không cắt khi đã có triệu chứng, sỏi tiếp tục gây đau tái phát, viêm túi mật, viêm đường mật và viêm tụy; nếu cắt dự phòng cho sỏi không triệu chứng, bệnh nhân chịu nguy cơ phẫu thuật mà không có lợi ích rõ ràng.<br><br><b>💡 Giải thích của AI:</b><br>Sỏi không triệu chứng là sỏi nằm yên, không tắc, không viêm nên không cần cắt; sỏi có triệu chứng là sỏi đã từng tắc hoặc viêm, nguy cơ tái phát cao nên cắt. Cùng một viên sỏi, khác nhau ở chỗ nó đã từng gây tắc hay chưa — đó là ranh giới quyết định mổ hay theo dõi.<br><br>📖 Nguồn: Bài Sỏi mật, §2.1 — chuỗi 5 tầng quá bão hòa → sỏi → tắc → viêm."
+    },
+    {
+      "id": "SURG27-CARD-009",
+      "note_id": 1793960271216,
+      "tags": [
+        "soi-mat",
+        "co-che",
+        "dau-quan-mat"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng: <span style='color:#ff6b6b'><b>cơn đau quặn mật</b></span> xảy ra như thế nào, và phân biệt với viêm túi mật bằng những điểm nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng phân tử: sau ăn mỡ, hormone <span style='color:#74c0fc'><b>cholecystokinin</b></span> làm túi mật co bóp mạnh; sỏi bị đẩy tới cổ túi mật và kẹt tạm thời ở đó.<br>2) Tầng tế bào/mô: sỏi kẹt làm tắc tạm thời ống túi mật, túi mật co bóp chống lại chỗ tắc, áp lực trong túi mật tăng, thành túi mật căng ra kích thích các thụ thể đau.<br>3) Tầng lâm sàng: đau <span style='color:#ff6b6b'><b>hạ sườn phải hoặc thượng vị</b></span>, âm ỉ hoặc quặn từng cơn, kéo dài <span style='color:#ffd43b'><b>30 phút tới vài giờ</b></span>, thường sau ăn mỡ, có thể lan ra vai phải hoặc sau lưng; buồn nôn, nôn; không sốt hoặc sốt nhẹ; xét nghiệm gần như bình thường, bilirubin không tăng hoặc tăng nhẹ.<br>4) Tầng quyết định: cơn đau quặn mật là <span style='color:#51cf66'><b>chỉ định cắt túi mật theo chương trình</b></span> (không phải cấp cứu trong ngày), vì cơn đau sẽ tái phát và có nguy cơ tiến triển thành viêm túi mật; giảm đau, nhịn ăn, theo dõi trong cơn đau cấp, rồi lên kế hoạch cắt túi mật.<br>5) Tầng phản chứng: nếu không cắt, cơn đau tái phát với tần suất ngày càng tăng; khoảng <span style='color:#ffd43b'><b>30%</b></span> người đã đau quặn mật không đau lại, nhưng đa số sẽ đau lại và có nguy cơ viêm túi mật, viêm đường mật hoặc viêm tụy do sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Đau quặn mật là tắc tạm thời, hết khi sỏi rơi trở lại túi mật; viêm túi mật là viêm, đau kéo dài hơn 6 giờ kèm sốt và bạch cầu tăng. Phân biệt bằng thời gian đau (quặn mật thường dưới 6 giờ, viêm túi mật thường trên 6 giờ) và bằng sốt cùng bạch cầu — người học hay nhầm 2 thể này với nhau.<br><br>📖 Nguồn: Bài Sỏi mật, §2.2 — chuỗi 5 tầng đau quặn mật, phân biệt với viêm túi mật."
+    },
+    {
+      "id": "SURG27-CARD-010",
+      "note_id": 1793960271218,
+      "tags": [
+        "soi-mat",
+        "co-che",
+        "viem-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng: <span style='color:#ff6b6b'><b>viêm túi mật cấp</b></span> tiến triển tới hoại tử và thủng như thế nào, và vì sao thời điểm cắt túi mật lại quan trọng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng phân tử: sỏi kẹt ở cổ túi mật làm <span style='color:#ff6b6b'><b>tắc hoàn toàn ống túi mật</b></span>; mật ứ trong túi mật; muối mật cô đặc làm tổn thương thành túi mật; vi khuẩn từ ruột xâm nhập vào túi mật qua đường máu hoặc đường mật.<br>2) Tầng tế bào/mô: thành túi mật viêm, phù nề, dày lên; mạch máu trong thành túi mật bị chèn ép, máu nuôi thành túi mật giảm; vùng thành túi mật thiếu máu bắt đầu <span style='color:#ff6b6b'><b>hoại tử</b></span>.<br>3) Tầng lâm sàng: đau hạ sườn phải liên tục <span style='color:#ffd43b'><b>trên 6 giờ</b></span>, sốt, buồn nôn, nôn; ấn đau hạ sườn phải, dấu Murphy dương tính, có thể sờ thấy khối đau; bạch cầu tăng cao, CRP tăng, bilirubin tăng nhẹ; siêu âm thấy túi mật to, thành dày, có sỏi, có dịch quanh túi mật.<br>4) Tầng quyết định: viêm túi mật cấp cần cắt túi mật sớm — mốc <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát và <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát là 2 mốc quyết định; quá 10 ngày thì trì hoãn <span style='color:#ffd43b'><b>45 ngày</b></span> tốt hơn mổ ngay; nếu không mổ được thì dẫn lưu túi mật.<br>5) Tầng phản chứng: nếu không điều trị, viêm túi mật tiến triển thành <span style='color:#ff6b6b'><b>hoại tử túi mật, thủng túi mật, viêm phúc mạc và nhiễm trùng huyết</b></span>; thủng túi mật là biến chứng nặng nhất, tử vong cao.<br><br><b>💡 Giải thích của AI:</b><br>Cắt sớm (trong 72 giờ từ khởi phát) là khi viêm còn khu trú, giải phẫu còn nhận diện được, mổ an toàn. Cắt muộn (sau 10 ngày) là khi viêm đã xơ hóa, dính nhiều, giải phẫu khó nhận diện, mổ nguy hiểm hơn nên trì hoãn 45 ngày để viêm hết hẳn rồi mổ. Khoảng giữa (72 giờ tới 10 ngày) là khoảng xám — mổ được nhưng khó hơn, cần phẫu thuật viên có kinh nghiệm.<br><br>📖 Nguồn: Bài Sỏi mật, §2.3 — chuỗi 5 tầng viêm túi mật → hoại tử → thủng, mốc 72 giờ/10 ngày/45 ngày."
+    },
+    {
+      "id": "SURG27-CARD-011",
+      "note_id": 1793960271220,
+      "tags": [
+        "soi-mat",
+        "co-che",
+        "soi-ong-mat-chu"
+      ],
+      "type": "basic",
+      "front": "Chuỗi 5 tầng: sỏi rơi xuống <span style='color:#74c0fc'><b>ống mật chủ</b></span> gây viêm đường mật và viêm tụy như thế nào, và vì sao 2 bệnh này xử trí khác nhau?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tầng phân tử: sỏi nhỏ đi qua ống túi mật xuống ống mật chủ, kẹt ở đoạn cuối ống mật chủ, nơi ống mật chủ và ống tụy hợp nhau trước khi đổ vào tá tràng.<br>2) Tầng tế bào/mô: sỏi tắc ống mật chủ gây ứ mật, áp lực đường mật tăng, vi khuẩn chuyển vị vào máu gây <span style='color:#ff6b6b'><b>viêm đường mật cấp</b></span>; đồng thời sỏi tắc ống tụy gây ứ dịch tụy, men tụy hoạt hóa trong tụy gây <span style='color:#ff6b6b'><b>viêm tụy cấp do sỏi</b></span>.<br>3) Tầng lâm sàng: đau hạ sườn phải hoặc thượng vị, sốt, vàng da (viêm đường mật); hoặc đau thượng vị dữ dội lan ra sau lưng, buồn nôn, nôn, amylase và lipase tăng rất cao (viêm tụy do sỏi); hoặc cả 2 cùng lúc khi sỏi tắc cả ống mật và ống tụy.<br>4) Tầng quyết định: viêm đường mật do sỏi thì <span style='color:#51cf66'><b>dẫn lưu đường mật cấp cứu bằng ERCP</b></span>; viêm tụy do sỏi thì <span style='color:#51cf66'><b>cắt túi mật cùng đợt nhập viện</b></span> sau khi viêm tụy ổn định (PONCHO), ERCP cấp cứu chỉ khi có viêm đường mật kèm theo (APEC).<br>5) Tầng phản chứng: nếu không cắt túi mật sau viêm tụy do sỏi, sỏi mới rơi xuống và gây viêm tụy tái phát; nếu làm ERCP cấp cứu cho mọi viêm tụy do sỏi, bệnh nhân chịu biến cố của ERCP mà không có lợi ích.<br><br><b>💡 Giải thích của AI:</b><br>Viêm đường mật cần dẫn lưu cấp cứu vì nhiễm trùng huyết tiến triển nhanh; viêm tụy do sỏi không cần ERCP cấp cứu nếu không có viêm đường mật, vì ERCP không làm giảm tử vong hay biến chứng lớn trong viêm tụy do sỏi đơn thuần. Cùng một viên sỏi nhưng 2 đường xử trí khác nhau vì 2 cơ chế nguy hiểm khác nhau.<br><br>📖 Nguồn: Bài Sỏi mật, §2.4 — chuỗi 5 tầng sỏi ống mật chủ, viêm đường mật và viêm tụy do sỏi."
+    },
+    {
+      "id": "SURG27-CARD-012",
+      "note_id": 1793960271222,
+      "tags": [
+        "soi-mat",
+        "phan-biet",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Phân biệt 3 thể lâm sàng của sỏi mật: <span style='color:#ff6b6b'><b>đau quặn mật</b></span>, <span style='color:#ff6b6b'><b>viêm túi mật cấp</b></span> và <span style='color:#ff6b6b'><b>viêm đường mật cấp</b></span> theo thời gian đau, sốt, vàng da và xét nghiệm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style='color:#ff6b6b'><b>Đau quặn mật</b></span> là đau dưới <span style='color:#ffd43b'><b>6 giờ</b></span>, từng cơn; không sốt hoặc sốt nhẹ; không hoặc nhẹ vàng da; bạch cầu bình thường hoặc tăng nhẹ; bilirubin bình thường hoặc tăng nhẹ; nguyên nhân là sỏi kẹt tạm thời ở cổ túi mật.<br>2) <span style='color:#ff6b6b'><b>Viêm túi mật cấp</b></span> là đau trên <span style='color:#ffd43b'><b>6 giờ</b></span>, liên tục; sốt vừa; không hoặc nhẹ vàng da; bạch cầu tăng cao; bilirubin tăng nhẹ; nguyên nhân là sỏi kẹt hoàn toàn ở cổ túi mật.<br>3) <span style='color:#ff6b6b'><b>Viêm đường mật cấp</b></span> là đau liên tục kèm sốt cao; sốt cao, rét run; vàng da rõ; bạch cầu tăng cao; bilirubin tăng cao; nguyên nhân là sỏi kẹt ở ống mật chủ.<br>4) Ba thể này là 3 mức độ của cùng một quá trình — sỏi di chuyển từ túi mật xuống ống mật chủ; một bệnh nhân có thể bắt đầu bằng đau quặn mật, rồi tiến triển thành viêm túi mật nếu sỏi kẹt chặt, rồi tiến triển thành viêm đường mật nếu sỏi rơi xuống ống mật chủ.<br><br><b>💡 Giải thích của AI:</b><br>Không được xem 3 thể này là 3 bệnh riêng biệt. Thời gian đau là dấu hiệu phân biệt nhanh nhất ở cấp cứu: dưới 6 giờ từng cơn thì nghĩ quặn mật, trên 6 giờ liên tục kèm sốt thì nghĩ viêm túi mật, kèm vàng da rõ và bilirubin tăng cao thì nghĩ sỏi đã xuống ống mật chủ.<br><br>📖 Nguồn: Bài Sỏi mật, §3.1 — bảng phân biệt 3 thể lâm sàng."
+    },
+    {
+      "id": "SURG27-CARD-013",
+      "note_id": 1793960271224,
+      "tags": [
+        "soi-mat",
+        "chan-doan",
+        "Tokyo"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn <span style='color:#74c0fc'><b>Tokyo</b></span> chẩn đoán viêm túi mật cấp gồm 3 nhóm A, B, C nào, và khi nào là chẩn đoán <span style='color:#51cf66'><b>nghi ngờ</b></span> hay <span style='color:#51cf66'><b>chắc chắn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nhóm A là <span style='color:#74c0fc'><b>viêm toàn thân</b></span>: sốt, bạch cầu tăng, CRP tăng.<br>2) Nhóm B là <span style='color:#74c0fc'><b>viêm túi mật khu trú</b></span>: đau hạ sườn phải, dấu Murphy dương tính, sờ thấy khối đau ở hạ sườn phải.<br>3) Nhóm C là <span style='color:#74c0fc'><b>hình ảnh</b></span>: siêu âm hoặc CT thấy túi mật to, thành túi mật dày, có sỏi, có dịch quanh túi mật, hoặc dấu Murphy siêu âm dương tính.<br>4) Chẩn đoán <span style='color:#51cf66'><b>nghi ngờ</b></span> khi có 1 mục ở nhóm A cộng với 1 mục ở nhóm B; chẩn đoán <span style='color:#51cf66'><b>chắc chắn</b></span> khi có 1 mục ở nhóm A, cộng 1 mục ở nhóm B, cộng 1 mục ở nhóm C.<br>5) Cờ quan trọng: bảng tiêu chuẩn A/B/C nguyên văn của TG18 không lấy được trong đợt nghiên cứu này; bài này dạy các mục A/B/C theo chuẩn <span style='color:#ffd43b'><b>TG13</b></span>, vì abstract TG18 khẳng định tiêu chuẩn chẩn đoán và phân độ nặng TG13 được giữ nguyên làm TG18 không sửa đổi.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân đau hạ sườn phải, sốt 38,5°C, bạch cầu 15.000/mm³, siêu âm thấy túi mật to, thành dày 5 mm, có sỏi — có đủ nhóm A, nhóm B và nhóm C nên chẩn đoán chắc chắn viêm túi mật cấp. Nếu siêu âm chỉ thấy sỏi mà thành túi mật không dày, không có dịch quanh túi mật thì nhóm C chưa đủ, chỉ là chẩn đoán nghi ngờ — bắt đầu kháng sinh và theo dõi sát, làm thêm CT nếu nghi ngờ cao.<br><br>📖 Nguồn: Bài Sỏi mật, §3.2 — tiêu chuẩn Tokyo A/B/C, dạy theo chuẩn TG13 kèm cờ."
+    },
+    {
+      "id": "SURG27-CARD-014",
+      "note_id": 1793960271226,
+      "tags": [
+        "soi-mat",
+        "chan-doan",
+        "Tokyo"
+      ],
+      "type": "basic",
+      "front": "Độ chính xác của tiêu chuẩn <span style='color:#74c0fc'><b>Tokyo</b></span> trong chẩn đoán viêm túi mật cấp do sỏi là bao nhiêu, và kết hợp <span style='color:#51cf66'><b>CRP với siêu âm</b></span> thì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu kiểm chứng cho thấy tiêu chuẩn Tokyo chẩn đoán viêm túi mật cấp do sỏi có độ nhạy <span style='color:#ffd43b'><b>91,2%</b></span> và độ đặc hiệu <span style='color:#ffd43b'><b>96,9%</b></span>.<br>2) Kết hợp CRP với siêu âm cho độ nhạy <span style='color:#ffd43b'><b>97%</b></span> và độ đặc hiệu <span style='color:#ffd43b'><b>76%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tiêu chuẩn Tokyo vừa nhạy vừa đặc hiệu cao, nhưng vẫn cần cả 3 nhóm A, B, C cho chẩn đoán chắc chắn. CRP cộng siêu âm nhạy hơn (97%) nhưng đặc hiệu thấp hơn (76%), tức là bắt được nhiều ca hơn nhưng cũng có nhiều dương tính giả hơn — vì vậy dùng để sàng lọc nghi ngờ cao chứ không thay thế tiêu chuẩn Tokyo đầy đủ.<br><br>📖 Nguồn: Bài Sỏi mật, §3.2 — độ nhạy 91,2%, độ đặc hiệu 96,9%; CRP + siêu âm 97%/76%."
+    },
+    {
+      "id": "SURG27-CARD-015",
+      "note_id": 1793960271228,
+      "tags": [
+        "soi-mat",
+        "chan-doan",
+        "Murphy"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style='color:#ff6b6b'><b>dấu Murphy</b></span> không khẳng định cũng không loại trừ được viêm túi mật cấp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu Murphy là nghiệm pháp khám túi mật: bác sĩ ấn ngón tay vào hạ sườn phải, bệnh nhân hít vào sâu, túi mật viêm chạm vào ngón tay gây đau và bệnh nhân ngừng hít vào đột ngột; dấu Murphy dương tính gợi ý viêm túi mật cấp.<br>2) Một phân tích trong toàn văn WSES 2016 cho thấy dấu Murphy có tỉ số khả dĩ dương <span style='color:#ffd43b'><b>2,8</b></span> (khoảng tin cậy 0,8–8,6) và tỉ số khả dĩ âm <span style='color:#ffd43b'><b>0,5</b></span> (khoảng tin cậy 0,2–1).<br>3) Khoảng tin cậy của tỉ số khả dĩ dương <span style='color:#ff6b6b'><b>bao gồm 1</b></span> — nghĩa là không kết luận chắc chắn được rằng dấu Murphy dương tính làm tăng khả năng viêm túi mật.<br>4) Các xét nghiệm lâm sàng khác còn yếu hơn: tỉ số khả dĩ dương không quá <span style='color:#ffd43b'><b>1,6</b></span>, tỉ số khả dĩ âm không dưới <span style='color:#ffd43b'><b>0,4</b></span>; vì vậy không được dùng dấu Murphy một mình để chẩn đoán hay loại trừ viêm túi mật, phải kết hợp lâm sàng, xét nghiệm và hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay nhầm 2 chiều: Murphy dương tính là đủ để chẩn đoán — không đúng, chỉ là một mảnh ghép; Murphy âm tính là loại trừ được bệnh — cũng không đúng, Murphy âm tính không loại trừ được bệnh. Một tỉ số khả dĩ có khoảng tin cậy bao gồm 1 thì về mặt thống kê không chứng minh được gì.<br><br>📖 Nguồn: Bài Sỏi mật, §3.3 — dấu Murphy LR+ 2,8 (CI bao gồm 1), LR− 0,5."
+    },
+    {
+      "id": "SURG27-CARD-016",
+      "note_id": 1793960271230,
+      "tags": [
+        "soi-mat",
+        "chan-doan",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Xét nghiệm máu trong <span style='color:#ff6b6b'><b>viêm túi mật cấp</b></span> gồm những gì, và mỗi xét nghiệm gợi ý điều gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Xét nghiệm gồm công thức máu, CRP, chức năng gan (bilirubin, ALP, GGT, ALT, AST), chức năng thận (creatinine), đông máu (PT-INR) và amylase/lipase để loại trừ viêm tụy.<br>2) Bạch cầu tăng và CRP tăng phản ánh đáp ứng viêm, thuộc nhóm A của tiêu chuẩn Tokyo; bạch cầu rất cao trên <span style='color:#ffd43b'><b>18.000/mm³</b></span> là một trong các tiêu chí của Grade II.<br>3) Bilirubin tăng nhẹ trong viêm túi mật cấp do viêm làm phù nề cổ túi mật, chèn ép ống mật chủ nhẹ; bilirubin tăng cao trên <span style='color:#ffd43b'><b>4 mg/dL</b></span> gợi ý sỏi ống mật chủ kèm theo, không phải chỉ viêm túi mật đơn thuần.<br>4) ALP và GGT tăng nhẹ trong viêm túi mật, tăng cao trong viêm đường mật; amylase và lipase tăng rất cao trên <span style='color:#ffd43b'><b>3 lần giới hạn trên</b></span> gợi ý viêm tụy do sỏi kèm theo.<br>5) Không có xét nghiệm máu đơn lẻ nào đủ chính xác để khẳng định hay loại trừ viêm túi mật cấp — đây là tuyên bố 1.1 của WSES 2016; phải kết hợp lâm sàng, xét nghiệm và hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Bilirubin là chỉ dấu phân biệt nhanh: tăng nhẹ thì viêm túi mật, tăng cao trên 4 mg/dL thì nghĩ sỏi ống mật chủ. Amylase và lipase phải luôn làm vì viêm tụy do sỏi thường đi kèm mà không được bỏ qua — đau thượng vị dữ dội kèm men tụy tăng rất cao là viêm tụy, không phải viêm túi mật đơn thuần.<br><br>📖 Nguồn: Bài Sỏi mật, §3.4 — xét nghiệm máu, bilirubin &gt;4 mg/dL gợi ý sỏi ống mật chủ, WSES 1.1."
+    },
+    {
+      "id": "SURG27-CARD-017",
+      "note_id": 1793960271232,
+      "tags": [
+        "soi-mat",
+        "hinh-anh",
+        "sieu-am"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#51cf66'><b>Siêu âm bụng</b></span> là hình ảnh đầu tay trong viêm túi mật cấp, nhưng độ nhạy của nó là bao nhiêu và vì sao <span style='color:#ff6b6b'><b>siêu âm âm tính không loại trừ</b></span> được bệnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Siêu âm bụng là hình ảnh đầu tay: rẻ, sẵn có, không xâm lấn, chính xác cao với sỏi túi mật; siêu âm có thể thấy sỏi túi mật, túi mật to, thành túi mật dày, dịch quanh túi mật và dấu Murphy siêu âm.<br>2) Nhưng siêu âm có độ nhạy thấp trong chẩn đoán viêm túi mật cấp: trong một nghiên cứu so sánh 3 phương pháp, độ nhạy của siêu âm chỉ là <span style='color:#ffd43b'><b>59,8%</b></span>, so với CT <span style='color:#ffd43b'><b>67,3%</b></span> và HIDA <span style='color:#ffd43b'><b>84,2%</b></span>.<br>3) Trong một nghiên cứu khác, độ nhạy của CT là <span style='color:#ffd43b'><b>85%</b></span> so với siêu âm <span style='color:#ffd43b'><b>68%</b></span>; giá trị dự báo âm của CT là 90% so với siêu âm 77%; độ đặc hiệu và giá trị dự báo dương của cả 2 đều là 100%.<br>4) Vì vậy siêu âm âm tính <span style='color:#ff6b6b'><b>không loại trừ được viêm túi mật cấp</b></span> (độ nhạy chỉ 59,8–68%) — nghi ngờ cao thì làm thêm CT hoặc HIDA.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân đau hạ sườn phải 10 giờ, sốt, bạch cầu 16.000/mm³, siêu âm chỉ thấy sỏi túi mật, thành túi mật không dày — không được kết luận không phải viêm túi mật, mà phải làm thêm CT để tìm dấu hiệu viêm. Siêu âm giỏi tìm sỏi nhưng kém trong việc khẳng định viêm, vì vậy âm tính giả rất hay gặp.<br><br>📖 Nguồn: Bài Sỏi mật, §3.5 — siêu âm đầu tay, độ nhạy 59,8–68%, CT 85%, HIDA 84,2%."
+    },
+    {
+      "id": "SURG27-CARD-018",
+      "note_id": 1793960271234,
+      "tags": [
+        "soi-mat",
+        "hinh-anh",
+        "CT",
+        "HIDA"
+      ],
+      "type": "basic",
+      "front": "CT và HIDA bổ sung cho siêu âm như thế nào trong viêm túi mật cấp, và <span style='color:#74c0fc'><b>HIDA</b></span> hoạt động ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) CT tốt hơn siêu âm trong phát hiện biến chứng: CT phát hiện viêm túi mật có biến chứng <span style='color:#ffd43b'><b>100%</b></span> so với siêu âm <span style='color:#ffd43b'><b>63,6%</b></span>; độ nhạy phát hiện biến chứng của CT là 35,71%, của siêu âm là 0% — nghĩa là siêu âm không phát hiện được biến chứng nào trong nghiên cứu này.<br>2) HIDA scan là phương pháp có độ nhạy và độ đặc hiệu cao nhất trong chẩn đoán viêm túi mật cấp, nhưng ít sẵn có, làm lâu và có bức xạ.<br>3) HIDA hoạt động bằng cách tiêm chất phóng xạ vào máu, chất này được gan thải vào mật; nếu ống túi mật tắc, chất phóng xạ không vào được túi mật — túi mật không hiện hình trên HIDA là dấu hiệu viêm túi mật cấp.<br>4) WSES 2016 khuyến cáo: siêu âm bụng là hình ảnh đầu tay; HIDA có độ nhạy và độ đặc hiệu cao nhất nhưng ít sẵn có; nên kết hợp lâm sàng, xét nghiệm và hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>CT và siêu âm bổ sung cho nhau: siêu âm tìm sỏi giỏi và rẻ, CT tìm biến chứng giỏi. HIDA là chuẩn vàng về độ chính xác nhưng không phải nơi nào cũng có và làm lâu, vì vậy chỉ dùng khi nghi ngờ cao mà siêu âm và CT chưa kết luận được.<br><br>📖 Nguồn: Bài Sỏi mật, §3.5 — CT phát hiện biến chứng 100% vs siêu âm 63,6%, cơ chế HIDA, WSES 2016."
+    },
+    {
+      "id": "SURG27-CARD-019",
+      "note_id": 1793960271236,
+      "tags": [
+        "soi-mat",
+        "phan-do",
+        "Grade"
+      ],
+      "type": "basic",
+      "front": "Phân độ nặng <span style='color:#74c0fc'><b>Grade I, II, III</b></span> của viêm túi mật cấp theo TG13/TG18 gồm những tiêu chí nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style='color:#51cf66'><b>Grade I (nhẹ)</b></span> là viêm túi mật không đạt tiêu chí của Grade II hay Grade III.<br>2) <span style='color:#ffd43b'><b>Grade II (trung bình)</b></span> là viêm túi mật có bất kỳ tiêu chí nào sau đây: bạch cầu trên <span style='color:#ffd43b'><b>18.000/mm³</b></span>; sờ thấy khối đau ở hạ sườn phải; đã quá <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát triệu chứng; viêm khu trú rõ (viêm phúc mạc khu trú, áp xe quanh túi mật, hoại tử túi mật).<br>3) <span style='color:#ff6b6b'><b>Grade III (nặng)</b></span> là viêm túi mật đã gây suy chức năng ít nhất <span style='color:#ff6b6b'><b>1 hệ cơ quan</b></span> (tim mạch, thần kinh, hô hấp, thận, gan, huyết học).<br>4) Phân độ nặng quyết định thời điểm mổ và có mổ được hay không.<br><br><b>💡 Giải thích của AI:</b><br>Grade II chỉ cần 1 tiêu chí là đủ — bạch cầu trên 18.000/mm³ một mình đã đủ phân độ Grade II, không cần đợi đủ cả 4 tiêu chí. Grade III khác hẳn: không còn là viêm khu trú nữa mà đã suy tạng, vì vậy xử trí chuyển sang hồi sức và hội chẩn trung tâm chuyên sâu.<br><br>📖 Nguồn: Bài Sỏi mật, §4.1 — phân độ Grade I/II/III TG13/TG18, tiêu chí Grade II."
+    },
+    {
+      "id": "SURG27-CARD-020",
+      "note_id": 1793960271238,
+      "tags": [
+        "soi-mat",
+        "tien-luong",
+        "tu-vong"
+      ],
+      "type": "basic",
+      "front": "Tiên lượng <span style='color:#ff6b6b'><b>tử vong 30 ngày</b></span> theo độ nặng Grade I, II, III của viêm túi mật cấp là bao nhiêu, và thay đổi ra sao theo số tạng suy?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một nghiên cứu kiểm chứng phân độ TG13 cho thấy tử vong 30 ngày là <span style='color:#ffd43b'><b>1,1%</b></span> ở Grade I, <span style='color:#ffd43b'><b>0,8%</b></span> ở Grade II, và <span style='color:#ffd43b'><b>5,4%</b></span> ở Grade III — Grade III cao hơn có ý nghĩa thống kê.<br>2) Tử vong thay đổi theo số tạng suy: từ <span style='color:#ffd43b'><b>3,1%</b></span> khi suy 1 tạng tới <span style='color:#ffd43b'><b>25%</b></span> khi suy nhiều tạng.<br>3) Độ càng cao càng hay chọn mổ mở thay vì mổ nội soi, vì viêm nặng làm giải phẫu khó nhận diện, mổ nội soi nguy hiểm hơn.<br>4) Một nghiên cứu dịch tễ ở Nhật Bản và Đài Loan trên 5.459 bệnh nhân viêm túi mật cấp cho thấy tử vong 30 ngày là 1,1%; tử vong 30 ngày của viêm túi mật cấp (1,1%) thấp hơn nhiều so với tử vong của viêm đường mật cấp (10–30%), vì viêm túi mật là viêm khu trú ở túi mật, trong khi viêm đường mật là nhiễm trùng đường mật lan vào máu.<br><br><b>💡 Giải thích của AI:</b><br>Điểm đáng nhớ: Grade II tử vong 0,8% thấp hơn cả Grade I 1,1% trong nghiên cứu kiểm chứng — vì vậy đừng suy luận tuyến tính rằng độ càng cao tử vong càng cao một cách máy móc. Điểm nhảy vọt thật sự là Grade III, đặc biệt khi suy nhiều tạng thì tử vong lên tới 25%.<br><br>📖 Nguồn: Bài Sỏi mật, §4.2 — tử vong 30 ngày Grade I 1,1%, II 0,8%, III 5,4%, suy nhiều tạng 25%."
+    },
+    {
+      "id": "SURG27-CARD-021",
+      "note_id": 1793960271240,
+      "tags": [
+        "soi-mat",
+        "dac-biet",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style='color:#ff6b6b'><b>người già</b></span> là nhóm cần phân độ cẩn thận nhất trong viêm túi mật cấp, và số liệu Medicare nói gì về việc trì hoãn cắt túi mật ở người già?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Người già thường đến khám muộn — đau ít hơn, sốt thấp hơn, nên dễ bị <span style='color:#ff6b6b'><b>phân độ thấp hơn thực tế</b></span>.<br>2) Người già có nhiều bệnh kèm (tim mạch, hô hấp, đái tháo đường), nên nguy cơ biến chứng sau mổ cao hơn; WSES 2016 có tuyên bố riêng: người già trên <span style='color:#ffd43b'><b>80 tuổi</b></span> là yếu tố nguy cơ kết cục xấu.<br>3) Ở người già, cắt sớm vẫn tốt hơn cắt trì hoãn nếu bệnh nhân đủ sức khỏe, nhưng phải đánh giá kỹ bệnh kèm và nguy cơ phẫu thuật; nếu không đủ sức khỏe để mổ, <span style='color:#51cf66'><b>dẫn lưu túi mật qua da (PTGBD)</b></span> là lựa chọn thay thế.<br>4) Dữ liệu Medicare cho thấy người già không được cắt túi mật trong đợt nhập viện đầu có tỉ lệ tái nhập viện liên quan sỏi là <span style='color:#ffd43b'><b>38%</b></span> trong 2 năm, so với <span style='color:#ffd43b'><b>4,4%</b></span> ở nhóm được cắt sớm — trì hoãn cắt túi mật ở người già không an toàn hơn mà nguy hiểm hơn, vì tái nhập viện nhiều hơn.<br><br><b>💡 Giải thích của AI:</b><br>Người già là bẫy phân độ: khám nghèo nàn không có nghĩa là bệnh nhẹ, mà là đáp ứng viêm của người già yếu đi. Vì vậy ngưỡng nghi ngờ phải thấp hơn, đánh giá bệnh kèm phải kỹ hơn, và đừng trì hoãn mổ chỉ vì sợ tuổi cao — số liệu Medicare cho thấy trì hoãn mới là nguy hiểm.<br><br>📖 Nguồn: Bài Sỏi mật, §4.3 và §8.4 — người già, trên 80 tuổi, Medicare 38% vs 4,4%."
+    },
+    {
+      "id": "SURG27-CARD-022",
+      "note_id": 1793960271242,
+      "tags": [
+        "soi-mat",
+        "phan-biet",
+        "chan-doan-phan-biet"
+      ],
+      "type": "basic",
+      "front": "Viêm túi mật cấp cần phân biệt với những bệnh nào gây <span style='color:#ff6b6b'><b>đau hạ sườn phải hoặc thượng vị</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style='color:#74c0fc'><b>Viêm đường mật cấp</b></span> gây đau hạ sườn phải, sốt, vàng da rõ, bilirubin tăng cao, ALP và GGT tăng cao.<br>2) <span style='color:#74c0fc'><b>Viêm tụy cấp do sỏi</b></span> gây đau thượng vị dữ dội lan ra sau lưng, amylase và lipase tăng rất cao trên 3 lần giới hạn trên.<br>3) <span style='color:#74c0fc'><b>Viêm gan cấp</b></span> gây đau hạ sườn phải, vàng da, ALT và AST tăng rất cao (hàng nghìn đơn vị), bilirubin tăng — khác viêm túi mật ở chỗ ALT/AST tăng cao hơn ALP/GGT.<br>4) <span style='color:#74c0fc'><b>Loét dạ dày–tá tràng thủng</b></span> gây đau thượng vị dữ dội đột ngột, bụng gồng cứng như gỗ, X-quang thấy hơi tự do dưới cơ hoành.<br>5) <span style='color:#74c0fc'><b>Viêm ruột thừa</b></span> ở vị trí cao (ruột thừa sau gan) có thể gây đau hạ sườn phải; <span style='color:#74c0fc'><b>nhồi máu cơ tim thành dưới</b></span> gây đau thượng vị, buồn nôn, nôn — cần làm điện tâm đồ để loại trừ, đặc biệt ở người già và người đái tháo đường; <span style='color:#74c0fc'><b>viêm phổi thùy dưới phải</b></span> gây đau hạ sườn phải, sốt, ho — cần nghe phổi và chụp X-quang ngực.<br>6) <span style='color:#74c0fc'><b>Cơn đau quặn mật</b></span> là đau dưới 6 giờ, không sốt, xét nghiệm gần như bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Đau hạ sườn phải không phải lúc nào cũng là túi mật: tim, phổi, gan, ruột thừa đều có thể gây đau vùng này. Hai bẫy nguy hiểm nhất là nhồi máu cơ tim thành dưới (đau thượng vị, dễ bỏ sót ở người già và đái tháo đường) và thủng loét (bụng gồng cứng như gỗ, hơi tự do dưới cơ hoành).<br><br>📖 Nguồn: Bài Sỏi mật, §4.4 — chẩn đoán phân biệt viêm túi mật cấp."
+    },
+    {
+      "id": "SURG27-CARD-023",
+      "note_id": 1793960271244,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "soi-khong-trieu-chung"
+      ],
+      "type": "basic",
+      "front": "Vì sao điều trị chuẩn cho sỏi <span style='color:#51cf66'><b>không triệu chứng</b></span> là theo dõi chứ không phải cắt túi mật dự phòng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều trị chuẩn cho sỏi không triệu chứng là <span style='color:#51cf66'><b>theo dõi, không cắt túi mật dự phòng</b></span>.<br>2) Diễn tiến tự nhiên lành tính: chỉ khoảng <span style='color:#ffd43b'><b>2%</b></span> sỏi không triệu chứng trở thành có triệu chứng mỗi năm; tỉ lệ tích lũy là 10,1% sau 5 năm, 21,5% sau 10 năm và 32,6% sau 15 năm.<br>3) Phân tích quyết định cho thấy cắt túi mật dự phòng làm <span style='color:#ff6b6b'><b>giảm nhẹ tuổi thọ</b></span>: một phân tích năm 1983 cho thấy nam 30 tuổi cắt dự phòng mất trung bình 4 ngày sống, nam 50 tuổi mất 18 ngày sống, so với theo dõi.<br>4) Một phân tích năm 1990 cho thấy theo dõi có xác suất tử vong do bệnh sỏi mật trọn đời ở nam 30 tuổi khoảng 2%, phần lớn tử vong sau 65 tuổi; cắt elective có tỉ lệ tử vong do bệnh sỏi mật chỉ 0,1% nhưng tử vong xảy ra ở tuổi 30; tăng tuổi thọ kỳ vọng của cắt ngay so với theo dõi chỉ là 52 ngày (23 ngày khi chiết khấu 5%).<br>5) Tổng quan Cochrane năm 2007 không tìm thấy thử nghiệm ngẫu nhiên nào so sánh cắt túi mật với không cắt ở sỏi không triệu chứng — nghĩa là không có bằng chứng nào ủng hộ cắt dự phòng.<br><br><b>💡 Giải thích của AI:</b><br>Nghịch lý nằm ở tuổi tử vong: cắt dự phòng giảm tử vong do sỏi mật nhưng tử vong do phẫu thuật xảy ra ngay ở tuổi 30, trong khi tử vong do sỏi nếu theo dõi phần lớn xảy ra sau 65 tuổi. Vì vậy theo dõi thắng về tuổi thọ kỳ vọng, dù nghe có vẻ ngược trực giác.<br><br>📖 Nguồn: Bài Sỏi mật, §5.1 — theo dõi là chuẩn, phân tích quyết định 1983/1990, Cochrane 2007."
+    },
+    {
+      "id": "SURG27-CARD-024",
+      "note_id": 1793960271246,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "soi-khong-trieu-chung"
+      ],
+      "type": "basic",
+      "front": "Cắt túi mật dự phòng chỉ cân nhắc ở nhóm nào, và phải dặn bệnh nhân sỏi <span style='color:#51cf66'><b>không triệu chứng</b></span> quay lại ngay khi có dấu hiệu nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cắt dự phòng chỉ cân nhắc ở nhóm nguy cơ cao đặc biệt: bệnh nhân <span style='color:#ff6b6b'><b>thiếu máu tan máu mạn</b></span> (sỏi sắc tố hình thành liên tục), bệnh nhân có <span style='color:#ff6b6b'><b>polyp túi mật kèm theo</b></span>, hoặc bệnh nhân sống ở <span style='color:#ff6b6b'><b>vùng xa không tiếp cận được y tế</b></span> khi có biến chứng.<br>2) Người học cần dặn bệnh nhân sỏi không triệu chứng: theo dõi là đủ, nhưng phải <span style='color:#51cf66'><b>quay lại ngay</b></span> nếu đau quặn mật, sốt, vàng da, hoặc đau thượng vị dữ dội — vì đó là dấu hiệu sỏi đã gây biến chứng.<br><br><b>💡 Giải thích của AI:</b><br>Theo dõi không có nghĩa là bỏ mặc: bệnh nhân phải biết rõ 4 dấu hiệu quay lại ngay (đau quặn mật, sốt, vàng da, đau thượng vị dữ dội) vì đó là lúc sỏi chuyển từ không triệu chứng sang biến chứng. Nhóm nguy cơ cao đặc biệt là ngoại lệ, không phải quy tắc.<br><br>📖 Nguồn: Bài Sỏi mật, §5.1 — nhóm cân nhắc cắt dự phòng, dặn dò bệnh nhân."
+    },
+    {
+      "id": "SURG27-CARD-025",
+      "note_id": 1793960271248,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "C-GALL"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style='color:#74c0fc'><b>C-GALL</b></span> so sánh cắt túi mật với điều trị bảo tồn trong sỏi có triệu chứng không biến chứng cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm C-GALL (BMJ 2023) trên <span style='color:#ffd43b'><b>434</b></span> bệnh nhân sỏi có triệu chứng không biến chứng, 20 trung tâm ở Anh, so sánh cắt túi mật với điều trị bảo tồn.<br>2) Chất lượng sống (SF-36 bodily pain AUC trong 18 tháng) <span style='color:#51cf66'><b>không khác biệt</b></span> — khác biệt trung bình 0,0 (khoảng tin cậy −1,7 đến 1,7); điều trị bảo tồn rẻ hơn <span style='color:#ffd43b'><b>£1.033</b></span>; chất lượng sống điều chỉnh theo năm sống (QALY) không khác biệt (−0,019).<br>3) Nhưng sau 18 tháng, <span style='color:#ffd43b'><b>25%</b></span> nhóm bảo tồn đã phải mổ, so với 67% nhóm cắt túi mật.<br>4) Bài học: bảo tồn và mổ cho chất lượng sống tương đương ở 18 tháng — bảo tồn là lựa chọn hợp lý trong ngắn hạn, nhưng bệnh nhân cần biết <span style='color:#ff6b6b'><b>1 trong 4 người</b></span> chọn bảo tồn sẽ phải mổ trong 18 tháng tới; quyết định mổ nên dựa trên triệu chứng và mong muốn của bệnh nhân, không phải chỉ dựa trên có sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Một bài tổng quan năm 1993 cho thấy sỏi có triệu chứng có tỉ lệ đau tái phát cao, nhưng khoảng 30% người đã đau không đau lại; cắt túi mật nên khuyến cáo cho hầu hết người có triệu chứng, trừ khi bệnh nhân muốn thử theo dõi xem đau có tái phát không. Không được ép bệnh nhân mổ chỉ vì có sỏi — phải giải thích cả 2 lựa chọn và để bệnh nhân quyết định.<br><br>📖 Nguồn: Bài Sỏi mật, §5.2 — thử nghiệm C-GALL BMJ 2023, chất lượng sống tương đương, 25% bảo tồn phải mổ."
+    },
+    {
+      "id": "SURG27-CARD-026",
+      "note_id": 1793960271250,
+      "tags": [
+        "soi-mat",
+        "thuoc",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#51cf66'><b>Kháng sinh</b></span> trong viêm túi mật cấp gồm những nhóm thuốc nào, và vì sao bài này không dạy liều mg?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Kháng sinh là trụ cột điều trị nội khoa của viêm túi mật cấp, nhưng <span style='color:#ff6b6b'><b>không thay thế được cắt túi mật</b></span>.<br>2) WSES 2016 đưa ra phác đồ kháng sinh (Bảng 3) chỉ ghi tên thuốc, không ghi liều mg; các nhóm gồm <span style='color:#51cf66'><b>beta-lactam/kháng beta-lactamase</b></span> (amoxicillin/clavulanate, ticarcillin/clavulanate cho bệnh nhân ổn định; piperacillin/tazobactam cho bệnh nhân không ổn định), <span style='color:#51cf66'><b>cephalosporin</b></span> (ceftriaxone, cefepime, ceftazidime, cefozopran kèm metronidazole), <span style='color:#51cf66'><b>carbapenem</b></span> (ertapenem cho bệnh nhân ổn định; imipenem/cilastatin, meropenem, doripenem chỉ khi không ổn định), <span style='color:#51cf66'><b>fluoroquinolone khi dị ứng beta-lactam</b></span> (ciprofloxacin hoặc levofloxacin kèm metronidazole, moxifloxacin chỉ khi ổn định) và <span style='color:#51cf66'><b>tigecycline</b></span> (bệnh nhân ổn định có yếu tố nguy cơ ESBL).<br>3) Lựa chọn nhóm thuốc phụ thuộc vào độ nặng (ổn định hay không ổn định) và kháng sinh đồ địa phương.<br>4) Điểm bắt buộc: bài này <span style='color:#ff6b6b'><b>KHÔNG dạy liều mg</b></span> của bất kỳ kháng sinh nào, vì trong mọi abstract và toàn văn lấy được, không có nguồn nào ghi liều mg; liều kháng sinh trong TG18 nằm trong toàn văn paywalled, không lấy được; người học dùng liều theo hướng dẫn của bệnh viện, theo chức năng thận của bệnh nhân và theo kháng sinh đồ.<br><br><b>💡 Giải thích của AI:</b><br>Kháng sinh diệt vi khuẩn trong túi mật viêm nhưng không mở được chỗ tắc ở cổ túi mật, vì vậy chỉ là điều trị hỗ trợ, cắt túi mật mới là kiểm soát nguồn nhiễm trùng. Không được bịa liều mg để viết cho đủ bài — thiếu liều là một hạn chế phải ghi rõ, không phải chỗ trống để suy đoán.<br><br>📖 Nguồn: Bài Sỏi mật, §5.3 — nhóm kháng sinh WSES 2016, không dạy liều mg."
+    },
+    {
+      "id": "SURG27-CARD-027",
+      "note_id": 1793960271252,
+      "tags": [
+        "soi-mat",
+        "thuoc",
+        "khang-sinh-sau-mo"
+      ],
+      "type": "basic",
+      "front": "Sau khi cắt túi mật vì viêm túi mật cấp nhẹ và trung bình, có cần tiếp tục <span style='color:#51cf66'><b>kháng sinh sau mổ</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một thử nghiệm ngẫu nhiên trên <span style='color:#ffd43b'><b>188</b></span> bệnh nhân viêm túi mật Grade I và II so sánh dùng kháng sinh sau mổ với giả dược.<br>2) Biến chứng nhiễm trùng sau mổ là <span style='color:#ffd43b'><b>7,4%</b></span> ở nhóm giả dược so với <span style='color:#ffd43b'><b>8,6%</b></span> ở nhóm kháng sinh (không có ý nghĩa thống kê); biến chứng không nhiễm trùng là 7,4% so với 6,5% (không có ý nghĩa).<br>3) Kết luận: <span style='color:#51cf66'><b>không dùng kháng sinh sau mổ không làm tăng nhiễm trùng</b></span> ở viêm túi mật nhẹ và trung bình; phù hợp với tuyên bố WSES 3.1: viêm túi mật không biến chứng có thể không cần kháng sinh sau mổ khi ổ nhiễm trùng đã được kiểm soát bằng cắt túi mật.<br>4) Bệnh nhân nặng (Grade III) hoặc có biến chứng vẫn cần kháng sinh sau mổ theo hướng dẫn của bệnh viện.<br><br><b>💡 Giải thích của AI:</b><br>Cắt túi mật chính là kiểm soát nguồn nhiễm trùng — sau khi túi mật viêm đã được cắt bỏ, không cần kháng sinh kéo dài ở bệnh nhân nhẹ và trung bình. Đây là điểm hay bị làm thừa trong thực hành: kháng sinh sau mổ kéo dài không giảm nhiễm trùng mà chỉ tăng kháng thuốc và chi phí.<br><br>📖 Nguồn: Bài Sỏi mật, §5.4 — RCT 188 BN kháng sinh sau mổ, WSES 3.1."
+    },
+    {
+      "id": "SURG27-CARD-028",
+      "note_id": 1793960271254,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "hoi-suc"
+      ],
+      "type": "basic",
+      "front": "Giảm đau, <span style='color:#51cf66'><b>nhịn ăn</b></span> và hồi sức trong viêm túi mật cấp làm như thế nào, và thuốc hòa tan sỏi có vai trò gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giảm đau gồm thuốc giảm đau không steroid (NSAID) và thuốc giảm đau opioid khi cần; NSAID vừa giảm đau vừa giảm viêm, nhưng phải thận trọng ở bệnh nhân suy thận, loét dạ dày hoặc đang dùng thuốc kháng đông.<br>2) Bệnh nhân viêm túi mật cấp nên <span style='color:#51cf66'><b>nhịn ăn</b></span> nếu nghi ngờ cần mổ, vì dạ dày đầy thức ăn làm tăng nguy cơ trào ngược và hít sặc khi gây mê.<br>3) Hồi sức gồm truyền dịch, theo dõi sinh hiệu và điều chỉnh điện giải; bệnh nhân nôn nhiều cần bù dịch và điện giải (kali, natri).<br>4) Không có vai trò của <span style='color:#ff6b6b'><b>thuốc hòa tan sỏi</b></span> (như acid ursodeoxycholic), thuốc, hay tán sỏi ngoài cơ thể (ESWL) trong viêm túi mật cấp — đây là tuyên bố WSES 2.1; thuốc hòa tan sỏi chỉ có vai trò rất hạn chế trong sỏi cholesterol nhỏ ở bệnh nhân không mổ được.<br><br><b>💡 Giải thích của AI:</b><br>Nhịn ăn không phải để điều trị viêm mà để chuẩn bị gây mê an toàn — dạ dày đầy là nguy cơ hít sặc khi đặt nội khí quản. Thuốc hòa tan sỏi cần nhiều tháng mới tan được sỏi nhỏ, trong khi viêm túi mật cấp cần quyết định trong vài ngày, vì vậy không có vai trò trong cấp cứu.<br><br>📖 Nguồn: Bài Sỏi mật, §5.5 — giảm đau, nhịn ăn, hồi sức, WSES 2.1."
+    },
+    {
+      "id": "SURG27-CARD-029",
+      "note_id": 1793960271256,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "cat-som",
+        "Cochrane"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp Cochrane 2013 so sánh <span style='color:#51cf66'><b>cắt sớm</b></span> với <span style='color:#51cf66'><b>cắt trì hoãn</b></span> trong viêm túi mật cấp cho kết quả gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân tích gộp Cochrane năm 2013 trên <span style='color:#ffd43b'><b>7 thử nghiệm với 488 bệnh nhân</b></span> so sánh cắt sớm (dưới 7 ngày từ khi trình diện) với cắt trì hoãn (trên 6 tuần sau đợt nhập viện đầu).<br>2) Tổn thương đường mật là <span style='color:#ffd43b'><b>0,4%</b></span> ở nhóm sớm so với <span style='color:#ffd43b'><b>0,9%</b></span> ở nhóm trì hoãn (không có ý nghĩa thống kê); biến chứng nặng khác là 6,5% so với 5,0% (không có ý nghĩa); chuyển mổ mở là <span style='color:#ffd43b'><b>19,7%</b></span> so với <span style='color:#ffd43b'><b>22,1%</b></span> (không có ý nghĩa).<br>3) Tổng thời gian nằm viện ngắn hơn <span style='color:#ffd43b'><b>4 ngày</b></span> ở nhóm sớm (hiệu số trung bình −4,12 ngày); thời gian mổ không khác biệt; bệnh nhân về làm sớm hơn 11 ngày.<br>4) Đáng chú ý: <span style='color:#ff6b6b'><b>18,3%</b></span> nhóm trì hoãn phải mổ cấp cứu trước lịch vì triệu chứng không hết hoặc tái phát, và tỉ lệ chuyển mổ mở trong nhóm này là <span style='color:#ffd43b'><b>45%</b></span>; không có tử vong trong 5 thử nghiệm báo cáo tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Cắt sớm không an toàn hơn hay nguy hiểm hơn cắt trì hoãn về biến chứng — nó tương đương, nhưng nằm viện ngắn hơn và tránh được 18,3% ca phải mổ cấp cứu trước lịch. Trì hoãn không phải là chờ cho an toàn, mà là chờ cho bệnh nhân có nguy cơ phải mổ cấp cứu trong điều kiện xấu hơn.<br><br>📖 Nguồn: Bài Sỏi mật, §6.1 — Cochrane 2013, 7 thử nghiệm, 488 BN, cắt sớm vs trì hoãn."
+    },
+    {
+      "id": "SURG27-CARD-030",
+      "note_id": 1793960271258,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "cat-som"
+      ],
+      "type": "basic",
+      "front": "Hai phân tích gộp khác (Surg Endosc 2018 và Br J Surg 2015) nói gì thêm về <span style='color:#51cf66'><b>cắt sớm</b></span> so với cắt trì hoãn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phân tích gộp Surg Endosc 2018 trên 15 thử nghiệm ngẫu nhiên cho thấy không khác biệt về tổn thương đường mật (tỉ số nguy cơ 0,79), rò mật (2,05, p=0,06), nhiễm trùng vết mổ (0,75), biến chứng chung (0,90) và chuyển mổ mở (0,94); thời gian mổ dài hơn 9,29 phút ở nhóm sớm (không có ý nghĩa), nhưng cắt sớm trong 7 ngày mổ lâu hơn 16,49 phút; tổng thời gian nằm viện ngắn hơn 3,07 ngày ở nhóm sớm.<br>2) Phân tích gộp Br J Surg 2015 trên 15 thử nghiệm với 1.625 bệnh nhân cho thấy cắt sớm có chi phí thấp hơn, ít ngày nghỉ làm hơn (hiệu số trung bình −11,07 ngày), hài lòng và chất lượng sống cao hơn, ít nhiễm trùng vết mổ hơn (tỉ số nguy cơ 0,65) và nằm viện ngắn hơn (hiệu số trung bình −3,38 ngày), nhưng mổ lâu hơn (hiệu số trung bình 11,12 phút); không khác biệt về tử vong, tổn thương đường mật, rò mật, chuyển mổ mở và biến chứng chung.<br>3) Kết luận chung: cắt sớm an toàn tương đương cắt trì hoãn, nằm viện ngắn hơn <span style='color:#ffd43b'><b>3–4 ngày</b></span>, ít nhiễm trùng vết mổ hơn, ít ngày nghỉ làm hơn — nhưng mổ lâu hơn khoảng <span style='color:#ffd43b'><b>11–16 phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba phân tích gộp độc lập đều đi tới cùng một kết luận, vì vậy bằng chứng rất vững: cắt sớm không nguy hiểm hơn, chỉ tốn thêm khoảng 11–16 phút mổ để đổi lấy nằm viện ngắn hơn 3–4 ngày và ít ngày nghỉ làm hơn. Mổ lâu hơn là vì viêm còn cấp, mô phù nề, bóc tách khó hơn một chút — không phải vì biến chứng nhiều hơn.<br><br>📖 Nguồn: Bài Sỏi mật, §6.1 — Surg Endosc 2018 và Br J Surg 2015, cắt sớm vs trì hoãn."
+    },
+    {
+      "id": "SURG27-CARD-031",
+      "note_id": 1793960271260,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "Ba mốc quyết định thời điểm cắt túi mật trong viêm túi mật cấp: <span style='color:#ffd43b'><b>72 giờ</b></span>, <span style='color:#ffd43b'><b>10 ngày</b></span> và <span style='color:#ffd43b'><b>45 ngày</b></span> tính từ đâu và có ý nghĩa gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mổ ngay trong <span style='color:#ff6b6b'><b>24 giờ từ nhập viện KHÔNG giảm biến chứng</b></span> sau mổ (tỉ số nguy cơ 1,89, khoảng tin cậy 0,76–4,71).<br>2) Mổ trong <span style='color:#ffd43b'><b>72 giờ từ khởi phát triệu chứng giảm biến chứng</b></span> sau mổ có ý nghĩa so với trì hoãn (tỉ số nguy cơ 0,60, khoảng tin cậy 0,39–0,92).<br>3) Bài học quan trọng nhất: <span style='color:#ffd43b'><b>mốc tính từ khởi phát triệu chứng, không phải từ nhập viện</b></span> — bệnh nhân đau 5 ngày ở nhà rồi mới vào viện, mổ trong 24 giờ từ nhập viện là đã 6 ngày từ khởi phát, không còn trong cửa sổ 72 giờ nữa.<br>4) WSES 2016: cắt sớm ưu tiên hơn cắt trì hoãn nếu hoàn thành trong <span style='color:#ffd43b'><b>10 ngày từ khởi phát</b></span> triệu chứng; không nên cắt sớm khi đã quá 10 ngày từ khởi phát, trừ khi có viêm phúc mạc nặng lên hoặc nhiễm trùng huyết cần mổ cấp cứu; quá 10 ngày thì <span style='color:#ffd43b'><b>trì hoãn 45 ngày</b></span> tốt hơn mổ ngay; cắt sớm càng sớm càng tốt, tối đa 10 ngày từ khởi phát.<br>5) Tóm tắt 3 mốc: <span style='color:#ffd43b'><b>72 giờ từ khởi phát</b></span> (mổ trong cửa sổ này giảm biến chứng); <span style='color:#ffd43b'><b>10 ngày từ khởi phát</b></span> (giới hạn trên của cắt sớm); <span style='color:#ffd43b'><b>45 ngày trì hoãn</b></span> (nếu đã quá 10 ngày thì chờ 45 ngày rồi mổ).<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân đau 2 ngày — cắt sớm trong 72 giờ từ khởi phát là tốt nhất. Bệnh nhân đau 8 ngày — vẫn cắt sớm được (trong 10 ngày), nhưng mổ khó hơn, cần phẫu thuật viên có kinh nghiệm. Bệnh nhân đau 15 ngày — không cắt sớm nữa, trì hoãn 45 ngày rồi mổ. Vì vậy phải hỏi kỹ bệnh nhân đau từ khi nào — thời gian từ khởi phát mới là mốc quyết định.<br><br>📖 Nguồn: Bài Sỏi mật, §6.2 — mốc 72 giờ, 10 ngày, 45 ngày; WJES 2021; WSES 5.1–5.3."
+    },
+    {
+      "id": "SURG27-CARD-032",
+      "note_id": 1793960271262,
+      "tags": [
+        "soi-mat",
+        "thuat-toan",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "Thuật toán quyết định thời điểm <span style='color:#51cf66'><b>cắt túi mật</b></span> trong viêm túi mật cấp theo thời gian từ khởi phát và độ nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hỏi thời gian đau từ khi nào — mốc tính từ <span style='color:#ffd43b'><b>khởi phát triệu chứng</b></span>, không phải từ nhập viện.<br>2) Đau dưới <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát thì <span style='color:#51cf66'><b>cắt túi mật nội soi sớm</b></span> — đây là cửa sổ giảm biến chứng tốt nhất.<br>3) Đau từ 72 giờ tới <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát thì vẫn <span style='color:#51cf66'><b>cắt sớm được</b></span>, nhưng mổ khó hơn, cần phẫu thuật viên có kinh nghiệm.<br>4) Đau quá <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát thì <span style='color:#51cf66'><b>trì hoãn 45 ngày rồi mổ</b></span>, trừ khi có viêm phúc mạc nặng lên hoặc nhiễm trùng huyết cần mổ cấp cứu.<br>5) Phân độ Grade và đánh giá CCI, ASA trước mổ quyết định có mổ được hay không: Grade I và II mổ sớm nếu CCI từ 5 trở xuống và ASA từ 2 trở xuống; Grade III chỉ mổ sớm khi đủ tiêu chuẩn chặt tại trung tâm chuyên sâu, nếu không thì dẫn lưu rồi cắt trì hoãn.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán này có 2 trục: trục thời gian (72 giờ, 10 ngày, 45 ngày) và trục độ nặng kèm bệnh kèm (Grade, CCI, ASA). Bệnh nhân đau 5 ngày ở nhà rồi mới vào viện, mổ trong 24 giờ từ nhập viện là đã 6 ngày từ khởi phát — vẫn trong giới hạn 10 ngày của WSES nhưng đã quá mốc 72 giờ giảm biến chứng, vì vậy phải tính đúng mốc từ khởi phát.<br><br>📖 Nguồn: Bài Sỏi mật, §6.2 và §6.7 — thuật toán thời điểm mổ theo mốc khởi phát."
+    },
+    {
+      "id": "SURG27-CARD-033",
+      "note_id": 1793960271264,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "duong-mo",
+        "CCI",
+        "ASA"
+      ],
+      "type": "basic",
+      "front": "Chọn <span style='color:#51cf66'><b>đường mổ</b></span> trong viêm túi mật cấp như thế nào, và lưu đồ TG18 quy định ra sao theo Grade, CCI và ASA?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cắt túi mật nội soi là đường mổ ưu tiên trong viêm túi mật cấp, trừ khi có chống chỉ định gây mê tuyệt đối hoặc sốc nhiễm trùng; WSES 2016 khuyến cáo nên thử nội soi trước: cắt nội soi an toàn, khả thi, biến chứng thấp, nằm viện ngắn.<br>2) Cắt túi mật mổ mở được chọn khi nội soi không làm được hoặc không an toàn: viêm quá nặng, dính nhiều, giải phẫu không nhận diện được, hoặc nghi tổn thương đường mật.<br>3) Lưu đồ TG18 theo độ nặng và tình trạng bệnh nhân: Grade I — cắt túi mật nội soi sớm nếu chỉ số bệnh kèm (CCI) từ <span style='color:#ffd43b'><b>5 trở xuống</b></span> và phân loại ASA từ <span style='color:#ffd43b'><b>2 trở xuống</b></span>.<br>4) Grade II — cắt sớm bởi phẫu thuật viên có kinh nghiệm nếu CCI từ 5 trở xuống và ASA từ 2 trở xuống; nếu không đạt, điều trị nội khoa và/hoặc dẫn lưu túi mật rồi cắt sau.<br>5) Grade III — chỉ cắt nội soi khi đủ tiêu chuẩn chặt: suy tạng thuận lợi, yếu tố tiên lượng âm tính, CCI từ <span style='color:#ffd43b'><b>3 trở xuống</b></span> và ASA từ <span style='color:#ffd43b'><b>2 trở xuống</b></span>, tại trung tâm chuyên sâu; nếu không phù hợp mổ sớm thì dẫn lưu sớm hoặc cấp cứu rồi cắt trì hoãn khi tình trạng chung cải thiện.<br><br><b>💡 Giải thích của AI:</b><br>CCI (Charlson Comorbidity Index) là chỉ số bệnh kèm — càng cao càng nhiều bệnh kèm; ASA-PS là phân loại sức khỏe trước mổ — ASA 1 là khỏe mạnh, ASA 2 là bệnh nhẹ, ASA 3 là bệnh nặng, ASA 4 là bệnh đe dọa tính mạng. Grade III có ngưỡng CCI và ASA chặt hơn (3 và 2) vì bệnh nhân đã suy tạng, không chịu được mổ dài hay biến chứng.<br><br>📖 Nguồn: Bài Sỏi mật, §6.3 — chọn đường mổ, lưu đồ TG18 theo Grade/CCI/ASA."
+    },
+    {
+      "id": "SURG27-CARD-034",
+      "note_id": 1793960271266,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "chuyen-mo-mo",
+        "cat-ban-phan"
+      ],
+      "type": "basic",
+      "front": "Khi nào <span style='color:#51cf66'><b>chuyển mổ mở</b></span> và khi nào <span style='color:#51cf66'><b>cắt túi mật bán phần</b></span>, và 2 kỹ thuật cắt bán phần khác nhau ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chuyển mổ mở là chuyển từ mổ nội soi sang mổ mở trong lúc đang mổ, khi mổ nội soi không còn an toàn nữa; chuyển mổ mở <span style='color:#51cf66'><b>không phải là thất bại</b></span> — đó là quyết định an toàn.<br>2) WSES 2016 khuyến cáo cân nhắc mạnh chuyển mổ mở khi viêm khu trú nặng, dính nhiều, chảy máu tam giác Calot, hoặc nghi tổn thương đường mật.<br>3) Một nghiên cứu đoàn hệ trên 945 bệnh nhân cho thấy tỉ lệ chuyển mổ mở là <span style='color:#ffd43b'><b>9,2%</b></span>; yếu tố dự báo độc lập gồm nam (tỉ số odds hiệu chỉnh 2,10), mổ bụng trước đó (1,65) và ASA III (1,80); lý do hay gặp nhất: túi mật căng và dày không bóc tách an toàn được (16,1%), sỏi kẹt cổ túi mật kèm viêm nặng (13,8%) và dính dày do mổ trước (12,6%).<br>4) Cắt túi mật bán phần là lựa chọn hợp lý khi viêm nặng, túi mật hoại tử, hoặc túi mật khó không nhận diện được giải phẫu — đây là tuyên bố WSES 6.4.<br>5) So sánh 2 kỹ thuật cắt bán phần (tổng quan hệ thống và phân tích gộp, 5 nghiên cứu, 552 bệnh nhân): tổn thương đường mật <span style='color:#51cf66'><b>fenestrating 0%</b></span> so với <span style='color:#ff6b6b'><b>reconstituting 2%</b></span>; rò mật fenestrating <span style='color:#ffd43b'><b>20,8%</b></span> so với reconstituting <span style='color:#ffd43b'><b>12,3%</b></span>; rò (fistula) 2,5% so với 5,2% (không có ý nghĩa thống kê).<br><br><b>💡 Giải thích của AI:</b><br>Fenestrating (mở túi mật, không khâu lại phần còn lại) không gây tổn thương đường mật nhưng rò mật nhiều hơn; reconstituting (khâu lại phần túi mật còn lại thành một túi nhỏ) rò mật ít hơn nhưng có 2 ca tổn thương đường mật trên 100 ca. Chọn kỹ thuật theo kinh nghiệm phẫu thuật viên và tình huống trong mổ. Cờ: bài báo cáo tỉ số odds 10,81 với p=0,39 cho tổn thương đường mật — mâu thuẫn nội bộ nên bài này chỉ dạy tỉ lệ thô, không dạy tỉ số odds này.<br><br>📖 Nguồn: Bài Sỏi mật, §6.4 — chuyển mổ mở 9,2%, cắt bán phần fenestrating vs reconstituting."
+    },
+    {
+      "id": "SURG27-CARD-035",
+      "note_id": 1793960271268,
+      "tags": [
+        "soi-mat",
+        "bien-chung",
+        "ton-thuong-duong-mat",
+        "CVS"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#ff6b6b'><b>Tổn thương đường mật</b></span> trong cắt túi mật nội soi xảy ra như thế nào, tỉ lệ bao nhiêu, và phòng ngừa ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương đường mật là tai biến nguy hiểm nhất của cắt túi mật nội soi, xảy ra khi phẫu thuật viên nhầm ống mật chủ với ống túi mật và cắt nhầm ống mật chủ.<br>2) Một nghiên cứu đơn trung tâm trên <span style='color:#ffd43b'><b>3.042</b></span> ca cắt túi mật nội soi trong 60 tháng cho thấy tỉ lệ tổn thương đường mật lớn vẫn ở mức <span style='color:#ffd43b'><b>0,3–0,5%</b></span>; trong Cochrane 2013, tổn thương đường mật là 0,4% ở nhóm cắt sớm so với 0,9% ở nhóm cắt trì hoãn (không có ý nghĩa thống kê).<br>3) Dùng thường quy kỹ thuật critical view of safety làm tỉ lệ tổn thương quan sát được chỉ bằng <span style='color:#51cf66'><b>1/9 đến 1/15 tỉ lệ kỳ vọng</b></span> — cải thiện an toàn gấp 1 bậc độ lớn.<br>4) Tỉ lệ 0,3–0,6% hay được trích dẫn chỉ verify được 0,3–0,5% trong 1 nghiên cứu đơn trung tâm và 0,4% so với 0,9% trong Cochrane 2013 — bài này dạy kèm nguồn cụ thể, không dạy như con số chung chung.<br>5) Khi tổn thương đường mật xảy ra: tổng quan hệ thống và phân tích gộp năm 2025 (SAGES-AHPBA) cho thấy sửa sớm so với sửa muộn có tỉ lệ tái mổ cao hơn (tỉ số odds 3,31), hẹp cao hơn (7,41) và tử vong cao hơn (2,83); điều trị không mổ so với mổ trong tổn thương lớn có tỉ lệ tái mổ cao hơn (16,60) và hẹp cao hơn (2,44); nối gan–hỗng tràng so với nối gan–tá tràng không khác biệt về hẹp hay can thiệp lại; tổn thương lớn nên chuyển trung tâm chuyên sâu và cân nhắc sửa muộn, không sửa ngay khi chưa đủ điều kiện.<br><br><b>💡 Giải thích của AI:</b><br>Phòng ngừa tổn thương đường mật quan trọng hơn sửa chữa: đạt critical view of safety trước khi cắt, và bail-out (chuyển mở hoặc cắt bán phần) khi không đạt được CVS. Tổn thương đường mật được phân loại theo Strasberg 1995 — bài kinh điển về tổn thương đường mật trong cắt túi mật nội soi (chỉ verify được tiêu đề, không có abstract, nên không trích số).<br><br>📖 Nguồn: Bài Sỏi mật, §6.5 — tổn thương đường mật 0,3–0,5%, CVS 1/9–1/15, SAGES-AHPBA 2025."
+    },
+    {
+      "id": "SURG27-CARD-036",
+      "note_id": 1793960271270,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "dan-luu",
+        "PTGBD"
+      ],
+      "type": "basic",
+      "front": "Khi nào <span style='color:#51cf66'><b>dẫn lưu túi mật</b></span> thay cho phẫu thuật, và PTGBD là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dẫn lưu túi mật qua da xuyên gan (PTGBD) là lựa chọn thay thế đầu tay cho phẫu thuật ở bệnh nhân nguy cơ phẫu thuật cao; TG18 khuyến cáo PTGBD là lựa chọn thay thế đầu tay cho phẫu thuật ở bệnh nhân nguy cơ phẫu thuật cao.<br>2) PTGBD là chọc kim qua da và qua gan vào túi mật, rồi đặt ống dẫn lưu ra ngoài để mật và mủ trong túi mật thoát ra.<br>3) Dẫn lưu nội soi qua nhú hoặc dẫn lưu túi mật qua siêu âm nội soi (EUS) có thể cân nhắc ở trung tâm lớn, bởi nội soi viên có kinh nghiệm.<br>4) Dẫn lưu túi mật <span style='color:#ff6b6b'><b>không phải là điều trị triệt để</b></span> — sau khi nhiễm trùng được kiểm soát, bệnh nhân vẫn cần cắt túi mật trì hoãn khi tình trạng chung cải thiện, trừ khi bệnh nhân quá yếu không bao giờ mổ được.<br><br><b>💡 Giải thích của AI:</b><br>PTGBD là cầu nối, không phải đích đến: nó kiểm soát nhiễm trùng để bệnh nhân sống qua đợt viêm cấp, rồi mổ trì hoãn khi đã đủ sức. Chỉ bệnh nhân quá yếu không bao giờ mổ được mới coi dẫn lưu là điều trị cuối cùng — vì túi mật còn đó thì sỏi còn đó, nguy cơ tái phát vẫn còn.<br><br>📖 Nguồn: Bài Sỏi mật, §6.6 — PTGBD, dẫn lưu túi mật khi không mổ được."
+    },
+    {
+      "id": "SURG27-CARD-037",
+      "note_id": 1793960271272,
+      "tags": [
+        "soi-mat",
+        "thuat-toan",
+        "phac-do",
+        "Grade"
+      ],
+      "type": "basic",
+      "front": "Phác đồ mẫu 1: quyết định <span style='color:#51cf66'><b>cắt túi mật theo độ nặng</b></span> Grade I, II, III như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Với <span style='color:#51cf66'><b>Grade I (nhẹ)</b></span>, cắt túi mật nội soi sớm nếu CCI từ 5 trở xuống và ASA từ 2 trở xuống; bắt đầu kháng sinh theo nhóm thuốc, giảm đau, nhịn ăn và mổ sớm trong <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát nếu có thể; không cần kháng sinh sau mổ nếu ổ nhiễm trùng đã được kiểm soát bằng cắt túi mật.<br>2) Với <span style='color:#ffd43b'><b>Grade II (trung bình)</b></span>, cắt sớm bởi phẫu thuật viên có kinh nghiệm nếu CCI từ 5 trở xuống và ASA từ 2 trở xuống; nếu không đạt tiêu chuẩn trên, điều trị nội khoa và/hoặc dẫn lưu túi mật rồi cắt trì hoãn; mổ trong <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát, nếu đã quá 10 ngày thì trì hoãn <span style='color:#ffd43b'><b>45 ngày</b></span> rồi mổ.<br>3) Với <span style='color:#ff6b6b'><b>Grade III (nặng)</b></span>, chỉ cắt nội soi khi đủ tiêu chuẩn chặt: suy tạng thuận lợi, yếu tố tiên lượng âm tính, CCI từ 3 trở xuống và ASA từ 2 trở xuống, tại trung tâm chuyên sâu; nếu không phù hợp mổ sớm, dẫn lưu túi mật sớm hoặc cấp cứu rồi cắt trì hoãn khi tình trạng chung cải thiện.<br>4) Phác đồ này không ghi liều mg kháng sinh, vì không có liều mg nào được kiểm chứng trong đợt nghiên cứu này; liều kháng sinh theo hướng dẫn của bệnh viện và chức năng thận của bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ này là phác đồ quyết định (khi nào mổ, mổ đường nào), không phải phác đồ kỹ thuật (mổ như thế nào). Trục quyết định là Grade càng nặng thì tiêu chuẩn mổ càng chặt: Grade I và II chỉ cần CCI ≤5 và ASA ≤2, Grade III cần CCI ≤3, ASA ≤2 và trung tâm chuyên sâu — vì bệnh nhân đã suy tạng không chịu được sai sót.<br><br>📖 Nguồn: Bài Sỏi mật, §6.7 — phác đồ mẫu 1, cắt túi mật theo độ nặng."
+    },
+    {
+      "id": "SURG27-CARD-038",
+      "note_id": 1793960271274,
+      "tags": [
+        "soi-mat",
+        "thuat-toan",
+        "phac-do"
+      ],
+      "type": "basic",
+      "front": "Phác đồ mẫu 2: điều trị <span style='color:#ff6b6b'><b>viêm túi mật cấp</b></span> từ cấp cứu tới ra viện gồm 7 bước nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, cấp cứu: <span style='color:#51cf66'><b>nhịn ăn, giảm đau</b></span>, hồi sức bằng truyền dịch, theo dõi sinh hiệu, lấy xét nghiệm máu (công thức máu, CRP, chức năng gan, chức năng thận, đông máu, amylase và lipase) và siêu âm bụng.<br>2) Bước 2, kháng sinh: bắt đầu <span style='color:#51cf66'><b>kháng sinh theo nhóm thuốc</b></span> ngay khi chẩn đoán viêm túi mật cấp — nhóm thuốc chọn theo độ nặng và kháng sinh đồ địa phương, gồm beta-lactam kèm kháng beta-lactamase, cephalosporin kèm metronidazole, carbapenem, hoặc fluoroquinolone khi dị ứng beta-lactam.<br>3) Bước 3, phân độ: phân độ <span style='color:#74c0fc'><b>Grade I, II hay III</b></span> theo tiêu chuẩn Tokyo, và đánh giá CCI cùng ASA trước mổ.<br>4) Bước 4, quyết định thời điểm mổ: Grade I và II — cắt túi mật nội soi sớm trong <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát nếu có thể, tối đa <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát; nếu đã quá 10 ngày thì trì hoãn <span style='color:#ffd43b'><b>45 ngày</b></span> rồi mổ. Grade III — chỉ mổ sớm khi đủ tiêu chuẩn chặt tại trung tâm chuyên sâu; nếu không, dẫn lưu túi mật rồi cắt trì hoãn.<br>5) Bước 5, trong mổ: thử nội soi trước; đạt <span style='color:#51cf66'><b>critical view of safety</b></span> trước khi cắt ống túi mật và động mạch túi mật; nếu không đạt được CVS thì <span style='color:#51cf66'><b>bail-out</b></span> (chuyển mổ mở hoặc cắt bán phần).<br>6) Bước 6, sau mổ: <span style='color:#51cf66'><b>không cần kháng sinh sau mổ</b></span> ở viêm túi mật nhẹ và trung bình khi ổ nhiễm trùng đã được kiểm soát; theo dõi rò mật, chảy máu và nhiễm trùng vết mổ trong 24–48 giờ đầu.<br>7) Bước 7, sỏi ống mật chủ kèm theo: nếu nghi ngờ sỏi ống mật chủ thì phân tầng nguy cơ theo WSES, làm <span style='color:#51cf66'><b>MRCP hoặc ERCP</b></span>, rồi lấy sỏi bằng ERCP hoặc LCBDE tùy chuyên môn địa phương.<br><br><b>💡 Giải thích của AI:</b><br>Phác đồ này là phác đồ quyết định (làm gì, khi nào, theo thứ tự nào), không phải phác đồ kỹ thuật. Thứ tự không được đảo: kháng sinh và phân độ phải xong trước khi quyết định thời điểm mổ, và CVS phải đạt trước khi cắt — mỗi bước sau dựa trên kết quả bước trước. Phác đồ này cũng không ghi liều mg kháng sinh, vì không có liều nào được kiểm chứng.<br><br>📖 Nguồn: Bài Sỏi mật, §6.8 — phác đồ mẫu 2, 7 bước từ cấp cứu tới ra viện."
+    },
+    {
+      "id": "SURG27-CARD-039",
+      "note_id": 1793960271276,
+      "tags": [
+        "soi-mat",
+        "chan-doan",
+        "soi-ong-mat-chu",
+        "WSES"
+      ],
+      "type": "basic",
+      "front": "Phân tầng nguy cơ <span style='color:#74c0fc'><b>sỏi ống mật chủ</b></span> theo WSES gồm những yếu tố nào, và nguy cơ cao, trung bình, thấp được xử trí ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Yếu tố <span style='color:#ffd43b'><b>rất mạnh</b></span> là <span style='color:#74c0fc'><b>thấy sỏi ống mật chủ</b></span> trên siêu âm bụng.<br>2) Yếu tố <span style='color:#ffd43b'><b>mạnh</b></span> là đường kính ống mật chủ trên <span style='color:#ffd43b'><b>6 mm</b></span> (khi còn túi mật) và bilirubin toàn phần trên <span style='color:#ffd43b'><b>4 mg/dL</b></span>.<br>3) Yếu tố <span style='color:#ffd43b'><b>trung bình</b></span> là bilirubin 1,8–4 mg/dL, xét nghiệm gan bất thường khác ngoài bilirubin, tuổi trên 55 và viêm tụy do sỏi lâm sàng.<br>4) Nguy cơ cao là có bất kỳ yếu tố rất mạnh nào; nguy cơ thấp là không có yếu tố nào; nguy cơ trung bình là các trường hợp còn lại.<br>5) WSES khuyến cáo: men gan và bilirubin tăng không đủ để xác định sỏi ống mật chủ, cần thêm xét nghiệm; nguy cơ trung bình thì làm MRCP, siêu âm nội soi, chụp đường mật trong mổ hoặc siêu âm nội soi trong mổ; nguy cơ cao thì làm ERCP, chụp đường mật trong mổ hoặc siêu âm nội soi trong mổ.<br><br><b>💡 Giải thích của AI:</b><br>Thấy sỏi trên siêu âm là yếu tố dự báo rất mạnh vì đó là bằng chứng trực tiếp, còn bilirubin và ống mật chủ giãn chỉ là bằng chứng gián tiếp của tắc. Phân tầng ASGE 2019 về sỏi ống mật chủ đã được dạy kỹ trong bài viêm đường mật cấp — bài này chỉ nhắc lại để gắn chéo nội dung.<br><br>📖 Nguồn: Bài Sỏi mật, §7.1 — phân tầng nguy cơ sỏi ống mật chủ WSES Bảng 4."
+    },
+    {
+      "id": "SURG27-CARD-040",
+      "note_id": 1793960271278,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "mot-thi",
+        "hai-thi",
+        "LCBDE"
+      ],
+      "type": "basic",
+      "front": "Xử trí sỏi ống mật chủ kèm sỏi túi mật: phương pháp <span style='color:#51cf66'><b>một thì</b></span> và <span style='color:#51cf66'><b>hai thì</b></span> khác nhau ra sao và kết quả so sánh như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Một thì (one-stage) là lấy sỏi ống mật chủ và cắt túi mật trong cùng một lần mổ — bằng LCBDE (thám sát ống mật chủ qua nội soi ổ bụng) hoặc bằng kỹ thuật rendezvous.<br>2) Hai thì (two-stage) là làm ERCP trước để lấy sỏi ống mật chủ, rồi cắt túi mật sau (thường trong 72 giờ).<br>3) Một nghiên cứu hồi cứu trên <span style='color:#ffd43b'><b>120</b></span> bệnh nhân cho thấy một thì có thời gian mổ ngắn hơn (<span style='color:#ffd43b'><b>156,2 phút</b></span> so với 189,7 phút), nằm viện ngắn hơn (<span style='color:#ffd43b'><b>3,0 ngày</b></span> so với 5,0 ngày) và chi phí thấp hơn.<br>4) Tỉ lệ thành công là <span style='color:#ffd43b'><b>96,5%</b></span> so với 96,8%; biến chứng sớm là 14,0% so với 19,1% (không có ý nghĩa thống kê); tái phát sỏi sau 36 tháng là 12,3% so với 14,3%; tái phát viêm đường mật là 8,8% so với 11,1% (không có ý nghĩa); chất lượng sống tốt hơn ở 1 tháng (điểm GIQLI 85,1 so với 78,3), bằng nhau ở 36 tháng.<br>5) Kết luận: một thì và hai thì có hiệu quả tương đương, một thì nằm viện ngắn hơn và chi phí thấp hơn; lựa chọn phụ thuộc vào chuyên môn của trung tâm, tình trạng bệnh nhân và kích thước/vị trí sỏi; WSES khuyến cáo sỏi ống mật chủ có thể lấy trước, trong hoặc sau mổ tùy chuyên môn địa phương.<br><br><b>💡 Giải thích của AI:</b><br>Một thì thắng về thời gian nằm viện và chi phí nhưng đòi hỏi trung tâm làm được LCBDE, còn hai thì chỉ cần ERCP là kỹ thuật sẵn có hơn. Hiệu quả lấy sạch sỏi tương đương nhau, vì vậy không có phương pháp nào vượt trội tuyệt đối — quyết định theo chuyên môn địa phương là đúng.<br><br>📖 Nguồn: Bài Sỏi mật, §7.2 — một thì vs hai thì, nghiên cứu 120 BN."
+    },
+    {
+      "id": "SURG27-CARD-041",
+      "note_id": 1793960271280,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "rendezvous"
+      ],
+      "type": "basic",
+      "front": "Kỹ thuật <span style='color:#51cf66'><b>rendezvous</b></span> là gì và kết quả thử nghiệm ngẫu nhiên so với hai thì ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Kỹ thuật rendezvous là một dạng một thì: trong cùng một lần gây mê, phẫu thuật viên mổ nội soi ổ bụng cắt túi mật, đồng thời nội soi viên làm ERCP qua tá tràng để lấy sỏi ống mật chủ — 2 đội gặp nhau (rendezvous) tại nhú Vater.<br>2) Một thử nghiệm ngẫu nhiên trên <span style='color:#ffd43b'><b>83</b></span> bệnh nhân so sánh rendezvous với hai thì cho thấy: lấy sạch ống mật chủ hoàn toàn là <span style='color:#ffd43b'><b>38/42</b></span> ca (rendezvous) so với <span style='color:#ffd43b'><b>29/41</b></span> ca (hai thì); thất bại điều trị là <span style='color:#ffd43b'><b>9,5%</b></span> so với 29%; đặt ống chọn lọc là 93% so với 80,5%; tăng amylase sau ERCP là 0% so với 22%; viêm tụy nặng là <span style='color:#ffd43b'><b>0%</b></span> so với 12%; nằm viện sau mổ là 6,8 ngày so với 10,9 ngày.<br>3) Rendezvous có tỉ lệ lấy sạch sỏi cao hơn, ít viêm tụy sau ERCP hơn và nằm viện ngắn hơn; nhưng cần 2 đội (ngoại khoa và nội soi) phối hợp trong cùng một lần gây mê, nên chỉ làm được ở trung tâm có đủ nguồn lực.<br><br><b>💡 Giải thích của AI:</b><br>Rendezvous thắng lớn nhất ở viêm tụy sau ERCP: 0% so với 12% viêm tụy nặng, vì đặt ống chọn lọc qua đường rendezvous dễ hơn và ít chọc nhú Vater hơn. Đây là kỹ thuật của trung tâm lớn, không phải tuyến nào cũng làm được — bài bệnh học chỉ dạy quyết định chọn phương pháp ở mức chỉ định, kỹ thuật chi tiết thuộc bài kỹ thuật riêng.<br><br>📖 Nguồn: Bài Sỏi mật, §7.3 — kỹ thuật rendezvous, RCT 83 BN."
+    },
+    {
+      "id": "SURG27-CARD-042",
+      "note_id": 1793960271282,
+      "tags": [
+        "soi-mat",
+        "co-che",
+        "viem-tuy-do-soi"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#ff6b6b'><b>Viêm tụy do sỏi</b></span> là gì, xảy ra như thế nào, và khi có cả viêm tụy lẫn viêm đường mật thì ưu tiên điều trị bệnh nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm tụy cấp do sỏi là viêm tụy cấp gây ra bởi sỏi mật: sỏi từ túi mật rơi xuống ống mật chủ, kẹt ở đoạn cuối ống mật chủ, nơi ống mật chủ và ống tụy hợp nhau.<br>2) Sỏi tắc cả ống mật và ống tụy, làm dịch tụy ứ lại trong tụy, men tụy hoạt hóa ngay trong tụy và tự tiêu tụy.<br>3) Viêm tụy do sỏi gây đau thượng vị dữ dội, lan ra sau lưng, buồn nôn, nôn và amylase/lipase tăng rất cao (trên <span style='color:#ffd43b'><b>3 lần giới hạn trên</b></span>); có thể nhẹ (phù nề tụy, hồi phục trong vài ngày) hoặc nặng (hoại tử tụy, suy đa tạng, tử vong cao).<br>4) Viêm tụy do sỏi và viêm đường mật do sỏi có thể xảy ra cùng lúc ở một bệnh nhân, vì cùng một viên sỏi gây ra cả 2 bệnh; khi có cả viêm tụy và viêm đường mật, ưu tiên điều trị là <span style='color:#51cf66'><b>dẫn lưu đường mật cấp cứu</b></span>, vì viêm đường mật gây nhiễm trùng huyết nhanh hơn viêm tụy.<br><br><b>💡 Giải thích của AI:</b><br>Cơ chế chung là tắc ở chỗ hợp nhau của ống mật và ống tụy: một viên sỏi kẹt đúng ngã ba này thì tắc cả 2 ống cùng lúc. Vì vậy bệnh nhân viêm tụy do sỏi phải luôn được tìm viêm đường mật kèm theo — nếu có thì ưu tiên dẫn lưu đường mật trước.<br><br>📖 Nguồn: Bài Sỏi mật, §8.1 — viêm tụy do sỏi, cơ chế tắc ống mật và ống tụy."
+    },
+    {
+      "id": "SURG27-CARD-043",
+      "note_id": 1793960271284,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "PONCHO",
+        "viem-tuy-do-soi"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style='color:#74c0fc'><b>PONCHO</b></span> nói gì về thời điểm cắt túi mật sau viêm tụy do sỏi nhẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm PONCHO (Lancet 2015) trên <span style='color:#ffd43b'><b>266</b></span> bệnh nhân viêm tụy do sỏi nhẹ, 23 bệnh viện ở Hà Lan, so sánh cắt túi mật cùng đợt nhập viện với cắt trì hoãn.<br>2) Cắt cùng đợt nhập viện là mổ trong 3 ngày từ khi ngẫu nhiên; cắt trì hoãn là mổ sau 25–30 ngày.<br>3) Kết cục chính (tái nhập viện vì biến chứng liên quan sỏi hoặc tử vong trong 6 tháng) là <span style='color:#ffd43b'><b>17%</b></span> ở nhóm trì hoãn so với <span style='color:#ffd43b'><b>5%</b></span> ở nhóm cùng đợt nhập viện (tỉ số nguy cơ 0,28, khoảng tin cậy 0,12–0,66, p=0,002).<br>4) An toàn: 1 ca rò mật và 1 ca chảy máu sau mổ ở mỗi nhóm — không khác biệt; phân tích chi phí–hiệu quả cho thấy tái nhập viện là 16,9% so với 4,7%, cắt cùng đợt hiệu quả hơn và rẻ hơn (chi phí trung bình ít hơn €234 mỗi bệnh nhân).<br>5) Một nghiên cứu hồi cứu năm 2025 trên 141 bệnh nhân không thấy khác biệt về ngày nằm viện, biến chứng và tái nhập viện giữa cắt cùng đợt và cắt trì hoãn — nhưng nghiên cứu này là hồi cứu, nhỏ, đơn trung tâm, mâu thuẫn với PONCHO là thử nghiệm ngẫu nhiên đa trung tâm; thử nghiệm ngẫu nhiên xếp trên nghiên cứu hồi cứu, cắt cùng đợt nhập viện vẫn là chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Trì hoãn cắt tới sau khi ra viện là cho sỏi cơ hội rơi xuống lần nữa và gây viêm tụy tái phát — đó là vì sao tái nhập viện ở nhóm trì hoãn cao gấp hơn 3 lần. Cắt cùng đợt không làm tăng biến chứng mổ, vì viêm tụy nhẹ đã ổn định thì mổ cắt túi mật vẫn an toàn.<br><br>📖 Nguồn: Bài Sỏi mật, §8.2 — PONCHO Lancet 2015, cắt cùng đợt nhập viện giảm tái nhập viện 17% vs 5%."
+    },
+    {
+      "id": "SURG27-CARD-044",
+      "note_id": 1793960271286,
+      "tags": [
+        "soi-mat",
+        "dieu-tri",
+        "APEC",
+        "ERCP"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style='color:#74c0fc'><b>APEC</b></span> nói gì về ERCP cấp cứu trong viêm tụy do sỏi nặng không kèm viêm đường mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm APEC (Lancet 2020) trên <span style='color:#ffd43b'><b>232</b></span> bệnh nhân viêm tụy do sỏi nặng dự báo KHÔNG kèm viêm đường mật, so sánh ERCP cấp cứu kèm cắt cơ thắt trong 24 giờ với điều trị bảo tồn.<br>2) Kết cục chính (tử vong hoặc biến chứng lớn trong 6 tháng) là <span style='color:#ffd43b'><b>38%</b></span> ở nhóm ERCP so với <span style='color:#ffd43b'><b>44%</b></span> ở nhóm bảo tồn (tỉ số nguy cơ 0,87, khoảng tin cậy 0,64–1,18, p=0,37) — <span style='color:#ff6b6b'><b>KHÔNG có lợi</b></span>.<br>3) Thành phần viêm đường mật trong kết cục chính là <span style='color:#ffd43b'><b>2%</b></span> ở nhóm ERCP so với <span style='color:#ffd43b'><b>10%</b></span> ở nhóm bảo tồn (tỉ số nguy cơ 0,18, p=0,010) — ERCP giảm viêm đường mật, nhưng không giảm tử vong hay biến chứng lớn; biến cố bất lợi là 74% so với 80%.<br>4) Kết luận: ERCP cấp cứu trong 24 giờ KHÔNG có lợi trong viêm tụy do sỏi nặng không kèm viêm đường mật; ERCP cấp cứu chỉ khi có viêm đường mật hoặc ứ mật kéo dài, không phải mọi viêm tụy do sỏi.<br><br><b>💡 Giải thích của AI:</b><br>ERCP giảm được viêm đường mật (2% so với 10%) nhưng viêm đường mật chỉ là một phần nhỏ của kết cục chính, nên tổng thể không giảm tử vong hay biến chứng lớn. Bài học: phân biệt viêm tụy do sỏi có kèm viêm đường mật và không kèm viêm đường mật — có kèm thì ERCP cấp cứu, không kèm thì không cần ERCP cấp cứu.<br><br>📖 Nguồn: Bài Sỏi mật, §8.3 — APEC Lancet 2020, ERCP cấp cứu không có lợi khi không kèm viêm đường mật."
+    },
+    {
+      "id": "SURG27-CARD-045",
+      "note_id": 1793960271288,
+      "tags": [
+        "soi-mat",
+        "dac-biet",
+        "nguoi-gia",
+        "Medicare"
+      ],
+      "type": "basic",
+      "front": "Dữ liệu <span style='color:#74c0fc'><b>Medicare</b></span> nói gì về người già không được cắt túi mật trong đợt nhập viện đầu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dữ liệu Medicare (trích trong toàn văn WSES 2016) cho thấy người già không được điều trị triệt để (cắt túi mật) trong đợt nhập viện đầu có tỉ lệ tái nhập viện liên quan sỏi là <span style='color:#ffd43b'><b>38%</b></span> trong 2 năm, so với <span style='color:#ffd43b'><b>4,4%</b></span> ở nhóm được cắt sớm.<br>2) Con số này nhấn mạnh tầm quan trọng của cắt túi mật cùng đợt nhập viện ở người già — trì hoãn cắt túi mật ở người già không an toàn hơn mà nguy hiểm hơn, vì tái nhập viện nhiều hơn.<br><br><b>💡 Giải thích của AI:</b><br>Người già hay bị trì hoãn mổ vì sợ tuổi cao và bệnh kèm, nhưng số liệu Medicare cho thấy trì hoãn mới là nguy hiểm: cứ 100 người già không cắt sớm thì 38 người tái nhập viện trong 2 năm, so với chỉ 4–5 người ở nhóm cắt sớm. Đánh giá kỹ bệnh kèm rồi mổ sớm vẫn an toàn hơn là trì hoãn vô thời hạn.<br><br>📖 Nguồn: Bài Sỏi mật, §8.4 — dữ liệu Medicare, người già không cắt sớm tái nhập viện 38% vs 4,4%."
+    },
+    {
+      "id": "SURG27-CARD-046",
+      "note_id": 1793960271290,
+      "tags": [
+        "soi-mat",
+        "bien-chung",
+        "ro-mat"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#ff6b6b'><b>Rò mật</b></span> sau cắt túi mật xảy ra như thế nào, khi nào tự hết và khi nào cần can thiệp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Rò mật là mật rò ra ngoài qua ống dẫn lưu hoặc vào ổ bụng sau cắt túi mật, xảy ra khi ống túi mật không được thắt kín, hoặc khi có ống mật phụ (duct of Luschka) bị cắt mà không được thắt.<br>2) Rò mật thường tự hết trong vài ngày nếu dẫn lưu tốt, nhưng rò mật kéo dài cần can thiệp (ERCP đặt stent để giảm áp lực đường mật).<br>3) Trong phân tích gộp Surg Endosc 2018, rò mật có tỉ số nguy cơ 2,05 ở nhóm cắt sớm so với cắt trì hoãn (p=0,06, gần có ý nghĩa).<br>4) Trong cắt túi mật bán phần, rò mật là biến chứng hay gặp nhất: <span style='color:#51cf66'><b>fenestrating 20,8%</b></span> so với <span style='color:#51cf66'><b>reconstituting 12,3%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Rò mật sau cắt bán phần cao hơn nhiều so với cắt toàn bộ vì phần túi mật còn lại vẫn tiết mật. Dẫn lưu tốt là chìa khóa: mật rò ra ngoài qua ống dẫn lưu thì tự hết, mật rò vào ổ bụng không thoát được thì thành tụ dịch mật và nhiễm trùng. Dịch dẫn lưu có màu vàng xanh và số lượng tăng dần gợi ý rò mật.<br><br>📖 Nguồn: Bài Sỏi mật, §9.1 — rò mật sau cắt túi mật, fenestrating 20,8% vs reconstituting 12,3%."
+    },
+    {
+      "id": "SURG27-CARD-047",
+      "note_id": 1793960271292,
+      "tags": [
+        "soi-mat",
+        "bien-chung",
+        "ton-thuong-duong-mat"
+      ],
+      "type": "basic",
+      "front": "Sau khi <span style='color:#ff6b6b'><b>tổn thương đường mật</b></span> xảy ra, theo dõi như thế nào và vì sao nên cân nhắc sửa muộn thay vì sửa sớm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổn thương đường mật đã được dạy kỹ ở §6.5: tỉ lệ <span style='color:#ffd43b'><b>0,3–0,5%</b></span> với cắt túi mật nội soi, phòng ngừa bằng critical view of safety, và bail-out khi không đạt được CVS.<br>2) Sau khi tổn thương đường mật xảy ra, theo dõi gồm siêu âm hoặc CT để tìm tụ dịch mật, xét nghiệm bilirubin và men gan, và hội chẩn trung tâm chuyên sâu về gan mật.<br>3) Sửa tổn thương đường mật sớm có tỉ lệ tái mổ, hẹp và tử vong cao hơn sửa muộn (tỉ số odds 3,31, 7,41 và 2,83) — nên chuyển trung tâm chuyên sâu và cân nhắc sửa muộn.<br><br><b>💡 Giải thích của AI:</b><br>Sửa sớm nghe có vẻ tích cực nhưng mô viêm cấp làm đường mật phù nề, khâu nối trên mô viêm dễ hẹp và rò, vì vậy sửa muộn trên mô đã hết viêm cho kết quả tốt hơn. Đây là mâu thuẫn 9 ở §11.1: sửa sớm có tỉ lệ tái mổ, hẹp và tử vong cao hơn sửa muộn, nên tổn thương lớn phải chuyển trung tâm chuyên sâu.<br><br>📖 Nguồn: Bài Sỏi mật, §9.2 — theo dõi sau tổn thương đường mật, sửa sớm vs sửa muộn."
+    },
+    {
+      "id": "SURG27-CARD-048",
+      "note_id": 1793960271294,
+      "tags": [
+        "soi-mat",
+        "bien-chung",
+        "hoi-chung-sau-cat"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#ff6b6b'><b>Hội chứng sau cắt túi mật</b></span> là gì, gặp ở bao nhiêu % bệnh nhân và phòng ngừa ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hội chứng sau cắt túi mật (post-cholecystectomy syndrome, PCS) là các triệu chứng tiêu hóa kéo dài sau cắt túi mật: đau bụng, đầy hơi, khó tiêu, tiêu chảy, buồn nôn.<br>2) Một tổng quan narrative năm 2025 cho thấy hội chứng sau cắt túi mật ảnh hưởng tới <span style='color:#ffd43b'><b>47%</b></span> bệnh nhân; hội chứng này đã được biết từ năm 1947, nhưng chưa có đồng thuận về nguyên nhân, chẩn đoán và điều trị.<br>3) Nguyên nhân đa yếu tố: cả đường mật (sỏi sót trong ống mật chủ, hẹp ống mật chủ, rối loạn cơ vòng Oddi) và ngoài đường mật (thay đổi vi sinh đường ruột, nhạy cảm đau, bệnh lý dạ dày–ruột khác).<br>4) Chọn bệnh nhân cẩn thận trước mổ là chìa khóa phòng ngừa — bệnh nhân đau bụng không điển hình, đau do nguyên nhân khác (viêm dạ dày, trào ngược, hội chứng ruột kích thích) sẽ không hết đau sau cắt túi mật; siêu âm nội soi (EUS) và xét nghiệm SeHCAT giúp xác định sỏi sót và tiêu chảy do acid mật — 2 nguyên nhân có thể điều trị được.<br><br><b>💡 Giải thích của AI:</b><br>Bài học: không phải mọi đau bụng sau cắt túi mật đều do sỏi sót — phải đánh giá toàn diện, không vội kết luận. Con số 47% nghe rất cao vì nó gồm cả triệu chứng nhẹ thoáng qua, nhưng vẫn nhắc người học rằng cắt túi mật không phải lúc nào cũng hết đau, đặc biệt khi đau trước mổ không điển hình cho sỏi mật.<br><br>📖 Nguồn: Bài Sỏi mật, §9.3 — hội chứng sau cắt túi mật tới 47%, nguyên nhân đa yếu tố."
+    },
+    {
+      "id": "SURG27-CARD-049",
+      "note_id": 1793960271296,
+      "tags": [
+        "soi-mat",
+        "theo-doi",
+        "tai-phat-soi"
+      ],
+      "type": "basic",
+      "front": "Sau khi cắt túi mật, sỏi có <span style='color:#ff6b6b'><b>tái phát</b></span> được không và phải dặn bệnh nhân quay lại khi nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau khi cắt túi mật, sỏi vẫn có thể hình thành trong ống mật chủ (sỏi ống mật chủ nguyên phát) hoặc sỏi sót từ lần mổ trước gây tái phát.<br>2) Tỉ lệ tái phát sỏi sau 36 tháng là <span style='color:#ffd43b'><b>12,3%</b></span> ở nhóm một thì so với <span style='color:#ffd43b'><b>14,3%</b></span> ở nhóm hai thì (không có ý nghĩa thống kê); tái phát viêm đường mật sau 36 tháng là 8,8% so với 11,1% (không có ý nghĩa).<br>3) Bệnh nhân sau cắt túi mật cần được dặn quay lại ngay nếu đau bụng, sốt hoặc vàng da tái phát — vì đó có thể là sỏi ống mật chủ tái phát.<br><br><b>💡 Giải thích của AI:</b><br>Cắt túi mật chỉ lấy túi mật, không lấy được ống mật chủ — vì vậy sỏi ống mật chủ vẫn có thể hình thành hoặc sót lại. Dặn dò quay lại ngay khi đau, sốt, vàng da tái phát là quan trọng, vì sỏi ống mật chủ tái phát có thể gây viêm đường mật mà bệnh nhân tưởng là đau sau mổ bình thường.<br><br>📖 Nguồn: Bài Sỏi mật, §9.4 — tái phát sỏi sau cắt túi mật, 12,3% vs 14,3% sau 36 tháng."
+    },
+    {
+      "id": "SURG27-CARD-050",
+      "note_id": 1793960271298,
+      "tags": [
+        "soi-mat",
+        "dac-biet",
+        "Mirizzi",
+        "tac-ruot-do-soi"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#74c0fc'><b>Hội chứng Mirizzi</b></span> và <span style='color:#74c0fc'><b>tắc ruột do sỏi mật</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style='color:#74c0fc'><b>Hội chứng Mirizzi</b></span> là sỏi kẹt ở cổ túi mật hoặc ống túi mật <span style='color:#ff6b6b'><b>chèn ép ống gan chung</b></span>, gây tắc mật; hội chứng Mirizzi chỉ được dạy ở mức tên và cơ chế trong bài này — một bài tổng quan năm 2026 không có abstract, nên phân loại Csendes và số liệu không verify được.<br>2) <span style='color:#ff6b6b'><b>Sỏi mật gây tắc ruột</b></span> (gallstone ileus) là sỏi lớn đi qua một lỗ rò giữa túi mật và ruột (thường là tá tràng), rồi kẹt ở ruột non gây tắc ruột; <span style='color:#74c0fc'><b>hội chứng Bouveret</b></span> là sỏi kẹt ở môn vị hoặc tá tràng gây tắc đường ra dạ dày; sỏi mật gây tắc ruột chỉ được dạy ở mức tên và cơ chế trong bài này — chỉ tìm thấy case report và tổng quan narrative, không có số liệu đã kiểm chứng.<br><br><b>💡 Giải thích của AI:</b><br>Cả 2 thể này đều là biến chứng hiếm của sỏi mật: Mirizzi là chèn ép từ bên ngoài ống gan chung, tắc ruột do sỏi là sỏi đi lạc vào ruột qua lỗ rò. Bài này chỉ dạy tên và cơ chế vì không có số liệu đã kiểm chứng — người học cần biết tên để không bỡ ngỡ khi gặp, không cần nhớ số liệu.<br><br>📖 Nguồn: Bài Sỏi mật, §9.5 — hội chứng Mirizzi, tắc ruột do sỏi, Bouveret, chỉ dạy tên và cơ chế."
+    },
+    {
+      "id": "SURG27-CARD-051",
+      "note_id": 1793960271300,
+      "tags": [
+        "soi-mat",
+        "dac-biet",
+        "tui-mat-su",
+        "polyp"
+      ],
+      "type": "basic",
+      "front": "<span style='color:#74c0fc'><b>Túi mật sứ</b></span> và <span style='color:#74c0fc'><b>polyp túi mật</b></span>: khi nào cắt túi mật và ngưỡng kích thước là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Túi mật sứ (porcelain gallbladder) là túi mật bị vôi hóa thành túi mật, liên quan tới ung thư túi mật <span style='color:#ffd43b'><b>5–22%</b></span>, liên quan mạnh với sỏi mật (trên 60%), hay gặp ở nữ, người già và người rối loạn chuyển hóa; vôi hóa không hoàn toàn có thể mang nguy cơ ung thư cao hơn vôi hóa hoàn toàn — còn tranh cãi; quan niệm cũ cho rằng túi mật sứ là chỉ định cắt dự phòng vì nguy cơ ung thư cao, dữ liệu mới cho thấy mối liên quan yếu hơn và còn tranh cãi, vì vậy túi mật sứ không còn là chỉ định cắt tuyệt đối — quyết định theo từng bệnh nhân.<br>2) Polyp túi mật là khối u lành tính nhô vào lòng túi mật, phát hiện qua siêu âm; polyp tân sinh có tỉ lệ dưới <span style='color:#ffd43b'><b>10%</b></span> dân số.<br>3) Cắt túi mật khi polyp trên <span style='color:#ffd43b'><b>10 mm</b></span>, hoặc có triệu chứng, hoặc trên <span style='color:#ffd43b'><b>6 mm</b></span> kèm yếu tố nguy cơ ung thư (tuổi trên 50, polyp không cuống, sắc tộc Ấn Độ, viêm đường mật xơ hóa nguyên phát); ngoài ra theo dõi bằng siêu âm từ 5 năm trở lên; nếu polyp lớn thêm trên <span style='color:#ffd43b'><b>2 mm</b></span> thì cắt túi mật.<br>4) Nếu nguy cơ thủng túi mật trong mổ cao thì chuyển mổ mở để tránh gieo rắc u; nghi ngờ ác tính (polyp trên 15 mm, lan tỏa tại chỗ trên hình ảnh) thì chụp toàn diện tìm di căn gan và cân nhắc mổ triệt căn.<br>5) Hai guideline về polyp (European và SRU) mâu thuẫn nhau: theo European, 52,5% bệnh nhân mổ ngay so với SRU chỉ 16,9%; theo SRU tiết kiệm 1.837 USD mỗi người mà không gây hại; ngưỡng 10 mm là mốc chung, nhưng cần theo dõi sát khi chọn bảo tồn.<br><br><b>💡 Giải thích của AI:</b><br>Túi mật sứ và polyp đều là bài học về ngưỡng: túi mật sứ từng bị coi là chỉ định cắt tuyệt đối vì sợ ung thư, nay dữ liệu mới cho thấy mối liên quan yếu hơn nên quyết định theo từng bệnh nhân; polyp có ngưỡng 10 mm làm mốc chung nhưng 2 guideline mâu thuẫn nhau về tỉ lệ mổ ngay, vì vậy theo dõi sát khi chọn bảo tồn là bắt buộc.<br><br>📖 Nguồn: Bài Sỏi mật, §9.5 — túi mật sứ 5–22%, polyp túi mật ngưỡng 10 mm, European vs SRU."
+    },
+    {
+      "id": "SURG27-CARD-052",
+      "note_id": 1793960271302,
+      "tags": [
+        "soi-mat",
+        "dac-biet",
+        "thai-ky",
+        "tre-em"
+      ],
+      "type": "basic",
+      "front": "Xử trí sỏi mật và viêm túi mật cấp trong <span style='color:#ff6b6b'><b>thai kỳ</b></span> và ở <span style='color:#ff6b6b'><b>trẻ em</b></span> có điểm gì đặc biệt?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong thai kỳ, sỏi mật và viêm túi mật cấp cần được xử trí cẩn thận vì có 2 bệnh nhân (mẹ và thai).<br>2) Một guideline của SAGES năm 2024 về dùng nội soi trong thai kỳ đưa ra khuyến cáo có điều kiện ưu tiên <span style='color:#51cf66'><b>cắt túi mật nội soi hơn điều trị nội khoa</b></span> trong bệnh lý đường mật và viêm túi mật cấp ở thai kỳ.<br>3) ERCP được ưu tiên hơn thám sát ống mật chủ trong sỏi ống mật chủ có triệu chứng ở thai kỳ; bệnh lý đường mật khác ngoài viêm túi mật cấp ở 3 tháng cuối thai kỳ có thể mổ hoặc không mổ (ý kiến chuyên gia).<br>4) Ở trẻ em, sỏi mật ít gặp hơn người lớn; một nghiên cứu năm 2023 về điều trị sỏi không triệu chứng ở trẻ có bệnh hồng cầu hình cầu di truyền cần cắt lách — chỉ dạy ở mức nhắc tên, không đi sâu.<br><br><b>💡 Giải thích của AI:</b><br>Thai kỳ làm tăng nguy cơ sỏi mật do estrogen và progesterone, nhưng mổ trong thai kỳ vẫn an toàn hơn để viêm túi mật tiến triển thành biến chứng. ERCP được ưu tiên hơn thám sát ống mật chủ ở thai kỳ vì tránh được mổ ổ bụng thêm. Trẻ em có sỏi mật thường liên quan tan máu mạn, khác hẳn người lớn.<br><br>📖 Nguồn: Bài Sỏi mật, §9.6 — thai kỳ SAGES 2024, trẻ em chỉ nhắc tên."
+    },
+    {
+      "id": "SURG27-CARD-053",
+      "note_id": 1793960271304,
+      "tags": [
+        "soi-mat",
+        "theo-doi",
+        "sau-mo"
+      ],
+      "type": "basic",
+      "front": "Theo dõi sau <span style='color:#51cf66'><b>cắt túi mật</b></span> gồm những gì, và dấu hiệu nào gợi ý rò mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo dõi sau cắt túi mật gồm theo dõi biến chứng sớm (rò mật, chảy máu, nhiễm trùng vết mổ) và biến chứng muộn (sỏi ống mật chủ tái phát, hẹp ống mật chủ, hội chứng sau cắt túi mật).<br>2) Trong <span style='color:#ffd43b'><b>24–48 giờ</b></span> đầu sau mổ, theo dõi sốt, đau bụng, lượng dịch dẫn lưu (nếu có dẫn lưu) và xét nghiệm máu; dịch dẫn lưu có màu vàng xanh và số lượng tăng dần gợi ý rò mật.<br>3) Sau khi ra viện, bệnh nhân cần tái khám để đánh giá vết mổ và triệu chứng tiêu hóa; bệnh nhân cần được dặn quay lại ngay nếu đau bụng, sốt, vàng da, hoặc dịch vàng chảy ra từ vết mổ.<br><br><b>💡 Giải thích của AI:</b><br>Dịch dẫn lưu màu vàng xanh là dấu hiệu rò mật vì mật có màu vàng xanh — dịch trong hay dịch máu thì không phải rò mật. Theo dõi sau mổ có 2 trục: biến chứng sớm trong 24–48 giờ đầu và biến chứng muộn sau ra viện, vì vậy dặn dò quay lại ngay là phần quan trọng nhất của theo dõi sau mổ.<br><br>📖 Nguồn: Bài Sỏi mật, §9.7 — theo dõi sau cắt túi mật, 24–48 giờ đầu."
+    },
+    {
+      "id": "SURG27-CARD-054",
+      "note_id": 1793960271306,
+      "tags": [
+        "soi-mat",
+        "viet-nam",
+        "Plan-A",
+        "Plan-B"
+      ],
+      "type": "basic",
+      "front": "Áp dụng khung WSES 2016 và TG18 tại Việt Nam theo <span style='color:#51cf66'><b>Plan A</b></span> và <span style='color:#51cf66'><b>Plan B</b></span> như thế nào, và điểm đặc biệt nào của bệnh nhân Việt Nam cần lưu ý?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong đợt nghiên cứu này, nhóm nghiên cứu không tìm thấy số liệu dịch tễ Việt Nam nào về sỏi mật đã được kiểm chứng — vì vậy phần này <span style='color:#ff6b6b'><b>không bịa số liệu Việt Nam</b></span>, chỉ dạy nguyên lý và bối cảnh tuyến, để người học áp dụng khung WSES 2016 và TG18 vào thực tế Việt Nam.<br>2) Ở tuyến trung ương và tuyến tỉnh, có đủ siêu âm, CT, MRCP, ERCP và phẫu thuật nội soi — áp dụng Plan A: phân tầng bằng tiêu chuẩn Tokyo đầy đủ, siêu âm khẩn, cắt túi mật nội soi sớm trong 72 giờ từ khởi phát nếu trong cửa sổ 10 ngày, ERCP cho sỏi ống mật chủ, và cắt túi mật cùng đợt nhập viện sau viêm tụy do sỏi nhẹ.<br>3) Ở tuyến huyện, thường có siêu âm và phẫu thuật nội soi cơ bản, nhưng không có ERCP, MRCP và CT — áp dụng Plan B: chẩn đoán bằng tiêu chuẩn Tokyo với siêu âm, bắt đầu kháng sinh ngay, hồi sức cơ bản, và cắt túi mật nội soi sớm nếu đủ điều kiện; chuyển tuyến trên ngay cho bệnh nhân cần ERCP (sỏi ống mật chủ, viêm đường mật) hoặc bệnh nhân Grade III.<br>4) Một điểm đặc biệt của Việt Nam: bệnh nhân thường đến khám muộn vì tự mua thuốc giảm đau uống ở nhà trước; thuốc giảm đau che lấp đau, làm cho tiêu chuẩn Tokyo khó áp dụng — phải hỏi kỹ bệnh nhân đã uống thuốc gì trước khi đến viện; thời gian từ khởi phát là mốc quyết định cắt sớm, bệnh nhân đến muộn (đã đau 10 ngày ở nhà) thì đã quá cửa sổ cắt sớm, phải trì hoãn 45 ngày rồi mổ.<br>5) Về chi phí: cắt túi mật nội soi tốn kém hơn mổ mở, nhưng nằm viện ngắn hơn và về làm sớm hơn — cần tư vấn rõ cho bệnh nhân và hỗ trợ tiếp cận bảo hiểm y tế.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân ở tuyến huyện, viêm túi mật Grade II, đau 3 ngày, siêu âm thấy sỏi túi mật, không có sỏi ống mật chủ — hướng xử trí là bắt đầu kháng sinh ngay, hồi sức cơ bản, và cắt túi mật nội soi sớm trong 72 giờ từ khởi phát nếu đủ điều kiện; nếu tuyến huyện không đủ điều kiện mổ nội soi an toàn, chuyển tuyến tỉnh. Plan A và Plan B khác nhau ở phương tiện, không khác nhau ở nguyên tắc: kháng sinh sớm, phân độ, mốc thời gian từ khởi phát.<br><br>📖 Nguồn: Bài Sỏi mật, §10.1 — nguyên lý áp dụng tại Việt Nam, Plan A/B, không số liệu VN."
+    },
+    {
+      "id": "SURG27-CARD-055",
+      "note_id": 1793960271308,
+      "tags": [
+        "soi-mat",
+        "luu-do",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "Lưu đồ xử trí <span style='color:#ff6b6b'><b>sỏi mật</b></span>: từ đau hạ sườn phải tới 5 nhánh chẩn đoán và Plan A/B như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau hạ sườn phải hoặc thượng vị thì hỏi thời gian đau từ khi nào, sốt, vàng da, xét nghiệm, siêu âm.<br>2) Đau dưới <span style='color:#ffd43b'><b>6 giờ</b></span>, không sốt, xét nghiệm gần như bình thường thì là cơn đau quặn mật — giảm đau, lên kế hoạch cắt túi mật theo chương trình.<br>3) Đau trên <span style='color:#ffd43b'><b>6 giờ</b></span>, sốt, bạch cầu tăng, siêu âm viêm túi mật thì là viêm túi mật cấp — phân độ Grade I, II, III rồi cắt sớm theo mốc 72 giờ và 10 ngày từ khởi phát.<br>4) Đau kèm sốt cao, vàng da, bilirubin tăng cao thì nghi sỏi ống mật chủ hoặc viêm đường mật — phân tầng nguy cơ, ERCP hoặc LCBDE.<br>5) Đau thượng vị dữ dội lan sau lưng, amylase và lipase tăng rất cao thì là viêm tụy do sỏi — cắt cùng đợt nhập viện, ERCP cấp cứu chỉ khi có viêm đường mật.<br>6) Nhánh cấp cứu: suy tạng, sốc, viêm phúc mạc thì hồi sức ngay, kháng sinh phổ rộng ngay, hội chẩn trung tâm chuyên sâu, dẫn lưu hoặc mổ cấp cứu.<br>7) Plan A (tuyến có đủ phương tiện): siêu âm, CT, MRCP, ERCP, cắt nội soi sớm; Plan B (tuyến thiếu phương tiện): siêu âm, kháng sinh, hồi sức cơ bản, chuyển tuyến trên khi cần ERCP hoặc Grade III.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ này có 5 nhánh chẩn đoán (quặn mật, viêm túi mật, sỏi ống mật chủ/viêm đường mật, viêm tụy do sỏi, nhánh cấp cứu) cộng 2 plan theo tuyến. Điểm chung của mọi nhánh: thời gian đau từ khi nào là câu hỏi đầu tiên, vì nó quyết định cả chẩn đoán phân biệt lẫn thời điểm mổ.<br><br>📖 Nguồn: Bài Sỏi mật, §10.2 — lưu đồ xử trí sỏi mật, 5 nhánh + Plan A/B."
+    },
+    {
+      "id": "SURG27-CARD-056",
+      "note_id": 1793960271310,
+      "tags": [
+        "soi-mat",
+        "co-do",
+        "Grade-III"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Vì sao <span style='color:#ff6b6b'><b>Grade III viêm túi mật</b></span> là cấp cứu và không được mổ vội khi chưa đủ điều kiện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Grade III viêm túi mật là cấp cứu: suy tạng kèm theo, tử vong 30 ngày <span style='color:#ffd43b'><b>5,4%</b></span> và tăng lên <span style='color:#ffd43b'><b>25%</b></span> khi suy nhiều tạng — hồi sức ngay, hội chẩn trung tâm chuyên sâu, không mổ vội khi chưa đủ điều kiện.<br><br><b>💡 Giải thích của AI:</b><br>Grade III không còn là bệnh của túi mật nữa mà là bệnh của toàn cơ thể: suy tạng quyết định tiên lượng, không phải mức độ viêm của túi mật. Mổ vội khi chưa hồi sức đủ chỉ làm suy tạng nặng thêm, vì vậy hồi sức và hội chẩn trung tâm chuyên sâu phải đi trước quyết định mổ.<br><br>📖 Nguồn: Bài Sỏi mật, §10.3 — BOX ĐỎ 1, Grade III là cấp cứu."
+    },
+    {
+      "id": "SURG27-CARD-057",
+      "note_id": 1793960271312,
+      "tags": [
+        "soi-mat",
+        "co-do",
+        "CVS",
+        "bail-out"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Không đạt <span style='color:#51cf66'><b>critical view of safety</b></span> thì phải làm gì và vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đạt critical view of safety thì <span style='color:#51cf66'><b>bail-out ngay</b></span>: chuyển mổ mở hoặc cắt bán phần, không cố bóc tách khi giải phẫu không nhận diện được — tổn thương đường mật <span style='color:#ffd43b'><b>0,3–0,5%</b></span> là tai biến nặng nhất của cắt túi mật.<br><br><b>💡 Giải thích của AI:</b><br>CVS là bằng chứng thị giác rằng 2 cấu trúc sắp cắt đúng là của túi mật. Không đạt CVS mà cố bóc tách là đánh cược với ống mật chủ — tỉ lệ tổn thương đường mật 0,3–0,5% nghe nhỏ nhưng hậu quả là sửa chữa phức tạp, hẹp đường mật và tử vong, vì vậy bail-out là quyết định an toàn chứ không phải thất bại.<br><br>📖 Nguồn: Bài Sỏi mật, §10.3 — BOX ĐỎ 2, không đạt CVS thì bail-out."
+    },
+    {
+      "id": "SURG27-CARD-058",
+      "note_id": 1793960271314,
+      "tags": [
+        "soi-mat",
+        "co-do",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Vì sao đã quá <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát thì không cắt sớm mà phải trì hoãn 45 ngày rồi mổ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quá <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát thì không cắt sớm: <span style='color:#51cf66'><b>trì hoãn 45 ngày rồi mổ</b></span> — mổ trong giai đoạn xơ hóa dính nhiều nguy hiểm hơn mổ sớm.<br><br><b>💡 Giải thích của AI:</b><br>Sau 10 ngày, viêm đã xơ hóa và dính nhiều, giải phẫu khó nhận diện, mổ nguy hiểm hơn cả mổ sớm lẫn mổ trì hoãn sau 45 ngày. Đây là khoảng thời gian xấu nhất để mổ — viêm chưa hết mà đã xơ hóa, vì vậy chờ 45 ngày để viêm hết hẳn rồi mổ là an toàn hơn.<br><br>📖 Nguồn: Bài Sỏi mật, §10.3 — BOX ĐỎ 3, quá 10 ngày thì trì hoãn 45 ngày."
+    },
+    {
+      "id": "SURG27-CARD-059",
+      "note_id": 1793960271316,
+      "tags": [
+        "soi-mat",
+        "co-do",
+        "sieu-am"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Vì sao <span style='color:#ff6b6b'><b>siêu âm âm tính</b></span> không loại trừ được viêm túi mật cấp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Siêu âm âm tính không loại trừ viêm túi mật: độ nhạy siêu âm chỉ <span style='color:#ffd43b'><b>59,8–68%</b></span> — nghi ngờ cao thì làm thêm CT hoặc HIDA, đừng bỏ sót viêm túi mật vì siêu âm không thấy viêm.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm giỏi tìm sỏi nhưng kém trong việc khẳng định viêm: độ nhạy 59,8–68% nghĩa là cứ 10 ca viêm túi mật thì siêu âm bỏ sót 3–4 ca. Bệnh nhân đau hạ sườn phải 10 giờ, sốt, bạch cầu 16.000/mm³ mà siêu âm chỉ thấy sỏi thì không được kết luận không phải viêm túi mật — phải làm thêm CT để tìm dấu hiệu viêm.<br><br>📖 Nguồn: Bài Sỏi mật, §10.3 — BOX ĐỎ 4, siêu âm âm tính không loại trừ viêm túi mật."
+    },
+    {
+      "id": "SURG27-CARD-060",
+      "note_id": 1793960271318,
+      "tags": [
+        "soi-mat",
+        "co-do",
+        "ERCP",
+        "APEC"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Vì sao không làm <span style='color:#51cf66'><b>ERCP cấp cứu</b></span> cho mọi viêm tụy do sỏi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Viêm tụy do sỏi: <span style='color:#51cf66'><b>ERCP cấp cứu chỉ khi có viêm đường mật</b></span> — không làm ERCP cấp cứu cho mọi viêm tụy do sỏi; APEC cho thấy ERCP cấp cứu không có lợi khi không kèm <span style='color:#ff6b6b'><b>viêm đường mật</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>APEC (Lancet 2020, 232 bệnh nhân) cho thấy ERCP cấp cứu trong 24 giờ không giảm tử vong hay biến chứng lớn ở viêm tụy do sỏi nặng không kèm viêm đường mật (38% so với 44%), dù giảm được viêm đường mật (2% so với 10%). Làm ERCP cho mọi viêm tụy do sỏi là cho bệnh nhân chịu biến cố của ERCP mà không có lợi ích — chỉ làm khi có viêm đường mật hoặc ứ mật kéo dài.<br><br>📖 Nguồn: Bài Sỏi mật, §10.3 — BOX ĐỎ 5, APEC, ERCP cấp cứu chỉ khi có viêm đường mật."
+    },
+    {
+      "id": "SURG27-CARD-061",
+      "note_id": 1793960271320,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "cat-som"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 1 và 2: <span style='color:#51cf66'><b>cắt sớm hay trì hoãn</b></span>, và mốc thời gian tính từ nhập viện hay từ khởi phát?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 1 — cắt sớm hay trì hoãn: Cochrane và 2 phân tích gộp cho thấy <span style='color:#51cf66'><b>cắt sớm</b></span> an toàn tương đương cắt trì hoãn, nằm viện ngắn hơn <span style='color:#ffd43b'><b>3–4 ngày</b></span>, ít nhiễm trùng vết mổ hơn, ít ngày nghỉ làm hơn — nhưng mổ lâu hơn khoảng <span style='color:#ffd43b'><b>11–16 phút</b></span>; WSES khuyến cáo cắt sớm chỉ nếu trong <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát, quá 10 ngày thì trì hoãn 45 ngày tốt hơn mổ ngay. Dạy: mốc quyết định là <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát (giảm biến chứng) và 10 ngày từ khởi phát (giới hạn trên của cắt sớm).<br>2) Mâu thuẫn 2 — mổ ngay trong 24 giờ từ nhập viện hay mổ trong 72 giờ từ khởi phát: phân tích gộp WJES 2021 cho thấy mổ trong <span style='color:#ffd43b'><b>24 giờ</b></span> từ nhập viện KHÔNG giảm biến chứng (tỉ số nguy cơ <span style='color:#ffd43b'><b>1,89</b></span>), nhưng mổ trong <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát giảm biến chứng (tỉ số nguy cơ <span style='color:#ffd43b'><b>0,60</b></span>). Dạy: mốc tính từ khởi phát triệu chứng, không phải từ nhập viện.<br><br><b>💡 Giải thích của AI:</b><br>Hai mâu thuẫn này cùng nói về một điểm: thời gian quyết định không phải là thời gian trong bệnh viện mà là thời gian từ khi bệnh bắt đầu. Bệnh nhân đau 5 ngày ở nhà rồi mới vào viện, mổ trong 24 giờ từ nhập viện là đã 6 ngày từ khởi phát — không còn trong cửa sổ 72 giờ nữa, dù mổ rất nhanh sau nhập viện.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 1 và 2, cắt sớm và mốc thời gian."
+    },
+    {
+      "id": "SURG27-CARD-062",
+      "note_id": 1793960271322,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "C-GALL"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 3 và 4: sỏi <span style='color:#51cf66'><b>không triệu chứng</b></span> mổ dự phòng hay theo dõi, và sỏi có triệu chứng không biến chứng mổ hay bảo tồn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 3 — sỏi không triệu chứng, mổ dự phòng hay theo dõi: diễn tiến tự nhiên lành tính (khoảng <span style='color:#ffd43b'><b>2%</b></span> mỗi năm; phân tích quyết định cho thấy cắt dự phòng làm giảm nhẹ tuổi thọ) so với ung thư túi mật rất ác tính và chỉ 10–30% được mổ triệt căn khi phát hiện. Dạy: <span style='color:#51cf66'><b>theo dõi là chuẩn</b></span>; cắt dự phòng chỉ cân nhắc ở nhóm nguy cơ cao đặc biệt (thiếu máu tan máu mạn, polyp kèm theo) — không phải thường quy.<br>2) Mâu thuẫn 4 — C-GALL, mổ hay bảo tồn trong sỏi có triệu chứng không biến chứng: thử nghiệm BMJ 2023 cho thấy chất lượng sống sau 18 tháng KHÔNG khác biệt (khác biệt trung bình <span style='color:#ffd43b'><b>0,0</b></span>), bảo tồn rẻ hơn; nhưng <span style='color:#ffd43b'><b>25%</b></span> nhóm bảo tồn cuối cùng vẫn phải mổ trong 18 tháng. Dạy: bảo tồn là lựa chọn hợp lý trong ngắn hạn, nhưng bệnh nhân cần biết 1 trong 4 người sẽ mổ trong 18 tháng tới.<br><br><b>💡 Giải thích của AI:</b><br>Cả 2 mâu thuẫn đều là bài toán cân bằng giữa lợi ích và nguy cơ theo thời gian: theo dõi thắng về tuổi thọ kỳ vọng ở sỏi không triệu chứng, nhưng bảo tồn ở sỏi có triệu chứng chỉ thắng trong ngắn hạn vì 1 trong 4 người sẽ phải mổ trong 18 tháng. Quyết định mổ nên dựa trên triệu chứng và mong muốn của bệnh nhân, không phải chỉ dựa trên có sỏi.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 3 và 4, sỏi không triệu chứng và C-GALL."
+    },
+    {
+      "id": "SURG27-CARD-063",
+      "note_id": 1793960271324,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "APEC",
+        "PONCHO"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 5 và 6: <span style='color:#51cf66'><b>ERCP cấp cứu</b></span> trong viêm tụy do sỏi và <span style='color:#51cf66'><b>cắt cùng đợt nhập viện</b></span> sau viêm tụy nhẹ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 5 — ERCP cấp cứu trong viêm tụy do sỏi: APEC (Lancet 2020) cho thấy ERCP cấp cứu trong 24 giờ KHÔNG giảm tử vong hay biến chứng lớn ở viêm tụy nặng dự báo không kèm viêm đường mật (<span style='color:#ffd43b'><b>38%</b></span> so với <span style='color:#ffd43b'><b>44%</b></span>), nhưng giảm viêm đường mật (<span style='color:#ffd43b'><b>2%</b></span> so với <span style='color:#ffd43b'><b>10%</b></span>). Dạy: ERCP cấp cứu chỉ khi có viêm đường mật hoặc ứ mật kéo dài, không phải mọi viêm tụy do sỏi.<br>2) Mâu thuẫn 6 — cắt cùng đợt nhập viện sau viêm tụy nhẹ: PONCHO là thử nghiệm ngẫu nhiên (Lancet 2015) cho thấy cắt cùng đợt giảm tái nhập viện (<span style='color:#ffd43b'><b>5%</b></span> so với <span style='color:#ffd43b'><b>17%</b></span>), nhưng nghiên cứu hồi cứu năm 2025 (141 bệnh nhân) không thấy khác biệt. Dạy: thử nghiệm ngẫu nhiên xếp trên nghiên cứu hồi cứu; cắt cùng đợt vẫn là chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Hai mâu thuẫn này dạy cách xếp hạng bằng chứng: APEC là thử nghiệm ngẫu nhiên nên kết luận không có lợi của ERCP cấp cứu là vững, dù ERCP có giảm được viêm đường mật; PONCHO là thử nghiệm ngẫu nhiên đa trung tâm nên thắng nghiên cứu hồi cứu nhỏ đơn trung tâm năm 2025. Khi 2 nghiên cứu mâu thuẫn nhau, xem thiết kế nghiên cứu trước khi xem kết quả.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 5 và 6, APEC và PONCHO."
+    },
+    {
+      "id": "SURG27-CARD-064",
+      "note_id": 1793960271326,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "polyp",
+        "tui-mat-su"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 7 và 8: <span style='color:#74c0fc'><b>polyp túi mật</b></span> theo European hay SRU, và <span style='color:#74c0fc'><b>túi mật sứ</b></span> có còn là chỉ định cắt tuyệt đối?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 7 — polyp túi mật, European hay SRU: European khuyến cáo mổ ngay ở <span style='color:#ffd43b'><b>52,5%</b></span> bệnh nhân so với SRU chỉ <span style='color:#ffd43b'><b>16,9%</b></span>, tiết kiệm 1.837 USD mỗi người theo SRU mà không gây hại. Dạy: 2 guideline mâu thuẫn nhau; ngưỡng 10 mm là mốc chung, nhưng cần theo dõi sát khi chọn bảo tồn.<br>2) Mâu thuẫn 8 — túi mật sứ và ung thư: quan niệm cũ cho rằng túi mật sứ là chỉ định cắt dự phòng vì nguy cơ ung thư cao; dữ liệu mới (ung thư <span style='color:#ffd43b'><b>5–22%</b></span>, vôi hóa không hoàn toàn nguy cơ cao hơn; bài báo 2013 về việc xem lại mối liên quan) cho thấy mối liên quan yếu hơn và còn tranh cãi. Dạy: không còn là chỉ định cắt tuyệt đối; quyết định theo từng bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Cả 2 mâu thuẫn đều là bài học về ngưỡng: polyp có ngưỡng 10 mm làm mốc chung nhưng 2 guideline mâu thuẫn nhau về tỉ lệ mổ ngay, vì vậy theo dõi sát khi chọn bảo tồn là bắt buộc; túi mật sứ từng bị coi là chỉ định cắt tuyệt đối vì sợ ung thư, nay dữ liệu mới cho thấy mối liên quan yếu hơn nên quyết định theo từng bệnh nhân.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 7 và 8, polyp European/SRU và túi mật sứ."
+    },
+    {
+      "id": "SURG27-CARD-065",
+      "note_id": 1793960271328,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "ton-thuong-duong-mat"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 9: sửa <span style='color:#ff6b6b'><b>tổn thương đường mật</b></span> sớm hay muộn thì tốt hơn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 9 — sửa tổn thương đường mật sớm hay muộn: <span style='color:#74c0fc'><b>SAGES-AHPBA 2025</b></span> cho thấy sửa sớm có tỉ lệ tái mổ, hẹp và tử vong cao hơn sửa muộn (tỉ số odds <span style='color:#ffd43b'><b>3,31, 7,41 và 2,83</b></span>). Dạy: tổn thương lớn nên chuyển trung tâm chuyên sâu và cân nhắc sửa muộn, không sửa ngay khi chưa đủ điều kiện.<br><br><b>💡 Giải thích của AI:</b><br>Sửa sớm nghe có vẻ tích cực nhưng mô viêm cấp làm đường mật phù nề, khâu nối trên mô viêm dễ hẹp và rò, vì vậy sửa muộn trên mô đã hết viêm cho kết quả tốt hơn. Điều trị không mổ so với mổ trong tổn thương lớn có tỉ lệ tái mổ cao hơn (tỉ số odds 16,60) và hẹp cao hơn (2,44), vì vậy không phải cứ tránh mổ là tốt — phải chuyển trung tâm chuyên sâu để quyết định đúng thời điểm sửa.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 9, sửa tổn thương đường mật sớm vs muộn."
+    },
+    {
+      "id": "SURG27-CARD-066",
+      "note_id": 1793960271330,
+      "tags": [
+        "soi-mat",
+        "mau-thuan",
+        "cat-ban-phan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 10: cắt túi mật bán phần chọn <span style='color:#51cf66'><b>fenestrating</b></span> hay <span style='color:#51cf66'><b>reconstituting</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mâu thuẫn 10 — cắt túi mật bán phần, fenestrating hay reconstituting: <span style='color:#51cf66'><b>fenestrating</b></span> không gây tổn thương đường mật (<span style='color:#ffd43b'><b>0%</b></span>) nhưng rò mật nhiều hơn (<span style='color:#ffd43b'><b>20,8%</b></span> so với <span style='color:#ffd43b'><b>12,3%</b></span>); <span style='color:#51cf66'><b>reconstituting</b></span> rò mật ít hơn nhưng có <span style='color:#ffd43b'><b>2%</b></span> tổn thương đường mật. Dạy: chọn kỹ thuật theo kinh nghiệm phẫu thuật viên và tình huống trong mổ.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bài toán đổi chác: fenestrating (mở túi mật, không khâu lại phần còn lại) tránh được tổn thương đường mật nhưng mật rò ra ngoài nhiều hơn; reconstituting (khâu lại phần túi mật còn lại thành một túi nhỏ) rò mật ít hơn nhưng có nguy cơ tổn thương đường mật 2%. Không có kỹ thuật nào thắng tuyệt đối — chọn theo kinh nghiệm phẫu thuật viên và tình huống trong mổ. Cờ: tỉ số odds 10,81 với p=0,39 của bài báo là mâu thuẫn nội bộ, chỉ dạy tỉ lệ thô, không dạy tỉ số odds này.<br><br>📖 Nguồn: Bài Sỏi mật, §11.1 — mâu thuẫn 10, fenestrating vs reconstituting."
+    },
+    {
+      "id": "SURG27-CARD-067",
+      "note_id": 1793960271332,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "Murphy"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dùng <span style='color:#ff6b6b'><b>dấu Murphy</b></span> một mình để chẩn đoán hay loại trừ viêm túi mật — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu Murphy có tỉ số khả dĩ dương <span style='color:#ffd43b'><b>2,8</b></span> với khoảng tin cậy bao gồm 1 — không khẳng định cũng không loại trừ được bệnh; phải kết hợp lâm sàng, xét nghiệm và hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay nhầm 2 chiều: Murphy dương tính là đủ để chẩn đoán — không đúng, chỉ là một mảnh ghép; Murphy âm tính là loại trừ được bệnh — cũng không đúng. Một tỉ số khả dĩ có khoảng tin cậy bao gồm 1 thì về mặt thống kê không chứng minh được gì.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 1, dấu Murphy."
+    },
+    {
+      "id": "SURG27-CARD-068",
+      "note_id": 1793960271334,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "sieu-am"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dùng <span style='color:#ff6b6b'><b>siêu âm âm tính</b></span> để loại trừ viêm túi mật cấp — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Độ nhạy của siêu âm chỉ <span style='color:#ffd43b'><b>59,8–68%</b></span> — siêu âm âm tính không loại trừ được bệnh, nghi ngờ cao thì làm thêm CT hoặc HIDA.<br><br><b>💡 Giải thích của AI:</b><br>Siêu âm giỏi tìm sỏi nhưng kém trong việc khẳng định viêm: cứ 10 ca viêm túi mật thì siêu âm bỏ sót 3–4 ca. Bệnh nhân đau hạ sườn phải 10 giờ, sốt, bạch cầu 16.000/mm³ mà siêu âm chỉ thấy sỏi thì không được kết luận không phải viêm túi mật — phải làm thêm CT.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 2, siêu âm âm tính."
+    },
+    {
+      "id": "SURG27-CARD-069",
+      "note_id": 1793960271336,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Tính mốc cắt sớm từ <span style='color:#ff6b6b'><b>nhập viện</b></span> thay vì từ khởi phát — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mổ trong 24 giờ từ nhập viện <span style='color:#ff6b6b'><b>không giảm biến chứng</b></span> — mốc quyết định là <span style='color:#ffd43b'><b>72 giờ từ khởi phát</b></span> triệu chứng; phải hỏi kỹ bệnh nhân đau từ khi nào.<br><br><b>💡 Giải thích của AI:</b><br>Bệnh nhân đau 5 ngày ở nhà rồi mới vào viện, mổ trong 24 giờ từ nhập viện là đã 6 ngày từ khởi phát, không còn trong cửa sổ 72 giờ nữa. Tính mốc từ nhập viện là tính sai mốc — thời gian từ khởi phát mới là mốc quyết định.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 3, mốc từ nhập viện."
+    },
+    {
+      "id": "SURG27-CARD-070",
+      "note_id": 1793960271338,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> <span style='color:#ff6b6b'><b>Cắt sớm</b></span> khi đã quá 10 ngày từ khởi phát — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Quá <span style='color:#ffd43b'><b>10 ngày</b></span> thì <span style='color:#51cf66'><b>trì hoãn 45 ngày</b></span> tốt hơn mổ ngay — mổ trong giai đoạn xơ hóa dính nhiều nguy hiểm hơn.<br><br><b>💡 Giải thích của AI:</b><br>Sau 10 ngày, viêm đã xơ hóa và dính nhiều, giải phẫu khó nhận diện, mổ nguy hiểm hơn cả mổ sớm lẫn mổ trì hoãn sau 45 ngày. Đây là khoảng thời gian xấu nhất để mổ — viêm chưa hết mà đã xơ hóa, vì vậy chờ 45 ngày để viêm hết hẳn rồi mổ là an toàn hơn.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 4, cắt sớm khi quá 10 ngày."
+    },
+    {
+      "id": "SURG27-CARD-071",
+      "note_id": 1793960271340,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "soi-khong-trieu-chung"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Cắt túi mật dự phòng cho sỏi <span style='color:#ff6b6b'><b>không triệu chứng</b></span> thường quy — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Diễn tiến tự nhiên lành tính (khoảng <span style='color:#ffd43b'><b>2%</b></span> mỗi năm) và phân tích quyết định cho thấy cắt dự phòng làm <span style='color:#ff6b6b'><b>giảm nhẹ tuổi thọ</b></span>; cắt dự phòng chỉ cân nhắc ở nhóm nguy cơ cao đặc biệt.<br><br><b>💡 Giải thích của AI:</b><br>Cắt dự phòng cho sỏi không triệu chứng là cho bệnh nhân chịu nguy cơ phẫu thuật mà không có lợi ích rõ ràng: tử vong do phẫu thuật xảy ra ngay ở tuổi 30, trong khi tử vong do sỏi nếu theo dõi phần lớn xảy ra sau 65 tuổi. Theo dõi là chuẩn, không phải cắt dự phòng thường quy.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 5, cắt dự phòng sỏi không triệu chứng."
+    },
+    {
+      "id": "SURG27-CARD-072",
+      "note_id": 1793960271342,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "C-GALL"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Ép bệnh nhân mổ chỉ vì <span style='color:#ff6b6b'><b>có sỏi</b></span> mà không giải thích lựa chọn bảo tồn — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) C-GALL cho thấy bảo tồn và mổ cho chất lượng sống tương đương ở 18 tháng — quyết định mổ nên dựa trên <span style='color:#51cf66'><b>triệu chứng và mong muốn bệnh nhân</b></span>, không phải chỉ dựa trên có sỏi.<br><br><b>💡 Giải thích của AI:</b><br>Ép bệnh nhân mổ chỉ vì có sỏi là bỏ qua bằng chứng C-GALL: chất lượng sống sau 18 tháng không khác biệt (khác biệt trung bình 0,0), bảo tồn rẻ hơn £1.033. Bệnh nhân cần được giải thích cả 2 lựa chọn và tự quyết định — 25% nhóm bảo tồn sẽ phải mổ trong 18 tháng, nhưng 75% thì không.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 6, ép bệnh nhân mổ chỉ vì có sỏi."
+    },
+    {
+      "id": "SURG27-CARD-073",
+      "note_id": 1793960271344,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "ERCP",
+        "APEC"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Làm <span style='color:#51cf66'><b>ERCP cấp cứu</b></span> cho mọi viêm tụy do sỏi — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) APEC cho thấy ERCP cấp cứu không có lợi trong viêm tụy nặng không kèm viêm đường mật — chỉ làm ERCP khi có <span style='color:#51cf66'><b>viêm đường mật hoặc ứ mật kéo dài</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>APEC (Lancet 2020, 232 bệnh nhân) cho thấy ERCP cấp cứu trong 24 giờ không giảm tử vong hay biến chứng lớn ở viêm tụy do sỏi nặng không kèm viêm đường mật (38% so với 44%), dù giảm được viêm đường mật (2% so với 10%). Làm ERCP cho mọi viêm tụy do sỏi là cho bệnh nhân chịu biến cố của ERCP mà không có lợi ích.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 7, ERCP cấp cứu cho mọi viêm tụy do sỏi."
+    },
+    {
+      "id": "SURG27-CARD-074",
+      "note_id": 1793960271346,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "khang-sinh"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy <span style='color:#ff6b6b'><b>liều mg kháng sinh</b></span> khi không có liều nào được kiểm chứng — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bài này <span style='color:#ff6b6b'><b>không dạy liều mg</b></span> — liều theo hướng dẫn bệnh viện và chức năng thận; không có liều nào được kiểm chứng trong bất kỳ abstract hay toàn văn nào lấy được.<br><br><b>💡 Giải thích của AI:</b><br>Liều kháng sinh trong TG18 nằm trong toàn văn paywalled, không lấy được. Bịa liều mg để viết cho đủ bài là dạy sai — thiếu liều là một hạn chế phải ghi rõ, không phải chỗ trống để suy đoán. Người học dùng liều theo hướng dẫn của bệnh viện, theo chức năng thận của bệnh nhân và theo kháng sinh đồ.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 8, dạy liều mg kháng sinh."
+    },
+    {
+      "id": "SURG27-CARD-075",
+      "note_id": 1793960271348,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "ton-thuong-duong-mat"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy tỉ lệ tổn thương đường mật <span style='color:#ffd43b'><b>0,3–0,6%</b></span> như con số chung chung — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ verify được <span style='color:#ffd43b'><b>0,3–0,5%</b></span> trong 1 nghiên cứu đơn trung tâm và <span style='color:#ffd43b'><b>0,4%</b></span> so với 0,9% trong Cochrane 2013 — phải dạy kèm nguồn cụ thể, không dạy như con số chung chung.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ 0,3–0,6% hay được trích dẫn nhưng chỉ verify được 0,3–0,5% trong 1 nghiên cứu đơn trung tâm (3.042 ca) và 0,4% so với 0,9% trong Cochrane 2013. Dạy con số không kèm nguồn là dạy sai — người học sẽ trích lại con số đó như một sự thật chung chung mà không biết nó đến từ đâu.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 9, tỉ lệ tổn thương đường mật 0,3–0,6%."
+    },
+    {
+      "id": "SURG27-CARD-076",
+      "note_id": 1793960271350,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "cat-ban-phan"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dạy tỉ số odds <span style='color:#ffd43b'><b>10,81</b></span> của cắt túi mật bán phần — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bài báo cáo tỉ số odds <span style='color:#ffd43b'><b>10,81</b></span> với p=0,39 — mâu thuẫn nội bộ, chỉ dạy tỉ lệ thô (<span style='color:#51cf66'><b>fenestrating 0%</b></span> so với <span style='color:#ff6b6b'><b>reconstituting 2%</b></span> tổn thương đường mật).<br><br><b>💡 Giải thích của AI:</b><br>Tỉ số odds 10,81 là rất lớn nhưng p=0,39 lại không có ý nghĩa thống kê — 2 con số này mâu thuẫn nhau, vì vậy không thể dạy tỉ số odds này như một sự thật. Dạy tỉ lệ thô (0% so với 2%) là đủ và không mâu thuẫn: fenestrating không gây tổn thương đường mật nhưng rò mật nhiều hơn (20,8% so với 12,3%).<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 10, tỉ số odds 10,81 của cắt bán phần."
+    },
+    {
+      "id": "SURG27-CARD-077",
+      "note_id": 1793960271352,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "CVS",
+        "bail-out"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Cố bóc tách khi không đạt được <span style='color:#51cf66'><b>critical view of safety</b></span> — vì sao sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đạt CVS thì <span style='color:#51cf66'><b>bail-out</b></span> (chuyển mổ mở hoặc cắt bán phần) — không cố bóc tách khi giải phẫu không nhận diện được.<br><br><b>💡 Giải thích của AI:</b><br>CVS là bằng chứng thị giác rằng 2 cấu trúc sắp cắt đúng là của túi mật. Không đạt CVS mà cố bóc tách là đánh cược với ống mật chủ — tổn thương đường mật 0,3–0,5% là tai biến nặng nhất của cắt túi mật, hậu quả là sửa chữa phức tạp, hẹp đường mật và tử vong. Bail-out là quyết định an toàn chứ không phải thất bại.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 11, cố bóc tách khi không đạt CVS."
+    },
+    {
+      "id": "SURG27-CARD-078",
+      "note_id": 1793960271354,
+      "tags": [
+        "soi-mat",
+        "bay",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Quên hỏi <span style='color:#ffd43b'><b>thời gian đau từ khi nào</b></span> — vì sao nguy hiểm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân đau <span style='color:#ffd43b'><b>5 ngày</b></span> ở nhà rồi mới vào viện — mổ trong 24 giờ từ nhập viện là đã <span style='color:#ffd43b'><b>6 ngày</b></span> từ khởi phát, không còn trong cửa sổ 72 giờ nữa; phải hỏi kỹ thời gian đau từ khi nào.<br><br><b>💡 Giải thích của AI:</b><br>Quên hỏi thời gian đau từ khi nào là quên mất mốc quyết định quan trọng nhất: thời gian từ khởi phát mới là mốc quyết định cắt sớm, không phải thời gian từ nhập viện. Bệnh nhân Việt Nam thường đến khám muộn vì tự mua thuốc giảm đau uống ở nhà trước, thuốc giảm đau che lấp đau, làm cho tiêu chuẩn Tokyo khó áp dụng — vì vậy phải hỏi kỹ bệnh nhân đã uống thuốc gì và đau từ khi nào.<br><br>📖 Nguồn: Bài Sỏi mật, §11.2 — bẫy 12, quên hỏi thời gian đau từ khi nào."
+    },
+    {
+      "id": "SURG27-CARD-079",
+      "note_id": 1793960271356,
+      "tags": [
+        "soi-mat",
+        "case",
+        "viem-tui-mat",
+        "Grade-II"
+      ],
+      "type": "basic",
+      "front": "Case 1: Nữ 52 tuổi, đau hạ sườn phải 2 ngày, sốt 38,4°C, dấu Murphy dương tính, khối đau sờ được, bạch cầu <span style='color:#ffd43b'><b>19.000/mm³</b></span>, siêu âm túi mật to, thành dày 6 mm, có dịch quanh túi mật. Chẩn đoán và <span style='color:#74c0fc'><b>phân độ</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân nữ 52 tuổi, đau hạ sườn phải 2 ngày liên tục, sốt 38,4°C, buồn nôn, nôn 2 lần; khám ấn đau hạ sườn phải, dấu Murphy dương tính, sờ thấy khối đau ở hạ sườn phải.<br>2) Bạch cầu <span style='color:#ffd43b'><b>19.000/mm³</b></span>, CRP tăng, bilirubin toàn phần 1,6 mg/dL, ALT và AST tăng nhẹ, amylase và lipase bình thường; siêu âm túi mật to, thành dày 6 mm, có 3 viên sỏi, có dịch quanh túi mật, không thấy sỏi ống mật chủ, ống mật chủ 5 mm.<br>3) Chẩn đoán <span style='color:#51cf66'><b>chắc chắn viêm túi mật cấp</b></span>: đủ nhóm A (sốt, bạch cầu tăng), nhóm B (đau hạ sườn phải, dấu Murphy dương tính, khối đau sờ được) và nhóm C (siêu âm viêm túi mật).<br>4) Phân độ <span style='color:#ffd43b'><b>Grade II</b></span> vì bạch cầu trên 18.000/mm³ và có khối đau sờ được ở hạ sườn phải; bệnh nhân đau 2 ngày (48 giờ), chưa quá 72 giờ, nhưng bạch cầu và khối đau đã đủ tiêu chí Grade II; không có sỏi ống mật chủ (ống mật chủ 5 mm, bilirubin 1,6 mg/dL).<br><br><b>💡 Giải thích của AI:</b><br>Điểm dạy của ca này: Grade II chỉ cần 1 tiêu chí là đủ — bạch cầu trên 18.000/mm³ một mình đã đủ phân độ Grade II, không cần đợi đủ cả 4 tiêu chí. Bệnh nhân đau 2 ngày, chưa quá 72 giờ, nhưng bạch cầu và khối đau đã đủ tiêu chí Grade II, vì vậy phân độ không phụ thuộc vào thời gian đau một mình.<br><br>📖 Nguồn: Bài Sỏi mật, Case 1 — nữ 52 tuổi, viêm túi mật cấp Grade II, đau 2 ngày."
+    },
+    {
+      "id": "SURG27-CARD-080",
+      "note_id": 1793960271358,
+      "tags": [
+        "soi-mat",
+        "case",
+        "viem-tui-mat",
+        "Grade-II"
+      ],
+      "type": "basic",
+      "front": "Case 1: Nữ 52 tuổi, viêm túi mật cấp Grade II, đau 2 ngày, không có sỏi ống mật chủ. <span style='color:#51cf66'><b>Hướng xử trí và theo dõi</b></span> như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bắt đầu kháng sinh theo nhóm thuốc ngay, giảm đau, nhịn ăn, hồi sức.<br>2) Cắt túi mật nội soi sớm — bệnh nhân đau 2 ngày, còn trong cửa sổ <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát, là thời điểm tốt nhất; CCI và ASA cần đánh giá trước mổ, nếu CCI từ 5 trở xuống và ASA từ 2 trở xuống thì mổ sớm.<br>3) Trong mổ, đạt critical view of safety trước khi cắt; nếu không đạt được CVS thì bail-out (chuyển mổ mở hoặc cắt bán phần); không cần kháng sinh sau mổ nếu ổ nhiễm trùng đã được kiểm soát bằng cắt túi mật.<br>4) Theo dõi sốt, đau bụng, dịch dẫn lưu trong 24–48 giờ đầu sau mổ; dặn bệnh nhân quay lại ngay nếu đau bụng, sốt, vàng da, hoặc dịch vàng chảy ra từ vết mổ; giải thích nguy cơ rò mật và tổn thương đường mật (0,3–0,5%) và dấu hiệu cần quay lại.<br><br><b>💡 Giải thích của AI:</b><br>Ca này là ví dụ mẫu của cắt sớm trong cửa sổ 72 giờ: đau 2 ngày, Grade II, không có sỏi ống mật chủ, đủ điều kiện mổ nội soi sớm. Điểm mấu chốt là mốc 72 giờ tính từ khởi phát, không phải từ nhập viện — bệnh nhân đau 2 ngày ở nhà rồi mới vào viện thì mổ trong 24 giờ từ nhập viện là 3 ngày từ khởi phát, vẫn trong cửa sổ 72 giờ.<br><br>📖 Nguồn: Bài Sỏi mật, Case 1 — hướng xử trí, cắt sớm trong 72 giờ, theo dõi sau mổ."
+    },
+    {
+      "id": "SURG27-CARD-081",
+      "note_id": 1793960271360,
+      "tags": [
+        "soi-mat",
+        "case",
+        "viem-tuy-do-soi"
+      ],
+      "type": "basic",
+      "front": "Case 2: Nam 45 tuổi, đau thượng vị dữ dội lan sau lưng 1 ngày, amylase tăng 5 lần, lipase tăng 6 lần giới hạn trên, bilirubin 1,8 mg/dL, CT tụy phù nề không hoại tử. <span style='color:#ff6b6b'><b>Chẩn đoán</b></span> là gì và có kèm viêm đường mật không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân nam 45 tuổi, đau thượng vị dữ dội lan ra sau lưng 1 ngày, buồn nôn, nôn nhiều, không sốt, không vàng da; khám ấn đau thượng vị, bụng mềm, không gồng cứng; tiền sử đau quặn mật 2 lần trong 3 tháng qua, chưa cắt túi mật.<br>2) Amylase tăng <span style='color:#ffd43b'><b>5 lần</b></span> giới hạn trên, lipase tăng <span style='color:#ffd43b'><b>6 lần</b></span> giới hạn trên, bilirubin toàn phần 1,8 mg/dL, ALT tăng nhẹ, bạch cầu 11.000/mm³, CRP tăng nhẹ; siêu âm túi mật có nhiều sỏi nhỏ, ống mật chủ 7 mm, không thấy sỏi ống mật chủ rõ; CT bụng tụy phù nề, không hoại tử, không tụ dịch.<br>3) Chẩn đoán <span style='color:#ff6b6b'><b>viêm tụy cấp do sỏi nhẹ</b></span> — đau thượng vị dữ dội, amylase và lipase tăng rất cao, có sỏi túi mật, CT tụy phù nề không hoại tử; không có viêm đường mật kèm theo (không sốt cao, bilirubin chỉ 1,8 mg/dL, không thấy sỏi ống mật chủ); không có suy tạng.<br><br><b>💡 Giải thích của AI:</b><br>Điểm phân biệt quan trọng: bilirubin chỉ 1,8 mg/dL và không sốt cao, không thấy sỏi ống mật chủ — vì vậy đây là viêm tụy do sỏi đơn thuần, không kèm viêm đường mật. Nếu bilirubin trên 4 mg/dL, sốt cao và thấy sỏi ống mật chủ thì phải nghĩ viêm đường mật kèm theo và ưu tiên dẫn lưu đường mật cấp cứu.<br><br>📖 Nguồn: Bài Sỏi mật, Case 2 — nam 45 tuổi, viêm tụy do sỏi nhẹ, không kèm viêm đường mật."
+    },
+    {
+      "id": "SURG27-CARD-082",
+      "note_id": 1793960271362,
+      "tags": [
+        "soi-mat",
+        "case",
+        "viem-tuy-do-soi",
+        "PONCHO",
+        "APEC"
+      ],
+      "type": "basic",
+      "front": "Case 2: Nam 45 tuổi, viêm tụy do sỏi nhẹ, không kèm viêm đường mật. Có làm <span style='color:#51cf66'><b>ERCP cấp cứu</b></span> không, và <span style='color:#51cf66'><b>cắt túi mật khi nào</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều trị bảo tồn viêm tụy: nhịn ăn, truyền dịch, giảm đau, theo dõi sát.<br>2) <span style='color:#ff6b6b'><b>Không làm ERCP cấp cứu</b></span> — vì không có viêm đường mật kèm theo, APEC cho thấy ERCP cấp cứu không có lợi trong viêm tụy do sỏi không kèm viêm đường mật.<br>3) Sau khi viêm tụy ổn định (thường trong 3 ngày), <span style='color:#51cf66'><b>cắt túi mật cùng đợt nhập viện</b></span> — theo PONCHO, cắt cùng đợt giảm tái nhập viện từ 17% xuống 5%; nếu trì hoãn cắt tới sau khi ra viện, bệnh nhân có nguy cơ viêm tụy tái phát và tái nhập viện.<br>4) Theo dõi đau bụng, sốt, vàng da sau mổ; dặn bệnh nhân quay lại ngay nếu đau thượng vị tái phát — vì đó có thể là viêm tụy tái phát do sỏi sót; giải thích rằng cắt túi mật cùng đợt nhập viện là để phòng tái phát, không phải vì viêm tụy chưa khỏi.<br><br><b>💡 Giải thích của AI:</b><br>Ca này dạy 2 quyết định ngược nhau nhưng đều đúng: không làm ERCP cấp cứu (vì không có viêm đường mật) nhưng lại cắt túi mật cùng đợt nhập viện (để phòng tái phát). ERCP cấp cứu và cắt cùng đợt là 2 quyết định khác nhau: ERCP chỉ khi có viêm đường mật, cắt cùng đợt thì luôn làm sau viêm tụy nhẹ đã ổn định.<br><br>📖 Nguồn: Bài Sỏi mật, Case 2 — điều trị bảo tồn, không ERCP cấp cứu, cắt cùng đợt nhập viện."
+    },
+    {
+      "id": "SURG27-CARD-083",
+      "note_id": 1793960271364,
+      "tags": [
+        "soi-mat",
+        "case",
+        "dau-quan-mat"
+      ],
+      "type": "basic",
+      "front": "Case 3: Nữ 38 tuổi, đau quặn mật 3 lần trong 2 tháng, mỗi lần 2–3 giờ sau ăn mỡ, không sốt, không vàng da, siêu âm 1 viên sỏi 12 mm, thành túi mật không dày. <span style='color:#51cf66'><b>Chẩn đoán</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân nữ 38 tuổi, đau quặn mật 3 lần trong 2 tháng qua, mỗi lần đau 2–3 giờ sau ăn mỡ, không sốt, không vàng da; khám bụng mềm, không ấn đau, không sốt; bệnh nhân lo lắng về việc phải mổ và hỏi có cách nào không mổ không.<br>2) Xét nghiệm máu bình thường, bilirubin bình thường, men gan bình thường; siêu âm túi mật có 1 viên sỏi 12 mm, thành túi mật không dày, không có dịch quanh túi mật, ống mật chủ 4 mm.<br>3) Chẩn đoán <span style='color:#51cf66'><b>sỏi túi mật có triệu chứng không biến chứng</b></span> (đau quặn mật tái phát, chưa có viêm túi mật, viêm đường mật hay viêm tụy); không có chỉ định cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Điểm phân biệt: đau quặn mật tái phát 3 lần trong 2 tháng, mỗi lần 2–3 giờ sau ăn mỡ, không sốt, không vàng da, xét nghiệm bình thường, siêu âm thành túi mật không dày — đây là sỏi có triệu chứng không biến chứng, không phải viêm túi mật cấp. Đau quặn mật là tắc tạm thời, hết khi sỏi rơi trở lại túi mật; viêm túi mật là đau kéo dài hơn 6 giờ kèm sốt và bạch cầu tăng.<br><br>📖 Nguồn: Bài Sỏi mật, Case 3 — nữ 38 tuổi, sỏi có triệu chứng không biến chứng."
+    },
+    {
+      "id": "SURG27-CARD-084",
+      "note_id": 1793960271366,
+      "tags": [
+        "soi-mat",
+        "case",
+        "C-GALL"
+      ],
+      "type": "basic",
+      "front": "Case 3: Nữ 38 tuổi, sỏi có triệu chứng không biến chứng, lo lắng về việc phải mổ. <span style='color:#51cf66'><b>Tư vấn và xử trí</b></span> như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tư vấn cả 2 lựa chọn cho bệnh nhân: <span style='color:#51cf66'><b>cắt túi mật theo chương trình</b></span>, hoặc <span style='color:#51cf66'><b>điều trị bảo tồn</b></span> (theo dõi, tránh ăn mỡ, dùng thuốc giảm đau khi đau).<br>2) Giải thích bằng chứng C-GALL: bảo tồn và mổ cho chất lượng sống tương đương ở 18 tháng, bảo tồn rẻ hơn, nhưng <span style='color:#ffd43b'><b>25%</b></span> nhóm bảo tồn cuối cùng vẫn phải mổ trong 18 tháng.<br>3) Giải thích rằng khoảng <span style='color:#ffd43b'><b>30%</b></span> người đã đau quặn mật không đau lại, nhưng đa số sẽ đau lại và có nguy cơ viêm túi mật, viêm đường mật hoặc viêm tụy do sỏi.<br>4) Bệnh nhân chọn cắt túi mật theo chương trình vì đau tái phát nhiều lần và ảnh hưởng sinh hoạt; lên kế hoạch cắt túi mật nội soi theo chương trình, không cần cấp cứu trong ngày.<br>5) Theo dõi sau mổ về hội chứng sau cắt túi mật (tới 47% bệnh nhân có triệu chứng tiêu hóa sau cắt túi mật) — dặn bệnh nhân quay lại nếu đau bụng, tiêu chảy kéo dài sau mổ; giải thích rằng đau sau mổ không phải lúc nào cũng do sỏi sót — phải đánh giá toàn diện.<br><br><b>💡 Giải thích của AI:</b><br>Ca này dạy tư vấn chung quyết định: không ép bệnh nhân mổ chỉ vì có sỏi, mà giải thích cả 2 lựa chọn và để bệnh nhân quyết định. Bệnh nhân chọn mổ vì đau tái phát nhiều lần và ảnh hưởng sinh hoạt — đó là quyết định dựa trên triệu chứng và mong muốn của bệnh nhân, đúng với bài học C-GALL.<br><br>📖 Nguồn: Bài Sỏi mật, Case 3 — tư vấn C-GALL, cắt theo chương trình, theo dõi sau mổ."
+    },
+    {
+      "id": "SURG27-CARD-085",
+      "note_id": 1793960271368,
+      "tags": [
+        "soi-mat",
+        "tips"
+      ],
+      "type": "basic",
+      "front": "Tips 1–7: những điểm thực hành nào cần nhớ khi chẩn đoán và quyết định <span style='color:#51cf66'><b>thời điểm mổ</b></span> viêm túi mật cấp?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Luôn hỏi thời gian đau từ khi nào trước khi quyết định thời điểm mổ — mốc tính từ khởi phát triệu chứng, không phải từ nhập viện.<br>2) Dấu Murphy dương tính không đủ để chẩn đoán viêm túi mật — phải kết hợp lâm sàng, xét nghiệm và hình ảnh.<br>3) Siêu âm âm tính không loại trừ viêm túi mật cấp — nghi ngờ cao thì làm thêm CT hoặc HIDA.<br>4) Bilirubin trên <span style='color:#ffd43b'><b>4 mg/dL</b></span> hoặc ống mật chủ trên <span style='color:#ffd43b'><b>6 mm</b></span> gợi ý sỏi ống mật chủ kèm theo — phải phân tầng nguy cơ và làm thêm MRCP hoặc ERCP.<br>5) Amylase và lipase tăng rất cao gợi ý viêm tụy do sỏi kèm theo — không được bỏ qua viêm tụy khi bệnh nhân viêm túi mật.<br>6) Grade II có bạch cầu trên <span style='color:#ffd43b'><b>18.000/mm³</b></span> hoặc khối đau sờ được hoặc đã quá 72 giờ từ khởi phát — 1 tiêu chí là đủ để phân độ Grade II.<br>7) Cắt sớm trong 72 giờ từ khởi phát giảm biến chứng — đừng trì hoãn mổ vì lý do không chính đáng khi bệnh nhân còn trong cửa sổ 72 giờ.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân nữ 50 tuổi đau quặn mật 2 lần trong tháng, đã có chỉ định cắt túi mật — tư vấn cắt theo chương trình, không cần cấp cứu trong ngày. Ví dụ: bệnh nhân viêm túi mật Grade II đau 8 ngày — đã quá mốc 72 giờ nhưng còn trong 10 ngày, cần phẫu thuật viên có kinh nghiệm.<br><br>📖 Nguồn: Bài Sỏi mật, §13 — tips 1–7."
+    },
+    {
+      "id": "SURG27-CARD-086",
+      "note_id": 1793960271370,
+      "tags": [
+        "soi-mat",
+        "tips"
+      ],
+      "type": "basic",
+      "front": "Tips 8–14: những điểm thực hành nào cần nhớ về <span style='color:#51cf66'><b>bail-out</b></span>, kháng sinh sau mổ, ERCP và cắt cùng đợt nhập viện?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đã quá <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát thì trì hoãn <span style='color:#ffd43b'><b>45 ngày</b></span> rồi mổ — đừng cố mổ sớm khi viêm đã xơ hóa dính nhiều.<br>2) Không đạt <span style='color:#51cf66'><b>critical view of safety</b></span> thì <span style='color:#51cf66'><b>bail-out</b></span> ngay — chuyển mổ mở hoặc cắt bán phần, không cố bóc tách khi giải phẫu không nhận diện được.<br>3) <span style='color:#51cf66'><b>Không dùng kháng sinh sau mổ</b></span> ở viêm túi mật nhẹ và trung bình — cắt túi mật chính là kiểm soát nguồn nhiễm trùng.<br>4) <span style='color:#ff6b6b'><b>Không dạy liều mg kháng sinh</b></span> khi không có liều nào được kiểm chứng — liều theo hướng dẫn bệnh viện và chức năng thận.<br>5) Viêm tụy do sỏi không kèm viêm đường mật thì không làm <span style='color:#51cf66'><b>ERCP cấp cứu</b></span> — ERCP cấp cứu chỉ khi có viêm đường mật hoặc ứ mật kéo dài.<br>6) <span style='color:#51cf66'><b>Cắt túi mật cùng đợt nhập viện</b></span> sau viêm tụy do sỏi nhẹ — đừng trì hoãn tới sau khi ra viện, vì tái nhập viện <span style='color:#ffd43b'><b>17%</b></span> so với <span style='color:#ffd43b'><b>5%</b></span>.<br>7) Sỏi không triệu chứng thì <span style='color:#51cf66'><b>theo dõi là đủ</b></span> — đừng cắt dự phòng thường quy, và dặn bệnh nhân quay lại ngay nếu đau, sốt hoặc vàng da.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân viêm tụy do sỏi nhẹ, đã ổn định — lên kế hoạch cắt túi mật cùng đợt nhập viện, không trì hoãn tới sau khi ra viện. Ví dụ: bệnh nhân sỏi không triệu chứng phát hiện tình cờ qua siêu âm — theo dõi, dặn quay lại ngay nếu đau, sốt hoặc vàng da.<br><br>📖 Nguồn: Bài Sỏi mật, §13 — tips 8–14."
+    },
+    {
+      "id": "SURG27-CARD-087",
+      "note_id": 1793960271372,
+      "tags": [
+        "soi-mat",
+        "tong-ket"
+      ],
+      "type": "basic",
+      "front": "Tóm tắt 10 điểm (1–5): dịch tễ, diễn tiến tự nhiên, <span style='color:#74c0fc'><b>tiêu chuẩn Tokyo</b></span>, hình ảnh và phân độ nặng của sỏi mật?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sỏi mật có ở khoảng <span style='color:#ffd43b'><b>10–15%</b></span> dân số trưởng thành phương Tây; khoảng 1–4% trở thành có triệu chứng trong một năm.<br>2) Sỏi không triệu chứng có diễn tiến tự nhiên lành tính (khoảng 2% mỗi năm; tích lũy 10,1% sau 5 năm, 21,5% sau 10 năm, 32,6% sau 15 năm) — theo dõi là chuẩn, không cắt dự phòng thường quy.<br>3) Tiêu chuẩn Tokyo chẩn đoán viêm túi mật cấp có độ nhạy 91,2% và độ đặc hiệu 96,9%; dấu Murphy không khẳng định cũng không loại trừ được bệnh (tỉ số khả dĩ dương 2,8, khoảng tin cậy bao gồm 1).<br>4) Siêu âm là hình ảnh đầu tay nhưng độ nhạy chỉ 59,8–68% — siêu âm âm tính không loại trừ được viêm túi mật; CT có độ nhạy 85%, HIDA có độ nhạy 84,2%.<br>5) Phân độ nặng: tử vong 30 ngày là 1,1% ở Grade I, 0,8% ở Grade II, và 5,4% ở Grade III; tăng lên 25% khi suy nhiều tạng.<br><br><b>💡 Giải thích của AI:</b><br>Năm điểm đầu của tóm tắt 10 điểm là nền tảng: dịch tễ, diễn tiến tự nhiên, chẩn đoán Tokyo, hình ảnh và phân độ nặng. Nắm được 5 điểm này là nắm được khung chẩn đoán và phân độ của toàn bộ bài — 5 điểm còn lại là khung điều trị và thời điểm mổ.<br><br>📖 Nguồn: Bài Sỏi mật, §14.1 — tóm tắt 10 điểm, điểm 1–5."
+    },
+    {
+      "id": "SURG27-CARD-088",
+      "note_id": 1793960271374,
+      "tags": [
+        "soi-mat",
+        "tong-ket"
+      ],
+      "type": "basic",
+      "front": "Tóm tắt 10 điểm (6–10): <span style='color:#51cf66'><b>thời điểm mổ</b></span>, cắt sớm so với trì hoãn, tổn thương đường mật, viêm tụy do sỏi và C-GALL?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thời điểm cắt túi mật: mổ trong <span style='color:#ffd43b'><b>72 giờ</b></span> từ khởi phát giảm biến chứng (tỉ số nguy cơ 0,60); cắt sớm trong <span style='color:#ffd43b'><b>10 ngày</b></span> từ khởi phát được ưu tiên; quá 10 ngày thì trì hoãn <span style='color:#ffd43b'><b>45 ngày</b></span> tốt hơn mổ ngay.<br>2) Cắt sớm an toàn tương đương cắt trì hoãn, nằm viện ngắn hơn <span style='color:#ffd43b'><b>3–4 ngày</b></span>, ít nhiễm trùng vết mổ hơn, ít ngày nghỉ làm hơn — nhưng mổ lâu hơn khoảng <span style='color:#ffd43b'><b>11–16 phút</b></span>; <span style='color:#ffd43b'><b>18,3%</b></span> nhóm trì hoãn phải mổ cấp cứu trước lịch với tỉ lệ chuyển mở <span style='color:#ffd43b'><b>45%</b></span>.<br>3) Tổn thương đường mật <span style='color:#ffd43b'><b>0,3–0,5%</b></span> với cắt túi mật nội soi; critical view of safety làm tỉ lệ tổn thương chỉ bằng <span style='color:#ffd43b'><b>1/9 đến 1/15</b></span> tỉ lệ kỳ vọng; không đạt CVS thì bail-out.<br>4) Viêm tụy do sỏi: cắt cùng đợt nhập viện giảm tái nhập viện từ <span style='color:#ffd43b'><b>17%</b></span> xuống <span style='color:#ffd43b'><b>5%</b></span> (PONCHO); ERCP cấp cứu không có lợi nếu không kèm viêm đường mật (APEC: <span style='color:#ffd43b'><b>38%</b></span> so với <span style='color:#ffd43b'><b>44%</b></span>, không có ý nghĩa).<br>5) Sỏi có triệu chứng không biến chứng: bảo tồn và mổ cho chất lượng sống tương đương ở 18 tháng (C-GALL), nhưng <span style='color:#ffd43b'><b>25%</b></span> nhóm bảo tồn vẫn phải mổ; hội chứng sau cắt túi mật tới <span style='color:#ffd43b'><b>47%</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Năm điểm sau của tóm tắt 10 điểm là khung điều trị: thời điểm mổ, cắt sớm so với trì hoãn, tổn thương đường mật, viêm tụy do sỏi và sỏi có triệu chứng không biến chứng. Bài này dạy sỏi mật từ gốc tới quyết định: sỏi hình thành từ mật quá bão hòa và túi mật co bóp kém; sỏi không triệu chứng theo dõi là đủ; viêm túi mật cấp chẩn đoán bằng tiêu chuẩn Tokyo, phân độ nặng rồi quyết định thời điểm mổ theo mốc khởi phát; tổn thương đường mật phòng bằng critical view of safety và bail-out khi không an toàn.<br><br>📖 Nguồn: Bài Sỏi mật, §14.1 — tóm tắt 10 điểm, điểm 6–10."
+    },
+    {
+      "id": "SURG27-CARD-089",
+      "note_id": 1793960271376,
+      "tags": [
+        "soi-mat",
+        "tai-lieu",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Năm <span style='color:#74c0fc'><b>bài báo lõi</b></span> của bài Sỏi mật là những thử nghiệm và tổng quan nào, mỗi bài kết luận gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thử nghiệm ngẫu nhiên đa trung tâm tại Hà Lan so sánh <span style='color:#51cf66'><b>cắt túi mật cùng đợt nhập viện</b></span> với cắt trì hoãn sau viêm tụy cấp do sỏi nhẹ, với kết cục chính là tái nhập viện vì biến chứng liên quan sỏi hoặc tử vong trong thời gian theo dõi; kết quả ủng hộ cắt cùng đợt nhập viện.<br>2) Thử nghiệm ngẫu nhiên đa trung tâm tại Hà Lan so sánh <span style='color:#51cf66'><b>nội soi mật tụy cấp cứu</b></span> kèm cắt cơ thắt trong ngày đầu với điều trị bảo tồn ở bệnh nhân viêm tụy cấp do sỏi nặng dự báo không kèm viêm đường mật, với kết cục chính là tử vong hoặc biến chứng lớn trong thời gian theo dõi; kết quả không cho thấy lợi ích của nội soi cấp cứu, trừ việc giảm viêm đường mật.<br>3) Thử nghiệm ngẫu nhiên đa trung tâm tại Anh so sánh <span style='color:#51cf66'><b>cắt túi mật</b></span> với <span style='color:#51cf66'><b>điều trị bảo tồn</b></span> ở bệnh nhân sỏi mật có triệu chứng không biến chứng, với kết cục chính là chất lượng sống theo thang điểm đau cơ thể trong thời gian theo dõi; kết quả cho thấy chất lượng sống tương đương giữa các nhóm, trong khi điều trị bảo tồn rẻ hơn và vẫn có bệnh nhân nhóm bảo tồn cuối cùng phải mổ.<br>4) Tổng quan hệ thống Cochrane so sánh <span style='color:#51cf66'><b>cắt túi mật sớm</b></span> với cắt trì hoãn trong viêm túi mật cấp, tổng hợp các thử nghiệm ngẫu nhiên với kết cục về tổn thương đường mật, biến chứng nặng, chuyển mổ mở, thời gian nằm viện và thời gian mổ; kết quả cho thấy cắt sớm an toàn tương đương và nằm viện ngắn hơn.<br>5) Tổng quan hệ thống Cochrane về <span style='color:#74c0fc'><b>sỏi mật không triệu chứng</b></span>, tìm kiếm thử nghiệm ngẫu nhiên so sánh cắt túi mật với không cắt; kết quả không tìm thấy thử nghiệm ngẫu nhiên nào đủ tiêu chuẩn, và diễn tiến tự nhiên của sỏi không triệu chứng được mô tả là lành tính.<br><br><b>💡 Giải thích của AI:</b><br>Năm bài báo lõi này là toàn bộ bằng chứng hạng cao nhất của bài: 2 thử nghiệm Lancet về viêm tụy do sỏi, 1 thử nghiệm BMJ về sỏi có triệu chứng không biến chứng và 2 tổng quan Cochrane về thời điểm mổ và sỏi không triệu chứng. Các số liệu cụ thể của từng thử nghiệm đã được dạy đủ trong thân bài — thẻ này chỉ tóm tắt định tính, không ghi số liệu.<br><br>📖 Nguồn: Bài Sỏi mật, §14.2 — 5 bài báo lõi: PMID 26460661 (PONCHO), 32682482 (APEC), 38084426 (C-GALL), 23813477 (Cochrane sớm vs trì hoãn), 17253585 (Cochrane sỏi không triệu chứng)."
+    },
+    {
+      "id": "SURG27-CARD-090",
+      "note_id": 1793960271378,
+      "tags": [
+        "soi-mat",
+        "tai-lieu",
+        "han-che"
+      ],
+      "type": "basic",
+      "front": "Bài Sỏi mật có những <span style='color:#ff6b6b'><b>hạn chế về nguồn</b></span> nào cần ghi rõ: WSES, TG18, EASL, liều kháng sinh và số liệu Việt Nam?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khung thực hành chính của bài này là guideline <span style='color:#74c0fc'><b>WSES</b></span> về viêm túi mật cấp do sỏi, được lấy toàn văn qua PMC trong đợt nghiên cứu này.<br>2) Guideline <span style='color:#74c0fc'><b>Tokyo</b></span> về viêm túi mật cấp và guideline <span style='color:#74c0fc'><b>EASL</b></span> về sỏi mật chỉ lấy được ở mức tóm tắt hoặc tiêu đề, do toàn văn không tiếp cận được, nên bài này không gán khuyến cáo trực tiếp nào cho các guideline đó mà không ghi rõ nguồn thứ cấp; bảng tiêu chuẩn chẩn đoán Tokyo về viêm túi mật cấp được dạy theo chuẩn Tokyo thế hệ trước, kèm cờ xác minh qua tóm tắt guideline Tokyo và kiểm chứng độ chính xác qua toàn văn WSES.<br>3) Bài này <span style='color:#ff6b6b'><b>không dạy liều mg kháng sinh</b></span>, vì không có liều nào được kiểm chứng trong đợt nghiên cứu này.<br>4) Bài này cũng <span style='color:#ff6b6b'><b>không có số liệu dịch tễ Việt Nam</b></span> đã kiểm chứng, nên phần Áp dụng tại Việt Nam chỉ dạy nguyên lý và bối cảnh tuyến.<br><br><b>💡 Giải thích của AI:</b><br>Bốn hạn chế này là ranh giới của bài: WSES là khung duy nhất lấy được toàn văn, TG18 chỉ có abstract, EASL chỉ có tiêu đề, không có liều mg kháng sinh và không có số liệu Việt Nam. Người học cần biết rõ ranh giới này để không trích dẫn quá mức những gì bài không kiểm chứng được.<br><br>📖 Nguồn: Bài Sỏi mật, §14.3 — ghi chú về nguồn, hạn chế TG18/EASL/kháng sinh/số liệu VN."
+    },
+    {
+      "id": "SURG27-CARD-091",
+      "note_id": 1793960271380,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Sỏi mật có ở khoảng {{c1::<span style='color:#ffd43b'><b>10–15%</b></span>}} dân số trưởng thành phương Tây; mỗi năm khoảng {{c2::<span style='color:#ffd43b'><b>1–4%</b></span>}} số người có sỏi bắt đầu có triệu chứng.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §1.3 — dịch tễ 10–15%, 1–4% mỗi năm."
+    },
+    {
+      "id": "SURG27-CARD-092",
+      "note_id": 1793960271383,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "dien-tien-tu-nhien"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ tích lũy sỏi không triệu chứng trở thành có triệu chứng là {{c1::<span style='color:#ffd43b'><b>10,1% sau 5 năm, 21,5% sau 10 năm và 32,6% sau 15 năm</b></span>}} — khoảng 2% mỗi năm.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §1.3 — tỉ lệ tích lũy 10,1%/21,5%/32,6%, khoảng 2% mỗi năm."
+    },
+    {
+      "id": "SURG27-CARD-093",
+      "note_id": 1793960271385,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "Tokyo"
+      ],
+      "type": "basic",
+      "front": "Tiêu chuẩn Tokyo chẩn đoán viêm túi mật cấp do sỏi có độ nhạy {{c1::<span style='color:#ffd43b'><b>91,2%</b></span>}} và độ đặc hiệu {{c2::<span style='color:#ffd43b'><b>96,9%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §3.2 — tiêu chuẩn Tokyo độ nhạy 91,2%, độ đặc hiệu 96,9%."
+    },
+    {
+      "id": "SURG27-CARD-094",
+      "note_id": 1793960271388,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "Murphy"
+      ],
+      "type": "basic",
+      "front": "Dấu Murphy có tỉ số khả dĩ dương {{c1::<span style='color:#ffd43b'><b>2,8</b></span>}} (khoảng tin cậy bao gồm 1) và tỉ số khả dĩ âm {{c2::<span style='color:#ffd43b'><b>0,5</b></span>}} — không khẳng định cũng không loại trừ được viêm túi mật.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §3.3 — dấu Murphy LR+ 2,8 (CI bao gồm 1), LR− 0,5."
+    },
+    {
+      "id": "SURG27-CARD-095",
+      "note_id": 1793960271391,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "hinh-anh"
+      ],
+      "type": "basic",
+      "front": "Độ nhạy chẩn đoán viêm túi mật cấp: siêu âm {{c1::<span style='color:#ffd43b'><b>59,8%</b></span>}}, CT {{c2::<span style='color:#ffd43b'><b>67,3%</b></span>}} và HIDA {{c3::<span style='color:#ffd43b'><b>84,2%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §3.5 — siêu âm 59,8%, CT 67,3%, HIDA 84,2% trong nghiên cứu so sánh 3 phương pháp."
+    },
+    {
+      "id": "SURG27-CARD-096",
+      "note_id": 1793960271395,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "tien-luong"
+      ],
+      "type": "basic",
+      "front": "Tử vong 30 ngày của viêm túi mật cấp là {{c1::<span style='color:#ffd43b'><b>1,1%</b></span>}} ở Grade I, {{c2::<span style='color:#ffd43b'><b>0,8%</b></span>}} ở Grade II và {{c3::<span style='color:#ffd43b'><b>5,4%</b></span>}} ở Grade III; tăng lên {{c4::<span style='color:#ffd43b'><b>25%</b></span>}} khi suy nhiều tạng.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §4.2 — tử vong 30 ngày Grade I 1,1%, II 0,8%, III 5,4%; suy nhiều tạng 25%."
+    },
+    {
+      "id": "SURG27-CARD-097",
+      "note_id": 1793960271400,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "nguoi-gia",
+        "Medicare"
+      ],
+      "type": "basic",
+      "front": "Người già không được cắt túi mật trong đợt nhập viện đầu có tỉ lệ tái nhập viện liên quan sỏi là {{c1::<span style='color:#ffd43b'><b>38%</b></span>}} trong 2 năm, so với {{c2::<span style='color:#ffd43b'><b>4,4%</b></span>}} ở nhóm được cắt sớm.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §4.3 và §8.4 — Medicare, người già không cắt sớm tái nhập viện 38% vs 4,4% trong 2 năm."
+    },
+    {
+      "id": "SURG27-CARD-098",
+      "note_id": 1793960271403,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "soi-khong-trieu-chung"
+      ],
+      "type": "basic",
+      "front": "Chỉ khoảng {{c1::<span style='color:#ffd43b'><b>2%</b></span>}} sỏi không triệu chứng trở thành có triệu chứng mỗi năm — vì vậy theo dõi là chuẩn, không cắt dự phòng thường quy.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §5.1 — diễn tiến tự nhiên khoảng 2% mỗi năm."
+    },
+    {
+      "id": "SURG27-CARD-099",
+      "note_id": 1793960271405,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "C-GALL"
+      ],
+      "type": "basic",
+      "front": "Trong thử nghiệm C-GALL, sau 18 tháng {{c1::<span style='color:#ffd43b'><b>25%</b></span>}} nhóm bảo tồn đã phải mổ so với 67% nhóm cắt túi mật.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §5.2 — C-GALL, 25% nhóm bảo tồn phải mổ trong 18 tháng."
+    },
+    {
+      "id": "SURG27-CARD-100",
+      "note_id": 1793960271407,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "khang-sinh-sau-mo"
+      ],
+      "type": "basic",
+      "front": "Biến chứng nhiễm trùng sau mổ ở viêm túi mật nhẹ và trung bình là {{c1::<span style='color:#ffd43b'><b>7,4%</b></span>}} ở nhóm giả dược so với {{c2::<span style='color:#ffd43b'><b>8,6%</b></span>}} ở nhóm kháng sinh — không khác biệt có ý nghĩa.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §5.4 — RCT 188 BN, nhiễm trùng sau mổ 7,4% giả dược vs 8,6% kháng sinh."
+    },
+    {
+      "id": "SURG27-CARD-101",
+      "note_id": 1793960271410,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "Cochrane"
+      ],
+      "type": "basic",
+      "front": "Tổn thương đường mật trong Cochrane 2013 là {{c1::<span style='color:#ffd43b'><b>0,4%</b></span>}} ở nhóm cắt sớm so với {{c2::<span style='color:#ffd43b'><b>0,9%</b></span>}} ở nhóm cắt trì hoãn. 18,3% nhóm trì hoãn phải mổ cấp cứu trước lịch với tỉ lệ chuyển mở 45%.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §6.1 — Cochrane 2013, tổn thương đường mật 0,4% vs 0,9%; 18,3% trì hoãn mổ cấp cứu, chuyển mở 45%."
+    },
+    {
+      "id": "SURG27-CARD-102",
+      "note_id": 1793960271413,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "thoi-diem-mo"
+      ],
+      "type": "basic",
+      "front": "Mổ trong 72 giờ từ khởi phát giảm biến chứng (tỉ số nguy cơ {{c1::<span style='color:#ffd43b'><b>0,60</b></span>}}), nhưng mổ ngay trong 24 giờ từ nhập viện KHÔNG giảm biến chứng (tỉ số nguy cơ {{c2::<span style='color:#ffd43b'><b>1,89</b></span>}}).",
+      "back": "📖 Nguồn: Bài Sỏi mật, §6.2 — mổ 72 giờ từ khởi phát RR 0,60; mổ 24 giờ từ nhập viện RR 1,89."
+    },
+    {
+      "id": "SURG27-CARD-103",
+      "note_id": 1793960271416,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "chuyen-mo-mo"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ chuyển mổ mở trong cắt túi mật nội soi là {{c1::<span style='color:#ffd43b'><b>9,2%</b></span>}} trong nghiên cứu đoàn hệ 945 bệnh nhân.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §6.4 — chuyển mổ mở 9,2%, nam aOR 2,10."
+    },
+    {
+      "id": "SURG27-CARD-104",
+      "note_id": 1793960271418,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "ton-thuong-duong-mat",
+        "CVS"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ tổn thương đường mật lớn với cắt túi mật nội soi là {{c1::<span style='color:#ffd43b'><b>0,3–0,5%</b></span>}}; dùng thường quy CVS làm tỉ lệ tổn thương chỉ bằng {{c2::<span style='color:#ffd43b'><b>1/9 đến 1/15</b></span>}} tỉ lệ kỳ vọng.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §6.5 — tổn thương đường mật 0,3–0,5%, CVS 1/9–1/15 tỉ lệ kỳ vọng."
+    },
+    {
+      "id": "SURG27-CARD-105",
+      "note_id": 1793960271421,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "mot-thi",
+        "hai-thi"
+      ],
+      "type": "basic",
+      "front": "Một thì có thời gian mổ {{c1::<span style='color:#ffd43b'><b>156,2 phút</b></span>}} so với 189,7 phút ở hai thì. Một thì nằm viện {{c2::<span style='color:#ffd43b'><b>3,0 ngày</b></span>}} so với 5,0 ngày ở hai thì.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §7.2 — một thì vs hai thì, mổ 156,2 vs 189,7 phút, nằm viện 3,0 vs 5,0 ngày."
+    },
+    {
+      "id": "SURG27-CARD-106",
+      "note_id": 1793960271424,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "rendezvous"
+      ],
+      "type": "basic",
+      "front": "Rendezvous lấy sạch ống mật chủ hoàn toàn {{c1::<span style='color:#ffd43b'><b>38/42</b></span>}} ca so với 29/41 ca ở hai thì; thất bại điều trị {{c2::<span style='color:#ffd43b'><b>9,5%</b></span>}} so với 29%; viêm tụy nặng {{c3::<span style='color:#ffd43b'><b>0%</b></span>}} so với 12%.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §7.3 — rendezvous RCT 83 BN, lấy sạch 38/42 vs 29/41, thất bại 9,5% vs 29%, viêm tụy nặng 0% vs 12%."
+    },
+    {
+      "id": "SURG27-CARD-107",
+      "note_id": 1793960271428,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "PONCHO"
+      ],
+      "type": "basic",
+      "front": "PONCHO: tái nhập viện vì biến chứng liên quan sỏi hoặc tử vong trong 6 tháng là {{c1::<span style='color:#ffd43b'><b>17%</b></span>}} ở nhóm cắt trì hoãn so với {{c2::<span style='color:#ffd43b'><b>5%</b></span>}} ở nhóm cắt cùng đợt nhập viện (tỉ số nguy cơ 0,28).",
+      "back": "📖 Nguồn: Bài Sỏi mật, §8.2 — PONCHO, tái nhập viện 17% vs 5%, RR 0,28."
+    },
+    {
+      "id": "SURG27-CARD-108",
+      "note_id": 1793960271431,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "APEC"
+      ],
+      "type": "basic",
+      "front": "APEC: tử vong hoặc biến chứng lớn trong 6 tháng là {{c1::<span style='color:#ffd43b'><b>38%</b></span>}} ở nhóm ERCP cấp cứu so với {{c2::<span style='color:#ffd43b'><b>44%</b></span>}} ở nhóm bảo tồn — KHÔNG có lợi; viêm đường mật là 2% so với 10%.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §8.3 — APEC, tử vong/biến chứng lớn 38% vs 44%, viêm đường mật 2% vs 10%."
+    },
+    {
+      "id": "SURG27-CARD-109",
+      "note_id": 1793960271434,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "hoi-chung-sau-cat"
+      ],
+      "type": "basic",
+      "front": "Hội chứng sau cắt túi mật ảnh hưởng tới {{c1::<span style='color:#ffd43b'><b>47%</b></span>}} bệnh nhân.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §9.3 — hội chứng sau cắt túi mật tới 47%."
+    },
+    {
+      "id": "SURG27-CARD-110",
+      "note_id": 1793960271436,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "polyp"
+      ],
+      "type": "basic",
+      "front": "Cắt túi mật khi polyp trên {{c1::<span style='color:#ffd43b'><b>10 mm</b></span>}} hoặc trên {{c2::<span style='color:#ffd43b'><b>6 mm</b></span>}} kèm yếu tố nguy cơ. Polyp lớn thêm trên {{c3::<span style='color:#ffd43b'><b>2 mm</b></span>}} thì cắt; nghi ngờ ác tính khi trên {{c4::<span style='color:#ffd43b'><b>15 mm</b></span>}}.",
+      "back": "📖 Nguồn: Bài Sỏi mật, §9.5 — polyp túi mật: cắt khi &gt;10 mm, hoặc &gt;6 mm kèm yếu tố nguy cơ, lớn thêm &gt;2 mm, nghi ác tính &gt;15 mm."
+    },
+    {
+      "id": "SURG27-CARD-111",
+      "note_id": 1793960271441,
+      "tags": [
+        "soi-mat",
+        "nguong",
+        "tui-mat-su"
+      ],
+      "type": "basic",
+      "front": "Túi mật sứ liên quan tới ung thư túi mật {{c1::<span style='color:#ffd43b'><b>5–22%</b></span>}} và liên quan mạnh với sỏi mật (trên 60%).",
+      "back": "📖 Nguồn: Bài Sỏi mật, §9.5 — túi mật sứ liên quan ung thư 5–22%."
+    }
+  ]
+}
