@@ -1,0 +1,1403 @@
+{
+  "deck_id": 7600000000002,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-01B: Khám Bụng Ngoại Khoa",
+  "card_count": 120,
+  "cards": [
+    {
+      "id": "SURG01B-CARD-001",
+      "note_id": 1793934781359,
+      "tags": [
+        "kham-bung",
+        "9-vung-bung"
+      ],
+      "type": "basic",
+      "front": "Ổ bụng chia <span style=\"color:#74c0fc\"><b>9 vùng</b></span> như thế nào, và mỗi vùng gợi ý cơ quan nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) 2 đường ngang (dưới sườn và ngang rốn) và 2 đường dọc (qua giữa đòn 2 bên) chia bụng thành 9 vùng: <span style=\"color:#74c0fc\"><b>hạ sườn phải, thượng vị, hạ sườn trái, hông phải, quanh rốn, hông trái, hố chậu phải, hạ vị, hố chậu trái</b></span>.<br>2) Hố chậu phải chứa <span style=\"color:#74c0fc\"><b>ruột thừa, manh tràng và phần phụ phải</b></span> ở nữ; hạ sườn phải chứa <span style=\"color:#74c0fc\"><b>túi mật và gan</b></span>; thượng vị chứa <span style=\"color:#74c0fc\"><b>dạ dày, tá tràng và tụy</b></span>.<br>3) Bản đồ 9 vùng chỉ là điểm khởi đầu: bệnh có thể đau ở vùng khác với vị trí giải phẫu của nó, ví dụ ruột thừa sau manh tràng gây đau hông phải, ruột thừa trong tiểu khung gây đau hạ vị.<br><br><b>💡 Giải thích của AI:</b><br>Vị trí đau gợi ý cơ quan gây bệnh vì mỗi vùng chứa các cơ quan khác nhau, nhưng không được dùng bản đồ vùng để loại trừ bệnh — vị trí ruột thừa thay đổi nên đau có thể lệch khỏi hố chậu phải.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §0.1 và §1.3 — bản đồ 9 vùng bụng."
+    },
+    {
+      "id": "SURG01B-CARD-002",
+      "note_id": 1793934781361,
+      "tags": [
+        "kham-bung",
+        "phuc-mac"
+      ],
+      "type": "basic",
+      "front": "Phúc mạc thành và phúc mạc tạng khác nhau ra sao về <span style=\"color:#ff6b6b\"><b>cảm giác đau</b></span>, và vì sao khác biệt này là chìa khóa của cả bài?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Phúc mạc thành</b></span> lót thành bụng trong, chi phối bởi thần kinh thân thể (somatic) như da: đau <span style=\"color:#ff6b6b\"><b>khu trú chính xác, sắc, tăng khi cử động, ho hoặc ấn vào</b></span>.<br>2) <span style=\"color:#74c0fc\"><b>Phúc mạc tạng</b></span> bao quanh các tạng, chi phối bởi thần kinh tự chủ: đau <span style=\"color:#ff6b6b\"><b>mơ hồ, khó chỉ đúng chỗ, quặn từng cơn, kèm buồn nôn, vã mồ hôi, tái mặt</b></span>.<br>3) Khi viêm lan từ tạng tới phúc mạc thành, đau chuyển từ mơ hồ sang khu trú — đó chính là <span style=\"color:#ff6b6b\"><b>di chuyển đau</b></span> trong viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>Phúc mạc tạng chỉ đáp ứng với căng, co thắt và thiếu máu, không đáp ứng với chạm nhẹ; phúc mạc thành nhạy với mọi kích thích (chạm, kéo căng, acid, mủ, máu). Vì vậy giai đoạn sớm viêm ruột thừa chỉ đau âm ỉ quanh rốn, giai đoạn sau mới đau khu trú hố chậu phải.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §0.1 và §2.1 — phúc mạc thành và phúc mạc tạng."
+    },
+    {
+      "id": "SURG01B-CARD-003",
+      "note_id": 1793934781363,
+      "tags": [
+        "kham-bung",
+        "LR"
+      ],
+      "type": "basic",
+      "front": "Đọc <span style=\"color:#ffd43b\"><b>tỉ số khả dĩ LR+ và LR−</b></span> của một dấu hiệu khám như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ffd43b\"><b>LR+ trên 10</b></span> tăng khả năng mắc bệnh rất mạnh; 5–10 tăng vừa; 2–5 tăng nhẹ; gần 1 là gần như vô dụng.<br>2) <span style=\"color:#ffd43b\"><b>LR− dưới 0,1</b></span> giảm khả năng rất mạnh; 0,1–0,2 giảm mạnh; 0,2–0,5 giảm vừa; gần 1 là gần như vô dụng.<br>3) Dấu hiệu tốt để khẳng định cần <span style=\"color:#ffd43b\"><b>LR+ cao</b></span>; dấu hiệu tốt để loại trừ cần <span style=\"color:#ffd43b\"><b>LR− thấp</b></span>.<br>4) Nhiều dấu hiệu khám bụng có LR+ vừa nhưng LR− gần 1: dương tính thì gợi ý bệnh, âm tính không loại trừ được bệnh.<br><br><b>💡 Giải thích của AI:</b><br>Đây là điểm người học hay nhầm nhất trong bài: thấy dấu hiệu âm tính rồi yên tâm cho bệnh nhân về. Quy tắc vàng là dấu hiệu dương tính thì tin để khẳng định, dấu hiệu âm tính thì đừng tin để loại trừ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §0.1 — tỉ số khả dĩ (likelihood ratio)."
+    },
+    {
+      "id": "SURG01B-CARD-004",
+      "note_id": 1793934781365,
+      "tags": [
+        "kham-bung",
+        "dau-bung-cap"
+      ],
+      "type": "basic",
+      "front": "Trong số bệnh nhân đau bụng cấp ở cấp cứu, {{c1::<span style=\"color:#ffd43b\"><b>15–20%</b></span>}} cần can thiệp hoặc phẫu thuật. Tử vong là {{c2::<span style=\"color:#ffd43b\"><b>2–12%</b></span>}}, tăng lên theo từng giờ chậm trễ điều trị đặc hiệu.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §0 — đau bụng cấp ở cấp cứu."
+    },
+    {
+      "id": "SURG01B-CARD-005",
+      "note_id": 1793934781368,
+      "tags": [
+        "kham-bung",
+        "viem-ruot-thua"
+      ],
+      "type": "basic",
+      "front": "Chỉ khoảng <span style=\"color:#ffd43b\"><b>50%</b></span> bệnh nhân viêm ruột thừa có biểu hiện điển hình — điều này thay đổi cách khám ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ khoảng <span style=\"color:#ffd43b\"><b>50%</b></span> bệnh nhân viêm ruột thừa có biểu hiện điển hình.<br>2) Nửa còn lại không điển hình — và <span style=\"color:#ff6b6b\"><b>không điển hình mới là bình thường</b></span>, không phải ngoại lệ.<br>3) Khung WSES 2020 nói thẳng: chẩn đoán viêm ruột thừa chỉ dựa vào bệnh sử và khám lâm sàng có thể rất khó, vì giá trị của từng biến số lâm sàng riêng lẻ là thấp.<br>4) Vì vậy phải kết hợp <span style=\"color:#51cf66\"><b>dấu hiệu + thang điểm + xét nghiệm + hình ảnh</b></span>, và biết khi nào không được tin vào bàn tay của mình.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay chờ đủ bộ dấu hiệu kinh điển rồi mới nghĩ tới viêm ruột thừa; thực tế một nửa bệnh nhân không có đủ bộ đó. Không một dấu hiệu đơn lẻ nào khẳng định hay loại trừ được bệnh — đó là tinh thần xuyên suốt bài.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §0 — tổng quan lâm sàng BMJ 2017 (prose-only, không có trong bundle, không gán PMID bundle); khung WSES 2020."
+    },
+    {
+      "id": "SURG01B-CARD-006",
+      "note_id": 1793934781370,
+      "tags": [
+        "kham-bung",
+        "dau-bung-cap"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Đau bụng cấp</b></span> được định nghĩa ra sao, và câu hỏi đầu tiên phải trả lời khi gặp đau bụng cấp là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau bụng cấp là đau bụng khởi phát đột ngột, kéo dài <span style=\"color:#ffd43b\"><b>dưới 7 ngày</b></span>, đủ nặng để bệnh nhân phải đi khám cấp cứu.<br>2) Đau bụng cấp là cuộc đua với thời gian: có những bệnh cần mổ trong vài giờ, nếu chậm sẽ thủng, hoại tử, nhiễm trùng huyết và tử vong.<br>3) Câu hỏi đầu tiên: đây có phải là <span style=\"color:#ff6b6b\"><b>bụng cấp ngoại khoa</b></span> — tức bụng cần phẫu thuật — hay không, và phải trả lời trong lần khám đầu tiên, không để sang ngày hôm sau.<br><br><b>💡 Giải thích của AI:</b><br>Định nghĩa tách đau bụng cấp ra khỏi đau bụng mạn tính, vì đau mạn tính có cách tiếp cận khác hẳn (khám ngoại trú, nội soi, tìm nguyên nhân chức năng).<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.1 — định nghĩa đau bụng cấp."
+    },
+    {
+      "id": "SURG01B-CARD-007",
+      "note_id": 1793934781372,
+      "tags": [
+        "kham-bung",
+        "dau-tang",
+        "dau-thanh"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\"><b>đau tạng, đau thành và đau quy chiếu</b></span> về tính chất và ví dụ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau tạng:</b></span> mơ hồ, khó chỉ đúng điểm, chỉ cả vùng rộng bằng lòng bàn tay, kèm buồn nôn, vã mồ hôi; ví dụ đau quặn tắc ruột, đau âm ỉ quanh rốn giai đoạn sớm viêm ruột thừa.<br>2) <span style=\"color:#ff6b6b\"><b>Đau thành:</b></span> khu trú chính xác, chỉ đúng 1 điểm bằng 1 ngón tay, tăng khi cử động, ho, hít sâu hoặc ấn rồi thả ra; ví dụ đau hố chậu phải khi viêm ruột thừa đã lan tới phúc mạc thành.<br>3) <span style=\"color:#ff6b6b\"><b>Đau quy chiếu:</b></span> đau cảm nhận ở vị trí khác với nơi tổn thương thật, do cùng chia sẻ 1 đoạn tủy; ví dụ viêm túi mật gây đau vai phải, vỡ lách gây đau vai trái (dấu Kehr), nhồi máu cơ tim thành dưới gây đau thượng vị.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay nhầm đau quy chiếu với đau tại chỗ rồi đi tìm bệnh sai cơ quan: bệnh nhân kêu đau vai mà bụng cũng đau thì phải nghĩ tới kích thích cơ hoành; bệnh nhân kêu đau thượng vị thì đừng quên nghĩ tới tim.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.2 — đau tạng, đau thành, đau quy chiếu."
+    },
+    {
+      "id": "SURG01B-CARD-008",
+      "note_id": 1793934781374,
+      "tags": [
+        "kham-bung",
+        "phoi-thai",
+        "kehr"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style=\"color:#74c0fc\"><b>đau tạng đi theo phôi thai</b></span> chứ không theo vị trí giải phẫu hiện tại, và <span style=\"color:#74c0fc\"><b>thần kinh hoành C3–C5</b></span> giải thích đau quy chiếu lên vai ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ruột trước (dạ dày, tá tràng, gan, túi mật, tụy) gây đau ở <span style=\"color:#74c0fc\"><b>thượng vị</b></span>; ruột giữa (ruột non, ruột thừa, manh tràng, đại tràng phải) gây đau ở <span style=\"color:#74c0fc\"><b>quanh rốn</b></span>; ruột sau (đại tràng trái, trực tràng) gây đau ở <span style=\"color:#74c0fc\"><b>hạ vị</b></span>.<br>2) Viêm ruột thừa giai đoạn sớm đau quanh rốn không phải vì ruột thừa ở quanh rốn, mà vì ruột thừa là ruột giữa.<br>3) Cơ hoành do thần kinh hoành chi phối (C3–C5); dây thần kinh cảm giác ở vai cũng xuất phát từ C3–C5, nên khi máu hoặc dịch kích thích mặt dưới cơ hoành, não hiểu nhầm là đau ở vai — đó là cơ chế dấu Kehr.<br><br><b>💡 Giải thích của AI:</b><br>Quy tắc phôi thai giải thích vì sao đau sớm của viêm ruột thừa ở quanh rốn rồi mới di chuyển xuống hố chậu phải khi viêm chạm tới phúc mạc thành.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §0.1 và §1.2 — đau tạng theo phôi thai, thần kinh hoành."
+    },
+    {
+      "id": "SURG01B-CARD-009",
+      "note_id": 1793934781376,
+      "tags": [
+        "kham-bung",
+        "9-vung-bung"
+      ],
+      "type": "basic",
+      "front": "Đau ở từng vùng trong <span style=\"color:#74c0fc\"><b>9 vùng bụng</b></span> gợi ý cơ quan nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Hạ sườn phải: gan, túi mật, góc gan đại tràng, cực trên thận phải — gợi ý viêm túi mật, viêm gan, áp xe gan, sỏi đường mật.<br>2) Thượng vị: dạ dày, tá tràng, tụy — gợi ý loét dạ dày–tá tràng, viêm tụy, nhồi máu cơ tim thành dưới.<br>3) Hạ sườn trái: lách, đuôi tụy — gợi ý vỡ lách, viêm tụy, viêm đại tràng.<br>4) Hông phải: đại tràng lên, thận phải — viêm đại tràng lên, sỏi niệu quản phải, viêm thận–bể thận phải.<br>5) Quanh rốn: ruột non, mạc treo, động mạch chủ bụng — bệnh ruột giữa: viêm ruột thừa sớm, tắc ruột non, thiếu máu mạc treo.<br>6) Hông trái: đại tràng xuống, thận trái — viêm túi thừa đại tràng sigma, sỏi niệu quản trái, viêm thận–bể thận trái.<br>7) Hố chậu phải: ruột thừa, manh tràng, hồi tràng cuối, phần phụ phải ở nữ — viêm ruột thừa, nhưng ở nữ còn thai ngoài tử cung, vỡ nang, viêm phần phụ.<br>8) Hạ vị: bàng quang, tử cung, trực tràng, đại tràng sigma — bệnh bàng quang, tử cung–phần phụ, viêm túi thừa sigma.<br>9) Hố chậu trái: đại tràng sigma, phần phụ trái — viêm túi thừa đại tràng sigma, hay gặp ở người già.<br><br><b>💡 Giải thích của AI:</b><br>Bản đồ vùng giúp định hướng ban đầu, nhưng phải nhớ các ngoại lệ vị trí: ruột thừa sau manh tràng đau hông phải, ruột thừa trong tiểu khung đau hạ vị kèm triệu chứng tiết niệu.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.3 — 9 vùng bụng và cơ quan tương ứng."
+    },
+    {
+      "id": "SURG01B-CARD-010",
+      "note_id": 1793934781378,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "viem-ruot-thua"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bệnh nhân đau hông phải, không đau hố chậu phải — có loại trừ được <span style=\"color:#74c0fc\"><b>viêm ruột thừa</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không loại trừ được: ruột thừa sau manh tràng gây đau <span style=\"color:#ff6b6b\"><b>hông phải</b></span>, ruột thừa trong tiểu khung gây đau <span style=\"color:#ff6b6b\"><b>hạ vị</b></span> và triệu chứng tiết niệu.<br>2) Bản đồ 9 vùng chỉ giúp định hướng, <span style=\"color:#ff6b6b\"><b>không được dùng để loại trừ bệnh</b></span>.<br>3) Đau hố chậu phải khu trú đã đủ gợi ý viêm ruột thừa, nhưng vắng đau hố chậu phải không loại trừ được viêm ruột thừa ở vị trí bất thường.<br><br><b>💡 Giải thích của AI:</b><br>Ruột thừa có thể nằm sau manh tràng, trong tiểu khung, dưới gan hoặc bên trái trong đảo ngược phủ tạng. Vì vậy vị trí đau phải diễn giải cùng bệnh sử di chuyển đau và các dấu hiệu khác, không tin mù quáng vào bản đồ vùng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.3 và §5.1 — vị trí ruột thừa thay đổi."
+    },
+    {
+      "id": "SURG01B-CARD-011",
+      "note_id": 1793934781380,
+      "tags": [
+        "kham-bung",
+        "bung-cap"
+      ],
+      "type": "basic",
+      "front": "Bụng cấp ngoại khoa gồm những nhóm nguyên nhân lớn nào — <span style=\"color:#ff6b6b\"><b>viêm, thủng, tắc, thiếu máu và xuất huyết</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Viêm:</b></span> viêm ruột thừa, viêm túi mật, viêm tụy, viêm túi thừa đại tràng, viêm phúc mạc.<br>2) <span style=\"color:#ff6b6b\"><b>Thủng:</b></span> thủng ổ loét dạ dày–tá tràng, thủng túi thừa (ví dụ thủng túi thừa hồi tràng), thủng do chấn thương.<br>3) <span style=\"color:#ff6b6b\"><b>Tắc:</b></span> tắc ruột non, tắc ruột già, lồng ruột, thoát vị nghẹt.<br>4) <span style=\"color:#ff6b6b\"><b>Thiếu máu:</b></span> thiếu máu mạc treo, xoắn ruột, vỡ phình động mạch chủ bụng.<br>5) Ngoài 4 nhóm còn nhóm <span style=\"color:#ff6b6b\"><b>xuất huyết:</b></span> vỡ lách, vỡ thai ngoài tử cung, vỡ nang buồng trứng chảy máu.<br>6) Điểm chung: nếu không can thiệp kịp thời sẽ tiến triển thành hoại tử, thủng, viêm phúc mạc lan tỏa, nhiễm trùng huyết và tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Neo lâm sàng xuyên suốt bài là thủng túi thừa hồi tràng gây viêm phúc mạc — ví dụ về viêm phúc mạc do thủng tạng rỗng, chỉ nhắc tên bệnh làm neo, không dùng dữ kiện ca bệnh nào.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.4 — bụng cấp ngoại khoa, 4 nhóm nguyên nhân."
+    },
+    {
+      "id": "SURG01B-CARD-012",
+      "note_id": 1793934781382,
+      "tags": [
+        "kham-bung",
+        "muc-tieu"
+      ],
+      "type": "basic",
+      "front": "Mục tiêu của khám bụng là gì — gọi đúng tên bệnh ngay, hay trả lời <span style=\"color:#51cf66\"><b>3 câu hỏi</b></span> nào theo thứ tự?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mục tiêu không phải là gọi đúng tên bệnh ngay từ đầu.<br>2) Ba câu hỏi theo thứ tự: <span style=\"color:#51cf66\"><b>có viêm phúc mạc không, có cần mổ cấp cứu không, và bệnh nhân thuộc nhóm nguy cơ nào</b></span>.<br>3) Tên bệnh cụ thể sẽ được làm rõ dần bằng xét nghiệm và hình ảnh — nhưng quyết định mổ hay không mổ, theo dõi ở đâu, thì khám bụng phải trả lời được ngay.<br><br><b>💡 Giải thích của AI:</b><br>Khám bụng là để xếp bệnh nhân vào nhóm nguy cơ và quyết định mổ ngay, chụp hình ảnh ngay hay theo dõi sát rồi đánh giá lại — không phải để chẩn đoán cho đúng tên bệnh rồi mới xử trí.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §1.4 — mục tiêu của khám bụng."
+    },
+    {
+      "id": "SURG01B-CARD-013",
+      "note_id": 1793934781384,
+      "tags": [
+        "kham-bung",
+        "di-chuyen-dau"
+      ],
+      "type": "basic",
+      "front": "Vì sao đau trong viêm ruột thừa <span style=\"color:#ff6b6b\"><b>thay đổi theo thời gian</b></span> — từ quanh rốn rồi mới khu trú ở hố chậu phải?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Phúc mạc thành</b></span> nhạy cảm với mọi kích thích: chạm, kéo căng, acid, mủ, máu, dịch tiêu hóa.<br>2) <span style=\"color:#74c0fc\"><b>Phúc mạc tạng</b></span> ít nhạy cảm hơn, chỉ đáp ứng với căng, co thắt và thiếu máu — không đáp ứng với cắt, đốt hay chạm nhẹ.<br>3) Giai đoạn đầu viêm còn khu trú trong lòng ruột thừa: chỉ đau âm ỉ quanh rốn (đau tạng, ruột giữa).<br>4) Khi viêm lan ra tới phúc mạc thành ở hố chậu phải: đau mới khu trú tại hố chậu phải (đau thành) — đó là <span style=\"color:#ff6b6b\"><b>di chuyển đau</b></span> trong vòng vài giờ.<br><br><b>💡 Giải thích của AI:</b><br>Phải hỏi bệnh sử theo trình tự thời gian: đau bắt đầu ở đâu, sau đó di chuyển đi đâu, lúc nào thì đau khu trú lại. Nếu đau bắt đầu ngay tại hố chậu phải và không di chuyển, viêm ruột thừa vẫn có thể xảy ra — nhưng di chuyển đau là dấu hiệu có giá trị nhất khi nó có mặt.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.1 — vì sao đau thay đổi theo thời gian."
+    },
+    {
+      "id": "SURG01B-CARD-014",
+      "note_id": 1793934781386,
+      "tags": [
+        "kham-bung",
+        "chuoi-5-tang",
+        "viem-phuc-mac"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>chuỗi 5 tầng viêm phúc mạc</b></span> — từ kích thích tới cứng bụng?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tầng 1 (phân tử): vi khuẩn, dịch tiêu hóa, máu hoặc dịch viêm thoát ra khỏi tạng vào khoang phúc mạc, giải phóng prostaglandin, bradykinin, histamin và cytokine.<br>2) Tầng 2 (tế bào/mô): các chất trung gian viêm làm tăng tính thấm mạch máu phúc mạc, phù nề phúc mạc thành, kích thích trực tiếp các đầu mút thần kinh cảm giác ở phúc mạc thành.<br>3) Tầng 3 (lâm sàng/xét nghiệm): đau khu trú tại vùng phúc mạc bị kích thích, đau tăng khi cử động và khi ấn; bạch cầu và CRP tăng do đáp ứng viêm toàn thân.<br>4) Tầng 4 (quyết định): khám thấy đau khu trú kèm gồng hoặc cứng bụng thì nghĩ tới viêm phúc mạc và hội chẩn ngoại khoa ngay, không được cho bệnh nhân về nhà.<br>5) Tầng 5 (hậu quả): nếu bỏ qua, viêm lan ra toàn ổ bụng thành viêm phúc mạc lan tỏa, rồi nhiễm trùng huyết, suy đa tạng và tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Chuỗi này giải thích vì sao gồng bụng quan trọng hơn đau: đau là cảm giác chủ quan, bệnh nhân có thể chịu đựng hoặc mô tả không rõ; gồng là phản xạ bảo vệ không tự chủ của cơ thành bụng khi phúc mạc thành bị kích thích.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.2 — chuỗi 5 tầng viêm phúc mạc."
+    },
+    {
+      "id": "SURG01B-CARD-015",
+      "note_id": 1793934781388,
+      "tags": [
+        "kham-bung",
+        "gong",
+        "cung-bung"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\"><b>gồng tự ý, gồng không tự ý và cứng bụng</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Gồng tự ý</b></span> (voluntary): bệnh nhân tự co cơ bụng vì sợ đau hoặc vì lạnh — mất đi khi thả lỏng, thở ra hoặc đánh lạc hướng.<br>2) <span style=\"color:#ff6b6b\"><b>Gồng không tự ý</b></span> (involuntary): phản xạ bảo vệ khi phúc mạc thành bị kích thích — không mất đi khi bệnh nhân cố thả lỏng, vẫn cứng khi thở ra.<br>3) <span style=\"color:#ff6b6b\"><b>Cứng bụng</b></span> (rigidity, board-like abdomen): gồng ở mức tối đa, bụng cứng như tấm ván, không lõm xuống khi ấn — dấu hiệu viêm phúc mạc lan tỏa hoặc thủng tạng rỗng, chỉ định mổ cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt 2 loại gồng bằng cách sờ nhẹ, từ từ và quan sát trong lúc bệnh nhân thở ra: cơ bụng mềm ra khi thở ra là gồng tự ý; vẫn cứng khi thở ra là gồng không tự ý — dấu hiệu viêm phúc mạc thật.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.2 và §4.3 — gồng và cứng bụng."
+    },
+    {
+      "id": "SURG01B-CARD-016",
+      "note_id": 1793934781390,
+      "tags": [
+        "kham-bung",
+        "chuoi-5-tang",
+        "viem-ruot-thua"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>chuỗi 5 tầng di chuyển đau</b></span> trong viêm ruột thừa?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tầng 1 (phân tử): lòng ruột thừa bị tắc (thường do sỏi phân hoặc tăng sản mô lympho), vi khuẩn phát triển, áp lực trong lòng ruột thừa tăng dần.<br>2) Tầng 2 (tế bào/mô): thành ruột thừa phù nề, thiếu máu do áp lực tăng chèn ép mạch máu, vi khuẩn xâm nhập qua thành ruột, viêm lan từ niêm mạc ra tới thanh mạc.<br>3) Tầng 3 (lâm sàng/xét nghiệm): giai đoạn đầu chỉ đau tạng — đau âm ỉ quanh rốn, kèm chán ăn, buồn nôn; giai đoạn sau viêm chạm tới phúc mạc thành — đau khu trú tại hố chậu phải, tăng khi cử động và khi ho; bạch cầu và CRP tăng dần.<br>4) Tầng 4 (quyết định): di chuyển đau từ quanh rốn xuống hố chậu phải là dấu hiệu phải hỏi trong bệnh sử; khi đau đã khu trú tại hố chậu phải thì khám các dấu hiệu đặc hiệu và tính thang điểm Alvarado hoặc AIR.<br>5) Tầng 5 (hậu quả): nếu ruột thừa vỡ trước khi mổ, mủ lan ra ổ bụng gây viêm phúc mạc lan tỏa hoặc áp xe.<br><br><b>💡 Giải thích của AI:</b><br>Viêm ruột thừa tiến triển theo giờ: tắc → viêm → thiếu máu → hoại tử → thủng. Mỗi giờ trôi qua, nguy cơ thủng tăng lên — vì vậy khám bụng là để xếp nhóm nguy cơ và quyết định, không phải để chẩn đoán đúng tên rồi mới xử trí.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.3 — chuỗi 5 tầng di chuyển đau."
+    },
+    {
+      "id": "SURG01B-CARD-017",
+      "note_id": 1793934781392,
+      "tags": [
+        "kham-bung",
+        "thung",
+        "viem-ruot-thua"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ thủng trong viêm ruột thừa là {{c1::<span style=\"color:#ffd43b\"><b>13–20%</b></span>}}.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §2.3 — tổng quan lâm sàng BMJ 2017 (prose-only, không có trong bundle, không gán PMID bundle)."
+    },
+    {
+      "id": "SURG01B-CARD-018",
+      "note_id": 1793934781394,
+      "tags": [
+        "kham-bung",
+        "chuoi-5-tang",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>chuỗi 5 tầng dấu Murphy</b></span> trong viêm túi mật cấp?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tầng 1 (phân tử): sỏi kẹt ở cổ túi mật hoặc ống túi mật, mật ứ đọng, thành túi mật bị căng, các chất trung gian viêm được giải phóng tại chỗ.<br>2) Tầng 2 (tế bào/mô): thành túi mật phù nề, sung huyết, bạch cầu xâm nhập; túi mật căng to và chạm vào phúc mạc thành ở hạ sườn phải khi bệnh nhân hít sâu.<br>3) Tầng 3 (lâm sàng/xét nghiệm): khi ấn vào hạ sườn phải đúng lúc bệnh nhân hít sâu, túi mật viêm chạm vào ngón tay khám gây đau đột ngột khiến bệnh nhân ngừng thở giữa chừng — đó là dấu Murphy; kèm đau hạ sườn phải, sốt, bạch cầu tăng.<br>4) Tầng 4 (quyết định): dấu Murphy dương tính có độ đặc hiệu rất cao nên khả năng viêm túi mật cấp tăng mạnh; nhưng âm tính không loại trừ được viêm túi mật, vì độ nhạy chỉ khoảng 62%.<br>5) Tầng 5 (hậu quả): nếu bỏ qua viêm túi mật cấp vì Murphy âm tính, túi mật có thể hoại tử, thủng, gây viêm phúc mạc mật và nhiễm trùng huyết.<br><br><b>💡 Giải thích của AI:</b><br>Một dấu hiệu có thể vừa rất đặc hiệu vừa kém nhạy cùng lúc: độ đặc hiệu 96% nghĩa là khi Murphy dương tính, gần như chắc chắn là viêm túi mật; độ nhạy 62% nghĩa là trong 100 bệnh nhân viêm túi mật, chỉ 62 người có Murphy dương tính — 38 người còn lại âm tính dù đang bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.4 — chuỗi 5 tầng dấu Murphy."
+    },
+    {
+      "id": "SURG01B-CARD-019",
+      "note_id": 1793934781396,
+      "tags": [
+        "kham-bung",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "Dấu Murphy dương tính thì tin, âm tính thì sao — với độ nhạy <span style=\"color:#ffd43b\"><b>62%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>96%</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu Murphy lâm sàng: độ nhạy <span style=\"color:#ffd43b\"><b>62%</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>96%</b></span>, LR+ 15,64, LR− 0,40.<br>2) Dương tính thì tin: LR+ 15,64 làm tăng khả năng viêm túi mật cấp hơn 15 lần.<br>3) Âm tính thì không yên tâm được: LR− 0,40 chỉ làm giảm khả năng vừa phải, không loại trừ được.<br>4) Đây là mẫu chung của hầu hết dấu hiệu khám bụng: dương tính giúp khẳng định, âm tính không loại trừ.<br><br><b>💡 Giải thích của AI:</b><br>Độ đặc hiệu 96% nghĩa là khi Murphy dương tính, gần như chắc chắn là viêm túi mật; độ nhạy 62% nghĩa là 38 trong 100 bệnh nhân viêm túi mật có Murphy âm tính dù đang bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.4 và §6.1 — dấu Murphy lâm sàng (tổng quan hệ thống 2017, 3 nghiên cứu)."
+    },
+    {
+      "id": "SURG01B-CARD-020",
+      "note_id": 1793934781398,
+      "tags": [
+        "kham-bung",
+        "nguoi-gia",
+        "suy-giam-mien-dich"
+      ],
+      "type": "basic",
+      "front": "Vì sao dấu hiệu khám bụng <span style=\"color:#ff6b6b\"><b>nghèo nàn ở người già và suy giảm miễn dịch</b></span> dù bệnh nặng?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Người già: lão hóa làm giảm đáp ứng viêm — bạch cầu tăng ít hơn, sốt thấp hơn hoặc không sốt, cơ thành bụng yếu hơn nên gồng và cứng bụng ít rõ; người già thủng ổ loét có ít dấu hiệu viêm phúc mạc hơn người trẻ.<br>2) Người suy giảm miễn dịch nặng: sốt, bạch cầu tăng và viêm phúc mạc có thể nhẹ hoặc vắng hoàn toàn, vì hệ miễn dịch suy yếu không tạo được đáp ứng viêm đủ mạnh.<br>3) Người dùng corticoid dài ngày, thuốc giảm đau mạnh và đái tháo đường cũng giảm đáp ứng viêm tương tự: corticoid ức chế đáp ứng viêm, thuốc giảm đau che lấp triệu chứng, đái tháo đường tổn thương thần kinh cảm giác.<br>4) Hệ quả: khám bụng âm tính không có nghĩa là không có bệnh ngoại khoa; ngưỡng chụp CT và ngưỡng mổ thăm dò ở các nhóm này phải thấp hơn bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Ở người già, đau bụng kèm cứng bụng — dù cứng nhẹ — đã là dấu hiệu cảnh báo sớm cần phẫu thuật cấp cứu ngay; không được chờ tới khi bụng cứng như ván mới mổ, vì lúc đó đã muộn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.5 — dấu hiệu nghèo nàn ở người già và suy giảm miễn dịch."
+    },
+    {
+      "id": "SURG01B-CARD-021",
+      "note_id": 1793934781400,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Bệnh nhân 85 tuổi đau bụng âm ỉ, không sốt, bạch cầu bình thường, bụng chỉ hơi chướng — kết luận “không có gì nghiêm trọng” được không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không được kết luận như vậy: người già có thể <span style=\"color:#ff6b6b\"><b>thủng tạng rỗng mà bụng chỉ đau âm ỉ, không cứng, không sốt cao</b></span>.<br>2) Bẫy lớn nhất ở người già không phải là khám sai, mà là khám thấy ít dấu hiệu rồi kết luận không có gì nghiêm trọng.<br>3) Xử trí: ngưỡng chụp CT thấp hơn bình thường, ngưỡng hội chẩn ngoại khoa thấp hơn, không chờ tới khi bụng cứng như ván.<br><br><b>💡 Giải thích của AI:</b><br>Cơ thành bụng người già yếu, đáp ứng viêm giảm, nên gồng không rõ dù đang viêm phúc mạc nặng. Ở nhóm này, không có gồng không có nghĩa là không có viêm phúc mạc.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §2.5 — ví dụ bệnh nhân 85 tuổi."
+    },
+    {
+      "id": "SURG01B-CARD-022",
+      "note_id": 1793934781402,
+      "tags": [
+        "kham-bung",
+        "ky-thuat-kham"
+      ],
+      "type": "basic",
+      "front": "Chuẩn bị khám bụng: <span style=\"color:#51cf66\"><b>tư thế, bàn tay, thứ tự khám vùng đau</b></span> ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Quan sát tổng trạng trước: bệnh nhân viêm phúc mạc nằm yên tuyệt đối, thở nông, không dám cử động; bệnh nhân đau quặn do sỏi niệu quản hoặc tắc ruột thì bồn chồn, lăn lộn, không nằm yên được.<br>2) Tư thế: nằm ngửa, 2 chân hơi co, 2 tay xuôi theo thân, đầu kê gối thấp — làm giãn cơ thành bụng, giúp sờ sâu hơn và phân biệt gồng thật với gồng do căng cơ.<br>3) Bàn tay người khám phải ấm: tay lạnh chạm vào bụng làm bệnh nhân giật mình và gồng bụng phản xạ — gồng này là giả, không phải dấu hiệu viêm phúc mạc.<br>4) Hỏi bệnh nhân chỉ đúng chỗ đau nhất bằng 1 ngón tay trước khi sờ, rồi khám vùng đau nhất CUỐI CÙNG, không khám đầu tiên.<br><br><b>💡 Giải thích của AI:</b><br>Sờ vào vùng đau nhất trước làm bệnh nhân đau và gồng toàn bụng, sau đó không khám được các vùng khác nữa — nguyên tắc này nghe đơn giản nhưng người mới hay phạm nhất.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.1 — chuẩn bị và nguyên tắc chung."
+    },
+    {
+      "id": "SURG01B-CARD-023",
+      "note_id": 1793934781404,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "ky-thuat-kham"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Khám vùng đau nhất trước vì “muốn xem chỗ đau ra sao” — hậu quả là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân đau và <span style=\"color:#ff6b6b\"><b>gồng toàn bụng</b></span>, sau đó mọi vùng khám đều đau.<br>2) Không còn phân biệt được vùng nào đau thật, vùng nào đau do phản ứng.<br>3) Quy tắc đúng: hỏi chỗ đau nhất trước, khám vùng đau nhất <span style=\"color:#51cf66\"><b>cuối cùng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đây là lỗi người mới hay phạm nhất. Khám vùng đau nhất trước phá hỏng phần khám còn lại, trong khi chỉ cần đổi thứ tự là giữ được toàn bộ giá trị của khám bụng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.1 — học viên hay nhầm về thứ tự khám."
+    },
+    {
+      "id": "SURG01B-CARD-024",
+      "note_id": 1793934781406,
+      "tags": [
+        "kham-bung",
+        "nhin-bung"
+      ],
+      "type": "basic",
+      "front": "Nhìn bụng (inspection) đánh giá <span style=\"color:#51cf66\"><b>4 thứ</b></span> gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Hình dạng: bụng chướng căng gợi ý tắc ruột, liệt ruột, cổ trướng hoặc xuất huyết trong ổ bụng; bụng lõm gợi ý suy kiệt hoặc mất nước nặng.<br>2) Sự cân đối và cử động theo nhịp thở: bụng không di động theo nhịp thở — thở bằng ngực, bụng đứng yên — gợi ý viêm phúc mạc; nhìn thấy nhu động ruột qua thành bụng gợi ý tắc ruột.<br>3) Tổn thương da: vết bầm quanh rốn là dấu Cullen, vết bầm vùng hông là dấu Grey Turner — cả 2 đều gợi ý xuất huyết sau phúc mạc.<br>4) Vết mổ cũ và thoát vị: vết mổ cũ gợi ý dính ruột sau mổ (nguyên nhân tắc ruột hay gặp); bảo bệnh nhân ho hoặc rặn để quan sát lỗ thoát vị phồng lên — thoát vị nghẹt là nguyên nhân tắc ruột cần mổ cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Nhìn bụng đã gợi ý chẩn đoán trước khi sờ: bệnh nhân viêm phúc mạc không dám cử động cơ hoành vì đau nên bụng đứng yên khi thở; ruột giãn to co bóp mạnh để đẩy dịch qua chỗ tắc nên sóng nhu động nhìn thấy được qua thành bụng mỏng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.2 — nhìn bụng."
+    },
+    {
+      "id": "SURG01B-CARD-025",
+      "note_id": 1793934781408,
+      "tags": [
+        "kham-bung",
+        "am-ruot"
+      ],
+      "type": "basic",
+      "front": "Âm ruột có giá trị ra sao, và <span style=\"color:#ff6b6b\"><b>2 bẫy lớn</b></span> khi nghe bụng là gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Âm ruột bình thường là tiếng óc ách không đều, nghe được ở khắp bụng; tắc ruột cơ học giai đoạn sớm cho âm ruột tăng, vang, có tiếng kim loại; viêm phúc mạc lan tỏa và liệt ruột cho âm ruột giảm hoặc mất.<br>2) Bẫy 1: giáo điều phải nghe trước khi sờ và gõ vì sờ làm thay đổi nhu động ruột — thử nghiệm chéo ngẫu nhiên có đối chứng cho thấy tần suất âm ruột không khác nhau giữa thứ tự nghe–sờ–gõ và sờ–gõ–nghe.<br>3) Bẫy 2: âm ruột không khu trú theo vùng nghe và không phản ánh mức độ nhu động thật — nghiên cứu dùng siêu âm so sánh với nghe bụng cho thấy âm ruột thường có nguồn gốc không liên quan tới vùng nghe, và nhu động thường thấy trên siêu âm mà không nghe được âm.<br>4) Hệ quả: đừng dựa vào âm ruột để quyết định mổ hay không mổ; âm ruột mất không chứng minh được liệt ruột, âm ruột còn không loại trừ được viêm phúc mạc.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự truyền thống vẫn hợp lý về mặt thực hành — tránh làm bệnh nhân đau trước khi nghe — nhưng không có bằng chứng cho thấy sờ làm thay đổi âm ruột. Âm ruột chỉ là một mảnh ghép nhỏ, không bao giờ đứng một mình.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.3 — nghe bụng, âm ruột có giá trị hạn chế."
+    },
+    {
+      "id": "SURG01B-CARD-026",
+      "note_id": 1793934781410,
+      "tags": [
+        "kham-bung",
+        "am-ruot"
+      ],
+      "type": "basic",
+      "front": "Thứ tự khám {{c1::<span style=\"color:#ffd43b\"><b>không làm thay đổi tần suất âm ruột</b></span>}} đo được (thử nghiệm chéo ngẫu nhiên có đối chứng, 2019) — giáo điều “phải nghe trước khi sờ vì sờ làm thay đổi nhu động ruột” không có bằng chứng.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §3.3 và §12.1 — thử nghiệm chéo ngẫu nhiên 2019 về thứ tự khám."
+    },
+    {
+      "id": "SURG01B-CARD-027",
+      "note_id": 1793934781412,
+      "tags": [
+        "kham-bung",
+        "checkpoint",
+        "am-ruot"
+      ],
+      "type": "basic",
+      "front": "Checkpoint 1: Bệnh nhân đau bụng, nghe bụng không thấy âm ruột. Kết luận nào đúng: chắc chắn liệt ruột, chắc chắn viêm phúc mạc, hay <span style=\"color:#51cf66\"><b>không kết luận được gì</b></span> từ riêng âm ruột?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đáp án: <span style=\"color:#51cf66\"><b>không kết luận được gì từ riêng âm ruột</b></span>.<br>2) Âm ruột mất có thể gặp trong liệt ruột, viêm phúc mạc, tắc ruột giai đoạn muộn, hoặc sau dùng thuốc giảm nhu động.<br>3) Âm ruột không khu trú theo vùng nghe và không phản ánh mức nhu động thật.<br>4) Bệnh nhân viêm phúc mạc lan tỏa vẫn có thể nghe được âm ruột, và bệnh nhân tắc ruột giai đoạn muộn có thể mất âm ruột do ruột kiệt sức.<br><br><b>💡 Giải thích của AI:</b><br>Âm ruột mất không chứng minh được liệt ruột, âm ruột còn không loại trừ được viêm phúc mạc. Đừng dựa vào âm ruột để quyết định mổ hay không mổ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.3 — Checkpoint 1."
+    },
+    {
+      "id": "SURG01B-CARD-028",
+      "note_id": 1793934781414,
+      "tags": [
+        "kham-bung",
+        "go-bung",
+        "thung-tang-rong"
+      ],
+      "type": "basic",
+      "front": "Gõ bụng tìm <span style=\"color:#74c0fc\"><b>mất vùng đục gan</b></span> như thế nào, và gõ đau có ích gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bình thường gõ vùng hạ sườn phải cho tiếng đục vì gan đặc nằm sát thành bụng; khi tạng rỗng thủng, hơi thoát ra ổ bụng và tập trung dưới cơ hoành, chen giữa gan và thành bụng — gõ vùng hạ sườn phải lúc này cho tiếng vang thay vì tiếng đục, đó là <span style=\"color:#ff6b6b\"><b>mất vùng đục gan</b></span>.<br>2) Dấu hiệu này được mô tả từ một ca lâm sàng năm 1906, và vẫn được dạy tới nay.<br>3) Gõ vùng hạ vị đục gợi ý bàng quang đầy hoặc khối ở tiểu khung; gõ bụng vang khắp bụng gợi ý chướng hơi nhiều trong tắc ruột hoặc liệt ruột.<br>4) <span style=\"color:#51cf66\"><b>Gõ đau</b></span> — gõ nhẹ lên bụng mà bệnh nhân đau — là cách đánh giá viêm phúc mạc nhẹ nhàng hơn sờ mạnh; ở bệnh nhân quá đau không sờ được, gõ nhẹ từng vùng có thể xác định vùng viêm phúc mạc mà không làm bệnh nhân đau dữ dội.<br><br><b>💡 Giải thích của AI:</b><br>Gõ nhẹ từ vùng vang sang vùng đục để xác định ranh giới các tạng. Mất vùng đục gan gợi ý hơi tự do trong ổ bụng do thủng tạng rỗng, nhưng không có số liệu độ chính xác hiện đại nào cho dấu hiệu này.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.4 và §7.6 — gõ bụng, mất vùng đục gan."
+    },
+    {
+      "id": "SURG01B-CARD-029",
+      "note_id": 1793934781416,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "go-bung"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Gõ thấy mất vùng đục gan thì kết luận thủng tạng rỗng, không cần X-quang nữa — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sai: <span style=\"color:#ff6b6b\"><b>không có số liệu độ chính xác hiện đại</b></span> nào cho dấu hiệu mất vùng đục gan.<br>2) Gõ không thay thế được <span style=\"color:#51cf66\"><b>X-quang bụng đứng tìm hơi tự do dưới cơ hoành</b></span> — đó mới là xét nghiệm xác nhận.<br>3) Hơi tự do dưới cơ hoành còn có thể do sau mổ bụng, sau nội soi, hoặc thủng do chấn thương — phải diễn giải trong bối cảnh: bệnh nhân đau bụng cấp, bụng cứng, mất vùng đục gan thì nghĩ thủng tạng rỗng; bệnh nhân mới mổ bụng 2 ngày trước thì có thể là hơi sau mổ.<br>4) Ở tuyến không có X-quang ngay, hoặc bệnh nhân quá nặng không di chuyển được, gõ bụng tìm mất vùng đục gan vẫn là một mảnh ghép có ích.<br><br><b>💡 Giải thích của AI:</b><br>Dấu hiệu mô tả từ năm 1906, từ thời chưa có X-quang phổ biến. Ngày nay gõ chỉ gợi ý, X-quang mới xác nhận — và hơi tự do không phải lúc nào cũng là thủng bệnh lý.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.4 và §7.6 — mất vùng đục gan, không có số liệu hiện đại."
+    },
+    {
+      "id": "SURG01B-CARD-030",
+      "note_id": 1793934781418,
+      "tags": [
+        "kham-bung",
+        "so-bung"
+      ],
+      "type": "basic",
+      "front": "Sờ bụng: <span style=\"color:#51cf66\"><b>sờ nông, sờ sâu</b></span> và các vùng cần sờ như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Sờ nông</b></span>: đầu ngón tay ấn nhẹ khoảng 1–2 cm để tìm vùng đau, gồng nhẹ và khối nông; làm trước sờ sâu, nhẹ nhàng, quan sát mặt bệnh nhân trong lúc sờ — mặt nhăn lại ở một vùng là dấu hiệu đau, đôi khi rõ hơn lời bệnh nhân nói.<br>2) <span style=\"color:#51cf66\"><b>Sờ sâu</b></span>: ấn sâu hơn để tìm khối, tạng to và đánh giá mức độ gồng; sờ gan dưới bờ sườn phải khi hít sâu (cũng là cách làm dấu Murphy), sờ lách dưới bờ sườn trái, sờ hố chậu phải tìm điểm McBurney và đánh giá đau dội, sờ hạ vị tìm bàng quang đầy, tử cung to hoặc khối tiểu khung.<br>3) Sờ phải tìm khối: khối sờ được có thể là áp xe ruột thừa, khối u, phình động mạch chủ hoặc bàng quang đầy.<br>4) Khối đập theo nhịp tim ở thượng vị gợi ý <span style=\"color:#ff6b6b\"><b>phình động mạch chủ bụng — không được ấn mạnh khối này vì nguy cơ vỡ</b></span>; khi sờ thấy khối đập, phải nghe tiếng thổi ở đó và đo huyết áp 2 tay.<br>5) Sờ các lỗ thoát vị (bẹn, đùi, rốn) khi bệnh nhân ho hoặc rặn: thoát vị nghẹt sờ thấy khối căng, đau, không đẩy lên được — đây là cấp cứu ngoại khoa.<br><br><b>💡 Giải thích của AI:</b><br>Sờ nông trước sờ sâu, và luôn quan sát mặt bệnh nhân: phản ứng trên mặt đôi khi rõ hơn lời nói. Khối đập là cờ đỏ — ấn mạnh có thể gây vỡ phình động mạch chủ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.5 — sờ bụng nông, sâu và các nghiệm pháp."
+    },
+    {
+      "id": "SURG01B-CARD-031",
+      "note_id": 1793934781420,
+      "tags": [
+        "kham-bung",
+        "so-bung"
+      ],
+      "type": "basic",
+      "front": "Sờ nông dùng đầu ngón tay ấn nhẹ khoảng {{c1::<span style=\"color:#ffd43b\"><b>1–2 cm</b></span>}} để tìm vùng đau và gồng nhẹ. Sờ nông phải làm trước sờ sâu.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §3.5 — sờ nông ấn nhẹ 1–2 cm."
+    },
+    {
+      "id": "SURG01B-CARD-032",
+      "note_id": 1793934781422,
+      "tags": [
+        "kham-bung",
+        "checkpoint",
+        "ky-thuat-kham"
+      ],
+      "type": "basic",
+      "front": "Checkpoint 2: Vì sao phải khám <span style=\"color:#51cf66\"><b>vùng đau nhất cuối cùng</b></span>, và vì sao bàn tay khám phải ấm?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Đáp án: khám vùng đau nhất trước làm bệnh nhân đau và gồng toàn bụng, sau đó không khám được các vùng khác; tay lạnh gây gồng phản xạ giả, không phải gồng do viêm phúc mạc.<br>2) Tay lạnh chạm vào bụng làm bệnh nhân giật mình và gồng bụng phản xạ — gồng này là giả.<br>3) Tư thế nằm ngửa, 2 chân hơi co làm giãn cơ thành bụng, giúp sờ sâu hơn và phân biệt gồng thật với gồng do căng cơ.<br><br><b>💡 Giải thích của AI:</b><br>Thứ tự khám và bàn tay ấm không phải là hình thức: cả hai đều quyết định gồng khám được là gồng thật hay gồng giả, và vùng đau nhất khám trước sẽ phá hỏng phần khám còn lại.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.5 — Checkpoint 2."
+    },
+    {
+      "id": "SURG01B-CARD-033",
+      "note_id": 1793934781424,
+      "tags": [
+        "kham-bung",
+        "DRE"
+      ],
+      "type": "basic",
+      "front": "Thăm trực tràng (DRE) chẩn đoán viêm ruột thừa có độ nhạy <span style=\"color:#ffd43b\"><b>0,49</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>0,61</b></span> — kết luận thực hành là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) DRE là đưa ngón tay trỏ đã bôi trơn vào trực tràng để sờ thành trực tràng, đánh giá trương lực cơ thắt, tìm máu, tìm khối và đánh giá đau khi chạm vào thành trực tràng phía trước.<br>2) Một tổng quan hệ thống và phân tích gộp gồm 19 nghiên cứu với 7.511 bệnh nhân cho thấy DRE chẩn đoán viêm ruột thừa có độ nhạy <span style=\"color:#ffd43b\"><b>0,49</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>0,61</b></span>, LR+ <span style=\"color:#ffd43b\"><b>1,24</b></span> và LR− <span style=\"color:#ffd43b\"><b>0,85</b></span> — cả 2 đều gần 1, nghĩa là DRE gần như không thay đổi khả năng mắc bệnh.<br>3) Kết luận: DRE không dùng được để khẳng định hay loại trừ viêm ruột thừa, và không nên đưa DRE vào khám thường quy cho mọi bệnh nhân nghi viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>LR+ 1,24 và LR− 0,85 đều gần 1 nghĩa là kết quả DRE dương tính hay âm tính đều gần như không làm thay đổi xác suất viêm ruột thừa. Khám đầy đủ là khám đúng chỉ định, không phải khám mọi thứ cho mọi bệnh nhân.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.6 — thăm trực tràng (tổng quan hệ thống và phân tích gộp, 19 nghiên cứu, 7.511 bệnh nhân)."
+    },
+    {
+      "id": "SURG01B-CARD-034",
+      "note_id": 1793934781426,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "DRE"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> “Khám bụng đầy đủ thì phải thăm trực tràng cho mọi bệnh nhân nghi viêm ruột thừa” — đúng hay sai?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Không đúng: DRE không nên làm thường quy cho mọi bệnh nhân nghi viêm ruột thừa, vì độ nhạy 0,49 và độ đặc hiệu 0,61 gần như không thay đổi khả năng mắc bệnh.<br>2) DRE vẫn có ích trong một số tình huống cụ thể: nghi tắc ruột thấp, nghi áp xe tiểu khung, chảy máu tiêu hóa dưới, bí tiểu, hoặc cần đánh giá trương lực cơ thắt hậu môn.<br>3) Người học hay nhầm rằng khám bụng đầy đủ thì phải thăm trực tràng — khám đầy đủ là khám đúng chỉ định.<br><br><b>💡 Giải thích của AI:</b><br>Truyền thống dạy DRE là bước thường quy trong khám bụng cấp, nhưng bằng chứng hiện nay không ủng hộ DRE thường quy. DRE chỉ làm khi có chỉ định cụ thể.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.6 và §12.1 — DRE không thường quy."
+    },
+    {
+      "id": "SURG01B-CARD-035",
+      "note_id": 1793934781428,
+      "tags": [
+        "kham-bung",
+        "sinh-hieu",
+        "benh-nang"
+      ],
+      "type": "basic",
+      "front": "Khám toàn thân: huyết áp tâm thu <span style=\"color:#ffd43b\"><b>&lt;100 mmHg</b></span>, chỉ số sốc và đánh giá tổng thể của bác sĩ cho biết gì về bệnh nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sinh hiệu: huyết áp tâm thu dưới <span style=\"color:#ffd43b\"><b>100 mmHg</b></span> có LR+ <span style=\"color:#ffd43b\"><b>7,01</b></span> cho bệnh nặng trong đau bụng cấp — huyết áp thấp làm tăng khả năng bệnh nặng rất mạnh.<br>2) Chỉ số sốc (shock index) là mạch chia cho huyết áp tâm thu; chỉ số sốc trên <span style=\"color:#ffd43b\"><b>0,85</b></span> cũng gợi ý bệnh nặng.<br>3) Đánh giá tổng thể của bác sĩ — cảm nhận chung sau khi khám toàn diện — là dấu hiệu khẳng định bệnh nặng tốt nhất, với LR+ <span style=\"color:#ffd43b\"><b>24,6</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kinh nghiệm lâm sàng tổng hợp có giá trị lớn, nhưng người mới chưa có kinh nghiệm đó thì phải dựa vào dấu hiệu và thang điểm. Đo sinh hiệu trước, không chỉ khám bụng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.7 — khám toàn thân, huyết áp và đánh giá tổng thể."
+    },
+    {
+      "id": "SURG01B-CARD-036",
+      "note_id": 1793934781430,
+      "tags": [
+        "kham-bung",
+        "huyet-ap"
+      ],
+      "type": "basic",
+      "front": "Huyết áp tâm thu dưới {{c1::<span style=\"color:#ffd43b\"><b>100 mmHg</b></span>}} có tỉ số khả dĩ dương {{c2::<span style=\"color:#ffd43b\"><b>7,01</b></span>}} cho bệnh nặng trong đau bụng cấp.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §3.7 — huyết áp tâm thu dưới 100 mmHg, LR+ 7,01."
+    },
+    {
+      "id": "SURG01B-CARD-037",
+      "note_id": 1793934781433,
+      "tags": [
+        "kham-bung",
+        "kham-toan-than",
+        "test-thai"
+      ],
+      "type": "basic",
+      "front": "Khám toàn thân kèm theo khám bụng gồm <span style=\"color:#51cf66\"><b>tim phổi, tinh hoàn, phụ khoa và test thai</b></span> — vì sao không được bỏ qua?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khám tim phổi: nghe tim tìm tiếng thổi, nghe phổi tìm ran — viêm phổi thùy dưới và nhồi máu cơ tim đều có thể gây đau bụng.<br>2) Khám tinh hoàn ở nam đau bụng dưới: xoắn tinh hoàn gây đau lan xuống bụng dưới và dễ bị nhầm với viêm ruột thừa.<br>3) Khám phụ khoa ở nữ đau bụng dưới: đau khi di động cổ tử cung có LR+ <span style=\"color:#ffd43b\"><b>5,62</b></span> cho bệnh nặng — gợi ý thai ngoài tử cung, vỡ nang hoặc viêm phần phụ.<br>4) Làm <span style=\"color:#51cf66\"><b>test thai nước tiểu ở mọi phụ nữ trong độ tuổi sinh đẻ đau bụng dưới</b></span> trước khi chụp X-quang hoặc CT, vì thai ngoài tử cung vỡ là cấp cứu đe dọa tính mạng và dễ bị bỏ sót nếu chỉ tập trung vào bụng.<br><br><b>💡 Giải thích của AI:</b><br>Khám bụng ngoại khoa không bao giờ chỉ khám bụng. Bỏ sót nhồi máu cơ tim vì chỉ tập trung vào bụng, hay bỏ sót thai ngoài tử cung vỡ vì quên test thai, đều là sai lầm chết người.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §3.7 — khám toàn thân kèm theo."
+    },
+    {
+      "id": "SURG01B-CARD-038",
+      "note_id": 1793934781435,
+      "tags": [
+        "kham-bung",
+        "dau-khi-an"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Đau khi ấn</b></span> nhạy hay đặc hiệu, và phải mô tả theo những yếu tố nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau khi ấn là đau xuất hiện khi người khám ấn vào một vùng bụng — dấu hiệu cơ bản nhất và <span style=\"color:#ff6b6b\"><b>nhạy nhất</b></span> của viêm phúc mạc khu trú.<br>2) Phải mô tả theo 3 yếu tố: <span style=\"color:#74c0fc\"><b>vị trí, mức độ và có lan hay không</b></span> — vị trí gợi ý cơ quan gây bệnh, mức độ phản ánh mức độ viêm, lan ra toàn bụng gợi ý viêm phúc mạc lan tỏa.<br>3) Đau khi ấn là dấu hiệu nhạy nhưng <span style=\"color:#ff6b6b\"><b>không đặc hiệu</b></span>: nhiều bệnh không phải ngoại khoa cũng gây đau khi ấn (viêm dạ dày–ruột, viêm bàng quang, đau cơ thành bụng).<br>4) Vì vậy đau khi ấn một mình không đủ để quyết định mổ — phải kết hợp với đau dội, gồng, cứng bụng, sốt, bạch cầu tăng.<br><br><b>💡 Giải thích của AI:</b><br>Gần như bệnh nhân viêm phúc mạc nào cũng đau khi ấn, nhưng nhiều bệnh khác cũng đau khi ấn. Ví dụ: bệnh nhân đau khi ấn hố chậu phải kèm đau dội và sốt thì khả năng viêm ruột thừa cao hơn nhiều so với bệnh nhân chỉ đau khi ấn mà không có dấu hiệu nào khác.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.1 — đau khi ấn."
+    },
+    {
+      "id": "SURG01B-CARD-039",
+      "note_id": 1793934781437,
+      "tags": [
+        "kham-bung",
+        "dau-doi",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Đau dội (dấu Blumberg)</b></span> làm ra sao, và vì sao nó là dấu hiệu gây tranh cãi nhất — trẻ em LR 3,0 nhưng người lớn “không có giá trị dự báo”?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau dội là đau xuất hiện khi người khám ấn sâu vào bụng rồi thả tay ra đột ngột; đau lúc thả tay mạnh hơn đau lúc ấn vào. Cách làm đúng: ấn từ từ, sâu dần trong vài giây, giữ yên một lúc, rồi thả ra nhanh.<br>2) Nghiên cứu trẻ em nghi viêm ruột thừa: đau dội có LR <span style=\"color:#ffd43b\"><b>3,0</b></span> (tăng khả năng viêm ruột thừa 3 lần); vắng đau dội có LR <span style=\"color:#ffd43b\"><b>0,28</b></span> (làm giảm khả năng đáng kể).<br>3) Nghiên cứu tiền cứu trên 142 bệnh nhân người lớn đau bụng cấp: đau dội <span style=\"color:#ff6b6b\"><b>không có giá trị dự báo</b></span> viêm phúc mạc.<br>4) Hai nghiên cứu mâu thuẫn vì quần thể khác nhau (trẻ em đã nghi viêm ruột thừa, chuẩn vàng là viêm ruột thừa) và câu hỏi khác nhau (người lớn đau bụng không chọn lọc, chuẩn vàng là viêm phúc mạc).<br>5) Dạy đúng: đau dội có giá trị trong bối cảnh nghi viêm ruột thừa, đặc biệt ở trẻ em; đau dội không phải là test sàng lọc viêm phúc mạc chung cho mọi bệnh nhân đau bụng.<br><br><b>💡 Giải thích của AI:</b><br>Đau dội là nghiệm pháp gây đau cho bệnh nhân — đừng làm mạnh tay nhiều lần ở cùng một vùng, một lần làm đúng kỹ thuật là đủ để kết luận. Đau dội chỉ cho biết có kích thích phúc mạc thành hay không, không cho biết mức độ nặng của bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.2 và §12.1 — đau dội, nghiên cứu trẻ em JAMA 2007 (PMID 17652298) và nghiên cứu người lớn 142 bệnh nhân."
+    },
+    {
+      "id": "SURG01B-CARD-040",
+      "note_id": 1793934781439,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "dau-doi"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Đau dội âm tính nghĩa là không có viêm phúc mạc — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đúng: trong nghiên cứu trẻ em, vắng đau dội chỉ làm giảm khả năng viêm ruột thừa (LR− 0,28), <span style=\"color:#ff6b6b\"><b>không loại trừ được</b></span>.<br>2) Trong nghiên cứu người lớn, đau dội thậm chí không có giá trị dự báo viêm phúc mạc.<br>3) Đau dội âm tính không có nghĩa là không có viêm phúc mạc — phải kết hợp dấu hiệu, thang điểm, xét nghiệm và hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay nhầm rằng đau dội càng mạnh thì bệnh càng nặng — không đúng: đau dội chỉ cho biết có kích thích phúc mạc thành hay không, không cho biết mức độ nặng của bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.2 — học viên hay nhầm về đau dội âm tính."
+    },
+    {
+      "id": "SURG01B-CARD-041",
+      "note_id": 1793934781441,
+      "tags": [
+        "kham-bung",
+        "gong",
+        "cung-bung"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\"><b>gồng tự ý, gồng không tự ý và cứng bụng</b></span> bằng cách nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Gồng tự ý</b></span>: bệnh nhân tự co cơ bụng vì sợ đau hoặc vì lạnh — mất đi khi bệnh nhân thả lỏng, thở ra hoặc đánh lạc hướng.<br>2) <span style=\"color:#ff6b6b\"><b>Gồng không tự ý</b></span>: phản xạ bảo vệ khi phúc mạc thành bị kích thích — không mất đi khi bệnh nhân cố thả lỏng, vẫn cứng khi thở ra.<br>3) Phân biệt bằng cách sờ nhẹ, từ từ và quan sát trong lúc bệnh nhân thở ra: cơ bụng mềm ra khi thở ra là gồng tự ý; vẫn cứng khi thở ra là gồng không tự ý — dấu hiệu viêm phúc mạc thật.<br>4) <span style=\"color:#ff6b6b\"><b>Cứng bụng</b></span>: gồng ở mức tối đa, toàn bộ bụng cứng như tấm ván — dấu hiệu viêm phúc mạc lan tỏa hoặc thủng tạng rỗng; khi bụng đã cứng như ván, không cần làm thêm nghiệm pháp nào nữa, đây là chỉ định hội chẩn ngoại khoa cấp cứu và chuẩn bị mổ.<br><br><b>💡 Giải thích của AI:</b><br>Gồng thật là phản xạ bảo vệ không tự chủ của cơ thành bụng khi phúc mạc thành bị kích thích — cơ bụng co cứng lại để bảo vệ vùng viêm khỏi bị chạm vào.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.3 — gồng và cứng bụng."
+    },
+    {
+      "id": "SURG01B-CARD-042",
+      "note_id": 1793934781443,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Người già dùng corticoid, bụng không gồng — có kết luận không có viêm phúc mạc được không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Người già, người suy kiệt và người dùng corticoid có thể <span style=\"color:#ff6b6b\"><b>không gồng rõ dù đang viêm phúc mạc nặng</b></span>, vì cơ thành bụng của họ yếu và đáp ứng viêm giảm.<br>2) Ở nhóm này, không có gồng không có nghĩa là không có viêm phúc mạc.<br>3) Ở người già, đau bụng kèm cứng bụng — dù cứng nhẹ — đã là dấu hiệu cảnh báo sớm cần phẫu thuật cấp cứu ngay.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy này nối với §2.5: đáp ứng viêm giảm làm dấu hiệu nghèo nàn dù bệnh nặng. Ngưỡng chụp CT và hội chẩn ở các nhóm này phải thấp hơn bình thường, không được chờ tới khi bụng cứng như ván.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.3 — bẫy gồng ở người già và người dùng corticoid."
+    },
+    {
+      "id": "SURG01B-CARD-043",
+      "note_id": 1793934781445,
+      "tags": [
+        "kham-bung",
+        "viem-phuc-mac"
+      ],
+      "type": "basic",
+      "front": "Tóm lại độ chính xác của <span style=\"color:#ff6b6b\"><b>3 dấu hiệu viêm phúc mạc</b></span> — đau khi ấn, đau dội, gồng/cứng bụng — ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Đau khi ấn</b></span> là dấu hiệu nhạy nhất nhưng ít đặc hiệu nhất — gần như bệnh nhân viêm phúc mạc nào cũng đau khi ấn, nhưng nhiều bệnh khác cũng đau khi ấn.<br>2) <span style=\"color:#ff6b6b\"><b>Đau dội</b></span> có giá trị vừa phải trong bối cảnh nghi viêm ruột thừa, nhưng không có giá trị dự báo viêm phúc mạc chung ở người lớn đau bụng không chọn lọc.<br>3) <span style=\"color:#ff6b6b\"><b>Gồng không tự ý và cứng bụng</b></span> là dấu hiệu đặc hiệu nhất — khi đã cứng bụng thì gần như chắc chắn có viêm phúc mạc nặng, nhưng nhiều bệnh nhân viêm phúc mạc sớm chưa cứng bụng.<br>4) Vì vậy không có dấu hiệu nào đứng một mình được: đau khi ấn khu trú + đau dội + gồng + sốt + bạch cầu tăng thì khả năng viêm phúc mạc cao; ngược lại, bụng mềm, không đau khi ấn, không gồng, không sốt, bạch cầu bình thường thì khả năng viêm phúc mạc thấp — nhưng vẫn chưa loại trừ được hoàn toàn ở người già và suy giảm miễn dịch.<br><br><b>💡 Giải thích của AI:</b><br>Độ nhạy và độ đặc hiệu đi ngược nhau: dấu hiệu nhạy nhất (đau khi ấn) thì ít đặc hiệu nhất, dấu hiệu đặc hiệu nhất (cứng bụng) thì xuất hiện muộn. Vì vậy phải kết hợp nhiều dấu hiệu và thang điểm.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.4 — độ chính xác của các dấu hiệu viêm phúc mạc."
+    },
+    {
+      "id": "SURG01B-CARD-044",
+      "note_id": 1793934781447,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "viem-phuc-mac"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>CỜ ĐỎ TUYỆT ĐỐI:</b></span> Bụng cứng như ván, đau khắp bụng, nằm yên tuyệt đối, thở nông, huyết áp tụt — xử trí ngay như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu hiệu: bụng cứng như ván, đau khắp bụng, bệnh nhân nằm yên tuyệt đối, thở nông, kèm huyết áp tụt hoặc mạch nhanh.<br>2) Xử trí: <span style=\"color:#51cf66\"><b>hội chẩn ngoại khoa cấp cứu ngay, đặt 2 đường truyền tĩnh mạch lớn, lấy máu làm xét nghiệm, chụp X-quang bụng đứng tìm hơi tự do, không cho ăn uống, không cho thuốc giảm đau mạnh che lấp triệu chứng trước khi ngoại khoa đánh giá</b></span>.<br>3) Không được cho bệnh nhân về nhà hoặc chuyển tuyến chậm trong tình huống này.<br><br><b>💡 Giải thích của AI:</b><br>Đây là viêm phúc mạc toàn thể — cấp cứu ngoại khoa. Bụng cứng như ván là viêm phúc mạc lan tỏa hoặc thủng tạng rỗng cho tới khi chứng minh ngược lại; không chờ xét nghiệm hay hình ảnh mới hội chẩn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §4.4 — BOX ĐỎ viêm phúc mạc toàn thể."
+    },
+    {
+      "id": "SURG01B-CARD-045",
+      "note_id": 1793934781449,
+      "tags": [
+        "kham-bung",
+        "mcburney"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Điểm McBurney</b></span> nằm ở đâu, và giá trị của nó là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điểm McBurney là điểm nằm ở <span style=\"color:#ffd43b\"><b>1/3 ngoài của đường nối gai chậu trước trên phải với rốn</b></span>.<br>2) Đây là <span style=\"color:#ff6b6b\"><b>điểm đau nhất</b></span> trên thành bụng trước trong viêm ruột thừa điển hình.<br>3) Giá trị: khi viêm ruột thừa điển hình, vùng hố chậu phải là nơi đau nhất, và điểm McBurney là điểm chuẩn để mô tả vị trí đau đó.<br>4) Đau hố chậu phải khu trú đã đủ gợi ý, dù điểm đau nhất lệch đi vài cm so với điểm McBurney chuẩn; ngược lại, ấn điểm McBurney không đau không loại trừ được viêm ruột thừa, đặc biệt khi ruột thừa nằm sau manh tràng hoặc trong tiểu khung.<br><br><b>💡 Giải thích của AI:</b><br>Điểm McBurney là điểm chuẩn để mô tả vị trí đau, không phải là một test phải tìm đúng mới chẩn đoán được. Người học hay nhầm rằng phải tìm đúng điểm McBurney mới chẩn đoán được viêm ruột thừa — không đúng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.1 — điểm McBurney."
+    },
+    {
+      "id": "SURG01B-CARD-046",
+      "note_id": 1793934781451,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "mcburney"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Điểm McBurney là vị trí giải phẫu của ruột thừa — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đúng: điểm McBurney là <span style=\"color:#ff6b6b\"><b>điểm đau nhất trên thành bụng trước</b></span>, không phải vị trí giải phẫu của ruột thừa.<br>2) Ruột thừa có thể nằm ở nhiều vị trí khác nhau: sau manh tràng, trong tiểu khung, dưới gan, hoặc bên trái trong trường hợp đảo ngược phủ tạng.<br>3) Vì vậy ấn vào điểm McBurney đau không có nghĩa ruột thừa nằm đúng ở đó; ấn điểm McBurney không đau cũng không loại trừ được viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy này nối với bản đồ 9 vùng (§1.3): vị trí đau gợi ý cơ quan, nhưng vị trí ruột thừa thay đổi nên không được dùng điểm McBurney để định vị ruột thừa hay để loại trừ bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.1 — bẫy điểm McBurney."
+    },
+    {
+      "id": "SURG01B-CARD-047",
+      "note_id": 1793934781453,
+      "tags": [
+        "kham-bung",
+        "rovsing"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Rovsing</b></span> làm như thế nào, cơ chế ra sao, và dương tính/âm tính đọc như thế nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Cách làm: ấn sâu vào hố chậu trái (bên không đau), giữ vài giây, rồi hỏi bệnh nhân có đau ở hố chậu phải không.<br>2) Cơ chế: ấn vào đại tràng trái đẩy hơi và dịch trong đại tràng về phía manh tràng và ruột thừa, làm tăng áp lực tại ruột thừa viêm và gây đau ở hố chậu phải.<br>3) Dương tính gợi ý viêm ruột thừa, nhưng độ nhạy thấp — độ nhạy gộp với psoas và obturator chỉ 0,16–0,27.<br>4) Quy tắc: Rovsing dương tính thì gợi ý chẩn đoán (rule-in), Rovsing âm tính không loại trừ được bệnh.<br>5) Kỹ thuật hay bị làm sai: ấn quá nông hoặc quá nhanh, không đủ áp lực để đẩy hơi về phía manh tràng — phải ấn sâu, từ từ và giữ áp lực vài giây rồi mới hỏi bệnh nhân đau ở đâu.<br><br><b>💡 Giải thích của AI:</b><br>Độ nhạy và độ đặc hiệu của dấu Rovsing dao động rất rộng giữa các nghiên cứu, một phần vì kỹ thuật làm không chuẩn. Ấn sâu, từ từ, giữ vài giây là điều kiện để dấu này có giá trị.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.2 — dấu Rovsing."
+    },
+    {
+      "id": "SURG01B-CARD-048",
+      "note_id": 1793934781455,
+      "tags": [
+        "kham-bung",
+        "rovsing",
+        "psoas",
+        "obturator"
+      ],
+      "type": "basic",
+      "front": "Độ nhạy gộp của ba dấu này là {{c1::<span style=\"color:#ffd43b\"><b>0,16–0,27</b></span>}}. Độ đặc hiệu gộp là {{c2::<span style=\"color:#ffd43b\"><b>0,86–0,89</b></span>}}. LR+ gộp là {{c3::<span style=\"color:#ffd43b\"><b>1,49–2,06</b></span>}}. LR− gộp là {{c4::<span style=\"color:#ffd43b\"><b>0,83–0,94</b></span>}}. Dương tính gợi ý, âm tính gần như không làm giảm khả năng viêm ruột thừa.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §5.2 — độ chính xác gộp Rovsing, psoas và obturator."
+    },
+    {
+      "id": "SURG01B-CARD-049",
+      "note_id": 1793934781460,
+      "tags": [
+        "kham-bung",
+        "psoas"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu psoas</b></span> làm như thế nào, và vì sao nó gắn với ruột thừa sau manh tràng?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Cách làm theo mô tả gốc của Cope năm 1921: bệnh nhân thường co đùi để giảm đau; cho bệnh nhân nằm nghiêng sang bên trái, rồi duỗi đùi phải tối đa — nếu đau ở hố chậu phải thì dương tính.<br>2) Cơ chế: ruột thừa nằm sau manh tràng, sát cơ thắt lưng chậu (iliopsoas); khi ruột thừa viêm, nó kích thích cơ thắt lưng chậu nằm ngay sau nó; duỗi đùi làm căng cơ thắt lưng chậu, cơ căng chà xát vào ruột thừa viêm và gây đau.<br>3) Dấu psoas hay dương tính khi ruột thừa nằm sau manh tràng (retrocecal appendix); ruột thừa ở vị trí trước manh tràng thường không gây dấu psoas.<br>4) Vì vậy dấu psoas âm tính không loại trừ được viêm ruột thừa — nó chỉ có ý nghĩa khi ruột thừa nằm sau manh tràng.<br>5) Dấu psoas chỉ gợi ý, không khẳng định: còn gặp trong áp xe cơ thắt lưng chậu, viêm khớp háng hoặc bệnh lý cột sống thắt lưng.<br><br><b>💡 Giải thích của AI:</b><br>Giá trị của dấu psoas gắn với vị trí ruột thừa: dương tính gợi ý ruột thừa sau manh tràng, âm tính chỉ nói ruột thừa không ở vị trí đó (hoặc không viêm đủ để kích thích cơ), không nói là không có viêm ruột thừa.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.3 — dấu psoas (Cope 1921)."
+    },
+    {
+      "id": "SURG01B-CARD-050",
+      "note_id": 1793934781462,
+      "tags": [
+        "kham-bung",
+        "obturator"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu obturator</b></span> làm như thế nào, và vì sao ruột thừa trong tiểu khung gây triệu chứng tiết niệu?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Cách làm: bệnh nhân nằm ngửa, gấp đùi phải 90 độ, rồi xoay trong cẳng chân (xoay đùi vào trong) — nếu đau ở hạ vị hoặc hố chậu phải thì dương tính.<br>2) Cơ chế: ruột thừa nằm trong tiểu khung, sát cơ bịt trong (obturator internus) ở thành chậu; khi ruột thừa viêm, nó kích thích cơ bịt trong; xoay trong đùi làm căng cơ bịt trong, gây đau.<br>3) Dấu obturator hay dương tính khi ruột thừa nằm trong tiểu khung (pelvic appendix).<br>4) Ruột thừa trong tiểu khung còn gây triệu chứng tiết niệu (tiểu gấp, tiểu rắt) và triệu chứng trực tràng (mót rặn, tiêu chảy) vì nó nằm sát bàng quang và trực tràng — bệnh nhân có thể đi khám vì tiểu gấp hoặc tiêu chảy, không phải vì đau bụng.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bẫy lớn: bệnh nhân kêu tiểu gấp, tiểu rắt, nghĩ là viêm bàng quang, nhưng thật ra là viêm ruột thừa trong tiểu khung. Khi bệnh nhân có triệu chứng tiết niệu kèm đau hạ vị, phải sờ bụng và nghĩ tới ruột thừa trong tiểu khung.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.4 — dấu obturator."
+    },
+    {
+      "id": "SURG01B-CARD-051",
+      "note_id": 1793934781464,
+      "tags": [
+        "kham-bung",
+        "dunphy",
+        "markle"
+      ],
+      "type": "basic",
+      "front": "Dấu Dunphy, <span style=\"color:#74c0fc\"><b>Markle</b></span> và <span style=\"color:#74c0fc\"><b>speed bumps</b></span> có nguyên lý chung gì, và nghiệm pháp Markle làm ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cả 3 nghiệm pháp đều dựa trên cùng một nguyên lý: cử động và chấn động làm tăng đau khi có viêm phúc mạc.<br>2) <span style=\"color:#ff6b6b\"><b>Dấu Dunphy:</b></span> đau tăng lên khi ho — ho làm tăng áp lực trong ổ bụng đột ngột, kích thích phúc mạc thành đang viêm; gợi ý viêm phúc mạc nhưng không đặc hiệu cho viêm ruột thừa.<br>3) <span style=\"color:#ff6b6b\"><b>Nghiệm pháp Markle</b></span> (heel drop test): bảo bệnh nhân kiễng chân lên rồi thả gót xuống đất đột ngột, gây chấn động toàn thân; nếu đau bụng tăng lên khi gót chạm đất thì dương tính.<br>4) Một nghiên cứu trên 292 bệnh nhân người lớn nghi viêm ruột thừa cho thấy nghiệm pháp heel drop có giá trị dự báo cao hơn đau dội; điểm MESH (di chuyển đau, bạch cầu tăng, shift trái và heel drop dương tính) có AUC 0,805, tốt hơn thang Alvarado là 0,701 trong nghiên cứu này.<br>5) Người học không cần nhớ hết tên các nghiệm pháp — chỉ cần nhớ nguyên lý: bất cứ cử động nào làm đau bụng tăng lên (ho, đi lại, nảy người, đi xe qua gờ giảm tốc) đều gợi ý viêm phúc mạc.<br><br><b>💡 Giải thích của AI:</b><br>Chấn động làm phúc mạc viêm bị kích thích — đó là cơ chế chung nối Dunphy, Markle và speed bumps. Heel drop là nghiệm pháp đơn giản làm được ngay tại giường bệnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.5 — Dunphy, Markle và speed bumps."
+    },
+    {
+      "id": "SURG01B-CARD-052",
+      "note_id": 1793934781466,
+      "tags": [
+        "kham-bung",
+        "speed-bumps"
+      ],
+      "type": "basic",
+      "front": "Nghiệm pháp <span style=\"color:#74c0fc\"><b>speed bumps</b></span> (đau khi đi qua gờ giảm tốc) có độ nhạy <span style=\"color:#ffd43b\"><b>97%</b></span> và LR− <span style=\"color:#ffd43b\"><b>0,1</b></span> — dùng để khẳng định hay loại trừ?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đau tăng khi đi qua gờ giảm tốc có độ nhạy <span style=\"color:#ffd43b\"><b>97%</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>30%</b></span>, LR+ 1,4, LR− <span style=\"color:#ffd43b\"><b>0,1</b></span>.<br>2) LR− 0,1 nghĩa là không đau khi qua gờ giảm tốc làm giảm khả năng viêm ruột thừa rất mạnh — đây là nghiệm pháp tốt để loại trừ.<br>3) Độ đặc hiệu chỉ 30% nghĩa là nhiều bệnh không phải viêm ruột thừa cũng đau khi qua gờ giảm tốc — nghiệm pháp không tốt để khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Speed bumps là biến thể của cùng nguyên lý chấn động như Dunphy và Markle, nhưng có LR− rất thấp (0,1) nên giá trị nằm ở phía loại trừ: âm tính thì yên tâm hơn, dương tính thì chưa nói được gì nhiều.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.5 — nghiệm pháp speed bumps (nghiên cứu tiền cứu 101 bệnh nhân; BMJ 2012, PMID 23247977)."
+    },
+    {
+      "id": "SURG01B-CARD-053",
+      "note_id": 1793934781468,
+      "tags": [
+        "kham-bung",
+        "checkpoint",
+        "rovsing"
+      ],
+      "type": "basic",
+      "front": "Checkpoint 3: Bệnh nhân nghi viêm ruột thừa, dấu Rovsing, psoas và obturator đều âm tính. Kết luận nào đúng: loại trừ được viêm ruột thừa, hay <span style=\"color:#51cf66\"><b>không loại trừ được</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đáp án: <span style=\"color:#51cf66\"><b>không loại trừ được, vẫn cần tính thang điểm và làm thêm xét nghiệm</b></span>.<br>2) Độ nhạy gộp của 3 dấu Rovsing, psoas và obturator chỉ 0,16–0,27, tỉ số khả dĩ âm gần bằng 1 (0,83–0,94).<br>3) Âm tính gần như không làm giảm khả năng viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>Ba dấu này chỉ có ý nghĩa khi dương tính (gợi ý, rule-in); khi âm tính thì gần như không có thông tin. Người học hay nhầm rằng cả 3 dấu âm tính thì loại trừ được viêm ruột thừa — đây là bẫy 2 trong §12.2.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.5 — Checkpoint 3."
+    },
+    {
+      "id": "SURG01B-CARD-054",
+      "note_id": 1793934781470,
+      "tags": [
+        "kham-bung",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Thang điểm <span style=\"color:#74c0fc\"><b>Alvarado</b></span> gồm những yếu tố nào (MANTRELS) và phân tầng ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thang điểm gồm 8 yếu tố, tổng 10 điểm, nhớ bằng từ viết tắt <span style=\"color:#74c0fc\"><b>MANTRELS</b></span>: di chuyển đau từ quanh rốn xuống hố chậu phải 1 điểm; chán ăn 1; buồn nôn hoặc nôn 1; đau khi ấn ở hố chậu phải 2; đau dội 1; sốt trên 37,5°C 1; bạch cầu tăng trên 10,0×10⁹/L 2; bạch cầu đa nhân non tăng (shift trái) 1.<br>2) Phân tầng: 0–4 điểm là không chắc viêm ruột thừa, 5–6 điểm là nghi ngờ, 7–8 điểm là có thể, 9–10 điểm là rất có thể.<br>3) Thang điểm Alvarado (1986) là thang điểm lâu đời nhất và được dùng rộng rãi nhất để đánh giá viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>MANTRELS gộp cả bệnh sử (di chuyển đau, chán ăn, buồn nôn), khám (đau hố chậu phải 2 điểm, đau dội, sốt) và xét nghiệm (bạch cầu 2 điểm, shift trái). Đau hố chậu phải và bạch cầu tăng được 2 điểm vì có trọng số lớn nhất.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.6 — thang điểm Alvarado (1986), MANTRELS."
+    },
+    {
+      "id": "SURG01B-CARD-055",
+      "note_id": 1793934781472,
+      "tags": [
+        "kham-bung",
+        "alvarado",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Thang điểm Alvarado dùng để <span style=\"color:#51cf66\"><b>loại trừ</b></span> hay <span style=\"color:#ff6b6b\"><b>khẳng định</b></span> viêm ruột thừa — với ngưỡng 5 (nhạy 99%) và ngưỡng 7 (đặc hiệu 81%)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Ngưỡng 5 điểm để loại trừ có độ nhạy <span style=\"color:#ffd43b\"><b>99%</b></span> ở mọi nhóm (nam 96%, nữ 99%, trẻ em 99%) theo tổng quan hệ thống gồm 42 nghiên cứu — bệnh nhân có Alvarado dưới 5 điểm thì khả năng viêm ruột thừa rất thấp, có thể về nhà theo dõi hoặc làm ít xét nghiệm hơn.<br>2) Ngược lại, ngưỡng 7 điểm để khẳng định chỉ có độ đặc hiệu <span style=\"color:#ffd43b\"><b>81%</b></span> toàn bộ (nam 57%, nữ 73%, trẻ em 76%) — bệnh nhân có Alvarado 7 điểm trở lên vẫn có thể không phải viêm ruột thừa, đặc biệt ở nam (độ đặc hiệu chỉ 57%).<br>3) WSES 2020 khuyến cáo yếu (Weak, 2B) chống lại việc dùng Alvarado để khẳng định viêm ruột thừa ở người lớn.<br>4) Hiệu chuẩn không đều: thang điểm hiệu chuẩn tốt ở nam ở mọi tầng nguy cơ, nhưng dự báo cao hơn thực tế ở trẻ em (tầng trung gian và cao) và ở nữ (mọi tầng).<br><br><b>💡 Giải thích của AI:</b><br>Dùng Alvarado để khẳng định sẽ dẫn tới nhiều ca mổ âm tính (mổ ra không phải viêm ruột thừa), đặc biệt ở nữ trẻ. Dạy đúng: dùng Alvarado để quyết định ai có thể về, không dùng để quyết định ai phải mổ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.6 và §12.1 — Alvarado: ngưỡng 5 loại trừ, ngưỡng 7 khẳng định; WSES 2020."
+    },
+    {
+      "id": "SURG01B-CARD-056",
+      "note_id": 1793934781474,
+      "tags": [
+        "kham-bung",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Ngưỡng {{c1::<span style=\"color:#ffd43b\"><b>5 điểm</b></span>}} của thang điểm Alvarado để loại trừ viêm ruột thừa có độ nhạy {{c2::<span style=\"color:#ffd43b\"><b>99%</b></span>}}. Độ nhạy theo nhóm: nam 96%, nữ 99%, trẻ em 99%.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §5.6 — Alvarado ngưỡng 5 điểm, độ nhạy 99%."
+    },
+    {
+      "id": "SURG01B-CARD-057",
+      "note_id": 1793934781477,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Bệnh nhân nam 25 tuổi, Alvarado 8 điểm — chắc chắn viêm ruột thừa, mổ ngay không cần chụp hình ảnh?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Không đúng: WSES 2020 khuyến cáo yếu (Weak, 2B) chống lại việc dùng Alvarado để khẳng định viêm ruột thừa ở người lớn.<br>2) Ngưỡng 7 điểm để khẳng định chỉ có độ đặc hiệu 81% toàn bộ, và ở nam chỉ 57% — bệnh nhân Alvarado 7 điểm trở lên vẫn có thể không phải viêm ruột thừa.<br>3) Dùng Alvarado để khẳng định sẽ dẫn tới nhiều ca mổ âm tính, đặc biệt ở nữ trẻ (thang điểm dự báo cao hơn thực tế ở nữ mọi tầng).<br>4) Xử trí đúng: bệnh nhân Alvarado 8 điểm có khả năng viêm ruột thừa cao nhưng vẫn cần chụp hình ảnh để xác nhận trước mổ (Checkpoint 4).<br><br><b>💡 Giải thích của AI:</b><br>Alvarado đủ nhạy để loại trừ nhưng không đủ đặc hiệu để khẳng định. Đây là mâu thuẫn 6 trong §12.1: dạy Alvarado để quyết định ai có thể về, không dùng để quyết định ai phải mổ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.6, §5.8 (Checkpoint 4) và §12.1 — bẫy Alvarado."
+    },
+    {
+      "id": "SURG01B-CARD-058",
+      "note_id": 1793934781479,
+      "tags": [
+        "kham-bung",
+        "AIR"
+      ],
+      "type": "basic",
+      "front": "Thang điểm <span style=\"color:#74c0fc\"><b>AIR</b></span> gồm những yếu tố nào và phân tầng ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Thang điểm gồm 7 yếu tố, tổng 12 điểm: nôn 1; đau ở hố chậu phải 1; đau dội hoặc căng cơ nhẹ 1, vừa 2, mạnh 3; sốt từ 38,5°C trở lên 1; bạch cầu 10–14×10⁹/L 1, từ 15×10⁹/L trở lên 2; bạch cầu trung tính 70–84% 1, từ 85% trở lên 2; CRP 10–49 mg/L 1, từ 50 mg/L trở lên 2.<br>2) Phân tầng: 0–4 điểm là nguy cơ thấp, 5–8 điểm là nguy cơ trung gian, 9–12 điểm là nguy cơ cao; ngưỡng nguy cơ thấp gần đây được điều chỉnh từ 4 điểm xuống còn 3 điểm.<br>3) AIR bổ sung CRP và phân tầng bạch cầu chi tiết hơn Alvarado.<br><br><b>💡 Giải thích của AI:</b><br>AIR cho điểm theo mức độ (đau dội/căng cơ 1–3 điểm, bạch cầu và CRP theo tầng) thay vì có/không như Alvarado, nên phản ánh mức độ viêm tinh tế hơn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.7 — thang điểm AIR."
+    },
+    {
+      "id": "SURG01B-CARD-059",
+      "note_id": 1793934781481,
+      "tags": [
+        "kham-bung",
+        "AIR",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Vì sao thang điểm <span style=\"color:#74c0fc\"><b>AIR tốt hơn Alvarado</b></span> khi có CRP — AUC 0,86 so với 0,79?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) WSES 2020 đánh giá AIR và AAS là 2 thang điểm tốt nhất hiện nay, có khả năng phân biệt cao nhất ở người lớn nghi viêm ruột thừa.<br>2) Tổng quan hệ thống và phân tích gộp năm 2025 (26 báo cáo, 15.699 bệnh nhân): AUC của AIR là <span style=\"color:#ffd43b\"><b>0,86</b></span>, tốt hơn Alvarado là <span style=\"color:#ffd43b\"><b>0,79</b></span>; với viêm ruột thừa tiến triển (phức tạp), AIR là 0,93 so với Alvarado là 0,88.<br>3) AIR trên 4 điểm có độ nhạy 0,91; AIR trên 3 điểm có độ nhạy 0,95; AIR trên 8 điểm có độ đặc hiệu 0,98.<br>4) AIR vừa loại trừ tốt hơn (ngưỡng thấp nhạy hơn), vừa khẳng định tốt hơn (ngưỡng cao đặc hiệu hơn) so với Alvarado.<br>5) Vì vậy khi có đủ xét nghiệm CRP và bạch cầu trung tính thì dùng AIR thay cho Alvarado; khi không có CRP — ví dụ tuyến huyện chưa làm được CRP — thì dùng Alvarado vẫn được, vì Alvarado không cần CRP.<br><br><b>💡 Giải thích của AI:</b><br>AIR tốt hơn cả hai đầu: ngưỡng thấp nhạy hơn để loại trừ, ngưỡng cao đặc hiệu hơn để khẳng định. Điểm mấu chốt thực hành là có CRP thì dùng AIR, không có CRP thì dùng Alvarado.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.7 — AIR tốt hơn Alvarado (phân tích gộp 2025, 26 báo cáo, 15.699 bệnh nhân)."
+    },
+    {
+      "id": "SURG01B-CARD-060",
+      "note_id": 1793934781483,
+      "tags": [
+        "kham-bung",
+        "AIR",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Diện tích dưới đường cong ROC của thang điểm AIR là {{c1::<span style=\"color:#ffd43b\"><b>0,86</b></span>}}. Alvarado là {{c2::<span style=\"color:#ffd43b\"><b>0,79</b></span>}}. Phân tích gộp 2025 gồm 26 báo cáo với 15.699 bệnh nhân.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §5.7 — AUC AIR 0,86 so với Alvarado 0,79."
+    },
+    {
+      "id": "SURG01B-CARD-061",
+      "note_id": 1793934781486,
+      "tags": [
+        "kham-bung",
+        "RIPASA"
+      ],
+      "type": "basic",
+      "front": "Thang điểm <span style=\"color:#74c0fc\"><b>RIPASA</b></span> ngưỡng 7,5 có độ nhạy/đặc hiệu ra sao, và điểm <span style=\"color:#ff6b6b\"><b>NRIC nước ngoài</b></span> có áp dụng ở Việt Nam không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) RIPASA được xây dựng ở Singapore (2010) cho dân số châu Á, gồm 15 thông số, ngưỡng tối ưu là <span style=\"color:#ffd43b\"><b>7,5 điểm</b></span>; ở ngưỡng này độ nhạy 88%, độ đặc hiệu 67%, giá trị dự báo dương tính 93%, giá trị dự báo âm tính 53%.<br>2) Một nghiên cứu so sánh trên 192 bệnh nhân cho thấy RIPASA ở ngưỡng 7,5 có độ nhạy 98,0% và độ đặc hiệu 81,3%, tốt hơn Alvarado ở ngưỡng 7,0 (độ nhạy 68,3%, độ đặc hiệu 87,9%) trong dân số nghiên cứu đó.<br>3) RIPASA có 1 điểm cho <span style=\"color:#ff6b6b\"><b>NRIC nước ngoài</b></span> — bệnh nhân mang chứng minh nhân dân nước ngoài (không phải người Singapore) — điểm này phản ánh bối cảnh Singapore, nơi bệnh nhân nước ngoài có thể đến khám muộn hoặc khó theo dõi.<br>4) Khi dạy RIPASA ở Việt Nam, phải nói rõ điểm này <span style=\"color:#ff6b6b\"><b>không áp dụng</b></span>; khi dùng RIPASA ở Việt Nam thì bỏ điểm này đi.<br><br><b>💡 Giải thích của AI:</b><br>RIPASA là thang điểm theo dân số, không phải thang điểm phổ quát: điểm NRIC chỉ có ý nghĩa ở Singapore. Áp nguyên si thang điểm của một nước khác mà không bỏ điểm đặc thù địa phương là bẫy 11 trong §12.2.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.8 và §11 — thang điểm RIPASA, điểm NRIC nước ngoài."
+    },
+    {
+      "id": "SURG01B-CARD-062",
+      "note_id": 1793934781488,
+      "tags": [
+        "kham-bung",
+        "AAS",
+        "PAS"
+      ],
+      "type": "basic",
+      "front": "Thang điểm <span style=\"color:#74c0fc\"><b>AAS</b></span> (23 điểm) và <span style=\"color:#74c0fc\"><b>PAS</b></span> trẻ em (10 điểm) phân tầng ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>AAS</b></span> (Adult Appendicitis Score) có tổng 23 điểm, phân tầng thấp 0–10 điểm, trung gian 11–15 điểm, cao từ 16 điểm trở lên; gồm đau hố chậu phải, di chuyển đau, dấu Rovsing, đau dội hoặc căng cơ theo mức độ, sốt, bạch cầu theo tầng, bạch cầu trung tính theo tầng, CRP theo thời gian triệu chứng, đau khi ho hoặc nhảy hoặc gõ, và điểm giới tính/tuổi.<br>2) Trong nghiên cứu RIFT trên 5.345 bệnh nhân 16–45 tuổi ở Anh, AAS là thang điểm tốt nhất trong 15 mô hình được kiểm chứng, với ngưỡng 8 điểm trở xuống cho độ đặc hiệu 63,1% và tỉ lệ bỏ sót 3,7%.<br>3) <span style=\"color:#74c0fc\"><b>PAS</b></span> (Pediatric Appendicitis Score) dành cho trẻ em, tổng 10 điểm; từ 6 điểm trở lên là viêm ruột thừa, 5 điểm trở xuống là theo dõi; PAS chỉ dùng cho trẻ em, không áp cho người lớn.<br><br><b>💡 Giải thích của AI:</b><br>Người học không cần nhớ hết mọi thang điểm — chỉ cần nhớ 3 điểm: Alvarado dùng để loại trừ (ngưỡng 5), AIR tốt hơn Alvarado khi có CRP, và không thang điểm nào thay thế được suy luận lâm sàng và hình ảnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.8 — AAS và PAS."
+    },
+    {
+      "id": "SURG01B-CARD-063",
+      "note_id": 1793934781490,
+      "tags": [
+        "kham-bung",
+        "checkpoint",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Checkpoint 4: Bệnh nhân nam 25 tuổi, đau hố chậu phải, Alvarado 8 điểm. Kết luận nào đúng: chắc chắn viêm ruột thừa, mổ ngay không cần chụp hình ảnh, hay <span style=\"color:#51cf66\"><b>vẫn cần chụp hình ảnh xác nhận</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đáp án: khả năng viêm ruột thừa cao nhưng <span style=\"color:#51cf66\"><b>vẫn cần chụp hình ảnh để xác nhận trước mổ</b></span>.<br>2) Ngưỡng 7 điểm của Alvarado chỉ có độ đặc hiệu 81% toàn bộ và 57% ở nam; WSES 2020 khuyến cáo không dùng Alvarado để khẳng định viêm ruột thừa ở người lớn.<br>3) Dùng Alvarado để khẳng định sẽ dẫn tới nhiều ca mổ âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Alvarado 8 điểm là nhóm có thể/rất có thể, nhưng điểm số không phải là chẩn đoán xác định. Hội chẩn ngoại khoa song song với chụp hình ảnh xác nhận — không mổ ngay chỉ dựa vào điểm số.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §5.8 — Checkpoint 4."
+    },
+    {
+      "id": "SURG01B-CARD-064",
+      "note_id": 1793934781492,
+      "tags": [
+        "kham-bung",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Murphy lâm sàng</b></span> làm như thế nào, và độ nhạy/đặc hiệu của nó là bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cách làm: đặt các ngón tay ở bờ dưới sườn phải, tại điểm giữa đòn phải; bảo bệnh nhân hít sâu từ từ; khi cơ hoành đẩy túi mật xuống chạm vào ngón tay, bệnh nhân đau đột ngột và ngừng thở.<br>2) Dấu Murphy dương tính là khi bệnh nhân <span style=\"color:#ff6b6b\"><b>ngừng thở vì đau đúng lúc hít sâu</b></span>, không phải vì hết hơi.<br>3) Tổng quan hệ thống năm 2017 (3 nghiên cứu): độ nhạy <span style=\"color:#ffd43b\"><b>62%</b></span>, độ đặc hiệu <span style=\"color:#ffd43b\"><b>96%</b></span>, LR+ 15,64, LR− 0,40.<br>4) Các dấu hiệu khác của viêm túi mật kém giá trị hơn: sốt có độ nhạy 31–62% và độ đặc hiệu 37–74%; đau hạ sườn phải có độ nhạy 56–93% nhưng độ đặc hiệu dao động rất rộng từ 0% tới 96%.<br><br><b>💡 Giải thích của AI:</b><br>Dao động rộng của đau hạ sườn phải cho thấy dấu hiệu này không ổn định giữa các nghiên cứu. Dấu Murphy dương tính thì rất có giá trị khẳng định, nhưng âm tính thì không yên tâm được.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §6.1 — dấu Murphy lâm sàng (tổng quan hệ thống 2017, 3 nghiên cứu)."
+    },
+    {
+      "id": "SURG01B-CARD-065",
+      "note_id": 1793934781494,
+      "tags": [
+        "kham-bung",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "Dấu Murphy lâm sàng dương tính có tỉ số khả dĩ dương {{c1::<span style=\"color:#ffd43b\"><b>15,64</b></span>}} — làm tăng khả năng viêm túi mật cấp hơn 15 lần.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §6.1 — dấu Murphy lâm sàng, LR+ 15,64."
+    },
+    {
+      "id": "SURG01B-CARD-066",
+      "note_id": 1793934781496,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Nghe thấy “Murphy” thì nghĩ ngay tới viêm túi mật — có đủ không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đúng: khi nghe thấy “Murphy” phải hỏi rõ là Murphy nào — <span style=\"color:#74c0fc\"><b>dấu Murphy của viêm túi mật</b></span> hay <span style=\"color:#74c0fc\"><b>hội chứng Murphy trong viêm ruột thừa</b></span>, 2 khái niệm khác nhau hoàn toàn.<br>2) Dấu Murphy túi mật: đau đột ngột khiến bệnh nhân ngừng thở khi ấn hạ sườn phải đúng lúc hít sâu.<br>3) Một bài tổng quan năm 2022 ghi nhận nhiều dấu hiệu khám bụng bị mô tả khác bản gốc hoặc dịch sai tên, trong đó có “hội chứng Murphy” gây nhầm với dấu Murphy túi mật.<br><br><b>💡 Giải thích của AI:</b><br>Nhầm tên gọi dẫn tới nhầm cơ quan: Murphy túi mật thì nghĩ viêm túi mật, còn hội chứng Murphy trong viêm ruột thừa là một khái niệm khác. Hỏi rõ “Murphy nào” trước khi kết luận.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §6.1 — nhầm tên Murphy (tổng quan 2022)."
+    },
+    {
+      "id": "SURG01B-CARD-067",
+      "note_id": 1793934781498,
+      "tags": [
+        "kham-bung",
+        "murphy",
+        "sieu-am"
+      ],
+      "type": "basic",
+      "front": "So sánh <span style=\"color:#74c0fc\"><b>Murphy lâm sàng và Murphy siêu âm</b></span>: cái nào nhạy hơn, cái nào đặc hiệu hơn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu Murphy siêu âm là đau khi đầu dò siêu âm ấn vào túi mật; nghiên cứu tiền cứu năm 1982 trên 427 bệnh nhân cho thấy độ nhạy 63%, độ đặc hiệu 93,6%, giá trị dự báo dương tính 72,5%, giá trị dự báo âm tính 90,5%, độ chính xác 87,2%.<br>2) Tổng quan hệ thống năm 2017 (5 nghiên cứu siêu âm): siêu âm chẩn đoán viêm túi mật có độ nhạy gộp <span style=\"color:#ffd43b\"><b>86%</b></span> và độ đặc hiệu gộp <span style=\"color:#ffd43b\"><b>71%</b></span>, LR+ 3,23, LR− 0,18.<br>3) So sánh: Murphy lâm sàng đặc hiệu hơn (96% so với 71%) nhưng nhạy kém hơn (62% so với 86%) — siêu âm nhạy hơn nên tốt hơn để loại trừ; khám lâm sàng đặc hiệu hơn nên tốt hơn để khẳng định.<br>4) Không phương pháp nào đơn lẻ loại trừ được viêm túi mật cấp; cần kết hợp bệnh sử, khám lâm sàng, xét nghiệm và siêu âm thành một quy tắc quyết định lâm sàng.<br><br><b>💡 Giải thích của AI:</b><br>Đây là mâu thuẫn 4 trong §12.1: khám lâm sàng tốt để khẳng định, siêu âm tốt để loại trừ, và cần kết hợp cả 2 với xét nghiệm. Dấu Murphy siêu âm không rõ không làm giảm khả năng viêm túi mật, vì độ nhạy của siêu âm cũng chỉ 86%.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §6.2 — dấu Murphy siêu âm (nghiên cứu 1982, 427 bệnh nhân; tổng quan hệ thống 2017, 5 nghiên cứu)."
+    },
+    {
+      "id": "SURG01B-CARD-068",
+      "note_id": 1793934781500,
+      "tags": [
+        "kham-bung",
+        "sieu-am",
+        "viem-tui-mat"
+      ],
+      "type": "basic",
+      "front": "Độ chính xác của siêu âm chẩn đoán viêm túi mật có phụ thuộc vào <span style=\"color:#51cf66\"><b>người làm</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tổng quan hệ thống và phân tích gộp năm 2023 (40 nghiên cứu, 8.652 bệnh nhân): siêu âm chẩn đoán viêm túi mật có độ nhạy gộp 71% và độ đặc hiệu gộp 85%.<br>2) Độ chính xác của siêu âm phụ thuộc vào người làm: bác sĩ cấp cứu đạt độ nhạy <span style=\"color:#ffd43b\"><b>71%</b></span> và độ đặc hiệu <span style=\"color:#ffd43b\"><b>92%</b></span>; phẫu thuật viên đạt 79% và 76%; bác sĩ chẩn đoán hình ảnh đạt 68% và 87%.<br>3) Vì vậy siêu âm túi mật ở tuyến không có bác sĩ chẩn đoán hình ảnh vẫn có giá trị khi do bác sĩ cấp cứu hoặc phẫu thuật viên làm.<br><br><b>💡 Giải thích của AI:</b><br>Độ chính xác của siêu âm không chỉ do máy mà còn do người làm — và bác sĩ cấp cứu làm siêu âm túi mật đạt độ đặc hiệu tới 92%. Ở tuyến thiếu bác sĩ chẩn đoán hình ảnh, siêu âm tại giường do bác sĩ cấp cứu làm vẫn là công cụ có giá trị.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §6.2 — siêu âm viêm túi mật theo người làm (phân tích gộp 2023, 40 nghiên cứu, 8.652 bệnh nhân)."
+    },
+    {
+      "id": "SURG01B-CARD-069",
+      "note_id": 1793934781502,
+      "tags": [
+        "kham-bung",
+        "tokyo",
+        "viem-tui-mat"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Khung Tokyo TG18</b></span> viêm túi mật dạy ở mức nào, và phân độ nặng quyết định gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tokyo Guidelines là guideline quốc tế về chẩn đoán và điều trị viêm túi mật cấp và viêm đường mật cấp; bản TG18 (2018) giữ nguyên tiêu chuẩn chẩn đoán và phân độ nặng của bản TG13 mà không sửa đổi.<br>2) Tiêu chuẩn TG13 đã được kiểm chứng với tử vong 30 ngày, thời gian nằm viện, tỉ lệ chuyển mổ mở và chi phí điều trị.<br>3) Chi tiết tiêu chuẩn TG13 không trích xuất được từ abstract trong đợt nghiên cứu này, nên bài này <span style=\"color:#ff6b6b\"><b>không dạy chi tiết tiêu chuẩn</b></span> — người học chỉ cần biết khung: Tokyo giữ nguyên khung TG13, và dấu Murphy là dấu hiệu viêm tại chỗ được dùng trong khung này.<br>4) Phân độ nặng theo Tokyo chia viêm túi mật thành nhẹ, trung bình và nặng, dựa vào viêm tại chỗ, viêm toàn thân và rối loạn chức năng tạng; phân độ nặng quyết định thời điểm mổ: viêm nhẹ mổ sớm, viêm nặng cần dẫn lưu túi mật trước rồi mổ sau khi ổn định.<br>5) Bài này không dạy chi tiết phân độ nặng vì chưa lấy được toàn văn TG18 — người học muốn học sâu thì đọc toàn văn guideline, không học qua bài tóm tắt.<br><br><b>💡 Giải thích của AI:</b><br>Đây là điểm honesty của bài: khung Tokyo được nêu ở mức khung, không bịa chi tiết tiêu chuẩn khi chưa đọc toàn văn. Phân độ nặng là cầu nối giữa chẩn đoán và quyết định thời điểm mổ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §6.3 — khung Tokyo TG18 (chi tiết tiêu chuẩn chưa lấy được toàn văn)."
+    },
+    {
+      "id": "SURG01B-CARD-070",
+      "note_id": 1793934781504,
+      "tags": [
+        "kham-bung",
+        "cullen",
+        "grey-turner"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Cullen và dấu Grey Turner</b></span> có phải là dấu chẩn đoán viêm tụy không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu Cullen là vết bầm quanh rốn; dấu Grey Turner là vết bầm vùng hông; cả 2 đều do máu sau phúc mạc lan theo các mặt phẳng giải phẫu tới da: máu lan ra trước tới rốn gây dấu Cullen, lan ra sau–bên tới vùng hông gây dấu Grey Turner.<br>2) Truyền thống dạy 2 dấu này là dấu hiệu của viêm tụy cấp — thực tế không phải vậy: bài tổng quan năm 2024 cho thấy dấu Cullen và Grey Turner chỉ gặp ở <span style=\"color:#ffd43b\"><b>dưới 1%</b></span> bệnh nhân viêm tụy cấp; cả 2 dấu đều không nhạy và không đặc hiệu cho viêm tụy cấp.<br>3) Ý nghĩa thật: khi thấy dấu Cullen hoặc Grey Turner, phải nghĩ tới <span style=\"color:#ff6b6b\"><b>xuất huyết sau phúc mạc và tiên lượng xấu</b></span> — do viêm tụy hoại tử chảy máu, vỡ phình động mạch chủ, chấn thương sau phúc mạc, hoặc vỡ thai ngoài tử cung chảy máu nhiều.<br>4) Vết bầm da xuất hiện muộn, thường sau 24–48 giờ, nên không dùng để chẩn đoán sớm; ngày nay CT phát hiện xuất huyết sau phúc mạc sớm hơn nhiều so với chờ vết bầm xuất hiện trên da.<br><br><b>💡 Giải thích của AI:</b><br>Dấu Cullen được mô tả năm 1918, dấu Grey Turner năm 1920 — cả 2 đều hơn 100 năm tuổi, từ thời chưa có CT. Dạy đúng là: 2 dấu này là dấu hiệu tiên lượng xấu của xuất huyết sau phúc mạc, không phải dấu hiệu chẩn đoán viêm tụy.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.1 — dấu Cullen và Grey Turner (tổng quan 2024)."
+    },
+    {
+      "id": "SURG01B-CARD-071",
+      "note_id": 1793934781506,
+      "tags": [
+        "kham-bung",
+        "cullen",
+        "grey-turner"
+      ],
+      "type": "basic",
+      "front": "Dấu Cullen và dấu Grey Turner chỉ gặp ở {{c1::<span style=\"color:#ffd43b\"><b>dưới 1%</b></span>}} bệnh nhân viêm tụy cấp. Hai dấu này không nhạy và không đặc hiệu cho viêm tụy cấp.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §7.1 — dấu Cullen và Grey Turner gặp ở dưới 1% bệnh nhân viêm tụy cấp (tổng quan 2024)."
+    },
+    {
+      "id": "SURG01B-CARD-072",
+      "note_id": 1793934781508,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "cullen"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Bệnh nhân viêm tụy không có dấu Cullen thì nghĩa là chưa nặng — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không đúng: dưới 1% bệnh nhân viêm tụy có dấu này, nên <span style=\"color:#ff6b6b\"><b>vắng dấu Cullen không nói lên gì</b></span> về mức độ nặng của viêm tụy.<br>2) Ngược lại, thấy dấu Cullen thì phải đánh giá ngay xem có xuất huyết sau phúc mạc không, và chuẩn bị hồi sức tích cực.<br>3) Dấu Cullen và Grey Turner là dấu hiệu tiên lượng xấu của xuất huyết sau phúc mạc, không phải dấu hiệu chẩn đoán viêm tụy.<br><br><b>💡 Giải thích của AI:</b><br>Người học hay nhầm theo chiều ngược lại: thấy bệnh nhân viêm tụy mà không có dấu Cullen thì nghĩ là chưa nặng. Vết bầm xuất hiện muộn (sau 24–48 giờ) nên càng không dùng để chẩn đoán sớm hay đánh giá mức độ nặng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.1 — bẫy dấu Cullen."
+    },
+    {
+      "id": "SURG01B-CARD-073",
+      "note_id": 1793934781510,
+      "tags": [
+        "kham-bung",
+        "kehr"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Kehr</b></span> là gì, cơ chế ra sao, và phải diễn giải trong bối cảnh nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Dấu Kehr là đau vai trái do máu kích thích mặt dưới cơ hoành trái.<br>2) Cơ chế: máu từ lách vỡ chảy xuống, đọng dưới cơ hoành trái, kích thích thần kinh hoành (C3–C5); não nhận tín hiệu từ thần kinh hoành nhưng hiểu nhầm là đau ở vai trái, vì dây thần kinh cảm giác ở vai cũng xuất phát từ C3–C5.<br>3) Dấu Kehr hay gặp trong vỡ lách do chấn thương, và cũng có thể gặp trong thai ngoài tử cung vỡ chảy máu vào ổ bụng.<br>4) Cách khám: hỏi bệnh nhân có đau vai trái không, và ấn vào hạ sườn trái xem có đau không; đau vai trái kèm đau hạ sườn trái sau chấn thương bụng là dấu hiệu phải nghĩ tới vỡ lách ngay.<br>5) Bẫy: đau vai trái cũng gặp trong nhồi máu cơ tim, viêm màng ngoài tim hoặc đau cơ vai đơn thuần — dấu Kehr phải được diễn giải trong bối cảnh: chấn thương bụng hoặc đau bụng dưới ở nữ kèm đau vai trái thì nghĩ vỡ lách hoặc thai ngoài tử cung vỡ; đau vai trái kèm đau ngực thì nghĩ tim.<br>6) Không có số liệu độ nhạy và độ đặc hiệu nào được kiểm chứng cho dấu Kehr trong đợt nghiên cứu này — dạy ở mức cơ chế và bối cảnh lâm sàng, không dạy số.<br><br><b>💡 Giải thích của AI:</b><br>Kehr là ví dụ kinh điển của đau quy chiếu theo thần kinh hoành C3–C5. Giá trị của nó nằm ở bối cảnh: cùng một triệu chứng đau vai trái nhưng bối cảnh chấn thương bụng thì nghĩ vỡ lách, bối cảnh đau ngực thì nghĩ tim.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.2 — dấu Kehr (không có số nhạy/đặc hiệu kiểm chứng)."
+    },
+    {
+      "id": "SURG01B-CARD-074",
+      "note_id": 1793934781512,
+      "tags": [
+        "kham-bung",
+        "dance",
+        "long-ruot"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Dance</b></span> là gì, và gặp trong bệnh nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Dấu Dance là vùng hố chậu phải rỗng khi sờ — không sờ thấy manh tràng ở vị trí bình thường.<br>2) Cơ chế: trong lồng ruột, một đoạn ruột chui vào trong đoạn ruột kế tiếp, kéo theo manh tràng di chuyển khỏi vị trí bình thường ở hố chậu phải.<br>3) Lồng ruột hay gặp ở trẻ nhỏ, với tam chứng kinh điển: đau bụng cơn, nôn, và đi ngoài phân máu như thạch mứt dâu; ở người lớn, lồng ruột ít gặp hơn và thường do khối u làm điểm khởi đầu.<br>4) Khi sờ thấy hố chậu phải rỗng kèm đau bụng cơn và có khối sờ được ở vị trí khác trong bụng, phải nghĩ tới lồng ruột; chẩn đoán xác định bằng siêu âm (dấu bia ngắm, target sign) hoặc CT.<br>5) Không có số liệu độ nhạy và độ đặc hiệu nào được kiểm chứng cho dấu Dance trong đợt nghiên cứu này — dạy ở mức nhận biết dấu hiệu và cơ chế, không dạy số.<br><br><b>💡 Giải thích của AI:</b><br>Dấu Dance được mô tả là dấu hiệu không thường gặp nhưng đáng tin cậy trong lồng ruột. Giá trị của nó là gợi ý chẩn đoán để chụp hình ảnh xác định, không phải là test sàng lọc.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.3 — dấu Dance (không có số nhạy/đặc hiệu kiểm chứng)."
+    },
+    {
+      "id": "SURG01B-CARD-075",
+      "note_id": 1793934781514,
+      "tags": [
+        "kham-bung",
+        "courvoisier"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Dấu Courvoisier</b></span> là gì, và quy tắc thực hành của nó là gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Dấu Courvoisier (định luật Courvoisier) là túi mật to, sờ được, nhưng không đau, trong bệnh nhân vàng da tắc mật.<br>2) Cơ chế: khi ống mật chủ bị tắc do ung thư đầu tụy hoặc ung thư vùng quanh bóng Vater, áp lực trong đường mật tăng dần một cách mạn tính, làm túi mật giãn to ra; vì túi mật giãn từ từ và không viêm nên sờ vào không đau.<br>3) Ngược lại, khi ống mật bị tắc do sỏi, túi mật thường viêm và xơ hóa, thành túi mật dày và mất đàn hồi, nên không giãn to được.<br>4) Quy tắc thực hành: vàng da tắc mật + túi mật to không đau → nghĩ ung thư đầu tụy; vàng da tắc mật + túi mật không to → nghĩ sỏi ống mật chủ. Quy tắc này không tuyệt đối, nhưng là điểm phân biệt có giá trị trong khám lâm sàng.<br>5) Cơ chế xơ hóa từng được dùng để giải thích đã bị bác bỏ: nghiên cứu năm 1983 cho thấy độ dẻo của túi mật tương tự nhau ở mọi nhóm, dù là tắc do ung thư hay tắc do sỏi; nguyên nhân túi mật giãn trong tắc mật do ung thư có thể là tăng áp lực ống mật mạn tính, không phải xơ hóa.<br><br><b>💡 Giải thích của AI:</b><br>Courvoisier là ví dụ về một quy tắc lâm sàng đúng ở mức thực hành nhưng sai ở mức giải thích cơ chế: xơ hóa không giải thích được sự khác biệt, tăng áp lực mạn tính mới là nguyên nhân có thể. Học quy tắc, nhưng đừng học sai cơ chế.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.4 — dấu Courvoisier (nghiên cứu 1983 bác bỏ giải thích xơ hóa)."
+    },
+    {
+      "id": "SURG01B-CARD-076",
+      "note_id": 1793934781516,
+      "tags": [
+        "kham-bung",
+        "carnett",
+        "ACNES"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Test Carnett</b></span> phân biệt đau thành bụng với đau tạng như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cách làm: xác định điểm đau nhất khi bệnh nhân nằm ngửa thả lỏng, rồi bảo bệnh nhân gồng cơ bụng lên (nhấc đầu và vai khỏi giường, hoặc nâng 2 chân lên khỏi giường).<br>2) Nếu đau giữ nguyên hoặc tăng lên khi gồng cơ bụng, đó là <span style=\"color:#ff6b6b\"><b>đau thành bụng</b></span>; nếu đau giảm đi khi gồng cơ bụng, đó là <span style=\"color:#ff6b6b\"><b>đau tạng</b></span>.<br>3) Cơ chế: khi cơ bụng gồng lên, cơ thành bụng căng ra và bảo vệ các tạng bên dưới khỏi bị ấn vào; vì vậy đau từ tạng sẽ giảm khi gồng, còn đau từ chính thành bụng sẽ tăng vì cơ đang căng bị ấn vào.<br>4) Đau thành bụng hay bị nhầm với đau tạng và dẫn tới nhiều xét nghiệm tốn kém mà không chẩn đoán được bệnh; nguyên nhân hay gặp nhất là hội chứng chèn ép thần kinh bì bụng trước (ACNES) — dây thần kinh bì bụng bị chèn ép khi đi qua cơ thẳng bụng.<br>5) Tiêm thuốc tê tại chỗ có thể xác nhận chẩn đoán: nếu tiêm tê làm giảm đau từ 50% trở lên thì chẩn đoán đau thành bụng được củng cố; đáp ứng với tiêm tê là 70–99%; nếu tiêm trên 2 lần mà không đáp ứng thì cân nhắc cắt dây thần kinh (neurectomy).<br><br><b>💡 Giải thích của AI:</b><br>Test Carnett chỉ mất 30 giây nhưng có thể tránh được nhiều xét nghiệm không cần thiết cho bệnh nhân đau bụng mạn tính hoặc đau bụng tái đi tái lại mà không tìm ra nguyên nhân. Người học hay bỏ qua test này vì nó quá đơn giản.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.5 — test Carnett và ACNES."
+    },
+    {
+      "id": "SURG01B-CARD-077",
+      "note_id": 1793934781518,
+      "tags": [
+        "kham-bung",
+        "go-bung",
+        "thung-tang-rong"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Mất vùng đục gan</b></span> gợi ý gì, và vì sao phải diễn giải trong bối cảnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mất vùng đục gan: gõ vùng hạ sườn phải cho tiếng vang thay vì tiếng đục gợi ý hơi tự do trong ổ bụng do thủng tạng rỗng; dấu hiệu này được mô tả từ một ca lâm sàng năm 1906.<br>2) Không có số liệu độ chính xác hiện đại nào cho dấu hiệu này; trong thực hành, <span style=\"color:#51cf66\"><b>X-quang bụng đứng tìm hơi tự do dưới cơ hoành</b></span> là xét nghiệm xác nhận, không phải gõ bụng.<br>3) Hơi tự do dưới cơ hoành còn có thể do sau mổ bụng (hơi còn sót lại sau phẫu thuật), sau nội soi, hoặc thủng tạng rỗng do chấn thương.<br>4) Vì vậy mất vùng đục gan phải được diễn giải trong bối cảnh: bệnh nhân đau bụng cấp, bụng cứng, mất vùng đục gan thì nghĩ thủng tạng rỗng; bệnh nhân mới mổ bụng 2 ngày trước, mất vùng đục gan thì có thể là hơi sau mổ.<br>5) Ở tuyến không có X-quang ngay, hoặc bệnh nhân quá nặng không di chuyển được, gõ bụng tìm mất vùng đục gan vẫn là một mảnh ghép có ích.<br><br><b>💡 Giải thích của AI:</b><br>Hơi tự do không phải lúc nào cũng là thủng bệnh lý — sau mổ và sau nội soi cũng có hơi tự do. Bối cảnh quyết định ý nghĩa của dấu hiệu, không phải bản thân dấu hiệu.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §7.6 — mất vùng đục gan và hơi tự do dưới cơ hoành."
+    },
+    {
+      "id": "SURG01B-CARD-078",
+      "note_id": 1793934781520,
+      "tags": [
+        "kham-bung",
+        "phan-biet"
+      ],
+      "type": "basic",
+      "front": "Phân biệt đau bụng ngoại khoa với nội khoa theo <span style=\"color:#51cf66\"><b>3 bước</b></span> nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bước 1: hỏi bệnh sử kỹ — đau bắt đầu như thế nào, di chuyển ra sao, kèm triệu chứng gì ngoài bụng (đau ngực, khó thở, tiểu buốt, sốt, nôn).<br>2) Bước 2: khám toàn thân, không chỉ khám bụng — nghe tim phổi, đo huyết áp, làm điện tâm đồ khi đau thượng vị, làm test thai ở nữ.<br>3) Bước 3: làm xét nghiệm sàng lọc cơ bản trước khi kết luận — công thức máu, CRP, đường máu, điện giải, men gan, amylase/lipase, nước tiểu, điện tâm đồ.<br>4) Không có một test nào phân biệt được mọi đau bụng ngoại khoa với nội khoa — phải kết hợp bệnh sử, khám và xét nghiệm.<br>5) Trong đợt nghiên cứu này, không tìm thấy tổng quan hệ thống hay nghiên cứu Rational Clinical Examination nào định lượng được độ chính xác phân biệt đau bụng nội khoa với ngoại khoa — vì vậy phần này dạy ở mức liệt kê và cơ chế, và ghi rõ là không có số liệu độ chính xác đã kiểm chứng.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc phân biệt không phải là một test, mà là một quy trình 3 bước. Điểm honesty của bài: không có số liệu độ chính xác cho việc phân biệt nội–ngoại khoa, nên không bịa số.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §8.1 — nguyên tắc phân biệt đau bụng ngoại khoa và nội khoa."
+    },
+    {
+      "id": "SURG01B-CARD-079",
+      "note_id": 1793934781522,
+      "tags": [
+        "kham-bung",
+        "phan-biet",
+        "noi-khoa"
+      ],
+      "type": "basic",
+      "front": "Những nguyên nhân <span style=\"color:#ff6b6b\"><b>nội khoa hay nhầm</b></span> với đau bụng ngoại khoa là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Nhồi máu cơ tim thành dưới</b></span> gây đau thượng vị: tim và thượng vị cùng chia sẻ thần kinh cảm giác, nhồi máu thành dưới kích thích cơ hoành gây đau thượng vị; bệnh nhân có thể đến khám vì đau thượng vị, buồn nôn và vã mồ hôi — giống hệt viêm dạ dày hoặc viêm tụy; mọi bệnh nhân đau thượng vị, đặc biệt trên 50 tuổi có yếu tố nguy cơ tim mạch, đều phải làm điện tâm đồ.<br>2) <span style=\"color:#ff6b6b\"><b>Viêm phổi thùy dưới</b></span> gây đau bụng: viêm phổi thùy dưới kích thích màng phổi và cơ hoành, gây đau quy chiếu xuống bụng trên; mọi bệnh nhân đau bụng trên kèm sốt đều phải nghe phổi và chụp X-quang ngực khi cần.<br>3) <span style=\"color:#ff6b6b\"><b>Nhiễm toan ceton do đái tháo đường (DKA)</b></span> gây đau bụng: nhiễm toan chuyển hóa nặng kích thích phúc mạc và gây liệt ruột nhẹ; bệnh nhân đau bụng, nôn, thở nhanh sâu (Kussmaul), hơi thở mùi ceton, đường máu rất cao; bẫy là mổ bụng bệnh nhân DKA vì tưởng viêm ruột thừa — phẫu thuật không giải quyết được nhiễm toan, và gây mê trên bệnh nhân DKA rất nguy hiểm; phải làm khí máu và ceton máu trước khi nghĩ tới mổ.<br>4) <span style=\"color:#ff6b6b\"><b>Bệnh porphyria cấp và ngộ độc chì</b></span> gây đau bụng quặn từng cơn kèm triệu chứng thần kinh; hiếm, nhưng phải nghĩ tới khi đau bụng tái đi tái lại mà không tìm ra nguyên nhân ngoại khoa.<br>5) <span style=\"color:#ff6b6b\"><b>Viêm bàng quang và sỏi niệu quản</b></span> gây đau hạ vị và đau hông, dễ nhầm với viêm ruột thừa hoặc viêm túi thừa đại tràng; xét nghiệm nước tiểu giúp phân biệt: bạch cầu niệu và hồng cầu niệu gợi ý bệnh đường tiết niệu.<br><br><b>💡 Giải thích của AI:</b><br>Bỏ sót nhồi máu cơ tim vì chỉ tập trung vào bụng là sai lầm chết người. Mổ bụng bệnh nhân DKA vì tưởng viêm ruột thừa cũng vậy — phẫu thuật không giải quyết được nhiễm toan. Vì vậy điện tâm đồ và khí máu là 2 xét nghiệm không được quên.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §8.2 — các nguyên nhân nội khoa hay nhầm."
+    },
+    {
+      "id": "SURG01B-CARD-080",
+      "note_id": 1793934781524,
+      "tags": [
+        "kham-bung",
+        "phan-biet"
+      ],
+      "type": "basic",
+      "front": "Phân biệt theo <span style=\"color:#74c0fc\"><b>vị trí đau</b></span> như thế nào — hạ sườn phải, thượng vị, hố chậu phải, hạ vị, quanh rốn, lan tỏa?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Đau hạ sườn phải: viêm túi mật, viêm gan, áp xe gan, sỏi đường mật — phân biệt với viêm phổi thùy dưới phải và nhồi máu cơ tim.<br>2) Đau thượng vị: loét dạ dày–tá tràng, viêm tụy, nhồi máu cơ tim thành dưới — phân biệt bằng điện tâm đồ, amylase/lipase và nội soi.<br>3) Đau hố chậu phải: viêm ruột thừa, viêm manh tràng, sỏi niệu quản phải — ở nữ phân biệt thêm thai ngoài tử cung, vỡ nang, viêm phần phụ.<br>4) Đau hạ vị: viêm bàng quang, viêm túi thừa đại tràng sigma, bệnh tử cung–phần phụ — phân biệt bằng xét nghiệm nước tiểu, test thai và siêu âm.<br>5) Đau quanh rốn: viêm ruột thừa sớm, tắc ruột non, thiếu máu mạc treo — phân biệt bằng thời gian diễn tiến và hình ảnh.<br>6) Đau lan tỏa toàn bụng: viêm phúc mạc lan tỏa, tắc ruột, thiếu máu mạc treo, vỡ tạng — đây là tình huống cấp cứu, không có thời gian phân biệt kỹ, phải hồi sức và hội chẩn ngoại khoa ngay.<br><br><b>💡 Giải thích của AI:</b><br>Phân biệt theo vị trí là bước định hướng, không phải chẩn đoán cuối cùng. Đau lan tỏa toàn bụng thì không phân biệt kỹ nữa — hồi sức và hội chẩn ngay.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §8.3 — phân biệt theo vị trí đau."
+    },
+    {
+      "id": "SURG01B-CARD-081",
+      "note_id": 1793934781526,
+      "tags": [
+        "kham-bung",
+        "phan-tang",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ Thuật toán <span style=\"color:#51cf66\"><b>phân tầng nguy cơ</b></span> thấp–trung gian–cao bằng Alvarado/AIR: ngưỡng và hành động tương ứng?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Nhóm nguy cơ thấp: Alvarado dưới 5 điểm hoặc AIR 3 điểm trở xuống — khả năng viêm ruột thừa rất thấp; có thể cho về nhà theo dõi ngoại trú với hướng dẫn rõ ràng (quay lại ngay nếu đau tăng, sốt, nôn nhiều hoặc bụng cứng hơn); cũng có thể làm thêm xét nghiệm máu để chắc chắn hơn, nhưng không nhất thiết phải chụp CT ngay.<br>2) Nhóm nguy cơ trung gian: Alvarado 5–6 điểm hoặc AIR 5–8 điểm — nhóm có lợi nhất từ theo dõi và chụp hình ảnh có hệ thống; WSES 2020 khuyến cáo tiến hành hình ảnh kịp thời: siêu âm trước, rồi CT nếu siêu âm không kết luận được; không được cho về nhà ngay mà không có kế hoạch theo dõi rõ ràng.<br>3) Nhóm nguy cơ cao: Alvarado 9–10 điểm hoặc AIR 9–12 điểm — khả năng viêm ruột thừa rất cao; cần hội chẩn ngoại khoa ngay và chuẩn bị mổ, đồng thời chụp hình ảnh để xác nhận trước mổ khi có thể; không được để chờ đợi lâu mà không có quyết định.<br>4) Phân tầng không phải là chẩn đoán cuối cùng — bệnh nhân có thể chuyển nhóm khi diễn tiến thay đổi (ví dụ từ nguy cơ trung gian lên nguy cơ cao khi đau tăng và bạch cầu tăng), vì vậy phải khám lại định kỳ, không khám một lần rồi thôi.<br><br><b>💡 Giải thích của AI:</b><br>Phân tầng chỉ là cách tổ chức công việc: ai về, ai ở lại theo dõi, ai chụp hình ảnh, ai mổ. WSES 2020 khuyến cáo phân tầng nguy cơ bằng thang điểm lâm sàng trước khi chụp hình ảnh.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.1 — phân tầng nguy cơ thấp–trung gian–cao (WSES 2020)."
+    },
+    {
+      "id": "SURG01B-CARD-082",
+      "note_id": 1793934781528,
+      "tags": [
+        "kham-bung",
+        "luu-do",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ Lưu đồ quyết định từ <span style=\"color:#51cf66\"><b>đau bụng tới quyết định mổ</b></span>: 5 bước ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bước 1: đánh giá ABC + sinh hiệu + mức độ đau bụng — ABC là đường thở (Airway), thở (Breathing) và tuần hoàn (Circulation), phải chắc chắn bệnh nhân thở được và huyết áp ổn định trước khi khám bụng chi tiết.<br>2) Bước 2: có dấu hiệu sốc, bụng cứng như ván hay đau toàn bụng dữ dội không? Nếu CÓ → nhánh cấp cứu: hồi sức + hội chẩn ngoại khoa ngay, không chờ hình ảnh, rồi mổ cấp cứu sau hồi sức ban đầu.<br>3) Bước 3: khám bụng có hệ thống (nhìn–nghe–gõ–sờ) và tính thang điểm Alvarado hoặc AIR + xét nghiệm máu; thang điểm Alvarado dùng khi không có CRP, AIR dùng khi có CRP.<br>4) Bước 4: phân tầng nguy cơ — nhóm thấp (Alvarado dưới 5 hoặc AIR 3 trở xuống) → về nhà theo dõi + tái khám sau 12–24 giờ; nhóm trung gian (Alvarado 5–8 hoặc AIR 5–8) → siêu âm trước, CT nếu chưa rõ + theo dõi sát tại khoa cấp cứu; nhóm cao (Alvarado 9–10 hoặc AIR 9–12) → hội chẩn ngoại khoa ngay + chụp hình ảnh xác nhận trước mổ.<br>5) Bước 5: khám lại định kỳ — bệnh nhân có thể chuyển nhóm khi diễn tiến thay đổi, nên không được khám một lần rồi bỏ qua.<br><br><b>💡 Giải thích của AI:</b><br>Lưu đồ nối khám bụng với quyết định: ABC trước, nhánh cấp cứu trước, rồi mới khám hệ thống và phân tầng. Nhánh cấp cứu áp dụng bất kỳ lúc nào trong lưu đồ, không phải chỉ ở bước 2.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.2 — lưu đồ quyết định từ đau bụng tới quyết định mổ."
+    },
+    {
+      "id": "SURG01B-CARD-083",
+      "note_id": 1793934781530,
+      "tags": [
+        "kham-bung",
+        "luu-do",
+        "cap-cuu",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Nhánh cấp cứu</b></span> của lưu đồ: 4 tình huống nào thì bỏ qua các bước thường quy?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bụng cứng như ván → mổ cấp cứu, không chờ hình ảnh.<br>2) Huyết áp tụt + mạch nhanh → hồi sức + hội chẩn ngay.<br>3) Đau vai trái + chấn thương bụng → nghĩ vỡ lách, chụp CT ngay.<br>4) Nữ đau bụng dưới + test thai dương tính + ra máu âm đạo → nghĩ thai ngoài tử cung vỡ, hội chẩn ngay.<br><br><b>💡 Giải thích của AI:</b><br>Nhánh cấp cứu áp dụng bất kỳ lúc nào trong lưu đồ: khi một trong 4 tình huống này xuất hiện thì bỏ qua các bước thường quy và xử trí cấp cứu ngay. Đau vai trái sau chấn thương là dấu Kehr gợi ý vỡ lách; test thai dương tính kèm ra máu âm đạo là thai ngoài tử cung vỡ cho tới khi chứng minh ngược lại.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.2 — nhánh cấp cứu của lưu đồ."
+    },
+    {
+      "id": "SURG01B-CARD-084",
+      "note_id": 1793934781532,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "cung-bung"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>CỜ ĐỎ TUYỆT ĐỐI:</b></span> Bụng cứng như tấm ván, đau khắp bụng, nằm yên tuyệt đối — xử trí thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bụng cứng như tấm ván, đau khắp bụng, bệnh nhân nằm yên tuyệt đối → <span style=\"color:#51cf66\"><b>hội chẩn ngoại khoa ngay, không chờ xét nghiệm hay hình ảnh</b></span>.<br>2) Đây là viêm phúc mạc lan tỏa hoặc thủng tạng rỗng cho tới khi chứng minh ngược lại.<br><br><b>💡 Giải thích của AI:</b><br>Khi bụng đã cứng như ván thì không cần làm thêm nghiệm pháp nào nữa — đây là chỉ định mổ cấp cứu. Chờ xét nghiệm hay hình ảnh trong tình huống này là chậm trễ nguy hiểm.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.3 — BOX ĐỎ bụng cứng như ván."
+    },
+    {
+      "id": "SURG01B-CARD-085",
+      "note_id": 1793934781534,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "soc"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Huyết áp tâm thu dưới <span style=\"color:#ffd43b\"><b>100 mmHg</b></span>, mạch nhanh, da lạnh ẩm trong đau bụng — xử trí thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dấu hiệu: huyết áp tâm thu dưới <span style=\"color:#ffd43b\"><b>100 mmHg</b></span>, mạch nhanh, da lạnh ẩm.<br>2) Xử trí: đặt <span style=\"color:#51cf66\"><b>2 đường truyền tĩnh mạch lớn, truyền dịch, lấy máu cấp cứu, hội chẩn ngoại khoa và hồi sức ngay</b></span>.<br>3) Không được cho bệnh nhân đi chụp CT khi huyết áp chưa ổn định.<br><br><b>💡 Giải thích của AI:</b><br>Huyết áp tụt trong đau bụng là sốc cho tới khi chứng minh ngược lại. HATT dưới 100 mmHg có LR+ 7,01 cho bệnh nặng — huyết áp thấp làm tăng khả năng bệnh nặng rất mạnh. Ổn định huyết áp trước, chụp hình ảnh sau.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.3 — BOX ĐỎ huyết áp tụt."
+    },
+    {
+      "id": "SURG01B-CARD-086",
+      "note_id": 1793934781536,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Người trên <span style=\"color:#ffd43b\"><b>80 tuổi</b></span> hoặc suy giảm miễn dịch, đau bụng âm ỉ, khám ít dấu hiệu — có kết luận “không có gì” được không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Người trên <span style=\"color:#ffd43b\"><b>80 tuổi</b></span> hoặc suy giảm miễn dịch nặng có thể thủng tạng rỗng mà bụng chỉ đau âm ỉ, không sốt, bạch cầu bình thường.<br>2) Ngưỡng chụp CT ở nhóm này phải thấp hơn bình thường.<br>3) Không được kết luận “không có gì” chỉ vì khám thấy ít dấu hiệu.<br><br><b>💡 Giải thích của AI:</b><br>Đáp ứng viêm giảm làm dấu hiệu nghèo nàn dù bệnh nặng — sốt, bạch cầu tăng và viêm phúc mạc có thể nhẹ hoặc vắng hoàn toàn. Đây là bẫy 8 trong §12.2: kết luận không có gì nghiêm trọng ở người già hoặc suy giảm miễn dịch chỉ vì khám thấy ít dấu hiệu.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.3 — BOX ĐỎ người già và suy giảm miễn dịch."
+    },
+    {
+      "id": "SURG01B-CARD-087",
+      "note_id": 1793934781538,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "test-thai"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Nữ đau bụng dưới — vì sao phải làm <span style=\"color:#51cf66\"><b>test thai</b></span> trước khi chụp hình ảnh?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mọi phụ nữ trong độ tuổi sinh đẻ đau bụng dưới đều phải làm <span style=\"color:#51cf66\"><b>test thai nước tiểu trước khi chụp hình ảnh</b></span>.<br>2) Thai ngoài tử cung vỡ chảy máu trong ổ bụng là cấp cứu đe dọa tính mạng, và dễ bị bỏ sót nếu chỉ tập trung vào viêm ruột thừa.<br>3) Đau khi di động cổ tử cung có LR+ 5,62 cho bệnh nặng — gợi ý thai ngoài tử cung, vỡ nang hoặc viêm phần phụ.<br><br><b>💡 Giải thích của AI:</b><br>Đây là bẫy 9 trong §12.2: quên làm test thai ở phụ nữ đau bụng dưới. Test thai là bước không được quên, vì thai ngoài tử cung vỡ là cấp cứu chết người hay bị bỏ sót khi chỉ tập trung vào bụng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.3 — BOX ĐỎ thai ngoài tử cung vỡ."
+    },
+    {
+      "id": "SURG01B-CARD-088",
+      "note_id": 1793934781540,
+      "tags": [
+        "kham-bung",
+        "box-do",
+        "ECG"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Bệnh nhân đau thượng vị trên <span style=\"color:#ffd43b\"><b>50 tuổi</b></span> — vì sao phải làm <span style=\"color:#51cf66\"><b>điện tâm đồ</b></span> trước khi kết luận là bệnh dạ dày?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân đau thượng vị, đặc biệt trên <span style=\"color:#ffd43b\"><b>50 tuổi</b></span> có yếu tố nguy cơ tim mạch, phải làm <span style=\"color:#51cf66\"><b>điện tâm đồ</b></span> trước khi kết luận là bệnh dạ dày.<br>2) Nhồi máu cơ tim thành dưới gây đau thượng vị và có thể không có đau ngực.<br>3) Bỏ sót nhồi máu cơ tim vì chỉ tập trung vào bụng là sai lầm chết người.<br><br><b>💡 Giải thích của AI:</b><br>Tim và thượng vị cùng chia sẻ thần kinh cảm giác, và nhồi máu thành dưới kích thích cơ hoành gây đau thượng vị. Bệnh nhân nhồi máu cơ tim có thể đến khám vì đau thượng vị, buồn nôn và vã mồ hôi — giống hệt viêm dạ dày hoặc viêm tụy.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.3 — BOX ĐỎ nhồi máu cơ tim."
+    },
+    {
+      "id": "SURG01B-CARD-089",
+      "note_id": 1793934781542,
+      "tags": [
+        "kham-bung",
+        "plan-a-b"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Plan A và Plan B</b></span> khi nguồn lực hạn chế khác nhau ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Plan A</b></span> (đủ nguồn lực): xét nghiệm máu đầy đủ (công thức máu, CRP, điện giải, men gan, amylase), siêu âm, CT và ngoại khoa trực 24 giờ; phân tầng bằng AIR (vì có CRP), siêu âm cho nhóm nguy cơ trung gian, CT khi siêu âm không kết luận được, hội chẩn ngoại khoa ngay cho nhóm nguy cơ cao.<br>2) <span style=\"color:#51cf66\"><b>Plan B</b></span> (thiếu nguồn lực — tuyến huyện không có CT, không có CRP hoặc không có ngoại khoa trực): dùng thang điểm Alvarado thay cho AIR vì Alvarado không cần CRP; nhóm nguy cơ thấp vẫn có thể về nhà theo dõi với hướng dẫn rõ ràng; nhóm nguy cơ trung gian giữ lại theo dõi sát tại khoa, khám bụng lại định kỳ mỗi 2–4 giờ và chuyển lên tuyến trên chụp hình ảnh khi diễn tiến xấu đi; nhóm nguy cơ cao phải chuyển lên tuyến trên ngay trong ngày, tuyệt đối không giữ lại tuyến dưới chờ đợi.<br>3) Điều Plan B vẫn làm được ngay: khám bụng có hệ thống, tính thang điểm Alvarado, làm công thức máu, đo sinh hiệu và khám lại định kỳ.<br>4) Ngưỡng chuyển tuyến trong Plan B phải thấp hơn Plan A: khi không chắc chắn, chuyển tuyến trên sớm hơn là an toàn hơn.<br><br><b>💡 Giải thích của AI:</b><br>Plan B không phải là làm ít đi, mà là làm khác đi với nguồn lực có sẵn: thay AIR bằng Alvarado, thay CT bằng theo dõi sát và chuyển tuyến sớm. Điểm mấu chốt là ngưỡng chuyển tuyến thấp hơn, không phải chờ đợi lâu hơn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.4 — Plan A và Plan B khi nguồn lực hạn chế."
+    },
+    {
+      "id": "SURG01B-CARD-090",
+      "note_id": 1793934781544,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "plan-a-b"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Ở tuyến huyện (Plan B), siêu âm kém chất lượng âm tính thì loại trừ được viêm ruột thừa — đúng hay sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không được suy diễn: <span style=\"color:#ff6b6b\"><b>không được dùng siêu âm kém chất lượng để loại trừ viêm ruột thừa</b></span>, không được dùng xét nghiệm máu bình thường để kết luận không có bệnh ngoại khoa.<br>2) Siêu âm kém chất lượng âm tính không có giá trị loại trừ — độ chính xác của siêu âm phụ thuộc vào người làm và máy móc.<br>3) Xét nghiệm máu bình thường cũng không loại trừ được bệnh ngoại khoa, đặc biệt ở người già và suy giảm miễn dịch (bạch cầu có thể bình thường dù đang thủng tạng rỗng).<br><br><b>💡 Giải thích của AI:</b><br>Plan B vẫn làm được nhiều thứ ngay (khám hệ thống, Alvarado, công thức máu, sinh hiệu, khám lại), nhưng ranh giới là không được dùng một test kém chất lượng để loại trừ bệnh. Khi không chắc chắn, chuyển tuyến trên sớm hơn là an toàn hơn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §9.4 — điều Plan B không được suy diễn."
+    },
+    {
+      "id": "SURG01B-CARD-091",
+      "note_id": 1793934781546,
+      "tags": [
+        "kham-bung",
+        "theo-doi"
+      ],
+      "type": "basic",
+      "front": "Theo dõi tại khoa cấp cứu: <span style=\"color:#51cf66\"><b>khám lại, NPO và giảm đau</b></span> như thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bệnh nhân đau bụng cấp không được khám một lần rồi bỏ qua — phải khám lại định kỳ vì diễn tiến bệnh thay đổi theo giờ.<br>2) Nhóm nguy cơ trung gian cần khám lại mỗi <span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>: khám bụng lại, đo sinh hiệu lại, làm lại công thức máu và CRP; nếu đau tăng, bụng cứng hơn, sốt cao hơn hoặc bạch cầu tăng lên thì chuyển từ nguy cơ trung gian lên nguy cơ cao; nếu đau giảm, bụng mềm hơn, sốt hạ và bạch cầu giảm thì có thể chuyển xuống nguy cơ thấp.<br>3) Khám lại phải do cùng một người khám hoặc người khám phải đọc kỹ ghi chú của người khám trước, vì khám bụng là kỹ năng chủ quan — người khác nhau sờ có thể thấy khác nhau.<br>4) Ghi chú khám bụng phải cụ thể và định lượng được: ghi “bụng mềm, ấn đau hố chậu phải 6/10, gồng nhẹ, không đau dội” tốt hơn ghi “bụng đau”.<br>5) Trong lúc theo dõi, bệnh nhân không được ăn uống (nil per os, NPO) nếu nghi ngờ cần mổ — dạ dày đầy thức ăn làm tăng nguy cơ trào ngược và hít sặc khi gây mê.<br>6) Không cho thuốc giảm đau mạnh trước khi ngoại khoa đánh giá xong, vì thuốc giảm đau che lấp triệu chứng và làm khám bụng không còn đáng tin; thuốc giảm đau không cấm tuyệt đối, nhưng phải dùng sau khi đã khám và ghi nhận đầy đủ dấu hiệu, và phải ghi rõ đã dùng thuốc gì, liều bao nhiêu, lúc mấy giờ.<br><br><b>💡 Giải thích của AI:</b><br>Khám lại định kỳ quan trọng không kém khám lần đầu — bệnh nhân có thể chuyển từ nguy cơ trung gian lên nguy cơ cao trong vài giờ, và chỉ khám lại mới phát hiện được. NPO và hoãn giảm đau mạnh là để giữ cho lần khám lại còn đáng tin và giữ an toàn gây mê.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §10.1 — theo dõi tại khoa cấp cứu."
+    },
+    {
+      "id": "SURG01B-CARD-092",
+      "note_id": 1793934781548,
+      "tags": [
+        "kham-bung",
+        "chuoi-5-tang",
+        "theo-doi"
+      ],
+      "type": "basic",
+      "front": "Trình bày <span style=\"color:#74c0fc\"><b>chuỗi 5 tầng theo dõi</b></span> tại khoa cấp cứu — vì sao phải khám lại định kỳ?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tầng 1 (phân tử): viêm tiếp tục tiến triển, các chất trung gian viêm tăng dần, bạch cầu và CRP tăng theo thời gian.<br>2) Tầng 2 (tế bào/mô): phù nề thành tạng tăng, thiếu máu mô tăng, viêm lan từ tạng ra phúc mạc thành.<br>3) Tầng 3 (lâm sàng/xét nghiệm): đau khu trú rõ hơn, gồng rõ hơn, sốt cao hơn, bạch cầu tăng cao hơn so với lần khám trước.<br>4) Tầng 4 (quyết định): khám lại phát hiện diễn tiến xấu đi thì nâng nhóm nguy cơ, chụp hình ảnh ngay hoặc hội chẩn ngoại khoa; diễn tiến tốt lên thì hạ nhóm nguy cơ và tiếp tục theo dõi.<br>5) Tầng 5 (hậu quả): nếu không khám lại, bệnh nhân có thể thủng hoặc hoại tử trong lúc chờ đợi mà không ai biết, và mất thời điểm mổ tốt nhất.<br><br><b>💡 Giải thích của AI:</b><br>Ví dụ: bệnh nhân Alvarado 6 điểm lúc vào viện, theo dõi 4 giờ sau đau tăng, bụng gồng rõ, bạch cầu tăng từ 11 lên 16×10⁹/L — bệnh nhân đã chuyển từ nguy cơ trung gian lên nguy cơ cao, cần hội chẩn ngoại khoa ngay.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §10.1 — chuỗi 5 tầng theo dõi."
+    },
+    {
+      "id": "SURG01B-CARD-093",
+      "note_id": 1793934781550,
+      "tags": [
+        "kham-bung",
+        "theo-doi"
+      ],
+      "type": "basic",
+      "front": "Nhóm nguy cơ trung gian cần khám lại mỗi {{c1::<span style=\"color:#ffd43b\"><b>2–4 giờ</b></span>}}. Khám lại gồm khám bụng, đo sinh hiệu, công thức máu và CRP.",
+      "back": "📖 Nguồn: Bài Khám bụng ngoại khoa, §10.1 — khám lại mỗi 2–4 giờ cho nhóm nguy cơ trung gian."
+    },
+    {
+      "id": "SURG01B-CARD-094",
+      "note_id": 1793934781552,
+      "tags": [
+        "kham-bung",
+        "chuyen-tuyen",
+        "mo-cap-cuu",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ Tiêu chí <span style=\"color:#51cf66\"><b>chuyển tuyến và mổ cấp cứu</b></span> là gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Chuyển tuyến trên hoặc hội chẩn ngoại khoa ngay khi có một trong các dấu hiệu sau: bụng cứng như ván hoặc viêm phúc mạc lan tỏa; huyết áp tụt, mạch nhanh, dấu hiệu sốc; đau bụng tăng dần dù đã dùng thuốc giảm đau; sốt cao kèm bạch cầu tăng cao và CRP tăng cao; hình ảnh cho thấy thủng tạng rỗng, tắc ruột hoàn toàn, thiếu máu mạc treo hoặc áp xe lớn; bệnh nhân thuộc nhóm nguy cơ cao theo thang điểm và không cải thiện sau theo dõi; bệnh nhân nữ đau bụng dưới kèm test thai dương tính và ra máu âm đạo — nghĩ thai ngoài tử cung vỡ; bệnh nhân đau thượng vị kèm điện tâm đồ bất thường — nghĩ nhồi máu cơ tim, chuyển khoa tim mạch.<br>2) Mổ cấp cứu ngay khi có: viêm phúc mạc lan tỏa, thủng tạng rỗng, tắc ruột hoàn toàn có dấu hiệu thiếu máu ruột, vỡ tạng chảy máu trong ổ bụng, hoặc thoát vị nghẹt.<br>3) Mổ cấp cứu nghĩa là mổ trong vài giờ, không chờ tới sáng hôm sau.<br>4) Trong lúc chờ mổ, bệnh nhân không ăn uống, đặt đường truyền tĩnh mạch, lấy máu làm xét nghiệm tiền phẫu và dùng kháng sinh dự phòng theo phác đồ của bệnh viện.<br><br><b>💡 Giải thích của AI:</b><br>Danh sách chuyển tuyến là danh sách “một trong các dấu hiệu” — chỉ cần một dấu hiệu là đủ để chuyển tuyến hoặc hội chẩn ngay, không cần đợi đủ bộ. Mổ cấp cứu là mổ trong vài giờ, không phải mổ trong ngày hôm sau.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §10.2 — tiêu chí chuyển tuyến và mổ cấp cứu."
+    },
+    {
+      "id": "SURG01B-CARD-095",
+      "note_id": 1793934781554,
+      "tags": [
+        "kham-bung",
+        "nguoi-gia",
+        "suy-giam-mien-dich"
+      ],
+      "type": "basic",
+      "front": "Nhóm đặc biệt (<span style=\"color:#ff6b6b\"><b>người già, suy giảm miễn dịch, corticoid, đái tháo đường</b></span>) theo dõi và chuyển tuyến ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Người già đau bụng cấp cần được ưu tiên đánh giá kỹ hơn, không phải ít hơn: thường đến khám muộn, bệnh đã nặng hơn, tỉ lệ thủng cao hơn và dấu hiệu khám nghèo nàn hơn.<br>2) Ngưỡng chụp CT ở người già phải thấp hơn người trẻ; ngưỡng hội chẩn ngoại khoa ở người già cũng phải thấp hơn.<br>3) Người suy giảm miễn dịch nặng (đang hóa trị, dùng thuốc ức chế miễn dịch sau ghép tạng, HIV giai đoạn muộn): khám bụng không đáng tin, nên dùng CT cản quang rộng rãi hơn khi nghi ngờ bụng cấp.<br>4) Người dùng corticoid dài ngày: hỏi kỹ về thuốc đang dùng, vì corticoid che lấp sốt và đau.<br>5) Người đái tháo đường lâu năm có thể giảm cảm giác đau bụng do tổn thương thần kinh.<br>6) Với các nhóm này, không được kết luận “không có gì” chỉ dựa vào khám bụng.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên lý chung: đáp ứng viêm giảm thì dấu hiệu nghèo nàn, nên ngưỡng can thiệp phải thấp. Người già không phải là nhóm ít nguy cơ — họ là nhóm đến muộn hơn, thủng nhiều hơn và khám khó hơn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §10.3 — nhóm đặc biệt: người già và suy giảm miễn dịch."
+    },
+    {
+      "id": "SURG01B-CARD-096",
+      "note_id": 1793934781556,
+      "tags": [
+        "kham-bung",
+        "viet-nam",
+        "plan-a-b"
+      ],
+      "type": "basic",
+      "front": "Áp dụng tại Việt Nam: <span style=\"color:#51cf66\"><b>Plan A ở tuyến trên, Plan B ở tuyến huyện/xã</b></span> như thế nào, và có số liệu Việt Nam nào không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Không có số liệu dịch tễ Việt Nam nào về đau bụng cấp và viêm ruột thừa được kiểm chứng trong đợt nghiên cứu này — vì vậy phần này <span style=\"color:#ff6b6b\"><b>không bịa số Việt Nam</b></span>, chỉ dạy nguyên lý và bối cảnh tuyến để áp dụng khung WSES 2020 vào thực tế Việt Nam.<br>2) Tuyến trung ương và tuyến tỉnh có đủ CT, siêu âm và CRP — áp dụng Plan A: phân tầng bằng AIR, siêu âm cho nhóm nguy cơ trung gian, CT khi siêu âm không kết luận được.<br>3) Tuyến huyện và tuyến xã thường không có CT, có khi không có CRP và không có ngoại khoa trực 24 giờ — áp dụng Plan B: dùng Alvarado thay cho AIR; nhóm nguy cơ thấp về nhà theo dõi với hướng dẫn rõ ràng bằng tiếng Việt, ghi số điện thoại liên hệ và dặn quay lại ngay nếu đau tăng, sốt, nôn nhiều hoặc bụng cứng hơn; nhóm nguy cơ trung gian theo dõi sát, khám lại mỗi 2–4 giờ và chuyển tuyến trên chụp hình ảnh nếu diễn tiến xấu đi; nhóm nguy cơ cao chuyển tuyến trên ngay, không chờ đợi tại tuyến dưới.<br>4) Siêu âm rẻ và sẵn có ở hầu hết các tuyến nên là hình ảnh đầu tay cho nhóm nguy cơ trung gian; CT đắt hơn và có bức xạ nên chỉ dùng khi siêu âm không kết luận được hoặc khi nghi ngờ biến chứng nặng.<br>5) Bộ Y tế chưa có guideline riêng về khám bụng cấp và viêm ruột thừa — áp dụng guideline quốc tế WSES 2020.<br><br><b>💡 Giải thích của AI:</b><br>Áp dụng tại Việt Nam là áp dụng khung quốc tế vào bối cảnh tuyến, không phải là số liệu Việt Nam. Ví dụ: bệnh nhân ở tuyến huyện, Alvarado 6 điểm, không có CRP, không có CT — hướng xử trí là theo dõi sát, khám lại mỗi 2–4 giờ, làm công thức máu và chuyển tuyến tỉnh chụp CT nếu đau tăng hoặc bạch cầu tăng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §11 — áp dụng tại Việt Nam (không có số liệu Việt Nam kiểm chứng)."
+    },
+    {
+      "id": "SURG01B-CARD-097",
+      "note_id": 1793934781558,
+      "tags": [
+        "kham-bung",
+        "bay",
+        "viet-nam"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng:</b></span> Bệnh nhân Việt Nam đến muộn vì đã tự uống thuốc giảm đau ở nhà — điều này ảnh hưởng khám bụng ra sao, và phải hỏi gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Không đúng: không có số liệu Việt Nam nào được kiểm chứng trong đợt nghiên cứu này, nên mọi số Việt Nam đều là bịa nếu đưa vào bài.<br>2) Điểm đặc biệt của Việt Nam: bệnh nhân thường đến khám muộn vì tự mua thuốc giảm đau uống ở nhà trước — thuốc giảm đau che lấp triệu chứng và làm khám bụng không còn đáng tin.<br>3) Vì vậy phải hỏi kỹ bệnh nhân đã uống thuốc gì trước khi đến viện, và ghi rõ vào bệnh án.<br>4) Thang điểm RIPASA có 1 điểm cho “NRIC nước ngoài” — điểm này là đặc thù Singapore, không áp dụng ở Việt Nam; khi dùng RIPASA ở Việt Nam thì bỏ điểm này đi.<br><br><b>💡 Giải thích của AI:</b><br>Đến muộn vì tự mua thuốc giảm đau là bối cảnh thực tế Việt Nam làm khám bụng khó hơn: triệu chứng bị che lấp, bệnh đã nặng hơn khi tới viện. Hỏi kỹ thuốc đã uống là một phần của bệnh sử, không phải câu hỏi phụ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §11 — đến muộn vì tự mua thuốc giảm đau; RIPASA bỏ điểm NRIC."
+    },
+    {
+      "id": "SURG01B-CARD-098",
+      "note_id": 1793934781560,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "dau-doi"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 1 — <span style=\"color:#ff6b6b\"><b>đau dội</b></span>: trẻ em LR 3,0 nhưng người lớn “không có giá trị dự báo” — dạy cả 2 phía ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Nghiên cứu trẻ em nghi viêm ruột thừa: đau dội có LR 3,0, vắng đau dội có LR 0,28 — đau dội tăng khả năng viêm ruột thừa.<br>2) Nghiên cứu người lớn đau bụng cấp không chọn lọc: đau dội không có giá trị dự báo viêm phúc mạc.<br>3) Cả 2 đều đúng ở quần thể của chúng: nghiên cứu trẻ em chọn bệnh nhân đã nghi viêm ruột thừa từ đầu, chuẩn vàng là viêm ruột thừa có hay không; nghiên cứu người lớn chọn bệnh nhân đau bụng cấp không chọn lọc, chuẩn vàng là viêm phúc mạc có hay không.<br>4) Dạy: đau dội có giá trị trong bối cảnh nghi viêm ruột thừa, không phải test sàng lọc viêm phúc mạc chung.<br><br><b>💡 Giải thích của AI:</b><br>Quần thể khác nhau, câu hỏi khác nhau, nên kết quả khác nhau là điều dễ hiểu. Mâu thuẫn biến mất khi nêu rõ quần thể và câu hỏi của từng nghiên cứu.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 1: đau dội."
+    },
+    {
+      "id": "SURG01B-CARD-099",
+      "note_id": 1793934781562,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 2 — <span style=\"color:#ff6b6b\"><b>người già</b></span>: vừa ít dấu hiệu viêm phúc mạc hơn, vừa nhiều dấu hiệu hơn — dạy cả 2 phía ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Một mặt: người già thủng ổ loét có ít dấu hiệu viêm phúc mạc hơn và đáp ứng viêm giảm (bạch cầu tăng ít, sốt thấp, cơ thành bụng yếu nên gồng ít rõ).<br>2) Mặt khác: người già viêm ruột thừa lại có nhiều dấu hiệu viêm phúc mạc hơn do đến muộn và tỉ lệ thủng cao.<br>3) Cả 2 đều đúng ở 2 bối cảnh khác nhau.<br>4) Dạy: dấu hiệu có thể nghèo nàn vì đáp ứng viêm giảm, nhưng khi đã thủng và lan tỏa thì dấu hiệu lại rõ — và ở người già, đau bụng kèm cứng bụng dù cứng nhẹ đã là cảnh báo sớm cần mổ cấp cứu ngay.<br><br><b>💡 Giải thích của AI:</b><br>Mâu thuẫn này dạy người học không được dùng một quy tắc đơn giản cho người già: vừa phải nghi ngờ khi dấu hiệu nghèo nàn (vì đáp ứng viêm giảm), vừa phải hành động ngay khi dấu hiệu đã rõ (vì bệnh đã lan tỏa).<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 2: người già."
+    },
+    {
+      "id": "SURG01B-CARD-100",
+      "note_id": 1793934781564,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "am-ruot"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 3 — <span style=\"color:#ff6b6b\"><b>thứ tự khám</b></span>: giáo điều “nghe trước khi sờ” đối đầu thử nghiệm 2019 — dạy ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Giáo điều dạy phải nghe trước khi sờ vì sờ làm thay đổi nhu động ruột.<br>2) Thử nghiệm chéo ngẫu nhiên năm 2019 cho thấy thứ tự không làm thay đổi tần suất âm ruột.<br>3) Dạy: thứ tự truyền thống vẫn hợp lý về mặt thực hành (tránh làm bệnh nhân đau trước khi nghe), nhưng bằng chứng cho thấy tần suất âm ruột không đổi — và âm ruột vốn có giá trị hạn chế (không khu trú theo vùng nghe, không phản ánh mức nhu động thật).<br><br><b>💡 Giải thích của AI:</b><br>Giáo điều đúng về mặt thực hành (đừng làm bệnh nhân đau trước khi nghe) nhưng sai về mặt lý do (sờ không làm thay đổi tần suất âm ruột). Giữ thứ tự truyền thống vì lý do thực hành, không phải vì lý do sinh lý.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 3: thứ tự khám (thử nghiệm 2019)."
+    },
+    {
+      "id": "SURG01B-CARD-101",
+      "note_id": 1793934781566,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 4 — <span style=\"color:#ff6b6b\"><b>dấu Murphy</b></span>: lâm sàng đặc hiệu 96% nhưng nhạy 62%, siêu âm nhạy 86% nhưng đặc hiệu 71% — dạy ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Murphy lâm sàng: độ đặc hiệu 96% nhưng độ nhạy chỉ 62%.<br>2) Siêu âm: nhạy hơn (86%) nhưng đặc hiệu thấp hơn (71%).<br>3) Không test nào đơn lẻ loại trừ được viêm túi mật cấp.<br>4) Dạy: khám lâm sàng tốt để khẳng định, siêu âm tốt để loại trừ, và cần kết hợp cả 2 với xét nghiệm.<br><br><b>💡 Giải thích của AI:</b><br>Hai test bù trừ cho nhau: lâm sàng đặc hiệu nên dương tính thì tin, siêu âm nhạy nên âm tính thì yên tâm hơn. Kết hợp cả hai với xét nghiệm thành một quy tắc quyết định lâm sàng thay vì dựa vào một test đơn lẻ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 4: dấu Murphy (tổng quan hệ thống 2017)."
+    },
+    {
+      "id": "SURG01B-CARD-102",
+      "note_id": 1793934781568,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "cullen"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 5 — <span style=\"color:#ff6b6b\"><b>Cullen và Grey Turner</b></span>: truyền thống dạy là dấu viêm tụy, thực tế chỉ gặp ở dưới 1% — dạy ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Truyền thống dạy dấu Cullen và Grey Turner là dấu hiệu viêm tụy cấp.<br>2) Thực tế chúng chỉ gặp ở dưới 1% bệnh nhân viêm tụy và không nhạy cũng không đặc hiệu cho viêm tụy cấp.<br>3) Dạy: 2 dấu này là dấu hiệu tiên lượng xấu của xuất huyết sau phúc mạc, không phải dấu hiệu chẩn đoán viêm tụy; thấy dấu này thì đánh giá ngay xem có xuất huyết sau phúc mạc không và chuẩn bị hồi sức tích cực.<br><br><b>💡 Giải thích của AI:</b><br>Hai dấu hiệu hơn 100 năm tuổi (Cullen 1918, Grey Turner 1920) từ thời chưa có CT. Ngày nay CT phát hiện xuất huyết sau phúc mạc sớm hơn nhiều so với chờ vết bầm xuất hiện trên da (sau 24–48 giờ).<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 5: Cullen và Grey Turner (tổng quan 2024)."
+    },
+    {
+      "id": "SURG01B-CARD-103",
+      "note_id": 1793934781570,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "alvarado"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 6 — <span style=\"color:#ff6b6b\"><b>thang điểm Alvarado</b></span>: đủ nhạy để loại trừ (ngưỡng 5, nhạy 99%) nhưng không nên dùng để khẳng định — dạy ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Alvarado đủ nhạy để loại trừ viêm ruột thừa: ngưỡng 5 điểm, độ nhạy 99% (nam 96%, nữ 99%, trẻ em 99%).<br>2) Nhưng không nên dùng để khẳng định ở người lớn: ngưỡng 7 điểm chỉ có độ đặc hiệu 81%, ở nam chỉ 57%.<br>3) Dạy: dùng Alvarado để quyết định ai có thể về, không dùng để quyết định ai phải mổ; WSES 2020 khuyến cáo yếu (Weak, 2B) chống lại việc dùng Alvarado để khẳng định viêm ruột thừa ở người lớn.<br><br><b>💡 Giải thích của AI:</b><br>Một thang điểm có thể vừa rất tốt để loại trừ vừa rất kém để khẳng định — vì ngưỡng loại trừ và ngưỡng khẳng định là hai ngưỡng khác nhau với độ nhạy và độ đặc hiệu khác nhau. Dùng sai ngưỡng là dùng sai thang điểm.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 6: thang điểm Alvarado (WSES 2020)."
+    },
+    {
+      "id": "SURG01B-CARD-104",
+      "note_id": 1793934781572,
+      "tags": [
+        "kham-bung",
+        "mau-thuan",
+        "DRE"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 7 — <span style=\"color:#ff6b6b\"><b>thăm trực tràng</b></span>: truyền thống dạy thường quy, bằng chứng cho thấy nhạy 0,49/đặc hiệu 0,61 — dạy ra sao?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Truyền thống dạy DRE là bước thường quy trong khám bụng cấp.<br>2) Tổng quan hệ thống năm 2015 cho thấy DRE có độ nhạy 0,49 và độ đặc hiệu 0,61, gần như không thay đổi khả năng mắc bệnh (LR+ 1,24, LR− 0,85).<br>3) Dạy: DRE chỉ làm khi có chỉ định cụ thể (tắc ruột thấp, áp xe tiểu khung, chảy máu tiêu hóa dưới, bí tiểu, đánh giá trương lực cơ thắt), không làm thường quy cho mọi bệnh nhân nghi viêm ruột thừa.<br><br><b>💡 Giải thích của AI:</b><br>Khám đầy đủ là khám đúng chỉ định, không phải khám mọi thứ cho mọi bệnh nhân. DRE thường quy cho mọi bệnh nhân nghi viêm ruột thừa là làm thêm một test gần như không có thông tin.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.1 — mâu thuẫn 7: thăm trực tràng (tổng quan hệ thống 2015)."
+    },
+    {
+      "id": "SURG01B-CARD-105",
+      "note_id": 1793934781574,
+      "tags": [
+        "kham-bung",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "12 bẫy lâm sàng, nhóm 1 (bẫy 1–4): tin <span style=\"color:#ff6b6b\"><b>một dấu hiệu đơn lẻ</b></span> — Rovsing/psoas/obturator âm tính, McBurney, Murphy âm tính?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bẫy 1: tin một dấu hiệu đơn lẻ để khẳng định hoặc loại trừ bệnh — không dấu hiệu nào làm được điều đó, luôn kết hợp dấu hiệu, thang điểm, xét nghiệm và hình ảnh.<br>2) Bẫy 2: nghĩ dấu Rovsing, psoas hoặc obturator âm tính thì loại trừ được viêm ruột thừa — độ nhạy gộp chỉ 0,16–0,27, LR− gần bằng 1, âm tính gần như không làm giảm khả năng bệnh.<br>3) Bẫy 3: nghĩ điểm McBurney là vị trí của ruột thừa — điểm McBurney là điểm đau nhất trên thành bụng trước, không phải vị trí giải phẫu của ruột thừa.<br>4) Bẫy 4: nghĩ dấu Murphy âm tính thì loại trừ được viêm túi mật — độ nhạy của Murphy lâm sàng chỉ 62%, 38 trong 100 bệnh nhân viêm túi mật có Murphy âm tính.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm bẫy này có chung một gốc: tin một dấu hiệu đơn lẻ. Quy tắc vàng của khám bụng là dấu hiệu dương tính thì tin để khẳng định, dấu hiệu âm tính thì đừng tin để loại trừ — vì hầu hết dấu hiệu khám bụng đều nhạy kém nhưng đặc hiệu khá.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.2 — bẫy lâm sàng 1–4."
+    },
+    {
+      "id": "SURG01B-CARD-106",
+      "note_id": 1793934781576,
+      "tags": [
+        "kham-bung",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "12 bẫy lâm sàng, nhóm 2 (bẫy 5–8): <span style=\"color:#ff6b6b\"><b>vắng dấu hiệu thì yên tâm</b></span> — Cullen, âm ruột, DRE, người già?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bẫy 5: nghĩ không có dấu Cullen hoặc Grey Turner thì viêm tụy chưa nặng — 2 dấu này chỉ gặp ở dưới 1% bệnh nhân viêm tụy, vắng dấu không nói lên gì về mức độ nặng.<br>2) Bẫy 6: dựa vào âm ruột để quyết định mổ hay không mổ — âm ruột không khu trú theo vùng nghe, không phản ánh mức nhu động thật, và thứ tự nghe–sờ không làm thay đổi tần suất âm ruột.<br>3) Bẫy 7: làm thăm trực tràng thường quy cho mọi bệnh nhân nghi viêm ruột thừa — DRE có độ nhạy 0,49 và độ đặc hiệu 0,61, gần như không thay đổi khả năng mắc bệnh, không nên làm thường quy.<br>4) Bẫy 8: kết luận “không có gì nghiêm trọng” ở người già hoặc suy giảm miễn dịch chỉ vì khám thấy ít dấu hiệu — 2 nhóm này có thể thủng tạng rỗng mà bụng chỉ đau âm ỉ, không sốt, bạch cầu bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm bẫy này có chung một gốc: vắng dấu hiệu thì yên tâm. Vắng Cullen không nói lên mức độ nặng viêm tụy; âm ruột không quyết định được mổ hay không; DRE âm tính không loại trừ được viêm ruột thừa; khám nghèo nàn ở người già không có nghĩa là không có bệnh nặng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.2 — bẫy lâm sàng 5–8."
+    },
+    {
+      "id": "SURG01B-CARD-107",
+      "note_id": 1793934781578,
+      "tags": [
+        "kham-bung",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "12 bẫy lâm sàng, nhóm 3 (bẫy 9–12): <span style=\"color:#ff6b6b\"><b>quên test, sai thứ tự, áp sai thang điểm, nhầm tên gọi</b></span>?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Bẫy 9: quên làm test thai ở phụ nữ đau bụng dưới và quên làm điện tâm đồ ở bệnh nhân đau thượng vị — thai ngoài tử cung vỡ và nhồi máu cơ tim thành dưới là 2 cấp cứu chết người hay bị bỏ sót khi chỉ tập trung vào bụng.<br>2) Bẫy 10: khám vùng đau nhất trước tiên — làm vậy khiến bệnh nhân đau và gồng toàn bụng, sau đó không khám được các vùng khác nữa; luôn khám vùng đau nhất cuối cùng.<br>3) Bẫy 11: dùng thang điểm RIPASA mà không bỏ điểm “NRIC nước ngoài” — điểm này chỉ có ý nghĩa ở Singapore, không dùng được ở Việt Nam.<br>4) Bẫy 12: nhầm “hội chứng Murphy” trong viêm ruột thừa với dấu Murphy của viêm túi mật — khi nghe thấy “Murphy”, phải hỏi rõ là Murphy nào, 2 khái niệm này khác nhau hoàn toàn.<br><br><b>💡 Giải thích của AI:</b><br>Nhóm bẫy này là những lỗi quy trình: quên một test bắt buộc (test thai, điện tâm đồ), sai thứ tự khám, áp nguyên si thang điểm nước khác, nhầm tên gọi. Tất cả đều tránh được bằng checklist, không cần kinh nghiệm nhiều năm.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §12.2 — bẫy lâm sàng 9–12."
+    },
+    {
+      "id": "SURG01B-CARD-108",
+      "note_id": 1793934781580,
+      "tags": [
+        "kham-bung",
+        "case",
+        "alvarado",
+        "AIR"
+      ],
+      "type": "basic",
+      "front": "Case 1: Nam 22 tuổi, đau bụng 12 giờ, đau bắt đầu quanh rốn rồi di chuyển xuống hố chậu phải, chán ăn, buồn nôn 2 lần, sốt 38,0°C, ấn đau hố chậu phải, đau dội dương tính, gồng nhẹ, bạch cầu 13,5×10⁹/L, trung tính 78%, CRP 35 mg/L. Tính <span style=\"color:#74c0fc\"><b>Alvarado và AIR</b></span> — kết quả ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, nhận diện nguy cơ: đau di chuyển từ quanh rốn xuống hố chậu phải, kèm chán ăn, buồn nôn, sốt và đau dội — đây là biểu hiện điển hình của viêm ruột thừa, nguy cơ cao.<br>2) Bước 2, dữ kiện thay đổi xác suất: di chuyển đau, đau hố chậu phải, đau dội, sốt và bạch cầu tăng đều là yếu tố tăng khả năng viêm ruột thừa; không có dấu hiệu nào làm giảm khả năng.<br>3) Bước 3, hành động ngay — tính thang điểm: Alvarado: di chuyển đau 1, chán ăn 1, buồn nôn 1, đau hố chậu phải 2, đau dội 1, sốt 1, bạch cầu tăng 2, shift trái chưa có kết quả nên tạm tính 0 — tổng <span style=\"color:#ffd43b\"><b>9 điểm</b></span>, thuộc nhóm rất có thể. AIR: nôn 1, đau hố chậu phải 1, đau dội nhẹ 1, sốt dưới 38,5°C 0, bạch cầu 10–14 là 1, bạch cầu trung tính 70–84% là 1, CRP 10–49 là 1 — tổng <span style=\"color:#ffd43b\"><b>6 điểm</b></span>, thuộc nhóm nguy cơ trung gian.<br>4) Hai thang điểm không hoàn toàn khớp nhau — Alvarado 9 điểm là nhóm cao, AIR 6 điểm là nhóm trung gian.<br><br><b>💡 Giải thích của AI:</b><br>Hai thang điểm không khớp nhau là bình thường: Alvarado và AIR dùng các yếu tố và trọng số khác nhau, và ngưỡng của chúng không tương đương tuyệt đối. Khi hai thang điểm không khớp, hành động theo nhóm cao hơn — không cho bệnh nhân về nhà.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 1: nam 22 tuổi, đau hố chậu phải 12 giờ."
+    },
+    {
+      "id": "SURG01B-CARD-109",
+      "note_id": 1793934781582,
+      "tags": [
+        "kham-bung",
+        "case",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Case 1 (tiếp): Alvarado 9 điểm, AIR 6 điểm — <span style=\"color:#51cf66\"><b>xử trí tiếp theo</b></span> là gì, và vì sao cho về nhà là sai?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 4, hướng xử trí: <span style=\"color:#51cf66\"><b>hội chẩn ngoại khoa ngay và chụp siêu âm hoặc CT để xác nhận trước mổ</b></span>; không cho bệnh nhân về nhà; không ăn uống trong lúc chờ mổ; theo dõi sát sinh hiệu và khám lại bụng.<br>2) Bước 5, vì sao các lựa chọn sai không phù hợp: cho về nhà theo dõi là sai vì Alvarado 9 điểm là nhóm rất có thể viêm ruột thừa, nguy cơ thủng tăng theo giờ; chỉ dùng thuốc giảm đau rồi cho về là sai vì thuốc che lấp triệu chứng và làm mất cơ hội mổ sớm; chụp CT rồi mới hội chẩn ngoại khoa là chậm — phải hội chẩn song song với chụp hình ảnh.<br><br><b>💡 Giải thích của AI:</b><br>Khi Alvarado 9 điểm và AIR 6 điểm không khớp nhau, hành động theo nhóm cao hơn: hội chẩn ngoại khoa ngay, chụp hình ảnh song song chứ không nối tiếp. Thuốc giảm đau rồi cho về là sai lầm làm mất thời điểm mổ tốt nhất.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 1: lời giải bước 4–5."
+    },
+    {
+      "id": "SURG01B-CARD-110",
+      "note_id": 1793934781584,
+      "tags": [
+        "kham-bung",
+        "case",
+        "nguoi-gia"
+      ],
+      "type": "basic",
+      "front": "Case 2: Nữ 68 tuổi, đau bụng âm ỉ 2 ngày, đau lan tỏa, không sốt (36,8°C), bụng hơi chướng, ấn đau nhẹ lan tỏa, không gồng, không đau dội, không cứng bụng, bạch cầu 9,8×10⁹/L (bình thường), CRP 28 mg/L (tăng nhẹ), đái tháo đường 15 năm, đang dùng corticoid. Khám nghèo nàn như vậy có <span style=\"color:#ff6b6b\"><b>loại trừ được bệnh ngoại khoa</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, nhận diện nguy cơ: người già 68 tuổi, đái tháo đường lâu năm, đang dùng corticoid — đây là nhóm có đáp ứng viêm giảm và dấu hiệu khám nghèo nàn dù bệnh nặng; đau bụng 2 ngày không khu trú, bụng hơi chướng, CRP tăng nhẹ — không loại trừ được thủng hoặc viêm phúc mạc.<br>2) Bước 2, dữ kiện thay đổi xác suất: tuổi cao, đái tháo đường và corticoid đều làm giảm đáp ứng viêm — sốt vắng và bạch cầu bình thường <span style=\"color:#ff6b6b\"><b>không làm giảm khả năng bệnh ngoại khoa</b></span> ở nhóm này; bụng chướng kèm đau lan tỏa 2 ngày gợi ý tắc ruột hoặc viêm phúc mạc sớm.<br>3) Khám bụng nghèo nàn như vậy <span style=\"color:#ff6b6b\"><b>không loại trừ được bệnh ngoại khoa</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bạch cầu 9,8×10⁹/L bình thường và không sốt là bình thường ở nhóm này, không phải là bằng chứng không có bệnh. Corticoid che lấp sốt và đau, đái tháo đường lâu năm làm giảm cảm giác đau do tổn thương thần kinh — cả hai đều làm khám bụng mất giá trị loại trừ.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 2: nữ 68 tuổi, đau bụng âm ỉ 2 ngày."
+    },
+    {
+      "id": "SURG01B-CARD-111",
+      "note_id": 1793934781586,
+      "tags": [
+        "kham-bung",
+        "case",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Case 2 (tiếp): Nữ 68 tuổi, khám nghèo nàn, bạch cầu bình thường, đang dùng corticoid — <span style=\"color:#51cf66\"><b>xử trí tiếp theo</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 3, hành động ngay: <span style=\"color:#51cf66\"><b>không cho về nhà</b></span>; nhập viện theo dõi sát, khám lại bụng mỗi 2–4 giờ, làm lại công thức máu và CRP, chụp X-quang bụng đứng tìm hơi tự do và mức hơi–dịch, chụp CT bụng nếu có thể.<br>2) Bước 4, hướng xử trí: hội chẩn ngoại khoa sớm vì ngưỡng chụp CT và hội chẩn ở người già dùng corticoid phải thấp hơn bình thường; dặn bệnh nhân không ăn uống trong lúc chờ đánh giá; theo dõi sinh hiệu sát, đặc biệt huyết áp và mạch.<br>3) Bước 5, vì sao các lựa chọn sai không phù hợp: cho về nhà vì “khám không có gì, xét nghiệm bình thường” là sai lầm chết người ở nhóm này — người già dùng corticoid có thể thủng tạng rỗng mà không sốt, không tăng bạch cầu, không cứng bụng; chỉ cho thuốc giảm đau rồi về là sai vì thuốc che lấp triệu chứng duy nhất còn lại là đau; chờ tới khi bụng cứng như ván mới xử trí là quá muộn.<br><br><b>💡 Giải thích của AI:</b><br>Case 2 là bài học về ngưỡng can thiệp thấp: khi khám không đáng tin thì phải dựa vào theo dõi sát và hình ảnh, không được dùng “khám không có gì” làm lý do cho về. Chờ tới khi bụng cứng như ván là chờ tới khi đã muộn.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 2: lời giải bước 3–5."
+    },
+    {
+      "id": "SURG01B-CARD-112",
+      "note_id": 1793934781588,
+      "tags": [
+        "kham-bung",
+        "case",
+        "murphy"
+      ],
+      "type": "basic",
+      "front": "Case 3: Nam 45 tuổi, đau hạ sườn phải 1 ngày, tăng sau ăn mỡ, sốt 38,5°C, buồn nôn, ấn đau hạ sườn phải, dấu Murphy dương tính, bạch cầu 14,2×10⁹/L, siêu âm túi mật to, thành dày, có sỏi, không thấy dấu Murphy siêu âm rõ. Chẩn đoán nào khả năng nhất, và dấu Murphy lâm sàng dương tính có <span style=\"color:#51cf66\"><b>đủ để khẳng định</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 1, nhận diện nguy cơ: đau hạ sườn phải sau ăn mỡ, sốt, buồn nôn, dấu Murphy dương tính — đây là biểu hiện điển hình của <span style=\"color:#74c0fc\"><b>viêm túi mật cấp</b></span>.<br>2) Bước 2, dữ kiện thay đổi xác suất: dấu Murphy lâm sàng dương tính có độ đặc hiệu 96% và LR+ 15,64 — khả năng viêm túi mật cấp tăng rất mạnh; bạch cầu tăng và siêu âm thấy túi mật to, thành dày, có sỏi củng cố thêm chẩn đoán; dấu Murphy siêu âm không rõ không làm giảm khả năng, vì độ nhạy của siêu âm cũng chỉ 86%.<br>3) Dấu Murphy lâm sàng dương tính <span style=\"color:#51cf66\"><b>đủ đặc hiệu để củng cố chẩn đoán</b></span>, nhưng chẩn đoán vẫn cần kết hợp bệnh sử, xét nghiệm và siêu âm — không có test đơn lẻ nào khẳng định một mình.<br><br><b>💡 Giải thích của AI:</b><br>LR+ 15,64 là một trong những LR+ cao nhất trong bài — Murphy dương tính làm tăng khả năng viêm túi mật cấp hơn 15 lần. Nhưng Murphy siêu âm không rõ không phủ nhận được Murphy lâm sàng, vì siêu âm nhạy hơn nhưng đặc hiệu thấp hơn lâm sàng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 3: nam 45 tuổi, đau hạ sườn phải, Murphy dương tính."
+    },
+    {
+      "id": "SURG01B-CARD-113",
+      "note_id": 1793934781590,
+      "tags": [
+        "kham-bung",
+        "case",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Case 3 (tiếp): Viêm túi mật cấp, Murphy lâm sàng dương tính — <span style=\"color:#51cf66\"><b>xử trí tiếp theo và thời điểm mổ</b></span> ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bước 3, hành động ngay: <span style=\"color:#51cf66\"><b>hội chẩn ngoại khoa, nhập viện, không ăn uống, truyền dịch, dùng kháng sinh theo phác đồ của bệnh viện</b></span>, và đánh giá phân độ nặng theo khung Tokyo để quyết định thời điểm mổ.<br>2) Bước 4, hướng xử trí: viêm túi mật nhẹ thì mổ sớm trong cùng đợt nhập viện; viêm nặng hoặc có rối loạn chức năng tạng thì dẫn lưu túi mật trước, mổ sau khi ổn định; theo dõi sát dấu hiệu viêm phúc mạc và nhiễm trùng huyết.<br>3) Bước 5, vì sao các lựa chọn sai không phù hợp: chỉ dùng thuốc giảm đau rồi cho về là sai vì viêm túi mật cấp có thể tiến triển thành hoại tử và thủng túi mật; chờ dấu Murphy siêu âm dương tính mới chẩn đoán là sai vì siêu âm không phải lúc nào cũng thấy rõ dấu Murphy, và Murphy lâm sàng đã đủ đặc hiệu; mổ ngay không cần đánh giá phân độ nặng là sai vì thời điểm mổ phụ thuộc vào mức độ nặng theo khung Tokyo.<br><br><b>💡 Giải thích của AI:</b><br>Phân độ nặng theo Tokyo là cầu nối giữa chẩn đoán và thời điểm mổ: viêm nhẹ mổ sớm, viêm nặng dẫn lưu trước rồi mổ sau. Bỏ qua phân độ nặng mà mổ ngay là bỏ qua quyết định quan trọng nhất sau chẩn đoán.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §13 — Case 3: lời giải bước 3–5."
+    },
+    {
+      "id": "SURG01B-CARD-114",
+      "note_id": 1793934781592,
+      "tags": [
+        "kham-bung",
+        "tip"
+      ],
+      "type": "basic",
+      "front": "Tips thực hành 1–7: <span style=\"color:#51cf66\"><b>hỏi di chuyển đau, thứ tự khám, tay ấm, quan sát mặt, quy tắc vàng, Alvarado và AIR</b></span>?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tip 1: luôn hỏi bệnh nhân đau bắt đầu ở đâu và di chuyển đi đâu trước khi sờ bụng — di chuyển đau từ quanh rốn xuống hố chậu phải là dấu hiệu có giá trị nhất trong bệnh sử viêm ruột thừa.<br>2) Tip 2: khám vùng đau nhất cuối cùng, không khám đầu tiên — sờ vào chỗ đau nhất trước làm bệnh nhân gồng toàn bụng và phá hỏng phần khám còn lại.<br>3) Tip 3: bàn tay khám phải ấm, sờ nhẹ và từ từ — tay lạnh và sờ mạnh gây gồng giả, không phải gồng do viêm phúc mạc.<br>4) Tip 4: quan sát mặt bệnh nhân trong lúc sờ — mặt nhăn lại ở một vùng nào đó là dấu hiệu đau, đôi khi rõ hơn lời bệnh nhân nói.<br>5) Tip 5: dấu hiệu dương tính thì tin để khẳng định, dấu hiệu âm tính thì đừng tin để loại trừ — đây là quy tắc vàng của khám bụng, vì hầu hết dấu hiệu khám bụng đều nhạy kém nhưng đặc hiệu khá.<br>6) Tip 6: Alvarado dưới 5 điểm thì nghĩ tới chuyện cho về, Alvarado 9–10 điểm thì nghĩ tới chuyện mổ — nhưng đừng dùng Alvarado để khẳng định viêm ruột thừa ở người lớn, vì độ đặc hiệu ở nam chỉ 57%.<br>7) Tip 7: khi có CRP thì dùng AIR thay cho Alvarado — AIR tốt hơn Alvarado cả về loại trừ và khẳng định, với AUC là 0,86 so với 0,79.<br><br><b>💡 Giải thích của AI:</b><br>7 tip đầu là kỹ thuật khám và quy tắc đọc dấu hiệu: hỏi di chuyển đau trước khi sờ, khám vùng đau nhất cuối cùng, tay ấm, quan sát mặt, quy tắc vàng dương tính/âm tính, và chọn thang điểm theo CRP.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §14 — Tips 1–7."
+    },
+    {
+      "id": "SURG01B-CARD-115",
+      "note_id": 1793934781594,
+      "tags": [
+        "kham-bung",
+        "tip",
+        "checklist"
+      ],
+      "type": "basic",
+      "front": "Tips thực hành 8–14 và <span style=\"color:#51cf66\"><b>checklist trước khi cho bệnh nhân đau bụng về nhà</b></span>?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tip 8: người già và suy giảm miễn dịch khám nghèo nàn dù bệnh nặng — ngưỡng chụp CT và hội chẩn ở 2 nhóm này phải thấp hơn bình thường.<br>2) Tip 9: mọi phụ nữ trong độ tuổi sinh đẻ đau bụng dưới đều phải làm test thai trước khi chụp hình ảnh — thai ngoài tử cung vỡ là cấp cứu chết người hay bị bỏ sót.<br>3) Tip 10: mọi bệnh nhân đau thượng vị trên 50 tuổi đều phải làm điện tâm đồ — nhồi máu cơ tim thành dưới gây đau thượng vị và có thể không có đau ngực.<br>4) Tip 11: test Carnett chỉ mất 30 giây nhưng có thể tránh được nhiều xét nghiệm tốn kém — đau bụng tái đi tái lại mà không tìm ra nguyên nhân thì nghĩ tới đau thành bụng.<br>5) Tip 12: âm ruột mất không chứng minh được liệt ruột, âm ruột còn không loại trừ được viêm phúc mạc — đừng dựa vào âm ruột để quyết định mổ hay không mổ.<br>6) Tip 13: ghi chú khám bụng phải cụ thể và định lượng được — ghi “bụng mềm, ấn đau hố chậu phải 6/10, gồng nhẹ, không đau dội” thay vì ghi “bụng đau”.<br>7) Tip 14: khám lại định kỳ quan trọng không kém khám lần đầu — bệnh nhân có thể chuyển từ nguy cơ trung gian lên nguy cơ cao trong vài giờ, và chỉ khám lại mới phát hiện được.<br>8) Checklist trước khi cho bệnh nhân đau bụng về nhà: thang điểm nguy cơ thấp (Alvarado dưới 5 điểm hoặc AIR 3 điểm trở xuống); bụng mềm, không gồng, không đau dội, không cứng bụng; sinh hiệu ổn định, không sốt cao, huyết áp bình thường; bạch cầu và CRP không tăng cao; bệnh nhân không thuộc nhóm nguy cơ cao (người già trên 80 tuổi, suy giảm miễn dịch, dùng corticoid, đái tháo đường lâu năm); test thai âm tính (nữ trong độ tuổi sinh đẻ) và điện tâm đồ bình thường (đau thượng vị trên 50 tuổi); bệnh nhân hiểu rõ dấu hiệu cần quay lại ngay và có số điện thoại liên hệ; đã hẹn tái khám sau 12–24 giờ.<br><br><b>💡 Giải thích của AI:</b><br>7 tip sau là an toàn và quy trình: ngưỡng thấp ở nhóm đặc biệt, test thai và điện tâm đồ không được quên, Carnett 30 giây, âm ruột không quyết định được, ghi chú định lượng và khám lại định kỳ. Checklist cho về nhà là tổng hợp của cả bài — chỉ cho về khi đủ tất cả các mục.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §14 — Tips 8–14 và checklist cho về nhà."
+    },
+    {
+      "id": "SURG01B-CARD-116",
+      "note_id": 1793934781596,
+      "tags": [
+        "kham-bung",
+        "checkpoint"
+      ],
+      "type": "basic",
+      "front": "Checkpoint 5 và 6: Alvarado 4 điểm thì cho về hay mổ, và Murphy lâm sàng âm tính thì <span style=\"color:#51cf66\"><b>loại trừ được viêm túi mật</b></span> không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Checkpoint 5: bệnh nhân Alvarado 4 điểm, không sốt, bạch cầu bình thường — xử trí đúng là <span style=\"color:#51cf66\"><b>cho về nhà theo dõi với hướng dẫn quay lại rõ ràng</b></span>, không phải mổ ngay; Alvarado dưới 5 điểm có độ nhạy loại trừ 99%, nhóm nguy cơ thấp có thể về nhà theo dõi với hướng dẫn quay lại ngay nếu đau tăng, sốt, nôn nhiều hoặc bụng cứng hơn.<br>2) Checkpoint 6: bệnh nhân viêm túi mật, dấu Murphy lâm sàng âm tính — kết luận đúng là <span style=\"color:#51cf66\"><b>không loại trừ được, vẫn cần siêu âm và xét nghiệm</b></span>; độ nhạy của Murphy lâm sàng chỉ 62%, LR− là 0,40, âm tính chỉ làm giảm khả năng vừa phải, không loại trừ được viêm túi mật.<br><br><b>💡 Giải thích của AI:</b><br>Hai checkpoint này kiểm tra quy tắc vàng theo hai hướng ngược nhau: Alvarado thấp thì loại trừ được (vì ngưỡng 5 có độ nhạy 99%), Murphy âm tính thì không loại trừ được (vì độ nhạy chỉ 62%). Phân biệt được hai tình huống này là nắm được cốt lõi của bài.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §14 — Checkpoint 5 và Checkpoint 6."
+    },
+    {
+      "id": "SURG01B-CARD-117",
+      "note_id": 1793934781598,
+      "tags": [
+        "kham-bung",
+        "tom-tat"
+      ],
+      "type": "basic",
+      "front": "Tóm tắt 10 điểm cần nhớ (1–5): <span style=\"color:#ff6b6b\"><b>tần suất, dấu hiệu đơn lẻ, không điển hình, trình tự khám, viêm phúc mạc</b></span>?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Đau bụng cấp: 15–20% bệnh nhân ở cấp cứu cần can thiệp hoặc phẫu thuật; tử vong 2–12%, tăng theo từng giờ chậm trễ.<br>2) Không một dấu hiệu đơn lẻ nào khẳng định hay loại trừ được viêm ruột thừa — luôn kết hợp dấu hiệu, thang điểm, xét nghiệm và hình ảnh.<br>3) Chỉ khoảng 50% bệnh nhân viêm ruột thừa có biểu hiện điển hình — “không điển hình” mới là bình thường.<br>4) Khám bụng theo trình tự nhìn–nghe–gõ–sờ, khám vùng đau nhất cuối cùng, bàn tay phải ấm.<br>5) Đau dội, gồng và cứng bụng là dấu hiệu viêm phúc mạc; cứng bụng như ván là chỉ định mổ cấp cứu.<br><br><b>💡 Giải thích của AI:</b><br>Năm điểm đầu của tóm tắt là khung của cả bài: tần suất và tử vong của đau bụng cấp, nguyên tắc không tin dấu hiệu đơn lẻ, tính không điển hình là bình thường, trình tự khám chuẩn và dấu hiệu viêm phúc mạc.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §15.1 — tóm tắt 10 điểm cần nhớ (điểm 1–5)."
+    },
+    {
+      "id": "SURG01B-CARD-118",
+      "note_id": 1793934781600,
+      "tags": [
+        "kham-bung",
+        "tom-tat"
+      ],
+      "type": "basic",
+      "front": "Tóm tắt 10 điểm cần nhớ (6–10): <span style=\"color:#ff6b6b\"><b>3 dấu viêm ruột thừa, Alvarado/AIR, Murphy, Cullen/Grey Turner, nhóm đặc biệt</b></span>?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Dấu Rovsing, psoas và obturator dương tính giúp khẳng định nhưng âm tính không loại trừ (độ nhạy gộp 0,16–0,27).<br>2) Thang điểm Alvarado dùng để loại trừ (ngưỡng 5 điểm, độ nhạy 99%), không dùng để khẳng định ở người lớn; thang điểm AIR tốt hơn Alvarado khi có CRP.<br>3) Dấu Murphy lâm sàng đặc hiệu 96% nhưng nhạy chỉ 62% — dương tính thì tin, âm tính thì không yên tâm được.<br>4) Dấu Cullen và Grey Turner gặp ở dưới 1% bệnh nhân viêm tụy — thấy dấu này thì nghĩ xuất huyết sau phúc mạc và tiên lượng xấu.<br>5) Người già, suy giảm miễn dịch, người dùng corticoid và đái tháo đường lâu năm khám nghèo nàn dù bệnh nặng — ngưỡng chụp CT và hội chẩn ở các nhóm này phải thấp hơn bình thường.<br><br><b>💡 Giải thích của AI:</b><br>Năm điểm sau của tóm tắt là các con số cốt lõi của bài: độ nhạy gộp của 3 dấu viêm ruột thừa, hai thang điểm, Murphy, Cullen/Grey Turner và nhóm đặc biệt. Nắm được 10 điểm này là nắm được khung ra quyết định an toàn khi dấu hiệu không rõ ràng.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §15.1 — tóm tắt 10 điểm cần nhớ (điểm 6–10)."
+    },
+    {
+      "id": "SURG01B-CARD-119",
+      "note_id": 1793934781602,
+      "tags": [
+        "kham-bung",
+        "tai-lieu"
+      ],
+      "type": "basic",
+      "front": "4 tài liệu tham khảo của bài (§15.2): <span style=\"color:#74c0fc\"><b>JAMA 1996, JAMA 2007 trẻ em, Lancet 2015 và BMJ 2012</b></span> nói về gì?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Tổng quan lâm sàng về viêm ruột thừa ở người lớn trên JAMA năm 1996: đánh giá giá trị chẩn đoán của bệnh sử và khám lâm sàng so với xét nghiệm.<br>2) Tổng quan lâm sàng về viêm ruột thừa ở trẻ em trên JAMA năm 2007: đánh giá tỉ số khả dĩ của sốt, đau dội, di chuyển đau và xét nghiệm máu — lưu ý đây là số trẻ em, không áp thẳng sang người lớn.<br>3) Bài tổng quan về viêm ruột thừa trên Lancet năm 2015: khẳng định đánh giá lâm sàng vẫn là nền tảng chẩn đoán dù đã có xét nghiệm và hình ảnh hỗ trợ.<br>4) Nghiên cứu tiền cứu về nghiệm pháp đau khi đi qua gờ giảm tốc trong chẩn đoán viêm ruột thừa trên BMJ năm 2012: độ nhạy 97%, LR− 0,1.<br><br><b>💡 Giải thích của AI:</b><br>Bốn tài liệu tham khảo này là toàn bộ tài liệu tham khảo của bài. Số trẻ em trong tổng quan JAMA 2007 phải ghi rõ là số trẻ em — đau dội ở trẻ em có LR 3,0 không áp thẳng sang người lớn, nơi đau dội không có giá trị dự báo viêm phúc mạc chung.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §15.2 — tài liệu tham khảo (PMID 8918857, PMID 17652298, PMID 26460662, PMID 23247977)."
+    },
+    {
+      "id": "SURG01B-CARD-120",
+      "note_id": 1793934781604,
+      "tags": [
+        "kham-bung",
+        "ghi-chu-nguon"
+      ],
+      "type": "basic",
+      "front": "Ghi chú nguồn (§15.3): khung <span style=\"color:#74c0fc\"><b>WSES toàn văn</b></span>, số liệu độ chính xác, kiến thức nền textbook và số liệu Việt Nam ở mức nào?",
+      "back": "<span style=\"color:#ff6b6b\"><b>🎯 Trả lời cốt lõi:</b></span><br>1) Khung chính của bài là WSES bản cập nhật về viêm ruột thừa cấp, đọc toàn văn qua PMC, kèm các guideline WSES về nhiễm trùng trong ổ bụng, viêm ruột thừa người già và bụng cấp ở người suy giảm miễn dịch.<br>2) Các số liệu về độ nhạy, độ đặc hiệu và tỉ số khả dĩ trong bài lấy từ các tổng quan hệ thống và nghiên cứu đã kiểm chứng trong hồ sơ nghiên cứu cùng thư mục, với toàn văn và abstract lưu tại thư mục raw.<br>3) Phần kiến thức nền về giải phẫu phúc mạc, sinh lý đau và kỹ thuật khám là kiến thức textbook ổn định, trình bày tự do, không cần trích dẫn.<br>4) Không có số liệu Việt Nam nào được kiểm chứng trong đợt nghiên cứu này — phần áp dụng tại Việt Nam chỉ dạy nguyên lý và bối cảnh tuyến, không bịa số liệu.<br>5) Số liệu về tỉ lệ biểu hiện điển hình (khoảng 50%) và tỉ lệ thủng (13–20%) được dạy ở mức prose-only, vì tổng quan lâm sàng đó không có trong bundle.<br><br><b>💡 Giải thích của AI:</b><br>Ghi chú nguồn là cam kết honesty của bài: cái gì đọc toàn văn, cái gì chỉ có abstract, cái gì là prose-only, cái gì không có số liệu Việt Nam. Thẻ này dạy người học phân biệt các mức bằng chứng, không chỉ nhớ các con số.<br><br>📖 Nguồn: Bài Khám bụng ngoại khoa, §15.3 — ghi chú nguồn."
+    }
+  ]
+}
