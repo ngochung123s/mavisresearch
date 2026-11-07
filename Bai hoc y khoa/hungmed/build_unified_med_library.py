@@ -785,11 +785,16 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
     for d in sorted(ngoai_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):
             continue
-        m = re.match(r"^SURG-(\d+)([A-Za-z]?)", d.name, re.IGNORECASE) or re.match(r"^(\d+)([A-Za-z]?)", d.name)
-        num_str = m.group(1) if m else "01"
-        suffix = m.group(2).upper() if m and m.group(2) else ""
-        lid = f"SURG-{int(num_str):02d}{suffix}"
-        ch = chapter_map.get(f"{int(num_str):02d}", "Ngoại Khoa Lâm Sàng")
+        m_r = re.match(r"^SURG-(R\d+)", d.name, re.IGNORECASE)
+        if m_r:
+            lid = f"SURG-{m_r.group(1).upper()}"
+            ch = "Block 5 — Hồi sức & Cấp cứu Ngoại khoa"
+        else:
+            m = re.match(r"^SURG-(\d+)([A-Za-z]?)", d.name, re.IGNORECASE) or re.match(r"^(\d+)([A-Za-z]?)", d.name)
+            num_str = m.group(1) if m else "01"
+            suffix = m.group(2).upper() if m and m.group(2) else ""
+            lid = f"SURG-{int(num_str):02d}{suffix}"
+            ch = chapter_map.get(f"{int(num_str):02d}", "Ngoại Khoa Lâm Sàng")
         content = ""
         lesson_json = d / "lesson.json"
         if lesson_json.exists():
