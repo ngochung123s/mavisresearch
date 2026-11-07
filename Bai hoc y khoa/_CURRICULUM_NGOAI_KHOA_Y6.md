@@ -202,8 +202,8 @@ Block nền tảng dùng chung cho mọi bài bệnh học và kỹ thuật; m�
 | :---: | :--- | :---: |
 | R1 | Sốc nhiễm khuẩn | ✅ Đã nạp transcript OCR (4.070 từ) & đưa lên Web HungMed (SURG-R1) |
 | R2 | Sốc chấn thương | ✅ Đã nạp transcript OCR (2.981 từ) & đưa lên Web HungMed (SURG-R2) |
-| R3 | Hồi sức suy TH trong Ngoại khoa | 🔄 chờ transcript (8 trang) → Bot A làm deck khi transcript xong |
-| R4 | Suy hô hấp cấp | 🔄 chờ transcript (8 trang) → Bot A làm deck khi transcript xong |
+| R3 | Hồi sức suy TH trong Ngoại khoa | ✅ Đã nạp transcript OCR (2.607 từ) & đưa lên Web HungMed (SURG-R3) |
+| R4 | Suy hô hấp cấp | ✅ Đã nạp transcript OCR (2.487 từ) & đưa lên Web HungMed (SURG-R4) |
 
 ---
 
