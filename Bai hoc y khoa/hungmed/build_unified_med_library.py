@@ -388,6 +388,7 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
         "38": "Bệnh lý Phụ khoa & Tử cung",
         "39": "Bệnh lý Phụ khoa & Tử cung",
         "40": "Sản khoa & Chuyển dạ",
+        "23": "Nội tiết Sinh sản & Tránh thai",
     }
     for d in sorted(san_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):

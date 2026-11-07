@@ -1,0 +1,2207 @@
+{
+  "deck_id": 7100000000023,
+  "deck_name": "HungMed::Sản Phụ Khoa::OB-23: Rối loạn Tuyến giáp Thai kỳ & Tăng Prolactin",
+  "card_count": 183,
+  "cards": [
+    {
+      "id": "OB23-CARD-001",
+      "note_id": 1794026503813,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "viengiap-hau-san"
+      ],
+      "type": "basic",
+      "front": "Phụ nữ <span style=\"color:#ff6b6b\">27 tuổi</span>, đái tháo đường type 1, <span style=\"color:#ffd43b\">4 tháng sau sinh lần 2</span>: rụng tóc, lo âu, mất ngủ. Lần sinh đầu cũng có triệu chứng tương tự và được chẩn đoán là <span style=\"color:#51cf66\">trầm cảm sau sinh</span>. Chẩn đoán cần nghĩ đến đầu tiên là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Nghĩ đến <span style=\"color:#ff6b6b\">viêm giáp hậu sản pha suy giáp</span> — rụng tóc, lo âu, mất ngủ sau sinh là biểu hiện của pha suy giáp, không phải chỉ trầm cảm sau sinh.<br>2. Viêm giáp hậu sản có <span style=\"color:#ffd43b\">2 pha</span>: pha cường giáp do hormon rò rỉ, rồi pha suy giáp.<br>3. Lần sinh đầu chẩn đoán nhầm trầm cảm sau sinh là bài học: <span style=\"color:#51cf66\">luôn đo TSH sau sinh</span> khi có triệu chứng gợi ý rối loạn giáp.<br><br>💡 <b>Vì sao</b><br>Viêm giáp hậu sản xảy ra ở khoảng 5% phụ nữ sau sinh, triệu chứng pha suy giáp rất giống trầm cảm sau sinh nên dễ bị bỏ sót.<br><br>📖 Nguồn: Case neo §0.1 bài giảng; viêm giáp hậu sản 5% (§3.2)."
+    },
+    {
+      "id": "OB23-CARD-002",
+      "note_id": 1794026503815,
+      "tags": [
+        "tuyen-giap",
+        "xet-nghiem",
+        "TSH"
+      ],
+      "type": "basic",
+      "front": "Đọc <span style=\"color:#ff6b6b\">TSH và FT4 cùng nhau</span>: 4 cặp kết quả nào phân biệt suy giáp rõ, suy giáp cận lâm sàng, cường giáp rõ và cường giáp cận lâm sàng?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp rõ</span>: TSH cao + FT4 thấp.<br>2. <span style=\"color:#ffd43b\">Suy giáp cận lâm sàng</span>: TSH cao + FT4 bình thường.<br>3. <span style=\"color:#51cf66\">Cường giáp rõ</span>: TSH thấp + FT4 cao.<br>4. <span style=\"color:#74c0fc\">Cường giáp cận lâm sàng</span>: TSH thấp + FT4 bình thường.<br><br>💡 <b>Vì sao</b><br>Chỉ đọc TSH đơn độc thì không phân biệt được suy giáp rõ với cận lâm sàng, mà quyết định điều trị hai thể này hoàn toàn khác nhau — suy giáp rõ điều trị ngay, cận lâm sàng cân nhắc theo từng trường hợp.<br><br>📖 Nguồn: §0.2 và §1.1–1.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-003",
+      "note_id": 1794026503817,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "prolactin"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style=\"color:#ff6b6b\">suy giáp</span> có thể gây <span style=\"color:#ffd43b\">tăng prolactin</span>? Mối liên hệ qua hormon nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Suy giáp làm <span style=\"color:#ff6b6b\">TRH tăng</span> vì mất phản hồi âm của hormon giáp lên vùng dưới đồi.<br>2. TRH không chỉ kích thích tiết TSH mà còn <span style=\"color:#ffd43b\">kích thích tế bào lactotroph</span> tiết prolactin.<br>3. Prolactin tăng ức chế <span style=\"color:#51cf66\">GnRH xung</span>, gây vô kinh và vô sinh.<br><br>💡 <b>Vì sao</b><br>Đây là chuỗi cơ chế nối hai mảng của bài: suy giáp → tăng TRH → tăng prolactin → ức chế GnRH → rối loạn kinh nguyệt và vô sinh. Chữa suy giáp bằng levothyroxine đơn độc có thể đưa prolactin về bình thường.<br><br>📖 Nguồn: §0.2 và §2.3 chuỗi cơ chế 1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-004",
+      "note_id": 1794026503819,
+      "tags": [
+        "tuyen-giap",
+        "khang-the",
+        "TPOAb",
+        "TRAb"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\">TPOAb</span> và <span style=\"color:#ffd43b\">TRAb</span>: mỗi kháng thể chỉ điểm bệnh gì và dùng để làm gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">TPOAb</span> là kháng thể kháng peroxidase tuyến giáp — dấu ấn viêm giáp tự miễn, gặp trong Hashimoto và viêm giáp hậu sản; dương tính làm tăng nguy cơ tiến triển thành suy giáp.<br>2. <span style=\"color:#ffd43b\">TRAb</span> là kháng thể kháng thụ thể TSH — dấu ấn Graves; TRAb qua nhau thai gây cường giáp thai nhi nên dùng để đánh giá nguy cơ cho thai.<br>3. TPOAb dương tính ở người bình giáp <span style=\"color:#51cf66\">không tự nó là chỉ định</span> cho levothyroxine.<br><br>💡 <b>Vì sao</b><br>Hai kháng thể trả lời hai câu hỏi khác nhau: TPOAb hỏi về nguy cơ suy giáp tương lai của mẹ, TRAb hỏi về nguy cơ cường giáp của thai nhi.<br><br>📖 Nguồn: §0.2, §5.2, §5.3, §9.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-005",
+      "note_id": 1794026503821,
+      "tags": [
+        "tuyen-giap",
+        "thuoc",
+        "prolactin"
+      ],
+      "type": "basic",
+      "front": "Vai trò của 5 thuốc trong bài: <span style=\"color:#ff6b6b\">levothyroxine, PTU, methimazole, cabergoline, bromocriptine</span> — thuốc nào dùng cho bệnh nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Levothyroxine</span>: thay thế hormon giáp cho suy giáp.<br>2. <span style=\"color:#ffd43b\">PTU và methimazole</span>: thuốc kháng giáp, ức chế tổng hợp hormon giáp trong Graves — cả hai đều có nguy cơ dị tật theo phân nhóm riêng, không có lựa chọn an toàn tuyệt đối.<br>3. <span style=\"color:#51cf66\">Cabergoline và bromocriptine</span>: thuốc ức chế prolactin, chủ vận dopamine; cabergoline hơn bromocriptine về hiệu quả và dung nạp.<br><br>💡 <b>Vì sao</b><br>Nhớ đúng vai trò từng thuốc là nền tảng để không nhầm lẫn điều trị: thuốc kháng giáp không có tác dụng trong viêm giáp hậu sản pha cường giáp vì pha đó do hormon rò rỉ, không phải sản xuất thừa.<br><br>📖 Nguồn: §0.2 bài giảng; cabergoline vs bromocriptine NEJM 1994."
+    },
+    {
+      "id": "OB23-CARD-006",
+      "note_id": 1794026503823,
+      "tags": [
+        "tuyen-giap",
+        "bay",
+        "ATA"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy dạy sai</b></span><br>Bài này dễ dạy sai theo 3 cách nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Dạy <span style=\"color:#ff6b6b\">ngưỡng TSH 2,5</span> như chuẩn hiện hành — đó là ngưỡng thời ATA 2017, khoảng tham chiếu thai kỳ phải theo quần thể và phòng xét nghiệm.<br>2. Dạy <span style=\"color:#ffd43b\">số trong trial thành khuyến cáo</span> — liều levothyroxine 150 μg trong CATS hay 50 μg trong TABLET là liều trong trial, không phải khuyến cáo điều trị.<br>3. Gán <span style=\"color:#51cf66\">suy giáp cận lâm sàng gây tăng prolactin</span> — TSH và prolactin không tương quan với nhau, suy giáp cận lâm sàng hiếm khi giải thích được tăng prolactin.<br><br>💡 <b>Vì sao</b><br>Cả 3 lỗi đều xuất phát từ việc trích số mà không hỏi nguồn gốc: ngưỡng cũ, liều trial, và suy luận cơ chế vượt quá dữ kiện.<br><br>📖 Nguồn: §0.3, §1.5, §6.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-007",
+      "note_id": 1794026503825,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "dinh-nghia"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\">suy giáp rõ</span>, <span style=\"color:#ffd43b\">suy giáp cận lâm sàng</span> và <span style=\"color:#51cf66\">isolated hypothyroxinemia</span> bằng TSH và FT4.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp rõ</span>: TSH cao + FT4 thấp — điều trị ngay bằng levothyroxine.<br>2. <span style=\"color:#ffd43b\">Suy giáp cận lâm sàng</span>: TSH cao + FT4 bình thường — cân nhắc điều trị theo từng trường hợp.<br>3. <span style=\"color:#51cf66\">Isolated hypothyroxinemia</span>: TSH bình thường + FT4 thấp — thể riêng, điều trị bằng levothyroxine chưa chứng minh cải thiện trí tuệ của trẻ trong thử nghiệm Casey 2017.<br><br>💡 <b>Vì sao</b><br>FT4 là yếu tố phân biệt suy giáp rõ với cận lâm sàng, và quyết định điều trị hai thể này hoàn toàn khác nhau.<br><br>📖 Nguồn: §1.1 bài giảng; Casey 2017."
+    },
+    {
+      "id": "OB23-CARD-008",
+      "note_id": 1794026503827,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trong thử nghiệm Casey 2017, suy giáp cận lâm sàng được định nghĩa là TSH ≥ {{c1::4,00 mU/L}} kèm FT4 trong khoảng bình thường.",
+      "back": "📖 Nguồn: §1.1 và §7.3 bài giảng; Casey 2017."
+    },
+    {
+      "id": "OB23-CARD-009",
+      "note_id": 1794026503829,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trong thử nghiệm Casey 2017, isolated hypothyroxinemia được định nghĩa là FT4 < {{c1::0,86 ng/dL}} kèm TSH trong khoảng bình thường.",
+      "back": "📖 Nguồn: §1.1 và §7.3 bài giảng; Casey 2017."
+    },
+    {
+      "id": "OB23-CARD-010",
+      "note_id": 1794026503831,
+      "tags": [
+        "tuyen-giap",
+        "cuong-giap",
+        "dinh-nghia"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\">cường giáp rõ</span>, <span style=\"color:#ffd43b\">cường giáp cận lâm sàng</span> và <span style=\"color:#51cf66\">cường giáp thai thoáng qua</span> — thể nào KHÔNG dùng thuốc kháng giáp?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Cường giáp rõ</span>: TSH thấp + FT4 cao, thường do Graves — dùng thuốc kháng giáp, hội chẩn nội tiết.<br>2. <span style=\"color:#ffd43b\">Cường giáp cận lâm sàng</span>: TSH thấp + FT4 bình thường — không điều trị, theo dõi.<br>3. <span style=\"color:#51cf66\">Cường giáp thai thoáng qua</span>: nôn nghén nặng + tuần thai sớm + TRAb âm tính, do hCG — kiểm soát nôn nghén, không cho thuốc kháng giáp.<br><br>💡 <b>Vì sao</b><br>Cường giáp thai thoáng qua tự khỏi khi hCG giảm; thuốc kháng giáp qua nhau thai gây hại thai nhi mà không có lợi ích cho mẹ.<br><br>📖 Nguồn: §1.2, §6.1, §9.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-011",
+      "note_id": 1794026503833,
+      "tags": [
+        "tuyen-giap",
+        "cuong-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu Casey 2006, cường giáp cận lâm sàng được định nghĩa là TSH ≤ {{c1::phân vị thứ 2,5}} kèm FT4 trong khoảng bình thường.",
+      "back": "📖 Nguồn: §1.2 và §9.3 bài giảng; Casey 2006."
+    },
+    {
+      "id": "OB23-CARD-012",
+      "note_id": 1794026503835,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "nguy-co"
+      ],
+      "type": "basic",
+      "front": "Phụ nữ <span style=\"color:#ff6b6b\">bình giáp có TPOAb dương tính</span> có nguy cơ tuyệt đối tiến triển thành suy giáp là bao nhiêu so với người TPOAb âm tính?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Nguy cơ tuyệt đối suy giáp rõ: <span style=\"color:#ff6b6b\">2,4–7,0%</span> ở người TPOAb dương tính, so với 0,1–0,2% ở người âm tính.<br>2. Nguy cơ tuyệt đối suy giáp cận lâm sàng: <span style=\"color:#ffd43b\">1,9–29,0%</span>, so với 2,0–5,7% ở người âm tính.<br>3. Nguy cơ tuyệt đối vẫn <span style=\"color:#51cf66\">thấp</span> dù nguy cơ tương đối cao — vì vậy TPOAb dương tính ở người bình giáp không tự nó là chỉ định cho levothyroxine.<br><br>💡 <b>Vì sao</b><br>Nguy cơ tương đối nghe có vẻ lớn nhưng nguy cơ tuyệt đối mới quyết định có nên điều trị dự phòng hay không; phần lớn phụ nữ TPOAb dương tính bình giáp sẽ không tiến triển thành suy giáp.<br><br>📖 Nguồn: §1.3 bài giảng; tổng quan hệ thống Thyroid 2025."
+    },
+    {
+      "id": "OB23-CARD-013",
+      "note_id": 1794026503837,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "nguy-co"
+      ],
+      "type": "basic",
+      "front": "Nguy cơ tuyệt đối tiến triển thành suy giáp rõ ở phụ nữ TPOAb dương tính là {{c1::2,4–7,0%}}.",
+      "back": "📖 Nguồn: §1.3 bài giảng; tổng quan hệ thống Thyroid 2025."
+    },
+    {
+      "id": "OB23-CARD-014",
+      "note_id": 1794026503839,
+      "tags": [
+        "prolactin",
+        "tang-prolactin",
+        "nguyen-nhan"
+      ],
+      "type": "basic",
+      "front": "Tăng prolactin có <span style=\"color:#ff6b6b\">5 nhóm nguyên nhân</span> nào? Nhóm nào là nguyên nhân đảo ngược được dễ nhất?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Sinh lý</span>: thai kỳ, cho con bú, stress, ngủ, kích thích núm vú.<br>2. <span style=\"color:#ffd43b\">Thuốc</span>: chống loạn thần, chống nôn, một số chống trầm cảm — nguyên nhân đảo ngược được dễ nhất, chỉ cần hỏi kỹ tiền sử thuốc.<br>3. <span style=\"color:#51cf66\">Suy giáp rõ</span>: qua chuỗi TRH–prolactin, chữa bằng levothyroxine đơn độc.<br>4. <span style=\"color:#74c0fc\">Macroprolactin</span>: prolactin cao giả tạo, không có triệu chứng.<br>5. <span style=\"color:#ff6b6b\">U tuyến yên</span>: prolactinoma và các u khác chèn ép cuống tuyến yên.<br><br>💡 <b>Vì sao</b><br>Thứ tự loại trừ là thuốc, suy giáp rõ, macroprolactin, rồi mới MRI — thứ tự này tiết kiệm chi phí và tránh chẩn đoán sai.<br><br>📖 Nguồn: §1.4, §6.3, §12.1, §14 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-015",
+      "note_id": 1794026503841,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "phan-loai"
+      ],
+      "type": "basic",
+      "front": "Phân loại <span style=\"color:#ff6b6b\">prolactinoma</span> theo kích thước: vi thể, đại thể và đại thể lớn có ngưỡng đường kính nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Vi thể</span>: đường kính dưới 10 mm.<br>2. <span style=\"color:#ffd43b\">Đại thể</span>: đường kính từ 10 mm trở lên.<br>3. <span style=\"color:#51cf66\">Đại thể lớn</span>: đường kính từ 20 mm trở lên.<br>4. Prolactinoma chiếm khoảng <span style=\"color:#74c0fc\">một nửa</span> các u tuyến yên.<br><br>💡 <b>Vì sao</b><br>Kích thước quyết định nguy cơ trong thai kỳ: vi thể và đại thể trong hố yên có nguy cơ tăng trưởng có triệu chứng rất thấp, còn đại thể gần giao thoa thị giác mới cần cân nhắc cắt giảm u trước thai.<br><br>📖 Nguồn: §1.4, §12.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-016",
+      "note_id": 1794026503843,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Prolactinoma chiếm khoảng {{c1::một nửa}} các u tuyến yên.",
+      "back": "📖 Nguồn: §1.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-017",
+      "note_id": 1794026503845,
+      "tags": [
+        "tuyen-giap",
+        "trial",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy dạy sai</b></span><br>Vì sao không được dạy liều levothyroxine 150 μg trong CATS hay 50 μg trong TABLET như khuyến cáo điều trị?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">150 μg mỗi ngày</span> là liều dùng trong trial CATS để sàng lọc và điều trị suy giáp mẹ, với đích TSH 0,1–1,0 — đó là thiết kế trial, không phải khuyến cáo lâm sàng.<br>2. <span style=\"color:#ffd43b\">50 μg mỗi ngày</span> là liều dùng trong trial TABLET ở phụ nữ bình giáp TPOAb dương tính — cũng là thiết kế trial.<br>3. Định nghĩa và liều trong trial <span style=\"color:#51cf66\">không phải khuyến cáo</span>; dạy chúng như khuyến cáo là dạy sai.<br><br>💡 <b>Vì sao</b><br>Khuyến cáo điều trị phải đến từ guideline đã đọc toàn văn; bài này không gán khuyến cáo chi tiết nào cho ATA 2026 vì toàn văn không lấy được.<br><br>📖 Nguồn: §1.5, §18.2 bài giảng; CATS 2012; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-018",
+      "note_id": 1794026503847,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "truc-HPT"
+      ],
+      "type": "basic",
+      "front": "Trục <span style=\"color:#ff6b6b\">dưới đồi–tuyến yên–tuyến giáp</span> hoạt động ra sao, và TRH có vai trò gì với prolactin?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Vùng dưới đồi tiết <span style=\"color:#ff6b6b\">TRH</span>, kích thích tuyến yên tiết TSH; TSH kích thích tuyến giáp tiết T4 và T3.<br>2. Hormon giáp phản hồi âm lên vùng dưới đồi và tuyến yên, giảm TRH và TSH.<br>3. TRH còn <span style=\"color:#ffd43b\">kích thích tế bào lactotroph</span> tiết prolactin — đây là cầu nối giữa suy giáp và tăng prolactin.<br>4. Prolactin được ức chế chủ yếu bởi <span style=\"color:#51cf66\">dopamine</span> từ vùng dưới đồi.<br><br>💡 <b>Vì sao</b><br>Hiểu trục HPT giải thích vì sao suy giáp rõ gây tăng prolactin nặng: mất phản hồi âm làm TRH tăng, TRH kéo prolactin tăng theo.<br><br>📖 Nguồn: §2.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-019",
+      "note_id": 1794026503849,
+      "tags": [
+        "prolactin",
+        "co-che",
+        "truc-HPO"
+      ],
+      "type": "basic",
+      "front": "Trục <span style=\"color:#ff6b6b\">dưới đồi–tuyến yên–buồng trứng</span> hoạt động ra sao, và prolactin tăng ức chế trục này bằng cách nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Vùng dưới đồi tiết <span style=\"color:#ff6b6b\">GnRH theo xung</span> mỗi 60–90 phút, kích thích tuyến yên tiết LH và FSH.<br>2. LH và FSH kích thích buồng trứng tiết estrogen và progesterone, điều hoà kinh nguyệt và rụng trứng.<br>3. Prolactin tăng <span style=\"color:#ffd43b\">ức chế GnRH xung</span>, làm giảm LH và FSH, gây vô kinh và vô sinh.<br>4. Estrogen làm <span style=\"color:#51cf66\">tăng nhạy cảm</span> của tế bào lactotroph với TRH, nên phụ nữ dễ tăng prolactin hơn.<br><br>💡 <b>Vì sao</b><br>Đây là lý do tăng prolactin biểu hiện bằng bộ ba vô kinh, tiết sữa và vô sinh — và vì sao chữa nguyên nhân gây tăng prolactin sẽ phục hồi kinh nguyệt và khả năng sinh sản.<br><br>📖 Nguồn: §2.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-020",
+      "note_id": 1794026503851,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "prolactin"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế 1: <span style=\"color:#ff6b6b\">suy giáp → tăng TRH → tăng prolactin → vô kinh, vô sinh</span> — kể đủ 5 tầng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Tầng 1</span>: suy giáp rõ — tuyến giáp không đủ hormon giáp, FT4 thấp.<br>2. <span style=\"color:#ffd43b\">Tầng 2</span>: mất phản hồi âm — TRH vùng dưới đồi tăng cao.<br>3. <span style=\"color:#51cf66\">Tầng 3</span>: TRH kích thích tế bào lactotroph — prolactin tăng, có thể tới hàng trăm ng/mL.<br>4. <span style=\"color:#74c0fc\">Tầng 4</span>: prolactin ức chế GnRH xung — LH và FSH giảm.<br>5. <span style=\"color:#ff6b6b\">Tầng 5</span>: vô kinh, tiết sữa, vô sinh — chữa bằng levothyroxine đơn độc, không cần thuốc ức chế prolactin.<br><br>💡 <b>Vì sao</b><br>Chuỗi này là trung tâm của cả bài: nó nối suy giáp với tăng prolactin và giải thích ca prolactin 339 ng/mL với MRI bình thường.<br><br>📖 Nguồn: §2.3 chuỗi cơ chế 1 bài giảng; Case 3 §16."
+    },
+    {
+      "id": "OB23-CARD-021",
+      "note_id": 1794026503853,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "TPOAb"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế 2: <span style=\"color:#ff6b6b\">TPOAb dương tính → sẩy thai và đẻ non</span> — kể đủ 5 tầng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Tầng 1</span>: TPOAb dương tính — viêm giáp tự miễn âm thầm, chức năng giáp còn bình thường.<br>2. <span style=\"color:#ffd43b\">Tầng 2</span>: dự trữ tuyến giáp giảm — tuyến giáp khó đáp ứng nhu cầu hormon tăng trong thai kỳ.<br>3. <span style=\"color:#51cf66\">Tầng 3</span>: suy giáp lộ ra trong thai kỳ — TSH tăng khi nhu cầu tăng.<br>4. <span style=\"color:#74c0fc\">Tầng 4</span>: môi trường nội tiết bất lợi cho thai — cùng với rối loạn miễn dịch chung.<br>5. <span style=\"color:#ff6b6b\">Tầng 5</span>: tăng nguy cơ sẩy thai và đẻ non — nhưng thử nghiệm TABLET cho thấy levothyroxine không làm tăng sinh sống ở người bình giáp.<br><br>💡 <b>Vì sao</b><br>Chuỗi này giải thích vì sao TPOAb dương tính liên quan kết cục xấu trong nghiên cứu quan sát, nhưng điều trị dự phòng bằng levothyroxine lại không có lợi trong thử nghiệm ngẫu nhiên lớn.<br><br>📖 Nguồn: §2.3 chuỗi cơ chế 2 bài giảng; §8.1."
+    },
+    {
+      "id": "OB23-CARD-022",
+      "note_id": 1794026503855,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "Graves",
+        "TRAb"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế 3: <span style=\"color:#ff6b6b\">Graves → TRAb → cường giáp thai nhi</span> — kể đủ 5 tầng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Tầng 1</span>: Graves — kháng thể TRAb kích thích thụ thể TSH.<br>2. <span style=\"color:#ffd43b\">Tầng 2</span>: tuyến giáp mẹ sản xuất hormon thừa — cường giáp rõ ở mẹ.<br>3. <span style=\"color:#51cf66\">Tầng 3</span>: TRAb qua nhau thai — kháng thể IgG đi qua nhau thai vào máu thai nhi.<br>4. <span style=\"color:#74c0fc\">Tầng 4</span>: tuyến giáp thai nhi bị kích thích — tim thai nhanh, thai chậm tăng trưởng, bướu giáp thai nhi.<br>5. <span style=\"color:#ff6b6b\">Tầng 5</span>: cường giáp thai nhi và sơ sinh — cần đo TRAb theo tam cá nguyệt và siêu âm theo dõi thai nhi khi TRAb cao.<br><br>💡 <b>Vì sao</b><br>Chuỗi này là lý do đo TRAb không phải để chẩn đoán Graves ở mẹ mà để đánh giá nguy cơ cho thai nhi — và ngưỡng TRAb chỉ có ý nghĩa khi gắn với xét nghiệm cụ thể đã kiểm chứng.<br><br>📖 Nguồn: §2.3 chuỗi cơ chế 3 bài giảng; §5.3, §9.2."
+    },
+    {
+      "id": "OB23-CARD-023",
+      "note_id": 1794026503857,
+      "tags": [
+        "tuyen-giap",
+        "co-che",
+        "viengiap-hau-san"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế 4: <span style=\"color:#ff6b6b\">viêm giáp hậu sản 2 pha</span> — kể đủ 5 tầng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Tầng 1</span>: sau sinh, hệ miễn dịch phục hồi — viêm giáp tự miễn bùng lên.<br>2. <span style=\"color:#ffd43b\">Tầng 2</span>: nang giáp bị phá huỷ — hormon giáp dự trữ rò rỉ vào máu.<br>3. <span style=\"color:#51cf66\">Tầng 3</span>: pha cường giáp — hồi hộp, mất ngủ, sụt cân trong 1–6 tháng sau sinh, kéo dài 2–3 tháng.<br>4. <span style=\"color:#74c0fc\">Tầng 4</span>: dự trữ hormon cạn — pha suy giáp, mệt mỏi, rụng tóc, giống trầm cảm sau sinh.<br>5. <span style=\"color:#ff6b6b\">Tầng 5</span>: phần lớn hồi phục, một số tiến triển suy giáp vĩnh viễn — nguy cơ suốt đời tăng, theo dõi TSH hàng năm, không dạy tỉ lệ phần trăm cụ thể vì chưa kiểm chứng.<br><br>💡 <b>Vì sao</b><br>Pha cường giáp do hormon rò rỉ nên thuốc kháng giáp không có tác dụng — đây là điểm phân biệt quan trọng với Graves.<br><br>📖 Nguồn: §2.3 chuỗi cơ chế 4 bài giảng; §4.4, §10.2."
+    },
+    {
+      "id": "OB23-CARD-024",
+      "note_id": 1794026503859,
+      "tags": [
+        "prolactin",
+        "co-che",
+        "prolactinoma"
+      ],
+      "type": "basic",
+      "front": "Chuỗi cơ chế 5: <span style=\"color:#ff6b6b\">prolactinoma trong thai kỳ</span> — kể đủ 5 tầng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Tầng 1</span>: prolactinoma tiết prolactin — ức chế GnRH, gây vô kinh và vô sinh.<br>2. <span style=\"color:#ffd43b\">Tầng 2</span>: cabergoline ức chế prolactin — phục hồi GnRH và rụng trứng, bệnh nhân có thai.<br>3. <span style=\"color:#51cf66\">Tầng 3</span>: thai kỳ làm tuyến yên to lên sinh lý — estrogen kích thích tế bào lactotroph.<br>4. <span style=\"color:#74c0fc\">Tầng 4</span>: u có thể tăng trưởng — vi thể và đại thể trong hố yên nguy cơ tăng trưởng có triệu chứng rất thấp, đại thể gần giao thoa thị giác nguy cơ cao hơn.<br>5. <span style=\"color:#ff6b6b\">Tầng 5</span>: chiến lược thường quy là ngừng cabergoline khi biết có thai, theo dõi triệu chứng, dùng lại khi u tăng trưởng có ý nghĩa lâm sàng.<br><br>💡 <b>Vì sao</b><br>Chuỗi này giải thích vì sao ngừng thuốc khi có thai là chiến lược thường quy: nguy cơ tăng trưởng có triệu chứng thấp, còn tiếp tục thuốc liên quan sinh sống thấp hơn trong phân tích gộp 2025.<br><br>📖 Nguồn: §2.3 chuỗi cơ chế 5 bài giảng; §12.4."
+    },
+    {
+      "id": "OB23-CARD-025",
+      "note_id": 1794026503861,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "co-che"
+      ],
+      "type": "basic",
+      "front": "Thai kỳ làm việc diễn giải xét nghiệm giáp khó hơn qua <span style=\"color:#ff6b6b\">4 thay đổi sinh lý</span> nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">hCG tăng</span> — hCG kích thích thụ thể TSH, làm TSH giảm và FT4 tăng trong tam cá nguyệt đầu, giống cường giáp.<br>2. <span style=\"color:#ffd43b\">TBG tăng</span> — estrogen làm tăng globulin gắn thyroxin, làm tăng nhu cầu hormon giáp.<br>3. <span style=\"color:#51cf66\">Nhu cầu thai nhi</span> — thai nhi cần hormon giáp của mẹ trong nửa đầu thai kỳ, nhu cầu levothyroxine tăng trung bình 47%.<br>4. <span style=\"color:#74c0fc\">Thể tích huyết tương tăng</span> — pha loãng và tăng thải hormon giáp.<br><br>💡 <b>Vì sao</b><br>Vì 4 thay đổi này mà khoảng tham chiếu TSH và FT4 phải làm riêng cho từng tam cá nguyệt và từng quần thể — không thể dùng ngưỡng của người không mang thai.<br><br>📖 Nguồn: §2.4 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-026",
+      "note_id": 1794026503863,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "khoang-tham-chieu"
+      ],
+      "type": "basic",
+      "front": "Trong phân tích gộp dữ liệu cá thể 2022 với 22 đoàn hệ, chỉ {{c1::11 trên 102}} nghiên cứu làm khoảng tham chiếu thai kỳ đúng phương pháp.",
+      "back": "📖 Nguồn: §2.4 bài giảng; phân tích gộp dữ liệu cá thể JCEM 2022."
+    },
+    {
+      "id": "OB23-CARD-027",
+      "note_id": 1794026503865,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "khoang-tham-chieu"
+      ],
+      "type": "basic",
+      "front": "Không loại trừ người TPOAb dương tính khi làm khoảng tham chiếu sẽ làm giới hạn trên của TSH trong tam cá nguyệt đầu tăng thêm {{c1::17,4%}}.",
+      "back": "📖 Nguồn: §2.4 bài giảng; phân tích gộp dữ liệu cá thể JCEM 2022."
+    },
+    {
+      "id": "OB23-CARD-028",
+      "note_id": 1794026503867,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Bệnh giáp rõ</span> ảnh hưởng khoảng bao nhiêu phần trăm thai kỳ — suy giáp rõ và cường giáp rõ mỗi loại?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Bệnh giáp rõ ảnh hưởng khoảng <span style=\"color:#ff6b6b\">1% thai kỳ mỗi loại</span> — suy giáp rõ khoảng 1% và cường giáp rõ khoảng 1%.<br>2. Đây không phải bệnh hiếm: cứ 100 phụ nữ mang thai thì khoảng <span style=\"color:#ffd43b\">1 người suy giáp rõ và 1 người cường giáp rõ</span>.<br>3. Suy giáp cận lâm sàng và TPOAb dương tính còn <span style=\"color:#51cf66\">thường gặp hơn</span> nhiều.<br><br>💡 <b>Vì sao</b><br>Vì bệnh giáp rõ gặp ở 1% thai kỳ nên bác sĩ sản khoa phải luôn nghĩ đến khi đánh giá phụ nữ mang thai — không phải bệnh hiếm chỉ gặp ở nội tiết.<br><br>📖 Nguồn: §3.1 bài giảng; Best Pract Res Clin Endocrinol Metab 2020."
+    },
+    {
+      "id": "OB23-CARD-029",
+      "note_id": 1794026503869,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Bệnh giáp rõ hiếm gặp trong thai kỳ nên không cần nghĩ đến — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Bệnh giáp rõ gặp ở <span style=\"color:#ff6b6b\">khoảng 1% thai kỳ</span> mỗi loại, suy giáp cận lâm sàng và TPOAb dương tính còn thường gặp hơn — vì vậy sàng lọc đích là cần thiết, không thể bỏ qua vì cho rằng bệnh hiếm.<br><br>💡 <b>Vì sao</b><br>Tần suất 1% đủ cao để mọi bác sĩ sản khoa phải nghĩ đến bệnh giáp khi khám thai phụ.<br><br>📖 Nguồn: §3.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-030",
+      "note_id": 1794026503871,
+      "tags": [
+        "tuyen-giap",
+        "thai-ky",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Bệnh giáp rõ ảnh hưởng khoảng {{c1::1%}} thai kỳ cho mỗi loại suy giáp rõ và cường giáp rõ.",
+      "back": "📖 Nguồn: §3.1 bài giảng; Best Pract Res Clin Endocrinol Metab 2020."
+    },
+    {
+      "id": "OB23-CARD-031",
+      "note_id": 1794026503873,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Viêm giáp hậu sản</span> gặp ở bao nhiêu phần trăm phụ nữ sau sinh, gồm mấy pha, và pha suy giáp dễ nhầm với bệnh gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Viêm giáp hậu sản xảy ra ở khoảng <span style=\"color:#ff6b6b\">5% phụ nữ sau sinh</span>, tức 1 trong 20 người.<br>2. Pha cường giáp xuất hiện trong <span style=\"color:#ffd43b\">1–6 tháng sau sinh</span>, kéo dài 2–3 tháng, do hormon rò rỉ từ nang bị phá huỷ.<br>3. Pha suy giáp theo sau, dễ nhầm với <span style=\"color:#51cf66\">trầm cảm sau sinh</span> — mệt mỏi, rụng tóc, lo âu, mất ngủ.<br>4. Nguy cơ suốt đời bị suy giáp vĩnh viễn tăng lên, cần theo dõi TSH hàng năm; <span style=\"color:#74c0fc\">không dạy tỉ lệ phần trăm cụ thể</span> vì con số tới 50% lan truyền trong tóm tắt thứ cấp chưa kiểm chứng được.<br><br>💡 <b>Vì sao</b><br>Viêm giáp hậu sản là nguyên nhân thường gặp gây rối loạn giáp sau sinh nhưng hay bị bỏ sót vì triệu chứng giống trầm cảm sau sinh.<br><br>📖 Nguồn: §3.2, §4.4, §10.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-032",
+      "note_id": 1794026503875,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Trong đoàn hệ phụ nữ Hashimoto, viêm giáp hậu sản xảy ra ở {{c1::38,9%}} số người.",
+      "back": "📖 Nguồn: §3.2 bài giảng; đoàn hệ JCEM 2020."
+    },
+    {
+      "id": "OB23-CARD-033",
+      "note_id": 1794026503877,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Suy giáp trước thai làm tăng nguy cơ viêm giáp hậu sản với aOR {{c1::9,49}}.",
+      "back": "📖 Nguồn: §3.2 bài giảng; đoàn hệ JCEM 2020."
+    },
+    {
+      "id": "OB23-CARD-034",
+      "note_id": 1794026503879,
+      "tags": [
+        "prolactin",
+        "vo-sinh",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Tăng prolactin</span> gặp ở bao nhiêu phần trăm phụ nữ vô sinh, và suy giáp có giải thích được phần lớn số đó không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tăng prolactin gặp ở <span style=\"color:#ff6b6b\">27,7% trong 480 phụ nữ vô sinh</span> ở Riyadh, thường gặp nhất ở nhóm tuổi 31–40.<br>2. Suy giáp gặp ở <span style=\"color:#ffd43b\">17,5%</span> số phụ nữ vô sinh này.<br>3. Tỉ lệ tăng prolactin ở nhóm suy giáp là 22,6%, <span style=\"color:#51cf66\">không khác biệt có ý nghĩa</span> so với toàn bộ (p = 0,33) — suy giáp không giải thích được phần lớn tăng prolactin ở phụ nữ vô sinh.<br><br>💡 <b>Vì sao</b><br>Tăng prolactin là nguyên nhân thường gặp gây vô sinh và phải được tìm kiếm chủ động — nhưng đừng vội gán cho suy giáp khi TSH chỉ tăng nhẹ.<br><br>📖 Nguồn: §3.3 bài giảng; nghiên cứu Riyadh."
+    },
+    {
+      "id": "OB23-CARD-035",
+      "note_id": 1794026503881,
+      "tags": [
+        "prolactin",
+        "vo-sinh",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Phụ nữ vô sinh bị tăng prolactin thì nguyên nhân thường là suy giáp — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Trong nghiên cứu Riyadh với 480 phụ nữ vô sinh, tăng prolactin gặp ở <span style=\"color:#ff6b6b\">27,7%</span>; suy giáp gặp ở 17,5%; nhưng tỉ lệ tăng prolactin ở nhóm suy giáp là 22,6%, không khác biệt có ý nghĩa (p = 0,33).<br><br>💡 <b>Vì sao</b><br>Đây là bằng chứng quan sát cho thấy suy giáp cận lâm sàng không giải thích được tăng prolactin — phù hợp với nghiên cứu Padova 2026 không thấy tương quan TSH–prolactin.<br><br>📖 Nguồn: §3.3 bài giảng; nghiên cứu Riyadh."
+    },
+    {
+      "id": "OB23-CARD-036",
+      "note_id": 1794026503883,
+      "tags": [
+        "prolactin",
+        "vo-sinh",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu ở Riyadh, tăng prolactin gặp ở {{c1::27,7%}} trong 480 phụ nữ vô sinh.",
+      "back": "📖 Nguồn: §3.3 bài giảng; nghiên cứu Riyadh."
+    },
+    {
+      "id": "OB23-CARD-037",
+      "note_id": 1794026503885,
+      "tags": [
+        "tuyen-giap",
+        "sang-loc",
+        "thai-ky"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu Đan Mạch 2023 cho thấy <span style=\"color:#ff6b6b\">sàng lọc đích</span> được thực hiện tốt đến đâu: bao nhiêu phần trăm thai phụ được đo TSH, và bao nhiêu người có chỉ định bị bỏ sót?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Nghiên cứu Đan Mạch 2023 với 292 phụ nữ mang thai: chỉ <span style=\"color:#ff6b6b\">81 người (27,7%) được đo TSH</span>, trong đó chỉ 30 người (10,3%) được đo sớm.<br>2. Trong số được đo, <span style=\"color:#ffd43b\">37 trên 81 người (45,7%)</span> có ít nhất 1 tiêu chí sàng lọc đích.<br>3. Trong số không được đo, <span style=\"color:#51cf66\">41 trên 211 người (19,4%)</span> có tiêu chí — tức cứ 1 trong 5 phụ nữ có chỉ định lại không được đo TSH.<br><br>💡 <b>Vì sao</b><br>Sàng lọc đích chỉ hiệu quả khi bác sĩ thực sự hỏi các yếu tố nguy cơ và chỉ định đo TSH — thực tế cho thấy nhiều người có chỉ định vẫn bị bỏ sót.<br><br>📖 Nguồn: §3.4 bài giảng; nghiên cứu Đan Mạch 2023."
+    },
+    {
+      "id": "OB23-CARD-038",
+      "note_id": 1794026503887,
+      "tags": [
+        "tuyen-giap",
+        "sang-loc",
+        "thai-ky"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu Đan Mạch, cứ {{c1::1 trong 5}} phụ nữ có chỉ định sàng lọc đích lại không được đo TSH.",
+      "back": "📖 Nguồn: §3.4 bài giảng; nghiên cứu Đan Mạch 2023."
+    },
+    {
+      "id": "OB23-CARD-039",
+      "note_id": 1794026503889,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "lam-sang"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Suy giáp</span> biểu hiện lâm sàng như thế nào — và vì sao dễ bị bỏ sót trong thai kỳ?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Suy giáp làm <span style=\"color:#ff6b6b\">chậm lại toàn bộ cơ thể</span>: mệt mỏi, lạnh, tăng cân, táo bón, da khô, phản xạ chậm, buồn ngủ, trí nhớ kém.<br>2. Rối loạn kinh nguyệt và <span style=\"color:#ffd43b\">vô sinh</span> do prolactin tăng ức chế GnRH.<br>3. Trong thai kỳ, suy giáp mẹ không được kiểm soát ảnh hưởng <span style=\"color:#51cf66\">phát triển não bộ thai nhi</span> — nghiên cứu Haddow 1999 cho thấy IQ của trẻ thấp hơn 7 điểm khi mẹ suy giáp không được điều trị.<br><br>💡 <b>Vì sao</b><br>Triệu chứng suy giáp không đặc hiệu và chồng lấp với triệu chứng thai kỳ bình thường, nên dễ bị bỏ sót nếu không đo TSH.<br><br>📖 Nguồn: §4.1 bài giảng; Haddow 1999."
+    },
+    {
+      "id": "OB23-CARD-040",
+      "note_id": 1794026503891,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Triệu chứng suy giáp đủ đặc hiệu để chẩn đoán lâm sàng mà không cần xét nghiệm — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Triệu chứng suy giáp — mệt mỏi, tăng cân, táo bón, lạnh — chồng lấp hoàn toàn với triệu chứng thai kỳ bình thường và sau sinh; <span style=\"color:#ff6b6b\">không có triệu chứng nào đủ đặc hiệu</span> để chẩn đoán lâm sàng.<br><br>💡 <b>Vì sao</b><br>Chính vì triệu chứng không đặc hiệu mà xét nghiệm TSH mới là chìa khoá chẩn đoán, không phải khám lâm sàng.<br><br>📖 Nguồn: §4.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-041",
+      "note_id": 1794026503893,
+      "tags": [
+        "tuyen-giap",
+        "cuong-giap",
+        "lam-sang"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Cường giáp</span> biểu hiện lâm sàng như thế nào, và dấu hiệu nào gợi ý Graves thay vì cường giáp thai thoáng qua?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Cường giáp làm <span style=\"color:#ff6b6b\">nhanh lên toàn bộ cơ thể</span>: hồi hộp, tim nhanh, run tay, sợ nóng, ra mồ hôi, sụt cân, tiêu chảy, lo âu, mất ngủ.<br>2. Graves có thêm <span style=\"color:#ffd43b\">bướu giáp lan toả và lồi mắt</span> — dấu hiệu gợi ý nguyên nhân tự miễn.<br>3. Cường giáp thai thoáng qua do hCG: nôn nghén nặng, tuần thai sớm, <span style=\"color:#51cf66\">TRAb âm tính, không bướu giáp, không lồi mắt</span> — tự khỏi, không dùng thuốc kháng giáp.<br><br>💡 <b>Vì sao</b><br>Phân biệt Graves với cường giáp thai thoáng qua quyết định có dùng thuốc kháng giáp hay không — thuốc qua nhau thai gây hại thai nhi mà không có lợi ích khi nguyên nhân là hCG.<br><br>📖 Nguồn: §4.2, §6.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-042",
+      "note_id": 1794026503895,
+      "tags": [
+        "prolactin",
+        "lam-sang",
+        "vo-sinh"
+      ],
+      "type": "basic",
+      "front": "Tăng prolactin biểu hiện bằng <span style=\"color:#ff6b6b\">bộ ba triệu chứng</span> nào, và triệu chứng nào gợi ý u tuyến yên lớn?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Vô kinh</span> — prolactin ức chế GnRH xung, làm giảm LH và FSH.<br>2. <span style=\"color:#ffd43b\">Tiết sữa</span> ngoài thai kỳ và cho con bú.<br>3. <span style=\"color:#51cf66\">Vô sinh</span> — không rụng trứng do GnRH bị ức chế.<br>4. U tuyến yên lớn thêm <span style=\"color:#74c0fc\">đau đầu và nhìn mờ</span> do chèn ép giao thoa thị giác.<br><br>💡 <b>Vì sao</b><br>Bộ ba vô kinh, tiết sữa và vô sinh là dấu hiệu kinh điển của tăng prolactin — khi thấy bộ ba này, đo prolactin và TSH là bước đầu tiên.<br><br>📖 Nguồn: §4.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-043",
+      "note_id": 1794026503897,
+      "tags": [
+        "prolactin",
+        "macroprolactin",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Prolactin cao trong xét nghiệm luôn có nghĩa là tăng prolactin có hoạt tính sinh học và cần điều trị — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br><span style=\"color:#ff6b6b\">Macroprolactin</span> là prolactin gắn với IgG, có hoạt tính sinh học thấp nhưng vẫn được đo là prolactin cao trong xét nghiệm. Người bị macroprolactinemia thường không có triệu chứng, kinh nguyệt đều, vẫn có thai được.<br><br>💡 <b>Vì sao</b><br>Nếu không đo phân đoạn PEG, người bị macroprolactinemia sẽ bị chụp MRI và dùng thuốc ức chế prolactin không cần thiết — đo PEG là xét nghiệm rẻ tiền tránh được chẩn đoán sai tốn kém.<br><br>📖 Nguồn: §4.3, §5.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-044",
+      "note_id": 1794026503899,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "lam-sang"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Viêm giáp hậu sản</span> có 2 pha nào, pha cường giáp có dùng thuốc kháng giáp không, và theo dõi ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Pha cường giáp</span>: xuất hiện 1–6 tháng sau sinh, kéo dài 2–3 tháng, do hormon rò rỉ — hồi hộp, mất ngủ, sụt cân, run tay.<br>2. <span style=\"color:#ffd43b\">Pha suy giáp</span>: theo sau, mệt mỏi, rụng tóc, lo âu — dễ nhầm trầm cảm sau sinh.<br>3. Pha cường giáp <span style=\"color:#51cf66\">không dùng thuốc kháng giáp</span> vì hormon rò rỉ từ nang bị phá huỷ, không phải tuyến giáp sản xuất thừa.<br>4. Theo dõi TSH <span style=\"color:#74c0fc\">6–12 tuần sau sinh</span> ở người nguy cơ cao; theo dõi hàng năm vì nguy cơ suy giáp vĩnh viễn tăng suốt đời.<br><br>💡 <b>Vì sao</b><br>Nhận biết 2 pha giúp tránh 2 sai lầm: cho thuốc kháng giáp vô ích ở pha cường giáp, và chẩn đoán nhầm trầm cảm sau sinh ở pha suy giáp.<br><br>📖 Nguồn: §4.4, §10.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-045",
+      "note_id": 1794026503901,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "lam-sang"
+      ],
+      "type": "basic",
+      "front": "Pha cường giáp của viêm giáp hậu sản kéo dài {{c1::2–3 tháng}} rồi tự khỏi.",
+      "back": "📖 Nguồn: §4.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-046",
+      "note_id": 1794026503903,
+      "tags": [
+        "tuyen-giap",
+        "bao-giap",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>CỜ ĐỎ TUYỆT ĐỐI — Bão giáp</b></span><br>Tần suất, tỉ lệ tử vong và nguyên tắc chẩn đoán xử trí bão giáp là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tần suất: <span style=\"color:#ff6b6b\">0,2–1,1 trên 100.000 dân</span> nói chung, 4,8–6,3 trên 100.000 lượt nhập viện.<br>2. Tử vong <span style=\"color:#ffd43b\">5–25%</span> nếu không can thiệp nhanh.<br>3. Chẩn đoán <span style=\"color:#51cf66\">lâm sàng</span>: sốt cao, tim rất nhanh, lú lẫn, nôn nhiều ở bệnh nhân cường giáp — không chờ xét nghiệm giáp mới điều trị.<br>4. Xử trí: chuyển ngay đơn vị hồi sức, đa chuyên khoa — thuốc chẹn beta, thuốc kháng giáp liều cao, corticosteroid, iod sau thuốc kháng giáp.<br><br>💡 <b>Vì sao</b><br>Bão giáp là cấp cứu nội tiết hiếm nhưng chết người; chờ kết quả xét nghiệm trước khi điều trị là sai lầm có thể gây tử vong.<br><br>📖 Nguồn: §4.5, §9.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-047",
+      "note_id": 1794026503905,
+      "tags": [
+        "tuyen-giap",
+        "bao-giap",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>CỜ ĐỎ TUYỆT ĐỐI — Bão giáp</b></span><br>Phụ nữ mang thai tuần 28, bị Graves, sốt cao, tim 150 lần mỗi phút, lú lẫn, nôn nhiều. Chẩn đoán nghĩ đến là gì và hành động đầu tiên là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br><span style=\"color:#ff6b6b\">Bão giáp</span> là cấp cứu nội tiết: sốt cao, tim rất nhanh, lú lẫn, nôn nhiều ở bệnh nhân cường giáp — chẩn đoán lâm sàng, chuyển ngay đơn vị hồi sức, không chờ xét nghiệm giáp.<br><br>💡 <b>Vì sao</b><br>Không có xét nghiệm nào xác nhận hay loại trừ bão giáp đủ nhanh; trì hoãn điều trị làm tăng tử vong.<br><br>📖 Nguồn: §4.5, §9.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-048",
+      "note_id": 1794026503907,
+      "tags": [
+        "tuyen-giap",
+        "bao-giap",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "Bão giáp có tỉ lệ tử vong {{c1::5–25%}} nếu không can thiệp nhanh.",
+      "back": "📖 Nguồn: §4.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-049",
+      "note_id": 1794026503909,
+      "tags": [
+        "tuyen-giap",
+        "xet-nghiem",
+        "TSH"
+      ],
+      "type": "basic",
+      "front": "Đọc <span style=\"color:#ff6b6b\">TSH và FT4</span> ở phụ nữ mang thai theo khoảng tham chiếu nào, và vì sao không dùng ngưỡng cố định?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đọc TSH và FT4 theo <span style=\"color:#ff6b6b\">khoảng tham chiếu của quần thể, tam cá nguyệt và phòng xét nghiệm</span>, không dùng ngưỡng cố định.<br>2. Khi nhận kết quả TSH của phụ nữ mang thai, hỏi ngay: khoảng tham chiếu này làm cho <span style=\"color:#ffd43b\">quần thể nào, tam cá nguyệt nào, bằng phương pháp nào</span>.<br>3. Chỉ 11 trên 102 nghiên cứu làm khoảng tham chiếu đúng phương pháp — phần lớn khoảng tham chiếu đang dùng <span style=\"color:#51cf66\">không đúng phương pháp</span>.<br><br>💡 <b>Vì sao</b><br>Khoảng tham chiếu sai phương pháp sẽ chẩn đoán nhầm hàng loạt phụ nữ mang thai bình thường thành suy giáp cận lâm sàng.<br><br>📖 Nguồn: §5.1 bài giảng; phân tích gộp dữ liệu cá thể JCEM 2022."
+    },
+    {
+      "id": "OB23-CARD-050",
+      "note_id": 1794026503911,
+      "tags": [
+        "tuyen-giap",
+        "TSH",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Ngưỡng TSH 2,5 là chuẩn hiện hành để chẩn đoán suy giáp trong thai kỳ — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br><span style=\"color:#ff6b6b\">Ngưỡng TSH 2,5</span> là của thời ATA 2017; khoảng tham chiếu thai kỳ phải theo quần thể và phòng xét nghiệm, vì chỉ 11 trên 102 nghiên cứu làm khoảng tham chiếu đúng phương pháp.<br><br>💡 <b>Vì sao</b><br>Dạy ngưỡng 2,5 như chuẩn hiện hành là dạy sai — đây là một trong 3 lỗi dạy sai trung tâm của bài.<br><br>📖 Nguồn: §5.1, §0.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-051",
+      "note_id": 1794026503913,
+      "tags": [
+        "tuyen-giap",
+        "xet-nghiem",
+        "khoang-tham-chieu"
+      ],
+      "type": "basic",
+      "front": "Dùng bách phân vị 95 thay cho bách phân vị 97,5 làm giới hạn trên của TSH thay đổi {{c1::10,8–21,8%}}.",
+      "back": "📖 Nguồn: §5.1 bài giảng; phân tích gộp dữ liệu cá thể JCEM 2022."
+    },
+    {
+      "id": "OB23-CARD-052",
+      "note_id": 1794026503915,
+      "tags": [
+        "tuyen-giap",
+        "xet-nghiem",
+        "khoang-tham-chieu"
+      ],
+      "type": "basic",
+      "front": "Không loại trừ người TPOAb dương tính làm giới hạn trên của TSH trong tam cá nguyệt 2 tăng thêm {{c1::9,8%}}.",
+      "back": "📖 Nguồn: §5.1 bài giảng; phân tích gộp dữ liệu cá thể JCEM 2022."
+    },
+    {
+      "id": "OB23-CARD-053",
+      "note_id": 1794026503917,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Đo <span style=\"color:#ff6b6b\">TPOAb</span> khi nào, và TPOAb trên 50 IU/mL làm tăng nguy cơ tiến triển thành suy giáp rõ ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đo TPOAb khi <span style=\"color:#ff6b6b\">vô sinh, sẩy thai, suy giáp cận lâm sàng</span>, hoặc đánh giá nguy cơ viêm giáp hậu sản và tiến triển thành suy giáp.<br>2. TPOAb trên 50 IU/mL: tiến triển thành suy giáp rõ <span style=\"color:#ffd43b\">26,7% so với 6,5%</span> sau 1 năm (OR 5,3), và 30,5% so với 7,5% sau 5 năm (OR 5,4).<br>3. Suy giáp cận lâm sàng sau 5 năm: <span style=\"color:#51cf66\">20% so với 1,8%</span> (OR 13,4, số liệu nhỏ).<br><br>💡 <b>Vì sao</b><br>TPOAb dương tính báo trước nguy cơ suy giáp tương lai, nên người TPOAb dương tính cần theo dõi TSH định kỳ — nhưng không phải là chỉ định cho levothyroxine khi còn bình giáp.<br><br>📖 Nguồn: §5.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-054",
+      "note_id": 1794026503919,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "nguy-co"
+      ],
+      "type": "basic",
+      "front": "TPOAb trên 50 IU/mL làm tỉ lệ tiến triển thành suy giáp rõ sau 1 năm là {{c1::26,7%}}.",
+      "back": "📖 Nguồn: §5.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-055",
+      "note_id": 1794026503921,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "nguy-co"
+      ],
+      "type": "basic",
+      "front": "TPOAb trên 50 IU/mL làm tăng nguy cơ tiến triển thành suy giáp rõ với OR {{c1::5,3}} sau 1 năm.",
+      "back": "📖 Nguồn: §5.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-056",
+      "note_id": 1794026503923,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Ngưỡng <span style=\"color:#ff6b6b\">TRAb</span> theo tam cá nguyệt đã được kiểm chứng cho xét nghiệm nào, và các ngưỡng cụ thể là bao nhiêu?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Ngưỡng TRAb chỉ được kiểm chứng cho <span style=\"color:#ff6b6b\">1 xét nghiệm duy nhất</span>: BRAHMS Kryptor TRAK human, trong đoàn hệ Hà Lan 678 phụ nữ, 44 trung tâm, 2010–2023.<br>2. Tiền sử Graves: ngưỡng <span style=\"color:#ffd43b\">25, 19 và 6 lần giới hạn trên</span> theo tam cá nguyệt 1, 2, 3 — giá trị dự báo âm 100%.<br>3. Graves đang hoạt động: ngưỡng <span style=\"color:#51cf66\">10, 12 và 10 lần giới hạn trên</span> — độ nhạy 89%, 86% và 83%.<br>4. Ngưỡng theo xét nghiệm khác <span style=\"color:#74c0fc\">chưa được kiểm chứng</span> — không áp ngưỡng này cho xét nghiệm khác.<br><br>💡 <b>Vì sao</b><br>TRAb đo bằng các xét nghiệm khác nhau cho kết quả không so sánh được với nhau; dùng sai ngưỡng sẽ đánh giá sai nguy cơ cường giáp thai nhi.<br><br>📖 Nguồn: §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-057",
+      "note_id": 1794026503925,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Ngưỡng TRAb theo tam cá nguyệt áp dụng chung cho mọi xét nghiệm TRAb — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Ngưỡng TRAb chỉ được kiểm chứng cho xét nghiệm <span style=\"color:#ff6b6b\">BRAHMS Kryptor TRAK human</span> trong đoàn hệ Hà Lan; ngưỡng cho xét nghiệm khác chưa được kiểm chứng và không được áp dụng.<br><br>💡 <b>Vì sao</b><br>Các xét nghiệm TRAb khác nhau cho kết quả không tương đương — áp ngưỡng của xét nghiệm này cho xét nghiệm khác là sai lầm.<br><br>📖 Nguồn: §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-058",
+      "note_id": 1794026503927,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Ngưỡng TRAb theo tam cá nguyệt ở người có tiền sử Graves có giá trị dự báo âm {{c1::100%}} cho cường giáp thai nhi.",
+      "back": "📖 Nguồn: §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-059",
+      "note_id": 1794026503929,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Ở người đang bị Graves, ngưỡng TRAb trong tam cá nguyệt đầu là {{c1::10 lần}} giới hạn trên.",
+      "back": "📖 Nguồn: §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-060",
+      "note_id": 1794026503931,
+      "tags": [
+        "prolactin",
+        "macroprolactin",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Đo <span style=\"color:#ff6b6b\">prolactin</span> đúng cách ra sao, và khi nào cần đo phân đoạn <span style=\"color:#ffd43b\">macroprolactin bằng PEG</span>?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đo prolactin trong <span style=\"color:#ff6b6b\">điều kiện chuẩn</span>: buổi sáng, lúc đói, nghỉ ngơi, tránh stress, vận động và kích thích núm vú; một kết quả cao đơn lẻ chưa đủ để chẩn đoán.<br>2. Đo lại prolactin trong điều kiện chuẩn trước khi kết luận.<br>3. Khi prolactin cao nhưng <span style=\"color:#ffd43b\">không có triệu chứng hoặc không tương xứng</span> với triệu chứng, đo phân đoạn macroprolactin bằng PEG trước khi chụp MRI.<br>4. Macroprolactin là prolactin gắn IgG, hoạt tính sinh học thấp — <span style=\"color:#51cf66\">không cần MRI hay thuốc ức chế prolactin</span>.<br><br>💡 <b>Vì sao</b><br>Prolactin rất nhạy cảm với stress và kích thích; đo sai điều kiện sẽ chẩn đoán nhầm tăng prolactin và kéo theo MRI không cần thiết.<br><br>📖 Nguồn: §5.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-061",
+      "note_id": 1794026503933,
+      "tags": [
+        "prolactin",
+        "TSH",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>BOX ĐỎ 3 — Tăng prolactin</b></span><br>Xét nghiệm bắt buộc đầu tiên trong mọi trường hợp tăng prolactin là gì, và vì sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Đo TSH luôn</span> trong mọi trường hợp tăng prolactin, trước khi chụp MRI hay kê thuốc ức chế prolactin.<br>2. Suy giáp rõ có thể gây prolactin tới hàng trăm ng/mL với MRI bình thường, chữa được bằng <span style=\"color:#ffd43b\">levothyroxine đơn độc</span>.<br>3. Nhưng suy giáp cận lâm sàng <span style=\"color:#51cf66\">hiếm khi giải thích được</span> tăng prolactin — TSH tăng nhẹ không nên làm chậm chẩn đoán tăng prolactin.<br><br>💡 <b>Vì sao</b><br>TSH là xét nghiệm rẻ tiền nhất và có thể thay đổi hoàn toàn chẩn đoán — bỏ qua bước này là sai lầm đắt giá nhất trong chẩn đoán tăng prolactin.<br><br>📖 Nguồn: §5.4 bài giảng; BOX ĐỎ 3."
+    },
+    {
+      "id": "OB23-CARD-062",
+      "note_id": 1794026503935,
+      "tags": [
+        "prolactin",
+        "TSH",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>TSH tăng nhẹ giải thích được tăng prolactin — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Trong nghiên cứu Padova 2026 với 229 bệnh nhân, TSH và prolactin <span style=\"color:#ff6b6b\">không tương quan</span> với nhau; TSH tăng gặp ở 26% bệnh nhân tăng prolactin so với 16% ở người prolactin bình thường, không khác biệt có ý nghĩa (p = 0,083).<br><br>💡 <b>Vì sao</b><br>Đây là bằng chứng định lượng cho bẫy trung tâm của bài: suy giáp cận lâm sàng hiếm khi giải thích được tăng prolactin.<br><br>📖 Nguồn: §5.4, §6.2 bài giảng; nghiên cứu Padova 2026."
+    },
+    {
+      "id": "OB23-CARD-063",
+      "note_id": 1794026503937,
+      "tags": [
+        "prolactin",
+        "TSH",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Hệ số tương quan giữa TSH và prolactin trong nghiên cứu Padova 2026 là {{c1::0,053}}.",
+      "back": "📖 Nguồn: §5.4, §6.2 bài giảng; nghiên cứu Padova 2026."
+    },
+    {
+      "id": "OB23-CARD-064",
+      "note_id": 1794026503939,
+      "tags": [
+        "prolactin",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "Ca suy giáp rõ gây tăng prolactin nặng có prolactin {{c1::339 ng/mL}} với MRI tuyến yên bình thường.",
+      "back": "📖 Nguồn: §5.4, §16 Case 3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-065",
+      "note_id": 1794026503941,
+      "tags": [
+        "prolactin",
+        "MRI",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Chụp <span style=\"color:#ff6b6b\">MRI tuyến yên</span> khi nào — trước hay sau khi loại trừ thuốc, suy giáp rõ và macroprolactin?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Chụp MRI tuyến yên <span style=\"color:#ff6b6b\">sau khi đã loại trừ</span> thuốc, suy giáp rõ và macroprolactin.<br>2. Chỉ định khi có <span style=\"color:#ffd43b\">triệu chứng chèn ép</span>: đau đầu nặng, nhìn mờ, hẹp thị trường — hoặc khi cần phân loại kích thước u trước khi điều trị và mang thai.<br>3. Không chụp MRI chỉ vì prolactin cao mà chưa loại trừ các nguyên nhân khác — <span style=\"color:#51cf66\">lãng phí và có thể chẩn đoán sai</span>.<br><br>💡 <b>Vì sao</b><br>Thứ tự loại trừ tiết kiệm chi phí và tránh chẩn đoán sai: thuốc, suy giáp rõ và macroprolactin đều chữa được mà không cần MRI.<br><br>📖 Nguồn: §5.5, §12.1, §14 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-066",
+      "note_id": 1794026503943,
+      "tags": [
+        "tuyen-giap",
+        "iod",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Iod niệu</span> có giá trị chẩn đoán cá thể không, và liều iod nào là chưa kiểm chứng?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Iod niệu chỉ có ý nghĩa ở <span style=\"color:#ff6b6b\">mức quần thể</span> — đánh giá tình trạng iod của cộng đồng, không chẩn đoán cá thể.<br>2. Không có ngưỡng iod niệu cá thể nào để quyết định bổ sung iod cho một phụ nữ mang thai cụ thể.<br>3. Liều iod 250 mcg mỗi ngày và ngưỡng tránh trên 500 mcg mỗi ngày là <span style=\"color:#ffd43b\">số chưa kiểm chứng</span> — không dạy như khuyến cáo.<br><br>💡 <b>Vì sao</b><br>Iod niệu dao động lớn theo bữa ăn nên không dùng được cho cá thể; bổ sung iod thường quy trong thai kỳ chưa có đủ dữ liệu theo Cochrane 2017.<br><br>📖 Nguồn: §5.6, §10.1 bài giảng; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-067",
+      "note_id": 1794026503945,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "Graves",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\">viêm giáp hậu sản pha cường giáp</span> với <span style=\"color:#ffd43b\">Graves</span> bằng TRAb, Doppler và diễn tiến — thể nào KHÔNG dùng thuốc kháng giáp?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Viêm giáp hậu sản</span>: TRAb âm tính, siêu âm Doppler ít tăng sinh mạch, tự khỏi sau 2–3 tháng, không bướu giáp to, không lồi mắt.<br>2. <span style=\"color:#ffd43b\">Graves</span>: TRAb dương tính, Doppler tăng sinh mạch rõ, kéo dài, bướu giáp lan toả, có thể lồi mắt.<br>3. Pha cường giáp của viêm giáp hậu sản <span style=\"color:#51cf66\">không dùng thuốc kháng giáp</span>; Graves dùng thuốc kháng giáp.<br><br>💡 <b>Vì sao</b><br>Nhầm viêm giáp hậu sản thành Graves sẽ cho thuốc kháng giáp vô ích và gây hại — thuốc qua nhau thai và sữa mẹ, trong khi bệnh tự khỏi.<br><br>📖 Nguồn: §6.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-068",
+      "note_id": 1794026503947,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Phụ nữ 3 tháng sau sinh, hồi hộp, mất ngủ, TSH thấp, FT4 cao — chẩn đoán ngay Graves và cho thuốc kháng giáp — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Viêm giáp hậu sản pha cường giáp có <span style=\"color:#ff6b6b\">TRAb âm tính</span>, tự khỏi sau 2–3 tháng, không dùng thuốc kháng giáp; Graves có TRAb dương tính và cần thuốc kháng giáp.<br><br>💡 <b>Vì sao</b><br>Đây là một trong những bẫy tổng hợp của bài — chẩn đoán nhầm sẽ cho thuốc kháng giáp vô ích cho bệnh tự khỏi.<br><br>📖 Nguồn: §6.1, §6.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-069",
+      "note_id": 1794026503949,
+      "tags": [
+        "prolactin",
+        "suy-giap",
+        "prolactinoma",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Phân biệt <span style=\"color:#ff6b6b\">tăng prolactin do suy giáp rõ</span> với <span style=\"color:#ffd43b\">tăng prolactin do prolactinoma</span> bằng TSH, FT4, MRI và mức prolactin.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp rõ gây tăng prolactin</span>: TSH rất cao, FT4 rất thấp, prolactin có thể tới hàng trăm ng/mL, MRI thường bình thường, chữa bằng levothyroxine đơn độc.<br>2. <span style=\"color:#ffd43b\">Prolactinoma gây tăng prolactin</span>: TSH bình thường, MRI thấy u, prolactin tương xứng với kích thước u.<br>3. Nếu là prolactinoma gây prolactin 339 ng/mL thì MRI thường thấy <span style=\"color:#51cf66\">u đại thể</span> và TSH bình thường — ngược lại với ca suy giáp rõ.<br><br>💡 <b>Vì sao</b><br>Bảng phân biệt này là chìa khoá chẩn đoán ca tăng prolactin nặng: TSH và FT4 quyết định hướng đi trước khi chụp MRI.<br><br>📖 Nguồn: §6.2 bài giảng; Case 3 §16."
+    },
+    {
+      "id": "OB23-CARD-070",
+      "note_id": 1794026503951,
+      "tags": [
+        "prolactin",
+        "TSH",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "TSH tăng gặp ở {{c1::26%}} bệnh nhân tăng prolactin trong nghiên cứu Padova 2026.",
+      "back": "📖 Nguồn: §6.2 bài giảng; nghiên cứu Padova 2026."
+    },
+    {
+      "id": "OB23-CARD-071",
+      "note_id": 1794026503953,
+      "tags": [
+        "prolactin",
+        "thuoc",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Nhóm thuốc nào gây <span style=\"color:#ff6b6b\">tăng prolactin do thuốc</span>, và vì sao hỏi thuốc là bước đầu tiên trong chẩn đoán?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Chống loạn thần</span>: nguyên nhân thuốc thường gặp nhất gây tăng prolactin.<br>2. <span style=\"color:#ffd43b\">Chống nôn</span> như metoclopramide.<br>3. <span style=\"color:#51cf66\">Một số chống trầm cảm</span> và các thuốc khác.<br>4. Hỏi thuốc là bước đầu tiên trong chẩn đoán tăng prolactin — nguyên nhân <span style=\"color:#74c0fc\">đảo ngược được dễ nhất</span>, chỉ cần đổi thuốc sau hội chẩn.<br><br>💡 <b>Vì sao</b><br>Quên hỏi thuốc sẽ dẫn đến chụp MRI và dùng thuốc ức chế prolactin không cần thiết cho một nguyên nhân chỉ cần đổi thuốc là khỏi.<br><br>📖 Nguồn: §6.3, §12.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-072",
+      "note_id": 1794026503955,
+      "tags": [
+        "prolactin",
+        "thuoc",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Chẩn đoán tăng prolactin mà không hỏi tiền sử thuốc — có chấp nhận được không?",
+      "back": "🎯 <b>Cốt lõi</b><br>Thuốc chống loạn thần, chống nôn và một số chống trầm cảm đều làm tăng prolactin; hỏi thuốc là bước đầu tiên vì đây là nguyên nhân <span style=\"color:#51cf66\">đảo ngược được dễ nhất</span>.<br><br>💡 <b>Vì sao</b><br>Đây là bẫy tổng hợp của bài — bỏ qua tiền sử thuốc là bỏ qua nguyên nhân dễ chữa nhất.<br><br>📖 Nguồn: §6.3, §6.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-073",
+      "note_id": 1794026503957,
+      "tags": [
+        "prolactin",
+        "TSH",
+        "suy-giap",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">TSH tăng nhẹ</span> hay <span style=\"color:#ffd43b\">suy giáp rõ</span> — ranh giới nào quyết định TSH có giải thích được tăng prolactin hay không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">FT4 là yếu tố quyết định</span>: TSH cao + FT4 thấp là suy giáp rõ — gây tăng prolactin nặng, chữa bằng levothyroxine.<br>2. TSH cao + FT4 bình thường là <span style=\"color:#ffd43b\">suy giáp cận lâm sàng</span> — hiếm khi giải thích được tăng prolactin.<br>3. TSH tăng nhẹ không nên làm chậm chẩn đoán tăng prolactin: tiếp tục hỏi thuốc, đo PEG, chụp MRI.<br><br>💡 <b>Vì sao</b><br>Ranh giới rõ với cận lâm sàng là điểm quyết định trong ca tăng prolactin — dừng lại ở TSH tăng nhẹ sẽ bỏ sót prolactinoma.<br><br>📖 Nguồn: §6.4 bài giảng; nghiên cứu Padova 2026."
+    },
+    {
+      "id": "OB23-CARD-074",
+      "note_id": 1794026503959,
+      "tags": [
+        "tuyen-giap",
+        "prolactin",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy tổng hợp</b></span><br>Ba bẫy chẩn đoán nhầm thường gặp: thuốc kháng giáp trong cường giáp thai thoáng qua, viêm giáp hậu sản thành Graves, macroprolactin thành prolactinoma — vì sao cả 3 đều sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Bẫy 10</span>: cho thuốc kháng giáp trong cường giáp thai thoáng qua — sai, do hCG và tự khỏi.<br>2. <span style=\"color:#ffd43b\">Bẫy 11</span>: chẩn đoán viêm giáp hậu sản pha cường giáp thành Graves — sai, TRAb âm tính và tự khỏi.<br>3. <span style=\"color:#51cf66\">Bẫy 12</span>: chẩn đoán macroprolactinemia thành prolactinoma — sai, đo PEG trước khi chụp MRI.<br><br>💡 <b>Vì sao</b><br>Cả 3 bẫy đều là chẩn đoán nhầm dẫn đến điều trị thừa: thuốc kháng giáp vô ích, thuốc kháng giáp cho bệnh tự khỏi, MRI và thuốc ức chế prolactin cho prolactin giả tạo.<br><br>📖 Nguồn: §6.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-075",
+      "note_id": 1794026503961,
+      "tags": [
+        "tuyen-giap",
+        "sang-loc",
+        "ATA",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy tổng hợp</b></span><br>Hai bẫy về bằng chứng: sàng lọc đại trà đã được đồng thuận, và số trong tóm tắt thứ cấp về ATA 2026 đều đã kiểm chứng — vì sao cả 2 đều sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Bẫy 13</span>: cho rằng sàng lọc đại trà đã được đồng thuận — sai, cả 5 guideline đều chống sàng lọc đại trà và ủng hộ sàng lọc đích.<br>2. <span style=\"color:#ffd43b\">Bẫy 14</span>: trích số từ tóm tắt thứ cấp về ATA 2026 như khuyến cáo đã kiểm chứng — sai, toàn văn ATA 2026 không lấy được, nhiều số lan truyền chưa kiểm chứng được từ nguồn gốc.<br>3. Khi thấy số liệu trong bản tóm tắt thứ cấp về ATA 2026, <span style=\"color:#51cf66\">hỏi lại nguồn gốc</span> trước khi dạy.<br><br>💡 <b>Vì sao</b><br>Cả 2 bẫy đều là lỗi về nguồn bằng chứng: đồng thuận không tồn tại và số liệu không có nguồn gốc — bài này dạy số thay thế đã kiểm chứng và ghi rõ những số nào chưa kiểm chứng.<br><br>📖 Nguồn: §6.5, §17.1 Tip 18 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-076",
+      "note_id": 1794026503963,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Nguyên tắc điều trị: <span style=\"color:#ff6b6b\">suy giáp rõ</span> điều trị ngay, <span style=\"color:#ffd43b\">suy giáp cận lâm sàng</span> cân nhắc — bằng chứng nào đứng sau mỗi vế?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp rõ</span> điều trị ngay bằng levothyroxine — suy giáp mẹ không được kiểm soát ảnh hưởng phát triển não bộ thai nhi.<br>2. <span style=\"color:#ffd43b\">Suy giáp cận lâm sàng</span> cân nhắc theo từng trường hợp — liên quan kết cục xấu trong nghiên cứu quan sát nhưng điều trị chưa chứng minh cải thiện trí tuệ của trẻ.<br>3. Nghiên cứu Haddow 1999: trẻ của mẹ suy giáp không điều trị có IQ thấp hơn <span style=\"color:#51cf66\">7 điểm</span>, 19% có IQ ≤85; 64% số mẹ tiến triển thành suy giáp xác định sau 11 năm so với 4% nhóm chứng.<br>4. Phân tích gộp Maraka 2016: suy giáp cận lâm sàng liên quan sẩy thai RR 2,01, bong nhau RR 2,14, vỡ ối sớm RR 1,43, tử vong sơ sinh RR 2,58.<br><br>💡 <b>Vì sao</b><br>Nguyên tắc phân tầng: suy giáp rõ có hại đã chứng minh nên điều trị ngay; suy giáp cận lâm sàng chỉ liên quan kết cục xấu trong nghiên cứu quan sát nên cần cân nhắc cá thể hoá.<br><br>📖 Nguồn: §7.1 bài giảng; Haddow 1999; Maraka 2016."
+    },
+    {
+      "id": "OB23-CARD-077",
+      "note_id": 1794026503965,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu Haddow 1999: trẻ của mẹ suy giáp không được điều trị có IQ thấp hơn {{c1::7 điểm}} so với nhóm chứng.",
+      "back": "📖 Nguồn: §7.1 bài giảng; Haddow 1999."
+    },
+    {
+      "id": "OB23-CARD-078",
+      "note_id": 1794026503967,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp Maraka 2016: suy giáp cận lâm sàng liên quan sẩy thai với RR {{c1::2,01}}.",
+      "back": "📖 Nguồn: §7.1 bài giảng; Maraka 2016."
+    },
+    {
+      "id": "OB23-CARD-079",
+      "note_id": 1794026503969,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>BOX ĐỎ 1 — Suy giáp rõ trong thai kỳ</b></span><br>Hành động đầu tiên khi biết có thai là gì, và vì sao không chờ đến lần khám thai sau?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Suy giáp rõ trong thai kỳ <span style=\"color:#ff6b6b\">điều trị ngay</span> bằng levothyroxine — không chờ đến lần khám thai sau.<br>2. Tăng liều khoảng <span style=\"color:#ffd43b\">30% ngay khi biết có thai</span> — nhu cầu tăng trung bình 47% trong nửa đầu thai kỳ, khởi phát sớm nhất từ tuần 5, đạt đỉnh ở tuần 16.<br>3. Uống levothyroxine <span style=\"color:#51cf66\">lúc đói buổi sáng, tách khỏi canxi, sắt và thuốc kháng acid</span>.<br>4. Theo dõi TSH 2 tuần một lần trong tam cá nguyệt đầu và hàng tháng sau đó.<br><br>💡 <b>Vì sao</b><br>Nhu cầu levothyroxine tăng sớm từ tuần 5 nên chờ đợi làm thai nhi thiếu hormon giáp trong nhiều tuần — tăng liều ngay là hành động đầu tiên.<br><br>📖 Nguồn: §7.2 bài giảng; BOX ĐỎ 1; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-080",
+      "note_id": 1794026503971,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Phác đồ mẫu 1</b></span><br>Phụ nữ suy giáp đang dùng levothyroxine 100 μg mỗi ngày vừa thử thai dương tính — các bước xử trí là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tăng liều levothyroxine thêm khoảng <span style=\"color:#ff6b6b\">30% ngay</span> — ví dụ từ 100 μg lên khoảng 130 μg mỗi ngày.<br>2. Uống <span style=\"color:#ffd43b\">buổi sáng lúc đói</span>, tách khỏi canxi và sắt.<br>3. Hẹn đo lại TSH sau <span style=\"color:#51cf66\">2 tuần</span>, theo lịch của nghiên cứu Alexander.<br>4. Tiếp tục theo dõi TSH 2 tuần một lần trong tam cá nguyệt đầu và hàng tháng sau đó; sau sinh đo lại TSH và <span style=\"color:#74c0fc\">giảm liều về gần liều trước thai</span>.<br>5. Tư vấn lần mang thai sau: tăng liều ngay khi biết có thai, không chờ lần khám thai đầu tiên.<br><br>💡 <b>Vì sao</b><br>Phác đồ này bám sát nghiên cứu Alexander 2004 — tăng sớm, theo dõi sát, giảm liều sau sinh vì nhu cầu giảm.<br><br>📖 Nguồn: §7.2 bài giảng; Phác đồ mẫu 1; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-081",
+      "note_id": 1794026503973,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu Alexander 2004: nhu cầu levothyroxine tăng trung bình {{c1::47%}} trong nửa đầu thai kỳ.",
+      "back": "📖 Nguồn: §7.2 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-082",
+      "note_id": 1794026503975,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Nhu cầu levothyroxine tăng sớm nhất từ tuần {{c1::5}} của thai kỳ.",
+      "back": "📖 Nguồn: §7.2 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-083",
+      "note_id": 1794026503977,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu Alexander 2004, {{c1::17 trên 20}} thai kỳ cần tăng liều levothyroxine.",
+      "back": "📖 Nguồn: §7.2 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-084",
+      "note_id": 1794026503979,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn: suy giáp cận lâm sàng liên quan kết cục xấu trong nghiên cứu quan sát, nhưng điều trị bằng levothyroxine <span style=\"color:#ff6b6b\">không cải thiện IQ của trẻ</span> trong Casey và CATS — kết quả 2 trial và 3 lý giải là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Thử nghiệm Casey 2017: IQ của trẻ khi 5 tuổi <span style=\"color:#ff6b6b\">97 so với 94</span> ở nhóm giả dược (p = 0,71) — không khác biệt; nhánh isolated hypothyroxinemia 94 so với 91 (p = 0,30).<br>2. Thử nghiệm CATS 2012: IQ khi 3 tuổi <span style=\"color:#ffd43b\">99,2 so với 100,0</span> (p = 0,40); IQ dưới 85 là 12,1% so với 14,1% (p = 0,39).<br>3. Ba lý giải: điều trị bắt đầu <span style=\"color:#51cf66\">quá muộn</span> (trung bình tuần 16,7 trong Casey và 13 tuần 3 ngày trong CATS), bệnh quá nhẹ, và IQ là kết cục không đủ nhạy.<br><br>💡 <b>Vì sao</b><br>Mâu thuẫn này dạy bài học về thứ bậc bằng chứng: liên quan trong nghiên cứu quan sát không đồng nghĩa điều trị có lợi — cần thử nghiệm ngẫu nhiên để trả lời.<br><br>📖 Nguồn: §7.3 bài giảng; Casey 2017; CATS 2012."
+    },
+    {
+      "id": "OB23-CARD-085",
+      "note_id": 1794026503981,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "trial"
+      ],
+      "type": "basic",
+      "front": "Liều levothyroxine dùng trong trial CATS là {{c1::150 μg mỗi ngày}}.",
+      "back": "📖 Nguồn: §7.3 bài giảng; CATS 2012."
+    },
+    {
+      "id": "OB23-CARD-086",
+      "note_id": 1794026503983,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Trong thử nghiệm Casey 2017 IQ của trẻ khi 5 tuổi ở nhóm giả dược là {{c1::94}}.",
+      "back": "📖 Nguồn: §7.3 bài giảng; Casey 2017."
+    },
+    {
+      "id": "OB23-CARD-087",
+      "note_id": 1794026503985,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "tien-tri"
+      ],
+      "type": "basic",
+      "front": "Sau sinh, phụ nữ bị <span style=\"color:#ff6b6b\">suy giáp cận lâm sàng</span> trong thai kỳ tiến triển thành suy giáp rõ với tỉ lệ bao nhiêu sau 1 năm và 5 năm?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Sau sinh 1 năm, tỉ lệ tiến triển thành suy giáp rõ là <span style=\"color:#ff6b6b\">13,4%</span> ở nhóm suy giáp cận lâm sàng, so với 3,1% ở nhóm isolated hypothyroxinemia (p < 0,001).<br>2. Sau 5 năm: <span style=\"color:#ffd43b\">15,6% so với 2,6%</span> (p < 0,001).<br>3. Nguy cơ cao hơn khi <span style=\"color:#51cf66\">TSH trên 10</span> và khi TPOAb dương tính.<br><br>💡 <b>Vì sao</b><br>Suy giáp cận lâm sàng trong thai kỳ không phải tình trạng thoáng qua — một phần đáng kể tiến triển thành suy giáp rõ sau sinh nên cần theo dõi sau sinh.<br><br>📖 Nguồn: §7.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-088",
+      "note_id": 1794026503987,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "tien-tri"
+      ],
+      "type": "basic",
+      "front": "Tỉ lệ tiến triển thành suy giáp rõ sau sinh 1 năm ở nhóm suy giáp cận lâm sàng là {{c1::13,4%}}.",
+      "back": "📖 Nguồn: §7.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-089",
+      "note_id": 1794026503989,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn trung tâm: <span style=\"color:#ff6b6b\">Negro 2006 và Cochrane 2013</span> ủng hộ levothyroxine cho TPOAb dương tính bình giáp, <span style=\"color:#ffd43b\">TABLET 2019</span> lại âm tính — số liệu từng bên là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Negro 2006</span> (nghiên cứu nhỏ, 984 phụ nữ): sẩy thai 3,5% so với 13,8%, đẻ non 7% so với 22,4% khi cho levothyroxine.<br>2. <span style=\"color:#ffd43b\">Cochrane 2013</span> (4 thử nghiệm, 362 phụ nữ): đẻ non giảm 72% với RR 0,28; tiền sản giật RR 0,61 không có ý nghĩa.<br>3. <span style=\"color:#51cf66\">TABLET 2019</span> (thử nghiệm ngẫu nhiên lớn nhất, 952 phụ nữ): sinh sống 37,4% so với 37,9% (RR 0,97, p = 0,74) — không tăng sinh sống.<br>4. <span style=\"color:#74c0fc\">Phân tích gộp AITD 2025</span> (8 thử nghiệm): TPOAb dương tính làm tăng đẻ non OR 3,92; levothyroxine làm giảm sẩy thai OR 0,52 và đẻ non OR 0,37 — nhưng TABLET vẫn là thử nghiệm lớn nhất và kết quả âm tính.<br><br>💡 <b>Vì sao</b><br>Bằng chứng đối lập dạy bài học về thứ bậc bằng chứng: thử nghiệm ngẫu nhiên lớn nhất có trọng số cao nhất, nghiên cứu nhỏ và quan sát không lấn át được nó.<br><br>📖 Nguồn: §8.1 bài giảng; Negro 2006; Cochrane 2013; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-090",
+      "note_id": 1794026503991,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Sinh sống trong thử nghiệm TABLET 2019 ở nhóm levothyroxine là {{c1::37,4%}}.",
+      "back": "📖 Nguồn: §8.1 bài giảng; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-091",
+      "note_id": 1794026503993,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Sẩy thai trong nghiên cứu Negro 2006 ở nhóm levothyroxine là {{c1::3,5%}}.",
+      "back": "📖 Nguồn: §8.1 bài giảng; Negro 2006."
+    },
+    {
+      "id": "OB23-CARD-092",
+      "note_id": 1794026503995,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Tổng quan Cochrane 2013: levothyroxine làm giảm đẻ non với RR {{c1::0,28}} ở phụ nữ TPOAb dương tính.",
+      "back": "📖 Nguồn: §8.1 bài giảng; Cochrane 2013."
+    },
+    {
+      "id": "OB23-CARD-093",
+      "note_id": 1794026503997,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>BOX ĐỎ 2 — TPOAb dương tính bình giáp</b></span><br>Có cho levothyroxine thường quy không, và dạy mâu thuẫn Negro/Cochrane với TABLET ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Không cho levothyroxine thường quy</span> cho phụ nữ bình giáp TPOAb dương tính — theo TABLET, thử nghiệm ngẫu nhiên lớn nhất.<br>2. Theo dõi TSH <span style=\"color:#ffd43b\">mỗi 3–6 tháng</span> khi đang cố gắng có thai, và đo lại TSH ngay khi biết có thai.<br>3. Đừng để nghiên cứu nhỏ và nghiên cứu quan sát <span style=\"color:#51cf66\">lấn át thử nghiệm ngẫu nhiên lớn</span> — thứ bậc bằng chứng quyết định.<br>4. Giới hạn của TABLET: chỉ đánh giá sinh sống, không đánh giá mọi kết cục; bệnh nhân trong TABLET có TSH bình thường và tiền sử sẩy thai hoặc vô sinh.<br><br>💡 <b>Vì sao</b><br>Cách dạy mâu thuẫn là dạy cả hai phía với số liệu, rồi dạy thứ bậc bằng chứng để quyết định — không chọn một phía và giấu phía còn lại.<br><br>📖 Nguồn: §8.2 bài giảng; BOX ĐỎ 2; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-094",
+      "note_id": 1794026503999,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm TABLET ngẫu nhiên hoá {{c1::952}} phụ nữ bình giáp TPOAb dương tính có tiền sử sẩy thai hoặc vô sinh.",
+      "back": "📖 Nguồn: §8.2 bài giảng; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-095",
+      "note_id": 1794026504001,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Hai ngoại lệ còn được cân nhắc cho levothyroxine ở phụ nữ <span style=\"color:#ff6b6b\">TPOAb dương tính bình giáp</span> là gì, và mức bằng chứng của mỗi ngoại lệ ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Hỗ trợ sinh sản</span>: phân tích gộp 2013 (3 thử nghiệm, 220 bệnh nhân) cho thấy levothyroxine làm tăng sinh sống RR 2,76 với NNT 3, và giảm sẩy thai RR 0,45 với NNT 3 — nhưng mức bằng chứng thấp hơn TABLET.<br>2. <span style=\"color:#ffd43b\">Sẩy thai liên tiếp với TSH 2,5–4,0</span>: đoàn hệ hồi cứu 2026 (896 phụ nữ) cho thấy levothyroxine làm giảm sẩy thai với aOR 0,33 và giảm doạ sẩy với aOR 0,49 — nhưng là nghiên cứu hồi cứu, không phải thử nghiệm ngẫu nhiên.<br>3. Cả hai ngoại lệ đều cần <span style=\"color:#51cf66\">cân nhắc cá thể hoá và nói rõ mức bằng chứng</span> với bệnh nhân.<br><br>💡 <b>Vì sao</b><br>Ngoại lệ không phủ định quy tắc chung — chúng là những nhóm hẹp mà bằng chứng yếu hơn, nên quyết định phải cá thể hoá và minh bạch về mức bằng chứng.<br><br>📖 Nguồn: §8.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-096",
+      "note_id": 1794026504003,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp 2013 ở phụ nữ làm hỗ trợ sinh sản: levothyroxine làm tăng sinh sống với RR {{c1::2,76}}.",
+      "back": "📖 Nguồn: §8.3 bài giảng; phân tích gộp Hum Reprod Update 2013."
+    },
+    {
+      "id": "OB23-CARD-097",
+      "note_id": 1794026504005,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Đoàn hệ hồi cứu 2026 với 896 phụ nữ sẩy thai liên tiếp: levothyroxine làm giảm sẩy thai với aOR {{c1::0,33}}.",
+      "back": "📖 Nguồn: §8.3 bài giảng; đoàn hệ hồi cứu Endocrine Connections 2026."
+    },
+    {
+      "id": "OB23-CARD-098",
+      "note_id": 1794026504007,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "di-tat"
+      ],
+      "type": "basic",
+      "front": "🛑 <span style=\"color:#ff6b6b\"><b>BOX ĐỎ 5 — Thuốc kháng giáp trong thai kỳ</b></span><br>PTU và MMI, thuốc nào an toàn tuyệt đối, và số liệu Thuỵ Điển so với Đan Mạch nói gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Cả PTU và MMI đều có nguy cơ dị tật bẩm sinh theo <span style=\"color:#ff6b6b\">phân nhóm riêng</span> — không có lựa chọn an toàn tuyệt đối.<br>2. Nghiên cứu Thuỵ Điển 2017 (684.340 trẻ): dị tật MMI 6,8%, PTU 6,4%, so với 8,0% ở nhóm không phơi nhiễm — không tăng chung, nhưng MMI liên quan khuyết tật vách tim, PTU liên quan dị tật tai và tắc nghẽn đường tiểu.<br>3. Nghiên cứu Đan Mạch 2019 (1.243.353 trẻ): dị tật MMI/CMZ 9,6%, PTU 8,3%, so với 6,7% ở nhóm không phơi nhiễm.<br>4. Phân tích gộp PLoS 2015: RR PTU 1,20, MMI/CMZ 1,64, cả hai thuốc 1,83.<br>5. Quyết định là <span style=\"color:#ffd43b\">cân bằng lợi và hại cho từng bệnh nhân</span>, cùng chuyên gia nội tiết.<br><br>💡 <b>Vì sao</b><br>Hai nghiên cứu lớn cho kết quả khác nhau vì quần thể và phương pháp khác nhau — dạy cả hai phía thay vì chọn một phía.<br><br>📖 Nguồn: §9.1 bài giảng; BOX ĐỎ 5; Swedish 2017; Danish 2019; PLoS 2015."
+    },
+    {
+      "id": "OB23-CARD-099",
+      "note_id": 1794026504009,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy số chưa kiểm chứng</b></span><br>Tỉ lệ dị tật PTU 8,8 và MMI 17,1 trên 1.000 — có được dạy như số đã kiểm chứng không?",
+      "back": "🎯 <b>Cốt lõi</b><br>Tỉ lệ dị tật PTU 8,8 và MMI 17,1 trên 1.000 lan truyền trong tóm tắt thứ cấp <span style=\"color:#ff6b6b\">chưa kiểm chứng</span> được từ nguồn gốc — bài này dạy số thay thế đã kiểm chứng là nghiên cứu Đan Mạch 2019 và Thuỵ Điển 2017.<br><br>💡 <b>Vì sao</b><br>Đây là một trong những số cấm dạy của bài — trích số chưa kiểm chứng sẽ làm sai lệch tư vấn nguy cơ cho thai phụ.<br><br>📖 Nguồn: §9.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-100",
+      "note_id": 1794026504011,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "di-tat"
+      ],
+      "type": "basic",
+      "front": "Dị tật bẩm sinh ở nhóm phơi nhiễm MMI/CMZ trong nghiên cứu Đan Mạch 2019 là {{c1::9,6%}}.",
+      "back": "📖 Nguồn: §9.1 bài giảng; Andersen 2019."
+    },
+    {
+      "id": "OB23-CARD-101",
+      "note_id": 1794026504013,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "di-tat"
+      ],
+      "type": "basic",
+      "front": "Dị tật bẩm sinh ở nhóm phơi nhiễm PTU trong nghiên cứu Đan Mạch 2019 là {{c1::8,3%}}.",
+      "back": "📖 Nguồn: §9.1 bài giảng; Andersen 2019."
+    },
+    {
+      "id": "OB23-CARD-102",
+      "note_id": 1794026504015,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "di-tat"
+      ],
+      "type": "basic",
+      "front": "Dị tật bẩm sinh ở nhóm phơi nhiễm MMI trong nghiên cứu Thuỵ Điển 2017 là {{c1::6,8%}}.",
+      "back": "📖 Nguồn: §9.1 bài giảng; Swedish 2017."
+    },
+    {
+      "id": "OB23-CARD-103",
+      "note_id": 1794026504017,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "di-tat"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp PLoS 2015: nguy cơ dị tật của PTU có RR {{c1::1,20}}.",
+      "back": "📖 Nguồn: §9.1 bài giảng; PLoS 2015."
+    },
+    {
+      "id": "OB23-CARD-104",
+      "note_id": 1794026504019,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "thai-nhi"
+      ],
+      "type": "basic",
+      "front": "Khi <span style=\"color:#ff6b6b\">TRAb cao</span> trong thai kỳ, theo dõi thai nhi bằng gì, và ngưỡng TRAb nào được dùng?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Khi TRAb cao, siêu âm thai theo dõi <span style=\"color:#ff6b6b\">tim thai nhanh, thai chậm tăng trưởng và bướu giáp thai nhi</span> — dấu hiệu cường giáp thai nhi.<br>2. Ngưỡng TRAb theo tam cá nguyệt của đoàn hệ Hà Lan (678 phụ nữ, 44 trung tâm, 2010–2023) chỉ áp cho xét nghiệm <span style=\"color:#ffd43b\">BRAHMS Kryptor TRAK human</span>.<br>3. TRAb cao cần hội chẩn nội tiết và sản khoa, theo dõi thai nhi chặt chẽ; <span style=\"color:#51cf66\">không có ngưỡng TRAb nào áp chung</span> cho mọi xét nghiệm.<br><br>💡 <b>Vì sao</b><br>TRAb qua nhau thai gây cường giáp thai nhi — đo TRAb là để bảo vệ thai nhi, không chỉ để chẩn đoán mẹ.<br><br>📖 Nguồn: §9.2, §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-105",
+      "note_id": 1794026504021,
+      "tags": [
+        "tuyen-giap",
+        "TRAb",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Đoàn hệ Hà Lan về ngưỡng TRAb gồm {{c1::678}} phụ nữ ở 44 trung tâm, từ 2010 đến 2023.",
+      "back": "📖 Nguồn: §9.2, §5.3 bài giảng; đoàn hệ Hà Lan."
+    },
+    {
+      "id": "OB23-CARD-106",
+      "note_id": 1794026504023,
+      "tags": [
+        "tuyen-giap",
+        "cuong-giap",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Cường giáp cận lâm sàng</span> trong thai kỳ có điều trị không — bằng chứng Casey 2006 nói gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Nghiên cứu Casey 2006 sàng lọc 25.765 phụ nữ, 433 người (1,7%) có cường giáp cận lâm sàng.<br>2. Không tăng biến chứng thai kỳ; tăng huyết áp thai kỳ thậm chí <span style=\"color:#ff6b6b\">thấp hơn</span> với aOR 0,66.<br>3. Cường giáp cận lâm sàng trong thai kỳ <span style=\"color:#ffd43b\">không điều trị</span>, chỉ theo dõi.<br><br>💡 <b>Vì sao</b><br>Cường giáp cận lâm sàng không làm tăng biến chứng nên điều trị sẽ chỉ thêm tác hại mà không có lợi ích — khác hoàn toàn với cường giáp rõ.<br><br>📖 Nguồn: §9.3 bài giảng; Casey 2006."
+    },
+    {
+      "id": "OB23-CARD-107",
+      "note_id": 1794026504025,
+      "tags": [
+        "tuyen-giap",
+        "cuong-giap",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Nghiên cứu Casey 2006: cường giáp cận lâm sàng gặp ở {{c1::1,7%}} trong 25.765 phụ nữ được sàng lọc.",
+      "back": "📖 Nguồn: §9.3 bài giảng; Casey 2006."
+    },
+    {
+      "id": "OB23-CARD-108",
+      "note_id": 1794026504027,
+      "tags": [
+        "tuyen-giap",
+        "bao-giap",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Xử trí bão giáp</b></span><br>4 nhóm thuốc chính là gì, và iod cho trước hay sau thuốc kháng giáp?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Thuốc chẹn beta</span> — kiểm soát tim nhanh và triệu chứng giao cảm.<br>2. <span style=\"color:#ffd43b\">Thuốc kháng giáp liều cao</span> — ức chế tổng hợp hormon giáp mới.<br>3. <span style=\"color:#51cf66\">Corticosteroid</span> — giảm chuyển T4 thành T3 và hỗ trợ suy thượng thận tương đối.<br>4. <span style=\"color:#74c0fc\">Iod — cho SAU thuốc kháng giáp</span>, không cho trước, vì iod sẽ bị dùng để tổng hợp thêm hormon nếu chưa chặn tổng hợp.<br>5. Biện pháp khác: cholestyramine, lithium, lọc huyết tương, ECMO, cắt giáp chọn lọc khi các biện pháp khác thất bại.<br><br>💡 <b>Vì sao</b><br>Thứ tự iod sau thuốc kháng giáp là điểm quyết định: iod cho trước thuốc kháng giáp sẽ nuôi thêm hormon giáp và làm bão giáp nặng hơn.<br><br>📖 Nguồn: §9.4 bài giảng; BOX ĐỎ 4."
+    },
+    {
+      "id": "OB23-CARD-109",
+      "note_id": 1794026504029,
+      "tags": [
+        "tuyen-giap",
+        "bao-giap",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style=\"color:#ff6b6b\">iod</span> trong xử trí bão giáp phải cho <span style=\"color:#ffd43b\">sau thuốc kháng giáp</span>, không cho trước?",
+      "back": "🎯 <b>Cốt lõi</b><br>Iod chỉ được cho <span style=\"color:#ff6b6b\">sau thuốc kháng giáp</span> vì iod là nguyên liệu tổng hợp hormon giáp — nếu cho iod trước khi chặn tổng hợp, tuyến giáp sẽ dùng iod để sản xuất thêm hormon và làm bão giáp nặng hơn. Sau khi thuốc kháng giáp đã chặn tổng hợp, iod mới phát huy tác dụng ức chế giải phóng hormon.<br><br>💡 <b>Vì sao</b><br>Đây là điểm dễ sai nhất trong xử trí bão giáp: thứ tự thuốc quyết định iod là thuốc cứu hay thuốc hại.<br><br>📖 Nguồn: §9.4 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-110",
+      "note_id": 1794026504031,
+      "tags": [
+        "tuyen-giap",
+        "iod",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Bổ sung <span style=\"color:#ff6b6b\">iod thường quy</span> trong thai kỳ có đủ bằng chứng không — Cochrane 2017 kết luận gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tổng quan Cochrane 2017 với 11 thử nghiệm và hơn 2.700 phụ nữ: <span style=\"color:#ff6b6b\">dữ liệu chưa đủ</span> để kết luận lợi ích của bổ sung iod thường quy trong thai kỳ.<br>2. Cường giáp sau sinh giảm 68% với RR 0,32 (3 thử nghiệm, 543 phụ nữ, chất lượng thấp).<br>3. Không dung nạp tiêu hoá tăng với RR 15,33 (1 thử nghiệm, 76 phụ nữ, chất lượng rất thấp).<br>4. Tử vong chu sinh RR 0,66 và đẻ non RR 0,71 — đều không có ý nghĩa thống kê.<br>5. Liều iod 250 mcg mỗi ngày và ngưỡng tránh trên 500 mcg mỗi ngày là <span style=\"color:#ffd43b\">số chưa kiểm chứng</span> — không dạy như khuyến cáo.<br><br>💡 <b>Vì sao</b><br>Kết luận của Cochrane là dữ liệu chưa đủ — vì vậy bài không khuyến cáo bổ sung iod thường quy mà dạy đúng giới hạn bằng chứng.<br><br>📖 Nguồn: §10.1 bài giảng; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-111",
+      "note_id": 1794026504033,
+      "tags": [
+        "tuyen-giap",
+        "iod",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Tổng quan Cochrane 2017: bổ sung iod làm giảm cường giáp sau sinh với RR {{c1::0,32}}.",
+      "back": "📖 Nguồn: §10.1 bài giảng; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-112",
+      "note_id": 1794026504035,
+      "tags": [
+        "tuyen-giap",
+        "iod",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Tổng quan Cochrane 2017: bổ sung iod làm tăng không dung nạp tiêu hoá với RR {{c1::15,33}}.",
+      "back": "📖 Nguồn: §10.1 bài giảng; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-113",
+      "note_id": 1794026504037,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Chẩn đoán và theo dõi <span style=\"color:#ff6b6b\">viêm giáp hậu sản</span> ra sao — đo TSH khi nào, selenium có dùng không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đo TSH <span style=\"color:#ff6b6b\">6–12 tuần sau sinh</span> ở người nguy cơ cao để phát hiện viêm giáp hậu sản.<br>2. Theo dõi TSH <span style=\"color:#ffd43b\">hàng năm</span> sau viêm giáp hậu sản vì nguy cơ suy giáp vĩnh viễn tăng suốt đời.<br>3. Selenium <span style=\"color:#51cf66\">không khuyến cáo thường quy</span> — tổng quan Cochrane 2013 chỉ có 1 thử nghiệm với 169 phụ nữ, tiền sản giật RR 1,44 và đẻ non RR 0,96 đều không có ý nghĩa.<br>4. Không dạy tỉ lệ phần trăm tiến triển thành suy giáp vĩnh viễn vì con số tới 50% <span style=\"color:#74c0fc\">chưa kiểm chứng</span>.<br><br>💡 <b>Vì sao</b><br>Theo dõi sau sinh là phần quan trọng nhất của quản lý viêm giáp hậu sản — bệnh có thể khỏi rồi tái phát thành suy giáp vĩnh viễn nhiều năm sau.<br><br>📖 Nguồn: §10.2 bài giảng; Cochrane 2013."
+    },
+    {
+      "id": "OB23-CARD-114",
+      "note_id": 1794026504039,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "Ở người nguy cơ cao, đo TSH {{c1::6–12 tuần}} sau sinh để phát hiện viêm giáp hậu sản.",
+      "back": "📖 Nguồn: §10.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-115",
+      "note_id": 1794026504041,
+      "tags": [
+        "tuyen-giap",
+        "ung-thu-giap",
+        "ATA"
+      ],
+      "type": "basic",
+      "front": "Khung <span style=\"color:#ff6b6b\">ATA 2025 về ung thư giáp thể biệt hoá</span> dùng phương pháp gì, tìm kiếm đến khi nào, và có chuyên biệt thai kỳ không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Khung ATA 2025 về ung thư giáp thể biệt hoá dùng phương pháp <span style=\"color:#ff6b6b\">GRADE</span>, tìm kiếm tài liệu đến ngày 1 tháng 7 năm 2024.<br>2. Khung này làm cho <span style=\"color:#ffd43b\">người trưởng thành nói chung</span>, không chuyên biệt cho thai kỳ.<br>3. Không có bằng chứng gốc chuyên biệt thai kỳ cho nhân giáp và ung thư giáp — đây là <span style=\"color:#51cf66\">khoảng trống lớn</span> của bài.<br><br>💡 <b>Vì sao</b><br>Không có guideline chuyên biệt thai kỳ cho ung thư giáp nên quản lý trong thai kỳ phải ngoại suy từ guideline người lớn, với hội chẩn đa chuyên khoa.<br><br>📖 Nguồn: §11.1 bài giảng; ATA 2025."
+    },
+    {
+      "id": "OB23-CARD-116",
+      "note_id": 1794026504043,
+      "tags": [
+        "tuyen-giap",
+        "ung-thu-giap",
+        "ATA"
+      ],
+      "type": "basic",
+      "front": "Khung ATA 2025 về ung thư giáp thể biệt hoá tìm kiếm tài liệu đến ngày {{c1::1 tháng 7 năm 2024}}.",
+      "back": "📖 Nguồn: §11.1 bài giảng; ATA 2025."
+    },
+    {
+      "id": "OB23-CARD-117",
+      "note_id": 1794026504045,
+      "tags": [
+        "tuyen-giap",
+        "ung-thu-giap",
+        "thai-ky"
+      ],
+      "type": "basic",
+      "front": "Quản lý <span style=\"color:#ff6b6b\">ung thư giáp trong thai kỳ</span>: điều gì là chống chỉ định tuyệt đối, và thời điểm mổ đã được kiểm chứng chưa?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Không chụp xạ hình iod phóng xạ và không điều trị iod phóng xạ</span> trong thai kỳ và khi cho con bú — chống chỉ định tuyệt đối.<br>2. Thời điểm phẫu thuật ung thư giáp trong thai kỳ <span style=\"color:#ffd43b\">chưa được kiểm chứng</span> — không dạy thời điểm cụ thể.<br>3. Quản lý cần <span style=\"color:#51cf66\">hội chẩn đa chuyên khoa</span>: nội tiết, sản khoa, ngoại khoa và ung bướu.<br><br>💡 <b>Vì sao</b><br>Iod phóng xạ qua nhau thai và sữa mẹ gây hại thai nhi và trẻ bú mẹ — đây là chống chỉ định tuyệt đối, không có ngoại lệ.<br><br>📖 Nguồn: §11.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-118",
+      "note_id": 1794026504047,
+      "tags": [
+        "tuyen-giap",
+        "ung-thu-giap",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy dạy sai</b></span><br>Thời điểm mổ ung thư giáp trong thai kỳ đã có bằng chứng rõ ràng — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Không có bằng chứng gốc chuyên biệt thai kỳ cho nhân giáp và ung thư giáp — thời điểm phẫu thuật trong thai kỳ <span style=\"color:#ff6b6b\">chưa được kiểm chứng</span>, nên không dạy thời điểm cụ thể nào.<br><br>💡 <b>Vì sao</b><br>Dạy thời điểm mổ cụ thể khi chưa có bằng chứng là bịa khuyến cáo — bài ghi rõ đây là khoảng trống lớn.<br><br>📖 Nguồn: §11.2, §18.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-119",
+      "note_id": 1794026504049,
+      "tags": [
+        "prolactin",
+        "chan-doan",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Chẩn đoán tăng prolactin — 5 bước loại trừ</b></span><br>Thứ tự các bước là gì, và vì sao MRI là bước sau cùng?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Bước 1</span>: hỏi thuốc gây tăng prolactin — chống loạn thần, chống nôn, một số chống trầm cảm.<br>2. <span style=\"color:#ffd43b\">Bước 2</span>: đo TSH — suy giáp rõ gây tăng prolactin nặng, chữa bằng levothyroxine đơn độc.<br>3. <span style=\"color:#51cf66\">Bước 3</span>: đo phân đoạn macroprolactin bằng PEG khi không triệu chứng hoặc không tương xứng.<br>4. <span style=\"color:#74c0fc\">Bước 4</span>: chụp MRI tuyến yên sau khi đã loại trừ thuốc, suy giáp rõ và macroprolactin.<br>5. <span style=\"color:#ff6b6b\">Bước 5</span>: phân loại kích thước u — vi thể dưới 10 mm, đại thể từ 10 mm, đại thể lớn từ 20 mm.<br><br>💡 <b>Vì sao</b><br>Thứ tự này tiết kiệm chi phí và tránh chẩn đoán sai: 3 bước đầu đều là nguyên nhân chữa được mà không cần MRI hay thuốc ức chế prolactin.<br><br>📖 Nguồn: §12.1, §14 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-120",
+      "note_id": 1794026504051,
+      "tags": [
+        "prolactin",
+        "MRI",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <span style=\"color:#ff6b6b\"><b>Bẫy lâm sàng</b></span><br>Prolactin cao thì chụp MRI tuyến yên ngay, không cần loại trừ nguyên nhân khác — đúng hay sai?",
+      "back": "🎯 <b>Cốt lõi</b><br>Chụp MRI ngay khi prolactin cao mà chưa loại trừ thuốc, suy giáp rõ và macroprolactin sẽ dẫn đến <span style=\"color:#ff6b6b\">MRI không cần thiết</span> và có thể chẩn đoán sai — thuốc, suy giáp rõ và macroprolactin đều chữa được mà không cần MRI.<br><br>💡 <b>Vì sao</b><br>Đây là bẫy tổng hợp của bài — thứ tự loại trừ quan trọng như chính chẩn đoán.<br><br>📖 Nguồn: §12.1, §6.5 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-121",
+      "note_id": 1794026504053,
+      "tags": [
+        "prolactin",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "Chẩn đoán tăng prolactin gồm {{c1::5}} bước loại trừ theo thứ tự.",
+      "back": "📖 Nguồn: §12.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-122",
+      "note_id": 1794026504055,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm <span style=\"color:#ff6b6b\">NEJM 1994</span> so sánh cabergoline với bromocriptine: hiệu quả và dung nạp của mỗi thuốc ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Thử nghiệm NEJM 1994 với 459 phụ nữ vô kinh do tăng prolactin: cabergoline 0,5–1,0 mg 2 lần mỗi tuần so với bromocriptine 2,5–5,0 mg 2 lần mỗi ngày — đây là <span style=\"color:#ff6b6b\">liều trong trial</span>.<br>2. Bình thường hoá prolactin: <span style=\"color:#ffd43b\">83% so với 59%</span> (p < 0,001).<br>3. Phục hồi rụng trứng và có thai: <span style=\"color:#51cf66\">72% so với 52%</span> (p < 0,001).<br>4. Vô kinh dai dẳng: 7% so với 16%.<br>5. Tác dụng phụ: 68% so với 78% (p = 0,03); ngừng thuốc vì tác dụng phụ: <span style=\"color:#74c0fc\">3% so với 12%</span> (p < 0,001).<br><br>💡 <b>Vì sao</b><br>Cabergoline hơn bromocriptine cả về hiệu quả và dung nạp — đây là lý do cabergoline là thuốc ức chế prolactin được chọn đầu tiên.<br><br>📖 Nguồn: §12.2 bài giảng; NEJM 1994."
+    },
+    {
+      "id": "OB23-CARD-123",
+      "note_id": 1794026504057,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm NEJM 1994: bình thường hoá prolactin là {{c1::83%}} ở nhóm cabergoline, so với 59% ở nhóm bromocriptine.",
+      "back": "📖 Nguồn: §12.2 bài giảng; NEJM 1994."
+    },
+    {
+      "id": "OB23-CARD-124",
+      "note_id": 1794026504059,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Phục hồi rụng trứng và có thai trong thử nghiệm NEJM 1994 ở nhóm cabergoline là {{c1::72%}}.",
+      "back": "📖 Nguồn: §12.2 bài giảng; NEJM 1994."
+    },
+    {
+      "id": "OB23-CARD-125",
+      "note_id": 1794026504061,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Thử nghiệm NEJM 1994 so sánh cabergoline và bromocriptine ở {{c1::459}} phụ nữ vô kinh do tăng prolactin.",
+      "back": "📖 Nguồn: §12.2 bài giảng; NEJM 1994."
+    },
+    {
+      "id": "OB23-CARD-126",
+      "note_id": 1794026504063,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Phác đồ mẫu 2</b></span><br>Cabergoline cho prolactinoma vi thể ở phụ nữ muốn có thai: liều khởi đầu, liều cá thể hoá, và khi nào ngừng thuốc?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Bắt đầu cabergoline <span style=\"color:#ff6b6b\">0,5 mg 2 lần mỗi tuần</span>, tăng dần đến 1,0 mg 2 lần mỗi tuần theo đáp ứng prolactin.<br>2. Liều cá thể hoá <span style=\"color:#ffd43b\">0,25–9,0 mg mỗi tuần</span> theo nadir prolactin trong nghiên cứu JCEM 2026.<br>3. <span style=\"color:#51cf66\">Ngừng thuốc ngay khi thụ thai</span> — chiến lược thường quy.<br>4. Trước thai, cắt giảm u để khoảng cách thị–yên lớn hơn <span style=\"color:#74c0fc\">5,0 mm</span> nếu u gần giao thoa thị giác.<br>5. Uống thuốc buổi tối để giảm tác dụng phụ; báo ngay nếu đau đầu nặng hay nhìn mờ.<br><br>💡 <b>Vì sao</b><br>Phác đồ này bám sát thử nghiệm NEJM 1994 về liều và nghiên cứu JCEM 2026 về cá thể hoá liều và ngừng thuốc khi thụ thai.<br><br>📖 Nguồn: §12.3 bài giảng; Phác đồ mẫu 2; NEJM 1994; JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-127",
+      "note_id": 1794026504065,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Trước thai, cắt giảm u để khoảng cách thị–yên lớn hơn {{c1::5,0 mm}}.",
+      "back": "📖 Nguồn: §12.3 bài giảng; JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-128",
+      "note_id": 1794026504067,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Liều cabergoline cá thể hoá theo nadir prolactin là {{c1::0,25–9,0 mg mỗi tuần}}.",
+      "back": "📖 Nguồn: §12.3 bài giảng; JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-129",
+      "note_id": 1794026504069,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "thai-ky"
+      ],
+      "type": "basic",
+      "front": "Prolactinoma trong thai kỳ: <span style=\"color:#ff6b6b\">ngừng hay tiếp tục cabergoline</span> khi biết có thai — bằng chứng phân tích gộp 2025 nói gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Chiến lược thường quy là <span style=\"color:#ff6b6b\">ngừng cabergoline khi biết có thai</span>, theo dõi triệu chứng, dùng lại khi u tăng trưởng có ý nghĩa lâm sàng.<br>2. Vi thể và đại thể trong hố yên có nguy cơ tăng trưởng có triệu chứng trong thai kỳ <span style=\"color:#ffd43b\">rất thấp</span>.<br>3. Phân tích gộp 2025 với 12 nghiên cứu và 1.387 thai kỳ: tiếp tục cabergoline liên quan sinh sống thấp hơn với RR 0,81 (p = 0,03); dị tật RR 0,99, đẻ non RR 1,00, nhẹ cân RR 1,02 — đều không tăng.<br>4. Sẩy thai 16,1% và dị tật bẩm sinh 4,7% trong phân tích gộp.<br>5. U tăng trưởng có ý nghĩa lâm sàng, đau đầu nặng hay nhìn mờ là chỉ định <span style=\"color:#51cf66\">dùng lại thuốc</span>, quyết định chuyên gia.<br><br>💡 <b>Vì sao</b><br>Ngừng thuốc là thường quy vì nguy cơ tăng trưởng thấp và tiếp tục thuốc liên quan sinh sống thấp hơn — nhưng dùng lại là quyết định chuyên gia khi u tăng trưởng.<br><br>📖 Nguồn: §12.4 bài giảng; phân tích gộp Clin Endocrinol 2025."
+    },
+    {
+      "id": "OB23-CARD-130",
+      "note_id": 1794026504071,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp 2025: tiếp tục cabergoline khi biết có thai liên quan sinh sống thấp hơn với RR {{c1::0,81}}.",
+      "back": "📖 Nguồn: §12.4 bài giảng; phân tích gộp Clin Endocrinol 2025."
+    },
+    {
+      "id": "OB23-CARD-131",
+      "note_id": 1794026504073,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Phân tích gộp 2025 với 1.387 thai kỳ: tỉ lệ sẩy thai là {{c1::16,1%}}.",
+      "back": "📖 Nguồn: §12.4 bài giảng; phân tích gộp Clin Endocrinol 2025."
+    },
+    {
+      "id": "OB23-CARD-132",
+      "note_id": 1794026504075,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "sau-sinh"
+      ],
+      "type": "basic",
+      "front": "Sau sinh, prolactinoma <span style=\"color:#ff6b6b\">thuyên giảm</span> với tỉ lệ bao nhiêu, cho con bú được không, và trục sinh dục phục hồi trong bao lâu?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Sau sinh, tỉ lệ thuyên giảm prolactinoma là <span style=\"color:#ff6b6b\">72%</span> — 82% ở nhóm chưa điều trị, 70% ở nhóm kháng bromocriptine, 61% ở nhóm không dung nạp; vi thể 73%, đại thể 72%.<br>2. Cho con bú <span style=\"color:#ffd43b\">thường được phép</span>; ngừng thuốc ức chế prolactin trong thời gian cho bú trừ khi cần thiết.<br>3. Trục dưới đồi–tuyến yên–buồng trứng phục hồi trong <span style=\"color:#51cf66\">6–12 tháng</span> sau sinh.<br>4. Nếu trục không phục hồi, cân nhắc clomiphene và hỗ trợ sinh sản; phẫu thuật là lựa chọn đầu tiên ở một số vi thể và đại thể không xâm lấn chọn lọc.<br><br>💡 <b>Vì sao</b><br>Thuyên giảm sau sinh cao là lý do đánh giá lại sau sinh trước khi quyết định điều trị dài hạn — nhiều bệnh nhân không cần thuốc nữa.<br><br>📖 Nguồn: §12.5 bài giảng; JCEM 2026; Best Pract Res Clin Endocrinol Metab 2026."
+    },
+    {
+      "id": "OB23-CARD-133",
+      "note_id": 1794026504077,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "tien-tri"
+      ],
+      "type": "basic",
+      "front": "Sau sinh, tỉ lệ thuyên giảm prolactinoma là {{c1::72%}}.",
+      "back": "📖 Nguồn: §12.5 bài giảng; JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-134",
+      "note_id": 1794026504079,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu JCEM 2026, {{c1::365}} thai kỳ ở 294 bệnh nhân có 95% không biến cố.",
+      "back": "📖 Nguồn: §12.3, §12.5 bài giảng; JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-135",
+      "note_id": 1794026504081,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "khung"
+      ],
+      "type": "basic",
+      "front": "Khung quản lý prolactinoma theo <span style=\"color:#ff6b6b\">ý định sinh sản</span> gồm 3 trạng thái động nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Chưa muốn có thai</span>: kiểm soát prolactin bằng cabergoline, tránh thai hiệu quả.<br>2. <span style=\"color:#ffd43b\">Đang muốn có thai</span>: cabergoline để phục hồi rụng trứng, ngừng thuốc ngay khi thụ thai.<br>3. <span style=\"color:#51cf66\">Đang mang thai</span>: theo dõi triệu chứng, dùng lại thuốc khi u tăng trưởng có ý nghĩa lâm sàng.<br>4. Khung này theo ý định sinh sản, <span style=\"color:#74c0fc\">thay đổi theo thời gian</span> — cùng một bệnh nhân đi qua cả 3 trạng thái.<br><br>💡 <b>Vì sao</b><br>Khung 3 trạng thái giúp quyết định điều trị theo mục tiêu sinh sản của bệnh nhân, không phải theo kích thước u đơn thuần.<br><br>📖 Nguồn: §12.6 bài giảng; Frontiers Endocrinol 2026."
+    },
+    {
+      "id": "OB23-CARD-136",
+      "note_id": 1794026504083,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Định nghĩa <span style=\"color:#ff6b6b\">thuyên giảm</span> prolactinoma hỗn loạn đến mức nào — tổng quan JCEM 2026 tìm thấy bao nhiêu định nghĩa khác nhau?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tổng quan JCEM 2026 với 137 bài báo: có <span style=\"color:#ff6b6b\">23 thông số prolactin</span>, 73 thông số hình ảnh, 27 định nghĩa thuyên giảm, 3 định nghĩa kiểm soát và 20 định nghĩa tái phát khác nhau.<br>2. Chỉ 70 bài báo có kết cục lâm sàng, và <span style=\"color:#ffd43b\">không bài nào</span> có kết cục do bệnh nhân báo cáo.<br>3. Định nghĩa thuyên giảm hỗn loạn làm <span style=\"color:#51cf66\">không so sánh được</span> các nghiên cứu với nhau — tỉ lệ thuyên giảm 72% phải đọc kèm định nghĩa dùng trong từng nghiên cứu.<br><br>💡 <b>Vì sao</b><br>Hỗn loạn định nghĩa là lý do phải đọc kỹ phương pháp trước khi trích tỉ lệ thuyên giảm — cùng một từ thuyên giảm có thể nghĩa khác nhau ở các nghiên cứu.<br><br>📖 Nguồn: §12.6 bài giảng; tổng quan JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-137",
+      "note_id": 1794026504085,
+      "tags": [
+        "prolactin",
+        "prolactinoma",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Tổng quan JCEM 2026 tìm thấy {{c1::27}} định nghĩa thuyên giảm khác nhau cho prolactinoma.",
+      "back": "📖 Nguồn: §12.6 bài giảng; tổng quan JCEM 2026."
+    },
+    {
+      "id": "OB23-CARD-138",
+      "note_id": 1794026504087,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.1: Levothyroxine cho <span style=\"color:#ff6b6b\">TPOAb dương tính bình giáp</span> — có hay không? Dạy cả hai phía với số liệu.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Phe ủng hộ</span>: Negro 2006 — sẩy thai 3,5% so với 13,8%, đẻ non 7% so với 22,4%; Cochrane 2013 — đẻ non RR 0,28; phân tích gộp AITD 2025 — levothyroxine giảm sẩy thai OR 0,52 và đẻ non OR 0,37.<br>2. <span style=\"color:#ffd43b\">Phe phản đối</span>: TABLET 2019 — thử nghiệm ngẫu nhiên lớn nhất với 952 phụ nữ, sinh sống 37,4% so với 37,9% (RR 0,97, p = 0,74), không tăng sinh sống.<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: không cho levothyroxine thường quy theo TABLET; theo dõi TSH mỗi 3–6 tháng; ngoại lệ cân nhắc là hỗ trợ sinh sản và sẩy thai liên tiếp với TSH 2,5–4,0.<br><br>💡 <b>Vì sao</b><br>Thử nghiệm ngẫu nhiên lớn nhất có trọng số cao nhất — nghiên cứu nhỏ và quan sát không lấn át được nó.<br><br>📖 Nguồn: §13.1, §8.1–8.3 bài giảng; TABLET 2019; Negro 2006; Cochrane 2013."
+    },
+    {
+      "id": "OB23-CARD-139",
+      "note_id": 1794026504089,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.2: <span style=\"color:#ff6b6b\">Suy giáp cận lâm sàng</span> liên quan kết cục xấu nhưng điều trị không cải thiện IQ của trẻ — dạy cả hai phía.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Phe liên quan kết cục xấu</span>: phân tích gộp Maraka 2016 — sẩy thai RR 2,01, bong nhau RR 2,14, vỡ ối sớm RR 1,43, tử vong sơ sinh RR 2,58.<br>2. <span style=\"color:#ffd43b\">Phe điều trị không cải thiện IQ</span>: Casey 2017 — IQ 97 so với 94 (p = 0,71); CATS 2012 — IQ 99,2 so với 100,0 (p = 0,40).<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: liên quan trong nghiên cứu quan sát không đồng nghĩa điều trị có lợi — điều trị suy giáp cận lâm sàng trong thai kỳ cân nhắc theo từng trường hợp, không phải chỉ định thường quy.<br><br>💡 <b>Vì sao</b><br>Mâu thuẫn này dạy bài học cốt lõi về thứ bậc bằng chứng: thử nghiệm ngẫu nhiên trả lời câu hỏi điều trị, nghiên cứu quan sát chỉ trả lời câu hỏi liên quan.<br><br>📖 Nguồn: §13.2, §7.1, §7.3 bài giảng; Maraka 2016; Casey 2017; CATS 2012."
+    },
+    {
+      "id": "OB23-CARD-140",
+      "note_id": 1794026504091,
+      "tags": [
+        "tuyen-giap",
+        "thuoc-khang-giap",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.3: Thuốc kháng giáp và dị tật — <span style=\"color:#ff6b6b\">Thuỵ Điển so với Đan Mạch</span> — dạy cả hai phía.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Thuỵ Điển 2017</span> (684.340 trẻ): dị tật MMI 6,8%, PTU 6,4%, so với 8,0% ở nhóm không phơi nhiễm — không tăng chung, nhưng tăng theo phân nhóm riêng.<br>2. <span style=\"color:#ffd43b\">Đan Mạch 2019</span> (1.243.353 trẻ): dị tật MMI/CMZ 9,6%, PTU 8,3%, so với 6,7% ở nhóm không phơi nhiễm — cả hai thuốc đều tăng.<br>3. <span style=\"color:#51cf66\">Phân tích gộp PLoS 2015</span>: RR PTU 1,20, MMI/CMZ 1,64, cả hai thuốc 1,83.<br>4. <span style=\"color:#74c0fc\">Cách dạy</span>: cả hai thuốc đều có nguy cơ dị tật theo phân nhóm riêng, không có lựa chọn an toàn tuyệt đối; quyết định cá thể hoá với chuyên gia nội tiết.<br><br>💡 <b>Vì sao</b><br>Hai nghiên cứu lớn cho kết quả khác nhau vì quần thể và phương pháp khác nhau — dạy một phía là dạy sai.<br><br>📖 Nguồn: §13.3, §9.1 bài giảng; Swedish 2017; Danish 2019; PLoS 2015."
+    },
+    {
+      "id": "OB23-CARD-141",
+      "note_id": 1794026504093,
+      "tags": [
+        "tuyen-giap",
+        "sang-loc",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.4: <span style=\"color:#ff6b6b\">Sàng lọc đại trà hay sàng lọc đích</span> TSH trong thai kỳ — dạy cả hai phía.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Phe sàng lọc đại trà</span>: sàng lọc đích bỏ sót nhiều người — nghiên cứu Đan Mạch cho thấy cứ 1 trong 5 phụ nữ có chỉ định lại không được đo TSH.<br>2. <span style=\"color:#ffd43b\">Phe sàng lọc đích</span>: cả 5 guideline đều chống sàng lọc đại trà và ủng hộ sàng lọc đích — vì điều trị suy giáp cận lâm sàng chưa chứng minh lợi ích và sàng lọc đại trà gây chẩn đoán thừa.<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: ủng hộ sàng lọc đích theo guideline, nhưng thực hiện nghiêm túc — hỏi đủ yếu tố nguy cơ để không bỏ sót người có chỉ định.<br><br>💡 <b>Vì sao</b><br>Mâu thuẫn nằm ở thực hành, không ở khuyến cáo: sàng lọc đích đúng về nguyên tắc nhưng thất bại khi thực hiện lỏng lẻo.<br><br>📖 Nguồn: §13.4, §3.4 bài giảng; tổng quan 2022; nghiên cứu Đan Mạch 2023."
+    },
+    {
+      "id": "OB23-CARD-142",
+      "note_id": 1794026504095,
+      "tags": [
+        "prolactin",
+        "cabergoline",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.5: Cabergoline trong thai kỳ — <span style=\"color:#ff6b6b\">tiếp tục hay ngừng</span> khi biết có thai? Dạy cả hai phía.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Phe tiếp tục</span>: ngừng thuốc làm u tăng trưởng, gây đau đầu và nhìn mờ; dùng lại thuốc khi u tăng trưởng có ý nghĩa lâm sàng là cần thiết.<br>2. <span style=\"color:#ffd43b\">Phe ngừng</span>: phân tích gộp 2025 với 1.387 thai kỳ — tiếp tục cabergoline liên quan sinh sống thấp hơn với RR 0,81 (p = 0,03); dị tật RR 0,99, đẻ non RR 1,00, nhẹ cân RR 1,02 đều không tăng.<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: chiến lược thường quy là ngừng thuốc khi biết có thai; dùng lại là quyết định chuyên gia khi u tăng trưởng có ý nghĩa lâm sàng.<br><br>💡 <b>Vì sao</b><br>Ngừng thuốc là thường quy vì nguy cơ tăng trưởng có triệu chứng thấp ở vi thể và đại thể trong hố yên — nhưng không phải là lệnh cấm tuyệt đối.<br><br>📖 Nguồn: §13.5, §12.4 bài giảng; phân tích gộp Clin Endocrinol 2025."
+    },
+    {
+      "id": "OB23-CARD-143",
+      "note_id": 1794026504097,
+      "tags": [
+        "prolactin",
+        "suy-giap",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.6: <span style=\"color:#ff6b6b\">Suy giáp có gây tăng prolactin hay không</span> — câu trả lời phụ thuộc vào rõ hay cận lâm sàng.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp RÕ gây tăng prolactin</span>: ca prolactin 339 ng/mL với MRI bình thường, TSH rất cao, FT4 rất thấp — chữa bằng levothyroxine đơn độc.<br>2. <span style=\"color:#ffd43b\">Suy giáp CẬN lâm sàng hiếm khi gây tăng prolactin</span>: nghiên cứu Padova 2026 với 229 bệnh nhân — hệ số tương quan TSH–prolactin là 0,053, p = 0,428, tức không tương quan.<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: đo TSH luôn trước MRI hay thuốc ức chế prolactin, nhưng đừng dừng lại ở TSH tăng nhẹ — tiếp tục chẩn đoán tăng prolactin.<br><br>💡 <b>Vì sao</b><br>Đây là bẫy trung tâm của cả bài: phân biệt rõ với cận lâm sàng trước khi kết luận nguyên nhân tăng prolactin.<br><br>📖 Nguồn: §13.6, §5.4, §6.2 bài giảng; nghiên cứu Padova 2026; Case 3 §16."
+    },
+    {
+      "id": "OB23-CARD-144",
+      "note_id": 1794026504099,
+      "tags": [
+        "tuyen-giap",
+        "iod",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.7: <span style=\"color:#ff6b6b\">Iod</span> — bổ sung thường quy hay không? Dạy cả hai phía.",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Phe bổ sung thường quy</span>: iod cần cho tổng hợp hormon giáp; thai kỳ tăng nhu cầu iod; tổng quan Cochrane 2017 cho thấy cường giáp sau sinh giảm 68% với RR 0,32.<br>2. <span style=\"color:#ffd43b\">Phe chưa đủ dữ liệu</span>: Cochrane 2017 với 11 thử nghiệm và hơn 2.700 phụ nữ kết luận dữ liệu chưa đủ; không dung nạp tiêu hoá tăng với RR 15,33; tử vong chu sinh và đẻ non không khác biệt.<br>3. <span style=\"color:#51cf66\">Cách dạy</span>: không khuyến cáo bổ sung iod thường quy; liều iod 250 mcg mỗi ngày và ngưỡng tránh trên 500 mcg mỗi ngày là số chưa kiểm chứng.<br><br>💡 <b>Vì sao</b><br>Kết luận dữ liệu chưa đủ không có nghĩa là iod không cần — mà là chưa có đủ bằng chứng để khuyến cáo liều cụ thể cho mọi thai phụ.<br><br>📖 Nguồn: §13.7, §10.1 bài giảng; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-145",
+      "note_id": 1794026504101,
+      "tags": [
+        "tuyen-giap",
+        "viengiap-hau-san",
+        "mau-thuan"
+      ],
+      "type": "basic",
+      "front": "Mâu thuẫn 13.8: Viêm giáp hậu sản tiến triển thành suy giáp vĩnh viễn — <span style=\"color:#ff6b6b\">tỉ lệ bao nhiêu</span>? Vì sao không dạy con số tới 50%?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Con số <span style=\"color:#ff6b6b\">tới 50%</span> viêm giáp hậu sản tiến triển thành suy giáp vĩnh viễn lan truyền trong bản tóm tắt thứ cấp, <span style=\"color:#ffd43b\">không có trong bất kỳ abstract nào đã đọc</span> — chưa kiểm chứng.<br>2. <span style=\"color:#51cf66\">Cách dạy đúng</span>: nói nguy cơ suốt đời tăng lên và cần theo dõi hàng năm, không dạy tỉ lệ phần trăm cụ thể.<br>3. Tránh số chưa kiểm chứng là nguyên tắc của cả bài — khi thấy số liệu trong bản tóm tắt thứ cấp, <span style=\"color:#74c0fc\">hỏi lại nguồn gốc</span>.<br><br>💡 <b>Vì sao</b><br>Đây là ví dụ điển hình của số lan truyền không nguồn gốc — dạy số này là dạy sai, dù nó xuất hiện trong nhiều tài liệu thứ cấp.<br><br>📖 Nguồn: §13.8, §10.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-146",
+      "note_id": 1794026504103,
+      "tags": [
+        "tuyen-giap",
+        "sang-loc",
+        "bang-chung"
+      ],
+      "type": "basic",
+      "front": "Tổng quan 2022: cả {{c1::5}} guideline đều chống sàng lọc đại trà và ủng hộ sàng lọc đích.",
+      "back": "📖 Nguồn: §13.4 bài giảng; tổng quan 2022."
+    },
+    {
+      "id": "OB23-CARD-147",
+      "note_id": 1794026504105,
+      "tags": [
+        "prolactin",
+        "macroprolactin",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu 98 phụ nữ dùng thuốc chống loạn thần, tỉ lệ thu hồi PEG trung vị là {{c1::95%}}.",
+      "back": "📖 Nguồn: §5.4 bài giảng; nghiên cứu thuốc chống loạn thần."
+    },
+    {
+      "id": "OB23-CARD-148",
+      "note_id": 1794026504107,
+      "tags": [
+        "prolactin",
+        "macroprolactin",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Trong nghiên cứu Nhật Bản, {{c1::33,5%}} số người có tỉ lệ macroprolactin đủ để ảnh hưởng tiết sữa.",
+      "back": "📖 Nguồn: §5.4 bài giảng; nghiên cứu Nhật Bản."
+    },
+    {
+      "id": "OB23-CARD-149",
+      "note_id": 1794026504109,
+      "tags": [
+        "tuyen-giap",
+        "prolactin",
+        "thuat-toan",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Lưu đồ — Bước 0</b></span><br>Hai dấu hiệu cấp cứu nào phải loại trừ trước mọi quyết định khác, và xử trí mỗi cấp cứu ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Bão giáp</span>: sốt cao, tim rất nhanh, lú lẫn, nôn nhiều — chuyển ngay đơn vị hồi sức, xử trí đa chuyên khoa, không chờ xét nghiệm giáp.<br>2. <span style=\"color:#ffd43b\">U tuyến yên to nghi ngờ</span>: đau đầu nặng, nhìn mờ, hẹp thị trường — chụp MRI tuyến yên sớm, hội chẩn thần kinh, không chỉ cho thuốc ức chế prolactin rồi hẹn tái khám xa.<br>3. Không có dấu hiệu cấp cứu thì xuống <span style=\"color:#51cf66\">nhánh thường quy</span>: đo TSH, FT4 và prolactin.<br><br>💡 <b>Vì sao</b><br>Bước 0 của lưu đồ là bước cứu mạng — bão giáp và u tuyến yên chèn ép thị giác là 2 cấp cứu của bài này.<br><br>📖 Nguồn: §14 bài giảng; Lưu đồ quyết định lâm sàng."
+    },
+    {
+      "id": "OB23-CARD-150",
+      "note_id": 1794026504111,
+      "tags": [
+        "tuyen-giap",
+        "thuat-toan",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Lưu đồ — Bước 1</b></span><br>Đo TSH, FT4 và prolactin: 4 cặp kết quả TSH/FT4 dẫn đến 4 quyết định nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">TSH cao + FT4 thấp</span>: suy giáp rõ — đang mang thai thì tăng levothyroxine 30% ngay, chưa mang thai thì bắt đầu levothyroxine.<br>2. <span style=\"color:#ffd43b\">TSH cao + FT4 bình thường</span>: suy giáp cận lâm sàng — đang mang thai thì hội chẩn nội tiết, cân nhắc theo từng trường hợp; TPOAb dương tính và hỗ trợ sinh sản thì cân nhắc levothyroxine.<br>3. <span style=\"color:#51cf66\">TSH thấp + FT4 cao</span>: cường giáp rõ — TRAb dương tính, bướu giáp hay lồi mắt thì Graves, dùng thuốc kháng giáp; nôn nghén nặng, tuần thai sớm, TRAb âm tính thì cường giáp thai thoáng qua, không cho thuốc kháng giáp.<br>4. <span style=\"color:#74c0fc\">TSH thấp + FT4 bình thường</span>: cường giáp cận lâm sàng — không điều trị, theo dõi.<br><br>💡 <b>Vì sao</b><br>Ba xét nghiệm TSH, FT4 và prolactin là nền tảng của mọi quyết định sau đó — đọc theo khoảng tham chiếu của quần thể và phòng xét nghiệm, không dùng ngưỡng cố định.<br><br>📖 Nguồn: §14 bài giảng; Lưu đồ quyết định lâm sàng."
+    },
+    {
+      "id": "OB23-CARD-151",
+      "note_id": 1794026504113,
+      "tags": [
+        "prolactin",
+        "thuat-toan",
+        "chan-doan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Lưu đồ — Bước 2</b></span><br>Nếu prolactin cao, thứ tự loại trừ nguyên nhân là gì, và MRI tuyến yên chỉ định khi nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Hỏi <span style=\"color:#ff6b6b\">thuốc</span> gây tăng prolactin — có thì hội chẩn đổi thuốc.<br>2. TSH cao rõ + FT4 thấp — suy giáp rõ gây tăng prolactin, dùng <span style=\"color:#ffd43b\">levothyroxine đơn độc</span>, đo lại prolactin sau điều trị.<br>3. Không triệu chứng + kinh đều — nghĩ <span style=\"color:#51cf66\">macroprolactin</span>, đo phân đoạn PEG trước khi chụp MRI.<br>4. Đã loại trừ thuốc, suy giáp rõ, macroprolactin — chụp <span style=\"color:#74c0fc\">MRI tuyến yên</span>: vi thể dưới 10 mm thì cabergoline, ngừng khi biết có thai; đại thể từ 10 mm trong hố yên thì cabergoline, ngừng khi biết có thai; đại thể gần giao thoa thị giác thì hội chẩn đa chuyên khoa, cân nhắc cắt giảm u trước thai để khoảng cách thị–yên trên 5,0 mm.<br><br>💡 <b>Vì sao</b><br>Thứ tự loại trừ tiết kiệm chi phí và tránh chẩn đoán sai — MRI là bước sau cùng, không phải bước đầu tiên.<br><br>📖 Nguồn: §14 bài giảng; Lưu đồ quyết định lâm sàng."
+    },
+    {
+      "id": "OB23-CARD-152",
+      "note_id": 1794026504115,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <span style=\"color:#ff6b6b\"><b>Lưu đồ — Bước 3 và Plan A / Plan B</b></span><br>TPOAb dương tính bình giáp xử trí ra sao, và Plan A với Plan B khác nhau thế nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">TPOAb dương tính + bình giáp</span>: không cho levothyroxine thường quy theo TABLET; theo dõi TSH mỗi 3–6 tháng khi đang cố gắng có thai; đo lại TSH ngay khi biết có thai; ngoại lệ cân nhắc là hỗ trợ sinh sản và sẩy thai liên tiếp với TSH 2,5–4,0.<br>2. <span style=\"color:#ffd43b\">Plan A</span> (đủ nguồn lực): TSH, FT4, TPOAb, TRAb, prolactin, PEG, MRI tuyến yên, siêu âm thai khi TRAb cao.<br>3. <span style=\"color:#51cf66\">Plan B</span> (thiếu xét nghiệm chuyên sâu): TSH, FT4 và prolactin là tối thiểu bắt buộc; TRAb và PEG không có thì chuyển tuyến trên; không suy diễn chẩn đoán từ xét nghiệm không đầy đủ.<br>4. Ngưỡng chuyển tuyến: bão giáp, u tuyến yên có triệu chứng chèn ép, cường giáp thai nhi nghi ngờ, ung thư giáp trong thai kỳ.<br><br>💡 <b>Vì sao</b><br>Plan B không phải là làm ít đi cho xong — mà là làm tối thiểu bắt buộc rồi chuyển tuyến, không dùng xét nghiệm thay thế kém phù hợp để tạo cảm giác yên tâm.<br><br>📖 Nguồn: §14, §15.3 bài giảng; Lưu đồ quyết định lâm sàng."
+    },
+    {
+      "id": "OB23-CARD-153",
+      "note_id": 1794026504117,
+      "tags": [
+        "prolactin",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "Vi thể dưới {{c1::10 mm}} thì dùng cabergoline rồi ngừng khi biết có thai.",
+      "back": "📖 Nguồn: §14 bài giảng; Lưu đồ quyết định lâm sàng."
+    },
+    {
+      "id": "OB23-CARD-154",
+      "note_id": 1794026504119,
+      "tags": [
+        "tuyen-giap",
+        "viet-nam",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Tình hình dịch tễ <span style=\"color:#ff6b6b\">tại Việt Nam</span> về rối loạn tuyến giáp trong thai kỳ và tăng prolactin: có số liệu nào đã kiểm chứng không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Bài này <span style=\"color:#ff6b6b\">không có số liệu Việt Nam nào đã kiểm chứng</span> về rối loạn tuyến giáp trong thai kỳ hay tăng prolactin.<br>2. Tìm kiếm theo tiêu đề kết hợp với Việt Nam chỉ ra nhiễu và báo cáo lẻ, không có nghiên cứu Việt Nam nào đã kiểm chứng về chủ đề này.<br>3. Bài <span style=\"color:#ffd43b\">không dạy bất kỳ tỉ lệ hiện mắc, tỉ lệ mới mắc hay số liệu dịch tễ Việt Nam nào</span> — người học cần biết khoảng trống này để không trích dẫn số liệu Việt Nam không có nguồn.<br><br>💡 <b>Vì sao</b><br>Thừa nhận khoảng trống là trung thực khoa học — bịa số liệu Việt Nam để lấp chỗ trống sẽ làm sai lệch thực hành.<br><br>📖 Nguồn: §15.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-155",
+      "note_id": 1794026504121,
+      "tags": [
+        "tuyen-giap",
+        "viet-nam",
+        "dich-te"
+      ],
+      "type": "basic",
+      "front": "Bài này {{c1::không có}} số liệu Việt Nam nào đã kiểm chứng về rối loạn tuyến giáp trong thai kỳ hay tăng prolactin.",
+      "back": "📖 Nguồn: §15.1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-156",
+      "note_id": 1794026504123,
+      "tags": [
+        "tuyen-giap",
+        "viet-nam",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "Xét nghiệm và thuốc nào <span style=\"color:#ff6b6b\">sẵn có tại Việt Nam</span>, và khoảng trống thực hành lớn nhất là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">TSH, FT4 và prolactin</span> là xét nghiệm thường quy, có ở hầu hết bệnh viện tuyến tỉnh trở lên.<br>2. <span style=\"color:#ffd43b\">TPOAb và TRAb</span> là xét nghiệm chuyên sâu, thường chỉ có ở bệnh viện tuyến trung ương và một số bệnh viện tuyến tỉnh lớn.<br>3. Đo phân đoạn <span style=\"color:#51cf66\">macroprolactin bằng PEG</span> chưa phổ biến rộng rãi — khi không có thì chuyển tuyến trên hoặc gửi mẫu.<br>4. <span style=\"color:#74c0fc\">MRI tuyến yên</span> có ở các bệnh viện lớn, chi phí cao, cần chỉ định đúng.<br>5. Levothyroxine, thuốc kháng giáp, cabergoline và bromocriptine đều có trong <span style=\"color:#ff6b6b\">danh mục thuốc thiết yếu</span> và dùng rộng rãi.<br>6. Vấn đề thực hành tại Việt Nam không phải thiếu thuốc, mà là <span style=\"color:#ffd43b\">thiếu khoảng tham chiếu TSH và FT4 riêng cho phụ nữ mang thai Việt Nam</span> — hầu hết phòng xét nghiệm dùng khoảng tham chiếu của nhà sản xuất hoặc quần thể khác.<br><br>💡 <b>Vì sao</b><br>Thiếu khoảng tham chiếu riêng là lý do bác sĩ Việt Nam cần thận trọng gấp đôi khi diễn giải TSH trong thai kỳ.<br><br>📖 Nguồn: §15.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-157",
+      "note_id": 1794026504125,
+      "tags": [
+        "tuyen-giap",
+        "viet-nam",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Plan A và Plan B tại Việt Nam</span> khác nhau thế nào, và có guideline riêng của Bộ Y tế không?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Plan A</span> (đủ nguồn lực): TSH, FT4, TPOAb, TRAb, prolactin, PEG, MRI tuyến yên, siêu âm thai khi TRAb cao, hội chẩn nội tiết, sản khoa và thần kinh.<br>2. <span style=\"color:#ffd43b\">Plan B</span> (thiếu nguồn lực): TSH, FT4 và prolactin là tối thiểu bắt buộc; không đo được TPOAb hay TRAb thì chuyển tuyến trên; không chụp được MRI thì hội chẩn và chuyển tuyến, không kê thuốc ức chế prolactin kéo dài mà không có chẩn đoán hình ảnh khi nghi ngờ u lớn.<br>3. <span style=\"color:#51cf66\">Không có guideline riêng của Bộ Y tế Việt Nam</span> về rối loạn tuyến giáp trong thai kỳ hay tăng prolactin — thực hành hiện nay áp dụng guideline quốc tế với điều chỉnh theo nguồn lực địa phương.<br><br>💡 <b>Vì sao</b><br>Plan B không phải là làm ít đi cho xong — mà là làm tối thiểu bắt buộc rồi chuyển tuyến, không suy diễn chẩn đoán từ xét nghiệm không đầy đủ.<br><br>📖 Nguồn: §15.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-158",
+      "note_id": 1794026504127,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 1</b></span><br>Phụ nữ 30 tuổi, mang thai lần đầu tuần 7, suy giáp do Hashimoto, đang dùng levothyroxine 100 μg mỗi ngày. TSH 6,8 mU/L, FT4 0,95 ng/dL. Chẩn đoán là gì và hành động đầu tiên là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Chẩn đoán</span>: suy giáp rõ trong thai kỳ — TSH 6,8 mU/L cao kèm FT4 0,95 ng/dL ở giới hạn dưới của khoảng tham chiếu, trên nền bệnh nhân đã biết suy giáp trước thai.<br>2. <span style=\"color:#ffd43b\">Dữ kiện quyết định</span>: thai tuần 7, đang trong cửa sổ nhu cầu levothyroxine tăng nhanh nhất — nghiên cứu Alexander cho thấy nhu cầu tăng trung bình 47%, khởi phát sớm nhất từ tuần 5, đạt đỉnh ở tuần 16.<br>3. <span style=\"color:#51cf66\">Hành động đầu tiên</span>: tăng liều levothyroxine thêm khoảng 30% ngay, từ 100 μg lên khoảng 130 μg mỗi ngày, uống buổi sáng lúc đói, tách khỏi canxi và sắt; hẹn đo lại TSH sau 2 tuần.<br><br>💡 <b>Vì sao</b><br>Đừng chờ TSH tăng cao hơn mới tăng liều, vì nhu cầu tăng sớm từ tuần 5 — giữ nguyên liều 100 μg và hẹn tái khám sau 1 tháng là lựa chọn sai.<br><br>📖 Nguồn: §16 Case 1 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-159",
+      "note_id": 1794026504129,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 1 — tiếp</b></span><br>Sau khi tăng levothyroxine lên 130 μg mỗi ngày, theo dõi và tư vấn tiếp theo cho bệnh nhân suy giáp rõ trong thai kỳ ra sao?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Tiếp tục theo dõi TSH <span style=\"color:#ff6b6b\">2 tuần một lần</span> trong tam cá nguyệt đầu và hàng tháng sau đó, chỉnh liều để giữ TSH trong khoảng tham chiếu thai kỳ của phòng xét nghiệm.<br>2. Sau sinh, đo lại TSH và <span style=\"color:#ffd43b\">giảm liều về gần liều trước thai</span>, vì nhu cầu levothyroxine giảm sau sinh.<br>3. Tư vấn lần mang thai sau: <span style=\"color:#51cf66\">tăng liều ngay khi biết có thai</span>, không chờ đến lần khám thai đầu tiên.<br>4. Lựa chọn sai khác là tăng liều quá mức mà không theo dõi TSH, gây cường giáp do thuốc.<br><br>💡 <b>Vì sao</b><br>Bài học của case là tăng liều sớm và theo dõi sát — cả giữ nguyên liều và tăng liều không theo dõi đều sai.<br><br>📖 Nguồn: §16 Case 1 bài giảng; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-160",
+      "note_id": 1794026504131,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 2</b></span><br>Phụ nữ 29 tuổi, tiền sử sẩy thai 2 lần, TPOAb dương tính, TSH 2,1 mU/L, FT4 1,20 ng/dL, đang chuẩn bị mang thai. Có nên cho levothyroxine thường quy không, và trả lời bệnh nhân thế nào?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Chẩn đoán</span>: bình giáp, TPOAb dương tính, tiền sử sẩy thai 2 lần — TSH 2,1 mU/L và FT4 1,20 ng/dL đều bình thường.<br>2. <span style=\"color:#ffd43b\">Hành động</span>: không cho levothyroxine thường quy — thử nghiệm TABLET với 952 phụ nữ cho thấy levothyroxine 50 μg mỗi ngày không làm tăng sinh sống, 37,4% so với 37,9%.<br>3. Giải thích cho bệnh nhân: thử nghiệm lớn nhất cho thấy uống thuốc <span style=\"color:#51cf66\">không giúp tăng khả năng giữ thai</span> ở người có chức năng giáp bình thường.<br>4. Hẹn theo dõi TSH mỗi 3–6 tháng trong khi đang cố gắng có thai, và đo lại TSH ngay khi biết có thai.<br><br>💡 <b>Vì sao</b><br>Đừng để nghiên cứu nhỏ và nghiên cứu quan sát lấn át thử nghiệm ngẫu nhiên lớn — cho levothyroxine cho mọi phụ nữ TPOAb dương tính sẽ làm phần lớn uống thuốc không có lợi ích.<br><br>📖 Nguồn: §16 Case 2 bài giảng; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-161",
+      "note_id": 1794026504133,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 2 — tiếp</b></span><br>Không cho levothyroxine thường quy thì theo dõi ra sao, và ngoại lệ nào cần nhắc đến cho bệnh nhân TPOAb dương tính bình giáp?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Theo dõi chức năng giáp sát trong thai kỳ vì TPOAb dương tính làm tăng nguy cơ suy giáp lộ ra khi nhu cầu hormon giáp tăng; nếu TSH tăng thành suy giáp cận lâm sàng hay suy giáp rõ thì mới cân nhắc điều trị theo từng trường hợp.<br>2. Nếu làm hỗ trợ sinh sản, <span style=\"color:#ff6b6b\">cân nhắc cá thể hoá</span> theo bằng chứng hỗ trợ sinh sản, với mức bằng chứng thấp hơn.<br>3. Nếu TSH tiền thai trong khoảng 2,5–4,0 và sẩy thai liên tiếp, cân nhắc cá thể hoá theo nghiên cứu đoàn hệ hồi cứu, và <span style=\"color:#ffd43b\">nói rõ với bệnh nhân rằng bằng chứng này là hồi cứu</span>, không phải thử nghiệm ngẫu nhiên.<br>4. Lựa chọn sai khác là không theo dõi gì cả — bệnh nhân có nguy cơ tiến triển thành suy giáp trong thai kỳ và cần được phát hiện sớm.<br><br>💡 <b>Vì sao</b><br>Ngoại lệ không phủ định quy tắc chung — chúng là những nhóm hẹp mà quyết định phải cá thể hoá và minh bạch về mức bằng chứng.<br><br>📖 Nguồn: §16 Case 2 bài giảng; §8.3."
+    },
+    {
+      "id": "OB23-CARD-162",
+      "note_id": 1794026504135,
+      "tags": [
+        "prolactin",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 3</b></span><br>Phụ nữ 36 tuổi, chóng mặt, mệt mỏi, rối loạn kinh nguyệt 8 tháng. Prolactin 339 ng/mL, TSH rất cao, FT4 rất thấp, MRI tuyến yên bình thường. Chẩn đoán là gì và vì sao không nên vội dùng thuốc ức chế prolactin?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Chẩn đoán</span>: suy giáp rõ gây tăng prolactin nặng — prolactin 339 ng/mL, TSH rất cao, FT4 rất thấp, MRI tuyến yên bình thường.<br>2. <span style=\"color:#ffd43b\">Dữ kiện quyết định</span>: sự kết hợp của 3 yếu tố — prolactin rất cao, TSH rất cao kèm FT4 rất thấp, MRI bình thường — chỉ về suy giáp rõ qua chuỗi TRH–prolactin, không phải prolactinoma.<br>3. <span style=\"color:#51cf66\">Hành động</span>: không cho thuốc ức chế prolactin; bắt đầu levothyroxine để điều trị suy giáp rõ; hỏi kỹ về thuốc đang dùng để loại trừ nguyên nhân thuốc.<br><br>💡 <b>Vì sao</b><br>Nếu đây là prolactinoma gây prolactin 339 ng/mL, MRI thường sẽ thấy u đại thể và TSH sẽ bình thường — ngược lại hoàn toàn với ca này.<br><br>📖 Nguồn: §16 Case 3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-163",
+      "note_id": 1794026504137,
+      "tags": [
+        "prolactin",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Case 3 — tiếp</b></span><br>Sau khi bắt đầu levothyroxine cho bệnh nhân tăng prolactin nặng do suy giáp rõ, theo dõi ra sao và lựa chọn sai nào cần tránh?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đo lại prolactin và TSH sau khi điều trị levothyroxine một thời gian, để xác nhận prolactin giảm theo khi chức năng giáp phục hồi.<br>2. Nếu prolactin không giảm dù TSH đã về bình thường, lúc đó mới nghĩ đến nguyên nhân khác và <span style=\"color:#ff6b6b\">chụp lại MRI tuyến yên</span>.<br>3. Tư vấn bệnh nhân rằng kinh nguyệt và khả năng sinh sản sẽ phục hồi khi suy giáp được điều trị, vì GnRH bị ức chế bởi prolactin sẽ hoạt động trở lại.<br>4. Lựa chọn sai là cho thuốc ức chế prolactin dài hạn mà không điều trị suy giáp — bệnh nhân vừa uống thuốc không cần thiết, vừa tiếp tục bị suy giáp gây hại.<br>5. Lựa chọn sai khác là kết luận TSH tăng nhẹ cũng giải thích được tăng prolactin — trong ca này TSH tăng <span style=\"color:#ffd43b\">rất cao</span>, không phải tăng nhẹ.<br><br>💡 <b>Vì sao</b><br>Bài học: đo TSH là bước bắt buộc trong mọi trường hợp tăng prolactin, và suy giáp rõ có thể gây prolactin tới hàng trăm ng/mL với MRI bình thường.<br><br>📖 Nguồn: §16 Case 3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-164",
+      "note_id": 1794026504139,
+      "tags": [
+        "tuyen-giap",
+        "suy-giap",
+        "case"
+      ],
+      "type": "basic",
+      "front": "Case 1: thai phụ tuần 7 có TSH {{c1::6,8 mU/L}} trong khi FT4 ở giới hạn dưới.",
+      "back": "📖 Nguồn: §16 Case 1 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-165",
+      "note_id": 1794026504141,
+      "tags": [
+        "tuyen-giap",
+        "TPOAb",
+        "case"
+      ],
+      "type": "basic",
+      "front": "Case 2: TPOAb dương tính với TSH {{c1::2,1 mU/L}} và FT4 bình thường.",
+      "back": "📖 Nguồn: §16 Case 2 bài giảng; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-166",
+      "note_id": 1794026504143,
+      "tags": [
+        "tuyen-giap",
+        "tips",
+        "xet-nghiem"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tips thực hành 1–6</b></span><br>Sáu tip đầu về đọc xét nghiệm giáp và prolactin là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Đọc TSH và FT4 cùng nhau</span>, không bao giờ đọc TSH đơn độc.<br>2. <span style=\"color:#ffd43b\">Hỏi khoảng tham chiếu</span> trước khi kết luận — quần thể nào, tam cá nguyệt nào, phương pháp nào.<br>3. Đừng dạy <span style=\"color:#51cf66\">ngưỡng TSH 2,5</span> như chuẩn hiện hành — đó là ngưỡng thời ATA 2017.<br>4. <span style=\"color:#74c0fc\">Đo TSH trong mọi trường hợp tăng prolactin</span>, không có ngoại lệ.<br>5. Phân biệt <span style=\"color:#ff6b6b\">suy giáp rõ với cận lâm sàng</span> trước khi kết luận nguyên nhân tăng prolactin.<br>6. <span style=\"color:#ffd43b\">Đo lại prolactin trong điều kiện chuẩn</span> trước khi kết luận — một kết quả cao đơn lẻ chưa đủ để chẩn đoán.<br><br>💡 <b>Vì sao</b><br>Sáu tip đầu đều xoay quanh một nguyên tắc: xét nghiệm chỉ có ý nghĩa khi đọc đúng ngữ cảnh — cùng nhau, theo khoảng tham chiếu đúng, và trong điều kiện chuẩn.<br><br>📖 Nguồn: §17.1 Tips 1–6 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-167",
+      "note_id": 1794026504145,
+      "tags": [
+        "tuyen-giap",
+        "tips",
+        "xu-tri"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tips thực hành 7–12</b></span><br>Sáu tip giữa về macroprolactin, thuốc, levothyroxine và viêm giáp hậu sản là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đo phân đoạn <span style=\"color:#ff6b6b\">macroprolactin bằng PEG</span> khi prolactin cao nhưng không có triệu chứng.<br>2. <span style=\"color:#ffd43b\">Hỏi thuốc</span> trong mọi trường hợp tăng prolactin — thuốc chống loạn thần, chống nôn và một số chống trầm cảm đều làm tăng prolactin.<br>3. <span style=\"color:#51cf66\">Không cho levothyroxine thường quy</span> cho phụ nữ bình giáp TPOAb dương tính — thử nghiệm TABLET là bằng chứng chất lượng cao nhất và cho kết quả âm tính.<br>4. <span style=\"color:#74c0fc\">Tăng liều levothyroxine 30% ngay khi biết có thai</span>, đừng chờ lần khám thai sau — nhu cầu tăng sớm nhất từ tuần 5.<br>5. <span style=\"color:#ff6b6b\">Uống levothyroxine đúng cách</span> quan trọng như uống đúng liều — lúc đói buổi sáng, tách khỏi canxi, sắt và thuốc kháng acid.<br>6. <span style=\"color:#ffd43b\">Viêm giáp hậu sản pha cường giáp không dùng thuốc kháng giáp</span> — pha này do hormon rò rỉ, không phải sản xuất thừa.<br><br>💡 <b>Vì sao</b><br>Sáu tip giữa đều là quyết định điều trị hay không điều trị — và trong cả 6 trường hợp, quyết định đúng đều cần hiểu cơ chế đằng sau xét nghiệm và triệu chứng.<br><br>📖 Nguồn: §17.1 Tips 7–12 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-168",
+      "note_id": 1794026504147,
+      "tags": [
+        "tuyen-giap",
+        "tips",
+        "cap-cuu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tips thực hành 13–18</b></span><br>Sáu tip cuối về cường giáp thai thoáng qua, bão giáp, cabergoline, thuốc kháng giáp và nguồn số liệu là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Cường giáp thai thoáng qua không dùng thuốc kháng giáp</span> — do hCG, tự khỏi, thuốc qua nhau thai gây hại thai nhi mà không có lợi ích cho mẹ.<br>2. <span style=\"color:#ffd43b\">Bão giáp chẩn đoán lâm sàng, không chờ xét nghiệm</span> — sốt cao, tim rất nhanh, lú lẫn ở bệnh nhân cường giáp là bão giáp cho đến khi chứng minh ngược lại; chuyển ngay đến đơn vị hồi sức.<br>3. <span style=\"color:#51cf66\">Ngừng cabergoline ngay khi biết có thai</span>, trừ khi u có nguy cơ cao.<br>4. <span style=\"color:#74c0fc\">Không có thuốc kháng giáp an toàn tuyệt đối</span> trong thai kỳ — cả PTU và MMI đều có nguy cơ dị tật theo phân nhóm riêng.<br>5. <span style=\"color:#ff6b6b\">Theo dõi TSH hàng năm sau viêm giáp hậu sản</span> — nguy cơ suốt đời bị suy giáp vĩnh viễn tăng lên.<br>6. <span style=\"color:#ffd43b\">Khi thấy số liệu trong bản tóm tắt thứ cấp về ATA 2026, hỏi lại nguồn gốc</span> — nhiều con số lan truyền chưa kiểm chứng được từ nguồn gốc.<br><br>💡 <b>Vì sao</b><br>Sáu tip cuối đều là những quyết định có thể gây hại nếu sai — và tip cuối cùng là nguyên tắc bảo vệ cả bài: hỏi lại nguồn gốc của mọi con số.<br><br>📖 Nguồn: §17.1 Tips 13–18 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-169",
+      "note_id": 1794026504149,
+      "tags": [
+        "tuyen-giap",
+        "checkpoint",
+        "suy-giap"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 1</b></span><br>Một phụ nữ suy giáp đang dùng levothyroxine vừa thử thai dương tính. Hành động đầu tiên là gì, và vì sao không chờ đến lần khám thai định kỳ sau?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Hành động đầu tiên là <span style=\"color:#ff6b6b\">tăng liều levothyroxine khoảng 30% ngay</span> khi biết có thai.<br>2. Không chờ đến lần khám thai định kỳ sau vì nhu cầu levothyroxine tăng sớm nhất từ <span style=\"color:#ffd43b\">tuần 5</span> và đạt đỉnh ở tuần 16 — chờ đợi làm thai nhi thiếu hormon giáp trong nhiều tuần.<br>3. Hẹn đo lại TSH sau 2 tuần, theo dõi TSH 2 tuần một lần trong tam cá nguyệt đầu.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra bài học quan trọng nhất của phác đồ mẫu 1: tăng liều ngay, không chờ.<br><br>📖 Nguồn: §17.2 Checkpoint 1 bài giảng; §7.2; Alexander 2004."
+    },
+    {
+      "id": "OB23-CARD-170",
+      "note_id": 1794026504151,
+      "tags": [
+        "tuyen-giap",
+        "checkpoint",
+        "TPOAb"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 2</b></span><br>Một phụ nữ bình giáp, TPOAb dương tính, tiền sử sẩy thai 2 lần, hỏi có nên uống levothyroxine để giữ thai không. Trả lời thế nào dựa trên TABLET, và ngoại lệ nào cần nhắc đến?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Trả lời dựa trên <span style=\"color:#ff6b6b\">TABLET</span>: không cho levothyroxine thường quy — thử nghiệm ngẫu nhiên lớn nhất với 952 phụ nữ cho thấy sinh sống 37,4% so với 37,9%, không tăng sinh sống.<br>2. Theo dõi TSH mỗi 3–6 tháng khi đang cố gắng có thai, đo lại TSH ngay khi biết có thai.<br>3. Ngoại lệ cần nhắc: <span style=\"color:#ffd43b\">hỗ trợ sinh sản</span> và <span style=\"color:#51cf66\">sẩy thai liên tiếp với TSH 2,5–4,0</span> — cân nhắc cá thể hoá với mức bằng chứng thấp hơn, và nói rõ với bệnh nhân.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra khả năng tư vấn bệnh nhân bằng bằng chứng — trả lời không phải bằng ý kiến mà bằng thử nghiệm ngẫu nhiên lớn nhất.<br><br>📖 Nguồn: §17.2 Checkpoint 2 bài giảng; §8.1–8.3; TABLET 2019."
+    },
+    {
+      "id": "OB23-CARD-171",
+      "note_id": 1794026504153,
+      "tags": [
+        "tuyen-giap",
+        "checkpoint",
+        "bao-giap"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 3</b></span><br>Một phụ nữ mang thai tuần 28, bị Graves, sốt cao, tim 150 lần mỗi phút, lú lẫn, nôn nhiều. Chẩn đoán nghĩ đến là gì, và hành động đầu tiên là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Chẩn đoán nghĩ đến là <span style=\"color:#ff6b6b\">bão giáp</span> — sốt cao, tim 150 lần mỗi phút, lú lẫn, nôn nhiều ở bệnh nhân Graves mang thai tuần 28.<br>2. Hành động đầu tiên là <span style=\"color:#ffd43b\">chuyển ngay đến đơn vị hồi sức</span> và xử trí đa chuyên khoa — không chờ kết quả xét nghiệm giáp mới điều trị.<br>3. Bão giáp có tỉ lệ tử vong 5–25% nếu không can thiệp nhanh.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra nhận diện cấp cứu — bão giáp chẩn đoán lâm sàng, trì hoãn điều trị làm tăng tử vong.<br><br>📖 Nguồn: §17.2 Checkpoint 3 bài giảng; §4.5, §9.4."
+    },
+    {
+      "id": "OB23-CARD-172",
+      "note_id": 1794026504155,
+      "tags": [
+        "tuyen-giap",
+        "checkpoint",
+        "viengiap-hau-san"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 4</b></span><br>Một phụ nữ 3 tháng sau sinh, hồi hộp, mất ngủ, TSH thấp, FT4 cao, TRAb âm tính. Chẩn đoán nào cần nghĩ đến đầu tiên, và vì sao không cho thuốc kháng giáp?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Chẩn đoán cần nghĩ đến đầu tiên là <span style=\"color:#ff6b6b\">viêm giáp hậu sản pha cường giáp</span> — 3 tháng sau sinh, TRAb âm tính.<br>2. Không cho thuốc kháng giáp vì pha này do <span style=\"color:#ffd43b\">hormon rò rỉ</span> từ nang bị phá huỷ, không phải tuyến giáp sản xuất thừa — thuốc kháng giáp không có tác dụng.<br>3. Pha cường giáp kéo dài 2–3 tháng rồi tự khỏi; theo dõi TSH để phát hiện pha suy giáp theo sau.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra phân biệt viêm giáp hậu sản với Graves — TRAb âm tính và thời điểm sau sinh là 2 dữ kiện quyết định.<br><br>📖 Nguồn: §17.2 Checkpoint 4 bài giảng; §4.4, §6.1."
+    },
+    {
+      "id": "OB23-CARD-173",
+      "note_id": 1794026504157,
+      "tags": [
+        "prolactin",
+        "checkpoint",
+        "cabergoline"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 5</b></span><br>Một phụ nữ bị prolactinoma vi thể, đang dùng cabergoline, vừa thử thai dương tính. Cần làm gì ngay, và trong trường hợp nào phải dùng lại thuốc khi đang mang thai?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Cần làm ngay là <span style=\"color:#ff6b6b\">ngừng cabergoline khi biết có thai</span> — chiến lược thường quy.<br>2. Dùng lại thuốc khi u tăng trưởng có ý nghĩa lâm sàng — đau đầu nặng, nhìn mờ, hẹp thị trường — quyết định chuyên gia.<br>3. Vi thể và đại thể trong hố yên có nguy cơ tăng trưởng có triệu chứng trong thai kỳ <span style=\"color:#ffd43b\">rất thấp</span>.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra chiến lược ngừng thuốc khi có thai — thường quy ngừng, dùng lại khi có chỉ định lâm sàng.<br><br>📖 Nguồn: §17.2 Checkpoint 5 bài giảng; §12.4."
+    },
+    {
+      "id": "OB23-CARD-174",
+      "note_id": 1794026504159,
+      "tags": [
+        "prolactin",
+        "checkpoint",
+        "TSH"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checkpoint 6</b></span><br>Một phụ nữ vô kinh, prolactin 95 ng/mL, TSH 6,5 mU/L, FT4 bình thường. TSH tăng nhẹ này có giải thích được prolactin 95 ng/mL không, và bước tiếp theo là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. TSH tăng nhẹ <span style=\"color:#ff6b6b\">không giải thích được</span> prolactin 95 ng/mL — suy giáp cận lâm sàng hiếm khi là nguyên nhân tăng prolactin, và TSH với prolactin không tương quan với nhau trong nghiên cứu 229 bệnh nhân.<br>2. Bước tiếp theo là tiếp tục chẩn đoán tăng prolactin: <span style=\"color:#ffd43b\">hỏi thuốc</span>, đo phân đoạn <span style=\"color:#51cf66\">macroprolactin</span>, chụp <span style=\"color:#74c0fc\">MRI tuyến yên</span>.<br>3. Đừng dừng lại ở TSH tăng nhẹ — dừng lại sẽ bỏ sót prolactinoma.<br><br>💡 <b>Vì sao</b><br>Checkpoint này kiểm tra bẫy trung tâm của bài — phân biệt suy giáp rõ với cận lâm sàng trước khi kết luận nguyên nhân tăng prolactin.<br><br>📖 Nguồn: §17.2 Checkpoint 6 bài giảng; nghiên cứu Padova 2026."
+    },
+    {
+      "id": "OB23-CARD-175",
+      "note_id": 1794026504161,
+      "tags": [
+        "tuyen-giap",
+        "checklist",
+        "levothyroxine"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checklist an toàn — trước khi kê levothyroxine</b></span><br>5 điều cần xác nhận là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đã có <span style=\"color:#ff6b6b\">TSH và FT4</span>, đọc theo khoảng tham chiếu thai kỳ của phòng xét nghiệm.<br>2. Đã phân biệt <span style=\"color:#ffd43b\">suy giáp rõ với suy giáp cận lâm sàng</span> và isolated hypothyroxinemia.<br>3. Bệnh nhân có thai hay đang cố gắng có thai, và <span style=\"color:#51cf66\">liều đã được điều chỉnh</span> theo thai kỳ.<br>4. Đã dặn uống lúc đói, tách khỏi canxi, sắt và thuốc kháng acid.<br>5. Đã hẹn <span style=\"color:#74c0fc\">đo lại TSH sau 2 tuần</span> trong tam cá nguyệt đầu.<br><br>💡 <b>Vì sao</b><br>Checklist này ngăn 5 sai lầm thường gặp nhất khi kê levothyroxine: đọc sai xét nghiệm, nhầm thể bệnh, quên điều chỉnh liều theo thai kỳ, uống sai cách và không theo dõi.<br><br>📖 Nguồn: §17.3 bài giảng; Checklist an toàn trước khi kê levothyroxine."
+    },
+    {
+      "id": "OB23-CARD-176",
+      "note_id": 1794026504163,
+      "tags": [
+        "prolactin",
+        "checklist",
+        "cabergoline"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checklist an toàn — trước khi kê cabergoline</b></span><br>5 điều cần xác nhận là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đã loại trừ <span style=\"color:#ff6b6b\">thuốc gây tăng prolactin và suy giáp rõ</span>.<br>2. Đã đo phân đoạn <span style=\"color:#ffd43b\">macroprolactin</span> khi prolactin cao nhưng không có triệu chứng.<br>3. Đã có <span style=\"color:#51cf66\">MRI tuyến yên</span> để phân loại kích thước u.<br>4. Bệnh nhân có muốn có thai không, và đã tư vấn <span style=\"color:#74c0fc\">ngừng thuốc khi biết có thai</span>.<br>5. Đã dặn uống buổi tối và báo ngay nếu đau đầu nặng hay nhìn mờ.<br><br>💡 <b>Vì sao</b><br>Checklist này ngăn 5 sai lầm thường gặp nhất khi kê cabergoline: kê thuốc khi chưa loại trừ nguyên nhân khác, kê khi chưa có MRI, quên tư vấn ngừng thuốc khi có thai và quên dặn dấu hiệu cảnh báo.<br><br>📖 Nguồn: §17.3 bài giảng; Checklist an toàn trước khi kê cabergoline."
+    },
+    {
+      "id": "OB23-CARD-177",
+      "note_id": 1794026504165,
+      "tags": [
+        "tuyen-giap",
+        "checklist",
+        "thuoc-khang-giap"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Checklist an toàn — trước khi kê thuốc kháng giáp trong thai kỳ</b></span><br>5 điều cần xác nhận là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Đã phân biệt <span style=\"color:#ff6b6b\">Graves với cường giáp thai thoáng qua và viêm giáp hậu sản</span>.<br>2. Đã đo <span style=\"color:#ffd43b\">TRAb</span> và đánh giá nguy cơ cường giáp thai nhi.<br>3. Bệnh nhân đã được tư vấn rằng cả PTU và MMI đều có <span style=\"color:#51cf66\">nguy cơ dị tật theo phân nhóm</span>.<br>4. Đã hội chẩn chuyên gia nội tiết để quyết định thuốc và liều.<br>5. Đã có kế hoạch <span style=\"color:#74c0fc\">theo dõi thai nhi khi TRAb cao</span>.<br><br>💡 <b>Vì sao</b><br>Checklist này ngăn 5 sai lầm thường gặp nhất khi kê thuốc kháng giáp trong thai kỳ: nhầm chẩn đoán, quên đánh giá nguy cơ thai nhi, quên tư vấn nguy cơ dị tật, tự quyết định liều và quên theo dõi thai nhi.<br><br>📖 Nguồn: §17.3 bài giảng; Checklist an toàn trước khi kê thuốc kháng giáp trong thai kỳ."
+    },
+    {
+      "id": "OB23-CARD-178",
+      "note_id": 1794026504167,
+      "tags": [
+        "tuyen-giap",
+        "tom-tat"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tóm tắt — 5 điểm cần nhớ đầu tiên</b></span><br>Năm điểm đầu trong mười điểm cần nhớ của bài là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Suy giáp rõ trong thai kỳ điều trị ngay bằng levothyroxine, tăng liều <span style=\"color:#ff6b6b\">khoảng 30%</span> khi biết có thai, vì nhu cầu tăng trung bình 47% và khởi phát sớm nhất từ tuần 5.<br>2. Suy giáp cận lâm sàng liên quan kết cục xấu trong nghiên cứu quan sát, nhưng điều trị bằng levothyroxine chưa chứng minh cải thiện trí tuệ của trẻ trong Casey và CATS.<br>3. Phụ nữ bình giáp có TPOAb dương tính không dùng levothyroxine thường quy theo <span style=\"color:#ffd43b\">TABLET</span>; theo dõi TSH định kỳ và điều trị khi suy giáp thật sự xuất hiện.<br>4. Ngưỡng TSH 2,5 là của thời ATA 2017; khoảng tham chiếu thai kỳ phải theo quần thể và phòng xét nghiệm, vì chỉ <span style=\"color:#ff6b6b\">11 trên 102</span> nghiên cứu làm khoảng tham chiếu đúng phương pháp.<br>5. Tăng prolactin phải đo TSH trước khi chụp MRI hay kê thuốc ức chế prolactin, vì suy giáp rõ gây tăng prolactin rất cao và chữa được bằng levothyroxine đơn độc.<br><br>💡 <b>Vì sao</b><br>Năm điểm đầu là khung quyết định của nửa bài về tuyến giáp — nhớ được 5 điểm này là nhớ được logic điều trị suy giáp trong thai kỳ.<br><br>📖 Nguồn: §18.1 Mười điểm cần nhớ (điểm 1–5) bài giảng."
+    },
+    {
+      "id": "OB23-CARD-179",
+      "note_id": 1794026504169,
+      "tags": [
+        "tuyen-giap",
+        "prolactin",
+        "tom-tat"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tóm tắt — 5 điểm cần nhớ cuối cùng</b></span><br>Năm điểm cuối trong mười điểm cần nhớ của bài là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Suy giáp cận lâm sàng hiếm khi giải thích được tăng prolactin: TSH và prolactin không tương quan với nhau, và TSH tăng nhẹ không nên làm chậm chẩn đoán tăng prolactin.<br>2. Cả PTU và MMI đều có nguy cơ dị tật bẩm sinh theo phân nhóm riêng; không có lựa chọn an toàn tuyệt đối, quyết định cá thể hoá với chuyên gia nội tiết.<br>3. Cường giáp cận lâm sàng trong thai kỳ không điều trị; cường giáp thai thoáng qua không dùng thuốc kháng giáp; viêm giáp hậu sản pha cường giáp không dùng thuốc kháng giáp.<br>4. Bão giáp chẩn đoán lâm sàng, tử vong <span style=\"color:#ff6b6b\">5% đến 25%</span> nếu không can thiệp nhanh, chuyển ngay đến đơn vị hồi sức và xử trí đa chuyên khoa.<br>5. Prolactinoma vi thể và đại thể trong hố yên có nguy cơ tăng trưởng có triệu chứng trong thai kỳ rất thấp; chiến lược thường quy là <span style=\"color:#51cf66\">ngừng cabergoline</span> khi biết có thai và dùng lại khi u tăng trưởng có ý nghĩa lâm sàng.<br><br>💡 <b>Vì sao</b><br>Năm điểm sau là khung quyết định của nửa bài về tăng prolactin và cường giáp — nhớ được 5 điểm này là nhớ được logic không điều trị thừa và xử trí cấp cứu.<br><br>📖 Nguồn: §18.1 Mười điểm cần nhớ (điểm 6–10) bài giảng."
+    },
+    {
+      "id": "OB23-CARD-180",
+      "note_id": 1794026504171,
+      "tags": [
+        "tuyen-giap",
+        "bang-chung",
+        "ATA"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Bằng chứng</span> của bài này có cấu trúc ra sao — bao nhiêu nghiên cứu vào bundle, phần còn lại dạy theo dạng nào, và khung ATA 2026 có vai trò gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Bằng chứng về tuyến giáp trong thai kỳ và tăng prolactin nằm chủ yếu ở các thử nghiệm ngẫu nhiên và tổng quan hệ thống trên tạp chí y khoa tổng quát lớn và tạp chí chuyên ngành nội tiết.<br>2. Sau khi áp dụng quy tắc Q1 hẹp, còn đúng <span style=\"color:#ff6b6b\">8 nghiên cứu</span> đủ tiêu chuẩn vào bundle — 6 thử nghiệm trên New England Journal of Medicine và 2 tổng quan Cochrane.<br>3. Mọi bằng chứng còn lại trong bài được dạy theo dạng <span style=\"color:#ffd43b\">prose-only</span>, trích dẫn bằng tên nghiên cứu và tên tạp chí, không bằng số định danh.<br>4. Khung chính là guideline ATA 2026, nhưng <span style=\"color:#51cf66\">toàn văn không lấy được</span> qua bất kỳ kênh nào — vì vậy không có khuyến cáo chi tiết nào trong bài được gán cho ATA 2026.<br><br>💡 <b>Vì sao</b><br>Hiểu cấu trúc bằng chứng giúp người học biết số nào đã kiểm chứng từ nguồn gốc và số nào chỉ là prose-only — không trích sai nguồn.<br><br>📖 Nguồn: §18.2 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-181",
+      "note_id": 1794026504173,
+      "tags": [
+        "tuyen-giap",
+        "bang-chung",
+        "gioi-han"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\">Nguồn và giới hạn</span> của bài: 3 guideline khung đọc được đến đâu, và 3 khoảng trống lớn nhất là gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Ba guideline khung — ATA 2026, ATA 2017 và Endocrine Society 2011 về tăng prolactin — đều chỉ đọc được <span style=\"color:#ff6b6b\">abstract, không lấy được toàn văn</span>.<br>2. Bài chỉ dùng những gì đọc được từ abstract của các guideline này, và <span style=\"color:#ffd43b\">không gán khuyến cáo chi tiết</span> từ nguồn chưa đọc.<br>3. Các khoảng trống lớn nhất: toàn văn ATA 2026 chưa tiếp cận được, <span style=\"color:#51cf66\">không có số liệu Việt Nam nào</span> đã kiểm chứng, và không có bằng chứng gốc chuyên biệt thai kỳ cho nhân giáp và ung thư giáp.<br>4. Mọi số liệu trong thân bài đều đã được kiểm chứng từ abstract hoặc toàn văn đã đọc, và những gì chưa kiểm chứng đều <span style=\"color:#74c0fc\">ghi rõ trong bài</span> với dòng chữ chưa kiểm chứng.<br><br>💡 <b>Vì sao</b><br>Đọc phần giới hạn trước khi trích dẫn là thói quen bảo vệ người học khỏi việc trích số chưa kiểm chứng như đã kiểm chứng.<br><br>📖 Nguồn: §18.3 bài giảng."
+    },
+    {
+      "id": "OB23-CARD-182",
+      "note_id": 1794026504175,
+      "tags": [
+        "tuyen-giap",
+        "bang-chung",
+        "tai-lieu"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Tài liệu tham khảo — 8 nghiên cứu trong bundle</b></span><br>Tám nghiên cứu đủ tiêu chuẩn vào bundle là những nghiên cứu nào, mỗi nghiên cứu trả lời câu hỏi gì?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. <span style=\"color:#ff6b6b\">Suy giáp mẹ và trí tuệ của trẻ</span>: nghiên cứu đoàn hệ tiền cứu Haddow 1999.<br>2. <span style=\"color:#ffd43b\">Nhu cầu levothyroxine trong thai kỳ</span>: nghiên cứu tiền cứu Alexander 2004.<br>3. <span style=\"color:#51cf66\">Sàng lọc và điều trị suy giáp mẹ</span>: thử nghiệm CATS 2012.<br>4. <span style=\"color:#74c0fc\">Điều trị suy giáp cận lâm sàng</span>: thử nghiệm Casey 2017.<br>5. <span style=\"color:#ff6b6b\">Levothyroxine ở phụ nữ TPOAb dương tính</span>: thử nghiệm TABLET 2019.<br>6. <span style=\"color:#ffd43b\">Cabergoline so với bromocriptine</span>: thử nghiệm so sánh mù đôi 1994.<br>7. <span style=\"color:#51cf66\">Tổng quan Cochrane về suy giáp thai kỳ</span>: năm 2013.<br>8. <span style=\"color:#74c0fc\">Tổng quan Cochrane về bổ sung iod</span>: năm 2017.<br><br>💡 <b>Vì sao</b><br>Tám nghiên cứu này là toàn bộ bằng chứng Q1 hẹp của bài — mọi số dạy trong deck đều lấy từ 8 nghiên cứu này hoặc từ nguồn prose-only đã đọc abstract.<br><br>📖 Nguồn: §19.1 bài giảng; Haddow 1999; Alexander 2004; CATS 2012; Casey 2017; TABLET 2019; cabergoline vs bromocriptine 1994; Cochrane 2013; Cochrane 2017."
+    },
+    {
+      "id": "OB23-CARD-183",
+      "note_id": 1794026504177,
+      "tags": [
+        "tuyen-giap",
+        "bang-chung",
+        "gioi-han"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#ff6b6b\"><b>Nguồn prose-only và giới hạn</b></span><br>Phần bằng chứng còn lại của bài được trình bày theo dạng nào, và 3 guideline khung đọc được đến đâu?",
+      "back": "🎯 <b>Cốt lõi</b><br>1. Phần bằng chứng còn lại được trình bày theo dạng <span style=\"color:#ff6b6b\">prose-only</span>, trích dẫn bằng tên nghiên cứu và tên tạp chí trong thân bài, không dùng số định danh.<br>2. Các nguồn prose-only gồm nghiên cứu trên tạp chí chuyên ngành nội tiết và sản phụ khoa, tổng quan hệ thống và phân tích gộp, cùng đồng thuận và khung tổ chức quản lý mới.<br>3. Ba guideline khung — ATA 2026, ATA 2017 và Endocrine Society 2011 — đều chỉ đọc được abstract, <span style=\"color:#ffd43b\">không lấy được toàn văn</span> qua bất kỳ kênh nào.<br>4. Các khoảng trống lớn nhất: toàn văn ATA 2026 chưa tiếp cận được, không có số liệu Việt Nam nào đã kiểm chứng, và không có bằng chứng gốc chuyên biệt thai kỳ cho nhân giáp và ung thư giáp.<br><br>💡 <b>Vì sao</b><br>Prose-only không có nghĩa là bằng chứng yếu — mà là bằng chứng đã đọc abstract nhưng không đủ tiêu chuẩn Q1 hẹp để vào bundle, nên dạy bằng tên nghiên cứu thay vì số định danh.<br><br>📖 Nguồn: §19.2 bài giảng."
+    }
+  ]
+}

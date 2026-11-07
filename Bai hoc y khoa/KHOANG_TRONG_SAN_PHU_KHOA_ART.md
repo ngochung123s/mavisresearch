@@ -53,7 +53,7 @@
 |:---:|:---|:---:|:---|:---|:---:|
 | [ ] | **ENDO-GAP-01** | **P0** | Hội chứng buồng trứng đa nang (PCOS) toàn diện: Đồng thuận Quốc tế 2023 & Điều trị vô sinh | `04_Noi tiet - Hormone/01_PCOS_International_Guideline_2023` | Bài mới mở chuỗi |
 | [x] | **ART-47 (ENDO-GAP-02)** | **P1** | Sảy thai liên tiếp (RPL) & Hội chứng Kháng Phospholipid (APS) trong Sản khoa | `02_Ho tro sinh san ART/47_Recurrent_Pregnancy_Loss_RPL` | ✅ Đã phát hành Master MD (0 block/0 debt) |
-| [ ] | **ENDO-GAP-03** | **P1** | Tăng prolactin máu (Hyperprolactinemia) & U tuyến yên trong vô sinh | `04_Noi tiet - Hormone/02_Hyperprolactinemia_Pituitary_Adenoma` | Bài mới |
+| [x] | **OB-23 (ENDO-GAP-03)** | **P1** | Rối loạn tuyến giáp trong phụ khoa & thai kỳ kèm xử trí tăng prolactin |  | ✅ ĐÃ HOÀN TẤT (MD + APKG) |
 | [ ] | **ENDO-GAP-04** | **P2** | Di truyền học trong vô sinh nam & nữ: Karyotype, Đột biến CFTR, Mất đoạn AZF, Hội chứng Klinefelter & Turner | `02_Ho tro sinh san ART/53_Reproductive_Genetics_Karyotype_AZF_CFTR` | Bài mới |
 
 ### Nhóm E: Khai thông bài bán thành phẩm (Có MD nguồn sâu, cần tạo Cards & APKG)
