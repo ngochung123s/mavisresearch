@@ -330,7 +330,18 @@ def extract_clinical_title(text: str, fallback: str) -> str:
 
 
 def count_clinical_cards(folder: Path) -> int:
-    card_files = [f for f in folder.iterdir() if "card" in f.name.lower() and f.suffix.lower() == ".json"]
+    lesson_json = folder / "lesson.json"
+    if lesson_json.exists():
+        try:
+            lj = json.loads(lesson_json.read_text(encoding="utf-8"))
+            cs = lj.get("deck", {}).get("cards_source")
+            if cs and (folder / cs).exists():
+                d = json.loads((folder / cs).read_text(encoding="utf-8"))
+                cards = d.get("cards", []) if isinstance(d, dict) else d
+                return len(cards)
+        except Exception:
+            pass
+    card_files = sorted([f for f in folder.iterdir() if "card" in f.name.lower() and f.suffix.lower() == ".json"], reverse=True)
     if card_files:
         try:
             d = json.loads(card_files[0].read_text(encoding="utf-8"))
