@@ -1,0 +1,1345 @@
+{
+  "deck_id": 7600000000102,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R2: Sốc Chấn Thương",
+  "card_count": 111,
+  "cards": [
+    {
+      "id": "SURGR2-CARD-001",
+      "note_id": 1794031648032,
+      "tags": [
+        "muc-tieu",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Năm <span style=\"color:#74c0fc\"><b>mục tiêu học tập</b></span> của bài <span style=\"color:#74c0fc\"><b>sốc chấn thương</b></span> là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trình bày được <span style=\"color:#74c0fc\"><b>khái niệm sốc chấn thương</b></span>.<br>2) Giải thích được <span style=\"color:#74c0fc\"><b>cơ chế bệnh sinh của sốc mất máu</b></span>.<br>3) Trình bày được <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng và cận lâm sàng của sốc mất máu</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Chẩn đoán</b></span> được sốc mất máu.<br>5) Phân tích được <span style=\"color:#51cf66\"><b>các bước xử trí và điều trị cụ thể sốc chấn thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Năm mục tiêu này là khung của toàn bài: khái niệm trước, rồi cơ chế sốc mất máu, rồi triệu chứng và chẩn đoán, cuối cùng là xử trí và điều trị cụ thể.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục I. Mục tiêu học tập."
+    },
+    {
+      "id": "SURGR2-CARD-002",
+      "note_id": 1794031648034,
+      "tags": [
+        "muc-tieu",
+        "co-che"
+      ],
+      "type": "basic",
+      "front": "Trong năm mục tiêu học tập, mục tiêu nào yêu cầu giải thích <span style=\"color:#74c0fc\"><b>cơ chế bệnh sinh</b></span>, và cơ chế của loại sốc nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mục tiêu số 2: giải thích được <span style=\"color:#74c0fc\"><b>cơ chế bệnh sinh của sốc mất máu</b></span>.<br>2) Bài tập trung cơ chế vào <span style=\"color:#ff6b6b\"><b>sốc mất máu</b></span> — loại sốc trung tâm của sốc chấn thương, với 3 giai đoạn còn bù, mất bù và không hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Mục tiêu 2 là mục tiêu khó nhất của bài vì đòi hỏi chuỗi cơ chế 3 giai đoạn, không chỉ liệt kê triệu chứng. Nắm được chuỗi này thì các mục tiêu chẩn đoán và xử trí sẽ suy ra được.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục I. Mục tiêu học tập, mục 3. Cơ chế bệnh lý."
+    },
+    {
+      "id": "SURGR2-CARD-003",
+      "note_id": 1794031648036,
+      "tags": [
+        "dinh-nghia",
+        "soc"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Sốc</b></span> được định nghĩa thế nào theo tài liệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốc là một tình trạng <span style=\"color:#ff6b6b\"><b>suy sụp toàn thân nặng nề</b></span> thể hiện rõ trên lâm sàng bằng <span style=\"color:#ff6b6b\"><b>hội chứng suy tuần hoàn</b></span>.<br>2) Hậu quả: <span style=\"color:#ff6b6b\"><b>không đảm bảo đủ cung cấp oxy tổ chức</b></span> và nhu cầu oxy cơ thể.<br><br><b>💡 Giải thích của AI:</b><br>Điểm cốt lõi của định nghĩa sốc là suy tuần hoàn dẫn tới thiếu oxy tổ chức — mọi loại sốc đều gặp nhau ở điểm này, chỉ khác nhau ở nguyên nhân gây suy tuần hoàn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương."
+    },
+    {
+      "id": "SURGR2-CARD-004",
+      "note_id": 1794031648038,
+      "tags": [
+        "dinh-nghia",
+        "soc-chan-thuong",
+        "co-che"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Sốc chấn thương</b></span> được định nghĩa thế nào, và rối loạn nào là quan trọng nhất?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sốc chấn thương là tình trạng <span style=\"color:#74c0fc\"><b>phản ứng bệnh lý phức tạp có tính chất giai đoạn</b></span> của cơ thể, gây ra bởi những <span style=\"color:#ff6b6b\"><b>chấn thương cơ giới mạnh và mất máu</b></span>.<br>2) Biểu hiện rối loạn chức năng các cơ quan: <span style=\"color:#ff6b6b\"><b>tuần hoàn, thần kinh, hô hấp, nội tiết, tiêu hoá, chuyển hoá</b></span>.<br>3) Quan trọng nhất là <span style=\"color:#ff6b6b\"><b>rối loạn vi tuần hoàn và rối loạn chuyển hoá</b></span>, gây ra <span style=\"color:#ff6b6b\"><b>vòng xoắn bệnh lý</b></span> làm tăng tỷ lệ biến chứng và tử vong.<br><br><b>💡 Giải thích của AI:</b><br>Sốc chấn thương không chỉ là mất máu — đó là phản ứng toàn thân nhiều hệ, có tính giai đoạn. Hai rối loạn quan trọng nhất (vi tuần hoàn và chuyển hoá) là trục của vòng xoắn bệnh lý: càng thiếu oxy tổ chức thì vi tuần hoàn và chuyển hoá càng rối loạn, và ngược lại.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương."
+    },
+    {
+      "id": "SURGR2-CARD-005",
+      "note_id": 1794031648040,
+      "tags": [
+        "dinh-nghia",
+        "soc-chan-thuong",
+        "phan-loai"
+      ],
+      "type": "basic",
+      "front": "Ba <span style=\"color:#74c0fc\"><b>bệnh cảnh sốc</b></span> thường gặp trong cấp cứu chấn thương là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốc mất máu</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Sốc do chèn ép tim cấp</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Sốc do nguyên nhân thần kinh hay sốc tuỷ</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba bệnh cảnh này là ba cơ chế sốc khác nhau trong chấn thương: mất thể tích tuần hoàn, chèn ép tim làm tim không bơm được, và mất trương lực giao cảm do tổn thương thần kinh. Bài này tập trung vào sốc mất máu, nhưng chẩn đoán phân biệt phải nghĩ tới cả ba.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương."
+    },
+    {
+      "id": "SURGR2-CARD-006",
+      "note_id": 1794031648042,
+      "tags": [
+        "dinh-nghia",
+        "soc-chan-thuong",
+        "co-che"
+      ],
+      "type": "basic",
+      "front": "Hai rối loạn quan trọng nhất trong sốc chấn thương gây ra {{c1::<span style=\"color:#ff6b6b\"><b>vòng xoắn bệnh lý</b></span>}} làm tăng tỷ lệ biến chứng và tử vong.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương."
+    },
+    {
+      "id": "SURGR2-CARD-007",
+      "note_id": 1794031648044,
+      "tags": [
+        "dinh-nghia",
+        "soc-chan-thuong",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bệnh nhân chấn thương mất máu được bù dịch đủ, huyết áp đã lên — có thể kết luận đã hết <span style=\"color:#74c0fc\"><b>sốc chấn thương</b></span> chưa?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chưa thể kết luận</b></span> — sốc chấn thương là phản ứng bệnh lý phức tạp <span style=\"color:#74c0fc\"><b>có tính chất giai đoạn</b></span>, rối loạn nhiều cơ quan, không chỉ là mất máu.<br>2) Rối loạn <span style=\"color:#ff6b6b\"><b>vi tuần hoàn và chuyển hoá</b></span> có thể vẫn tiếp diễn và tạo vòng xoắn bệnh lý dù huyết áp đã tạm lên.<br>3) Phải đánh giá toàn diện các cơ quan (tuần hoàn, thần kinh, hô hấp, nội tiết, tiêu hoá, chuyển hoá) và theo dõi tiếp.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là chỉ nhìn huyết áp. Huyết áp là một chỉ số vĩ mô; tổn thương vi tuần hoàn và chuyển hoá ở mức tế bào có thể vẫn nặng, và bệnh nhân vẫn có thể tiến triển sang mất bù hoặc không hồi phục.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương, mục 3. Cơ chế bệnh lý."
+    },
+    {
+      "id": "SURGR2-CARD-008",
+      "note_id": 1794031648046,
+      "tags": [
+        "dinh-nghia",
+        "soc-chan-thuong",
+        "co-che"
+      ],
+      "type": "basic",
+      "front": "Vòng xoắn bệnh lý trong sốc chấn thương làm tăng {{c1::<span style=\"color:#ff6b6b\"><b>tỷ lệ biến chứng và tử vong</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương."
+    },
+    {
+      "id": "SURGR2-CARD-009",
+      "note_id": 1794031648048,
+      "tags": [
+        "phan-loai",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Sốc chấn thương được <span style=\"color:#74c0fc\"><b>phân loại</b></span> theo mấy trục, và mỗi trục gồm những loại nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo <span style=\"color:#74c0fc\"><b>nguyên nhân</b></span>: sốc tuỷ, sốc mất máu, sốc do chèn ép tim cấp.<br>2) Theo <span style=\"color:#74c0fc\"><b>thời gian xuất hiện bệnh</b></span>: sốc tiên phát, sốc thứ phát.<br>3) Theo <span style=\"color:#74c0fc\"><b>diễn biến lâm sàng</b></span>: sốc còn bù, sốc mất bù, sốc không hồi phục.<br><br><b>💡 Giải thích của AI:</b><br>Ba trục phân loại trả lời ba câu hỏi khác nhau: nguyên nhân là gì, xuất hiện khi nào, và đang ở giai đoạn nào. Trục diễn biến lâm sàng chính là 3 giai đoạn cơ chế bệnh lý của sốc mất máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 2. Phân loại sốc chấn thương."
+    },
+    {
+      "id": "SURGR2-CARD-010",
+      "note_id": 1794031648050,
+      "tags": [
+        "phan-loai",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Phân loại sốc chấn thương theo nguyên nhân gồm {{c1::<span style=\"color:#74c0fc\"><b>sốc tuỷ, sốc mất máu và sốc do chèn ép tim cấp</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 2. Phân loại sốc chấn thương."
+    },
+    {
+      "id": "SURGR2-CARD-011",
+      "note_id": 1794031648052,
+      "tags": [
+        "phan-loai",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Phân loại sốc chấn thương theo diễn biến lâm sàng gồm {{c1::<span style=\"color:#74c0fc\"><b>sốc còn bù, sốc mất bù và sốc không hồi phục</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 2. Phân loại sốc chấn thương."
+    },
+    {
+      "id": "SURGR2-CARD-012",
+      "note_id": 1794031648054,
+      "tags": [
+        "phan-loai",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Phân loại sốc chấn thương theo <span style=\"color:#74c0fc\"><b>thời gian xuất hiện bệnh</b></span> gồm những loại nào, và vì sao nguyên tắc điều trị nhắc tới <span style=\"color:#51cf66\"><b>sốc thứ phát</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo thời gian: <span style=\"color:#74c0fc\"><b>sốc tiên phát và sốc thứ phát</b></span>.<br>2) Một trong ba nguyên tắc điều trị là <span style=\"color:#51cf66\"><b>đề phòng sốc thứ phát xảy ra sau chấn thương</b></span> — tức sốc xuất hiện muộn sau chấn thương, không phải ngay lúc đầu.<br><br><b>💡 Giải thích của AI:</b><br>Sốc thứ phát có thể xuất hiện sau khi bệnh nhân tưởng đã ổn, nên nguyên tắc điều trị nhấn mạnh đề phòng và theo dõi, không chỉ xử trí sốc đang có.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 2. Phân loại sốc chấn thương, mục 6.1. Nguyên tắc."
+    },
+    {
+      "id": "SURGR2-CARD-013",
+      "note_id": 1794031648056,
+      "tags": [
+        "phan-loai",
+        "soc-chan-thuong",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> <span style=\"color:#74c0fc\"><b>Sốc tuỷ</b></span> và <span style=\"color:#74c0fc\"><b>sốc thần kinh</b></span> là hai bệnh cảnh khác nhau trong phân loại sốc chấn thương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không phải hai bệnh cảnh khác nhau</b></span> — tài liệu viết một bệnh cảnh là <span style=\"color:#74c0fc\"><b>sốc do nguyên nhân thần kinh hay sốc tuỷ</b></span>.<br>2) Trong phân loại theo nguyên nhân, loại này được ghi là <span style=\"color:#74c0fc\"><b>sốc tuỷ</b></span>.<br>3) Cả hai tên gọi chỉ cùng một bệnh cảnh: sốc do tổn thương thần kinh/tuỷ sống làm mất trương lực giao cảm.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là đếm thành 4 bệnh cảnh (mất máu, chèn ép tim, thần kinh, tuỷ). Tài liệu chỉ có 3 bệnh cảnh; thần kinh và tuỷ là hai tên của cùng một bệnh cảnh, và câu hỏi ôn tập số 1 cũng dùng tên sốc thần kinh cho bệnh cảnh này.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 1. Đại cương, mục 2. Phân loại sốc chấn thương."
+    },
+    {
+      "id": "SURGR2-CARD-014",
+      "note_id": 1794031648058,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu"
+      ],
+      "type": "basic",
+      "front": "Chuỗi <span style=\"color:#74c0fc\"><b>cơ chế giai đoạn sốc còn bù</b></span> diễn ra thế nào, từ mất máu tới phản ứng giao cảm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mất máu làm <span style=\"color:#ff6b6b\"><b>giảm thể tích tuần hoàn trở về</b></span>, gây <span style=\"color:#ff6b6b\"><b>giảm cung lượng tim, hạ huyết áp động mạch</b></span>.<br>2) Cơ chế đầu tiên là phản ứng mạnh mẽ của <span style=\"color:#74c0fc\"><b>thần kinh giao cảm</b></span> gây <span style=\"color:#74c0fc\"><b>co động — tĩnh mạch</b></span>, làm <span style=\"color:#ffd43b\"><b>tăng sức cản mạch máu và dồn máu về tim</b></span>.<br>3) Kích thích giao cảm cũng làm <span style=\"color:#ff6b6b\"><b>tăng nhịp tim</b></span> và tăng tiết <span style=\"color:#74c0fc\"><b>catecholamin tại tủy thượng thận và hậu hạch giao cảm</b></span> như adrenalin và noradrenalin.<br><br><b>💡 Giải thích của AI:</b><br>Giai đoạn còn bù là giai đoạn cơ thể tự cứu: giao cảm co mạch để giữ huyết áp và dồn máu về tim, đồng thời tăng nhịp tim và tiết catecholamin. Huyết áp có thể vẫn giữ được trong giai đoạn này nhờ cơ chế bù trừ — đó là lý do huyết áp bình thường không loại trừ sốc mất máu độ I–II.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù."
+    },
+    {
+      "id": "SURGR2-CARD-015",
+      "note_id": 1794031648060,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu"
+      ],
+      "type": "basic",
+      "front": "Ngoài phản ứng giao cảm, những <span style=\"color:#74c0fc\"><b>phản xạ bảo vệ và hormon</b></span> nào tham gia tái tạo huyết tương trong giai đoạn <span style=\"color:#74c0fc\"><b>sốc còn bù</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phản xạ qua <span style=\"color:#74c0fc\"><b>thụ thể áp lực tại quai động mạch chủ (Baroreflexe)</b></span> làm tăng huyết áp và nhịp tim.<br>2) Phản xạ qua <span style=\"color:#74c0fc\"><b>thụ thể ở nhĩ phải</b></span> nhằm giữ nước tại ống thận, tăng khối lượng tuần hoàn.<br>3) Hiện tượng <span style=\"color:#74c0fc\"><b>vận chuyển dịch qua lòng mạch</b></span> nhằm tái tạo huyết tương.<br>4) Tụt huyết áp khởi động hệ <span style=\"color:#74c0fc\"><b>Renin-Angiotensin-aldosteron</b></span> và tiết <span style=\"color:#74c0fc\"><b>vasopressin</b></span> từ vùng dưới đồi — các chất này gây co mạch, trong đó có mạch thận; aldosteron làm tăng tái hấp thu muối và nước ở ống thận.<br><br><b>💡 Giải thích của AI:</b><br>Cơ chế bù trừ có nhiều tầng: thần kinh (giao cảm, Baroreflexe, thụ thể nhĩ phải), dịch chuyển qua lòng mạch, và nội tiết (RAAS, vasopressin, aldosteron). Tất cả đều nhằm một mục đích: giữ khối lượng tuần hoàn và huyết áp.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù."
+    },
+    {
+      "id": "SURGR2-CARD-016",
+      "note_id": 1794031648062,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Trong giai đoạn <span style=\"color:#74c0fc\"><b>sốc còn bù</b></span>, máu được <span style=\"color:#ff6b6b\"><b>phân bố lại</b></span> giữa các cơ quan thế nào, và có gì chưa đọc chắc chắn trong đoạn này?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Phản ứng giao cảm làm tăng sức cản mạch hệ thống với các mức độ khác nhau ở các cơ quan khác nhau.<br>2) Dòng máu vẫn được duy trì ở các cơ quan quan trọng như <span style=\"color:#51cf66\"><b>tim, não, gan</b></span>, trong khi làm giảm tưới máu ở các cơ quan ít quan trọng khác như <span style=\"color:#ff6b6b\"><b>da, cơ, xương và một số tạng bụng</b></span>.<br>3) Mạch máu ở một số cơ quan quan trọng còn có khả năng <span style=\"color:#51cf66\"><b>tự điều hòa</b></span> để duy trì lưu lượng tưới máu khi áp lực tưới máu còn trong giới hạn <span style=\"color:#ffd43b\"><b>50 – 150 mmHg</b></span>.<br>4) ⚠️ Đoạn này trong tài liệu gốc có 3 chỗ cờ chưa đọc chắc chắn, chép đúng nguyên văn: <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: Sức cản thay đổi ít hay]</b></span>, <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: cơ hoành]</b></span> và <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: tăng đáng kể hay]</b></span> — giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Nguyên tắc phân bố lại máu: ưu tiên tim, não, gan; hy sinh da, cơ, xương, tạng bụng. Đây là lý do da lạnh, nhợt và đầu chi lạnh xuất hiện sớm trong sốc mất máu dù tim và não vẫn được tưới máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù. 3 cờ [KHÔNG CHẮC] trong đoạn phân bố máu."
+    },
+    {
+      "id": "SURGR2-CARD-017",
+      "note_id": 1794031648064,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu"
+      ],
+      "type": "basic",
+      "front": "Hiệu quả của <span style=\"color:#74c0fc\"><b>cơ chế bù trừ</b></span> trong sốc mất máu phụ thuộc vào điều gì, và khi nào nó thất bại?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hiệu quả phụ thuộc chủ yếu vào <span style=\"color:#ffd43b\"><b>mức độ và tốc độ mất máu</b></span>.<br>2) Nếu mất máu nặng và ồ ạt, cơ chế bù trừ <span style=\"color:#ff6b6b\"><b>không có khả năng kéo dài</b></span>.<br>3) Thiếu máu ở mức tế bào xảy ra nhanh chóng và sốc chuyển sang giai đoạn <span style=\"color:#ff6b6b\"><b>mất bù, không hồi phục và tử vong</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bù trừ có giới hạn: mất máu càng nhiều và càng nhanh thì cơ chế giao cảm, RAAS và vận chuyển dịch càng nhanh cạn. Đây là lý do cầm máu sớm quan trọng hơn mọi thuốc — bù trừ chỉ mua thời gian, không thay được cầm máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù."
+    },
+    {
+      "id": "SURGR2-CARD-018",
+      "note_id": 1794031648066,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mạch máu ở một số cơ quan quan trọng có khả năng tự điều hòa để duy trì lưu lượng tưới máu khi áp lực tưới máu còn trong giới hạn {{c1::<span style=\"color:#ffd43b\"><b>50 – 150 mmHg</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù."
+    },
+    {
+      "id": "SURGR2-CARD-019",
+      "note_id": 1794031648068,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "con-bu",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Phản ứng giao cảm trong sốc mất máu chỉ làm <span style=\"color:#ff6b6b\"><b>tăng nhịp tim</b></span> thôi?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tăng nhịp tim chỉ là một phần của phản ứng giao cảm.<br>2) Giao cảm còn gây <span style=\"color:#74c0fc\"><b>co động — tĩnh mạch</b></span>, tăng sức cản mạch máu và dồn máu về tim, tăng tiết <span style=\"color:#74c0fc\"><b>catecholamin</b></span> (adrenalin, noradrenalin).<br>3) Ngoài ra còn có <span style=\"color:#74c0fc\"><b>Baroreflexe</b></span>, phản xạ thụ thể nhĩ phải, vận chuyển dịch qua lòng mạch, hệ <span style=\"color:#74c0fc\"><b>Renin-Angiotensin-aldosteron và vasopressin</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là thu hẹp cơ chế bù trừ thành một dấu hiệu duy nhất (nhịp tim nhanh). Cơ chế bù trừ là một hệ thống nhiều tầng: thần kinh, dịch chuyển và nội tiết, tất cả cùng giữ khối lượng tuần hoàn và huyết áp.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.1. Giai đoạn sốc còn bù."
+    },
+    {
+      "id": "SURGR2-CARD-020",
+      "note_id": 1794031648070,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "mat-bu"
+      ],
+      "type": "basic",
+      "front": "Chuỗi <span style=\"color:#74c0fc\"><b>cơ chế giai đoạn sốc mất bù</b></span> diễn ra thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giảm tưới máu dẫn đến <span style=\"color:#ff6b6b\"><b>thiếu oxy tổ chức, toan chuyển hóa và tổn thương ở mức tế bào</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Tiêu thụ oxy giảm nhanh và mạnh</b></span>; <span style=\"color:#ffd43b\"><b>chênh lệch oxy động — tĩnh mạch tăng cao</b></span> do phân ly oxy tổ chức kém.<br>3) Thiếu oxy ở tất cả các cơ quan gây <span style=\"color:#ff6b6b\"><b>giải phóng các chất hoạt mạch</b></span>.<br>4) Rối loạn vi tuần hoàn và suy giảm chức năng tim càng làm tình trạng giảm tưới máu và thiếu oxy tổ chức nặng hơn, tạo ra một <span style=\"color:#ff6b6b\"><b>vòng xoắn bệnh lý</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giai đoạn mất bù là khi cơ chế bù trừ đã cạn: thiếu oxy tổ chức không còn được bù, toan chuyển hoá và tổn thương tế bào xuất hiện, và vòng xoắn (thiếu oxy → rối loạn vi tuần hoàn và suy tim → càng thiếu oxy) tự duy trì và nặng dần.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.2. Giai đoạn sốc mất bù."
+    },
+    {
+      "id": "SURGR2-CARD-021",
+      "note_id": 1794031648072,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "mat-bu"
+      ],
+      "type": "basic",
+      "front": "Rối loạn chuyển hóa và tuần hoàn trong giai đoạn <span style=\"color:#74c0fc\"><b>mất bù</b></span> gây tổn thương khác nhau ở những cơ quan quan trọng nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Não</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Tim</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Phổi</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Gan</b></span>.<br>5) <span style=\"color:#ff6b6b\"><b>Thận</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Cả 5 cơ quan quan trọng đều bị tổn thương trong giai đoạn mất bù — đây là cơ sở của suy đa tạng. Thứ tự tổn thương khác nhau tùy cơ quan, nhưng vòng xoắn bệnh lý tác động lên tất cả.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.2. Giai đoạn sốc mất bù."
+    },
+    {
+      "id": "SURGR2-CARD-022",
+      "note_id": 1794031648074,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "mat-bu"
+      ],
+      "type": "basic",
+      "front": "Trong giai đoạn sốc mất bù, chênh lệch oxy động — tĩnh mạch tăng cao do {{c1::<span style=\"color:#ff6b6b\"><b>phân ly oxy tổ chức kém</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 3.2. Giai đoạn sốc mất bù."
+    },
+    {
+      "id": "SURGR2-CARD-023",
+      "note_id": 1794031648076,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "mat-bu",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Giai đoạn <span style=\"color:#74c0fc\"><b>mất bù</b></span> chỉ là huyết áp tụt thêm so với giai đoạn còn bù?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — mất bù là tổn thương ở mức tế bào: <span style=\"color:#ff6b6b\"><b>thiếu oxy tổ chức, toan chuyển hóa, tổn thương tế bào</b></span>, tiêu thụ oxy giảm nhanh và mạnh.<br>2) Chênh lệch oxy động — tĩnh mạch tăng cao do <span style=\"color:#ff6b6b\"><b>phân ly oxy tổ chức kém</b></span> — mô không lấy được oxy dù máu vẫn tới.<br>3) Rối loạn vi tuần hoàn và suy tim tạo <span style=\"color:#ff6b6b\"><b>vòng xoắn bệnh lý</b></span> làm tình trạng tự nặng dần.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là chỉ nhìn huyết áp. Mất bù khác còn bù ở chỗ tổn thương đã xuống tới mức tế bào và chuyển hoá, không còn là chuyện huyết động đơn thuần — vì vậy chỉ nâng huyết áp không đủ để đảo ngược giai đoạn này nếu không khôi phục tưới máu mô.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.2. Giai đoạn sốc mất bù."
+    },
+    {
+      "id": "SURGR2-CARD-024",
+      "note_id": 1794031648078,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "khong-hoi-phuc"
+      ],
+      "type": "basic",
+      "front": "Những rối loạn nặng nề nào đưa sốc mất máu tới giai đoạn <span style=\"color:#74c0fc\"><b>không hồi phục</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Thoát dịch ra lòng mạch</b></span> do giãn mạch, do tăng tính thấm thành mạch và toan chuyển hóa.<br>2) <span style=\"color:#ff6b6b\"><b>Tuần hoàn chậm lại do ứ trệ</b></span>; <span style=\"color:#ff6b6b\"><b>lưu lượng tim thấp</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Rối loạn đông máu</b></span> tiếp tục làm giảm tuần hoàn tĩnh mạch trở về.<br>4) Tất cả đưa đến <span style=\"color:#ff6b6b\"><b>sốc không hồi phục</b></span> — tiến triển cuối cùng của sốc mất máu.<br><br><b>💡 Giải thích của AI:</b><br>Giai đoạn không hồi phục là điểm không còn quay lại được: dịch thoát khỏi lòng mạch, tuần hoàn ứ trệ, tim bơm yếu, đông máu rối loạn — mỗi rối loạn lại làm các rối loạn khác nặng thêm, khép kín vòng xoắn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.3. Giai đoạn sốc không hồi phục."
+    },
+    {
+      "id": "SURGR2-CARD-025",
+      "note_id": 1794031648080,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "khong-hoi-phuc",
+        "co-do"
+      ],
+      "type": "basic",
+      "front": "🛑 <b>CỜ ĐỎ TUYỆT ĐỐI:</b> Trong giai đoạn <span style=\"color:#74c0fc\"><b>sốc không hồi phục</b></span>, dù điều trị có thể tạm thời nâng huyết áp và lưu lượng tim về bình thường thì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dù điều trị có thể tạm thời nâng <span style=\"color:#ffd43b\"><b>huyết áp động mạch</b></span> lên, <span style=\"color:#ffd43b\"><b>lưu lượng tim</b></span> về giới hạn bình thường, thì <span style=\"color:#ff6b6b\"><b>tử vong vẫn không thể tránh khỏi sau vài giờ</b></span>.<br>2) Sốc không hồi phục là <span style=\"color:#ff6b6b\"><b>tiến triển cuối cùng</b></span> của sốc mất máu.<br><br><b>💡 Giải thích của AI:</b><br>Đây là cờ đỏ tuyệt đối của bài: huyết áp và lưu lượng tim bình thường trở lại KHÔNG có nghĩa là bệnh nhân đã thoát. Tổn thương tế bào, cạn kiệt năng lượng và nợ oxy đã vượt điểm quay lại — vì vậy can thiệp phải diễn ra trước giai đoạn này, ở giai đoạn còn bù hoặc mất bù sớm.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.3. Giai đoạn sốc không hồi phục."
+    },
+    {
+      "id": "SURGR2-CARD-026",
+      "note_id": 1794031648082,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "khong-hoi-phuc"
+      ],
+      "type": "basic",
+      "front": "Nguyên nhân của <span style=\"color:#74c0fc\"><b>sốc không hồi phục</b></span> là sự phối hợp của những yếu tố nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Ức chế cơ tim</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Cạn kiệt dự trữ năng lượng tế bào</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Đông máu rải rác trong lòng mạch</b></span>.<br>4) <span style=\"color:#ff6b6b\"><b>Nợ oxy tổ chức</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bốn yếu tố này phối hợp với nhau: tim bị ức chế nên không bơm đủ, tế bào cạn năng lượng nên không hồi phục, đông máu rải rác làm tắc vi tuần hoàn, và nợ oxy tổ chức tích lũy không trả được — đó là lý do giai đoạn này không thể đảo ngược.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.3. Giai đoạn sốc không hồi phục."
+    },
+    {
+      "id": "SURGR2-CARD-027",
+      "note_id": 1794031648084,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "khong-hoi-phuc"
+      ],
+      "type": "basic",
+      "front": "Nguyên nhân của sốc không hồi phục có sự phối hợp của {{c1::<span style=\"color:#ff6b6b\"><b>ức chế cơ tim, cạn kiệt dự trữ năng lượng tế bào, đông máu rải rác trong lòng mạch và nợ oxy tổ chức</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 3.3. Giai đoạn sốc không hồi phục."
+    },
+    {
+      "id": "SURGR2-CARD-028",
+      "note_id": 1794031648086,
+      "tags": [
+        "co-che",
+        "soc-mat-mau",
+        "khong-hoi-phuc",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bệnh nhân sốc mất máu nặng được hồi sức, <span style=\"color:#ff6b6b\"><b>huyết áp</b></span> đã nâng lên được và <span style=\"color:#ff6b6b\"><b>lưu lượng tim</b></span> về giới hạn bình thường — đã qua <span style=\"color:#74c0fc\"><b>giai đoạn nguy kịch</b></span> chưa?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Chưa chắc</b></span> — nếu bệnh nhân đã vào giai đoạn <span style=\"color:#ff6b6b\"><b>sốc không hồi phục</b></span> thì dù huyết áp và lưu lượng tim tạm về bình thường, <span style=\"color:#ff6b6b\"><b>tử vong vẫn không thể tránh khỏi sau vài giờ</b></span>.<br>2) Phải đánh giá cả tổn thương tế bào, năng lượng tế bào, đông máu và nợ oxy tổ chức — không chỉ huyết áp và lưu lượng tim.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là lấy huyết áp làm thước đo duy nhất của hồi phục. Trong giai đoạn không hồi phục, huyết áp có thể được nâng tạm thời bằng điều trị nhưng tổn thương nền đã không đảo ngược được — can thiệp đúng lúc ở giai đoạn còn bù mới cứu được bệnh nhân.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 3.3. Giai đoạn sốc không hồi phục."
+    },
+    {
+      "id": "SURGR2-CARD-029",
+      "note_id": 1794031648088,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Khi quan sát bệnh nhân <span style=\"color:#74c0fc\"><b>sốc mất máu</b></span>, những dấu hiệu nào của chảy máu và chấn thương cần tìm?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Vết thương</b></span>, các dấu hiệu của <span style=\"color:#ff6b6b\"><b>chảy máu bên ngoài</b></span>, <span style=\"color:#ff6b6b\"><b>gãy xương</b></span>.<br>2) Triệu chứng của các <span style=\"color:#ff6b6b\"><b>chấn thương kín</b></span> (chấn thương bụng kín, ngực kín).<br><br><b>💡 Giải thích của AI:</b><br>Quan sát là bước đầu tiên của khám lâm sàng: chảy máu ngoài nhìn thấy được, nhưng chấn thương kín (bụng kín, ngực kín) chảy máu trong ổ bụng hoặc lồng ngực thì không nhìn thấy — phải nghĩ tới khi bệnh nhân có dấu hiệu sốc mà không rõ nguồn chảy máu ngoài.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-030",
+      "note_id": 1794031648090,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau",
+        "than-kinh"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#74c0fc\"><b>thần kinh</b></span> trong sốc mất máu diễn biến thế nào theo giai đoạn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Giai đoạn đầu bệnh nhân trong tình trạng <span style=\"color:#ff6b6b\"><b>kích thích, hoảng hốt, vật vã</b></span>.<br>2) Sau chuyển sang <span style=\"color:#ff6b6b\"><b>ức chế nhưng tri thức còn, phản xạ giảm</b></span>, hoặc có thể <span style=\"color:#ff6b6b\"><b>hôn mê</b></span> tùy thuộc vào mức độ trầm trọng và giai đoạn của sốc chấn thương.<br><br><b>💡 Giải thích của AI:</b><br>Tri giác là thước đo tưới máu não: kích thích và vật vã sớm là dấu hiệu não bắt đầu thiếu oxy, rồi ức chế dần khi thiếu oxy nặng hơn, cuối cùng là hôn mê. Diễn biến từ kích thích sang ức chế là dấu hiệu sốc đang nặng lên.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-031",
+      "note_id": 1794031648092,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#74c0fc\"><b>toàn thân</b></span> trong sốc mất máu gồm những gì, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Da, niêm mạc nhợt</b></span>, <span style=\"color:#ff6b6b\"><b>nhiệt độ da giảm, da lạnh và mồ hôi</b></span>, <span style=\"color:#ff6b6b\"><b>đầu chi lạnh</b></span>.<br>2) ⚠️ Tài liệu gốc ghi thêm một vị trí lạnh nữa kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: sống mũi]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Da nhợt, lạnh và mồ hôi là hậu quả của phân bố lại máu: giao cảm co mạch da để dồn máu về tim và não, nên da là nơi thiếu máu sớm nhất và dễ quan sát nhất.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng. 1 cờ [KHÔNG CHẮC: sống mũi]."
+    },
+    {
+      "id": "SURGR2-CARD-032",
+      "note_id": 1794031648094,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau",
+        "tuan-hoan"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#74c0fc\"><b>tuần hoàn</b></span> trong sốc mất máu gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Tim nhịp nhanh, mạch nhanh nhỏ có khi không bắt được</b></span>, có lúc <span style=\"color:#ff6b6b\"><b>chậm, rời rạc</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Huyết áp giảm nhiều hoặc không đo được</b></span> hoặc ở trạng thái <span style=\"color:#ff6b6b\"><b>ngừng tuần hoàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mạch nhanh nhỏ là dấu hiệu điển hình của giảm thể tích tuần hoàn: tim đập nhanh để bù nhưng mỗi nhát bóp ít máu nên mạch nhỏ và khó bắt. Khi sốc rất nặng, mạch có thể chậm và rời rạc rồi ngừng tuần hoàn — đó là giai đoạn cuối.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-033",
+      "note_id": 1794031648096,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng <span style=\"color:#74c0fc\"><b>hô hấp và tiết niệu</b></span> trong sốc mất máu là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Hô hấp: <span style=\"color:#ff6b6b\"><b>thở nhanh, nông</b></span>, giai đoạn sau <span style=\"color:#ff6b6b\"><b>thở chậm hoặc ngừng thở</b></span>.<br>2) Tiết niệu: <span style=\"color:#ff6b6b\"><b>lượng nước tiểu giảm hoặc vô niệu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thở nhanh nông là cơ chế bù toan chuyển hoá và thiếu oxy; khi nặng hơn, trung tâm hô hấp bị ức chế nên thở chậm rồi ngừng thở. Nước tiểu giảm hoặc vô niệu phản ánh tưới máu thận giảm — đây cũng là một chỉ số theo dõi quan trọng trong bảng phân độ mất máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-034",
+      "note_id": 1794031648098,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Mạch trong sốc mất máu luôn <span style=\"color:#ff6b6b\"><b>nhanh</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tài liệu ghi mạch nhanh nhỏ có khi không bắt được, nhưng <span style=\"color:#ff6b6b\"><b>có lúc chậm, rời rạc</b></span>.<br>2) Mạch chậm rời rạc là dấu hiệu sốc rất nặng, có thể tiến tới <span style=\"color:#ff6b6b\"><b>ngừng tuần hoàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là chỉ tìm mạch nhanh để chẩn đoán sốc mất máu. Mạch chậm trong sốc mất máu không có nghĩa là bệnh nhân đã ổn — ngược lại, đó có thể là dấu hiệu tim đã kiệt và sắp ngừng.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-035",
+      "note_id": 1794031648100,
+      "tags": [
+        "trieu-chung",
+        "soc-mat-mau",
+        "than-kinh"
+      ],
+      "type": "basic",
+      "front": "Triệu chứng thần kinh giai đoạn đầu của sốc mất máu là bệnh nhân trong tình trạng {{c1::<span style=\"color:#ff6b6b\"><b>kích thích, hoảng hốt, vật vã</b></span>}} rồi sau chuyển sang ức chế.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1. Lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-036",
+      "note_id": 1794031648102,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Bảng <span style=\"color:#74c0fc\"><b>đánh giá mức độ mất máu dựa vào lâm sàng</b></span> chia mấy độ, và dùng những hàng chỉ số nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bảng chia <span style=\"color:#74c0fc\"><b>4 độ: I, II, III, IV</b></span>.<br>2) Các hàng chỉ số: <span style=\"color:#ffd43b\"><b>số lượng máu mất (ml)</b></span>, <span style=\"color:#ffd43b\"><b>thể tích máu mất (% thể tích máu)</b></span>, <span style=\"color:#ff6b6b\"><b>mạch (lần/phút)</b></span>, <span style=\"color:#ff6b6b\"><b>huyết áp động mạch (mmHg)</b></span>, <span style=\"color:#ff6b6b\"><b>áp lực mạch (mmHg)</b></span>, <span style=\"color:#ffd43b\"><b>thể tích nước tiểu (ml/h)</b></span>, <span style=\"color:#51cf66\"><b>dịch thay thế (khuyến cáo)</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bảng này là công cụ phân độ nhanh tại giường: chỉ cần mạch, huyết áp, áp lực mạch và nước tiểu là ước lượng được độ mất máu và quyết định dịch thay thế. Bốn độ này cũng là cơ sở cho câu hỏi ôn tập số 2 của bài.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu dựa vào lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-037",
+      "note_id": 1794031648104,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân mất máu <span style=\"color:#74c0fc\"><b>độ I</b></span> có các chỉ số nào theo bảng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số lượng máu mất <span style=\"color:#ffd43b\"><b>&lt; 750 ml</b></span>, thể tích máu mất <span style=\"color:#ffd43b\"><b>&lt; 15%</b></span>.<br>2) Mạch <span style=\"color:#ff6b6b\"><b>&lt; 100 lần/phút</b></span>, huyết áp động mạch <span style=\"color:#ff6b6b\"><b>bình thường</b></span>, áp lực mạch <span style=\"color:#ff6b6b\"><b>bình thường hoặc tăng</b></span>.<br>3) Thể tích nước tiểu <span style=\"color:#ffd43b\"><b>&gt; 30 ml/h</b></span>.<br>4) Dịch thay thế khuyến cáo: <span style=\"color:#51cf66\"><b>tinh thể</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Độ I là mất máu nhẹ: huyết áp vẫn bình thường nhờ cơ chế bù trừ, áp lực mạch thậm chí có thể tăng do co mạch. Đây là giai đoạn còn bù điển hình — huyết áp bình thường không có nghĩa là không mất máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu, cột Độ I."
+    },
+    {
+      "id": "SURGR2-CARD-038",
+      "note_id": 1794031648106,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân mất máu <span style=\"color:#74c0fc\"><b>độ II</b></span> có các chỉ số nào theo bảng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số lượng máu mất <span style=\"color:#ffd43b\"><b>750 – 1500 ml</b></span>, thể tích máu mất <span style=\"color:#ffd43b\"><b>15 – 30%</b></span>.<br>2) Mạch <span style=\"color:#ff6b6b\"><b>&gt; 100 lần/phút</b></span>, huyết áp động mạch <span style=\"color:#ff6b6b\"><b>bình thường</b></span>, áp lực mạch <span style=\"color:#ff6b6b\"><b>giảm</b></span>.<br>3) Thể tích nước tiểu <span style=\"color:#ffd43b\"><b>20 – 30 ml/h</b></span>.<br>4) Dịch thay thế khuyến cáo: <span style=\"color:#51cf66\"><b>tinh thể</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Độ II khác độ I ở mạch trên 100, áp lực mạch bắt đầu giảm và nước tiểu giảm xuống 20–30 ml/h — nhưng huyết áp vẫn bình thường. Áp lực mạch giảm là dấu hiệu sớm của giảm thể tích, xuất hiện trước khi huyết áp tụt.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu, cột Độ II."
+    },
+    {
+      "id": "SURGR2-CARD-039",
+      "note_id": 1794031648108,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân mất máu <span style=\"color:#74c0fc\"><b>độ III</b></span> có các chỉ số nào theo bảng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số lượng máu mất <span style=\"color:#ffd43b\"><b>1500 – 2000 ml</b></span>, thể tích máu mất <span style=\"color:#ffd43b\"><b>30 – 40%</b></span>.<br>2) Mạch <span style=\"color:#ff6b6b\"><b>&gt; 120 lần/phút</b></span>, huyết áp động mạch <span style=\"color:#ff6b6b\"><b>tụt</b></span>, áp lực mạch <span style=\"color:#ff6b6b\"><b>giảm</b></span>.<br>3) Thể tích nước tiểu <span style=\"color:#ffd43b\"><b>5 – 15 ml/h</b></span>.<br>4) Dịch thay thế khuyến cáo: <span style=\"color:#51cf66\"><b>tinh thể, máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Độ III là mốc chuyển sang sốc nặng: huyết áp bắt đầu tụt, mạch trên 120, nước tiểu chỉ còn 5–15 ml/h — thận đã thiếu máu rõ. Từ độ III trở đi, dịch thay thế phải có máu, không chỉ tinh thể.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu, cột Độ III."
+    },
+    {
+      "id": "SURGR2-CARD-040",
+      "note_id": 1794031648110,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Bệnh nhân mất máu <span style=\"color:#74c0fc\"><b>độ IV</b></span> có các chỉ số nào theo bảng, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Số lượng máu mất <span style=\"color:#ffd43b\"><b>&gt; 2000 ml</b></span>, thể tích máu mất <span style=\"color:#ffd43b\"><b>&gt; 40%</b></span>.<br>2) Mạch <span style=\"color:#ff6b6b\"><b>&gt; 140 lần/phút</b></span>, huyết áp động mạch <span style=\"color:#ff6b6b\"><b>giảm nhiều hoặc không đo được</b></span>.<br>3) Thể tích nước tiểu: <span style=\"color:#ff6b6b\"><b>vô niệu</b></span>.<br>4) Dịch thay thế khuyến cáo: <span style=\"color:#51cf66\"><b>tinh thể, máu</b></span>.<br>5) ⚠️ Hàng áp lực mạch ở độ IV trong tài liệu gốc ghi <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: Không có]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không tự điền giá trị khác.<br><br><b>💡 Giải thích của AI:</b><br>Độ IV là mất máu đe dọa tính mạng: trên 40% thể tích máu, mạch trên 140, huyết áp giảm nhiều hoặc không đo được, vô niệu — thận đã ngừng tưới máu. Áp lực mạch ở độ này chưa đọc chắc nên không khẳng định.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu, cột Độ IV. 1 cờ [KHÔNG CHẮC: Không có] ở hàng áp lực mạch."
+    },
+    {
+      "id": "SURGR2-CARD-041",
+      "note_id": 1794031648112,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ I là số lượng máu mất {{c1::<span style=\"color:#ffd43b\"><b>&lt; 750 ml</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-042",
+      "note_id": 1794031648114,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ II là số lượng máu mất {{c1::<span style=\"color:#ffd43b\"><b>750 – 1500 ml</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-043",
+      "note_id": 1794031648116,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ III là số lượng máu mất {{c1::<span style=\"color:#ffd43b\"><b>1500 – 2000 ml</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-044",
+      "note_id": 1794031648118,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ IV là số lượng máu mất {{c1::<span style=\"color:#ffd43b\"><b>&gt; 2000 ml</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-045",
+      "note_id": 1794031648120,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ III là thể tích máu mất {{c1::<span style=\"color:#ffd43b\"><b>30 – 40%</b></span>}} thể tích máu.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-046",
+      "note_id": 1794031648122,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ IV là thể tích máu mất {{c1::<span style=\"color:#ffd43b\"><b>&gt; 40%</b></span>}} thể tích máu.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-047",
+      "note_id": 1794031648124,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ III có mạch {{c1::<span style=\"color:#ff6b6b\"><b>&gt; 120 lần/phút</b></span>}} và huyết áp tụt.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-048",
+      "note_id": 1794031648126,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ IV có mạch {{c1::<span style=\"color:#ff6b6b\"><b>&gt; 140 lần/phút</b></span>}} và huyết áp giảm nhiều hoặc không đo được.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-049",
+      "note_id": 1794031648128,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ III có thể tích nước tiểu {{c1::<span style=\"color:#ffd43b\"><b>5 – 15 ml/h</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-050",
+      "note_id": 1794031648130,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ II có thể tích nước tiểu {{c1::<span style=\"color:#ffd43b\"><b>20 – 30 ml/h</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-051",
+      "note_id": 1794031648132,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mất máu độ I có thể tích nước tiểu {{c1::<span style=\"color:#ffd43b\"><b>&gt; 30 ml/h</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-052",
+      "note_id": 1794031648134,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bệnh nhân chấn thương có huyết áp động mạch <span style=\"color:#ff6b6b\"><b>bình thường</b></span> — có loại trừ được sốc mất máu không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — theo bảng, huyết áp vẫn <span style=\"color:#ff6b6b\"><b>bình thường ở độ I và độ II</b></span> (mất tới 1500 ml, 30% thể tích máu).<br>2) Huyết áp chỉ bắt đầu <span style=\"color:#ff6b6b\"><b>tụt ở độ III</b></span> và <span style=\"color:#ff6b6b\"><b>giảm nhiều hoặc không đo được ở độ IV</b></span>.<br>3) Phải nhìn các dấu hiệu sớm hơn: <span style=\"color:#ffd43b\"><b>mạch tăng, áp lực mạch giảm, nước tiểu giảm</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là chờ huyết áp tụt mới chẩn đoán sốc mất máu. Cơ chế bù trừ giữ huyết áp tới khi mất 30% thể tích máu — lúc huyết áp tụt thì bệnh nhân đã ở độ III, mất 1500–2000 ml. Mạch và nước tiểu là dấu hiệu sớm hơn huyết áp.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-053",
+      "note_id": 1794031648136,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Mất máu <span style=\"color:#74c0fc\"><b>độ III</b></span> chỉ khác độ II ở <span style=\"color:#ff6b6b\"><b>mạch nhanh hơn</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — độ III khác độ II ở nhiều hàng cùng lúc.<br>2) Độ III: máu mất <span style=\"color:#ffd43b\"><b>1500 – 2000 ml (30 – 40%)</b></span>, mạch <span style=\"color:#ff6b6b\"><b>&gt; 120 lần/phút</b></span>, huyết áp <span style=\"color:#ff6b6b\"><b>tụt</b></span>, nước tiểu chỉ <span style=\"color:#ffd43b\"><b>5 – 15 ml/h</b></span>, dịch thay thế phải có <span style=\"color:#51cf66\"><b>máu</b></span>.<br>3) Độ II: máu mất 750 – 1500 ml (15 – 30%), mạch &gt; 100, huyết áp bình thường, nước tiểu 20 – 30 ml/h, chỉ cần tinh thể.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là phân độ chỉ bằng một chỉ số. Phân độ mất máu là tổng hợp của cả bảng: lượng máu, phần trăm, mạch, huyết áp, áp lực mạch, nước tiểu — và quyết định dịch thay thế cũng thay đổi từ độ III (thêm máu).<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-054",
+      "note_id": 1794031648138,
+      "tags": [
+        "bang-mat-mau",
+        "soc-mat-mau",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>THUẬT TOÁN QUYẾT ĐỊNH:</b> Phân độ mất máu theo bảng rồi chọn <span style=\"color:#51cf66\"><b>dịch thay thế</b></span> thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá <span style=\"color:#ffd43b\"><b>mạch, huyết áp, áp lực mạch, nước tiểu</b></span> và ước lượng lượng máu mất → phân độ I–IV.<br>2) Độ I (&lt; 750 ml, &lt; 15%): <span style=\"color:#51cf66\"><b>tinh thể</b></span>.<br>3) Độ II (750 – 1500 ml, 15 – 30%): <span style=\"color:#51cf66\"><b>tinh thể</b></span>.<br>4) Độ III (1500 – 2000 ml, 30 – 40%): <span style=\"color:#51cf66\"><b>tinh thể, máu</b></span>.<br>5) Độ IV (&gt; 2000 ml, &gt; 40%): <span style=\"color:#51cf66\"><b>tinh thể, máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Mốc quyết định thêm máu là độ III: từ 1500 ml trở lên thì tinh thể đơn thuần không còn đủ, phải bù máu. Huyết áp bình thường ở độ I–II không có nghĩa là chỉ cần ít dịch — vẫn phải phân độ đầy đủ bằng mạch, áp lực mạch và nước tiểu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.1, bảng đánh giá mức độ mất máu, hàng dịch thay thế."
+    },
+    {
+      "id": "SURGR2-CARD-055",
+      "note_id": 1794031648140,
+      "tags": [
+        "can-lam-sang",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Công thức máu</b></span> trong sốc mất máu thay đổi thế nào, và có gì cần lưu ý ở giai đoạn đầu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Hồng cầu, hemoglobin, hematocrit đều giảm</b></span>.<br>2) Lưu ý: giai đoạn đầu các chỉ số này có thể <span style=\"color:#ffd43b\"><b>giảm không tương xứng với mức độ mất máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Giai đoạn đầu mất máu cấp, máu mất đi là máu toàn phần nên nồng độ Hb/Hct chưa kịp giảm — phải mất thời gian dịch từ gian bào tràn vào lòng mạch làm loãng máu thì Hb/Hct mới giảm rõ. Vì vậy Hb/Hct bình thường sớm không loại trừ mất máu nặng.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.2. Cận lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-056",
+      "note_id": 1794031648142,
+      "tags": [
+        "can-lam-sang",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Các chỉ định <span style=\"color:#74c0fc\"><b>hình ảnh</b></span> trong sốc mất máu gồm những gì, và lựa chọn theo nguyên tắc nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>Xquang</b></span> cột sống, ngực, khung chậu, xương chi.<br>2) <span style=\"color:#74c0fc\"><b>Siêu âm</b></span> màng phổi, tim, ổ bụng.<br>3) <span style=\"color:#74c0fc\"><b>CT</b></span> sọ não, lồng ngực, bụng.<br>4) Các chỉ định <span style=\"color:#51cf66\"><b>tùy thuộc vào tình trạng bệnh nhân và điều kiện y tế</b></span> để phát hiện và đánh giá toàn diện tổn thương.<br><br><b>💡 Giải thích của AI:</b><br>Hình ảnh trong sốc mất máu có hai mục đích: tìm nguồn chảy máu và đánh giá toàn diện tổn thương phối hợp. Lựa chọn phương tiện tùy tình trạng bệnh nhân (nặng hay ổn) và điều kiện y tế sẵn có — tài liệu không xếp hạng phương tiện nào hữu ích nhất, chỉ liệt kê danh sách.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.2. Cận lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-057",
+      "note_id": 1794031648144,
+      "tags": [
+        "can-lam-sang",
+        "soc-mat-mau",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Sinh hoá và khí máu động mạch</b></span> trong sốc mất máu có gì, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Toan chuyển hoá</b></span>, <span style=\"color:#ffd43b\"><b>lactat máu tăng (&gt; 2 mmol/L)</b></span>, <span style=\"color:#ff6b6b\"><b>kali máu tăng, kiềm dư</b></span>.<br>2) ⚠️ Tài liệu gốc ghi <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: pH máu giảm, lactat máu tăng]</b></span> — cụm này chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Toan chuyển hoá và lactat tăng là hậu quả của thiếu oxy tổ chức: mô chuyển sang chuyển hoá yếm khí sinh lactat. Kali tăng và kiềm dư phản ánh rối loạn điện giải và kiềm toan kèm theo. Ngưỡng lactat trên 2 mmol/L là mốc được ghi rõ trong tài liệu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.2. Cận lâm sàng. 1 cờ [KHÔNG CHẮC: pH máu giảm, lactat máu tăng]."
+    },
+    {
+      "id": "SURGR2-CARD-058",
+      "note_id": 1794031648146,
+      "tags": [
+        "can-lam-sang",
+        "soc-mat-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Lactat máu trong sốc mất máu tăng {{c1::<span style=\"color:#ffd43b\"><b>&gt; 2 mmol/L</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 4.2. Cận lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-059",
+      "note_id": 1794031648148,
+      "tags": [
+        "can-lam-sang",
+        "soc-mat-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> <span style=\"color:#74c0fc\"><b>Hemoglobin và hematocrit</b></span> bình thường ở giờ đầu sau chấn thương thì loại trừ được mất máu nặng?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tài liệu ghi rõ giai đoạn đầu hồng cầu, hemoglobin, hematocrit có thể <span style=\"color:#ffd43b\"><b>giảm không tương xứng với mức độ mất máu</b></span>.<br>2) Phải đánh giá cùng <span style=\"color:#ff6b6b\"><b>lâm sàng (mạch, huyết áp, nước tiểu), hoàn cảnh chấn thương</b></span> và các xét nghiệm khác.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là tin xét nghiệm hơn lâm sàng. Mất máu cấp làm mất máu toàn phần nên nồng độ chưa giảm ngay; phải chờ dịch gian bào tràn vào lòng mạch làm loãng máu thì Hb/Hct mới phản ánh đúng mức độ mất máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 4.2. Cận lâm sàng."
+    },
+    {
+      "id": "SURGR2-CARD-060",
+      "note_id": 1794031648150,
+      "tags": [
+        "chan-doan",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán xác định</b></span> sốc mất máu dựa vào những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dựa vào <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng</b></span>.<br>2) Dựa vào <span style=\"color:#ff6b6b\"><b>cận lâm sàng</b></span>.<br>3) Dựa vào <span style=\"color:#74c0fc\"><b>hoàn cảnh chấn thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba trụ cột chẩn đoán: lâm sàng cho thấy hội chứng sốc, cận lâm sàng xác nhận mất máu và tổn thương tạng, hoàn cảnh chấn thương cho biết cơ chế và nguồn chảy máu có thể. Thiếu hoàn cảnh chấn thương thì sốc mất máu dễ bị nhầm với các loại sốc khác.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 5.1. Chẩn đoán xác định."
+    },
+    {
+      "id": "SURGR2-CARD-061",
+      "note_id": 1794031648152,
+      "tags": [
+        "chan-doan",
+        "soc-mat-mau"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#74c0fc\"><b>Chẩn đoán phân biệt</b></span> sốc mất máu với những nguyên nhân gây sốc nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Sốc nhiễm khuẩn</b></span>.<br>2) <span style=\"color:#ff6b6b\"><b>Sốc phản vệ</b></span>.<br>3) <span style=\"color:#ff6b6b\"><b>Sốc tim không do chấn thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba loại sốc này đều có hạ huyết áp và giảm tưới máu mô nên dễ nhầm với sốc mất máu. Điểm phân biệt quan trọng nhất là hoàn cảnh chấn thương và bằng chứng mất máu — nhưng cũng phải nhớ trong chấn thương có thể có cả sốc chèn ép tim cấp và sốc tuỷ, là hai bệnh cảnh khác của sốc chấn thương.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 5.2. Chẩn đoán phân biệt."
+    },
+    {
+      "id": "SURGR2-CARD-062",
+      "note_id": 1794031648154,
+      "tags": [
+        "chan-doan",
+        "soc-mat-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Chỉ dựa vào <span style=\"color:#ff6b6b\"><b>huyết áp tụt</b></span> là đủ chẩn đoán sốc mất máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — chẩn đoán xác định cần cả ba: <span style=\"color:#ff6b6b\"><b>triệu chứng lâm sàng, cận lâm sàng và hoàn cảnh chấn thương</b></span>.<br>2) Huyết áp tụt gặp trong nhiều loại sốc khác (nhiễm khuẩn, phản vệ, tim) nên phải chẩn đoán phân biệt.<br>3) Ngược lại, huyết áp bình thường ở độ I–II cũng chưa loại trừ sốc mất máu.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là chẩn đoán bằng một dấu hiệu duy nhất. Huyết áp tụt là dấu hiệu muộn và không đặc hiệu; chẩn đoán sốc mất máu phải gắn với hoàn cảnh chấn thương và toàn bộ bức tranh lâm sàng — cận lâm sàng.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 5. Chẩn đoán, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-063",
+      "note_id": 1794031648156,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "nguyen-tac"
+      ],
+      "type": "basic",
+      "front": "Ba <span style=\"color:#51cf66\"><b>nguyên tắc</b></span> điều trị sốc chấn thương là gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Điều trị càng sớm kết quả càng cao</b></span>, tỉ lệ biến chứng, di chứng và tử vong giảm.<br>2) <span style=\"color:#51cf66\"><b>Đề phòng sốc thứ phát</b></span> xảy ra sau chấn thương.<br>3) <span style=\"color:#51cf66\"><b>Đánh giá và thăm khám toàn diện, tránh bỏ sót tổn thương</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Ba nguyên tắc này tương ứng với ba sai lầm hay gặp nhất: điều trị muộn, chỉ xử trí sốc đang có mà quên sốc thứ phát sẽ xuất hiện sau, và bỏ sót tổn thương phối hợp vì chỉ tập trung vào tổn thương rõ nhất.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.1. Nguyên tắc."
+    },
+    {
+      "id": "SURGR2-CARD-064",
+      "note_id": 1794031648158,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "abcde"
+      ],
+      "type": "basic",
+      "front": "Đánh giá toàn trạng theo <span style=\"color:#74c0fc\"><b>ABCDE</b></span> trong xử trí sốc chấn thương gồm những bước nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#74c0fc\"><b>A (Airway): đường thở</b></span>, lưu ý về tổn thương cột sống, đặc biệt cột sống cổ.<br>2) <span style=\"color:#74c0fc\"><b>B (Breathing): tình trạng hô hấp</b></span>.<br>3) <span style=\"color:#74c0fc\"><b>C (Circulation): tuần hoàn</b></span>.<br>4) <span style=\"color:#74c0fc\"><b>D (Disability): tổn thương thần kinh trung ương</b></span>.<br>5) <span style=\"color:#74c0fc\"><b>E (Exposure): bộc lộ khám toàn trạng</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>ABCDE là trình tự đánh giá toàn trạng: đường thở trước, rồi hô hấp, tuần hoàn, thần kinh, cuối cùng bộc lộ khám toàn thân để không bỏ sót tổn thương. Lưu ý cột sống cổ ở bước A vì cố định cột sống cổ ảnh hưởng mọi thao tác đường thở sau đó.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, đánh giá toàn trạng."
+    },
+    {
+      "id": "SURGR2-CARD-065",
+      "note_id": 1794031648160,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Kiểm soát hô hấp</b></span> trong xử trí sốc chấn thương gồm những biện pháp nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Thực hiện các biện pháp làm <span style=\"color:#51cf66\"><b>thông thoáng đường thở</b></span>.<br>2) Lưu ý <span style=\"color:#51cf66\"><b>cố định cột sống cổ</b></span> khi nghi ngờ có tổn thương cột sống cổ.<br>3) <span style=\"color:#51cf66\"><b>Oxy liệu pháp</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Thông khí nhân tạo khi có chỉ định</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kiểm soát hô hấp đi liền với bảo vệ cột sống cổ: mọi thao tác đường thở trên bệnh nhân chấn thương đều phải tính tới khả năng tổn thương cột sống cổ, vì thao tác sai có thể làm tổn thương tuỷ sống nặng thêm.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, kiểm soát hô hấp."
+    },
+    {
+      "id": "SURGR2-CARD-066",
+      "note_id": 1794031648162,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "cam-mau"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Kiểm soát nguồn chảy máu ngoài</b></span> trong xử trí sốc chấn thương bằng những biện pháp nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Đè, ấn trực tiếp, garo, khâu, buộc cầm máu</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Vận chuyển bệnh nhân nhẹ nhàng</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Cố định ổ gãy, nút mạch cầm máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kiểm soát chảy máu ngoài là bước cầm máu tại chỗ, làm song song với hồi sức — không chờ hồi sức xong mới cầm máu. Cố định ổ gãy cũng là cầm máu vì gãy xương di lệch làm tổn thương mạch máu và chảy máu thêm.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, kiểm soát huyết động."
+    },
+    {
+      "id": "SURGR2-CARD-067",
+      "note_id": 1794031648164,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Ngoài kiểm soát chảy máu, <span style=\"color:#51cf66\"><b>kiểm soát huyết động</b></span> trong xử trí sốc chấn thương còn gồm những gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Thiết lập đường truyền tĩnh mạch</b></span>, liệu pháp bù dịch, bù máu.<br>2) <span style=\"color:#51cf66\"><b>Kiểm soát huyết áp</b></span>, dùng thuốc vận mạch duy trì huyết động.<br>3) <span style=\"color:#51cf66\"><b>Hồi sinh tim phổi khi có ngừng tuần hoàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Kiểm soát huyết động là chuỗi: có đường truyền mới bù được dịch và máu, bù dịch và máu mới giữ được huyết áp, và khi các biện pháp trên không giữ được tuần hoàn thì hồi sinh tim phổi là bước cuối. Thuốc vận mạch chỉ đứng sau bù đủ thể tích.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, kiểm soát huyết động."
+    },
+    {
+      "id": "SURGR2-CARD-068",
+      "note_id": 1794031648166,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Sau xử trí ban đầu, bệnh nhân sốc chấn thương cần được <span style=\"color:#51cf66\"><b>gọi hỗ trợ và chuyển tuyến</b></span> thế nào, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Gọi hỗ trợ, chuyển bệnh nhân đến trung tâm cấp cứu, chuyên khoa sớm nhất</b></span>.<br>2) ⚠️ Tài liệu gốc ghi thêm cụm <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: có thể]</b></span> ở cuối câu — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Chuyển tuyến sớm là một phần của xử trí: sốc chấn thương cần trung tâm có khả năng phẫu thuật cầm máu và hồi sức chuyên sâu, không nên giữ bệnh nhân ở cơ sở không đủ điều kiện. Cờ [KHÔNG CHẮC] chỉ ở từ cuối câu, không ảnh hưởng nội dung chính là chuyển sớm.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí. 1 cờ [KHÔNG CHẮC: có thể]."
+    },
+    {
+      "id": "SURGR2-CARD-069",
+      "note_id": 1794031648168,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>THUẬT TOÁN QUYẾT ĐỊNH:</b> Các bước <span style=\"color:#51cf66\"><b>xử trí ban đầu</b></span> sốc chấn thương theo thứ tự nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Đánh giá toàn trạng theo <span style=\"color:#74c0fc\"><b>ABCDE</b></span> (đường thở, hô hấp, tuần hoàn, thần kinh trung ương, bộc lộ khám toàn trạng).<br>2) <span style=\"color:#51cf66\"><b>Kiểm soát hô hấp</b></span>: thông thoáng đường thở, cố định cột sống cổ khi nghi ngờ, oxy liệu pháp, thông khí nhân tạo khi có chỉ định.<br>3) <span style=\"color:#51cf66\"><b>Kiểm soát huyết động</b></span>: kiểm soát nguồn chảy máu ngoài, thiết lập đường truyền tĩnh mạch, bù dịch, bù máu, kiểm soát huyết áp, vận mạch, hồi sinh tim phổi khi ngừng tuần hoàn.<br>4) <span style=\"color:#51cf66\"><b>Gọi hỗ trợ, chuyển đến trung tâm cấp cứu, chuyên khoa sớm nhất</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Trình tự xử trí ban đầu là ABCDE trước, rồi kiểm soát hô hấp và huyết động song song, rồi chuyển tuyến. Không được bỏ qua bước nào: đường thở tắc thì bù dịch cũng vô ích, và chảy máu không cầm thì bù bao nhiêu cũng mất.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí."
+    },
+    {
+      "id": "SURGR2-CARD-070",
+      "note_id": 1794031648170,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "abcde"
+      ],
+      "type": "basic",
+      "front": "Trong ABCDE, A là {{c1::<span style=\"color:#74c0fc\"><b>Airway (đường thở)</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, đánh giá toàn trạng."
+    },
+    {
+      "id": "SURGR2-CARD-071",
+      "note_id": 1794031648172,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "abcde"
+      ],
+      "type": "basic",
+      "front": "Trong ABCDE, E là {{c1::<span style=\"color:#74c0fc\"><b>Exposure — bộc lộ khám toàn trạng</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.2. Xử trí, đánh giá toàn trạng."
+    },
+    {
+      "id": "SURGR2-CARD-072",
+      "note_id": 1794031648174,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Bệnh nhân sốc mất máu cần đo áp lực tĩnh mạch trung tâm ngay nên <span style=\"color:#51cf66\"><b>đặt đường truyền trung ương trước</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — kĩ thuật đặt đường truyền trung ương trong khi cấp cứu thường <span style=\"color:#ffd43b\"><b>mất thời gian</b></span>, cần phương tiện kĩ thuật phức tạp, người thực hiện có kinh nghiệm.<br>2) Kĩ thuật này nên được thực hiện <span style=\"color:#51cf66\"><b>khi đã lập được đường truyền ngoại vi và hồi sức cơ bản</b></span> cho người bệnh.<br>3) Ưu tiên đường truyền lớn ở ngoại vi <span style=\"color:#51cf66\"><b>(14–16 gauge)</b></span>, hoặc tĩnh mạch cảnh ngoài, tĩnh mạch bẹn.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là ưu tiên thủ thuật phức tạp thay vì đường truyền nhanh nhất. Trong cấp cứu mất máu, tốc độ lập đường truyền quyết định tốc độ bù dịch — đường ngoại vi lớn lập nhanh, đường trung ương để sau khi bệnh nhân đã được hồi sức cơ bản.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch."
+    },
+    {
+      "id": "SURGR2-CARD-073",
+      "note_id": 1794031648176,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Bù dịch trong sốc mất máu dùng <span style=\"color:#51cf66\"><b>đường truyền</b></span> nào, và <span style=\"color:#ffd43b\"><b>đích huyết áp tâm thu</b></span> là bao nhiêu? Có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bù dịch bằng <span style=\"color:#51cf66\"><b>đường truyền lớn ở ngoại vi (14–16 gauge)</b></span>, hoặc ở <span style=\"color:#51cf66\"><b>tĩnh mạch bẹn</b></span>.<br>2) Mục tiêu là duy trì huyết áp tâm thu <span style=\"color:#ffd43b\"><b>80 – 90 mmHg</b></span>.<br>3) ⚠️ Tài liệu gốc ghi thêm một vị trí đường truyền nữa kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: tĩnh mạch cảnh ngoài]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Đường truyền lớn ngoại vi cho tốc độ truyền nhanh nhất trong cấp cứu. Đích huyết áp tâm thu 80–90 mmHg là đích hồi sức cho phép (permissive hypotension) trước khi cầm máu — đủ tưới máu cơ quan quan trọng mà không làm bật cục máu đông đang cầm máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch. 1 cờ [KHÔNG CHẮC: tĩnh mạch cảnh ngoài]."
+    },
+    {
+      "id": "SURGR2-CARD-074",
+      "note_id": 1794031648178,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Các loại <span style=\"color:#51cf66\"><b>dịch dùng trong hồi sức sốc chấn thương</b></span> gồm những gì theo sách, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Dịch keo theo sách: <span style=\"color:#51cf66\"><b>Albumin 5%, 25%, Gelatin</b></span>, và một loại nữa ghi kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: Plasmalyte]</b></span>.<br>2) Dịch tinh thể: <span style=\"color:#51cf66\"><b>NaCl 0,9%, NaCl 7,5%, Ringerlactat, Ringerfundin</b></span>.<br>3) ⚠️ Loại dịch ghi kèm cờ [KHÔNG CHẮC: Plasmalyte] chưa đọc chắc chắn — chép đúng như sách, giữ nguyên cờ, không tự sửa phân nhóm.<br><br><b>💡 Giải thích của AI:</b><br>Danh sách dịch trong sách gồm cả keo và tinh thể. Riêng Plasmalyte được sách xếp vào nhóm dịch keo nhưng kèm cờ chưa chắc chắn — khi thi chỉ cần nhớ đúng như sách ghi kèm cờ, không tự ý sửa nhóm của nó.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch. 1 cờ [KHÔNG CHẮC: Plasmalyte]."
+    },
+    {
+      "id": "SURGR2-CARD-075",
+      "note_id": 1794031648180,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich"
+      ],
+      "type": "basic",
+      "front": "Bù dịch trong sốc chấn thương nên <span style=\"color:#51cf66\"><b>bắt đầu bằng dịch nào, số lượng bao nhiêu</b></span>, và điều chỉnh theo gì?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Bù dịch nên bắt đầu bằng <span style=\"color:#51cf66\"><b>dịch tinh thể, tốt nhất là dịch cân bằng</b></span> với số lượng vừa phải <span style=\"color:#ffd43b\"><b>(1000 – 2000 ml)</b></span>.<br>2) Dịch keo, muối ưu trương hay máu được chỉ định <span style=\"color:#51cf66\"><b>sau đó</b></span>.<br>3) Số lượng dịch bù được điều chỉnh theo <span style=\"color:#ffd43b\"><b>lượng máu mất, tình trạng huyết động</b></span> của bệnh nhân.<br><br><b>💡 Giải thích của AI:</b><br>Trình tự bù dịch là tinh thể trước, keo và máu sau. Dịch cân bằng là lựa chọn đầu tay vì gần với thành phần dịch cơ thể hơn NaCl 0,9% đơn thuần; số lượng khởi đầu 1000–2000 ml rồi điều chỉnh theo đáp ứng huyết động và lượng máu mất ước tính.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch."
+    },
+    {
+      "id": "SURGR2-CARD-076",
+      "note_id": 1794031648182,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "cam-mau"
+      ],
+      "type": "basic",
+      "front": "Vì sao <span style=\"color:#51cf66\"><b>khôi phục khối lượng tuần hoàn</b></span> chỉ có thể hiệu quả cùng với việc làm ngừng nguyên nhân gây chảy máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tài liệu nhấn mạnh: <span style=\"color:#51cf66\"><b>khôi phục khối lượng tuần hoàn chỉ có thể hiệu quả cùng với việc làm ngừng nguyên nhân gây chảy máu</b></span>.<br>2) Kiểm soát nguồn chảy máu là <span style=\"color:#ff6b6b\"><b>chỉ định sống còn, cần thực hiện ngay lập tức khi có điều kiện</b></span>.<br>3) Khôi phục khối lượng tuần hoàn là <span style=\"color:#51cf66\"><b>ưu tiên hàng đầu</b></span> trong điều trị sốc mất máu; giảm khối lượng tuần hoàn phối hợp với mất máu nặng có thể đe dọa ngừng tim.<br><br><b>💡 Giải thích của AI:</b><br>Bù dịch vào một hệ tuần hoàn đang chảy máu giống như đổ nước vào thùng thủng — dịch bù vào bao nhiêu chảy ra bấy nhiêu. Vì vậy cầm máu và bù thể tích phải làm song song, không chờ cái này xong mới làm cái kia.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ."
+    },
+    {
+      "id": "SURGR2-CARD-077",
+      "note_id": 1794031648184,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Bù dịch nên bắt đầu bằng dịch tinh thể, tốt nhất là dịch cân bằng với số lượng vừa phải {{c1::<span style=\"color:#ffd43b\"><b>(1000 – 2000 ml)</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch."
+    },
+    {
+      "id": "SURGR2-CARD-078",
+      "note_id": 1794031648186,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Mục tiêu bù dịch trong sốc mất máu là duy trì huyết áp tâm thu {{c1::<span style=\"color:#ffd43b\"><b>80 – 90 mmHg</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch."
+    },
+    {
+      "id": "SURGR2-CARD-079",
+      "note_id": 1794031648188,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "cam-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Chỉ cần <span style=\"color:#51cf66\"><b>bù thật nhiều dịch</b></span> là đủ điều trị sốc mất máu, chưa cần cầm máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tài liệu nhấn mạnh khôi phục khối lượng tuần hoàn <span style=\"color:#51cf66\"><b>chỉ có thể hiệu quả cùng với việc làm ngừng nguyên nhân gây chảy máu</b></span>.<br>2) Kiểm soát nguồn chảy máu là <span style=\"color:#ff6b6b\"><b>chỉ định sống còn, cần thực hiện ngay lập tức khi có điều kiện</b></span>.<br>3) Số lượng dịch bù phải điều chỉnh theo <span style=\"color:#ffd43b\"><b>lượng máu mất và tình trạng huyết động</b></span>, không phải bù càng nhiều càng tốt.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là coi bù dịch là điều trị chính và trì hoãn cầm máu. Bù dịch chỉ mua thời gian; nếu nguồn chảy máu không được kiểm soát, dịch bù vào sẽ chảy ra và bệnh nhân vẫn tiến triển sang mất bù rồi không hồi phục.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ."
+    },
+    {
+      "id": "SURGR2-CARD-080",
+      "note_id": 1794031648190,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-dich",
+        "bay",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Theo sách, <span style=\"color:#74c0fc\"><b>Plasmalyte</b></span> được xếp vào nhóm dịch nào, và vì sao không được tự sửa phân nhóm này?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo sách, Plasmalyte được xếp vào nhóm <span style=\"color:#51cf66\"><b>dịch keo</b></span> (cùng Albumin 5%, 25%, Gelatin).<br>2) Nhưng tên này trong tài liệu gốc kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: Plasmalyte]</b></span> — chữ mờ, chưa đọc chắc chắn.<br>3) Vì vậy phải <span style=\"color:#ff6b6b\"><b>chép đúng như sách kèm cờ</b></span>, không tự ý sửa phân nhóm hay bỏ tên này đi.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là tự sửa sách theo kiến thức bên ngoài khi gặp chỗ cờ. Nhiệm vụ của deck này là dạy đúng như sách ghi kèm cờ chưa chắc chắn; việc xác minh phân nhóm đúng thuộc về bước kiểm chứng tài liệu gốc, không phải tự sửa trong thẻ.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch. 1 cờ [KHÔNG CHẮC: Plasmalyte]."
+    },
+    {
+      "id": "SURGR2-CARD-081",
+      "note_id": 1794031648192,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Bù máu và chế phẩm máu</b></span> trong <span style=\"color:#74c0fc\"><b>sốc mất máu</b></span> gồm những loại nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Máu toàn phần</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Hồng cầu khối</b></span>.<br>3) <span style=\"color:#51cf66\"><b>Huyết tương tươi đông lạnh</b></span>.<br>4) <span style=\"color:#51cf66\"><b>Tiểu cầu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bốn chế phẩm này thay thế đúng thành phần máu đã mất: hồng cầu khối mang oxy, huyết tương tươi đông lạnh bổ sung yếu tố đông máu, tiểu cầu cầm máu, máu toàn phần thay thế toàn bộ. Từ độ III trở đi trong bảng phân độ, dịch thay thế đã phải có máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-082",
+      "note_id": 1794031648194,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Duy trì <span style=\"color:#74c0fc\"><b>hematocrit (Hct)</b></span> trong sốc mất máu ở mức nào, và có gì chưa đọc chắc chắn trong đoạn này?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Pha loãng máu, duy trì hematocrit <span style=\"color:#ffd43b\"><b>(Hct) 25–30%</b></span>.<br>2) Trong sốc mất máu, hematocrit cần được duy trì tối thiểu ở mức từ <span style=\"color:#ffd43b\"><b>20–25%</b></span> trong mổ và <span style=\"color:#ffd43b\"><b>25–30%</b></span> sau mổ.<br>3) ⚠️ Đoạn này trong tài liệu gốc có cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: trong mổ và 25-30% ở giai đoạn]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Mốc Hct 25–30% là đích duy trì chung; mốc tối thiểu trong mổ thấp hơn (20–25%) vì trong mổ chấp nhận pha loãng hơn, còn sau mổ phải đưa về 25–30%. Cờ [KHÔNG CHẮC] nằm đúng ở cụm phân biệt trong mổ và sau mổ nên cần nhớ kèm cờ.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu. 1 cờ [KHÔNG CHẮC: trong mổ và 25-30% ở giai đoạn]."
+    },
+    {
+      "id": "SURGR2-CARD-083",
+      "note_id": 1794031648196,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau"
+      ],
+      "type": "basic",
+      "front": "Khi sốc mất máu phối hợp với <span style=\"color:#74c0fc\"><b>chấn thương sọ não, tủy sống</b></span> thì duy trì hematocrit ở mức nào, và vì sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Cần duy trì Hct <span style=\"color:#ffd43b\"><b>30–35%</b></span>.<br>2) Để tránh <span style=\"color:#ff6b6b\"><b>thiếu máu não, tủy và tổn thương thứ phát ở não, tủy</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Não và tủy sống đã bị chấn thương thì càng nhạy cảm với thiếu máu: Hct thấp làm giảm vận chuyển oxy tới mô thần kinh đang tổn thương, gây tổn thương thứ phát. Vì vậy đích Hct cao hơn (30–35%) so với sốc mất máu đơn thuần (25–30%).<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-084",
+      "note_id": 1794031648198,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau"
+      ],
+      "type": "basic",
+      "front": "Khi nào cần <span style=\"color:#51cf66\"><b>truyền máu ngay với tốc độ nhanh nhất</b></span>, loại máu nào tốt nhất, và chọn nhóm máu nào khi chưa xác định được nhóm máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Truyền máu ngay với tốc độ nhanh nhất trong trường hợp <span style=\"color:#ff6b6b\"><b>mất máu ồ ạt với số lượng lớn, sốc nặng</b></span> — tốt nhất là <span style=\"color:#51cf66\"><b>hồng cầu khối</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Nhóm máu O và Rh(-)</b></span> được lựa chọn trong trường hợp <span style=\"color:#ff6b6b\"><b>không có máu cùng nhóm</b></span> hoặc trong trường hợp <span style=\"color:#ff6b6b\"><b>đe dọa tử vong mà chưa xác định được nhóm máu</b></span> người bệnh.<br><br><b>💡 Giải thích của AI:</b><br>Mất máu ồ ạt thì tốc độ truyền quyết định sống còn: truyền càng nhanh càng tốt, ưu tiên hồng cầu khối vì mang oxy trực tiếp. Nhóm O Rh(-) là nhóm máu cấp cứu khi chưa biết nhóm máu vì ít gây phản ứng truyền máu nhất.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-085",
+      "note_id": 1794031648200,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau"
+      ],
+      "type": "basic",
+      "front": "Khi truyền máu <span style=\"color:#74c0fc\"><b>khối lượng lớn</b></span>, khuyến cáo truyền theo tỉ lệ nào, và cần chú ý gì về chức năng đông máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khuyến cáo hiện nay truyền tỷ lệ <span style=\"color:#51cf66\"><b>1 hồng cầu khối : 1 plasma tươi đông lạnh : 1 đơn vị tiểu cầu</b></span>.<br>2) Khi truyền máu khối lượng lớn cần chú ý đến <span style=\"color:#ff6b6b\"><b>chức năng đông máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Tỉ lệ 1:1:1 tái tạo gần đúng thành phần máu toàn phần: hồng cầu mang oxy, plasma bổ sung yếu tố đông máu, tiểu cầu cầm máu. Truyền khối lượng lớn mà chỉ truyền hồng cầu sẽ làm loãng yếu tố đông máu và tiểu cầu, gây rối loạn đông máu nặng thêm.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-086",
+      "note_id": 1794031648202,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau",
+        "bien-chung"
+      ],
+      "type": "basic",
+      "front": "Truyền máu, dịch <span style=\"color:#74c0fc\"><b>khối lượng lớn</b></span> có thể gây những biến chứng nặng nào, và xử trí ra sao?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Biến chứng: <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt, toan chuyển hóa, rối loạn đông máu</b></span>, làm tăng tỉ lệ tử vong.<br>2) Xử trí: lưu ý <span style=\"color:#51cf66\"><b>ủ ấm, kiểm soát thân nhiệt, duy trì chức năng đông máu và cân bằng kiềm toan</b></span> trong sốc chấn thương.<br><br><b>💡 Giải thích của AI:</b><br>Ba biến chứng này tạo thành bộ ba chết người của truyền máu khối lượng lớn: máu lạnh làm hạ thân nhiệt, hạ thân nhiệt làm rối loạn đông máu và toan chuyển hoá, toan chuyển hoá lại làm đông máu kém hơn. Ủ ấm và kiểm soát kiềm toan là biện pháp phòng ngừa song song với truyền máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-087",
+      "note_id": 1794031648204,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau"
+      ],
+      "type": "basic",
+      "front": "Khi truyền máu khối lượng lớn, khuyến cáo hiện nay truyền tỷ lệ {{c1::<span style=\"color:#51cf66\"><b>1 hồng cầu khối : 1 plasma tươi đông lạnh : 1 đơn vị tiểu cầu</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-088",
+      "note_id": 1794031648206,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Khi sốc mất máu có phối hợp với chấn thương sọ não, tủy sống cần duy trì Hct {{c1::<span style=\"color:#ffd43b\"><b>30–35%</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-089",
+      "note_id": 1794031648208,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> <span style=\"color:#51cf66\"><b>Truyền máu</b></span> càng nhiều càng tốt cho bệnh nhân <span style=\"color:#74c0fc\"><b>sốc mất máu</b></span>?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — truyền máu, dịch khối lượng lớn có thể gây <span style=\"color:#ff6b6b\"><b>hạ thân nhiệt, toan chuyển hóa, rối loạn đông máu</b></span>, làm tăng tỉ lệ tử vong.<br>2) Phải truyền theo tỉ lệ <span style=\"color:#51cf66\"><b>1 hồng cầu khối : 1 plasma tươi đông lạnh : 1 đơn vị tiểu cầu</b></span> và chú ý chức năng đông máu.<br>3) Đồng thời phải <span style=\"color:#51cf66\"><b>ủ ấm, kiểm soát thân nhiệt, duy trì chức năng đông máu và cân bằng kiềm toan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là coi truyền máu là vô hại. Truyền khối lượng lớn không kiểm soát gây bộ ba hạ thân nhiệt — toan chuyển hoá — rối loạn đông máu, làm tử vong tăng thay vì giảm. Truyền máu phải đi kèm ủ ấm, theo dõi đông máu và kiềm toan.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-090",
+      "note_id": 1794031648210,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "bu-mau",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>THUẬT TOÁN QUYẾT ĐỊNH:</b> Các bước <span style=\"color:#51cf66\"><b>bù máu</b></span> trong sốc mất máu theo thứ tự nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Mất máu ồ ạt, sốc nặng → <span style=\"color:#51cf66\"><b>truyền máu ngay với tốc độ nhanh nhất</b></span>, tốt nhất là hồng cầu khối.<br>2) Chưa xác định nhóm máu hoặc đe dọa tử vong → <span style=\"color:#51cf66\"><b>nhóm O Rh(-)</b></span>.<br>3) Truyền khối lượng lớn → tỉ lệ <span style=\"color:#51cf66\"><b>1 hồng cầu khối : 1 plasma tươi đông lạnh : 1 đơn vị tiểu cầu</b></span>, chú ý chức năng đông máu.<br>4) Duy trì Hct <span style=\"color:#ffd43b\"><b>25–30%</b></span>, phối hợp chấn thương sọ não/tủy sống duy trì <span style=\"color:#ffd43b\"><b>30–35%</b></span>.<br>5) Phòng biến chứng truyền khối lượng lớn: <span style=\"color:#51cf66\"><b>ủ ấm, kiểm soát thân nhiệt, duy trì đông máu và cân bằng kiềm toan</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Thuật toán bù máu là: truyền nhanh nhất có thể, đúng nhóm máu cấp cứu khi chưa biết nhóm, đúng tỉ lệ 1:1:1 khi truyền khối lượng lớn, đúng đích Hct, và phòng biến chứng hạ thân nhiệt — toan — rối loạn đông máu trong suốt quá trình.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù máu và chế phẩm máu."
+    },
+    {
+      "id": "SURGR2-CARD-091",
+      "note_id": 1794031648212,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Chỉ định dùng <span style=\"color:#74c0fc\"><b>catecholamin</b></span> trong sốc mất máu đặt ra khi nào, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ định catecholamin <span style=\"color:#ff6b6b\"><b>không đặt ra trong giai đoạn đầu</b></span> của sốc vì khả năng co bóp của tim còn đảm bảo.<br>2) Được chỉ định khi: <span style=\"color:#51cf66\"><b>trụy tim mạch, sốc mất máu nguy kịch hoặc ngừng tim</b></span>.<br>3) Trong giai đoạn muộn của sốc mất máu, catecholamin được chỉ định khi: <span style=\"color:#51cf66\"><b>suy giảm hoạt tính giao cảm và cơ tim bị ức chế</b></span>.<br>4) ⚠️ Tài liệu gốc ghi <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: đặt]</b></span> ở cụm chỉ định catecholamin — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Giai đoạn đầu tim còn co bóp tốt nhờ giao cảm nên không cần catecholamin ngoại sinh — việc cần làm là bù thể tích và cầm máu. Catecholamin chỉ vào khi tim đã trụy hoặc giao cảm đã suy kiệt ở giai đoạn muộn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, chỉ định dùng các thuốc co mạch, trợ tim. 1 cờ [KHÔNG CHẮC: đặt]."
+    },
+    {
+      "id": "SURGR2-CARD-092",
+      "note_id": 1794031648214,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach"
+      ],
+      "type": "basic",
+      "front": "Điều kiện bắt buộc nào phải có <span style=\"color:#51cf66\"><b>trước khi sử dụng catecholamin</b></span> trong sốc mất máu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bù đủ khối lượng tuần hoàn</b></span> vẫn là điều kiện bắt buộc trước khi sử dụng catecholamin.<br><br><b>💡 Giải thích của AI:</b><br>Catecholamin co mạch trên một hệ tuần hoàn còn thiếu thể tích sẽ càng làm giảm tưới máu mô vì mạch đã co mà không có máu để bơm. Vì vậy phải bù đủ thể tích trước — vận mạch không thay được thể tích tuần hoàn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, chỉ định dùng các thuốc co mạch, trợ tim."
+    },
+    {
+      "id": "SURGR2-CARD-093",
+      "note_id": 1794031648216,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Sau khi đã kiểm soát được nguồn chảy máu, <span style=\"color:#ffd43b\"><b>đích huyết áp</b></span> cần đạt là gì, và thay đổi thế nào khi phối hợp chấn thương sọ não/tủy sống?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Khi đã kiểm soát được nguồn chảy máu, huyết áp tâm thu nên duy trì ở mức <span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span> hoặc huyết áp động mạch trung bình <span style=\"color:#ffd43b\"><b>≥ 65 mmHg</b></span> — để đảm bảo tưới máu vành, tưới máu não.<br>2) Khi có phối hợp chấn thương sọ não, tủy sống thì huyết áp động mạch trung bình cần đảm bảo đích cao hơn <span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span>.<br>3) Trong những trường hợp này việc chỉ định thuốc vận mạch cần thực hiện <span style=\"color:#51cf66\"><b>sớm</b></span> nhằm đảm bảo đích huyết động, tránh tổn thương thứ phát ở thần kinh trung ương.<br><br><b>💡 Giải thích của AI:</b><br>Đích huyết áp sau cầm máu (90/65) cao hơn đích trong lúc bù dịch trước cầm máu (80–90 tâm thu): trước cầm máu giữ huyết áp thấp vừa để không bật cục máu đông, sau cầm máu nâng lên để đảm bảo tưới máu vành và não. Não và tủy sống đã chấn thương cần đích cao hơn nữa (MAP ≥ 90) vì không chịu được thiếu máu thứ phát.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, kiểm soát đích huyết áp."
+    },
+    {
+      "id": "SURGR2-CARD-094",
+      "note_id": 1794031648218,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Khi đã kiểm soát được nguồn chảy máu, huyết áp tâm thu nên duy trì ở mức {{c1::<span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span>}} hoặc huyết áp động mạch trung bình ≥ 65 mmHg.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, kiểm soát đích huyết áp."
+    },
+    {
+      "id": "SURGR2-CARD-095",
+      "note_id": 1794031648220,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Khi đã kiểm soát được nguồn chảy máu, huyết áp động mạch trung bình nên duy trì ở mức {{c1::<span style=\"color:#ffd43b\"><b>≥ 65 mmHg</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, kiểm soát đích huyết áp."
+    },
+    {
+      "id": "SURGR2-CARD-096",
+      "note_id": 1794031648222,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Khi sốc mất máu có phối hợp chấn thương sọ não, tủy sống thì huyết áp động mạch trung bình cần đảm bảo đích cao hơn {{c1::<span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, kiểm soát đích huyết áp."
+    },
+    {
+      "id": "SURGR2-CARD-097",
+      "note_id": 1794031648224,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Dùng <span style=\"color:#51cf66\"><b>thuốc vận mạch</b></span> ngay từ đầu để nâng huyết áp, chưa cần bù đủ dịch?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — bù đủ khối lượng tuần hoàn vẫn là <span style=\"color:#51cf66\"><b>điều kiện bắt buộc trước khi sử dụng catecholamin</b></span>.<br>2) Chỉ định catecholamin <span style=\"color:#ff6b6b\"><b>không đặt ra trong giai đoạn đầu</b></span> vì khả năng co bóp của tim còn đảm bảo.<br>3) Catecholamin chỉ định khi <span style=\"color:#51cf66\"><b>trụy tim mạch, sốc mất máu nguy kịch, ngừng tim</b></span>, hoặc giai đoạn muộn khi suy giảm hoạt tính giao cảm và cơ tim bị ức chế.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là dùng vận mạch thay cho bù thể tích. Vận mạch co mạch trên một hệ tuần hoàn trống rỗng không tạo ra tưới máu mô — chỉ làm mạch co lại trên không. Thứ tự đúng là: cầm máu, bù đủ thể tích, rồi mới vận mạch nếu vẫn chưa đạt đích huyết động.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, chỉ định dùng các thuốc co mạch, trợ tim."
+    },
+    {
+      "id": "SURGR2-CARD-098",
+      "note_id": 1794031648226,
+      "tags": [
+        "dieu-tri",
+        "soc-mat-mau",
+        "van-mach",
+        "thuat-toan"
+      ],
+      "type": "basic",
+      "front": "⚡ <b>THUẬT TOÁN QUYẾT ĐỊNH:</b> Kiểm soát <span style=\"color:#ffd43b\"><b>đích huyết áp</b></span> trong sốc mất máu theo các giai đoạn nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Trong lúc bù dịch trước cầm máu: duy trì huyết áp tâm thu <span style=\"color:#ffd43b\"><b>80 – 90 mmHg</b></span>.<br>2) Sau khi kiểm soát được nguồn chảy máu: huyết áp tâm thu <span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span> hoặc huyết áp động mạch trung bình <span style=\"color:#ffd43b\"><b>≥ 65 mmHg</b></span>.<br>3) Phối hợp chấn thương sọ não, tủy sống: huyết áp động mạch trung bình <span style=\"color:#ffd43b\"><b>≥ 90 mmHg</b></span>, chỉ định thuốc vận mạch sớm để tránh tổn thương thứ phát ở thần kinh trung ương.<br>4) Điều kiện bắt buộc trước vận mạch: <span style=\"color:#51cf66\"><b>bù đủ khối lượng tuần hoàn</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Đích huyết áp thay đổi theo giai đoạn: thấp vừa trước cầm máu để không bật cục máu đông, cao hơn sau cầm máu để tưới máu vành và não, cao nhất khi não/tủy sống đã chấn thương. Vận mạch chỉ đứng sau bù đủ thể tích.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, bù dịch và kiểm soát đích huyết áp."
+    },
+    {
+      "id": "SURGR2-CARD-099",
+      "note_id": 1794031648228,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "ho-hap"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Oxy liệu pháp</b></span> trong điều trị sốc chấn thương dùng lưu lượng bao nhiêu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Oxy liệu pháp: thở oxy <span style=\"color:#ffd43b\"><b>5–10 l/phút</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Oxy liệu pháp 5–10 l/phút là biện pháp đảm bảo hô hấp cơ bản trong sốc chấn thương, đi kèm với thông thoáng đường thở và cố định cột sống cổ. Khi oxy liệu pháp không đủ thì chuyển sang thông khí nhân tạo theo chỉ định.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, đảm bảo hô hấp cho bệnh nhân."
+    },
+    {
+      "id": "SURGR2-CARD-100",
+      "note_id": 1794031648230,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "ho-hap",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "<span style=\"color:#51cf66\"><b>Thông khí nhân tạo</b></span> khi có chỉ định trong sốc chấn thương gồm những biện pháp nào, và có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#51cf66\"><b>Bóp bóng Ambu</b></span>.<br>2) <span style=\"color:#51cf66\"><b>Đặt nội khí quản</b></span>.<br>3) ⚠️ Tài liệu gốc ghi thêm một biện pháp nữa kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: thở máy...]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Thông khí nhân tạo leo thang từ bóp bóng Ambu tới đặt nội khí quản rồi thở máy. Biện pháp thứ ba chưa đọc chắc nên chỉ ghi kèm cờ — khi thi nhớ hai biện pháp chắc chắn trước, biện pháp thứ ba ghi rõ là chưa chắc chắn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, đảm bảo hô hấp cho bệnh nhân. 1 cờ [KHÔNG CHẮC: thở máy...]."
+    },
+    {
+      "id": "SURGR2-CARD-101",
+      "note_id": 1794031648232,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong",
+        "ho-hap",
+        "nguong"
+      ],
+      "type": "basic",
+      "front": "Oxy liệu pháp trong điều trị sốc chấn thương là thở oxy {{c1::<span style=\"color:#ffd43b\"><b>5–10 l/phút</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ, đảm bảo hô hấp cho bệnh nhân."
+    },
+    {
+      "id": "SURGR2-CARD-102",
+      "note_id": 1794031648234,
+      "tags": [
+        "dieu-tri",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Điều trị <span style=\"color:#51cf66\"><b>hỗ trợ, điều trị các biến chứng và các điều trị phối hợp khác</b></span> trong sốc chấn thương được quyết định thế nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Điều trị hỗ trợ, điều trị các biến chứng và các điều trị phối hợp khác <span style=\"color:#51cf66\"><b>phụ thuộc vào tình trạng bệnh nhân và các tổn thương phối hợp</b></span>.<br>2) Hiệu quả được đánh giá <span style=\"color:#51cf66\"><b>sau hồi sức</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Phần này trong tài liệu không liệt kê cụ thể từng điều trị hỗ trợ — vì mỗi bệnh nhân có tổn thương phối hợp khác nhau nên điều trị hỗ trợ phải cá thể hoá theo tình trạng và tổn thương, rồi đánh giá hiệu quả sau khi đã hồi sức ổn định.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 6.3. Điều trị thực thụ."
+    },
+    {
+      "id": "SURGR2-CARD-103",
+      "note_id": 1794031648236,
+      "tags": [
+        "theo-doi",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Đánh giá và theo dõi bệnh nhân <span style=\"color:#74c0fc\"><b>sốc chấn thương</b></span> gồm những nhóm <span style=\"color:#ff6b6b\"><b>chỉ số</b></span> nào?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Chỉ số <span style=\"color:#ff6b6b\"><b>huyết động</b></span>: mạch, huyết áp, cung lượng tim, PVC...<br>2) Chỉ số <span style=\"color:#ff6b6b\"><b>hô hấp</b></span>: SpO2, PaO2, PaCO2...<br>3) <span style=\"color:#ff6b6b\"><b>Tri giác</b></span>: đánh giá theo thang điểm Glasgow Coma Score.<br>4) <span style=\"color:#ffd43b\"><b>Lượng nước tiểu</b></span>.<br>5) Các chỉ số <span style=\"color:#ffd43b\"><b>điện giải, kiềm toan, lactat máu</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Năm nhóm theo dõi bao phủ toàn bộ hệ cơ quan bị ảnh hưởng trong sốc mất máu: huyết động cho tuần hoàn, hô hấp cho oxy hoá máu, tri giác cho tưới máu não, nước tiểu cho tưới máu thận, điện giải — kiềm toan — lactat cho chuyển hoá. Theo dõi đủ 5 nhóm mới đánh giá được đáp ứng hồi sức.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 7. Đánh giá và theo dõi bệnh nhân."
+    },
+    {
+      "id": "SURGR2-CARD-104",
+      "note_id": 1794031648238,
+      "tags": [
+        "theo-doi",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Tri giác trong theo dõi bệnh nhân sốc chấn thương được đánh giá theo thang điểm {{c1::<span style=\"color:#74c0fc\"><b>Glasgow Coma Score</b></span>}}.",
+      "back": "📖 Nguồn: Transcript Sốc chấn thương, mục 7. Đánh giá và theo dõi bệnh nhân."
+    },
+    {
+      "id": "SURGR2-CARD-105",
+      "note_id": 1794031648240,
+      "tags": [
+        "theo-doi",
+        "soc-chan-thuong",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> Chỉ theo dõi <span style=\"color:#ff6b6b\"><b>huyết áp</b></span> là đủ đánh giá đáp ứng hồi sức trong sốc chấn thương?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tài liệu yêu cầu theo dõi 5 nhóm: <span style=\"color:#ff6b6b\"><b>huyết động</b></span> (mạch, huyết áp, cung lượng tim, PVC), <span style=\"color:#ff6b6b\"><b>hô hấp</b></span> (SpO2, PaO2, PaCO2), <span style=\"color:#ff6b6b\"><b>tri giác</b></span> (Glasgow), <span style=\"color:#ffd43b\"><b>nước tiểu</b></span>, <span style=\"color:#ffd43b\"><b>điện giải, kiềm toan, lactat máu</b></span>.<br>2) Huyết áp bình thường ở độ I–II không phản ánh đúng mức độ mất máu, nên chỉ nhìn huyết áp sẽ bỏ sót sốc đang tiến triển.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là theo dõi một chỉ số duy nhất. Huyết áp được cơ chế bù trừ giữ tới khi mất 30% thể tích máu; trong khi đó mạch, nước tiểu, tri giác và lactat thay đổi sớm hơn và phản ánh đúng tưới máu mô hơn.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục 7. Đánh giá và theo dõi bệnh nhân, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-106",
+      "note_id": 1794031648242,
+      "tags": [
+        "cau-hoi",
+        "soc-chan-thuong",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Câu hỏi ôn tập số 1: Các <span style=\"color:#74c0fc\"><b>bệnh cảnh lâm sàng</b></span> gặp trong sốc chấn thương là những đáp án nào theo tài liệu, và đáp án nào kèm cờ chưa chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Theo tài liệu, ba bệnh cảnh là: <span style=\"color:#ff6b6b\"><b>B. Sốc mất máu</b></span>, <span style=\"color:#ff6b6b\"><b>D. Sốc chèn ép tim cấp</b></span>, <span style=\"color:#ff6b6b\"><b>E. Sốc thần kinh</b></span> (tức sốc tuỷ — tài liệu viết sốc do nguyên nhân thần kinh hay sốc tuỷ).<br>2) Đáp án <span style=\"color:#ff6b6b\"><b>A. Sốc phản vệ</b></span> và <span style=\"color:#ff6b6b\"><b>C. Sốc giảm thể tích</b></span> không nằm trong ba bệnh cảnh mà tài liệu liệt kê.<br>3) ⚠️ Đáp án E trong đề thi gốc kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: Sốc thần kinh]</b></span> — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ, không khẳng định.<br><br><b>💡 Giải thích của AI:</b><br>Ba bệnh cảnh này trùng khớp với phần đại cương của bài. Sốc phản vệ là đáp án nhiễu vì thuộc chẩn đoán phân biệt, không phải bệnh cảnh của sốc chấn thương; sốc giảm thể tích là khái niệm rộng hơn, không được liệt kê là một trong ba bệnh cảnh.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục III. Câu hỏi ôn tập số 1, mục 1. Đại cương. 1 cờ [KHÔNG CHẮC: Sốc thần kinh] ở đáp án E."
+    },
+    {
+      "id": "SURGR2-CARD-107",
+      "note_id": 1794031648244,
+      "tags": [
+        "cau-hoi",
+        "soc-chan-thuong",
+        "bang-mat-mau"
+      ],
+      "type": "basic",
+      "front": "Câu hỏi ôn tập số 2: Bệnh nhân mất máu <span style=\"color:#74c0fc\"><b>mức độ III</b></span> có các dấu hiệu nào theo bảng, và vì sao không khẳng định một đáp án đúng duy nhất?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Độ III theo bảng: máu mất <span style=\"color:#ffd43b\"><b>1500 – 2000 ml (30 – 40%)</b></span>, mạch <span style=\"color:#ff6b6b\"><b>&gt; 120 lần/phút</b></span>, huyết áp <span style=\"color:#ff6b6b\"><b>tụt</b></span>, áp lực mạch <span style=\"color:#ff6b6b\"><b>giảm</b></span>, nước tiểu <span style=\"color:#ffd43b\"><b>5 – 15 ml/h</b></span>, dịch thay thế <span style=\"color:#51cf66\"><b>tinh thể, máu</b></span>.<br>2) Đối chiếu các đáp án: <span style=\"color:#51cf66\"><b>A. Thể tích máu mất ước lượng &gt; 30%</b></span> khớp với 30 – 40% của độ III; <span style=\"color:#51cf66\"><b>C. Mạch &gt; 120 lần/phút, huyết áp tụt</b></span> cũng khớp với độ III.<br>3) <span style=\"color:#ff6b6b\"><b>B. Mạch &gt; 100, huyết áp tụt</b></span> không khớp (mạch độ III phải &gt; 120); <span style=\"color:#ff6b6b\"><b>D. Vô niệu</b></span> là độ IV; <span style=\"color:#ff6b6b\"><b>E. Thể tích máu mất &gt; 40%</b></span> là độ IV.<br>4) ⚠️ Vì có <span style=\"color:#ffd43b\"><b>hai đáp án cùng khớp bảng (A và C)</b></span> nên không khẳng định đáp án đúng duy nhất của đề thi — tài liệu không cho đáp án chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Khi ôn câu này, học thuộc toàn bộ hàng độ III của bảng là đủ để đánh giá từng đáp án. Đáp án A đúng về mặt số liệu (độ III là 30–40%, tức &gt; 30%), đáp án C đúng về mặt dấu hiệu lâm sàng — cả hai đều khớp nên đề thi này có hơn một phương án khớp bảng.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục III. Câu hỏi ôn tập số 2, mục 4.1, bảng đánh giá mức độ mất máu."
+    },
+    {
+      "id": "SURGR2-CARD-108",
+      "note_id": 1794031648246,
+      "tags": [
+        "cau-hoi",
+        "soc-chan-thuong",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Câu hỏi ôn tập số 3: Chỉ định <span style=\"color:#74c0fc\"><b>cận lâm sàng hữu ích nhất</b></span> giúp chẩn đoán trên bệnh nhân sốc mất máu nghi do chấn thương bụng kín — tài liệu có xếp hạng phương tiện nào hữu ích nhất không, và câu hỏi có gì chưa đọc chắc chắn?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Tài liệu <span style=\"color:#ff6b6b\"><b>không xếp hạng</b></span> phương tiện nào là hữu ích nhất — tài liệu chỉ liệt kê: <span style=\"color:#74c0fc\"><b>Xquang</b></span> cột sống, ngực, khung chậu, xương chi; <span style=\"color:#74c0fc\"><b>siêu âm</b></span> màng phổi, tim, ổ bụng; <span style=\"color:#74c0fc\"><b>CT</b></span> sọ não, lồng ngực, bụng; chỉ định tùy tình trạng bệnh nhân và điều kiện y tế.<br>2) Vì vậy <span style=\"color:#ff6b6b\"><b>không khẳng định đáp án đúng duy nhất</b></span> của câu hỏi số 3 — đáp án chuẩn không có trong tài liệu.<br>3) ⚠️ Bản thân câu hỏi trong đề thi gốc kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: huyết động]</b></span> ở cụm chấn thương bụng kín — chữ mờ, chưa đọc chắc chắn, giữ nguyên cờ.<br><br><b>💡 Giải thích của AI:</b><br>Khi ôn câu này, học thuộc danh sách cận lâm sàng hình ảnh trong tài liệu là đủ để đánh giá từng đáp án (A. Xquang bụng không chuẩn bị, B. siêu âm ngực bụng tại giường, C. MSCT ngực bụng, D. chọc dò ổ bụng, E. siêu âm ổ bụng tổng quát tại phòng siêu âm). Việc chọn phương tiện hữu ích nhất phụ thuộc tình trạng huyết động và điều kiện y tế — tài liệu không cho đáp án nên không bịa.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục III. Câu hỏi ôn tập số 3, mục 4.2. Cận lâm sàng. 1 cờ [KHÔNG CHẮC: huyết động] trong câu hỏi."
+    },
+    {
+      "id": "SURGR2-CARD-109",
+      "note_id": 1794031648248,
+      "tags": [
+        "cau-hoi",
+        "soc-chan-thuong",
+        "co-khong-chac"
+      ],
+      "type": "basic",
+      "front": "Câu hỏi ôn tập số 4: <span style=\"color:#ffd43b\"><b>Đích điều trị</b></span> cần đạt trên bệnh nhân sốc mất máu đã phẫu thuật cầm máu — những đáp án nào khớp với tài liệu, và đáp án nào không có trong tài liệu?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Sau khi kiểm soát nguồn chảy máu, huyết áp động mạch trung bình nên duy trì <span style=\"color:#ffd43b\"><b>≥ 65 mmHg</b></span> — đáp án <span style=\"color:#51cf66\"><b>C. MAP &gt; 65 mmHg</b></span> khớp.<br>2) Hematocrit duy trì <span style=\"color:#ffd43b\"><b>25–30%</b></span> sau mổ — đáp án <span style=\"color:#51cf66\"><b>D. Hematocrit &gt; 25%</b></span> khớp với mốc duy trì này.<br>3) <span style=\"color:#ff6b6b\"><b>A. MAP &gt; 50 mmHg</b></span> thấp hơn đích (≥ 65); <span style=\"color:#ff6b6b\"><b>B. Hematocrit &gt; 20%</b></span> thấp hơn mốc duy trì sau mổ (25–30%).<br>4) <span style=\"color:#ff6b6b\"><b>E. Nước tiểu &gt; 0,5 ml/kg/h</b></span> không có trong tài liệu này — tài liệu chỉ ghi lượng nước tiểu giảm hoặc vô niệu và bảng phân độ theo ml/h; bản thân đáp án E còn kèm cờ <span style=\"color:#ffd43b\"><b>[KHÔNG CHẮC: &gt;]</b></span>.<br>5) ⚠️ Vì có <span style=\"color:#ffd43b\"><b>hai đáp án cùng khớp tài liệu (C và D)</b></span> nên không khẳng định đáp án đúng duy nhất của đề thi — tài liệu không cho đáp án chuẩn.<br><br><b>💡 Giải thích của AI:</b><br>Khi ôn câu này, học thuộc đích sau cầm máu (HA tâm thu ≥ 90 hoặc MAP ≥ 65; Hct 25–30% sau mổ) là đủ để đánh giá từng đáp án. Lưu ý đích 80–90 mmHg là đích trong lúc bù dịch trước cầm máu, không phải đích sau khi đã phẫu thuật cầm máu.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục III. Câu hỏi ôn tập số 4, mục 6.3. Điều trị thực thụ. 1 cờ [KHÔNG CHẮC: &gt;] ở đáp án E."
+    },
+    {
+      "id": "SURGR2-CARD-110",
+      "note_id": 1794031648250,
+      "tags": [
+        "cau-hoi",
+        "soc-chan-thuong",
+        "bay"
+      ],
+      "type": "basic",
+      "front": "❌ <b>Bẫy lâm sàng:</b> 4 câu hỏi ôn tập cuối bài có <span style=\"color:#74c0fc\"><b>đáp án chuẩn</b></span> trong tài liệu không?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) <span style=\"color:#ff6b6b\"><b>Không</b></span> — tài liệu chỉ đưa câu hỏi và các phương án, không cho đáp án chuẩn.<br>2) Cách ôn đúng là học thuộc <span style=\"color:#51cf66\"><b>kiến thức nền trong bài</b></span> rồi dùng kiến thức đó đánh giá từng đáp án.<br>3) Một số câu có hơn một đáp án khớp với tài liệu (câu 2: A và C; câu 4: C và D), một số câu tài liệu không xếp hạng đáp án (câu 3) — những trường hợp này <span style=\"color:#ff6b6b\"><b>không được bịa đáp án đúng duy nhất</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Bẫy là học thuộc một đáp án do người khác đoán mà không kiểm chứng với tài liệu. Với barem thi không có đáp án, đáp án đúng chỉ được khẳng định khi tài liệu chứng minh trực tiếp — còn lại phải giữ nguyên sự không chắc chắn và ôn bằng kiến thức nền.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục III. Câu hỏi ôn tập."
+    },
+    {
+      "id": "SURGR2-CARD-111",
+      "note_id": 1794031648252,
+      "tags": [
+        "tai-lieu",
+        "soc-chan-thuong"
+      ],
+      "type": "basic",
+      "front": "Bốn <span style=\"color:#74c0fc\"><b>tài liệu tham khảo</b></span> cuối bài sốc chấn thương là gì (tên và năm)?",
+      "back": "<b>🎯 Trả lời cốt lõi:</b><br>1) Nguyễn Đạt Anh, Đặng Quốc Tuấn <span style=\"color:#ffd43b\"><b>(2012)</b></span>. Bản dịch tiếng Việt <span style=\"color:#74c0fc\"><b>Hồi sức cấp cứu — Tiếp cận phác đồ</b></span>. Nhà xuất bản Y học.<br>2) Nguyễn Hữu Tú <span style=\"color:#ffd43b\"><b>(2014)</b></span>. <span style=\"color:#74c0fc\"><b>Gây mê hồi sức</b></span>. Nhà xuất bản Y học.<br>3) Nguyễn Hữu Tú <span style=\"color:#ffd43b\"><b>(2017)</b></span>. <span style=\"color:#74c0fc\"><b>Bài giảng gây mê hồi sức cơ sở</b></span>. Nhà xuất bản Y học.<br>4) NSW Institute of Trauma and Injury Management <span style=\"color:#ffd43b\"><b>(2007)</b></span>. <span style=\"color:#74c0fc\"><b>Management of Hypovolaemic Shock in the Trauma Patients</b></span>.<br><br><b>💡 Giải thích của AI:</b><br>Chỉ dạy tên tác giả, năm và tên tài liệu như trong sách — tài liệu tham khảo của bài không ghi mã số bài báo nào. Tài liệu số 4 là nguồn tiếng Anh duy nhất trong danh sách, về xử trí sốc giảm thể tích do chấn thương.<br><br>📖 Nguồn: Transcript Sốc chấn thương, mục IV. Tài liệu tham khảo."
+    }
+  ]
+}
