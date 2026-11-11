@@ -1,0 +1,31 @@
+{
+  "id": "SURG-R1",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R1: Sốc Nhiễm Khuẩn",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T20:54:50",
+  "cards_source": "surgr1_cards_data.py",
+  "cards_source_sha256": "590fb94e050364ebca60492a293d5234872794d65047221e6a09bcc55ba7deaa",
+  "card_count": 40,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-R1_Soc_nhiem_khuan\\SURG-R1_Soc_nhiem_khuan_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 40,
+    "archived": 147,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 40
+  },
+  "apkg_sha256": "c8367c25ebbba16c57f94199515dd37be2c0b1568340ccefd2cdb0522d2b3ace",
+  "sqlite_notes": 40,
+  "sqlite_cards": 60
+}
