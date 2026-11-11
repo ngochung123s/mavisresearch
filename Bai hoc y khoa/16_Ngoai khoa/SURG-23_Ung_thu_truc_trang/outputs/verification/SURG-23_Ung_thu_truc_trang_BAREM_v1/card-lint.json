@@ -1,0 +1,31 @@
+{
+  "id": "SURG-23",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-23: Ung Thư Trực Tràng",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T20:29:31",
+  "cards_source": "surg23_cards_data.py",
+  "cards_source_sha256": "f769c07c48cce0d013e2c428e00dd02cae600496b63472fbf417692bc6ae7f83",
+  "card_count": 34,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-23_Ung_thu_truc_trang\\SURG-23_Ung_thu_truc_trang_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 34,
+    "archived": 0,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 34
+  },
+  "apkg_sha256": "96972de56ca8e8db7a34d487356fccb7669483973f7aa58e57be47a349a692e6",
+  "sqlite_notes": 34,
+  "sqlite_cards": 49
+}

@@ -1,0 +1,14 @@
+{
+  "id": "SURG-23",
+  "specialty": "ngoai",
+  "profile": "disease",
+  "lesson": "SURG-23_Ung_thu_truc_trang_BAREM.md",
+  "barem": "SURG-23_Ung_thu_truc_trang_BAREM.md",
+  "required_sections": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+  "deck": {
+    "deck_id": 7600000000023,
+    "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-23: Ung Thư Trực Tràng",
+    "basename": "SURG-23_Ung_thu_truc_trang_BAREM_v1",
+    "cards_source": "surg23_cards_data.py"
+  }
+}

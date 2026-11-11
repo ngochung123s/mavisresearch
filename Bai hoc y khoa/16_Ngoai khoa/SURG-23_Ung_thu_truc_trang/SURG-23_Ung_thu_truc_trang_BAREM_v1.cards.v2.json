@@ -1,0 +1,598 @@
+{
+  "deck_id": 7600000000023,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-23: Ung Thư Trực Tràng",
+  "card_count": 34,
+  "cards": [
+    {
+      "id": "SURG23-B0-01",
+      "type": "basic",
+      "topic": "Dịch tễ học toàn cầu UTTT 2018",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ toàn cầu 2018]</span> Số ca mắc mới, tử vong, thứ hạng giới tính và phân bố địa lý của Ung thư trực tràng?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Gánh nặng toàn cầu:</b> Khoảng <span style=\"color: #ffd43b; font-weight: bold;\">704.376 ca mới mắc (3,9%)</span>, đứng hàng thứ <span style=\"color: #ffd43b; font-weight: bold;\">8</span>; khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">310.394 ca tử vong (3,2%)</span>, đứng hàng thứ <span style=\"color: #ff6b6b; font-weight: bold;\">9</span>.<br>2) <b>Xếp hạng nam vs nữ:</b> Phổ biến thứ <span style=\"color: #ffd43b; font-weight: bold;\">4 ở nam giới</span> và thứ <span style=\"color: #ffd43b; font-weight: bold;\">3 ở nữ giới</span>.<br>3) <b>Phân bố địa lý:</b> Cao nhất tại <span style=\"color: #51cf66; font-weight: bold;\">Úc, New Zealand, Châu Âu, Bắc Mỹ</span>; thấp nhất tại <span style=\"color: #51cf66; font-weight: bold;\">Châu Phi và Nam – Trung Á</span>.<br><br>💡 Giải thích của AI:<br>UTTT là ung thư phổ biến hàng đầu vùng tiểu khung, đặc biệt liên quan mật thiết tới lối sống công nghiệp hóa phương Tây.",
+      "extra": "[B0.01, B0.02]",
+      "tags": [
+        "Ngoai::SURG-23::B0",
+        "Tier-1",
+        "Ngoai::Dich-te",
+        "Ngoai::Toan-cau",
+        "Ngoai::Dia-ly"
+      ]
+    },
+    {
+      "id": "SURG23-B0-02",
+      "type": "basic",
+      "topic": "Sàng lọc, lý do phát hiện muộn & Hướng dẫn NCCN",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Sàng lọc & NCCN]</span> Phương pháp sàng lọc phát hiện sớm UTTT, nguyên nhân hay phát hiện muộn, 3 mô thức theo NCCN và tỷ lệ sống 5 năm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sàng lọc trọng tâm:</b> Dựa vào khám sàng lọc, quản lý nhóm nguy cơ cao bằng <span style=\"color: #51cf66; font-weight: bold;\">thăm trực tràng bằng tay</span>.<br>2) <b>Lý do hay phát hiện muộn:</b> Thường nhầm lẫn với các bệnh lý lành tính vùng hậu môn – trực tràng như <span style=\"color: #ff6b6b; font-weight: bold;\">trĩ, kiết lỵ, nứt kẽ hậu môn</span>.<br>3) <b>Ba mô thức NCCN &amp; Sống 5 năm:</b> Phối hợp <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật + Hóa chất + Tia xạ</span>; phát hiện sớm và điều trị triệt để cho tỷ lệ sống trên 5 năm đạt <span style=\"color: #51cf66; font-weight: bold;\">60% – 90%</span>.<br><br>💡 Giải thích của AI:<br>Đừng bao giờ điều trị bệnh trĩ hay kiết lỵ kéo dài ở người trên 40 tuổi mà chưa đưa ngón tay vào thăm khám trực tràng.",
+      "extra": "[B0.03, B0.04]",
+      "tags": [
+        "Ngoai::SURG-23::B0",
+        "Tier-1",
+        "Ngoai::Sang-loc",
+        "Ngoai::NCCN",
+        "Ngoai::Chan-doan-nham",
+        "Ngoai::Song-5-nam"
+      ]
+    },
+    {
+      "id": "SURG23-B1-01",
+      "type": "basic",
+      "topic": "Phân đoạn giải phẫu 3 phần trực tràng",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu trực tràng ~15 cm]</span> Cách chia 3 phân đoạn Ung thư trực tràng (cao / giữa / thấp) tính từ rìa hậu môn theo Hội Phẫu thuật viên Đại trực tràng Hoa Kỳ?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>UTTT 1/3 trên (UTTT cao):</b> Bờ dưới u cách rìa hậu môn <span style=\"color: #51cf66; font-weight: bold;\">11 – 15 cm</span>. Đoạn này phần lớn <span style=\"color: #ffd43b; font-weight: bold;\">có phúc mạc che phủ mặt trước và hai bên</span>.<br>2) <b>UTTT 1/3 giữa (UTTT giữa):</b> Bờ dưới u cách rìa hậu môn <span style=\"color: #ffd43b; font-weight: bold;\">6 – 10 cm</span>.<br>3) <b>UTTT 1/3 dưới (UTTT thấp):</b> Bờ dưới u cách rìa hậu môn <span style=\"color: #ff6b6b; font-weight: bold;\">< 6 cm</span>.<br><br>💡 Giải thích của AI:<br>Vị trí 1/3 trên, giữa hay dưới tính theo khoảng cách bờ dưới khối u tới rìa hậu môn là mốc giải phẫu quyết định chỉ định xạ trị tiền phẫu và phẫu thuật bảo tồn cơ thắt.",
+      "extra": "[B1.01]",
+      "tags": [
+        "Ngoai::SURG-23::B1",
+        "Tier-1",
+        "Ngoai::Giai-phau",
+        "Ngoai::Phan-doan",
+        "Ngoai::Ria-hau-mon"
+      ]
+    },
+    {
+      "id": "SURG23-B1-02",
+      "type": "basic",
+      "topic": "Sinh lý trực tràng và Cơ chế đại tiện",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Sinh lý trực tràng]</span> Vai trò chứa đựng và 4 thành phần phối hợp tạo nên phản xạ đại tiện tự chủ của con người?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chức năng chứa đựng:</b> Trực tràng chứa phân trước khi tống xuất ra ngoài.<br>2) <b>Hoạt động phối hợp đại tiện:</b> Gồm <span style=\"color: #ffd43b; font-weight: bold;\">phản xạ thần kinh tủy sống – vỏ não</span>, <span style=\"color: #ffd43b; font-weight: bold;\">nhu động co bóp bóng trực tràng</span>, sự giãn mở của <span style=\"color: #51cf66; font-weight: bold;\">cơ thắt trong (cơ trơn tự chủ)</span> và <span style=\"color: #51cf66; font-weight: bold;\">cơ thắt ngoài (cơ vân theo ý muốn)</span>.<br><br>💡 Giải thích của AI:<br>Bảo tồn tối thiểu cơ thắt ngoài và dây thần kinh tự động vùng chậu trong mổ TME giúp giữ được chức năng tự chủ đại tiện sau phẫu thuật.",
+      "extra": "[B1.02]",
+      "tags": [
+        "Ngoai::SURG-23::B1",
+        "Tier-2",
+        "Ngoai::Sinh-ly",
+        "Ngoai::Dai-tien",
+        "Ngoai::Co-that-trong",
+        "Ngoai::Co-that-ngoai"
+      ]
+    },
+    {
+      "id": "SURG23-B2-01",
+      "type": "basic",
+      "topic": "Chế độ ăn uống & Hóa chất sinh ung thư",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dinh dưỡng & Chất sinh ung]</span> Các yếu tố thực phẩm, vitamin/khoáng chất thiếu hụt và nhóm hóa chất gây ung thư trực tràng?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thói quen ăn uống nguy cơ:</b> Nhiều mỡ động vật, nhiều đạm, đường tinh chế, <span style=\"color: #ff6b6b; font-weight: bold;\">ít chất xơ và rau xanh</span>.<br>2) <b>Thiếu hụt vi chất bảo vệ:</b> Thiếu các <span style=\"color: #ffd43b; font-weight: bold;\">vitamin A, B, C, E</span> và <span style=\"color: #ffd43b; font-weight: bold;\">thiếu canxi</span>.<br>3) <b>Hóa chất sinh ung từ thực phẩm:</b> Thực phẩm chế biến sẵn hoặc nướng cháy nhiễm <span style=\"color: #ff6b6b; font-weight: bold;\">nitrosamine</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">hydrocarbon thơm đa vòng</span>.<br><br>💡 Giải thích của AI:<br>Chế độ ăn giàu chất xơ giúp pha loãng các chất sinh ung trong lòng ruột và rút ngắn thời gian tiếp xúc với niêm mạc trực tràng.",
+      "extra": "[B2.01]",
+      "tags": [
+        "Ngoai::SURG-23::B2",
+        "Tier-2",
+        "Ngoai::Dinh-duong",
+        "Ngoai::Nitrosamine",
+        "Ngoai::Vitamin",
+        "Ngoai::Chat-xo"
+      ]
+    },
+    {
+      "id": "SURG23-B2-02",
+      "type": "basic",
+      "topic": "Polyp tăng sản vs Polyp tuyến (nguy cơ ác tính)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Polyp đại trực tràng]</span> So sánh tỷ lệ, hình thái và nguy cơ ác tính giữa <span style=\"color: #51cf66; font-weight: bold;\">Polyp tăng sản</span> và 3 nhóm <span style=\"color: #ff6b6b; font-weight: bold;\">Polyp tuyến (đặc biệt tuyến nhung mao)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Polyp tăng sản (Hyperplastic polyp):</b> Chiếm <span style=\"color: #51cf66; font-weight: bold;\">90%</span> tổng số polyp, kích thước < 5 mm, <span style=\"color: #51cf66; font-weight: bold;\">không có nguy cơ chuyển dạng ác tính</span>.<br>2) <b>Polyp tuyến (Adenomatous polyp - 10%):</b> Chia làm 3 dưới nhóm là <span style=\"color: #ffd43b; font-weight: bold;\">tuyến ống (tubular)</span>, <span style=\"color: #ffd43b; font-weight: bold;\">tuyến nhung mao (villous)</span> và <span style=\"color: #ffd43b; font-weight: bold;\">tuyến ống – nhung mao</span>.<br>3) <b>Polyp tuyến nhung mao:</b> Tập trung chủ yếu ở <span style=\"color: #ff6b6b; font-weight: bold;\">trực tràng</span>, thường <span style=\"color: #ffd43b; font-weight: bold;\">không có cuống</span>, mang nguy cơ ác tính cao nhất (khi kích thước > 2 cm tỷ lệ hóa ác lên tới <span style=\"color: #ff6b6b; font-weight: bold;\">40% – 50%</span>).<br><br>💡 Giải thích của AI:<br>Polyp nhung mao trực tràng kích thước > 2 cm bắt buộc phải đánh giá sâu chân polyp bằng siêu âm nội soi trước khi cắt qua niêm mạc.",
+      "extra": "[B2.02]",
+      "tags": [
+        "Ngoai::SURG-23::B2",
+        "Tier-1",
+        "Ngoai::Polyp-nhung-mao",
+        "Ngoai::Polyp-tang-san",
+        "Ngoai::Polyp-tuyen",
+        "Ngoai::Ac-tinh"
+      ]
+    },
+    {
+      "id": "SURG23-B2-03",
+      "type": "basic",
+      "topic": "Các hội chứng di truyền: FAP và Hội chứng Lynch",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Di truyền học UTTT]</span> Biến thể lâm sàng, đột biến gen và vị trí nhiễm sắc thể của <span style=\"color: #ff6b6b; font-weight: bold;\">FAP</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Hội chứng Lynch (HNPCC)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bệnh đa polyp tuyến gia đình (FAP):</b> Bao gồm các biến thể <span style=\"color: #ffd43b; font-weight: bold;\">Gardner và Turcot</span>; do đột biến <span style=\"color: #ff6b6b; font-weight: bold;\">gen APC trên nhiễm sắc thể 5q21</span>.<br>2) <b>Hội chứng Lynch (HNPCC):</b> Ung thư đại trực tràng di truyền không đa polyp, do đột biến nhóm gen <span style=\"color: #51cf66; font-weight: bold;\">sửa chữa sai lệch DNA (mismatch repair)</span>.<br><br>💡 Giải thích của AI:<br>Hội chứng Gardner (FAP + u xương, u mô mềm) và hội chứng Turcot (FAP + u não) là hai biến thể ngoài đường tiêu hóa kinh điển của đột biến APC 5q21.",
+      "extra": "[B2.03]",
+      "tags": [
+        "Ngoai::SURG-23::B2",
+        "Tier-1",
+        "Ngoai::FAP",
+        "Ngoai::Gardner",
+        "Ngoai::Turcot",
+        "Ngoai::5q21",
+        "Ngoai::Lynch",
+        "Ngoai::MMR"
+      ]
+    },
+    {
+      "id": "SURG23-B3-01",
+      "type": "basic",
+      "topic": "Mô bệnh học WHO 2000 và Độ biệt hóa Morson 1976",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh vi thể]</span> Tỷ lệ các thể mô bệnh học theo WHO 2000 và 3 mức độ biệt hóa mô học theo Morson (1976)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hệ thống WHO 2000:</b> <span style=\"color: #51cf66; font-weight: bold;\">98% là Ung thư biểu mô tuyến (Adenocarcinoma)</span> (tuyến ống, tuyến nhú, tuyến nhầy, tế bào nhẫn). Các thể hiếm gặp: U tế bào vảy, <span style=\"color: #ffd43b; font-weight: bold;\">u Carcinoid thần kinh nội tiết (0,4%)</span>, <span style=\"color: #ffd43b; font-weight: bold;\">lymphoma (1,3%)</span>, <span style=\"color: #ffd43b; font-weight: bold;\">sarcoma mô liên kết (0,3%)</span>.<br>2) <b>Độ biệt hóa Morson (1976):</b> Biệt hóa cao <span style=\"color: #51cf66; font-weight: bold;\">20%</span>, Biệt hóa vừa <span style=\"color: #ffd43b; font-weight: bold;\">60%</span>, Biệt hóa kém <span style=\"color: #ff6b6b; font-weight: bold;\">20%</span>.<br><br>💡 Giải thích của AI:<br>Thể tế bào nhẫn và độ biệt hóa kém (20%) có tiên lượng xấu, dễ xâm lấn sâu và di căn hạch bạch huyết sớm.",
+      "extra": "[B3.01, B3.02]",
+      "tags": [
+        "Ngoai::SURG-23::B3",
+        "Tier-1",
+        "Ngoai::WHO-2000",
+        "Ngoai::Adenocarcinoma",
+        "Ngoai::Morson-1976",
+        "Ngoai::Biet-hoa"
+      ]
+    },
+    {
+      "id": "SURG23-B3-02",
+      "type": "basic",
+      "topic": "Hướng xâm lấn tại chỗ và Đường di căn hạch / máu",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Hướng phát triển và lan tràn]</span> Ba hướng xâm lấn tại chỗ, hai hướng di căn hạch bạch huyết và con đường di căn máu đến <span style=\"color: #ff6b6b; font-weight: bold;\">Gan</span> vs <span style=\"color: #ffd43b; font-weight: bold;\">Phổi, Xương, Não</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Xâm lấn tại chỗ:</b> Phía sau dính <span style=\"color: #ffd43b; font-weight: bold;\">cân trước xương cùng, xương cùng cụt</span>; phía trước nữ lan <span style=\"color: #ffd43b; font-weight: bold;\">vách âm đạo, cổ tử cung</span>, nam lan <span style=\"color: #ffd43b; font-weight: bold;\">túi tinh, tuyến tiền liệt, bàng quang</span>; phía dưới xâm lấn <span style=\"color: #ff6b6b; font-weight: bold;\">cơ thắt hậu môn</span> (quyết định bảo tồn cơ thắt).<br>2) <b>Đường bạch huyết:</b> Theo mạch mạc treo trực tràng về <span style=\"color: #51cf66; font-weight: bold;\">hạch cuống mạc treo tràng dưới (MTTT)</span>; riêng UTTT thấp còn di căn sang hai bên theo <span style=\"color: #ff6b6b; font-weight: bold;\">bó mạch chậu trong (khoang chậu hông)</span>.<br>3) <b>Đường máu:</b> TM trực tràng trên đổ về <span style=\"color: #ff6b6b; font-weight: bold;\">hệ TM cửa → di căn gan (30% – 50%)</span>; TM trực tràng giữa &amp; dưới đổ về <span style=\"color: #ffd43b; font-weight: bold;\">TM chủ bụng → di căn phổi, xương, não</span>.<br><br>💡 Giải thích của AI:<br>Sự dẫn lưu tĩnh mạch kép của trực tràng giải thích vì sao UTTT thấp có thể di căn thẳng lên phổi qua TM chủ mà không cần qua gan.",
+      "extra": "[B3.03, B3.04]",
+      "tags": [
+        "Ngoai::SURG-23::B3",
+        "Tier-1",
+        "Ngoai::Xam-lan",
+        "Ngoai::Di-can-hach",
+        "Ngoai::Di-can-mau",
+        "Ngoai::Mach-chau-trong",
+        "Ngoai::Gan-phoi"
+      ]
+    },
+    {
+      "id": "SURG23-B4-01",
+      "type": "basic",
+      "topic": "Triệu chứng cơ năng Ung thư trực tràng",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Triệu chứng cơ năng]</span> Đặc điểm <span style=\"color: #ff6b6b; font-weight: bold;\">Đại tiện ra máu (60,4%)</span>, rối loạn đại tiện và tính chất đau vùng hạ vị – tầng sinh môn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đại tiện ra máu (60,4%):</b> Triệu chứng thường gặp và xuất hiện sớm nhất; máu <span style=\"color: #ff6b6b; font-weight: bold;\">đỏ tươi hoặc lờ lờ máu cá lẫn chất nhầy</span>, đi nhiều lần/ngày, hay chẩn đoán nhầm bệnh trĩ hoặc kiết lỵ.<br>2) <b>Rối loạn đại tiện:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Mót rặn thường xuyên</span>, cảm giác đi ngoài không hết phân (tenesmus), biến đổi khuôn phân (<span style=\"color: #ffd43b; font-weight: bold;\">phân dẹt hoặc có rãnh</span>).<br>3) <b>Đau hạ vị &amp; tầng sinh môn:</b> Đau tức nặng, buốt rát lan <span style=\"color: #ff6b6b; font-weight: bold;\">ra sau lưng hoặc xuống đùi</span> khi khối u xâm lấn <span style=\"color: #ff6b6b; font-weight: bold;\">đám rối thần kinh cùng cụt</span>.<br><br>💡 Giải thích của AI:<br>Hội chứng giả lỵ (mót rặn + đi nhiều lần + nhầy máu cá) kéo dài trên 2 tuần ở người lớn tuổi là chỉ định nội soi trực tràng khẩn.",
+      "extra": "[B4.01, B4.02]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::Dai-tien-ra-mau",
+        "Ngoai::Mot-ran",
+        "Ngoai::Phan-det",
+        "Ngoai::Hoi-chung-gia-ly"
+      ]
+    },
+    {
+      "id": "SURG23-B4-02",
+      "type": "basic",
+      "topic": "Thăm trực tràng bằng tay (DRE - Digital Rectal Examination)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Thăm trực tràng DRE]</span> Tỷ lệ phát hiện bệnh của thăm trực tràng bằng tay và <span style=\"color: #51cf66; font-weight: bold;\">5 thông số</span> lâm sàng cần xác định?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giá trị chẩn đoán:</b> Là phương pháp kinh điển, đơn giản nhưng cho phép chẩn đoán xác định tới <span style=\"color: #51cf66; font-weight: bold;\">70% trường hợp</span> UTTT.<br>2) <b>Hình thái u &amp; Vị trí thành:</b> Sờ thấy u sùi hoặc loét bờ cứng; xác định vị trí ở <span style=\"color: #ffd43b; font-weight: bold;\">thành trước, thành sau hay thành bên</span>.<br>3) <b>Khoảng cách rìa hậu môn:</b> Đo bờ dưới khối u cách rìa hậu môn <span style=\"color: #51cf66; font-weight: bold;\">bao nhiêu cm</span> (quyết định khả năng giữ cơ thắt).<br>4) <b>Độ di động &amp; Dính máu:</b> Đánh giá u còn <span style=\"color: #ffd43b; font-weight: bold;\">di động hay đã dính cố định</span> vào xung quanh; rút ngón tay kiểm tra <span style=\"color: #ff6b6b; font-weight: bold;\">găng dính máu theo tay</span>.<br><br>💡 Giải thích của AI:<br>Khoảng cách bờ dưới khối u tới rìa hậu môn đo bằng ngón tay khi DRE là thông số đầu tiên phẫu thuật viên dùng để dự kiến phương pháp mổ.",
+      "extra": "[B4.03]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::DRE",
+        "Ngoai::Tham-truc-trang",
+        "Ngoai::70-phan-tram",
+        "Ngoai::Gang-dinh-mau"
+      ]
+    },
+    {
+      "id": "SURG23-B4-03",
+      "type": "basic",
+      "topic": "Nội soi trực tràng ống mềm & Siêu âm nội soi (ERUS)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng: Nội soi & ERUS]</span> Nhiệm vụ bắt buộc khi nội soi ống mềm và thế mạnh chuyên biệt của <span style=\"color: #ffd43b; font-weight: bold;\">Siêu âm qua nội soi trực tràng (ERUS)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nội soi trực tràng / đại trực tràng ống mềm:</b> Quan sát trực tiếp tổn thương, xác định vị trí u so với đường lược và rìa hậu môn; <span style=\"color: #ff6b6b; font-weight: bold;\">bắt buộc bấm sinh thiết làm giải phẫu bệnh</span>.<br>2) <b>Siêu âm qua nội soi trực tràng (ERUS):</b> Đánh giá cực kỳ chính xác độ sâu xâm lấn từng lớp thành trực tràng (phân biệt rõ <span style=\"color: #51cf66; font-weight: bold;\">T1, T2, T3</span>) và đánh giá tình trạng xâm lấn <span style=\"color: #ffd43b; font-weight: bold;\">cơ thắt hậu môn</span>.<br><br>💡 Giải thích của AI:<br>ERUS vượt trội hơn MRI trong việc phân tách ranh giới giữa lớp dưới niêm mạc (T1) và lớp cơ (T2) cho các khối u giai đoạn rất sớm.",
+      "extra": "[B4.04, B4.05]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::Noi-soi",
+        "Ngoai::Sinh-thiet",
+        "Ngoai::ERUS",
+        "Ngoai::T1-T2-T3"
+      ]
+    },
+    {
+      "id": "SURG23-B4-04",
+      "type": "basic",
+      "topic": "Chụp MRI tiểu khung, CT ngực - bụng / PET-CT & CEA",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng: MRI tiểu khung, CT & CEA]</span> Tại sao MRI tiểu khung là <span style=\"color: #51cf66; font-weight: bold;\">tiêu chuẩn vàng</span> tiền phẫu, vai trò của CT/PET-CT và giá trị của xét nghiệm CEA?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chụp cộng hưởng từ (MRI) tiểu khung:</b> Là <span style=\"color: #51cf66; font-weight: bold;\">tiêu chuẩn vàng hiện nay</span> đánh giá giai đoạn tại chỗ (T), tình trạng xâm lấn <span style=\"color: #ff6b6b; font-weight: bold;\">diện cắt vòng quanh (CRM)</span> và hệ hạch mạc treo trực tràng.<br>2) <b>CT Scanner ngực – bụng &amp; PET-CT:</b> Đánh giá toàn thân phát hiện <span style=\"color: #ffd43b; font-weight: bold;\">di căn gan, phổi, phúc mạc</span>.<br>3) <b>Chất chỉ điểm khối u CEA:</b> Nồng độ CEA tăng cao trước mổ có giá trị lớn để <span style=\"color: #51cf66; font-weight: bold;\">theo dõi tái phát sau phẫu thuật</span>.<br><br>💡 Giải thích của AI:<br>Sau khi cắt triệt căn, CEA sẽ trở về bình thường sau 4–6 tuần; nếu CEA tăng vọt trở lại trong các lần tái khám là báo hiệu tái phát hoặc di căn.",
+      "extra": "[B4.05, B4.06]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::MRI-tieu-khung",
+        "Ngoai::CRM",
+        "Ngoai::CT-PET",
+        "Ngoai::CEA"
+      ]
+    },
+    {
+      "id": "SURG23-B5-01",
+      "type": "basic",
+      "topic": "Phân loại T - Khối u nguyên phát (AJCC 2017)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại AJCC 2017: Khối u T]</span> Tiêu chuẩn giải phẫu phân chia 6 mức độ <span style=\"color: #51cf66; font-weight: bold;\">Tis</span>, <span style=\"color: #51cf66; font-weight: bold;\">T1</span>, <span style=\"color: #ffd43b; font-weight: bold;\">T2</span>, <span style=\"color: #ffd43b; font-weight: bold;\">T3</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">T4a</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">T4b</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tis:</b> Ung thư tại chỗ, khu trú hoàn toàn ở lớp niêm mạc chưa qua màng đáy.<br>2) <b>T1 &amp; T2:</b> <span style=\"color: #51cf66; font-weight: bold;\">T1</span>: xâm lấn tới lớp dưới niêm mạc; <span style=\"color: #ffd43b; font-weight: bold;\">T2</span>: xâm lấn tới lớp cơ thành trực tràng.<br>3) <b>T3:</b> Khối u xâm lấn xuyên qua lớp cơ tới <span style=\"color: #ffd43b; font-weight: bold;\">mô mỡ mạc treo trực tràng</span>.<br>4) <b>T4a &amp; T4b:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">T4a</span>: xâm lấn thủng lớp phúc mạc tạng; <span style=\"color: #ff6b6b; font-weight: bold;\">T4b</span>: xâm lấn trực tiếp vào <span style=\"color: #ff6b6b; font-weight: bold;\">tạng lân cận</span> (tuyến tiền liệt, âm đạo, bàng quang, xương cùng).<br><br>💡 Giải thích của AI:<br>Mốc T3 (ra ngoài thành cơ tới mô mỡ mạc treo) là ngưỡng bắt đầu phải cân nhắc hóa - xạ trị tiền phẫu.",
+      "extra": "[B5.01]",
+      "tags": [
+        "Ngoai::SURG-23::B5",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::AJCC-2017",
+        "Ngoai::Tis-T4b"
+      ]
+    },
+    {
+      "id": "SURG23-B5-02",
+      "type": "basic",
+      "topic": "Phân loại N - Hạch vùng và M - Di căn xa (AJCC 2017)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại AJCC 2017: Hạch N & Di căn M]</span> Số lượng hạch di căn của <span style=\"color: #51cf66; font-weight: bold;\">N0, N1a, N1b, N2</span> và phân nhóm di căn xa <span style=\"color: #ff6b6b; font-weight: bold;\">M1a, M1b, M1c</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hạch vùng (N):</b> <span style=\"color: #51cf66; font-weight: bold;\">N0</span>: chưa di căn hạch; <span style=\"color: #ffd43b; font-weight: bold;\">N1</span>: di căn 1–3 hạch (trong đó <span style=\"color: #ffd43b; font-weight: bold;\">N1a</span>: 1 hạch, <span style=\"color: #ffd43b; font-weight: bold;\">N1b</span>: 2–3 hạch); <span style=\"color: #ff6b6b; font-weight: bold;\">N2</span>: di căn từ <span style=\"color: #ff6b6b; font-weight: bold;\">4 hạch vùng trở lên</span>.<br>2) <b>Di căn xa (M):</b> <span style=\"color: #51cf66; font-weight: bold;\">M0</span>: chưa di căn xa; <span style=\"color: #ff6b6b; font-weight: bold;\">M1a</span>: di căn 1 tạng; <span style=\"color: #ff6b6b; font-weight: bold;\">M1b</span>: di căn nhiều tạng; <span style=\"color: #ff6b6b; font-weight: bold;\">M1c</span>: di căn phúc mạc.<br><br>💡 Giải thích của AI:<br>Di căn phúc mạc được tách riêng thành M1c trong AJCC 2017 do có tiên lượng nặng nhất trong nhóm bệnh di căn xa.",
+      "extra": "[B5.02]",
+      "tags": [
+        "Ngoai::SURG-23::B5",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::AJCC-2017",
+        "Ngoai::N0-N2",
+        "Ngoai::M1a-M1c"
+      ]
+    },
+    {
+      "id": "SURG23-B6-01",
+      "type": "basic",
+      "topic": "Nguyên tắc R0, CRM và Phẫu thuật TME (Heald 1982)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguyên tắc Ngoại khoa: R0, CRM & TME]</span> Ngưỡng an toàn diện cắt dọc, diện cắt vòng quanh (CRM) và ý nghĩa của kỹ thuật <span style=\"color: #51cf66; font-weight: bold;\">TME (Heald 1982)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên tắc diện cắt R0:</b> Diện cắt dọc cách bờ dưới u ít nhất <span style=\"color: #51cf66; font-weight: bold;\">1 – 2 cm</span>; diện cắt vòng quanh (<span style=\"color: #ffd43b; font-weight: bold;\">CRM âm tính > 1 mm</span>).<br>2) <b>Cắt toàn bộ mạc treo trực tràng (TME - Heald 1982):</b> Tiêu chuẩn vàng cho UTTT 1/3 giữa &amp; dưới; phẫu tích sắc bén trong <span style=\"color: #51cf66; font-weight: bold;\">mặt phẳng thần thánh (holy plane)</span>, giữ nguyên bao mạc treo không rách.<br>3) <b>Hiệu quả sống còn của TME:</b> Giúp giảm ngoạn mục tỷ lệ tái phát tại chỗ từ <span style=\"color: #ff6b6b; font-weight: bold;\">30% – 50%</span> xuống chỉ còn dưới <span style=\"color: #51cf66; font-weight: bold;\">5% – 8%</span>.<br><br>💡 Giải thích của AI:<br>Đừng bao giờ xé rách bao mạc treo trực tràng khi phẫu tích trong tiểu khung; rách bao đồng nghĩa để sót tế bào ung thư gây tái phát vùng chậu.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::TME",
+        "Ngoai::Heald-1982",
+        "Ngoai::CRM",
+        "Ngoai::Holy-plane",
+        "Ngoai::R0"
+      ]
+    },
+    {
+      "id": "SURG23-B6-02",
+      "type": "basic",
+      "topic": "Phân loại phẫu thuật UTTT thấp theo Rullier (2013)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại Rullier 2013]</span> Phân chia <span style=\"color: #51cf66; font-weight: bold;\">Type I</span>, <span style=\"color: #ffd43b; font-weight: bold;\">Type II</span>, <span style=\"color: #ffd43b; font-weight: bold;\">Type III</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Type IV</span> dựa trên mối liên hệ giữa u với ống hậu môn / cơ thắt và phương pháp mổ tương ứng?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Type I (cách ống hậu môn > 1 cm):</b> Phẫu thuật bảo tồn cơ thắt, <span style=\"color: #51cf66; font-weight: bold;\">cắt trước rất thấp (ultra-LAR)</span> nối trực tràng – ống hậu môn (CAA).<br>2) <b>Type II (cách ống hậu môn < 1 cm, chưa xâm lấn cơ thắt trong):</b> Cắt một phần cơ thắt trong (<span style=\"color: #ffd43b; font-weight: bold;\">Partial ISR</span>) bảo tồn cơ thắt ngoài.<br>3) <b>Type III (xâm lấn vào cơ thắt trong):</b> Cắt toàn bộ cơ thắt trong (<span style=\"color: #ffd43b; font-weight: bold;\">Total ISR</span>), nối đại tràng với mép hậu môn.<br>4) <b>Type IV (xâm lấn cơ thắt ngoài hoặc cơ nâng hậu môn):</b> Không thể bảo tồn cơ thắt → Bắt buộc <span style=\"color: #ff6b6b; font-weight: bold;\">phẫu thuật cắt cụt trực tràng (Phẫu thuật Miles)</span>.<br><br>💡 Giải thích của AI:<br>Rullier đã mở rộng cơ hội giữ lại hậu môn tự nhiên cho nhiều bệnh nhân UTTT thấp nhờ kỹ thuật cắt gian cơ thắt (ISR).",
+      "extra": "[B6.03, B6.04]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::Rullier-2013",
+        "Ngoai::Ultra-LAR",
+        "Ngoai::Partial-ISR",
+        "Ngoai::Total-ISR",
+        "Ngoai::Miles"
+      ]
+    },
+    {
+      "id": "SURG23-B7-01",
+      "type": "basic",
+      "topic": "Phẫu thuật Miles (APR) và Cắt trước thấp (LAR)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật triệt căn: Miles vs LAR]</span> Phạm vi áp dụng và thao tác kỹ thuật cốt lõi phân biệt giữa <span style=\"color: #ff6b6b; font-weight: bold;\">Phẫu thuật Miles (APR)</span> và <span style=\"color: #51cf66; font-weight: bold;\">Cắt trước thấp (LAR)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phẫu thuật Miles (APR):</b> Áp dụng cho UTTT 1/3 dưới xâm lấn cơ thắt ngoài (Rullier Type IV), u sát rìa hậu môn (<span style=\"color: #ff6b6b; font-weight: bold;\">< 3 – 4 cm</span>) không bảo tồn được hoặc người già mất tự chủ. Thao tác: Cắt bỏ toàn bộ trực tràng + cơ thắt + ống hậu môn, đóng kín tầng sinh môn, làm <span style=\"color: #ff6b6b; font-weight: bold;\">hậu môn nhân tạo vĩnh viễn ở hố chậu trái</span>.<br>2) <b>Phẫu thuật cắt trước thấp (LAR):</b> Áp dụng cho UTTT 1/3 giữa và 1/3 trên (cách rìa hậu môn <span style=\"color: #51cf66; font-weight: bold;\">> 5 – 6 cm</span>). Thao tác: Cắt ĐT xích ma + trực tràng kèm TME, nối đại tràng xuống với mỏm trực tràng thấp bằng <span style=\"color: #51cf66; font-weight: bold;\">máy khâu nối tròn (Stapler)</span>.<br><br>💡 Giải thích của AI:<br>Điểm khác biệt sống còn: LAR bảo tồn được bộ máy cơ thắt để đi ngoài qua đường dưới, trong khi Miles phải mang hậu môn nhân tạo vĩnh viễn suốt đời.",
+      "extra": "[B7.01, B7.02]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::Phau-thuat-Miles",
+        "Ngoai::APR",
+        "Ngoai::LAR",
+        "Ngoai::Stapler",
+        "Ngoai::HMNT-vinh-vien"
+      ]
+    },
+    {
+      "id": "SURG23-B7-02",
+      "type": "basic",
+      "topic": "Cắt u cục bộ (TEM/TAMIS) và Phẫu thuật Hartmann",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật chọn lọc & Cấp cứu]</span> Điều kiện khắt khe để cắt u qua đường hậu môn (<span style=\"color: #51cf66; font-weight: bold;\">TEM / TAMIS</span>) và tình huống áp dụng <span style=\"color: #ffd43b; font-weight: bold;\">Phẫu thuật Hartmann</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cắt u cục bộ qua hậu môn (TEM / TAMIS):</b> Áp dụng cho khối u giai đoạn rất sớm <span style=\"color: #51cf66; font-weight: bold;\">T1N0M0</span>, mô học <span style=\"color: #51cf66; font-weight: bold;\">biệt hóa cao</span>, kích thước nhỏ <span style=\"color: #51cf66; font-weight: bold;\">< 3 cm</span> và chiếm <span style=\"color: #51cf66; font-weight: bold;\">< 30% chu vi</span> lòng ruột.<br>2) <b>Phẫu thuật Hartmann:</b> Cắt đoạn trực tràng mang khối u, <span style=\"color: #ffd43b; font-weight: bold;\">khâu đóng kín mỏm trực tràng dưới</span>, đưa đầu đại tràng trên ra làm hậu môn nhân tạo. Áp dụng trong <span style=\"color: #ff6b6b; font-weight: bold;\">cấp cứu thủng u, tắc ruột hoặc bệnh nhân quá già yếu</span>.<br><br>💡 Giải thích của AI:<br>Cắt u tại chỗ TEM/TAMIS không nạo được hạch mạc treo nên chỉ an toàn khi xác định chắc chắn qua ERUS/MRI là T1N0 và biệt hóa cao.",
+      "extra": "[B7.03]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::TEM",
+        "Ngoai::TAMIS",
+        "Ngoai::Hartmann",
+        "Ngoai::T1N0M0",
+        "Ngoai::Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURG23-B7-03",
+      "type": "basic",
+      "topic": "Xạ trị & Hóa – xạ trị đồng thời tiền phẫu",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Điều trị đa mô thức: Tiền phẫu]</span> Nhóm giai đoạn nào bắt buộc hóa – xạ trị tiền phẫu, hai phác đồ xạ chuẩn và 3 lợi ích mang lại cho cuộc mổ?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhóm giai đoạn áp dụng:</b> Giai đoạn tiến triển tại chỗ (<span style=\"color: #ff6b6b; font-weight: bold;\">T3, T4 hoặc N+</span>).<br>2) <b>Hai phác đồ chuẩn mực:</b> Xạ trị dài ngày (<span style=\"color: #ffd43b; font-weight: bold;\">50,4 Gy kết hợp Capecitabine / 5-FU</span>) hoặc xạ trị ngắn ngày (<span style=\"color: #ffd43b; font-weight: bold;\">5 × 5 Gy</span>).<br>3) <b>Ba tác dụng đột phá:</b> Hạ giai đoạn khối u (<span style=\"color: #51cf66; font-weight: bold;\">downstaging</span>), tăng tỷ lệ cắt triệt căn sạch tế bào u (<span style=\"color: #51cf66; font-weight: bold;\">R0</span>) và nâng cao cơ hội <span style=\"color: #51cf66; font-weight: bold;\">phẫu thuật bảo tồn cơ thắt</span>.<br><br>💡 Giải thích của AI:<br>Hóa xạ trị tiền phẫu giúp thu nhỏ khối u trước khi dao kéo đụng vào, giảm hẳn độc tính ruột non và giảm nguy cơ reo rắc tế bào ung thư.",
+      "extra": "[B7.04]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::Xa-tri-tien-phau",
+        "Ngoai::50.4-Gy",
+        "Ngoai::Downstaging",
+        "Ngoai::R0"
+      ]
+    },
+    {
+      "id": "SURG23-B7-04",
+      "type": "basic",
+      "topic": "Hóa chất bổ trợ sau mổ và Thuốc điều trị đích",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Điều trị đa mô thức: Bổ trợ & Đích]</span> Phác đồ và thời gian hóa chất bổ trợ sau mổ cùng vai trò 2 nhóm thuốc sinh học điều trị đích?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hóa chất bổ trợ sau mổ:</b> Phác đồ <span style=\"color: #51cf66; font-weight: bold;\">FOLFOX hoặc CAPOX</span> duy trì đủ <span style=\"color: #ffd43b; font-weight: bold;\">6 tháng</span> cho bệnh nhân có hạch dương tính (N+) hoặc yếu tố nguy cơ cao.<br>2) <b>Thuốc điều trị đích kháng EGFR:</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Cetuximab hoặc Panitumumab</span> (chỉ định khi xét nghiệm có <span style=\"color: #ffd43b; font-weight: bold;\">gen KRAS hoang dại / wild-type</span>).<br>3) <b>Thuốc điều trị đích kháng sinh mạch:</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Bevacizumab</span> (ức chế tăng sinh mạch máu nuôi khối u).<br><br>💡 Giải thích của AI:<br>Phải kiểm tra tình trạng đột biến gen KRAS/NRAS trước khi kê Cetuximab hay Panitumumab vì bệnh nhân mang đột biến sẽ kháng thuốc hoàn toàn.",
+      "extra": "[B7.05]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::FOLFOX",
+        "Ngoai::CAPOX",
+        "Ngoai::Cetuximab",
+        "Ngoai::Panitumumab",
+        "Ngoai::Bevacizumab",
+        "Ngoai::KRAS"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-01",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy chẩn đoán nhầm với Trĩ và Kiết lỵ",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân 52 tuổi đi ngoài máu đỏ tươi 3 tháng, tự mua thuốc trĩ và thuốc lỵ uống không đỡ. Sai lầm lâm sàng nghiêm trọng nhất của thầy thuốc tuyến dưới là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sai lầm chết người:</b> Nhìn thấy búi trĩ sa hoặc nhầy máu mũi vội kết luận bệnh trĩ / kiết lỵ mà <span style=\"color: #ff6b6b; font-weight: bold;\">không thăm trực tràng bằng tay (DRE)</span> và nội soi.<br>2) <b>Sự thật lâm sàng:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Đại tiện ra máu (60,4%)</span> kèm mót rặn là biểu hiện kinh điển sớm nhất của UTTT; DRE đơn thuần đã phát hiện tới <span style=\"color: #51cf66; font-weight: bold;\">70%</span> ca bệnh.<br>3) <b>Thái độ chuẩn mực:</b> Mọi trường hợp đi máu tươi hoặc thay đổi khuôn phân kéo dài trên người trưởng thành đều phải <span style=\"color: #51cf66; font-weight: bold;\">thăm trực tràng + nội soi ống mềm</span>.<br><br>💡 Giải thích của AI:<br>Một câu kinh điển ngoại khoa: 'Không đút ngón tay vào hậu môn khi khám bệnh thì có ngày phải đặt chính ngón tay vào miệng hối hận'.",
+      "extra": "[B0.03, B4.01, B4.03]",
+      "tags": [
+        "Ngoai::SURG-23::B0",
+        "Tier-1",
+        "Ngoai::Bay-tri",
+        "Ngoai::Kiet-ly",
+        "Ngoai::DRE",
+        "Ngoai::Chan-doan-muon",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-02",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy phân biệt Polyp tăng sản vs Polyp tuyến nhung mao",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Cùng phát hiện polyp ở trực tràng qua nội soi, tại sao <span style=\"color: #51cf66; font-weight: bold;\">Polyp tăng sản</span> an toàn còn <span style=\"color: #ff6b6b; font-weight: bold;\">Polyp nhung mao > 2 cm</span> lại là bom nổ chậm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Polyp tăng sản (Hyperplastic):</b> Chiếm 90%, kích thước nhỏ < 5 mm, <span style=\"color: #51cf66; font-weight: bold;\">hoàn toàn không có nguy cơ chuyển dạng ác tính</span>.<br>2) <b>Polyp nhung mao (Villous):</b> Hay tập trung ở trực tràng, thường không có cuống, xác suất hóa ác cực cao: khi kích thước > 2 cm tỷ lệ ung thư hóa đạt tới <span style=\"color: #ff6b6b; font-weight: bold;\">40% – 50%</span>.<br>3) <b>Thái độ xử lý:</b> Tuyệt đối không bỏ qua polyp không cuống trực tràng; bắt buộc sinh thiết sâu vùng đáy hoặc cắt trọn dưới niêm mạc.<br><br>💡 Giải thích của AI:<br>Polyp không cuống hình nhung mao kích thước > 2 cm ở trực tràng có gần 50% khả năng đã chứa ổ ung thư xâm nhập bên dưới.",
+      "extra": "[B2.02]",
+      "tags": [
+        "Ngoai::SURG-23::B2",
+        "Tier-1",
+        "Ngoai::Polyp-nhung-mao",
+        "Ngoai::Polyp-tang-san",
+        "Ngoai::Ac-tinh",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-03",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy giải phẫu đường di căn máu: Gan vs Phổi",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Tại sao một bệnh nhân Ung thư trực tràng 1/3 dưới có thể xuất hiện nốt di căn <span style=\"color: #ff6b6b; font-weight: bold;\">phổi</span> sớm mà lá <span style=\"color: #51cf66; font-weight: bold;\">gan</span> hoàn toàn bình thường?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phân luồng tĩnh mạch trực tràng trên:</b> Đổ về tĩnh mạch mạc treo tràng dưới → Hệ tĩnh mạch cửa → Dẫn lưu qua gan gây <span style=\"color: #51cf66; font-weight: bold;\">di căn gan (30% – 50%)</span>.<br>2) <b>Phân luồng tĩnh mạch trực tràng giữa &amp; dưới:</b> Đổ qua tĩnh mạch chậu trong vào thẳng <span style=\"color: #ff6b6b; font-weight: bold;\">tĩnh mạch chủ dưới</span> → Bỏ qua màng lọc gan, tiến thẳng lên tim phải gây <span style=\"color: #ff6b6b; font-weight: bold;\">di căn phổi, xương, não</span>.<br><br>💡 Giải thích của AI:<br>Khối u càng nằm thấp ở 1/3 dưới trực tràng thì nguy cơ di căn phổi đơn độc qua đường tĩnh mạch chủ càng cao.",
+      "extra": "[B3.04]",
+      "tags": [
+        "Ngoai::SURG-23::B3",
+        "Tier-1",
+        "Ngoai::Di-can-phoi",
+        "Ngoai::Tinh-mach-cua",
+        "Ngoai::Tinh-mach-chu",
+        "Ngoai::Giai-phau-mach",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-04",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy phẫu tích sai mặt phẳng TME (Holy plane)",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Hậu quả thảm khốc nào xảy ra nếu phẫu thuật viên cắt trực tràng làm rách bao mạc treo trực tràng hoặc phá vỡ <span style=\"color: #ff6b6b; font-weight: bold;\">diện cắt vòng quanh CRM</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nếu rách bao mạc treo trực tràng:</b> Các ổ tế bào ung thư và hạch vi thể bên trong mạc treo bị rơi vãi ra khoang tiểu khung → Đẩy tỷ lệ tái phát tại chỗ vùng chậu lên tới <span style=\"color: #ff6b6b; font-weight: bold;\">30% – 50%</span> (trong khi chuẩn TME giữ nguyên bao giảm xuống < 5–8%).<br>2) <b>Nếu CRM dương tính (≤ 1 mm):</b> Tiên lượng tái phát cực nhanh và tử vong cao; vì vậy bắt buộc phải chụp <span style=\"color: #51cf66; font-weight: bold;\">MRI tiểu khung</span> đánh giá CRM trước mổ để cân nhắc <span style=\"color: #ffd43b; font-weight: bold;\">hóa xạ tiền phẫu</span>.<br><br>💡 Giải thích của AI:<br>Diện cắt CRM dương tính (≤ 1 mm) là thất bại phẫu thuật nặng nề nhất của ngoại khoa ung thư trực tràng.",
+      "extra": "[B4.05, B6.01, B6.02]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::TME",
+        "Ngoai::CRM",
+        "Ngoai::Tai-phat-tai-cho",
+        "Ngoai::Holy-plane",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-05",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy chỉ định bảo tồn cơ thắt ở Rullier Type IV",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân UTTT 1/3 dưới khẩn thiết xin bác sĩ giữ lại hậu môn thật, nhưng MRI tiểu khung cho thấy u đã <span style=\"color: #ff6b6b; font-weight: bold;\">xâm lấn cơ thắt ngoài</span>. Quyết định cố giữ cơ thắt là sai lầm vì sao?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bản chất Rullier Type IV:</b> Khối u đã xâm lấn vào cơ thắt ngoài hoặc cơ nâng hậu môn.<br>2) <b>Hiểm họa nếu cố nối giữ hậu môn:</b> Không thể đạt diện cắt sạch ung thư R0 (diện cắt dọc tối thiểu 1–2 cm), chắc chắn gây tái phát tại chỗ thảm khốc vùng tầng sinh môn.<br>3) <b>Quyết định chuẩn xác:</b> Bắt buộc thực hiện <span style=\"color: #ff6b6b; font-weight: bold;\">Phẫu thuật Miles (APR)</span> cắt cụt toàn bộ trực tràng và ống hậu môn, làm hậu môn nhân tạo vĩnh viễn ở hố chậu trái.<br><br>💡 Giải thích của AI:<br>Nguyên tắc tối thượng của phẫu thuật ung thư: Tính mạng và cắt sạch R0 luôn đặt trên mong muốn thẩm mỹ hay bảo tồn cơ thắt.",
+      "extra": "[B6.04, B7.01]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::Rullier-IV",
+        "Ngoai::Phau-thuat-Miles",
+        "Ngoai::Co-that-ngoai",
+        "Ngoai::R0",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG23-TRAP-06",
+      "type": "basic",
+      "topic": "Bẫy: Cờ đỏ lâm sàng: UTTT xâm lấn Đám rối thần kinh cùng cụt",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Triệu chứng đau đặc hiệu nào báo động khối ung thư trực tràng đã xâm lấn ra thành sau và <span style=\"color: #ff6b6b; font-weight: bold;\">đám rối thần kinh cùng cụt</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cảm giác đau điển hình:</b> Đau tức nặng, buốt rát dữ dội liên tục vùng <span style=\"color: #ff6b6b; font-weight: bold;\">hạ vị và tầng sinh môn</span>.<br>2) <b>Hướng lan đặc trưng:</b> Cơn đau lan xuyên ra <span style=\"color: #ff6b6b; font-weight: bold;\">phía sau lưng (vùng xương cùng cụt)</span> hoặc chạy dọc xuống <span style=\"color: #ff6b6b; font-weight: bold;\">mặt sau đùi</span>.<br>3) <b>Ý nghĩa tiên lượng:</b> Cảnh báo u đã chuyển sang giai đoạn tiến triển xâm lấn tại chỗ sâu (<span style=\"color: #ff6b6b; font-weight: bold;\">T4b</span> dính cố định vào xương cùng), mất khả năng cắt bỏ ngay mà cần đánh giá MRI và hóa xạ tiền phẫu.<br><br>💡 Giải thích của AI:<br>Đau buốt tầng sinh môn lan xuống đùi ở bệnh nhân UTTT là cờ đỏ báo hiệu u cố định xâm lấn đám rối thần kinh chậu.",
+      "extra": "[B4.02, B5.01]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::Co-do",
+        "Ngoai::Dam-roi-cung-cut",
+        "Ngoai::T4b",
+        "Ngoai::Dau-tang-sinh-mon",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG23-ALGO-01",
+      "type": "basic",
+      "topic": "Thuật toán: Quy trình Chẩn đoán xác định và Đánh giá giai đoạn UTTT",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Chẩn đoán & Phân giai đoạn</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Quy trình Chẩn đoán xác định và Đánh giá giai đoạn UTTT</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bước 1 — Sàng lọc lâm sàng:</b> Bệnh nhân đi ngoài máu đỏ tươi / mót rặn / phân dẹt → Thực hiện ngay <span style=\"color: #51cf66; font-weight: bold;\">Thăm trực tràng bằng tay (DRE)</span> (phát hiện 70% trường hợp, đo khoảng cách bờ dưới u đến rìa hậu môn).<br>2) <b>Bước 2 — Xác định mô học:</b> <span style=\"color: #51cf66; font-weight: bold;\">Nội soi đại trực tràng ống mềm + Bấm sinh thiết</span> làm giải phẫu bệnh (98% Adenocarcinoma).<br>3) <b>Bước 3 — Đánh giá tại chỗ T, N, CRM:</b> Chụp <span style=\"color: #ffd43b; font-weight: bold;\">MRI tiểu khung</span> (tiêu chuẩn vàng đánh giá T, CRM, hạch mạc treo) phối hợp <span style=\"color: #ffd43b; font-weight: bold;\">ERUS</span> (chi tiết T1–T3 và cơ thắt).<br>4) <b>Bước 4 — Đánh giá di căn xa M &amp; Theo dõi:</b> Chụp <span style=\"color: #74c0fc; font-weight: bold;\">CT ngực – bụng hoặc PET-CT</span> tìm di căn gan/phổi + Định lượng <span style=\"color: #74c0fc; font-weight: bold;\">CEA</span> nền trước mổ.<br><br>💡 Giải thích của AI:<br>MRI tiểu khung + Nội soi sinh thiết + CT ngực bụng là bộ ba chẩn đoán tiền phẫu bắt buộc trước khi quyết định xạ trị hay mổ thẳng.",
+      "extra": "[B4.01, B4.03, B4.04, B4.05, B4.06]",
+      "tags": [
+        "Ngoai::SURG-23::B4",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Chan-doan",
+        "Ngoai::MRI",
+        "Ngoai::DRE",
+        "Ngoai::ERUS",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG23-ALGO-02",
+      "type": "basic",
+      "topic": "Thuật toán: Thuật toán lựa chọn phương pháp mổ theo Phân loại Rullier (2013)",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật UTTT Thấp</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Thuật toán lựa chọn phương pháp mổ theo Phân loại Rullier (2013)</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Type I (Bờ dưới u cách ống hậu môn > 1 cm):</b><br>   → Bảo tồn toàn bộ cơ thắt: Thực hiện <span style=\"color: #51cf66; font-weight: bold;\">Cắt trước rất thấp (ultra-LAR)</span> và nối trực tràng – ống hậu môn (CAA).<br>2) <b>Type II (Cách ống hậu môn < 1 cm, CHƯA xâm lấn cơ thắt trong):</b><br>   → Bảo tồn cơ thắt ngoài: Thực hiện <span style=\"color: #ffd43b; font-weight: bold;\">Cắt một phần cơ thắt trong (Partial ISR)</span>.<br>3) <b>Type III (Đã xâm lấn VÀO cơ thắt trong):</b><br>   → Nối mép hậu môn: Thực hiện <span style=\"color: #ffd43b; font-weight: bold;\">Cắt toàn bộ cơ thắt trong (Total ISR)</span> + nối đại tràng với mép hậu môn.<br>4) <b>Type IV (Xâm lấn cơ thắt ngoài hoặc cơ nâng hậu môn):</b><br>   → Không thể bảo tồn cơ thắt: Bắt buộc <span style=\"color: #ff6b6b; font-weight: bold;\">Phẫu thuật Miles (APR)</span> cắt cụt trực tràng, làm HMNT vĩnh viễn hố chậu trái.<br><br>💡 Giải thích của AI:<br>Phân loại Rullier giúp chuẩn hóa ranh giới giữa phẫu thuật bảo tồn cơ thắt (ISR/ultra-LAR) và phẫu thuật Miles.",
+      "extra": "[B6.03, B6.04, B7.01]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Rullier",
+        "Ngoai::Ultra-LAR",
+        "Ngoai::ISR",
+        "Ngoai::Miles",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG23-ALGO-03",
+      "type": "basic",
+      "topic": "Thuật toán: Thuật toán Phối hợp Hóa - Xạ trị & Phẫu thuật theo TNM (AJCC 2017)",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Chiến lược Đa mô thức</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Thuật toán Phối hợp Hóa - Xạ trị & Phẫu thuật theo TNM (AJCC 2017)</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhánh 1 — U rất sớm T1 N0 M0 (< 3 cm, < 30% chu vi, biệt hóa cao):</b><br>   → Cân nhắc <span style=\"color: #51cf66; font-weight: bold;\">Cắt u cục bộ qua đường hậu môn (TEM / TAMIS)</span>.<br>2) <b>Nhánh 2 — Giai đoạn sớm T1-T2 N0 M0 (không phù hợp TEM):</b><br>   → Phẫu thuật triệt căn ngay (<span style=\"color: #51cf66; font-weight: bold;\">LAR</span> nếu cách rìa > 5–6 cm; <span style=\"color: #ffd43b; font-weight: bold;\">ultra-LAR/ISR/Miles</span> nếu 1/3 dưới) tuân thủ cắt <span style=\"color: #51cf66; font-weight: bold;\">TME</span>.<br>3) <b>Nhánh 3 — Giai đoạn tiến triển tại chỗ (T3, T4 hoặc N+):</b><br>   → Bước 1: <span style=\"color: #ffd43b; font-weight: bold;\">Hóa – xạ trị đồng thời tiền phẫu</span> (50,4 Gy + Capecitabine/5-FU hoặc 5 × 5 Gy) để giảm giai đoạn downstaging.<br>   → Bước 2: Phẫu thuật triệt căn chuẩn <span style=\"color: #51cf66; font-weight: bold;\">TME</span> bảo đảm <span style=\"color: #51cf66; font-weight: bold;\">R0 / CRM > 1 mm</span>.<br>   → Bước 3: <span style=\"color: #51cf66; font-weight: bold;\">Hóa chất bổ trợ sau mổ 6 tháng (FOLFOX / CAPOX)</span>.<br>4) <b>Nhánh 4 — Bệnh di căn xa (M1) hoặc Tắc/Thủng cấp cứu:</b><br>   → Cấp cứu / suy kiệt: <span style=\"color: #ff6b6b; font-weight: bold;\">Phẫu thuật Hartmann</span>; điều trị toàn thân kết hợp thuốc đích (<span style=\"color: #51cf66; font-weight: bold;\">Cetuximab/Panitumumab</span> nếu KRAS hoang dại; <span style=\"color: #51cf66; font-weight: bold;\">Bevacizumab</span>).<br><br>💡 Giải thích của AI:<br>Chiến lược chuẩn NCCN đặt hóa xạ trị tiền phẫu làm nền tảng cho mọi ca UTTT T3-T4 hoặc hạch dương tính nhằm giảm tối đa tái phát.",
+      "extra": "[B0.04, B7.01, B7.02, B7.03, B7.04, B7.05]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Da-mo-thuc",
+        "Ngoai::TME",
+        "Ngoai::Hoa-xa-tien-phau",
+        "Ngoai::NCCN",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG23-B1-03",
+      "type": "cloze",
+      "topic": "Phân chia 3 đoạn giải phẫu trực tràng",
+      "tier": 1,
+      "text": "Trực tràng dài khoảng 15 cm tính từ rìa hậu môn: Ung thư 1/3 trên (UTTT cao) cách rìa {{c1::<span style=\"color: #51cf66; font-weight: bold;\">11 – 15 cm</span>}}; Ung thư 1/3 giữa cách rìa {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">6 – 10 cm</span>}}; Ung thư 1/3 dưới (UTTT thấp) cách rìa {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">< 6 cm</span>}}.",
+      "extra": "[B1.01]",
+      "tags": [
+        "Ngoai::SURG-23::B1",
+        "Tier-1",
+        "Ngoai::Giai-phau",
+        "Ngoai::Phan-doan",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG23-B3-03",
+      "type": "cloze",
+      "topic": "Mô bệnh học WHO 2000 & Biệt hóa Morson 1976",
+      "tier": 1,
+      "text": "Theo phân loại WHO 2000, {{c1::<span style=\"color: #51cf66; font-weight: bold;\">98%</span>}} ung thư trực tràng là ung thư biểu mô tuyến (Adenocarcinoma); nhóm hiếm gặp gồm u Carcinoid ({{c2::<span style=\"color: #ffd43b; font-weight: bold;\">0,4%</span>}}), lymphoma ({{c3::<span style=\"color: #ffd43b; font-weight: bold;\">1,3%</span>}}) và sarcoma ({{c4::<span style=\"color: #ffd43b; font-weight: bold;\">0,3%</span>}}). Phân độ Morson (1976): biệt hóa cao {{c5::<span style=\"color: #51cf66; font-weight: bold;\">20%</span>}}, biệt hóa vừa {{c6::<span style=\"color: #ffd43b; font-weight: bold;\">60%</span>}}, biệt hóa kém {{c7::<span style=\"color: #ff6b6b; font-weight: bold;\">20%</span>}}.",
+      "extra": "[B3.01, B3.02]",
+      "tags": [
+        "Ngoai::SURG-23::B3",
+        "Tier-1",
+        "Ngoai::WHO-2000",
+        "Ngoai::Morson-1976",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG23-B6-05",
+      "type": "cloze",
+      "topic": "Tiêu chuẩn R0, CRM và Hiệu quả phẫu thuật TME",
+      "tier": 1,
+      "text": "Phẫu thuật UTTT phải đạt diện cắt dọc cách bờ dưới u tối thiểu {{c1::<span style=\"color: #51cf66; font-weight: bold;\">1 – 2 cm</span>}} và diện cắt vòng quanh CRM âm tính {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">> 1 mm</span>}}. Kỹ thuật cắt toàn bộ mạc treo trực tràng TME (Heald 1982) đi trong 'mặt phẳng thần thánh' giúp giảm tỷ lệ tái phát tại chỗ từ {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">30% – 50%</span>}} xuống dưới {{c4::<span style=\"color: #51cf66; font-weight: bold;\">5% – 8%</span>}}.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "Ngoai::SURG-23::B6",
+        "Tier-1",
+        "Ngoai::TME",
+        "Ngoai::CRM",
+        "Ngoai::Heald-1982",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG23-B7-06",
+      "type": "cloze",
+      "topic": "Phác đồ xạ trị tiền phẫu và hóa chất bổ trợ",
+      "tier": 1,
+      "text": "Hóa – xạ đồng thời tiền phẫu UTTT (T3, T4 hoặc N+) dùng phác đồ xạ dài ngày {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">50,4 Gy</span>}} kèm {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">Capecitabine / 5-FU</span>}}, hoặc xạ ngắn ngày {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">5 × 5 Gy</span>}}. Sau mổ duy trì hóa chất bổ trợ {{c4::<span style=\"color: #51cf66; font-weight: bold;\">FOLFOX hoặc CAPOX</span>}} trong thời gian {{c5::<span style=\"color: #51cf66; font-weight: bold;\">6 tháng</span>}}.",
+      "extra": "[B7.04, B7.05]",
+      "tags": [
+        "Ngoai::SURG-23::B7",
+        "Tier-1",
+        "Ngoai::Xa-tri",
+        "Ngoai::50.4-Gy",
+        "Ngoai::FOLFOX",
+        "Ngoai::CAPOX",
+        "Ngoai::Cloze"
+      ]
+    }
+  ]
+}
