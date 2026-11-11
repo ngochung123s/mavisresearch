@@ -36,18 +36,21 @@ class SpecialtyRegistry(unittest.TestCase):
         self.assertEqual(specialties.get("noi").lesson_id_from_folder("IM-07b_Suy_ho_hap_cap"), "IM-07b")
         self.assertEqual(specialties.get("art").lesson_id_from_folder("44_Semen_Analysis"), "ART-44")
         self.assertEqual(specialties.get("vi_sinh").lesson_id_from_folder("V4_HPV"), "MIC-4")
+        self.assertEqual(specialties.get("ngoai").lesson_id_from_folder("SURG-20B_Ung_thu_thuc_quan"), "SURG-20B")
+        self.assertEqual(specialties.get("ngoai").lesson_id_from_folder("SURG-R1_Soc_nhiem_khuan"), "SURG-R1")
         self.assertIsNone(specialties.get("noi").lesson_id_from_folder("IM_khong_ma"))
 
     def test_deck_name_allows_group_level_but_requires_root_and_id(self):
         art = specialties.get("art")
         self.assertIsNone(art.deck_name_error("2. Y Khoa - Sản Phụ Khoa & ART::Hỗ Trợ Sinh Sản (ART)::ART-44 Tinh dịch đồ", "ART-44"))
+        self.assertIsNone(specialties.get("ngoai").deck_name_error("HungMed::Ngoại Khoa Thực Hành::SURG-20B: Ung Thư Thực Quản", "SURG-20B"))
+        self.assertIsNone(specialties.get("ngoai").deck_name_error("HungMed::Ngoại Khoa Thực Hành::SURG-R1: Sốc Nhiễm Khuẩn", "SURG-R1"))
         self.assertIsNotNone(art.deck_name_error("ART::Semen_Analysis::2026-07-13"))
         self.assertIsNotNone(art.deck_name_error("2. Y Khoa - Sản Phụ Khoa & ART::Hỗ Trợ Sinh Sản (ART)::Tinh dịch đồ"))
 
     def test_specialty_found_from_path(self):
         p = specialties.LESSONS_ROOT / "11_Noi khoa" / "02_Tim_mach" / "IM-22_Suy_tim" / "x.md"
         self.assertEqual(specialties.for_path(p).key, "noi")
-
 
 class FormatAndChains(unittest.TestCase):
     def test_tab_from_python_text_escape_and_latex_are_flagged_outside_code_fences(self):

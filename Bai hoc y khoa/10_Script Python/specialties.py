@@ -41,7 +41,7 @@ class Specialty:
 
     @property
     def id_re(self) -> str:
-        return rf"{re.escape(self.id_prefix)}-\d+[a-z]?"
+        return rf"{re.escape(self.id_prefix)}-[A-Za-z]?\d+[A-Za-z]?"
 
     @property
     def archive_root(self) -> str:
