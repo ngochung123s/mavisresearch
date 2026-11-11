@@ -1,0 +1,31 @@
+{
+  "id": "SURG-20B",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-20B: Ung Thư Thực Quản",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T19:41:12",
+  "cards_source": "surg20b_cards_data.py",
+  "cards_source_sha256": "6dac827ebf6614ffe96b4c0db65784b30c82ad15ee4858a060ca584427f7bbc5",
+  "card_count": 60,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-20B_Ung_thu_thuc_quan\\SURG-20B_Ung_thu_thuc_quan_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 60,
+    "archived": 101,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 60
+  },
+  "apkg_sha256": "d4a7584629fb60de77080f7eef628abbd8f14e3104b17c29c3cc52910b388ceb",
+  "sqlite_notes": 60,
+  "sqlite_cards": 77
+}

@@ -3,10 +3,16 @@
   "specialty": "ngoai",
   "profile": "disease",
   "lesson": "SURG-20B_Ung_thu_thuc_quan_2026-11-05_RELEASE_v1.md",
+  "barem": "SURG-20B_Ung_thu_thuc_quan_BAREM.md",
   "deck": {
     "deck_id": 7600000000202,
     "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-20B: Ung Thư Thực Quản",
-    "basename": "SURG-20B_Ung_thu_thuc_quan_2026-11-05_RELEASE_v1",
-    "cards_source": "SURG-20B_Ung_thu_thuc_quan_2026-11-05_RELEASE_v1.cards.v2.json"
+    "basename": "SURG-20B_Ung_thu_thuc_quan_BAREM_v1",
+    "required_sections": ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"],
+    "cards_source": "surg20b_cards_data.py",
+    "legacy_anki_decks": [
+      "Ung thư::01_Ung_thu_thuc_quan::2026-11-05",
+      "Ung thư::01_Ung_thu_thuc_quan"
+    ]
   }
 }
