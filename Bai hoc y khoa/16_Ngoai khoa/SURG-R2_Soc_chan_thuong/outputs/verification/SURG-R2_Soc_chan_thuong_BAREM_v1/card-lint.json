@@ -1,0 +1,31 @@
+{
+  "id": "SURG-R2",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R2: Sốc Chấn Thương",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T21:23:41",
+  "cards_source": "surgr2_cards_data.py",
+  "cards_source_sha256": "a883be58ec4ee70167d474b072252feca184d9b85069cac29e4695d3108ea9f5",
+  "card_count": 32,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-R2_Soc_chan_thuong\\SURG-R2_Soc_chan_thuong_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 32,
+    "archived": 111,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 32
+  },
+  "apkg_sha256": "4a15b6b41a6fc818014417c2c1b77769f23fa9c1069cbecdc12bcbcd5eab357b",
+  "sqlite_notes": 32,
+  "sqlite_cards": 51
+}

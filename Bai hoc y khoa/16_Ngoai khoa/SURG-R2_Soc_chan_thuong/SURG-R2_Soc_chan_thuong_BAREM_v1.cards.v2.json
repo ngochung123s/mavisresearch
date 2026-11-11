@@ -1,0 +1,628 @@
+{
+  "deck_id": 7600000000102,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R2: Sốc Chấn Thương",
+  "card_count": 32,
+  "cards": [
+    {
+      "id": "SURGR2-B0-01",
+      "type": "basic",
+      "section": "B0",
+      "topic": "Năm mục tiêu thực hành Sốc chấn thương",
+      "tier": 2,
+      "category": "SURG-R2 · B0",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Tổng quan — Mục tiêu học tập]</span> Nêu 5 mục tiêu cốt lõi cần đạt khi học và xử trí Sốc chấn thương?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Lý thuyết nền:</b> Trình bày chính xác <span style=\"color: #74c0fc; font-weight: 600;\">bản chất sốc chấn thương</span>.<br>2) <b>Sinh lý:</b> Giải thích chuỗi <span style=\"color: #ffd43b; font-weight: 600;\">bệnh sinh sốc mất máu</span> theo từng giai đoạn.<br>3) <b>Khám bệnh & Xét nghiệm:</b> Trình bày <span style=\"color: #74c0fc; font-weight: 600;\">triệu chứng lâm sàng và cận lâm sàng</span> của sốc mất máu.<br>4) <b>Xác lập:</b> Chẩn đoán sớm sốc mất máu (phân độ ATLS, FAST).<br>5) <b>Chiến lược:</b> Phân tích từng bước <span style=\"color: #51cf66; font-weight: 600;\">xử trí ABCDE, hồi sức và phẫu thuật kiểm soát tổn thương</span>.<br><br>💡 Giải thích của AI:<br>Nắm vững trục 5 mục tiêu này giúp bác sĩ ngoại khoa phối hợp nhịp nhàng giữa hồi sức bảo toàn não–tim, cầm máu tạm thời và phá vòng xoắn Tam chứng tử thần.",
+      "extra": "[B0.01]",
+      "tags": [
+        "SURG-R2",
+        "B0",
+        "Tong-quan"
+      ]
+    },
+    {
+      "id": "SURGR2-B0-02",
+      "type": "basic",
+      "section": "B0",
+      "topic": "Định nghĩa Sốc & Bản chất Sốc chấn thương",
+      "tier": 1,
+      "category": "SURG-R2 · B0",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Khái niệm Sốc chấn thương]</span> Phân biệt khái niệm chung của 'Sốc' và định nghĩa đặc thù của 'Sốc chấn thương' (vòng xoắn bệnh lý cốt lõi là gì)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sốc chung:</b> Tình trạng suy sụp toàn thân nặng nề với hội chứng <span style=\"color: #ff6b6b; font-weight: 600;\">suy tuần hoàn cấp tính</span>, không đảm bảo đủ tưới máu và oxy cho chuyển hóa tế bào và cơ quan.<br>2) <b>Sốc chấn thương:</b> Phản ứng bệnh lý phức tạp có tính chất giai đoạn do <span style=\"color: #ff6b6b; font-weight: 600;\">chấn thương cơ học mạnh và mất máu cấp tính</span>, làm rối loạn chức năng hàng loạt cơ quan (tuần hoàn, thần kinh, hô hấp, nội tiết, chuyển hóa).<br>3) <b>Điểm cốt lõi tạo vòng xoắn ác tính:</b> <span style=\"color: #ffd43b; font-weight: 600;\">Rối loạn vi tuần hoàn</span> và <span style=\"color: #ff6b6b; font-weight: 600;\">thiếu oxy tế bào</span>.<br><br>💡 Giải thích của AI:<br>Sốc không đơn giản chỉ là 'tụt huyết áp trên máy đo' mà là suy giảm tưới máu và cung cấp oxy cấp tế bào; nếu không cắt đứt vòng xoắn thiếu oxy vi tuần hoàn thì sốc tiến triển nhanh sang giai đoạn không hồi phục.",
+      "extra": "[B0.02]",
+      "tags": [
+        "SURG-R2",
+        "B0",
+        "Khai-niem"
+      ]
+    },
+    {
+      "id": "SURGR2-B1-01",
+      "type": "basic",
+      "section": "B1",
+      "topic": "3 bệnh cảnh sốc thường gặp nhất trong cấp cứu chấn thương",
+      "tier": 1,
+      "category": "SURG-R2 · B1",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Bệnh cảnh lâm sàng]</span> Ba bệnh cảnh sốc thường gặp nhất ở bệnh nhân đa chấn thương vào cấp cứu là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sốc mất máu (Hypovolemic / Hemorrhagic shock):</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Chiếm đa số</span>, do chảy máu trong hoặc ngoài (thuộc nhóm sốc giảm thể tích).<br>2) <b>Sốc tắc nghẽn:</b> Do <span style=\"color: #ff6b6b; font-weight: 600;\">chèn ép tim cấp (Tamponade)</span> hoặc <span style=\"color: #ff6b6b; font-weight: 600;\">tràn khí màng phổi áp lực</span>.<br>3) <b>Sốc thần kinh / Sốc tủy (Neurogenic shock):</b> Do <span style=\"color: #ffd43b; font-weight: 600;\">tổn thương tủy sống cổ hoặc ngực cao</span> gây mất trương lực giao cảm vận mạch.<br><br>💡 Giải thích của AI:<br>Gặp bệnh nhân chấn thương tụt huyết áp, đừng mặc định 100% là chảy máu trong: luôn rà nhanh lồng ngực (Tamponade, tràn khí áp lực) và cột sống cổ/ngực cao (sốc tủy kèm mạch chậm ấm).",
+      "extra": "[B1.01]",
+      "tags": [
+        "SURG-R2",
+        "B1",
+        "Phan-loai",
+        "Benh-canh"
+      ]
+    },
+    {
+      "id": "SURGR2-B1-02",
+      "type": "basic",
+      "section": "B1",
+      "topic": "Phân loại sốc chấn thương theo Nguyên nhân, Thời gian & Diễn biến",
+      "tier": 2,
+      "category": "SURG-R2 · B1",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân loại]</span> Sốc chấn thương được phân loại theo 3 trục (Nguyên nhân, Thời gian xuất hiện, Diễn biến lâm sàng) cụ thể như thế nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Theo nguyên nhân:</b> Sốc mất máu, Sốc chèn ép tim cấp, Sốc tủy.<br>2) <b>Theo thời gian:</b> <span style=\"color: #ffd43b; font-weight: 600;\">Sốc tiên phát</span> (ngay sau chấn thương do đau đớn và mất máu cấp) vs <span style=\"color: #ff6b6b; font-weight: 600;\">Sốc thứ phát</span> (sau vài giờ đến vài ngày do chảy máu tái phát, nhiễm trùng, tiêu cơ vân).<br>3) <b>Theo diễn biến lâm sàng:</b> Sốc còn bù → Sốc mất bù → <span style=\"color: #ff6b6b; font-weight: 600;\">Sốc không hồi phục</span>.<br><br>💡 Giải thích của AI:<br>Nhận diện sốc thứ phát giúp ta không chủ quan sau khi bệnh nhân qua cơn sốc đầu: chảy máu rỉ rả tái phát, nhiễm trùng vết thương hoặc tiêu cơ vân dập nát cơ đều có thể quật ngã bệnh nhân sau vài giờ đến vài ngày.",
+      "extra": "[B1.02]",
+      "tags": [
+        "SURG-R2",
+        "B1",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "SURGR2-B2-01",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Giai đoạn Sốc còn bù: Phản xạ Giao cảm, Trung tâm hóa & RAAS/ADH",
+      "tier": 1,
+      "category": "SURG-R2 · B2",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Bệnh sinh — Sốc còn bù]</span> Hệ thần kinh giao cảm và hệ nội tiết (RAAS, ADH) bù trừ thế nào ở giai đoạn sốc còn bù, và hiện tượng 'trung tâm hóa tuần hoàn' là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phản xạ áp lực & Catecholamine:</b> Giảm tiền gánh kích thích thụ thể xoang cảnh và quai động mạch chủ (Baroreflexes) → phóng thích <span style=\"color: #ffd43b; font-weight: 600;\">Adrenaline, Noradrenaline</span> gây co tiểu ĐM/TM ngoại vi, tăng nhịp & tăng co bóp tim.<br>2) <b>Trung tâm hóa tuần hoàn:</b> Co mạch tối đa ở da, cơ vân, xương, tạng ổ bụng nhằm <span style=\"color: #51cf66; font-weight: 600;\">ưu tiên dòng máu nuôi tim và não</span>.<br>3) <b>Hệ nội tiết RAAS & ADH:</b> Hoạt hóa <span style=\"color: #74c0fc; font-weight: 600;\">Renin–Angiotensin–Aldosterone</span> + tăng tiết <span style=\"color: #74c0fc; font-weight: 600;\">Vasopressin (ADH)</span> vùng dưới đồi → giữ muối nước ở ống thận, co tiểu ĐM thận bảo tồn thể tích.<br><br>💡 Giải thích của AI:<br>Chính nhờ hiện tượng trung tâm hóa tuần hoàn mà ở ATLS Độ I và Độ II huyết áp động mạch vẫn còn bình thường dù đã mất tới 15–30% thể tích máu (chỉ lộ qua mạch nhanh và áp lực mạch kẹp).",
+      "extra": "[B2.01]",
+      "tags": [
+        "SURG-R2",
+        "B2",
+        "Benh-sinh",
+        "Con-bu"
+      ]
+    },
+    {
+      "id": "SURGR2-B2-02",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Giai đoạn Sốc mất bù: Toan Lactic, Liệt cơ thắt tiền mao mạch & MDF",
+      "tier": 1,
+      "category": "SURG-R2 · B2",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Bệnh sinh — Sốc mất bù]</span> Khi máu mất > 30–40%, những thay đổi chuyển hóa, cơ thắt mao mạch và yếu tố ức chế cơ tim nào đẩy sốc sang mất bù?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chuyển hóa kỵ khí & Toan máu:</b> Mất máu quá <span style=\"color: #ff6b6b; font-weight: 600;\">> 30 – 40%</span> hoặc kéo dài → tích tụ <span style=\"color: #ff6b6b; font-weight: 600;\">Axit Lactic gây toan chuyển hóa nặng</span>.<br>2) <b>Nghịch lý cơ thắt vi tuần hoàn:</b> Toan máu làm <span style=\"color: #ff6b6b; font-weight: 600;\">liệt cơ thắt tiền mao mạch trong khi cơ thắt sau mao mạch vẫn co</span> → máu ứ trệ mạng vi tuần hoàn, tăng tính thấm thoát dịch & protein ra mô kẽ.<br>3) <b>Suy bơm cơ tim:</b> Xuất hiện <span style=\"color: #ffd43b; font-weight: 600;\">yếu tố ức chế cơ tim (MDF)</span> làm giảm co bóp và giảm cung lượng tim trầm trọng hơn.<br><br>💡 Giải thích của AI:<br>Hiện tượng tiền mao mạch mở toang nhưng hậu mao mạch đóng chặt biến giường mao mạch thành 'đầm lầy ứ máu', vừa làm mất thêm dịch vào kẽ vừa cướp đi lượng máu hồi lưu về tim.",
+      "extra": "[B2.02]",
+      "tags": [
+        "SURG-R2",
+        "B2",
+        "Benh-sinh",
+        "Mat-bu"
+      ]
+    },
+    {
+      "id": "SURGR2-B2-03",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Giai đoạn Sốc không hồi phục: DIC, Cạn ATP & Suy đa tạng MODS",
+      "tier": 2,
+      "category": "SURG-R2 · B2",
+      "badge": "🔴 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Bệnh sinh — Sốc không hồi phục]</span> Vì sao ở giai đoạn sốc không hồi phục dù nâng được huyết áp tạm thời bệnh nhân vẫn tử vong?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đổ vỡ tế bào & Vi mạch:</b> Giãn mạch toàn thân trơ vận mạch, <span style=\"color: #ff6b6b; font-weight: 600;\">đông máu nội mạch rải rác (DIC)</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">cạn kiệt dự trữ năng lượng ATP</span>, tổn thương màng tế bào không thể đảo ngược.<br>2) <b>Hoại tử cơ quan đích:</b> Não, tim, phổi, thận, gan đã hoại tử không hồi phục → tử vong sau vài giờ hoặc vài ngày do <span style=\"color: #ff6b6b; font-weight: 600;\">suy đa tạng (MODS)</span>.<br><br>💡 Giải thích của AI:<br>Đây là ranh giới chết chóc giải thích vì sao phải cầm máu và hồi sức cân bằng sớm ngay giờ vàng chứ không thể đợi tụt huyết áp sâu mới cứu.",
+      "extra": "[B2.03]",
+      "tags": [
+        "SURG-R2",
+        "B2",
+        "Benh-sinh",
+        "Khong-hoi-phuc"
+      ]
+    },
+    {
+      "id": "SURGR2-B3-01",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Phân độ mất máu ATLS: Độ I (Nhẹ) vs Độ II (Vừa)",
+      "tier": 1,
+      "category": "SURG-R2 · B3",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân độ ATLS — Độ I & II]</span> Nêu các thông số lượng máu mất (ml và %), mạch, huyết áp, hiệu số HA, thở, nước tiểu, tâm thần và dịch bù của Độ I và Độ II?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Độ I (Nhẹ):</b> Mất <span style=\"color: #51cf66; font-weight: 600;\">< 750 ml (< 15%)</span>, mạch <span style=\"color: #51cf66; font-weight: 600;\">< 100/ph</span>, HA & hiệu số HA bình thường/tăng, thở 14–20, nước tiểu <span style=\"color: #51cf66; font-weight: 600;\">> 30 ml/h</span>, lo lắng nhẹ → bù <span style=\"color: #51cf66; font-weight: 600;\">dịch tinh thể</span>.<br>2) <b>Độ II (Vừa):</b> Mất <span style=\"color: #ffd43b; font-weight: 600;\">750 – 1500 ml (15 – 30%)</span>, mạch <span style=\"color: #ffd43b; font-weight: 600;\">> 100/ph</span>, HA tâm thu bình thường nhưng <span style=\"color: #ffd43b; font-weight: 600;\">áp lực mạch giảm (HA kẹp)</span>, thở 20–30, nước tiểu <span style=\"color: #ffd43b; font-weight: 600;\">20 – 30 ml/h</span>, lo lắng vừa → bù <span style=\"color: #51cf66; font-weight: 600;\">dịch tinh thể</span>.<br><br>💡 Giải thích của AI:<br>Dấu hiệu sớm nhất báo động mất máu Độ II khi huyết áp tâm thu chưa tụt là mạch vượt > 100 lần/phút và hiệu số huyết áp thu hẹp (HA kẹp).",
+      "extra": "[B3.01]",
+      "tags": [
+        "SURG-R2",
+        "B3",
+        "ATLS",
+        "Phan-do"
+      ]
+    },
+    {
+      "id": "SURGR2-B3-02",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Phân độ mất máu ATLS: Độ III (Nặng) vs Độ IV (Nguy kịch)",
+      "tier": 1,
+      "category": "SURG-R2 · B3",
+      "badge": "🔴 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Phân độ ATLS — Độ III & IV]</span> Phân biệt rạch ròi Độ III (Nặng) và Độ IV (Nguy kịch) về lượng máu mất (ml, %), mạch, huyết áp, thở, nước tiểu, tâm thần và chỉ định truyền máu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Độ III (Nặng):</b> Mất <span style=\"color: #ff6b6b; font-weight: 600;\">1500 – 2000 ml (30 – 40%)</span>, mạch <span style=\"color: #ff6b6b; font-weight: 600;\">> 120/ph</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">tụt huyết áp</span>, áp lực mạch giảm nặng, thở 30–40, nước tiểu <span style=\"color: #ff6b6b; font-weight: 600;\">5 – 15 ml/h (thiểu niệu)</span>, kích thích lú lẫn → <span style=\"color: #ffd43b; font-weight: 600;\">Dịch tinh thể + Máu</span>.<br>2) <b>Độ IV (Nguy kịch):</b> Mất <span style=\"color: #ff6b6b; font-weight: 600;\">> 2000 ml (> 40%)</span>, mạch <span style=\"color: #ff6b6b; font-weight: 600;\">> 140/ph</span>, tụt sâu/không đo được, mất áp lực mạch, thở > 35 (thở ngáp), <span style=\"color: #ff6b6b; font-weight: 600;\">vô niệu (< 5 ml/h)</span>, lờ đờ hôn mê → <span style=\"color: #ff6b6b; font-weight: 600;\">Truyền máu tối khẩn</span>.<br><br>💡 Giải thích của AI:<br>Độ III là bước ngoặt bắt đầu sụp cơ chế bù trừ khiến huyết áp tâm thu tụt xuống và bắt buộc phải bổ sung máu; sang Độ IV nước tiểu gần như bằng 0 (< 5 ml/h) và bệnh nhân cận kề ngừng tim nếu không truyền máu tối khẩn.",
+      "extra": "[B3.02]",
+      "tags": [
+        "SURG-R2",
+        "B3",
+        "ATLS",
+        "Phan-do"
+      ]
+    },
+    {
+      "id": "SURGR2-B3-03",
+      "type": "cloze",
+      "section": "B3",
+      "topic": "Cloze: Toàn bộ mốc số Phân độ mất máu ATLS (Độ I → IV)",
+      "tier": 1,
+      "category": "SURG-R2 · B3",
+      "badge": "Cloze",
+      "badge_class": "badge-blue",
+      "text": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân độ ATLS]</span> Mất máu Độ I tương ứng lượng máu mất {{c1::<span style=\"color: #51cf66; font-weight: 600;\">< 750 ml (< 15%)</span>}} với mạch < 100 và nước tiểu > 30 ml/h. Độ II mất {{c2::<span style=\"color: #ffd43b; font-weight: 600;\">750 – 1500 ml (15 – 30%)</span>}} kèm mạch {{c3::<span style=\"color: #ffd43b; font-weight: 600;\">> 100/phút</span>}} và huyết áp kẹp. Độ III mất {{c4::<span style=\"color: #ff6b6b; font-weight: 600;\">1500 – 2000 ml (30 – 40%)</span>}} khiến mạch {{c5::<span style=\"color: #ff6b6b; font-weight: 600;\">> 120/phút</span>}} kèm tụt huyết áp và thiểu niệu {{c6::<span style=\"color: #ff6b6b; font-weight: 600;\">5 – 15 ml/giờ</span>}}. Độ IV mất {{c7::<span style=\"color: #ff6b6b; font-weight: 600;\">> 2000 ml (> 40%)</span>}} kèm mạch > 140 và vô niệu {{c8::<span style=\"color: #ff6b6b; font-weight: 600;\">< 5 ml/giờ</span>}}.",
+      "extra": "[B3.01, B3.02]",
+      "tags": [
+        "SURG-R2",
+        "B3",
+        "Cloze",
+        "ATLS",
+        "Cloze"
+      ]
+    },
+    {
+      "id": "SURGR2-B4-01",
+      "type": "basic",
+      "section": "B4",
+      "topic": "5 bước tiếp cận ban đầu theo trình tự ABCDE trong chấn thương",
+      "tier": 1,
+      "category": "SURG-R2 · B4",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Xử trí — ABCDE]</span> Trình bày nội dung hành động cụ thể trong 5 bước A–B–C–D–E cấp cứu ban đầu bệnh nhân sốc chấn thương?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>A (Airway + cervical spine):</b> Kiểm soát đường thở kết hợp <span style=\"color: #ff6b6b; font-weight: 600;\">cố định cột sống cổ (nẹp cổ cứng)</span>.<br>2) <b>B (Breathing):</b> Thở oxy lưu lượng cao <span style=\"color: #51cf66; font-weight: 600;\">10 – 15 lít/phút qua mask túi dự trữ</span>; xử trí ngay tràn khí áp lực, tràn máu màng phổi, mảng sườn di động.<br>3) <b>C (Circulation + hemorrhage control):</b> Băng ép, chèn gạc, garô, <span style=\"color: #51cf66; font-weight: 600;\">nẹp khung chậu / xương gãy lớn</span> song song bù dịch.<br>4) <b>D (Disability):</b> Chấm nhanh <span style=\"color: #74c0fc; font-weight: 600;\">Glasgow</span> và phản xạ đồng tử.<br>5) <b>E (Exposure / Environment):</b> Bộc lộ tìm tổn thương và <span style=\"color: #ffd43b; font-weight: 600;\">ủ ấm tích cực phòng hạ thân nhiệt</span>.<br><br>💡 Giải thích của AI:<br>Trong ABCDE chấn thương, 'A' luôn gắn kèm cố định cổ và 'C' luôn gắn kèm cầm máu ngoài / nẹp bất động khung chậu–xương đùi ngay song song truyền dịch, còn 'E' nhấn mạnh ủ ấm để tránh rơi vào Tam chứng tử thần.",
+      "extra": "[B4.01]",
+      "tags": [
+        "SURG-R2",
+        "B4",
+        "ABCDE",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR2-B4-02",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Siêu âm FAST tại giường (2 phút) vs Chống chỉ định chụp MSCT",
+      "tier": 1,
+      "category": "SURG-R2 · B4",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #51cf66; font-weight: 600;\">[Chẩn đoán tại giường — FAST]</span> Ở bệnh nhân sốc mất máu nghi chấn thương bụng kín có huyết động không ổn định, phương tiện cận lâm sàng nào hữu ích nhất và vì sao?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phương tiện số 1 tại giường:</b> <span style=\"color: #51cf66; font-weight: 600;\">Siêu âm FAST ngực – bụng tại giường</span>.<br>2) <b>Ưu điểm quyết định:</b> Xác định nhanh <span style=\"color: #74c0fc; font-weight: 600;\">dịch tự do ổ bụng / màng tim</span> chỉ trong <span style=\"color: #51cf66; font-weight: 600;\">vòng 2 phút</span> ngay tại phòng cấp cứu mà <span style=\"color: #51cf66; font-weight: 600;\">không phải di chuyển bệnh nhân</span>.<br>3) <b>Thủ thuật cấm làm lúc này:</b> Không đẩy bệnh nhân đi chụp <span style=\"color: #ff6b6b; font-weight: 600;\">MSCT ngực – bụng</span> khi huyết động chưa ổn định.<br><br>💡 Giải thích của AI:<br>Cái chết thường xảy ra ở 'hành lang hoặc trong buồng chụp CT' (the tunnel of death) khi đẩy người bệnh đang tụt huyết áp đi chụp cắt lớp; siêu âm FAST thấy dịch tự do + sốc mất máu = chỉ định mở bụng cầm máu ngay.",
+      "extra": "[B4.02]",
+      "tags": [
+        "SURG-R2",
+        "B4",
+        "FAST",
+        "Can-lam-sang"
+      ]
+    },
+    {
+      "id": "SURGR2-B5-01",
+      "type": "basic",
+      "section": "B5",
+      "topic": "2 đường truyền lớn 14G–16G & Giới hạn dịch tinh thể ấm 1000–1500 ml",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Hồi sức — Đường truyền & Dịch]</span> Thiết lập đường truyền nào ngay lập tức ở cấp cứu chấn thương, và tại sao chỉ khởi đầu tinh thể ấm giới hạn 1000–1500 ml?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đường truyền:</b> Đặt ngay <span style=\"color: #51cf66; font-weight: 600;\">2 đường truyền ngoại vi khẩu kính lớn (14G – 16G)</span> ở hai chi trên hoặc tĩnh mạch cảnh ngoài / tĩnh mạch bẹn; <span style=\"color: #ff6b6b; font-weight: 600;\">không làm chậm trễ cấp cứu để đặt catheter TM trung tâm</span>.<br>2) <b>Dịch tinh thể khởi đầu:</b> Dung dịch tinh thể cân bằng ấm (<span style=\"color: #51cf66; font-weight: 600;\">Ringer Lactat, Ringerfundin hoặc NaCl 0,9%</span>) thể tích giới hạn <span style=\"color: #ffd43b; font-weight: 600;\">1000 – 1500 ml</span>.<br>3) <b>Hạn chế truyền lượng lớn:</b> Truyền quá nhiều tinh thể gây <span style=\"color: #ff6b6b; font-weight: 600;\">toan máu do Clo cao</span> và <span style=\"color: #ff6b6b; font-weight: 600;\">pha loãng các yếu tố đông máu</span>.<br><br>💡 Giải thích của AI:<br>Bơm hàng lít nước muối NaCl 0,9% lạnh ngắt trước khi cầm máu không những làm pha loãng tiểu cầu/yếu tố đông máu mà còn gây toan chuyển hóa tăng Clo và hạ thân nhiệt (Tam chứng tử thần).",
+      "extra": "[B5.01]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Hoi-suc",
+        "Bu-dich"
+      ]
+    },
+    {
+      "id": "SURGR2-B5-02",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Hạ huyết áp cho phép (Permissive Hypotension) & Ngoại lệ Sọ não / Tủy sống",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Hồi sức — Permissive Hypotension]</span> Ngưỡng huyết áp của chiến lược 'Hạ huyết áp cho phép' khi chưa cầm máu phẫu thuật là bao nhiêu và ngoại lệ bắt buộc khi có CTSN / tổn thương tủy?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khi chưa cầm máu ngoại khoa:</b> Chỉ duy trì <span style=\"color: #ffd43b; font-weight: 600;\">HATT 80 – 90 mmHg</span> (hoặc <span style=\"color: #ffd43b; font-weight: 600;\">MAP ≥ 65 mmHg</span>) để tưới máu tạng tối thiểu, tránh <span style=\"color: #ff6b6b; font-weight: 600;\">bật cục máu đông</span> gây chảy máu ồ ạt tái phát và pha loãng máu.<br>2) <b>Ngoại lệ Chấn thương sọ não hoặc tổn thương tủy sống kèm theo:</b> Bắt buộc duy trì <span style=\"color: #ff6b6b; font-weight: 600;\">MAP ≥ 80 – 90 mmHg (HATT ≥ 100 – 110 mmHg)</span> để bảo đảm áp lực tưới máu não (<span style=\"color: #74c0fc; font-weight: 600;\">CPP = MAP − ICP</span>).<br><br>💡 Giải thích của AI:<br>Nếu cố kéo HATT lên 120–130 mmHg trong lúc mạch máu nội tạng chưa được khâu kẹp, áp lực dòng máu cao sẽ thổi bay cục máu đông mới hình thành khiến bệnh nhân chảy máu ồ ạt hơn. Riêng não bị chấn thương tăng áp lực nội sọ (ICP) cần MAP cao hơn để tránh thiếu máu não thứ phát.",
+      "extra": "[B5.02]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Permissive-Hypotension",
+        "CTSN"
+      ]
+    },
+    {
+      "id": "SURGR2-B5-03",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Quy trình truyền máu khối lượng lớn (MTP 1:1:1) & Nhóm máu O Rh−",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Hồi sức — Truyền máu MTP]</span> Khi nào kích hoạt Truyền máu khối lượng lớn (MTP), chọn nhóm máu khẩn cấp nào, tỷ lệ cân bằng mấy:mấy:mấy và đích Hct/Hb (thường vs CTSN)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đối tượng áp dụng MTP:</b> Mất máu <span style=\"color: #ff6b6b; font-weight: 600;\">Độ III, Độ IV</span> hoặc sốc mất máu tiến triển.<br>2) <b>Nhóm máu khẩn (chưa kịp định nhóm):</b> Dùng nhóm <span style=\"color: #ff6b6b; font-weight: 600;\">O âm tính (O Rh−)</span>.<br>3) <b>Công thức cân bằng 1:1:1:</b> <span style=\"color: #51cf66; font-weight: 600;\">1 Hồng cầu khối : 1 Huyết tương tươi đông lạnh (FFP) : 1 Đơn vị tiểu cầu</span> nhằm ngăn rối loạn đông máu sớm.<br>4) <b>Đích cần đạt:</b> <span style=\"color: #51cf66; font-weight: 600;\">Hematocrit 25 – 30% (Hb ≥ 80 – 90 g/L)</span>; nếu có chấn thương sọ não phải duy trì <span style=\"color: #74c0fc; font-weight: 600;\">Hct > 30% (Hb > 100 g/L)</span>.<br><br>💡 Giải thích của AI:<br>Tỷ lệ 1:1:1 mô phỏng gần nhất thành phần máu toàn phần sinh lý giúp cung cấp song song hồng cầu vận chuyển oxy, yếu tố đông máu (FFP) và tiểu cầu ngay từ những đơn vị máu đầu tiên.",
+      "extra": "[B5.03]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "MTP",
+        "Truyen-mau"
+      ]
+    },
+    {
+      "id": "SURGR2-B5-04",
+      "type": "cloze",
+      "section": "B5",
+      "topic": "Cloze: Ngưỡng Huyết áp cho phép, MTP 1:1:1 & Tam chứng tử thần",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "Cloze",
+      "badge_class": "badge-blue",
+      "text": "<span style=\"color: #74c0fc; font-weight: 600;\">[Chiến lược hồi sức chấn thương]</span> Đặt ngay 2 đường truyền ngoại vi cỡ lớn {{c1::<span style=\"color: #51cf66; font-weight: 600;\">14G – 16G</span>}} và giới hạn tinh thể cân bằng ấm ban đầu {{c2::<span style=\"color: #ffd43b; font-weight: 600;\">1000 – 1500 ml</span>}}. Khi chưa phẫu thuật cầm máu thì giữ HATT cho phép ở mức {{c3::<span style=\"color: #ffd43b; font-weight: 600;\">80 – 90 mmHg</span>}}. Khi có chấn thương sọ não đi kèm phải nâng lên {{c4::<span style=\"color: #ff6b6b; font-weight: 600;\">MAP ≥ 80 – 90 mmHg (HATT ≥ 100 – 110 mmHg)</span>}}. Máu cấp cứu khi chưa kịp định nhóm dùng nhóm {{c5::<span style=\"color: #ff6b6b; font-weight: 600;\">O âm tính (O Rh−)</span>}}. Tỷ lệ truyền máu khối lượng lớn hiện đại là {{c6::<span style=\"color: #51cf66; font-weight: 600;\">1 Hồng cầu khối : 1 FFP : 1 Tiểu cầu (1:1:1)</span>}}. Đích hematocrit sau cầm máu ổn định là {{c7::<span style=\"color: #51cf66; font-weight: 600;\">> 25% (Hb ≥ 80 – 90 g/L)</span>}} và nước tiểu {{c8::<span style=\"color: #51cf66; font-weight: 600;\">> 0,5 ml/kg/giờ</span>}}.",
+      "extra": "[B5.01, B5.02, B5.03, B7.01]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Cloze",
+        "Hoi-suc",
+        "MTP",
+        "Cloze"
+      ]
+    },
+    {
+      "id": "SURGR2-B6-01",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Tam chứng tử thần trong chấn thương (Lethal Triad of Trauma)",
+      "tier": 1,
+      "category": "SURG-R2 · B6",
+      "badge": "🔴 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Báo động — Tam chứng tử thần]</span> 'Tam chứng tử thần' (Lethal Triad of Trauma) ở bệnh nhân đa chấn thương gồm 3 rối loạn nào với các ngưỡng giá trị cụ thể?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hạ thân nhiệt:</b> Nhiệt độ cơ thể <span style=\"color: #ff6b6b; font-weight: 600;\">< 35°C</span> (làm tê liệt các men đông máu).<br>2) <b>Toan chuyển hóa:</b> Khí máu <span style=\"color: #ff6b6b; font-weight: 600;\">pH < 7,2</span> (ức chế co bóp cơ tim và hoạt tính yếu tố đông máu).<br>3) <b>Rối loạn đông máu (Coagulopathy):</b> Máu chảy không cầm do pha loãng, tiêu thụ và bất hoạt men đông máu.<br><br>💡 Giải thích của AI:<br>Ba đỉnh của tam giác này khuếch đại lẫn nhau thành vòng xoắn tử thần: hạ thân nhiệt và toan hóa làm bất hoạt thác đông máu → chảy máu nhiều hơn → truyền dịch lạnh làm hạ thân nhiệt và toan hóa nặng hơn nữa.",
+      "extra": "[B6.01]",
+      "tags": [
+        "SURG-R2",
+        "B6",
+        "Tam-chung-tu-than"
+      ]
+    },
+    {
+      "id": "SURGR2-B6-02",
+      "type": "basic",
+      "section": "B6",
+      "topic": "3 biện pháp cắt Tam chứng tử thần: Ủ ấm, Canxi Clorid & Damage Control Surgery",
+      "tier": 1,
+      "category": "SURG-R2 · B6",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Điều trị — Phá Tam chứng tử thần]</span> Ba biện pháp chủ lực giúp cắt đứt Tam chứng tử thần (bao gồm liều Canxi clorid theo túi máu và triết lý mổ DCS) là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chống hạ thân nhiệt:</b> Ủ ấm bệnh nhân và dùng máy <span style=\"color: #51cf66; font-weight: 600;\">sưởi ấm dịch truyền và máu</span> trước khi truyền vào cơ thể.<br>2) <b>Bổ sung Canxi chống hạ Canxi do Citrate:</b> Tiêm <span style=\"color: #ffd43b; font-weight: 600;\">Canxi clorid 1 g sau mỗi 4 đơn vị máu truyền</span> (do chất chống đông Citrate trong túi máu gắn kết làm tụt Canxi máu).<br>3) <b>Phẫu thuật kiểm soát tổn thương (DCS):</b> Chỉ <span style=\"color: #ff6b6b; font-weight: 600;\">mổ cầm máu tạm thời và đóng bụng nhanh</span>, chuyển ngay về hồi sức tích cực ổn định huyết động trước khi mổ triệt để thì 2.<br><br>💡 Giải thích của AI:<br>Canxi ion hóa (yếu tố IV) là đồng yếu tố thiết yếu của toàn bộ thác đông máu và sức co bóp cơ tim; thiếu Canxi do truyền máu khối lượng lớn giàu Citrate làm máu khó đông và tụt huyết áp kháng vận mạch.",
+      "extra": "[B6.02]",
+      "tags": [
+        "SURG-R2",
+        "B6",
+        "Tam-chung-tu-than",
+        "DCS",
+        "Canxi"
+      ]
+    },
+    {
+      "id": "SURGR2-B6-03",
+      "type": "cloze",
+      "section": "B6",
+      "topic": "Cloze: Ngưỡng Tam chứng tử thần, Canxi clorid & Triết lý DCS",
+      "tier": 1,
+      "category": "SURG-R2 · B6",
+      "badge": "Cloze",
+      "badge_class": "badge-blue",
+      "text": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Tam chứng tử thần]</span> Tam chứng tử thần trong chấn thương khởi phát với hạ thân nhiệt {{c1::<span style=\"color: #ff6b6b; font-weight: 600;\">< 35°C</span>}}. Thành phần thứ hai trong tam chứng tử thần là toan chuyển hóa {{c2::<span style=\"color: #ff6b6b; font-weight: 600;\">pH < 7,2</span>}} đi kèm rối loạn đông máu. Chất chống đông trong túi máu gây hạ Canxi máu là {{c3::<span style=\"color: #ffd43b; font-weight: 600;\">Citrate</span>}}. Cần bổ sung {{c4::<span style=\"color: #ffd43b; font-weight: 600;\">Canxi clorid 1 g</span>}} sau mỗi {{c5::<span style=\"color: #74c0fc; font-weight: 600;\">4 đơn vị máu truyền</span>}}. Mục đích của Phẫu thuật kiểm soát tổn thương (DCS) là chỉ {{c6::<span style=\"color: #51cf66; font-weight: 600;\">mổ cầm máu tạm thời và đóng bụng nhanh</span>}} rồi chuyển hồi sức trước khi mổ thì 2.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "SURG-R2",
+        "B6",
+        "Cloze",
+        "Tam-chung-tu-than",
+        "DCS",
+        "Cloze"
+      ]
+    },
+    {
+      "id": "SURGR2-B7-01",
+      "type": "basic",
+      "section": "B7",
+      "topic": "3 Đích điều trị sau phẫu thuật cầm máu ổn định",
+      "tier": 1,
+      "category": "SURG-R2 · B7",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #51cf66; font-weight: 600;\">[Đích hồi sức sau cầm máu]</span> Khi nguồn chảy máu đã được phẫu thuật cầm máu ổn định, 3 thông số đích (MAP, Hct/Hb, Nước tiểu) cần duy trì là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Huyết áp động mạch trung bình:</b> <span style=\"color: #51cf66; font-weight: 600;\">MAP ≥ 65 mmHg</span>.<br>2) <b>Hematocrit & Hemoglobin:</b> <span style=\"color: #51cf66; font-weight: 600;\">Hematocrit > 25%</span> (kèm <span style=\"color: #51cf66; font-weight: 600;\">Hb ≥ 80 – 90 g/L</span>; giữ > 30% / > 100 g/L nếu kèm CTSN).<br>3) <b>Bài niệu:</b> Lượng nước tiểu <span style=\"color: #51cf66; font-weight: 600;\">> 0,5 ml/kg/giờ</span>.<br><br>💡 Giải thích của AI:<br>Sau khi phẫu thuật viên đã thắt mạch/cầm máu chắc chắn, mục tiêu không còn là 'hạ huyết áp cho phép' nữa mà phải kéo MAP ≥ 65 mmHg và theo dõi sát nước tiểu > 0,5 ml/kg/giờ để hồi phục hoàn toàn tưới máu thận và các tạng.",
+      "extra": "[B7.01]",
+      "tags": [
+        "SURG-R2",
+        "B7",
+        "Dich-hoi-suc",
+        "Luong-gia"
+      ]
+    },
+    {
+      "id": "SURGR2-ALGO-01",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Tiếp cận 5 phút đầu ABCDE + Siêu âm FAST tại giường",
+      "tier": 1,
+      "category": "SURG-R2 · B4",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Tiếp cận 5 phút đầu ABCDE + Siêu âm FAST tại giường</span><br>Bệnh nhân tai nạn giao thông đa chấn thương vào cấp cứu da lạnh vã mồ hôi, HA tụt — Quy trình hành động theo trục ABCDE & Chẩn đoán hình ảnh tại giường?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>A–B (Thở & Cổ):</b> Nẹp cố định cổ cứng, khai thông đường thở, thở oxy mask túi <span style=\"color: #51cf66; font-weight: 600;\">10 – 15 L/phút</span>, giải áp ngay nếu có tràn khí áp lực / tràn máu màng phổi / mảng sườn.<br>2) <b>C (Cầm máu & Đường truyền):</b> Băng ép cầm máu ngoài, nẹp khung chậu/xương gãy lớn + đặt <span style=\"color: #51cf66; font-weight: 600;\">2 đường truyền ngoại vi 14G–16G</span>, truyền giới hạn <span style=\"color: #ffd43b; font-weight: 600;\">1000 – 1500 ml tinh thể cân bằng ấm</span>.<br>3) <b>Tại giường (Không đẩy đi CT):</b> Thực hiện ngay <span style=\"color: #51cf66; font-weight: 600;\">Siêu âm FAST ngực – bụng trong 2 phút</span> tìm dịch ổ bụng / màng tim.<br>4) <b>D–E (Não & Thân nhiệt):</b> Chấm Glasgow, bộc lộ toàn thân và <span style=\"color: #ffd43b; font-weight: 600;\">ủ ấm tích cực tránh hạ thân nhiệt < 35°C</span>.<br><br>💡 Giải thích của AI:<br>Điểm vàng của quy trình là tính song hành: trong vòng 2–5 phút đầu vừa có đường truyền lớn, vừa nẹp cổ–nẹp xương, vừa có câu trả lời từ FAST tại giường mà bệnh nhân không phải rời phòng cấp cứu nửa bước.",
+      "extra": "[B4.01, B4.02, B5.01]",
+      "tags": [
+        "SURG-R2",
+        "B4",
+        "Thuat-toan",
+        "ABCDE",
+        "FAST",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR2-ALGO-02",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Quyết định ngưỡng Huyết áp cho phép & Truyền máu MTP 1:1:1",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Quyết định ngưỡng Huyết áp cho phép & Truyền máu MTP 1:1:1</span><br>Bệnh nhân mất máu ATLS Độ III–IV chưa kịp lên bàn mổ cầm máu — Cách chọn ngưỡng huyết áp đích và phác đồ truyền máu khẩn cấp?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phân tầng sọ não / tủy trước khi chỉnh áp:</b><br>   • Không có CTSN / tổn thương tủy: Giữ <span style=\"color: #ffd43b; font-weight: 600;\">HATT 80 – 90 mmHg (MAP ≥ 65 mmHg)</span> tránh bật cục máu đông.<br>   • Có CTSN hoặc tổn thương tủy kèm theo: Nâng bắt buộc <span style=\"color: #ff6b6b; font-weight: 600;\">MAP ≥ 80 – 90 mmHg (HATT ≥ 100 – 110 mmHg)</span> bảo đảm CPP = MAP − ICP.<br>2) <b>Kích hoạt MTP (Độ III–IV):</b> Dùng khẩn máu nhóm <span style=\"color: #ff6b6b; font-weight: 600;\">O Rh−</span> nếu chưa kịp định nhóm, truyền theo tỷ lệ <span style=\"color: #51cf66; font-weight: 600;\">1 HC khối : 1 FFP : 1 Tiểu cầu (1:1:1)</span>.<br>3) <b>Bổ sung chống đông tụt Canxi:</b> Tiêm <span style=\"color: #ffd43b; font-weight: 600;\">Canxi clorid 1 g sau mỗi 4 đơn vị máu truyền</span>.<br><br>💡 Giải thích của AI:<br>Hai quyết định này quyết định sống còn trước dao mổ: giữ áp lực vừa đủ không thổi bật cục máu đông (nhưng nâng cao nếu có CTSN) và cấp đủ bộ ba hồng cầu–huyết tương–tiểu cầu để máu không bị loãng thành nước.",
+      "extra": "[B3.02, B5.02, B5.03, B6.02]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Thuat-toan",
+        "Permissive-Hypotension",
+        "MTP"
+      ]
+    },
+    {
+      "id": "SURGR2-ALGO-03",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Quyết định Phẫu thuật Kiểm soát tổn thương (DCS) khi dọa Tam chứng tử thần",
+      "tier": 1,
+      "category": "SURG-R2 · B6",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Quyết định Phẫu thuật Kiểm soát tổn thương (DCS) khi dọa Tam chứng tử thần</span><br>Trên bàn mổ vỡ gan/vỡ lách nặng, bệnh nhân tụt nhiệt độ 34,5°C, pH 7,15 và máu rỉ khắp phẫu trường — Quy trình xử trí theo chiến lược DCS?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Xác nhận Tam chứng tử thần:</b> Đã chạm ngưỡng <span style=\"color: #ff6b6b; font-weight: 600;\">Hạ thân nhiệt < 35°C</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">Toan máu pH < 7,2</span> và <span style=\"color: #ff6b6b; font-weight: 600;\">Rối loạn đông máu</span>.<br>2) <b>Dừng mổ triệt để kéo dài:</b> Thực hiện <span style=\"color: #51cf66; font-weight: 600;\">Phẫu thuật kiểm soát tổn thương (DCS)</span> — chỉ cầm máu tạm thời (chèn gạc, kẹp/buộc nhanh mạch lớn) và đóng bụng tạm nhanh.<br>3) <b>Chuyển ICU phá Tam chứng:</b> Ủ ấm chủ động, máy sưởi máu/dịch, bù Canxi clorid 1 g/4 ĐV máu, truyền MTP 1:1:1 ổn định huyết động trước khi <span style=\"color: #74c0fc; font-weight: 600;\">mổ triệt để thì 2</span>.<br><br>💡 Giải thích của AI:<br>Cố gắng khâu nối tỉ mỉ 3–4 tiếng khi bệnh nhân đã rơi vào Tam chứng tử thần chỉ làm bệnh nhân tử vong ngay trên bàn mổ vì rối loạn đông máu toàn thể.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "SURG-R2",
+        "B6",
+        "Thuat-toan",
+        "DCS",
+        "Tam-chung-tu-than"
+      ]
+    },
+    {
+      "id": "SURGR2-ALGO-04",
+      "type": "basic",
+      "section": "B1",
+      "topic": "Phân biệt nhanh 3 bệnh cảnh Sốc Chấn thương ngay tại giường",
+      "tier": 2,
+      "category": "SURG-R2 · B1",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Phân biệt nhanh 3 bệnh cảnh Sốc Chấn thương ngay tại giường</span><br>Cùng tụt huyết áp sau tai nạn giao thông — Làm sao phân tách nhanh Sốc mất máu, Sốc chèn ép tim / tràn khí áp lực và Sốc tủy?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sốc mất máu (chiếm đa số):</b> Da nhợt lạnh ẩm, tĩnh mạch cổ <span style=\"color: #ffd43b; font-weight: 600;\">xẹp</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">mạch nhanh</span>, FAST có dịch ổ bụng hoặc mất máu khung chậu/xương lớn.<br>2) <b>Sốc tắc nghẽn (Chèn ép tim cấp / Tràn khí áp lực):</b> Tĩnh mạch cổ <span style=\"color: #ff6b6b; font-weight: 600;\">nổi căng</span>, tụt HA nhanh + tiếng tim mờ (hoặc mất rì rào phế nang, khí quản lệch) → dẫn lưu/giải áp khẩn.<br>3) <b>Sốc tủy (Tổn thương tủy cổ / ngực cao):</b> Mất trương lực giao cảm vận mạch → tụt HA nhưng <span style=\"color: #74c0fc; font-weight: 600;\">mạch chậm, da ấm hồng</span> kèm liệt/mất cảm giác từ ngang mức tổn thương.<br><br>💡 Giải thích của AI:<br>Nhìn tĩnh mạch cổ (xẹp vs nổi) và bắt tần số mạch (nhanh vs chậm) giúp phân định đúng ngay loại sốc để không truyền nhầm quá nhiều dịch cho Tamponade hay bỏ sót chấn thương cột sống cổ.",
+      "extra": "[B1.01, B1.02]",
+      "tags": [
+        "SURG-R2",
+        "B1",
+        "Thuat-toan",
+        "Phan-biet",
+        "Chan-doan"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-01",
+      "type": "basic",
+      "section": "B1",
+      "topic": "Đưa 'Sốc phản vệ' vào danh sách 3 bệnh cảnh Sốc chấn thương (Câu 1)",
+      "tier": 1,
+      "category": "SURG-R2 · B1",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Trong câu hỏi về các bệnh cảnh lâm sàng thường gặp của sốc chấn thương (Sốc mất máu, Sốc giảm thể tích, Sốc chèn ép tim cấp, Sốc thần kinh/tủy, Sốc phản vệ) — Phương án nào là bẫy sai?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phương án sai (Bẫy):</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Sốc phản vệ</span> KHÔNG phải bệnh cảnh sốc do chấn thương cơ học gây ra.<br>2) <b>Bốn đáp án đúng trong lượng giá:</b> <span style=\"color: #51cf66; font-weight: 600;\">Sốc mất máu</span> (chiếm đa số), <span style=\"color: #51cf66; font-weight: 600;\">Sốc giảm thể tích</span> (cùng nhóm), <span style=\"color: #51cf66; font-weight: 600;\">Sốc do chèn ép tim cấp</span> (Tamponade) và <span style=\"color: #51cf66; font-weight: 600;\">Sốc thần kinh / sốc tủy</span>.<br><br>💡 Giải thích của AI:<br>Sốc phản vệ thuộc nhóm sốc phân bố do dị ứng phản ứng quá mẫn thuốc/dị nguyên (có thể gặp tai biến khi tiêm kháng sinh/thuốc cản quang nhưng không phải bệnh cảnh đặc trưng của chấn thương).",
+      "extra": "[B1.01, B7.02]",
+      "tags": [
+        "SURG-R2",
+        "B1",
+        "Bay-lam-sang",
+        "Phan-loai",
+        "Luong-gia"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-02",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Nhầm lẫn ngưỡng ATLS Độ III với Độ II và Độ IV trong đề thi (Câu 2)",
+      "tier": 1,
+      "category": "SURG-R2 · B3",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Với bệnh nhân mất máu ATLS Độ III: Tại sao cặp 'Mạch > 100, tụt HA', 'Vô niệu' và 'Mất máu > 40%' đều là đáp án sai?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đặc trưng chuẩn của ATLS Độ III:</b> Thể tích máu mất <span style=\"color: #ff6b6b; font-weight: 600;\">30 – 40% (1500 – 2000 ml)</span>, tần số tim <span style=\"color: #ff6b6b; font-weight: 600;\">> 120 lần/phút</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">huyết áp tụt</span> và nước tiểu <span style=\"color: #ff6b6b; font-weight: 600;\">5 – 15 ml/giờ (thiểu niệu)</span>.<br>2) <b>Bóc từng bẫy sai:</b> Mạch > 100 là mốc Độ II; <span style=\"color: #ffd43b; font-weight: 600;\">> 40%</span> và <span style=\"color: #ffd43b; font-weight: 600;\">vô niệu (< 5 ml/giờ)</span> là ranh giới của Độ IV.<br><br>💡 Giải thích của AI:<br>Độ III là 'điểm rơi' chính thức của tụt huyết áp trên lâm sàng kèm mạch > 120/phút và mất máu > 30% (nhưng chưa vượt 40% hay vô niệu hoàn toàn như Độ IV).",
+      "extra": "[B3.02, B7.02]",
+      "tags": [
+        "SURG-R2",
+        "B3",
+        "Bay-lam-sang",
+        "ATLS",
+        "Luong-gia"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-03",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Đẩy bệnh nhân sốc mất máu huyết động không ổn định đi chụp MSCT bụng (Câu 3)",
+      "tier": 1,
+      "category": "SURG-R2 · B4",
+      "badge": "🛑 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">🛑 CỜ ĐỎ</span> — Bệnh nhân chấn thương bụng kín đang tụt huyết áp 75/45 mmHg, mạch 132 — Sai lầm chết người nào xảy ra nếu ra y lệnh chụp MSCT ngực–bụng hay đưa xuống phòng siêu âm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Y lệnh cấm tuyệt đối:</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Cấm chụp MSCT ngực – bụng</span> hoặc di chuyển bệnh nhân khi huyết động không ổn định.<br>2) <b>Phương tiện đúng duy nhất tại giường:</b> <span style=\"color: #51cf66; font-weight: 600;\">Siêu âm FAST ngực – bụng tại giường</span> (phát hiện dịch tự do ổ bụng / màng tim trong <span style=\"color: #51cf66; font-weight: 600;\">vòng 2 phút</span> không cần di chuyển).<br><br>💡 Giải thích của AI:<br>Vận chuyển bệnh nhân đang chảy máu ồ ạt vào phòng CT làm mất kiểm soát hồi sức và có thể khiến nạn nhân ngừng tim ngay trong máy chụp.",
+      "extra": "[B4.02, B7.02]",
+      "tags": [
+        "SURG-R2",
+        "B4",
+        "Bay-lam-sang",
+        "FAST",
+        "Cap-cuu",
+        "Luong-gia"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-04",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Nhầm mục tiêu MAP > 50 mmHg hoặc Hematocrit > 20% sau phẫu thuật cầm máu (Câu 4)",
+      "tier": 1,
+      "category": "SURG-R2 · B7",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Sau khi phẫu thuật cầm máu ổn định cho bệnh nhân sốc mất máu, tại sao các ngưỡng 'MAP > 50 mmHg' và 'Hematocrit > 20%' không đạt yêu cầu hồi sức?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Ba đích bắt buộc phải đạt:</b> <span style=\"color: #51cf66; font-weight: 600;\">MAP ≥ 65 mmHg</span>, <span style=\"color: #51cf66; font-weight: 600;\">Hematocrit > 25% (Hb ≥ 80 – 90 g/L)</span> và <span style=\"color: #51cf66; font-weight: 600;\">lượng nước tiểu > 0,5 ml/kg/giờ</span>.<br>2) <b>Nguy cơ nếu để MAP > 50 hoặc Hct > 20%:</b> Không đủ áp lực tưới máu lọc cầu thận, tưới máu mạch vành và thiếu oxy mô kéo dài gây hoại tử ống thận / suy đa tạng.<br><br>💡 Giải thích của AI:<br>MAP 50 mmHg nằm dưới ngưỡng tự điều hòa tưới máu của cả thận lẫn não; còn Hct ≤ 20% làm giảm nặng khả năng mang oxy lẫn độ nhớt hỗ trợ đông máu.",
+      "extra": "[B7.01, B7.02]",
+      "tags": [
+        "SURG-R2",
+        "B7",
+        "Bay-lam-sang",
+        "Dich-hoi-suc",
+        "Luong-gia"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-05",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Áp dụng 'Hạ huyết áp cho phép (HATT 80–90)' cho bệnh nhân đa chấn thương có Chấn thương sọ não",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "🛑 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">🛑 CỜ ĐỎ</span> — Bệnh nhân vỡ lách kèm Chấn thương sọ não nặng (Glasgow 7) — Nếu máy móc duy trì HATT 80–90 mmHg theo Permissive Hypotension thì gây hậu quả thảm khốc gì cho não?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thảm họa thiếu máu não thứ phát:</b> HATT 80–90 mmHg khiến áp lực tưới máu não (<span style=\"color: #74c0fc; font-weight: 600;\">CPP = MAP − ICP</span>) sụt giảm nghiêm trọng khi áp lực nội sọ (ICP) đang tăng cao.<br>2) <b>Ngoại lệ bắt buộc khi có CTSN / Tổn thương tủy:</b> Phải duy trì <span style=\"color: #ff6b6b; font-weight: 600;\">MAP ≥ 80 – 90 mmHg (HATT ≥ 100 – 110 mmHg)</span> và nâng đích <span style=\"color: #51cf66; font-weight: 600;\">Hct > 30% (Hb > 100 g/L)</span>.<br><br>💡 Giải thích của AI:<br>Não bị chấn thương mất khả năng tự điều hòa mạch máu nên cực kỳ nhạy cảm với tụt huyết áp; chỉ một cơn tụt HATT < 90 mmHg cũng nhân đôi tỷ lệ tử vong ở bệnh nhân CTSN nặng.",
+      "extra": "[B5.02, B5.03]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Bay-lam-sang",
+        "CTSN",
+        "Permissive-Hypotension"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-06",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Loay hoay đặt Catheter tĩnh mạch trung tâm trước hoặc bơm 3–4 lít NaCl 0,9% lạnh",
+      "tier": 1,
+      "category": "SURG-R2 · B5",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Tại phòng cấp cứu chấn thương, hai thói quen sai lầm làm mất giờ vàng và thúc đẩy rối loạn đông máu khi thiết lập đường truyền và bù dịch là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Trì hoãn đường truyền:</b> Tuyệt đối <span style=\"color: #ff6b6b; font-weight: 600;\">không làm chậm trễ cấp cứu để đặt catheter tĩnh mạch trung tâm</span> — phải đặt ngay <span style=\"color: #51cf66; font-weight: 600;\">2 đường truyền ngoại vi khẩu kính lớn (14G – 16G)</span>.<br>2) <b>Lạm dụng dịch tinh thể:</b> Chỉ khởi đầu tinh thể cân bằng ấm <span style=\"color: #ffd43b; font-weight: 600;\">1000 – 1500 ml</span>; truyền khối lượng lớn gây <span style=\"color: #ff6b6b; font-weight: 600;\">toan máu do Clo cao</span> và <span style=\"color: #ff6b6b; font-weight: 600;\">pha loãng yếu tố đông máu</span>.<br><br>💡 Giải thích của AI:<br>Kim ngoại vi 14G–16G ngắn cho tốc độ truyền chảy nhanh hơn nhiều so với catheter tĩnh mạch trung tâm nòng dài; còn bơm quá nhiều dịch tinh thể lạnh sẽ kích hoạt thẳng Tam chứng tử thần.",
+      "extra": "[B5.01]",
+      "tags": [
+        "SURG-R2",
+        "B5",
+        "Bay-lam-sang",
+        "Bu-dich",
+        "Duong-truyen"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-07",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Truyền máu khối lượng lớn toàn Hồng cầu khối hoặc quên tiêm Canxi clorid",
+      "tier": 1,
+      "category": "SURG-R2 · B6",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Khi truyền khẩn cấp 8 đơn vị hồng cầu khối liên tục mà không truyền kèm FFP/tiểu cầu và không bù Canxi clorid — Bệnh nhân sẽ gục ngã vì biến chứng gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đông máu loãng & tiêu thụ:</b> Truyền hồng cầu khối đơn độc không theo tỷ lệ <span style=\"color: #51cf66; font-weight: 600;\">1 HC khối : 1 FFP : 1 Tiểu cầu (1:1:1)</span> gây rối loạn đông máu nặng.<br>2) <b>Hạ Canxi máu do Citrate:</b> Chất chống đông <span style=\"color: #ffd43b; font-weight: 600;\">Citrate</span> trong túi máu gắp mất Canxi → bắt buộc tiêm <span style=\"color: #51cf66; font-weight: 600;\">Canxi clorid 1 g sau mỗi 4 đơn vị máu truyền</span>.<br><br>💡 Giải thích của AI:<br>Hạ Canxi máu vừa làm rối loạn thác đông máu nội sinh–ngoại sinh vừa gây suy giảm sức co bóp cơ tim và tụt huyết áp khó nâng bằng vận mạch.",
+      "extra": "[B5.03, B6.02]",
+      "tags": [
+        "SURG-R2",
+        "B6",
+        "Bay-lam-sang",
+        "MTP",
+        "Canxi"
+      ]
+    },
+    {
+      "id": "SURGR2-TRAP-08",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Tin vào huyết áp bình thường ở ATLS Độ II để đánh giá 'bệnh nhân ổn'",
+      "tier": 1,
+      "category": "SURG-R2 · B2",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Bệnh nhân chấn thương kín vừa vào viện có HA 110/80 mmHg nhưng mạch 112 lần/phút, thở 24 lần/phút, da tay hơi lạnh và lo lắng — Có được kết luận chưa mất máu nhiều?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mặt nạ giả của sốc còn bù:</b> Đây chính là <span style=\"color: #ffd43b; font-weight: 600;\">Sốc mất máu Độ II (mất 750 – 1500 ml, 15 – 30% thể tích máu)</span> — huyết áp tâm thu bình thường nhưng đã <span style=\"color: #ff6b6b; font-weight: 600;\">hẹp hiệu số HA (HA kẹp 110/80)</span> và mạch > 100.<br>2) <b>Giải thích sinh lý:</b> Nhờ co mạch giao cảm và trung tâm hóa tuần hoàn giữ áp lực động mạch cho tim và não, nhưng nếu không hồi sức ngay sẽ tụt dốc đột ngột sang Độ III mất bù.<br><br>💡 Giải thích của AI:<br>Tụt huyết áp tâm thu là dấu hiệu MUỘN (chỉ xuất hiện khi mất > 30% máu ở Độ III). Nhịp tim > 100 và huyết áp kẹp mới là tiếng chuông báo động sớm tại giường.",
+      "extra": "[B2.01, B3.01]",
+      "tags": [
+        "SURG-R2",
+        "B2",
+        "Bay-lam-sang",
+        "ATLS",
+        "Con-bu"
+      ]
+    }
+  ]
+}
