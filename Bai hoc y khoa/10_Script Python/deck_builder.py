@@ -91,6 +91,67 @@ span[style*="#ff6b6b"], span[style*="#FF6B6B"] { color: #dc2626 !important; }
 span[style*="#ffd43b"], span[style*="#FFD43B"] { color: #b45309 !important; }
 span[style*="#51cf66"], span[style*="#51CF66"] { color: #16a34a !important; }
 span[style*="#74c0fc"], span[style*="#74C0FC"] { color: #0284c7 !important; }
+
+/* ==========================================================================
+   Dark Mode Support (Anki Desktop .nightMode / .night_mode + CSS Media Query)
+   ========================================================================== */
+.nightMode .card, .night_mode .card,
+.nightMode.card, .night_mode.card {
+  color: #e2e8f0; background-color: #0f172a; border-color: #334155;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.4);
+}
+.nightMode .question, .night_mode .question { color: #f8fafc; }
+.nightMode hr#answer, .night_mode hr#answer { background: #334155; }
+.nightMode .answer-box, .night_mode .answer-box {
+  background-color: rgba(255, 255, 255, 0.04); border-color: #334155;
+  border-left-color: #38bdf8; color: #e2e8f0;
+}
+.nightMode .extra-box, .night_mode .extra-box {
+  background-color: rgba(255, 255, 255, 0.03); border-left-color: #64748b; color: #94a3b8;
+}
+.nightMode .extra-title, .night_mode .extra-title { color: #cbd5e1; }
+.nightMode .cloze, .night_mode .cloze {
+  color: #38bdf8; background-color: rgba(56, 189, 248, 0.15); border-bottom: 2px solid #38bdf8;
+}
+.nightMode .badge-barem, .night_mode .badge-barem { background-color: rgba(245,158,11,0.15); color: #fbbf24; border-color: rgba(245,158,11,0.4); }
+.nightMode .badge-ebm, .night_mode .badge-ebm { background-color: rgba(6,182,212,0.15); color: #22d3ee; border-color: rgba(6,182,212,0.4); }
+.nightMode .badge-red, .night_mode .badge-red { background-color: rgba(255,107,107,0.15); color: #ff6b6b; border-color: rgba(255,107,107,0.45); }
+.nightMode .badge-amber, .night_mode .badge-amber { background-color: rgba(255,212,59,0.15); color: #ffd43b; border-color: rgba(255,212,59,0.45); }
+.nightMode .badge-green, .night_mode .badge-green,
+.nightMode .badge-algo, .night_mode .badge-algo { background-color: rgba(81,207,102,0.15); color: #51cf66; border-color: rgba(81,207,102,0.45); }
+.nightMode .badge-blue, .night_mode .badge-blue,
+.nightMode .badge-cyan, .night_mode .badge-cyan { background-color: rgba(116,192,252,0.15); color: #74c0fc; border-color: rgba(116,192,252,0.45); }
+.nightMode .badge-purple, .night_mode .badge-purple { background-color: rgba(177,151,252,0.15); color: #b197fc; border-color: rgba(177,151,252,0.45); }
+
+.nightMode span[style*="#ff6b6b"], .nightMode span[style*="#FF6B6B"],
+.night_mode span[style*="#ff6b6b"], .night_mode span[style*="#FF6B6B"] { color: #ff6b6b !important; }
+.nightMode span[style*="#ffd43b"], .nightMode span[style*="#FFD43B"],
+.night_mode span[style*="#ffd43b"], .night_mode span[style*="#FFD43B"] { color: #ffd43b !important; }
+.nightMode span[style*="#51cf66"], .nightMode span[style*="#51CF66"],
+.night_mode span[style*="#51cf66"], .night_mode span[style*="#51CF66"] { color: #51cf66 !important; }
+.nightMode span[style*="#74c0fc"], .nightMode span[style*="#74C0FC"],
+.night_mode span[style*="#74c0fc"], .night_mode span[style*="#74C0FC"] { color: #74c0fc !important; }
+
+@media (prefers-color-scheme: dark) {
+  .card { color: #e2e8f0; background-color: #0f172a; border-color: #334155; box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.4); }
+  .question { color: #f8fafc; }
+  hr#answer { background: #334155; }
+  .answer-box { background-color: rgba(255, 255, 255, 0.04); border-color: #334155; border-left-color: #38bdf8; color: #e2e8f0; }
+  .extra-box { background-color: rgba(255, 255, 255, 0.03); border-left-color: #64748b; color: #94a3b8; }
+  .extra-title { color: #cbd5e1; }
+  .cloze { color: #38bdf8; background-color: rgba(56, 189, 248, 0.15); border-bottom: 2px solid #38bdf8; }
+  .badge-barem { background-color: rgba(245,158,11,0.15); color: #fbbf24; border-color: rgba(245,158,11,0.4); }
+  .badge-ebm { background-color: rgba(6,182,212,0.15); color: #22d3ee; border-color: rgba(6,182,212,0.4); }
+  .badge-red { background-color: rgba(255,107,107,0.15); color: #ff6b6b; border-color: rgba(255,107,107,0.45); }
+  .badge-amber { background-color: rgba(255,212,59,0.15); color: #ffd43b; border-color: rgba(255,212,59,0.45); }
+  .badge-green, .badge-algo { background-color: rgba(81,207,102,0.15); color: #51cf66; border-color: rgba(81,207,102,0.45); }
+  .badge-blue, .badge-cyan { background-color: rgba(116,192,252,0.15); color: #74c0fc; border-color: rgba(116,192,252,0.45); }
+  .badge-purple { background-color: rgba(177,151,252,0.15); color: #b197fc; border-color: rgba(177,151,252,0.45); }
+  span[style*="#ff6b6b"], span[style*="#FF6B6B"] { color: #ff6b6b !important; }
+  span[style*="#ffd43b"], span[style*="#FFD43B"] { color: #ffd43b !important; }
+  span[style*="#51cf66"], span[style*="#51CF66"] { color: #51cf66 !important; }
+  span[style*="#74c0fc"], span[style*="#74C0FC"] { color: #74c0fc !important; }
+}
 """
 BADGE_HTML = '<div class="badge {{BadgeClass}}">{{Badge}}{{#Category}} • {{Category}}{{/Category}}</div>'
 EXTRA_HTML = '{{#Extra}}<div class="extra-box"><div class="extra-title">Nguồn trích dẫn y chứng & Tài liệu học tập:</div>{{Extra}}</div>{{/Extra}}'

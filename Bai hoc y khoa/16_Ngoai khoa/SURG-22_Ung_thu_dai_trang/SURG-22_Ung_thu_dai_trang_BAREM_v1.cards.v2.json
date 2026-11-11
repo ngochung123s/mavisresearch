@@ -1,0 +1,744 @@
+{
+  "deck_id": 7600000000022,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-22: Ung Thư Đại Tràng",
+  "card_count": 42,
+  "cards": [
+    {
+      "id": "SURG22-B0-01",
+      "type": "basic",
+      "topic": "Dịch tễ học toàn cầu 2018",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ học toàn cầu 2018]</span> Số liệu mắc mới, tử vong, xếp hạng ung thư chung, tỷ lệ nam vs nữ và vùng địa lý mắc cao/thấp nhất?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Gánh nặng toàn cầu:</b> Có khoảng <span style=\"color: #ffd43b; font-weight: bold;\">1.096.601 ca mắc mới (6,1%)</span>, đứng hàng thứ <span style=\"color: #ffd43b; font-weight: bold;\">4</span> (sau phổi, vú, tuyến tiền liệt); có <span style=\"color: #ff6b6b; font-weight: bold;\">551.269 ca tử vong (5,8%)</span>, đứng hàng thứ <span style=\"color: #ff6b6b; font-weight: bold;\">5</span> (sau phổi, dạ dày, gan, vú).<br>2) <b>Phân bố theo giới tính:</b> Phổ biến thứ <span style=\"color: #ffd43b; font-weight: bold;\">2 ở phụ nữ</span> (614.000 ca, 9,2%) và phổ biến thứ <span style=\"color: #ffd43b; font-weight: bold;\">3 ở nam giới</span> (746.000 ca, 10,0%).<br>3) <b>Phân bố địa lý:</b> Cao nhất ở <span style=\"color: #51cf66; font-weight: bold;\">Úc, New Zealand</span> (44,8 ở nam và 32,2 ở nữ trên 100.000 dân); thấp nhất ở <span style=\"color: #51cf66; font-weight: bold;\">Tây Phi</span> (4,5 ở nam và 3,8 ở nữ trên 100.000 dân).<br><br>💡 Giải thích của AI:<br>Ung thư đại trực tràng gắn liền với lối sống phương Tây hóa (nhiều thịt đỏ, mỡ, ít vận động, ít chất xơ).",
+      "extra": "[B0.01, B0.02, B0.03]",
+      "tags": [
+        "Ngoai::SURG-22::B0",
+        "Tier-1",
+        "Ngoai::Dich-te",
+        "Ngoai::Toan-cau",
+        "Ngoai::Ty-le-mac"
+      ]
+    },
+    {
+      "id": "SURG22-B0-02",
+      "type": "basic",
+      "topic": "Dịch tễ Việt Nam và Tiên lượng tiến triển",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ Việt Nam & Tiên lượng]</span> Tần suất mắc bệnh tại Việt Nam theo Bệnh viện K Trung ương và tỷ lệ sống thêm 5 năm nếu mổ sớm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tại Việt Nam (BV K Trung ương):</b> Đứng hàng thứ <span style=\"color: #ffd43b; font-weight: bold;\">5</span> các bệnh ung thư phổ biến (sau dạ dày, phổi, vú, vòm họng), tần suất mắc là <span style=\"color: #ffd43b; font-weight: bold;\">11,2 / 100.000 dân</span>.<br>2) <b>Tốc độ tiến triển:</b> Ung thư đại tràng tiến triển <span style=\"color: #51cf66; font-weight: bold;\">tương đối chậm và di căn muộn</span> hơn nhiều loại ung thư đường tiêu hóa khác.<br>3) <b>Khả năng sống thêm 5 năm:</b> Nếu phát hiện và mổ sớm khi ung thư <span style=\"color: #51cf66; font-weight: bold;\">chưa đến lớp thanh mạc</span> thì tỷ lệ sống trên 5 năm đạt tới <span style=\"color: #51cf66; font-weight: bold;\">80% – 90%</span>.<br><br>💡 Giải thích của AI:<br>Chẩn đoán sớm trước khi khối u vượt qua lớp thanh mạc là yếu tố then chốt quyết định tiên lượng sống còn.",
+      "extra": "[B0.04, B0.05]",
+      "tags": [
+        "Ngoai::SURG-22::B0",
+        "Tier-1",
+        "Ngoai::Dich-te-VN",
+        "Ngoai::Tien-luong",
+        "Ngoai::Song-5-nam"
+      ]
+    },
+    {
+      "id": "SURG22-B1-01",
+      "type": "basic",
+      "topic": "Vai trò của Polyp đại tràng trong sinh ung",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Yếu tố nguy cơ: Polyp đại tràng]</span> Nhận định của Deinheka, Shinya - Wolf (1979) và Kozevnhikov về mối liên quan giữa số lượng polyp và tỷ lệ ung thư hóa?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhận định Deinheka:</b> Trên <span style=\"color: #ff6b6b; font-weight: bold;\">50%</span> trường hợp ung thư đại tràng phát sinh trên nền polyp đại tràng. Số lượng polyp càng nhiều, tỷ lệ ung thư hóa càng cao.<br>2) <b>Nghiên cứu Shinya và Wolf (1979 - 5.786 u tuyến):</b> Bệnh nhân có 1 polyp thì tỷ lệ ung thư hóa là <span style=\"color: #ffd43b; font-weight: bold;\">31,3%</span>; bệnh nhân có 3 polyp thì tỷ lệ ung thư hóa tăng vọt lên <span style=\"color: #ff6b6b; font-weight: bold;\">45,6%</span>.<br>3) <b>Nghiên cứu A.I. Kozevnhikov (958 trường hợp):</b> Bệnh nhân có 1 polyp thì tỷ lệ ác tính là <span style=\"color: #ffd43b; font-weight: bold;\">1/35</span>; bệnh nhân có nhiều polyp thì tỷ lệ ác tính lên tới <span style=\"color: #ff6b6b; font-weight: bold;\">1/3</span>.<br><br>💡 Giải thích của AI:<br>Mọi polyp đại tràng phát hiện qua nội soi đều cần được sinh thiết hoặc cắt bỏ triệt để phòng ngừa tiến triển ác tính.",
+      "extra": "[B1.01, B1.02, B1.03]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::Polyp",
+        "Ngoai::Shinya-Wolf",
+        "Ngoai::Kozevnhikov",
+        "Ngoai::Ty-le-ung-thu-hoa"
+      ]
+    },
+    {
+      "id": "SURG22-B1-02",
+      "type": "basic",
+      "topic": "Bệnh đại tràng mạn tính và Viêm loét đại tràng chảy máu",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Bệnh lý đại tràng mạn tính]</span> Các bệnh nhiễm khuẩn mạn tính tiền đề, tỷ lệ ung thư hóa theo Saegesser - Waridel và <span style=\"color: #ff6b6b; font-weight: bold;\">2 vị trí viêm loét</span> hay gặp nhất?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Các bệnh lý mạn tính:</b> Ung thư có thể phát sinh trên tổn thương của <span style=\"color: #ffd43b; font-weight: bold;\">lỵ amíp, lao, giang mai, thương hàn</span> và viêm đại tràng mạn tính.<br>2) <b>Viêm loét đại tràng chảy máu:</b> Nghiên cứu của F. Saegesser và D. Waridel ghi nhận khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">3% – 4%</span> bệnh nhân bị viêm loét đại tràng có biến chứng ung thư.<br>3) <b>Hai vị trí hay bị tổn thương nhất:</b> <span style=\"color: #51cf66; font-weight: bold;\">Manh tràng</span> và <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng xích ma (sigmoid)</span>. Lý do: Đây là các đoạn ruột <span style=\"color: #ffd43b; font-weight: bold;\">gấp khúc gây cản trở sinh lý</span>, phân bị ứ trệ lâu ngày gây viêm loét niêm mạc mạn tính.<br><br>💡 Giải thích của AI:<br>Hiện tượng ứ đọng phân kéo dài tại hai góc gấp khúc manh tràng và xích ma tạo điều kiện cho vi khuẩn và chất độc tiếp xúc niêm mạc lâu ngày.",
+      "extra": "[B1.04, B1.05, B1.06]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::Viem-loet-dai-trang",
+        "Ngoai::Saegesser-Waridel",
+        "Ngoai::Manh-trang",
+        "Ngoai::Xich-ma"
+      ]
+    },
+    {
+      "id": "SURG22-B1-03",
+      "type": "basic",
+      "topic": "Cơ chế chế độ ăn và Các chất sinh ung thực nghiệm",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cơ chế chế độ ăn & Hóa chất sinh ung]</span> Cơ chế bệnh sinh do thức ăn theo Burkitt (1975), Wynder - Reddy (1977) và <span style=\"color: #ff6b6b; font-weight: bold;\">3 chất phân hủy đạm</span> theo Petrov?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chế độ ăn nguy cơ cao:</b> Ăn <span style=\"color: #ff6b6b; font-weight: bold;\">ít chất bã (ít chất xơ)</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">nhiều mỡ và đạm động vật</span>.<br>2) <b>Tác động vi khuẩn và acid mật:</b> Làm thay đổi <span style=\"color: #ffd43b; font-weight: bold;\">hệ vi khuẩn yếm khí</span> tại đại tràng, biến đổi <span style=\"color: #ffd43b; font-weight: bold;\">axit mật và cholesterol</span> thành các chất gây ung thư.<br>3) <b>Hệ quả giảm khối lượng phân:</b> Thức ăn ít bã làm giảm thể tích phân, gây <span style=\"color: #ffd43b; font-weight: bold;\">táo bón</span>, khiến chất gây ung thư tiếp xúc với niêm mạc ruột <span style=\"color: #ff6b6b; font-weight: bold;\">lâu hơn và nồng độ cô đặc hơn</span>.<br>4) <b>Ba chất thoái biến của đạm gây ung thư thực nghiệm (Petrov):</b> Gồm <span style=\"color: #ff6b6b; font-weight: bold;\">Indol</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">Scatol</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Piridin</span>.<br><br>💡 Giải thích của AI:<br>Petrov đã chứng minh trên thực nghiệm động vật rằng Indol, Scatol và Piridin là các chất sinh ung trực tiếp đối với niêm mạc ruột.",
+      "extra": "[B1.07, B1.08]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::Che-do-an",
+        "Ngoai::Burkitt",
+        "Ngoai::Petrov",
+        "Ngoai::Indol",
+        "Ngoai::Scatol",
+        "Ngoai::Piridin"
+      ]
+    },
+    {
+      "id": "SURG22-B1-04",
+      "type": "basic",
+      "topic": "Hội chứng di truyền: Đa polyp FAP và Hội chứng Lynch",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Yếu tố di truyền]</span> Đặc điểm đột biến gen, tỷ lệ ung thư hóa và chiến lược phẫu thuật của <span style=\"color: #ffd43b; font-weight: bold;\">FAP</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Hội chứng Lynch (HNPCC)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bệnh đa polyp đại tràng gia đình (FAP):</b> Liên quan đến đột biến <span style=\"color: #ff6b6b; font-weight: bold;\">gen APC</span>. Chiếm <span style=\"color: #ffd43b; font-weight: bold;\">< 1%</span> ung thư đại trực tràng. Đặc điểm: <span style=\"color: #ff6b6b; font-weight: bold;\">100% hóa ác</span> nếu không phẫu thuật <span style=\"color: #51cf66; font-weight: bold;\">cắt toàn bộ đại tràng trước 40 tuổi</span>.<br>2) <b>Hội chứng Lynch (HNPCC):</b> Chiếm khoảng <span style=\"color: #ffd43b; font-weight: bold;\">5%</span> ung thư đại trực tràng, di truyền trội NST thường do đột biến các gen sửa chữa ghép cặp sai DNA (<span style=\"color: #51cf66; font-weight: bold;\">MLH1, MSH2</span>), phối hợp biến đổi gen <span style=\"color: #51cf66; font-weight: bold;\">p53, RAS và DCC</span>.<br><br>💡 Giải thích của AI:<br>Bệnh nhân FAP cần được nội soi tầm soát từ tuổi dậy thì và chủ động cắt toàn bộ đại tràng dự phòng trước năm 40 tuổi.",
+      "extra": "[B1.09, B1.10]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::FAP",
+        "Ngoai::Lynch",
+        "Ngoai::APC",
+        "Ngoai::MLH1",
+        "Ngoai::MSH2"
+      ]
+    },
+    {
+      "id": "SURG22-B2-01",
+      "type": "basic",
+      "topic": "Phân bố vị trí ung thư theo các tác giả kinh điển",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh: Phân bố vị trí]</span> Tỷ lệ phân bố ung thư đại tràng (Phải vs Ngang vs Trái) theo 4 tác giả: Morcaux, M. Galante, A. Deinheka và Nguyễn Văn Vân?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Morcaux (480 BN):</b> ĐT phải <span style=\"color: #ffd43b; font-weight: bold;\">26,7%</span>, ĐT ngang <span style=\"color: #ffd43b; font-weight: bold;\">6,8%</span>, ĐT trái chiếm đa số <span style=\"color: #ff6b6b; font-weight: bold;\">66,1%</span>.<br>2) <b>M. Galante (975 BN):</b> ĐT phải <span style=\"color: #ffd43b; font-weight: bold;\">28,0%</span>, ĐT ngang <span style=\"color: #ffd43b; font-weight: bold;\">14,0%</span>, ĐT trái chiếm đa số <span style=\"color: #ff6b6b; font-weight: bold;\">57,9%</span>.<br>3) <b>A. Deinheka:</b> ĐT phải <span style=\"color: #ffd43b; font-weight: bold;\">49,3%</span>, ĐT ngang <span style=\"color: #ffd43b; font-weight: bold;\">8,0%</span>, ĐT trái <span style=\"color: #ffd43b; font-weight: bold;\">42,7%</span>.<br>4) <b>Nguyễn Văn Vân (157 BN tại Việt Nam):</b> ĐT phải chiếm ưu thế <span style=\"color: #ff6b6b; font-weight: bold;\">52,2%</span>, ĐT ngang <span style=\"color: #ffd43b; font-weight: bold;\">7,6%</span>, ĐT trái <span style=\"color: #ffd43b; font-weight: bold;\">40,1%</span>.<br><br>💡 Giải thích của AI:<br>Các tác giả Âu Mỹ ghi nhận ưu thế đại tràng trái, trong khi số liệu Việt Nam (Nguyễn Văn Vân) ghi nhận đại tràng phải chiếm trên 50%.",
+      "extra": "[B2.01]",
+      "tags": [
+        "Ngoai::SURG-22::B2",
+        "Tier-2",
+        "Ngoai::Phan-bo-vi-tri",
+        "Ngoai::Morcaux",
+        "Ngoai::Galante",
+        "Ngoai::Deinheka",
+        "Ngoai::Nguyen-Van-Van"
+      ]
+    },
+    {
+      "id": "SURG22-B2-02",
+      "type": "basic",
+      "topic": "Hai vị trí hay gặp nhất và Tỷ lệ ung thư đồng thì",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Vị trí hay gặp & Ung thư đồng thì]</span> Hai vị trí chiếm tỷ lệ cao nhất trên khung đại tràng và tỷ lệ xuất hiện ung thư đồng thì (nhiều nơi cùng lúc)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hai vị trí thường gặp nhất:</b> <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng xích ma</span> và <span style=\"color: #51cf66; font-weight: bold;\">Manh tràng</span>, mỗi nơi chiếm khoảng <span style=\"color: #ffd43b; font-weight: bold;\">25% – 30%</span>, sau đó mới tới các vị trí khác.<br>2) <b>Ung thư đồng thì (nhiều ổ cùng lúc):</b> Thường ở một vị trí, nhưng có khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">5%</span> trường hợp xuất hiện ở nhiều nơi đồng thời trên khung đại tràng.<br>3) <b>Thái độ lâm sàng bắt buộc:</b> Phải thăm dò hoặc nội soi kiểm tra <span style=\"color: #ff6b6b; font-weight: bold;\">toàn bộ khung đại tràng</span> để tránh bỏ sót khối u thứ hai.<br><br>💡 Giải thích của AI:<br>5% tổn thương đồng thì là lý do mọi bệnh nhân K đại tràng đều phải soi toàn bộ khung ruột hoặc chụp CT đối quang kỹ lưỡng trước mổ.",
+      "extra": "[B2.02, B2.03]",
+      "tags": [
+        "Ngoai::SURG-22::B2",
+        "Tier-1",
+        "Ngoai::Xich-ma",
+        "Ngoai::Manh-trang",
+        "Ngoai::Dong-thi",
+        "Ngoai::Bo-sot-u"
+      ]
+    },
+    {
+      "id": "SURG22-B2-03",
+      "type": "basic",
+      "topic": "Ba thể tổn thương đại thể của Ung thư đại tràng",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh: Thể đại thể]</span> Vị trí ưu thế, đặc điểm hình thái và nguy cơ biến chứng của <span style=\"color: #51cf66; font-weight: bold;\">Thể sùi</span>, <span style=\"color: #ffd43b; font-weight: bold;\">Thể loét</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Thể thắt nhẫn</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thể sùi (u sùi):</b> Hay gặp ở <span style=\"color: #51cf66; font-weight: bold;\">đại tràng phải (manh tràng)</span>; phát triển lồi vào lòng ruột hình súp lơ, tổ chức mềm mủn dễ chảy máu, lòng ruột rộng nên <span style=\"color: #ffd43b; font-weight: bold;\">ít khi gây tắc ruột</span>.<br>2) <b>Thể loét:</b> Bờ nham nhở gồ ghề, ăn sâu qua các lớp thành ruột, dễ gây biến chứng <span style=\"color: #ff6b6b; font-weight: bold;\">thủng thành ruột</span> gây viêm phúc mạc hoặc chảy máu rỉ rả.<br>3) <b>Thể thắt nhẫn (thâm nhiễm co thắt):</b> Hay gặp ở <span style=\"color: #ff6b6b; font-weight: bold;\">đại tràng trái (đại tràng xuống và xích ma)</span>; tế bào u thâm nhiễm vòng tròn xơ chai siết hẹp lòng ruột như chiếc nhẫn, rất dễ gây biến chứng <span style=\"color: #ff6b6b; font-weight: bold;\">tắc ruột cơ học</span>.<br><br>💡 Giải thích của AI:<br>Thể sùi to xốp nhưng ít tắc ở ĐT phải; thể thắt nhẫn xơ chai nhỏ nhưng gây tắc ruột sớm và dữ dội ở ĐT trái.",
+      "extra": "[B2.04, B2.05, B2.06]",
+      "tags": [
+        "Ngoai::SURG-22::B2",
+        "Tier-1",
+        "Ngoai::The-sui",
+        "Ngoai::The-loet",
+        "Ngoai::The-that-nhan",
+        "Ngoai::Tac-ruot"
+      ]
+    },
+    {
+      "id": "SURG22-B3-01",
+      "type": "basic",
+      "topic": "Đối chiếu triệu chứng Đau bụng Đại tràng Phải và Trái",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Đau bụng (70–80%)]</span> Phân biệt tính chất đau bụng, vị trí khu trú và chẩn đoán phân biệt giữa <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng phải</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Đại tràng trái</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đại tràng phải:</b> Đau <span style=\"color: #ffd43b; font-weight: bold;\">âm ỉ mơ hồ không thành cơn</span> ở hố chậu phải hoặc hạ sườn phải. Dễ chẩn đoán nhầm với <span style=\"color: #ff6b6b; font-weight: bold;\">viêm ruột thừa mạn tính</span> hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">viêm túi mật / sỏi mật</span>.<br>2) <b>Đại tràng trái:</b> Đau <span style=\"color: #ff6b6b; font-weight: bold;\">quặn từng cơn dọc theo khung đại tràng</span>, kèm theo sôi bụng, bụng trướng; khi <span style=\"color: #51cf66; font-weight: bold;\">trung tiện hoặc đại tiện được thì đỡ đau rõ rệt</span> (<span style=\"color: #ffd43b; font-weight: bold;\">hội chứng Koenig</span>).<br><br>💡 Giải thích của AI:<br>Hội chứng Koenig (đau quặn bụng + sôi bụng + trung tiện đỡ đau) là dấu hiệu bán tắc ruột kinh điển của đại tràng trái.",
+      "extra": "[B3.01]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Dau-bung",
+        "Ngoai::Koenig",
+        "Ngoai::Ruot-thua-man",
+        "Ngoai::Dai-trang-phai",
+        "Ngoai::Dai-trang-trai"
+      ]
+    },
+    {
+      "id": "SURG22-B3-02",
+      "type": "basic",
+      "topic": "Đối chiếu Rối loạn lưu thông tiêu hóa",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Rối loạn lưu thông tiêu hóa]</span> Cơ chế và biểu hiện rối loạn đại tiện phân biệt giữa <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng phải</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Đại tràng trái</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đại tràng phải:</b> Biểu hiện <span style=\"color: #ffd43b; font-weight: bold;\">tiêu chảy hoặc phân lỏng xen kẽ táo bón</span>. Cơ chế do <span style=\"color: #ff6b6b; font-weight: bold;\">hiện tượng ứ đọng, lên men thối rữa và tăng tiết dịch nhầy</span>. Dễ nhầm với hội chứng lỵ hoặc viêm đại tràng co thắt.<br>2) <b>Đại tràng trái:</b> Biểu hiện chủ yếu là <span style=\"color: #ff6b6b; font-weight: bold;\">táo bón tăng dần</span>. Cơ chế do phân tại đây <span style=\"color: #ffd43b; font-weight: bold;\">đã thành khuôn đặc</span>, lòng ruột nhỏ và khối u <span style=\"color: #ffd43b; font-weight: bold;\">thể thắt nhẫn</span> gây chít hẹp cơ học.<br><br>💡 Giải thích của AI:<br>Đại tràng phải phân lỏng + lên men -> Tiêu chảy; Đại tràng trái phân đặc + lòng hẹp siết nhẫn -> Táo bón tiến triển.",
+      "extra": "[B3.02]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Roi-loan-tieu-hoa",
+        "Ngoai::Tao-bon",
+        "Ngoai::Tieu-chay",
+        "Ngoai::Len-men"
+      ]
+    },
+    {
+      "id": "SURG22-B3-03",
+      "type": "basic",
+      "topic": "Đối chiếu Tính chất Phân lẫn máu & Xuất huyết",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Phân lẫn máu]</span> Phân biệt màu sắc phân, cách hòa lẫn máu và hậu quả toàn thân giữa <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng phải</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Đại tràng trái</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đại tràng phải:</b> Máu <span style=\"color: #ffd43b; font-weight: bold;\">lẫn sâu trong phân</span>, phân có màu <span style=\"color: #ff6b6b; font-weight: bold;\">đỏ sẫm hoặc màu bã cà phê</span>. Chảy máu rỉ rả vi thể kéo dài dẫn đến <span style=\"color: #ff6b6b; font-weight: bold;\">hội chứng thiếu máu nhược sắc trầm trọng</span> mà không nhìn thấy máu tươi rõ rệt.<br>2) <b>Đại tràng trái:</b> Khối u cọ xát phân khuôn cứng, máu <span style=\"color: #ffd43b; font-weight: bold;\">bọc bên ngoài khuôn phân</span> thành vệt <span style=\"color: #ff6b6b; font-weight: bold;\">máu đỏ tươi hoặc đỏ bầm</span> kèm chất nhầy mủ.<br><br>💡 Giải thích của AI:<br>Phân lẫn máu bã cà phê + thiếu máu nặng = Đại tràng phải; Phân bọc vệt máu tươi bên ngoài = Đại tràng trái/trực tràng.",
+      "extra": "[B3.03]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Phan-lan-mau",
+        "Ngoai::Ba-ca-phe",
+        "Ngoai::Mau-tuoi",
+        "Ngoai::Thieu-mau-nhuoc-sac"
+      ]
+    },
+    {
+      "id": "SURG22-B3-04",
+      "type": "basic",
+      "topic": "Đối chiếu Khả năng sờ thấy khối u bụng (60%)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng: Khám sờ u bụng (60%)]</span> Tại sao khối u ung thư <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng phải</span> rất dễ sờ thấy trên lâm sàng, trong khi <span style=\"color: #ffd43b; font-weight: bold;\">Đại tràng trái</span> lại rất khó sờ thấy?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đại tràng phải (rất dễ sờ thấy u):</b> Do vị trí manh tràng nằm <span style=\"color: #51cf66; font-weight: bold;\">nông sát thành bụng trước</span> (hố chậu phải hoặc mạng sườn phải) và khối u thường thuộc <span style=\"color: #ffd43b; font-weight: bold;\">thể sùi kích thước lớn</span>.<br>2) <b>Đại tràng trái (rất khó sờ thấy u):</b> Do khối u thường nhỏ thuộc <span style=\"color: #ff6b6b; font-weight: bold;\">thể thắt nhẫn thâm nhiễm</span>, nằm sâu ở khoang <span style=\"color: #ffd43b; font-weight: bold;\">sau phúc mạc</span> hoặc bị che lấp bởi <span style=\"color: #ffd43b; font-weight: bold;\">bờ hạ sườn và mào chậu</span>.<br><br>💡 Giải thích của AI:<br>Sờ thấy khối chắc không đau vùng hố chậu phải ở người già luôn phải nghĩ tới ung thư manh tràng trước tiên.",
+      "extra": "[B3.04]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::So-thay-u",
+        "Ngoai::Manh-trang",
+        "Ngoai::Sau-phuc-mac",
+        "Ngoai::Kham-bung"
+      ]
+    },
+    {
+      "id": "SURG22-B3-05",
+      "type": "basic",
+      "topic": "Triệu chứng toàn thân và Dấu hiệu Sốt theo Peltekallio",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Triệu chứng toàn thân & Dấu hiệu sốt]</span> Dấu hiệu nổi bật của ung thư đại tràng phải và tỷ lệ sốt đơn thuần theo Peltekallio (1965)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hội chứng thiếu máu:</b> Là dấu hiệu đặc trưng nổi bật của <span style=\"color: #51cf66; font-weight: bold;\">ung thư đại tràng phải</span>. Bệnh nhân đến khám vì <span style=\"color: #ffd43b; font-weight: bold;\">da xanh xao, hoa mắt chóng mặt, mệt mỏi</span> dù chưa rõ triệu chứng tiêu hóa, kèm <span style=\"color: #ffd43b; font-weight: bold;\">sút cân nhanh</span>.<br>2) <b>Sốt đơn thuần theo Peltekallio (1965):</b> Khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">16% – 18%</span> bệnh nhân có sốt đơn thuần. Cơ chế do <span style=\"color: #ff6b6b; font-weight: bold;\">hoại tử khối u</span> hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">nhiễm trùng thứ phát quanh u</span>.<br>3) <b>Bệnh cảnh dễ nhầm lẫn:</b> Dễ chẩn đoán nhầm với <span style=\"color: #ffd43b; font-weight: bold;\">sốt thương hàn</span> hoặc các ổ nhiễm trùng sâu trong ổ bụng.<br><br>💡 Giải thích của AI:<br>Sốt kéo dài kèm thiếu máu ở người trung niên - cao tuổi là cờ đỏ cảnh báo ung thư đại tràng hoại tử.",
+      "extra": "[B3.05, B3.06]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Toan-than",
+        "Ngoai::Thieu-mau",
+        "Ngoai::Sot",
+        "Ngoai::Peltekallio",
+        "Ngoai::Hoai-tu-u"
+      ]
+    },
+    {
+      "id": "SURG22-B4-01",
+      "type": "basic",
+      "topic": "Phân loại giai đoạn Astler - Coller A, B1 và B2",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại Astler - Coller]</span> Tiêu chuẩn giải phẫu bệnh chi tiết của 3 giai đoạn <span style=\"color: #51cf66; font-weight: bold;\">Giai đoạn A</span>, <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn B1</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn B2</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giai đoạn A:</b> Khối u khu trú ở <span style=\"color: #51cf66; font-weight: bold;\">lớp niêm mạc và dưới niêm mạc</span>, <span style=\"color: #ffd43b; font-weight: bold;\">chưa xâm lấn vào lớp cơ</span>, chưa có di căn hạch (T1 N0 M0).<br>2) <b>Giai đoạn B1:</b> Khối u đã <span style=\"color: #ffd43b; font-weight: bold;\">xâm lấn vào lớp cơ</span> nhưng <span style=\"color: #ffd43b; font-weight: bold;\">chưa vượt qua lớp cơ</span> (chưa tới thanh mạc), chưa có di căn hạch (T2 N0 M0).<br>3) <b>Giai đoạn B2:</b> Khối u <span style=\"color: #ff6b6b; font-weight: bold;\">xâm lấn xuyên thủng toàn bộ lớp cơ</span> tới thanh mạc hoặc ra mô mỡ quanh đại tràng, <span style=\"color: #ffd43b; font-weight: bold;\">chưa có di căn hạch</span> (T3-T4 N0 M0).<br><br>💡 Giải thích của AI:<br>Giai đoạn B phân định bởi độ sâu lớp cơ: B1 chưa qua cơ, B2 đã xuyên qua cơ tới thanh mạc / mô mỡ quanh ruột (tất cả hạch đều âm tính).",
+      "extra": "[B4.01, B4.02, B4.03]",
+      "tags": [
+        "Ngoai::SURG-22::B4",
+        "Tier-1",
+        "Ngoai::Astler-Coller",
+        "Ngoai::Giai-doan-A",
+        "Ngoai::Giai-doan-B1",
+        "Ngoai::Giai-doan-B2"
+      ]
+    },
+    {
+      "id": "SURG22-B4-02",
+      "type": "basic",
+      "topic": "Phân loại giai đoạn Astler - Coller C1, C2 và D",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại Astler - Coller]</span> Tiêu chuẩn giải phẫu bệnh chi tiết của 3 giai đoạn <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn C1</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn C2</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn D</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giai đoạn C1:</b> Khối u <span style=\"color: #ffd43b; font-weight: bold;\">chưa vượt quá lớp cơ</span> (tương ứng độ sâu B1) nhưng <span style=\"color: #ff6b6b; font-weight: bold;\">ĐÃ CÓ di căn hạch vùng</span> (T2 N+ M0).<br>2) <b>Giai đoạn C2:</b> Khối u <span style=\"color: #ff6b6b; font-weight: bold;\">đã xâm lấn xuyên qua lớp cơ tới thanh mạc / mô quanh đại tràng</span> (tương ứng độ sâu B2) và <span style=\"color: #ff6b6b; font-weight: bold;\">ĐÃ CÓ di căn hạch vùng</span> (T3-T4 N+ M0).<br>3) <b>Giai đoạn D:</b> Khối u ở bất kỳ mức độ xâm lấn nào nhưng <span style=\"color: #ff6b6b; font-weight: bold;\">ĐÃ CÓ di căn xa</span> (gan, phổi, phúc mạc, buồng trứng... M1).<br><br>💡 Giải thích của AI:<br>Chỉ cần có di căn hạch bạch huyết (N+) là xếp nhóm C (C1 nếu chưa qua cơ, C2 nếu đã qua cơ). Có di căn xa chuyển ngay thành nhóm D.",
+      "extra": "[B4.04, B4.05, B4.06]",
+      "tags": [
+        "Ngoai::SURG-22::B4",
+        "Tier-1",
+        "Ngoai::Astler-Coller",
+        "Ngoai::Giai-doan-C1",
+        "Ngoai::Giai-doan-C2",
+        "Ngoai::Giai-doan-D",
+        "Ngoai::Di-can-hach"
+      ]
+    },
+    {
+      "id": "SURG22-B4-03",
+      "type": "basic",
+      "topic": "Bản chất đối chiếu phân loại Astler - Coller với Dukes",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại Astler - Coller vs Dukes]</span> Điểm cải tiến mang tính bước ngoặt của hệ thống Astler - Coller so với phân loại Dukes nguyên bản là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Điểm cải tiến nhóm B:</b> Dukes chỉ có giai đoạn B chung (u vượt quá thành ruột); Astler - Coller chia tách thành <span style=\"color: #ffd43b; font-weight: bold;\">B1 (u vào lớp cơ nhưng chưa qua cơ)</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">B2 (u đã xuyên qua lớp cơ tới thanh mạc)</span>.<br>2) <b>Điểm cải tiến nhóm C:</b> Dukes chỉ có giai đoạn C chung (có di căn hạch); Astler - Coller phân định thành <span style=\"color: #ffd43b; font-weight: bold;\">C1 (hạch dương tính nhưng u chưa qua cơ)</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">C2 (hạch dương tính và u đã xuyên qua cơ)</span>.<br>3) <b>Ý nghĩa tiên lượng:</b> Độ sâu xâm lấn thành ruột kết hợp tình trạng di căn hạch phản ánh chính xác nguy cơ tái phát và tỷ lệ sống thêm sau phẫu thuật.<br><br>💡 Giải thích của AI:<br>Sự phân định B1/B2 và C1/C2 của Astler - Coller là tiền đề đặt nền móng trực tiếp cho hệ thống phân loại TNM hiện đại.",
+      "extra": "[B4.01, B4.02, B4.03, B4.04, B4.05, B4.06]",
+      "tags": [
+        "Ngoai::SURG-22::B4",
+        "Tier-2",
+        "Ngoai::Astler-Coller",
+        "Ngoai::Dukes",
+        "Ngoai::Cai-tien",
+        "Ngoai::Do-sau-xam-lan"
+      ]
+    },
+    {
+      "id": "SURG22-B5-01",
+      "type": "basic",
+      "topic": "Biến chứng Tắc ruột ung thư đại tràng",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Biến chứng: Tắc ruột (~30%)]</span> So sánh tỷ lệ tắc ruột giữa 3 vị trí (Trái vs Ngang vs Phải) và giải thích nguyên nhân?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tần suất theo phân đoạn:</b> Gặp ở <span style=\"color: #ff6b6b; font-weight: bold;\">Đại tràng trái (46% – 48%)</span> cao vượt trội so với <span style=\"color: #ffd43b; font-weight: bold;\">Đại tràng ngang (33%)</span> và <span style=\"color: #51cf66; font-weight: bold;\">Đại tràng phải (18%)</span>.<br>2) <b>Lý do đại tràng trái hay bị tắc ruột nhất:</b> Do khối u thường thuộc <span style=\"color: #ff6b6b; font-weight: bold;\">thể thắt nhẫn</span> gây chít hẹp lòng ruột, thành đại tràng trái dày nhỏ và <span style=\"color: #ffd43b; font-weight: bold;\">phân đã tạo khuôn rắn</span>.<br><br>💡 Giải thích của AI:<br>Gần 1/2 bệnh nhân K đại tràng trái nhập viện trong bệnh cảnh tắc ruột cấp cứu.",
+      "extra": "[B5.01]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Tac-ruot",
+        "Ngoai::Ty-le",
+        "Ngoai::Dai-trang-trai",
+        "Ngoai::The-that-nhan"
+      ]
+    },
+    {
+      "id": "SURG22-B5-02",
+      "type": "basic",
+      "topic": "Xử trí cấp cứu Tắc ruột Đại tràng Phải",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cấp cứu: Tắc ruột Đại tràng Phải]</span> Chiến lược phẫu thuật cấp cứu trong 2 tình huống: Toàn trạng cho phép vs Bệnh nhân quá yếu / Viêm phúc mạc?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Toàn trạng cho phép, bụng tương đối sạch:</b> Tiến hành <span style=\"color: #51cf66; font-weight: bold;\">Cắt nửa đại tràng phải</span> và <span style=\"color: #51cf66; font-weight: bold;\">nối hồi – đại tràng ngang ngay thì đầu</span> (nối tận – bên hoặc bên – bên theo kỹ thuật Quénu).<br>2) <b>Bệnh nhân quá yếu hoặc viêm phúc mạc nặng:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Cắt u đưa 2 đầu ruột ra ngoài làm hậu môn nhân tạo</span>, hồi sức ổn định và <span style=\"color: #ffd43b; font-weight: bold;\">nối lại ở thì 2</span>.<br><br>💡 Giải thích của AI:<br>Đại tràng phải có ưu thế lòng sạch hơn và cấp máu dồi dào từ động mạch hồi - đại tràng nên cho phép cắt u nối ngay nếu toàn trạng ổn.",
+      "extra": "[B5.02]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Cap-cuu",
+        "Ngoai::Tac-ruot-phai",
+        "Ngoai::Quenu",
+        "Ngoai::Cat-noi-ngay"
+      ]
+    },
+    {
+      "id": "SURG22-B5-03",
+      "type": "basic",
+      "topic": "Xử trí cấp cứu Tắc ruột Đại tràng Trái: Hartmann vs Schloffer",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cấp cứu: Tắc ruột Đại tràng Trái]</span> Tại sao cấm nối ngay thì đầu và kỹ thuật tiến hành <span style=\"color: #ff6b6b; font-weight: bold;\">Phẫu thuật Hartmann</span> so với <span style=\"color: #ffd43b; font-weight: bold;\">Phẫu thuật Schloffer 3 thì</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Lý do cấm nối ngay thì đầu:</b> Thành ruột trái giãn mỏng, ứ đọng khối lượng lớn phân thối bẩn và vi khuẩn yếm khí, nguy cơ <span style=\"color: #ff6b6b; font-weight: bold;\">bục miệng nối gây viêm phúc mạc tử vong cực cao</span>.<br>2) <b>Phẫu thuật Hartmann (2 thì):</b> Cắt đoạn đại tràng mang khối u → <span style=\"color: #51cf66; font-weight: bold;\">Đưa đầu trên ra ngoài làm hậu môn nhân tạo</span> → <span style=\"color: #ffd43b; font-weight: bold;\">Khâu đóng kín mỏm dưới (mỏm trực tràng)</span>. Đóng hậu môn nhân tạo và nối lại ở thì 2 sau 3–6 tháng.<br>3) <b>Phẫu thuật Schloffer (3 thì):</b> Thì 1: <span style=\"color: #ffd43b; font-weight: bold;\">Làm hậu môn nhân tạo trên u (ĐT ngang)</span> giải áp → Thì 2: <span style=\"color: #51cf66; font-weight: bold;\">Cắt u và khâu nối lưu thông</span> → Thì 3: <span style=\"color: #51cf66; font-weight: bold;\">Đóng hậu môn nhân tạo</span>.<br><br>💡 Giải thích của AI:<br>Phẫu thuật Hartmann hiện nay là lựa chọn kinh điển và phổ biến nhất trong tắc ruột cấp cứu do u đại tràng trái/xích ma.",
+      "extra": "[B5.03]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Hartmann",
+        "Ngoai::Schloffer",
+        "Ngoai::Tac-ruot-trai",
+        "Ngoai::Chong-chi-dinh-noi-ngay"
+      ]
+    },
+    {
+      "id": "SURG22-B5-04",
+      "type": "basic",
+      "topic": "Biến chứng Thủng u, Chảy máu dữ dội và Rò tiêu hóa",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Biến chứng ngoại khoa khác]</span> Đặc điểm lâm sàng của biến chứng <span style=\"color: #ff6b6b; font-weight: bold;\">Thủng u</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">Chảy máu dữ dội</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Rò đại tràng vào các tạng</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thủng khối u gây viêm phúc mạc:</b> Đau bụng dữ dội đột ngột, khám bụng có hội chứng <span style=\"color: #ff6b6b; font-weight: bold;\">viêm phúc mạc toàn thể</span> hoặc tạo ổ áp xe khu trú quanh khối u.<br>2) <b>Chảy máu dữ dội:</b> Chảy máu ồ ạt qua đường tiêu hóa dưới do khối u hoại tử làm rách các nhánh mạch máu lớn.<br>3) <b>Rò đại tràng vào bàng quang:</b> Biểu hiện kinh điển <span style=\"color: #ffd43b; font-weight: bold;\">tiểu ra hơi (pneumaturia)</span>, <span style=\"color: #ffd43b; font-weight: bold;\">tiểu ra cặn phân (fecaluria)</span> và nhiễm trùng tiết niệu tái phát dai dẳng.<br>4) <b>Rò vào các cơ quan khác:</b> Rò vào <span style=\"color: #ffd43b; font-weight: bold;\">âm đạo</span> (phân chảy qua âm đạo) hoặc rò ra <span style=\"color: #ffd43b; font-weight: bold;\">thành bụng</span>.<br><br>💡 Giải thích của AI:<br>Tiểu ra hơi và phân là dấu hiệu chỉ điểm 100% của rò đại tràng - bàng quang, thường gặp ở K xích ma xâm lấn đáy bàng quang.",
+      "extra": "[B5.04, B5.05]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Thung-u",
+        "Ngoai::Chay-mau",
+        "Ngoai::Ro-bang-quang",
+        "Ngoai::Pneumaturia",
+        "Ngoai::Fecaluria"
+      ]
+    },
+    {
+      "id": "SURG22-B6-01",
+      "type": "basic",
+      "topic": "Chuẩn bị bệnh nhân trước mổ phiên và Thuốc tẩy Fortrans",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chuẩn bị trước mổ: Làm sạch ruột]</span> Phác đồ chế độ ăn, kháng sinh dự phòng, thành phần & quy cách dùng <span style=\"color: #51cf66; font-weight: bold;\">Fortrans</span> so với <span style=\"color: #ff6b6b; font-weight: bold;\">Manitol 10%</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chế độ ăn & Kháng sinh:</b> Chế độ ăn <span style=\"color: #ffd43b; font-weight: bold;\">không bã 2–3 ngày</span> trước mổ; dùng kháng sinh đường ruột dự phòng <span style=\"color: #51cf66; font-weight: bold;\">Neomycin phối hợp Metronidazol</span>.<br>2) <b>Quy cách dùng Fortrans:</b> Hộp chứa các gói Polyethyleneglycol 4000 (64g) cùng các muối điện giải. Pha mỗi gói trong <span style=\"color: #ffd43b; font-weight: bold;\">1 lít nước</span>, uống <span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 gói trong 2 – 3 giờ</span> vào buổi chiều trước ngày mổ.<br>3) <b>Ưu điểm vượt trội của Fortrans:</b> <span style=\"color: #51cf66; font-weight: bold;\">Không gây rối loạn nước - điện giải</span> và <span style=\"color: #51cf66; font-weight: bold;\">không làm phù nề niêm mạc ruột</span> (khắc phục hoàn toàn 2 nguy cơ nguy hiểm của Manitol 10%).<br><br>💡 Giải thích của AI:<br>Manitol 10% từng bị đào thải vì gây mất nước điện giải nặng và lên men sinh khí nổ khi dùng dao điện trong mổ.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "Ngoai::SURG-22::B6",
+        "Tier-1",
+        "Ngoai::Chuan-bi-mo",
+        "Ngoai::Fortrans",
+        "Ngoai::Manitol",
+        "Ngoai::Neomycin",
+        "Ngoai::Metronidazol"
+      ]
+    },
+    {
+      "id": "SURG22-B6-02",
+      "type": "basic",
+      "topic": "Kỹ thuật Rửa đại tràng trong mổ (On-table lavage)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Rửa đại tràng trong mổ: On-table lavage]</span> Kỹ thuật tiến hành theo Dudley - Radilipffe và tình huống lâm sàng áp dụng?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tình huống áp dụng:</b> Mổ cấp cứu <span style=\"color: #ffd43b; font-weight: bold;\">tắc ruột hoặc bán tắc ruột</span> nhưng phẫu thuật viên quyết định <span style=\"color: #51cf66; font-weight: bold;\">cắt u và lập lại lưu thông (nối ngay thì đầu)</span>.<br>2) <b>Kỹ thuật Dudley - Radilipffe:</b> Đặt ống thông qua <span style=\"color: #ffd43b; font-weight: bold;\">manh tràng hoặc gốc ruột thừa</span>, bơm rửa toàn bộ khung đại tràng bằng <span style=\"color: #51cf66; font-weight: bold;\">dung dịch muối đẳng trương</span> cho tới khi nước rửa chảy ra qua đầu dưới hoàn toàn trong và sạch trước khi tiến hành khâu nối.<br><br>💡 Giải thích của AI:<br>Kỹ thuật Dudley - Radilipffe giúp biến đại tràng tắc bẩn thành đại tràng sạch ngay trên bàn mổ để bảo vệ miệng nối thì đầu.",
+      "extra": "[B6.03]",
+      "tags": [
+        "Ngoai::SURG-22::B6",
+        "Tier-1",
+        "Ngoai::On-table-lavage",
+        "Ngoai::Dudley-Radilipffe",
+        "Ngoai::Rua-ruot",
+        "Ngoai::Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURG22-B7-01",
+      "type": "basic",
+      "topic": "Phẫu thuật Cắt nửa đại tràng phải (Right Hemicolectomy)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngoại khoa: Cắt nửa đại tràng phải]</span> Chỉ định vị trí u, phạm vi cắt bỏ ruột non/ruột già, các mạch máu/chuỗi hạch cần nạo vét và kiểu miệng nối?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Vị trí tổn thương phù hợp:</b> Khối u ở <span style=\"color: #ffd43b; font-weight: bold;\">manh tràng, đại tràng lên, góc gan và 1/3 phải đại tràng ngang</span>.<br>2) <b>Phạm vi cắt bỏ:</b> Cắt <span style=\"color: #ff6b6b; font-weight: bold;\">20 – 30 cm đoạn cuối hồi tràng</span>, toàn bộ <span style=\"color: #ff6b6b; font-weight: bold;\">manh tràng, đại tràng lên, góc gan và 1/2 phải đại tràng ngang</span>.<br>3) <b>Nạo vét mạch máu &amp; hạch:</b> Vét hạch dọc <span style=\"color: #51cf66; font-weight: bold;\">động mạch hồi – đại tràng</span>, <span style=\"color: #51cf66; font-weight: bold;\">động mạch đại tràng phải</span> và <span style=\"color: #51cf66; font-weight: bold;\">nhánh phải động mạch đại tràng giữa</span>.<br>4) <b>Phục hồi lưu thông:</b> Làm miệng nối <span style=\"color: #ffd43b; font-weight: bold;\">hồi tràng – đại tràng ngang</span> (kiểu tận – tận, tận – bên hoặc bên – bên).<br><br>💡 Giải thích của AI:<br>Đoạn 20-30 cm cuối hồi tràng phải cắt bỏ vì chung cuống mạch máu nuôi với manh tràng qua ĐM hồi - đại tràng.",
+      "extra": "[B7.01]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Right-hemicolectomy",
+        "Ngoai::Cat-nua-phai",
+        "Ngoai::Pham-vi-cat",
+        "Ngoai::Hoi-dai-trang-ngang"
+      ]
+    },
+    {
+      "id": "SURG22-B7-02",
+      "type": "basic",
+      "topic": "Phẫu thuật Cắt nửa đại tràng trái (Left Hemicolectomy)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngoại khoa: Cắt nửa đại tràng trái]</span> Chỉ định vị trí u, phạm vi cắt bỏ ruột non/ruột già, xử trí mạch máu/hạch và kiểu miệng nối?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Vị trí tổn thương phù hợp:</b> Khối u ở <span style=\"color: #ffd43b; font-weight: bold;\">góc lách, đại tràng xuống và đại tràng xích ma cao</span>.<br>2) <b>Phạm vi cắt bỏ:</b> Cắt từ <span style=\"color: #ff6b6b; font-weight: bold;\">1/3 ngoài đại tràng ngang</span> đến <span style=\"color: #ff6b6b; font-weight: bold;\">hết đại tràng xích ma</span>.<br>3) <b>Thắt cuống mạch &amp; nạo hạch:</b> <span style=\"color: #51cf66; font-weight: bold;\">Thắt sát gốc động mạch mạc treo tràng dưới</span>, nạo vét toàn bộ chuỗi hạch bạch huyết tương ứng.<br>4) <b>Phục hồi lưu thông:</b> Làm miệng nối giữa <span style=\"color: #ffd43b; font-weight: bold;\">đại tràng ngang với trực tràng</span>.<br><br>💡 Giải thích của AI:<br>Thắt sát gốc ĐM mạc treo tràng dưới là nguyên tắc ung thư học bắt buộc để nạo vét sạch hạch nhóm trung tâm.",
+      "extra": "[B7.02]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Left-hemicolectomy",
+        "Ngoai::Cat-nua-trai",
+        "Ngoai::Mac-treo-trang-duoi",
+        "Ngoai::Dai-trang-ngang-truc-trang"
+      ]
+    },
+    {
+      "id": "SURG22-B7-03",
+      "type": "basic",
+      "topic": "Cắt đoạn đại tràng xích ma và Cắt toàn bộ đại tràng",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngoại khoa: Cắt xích ma & Cắt toàn bộ]</span> Bờ an toàn phẫu thuật cắt đại tràng xích ma; Chỉ định và các phương án phục hồi lưu thông khi <span style=\"color: #ff6b6b; font-weight: bold;\">Cắt toàn bộ đại tràng</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cắt đoạn đại tràng xích ma:</b> Cắt đoạn ruột cách bờ u <span style=\"color: #51cf66; font-weight: bold;\">tối thiểu > 5 cm</span>, nạo vét hạch cuống mạch mạc treo tràng dưới, nối đại tràng xuống với trực tràng.<br>2) <b>Tình huống cắt toàn bộ đại tràng:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Bệnh đa polyp gia đình (FAP)</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">hội chứng Lynch đa u đồng thì</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">viêm loét đại tràng toàn bộ ung thư hóa</span>.<br>3) <b>Phương án phục hồi lưu thông:</b><br>   • Nối <span style=\"color: #51cf66; font-weight: bold;\">hồi tràng – trực tràng</span>.<br>   • Hoặc cắt bỏ toàn bộ đại trực tràng và tạo hình <span style=\"color: #51cf66; font-weight: bold;\">túi chứa hồi tràng hình chữ J nối ống hậu môn (IPAA)</span>.<br>   • Hoặc mở thông hồi tràng kiểu Brooke / túi Kock.<br><br>💡 Giải thích của AI:<br>IPAA (Ileal Pouch-Anal Anastomosis) là phẫu thuật tiêu chuẩn vàng bảo tồn tự chủ đại tiện sau cắt toàn bộ đại trực tràng.",
+      "extra": "[B7.03, B7.04]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Cat-xich-ma",
+        "Ngoai::Cat-toan-bo",
+        "Ngoai::IPAA",
+        "Ngoai::Brooke",
+        "Ngoai::FAP"
+      ]
+    },
+    {
+      "id": "SURG22-B7-04",
+      "type": "basic",
+      "topic": "Tai biến phẫu thuật: Nguy cơ tổn thương tạng lân cận",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Tai biến trong mổ]</span> Hai cấu trúc giải phẫu dễ bị tổn thương nhất trong <span style=\"color: #51cf66; font-weight: bold;\">Cắt nửa đại tràng phải</span> và hai cấu trúc trong <span style=\"color: #ffd43b; font-weight: bold;\">Cắt nửa đại tràng trái</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cắt nửa đại tràng phải:</b> Rất dễ làm tổn thương <span style=\"color: #ff6b6b; font-weight: bold;\">Niệu quản phải</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Tá tràng đoạn D2</span> nằm ngay phía sau mạc Toldt phải. Bắt buộc phải <span style=\"color: #51cf66; font-weight: bold;\">bộc lộ rõ niệu quản phải trước khi giải phóng mạc Toldt</span>.<br>2) <b>Cắt nửa đại tràng trái:</b> Rất dễ làm tổn thương <span style=\"color: #ff6b6b; font-weight: bold;\">Niệu quản trái</span> và nguy cơ <span style=\"color: #ff6b6b; font-weight: bold;\">rách vỡ nhu mô lách</span> khi thực hiện thao tác co kéo hạ góc lách.<br><br>💡 Giải thích của AI:<br>Bộc lộ rõ niệu quản hai bên trước khi thắt mạch mạc treo hoặc giải phóng mạc dính là nguyên tắc an toàn hàng đầu của phẫu thuật viên tiêu hóa.",
+      "extra": "[B7.05]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Tai-bien-mo",
+        "Ngoai::Nieu-quan-phai",
+        "Ngoai::Ta-trang-D2",
+        "Ngoai::Nieu-quan-trai",
+        "Ngoai::Rach-lach"
+      ]
+    },
+    {
+      "id": "SURG22-B7-05",
+      "type": "basic",
+      "topic": "Tỷ lệ bục miệng nối và 3 nguyên tắc sống còn khi làm miệng nối",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Bục miệng nối đại tràng]</span> So sánh tỷ lệ bục miệng nối (Phải vs Trái) và <span style=\"color: #ff6b6b; font-weight: bold;\">3 nguyên tắc sống còn</span> bắt buộc tuân thủ khi làm miệng nối ruột?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tần suất bục rò theo vị trí:</b> Cắt nửa đại tràng phải là <span style=\"color: #ffd43b; font-weight: bold;\">5,8% – 14,6%</span>; cắt nửa đại tràng trái là <span style=\"color: #ffd43b; font-weight: bold;\">4,6% – 11,6%</span>.<br>2) <b>Nguyên tắc 1 — Cung cấp máu tốt:</b> Mép diện cắt phải hồng hào, máu động mạch <span style=\"color: #51cf66; font-weight: bold;\">phun thành tia</span>, tuyệt đối <span style=\"color: #ff6b6b; font-weight: bold;\">không bóc tách thanh mạc quá xa mép nối (> 1 cm)</span>.<br>3) <b>Nguyên tắc 2 — Không bị căng:</b> Giải phóng đại tràng rộng rãi, miệng nối nằm hoàn toàn tự nhiên <span style=\"color: #51cf66; font-weight: bold;\">không chịu lực co kéo</span>.<br>4) <b>Nguyên tắc 3 — Không nhiễm trùng:</b> Lòng ruột phải <span style=\"color: #51cf66; font-weight: bold;\">chuẩn bị thật sạch phân</span>, đảm bảo <span style=\"color: #51cf66; font-weight: bold;\">vô trùng tuyệt đối</span> trong mổ và đặt dẫn lưu ổ bụng đúng quy cách.<br><br>💡 Giải thích của AI:<br>Bóc tách trơ thanh mạc quá 1 cm làm thiếu máu nuôi mép cắt - nguyên nhân hàng đầu gây hoại tử bục rò miệng nối sau mổ.",
+      "extra": "[B7.06]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Buc-mieng-noi",
+        "Ngoai::3-nguyen-tac",
+        "Ngoai::Tuoi-mau",
+        "Ngoai::Khong-cang",
+        "Ngoai::Vo-trung"
+      ]
+    },
+    {
+      "id": "SURG22-B7-06",
+      "type": "basic",
+      "topic": "Điều trị Hóa chất bổ trợ và Thuốc đích",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Điều trị bổ trợ]</span> Phác đồ hóa chất bổ trợ tiêu chuẩn (giai đoạn áp dụng) và vai trò của hai nhóm thuốc sinh học điều trị đích <span style=\"color: #51cf66; font-weight: bold;\">Bevacizumab</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Cetuximab</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hóa chất bổ trợ sau mổ:</b> Phác đồ chứa <span style=\"color: #51cf66; font-weight: bold;\">5-FU / Leucovorin</span> kết hợp <span style=\"color: #51cf66; font-weight: bold;\">Oxaliplatin</span> (<span style=\"color: #ffd43b; font-weight: bold;\">FOLFOX4</span> hoặc <span style=\"color: #ffd43b; font-weight: bold;\">CAPOX</span>). Chỉ định cho <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn III (có di căn hạch)</span> hoặc <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn II có nguy cơ cao</span>.<br>2) <b>Thuốc kháng VEGF (Bevacizumab):</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Bevacizumab</span> ức chế tăng sinh mạch máu nuôi khối u.<br>3) <b>Thuốc kháng EGFR (Cetuximab):</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Cetuximab</span>, đặc biệt hiệu quả và chỉ định cho các bệnh nhân mang <span style=\"color: #ffd43b; font-weight: bold;\">gen KRAS / NRAS tự nhiên / hoang dại (wild-type)</span>.<br><br>💡 Giải thích của AI:<br>Cetuximab mất hoàn toàn tác dụng nếu bệnh nhân có đột biến gen KRAS hoặc NRAS.",
+      "extra": "[B7.07]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Hoa-tri",
+        "Ngoai::FOLFOX4",
+        "Ngoai::CAPOX",
+        "Ngoai::Bevacizumab",
+        "Ngoai::Cetuximab",
+        "Ngoai::KRAS"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-01",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy chẩn đoán Thiếu máu nhược sắc người cao tuổi",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân nam 65 tuổi đến khám vì hoa mắt, da xanh xao, xét nghiệm thấy <span style=\"color: #ff6b6b; font-weight: bold;\">thiếu máu nhược sắc nặng</span> nhưng phân đại tiện bình thường. Sai lầm nguy hiểm nhất là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sai lầm thường gặp:</b> Chỉ chẩn đoán thiếu máu thiếu sắt đơn thuần và kê đơn thuốc sắt ngoại trú mà không tìm nguyên nhân mất máu.<br>2) <b>Thực tế bệnh học:</b> Đây là triệu chứng chỉ điểm hàng đầu của <span style=\"color: #ff6b6b; font-weight: bold;\">Ung thư đại tràng phải (manh tràng)</span>. Khối u thể sùi chảy máu rỉ rả vi thể làm máu lẫn sâu trong phân không nhìn thấy được bằng mắt thường.<br>3) <b>Hành động bắt buộc:</b> Phải chỉ định <span style=\"color: #51cf66; font-weight: bold;\">Nội soi toàn bộ khung đại tràng</span> ngay lập tức để tìm khối u manh tràng / đại tràng lên.<br><br>💡 Giải thích của AI:<br>Ở người cao tuổi, mọi trường hợp thiếu máu nhược sắc không rõ nguyên nhân đều phải coi là ung thư đại tràng phải cho đến khi có bằng chứng ngược lại.",
+      "extra": "[B3.03, B3.05]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Bay-thieu-mau",
+        "Ngoai::Dai-trang-phai",
+        "Ngoai::Noi-soi",
+        "Ngoai::Manh-trang",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-02",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy xử trí Tắc ruột đại tràng trái cấp cứu",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Tại sao phẫu thuật viên trẻ tuyệt đối <span style=\"color: #ff6b6b; font-weight: bold;\">KHÔNG ĐƯỢC</span> cắt đoạn u đại tràng xích ma và khâu nối ngay thì đầu trong mổ cấp cứu tắc ruột?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tình trạng đại tràng trái khi tắc ruột:</b> Thành ruột giãn mỏng tối đa, ứ đọng hàng lít phân thối bẩn với mật độ vi khuẩn cực cao, áp lực lòng ruột tăng vọt.<br>2) <b>Hiểm họa nếu nối ngay:</b> Nguy cơ <span style=\"color: #ff6b6b; font-weight: bold;\">bục rò miệng nối lên tới trên 50%</span>, gây viêm phúc mạc phân toàn thể dẫn đến sốc nhiễm khuẩn tử vong.<br>3) <b>Quyết định chuẩn mực:</b> Phải thực hiện <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật Hartmann</span> (cắt u, đưa đầu trên làm HMNT, đóng mỏm trực tràng) hoặc <span style=\"color: #51cf66; font-weight: bold;\">phẫu thuật Schloffer 3 thì</span> để bảo đảm an toàn tính mạng cho bệnh nhân.<br><br>💡 Giải thích của AI:<br>Không được đánh đổi an toàn tính mạng bệnh nhân để lấy một miệng nối thì đầu trong điều kiện ruột bẩn và thành ruột thiếu máu.",
+      "extra": "[B5.03]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Bay-tac-ruot-trai",
+        "Ngoai::Hartmann",
+        "Ngoai::Cam-noi-ngay",
+        "Ngoai::Buc-mieng-noi",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-03",
+      "type": "basic",
+      "topic": "Bẫy: Cờ đỏ cấp cứu: Thủng u đại tràng gây Viêm phúc mạc",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Dấu hiệu lâm sàng và cận lâm sàng cảnh báo khối u ung thư đại tràng đã <span style=\"color: #ff6b6b; font-weight: bold;\">biến chứng thủng</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cơ năng:</b> Bệnh nhân đau bụng <span style=\"color: #ff6b6b; font-weight: bold;\">đột ngột dữ dội như dao đâm</span>, từ hố chậu lan nhanh ra toàn ổ bụng.<br>2) <b>Thực thể:</b> Bụng <span style=\"color: #ff6b6b; font-weight: bold;\">co cứng như gỗ</span>, cảm ứng phúc mạc toàn thể, mất vùng đục trước gan.<br>3) <b>Hình ảnh X-quang:</b> X-quang bụng đứng không chuẩn bị thấy hình ảnh <span style=\"color: #ff6b6b; font-weight: bold;\">liềm hơi dưới vòm hoành</span> (trái hoặc phải).<br>4) <b>Phẫu thuật mở bụng khẩn cấp:</b> Hồi sức chống sốc, kháng sinh phổ rộng liều cao và <span style=\"color: #51cf66; font-weight: bold;\">mổ cấp cứu tối khẩn</span>.<br><br>💡 Giải thích của AI:<br>Thủng u trên nền đại tràng tắc nghẽn là một cấp cứu ngoại khoa tối khẩn cấp với tỷ lệ tử vong rất cao do viêm phúc mạc phân.",
+      "extra": "[B5.04]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Thung-u",
+        "Ngoai::Liem-hoi",
+        "Ngoai::Co-cung-bung",
+        "Ngoai::Viem-phuc-mac",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-04",
+      "type": "basic",
+      "topic": "Bẫy: Cờ đỏ lâm sàng: Rò đại tràng vào bàng quang",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Hai dấu hiệu lâm sàng kinh điển khẳng định chắc chắn có <span style=\"color: #ff6b6b; font-weight: bold;\">đường rò</span> giữa đại tràng xích ma và bàng quang?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hiện tượng Pneumaturia:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tiểu ra bọt khí / tiểu ra hơi</span> (khi đi tiểu thấy nước tiểu sủi bọt hoặc có tiếng xì hơi qua niệu đạo).<br>2) <b>Hiện tượng Fecaluria:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tiểu ra cặn phân</span> (nước tiểu đục, có cặn vàng nâu mùi phân).<br>3) <b>Bệnh cảnh kèm theo:</b> Bệnh nhân bị <span style=\"color: #ffd43b; font-weight: bold;\">nhiễm trùng đường tiết niệu tái phát dai dẳng</span> với vi khuẩn gram âm đường ruột (E. coli, Klebsiella).<br><br>💡 Giải thích của AI:<br>Pneumaturia và Fecaluria là cặp triệu chứng bệnh học đặc trưng khẳng định 100% rò bàng quang - tiêu hóa.",
+      "extra": "[B5.05]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Ro-bang-quang",
+        "Ngoai::Pneumaturia",
+        "Ngoai::Fecaluria",
+        "Ngoai::Tieu-ra-hoi",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-05",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy phẫu thuật: Bảo vệ niệu quản phải và D2 tá tràng",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Mốc giải phẫu nguy hiểm và nguyên tắc bộc lộ để tránh cắt nhầm vào <span style=\"color: #ff6b6b; font-weight: bold;\">Niệu quản phải</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Tá tràng D2</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Vị trí nguy hiểm:</b> Cả <span style=\"color: #ff6b6b; font-weight: bold;\">Niệu quản phải</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Đoạn D2 tá tràng</span> đều nằm ngay sau mạc dính đại tràng phải (<span style=\"color: #ffd43b; font-weight: bold;\">mạc Toldt phải</span>).<br>2) <b>Nguy cơ tai biến:</b> Khi phẫu thuật viên cắt giải phóng mạc Toldt quá sâu vào khoang sau phúc mạc sẽ cắt đứt niệu quản phải hoặc làm rách thành sau D2 tá tràng (rò tá tràng tử vong).<br>3) <b>Nguyên tắc bảo vệ:</b> Luôn phải <span style=\"color: #51cf66; font-weight: bold;\">phẫu tích nhận diện rõ niệu quản phải</span> (có nhu động giun bò) và đẩy tá tràng D2 ra sau trước khi cặp cắt các nhánh mạch mạc treo.<br><br>💡 Giải thích của AI:<br>Cắt đứt niệu quản và thủng D2 tá tràng là hai tai biến phẫu thuật kinh hoàng nhất trong phẫu thuật cắt nửa đại tràng phải.",
+      "extra": "[B7.05]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Bay-mo",
+        "Ngoai::Nieu-quan-phai",
+        "Ngoai::Ta-trang-D2",
+        "Ngoai::Mac-Toldt",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-06",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy phẫu thuật: Hạ góc lách cắt đại tràng trái",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Hai nguy cơ tai biến lớn nhất khi thao tác <span style=\"color: #ff6b6b; font-weight: bold;\">hạ góc lách đại tràng</span> và cách phòng tránh?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tai biến 1 — Rách nhu mô lách:</b> Dây chằng hoành - đại tràng và lách - đại tràng dính sát cực dưới của lách. Kéo giật mạnh đại tràng sẽ làm <span style=\"color: #ff6b6b; font-weight: bold;\">rách bao lách hoặc đứt cuống lách</span> gây chảy máu dữ dội, bắt buộc phải cắt lách.<br>2) <b>Tai biến 2 — Tổn thương niệu quản trái:</b> Niệu quản trái bắt chéo phía sau mạc Toldt trái, rất dễ bị cặp cắt nhầm nếu không phẫu tích bộc lộ.<br>3) <b>Kỹ thuật phẫu tích an toàn:</b> Cắt dây chằng thận trọng <span style=\"color: #51cf66; font-weight: bold;\">áp sát thành đại tràng, tránh co kéo cực dưới của lách</span>; nhận diện rõ niệu quản trái trước khi thắt gốc ĐM mạc treo tràng dưới.<br><br>💡 Giải thích của AI:<br>Hạ góc lách là thì mổ khó khăn và đòi hỏi sự tinh tế nhất trong phẫu thuật cắt đại tràng trái.",
+      "extra": "[B7.05]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Ha-goc-lach",
+        "Ngoai::Rach-lach",
+        "Ngoai::Nieu-quan-trai",
+        "Ngoai::Mac-treo-trang-duoi",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG22-TRAP-07",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy di truyền: Hội chứng Đa polyp gia đình (FAP)",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Một bệnh nhân 25 tuổi nội soi đại tràng phát hiện <span style=\"color: #ffd43b; font-weight: bold;\">hơn 200 polyp</span> khắp khung ruột, kết quả sinh thiết đều là u tuyến lành tính. Sai lầm nguy hiểm nhất là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sai lầm chết người:</b> Yên tâm vì kết quả sinh thiết là lành tính và chỉ hẹn nội soi theo dõi định kỳ.<br>2) <b>Bản chất bệnh lý:</b> Đây là bệnh đa polyp đại tràng gia đình (FAP) do đột biến gen APC. Bệnh chắc chắn <span style=\"color: #ff6b6b; font-weight: bold;\">100% sẽ tiến triển thành ung thư</span> nếu để nguyên.<br>3) <b>Phương án can thiệp bắt buộc:</b> Phải chủ động <span style=\"color: #51cf66; font-weight: bold;\">phẫu thuật cắt toàn bộ đại tràng trước năm 40 tuổi</span> để cứu sống bệnh nhân và xét nghiệm gen tầm soát cho toàn bộ người thân trực hệ.<br><br>💡 Giải thích của AI:<br>FAP là bệnh lý tiền ung thư tuyệt đối: 100% chuyển thành ung thư đại trực tràng nếu không cắt toàn bộ đại tràng trước 40 tuổi.",
+      "extra": "[B1.09]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::Bay-FAP",
+        "Ngoai::Dot-bien-APC",
+        "Ngoai::Cat-toan-bo-dai-trang",
+        "Ngoai::Truoc-40-tuoi",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG22-ALGO-01",
+      "type": "basic",
+      "topic": "Thuật toán: Phân định Đại tràng Phải vs Trái",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Đối chiếu Lâm sàng</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Phân định Đại tràng Phải vs Trái</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tiêu chí 1 — Đau bụng:</b><br>   • ĐT Phải: Đau <span style=\"color: #ffd43b; font-weight: bold;\">âm ỉ mơ hồ ở hố chậu phải / hạ sườn phải</span>.<br>   • ĐT Trái: Đau <span style=\"color: #ff6b6b; font-weight: bold;\">quặn từng cơn, sôi bụng, trung tiện đỡ đau (HC Koenig)</span>.<br>2) <b>Tiêu chí 2 — Rối loạn tiêu hóa:</b><br>   • ĐT Phải: <span style=\"color: #ffd43b; font-weight: bold;\">Tiêu chảy hoặc phân lỏng xen kẽ táo bón</span> (ứ đọng lên men thối rữa).<br>   • ĐT Trái: <span style=\"color: #ff6b6b; font-weight: bold;\">Táo bón tăng dần</span> (lòng ruột hẹp, phân thành khuôn).<br>3) <b>Tiêu chí 3 — Tính chất phân lẫn máu:</b><br>   • ĐT Phải: Máu <span style=\"color: #ffd43b; font-weight: bold;\">lẫn sâu trong phân, màu đỏ sẫm/bã cà phê</span>, rỉ rả gây thiếu máu nặng.<br>   • ĐT Trái: Phân <span style=\"color: #ff6b6b; font-weight: bold;\">bọc vệt máu tươi bên ngoài hoặc máu đỏ bầm</span> kèm nhầy mủ.<br>4) <b>Tiêu chí 4 — Khám sờ u bụng:</b><br>   • ĐT Phải: <span style=\"color: #51cf66; font-weight: bold;\">Rất dễ sờ thấy</span> (manh tràng nông, u thể sùi lớn).<br>   • ĐT Trái: <span style=\"color: #ffd43b; font-weight: bold;\">Rất khó sờ thấy</span> (u nhỏ thắt nhẫn, nằm sâu sau phúc mạc).<br>5) <b>Tiêu chí 5 — Triệu chứng toàn thân &amp; Biến chứng:</b><br>   • ĐT Phải: <span style=\"color: #ff6b6b; font-weight: bold;\">Thiếu máu nhược sắc nổi bật</span>, ít khi tắc ruột.<br>   • ĐT Trái: <span style=\"color: #ff6b6b; font-weight: bold;\">Tắc ruột cơ học chiếm gần 50%</span>, ít thiếu máu nặng.<br><br>💡 Giải thích của AI:<br>Bảng thuật toán đối chiếu kinh điển giúp định hướng chính xác vị trí khối u ngay từ khi hỏi bệnh và thăm khám lâm sàng.",
+      "extra": "[B3.01, B3.02, B3.03, B3.04, B3.05, B5.01]",
+      "tags": [
+        "Ngoai::SURG-22::B3",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Doi-chieu-phai-trai",
+        "Ngoai::Koenig",
+        "Ngoai::Thieu-mau",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG22-ALGO-02",
+      "type": "basic",
+      "topic": "Thuật toán: Xử trí Tắc ruột do Ung thư đại tràng",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Cấp cứu Ngoại khoa</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Xử trí Tắc ruột do Ung thư đại tràng</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhánh 1 — Tắc ruột do ung thư Đại tràng Phải:</b><br>   • Toàn trạng bệnh nhân tốt, bụng sạch → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt nửa đại tràng phải và khâu nối hồi – đại tràng ngang ngay thì đầu</span> (nối tận – bên hoặc bên – bên kiểu Quénu).<br>   • Bệnh nhân quá yếu, suy kiệt nặng hoặc viêm phúc mạc → <span style=\"color: #ff6b6b; font-weight: bold;\">Cắt u đưa 2 đầu ruột làm hậu môn nhân tạo</span>, nối lại ở thì 2.<br>2) <b>Nhánh 2 — Tắc ruột do ung thư Đại tràng Trái (KHÔNG ĐƯỢC nối ngay):</b><br>   • Lựa chọn ưu tiên: <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật Hartmann (2 thì)</span> → Cắt đoạn u đại tràng → Đưa đầu trên ra làm hậu môn nhân tạo → Khâu đóng kín mỏm dưới. Nối lại thì 2 sau 3–6 tháng.<br>   • Lựa chọn thứ hai: <span style=\"color: #ffd43b; font-weight: bold;\">Phẫu thuật Schloffer (3 thì)</span> → Thì 1 mở thông giải áp trên u → Thì 2 cắt u và nối → Thì 3 đóng hậu môn nhân tạo.<br>   • Ngoại lệ duy nhất nếu muốn nối ngay: Bắt buộc phải thực hiện <span style=\"color: #51cf66; font-weight: bold;\">Rửa đại tràng trong mổ (On-table lavage theo Dudley - Radilipffe)</span>.<br><br>💡 Giải thích của AI:<br>Thuật toán xử trí tắc ruột cấp cứu nhấn mạnh nguyên tắc an toàn: Không bao giờ nối đại tràng trái thì đầu khi ruột chưa được làm sạch.",
+      "extra": "[B5.02, B5.03, B6.03]",
+      "tags": [
+        "Ngoai::SURG-22::B5",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Cap-cuu-tac-ruot",
+        "Ngoai::Hartmann",
+        "Ngoai::Quenu",
+        "Ngoai::Schloffer",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG22-ALGO-03",
+      "type": "basic",
+      "topic": "Thuật toán: Lựa chọn phương pháp theo vị trí giải phẫu",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật Triệt căn</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Lựa chọn phương pháp theo vị trí giải phẫu</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhánh 1 — U manh tràng, ĐT lên, góc gan, 1/3 phải ĐT ngang:</b><br>   → <span style=\"color: #51cf66; font-weight: bold;\">Cắt nửa đại tràng phải</span>: Cắt 20–30 cm cuối hồi tràng đến nửa phải ĐT ngang; nạo vét 3 cuống mạch; làm miệng nối hồi tràng – ĐT ngang.<br>2) <b>Nhánh 2 — U góc lách, ĐT xuống, xích ma cao:</b><br>   → <span style=\"color: #51cf66; font-weight: bold;\">Cắt nửa đại tràng trái</span>: Cắt từ 1/3 ngoài ĐT ngang đến hết xích ma; thắt gốc ĐM mạc treo tràng dưới; nối ĐT ngang – trực tràng.<br>3) <b>Nhánh 3 — U đại tràng xích ma:</b><br>   → <span style=\"color: #ffd43b; font-weight: bold;\">Cắt đoạn đại tràng xích ma</span>: Cắt cách bờ u > 5 cm, nạo hạch cuống mạch MTTD, nối ĐT xuống với trực tràng.<br>4) <b>Nhánh 4 — Đa polyp FAP, Lynch đa u, viêm loét toàn bộ ung thư hóa:</b><br>   → <span style=\"color: #ff6b6b; font-weight: bold;\">Cắt toàn bộ đại tràng</span>: Nối hồi – trực tràng hoặc cắt toàn bộ đại trực tràng tạo hình <span style=\"color: #51cf66; font-weight: bold;\">túi chứa hồi tràng hình chữ J (IPAA)</span>.<br><br>💡 Giải thích của AI:<br>Mỗi vị trí giải phẫu có một phác đồ cắt bỏ ruột và nạo vét chuỗi mạch máu tương ứng theo nguyên tắc phẫu tích ung thư học chuẩn mực.",
+      "extra": "[B7.01, B7.02, B7.03, B7.04]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Phau-thuat-triet-can",
+        "Ngoai::Right-hemicolectomy",
+        "Ngoai::Left-hemicolectomy",
+        "Ngoai::IPAA",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG22-B1-05",
+      "type": "cloze",
+      "topic": "Tỷ lệ ung thư hóa theo số lượng polyp",
+      "tier": 1,
+      "text": "Theo Shinya và Wolf (1979 - 5786 u tuyến): 1 polyp có tỷ lệ ung thư hóa là {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">31,3%</span>}}, 3 polyp có tỷ lệ ung thư hóa là {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">45,6%</span>}}. Theo Kozevnhikov (958 ca): 1 polyp có tỷ lệ ác tính {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">1/35</span>}}, nhiều polyp là {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">1/3</span>}}.",
+      "extra": "[B1.02, B1.03]",
+      "tags": [
+        "Ngoai::SURG-22::B1",
+        "Tier-1",
+        "Ngoai::Polyp",
+        "Ngoai::Shinya-Wolf",
+        "Ngoai::Kozevnhikov",
+        "Ngoai::Ty-le-ung-thu-hoa"
+      ]
+    },
+    {
+      "id": "SURG22-B6-03",
+      "type": "cloze",
+      "topic": "Quy cách và liều dùng thuốc tẩy ruột Fortrans",
+      "tier": 1,
+      "text": "Chuẩn bị đại tràng bằng Fortrans: Thành phần chính gồm {{c1::<span style=\"color: #51cf66; font-weight: bold;\">Polyethyleneglycol 4000 (64g)</span>}} cùng các muối điện giải. Mỗi gói pha trong {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">1 lít nước</span>}}, cho bệnh nhân uống {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 gói</span>}} trong thời gian {{c4::<span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 giờ</span>}} vào buổi chiều trước ngày mổ.",
+      "extra": "[B6.02]",
+      "tags": [
+        "Ngoai::SURG-22::B6",
+        "Tier-1",
+        "Ngoai::Fortrans",
+        "Ngoai::PEG-4000",
+        "Ngoai::Lieu-dung",
+        "Ngoai::Chuan-bi-mo"
+      ]
+    },
+    {
+      "id": "SURG22-B7-07",
+      "type": "cloze",
+      "topic": "Tỷ lệ bục miệng nối đại tràng phải và trái",
+      "tier": 1,
+      "text": "Thống kê ngoại khoa về tỷ lệ bục miệng nối: Phẫu thuật cắt nửa đại tràng phải có tỷ lệ bục là {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">5,8% – 14,6%</span>}}, phẫu thuật cắt nửa đại tràng trái có tỷ lệ bục là {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">4,6% – 11,6%</span>}}.",
+      "extra": "[B7.06]",
+      "tags": [
+        "Ngoai::SURG-22::B7",
+        "Tier-1",
+        "Ngoai::Buc-mieng-noi",
+        "Ngoai::Ty-le",
+        "Ngoai::Cat-nua-phai",
+        "Ngoai::Cat-nua-trai"
+      ]
+    }
+  ]
+}

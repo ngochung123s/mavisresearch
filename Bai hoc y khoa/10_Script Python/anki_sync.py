@@ -171,6 +171,12 @@ def bootstrap_lock(cards: list[dict], candidate_infos: list[dict], lock: dict) -
 
 def ensure_model(model: dict) -> None:
     if model["name"] in ac("modelNames"):
+        try:
+            current = ac("modelStyling", modelName=model["name"])
+            if current.get("result", {}).get("css") != model["css"]:
+                ac("updateModelStyling", model={"name": model["name"], "css": model["css"]})
+        except Exception:
+            pass
         return
     ac("createModel", modelName=model["name"], inOrderFields=model["fields"], css=model["css"],
        isCloze=model["is_cloze"],
