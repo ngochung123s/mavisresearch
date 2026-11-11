@@ -2,11 +2,17 @@
   "id": "SURG-31",
   "specialty": "ngoai",
   "profile": "disease",
-  "lesson": "SURG-31_Ung_thu_gan_2026-11-05_RELEASE_v1.md",
+  "lesson": "SURG-31_Ung_thu_gan_BAREM.md",
+  "barem": "SURG-31_Ung_thu_gan_BAREM.md",
+  "required_sections": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
   "deck": {
     "deck_id": 7600000000031,
-    "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-31: Ung Thư Biểu Mô Tế Bào Gan (HCC)",
-    "basename": "SURG-31_Ung_thu_gan_2026-11-05_RELEASE_v1",
-    "cards_source": "SURG-31_Ung_thu_gan_2026-11-05_RELEASE_v1.cards.v2.json"
+    "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-31: Ung Thư Gan",
+    "basename": "SURG-31_Ung_thu_gan_BAREM_v1",
+    "cards_source": "surg31_cards_data.py",
+    "legacy_anki_decks": [
+      "Ung thư::03_Ung_thu_gan::2026-11-05",
+      "Ung thư::03_Ung_thu_gan"
+    ]
   }
 }

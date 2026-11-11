@@ -1,0 +1,655 @@
+{
+  "deck_id": 7600000000031,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-31: Ung Thư Gan",
+  "card_count": 41,
+  "cards": [
+    {
+      "id": "SURG31-B0-01",
+      "type": "basic",
+      "topic": "Đại cương & Bệnh sinh HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Đại cương Ung thư gan]</span> Ung thư biểu mô tế bào gan (<span style=\"color: #51cf66; font-weight: bold;\">HCC</span>) xuất phát từ đâu, xuất hiện trên nền bệnh lý gì và vai trò của <span style=\"color: #ff6b6b; font-weight: bold;\">Virus viêm gan B (HBV)</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguồn gốc tế bào:</b> Xuất phát từ <span style=\"color: #51cf66; font-weight: bold;\">tế bào biểu mô của gan</span>; là loại ung thư gan hay gặp và chủ yếu nhất.<br>2) <b>Nền tảng bệnh sinh:</b> Nhu mô gan bình thường rất hiếm sinh ung thư — hầu hết xuất hiện trên <span style=\"color: #ff6b6b; font-weight: bold;\">nền xơ gan</span> (hậu quả của xơ gan hoặc đồng thời xuất hiện cùng xơ gan).<br>3) <b>Vai trò virus HBV:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Virus viêm gan B (HBV)</span> lây qua đường máu (tiêm truyền, mẹ truyền sang con khi đẻ) gây viêm gan cấp → viêm gan mạn tiến triển âm thầm nhiều năm → xơ gan và ung thư gan.<br><br>💡 Giải thích của AI:<br>Tại Việt Nam, tỷ lệ nhiễm HBV trong cộng đồng rất cao là căn nguyên gốc rễ khiến HCC đứng hàng đầu trong các bệnh ác tính đường tiêu hóa.",
+      "extra": "[B0.01, B0.02, B0.03]",
+      "tags": [
+        "Ngoai::SURG-31::B0",
+        "Tier-1",
+        "Ngoai::Dai-cuong",
+        "Ngoai::HBV",
+        "Ngoai::Benh-sinh"
+      ]
+    },
+    {
+      "id": "SURG31-B0-02",
+      "type": "basic",
+      "topic": "Dịch tễ & Tiên lượng HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ & Tiên lượng HCC]</span> Thứ hạng mắc tại Việt Nam, <span style=\"color: #ffd43b; font-weight: bold;\">giới tính, lứa tuổi</span>, giải pháp phòng bệnh và vì sao <span style=\"color: #ff6b6b; font-weight: bold;\">tiên lượng u ám</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tình hình tại Việt Nam:</b> Chiếm <span style=\"color: #ffd43b; font-weight: bold;\">vị trí thứ 3</span> trong tất cả các ung thư; nam gặp nhiều hơn nữ; độ tuổi thường gặp từ <span style=\"color: #ffd43b; font-weight: bold;\">50 đến 60 tuổi</span>.<br>2) <b>Phòng tránh:</b> <span style=\"color: #51cf66; font-weight: bold;\">Tiêm phòng vắc-xin viêm gan B</span> và <span style=\"color: #51cf66; font-weight: bold;\">hạn chế bia rượu</span> là giải pháp thực tiễn hiệu quả nhất.<br>3) <b>Bối cảnh tiên lượng:</b> Tình trạng <span style=\"color: #ff6b6b; font-weight: bold;\">xơ gan phối hợp</span> với ung thư nhiều ổ, độc ác tính cao, tiến triển nhanh nên rất khó điều trị triệt căn (chỉ 5–10% cắt được).<br><br>💡 Giải thích của AI:<br>Xơ gan làm giảm sút chức năng gan khiến bệnh nhân dễ suy gan mất bù sau phẫu thuật, cộng với đặc tính di căn vi mạch cửa sớm làm tiên lượng điều trị rất dè dặt.",
+      "extra": "[B0.04, B0.05]",
+      "tags": [
+        "Ngoai::SURG-31::B0",
+        "Tier-1",
+        "Ngoai::Dich-te",
+        "Ngoai::Tien-luong"
+      ]
+    },
+    {
+      "id": "SURG31-B0-03",
+      "type": "basic",
+      "topic": "Ung thư nguyên bào gan trẻ em",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ung thư nguyên bào gan trẻ em]</span> Nguồn gốc, mối liên quan <span style=\"color: #ffd43b; font-weight: bold;\">HBV</span>, đặc điểm mô học, tính nhạy cảm <span style=\"color: #51cf66; font-weight: bold;\">hóa trị</span> và lứa tuổi mắc?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguồn gốc tế bào:</b> Xuất phát từ <span style=\"color: #74c0fc; font-weight: bold;\">nguyên bào gan</span> (dạng tế bào bào thai gần như không biệt hóa ở trẻ em).<br>2) <b>Mối liên quan HBV:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Hoàn toàn không liên quan đến virus viêm gan B</span>.<br>3) <b>Tính chất nhạy hóa trị:</b> Phát triển rất nhanh nhưng <span style=\"color: #51cf66; font-weight: bold;\">rất nhạy cảm với hóa trị chống ung thư</span> — đặc điểm <span style=\"color: #ffd43b; font-weight: bold;\">trái ngược hoàn toàn với HCC</span> (HCC gần như không đáp ứng hóa chất).<br>4) <b>Tần suất &amp; lứa tuổi:</b> Tỷ lệ mắc <span style=\"color: #ffd43b; font-weight: bold;\">11,2 / 1.000.000 trẻ sơ sinh</span>; <span style=\"color: #ff6b6b; font-weight: bold;\">95% gặp ở trẻ dưới 4 tuổi</span> (chỉ 5% trên 4 tuổi); tuổi chẩn đoán trung bình <span style=\"color: #ffd43b; font-weight: bold;\">19 tháng tuổi</span>.<br><br>💡 Giải thích của AI:<br>Hepatoblastoma là một trong những thành tựu lớn của ung thư nhi khoa nhờ khối u co nhỏ ngoạn mục sau hóa trị tân bổ trợ, giúp biến khối u không cắt được thành cắt được an toàn.",
+      "extra": "[B0.06, B0.07]",
+      "tags": [
+        "Ngoai::SURG-31::B0",
+        "Tier-1",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Nhi-khoa",
+        "Ngoai::Hoa-tri"
+      ]
+    },
+    {
+      "id": "SURG31-B0-04",
+      "type": "cloze",
+      "topic": "Con số dịch tễ Hepatoblastoma",
+      "tier": 2,
+      "text": "Ung thư nguyên bào gan trẻ em có tỷ lệ mắc {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">11,2/1.000.000 trẻ sơ sinh</span>}}, trong đó bệnh nhân dưới 4 tuổi chiếm {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">95%</span>}} và tuổi chẩn đoán trung bình là {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">19 tháng tuổi</span>}}.",
+      "extra": "[B0.07]",
+      "tags": [
+        "Ngoai::SURG-31::B0",
+        "Tier-2",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B1-01",
+      "type": "basic",
+      "topic": "Lâm sàng & Tầm soát sớm HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng & Tầm soát HCC]</span> Vì sao chẩn đoán sớm HCC rất khó, công cụ nào giúp <span style=\"color: #51cf66; font-weight: bold;\">phát hiện sớm</span> và <span style=\"color: #ffd43b; font-weight: bold;\">10 triệu chứng lâm sàng</span> khi bệnh xuất hiện muộn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khó khăn chẩn đoán sớm:</b> Bệnh tiến triển âm thầm không triệu chứng; khi xuất hiện triệu chứng lâm sàng rầm rộ thường đã <span style=\"color: #ff6b6b; font-weight: bold;\">hết khả năng điều trị khỏi</span>.<br>2) <b>Chiến lược phát hiện sớm:</b> <span style=\"color: #51cf66; font-weight: bold;\">Siêu âm gan định kỳ</span> chủ động phát hiện khối u nhỏ ở nhóm nguy cơ cao (xơ gan, viêm gan B mạn).<br>3) <b>Hội chứng lâm sàng muộn:</b> Đau tức nặng vùng gan, <span style=\"color: #ffd43b; font-weight: bold;\">đau xuyên lên vai phải</span>, đau lưng, <span style=\"color: #ff6b6b; font-weight: bold;\">gan to dưới bờ sườn</span>, mệt mỏi kém ăn, sốt nhẹ về chiều, vàng da vàng mắt, <span style=\"color: #ff6b6b; font-weight: bold;\">cổ trướng</span>, phù hai chi dưới, mất vui thú, gầy sút không rõ lý do.<br><br>💡 Giải thích của AI:<br>Đau xuyên lên vai phải là do tổn thương gan kích thích thần kinh hoành mặt dưới cơ hoành. Khi có cổ trướng và vàng da thì hầu như u đã ở giai đoạn Child-Pugh B, C.",
+      "extra": "[B1.01, B1.02]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Lam-sang",
+        "Ngoai::Sieu-am",
+        "Ngoai::Tam-soat"
+      ]
+    },
+    {
+      "id": "SURG31-B1-02",
+      "type": "basic",
+      "topic": "Siêu âm & CT Scanner trong HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán hình ảnh HCC]</span> Giá trị của <span style=\"color: #51cf66; font-weight: bold;\">Siêu âm (ngưỡng kích thước, quầng giảm âm)</span> và dấu hiệu kinh điển trên <span style=\"color: #74c0fc; font-weight: bold;\">CT Scanner</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Siêu âm thường &amp; Doppler:</b> Phát hiện u có kích thước <span style=\"color: #ffd43b; font-weight: bold;\">≥ 1 cm</span>; dấu hiệu <span style=\"color: #51cf66; font-weight: bold;\">quầng giảm siêu âm quanh u</span> tương đối đặc hiệu (nhiều khi tốt hơn CT); Doppler màu giúp <span style=\"color: #74c0fc; font-weight: bold;\">phân biệt HCC với u máu lành tính</span>; phát hiện <span style=\"color: #ff6b6b; font-weight: bold;\">huyết khối tĩnh mạch cửa</span>.<br>2) <b>CT Scanner gan có cản quang:</b> Dấu hiệu kinh điển là <span style=\"color: #51cf66; font-weight: bold;\">ngấm thuốc nhanh thì động mạch và thải thuốc nhanh thì tĩnh mạch (wash-out)</span>.<br>3) <b>Vai trò CT:</b> Xác định vị trí, số lượng, định khu hạ phân thùy, đánh giá khả năng cắt u, di căn/ổ vệ tinh, xơ gan, lách to, cổ trướng.<br><br>💡 Giải thích của AI:<br>Hiện tượng wash-out phản ánh khối ung thư được nuôi chủ yếu bằng động mạch gan (90–100%) trong khi nhu mô gan lành được cấp máu chính bởi tĩnh mạch cửa (75%).",
+      "extra": "[B1.03, B1.04]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Sieu-am",
+        "Ngoai::CT-Scanner",
+        "Ngoai::Wash-out"
+      ]
+    },
+    {
+      "id": "SURG31-B1-03",
+      "type": "basic",
+      "topic": "Xét nghiệm AFP & Sinh thiết Menghini",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xét nghiệm & Sinh thiết HCC]</span> Ngưỡng <span style=\"color: #ffd43b; font-weight: bold;\">AFP dương tính</span>, tỷ lệ AFP cao <span style=\"color: #ff6b6b; font-weight: bold;\">> 3.500 ng/ml</span>, chỉ định <span style=\"color: #51cf66; font-weight: bold;\">sinh thiết kim Menghini</span> và 2 công thức chẩn đoán thực tế?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Dấu ấn sinh học AFP:</b> Nồng độ <span style=\"color: #ffd43b; font-weight: bold;\">AFP > 200 ng/ml</span> được coi là dương tính; khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">70% bệnh nhân</span> có AFP cao <span style=\"color: #ff6b6b; font-weight: bold;\">> 3.500 ng/ml</span>; AFP(+) kèm <span style=\"color: #74c0fc; font-weight: bold;\">HBsAg(+)</span> giá trị càng cao.<br>2) <b>Kỹ thuật sinh thiết Menghini:</b> Chỉ định dưới hướng dẫn siêu âm khi có khối u nghi ngờ HCC nhưng <span style=\"color: #ffd43b; font-weight: bold;\">AFP âm tính</span>; nếu u nhỏ/vị trí khó thì mổ thăm dò + sinh thiết tức thì.<br>3) <b>Hai công thức chẩn đoán thực tế:</b><br>   • <span style=\"color: #51cf66; font-weight: bold;\">Khối u gan + AFP > 200 ng/ml = Ung thư biểu mô tế bào gan (HCC)</span>.<br>   • <span style=\"color: #51cf66; font-weight: bold;\">Khối u gan + Sinh thiết HCC = Ung thư gan</span>.<br><br>💡 Giải thích của AI:<br>Nếu AFP âm tính nhưng bệnh nhân có HBsAg(+) và khối u trên siêu âm thì tuyệt đối không được loại trừ ung thư mà phải làm sinh thiết kim hoặc chụp CT đa dãy đối chiếu.",
+      "extra": "[B1.05, B1.06, B1.07]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::AFP",
+        "Ngoai::Sinh-thiet",
+        "Ngoai::Cong-thuc"
+      ]
+    },
+    {
+      "id": "SURG31-B1-04",
+      "type": "basic",
+      "topic": "Chẩn đoán phân biệt HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán phân biệt HCC]</span> Cần phân biệt ung thư biểu mô tế bào gan với <span style=\"color: #ffd43b; font-weight: bold;\">5 nhóm tổn thương gan</span> nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #51cf66; font-weight: bold;\">Áp xe gan</span>: Thường có hội chứng nhiễm trùng rầm rộ, sốt cao, đau hạ sườn phải, bạch cầu tăng, hình ảnh ổ giảm âm thành dày.<br>2) <span style=\"color: #51cf66; font-weight: bold;\">U máu lành tính của gan (Hemangioma)</span>: Không có xơ gan, ngấm thuốc từ ngoại vi vào trung tâm trên CT, Doppler màu phân biệt rõ.<br>3) <span style=\"color: #51cf66; font-weight: bold;\">Nang gan (U nang gan)</span>: Cấu trúc rỗng âm, thành mỏng đều, tăng âm phía sau.<br>4) <span style=\"color: #ffd43b; font-weight: bold;\">Ung thư đường mật trong gan (Cholangiocarcinoma)</span>: Thường tăng CA 19-9, không tăng AFP, ngấm thuốc thì muộn.<br>5) <span style=\"color: #ff6b6b; font-weight: bold;\">Ung thư di căn gan</span>: Thường nhiều ổ, rải rác hai thùy, có tiền sử khối u nguyên phát ở <span style=\"color: #74c0fc; font-weight: bold;\">dạ dày, đại tràng, trực tràng...</span>.<br><br>💡 Giải thích của AI:<br>Trên bệnh nhân có xơ gan và nhiễm virus viêm gan B mạn, bất kỳ khối u đặc mới xuất hiện nào cũng phải ưu tiên nghĩ tới HCC đầu tiên cho đến khi có bằng chứng ngược lại.",
+      "extra": "[B1.08]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Chan-doan-phan-biet",
+        "Ngoai::Hemangioma",
+        "Ngoai::Di-can-gan"
+      ]
+    },
+    {
+      "id": "SURG31-B1-05",
+      "type": "cloze",
+      "topic": "Ngưỡng số AFP & Siêu âm",
+      "tier": 2,
+      "text": "Siêu âm có khả năng phát hiện khá cao khối u gan kích thước {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">≥ 1 cm</span>}}; nồng độ AFP trên {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">200 ng/ml</span>}} được coi là dương tính và khoảng {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">70%</span>}} bệnh nhân HCC có nồng độ AFP cao trên {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">3.500 ng/ml</span>}}.",
+      "extra": "[B1.03, B1.05]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-2",
+        "Ngoai::AFP",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B2-01",
+      "type": "basic",
+      "topic": "Phân loại Child-Pugh A, B, C",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Đánh giá xơ gan Child-Pugh]</span> Điểm số và mức độ của <span style=\"color: #51cf66; font-weight: bold;\">Child-Pugh A</span>, <span style=\"color: #ffd43b; font-weight: bold;\">Child-Pugh B</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">Child-Pugh C</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #51cf66; font-weight: bold;\">Xơ gan Child-Pugh A</span>: <span style=\"color: #51cf66; font-weight: bold;\">5 – 6 điểm</span> — mức độ <span style=\"color: #51cf66; font-weight: bold;\">nhẹ</span> (chức năng gan còn bù tốt, là ứng viên tốt nhất cho phẫu thuật cắt gan).<br>2) <span style=\"color: #ffd43b; font-weight: bold;\">Xơ gan Child-Pugh B</span>: <span style=\"color: #ffd43b; font-weight: bold;\">7 – 9 điểm</span> — mức độ <span style=\"color: #ffd43b; font-weight: bold;\">vừa</span> (suy giảm chức năng gan trung bình, cân nhắc can thiệp thận trọng).<br>3) <span style=\"color: #ff6b6b; font-weight: bold;\">Xơ gan Child-Pugh C</span>: <span style=\"color: #ff6b6b; font-weight: bold;\">≥ 10 điểm</span> — mức độ <span style=\"color: #ff6b6b; font-weight: bold;\">nặng</span> (suy gan mất bù nặng, chống chỉ định phẫu thuật cắt gan, chỉ điều trị giảm nhẹ hoặc ghép gan).<br><br>💡 Giải thích của AI:<br>Thang điểm Child-Pugh là yếu tố tiên quyết quyết định sống còn bệnh nhân trước mọi chỉ định can thiệp ngoại khoa hay tắc mạch.",
+      "extra": "[B2.01]",
+      "tags": [
+        "Ngoai::SURG-31::B2",
+        "Tier-1",
+        "Ngoai::Child-Pugh",
+        "Ngoai::Phan-do"
+      ]
+    },
+    {
+      "id": "SURG31-B2-02",
+      "type": "basic",
+      "topic": "5 chỉ số bảng điểm Child-Pugh",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Bảng điểm Child-Pugh]</span> Kể tên <span style=\"color: #ffd43b; font-weight: bold;\">5 chỉ số</span> đánh giá và tiêu chuẩn tương ứng mức <span style=\"color: #51cf66; font-weight: bold;\">1 điểm</span> của từng chỉ số?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bilirubin máu:</b> <span style=\"color: #51cf66; font-weight: bold;\">< 35 µmol/L</span> (1 điểm).<br>2) <b>Cổ trướng:</b> <span style=\"color: #51cf66; font-weight: bold;\">Không có (0)</span> (1 điểm).<br>3) <b>Albumin máu:</b> <span style=\"color: #51cf66; font-weight: bold;\">> 35 g/L</span> (1 điểm).<br>4) <b>Hội chứng não gan:</b> <span style=\"color: #51cf66; font-weight: bold;\">Không có (0)</span> (1 điểm).<br>5) <b>Đông máu (Tỷ lệ Prothrombin):</b> <span style=\"color: #51cf66; font-weight: bold;\">100 – 55%</span> (1 điểm).<br><br>💡 Giải thích của AI:<br>Mức 1 điểm phản ánh tình trạng chức năng gan còn hoàn toàn bình thường hoặc suy giảm không đáng kể trên cả 5 phương diện lâm sàng và xét nghiệm.",
+      "extra": "[B2.02, B2.03]",
+      "tags": [
+        "Ngoai::SURG-31::B2",
+        "Tier-1",
+        "Ngoai::Child-Pugh",
+        "Ngoai::Chi-so",
+        "Ngoai::1-diem"
+      ]
+    },
+    {
+      "id": "SURG31-B2-03",
+      "type": "basic",
+      "topic": "Mốc 2 điểm và 3 điểm Child-Pugh",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Bảng điểm Child-Pugh]</span> Chi tiết ngưỡng giá trị <span style=\"color: #ffd43b; font-weight: bold;\">2 điểm</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">3 điểm</span> cho cả 5 chỉ số của Child-Pugh?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bilirubin máu:</b> <span style=\"color: #ffd43b; font-weight: bold;\">35 – 50 µmol/L</span> (2 điểm) | <span style=\"color: #ff6b6b; font-weight: bold;\">> 50 µmol/L</span> (3 điểm).<br>2) <b>Cổ trướng:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Ít (+/-)</span> (2 điểm) | <span style=\"color: #ff6b6b; font-weight: bold;\">Nhiều (++)</span> (3 điểm).<br>3) <b>Albumin máu:</b> <span style=\"color: #ffd43b; font-weight: bold;\">28 – 35 g/L</span> (2 điểm) | <span style=\"color: #ff6b6b; font-weight: bold;\">< 28 g/L</span> (3 điểm).<br>4) <b>Hội chứng não gan:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Độ 1 – 2 (+)</span> (2 điểm) | <span style=\"color: #ff6b6b; font-weight: bold;\">Độ 3 – 4 (++)</span> (3 điểm).<br>5) <b>Đông máu (Tỷ lệ Prothrombin):</b> <span style=\"color: #ffd43b; font-weight: bold;\">53 – 45%</span> (2 điểm) | <span style=\"color: #ff6b6b; font-weight: bold;\">< 45%</span> (3 điểm).<br><br>💡 Giải thích của AI:<br>Ghi nhớ các mốc đối xứng: Bilirubin 35-50, Albumin 28-35 g/L, và Prothrombin 45-53% là các khoảng phân chia ranh giới giữa 1, 2 và 3 điểm.",
+      "extra": "[B2.04]",
+      "tags": [
+        "Ngoai::SURG-31::B2",
+        "Tier-1",
+        "Ngoai::Child-Pugh",
+        "Ngoai::Nguong-so",
+        "Ngoai::Bang-diem"
+      ]
+    },
+    {
+      "id": "SURG31-B2-04",
+      "type": "cloze",
+      "topic": "Khoảng điểm Child-Pugh",
+      "tier": 2,
+      "text": "Thang điểm Child-Pugh phân loại: Child-Pugh A từ {{c1::<span style=\"color: #51cf66; font-weight: bold;\">5 – 6 điểm</span>}} (nhẹ); Child-Pugh B từ {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">7 – 9 điểm</span>}} (vừa); Child-Pugh C khi đạt {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">≥ 10 điểm</span>}} (nặng).",
+      "extra": "[B2.01]",
+      "tags": [
+        "Ngoai::SURG-31::B2",
+        "Tier-2",
+        "Ngoai::Child-Pugh",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B3-01",
+      "type": "basic",
+      "topic": "Phân loại T theo AJCC 2010",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại TNM AJCC 2010]</span> Định nghĩa các mức <span style=\"color: #51cf66; font-weight: bold;\">T1</span>, <span style=\"color: #ffd43b; font-weight: bold;\">T2</span>, <span style=\"color: #ffd43b; font-weight: bold;\">T3a</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">T3b</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">T4</span> trong ung thư biểu mô tế bào gan?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #51cf66; font-weight: bold;\">T1</span>: Khối u đơn độc <span style=\"color: #51cf66; font-weight: bold;\">chưa xâm lấn mạch máu</span>.<br>2) <span style=\"color: #ffd43b; font-weight: bold;\">T2</span>: Khối u đơn độc <span style=\"color: #ffd43b; font-weight: bold;\">có xâm lấn mạch máu</span> HOẶC <span style=\"color: #ffd43b; font-weight: bold;\">nhiều u kích thước ≤ 5 cm</span>.<br>3) <span style=\"color: #ffd43b; font-weight: bold;\">T3a</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Nhiều u kích thước > 5 cm</span>.<br>4) <span style=\"color: #ff6b6b; font-weight: bold;\">T3b</span>: Một hay nhiều u kích thước bất kỳ <span style=\"color: #ff6b6b; font-weight: bold;\">liên quan với nhánh chính tĩnh mạch cửa hoặc tĩnh mạch gan</span>.<br>5) <span style=\"color: #ff6b6b; font-weight: bold;\">T4</span>: U <span style=\"color: #ff6b6b; font-weight: bold;\">xâm lấn trực tiếp cơ quan lân cận</span> (trừ túi mật) hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">xuyên qua phúc mạc tạng</span>.<br><br>💡 Giải thích của AI:<br>Lưu ý bẫy trắc nghiệm: U xâm lấn túi mật KHÔNG xếp vào T4 vì túi mật nằm sát giường gan sinh lý; T4 phải xâm lấn cơ quan khác hoặc thủng phúc mạc.",
+      "extra": "[B3.01]",
+      "tags": [
+        "Ngoai::SURG-31::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::T-stage",
+        "Ngoai::AJCC2010"
+      ]
+    },
+    {
+      "id": "SURG31-B3-02",
+      "type": "basic",
+      "topic": "Các giai đoạn TNM (AJCC 2010)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xếp giai đoạn AJCC 2010]</span> Ghép cặp tương ứng các giai đoạn <span style=\"color: #51cf66; font-weight: bold;\">I</span>, <span style=\"color: #ffd43b; font-weight: bold;\">II</span>, <span style=\"color: #ffd43b; font-weight: bold;\">IIIA/B/C</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">IVA/B</span> với tổ hợp TNM?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #51cf66; font-weight: bold;\">Giai đoạn I</span>: <span style=\"color: #51cf66; font-weight: bold;\">T1 N0 M0</span>.<br>2) <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn II</span>: <span style=\"color: #ffd43b; font-weight: bold;\">T2 N0 M0</span>.<br>3) <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn IIIA</span>: <span style=\"color: #ffd43b; font-weight: bold;\">T3a N0 M0</span> | <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn IIIB</span>: <span style=\"color: #ffd43b; font-weight: bold;\">T3b N0 M0</span> | <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn IIIC</span>: <span style=\"color: #ffd43b; font-weight: bold;\">T4 N0 M0</span>.<br>4) <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn IVA</span>: <span style=\"color: #ff6b6b; font-weight: bold;\">T bất kỳ N1 M0</span> (đã có di căn hạch vùng).<br>5) <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn IVB</span>: <span style=\"color: #ff6b6b; font-weight: bold;\">T bất kỳ N bất kỳ M1</span> (đã có di căn xa).<br><br>💡 Giải thích của AI:<br>Chỉ cần có hạch vùng N1 là xếp ngay IVA; có bất kỳ di căn xa M1 nào lập tức là giai đoạn IVB.",
+      "extra": "[B3.02, B3.03, B3.04]",
+      "tags": [
+        "Ngoai::SURG-31::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::Giai-doan",
+        "Ngoai::AJCC2010"
+      ]
+    },
+    {
+      "id": "SURG31-B3-03",
+      "type": "basic",
+      "topic": "Tiêu chuẩn T2 và T3a theo AJCC 2010",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại T AJCC 2010]</span> Tiêu chuẩn phân định giữa <span style=\"color: #ffd43b; font-weight: bold;\">T2</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">T3a</span> trong ung thư biểu mô tế bào gan?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>T2 (u đơn độc mạch máu hoặc nhiều u ≤ 5 cm):</b> Khối u đơn độc <span style=\"color: #ffd43b; font-weight: bold;\">có xâm lấn mạch máu</span> HOẶC <span style=\"color: #ffd43b; font-weight: bold;\">nhiều u kích thước ≤ 5 cm</span>.<br>2) <b>T3a (nhiều u kích thước > 5 cm):</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Nhiều khối u kích thước lớn hơn 5 cm</span>.<br><br>💡 Giải thích của AI:<br>Ngưỡng 5 cm là ranh giới sống còn: nhiều u nhưng tất cả ≤ 5 cm vẫn xếp T2, chỉ cần có nhiều u > 5 cm là chuyển sang T3a.",
+      "extra": "[B3.01]",
+      "tags": [
+        "Ngoai::SURG-31::B3",
+        "Tier-2",
+        "Ngoai::TNM",
+        "Ngoai::T2",
+        "Ngoai::T3a"
+      ]
+    },
+    {
+      "id": "SURG31-B4-01",
+      "type": "basic",
+      "topic": "Đặc điểm chẩn đoán Hepatoblastoma",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán Ung thư nguyên bào gan]</span> Triệu chứng lâm sàng, hình ảnh u trên <span style=\"color: #74c0fc; font-weight: bold;\">CT/Siêu âm</span>, xét nghiệm <span style=\"color: #ffd43b; font-weight: bold;\">AFP & HBsAg</span> và vai trò <span style=\"color: #51cf66; font-weight: bold;\">sinh thiết kim</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khám lâm sàng:</b> Chẩn đoán tương đối dễ hơn HCC; bệnh nhi <span style=\"color: #ffd43b; font-weight: bold;\">≤ 4 tuổi (95%)</span> có <span style=\"color: #ff6b6b; font-weight: bold;\">khối u gan lớn dưới bờ sườn</span>, ít khi gây vàng da tắc mật.<br>2) <b>Hình ảnh:</b> Siêu âm/CT thấy khối u gan lớn, <span style=\"color: #51cf66; font-weight: bold;\">thường 1 ổ, cá biệt 2 ổ</span>, u chiếm phần lớn thể tích gan.<br>3) <b>Dấu ấn sinh học:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">AFP rất cao</span>, kháng nguyên bề mặt <span style=\"color: #51cf66; font-weight: bold;\">HBsAg âm tính</span> (không liên quan viêm gan B).<br>4) <b>Sinh thiết kim:</b> Cần thiết để xác định chẩn đoán giúp <span style=\"color: #51cf66; font-weight: bold;\">chỉ định hóa trị trước mổ (tân bổ trợ)</span>.<br><br>💡 Giải thích của AI:<br>Khác với HCC thường đa ổ rải rác trên gan xơ, Hepatoblastoma thường là khối u đơn độc khổng lồ phát triển trên nền gan lành của trẻ nhỏ.",
+      "extra": "[B4.01, B4.02]",
+      "tags": [
+        "Ngoai::SURG-31::B4",
+        "Tier-1",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Lam-sang",
+        "Ngoai::AFP"
+      ]
+    },
+    {
+      "id": "SURG31-B4-02",
+      "type": "basic",
+      "topic": "Phân loại Nhi khoa 1995 (Giai đoạn I–IV)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phân loại Ung thư nhi khoa 1995]</span> Tiêu chuẩn xếp loại 4 giai đoạn <span style=\"color: #51cf66; font-weight: bold;\">I</span>, <span style=\"color: #ffd43b; font-weight: bold;\">II</span>, <span style=\"color: #ffd43b; font-weight: bold;\">III</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">IV</span> của Ung thư nguyên bào gan?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #51cf66; font-weight: bold;\">Giai đoạn I</span>: Cắt bỏ được hoàn toàn, dạng bào thai thuần túy, độ mô học thấp, có <span style=\"color: #51cf66; font-weight: bold;\">< 2 nhân chia / 1 vi trường</span>.<br>2) <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn II</span>: Cắt bỏ được hoàn toàn, dạng bào thai thuần túy, độ mô học cao, có <span style=\"color: #ffd43b; font-weight: bold;\">> 2 nhân chia / 1 vi trường</span>.<br>3) <span style=\"color: #ffd43b; font-weight: bold;\">Giai đoạn III</span>: Lấy bỏ hết đại thể nhưng <span style=\"color: #ffd43b; font-weight: bold;\">sót u về vi thể</span> HOẶC u giai đoạn I, II nhưng <span style=\"color: #ff6b6b; font-weight: bold;\">đã vỡ u trước mổ</span>.<br>4) <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn IV</span>: Khối u <span style=\"color: #ff6b6b; font-weight: bold;\">không thể cắt được</span> HOẶC <span style=\"color: #ff6b6b; font-weight: bold;\">có di căn hạch / di căn phổi hoặc cơ quan khác</span>.<br><br>💡 Giải thích của AI:<br>Mốc 2 nhân chia/vi trường là ranh giới giữa GĐ I và II; vỡ u trước mổ tự động nâng giai đoạn bệnh lên Giai đoạn III.",
+      "extra": "[B4.03, B4.04]",
+      "tags": [
+        "Ngoai::SURG-31::B4",
+        "Tier-1",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Giai-doan",
+        "Ngoai::Nhi-khoa"
+      ]
+    },
+    {
+      "id": "SURG31-B4-03",
+      "type": "basic",
+      "topic": "Mốc nhân chia & Vỡ u trong Hepatoblastoma",
+      "tier": 2,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xếp giai đoạn Hepatoblastoma 1995]</span> Mốc <span style=\"color: #51cf66; font-weight: bold;\">số lượng nhân chia</span> phân biệt Giai đoạn I vs II và sự kiện nào khiến u Giai đoạn I, II chuyển thành <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn III</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mốc nhân chia vi thể:</b> Giai đoạn I có <span style=\"color: #51cf66; font-weight: bold;\">< 2 nhân chia / vi trường</span> (độ mô học thấp); Giai đoạn II có <span style=\"color: #ffd43b; font-weight: bold;\">> 2 nhân chia / vi trường</span> (độ mô học cao).<br>2) <b>Sự kiện nâng giai đoạn III:</b> Bệnh nhân có khối u ban đầu thuộc giai đoạn I hoặc II nhưng <span style=\"color: #ff6b6b; font-weight: bold;\">đã vỡ u trước mổ</span> (hoặc sót u vi thể diện cắt) lập tức được xếp vào <span style=\"color: #ff6b6b; font-weight: bold;\">Giai đoạn III</span>.<br><br>💡 Giải thích của AI:<br>Hiện tượng vỡ u làm tràn tế bào ung thư vào khoang phúc mạc khiến nguy cơ tái phát tại chỗ và di căn màng bụng tăng vọt, đòi hỏi nâng phác đồ điều trị lên Giai đoạn III.",
+      "extra": "[B4.03, B4.04]",
+      "tags": [
+        "Ngoai::SURG-31::B4",
+        "Tier-2",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B5-01",
+      "type": "basic",
+      "topic": "Chỉ định & Kỹ thuật mổ cắt gan HCC",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật cắt gan HCC]</span> Tỷ lệ u cắt được, <span style=\"color: #51cf66; font-weight: bold;\">5 tiêu chuẩn chỉ định</span>, các đường mổ, <span style=\"color: #ffd43b; font-weight: bold;\">nghiệm pháp Pringle</span> và loại chỉ khâu diện cắt?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khả năng cắt bỏ:</b> Chỉ khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">5 – 10%</span> u có khả năng cắt triệt căn; <span style=\"color: #ff6b6b; font-weight: bold;\">90% không thể cắt bỏ được</span>.<br>2) <b>Điều kiện phẫu thuật:</b> Khối u đơn độc, kích thước càng nhỏ càng tốt, khu trú ở <span style=\"color: #51cf66; font-weight: bold;\">thùy gan trái</span> hoặc <span style=\"color: #51cf66; font-weight: bold;\">1 hạ phân thùy gan phải</span>, xa rốn gan, <span style=\"color: #51cf66; font-weight: bold;\">Child-Pugh A tốt hơn B</span>, <span style=\"color: #ffd43b; font-weight: bold;\">tuổi dưới 75</span>.<br>3) <b>Kỹ thuật mổ:</b> Đường mổ <span style=\"color: #74c0fc; font-weight: bold;\">chữ J</span> hoặc <span style=\"color: #74c0fc; font-weight: bold;\">dưới sườn phải</span>; đặt garô cuống gan (<span style=\"color: #ffd43b; font-weight: bold;\">Pringle ngắt quãng ~8 phút</span>); cắt theo cuống Glisson hoặc phân thùy Tôn Thất Tùng.<br>4) <b>Khâu diện cắt:</b> Khâu cầm máu diện cắt bằng <span style=\"color: #51cf66; font-weight: bold;\">chỉ tiêu Vicryl số 0</span>.<br><br>💡 Giải thích của AI:<br>Nghiệm pháp Pringle tạm thời kẹp cuống gan (ĐM gan và TM cửa) để giảm mất máu khi cắt nhu mô gan, phải ngắt quãng ~8 phút để tránh hoại tử tế bào gan do thiếu máu.",
+      "extra": "[B5.01, B5.02]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::Phau-thuat",
+        "Ngoai::Cat-gan",
+        "Ngoai::Pringle"
+      ]
+    },
+    {
+      "id": "SURG31-B5-02",
+      "type": "basic",
+      "topic": "Ghép gan & Tiêu chuẩn Milan",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ghép gan trong HCC]</span> Ghép gan là hy vọng tốt nhất cho trường hợp nào và theo tiêu chuẩn nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đối tượng chỉ định:</b> Là hy vọng tốt nhất cho trường hợp <span style=\"color: #51cf66; font-weight: bold;\">khối u gan còn khu trú</span> nhưng <span style=\"color: #ff6b6b; font-weight: bold;\">kèm theo xơ gan nặng (Child-Pugh B, C)</span> không thể chịu đựng được cuộc phẫu thuật cắt gan.<br>2) <b>Nguyên tắc Milan:</b> Đang từng bước phát triển áp dụng theo <span style=\"color: #74c0fc; font-weight: bold;\">tiêu chuẩn Milan</span> (u đơn độc ≤ 5 cm hoặc ≤ 3 u mỗi u ≤ 3 cm, chưa xâm lấn mạch máu).<br><br>💡 Giải thích của AI:<br>Ghép gan vừa giải quyết triệt để khối ung thư vừa loại bỏ hoàn toàn ổ bệnh xơ gan nền mạn tính.",
+      "extra": "[B5.03]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::Ghep-gan",
+        "Ngoai::Milan"
+      ]
+    },
+    {
+      "id": "SURG31-B5-03",
+      "type": "basic",
+      "topic": "Tiêm cồn tuyệt đối qua da (PEI)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Can thiệp tại chỗ PEI]</span> Nguyên lý, chỉ định, <span style=\"color: #ff6b6b; font-weight: bold;\">4 chống chỉ định</span>, công thức tính thể tích cồn và phác đồ tiêm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý:</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Ethanol 99%</span> làm đông vón protein và gây tắc vi mạch nuôi u, làm hoại tử tế bào ung thư dưới hướng dẫn siêu âm.<br>2) <b>Điều kiện tiêm:</b> U <span style=\"color: #51cf66; font-weight: bold;\">≤ 3 khối</span>, đường kính u <span style=\"color: #51cf66; font-weight: bold;\">< 3 cm (tối đa < 5 cm)</span>, nằm sâu trong nhu mô <span style=\"color: #ffd43b; font-weight: bold;\">xa bao gan và rốn gan</span>.<br>3) <b>Tình huống cấm tiêm:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Cổ trướng nhiều</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">rối loạn đông máu</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">vàng da tắc mật</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">huyết khối tĩnh mạch cửa</span>.<br>4) <b>Quy cách tính thể tích:</b> Tính theo thể tích khối cầu V = 4/3 × π × (r + 0,5)³; u < 3 cm tiêm <span style=\"color: #ffd43b; font-weight: bold;\">8 ml</span>; u 4–10 cm tiêm <span style=\"color: #ffd43b; font-weight: bold;\">12–20 ml</span> chia nhiều lần (<span style=\"color: #ffd43b; font-weight: bold;\">2 lần/tuần, tiêm từ 2 đến 6 lần</span>).<br><br>💡 Giải thích của AI:<br>Tiêm cồn sát bao gan dễ gây đau chói do rò cồn vào phúc mạc, tiêm gần rốn gan nguy cơ hoại tử đường mật và mạch máu chính.",
+      "extra": "[B5.04, B5.05]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::PEI",
+        "Ngoai::Tiem-con",
+        "Ngoai::Chong-chi-dinh"
+      ]
+    },
+    {
+      "id": "SURG31-B5-04",
+      "type": "basic",
+      "topic": "Đốt nhiệt sóng cao tần (RFA)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Can thiệp tại chỗ RFA]</span> Nguyên lý nhiệt độ, chỉ định và kết quả hoại tử u &amp; sống 2 năm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý:</b> Dùng dòng điện xoay chiều tần số cao tạo nhiệt độ <span style=\"color: #ff6b6b; font-weight: bold;\">60 – 100°C</span> làm đông hủy hoại tử khối u.<br>2) <b>Kích thước u phù hợp:</b> U đơn độc <span style=\"color: #51cf66; font-weight: bold;\">< 3 cm</span> (hoặc <span style=\"color: #51cf66; font-weight: bold;\">≤ 3 khối u ≤ 3 cm</span>).<br>3) <b>Kết quả:</b> Khối u < 3 cm đạt tỷ lệ <span style=\"color: #51cf66; font-weight: bold;\">hoại tử hoàn toàn 50%</span>; tỷ lệ sống thêm sau 2 năm đạt <span style=\"color: #51cf66; font-weight: bold;\">61%</span>.<br><br>💡 Giải thích của AI:<br>Nhiệt độ trên 60°C gây biến tính protein và phá hủy màng tế bào tức thì, tạo vùng hoại tử đông vô trùng thay thế khối u.",
+      "extra": "[B5.06]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::RFA",
+        "Ngoai::Dot-nhiet",
+        "Ngoai::Nhiet-do"
+      ]
+    },
+    {
+      "id": "SURG31-B5-05",
+      "type": "basic",
+      "topic": "Hóa dầu tắc mạch (TACE) & Xạ trị",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TACE & Xạ trị trong HCC]</span> Nguyên lý <span style=\"color: #51cf66; font-weight: bold;\">TACE (hóa chất, Lipiodol, Spongel)</span>, chỉ định, tác dụng và vai trò của <span style=\"color: #ffd43b; font-weight: bold;\">xạ trị ngoài</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý TACE:</b> Bơm hỗn hợp hóa chất (<span style=\"color: #74c0fc; font-weight: bold;\">Doxorubicin, Cisplatin, Mitomycin C</span>) pha với dầu cản quang <span style=\"color: #51cf66; font-weight: bold;\">Lipiodol</span> vào động mạch nuôi u, sau đó nút mạch bằng <span style=\"color: #ffd43b; font-weight: bold;\">Spongel / Gelatin</span> để cắt nguồn máu nuôi và lưu giữ hóa chất tại chỗ.<br>2) <b>Đối tượng áp dụng:</b> Khối u lớn <span style=\"color: #ff6b6b; font-weight: bold;\">không thể cắt bỏ</span>, nhiều ổ nhưng <span style=\"color: #51cf66; font-weight: bold;\">chưa có huyết khối tĩnh mạch cửa</span>, <span style=\"color: #51cf66; font-weight: bold;\">Child-Pugh A hoặc B</span>.<br>3) <b>Tác dụng:</b> Kéo dài thời gian sống, làm co nhỏ u tạo cơ hội phẫu thuật hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">cầm máu khi khối u vỡ</span>.<br>4) <b>Xạ trị ngoài:</b> Ít tác dụng trên gan xơ; chỉ định hạn chế liều <span style=\"color: #ffd43b; font-weight: bold;\">60 – 70 Gy</span> nhằm giảm đau, giảm chèn ép trong u có huyết khối nhánh tĩnh mạch cửa.<br><br>💡 Giải thích của AI:<br>TACE chống chỉ định tuyệt đối khi có huyết khối thân chính tĩnh mạch cửa vì gan sẽ bị nhồi máu hoại tử cấp do mất cả hai nguồn cấp máu.",
+      "extra": "[B5.07, B5.08]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::TACE",
+        "Ngoai::Tac-mach",
+        "Ngoai::Xa-tri"
+      ]
+    },
+    {
+      "id": "SURG31-B5-06",
+      "type": "cloze",
+      "topic": "Thông số kỹ thuật PEI & RFA",
+      "tier": 2,
+      "text": "Đốt sóng cao tần RFA tạo nhiệt độ {{c1::<span style=\"color: #ff6b6b; font-weight: bold;\">60 – 100°C</span>}} làm đông hủy u; trong khi tiêm cồn PEI u < 3 cm dùng liều {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">8 ml</span>}} và u 4–10 cm dùng {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">12 – 20 ml</span>}} chia {{c4::<span style=\"color: #ffd43b; font-weight: bold;\">2 lần/tuần</span>}} từ 2 đến 6 lần.",
+      "extra": "[B5.05, B5.06]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-2",
+        "Ngoai::PEI",
+        "Ngoai::RFA",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B6-01",
+      "type": "basic",
+      "topic": "Phác đồ PLADO & Cisplatin/5-FU/Vincristine",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Hóa trị Hepatoblastoma]</span> Chi tiết thuốc, liều và chu kỳ của <span style=\"color: #51cf66; font-weight: bold;\">phác đồ PLADO (SIOPEL-1)</span> và <span style=\"color: #ffd43b; font-weight: bold;\">phác đồ Cisplatin + 5-FU + Vincristine</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Công thức PLADO (SIOPEL-1):</b><br>   • <span style=\"color: #51cf66; font-weight: bold;\">Cisplatin</span>: <span style=\"color: #ffd43b; font-weight: bold;\">80 mg/m² da</span>, truyền tĩnh mạch <span style=\"color: #74c0fc; font-weight: bold;\">Ngày 1</span>.<br>   • <span style=\"color: #51cf66; font-weight: bold;\">Doxorubicin</span>: <span style=\"color: #ffd43b; font-weight: bold;\">30 mg/m² da</span>, truyền tĩnh mạch <span style=\"color: #74c0fc; font-weight: bold;\">Ngày 2 và Ngày 3</span>.<br>   • Chu kỳ: Mỗi đợt cách nhau <span style=\"color: #ffd43b; font-weight: bold;\">21 ngày</span>, dùng <span style=\"color: #ffd43b; font-weight: bold;\">4 – 6 đợt</span>.<br>2) <b>Công thức Cisplatin + 5-FU + Vincristine:</b><br>   • Cisplatin: <span style=\"color: #ffd43b; font-weight: bold;\">90 mg/m²</span> (hoặc 30 mg/kg) truyền TM 6h <span style=\"color: #74c0fc; font-weight: bold;\">Ngày 1</span>.<br>   • Vincristine: <span style=\"color: #ffd43b; font-weight: bold;\">1,5 mg/m²</span> truyền TM 6h <span style=\"color: #74c0fc; font-weight: bold;\">Ngày 2</span> + 5-FU: <span style=\"color: #ffd43b; font-weight: bold;\">600 mg/m²</span> truyền TM <span style=\"color: #74c0fc; font-weight: bold;\">Ngày 2</span>.<br>   • Chu kỳ: Mỗi đợt cách nhau <span style=\"color: #ffd43b; font-weight: bold;\">21 ngày</span>, dùng <span style=\"color: #ffd43b; font-weight: bold;\">4 – 6 đợt</span>.<br><br>💡 Giải thích của AI:<br>Sự phối hợp giữa dẫn chất platin (Cisplatin) và anthracycline (Doxorubicin) tạo hiệu ứng hiệp đồng tiêu diệt nguyên bào gan chưa biệt hóa cực kỳ mạnh mẽ.",
+      "extra": "[B6.01, B6.02]",
+      "tags": [
+        "Ngoai::SURG-31::B6",
+        "Tier-1",
+        "Ngoai::PLADO",
+        "Ngoai::Cisplatin",
+        "Ngoai::Doxorubicin"
+      ]
+    },
+    {
+      "id": "SURG31-B6-02",
+      "type": "basic",
+      "topic": "Chiến lược đa mô thức Hepatoblastoma",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chiến lược điều trị Hepatoblastoma]</span> Trình bày sự phối hợp 3 bước giữa <span style=\"color: #51cf66; font-weight: bold;\">Hóa trị tân bổ trợ</span>, <span style=\"color: #74c0fc; font-weight: bold;\">Phẫu thuật</span> và <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị bổ trợ</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bước 1 — Hóa trị tân bổ trợ (tiền phẫu):</b> Làm khối u <span style=\"color: #51cf66; font-weight: bold;\">co nhỏ đáng kể</span> (down-staging), biến tổn thương u khổng lồ không cắt được thành cắt được an toàn.<br>2) <b>Bước 2 — Phẫu thuật:</b> Thực hiện <span style=\"color: #74c0fc; font-weight: bold;\">cắt bỏ triệt để khối u</span> khi u đã khu trú và nhu mô gan lành phì đại bù trừ.<br>3) <b>Bước 3 — Hóa trị bổ trợ (sau mổ):</b> Dùng tiếp <span style=\"color: #ffd43b; font-weight: bold;\">đủ 4 – 6 đợt</span> để tiêu diệt các vi ổ ung thư lưu hành, ngăn ngừa tái phát.<br><br>💡 Giải thích của AI:<br>Nhờ tính chất cực kỳ nhạy hóa chất của Hepatoblastoma, chiến lược tân bổ trợ trước mổ là tiêu chuẩn vàng bắt buộc cho hầu hết các khối u gan trẻ em lớn.",
+      "extra": "[B6.03]",
+      "tags": [
+        "Ngoai::SURG-31::B6",
+        "Tier-1",
+        "Ngoai::Chien-luoc",
+        "Ngoai::Da-mo-thuc",
+        "Ngoai::Tan-bo-tro"
+      ]
+    },
+    {
+      "id": "SURG31-B6-03",
+      "type": "cloze",
+      "topic": "Liều phác đồ PLADO",
+      "tier": 2,
+      "text": "Phác đồ PLADO điều trị Hepatoblastoma gồm {{c1::<span style=\"color: #51cf66; font-weight: bold;\">Cisplatin 80 mg/m²</span>}} truyền TM Ngày 1 và {{c2::<span style=\"color: #51cf66; font-weight: bold;\">Doxorubicin 30 mg/m²</span>}} truyền TM Ngày 2 và 3, chu kỳ {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">21 ngày</span>}} dùng từ {{c4::<span style=\"color: #ffd43b; font-weight: bold;\">4 – 6 đợt</span>}}.",
+      "extra": "[B6.01]",
+      "tags": [
+        "Ngoai::SURG-31::B6",
+        "Tier-2",
+        "Ngoai::PLADO",
+        "Ngoai::Nguong-so"
+      ]
+    },
+    {
+      "id": "SURG31-B7-01",
+      "type": "basic",
+      "topic": "Phác đồ HCC giai đoạn T1-2 và T3",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phác đồ tổng quát HCC]</span> Hướng xử trí cho bệnh nhân <span style=\"color: #51cf66; font-weight: bold;\">T1-2 N0 M0 / Child A-B</span> và <span style=\"color: #ffd43b; font-weight: bold;\">T3 N0 M0 / Child A-B</span> theo tuổi và bệnh kèm?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>T1-2 N0 M0 / Child-Pugh A, B:</b><br>   • Không bệnh nội khoa nặng, tuổi < 75 → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật triệt căn</span>.<br>   • Từ chối mổ HOẶC có bệnh nội khoa nặng, tuổi > 75 → <span style=\"color: #ffd43b; font-weight: bold;\">Tiêm Ethanol qua da (PEI) / Đốt nhiệt cao tần (RFA)</span>.<br>2) <b>T3 N0 M0 / Child-Pugh A, B:</b> → <span style=\"color: #ffd43b; font-weight: bold;\">Tiêm Ethanol qua da / Hóa dầu tắc mạch (TACE)</span>.<br><br>💡 Giải thích của AI:<br>Ở bệnh nhân cao tuổi (> 75) hoặc có bệnh tim phổi nặng, can thiệp tại chỗ RFA/PEI mang lại kết quả sống tương đương cắt gan mà tránh được biến chứng gây mê hồi sức lớn.",
+      "extra": "[B7.01, B7.02]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Phac-do",
+        "Ngoai::T1-2",
+        "Ngoai::T3"
+      ]
+    },
+    {
+      "id": "SURG31-B7-02",
+      "type": "basic",
+      "topic": "Phác đồ HCC giai đoạn muộn & Child-Pugh C",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phác đồ tổng quát HCC]</span> Chỉ định điều trị cho bệnh nhân <span style=\"color: #ff6b6b; font-weight: bold;\">T4 N0 M0, di căn hạch N1, di căn xa M1 hoặc Child-Pugh C</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Các trường hợp bệnh tiến xa:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">T4 N0 M0</span> (u xâm lấn tạng lân cận/phúc mạc), <span style=\"color: #ff6b6b; font-weight: bold;\">T bất kỳ N1 M0</span> (di căn hạch), hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">M1</span> (di căn xa).<br>2) <b>Trường hợp xơ gan mất bù:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Xơ gan Child-Pugh C</span> (≥ 10 điểm).<br>3) <b>Định hướng chăm sóc:</b> Chuyển sang <span style=\"color: #ff6b6b; font-weight: bold;\">Điều trị triệu chứng / Chăm sóc giảm nhẹ</span>.<br><br>💡 Giải thích của AI:<br>Giai đoạn Child-Pugh C dự trữ chức năng gan còn lại quá yếu, can thiệp phẫu thuật hay TACE đều sẽ đẩy bệnh nhân vào hôn mê gan tử vong ngay lập tức.",
+      "extra": "[B7.03]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Phac-do",
+        "Ngoai::Giam-nhe",
+        "Ngoai::Child-C"
+      ]
+    },
+    {
+      "id": "SURG31-B7-03",
+      "type": "basic",
+      "topic": "Phác đồ HCC nhiều ổ theo Huyết khối TM cửa",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phác đồ tổng quát HCC]</span> Chiến lược điều trị HCC nhiều ổ (Child-Pugh A, B) khi <span style=\"color: #51cf66; font-weight: bold;\">chưa có</span> vs <span style=\"color: #ff6b6b; font-weight: bold;\">đã có huyết khối tĩnh mạch cửa</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhiều ổ, KHÔNG huyết khối tĩnh mạch cửa:</b><br>   • U cùng một phân thùy: <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt phân thùy</span>.<br>   • U khác phân thùy: <span style=\"color: #ffd43b; font-weight: bold;\">Hóa tắc mạch khối u (TACE)</span>, tiêm cồn với <span style=\"color: #51cf66; font-weight: bold;\">u < 3 cm</span>.<br>2) <b>Nhiều ổ, CÓ huyết khối tĩnh mạch cửa:</b> → Chống chỉ định TACE, chuyển sang <span style=\"color: #ff6b6b; font-weight: bold;\">Xạ trị ngoài / Điều trị đích (Sorafenib)</span>.<br><br>💡 Giải thích của AI:<br>Huyết khối tĩnh mạch cửa là ngã rẽ sống còn: chưa có huyết khối thì TACE là số 1; đã có huyết khối thì TACE gây nhồi máu gan, phải dùng Sorafenib hoặc xạ trị ngoài.",
+      "extra": "[B7.04, B7.05]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Phac-do",
+        "Ngoai::Nhieu-o",
+        "Ngoai::Huyet-khoi-TM-cua"
+      ]
+    },
+    {
+      "id": "SURG31-B7-04",
+      "type": "basic",
+      "topic": "Phác đồ Hepatoblastoma theo Giai đoạn I–IV",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phác đồ Ung thư nguyên bào gan]</span> Chiến lược điều trị chi tiết cho từng giai đoạn <span style=\"color: #51cf66; font-weight: bold;\">I</span>, <span style=\"color: #ffd43b; font-weight: bold;\">II (ngoại vi vs trung tâm)</span>, <span style=\"color: #ffd43b; font-weight: bold;\">III</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">IV</span>?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giai đoạn I &amp; Giai đoạn II (u ngoại vi):</b> <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật triệt căn</span> → <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị bổ trợ 6 đợt</span>.<br>2) <b>Giai đoạn II (u trung tâm khó cắt):</b> <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị tiền phẫu 2 – 4 đợt</span> → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt bỏ u</span> → <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị bổ trợ cho đủ 6 đợt</span>.<br>3) <b>Giai đoạn III:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị tiền phẫu 6 đợt</span> → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật lấy tàn tích khối u</span>.<br>4) <b>Giai đoạn IV:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Hóa trị đơn thuần 3 đợt</span> → Sinh thiết đánh giá đáp ứng hóa trị → Nếu có hoại tử u: tiếp tục hóa trị 3 đợt; nếu không đáp ứng: <span style=\"color: #ff6b6b; font-weight: bold;\">chuyển điều trị triệu chứng</span>.<br><br>💡 Giải thích của AI:<br>Mọi trường hợp Hepatoblastoma đều cần tích lũy tổng cộng 6 đợt hóa trị chuẩn (ngoại trừ GĐ IV không đáp ứng chuyển điều trị triệu chứng).",
+      "extra": "[B7.06]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Phac-do",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Giai-doan"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-01",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy bỏ sót HCC giai đoạn sớm",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân có xơ gan HBV mạn tính đến khám với lý do đau tức vùng gan, vàng da rõ và cổ trướng — liệu có thể đặt mục tiêu phẫu thuật triệt căn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bẫy lâm sàng:</b> Tuyệt đối không — khi xuất hiện các triệu chứng rầm rộ (vàng da, cổ trướng, suy kiệt) thì u thường đã ở giai đoạn muộn và <span style=\"color: #ff6b6b; font-weight: bold;\">hết khả năng điều trị khỏi</span>.<br>2) <b>Hành động đúng:</b> Muốn phát hiện sớm phải chủ động <span style=\"color: #51cf66; font-weight: bold;\">siêu âm gan định kỳ 3–6 tháng/lần</span> ở nhóm có nguy cơ cao để phát hiện u kích thước nhỏ <span style=\"color: #ffd43b; font-weight: bold;\">≥ 1 cm</span>.<br><br>💡 Giải thích của AI:<br>Chẩn đoán sớm HCC là cuộc rượt đuổi chủ động bằng siêu âm định kỳ trên người lành mang virus, không thể chờ bệnh nhân có triệu chứng mới đi khám.",
+      "extra": "[B1.01, B1.02]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Bay-lam-sang",
+        "Ngoai::Tam-soat-som",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-02",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy nhầm lẫn đáp ứng hóa trị HCC vs Hepatoblastoma",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Một bác sĩ đề xuất chỉ định đa hóa trị toàn thân cho bệnh nhân ung thư biểu mô tế bào gan (HCC) giai đoạn tiến triển tương tự như phác đồ ung thư nguyên bào gan trẻ em — sai lầm ở đâu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bẫy nhầm lẫn:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">HCC gần như không đáp ứng với hóa trị toàn thân</span>, trong khi Hepatoblastoma <span style=\"color: #51cf66; font-weight: bold;\">rất nhạy cảm với hóa chất</span> (nhờ tính chất nguyên bào bào thai chưa biệt hóa).<br>2) <b>Phương án chuẩn:</b> Với HCC tiến triển không cắt được, can thiệp chuẩn là <span style=\"color: #ffd43b; font-weight: bold;\">TACE</span>, <span style=\"color: #ffd43b; font-weight: bold;\">điều trị đích (Sorafenib)</span> hoặc <span style=\"color: #ffd43b; font-weight: bold;\">RFA/PEI</span>, không dùng hóa trị toàn thân kinh điển.<br><br>💡 Giải thích của AI:<br>Đây là một trong những câu hỏi bẫy kinh điển phân biệt bản chất sinh học hoàn toàn đối lập giữa ung thư biểu mô gan người lớn và ung thư nguyên bào gan trẻ nhỏ.",
+      "extra": "[B0.06, B5.07]",
+      "tags": [
+        "Ngoai::SURG-31::B0",
+        "Tier-1",
+        "Ngoai::Bay-lam-sang",
+        "Ngoai::Hoa-tri",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-03",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy loại trừ ung thư khi AFP bình thường",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân nam 55 tuổi có HBsAg(+), siêu âm thấy khối giảm âm ở hạ phân thùy VI đường kính 2,5 cm, nhưng xét nghiệm AFP chỉ 12 ng/ml (bình thường). Có được kết luận loại trừ ung thư gan?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bẫy lâm sàng:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tuyệt đối không được loại trừ ung thư</span> — khoảng 30% bệnh nhân HCC có AFP không tăng cao hoặc âm tính.<br>2) <b>Hành động đúng:</b> Bệnh nhân có khối u gan kèm HBsAg(+) dù AFP âm tính vẫn phải chỉ định <span style=\"color: #51cf66; font-weight: bold;\">chụp CT Scanner gan đa dãy (tìm dấu hiệu wash-out)</span> và <span style=\"color: #51cf66; font-weight: bold;\">sinh thiết kim Menghini dưới hướng dẫn siêu âm</span> để xác định chẩn đoán.<br><br>💡 Giải thích của AI:<br>Công thức chẩn đoán thứ 2: Hình ảnh khối u + Sinh thiết HCC = Ung thư gan. Không phụ thuộc hoàn toàn vào AFP đơn độc.",
+      "extra": "[B1.05, B1.06, B1.07]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Bay-lam-sang",
+        "Ngoai::AFP-am-tinh",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-04",
+      "type": "basic",
+      "topic": "Bẫy: Bẫy chống chỉ định tiêm cồn Ethanol (PEI)",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Tại sao không được chỉ định tiêm cồn tuyệt đối (PEI) cho khối u gan nằm sát bề mặt bao gan hoặc ở bệnh nhân có cổ trướng nhiều và rối loạn đông máu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khối u sát bao gan / rốn gan:</b> Cồn 99% dễ tràn ra bao gan gây <span style=\"color: #ff6b6b; font-weight: bold;\">đau chói dữ dội, sốc phản vệ, viêm phúc mạc hóa chất</span> hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">hoại tử cuống mạch và đường mật chính</span>.<br>2) <b>Cổ trướng nhiều &amp; Rối loạn đông máu:</b> Cổ trướng làm cồn bị pha loãng mất tác dụng; rối loạn đông máu làm tăng nguy cơ <span style=\"color: #ff6b6b; font-weight: bold;\">chảy máu trong ổ bụng không cầm được</span> khi đâm kim qua da.<br><br>💡 Giải thích của AI:<br>Chỉ định PEI lý tưởng: u ≤ 3 khối, đường kính < 3 cm, nằm sâu trong nhu mô gan xa bao gan và rốn gan.",
+      "extra": "[B5.04]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::Bay-lam-sang",
+        "Ngoai::PEI",
+        "Ngoai::Chong-chi-dinh",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-05",
+      "type": "basic",
+      "topic": "Bẫy: Cờ đỏ — Bẫy chỉ định TACE khi có Huyết khối Tĩnh mạch cửa",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân HCC nhiều ổ, Child-Pugh A, CT Scanner phát hiện có huyết khối xâm lấn thân chính tĩnh mạch cửa. Tại sao tuyệt đối chống chỉ định làm TACE?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cờ đỏ sinh lý bệnh:</b> Tế bào gan được cấp máu kép (75% từ TM cửa, 25% từ ĐM gan). Khi đã có <span style=\"color: #ff6b6b; font-weight: bold;\">huyết khối tĩnh mạch cửa</span>, nhu mô gan sống dựa vào động mạch gan.<br>2) <b>Tai biến nếu làm TACE:</b> Bơm hóa dầu nút tắc động mạch gan sẽ làm <span style=\"color: #ff6b6b; font-weight: bold;\">hoại tử toàn bộ nhu mô gan cấp tính</span>, dẫn tới suy gan bùng phát và tử vong nhanh chóng.<br>3) <b>Hướng xử trí đúng:</b> Chuyển sang <span style=\"color: #51cf66; font-weight: bold;\">Xạ trị ngoài liều 60–70 Gy</span> hoặc <span style=\"color: #51cf66; font-weight: bold;\">Điều trị đích (Sorafenib)</span>.<br><br>💡 Giải thích của AI:<br>Huyết khối tĩnh mạch cửa là cờ đỏ tối khẩn cấp loại trừ hoàn toàn chỉ định làm hóa dầu nút mạch TACE.",
+      "extra": "[B5.07, B7.05]",
+      "tags": [
+        "Ngoai::SURG-31::B5",
+        "Tier-1",
+        "Ngoai::Co-do",
+        "Ngoai::TACE",
+        "Ngoai::Huyet-khoi-TM-cua",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG31-TRAP-06",
+      "type": "basic",
+      "topic": "Bẫy: Cờ đỏ — Chỉ định phẫu thuật cắt gan ở bệnh nhân Child-Pugh C",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân HCC đơn độc kích thước 3 cm ở hạ phân thùy VI, nhưng xét nghiệm có Bilirubin 65 µmol/L, Albumin 24 g/L, cổ trướng nhiều (++) — đạt 11 điểm Child-Pugh C. Có nên chỉ định mổ cắt u?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cờ đỏ chống chỉ định mổ:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tuyệt đối chống chỉ định phẫu thuật cắt gan</span> — bệnh nhân xơ gan Child-Pugh C (≥ 10 điểm) không còn dự trữ chức năng gan.<br>2) <b>Nguy cơ chu phẫu:</b> Bất kỳ can thiệp phẫu thuật cắt gan nào cũng gây <span style=\"color: #ff6b6b; font-weight: bold;\">suy gan cấp mất bù, hôn mê gan và tử vong</span> trên bàn mổ hoặc hậu phẫu sớm.<br>3) <b>Phương án chuẩn:</b> Chỉ <span style=\"color: #ffd43b; font-weight: bold;\">điều trị triệu chứng / chăm sóc giảm nhẹ</span> hoặc xem xét <span style=\"color: #51cf66; font-weight: bold;\">ghép gan</span> nếu khối u thỏa mãn tiêu chuẩn Milan.<br><br>💡 Giải thích của AI:<br>Tiêu chuẩn phẫu thuật cắt gan trong barem yêu cầu rõ: Child-Pugh A tốt hơn B; Child-Pugh C hoàn toàn chuyển sang điều trị giảm nhẹ.",
+      "extra": "[B2.01, B5.01, B7.03]",
+      "tags": [
+        "Ngoai::SURG-31::B2",
+        "Tier-1",
+        "Ngoai::Co-do",
+        "Ngoai::Child-C",
+        "Ngoai::Chong-chi-dinh",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG31-ALGO-01",
+      "type": "basic",
+      "topic": "Thuật toán: Thuật toán tiếp cận chẩn đoán xác định khối u gan trên nền bệnh gan mạn",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Chẩn đoán khối u gan</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Thuật toán tiếp cận chẩn đoán xác định khối u gan trên nền bệnh gan mạn</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bước 1 — Phát hiện u:</b> Siêu âm gan phát hiện khối u <span style=\"color: #ffd43b; font-weight: bold;\">≥ 1 cm</span> (tìm dấu hiệu quầng giảm âm quanh u, Doppler màu loại trừ u máu).<br>2) <b>Bước 2 — Định danh huyết thanh:</b> Định lượng <span style=\"color: #51cf66; font-weight: bold;\">AFP</span> và kháng nguyên bề mặt <span style=\"color: #51cf66; font-weight: bold;\">HBsAg</span>. Nếu khối u gan kèm <span style=\"color: #51cf66; font-weight: bold;\">AFP > 200 ng/ml</span> → Chẩn đoán xác định <span style=\"color: #51cf66; font-weight: bold;\">Ung thư biểu mô tế bào gan (HCC)</span>.<br>3) <b>Bước 3 — Khảo sát mạch máu:</b> Chụp <span style=\"color: #74c0fc; font-weight: bold;\">CT Scanner gan</span> tìm dấu hiệu ngấm nhanh thì ĐM và thải nhanh thì TM (<span style=\"color: #ffd43b; font-weight: bold;\">wash-out</span>), định khu hạ phân thùy, kiểm tra huyết khối TM cửa.<br>4) <b>Bước 4 — Sinh thiết khi AFP âm tính:</b> Nếu u nghi ngờ nhưng AFP ≤ 200 ng/ml → Chỉ định <span style=\"color: #51cf66; font-weight: bold;\">sinh thiết kim Menghini</span> dưới hướng dẫn siêu âm (hoặc mổ thăm dò sinh thiết tức thì).<br><br>💡 Giải thích của AI:<br>Hai công thức thực tế trong barem: U gan + AFP > 200 ng/ml = HCC; U gan + Sinh thiết HCC = Ung thư gan.",
+      "extra": "[B1.03, B1.04, B1.05, B1.06, B1.07]",
+      "tags": [
+        "Ngoai::SURG-31::B1",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Chan-doan-u-gan",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG31-ALGO-02",
+      "type": "basic",
+      "topic": "Thuật toán: Thuật toán phân tầng xử trí HCC theo giai đoạn TNM, Child-Pugh và tuổi bệnh nhân",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Lựa chọn phương pháp điều trị HCC</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Thuật toán phân tầng xử trí HCC theo giai đoạn TNM, Child-Pugh và tuổi bệnh nhân</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhánh 1 — T1-2 N0 M0 / Child-Pugh A, B:</b><br>   • Không bệnh nội khoa nặng, tuổi < 75 → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt gan triệt căn</span>.<br>   • Có bệnh nội khoa nặng, tuổi > 75 hoặc từ chối mổ → <span style=\"color: #ffd43b; font-weight: bold;\">Tiêm cồn PEI hoặc Đốt sóng cao tần RFA</span>.<br>2) <b>Nhánh 2 — T3 N0 M0 / Child-Pugh A, B:</b> → <span style=\"color: #ffd43b; font-weight: bold;\">Tiêm cồn PEI hoặc Hóa dầu nút mạch TACE</span>.<br>3) <b>Nhánh 3 — U nhiều ổ (Child-Pugh A, B):</b><br>   • Chưa có huyết khối TM cửa: Cùng phân thùy → <span style=\"color: #51cf66; font-weight: bold;\">Cắt phân thùy</span>; khác phân thùy → <span style=\"color: #ffd43b; font-weight: bold;\">TACE + PEI u < 3cm</span>.<br>   • Đã có huyết khối TM cửa → <span style=\"color: #ff6b6b; font-weight: bold;\">Xạ trị ngoài liều 60–70 Gy hoặc Điều trị đích Sorafenib</span>.<br>4) <b>Nhánh 4 — Giai đoạn muộn (T4, N1, M1) hoặc Child-Pugh C:</b> → <span style=\"color: #ff6b6b; font-weight: bold;\">Điều trị triệu chứng / Chăm sóc giảm nhẹ</span>.<br><br>💡 Giải thích của AI:<br>Thuật toán bám sát 100% sơ đồ phác đồ tổng quát trong bài học, thể hiện sự phối hợp chặt chẽ giữa ngoại khoa, can thiệp mạch và chăm sóc giảm nhẹ.",
+      "extra": "[B7.01, B7.02, B7.03, B7.04, B7.05]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Dieu-tri-HCC",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG31-ALGO-03",
+      "type": "basic",
+      "topic": "Thuật toán: Thuật toán xử trí đa mô thức Ung thư nguyên bào gan theo 4 giai đoạn phân loại Nhi khoa 1995",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Bậc thang điều trị Ung thư nguyên bào gan trẻ em</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Thuật toán xử trí đa mô thức Ung thư nguyên bào gan theo 4 giai đoạn phân loại Nhi khoa 1995</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giai đoạn I &amp; Giai đoạn II ngoại vi:</b> <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt u triệt căn</span> ngay từ đầu → <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị bổ trợ 6 đợt</span> (phác đồ PLADO hoặc Cisplatin + 5-FU + Vincristine).<br>2) <b>Giai đoạn II trung tâm khó cắt:</b> <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị tiền phẫu 2 – 4 đợt</span> làm u co nhỏ → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt bỏ u</span> → <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị bổ trợ đủ 6 đợt</span>.<br>3) <b>Giai đoạn III (sót vi thể hoặc vỡ u trước mổ):</b> <span style=\"color: #ffd43b; font-weight: bold;\">Hóa trị tiền phẫu 6 đợt</span> → <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật lấy tàn tích u</span>.<br>4) <b>Giai đoạn IV (không cắt được hoặc di căn xa):</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Hóa trị đơn thuần 3 đợt</span> → Sinh thiết đánh giá hoại tử u: nếu đáp ứng tốt → Tiếp tục hóa trị 3 đợt; nếu không đáp ứng → <span style=\"color: #ff6b6b; font-weight: bold;\">Chuyển điều trị triệu chứng</span>.<br><br>💡 Giải thích của AI:<br>Chiến lược điều trị nguyên bào gan trẻ em luôn coi hóa trị là chìa khóa then chốt đưa khối u về mức độ an toàn để phẫu thuật viên cắt bỏ sạch sẽ.",
+      "extra": "[B6.01, B6.02, B6.03, B7.06]",
+      "tags": [
+        "Ngoai::SURG-31::B7",
+        "Tier-1",
+        "Ngoai::Thuat-toan",
+        "Ngoai::Hepatoblastoma",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    }
+  ]
+}
