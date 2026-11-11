@@ -1,0 +1,31 @@
+{
+  "id": "SURG-R4",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R4: Suy Hô Hấp Cấp",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T21:12:21",
+  "cards_source": "surgr4_cards_data.py",
+  "cards_source_sha256": "5b6a6e1441109124854dffe79c219521929a054b13937928ee82b4f0da9c57c5",
+  "card_count": 31,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-R4_Suy_ho_hap_cap\\SURG-R4_Suy_ho_hap_cap_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 31,
+    "archived": 127,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 31
+  },
+  "apkg_sha256": "d8bd2da800920990eddf5ea6ffb5dd2b03d8b9d82a816aebe67c5852b776db9e",
+  "sqlite_notes": 31,
+  "sqlite_cards": 45
+}

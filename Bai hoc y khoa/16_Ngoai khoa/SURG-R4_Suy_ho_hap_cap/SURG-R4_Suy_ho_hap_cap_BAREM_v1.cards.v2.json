@@ -1,0 +1,609 @@
+{
+  "deck_id": 7600000000104,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R4: Suy Hô Hấp Cấp",
+  "card_count": 31,
+  "cards": [
+    {
+      "id": "SURGR4-B0-01",
+      "type": "basic",
+      "section": "B0",
+      "topic": "Vị trí dịch tễ cấp cứu & Nguyên tắc song hành của ARF",
+      "tier": 2,
+      "category": "SURG-R4 · B0",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Tổng quan — Tiếp cận ARF]</span> Suy hô hấp cấp (ARF) đứng ở vị trí nào trong hồi sức cấp cứu và yêu cầu xử trí song hành cơ bản là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tầm quan trọng lâm sàng:</b> Là bệnh lý cấp cứu thường gặp nhất tại HSCC và là <span style=\"color: #ff6b6b; font-weight: 600;\">nguyên nhân tử vong hàng đầu</span> của các bệnh nhân nặng.<br>2) <b>Nguyên tắc hành động kép:</b> Can thiệp tức thì song song giữa <span style=\"color: #51cf66; font-weight: 600;\">cấp cứu duy trì oxy não</span> và <span style=\"color: #74c0fc; font-weight: 600;\">đánh giá chẩn đoán nguyên nhân</span>.<br><br>💡 Giải thích của AI:<br>Não chỉ chịu đựng được tình trạng thiếu oxy vài phút trước khi tổn thương không hồi phục; do đó không bao giờ được chờ có phim X-quang hay kết quả khí máu mới bắt đầu cung cấp oxy và khai thông đường thở.",
+      "extra": "[B0.01]",
+      "tags": [
+        "SURG-R4",
+        "B0",
+        "Tong-quan"
+      ]
+    },
+    {
+      "id": "SURGR4-B0-02",
+      "type": "basic",
+      "section": "B0",
+      "topic": "Định nghĩa Suy hô hấp cấp theo ngưỡng Khí máu động mạch",
+      "tier": 1,
+      "category": "SURG-R4 · B0",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Định nghĩa ARF]</span> Định nghĩa Suy hô hấp cấp (ARF) và hai ngưỡng giá trị khí máu động mạch (PaO₂, PaCO₂) xác lập chẩn đoán?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bản chất:</b> Hệ thống hô hấp đột ngột không đảm bảo trao đổi khí bình thường, gây rối loạn nghiêm trọng hoạt động tế bào và tạng.<br>2) <b>Ngưỡng thiếu oxy máu:</b> <span style=\"color: #ff6b6b; font-weight: 600;\">PaO₂ < 60 mmHg</span>.<br>3) <b>Ngưỡng ứ carbonic (kèm hoặc không kèm):</b> <span style=\"color: #ff6b6b; font-weight: 600;\">PaCO₂ ≥ 46 mmHg</span> (toan hô hấp).<br><br>💡 Giải thích của AI:<br>Lấy mốc PaO₂ < 60 mmHg vì trên đường cong phân ly Oxyhemoglobin, từ 60 mmHg trở xuống độ bão hòa oxy (SpO₂ < 90%) bắt đầu lao dốc rất nhanh, đe dọa trực tiếp tế bào não và cơ tim.",
+      "extra": "[B0.02]",
+      "tags": [
+        "SURG-R4",
+        "B0",
+        "Dinh-nghia",
+        "Khi-mau"
+      ]
+    },
+    {
+      "id": "SURGR4-B1-01",
+      "type": "basic",
+      "section": "B1",
+      "topic": "3 hệ thống đảm bảo cung cấp O₂ và thải CO₂",
+      "tier": 2,
+      "category": "SURG-R4 · B1",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Sinh lý trao đổi khí]</span> Quá trình đưa O₂ tới tế bào và thải CO₂ ra môi trường ngoài phụ thuộc vào sự toàn vẹn của 3 hệ thống nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Phổi:</b> Đảm nhận <span style=\"color: #51cf66; font-weight: 600;\">thông khí</span> và <span style=\"color: #51cf66; font-weight: 600;\">khuếch tán khí</span> qua màng phế nang – mao mạch.<br>2) <b>Tuần hoàn:</b> Vận chuyển khí <span style=\"color: #74c0fc; font-weight: 600;\">O₂ và CO₂</span> giữa phổi và các mô.<br>3) <b>Mô / Tế bào:</b> Tách O₂ từ hồng cầu để tiêu thụ và thải CO₂ vào máu.<br><br>💡 Giải thích của AI:<br>Suy hô hấp thực tế không chỉ xảy ra khi hỏng phổi (bộ trao đổi khí), mà còn sụp đổ nếu tuần hoàn ngừng bơm hoặc tế bào bị ngộ độc không tách/tiêu thụ được oxy.",
+      "extra": "[B1.01]",
+      "tags": [
+        "SURG-R4",
+        "B1",
+        "Sinh-ly"
+      ]
+    },
+    {
+      "id": "SURGR4-B1-02",
+      "type": "basic",
+      "section": "B1",
+      "topic": "5 cơ chế gây giảm Oxy máu (PaO₂ < 60 mmHg) & Đáp ứng với FiO₂",
+      "tier": 1,
+      "category": "SURG-R4 · B1",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Sinh lý bệnh — Giảm Oxy máu]</span> Trình bày 5 cơ chế làm giảm PaO₂, nêu cơ chế hay gặp nhất và cơ chế không đáp ứng oxy đơn thuần khi shunt > 30%?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Shunt phải–trái trong phổi (V/Q = 0):</b> Máu tĩnh mạch qua phế nang không thông khí (xẹp phổi, đông đặc, phù phổi cấp, ARDS) — <span style=\"color: #ff6b6b; font-weight: 600;\">không đáp ứng oxy đơn thuần khi shunt > 30% cung lượng tim</span>.<br>2) <b>Bất tương xứng thông khí/tưới máu (V/Q không đều):</b> <span style=\"color: #51cf66; font-weight: 600;\">Cơ chế hay gặp nhất</span> (COPD, hen, tắc mạch phổi) — <span style=\"color: #51cf66; font-weight: 600;\">đáp ứng tốt khi tăng FiO₂</span>.<br>3) <b>Giảm thông khí phế nang:</b> PaO₂ giảm kèm PaCO₂ tăng tỷ lệ thuận (thuốc ức chế hô hấp, tổn thương tủy, nhược cơ); oxy cao có thể gây ngừng thở.<br>4) <b>Rối loạn khuếch tán màng phế nang–mao mạch:</b> Hiếm gặp đơn thuần (xơ phổi kẽ tiến triển, tổn thương màng mao mạch nặng).<br>5) <b>Giảm áp lực oxy khí thở vào:</b> Vùng núi cao hoặc môi trường kín thiếu dưỡng khí.<br><br>💡 Giải thích của AI:<br>Phân biệt Shunt (V/Q = 0) với V/Q không đều giải thích trực tiếp lựa chọn phương tiện: V/Q không đều chỉ cần tăng FiO₂ qua kính mũi là cải thiện, còn Shunt lớn (>30%) bắt buộc phải dùng áp lực dương (CPAP/PEEP) mở lại phế nang xẹp.",
+      "extra": "[B1.02]",
+      "tags": [
+        "SURG-R4",
+        "B1",
+        "Sinh-ly-benh",
+        "Shunt"
+      ]
+    },
+    {
+      "id": "SURGR4-B1-03",
+      "type": "basic",
+      "section": "B1",
+      "topic": "3 cơ chế gây tăng CO₂ máu (PaCO₂ ≥ 46 mmHg)",
+      "tier": 2,
+      "category": "SURG-R4 · B1",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Sinh lý bệnh — Tăng CO₂]</span> Ba nhóm cơ chế chính dẫn đến tình trạng tăng CO₂ máu (PaCO₂ ≥ 46 mmHg) là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giảm thông khí phút (Minute Ventilation):</b> Giảm thể tích khí lưu thông hoặc giảm tần số thở.<br>2) <b>Tăng khoảng chết (Dead space):</b> Khí vào vùng phổi được thông khí nhưng không có tưới máu trao đổi.<br>3) <b>Tăng sản xuất CO₂ quá mức:</b> Sốt cao, co giật liên tục, sốc nhiễm khuẩn hoặc <span style=\"color: #ffd43b; font-weight: 600;\">truyền quá nhiều carbohydrate</span>.<br><br>💡 Giải thích của AI:<br>Ở bệnh nhân có thông khí hạn chế (COPD nặng, đang cai máy thở), truyền năng lượng quá giàu glucose/carbohydrate làm tăng hệ số hô hấp (RQ = 1), sinh CO₂ đột biến đẩy PaCO₂ vọt tăng và khó cai máy.",
+      "extra": "[B1.03]",
+      "tags": [
+        "SURG-R4",
+        "B1",
+        "Sinh-ly-benh",
+        "CO2"
+      ]
+    },
+    {
+      "id": "SURGR4-B2-01",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Tuýp 1 (Hypoxemic) vs Tuýp 2 (Hypercapnic) theo PaCO₂ & P(A-a)O₂",
+      "tier": 1,
+      "category": "SURG-R4 · B2",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân loại Khí máu — Tuýp 1 vs Tuýp 2]</span> So sánh sự biến đổi PaO₂, PaCO₂, P(A-a)O₂ và nhóm bệnh điển hình giữa Suy hô hấp Tuýp 1 và Tuýp 2?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tuýp 1 (Giảm trao đổi Oxy / Hypoxemic):</b> PaO₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↓</span>, PaCO₂ <span style=\"color: #51cf66; font-weight: 600;\">↓ hoặc Bình thường</span>, chênh áp phế nang–mao mạch P(A-a)O₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↑</span>. Do rối loạn V/Q hoặc Shunt (ARDS, phù phổi cấp, viêm phổi nặng, xẹp phổi, tràn khí màng phổi, nhồi máu phổi).<br>2) <b>Tuýp 2 (Giảm thông khí / Hypercapnic):</b> PaO₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↓</span>, PaCO₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↑</span>, P(A-a)O₂ <span style=\"color: #51cf66; font-weight: 600;\">Bình thường</span>. Do ức chế trung tâm hô hấp (tai biến mạch não, quá liều Opioid/Seduxen), liệt cơ (Guillain-Barré, nhược cơ, tủy sống cổ), mảng sườn di động.<br><br>💡 Giải thích của AI:<br>Chỉ số vàng tách biệt hai tuýp trên khí máu là P(A-a)O₂: nếu nhu mô phổi còn nguyên vẹn và chỉ hỏng 'bơm thông khí' (Tuýp 2), hiệu áp phế nang–mao mạch P(A-a)O₂ vẫn bình thường.",
+      "extra": "[B2.01, B2.02]",
+      "tags": [
+        "SURG-R4",
+        "B2",
+        "Phan-loai",
+        "Khi-mau"
+      ]
+    },
+    {
+      "id": "SURGR4-B2-02",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Tuýp 3 (Suy hô hấp hỗn hợp) & Ví dụ lâm sàng kinh điển",
+      "tier": 2,
+      "category": "SURG-R4 · B2",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân loại Khí máu — Tuýp 3]</span> Đặc điểm bộ ba khí máu (PaO₂, PaCO₂, P(A-a)O₂) và các bệnh cảnh thường gặp của Suy hô hấp Tuýp 3 (Hỗn hợp)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bộ ba khí máu Tuýp 3:</b> PaO₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↓</span> + PaCO₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↑</span> + P(A-a)O₂ <span style=\"color: #ff6b6b; font-weight: 600;\">↑</span> (tổn thương đồng thời cả màng trao đổi khí lẫn thông khí phế nang).<br>2) <b>Bệnh cảnh điển hình:</b> <span style=\"color: #ffd43b; font-weight: 600;\">Đợt cấp COPD mất bù</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">hen phế quản ác tính</span>, và suy hô hấp sau mổ ở bệnh nhân có bệnh phổi tắc nghẽn mạn tính từ trước.<br><br>💡 Giải thích của AI:<br>Khác với Tuýp 2 thuần túy (P(A-a)O₂ bình thường), Tuýp 3 vừa tăng CO₂ do kiệt sức cơ hô hấp / tắc nghẽn đường thở vừa tăng P(A-a)O₂ do phá hủy phế nang – bất tương xứng V/Q nặng.",
+      "extra": "[B2.03]",
+      "tags": [
+        "SURG-R4",
+        "B2",
+        "Phan-loai",
+        "COPD"
+      ]
+    },
+    {
+      "id": "SURGR4-B3-01",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Khó thở & Tím tái (Ngưỡng Hb khử > 5 g/dL & 2 Ngoại lệ)",
+      "tier": 1,
+      "category": "SURG-R4 · B3",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Lâm sàng — Khó thở & Tím tái]</span> Đặc điểm triệu chứng nhạy nhất (Khó thở) và quy luật xuất hiện Tím tái kèm 2 trường hợp thiếu oxy nặng nhưng KHÔNG tím?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khó thở (nhạy nhất & sớm nhất):</b> Thở nhanh <span style=\"color: #ff6b6b; font-weight: 600;\">> 25 lần/phút</span> hoặc chậm <span style=\"color: #ff6b6b; font-weight: 600;\">< 12 lần/phút</span>, thở nghịch thường cơ hoành, co kéo hõm ức và các cơ hô hấp phụ.<br>2) <b>Tím tái:</b> Chỉ hiện rõ khi nồng độ <span style=\"color: #74c0fc; font-weight: 600;\">Hemoglobin khử trong máu mao mạch > 5 g/dL</span> (tím môi và đầu chi sớm, tím toàn thân muộn).<br>3) <b>Hai ngoại lệ không thấy tím:</b> Bệnh nhân <span style=\"color: #ff6b6b; font-weight: 600;\">thiếu máu nặng</span> (tổng Hb quá thấp không đủ tạo > 5 g/dL Hb khử) và <span style=\"color: #ff6b6b; font-weight: 600;\">ngộ độc CO</span> (tạo Carboxyhemoglobin màu đỏ anh đào).<br><br>💡 Giải thích của AI:<br>Tình huống kinh điển dễ bị đánh lừa: bệnh nhân mất máu sau mổ kèm viêm phổi thiếu oxy trầm trọng nhưng da vẫn hồng nhạt do Hb chỉ còn 4–5 g/dL — tuyệt đối không dựa vào 'chưa tím' để chủ quan!",
+      "extra": "[B3.01]",
+      "tags": [
+        "SURG-R4",
+        "B3",
+        "Lam-sang",
+        "Tim-tai"
+      ]
+    },
+    {
+      "id": "SURGR4-B3-02",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Rối loạn Tim mạch & Thần kinh – Ý thức (Dấu hiệu nặng)",
+      "tier": 2,
+      "category": "SURG-R4 · B3",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Lâm sàng — Tim mạch & Thần kinh]</span> Hệ tim mạch và thần kinh – ý thức diễn tiến qua những giai đoạn nào khi suy hô hấp cấp nặng dần?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tim mạch:</b> Ban đầu mạch nhanh <span style=\"color: #ffd43b; font-weight: 600;\">> 100 – 140 lần/phút</span>, huyết áp tăng cao do tăng tiết Catecholamine phản xạ; sang giai đoạn nguy kịch thì <span style=\"color: #ff6b6b; font-weight: 600;\">tụt huyết áp, loạn nhịp tim hoặc ngừng tuần hoàn</span>.<br>2) <b>Thần kinh – Ý thức (Dấu hiệu nặng):</b> Ban đầu lo lắng hốt hoảng, vã mồ hôi; sau đó <span style=\"color: #ff6b6b; font-weight: 600;\">lờ đờ, lú lẫn, ngủ gà, hôn mê và co giật</span> do phù não vì tăng CO₂ và toan máu nặng.<br><br>💡 Giải thích của AI:<br>Ở bệnh nhân suy hô hấp, huyết áp bắt đầu tụt và tri giác chuyển từ kích thích sang ngủ gà / lơ mơ không phải là 'đang dịu lại' mà là dấu báo động não mất bù và sắp ngừng thở – ngừng tim.",
+      "extra": "[B3.02]",
+      "tags": [
+        "SURG-R4",
+        "B3",
+        "Lam-sang",
+        "Nguy-kich"
+      ]
+    },
+    {
+      "id": "SURGR4-B4-01",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Phân tầng 6 tiêu chí Lâm sàng: Trung bình / Nặng / Nguy kịch",
+      "tier": 1,
+      "category": "SURG-R4 · B4",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân tầng — Lâm sàng]</span> Phân biệt 3 mức độ suy hô hấp (Trung bình, Nặng, Nguy kịch) qua 6 tiêu chí: Glasgow, Tim, Thở, Khả năng nói, Tím tái và Huyết áp?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Glasgow:</b> TB <span style=\"color: #51cf66; font-weight: 600;\">15đ</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">13–15đ (kích thích)</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">< 13đ, lờ đờ, hôn mê</span>.<br>2) <b>Mạch (/phút):</b> TB <span style=\"color: #51cf66; font-weight: 600;\">100–120</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">120–140</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">> 140 hoặc chậm rời rạc</span>.<br>3) <b>Nhịp thở (/phút):</b> TB <span style=\"color: #51cf66; font-weight: 600;\">25–30</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">30–40</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">> 40 hoặc < 10 (thở ngáp)</span>.<br>4) <b>Lời nói & Tím tái:</b> TB <span style=\"color: #51cf66; font-weight: 600;\">câu dài / (+) môi</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">câu ngắn ngắt quãng / (++) môi–chi</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">không nói được / (+++) toàn thân</span>.<br>5) <b>Huyết áp:</b> TB <span style=\"color: #51cf66; font-weight: 600;\">Bình thường</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">Tăng cao</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">Tụt huyết áp</span>.<br><br>💡 Giải thích của AI:<br>Bước chuyển từ 'Tăng huyết áp + kích thích + câu ngắn' (Nặng) sang 'Tụt huyết áp + thở chậm <10/ngáp + không nói được + lờ đờ' (Nguy kịch) là lằn ranh cuối phải đặt nội khí quản hoặc bóp bóng ngay.",
+      "extra": "[B4.01]",
+      "tags": [
+        "SURG-R4",
+        "B4",
+        "Phan-do",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "SURGR4-B4-02",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Phân tầng 3 tiêu chí Khí máu: Trung bình / Nặng / Nguy kịch",
+      "tier": 1,
+      "category": "SURG-R4 · B4",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Phân tầng — Khí máu động mạch]</span> Các mốc giá trị pH, PaO₂ và PaCO₂ tương ứng với 3 mức độ suy hô hấp cấp (Trung bình, Nặng, Nguy kịch) là bao nhiêu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>pH máu:</b> Trung bình <span style=\"color: #51cf66; font-weight: 600;\">7,35 – 7,45</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">7,25 – 7,35</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">< 7,25</span>.<br>2) <b>PaO₂ (mmHg):</b> Trung bình <span style=\"color: #51cf66; font-weight: 600;\">> 60</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">55 – 60</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">< 55</span>.<br>3) <b>PaCO₂ (mmHg):</b> Trung bình <span style=\"color: #51cf66; font-weight: 600;\">45 – 55</span> · Nặng <span style=\"color: #ffd43b; font-weight: 600;\">55 – 60</span> · Nguy kịch <span style=\"color: #ff6b6b; font-weight: 600;\">> 60</span>.<br><br>💡 Giải thích của AI:<br>Điểm cắt pH < 7,25 của mức độ Nguy kịch khớp trực tiếp với một trong 5 chỉ định đặt ống nội khí quản khẩn cấp trong bài.",
+      "extra": "[B4.02]",
+      "tags": [
+        "SURG-R4",
+        "B4",
+        "Phan-do",
+        "Khi-mau"
+      ]
+    },
+    {
+      "id": "SURGR4-B4-03",
+      "type": "cloze",
+      "section": "B4",
+      "topic": "Cloze: Ngưỡng Khí máu & Lâm sàng phân mức Nguy kịch",
+      "tier": 1,
+      "category": "SURG-R4 · B4",
+      "badge": "Cloze",
+      "badge_class": "badge-blue",
+      "text": "<span style=\"color: #74c0fc; font-weight: 600;\">[Mốc Nguy kịch ARF]</span> Định nghĩa suy hô hấp cấp dựa trên ngưỡng {{c1::<span style=\"color: #ff6b6b; font-weight: 600;\">PaO₂ < 60 mmHg</span>}} kèm hoặc không kèm tăng carbonic {{c2::<span style=\"color: #ff6b6b; font-weight: 600;\">PaCO₂ ≥ 46 mmHg</span>}}. Tím tái xuất hiện trên lâm sàng khi Hemoglobin khử mao mạch vượt quá {{c3::<span style=\"color: #ff6b6b; font-weight: 600;\">5 g/dL</span>}}. Mức độ Nguy kịch được xác lập khi Glasgow {{c4::<span style=\"color: #ff6b6b; font-weight: 600;\">< 13 điểm</span>}}, nhịp thở > 40 hoặc {{c5::<span style=\"color: #ff6b6b; font-weight: 600;\">< 10 lần/phút (thở ngáp)</span>}}, đồng thời trên khí máu có pH {{c6::<span style=\"color: #ff6b6b; font-weight: 600;\">< 7,25</span>}}, PaO₂ {{c7::<span style=\"color: #ff6b6b; font-weight: 600;\">< 55 mmHg</span>}} và PaCO₂ {{c8::<span style=\"color: #ff6b6b; font-weight: 600;\">> 60 mmHg</span>}}.",
+      "extra": "[B0.02, B3.01, B4.01, B4.02]",
+      "tags": [
+        "SURG-R4",
+        "B4",
+        "Cloze",
+        "Phan-do",
+        "Cloze"
+      ]
+    },
+    {
+      "id": "SURGR4-B5-01",
+      "type": "basic",
+      "section": "B5",
+      "topic": "4 biện pháp Khai thông đường dẫn khí (Airway) ban đầu",
+      "tier": 1,
+      "category": "SURG-R4 · B5",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Xử trí — Đường thở]</span> Bốn thao tác khai thông đường dẫn khí ban đầu trước khi quyết định đặt ống nội khí quản gồm những gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tư thế đầu – thân:</b> Đặt nằm ngửa ưỡn cổ (<span style=\"color: #ff6b6b; font-weight: 600;\">chỉ khi không có chấn thương cột sống cổ</span>) hoặc nằm nghiêng an toàn tránh hít sặc dịch nôn.<br>2) <b>Dụng cụ chống tụt lưỡi:</b> Đặt <span style=\"color: #51cf66; font-weight: 600;\">canun Guedel / Mayo</span> miệng – họng.<br>3) <b>Làm sạch đường thở:</b> Hút sạch đờm dãi và chất nôn trong họng miệng.<br>4) <b>Giải phóng dị vật:</b> Thực hiện <span style=\"color: #ffd43b; font-weight: 600;\">thủ thuật Heimlich</span> ngay nếu nghi ngờ tắc dị vật đường thở.<br><br>💡 Giải thích của AI:<br>Với nạn nhân đa chấn thương vùng đầu – cổ, tuyệt đối không ngửa cổ tối đa mà phải dùng thủ thuật nâng hàm (jaw thrust) giữ thẳng trục cột sống cổ trong khi đặt canun và hút đờm.",
+      "extra": "[B5.01]",
+      "tags": [
+        "SURG-R4",
+        "B5",
+        "Airway",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR4-B5-02",
+      "type": "basic",
+      "section": "B5",
+      "topic": "5 Chỉ định đặt ống Nội khí quản (Intubation) khẩn cấp",
+      "tier": 1,
+      "category": "SURG-R4 · B5",
+      "badge": "🔴 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Xử trí — Đặt Nội khí quản]</span> Nêu chính xác 5 chỉ định bắt buộc phải đặt ống nội khí quản khẩn cấp ở bệnh nhân suy hô hấp cấp?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tắc nghẽn đường thở trên:</b> Không xử trí được bằng canun miệng – họng.<br>2) <b>Mất phản xạ bảo vệ đường thở:</b> Thang điểm <span style=\"color: #ff6b6b; font-weight: 600;\">Glasgow < 8 điểm</span>.<br>3) <b>Ứ trệ tiết:</b> Mất khả năng tự tống xuất đờm dãi.<br>4) <b>Thiếu oxy trơ:</b> Thiếu oxy máu nặng không đáp ứng với thở oxy lưu lượng cao qua mask.<br>5) <b>Toan hô hấp nặng:</b> Giảm thông khí nặng kèm toan hô hấp cấp với <span style=\"color: #ff6b6b; font-weight: 600;\">pH < 7,25</span>.<br><br>💡 Giải thích của AI:<br>Khi có một trong 5 tiêu chí trên (đặc biệt Glasgow < 8 hoặc pH < 7,25), việc trì hoãn bằng thở mask hay CPAP/BiPAP dễ làm bệnh nhân ngừng thở đột ngột hoặc hít sặc nặng.",
+      "extra": "[B5.02]",
+      "tags": [
+        "SURG-R4",
+        "B5",
+        "Noi-khi-quan",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR4-B6-01",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Mục tiêu SpO₂ / PaO₂ thông thường & Thở oxy trong rối loạn V/Q",
+      "tier": 1,
+      "category": "SURG-R4 · B6",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #51cf66; font-weight: 600;\">[Xử trí — Liệu pháp Oxy]</span> Mục tiêu đích oxy máu ở bệnh nhân suy hô hấp thông thường và phương thức khởi đầu cho cơ chế bất tương xứng V/Q?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mục tiêu đích thông thường:</b> Duy trì <span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 92 – 95%</span> tương ứng <span style=\"color: #51cf66; font-weight: 600;\">PaO₂ 60 – 80 mmHg</span>.<br>2) <b>Nhóm bất tương xứng V/Q (hen, viêm phổi, SHH thông thường):</b> Bắt đầu thở oxy qua <span style=\"color: #74c0fc; font-weight: 600;\">kính mũi 1 – 4 lít/phút</span> (<span style=\"color: #74c0fc; font-weight: 600;\">FiO₂ ≈ 0,24 – 0,4</span>).<br><br>💡 Giải thích của AI:<br>Nhờ nguyên lý cơ chế V/Q không đều rất nhạy với nâng nồng độ oxy phế nang, mức FiO₂ 0,24–0,4 (kính mũi 1–4 L/ph) thường đã đủ đưa SpO₂ vào dải an toàn 92–95%.",
+      "extra": "[B6.01]",
+      "tags": [
+        "SURG-R4",
+        "B6",
+        "Lieu-phap-oxy",
+        "SpO2"
+      ]
+    },
+    {
+      "id": "SURGR4-B6-02",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Oxy kiểm soát trong COPD ứ CO₂ mạn & Chiến lược Shunt phổi lớn",
+      "tier": 1,
+      "category": "SURG-R4 · B6",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Xử trí — COPD & Shunt lớn]</span> Chế độ oxy kiểm soát bắt buộc cho COPD đợt cấp ứ CO₂ mạn khác hoàn toàn với chiến lược Shunt lớn (ARDS / phù phổi cấp nặng) như thế nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>COPD đợt cấp ứ CO₂ mạn:</b> Bắt buộc thở <span style=\"color: #ffd43b; font-weight: 600;\">oxy liều thấp có kiểm soát</span> qua kính mũi <span style=\"color: #ffd43b; font-weight: 600;\">1 – 2 lít/phút</span> hoặc mặt nạ <span style=\"color: #ffd43b; font-weight: 600;\">Venturi FiO₂ ≤ 28 – 32%</span> với đích chỉ cần <span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 88 – 92%</span> (tránh mất kích thích hô hấp do thiếu oxy).<br>2) <b>Shunt trong phổi lớn (ARDS, phù phổi cấp nặng):</b> Thở oxy qua <span style=\"color: #ff6b6b; font-weight: 600;\">mặt nạ có túi dự trữ không thở lại (FiO₂ 60 – 100%)</span>, thở máy không xâm nhập <span style=\"color: #74c0fc; font-weight: 600;\">CPAP / BiPAP</span> hoặc đặt NKQ thở máy bảo vệ phổi với <span style=\"color: #ff6b6b; font-weight: 600;\">PEEP cao</span>.<br><br>💡 Giải thích của AI:<br>Ở người bệnh COPD tăng CO₂ mạn tính, trung tâm hô hấp đã chai với CO₂ và chỉ còn thở nhờ tín hiệu thiếu oxy (hypoxic drive); đồng thời tăng FiO₂ quá mức làm co giãn mạch phổi sai lệch vùng (Haldane & V/Q) đẩy CO₂ vọt lên gây hôn mê tăng CO₂.",
+      "extra": "[B6.02]",
+      "tags": [
+        "SURG-R4",
+        "B6",
+        "COPD",
+        "ARDS",
+        "PEEP"
+      ]
+    },
+    {
+      "id": "SURGR4-B6-03",
+      "type": "cloze",
+      "section": "B6",
+      "topic": "Cloze: Các ngưỡng đích Oxy, Nội khí quản & Phẫu thuật màng phổi",
+      "tier": 1,
+      "category": "SURG-R4 · B6",
+      "badge": "Cloze",
+      "badge_class": "badge-blue",
+      "text": "<span style=\"color: #74c0fc; font-weight: 600;\">[Thông số xử trí ARF]</span> Chỉ định đặt nội khí quản khẩn cấp khi mất phản xạ bảo vệ đường thở với {{c1::<span style=\"color: #ff6b6b; font-weight: 600;\">Glasgow < 8 điểm</span>}} hoặc toan hô hấp cấp {{c2::<span style=\"color: #ff6b6b; font-weight: 600;\">pH < 7,25</span>}}. Đích oxy ở suy hô hấp thông thường là {{c3::<span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 92 – 95%</span>}} tương ứng {{c4::<span style=\"color: #51cf66; font-weight: 600;\">PaO₂ 60 – 80 mmHg</span>}}. Với COPD đợt cấp ứ CO₂ mạn, chỉ đặt mặt nạ Venturi {{c5::<span style=\"color: #ffd43b; font-weight: 600;\">FiO₂ ≤ 28 – 32%</span>}} hướng tới đích {{c6::<span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 88 – 92%</span>}}. Với tràn máu màng phổi đặt ống dẫn lưu cỡ {{c7::<span style=\"color: #74c0fc; font-weight: 600;\">28 – 32 Fr</span>}}, chỉ định mở ngực cầm máu nếu chảy {{c8::<span style=\"color: #ff6b6b; font-weight: 600;\">> 200 ml/giờ trong 3 giờ liên tiếp</span>}}.",
+      "extra": "[B5.02, B6.01, B6.02, B7.02]",
+      "tags": [
+        "SURG-R4",
+        "B6",
+        "Cloze",
+        "Lieu-phap-oxy",
+        "Ngoai-khoa",
+        "Cloze"
+      ]
+    },
+    {
+      "id": "SURGR4-B7-01",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Xử trí Tràn khí màng phổi áp lực & Tràn máu màng phổi",
+      "tier": 1,
+      "category": "SURG-R4 · B7",
+      "badge": "🔴 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">[Cấp cứu lồng ngực]</span> Trình bày mốc giải phẫu xử trí Tràn khí màng phổi áp lực và tiêu chuẩn mở ngực cầm máu trong Tràn máu màng phổi?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tràn khí màng phổi áp lực:</b> Chọc kim giải áp ngay lập tức tại <span style=\"color: #ff6b6b; font-weight: 600;\">khoang liên sườn 2 đường giữa đòn</span>, sau đó đặt ống dẫn lưu màng phổi tại <span style=\"color: #74c0fc; font-weight: 600;\">khoang liên sườn 4–5 đường nách giữa</span> hút liên tục.<br>2) <b>Tràn máu màng phổi:</b> Đặt ống dẫn lưu màng phổi kích thước lớn (<span style=\"color: #74c0fc; font-weight: 600;\">28 – 32 Fr</span>), hồi sức máu và <span style=\"color: #ff6b6b; font-weight: 600;\">mổ nội soi hoặc mở ngực cầm máu khẩn cấp</span> nếu máu chảy <span style=\"color: #ff6b6b; font-weight: 600;\">> 200 ml/giờ trong 3 giờ liên tiếp</span>.<br><br>💡 Giải thích của AI:<br>Trong tràn khí màng phổi áp lực, chọc kim giải áp KLS 2 giữa đòn biến khoang áp lực dương kín thành tràn khí hở tức thì giải phóng chèn ép trung thất trước khi có thời gian chuẩn bị bộ dẫn lưu KLS 4–5.",
+      "extra": "[B7.01, B7.02]",
+      "tags": [
+        "SURG-R4",
+        "B7",
+        "Long-nguc",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR4-B7-02",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Xử trí Mảng sườn di động & Phù phổi cấp huyết động (OAP)",
+      "tier": 1,
+      "category": "SURG-R4 · B7",
+      "badge": "",
+      "badge_class": "",
+      "front": "<span style=\"color: #74c0fc; font-weight: 600;\">[Cấp cứu — Thành ngực & Phù phổi]</span> Phương pháp xử trí đặc hiệu cho Mảng sườn di động và 5 thuốc/biện pháp cấp cứu Phù phổi cấp huyết động (OAP)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mảng sườn di động:</b> Giảm đau vùng ngực (<span style=\"color: #51cf66; font-weight: 600;\">gây tê ngoài màng cứng / tê thần kinh liên sườn</span>), cố định thành ngực hoặc <span style=\"color: #74c0fc; font-weight: 600;\">thở máy áp lực dương nội khí quản (cố định trong)</span>.<br>2) <b>Phù phổi cấp huyết động (OAP):</b> <span style=\"color: #74c0fc; font-weight: 600;\">Thở oxy</span> + <span style=\"color: #51cf66; font-weight: 600;\">Furosemide tiêm tĩnh mạch</span> + <span style=\"color: #51cf66; font-weight: 600;\">Nitroglycerin truyền tĩnh mạch</span> + <span style=\"color: #ffd43b; font-weight: 600;\">Morphine</span> + giảm hậu gánh tim.<br><br>💡 Giải thích của AI:<br>Mảng sườn di động gây hô hấp đảo chiều và lắc lư trung thất rất đau; gây tê cắt đau giúp bệnh nhân dám thở sâu, còn thở máy áp lực dương đóng vai trò chiếc nẹp khí từ bên trong đẩy vững đoạn sườn gãy.",
+      "extra": "[B7.03]",
+      "tags": [
+        "SURG-R4",
+        "B7",
+        "Mang-suon-di-dong",
+        "Phu-phoi-cap"
+      ]
+    },
+    {
+      "id": "SURGR4-ALGO-01",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Đọc nhanh Khí máu động mạch chẩn đoán & phân 3 Tuýp Suy hô hấp",
+      "tier": 1,
+      "category": "SURG-R4 · B2",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Đọc nhanh Khí máu động mạch chẩn đoán & phân 3 Tuýp Suy hô hấp</span><br>Cầm tờ kết quả Khí máu động mạch của bệnh nhân khó thở cấp — Thứ tự đọc từng thông số để chốt Tuýp 1, Tuýp 2 hay Tuýp 3 và đánh giá mức độ Nguy kịch?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Xác lập ARF:</b> Kiểm tra <span style=\"color: #ff6b6b; font-weight: 600;\">PaO₂ < 60 mmHg</span> (giảm oxy) và <span style=\"color: #ff6b6b; font-weight: 600;\">PaCO₂ ≥ 46 mmHg</span> (ứ CO₂).<br>2) <b>Chia Tuýp qua PaCO₂ & P(A-a)O₂:</b><br>   • PaCO₂ ↓/BT + P(A-a)O₂ ↑ → <span style=\"color: #74c0fc; font-weight: 600;\">Tuýp 1 (Giảm oxy — V/Q hoặc Shunt)</span>.<br>   • PaCO₂ ↑ + P(A-a)O₂ Bình thường → <span style=\"color: #ffd43b; font-weight: 600;\">Tuýp 2 (Giảm thông khí / Bơm hô hấp)</span>.<br>   • PaCO₂ ↑ + P(A-a)O₂ ↑ → <span style=\"color: #ff6b6b; font-weight: 600;\">Tuýp 3 (Hỗn hợp — COPD mất bù, hen ác tính)</span>.<br>3) <b>Báo động Nguy kịch:</b> Kiểm tra bộ ba <span style=\"color: #ff6b6b; font-weight: 600;\">pH < 7,25</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">PaO₂ < 55 mmHg</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">PaCO₂ > 60 mmHg</span> để kích hoạt đặt NKQ khẩn.<br><br>💡 Giải thích của AI:<br>Cách đọc 3 bước theo trục PaO₂ → PaCO₂/P(A-a)O₂ → pH giúp định vị ngay tổn thương nằm ở phế nang–mao mạch (Tuýp 1), trung tâm/cơ hô hấp (Tuýp 2) hay cả hai (Tuýp 3) để chọn đúng oxy hoặc hỗ trợ thông khí.",
+      "extra": "[B0.02, B2.01, B2.02, B2.03, B4.02]",
+      "tags": [
+        "SURG-R4",
+        "B2",
+        "Thuat-toan",
+        "Khi-mau",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "SURGR4-ALGO-02",
+      "type": "basic",
+      "section": "B5",
+      "topic": "Quy trình Khai thông đường thở & Quyết định Đặt Nội khí quản",
+      "tier": 1,
+      "category": "SURG-R4 · B5",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Quy trình Khai thông đường thở & Quyết định Đặt Nội khí quản</span><br>Tiếp nhận bệnh nhân suy hô hấp cấp tím tái kích thích hoặc lơ mơ — Luồng quyết định từ khai thông đường thở cơ bản tới đặt ống nội khí quản?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bước 1 (Airway tại chỗ):</b> Ngửa đầu nâng cằm (tránh nếu nghi chấn thương cổ) hoặc nằm nghiêng an toàn → hút sạch đờm dãi/chất nôn → đặt canun Guedel/Mayo chống tụt lưỡi (Heimlich nếu dị vật).<br>2) <b>Bước 2 (Sàng lọc 5 cờ đặt NKQ):</b> Nếu có bất kỳ dấu nào: <span style=\"color: #ff6b6b; font-weight: 600;\">tắc nghẽn trên không qua được canun</span>, <span style=\"color: #ff6b6b; font-weight: 600;\">Glasgow < 8 điểm</span>, mất tống đờm, <span style=\"color: #ff6b6b; font-weight: 600;\">thiếu oxy trơ với mask nồng độ cao</span>, hoặc <span style=\"color: #ff6b6b; font-weight: 600;\">toan hô hấp pH < 7,25</span> → <span style=\"color: #ff6b6b; font-weight: 600;\">Đặt NKQ khẩn cấp</span>.<br>3) <b>Bước 3 (Theo dõi nếu chưa đặt NKQ):</b> Chọn chế độ oxy đúng theo cơ chế bệnh sinh và chấm lại tầng Trung bình/Nặng/Nguy kịch.<br><br>💡 Giải thích của AI:<br>Không chờ đủ cả 5 tiêu chuẩn mới đặt nội khí quản: chỉ cần thỏa 1 tiêu chí tuyệt đối (như Glasgow < 8 hoặc pH < 7,25) là đã phải chủ động kiểm soát đường thở an toàn ngay.",
+      "extra": "[B5.01, B5.02, B4.01, B4.02]",
+      "tags": [
+        "SURG-R4",
+        "B5",
+        "Thuat-toan",
+        "Airway",
+        "Noi-khi-quan"
+      ]
+    },
+    {
+      "id": "SURGR4-ALGO-03",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Chọn Phương tiện Oxy & Áp lực dương theo Cơ chế (V/Q vs COPD vs Shunt)",
+      "tier": 1,
+      "category": "SURG-R4 · B6",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Chọn Phương tiện Oxy & Áp lực dương theo Cơ chế (V/Q vs COPD vs Shunt)</span><br>Sau khi khai thông đường thở — Cách chọn đúng thiết bị cung cấp oxy và ngưỡng SpO₂ mục tiêu tương ứng với từng cơ chế suy hô hấp?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhánh bất tương xứng V/Q thông thường (Hen, viêm phổi):</b> Khởi đầu <span style=\"color: #51cf66; font-weight: 600;\">oxy kính mũi 1 – 4 L/phút (FiO₂ 0,24 – 0,4)</span>, mục tiêu <span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 92 – 95% (PaO₂ 60 – 80 mmHg)</span>.<br>2) <b>Nhánh COPD đợt cấp ứ CO₂ mạn:</b> Chỉ dùng <span style=\"color: #ffd43b; font-weight: 600;\">kính mũi 1 – 2 L/phút hoặc Venturi FiO₂ ≤ 28 – 32%</span>, giữ mục tiêu khiêm tốn <span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 88 – 92%</span> tránh ngừng thở.<br>3) <b>Nhánh Shunt lớn (ARDS, OAP nặng):</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Mask túi không thở lại (FiO₂ 60 – 100%)</span> → chuyển nhanh <span style=\"color: #74c0fc; font-weight: 600;\">CPAP / BiPAP</span> hoặc <span style=\"color: #ff6b6b; font-weight: 600;\">thở máy NKQ với PEEP cao</span>.<br><br>💡 Giải thích của AI:<br>Chọn sai nhánh là sai lầm hay gặp nhất trong thực hành: dùng FiO₂ 100% bừa bãi cho COPD gây hôn mê tăng CO₂, còn dùng kính mũi 3 L/ph cho ARDS shunt > 30% thì SpO₂ mãi không lên được.",
+      "extra": "[B1.02, B6.01, B6.02]",
+      "tags": [
+        "SURG-R4",
+        "B6",
+        "Thuat-toan",
+        "Lieu-phap-oxy",
+        "COPD",
+        "ARDS"
+      ]
+    },
+    {
+      "id": "SURGR4-ALGO-04",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Xử trí Cấp cứu Ngoại khoa lồng ngực gây Suy hô hấp tối cấp",
+      "tier": 1,
+      "category": "SURG-R4 · B7",
+      "badge": "⚡ THUẬT TOÁN QUYẾT ĐỊNH",
+      "badge_class": "badge-amber",
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #74c0fc; font-weight: 600;\">Xử trí Cấp cứu Ngoại khoa lồng ngực gây Suy hô hấp tối cấp</span><br>Bệnh nhân chấn thương ngực kín / hở suy hô hấp cấp tụt huyết áp — Cách phân biệt và ra y lệnh can thiệp tức thì cho 3 bệnh cảnh lồng ngực?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tràn khí màng phổi áp lực (gõ vang, mất rì rào phế nang, TM cổ nổi, tụt HA):</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Chọc kim giải áp ngay KLS 2 đường giữa đòn</span> → sau đó dẫn lưu <span style=\"color: #74c0fc; font-weight: 600;\">KLS 4–5 đường nách giữa</span>.<br>2) <b>Tràn máu màng phổi (gõ đục, hội chứng mất máu):</b> Đặt ống dẫn lưu lớn <span style=\"color: #74c0fc; font-weight: 600;\">28 – 32 Fr</span> + truyền máu → <span style=\"color: #ff6b6b; font-weight: 600;\">mổ mở ngực/nội soi cầm máu</span> khi ra <span style=\"color: #ff6b6b; font-weight: 600;\">> 200 ml/giờ × 3 giờ liên tiếp</span>.<br>3) <b>Mảng sườn di động (hô hấp đảo chiều):</b> <span style=\"color: #51cf66; font-weight: 600;\">Gây tê ngoài màng cứng / tê liên sườn giảm đau</span> + cố định thành ngực hoặc <span style=\"color: #74c0fc; font-weight: 600;\">thở máy áp lực dương (cố định trong)</span>.<br><br>💡 Giải thích của AI:<br>Trong tràn khí màng phổi áp lực, không bao giờ chờ chụp phim X-quang ngực mới chọc kim giải áp — thời gian chờ phim đủ khiến trung thất bị đẩy gập tĩnh mạch chủ gây ngừng tuần hoàn.",
+      "extra": "[B7.01, B7.02, B7.03]",
+      "tags": [
+        "SURG-R4",
+        "B7",
+        "Thuat-toan",
+        "Long-nguc",
+        "Chan-thuong"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-01",
+      "type": "basic",
+      "section": "B6",
+      "topic": "Xả oxy lưu lượng cao (6–10 L/ph) cho bệnh nhân COPD đợt cấp để kéo SpO₂ lên 98–100%",
+      "tier": 1,
+      "category": "SURG-R4 · B6",
+      "badge": "🛑 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">🛑 CỜ ĐỎ</span> — Bệnh nhân COPD đợt cấp vào viện SpO₂ 82% — Vì sao bơm oxy 8 lít/phút để kéo SpO₂ đạt 99% lại có thể đẩy người bệnh vào hôn mê và ngừng thở?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mất kích thích hô hấp (Hypoxic Drive):</b> Người COPD ứ CO₂ mạn duy trì nhịp thở chủ yếu nhờ kích thích thiếu oxy; oxy quá cao làm bệnh nhân <span style=\"color: #ff6b6b; font-weight: 600;\">giảm thông khí, ứ CO₂ kịch phát và hôn mê</span>.<br>2) <b>Liệu pháp oxy chuẩn cho COPD:</b> Dùng liều thấp có kiểm soát (kính mũi <span style=\"color: #ffd43b; font-weight: 600;\">1 – 2 L/phút</span> hoặc <span style=\"color: #ffd43b; font-weight: 600;\">Venturi FiO₂ ≤ 28 – 32%</span>) với đích chỉ cần <span style=\"color: #51cf66; font-weight: 600;\">SpO₂ 88 – 92%</span>.<br><br>💡 Giải thích của AI:<br>Ở bệnh nhân COPD mạn, SpO₂ 88–92% đã nằm ở đoạn dốc an toàn của đường cong Oxyhemoglobin đủ cung cấp oxy mô mà vẫn bảo toàn phản xạ tự thở.",
+      "extra": "[B1.02, B6.02]",
+      "tags": [
+        "SURG-R4",
+        "B6",
+        "Bay-lam-sang",
+        "COPD",
+        "Lieu-phap-oxy"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-02",
+      "type": "basic",
+      "section": "B3",
+      "topic": "Thấy niêm mạc không tím tái nên loại trừ thiếu oxy máu nặng",
+      "tier": 1,
+      "category": "SURG-R4 · B3",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Bệnh nhân chấn thương mất máu nặng (Hb còn 45 g/L) hoặc nạn nhân ngạt khói cháy (ngộ độc CO) thở nhanh vật vã nhưng môi không hề tím — Vì sao không thấy tím tái?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Điều kiện sinh lý xuất hiện tím:</b> Chỉ thấy tím khi nồng độ <span style=\"color: #74c0fc; font-weight: 600;\">Hemoglobin khử mao mạch > 5 g/dL</span>.<br>2) <b>Hai bẫy kinh điển không tím dù thiếu oxy chết người:</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Thiếu máu nặng</span> (không đủ lượng Hb để tạo > 5 g/dL Hb khử) và <span style=\"color: #ff6b6b; font-weight: 600;\">ngộ độc khí CO</span> (Carboxyhemoglobin có màu đỏ anh đào).<br><br>💡 Giải thích của AI:<br>Khó thở và rối loạn ý thức mới là dấu hiệu nhạy và sớm; tin vào 'không tím thì chưa thiếu oxy' ở người thiếu máu nặng hay ngộ độc CO là sai lầm chết người.",
+      "extra": "[B3.01]",
+      "tags": [
+        "SURG-R4",
+        "B3",
+        "Bay-lam-sang",
+        "Tim-tai",
+        "Lam-sang"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-03",
+      "type": "basic",
+      "section": "B1",
+      "topic": "Kỳ vọng thở oxy qua mask đơn thuần sẽ giải quyết được Shunt phổi lớn > 30%",
+      "tier": 1,
+      "category": "SURG-R4 · B1",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Bệnh nhân ARDS hoặc phù phổi cấp nặng có shunt phải–trái trong phổi > 30% cung lượng tim — Tại sao tăng lưu lượng oxy đơn thuần vẫn không cải thiện được PaO₂?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Lý do sinh lý bệnh:</b> Trong Shunt (V/Q = 0), máu tĩnh mạch chảy qua các phế nang bị xẹp hoặc chứa đầy dịch hoàn toàn <span style=\"color: #ff6b6b; font-weight: 600;\">không tiếp xúc được với khí thở vào</span>, nên tăng FiO₂ đơn thuần thất bại.<br>2) <b>Giải pháp khắc phục đúng:</b> Phải dùng <span style=\"color: #51cf66; font-weight: 600;\">áp lực dương (CPAP / BiPAP)</span> hoặc <span style=\"color: #51cf66; font-weight: 600;\">đặt NKQ thở máy bảo vệ phổi với PEEP cao</span> để mở huy động lại các phế nang xẹp.<br><br>💡 Giải thích của AI:<br>Khác với bất tương xứng V/Q (đáp ứng tốt với FiO₂), Shunt > 30% cung lượng tim kháng oxy đơn thuần chính là dấu hiệu gợi ý tại giường phải nâng cấp hỗ trợ áp lực dương ngay.",
+      "extra": "[B1.02, B6.02]",
+      "tags": [
+        "SURG-R4",
+        "B1",
+        "Bay-lam-sang",
+        "Shunt",
+        "ARDS"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-04",
+      "type": "basic",
+      "section": "B2",
+      "topic": "Nhầm lẫn Suy hô hấp Tuýp 2 thuần túy với Tuýp 3 (Hỗn hợp) khi đọc P(A-a)O₂",
+      "tier": 1,
+      "category": "SURG-R4 · B2",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Cả Suy hô hấp Tuýp 2 và Tuýp 3 đều có PaO₂ ↓ và PaCO₂ ↑ — Thông số nào phân định hai tuýp này và sai lầm xử trí là gì nếu bỏ sót tổn thương nhu mô của Tuýp 3?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thông số phân định:</b> Chênh lệch áp lực oxy phế nang – mao mạch <span style=\"color: #74c0fc; font-weight: 600;\">P(A-a)O₂</span>: <span style=\"color: #51cf66; font-weight: 600;\">Bình thường ở Tuýp 2</span> (quá liều Opioid, Guillain-Barré, mảng sườn) nhưng <span style=\"color: #ff6b6b; font-weight: 600;\">Tăng cao ở Tuýp 3</span> (COPD mất bù, hen ác tính, sau mổ trên nền COPD).<br>2) <b>Ý nghĩa lâm sàng:</b> Tuýp 3 đòi hỏi vừa giải quyết thông khí/tắc nghẽn phế quản vừa chỉnh oxy thận trọng cho phế nang tổn thương.<br><br>💡 Giải thích của AI:<br>Chỉ nhìn PaO₂ và PaCO₂ mà quên tính P(A-a)O₂ sẽ không biết phế nang và màng trao đổi khí có đang tổn thương kèm theo hay không.",
+      "extra": "[B2.02, B2.03]",
+      "tags": [
+        "SURG-R4",
+        "B2",
+        "Bay-lam-sang",
+        "Khi-mau",
+        "Phan-loai"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-05",
+      "type": "basic",
+      "section": "B4",
+      "topic": "Chủ quan khi thấy bệnh nhân suy hô hấp từ kích thích vật vã chuyển sang 'nằm yên, thở chậm < 10 lần/phút'",
+      "tier": 1,
+      "category": "SURG-R4 · B4",
+      "badge": "🛑 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">🛑 CỜ ĐỎ</span> — Một bệnh nhân suy hô hấp đang thở 36 lần/phút, tăng huyết áp, bồn chồn — Nửa giờ sau bỗng 'nằm im lờ đờ', thở chậm còn 9 lần/phút, huyết áp tụt — Đây là dấu hiệu hồi phục hay báo tử?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đánh giá chuẩn xác:</b> Bệnh nhân đã sụp sang <span style=\"color: #ff6b6b; font-weight: 600;\">Mức độ Nguy kịch</span> (Glasgow < 13, thở < 10 lần/phút kiểu thở ngáp, tụt huyết áp, tím toàn thân).<br>2) <b>Hành động tối khẩn:</b> Phải bóp bóng và <span style=\"color: #ff6b6b; font-weight: 600;\">đặt ống nội khí quản khẩn cấp</span> ngay lập tức — tuyệt đối không hiểu nhầm là 'đáp ứng thuốc đang ngủ dịu lại'.<br><br>💡 Giải thích của AI:<br>Cơ hô hấp kiệt sức kết hợp tăng CO₂ gây ức chế trung tâm hô hấp (toan hô hấp pH < 7,25) làm bệnh nhân ngưng thở chỉ sau vài phút nếu không đặt nội khí quản kịp.",
+      "extra": "[B3.02, B4.01, B4.02, B5.02]",
+      "tags": [
+        "SURG-R4",
+        "B4",
+        "Bay-lam-sang",
+        "Nguy-kich",
+        "Noi-khi-quan"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-06",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Gửi bệnh nhân Tràn khí màng phổi áp lực đi chụp X-quang trước khi chọc kim giải áp",
+      "tier": 1,
+      "category": "SURG-R4 · B7",
+      "badge": "🛑 CỜ ĐỎ",
+      "badge_class": "badge-red",
+      "front": "<span style=\"color: #ff6b6b; font-weight: 600;\">🛑 CỜ ĐỎ</span> — Bệnh nhân chấn thương ngực khó thở dữ dội, tĩnh mạch cổ nổi căng, khí quản lệch bên đối diện, gõ vang phế trường bên tổn thương và tụt huyết áp — Cấm làm sai lầm gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cấm tuyệt đối:</b> Không đẩy đi chụp X-quang hay CT chờ chẩn đoán hình ảnh.<br>2) <b>Phản xạ cứu mạng tức thì:</b> <span style=\"color: #ff6b6b; font-weight: 600;\">Chọc kim giải áp ngay lập tức vào khoang liên sườn 2 đường giữa đòn</span> ngay tại giường cấp cứu, sau đó mới đặt dẫn lưu màng phổi <span style=\"color: #74c0fc; font-weight: 600;\">KLS 4–5 đường nách giữa</span>.<br><br>💡 Giải thích của AI:<br>Tràn khí màng phổi áp lực gây sốc tắc nghẽn cấp tính; chọc kim giải áp là chẩn đoán đồng thời điều trị cứu sống ngay trong 10 giây.",
+      "extra": "[B7.01]",
+      "tags": [
+        "SURG-R4",
+        "B7",
+        "Bay-lam-sang",
+        "Long-nguc",
+        "Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-07",
+      "type": "basic",
+      "section": "B7",
+      "topic": "Đặt ống dẫn lưu màng phổi quá nhỏ trong Tràn máu màng phổi hoặc trì hoãn mở ngực khi máu ra > 200 ml/giờ",
+      "tier": 1,
+      "category": "SURG-R4 · B7",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Trong xử trí Tràn máu màng phổi cấp cứu ngoại khoa, hai sai lầm kỹ thuật thường gặp về kích thước ống dẫn lưu và ngưỡng theo dõi chỉ định mổ cầm máu là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Kích thước ống dẫn lưu chuẩn:</b> Phải đặt ống dẫn lưu màng phổi cỡ lớn (<span style=\"color: #51cf66; font-weight: 600;\">28 – 32 Fr</span>) — đặt ống quá nhỏ dễ tắc nhanh do cục máu đông.<br>2) <b>Ngưỡng mở ngực/nội soi cầm máu khẩn:</b> Chỉ định mổ ngay khi lưu lượng máu chảy qua dẫn lưu <span style=\"color: #ff6b6b; font-weight: 600;\">> 200 ml/giờ trong 3 giờ liên tiếp</span>.<br><br>💡 Giải thích của AI:<br>Ống dẫn lưu lớn vừa thoát sạch máu cục ngăn đông máu màng phổi về sau vừa giúp theo dõi chính xác lượng máu chảy mỗi giờ để không bỏ lỡ ngưỡng mổ > 200 ml/giờ × 3 giờ.",
+      "extra": "[B7.02]",
+      "tags": [
+        "SURG-R4",
+        "B7",
+        "Bay-lam-sang",
+        "Long-nguc",
+        "Ngoai-khoa"
+      ]
+    },
+    {
+      "id": "SURGR4-TRAP-08",
+      "type": "basic",
+      "section": "B1",
+      "topic": "Truyền quá nhiều Carbohydrate cho bệnh nhân suy hô hấp mạn tính đang tăng CO₂ máu",
+      "tier": 1,
+      "category": "SURG-R4 · B1",
+      "badge": "❌ Bẫy lâm sàng",
+      "badge_class": "badge-amber",
+      "front": "<span style=\"color: #ffd43b; font-weight: 600;\">❌ Bẫy lâm sàng</span> — Bệnh nhân bệnh phổi tắc nghẽn mạn đang cai máy thở đột ngột tăng PaCO₂ dai dẳng dù không sốt hay co giật — Nguyên nhân dinh dưỡng tĩnh mạch nào dễ bị bỏ qua?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Lý do gây tăng CO₂:</b> <span style=\"color: #ffd43b; font-weight: 600;\">Truyền quá nhiều carbohydrate</span> (năng lượng đường cao) làm cơ thể chuyển hóa tăng sinh CO₂ quá mức.<br>2) <b>Các nguyên nhân tăng sản xuất CO₂ đi kèm cần nhớ:</b> Sốt cao, co giật liên tục, sốc nhiễm khuẩn.<br><br>💡 Giải thích của AI:<br>Chuyển hóa 1 phân tử glucose tạo ra lượng CO₂ nhiều hơn so với chuyển hóa lipid (RQ 1,0 vs 0,7); khi phổi hạn chế thông khí, lượng CO₂ dôi dư này đẩy thẳng bệnh nhân vào toan hô hấp.",
+      "extra": "[B1.03]",
+      "tags": [
+        "SURG-R4",
+        "B1",
+        "Bay-lam-sang",
+        "Sinh-ly-benh",
+        "CO2"
+      ]
+    }
+  ]
+}
