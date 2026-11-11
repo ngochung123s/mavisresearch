@@ -56,7 +56,7 @@ def ac(action: str, **params):
                 time.sleep(10)
                 continue
             raise
-        if out.get("error") and "collection is not available" in str(out["error"]) and attempt < 29:
+        if out.get("error") and any(s in str(out["error"]).lower() for s in ("collection is not available", "lifecycle operation is active")) and attempt < 29:
             time.sleep(10)
             continue
         if out.get("error"):

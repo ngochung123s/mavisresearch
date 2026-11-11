@@ -67,12 +67,12 @@
 
 ## B4. PHÂN LOẠI GIAI ĐOẠN (ASTLER - COLLER & DUKES)
 
-- **[B4.01] Giai đoạn A:** Khối u khu trú ở lớp niêm mạc và dưới niêm mạc, chưa xâm lấn vào lớp cơ thành ruột, chưa di căn hạch vùng (T1 N0 M0).
-- **[B4.02] Giai đoạn B1:** Khối u đã xâm lấn vào lớp cơ thành ruột nhưng chưa vượt qua lớp cơ (chưa đến thanh mạc), chưa có di căn hạch vùng (T2 N0 M0).
-- **[B4.03] Giai đoạn B2:** Khối u xâm lấn xuyên thủng toàn bộ lớp cơ, lan tới lớp thanh mạc hoặc xâm lấn ra mô mỡ liên kết quanh đại tràng, chưa có di căn hạch vùng (T3-T4 N0 M0).
-- **[B4.04] Giai đoạn C1:** Khối u chưa vượt quá lớp cơ (tương ứng độ sâu B1) nhưng ĐÃ CÓ di căn hạch bạch huyết vùng (T2 N+ M0).
-- **[B4.05] Giai đoạn C2:** Khối u đã xâm lấn xuyên qua lớp cơ tới thanh mạc/mô quanh ruột (tương ứng độ sâu B2) và ĐÃ CÓ di căn hạch bạch huyết vùng (T3-T4 N+ M0).
-- **[B4.06] Giai đoạn D:** Khối u ở bất kỳ mức độ xâm lấn nào nhưng ĐÃ CÓ di căn xa theo đường máu hoặc phúc mạc (di căn gan, phổi, phúc mạc, buồng trứng... tương ứng M1).
+- **[B4.01] Giai đoạn A:** Khối u khu trú ở lớp niêm mạc và dưới niêm mạc, chưa xâm lấn vào lớp cơ thành ruột, chưa di căn hạch vùng.
+- **[B4.02] Giai đoạn B1:** Khối u đã xâm lấn vào lớp cơ thành ruột nhưng chưa vượt qua lớp cơ (chưa đến thanh mạc), chưa có di căn hạch vùng.
+- **[B4.03] Giai đoạn B2:** Khối u xâm lấn xuyên thủng toàn bộ lớp cơ, lan tới lớp thanh mạc hoặc xâm lấn ra mô mỡ liên kết quanh đại tràng, chưa có di căn hạch vùng.
+- **[B4.04] Giai đoạn C1:** Khối u chưa vượt quá lớp cơ (tương ứng độ sâu B1) nhưng ĐÃ CÓ di căn hạch bạch huyết vùng.
+- **[B4.05] Giai đoạn C2:** Khối u đã xâm lấn xuyên qua lớp cơ tới thanh mạc/mô quanh ruột (tương ứng độ sâu B2) và ĐÃ CÓ di căn hạch bạch huyết vùng.
+- **[B4.06] Giai đoạn D:** Khối u ở bất kỳ mức độ xâm lấn nào nhưng ĐÃ CÓ di căn xa theo đường máu hoặc phúc mạc (di căn gan, phổi, phúc mạc, buồng trứng...).
 
 ---
 
@@ -83,7 +83,7 @@
   - Nếu toàn trạng bệnh nhân cho phép và ổ phúc mạc không quá bẩn: Tiến hành cắt nửa đại tràng phải và phục hồi lưu thông bằng miệng nối hồi - đại tràng ngang ngay thì đầu (nối tận - bên hoặc bên - bên theo kỹ thuật Quénu).
   - Nếu bệnh nhân già yếu suy kiệt nặng hoặc viêm phúc mạc nặng: Cắt khối u đưa 2 đầu ruột ra ngoài làm hậu môn nhân tạo, nối lại ở thì 2 khi toàn trạng ổn định.
 - **[B5.03] Xử trí cấp cứu tắc ruột đại tràng trái:** Đại tràng trái thành mỏng, giãn to ứ đọng nhiều phân thối bẩn và lượng vi khuẩn cực lớn $\rightarrow$ Tuyệt đối KHÔNG NÊN cắt u và lập lại lưu thông nối ngay thì đầu vì nguy cơ bục miệng nối tử vong rất cao. Lựa chọn các phác đồ nhiều thì:
-  - *Phẫu thuật Hartmann (2 thì):* Cắt đoạn đại tràng mang khối u, đưa đầu trên ra ngoài làm hậu môn nhân tạo, khâu đóng kín mỏm dưới (mỏm trực tràng). Đóng hậu môn nhân tạo và nối lại ở thì 2 sau 3 – 6 tháng.
+  - *Phẫu thuật Hartmann (2 thì):* Cắt đoạn đại tràng mang khối u, đưa đầu trên ra ngoài làm hậu môn nhân tạo, khâu đóng kín mỏm dưới (mỏm trực tràng). Đóng hậu môn nhân tạo và nối lại ở thì sau.
   - *Phẫu thuật 3 thì (Schloffer):* Thì 1 làm hậu môn nhân tạo đại tràng ngang giải áp $\rightarrow$ Thì 2 cắt đoạn đại tràng có u và nối lại lưu thông $\rightarrow$ Thì 3 đóng hậu môn nhân tạo.
 - **[B5.04] Biến chứng thủng khối u & Viêm phúc mạc:** Khối u hoại tử hoặc áp lực trong lòng ruột tăng cao làm thủng u. Biểu hiện đau bụng đột ngột dữ dội, viêm phúc mạc toàn thể hoặc tạo ổ áp xe khu trú quanh khối u.
 - **[B5.05] Biến chứng chảy máu tiêu hóa dữ dội & Biến chứng rò đại tràng:** Chảy máu tiêu hóa ồ ạt do hoại tử mạch máu lớn của u; Biến chứng rò đại tràng vào các tạng lân cận: Rò bàng quang (tiểu ra hơi - pneumaturia, tiểu ra phân - fecaluria, nhiễm trùng tiết niệu tái phát dai dẳng), rò âm đạo hoặc rò ra thành bụng.

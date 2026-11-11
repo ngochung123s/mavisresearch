@@ -34,6 +34,7 @@ def basic(cid, section, topic, tier, front, core, ai, barem, tags, red_flag=Fals
     res = {
         "id": cid,
         "type": "basic",
+        "section": section,
         "topic": topic,
         "tier": tier,
         "front": front,
@@ -69,6 +70,7 @@ def cloze(cid, section, topic, text, barem, tags):
     return {
         "id": cid,
         "type": "cloze",
+        "section": section,
         "topic": topic,
         "tier": 1,
         "text": text,

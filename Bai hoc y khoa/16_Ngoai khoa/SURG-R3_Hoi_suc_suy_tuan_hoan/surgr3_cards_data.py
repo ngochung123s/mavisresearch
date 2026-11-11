@@ -294,7 +294,7 @@ cards_data = [
         "SURGR3-B7-01", "B7", "Nhận biết Ngừng tuần hoàn & Kỹ thuật ép tim – thổi ngạt", 1,
         f"{R('[CPR — Cơ bản]')} Dấu hiệu nhận biết ngừng tuần hoàn và thông số kỹ thuật ép tim – thổi ngạt trước và sau khi đặt ống nội khí quản?",
         f"1) <b>Nhận biết:</b> Mất mạch cảnh/bẹn, mất ý thức, ngừng thở hoặc thở ngáp cá, đồng tử giãn.<br>"
-        f"2) <b>Chưa đặt nội khí quản:</b> Tỷ lệ {G('30 ép tim : 2 thổi ngạt')}; ép sâu {B('5 cm')}, tần số {G('100 – 120 lần/phút')}, để lồng ngực nở hoàn toàn sau mỗi lần ép.<br>"
+        f"2) <b>Chưa đặt nội khí quản:</b> Tỷ lệ {G('30 lần ép tim : 2 lần thổi ngạt')}; ép sâu {B('5 cm')}, tần số {G('100 – 120 lần/phút')}, để lồng ngực nở hoàn toàn sau mỗi lần ép.<br>"
         f"3) <b>Đã đặt nội khí quản:</b> Ép tim {G('liên tục 100 lần/phút')}, bóp bóng {B('8 – 10 lần/phút')} và {R('không ngừng ép tim')}.",
         f"Để lồng ngực nở hoàn toàn sau mỗi nhịp ép tạo áp lực âm lồng ngực hút máu về nhĩ phải — quyết định trực tiếp lưu lượng máu lên não và mạch vành trong CPR.",
         "B7.01", ["CPR", "Cap-cuu"], red_flag=True,
@@ -383,8 +383,8 @@ cards_data = [
     trap(
         "SURGR3-TRAP-02", "B3", "Bẫy dấu hiệu 'PVC > 9 cmH₂O' & Chỉ số tin cậy nhất đánh giá thiếu dịch",
         f"Trong chẩn đoán suy tuần hoàn do thiếu khối lượng tuần hoàn: Vì sao 'PVC > 9 cmH₂O' là phát biểu chưa phù hợp, và thông số nào đáng tin cậy nhất xác định còn thiếu dịch?",
-        f"1) <b>Phát biểu sai trong triệu chứng sốc mất dịch:</b> {R('PVC > 9 cmH₂O là chưa phù hợp')} (CVP thông thường giảm thấp trong sốc giảm thể tích; HATT < 100, HATTr < 60 và khó thở mới phù hợp).<br>"
-        f"2) <b>Thông số đáng tin cậy nhất:</b> {G('PVC < 8 cmH₂O')} (CVP thấp phản ánh trực tiếp tình trạng thiếu tiền gánh, đáng tin cậy hơn HATT < 100, HATTr < 80 hay nước tiểu < 500 ml/24h).",
+        f"1) <b>Phát biểu sai trong triệu chứng sốc mất dịch:</b> {R('PVC > 9 cmH₂O là chưa phù hợp')} (CVP thông thường giảm thấp trong sốc giảm thể tích; HATT < 100 mmHg, HATTr < 60 mmHg và khó thở mới phù hợp).<br>"
+        f"2) <b>Thông số đáng tin cậy nhất:</b> {G('PVC < 8 cmH₂O')} (CVP thấp phản ánh trực tiếp tình trạng thiếu tiền gánh, đáng tin cậy hơn HATT < 100 mmHg, HATTr < 80 mmHg hay nước tiểu < 500 ml/24h).",
         f"Huyết áp có thể bị duy trì giả tạo nhờ phản xạ co mạch bù trừ ban đầu, nước tiểu phản ánh chậm, còn PVC < 8 cmH₂O đo trực tiếp áp lực đổ đầy thất phải nên khẳng định ngay bệnh nhân vẫn đang khát dịch.",
         "B3.02, B5.03, B6.02", ["CVP", "Luong-gia"],
     ),
@@ -398,9 +398,9 @@ cards_data = [
     ),
     trap(
         "SURGR3-TRAP-04", "B5", "Đưa bệnh nhân đi mổ Kết hợp xương đùi khi Hb mới 80 g/L",
-        f"Bệnh nhân gãy xương đùi đã cố định giảm đau nhưng xét nghiệm Hb vẫn ở mức 80 g/L — Có thể đưa lên bàn mổ kết hợp xương ngay hay cần nâng Hb tối thiểu lên bao nhiêu?",
-        f"1) <b>Không mổ khi Hb ≤ 80 g/L:</b> Bệnh nhân chưa đủ an toàn huyết động để chịu cuộc mổ lớn mất thêm máu.<br>"
-        f"2) <b>Mức Hb tối thiểu bắt buộc để mổ KHX:</b> Phải hồi sức nâng đạt {G('Hb > 90 g/L (≥ 9 g/dL)')} kèm {G('Hct > 25 – 30%')}.",
+        f"Bệnh nhân gãy xương đùi đã cố định giảm đau nhưng xét nghiệm Hb vẫn ở mức 80 g/L — Giữa các mốc > 80 g/L, > 90 g/L, > 100 g/L, > 110 g/L, mức Hb tối thiểu nào là chuẩn xác để chịu được cuộc phẫu thuật kết hợp xương đùi?",
+        f"1) <b>Không mổ khi Hb ≤ 80 g/L:</b> Mức {R('> 80 g/L')} chưa đủ an toàn huyết động để chịu cuộc mổ lớn mất thêm máu.<br>"
+        f"2) <b>Mức Hb tối thiểu chuẩn xác:</b> Phải hồi sức nâng đạt {G('Hb > 90 g/L (≥ 9 g/dL)')} kèm {G('Hct > 25 – 30%')} (không cần đòi hỏi quá cao tới {B('> 100 g/L')} hay {B('> 110 g/L')}).",
         f"Phẫu thuật kết hợp xương đùi tốn thời gian gây mê và mất thêm máu đáng kể trong lúc rạch mở ổ gãy; ngưỡng tối thiểu Hb > 90 g/L đảm bảo dự trữ vận chuyển oxy an toàn suốt cuộc mổ.",
         "B5.02, B6.02", ["Truyen-mau", "Luong-gia"],
     ),

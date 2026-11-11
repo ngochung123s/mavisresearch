@@ -6,6 +6,7 @@
     {
       "id": "SURG56-B0-01",
       "type": "basic",
+      "section": "B0",
       "topic": "Phân loại u ác tính nguyên phát thận & Dịch tễ RCC",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Đại cương]</span> Các loại u ác tính nguyên phát ở thận, tỷ lệ chiếm ưu thế của Ung thư biểu mô tế bào thận (RCC), thứ hạng tiết niệu và tỷ lệ trong ung thư người lớn?",
@@ -21,6 +22,7 @@
     {
       "id": "SURG56-B0-02",
       "type": "basic",
+      "section": "B0",
       "topic": "Tuổi khởi phát & Tỷ lệ giới tính RCC",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ]</span> Độ tuổi thường khởi phát và tỷ lệ phân bố nam/nữ của ung thư biểu mô tế bào thận?",
@@ -35,6 +37,7 @@
     {
       "id": "SURG56-B0-03",
       "type": "cloze",
+      "section": "B0",
       "topic": "Cloze: Tỷ lệ RCC & Tỷ lệ nam/nữ",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Dịch tễ RCC]</span> Ung thư tế bào thận (RCC) chiếm tới {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">90%</span>}} các u ác tính nguyên phát ở thận, đứng hàng thứ {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">2</span>}} hệ tiết niệu (sau ung thư bàng quang), chiếm {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">1 – 2%</span>}} ung thư người lớn và tỷ lệ nam/nữ là {{c4::<span style=\"color: #ffd43b; font-weight: bold;\">2/1</span>}}.",
@@ -49,6 +52,7 @@
     {
       "id": "SURG56-B1-01",
       "type": "basic",
+      "section": "B1",
       "topic": "Hút thuốc lá & Hydrocarbon thơm đa vòng",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Yếu tố nguy cơ hàng đầu]</span> Dù nguyên nhân gây ung thư thận chưa được làm rõ hoàn toàn, yếu tố nguy cơ hàng đầu là gì và cơ chế gây ung thư từ yếu tố này diễn ra ra sao?",
@@ -64,6 +68,7 @@
     {
       "id": "SURG56-B1-02",
       "type": "basic",
+      "section": "B1",
       "topic": "Hóa chất nghề nghiệp & Di truyền VHL",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguy cơ nghề nghiệp & Di truyền]</span> Kể tên đầy đủ các nhóm hóa chất/nghề nghiệp phơi nhiễm và các yếu tố di truyền liên quan đến ung thư thận?",
@@ -79,6 +84,7 @@
     {
       "id": "SURG56-B2-01",
       "type": "basic",
+      "section": "B2",
       "topic": "Đại thể khối u ung thư thận",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh — Đại thể]</span> Mô tả đầy đủ kích thước, vị trí trên thận, vỏ bọc, màu sắc diện cắt và đặc điểm mạch máu/nhu mô bên trong của khối u thận?",
@@ -93,6 +99,7 @@
     {
       "id": "SURG56-B2-02",
       "type": "basic",
+      "section": "B2",
       "topic": "Phân loại mô học RCC",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh — Mô học]</span> Liệt kê 4 thể mô học của ung thư biểu mô thận cùng tỷ lệ và đặc điểm mức độ ác tính nổi bật?",
@@ -107,6 +114,7 @@
     {
       "id": "SURG56-B2-03",
       "type": "basic",
+      "section": "B2",
       "topic": "Vi thể tế bào ung thư thận",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh — Vi thể]</span> Mô tả hình thái vi thể, cấu trúc sắp xếp, thành phần bào tương, đặc điểm nhân và các tế bào biến thể đi kèm của RCC?",
@@ -121,6 +129,7 @@
     {
       "id": "SURG56-B2-04",
       "type": "cloze",
+      "section": "B2",
       "topic": "Cloze: Tỷ lệ Clear cell RCC & Thành phần bào tương",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Mô học — Vi thể]</span> Thể giải phẫu bệnh thường gặp nhất là ung thư biểu mô tế bào sáng chiếm {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">75 – 85%</span>}}; trên vi thể bào tương chứa nhiều {{c2::<span style=\"color: #74c0fc; font-weight: bold;\">glycogen và lipid</span>}}.",
@@ -135,6 +144,7 @@
     {
       "id": "SURG56-B3-01",
       "type": "basic",
+      "section": "B3",
       "topic": "Phân loại T1 & T2 trong TNM ung thư thận",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — T1 & T2]</span> Trình bày tiêu chuẩn kích thước và giới hạn giải phẫu của T1 (T1a, T1b) và T2 (T2a, T2b) trong ung thư thận?",
@@ -150,6 +160,7 @@
     {
       "id": "SURG56-B3-02",
       "type": "basic",
+      "section": "B3",
       "topic": "Phân loại T3 & T4 trong TNM ung thư thận",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — T3 & T4]</span> Phân biệt chi tiết T3 (T3a, T3b, T3c) và T4 trong ung thư thận dựa trên cấu trúc giải phẫu xâm lấn?",
@@ -165,6 +176,7 @@
     {
       "id": "SURG56-B3-03",
       "type": "basic",
+      "section": "B3",
       "topic": "Phân loại Hạch vùng (N) & Di căn xa (M)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — N & M]</span> Định nghĩa hạch vùng (Nx, N0, N1) kèm vị trí hạch chặng đầu và phân loại di căn xa (M0, M1) kèm tỷ lệ các cơ quan đích?",
@@ -180,6 +192,7 @@
     {
       "id": "SURG56-B3-04",
       "type": "cloze",
+      "section": "B3",
       "topic": "Cloze: 3 ngưỡng kích thước T1–T2 của RCC",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngưỡng TNM]</span> Khối u giới hạn trong thận xếp T1a khi kích thước ≤ {{c1::<span style=\"color: #ffd43b; font-weight: bold;\">4 cm</span>}}. Ranh giới chuyển tiếp giữa T1b và T2a là mốc {{c2::<span style=\"color: #ffd43b; font-weight: bold;\">7 cm</span>}}. Ranh giới chuyển tiếp giữa T2a và T2b là mốc {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">10 cm</span>}}.",
@@ -194,6 +207,7 @@
     {
       "id": "SURG56-B4-01",
       "type": "basic",
+      "section": "B4",
       "topic": "Diễn biến sớm & Tần suất Tam chứng Guyon",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Diễn biến lâm sàng]</span> Diễn biến giai đoạn sớm của ung thư thận có đặc điểm gì, tỷ lệ phát hiện tình cờ hiện nay và tỷ lệ gặp Tam chứng cổ điển Guyon?",
@@ -208,6 +222,7 @@
     {
       "id": "SURG56-B4-02",
       "type": "basic",
+      "section": "B4",
       "topic": "Tam chứng Guyon (1): Đái máu đại thể",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Tam chứng Guyon — Triệu chứng 1]</span> Trong Tam chứng cổ điển Guyon (Đái máu đại thể, Đau thắt lưng, Khối u vùng thắt lưng), triệu chứng nào thường gặp nhất và mang 5 tính chất đặc trưng gì?",
@@ -223,6 +238,7 @@
     {
       "id": "SURG56-B4-03",
       "type": "basic",
+      "section": "B4",
       "topic": "Tam chứng Guyon (2 & 3): Đau thắt lưng & Khối u thắt lưng",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Tam chứng Guyon — Triệu chứng 2 & 3]</span> Phân tích 2 cơ chế gây Đau thắt lưng và các đặc điểm thăm khám Khối u vùng thắt lưng theo từng giai đoạn?",
@@ -238,6 +254,7 @@
     {
       "id": "SURG56-B4-04",
       "type": "basic",
+      "section": "B4",
       "topic": "Giãn tĩnh mạch thừng tinh & Hội chứng Wunderlich",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Triệu chứng đặc thù khác]</span> Cơ chế giải phẫu bên trái vs bên phải và tính chất nằm ngửa của Giãn tĩnh mạch thừng tinh do RCC; Hội chứng Wunderlich là gì?",
@@ -253,6 +270,7 @@
     {
       "id": "SURG56-B4-05",
       "type": "basic",
+      "section": "B4",
       "topic": "Hội chứng cận ung thư RCC (6 nhóm biểu hiện)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Hội chứng cận ung thư]</span> Tỷ lệ gặp Hội chứng cận ung thư ở bệnh nhân RCC và cơ chế sinh học của từng biểu hiện toàn thân (ngoài Stauffer)?",
@@ -268,6 +286,7 @@
     {
       "id": "SURG56-B4-06",
       "type": "basic",
+      "section": "B4",
       "topic": "Hội chứng Stauffer",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Hội chứng Stauffer]</span> Định nghĩa, 4 biểu hiện đặc trưng và diễn tiến tiên lượng sau mổ của Hội chứng Stauffer trong ung thư thận?",
@@ -283,6 +302,7 @@
     {
       "id": "SURG56-B5-01",
       "type": "basic",
+      "section": "B5",
       "topic": "Siêu âm ổ bụng & Chụp niệu đồ tĩnh mạch (UIV)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng — Siêu âm & UIV]</span> Trình bày vai trò cùng các thông số khảo sát của Siêu âm ổ bụng và hình ảnh kinh điển của chụp niệu đồ tĩnh mạch (UIV) trong ung thư thận?",
@@ -297,6 +317,7 @@
     {
       "id": "SURG56-B5-02",
       "type": "basic",
+      "section": "B5",
       "topic": "CT Scanner có cản quang — Tiêu chuẩn vàng",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng — Tiêu chuẩn vàng]</span> Phương tiện nào là tiêu chuẩn vàng chẩn đoán ung thư thận; mô tả đặc điểm ngấm/thải thuốc đặc hiệu và 4 thông số đánh giá lan tràn?",
@@ -312,6 +333,7 @@
     {
       "id": "SURG56-B5-03",
       "type": "basic",
+      "section": "B5",
       "topic": "Vai trò MRI & Chụp động mạch thận",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng — MRI & Chụp mạch]</span> Khi nào chụp Cộng hưởng từ (MRI) và Chụp động mạch thận được chỉ định trong ung thư thận?",
@@ -326,6 +348,7 @@
     {
       "id": "SURG56-B6-01",
       "type": "basic",
+      "section": "B6",
       "topic": "U cơ mỡ mạch thận (Angiomyolipoma - AML)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán phân biệt]</span> Bản chất mô học, đặc điểm dịch tễ gợi ý và dấu hiệu khẳng định trên CT của U cơ mỡ mạch thận (AML)?",
@@ -340,6 +363,7 @@
     {
       "id": "SURG56-B6-02",
       "type": "basic",
+      "section": "B6",
       "topic": "Phân biệt Nang thận đơn độc, Thận đa nang & U ngoài nhu mô",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán phân biệt]</span> Đặc điểm phân biệt RCC với Nang thận đơn độc lành tính, Bệnh thận đa nang và Khối u sau phúc mạc / u tuyến thượng thận?",
@@ -354,6 +378,7 @@
     {
       "id": "SURG56-B7-01",
       "type": "basic",
+      "section": "B7",
       "topic": "Phẫu thuật cắt thận triệt căn (Robson)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật triệt căn]</span> Trình bày chỉ định, phạm vi mô cắt bỏ và nguyên tắc kiểm soát mạch máu – huyết khối tĩnh mạch chủ của Phẫu thuật cắt thận triệt căn (Robson)?",
@@ -369,6 +394,7 @@
     {
       "id": "SURG56-B7-02",
       "type": "basic",
+      "section": "B7",
       "topic": "Cắt thận bán phần (NSS) & Can thiệp tối thiểu (RFA/Cryo)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật bảo tồn & Xâm lấn tối thiểu]</span> Chỉ định bắt buộc và tương đối của Phẫu thuật cắt thận bán phần (NSS) cũng như đối tượng áp dụng Đốt sóng cao tần (RFA) / Áp lạnh (Cryoablation)?",
@@ -384,6 +410,7 @@
     {
       "id": "SURG56-B7-03",
       "type": "basic",
+      "section": "B7",
       "topic": "Đề kháng hóa xạ & Liệu pháp nhắm trúng đích (TKI, mTOR)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Điều trị toàn thân — Nhắm trúng đích]</span> Đáp ứng của RCC với hóa trị/xạ trị truyền thống ra sao và kể tên 2 nhóm thuốc Liệu pháp nhắm trúng đích trong RCC di căn?",
@@ -399,6 +426,7 @@
     {
       "id": "SURG56-B7-04",
       "type": "basic",
+      "section": "B7",
       "topic": "Liệu pháp miễn dịch & Vai trò Xạ trị trong RCC",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Miễn dịch & Xạ trị giảm nhẹ]</span> Liệt kê các thuốc Liệu pháp miễn dịch (cổ điển và hiện đại) cùng 2 chỉ định còn lại của Xạ trị trong ung thư thận di căn?",
@@ -414,6 +442,7 @@
     {
       "id": "SURG56-ALGO-01",
       "type": "basic",
+      "section": "B5",
       "topic": "Thuật toán: Lựa chọn CĐHA từ Sàng lọc đến Tiền phẫu",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Chẩn đoán hình ảnh U thận</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Lựa chọn CĐHA từ Sàng lọc đến Tiền phẫu</span>",
@@ -429,6 +458,7 @@
     {
       "id": "SURG56-ALGO-02",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Phẫu thuật Bảo tồn vs Triệt căn vs Xâm lấn tối thiểu",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Xử trí U thận khu trú</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Phẫu thuật Bảo tồn vs Triệt căn vs Xâm lấn tối thiểu</span>",
@@ -445,6 +475,7 @@
     {
       "id": "SURG56-ALGO-03",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Quy trình mổ Robson khi nghi ngờ chồi u tĩnh mạch (T3b–T3c)",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">U thận có huyết khối TMC</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Quy trình mổ Robson khi nghi ngờ chồi u tĩnh mạch (T3b–T3c)</span>",
@@ -461,6 +492,7 @@
     {
       "id": "SURG56-ALGO-04",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Chiến lược điều trị Toàn thân & Xạ trị giảm nhẹ",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Ung thư thận di căn (M1)</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Chiến lược điều trị Toàn thân & Xạ trị giảm nhẹ</span>",
@@ -477,6 +509,7 @@
     {
       "id": "SURG56-TRAP-01",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Chờ đợi đủ Tam chứng Guyon",
       "tier": 1,
       "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân có khối u thận phát hiện trên siêu âm hoặc đái máu đơn độc — Tại sao tuyệt đối không được chờ đủ cả 3 triệu chứng của Tam chứng Guyon mới chẩn đoán RCC?",
@@ -494,6 +527,7 @@
     {
       "id": "SURG56-TRAP-02",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Chủ quan khi đái máu tự cầm",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân đái máu đỏ tươi toàn bãi đột ngột không đau buốt, sau đó tự hết nước tiểu trong lại hoàn toàn — Bẫy lâm sàng chết người nào dễ xảy ra?",
@@ -509,6 +543,7 @@
     {
       "id": "SURG56-TRAP-03",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Giãn tĩnh mạch thừng tinh nằm ngửa không xẹp",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới trên 40 tuổi mới xuất hiện giãn tĩnh mạch thừng tinh (đặc biệt bên phải hoặc nặng lên nhanh) và khi nằm ngửa không xẹp — Sai lầm gì cần tránh?",
@@ -524,6 +559,7 @@
     {
       "id": "SURG56-TRAP-04",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Hội chứng Wunderlich vỡ u sau phúc mạc",
       "tier": 1,
       "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân đột ngột đau hố thắt lưng dữ dội kèm tụt huyết áp, sốc mất máu cấp mà không có chấn thương — Cấp cứu nào đang đe dọa tính mạng ở người có u thận?",
@@ -541,6 +577,7 @@
     {
       "id": "SURG56-TRAP-05",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Nhầm Hội chứng Stauffer với Di căn gan",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân u thận có gan to, men gan tăng, Phosphatase kiềm tăng, đông máu kéo dài hoặc sốt kéo dài 20% — Bẫy tiên lượng sai lầm nào khiến bệnh nhân mất cơ hội phẫu thuật?",
@@ -557,6 +594,7 @@
     {
       "id": "SURG56-TRAP-06",
       "type": "basic",
+      "section": "B5",
       "topic": "Bẫy: Chụp CT cản quang khi suy thận / dị ứng / u lên tâm nhĩ",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân nghi ngờ ung thư thận có suy thận hoặc dị ứng thuốc cản quang, hoặc nghi huyết khối tĩnh mạch chủ dưới lan cao — Sai lầm trong chỉ định CĐHA là gì?",
@@ -572,6 +610,7 @@
     {
       "id": "SURG56-TRAP-07",
       "type": "basic",
+      "section": "B6",
       "topic": "Bẫy: Chẩn đoán nhầm U cơ mỡ mạch thận (AML) thành RCC",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nữ giới có khối u thận đơn độc bên phải, siêu âm tăng âm — Làm thế nào tránh sai lầm cắt bỏ oan một bên thận lành tính?",
@@ -587,6 +626,7 @@
     {
       "id": "SURG56-TRAP-08",
       "type": "basic",
+      "section": "B7",
       "topic": "Bẫy: Bóc tách giải phóng u trước khi thắt cuống mạch",
       "tier": 1,
       "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Trong phẫu thuật cắt thận triệt căn Robson, phẫu thuật viên nắn bóp bóc tách giải phóng khối u thận cho di động rồi mới thắt động – tĩnh mạch thận — Hậu quả chết người là gì?",
@@ -604,6 +644,7 @@
     {
       "id": "SURG56-TRAP-09",
       "type": "basic",
+      "section": "B7",
       "topic": "Bẫy: Dùng hóa xạ trị truyền thống làm phác đồ nền RCC di căn",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân ung thư biểu mô tế bào thận giai đoạn di căn phổi, xương được đề xuất truyền hóa chất toàn thân hoặc xạ trị khối u thận — Sai lầm nằm ở đâu?",

@@ -6,6 +6,7 @@
     {
       "id": "SURG58-B0-01",
       "type": "basic",
+      "section": "B0",
       "topic": "Thứ hạng dịch tễ, tầm soát & Tiên lượng ung thư TTL",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Đại cương]</span> Ung thư tuyến tiền liệt đứng thứ mấy ở nam giới, được phát hiện sớm nhờ công cụ nào, tỷ lệ khỏi sớm vs sống 5 năm muộn là bao nhiêu và đặc điểm diễn biến chung?",
@@ -21,6 +22,7 @@
     {
       "id": "SURG58-B1-01",
       "type": "basic",
+      "section": "B1",
       "topic": "Tuổi tác & Thống kê tỷ lệ mắc vs tử thiết",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguy cơ hàng đầu — Tuổi tác]</span> Yếu tố nguy cơ quan trọng nhất của ung thư tuyến tiền liệt là gì và các con số tỷ lệ mắc trên lâm sàng vs qua tử thiết (autopsies) theo từng khung tuổi?",
@@ -36,6 +38,7 @@
     {
       "id": "SURG58-B1-02",
       "type": "basic",
+      "section": "B1",
       "topic": "Chủng tộc, Gia đình, Chế độ ăn & Nội tiết tố",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Yếu tố nguy cơ khác]</span> Phân bố ung thư TTL theo chủng tộc, tiền sử gia đình (mức tăng nguy cơ), chế độ ăn và vai trò của nội tiết tố?",
@@ -51,6 +54,7 @@
     {
       "id": "SURG58-B1-03",
       "type": "cloze",
+      "section": "B1",
       "topic": "Cloze: Tỷ lệ tử thiết & Tiên lượng sống còn",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thống kê TTL]</span> Phát hiện sớm còn khu trú đạt tỷ lệ điều trị khỏi {{c1::<span style=\"color: #51cf66; font-weight: bold;\">90%</span>}}, ngược lại phát hiện muộn tỷ lệ sống 5 năm chỉ còn {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">dưới 30%</span>}}. Qua tử thiết, tỷ lệ ổ ung thư tiềm tàng ở tuổi 50–60 là {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">20%</span>}} và tuổi 70–80 lên tới {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">50%</span>}}.",
@@ -65,6 +69,7 @@
     {
       "id": "SURG58-B2-01",
       "type": "basic",
+      "section": "B2",
       "topic": "Mô học Adenocarcinoma & Tổn thương tiền ung thư PIN",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh — Mô học]</span> Thể mô học nào chiếm tuyệt đại đa số ung thư TTL, đặc điểm tế bào/tuyến ác tính và phân biệt 2 độ tổn thương tiền ung thư PIN?",
@@ -79,6 +84,7 @@
     {
       "id": "SURG58-B2-02",
       "type": "basic",
+      "section": "B2",
       "topic": "Thang điểm Gleason (1974)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thang điểm Gleason 1974]</span> Cách tính tổng điểm Gleason và ý nghĩa phân tầng độ ác tính của các mức điểm 2–4, 5–6, 7 và 8–10?",
@@ -94,6 +100,7 @@
     {
       "id": "SURG58-B3-01",
       "type": "basic",
+      "section": "B3",
       "topic": "Phân loại TNM: Tx, T0, Tis & T1 (T1a, T1b, T1c)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — Tx, T0, Tis & T1]</span> Định nghĩa Tx, T0, Tis và chi tiết 3 dưới nhóm T1 (T1a, T1b, T1c) trong ung thư tuyến tiền liệt?",
@@ -109,6 +116,7 @@
     {
       "id": "SURG58-B3-02",
       "type": "basic",
+      "section": "B3",
       "topic": "Phân loại TNM: T2, T3 & T4",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — T2, T3 & T4]</span> Phân biệt đầy đủ T2 (T2a, T2b, T2c), T3 (T3a, T3b) và T4 theo vỏ bao tuyến tiền liệt, túi tinh và các tạng lân cận?",
@@ -124,6 +132,7 @@
     {
       "id": "SURG58-B3-03",
       "type": "basic",
+      "section": "B3",
       "topic": "Hạch vùng (N), Di căn xa (M) & Thứ tự di căn xương Batson",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — N, M & Di căn xương]</span> Liệt kê 4 nhóm hạch vùng (N), phân loại M1 (M1a, M1b, M1c), đường dẫn tĩnh mạch và thứ tự 6 vị trí xương hay bị di căn?",
@@ -139,6 +148,7 @@
     {
       "id": "SURG58-B3-04",
       "type": "cloze",
+      "section": "B3",
       "topic": "Cloze: T1a/T1b 5%, T3b túi tinh & Tĩnh mạch Batson",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Mốc TNM TTL]</span> Ung thư tình cờ qua mảnh cắt nội soi xếp T1a khi chiếm {{c1::<span style=\"color: #51cf66; font-weight: bold;\">≤ 5%</span>}} mô cắt và T1b khi > 5%. Phá vỡ vỏ bao xâm lấn túi tinh xếp giai đoạn {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">T3b</span>}}. Di căn xương đi theo đường {{c3::<span style=\"color: #74c0fc; font-weight: bold;\">đám rối tĩnh mạch Batson không có van</span>}}.",
@@ -153,6 +163,7 @@
     {
       "id": "SURG58-B4-01",
       "type": "basic",
+      "section": "B4",
       "topic": "Triệu chứng đường tiểu dưới: Tắc nghẽn vs Kích thích",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng — Đường tiểu dưới]</span> Vì sao giai đoạn sớm thường im lặng và khi u phát triển gây ra những triệu chứng nào trong Hội chứng tắc nghẽn và Hội chứng kích thích?",
@@ -167,6 +178,7 @@
     {
       "id": "SURG58-B4-02",
       "type": "basic",
+      "section": "B4",
       "topic": "5 dấu hiệu nặng khi u xâm lấn hoặc di căn",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng — Dấu hiệu nặng]</span> Kể đủ 5 nhóm dấu hiệu báo động bệnh nặng hoặc đã di căn xa trong ung thư tuyến tiền liệt?",
@@ -182,6 +194,7 @@
     {
       "id": "SURG58-B4-03",
       "type": "basic",
+      "section": "B4",
       "topic": "Thăm trực tràng bằng tay (DRE) sớm vs muộn",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thăm trực tràng DRE]</span> Mô tả kết quả sờ nắn tuyến tiền liệt qua thăm trực tràng bằng tay (DRE) ở giai đoạn sớm vs giai đoạn muộn?",
@@ -197,6 +210,7 @@
     {
       "id": "SURG58-B5-01",
       "type": "basic",
+      "section": "B5",
       "topic": "Bản chất PSA, 3 dạng trong máu & Giới hạn PSA theo tuổi",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — Sinh học & Ngưỡng tuổi]</span> Bản chất và mức giải phóng PSA trong ung thư TTL, 3 dạng PSA máu (tỷ lệ cPSA vs fPSA) và giới hạn tPSA bình thường theo 4 nhóm tuổi?",
@@ -212,6 +226,7 @@
     {
       "id": "SURG58-B5-02",
       "type": "basic",
+      "section": "B5",
       "topic": "Ý nghĩa lâm sàng 5 mốc nồng độ PSA",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — 5 mốc lâm sàng]</span> Ý nghĩa tiên lượng ung thư và hướng xử trí ứng với 5 mốc nồng độ PSA: < 4, 4–10 (vùng xám), > 10, > 20 và > 100 ng/ml?",
@@ -227,6 +242,7 @@
     {
       "id": "SURG58-B5-03",
       "type": "basic",
+      "section": "B5",
       "topic": "3 chỉ số phụ trợ PSA vùng xám: f/tPSA, PSAD, PSAV",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — Chỉ số Vùng xám 4–10 ng/ml]</span> Công thức, ngưỡng cắt chỉ định sinh thiết và các giá trị tham chiếu của 3 chỉ số: Tỷ lệ fPSA/tPSA, Tỷ trọng PSAD và Tốc độ PSAV?",
@@ -242,6 +258,7 @@
     {
       "id": "SURG58-B5-04",
       "type": "basic",
+      "section": "B5",
       "topic": "Men máu ALP/PAP & Tiêu chuẩn vàng Sinh thiết TTL qua TRUS",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Men máu & Sinh thiết TTL]</span> Giá trị của men Phosphatase kiềm (ALP), PAP và kỹ thuật thực hiện Tiêu chuẩn vàng chẩn đoán xác định ung thư tuyến tiền liệt?",
@@ -257,6 +274,7 @@
     {
       "id": "SURG58-B5-05",
       "type": "basic",
+      "section": "B5",
       "topic": "Chẩn đoán hình ảnh: TRUS, mpMRI PI-RADS, Xạ hình xương & PET-CT",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng — Hình ảnh học]</span> Vai trò và dấu hiệu đặc trưng của Siêu âm TRUS, mpMRI (PI-RADS), Xạ hình xương Tc-99m và CT/PET-CT PSMA?",
@@ -271,6 +289,7 @@
     {
       "id": "SURG58-B5-06",
       "type": "cloze",
+      "section": "B5",
       "topic": "Cloze: Các ngưỡng sinh thiết PSA & Vùng xám",
       "tier": 1,
       "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngưỡng sinh thiết PSA]</span> Bắt buộc sinh thiết bất kể kết quả DRE khi tPSA > {{c1::<span style=\"color: #ff6b6b; font-weight: bold;\">10 ng/ml</span>}}. Trong vùng xám 4–10 ng/ml, sinh thiết ngay nếu fPSA/tPSA < {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">15%</span>}}. Ngưỡng tỷ trọng cảnh báo ác tính là PSAD > {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">0,15</span>}}. Ngưỡng tốc độ tăng cảnh báo cao là PSAV > {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">0,75 ng/ml/năm</span>}}.",
@@ -285,6 +304,7 @@
     {
       "id": "SURG58-B6-01",
       "type": "basic",
+      "section": "B6",
       "topic": "4 nhóm Chẩn đoán phân biệt Ung thư TTL",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán phân biệt]</span> Làm thế nào phân biệt Ung thư tuyến tiền liệt với Tăng sản lành tính (BPH), Viêm TTL, Sỏi TTL và các bệnh lý bàng quang/niệu đạo?",
@@ -299,6 +319,7 @@
     {
       "id": "SURG58-B6-02",
       "type": "basic",
+      "section": "B6",
       "topic": "Chương trình Tầm soát định kỳ & Lối sống phòng bệnh",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Tầm soát & Phòng bệnh]</span> Độ tuổi bắt đầu tầm soát (thông thường vs nguy cơ gia đình), 3 bước khám định kỳ hàng năm và các chất chống oxy hóa trong dinh dưỡng phòng bệnh?",
@@ -314,6 +335,7 @@
     {
       "id": "SURG58-B7-01",
       "type": "basic",
+      "section": "B7",
       "topic": "Nguyên tắc điều trị theo giai đoạn & Theo dõi tích cực",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguyên tắc & Theo dõi tích cực]</span> Mục tiêu điều trị giữa giai đoạn khu trú vs tiến triển/di căn; tiêu chuẩn lựa chọn và lịch trình Theo dõi tích cực (Active Surveillance)?",
@@ -329,6 +351,7 @@
     {
       "id": "SURG58-B7-02",
       "type": "basic",
+      "section": "B7",
       "topic": "Phẫu thuật cắt toàn bộ tuyến tiền liệt triệt căn",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật triệt căn]</span> Đối tượng áp dụng, phạm vi giải phẫu cắt bỏ – tạo hình, tỷ lệ sống không bệnh 10 năm và các tai biến – biến chứng của Phẫu thuật cắt toàn bộ TTL triệt căn?",
@@ -344,6 +367,7 @@
     {
       "id": "SURG58-B7-03",
       "type": "basic",
+      "section": "B7",
       "topic": "Xạ trị (EBRT, Brachytherapy) & Phẫu thuật áp lạnh",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xạ trị & Áp lạnh]</span> Trình bày liều lượng của Xạ trị chiếu ngoài (EBRT), nguồn phóng xạ dùng trong Cấy hạt phóng xạ (Brachytherapy) và ngưỡng nhiệt độ của Phẫu thuật áp lạnh (Cryosurgery)?",
@@ -359,10 +383,11 @@
     {
       "id": "SURG58-B7-04",
       "type": "basic",
+      "section": "B7",
       "topic": "Liệu pháp nội tiết cắt bỏ Androgen (ADT) & Hiệu ứng Flare-up",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nội tiết ADT]</span> Cơ chế của ADT, so sánh Cắt 2 tinh hoàn ngoại khoa vs Đồng vận LHRH/GnRH (thuốc & hiệu ứng flare-up), Kháng Androgen và Phong bế toàn diện CAB?",
-      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý:</b> Tế bào ung thư TTL phụ thuộc <span style=\"color: #74c0fc; font-weight: bold;\">Testosterone</span> → cắt nguồn Androgen làm tế bào u teo nhỏ và ngừng phát triển.<br>2) <b>Cắt 2 tinh hoàn ngoại khoa:</b> Đơn giản, nhanh, hạ Testosterone xuống nồng độ thiến (<span style=\"color: #51cf66; font-weight: bold;\">< 50 ng/dL</span>) chỉ sau <span style=\"color: #51cf66; font-weight: bold;\">24 giờ</span>.<br>3) <b>Đồng vận LHRH/GnRH (<span style=\"color: #74c0fc; font-weight: bold;\">Goserelin/Zoladex, Leuprolide/Eligard, Triptorelin</span>):</b> Ban đầu gây tăng tiết Testosterone thoáng qua (<span style=\"color: #ff6b6b; font-weight: bold;\">hiệu ứng bùng phát \"flare-up\"</span> → phải che phủ bằng kháng androgen); sau <span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 tuần</span> mới ức chế tuyến yên hạ về mức thiến.<br>4) <b>Kháng Androgen (<span style=\"color: #74c0fc; font-weight: bold;\">Bicalutamide, Flutamide</span>):</b> Ngăn Testosterone gắn thụ thể tại tế bào u.<br>5) <b>Phong bế toàn diện (CAB):</b> Kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) + kháng androgen.<br><br>💡 Giải thích của AI:<br>Cần phân biệt hai nguồn androgen: 90–95% từ tinh hoàn và 5–10% từ vỏ thượng thận. Phối hợp <span style=\"color: #74c0fc; font-weight: bold;\">CAB</span> triệt tiêu cả nguồn tinh hoàn lẫn phần thượng thận tại thụ thể tế bào u.",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý:</b> Tế bào ung thư TTL phụ thuộc <span style=\"color: #74c0fc; font-weight: bold;\">Testosterone</span> → cắt nguồn Androgen làm tế bào u teo nhỏ và ngừng phát triển.<br>2) <b>Cắt 2 tinh hoàn ngoại khoa:</b> Đơn giản, nhanh, hạ Testosterone xuống nồng độ thiến (<span style=\"color: #51cf66; font-weight: bold;\">< 50 ng/dL</span>) chỉ sau <span style=\"color: #51cf66; font-weight: bold;\">24 giờ</span>.<br>3) <b>Đồng vận LHRH/GnRH (<span style=\"color: #74c0fc; font-weight: bold;\">Goserelin/Zoladex, Leuprolide/Eligard, Triptorelin</span>):</b> Ban đầu gây tăng tiết Testosterone thoáng qua (<span style=\"color: #ff6b6b; font-weight: bold;\">hiệu ứng bùng phát \"flare-up\"</span> → phải che phủ bằng kháng androgen); sau <span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 tuần</span> mới ức chế tuyến yên hạ về mức thiến.<br>4) <b>Kháng Androgen (<span style=\"color: #74c0fc; font-weight: bold;\">Bicalutamide, Flutamide</span>):</b> Ngăn Testosterone gắn thụ thể tại tế bào u.<br>5) <b>Phong bế toàn diện (CAB):</b> Kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) + kháng androgen.<br><br>💡 Giải thích của AI:<br>Phối hợp <span style=\"color: #74c0fc; font-weight: bold;\">CAB</span> kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) với thuốc kháng androgen giúp triệt tiêu toàn diện nguồn kích thích tăng trưởng khối u tại thụ thể tế bào.",
       "extra": "[B7.04]",
       "tags": [
         "Ngoai::SURG-58::B7",
@@ -374,6 +399,7 @@
     {
       "id": "SURG58-B7-05",
       "type": "basic",
+      "section": "B7",
       "topic": "Điều trị giai đoạn kháng cắt tinh hoàn (CRPC)",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giai đoạn kháng thiến CRPC]</span> Khi ung thư tiến triển thành giai đoạn kháng cắt tinh hoàn (CRPC), những phác đồ hóa chất và thuốc nội tiết thế hệ mới nào được sử dụng?",
@@ -389,6 +415,7 @@
     {
       "id": "SURG58-B7-06",
       "type": "basic",
+      "section": "B7",
       "topic": "Xử trí 4 biến chứng cấp tính & Chăm sóc giảm nhẹ",
       "tier": 1,
       "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xử trí biến chứng cấp]</span> Biện pháp can thiệp cụ thể cho 4 biến chứng nặng của ung thư TTL tiến triển: Bí đái cấp, Vô niệu do tắc 2 niệu quản, Đau xương di căn và Chèn ép tủy sống cấp?",
@@ -404,6 +431,7 @@
     {
       "id": "SURG58-ALGO-01",
       "type": "basic",
+      "section": "B5",
       "topic": "Thuật toán: Phân tầng tPSA & Các chỉ số phụ trợ vùng xám",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Quyết định Sinh thiết TTL</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Phân tầng tPSA & Các chỉ số phụ trợ vùng xám</span>",
@@ -420,6 +448,7 @@
     {
       "id": "SURG58-ALGO-02",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Lựa chọn Theo dõi tích cực vs Phẫu thuật vs Xạ trị",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Điều trị Ung thư TTL khu trú</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Lựa chọn Theo dõi tích cực vs Phẫu thuật vs Xạ trị</span>",
@@ -436,6 +465,7 @@
     {
       "id": "SURG58-ALGO-03",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Chuỗi Liệu pháp Cắt Androgen (ADT) đến Kháng thiến",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Điều trị Toàn thân T3–T4 / Di căn & CRPC</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Chuỗi Liệu pháp Cắt Androgen (ADT) đến Kháng thiến</span>",
@@ -453,6 +483,7 @@
     {
       "id": "SURG58-ALGO-04",
       "type": "basic",
+      "section": "B7",
       "topic": "Thuật toán: Xử trí nhanh Bí đái, Vô niệu, Đau xương & Chèn ép tủy",
       "tier": 1,
       "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Cấp cứu Ung thư TTL tiến triển</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Xử trí nhanh Bí đái, Vô niệu, Đau xương & Chèn ép tủy</span>",
@@ -469,6 +500,7 @@
     {
       "id": "SURG58-TRAP-01",
       "type": "basic",
+      "section": "B4",
       "topic": "Bẫy: Đợi tiểu khó / bí tiểu mới tầm soát ung thư TTL",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới 55 tuổi hoàn toàn không tiểu khó, không tiểu đêm — Vì sao bác sĩ vẫn không được loại trừ ung thư TTL nếu chưa làm DRE và PSA?",
@@ -485,6 +517,7 @@
     {
       "id": "SURG58-TRAP-02",
       "type": "basic",
+      "section": "B5",
       "topic": "Bẫy: Bỏ qua sinh thiết khi PSA > 10 mà DRE bình thường (hoặc vùng xám)",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Thăm trực tràng (DRE) thấy tuyến tiền liệt mềm nhẵn hoàn toàn bình thường nhưng xét nghiệm PSA máu đạt 12 ng/ml (hoặc PSA 6 ng/ml với f/tPSA = 11%) — Bẫy bỏ sót là gì?",
@@ -501,6 +534,7 @@
     {
       "id": "SURG58-TRAP-03",
       "type": "basic",
+      "section": "B6",
       "topic": "Bẫy: Nhầm tăng PSA do Viêm TTL cấp với Ung thư TTL",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân nam sốt nóng, tuyến tiền liệt sưng đau tức, bạch cầu niệu cao và xét nghiệm PSA tăng 14 ng/ml — Sai lầm xử trí là gì?",
@@ -517,6 +551,7 @@
     {
       "id": "SURG58-TRAP-04",
       "type": "basic",
+      "section": "B5",
       "topic": "Bẫy: Sinh thiết TTL quá ít mẫu bỏ sót vùng ngoại vi",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Thấy nốt nghi ngờ ở một thùy TTL nên chỉ bấm 1–2 mẫu kim tại điểm đó và trả về lành tính — Bẫy kỹ thuật sinh thiết nằm ở đâu?",
@@ -532,6 +567,7 @@
     {
       "id": "SURG58-TRAP-05",
       "type": "basic",
+      "section": "B3",
       "topic": "Bẫy: Chủ quan với Đau lưng tăng về đêm ở nam lớn tuổi",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới trên 60 tuổi đau thắt lưng kéo dài tăng mạnh về đêm, xét nghiệm thấy Phosphatase kiềm (ALP) tăng cao và PSA > 100 ng/ml — Đừng điều trị nhầm như thoái hóa cột sống đơn thuần?",
@@ -548,6 +584,7 @@
     {
       "id": "SURG58-TRAP-06",
       "type": "basic",
+      "section": "B7",
       "topic": "Bẫy: Tiêm đồng vận LHRH đơn độc gây hiệu ứng Flare-up",
       "tier": 1,
       "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân ung thư TTL di căn cột sống (M1b) được tiêm Goserelin (Zoladex) hoặc Leuprolide đơn độc ngày đầu mà không dùng thuốc kháng Androgen kèm theo — Tai biến nguy kịch nào sẽ xảy ra?",
@@ -565,6 +602,7 @@
     {
       "id": "SURG58-TRAP-07",
       "type": "basic",
+      "section": "B7",
       "topic": "Bẫy: Bỏ qua cửa sổ vàng Chèn ép tủy sống cấp 24–48 giờ",
       "tier": 1,
       "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân ung thư TTL di căn cột sống thắt lưng đột ngột than yếu hai chân và bí tiểu cấp — Nếu trì hoãn chờ hội chẩn qua vài ngày sẽ mất gì và phác đồ tối khẩn là gì?",
@@ -582,6 +620,7 @@
     {
       "id": "SURG58-TRAP-08",
       "type": "basic",
+      "section": "B7",
       "topic": "Bẫy: Mở rộng cắt TTL triệt căn sai đối tượng / quên tư vấn biến chứng",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân ung thư TTL T3b (ăn túi tinh) hoặc nam giới 76 tuổi bệnh tim nặng đòi phẫu thuật cắt toàn bộ TTL triệt căn — Sai lầm nằm ở chỉ định và tư vấn nào?",
@@ -598,6 +637,7 @@
     {
       "id": "SURG58-TRAP-09",
       "type": "basic",
+      "section": "B6",
       "topic": "Bẫy: Áp dụng mốc tầm soát 50 tuổi cứng nhắc cho người có bố/anh em mắc bệnh",
       "tier": 1,
       "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới 42 tuổi có bố và anh trai từng mắc ung thư TTL đến khám tổng quát, bác sĩ hẹn tới năm 50 tuổi mới làm DRE và PSA — Sai sót dự phòng ở đâu?",

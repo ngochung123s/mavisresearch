@@ -34,6 +34,7 @@ def basic(cid, section, topic, tier, front, core, ai, barem, tags, red_flag=Fals
     res = {
         "id": cid,
         "type": "basic",
+        "section": section,
         "topic": topic,
         "tier": tier,
         "front": front,
@@ -69,6 +70,7 @@ def cloze(cid, section, topic, text, barem, tags):
     return {
         "id": cid,
         "type": "cloze",
+        "section": section,
         "topic": topic,
         "tier": 1,
         "text": text,
@@ -349,7 +351,7 @@ cards_data = [
         f"3) <b>Đồng vận LHRH/GnRH ({B('Goserelin/Zoladex, Leuprolide/Eligard, Triptorelin')}):</b> Ban đầu gây tăng tiết Testosterone thoáng qua ({R('hiệu ứng bùng phát \"flare-up\"')} → phải che phủ bằng kháng androgen); sau {Y('2 – 3 tuần')} mới ức chế tuyến yên hạ về mức thiến.<br>"
         f"4) <b>Kháng Androgen ({B('Bicalutamide, Flutamide')}):</b> Ngăn Testosterone gắn thụ thể tại tế bào u.<br>"
         f"5) <b>Phong bế toàn diện (CAB):</b> Kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) + kháng androgen.",
-        f"Cần phân biệt hai nguồn androgen: 90–95% từ tinh hoàn và 5–10% từ vỏ thượng thận. Phối hợp {B('CAB')} triệt tiêu cả nguồn tinh hoàn lẫn phần thượng thận tại thụ thể tế bào u.",
+        f"Phối hợp {B('CAB')} kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) với thuốc kháng androgen giúp triệt tiêu toàn diện nguồn kích thích tăng trưởng khối u tại thụ thể tế bào.",
         "B7.04", ["Dieu-tri", "Noi-tiet"],
     ),
     basic(

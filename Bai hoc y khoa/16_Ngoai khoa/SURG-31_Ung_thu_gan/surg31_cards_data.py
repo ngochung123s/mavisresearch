@@ -33,6 +33,7 @@ def basic(cid, section, topic, tier, front, core, ai, barem, tags, red_flag=Fals
     res = {
         "id": cid,
         "type": "basic",
+        "section": section,
         "topic": topic,
         "tier": tier,
         "front": front,
@@ -66,6 +67,7 @@ def cloze(cid, section, topic, text, barem, tags):
     return {
         "id": cid,
         "type": "cloze",
+        "section": section,
         "topic": topic,
         "tier": 2,
         "text": text,
@@ -129,7 +131,7 @@ cards_data = [
         f"1) <b>Siêu âm thường &amp; Doppler:</b> Phát hiện u có kích thước {Y('≥ 1 cm')}; dấu hiệu {G('quầng giảm siêu âm quanh u')} tương đối đặc hiệu (nhiều khi tốt hơn CT); Doppler màu giúp {B('phân biệt HCC với u máu lành tính')}; phát hiện {R('huyết khối tĩnh mạch cửa')}.<br>"
         f"2) <b>CT Scanner gan có cản quang:</b> Dấu hiệu kinh điển là {G('ngấm thuốc nhanh thì động mạch và thải thuốc nhanh thì tĩnh mạch (wash-out)')}.<br>"
         f"3) <b>Vai trò CT:</b> Xác định vị trí, số lượng, định khu hạ phân thùy, đánh giá khả năng cắt u, di căn/ổ vệ tinh, xơ gan, lách to, cổ trướng.",
-        "Hiện tượng wash-out phản ánh khối ung thư được nuôi chủ yếu bằng động mạch gan (90–100%) trong khi nhu mô gan lành được cấp máu chính bởi tĩnh mạch cửa (75%).",
+        "Hiện tượng wash-out phản ánh khối ung thư được nuôi chủ yếu bằng động mạch gan và các mạch máu xung quanh, tương phản với mô hình cấp máu của nhu mô gan lành.",
         "B1.03, B1.04", ["Sieu-am", "CT-Scanner", "Wash-out"],
     ),
     basic(
@@ -146,11 +148,11 @@ cards_data = [
     basic(
         "SURG31-B1-04", "B1", "Chẩn đoán phân biệt HCC", 1,
         f"{B('[Chẩn đoán phân biệt HCC]')} Cần phân biệt ung thư biểu mô tế bào gan với {Y('5 nhóm tổn thương gan')} nào?",
-        f"1) {G('Áp xe gan')}: Thường có hội chứng nhiễm trùng rầm rộ, sốt cao, đau hạ sườn phải, bạch cầu tăng, hình ảnh ổ giảm âm thành dày.<br>"
-        f"2) {G('U máu lành tính của gan (Hemangioma)')}: Không có xơ gan, ngấm thuốc từ ngoại vi vào trung tâm trên CT, Doppler màu phân biệt rõ.<br>"
-        f"3) {G('Nang gan (U nang gan)')}: Cấu trúc rỗng âm, thành mỏng đều, tăng âm phía sau.<br>"
-        f"4) {Y('Ung thư đường mật trong gan (Cholangiocarcinoma)')}: Thường tăng CA 19-9, không tăng AFP, ngấm thuốc thì muộn.<br>"
-        f"5) {R('Ung thư di căn gan')}: Thường nhiều ổ, rải rác hai thùy, có tiền sử khối u nguyên phát ở {B('dạ dày, đại tràng, trực tràng...')}.",
+        f"1) {G('Áp xe gan')}.<br>"
+        f"2) {G('U máu gan lành tính (Hemangioma)')} (phân biệt nhờ siêu âm Doppler màu và chụp CT Scanner).<br>"
+        f"3) {G('U nang gan')}.<br>"
+        f"4) {Y('Ung thư đường mật trong gan (Cholangiocarcinoma)')}.<br>"
+        f"5) {R('Ung thư di căn gan')} (từ {B('dạ dày, đại tràng, trực tràng...')}).",
         "Trên bệnh nhân có xơ gan và nhiễm virus viêm gan B mạn, bất kỳ khối u đặc mới xuất hiện nào cũng phải ưu tiên nghĩ tới HCC đầu tiên cho đến khi có bằng chứng ngược lại.",
         "B1.08", ["Chan-doan-phan-biet", "Hemangioma", "Di-can-gan"],
     ),
@@ -283,7 +285,7 @@ cards_data = [
         "SURG31-B5-02", "B5", "Ghép gan & Tiêu chuẩn Milan", 1,
         f"{B('[Ghép gan trong HCC]')} Ghép gan là hy vọng tốt nhất cho trường hợp nào và theo tiêu chuẩn nào?",
         f"1) <b>Đối tượng chỉ định:</b> Là hy vọng tốt nhất cho trường hợp {G('khối u gan còn khu trú')} nhưng {R('kèm theo xơ gan nặng (Child-Pugh B, C)')} không thể chịu đựng được cuộc phẫu thuật cắt gan.<br>"
-        f"2) <b>Nguyên tắc Milan:</b> Đang từng bước phát triển áp dụng theo {B('tiêu chuẩn Milan')} (u đơn độc ≤ 5 cm hoặc ≤ 3 u mỗi u ≤ 3 cm, chưa xâm lấn mạch máu).",
+        f"2) <b>Nguyên tắc triển khai:</b> Đang từng bước phát triển áp dụng theo {B('tiêu chuẩn Milan')}.",
         "Ghép gan vừa giải quyết triệt để khối ung thư vừa loại bỏ hoàn toàn ổ bệnh xơ gan nền mạn tính.",
         "B5.03", ["Ghep-gan", "Milan"],
     ),
@@ -404,7 +406,7 @@ cards_data = [
         "SURG31-TRAP-01", "B1", "Bẫy bỏ sót HCC giai đoạn sớm",
         "Bệnh nhân có xơ gan HBV mạn tính đến khám với lý do đau tức vùng gan, vàng da rõ và cổ trướng — liệu có thể đặt mục tiêu phẫu thuật triệt căn?",
         f"1) <b>Bẫy lâm sàng:</b> Tuyệt đối không — khi xuất hiện các triệu chứng rầm rộ (vàng da, cổ trướng, suy kiệt) thì u thường đã ở giai đoạn muộn và {R('hết khả năng điều trị khỏi')}.<br>"
-        f"2) <b>Hành động đúng:</b> Muốn phát hiện sớm phải chủ động {G('siêu âm gan định kỳ 3–6 tháng/lần')} ở nhóm có nguy cơ cao để phát hiện u kích thước nhỏ {Y('≥ 1 cm')}.",
+        f"2) <b>Hành động đúng:</b> Muốn phát hiện sớm phải chủ động {G('siêu âm gan định kỳ')} ở nhóm có nguy cơ cao để phát hiện khối u kích thước nhỏ {Y('≥ 1 cm')}.",
         "Chẩn đoán sớm HCC là cuộc rượt đuổi chủ động bằng siêu âm định kỳ trên người lành mang virus, không thể chờ bệnh nhân có triệu chứng mới đi khám.",
         "B1.01, B1.02", ["Bay-lam-sang", "Tam-soat-som"],
     ),
@@ -419,7 +421,7 @@ cards_data = [
     trap(
         "SURG31-TRAP-03", "B1", "Bẫy loại trừ ung thư khi AFP bình thường",
         "Bệnh nhân nam 55 tuổi có HBsAg(+), siêu âm thấy khối giảm âm ở hạ phân thùy VI đường kính 2,5 cm, nhưng xét nghiệm AFP chỉ 12 ng/ml (bình thường). Có được kết luận loại trừ ung thư gan?",
-        f"1) <b>Bẫy lâm sàng:</b> {R('Tuyệt đối không được loại trừ ung thư')} — khoảng 30% bệnh nhân HCC có AFP không tăng cao hoặc âm tính.<br>"
+        f"1) <b>Bẫy lâm sàng:</b> {R('Tuyệt đối không được loại trừ ung thư')} — barem ghi nhận khoảng 70% bệnh nhân HCC có AFP > 3.500 ng/ml, vẫn còn nhiều trường hợp AFP âm tính.<br>"
         f"2) <b>Hành động đúng:</b> Bệnh nhân có khối u gan kèm HBsAg(+) dù AFP âm tính vẫn phải chỉ định {G('chụp CT Scanner gan đa dãy (tìm dấu hiệu wash-out)')} và {G('sinh thiết kim Menghini dưới hướng dẫn siêu âm')} để xác định chẩn đoán.",
         "Công thức chẩn đoán thứ 2: Hình ảnh khối u + Sinh thiết HCC = Ung thư gan. Không phụ thuộc hoàn toàn vào AFP đơn độc.",
         "B1.05, B1.06, B1.07", ["Bay-lam-sang", "AFP-am-tinh"],
@@ -427,15 +429,15 @@ cards_data = [
     trap(
         "SURG31-TRAP-04", "B5", "Bẫy chống chỉ định tiêm cồn Ethanol (PEI)",
         "Tại sao không được chỉ định tiêm cồn tuyệt đối (PEI) cho khối u gan nằm sát bề mặt bao gan hoặc ở bệnh nhân có cổ trướng nhiều và rối loạn đông máu?",
-        f"1) <b>Khối u sát bao gan / rốn gan:</b> Cồn 99% dễ tràn ra bao gan gây {R('đau chói dữ dội, sốc phản vệ, viêm phúc mạc hóa chất')} hoặc {R('hoại tử cuống mạch và đường mật chính')}.<br>"
-        f"2) <b>Cổ trướng nhiều &amp; Rối loạn đông máu:</b> Cổ trướng làm cồn bị pha loãng mất tác dụng; rối loạn đông máu làm tăng nguy cơ {R('chảy máu trong ổ bụng không cầm được')} khi đâm kim qua da.",
+        f"1) <b>Khối u sát bao gan / rốn gan:</b> Không đáp ứng tiêu chuẩn an toàn của PEI (chỉ định đòi hỏi u nằm sâu trong nhu mô gan xa bao gan và rốn gan).<br>"
+        f"2) <b>4 chống chỉ định bắt buộc thuộc:</b> {R('Cổ trướng nhiều')}, {R('rối loạn đông máu')}, {R('vàng da tắc mật')} và {R('huyết khối tĩnh mạch cửa')}.",
         "Chỉ định PEI lý tưởng: u ≤ 3 khối, đường kính < 3 cm, nằm sâu trong nhu mô gan xa bao gan và rốn gan.",
         "B5.04", ["Bay-lam-sang", "PEI", "Chong-chi-dinh"],
     ),
     trap(
         "SURG31-TRAP-05", "B5", "Cờ đỏ — Bẫy chỉ định TACE khi có Huyết khối Tĩnh mạch cửa",
         "Bệnh nhân HCC nhiều ổ, Child-Pugh A, CT Scanner phát hiện có huyết khối xâm lấn thân chính tĩnh mạch cửa. Tại sao tuyệt đối chống chỉ định làm TACE?",
-        f"1) <b>Cờ đỏ sinh lý bệnh:</b> Tế bào gan được cấp máu kép (75% từ TM cửa, 25% từ ĐM gan). Khi đã có {R('huyết khối tĩnh mạch cửa')}, nhu mô gan sống dựa vào động mạch gan.<br>"
+        f"1) <b>Cờ đỏ huyết động:</b> Khi đã có {R('huyết khối tĩnh mạch cửa')}, dòng máu cửa suy giảm nghiêm trọng khiến nhu mô gan sống dựa vào động mạch gan.<br>"
         f"2) <b>Tai biến nếu làm TACE:</b> Bơm hóa dầu nút tắc động mạch gan sẽ làm {R('hoại tử toàn bộ nhu mô gan cấp tính')}, dẫn tới suy gan bùng phát và tử vong nhanh chóng.<br>"
         f"3) <b>Hướng xử trí đúng:</b> Chuyển sang {G('Xạ trị ngoài liều 60–70 Gy')} hoặc {G('Điều trị đích (Sorafenib)')}.",
         "Huyết khối tĩnh mạch cửa là cờ đỏ tối khẩn cấp loại trừ hoàn toàn chỉ định làm hóa dầu nút mạch TACE.",

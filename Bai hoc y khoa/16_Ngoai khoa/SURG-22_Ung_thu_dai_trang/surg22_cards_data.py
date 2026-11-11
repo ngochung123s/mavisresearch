@@ -34,6 +34,7 @@ def basic(cid, section, topic, tier, front, core, ai, barem, tags, red_flag=Fals
     res = {
         "id": cid,
         "type": "basic",
+        "section": section,
         "topic": topic,
         "tier": tier,
         "front": front,
@@ -69,6 +70,7 @@ def cloze(cid, section, topic, text, barem, tags):
     return {
         "id": cid,
         "type": "cloze",
+        "section": section,
         "topic": topic,
         "tier": 1,
         "text": text,
@@ -223,18 +225,18 @@ cards_data = [
     basic(
         "SURG22-B4-01", "B4", "Phân loại giai đoạn Astler - Coller A, B1 và B2", 1,
         f"{B('[Phân loại Astler - Coller]')} Tiêu chuẩn giải phẫu bệnh chi tiết của 3 giai đoạn {G('Giai đoạn A')}, {Y('Giai đoạn B1')} và {R('Giai đoạn B2')}?",
-        f"1) <b>Giai đoạn A:</b> Khối u khu trú ở {G('lớp niêm mạc và dưới niêm mạc')}, {Y('chưa xâm lấn vào lớp cơ')}, chưa có di căn hạch (T1 N0 M0).<br>"
-        f"2) <b>Giai đoạn B1:</b> Khối u đã {Y('xâm lấn vào lớp cơ')} nhưng {Y('chưa vượt qua lớp cơ')} (chưa tới thanh mạc), chưa có di căn hạch (T2 N0 M0).<br>"
-        f"3) <b>Giai đoạn B2:</b> Khối u {R('xâm lấn xuyên thủng toàn bộ lớp cơ')} tới thanh mạc hoặc ra mô mỡ quanh đại tràng, {Y('chưa có di căn hạch')} (T3-T4 N0 M0).",
+        f"1) <b>Giai đoạn A:</b> Khối u khu trú ở {G('lớp niêm mạc và dưới niêm mạc')}, {Y('chưa xâm lấn vào lớp cơ')}, chưa có di căn hạch.<br>"
+        f"2) <b>Giai đoạn B1:</b> Khối u đã {Y('xâm lấn vào lớp cơ')} nhưng {Y('chưa vượt qua lớp cơ')} (chưa tới thanh mạc), chưa có di căn hạch.<br>"
+        f"3) <b>Giai đoạn B2:</b> Khối u {R('xâm lấn xuyên thủng toàn bộ lớp cơ')} tới thanh mạc hoặc ra mô mỡ quanh đại tràng, {Y('chưa có di căn hạch')}.",
         "Giai đoạn B phân định bởi độ sâu lớp cơ: B1 chưa qua cơ, B2 đã xuyên qua cơ tới thanh mạc / mô mỡ quanh ruột (tất cả hạch đều âm tính).",
         "B4.01, B4.02, B4.03", ["Astler-Coller", "Giai-doan-A", "Giai-doan-B1", "Giai-doan-B2"],
     ),
     basic(
         "SURG22-B4-02", "B4", "Phân loại giai đoạn Astler - Coller C1, C2 và D", 1,
         f"{B('[Phân loại Astler - Coller]')} Tiêu chuẩn giải phẫu bệnh chi tiết của 3 giai đoạn {Y('Giai đoạn C1')}, {R('Giai đoạn C2')} và {R('Giai đoạn D')}?",
-        f"1) <b>Giai đoạn C1:</b> Khối u {Y('chưa vượt quá lớp cơ')} (tương ứng độ sâu B1) nhưng {R('ĐÃ CÓ di căn hạch vùng')} (T2 N+ M0).<br>"
-        f"2) <b>Giai đoạn C2:</b> Khối u {R('đã xâm lấn xuyên qua lớp cơ tới thanh mạc / mô quanh đại tràng')} (tương ứng độ sâu B2) và {R('ĐÃ CÓ di căn hạch vùng')} (T3-T4 N+ M0).<br>"
-        f"3) <b>Giai đoạn D:</b> Khối u ở bất kỳ mức độ xâm lấn nào nhưng {R('ĐÃ CÓ di căn xa')} (gan, phổi, phúc mạc, buồng trứng... M1).",
+        f"1) <b>Giai đoạn C1:</b> Khối u {Y('chưa vượt quá lớp cơ')} (tương ứng độ sâu B1) nhưng {R('ĐÃ CÓ di căn hạch vùng')}.<br>"
+        f"2) <b>Giai đoạn C2:</b> Khối u {R('đã xâm lấn xuyên qua lớp cơ tới thanh mạc / mô quanh đại tràng')} (tương ứng độ sâu B2) và {R('ĐÃ CÓ di căn hạch vùng')}.<br>"
+        f"3) <b>Giai đoạn D:</b> Khối u ở bất kỳ mức độ xâm lấn nào nhưng {R('ĐÃ CÓ di căn xa')} (gan, phổi, phúc mạc, buồng trứng...).",
         "Chỉ cần có di căn hạch bạch huyết (N+) là xếp nhóm C (C1 nếu chưa qua cơ, C2 nếu đã qua cơ). Có di căn xa chuyển ngay thành nhóm D.",
         "B4.04, B4.05, B4.06", ["Astler-Coller", "Giai-doan-C1", "Giai-doan-C2", "Giai-doan-D", "Di-can-hach"],
     ),
@@ -271,7 +273,7 @@ cards_data = [
         "SURG22-B5-03", "B5", "Xử trí cấp cứu Tắc ruột Đại tràng Trái: Hartmann vs Schloffer", 1,
         f"{B('[Cấp cứu: Tắc ruột Đại tràng Trái]')} Tại sao cấm nối ngay thì đầu và kỹ thuật tiến hành {R('Phẫu thuật Hartmann')} so với {Y('Phẫu thuật Schloffer 3 thì')}?",
         f"1) <b>Lý do cấm nối ngay thì đầu:</b> Thành ruột trái giãn mỏng, ứ đọng khối lượng lớn phân thối bẩn và vi khuẩn yếm khí, nguy cơ {R('bục miệng nối gây viêm phúc mạc tử vong cực cao')}.<br>"
-        f"2) <b>Phẫu thuật Hartmann (2 thì):</b> Cắt đoạn đại tràng mang khối u → {G('Đưa đầu trên ra ngoài làm hậu môn nhân tạo')} → {Y('Khâu đóng kín mỏm dưới (mỏm trực tràng)')}. Đóng hậu môn nhân tạo và nối lại ở thì 2 sau 3–6 tháng.<br>"
+        f"2) <b>Phẫu thuật Hartmann (2 thì):</b> Cắt đoạn đại tràng mang khối u → {G('Đưa đầu trên ra ngoài làm hậu môn nhân tạo')} → {Y('Khâu đóng kín mỏm dưới (mỏm trực tràng)')}. Đóng hậu môn nhân tạo và nối lại ở thì sau.<br>"
         f"3) <b>Phẫu thuật Schloffer (3 thì):</b> Thì 1: {Y('Làm hậu môn nhân tạo trên u (ĐT ngang)')} giải áp → Thì 2: {G('Cắt u và khâu nối lưu thông')} → Thì 3: {G('Đóng hậu môn nhân tạo')}.",
         "Phẫu thuật Hartmann hiện nay là lựa chọn kinh điển và phổ biến nhất trong tắc ruột cấp cứu do u đại tràng trái/xích ma.",
         "B5.03", ["Hartmann", "Schloffer", "Tac-ruot-trai", "Chong-chi-dinh-noi-ngay"],
@@ -387,18 +389,17 @@ cards_data = [
         "SURG22-TRAP-02", "B5", "Bẫy xử trí Tắc ruột đại tràng trái cấp cứu",
         f"Tại sao phẫu thuật viên trẻ tuyệt đối {R('KHÔNG ĐƯỢC')} cắt đoạn u đại tràng xích ma và khâu nối ngay thì đầu trong mổ cấp cứu tắc ruột?",
         f"1) <b>Tình trạng đại tràng trái khi tắc ruột:</b> Thành ruột giãn mỏng tối đa, ứ đọng hàng lít phân thối bẩn với mật độ vi khuẩn cực cao, áp lực lòng ruột tăng vọt.<br>"
-        f"2) <b>Hiểm họa nếu nối ngay:</b> Nguy cơ {R('bục rò miệng nối lên tới trên 50%')}, gây viêm phúc mạc phân toàn thể dẫn đến sốc nhiễm khuẩn tử vong.<br>"
+        f"2) <b>Hiểm họa nếu nối ngay:</b> Nguy cơ {R('bục rò miệng nối rất cao')}, gây viêm phúc mạc phân toàn thể dẫn đến nhiễm khuẩn nặng tử vong.<br>"
         f"3) <b>Quyết định chuẩn mực:</b> Phải thực hiện {G('Phẫu thuật Hartmann')} (cắt u, đưa đầu trên làm HMNT, đóng mỏm trực tràng) hoặc {G('phẫu thuật Schloffer 3 thì')} để bảo đảm an toàn tính mạng cho bệnh nhân.",
         "Không được đánh đổi an toàn tính mạng bệnh nhân để lấy một miệng nối thì đầu trong điều kiện ruột bẩn và thành ruột thiếu máu.",
         "B5.03", ["Bay-tac-ruot-trai", "Hartmann", "Cam-noi-ngay", "Buc-mieng-noi"],
     ),
     redflag(
         "SURG22-TRAP-03", "B5", "Cờ đỏ cấp cứu: Thủng u đại tràng gây Viêm phúc mạc",
-        f"Dấu hiệu lâm sàng và cận lâm sàng cảnh báo khối u ung thư đại tràng đã {R('biến chứng thủng')}?",
-        f"1) <b>Cơ năng:</b> Bệnh nhân đau bụng {R('đột ngột dữ dội như dao đâm')}, từ hố chậu lan nhanh ra toàn ổ bụng.<br>"
-        f"2) <b>Thực thể:</b> Bụng {R('co cứng như gỗ')}, cảm ứng phúc mạc toàn thể, mất vùng đục trước gan.<br>"
-        f"3) <b>Hình ảnh X-quang:</b> X-quang bụng đứng không chuẩn bị thấy hình ảnh {R('liềm hơi dưới vòm hoành')} (trái hoặc phải).<br>"
-        f"4) <b>Phẫu thuật mở bụng khẩn cấp:</b> Hồi sức chống sốc, kháng sinh phổ rộng liều cao và {G('mổ cấp cứu tối khẩn')}.",
+        f"Dấu hiệu lâm sàng cảnh báo khối u ung thư đại tràng đã {R('biến chứng thủng')} và hướng xử trí ngoại khoa?",
+        f"1) <b>Cơ năng:</b> Bệnh nhân đau bụng {R('đột ngột dữ dội')}, lan ra toàn ổ bụng.<br>"
+        f"2) <b>Thực thể:</b> {R('Viêm phúc mạc toàn thể')} (bụng co cứng, cảm ứng phúc mạc lan tỏa) hoặc tạo ổ {Y('áp xe quanh khối u')}.<br>"
+        f"3) <b>Phẫu thuật mở bụng khẩn cấp:</b> Hồi sức chống sốc, kháng sinh và {G('mổ cấp cứu xử trí biến chứng')}.",
         "Thủng u trên nền đại tràng tắc nghẽn là một cấp cứu ngoại khoa tối khẩn cấp với tỷ lệ tử vong rất cao do viêm phúc mạc phân.",
         "B5.04", ["Thung-u", "Liem-hoi", "Co-cung-bung", "Viem-phuc-mac"],
     ),
@@ -407,7 +408,7 @@ cards_data = [
         f"Hai dấu hiệu lâm sàng kinh điển khẳng định chắc chắn có {R('đường rò')} giữa đại tràng xích ma và bàng quang?",
         f"1) <b>Hiện tượng Pneumaturia:</b> {R('Tiểu ra bọt khí / tiểu ra hơi')} (khi đi tiểu thấy nước tiểu sủi bọt hoặc có tiếng xì hơi qua niệu đạo).<br>"
         f"2) <b>Hiện tượng Fecaluria:</b> {R('Tiểu ra cặn phân')} (nước tiểu đục, có cặn vàng nâu mùi phân).<br>"
-        f"3) <b>Bệnh cảnh kèm theo:</b> Bệnh nhân bị {Y('nhiễm trùng đường tiết niệu tái phát dai dẳng')} với vi khuẩn gram âm đường ruột (E. coli, Klebsiella).",
+        f"3) <b>Bệnh cảnh kèm theo:</b> Bệnh nhân bị {Y('nhiễm trùng đường tiết niệu tái phát dai dẳng')}.",
         "Pneumaturia và Fecaluria là cặp triệu chứng bệnh học đặc trưng khẳng định 100% rò bàng quang - tiêu hóa.",
         "B5.05", ["Ro-bang-quang", "Pneumaturia", "Fecaluria", "Tieu-ra-hoi"],
     ),
@@ -468,7 +469,7 @@ cards_data = [
         f"   • Toàn trạng bệnh nhân tốt, bụng sạch → {G('Phẫu thuật cắt nửa đại tràng phải và khâu nối hồi – đại tràng ngang ngay thì đầu')} (nối tận – bên hoặc bên – bên kiểu Quénu).<br>"
         f"   • Bệnh nhân quá yếu, suy kiệt nặng hoặc viêm phúc mạc → {R('Cắt u đưa 2 đầu ruột làm hậu môn nhân tạo')}, nối lại ở thì 2.<br>"
         f"2) <b>Nhánh 2 — Tắc ruột do ung thư Đại tràng Trái (KHÔNG ĐƯỢC nối ngay):</b><br>"
-        f"   • Lựa chọn ưu tiên: {G('Phẫu thuật Hartmann (2 thì)')} → Cắt đoạn u đại tràng → Đưa đầu trên ra làm hậu môn nhân tạo → Khâu đóng kín mỏm dưới. Nối lại thì 2 sau 3–6 tháng.<br>"
+        f"   • Lựa chọn ưu tiên: {G('Phẫu thuật Hartmann (2 thì)')} → Cắt đoạn u đại tràng → Đưa đầu trên ra làm hậu môn nhân tạo → Khâu đóng kín mỏm dưới. Nối lại ở thì sau.<br>"
         f"   • Lựa chọn thứ hai: {Y('Phẫu thuật Schloffer (3 thì)')} → Thì 1 mở thông giải áp trên u → Thì 2 cắt u và nối → Thì 3 đóng hậu môn nhân tạo.<br>"
         f"   • Ngoại lệ duy nhất nếu muốn nối ngay: Bắt buộc phải thực hiện {G('Rửa đại tràng trong mổ (On-table lavage theo Dudley - Radilipffe)')}.",
         "Thuật toán xử trí tắc ruột cấp cứu nhấn mạnh nguyên tắc an toàn: Không bao giờ nối đại tràng trái thì đầu khi ruột chưa được làm sạch.",
