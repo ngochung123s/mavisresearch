@@ -1,0 +1,615 @@
+{
+  "deck_id": 7600000000058,
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-58: Ung Thư Tuyến Tiền Liệt",
+  "card_count": 40,
+  "cards": [
+    {
+      "id": "SURG58-B0-01",
+      "type": "basic",
+      "topic": "Thứ hạng dịch tễ, tầm soát & Tiên lượng ung thư TTL",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Đại cương]</span> Ung thư tuyến tiền liệt đứng thứ mấy ở nam giới, được phát hiện sớm nhờ công cụ nào, tỷ lệ khỏi sớm vs sống 5 năm muộn là bao nhiêu và đặc điểm diễn biến chung?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thứ hạng ở nam giới:</b> Phổ biến <span style=\"color: #ffd43b; font-weight: bold;\">đứng hàng thứ 2 sau ung thư phổi</span>.<br>2) <b>Công cụ phát hiện sớm:</b> Nhờ ý thức khám sớm và chương trình tầm soát bằng <span style=\"color: #51cf66; font-weight: bold;\">xét nghiệm PSA</span> và <span style=\"color: #51cf66; font-weight: bold;\">thăm trực tràng (DRE)</span>.<br>3) <b>Khác biệt sống còn:</b> Phát hiện sớm (u còn khu trú trong tuyến, chưa phá vỡ vỏ bao) đạt tỷ lệ điều trị khỏi <span style=\"color: #51cf66; font-weight: bold;\">90%</span>; phát hiện muộn tỷ lệ sống sau 5 năm chỉ còn <span style=\"color: #ff6b6b; font-weight: bold;\">dưới 30%</span>.<br>4) <b>Tính chất âm thầm:</b> Phần lớn tồn tại dưới dạng <span style=\"color: #74c0fc; font-weight: bold;\">tiềm tàng</span>, diễn biến lâm sàng rất đa dạng gây khó khăn chẩn đoán và điều trị.<br><br>💡 Giải thích của AI:<br>Khoảng cách sinh tử giữa <span style=\"color: #51cf66; font-weight: bold;\">90% chữa khỏi</span> khi u còn khu trú trong bao tuyến và <span style=\"color: #ff6b6b; font-weight: bold;\">< 30% sống 5 năm</span> khi đã xâm lấn di căn cho thấy giá trị tuyệt đối của bộ đôi tầm soát <span style=\"color: #51cf66; font-weight: bold;\">PSA + DRE</span>.",
+      "extra": "[B0.01, B0.02]",
+      "tags": [
+        "Ngoai::SURG-58::B0",
+        "Tier-1",
+        "Ngoai::Dai-cuong",
+        "Ngoai::Dich-te"
+      ]
+    },
+    {
+      "id": "SURG58-B1-01",
+      "type": "basic",
+      "topic": "Tuổi tác & Thống kê tỷ lệ mắc vs tử thiết",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguy cơ hàng đầu — Tuổi tác]</span> Yếu tố nguy cơ quan trọng nhất của ung thư tuyến tiền liệt là gì và các con số tỷ lệ mắc trên lâm sàng vs qua tử thiết (autopsies) theo từng khung tuổi?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Yếu tố quan trọng nhất:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tuổi tác</span> — nam giới <span style=\"color: #ffd43b; font-weight: bold;\">sau 50 tuổi</span> có nguy cơ cao.<br>2) <b>Thống kê mắc lâm sàng:</b> Nhóm <span style=\"color: #ffd43b; font-weight: bold;\">40 – 59 tuổi</span> là <span style=\"color: #74c0fc; font-weight: bold;\">2,2%</span>; nhóm <span style=\"color: #ffd43b; font-weight: bold;\">60 – 70 tuổi</span> tăng lên <span style=\"color: #74c0fc; font-weight: bold;\">13,7%</span>.<br>3) <b>Thống kê qua tử thiết (autopsies):</b> Cao hơn rất nhiều — nhóm <span style=\"color: #ffd43b; font-weight: bold;\">50 – 60 tuổi</span> là <span style=\"color: #ff6b6b; font-weight: bold;\">20%</span>; nhóm <span style=\"color: #ffd43b; font-weight: bold;\">70 – 80 tuổi</span> lên tới <span style=\"color: #ff6b6b; font-weight: bold;\">50%</span>.<br><br>💡 Giải thích của AI:<br>Sự chênh lệch lớn giữa tỷ lệ phát hiện lâm sàng và tỷ lệ mổ tử thiết (<span style=\"color: #ff6b6b; font-weight: bold;\">50%</span> ở tuổi 70–80) chứng minh đa số ung thư TTL ở người cao tuổi tiến triển chậm ở dạng tiềm tàng, làm nền tảng cho chiến lược theo dõi tích cực tránh điều trị quá mức.",
+      "extra": "[B1.01]",
+      "tags": [
+        "Ngoai::SURG-58::B1",
+        "Tier-1",
+        "Ngoai::Nguyen-nhan",
+        "Ngoai::Dich-te"
+      ]
+    },
+    {
+      "id": "SURG58-B1-02",
+      "type": "basic",
+      "topic": "Chủng tộc, Gia đình, Chế độ ăn & Nội tiết tố",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Yếu tố nguy cơ khác]</span> Phân bố ung thư TTL theo chủng tộc, tiền sử gia đình (mức tăng nguy cơ), chế độ ăn và vai trò của nội tiết tố?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chủng tộc:</b> Đàn ông <span style=\"color: #ff6b6b; font-weight: bold;\">da đen Châu Phi và người gốc Phi ở Châu Mỹ</span> mắc cao nhất thế giới; đàn ông <span style=\"color: #51cf66; font-weight: bold;\">Châu Á</span> có tỷ lệ thấp hơn.<br>2) <b>Gia đình / Di truyền:</b> Có <span style=\"color: #74c0fc; font-weight: bold;\">bố hoặc anh em trai</span> mắc ung thư TTL → nguy cơ cao hơn gấp <span style=\"color: #ff6b6b; font-weight: bold;\">2 – 3 lần</span>.<br>3) <b>Chế độ ăn:</b> Ăn quá nhiều <span style=\"color: #ff6b6b; font-weight: bold;\">chất béo động vật, mỡ bão hòa</span> làm tăng nguy cơ.<br>4) <b>Nội tiết tố:</b> Nồng độ <span style=\"color: #74c0fc; font-weight: bold;\">Testosterone tự do cao quá mức tự nhiên kéo dài</span>.<br><br>💡 Giải thích của AI:<br>Tiền sử gia đình trực hệ (bố/anh em trai) làm tăng nguy cơ gấp 2–3 lần là cơ sở hạ mốc tuổi bắt đầu tầm soát từ <span style=\"color: #ffd43b; font-weight: bold;\">50 tuổi</span> xuống <span style=\"color: #51cf66; font-weight: bold;\">40 – 45 tuổi</span>. Chế độ ăn nhiều mỡ bão hòa kích thích stress oxy hóa và chuyển hóa nội tiết tại mô tuyến.",
+      "extra": "[B1.02, B1.03]",
+      "tags": [
+        "Ngoai::SURG-58::B1",
+        "Tier-1",
+        "Ngoai::Nguyen-nhan",
+        "Ngoai::Di-truyen"
+      ]
+    },
+    {
+      "id": "SURG58-B1-03",
+      "type": "cloze",
+      "topic": "Cloze: Tỷ lệ tử thiết & Tiên lượng sống còn",
+      "tier": 1,
+      "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thống kê TTL]</span> Phát hiện sớm còn khu trú đạt tỷ lệ điều trị khỏi {{c1::<span style=\"color: #51cf66; font-weight: bold;\">90%</span>}}, ngược lại phát hiện muộn tỷ lệ sống 5 năm chỉ còn {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">dưới 30%</span>}}. Qua tử thiết, tỷ lệ ổ ung thư tiềm tàng ở tuổi 50–60 là {{c3::<span style=\"color: #ffd43b; font-weight: bold;\">20%</span>}} và tuổi 70–80 lên tới {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">50%</span>}}.",
+      "extra": "[B0.02, B1.01]",
+      "tags": [
+        "Ngoai::SURG-58::B1",
+        "Tier-1",
+        "Ngoai::Dich-te",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG58-B2-01",
+      "type": "basic",
+      "topic": "Mô học Adenocarcinoma & Tổn thương tiền ung thư PIN",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giải phẫu bệnh — Mô học]</span> Thể mô học nào chiếm tuyệt đại đa số ung thư TTL, đặc điểm tế bào/tuyến ác tính và phân biệt 2 độ tổn thương tiền ung thư PIN?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Thể mô học chính:</b> Tuyệt đại đa số là <span style=\"color: #74c0fc; font-weight: bold;\">ung thư biểu mô tuyến (Adenocarcinoma)</span>.<br>2) <b>Hình thái tế bào & cấu trúc:</b> Tế bào u tăng sắc, nhân to, hạt nhân lồi rõ, bào tương ưa kiềm; cấu trúc tuyến biến đổi hỗn loạn và <span style=\"color: #ff6b6b; font-weight: bold;\">mất lớp tế bào đáy</span>.<br>3) <b>Tổn thương tiền ung thư (PIN):</b> Gồm <span style=\"color: #74c0fc; font-weight: bold;\">PIN độ 1</span> và <span style=\"color: #74c0fc; font-weight: bold;\">PIN độ 2</span> — trong đó <span style=\"color: #ff6b6b; font-weight: bold;\">PIN độ 2 (PIN độ cao - High-grade PIN)</span> là tổn thương tiền ung thư thường đi kèm ung thư TTL.<br><br>💡 Giải thích của AI:<br>Sự <span style=\"color: #ff6b6b; font-weight: bold;\">mất lớp tế bào đáy</span> quanh tuyến là dấu ấn mô bệnh học cốt lõi phân biệt Adenocarcinoma xâm nhập với tăng sản lành tính hoặc PIN còn màng đáy nguyên vẹn.",
+      "extra": "[B2.01]",
+      "tags": [
+        "Ngoai::SURG-58::B2",
+        "Tier-1",
+        "Ngoai::Giai-phau-benh"
+      ]
+    },
+    {
+      "id": "SURG58-B2-02",
+      "type": "basic",
+      "topic": "Thang điểm Gleason (1974)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thang điểm Gleason 1974]</span> Cách tính tổng điểm Gleason và ý nghĩa phân tầng độ ác tính của các mức điểm 2–4, 5–6, 7 và 8–10?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cách tính điểm:</b> Dựa vào mức biệt hóa tuyến, bất thường nhân và đảo lộn cấu trúc mô học; lấy <span style=\"color: #74c0fc; font-weight: bold;\">2 mẫu đại diện phổ biến nhất</span> (mỗi mẫu từ độ <span style=\"color: #ffd43b; font-weight: bold;\">1 đến độ 5</span>) cộng lại → Tổng <span style=\"color: #ffd43b; font-weight: bold;\">2 đến 10 điểm</span>.<br>2) <b>2 – 4 điểm:</b> Biệt hóa <span style=\"color: #51cf66; font-weight: bold;\">tốt</span> (độ ác tính thấp).<br>3) <b>5 – 6 điểm:</b> Biệt hóa <span style=\"color: #ffd43b; font-weight: bold;\">trung bình</span>.<br>4) <b>7 điểm:</b> Biệt hóa <span style=\"color: #ffd43b; font-weight: bold;\">trung bình – kém</span> (<span style=\"color: #74c0fc; font-weight: bold;\">3+4</span> hoặc <span style=\"color: #74c0fc; font-weight: bold;\">4+3</span>).<br>5) <b>8 – 10 điểm:</b> Biệt hóa <span style=\"color: #ff6b6b; font-weight: bold;\">kém</span> (độ ác tính rất cao, tiến triển nhanh và di căn sớm).<br><br>💡 Giải thích của AI:<br>Điểm Gleason 7 phân tách hai tiên lượng khác nhau: <span style=\"color: #74c0fc; font-weight: bold;\">3+4</span> (mẫu biệt hóa vừa chiếm ưu thế) tốt hơn đáng kể so với <span style=\"color: #ff6b6b; font-weight: bold;\">4+3</span> (mẫu kém biệt hóa chiếm ưu thế). Mốc <span style=\"color: #51cf66; font-weight: bold;\">Gleason ≤ 7</span> là ngưỡng cân nhắc phẫu thuật triệt căn.",
+      "extra": "[B2.02]",
+      "tags": [
+        "Ngoai::SURG-58::B2",
+        "Tier-1",
+        "Ngoai::Giai-phau-benh",
+        "Ngoai::Gleason"
+      ]
+    },
+    {
+      "id": "SURG58-B3-01",
+      "type": "basic",
+      "topic": "Phân loại TNM: Tx, T0, Tis & T1 (T1a, T1b, T1c)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — Tx, T0, Tis & T1]</span> Định nghĩa Tx, T0, Tis và chi tiết 3 dưới nhóm T1 (T1a, T1b, T1c) trong ung thư tuyến tiền liệt?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nhóm Tx / T0 / Tis:</b> <b>Tx:</b> không xác định được u nguyên phát; <b>T0:</b> không có bằng chứng u; <b>Tis:</b> ung thư tại chỗ (<span style=\"color: #74c0fc; font-weight: bold;\">Carcinoma in situ / PIN độ cao</span>).<br>2) <b>T1 (khối u tiềm tàng — KHÔNG sờ thấy qua DRE và KHÔNG thấy trên siêu âm):</b><br>   • <b>T1a:</b> Tình cờ phát hiện qua mảnh cắt nội soi phì đại lành tính, chiếm <span style=\"color: #51cf66; font-weight: bold;\">≤ 5% mô cắt</span>.<br>   • <b>T1b:</b> Tình cờ phát hiện qua mảnh cắt nội soi, chiếm <span style=\"color: #ffd43b; font-weight: bold;\">> 5% mô cắt</span>.<br>   • <b>T1c:</b> Phát hiện nhờ <span style=\"color: #74c0fc; font-weight: bold;\">sinh thiết kim</span> do <span style=\"color: #ff6b6b; font-weight: bold;\">nồng độ PSA máu tăng cao</span>.<br><br>💡 Giải thích của AI:<br>Khối u giai đoạn T1 hoàn toàn im lặng về mặt hình thái (không sờ thấy trên DRE, không thấy ổ giảm âm trên siêu âm). Hiện nay nhờ xét nghiệm sàng lọc PSA, <span style=\"color: #74c0fc; font-weight: bold;\">T1c</span> là giai đoạn phát hiện mới thường gặp nhất trên lâm sàng.",
+      "extra": "[B3.01]",
+      "tags": [
+        "Ngoai::SURG-58::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::Phan-loai"
+      ]
+    },
+    {
+      "id": "SURG58-B3-02",
+      "type": "basic",
+      "topic": "Phân loại TNM: T2, T3 & T4",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — T2, T3 & T4]</span> Phân biệt đầy đủ T2 (T2a, T2b, T2c), T3 (T3a, T3b) và T4 theo vỏ bao tuyến tiền liệt, túi tinh và các tạng lân cận?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>T2 (sờ qua DRE hoặc thấy trên siêu âm, CHƯA vượt vỏ bao TTL):</b><br>   • <b>T2a:</b> Khu trú ở <span style=\"color: #51cf66; font-weight: bold;\">≤ 1/2 một thùy</span>.<br>   • <b>T2b:</b> Lan rộng <span style=\"color: #ffd43b; font-weight: bold;\">> 1/2 một thùy</span> nhưng chưa sang thùy bên kia.<br>   • <b>T2c:</b> Xâm lấn <span style=\"color: #ffd43b; font-weight: bold;\">cả hai thùy TTL</span>.<br>2) <b>T3 (đã xâm lấn phá vỡ vỏ bao TTL):</b><br>   • <b>T3a:</b> Xâm lấn <span style=\"color: #ff6b6b; font-weight: bold;\">ra ngoài vỏ bao 1 hoặc 2 bên</span>.<br>   • <b>T3b:</b> Xâm lấn vào <span style=\"color: #ff6b6b; font-weight: bold;\">túi tinh</span>.<br>3) <b>T4:</b> Cố định hoặc xâm lấn các cơ quan lân cận: <span style=\"color: #ff6b6b; font-weight: bold;\">cổ bàng quang, cơ thắt ngoài, trực tràng, cơ nâng hậu môn hoặc thành chậu</span>.<br><br>💡 Giải thích của AI:<br>Đường ranh giới vàng trong điều trị ngoại khoa chính là lớp <span style=\"color: #74c0fc; font-weight: bold;\">vỏ bao TTL</span>: T1–T2 còn nằm trong vỏ bao nên có chỉ định mổ triệt căn chữa khỏi tới 90%; từ T3 đã vỡ vỏ bao/ăn túi tinh, mục tiêu chuyển sang kiểm soát toàn thân kết hợp.",
+      "extra": "[B3.02]",
+      "tags": [
+        "Ngoai::SURG-58::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::Phan-loai"
+      ]
+    },
+    {
+      "id": "SURG58-B3-03",
+      "type": "basic",
+      "topic": "Hạch vùng (N), Di căn xa (M) & Thứ tự di căn xương Batson",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[TNM — N, M & Di căn xương]</span> Liệt kê 4 nhóm hạch vùng (N), phân loại M1 (M1a, M1b, M1c), đường dẫn tĩnh mạch và thứ tự 6 vị trí xương hay bị di căn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hạch bạch huyết vùng (N):</b> Gồm <span style=\"color: #74c0fc; font-weight: bold;\">hạch hố bịt, hạch chậu trong, hạch chậu ngoài, hạch thành chậu</span> (<b>Nx</b> chưa đánh giá; <b>N0</b> chưa di căn; <b>N1</b> đã di căn hạch vùng).<br>2) <b>Di căn xa (M0 không di căn; M1 có di căn):</b><br>   • <b>M1a:</b> Hạch ngoài vùng chậu (<span style=\"color: #74c0fc; font-weight: bold;\">sau phúc mạc, trung thất, thượng đòn</span>).<br>   • <b>M1b:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Di căn vào xương</span> (đặc biệt thể <span style=\"color: #ff6b6b; font-weight: bold;\">tạo xương - osteoblastic</span>).<br>   • <b>M1c:</b> Tạng khác (<span style=\"color: #ff6b6b; font-weight: bold;\">phổi, gan, não, tuyến thượng thận</span>...).<br>3) <b>Đường di căn & Thứ tự 6 xương đích:</b> Theo <span style=\"color: #74c0fc; font-weight: bold;\">đám rối tĩnh mạch Batson không có van</span> trực tiếp lên xương: 1) <span style=\"color: #ff6b6b; font-weight: bold;\">Cột sống thắt lưng</span> → 2) <span style=\"color: #ff6b6b; font-weight: bold;\">Xương chậu</span> → 3) <span style=\"color: #ffd43b; font-weight: bold;\">Xương đùi</span> → 4) <span style=\"color: #ffd43b; font-weight: bold;\">Cột sống ngực</span> → 5) <span style=\"color: #74c0fc; font-weight: bold;\">Xương sườn, xương ức</span> → 6) <span style=\"color: #74c0fc; font-weight: bold;\">Xương sọ, xương cánh tay</span>.<br><br>💡 Giải thích của AI:<br>Do <span style=\"color: #74c0fc; font-weight: bold;\">đám rối tĩnh mạch Batson</span> nằm dọc cột sống không có van một chiều và thông trực tiếp với đám rối tĩnh mạch quanh tuyến tiền liệt, chỉ cần áp lực ổ bụng tăng lên (rặn tiểu, ho) tế bào u dễ dàng đi ngược dòng thẳng vào <span style=\"color: #ff6b6b; font-weight: bold;\">cột sống thắt lưng</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">xương chậu</span> tạo ổ đặc xương (osteoblastic).",
+      "extra": "[B3.03, B3.04]",
+      "tags": [
+        "Ngoai::SURG-58::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::Di-can"
+      ]
+    },
+    {
+      "id": "SURG58-B3-04",
+      "type": "cloze",
+      "topic": "Cloze: T1a/T1b 5%, T3b túi tinh & Tĩnh mạch Batson",
+      "tier": 1,
+      "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Mốc TNM TTL]</span> Ung thư tình cờ qua mảnh cắt nội soi xếp T1a khi chiếm {{c1::<span style=\"color: #51cf66; font-weight: bold;\">≤ 5%</span>}} mô cắt và T1b khi > 5%. Phá vỡ vỏ bao xâm lấn túi tinh xếp giai đoạn {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">T3b</span>}}. Di căn xương đi theo đường {{c3::<span style=\"color: #74c0fc; font-weight: bold;\">đám rối tĩnh mạch Batson không có van</span>}}.",
+      "extra": "[B3.01, B3.02, B3.04]",
+      "tags": [
+        "Ngoai::SURG-58::B3",
+        "Tier-1",
+        "Ngoai::TNM",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG58-B4-01",
+      "type": "basic",
+      "topic": "Triệu chứng đường tiểu dưới: Tắc nghẽn vs Kích thích",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng — Đường tiểu dưới]</span> Vì sao giai đoạn sớm thường im lặng và khi u phát triển gây ra những triệu chứng nào trong Hội chứng tắc nghẽn và Hội chứng kích thích?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Giai đoạn sớm:</b> Khối u khu trú ở <span style=\"color: #74c0fc; font-weight: bold;\">vùng ngoại vi</span> nên thường <span style=\"color: #ffd43b; font-weight: bold;\">hoàn toàn không có triệu chứng</span>.<br>2) <b>Hội chứng tắc nghẽn đường tiểu dưới:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Tiểu khó, phải rặn</span>, <span style=\"color: #ff6b6b; font-weight: bold;\">tia tiểu yếu đứt quãng</span>; tiểu són, cảm giác <span style=\"color: #ffd43b; font-weight: bold;\">đi tiểu không hết bãi</span>; nặng nhất là <span style=\"color: #ff6b6b; font-weight: bold;\">bí đái cấp tính</span>.<br>3) <b>Hội chứng kích thích:</b> Tiểu nhiều lần, đặc biệt thức dậy <span style=\"color: #ff6b6b; font-weight: bold;\">tiểu đêm nhiều lần (nocturia)</span>; tiểu buốt, <span style=\"color: #ff6b6b; font-weight: bold;\">tiểu gấp không nhịn được</span>.<br><br>💡 Giải thích của AI:<br>Khác với tăng sản lành tính (BPH) mọc ở vùng chuyển tiếp sát niệu đạo gây tiểu khó rất sớm, ~70% ung thư TTL khởi phát ở <span style=\"color: #74c0fc; font-weight: bold;\">vùng ngoại vi</span> cách xa niệu đạo nên không gây rối loạn tiểu tiện cho đến khi u lớn ăn lan vào cổ bàng quang hoặc niệu đạo.",
+      "extra": "[B4.01]",
+      "tags": [
+        "Ngoai::SURG-58::B4",
+        "Tier-1",
+        "Ngoai::Lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-B4-02",
+      "type": "basic",
+      "topic": "5 dấu hiệu nặng khi u xâm lấn hoặc di căn",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Lâm sàng — Dấu hiệu nặng]</span> Kể đủ 5 nhóm dấu hiệu báo động bệnh nặng hoặc đã di căn xa trong ung thư tuyến tiền liệt?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <span style=\"color: #ff6b6b; font-weight: bold;\">Đái ra máu</span> hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">có máu trong tinh dịch (hemospermia)</span>.<br>2) <span style=\"color: #ffd43b; font-weight: bold;\">Đau rát buốt khi xuất tinh</span> hoặc mất khả năng xuất tinh.<br>3) Đau nhức vô cớ vùng <span style=\"color: #74c0fc; font-weight: bold;\">xương chậu, thắt lưng, hông, đùi</span>.<br>4) <span style=\"color: #ff6b6b; font-weight: bold;\">Đau xương dai dẳng tăng về đêm</span> (gợi ý di căn xương).<br>5) <span style=\"color: #ff6b6b; font-weight: bold;\">Yếu liệt hai chi dưới hoặc bí tiểu</span> do <span style=\"color: #ff6b6b; font-weight: bold;\">chèn ép tủy sống cấp</span>.<br><br>💡 Giải thích của AI:<br>Máu trong tinh dịch hoặc đau khi xuất tinh phản ánh khối u đã xâm lấn vào ống phóng tinh hoặc túi tinh (T3b). Đau xương tăng về đêm và dấu hiệu yếu liệt 2 chân là cờ đỏ di căn cột sống qua đám rối Batson đe dọa liệt tủy không hồi phục.",
+      "extra": "[B4.02]",
+      "tags": [
+        "Ngoai::SURG-58::B4",
+        "Tier-1",
+        "Ngoai::Lam-sang",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG58-B4-03",
+      "type": "basic",
+      "topic": "Thăm trực tràng bằng tay (DRE) sớm vs muộn",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Thăm trực tràng DRE]</span> Mô tả kết quả sờ nắn tuyến tiền liệt qua thăm trực tràng bằng tay (DRE) ở giai đoạn sớm vs giai đoạn muộn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Vai trò cốt tử, bắt buộc:</b> Thực hiện cho mọi trường hợp nghi ngờ.<br>2) <b>Giai đoạn sớm:</b> Phát hiện <span style=\"color: #ff6b6b; font-weight: bold;\">một nhân cứng chắc, ranh giới rõ</span> nằm trên nền mô tuyến mềm mại (thường ở <span style=\"color: #74c0fc; font-weight: bold;\">thùy sau hoặc vùng ngoại vi</span>).<br>3) <b>Giai đoạn muộn:</b> Toàn bộ tuyến <span style=\"color: #ff6b6b; font-weight: bold;\">to, gồ ghề, mất rãnh giữa, rắn chắc như đá, mất di động</span> và u lan ra ngoài vỏ bao vào vùng đáy bàng quang, túi tinh.<br><br>💡 Giải thích của AI:<br>Thùy sau và vùng ngoại vi của tuyến tiền liệt áp sát trực tiếp thành trước trực tràng, khiến ngón tay thăm trực tràng trở thành vũ khí lâm sàng đơn giản nhưng hiệu quả nhất để cảm nhận nhân cứng bất thường sớm.",
+      "extra": "[B4.03]",
+      "tags": [
+        "Ngoai::SURG-58::B4",
+        "Tier-1",
+        "Ngoai::Lam-sang",
+        "Ngoai::DRE"
+      ]
+    },
+    {
+      "id": "SURG58-B5-01",
+      "type": "basic",
+      "topic": "Bản chất PSA, 3 dạng trong máu & Giới hạn PSA theo tuổi",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — Sinh học & Ngưỡng tuổi]</span> Bản chất và mức giải phóng PSA trong ung thư TTL, 3 dạng PSA máu (tỷ lệ cPSA vs fPSA) và giới hạn tPSA bình thường theo 4 nhóm tuổi?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bản chất & Tốc độ thoát vào máu:</b> PSA là <span style=\"color: #74c0fc; font-weight: bold;\">glycoprotein</span> do tế bào biểu mô ống tuyến tiết giúp làm loãng tinh dịch; ung thư phá vỡ hàng rào giải phóng PSA vào máu <span style=\"color: #ff6b6b; font-weight: bold;\">gấp 10 lần</span> bình thường.<br>2) <b>3 dạng PSA (tPSA = cPSA + fPSA):</b> <b>cPSA</b> (phức hợp gắn α1-antichymotrypsin ACT, α2-macroglobulin — chiếm <span style=\"color: #ff6b6b; font-weight: bold;\">60 – 90%</span> trong ung thư); <b>fPSA</b> (tự do không gắn protein — chiếm <span style=\"color: #51cf66; font-weight: bold;\">10 – 40%</span> ở người bình thường).<br>3) <b>Giới hạn tPSA theo lứa tuổi:</b><br>   • <b>40 – 49 tuổi:</b> <span style=\"color: #51cf66; font-weight: bold;\">≤ 2,5 ng/ml</span> · <b>50 – 59 tuổi:</b> <span style=\"color: #51cf66; font-weight: bold;\">≤ 3,0 ng/ml</span><br>   • <b>60 – 69 tuổi:</b> <span style=\"color: #ffd43b; font-weight: bold;\">≤ 4,0 ng/ml</span> · <b>70 – 79 tuổi:</b> <span style=\"color: #ffd43b; font-weight: bold;\">≤ 5,0 ng/ml</span><br><br>💡 Giải thích của AI:<br>Khi tế bào tuyến ung thư mất màng đáy và kiến trúc ống tuyến, PSA tràn ồ ạt vào mạch máu và gắn chặt với α1-ACT thành dạng phức hợp <span style=\"color: #ff6b6b; font-weight: bold;\">cPSA</span>, làm tỷ lệ dạng tự do <span style=\"color: #51cf66; font-weight: bold;\">fPSA/tPSA</span> tụt giảm rõ rệt so với phì đại lành tính.",
+      "extra": "[B5.01, B5.02]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Can-lam-sang",
+        "Ngoai::PSA"
+      ]
+    },
+    {
+      "id": "SURG58-B5-02",
+      "type": "basic",
+      "topic": "Ý nghĩa lâm sàng 5 mốc nồng độ PSA",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — 5 mốc lâm sàng]</span> Ý nghĩa tiên lượng ung thư và hướng xử trí ứng với 5 mốc nồng độ PSA: < 4, 4–10 (vùng xám), > 10, > 20 và > 100 ng/ml?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>PSA < 4 ng/ml:</b> Ngưỡng bình thường (nguy cơ ung thư <span style=\"color: #51cf66; font-weight: bold;\">< 10%</span>).<br>2) <b>PSA 4 – 10 ng/ml (Vùng xám - Gray Zone):</b> Khoảng <span style=\"color: #ffd43b; font-weight: bold;\">20 – 25%</span> là ung thư → Cần áp dụng thêm chỉ số phụ trợ (f/tPSA, PSAD, PSAV).<br>3) <b>PSA > 10 ng/ml:</b> Khoảng <span style=\"color: #ff6b6b; font-weight: bold;\">50%</span> là ung thư → <span style=\"color: #ff6b6b; font-weight: bold;\">Bắt buộc chỉ định sinh thiết TTL bất kể kết quả DRE</span>.<br>4) <b>PSA > 20 ng/ml:</b> Khả năng cao u đã <span style=\"color: #ff6b6b; font-weight: bold;\">phá vỡ bao tuyến hoặc di căn hạch/xương</span>.<br>5) <b>PSA > 100 ng/ml:</b> Hầu hết <span style=\"color: #ff6b6b; font-weight: bold;\">đã có di căn xa vào xương</span>.<br><br>💡 Giải thích của AI:<br>Ở ngưỡng <span style=\"color: #ff6b6b; font-weight: bold;\">PSA > 10 ng/ml</span>, xác suất ác tính vọt lên 50% nên dù ngón tay DRE chưa sờ thấy nhân cứng cũng không được phép trì hoãn sinh thiết. Ngưỡng > 20 và > 100 ng/ml giúp bác sĩ chủ động tầm soát di căn xương bằng xạ hình xương ngay.",
+      "extra": "[B5.03]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Can-lam-sang",
+        "Ngoai::PSA"
+      ]
+    },
+    {
+      "id": "SURG58-B5-03",
+      "type": "basic",
+      "topic": "3 chỉ số phụ trợ PSA vùng xám: f/tPSA, PSAD, PSAV",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[PSA — Chỉ số Vùng xám 4–10 ng/ml]</span> Công thức, ngưỡng cắt chỉ định sinh thiết và các giá trị tham chiếu của 3 chỉ số: Tỷ lệ fPSA/tPSA, Tỷ trọng PSAD và Tốc độ PSAV?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Chỉ số fPSA / tPSA:</b> Giảm thấp trong ung thư; <span style=\"color: #ff6b6b; font-weight: bold;\">< 15%</span> nguy cơ ung thư rất cao → <span style=\"color: #ff6b6b; font-weight: bold;\">sinh thiết ngay</span>; <span style=\"color: #51cf66; font-weight: bold;\">> 25%</span> thường là phì đại lành tính.<br>2) <b>Tỷ trọng PSA (PSAD = tPSA / thể tích TTL siêu âm, ng/ml/cm³):</b> Bình thường <span style=\"color: #51cf66; font-weight: bold;\">< 0,15</span>; tăng sản lành tính ~ <span style=\"color: #ffd43b; font-weight: bold;\">0,218</span>; ung thư ~ <span style=\"color: #ff6b6b; font-weight: bold;\">0,572 ± 0,363</span>. Ngưỡng <span style=\"color: #ff6b6b; font-weight: bold;\">PSAD > 0,15</span> → <span style=\"color: #ff6b6b; font-weight: bold;\">cần sinh thiết</span>.<br>3) <b>Tốc độ tăng PSA (PSAV):</b> Đo qua <span style=\"color: #74c0fc; font-weight: bold;\">3 lần thử trong 18 – 24 tháng</span>; nếu <span style=\"color: #ff6b6b; font-weight: bold;\">PSAV > 0,75 ng/ml/năm</span> → nguy cơ ung thư cao.<br><br>💡 Giải thích của AI:<br>Vùng xám 4–10 ng/ml dễ nhầm lẫn giữa u phì đại lành tính (tuyến rất to tiết nhiều PSA) và khối u ác tính nhỏ. <span style=\"color: #74c0fc; font-weight: bold;\">PSAD</span> hiệu chỉnh theo thể tích tuyến, còn <span style=\"color: #74c0fc; font-weight: bold;\">f/tPSA</span> phân biệt bản chất phân tử tự do vs phức hợp.",
+      "extra": "[B5.04]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Can-lam-sang",
+        "Ngoai::PSA"
+      ]
+    },
+    {
+      "id": "SURG58-B5-04",
+      "type": "basic",
+      "topic": "Men máu ALP/PAP & Tiêu chuẩn vàng Sinh thiết TTL qua TRUS",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Men máu & Sinh thiết TTL]</span> Giá trị của men Phosphatase kiềm (ALP), PAP và kỹ thuật thực hiện Tiêu chuẩn vàng chẩn đoán xác định ung thư tuyến tiền liệt?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Men máu hỗ trợ:</b><br>   • <b>Phosphatase kiềm (ALP):</b> Tăng cao khi <span style=\"color: #ff6b6b; font-weight: bold;\">di căn xương gây phản ứng tạo xương</span>.<br>   • <b>Phosphatase acid TTL (PAP):</b> Chất đánh dấu cổ điển, độ nhạy kém hơn PSA.<br>2) <b>Sinh thiết TTL — Tiêu chuẩn vàng duy nhất:</b><br>   • Thực hiện dưới hướng dẫn <span style=\"color: #51cf66; font-weight: bold;\">siêu âm qua đầu dò trực tràng (TRUS)</span>.<br>   • Bấm kim hệ thống <span style=\"color: #51cf66; font-weight: bold;\">ít nhất 6 – 12 vị trí (mỗi thùy 3 – 6 mẫu)</span> từ đáy, giữa đến đỉnh TTL, tập trung vùng ngoại vi nghi ngờ.<br><br>💡 Giải thích của AI:<br>PSA hay MRI chỉ có giá trị định hướng và phân tầng nguy cơ; chỉ duy nhất giải phẫu bệnh từ <span style=\"color: #51cf66; font-weight: bold;\">sinh thiết kim qua TRUS</span> mới khẳng định ung thư và cung cấp điểm Gleason phục vụ điều trị.",
+      "extra": "[B5.05]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Can-lam-sang",
+        "Ngoai::Tieu-chuan-vang"
+      ]
+    },
+    {
+      "id": "SURG58-B5-05",
+      "type": "basic",
+      "topic": "Chẩn đoán hình ảnh: TRUS, mpMRI PI-RADS, Xạ hình xương & PET-CT",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Cận lâm sàng — Hình ảnh học]</span> Vai trò và dấu hiệu đặc trưng của Siêu âm TRUS, mpMRI (PI-RADS), Xạ hình xương Tc-99m và CT/PET-CT PSMA?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Siêu âm qua trực tràng (TRUS):</b> U biểu hiện bằng <span style=\"color: #74c0fc; font-weight: bold;\">vùng giảm âm ở vùng ngoại vi (70%)</span>, khảo sát vỏ bao tuyến và túi tinh.<br>2) <b>Cộng hưởng từ đa thông số (mpMRI):</b> Đánh giá theo thang điểm <span style=\"color: #74c0fc; font-weight: bold;\">PI-RADS</span> (<span style=\"color: #ff6b6b; font-weight: bold;\">PI-RADS 4–5</span> nghi ngờ ác tính cao), xâm lấn vỏ bao và túi tinh.<br>3) <b>Xạ hình xương toàn thân:</b> Dùng <span style=\"color: #51cf66; font-weight: bold;\">Technetium-99m</span> phát hiện sớm các ổ di căn xương thể tạo xương.<br>4) <b>CT ngực – bụng / PET-CT PSMA:</b> Đánh giá hạch chậu và di căn tạng.<br><br>💡 Giải thích của AI:<br>Đa số u ngoại vi hút ít sóng âm tạo vùng giảm âm trên TRUS (~70%). Trước khi sinh thiết hoặc lập kế hoạch phẫu thuật, <span style=\"color: #74c0fc; font-weight: bold;\">mpMRI PI-RADS</span> cho hình ảnh rõ nhất về ranh giới vỏ bao và túi tinh, còn <span style=\"color: #51cf66; font-weight: bold;\">Xạ hình xương Tc-99m</span> là tiêu chuẩn tìm M1b.",
+      "extra": "[B5.06]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Can-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-B5-06",
+      "type": "cloze",
+      "topic": "Cloze: Các ngưỡng sinh thiết PSA & Vùng xám",
+      "tier": 1,
+      "text": "<span style=\"color: #74c0fc; font-weight: bold;\">[Ngưỡng sinh thiết PSA]</span> Bắt buộc sinh thiết bất kể kết quả DRE khi tPSA > {{c1::<span style=\"color: #ff6b6b; font-weight: bold;\">10 ng/ml</span>}}. Trong vùng xám 4–10 ng/ml, sinh thiết ngay nếu fPSA/tPSA < {{c2::<span style=\"color: #ff6b6b; font-weight: bold;\">15%</span>}}. Ngưỡng tỷ trọng cảnh báo ác tính là PSAD > {{c3::<span style=\"color: #ff6b6b; font-weight: bold;\">0,15</span>}}. Ngưỡng tốc độ tăng cảnh báo cao là PSAV > {{c4::<span style=\"color: #ff6b6b; font-weight: bold;\">0,75 ng/ml/năm</span>}}.",
+      "extra": "[B5.03, B5.04]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::PSA",
+        "Ngoai::Cloze"
+      ]
+    },
+    {
+      "id": "SURG58-B6-01",
+      "type": "basic",
+      "topic": "4 nhóm Chẩn đoán phân biệt Ung thư TTL",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Chẩn đoán phân biệt]</span> Làm thế nào phân biệt Ung thư tuyến tiền liệt với Tăng sản lành tính (BPH), Viêm TTL, Sỏi TTL và các bệnh lý bàng quang/niệu đạo?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tăng sản lành tính TTL (BPH):</b> Tuyến to đều, <span style=\"color: #51cf66; font-weight: bold;\">mềm mại, rãnh giữa còn</span>, tỷ lệ <span style=\"color: #51cf66; font-weight: bold;\">fPSA/tPSA > 20 – 25%</span>.<br>2) <b>Viêm TTL cấp / mạn:</b> Tuyến <span style=\"color: #ffd43b; font-weight: bold;\">đau tức nóng sốt</span>, bạch cầu niệu cao, PSA tăng thoáng qua rồi <span style=\"color: #51cf66; font-weight: bold;\">trở về bình thường sau điều trị kháng sinh</span>.<br>3) <b>Sỏi TTL:</b> Siêu âm thấy <span style=\"color: #74c0fc; font-weight: bold;\">bóng cản âm kèm bóng lưng rõ rệt</span>.<br>4) <b>Bệnh đường tiểu dưới khác:</b> Hẹp niệu đạo, xơ teo cổ bàng quang, bàng quang tăng hoạt (OAB).<br><br>💡 Giải thích của AI:<br>Trên DRE, BPH phì đại đồng đều giữ nguyên rãnh giữa và mềm đàn hồi, hoàn toàn trái ngược nhân cứng hay tuyến rắn như đá mất rãnh giữa của ung thư. Viêm cấp tính phá vỡ hàng rào tế bào tạm thời làm PSA tăng giả, cần trị hết viêm mới đánh giá lại.",
+      "extra": "[B6.01]",
+      "tags": [
+        "Ngoai::SURG-58::B6",
+        "Tier-1",
+        "Ngoai::Chan-doan-phan-biet"
+      ]
+    },
+    {
+      "id": "SURG58-B6-02",
+      "type": "basic",
+      "topic": "Chương trình Tầm soát định kỳ & Lối sống phòng bệnh",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Tầm soát & Phòng bệnh]</span> Độ tuổi bắt đầu tầm soát (thông thường vs nguy cơ gia đình), 3 bước khám định kỳ hàng năm và các chất chống oxy hóa trong dinh dưỡng phòng bệnh?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tuổi bắt đầu tầm soát định kỳ hàng năm:</b> Nam giới từ <span style=\"color: #ffd43b; font-weight: bold;\">50 tuổi trở lên</span>; bắt đầu sớm từ <span style=\"color: #ff6b6b; font-weight: bold;\">40 – 45 tuổi</span> nếu có <span style=\"color: #74c0fc; font-weight: bold;\">bố hoặc anh em trai mắc ung thư TTL</span>.<br>2) <b>Bộ 3 bước tầm soát hàng năm:</b> (1) <span style=\"color: #51cf66; font-weight: bold;\">Thăm khám trực tràng (DRE)</span>; (2) <span style=\"color: #51cf66; font-weight: bold;\">Định lượng PSA máu</span>; (3) <span style=\"color: #74c0fc; font-weight: bold;\">Siêu âm TRUS</span> khi có bất thường.<br>3) <b>Dinh dưỡng phòng bệnh:</b> Giảm mỡ động vật; tăng cường rau củ quả chứa chất chống oxy hóa (<span style=\"color: #51cf66; font-weight: bold;\">Lycopene trong cà chua chín, đậu nành, trà xanh</span>).<br><br>💡 Giải thích của AI:<br>Áp dụng tầm soát sớm hơn 5–10 năm (từ 40–45 tuổi) cho nam giới có tiền sử gia đình giúp phát hiện bệnh ngay tại cửa sổ khu trú T1–T2 có khả năng chữa khỏi 90%.",
+      "extra": "[B6.02]",
+      "tags": [
+        "Ngoai::SURG-58::B6",
+        "Tier-1",
+        "Ngoai::Tam-soat",
+        "Ngoai::Phong-benh"
+      ]
+    },
+    {
+      "id": "SURG58-B7-01",
+      "type": "basic",
+      "topic": "Nguyên tắc điều trị theo giai đoạn & Theo dõi tích cực",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nguyên tắc & Theo dõi tích cực]</span> Mục tiêu điều trị giữa giai đoạn khu trú vs tiến triển/di căn; tiêu chuẩn lựa chọn và lịch trình Theo dõi tích cực (Active Surveillance)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên tắc phân tầng:</b><br>   • <b>Khu trú (T1–T2, N0, M0):</b> Mục tiêu <span style=\"color: #51cf66; font-weight: bold;\">điều trị triệt căn</span> (kéo dài tối đa thời gian sống hoặc chữa khỏi).<br>   • <b>Tiến triển tại chỗ / Di căn (T3–T4, N+, M1):</b> Mục tiêu <span style=\"color: #ffd43b; font-weight: bold;\">tạm thời, kiểm soát toàn thân, giảm nhẹ triệu chứng, nâng cao chất lượng sống</span>.<br>2) <b>Đối tượng Theo dõi tích cực:</b> Người bệnh <span style=\"color: #ffd43b; font-weight: bold;\">cao tuổi (> 70 tuổi)</span> hoặc bệnh nội khoa nặng + thể tích u nhỏ (<span style=\"color: #51cf66; font-weight: bold;\">< 0,5 cm³</span>) + <span style=\"color: #51cf66; font-weight: bold;\">Gleason thấp (2–6)</span> + <span style=\"color: #51cf66; font-weight: bold;\">PSA < 10 ng/ml</span>.<br>3) <b>Lịch trình giám sát:</b> Định kỳ thử PSA mỗi <span style=\"color: #74c0fc; font-weight: bold;\">3 – 6 tháng</span>, thăm trực tràng và sinh thiết lại khi có dấu hiệu tiến triển.<br><br>💡 Giải thích của AI:<br>Theo dõi tích cực tránh đẩy bệnh nhân lớn tuổi có u nguy cơ cực thấp vào các tai biến phẫu thuật/xạ trị không cần thiết, trong khi vẫn can thiệp kịp thời ngay khi PSA hay sinh thiết báo hiệu u chuyển độ ác.",
+      "extra": "[B7.01]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Active-Surveillance"
+      ]
+    },
+    {
+      "id": "SURG58-B7-02",
+      "type": "basic",
+      "topic": "Phẫu thuật cắt toàn bộ tuyến tiền liệt triệt căn",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Phẫu thuật triệt căn]</span> Đối tượng áp dụng, phạm vi giải phẫu cắt bỏ – tạo hình, tỷ lệ sống không bệnh 10 năm và các tai biến – biến chứng của Phẫu thuật cắt toàn bộ TTL triệt căn?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đối tượng áp dụng:</b> BN còn trẻ, <span style=\"color: #51cf66; font-weight: bold;\">kỳ vọng sống > 10 năm</span>, u khu trú <span style=\"color: #74c0fc; font-weight: bold;\">T1–T2</span>, <span style=\"color: #51cf66; font-weight: bold;\">Gleason ≤ 7</span>.<br>2) <b>Phạm vi cắt & tạo hình:</b> Cắt bỏ toàn bộ TTL + <span style=\"color: #74c0fc; font-weight: bold;\">bao tuyến</span> + <span style=\"color: #74c0fc; font-weight: bold;\">hai túi tinh</span> + <span style=\"color: #74c0fc; font-weight: bold;\">bóng ống dẫn tinh</span> + <span style=\"color: #74c0fc; font-weight: bold;\">nạo vét hạch chậu hai bên</span>, sau đó <span style=\"color: #51cf66; font-weight: bold;\">khâu nối cổ bàng quang với niệu đạo màng</span>.<br>3) <b>Hiệu quả:</b> Sống không bệnh sau 10 năm đạt <span style=\"color: #51cf66; font-weight: bold;\">70% – 85%</span>.<br>4) <b>Tai biến sớm & Biến chứng muộn:</b> Sớm: chảy máu sau mổ, thủng trực tràng, tổn thương niệu quản; muộn hay gặp nhất là <span style=\"color: #ff6b6b; font-weight: bold;\">đái rỉ / mất tự chủ nước tiểu (Incontinence)</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">rối loạn cương dương (Impotence)</span>.<br><br>💡 Giải thích của AI:<br>Vì toàn bộ TTL bị cắt rời khỏi cổ bàng quang và niệu đạo màng, cấu trúc cơ thắt niệu đạo và bó mạch thần kinh cương chạy sát vỏ bao TTL rất dễ bị ảnh hưởng, giải thích 2 biến chứng muộn kinh điển là són tiểu và liệt dương.",
+      "extra": "[B7.02]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Phau-thuat"
+      ]
+    },
+    {
+      "id": "SURG58-B7-03",
+      "type": "basic",
+      "topic": "Xạ trị (EBRT, Brachytherapy) & Phẫu thuật áp lạnh",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xạ trị & Áp lạnh]</span> Trình bày liều lượng của Xạ trị chiếu ngoài (EBRT), nguồn phóng xạ dùng trong Cấy hạt phóng xạ (Brachytherapy) và ngưỡng nhiệt độ của Phẫu thuật áp lạnh (Cryosurgery)?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Xạ trị chiếu ngoài (EBRT):</b> Chiếu liều cao <span style=\"color: #51cf66; font-weight: bold;\">70 – 78 Gy</span> vào TTL và hạch chậu — kiểm soát u <span style=\"color: #74c0fc; font-weight: bold;\">tương đương phẫu thuật</span> ở giai đoạn khu trú.<br>2) <b>Cấy hạt phóng xạ vào lòng tuyến (Brachytherapy):</b> Cấy các hạt <span style=\"color: #74c0fc; font-weight: bold;\">Iod-125</span> hoặc <span style=\"color: #74c0fc; font-weight: bold;\">Palladium-103</span> trực tiếp vào nhu mô tuyến qua tầng sinh môn dưới hướng dẫn siêu âm.<br>3) <b>Phẫu thuật áp lạnh (Cryosurgery):</b> Dùng kim lạnh hạ nhiệt độ từ <span style=\"color: #74c0fc; font-weight: bold;\">-25°C đến -50°C</span> để tiêu diệt tế bào u.<br><br>💡 Giải thích của AI:<br>EBRT và Brachytherapy đều giúp tránh cuộc đại phẫu vùng chậu cho bệnh nhân khu trú, trong đó cấy hạt <span style=\"color: #74c0fc; font-weight: bold;\">I-125 / Pd-103</span> giải phóng tia xạ liều cao tại chỗ với bán kính tác động cực ngắn bảo vệ trực tràng và bàng quang xung quanh.",
+      "extra": "[B7.03]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Xa-tri"
+      ]
+    },
+    {
+      "id": "SURG58-B7-04",
+      "type": "basic",
+      "topic": "Liệu pháp nội tiết cắt bỏ Androgen (ADT) & Hiệu ứng Flare-up",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Nội tiết ADT]</span> Cơ chế của ADT, so sánh Cắt 2 tinh hoàn ngoại khoa vs Đồng vận LHRH/GnRH (thuốc & hiệu ứng flare-up), Kháng Androgen và Phong bế toàn diện CAB?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Nguyên lý:</b> Tế bào ung thư TTL phụ thuộc <span style=\"color: #74c0fc; font-weight: bold;\">Testosterone</span> → cắt nguồn Androgen làm tế bào u teo nhỏ và ngừng phát triển.<br>2) <b>Cắt 2 tinh hoàn ngoại khoa:</b> Đơn giản, nhanh, hạ Testosterone xuống nồng độ thiến (<span style=\"color: #51cf66; font-weight: bold;\">< 50 ng/dL</span>) chỉ sau <span style=\"color: #51cf66; font-weight: bold;\">24 giờ</span>.<br>3) <b>Đồng vận LHRH/GnRH (<span style=\"color: #74c0fc; font-weight: bold;\">Goserelin/Zoladex, Leuprolide/Eligard, Triptorelin</span>):</b> Ban đầu gây tăng tiết Testosterone thoáng qua (<span style=\"color: #ff6b6b; font-weight: bold;\">hiệu ứng bùng phát \"flare-up\"</span> → phải che phủ bằng kháng androgen); sau <span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 tuần</span> mới ức chế tuyến yên hạ về mức thiến.<br>4) <b>Kháng Androgen (<span style=\"color: #74c0fc; font-weight: bold;\">Bicalutamide, Flutamide</span>):</b> Ngăn Testosterone gắn thụ thể tại tế bào u.<br>5) <b>Phong bế toàn diện (CAB):</b> Kết hợp cắt tinh hoàn (hoặc đồng vận LHRH) + kháng androgen.<br><br>💡 Giải thích của AI:<br>Cần phân biệt hai nguồn androgen: 90–95% từ tinh hoàn và 5–10% từ vỏ thượng thận. Phối hợp <span style=\"color: #74c0fc; font-weight: bold;\">CAB</span> triệt tiêu cả nguồn tinh hoàn lẫn phần thượng thận tại thụ thể tế bào u.",
+      "extra": "[B7.04]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Noi-tiet"
+      ]
+    },
+    {
+      "id": "SURG58-B7-05",
+      "type": "basic",
+      "topic": "Điều trị giai đoạn kháng cắt tinh hoàn (CRPC)",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Giai đoạn kháng thiến CRPC]</span> Khi ung thư tiến triển thành giai đoạn kháng cắt tinh hoàn (CRPC), những phác đồ hóa chất và thuốc nội tiết thế hệ mới nào được sử dụng?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hóa chất toàn thân:</b> Phác đồ phối hợp chứa <span style=\"color: #51cf66; font-weight: bold;\">Docetaxel kết hợp Prednisone</span>, hoặc <span style=\"color: #51cf66; font-weight: bold;\">Cabazitaxel</span>.<br>2) <b>Thuốc nội tiết thế hệ mới:</b><br>   • <span style=\"color: #51cf66; font-weight: bold;\">Abiraterone acetate</span>: Ức chế tổng hợp androgen.<br>   • <span style=\"color: #51cf66; font-weight: bold;\">Enzalutamide</span>: Kháng thụ thể androgen thế hệ mới.<br><br>💡 Giải thích của AI:<br>Dù Testosterone máu đã dưới mức thiến (< 50 ng/dL), tế bào u CRPC tự thích nghi bằng cách tăng nhạy thụ thể androgen hoặc tự tổng hợp androgen nội tại. Bộ đôi <span style=\"color: #74c0fc; font-weight: bold;\">Abiraterone / Enzalutamide</span> và taxane (<span style=\"color: #74c0fc; font-weight: bold;\">Docetaxel / Cabazitaxel</span>) khóa chặt lối thoát này.",
+      "extra": "[B7.05]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::CRPC"
+      ]
+    },
+    {
+      "id": "SURG58-B7-06",
+      "type": "basic",
+      "topic": "Xử trí 4 biến chứng cấp tính & Chăm sóc giảm nhẹ",
+      "tier": 1,
+      "front": "<span style=\"color: #74c0fc; font-weight: bold;\">[Xử trí biến chứng cấp]</span> Biện pháp can thiệp cụ thể cho 4 biến chứng nặng của ung thư TTL tiến triển: Bí đái cấp, Vô niệu do tắc 2 niệu quản, Đau xương di căn và Chèn ép tủy sống cấp?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bí đái cấp do u chèn ép:</b> Cắt nội soi giải chèn ép (<span style=\"color: #51cf66; font-weight: bold;\">TURP giảm nhẹ</span>) hoặc <span style=\"color: #51cf66; font-weight: bold;\">mở thông bàng quang trên xương mu</span>.<br>2) <b>Vô niệu / Suy thận do chèn ép 2 niệu quản:</b> Đặt ống thông niệu quản ngược dòng (<span style=\"color: #51cf66; font-weight: bold;\">sonde Double J</span>) hoặc <span style=\"color: #51cf66; font-weight: bold;\">mở thông thận qua da</span> tối thiểu dẫn lưu nước tiểu.<br>3) <b>Đau nhức xương dữ dội:</b> Giảm đau bậc thang (<span style=\"color: #74c0fc; font-weight: bold;\">Morphin</span>), truyền ức chế hủy xương (<span style=\"color: #74c0fc; font-weight: bold;\">Zoledronic acid</span>), <span style=\"color: #ffd43b; font-weight: bold;\">chiếu xạ giảm đau tại chỗ</span>.<br>4) <b>Chèn ép tủy sống cấp:</b> Tiêm <span style=\"color: #ff6b6b; font-weight: bold;\">Dexamethasone liều cao khẩn cấp</span> + <span style=\"color: #ff6b6b; font-weight: bold;\">phẫu thuật giải ép cột sống hoặc xạ trị cấp cứu trong 24 – 48 giờ</span> để tránh liệt vĩnh viễn.<br><br>💡 Giải thích của AI:<br>Các biện pháp giải áp đường niệu (TURP giảm nhẹ, JJ, dẫn lưu thận) giúp cứu chức năng thận ngay tức thì để người bệnh đủ thể trạng tiếp nhận điều trị nội tiết/hóa chất toàn thân.",
+      "extra": "[B7.06]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Cap-cuu"
+      ]
+    },
+    {
+      "id": "SURG58-ALGO-01",
+      "type": "basic",
+      "topic": "Thuật toán: Phân tầng tPSA & Các chỉ số phụ trợ vùng xám",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Quyết định Sinh thiết TTL</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Phân tầng tPSA & Các chỉ số phụ trợ vùng xám</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>PSA < 4 ng/ml + DRE bình thường:</b> Nguy cơ ung thư <span style=\"color: #51cf66; font-weight: bold;\">< 10%</span> → Theo dõi định kỳ hàng năm (chú ý giới hạn theo tuổi 40–79).<br>2) <b>PSA 4 – 10 ng/ml (Vùng xám — nguy cơ 20–25%):</b> Xét tiếp 3 chỉ số phụ trợ → Chỉ định <span style=\"color: #ff6b6b; font-weight: bold;\">sinh thiết</span> nếu <span style=\"color: #ff6b6b; font-weight: bold;\">fPSA/tPSA < 15%</span>, hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">PSAD > 0,15</span>, hoặc <span style=\"color: #ff6b6b; font-weight: bold;\">PSAV > 0,75 ng/ml/năm</span>; ngược lại f/tPSA > 25% hướng tới BPH.<br>3) <b>PSA > 10 ng/ml (nguy cơ ~50%):</b> <span style=\"color: #ff6b6b; font-weight: bold;\">BẮT BUỘC sinh thiết TTL bất kể DRE</span>.<br>4) <b>Kỹ thuật sinh thiết chuẩn:</b> Thực hiện dưới hướng dẫn <span style=\"color: #51cf66; font-weight: bold;\">TRUS</span>, bấm kim hệ thống <span style=\"color: #51cf66; font-weight: bold;\">ít nhất 6 – 12 vị trí (mỗi thùy 3 – 6 mẫu)</span> vào vùng ngoại vi từ đáy đến đỉnh.<br><br>💡 Giải thích của AI:<br>Thuật toán giúp tránh sinh thiết oan trong vùng xám 4–10 ng/ml (nhờ f/tPSA, PSAD, PSAV) nhưng tuyệt đối không bỏ sót khi PSA đã vượt ngưỡng 10 ng/ml hoặc DRE sờ thấy nhân cứng.",
+      "extra": "[B5.02, B5.03, B5.04, B5.05]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::PSA",
+        "Ngoai::Sinh-thiet",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG58-ALGO-02",
+      "type": "basic",
+      "topic": "Thuật toán: Lựa chọn Theo dõi tích cực vs Phẫu thuật vs Xạ trị",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Điều trị Ung thư TTL khu trú</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Lựa chọn Theo dõi tích cực vs Phẫu thuật vs Xạ trị</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bệnh nhân > 70 tuổi / bệnh nội khoa nặng + nguy cơ rất thấp (u < 0,5 cm³, Gleason 2–6, PSA < 10):</b> Chọn <span style=\"color: #51cf66; font-weight: bold;\">Theo dõi tích cực</span> (PSA mỗi 3–6 tháng, DRE & sinh thiết lại khi tiến triển).<br>2) <b>BN trẻ, kỳ vọng sống > 10 năm + T1–T2 + Gleason ≤ 7:</b> <span style=\"color: #51cf66; font-weight: bold;\">Phẫu thuật cắt toàn bộ TTL triệt căn</span> (cùng bao tuyến, 2 túi tinh, bóng ống dẫn tinh, hạch chậu 2 bên; sống không bệnh 10 năm 70–85%).<br>3) <b>Giải pháp thay thế phẫu thuật tương đương ở giai đoạn khu trú:</b> <span style=\"color: #74c0fc; font-weight: bold;\">Xạ trị chiếu ngoài EBRT (70–78 Gy)</span>, <span style=\"color: #74c0fc; font-weight: bold;\">Cấy hạt phóng xạ Brachytherapy (I-125, Pd-103)</span>, hoặc <span style=\"color: #ffd43b; font-weight: bold;\">Áp lạnh Cryosurgery (-25 đến -50°C)</span>.<br><br>💡 Giải thích của AI:<br>Việc chọn phẫu thuật triệt căn hay xạ trị cho giai đoạn khu trú phụ thuộc chặt chẽ vào tuổi sinh học (> 10 năm kỳ vọng sống), thang điểm Gleason (≤ 7) và sự cân nhắc biến chứng són tiểu/liệt dương.",
+      "extra": "[B7.01, B7.02, B7.03]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Phau-thuat",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG58-ALGO-03",
+      "type": "basic",
+      "topic": "Thuật toán: Chuỗi Liệu pháp Cắt Androgen (ADT) đến Kháng thiến",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Điều trị Toàn thân T3–T4 / Di căn & CRPC</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Chuỗi Liệu pháp Cắt Androgen (ADT) đến Kháng thiến</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Khởi trị cắt Testosterone nhanh tức thì (< 50 ng/dL sau 24 giờ):</b> <span style=\"color: #51cf66; font-weight: bold;\">Cắt 2 tinh hoàn ngoại khoa</span>.<br>2) <b>Khởi trị nội khoa bằng đồng vận LHRH (<span style=\"color: #74c0fc; font-weight: bold;\">Goserelin, Leuprolide, Triptorelin</span>):</b> Bắt buộc phối hợp trước/song song <span style=\"color: #ff6b6b; font-weight: bold;\">thuốc kháng Androgen (Bicalutamide, Flutamide)</span> để <span style=\"color: #ff6b6b; font-weight: bold;\">chặn hiệu ứng flare-up</span>, duy trì sau 2–3 tuần để đạt mức thiến hoặc phối hợp <span style=\"color: #51cf66; font-weight: bold;\">CAB</span>.<br>3) <b>Khi tiến triển thành Kháng cắt tinh hoàn (CRPC):</b> Chuyển <span style=\"color: #51cf66; font-weight: bold;\">Hóa chất Docetaxel + Prednisone / Cabazitaxel</span> hoặc nội tiết thế hệ mới <span style=\"color: #51cf66; font-weight: bold;\">Abiraterone acetate / Enzalutamide</span>.<br><br>💡 Giải thích của AI:<br>Cắt tinh hoàn ngoại khoa thắng về tốc độ (24 giờ) và không gây flare-up; còn phác đồ nội khoa bắt buộc chặn thụ thể bằng kháng androgen ở tuần đầu nhằm bảo vệ bệnh nhân khỏi bùng phát cơn đau xương hoặc tụt tủy sống.",
+      "extra": "[B7.04, B7.05]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Noi-tiet",
+        "Ngoai::CRPC",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG58-ALGO-04",
+      "type": "basic",
+      "topic": "Thuật toán: Xử trí nhanh Bí đái, Vô niệu, Đau xương & Chèn ép tủy",
+      "tier": 1,
+      "front": "⚡ THUẬT TOÁN QUYẾT ĐỊNH — <span style=\"color: #51cf66; font-weight: bold;\">Cấp cứu Ung thư TTL tiến triển</span>: <span style=\"color: #ffd43b; font-weight: bold;\">Xử trí nhanh Bí đái, Vô niệu, Đau xương & Chèn ép tủy</span>",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Bí đái cấp do u chèn ép niệu đạo tuyến:</b> <span style=\"color: #51cf66; font-weight: bold;\">TURP giảm nhẹ</span> hoặc <span style=\"color: #51cf66; font-weight: bold;\">mở thông bàng quang trên xương mu</span>.<br>2) <b>Vô niệu / Suy thận do u đè bẹp 2 miệng niệu quản:</b> Đặt <span style=\"color: #51cf66; font-weight: bold;\">sonde Double J ngược dòng</span> hoặc <span style=\"color: #51cf66; font-weight: bold;\">mở thông thận qua da tối thiểu</span>.<br>3) <b>Đau nhức xương di căn dữ dội:</b> Giảm đau bậc thang (<span style=\"color: #74c0fc; font-weight: bold;\">Morphin</span>) + truyền <span style=\"color: #74c0fc; font-weight: bold;\">Zoledronic acid</span> + <span style=\"color: #ffd43b; font-weight: bold;\">xạ trị giảm đau tại chỗ</span>.<br>4) <b>Yếu liệt 2 chi dưới / bí tiểu do chèn ép tủy sống cấp:</b> Tiêm ngay <span style=\"color: #ff6b6b; font-weight: bold;\">Dexamethasone liều cao</span> + <span style=\"color: #ff6b6b; font-weight: bold;\">giải ép cột sống / xạ trị cấp cứu trong 24 – 48 giờ</span>.<br><br>💡 Giải thích của AI:<br>Mọi biến chứng tắc nghẽn cơ học hay chèn ép thần kinh trong giai đoạn muộn đều đòi hỏi giải áp cơ học khẩn cấp song hành với điều trị nền, trong đó cửa sổ chèn ép tủy sống chỉ có 24–48 giờ để cứu chức năng vận động.",
+      "extra": "[B7.06, B4.02]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Cap-cuu",
+        "Ngoai::Thuat-toan-Quyet-dinh"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-01",
+      "type": "basic",
+      "topic": "Bẫy: Đợi tiểu khó / bí tiểu mới tầm soát ung thư TTL",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới 55 tuổi hoàn toàn không tiểu khó, không tiểu đêm — Vì sao bác sĩ vẫn không được loại trừ ung thư TTL nếu chưa làm DRE và PSA?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Vị trí giải phẫu vùng khởi phát:</b> Ung thư TTL giai đoạn sớm thường khu trú ở <span style=\"color: #74c0fc; font-weight: bold;\">vùng ngoại vi (thùy sau)</span> nên <span style=\"color: #ff6b6b; font-weight: bold;\">hoàn toàn không có triệu chứng</span>.<br>2) <b>Sự đối lập với BPH:</b> Khi bệnh nhân bắt đầu tiểu khó, bí đái, đái máu, u thường đã phát triển lớn chèn ép hoặc phá vỡ vỏ bao.<br><br>💡 Giải thích của AI:<br>Triệu chứng đường tiểu dưới chỉ xuất hiện khi u ăn lan vào trung tâm/niệu đạo. Nếu chờ triệu chứng cơ năng mới khám thì bỏ lỡ cơ hội chữa khỏi 90% ở giai đoạn khu trú T1–T2.",
+      "extra": "[B4.01, B4.03, B0.02]",
+      "tags": [
+        "Ngoai::SURG-58::B4",
+        "Tier-1",
+        "Ngoai::Lam-sang",
+        "Ngoai::Tam-soat",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-02",
+      "type": "basic",
+      "topic": "Bẫy: Bỏ qua sinh thiết khi PSA > 10 mà DRE bình thường (hoặc vùng xám)",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Thăm trực tràng (DRE) thấy tuyến tiền liệt mềm nhẵn hoàn toàn bình thường nhưng xét nghiệm PSA máu đạt 12 ng/ml (hoặc PSA 6 ng/ml với f/tPSA = 11%) — Bẫy bỏ sót là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sai lầm tin tuyệt đối vào DRE âm tính:</b> Khối u giai đoạn <span style=\"color: #74c0fc; font-weight: bold;\">T1c</span> không thể sờ thấy qua DRE và không thấy trên siêu âm.<br>2) <b>Quyết định bắt buộc:</b> Với <span style=\"color: #ff6b6b; font-weight: bold;\">PSA > 10 ng/ml</span> (nguy cơ ung thư 50%), <span style=\"color: #ff6b6b; font-weight: bold;\">BẮT BUỘC sinh thiết TTL bất kể kết quả DRE</span>; trong vùng xám 4–10 ng/ml, <span style=\"color: #ff6b6b; font-weight: bold;\">fPSA/tPSA < 15%</span> cũng đòi hỏi sinh thiết ngay.<br><br>💡 Giải thích của AI:<br>Tỷ lệ ung thư lên tới 50% ở ngưỡng PSA > 10 ng/ml và nguy cơ rất cao khi f/tPSA tụt dưới 15%. Các ổ u nhỏ nằm ở vị trí khó sờ hoặc mặt trước chỉ có thể bắt được qua sinh thiết hệ thống.",
+      "extra": "[B5.03, B5.04, B3.01]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::PSA",
+        "Ngoai::DRE",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-03",
+      "type": "basic",
+      "topic": "Bẫy: Nhầm tăng PSA do Viêm TTL cấp với Ung thư TTL",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân nam sốt nóng, tuyến tiền liệt sưng đau tức, bạch cầu niệu cao và xét nghiệm PSA tăng 14 ng/ml — Sai lầm xử trí là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Tăng PSA thoáng qua do viêm:</b> Trong <span style=\"color: #74c0fc; font-weight: bold;\">viêm tuyến tiền liệt cấp / mạn</span>, PSA có thể tăng thoáng qua rất cao do tổn thương hàng rào mô tuyến.<br>2) <b>Hướng xử trí chuẩn:</b> Điều trị <span style=\"color: #51cf66; font-weight: bold;\">kháng sinh ổn định tình trạng viêm</span>, sau đó kiểm tra lại nồng độ PSA — nếu là viêm đơn thuần, PSA sẽ <span style=\"color: #51cf66; font-weight: bold;\">trở về bình thường</span>.<br><br>💡 Giải thích của AI:<br>Sinh thiết qua trực tràng ngay lúc tuyến đang viêm cấp không chỉ làm sai lệch đánh giá PSA mà còn tăng vọt nguy cơ nhiễm khuẩn huyết nặng. Luôn giải quyết nhiễm khuẩn trước rồi đánh giá lại.",
+      "extra": "[B6.01]",
+      "tags": [
+        "Ngoai::SURG-58::B6",
+        "Tier-1",
+        "Ngoai::Chan-doan-phan-biet",
+        "Ngoai::PSA",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-04",
+      "type": "basic",
+      "topic": "Bẫy: Sinh thiết TTL quá ít mẫu bỏ sót vùng ngoại vi",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Thấy nốt nghi ngờ ở một thùy TTL nên chỉ bấm 1–2 mẫu kim tại điểm đó và trả về lành tính — Bẫy kỹ thuật sinh thiết nằm ở đâu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Yêu cầu chuẩn mực:</b> Sinh thiết dưới hướng dẫn <span style=\"color: #51cf66; font-weight: bold;\">TRUS</span> bắt buộc bấm kim hệ thống <span style=\"color: #ff6b6b; font-weight: bold;\">ít nhất 6 – 12 vị trí (mỗi thùy 3 – 6 mẫu)</span> từ đáy, giữa đến đỉnh TTL.<br>2) <b>Trọng tâm giải phẫu:</b> Tập trung kỹ vào <span style=\"color: #74c0fc; font-weight: bold;\">vùng ngoại vi</span> nơi 70% khối u xuất phát (biểu hiện giảm âm trên TRUS).<br><br>💡 Giải thích của AI:<br>Ung thư tuyến tiền liệt thường có nhiều ổ nhỏ rải rác hoặc âm thầm ở vùng ngoại vi mà siêu âm thường không thấy rõ. Chỉ bấm 1–2 mẫu gây âm tính giả rất cao và đánh giá sai thang điểm Gleason.",
+      "extra": "[B5.05, B5.06]",
+      "tags": [
+        "Ngoai::SURG-58::B5",
+        "Tier-1",
+        "Ngoai::Sinh-thiet",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-05",
+      "type": "basic",
+      "topic": "Bẫy: Chủ quan với Đau lưng tăng về đêm ở nam lớn tuổi",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới trên 60 tuổi đau thắt lưng kéo dài tăng mạnh về đêm, xét nghiệm thấy Phosphatase kiềm (ALP) tăng cao và PSA > 100 ng/ml — Đừng điều trị nhầm như thoái hóa cột sống đơn thuần?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Đường lan di căn xương M1b:</b> Di căn xương thể <span style=\"color: #ff6b6b; font-weight: bold;\">tạo xương (osteoblastic)</span> qua <span style=\"color: #74c0fc; font-weight: bold;\">đám rối tĩnh mạch Batson không có van</span> với vị trí số 1 là <span style=\"color: #ff6b6b; font-weight: bold;\">cột sống thắt lưng</span>, số 2 là <span style=\"color: #ff6b6b; font-weight: bold;\">xương chậu</span>.<br>2) <b>Xác định chẩn đoán:</b> Đau tăng về đêm + <span style=\"color: #ff6b6b; font-weight: bold;\">ALP tăng cao</span> + <span style=\"color: #ff6b6b; font-weight: bold;\">PSA > 100 ng/ml</span> → Chỉ định ngay <span style=\"color: #51cf66; font-weight: bold;\">Xạ hình xương toàn thân với Technetium-99m</span>.<br><br>💡 Giải thích của AI:<br>Đau cột sống do thoái hóa cơ học thường giảm khi nằm nghỉ ban đêm, trái ngược hoàn toàn với đau do di căn xương tăng nặng về đêm. ALP tăng cao phản ánh hoạt động tạo xương phản ứng quanh ổ di căn.",
+      "extra": "[B3.03, B3.04, B4.02, B5.03, B5.05, B5.06]",
+      "tags": [
+        "Ngoai::SURG-58::B3",
+        "Tier-1",
+        "Ngoai::Di-can",
+        "Ngoai::Lam-sang",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-06",
+      "type": "basic",
+      "topic": "Bẫy: Tiêm đồng vận LHRH đơn độc gây hiệu ứng Flare-up",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân ung thư TTL di căn cột sống (M1b) được tiêm Goserelin (Zoladex) hoặc Leuprolide đơn độc ngày đầu mà không dùng thuốc kháng Androgen kèm theo — Tai biến nguy kịch nào sẽ xảy ra?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Hiệu ứng bùng phát \"flare-up\":</b> Đồng vận LHRH/GnRH ban đầu kích thích tuyến yên gây <span style=\"color: #ff6b6b; font-weight: bold;\">tăng tiết Testosterone thoáng qua</span> trước khi ức chế được sau <span style=\"color: #ffd43b; font-weight: bold;\">2 – 3 tuần</span>.<br>2) <b>Nguy cơ & Cách phòng tránh:</b> Đợt tăng Testosterone đột ngột thúc đẩy u phì đại nhanh gây <span style=\"color: #ff6b6b; font-weight: bold;\">đau xương dữ dội, bí đái hoặc chèn ép tủy sống cấp</span>. Bắt buộc <span style=\"color: #51cf66; font-weight: bold;\">che phủ bằng thuốc kháng Androgen (Bicalutamide, Flutamide)</span> trước/cùng lúc tiêm.<br><br>💡 Giải thích của AI:<br>Quên kháng androgen che phủ hiệu ứng flare-up ở người đã có di căn cột sống là sai lầm điều trị nguy hiểm có thể kích hoạt liệt hai chi dưới chỉ sau vài ngày khởi trị nội tiết.",
+      "extra": "[B7.04]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Noi-tiet",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-07",
+      "type": "basic",
+      "topic": "Bẫy: Bỏ qua cửa sổ vàng Chèn ép tủy sống cấp 24–48 giờ",
+      "tier": 1,
+      "front": "🛑 <span style=\"color: #ff6b6b; font-weight: bold;\">CỜ ĐỎ CẤP CỨU</span> — Bệnh nhân ung thư TTL di căn cột sống thắt lưng đột ngột than yếu hai chân và bí tiểu cấp — Nếu trì hoãn chờ hội chẩn qua vài ngày sẽ mất gì và phác đồ tối khẩn là gì?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Cờ đỏ thần kinh:</b> <span style=\"color: #ff6b6b; font-weight: bold;\">Hội chứng chèn ép tủy sống cấp</span> — chậm trễ sẽ gây <span style=\"color: #ff6b6b; font-weight: bold;\">liệt hai chi dưới vĩnh viễn</span>.<br>2) <b>Lệnh cấp cứu trong 24 – 48 giờ:</b> Tiêm ngay <span style=\"color: #ff6b6b; font-weight: bold;\">Dexamethasone liều cao khẩn cấp</span> kết hợp <span style=\"color: #ff6b6b; font-weight: bold;\">phẫu thuật giải ép cột sống hoặc xạ trị cấp cứu trong vòng 24 – 48 giờ</span>.<br><br>💡 Giải thích của AI:<br>Khối u di căn từ đám rối Batson ăn vào thân đốt sống gây phù tủy và chèn ép cơ học rễ – tủy sống. Corticoid liều cao giảm phù tủy tức thì tạo thời gian vàng cho mổ giải ép hoặc xạ trị cấp cứu.",
+      "extra": "[B4.02, B7.06]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Cap-cuu",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do",
+        "Ngoai::Co-do"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-08",
+      "type": "basic",
+      "topic": "Bẫy: Mở rộng cắt TTL triệt căn sai đối tượng / quên tư vấn biến chứng",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Bệnh nhân ung thư TTL T3b (ăn túi tinh) hoặc nam giới 76 tuổi bệnh tim nặng đòi phẫu thuật cắt toàn bộ TTL triệt căn — Sai lầm nằm ở chỉ định và tư vấn nào?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Sai chỉ định triệt căn:</b> Cắt TTL triệt căn chỉ dành cho người <span style=\"color: #51cf66; font-weight: bold;\">còn trẻ, kỳ vọng sống > 10 năm, khu trú T1–T2, Gleason ≤ 7</span>; giai đoạn <span style=\"color: #ff6b6b; font-weight: bold;\">T3–T4, N+, M1</span> chỉ điều trị toàn thân/giảm nhẹ.<br>2) <b>Tư vấn bắt buộc biến chứng muộn:</b> Hai biến chứng thường gặp nhất sau mổ là <span style=\"color: #ff6b6b; font-weight: bold;\">đái rỉ / mất tự chủ nước tiểu (Incontinence)</span> và <span style=\"color: #ff6b6b; font-weight: bold;\">rối loạn cương dương (Impotence)</span>.<br><br>💡 Giải thích của AI:<br>Ở T3b khối u đã vượt bao xâm lấn túi tinh nên mổ triệt căn đơn thuần không sạch rìa u mà làm tăng nặng tai biến rò/thủng trực tràng, chảy máu và rối loạn cơ thắt.",
+      "extra": "[B7.01, B7.02]",
+      "tags": [
+        "Ngoai::SURG-58::B7",
+        "Tier-1",
+        "Ngoai::Phau-thuat",
+        "Ngoai::Dieu-tri",
+        "Ngoai::Bay-lam-sang"
+      ]
+    },
+    {
+      "id": "SURG58-TRAP-09",
+      "type": "basic",
+      "topic": "Bẫy: Áp dụng mốc tầm soát 50 tuổi cứng nhắc cho người có bố/anh em mắc bệnh",
+      "tier": 1,
+      "front": "❌ <span style=\"color: #ffd43b; font-weight: bold;\">BẪY LÂM SÀNG</span> — Nam giới 42 tuổi có bố và anh trai từng mắc ung thư TTL đến khám tổng quát, bác sĩ hẹn tới năm 50 tuổi mới làm DRE và PSA — Sai sót dự phòng ở đâu?",
+      "back": "🎯 Trả lời cốt lõi:<br>1) <b>Mức tăng nguy cơ:</b> Có bố hoặc anh em trai mắc ung thư TTL làm nguy cơ mắc bệnh cao hơn gấp <span style=\"color: #ff6b6b; font-weight: bold;\">2 – 3 lần</span>.<br>2) <b>Mốc tầm soát điều chỉnh:</b> Nhóm nguy cơ gia đình bắt buộc tầm soát hàng năm ngay từ <span style=\"color: #51cf66; font-weight: bold;\">40 – 45 tuổi</span> (thay vì đợi đến 50 tuổi như dân số chung), gồm <span style=\"color: #74c0fc; font-weight: bold;\">DRE + PSA máu + TRUS khi bất thường</span>.<br><br>💡 Giải thích của AI:<br>Yếu tố di truyền thúc đẩy ung thư TTL khởi phát sớm hơn trung bình 5–10 năm. Tầm soát sớm từ 40–45 tuổi giúp bắt gọn bệnh ở ngưỡng khu trú có thể chữa khỏi 90%.",
+      "extra": "[B1.02, B6.02]",
+      "tags": [
+        "Ngoai::SURG-58::B6",
+        "Tier-1",
+        "Ngoai::Tam-soat",
+        "Ngoai::Di-truyen",
+        "Ngoai::Bay-lam-sang"
+      ]
+    }
+  ]
+}

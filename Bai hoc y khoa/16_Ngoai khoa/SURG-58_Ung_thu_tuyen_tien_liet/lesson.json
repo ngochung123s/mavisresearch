@@ -2,11 +2,17 @@
   "id": "SURG-58",
   "specialty": "ngoai",
   "profile": "disease",
-  "lesson": "SURG-58_Ung_thu_tuyen_tien_liet_2026-11-05_RELEASE_v1.md",
+  "lesson": "SURG-58_Ung_thu_tuyen_tien_liet_BAREM.md",
+  "barem": "SURG-58_Ung_thu_tuyen_tien_liet_BAREM.md",
+  "required_sections": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
   "deck": {
     "deck_id": 7600000000058,
     "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-58: Ung Thư Tuyến Tiền Liệt",
-    "basename": "SURG-58_Ung_thu_tuyen_tien_liet_2026-11-05_RELEASE_v1",
-    "cards_source": "SURG-58_Ung_thu_tuyen_tien_liet_2026-11-05_RELEASE_v1.cards.v2.json"
+    "basename": "SURG-58_Ung_thu_tuyen_tien_liet_BAREM_v1",
+    "cards_source": "surg58_cards_data.py",
+    "legacy_anki_decks": [
+      "Ung thư::07_Ung_thu_tuyen_tien_liet::2026-11-05",
+      "Ung thư::07_Ung_thu_tuyen_tien_liet"
+    ]
   }
 }
