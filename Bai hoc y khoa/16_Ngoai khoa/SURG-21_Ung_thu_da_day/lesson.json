@@ -3,10 +3,16 @@
   "specialty": "ngoai",
   "profile": "disease",
   "lesson": "SURG-21_Ung_thu_da_day_2026-11-05_RELEASE_v1.md",
+  "barem": "SURG-21_Ung_thu_da_day_BAREM.md",
   "deck": {
     "deck_id": 7600000000021,
     "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-21: Ung Thư Dạ Dày",
-    "basename": "SURG-21_Ung_thu_da_day_2026-11-05_RELEASE_v1",
-    "cards_source": "SURG-21_Ung_thu_da_day_2026-11-05_RELEASE_v1.cards.v2.json"
+    "basename": "SURG-21_Ung_thu_da_day_BAREM_v1",
+    "required_sections": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+    "cards_source": "surg21_cards_data.py",
+    "legacy_anki_decks": [
+      "Ung thư::02_Ung_thu_da_day::2026-11-05",
+      "Ung thư::02_Ung_thu_da_day"
+    ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "SURG-21",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-21: Ung Thư Dạ Dày",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T19:46:58",
+  "cards_source": "surg21_cards_data.py",
+  "cards_source_sha256": "24ab133043fc4a1f9988874c0902e274850f7d1b4157071240cfb657f7445503",
+  "card_count": 39,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-21_Ung_thu_da_day\\SURG-21_Ung_thu_da_day_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 39,
+    "archived": 136,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 39
+  },
+  "apkg_sha256": "3bff620b666f8a39e8bc2d3671dc87c177f80ecc2960c655e3926d5f4b29fbbf",
+  "sqlite_notes": 39,
+  "sqlite_cards": 52
+}
