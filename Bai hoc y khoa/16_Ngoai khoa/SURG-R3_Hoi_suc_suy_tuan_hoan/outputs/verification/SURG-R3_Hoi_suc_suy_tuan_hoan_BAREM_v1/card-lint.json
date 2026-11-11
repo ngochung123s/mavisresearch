@@ -1,0 +1,31 @@
+{
+  "id": "SURG-R3",
+  "specialty": "ngoai",
+  "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R3: Hồi Sức Suy Tuần Hoàn Trong Ngoại Khoa",
+  "mode": "release",
+  "status": "PASS",
+  "generated_at": "2026-11-11T21:05:43",
+  "cards_source": "surgr3_cards_data.py",
+  "cards_source_sha256": "f058a9530581a8cbf93ef9c8e07b8fbbc57817f4065c7c132074e29870bde976",
+  "card_count": 37,
+  "summary": {
+    "block": 0,
+    "debt": 0,
+    "warn": 0,
+    "by_code": {}
+  },
+  "issues": [],
+  "apkg": "F:\\DL\\mavisresearch\\Bai hoc y khoa\\16_Ngoai khoa\\SURG-R3_Hoi_suc_suy_tuan_hoan\\SURG-R3_Hoi_suc_suy_tuan_hoan_BAREM_v1.apkg",
+  "anki_sync": {
+    "updated": 0,
+    "unchanged": 0,
+    "added": 37,
+    "archived": 135,
+    "moved": 0,
+    "media": 0,
+    "deck_notes": 37
+  },
+  "apkg_sha256": "1578876954badfc09355e5a21b79787a3f0f73feb888f93be258c9680cc7fb20",
+  "sqlite_notes": 37,
+  "sqlite_cards": 58
+}

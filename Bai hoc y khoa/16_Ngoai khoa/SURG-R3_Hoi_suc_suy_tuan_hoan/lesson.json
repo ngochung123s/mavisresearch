@@ -2,11 +2,17 @@
   "id": "SURG-R3",
   "specialty": "ngoai",
   "profile": "foundation",
-  "lesson": "SURG-R3_Hoi_suc_suy_tuan_hoan_2026-11-07_RELEASE_v1.md",
+  "lesson": "SURG-R3_Hoi_suc_suy_tuan_hoan_BAREM.md",
+  "barem": "SURG-R3_Hoi_suc_suy_tuan_hoan_BAREM.md",
   "deck": {
     "deck_id": 7600000000103,
     "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-R3: Hồi Sức Suy Tuần Hoàn Trong Ngoại Khoa",
-    "basename": "SURG-R3_Hoi_suc_suy_tuan_hoan_2026-11-07_RELEASE_v1",
-    "cards_source": "SURG-R3_Hoi_suc_suy_tuan_hoan_2026-11-07_RELEASE_v1.cards.v2.json"
+    "basename": "SURG-R3_Hoi_suc_suy_tuan_hoan_BAREM_v1",
+    "required_sections": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+    "cards_source": "surgr3_cards_data.py",
+    "legacy_anki_decks": [
+      "Ngoại khoa Y6::R3_Hoi_suc_suy_tuan_hoan_trong_ngoai_khoa",
+      "Ngoại khoa Y6::R3_Hoi_suc_suy_tuan_hoan_trong_ngoai_khoa::2026-11-07"
+    ]
   }
 }
