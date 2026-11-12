@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURGR2-A01",
+      "type": "concept",
+      "topic": "Đại cương & Phân loại sốc chấn thương",
+      "subtopic": "3 bệnh cảnh sốc thường gặp trong chấn thương",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R2 §II.1",
+      "text": "Trong cấp cứu ban đầu chấn thương cơ học nặng, thể bệnh cảnh sốc nào sau đây chiếm tỷ lệ cao nhất và gặp phổ biến nhất trên lâm sàng?\nBệnh cảnh sốc chiếm tỷ lệ đa số là gì?",
+      "options": [
+        "Sốc mất máu cấp tính",
+        "Sốc tắc nghẽn ngoài tim",
+        "Sốc thần kinh tủy sống",
+        "Sốc tim do dập cơ tim"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.1 và Câu hỏi lượng giá 1, trong 3 bệnh cảnh thường gặp nhất (sốc mất máu, sốc tắc nghẽn, sốc thần kinh), sốc mất máu chiếm đa số do chảy máu trong hoặc ngoài.",
+      "option_explanations": [
+        "Đúng — Sốc mất máu cấp tính chiếm đa số tuyệt đối trong cấp cứu chấn thương.",
+        "Sai — Sốc tắc nghẽn (chèn ép tim cấp, tràn khí màng phổi áp lực) là bệnh cảnh thứ hai thường gặp nhưng không chiếm đa số.",
+        "Sai — Sốc thần kinh tủy sống do tổn thương tủy cổ hoặc ngực cao là bệnh cảnh thứ ba thường gặp nhưng tỷ lệ thấp hơn.",
+        "Sai — Sốc tim do dập cơ tim ít gặp hơn nhiều so với sốc mất máu."
+      ]
+    },
+    {
+      "id": "SURGR2-A02",
+      "type": "vignette",
+      "topic": "Đại cương & Phân loại sốc chấn thương",
+      "subtopic": "Phân loại theo cơ chế nguyên nhân",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.1",
+      "text": "Bệnh nhân nam 28 tuổi chấn thương ngực kín, nhập viện khó thở dữ dội, tím tái, huyết áp 70/40 mmHg, tĩnh mạch cổ nổi căng và rì rào phế nang bên phải mất hoàn toàn.\nCơ chế bệnh sinh trực tiếp gây sốc trên bệnh nhân này thuộc nhóm nào?",
+      "options": [
+        "Sốc giảm thể tích do chảy máu trong",
+        "Sốc phân bố do mất trương lực mạch",
+        "Sốc tắc nghẽn do cản trở hồi lưu máu",
+        "Sốc tim do giảm sức co bóp cơ tim"
+      ],
+      "correct": 2,
+      "explanation": "Bệnh nhân có hội chứng tràn khí màng phổi áp lực (khó thở, tím tái, tĩnh mạch cổ nổi, mất phế âm, tụt HA). Áp lực khoang màng phổi tăng cao đè sụp tĩnh mạch chủ gây sốc tắc nghẽn.",
+      "option_explanations": [
+        "Sai — Sốc giảm thể tích (mất máu) tĩnh mạch cổ sẽ xẹp chứ không nổi căng.",
+        "Sai — Sốc phân bố gặp trong sốc tủy hoặc sốc nhiễm khuẩn, không gây mất phế âm kèm lệch khí quản.",
+        "Đúng — Tràn khí màng phổi áp lực gây sốc tắc nghẽn do cản trở máu tĩnh mạch trở về tim.",
+        "Sai — Sốc tim do dập cơ tim không có triệu chứng mất hoàn toàn rì rào phế nang một bên phổi."
+      ]
+    },
+    {
+      "id": "SURGR2-A03",
+      "type": "vignette",
+      "topic": "Đại cương & Phân loại sốc chấn thương",
+      "subtopic": "Sốc thần kinh / sốc tủy",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.1",
+      "text": "Chấn thương cơ học kín vỡ tạng đặc gây chảy máu trong ổ phúc mạc lượng lớn dẫn đến hội chứng sốc nào sau đây chiếm đa số trong cấp cứu ngoại khoa?",
+      "options": [
+        "Sốc mất máu cấp tính",
+        "Sốc thần kinh tủy sống",
+        "Sốc tắc nghẽn tim cấp",
+        "Sốc phân bố do phản vệ"
+      ],
+      "correct": 0,
+      "explanation": "Tổn thương tủy cổ hoặc ngực cao làm cắt đứt luồng giao cảm ly tâm, gây giãn tiểu động mạch/tĩnh mạch (da ấm) và mất kích thích giao cảm lên tim (nhịp chậm <60 l/p) đặc trưng cho sốc thần kinh / sốc tủy.",
+      "option_explanations": [
+        "Sai — Sốc mất máu gây nhịp tim nhanh (>100–120 l/p) và da tái lạnh ẩm do co mạch giao cảm.",
+        "Sai — Sốc chèn ép tim cấp gây nhịp tim nhanh, tĩnh mạch cổ nổi và tiếng tim mờ xa xăm.",
+        "Đúng — Sốc thần kinh tủy sống (sốc tủy) biểu hiện hạ huyết áp kèm nhịp chậm và da ấm do mất trương lực giao cảm.",
+        "Sai — Sốc tắc nghẽn do tràn khí áp lực gây suy hô hấp dữ dội, tĩnh mạch cổ nổi và nhịp nhanh."
+      ]
+    },
+    {
+      "id": "SURGR2-A04",
+      "type": "concept",
+      "topic": "Đại cương & Phân loại sốc chấn thương",
+      "subtopic": "Phân loại theo thời gian xuất hiện",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.2",
+      "text": "Theo phân loại sốc chấn thương theo thời gian xuất hiện, tình trạng sốc bộc lộ sau vài giờ đến vài ngày do chảy máu tái phát, nhiễm trùng hoặc tiêu cơ vân được gọi là gì?\nTên gọi chính xác của thể sốc này là gì?",
+      "options": [
+        "Sốc tiên phát",
+        "Sốc không hồi phục",
+        "Sốc còn bù",
+        "Sốc thứ phát"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.2: Sốc tiên phát xuất hiện ngay sau tai nạn do đau đớn và mất máu cấp. Sốc thứ phát xuất hiện muộn sau vài giờ đến vài ngày do chảy máu tái phát, nhiễm khuẩn hoặc tiêu cơ vân.",
+      "option_explanations": [
+        "Sai — Sốc tiên phát xuất hiện ngay tức thì sau chấn thương do đau và mất máu cấp tính.",
+        "Sai — Sốc không hồi phục là phân loại theo giai đoạn tiến triển suy đa tạng, không phải theo mốc thời gian.",
+        "Sai — Sốc còn bù là phân loại theo diễn biến lâm sàng, không phải phân loại theo thời gian xuất hiện.",
+        "Đúng — Sốc thứ phát xuất hiện sau vài giờ đến vài ngày do chảy máu tái phát, nhiễm trùng hoặc tiêu cơ vân."
+      ]
+    },
+    {
+      "id": "SURGR2-A05",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Giai đoạn còn bù — Baroreflexes & Catecholamine",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R2 §II.3.1",
+      "text": "Tụt huyết áp trong sốc mất máu kích hoạt hệ Renin - Angiotensin - Aldosterone (RAAS) bắt đầu từ việc bài tiết enzym Renin tại cơ quan nào?",
+      "options": [
+        "Tế bào biểu mô phức hợp cận cầu thận",
+        "Xoang cảnh và quai động mạch chủ ngực",
+        "Tuyến tủy thượng thận và hạch giao cảm",
+        "Vùng dưới đồi và thùy sau tuyến yên"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.3.1, thụ thể áp lực (Baroreflexes) nằm ở xoang cảnh và quai động mạch chủ nhận cảm sụt giảm tiền gánh/huyết áp để kích hoạt phản xạ giao cảm tức thì.",
+      "option_explanations": [
+        "Đúng — Thụ thể áp lực Baroreflexes định vị tại xoang cảnh và quai động mạch chủ kích hoạt phóng thích Adrenaline và Noradrenaline.",
+        "Sai — Tiểu cầu thận chứa bộ máy cạnh tiểu cầu tiết Renin để kích hoạt hệ RAAS, là cơ chế nội tiết chậm hơn.",
+        "Sai — Tĩnh mạch cửa và lách chứa các hồ chứa máu nhưng không có Baroreflexes điều hòa áp lực động mạch hệ thống.",
+        "Sai — Màng ngoài tim và cơ hoành không chứa các thụ thể áp lực điều hòa huyết áp."
+      ]
+    },
+    {
+      "id": "SURGR2-A06",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Hiện tượng trung tâm hóa tuần hoàn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.3.1",
+      "text": "Trong giai đoạn sốc còn bù, hiện tượng trung tâm hóa tuần hoàn co mạch tối đa ở da, cơ vân và tạng ổ bụng nhằm ưu tiên duy trì lưu lượng máu nuôi dưỡng cho hai cơ quan nào?\nHai cơ quan được ưu tiên bảo tồn lưu lượng máu là gì?",
+      "options": [
+        "Phổi và thận",
+        "Tim và não",
+        "Gan và lách",
+        "Não và tụy"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.3.1: Hiện tượng trung tâm hóa tuần hoàn co mạch tối đa ở các cơ quan ít quan trọng (da, cơ vân, xương, tạng ổ bụng) nhằm ưu tiên duy trì dòng máu nuôi dưỡng cho tim và não.",
+      "option_explanations": [
+        "Sai — Mạch thận bị co thắt dữ dội bởi giao cảm và RAAS làm giảm bài tiết nước tiểu để dồn máu về trung tâm.",
+        "Đúng — Hiện tượng trung tâm hóa tuần hoàn ưu tiên bảo vệ tối đa dòng máu nuôi tim (mạch vành) và não.",
+        "Sai — Tuần hoàn tạng tiêu hóa gồm gan và lách bị giảm tưới máu rõ rệt trong giai đoạn này.",
+        "Sai — Tuyến tụy bị thiếu máu cục bộ trong sốc chứ không được ưu tiên tưới máu bảo tồn."
+      ]
+    },
+    {
+      "id": "SURGR2-A07",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Đáp ứng nội tiết RAAS & ADH",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.3.1",
+      "text": "Trong đáp ứng nội tiết bù trừ của sốc mất máu, hệ Renin - Angiotensin - Aldosterone (RAAS) và hormon Vasopressin (ADH) cùng tác động lên cơ quan nào để bảo tồn thể tích dịch lòng mạch?\nCơ quan đích tiếp nhận tác động giữ muối và nước là gì?",
+      "options": [
+        "Hệ vi tuần hoàn cơ vân",
+        "Hệ mao mạch phế nang",
+        "Mạng lưới mao mạch niêm mạc ruột",
+        "Ống thận và tiểu động mạch thận"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.3.1: Hệ RAAS và Vasopressin (ADH) làm tăng tái hấp thu muối và nước ở ống thận, đồng thời co tiểu động mạch thận để bảo tồn thể tích dịch lòng mạch.",
+      "option_explanations": [
+        "Sai — Cơ vân bị co mạch thiếu máu, không có chức năng tái hấp thu bảo tồn dịch tuần hoàn.",
+        "Sai — Mao mạch phế nang là nơi trao đổi khí, không chịu tác động giữ muối nước của Aldosterone và ADH.",
+        "Sai — Mao mạch ruột bị giảm tưới máu, không trực tiếp tái hấp thu dịch lòng mạch trong đáp ứng nội tiết này.",
+        "Đúng — Aldosterone và ADH tác động trực tiếp tại ống thận tăng tái hấp thu Na+ và nước, kết hợp co tiểu động mạch thận."
+      ]
+    },
+    {
+      "id": "SURGR2-A08",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Giai đoạn mất bù — Chuyển hóa kỵ khí & Toan Lactic",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.3.2",
+      "text": "Trong sốc mất máu, thiếu oxy tế bào kéo dài kích hoạt con đường chuyển hóa kỵ khí dẫn đến sự tích tụ chất nào sau đây gây toan chuyển hóa?",
+      "options": [
+        "Axit Lactic trong máu",
+        "Thể Ceton huyết thanh",
+        "Khí Carbonic nội bào",
+        "Axit Uric trong thận"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.3.2: Thiếu oxy tế bào nghiêm trọng kéo dài buộc tế bào chuyển sang chuyển hóa kỵ khí, tích tụ axit lactic gây toan chuyển hóa nặng.",
+      "option_explanations": [
+        "Đúng — Thiếu máu nuôi mô làm thiếu oxy tế bào, kích hoạt con đường đường phân kỵ khí tích tụ axit lactic gây toan chuyển hóa.",
+        "Sai — Nhiễm toan ceton gặp trong đái tháo đường hoặc nhịn đói kéo dài, không phải cơ chế toan máu chủ đạo của sốc chấn thương.",
+        "Sai — Ứ trệ carbonic gây toan hô hấp khi suy thở, không phải biến loạn chuyển hóa tế bào kỵ khí.",
+        "Sai — Mất bicacbonat qua phân gặp trong tiêu chảy cấp, không phải cơ chế toan máu trong sốc mất máu."
+      ]
+    },
+    {
+      "id": "SURGR2-A09",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Liệt cơ thắt vi tuần hoàn & Thoát dịch",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.3.2",
+      "text": "Trong giai đoạn sốc còn bù, hiện tượng co tiểu động mạch và tĩnh mạch ngoại vi nhằm mục đích sinh lý bệnh chủ yếu nào sau đây?",
+      "options": [
+        "Liệt cơ thắt tiền mao mạch gây ứ máu vi tuần hoàn",
+        "Tái phân bố lưu lượng máu dồn về tim và não",
+        "Ứ trệ tuần hoàn ngoại vi gây toan lactic máu",
+        "Làm tăng tính thấm mao mạch thoát dịch ra mô kẽ"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.3.2: Toan máu và ứ đọng chất chuyển hóa làm liệt cơ thắt tiền mao mạch trong khi cơ thắt sau mao mạch vẫn co -> máu ứ trệ trong mạng vi tuần hoàn, tăng áp lực thủy tĩnh làm thoát dịch và protein ra mô kẽ.",
+      "option_explanations": [
+        "Sai — Tiền co sau giãn sẽ làm giảm áp lực mao mạch, không gây ứ trệ và thoát protein ra mô kẽ.",
+        "Đúng — Cơ thắt tiền mao mạch bị liệt giãn do toan máu trong khi cơ thắt sau mao mạch vẫn co thắt, gây ứ máu và thoát dịch.",
+        "Sai — Co cả hai cơ thắt là đặc trưng của giai đoạn còn bù nhằm ngăn máu vào mạng mao mạch ngoại vi.",
+        "Sai — Liệt cả hai cơ thắt xảy ra ở giai đoạn trơ vận mạch không hồi phục."
+      ]
+    },
+    {
+      "id": "SURGR2-A10",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Yếu tố ức chế cơ tim MDF",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.3.2",
+      "text": "Yếu tố ức chế cơ tim (Myocardial Depressant Factor - MDF) xuất hiện trong giai đoạn sốc mất bù chủ yếu có nguồn gốc giải phóng từ hệ cơ quan nào?\nHệ cơ quan nguồn gốc giải phóng MDF là gì?",
+      "options": [
+        "Tuyến tụy và niêm mạc ruột",
+        "Vỏ thượng thận và tủy thận",
+        "Màng tim và nút xoang nhĩ",
+        "Nhu mô lách và tủy xương"
+      ],
+      "correct": 0,
+      "explanation": "Theo sinh lý bệnh học sốc (Mục II.3.2), khi tưới máu tạng bị suy giảm nặng, tuyến tụy và mô ruột bị thiếu máu giải phóng các peptid ức chế cơ tim (MDF) làm giảm sức co bóp tim.",
+      "option_explanations": [
+        "Đúng — Tuyến tụy và niêm mạc ống tiêu hóa thiếu máu giải phóng yếu tố ức chế cơ tim (MDF) vào đại tuần hoàn.",
+        "Sai — Tuyến thượng thận tiết hormone steroid và catecholamine, không tạo ra yếu tố ức chế cơ tim MDF.",
+        "Sai — Mô tim chịu tác động ức chế của MDF chứ không phải nơi sản sinh giải phóng yếu tố này.",
+        "Sai — Nhu mô lách và tủy xương không phải là nguồn sản sinh chính của peptid MDF."
+      ]
+    },
+    {
+      "id": "SURGR2-A11",
+      "type": "concept",
+      "topic": "Sinh lý bệnh sốc mất máu (3 giai đoạn)",
+      "subtopic": "Giai đoạn không hồi phục & MODS",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.3.3",
+      "text": "Bệnh nhân sốc mất máu tiến triển đến giai đoạn có hiện tượng trơ hoàn toàn với thuốc vận mạch, đông máu nội mạch rải rác (DIC) và suy đa tạng (MODS) được xếp vào giai đoạn nào?\nPhân loại giai đoạn tiến triển này là gì?",
+      "options": [
+        "Giai đoạn sốc tiên phát",
+        "Giai đoạn sốc còn bù",
+        "Giai đoạn sốc mất bù",
+        "Giai đoạn sốc không hồi phục"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.3.3: Giai đoạn không hồi phục đặc trưng bởi giãn mạch toàn thân trơ với thuốc vận mạch, đông máu nội mạch rải rác (DIC), cạn kiệt năng lượng ATP tế bào dẫn đến hoại tử tạng và hội chứng suy đa tạng (MODS).",
+      "option_explanations": [
+        "Sai — Sốc tiên phát là sốc xuất hiện ngay sau chấn thương do đau và mất máu cấp tính.",
+        "Sai — Giai đoạn còn bù cơ thể còn đáp ứng tốt với kích thích giao cảm và hồi sức thể tích.",
+        "Sai — Giai đoạn mất bù huyết áp bắt đầu tụt và toan máu nhưng hệ mạch vẫn còn đáp ứng và chưa bị DIC trơ vận mạch.",
+        "Đúng — Giãn mạch trơ với vận mạch, DIC và MODS là các dấu mốc xác định giai đoạn sốc không hồi phục."
+      ]
+    },
+    {
+      "id": "SURGR2-A12",
+      "type": "concept",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Mất máu Độ I theo ATLS",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R2 §II.4",
+      "text": "Theo bảng phân loại mất máu ATLS, một bệnh nhân chấn thương mất dưới 15% thể tích tuần hoàn (<750 ml), nhịp tim dưới 100 lần/phút, huyết áp và áp lực mạch bình thường thuộc phân độ nào?\nPhân độ mất máu tương ứng theo ATLS là gì?",
+      "options": [
+        "Mất máu ATLS Độ I",
+        "Mất máu ATLS Độ II",
+        "Mất máu ATLS Độ III",
+        "Mất máu ATLS Độ IV"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4, mất máu Độ I (nhẹ) có lượng máu mất <750 ml (<15%), nhịp tim <100 l/p, HA bình thường, áp lực mạch bình thường/tăng, nước tiểu >30 ml/h.",
+      "option_explanations": [
+        "Đúng — Mất <15% thể tích máu (<750 ml) kèm mạch <100 l/p và huyết áp bình thường là mất máu Độ I.",
+        "Sai — Mất máu Độ II mất 15–30% thể tích (750–1500 ml), mạch >100 l/p và huyết áp kẹp.",
+        "Sai — Mất máu Độ III mất 30–40% thể tích (1500–2000 ml), mạch >120 l/p và huyết áp tụt.",
+        "Sai — Mất máu Độ IV mất >40% thể tích (>2000 ml), mạch >140 l/p và tụt áp sâu."
+      ]
+    },
+    {
+      "id": "SURGR2-A13",
+      "type": "vignette",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Mất máu Độ II theo ATLS — Huyết áp kẹp",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.4",
+      "text": "Bệnh nhân nữ 30 tuổi vào viện sau tai nạn giao thông đập bụng vào tay lái. Khám: lo lắng vừa, mạch 108 lần/phút, huyết áp 110/85 mmHg (hiệu số 25 mmHg), thở 24 lần/phút, nước tiểu 25 ml/giờ.\nBệnh nhân này được phân loại mất máu ở mức độ nào theo tiêu chuẩn ATLS?",
+      "options": [
+        "Mất máu ATLS Độ I",
+        "Mất máu ATLS Độ II",
+        "Mất máu ATLS Độ III",
+        "Mất máu ATLS Độ IV"
+      ],
+      "correct": 1,
+      "explanation": "Theo ATLS Mục II.4: Mất máu Độ II có nhịp tim >100 l/p (108), huyết áp động mạch bình thường nhưng huyết áp kẹp (110/85, áp lực mạch giảm), thở 20–30 l/p, nước tiểu 20–30 ml/h (25 ml/h), lo lắng vừa.",
+      "option_explanations": [
+        "Sai — Độ I có nhịp tim <100 l/p, áp lực mạch bình thường và nước tiểu >30 ml/h.",
+        "Đúng — Mạch 108 l/p, huyết áp kẹp 110/85 mmHg, nước tiểu 25 ml/h thuộc mất máu Độ II.",
+        "Sai — Độ III có mạch >120 l/p, huyết áp tụt rõ rệt và nước tiểu giảm còn 5–15 ml/h.",
+        "Sai — Độ IV có mạch >140 l/p, tụt áp sâu, vô niệu <5 ml/h và lờ đờ hôn mê."
+      ]
+    },
+    {
+      "id": "SURGR2-A14",
+      "type": "vignette",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Mất máu Độ III theo ATLS",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.4",
+      "text": "Bệnh nhân nam 40 tuổi vào viện vì sốc mất máu sau tai nạn giao thông, lượng máu mất ước tính khoảng 900 ml (khoảng 20% thể tích tuần hoàn), mạch 108 lần/phút, huyết áp kẹp nhưng chưa tụt huyết áp động mạch.\nTheo bảng phân độ mất máu ATLS, bệnh nhân này thuộc phân độ nào?",
+      "options": [
+        "Mất máu ATLS Độ I",
+        "Mất máu ATLS Độ II",
+        "Mất máu ATLS Độ III",
+        "Mất máu ATLS Độ IV"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4 và Câu hỏi lượng giá 2: Mất máu Độ III (1500–2000 ml, 30–40% thể tích) có mạch >120 l/p (128), tụt huyết áp (85/55), thở 30–40 l/p, thiểu niệu 5–15 ml/h (10), kích thích lú lẫn.",
+      "option_explanations": [
+        "Sai — Độ I mất <15%, huyết áp và mạch hoàn toàn trong giới hạn bình thường.",
+        "Sai — Độ II mất 15–30%, mạch 100–120 l/p, huyết áp chưa tụt mà chỉ kẹp, nước tiểu 20–30 ml/h.",
+        "Đúng — Mạch >120 l/p (128), huyết áp tụt (85/55), thiểu niệu 10 ml/h thuộc mất máu Độ III.",
+        "Sai — Độ IV mất >40%, mạch >140 l/p, tụt áp sâu, vô niệu <5 ml/h và hôn mê."
+      ]
+    },
+    {
+      "id": "SURGR2-A15",
+      "type": "vignette",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Mất máu Độ IV theo ATLS — Nguy kịch",
+      "bloom": "vận dụng",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.4",
+      "text": "Bệnh nhân nam 22 tuổi vết thương thấu bụng do hỏa khí, nhập viện hôn mê, da trắng bệch, đầu chi tím tái, mạch bẹn 145 lần/phút, huyết áp 50/30 mmHg, bàng quang rút ra 2 ml nước tiểu sẫm màu.\nPhân loại mức độ mất máu theo ATLS trên bệnh nhân này là gì?",
+      "options": [
+        "Mất máu ATLS Độ I",
+        "Mất máu ATLS Độ II",
+        "Mất máu ATLS Độ III",
+        "Mất máu ATLS Độ IV"
+      ],
+      "correct": 3,
+      "explanation": "Theo bảng ATLS Mục II.4: Mất máu Độ IV có lượng máu mất >2000 ml (>40%), mạch >140 l/p (145), huyết áp tụt sâu (50/30), vô niệu <5 ml/h (2 ml), tri giác lờ đờ hôn mê.",
+      "option_explanations": [
+        "Sai — Độ I mất <15% (<750 ml), mạch <100 l/p, huyết áp bình thường.",
+        "Sai — Độ II mất 15–30% (750–1500 ml), huyết áp chưa tụt, nước tiểu 20–30 ml/h.",
+        "Sai — Độ III mất 30–40% (1500–2000 ml), mạch 120–140 l/p, nước tiểu 5–15 ml/h.",
+        "Đúng — Mất máu Độ IV mất >40% thể tích (>2000 ml), mạch >140 l/p, tụt áp sâu và vô niệu."
+      ]
+    },
+    {
+      "id": "SURGR2-A16",
+      "type": "calc",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Tính toán thể tích máu mất theo cân nặng và phân độ ATLS",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.4",
+      "text": "Một người đàn ông nặng 70 kg (ước tính thể tích máu toàn phần là 70 ml/kg = 4900 ml) bị vỡ lách độ IV chấn thương, lượng máu mất ước tính qua mổ là 1600 ml.\nLượng máu mất này tương ứng với phân độ nào theo bảng phân loại ATLS?",
+      "options": [
+        "Phân độ ATLS Độ I",
+        "Phân độ ATLS Độ II",
+        "Phân độ ATLS Độ III",
+        "Phân độ ATLS Độ IV"
+      ],
+      "correct": 2,
+      "explanation": "Thể tích máu người 70 kg: 4900 ml. Mất 1600 ml tương đương (1600 / 4900) * 100% ≈ 32,65% thể tích máu (trong khoảng 1500–2000 ml và 30–40%), tương ứng chính xác mất máu Độ III.",
+      "option_explanations": [
+        "Sai — Độ I mất <750 ml (<15% thể tích tuần hoàn).",
+        "Sai — Độ II mất 750–1500 ml (15–30% thể tích tuần hoàn).",
+        "Đúng — Mất 1600 ml (khoảng 32,65% thể tích) thuộc khoảng 1500–2000 ml (30–40%), là Độ III.",
+        "Sai — Độ IV mất >2000 ml (>40% thể tích tuần hoàn)."
+      ]
+    },
+    {
+      "id": "SURGR2-A17",
+      "type": "concept",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Nhịp tim và huyết áp kẹp trong chẩn đoán sớm",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.4",
+      "text": "Trong theo dõi lâm sàng bệnh nhân chấn thương nghi chảy máu trong, dấu hiệu huyết động nào sau đây có giá trị cảnh báo sớm tình trạng mất máu trước khi huyết áp tâm thu sụt giảm?\nDấu hiệu cảnh báo sớm mất máu là gì?",
+      "options": [
+        "Mạch chậm dưới 60 lần/phút",
+        "Nhịp tim nhanh và huyết áp kẹp",
+        "Huyết áp tâm thu tăng vọt",
+        "Áp lực mạch mở rộng biên độ"
+      ],
+      "correct": 1,
+      "explanation": "Theo ATLS Mục II.4: Ở Độ II (mất 15–30%), đáp ứng co mạch giao cảm làm tăng huyết áp tâm trương, dẫn đến huyết áp kẹp (thu hẹp áp lực mạch) kết hợp nhịp tim nhanh (>100 l/p) xuất hiện trước khi huyết áp tâm thu tụt ở Độ III.",
+      "option_explanations": [
+        "Sai — Mạch chậm gặp trong sốc tủy hoặc phản xạ phế vị, không phải phản xạ sớm của sốc mất máu.",
+        "Đúng — Nhịp tim nhanh (>100 l/p) phối hợp huyết áp kẹp (áp lực mạch giảm) là dấu hiệu cảnh báo sớm ở Độ II trước khi tụt áp tâm thu.",
+        "Sai — Huyết áp tâm thu không tăng vọt khi mất máu thể tích tuần hoàn đang giảm sút.",
+        "Sai — Áp lực mạch bị thu hẹp (kẹp) do co mạch tâm trương, không phải mở rộng biên độ."
+      ]
+    },
+    {
+      "id": "SURGR2-A18",
+      "type": "vignette",
+      "topic": "Tam chứng tử thần, DCS & Chẩn đoán tại giường",
+      "subtopic": "Siêu âm FAST tại giường trong sốc huyết động không ổn định",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R2 §II.4 & Câu hỏi lượng giá 3",
+      "text": "Bệnh nhân nam 32 tuổi chấn thương bụng kín có huyết động hoàn toàn ổn định (HATT 120 mmHg, mạch 76 lần/phút). Chỉ định cận lâm sàng hình ảnh toàn diện có giá trị cao nhất theo barem để đánh giá chính xác thương tổn tạng là gì?",
+      "options": [
+        "Chụp cắt lớp vi tính đa dãy MSCT",
+        "Siêu âm FAST cấp cứu tại giường",
+        "Chụp X-quang bụng không chuẩn bị",
+        "Chọc dò dịch ổ bụng thăm dò"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4 và Câu hỏi lượng giá 3: Siêu âm FAST tại giường thực hiện trong 2 phút là lựa chọn tối ưu xác định dịch tự do ổ bụng/màng tim khi huyết động không ổn định (HA 75/40), tuyệt đối không chuyển đi chụp MSCT.",
+      "option_explanations": [
+        "Sai — X-quang bụng không chuẩn bị không đánh giá được dịch tự do ổ bụng và khó thực hiện khi sốc.",
+        "Đúng — Siêu âm FAST tại giường thực hiện trong vòng 2 phút, không cần di chuyển bệnh nhân đang sốc tụt áp.",
+        "Sai — Chụp cắt lớp vi tính MSCT là chống chỉ định khi huyết động không ổn định.",
+        "Sai — Nội soi ổ bụng không thể áp dụng ở phòng cấp cứu cho bệnh nhân đang tụt huyết áp nặng."
+      ]
+    },
+    {
+      "id": "SURGR2-A19",
+      "type": "concept",
+      "topic": "Tam chứng tử thần, DCS & Chẩn đoán tại giường",
+      "subtopic": "Chống chỉ định MSCT khi huyết động không ổn định",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.4 & Câu hỏi lượng giá 3",
+      "text": "Phương pháp chẩn đoán hình ảnh nào sau đây bị chống chỉ định thực hiện khi bệnh nhân sốc mất máu do chấn thương có tình trạng huyết động không ổn định?\nKỹ thuật hình ảnh bị chống chỉ định là gì?",
+      "options": [
+        "Siêu âm FAST tại phòng cấp cứu",
+        "X-quang ngực thẳng chụp tại giường",
+        "Chụp cắt lớp vi tính đa dãy MSCT",
+        "X-quang khung chậu chụp tại giường"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Câu hỏi lượng giá 3: Chụp cắt lớp vi tính đa dãy (MSCT) chống chỉ định khi huyết động không ổn định vì bệnh nhân có nguy cơ trụy tuần hoàn ngừng tim trong phòng máy chụp khi di chuyển ra khỏi khu vực hồi sức.",
+      "option_explanations": [
+        "Sai — Siêu âm FAST tại giường là chỉ định ưu tiên hàng đầu khi huyết động không ổn định.",
+        "Sai — X-quang ngực chụp tại giường có thể thực hiện an toàn ngay tại phòng cấp cứu.",
+        "Đúng — Chụp MSCT chống chỉ định khi huyết động không ổn định vì nguy cơ tử vong trên đường vận chuyển.",
+        "Sai — X-quang khung chậu tại giường là phương tiện cơ bản tại phòng cấp cứu để tìm gãy xương chậu."
+      ]
+    },
+    {
+      "id": "SURGR2-A20",
+      "type": "concept",
+      "topic": "Đại cương & Phân loại sốc chấn thương",
+      "subtopic": "Tam chứng Beck trong chèn ép tim cấp",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.1",
+      "text": "Bệnh nhân có vết thương ngực cạnh xương ức trái, vào viện huyết áp 80/60 mmHg, tĩnh mạch cổ nổi rõ và tiếng tim nghe mờ xa xăm. Bộ ba dấu hiệu này đặc trưng cho hội chứng gì?\nHội chứng lâm sàng kinh điển này là gì?",
+      "options": [
+        "Tam chứng Virchow",
+        "Tam chứng Galliard",
+        "Tam chứng tử thần",
+        "Tam chứng Beck"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.1: Tam chứng Beck gồm Huyết áp hạ kẹp, Tĩnh mạch cổ nổi, Tiếng tim mờ xa xăm; đặc trưng cho chèn ép tim cấp (Tamponade) do tràn máu khoang màng ngoài tim.",
+      "option_explanations": [
+        "Sai — Tam chứng Virchow mô tả cơ chế huyết khối tĩnh mạch (ứ trệ dòng máu, tổn thương nội mạc, tăng đông).",
+        "Sai — Tam chứng Galliard mô tả hội chứng tràn khí màng phổi (gõ vang, rung thanh giảm, phế âm mất).",
+        "Sai — Tam chứng tử thần chấn thương gồm Hạ thân nhiệt, Toan chuyển hóa và Rối loạn đông máu.",
+        "Đúng — Tam chứng Beck kinh điển (HA tụt kẹp, tĩnh mạch cổ nổi, tiếng tim mờ) đặc trưng cho chèn ép tim cấp."
+      ]
+    },
+    {
+      "id": "SURGR2-A21",
+      "type": "vignette",
+      "topic": "Phân độ mất máu ATLS",
+      "subtopic": "Chỉ định bù dịch và máu theo phân độ ATLS",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.4",
+      "text": "Theo phác đồ hồi sức dịch của ATLS, mức độ mất máu nào sau đây là mốc bắt đầu có chỉ định phối hợp truyền máu cùng dung dịch tinh thể ngay từ đầu?\nPhân độ mất máu bắt đầu có chỉ định truyền máu là gì?",
+      "options": [
+        "Mất máu ATLS Độ I",
+        "Mất máu ATLS Độ II",
+        "Mất máu ATLS Độ III",
+        "Mất máu ATLS Độ IV"
+      ],
+      "correct": 2,
+      "explanation": "Theo bảng ATLS Mục II.4: Độ I và Độ II khuyến cáo bù đơn thuần bằng dịch tinh thể. Độ III (mất 30–40% thể tích máu) là mốc bắt đầu chỉ định phối hợp dịch tinh thể cùng máu.",
+      "option_explanations": [
+        "Sai — Mất máu Độ I chỉ khuyến cáo bù dung dịch tinh thể.",
+        "Sai — Mất máu Độ II chỉ khuyến cáo bù dung dịch tinh thể.",
+        "Đúng — Mất máu Độ III là phân độ bắt đầu có chỉ định phối hợp truyền máu cùng dịch tinh thể.",
+        "Sai — Mất máu Độ IV chỉ định truyền máu tối khẩn (Massive Transfusion) chứ không phải mốc bắt đầu."
+      ]
+    },
+    {
+      "id": "SURGR2-A22",
+      "type": "vignette",
+      "topic": "Tam chứng tử thần, DCS & Chẩn đoán tại giường",
+      "subtopic": "Xử trí chẩn đoán phân biệt tại giường khi bệnh nhân sốc tụt áp sau chấn thương",
+      "bloom": "sáng tạo",
+      "difficulty": 3,
+      "source": "SURG-R2 §II.1, §II.4 & Câu hỏi lượng giá 1-3",
+      "text": "Bệnh nhân nam 45 tuổi đụng dập ngực bụng, vào viện sốc tụt huyết áp 70/40 mmHg, tĩnh mạch cổ nổi, khí quản lệch phải. Siêu âm FAST tại giường không thấy dịch màng tim và không có dịch ổ bụng.\nBiện pháp xử trí cấp cứu tức thì có tính chất quyết định cứu mạng bệnh nhân trong phút đầu tiên là gì?",
+      "options": [
+        "Chọc hút màng ngoài tim",
+        "Chọc kim giải áp màng phổi",
+        "Phẫu thuật mở bụng thăm dò",
+        "Đặt nội khí quản thở máy PEEP"
+      ],
+      "correct": 1,
+      "explanation": "Bệnh nhân có hội chứng tràn khí màng phổi áp lực bên trái gây sốc tắc nghẽn (tụt áp, tĩnh mạch cổ nổi, lệch khí quản sang phải; FAST loại trừ tràn dịch màng tim và ổ bụng). Biện pháp cứu sống ngay lập tức là chọc kim giải áp khoang màng phổi trái cấp cứu.",
+      "option_explanations": [
+        "Sai — Siêu âm FAST đã khẳng định khoang màng ngoài tim không có dịch.",
+        "Đúng — Chọc kim giải áp khoang màng phổi tức thì giải phóng chèn ép tĩnh mạch chủ cứu sống bệnh nhân.",
+        "Sai — Không có dịch tự do ổ bụng trên FAST, mở bụng không giải quyết nguyên nhân suy tuần hoàn.",
+        "Sai — Đặt NKQ thở máy áp lực dương PEEP sẽ làm tăng áp lực lồng ngực gây ngừng tim ngay lập tức."
+      ]
+    }
+  ]
+}

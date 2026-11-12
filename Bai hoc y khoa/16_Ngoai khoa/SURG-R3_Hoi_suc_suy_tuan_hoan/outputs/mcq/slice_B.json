@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURGR3-B01",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Phương thức tiếp cận mạch máu trong cấp cứu",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Một bệnh nhân nam 28 tuổi vào cấp cứu trong tình trạng sốc mất máu nặng do vết thương thấu bụng, huyết áp 70/40 mmHg, mạch 130 lần/phút, tĩnh mạch ngoại biên xẹp hoàn toàn. Kíp cấp cứu cần thiết lập ngay đường tiếp cận mạch máu để hồi sức truyền dịch xối xả ban đầu. Phương thức nào sau đây được barem ngoại khoa chỉ định ưu tiên hàng đầu?",
+      "options": [
+        "Đặt 1 đường truyền tĩnh mạch ngoại vi cỡ nhỏ kim 20G",
+        "Đặt ngay ít nhất 2 đường truyền lớn ngoại biên kim 14G-16G",
+        "Đặt ngay ống thông tĩnh mạch rốn dưới hướng dẫn",
+        "Bộc lộ tĩnh mạch hiển lớn ở mắt cá trong duy trì kim 18G"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.4.1: Thiết lập đường truyền: Đặt ngay ít nhất 2 đường truyền tĩnh mạch lớn (kim 14G – 16G) hoặc đặt catheter tĩnh mạch trung tâm. Ban đầu cần đặt ngay kim ngoại biên lớn để truyền dịch nhanh nhất.",
+      "option_explanations": [
+        "Sai — Đặt catheter CVP mất thời gian chuẩn bị thủ thuật vô khuẩn, chỉ thực hiện song song hoặc sau khi đã có đường truyền ngoại biên.",
+        "Sai — Bộc lộ tĩnh mạch hiển chỉ là biện pháp thay thế khi thất bại hoàn toàn trong việc đặt kim ngoại biên lớn.",
+        "Sai — Theo dõi huyết áp xâm lấn là theo dõi chuyên sâu sau khi đã thiết lập đường hồi sức thể tích ban đầu.",
+        "Đúng — Barem Mục II.4.1 chỉ định đặt ngay ít nhất 2 đường truyền tĩnh mạch lớn (kim 14G – 16G) để hồi sức dịch tốc độ cao."
+      ]
+    },
+    {
+      "id": "SURGR3-B02",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Dịch truyền ưu tiên hàng đầu trong hồi sức sốc mất máu",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Một bệnh nhân đa chấn thương vào viện trong tình trạng sốc mất máu cấp tính do vỡ tạng đặc, CVP đo được ban đầu là 4 cmH2O, huyết áp 80/50 mmHg. Để làm đầy thể tích lòng mạch trong những phút đầu tiên, loại dịch truyền nào sau đây được barem ngoại khoa khuyến cáo ưu tiên hàng đầu?",
+      "options": [
+        "Dung dịch dịch tinh thể đẳng trương (Ringer Lactat hoặc NaCl 0,9%)",
+        "Dung dịch keo nhân tạo hoặc tự nhiên (Albumin hoặc Gelatin)",
+        "Dung dịch kiềm hóa Natri Bicarbonat 8,4% truyền tĩnh mạch chậm",
+        "Dung dịch Glucose 5% đẳng trương pha điện giải Kali Clorid"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.1: Liệu pháp dịch truyền ưu tiên hàng đầu là dịch tinh thể (Ringer Lactat, NaCl 0,9%). Dịch keo chỉ dùng khi cần nâng thể tích nhanh sau đó và tránh quá liều.",
+      "option_explanations": [
+        "Đúng — Dịch tinh thể (Ringer Lactat, NaCl 0,9%) là lựa chọn ưu tiên hàng đầu theo barem Mục II.4.1.",
+        "Sai — Dịch keo (Albumin, Gelatin) chỉ dùng khi cần nâng thể tích nhanh sau đó, tránh dùng quá liều vì nguy cơ suy thận và rối loạn đông máu.",
+        "Sai — Natri Bicarbonat chỉ dùng chọn lọc khi toan chuyển hóa nặng do thiếu máu mô kéo dài, không phải dịch bù thể tích ban đầu.",
+        "Sai — Glucose 5% phân bố nhanh vào nội bào, không giữ được trong lòng mạch nên không dùng làm dịch bù thể tích tuần hoàn cấp."
+      ]
+    },
+    {
+      "id": "SURGR3-B03",
+      "type": "calc",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Quy tắc bù dịch tinh thể theo lượng máu mất (3:1)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Bệnh nhân ngoại khoa mất máu ước tính khoảng 500 ml. Theo nguyên tắc bù dịch tinh thể gấp 3 lần lượng máu mất, tổng thể tích dịch tinh thể cần truyền là bao nhiêu?",
+      "options": [
+        "1000 ml dịch tinh thể",
+        "1500 ml dịch tinh thể",
+        "2000 ml dịch tinh thể",
+        "2500 ml dịch tinh thể"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4.1: Bù dịch tinh thể gấp 3 lần lượng máu mất ước tính: 700 x 3 = 2100 ml.",
+      "option_explanations": [
+        "Sai — 700 ml tương ứng tỷ lệ 1:1, không bù đủ thể tích lòng mạch do dịch tinh thể thoát ra khoang gian bào.",
+        "Sai — 1400 ml tương ứng tỷ lệ 2:1, chưa đạt quy tắc 3:1 của barem.",
+        "Đúng — 2100 ml = 700 ml x 3, đúng quy tắc bù dịch tinh thể gấp 3 lần lượng máu mất ước tính theo barem Mục II.4.1.",
+        "Sai — 2800 ml tương ứng tỷ lệ 4:1, làm tăng nguy cơ pha loãng máu quá mức."
+      ]
+    },
+    {
+      "id": "SURGR3-B04",
+      "type": "vignette",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Ngưỡng mất nước điện giải do bỏng nặng gây suy tuần hoàn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §2.1.1",
+      "text": "Theo barem nguyên nhân suy tuần hoàn, bỏng nặng gây mất nước và điện giải cấp tính dẫn đến sốc giảm thể tích khi diện tích bỏng vượt quá ngưỡng nào?",
+      "options": [
+        "Bỏng > 10% ở người lớn và > 5% ở trẻ em",
+        "Bỏng > 20% ở người lớn và > 10% ở trẻ em",
+        "Bỏng > 30% ở người lớn và > 15% ở trẻ em",
+        "Bỏng > 50% ở người lớn và > 30% ở trẻ em"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.1: Bỏng nặng gây suy tuần hoàn do mất nước và điện giải khi diện tích bỏng diện rộng > 30% ở người lớn, > 15% ở trẻ em.",
+      "option_explanations": [
+        "Sai — Ngưỡng 10% ở người lớn và 5% ở trẻ em là bỏng diện tích nhỏ, chưa đủ gây rối loạn huyết động toàn thân nặng.",
+        "Sai — Ngưỡng 20% và 10% là ranh giới bỏng trung bình, chưa phải mốc nêu trong barem gây suy tuần hoàn cấp.",
+        "Đúng — Khớp tuyệt đối barem Mục II.2.1.1: Bỏng diện rộng > 30% ở người lớn và > 15% ở trẻ em gây mất nước - điện giải dẫn đến suy tuần hoàn.",
+        "Sai — Ngưỡng 40% và 25% là bỏng đặc biệt nặng, trong khi barem đã xác định nguy cơ suy tuần hoàn từ ngưỡng > 30% (người lớn) và > 15% (trẻ em)."
+      ]
+    },
+    {
+      "id": "SURGR3-B05",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Xử trí suy tuần hoàn khi mất máu dưới 30%",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Bệnh nhân nam 25 tuổi, thể tích tuần hoàn ước tính khoảng 5000 ml, vào viện do chấn thương đụng dập phần mềm đùi, lượng máu mất ước tính khoảng 1100 ml (tương đương 22% thể tích tuần hoàn). Huyết áp 95/60 mmHg, mạch 105 lần/phút, CVP đo được là 6 cmH2O. Xử trí tuần hoàn bước đầu thích hợp nhất theo barem là gì?",
+      "options": [
+        "Bù dịch tinh thể đẳng trương và theo dõi sát lâm sàng",
+        "Bù dịch tinh thể và bắt buộc truyền máu kèm các chế phẩm máu",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt",
+        "Bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.1: Mất máu < 30% khối lượng tuần hoàn (ở đây là 22%): Bù dịch tinh thể và theo dõi huyết động (CVP < 8 tiếp tục bù nhanh).",
+      "option_explanations": [
+        "Đúng — Khớp barem Mục II.4.1: Với mất máu < 30% thể tích tuần hoàn và CVP < 8 cmH2O, chiến lược là tiếp tục bù dịch tinh thể nhanh và theo dõi sát huyết động.",
+        "Sai — Bắt buộc truyền máu (khối hồng cầu, huyết tương tươi, tiểu cầu) áp dụng khi mất máu > 30% khối lượng tuần hoàn.",
+        "Sai — Giảm tốc độ truyền và ngừng hồi sức dịch chỉ áp dụng khi đã đủ dịch (CVP > 8 cmH2O và MAP > 65 mmHg).",
+        "Sai — Vận mạch chỉ dùng khi đã bù đủ dịch (CVP > 8 cmH2O) mà MAP vẫn < 65 mmHg, không dùng khi CVP = 6 cmH2O."
+      ]
+    },
+    {
+      "id": "SURGR3-B06",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Chỉ định truyền máu khi mất máu trên 30%",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Bệnh nhân nam 60 kg (thể tích tuần hoàn ước tính 4500 ml) bị chấn thương vỡ khung chậu phức tạp, ước tính lượng máu mất là 1600 ml (chiếm 35% thể tích tuần hoàn), huyết áp tụt 75/45 mmHg, CVP = 4 cmH2O. Phác đồ hồi sức nào sau đây là bắt buộc theo barem?",
+      "options": [
+        "Tiếp tục bù dịch tinh thể đẳng trương tốc độ nhanh và theo dõi huyết động",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt",
+        "Bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim",
+        "Bù dịch tinh thể và bắt buộc truyền máu kèm các chế phẩm máu"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.4.1: Mất máu > 30% khối lượng tuần hoàn (ở đây là 35%) thì bắt buộc truyền máu (khối hồng cầu, huyết tương tươi đông lạnh, tiểu cầu) phối hợp hồi sức dịch.",
+      "option_explanations": [
+        "Sai — Chỉ bù dịch tinh thể đơn thuần khi mất máu < 30%; ở mức 35%, chỉ bù dịch sẽ gây pha loãng máu nặng và tụt khả năng vận chuyển oxy.",
+        "Sai — Giảm tốc độ truyền chỉ đặt ra khi đã bù đủ dịch và huyết áp đạt mục tiêu.",
+        "Sai — Vận mạch không được dùng đơn độc khi mất máu > 30% chưa được bù đủ dịch và máu.",
+        "Đúng — Khớp barem Mục II.4.1: Mất máu > 30% thể tích tuần hoàn bắt buộc phải bù dịch tinh thể và truyền máu kèm chế phẩm máu."
+      ]
+    },
+    {
+      "id": "SURGR3-B07",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Mục tiêu Hematocrit trong hồi sức suy tuần hoàn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Mục tiêu hồi sức truyền máu cơ bản ở bệnh nhân chấn thương mất máu cấp là duy trì chỉ số Hematocrit (Hct) đạt ngưỡng tối thiểu là bao nhiêu?",
+      "options": [
+        "Hct ≥ 15 – 20%",
+        "Hct ≥ 20 – 25%",
+        "Hct ≥ 25 – 30%",
+        "Hct ≥ 35 – 40%"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.4.1: Mục tiêu đích cần đạt trong chiến lược hồi sức truyền máu và bù dịch là duy trì Hb >= 90 g/L (9 g/dL) và Hematocrit >= 25 - 30%.",
+      "option_explanations": [
+        "Sai — Ngưỡng Hct 18 - 20% là mức thiếu máu nặng đe dọa thiếu oxy tế bào và hoại tử mô.",
+        "Đúng — Khớp tuyệt đối barem Mục II.4.1: Mục tiêu đích cần đạt là duy trì Hb >= 90 g/L và Hematocrit >= 25 - 30%.",
+        "Sai — Ngưỡng Hct 35 - 38% là mức sinh lý thông thường, không nhất thiết phải đạt tới trong cấp cứu chống sốc mất máu ngoại khoa.",
+        "Sai — Ngưỡng Hct 42 - 45% là mức cô đặc máu hoặc giá trị người khỏe mạnh, việc truyền máu đạt mức này làm tăng nguy cơ tắc mạch và quá tải dịch."
+      ]
+    },
+    {
+      "id": "SURGR3-B08",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Phác đồ xử trí huyết động khi CVP < 8 cmH2O",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Bệnh nhân sau phẫu thuật cấp cứu khâu vỡ gan đang được theo dõi hồi sức. Đo áp lực tĩnh mạch trung tâm ghi nhận CVP = 5 cmH2O, huyết áp động mạch xâm lấn có MAP = 55 mmHg, mạch 118 lần/phút. Theo phác đồ hồi sức tuần hoàn của barem ngoại khoa, bước can thiệp tiếp theo là gì?",
+      "options": [
+        "Tiếp tục bù dịch tinh thể đẳng trương tốc độ nhanh",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt",
+        "Bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim",
+        "Ngừng truyền dịch ngay, tiêm Furosemide tĩnh mạch và hỗ trợ hô hấp"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.1: Phác đồ hồi sức theo CVP và MAP: Nếu CVP < 8 cmH2O: Tiếp tục bù dịch nhanh.",
+      "option_explanations": [
+        "Đúng — Khớp barem Mục II.4.1: CVP < 8 cmH2O phản ánh tiền gánh chưa đủ, chỉ định chuẩn là tiếp tục bù dịch tinh thể nhanh.",
+        "Sai — Giảm tốc độ truyền và ngừng hồi sức dịch chỉ áp dụng khi CVP > 8 cmH2O kèm MAP > 65 mmHg.",
+        "Sai — Thuốc vận mạch chỉ dùng khi CVP > 8 cmH2O nhưng MAP vẫn < 65 mmHg, không dùng khi CVP đang thấp dưới 8 cmH2O.",
+        "Sai — Ngừng dịch và dùng Furosemide chỉ áp dụng khi quá tải thể tích / phù phổi cấp (CVP > 15 cmH2O)."
+      ]
+    },
+    {
+      "id": "SURGR3-B09",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Phác đồ xử trí huyết động khi CVP > 8 cmH2O và MAP > 65 mmHg",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Bệnh nhân sốc mất máu sau chấn thương đã được bù 2500 ml Ringer Lactat và 2 đơn vị khối hồng cầu. Đánh giá lại thấy CVP = 10 cmH2O, huyết áp 115/75 mmHg (MAP = 88 mmHg), mạch 80 lần/phút, nước tiểu 55 ml/giờ. Bước xử trí tiếp theo theo barem ngoại khoa là gì?",
+      "options": [
+        "Tiếp tục truyền dịch tinh thể đưa CVP lên trên 15 cmH2O",
+        "Chỉ định truyền ngay vận mạch co mạch Norepinephrine",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt vì đã đủ",
+        "Tiêm Furosemide tĩnh mạch kết hợp thở áp lực dương CPAP"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4.1: Nếu CVP > 8 cmH2O mà MAP > 65 mmHg (HATT > 90 mmHg): Đã đủ dịch -> Giảm tốc độ truyền, ngừng hồi sức dịch.",
+      "option_explanations": [
+        "Sai — Tiếp tục bù dịch nhanh khi CVP đã > 8 và MAP > 65 sẽ làm tăng CVP quá mức và gây phù phổi cấp.",
+        "Đúng — Khớp barem Mục II.4.1: CVP > 8 cmH2O và MAP > 65 mmHg xác nhận đã đủ dịch, cần giảm tốc độ truyền và ngừng hồi sức dịch ồ ạt.",
+        "Sai — Thuốc vận mạch chỉ dùng khi CVP > 8 cmH2O nhưng MAP < 65 mmHg; ở đây MAP = 88 mmHg không có chỉ định vận mạch.",
+        "Sai — Furosemide chỉ dùng khi có biểu hiện quá tải thể tích hoặc phù phổi cấp, không dùng khi huyết động vừa ổn định."
+      ]
+    },
+    {
+      "id": "SURGR3-B10",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Phác đồ xử trí huyết động khi CVP > 8 cmH2O nhưng MAP < 65 mmHg",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R3 §4.1",
+      "text": "Một bệnh nhân sốc nhiễm khuẩn ngoại khoa do viêm phúc mạc sau khi được bù đủ dịch có CVP = 11 cmH2O, nhưng huyết áp vẫn tụt 80/50 mmHg (MAP = 60 mmHg), mạch 115 lần/phút. Bước can thiệp điều trị tiếp theo theo barem ngoại khoa là gì?",
+      "options": [
+        "Tiếp tục bù dịch tinh thể đẳng trương tốc độ nhanh",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt",
+        "Bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim",
+        "Ngừng truyền dịch ngay, tiêm Furosemide tĩnh mạch và hỗ trợ hô hấp"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.4.1: Nếu CVP > 8 cmH2O nhưng MAP < 65 mmHg (HATT < 90 mmHg): Thất bại bù dịch, giảm sức co bóp cơ tim hoặc giãn mạch -> Chỉ định dùng thuốc vận mạch/tăng co bóp (Norepinephrine, Dobutamine, Dopamine, Adrenaline).",
+      "option_explanations": [
+        "Sai — Truyền thêm dịch khi CVP đã > 8 không nâng được huyết áp mà nhanh chóng đẩy bệnh nhân vào phù phổi cấp.",
+        "Sai — Chỉ giảm tốc độ hoặc ngừng dịch đơn thuần khi MAP đã đạt > 65 mmHg; ở đây MAP = 60 mmHg bệnh nhân đang tụt áp nặng.",
+        "Đúng — Khớp barem Mục II.4.1: CVP > 8 nhưng MAP < 65 mmHg phản ánh thất bại bù dịch do giãn mạch hoặc suy co bóp, chỉ định là dùng thuốc vận mạch/tăng co bóp.",
+        "Sai — Furosemide dùng khi quá tải thể tích có biểu hiện ran ẩm phù phổi hoặc suy tim sung huyết, dùng ở đây sẽ làm tụt áp nặng thêm."
+      ]
+    },
+    {
+      "id": "SURGR3-B11",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Lựa chọn các thuốc vận mạch và tăng co bóp cơ tim",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Nhóm thuốc nào sau đây được chỉ định khi bệnh nhân đã được bù đủ dịch (CVP > 8 cmH₂O) nhưng huyết áp vẫn tụt (MAP < 65 mmHg)?",
+      "options": [
+        "Thuốc lợi tiểu quai Furosemide",
+        "Thuốc vận mạch và tăng co bóp cơ tim",
+        "Thuốc giãn mạch ức chế men chuyển",
+        "Thuốc kháng đông chống ngưng tập tiểu cầu"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4.1: Các thuốc vận mạch/tăng co bóp được chỉ định gồm Norepinephrine, Dobutamine, Dopamine, Adrenaline.",
+      "option_explanations": [
+        "Sai — Nhóm Halothane, Thiopental là các thuốc mê được nêu ở Mục II.2.2 có tác dụng ức chế tim hoặc giãn mạch gây tụt huyết áp.",
+        "Sai — Nhóm chẹn beta, chẹn calci, ức chế men chuyển là các thuốc hạ áp, chống chỉ định khi tụt huyết áp.",
+        "Đúng — Khớp barem Mục II.4.1: Các thuốc vận mạch/tăng co bóp gồm Norepinephrine, Dobutamine, Dopamine, Adrenaline.",
+        "Sai — Nhóm Furosemide, Mannitol là thuốc lợi tiểu dùng trong quá tải thể tích hoặc phù não, không phải thuốc vận mạch tăng co bóp."
+      ]
+    },
+    {
+      "id": "SURGR3-B12",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Nguyên tắc phối hợp hồi sức và cầm máu ngoại khoa",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.1",
+      "text": "Một bệnh nhân sốc mất máu cấp do vỡ gan độ IV đang được truyền dịch và máu liên tục tại phòng cấp cứu nhưng huyết áp vẫn dao động thấp do máu tiếp tục chảy. Nguyên tắc xử trí căn bản nhất trong ngoại khoa theo barem là gì?",
+      "options": [
+        "Chờ đợi hồi sức dịch và máu cho đến khi huyết động ổn định mới chuyển phẫu thuật",
+        "Chỉ định truyền dịch keo Albumin liều tối đa và trì hoãn phẫu thuật 24 giờ để theo dõi",
+        "Ngừng bù dịch và chuyển sang dùng ngay thuốc tăng co bóp cơ tim Dobutamine đơn độc",
+        "Phải song song hồi sức và đưa ngay vào phòng mổ để thắt mạch, khâu tạng vỡ hoặc can thiệp DSA"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.4.1: Cầm máu ngoại khoa: Phải song song hồi sức và đưa ngay vào phòng mổ để thắt mạch, khâu tạng vỡ hoặc can thiệp nút mạch (DSA).",
+      "option_explanations": [
+        "Sai — Chờ đợi huyết động ổn định mới mổ khi đang chảy máu hoạt động sẽ dẫn đến tam chứng tử vong (toan máu, hạ thân nhiệt, rối loạn đông máu).",
+        "Sai — Trì hoãn 24 giờ trong vỡ tạng đặc đang sốc mất máu là sai lầm nghiêm trọng gây tử vong do mất máu không kiểm soát.",
+        "Sai — Dobutamine đơn độc không giải quyết được nguồn máu chảy ồ ạt từ tạng vỡ, cần phải can thiệp cầm máu ngoại khoa khẩn cấp.",
+        "Đúng — Khớp barem Mục II.4.1: Cầm máu ngoại khoa phải tiến hành song song hồi sức và đưa ngay vào phòng mổ hoặc can thiệp DSA."
+      ]
+    },
+    {
+      "id": "SURGR3-B13",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Xử trí ban đầu gãy xương đùi (Câu hỏi lượng giá 4 - Chặng 1)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §III (Câu 4 - Chặng 1)",
+      "text": "Bệnh nhân nam 50 tuổi vào viện vì gãy kín 1/3 giữa xương đùi sau tai nạn giao thông, đau đớn dữ dội, mạch 100 lần/phút, huyết áp 100/80 mmHg, không có tiền sử bệnh lý tim mạch, Hb đo được ban đầu là 80 g/L. Việc làm đầu tiên phù hợp nhất theo barem ngoại khoa là gì?",
+      "options": [
+        "Chỉ định truyền ngay khối hồng cầu cấp cứu cùng nhóm",
+        "Truyền dịch tinh thể tốc độ xối xả 3000 ml trong 15 phút",
+        "Đưa ngay lên phòng mổ mở ổ gãy kết hợp xương cấp cứu",
+        "Cố định ổ gãy bằng nẹp Thomas và cho thuốc giảm đau"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục III (Câu 4 - Chặng 1): Bệnh nhân gãy xương đùi kín, đau nhiều, việc làm đầu tiên phù hợp nhất là Cố định ổ gãy và giảm đau (bất động bằng nẹp Thomas giúp giảm đau sâu sắc, ngăn chặn mất thêm 1000 - 1500 ml máu vào mô mềm).",
+      "option_explanations": [
+        "Sai — Truyền máu là bước sau khi chuẩn bị, nếu không cố định ổ gãy thì máu vẫn tiếp tục chảy vào mô mềm.",
+        "Sai — Truyền dịch xối xả khi chưa cố định ổ gãy sẽ làm tăng xuất huyết mô mềm do di lệch xương.",
+        "Sai — Mổ kết hợp xương ngay khi chưa giảm đau, chưa cố định tạm và chưa nâng Hb an toàn là rất nguy hiểm.",
+        "Đúng — Bất động ổ gãy xương đùi bằng nẹp Thomas giúp giảm đau sâu sắc và ngăn chặn mất thêm 1000 - 1500 ml máu vào mô mềm quanh ổ gãy."
+      ]
+    },
+    {
+      "id": "SURGR3-B14",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Đích Hb tối thiểu để phẫu thuật kết hợp xương (Câu hỏi lượng giá 4 - Chặng 2)",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §III (Câu 4 - Chặng 2)",
+      "text": "Bệnh nhân nam 50 tuổi gãy kín xương đùi sau khi được bất động nẹp Thomas và hồi sức chống sốc ban đầu, kíp trực hội chẩn chỉ định phẫu thuật kết hợp xương đùi. Nồng độ Hemoglobin (Hb) tối thiểu cần đạt để bệnh nhân chịu đựng được cuộc phẫu thuật theo barem là bao nhiêu?",
+      "options": [
+        "Hb > 80 g/L (kèm Hct > 22 - 24%)",
+        "Hb > 90 g/L (kèm Hct > 25 - 30%)",
+        "Hb > 100 g/L (kèm Hct > 32 - 35%)",
+        "Hb > 110 g/L (kèm Hct > 35 - 38%)"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục III (Câu 4 - Chặng 2): Nồng độ Hb tối thiểu cần đạt để bệnh nhân chịu đựng được cuộc phẫu thuật kết hợp xương đùi là Hb > 90 g/L (kèm Hematocrit > 25 - 30%).",
+      "option_explanations": [
+        "Sai — Hb > 80 g/L là phương án 1 trong câu hỏi lượng giá của barem, chưa đạt ngưỡng an toàn tối thiểu theo barem quy định.",
+        "Đúng — Khớp tuyệt đối đáp án Câu 4 Chặng 2 trong barem: Hb > 90 g/L (kèm Hct > 25 - 30%).",
+        "Sai — Hb > 100 g/L là phương án 3 trong câu hỏi lượng giá của barem, cao hơn mức tối thiểu bắt buộc.",
+        "Sai — Hb > 110 g/L là phương án 4 trong câu hỏi lượng giá của barem, không phải mốc tối thiểu quy định."
+      ]
+    },
+    {
+      "id": "SURGR3-B15",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Phác đồ xử trí quá tải thể tích và dọa phù phổi cấp",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.2",
+      "text": "Một bệnh nhân sau hồi sức truyền dịch tốc độ cao xuất hiện khó thở dữ dội, thở nhanh nông, nghe phổi có ran ẩm dâng lên hai đáy phổi, CVP đo được tăng vọt lên 18 cmH2O. Xử trí cấp cứu ban đầu nào sau đây là chuẩn xác nhất theo barem ngoại khoa?",
+      "options": [
+        "Tiếp tục bù dịch tinh thể đẳng trương tốc độ nhanh",
+        "Giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt",
+        "Bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim",
+        "Ngừng truyền dịch ngay, tiêm Furosemide tĩnh mạch và hỗ trợ hô hấp"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.4.2: Xử trí quá tải thể tích / Phù phổi cấp: Ngừng truyền dịch ngay lập tức; Cho thuốc lợi tiểu quai (Furosemide tiêm tĩnh mạch); Thuốc trợ tim, thở oxy áp lực dương (CPAP/BiPAP).",
+      "option_explanations": [
+        "Sai — Tiếp tục bù dịch nhanh sẽ làm ứ dịch phế nang ồ ạt dẫn đến suy hô hấp cấp tử vong.",
+        "Sai — Chỉ giảm tốc độ dịch là không đủ giải quyết tình trạng ứ trệ dịch cấp tính ở phế nang khi CVP đã vọt lên 18 cmH2O.",
+        "Sai — Vận mạch gây co mạch làm tăng hậu gánh tim trái, làm trầm trọng thêm tình trạng phù phổi cấp huyết động.",
+        "Đúng — Khớp barem Mục II.4.2: Ngừng truyền dịch ngay, dùng lợi tiểu quai Furosemide TM và hỗ trợ hô hấp oxy/CPAP."
+      ]
+    },
+    {
+      "id": "SURGR3-B16",
+      "type": "vignette",
+      "topic": "Xử trí bù dịch, Truyền máu & Quá tải",
+      "subtopic": "Chỉ định lọc máu cấp cứu trong quá tải dịch trơ lợi tiểu",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-R3 §4.2",
+      "text": "Một bệnh nhân vô niệu sau mổ viêm phúc mạc bị ứ dịch nặng, biểu hiện phù phổi cấp với CVP = 19 cmH2O. Bệnh nhân đã được tiêm Furosemide tĩnh mạch liều cao nhưng không đáp ứng và khó thở tăng dần.\nPhương pháp điều trị tiếp theo phù hợp nhất theo barem là gì?",
+      "options": [
+        "Tiếp tục theo dõi và tiêm lặp lại Furosemide liều gấp đôi mỗi 30 phút",
+        "Chỉ định lọc máu ngoài thận cấp cứu vì suy thận kèm quá tải dịch trơ với lợi tiểu",
+        "Truyền dịch tinh thể NaCl 0,9% tốc độ cao để kích thích thận bài niệu",
+        "Lọc máu ngoài thận cấp cứu giải quyết quá tải dịch trơ với lợi tiểu"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4.2: Xử trí quá tải thể tích / Phù phổi cấp nêu rõ: Chỉ định lọc máu ngoài thận cấp cứu khi có suy thận kèm quá tải dịch trơ với lợi tiểu.",
+      "option_explanations": [
+        "Sai — Tiếp tục lặp lại liều lợi tiểu quá mức khi thận vô niệu trơ sẽ gây độc tính tai và trì hoãn can thiệp lọc máu.",
+        "Đúng — Khớp barem Mục II.4.2: Khi suy thận kèm quá tải dịch trơ với lợi tiểu, bắt buộc chỉ định lọc máu ngoài thận cấp cứu.",
+        "Sai — Truyền dịch tốc độ cao khi đang phù phổi cấp vô niệu sẽ làm bệnh nhân tử vong nhanh chóng vì ngạt thở do ứ dịch.",
+        "Sai — Hạ đầu giường dốc xuống làm tăng lượng máu tĩnh mạch trở về tim, khiến phù phổi cấp trầm trọng hơn."
+      ]
+    },
+    {
+      "id": "SURGR3-B17",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Kỹ thuật cấp cứu ngừng tuần hoàn cơ bản chưa có nội khí quản",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R3 §4.3",
+      "text": "Một bệnh nhân bị ngừng tuần hoàn đột ngột tại phòng bệnh ngoại khoa, mất mạch cảnh và ngừng thở. Khi kíp cấp cứu tiếp cận ban đầu và chưa thiết lập được ống nội khí quản, biện pháp can thiệp kỹ thuật nào sau đây chuẩn xác theo barem?",
+      "options": [
+        "Ép tim 30 lần : thổi ngạt 2 lần, ép sâu 5 cm, tần số 100 – 120 lần/phút",
+        "Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút không ngừng ép",
+        "Sốc điện phá rung ngay (1 pha 360J hoặc 2 pha 150 – 200J) rồi ép tim 2 phút",
+        "Không sốc điện, ép tim liên tục, tiêm Adrenaline 1mg mỗi 3 – 5 phút và sửa 5T 5H"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.3: Quy trình ép tim - thổi ngạt khi chưa có ống nội khí quản là tỷ lệ 30 lần ép tim : 2 lần thổi ngạt; ép sâu 5 cm, tần số 100 – 120 lần/phút, để lồng ngực nở sau mỗi lần ép.",
+      "option_explanations": [
+        "Đúng — Khớp barem Mục II.4.3: Tỷ lệ 30 lần ép tim : 2 lần thổi ngạt, ép sâu 5 cm, tần số 100 – 120 lần/phút khi chưa có ống nội khí quản.",
+        "Sai — Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút chỉ áp dụng khi đã đặt thành công ống nội khí quản.",
+        "Sai — Sốc điện phá rung chỉ áp dụng khi monitor xác định dạng sóng rung thất (VF) hoặc nhịp nhanh thất vô mạch (pVT).",
+        "Sai — Phác đồ Adrenaline kết hợp sửa 5T 5H là bước xử trí nâng cao theo nhịp ECG vô tâm thu / PEA."
+      ]
+    },
+    {
+      "id": "SURGR3-B18",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Tiêu chuẩn chất lượng ép tim ngoài lồng ngực",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-R3 §4.3",
+      "text": "Trong quá trình thực hiện hồi sinh tim phổi cho bệnh nhân ngừng tuần hoàn người lớn, nhân viên y tế cần tuân thủ thông số kỹ thuật ép tim nào sau đây theo barem?",
+      "options": [
+        "Ép sâu 5 cm, tần số 100 – 120 lần/phút, để lồng ngực dãn nở tối đa sau mỗi lần ép",
+        "Ép sâu 5 cm, tần số 100 – 120 lần/phút, để ngực dãn nở tối đa sau mỗi lần ép",
+        "Ép sâu 7 – 8 cm, tần số 140 – 160 lần/phút, ấn liên tục không thả lỏng tay",
+        "Ép sâu 4 cm, tần số 80 – 90 lần/phút, ngắt quãng nghỉ 5 giây sau mỗi 10 lần ép"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.3: Ép sâu 5 cm, tần số 100 – 120 lần/phút, để lồng ngực nở sau mỗi lần ép.",
+      "option_explanations": [
+        "Đúng — Khớp tuyệt đối barem Mục II.4.3: Ép sâu 5 cm, tần số 100 – 120 lần/phút, để lồng ngực dãn nở sau mỗi lần ép.",
+        "Sai — Ép sâu 2 – 3 cm và tần số 60 – 80 lần/phút là quá nông và quá chậm, không tạo đủ cung lượng tim và huyết áp tưới máu vành.",
+        "Sai — Ép sâu 7 – 8 cm và tần số quá nhanh > 140 lần/phút gây nguy cơ gãy xương sườn đâm tạng và không kịp hút máu về thất.",
+        "Sai — Tần số 80 – 90 lần/phút chưa đạt tần số tối thiểu khuyến cáo (100 lần/phút)."
+      ]
+    },
+    {
+      "id": "SURGR3-B19",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Kỹ thuật cấp cứu ngừng tuần hoàn khi đã có nội khí quản",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.3",
+      "text": "Một bệnh nhân ngừng tuần hoàn trong phòng mổ đã được bác sĩ gây mê đặt thành công ống nội khí quản có bóng chèn và kết nối bóng Ambu. Theo barem hướng dẫn CPR ngoại khoa, kỹ thuật ép tim và bóp bóng thông khí lúc này được thực hiện như thế nào?",
+      "options": [
+        "Ép tim 30 lần : thổi ngạt 2 lần, ép sâu 5 cm, tần số 100 – 120 lần/phút",
+        "Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút không ngừng ép",
+        "Sốc điện phá rung ngay (1 pha 360J hoặc 2 pha 150 – 200J) rồi ép tim 2 phút",
+        "Không sốc điện, ép tim liên tục, tiêm Adrenaline 1mg mỗi 3 – 5 phút và sửa 5T 5H"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.4.3: Khi đã đặt ống nội khí quản: Ép tim liên tục 100 lần/phút, bóp bóng 8 – 10 lần/phút không ngừng ép tim.",
+      "option_explanations": [
+        "Sai — Chu kỳ 30:2 ngắt quãng chỉ dùng khi chưa có đường thở nâng cao; khi có NKQ không được ngừng ép tim để bóp bóng.",
+        "Đúng — Khớp nguyên văn barem Mục II.4.3: Khi đã đặt ống nội khí quản: Ép tim liên tục 100 lần/phút, bóp bóng 8 – 10 lần/phút không ngừng ép tim.",
+        "Sai — Sốc điện phá rung chỉ thực hiện khi monitor ghi nhận nhịp rung thất (VF) hoặc nhịp nhanh thất vô mạch (pVT).",
+        "Sai — Phác đồ Adrenaline và sửa 5T 5H là phác đồ cho dạng nhịp vô tâm thu / PEA, không phải kỹ thuật thông khí ép tim."
+      ]
+    },
+    {
+      "id": "SURGR3-B20",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Xử trí cấp cứu dạng nhịp rung thất (VF)",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.3",
+      "text": "Một bệnh nhân đang nằm theo dõi sau mổ bắc cầu vành bỗng nhiên mất ý thức, mất mạch bẹn. Monitor theo dõi hiển thị hình ảnh rung thất (VF) sóng lớn. Trình tự can thiệp cấp cứu tức thì nào sau đây là chuẩn xác nhất theo barem?",
+      "options": [
+        "Ép tim 30 lần : thổi ngạt 2 lần, ép sâu 5 cm, tần số 100 – 120 lần/phút",
+        "Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút không ngừng ép",
+        "Sốc điện phá rung ngay (1 pha 360J hoặc 2 pha 150 – 200J) rồi ép tim 2 phút",
+        "Không sốc điện, ép tim liên tục, tiêm Adrenaline 1mg mỗi 3 – 5 phút và sửa 5T 5H"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.4.3: Với Rung thất (VF) hoặc Nhịp nhanh thất vô mạch (pVT): Sốc điện phá rung ngay lập tức (sốc 1 pha 360J hoặc 2 pha 150 – 200J) -> Ép tim ngay 2 phút (5 chu kỳ) -> Kiểm tra lại nhịp -> Dùng Adrenaline 1mg TM mỗi 3-5 phút, Amiodarone 300mg.",
+      "option_explanations": [
+        "Sai — Ép 30:2 chỉ là CPR cơ bản, với VF/pVT việc sốc điện khử rung ngay lập tức là yếu tố sống còn quyết định thành bại.",
+        "Sai — Ép liên tục bóp bóng không sốc điện sẽ làm cơ tim kiệt quệ năng lượng và thoái hóa thành vô tâm thu.",
+        "Đúng — Khớp barem Mục II.4.3: Rung thất (VF) là nhịp sốc điện được, phải sốc ngay (1 pha 360J hoặc 2 pha 150-200J) rồi ép tim ngay 2 phút.",
+        "Sai — Phác đồ không sốc điện chỉ áp dụng cho vô tâm thu (Asystole) hoặc phân ly điện cơ (PEA)."
+      ]
+    },
+    {
+      "id": "SURGR3-B21",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Xử trí cấp cứu dạng nhịp vô tâm thu (Asystole)",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §4.3",
+      "text": "Một bệnh nhân bị ngừng tuần hoàn, kiểm tra monitor hiển thị đường đẳng điện phẳng (vô tâm thu - Asystole) ở cả hai đạo trình. Chiến lược can thiệp phù hợp nhất theo barem ngoại khoa là gì?",
+      "options": [
+        "Ép tim 30 lần : thổi ngạt 2 lần, ép sâu 5 cm, tần số 100 – 120 lần/phút",
+        "Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút không ngừng ép",
+        "Sốc điện phá rung ngay (1 pha 360J hoặc 2 pha 150 – 200J) rồi ép tim 2 phút",
+        "Không sốc điện, ép tim liên tục, tiêm Adrenaline 1mg mỗi 3 – 5 phút và sửa 5T 5H"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.4.3: Với Vô tâm thu (Asystole) hoặc Phân ly điện cơ (PEA): Không sốc điện -> Tiếp tục ép tim liên tục, tiêm Adrenaline 1mg TM mỗi 3 – 5 phút, tìm và sửa chữa các nguyên nhân có thể đảo ngược (5T & 5H).",
+      "option_explanations": [
+        "Sai — Ép tim 30:2 chỉ là chu kỳ cơ bản ban đầu khi chưa có máy và thuốc, đối với Asystole cần phác đồ Adrenaline và sửa 5T 5H.",
+        "Sai — Ép liên tục bóp bóng là kỹ thuật khi có NKQ, chưa bao gồm chiến lược dùng thuốc Adrenaline và tìm nguyên nhân 5T 5H.",
+        "Sai — Sốc điện vào vô tâm thu (Asystole) không có tác dụng khử cực mà còn gây tổn thương tế bào cơ tim do nhiệt điện.",
+        "Đúng — Khớp barem Mục II.4.3: Asystole là nhịp không sốc điện, chỉ định ép tim liên tục, Adrenaline 1mg TM mỗi 3-5 phút và sửa 5T & 5H."
+      ]
+    },
+    {
+      "id": "SURGR3-B22",
+      "type": "vignette",
+      "topic": "Cấp cứu ngừng tuần hoàn (CPR)",
+      "subtopic": "Tìm kiếm nguyên nhân có thể đảo ngược 5T & 5H trong PEA",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-R3 §4.3",
+      "text": "Một bệnh nhân bị đa chấn thương ngực kín bỗng ngừng tuần hoàn, monitor ghi nhận phân ly điện cơ (PEA). Khám thấy tĩnh mạch cổ nổi căng, một bên lồng ngực gõ vang trống và rì rào phế nang mất hoàn toàn. Nguyên nhân nào thuộc nhóm 5T theo barem cần được can thiệp giải áp cấp cứu ngay lập tức?",
+      "options": [
+        "Tràn khí màng phổi dưới áp lực (Tension pneumothorax)",
+        "Chèn ép tim cấp do tràn máu màng ngoài tim (Tamponade)",
+        "Ngộ độc thuốc gây tê cục bộ liều cao (Toxins)",
+        "Tắc động mạch phổi diện rộng do huyết khối (Thrombosis)"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.4.3: Nhóm 5T gồm: Tràn khí màng phổi áp lực, Chèn ép tim cấp, Ngộ độc, Tắc mạch phổi, Tắc mạch vành. Dấu hiệu tĩnh mạch cổ nổi kèm gõ vang và mất rì rào phế nang 1 bên điển hình cho tràn khí màng phổi áp lực (Tension pneumothorax) cần chọc kim giải áp ngay.",
+      "option_explanations": [
+        "Đúng — Dấu hiệu gõ vang trống và mất rì rào phế nang 1 bên kèm tĩnh mạch cổ nổi chỉ điểm tràn khí màng phổi áp lực (Tension pneumothorax) trong nhóm 5T barem Mục II.4.3.",
+        "Sai — Chèn ép tim cấp (Tamponade) cũng gây tĩnh mạch cổ nổi nhưng khám phổi hai bên thông khí đều và tiếng tim mờ xa xăm (tam chứng Beck).",
+        "Sai — Ngộ độc thuốc (Toxins) liên quan đến tiền sử tiêm truyền thuốc quá liều, không giải thích hội chứng mất thông khí và gõ vang 1 bên lồng ngực.",
+        "Sai — Tắc mạch phổi (Thrombosis - PE) gây suy tim phải cấp nhưng không gây mất phế âm kèm gõ vang một bên ngực như tràn khí áp lực."
+      ]
+    }
+  ]
+}

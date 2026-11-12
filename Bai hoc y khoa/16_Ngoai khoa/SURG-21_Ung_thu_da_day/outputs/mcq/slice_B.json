@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURG21-B01",
+      "type": "vignette",
+      "topic": "Lâm sàng & Biến chứng",
+      "subtopic": "Lâm sàng giai đoạn sớm",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-21 §3.1",
+      "text": "Một bác sĩ điều tra dịch tễ học và tầm soát bệnh lý tiêu hóa thực hiện thống kê tỷ lệ biểu hiện lâm sàng ở các bệnh nhân ung thư dạ dày khi được phát hiện tại cộng đồng.\nTheo số liệu barem bài học, tỷ lệ bệnh nhân ung thư dạ dày ở giai đoạn sớm không có bất kỳ triệu chứng lâm sàng nào là bao nhiêu?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục 3.1: Giai đoạn sớm không đặc hiệu, 80% thường không có triệu chứng. Tỷ lệ 50-60% là vị trí u hang môn vị (Mục 2.1), 70% là tỷ lệ dân số nhiễm vi khuẩn HP (Mục 1.2).",
+      "option_explanations": [
+        "Sai — 50% là giới hạn dưới của tỷ lệ ung thư dạ dày tại vùng hang môn vị (Mục 2.1).",
+        "Sai — 60% là giới hạn trên của tỷ lệ ung thư dạ dày tại vùng hang môn vị (Mục 2.1).",
+        "Sai — 70% là tỷ lệ dân số nhiễm vi khuẩn Helicobacter pylori tại Việt Nam (Mục 1.2).",
+        "Đúng — Barem Mục 3.1 ghi rõ: Giai đoạn sớm 80% thường không có triệu chứng."
+      ]
+    },
+    {
+      "id": "SURG21-B02",
+      "type": "vignette",
+      "topic": "Lâm sàng & Biến chứng",
+      "subtopic": "Triệu chứng toàn thân giai đoạn muộn",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §3.2",
+      "text": "Ở bệnh nhân ung thư dạ dày giai đoạn muộn thể trạng kiệt quệ, đặc điểm màu sắc da kinh điển thường được ghi nhận theo barem là gì?",
+      "options": [
+        "Sắc da xanh xao nhẹ do thiếu máu",
+        "Sắc da màu vàng rơm do suy mòn chuẩn",
+        "Sắc da sạm đen do suy thượng thận",
+        "Sắc da vàng sậm ngứa do tắc mật"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục 3.1: Giai đoạn sớm toàn thân mệt mỏi, da xanh xao nhẹ, gầy sút cân không rõ nguyên nhân. Da màu vàng rơm gặp ở giai đoạn muộn (Mục 3.2).",
+      "option_explanations": [
+        "Đúng — Barem Mục 3.1: Giai đoạn sớm toàn thân mệt mỏi, da xanh xao nhẹ, gầy sút cân không rõ nguyên nhân.",
+        "Sai — Da màu vàng rơm là biểu hiện toàn thân đặc trưng của giai đoạn muộn (Mục 3.2).",
+        "Sai — Da sạm màu đồng không phải mô tả sắc tố da trong bài ung thư dạ dày.",
+        "Sai — Da vàng sậm ngứa nhiều là biểu hiện của hội chứng tắc mật cơ học."
+      ]
+    },
+    {
+      "id": "SURG21-B03",
+      "type": "vignette",
+      "topic": "Lâm sàng & Biến chứng",
+      "subtopic": "Khám thực thể giai đoạn muộn",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-21 §3.2",
+      "text": "Bệnh nhân nữ 54 tuổi ung thư dạ dày tiến triển, siêu âm phát hiện khối thâm nhiễm ác tính thứ phát tại vùng hạ vị hai bên.\nThuật ngữ chuyên môn nào sau đây gọi đúng tên tổn thương này?",
+      "options": [
+        "Hạch Troisier vùng thượng đòn",
+        "U Krukenberg di căn buồng trứng",
+        "Nốt Sister Mary Joseph quanh rốn",
+        "Hạch di căn vùng hố chậu hông"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 3.2 và Mục 2.3 ghi rõ: Di căn buồng trứng 2 bên ở phụ nữ là khối u Krukenberg. Di căn hạch thượng đòn trái là hạch Troisier (hoặc hạch Virchow).",
+      "option_explanations": [
+        "Sai — Hạch Troisier (Virchow) là tổn thương di căn hạch hố thượng đòn trái (Mục 3.2).",
+        "Đúng — Barem Mục 3.2 ghi rõ: Di căn buồng trứng 2 bên ở phụ nữ (khối u Krukenberg).",
+        "Sai — Hạch Cloquet nằm ở ống bẹn, không phải u buồng trứng.",
+        "Sai — Nốt Sister Mary Joseph là tổn thương di căn vùng rốn."
+      ]
+    },
+    {
+      "id": "SURG21-B04",
+      "type": "vignette",
+      "topic": "Lâm sàng & Biến chứng",
+      "subtopic": "Biến chứng hẹp môn vị",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §3.2",
+      "text": "Bệnh nhân ung thư thể loét đột ngột đau bụng dữ dội như dao đâm, thành bụng co cứng như gỗ.\nBiến chứng cấp tính nào sau đây đang xảy ra?",
+      "options": [
+        "Chảy máu tiêu hóa lượng lớn",
+        "Thủng ổ loét hoại tử dạ dày chuẩn",
+        "Tắc ruột cơ học cấp tính bụng",
+        "Viêm tụy cấp thể phù nề cấp"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 3.2 ghi rõ: Các biến chứng cấp cứu của UTDD: Thủng dạ dày: Đau bụng đột ngột dữ dội như dao đâm, bụng cứng như gỗ (thường gặp ở ung thư thể loét). Hẹp môn vị biểu hiện nôn thức ăn cũ, óc ách lúc đói; Chảy máu tiêu hóa trên biểu hiện nôn máu, phân đen.",
+      "option_explanations": [
+        "Sai — Chảy máu tiêu hóa trên biểu hiện bằng nôn ra máu, đi ngoài phân đen (Mục 3.2).",
+        "Đúng — Barem Mục 3.2: Thủng dạ dày: Đau bụng đột ngột dữ dội như dao đâm, bụng cứng như gỗ (thường gặp ở ung thư thể loét).",
+        "Sai — Hẹp môn vị biểu hiện nôn ra thức ăn cũ của bữa trước, dấu hiệu óc ách lúc đói, gầy rộc (Mục 3.2).",
+        "Sai — Viêm tụy cấp hoại tử không phải biến chứng cấp cứu của UTDD trong barem."
+      ]
+    },
+    {
+      "id": "SURG21-B05",
+      "type": "vignette",
+      "topic": "Lâm sàng & Biến chứng",
+      "subtopic": "Biến chứng thủng dạ dày",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-21 §3.2",
+      "text": "Bệnh nhân nam 59 tuổi đang điều trị nội khoa nghi ngờ loét dạ dày 3 tháng nay, đột ngột xuất hiện cơn đau bụng dữ dội như dao đâm tại vùng thượng vị rồi lan nhanh ra toàn ổ bụng. Khám cấp cứu thấy bệnh nhân thở nông, vẻ mặt hốc hác, thành bụng co cứng như gỗ, ấn đau chói khắp bụng.\nTheo barem giải phẫu bệnh và lâm sàng của bài học, biến chứng thủng này thường xảy ra nhất trên thể đại thể nào của ung thư dạ dày?",
+      "options": [
+        "Thể loét với bờ nham nhở, đáy cứng và mô u bị hoại tử sâu xuyên thành",
+        "Thể u sùi phát triển lồi vào lòng dạ dày dạng bông súp lơ gây tắc lòng",
+        "Thể thâm nhiễm cứng Linitis plastica làm thành dạ dày dày như ống cao su",
+        "Thể polyp tuyến lành tính có ổ thoái hóa ác tính khu trú tại đỉnh khối u"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục 3.2: Biến chứng thủng dạ dày gây đau bụng đột ngột dữ dội như dao đâm, bụng cứng như gỗ 'thường gặp ở ung thư thể loét'. Barem Mục 2.2 mô tả thể loét có 'bờ nham nhở, đáy cứng, hoại tử'.",
+      "option_explanations": [
+        "Đúng — Barem Mục 3.2 khẳng định biến chứng thủng dạ dày 'thường gặp ở ung thư thể loét' (với tổn thương đáy cứng hoại tử theo Mục 2.2).",
+        "Sai — Thể u sùi phát triển lồi lòng dạ dày như súp lơ thường gây chảy máu hoặc hẹp lòng chứ hiếm khi gây thủng cấp (Mục 2.2 & 3.2).",
+        "Sai — Thể thâm nhiễm cứng (Linitis plastica) làm dày cứng ống cao su gây co rút lòng dạ dày chứ không phải thể thường gặp nhất gây thủng.",
+        "Sai — Polyp tuyến lành tính thoái hóa không phải thể đại thể chính gây biến chứng thủng dạ dày được nêu trong barem."
+      ]
+    },
+    {
+      "id": "SURG21-B06",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "X-quang giai đoạn sớm",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-21 §4",
+      "text": "Một bệnh nhân nam 48 tuổi được chụp X-quang dạ dày có cản quang bằng kỹ thuật đối quang kép để tầm soát tổn thương niêm mạc. Bác sĩ chẩn đoán hình ảnh phát hiện một tổn thương nghi ngờ ung thư dạ dày ở giai đoạn rất sớm.\nDấu hiệu hình ảnh X-quang cản quang nào sau đây gợi ý tổn thương ung thư dạ dày ở giai đoạn sớm theo barem?",
+      "options": [
+        "Hình ổ đọng thuốc thấu kính đọng trên thành dạ dày khi ép thuốc",
+        "Ổ đọng thuốc nhỏ trên bề mặt niêm mạc kèm hình niêm mạc hội tụ",
+        "Hình khuyết thuốc bờ nham nhở chiếm trọn lòng vùng môn vị",
+        "Hình thâm nhiễm cứng làm mất nhu động thành dạ dày dạng cao nguyên"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 4 ghi rõ: X-quang giai đoạn sớm thấy 'Ổ đọng thuốc nhỏ trên bề mặt, hình niêm mạc hội tụ, một đoạn bờ cong bị cứng'. Các hình ảnh ổ đọng thuốc thấu kính (thể loét), khuyết bờ nham nhở (thể sùi) và thâm nhiễm cứng mất nhu động/hình cao nguyên là của giai đoạn muộn.",
+      "option_explanations": [
+        "Sai — Hình ổ đọng thuốc thấu kính là dấu hiệu của ung thư thể loét ở giai đoạn muộn (Mục 4).",
+        "Đúng — Khớp chính xác mô tả X-quang dạ dày giai đoạn sớm trong barem Mục 4: ổ đọng thuốc nhỏ trên bề mặt, hình niêm mạc hội tụ, một đoạn bờ cong bị cứng.",
+        "Sai — Hình khuyết bờ nham nhở là dấu hiệu của ung thư thể sùi ở giai đoạn muộn (Mục 4).",
+        "Sai — Hình thâm nhiễm cứng mất nhu động thành dạ dày (hình cao nguyên) là biểu hiện giai đoạn muộn của thể thâm nhiễm xơ teo (Mục 4)."
+      ]
+    },
+    {
+      "id": "SURG21-B07",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "X-quang giai đoạn muộn & Lượng giá 4",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-21 §4 & Câu hỏi lượng giá 4",
+      "text": "Theo hệ thống câu hỏi lượng giá và nội dung cận lâm sàng của bài học, dấu hiệu nào sau đây KHÔNG PHẢI là hình ảnh X-quang cản quang của ung thư dạ dày?",
+      "options": [
+        "Hình khuyết bờ nham nhở tương ứng thể u sùi phát triển lồi vào lòng",
+        "Hình ổ đọng thuốc thấu kính tương ứng với tổn thương ung thư thể loét",
+        "Hình thoát thuốc cản quang tự do ra ngoài khoang phúc mạc",
+        "Hình thâm nhiễm cứng làm mất nhu động thành dạ dày thể cao nguyên"
+      ],
+      "correct": 2,
+      "explanation": "Câu hỏi lượng giá 4 trong barem xác định: Hình ổ đọng thuốc thấu kính (Đúng), Hình khuyết bờ nham nhở (Đúng), Hình thâm nhiễm cứng (Đúng), Hình thuốc không xuống được tá tràng (Đúng trong hẹp môn vị), còn 'Hình thoát thuốc' là Sai (không phải hình ảnh X-quang kinh điển chẩn đoán khối u dạ dày).",
+      "option_explanations": [
+        "Sai — Hình khuyết bờ nham nhở là hình ảnh X-quang đúng của ung thư thể sùi (Mục 4 và Lượng giá 4C).",
+        "Sai — Ổ đọng thuốc thấu kính là hình ảnh X-quang đúng của ung thư thể loét (Mục 4 và Lượng giá 4A).",
+        "Đúng — Câu hỏi lượng giá 4 mục B nêu rõ: 'Hình thoát thuốc (Sai)'.",
+        "Sai — Hình thâm nhiễm cứng mất nhu động là hình ảnh X-quang đúng của thể Linitis plastica (Mục 4 và Lượng giá 4D)."
+      ]
+    },
+    {
+      "id": "SURG21-B08",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "Nội soi dạ dày ống mềm",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-21 §4",
+      "text": "Trong phác đồ đa hóa trị ELF điều trị ung thư dạ dày, một liệu trình chuẩn gồm bao nhiêu đợt hóa trị?",
+      "options": [
+        "Gồm 3 đợt điều trị",
+        "Gồm 4 đợt điều trị",
+        "Gồm 6 đợt điều trị",
+        "Gồm 8 đợt điều trị"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục 4: Nội soi dạ dày ống mềm cho phép sinh thiết nhiều mảnh (ít nhất 6-8 mảnh quanh bờ tổn thương) để làm giải phẫu bệnh xác định bản chất u.",
+      "option_explanations": [
+        "Sai — 2 đến 4 mảnh chưa đạt tiêu chuẩn quy định, dễ âm tính giả.",
+        "Sai — 4 đến 6 mảnh chưa đạt con số tối thiểu theo khuyến cáo trong barem bài học.",
+        "Đúng — Barem Mục 4 ghi rõ: ít nhất 6-8 mảnh quanh bờ tổn thương.",
+        "Sai — 8 đến 10 mảnh vượt quá con số tối thiểu được quy định trong barem."
+      ]
+    },
+    {
+      "id": "SURG21-B09",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "Siêu âm nội soi (EUS)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §4",
+      "text": "Để đánh giá chính xác độ xâm lấn sâu qua các lớp thành dạ dày (giai đoạn T) và tình trạng di căn hạch cạnh bờ cong (giai đoạn N), kỹ thuật cận lâm sàng nào được đánh giá là tối ưu nhất trong bài học?",
+      "options": [
+        "Chụp X-quang cản quang",
+        "Nội soi ống mềm sinh thiết",
+        "Siêu âm nội soi (EUS)",
+        "Chụp cắt lớp vi tính bụng"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục 4 ghi rõ: Siêu âm nội soi (EUS): Đánh giá chính xác độ xâm lấn thành dạ dày và hạch cạnh u. X-quang và nội soi ống mềm không đánh giá được độ sâu xuyên thành; CT đánh giá xâm lấn xa và hạch rộng.",
+      "option_explanations": [
+        "Sai — X-quang chỉ quan sát bề mặt niêm mạc và hình thể dạ dày (Mục 4).",
+        "Sai — Nội soi ống mềm nhìn bề mặt và sinh thiết mô bệnh học (Mục 4).",
+        "Đúng — Barem Mục 4: Siêu âm nội soi (EUS) đánh giá chính xác độ xâm lấn thành dạ dày và hạch cạnh u.",
+        "Sai — CT đánh giá xâm lấn cơ quan lân cận và hạch xa/di căn tạng (Mục 4)."
+      ]
+    },
+    {
+      "id": "SURG21-B10",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "Chất chỉ điểm khối u (Tumor Markers)",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-21 §4",
+      "text": "Chất chỉ điểm khối u nào sau đây được xác định là marker đặc hiệu nhất cho ung thư dạ dày theo barem giáo trình?",
+      "options": [
+        "Kháng nguyên CEA trong máu",
+        "Kháng nguyên CA 19-9 huyết thanh",
+        "Kháng nguyên CA 72-4 huyết thanh chuẩn",
+        "Kháng nguyên alpha-fetoprotein AFP"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục 4 ghi rõ: Chất chỉ điểm khối u (Tumor Markers): CEA tăng cao, đặc biệt CA 72-4 là marker đặc hiệu nhất cho ung thư dạ dày (phối hợp cùng CEA, CA 19-9).",
+      "option_explanations": [
+        "Đúng — Barem Mục 4 ghi nhận CEA tăng cao và thường được định lượng phối hợp cùng CA 72-4 và CA 19-9.",
+        "Sai — CA 19-9 cũng phối hợp nhưng CEA là marker cơ bản được nhắc đến đầu tiên trong câu (CEA tăng cao, phối hợp cùng...).",
+        "Sai — CA 72-4 là chất chỉ điểm đặc hiệu nhất, đã được nêu trong đề bài.",
+        "Sai — AFP là chất chỉ điểm của ung thư biểu mô tế bào gan."
+      ]
+    },
+    {
+      "id": "SURG21-B11",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán",
+      "subtopic": "Chỉ định chẩn đoán sớm & Tiến triển",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-21 §5",
+      "text": "Theo số liệu tiên lượng tiến triển tự nhiên trong barem bài học, nếu một bệnh nhân ung thư dạ dày không được can thiệp phẫu thuật thì thời gian sống thêm trung bình kể từ khi phát hiện thường kéo dài bao lâu?",
+      "options": [
+        "1 đến 2 tháng",
+        "5 đến 6 tháng",
+        "12 đến 15 tháng",
+        "24 đến 36 tháng"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 5 ghi rõ: Tiến triển: Tiến triển nhanh, nếu không phẫu thuật bệnh nhân thường tử vong sau 5 – 6 tháng. Con số 14,9 tháng là sống trung bình sau cắt đoạn giai đoạn muộn (Mục 6.4).",
+      "option_explanations": [
+        "Sai — 1 đến 2 tháng là quá ngắn so với tiến triển tự nhiên trung bình trong giáo trình.",
+        "Đúng — Barem Mục 5 ghi rõ: nếu không phẫu thuật bệnh nhân thường tử vong sau 5 – 6 tháng.",
+        "Sai — 12 đến 15 tháng (cụ thể 14,9 tháng) là thời gian sống trung bình của bệnh nhân giai đoạn muộn được phẫu thuật cắt đoạn dạ dày (Mục 6.4).",
+        "Sai — 24 đến 36 tháng là tiên lượng của các trường hợp được điều trị triệt căn kiểm soát tốt."
+      ]
+    },
+    {
+      "id": "SURG21-B12",
+      "type": "concept",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Nguyên tắc phẫu thuật theo UICC 1992",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-21 §6.1",
+      "text": "Sau khi thực hiện phẫu thuật cắt bán phần dưới dạ dày nạo hạch D2, phẫu thuật viên ghi nhận đã lấy bỏ toàn bộ tổn thương u nhìn thấy được, nhưng kết quả giải phẫu bệnh vi thể diện cắt vẫn còn tế bào ung thư sót lại.\nTheo phân loại của UICC 1992, phẫu thuật này được xếp loại gì?",
+      "options": [
+        "Phẫu thuật R0",
+        "Phẫu thuật R1",
+        "Phẫu thuật R2",
+        "Phẫu thuật Rx"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 6.1 (UICC 1992): Phẫu thuật R0 (No residual tumor): Lấy bỏ triệt để u cả về đại thể lẫn vi thể, diện cắt sạch tế bào ung thư; Phẫu thuật R1 (Microscopic residual tumor): Đã lấy sạch đại thể nhưng vi thể diện cắt còn tế bào ung thư; Phẫu thuật R2 (Macroscopic residual tumor): Vẫn còn sót mô ung thư nhìn thấy được trên đại thể.",
+      "option_explanations": [
+        "Sai — R0 là lấy sạch triệt để cả đại thể lẫn vi thể, diện cắt sạch tế bào u (Mục 6.1).",
+        "Đúng — Barem Mục 6.1: Phẫu thuật R1 đã lấy sạch đại thể nhưng vi thể diện cắt còn tế bào ung thư.",
+        "Sai — R2 là vẫn còn sót mô ung thư nhìn thấy được trên đại thể (Mục 6.1).",
+        "Sai — Rx là không thể đánh giá được tình trạng khối u còn sót lại."
+      ]
+    },
+    {
+      "id": "SURG21-B13",
+      "type": "vignette",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Kỹ thuật mổ triệt căn & diện cắt an toàn",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §6.2",
+      "text": "Trong phẫu thuật cắt đoạn dạ dày kèm nạo hạch D2, diện cắt dạ dày phía trên cách bờ khối u tối thiểu là bao nhiêu theo nguyên tắc ung thư học?",
+      "options": [
+        "Khoảng cách tối thiểu 1 đến 2 cm",
+        "Khoảng cách tối thiểu 3 đến 4 cm",
+        "Khoảng cách tối thiểu 5 đến 6 cm",
+        "Khoảng cách tối thiểu 8 đến 10 cm"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục 6.2 ghi rõ: Cắt đoạn dạ dày... kèm nạo vét hạch D2 tỉ mỉ (diện cắt cách u ít nhất 5-6 cm). Vị trí hạch N1 cách bờ khối u <= 3 cm (Mục 2.3).",
+      "option_explanations": [
+        "Sai — 2 đến 3 cm là khoảng cách không an toàn, nguy cơ còn sót tế bào u tại diện cắt.",
+        "Sai — 3 đến 4 cm (cụ thể <= 3 cm) là khoảng cách định nghĩa nhóm hạch N1 cạnh dạ dày (Mục 2.3).",
+        "Đúng — Barem Mục 6.2 ghi rõ: diện cắt cách u ít nhất 5-6 cm.",
+        "Sai — 7 đến 8 cm không phải con số quy chuẩn tối thiểu trong cắt đoạn dạ dày."
+      ]
+    },
+    {
+      "id": "SURG21-B14",
+      "type": "vignette",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Chỉ định cắt toàn bộ dạ dày",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-21 §6.2",
+      "text": "Theo nguyên tắc điều trị ngoại khoa ung thư dạ dày trong barem bài học, trường hợp tổn thương nào sau đây có chỉ định phẫu thuật cắt bán phần dưới dạ dày kèm nạo vét hạch D2?",
+      "options": [
+        "Khối u ung thư khu trú ở vùng hang môn vị",
+        "Khối u khu trú ở 1/3 trên dạ dày hoặc thể thâm nhiễm lan tỏa",
+        "Tổn thương ung thư sớm dạng phẳng khu trú ở lớp niêm mạc thân vị",
+        "Khối u dạ dày xâm lấn dính chặt cuống gan không còn khả năng bóc tách"
+      ],
+      "correct": 0,
+      "explanation": "Barem Mục 6.2 ghi rõ: Cắt đoạn dạ dày (cắt bán phần dưới hoặc cắt cực trên) kèm nạo hạch D2 cho u vùng hang môn vị (50-60%). Cắt toàn bộ dạ dày chỉ định cho u 1/3 trên hoặc thâm nhiễm lan tỏa; tổn thương sớm niêm mạc làm EMR/ESD; u dính cuống gan không cắt được làm mổ tạm thời nối vị tràng.",
+      "option_explanations": [
+        "Đúng — U vùng hang môn vị chiếm 50-60% có chỉ định phẫu thuật cắt bán phần dưới kèm nạo hạch D2 (Mục 6.2).",
+        "Sai — U ở 1/3 trên hoặc thể thâm nhiễm lan tỏa có chỉ định cắt toàn bộ dạ dày theo nguyên tắc (Mục 6.2).",
+        "Sai — Tổn thương ung thư sớm khu trú lớp niêm mạc có chỉ định cắt hớt niêm mạc nội soi EMR/ESD (Mục 6.2).",
+        "Sai — U xâm lấn dính chặt không cắt được có chỉ định mổ tạm thời nối vị tràng (Mục 6.2)."
+      ]
+    },
+    {
+      "id": "SURG21-B15",
+      "type": "vignette",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Can thiệp nội soi EMR/ESD",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §6.2",
+      "text": "Bệnh nhân nam 52 tuổi được chẩn đoán ung thư biểu mô tuyến dạ dày giai đoạn rất sớm, tổn thương kích thước 1,2 cm phẳng nhẵn, hoàn toàn khu trú ở lớp niêm mạc và chưa có di căn hạch vùng.\nPhương pháp can thiệp tối ưu và bảo tồn nhất được khuyến cáo trong barem bài học cho bệnh nhân này là gì?",
+      "options": [
+        "Cắt đoạn dạ dày kèm nạo vét hạch D2",
+        "Cắt hớt niêm mạc qua nội soi (EMR/ESD)",
+        "Cắt toàn bộ dạ dày theo nguyên tắc",
+        "Mổ tạm thời lập miệng nối vị tràng"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 6.2 ghi rõ: Can thiệp sớm: Cắt hớt niêm mạc qua nội soi (EMR/ESD) cho tổn thương rất sớm khu trú lớp niêm mạc. Cắt đoạn kèm D2 dùng cho u xâm lấn sâu hơn; cắt toàn bộ cho u 1/3 trên; nối vị tràng là mổ tạm thời khi hẹp môn vị không cắt được u.",
+      "option_explanations": [
+        "Sai — Cắt đoạn dạ dày kèm nạo vét hạch D2 là phẫu thuật triệt căn cho giai đoạn tiến triển (Mục 6.2).",
+        "Đúng — Barem Mục 6.2 ghi rõ: Can thiệp sớm: Cắt hớt niêm mạc qua nội soi (EMR/ESD) cho tổn thương rất sớm khu trú lớp niêm mạc.",
+        "Sai — Cắt toàn bộ dạ dày chỉ định cho u 1/3 trên hoặc thâm nhiễm lan tỏa (Mục 6.2).",
+        "Sai — Nối vị tràng là mổ tạm thời khi hẹp môn vị không cắt được u (Mục 6.2)."
+      ]
+    },
+    {
+      "id": "SURG21-B16",
+      "type": "concept",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Phẫu thuật mở rộng & phẫu thuật tạm thời",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-21 §6.2",
+      "text": "Một bệnh nhân nam 60 tuổi vào viện vì nôn thức ăn cũ liên tục và gầy rộc. Thăm dò hình ảnh và nội soi phát hiện khối ung thư hang môn vị xâm lấn dính chặt cuống gan và mặt trước tụy, hạch cuống gan và sau đầu tụy dính thành khối không thể bóc tách để cắt bỏ u an toàn.\nPhương pháp mổ tạm thời nào phù hợp nhất để giải quyết tình trạng tắc nghẽn đường tiêu hóa cho bệnh nhân theo barem?",
+      "options": [
+        "Phẫu thuật nối vị tràng để lập lại lưu thông tiêu hóa tránh ứ đọng",
+        "Phẫu thuật cắt dạ dày mở rộng kèm cắt bỏ toàn bộ khối tá tụy triệt căn",
+        "Phẫu thuật cắt hớt niêm mạc qua nội soi ống mềm dạ dày (EMR/ESD)",
+        "Phẫu thuật cắt đoạn dạ dày kèm nạo vét toàn bộ chặng hạch D2 tỉ mỉ"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục 6.2: 'Mổ tạm thời: Nối vị tràng (khi hẹp môn vị không cắt được u), mở thông dạ dày/hỗng tràng nuôi dưỡng, cầm máu cấp cứu'. Trong trường hợp u xâm lấn dính không thể cắt được u, nối vị tràng là lựa chọn tối ưu giải quyết hẹp môn vị.",
+      "option_explanations": [
+        "Đúng — Barem Mục 6.2 nêu rõ chỉ định: 'Mổ tạm thời: Nối vị tràng (khi hẹp môn vị không cắt được u)'.",
+        "Sai — U đã dính khối cuống gan không bóc tách an toàn được thì không có chỉ định cắt tá tụy mở rộng triệt căn.",
+        "Sai — EMR/ESD chỉ định cho tổn thương rất sớm khu trú lớp niêm mạc (Mục 6.2), không áp dụng cho u tiến triển hẹp môn vị.",
+        "Sai — Cắt đoạn dạ dày vét hạch D2 là phẫu thuật triệt căn, không khả thi khi u đã xâm lấn dính không cắt được (Mục 6.2)."
+      ]
+    },
+    {
+      "id": "SURG21-B17",
+      "type": "concept",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Hóa chất nền tảng & các phác đồ phối hợp",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-21 §6.3",
+      "text": "Trong phác đồ đa hóa trị ELF điều trị ung thư dạ dày, thuốc hóa chất nào sau đây được sử dụng với liều lượng 300 mg/m²?",
+      "options": [
+        "Thuốc nền 5-Fluorouracil (5-FU)",
+        "Thuốc Etoposide trong phác đồ",
+        "Thuốc Leucovorin phối hợp chuẩn",
+        "Thuốc Paclitaxel đa hóa trị"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục 6.3: Phác đồ ELF gồm: Etoposide: 120 mg/m²; Leucovorin: 300 mg/m²; 5-FU: 500 mg/m². 5-FU là thuốc nền tảng có liều 500 mg/m².",
+      "option_explanations": [
+        "Sai — 5-FU là thuốc nền tảng nhưng có liều là 500 mg/m² (Mục 6.3).",
+        "Đúng — Barem Mục 6.3 ghi rõ: Etoposide: 120 mg/m².",
+        "Sai — Leucovorin có liều là 300 mg/m² (Mục 6.3).",
+        "Sai — Paclitaxel là thuốc trong phác đồ PC (Paclitaxel + Cisplatin), không thuộc phác đồ ELF (Mục 6.3)."
+      ]
+    },
+    {
+      "id": "SURG21-B18",
+      "type": "calc",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Phác đồ ELF & Tính liều hóa chất",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §6.3",
+      "text": "Một bệnh nhân nam sau phẫu thuật cắt bán phần dạ dày được chỉ định hóa trị bổ trợ theo phác đồ ELF (Etoposide 120 mg/m², Leucovorin 300 mg/m², 5-FU liều 500 mg/m²/ngày, truyền tĩnh mạch mỗi ngày trong 3 ngày). Bệnh nhân có diện tích bề mặt cơ thể (BSA) là 1,50 m² và thực hiện một đợt điều trị liên tục trong 3 ngày.\nTổng liều thuốc 5-Fluorouracil (5-FU) mà bệnh nhân này được truyền trong toàn bộ đợt điều trị 3 ngày là bao nhiêu?",
+      "options": [
+        "750 mg",
+        "1500 mg",
+        "2250 mg",
+        "4500 mg"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục 6.3, phác đồ ELF gồm 5-FU liều 500 mg/m²/ngày, mỗi đợt điều trị kéo dài 3 ngày. Với diện tích da BSA = 1,50 m²: Liều 5-FU mỗi ngày = 500 mg/m² × 1,50 m² = 750 mg/ngày. Tổng liều trong 1 đợt 3 ngày = 750 mg/ngày × 3 ngày = 2.250 mg.",
+      "option_explanations": [
+        "Sai — 750 mg mới chỉ là liều 5-FU truyền trong 1 ngày (500 × 1,5), chưa nhân với 3 ngày của một đợt điều trị.",
+        "Sai — 1.500 mg là liều tính cho 2 ngày truyền hoặc nhầm lẫn với tổng liều của một chu kỳ ngắn khác.",
+        "Đúng — Tính toán chính xác theo barem Mục 6.3: 500 mg/m²/ngày × 1,50 m² × 3 ngày/đợt = 2.250 mg.",
+        "Sai — 4.500 mg là tính nhầm nhân 6 ngày hoặc gấp đôi tổng liều thực tế của đợt 3 ngày."
+      ]
+    },
+    {
+      "id": "SURG21-B19",
+      "type": "concept",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Chu kỳ và các phác đồ hóa trị khác",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-21 §6.3",
+      "text": "Một bệnh nhân ung thư dạ dày sau phẫu thuật được điều trị hóa chất bằng phác đồ kết hợp 3 thuốc Etoposide (120 mg/m²), Leucovorin (300 mg/m²) và 5-FU (500 mg/m²) truyền tĩnh mạch chu kỳ 21 ngày với 6 đợt, mỗi đợt 3 ngày.\nTên gọi của phác đồ hóa trị đa mô thức kinh điển được mô tả chi tiết này trong barem bài học là gì?",
+      "options": [
+        "Phác đồ ELF",
+        "Phác đồ PC",
+        "Phác đồ EAP",
+        "Phác đồ FAM"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục 6.3: Phác đồ ELF gồm Etoposide (120 mg/m²), Leucovorin (300 mg/m²), 5-FU (500 mg/m²), truyền tĩnh mạch chu kỳ 21 ngày, 6 đợt, mỗi đợt 3 ngày. Các phác đồ khác được liệt kê là PC (Paclitaxel + Cisplatin), EAP, FAM.",
+      "option_explanations": [
+        "Đúng — Khớp chính xác tên và thành phần phác đồ ELF theo barem Mục 6.3: Etoposide, Leucovorin, 5-FU.",
+        "Sai — Phác đồ PC gồm Paclitaxel kết hợp Cisplatin (Mục 6.3).",
+        "Sai — Phác đồ EAP gồm Etoposide, Adriamycin (Doxorubicin) và Platin (Cisplatin) (Mục 6.3).",
+        "Sai — Phác đồ FAM gồm 5-FU, Adriamycin và Mitomycin-C (Mục 6.3)."
+      ]
+    },
+    {
+      "id": "SURG21-B20",
+      "type": "vignette",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Điều trị đích phân tử & Xạ trị",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-21 §6.3",
+      "text": "Bệnh nhân ung thư dạ dày sau phẫu thuật có diện cắt còn tế bào u vi thể hoặc di căn hạch vùng.\nPhương thức điều trị bổ trợ phối hợp nào được barem khuyến cáo?",
+      "options": [
+        "Hóa trị liệu toàn thân phác đồ PC",
+        "Xạ trị bổ trợ kết hợp với hóa chất",
+        "Kháng thể đơn dòng nhắm đích phân tử",
+        "Phẫu thuật cắt mở rộng bổ sung lần hai"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục 6.3 ghi rõ: Xạ trị: Bổ trợ phối hợp hóa chất đối với u xâm lấn diện cắt hoặc hạch di căn. Trastuzumab chỉ định khi có HER2-neu dương tính.",
+      "option_explanations": [
+        "Sai — Trastuzumab chỉ định khi khối u có xét nghiệm HER2-neu dương tính (Mục 6.3).",
+        "Đúng — Barem Mục 6.3 ghi rõ: Xạ trị: Bổ trợ phối hợp hóa chất đối với u xâm lấn diện cắt hoặc hạch di căn.",
+        "Sai — Phác đồ PC là một lựa chọn đa hóa trị, không phải phương thức điều trị bổ trợ đặc thù cho xâm lấn diện cắt.",
+        "Sai — EMR là can thiệp nội soi cho tổn thương rất sớm khu trú niêm mạc (Mục 6.2)."
+      ]
+    },
+    {
+      "id": "SURG21-B21",
+      "type": "concept",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Tiên lượng sống thêm giai đoạn sớm",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-21 §6.4",
+      "text": "Theo số liệu tổng kết lâm sàng trong barem bài học, tỷ lệ sống thêm sau 5 năm ở bệnh nhân ung thư dạ dày được phát hiện ở giai đoạn sớm và phẫu thuật triệt căn tại Nhật Bản và Việt Nam lần lượt đạt mức nào?",
+      "options": [
+        "Tại Nhật Bản đạt 97%, tại Việt Nam đạt 91%",
+        "Tại Nhật Bản đạt 85%, tại Việt Nam đạt 65%",
+        "Tại Nhật Bản đạt 69%, tại Việt Nam đạt 50%",
+        "Tại Nhật Bản đạt 99%, tại Việt Nam đạt 75%"
+      ],
+      "correct": 0,
+      "explanation": "Barem Mục 6.4 ghi rõ: 'Tỉ lệ sống sau 5 năm ở bệnh nhân phát hiện sớm tại Nhật Bản là 97%, tại Việt Nam là 91%'. Tiên lượng sống thêm phụ thuộc chủ yếu vào giai đoạn phát hiện bệnh và phẫu thuật triệt căn.",
+      "option_explanations": [
+        "Đúng — Khớp chính xác số liệu barem Mục 6.4: Nhật Bản 97% và Việt Nam 91%.",
+        "Sai — Con số 85% và 65% không khớp với thống kê giáo trình trong barem.",
+        "Sai — Con số 69% là tỷ lệ mắc ung thư dạ dày 69/100.000 dân ở Nhật Bản (Mục 1.1), không phải tỷ lệ sống 5 năm giai đoạn sớm.",
+        "Sai — 99% và 75% không phản ánh đúng số liệu bài học."
+      ]
+    },
+    {
+      "id": "SURG21-B22",
+      "type": "vignette",
+      "topic": "Điều trị phẫu thuật, Hóa trị & Tiên lượng",
+      "subtopic": "Tiên lượng sống thêm giai đoạn muộn & Phẫu thuật cắt đoạn",
+      "bloom": "sáng tạo",
+      "difficulty": 3,
+      "source": "SURG-21 §6.4",
+      "text": "Theo số liệu thống kê lâm sàng trong barem, ở những bệnh nhân ung thư dạ dày phát hiện muộn nhưng thực hiện được phẫu thuật cắt đoạn dạ dày, thời gian sống thêm trung bình là bao lâu?",
+      "options": [
+        "Khoảng 6,0 tháng",
+        "Khoảng 14,9 tháng",
+        "Khoảng 24,5 tháng",
+        "Khoảng 36,0 tháng"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục 6.4: Bệnh nhân phát hiện muộn... Nếu không cắt được u, thời gian sống thêm trung bình chỉ khoảng 6 tháng. Thời gian sống trung bình cắt đoạn dạ dày là 14,9 tháng.",
+      "option_explanations": [
+        "Đúng — Barem Mục 6.4 ghi rõ: Nếu không cắt được u, thời gian sống thêm trung bình chỉ khoảng 6 tháng.",
+        "Sai — 14,9 tháng là thời gian sống trung bình của bệnh nhân phát hiện muộn nhưng được phẫu thuật cắt đoạn dạ dày (Mục 6.4).",
+        "Sai — 24,5 tháng là số ước tính không có trong số liệu thống kê bài học.",
+        "Sai — 36,0 tháng là mốc 3 năm (tỷ lệ sống sau 3 năm là 62,6% theo Mục 6.4)."
+      ]
+    }
+  ]
+}

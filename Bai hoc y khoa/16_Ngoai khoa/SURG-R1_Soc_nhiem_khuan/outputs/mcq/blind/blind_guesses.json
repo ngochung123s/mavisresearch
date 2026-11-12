@@ -1,0 +1,266 @@
+[
+  {
+    "id": "BLIND-001",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Theo định nghĩa Sepsis-3, nhiễm khuẩn huyết được xác định khi có rối loạn chức năng cơ quan đe dọa tính mạng gây ra bởi đáp ứng mất điều hòa của cơ thể đối với nhiễm khuẩn, biểu hiện bằng sự gia tăng điểm SOFA cấp tính ≥ 2 điểm (hoặc tính 2 điểm suy tạng)."
+  },
+  {
+    "id": "BLIND-002",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Cơ chế sinh lý bệnh cốt lõi đặc trưng của sốc phân bố trong sốc nhiễm khuẩn là tình trạng giãn hệ thống tiểu động mạch và tĩnh mạch ngoại vi lan tỏa kết hợp với tăng tính thấm thành mạch mao mạch toàn thể gây thoát dịch vào khoang kẽ."
+  },
+  {
+    "id": "BLIND-003",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Liều khởi đầu thông thường trên lâm sàng khi truyền Norepinephrine ở bệnh nhân sốc nhiễm khuẩn là khoảng 2,5 đến 5,0 mcg/phút (hoặc 0,05 mcg/kg/phút) rồi chuẩn liều tăng dần để đạt MAP ≥ 65 mmHg."
+  },
+  {
+    "id": "BLIND-004",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Tiêu chuẩn tụt huyết áp động mạch kinh điển định nghĩa sốc là huyết áp tâm thu < 90 mmHg hoặc giảm trên 40 mmHg so với trị số huyết áp nền của người bệnh."
+  },
+  {
+    "id": "BLIND-005",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Theo khuyến cáo của Surviving Sepsis Campaign (SSC), mục tiêu kiểm soát đường huyết ở bệnh nhân sốc nhiễm khuẩn là duy trì glucose máu < 180 mg/dL (< 10 mmol/L) và tránh hạ đường huyết nghiêm trọng."
+  },
+  {
+    "id": "BLIND-006",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Mục tiêu hồi sức thể tích và tưới máu thận chuẩn theo khuyến cáo SSC là duy trì lượng nước tiểu ≥ 0,5 ml/kg/giờ."
+  },
+  {
+    "id": "BLIND-007",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Tình trạng hạ huyết áp kéo dài cần duy trì thuốc vận mạch để giữ MAP ≥ 65 mmHg kèm nồng độ lactat máu > 2 mmol/L dù đã được bù đủ thể tích dịch tuần hoàn là định nghĩa của Sốc nhiễm khuẩn (Septic Shock)."
+  },
+  {
+    "id": "BLIND-008",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Khuyến cáo hồi sức dịch ban đầu là 30 ml/kg dung dịch tinh thể. Với bệnh nhân có cân nặng chuẩn 70 kg, thể tích dịch tương ứng là 70 kg × 30 ml/kg = 2.100 ml dung dịch tinh thể."
+  },
+  {
+    "id": "BLIND-009",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Trong sàng lọc nhanh qSOFA, mốc ≥ 2 điểm là ngưỡng xác định bệnh nhân có nguy cơ diễn tiến nặng/tử vong cao cần đánh giá ngay suy tạng chuyên sâu."
+  },
+  {
+    "id": "BLIND-010",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Theo công thức hồi sức dịch ban đầu 30 ml/kg, bệnh nhân người lớn 60 kg cần bù thể tích khởi đầu là 60 × 30 = 1.800 ml dung dịch tinh thể trong 3 giờ đầu."
+  },
+  {
+    "id": "BLIND-011",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Tiêu chuẩn huyết áp trong thang điểm sàng lọc nhanh qSOFA là huyết áp tâm thu ≤ 100 mmHg."
+  },
+  {
+    "id": "BLIND-012",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Trong mô hình dịch tễ học nhiễm khuẩn huyết và sốc nhiễm khuẩn nói chung, đường hô hấp (viêm phổi mắc phải cộng đồng hoặc bệnh viện) là ổ nhiễm khuẩn nguyên phát phổ biến nhất."
+  },
+  {
+    "id": "BLIND-013",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Khi Norepinephrine liều cao vẫn chưa đạt được đích huyết áp trung bình, khuyến cáo SSC ưu tiên phối hợp thêm Vasopressin liều cố định 0,03 đơn vị/phút để nâng huyết áp và giảm liều Norepinephrine."
+  },
+  {
+    "id": "BLIND-014",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Khuyến cáo SSC nhấn mạnh không sử dụng Dopamine liều thấp ('renal dose dopamine') với mục đích bảo vệ chức năng thận do không có bằng chứng cải thiện lâm sàng mà còn tăng nguy cơ loạn nhịp."
+  },
+  {
+    "id": "BLIND-015",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Nguyên tắc vi sinh kinh điển trong quản lý nhiễm khuẩn huyết là phải cấy máu trước khi bắt đầu dùng kháng sinh, miễn là không làm chậm trễ việc khởi đầu kháng sinh quá 45 phút."
+  },
+  {
+    "id": "BLIND-016",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Khuyến cáo SSC chỉ định Hydrocortisone liều 200 mg/ngày (truyền liên tục hoặc 50 mg mỗi 6 giờ tĩnh mạch) ở bệnh nhân sốc nhiễm khuẩn trơ không đáp ứng với bù đủ dịch và vận mạch."
+  },
+  {
+    "id": "BLIND-017",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Trong hướng dẫn theo dõi hồi sức dịch dựa trên nồng độ lactat máu, chỉ số thanh thải lactat (lactate clearance) đạt mục tiêu thường là giảm ≥ 10-20% (phổ biến lấy mốc ≥ 20%) sau mỗi 2 giờ hồi sức."
+  },
+  {
+    "id": "BLIND-018",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Thời gian điều trị kháng sinh thích hợp cho đa số các ca nhiễm khuẩn huyết được kiểm soát tốt ổ nhiễm khuẩn là từ 7 đến 10 ngày."
+  },
+  {
+    "id": "BLIND-019",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Phổi là cơ quan tổn thương sớm và phổ biến nhất trong suy đa tạng do sốc nhiễm khuẩn, tiến triển thành hội chứng suy hô hấp cấp tiến triển (ARDS)."
+  },
+  {
+    "id": "BLIND-020",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Bộ ba cytokine tiền viêm giữ vai trò trung tâm khởi động dòng thác viêm toàn thân trong sốc nhiễm khuẩn bao gồm TNF-α, Interleukin-1β (IL-1β) và Interleukin-6 (IL-6)."
+  },
+  {
+    "id": "BLIND-021",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Dobutamine là thuốc tăng co bóp cơ tim (inotrope) được SSC khuyến cáo bổ sung khi bệnh nhân vẫn có dấu hiệu giảm tưới máu mô kéo dài dù đã đạt đủ thể tích nội mạch và huyết áp động mạch trung bình."
+  },
+  {
+    "id": "BLIND-022",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Dự đoán ca lâm sàng tính tổng điểm suy tạng MSOFA đạt 10 điểm (hoặc mức tương đương phản ánh suy đa cơ quan nặng trong hồi sức)."
+  },
+  {
+    "id": "BLIND-023",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Gói can thiệp 1 giờ đầu (Hour-1 bundle) của SSC quy định bắt buộc phải dùng kháng sinh tĩnh mạch phổ rộng trong vòng 1 giờ đầu tiên kể từ khi nhận diện nhiễm khuẩn huyết/sốc nhiễm khuẩn."
+  },
+  {
+    "id": "BLIND-024",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Đối với bệnh cảnh ngoại khoa, ổ nhiễm khuẩn nguyên phát dẫn đến sốc nhiễm khuẩn thường gặp nhất nằm ở đường tiêu hóa - gan mật (viêm ruột thừa hoại tử, thủng tạng rỗng, viêm túi mật hoại tử, nhiễm trùng đường mật)."
+  },
+  {
+    "id": "BLIND-025",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Tiêu chuẩn đánh giá thông khí hô hấp (tần số thở ≥ 22 lần/phút) là một trong ba thành tố của thang điểm sàng lọc nhanh qSOFA."
+  },
+  {
+    "id": "BLIND-026",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Rối loạn huyết động cơ bản và đặc trưng nhất của sốc phân bố là sự giãn hệ thống mạng lưới mạch máu ngoại vi lan tỏa do các chất giãn mạch nội sinh như NO."
+  },
+  {
+    "id": "BLIND-027",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Nguyên tắc kiểm soát nguồn nhiễm khuẩn ngoại khoa (source control) đòi hỏi can thiệp phẫu thuật khẩn trương ngay khi bắt đầu hồi sức dịch và ổn định bước đầu, không được trì hoãn kéo dài."
+  },
+  {
+    "id": "BLIND-028",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Norepinephrine truyền tĩnh mạch liên tục là thuốc vận mạch lựa chọn hàng đầu (first-line agent) cho bệnh nhân sốc nhiễm khuẩn."
+  },
+  {
+    "id": "BLIND-029",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Khuyến cáo hồi sức dịch kinh điển của Surviving Sepsis Campaign là truyền ít nhất 30 ml/kg dung dịch tinh thể trong vòng 3 giờ đầu tiên khi có hạ huyết áp hoặc lactat máu ≥ 4 mmol/L."
+  },
+  {
+    "id": "BLIND-030",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Yếu tố ức chế cơ tim (Myocardial Depressant Factor - MDF) do tụy tiết ra trong tình trạng thiếu máu cục bộ tạng là yếu tố gây giảm co bóp cơ tim đặc hiệu trong sốc."
+  },
+  {
+    "id": "BLIND-031",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Chỉ số lượng nước tiểu tối thiểu cần đạt để đảm bảo tưới máu tạng thận trong hồi sức sốc nhiễm khuẩn là ≥ 0,5 ml/kg/giờ."
+  },
+  {
+    "id": "BLIND-032",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Bệnh cảnh hạ huyết áp trơ với bù dịch cần can thiệp truyền thuốc vận mạch khẩn cấp để duy trì huyết áp và tưới máu các cơ quan là sốc nhiễm khuẩn."
+  },
+  {
+    "id": "BLIND-033",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Mục tiêu huyết áp ban đầu quan trọng nhất trong hồi sức sốc nhiễm khuẩn theo SSC là duy trì Huyết áp động mạch trung bình (MAP) ≥ 65 mmHg."
+  },
+  {
+    "id": "BLIND-034",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Chiến lược truyền máu hạn chế trong sốc nhiễm khuẩn chỉ truyền hồng cầu khối khi Hb < 70 g/L và duy trì Hemoglobin đích từ 70 đến 90 g/L ở bệnh nhân không có thiếu máu cơ tim cấp."
+  },
+  {
+    "id": "BLIND-035",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Trong thang điểm SOFA tuần hoàn, việc phải duy trì Dopamine > 5 mcg/kg/phút hoặc Norepinephrine liều thấp/vừa (≤ 0,1 mcg/kg/phút) được tính 3 điểm tuần hoàn."
+  },
+  {
+    "id": "BLIND-036",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Thang điểm sàng lọc nhanh tại giường qSOFA (Quick SOFA) được khuyến cáo sử dụng tại các khoa lâm sàng ngoài ICU để nhận diện nhanh bệnh nhân nghi ngờ nhiễm khuẩn huyết."
+  },
+  {
+    "id": "BLIND-037",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Surviving Sepsis Campaign khuyến cáo sử dụng dung dịch keo sinh học Albumin (5% – 20%) khi bệnh nhân cần lượng dịch tinh thể rất lớn, và khuyến cáo chống chỉ định dùng Hydroxyethyl Starch."
+  },
+  {
+    "id": "BLIND-038",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Trong thang điểm sàng lọc nhanh qSOFA hoặc đánh giá tiêu chuẩn SIRS, mỗi tiêu chuẩn đạt được được tính 1 điểm."
+  },
+  {
+    "id": "BLIND-039",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Dung dịch keo nhân tạo Hydroxyethyl Starch (HES) bị chống chỉ định trong sốc nhiễm khuẩn vì các thử nghiệm lâm sàng lớn chứng minh nó làm tăng nguy cơ tổn thương thận cấp, tăng nhu cầu lọc máu và tăng tỷ lệ tử vong."
+  },
+  {
+    "id": "BLIND-040",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Dự đoán ca lâm sàng tính toán điểm MSOFA hiện tại là 14 điểm và mức biến đổi ΔSOFA là tăng 12 điểm so với nền 2 điểm."
+  },
+  {
+    "id": "BLIND-041",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Chiến lược thông khí bảo vệ phổi cho bệnh nhân ARDS thứ phát sau sốc nhiễm khuẩn là sử dụng thể tích lưu thông thấp (lung-protective ventilation với Vt = 6 ml/kg trọng lượng dự đoán)."
+  },
+  {
+    "id": "BLIND-042",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Cấy máu hai mẫu ưa khí và kỵ khí trước khi bắt đầu dùng kháng sinh là tiêu chuẩn vàng chẩn đoán căn nguyên vi sinh trong nhiễm khuẩn huyết."
+  },
+  {
+    "id": "BLIND-043",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Mục tiêu hồi sức thể tích nội mạch theo phác đồ hướng đích sớm (EGDT kinh điển) là duy trì áp lực tĩnh mạch trung tâm CVP từ 8 đến 12 mmHg (12-15 mmHg nếu đang thở máy)."
+  },
+  {
+    "id": "BLIND-044",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Theo đồng thuận Sepsis-3, bệnh nhân sốc nhiễm khuẩn có tỷ lệ tử vong trong bệnh viện vượt quá 40% (khoảng 40%)."
+  }
+]

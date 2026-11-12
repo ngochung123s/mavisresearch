@@ -1,0 +1,398 @@
+[
+  {
+    "id": "BLIND-001",
+    "options": [
+      "Biểu hiện của ung thư ở giai đoạn sớm",
+      "Biểu hiện của ung thư ở giai đoạn muộn",
+      "Biểu hiện bình thường ở người cao tuổi",
+      "Biểu hiện điển hình của viêm cấp tính"
+    ]
+  },
+  {
+    "id": "BLIND-002",
+    "options": [
+      "Xương đùi -> Cột sống thắt lưng -> Xương chậu -> Cột sống ngực -> Xương sườn/ức -> Xương sọ/cánh tay",
+      "Cột sống thắt lưng -> Cột sống ngực -> Xương chậu -> Xương đùi -> Xương sọ/cánh tay -> Xương sườn/ức",
+      "Cột sống thắt lưng -> Xương chậu -> Xương đùi -> Cột sống ngực -> Xương sườn/ức -> Xương sọ/cánh tay",
+      "Xương chậu -> Cột sống thắt lưng -> Xương đùi -> Cột sống ngực -> Xương sọ/cánh tay -> Xương sườn/ức"
+    ]
+  },
+  {
+    "id": "BLIND-003",
+    "options": [
+      "Tăng sản lành tính tuyến tiền liệt (BPH)",
+      "Ổ áp xe tuyến tiền liệt hoại tử",
+      "Sỏi vôi hóa tuyến tiền liệt",
+      "Ung thư tuyến tiền liệt giai đoạn sớm"
+    ]
+  },
+  {
+    "id": "BLIND-004",
+    "options": [
+      "Đái ra máu đại thể toàn bãi",
+      "Tia tiểu yếu, đứt quãng, phải rặn",
+      "Tiểu buốt và tiểu gấp liên tục",
+      "Tiểu đêm nhiều lần (nocturia)"
+    ]
+  },
+  {
+    "id": "BLIND-005",
+    "options": [
+      "PSAD = 0,42 ng/ml/cm³ (ngưỡng sinh thiết > 0,25)",
+      "PSAD = 0,24 ng/ml/cm³ (ngưỡng sinh thiết > 0,15)",
+      "PSAD = 0,12 ng/ml/cm³ (ngưỡng sinh thiết > 0,10)",
+      "PSAD = 0,57 ng/ml/cm³ (ngưỡng sinh thiết > 0,75)"
+    ]
+  },
+  {
+    "id": "BLIND-006",
+    "options": [
+      "Chỉ định xạ trị ngoài phòng ngừa",
+      "Theo dõi tích cực (Active Surveillance)",
+      "Bắt buộc chỉ định sinh thiết tuyến tiền liệt",
+      "Hẹn khám kiểm tra lại sau 1 năm"
+    ]
+  },
+  {
+    "id": "BLIND-007",
+    "options": [
+      "Mọi nam giới sau 50 tuổi; khám chỉ gồm xét nghiệm máu lắng",
+      "Người có bố/anh em mắc bệnh; khám gồm DRE, PSA máu và TRUS",
+      "Người hút thuốc lá; khám gồm siêu âm ổ bụng và chụp X-quang",
+      "Người có tiền sử sỏi tiết niệu; khám gồm chụp xạ hình xương"
+    ]
+  },
+  {
+    "id": "BLIND-008",
+    "options": [
+      "Bấm kim sinh thiết TRUS ngay",
+      "Hóa trị phác đồ Docetaxel",
+      "Cắt tuyến tiền liệt triệt căn",
+      "Điều trị kháng sinh rồi thử lại PSA"
+    ]
+  },
+  {
+    "id": "BLIND-009",
+    "options": [
+      "Cắt hai tinh hoàn ngoại khoa cấp",
+      "Theo dõi tích cực và chờ đợi (Active Surveillance)",
+      "Hóa trị phác đồ Docetaxel + Prednisone",
+      "Phẫu thuật cắt tuyến tiền liệt triệt căn"
+    ]
+  },
+  {
+    "id": "BLIND-010",
+    "options": [
+      "Nồng độ Progesterone tự do trong máu",
+      "Nồng độ Estradiol tự do trong máu",
+      "Nồng độ Prolactin toàn phần trong máu",
+      "Nồng độ Testosterone tự do trong máu"
+    ]
+  },
+  {
+    "id": "BLIND-011",
+    "options": [
+      "Khối u xâm lấn phá vỡ vỏ bao tuyến tiền liệt một hoặc hai bên",
+      "Khối u xâm lấn vào mô liên kết và nhu mô của túi tinh",
+      "Khối u xâm lấn vào cổ bàng quang, trực tràng hoặc thành chậu",
+      "Khối u xâm lấn lan rộng chiếm trọn hai thùy tuyến tiền liệt"
+    ]
+  },
+  {
+    "id": "BLIND-012",
+    "options": [
+      "Ung thư biểu mô dạ dày",
+      "Ung thư tuyến tiền liệt ở nam giới",
+      "Ung thư tế bào gan nguyên phát",
+      "Ung thư biểu mô đại trực tràng"
+    ]
+  },
+  {
+    "id": "BLIND-013",
+    "options": [
+      "Phosphatase kiềm (ALP)",
+      "PSA phức hợp (cPSA)",
+      "Phosphatase acid (PAP)",
+      "PSA tự do (fPSA)"
+    ]
+  },
+  {
+    "id": "BLIND-014",
+    "options": [
+      "Khối u thuộc nhóm biệt hóa trung bình - kém",
+      "Khối u thuộc nhóm biệt hóa kém (độ ác tính rất cao)",
+      "Khối u thuộc nhóm biệt hóa tốt (độ ác tính thấp)",
+      "Khối u thuộc nhóm biệt hóa trung bình"
+    ]
+  },
+  {
+    "id": "BLIND-015",
+    "options": [
+      "Tốc độ PSAV > 0,50 ng/ml/năm",
+      "Tốc độ PSAV > 1,50 ng/ml/năm",
+      "Tốc độ PSAV > 0,75 ng/ml/năm",
+      "Tốc độ PSAV > 0,25 ng/ml/năm"
+    ]
+  },
+  {
+    "id": "BLIND-016",
+    "options": [
+      "Tỷ lệ khỏi 50% ở giai đoạn sớm, sống sau 5 năm < 20% ở giai đoạn muộn",
+      "Tỷ lệ khỏi 85% ở giai đoạn sớm, sống sau 5 năm < 10% ở giai đoạn muộn",
+      "Tỷ lệ khỏi 90% ở giai đoạn sớm, sống sau 5 năm < 30% ở giai đoạn muộn",
+      "Tỷ lệ khỏi 70% ở giai đoạn sớm, sống sau 5 năm < 50% ở giai đoạn muộn"
+    ]
+  },
+  {
+    "id": "BLIND-017",
+    "options": [
+      "Mỡ động vật và các loại thịt đỏ nấu chín",
+      "Cà chua chín, đậu nành và nước trà xanh",
+      "Các sản phẩm từ bơ và sữa béo nguyên kem",
+      "Đồ uống có cồn và các loại thực phẩm cay nóng"
+    ]
+  },
+  {
+    "id": "BLIND-018",
+    "options": [
+      "Giai đoạn T1c",
+      "Giai đoạn T1b",
+      "Giai đoạn T1a",
+      "Giai đoạn Tis"
+    ]
+  },
+  {
+    "id": "BLIND-019",
+    "options": [
+      "Nhóm hạch thượng đòn bên trái (hạch Virchow)",
+      "Nhóm hạch hố bịt và các hạch chậu trong hai bên",
+      "Nhóm hạch trung thất và hạch rốn phổi",
+      "Nhóm hạch sau phúc mạc quanh động mạch chủ"
+    ]
+  },
+  {
+    "id": "BLIND-020",
+    "options": [
+      "Giai đoạn T2b",
+      "Giai đoạn T2a",
+      "Giai đoạn T2c",
+      "Giai đoạn T3a"
+    ]
+  },
+  {
+    "id": "BLIND-021",
+    "options": [
+      "Luôn có triệu chứng xuất tinh ra máu sớm",
+      "Hoàn toàn không có triệu chứng cơ năng",
+      "Luôn khởi phát bằng bí đái cấp tính đột ngột",
+      "Luôn xuất hiện hội chứng tắc nghẽn rầm rộ"
+    ]
+  },
+  {
+    "id": "BLIND-022",
+    "options": [
+      "Chụp niệu đồ tĩnh mạch đường tiểu (UIV)",
+      "Xạ hình xương sử dụng Technetium-99m",
+      "Siêu âm Doppler màu hệ tiết niệu",
+      "Chụp X-quang khung chậu thẳng"
+    ]
+  },
+  {
+    "id": "BLIND-023",
+    "options": [
+      "Tăng sản tuyến không điển hình",
+      "Tân sinh trong biểu mô độ 2 (PIN độ 2)",
+      "Tăng sản lành tính biểu mô tuyến",
+      "Tân sinh biểu mô độ 1 (PIN độ 1)"
+    ]
+  },
+  {
+    "id": "BLIND-024",
+    "options": [
+      "EBRT liều 50 - 55 Gy; hạt phóng xạ Coban-60 và Strontium-89",
+      "EBRT liều 70 - 78 Gy; hạt phóng xạ Iod-125 và Palladium-103",
+      "EBRT liều 60 - 65 Gy; hạt phóng xạ Technetium-99m và Iridi",
+      "EBRT liều 80 - 85 Gy; hạt phóng xạ Samarium-153 và Lutetium"
+    ]
+  },
+  {
+    "id": "BLIND-025",
+    "options": [
+      "Ung thư biệt hóa trung bình - kém (độ 3)",
+      "Ung thư biệt hóa trung bình (độ 2)",
+      "Ung thư biệt hóa kém (độ 4 - ác tính rất cao)",
+      "Ung thư biệt hóa rất tốt (độ 1)"
+    ]
+  },
+  {
+    "id": "BLIND-026",
+    "options": [
+      "Nồng độ tPSA <= 3,0 ng/ml",
+      "Nồng độ tPSA <= 4,0 ng/ml",
+      "Nồng độ tPSA <= 5,0 ng/ml",
+      "Nồng độ tPSA <= 2,5 ng/ml"
+    ]
+  },
+  {
+    "id": "BLIND-027",
+    "options": [
+      "Tỷ lệ sống không bệnh đạt 50% - 60%",
+      "Tỷ lệ sống không bệnh đạt 70% - 85%",
+      "Tỷ lệ sống không bệnh đạt 90% - 95%",
+      "Tỷ lệ sống không bệnh đạt 30% - 45%"
+    ]
+  },
+  {
+    "id": "BLIND-028",
+    "options": [
+      "Vùng giảm âm và PI-RADS 4-5",
+      "Vùng tăng âm và PI-RADS 1-2",
+      "Bóng cản âm và PI-RADS 1-2",
+      "Vùng đồng âm và PI-RADS 2-3"
+    ]
+  },
+  {
+    "id": "BLIND-029",
+    "options": [
+      "Ông nội hoặc bác ruột họ nội",
+      "Mẹ ruột hoặc chị em gái ruột",
+      "Bố đẻ hoặc anh em trai ruột",
+      "Bà ngoại hoặc dì ruột họ ngoại"
+    ]
+  },
+  {
+    "id": "BLIND-030",
+    "options": [
+      "Docetaxel + Prednisone kết hợp Abiraterone",
+      "5-Fluorouracil + Folinic acid kết hợp Goserelin",
+      "Doxorubicin + Cyclophosphamide kết hợp Bicalutamide",
+      "Cisplatin + Etoposide kết hợp Flutamide"
+    ]
+  },
+  {
+    "id": "BLIND-031",
+    "options": [
+      "Cắt hai tinh hoàn ngoại khoa và theo dõi tại nhà",
+      "Đặt sonde tiểu Foley và cho uống canxi bổ sung",
+      "Dexamethasone liều cao phối hợp giải ép hoặc xạ trị",
+      "Truyền Zoledronic acid và tập phục hồi chức năng"
+    ]
+  },
+  {
+    "id": "BLIND-032",
+    "options": [
+      "Đặt thông Double J hoặc mở thông thận qua da",
+      "Mổ mở cấp cứu cắt toàn bộ bàng quang",
+      "Truyền thuốc ức chế hủy xương Zoledronic acid",
+      "Chạy thận nhân tạo chu kỳ và tiêm Furosemid"
+    ]
+  },
+  {
+    "id": "BLIND-033",
+    "options": [
+      "Uống thuốc kháng androgen che phủ (Bicalutamide)",
+      "Chỉ định xạ trị ngoài toàn thân liều cao",
+      "Phối hợp hóa trị Docetaxel + Prednisone",
+      "Cắt hai tinh hoàn ngoại khoa phối hợp"
+    ]
+  },
+  {
+    "id": "BLIND-034",
+    "options": [
+      "Hạ Testosterone < 50 ng/dL sau 24 giờ",
+      "Hạ Testosterone < 50 ng/dL sau 3 - 6 tháng",
+      "Hạ Testosterone < 50 ng/dL sau 1 - 2 tháng",
+      "Hạ Testosterone < 50 ng/dL sau 2 - 3 tuần"
+    ]
+  },
+  {
+    "id": "BLIND-035",
+    "options": [
+      "Giai đoạn T2a",
+      "Giai đoạn T1b",
+      "Giai đoạn T1a",
+      "Giai đoạn T1c"
+    ]
+  },
+  {
+    "id": "BLIND-036",
+    "options": [
+      "Tổn thương suy tế bào gan cấp",
+      "Phản ứng viêm tuyến tiền liệt cấp",
+      "Di căn xương thể tạo xương",
+      "Hoại tử niêm mạc bàng quang"
+    ]
+  },
+  {
+    "id": "BLIND-037",
+    "options": [
+      "Thực hiện bấm kim lấy mẫu mô",
+      "Cắt hai tinh hoàn ngoại khoa cấp",
+      "Theo dõi tích cực (Active Surveillance)",
+      "Điều trị kháng sinh theo kinh nghiệm"
+    ]
+  },
+  {
+    "id": "BLIND-038",
+    "options": [
+      "Giai đoạn di căn vào xương (M1b)",
+      "Giai đoạn di căn vào các tạng khác (M1c)",
+      "Giai đoạn di căn hạch ngoài chậu (M1a)",
+      "Giai đoạn di căn hạch vùng (N1)"
+    ]
+  },
+  {
+    "id": "BLIND-039",
+    "options": [
+      "Bấm 20 đến 24 vị trí mẫu mô",
+      "Bấm 2 đến 4 vị trí mẫu mô",
+      "Bấm 14 đến 18 vị trí mẫu mô",
+      "Bấm 6 đến 12 vị trí mẫu mô"
+    ]
+  },
+  {
+    "id": "BLIND-040",
+    "options": [
+      "Lấy tổng điểm của bốn mẫu đại diện",
+      "Lấy tổng điểm của hai mẫu đại diện",
+      "Lấy tổng điểm của một mẫu mô",
+      "Lấy tổng điểm của ba mẫu đại diện"
+    ]
+  },
+  {
+    "id": "BLIND-041",
+    "options": [
+      "Thân hai xương đùi",
+      "Khung xương chậu",
+      "Cột sống thắt lưng",
+      "Cột sống đoạn ngực"
+    ]
+  },
+  {
+    "id": "BLIND-042",
+    "options": [
+      "Tỷ lệ mắc trên lâm sàng là 2,2%",
+      "Tỷ lệ mắc trên lâm sàng là 13,7%",
+      "Tỷ lệ mắc trên tử thiết là 20%",
+      "Tỷ lệ mắc trên tử thiết là 50%"
+    ]
+  },
+  {
+    "id": "BLIND-043",
+    "options": [
+      "Giai đoạn T3a",
+      "Giai đoạn T4",
+      "Giai đoạn T3b",
+      "Giai đoạn T2c"
+    ]
+  },
+  {
+    "id": "BLIND-044",
+    "options": [
+      "Đám rối tĩnh mạch Batson",
+      "Đám rối tĩnh mạch trực tràng",
+      "Đám rối tĩnh mạch bàng quang",
+      "Đám rối tĩnh mạch Santorini"
+    ]
+  }
+]

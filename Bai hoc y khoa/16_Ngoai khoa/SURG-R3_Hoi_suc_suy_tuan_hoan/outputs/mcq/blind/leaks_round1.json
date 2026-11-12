@@ -1,0 +1,150 @@
+{
+  "SURGR3-A15": {
+    "conf": 3,
+    "reason": "Option 0 (Huyết áp tâm thu < 90 – 100 mmHg, huyết áp kẹp, hoặc giảm > 30% so với huyết áp nền) is the classic clinical definition criteria for shock/hypotension in surgical resuscitation."
+  },
+  "SURGR3-A01": {
+    "conf": 3,
+    "reason": "Option 1 (VES = EDV − ESV) is the correct physiological formula for stroke volume (thể tích nhát bóp)."
+  },
+  "SURGR3-A08": {
+    "conf": 2,
+    "reason": "Option 3 (Hạ thân nhiệt nặng, thiếu oxy giai đoạn cuối, thừa CO2 giai đoạn đầu) reflects typical surgical shock/arrest pathophysiological conditions."
+  },
+  "SURGR3-B21": {
+    "conf": 3,
+    "reason": "Option 2 ('Không sốc điện, tiếp tục ép tim liên tục, tiêm Adrenaline 1mg TM mỗi 3 – 5 phút, tìm sửa chữa 5T & 5H') is the standard ACLS protocol for non-shockable rhythms (PEA/asystole)."
+  },
+  "SURGR3-B13": {
+    "conf": 3,
+    "reason": "Option 2 ('Cố định ổ gãy bằng nẹp Thomas và giảm đau') is the essential, correct initial emergency maneuver for femur fracture to prevent/manage neurogenic/hemorrhagic shock."
+  },
+  "SURGR3-A11": {
+    "conf": 3,
+    "reason": "Option 3 ('Tiêm tĩnh mạch quá nhanh ion Calci (Ca2+) hoặc Kali (K+)') is a well-known iatrogenic cause of cardiac arrest / severe arrhythmia."
+  },
+  "SURGR3-B10": {
+    "conf": 3,
+    "reason": "Option 0 ('Thất bại bù dịch do giảm co bóp cơ tim hoặc giãn mạch -> Dùng thuốc vận mạch/tăng co bóp') is the standard clinical interpretation and next management step when fluid challenge fails."
+  },
+  "SURGR3-B15": {
+    "conf": 3,
+    "reason": "Option 1 ('Ngừng truyền dịch ngay lập tức, tiêm Furosemide tĩnh mạch và hỗ trợ hô hấp') is the standard treatment for acute fluid overload / pulmonary edema."
+  },
+  "SURGR3-B20": {
+    "conf": 3,
+    "reason": "Option 1 ('Sốc điện phá rung ngay lập tức (1 pha 360J hoặc 2 pha 150 – 200J) -> Ép tim ngay 2 phút') matches exact ACLS guideline wording for VF/pVT."
+  },
+  "SURGR3-B08": {
+    "conf": 3,
+    "reason": "Option 1 ('Tiếp tục bù dịch nhanh vì CVP < 8 cmH2O phản ánh thể tích tuần hoàn chưa đủ') matches standard CVP-guided fluid resuscitation protocol."
+  },
+  "SURGR3-B02": {
+    "conf": 3,
+    "reason": "Option 2 ('Dịch tinh thể đẳng trương như Ringer Lactat hoặc NaCl 0,9%') is universally the first-line resuscitation fluid in shock."
+  },
+  "SURGR3-B19": {
+    "conf": 3,
+    "reason": "Option 1 ('Ép tim liên tục 100 lần/phút và bóp bóng 8 – 10 lần/phút không ngừng ép tim') is the standard guideline when advanced airway is in place."
+  },
+  "SURGR3-B11": {
+    "conf": 3,
+    "reason": "Option 0 ('Norepinephrine, Dobutamine, Dopamine, Adrenaline') is the correct group of vasoactive/inotropic agents used in circulatory shock."
+  },
+  "SURGR3-A02": {
+    "conf": 2,
+    "reason": "Option 2 ('5,20 lít/phút') is a standard physiological cardiac output value (normal resting ~5 L/min, e.g. 70 bpm * 75 ml = 5.25 L/min)."
+  },
+  "SURGR3-B09": {
+    "conf": 3,
+    "reason": "Option 3 ('Nhận định đã đủ thể tích, tiến hành giảm tốc độ và ngừng truyền dịch nhanh') represents safe, balanced clinical judgment in response to fluid responsiveness testing."
+  },
+  "SURGR3-A07": {
+    "conf": 2,
+    "reason": "Option 0 ('Tăng tiết Aldosterone hoặc ADH thứ phát do tổn thương trục dưới đồi') is the physiological neuroendocrine compensatory mechanism for fluid retention."
+  },
+  "SURGR3-B17": {
+    "conf": 3,
+    "reason": "Option 1 ('Tỷ lệ 30 lần ép tim : 2 lần thổi ngạt') is the universal CPR compression-to-ventilation ratio for adults."
+  },
+  "SURGR3-A10": {
+    "conf": 3,
+    "reason": "Option 2 ('Cản trở cơ học hồi lưu máu về tim (sốc tắc nghẽn do chèn ép tim cấp)') is the definition/mechanism of obstructive shock / cardiac tamponade."
+  },
+  "SURGR3-B07": {
+    "conf": 3,
+    "reason": "Option 0 or 2: In surgical shock/trauma, standard transfusion threshold is Hb >= 70-80 or maintaining Hb >= 90 g/L (9 g/dL) and Hct >= 25-30% in surgical resuscitation."
+  },
+  "SURGR3-A17": {
+    "conf": 3,
+    "reason": "Option 2 ('Quá tải tuần hoàn hoặc chèn ép tim cấp hoặc suy tim ứ trệ') correctly groups clinical conditions associated with elevated central venous pressure."
+  },
+  "SURGR3-A20": {
+    "conf": 3,
+    "reason": "Option 3 ('Phản ánh tình trạng chuyển hóa yếm khí do thiếu máu tưới mô nặng nề') is the universal textbook clinical significance of elevated blood lactate in shock."
+  },
+  "SURGR3-A21": {
+    "conf": 3,
+    "reason": "Option 0 ('pH < 7,35; HCO3- < 22 mmol/L; BE < -3 mmol/L') represents metabolic acidosis, the classic acid-base disturbance in shock."
+  },
+  "SURGR3-A19": {
+    "conf": 3,
+    "reason": "Option 3 ('Hb và Hct giảm muộn hơn sau khi bù dịch trong mất máu cấp, nhưng tăng cao ngay do cô đặc máu trong mất nước') is the textbook diagnostic trap regarding Hb/Hct in acute hemorrhage vs dehydration."
+  },
+  "SURGR3-B16": {
+    "conf": 3,
+    "reason": "Option 1 ('Chỉ định lọc máu ngoài thận cấp cứu vì suy thận kèm quá tải dịch trơ với lợi tiểu') is standard indication for urgent hemodialysis."
+  },
+  "SURGR3-A05": {
+    "conf": 3,
+    "reason": "Option 3 ('Gãy xương chậu, gãy xương lớn hoặc chấn thương vỡ tạng đặc') are the classic causes of severe hypovolemic/hemorrhagic shock in surgery."
+  },
+  "SURGR3-B01": {
+    "conf": 3,
+    "reason": "Option 2 ('Đặt ngay ít nhất 2 đường truyền tĩnh mạch lớn với cỡ kim 14G – 16G') is the golden rule of vascular access in shock resuscitation (ATLS)."
+  },
+  "SURGR3-A04": {
+    "conf": 3,
+    "reason": "Option 0 ('Thời gian tâm trương rút ngắn khiến thất không kịp đổ đầy và tưới máu vành suy giảm') is the physiological mechanism explaining why severe tachycardia causes circulatory failure."
+  },
+  "SURGR3-A03": {
+    "conf": 3,
+    "reason": "Option 3 ('Áp lực tĩnh mạch trung tâm (CVP / PVC), bình thường từ 8 – 12 cmH2O') or option 0/1/2: CVP is the most ubiquitous parameter monitored in surgical ICU shock."
+  },
+  "SURGR3-B14": {
+    "conf": 3,
+    "reason": "Option 1 ('Hb > 90 g/L (kèm Hct > 25 - 30%)') or Option 0 ('Hb > 100 g/L'): 90-100 g/L is the common surgical target."
+  },
+  "SURGR3-B03": {
+    "conf": 3,
+    "reason": "Option 2 ('2100 ml dịch tinh thể đẳng trương'): 3:1 rule for 700ml blood loss = 700 * 3 = 2100 ml crystalloids."
+  },
+  "SURGR3-B05": {
+    "conf": 3,
+    "reason": "Option 0 ('Mốc 30% khối lượng tuần hoàn') is the boundary where compensatory mechanisms fail and decompensated shock (grade III) sets in."
+  },
+  "SURGR3-A14": {
+    "conf": 3,
+    "reason": "Option 0 ('Bệnh nhân đang rơi vào tình trạng suy tuần hoàn giảm tưới máu mô') is the primary clinical interpretation matching the theme of this shock module."
+  },
+  "SURGR3-B18": {
+    "conf": 3,
+    "reason": "Option 3 ('Ép sâu 5 cm, tần số 100 – 120 lần/phút, để lồng ngực dãn nở tối đa sau mỗi lần ép') is the exact AHA/ERC CPR high-quality chest compression standard."
+  },
+  "SURGR3-A18": {
+    "conf": 3,
+    "reason": "Option 0 ('Lượng nước tiểu < 0,5 ml/kg/giờ kèm tỷ trọng nước tiểu tăng cao') is the classic oliguria definition indicating renal hypoperfusion."
+  },
+  "SURGR3-A13": {
+    "conf": 3,
+    "reason": "Option 1 ('Tắc động mạch phổi diện rộng do huyết khối') is the acute surgical obstructive shock emergency among the listed options."
+  },
+  "SURGR3-B12": {
+    "conf": 3,
+    "reason": "Option 3 ('Phải song song hồi sức và đưa ngay vào phòng mổ để thắt mạch, khâu tạng vỡ hoặc can thiệp DSA') is the core surgical principle of damage control resuscitation for active hemorrhage."
+  },
+  "SURGR3-B06": {
+    "conf": 3,
+    "reason": "Option 1 ('Chỉ định truyền máu và các chế phẩm máu phối hợp bù dịch') is the indicated strategy for severe hemorrhagic shock (grade III/IV)."
+  }
+}

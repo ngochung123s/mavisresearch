@@ -1,0 +1,618 @@
+{
+  "BLIND-001": {
+    "orig_id": "SURG20B-A24",
+    "perm": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "orig_correct": 0,
+    "blind_correct": 2
+  },
+  "BLIND-002": {
+    "orig_id": "SURG20B-B14",
+    "perm": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "orig_correct": 0,
+    "blind_correct": 2
+  },
+  "BLIND-003": {
+    "orig_id": "SURG20B-B17",
+    "perm": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "orig_correct": 0,
+    "blind_correct": 3
+  },
+  "BLIND-004": {
+    "orig_id": "SURG20B-B01",
+    "perm": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "orig_correct": 1,
+    "blind_correct": 0
+  },
+  "BLIND-005": {
+    "orig_id": "SURG20B-A26",
+    "perm": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-006": {
+    "orig_id": "SURG20B-B12",
+    "perm": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-007": {
+    "orig_id": "SURG20B-A06",
+    "perm": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 1
+  },
+  "BLIND-008": {
+    "orig_id": "SURG20B-B28",
+    "perm": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "orig_correct": 0,
+    "blind_correct": 0
+  },
+  "BLIND-009": {
+    "orig_id": "SURG20B-A17",
+    "perm": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "orig_correct": 0,
+    "blind_correct": 0
+  },
+  "BLIND-010": {
+    "orig_id": "SURG20B-A11",
+    "perm": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 1
+  },
+  "BLIND-011": {
+    "orig_id": "SURG20B-A02",
+    "perm": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "orig_correct": 3,
+    "blind_correct": 1
+  },
+  "BLIND-012": {
+    "orig_id": "SURG20B-A14",
+    "perm": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "orig_correct": 3,
+    "blind_correct": 0
+  },
+  "BLIND-013": {
+    "orig_id": "SURG20B-B15",
+    "perm": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-014": {
+    "orig_id": "SURG20B-B26",
+    "perm": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "orig_correct": 2,
+    "blind_correct": 1
+  },
+  "BLIND-015": {
+    "orig_id": "SURG20B-A19",
+    "perm": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "orig_correct": 2,
+    "blind_correct": 3
+  },
+  "BLIND-016": {
+    "orig_id": "SURG20B-A16",
+    "perm": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-017": {
+    "orig_id": "SURG20B-B22",
+    "perm": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 2
+  },
+  "BLIND-018": {
+    "orig_id": "SURG20B-B21",
+    "perm": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "orig_correct": 0,
+    "blind_correct": 3
+  },
+  "BLIND-019": {
+    "orig_id": "SURG20B-A23",
+    "perm": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "orig_correct": 0,
+    "blind_correct": 3
+  },
+  "BLIND-020": {
+    "orig_id": "SURG20B-A25",
+    "perm": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 0
+  },
+  "BLIND-021": {
+    "orig_id": "SURG20B-A05",
+    "perm": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "orig_correct": 2,
+    "blind_correct": 3
+  },
+  "BLIND-022": {
+    "orig_id": "SURG20B-B08",
+    "perm": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "orig_correct": 3,
+    "blind_correct": 3
+  },
+  "BLIND-023": {
+    "orig_id": "SURG20B-B23",
+    "perm": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "orig_correct": 1,
+    "blind_correct": 1
+  },
+  "BLIND-024": {
+    "orig_id": "SURG20B-B09",
+    "perm": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "orig_correct": 2,
+    "blind_correct": 1
+  },
+  "BLIND-025": {
+    "orig_id": "SURG20B-A27",
+    "perm": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 2
+  },
+  "BLIND-026": {
+    "orig_id": "SURG20B-A08",
+    "perm": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "orig_correct": 3,
+    "blind_correct": 3
+  },
+  "BLIND-027": {
+    "orig_id": "SURG20B-A10",
+    "perm": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-028": {
+    "orig_id": "SURG20B-B24",
+    "perm": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "orig_correct": 3,
+    "blind_correct": 2
+  },
+  "BLIND-029": {
+    "orig_id": "SURG20B-B27",
+    "perm": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "orig_correct": 3,
+    "blind_correct": 1
+  },
+  "BLIND-030": {
+    "orig_id": "SURG20B-A04",
+    "perm": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "orig_correct": 1,
+    "blind_correct": 0
+  },
+  "BLIND-031": {
+    "orig_id": "SURG20B-A03",
+    "perm": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "orig_correct": 3,
+    "blind_correct": 2
+  },
+  "BLIND-032": {
+    "orig_id": "SURG20B-A22",
+    "perm": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "orig_correct": 1,
+    "blind_correct": 1
+  },
+  "BLIND-033": {
+    "orig_id": "SURG20B-A18",
+    "perm": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "orig_correct": 0,
+    "blind_correct": 3
+  },
+  "BLIND-034": {
+    "orig_id": "SURG20B-B11",
+    "perm": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 1
+  },
+  "BLIND-035": {
+    "orig_id": "SURG20B-A20",
+    "perm": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "orig_correct": 2,
+    "blind_correct": 1
+  },
+  "BLIND-036": {
+    "orig_id": "SURG20B-B05",
+    "perm": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 2
+  },
+  "BLIND-037": {
+    "orig_id": "SURG20B-A01",
+    "perm": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-038": {
+    "orig_id": "SURG20B-A21",
+    "perm": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "orig_correct": 2,
+    "blind_correct": 3
+  },
+  "BLIND-039": {
+    "orig_id": "SURG20B-B10",
+    "perm": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "orig_correct": 3,
+    "blind_correct": 3
+  },
+  "BLIND-040": {
+    "orig_id": "SURG20B-B16",
+    "perm": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-041": {
+    "orig_id": "SURG20B-B13",
+    "perm": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "orig_correct": 3,
+    "blind_correct": 3
+  },
+  "BLIND-042": {
+    "orig_id": "SURG20B-A09",
+    "perm": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "orig_correct": 3,
+    "blind_correct": 0
+  },
+  "BLIND-043": {
+    "orig_id": "SURG20B-B20",
+    "perm": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "orig_correct": 1,
+    "blind_correct": 2
+  },
+  "BLIND-044": {
+    "orig_id": "SURG20B-A13",
+    "perm": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-045": {
+    "orig_id": "SURG20B-B25",
+    "perm": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-046": {
+    "orig_id": "SURG20B-A12",
+    "perm": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "orig_correct": 1,
+    "blind_correct": 2
+  },
+  "BLIND-047": {
+    "orig_id": "SURG20B-B06",
+    "perm": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "orig_correct": 1,
+    "blind_correct": 1
+  },
+  "BLIND-048": {
+    "orig_id": "SURG20B-A15",
+    "perm": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "orig_correct": 1,
+    "blind_correct": 3
+  },
+  "BLIND-049": {
+    "orig_id": "SURG20B-B18",
+    "perm": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "orig_correct": 2,
+    "blind_correct": 2
+  },
+  "BLIND-050": {
+    "orig_id": "SURG20B-B02",
+    "perm": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-051": {
+    "orig_id": "SURG20B-B04",
+    "perm": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "orig_correct": 0,
+    "blind_correct": 3
+  },
+  "BLIND-052": {
+    "orig_id": "SURG20B-B07",
+    "perm": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "orig_correct": 2,
+    "blind_correct": 2
+  },
+  "BLIND-053": {
+    "orig_id": "SURG20B-A07",
+    "perm": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "orig_correct": 2,
+    "blind_correct": 0
+  },
+  "BLIND-054": {
+    "orig_id": "SURG20B-B19",
+    "perm": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "orig_correct": 3,
+    "blind_correct": 3
+  },
+  "BLIND-055": {
+    "orig_id": "SURG20B-B03",
+    "perm": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "orig_correct": 3,
+    "blind_correct": 2
+  },
+  "BLIND-056": {
+    "orig_id": "SURG20B-A28",
+    "perm": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "orig_correct": 0,
+    "blind_correct": 2
+  }
+}

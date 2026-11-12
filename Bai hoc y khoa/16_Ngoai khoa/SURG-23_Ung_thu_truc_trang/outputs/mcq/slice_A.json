@@ -1,0 +1,484 @@
+{
+  "questions": [
+    {
+      "id": "SURG23-A01",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Gánh nặng dịch tễ học toàn cầu theo GLOBOCAN 2018",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §1",
+      "text": "Theo số liệu dịch tễ học trong giáo trình ung bướu, ung thư trực tràng có tỷ lệ mắc cao nhất và thấp nhất theo khu vực địa lý lần lượt là ở đâu?",
+      "options": [
+        "Cao nhất ở Úc, New Zealand và thấp nhất ở Châu Phi",
+        "Cao nhất ở Tây Phi và thấp nhất ở Châu Âu, Bắc Mỹ",
+        "Cao nhất ở Đông Á và thấp nhất ở các nước Nam Mỹ",
+        "Cao nhất ở Bắc Âu và thấp nhất ở các nước Trung Á"
+      ],
+      "correct": 0,
+      "explanation": "Theo thống kê GLOBOCAN 2018 trong barem §1, ung thư trực tràng có khoảng 704.376 trường hợp mới mắc (chiếm 3,9%), đứng hàng thứ 8 và 310.394 trường hợp tử vong (chiếm 3,2%), đứng hàng thứ 9 trong các bệnh ung thư.",
+      "option_explanations": [
+        "Đúng — theo GLOBOCAN 2018 trích dẫn trong barem: 704.376 ca mới mắc (3,9%, thứ 8) và 310.394 ca tử vong (3,2%, thứ 9).",
+        "Sai — số liệu thấp hơn thực tế ghi nhận của GLOBOCAN 2018 đối với ung thư trực tràng.",
+        "Sai — số liệu cao hơn thực tế ghi nhận của GLOBOCAN 2018 đối với ung thư trực tràng.",
+        "Sai — số liệu này gần với toàn bộ ung thư đại trực tràng nói chung chứ không riêng trực tràng."
+      ]
+    },
+    {
+      "id": "SURG23-A02",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Thứ hạng phổ biến theo giới và tiên lượng sống 5 năm",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §1",
+      "text": "Một hội đồng ung bướu thảo luận về gánh nặng bệnh tật theo giới tính và hiệu quả điều trị sớm của ung thư trực tràng theo hướng dẫn NCCN.\nNhận định nào sau đây phản ánh đúng thứ hạng phổ biến theo giới và tỷ lệ sống thêm 5 năm khi phát hiện sớm?",
+      "options": [
+        "Đứng thứ 2 ở nam, thứ 4 ở nữ; phát hiện sớm điều trị triệt để đạt tỷ lệ sống 5 năm từ 50 - 70% nói chung",
+        "Đứng thứ 3 ở nam, thứ 2 ở nữ; phát hiện sớm điều trị triệt để đạt tỷ lệ sống 5 năm 40 - 60%",
+        "Đứng thứ 4 ở nam, thứ 3 ở nữ; phát hiện sớm điều trị triệt để đạt tỷ lệ sống 5 năm 60 - 90%",
+        "Đứng thứ 5 ở nam, thứ 4 ở nữ; phát hiện sớm điều trị triệt để đạt tỷ lệ sống 5 năm 70 - 95% "
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §1, ung thư trực tràng phổ biến thứ 4 ở nam giới và thứ 3 ở nữ giới. Nếu phát hiện sớm và điều trị triệt để theo NCCN, tỷ lệ sống trên 5 năm đạt từ 60 - 90%.",
+      "option_explanations": [
+        "Sai — thứ tự theo giới và tỷ lệ sống 5 năm không đúng với số liệu barem.",
+        "Sai — thứ bậc theo giới bị đảo ngược và tỷ lệ sống 5 năm thấp hơn thực tế trong barem.",
+        "Đúng — theo barem §1: đứng thứ 4 ở nam giới, thứ 3 ở nữ giới và phát hiện sớm điều trị triệt để sống 5 năm đạt 60 - 90%.",
+        "Sai — thứ bậc theo giới không khớp số liệu barem §1."
+      ]
+    },
+    {
+      "id": "SURG23-A03",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Phân đoạn trực tràng theo Hội phẫu thuật viên Đại trực tràng Hoa Kỳ",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-23 §2.1",
+      "text": "Trong hội chẩn phẫu thuật, các phẫu thuật viên xác định vị trí khối u theo phân đoạn 15 cm tính từ rìa hậu môn.\nKhoảng cách từ bờ dưới khối u đến rìa hậu môn của đoạn trực tràng 1/3 trên được xác định là bao nhiêu?",
+      "options": [
+        "Bờ dưới u cách rìa hậu môn từ 16 - 20 cm và nằm trong khoang ổ phúc mạc lớn",
+        "Bờ dưới u cách rìa hậu môn từ 11 - 15 cm, có phúc mạc phủ mặt trước và 2 bên",
+        "Bờ dưới u cách rìa hậu môn từ 6 - 10 cm, nằm ở phần dưới nếp gấp phúc mạc tiểu khung",
+        "Bờ dưới u cách rìa hậu môn dưới 6 cm, tiếp giáp trực tiếp với bộ máy cơ thắt hậu môn"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §2.1: Trực tràng dài 15 cm tính từ rìa hậu môn. Đoạn 1/3 trên (UTTT cao) cách rìa hậu môn 11 - 15 cm, phần lớn có phúc mạc che phủ mặt trước và hai bên. Đoạn 1/3 giữa cách 6 - 10 cm, đoạn 1/3 dưới cách < 6 cm.",
+      "option_explanations": [
+        "Sai — khoảng cách 16 - 20 cm thuộc về đoạn đại tràng chậu hông (xích ma).",
+        "Đúng — theo barem §2.1: UTTT 1/3 trên (UTTT cao) có bờ dưới cách rìa hậu môn 11 - 15 cm, phần lớn có phúc mạc che phủ mặt trước và hai bên.",
+        "Sai — đây là mốc định vị của đoạn 1/3 giữa (6 - 10 cm).",
+        "Sai — đây là mốc định vị của đoạn 1/3 dưới (< 6 cm)."
+      ]
+    },
+    {
+      "id": "SURG23-A04",
+      "type": "vignette",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Phân đoạn trực tràng 1/3 giữa",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-23 §2.1",
+      "text": "Bệnh nhân nam 58 tuổi nội soi phát hiện tổn thương sùi ở trực tràng với bờ dưới u cách rìa hậu môn 8 cm.\nVị trí khối u của bệnh nhân nằm ở phân đoạn giải phẫu nào?",
+      "options": [
+        "Đoạn 1/3 trên (cách rìa hậu môn 11 - 15 cm)",
+        "Đoạn đại tràng xích ma (cách rìa trên 15 cm)",
+        "Đoạn 1/3 dưới (cách rìa hậu môn dưới 6 cm)",
+        "Đoạn 1/3 giữa (cách rìa hậu môn từ 6 - 10 cm)"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem §2.1: UTTT 1/3 giữa có bờ dưới khối u cách rìa hậu môn từ 6 - 10 cm. Khối u cách rìa 8 cm thuộc đoạn này.",
+      "option_explanations": [
+        "Sai — đoạn 1/3 trên ứng với bờ dưới u cách rìa hậu môn từ 11 - 15 cm.",
+        "Sai — đoạn trên 15 cm thuộc đại tràng chậu hông (xích ma).",
+        "Sai — đoạn 1/3 dưới ứng với bờ dưới u cách rìa hậu môn dưới 6 cm.",
+        "Đúng — khoảng cách 8 cm nằm trong khoảng 6 - 10 cm thuộc đoạn 1/3 giữa (UTTT giữa)."
+      ]
+    },
+    {
+      "id": "SURG23-A05",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Sinh lý cơ thắt hậu môn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §2.2",
+      "text": "Trong cơ chế sinh lý đại tiện, cấu trúc cơ nào chịu trách nhiệm co thắt theo ý muốn của vỏ não?",
+      "options": [
+        "Cơ thắt trong (cơ trơn tự chủ)",
+        "Cơ nâng hậu môn (cơ vân đáy chậu)",
+        "Cơ thắt ngoài (cơ vân theo ý muốn)",
+        "Cơ mu - trực tràng (vòng cơ vân)"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §2.2: Quá trình đại tiện diễn ra nhờ sự giãn mở của cơ thắt trong (cơ trơn tự chủ) cùng cơ thắt ngoài (cơ vân theo ý muốn).",
+      "option_explanations": [
+        "Đúng — cơ thắt trong là cơ trơn co thắt tự chủ không theo ý muốn.",
+        "Sai — cơ nâng hậu môn là cơ vân nâng sàn chậu.",
+        "Sai — cơ thắt ngoài là cơ vân hoạt động theo ý muốn.",
+        "Sai — cơ mu - trực tràng là cơ vân tạo góc trực tràng - hậu môn."
+      ]
+    },
+    {
+      "id": "SURG23-A06",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Chế độ ăn và vi chất sinh ung thư trực tràng",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §3.1",
+      "text": "Theo sinh bệnh học ung thư trực tràng, yếu tố dinh dưỡng nào sau đây là yếu tố nguy cơ sinh ung thư hàng đầu theo barem?",
+      "options": [
+        "Khẩu phần ăn nhiều chất xơ hòa tan",
+        "Chế độ ăn nhiều mỡ động vật và đạm",
+        "Bổ sung hàm lượng canxi vượt chuẩn",
+        "Thường xuyên ăn ngũ cốc nguyên hạt"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §3.1: Các yếu tố dinh dưỡng làm tăng nguy cơ gồm thiếu hụt các vitamin A, B, C, E và thiếu canxi kết hợp với chế độ ăn nhiều mỡ, nhiều đạm, ít xơ.",
+      "option_explanations": [
+        "Sai — vitamin D, K và magie không phải là nhóm vi chất được nêu trong barem.",
+        "Sai — vitamin B12, acid folic và kẽm không phải là nhóm vi chất được nêu trong barem.",
+        "Sai — vitamin B1, B6 và selen không phải là nhóm vi chất được nêu trong barem.",
+        "Đúng — theo barem §3.1: thiếu hụt các vitamin A, B, C, E và thiếu canxi."
+      ]
+    },
+    {
+      "id": "SURG23-A07",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Đặc điểm polyp tăng sản",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §3.2",
+      "text": "Tổn thương polyp nội soi đại trực tràng chiếm 90% số lượng, kích thước nhỏ dưới 5 mm và không có nguy cơ chuyển dạng ác tính.\nTổn thương này thuộc phân loại mô bệnh học nào sau đây?",
+      "options": [
+        "Polyp tăng sản (Hyperplastic polyp) lành tính",
+        "Polyp tuyến ống (Tubular adenoma) có cuống",
+        "Polyp tuyến nhung mao (Villous adenoma)",
+        "Polyp tuyến ống - nhung mao kết hợp chung"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem §3.2: Polyp tăng sản chiếm 90%, kích thước < 5mm, không có nguy cơ chuyển dạng ác tính.",
+      "option_explanations": [
+        "Đúng — theo barem §3.2: polyp tăng sản chiếm 90%, kích thước < 5mm, không có nguy cơ chuyển dạng ác tính.",
+        "Sai — polyp tuyến ống là một dạng polyp tuyến (10%) có nguy cơ ác tính.",
+        "Sai — polyp tuyến nhung mao có nguy cơ ác tính cao nhất, đặc biệt khi > 2cm.",
+        "Sai — polyp tuyến ống - nhung mao là dạng hỗn hợp có nguy cơ ác tính."
+      ]
+    },
+    {
+      "id": "SURG23-A08",
+      "type": "vignette",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Tỷ lệ ác tính của polyp nhung mao trực tràng >2cm",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-23 §3.2",
+      "text": "Bệnh nhân nữ 64 tuổi nội soi trực tràng phát hiện tổn thương polyp nhung mao không có cuống với kích thước đo được 2,5 cm.\nTỷ lệ nguy cơ chuyển dạng ác tính của loại tổn thương này theo bài học là bao nhiêu?",
+      "options": [
+        "Nguy cơ ác tính khoảng 5 - 10%",
+        "Nguy cơ ác tính khoảng 20 - 30%",
+        "Nguy cơ ác tính khoảng 40 - 50%",
+        "Nguy cơ ác tính rất cao khoảng 70 - 85%"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §3.2: Polyp nhung mao tập trung chủ yếu ở trực tràng, không có cuống, nguy cơ ác tính cao nhất; khi kích thước > 2cm tỷ lệ ác tính tới 40 - 50%.",
+      "option_explanations": [
+        "Sai — mức 5 - 10% là tỷ lệ ác tính của polyp tuyến ống nhỏ có cuống.",
+        "Sai — mức 20 - 30% chưa đạt mức nguy cơ của polyp nhung mao > 2cm.",
+        "Đúng — theo barem §3.2: polyp nhung mao trực tràng không cuống kích thước > 2cm có tỷ lệ ác tính 40 - 50%.",
+        "Sai — mức 70 - 85% cao hơn mức ghi nhận trong bài giảng."
+      ]
+    },
+    {
+      "id": "SURG23-A09",
+      "type": "concept",
+      "topic": "Đại cương, Giải phẫu & Bệnh sinh",
+      "subtopic": "Đột biến gen trong FAP",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §3.2",
+      "text": "Bệnh nhân được chẩn đoán Hội chứng Lynch (HNPCC). Bất thường di truyền đặc trưng của hội chứng này là đột biến ở nhóm gen nào sau đây?",
+      "options": [
+        "Đột biến gen sửa chữa DNA (mismatch repair)",
+        "Đột biến gen APC nằm trên nhiễm sắc thể 5q21",
+        "Đột biến gen ức chế ung thư TP53 trên NST 17p",
+        "Đột biến gen K-ras ở vị trí codon 12 và 13"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem §3.2: Bệnh đa polyp tuyến gia đình (FAP - Gardner, Turcot) do đột biến gen APC trên nhiễm sắc thể 5q21.",
+      "option_explanations": [
+        "Sai — đột biến gen sửa chữa sai lệch DNA (mismatch repair) là của hội chứng Lynch (HNPCC).",
+        "Đúng — theo barem §3.2: FAP do đột biến gen APC trên nhiễm sắc thể 5q21.",
+        "Sai — gen TP53 trên 17p liên quan hội chứng Li-Fraumeni.",
+        "Sai — K-ras là đột biến soma theo con nguyên sinh ung sinh học phân tử."
+      ]
+    },
+    {
+      "id": "SURG23-A10",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Tỷ lệ thể carcinoid theo WHO 2000",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §4.1",
+      "text": "Theo phân loại mô bệnh học vi thể của WHO 2000 đối với ung thư trực tràng, thể u carcinoid thần kinh nội tiết chiếm tỷ lệ bao nhiêu?",
+      "options": [
+        "Chiếm tỷ lệ 0,3% tổng số ca",
+        "Chiếm tỷ lệ 0,4% tổng số ca",
+        "Chiếm tỷ lệ 1,3% tổng số ca ",
+        "Chiếm tỷ lệ 98,0% tổng số ca"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §4.1: U carcinoid thần kinh nội tiết chiếm 0,4%; trong khi sarcoma chiếm 0,3%, lymphoma chiếm 1,3%, ung thư biểu mô tuyến chiếm 98%.",
+      "option_explanations": [
+        "Sai — 0,3% là tỷ lệ của sarcoma mô liên kết theo WHO 2000.",
+        "Đúng — theo barem §4.1: u carcinoid thần kinh nội tiết chiếm 0,4%.",
+        "Sai — 1,3% là tỷ lệ của lymphoma theo WHO 2000.",
+        "Sai — 98% là tỷ lệ của ung thư biểu mô tuyến (Adenocarcinoma)."
+      ]
+    },
+    {
+      "id": "SURG23-A11",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Độ biệt hóa mô học theo Morson 1976",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §4.1",
+      "text": "Theo phân loại độ biệt hóa mô học Morson 1976 trong ung thư trực tràng, thể ung thư biệt hóa vừa (moderately differentiated) chiếm tỷ lệ bao nhiêu?",
+      "options": [
+        "Chiếm tỷ lệ 20% các trường hợp ghi nhận",
+        "Chiếm tỷ lệ 40% các trường hợp",
+        "Chiếm tỷ lệ 60% các trường hợp",
+        "Chiếm tỷ lệ 80% các trường hợp "
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §4.1: Độ biệt hóa theo Morson (1976) gồm: Biệt hóa cao 20%, biệt hóa vừa 60%, biệt hóa kém 20%.",
+      "option_explanations": [
+        "Sai — 20% là tỷ lệ của biệt hóa cao hoặc biệt hóa kém.",
+        "Sai — mức 40% không khớp số liệu barem.",
+        "Đúng — theo barem §4.1: biệt hóa vừa chiếm 60%.",
+        "Sai — mức 80% không có trong phân loại Morson 1976."
+      ]
+    },
+    {
+      "id": "SURG23-A12",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Hướng xâm lấn tại chỗ phía trước ở nam giới",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §4.2",
+      "text": "Bệnh nhân nam có khối u trực tràng phát triển xâm lấn xuyên thành ra phía trước.\nNhóm cấu trúc giải phẫu phía trước dễ bị khối u trực tiếp xâm lấn vào ở nam giới là gì?",
+      "options": [
+        "Cân trước xương cùng và mặt trước xương cùng",
+        "Vách âm đạo và thành sau cổ tử cung ở nữ",
+        "Cơ thắt ngoài và cơ nâng hậu môn đáy chậu",
+        "Túi tinh, tuyến tiền liệt và thành bàng quang"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem §4.2: Xâm lấn tại chỗ phía trước: Ở nam lan vào túi tinh, tuyến tiền liệt, bàng quang. Ở nữ lan vào vách âm đạo, cổ tử cung. Phía sau lan vào cân trước xương cùng, xương cùng cụt.",
+      "option_explanations": [
+        "Sai — cân trước xương cùng và xương cùng cụt là hướng xâm lấn ra phía sau.",
+        "Sai — vách âm đạo và cổ tử cung là hướng xâm lấn phía trước ở nữ giới.",
+        "Sai — cơ thắt ngoài và cơ nâng hậu môn là hướng xâm lấn xuống phía dưới.",
+        "Đúng — theo barem §4.2: ở nam u lan ra trước vào túi tinh, tuyến tiền liệt, bàng quang."
+      ]
+    },
+    {
+      "id": "SURG23-A13",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Ý nghĩa hướng xâm lấn phía dưới",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-23 §4.2",
+      "text": "Trong phẫu thuật ung thư trực tràng, sự phát triển xâm lấn của khối u xuống phía dưới có ý nghĩa chiến lược vì đe dọa trực tiếp cấu trúc nào?",
+      "options": [
+        "Cân trước xương cùng cụt",
+        "Hệ tĩnh mạch mạc treo tràng",
+        "Túi tinh và tuyến tiền liệt",
+        "Bộ máy cơ thắt hậu môn"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem §4.2: Hướng xâm lấn tại chỗ xuống phía dưới cực kỳ quan trọng trong phẫu thuật vì xâm lấn cơ thắt; khoảng cách diện cắt dưới u quyết định khả năng bảo tồn cơ thắt.",
+      "option_explanations": [
+        "Sai — cân trước xương cùng liên quan đến hướng xâm lấn phía sau.",
+        "Sai — tĩnh mạch mạc treo liên quan đến đường di căn máu.",
+        "Sai — túi tinh và tuyến tiền liệt liên quan đến hướng xâm lấn phía trước ở nam.",
+        "Đúng — theo barem §4.2: xâm lấn xuống phía dưới vào cơ thắt hậu môn quyết định khả năng bảo tồn cơ thắt."
+      ]
+    },
+    {
+      "id": "SURG23-A14",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Di căn hạch của ung thư trực tràng thấp",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §4.2",
+      "text": "Trong cơ chế di căn hạch bạch huyết của ung thư trực tràng, dòng mạch bạch huyết chủ yếu của mạc treo trực tràng đổ về chặng hạch cuống mạch nào?",
+      "options": [
+        "Các hạch dọc theo bó mạch chậu trong",
+        "Hạch cuống động mạch mạc treo tràng dưới",
+        "Hạch quanh động mạch thượng vị dưới",
+        "Chuỗi hạch bạch huyết bẹn nông hai bên"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §4.2: UTTT thấp ngoài đổ về hạch cuống mạc treo tràng dưới (MTTT) còn di căn sang hai bên theo các bó mạch chậu trong (khoang chậu hông).",
+      "option_explanations": [
+        "Đúng — theo barem §4.2: UTTT thấp di căn sang hai bên theo các bó mạch chậu trong.",
+        "Sai — mạch chậu ngoài không phải là đường di căn hạch bên đặc thù của trực tràng thấp.",
+        "Sai — mạch thượng vị dưới không thuộc khoang chậu hông của u trực tràng.",
+        "Sai — hạch bẹn nông chỉ bị khi u lan xuống da rìa hậu môn."
+      ]
+    },
+    {
+      "id": "SURG23-A15",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Di căn đường máu qua tĩnh mạch giữa và dưới",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-23 §4.2",
+      "text": "Khối u trực tràng giữa và dưới có tế bào ác tính xâm nhập vào tĩnh mạch trực tràng giữa và dưới. Tế bào u sẽ theo hệ tĩnh mạch nào để di căn đến phổi, xương và não?",
+      "options": [
+        "Hệ thống thân tĩnh mạch cửa",
+        "Hệ thống tĩnh mạch chủ bụng",
+        "Hệ thống tĩnh mạch mạc treo tràng trên",
+        "Hệ thống tĩnh mạch thận và thượng thận"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §4.2: Tĩnh mạch trực tràng trên đổ về hệ tĩnh mạch cửa -> di căn gan (30 - 50%). Tĩnh mạch trực tràng giữa và dưới đổ về tĩnh mạch chủ bụng -> di căn phổi, xương, não.",
+      "option_explanations": [
+        "Sai — tĩnh mạch trực tràng trên đổ về hệ tĩnh mạch cửa gây di căn gan.",
+        "Đúng — theo barem §4.2: tĩnh mạch trực tràng giữa và dưới đổ về tĩnh mạch chủ bụng -> di căn phổi, xương, não.",
+        "Sai — tĩnh mạch mạc treo tràng trên dẫn lưu máu từ ruột non và đại tràng phải.",
+        "Sai — tĩnh mạch thận không phải là đường dẫn lưu giải phẫu của trực tràng."
+      ]
+    },
+    {
+      "id": "SURG23-A16",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lan tràn",
+      "subtopic": "Tỷ lệ di căn gan qua đường tĩnh mạch cửa",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §4.2",
+      "text": "Tế bào ung thư trực tràng theo tĩnh mạch trực tràng trên đổ về hệ tĩnh mạch cửa gây di căn gan.\nTỷ lệ di căn gan qua đường máu được ghi nhận trong barem là bao nhiêu?",
+      "options": [
+        "Chiếm tỷ lệ từ 10 - 20% các ca bệnh",
+        "Chiếm tỷ lệ từ 20 - 30% các ca",
+        "Chiếm tỷ lệ từ 30 - 50% các ca",
+        "Chiếm tỷ lệ từ 60 - 75% các ca"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §4.2: Tĩnh mạch trực tràng trên đổ về hệ tĩnh mạch cửa -> di căn gan (chiếm 30 - 50%).",
+      "option_explanations": [
+        "Sai — tỷ lệ 10 - 20% thấp hơn ghi nhận trong barem.",
+        "Sai — tỷ lệ 20 - 30% chưa đạt mức thực tế trong bài giảng.",
+        "Đúng — theo barem §4.2: di căn gan chiếm 30 - 50%.",
+        "Sai — tỷ lệ 60 - 75% cao hơn ghi nhận trong bài giảng."
+      ]
+    },
+    {
+      "id": "SURG23-A17",
+      "type": "concept",
+      "topic": "Lâm sàng & Cận lâm sàng",
+      "subtopic": "Tỷ lệ đại tiện ra máu",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-23 §5.1",
+      "text": "Đại tiện ra máu là triệu chứng cơ năng thường gặp nhất và xuất hiện sớm nhất trong ung thư trực tràng.\nTỷ lệ bệnh nhân có triệu chứng này được ghi nhận trong barem là bao nhiêu?",
+      "options": [
+        "Chiếm tỷ lệ khoảng 45,2%",
+        "Chiếm tỷ lệ khoảng 60,4%",
+        "Chiếm tỷ lệ khoảng 70,0%",
+        "Chiếm tỷ lệ khoảng 85,5%"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem §5.1: Đại tiện ra máu chiếm 60,4%, là triệu chứng thường gặp nhất và xuất hiện sớm nhất.",
+      "option_explanations": [
+        "Sai — 45,2% không khớp số liệu barem.",
+        "Đúng — theo barem §5.1: đại tiện ra máu chiếm 60,4%.",
+        "Sai — 70,0% là tỷ lệ chẩn đoán xác định của thăm trực tràng bằng tay (DRE).",
+        "Sai — 85,5% không khớp số liệu barem."
+      ]
+    },
+    {
+      "id": "SURG23-A18",
+      "type": "concept",
+      "topic": "Lâm sàng & Cận lâm sàng",
+      "subtopic": "Biến đổi khuôn phân trong rối loạn đại tiện",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-23 §5.1",
+      "text": "Triệu chứng cơ năng thường gặp nhất và xuất hiện sớm nhất của ung thư trực tràng (chiếm 60,4% bệnh nhân) được mô tả trong bài học là gì?",
+      "options": [
+        "Phân lỏng toàn nước lẫn chất nhầy",
+        "Phân dê đóng từng viên nhỏ rời rạc",
+        "Đại tiện ra máu đỏ tươi hoặc lờ lờ",
+        "Phân biến dạng dẹt, có rãnh bề mặt"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §5.1: Rối loạn đại tiện gồm mót rặn thường xuyên, cảm giác đi ngoài không hết phân, thay đổi khuôn phân (phân dẹt, có rãnh).",
+      "option_explanations": [
+        "Sai — phân lỏng toàn nước gặp trong hội chứng tiêu chảy cấp.",
+        "Sai — phân dê từng viên gặp trong táo bón cơ năng kéo dài.",
+        "Sai — phân đen như bã cà phê gặp trong xuất huyết tiêu hóa cao.",
+        "Đúng — theo barem §5.1: thay đổi khuôn phân biểu hiện là phân dẹt, có rãnh."
+      ]
+    },
+    {
+      "id": "SURG23-A19",
+      "type": "vignette",
+      "topic": "Lâm sàng & Cận lâm sàng",
+      "subtopic": "Đau lan do u xâm lấn đám rối cùng cụt",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-23 §5.1",
+      "text": "Bệnh nhân ung thư trực tràng có biểu hiện đau tức nặng buốt rát vùng tầng sinh môn lan ra sau lưng hoặc xuống đùi.\nTriệu chứng đau lan này phản ánh khối u đã xâm lấn vào cấu trúc giải phẫu nào sau đây?",
+      "options": [
+        "Đám rối thần kinh cùng cụt",
+        "Đám rối thần kinh mạc treo ruột",
+        "Cân trước xương cùng cụt phía sau",
+        "Cơ nâng hậu môn và cơ thắt ngoài"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem §5.1: Đau vùng hạ vị, tầng sinh môn: Đau tức nặng buốt rát lan ra sau lưng hoặc xuống đùi khi u xâm lấn đám rối thần kinh cùng cụt.",
+      "option_explanations": [
+        "Đúng — theo barem §5.1: đau buốt rát tầng sinh môn lan ra sau lưng hoặc xuống đùi khi u xâm lấn đám rối thần kinh cùng cụt.",
+        "Sai — đám rối mạc treo không gây đau rát rễ thần kinh đùi.",
+        "Sai — xâm lấn cân trước xương cùng gây dính cố định thành sau.",
+        "Sai — xâm lấn cơ nâng hậu môn và cơ thắt ảnh hưởng đến tự chủ đại tiện."
+      ]
+    },
+    {
+      "id": "SURG23-A20",
+      "type": "concept",
+      "topic": "Lâm sàng & Cận lâm sàng",
+      "subtopic": "Giá trị chẩn đoán xác định của DRE",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-23 §5.2",
+      "text": "Thăm trực tràng bằng tay (DRE) là phương pháp lâm sàng kinh điển, đơn giản giúp đánh giá u sùi, độ di động và khoảng cách rìa hậu môn.\nTỷ lệ trường hợp bệnh nhân được chẩn đoán xác định bằng phương pháp này trong bài giảng là bao nhiêu?",
+      "options": [
+        "Có giá trị chẩn đoán xác định sơ bộ tới 30% trường hợp",
+        "Có giá trị chẩn đoán xác định tới 50% trường hợp",
+        "Có giá trị chẩn đoán xác định tới 70% trường hợp",
+        "Có giá trị chẩn đoán xác định tới 90% trường hợp "
+      ],
+      "correct": 2,
+      "explanation": "Theo barem §5.2: Thăm trực tràng bằng tay (DRE) là phương pháp kinh điển, đơn giản nhưng có giá trị chẩn đoán xác định tới 70% trường hợp.",
+      "option_explanations": [
+        "Sai — mức 30% thấp hơn giá trị thực tế của DRE trong bài.",
+        "Sai — mức 50% không khớp số liệu barem.",
+        "Đúng — theo barem §5.2: DRE có giá trị chẩn đoán xác định tới 70% trường hợp.",
+        "Sai — mức 90% thuộc về tỷ lệ ung thư biểu mô tuyến hoặc tỷ lệ polyp tăng sản."
+      ]
+    }
+  ]
+}

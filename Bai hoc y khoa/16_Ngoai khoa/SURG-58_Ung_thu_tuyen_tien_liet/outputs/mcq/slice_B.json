@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURG58-B01",
+      "type": "concept",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Các dạng PSA trong máu và tỷ lệ",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §6.1",
+      "text": "Bệnh nhân nam 66 tuổi được chẩn đoán ung thư tuyến tiền liệt. Khi phân tích các phân đoạn kháng nguyên đặc hiệu tuyến tiền liệt trong huyết thanh, dạng nào chiếm tỷ lệ ưu thế từ 60% đến 90% nồng độ toàn phần?\nPhân đoạn chiếm tỷ lệ ưu thế này là gì?",
+      "options": [
+        "PSA phức hợp (cPSA)",
+        "PSA tự do (fPSA)",
+        "Phosphatase acid (PAP)",
+        "Phosphatase kiềm (ALP)"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem, cPSA (Complexed PSA gắn với protein ức chế protease) chiếm 60 - 90% PSA trong ung thư. fPSA chiếm 10 - 40% ở người bình thường. PAP và ALP là các xét nghiệm enzym huyết thanh khác.",
+      "option_explanations": [
+        "Đúng — cPSA gắn protein ức chế protease chiếm 60 - 90% tổng lượng PSA ở bệnh nhân ung thư.",
+        "Sai — fPSA không gắn protein chiếm 10 - 40% ở người bình thường và giảm thấp trong ung thư.",
+        "Sai — PAP là men phosphatase acid tuyến tiền liệt cổ điển, không phải phân đoạn của PSA.",
+        "Sai — ALP là men phosphatase kiềm tăng khi có di căn xương tạo xương."
+      ]
+    },
+    {
+      "id": "SURG58-B02",
+      "type": "concept",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Ngưỡng tPSA sinh lý theo lứa tuổi",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §6.1",
+      "text": "Một người đàn ông 55 tuổi đến khám kiểm tra sức khỏe tổng quát định kỳ. Theo barem quy định nồng độ PSA toàn phần (tPSA) sinh lý theo lứa tuổi, giới hạn trên bình thường đối với nhóm tuổi 50 đến 59 là bao nhiêu?\nGiới hạn nồng độ tPSA bình thường cho nhóm tuổi này là bao nhiêu?",
+      "options": [
+        "Nồng độ tPSA <= 2,5 ng/ml",
+        "Nồng độ tPSA <= 3,0 ng/ml",
+        "Nồng độ tPSA <= 4,0 ng/ml",
+        "Nồng độ tPSA <= 5,0 ng/ml"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem: 40 - 49 tuổi <= 2,5 ng/ml; 50 - 59 tuổi <= 3,0 ng/ml; 60 - 69 tuổi <= 4,0 ng/ml; 70 - 79 tuổi <= 5,0 ng/ml.",
+      "option_explanations": [
+        "Sai — Mức <= 2,5 ng/ml là giới hạn bình thường cho nhóm 40 - 49 tuổi.",
+        "Đúng — Giới hạn nồng độ tPSA bình thường ở nhóm tuổi 50 - 59 là <= 3,0 ng/ml.",
+        "Sai — Mức <= 4,0 ng/ml là giới hạn bình thường cho nhóm 60 - 69 tuổi.",
+        "Sai — Mức <= 5,0 ng/ml là giới hạn bình thường cho nhóm 70 - 79 tuổi."
+      ]
+    },
+    {
+      "id": "SURG58-B03",
+      "type": "vignette",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Vùng xám PSA và tỷ lệ fPSA/tPSA",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-58 §6.1",
+      "text": "Bệnh nhân nam 62 tuổi đi khám kiểm tra sức khỏe, thăm trực tràng (DRE) thấy tuyến tiền liệt to đều mềm mại. Xét nghiệm nồng độ PSA toàn phần là 6,8 ng/ml (vùng xám 4 - 10 ng/ml) và tỷ lệ fPSA/tPSA đạt 11%. Bước can thiệp lâm sàng tiếp theo phù hợp nhất là gì?\nChỉ định xử trí phù hợp nhất tiếp theo là gì?",
+      "options": [
+        "Theo dõi tích cực (Active Surveillance)",
+        "Điều trị kháng sinh theo kinh nghiệm",
+        "Thực hiện bấm kim lấy mẫu mô",
+        "Cắt hai tinh hoàn ngoại khoa cấp"
+      ],
+      "correct": 2,
+      "explanation": "Trong vùng xám 4 - 10 ng/ml, nếu fPSA/tPSA < 15% (ở đây là 11%) thì nguy cơ ung thư rất cao, cần chỉ định sinh thiết tuyến tiền liệt ngay.",
+      "option_explanations": [
+        "Sai — Active Surveillance chỉ áp dụng khi đã có chẩn đoán xác định ung thư nguy cơ thấp (T1-T2, u < 0,5 cm3, Gleason 2-6).",
+        "Sai — Bệnh nhân không có hội chứng nhiễm khuẩn đường tiểu để dùng kháng sinh theo dõi.",
+        "Đúng — Với PSA trong vùng xám 4 - 10 ng/ml và tỷ lệ f/tPSA < 15%, nguy cơ ung thư rất cao, cần chỉ định sinh thiết tuyến tiền liệt ngay.",
+        "Sai — Cắt hai tinh hoàn là phác đồ ADT khi u tiến triển/di căn, không dùng khi chưa có chẩn đoán mô học."
+      ]
+    },
+    {
+      "id": "SURG58-B04",
+      "type": "calc",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Tỷ trọng PSA (PSAD)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-58 §6.1",
+      "text": "Bệnh nhân nam 65 tuổi có nồng độ tPSA huyết thanh là 7,2 ng/ml, thể tích tuyến tiền liệt đo trên siêu âm là 30 cm³. Bác sĩ tính chỉ số tỷ trọng PSA (PSAD = tPSA / thể tích tuyến). Giá trị PSAD của bệnh nhân là bao nhiêu và ngưỡng cảnh báo nguy cơ cao cần sinh thiết theo barem là gì?\nChỉ số PSAD của bệnh nhân và ngưỡng chỉ định sinh thiết là bao nhiêu?",
+      "options": [
+        "PSAD = 0,12 ng/ml/cm³ (ngưỡng sinh thiết > 0,10)",
+        "PSAD = 0,57 ng/ml/cm³ (ngưỡng sinh thiết > 0,75)",
+        "PSAD = 0,42 ng/ml/cm³ (ngưỡng sinh thiết > 0,25)",
+        "PSAD = 0,24 ng/ml/cm³ (ngưỡng sinh thiết > 0,15)"
+      ],
+      "correct": 3,
+      "explanation": "PSAD = 7,2 / 30 = 0,24 ng/ml/cm³. Theo barem, bình thường PSAD < 0,15 ng/ml/cm³, nếu PSAD > 0,15 ng/ml/cm³ cần sinh thiết tuyến tiền liệt.",
+      "option_explanations": [
+        "Sai — 0,12 là tính sai giá trị; ngưỡng 0,10 không phải mốc barem.",
+        "Sai — 0,572 ng/ml/cm³ là giá trị trung bình ở bệnh nhân ung thư; 0,75 là mốc của tốc độ tăng PSAV.",
+        "Sai — 0,42 ng/ml/cm³ là sai kết quả tính toán; ngưỡng 0,25 không đúng chuẩn barem.",
+        "Đúng — PSAD = 7,2 / 30 = 0,24 ng/ml/cm³; theo barem nếu PSAD > 0,15 ng/ml/cm³ thì cần chỉ định sinh thiết tuyến tiền liệt."
+      ]
+    },
+    {
+      "id": "SURG58-B05",
+      "type": "concept",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Tốc độ gia tăng PSA (PSAV)",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-58 §6.1",
+      "text": "Một người đàn ông 64 tuổi có nồng độ PSA máu tăng dần được theo dõi qua 3 lần xét nghiệm trong khoảng thời gian từ 18 đến 24 tháng. Theo barem, tốc độ gia tăng nồng độ PSA (PSAV - PSA Velocity) vượt quá ngưỡng nào sau đây thì cảnh báo nguy cơ ung thư cao?\nNgưỡng PSAV cảnh báo nguy cơ ung thư cao là bao nhiêu?",
+      "options": [
+        "Tốc độ PSAV > 0,75 ng/ml/năm",
+        "Tốc độ PSAV > 0,50 ng/ml/năm",
+        "Tốc độ PSAV > 0,25 ng/ml/năm",
+        "Tốc độ PSAV > 1,50 ng/ml/năm"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem: Đánh giá tốc độ gia tăng PSA qua 3 lần thử trong 18 - 24 tháng; nếu PSAV > 0,75 ng/ml/năm thì nguy cơ ung thư cao.",
+      "option_explanations": [
+        "Đúng — Theo barem, nếu tốc độ gia tăng PSA (PSAV) > 0,75 ng/ml/năm qua 3 lần thử trong 18 - 24 tháng thì nguy cơ ung thư cao.",
+        "Sai — Mức 0,50 ng/ml/năm chưa đạt ngưỡng cảnh báo chuẩn theo barem.",
+        "Sai — Mức 0,25 ng/ml/năm là mức tăng thường gặp trong diễn tiến lành tính.",
+        "Sai — Mức 1,50 ng/ml/năm là mức tăng rất cao, nhưng mốc tiêu chuẩn cảnh báo là > 0,75 ng/ml/năm."
+      ]
+    },
+    {
+      "id": "SURG58-B06",
+      "type": "concept",
+      "topic": "Lâm sàng & Động học PSA",
+      "subtopic": "Mốc nồng độ tPSA và nguy cơ xâm lấn di căn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-58 §6.1",
+      "text": "Bệnh nhân nam 67 tuổi đi khám có nồng độ tPSA huyết thanh là 15 ng/ml, thăm trực tràng (DRE) chưa sờ thấy rõ nhân cứng. Theo barem, nồng độ tPSA > 10 ng/ml có tỷ lệ ung thư khoảng 50% và đòi hỏi thái độ xử trí nào?\nThái độ xử trí cho tình huống này là gì?",
+      "options": [
+        "Hẹn khám kiểm tra lại sau 1 năm",
+        "Bắt buộc chỉ định sinh thiết tuyến tiền liệt",
+        "Theo dõi tích cực (Active Surveillance)",
+        "Chỉ định xạ trị ngoài phòng ngừa"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem: PSA > 10 ng/ml có khoảng 50% là ung thư, bắt buộc chỉ định sinh thiết tuyến tiền liệt bất kể kết quả thăm trực tràng ra sao.",
+      "option_explanations": [
+        "Sai — Trì hoãn 1 năm sẽ làm mất thời điểm phát hiện bệnh ở giai đoạn khu trú.",
+        "Đúng — Barem nêu rõ: PSA > 10 ng/ml có khoảng 50% là ung thư, bắt buộc chỉ định sinh thiết tuyến tiền liệt bất kể kết quả DRE.",
+        "Sai — Active Surveillance chỉ đặt ra khi đã có kết quả sinh thiết xác định khối u nhỏ nguy cơ thấp.",
+        "Sai — Xạ trị chỉ thực hiện khi có chẩn đoán mô bệnh học khẳng định ung thư."
+      ]
+    },
+    {
+      "id": "SURG58-B07",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Men máu phosphatase kiềm và PAP",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §6.2",
+      "text": "Bệnh nhân nam 70 tuổi bị ung thư tuyến tiền liệt có đau nhức cột sống thắt lưng về đêm. Xét nghiệm men máu thấy phosphatase kiềm (Alkaline Phosphatase - ALP) tăng cao rõ rệt. Xét nghiệm men ALP tăng cao phản ánh tình trạng tổn thương nào sau đây?\nTình trạng tổn thương phản ánh qua xét nghiệm này là gì?",
+      "options": [
+        "Phản ứng viêm tuyến tiền liệt cấp",
+        "Hoại tử niêm mạc bàng quang",
+        "Di căn xương thể tạo xương",
+        "Tổn thương suy tế bào gan cấp"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem: Phosphatase kiềm (ALP) tăng cao trong máu khi khối u đã di căn vào xương gây phản ứng tạo xương (osteoblastic).",
+      "option_explanations": [
+        "Sai — Viêm tuyến tiền liệt cấp làm tăng bạch cầu và CRP huyết thanh, không tăng ALP đặc hiệu.",
+        "Sai — Hoại tử niêm mạc bàng quang biểu hiện bằng đái máu, không đặc hiệu cho tăng men ALP.",
+        "Đúng — Theo barem, Phosphatase kiềm (ALP) tăng cao trong máu khi khối u đã di căn vào xương gây phản ứng tạo xương.",
+        "Sai — Suy tế bào gan cấp làm tăng men transaminase (AST/ALT) và giảm prothrombin, không liên quan di căn tạo xương của ung thư tuyến tiền liệt."
+      ]
+    },
+    {
+      "id": "SURG58-B08",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Kỹ thuật sinh thiết tuyến tiền liệt dưới TRUS",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §6.3",
+      "text": "Trong quy trình chẩn đoán xác định ung thư tuyến tiền liệt, phương pháp sinh thiết hệ thống kim dưới hướng dẫn siêu âm qua trực tràng (TRUS) theo khuyến cáo cần lấy tối thiểu bao nhiêu vị trí mẫu mô từ đáy, giữa đến đỉnh tuyến?\nSố lượng mẫu mô sinh thiết tối thiểu được khuyến cáo là bao nhiêu?",
+      "options": [
+        "Bấm 2 đến 4 vị trí mẫu mô",
+        "Bấm 20 đến 24 vị trí mẫu mô",
+        "Bấm 14 đến 18 vị trí mẫu mô",
+        "Bấm 6 đến 12 vị trí mẫu mô"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem: Kỹ thuật bấm kim sinh thiết hệ thống ít nhất 6 - 12 vị trí (mỗi thùy 3 - 6 mẫu) từ đáy, giữa đến đỉnh tuyến tiền liệt, tập trung vào vùng ngoại vi nghi ngờ.",
+      "option_explanations": [
+        "Sai — 2 đến 4 mẫu mô là quá ít, tỷ lệ âm tính giả rất cao.",
+        "Sai — 20 đến 24 mẫu mô là kỹ thuật sinh thiết bão hòa (saturation biopsy), không phải mốc tối thiểu ban đầu.",
+        "Sai — 14 đến 18 mẫu mô là số lượng mở rộng ở một số trung tâm sinh thiết lại lần 2, không phải số lượng tối thiểu cơ bản theo barem.",
+        "Đúng — Barem nêu rõ: Kỹ thuật sinh thiết hệ thống lấy ít nhất 6 - 12 vị trí (mỗi thùy 3 - 6 mẫu)."
+      ]
+    },
+    {
+      "id": "SURG58-B09",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Hình ảnh ung thư trên TRUS và mpMRI",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-58 §6.4",
+      "text": "Bệnh nhân nam 63 tuổi nghi ngờ ung thư tuyến tiền liệt được chỉ định siêu âm qua trực tràng (TRUS) và chụp cộng hưởng từ đa thông số (mpMRI). Đặc điểm hình ảnh điển hình của khối u trên TRUS và thang điểm mpMRI nghi ngờ ác tính cao là gì?\nĐặc điểm hình ảnh tổn thương điển hình là gì?",
+      "options": [
+        "Vùng giảm âm và PI-RADS 4-5",
+        "Vùng tăng âm và PI-RADS 1-2",
+        "Bóng cản âm và PI-RADS 1-2",
+        "Vùng đồng âm và PI-RADS 2-3"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem: Trên TRUS khối u biểu hiện bằng vùng giảm âm ở vùng ngoại vi (chiếm 70%); trên mpMRI tổn thương nghi ngờ ác tính cao được xếp loại PI-RADS 4 - 5.",
+      "option_explanations": [
+        "Đúng — Theo barem: TRUS thấy vùng giảm âm ở vùng ngoại vi (chiếm 70%) và mpMRI xếp PI-RADS 4-5 nghi ngờ ác tính cao.",
+        "Sai — Vùng chuyển tiếp tăng âm và PI-RADS 1-2 là biểu hiện của mô tuyến phì đại lành tính.",
+        "Sai — Bóng cản âm kèm bóng lưng là hình ảnh của sỏi vôi hóa tuyến tiền liệt.",
+        "Sai — Vùng đồng âm và PI-RADS 2-3 biểu thị tổn thương nguy cơ ác tính thấp hoặc không rõ ràng."
+      ]
+    },
+    {
+      "id": "SURG58-B10",
+      "type": "concept",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Xạ hình xương và PET-CT",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §6.4",
+      "text": "Bệnh nhân nam 71 tuổi bị ung thư tuyến tiền liệt giai đoạn tiến triển, có nồng độ PSA > 20 ng/ml và đau nhức vùng chậu. Để phát hiện sớm các ổ di căn xương thể tạo xương (osteoblastic), phương pháp chẩn đoán hình ảnh chuyên biệt được chỉ định là gì?\nPhương pháp chẩn đoán hình ảnh chuyên biệt được chỉ định là gì?",
+      "options": [
+        "Chụp X-quang khung chậu thẳng",
+        "Xạ hình xương sử dụng Technetium-99m",
+        "Siêu âm Doppler màu hệ tiết niệu",
+        "Chụp niệu đồ tĩnh mạch đường tiểu (UIV)"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem: Xạ hình xương toàn thân (Bone Scintigraphy) dùng Technetium-99m để phát hiện sớm các ổ di căn xương thể tạo xương.",
+      "option_explanations": [
+        "Sai — X-quang quy ước chỉ phát hiện khi tổn thương mất khoáng lớn, độ nhạy kém hơn xạ hình xương.",
+        "Đúng — Theo barem, xạ hình xương toàn thân dùng Technetium-99m phát hiện sớm các ổ di căn xương thể tạo xương.",
+        "Sai — Siêu âm Doppler không đánh giá được các tổn thương cấu trúc xương sâu.",
+        "Sai — UIV dùng đánh giá hình thái và chức năng bài xuất đài bể thận niệu quản, không khảo sát di căn xương."
+      ]
+    },
+    {
+      "id": "SURG58-B11",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Chẩn đoán phân biệt với sỏi tuyến tiền liệt",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-58 §7",
+      "text": "Bệnh nhân nam 68 tuổi đi khám vì tiểu khó. Thăm trực tràng sờ thấy một vị trí cứng chắc ở tuyến tiền liệt nghi ngờ ác tính. Tuy nhiên, kết quả siêu âm qua trực tràng phát hiện tổn thương tăng âm kèm bóng lưng rõ rệt phía sau. Chẩn đoán phù hợp nhất với đặc điểm hình ảnh siêu âm này là gì?\nChẩn đoán phù hợp nhất với hình ảnh siêu âm này là gì?",
+      "options": [
+        "Ung thư tuyến tiền liệt giai đoạn sớm",
+        "Tăng sản lành tính tuyến tiền liệt (BPH)",
+        "Sỏi vôi hóa tuyến tiền liệt",
+        "Ổ áp xe tuyến tiền liệt hoại tử"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem mục Chẩn đoán phân biệt: Sỏi tuyến tiền liệt trên siêu âm thấy bóng cản âm kèm bóng lưng rõ rệt (có thể sờ thấy cứng trên DRE gây nhầm lẫn).",
+      "option_explanations": [
+        "Sai — Ung thư trên TRUS biểu hiện điển hình là vùng giảm âm ngoại vi, không có bóng lưng.",
+        "Sai — BPH biểu hiện nốt phì đại vùng chuyển tiếp, rãnh giữa còn, không có bóng lưng vôi hóa.",
+        "Đúng — Theo barem, sỏi tuyến tiền liệt có hình ảnh siêu âm điển hình là bóng cản âm kèm bóng lưng rõ rệt.",
+        "Sai — Áp xe biểu hiện ổ trống âm hoặc dịch hóa thành dày không đều, bệnh cảnh sốt nhiễm trùng rầm rộ."
+      ]
+    },
+    {
+      "id": "SURG58-B12",
+      "type": "vignette",
+      "topic": "Cận lâm sàng & Chẩn đoán phân biệt",
+      "subtopic": "Chẩn đoán phân biệt với viêm tuyến tiền liệt",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-58 §7",
+      "text": "Bệnh nhân nam 54 tuổi nhập viện vì sốt cao, tiểu buốt rát dữ dội, nước tiểu đục nhiều bạch cầu. Khám thấy tuyến tiền liệt sưng to và đau tức dữ dội khi chạm vào. Xét nghiệm PSA máu tăng 8,5 ng/ml. Thái độ xử trí và theo dõi nồng độ PSA thích hợp nhất cho bệnh nhân này là gì?\nThái độ xử trí thích hợp nhất tiếp theo là gì?",
+      "options": [
+        "Bấm kim sinh thiết TRUS ngay",
+        "Hóa trị phác đồ Docetaxel",
+        "Cắt tuyến tiền liệt triệt căn",
+        "Điều trị kháng sinh rồi thử lại PSA"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem mục Chẩn đoán phân biệt: Viêm tuyến tiền liệt cấp/mạn có tuyến đau tức nóng sốt, bạch cầu niệu cao, PSA có thể tăng thoáng qua và trở về bình thường sau khi điều trị kháng sinh ổn định.",
+      "option_explanations": [
+        "Sai — Sinh thiết khi đang viêm cấp tính có nguy cơ gây nhiễm khuẩn huyết nặng.",
+        "Sai — Docetaxel là thuốc hóa chất dành cho ung thư kháng cắt tinh hoàn (CRPC).",
+        "Sai — Cắt triệt căn chỉ áp dụng khi đã có chẩn đoán mô học ung thư khu trú T1-T2.",
+        "Đúng — Điều trị kháng sinh giải quyết đợt viêm cấp, sau đó định lượng lại PSA huyết thanh."
+      ]
+    },
+    {
+      "id": "SURG58-B13",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Theo dõi tích cực (Active Surveillance)",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 74 tuổi, tiền sử bệnh mạch vành, được phát hiện ung thư tuyến tiền liệt có thể tích khối u nhỏ (< 0,5 cm³), điểm Gleason là 5 (3+2), nồng độ tPSA là 5,2 ng/ml. Chiến lược quản lý bệnh tối ưu được barem khuyến cáo cho bệnh nhân này là gì?\nChiến lược điều trị tối ưu được khuyến cáo là gì?",
+      "options": [
+        "Theo dõi tích cực và chờ đợi (Active Surveillance)",
+        "Phẫu thuật cắt tuyến tiền liệt triệt căn",
+        "Hóa trị phác đồ Docetaxel + Prednisone",
+        "Cắt hai tinh hoàn ngoại khoa cấp"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem: Theo dõi tích cực (Active Surveillance) chỉ định cho bệnh nhân cao tuổi (> 70 tuổi) hoặc có bệnh nội khoa nặng, u thể tích nhỏ (< 0,5 cm³), Gleason thấp (2 - 6), PSA < 10 ng/ml. Theo dõi định kỳ PSA mỗi 3 - 6 tháng.",
+      "option_explanations": [
+        "Đúng — Theo barem: Bệnh nhân > 70 tuổi có bệnh nội khoa nặng, u < 0,5 cm³, Gleason <= 6, PSA < 10 ng/ml chỉ định Theo dõi tích cực.",
+        "Sai — Phẫu thuật triệt căn ưu tiên cho bệnh nhân còn trẻ, kỳ vọng sống trên 10 năm.",
+        "Sai — Docetaxel dành cho ung thư giai đoạn kháng cắt tinh hoàn (CRPC).",
+        "Sai — Cắt tinh hoàn áp dụng cho bệnh nhân giai đoạn tiến triển tại chỗ hoặc di căn xa (M1)."
+      ]
+    },
+    {
+      "id": "SURG58-B14",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Phẫu thuật cắt tuyến tiền liệt triệt căn",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-58 §8.2",
+      "text": "Phẫu thuật cắt toàn bộ tuyến tiền liệt triệt căn (Radical Prostatectomy) kèm nạo vét hạch chậu hai bên ở bệnh nhân giai đoạn khu trú T1-T2, Gleason <= 7 mang lại tỷ lệ sống không bệnh sau 10 năm theo barem đạt khoảng bao nhiêu?\nTỷ lệ sống không bệnh sau 10 năm đạt khoảng bao nhiêu?",
+      "options": [
+        "Tỷ lệ sống không bệnh đạt 30% - 45%",
+        "Tỷ lệ sống không bệnh đạt 70% - 85%",
+        "Tỷ lệ sống không bệnh đạt 50% - 60%",
+        "Tỷ lệ sống không bệnh đạt 90% - 95%"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem mục Phẫu thuật cắt toàn bộ tuyến tiền liệt triệt căn: Tỷ lệ sống không bệnh sau 10 năm đạt 70% - 85%. Biến chứng muộn thường gặp nhất là đái rỉ và rối loạn cương dương.",
+      "option_explanations": [
+        "Sai — 30% - 45% là tỷ lệ ở nhóm giai đoạn tiến triển hoặc u tái phát.",
+        "Đúng — Theo barem, tỷ lệ sống không bệnh sau 10 năm sau mổ triệt căn đạt 70% - 85%.",
+        "Sai — 50% - 60% thấp hơn kết quả điều trị triệt căn chuẩn.",
+        "Sai — 90% là tỷ lệ điều trị khỏi chung nếu phát hiện rất sớm u còn khu trú trong vỏ bao tuyến."
+      ]
+    },
+    {
+      "id": "SURG58-B15",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Xạ trị và phẫu thuật áp lạnh",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §8.2",
+      "text": "Trong điều trị ung thư tuyến tiền liệt khu trú bằng xạ trị, liều xạ trị chiếu ngoài (EBRT) và hai loại đồng vị phóng xạ sử dụng trong cấy hạt vào lòng tuyến (Brachytherapy) được ghi nhận trong barem là gì?\nLiều EBRT và hạt phóng xạ cấy chuẩn xác là gì?",
+      "options": [
+        "EBRT liều 50 - 55 Gy; hạt phóng xạ Coban-60 và Strontium-89",
+        "EBRT liều 80 - 85 Gy; hạt phóng xạ Samarium-153 và Lutetium",
+        "EBRT liều 70 - 78 Gy; hạt phóng xạ Iod-125 và Palladium-103",
+        "EBRT liều 60 - 65 Gy; hạt phóng xạ Technetium-99m và Iridi"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem: Xạ trị chiếu ngoài (EBRT) chiếu liều cao 70 - 78 Gy; Cấy hạt phóng xạ vào lòng tuyến (Brachytherapy) cấy các hạt Iod-125 hoặc Palladium-103.",
+      "option_explanations": [
+        "Sai — Liều 50 - 55 Gy là quá thấp; Coban-60 và Strontium-89 không dùng cấy hạt tuyến tiền liệt.",
+        "Sai — Liều 80 - 85 Gy vượt quá ngưỡng an toàn; Samarium-153 chỉ dùng xạ giảm đau di căn xương.",
+        "Đúng — Theo barem: EBRT chiếu liều 70 - 78 Gy; Brachytherapy cấy hạt Iod-125 hoặc Palladium-103.",
+        "Sai — Technetium-99m dùng ghi hình xạ hình xương, không dùng cấy xạ trị trong mô."
+      ]
+    },
+    {
+      "id": "SURG58-B16",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Liệu pháp cắt tinh hoàn ngoại khoa",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 75 tuổi bị ung thư tuyến tiền liệt di căn xương chậu được chỉ định cắt bỏ hai tinh hoàn ngoại khoa (Bilateral Orchiectomy). Phương pháp này giúp hạ nồng độ Testosterone máu xuống mức thiến (< 50 ng/dL) sau khoảng thời gian bao lâu?\nThời gian hạ testosterone máu về mức thiến là bao lâu?",
+      "options": [
+        "Hạ Testosterone < 50 ng/dL sau 3 - 6 tháng",
+        "Hạ Testosterone < 50 ng/dL sau 2 - 3 tuần",
+        "Hạ Testosterone < 50 ng/dL sau 1 - 2 tháng",
+        "Hạ Testosterone < 50 ng/dL sau 24 giờ"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem: Cắt bỏ hai tinh hoàn ngoại khoa là phương pháp đơn giản, hiệu quả nhanh, làm hạ Testosterone máu xuống nồng độ thiến (< 50 ng/dL) sau 24 giờ.",
+      "option_explanations": [
+        "Sai — 3 - 6 tháng là thời gian đánh giá đáp ứng thoái lui khối u và xét nghiệm PSA theo dõi.",
+        "Sai — Khoảng 2 - 3 tuần là thời gian cần thiết khi dùng thuốc đồng vận LHRH (như Goserelin).",
+        "Sai — 1 - 2 tháng là khoảng thời gian thuốc tiêm phóng thích chậm đạt đỉnh ức chế tuyến yên ổn định.",
+        "Đúng — Phẫu thuật cắt 2 tinh hoàn ngoại khoa hạ Testosterone máu xuống mức thiến (< 50 ng/dL) nhanh chóng chỉ sau 24 giờ."
+      ]
+    },
+    {
+      "id": "SURG58-B17",
+      "type": "vignette",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Đồng vận LHRH và hiện tượng bùng phát flare-up",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 71 tuổi bị ung thư tuyến tiền liệt di căn xương cột sống thắt lưng được chỉ định tiêm thuốc đồng vận LHRH (Goserelin). Để ngăn ngừa hiện tượng bùng phát triệu chứng nguy hiểm ban đầu (flare-up) do tăng tiết testosterone thoảng qua, biện pháp bắt buộc cần phối hợp là gì?\nBiện pháp bắt buộc cần phối hợp trong 2 đến 3 tuần đầu là gì?",
+      "options": [
+        "Uống thuốc kháng androgen che phủ (Bicalutamide)",
+        "Phối hợp hóa trị Docetaxel + Prednisone",
+        "Chỉ định xạ trị ngoài toàn thân liều cao",
+        "Cắt hai tinh hoàn ngoại khoa phối hợp"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem: Thuốc đồng vận LHRH ban đầu gây tăng tiết Testosterone thoáng qua, do đó cần dùng thuốc kháng androgen (như Bicalutamide, Flutamide) che phủ phòng ngừa hiệu ứng bùng phát 'flare-up' trong 2 - 3 tuần đầu.",
+      "option_explanations": [
+        "Đúng — Theo barem, cần dùng thuốc kháng androgen (Bicalutamide, Flutamide) che phủ trong 2 - 3 tuần đầu để ngăn chặn đợt tăng tiết bùng phát.",
+        "Sai — Docetaxel + Prednisone là phác đồ cho ung thư giai đoạn kháng cắt tinh hoàn (CRPC), không dùng che flare-up.",
+        "Sai — Xạ trị ngoài chiếu tại chỗ u hoặc ổ di căn đau, không dùng xạ toàn thân để che phủ tác dụng phụ của hormone.",
+        "Sai — Cắt hai tinh hoàn ngoại khoa đã làm giảm testosterone trực tiếp sau 24h, không cần phối hợp đồng vận LHRH."
+      ]
+    },
+    {
+      "id": "SURG58-B18",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Hóa trị và thuốc thế hệ mới trong CRPC",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 70 tuổi bị ung thư tuyến tiền liệt tiến triển sang giai đoạn kháng cắt tinh hoàn (CRPC). Phác đồ hóa chất kết hợp chuẩn và các thuốc nội tiết thế hệ mới được barem ghi nhận cho giai đoạn này là gì?\nPhác đồ hóa chất kết hợp và thuốc nội tiết thế hệ mới là gì?",
+      "options": [
+        "Cisplatin + Etoposide kết hợp Flutamide",
+        "Docetaxel + Prednisone kết hợp Abiraterone",
+        "5-Fluorouracil + Folinic acid kết hợp Goserelin",
+        "Doxorubicin + Cyclophosphamide kết hợp Bicalutamide"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem mục Điều trị hóa chất và kháng cắt tinh hoàn (CRPC): Sử dụng hóa chất phác đồ phối hợp chứa Docetaxel kết hợp Prednisone (hoặc Cabazitaxel); các thuốc nội tiết thế hệ mới gồm Abiraterone acetate và Enzalutamide.",
+      "option_explanations": [
+        "Sai — Cisplatin + Etoposide dùng trong ung thư phổi tế bào nhỏ hoặc u thần kinh nội tiết.",
+        "Đúng — Theo barem: Giai đoạn CRPC dùng Docetaxel kết hợp Prednisone (hoặc Cabazitaxel) và các thuốc thế hệ mới Abiraterone hoặc Enzalutamide.",
+        "Sai — 5-FU và Folinic acid là phác đồ điều trị ung thư biểu mô đại trực tràng.",
+        "Sai — Doxorubicin + Cyclophosphamide là phác đồ điều trị ung thư tuyến vú."
+      ]
+    },
+    {
+      "id": "SURG58-B19",
+      "type": "vignette",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Xử trí biến chứng vô niệu chèn ép niệu quản",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 73 tuổi bị ung thư tuyến tiền liệt tiến triển tại chỗ (T4N1M0) xâm lấn bàng quang đè bẹp hai niệu quản, dẫn đến vô niệu và suy thận cấp tắc nghẽn sau thận. Biện pháp can thiệp cấp cứu ưu tiên hàng đầu theo barem là gì?\nBiện pháp can thiệp cấp cứu ưu tiên hàng đầu là gì?",
+      "options": [
+        "Chạy thận nhân tạo chu kỳ và tiêm Furosemid",
+        "Mổ mở cấp cứu cắt toàn bộ bàng quang",
+        "Đặt thông Double J hoặc mở thông thận qua da",
+        "Truyền thuốc ức chế hủy xương Zoledronic acid"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem mục Xử trí biến chứng cấp tính: Vô niệu / Suy thận do u xâm lấn đè bẹp hai niệu quản: Đặt ống thông niệu quản ngược dòng (sonde Double J) hoặc mở thông thận qua da tối thiểu dẫn lưu nước tiểu.",
+      "option_explanations": [
+        "Sai — Lợi tiểu Furosemid chống chỉ định khi đang tắc nghẽn cơ học hoàn toàn sau thận.",
+        "Sai — Mổ mở cắt bàng quang triệt căn trong tình trạng suy thận cấp có nguy cơ tử vong chu phẫu rất cao.",
+        "Đúng — Theo barem: Đặt thông niệu quản ngược dòng (sonde Double J) hoặc mở thông thận qua da tối thiểu dẫn lưu nước tiểu giải áp.",
+        "Sai — Zoledronic acid là thuốc ức chế hủy xương trị đau xương, có độc tính trên thận nên chống chỉ định khi suy thận cấp."
+      ]
+    },
+    {
+      "id": "SURG58-B20",
+      "type": "vignette",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Cấp cứu chèn ép tủy sống do di căn cột sống",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-58 §8.2",
+      "text": "Bệnh nhân nam 69 tuổi bị ung thư tuyến tiền liệt di căn xương, đột ngột xuất hiện tê bì hai chân tăng nhanh, liệt vận động hai chi dưới và bí tiểu. MRI phát hiện khối u di căn đốt sống ngực Th10 gây xẹp đốt chèn ép tủy cấp. Phác đồ xử trí cấp cứu khẩn cấp trong vòng 24 - 48 giờ để tránh liệt vĩnh viễn là gì?\nPhác đồ xử trí cấp cứu khẩn cấp là gì?",
+      "options": [
+        "Truyền Zoledronic acid và tập phục hồi chức năng",
+        "Đặt sonde tiểu Foley và cho uống canxi bổ sung",
+        "Cắt hai tinh hoàn ngoại khoa và theo dõi tại nhà",
+        "Dexamethasone liều cao phối hợp giải ép hoặc xạ trị"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem: Chèn ép tủy sống cấp cần dùng Dexamethasone liều cao khẩn cấp kết hợp phẫu thuật giải ép cột sống hoặc xạ trị cấp cứu trong vòng 24 - 48 giờ để tránh liệt vĩnh viễn.",
+      "option_explanations": [
+        "Sai — Zoledronic acid không giải ép được chèn ép thần kinh cơ học cấp tính.",
+        "Sai — Đặt sonde tiểu chỉ giải quyết triệu chứng bí tiểu tạm thời, không ngăn được liệt tủy vĩnh viễn.",
+        "Sai — Cắt tinh hoàn đơn thuần không giải áp kịp thời khối chèn ép tủy trong thời gian vàng 24 - 48 giờ.",
+        "Đúng — Barem chỉ định: Dexamethasone liều cao khẩn cấp kết hợp phẫu thuật giải ép cột sống hoặc xạ trị cấp cứu trong vòng 24 - 48 giờ."
+      ]
+    },
+    {
+      "id": "SURG58-B21",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Độ tuổi và nội dung chương trình tầm soát",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-58 §9",
+      "text": "Trong chương trình tầm soát phát hiện sớm ung thư tuyến tiền liệt định kỳ, nhóm đối tượng nào có chỉ định bắt đầu tầm soát sớm từ 40 đến 45 tuổi và quy trình khám định kỳ hàng năm bao gồm những nội dung gì?\nĐối tượng tầm soát sớm từ 40 - 45 tuổi và quy trình định kỳ hàng năm là gì?",
+      "options": [
+        "Người có bố/anh em mắc bệnh; khám gồm DRE, PSA máu và TRUS",
+        "Người hút thuốc lá; khám gồm siêu âm ổ bụng và chụp X-quang",
+        "Mọi nam giới sau 50 tuổi; khám chỉ gồm xét nghiệm máu lắng",
+        "Người có tiền sử sỏi tiết niệu; khám gồm chụp xạ hình xương"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem mục Phòng bệnh và tầm soát: Tầm soát áp dụng cho mọi nam giới từ 50 tuổi trở lên (hoặc từ 40 - 45 tuổi nếu có bố/anh em trai mắc ung thư tuyến tiền liệt). Khám định kỳ gồm DRE, PSA và TRUS khi có bất thường.",
+      "option_explanations": [
+        "Đúng — Nam giới có bố hoặc anh em trai mắc ung thư tuyến tiền liệt cần tầm soát sớm từ 40 - 45 tuổi; quy trình định kỳ gồm DRE, xét nghiệm PSA máu và TRUS khi có bất thường.",
+        "Sai — Hút thuốc lá là yếu tố nguy cơ của ung thư phổi và bàng quang, không phải tiêu chuẩn hạ tuổi tầm soát ung thư tuyến tiền liệt.",
+        "Sai — Mọi nam giới từ 50 tuổi là mốc tầm soát thông thường và xét nghiệm máu lắng không có giá trị tầm soát.",
+        "Sai — Tiền sử sỏi tiết niệu không phải chỉ định hạ tuổi tầm soát và xạ hình xương không dùng để tầm soát."
+      ]
+    },
+    {
+      "id": "SURG58-B22",
+      "type": "concept",
+      "topic": "Điều trị (Khu trú, Nội tiết ADT, CRPC, Cấp cứu) & Tầm soát",
+      "subtopic": "Dinh dưỡng phòng bệnh và chất chống oxy hóa",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-58 §9",
+      "text": "Theo khuyến nghị về dinh dưỡng và lối sống lành mạnh trong barem nhằm hỗ trợ giảm thiểu nguy cơ mắc ung thư tuyến tiền liệt, hoạt chất chống oxy hóa Lycopene có nhiều trong nguồn thực phẩm nào sau đây?\nNguồn thực phẩm giàu hoạt chất này được khuyến nghị là gì?",
+      "options": [
+        "Mỡ động vật và các loại thịt đỏ nấu chín",
+        "Cà chua chín, đậu nành và nước trà xanh",
+        "Các sản phẩm từ bơ và sữa béo nguyên kem",
+        "Đồ uống có cồn và các loại thực phẩm cay nóng"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem mục Phòng bệnh và tầm soát: Lối sống lành mạnh gồm giảm mỡ động vật, tăng cường rau củ quả chứa nhiều chất chống oxy hóa (Lycopene trong cà chua chín, đậu nành, trà xanh).",
+      "option_explanations": [
+        "Sai — Mỡ bão hòa và thịt đỏ là yếu tố nguy cơ làm tăng tỷ lệ mắc ung thư tuyến tiền liệt.",
+        "Đúng — Theo barem: Tăng cường rau củ quả chứa chất chống oxy hóa Lycopene trong cà chua chín, đậu nành và trà xanh.",
+        "Sai — Bơ và sữa béo nguyên kem giàu chất béo bão hòa động vật, không chứa Lycopene.",
+        "Sai — Rượu bia và đồ cay nóng không phải là nguồn cung cấp chất chống oxy hóa bảo vệ tuyến tiền liệt."
+      ]
+    }
+  ]
+}

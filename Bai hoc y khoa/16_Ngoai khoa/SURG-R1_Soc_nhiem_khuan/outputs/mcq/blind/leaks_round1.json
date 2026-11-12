@@ -1,0 +1,154 @@
+{
+  "SURGR1-B04": {
+    "conf": 3,
+    "reason": "Mục tiêu lượng nước tiểu kinh điển trong hồi sức sốc nhiễm khuẩn (SSC guidelines) là >= 0.5 ml/kg/giờ."
+  },
+  "SURGR1-A07": {
+    "conf": 2,
+    "reason": "Tăng tính thấm thành mạch trong sốc nhiễm khuẩn dẫn đến thoát mạch gây phù mô lan tỏa và giảm thể tích nội mạch thực sự."
+  },
+  "SURGR1-B07": {
+    "conf": 3,
+    "reason": "Khuyến cáo hồi sức dịch chuẩn của Surviving Sepsis Campaign: ưu tiên tinh thể (Ringer Lactat/NaCl 0.9%), có thể dùng Albumin khi cần nhiều dịch, chống chỉ định HES. Phương án dài nhất và toàn diện nhất."
+  },
+  "SURGR1-B12": {
+    "conf": 3,
+    "reason": "Chỉ định Dobutamine trong sốc nhiễm khuẩn là khi có rối loạn chức năng cơ tim hoặc ScvO2 < 70% dù đã bù đủ dịch và HA đạt mục tiêu."
+  },
+  "SURGR1-A04": {
+    "conf": 3,
+    "reason": "Theo định nghĩa Sepsis-3, tỷ lệ tử vong bệnh viện của Sepsis là khoảng 10%, còn Sốc nhiễm khuẩn (Septic shock) trên 40%."
+  },
+  "SURGR1-B16": {
+    "conf": 3,
+    "reason": "Nguyên tắc ngoại khoa kiểm soát ổ nhiễm trùng (source control): phẫu thuật cấp cứu giải quyết ổ nhiễm khuẩn khẩn trương vì kháng sinh đơn thuần không thể chữa khỏi ổ mủ/thủng tạng."
+  },
+  "SURGR1-A22": {
+    "conf": 3,
+    "reason": "Bộ xét nghiệm cơ bản đầu tay trong sốc nhiễm khuẩn: CTM, Khí máu động mạch, Cấy máu ít nhất 2 mẫu và KS đồ."
+  },
+  "SURGR1-B17": {
+    "conf": 3,
+    "reason": "Chiến lược thông khí bảo vệ phổi theo ARDSNet: thể tích lưu thông thấp 6 ml/kg trọng lượng dự đoán kết hợp PEEP phù hợp."
+  },
+  "SURGR1-A13": {
+    "conf": 3,
+    "reason": "Nguyên tắc cấy máu: lấy ít nhất 2 mẫu (ưa khí và kỵ khí) trước khi bắt đầu dùng kháng sinh."
+  },
+  "SURGR1-A15": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn qSOFA: ngưỡng nghi ngờ sepsis / tiên lượng xấu là >= 2 điểm (thường câu hỏi tình huống có 2 tiêu chuẩn thỏa mãn)."
+  },
+  "SURGR1-A01": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn SIRS về bạch cầu: > 12.000/mm3 hoặc < 4.000/mm3 hoặc > 10% bạch cầu non (dạng gậy)."
+  },
+  "SURGR1-B02": {
+    "conf": 3,
+    "reason": "Mục tiêu hồi sức chuyển hóa tưới máu mô: ScvO2 >= 70% và độ thanh thải lactate (lactate clearance) giảm >= 20% mỗi 2 giờ."
+  },
+  "SURGR1-A09": {
+    "conf": 3,
+    "reason": "Cơ chế chính gây tổn thương thận cấp trong sốc nhiễm khuẩn: tụt huyết áp kéo dài gây thiếu máu cục bộ kết hợp rối loạn vi tuần hoàn / vi huyết khối."
+  },
+  "SURGR1-B21": {
+    "conf": 3,
+    "reason": "Gói 1 giờ / 3 giờ SSC chuẩn: Dịch tinh thể 30 ml/kg trong 3 giờ, kháng sinh phổ rộng IV trong 1 giờ đầu, Norepinephrine nếu MAP < 65 mmHg."
+  },
+  "SURGR1-A08": {
+    "conf": 2,
+    "reason": "Cơ chế suy tim trong sốc: ức chế cơ tim bởi MDF (myocardial depressant factor), toan máu, giảm tưới máu vành; tỷ lệ biến chứng DIC khoảng 30-35%."
+  },
+  "SURGR1-B18": {
+    "conf": 3,
+    "reason": "Chỉ định corticoid trong sốc nhiễm khuẩn: Hydrocortisone 200 mg/ngày (truyền liên tục hoặc chia 4 lần) chỉ khi sốc kháng vận mạch (không đáp ứng bù dịch và vận mạch liều cao)."
+  },
+  "SURGR1-A14": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn qSOFA chuẩn Sepsis-3: Nhịp thở >= 22 lần/phút, GCS < 15, Huyết áp tâm thu <= 100 mmHg."
+  },
+  "SURGR1-B15": {
+    "conf": 3,
+    "reason": "Nguyên tắc sử dụng kháng sinh: Xuống thang (de-escalation) theo kháng sinh đồ và thời gian điều trị thường 7-10 ngày."
+  },
+  "SURGR1-A03": {
+    "conf": 3,
+    "reason": "Định nghĩa Sepsis-3: Rối loạn chức năng tạng đe dọa tính mạng do tăng cấp tính >= 2 điểm SOFA."
+  },
+  "SURGR1-B06": {
+    "conf": 2,
+    "reason": "Liều hồi sức dịch 30 ml/kg: với bệnh nhân 70 kg là 2.100 ml (30 x 70 = 2100 ml)."
+  },
+  "SURGR1-B08": {
+    "conf": 3,
+    "reason": "Lý do chống chỉ định dung dịch cao phân tử HES trong nhiễm trùng huyết/sốc nhiễm khuẩn: gây suy thận cấp tăng nhu cầu lọc máu và tăng tử vong."
+  },
+  "SURGR1-B05": {
+    "conf": 2,
+    "reason": "Liều dịch 30 ml/kg trong 3 giờ đầu: nếu bệnh nhân 60 kg thì 30 x 60 = 1.800 ml trong 3 giờ đầu."
+  },
+  "SURGR1-B11": {
+    "conf": 3,
+    "reason": "Khi Norepinephrine liều cao vẫn chưa đạt MAP mục tiêu: khuyến cáo phối hợp thêm Vasopressin liều 0.03 đv/phút hoặc bổ sung Epinephrine."
+  },
+  "SURGR1-B13": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC rõ ràng: Không dùng Dopamine liều thấp (liều thận) để bảo vệ thận."
+  },
+  "SURGR1-A02": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn chẩn đoán SIRS kinh điển là thỏa mãn từ 2 tiêu chuẩn trở lên trong 4 tiêu chuẩn."
+  },
+  "SURGR1-B20": {
+    "conf": 3,
+    "reason": "Chiến lược truyền máu hạn chế (restrictive transfusion): chỉ truyền hồng cầu khi Hb < 70 g/L, mục tiêu duy trì 70-90 g/L (trừ khi có thiếu máu cơ tim cấp)."
+  },
+  "SURGR1-A17": {
+    "conf": 2,
+    "reason": "Trong thang điểm SOFA: mức điểm gan và thận (Bilirubin 2.0-5.9 mg/dL tương ứng 2 điểm, Creatinine 2.0-3.4 tương ứng 2 điểm)."
+  },
+  "SURGR1-A11": {
+    "conf": 3,
+    "reason": "Dịch tễ học nguồn gốc nhiễm trùng gây sepsis: Hô hấp thường gặp nhất (~40%), tiếp theo là tiêu hóa - ổ bụng / gan mật (~30%)."
+  },
+  "SURGR1-A05": {
+    "conf": 3,
+    "reason": "Chẩn đoán phân biệt / xác định: 'Sốc nhiễm khuẩn (Septic Shock) theo tiêu chuẩn đồng thuận' là chẩn đoán đầy đủ và chính xác nhất cho bài sốc nhiễm khuẩn."
+  },
+  "SURGR1-B03": {
+    "conf": 3,
+    "reason": "Đích CVP khi thở máy (thông khí áp lực dương): duy trì CVP 12 đến 15 mmHg (cao hơn so với tự thở 8-12 mmHg do áp lực lồng ngực dương)."
+  },
+  "SURGR1-B09": {
+    "conf": 3,
+    "reason": "Thuốc vận mạch lựa chọn hàng đầu (first-line) trong sốc nhiễm khuẩn là Norepinephrine truyền tĩnh mạch qua catheter trung tâm."
+  },
+  "SURGR1-B19": {
+    "conf": 3,
+    "reason": "Mục tiêu kiểm soát đường huyết trong hồi sức sốc nhiễm khuẩn: duy trì dưới 10 mmol/L (180 mg/dL), tránh hạ đường huyết do kiểm soát quá chặt chẽ."
+  },
+  "SURGR1-A12": {
+    "conf": 2,
+    "reason": "Chỉ dấu nhiễm khuẩn nặng PCT tăng cao và theo dõi lactate động học mỗi 2 - 4 giờ."
+  },
+  "SURGR1-A21": {
+    "conf": 3,
+    "reason": "Biến chứng chuyển hóa và đông máu điển hình trong sốc nhiễm khuẩn: Toan chuyển hóa nặng do tăng acid lactic máu và đông máu nội mạch rải rác (DIC)."
+  },
+  "SURGR1-B01": {
+    "conf": 3,
+    "reason": "Mục tiêu huyết áp đầu tiên trong hồi sức sốc nhiễm khuẩn: Huyết áp động mạch trung bình (MAP) >= 65 mmHg."
+  },
+  "SURGR1-B22": {
+    "conf": 3,
+    "reason": "Đánh giá đáp ứng hồi sức: phương án tổng hợp liệt kê đầy đủ các đích hồi sức đạt chuẩn (MAP >= 65, nước tiểu >= 0.5, CVP 8-12, ScvO2 >= 70%, Lactat giảm >= 20%/2h)."
+  },
+  "SURGR1-A10": {
+    "conf": 3,
+    "reason": "Dấu hiệu giảm tưới máu ngoại vi lâm sàng: Refill mao mạch kéo dài (> 2 giây) và thiểu niệu (< 0.5 ml/kg/giờ)."
+  },
+  "SURGR1-B14": {
+    "conf": 3,
+    "reason": "Thời điểm dùng kháng sinh tĩnh mạch trong sốc nhiễm khuẩn: bắt buộc trong vòng 1 giờ đầu tiên ('golden hour') ngay sau khi nhận diện."
+  }
+}

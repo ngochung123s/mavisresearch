@@ -1,0 +1,266 @@
+[
+  {
+    "id": "BLIND-001",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Khuyến cáo hồi sinh tim phổi (CPR) chuẩn: ép sâu 5 cm (5-6 cm ở người lớn), tần số 100 - 120 lần/phút, để lồng ngực dãn nở tối đa sau mỗi lần ép."
+  },
+  {
+    "id": "BLIND-002",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Trong hồi sức suy tuần hoàn cấp/sốc, thiết lập ngay ít nhất 2 đường truyền tĩnh mạch lớn ngoại biên cỡ kim lớn (14G - 16G) là ưu tiên số một để bù thể tích nhanh."
+  },
+  {
+    "id": "BLIND-003",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Chèn ép tim cấp hoặc suy tim ứ trệ là nguyên nhân tim mạch/tắc nghẽn gây sốc tuần hoàn có CVP tăng cao và tĩnh mạch cổ nổi, phân biệt với các nhóm giảm thể tích tuần hoàn."
+  },
+  {
+    "id": "BLIND-004",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Trong các phác đồ hồi sức tuần hoàn, sau khi bù đủ dịch mà huyết áp chưa đạt mục tiêu (hoặc shock phân bố/suy tim), bước tiếp theo là bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim."
+  },
+  {
+    "id": "BLIND-005",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Dấu hiệu sớm nhất của suy tuần hoàn/sốc do kích thích thần kinh giao cảm và giảm tưới máu não nhẹ là lo lắng, bồn chồn, đánh trống ngực; trong khi vân tím, li bì hay thở ngáp là biểu hiện muộn."
+  },
+  {
+    "id": "BLIND-006",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Khi bù dịch đủ và huyết động đáp ứng tốt hoặc có dấu hiệu quá tải nhẹ, thái độ xử trí đúng là giảm tốc độ truyền, ngừng hồi sức dịch ồ ạt để tránh biến chứng phù phổi cấp."
+  },
+  {
+    "id": "BLIND-007",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Tiêu chuẩn thiểu niệu trong hồi sức sốc/suy tuần hoàn kinh điển là lượng nước tiểu < 0,5 ml/kg/giờ (ở người lớn), phản ánh giảm tưới máu thận trầm trọng."
+  },
+  {
+    "id": "BLIND-008",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Trong sốc mất máu ngoại khoa đang tiếp diễn (chảy máu nội hoạt động), nguyên tắc tối thượng là song song vừa hồi sức vừa chuyển ngay vào phòng mổ để cầm máu triệt căn."
+  },
+  {
+    "id": "BLIND-009",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Chỉ định lọc máu ngoài thận cấp cứu khi bệnh nhân có quá tải dịch/suy thận cấp kháng trị với lợi tiểu quai liều cao, đe dọa phù phổi cấp."
+  },
+  {
+    "id": "BLIND-010",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Trong xử trí sốc chấn thương do gãy xương lớn (xương đùi/xương chậu), việc cố định tạm thời ổ gãy bằng nẹp Thomas và giảm đau giúp cầm máu và chống sốc hiệu quả."
+  },
+  {
+    "id": "BLIND-011",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Các thuốc giảm đau opioid kinh điển được lựa chọn trong hồi sức chấn thương ngoại khoa gồm Morphine, Fentanyl và Sufentanil."
+  },
+  {
+    "id": "BLIND-012",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Trong rối loạn nhịp nhanh nặng, cơ chế chính dẫn đến tụt huyết áp và suy tuần hoàn là nhịp quá nhanh làm rút ngắn thời gian tâm trương, cản trở đổ đầy thất và giảm nặng lưu lượng tưới máu mạch vành."
+  },
+  {
+    "id": "BLIND-013",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Mục tiêu áp lực tĩnh mạch trung tâm (CVP) chuẩn trong hồi sức suy tuần hoàn / nhiễm khuẩn nặng theo hướng dẫn kinh điển là duy trì từ 8 đến 12 cmH₂O (hoặc mmHg)."
+  },
+  {
+    "id": "BLIND-014",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Trong cấp cứu ngừng tuần hoàn có rối loạn nhịp có thể phá rung (rung thất hoặc nhịp nhanh thất vô mạch), chỉ định sống còn là sốc điện phá rung ngay (1 pha 360J hoặc 2 pha 150 – 200J) rồi ép tim ngay 2 phút."
+  },
+  {
+    "id": "BLIND-015",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Thuốc vận mạch và tăng co bóp cơ tim (noradrenaline, adrenaline, dobutamine) là nhóm can thiệp dược lý thiết yếu hàng đầu trong hồi sức suy tuần hoàn cấp."
+  },
+  {
+    "id": "BLIND-016",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Đáp ứng nội tiết bù trừ của cơ thể khi suy tuần hoàn/giảm thể tích tuần hoàn hữu dụng là tăng tiết Aldosterone và ADH thứ phát qua trục RAA để giữ muối và nước."
+  },
+  {
+    "id": "BLIND-017",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Đặc điểm sinh lý bệnh quan trọng của mất máu cấp: Hb và Hematocrit ban đầu chưa giảm ngay vì mất máu toàn phần đẳng trương, chỉ giảm muộn sau khi dịch chuyển từ gian bào vào lòng mạch hoặc sau khi hồi sức bù dịch."
+  },
+  {
+    "id": "BLIND-018",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Đối với ngừng tuần hoàn có nhịp không sốc điện được (vô tâm thu hoặc phân ly điện cơ - PEA), phác đồ chuẩn là không sốc điện, ép tim liên tục, tiêm Adrenaline 1mg mỗi 3 - 5 phút và tích cực tìm sửa các nguyên nhân 5T 5H."
+  },
+  {
+    "id": "BLIND-019",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Trong đáp ứng với bù dịch tạm thời hoặc không đáp ứng ở bệnh nhân sốc mất máu (transient/non-responder), phác đồ khuyến cáo bù dịch tinh thể và bắt buộc truyền máu kèm các chế phẩm máu."
+  },
+  {
+    "id": "BLIND-020",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Cung lượng tim (CO) bình thường ở người trưởng thành khoảng 5,0 - 5,5 L/phút (giá trị 5,20 L/phút là giá trị sinh lý chuẩn phổ biến: thể tích nhát bóp ~70ml x tần số ~75ck/phút)."
+  },
+  {
+    "id": "BLIND-021",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Phương án đầy đủ và bao quát cho tình huống sốc mất máu tiến triển/nặng cần can thiệp mức độ cao: bù dịch tinh thể và bắt buộc truyền máu kèm các chế phẩm máu."
+  },
+  {
+    "id": "BLIND-022",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Mục tiêu truyền máu/Hb khuyến cáo phổ biến trong hồi sức chấn thương ngoại khoa hoặc sốc tuần hoàn là duy trì Hb > 90 g/L (hoặc 70-90 g/L kèm Hct > 25 - 30%)."
+  },
+  {
+    "id": "BLIND-023",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Tiêu chuẩn chỉ định hồi sức truyền dịch chống sốc bỏng theo phác đồ Parkland kinh điển là bỏng diện rộng > 20% diện tích cơ thể ở người lớn và > 10% ở trẻ em."
+  },
+  {
+    "id": "BLIND-024",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Dung dịch dịch tinh thể đẳng trương (Ringer Lactat hoặc NaCl 0,9%) là dịch hồi sức ban đầu được lựa chọn ưu tiên hàng đầu trong mọi hướng dẫn hồi sức suy tuần hoàn cấp."
+  },
+  {
+    "id": "BLIND-025",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Tràn khí màng phổi dưới áp lực (Tension pneumothorax) là nguyên nhân gây suy tuần hoàn tắc nghẽn cấp tính có triệu chứng suy hô hấp nổi bật, lồng ngực căng phồng, gõ vang, cần chọc giải áp khẩn."
+  },
+  {
+    "id": "BLIND-026",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Ngưỡng chỉ định hồi sức truyền dịch chống sốc bỏng chuẩn: diện tích bỏng > 20% ở người lớn và > 10% ở trẻ em."
+  },
+  {
+    "id": "BLIND-027",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Nguyên nhân gây mạch chậm, ức chế tim nặng nề trong hồi sức suy tuần hoàn giai đoạn cuối thường là hạ thân nhiệt nặng và thiếu oxy mô giai đoạn cuối."
+  },
+  {
+    "id": "BLIND-028",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Tai biến tim mạch nghiêm trọng (ngừng tim, loạn nhịp thất) xảy ra do tiêm tĩnh mạch quá nhanh ion Calci (Ca²⁺) hoặc Kali (K⁺), đây là chống chỉ định tuyệt đối trong hồi sức."
+  },
+  {
+    "id": "BLIND-029",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Lưu lượng tim toàn phần (Cardiac Output - CO) là thông số huyết động cốt lõi trực tiếp quyết định khả năng cung cấp oxy và tưới máu mô trong suy tuần hoàn."
+  },
+  {
+    "id": "BLIND-030",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Gãy xương chậu hoặc gãy các xương lớn (xương đùi) là nguyên nhân chấn thương ngoại khoa gây mất máu nội lượng rất lớn (lên tới 1000 - 3000 ml) dẫn đến sốc giảm thể tích cấp tính."
+  },
+  {
+    "id": "BLIND-031",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Khi bệnh nhân có biểu hiện quá tải dịch cấp tính (phù phổi cấp do truyền thừa dịch), xử trí khẩn cấp là ngừng truyền dịch ngay, tiêm Furosemide tĩnh mạch và hỗ trợ hô hấp."
+  },
+  {
+    "id": "BLIND-032",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Dấu hiệu điện tâm đồ bệnh lý báo động suy tuần hoàn do nguyên nhân tim mạch hoặc biến chứng cơ tim là dấu hiệu thiếu máu cục bộ cơ tim với đoạn ST chênh hoặc nhịp nhanh thất."
+  },
+  {
+    "id": "BLIND-033",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Toan chuyển hóa do tích tụ acid lactic trong sốc/suy tuần hoàn giảm tưới máu mô được đặc trưng bởi pH < 7,35; HCO₃⁻ < 22 mmol/L; BE < -3 mmol/L."
+  },
+  {
+    "id": "BLIND-034",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Các yếu tố nguy cơ và rối loạn chuyển hóa gây trụy mạch và ngừng tim khó hồi phục trong sốc nặng: hạ thân nhiệt nặng, thiếu oxy giai đoạn cuối, thừa CO₂ giai đoạn đầu (tam chứng suy sụp)."
+  },
+  {
+    "id": "BLIND-035",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Mục tiêu Hematocrit tối thiểu trong hồi sức sốc mất máu ngoại khoa bảo tồn oxy mô thường là duy trì Hct ≥ 25 – 30% (tương đương Hb ≥ 80 – 100 g/L)."
+  },
+  {
+    "id": "BLIND-036",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Trong suy tuần hoàn / sốc sau khi đã bù đủ dịch mà huyết áp trung bình vẫn không đạt > 65 mmHg, can thiệp tiếp theo là bắt đầu dùng thuốc vận mạch hoặc tăng co bóp cơ tim."
+  },
+  {
+    "id": "BLIND-037",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Vỡ lách độ IV do chấn thương là nguyên nhân chấn thương bụng kín điển hình gây sốc mất máu nặng cấp tính cần phẫu thuật ngoại khoa khẩn cấp."
+  },
+  {
+    "id": "BLIND-038",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Định nghĩa kinh điển của tụt huyết áp trong sốc / suy tuần hoàn ở người lớn là HATT < 90 – 100 mmHg hoặc giảm > 30% so với huyết áp nền bình thường."
+  },
+  {
+    "id": "BLIND-039",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Tiêu chuẩn toan chuyển hóa điển hình trong sốc suy tuần hoàn giảm tưới máu là: pH < 7,35; HCO₃⁻ < 22 mmol/L; BE < -3 mmol/L."
+  },
+  {
+    "id": "BLIND-040",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Quy trình hồi sinh tim phổi cơ bản (BLS) khi chưa có máy thở/ống nội khí quản: ép tim 30 lần : thổi ngạt 2 lần, ép sâu 5 cm, tần số 100 – 120 lần/phút."
+  },
+  {
+    "id": "BLIND-041",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Áp lực tĩnh mạch trung tâm (CVP) hoặc thể tích cuối tâm trương thất phản ánh yếu tố tiền gánh tâm thất trong huyết động học."
+  },
+  {
+    "id": "BLIND-042",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Test truyền dịch ban đầu kinh điển ở người lớn bị sốc là truyền 1000 – 2000 ml dịch tinh thể đẳng trương trong 20 – 30 phút (2000 ml là liều nạp chuẩn theo ATLS truyền thống)."
+  },
+  {
+    "id": "BLIND-043",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Cơ chế bệnh sinh chính của suy tuần hoàn trong chèn ép tim cấp hoặc tràn khí màng phổi áp lực là cản trở cơ học hồi lưu máu tĩnh mạch về tim."
+  },
+  {
+    "id": "BLIND-044",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Khi bệnh nhân đã được đặt ống nội khí quản và có đường thở nâng cao, kỹ thuật hồi sinh tim phổi nâng cao (ACLS) chuẩn là: ép tim liên tục 100 lần/phút (hoặc 100-120) và bóp bóng 8 – 10 lần/phút không ngừng ép."
+  }
+]

@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURGR3-A01",
+      "type": "concept",
+      "topic": "Sinh lý tuần hoàn & Lưu lượng tim",
+      "subtopic": "Công thức và thành phần lưu lượng tim",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R3 §II.1.2",
+      "text": "Bác sĩ hồi sức đang phân tích thông số huyết động của bệnh nhân.\nChỉ số nào sau đây được tính bằng hiệu số giữa EDV và ESV?",
+      "options": [
+        "Phân số tống máu thất trái (EF)",
+        "Lưu lượng tim toàn phần (CO)",
+        "Thể tích tống máu tâm thu (VES)",
+        "Sức cản mạch máu ngoại vi (SVR)"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem II.1.2: VES (Thể tích tống máu tâm thu) = Thể tích thất cuối tâm trương (EDV) − Thể tích thất cuối tâm thu (ESV).",
+      "option_explanations": [
+        "Sai — Phân số tống máu (EF) là tỷ số giữa VES và EDV (EF = VES / EDV × 100%).",
+        "Sai — Lưu lượng tim (CO) được tính bằng tích số giữa VES và tần số tim (CO = VES × f).",
+        "Đúng — VES được tính bằng hiệu số giữa thể tích thất cuối tâm trương (EDV) và thể tích thất cuối tâm thu (ESV).",
+        "Sai — Sức cản mạch ngoại vi (SVR) phụ thuộc độ chênh áp hệ thống chia cho lưu lượng tim."
+      ]
+    },
+    {
+      "id": "SURGR3-A02",
+      "type": "calc",
+      "topic": "Sinh lý tuần hoàn & Lưu lượng tim",
+      "subtopic": "Tính toán lưu lượng tim và thể tích tống máu",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.1.2",
+      "text": "Bệnh nhân nam 45 tuổi sau phẫu thuật cắt đại tràng có siêu âm tim qua thành ngực ghi nhận thể tích thất trái cuối tâm trương EDV = 110 ml, thể tích thất trái cuối tâm thu ESV = 45 ml, tần số tim đều 80 lần/phút.\nLưu lượng tim (CO) của bệnh nhân tại thời điểm này đạt giá trị nào sau đây?",
+      "options": [
+        "3,60 lít/phút",
+        "5,20 lít/phút",
+        "6,80 lít/phút",
+        "8,80 lít/phút"
+      ],
+      "correct": 1,
+      "explanation": "VES = EDV − ESV = 110 ml − 45 ml = 65 ml = 0,065 lít. Lưu lượng tim CO = VES × f = 0,065 × 80 = 5,20 lít/phút.",
+      "option_explanations": [
+        "Sai — 3,60 lít/phút là tích số giữa thể tích cuối tâm thu 45 ml và tần số tim 80 lần/phút.",
+        "Đúng — VES = 110 − 45 = 65 ml; CO = 65 ml × 80 lần/phút = 5200 ml/phút = 5,20 lít/phút.",
+        "Sai — 6,80 lít/phút là kết quả nếu lấy nhầm thể tích nhát bóp 85 ml × 80 lần/phút.",
+        "Sai — 8,80 lít/phút là kết quả nếu lấy toàn bộ thể tích cuối tâm trương 110 ml × 80 lần/phút."
+      ]
+    },
+    {
+      "id": "SURGR3-A03",
+      "type": "concept",
+      "topic": "Sinh lý tuần hoàn & Lưu lượng tim",
+      "subtopic": "4 yếu tố quyết định lưu lượng tim",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-R3 §II.1.2",
+      "text": "Lực cản mà tâm thất phải vượt qua để tống máu vào hệ thống động mạch trong mỗi chu chuyển tim được định nghĩa là yếu tố nào?",
+      "options": [
+        "Tiền gánh tâm thất",
+        "Hậu gánh tâm thất",
+        "Sức co bóp cơ tim",
+        "Tần số tim sinh lý"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem II.1.2: Tiền gánh là thể tích làm đầy tâm thất cuối thì tâm trương, đo gián tiếp bằng Áp lực tĩnh mạch trung tâm (CVP/PVC), bình thường 8 - 12 cmH₂O.",
+      "option_explanations": [
+        "Đúng — Tiền gánh là thể tích làm đầy tâm thất cuối thì tâm trương, được đo gián tiếp qua CVP.",
+        "Sai — Hậu gánh là lực cản thất phải vượt qua để tống máu, đo bằng sức cản mạch ngoại vi (SVR).",
+        "Sai — Sức co bóp cơ tim đo gián tiếp bằng phân số tống máu (EF).",
+        "Sai — Tần số tim là số chu chuyển tim trong một phút."
+      ]
+    },
+    {
+      "id": "SURGR3-A04",
+      "type": "concept",
+      "topic": "Sinh lý tuần hoàn & Lưu lượng tim",
+      "subtopic": "Ảnh hưởng của tần số tim lên lưu lượng tim",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.1.2",
+      "text": "Bệnh nhân sau mổ xuất hiện cơn nhịp nhanh kịch phát với tần số tim tăng vọt lên 195 lần/phút, dẫn tới tụt huyết áp và sụt giảm lưu lượng tim nghiêm trọng. Cơ chế sinh lý nào sau đây giải thích hiện tượng này theo barem?",
+      "options": [
+        "Giảm sức co bóp cơ tim nguyên phát do hoại tử lan tỏa tế bào tim",
+        "Tăng áp lực đổ đầy thất trái dẫn đến quá tải thể tích tuần hoàn",
+        "Tăng sức cản mạch ngoại biên do phản xạ co mạch giao cảm hệ thống",
+        "Rút ngắn thời gian tâm trương làm đầy thất và giảm tưới máu vành"
+      ],
+      "correct": 3,
+      "explanation": "Barem II.1.2 ghi rõ: tần số tim tỷ lệ thuận với CO ở giới hạn sinh lý; nếu tim đập quá nhanh > 180 lần/phút thì lưu lượng tim giảm mạnh do rút ngắn thời gian tâm trương làm đầy thất và giảm tưới máu mạch vành.",
+      "option_explanations": [
+        "Sai — Nhịp nhanh gây giảm CO do cơ học chu chuyển tim, không phải do hoại tử cơ tim cấp.",
+        "Sai — Nhịp quá nhanh làm thất không kịp nhận máu nên không gây quá tải thể tích buồng thất.",
+        "Sai — Tăng sức cản mạch là cơ chế của hậu gánh hoặc phản xạ co mạch bù trừ trong sốc.",
+        "Đúng — Nhịp tim > 180 l/p rút ngắn thì tâm trương làm đầy thất và giảm tưới máu mạch vành làm giảm mạnh CO."
+      ]
+    },
+    {
+      "id": "SURGR3-A05",
+      "type": "vignette",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Mất máu cấp tính do chấn thương",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R3 §II.2.1.1 & Câu hỏi lượng giá 1",
+      "text": "Bệnh nhân nam 32 tuổi vào viện cấp cứu trong tình trạng sốc suy tuần hoàn cấp tính do mất máu. Tổn thương nào sau đây là nguyên nhân gây mất máu cấp tính hay gặp nhất trong cấp cứu ngoại khoa theo barem?",
+      "options": [
+        "Gãy xương chậu hoặc gãy xương lớn",
+        "Chảy máu do búi trĩ nội biến chứng",
+        "Rỉ máu đường mật mạn tính kéo dài",
+        "Thiếu máu mạn tính do nhiễm giun móc"
+      ],
+      "correct": 0,
+      "explanation": "Theo Câu hỏi lượng giá 1 và mục II.2.1.1, nguyên nhân gây suy tuần hoàn do mất máu cấp tính hay gặp nhất trong cấp cứu ngoại khoa là vỡ xương chậu / gãy xương lớn / vỡ tạng đặc. Trĩ chảy máu, rỉ máu đường mật, giun móc gây mất máu mạn tính.",
+      "option_explanations": [
+        "Đúng — Gãy xương chậu hoặc gãy xương đùi/xương lớn là nguyên nhân mất máu cấp tính hàng đầu trong ngoại khoa.",
+        "Sai — Chảy máu búi trĩ là nguyên nhân mất máu mạn tính.",
+        "Sai — Rỉ máu đường mật kéo dài gây thiếu máu mạn tính.",
+        "Sai — Nhiễm giun móc gây thiếu máu mạn tính do mất máu rỉ rả qua ruột."
+      ]
+    },
+    {
+      "id": "SURGR3-A06",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Mất nước và điện giải trong bỏng",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.1.1",
+      "text": "Bệnh nhân bị bỏng nặng có nguy cơ cao suy tuần hoàn do mất nước và điện giải qua bề mặt da tổn thương. Ngưỡng diện tích bỏng nào sau đây được barem xác định là bỏng nặng ở người lớn và trẻ em?",
+      "options": [
+        "Bỏng diện rộng > 10% ở người lớn và > 5% ở trẻ em",
+        "Bỏng diện rộng > 20% ở người lớn và > 10% ở trẻ em",
+        "Bỏng diện rộng > 30% ở người lớn và > 15% ở trẻ em",
+        "Bỏng diện rộng > 40% ở người lớn và > 25% ở trẻ em"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem II.2.1.1: Bỏng nặng (bỏng diện rộng > 30% ở người lớn, > 15% ở trẻ em) là nguyên nhân gây mất nước và điện giải dẫn đến suy tuần hoàn.",
+      "option_explanations": [
+        "Sai — Ngưỡng này thấp hơn tiêu chuẩn bỏng nặng gây suy tuần hoàn trong barem.",
+        "Sai — 20% người lớn / 10% trẻ em là chỉ định truyền dịch chung, chưa đạt tiêu chuẩn bỏng nặng trong bài.",
+        "Đúng — Barem quy định bỏng diện rộng > 30% ở người lớn và > 15% ở trẻ em là bỏng nặng gây suy tuần hoàn.",
+        "Sai — Barem chỉ định rõ mốc > 30% ở người lớn và > 15% ở trẻ em."
+      ]
+    },
+    {
+      "id": "SURGR3-A07",
+      "type": "vignette",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Tăng khối lượng tuần hoàn sau chấn thương sọ não",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.1.1",
+      "text": "Bệnh nhân nam 28 tuổi chấn thương sọ não nặng vùng nền sọ và cuống tuyến yên đang theo dõi hậu phẫu xuất hiện tình trạng quá tải dịch, tăng khối lượng tuần hoàn cấp tính dù không truyền dịch quá mức. Rối loạn nội tiết nào sau đây là nguyên nhân trực tiếp dẫn tới hiện tượng này?",
+      "options": [
+        "Hội chứng suy thượng thận cấp gây giảm tiết Aldosterone",
+        "Hội chứng tăng tiết Aldosterone hoặc ADH thứ phát",
+        "Hội chứng mất muối do não gây giảm tái hấp thu Natri",
+        "Hội chứng đái tháo nhạt trung ương gây mất nước qua thận"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.2.1.1 nêu rõ: Tăng khối lượng tuần hoàn (thừa dịch/nước) do suy thận thiểu niệu, suy tim sung huyết, xơ gan mất bù, truyền dịch quá nhanh và tăng tiết Aldosterone hoặc ADH thứ phát do chấn thương sọ não vùng dưới đồi.",
+      "option_explanations": [
+        "Sai — Suy thượng thận cấp làm giảm aldosterone gây mất muối nước, giảm thể tích tuần hoàn.",
+        "Đúng — Chấn thương vùng dưới đồi - tuyến yên kích thích tăng tiết thứ phát Aldosterone hoặc ADH gây giữ nước và tăng khối lượng tuần hoàn.",
+        "Sai — Hội chứng mất muối do não (CSW) gây mất muối nước, làm giảm khối lượng tuần hoàn.",
+        "Sai — Đái tháo nhạt gây đái nhiều mất nước, thuộc nhóm giảm thể tích tuần hoàn trong barem."
+      ]
+    },
+    {
+      "id": "SURGR3-A08",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Rối loạn vận mạch gây giãn mạch đột ngột",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.1.2",
+      "text": "Trong theo dõi hồi sức ngoại khoa, tình huống phối hợp rối loạn thân nhiệt và khí máu nào sau đây là nguyên nhân trực tiếp gây giãn mạch đột ngột dẫn đến giảm thể tích tuần hoàn tương đối?",
+      "options": [
+        "Hạ thân nhiệt nhẹ, thiếu oxy giai đoạn đầu, toan hô hấp mạn tính có bù",
+        "Tăng thân nhiệt ác tính, thiếu oxy giai đoạn đầu, hạ CO₂ máu kéo dài",
+        "Hạ thân nhiệt nhẹ, nhiễm toan hô hấp mạn bù trừ kiềm",
+        "Hạ thân nhiệt nặng, thiếu oxy giai đoạn cuối, thừa CO₂ giai đoạn đầu"
+      ],
+      "correct": 3,
+      "explanation": "Barem II.2.1.2 chỉ rõ: Giãn mạch đột ngột (giảm thể tích tuần hoàn tương đối) do sốc nhiễm khuẩn, phản vệ, sốc tủy, thuốc mê/tê, thuốc hạ áp, hạ thân nhiệt nặng, thiếu oxy giai đoạn cuối, thừa CO₂ giai đoạn đầu.",
+      "option_explanations": [
+        "Sai — Thiếu oxy giai đoạn đầu gây co mạch, không gây giãn mạch.",
+        "Sai — Thiếu oxy giai đoạn đầu kích thích co mạch ngoại biên bù trừ qua phản xạ giao cảm.",
+        "Sai — Sốt cao và kiềm chuyển hóa không phải cơ chế gây giãn mạch đột ngột làm suy tuần hoàn trong barem.",
+        "Đúng — Hạ thân nhiệt nặng, thiếu oxy giai đoạn cuối, thừa CO₂ giai đoạn đầu là nhóm nguyên nhân gây giãn mạch đột ngột được nêu trong barem."
+      ]
+    },
+    {
+      "id": "SURGR3-A09",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Co mạch đột ngột",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.1.2",
+      "text": "Trong các nguyên nhân ngoại khoa sau đây, tình trạng bệnh lý nào dẫn đến suy tuần hoàn do cơ chế co mạch mạnh hoặc đột ngột theo barem?",
+      "options": [
+        "Sốc nhiễm khuẩn giai đoạn muộn",
+        "Cơn đau dữ dội hoặc hoảng loạn tinh thần",
+        "Tác dụng phụ của thuốc gây tê tủy sống",
+        "Hạ thân nhiệt nặng và thiếu oxy cuối"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.2.1.2 ghi: Co mạch mạnh hoặc đột ngột gặp trong: Giai đoạn đầu của sốc (phản xạ giao cảm bù trừ), Quá liều thuốc co mạch (Catecholamine, Ephedrine, Phenylephrine), Cơn đau dữ dội hoặc hoảng loạn tinh thần quá mức.",
+      "option_explanations": [
+        "Đúng — Đau đớn dữ dội, hoảng loạn hoặc quá liều catecholamine kích hoạt đáp ứng co mạch mạnh.",
+        "Sai — Gây tê tủy sống phong bế giao cảm gây giãn mạch tụt huyết áp.",
+        "Sai — Sốc nhiễm khuẩn gây giãn mạch giải phóng nitric oxide, thuộc nhóm giãn mạch đột ngột.",
+        "Sai — Sốc phản vệ gây giãn mạch và thoát huyết tương lòng mạch."
+      ]
+    },
+    {
+      "id": "SURGR3-A10",
+      "type": "vignette",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Cản trở cơ học hồi lưu máu",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.1.3",
+      "text": "Bệnh nhân nam 35 tuổi bị vết thương ngực vào cấp cứu với huyết áp tụt, tĩnh mạch cổ nổi căng và tiếng tim mờ xa xăm. Nhóm nguyên nhân suy tuần hoàn nào sau đây giải thích chính xác nhất cơ chế bệnh sinh ở bệnh nhân này?",
+      "options": [
+        "Giảm thể tích tuần hoàn do mất máu khoang màng phổi lớn",
+        "Cản trở cơ học hồi lưu máu về tim",
+        "Giãn mạch đột ngột do sốc phân bố",
+        "Suy giảm sức co bóp cơ tim tại tim"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.2.1.3 xếp Chèn ép tim cấp (Tamponade) và Tràn khí màng phổi dưới áp lực vào nhóm 'Cản trở cơ học hồi lưu máu về tim (Sốc tắc nghẽn)', làm tim không thể nhận máu về trong thì tâm trương.",
+      "option_explanations": [
+        "Sai — Mất máu giảm thể tích tuần hoàn sẽ có tĩnh mạch ngoại biên xẹp và CVP giảm.",
+        "Đúng — Tamponade tim gây cản trở cơ học hồi lưu máu về buồng tim, biểu hiện tụt huyết áp kèm tĩnh mạch cổ nổi căng.",
+        "Sai — Sốc phân bố giãn mạch gây ứ máu ngoại vi, tĩnh mạch cổ không nổi căng.",
+        "Sai — Suy co bóp cơ tim nguyên phát do nhồi máu cơ tim cấp, không đặc trưng cho vết thương ngực sắc nhọn."
+      ]
+    },
+    {
+      "id": "SURGR3-A11",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Nguyên nhân suy tuần hoàn tại tim do thuốc",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.2",
+      "text": "Trong quá trình hồi sức phẫu thuật, tai biến tiêm truyền tĩnh mạch nào sau đây có thể tác động trực tiếp lên màng sợi cơ tim gây ngừng tim đột ngột trên bàn mổ theo barem?",
+      "options": [
+        "Truyền tĩnh mạch nhanh dung dịch Ringer Lactat cân bằng điện giải",
+        "Truyền tĩnh mạch nhanh dung dịch Natri Clorid 0,9% đẳng trương",
+        "Tiêm tĩnh mạch quá nhanh ion Calci (Ca²⁺) hoặc Kali (K⁺)",
+        "Tiêm tĩnh mạch chậm dung dịch Glucose 10% có pha thêm insulin"
+      ],
+      "correct": 2,
+      "explanation": "Barem II.2.2 nêu rõ: Suy tuần hoàn do nguyên nhân tại tim gồm ngộ độc thuốc, tiêm quá nhanh Ca²⁺, K⁺ vào tĩnh mạch gây ngừng tim. (Lưu ý: NaCl 0,9% là dung dịch đẳng trương, nếu truyền nhanh gây quá tải dịch chứ không ngừng tim trực tiếp do độc cơ tim).",
+      "option_explanations": [
+        "Sai — Ringer Lactat đẳng trương là dịch hồi sức thể tích ưu tiên hàng đầu trong sốc giảm thể tích.",
+        "Sai — NaCl 0,9% đẳng trương truyền nhanh có thể gây quá tải tuần hoàn, không gây ngừng tim trực tiếp.",
+        "Đúng — Tiêm nhanh Ca²⁺ hoặc K⁺ vào tĩnh mạch gây ngừng tim đột ngột do phá vỡ điện thế màng tế bào cơ tim.",
+        "Sai — Glucose 10% pha insulin dùng điều trị tăng kali máu cấp, tiêm chậm an toàn cho tim."
+      ]
+    },
+    {
+      "id": "SURGR3-A12",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Rối loạn nhịp do thuốc mê và thuốc tiền mê",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.2",
+      "text": "Bệnh nhân trong phòng mổ đột ngột xuất hiện rối loạn nhịp tim nặng dẫn đến suy tuần hoàn cấp tính. Nhóm thuốc nào sau đây được barem chỉ rõ có nguy cơ gây tai biến này khi tiêm nhanh trong quá trình gây mê?",
+      "options": [
+        "Vecuronium, Rocuronium và Atracurium",
+        "Morphine, Fentanyl và Sufentanil",
+        "Midazolam, Diazepam và Lorazepam",
+        "Halothane, Thiopental và Atropine"
+      ],
+      "correct": 3,
+      "explanation": "Theo giáo trình gốc barem II.2.2: Rối loạn nhịp tim do 'Tác dụng của thuốc mê (Halothane, Thiopental, Atropine) khi tiêm nhanh; rối loạn thần kinh giao cảm - phó giao cảm; toan kiềm và rối loạn điện giải'.",
+      "option_explanations": [
+        "Sai — Nhóm thuốc giãn cơ không khử cực tác động lên synap thần kinh cơ, không gây loạn nhịp trực tiếp như nhóm thuốc mê bay hơi/barbiturate.",
+        "Sai — Nhóm giảm đau trung ương opioid chủ yếu gây ức chế hô hấp và chậm nhịp xoang nhẹ.",
+        "Sai — Nhóm benzodiazepine gây an thần, ít tác động gây rối loạn nhịp thất ác tính.",
+        "Đúng — Barem ghi rõ Halothane, Thiopental và Atropine khi tiêm nhanh có nguy cơ gây rối loạn nhịp tim cấp tính."
+      ]
+    },
+    {
+      "id": "SURGR3-A13",
+      "type": "concept",
+      "topic": "Nguyên nhân suy tuần hoàn ngoại khoa",
+      "subtopic": "Nguyên nhân suy tuần hoàn do hậu gánh",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.2.3",
+      "text": "Bệnh cảnh lâm sàng nào sau đây được xếp vào nhóm nguyên nhân gây suy tuần hoàn do tăng đột ngột hậu gánh trong ngoại khoa?",
+      "options": [
+        "Tắc động mạch phổi diện rộng",
+        "Tràn máu màng ngoài tim cấp",
+        "Vỡ lách độ IV do chấn thương",
+        "Hẹp phì đại môn vị gây nôn"
+      ],
+      "correct": 0,
+      "explanation": "Barem II.2.3 ghi nhận các nguyên nhân do hậu gánh gồm: Tăng huyết áp kịch phát, hẹp động mạch chủ cấp, tắc mạch phổi diện rộng. (Tamponade thuộc cản trở cơ học hồi lưu, vỡ lách là mất máu cấp, hẹp môn vị là mất nước điện giải).",
+      "option_explanations": [
+        "Đúng — Tắc mạch phổi diện rộng làm tăng áp lực mạch phổi và tăng đột ngột hậu gánh của thất phải.",
+        "Sai — Tràn máu màng ngoài tim (tamponade) thuộc nhóm cản trở cơ học hồi lưu máu (tiền gánh).",
+        "Sai — Vỡ lách gây sốc mất máu cấp tính làm giảm tiền gánh.",
+        "Sai — Hẹp môn vị gây nôn mất nước và điện giải làm giảm tiền gánh."
+      ]
+    },
+    {
+      "id": "SURGR3-A14",
+      "type": "vignette",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Dấu hiệu suy tuần hoàn trên bệnh nhân đang gây mê",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.1",
+      "text": "Ở bệnh nhân còn tỉnh táo, dấu hiệu lâm sàng sớm nhất gợi ý tình trạng suy tuần hoàn cấp tính được giáo trình mô tả là gì?",
+      "options": [
+        "Li bì, lơ mơ rồi đi vào hôn mê sâu",
+        "Lo lắng, bồn chồn, đánh trống ngực",
+        "Thở ngáp cá và ngừng thở đột ngột",
+        "Đầu chi lạnh ẩm và nổi vân tím toàn thân"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.3.1 nêu rõ: Ở bệnh nhân đang gây mê, biểu hiện toàn thân của suy tuần hoàn là 'Da niêm mạc nhợt nhạt, đầu chi lạnh ẩm, máu chảy tại phẫu trường chuyển màu sẫm tím, thân nhiệt hạ'.",
+      "option_explanations": [
+        "Sai — Da đỏ và sốt cao trên 39°C là dấu hiệu của sốt cao ác tính, không phải triệu chứng kinh điển của suy tuần hoàn đang gây mê.",
+        "Sai — Tăng tiết đờm dãi và co thắt phế quản là dấu hiệu của ngộ độc cholinergic hoặc tác dụng phụ thuốc gây mê.",
+        "Đúng — Máu phẫu trường chuyển màu sẫm tím kết hợp đầu chi lạnh ẩm là dấu hiệu chỉ điểm suy tuần hoàn trên bệnh nhân đang gây mê.",
+        "Sai — Đồng tử co nhỏ là dấu hiệu dùng quá liều opioid hoặc ngộ độc lân hữu cơ."
+      ]
+    },
+    {
+      "id": "SURGR3-A15",
+      "type": "concept",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Huyết áp và mạch trong suy tuần hoàn",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R3 §II.3.1",
+      "text": "Theo định nghĩa triệu chứng tim mạch trong suy tuần hoàn ngoại khoa, huyết áp tụt được xác định khi huyết áp tâm thu giảm ở mức nào?",
+      "options": [
+        "HATT < 110 mmHg hoặc giảm > 10% nền",
+        "HATT < 90 – 100 mmHg hoặc giảm > 30% nền",
+        "HATT < 70 mmHg hoặc giảm > 50% nền",
+        "HATT < 60 mmHg hoặc mạch không bắt được"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.3.1 ghi rõ: 'Huyết áp tụt: Huyết áp tâm thu < 90 – 100 mmHg, huyết áp kẹp, hoặc giảm > 30% so với huyết áp nền'.",
+      "option_explanations": [
+        "Sai — Mức 110 - 120 mmHg là huyết áp bình thường hoặc hạ nhẹ chưa đạt tiêu chuẩn sốc/suy tuần hoàn.",
+        "Đúng — Tiêu chuẩn huyết áp tụt trong suy tuần hoàn theo barem là huyết áp tâm thu < 90 – 100 mmHg.",
+        "Sai — Mức 125 - 135 mmHg là huyết áp hoàn toàn bình thường ở người trưởng thành.",
+        "Sai — Mức 140 - 150 mmHg là ngưỡng tăng huyết áp giai đoạn 1."
+      ]
+    },
+    {
+      "id": "SURGR3-A16",
+      "type": "vignette",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Ý nghĩa áp lực tĩnh mạch trung tâm trong chẩn đoán",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.1 & Câu hỏi lượng giá 2 & 3",
+      "text": "Bệnh nhân nam 40 tuổi vào viện vì sốc chấn thương sau tai nạn giao thông. Sau khi đặt catheter tĩnh mạch dưới đòn, chỉ số áp lực tĩnh mạch trung tâm (CVP) đo được ở mức nào sau đây là bằng chứng đáng tin cậy nhất xác định bệnh nhân vẫn còn đang thiếu khối lượng tuần hoàn?",
+      "options": [
+        "CVP > 15 cmH₂O",
+        "CVP từ 8 đến 12 cmH₂O",
+        "CVP từ 13 đến 15 cmH₂O",
+        "CVP < 7 cmH₂O"
+      ],
+      "correct": 3,
+      "explanation": "Barem II.3.1 và Câu hỏi lượng giá 3 nêu rõ: CVP < 7 cmH₂O (hoặc < 8 cmH₂O) phản ánh thiếu khối lượng tuần hoàn. CVP 8 - 12 cmH₂O là bình thường; CVP > 15 cmH₂O là quá tải thể tích hoặc suy tim/tamponade.",
+      "option_explanations": [
+        "Sai — CVP > 15 cmH₂O phản ánh quá tải tuần hoàn hoặc suy tim ứ trệ, chèn ép tim cấp.",
+        "Sai — CVP 8 - 12 cmH₂O là giá trị sinh lý bình thường cho thấy tiền gánh đã được hồi phục đủ.",
+        "Sai — CVP 13 - 15 cmH₂O là mức thể tích cao, không phản ánh thiếu dịch.",
+        "Đúng — CVP < 7 cmH₂O phản ánh trực tiếp sự sụt giảm tiền gánh và thiếu hụt khối lượng tuần hoàn lòng mạch."
+      ]
+    },
+    {
+      "id": "SURGR3-A17",
+      "type": "vignette",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Phân biệt lâm sàng tĩnh mạch ngoại biên",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.1",
+      "text": "Bác sĩ hồi sức khám bệnh nhân tụt huyết áp sau chấn thương lồng ngực thấy tĩnh mạch cổ nổi căng và CVP đo được là 16 cmH₂O. Tình trạng này phản ánh nhóm bệnh cảnh lâm sàng nào sau đây?",
+      "options": [
+        "Chèn ép tim cấp hoặc suy tim ứ trệ",
+        "Sốc mất máu cấp do tổn thương tạng",
+        "Mất nước do tắc ruột cơ học nôn mửa",
+        "Sốc bỏng nặng giai đoạn thoát huyết tương"
+      ],
+      "correct": 0,
+      "explanation": "Barem II.3.1 ghi rõ: Tĩnh mạch ngoại biên xẹp (trong giảm thể tích) hoặc tĩnh mạch cổ nổi căng (trong suy tim/tamponade). CVP > 15 cmH₂O chỉ điểm quá tải tuần hoàn hoặc suy tim ứ trệ, chèn ép tim cấp.",
+      "option_explanations": [
+        "Đúng — Tĩnh mạch cổ nổi căng kèm CVP > 15 cmH₂O chỉ điểm chèn ép tim cấp (tamponade) hoặc suy tim ứ trệ.",
+        "Sai — Mất máu cấp gây giảm thể tích: tĩnh mạch ngoại biên xẹp và CVP giảm.",
+        "Sai — Mất nước do tắc ruột làm giảm thể tích nội mạch, tĩnh mạch xẹp.",
+        "Sai — Sốc bỏng mất huyết tương gây giảm khối lượng tuần hoàn, tĩnh mạch xẹp."
+      ]
+    },
+    {
+      "id": "SURGR3-A18",
+      "type": "concept",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Thiểu niệu trong suy tuần hoàn",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R3 §II.3.1",
+      "text": "Chỉ số bài niệu nào sau đây là dấu hiệu của tình trạng thiểu niệu phản ánh giảm tưới máu thận trong suy tuần hoàn?",
+      "options": [
+        "Lượng nước tiểu < 1,0 ml/kg/giờ",
+        "Lượng nước tiểu < 0,5 ml/kg/giờ",
+        "Lượng nước tiểu < 0,1 ml/kg/giờ",
+        "Lượng nước tiểu 1,5 đến 2,0 ml/kg/giờ"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.3.1 nêu rõ: Biểu hiện tiết niệu gồm 'Thiểu niệu (< 0,5 ml/kg/giờ) hoặc vô niệu; nước tiểu sẫm màu, tỷ trọng tăng cao'.",
+      "option_explanations": [
+        "Sai — Mức 1,0 ml/kg/giờ là mức bài niệu bình thường ở người lớn.",
+        "Đúng — Tiêu chuẩn thiểu niệu theo barem là bài niệu < 0,5 ml/kg/giờ.",
+        "Sai — Mức 1,5 ml/kg/giờ là bài niệu tốt trong hồi sức.",
+        "Sai — Mức 2,0 ml/kg/giờ là ngưỡng đa niệu."
+      ]
+    },
+    {
+      "id": "SURGR3-A19",
+      "type": "concept",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Biến đổi huyết học trong mất máu cấp so với mất nước",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.2",
+      "text": "Bệnh nhân nữ 40 tuổi vào viện vì sốc giảm thể tích sau chấn thương bụng kín chưa được truyền dịch. Tại thời điểm tiếp nhận cấp cứu ban đầu, xét nghiệm công thức máu có đặc điểm biến đổi nào sau đây phù hợp với sinh lý bệnh mất máu cấp tính theo barem?",
+      "options": [
+        "Hb và Hematocrit tăng cao liên tục do hiện tượng cô đặc máu như trong mất nước",
+        "Hb và Hematocrit giảm sâu ngay lập tức trong 15 phút đầu do mất khối hồng cầu",
+        "Hb và Hematocrit giảm muộn và chỉ thể hiện rõ sau khi được hồi sức bù dịch",
+        "Hb giảm sâu trong khi Hematocrit tăng cao do phù tế bào máu"
+      ],
+      "correct": 2,
+      "explanation": "Barem II.3.2 ghi nhận: 'Hb, Hematocrit giảm trong mất máu cấp (muộn hơn sau bù dịch); Hb, Hct tăng cao trong cô đặc máu do mất nước'.",
+      "option_explanations": [
+        "Sai — Cô đặc máu làm tăng Hb/Hct gặp trong mất nước (bỏng, nôn, tiêu chảy), không phải mất máu cấp.",
+        "Sai — Hb và Hct không giảm tức thì trong những phút đầu mất máu toàn phần.",
+        "Đúng — Trong mất máu cấp ban đầu mất máu toàn phần đồng đều, chỉ số nồng độ Hb/Hct chỉ giảm rõ sau khi cơ thể tự tái hấp thu dịch kẽ hoặc sau khi được truyền dịch bù thể tích.",
+        "Sai — Hb và Hct luôn biến thiên đồng hướng trong mất máu cấp."
+      ]
+    },
+    {
+      "id": "SURGR3-A20",
+      "type": "vignette",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Toan lactic trong suy tuần hoàn",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.2",
+      "text": "Tình trạng toan chuyển hóa do thiếu máu tưới mô trong suy tuần hoàn được xác định trên khí máu động mạch bằng bộ ba chỉ số nào sau đây?",
+      "options": [
+        "pH > 7,45; HCO₃⁻ > 26; BE > +3",
+        "pH 7,35 – 7,45; HCO₃⁻ 22 – 26; BE 0",
+        "pH < 7,35; HCO₃⁻ < 22; BE < -3",
+        "pH < 7,20; PaCO₂ > 55; HCO₃⁻ tăng"
+      ],
+      "correct": 2,
+      "explanation": "Barem II.3.2 ghi rõ: 'Axit Lactic tăng > 2 – 4 mmol/L (thiếu máu tưới mô); khí máu có toan chuyển hóa (pH < 7,35, HCO₃⁻ < 22, BE < -3)'.",
+      "option_explanations": [
+        "Sai — Tăng lactate gây toan chuyển hóa, không gây kiềm hô hấp.",
+        "Sai — Axit lactic tăng do chuyển hóa yếm khí từ pyruvate, không do đào thải glucose.",
+        "Sai — Tổn thương cầu thận được đánh giá qua creatinin và protein niệu, không phải lactate.",
+        "Đúng — Axit Lactic tăng > 2 – 4 mmol/L phản ánh thiếu máu tưới mô dẫn đến chuyển hóa yếm khí."
+      ]
+    },
+    {
+      "id": "SURGR3-A21",
+      "type": "concept",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Khí máu động mạch trong suy tuần hoàn",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.2",
+      "text": "Khi phân tích kết quả khí máu động mạch của bệnh nhân suy tuần hoàn nặng, bộ ba chỉ số nào sau đây xác định tình trạng toan chuyển hóa theo đúng barem?",
+      "options": [
+        "pH < 7,35; HCO₃⁻ < 22 mmol/L; BE < -3 mmol/L",
+        "pH > 7,45; HCO₃⁻ > 26 mmol/L; BE > +3 mmol/L",
+        "pH < 7,35; PaCO₂ > 45 mmHg; HCO₃⁻ > 24 mmol/L",
+        "pH > 7,45; PaCO₂ < 35 mmHg; BE = 0 mmol/L"
+      ],
+      "correct": 0,
+      "explanation": "Barem II.3.2 quy định: khí máu có toan chuyển hóa gồm pH < 7,35, HCO₃⁻ < 22 mmol/L, BE < -3 mmol/L.",
+      "option_explanations": [
+        "Đúng — Đây là tiêu chuẩn toan chuyển hóa được nêu nguyên văn trong barem II.3.2.",
+        "Sai — Bộ chỉ số này là kiềm chuyển hóa (pH tăng, HCO₃⁻ tăng, BE dương).",
+        "Sai — Bộ chỉ số này là toan hô hấp (PaCO₂ tăng cao do ứ trệ CO₂).",
+        "Sai — Bộ chỉ số này là kiềm hô hấp cấp (PaCO₂ giảm do thở nhanh)."
+      ]
+    },
+    {
+      "id": "SURGR3-A22",
+      "type": "vignette",
+      "topic": "Lâm sàng, CVP & Cận lâm sàng",
+      "subtopic": "Hình ảnh X-quang phổi và điện tim trong chẩn đoán suy tuần hoàn",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R3 §II.3.2",
+      "text": "Bệnh nhân nam 60 tuổi sau tai nạn giao thông đa chấn thương lồng ngực được chỉ định chụp X-quang ngực tại giường và ghi điện tâm đồ (ECG) cấp cứu. Theo barem cận lâm sàng, hình ảnh điện tâm đồ nào sau đây gợi ý nguyên nhân suy tuần hoàn xuất phát trực tiếp tại tim?",
+      "options": [
+        "Điện thế thấp ngoại biên đồng dạng kèm nhịp xoang đều 80 lần/phút",
+        "Dấu hiệu thiếu máu cục bộ cơ tim với đoạn ST chênh hoặc nhịp nhanh thất",
+        "Trục điện tim chuyển phải sinh lý đơn thuần không biến đổi sóng ST-T",
+        "Khoảng PR kéo dài cố định 0,18 giây kèm sóng P dương ở các chuyển đạo ngoại vi"
+      ],
+      "correct": 1,
+      "explanation": "Barem II.3.2 quy định: Điện tim (ECG) trong suy tuần hoàn cho thấy: 'Dấu hiệu thiếu máu cục bộ cơ tim (ST chênh), dày thất, rung nhĩ, cuồng nhĩ, block dẫn truyền hoặc nhịp nhanh thất'. (Câu hỏi này tập trung vào vai trò cận lâm sàng ECG chẩn đoán nguyên nhân tại tim theo barem, tránh trùng lặp với câu xử trí phù phổi cấp B15).",
+      "option_explanations": [
+        "Sai — Nhịp xoang 80 lần/phút là nhịp tim bình thường, không giải thích được suy tuần hoàn.",
+        "Đúng — ST chênh hoặc nhịp nhanh thất trên ECG chỉ điểm thiếu máu cục bộ cơ tim hoặc rối loạn nhịp tim ác tính gây suy tuần hoàn tại tim.",
+        "Sai — Trục phải sinh lý không kèm biến đổi ST-T là biến thể bình thường ở người gầy.",
+        "Sai — Khoảng PR 0,18 giây nằm trong giới hạn sinh lý bình thường (0,12 - 0,20s)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "BLIND-001",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Chọc kim giải áp khoang liên sườn 2 đường giữa đòn là xử trí cấp cứu tức thì tối khẩn cho tràn khí màng phổi áp lực (hoặc đáp án 1 cho OAP, đáp án 0 thường là câu hỏi xử trí khẩn cấp nhất trong ngoại khoa)."
+  },
+  {
+    "id": "BLIND-002",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Phân loại suy hô hấp thường gặp nhất hoặc định nghĩa kinh điển: Tuýp 1 (Hypoxemic - giảm oxy máu) là dạng phổ biến nhất trong suy hô hấp cấp."
+  },
+  {
+    "id": "BLIND-003",
+    "guess": 2,
+    "confidence": 1,
+    "reason": "Phân độ suy hô hấp theo lâm sàng thường hỏi mức độ nặng (hoặc nguy kịch), mức độ nặng là mức độ cần can thiệp tích cực."
+  },
+  {
+    "id": "BLIND-004",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Giai đoạn đầu suy hô hấp/thiếu oxy kích hoạt phản xạ tăng tiết Catecholamine của hệ giao cảm gây mạch nhanh, tăng huyết áp, vã mồ hôi."
+  },
+  {
+    "id": "BLIND-005",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Triệu chứng tím tái xuất hiện trên lâm sàng khi nồng độ Deoxyhemoglobin (Hb khử) trong máu mao mạch vượt quá 5 g/dL (kinh điển y khoa)."
+  },
+  {
+    "id": "BLIND-006",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Xử trí oxy liệu pháp ban đầu trong suy hô hấp cấp nặng: thở mặt nạ có túi dự trữ không thở lại lưu lượng cao 10-15 L/phút để đạt FiO2 cao (60-95%)."
+  },
+  {
+    "id": "BLIND-007",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Hôn mê, co giật hoặc triệu chứng thần kinh trong suy hô hấp tăng CO2 máu thường do phù não cấp kết hợp toan máu do CO2 gây giãn mạch não mạnh."
+  },
+  {
+    "id": "BLIND-008",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Chỉ định đặt nội khí quản cấp cứu tuyệt đối: mất phản xạ bảo vệ đường thở hoặc hôn mê sâu Glasgow < 8 điểm."
+  },
+  {
+    "id": "BLIND-009",
+    "guess": 0,
+    "confidence": 1,
+    "reason": "Câu hỏi tình huống ca bệnh (Bệnh nhân 1/2/3/4), phương án bệnh nhân 1 thường là ca ưu tiên hoặc đúng theo kịch bản."
+  },
+  {
+    "id": "BLIND-010",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Suy hô hấp Tuýp 1 (giảm oxy máu) điển hình nhất do phù phổi cấp huyết động (OAP) và viêm phổi nặng / ARDS."
+  },
+  {
+    "id": "BLIND-011",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Liệu pháp oxy ở bệnh nhân COPD / tăng CO2 mạn: thở oxy lưu lượng thấp 1-2 L/phút qua kính mũi hoặc Venturi 24-28-32% để tránh triệt tiêu hypoxic drive."
+  },
+  {
+    "id": "BLIND-012",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Cơ chế sinh lý bệnh phổ biến nhất gây giảm oxy máu trong lâm sàng là bất tương xứng tỷ lệ thông khí - tưới máu (V/Q mismatch)."
+  },
+  {
+    "id": "BLIND-013",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Tuýp 2: Suy hô hấp giảm thông khí (Hypercapnic - tăng CO2 máu) với PaCO2 > 45-50 mmHg."
+  },
+  {
+    "id": "BLIND-014",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Dấu hiệu suy hô hấp mức độ nguy kịch / nặng: Glasgow < 13 điểm và nhịp tim nhanh > 140 hoặc chậm rời rạc."
+  },
+  {
+    "id": "BLIND-015",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Dẫn lưu tràn máu màng phổi trong chấn thương ngực đòi hỏi ống dẫn lưu kích thước lớn 28 - 32 Fr để tránh tắc ống do cục máu đông."
+  },
+  {
+    "id": "BLIND-016",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Tăng PaCO2 kèm PaO2 giảm tương ứng không kèm chênh áp A-aDO2 tăng là đặc trưng của Tuýp 2: Suy hô hấp giảm thông khí phế nang thuần túy."
+  },
+  {
+    "id": "BLIND-017",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Giải phóng và kiểm soát đường thở cơ bản khi tụt lưỡi/tắc nghẽn họng ở bệnh nhân hôn mê: Đặt canun Guedel hoặc Mayo miệng họng (tránh ngửa cổ nếu nghi chấn thương cột sống cổ)."
+  },
+  {
+    "id": "BLIND-018",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Sau khi chọc kim giải áp cấp cứu tràn khí màng phổi áp lực, bước xử trí dứt điểm tiếp theo bắt buộc là đặt ống dẫn lưu màng phổi khoang liên sườn 4-5 đường nách giữa hút liên tục."
+  },
+  {
+    "id": "BLIND-019",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Nguy cơ ngừng thở khi thở oxy liều cao ở bệnh nhân suy hô hấp mạn (COPD) là do trung tâm hô hấp đã trơ với CO2 và phụ thuộc vào kích thích thiếu O2 (hypoxic drive)."
+  },
+  {
+    "id": "BLIND-020",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Chỉ định mở ngực cấp cứu kinh điển trong tràn máu màng phổi chấn thương: Máu chảy qua dẫn lưu > 200 ml/giờ trong 3 giờ liên tiếp (hoặc > 1500 ml ngay khi đặt dẫn lưu)."
+  },
+  {
+    "id": "BLIND-021",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Hệ thống phổi thực hiện chức năng thông khí và khuếch tán là cơ quan trung tâm thực hiện quá trình hô hấp ngoài."
+  },
+  {
+    "id": "BLIND-022",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Xử trí suy hô hấp cấp do phù phổi cấp huyết động (OAP): Thở oxy, Furosemid tiêm TM, Nitroglycerin truyền TM, Morphin và giảm hậu gánh."
+  },
+  {
+    "id": "BLIND-023",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Bất tương xứng tỷ lệ thông khí và tưới máu (V/Q) là cơ chế thường gặp nhất gây suy hô hấp giảm oxy máu."
+  },
+  {
+    "id": "BLIND-024",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Triệu chứng lâm sàng sớm nhất và phổ biến nhất của suy hô hấp cấp là khó thở và biến đổi tần số thở (thở nhanh nông hoặc thở chậm)."
+  },
+  {
+    "id": "BLIND-025",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "Suy hô hấp cấp giảm oxy máu nặng không do COPD cần hỗ trợ oxy nồng độ cao: Mặt nạ có túi dự trữ không thở lại hoặc thở máy không xâm nhập CPAP/BiPAP."
+  },
+  {
+    "id": "BLIND-026",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Shunt giải phẫu hoặc shunt sinh lý trong phổi lớn (> 20-30%) là nguyên nhân giảm oxy máu không đáp ứng với oxy liệu pháp thông thường."
+  },
+  {
+    "id": "BLIND-027",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Giảm thông khí phút (hoặc thông khí phế nang) là nguyên nhân tiên phát dẫn đến suy hô hấp tăng CO2 máu (Tuýp 2)."
+  },
+  {
+    "id": "BLIND-028",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Xử trí dị vật đường thở gây tắc nghẽn hoàn toàn ở bệnh nhân còn tỉnh: Thủ thuật Heimlich."
+  },
+  {
+    "id": "BLIND-029",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Tím tái có thể không xuất hiện dù thiếu oxy nặng ở bệnh nhân thiếu máu nặng vì nồng độ hemoglobin toàn phần quá thấp khiến Hb khử không đủ đạt ngưỡng 5 g/dL."
+  },
+  {
+    "id": "BLIND-030",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Định nghĩa suy hô hấp cấp theo khí máu động mạch: Phân áp oxy PaO2 dưới 60 mmHg (khi thở khí trời)."
+  },
+  {
+    "id": "BLIND-031",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Nguyên tắc điều trị mảng sườn di động trong chấn thương ngực: Giảm đau vùng ngực hiệu quả (gây tê ngoài màng cứng / liên sườn), cố định thành ngực hoặc thở máy cố định trong nếu suy hô hấp."
+  },
+  {
+    "id": "BLIND-032",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Phân độ suy hô hấp cấp: Mức độ nguy kịch (đe dọa tính mạng) khi có rối loạn ý thức, kiệt cơ, rối loạn huyết động hoặc nhịp thở chậm rời rạc."
+  },
+  {
+    "id": "BLIND-033",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Nguyên nhân gây suy hô hấp Tuýp 1 (tổn thương nhu mô màng phế nang mao mạch tạo shunt lớn) điển hình là Viêm phổi nặng đông đặc nhu mô hoặc hội chứng suy hô hấp ARDS."
+  },
+  {
+    "id": "BLIND-034",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Giảm thông khí phút do ngộ độc hoặc tác dụng phụ của thuốc ức chế thần kinh trung ương (thuốc giãn cơ, an thần, giảm đau opioid) là nguyên nhân ngoại phổi kinh điển của suy hô hấp tăng CO2."
+  },
+  {
+    "id": "BLIND-035",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Shunt trong phổi vượt quá 30% lưu lượng cung lượng tim là chỉ định thở máy xâm nhập và PEEP vì oxy liệu pháp thông thường hoàn toàn thất bại."
+  },
+  {
+    "id": "BLIND-036",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Thở oxy liều cao ở bệnh nhân COPD làm mất động lực kích thích hô hấp (hypoxic drive) dẫn đến ức chế trung tâm hô hấp làm bệnh nhân thở chậm dần rồi ngừng thở đột ngột."
+  },
+  {
+    "id": "BLIND-037",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Shunt phải - trái trong phổi với tỷ lệ thông khí tưới máu V/Q = 0 là cơ chế duy nhất không đáp ứng tăng PaO2 khi thở oxy 100%."
+  },
+  {
+    "id": "BLIND-038",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Phân độ suy hô hấp cấp lâm sàng: Suy hô hấp cấp mức độ nguy kịch cần can thiệp đặt nội khí quản ngay lập tức."
+  },
+  {
+    "id": "BLIND-039",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Mục tiêu oxy liệu pháp ở bệnh nhân COPD có tăng CO2 máu mạn tính là SpO2 từ 88 - 92% và PaO2 từ 55 - 60 mmHg để tránh ức chế trung tâm hô hấp."
+  },
+  {
+    "id": "BLIND-040",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Xử trí cấp cứu ban đầu khẩn cấp của tràn khí màng phổi áp lực là chọc kim giải áp khoang liên sườn 2 đường giữa đòn ngay lập tức trước khi chụp X-quang hoặc đặt dẫn lưu."
+  }
+]

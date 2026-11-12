@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURG31-A01",
+      "type": "vignette",
+      "topic": "Đại cương & Bệnh sinh (HCC vs Hepatoblastoma)",
+      "subtopic": "Dịch tễ học ung thư gan tại Việt Nam",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-31 §1.1",
+      "text": "Tổn thương u ác tính nguyên phát xuất phát từ biểu mô của hệ thống đường mật trong gan được xếp vào nhóm bệnh lý nào sau đây trong chẩn đoán phân biệt của bài học?",
+      "options": [
+        "Ung thư biểu mô tế bào gan (HCC)",
+        "Ung thư nguyên bào gan (Hepatoblastoma)",
+        "U máu gan lành tính (Hemangioma)",
+        "Ung thư biểu mô đường mật trong gan"
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục I.1.1: Ung thư biểu mô tế bào gan phổ biến ở nước ta do tỷ lệ viêm gan B khá cao, chiếm vị trí thứ 3 trong tất cả các ung thư. Nam mắc nhiều hơn nữ, khoảng tuổi thường gặp từ 50 đến 60 tuổi.",
+      "option_explanations": [
+        "Đúng — HCC phổ biến thứ 3 ở Việt Nam, liên quan chặt chẽ với viêm gan B, nam nhiều hơn nữ, tuổi 50-60.",
+        "Sai — Hepatoblastoma là bệnh lý của trẻ em (95% dưới 4 tuổi) và không liên quan đến viêm gan B.",
+        "Sai — Ung thư biểu mô đường mật trong gan ít gặp hơn và không có vị trí dịch tễ thứ 3 gắn liền HBV như HCC.",
+        "Sai — Ung thư đại trực tràng là bệnh lý đường tiêu hóa dưới, không liên quan đến virus viêm gan B."
+      ]
+    },
+    {
+      "id": "SURG31-A02",
+      "type": "vignette",
+      "topic": "Đại cương & Bệnh sinh (HCC vs Hepatoblastoma)",
+      "subtopic": "Nguồn gốc mô học và liên quan HBV",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §1.1 & §1.2",
+      "text": "Khi phân tích đặc điểm sinh học của hai loại khối u ác tính nguyên phát của gan được mô tả trong bài học: Khối u X xuất phát từ tế bào biểu mô trên nền gan xơ do virus viêm gan B mạn tính và hầu như không đáp ứng hóa trị; Khối u Y xuất phát từ tế bào dạng bào thai gần như không biệt hóa ở trẻ nhỏ, không liên quan virus viêm gan B nhưng rất nhạy cảm với hóa trị.\nKhối u X và khối u Y lần lượt tương ứng với những bệnh lý nào sau đây?",
+      "options": [
+        "U X là Ung thư nguyên bào gan; U Y là Ung thư biểu mô tế bào gan.",
+        "U X là Ung thư biểu mô đường mật; U Y là U máu lành tính của gan.",
+        "U X là Ung thư biểu mô tế bào gan; U Y là Ung thư nguyên bào gan.",
+        "U X là U nang tuyến đường mật; U Y là Ung thư biểu mô tế bào gan."
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục I.1 và I.2: HCC (U X) xuất phát từ tế bào biểu mô trên nền xơ gan do HBV, kháng hóa trị. Hepatoblastoma (U Y) xuất phát từ nguyên bào gan dạng bào thai ở trẻ nhỏ, không liên quan HBV nhưng rất nhạy cảm với hóa trị.",
+      "option_explanations": [
+        "Sai — Bị đảo ngược vị trí giữa hai bệnh lý.",
+        "Sai — U máu lành tính không phải u nguyên bào nhạy cảm hóa trị và ung thư đường mật không phải đặc điểm của U X.",
+        "Đúng — U X là HCC (biểu mô, xơ gan do HBV, không đáp ứng hóa trị) và U Y là Hepatoblastoma (dạng bào thai ở trẻ nhỏ, nhạy cảm hóa trị).",
+        "Sai — U nang tuyến là tổn thương dạng nang, không phù hợp mô tả mô học và đáp ứng điều trị."
+      ]
+    },
+    {
+      "id": "SURG31-A03",
+      "type": "vignette",
+      "topic": "Đại cương & Bệnh sinh (HCC vs Hepatoblastoma)",
+      "subtopic": "Dịch tễ học ung thư nguyên bào gan trẻ em",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §1.2",
+      "text": "Ung thư nguyên bào gan (Hepatoblastoma) hay gặp ở lứa tuổi nào và có mối liên quan ra sao với virus viêm gan B theo barem?",
+      "options": [
+        "Hay gặp ở trẻ em (95% dưới 4 tuổi) và không liên quan đến HBV",
+        "Hay gặp ở người 50 - 60 tuổi và là hậu quả trực tiếp của HBV",
+        "Hay gặp ở người trẻ 20 - 30 tuổi và lây qua đường máu như HBV",
+        "Hay gặp ở trẻ vị thành niên và xuất hiện trên nền xơ gan do HBV"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục I.1.2: Ung thư nguyên bào gan (Hepatoblastoma) xuất hiện ở trẻ nhỏ, tỷ lệ mắc 11,2/1.000.000 trẻ sơ sinh. Dưới 4 tuổi chiếm 95%, thời điểm chẩn đoán trung bình khoảng 19 tháng tuổi.",
+      "option_explanations": [
+        "Sai — HCC ở người lớn, thường gặp ở độ tuổi 50 đến 60 tuổi.",
+        "Đúng — Hepatoblastoma có tỷ lệ 11,2/1.000.000 trẻ sơ sinh, 95% dưới 4 tuổi, tuổi chẩn đoán trung bình 19 tháng.",
+        "Sai — U máu thể hang là u lành tính, không có tỷ lệ mắc ác tính và thống kê tuổi như trên.",
+        "Sai — Ung thư đường mật trong gan là bệnh của người trưởng thành/người già, không có số liệu ở trẻ sơ sinh."
+      ]
+    },
+    {
+      "id": "SURG31-A04",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Phương pháp tầm soát chủ động HCC",
+      "bloom": "hiểu",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1",
+      "text": "Trong chương trình y tế dự phòng phát hiện sớm ung thư gan cho cộng đồng người mang virus viêm gan B mạn tính, phương pháp cận lâm sàng nào được giáo trình khẳng định là biện pháp chủ động phát hiện khối u nhỏ khi người bệnh chưa có triệu chứng để điều trị khỏi?\nPhương pháp cận lâm sàng chủ động có giá trị cao nhất trong phát hiện sớm tại cộng đồng là gì?",
+      "options": [
+        "Siêu âm gan định kỳ.",
+        "Chụp cắt lớp vi tính (CT Scanner).",
+        "Sinh thiết kim Menghini.",
+        "Mổ thăm dò ổ bụng."
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.2.1: Siêu âm gan định kỳ, chủ động phát hiện khối u nhỏ trong gan mới chẩn đoán sớm, giúp điều trị khỏi ung thư biểu mô tế bào gan. Siêu âm có giá trị cao trong các chương trình phát hiện sớm cho cộng đồng.",
+      "option_explanations": [
+        "Đúng — Siêu âm gan định kỳ là biện pháp chủ động phát hiện sớm u nhỏ cho cộng đồng được nhấn mạnh trong barem.",
+        "Sai — CT Scanner có giá trị đánh giá chi tiết u và mạch máu trước điều trị, không dùng làm công cụ tầm soát ban đầu cho cộng đồng.",
+        "Sai — Sinh thiết kim Menghini chỉ định khi u nghi ngờ mà AFP âm tính, không dùng để tầm soát định kỳ.",
+        "Sai — Mổ thăm dò chỉ định khi u khó sinh thiết, là can thiệp xâm lấn điều trị chứ không dùng tầm soát."
+      ]
+    },
+    {
+      "id": "SURG31-A05",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Hình ảnh siêu âm quầng giảm âm",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.1",
+      "text": "Trên siêu âm Doppler màu gan, một tổn thương tăng âm đồng nhất, ranh giới rõ, không có viền giảm âm quanh u và không có tín hiệu mạch máu trung tâm.\nĐặc điểm này gợi ý nhiều nhất đến tổn thương gan nào sau đây?",
+      "options": [
+        "Ung thư biểu mô tế bào gan (HCC)",
+        "Ung thư nguyên bào gan (Hepatoblastoma)",
+        "U máu gan lành tính (Hemangioma)",
+        "Ung thư đường mật trong gan"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.1: Siêu âm có khả năng phát hiện khá cao kích thước u >= 1 cm. Dấu hiệu quầng giảm siêu âm quanh u tương đối đặc hiệu cho ung thư biểu mô tế bào gan, nhiều khi có giá trị chẩn đoán tốt hơn CT scan.",
+      "option_explanations": [
+        "Sai — Nang gan là ổ trống âm hoàn toàn có vỏ mỏng tăng âm sau, không có quầng giảm âm.",
+        "Đúng — Dấu hiệu quầng giảm âm quanh u tương đối đặc hiệu cho ung thư biểu mô tế bào gan (HCC).",
+        "Sai — U máu lành tính thường là khối tăng âm đồng nhất, ranh giới rõ, không có quầng giảm âm bao quanh.",
+        "Sai — Áp xe gan biểu hiện vùng giảm âm hỗn hợp thành dày, không có cấu trúc quầng giảm âm điển hình như u đặc."
+      ]
+    },
+    {
+      "id": "SURG31-A06",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Dấu hiệu wash-out trên CT Scanner",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.1",
+      "text": "Bệnh nhân nam 42 tuổi sốt nhẹ về chiều, đau tức vùng hạ sườn phải, siêu âm thấy một khối giảm âm kích thước 4 cm có vỏ mỏng, bên trong có dịch hồi âm lợn cợn, xét nghiệm AFP âm tính và kháng thể kháng amip dương tính.\nChẩn đoán phân biệt phù hợp nhất theo barem là gì?",
+      "options": [
+        "Ung thư biểu mô tế bào gan (HCC)",
+        "Áp xe gan do amip hóa mủ",
+        "U máu gan lành tính thể hang",
+        "Ung thư đường mật trong gan"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.1: CT Scanner gan có giá trị chẩn đoán HCC về hình ảnh khối u trước và sau tiêm cản quang tĩnh mạch: ngấm thuốc nhanh thì động mạch và thải thuốc nhanh thì tĩnh mạch ('wash-out').",
+      "option_explanations": [
+        "Sai — U máu ngấm thuốc dần từ ngoại vi vào trung tâm và giữ thuốc kéo dài ở thì muộn.",
+        "Đúng — Hiện tượng wash-out (ngấm nhanh thì động mạch, thải nhanh thì tĩnh mạch) là đặc điểm kinh điển của HCC.",
+        "Sai — Nang gan không ngấm thuốc cản quang ở bất kỳ thì nào.",
+        "Sai — Áp xe gan chỉ ngấm thuốc viền thành ổ áp xe, trung tâm hoại tử dịch không ngấm thuốc."
+      ]
+    },
+    {
+      "id": "SURG31-A07",
+      "type": "concept",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chất chỉ điểm AFP trong HCC",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1.1",
+      "text": "Theo barem giáo trình, nồng độ Alpha-fetoprotein (AFP) huyết thanh ở mức nào được coi là dương tính và tỷ lệ bệnh nhân HCC có nồng độ AFP trên 3.500 ng/ml là bao nhiêu?\nNgưỡng xét nghiệm AFP dương tính và tỷ lệ bệnh nhân có AFP rất cao (> 3.500 ng/ml) là gì?",
+      "options": [
+        "AFP > 20 ng/ml dương tính; khoảng 50% bệnh nhân có AFP > 3.500 ng/ml.",
+        "AFP > 100 ng/ml dương tính; khoảng 60% bệnh nhân có AFP > 3.500 ng/ml.",
+        "AFP > 200 ng/ml dương tính; khoảng 70% bệnh nhân có AFP > 3.500 ng/ml.",
+        "AFP > 400 ng/ml dương tính; khoảng 85% bệnh nhân có AFP > 3.500 ng/ml."
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.1: Nồng độ AFP trên 200 ng/ml được coi là dương tính. Thông thường, khoảng 70% bệnh nhân ung thư biểu mô tế bào gan có nồng độ AFP cao trên 3.500 ng/ml.",
+      "option_explanations": [
+        "Sai — Mốc 20 ng/ml là giới hạn bình thường của người khỏe mạnh, tỷ lệ 50% không đúng.",
+        "Sai — Mốc 100 ng/ml và 60% không phải số liệu chuẩn xác của barem.",
+        "Đúng — Barem Mục II.2.1.1 nêu rõ: AFP > 200 ng/ml là dương tính, và khoảng 70% bệnh nhân có AFP > 3.500 ng/ml.",
+        "Sai — Mốc 400 ng/ml và 85% không khớp với văn bản giáo trình."
+      ]
+    },
+    {
+      "id": "SURG31-A08",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chỉ định sinh thiết kim Menghini",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.1",
+      "text": "Bệnh nhân có khối u gan nhỏ nằm ở vị trí sâu sát vòm hoành rất khó tiếp cận để sinh thiết kim dưới siêu âm. Chỉ định can thiệp chẩn đoán phù hợp theo barem là gì?",
+      "options": [
+        "Mổ thăm dò kết hợp làm sinh thiết tức thì",
+        "Sinh thiết kim Menghini mù qua thành ngực",
+        "Chỉ định nút mạch hóa dầu TACE thăm dò",
+        "Theo dõi định kỳ không can thiệp sinh thiết"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.2.1.1: Trường hợp AFP âm tính nhưng HBsAg (+) không loại trừ ung thư nếu có u gan. 'Sinh thiết kim Menghini dưới hướng dẫn siêu âm được chỉ định khi có khối u nghi ngờ ung thư biểu mô tế bào gan nhưng AFP âm tính.'",
+      "option_explanations": [
+        "Đúng — Sinh thiết kim Menghini dưới hướng dẫn siêu âm chỉ định khi có khối u nghi ngờ HCC nhưng AFP âm tính.",
+        "Sai — Mổ mở thăm dò cắt gan ngay là xâm lấn lớn khi chưa có chẩn đoán xác định và chưa đánh giá đầy đủ chức năng gan.",
+        "Sai — Đốt sóng cao tần RFA là can thiệp điều trị, chỉ thực hiện khi đã chẩn đoán xác định ung thư gan.",
+        "Sai — Nút mạch TACE chỉ định điều trị cho u lớn không cắt được hoặc nhiều ổ, không dùng làm bước chẩn đoán."
+      ]
+    },
+    {
+      "id": "SURG31-A09",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Hai công thức chẩn đoán thực tế HCC",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1.1",
+      "text": "Bác sĩ khoa Ung bướu đối chiếu hai tiêu chuẩn chẩn đoán thực tế được quy định trong barem: Công thức 1 dựa trên hình ảnh khối u kết hợp với một mốc xét nghiệm huyết thanh; Công thức 2 dựa trên hình ảnh khối u kết hợp với bằng chứng giải phẫu bệnh.\nTheo barem giáo trình Mục II.2.1.1, hai điều kiện kết hợp với hình ảnh khối u trong hai công thức đó là gì?",
+      "options": [
+        "Công thức 1: AFP trên 20 ng/ml; Công thức 2: HBsAg dương tính kéo dài.",
+        "Công thức 1: AFP trên 200 ng/ml; Công thức 2: Sinh thiết ung thư biểu mô tế bào gan.",
+        "Công thức 1: AFP trên 400 ng/ml; Công thức 2: Sinh thiết u máu thể hang lành tính.",
+        "Công thức 1: AFP trên 3.500 ng/ml; Công thức 2: Tỷ lệ Prothrombin dưới 45%."
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.1: Hai công thức chẩn đoán thực tế: 1. Hình ảnh khối u + AFP trên 200 ng/ml = Ung thư biểu mô tế bào gan. 2. Hình ảnh khối u + Sinh thiết ung thư biểu mô tế bào gan = Ung thư gan.",
+      "option_explanations": [
+        "Sai — AFP > 20 ng/ml là mức bình thường và HBsAg(+) không đủ để cấu thành công thức xác định ung thư.",
+        "Đúng — Barem nêu rõ hai công thức: U + AFP > 200 ng/ml = HCC; U + Sinh thiết HCC = Ung thư gan.",
+        "Sai — Mốc 400 ng/ml không phải tiêu chuẩn trong barem và sinh thiết u máu là chẩn đoán tổn thương lành tính.",
+        "Sai — 3.500 ng/ml là tỷ lệ gặp (70%) chứ không phải mốc công thức, và Prothrombin là chỉ số đánh giá xơ gan Child-Pugh."
+      ]
+    },
+    {
+      "id": "SURG31-A10",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Đặc điểm kỹ thuật sinh thiết kim Menghini",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.1",
+      "text": "Bệnh nhân có khối u gan kích thước 2 cm nằm ở phân thùy VII sát vòm hoành, vị trí khó tiếp cận và nguy cơ tai biến cao nếu chọc kim qua da. Phương pháp chẩn đoán mô học xác định được barem khuyến cáo trong trường hợp này là gì?",
+      "options": [
+        "Sinh thiết kim Menghini dưới siêu âm",
+        "Mổ thăm dò kết hợp sinh thiết tức thì",
+        "Chọc hút kim nhỏ tế bào học FNA",
+        "Theo dõi định kỳ không sinh thiết u"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.1: 'Sinh thiết kim Menghini dưới hướng dẫn siêu âm được chỉ định khi có khối u nghi ngờ ung thư biểu mô tế bào gan nhưng AFP âm tính. Sinh thiết kim dễ làm, chi phí thấp, kết quả chính xác cao, an toàn khi có biện pháp phòng tránh tai biến chảy máu.'",
+      "option_explanations": [
+        "Đúng — Sinh thiết kim Menghini dưới siêu âm đáp ứng đầy đủ các đặc tính kỹ thuật được nêu trong bài học.",
+        "Sai — Sinh thiết tức thì cắt lạnh chỉ định khi u khó định vị hoặc mổ thăm dò, chi phí và mức độ xâm lấn cao hơn.",
+        "Sai — Sinh thiết hút tế bào kim nhỏ không định vị mù có nguy cơ tai biến cao và không đúng kỹ thuật Menghini trong barem.",
+        "Sai — Sinh thiết bấm nội soi ổ bụng đòi hỏi phẫu thuật nội soi, không phải kỹ thuật kim qua da giá rẻ, dễ làm."
+      ]
+    },
+    {
+      "id": "SURG31-A11",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chẩn đoán phân biệt HCC",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1.2",
+      "text": "Trên siêu âm Doppler màu gan, tổn thương gan lành tính thường gặp nhất cần đặt ra để phân biệt với ung thư biểu mô tế bào gan là gì?",
+      "options": [
+        "Áp xe gan do amip giai đoạn hóa mủ",
+        "U máu gan lành tính thể hang",
+        "Ung thư đường mật trong gan",
+        "Nang gan đơn độc bẩm sinh"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.2: Cần phân biệt với: áp xe gan, u máu gan lành tính (hemangioma), u nang gan, ung thư đường mật trong gan (cholangiocarcinoma), ung thư di căn gan (từ dạ dày, đại tràng, trực tràng...).",
+      "option_explanations": [
+        "Đúng — Chuẩn xác danh mục 5 bệnh lý gan cần chẩn đoán phân biệt với HCC được nêu trong barem Mục II.2.1.2.",
+        "Sai — Gồm các bệnh lý sỏi và đường mật lành tính, không phải chẩn đoán phân biệt trực tiếp của khối u gan.",
+        "Sai — Gồm các biến chứng tăng áp lực tĩnh mạch cửa và xuất huyết tiêu hóa, không phải chẩn đoán phân biệt khối u gan.",
+        "Sai — Gồm các bệnh lý ngoài gan thuộc màng bụng và ống tiêu hóa."
+      ]
+    },
+    {
+      "id": "SURG31-A12",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Các chỉ số trong thang điểm Child-Pugh",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1.3",
+      "text": "Một thang điểm đánh giá tình trạng xơ gan (Bảng 12 trong giáo trình) gồm 5 chỉ số lâm sàng và cận lâm sàng được chia thành 3 mức điểm (1, 2, 3 điểm). Ba chỉ số định lượng trong số đó có các mốc bình thường hoặc nhẹ lần lượt là: dưới 35 micromol/L, trên 35 g/L, và từ 100 đến 55%.\nNăm chỉ số tạo nên thang điểm đánh giá xơ gan Child-Pugh theo Bảng 12 là gì?",
+      "options": [
+        "Bilirubin máu, Cổ trướng, Albumin máu, Hội chứng não gan và Tỷ lệ Prothrombin.",
+        "AST huyết thanh, ALT huyết thanh, Số lượng tiểu cầu, Độ dày lách và Men GGT.",
+        "Creatinine máu, Độ lọc cầu thận, Kháng nguyên HBsAg, Chỉ số AFP và Amoniac máu.",
+        "Bilirubin máu, Creatinine máu, Điểm Glasgow, Chỉ số INR và Nồng độ Natri máu."
+      ],
+      "correct": 0,
+      "explanation": "Theo Bảng 12 Mục II.2.1.3: 5 chỉ số Child-Pugh gồm: Bilirubin máu (<35, 35-50, >50 micromol/L), Cổ trướng (không, ít, nhiều), Albumin máu (>35, 28-35, <28 g/L), Não gan (không, độ 1-2, độ 3-4), Tỷ lệ Prothrombin (100-55, 53-45, <45%).",
+      "option_explanations": [
+        "Đúng — Chuẩn xác 5 chỉ số của Bảng 12 Child-Pugh trong barem.",
+        "Sai — AST, ALT, tiểu cầu... không thuộc 5 chỉ số của thang điểm Child-Pugh.",
+        "Sai — Creatinine, GFR, HBsAg, AFP... không nằm trong Bảng 12.",
+        "Sai — Đây là các chỉ số của thang MELD và phân loại suy thận/hôn mê, không phải Child-Pugh bài học."
+      ]
+    },
+    {
+      "id": "SURG31-A13",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Các ngưỡng phân độ Child-Pugh A, B, C",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-31 §2.1.3",
+      "text": "Theo thang điểm Child-Pugh trong bài học, tổng điểm được tổng hợp từ 5 chỉ số để xếp loại xơ gan thành 3 mức độ: mức độ nhẹ (Child-Pugh A), mức độ vừa (Child-Pugh B), và mức độ nặng (Child-Pugh C).\nKhoảng điểm tương ứng cho ba mức độ Child-Pugh A, B và C theo barem là gì?",
+      "options": [
+        "Child-Pugh A: 3 - 5 điểm; Child-Pugh B: 6 - 8 điểm; Child-Pugh C: từ 9 điểm trở lên.",
+        "Child-Pugh A: 4 - 6 điểm; Child-Pugh B: 7 - 9 điểm; Child-Pugh C: từ 10 điểm trở lên.",
+        "Child-Pugh A: 5 - 6 điểm; Child-Pugh B: 7 - 9 điểm; Child-Pugh C: từ 10 điểm trở lên.",
+        "Child-Pugh A: 5 - 7 điểm; Child-Pugh B: 8 - 10 điểm; Child-Pugh C: từ 11 điểm trở lên."
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.3: Xơ gan Child-Pugh A: 5 - 6 điểm (mức độ nhẹ); Xơ gan Child-Pugh B: 7 - 9 điểm (mức độ vừa); Xơ gan Child-Pugh C: >= 10 điểm (mức độ nặng).",
+      "option_explanations": [
+        "Sai — Điểm tối thiểu của thang điểm là 5 điểm (1 điểm x 5 chỉ số), không thể có mức 3-5 điểm.",
+        "Sai — Điểm tối thiểu là 5, không có 4 điểm.",
+        "Đúng — Chuẩn xác theo barem: Child A (5-6 điểm), Child B (7-9 điểm), Child C (>= 10 điểm).",
+        "Sai — Child A là 5-6 điểm, 7 điểm đã thuộc nhóm Child B."
+      ]
+    },
+    {
+      "id": "SURG31-A14",
+      "type": "calc",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Tính điểm xơ gan Child-Pugh lâm sàng",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.3",
+      "text": "Bệnh nhân nam 56 tuổi được chẩn đoán ung thư tế bào gan hạ phân thùy VIII. Các xét nghiệm đánh giá chức năng gan ghi nhận:\n- Bilirubin toàn phần: 42 micromol/L\n- Cổ trướng: Không có trên lâm sàng và siêu âm\n- Albumin huyết thanh: 32 g/L\n- Hội chứng não gan: Không có (tỉnh táo hoàn toàn)\n- Tỷ lệ Prothrombin: 50%\nTheo Bảng 12 Child-Pugh trong giáo trình, tổng điểm và phân loại xơ gan của bệnh nhân này là bao nhiêu?",
+      "options": [
+        "6 điểm, xơ gan Child-Pugh A.",
+        "7 điểm, xơ gan Child-Pugh B.",
+        "8 điểm, xơ gan Child-Pugh B.",
+        "9 điểm, xơ gan Child-Pugh B."
+      ],
+      "correct": 2,
+      "explanation": "Theo Bảng 12 barem:\n- Bilirubin 42 micromol/L (nằm trong khoảng 35 - 50) = 2 điểm\n- Cổ trướng: Không = 1 điểm\n- Albumin: 32 g/L (nằm trong khoảng 28 - 35) = 2 điểm\n- Não gan: Không = 1 điểm\n- Prothrombin: 50% (nằm trong khoảng 53 - 45) = 2 điểm\nTổng điểm = 2 + 1 + 2 + 1 + 2 = 8 điểm -> Phân loại Xơ gan Child-Pugh B (7 - 9 điểm).",
+      "option_explanations": [
+        "Sai — 6 điểm thuộc Child A, chỉ đạt được nếu hầu hết chỉ số ở mức 1 điểm.",
+        "Sai — 7 điểm là tính thiếu 1 điểm ở một trong 3 chỉ số đạt 2 điểm.",
+        "Đúng — Tính đúng: Bilirubin 42 (2) + Cổ trướng không (1) + Albumin 32 (2) + Não gan không (1) + PT 50% (2) = 8 điểm, thuộc Child-Pugh B.",
+        "Sai — 9 điểm là cộng dư 1 điểm do sai lệch mức của chỉ số."
+      ]
+    },
+    {
+      "id": "SURG31-A15",
+      "type": "calc",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Đánh giá chức năng gan Child-Pugh ca bệnh nặng",
+      "bloom": "vận dụng",
+      "difficulty": 3,
+      "source": "SURG-31 §2.1.3",
+      "text": "Bệnh nhân nữ 62 tuổi vào viện vì vàng da và bụng to nhanh. Khám lâm sàng và cận lâm sàng ghi nhận:\n- Bilirubin toàn phần: 58 micromol/L\n- Cổ trướng mức độ nhiều (++) phải chọc tháo dịch\n- Albumin máu: 25 g/L\n- Hội chứng não gan: Độ 1-2 (+), ngủ lịm từng lúc\n- Tỷ lệ Prothrombin: 40%\nTheo Bảng 12 Child-Pugh trong giáo trình, tổng điểm và phân loại xơ gan của bệnh nhân là bao nhiêu?",
+      "options": [
+        "9 điểm, xơ gan Child-Pugh B.",
+        "11 điểm, xơ gan Child-Pugh C.",
+        "12 điểm, xơ gan Child-Pugh C.",
+        "14 điểm, xơ gan Child-Pugh C."
+      ],
+      "correct": 3,
+      "explanation": "Theo Bảng 12 barem:\n- Bilirubin 58 micromol/L (> 50) = 3 điểm\n- Cổ trướng nhiều (++) = 3 điểm\n- Albumin 25 g/L (< 28) = 3 điểm\n- Não gan độ 1-2 (+) = 2 điểm\n- Prothrombin 40% (< 45%) = 3 điểm\nTổng điểm = 3 + 3 + 3 + 2 + 3 = 14 điểm -> Xơ gan Child-Pugh C (>= 10 điểm).",
+      "option_explanations": [
+        "Sai — 9 điểm là Child-Pugh B, không phản ánh đúng tình trạng suy tế bào gan rất nặng.",
+        "Sai — 11 điểm là tính thiếu điểm ở các chỉ số mức độ nặng.",
+        "Sai — 12 điểm là tính nhầm 2 chỉ số mức 3 điểm về mức 2 điểm.",
+        "Đúng — Tính đúng: Bilirubin 58 (>50: 3đ) + Cổ trướng ++ (3đ) + Albumin 25 (<28: 3đ) + Não gan độ 1-2 (2đ) + PT 40% (<45%: 3đ) = 14 điểm, xếp Child-Pugh C."
+      ]
+    },
+    {
+      "id": "SURG31-A16",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Phân độ T theo AJCC 2010",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.4",
+      "text": "Theo hệ thống phân loại giai đoạn ung thư biểu mô tế bào gan AJCC 2010 trong giáo trình, hai mức độ u nguyên phát T1 và T2 được quy định cụ thể: Mức độ 1 là u đơn độc chưa xâm lấn mạch máu; Mức độ 2 là u đơn độc có xâm lấn mạch máu hoặc nhiều u kích thước nhỏ hơn hoặc bằng 5 cm.\nHai mức độ tổn thương trên tương ứng với ký hiệu phân loại T nào trong barem?",
+      "options": [
+        "Mức độ 1 là T1; Mức độ 2 là T2.",
+        "Mức độ 1 là T2; Mức độ 2 là T3a.",
+        "Mức độ 1 là T3a; Mức độ 2 là T3b.",
+        "Mức độ 1 là T3b; Mức độ 2 là T4."
+      ],
+      "correct": 0,
+      "explanation": "Theo barem Mục II.2.1.4: T1: U đơn độc chưa xâm lấn mạch máu; T2: U đơn độc có xâm lấn mạch máu hoặc nhiều u kích thước <= 5 cm.",
+      "option_explanations": [
+        "Đúng — Chuẩn xác định nghĩa T1 và T2 trong barem AJCC 2010 Mục II.2.1.4.",
+        "Sai — T2 là có xâm lấn mạch hoặc nhiều u <= 5 cm; T3a là nhiều u > 5 cm.",
+        "Sai — T3a là nhiều u > 5 cm; T3b là liên quan nhánh chính tĩnh mạch cửa/tĩnh mạch gan.",
+        "Sai — T3b liên quan nhánh chính tĩnh mạch; T4 xâm lấn tạng lân cận hoặc xuyên phúc mạc tạng."
+      ]
+    },
+    {
+      "id": "SURG31-A17",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Định nghĩa tiêu chuẩn T3b và T4 theo AJCC 2010",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.4",
+      "text": "Khi phân loại mức độ xâm lấn tại chỗ của khối u nguyên phát trong ung thư biểu mô tế bào gan theo AJCC 2010, một trường hợp khối u có đặc điểm 'liên quan với nhánh chính của tĩnh mạch cửa hoặc tĩnh mạch gan' và một trường hợp 'u xâm lấn trực tiếp cơ quan lân cận (trừ túi mật) hoặc xuyên qua phúc mạc tạng'.\nHai tình huống xâm lấn trên lần lượt tương ứng với phân độ T nào trong bài học?",
+      "options": [
+        "Tình huống 1 xếp vào mức T2; Tình huống 2 xếp vào mức T3a.",
+        "Tình huống 1 xếp vào mức T3a; Tình huống 2 xếp vào mức T3b.",
+        "Tình huống 1 xếp vào mức T3b; Tình huống 2 xếp vào mức T4.",
+        "Tình huống 1 xếp vào mức T4; Tình huống 2 xếp vào mức di căn xa M1."
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.4: T3b: Một hay nhiều u kích thước bất kỳ liên quan với nhánh chính của tĩnh mạch cửa hoặc tĩnh mạch gan; T4: U xâm lấn trực tiếp cơ quan lân cận (trừ túi mật) hoặc xuyên qua phúc mạc tạng.",
+      "option_explanations": [
+        "Sai — T2 là u đơn độc có xâm lấn mạch máu hoặc nhiều u <= 5 cm; T3a là nhiều u > 5 cm.",
+        "Sai — T3a là nhiều u > 5 cm; T3b là liên quan nhánh chính tĩnh mạch cửa hoặc tĩnh mạch gan.",
+        "Đúng — T3b là liên quan nhánh chính TM cửa hoặc TM gan; T4 là xâm lấn cơ quan lân cận (trừ túi mật) hoặc xuyên phúc mạc tạng.",
+        "Sai — T4 là xâm lấn cơ quan lân cận; M1 là di căn xa ra ngoài gan và hạch vùng."
+      ]
+    },
+    {
+      "id": "SURG31-A18",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Phân đoạn giai đoạn ung thư AJCC 2010 ca bệnh T3a",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.4",
+      "text": "Bệnh nhân nam 50 tuổi được chụp CT Scanner gan phát hiện 3 khối u nằm rải rác ở thùy gan phải, khối lớn nhất có đường kính 6,5 cm, không có huyết khối nhánh chính tĩnh mạch cửa hay tĩnh mạch gan. Khảo sát hạch cuống gan không to (N0) và chụp X-quang phổi chưa thấy di căn xa (M0).\nTheo phân loại AJCC 2010 trong giáo trình, khối u của bệnh nhân được xếp loại giai đoạn nào?",
+      "options": [
+        "Giai đoạn II (T2 N0 M0).",
+        "Giai đoạn IIIA (T3a N0 M0).",
+        "Giai đoạn IIIB (T3b N0 M0).",
+        "Giai đoạn IIIC (T4 N0 M0)."
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.4: Bệnh nhân có nhiều u kích thước > 5 cm (khối lớn nhất 6,5 cm) xếp vào T3a. Với N0 M0, giai đoạn tương ứng là Giai đoạn IIIA (T3a N0 M0).",
+      "option_explanations": [
+        "Sai — Giai đoạn II là T2 N0 M0 (chỉ áp dụng cho u đơn độc có xâm lấn mạch hoặc nhiều u đều <= 5 cm).",
+        "Đúng — Nhiều u kích thước > 5 cm = T3a, kết hợp N0 M0 xếp vào Giai đoạn IIIA.",
+        "Sai — Giai đoạn IIIB là T3b N0 M0 (khi có xâm lấn nhánh chính tĩnh mạch cửa hoặc tĩnh mạch gan).",
+        "Sai — Giai đoạn IIIC là T4 N0 M0 (khi u xâm lấn tạng lân cận trừ túi mật hoặc xuyên phúc mạc tạng)."
+      ]
+    },
+    {
+      "id": "SURG31-A19",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Phân loại giai đoạn IVA theo AJCC 2010",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.4",
+      "text": "Bệnh nhân nam 48 tuổi có khối u gan đơn độc đường kính 3 cm ở hạ phân thùy IV, chưa xâm lấn mạch máu (T1). Tuy nhiên, trên CT Scanner và siêu âm nội soi phát hiện hạch cuống gan kích thước 2 cm ngấm thuốc bất thường, sinh thiết khẳng định di căn hạch vùng (N1). Bệnh nhân chưa có di căn xa (M0).\nTheo bảng phân loại giai đoạn AJCC 2010 trong barem, trường hợp này được xếp vào giai đoạn nào?",
+      "options": [
+        "Giai đoạn IIIB.",
+        "Giai đoạn IIIC.",
+        "Giai đoạn IVA.",
+        "Giai đoạn IVB."
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.2.1.4: Giai đoạn IVA được định nghĩa là 'T bất kỳ N1 M0'. Khi có di căn hạch vùng (N1) mà chưa có di căn xa (M0), bất kể mức độ T nào đều được xếp vào Giai đoạn IVA.",
+      "option_explanations": [
+        "Sai — Giai đoạn IIIB là T3b N0 M0 (chưa có di căn hạch vùng).",
+        "Sai — Giai đoạn IIIC là T4 N0 M0 (u xâm lấn tạng lân cận nhưng N0).",
+        "Đúng — Theo AJCC 2010 trong barem: T bất kỳ N1 M0 được xếp vào Giai đoạn IVA.",
+        "Sai — Giai đoạn IVB là T bất kỳ N bất kỳ M1 (đã có di căn xa)."
+      ]
+    },
+    {
+      "id": "SURG31-A20",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chẩn đoán giai đoạn IVB có di căn xa",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-31 §2.1.4",
+      "text": "Bệnh nhân nữ 59 tuổi được phát hiện một khối u đơn độc ở gan phải kích thước 4 cm chưa xâm lấn mạch máu (T1), hạch cuống gan không to (N0). Tuy nhiên, chụp CT lồng ngực phát hiện 2 nốt di căn ở thùy dưới phổi phải kích thước 1,5 cm (M1).\nTheo hệ thống phân giai đoạn AJCC 2010 trong giáo trình, giai đoạn bệnh của bệnh nhân là gì?",
+      "options": [
+        "Giai đoạn I (T1 N0 M0).",
+        "Giai đoạn IIIA (T3a N0 M0).",
+        "Giai đoạn IVA (T bất kỳ N1 M0).",
+        "Giai đoạn IVB (T bất kỳ N bất kỳ M1)."
+      ],
+      "correct": 3,
+      "explanation": "Theo barem Mục II.2.1.4: Giai đoạn IVB là 'T bất kỳ N bất kỳ M1'. Khi đã có di căn xa (M1) như di căn phổi, bệnh nhân được xếp vào Giai đoạn IVB bất kể kích thước u hay tình trạng hạch.",
+      "option_explanations": [
+        "Sai — Giai đoạn I đòi hỏi T1 N0 M0 (bắt buộc M0, chưa có di căn xa).",
+        "Sai — Giai đoạn IIIA là T3a N0 M0 (nhiều u > 5 cm, chưa di căn).",
+        "Sai — Giai đoạn IVA là T bất kỳ N1 M0 (di căn hạch vùng nhưng M0).",
+        "Đúng — T bất kỳ N bất kỳ M1 tương ứng với Giai đoạn IVB theo barem AJCC 2010."
+      ]
+    },
+    {
+      "id": "SURG31-A21",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chẩn đoán phân biệt u gan trên siêu âm Doppler màu",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-31 §2.1.1 & §2.1.2",
+      "text": "Trên siêu âm Doppler màu, tổn thương dạng ổ dịch trong gan không có tín hiệu mạch máu và có bóng tăng âm phía sau được barem xếp vào chẩn đoán phân biệt nào?",
+      "options": [
+        "U máu gan lành tính thể hang",
+        "U nang gan lành tính đơn độc",
+        "Ung thư biểu mô tế bào gan",
+        "Ung thư đường mật trong gan"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.1: 'Siêu âm Doppler màu có giá trị chẩn đoán phát hiện ung thư biểu mô tế bào gan với u máu lành tính của gan.'",
+      "option_explanations": [
+        "Sai — Nang gan là ổ trống âm không mạch máu, phân biệt dễ dàng bằng siêu âm 2D thường không cần Doppler màu.",
+        "Đúng — Đúng nguyên văn Mục II.2.1.1: Siêu âm Doppler màu có giá trị chẩn đoán phát hiện ung thư biểu mô tế bào gan với u máu lành tính của gan.",
+        "Sai — Áp xe gan chẩn đoán chủ yếu dựa vào lâm sàng nhiễm trùng và hình ảnh giảm âm hóa mủ.",
+        "Sai — Vôi hóa nhu mô cho bóng cản âm rất mạnh trên siêu âm 2D thông thường."
+      ]
+    },
+    {
+      "id": "SURG31-A22",
+      "type": "vignette",
+      "topic": "Chẩn đoán, Child-Pugh & TNM AJCC 2010",
+      "subtopic": "Chỉ định mổ thăm dò kết hợp sinh thiết tức thì",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-31 §2.1.1",
+      "text": "Bệnh nhân nam 55 tuổi có tổn thương nghi ngờ u gan sâu sát cơ hoành kích thước 1,2 cm, AFP âm tính. Bác sĩ can thiệp đã cố gắng sinh thiết kim Menghini dưới hướng dẫn siêu âm nhưng thất bại do vị trí u bị vòm hoành che khuất và nguy cơ tràn khí, chảy máu cao.\nTheo hướng dẫn trong barem Mục II.2.1.1, phương thức tiếp cận nào được chỉ định để vừa xác định chẩn đoán vừa xử trí cho bệnh nhân trong tình huống đặc biệt này?",
+      "options": [
+        "Sinh thiết kim Menghini dưới hướng dẫn của siêu âm",
+        "Mổ thăm dò kết hợp làm sinh thiết tức thì trong mổ",
+        "Nội soi ổ bụng kết hợp chọc hút dịch màng bụng làm tế bào",
+        "Theo dõi định kỳ bằng chụp CT Scanner cản quang mỗi 3 tháng"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.2.1.1: 'Một số trường hợp đặc biệt, do u nhỏ hoặc vị trí u khó sinh thiết chính xác, có thể chỉ định mổ thăm dò kết hợp với sinh thiết tức thì, chẩn đoán và điều trị cùng một cuộc mổ.'",
+      "option_explanations": [
+        "Sai — Nút mạch TACE chỉ định điều trị cho u lớn không cắt được hoặc nhiều ổ trên Child A/B, không dùng chẩn đoán mò.",
+        "Đúng — Đúng theo barem Mục II.2.1.1: Mổ thăm dò kết hợp với sinh thiết tức thì, chẩn đoán và điều trị cùng một cuộc mổ khi u khó sinh thiết chính xác.",
+        "Sai — Xạ trị ngoài 60-70 Gy chỉ định hạn chế cho u có huyết khối tĩnh mạch cửa giảm chèn ép, không dùng cho trường hợp này.",
+        "Sai — Tiêm cồn mù qua thành ngực không có định vị là chống chỉ định nguy hiểm."
+      ]
+    }
+  ]
+}

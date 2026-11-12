@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURG22-A01",
+      "type": "concept",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Dịch tễ học toàn cầu GLOBOCAN 2018",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-22 §1",
+      "text": "Theo thống kê GLOBOCAN 2018 được nêu trong tài liệu, ung thư trực tràng và đại tràng đứng thứ mấy về số ca tử vong và mắc mới tính chung cho các loại ung thư trên thế giới?\nThứ hạng về số ca mắc mới và tử vong do ung thư trực tràng toàn cầu lần lượt là?",
+      "options": [
+        "Hàng thứ 4 về số ca mắc mới (6,1%) và hàng thứ 5 về số ca tử vong (5,8%)",
+        "Hàng thứ 2 về số ca mắc mới (9,2%) và hàng thứ 3 về số ca tử vong (10,0%)",
+        "Hàng thứ 5 về số ca mắc mới (5,8%) và hàng thứ 4 về số ca tử vong (6,1%)",
+        "Hàng thứ 3 về số ca mắc mới (10,0%) và hàng thứ 2 về số ca tử vong (9,2%)"
+      ],
+      "correct": 0,
+      "explanation": "Theo thống kê ung thư toàn cầu 2018 trong giáo trình: Có khoảng 1.096.601 trường hợp mắc mới (6,1%), đứng hàng thứ 4 (sau phổi, vú, tuyến tiền liệt); 551.269 trường hợp tử vong (5,8%), đứng hàng thứ 5 (sau phổi, dạ dày, gan, vú).",
+      "option_explanations": [
+        "Đúng — Hàng thứ 4 mắc mới (6,1%) và hàng thứ 5 tử vong (5,8%) theo số liệu thống kê toàn cầu GLOBOCAN 2018.",
+        "Sai — Đây là tỷ lệ và thứ hạng mắc bệnh riêng ở nữ giới (thứ 2 với 9,2%).",
+        "Sai — Đảo ngược thứ hạng giữa số ca mắc mới (thứ 4) và số ca tử vong (thứ 5).",
+        "Sai — Đây là tỷ lệ và thứ hạng mắc bệnh riêng ở nam giới (thứ 3 với 10,0%)."
+      ]
+    },
+    {
+      "id": "SURG22-A02",
+      "type": "concept",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Dịch tễ học theo giới và địa lý",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-22 §1",
+      "text": "Báo cáo GLOBOCAN 2018 so sánh tỷ lệ mắc chuẩn hóa theo tuổi của ung thư đại trực tràng giữa các khu vực địa lý trên thế giới, ghi nhận sự chênh lệch lớn giữa các vùng phát triển và đang phát triển.\nKhu vực nào sau đây ghi nhận tỷ lệ mắc ung thư đại trực tràng cao nhất thế giới (44,8 ở nam và 32,2 ở nữ trên 100.000 dân)?",
+      "options": [
+        "Tây Phi và Trung Phi",
+        "Úc và New Zealand",
+        "Đông Á và Nhật Bản",
+        "Tây Âu và Bắc Mỹ"
+      ],
+      "correct": 1,
+      "explanation": "Theo thống kê GLOBOCAN 2018: Tỷ lệ mắc cao nhất thế giới là ở Úc, New Zealand (44,8 ở nam và 32,2 ở nữ trên 100.000 dân), thấp nhất là ở Tây Phi (4,5 ở nam và 3,8 ở nữ trên 100.000 dân).",
+      "option_explanations": [
+        "Sai — Tây Phi là khu vực có tỷ lệ mắc ung thư đại trực tràng thấp nhất thế giới (4,5 ở nam và 3,8 ở nữ / 100.000 dân).",
+        "Đúng — Úc và New Zealand là khu vực có tỷ lệ mắc cao nhất thế giới (44,8 ở nam và 32,2 ở nữ / 100.000 dân).",
+        "Sai — Đông Á là khu vực có tỷ lệ mắc ở mức trung bình cao, không phải vùng có chỉ số cao nhất.",
+        "Sai — Tây Âu và Bắc Mỹ có tỷ lệ mắc cao nhưng không phải là vùng dẫn đầu theo ghi nhận trong barem."
+      ]
+    },
+    {
+      "id": "SURG22-A03",
+      "type": "vignette",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Tiên lượng sống thêm và dịch tễ học tại Việt Nam",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-22 §1",
+      "text": "Bệnh nhân nam 58 tuổi tình cờ phát hiện u đại tràng qua nội soi tầm soát. Kết quả mô bệnh học sau cắt u triệt căn xác nhận tổn thương ung thư biểu mô tuyến xâm lấn lớp dưới niêm mạc, chưa vượt tới lớp thanh mạc, diện cắt âm tính và chưa di căn hạch.\nTheo dữ liệu ghi nhận trong tài liệu, tiên lượng thời gian sống thêm trên 5 năm của bệnh nhân này đạt khoảng bao nhiêu phần trăm?",
+      "options": [
+        "20% đến 30%",
+        "40% đến 50%",
+        "60% đến 70%",
+        "80% đến 90%"
+      ],
+      "correct": 3,
+      "explanation": "Ung thư đại tràng tiến triển chậm và di căn muộn hơn so với ung thư dạ dày hay thực quản. Nếu phát hiện và mổ sớm khi ung thư chưa đến lớp thanh mạc thì tỷ lệ sống trên 5 năm đạt tới 80% - 90%.",
+      "option_explanations": [
+        "Sai — 20% đến 30% là tỷ lệ sống thêm thường gặp ở giai đoạn muộn hoặc đã có di căn xa.",
+        "Sai — 40% đến 50% là tiên lượng ở nhóm có nhiều hạch di căn xâm lấn rộng ra ngoài mạc treo.",
+        "Sai — 60% đến 70% là tỷ lệ sống thêm của nhóm u đã xâm lấn qua thanh mạc hoặc di căn hạch vùng (giai đoạn III).",
+        "Đúng — Khi phát hiện và mổ sớm khi ung thư chưa đến lớp thanh mạc thì tỷ lệ sống trên 5 năm đạt 80% - 90%."
+      ]
+    },
+    {
+      "id": "SURG22-A04",
+      "type": "concept",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Polyp đại tràng theo nghiên cứu Shinya và Wolf",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-22 §2.1",
+      "text": "Shinya và Wolf (1979) đã phân tích 5.786 u tuyến đại tràng được loại bỏ qua nội soi để đánh giá nguy cơ ác tính hóa theo số lượng polyp.\nTheo nghiên cứu của Shinya và Wolf, tỷ lệ ung thư hóa khi bệnh nhân có 1 polyp và khi có 3 polyp lần lượt là bao nhiêu?",
+      "options": [
+        "2,8% đối với 1 polyp và 33,3% đối với 3 polyp",
+        "10,0% đối với 1 polyp và 50,0% đối với 3 polyp",
+        "31,3% đối với 1 polyp và 45,6% đối với 3 polyp",
+        "45,6% đối với 1 polyp và 60,0% đối với 3 polyp"
+      ],
+      "correct": 2,
+      "explanation": "Shinya và Wolf (1979) thấy: nếu số lượng polyp là 1 thì tỷ lệ ung thư hoá là 31,3% và nếu số lượng là 3 thì tỷ lệ ung thư hoá là 45,6%.",
+      "option_explanations": [
+        "Sai — Tỷ lệ 1/35 (khoảng 2,8%) và 1/3 (khoảng 33,3%) là nhận xét của tác giả A.I. Kozevnhikov.",
+        "Sai — Các con số giả định, không khớp với kết quả nghiên cứu của Shinya và Wolf.",
+        "Đúng — 31,3% cho 1 polyp và 45,6% cho 3 polyp theo công bố của Shinya và Wolf (1979) trên 5.786 u tuyến.",
+        "Sai — 45,6% là tỷ lệ của nhóm có 3 polyp chứ không phải nhóm có 1 polyp."
+      ]
+    },
+    {
+      "id": "SURG22-A05",
+      "type": "concept",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Nghiên cứu ung thư hóa polyp của A.I. Kozevnhikov",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-22 §2.1",
+      "text": "Một nghiên cứu tổng kết 958 trường hợp polyp đại tràng được điều trị ngoại khoa và nội soi, phân tích nguy cơ ung thư hóa theo số lượng polyp, nhận thấy nhóm có 1 polyp thì tỷ lệ ác tính là 1/35, trong khi nhóm có nhiều polyp thì tỷ lệ ác tính tăng vọt lên tới 1/3.\nKết luận và số liệu dịch tễ học trên là của tác giả nào sau đây?",
+      "options": [
+        "A.I. Kozevnhikov",
+        "A. Deinheka",
+        "Burkitt và Reddy",
+        "Shinya và Wolf"
+      ],
+      "correct": 0,
+      "explanation": "Theo barem: A.I. Kozevnhikov điều trị 958 trường hợp polyp đại tràng và nhận xét: những trường hợp có 1 polyp thì tỷ lệ ác tính là 1/35, nhiều polyp thì tỷ lệ ác tính là 1/3.",
+      "option_explanations": [
+        "Đúng — A.I. Kozevnhikov là tác giả nghiên cứu 958 trường hợp polyp với tỷ lệ ác tính 1/35 (1 polyp) và 1/3 (nhiều polyp).",
+        "Sai — Deinheka nhận xét trên 50% ung thư đại tràng phát sinh trên nền polyp đại tràng.",
+        "Sai — Burkitt, Wynder và Reddy nghiên cứu về cơ chế chế độ ăn ít xơ nhiều mỡ gây ung thư đại tràng.",
+        "Sai — Shinya và Wolf (1979) nghiên cứu 5.786 u tuyến, tỷ lệ ung thư hóa là 31,3% (1 polyp) và 45,6% (3 polyp)."
+      ]
+    },
+    {
+      "id": "SURG22-A06",
+      "type": "vignette",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Bệnh đại tràng mạn tính và ung thư hóa",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-22 §2.2",
+      "text": "Bệnh nhân nữ 45 tuổi có tiền sử bệnh lý đại tràng mạn tính kéo dài 10 năm với các đợt đi ngoài nhầy máu tái diễn, soi đại tràng thấy tổn thương viêm trợt loét liên tục. Bác sĩ tư vấn về nguy cơ tiến triển ung thư hóa (theo F. Saegesser và D. Waridel ghi nhận khoảng 3% - 4% ca bệnh có biến chứng ung thư).\nBệnh lý đại tràng mạn tính nào sau đây gắn liền với tỷ lệ ung thư hóa 3% - 4% của Saegesser và Waridel?",
+      "options": [
+        "Lao ruột thể loét hồi manh tràng",
+        "Viêm loét đại tràng chảy máu",
+        "Bệnh polyp tuyến gia đình (FAP)",
+        "Nhiễm lỵ amíp đại tràng mạn"
+      ],
+      "correct": 1,
+      "explanation": "Theo Saegesser và Waridel, viêm loét đại tràng chảy máu (chứng viêm loét đại tràng) dễ bị ung thư đại tràng hơn người bình thường, khoảng 3% - 4% bệnh nhân bị biến chứng ung thư.",
+      "option_explanations": [
+        "Sai — Lao ruột là bệnh mạn tính gây tổn thương hồi manh tràng, không gắn với số liệu của Saegesser & Waridel.",
+        "Đúng — Viêm loét đại tràng chảy máu có tỷ lệ ung thư hóa 3% - 4% theo F. Saegesser và D. Waridel.",
+        "Sai — Bệnh polyp tuyến gia đình (FAP) có tỷ lệ hóa ác gần 100% trước 40 tuổi nếu không mổ cắt đại tràng.",
+        "Sai — Lỵ amíp là yếu tố nguy cơ mạn tính nhưng không có tỷ lệ biến chứng ung thư 3% - 4% của Saegesser & Waridel."
+      ]
+    },
+    {
+      "id": "SURG22-A07",
+      "type": "concept",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Cơ chế chế độ ăn uống sinh ung thư",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-22 §2.3",
+      "text": "Trong các nghiên cứu thực nghiệm của Petrov về cơ chế sinh ung thư đại tràng liên quan đến chế độ ăn uống, tác giả đã chứng minh vai trò gây ung thư trực tiếp của nhóm chất nào sinh ra từ quá trình phân hủy đạm trong lòng ruột?",
+      "options": [
+        "Thiamin, riboflavin và cobalamin",
+        "Histamin, cadaverin và putrescin",
+        "Indol, scatol và piridin",
+        "Aflatoxin, ochratoxin và patulin"
+      ],
+      "correct": 2,
+      "explanation": "Các chất phân huỷ của đạm như indol, scatol, piridin là những chất gây ung thư trong thực nghiệm (Petrov). Chế độ ăn ít bã nhiều mỡ đạm làm vi khuẩn yếm khí biến đổi acid mật/cholesterol và ứ trệ các chất phân hủy đạm này.",
+      "option_explanations": [
+        "Sai — Thiamin, riboflavin là các vitamin nhóm B tan trong nước thiết yếu, không phải chất sinh ung.",
+        "Sai — Histamin, cadaverin là các amin sinh học trong ngộ độc hoặc phân hủy protein thông thường.",
+        "Đúng — Indol, scatol, piridin là các sản phẩm phân hủy đạm gây ung thư thực nghiệm được Petrov chứng minh.",
+        "Sai — Aflatoxin, ochratoxin là độc tố vi nấm liên quan chủ yếu đến ung thư biểu mô tế bào gan."
+      ]
+    },
+    {
+      "id": "SURG22-A08",
+      "type": "vignette",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Hội chứng polyp tuyến gia đình (FAP)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-22 §2.4",
+      "text": "Bệnh nhân nam 26 tuổi đến khám vì tiền sử gia đình có bố và bác ruột đều mất vì ung thư đại tràng khi còn trẻ. Nội soi khung đại tràng phát hiện hàng trăm polyp dạng u tuyến rải khắp niêm mạc đại trực tràng, giải phẫu bệnh u tuyến ống-nhung mao, xét nghiệm có đột biến gen APC. Bệnh lý này chiếm dưới 1% tổng số ung thư đại trực tràng.\nChẩn đoán chính xác nhất và thái độ xử trí ngoại khoa bắt buộc trước 40 tuổi là gì?",
+      "options": [
+        "Hội chứng Lynch (HNPCC); chỉ định cắt nửa đại tràng phải triệt căn",
+        "Hội chứng Peutz-Jeghers; cắt polyp qua nội soi đại tràng định kỳ",
+        "Viêm loét đại tràng toàn bộ; điều trị nội khoa kéo dài bằng 5-ASA",
+        "Bệnh polyp đại tràng gia đình (FAP); bắt buộc cắt toàn bộ đại tràng"
+      ],
+      "correct": 3,
+      "explanation": "Bệnh polyp đại tràng gia đình (FAP) liên quan đột biến gen APC, chiếm <1% ung thư đại trực tràng, 100% sẽ hóa ác nếu không cắt toàn bộ đại tràng trước 40 tuổi.",
+      "option_explanations": [
+        "Sai — Hội chứng Lynch (HNPCC) liên quan gen sửa chữa bắt cặp sai MLH1/MSH2, chiếm 5% ung thư đại trực tràng.",
+        "Sai — Peutz-Jeghers là hội chứng polyp hamartoma kèm đốm sắc tố niêm mạc môi miệng, không liên quan gen APC.",
+        "Sai — Viêm loét đại tràng toàn bộ là bệnh tự miễn mạn tính, không có hàng trăm u tuyến đột biến gen APC.",
+        "Đúng — Bệnh polyp đại tràng gia đình (FAP) do đột biến gen APC, 100% hóa ác nếu không cắt toàn bộ đại tràng trước 40 tuổi."
+      ]
+    },
+    {
+      "id": "SURG22-A09",
+      "type": "vignette",
+      "topic": "Đại cương & Yếu tố nguy cơ",
+      "subtopic": "Hội chứng Lynch (HNPCC)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-22 §2.4",
+      "text": "Một người bệnh nam 36 tuổi được chẩn đoán ung thư đại tràng góc gan. Khai thác phả hệ phát hiện mẹ mắc ung thư nội mạc tử cung năm 43 tuổi, chị gái mắc ung thư đại tràng năm 34 tuổi. Phân tích di truyền phân tử xác định khiếm khuyết ở hệ thống gen sửa chữa ghép cặp sai DNA (mismatch repair genes).\nGen nào sau đây là gen đột biến đặc trưng nhất của hội chứng ung thư đại tràng di truyền này?",
+      "options": [
+        "MLH1 và MSH2",
+        "Gen RET",
+        "Gen APC",
+        "Gen BRCA1"
+      ],
+      "correct": 0,
+      "explanation": "Hội chứng Lynch (HNPCC) chiếm khoảng 5% ung thư đại trực tràng, liên quan đến các gen sửa chữa bắt cặp sai DNA (MLH1, MSH2), gen p53, RAS và DCC.",
+      "option_explanations": [
+        "Đúng — MLH1 và MSH2 là các gen sửa chữa bắt cặp sai DNA đặc trưng trong hội chứng Lynch (HNPCC).",
+        "Sai — Gen RET liên quan đến hội chứng đa u tuyến nội tiết tuýp 2 (MEN 2) và ung thư tuyến giáp thể tủy.",
+        "Sai — Gen APC bị đột biến trong bệnh polyp đại tràng gia đình (FAP).",
+        "Sai — Gen BRCA1 liên quan đến hội chứng ung thư vú và ung thư buồng trứng di truyền."
+      ]
+    },
+    {
+      "id": "SURG22-A10",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Phân bố vị trí giải phẫu ung thư đại tràng",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-22 §3.1",
+      "text": "Theo tổng hợp số liệu giải phẫu bệnh trong tài liệu, các tác giả ghi nhận ung thư có thể phát sinh ở bất kỳ vị trí nào trên khung đại tràng từ manh tràng đến đại tràng xích ma.\nĐoạn ruột nào sau đây có tỷ lệ mắc ung thư cao nhất trên khung đại tràng, cùng với manh tràng chiếm khoảng 25% - 30% mỗi nơi?",
+      "options": [
+        "Góc đại tràng phải (góc gan)",
+        "Đại tràng xích ma",
+        "Góc đại tràng trái (góc lách)",
+        "Đoạn giữa đại tràng ngang"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem: Vị trí thường gặp nhiều nhất là ở đại tràng xích ma và manh tràng, mỗi nơi khoảng 25% - 30%, sau đó là ở những nơi khác của đại tràng.",
+      "option_explanations": [
+        "Sai — Góc gan là vị trí ít gặp hơn nhiều so với đại tràng xích ma và manh tràng.",
+        "Đúng — Đại tràng xích ma là vị trí thường gặp nhất cùng với manh tràng (chiếm khoảng 25% - 30% mỗi nơi).",
+        "Sai — Góc lách có tỷ lệ mắc thấp hơn so với đại tràng xích ma.",
+        "Sai — Đại tràng ngang ít gặp hơn nhiều, chỉ chiếm khoảng 6,8% đến 14% tùy theo nghiên cứu của từng tác giả."
+      ]
+    },
+    {
+      "id": "SURG22-A11",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Ung thư đồng thì khung đại tràng",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-22 §3.1",
+      "text": "Bệnh nhân nam 62 tuổi chuẩn bị phẫu thuật cắt nửa đại tràng phải do u biểu mô tuyến manh tràng. Phẫu thuật viên chỉ định nội soi toàn bộ khung đại tràng hoặc chụp cắt lớp vi tính đánh giá kỹ toàn bộ khung ruột nhằm tránh bỏ sót khối u thứ hai xuất hiện cùng lúc.\nTỷ lệ ung thư đại tràng xuất hiện đồng thì (ở nhiều nơi cùng một lúc) được ghi nhận trong barem là bao nhiêu?",
+      "options": [
+        "Khoảng 15%",
+        "Khoảng 50%",
+        "Khoảng 5%",
+        "Khoảng 30%"
+      ],
+      "correct": 2,
+      "explanation": "Ung thư thường ở một chỗ, nhưng có khoảng 5% ở nhiều nơi (đồng thì). Cần kiểm tra kỹ toàn bộ khung đại tràng để tránh bỏ sót u thứ hai.",
+      "option_explanations": [
+        "Sai — 15% là tỷ lệ quá cao so với tỷ lệ u đại tràng đồng thì được ghi nhận trong barem.",
+        "Sai — 50% là tỷ lệ ung thư đại tràng phát sinh trên nền polyp theo Deinheka.",
+        "Đúng — Khoảng 5% ung thư đại tràng xuất hiện ở nhiều nơi đồng thì trên khung đại tràng.",
+        "Sai — 30% là tỷ lệ u thường gặp tại riêng vị trí manh tràng hoặc đại tràng xích ma."
+      ]
+    },
+    {
+      "id": "SURG22-A12",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Đặc điểm đại thể thể sùi đại tràng phải",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-22 §3.2",
+      "text": "Bệnh nhân nam 63 tuổi nội soi phát hiện tổn thương lớn chiếm 1/2 chu vi manh tràng, bề mặt gồ ghề nham nhở đội sùi lồi hẳn vào lòng ruột, tổ chức mủn nát rỉ máu nhẹ khi chạm dụng cụ nhưng lòng đại tràng không bị chít hẹp hay tắc nghẽn.\nThể giải phẫu bệnh đại thể của khối u này là gì?",
+      "options": [
+        "Thể thắt nhẫn",
+        "Thể loét",
+        "Thể polyp cuống",
+        "Thể sùi"
+      ],
+      "correct": 3,
+      "explanation": "Thể sùi (u sùi): Hay gặp ở đại tràng phải (manh tràng), phát triển lồi vào lòng ruột, dễ chảy máu, ít gây tắc ruột.",
+      "option_explanations": [
+        "Sai — Thể thắt nhẫn hay gặp ở đại tràng trái, xâm lấn xơ chai siết hẹp lòng ruột như chiếc nhẫn gây tắc ruột.",
+        "Sai — Thể loét có bờ nham nhở, ăn sâu vào thành ruột, dễ gây thủng hoặc chảy máu rỉ rả.",
+        "Sai — Thể polyp có cuống là u tuyến lành tính hoặc ung thư tại chỗ có cuống biệt lập.",
+        "Đúng — Thể sùi phát triển lồi vào lòng ruột, dễ chảy máu, hay gặp ở manh tràng và ít gây tắc ruột."
+      ]
+    },
+    {
+      "id": "SURG22-A13",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Đặc điểm đại thể thể thắt nhẫn đại tràng trái",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-22 §3.2",
+      "text": "Bệnh nhân nữ 68 tuổi vào viện vì hội chứng bán tắc ruột tái diễn nhiều đợt. Chụp cắt lớp vi tính bụng thấy thành đại tràng xuống dày co thắt xơ chai siết hẹp khẩu kính lòng ruột như chiếc nhẫn, các quai ruột phía trên giãn ứ hơi phân rõ rệt.\nThể tổn thương đại thể của khối u đại tràng trái này là gì?",
+      "options": [
+        "Thể thắt nhẫn",
+        "Thể bờ loét",
+        "Thể nhung mao",
+        "Thể u sùi"
+      ],
+      "correct": 0,
+      "explanation": "Thể thắt nhẫn (thể thâm nhiễm co thắt): Hay gặp ở đại tràng trái (đại tràng xuống và xích ma), làm hẹp lòng ruột như chiếc nhẫn siết lại, rất dễ gây biến chứng tắc ruột.",
+      "option_explanations": [
+        "Đúng — Thể thắt nhẫn (thâm nhiễm co thắt) đặc trưng ở ĐT trái, làm hẹp lòng ruột như chiếc nhẫn siết lại gây tắc ruột.",
+        "Sai — Thể bờ loét ăn sâu vào thành ruột, dễ thủng hoặc chảy máu rỉ rả kéo dài.",
+        "Sai — Thể nhung mao là dạng giải phẫu bệnh vi thể của u tuyến nhung mao, không phải thể đại thể thắt hẹp lòng ruột.",
+        "Sai — Thể u sùi hay gặp ở ĐT phải, u phát triển lồi vào lòng ruột và ít gây tắc ruột."
+      ]
+    },
+    {
+      "id": "SURG22-A14",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Đặc điểm đại thể thể loét",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-22 §3.2",
+      "text": "Trong 3 thể giải phẫu bệnh đại thể của ung thư đại tràng được mô tả trong tài liệu giảng dạy (thể sùi, thể loét, thể thắt nhẫn).\nThể loét có những đặc điểm hình thái và nguy cơ biến chứng ngoại khoa đặc thù nào sau đây?",
+      "options": [
+        "Tạo thành vòng xơ cứng siết chặt chu vi thành ruột làm hẹp lòng ruột như chiếc nhẫn và gây tắc ruột sớm",
+        "Bờ nham nhở, ăn sâu vào thành ruột, dễ gây biến chứng thủng ruột hoặc chảy máu rỉ rả kéo dài",
+        "Phát triển lồi hẳn vào trong lòng ruột tạo khối u sùi lớn chiếm lòng manh tràng và ít gây biến chứng tắc ruột",
+        "Tổn thương dạng polyp cuống dài nhẵn bóng, khu trú ở niêm mạc đại tràng và hiếm khi xâm lấn qua lớp cơ"
+      ],
+      "correct": 1,
+      "explanation": "Thể loét: Bờ nham nhở, ăn sâu vào thành ruột, dễ gây thủng hoặc chảy máu rỉ rả.",
+      "option_explanations": [
+        "Sai — Co thắt siết hẹp vòng quanh thành ruột gây tắc ruột sớm là đặc điểm của thể thắt nhẫn.",
+        "Đúng — Bờ nham nhở, ăn sâu thành ruột, dễ gây thủng hoặc chảy máu rỉ rả theo mô tả giải phẫu bệnh thể loét.",
+        "Sai — Khối u sùi lồi lớn ít gây tắc ruột là đặc trưng của thể sùi đại tràng phải.",
+        "Sai — Polyp cuống dài nhẵn bóng là tổn thương u tuyến tiền ung thư, không phải ung thư thể loét."
+      ]
+    },
+    {
+      "id": "SURG22-A15",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Tính chất đau bụng ĐT phải vs ĐT trái",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-22 §4.1",
+      "text": "Bệnh nhân nam 60 tuổi vào viện vì những cơn đau quặn bụng từng cơn dọc theo khung đại tràng bên trái, mỗi cơn đau có tiếng sôi bụng ùng ục, sau khi trung tiện được thì cảm giác đau dịu hẳn (hội chứng Koenig điển hình).\nVị trí khối u đại tràng phù hợp nhất với hội chứng Koenig này là đoạn nào?",
+      "options": [
+        "Ruột thừa",
+        "Đại tràng phải",
+        "Đại tràng trái",
+        "Manh tràng"
+      ],
+      "correct": 2,
+      "explanation": "Đại tràng trái: Đau quặn cơn theo khung đại tràng, kèm theo sôi bụng, trung tiện được thì đỡ đau (hội chứng Koenig). Đại tràng phải: Đau âm ỉ mơ hồ ở hố chậu phải hoặc hạ sườn phải, dễ nhầm viêm ruột thừa mạn.",
+      "option_explanations": [
+        "Sai — Ruột thừa viêm cấp đau chuyển về hố chậu phải có phản ứng thành bụng, không có hội chứng Koenig mạn tính.",
+        "Sai — Đại tràng phải biểu hiện bằng đau âm ỉ mơ hồ ở hố chậu phải hoặc hạ sườn phải.",
+        "Đúng — Đại tràng trái gây đau quặn cơn, sôi bụng, trung tiện được thì đỡ đau (hội chứng Koenig).",
+        "Sai — Manh tràng là thuộc đại tràng phải, u thường đau tức âm ỉ hố chậu phải dễ nhầm ruột thừa mạn."
+      ]
+    },
+    {
+      "id": "SURG22-A16",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Rối loạn lưu thông tiêu hóa",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-22 §4.2",
+      "text": "Bệnh nhân nữ 59 tuổi đi khám vì thay đổi tính chất phân kéo dài: phân lỏng nát xen kẽ từng đợt táo bón ngắn ngày kèm nhiều chất nhầy, xét nghiệm do hiện tượng ứ đọng, lên men vi khuẩn thối rữa và tăng tiết chất nhầy phản ứng của niêm mạc ruột tại chỗ.\nRối loạn lưu thông tiêu hóa kiểu tiêu chảy hoặc phân lỏng xen kẽ táo bón này là triệu chứng đặc trưng của khối u ở vị trí nào?",
+      "options": [
+        "Đại tràng trái",
+        "Đại tràng xích ma",
+        "Ống hậu môn",
+        "Đại tràng phải"
+      ],
+      "correct": 3,
+      "explanation": "Ung thư đại tràng phải: Tiêu chảy hoặc phân lỏng xen kẽ táo bón do hiện tượng ứ đọng, lên men thối rữa và tăng tiết chất nhầy của ruột. Ung thư đại tràng trái: Táo bón nổi bật do lòng ruột nhỏ, phân thành khuôn đặc và u thể thắt nhẫn làm hẹp ruột.",
+      "option_explanations": [
+        "Sai — Đại tràng trái có triệu chứng táo bón nổi bật và tiến triển do u thắt nhẫn siết hẹp phân đóng khuôn.",
+        "Sai — Đại tràng xích ma thuộc đại tràng trái, triệu chứng chủ đạo là táo bón và hội chứng Koenig.",
+        "Sai — Ống hậu môn gây triệu chứng mót rặn, đau rát hậu môn và phân dẹt chứ không có ứ trệ lên men phân lỏng manh tràng.",
+        "Đúng — Đại tràng phải có đặc trưng phân lỏng/tiêu chảy xen kẽ táo bón do ứ đọng, lên men thối rữa và tăng tiết chất nhầy."
+      ]
+    },
+    {
+      "id": "SURG22-A17",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Tính chất phân lẫn máu ĐT phải vs ĐT trái",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-22 §4.3",
+      "text": "Bệnh nhân nam 67 tuổi vào viện với triệu chứng đi ngoài phân có máu kéo dài: máu thường lẫn sâu vào trong lòng khuôn phân, phân có màu đỏ sẫm hoặc màu bã cà phê do chảy máu rỉ rả từ lâu, dẫn đến tình trạng thiếu máu nhược sắc nặng mà không thấy máu tươi rõ rệt.\nĐặc điểm tính chất phân lẫn máu này chỉ điểm khối u nằm ở vị trí nào trên khung đại tràng?",
+      "options": [
+        "Đại tràng phải",
+        "Đại tràng xích ma",
+        "Đoạn bóng trực tràng",
+        "Đại tràng trái"
+      ],
+      "correct": 0,
+      "explanation": "Đại tràng phải: Máu thường lẫn sâu trong phân, phân màu đỏ xẫm hoặc màu bã cà phê, chảy máu rỉ rả kéo dài dẫn đến thiếu máu nhược sắc nặng mà không nhìn thấy máu tươi rõ rệt. Đại tràng trái: Phân thường bọc máu đỏ tươi hoặc đỏ bầm kèm chất nhầy mủ.",
+      "option_explanations": [
+        "Đúng — Đại tràng phải: máu lẫn sâu trong phân màu đỏ sẫm hoặc bã cà phê gây thiếu máu nhược sắc nặng.",
+        "Sai — Đại tràng xích ma thuộc đại tràng trái, phân bọc máu đỏ tươi/bầm bên ngoài chứ không lẫn sâu màu bã cà phê.",
+        "Sai — Bóng trực tràng: máu đỏ tươi ra ngoài theo phân hoặc nhỏ giọt sau khi đại tiện kèm mót rặn.",
+        "Sai — Đại tràng trái: phân thường bọc máu đỏ tươi hoặc đỏ bầm kèm chất nhầy mủ ở mặt ngoài khuôn phân."
+      ]
+    },
+    {
+      "id": "SURG22-A18",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Khám sờ thấy u bụng",
+      "bloom": "đánh giá",
+      "difficulty": 2,
+      "source": "SURG-22 §4.4",
+      "text": "Trong khám lâm sàng bệnh nhân nghi ngờ ung thư đại tràng, triệu chứng sờ thấy khối u bụng gặp ở khoảng 60% bệnh nhân. Bác sĩ thăm khám ghi nhận sờ thấy một khối u chắc, ít di động tại vùng hố chậu rất rõ ràng do đoạn ruột này nằm nông và khối u phát triển dạng thể sùi kích thước lớn.\nĐoạn đại tràng nào sau đây có đặc điểm giải phẫu và bệnh học giúp dễ sờ thấy khối u nhất trên thành bụng?",
+      "options": [
+        "Góc lách (đại tràng trái)",
+        "Manh tràng (đại tràng phải)",
+        "Đại tràng xích ma thấp",
+        "Đại tràng xuống sâu"
+      ],
+      "correct": 1,
+      "explanation": "Sờ thấy u gặp ở khoảng 60% bệnh nhân. Ung thư đại tràng phải rất dễ sờ thấy khối u (ở hố chậu phải hoặc mạng sườn phải) do manh tràng nông và khối u thể sùi kích thước lớn. Đại tràng trái khó sờ hơn vì u nhỏ thâm nhiễm và nằm sâu sau phúc mạc hoặc bị hạ sườn/mào chậu che lấp.",
+      "option_explanations": [
+        "Sai — Góc lách nằm sâu dưới vòm hoành và cung sườn trái nên rất khó sờ thấy trên lâm sàng.",
+        "Đúng — Manh tràng (ĐT phải) rất dễ sờ thấy u do manh tràng nằm nông và u thể sùi có kích thước lớn.",
+        "Sai — Đại tràng xích ma đoạn thấp nằm sâu trong hố chậu bé nên khó sờ nắn qua thành bụng.",
+        "Sai — Đại tràng xuống nằm sâu sau phúc mạc và u thể thắt nhẫn kích thước nhỏ nên khó sờ thấy."
+      ]
+    },
+    {
+      "id": "SURG22-A19",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Hội chứng thiếu máu đặc trưng ĐT phải",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-22 §4.5",
+      "text": "Bệnh nhân nam 66 tuổi đến viện khám chuyên khoa huyết học vì mệt mỏi nhiều, hoa mắt, chóng mặt khi gắng sức và da xanh xao rõ rệt. Xét nghiệm công thức máu: Hồng cầu 2,8 T/L, Hemoglobin 68 g/L, MCV 69 fl, MCH 21 pg (thiếu máu nhược sắc hồng cầu nhỏ nặng), test máu ẩn trong phân dương tính. Bệnh nhân hầu như không có triệu chứng đau bụng hay táo bón rõ rệt.\nVị trí tổn thương u đường tiêu hóa nào cần được ưu tiên tầm soát nội soi đầu tiên?",
+      "options": [
+        "Bóng trực tràng đoạn giữa",
+        "Đại tràng trái đoạn xích ma",
+        "Đại tràng phải vùng manh tràng",
+        "Đoạn nối trực tràng - hậu môn"
+      ],
+      "correct": 2,
+      "explanation": "Thiếu máu là dấu hiệu đặc trưng nổi bật của ung thư đại tràng phải. Bệnh nhân thường đến khám vì xanh xao mệt mỏi, hoa mắt chóng mặt dù chưa rõ triệu chứng tiêu hóa, do khối u thể sùi rỉ máu kéo dài tạo tình trạng thiếu máu nhược sắc nặng.",
+      "option_explanations": [
+        "Sai — Bóng trực tràng đoạn giữa biểu hiện chủ yếu bằng hội chứng trực tràng (đi ngoài nhiều lần, phân dẹt, mót rặn).",
+        "Sai — Đại tràng trái đoạn xích ma thường biểu hiện nổi bật bằng táo bón tiến triển và đau quặn cơn theo khung đại tràng.",
+        "Đúng — Đại tràng phải vùng manh tràng: u thể sùi rỉ máu kéo dài dẫn tới thiếu máu nhược sắc nặng là dấu hiệu lâm sàng đặc trưng.",
+        "Sai — Đoạn nối trực tràng - ống hậu môn thường gây triệu chứng đi ngoài ra máu đỏ tươi bọc phân và kích thích đau rát hậu môn."
+      ]
+    },
+    {
+      "id": "SURG22-A20",
+      "type": "concept",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Sốt đơn thuần theo Peltekallio",
+      "bloom": "nhớ",
+      "difficulty": 2,
+      "source": "SURG-22 §4.5",
+      "text": "Năm 1965, Peltekallio công bố nghiên cứu về triệu chứng sốt đơn thuần do hoại tử u hoặc nhiễm trùng quanh u ở bệnh nhân ung thư đại tràng (dễ nhầm với sốt thương hàn hoặc nhiễm trùng ổ bụng).\nTheo tác giả Peltekallio (1965), tỷ lệ bệnh nhân ung thư đại tràng có triệu chứng sốt đơn thuần là bao nhiêu?",
+      "options": [
+        "Khoảng 25% đến 30%",
+        "Khoảng 46% đến 48%",
+        "Khoảng 3% đến 4%",
+        "Khoảng 16% đến 18%"
+      ],
+      "correct": 3,
+      "explanation": "Theo Peltekallio (1965), khoảng 16% - 18% bệnh nhân ung thư đại tràng có sốt đơn thuần do hoại tử u hoặc nhiễm trùng quanh u, dễ chẩn đoán nhầm với sốt thương hàn, nhiễm trùng ổ bụng.",
+      "option_explanations": [
+        "Sai — 25% đến 30% là tỷ lệ phân bố vị trí u tại manh tràng hoặc đại tràng xích ma.",
+        "Sai — 46% đến 48% là tỷ lệ biến chứng tắc ruột gặp ở ung thư đại tràng trái.",
+        "Sai — 3% đến 4% là tỷ lệ biến chứng ung thư ở bệnh nhân viêm loét đại tràng mạn tính theo Saegesser & Waridel.",
+        "Đúng — Khoảng 16% - 18% bệnh nhân có sốt đơn thuần theo công bố của Peltekallio (1965)."
+      ]
+    },
+    {
+      "id": "SURG22-A21",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Chẩn đoán phân biệt lâm sàng ĐT phải vs ĐT trái",
+      "bloom": "sáng tạo",
+      "difficulty": 3,
+      "source": "SURG-22 §4.1, §4.2, §4.3, §4.4, §4.5",
+      "text": "Bệnh nhân nam 64 tuổi đi khám vì xanh xao, sụt 4 kg trong 2 tháng, đau âm ỉ mơ hồ ở vùng hố chậu phải, đại tiện phân lỏng nát xen kẽ những đợt táo bón ngắn ngày có nhầy, khám sờ thấy một khối chắc kích thước 5 cm ở hố chậu phải, xét nghiệm Hemoglobin 72 g/L (thiếu máu nhược sắc nặng do máu lẫn sâu màu bã cà phê rỉ rả kéo dài).\nHội chứng lâm sàng trên định hướng chính xác nhất tới khối u ở vị trí nào?",
+      "options": [
+        "Đại tràng phải",
+        "Đại tràng ngang",
+        "Trực tràng thấp",
+        "Đại tràng trái"
+      ],
+      "correct": 0,
+      "explanation": "Đại tràng phải: Đau âm ỉ hố chậu phải / hạ sườn phải; phân lỏng xen kẽ táo bón; máu lẫn sâu trong phân màu đỏ sẫm/bã cà phê gây thiếu máu nhược sắc nặng; khối u thể sùi lớn ở manh tràng nông nên rất dễ sờ thấy u (khoảng 60%).",
+      "option_explanations": [
+        "Đúng — Đại tràng phải biểu hiện điển hình: đau âm ỉ hố chậu phải, phân lỏng xen kẽ táo bón, thiếu máu nặng, sờ thấy khối u hố chậu phải.",
+        "Sai — Đại tràng ngang: u thường biểu hiện bán tắc ruột muộn hơn hoặc sờ thấy u vùng thượng vị di động theo nhịp thở.",
+        "Sai — Trực tràng thấp: biểu hiện bằng mót rặn, đi ngoài nhiều lần trong ngày, phân dẹt dính máu đỏ tươi ngoài rìa.",
+        "Sai — Đại tràng trái: đau quặn cơn (Koenig), táo bón tiến triển, phân bọc máu đỏ tươi/bầm, u thắt nhẫn khó sờ."
+      ]
+    },
+    {
+      "id": "SURG22-A22",
+      "type": "vignette",
+      "topic": "Giải phẫu bệnh & Lâm sàng ĐT phải vs trái",
+      "subtopic": "Chẩn đoán phân biệt lâm sàng ĐT trái",
+      "bloom": "sáng tạo",
+      "difficulty": 3,
+      "source": "SURG-22 §3.2, §4.1, §4.2, §4.3",
+      "text": "Bệnh nhân nữ 66 tuổi đến viện vì các cơn đau quặn bụng từng cơn kèm sôi bụng, trung tiện được thì đỡ đau rõ rệt (hội chứng Koenig), kèm theo tình trạng táo bón tiến triển nặng dần trong vài tháng qua, khi đại tiện quan sát thấy khuôn phân có vệt máu đỏ tươi hoặc đỏ bầm bọc ở phía ngoài kèm chất nhầy mủ.\nBệnh cảnh lâm sàng này chỉ điểm tổn thương ung thư thể thắt nhẫn tại đoạn giải phẫu nào?",
+      "options": [
+        "Manh tràng",
+        "Đại tràng trái",
+        "Đoạn cuối hồi tràng",
+        "Đại tràng phải"
+      ],
+      "correct": 1,
+      "explanation": "Ung thư đại tràng trái thể thắt nhẫn: Khối u siết hẹp lòng ruột gây đau bụng quặn cơn, sôi bụng, trung tiện được thì đỡ đau (hội chứng Koenig), kèm theo táo bón kéo dài do phân đóng khuôn bị cản trở, phân thường bọc máu đỏ tươi hoặc đỏ bầm kèm chất nhầy mủ.",
+      "option_explanations": [
+        "Sai — Manh tràng là thuộc đại tràng phải, u thể sùi lớn rỉ máu gây thiếu máu nhược sắc, không có hội chứng Koenig điển hình.",
+        "Đúng — Đại tràng trái thể thắt nhẫn biểu hiện kinh điển: hội chứng Koenig, táo bón tiến triển, phân bọc máu đỏ tươi hoặc đỏ bầm.",
+        "Sai — Đoạn cuối hồi tràng là ruột non, tổn thương u u hạt ruột thừa hoặc Crohn gây tắc ruột non, không có phân bọc máu khuôn táo bón.",
+        "Sai — Đại tràng phải biểu hiện: đau âm ỉ hố chậu phải, phân lỏng xen kẽ táo bón, máu lẫn sâu màu bã cà phê, thiếu máu nặng."
+      ]
+    }
+  ]
+}

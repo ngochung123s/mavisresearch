@@ -1,0 +1,266 @@
+[
+  {
+    "id": "BLIND-001",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Phuong phap sinh thiet kinh dien bang kim Menghini qua da hoac cau hoi ve thu thuat xam lan trong chan doan gan."
+  },
+  {
+    "id": "BLIND-002",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Ung thu bieu mo te bao gan (HCC) la loai ung thu gan nguyen phat pho bien nhat (chiem >80-90%)."
+  },
+  {
+    "id": "BLIND-003",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Trong benh canh ton thuong gan co bat thuong AFP hoac tren nen viem gan B/C, HCC luon la chan doan hang dau."
+  },
+  {
+    "id": "BLIND-004",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Hoa dau tac mach (TACE) ket hop PEI hoac RFA cho u nho < 3cm khong phau thuat duoc."
+  },
+  {
+    "id": "BLIND-005",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Phac do PLADO (Cisplatin + Doxorubicin/Platinol + Doxorubicin) la phac do kinh dien dac trung nhat cho ung thu nguyen bao gan (Hepatoblastoma)."
+  },
+  {
+    "id": "BLIND-006",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Sinh thiet kim Menghini duoi huong dan cua sieu am la ky thuat tieu chuan de lay mau ton thuong khu tru o gan."
+  },
+  {
+    "id": "BLIND-007",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "TACE (nut dong mach gan hoa dau) la phuong phap dieu tri pho bien nhat cho HCC da o hoac khong con chi dinh cat gan."
+  },
+  {
+    "id": "BLIND-008",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Phan chia giai doan I va II sau mo (nhu cua SIOPEL/COG trong hepatoblastoma): Giai doan I cat tron ven dien cat am tinh (sach), giai doan II dien cat con te bao vi the."
+  },
+  {
+    "id": "BLIND-009",
+    "guess": 2,
+    "confidence": 2,
+    "reason": "The tich con tuyet doi PEI moi lan tiem hoac luong hoa chat/Lipiodol bom trong TACE thuong trong khoang 8-10 ml (hoac 10-20ml)."
+  },
+  {
+    "id": "BLIND-010",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "RFA cho u don doc hoac <= 3 khoi <= 3 cm la chi dinh tieu chuan vang trong huong dan dieu tri pha huy u tai cho."
+  },
+  {
+    "id": "BLIND-011",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "U mau gan lanh tinh the hang (cavernous hemangioma) la u lanh tinh pho bien nhat o gan can chan doan phan biet."
+  },
+  {
+    "id": "BLIND-012",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Phau thuat cat phan thuy gan triet can la phuong phap dieu tri triet de uu tien hang dau khi chuc nang gan con tot."
+  },
+  {
+    "id": "BLIND-013",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Tieu chuan chan doan AFP kinh dien: AFP > 400 ng/ml duong tinh ket hop hinh anh hoc hoac AFP > 3.500 ng/ml rat dac trung."
+  },
+  {
+    "id": "BLIND-014",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Phau thuat cat phan thuy gan triet can khi u khu tru phan thuy."
+  },
+  {
+    "id": "BLIND-015",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Chup cat lop vi tinh (CT scanner) co tieng thuoc can quang 3 pha dong/tinh mach la phuong tien chan doan xac dinh chu luc cua HCC."
+  },
+  {
+    "id": "BLIND-016",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Ung thu bieu mo te bao gan (HCC) la trong tam chu yeu cua bai hoc."
+  },
+  {
+    "id": "BLIND-017",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Phan do giai doan TNM (T3a N0 M0 thuong la IIIA trong ung thu gan theo AJCC 7/8)."
+  },
+  {
+    "id": "BLIND-018",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Chi tieu Vicryl (nhu Vicryl 0 hoac 2-0) la loai chi tieu thuong duoc dung de khau cam mau dien cat gan."
+  },
+  {
+    "id": "BLIND-019",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Giai doan IVA (xam lan hoac hach vung N1) hoac IVB (di can xa M1)."
+  },
+  {
+    "id": "BLIND-020",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "TACE la lua chon pho bien cho cac khoi u trung gian hoac khong cat duoc."
+  },
+  {
+    "id": "BLIND-021",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Phac do PLADO la dac hieu cho ung thu nguyen bao gan (hepatoblastoma)."
+  },
+  {
+    "id": "BLIND-022",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Hoa tac mach khoi u (TACE) qua dong mach gan cho cac ton thuong gan da o."
+  },
+  {
+    "id": "BLIND-023",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Hoa dau nut mach qua catheter TACE la bien phap can thiep mach chu luc."
+  },
+  {
+    "id": "BLIND-024",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Chien luoc dieu tri tieu chuan cua hepatoblastoma: Hoa tri tien phau 2-4 dot -> phau thuat cat u -> hoa tri bo tro du 6 dot."
+  },
+  {
+    "id": "BLIND-025",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "5 chi so tinh diem Child-Pugh: Bilirubin, Albumin, Ty le Prothrombin (hoac INR), Co truong, Hoi chung nao gan."
+  },
+  {
+    "id": "BLIND-026",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Hai cong thuc chan doan HCC cua Bo Y te/APASL: Cong thuc 1 gom AFP (thuong >200 hoac >400 ng/ml) + hinh anh dien hinh; Cong thuc 2 co sinh thiet mo benh hoc."
+  },
+  {
+    "id": "BLIND-027",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Phac do hoa tri phoi hop chuan PLADO trong ung thu nguyen bao gan."
+  },
+  {
+    "id": "BLIND-028",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Phan loai diem Child-Pugh chuan y khoa: Child A: 5-6 diem, Child B: 7-9 diem, Child C: 10-15 diem."
+  },
+  {
+    "id": "BLIND-029",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Phan giai doan sau mo cua Hepatoblastoma theo SIOPEL hoac COG."
+  },
+  {
+    "id": "BLIND-030",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "HCC la ung thu gan pho bien nhat o nguoi lon."
+  },
+  {
+    "id": "BLIND-031",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Giai doan I theo he thong xep hang giai doan lam sang/sau mo."
+  },
+  {
+    "id": "BLIND-032",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Phan biet u nguoi lon (HCC) va u tre em (Hepatoblastoma)."
+  },
+  {
+    "id": "BLIND-033",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "Theo phan loai AJCC, N1 thuoc ve giai doan IVA (T bat ky N1 M0)."
+  },
+  {
+    "id": "BLIND-034",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Sinh thiet kim Menghini duoi sieu am la phuong phap xam lan lay mau mo tieu chuan."
+  },
+  {
+    "id": "BLIND-035",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Bai tap tinh diem Child-Pugh thuong roi vao Child-Pugh B (7 hoac 8 diem)."
+  },
+  {
+    "id": "BLIND-036",
+    "guess": 1,
+    "confidence": 3,
+    "reason": "Ung thu bieu mo te bao gan la chu de trung tam."
+  },
+  {
+    "id": "BLIND-037",
+    "guess": 3,
+    "confidence": 2,
+    "reason": "Phau thuat cat phan thuy gan triet can cho khoi u khu tru."
+  },
+  {
+    "id": "BLIND-038",
+    "guess": 3,
+    "confidence": 3,
+    "reason": "Sau mo cat u hepatoblastoma, buoc tiep theo la hoa tri bo tro sau mo cho du 6 dot."
+  },
+  {
+    "id": "BLIND-039",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Phan loai T trong HCC: T3a (nhieu u > 5cm), T3b (xam lan nhanh lon tinh mach cua hoac tinh mach gan)."
+  },
+  {
+    "id": "BLIND-040",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "Child-Pugh C thuong la 11 hoac 12 diem trong tinh huong lam sang nang."
+  },
+  {
+    "id": "BLIND-041",
+    "guess": 1,
+    "confidence": 2,
+    "reason": "RFA (dot song cao tan) la ky thuat huy khoi u tai cho duoc chuong nhat hien nay."
+  },
+  {
+    "id": "BLIND-042",
+    "guess": 0,
+    "confidence": 2,
+    "reason": "T3a (u lon/nhieu o) va T3b (xam lan nhanh tinh mach cua)."
+  },
+  {
+    "id": "BLIND-043",
+    "guess": 0,
+    "confidence": 3,
+    "reason": "Nghiem phap kep Pringle ngat quang la ky thuat kiem soat chay mau cuong gan kinh dien nhat trong phau thuat cat gan."
+  },
+  {
+    "id": "BLIND-044",
+    "guess": 2,
+    "confidence": 3,
+    "reason": "Dac diem dich te hoc ung thu nguyen bao gan: Hay gap o tre em (95% duoi 4 tuoi) va khong lien quan den HBV (khac voi HCC lien quan chat che voi HBV)."
+  }
+]

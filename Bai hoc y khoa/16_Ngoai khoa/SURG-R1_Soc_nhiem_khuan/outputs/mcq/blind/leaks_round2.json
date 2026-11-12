@@ -1,0 +1,114 @@
+{
+  "SURGR1-A04": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn đồng thuận Sepsis-3 nhấn mạnh sốc nhiễm khuẩn có tỷ lệ tử vong nội viện vượt trên 40% (>40%)."
+  },
+  "SURGR1-B15": {
+    "conf": 3,
+    "reason": "Nguyên lý dùng kháng sinh trong sốc nhiễm khuẩn theo SSC là xuống thang (de-escalation) theo kháng sinh đồ với liệu trình chuẩn 7 đến 10 ngày."
+  },
+  "SURGR1-A13": {
+    "conf": 3,
+    "reason": "Khuyến cáo chuẩn hướng dẫn cấy máu ít nhất 2 mẫu (ưa khí và kỵ khí) trước khi dùng kháng sinh nhưng không làm chậm trễ bắt đầu kháng sinh."
+  },
+  "SURGR1-B01": {
+    "conf": 3,
+    "reason": "Huyết áp động mạch trung bình (MAP) đạt từ 65 mmHg trở lên là đích hồi sức huyết động cơ bản và quan trọng nhất."
+  },
+  "SURGR1-B16": {
+    "conf": 3,
+    "reason": "Nguyên tắc kiểm soát nguồn nhiễm (source control) ngoại khoa đòi hỏi can thiệp phẫu thuật cấp cứu giải quyết ổ nhiễm khuẩn khẩn trương song hành cùng hồi sức dịch."
+  },
+  "SURGR1-A01": {
+    "conf": 3,
+    "reason": "Tiêu chuẩn SIRS kinh điển về bạch cầu là WBC > 12.000/mm³ hoặc < 4.000/mm³, hoặc bạch cầu non (band) > 10%."
+  },
+  "SURGR1-B06": {
+    "conf": 2,
+    "reason": "Liều hồi sức dịch tinh thể chuẩn của SSC là 30 ml/kg, tương ứng với bệnh nhân chuẩn 70 kg là 2.100 ml dung dịch Ringer Lactat."
+  },
+  "SURGR1-B04": {
+    "conf": 3,
+    "reason": "Đích bài niệu trong hồi sức sốc nhiễm khuẩn theo khuyến cáo chuẩn SSC là lưu lượng nước tiểu ≥ 0,5 ml/kg/giờ."
+  },
+  "SURGR1-B07": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC khuyến nghị dùng Albumin khi cần lượng lớn dịch tinh thể và chống chỉ định dung dịch keo nhân tạo Hydroxyethyl Starch (HES)."
+  },
+  "SURGR1-B05": {
+    "conf": 3,
+    "reason": "Gói hồi sức 3 giờ đầu của SSC quy định truyền dịch tinh thể 30 ml/kg trong 3 giờ đầu (60 kg tương ứng 1.800 ml)."
+  },
+  "SURGR1-B11": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC bổ sung Vasopressin liều cố định 0,03 đơn vị/phút (hoặc Epinephrine) khi Norepinephrine liều cao vẫn chưa đạt đích MAP."
+  },
+  "SURGR1-B20": {
+    "conf": 3,
+    "reason": "Chiến lược truyền máu hạn chế chuẩn của SSC chỉ định truyền khối hồng cầu khi Hb < 70 g/L và duy trì đích 70 - 90 g/L."
+  },
+  "SURGR1-A15": {
+    "conf": 2,
+    "reason": "Ngưỡng tiêu chuẩn xác định qSOFA dương tính có nguy cơ xấu là đạt từ 2 điểm trở lên."
+  },
+  "SURGR1-B13": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC nhấn mạnh dứt khoát không sử dụng Dopamine liều thấp nhằm mục đích bảo vệ thận do không có hiệu quả và tăng nguy cơ loạn nhịp."
+  },
+  "SURGR1-B17": {
+    "conf": 3,
+    "reason": "Chiến lược thông khí bảo vệ phổi theo ARDSNet và SSC là cài đặt thể tích lưu thông thấp 6 ml/kg cân nặng dự đoán kết hợp PEEP phù hợp."
+  },
+  "SURGR1-A14": {
+    "conf": 3,
+    "reason": "3 phương án còn lại (SBP ≤ 100, RR ≥ 22, GCS < 15) là 3 tiêu chuẩn của qSOFA; thân nhiệt là tiêu chuẩn của SIRS nên câu hỏi là dấu hiệu không thuộc qSOFA."
+  },
+  "SURGR1-B21": {
+    "conf": 3,
+    "reason": "Phương án 3 tập hợp đầy đủ và chuẩn xác các trụ cột hồi sức cấp cứu theo SSC bundle (dịch tinh thể 30 ml/kg trong 3h, kháng sinh trong 1h, Norepinephrine nếu MAP < 65)."
+  },
+  "SURGR1-B12": {
+    "conf": 2,
+    "reason": "Dobutamine liều 2,5 đến 20 mcg/kg/phút là thuốc tăng co bóp cơ tim được chỉ định khi có biểu hiện suy giảm chức năng cơ tim hoặc giảm tưới máu dai dẳng dù MAP đạt đích."
+  },
+  "SURGR1-B18": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC chỉ định rõ ràng: Hydrocortisone liều 200 mg/ngày chỉ dùng khi sốc kháng trị (trơ với hồi sức dịch và vận mạch liều cao)."
+  },
+  "SURGR1-B14": {
+    "conf": 3,
+    "reason": "Khuyến cáo SSC đặt mục tiêu 'giờ vàng' (Golden Hour): dùng kháng sinh tĩnh mạch phổ rộng trong vòng 1 giờ đầu tiên kể từ khi nhận diện sốc."
+  },
+  "SURGR1-B19": {
+    "conf": 3,
+    "reason": "Mục tiêu kiểm soát đường huyết theo SSC là duy trì nồng độ glucose máu dưới 10 mmol/L (hoặc ≤ 180 mg/dL) bằng phác đồ insulin."
+  },
+  "SURGR1-A03": {
+    "conf": 3,
+    "reason": "Theo định nghĩa Sepsis-3, suy chức năng cơ quan được xác định khi có sự gia tăng cấp tính từ 2 điểm trở lên (ΔSOFA ≥ 2) so với điểm nền."
+  },
+  "SURGR1-B02": {
+    "conf": 2,
+    "reason": "Độ thanh thải Lactat (lactate clearance) mục tiêu là giảm từ 10 - 20% sau mỗi 2 giờ hồi sức để chứng minh tái tưới máu mô hiệu quả."
+  },
+  "SURGR1-A11": {
+    "conf": 2,
+    "reason": "Trong dịch tễ nhiễm khuẩn huyết / sốc nhiễm khuẩn ngoại khoa, nhiễm khuẩn ổ bụng đứng hàng thứ hai sau hô hấp, chiếm khoảng 30% các trường hợp."
+  },
+  "SURGR1-A05": {
+    "conf": 2,
+    "reason": "Trong bài học về sốc nhiễm khuẩn, chẩn đoán giai đoạn tiến triển nặng nhất kèm tụt huyết áp cần vận mạch là Sốc nhiễm khuẩn thực sự (Septic Shock)."
+  },
+  "SURGR1-A22": {
+    "conf": 3,
+    "reason": "Bộ xét nghiệm cấp cứu vi sinh và khí máu bắt buộc ban đầu bao gồm Công thức máu, Khí máu động mạch, Cấy máu (ít nhất 2 mẫu) và Kháng sinh đồ."
+  },
+  "SURGR1-B08": {
+    "conf": 3,
+    "reason": "Các nghiên cứu lớn (6S, CHEST) chứng minh Hydroxyethyl Starch (HES) gây tăng tổn thương thận cấp, tăng chỉ định lọc máu thay thế và tăng tỷ lệ tử vong nên bị chống chỉ định."
+  },
+  "SURGR1-B09": {
+    "conf": 3,
+    "reason": "Norepinephrine là thuốc co mạch lựa chọn hàng đầu (first-line vasopressor) được khuyến cáo bởi toàn bộ các hiệp hội hồi sức cấp cứu quốc tế trong sốc nhiễm khuẩn."
+  }
+}

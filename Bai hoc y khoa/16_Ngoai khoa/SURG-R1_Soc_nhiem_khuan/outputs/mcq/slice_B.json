@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": "SURGR1-B01",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Đích huyết động cơ bản",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.1 & Câu lượng giá 1",
+      "text": "Trong các đích hồi sức sốc nhiễm khuẩn theo Surviving Sepsis Campaign, chỉ số bài niệu tối thiểu cần duy trì để đảm bảo tưới máu thận là bao nhiêu?",
+      "options": [
+        "Lượng nước tiểu ≥ 0,2 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 0,5 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 1,0 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 1,5 ml/kg/giờ"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.5.1, bệnh nhân có MAP = 65 mmHg đã đạt đích 'Huyết áp động mạch trung bình (MAP) >= 65 mmHg'. Nước tiểu mới đạt 0,4 (<0,5) và CVP 7 (<8) nên chưa đạt.",
+      "option_explanations": [
+        "Đúng — MAP hiện tại là 65 mmHg đã đạt đích hồi sức huyết áp tối thiểu theo barem (Mục II.5.1).",
+        "Sai — Nước tiểu mới đạt 0,4 ml/kg/h, chưa đạt đích >= 0,5 ml/kg/h theo barem.",
+        "Sai — CVP 7 mmHg ở bệnh nhân tự thở chưa đạt khoảng đích 8 - 12 mmHg.",
+        "Sai — ScvO2 chưa có dữ kiện đạt và thường đòi hỏi hồi sức đủ thể tích dịch và cung lượng tim."
+      ]
+    },
+    {
+      "id": "SURGR1-B02",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Đích theo dõi tưới máu mô và chuyển hóa",
+      "bloom": "phân tích",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.1 & Câu lượng giá 1",
+      "text": "Bệnh nhân nữ 58 tuổi sốc nhiễm khuẩn sau phẫu thuật cắt đoạn đại tràng, được đặt catheter đo áp lực tĩnh mạch trung tâm và theo dõi khí máu động học. Sau 2 giờ hồi sức dịch và vận mạch: MAP đạt 67 mmHg, CVP 10 mmHg, nước tiểu 0,6 ml/kg/h, ScvO2 đo được 73%, và nồng độ Lactat máu giảm từ 4,5 mmol/L xuống 3,1 mmol/L (giảm 31%). Chỉ số nào sau đây phản ánh đặc hiệu nhất sự cải thiện chuyển hóa yếm khí của tế bào theo barem?\nChỉ số đích nào phản ánh trực tiếp sự phục hồi chuyển hóa tế bào?",
+      "options": [
+        "Huyết áp động mạch trung bình ≥ 65 mmHg",
+        "Thanh thải Lactat máu ≥ 20% mỗi 2 giờ",
+        "Lượng nước tiểu ≥ 0,5 ml/kg/giờ",
+        "Áp lực tĩnh mạch trung tâm 8 – 12 mmHg"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.5.1, thanh thải Lactat máu (về bình thường hoặc giảm >= 20% sau mỗi 2 giờ) là chỉ số chuyên biệt đánh giá mức độ giảm thiếu oxy tổ chức và hồi phục chuyển hóa tế bào.",
+      "option_explanations": [
+        "Sai — MAP >= 65 mmHg phản ánh áp lực tưới máu vĩ mô, không đo lường trực tiếp mức độ chuyển hóa tế bào.",
+        "Đúng — Theo barem Mục II.5.1, thanh thải Lactat giảm >= 20% mỗi 2 giờ là đích đánh giá trực tiếp sự cải thiện thiếu oxy và chuyển hóa tế bào.",
+        "Sai — Nước tiểu >= 0,5 ml/kg/h phản ánh tưới máu cầu thận, chịu ảnh hưởng của nhiều yếu tố tại thận.",
+        "Sai — CVP 8 - 12 mmHg phản ánh thể tích tiền gánh tĩnh mạch trung tâm."
+      ]
+    },
+    {
+      "id": "SURGR1-B03",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Đích áp lực tĩnh mạch trung tâm (CVP)",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.1",
+      "text": "Một bệnh nhân sốc nhiễm khuẩn do viêm phổi nặng có biến chứng ARDS đang được đặt ống nội khí quản và thở máy kiểm soát thể tích với áp lực dương cuối thì thở ra (PEEP). Do lồng ngực chịu áp lực dương liên tục, chỉ số áp lực tĩnh mạch trung tâm (CVP) mục tiêu cần duy trì ở bệnh nhân này theo quy định trong barem là bao nhiêu?\nChỉ số CVP mục tiêu cần duy trì ở bệnh nhân thở máy là gì?",
+      "options": [
+        "CVP mục tiêu từ 4 đến 7 mmHg",
+        "CVP mục tiêu từ 8 đến 12 mmHg",
+        "CVP mục tiêu từ 12 đến 15 mmHg",
+        "CVP mục tiêu từ 16 đến 20 mmHg"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục II.5.1 quy định: Áp lực tĩnh mạch trung tâm (CVP) từ 8-12 mmHg ở người tự thở, và từ 12-15 mmHg nếu bệnh nhân đang thở máy kiểm soát.",
+      "option_explanations": [
+        "Sai — 4 đến 7 mmHg là mức áp lực tĩnh mạch trung tâm thấp, chưa bù đủ thể tích tuần hoàn hữu dụng.",
+        "Sai — 8 đến 12 mmHg là đích CVP áp dụng cho bệnh nhân tự thở không có thông khí nhân tạo áp lực dương.",
+        "Đúng — Barem Mục II.5.1 ghi rõ đích CVP từ 12 đến 15 mmHg khi bệnh nhân thở máy.",
+        "Sai — 16 đến 20 mmHg là mức quá tải dịch, làm nặng thêm phù phổi tổn thương trong ARDS."
+      ]
+    },
+    {
+      "id": "SURGR1-B04",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Đích thể tích nước tiểu",
+      "bloom": "nhớ",
+      "difficulty": 1,
+      "source": "SURG-R1 §5.1",
+      "text": "Bệnh nhân nam 60 kg được chẩn đoán sốc nhiễm khuẩn ổ bụng, được đặt sonde bàng quang để theo dõi lưu lượng nước tiểu từng giờ nhằm đánh giá tưới máu thận. Theo tiêu chuẩn của gói hồi sức Surviving Sepsis Campaign và barem điều trị, lượng nước tiểu theo giờ của bệnh nhân này được xem là đạt đích điều trị khi đạt từ ngưỡng nào trở lên?\nNgưỡng lưu lượng nước tiểu mục tiêu cần đạt theo barem là gì?",
+      "options": [
+        "Lượng nước tiểu ≥ 0,2 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 1,5 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 1,0 ml/kg/giờ",
+        "Lượng nước tiểu ≥ 0,5 ml/kg/giờ"
+      ],
+      "correct": 3,
+      "explanation": "Barem Mục II.5.1 nêu rõ đích bài niệu là: 'Lượng nước tiểu >= 0,5 ml/kg/giờ'. Dưới ngưỡng này được xem là thiểu niệu.",
+      "option_explanations": [
+        "Sai — Mức 0,2 ml/kg/giờ thuộc nhóm thiểu niệu nặng / đe dọa hoại tử ống thận cấp.",
+        "Sai — Mức 1,5 ml/kg/giờ là mức bài niệu cao trong giai đoạn phục hồi đa niệu hoặc sau lợi tiểu thẩm thấu.",
+        "Sai — Mức 1,0 ml/kg/giờ là lưu lượng bài niệu sinh lý bình thường nhưng không phải ngưỡng cắt tối thiểu của gói hồi sức sốc.",
+        "Đúng — Barem Mục II.5.1 ghi rõ đích hồi sức thận là lượng nước tiểu >= 0,5 ml/kg/giờ."
+      ]
+    },
+    {
+      "id": "SURGR1-B05",
+      "type": "calc",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Tính toán thể tích dịch bù ban đầu",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.1 & Câu lượng giá 2",
+      "text": "Bệnh nhân nam, 60 tuổi, cân nặng 60 kg, nhập viện cấp cứu vì sốc nhiễm khuẩn do thủng ổ loét dạ dày tá tràng. Bác sĩ chỉ định truyền dịch tinh thể ban đầu với liều chuẩn 30 ml/kg theo hướng dẫn Surviving Sepsis Campaign trong barem. Tổng thể tích dung dịch tinh thể (Ringer Lactat hoặc NaCl 0,9%) cần hoàn tất truyền tĩnh mạch cho bệnh nhân này trong 3 giờ đầu là bao nhiêu?\nTổng thể tích dịch tinh thể cần truyền trong 3 giờ đầu là bao nhiêu?",
+      "options": [
+        "1.200 ml dung dịch tinh thể",
+        "1.800 ml dung dịch tinh thể",
+        "2.400 ml dung dịch tinh thể",
+        "3.000 ml dung dịch tinh thể"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.1: Truyền 30 ml/kg dung dịch tinh thể trong 3 giờ đầu. Cân nặng 60 kg: Thể tích = 60 x 30 = 1.800 ml.",
+      "option_explanations": [
+        "Đúng — Cân nặng 60 kg x 30 ml/kg = 1.800 ml dung dịch tinh thể trong 3 giờ đầu (Mục II.5.2.1).",
+        "Sai — 1.200 ml ứng với liều 20 ml/kg, chưa đủ thể tích bolus chuẩn 30 ml/kg.",
+        "Sai — 2.400 ml ứng với liều 40 ml/kg, vượt quá khuyến cáo bù dịch ban đầu.",
+        "Sai — 3.000 ml ứng với liều 50 ml/kg, có nguy cơ gây quá tải dịch sớm."
+      ]
+    },
+    {
+      "id": "SURGR1-B06",
+      "type": "calc",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Tính toán thể tích dịch bù ở bệnh nhân thể trạng lớn",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.1 & Câu lượng giá 2",
+      "text": "Một phụ nữ 55 tuổi, cân nặng 70 kg, được chẩn đoán sốc nhiễm khuẩn huyết do sỏi kẹt cổ túi mật gây viêm hoại tử. Bác sĩ cấp cứu chỉ định bù dịch tinh thể Ringer Lactat liều chuẩn 30 ml/kg trong 3 giờ đầu tiên theo barem điều trị. Tổng lượng dịch tinh thể cần truyền hoàn thành trong khoảng thời gian này là bao nhiêu?\nThể tích dịch truyền cần dùng cho bệnh nhân này là bao nhiêu?",
+      "options": [
+        "1.400 ml dung dịch tinh thể",
+        "2.100 ml dung dịch tinh thể",
+        "2.800 ml dung dịch tinh thể",
+        "3.500 ml dung dịch tinh thể"
+      ],
+      "correct": 1,
+      "explanation": "Theo barem Mục II.5.2.1: 70 kg x 30 ml/kg = 2.100 ml dung dịch tinh thể trong 3 giờ đầu.",
+      "option_explanations": [
+        "Sai — 1.400 ml ứng với mức 20 ml/kg.",
+        "Đúng — 70 kg x 30 ml/kg = 2.100 ml dung dịch tinh thể (Mục II.5.2.1).",
+        "Sai — 2.800 ml ứng với mức 40 ml/kg.",
+        "Sai — 3.500 ml ứng với mức 50 ml/kg."
+      ]
+    },
+    {
+      "id": "SURGR1-B07",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Lựa chọn dịch truyền và chống chỉ định",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.1 & Câu lượng giá 2",
+      "text": "Bệnh nhân nam 54 tuổi bị sốc nhiễm khuẩn viêm tụy hoại tử, đã được truyền đủ 30 ml/kg Ringer Lactat nhưng thể tích tuần hoàn hiệu dụng vẫn thiếu hụt do tình trạng thoát dịch mao mạch vào khoang gian bào rất nặng. Khi cân nhắc giải pháp dịch truyền bổ sung, barem điều trị khuyến cáo loại dịch keo sinh học nào có thể phối hợp thêm khi cần truyền khối lượng dịch lớn?\nDung dịch keo nào được khuyến cáo phối hợp thêm theo barem?",
+      "options": [
+        "Dung dịch keo nhân tạo Hydroxyethyl Starch",
+        "Dung dịch keo nhân tạo Gelatin 4%",
+        "Dung dịch keo sinh học Albumin 5% – 20%",
+        "Dung dịch keo Dextran trọng lượng phân tử 40"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục II.5.2.1: 'Có thể phối hợp thêm Albumin 5% - 20% khi cần truyền khối lượng dịch lớn. Chống chỉ định dùng dung dịch keo nhân tạo HES'. Gelatin và Dextran không được ưu tiên.",
+      "option_explanations": [
+        "Sai — Hydroxyethyl Starch bị chống chỉ định vì gây tổn thương thận và tăng tỷ lệ tử vong.",
+        "Sai — Gelatin không được khuyến cáo ưu tiên và là đáp án sai trong câu hỏi lượng giá 2.",
+        "Đúng — Barem Mục II.5.2.1 ghi rõ: Phối hợp thêm Albumin 5% - 20% khi cần truyền lượng dịch lớn.",
+        "Sai — Dextran gây rối loạn đông máu và tổn thương ống thận, không được khuyến cáo trong phác đồ SSC."
+      ]
+    },
+    {
+      "id": "SURGR1-B08",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Nguy cơ của dung dịch keo nhân tạo",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.1 & Câu lượng giá 2",
+      "text": "Một bác sĩ đề xuất truyền dung dịch keo nhân tạo Hydroxyethyl Starch (HES / Heasteril) cho bệnh nhân sốc nhiễm khuẩn để nâng nhanh áp lực keo lòng mạch, nhưng bị từ chối ngay.\nTác hại nguy hiểm nào theo barem là nguyên nhân khiến dung dịch HES bị chống chỉ định?",
+      "options": [
+        "Gây xuất huyết tiêu hóa do loét stress dạ dày",
+        "Gây ức chế chức năng co bóp của cơ tim",
+        "Gây suy gan cấp hoại tử tế bào gan diện rộng",
+        "Gây tổn thương thận và tăng tỷ lệ tử vong"
+      ],
+      "correct": 3,
+      "explanation": "Barem Mục II.5.2.1 nêu rõ: 'Chống chỉ định dùng dung dịch keo nhân tạo HES (Hydroxyethyl Starch) vì gây tổn thương thận và tăng tỷ lệ tử vong'.",
+      "option_explanations": [
+        "Sai — Loét stress tiêu hóa là hậu quả của thiếu máu tạng chung trong sốc, không phải tác hại đặc hiệu của HES.",
+        "Sai — Ức chế cơ tim do yếu tố MDF và toan chuyển hóa gây ra.",
+        "Sai — Suy gan cấp do sốc là hậu quả của tụt huyết áp kéo dài chứ không phải độc tính trực tiếp của HES.",
+        "Đúng — Barem Mục II.5.2.1 ghi rõ HES gây tổn thương thận cấp và làm tăng tỷ lệ tử vong nên bị chống chỉ định."
+      ]
+    },
+    {
+      "id": "SURGR1-B09",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Thuốc vận mạch lựa chọn hàng đầu (First-line)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.2 & Câu lượng giá 3",
+      "text": "Bệnh nhân sốc nhiễm khuẩn đã bù đủ thể tích dịch tinh thể 30 ml/kg nhưng huyết áp động mạch trung bình (MAP) vẫn ở mức 55 mmHg. Thuốc vận mạch co mạch được khuyến cáo lựa chọn hàng đầu (first-line) là gì?",
+      "options": [
+        "Norepinephrine truyền liên tục",
+        "Vasopressin truyền liên tục",
+        "Dobutamine truyền liên tục",
+        "Dopamine truyền liên tục"
+      ],
+      "correct": 0,
+      "explanation": "Barem Mục II.5.2.2 và Câu lượng giá 3 khẳng định: 'Norepinephrine là lựa chọn hàng đầu (First-line): Bắt đầu liều 0,05 - 0,1 mcg/kg/phút, chỉnh liều duy trì MAP >= 65 mmHg'.",
+      "option_explanations": [
+        "Đúng — Barem Mục II.5.2.2 ghi nhận Norepinephrine là lựa chọn hàng đầu (First-line) trong sốc nhiễm khuẩn.",
+        "Sai — Dopamine không còn là lựa chọn hàng đầu do có tỷ lệ loạn nhịp cao hơn Norepinephrine.",
+        "Sai — Dobutamine là thuốc tăng co bóp cơ tim, chỉ định khi có giảm co bóp tim hoặc ScvO2 < 70% sau khi đã bù đủ dịch.",
+        "Sai — Vasopressin là thuốc phối hợp bước 2 khi Norepinephrine chưa đạt đích, không phải thuốc hàng đầu."
+      ]
+    },
+    {
+      "id": "SURGR1-B10",
+      "type": "calc",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Liều khởi đầu Norepinephrine",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.2",
+      "text": "Bệnh nhân nữ 50 kg bị sốc nhiễm khuẩn đường mật tụt huyết áp dai dẳng sau khi bù đủ dịch tinh thể. Bác sĩ bắt đầu truyền Norepinephrine qua bơm tiêm điện với khoảng liều khởi đầu khuyến cáo trong barem là 0,05 đến 0,1 mcg/kg/phút. Tốc độ liều khởi đầu tương ứng tính theo tổng lượng mcg/phút cho bệnh nhân này là bao nhiêu?\nKhoảng liều khởi đầu tính theo mcg/phút là bao nhiêu?",
+      "options": [
+        "1,0 đến 2,0 mcg/phút",
+        "2,5 đến 5,0 mcg/phút",
+        "6,0 đến 10,0 mcg/phút",
+        "12,0 đến 20,0 mcg/phút"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.2: Liều khởi đầu Norepinephrine 0,05 - 0,1 mcg/kg/phút. Với 50 kg: 50 x 0,05 = 2,5 mcg/phút; 50 x 0,1 = 5,0 mcg/phút.",
+      "option_explanations": [
+        "Sai — 1,0 - 2,0 mcg/phút ứng với liều 0,02 - 0,04 mcg/kg/phút.",
+        "Đúng — 50 kg x (0,05 - 0,1 mcg/kg/phút) = 2,5 đến 5,0 mcg/phút (Mục II.5.2.2).",
+        "Sai — 6,0 - 10,0 mcg/phút ứng với liều 0,12 - 0,2 mcg/kg/phút.",
+        "Sai — 12,0 - 20,0 mcg/phút ứng với liều 0,24 - 0,4 mcg/kg/phút."
+      ]
+    },
+    {
+      "id": "SURGR1-B11",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Phối hợp vận mạch bước hai (Vasopressin, Epinephrine)",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.2",
+      "text": "Bệnh nhân sốc nhiễm khuẩn đang được truyền Norepinephrine liều cao nhưng MAP vẫn chưa đạt 65 mmHg. Thuốc vận mạch phối hợp thứ hai với liều cố định theo barem là gì?",
+      "options": [
+        "Dobutamine tăng co bóp cơ tim",
+        "Vasopressin liều 0,03 đv/phút",
+        "Epinephrine truyền tĩnh mạch",
+        "Dopamine liều kích thích delta"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.2 nêu rõ: 'Phối hợp thêm Vasopressin (liều cố định 0,03 đv/phút) hoặc Epinephrine nếu không đạt đích MAP'.",
+      "option_explanations": [
+        "Sai — Dobutamine (2,5-20 mcg/kg/phút) dùng khi có suy tim hoặc ScvO2 < 70% sau bù dịch, không dùng nâng MAP do gây giãn mạch ngoại vi nhẹ.",
+        "Sai — Dopamine không phối hợp cùng Norepinephrine liều cao để nâng MAP do nguy cơ loạn nhịp cao.",
+        "Đúng — Barem Mục II.5.2.2 ghi rõ phối hợp thêm Vasopressin (liều cố định 0,03 đv/phút) nếu không đạt đích MAP.",
+        "Sai — Hydrocortisone là hormone hỗ trợ dùng khi sốc kháng trị trơ với vận mạch liều cao, không phải thuốc vận mạch trực tiếp."
+      ]
+    },
+    {
+      "id": "SURGR1-B12",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Chỉ định dùng Dobutamine",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.2",
+      "text": "Bệnh nhân nam 62 tuổi sốc nhiễm khuẩn ổ bụng sau phẫu thuật cắt đại tràng. Sau khi đã bù đủ 30 ml/kg Ringer Lactat và duy trì Norepinephrine để giữ MAP ở mức 68 mmHg, kết quả đo khí máu tĩnh mạch trung tâm cho thấy ScvO2 vẫn chỉ đạt 62% (chưa đạt đích ≥ 70%) và siêu âm tim cấp cứu tại giường ghi nhận giảm co bóp cơ tim. Theo barem điều trị, thuốc trợ tim nào sau đây được chỉ định phối hợp với liều từ 2,5 đến 20 mcg/kg/phút để cải thiện tưới máu mô?\nThuốc được chỉ định phối hợp trong tình huống này là gì?",
+      "options": [
+        "Epinephrine truyền tĩnh mạch liên tục",
+        "Vasopressin truyền tĩnh mạch liên tục",
+        "Dopamine truyền tĩnh mạch liên tục",
+        "Dobutamine truyền tĩnh mạch liên tục"
+      ],
+      "correct": 3,
+      "explanation": "Barem Mục II.5.2.2: 'Dùng thêm Dobutamine (2,5 - 20 mcg/kg/phút) nếu có suy chức năng co bóp cơ tim hoặc ScvO2 < 70% dù đã bù đủ dịch'.",
+      "option_explanations": [
+        "Sai — Epinephrine có tác dụng co mạch mạnh và tăng co bóp nhưng Dobutamine là lựa chọn chuyên biệt chuẩn độ cho suy tim sau khi MAP đã đạt.",
+        "Sai — Vasopressin dùng khi MAP chưa đạt đích với Norepinephrine, không phải thuốc tăng co bóp cơ tim.",
+        "Sai — Dopamine liều thấp không dùng bảo vệ thận và không phải lựa chọn ưu tiên khi đã có Norepinephrine.",
+        "Đúng — Barem Mục II.5.2.2 ghi nhận Dobutamine (2,5 - 20 mcg/kg/phút) được chỉ định khi có suy tim hoặc ScvO2 < 70% sau bù dịch."
+      ]
+    },
+    {
+      "id": "SURGR1-B13",
+      "type": "concept",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Quan điểm về Dopamine liều thấp bảo vệ thận",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.2",
+      "text": "Bệnh nhân sốc nhiễm khuẩn có tình trạng thiểu niệu (< 0,5 ml/kg/giờ) và Creatinine máu tăng tiến triển. Một nhân viên y tế đề xuất dùng Dopamine liều thấp (1 - 3 mcg/kg/phút) với hy vọng làm tăng tưới máu thận qua thụ thể dopaminergic. Khuyến cáo nào sau đây về việc sử dụng Dopamine liều thấp được nêu chính thức trong barem điều trị sốc nhiễm khuẩn?\nKhuyến cáo chính thức về Dopamine liều thấp là gì?",
+      "options": [
+        "Không dùng Dopamine liều thấp để bảo vệ thận",
+        "Chỉ định dùng thường quy cho mọi bệnh nhân có thiểu niệu",
+        "Bắt buộc phối hợp cùng Norepinephrine trong 1 giờ đầu",
+        "Dùng thay thế dung dịch tinh thể khi suy thận"
+      ],
+      "correct": 0,
+      "explanation": "Barem Mục II.5.2.2 ghi rõ ràng: 'Không dùng Dopamine liều thấp để bảo vệ thận'. Các thử nghiệm lâm sàng đã chứng minh Dopamine liều thấp không cải thiện chức năng thận mà còn gây loạn nhịp tim.",
+      "option_explanations": [
+        "Đúng — Barem Mục II.5.2.2 nhấn mạnh: 'Không dùng Dopamine liều thấp để bảo vệ thận'.",
+        "Sai — Không dùng thường quy vì không có hiệu quả cải thiện chức năng thận.",
+        "Sai — Phác đồ không bắt buộc phối hợp Dopamine liều thấp cùng Norepinephrine.",
+        "Sai — Dung dịch tinh thể là nền tảng hồi sức thể tích lòng mạch, không thể thay thế bằng Dopamine."
+      ]
+    },
+    {
+      "id": "SURGR1-B14",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Thời điểm và nguyên tắc dùng kháng sinh",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.3",
+      "text": "Bệnh nhân nam 55 tuổi vào viện cấp cứu với triệu chứng sốt rét run, huyết áp 80/50 mmHg, thở nhanh 26 lần/phút, được chẩn đoán sốc nhiễm khuẩn do viêm phổi nặng. Kíp cấp cứu đã lấy 2 mẫu máu cấy vi sinh. Theo gói can thiệp giờ đầu (Surviving Sepsis Campaign Hour-1 Bundle) và barem điều trị, khung thời gian bắt buộc phải tiêm tĩnh mạch liều kháng sinh phổ rộng đầu tiên là khi nào?\nKhung thời gian bắt buộc dùng kháng sinh tĩnh mạch là gì?",
+      "options": [
+        "Bắt buộc tiêm tĩnh mạch trong vòng 3 giờ đầu",
+        "Bắt buộc tiêm tĩnh mạch trong vòng 1 giờ đầu",
+        "Bắt buộc tiêm tĩnh mạch trong vòng 6 giờ đầu",
+        "Bắt buộc tiêm tĩnh mạch trong vòng 12 giờ đầu"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.3 quy định: 'Liệu pháp kháng sinh sớm: Bắt buộc tiêm tĩnh mạch trong vòng 1 giờ đầu tiên'.",
+      "option_explanations": [
+        "Sai — 3 giờ đầu là khung thời gian hoàn tất truyền 30 ml/kg dung dịch tinh thể.",
+        "Đúng — Barem Mục II.5.2.3 ghi rõ: Bắt buộc tiêm tĩnh mạch trong vòng 1 giờ đầu tiên.",
+        "Sai — Không chờ 6 giờ để có kết quả nhuộm soi vi sinh vật.",
+        "Sai — Không trì hoãn 12 giờ chờ đợi kháng sinh đồ hoặc hội chẩn chuyên khoa."
+      ]
+    },
+    {
+      "id": "SURGR1-B15",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Chiến lược kháng sinh và thời gian điều trị",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.3",
+      "text": "Bệnh nhân nữ 45 tuổi sau phẫu thuật dẫn lưu sỏi mật nhiễm trùng kèm sốc nhiễm khuẩn đã được khởi đầu kháng sinh phổ rộng theo kinh nghiệm. Đến ngày thứ 3, kết quả cấy máu phát hiện vi khuẩn E. coli nhạy cảm kháng sinh đồ, bệnh nhân cắt sốt, huyết áp ổn định và đã cai được Norepinephrine. Theo barem phác đồ, thời gian điều trị kháng sinh toàn thân thông thường sau khi đã xuống thang theo kháng sinh đồ kéo dài bao lâu?\nThời gian điều trị kháng sinh theo khuyến cáo là bao lâu?",
+      "options": [
+        "Thời gian điều trị từ 3 đến 5 ngày",
+        "Thời gian điều trị từ 14 đến 21 ngày",
+        "Thời gian điều trị từ 7 đến 10 ngày",
+        "Thời gian điều trị từ 28 đến 30 ngày"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục II.5.2.3 ghi rõ: 'Dùng kháng sinh phổ rộng theo kinh nghiệm, sau đó xuống thang theo kết quả kháng sinh đồ. Thời gian điều trị 7 - 10 ngày'.",
+      "option_explanations": [
+        "Sai — 3 đến 5 ngày là quá ngắn, nguy cơ bùng phát tái phát nhiễm khuẩn huyết.",
+        "Sai — 14 đến 21 ngày chỉ dùng trong viêm nội tâm mạc nhiễm khuẩn hoặc ổ áp xe sâu chưa dẫn lưu tốt.",
+        "Đúng — Barem Mục II.5.2.3 quy định thời gian điều trị kháng sinh từ 7 đến 10 ngày.",
+        "Sai — 28 đến 30 ngày dùng trong viêm xương tủy xương, không dùng thường quy cho sốc nhiễm khuẩn đường mật."
+      ]
+    },
+    {
+      "id": "SURGR1-B16",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Kiểm soát nguồn nhiễm khuẩn ngoại khoa",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R1 §5.2.4",
+      "text": "Bệnh nhân sốc nhiễm khuẩn do viêm phúc mạc ruột thừa vỡ mủ. Thời điểm can thiệp ngoại khoa giải quyết ổ nhiễm khuẩn theo barem là khi nào?",
+      "options": [
+        "Chờ đợi sau 48 giờ dùng kháng sinh phổ rộng",
+        "Phẫu thuật ngay khi bắt đầu hồi sức dịch",
+        "Chờ khi huyết áp ổn định và đã ngừng vận mạch",
+        "Chỉ mổ khi xét nghiệm Procalcitonin giảm dưới 2"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.4 ghi rõ: 'Kiểm soát ổ nhiễm khuẩn ngoại khoa (Cực kỳ quan trọng): Phẫu thuật cấp cứu dẫn lưu ổ áp xe, cắt ruột thừa viêm mủ... ngay khi hồi sức dịch bắt đầu. Kháng sinh đơn thuần không thể chữa khỏi nếu chưa giải quyết ổ mủ ngoại khoa'.",
+      "option_explanations": [
+        "Sai — Chờ kết quả kháng sinh đồ mất 2-3 ngày, bệnh nhân sẽ tử vong vì suy đa tạng trước khi mổ.",
+        "Sai — Chờ ngừng vận mạch mới mổ sẽ làm mất thời gian vàng, độc tố tiếp tục tràn vào máu gây tử vong.",
+        "Sai — Trì hoãn 48 giờ chờ kháng sinh là sai lầm nghiêm trọng trong ngoại khoa nhiễm khuẩn.",
+        "Đúng — Barem Mục II.5.2.4 nêu rõ phẫu thuật cấp cứu giải quyết ổ nhiễm khuẩn ngay khi hồi sức dịch bắt đầu."
+      ]
+    },
+    {
+      "id": "SURGR1-B17",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Thông khí nhân tạo bảo vệ phổi",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.5",
+      "text": "Bệnh nhân nữ 50 kg bị sốc nhiễm khuẩn biến chứng suy hô hấp cấp tiến triển (ARDS) nặng với chỉ số PaO2/FiO2 < 150 mmHg, được đặt ống nội khí quản và thở máy xâm nhập. Để hạn chế tổn thương phổi do máy thở theo chiến lược thở máy bảo vệ phổi của barem, thông số thể tích lưu thông (Vt) khuyến cáo cài đặt là bao nhiêu?\nThể tích lưu thông (Vt) cài đặt theo barem là bao nhiêu?",
+      "options": [
+        "Thể tích lưu thông thấp 6 ml/kg",
+        "Thể tích lưu thông trung bình 8 ml/kg",
+        "Thể tích lưu thông cao 10 ml/kg",
+        "Thể tích lưu thông rất cao 12 ml/kg"
+      ],
+      "correct": 0,
+      "explanation": "Barem Mục II.5.2.5 quy định: 'Thở máy bảo vệ phổi (Vt thấp 6 ml/kg, PEEP phù hợp) nếu có ARDS'.",
+      "option_explanations": [
+        "Đúng — Barem Mục II.5.2.5 ghi nhận thể tích lưu thông thấp 6 ml/kg kết hợp PEEP phù hợp.",
+        "Sai — Vt 8 ml/kg không phải là mức bảo vệ phổi tối ưu khuyến cáo cho ARDS do sốc nhiễm khuẩn.",
+        "Sai — Vt 10 ml/kg gây chấn thương thể tích và căng giãn phế nang quá mức trong ARDS.",
+        "Sai — Vt 12 ml/kg làm tăng tỷ lệ tử vong và biến chứng tràn khí màng phổi do áp lực."
+      ]
+    },
+    {
+      "id": "SURGR1-B18",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Chỉ định và liều dùng Corticosteroid",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.5",
+      "text": "Bệnh nhân sốc nhiễm khuẩn tụt huyết áp trơ với bù dịch và vận mạch liều cao. Thuốc corticosteroid được chỉ định với liều 200 mg/ngày theo barem là thuốc nào?",
+      "options": [
+        "Dexamethasone liều tĩnh mạch",
+        "Hydrocortisone 200 mg/ngày",
+        "Methylprednisolone liều cao",
+        "Prednisolone đường uống"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.2.5 ghi rõ: 'Corticosteroid: Chỉ dùng Hydrocortisone 200 mg/ngày khi huyết động không đáp ứng với bù dịch và vận mạch liều cao'.",
+      "option_explanations": [
+        "Sai — Dexamethasone 16 mg/ngày không phải là thuốc được lựa chọn ưu tiên trong sốc nhiễm khuẩn trơ.",
+        "Đúng — Barem Mục II.5.2.5: Chỉ dùng Hydrocortisone 200 mg/ngày khi huyết động không đáp ứng với bù dịch và vận mạch liều cao.",
+        "Sai — Methylprednisolone 1.000 mg/ngày gây ức chế miễn dịch nghiêm trọng, không dùng trong sốc nhiễm khuẩn.",
+        "Sai — Prednisolone 40 mg/ngày không dùng đường uống hay tiêm ngắt quãng trong hồi sức sốc cấp."
+      ]
+    },
+    {
+      "id": "SURGR1-B19",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Mục tiêu kiểm soát đường huyết",
+      "bloom": "hiểu",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.5",
+      "text": "Bệnh nhân nữ 56 tuổi bị sốc nhiễm khuẩn đường mật, xét nghiệm glucose máu mao mạch liên tục dao động từ 13,5 đến 16,0 mmol/L do phản ứng stress cấp tính. Bác sĩ thiết lập phác đồ truyền insulin tĩnh mạch liên tục qua bơm tiêm điện. Theo barem Mục II.5.2.5, ngưỡng nồng độ đường huyết mục tiêu cần kiểm soát duy trì ở bệnh nhân này là bao nhiêu?\nMục tiêu nồng độ đường huyết cần kiểm soát theo barem là gì?",
+      "options": [
+        "Đường huyết mục tiêu < 6,0 mmol/L (108 mg/dL)",
+        "Đường huyết mục tiêu < 15 mmol/L (270 mg/dL)",
+        "Đường huyết mục tiêu < 10 mmol/L (180 mg/dL)",
+        "Đường huyết mục tiêu < 20 mmol/L (360 mg/dL)"
+      ],
+      "correct": 2,
+      "explanation": "Barem Mục II.5.2.5 quy định: 'Kiểm soát đường huyết mục tiêu < 10 mmol/L (180 mg/dL)'.",
+      "option_explanations": [
+        "Sai — Kiểm soát quá nghiêm ngặt (< 6 mmol/L) làm tăng nguy cơ biến cố hạ đường huyết gây tử vong.",
+        "Sai — Mức < 15 mmol/L là quá lỏng lẻo, gây rối loạn chức năng bạch cầu và lợi niệu thẩm thấu.",
+        "Đúng — Barem Mục II.5.2.5 ghi nhận mục tiêu đường huyết cần kiểm soát là < 10 mmol/L (180 mg/dL).",
+        "Sai — Ngưỡng 20 mmol/L là mức tăng đường huyết nặng đe dọa toan ceton hoặc tăng áp lực thẩm thấu."
+      ]
+    },
+    {
+      "id": "SURGR1-B20",
+      "type": "vignette",
+      "topic": "Kháng sinh, Kiểm soát nguồn nhiễm & Hỗ trợ",
+      "subtopic": "Ngưỡng chỉ định và đích truyền khối hồng cầu",
+      "bloom": "vận dụng",
+      "difficulty": 2,
+      "source": "SURG-R1 §5.2.5 & Câu lượng giá 1",
+      "text": "Bệnh nhân nam 70 tuổi sốc nhiễm khuẩn sau phẫu thuật dẫn lưu viêm phúc mạc ruột thừa. Sau hồi sức dịch và vận mạch, huyết áp đạt MAP 66 mmHg nhưng công thức máu ghi nhận Hemoglobin giảm xuống còn 65 g/L (không có biểu hiện thiếu máu cơ tim cấp hay xuất huyết đang tiếp diễn). Theo barem Mục II.5.2.5 và Câu lượng giá 1, khoảng nồng độ Hemoglobin đích cần duy trì khi truyền khối hồng cầu cho bệnh nhân này là bao nhiêu?\nKhoảng nồng độ Hemoglobin đích cần duy trì theo barem là gì?",
+      "options": [
+        "Duy trì Hemoglobin đích từ 60 đến 70 g/L",
+        "Duy trì Hemoglobin đích từ 110 đến 130 g/L",
+        "Duy trì Hemoglobin đích từ 90 đến 110 g/L",
+        "Duy trì Hemoglobin đích từ 70 đến 90 g/L"
+      ],
+      "correct": 3,
+      "explanation": "Barem Mục II.5.2.5 và Câu lượng giá 1: 'Truyền hồng cầu khối khi Hemoglobin < 70 g/L (đích duy trì 70 - 90 g/L)'.",
+      "option_explanations": [
+        "Sai — 60 đến 70 g/L là khoảng nồng độ có chỉ định truyền máu, chưa đạt đích duy trì an toàn.",
+        "Sai — 110 đến 130 g/L không có chỉ định trong hồi sức sốc nhiễm khuẩn thông thường.",
+        "Sai — 90 đến 110 g/L là chiến lược truyền máu tự do cũ, làm tăng biến cố tắc mạch và quá tải dịch.",
+        "Đúng — Barem Mục II.5.2.5 quy định đích duy trì Hemoglobin từ 70 đến 90 g/L."
+      ]
+    },
+    {
+      "id": "SURGR1-B21",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Phân tích toàn diện gói hồi sức 1 giờ đầu",
+      "bloom": "phân tích",
+      "difficulty": 3,
+      "source": "SURG-R1 §5.1, §5.2.1, §5.2.2 & §5.2.3",
+      "text": "Bệnh nhân nữ 64 tuổi vào viện vì sốc nhiễm khuẩn đường mật cấp tính (huyết áp 70/40 mmHg, mạch 124 lần/phút, thở 24 lần/phút, Lactat 4,5 mmol/L). Kíp cấp cứu thiết lập đường truyền tĩnh mạch và lấy máu cấy vi sinh. Trong giờ đầu tiên tiếp nhận người bệnh, biện pháp hồi sức thể tích tuần hoàn bắt buộc phải khởi động ngay lập tức theo barem là gì?\nBiện pháp bù dịch ban đầu theo barem là gì?",
+      "options": [
+        "Truyền 20 ml/kg dung dịch Albumin 20% trong 2 giờ đầu",
+        "Truyền 30 ml/kg dung dịch keo nhân tạo HES trong 1 giờ đầu",
+        "Truyền 30 ml/kg dung dịch tinh thể trong 3 giờ đầu",
+        "Truyền 10 ml/kg dung dịch Glucose 5% trong 30 phút đầu"
+      ],
+      "correct": 2,
+      "explanation": "Theo barem Mục II.5.2.1: Bù dịch khẩn cấp bắt đầu ngay lập tức, truyền 30 ml/kg dung dịch tinh thể (Ringer Lactat hoặc NaCl 0,9%) trong 3 giờ đầu.",
+      "option_explanations": [
+        "Sai — Albumin 5-20% chỉ phối hợp khi cần lượng lớn dịch, không dùng đơn độc bolus 20 ml/kg ban đầu.",
+        "Sai — HES bị chống chỉ định do gây tổn thương thận và tăng tỷ lệ tử vong.",
+        "Đúng — Barem Mục II.5.2.1: Truyền 30 ml/kg dung dịch tinh thể trong 3 giờ đầu.",
+        "Sai — Glucose 5% phân bố nhanh vào nội bào, không dùng hồi sức thể tích lòng mạch trong sốc."
+      ]
+    },
+    {
+      "id": "SURGR1-B22",
+      "type": "vignette",
+      "topic": "Đích hồi sức & Dịch truyền - Vận mạch",
+      "subtopic": "Đánh giá đáp ứng hồi sức sau bù dịch",
+      "bloom": "đánh giá",
+      "difficulty": 3,
+      "source": "SURG-R1 §5.1, §5.2.1 & §5.2.2",
+      "text": "Trong hồi sức sốc nhiễm khuẩn, mục tiêu thanh thải Lactat máu phản ánh tưới máu tổ chức hồi phục khi nồng độ lactat giảm ở mức nào sau mỗi 2 giờ?",
+      "options": [
+        "Thanh thải Lactat giảm ≥ 10% mỗi 2 giờ",
+        "Thanh thải Lactat giảm ≥ 20% mỗi 2 giờ",
+        "Thanh thải Lactat giảm ≥ 40% mỗi 2 giờ",
+        "Thanh thải Lactat giảm ≥ 50% mỗi 2 giờ"
+      ],
+      "correct": 1,
+      "explanation": "Barem Mục II.5.1: 'Thanh thải Lactat máu: Lactat trở về bình thường hoặc giảm >= 20% sau mỗi 2 giờ'. Ở bệnh nhân này Lactat giảm 31% sau 2 giờ nên đã đạt tiêu chuẩn thanh thải.",
+      "option_explanations": [
+        "Sai — Đích thanh thải Lactat không bắt buộc phải < 1,0 mmol/L ngay sau 2 giờ đầu mà cho phép giảm >= 20% mỗi 2 giờ.",
+        "Sai — CVP đích là 8-12 mmHg ở người tự thở, mức 15-18 mmHg là quá tải dịch.",
+        "Sai — ScvO2 đích là >= 70%, mức >= 85% không phải đích chuyển hóa lactate.",
+        "Đúng — Barem Mục II.5.1 ghi rõ tiêu chí: Thanh thải Lactat trở về bình thường hoặc giảm >= 20% sau mỗi 2 giờ."
+      ]
+    }
+  ]
+}
