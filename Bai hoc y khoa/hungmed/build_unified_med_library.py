@@ -46,6 +46,10 @@ CATALOG_JSON_PATH = BASE_DIR / "CATALOG_PED_VIEWER.json"
 CHECKLIST_PATH = BASE_DIR / "checklist.html"
 VERSIONED_PAGES = ("app.html", "mobile.html", "checklist.html")
 DATA_JS_SRC_RE = re.compile(r'<script src="data\.js(?:\?v=[^"]*)?"></script>')
+SAN_MEDIA_WEB = BASE_DIR / "san_khoa_media"  # anh giao trinh San phai nam trong web root moi hien thi duoc
+HOASINH_MEDIA_WEB = BASE_DIR / "hoasinh_media"  # anh Hoa sinh
+NGOAI_MEDIA_WEB = BASE_DIR / "ngoai_khoa_media"  # anh Ngoai khoa thuc hanh
+IMG_LINK_RE = re.compile(r"]\(media/([^)]+)\)")
 PED_BLOCKS = [
     "Block 0 — Nền tảng tư duy, Tiếp cận & Dược lý Nhi khoa",
     "Block 1 — Hồi sức, Cấp cứu & Ngộ độc Nhi khoa",
@@ -217,6 +221,21 @@ def sync_media(src_root: Path, used: set[str]) -> None:
 
 
 
+
+
+def sync_ngoai_media(ngoai_dir: Path, used: set[str], lesson_folder: str = "") -> None:
+    """Chep anh Ngoai khoa dang duoc dung vao web root; xoa anh khong con bai nao tro toi."""
+    # Destination includes lesson folder structure: ngoai_khoa_media/{lesson_folder}/images/
+    dst_base = NGOAI_MEDIA_WEB / lesson_folder / "images" if lesson_folder else NGOAI_MEDIA_WEB
+    for rel in used:
+        src, dst = ngoai_dir / rel, dst_base / rel
+        if not dst.exists() or dst.stat().st_size != src.stat().st_size:
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+    if dst_base.exists():
+        for f in dst_base.rglob("*"):
+            if f.is_file() and f.relative_to(dst_base).as_posix() not in used:
+                f.unlink()
 
 def scan_hoasinh_files(hoasinh_dir: Path) -> list[dict]:
     index_file = hoasinh_dir / "index.json"
@@ -827,6 +846,20 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
         fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
         title = extract_clinical_title(content, fallback)
         n_cards = count_clinical_cards(d)
+        # Normalize image paths for web display
+        folder_rel = f"ngoai_khoa_media/{d.name}"
+        norm_content = normalize_image_paths(content, folder_rel)
+        # Collect used media for sync
+        used_media = set()
+        for m in re.finditer(r'!\[.*?\]\(ngoai_khoa_media/[^/]+/images/([^)]+)\)', norm_content):
+            used_media.add(m.group(1))
+        img_pattern = '<img\\s+[^>]*src=["\']ngoai_khoa_media/[^/]+/images/([^"\']+)["\']'
+        for m in re.finditer(img_pattern, norm_content, re.IGNORECASE):
+            used_media.add(m.group(1))
+        # Source is the lesson's images folder
+        lesson_images_dir = d / "images"
+        if lesson_images_dir.exists():
+            sync_ngoai_media(lesson_images_dir, used_media, d.name)
         lessons.append({
             "id": lid,
             "specialty": "ngoai",
@@ -835,11 +868,11 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
             "folder": d.name,
             "title": title,
             "author": "Đỗ Văn Ngọc Hưng",
-            "word_count": len(content.split()),
+            "word_count": len(norm_content.split()),
             "cards_count": n_cards,
             "has_cards": n_cards > 0,
-            "content": content,
-            "folder_rel": "",
+            "content": norm_content,
+            "folder_rel": folder_rel,
         })
     return lessons
 

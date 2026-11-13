@@ -1,0 +1,14 @@
+{
+  "id": "SURG-01C",
+  "specialty": "ngoai",
+  "mode": "release",
+  "status": "BLOCK",
+  "steps": [
+    {
+      "step": "manifest",
+      "exit_code": 2,
+      "status": "BLOCK"
+    }
+  ],
+  "finished_at": "2026-11-13T20:04:48"
+}
