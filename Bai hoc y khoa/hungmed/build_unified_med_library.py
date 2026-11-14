@@ -464,6 +464,24 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
         fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
         title = extract_clinical_title(content, fallback)
         n_cards = count_clinical_cards(d)
+        folder_rel = ""
+        norm_content = content
+        lesson_images_dir = d / "images"
+        if lesson_images_dir.exists():
+            folder_rel = f"san_khoa_media/{d.name}"
+            norm_content = normalize_image_paths(content, folder_rel)
+            used_media = set()
+            for m in re.finditer(r'!\[.*?\]\(san_khoa_media/[^/]+/images/([^)]+)\)', norm_content):
+                used_media.add(m.group(1))
+            img_pattern = r'<img\s+[^>]*src=["\']san_khoa_media/[^/]+/images/([^"\']+)["\']'
+            for m in re.finditer(img_pattern, norm_content, re.IGNORECASE):
+                used_media.add(m.group(1))
+            dst_base = SAN_MEDIA_WEB / d.name / "images"
+            for rel in (used_media or [f.name for f in lesson_images_dir.glob("*.*")]):
+                src, dst = lesson_images_dir / rel, dst_base / rel
+                if src.exists() and (not dst.exists() or dst.stat().st_size != src.stat().st_size):
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src, dst)
         lessons.append({
             "id": lid,
             "specialty": "san",
@@ -472,11 +490,11 @@ def scan_clinical_san(san_dir: Path) -> list[dict]:
             "folder": d.name,
             "title": title,
             "author": "Đỗ Văn Ngọc Hưng",
-            "word_count": len(content.split()),
+            "word_count": len(norm_content.split()),
             "cards_count": n_cards,
             "has_cards": n_cards > 0,
-            "content": content,
-            "folder_rel": "",
+            "content": norm_content,
+            "folder_rel": folder_rel,
         })
     return lessons
 
@@ -659,6 +677,24 @@ def scan_clinical_fus(fus_dir: Path) -> list[dict]:
         fallback = d.name.split("_", 1)[1].replace("_", " ") if "_" in d.name else d.name
         title = extract_clinical_title(content, fallback)
         n_cards = count_clinical_cards(d)
+        folder_rel = ""
+        norm_content = content
+        lesson_images_dir = d / "images"
+        if lesson_images_dir.exists():
+            folder_rel = f"san_khoa_media/{d.name}"
+            norm_content = normalize_image_paths(content, folder_rel)
+            used_media = set()
+            for m in re.finditer(r'!\[.*?\]\(san_khoa_media/[^/]+/images/([^)]+)\)', norm_content):
+                used_media.add(m.group(1))
+            img_pattern = r'<img\s+[^>]*src=["\']san_khoa_media/[^/]+/images/([^"\']+)["\']'
+            for m in re.finditer(img_pattern, norm_content, re.IGNORECASE):
+                used_media.add(m.group(1))
+            dst_base = SAN_MEDIA_WEB / d.name / "images"
+            for rel in (used_media or [f.name for f in lesson_images_dir.glob("*.*")]):
+                src, dst = lesson_images_dir / rel, dst_base / rel
+                if src.exists() and (not dst.exists() or dst.stat().st_size != src.stat().st_size):
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src, dst)
         lessons.append({
             "id": lid,
             "specialty": "fus",
@@ -667,11 +703,11 @@ def scan_clinical_fus(fus_dir: Path) -> list[dict]:
             "folder": d.name,
             "title": title,
             "author": "Đỗ Văn Ngọc Hưng",
-            "word_count": len(content.split()),
+            "word_count": len(norm_content.split()),
             "cards_count": n_cards,
             "has_cards": n_cards > 0,
-            "content": content,
-            "folder_rel": "",
+            "content": norm_content,
+            "folder_rel": folder_rel,
         })
     return lessons
 

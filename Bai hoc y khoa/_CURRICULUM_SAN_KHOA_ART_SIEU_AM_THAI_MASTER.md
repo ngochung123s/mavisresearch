@@ -1,6 +1,6 @@
 # 🏥 MASTER CURRICULUM: SẢN PHỤ KHOA LÂM SÀNG · HỖ TRỢ SINH SẢN (ART) · SIÊU ÂM THAI TOÀN DIỆN
 > **Người sở hữu:** Bác sĩ Đỗ Văn Ngọc Hưng 🍅 🐈‍⬛  
-> **Cập nhật:** 2026-11-07  
+> **Cập nhật:** 2026-11-14  
 > **Kho lưu trữ hệ thống:** `F:/DL/mavisresearch/Bai hoc y khoa/`  
 > **Web tra cứu trực tuyến:** [dvnhmed.pages.dev](https://dvnhmed.pages.dev) (HungMed)
 
@@ -11,16 +11,16 @@
 
 | Trụ cột chuyên khoa | Mã thư mục | Số bài hiện có | Quy mô từ hiện tại | Quy hoạch khoảng trống | Tiêu chuẩn học thuật áp dụng |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **1. Sản Phụ khoa Lâm sàng** | `01_San phu khoa` | **17 bài** | **94,668 từ** | 14 chuyên đề (OB-GAP, GYN-GAP) | ACOG, FIGO, RCOG, CNGOF |
+| **1. Sản Phụ khoa Lâm sàng** | `01_San phu khoa` | **18 bài** | **119,735 từ** | 14 chuyên đề (OB-GAP, GYN-GAP) | ACOG, FIGO, RCOG, CNGOF |
 | **2. Hỗ trợ Sinh sản (ART)** | `02_Ho tro sinh san ART` | **30 bài** | **112,682 từ** | 11 chuyên đề (ART-GAP, ENDO-GAP, MID) | ESHRE, ASRM, POSEIDON, WHO 6th |
-| **3. Siêu âm Thai & Phụ khoa** | `03_Sieu am thai` | **26 bài** | **156,081 từ** | 58 chuyên đề (Quý 1, 2, 3, Tim, Não, TVS) | ISUOG, FMF London, AIUM, SOGC |
-| **TỔNG CỘNG HỆ THỐNG** | — | **73 bài master** | **363,431 từ** | **83 chuyên đề mở rộng** | **Y học chứng cứ cấp độ I & Landmark Trials** |
+| **3. Siêu âm Thai & Phụ khoa** | `03_Sieu am thai` | **26 bài** | **176,236 từ** | 58 chuyên đề (Quý 1, 2, 3, Tim, Não, TVS) | ISUOG, FMF London, AIUM, SOGC |
+| **TỔNG CỘNG HỆ THỐNG** | — | **74 bài master** | **408,653 từ** | **83 chuyên đề mở rộng** | **Y học chứng cứ cấp độ I & Landmark Trials** |
 
 ---
 
 ## CHUYÊN KHOA I: SẢN PHỤ KHOA LÂM SÀNG THỰC CHIẾN (OB-xx & OB/GYN-GAP)
 
-### 1. Danh mục 17 bài học lâm sàng chuyên sâu hiện có trên web HungMed
+### 1. Danh mục 18 bài học lâm sàng chuyên sâu hiện có trên web HungMed
 
 | Mã bài | Tên bài học | Phân nhóm chuyên đề | Số từ | Thư mục lưu trữ | Trạng thái |
 | :---: | :--- | :--- | :---: | :--- | :---: |
@@ -41,6 +41,7 @@
 | **OB-37** | Biện pháp tránh thai toàn diện — ADR & Xử trí tình huống thực tế | Nội tiết Sinh sản & Tránh thai | 3,919 từ | `01_San phu khoa/37_Contraception_Comprehensive` | ✅ ĐÃ CÓ |
 | **OB-38** | Polyp Buồng Tử Cung (Endometrial Polyp) — Chẩn đoán Siêu âm, Phân biệt & Quản lý Toàn diện | Bệnh lý Phụ khoa & Tử cung | 4,823 từ | `01_San phu khoa/38_Polyp_Buong_Tu_Cung` | ✅ ĐÃ CÓ |
 | **OB-39** | U XƠ CƠ TỬ CUNG / UTERINE LEIOMYOMA — TỪ BỆNH SINH, GIẢI PHẪU BỆNH ĐẾN ĐIỀU TRỊ VÀ ART | Bệnh lý Phụ khoa & Tử cung | 17,246 từ | `01_San phu khoa/39_U_xo_tu_cung_ART_Infertility` | ✅ ĐÃ CÓ |
+| **OB-40B** | HỞ EO CỔ TỬ CUNG & DỰ PHÒNG SINH NON (PROGESTERONE, CERCLAGE, PESSARY) | Sản khoa & Chuyển dạ | 25,067 từ | `01_San phu khoa/40B_Ho_eo_co_tu_cung_du_phong_sinh_non` | ✅ ĐÃ CÓ |
 
 
 ### 2. Ngân hàng khoảng trống lâm sàng cấp bách (OB-GAP & GYN-GAP)
@@ -50,7 +51,7 @@
 | **OB-GAP-01** | **P0** | **Băng huyết sau sinh (Postpartum Hemorrhage — PPH): Tiếp cận 4T, MTP & Thang can thiệp** | `01_San phu khoa/41_Postpartum_Hemorrhage_PPH_Management` | Nguyên tắc 4T; MTP 1:1:1; thuốc co hồi tử cung (Oxytocin, Tranexamic acid, Misoprostol); bóng chèn Bakri, mũi may B-Lynch; thắt ĐM hạ vị / cắt TC |
 | **OB-GAP-02** | **P0** | **Tiền sản giật thể nặng, Cơn tăng huyết áp kịch phát & Hội chứng HELLP** | `01_San phu khoa/42_Severe_Preeclampsia_Eclampsia_HELLP` | Cắt cơn co giật MgSO4 phác đồ Zuspan/Pritchard; hạ áp khẩn Labetalol, Hydralazine, Nicardipine; thời điểm vàng chấm dứt thai kỳ |
 | **OB-GAP-03** | **P0** | **Phổ gai nhau cài răng lược (PAS) & Cấp cứu Bánh nhau (Nhau tiền đạo, Nhau bong non)** | `01_San phu khoa/43_Placenta_Accreta_Spectrum_PAS_Abruptio` | Phân loại FIGO PAS 1-2-3; dấu hiệu Doppler / MRI bánh nhau; phẫu thuật Triple-P, bảo tồn tử cung vs cắt tử cung chu sinh |
-| **OB-GAP-04 (OB-40)** | **P0** | **Quản lý dự phòng đẻ non, doạ đẻ non & Chiều dài cổ tử cung** |  | Kỹ thuật đo TVS chuẩn; phễu hóa (funneling), bùn ối (sludge); chỉ định Progesterone vi hạt, khâu vòng CTC (cerclage), vòng nâng pessary, tocolytics & corticosteroid | ✅ ĐÃ PHÁT HÀNH (MD+APKG) |
+| **OB-GAP-04 (OB-40B)** | **P0** | **Hở eo cổ tử cung & Dự phòng sinh non (Progesterone, Cerclage, Pessary)** | `01_San phu khoa/40B_Ho_eo_co_tu_cung_du_phong_sinh_non` | Cơ chế hở eo vs cơn co; Progesterone đặt âm đạo, cerclage (McDonald vs Shirodkar, ngả bụng), pessary Arabin; cấp cứu màng ối phồng | ✅ ĐÃ HOÀN TẤT (25,067 từ) |
 | **OB-GAP-05** | **P0** | **Ối vỡ non (PPROM), Kháng sinh chờ đợi & Quản lý nhiễm trùng ối** | `03_Sieu am thai/45_PPROM_Ultrasound_Management` | Phân biệt PPROM vs SROM; phác đồ kháng sinh Ampicillin + Erythromycin/Azithromycin; dấu hiệu viêm màng ối; corticoid liệu pháp |
 | **OB-GAP-06** | **P1** | **Chuyển dạ đình trệ, Biểu đồ chuyển dạ WHO Labour Care Guide & Chỉ định mổ lấy thai** | `01_San phu khoa/44_Dystocia_Labour_Care_Guide_Cesarean_Audit` | Chuyển đổi từ partograph cũ sang WHO LCG 2020; phân loại Robson 10 nhóm; chẩn đoán đình trệ pha hoạt động / sổ thai |
 | **OB-GAP-07** | **P1** | **Khởi phát chuyển dạ (IOL): Điểm Bishop, Làm chín muồi CTC cơ học vs thuốc** | `01_San phu khoa/45_Induction_of_Labour_IOL_Cervical_Ripening` | Thang điểm Bishop cải biên; bóng Foley kênh CTC / Cook balloon; Dinoprostone / Misoprostol; bấm ối và truyền oxytocin |
@@ -132,7 +133,7 @@
 | **FUS-06** | Phân tích hình ảnh siêu âm tim thai trong bệnh lý — Chẩn đoán phân biệt & Cơ chế theo từng mặt cắt | Siêu âm Tim thai (Fetal Echo) | 9,479 từ | `03_Sieu am thai/06_Fetal_Cardiac_Pathology` | ✅ ĐÃ CÓ |
 | **FUS-07** | Siêu âm hệ thần kinh thai nhi — Từ cơ bản đến nâng cao: Giải phẫu, Mặt cắt & Bệnh lý | Hệ Thần kinh thai (Fetal Neurosonography) | 7,712 từ | `03_Sieu am thai/07_Fetal_Neurosonography` | ✅ ĐÃ CÓ |
 | **FUS-08** | Siêu âm hình thái quý 2 toàn diện — Quy trình ISUOG, Kỹ thuật & Checklist từng cơ quan | Khảo sát Hình thái & Giải phẫu thai | 6,573 từ | `03_Sieu am thai/08_Mid_Trimester_Anatomy_Scan` | ✅ ĐÃ CÓ |
-| **FUS-09A** | Cervical Length Measurement trong Sàng lọc Sinh non — Cập nhật 2026 | Sinh trắc, Doppler & Sàng lọc Quý 1 | 4,351 từ | `03_Sieu am thai/09_Cervical_Length_PTB` | ✅ ĐÃ CÓ |
+| **FUS-09A** | ĐO CHIỀU DÀI CỔ TỬ CUNG (TVS CL) TRONG SÀNG LỌC SINH NON (ISUOG GATES) | Sinh trắc, Doppler & Sàng lọc Quý 1 | 24,506 từ | `03_Sieu am thai/09_Cervical_Length_PTB` | ✅ HOÀN TẤT NÂNG CẤP |
 | **FUS-09B** | Siêu âm Sinh trắc thai — Kỹ thuật đo, Công thức EFW & Biểu đồ tăng trưởng | Sinh trắc, Doppler & Sàng lọc Quý 1 | 4,329 từ | `03_Sieu am thai/09_Sinh_trac_thai_Biometry` | ✅ ĐÃ CÓ |
 | **FUS-10** | FETAL DOPPLER ULTRASOUND TRONG SẢN KHOA | Sinh trắc, Doppler & Sàng lọc Quý 1 | 3,956 từ | `03_Sieu am thai/10_Fetal_Doppler` | ✅ ĐÃ CÓ |
 | **FUS-11** | FIRST TRIMESTER SCREENING (SÀNG LỌC QUÝ 1) | Sinh trắc, Doppler & Sàng lọc Quý 1 | 3,181 từ | `03_Sieu am thai/11_First_Trimester_Screening` | ✅ ĐÃ CÓ |
@@ -176,7 +177,7 @@
 | B4 | Siêu âm hệ thần kinh thai — Basic + Pathology | ✅ ĐÃ CÓ | Bài 07 Fetal Neurosonography (30/06) |
 | B5 | **Sinh trắc thai (Biometry) — BPD, HC, AC, FL, EFW** | ✅ ĐÃ CÓ | Bài 09 Sinh trac thai Biometry (02/07) — Hadlock, INTERGROWTH-21st, WHO, FMF charts, SGA vs FGR, LGA/macrosomia |
 | B6 | **Bánh nhau & Dây rốn — Bình thường & Bệnh lý** | ❌ CHƯA CÓ | Placenta previa, accreta spectrum (PAS), abruptio, succenturiate lobe, vasa previa, velamentous cord, SUA, nuchal cord, cord knots |
-| B7 | Siêu âm cổ tử cung — Chiều dài & Dự phòng sinh non | 🟡 MỘT PHẦN | Bài 13 Cervical Length PTB (17/06) — bài cũ, ngắn, nên cập nhật thêm: CL measurement technique, funneling, sludge, cerclage, progesterone, Arabin pessary |
+| B7 | Siêu âm cổ tử cung — Chiều dài & Dự phòng sinh non | ✅ ĐÃ CÓ | Bài FUS-09A (24,506 từ + 9 ảnh ISUOG) & OB-GAP-04 (25,067 từ + 9 ảnh sơ đồ can thiệp): kỹ thuật đo TVS chuẩn, funneling, sludge, cerclage, progesterone, Arabin pessary hoàn tất toàn diện |
 | B8 | Bất thường nước ối (Thiểu ối & Đa ối) | ✅ ĐÃ CÓ | Bài 03 Amniotic Fluid (27/06) |
 | B9 | **Siêu âm mặt thai — Cleft, micrognathia, profile** | ✅ ĐÃ CÓ | Bài 35 Fetal Face Anatomy Scan (02/07): coronal nose-lip, profile, orbits, alveolar ridge, cleft, micrognathia, hypotelorism/hypertelorism |
 | B10 | **Siêu âm hệ tiêu hóa thai** | ✅ ĐÃ CÓ | Bài 36 Fetal Abdomen/Bowel Anatomy Scan (02/07): situs, stomach, bowel, gallbladder, echogenic bowel, bowel dilatation, omphalocele, gastroschisis |
@@ -344,4 +345,3 @@
 | 🟡 10 | **C2 — Đánh giá sức khỏe thai (BPP, NST)** | Công cụ hàng ngày của BS sản khoa |
 | 🟡 11 | **B12 — Siêu âm hệ xương thai** | Skeletal dysplasia — cần biết để không bỏ sót |
 | 🟡 12 | **B13 — Siêu âm lồng ngực thai** | CDH, CPAM, BPS, pleural effusion — cần bài chuyên sâu riêng |
-
