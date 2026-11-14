@@ -11,16 +11,16 @@
 
 | Trụ cột chuyên khoa | Mã thư mục | Số bài hiện có | Quy mô từ hiện tại | Quy hoạch khoảng trống | Tiêu chuẩn học thuật áp dụng |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **1. Sản Phụ khoa Lâm sàng** | `01_San phu khoa` | **18 bài** | **119,735 từ** | 14 chuyên đề (OB-GAP, GYN-GAP) | ACOG, FIGO, RCOG, CNGOF |
+| **1. Sản Phụ khoa Lâm sàng** | `01_San phu khoa` | **19 bài** | **146,560 từ** | 14 chuyên đề (OB-GAP, GYN-GAP) | ACOG, FIGO, RCOG, CNGOF |
 | **2. Hỗ trợ Sinh sản (ART)** | `02_Ho tro sinh san ART` | **30 bài** | **112,682 từ** | 11 chuyên đề (ART-GAP, ENDO-GAP, MID) | ESHRE, ASRM, POSEIDON, WHO 6th |
 | **3. Siêu âm Thai & Phụ khoa** | `03_Sieu am thai` | **26 bài** | **176,236 từ** | 58 chuyên đề (Quý 1, 2, 3, Tim, Não, TVS) | ISUOG, FMF London, AIUM, SOGC |
-| **TỔNG CỘNG HỆ THỐNG** | — | **74 bài master** | **408,653 từ** | **83 chuyên đề mở rộng** | **Y học chứng cứ cấp độ I & Landmark Trials** |
+| **TỔNG CỘNG HỆ THỐNG** | — | **75 bài master** | **435,478 từ** | **83 chuyên đề mở rộng** | **Y học chứng cứ cấp độ I & Landmark Trials** |
 
 ---
 
 ## CHUYÊN KHOA I: SẢN PHỤ KHOA LÂM SÀNG THỰC CHIẾN (OB-xx & OB/GYN-GAP)
 
-### 1. Danh mục 18 bài học lâm sàng chuyên sâu hiện có trên web HungMed
+### 1. Danh mục 19 bài học lâm sàng chuyên sâu hiện có trên web HungMed
 
 | Mã bài | Tên bài học | Phân nhóm chuyên đề | Số từ | Thư mục lưu trữ | Trạng thái |
 | :---: | :--- | :--- | :---: | :--- | :---: |
@@ -40,6 +40,7 @@
 | **OB-36** | Nền tảng sinh lý và hướng dẫn thực hành: Làm chủ kinh nguyệt theo ý muốn | Nội tiết Sinh sản & Tránh thai | 4,587 từ | `01_San phu khoa/36_Menstrual_Cycle_Mastery` | ✅ ĐÃ CÓ |
 | **OB-37** | Biện pháp tránh thai toàn diện — ADR & Xử trí tình huống thực tế | Nội tiết Sinh sản & Tránh thai | 3,919 từ | `01_San phu khoa/37_Contraception_Comprehensive` | ✅ ĐÃ CÓ |
 | **OB-38** | Polyp Buồng Tử Cung (Endometrial Polyp) — Chẩn đoán Siêu âm, Phân biệt & Quản lý Toàn diện | Bệnh lý Phụ khoa & Tử cung | 4,823 từ | `01_San phu khoa/38_Polyp_Buong_Tu_Cung` | ✅ ĐÃ CÓ |
+| **OB-38B** | QUÁ SẢN NỘI MẠC TỬ CUNG (ENDOMETRIAL HYPERPLASIA) — CƠ CHẾ 5 TẦNG, PHÂN LOẠI WHO 2014/2020, ATYPIA, VÒNG LNG-IUS & NGUY CƠ UNG THƯ ĐỒNG THỜI | Bệnh lý Phụ khoa & Tử cung | 26,825 từ | `01_San phu khoa/38B_Qua_san_noi_mac_tu_cung` | ✅ ĐÃ CÓ |
 | **OB-39** | U XƠ CƠ TỬ CUNG / UTERINE LEIOMYOMA — TỪ BỆNH SINH, GIẢI PHẪU BỆNH ĐẾN ĐIỀU TRỊ VÀ ART | Bệnh lý Phụ khoa & Tử cung | 17,246 từ | `01_San phu khoa/39_U_xo_tu_cung_ART_Infertility` | ✅ ĐÃ CÓ |
 | **OB-40B** | HỞ EO CỔ TỬ CUNG & DỰ PHÒNG SINH NON (PROGESTERONE, CERCLAGE, PESSARY) | Sản khoa & Chuyển dạ | 25,067 từ | `01_San phu khoa/40B_Ho_eo_co_tu_cung_du_phong_sinh_non` | ✅ ĐÃ CÓ |
 
@@ -246,7 +247,7 @@
 | G6 | Tử cung nhi hóa (Hypoplastic uterus) | ✅ ĐÃ CÓ | Bài 04 SPK (23/06) |
 | G7 | **Bất thường tử cung bẩm sinh (Müllerian anomalies)** | 🟡 MỘT PHẦN | Có Asherman + Hypoplastic nhưng THIẾU: Müllerian classification (ESHRE/ASRM 2021), septate vs bicornuate vs didelphys, 3D US coronal view, ESHRE guideline |
 | G8 | **Siêu âm buồng trứng đa nang (PCOM) & AFC** | ❌ CHƯA CÓ | Rotterdam criteria 2023 update, AFC≥20/ovary, thể tích >10mL, 3D US, AMH correlation |
-| G9 | **Siêu âm nội mạc tử cung — EMT, polyp, tăng sinh, K** | ❌ CHƯA CÓ | EMT measurement, IETA terminology, polyp vs submucosal fibroid, endometrial hyperplasia, endometrial CA. SIS (Saline Infusion Sonography) |
+| G9 | **Siêu âm nội mạc tử cung — EMT, polyp, tăng sinh, K** | 🟡 MỘT PHẦN | Đã có Polyp buồng tử cung (OB-38: 4,823 từ) và Quá sản nội mạc tử cung & EMT/IETA (OB-38B: 26,825 từ); còn thiếu bài chuyên đề SIS & K nội mạc |
 | G10 | **Siêu âm ống dẫn trứng — HyCoSy/HyFoSy (đã có)** | ✅ ĐÃ CÓ | Bài 19 HyCoSy/HyFoSy ART (28/06) |
 | G11 | **Siêu âm vùng chậu — Đau bụng cấp phụ khoa** | ❌ CHƯA CÓ | PID, TOA, ovarian torsion, hemorrhagic cyst, EP/ectopic — TVS là công cụ số 1 |
 
