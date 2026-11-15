@@ -743,7 +743,7 @@
 </div>
 
 <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-<script src="data.js?v=20261115_132023"></script>
+<script src="data.js?v=20261115_155628"></script>
 
 <!-- APPLICATION SCRIPT LOGIC -->
 <script>
@@ -764,7 +764,7 @@
       if (savedFont) applyFontSize(Number(savedFont));
 
       const savedSpec = localStorage.getItem('hungmed_specialty');
-      if (savedSpec && ['faq', 'ngoai', 'ped', 'obgyn', 'hoasinh', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
+      if (savedSpec && ['faq', 'ngoai', 'ped', 'obgyn', 'hoasinh', 'sinhly', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
     } catch(e) {}
 
     // 2. Setup IntersectionObserver cho H1
@@ -831,6 +831,7 @@
       ped: (window.PED_LIBRARY_DATA && window.PED_LIBRARY_DATA.lessons) || [],
       obgyn: window.SAN_KHOA_DATA || [],
       hoasinh: window.HOA_SINH_DATA || [],
+        sinhly: window.SINH_LY_DATA || [],
       san: [],
       art: [],
       fus: []
@@ -884,6 +885,7 @@
 
     if (kParam === 'nhi' || kParam === 'ped') currentSpecialty = 'ped';
     else if (kParam === 'hoasinh' || kParam === 'hs' || kParam === 'biochem') currentSpecialty = 'hoasinh';
+      else if (kParam === 'sinhly' || kParam === 'sl' || kParam === 'physio') currentSpecialty = 'sinhly';
     else if (kParam === 'san' || kParam === 'ob') currentSpecialty = 'san';
     else if (kParam === 'art' || kParam === 'ivf') currentSpecialty = 'art';
     else if (kParam === 'fus' || kParam === 'sieuam' || kParam === 'sieu_am_thai') currentSpecialty = 'fus';
@@ -915,6 +917,7 @@
     ngoai: { icon: '🔪', name: 'Ngoại khoa thực hành', desc: 'Kỹ năng chu phẫu & Bệnh học ngoại khoa lâm sàng', unit: 'bài' },
     ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
     hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' },
+        sinhly: { icon: '🫀', name: 'Sinh lý học Y Hà Nội', desc: 'Giáo trình ĐHYHN 2025 (GS. Phạm Thị Minh Đức)', unit: 'bài' },
     san: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Chuyên đề lâm sàng & điều trị Sản Phụ khoa', unit: 'bài' },
     art: { icon: '🧬', name: 'Hỗ trợ sinh sản (ART)', desc: 'Chuyên đề IVF, IUI, kích trứng & phôi học', unit: 'bài' },
     fus: { icon: '🔊', name: 'Siêu âm thai', desc: 'Chẩn đoán trước sinh & siêu âm hình thái thai', unit: 'bài' },
@@ -925,7 +928,7 @@
     const menu = document.getElementById('specialtyMenu');
     if (!menu) return;
     const data = getUnifiedData();
-    const order = ['faq', 'ngoai', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+    const order = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'san', 'art', 'fus', 'obgyn'];
     menu.innerHTML = order.map(s => {
       const meta = SPECIALTY_META[s];
       if (!meta) return '';
@@ -1027,6 +1030,7 @@
         if (currentSpecialty === 'ngoai') defLesson = pool.find(l => l.id === 'SURG-16') || pool[0];
         else if (currentSpecialty === 'ped') defLesson = pool.find(l => l.id === 'PED-46') || pool.find(l => l.has_ped || l.has_pedytb) || pool[0];
         else if (currentSpecialty === 'hoasinh') defLesson = pool.find(l => l.id === 'HS-01') || pool[0];
+        else if (currentSpecialty === 'sinhly') defLesson = pool.find(l => l.id === 'SL-01') || pool[0];
         else if (currentSpecialty === 'san') defLesson = pool.find(l => l.id === 'OB-01') || pool[0];
         else if (currentSpecialty === 'art') defLesson = pool.find(l => l.id === 'ART-01') || pool[0];
         else if (currentSpecialty === 'fus') defLesson = pool.find(l => l.id === 'FUS-01') || pool[0];
@@ -1076,7 +1080,7 @@
     const container = document.getElementById('homeViewContent');
     if (!container) return;
     const data = getUnifiedData();
-    const specialties = ['faq', 'ngoai', 'ped', 'hoasinh', 'san', 'art', 'fus', 'obgyn'];
+    const specialties = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'san', 'art', 'fus', 'obgyn'];
 
     const specialtyCardsHtml = specialties.map(s => {
       const meta = SPECIALTY_META[s];
@@ -1111,6 +1115,7 @@
       { id: 'FUS-01', spec: 'fus', icon: '🔊', title: 'Siêu âm tim thai — Siêu chi tiết (ISUOG/ASE/AHA)', tag: 'Siêu âm thai' },
       { id: 'FUS-42A', spec: 'fus', icon: '🔊', title: 'Song thai D1 — Xác định Chorionicity & Amnionicity', tag: 'Siêu âm thai' },
       { id: 'HS-01', spec: 'hoasinh', icon: '🧪', title: 'Hóa sinh Carbonhydrate (ĐHYHN 2023)', tag: 'Hóa sinh YHN' },
+        { id: 'SL-01', spec: 'sinhly', icon: '🫀', title: 'Nhập môn Sinh lý học (ĐHYHN 2025)', tag: 'Sinh lý YHN 2025' },
       { id: 'SK-01', spec: 'obgyn', icon: '📖', title: 'Khung chậu nữ về phương diện sản khoa', tag: 'Giáo trình YTB' },
     ];
 
@@ -1607,13 +1612,13 @@
     if (folderRel) {
       const cleanFolder = folderRel.replace(/\/+$/, '');
       text = text.replace(/!\[(.*?)\]\(((?!https?:\/\/|\/|data:)(?:\.\/)?([^)]+))\)/g, (match, alt, fullSrc, cleanSrc) => {
-        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
+        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('sinhly_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
           return `![${alt}](${cleanFolder}/${cleanSrc.replace(/^\.\//, '')})`;
         }
         return match;
       });
       text = text.replace(/<img\s+([^>]*?)src=["']((?!https?:\/\/|\/|data:)(?:\.\/)?([^"']+))["']([^>]*?)>/gi, (match, pre, fullSrc, cleanSrc, post) => {
-        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
+        if (!cleanSrc.startsWith(cleanFolder) && !cleanSrc.startsWith('hoasinh_media/') && !cleanSrc.startsWith('sinhly_media/') && !cleanSrc.startsWith('san_khoa_media/')) {
           return `<img ${pre}src="${cleanFolder}/${cleanSrc.replace(/^\.\//, '')}"${post}>`;
         }
         return match;
