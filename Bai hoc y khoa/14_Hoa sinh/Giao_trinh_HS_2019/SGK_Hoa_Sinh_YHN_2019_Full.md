@@ -390,7 +390,7 @@ Loại enzym đồng phân gồm các dưới lớp:
 ##### 1.2.6. Enzym tổng hợp (*ligase* hoặc *synthetase*):
 Là loại enzym xúc tác cho phản ứng gắn hai phân tử với nhau thành một phân tử lớn hơn, sử dụng ATP hoặc các nucleosidtriphosphat khác để cung cấp năng lượng; phản ứng tổng quát như sau:
 
-![Sơ đồ phản ứng ligase](figures/hinh_p014_ligase_reaction.png)
+$$\text{A} + \text{B} \xrightarrow[\text{ATP} \to \text{ADP} + \text{P}_i]{} \text{A-B}$$
 
 Loại enzym tổng hợp gồm các dưới lớp:
 - **Các synthetase:** gắn hai phân tử với sự tham gia của ATP để cung cấp năng lượng.
@@ -648,8 +648,12 @@ Trong thành phần của TPP có thiamin là vitamin $\text{B}_1$. TPP là coen
 #### 3.2.2. Coenzym A vận chuyển nhóm acyl
 Coenzym A (viết tắt là $\text{CoA-SH}$) gồm acid pantotenic (vitamin $\text{B}_5$) nối với một thioethanolamin tạo thành pantethein và nối với một gốc phosphat và với một nucleotid là adenosin monophosphat qua liên kết pyrophosphat. Coenzym A có vai trò trong chuyển hóa các acid béo, thể cetonic, acetat và các acid amin. Ví dụ: coenzym A kết hợp với acetat để tạo nên “acetat hoạt động” là acetyl CoA, chất này có thể kết hợp với acid oxaloacetat để tạo thành acid citric, mở đầu cho chu trình acid citric, có thể tham gia vào quá trình sinh tổng hợp acid béo, sinh tổng hợp cholesterol và các hormon steroid,...
 
-![Pantothenic acid](figures/hinh_p025_pantothenic_acid.png)
-*Hình: Cấu trúc Pantothenic acid (Vitamin B5)*
+$$\begin{array}{c}
+\phantom{\text{HO}-\text{CH}_2-{}}\underset{\vert}{\text{CH}_3}\quad\ \underset{\vert}{\text{OH}}\quad\underset{\Vert}{\text{O}}\quad\ \ \underset{\vert}{\text{H}}\quad \\
+\text{HO}-\text{CH}_2-\text{C}-\text{CH}-\text{C}-\text{N}-\text{CH}_2-\text{CH}_2-\text{COOH} \\
+\phantom{\text{HO}-\text{CH}_2-{}}\overset{\vert}{\text{CH}_3}
+\end{array}$$
+*Hình: Cấu trúc hóa học của acid pantothenic (Vitamin $\text{B}_5$)*
 
 
 <!-- END FILE: pages_016_025.md -->
@@ -1374,7 +1378,13 @@ Căn cứ vào năng lượng tự do được giải phóng từ phản ứng t
 - Ví dụ: liên kết phosphat estephosphat.
 - Gốc $-\text{PO}_3\text{H}_2$ được ký hiệu là $\text{\textcircled{P}}$.
 
-![Liên kết estephosphat](figures/hinh_p057_lien_ket_estephosphat.png)
+$$\begin{array}{l}
+\text{CH}_2\text{-OH} \\
+\mid \\
+\text{CH-OH} \\
+\mid \\
+\text{CH}_2\text{-O-PO}_3\text{H}_2 \quad (\text{hay } \text{CH}_2\text{-O-}\mathbb{P})
+\end{array}$$
 *(Cấu trúc glycerol 3-phosphat mang liên kết estephosphat)*
 
 ##### 2.2.2. Liên kết phosphat giàu năng lượng
@@ -2075,13 +2085,11 @@ Con đường này bao gồm một chuỗi các phản ứng hoá học chuyển
 ##### + Phản ứng 1 - sự phosphoryl hóa glucose:
 Là sự vận chuyển của 1 ATP đến glucose để tạo thành glucose-6-phosphat (G6P) được xúc tác bởi *hexokinase*. Đây là enzym không đặc hiệu, có trong tất cả các loại tế bào chuyển gốc phosphat sang glucose, hoạt động xúc tác đòi hỏi ion $\text{Mg}^{2+}$ và ATP. Gan cũng chứa *glucokinase*, xúc tác phản ứng như trên nhưng chỉ trong điều kiện glucose máu tăng cao. Phản ứng này không đặc hiệu ở điều kiện trong tế bào.
 
-![Phản ứng 1 đường phân - Hexokinase](figures/hinh_p088_pu1_hexokinase.png)
 $$\text{Glucose} + \text{ATP} \xrightarrow[\text{Mg}^{2+}]{\text{hexokinase}} \text{Glucose 6-phosphat} + \text{ADP} \qquad (\Delta G^{\circ'} = -16,7\text{ kJ/mol})$$
 
 ##### + Phản ứng 2: đồng phân hóa G6P thành fructose-6-phosphat (F6P)
 Xảy ra thuận nghịch, được xúc tác bởi *phosphoglucose isomerase* – (PGI) (*glucose-6-phosphat isomerase* / *phosphohexose isomerase*).
 
-![Phản ứng 2 đường phân - Phosphohexose isomerase](figures/hinh_p088_pu2_phosphohexose_isomerase.png)
 $$\text{Glucose 6-phosphat} \underset{\text{Mg}^{2+}}{\overset{\text{phosphohexose isomerase}}{\rightleftharpoons}} \text{Fructose 6-phosphat} \qquad (\Delta G^{\circ'} = 1,7\text{ kJ/mol})$$
 
 ##### + Phản ứng 3: phosphoryl hoá F6P thành fructose-1-6-diphosphat (F1,6DP)
@@ -2091,19 +2099,16 @@ Xúc tác bởi *phosphofructokinase* (PFK) với sự tham gia của ion $\text
 
 ## [Trang 89] - Đường phân: Giai đoạn 1 (Phản ứng 3, 4 & 5)
 
-![Phản ứng 3 đường phân - Phosphofructokinase-1](figures/hinh_p089_pu3_pfk1.png)
 $$\text{Fructose 6-phosphat} + \text{ATP} \xrightarrow[\text{Mg}^{2+}]{\text{Phosphofructokinase-1 (PFK-1)}} \text{Fructose 1,6-diphosphat} + \text{ADP} \qquad (\Delta G^{\circ'} = -14,2\text{ kJ/mol})$$
 
 ##### + Phản ứng 4: enzym aldolase xúc tác phản ứng cắt đôi phân tử F1,6DP thành 2 triose:
 Glyceraldehyd-3-phosphat (GAP) và dihydroxyacetonphosphat (DHAP).
 
-![Phản ứng 4 đường phân - Aldolase](figures/hinh_p089_pu4_aldolase.png)
 $$\text{Fructose 1,6-diphosphat} \xrightleftharpoons{\text{aldolase}} \text{Dihydroxyaceton phosphat} + \text{Glyceraldehyd 3-phosphat} \qquad (\Delta G^{\circ'} = 23,8\text{ kJ/mol})$$
 
 ##### + Phản ứng 5:
 Chỉ có một trong hai triose phosphat ở phản ứng trên là GAP có thể được thoái hoá tiếp tục trong các phản ứng của con đường đường phân. DHAP có thể biến đổi thuận nghịch một cách nhanh chóng thành GAP nhờ enzym *triose phosphat isomerase* (TPI).
 
-![Phản ứng 5 đường phân - Triose phosphat isomerase](figures/hinh_p089_pu5_triose_phosphat_isomerase.png)
 $$\text{Dihydroxyaceton phosphat} \xrightleftharpoons{\text{triose phosphat isomerase}} \text{Glyceraldehyd 3-phosphat} \qquad (\Delta G^{\circ'} = 7,5\text{ kJ/mol})$$
 
 Phản ứng này kết thúc giai đoạn chuẩn bị của quá trình đường phân, trong đó 1 phân tử hexose đã được phosphoryl hóa 2 lần ở C1 và C6 (vì vậy còn có tên là con đường hexose diphosphat), sau đó được chặt đôi để tạo thành **2 phân tử GAP**.
@@ -2118,7 +2123,6 @@ Sự biến đổi của 2 phân tử GAP thành 2 pyruvat được kèm theo s�
 ##### + Phản ứng 6: oxy hoá và phosphoryl hoá GAP thành 1,3-diphosphoglycerat (1,3 DPG)
 Nhờ xúc tác bởi *glyceraldehyd-3-phosphat dehydrogenase* (GAPDH).
 
-![Phản ứng 6 đường phân - GAPDH](figures/hinh_p090_pu6_gapdh.png)
 $$\text{Glyceraldehyd 3-phosphat} + \text{Pi} + \text{NAD}^+ \xrightleftharpoons{\text{GAPDH}} \text{1,3-diphosphoglycerat} + \text{NADH} + \text{H}^+ \qquad (\Delta G^{\circ'} = 6,3\text{ kJ/mol})$$
 
 Đây là một trong hai phản ứng dự trữ năng lượng của con đường đường phân dẫn đến tạo ATP. Nhóm aldehyd của GAP bị khử hydro để tạo liên kết acyl phosphat giàu năng lượng. Phản ứng có coenzym dạng oxy hóa $\text{NAD}^+$ tham gia, tạo thành $\text{NADH}$. Enzym GAP dehydrogenase bị ức chế bởi iodoacetat. Do đó, để phân lập và xác định các hexose phosphat tạo ra trong con đường đường phân, người ta thường cho thêm các chất ức chế enzym này vào dịch chiết thô của men bia hay tổ chức cơ.
@@ -2126,7 +2130,6 @@ $$\text{Glyceraldehyd 3-phosphat} + \text{Pi} + \text{NAD}^+ \xrightleftharpoons
 ##### + Phản ứng 7: phản ứng đầu tiên của con đường đường phân tạo ra ATP và 3-phosphoglycerat (3PG)
 Nhờ *phosphoglycerat kinase* (PGK). Enzym này vận chuyển nhóm phosphat giàu năng lượng từ nhóm carboxyl của 1,3-DPG tới ADP để tạo thành ATP và 3PG.
 
-![Phản ứng 7 đường phân - Phosphoglycerat kinase](figures/hinh_p090_pu7_pgk.png)
 $$\text{1,3-diphosphoglycerat} + \text{ADP} \underset{\text{Mg}^{2+}}{\overset{\text{phosphoglycerat kinase}}{\rightleftharpoons}} \text{3-Phosphoglycerat} + \text{ATP} \qquad (\Delta G^{\circ'} = -18,5\text{ kJ/mol})$$
 
 ---
@@ -2158,7 +2161,6 @@ Các đường cong phân ly oxy trong bệnh thiếu hụt hexokinase và pyruv
 ##### + Phản ứng 9: khử nước của 2PG thành phosphoenol pyruvat (PEP).
 Phản ứng thuận nghịch được xúc tác bởi *enolase*. Enolase chỉ hoạt động khi ở dạng phức hợp với $\text{Mg}^{2+}$.
 
-![Phản ứng 9 đường phân - Enolase](figures/hinh_p092_pu9_enolase.png)
 $$\text{2-Phosphoglycerat} \xrightleftharpoons{\text{enolase}} \text{Phosphoenolpyruvat} + \text{H}_2\text{O} \qquad (\Delta G^{\circ'} = 7,5\text{ kJ/mol})$$
 
 *Enolase* bị Flo ($\text{F}^-$) ức chế, người ta lợi dụng tính chất này để ức chế quá trình đường phân trong xét nghiệm định lượng glucose máu (dùng ống nghiệm chứa Natri Fluorid NaF).
@@ -2166,7 +2168,6 @@ $$\text{2-Phosphoglycerat} \xrightleftharpoons{\text{enolase}} \text{Phosphoenol
 ##### + Phản ứng 10: tạo thành ATP thứ hai do PEP chuyển phosphat từ liên kết enolphosphat (liên kết giàu năng lượng) sang phân tử ADP tạo thành ATP và pyruvat
 Dưới tác dụng của *pyruvat kinase*.
 
-![Phản ứng 10 đường phân - Pyruvat kinase](figures/hinh_p092_pu10_pyruvat_kinase.png)
 $$\text{Phosphoenolpyruvat} + \text{ADP} \xrightarrow[\text{Mg}^{2+},\ \text{K}^+]{\text{pyruvat kinase}} \text{Pyruvat} + \text{ATP} \qquad (\Delta G^{\circ'} = -31,4\text{ kJ/mol})$$
 
 ---
@@ -2188,7 +2189,6 @@ Trong điều kiện ái khí, con đường đường phân chỉ là giai đo�
 
 Phản ứng không thuận nghịch tạo acetyl CoA được xúc tác bởi phức hợp enzym *pyruvat dehydrogenase* gồm 3 enzym và 5 coenzym tham gia. Phản ứng tạo ra 1 phân tử $\text{NADH}$ đi vào chuỗi hô hấp tế bào sẽ tạo thành 3 ATP. Acetyl CoA oxy hoá trong chu trình acid citric tạo thành 12 ATP.
 
-![Chuyển pyruvat thành acetyl-CoA](figures/hinh_p094_pyruvat_thanh_acetyl_coa.png)
 $$\text{Pyruvat} + \text{CoA-SH} + \text{NAD}^+ \xrightarrow{\text{Phức hợp PDH}} \text{Acetyl-CoA} + \text{NADH} + \text{CO}_2 \qquad (\Delta G^{\circ'} = -33,4\text{ kJ/mol})$$
 
 Phân tử $\text{NADH}$ (tạo ra ở phản ứng 6) được chuyển vào ty thể để oxy hoá trong chuỗi hô hấp tế bào, tại đây mỗi phân tử $\text{NADH}$ tạo thành 3 ATP hoặc 2 ATP tùy thuộc con đường vận chuyển $\text{NADH}$ vào trong ty thể:
@@ -2220,7 +2220,6 @@ Như vậy sự thoái hoá hoàn toàn phân tử glucose trong điều kiện 
 ##### + Thoái hóa pyruvat trong điều kiện yếm khí:
 Trong con đường đường phân như đã mô tả ở trên, số lượng $\text{NAD}^+$ giảm sau phản ứng 6 (Hình 4.4). Khi thiếu hụt $\text{O}_2$, $\text{NADH}$ không thể bị oxy hóa trở lại thành $\text{NAD}^+$ được trong chuỗi vận chuyển điện tử. Khi đó, pyruvat bị khử thành lactat nhờ $\text{NADH}$ dưới tác dụng của *lactat dehydrogenase* (LDH). Sự oxy hoá của $\text{NADH}$ khi tạo lactat cho phép tái tạo $\text{NAD}^+$ để con đường đường phân được tiếp tục diễn ra trong điều kiện yếm khí.
 
-![Khử pyruvat thành lactat nhờ LDH](figures/hinh_p095_khu_pyruvat_thanh_lactat_ldh.png)
 $$\text{Pyruvat} + \text{NADH} + \text{H}^+ \xrightleftharpoons{\text{lactat dehydrogenase}} \text{L-Lactat} + \text{NAD}^+$$
 *(Bilan năng lượng đường phân yếm khí: tạo ra ròng **2 ATP** cho mỗi phân tử glucose).*
 
@@ -2376,7 +2375,6 @@ Các phản ứng tân tạo glucose gồm những phản ứng gần như ngư�
 ##### - Từ pyruvat thành PEP phải trải qua các phản ứng sau:
 Trước hết pyruvat vào trong ty thể, dưới tác dụng của *pyruvat carboxylase* cần ATP để pyruvat chuyển thành oxaloacetat. Sau khi tạo thành malat, malat được chuyển ra bào tương nhờ con thoi malat-aspartat (chất vận chuyển dicarboxylat). Ở bào tương malat chuyển thành oxaloacetat rồi carboxyl hoá dưới tác dụng của *phosphoenol pyruvat carboxykinase* cần GTP tạo thành PEP.
 
-![Tân tạo PEP từ pyruvat](figures/hinh_p102_tan_tao_pep_tu_pyruvat.png)
 $$\begin{aligned}
 \text{Pyruvat} + \text{CO}_2 + \text{ATP} &\xrightarrow{\text{Pyruvat carboxylase (ty thể)}} \text{Oxaloacetat} + \text{ADP} + \text{Pi} \\
 \text{Oxaloacetat} + \text{GTP} &\xrightarrow{\text{PEP carboxykinase (bào tương)}} \text{Phosphoenolpyruvat} + \text{GDP} + \text{CO}_2
@@ -2389,7 +2387,6 @@ $$\begin{aligned}
 - **Phản ứng từ F1,6DP thành G6P** cần enzym *fructose-1,6-diphosphatase* (FBPase-1).
 - **Phản ứng từ G6P thành glucose** cần sự xúc tác của *glucose-6-phosphatase*.
 
-![Fructose-1,6-biphosphatase và Glucose-6-phosphatase](figures/hinh_p103_fbpase1_va_g6pase.png)
 $$\begin{aligned}
 \text{Fructose-1,6-bisphosphat} + \text{H}_2\text{O} &\xrightarrow{\text{Fructose-1,6-bisphosphatase}} \text{Fructose-6-phosphat} + \text{Pi} \\
 \text{Glucose-6-phosphat} + \text{H}_2\text{O} &\xrightarrow{\text{Glucose-6-phosphatase}} \text{Glucose} + \text{Pi}
@@ -2483,7 +2480,6 @@ Sự tổng hợp glycogen xảy ra thực tế ở tất cả các mô nhưng c
 
 *glucokinase* hoặc *hexokinase*. G6P chuyển thành G1P nhờ xúc tác của enzym *phosphoglucomutase*:
 
-![Tổng hợp UDP-glucose](figures/hinh_p107_tong_hop_udp_glucose.png)
 $$\begin{aligned}
 \text{Glucose} + \text{ATP} &\xrightarrow[\text{Mg}^{2+}]{\text{Glucokinase / Hexokinase}} \text{Glucose-6-P} + \text{ADP} \\
 \text{Glucose-6-P} &\underset{\text{Mg}^{2+}}{\overset{\text{Phosphoglucomutase}}{\rightleftharpoons}} \text{Glucose-1-P}

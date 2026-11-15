@@ -146,7 +146,7 @@ Loại enzym đồng phân gồm các dưới lớp:
 ##### 1.2.6. Enzym tổng hợp (*ligase* hoặc *synthetase*):
 Là loại enzym xúc tác cho phản ứng gắn hai phân tử với nhau thành một phân tử lớn hơn, sử dụng ATP hoặc các nucleosidtriphosphat khác để cung cấp năng lượng; phản ứng tổng quát như sau:
 
-![Sơ đồ phản ứng ligase](figures/hinh_p014_ligase_reaction.png)
+$$\text{A} + \text{B} \xrightarrow[\text{ATP} \to \text{ADP} + \text{P}_i]{} \text{A-B}$$
 
 Loại enzym tổng hợp gồm các dưới lớp:
 - **Các synthetase:** gắn hai phân tử với sự tham gia của ATP để cung cấp năng lượng.
@@ -404,8 +404,12 @@ Trong thành phần của TPP có thiamin là vitamin $\text{B}_1$. TPP là coen
 #### 3.2.2. Coenzym A vận chuyển nhóm acyl
 Coenzym A (viết tắt là $\text{CoA-SH}$) gồm acid pantotenic (vitamin $\text{B}_5$) nối với một thioethanolamin tạo thành pantethein và nối với một gốc phosphat và với một nucleotid là adenosin monophosphat qua liên kết pyrophosphat. Coenzym A có vai trò trong chuyển hóa các acid béo, thể cetonic, acetat và các acid amin. Ví dụ: coenzym A kết hợp với acetat để tạo nên “acetat hoạt động” là acetyl CoA, chất này có thể kết hợp với acid oxaloacetat để tạo thành acid citric, mở đầu cho chu trình acid citric, có thể tham gia vào quá trình sinh tổng hợp acid béo, sinh tổng hợp cholesterol và các hormon steroid,...
 
-![Pantothenic acid](figures/hinh_p025_pantothenic_acid.png)
-*Hình: Cấu trúc Pantothenic acid (Vitamin B5)*
+$$\begin{array}{c}
+\phantom{\text{HO}-\text{CH}_2-{}}\underset{\vert}{\text{CH}_3}\quad\ \underset{\vert}{\text{OH}}\quad\underset{\Vert}{\text{O}}\quad\ \ \underset{\vert}{\text{H}}\quad \\
+\text{HO}-\text{CH}_2-\text{C}-\text{CH}-\text{C}-\text{N}-\text{CH}_2-\text{CH}_2-\text{COOH} \\
+\phantom{\text{HO}-\text{CH}_2-{}}\overset{\vert}{\text{CH}_3}
+\end{array}$$
+*Hình: Cấu trúc hóa học của acid pantothenic (Vitamin $\text{B}_5$)*
 
 
 <!-- END FILE: pages_016_025.md -->

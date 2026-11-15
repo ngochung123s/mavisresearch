@@ -348,7 +348,13 @@ Căn cứ vào năng lượng tự do được giải phóng từ phản ứng t
 - Ví dụ: liên kết phosphat estephosphat.
 - Gốc $-\text{PO}_3\text{H}_2$ được ký hiệu là $\text{\textcircled{P}}$.
 
-![Liên kết estephosphat](figures/hinh_p057_lien_ket_estephosphat.png)
+$$\begin{array}{l}
+\text{CH}_2\text{-OH} \\
+\mid \\
+\text{CH-OH} \\
+\mid \\
+\text{CH}_2\text{-O-PO}_3\text{H}_2 \quad (\text{hay } \text{CH}_2\text{-O-}\mathbb{P})
+\end{array}$$
 *(Cấu trúc glycerol 3-phosphat mang liên kết estephosphat)*
 
 ##### 2.2.2. Liên kết phosphat giàu năng lượng
