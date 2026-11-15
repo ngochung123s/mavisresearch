@@ -37,6 +37,7 @@ CURRICULUM_PATH = REPO_ROOT / "_CURRICULUM_NHI_KHOA.md"
 DEFAULT_SAN_KHOA_DIR = Path(r"F:\DL\Giao_trinh_San_khoa_Y_Thai_Binh_2021")
 DEFAULT_HOASINH_DIR = REPO_ROOT / "14_Hoa sinh"
 DEFAULT_SINHLY_DIR = REPO_ROOT / "Sinh lý học YHN 2025"
+DEFAULT_GIAIPHAU_DIR = REPO_ROOT / "17_Giai phau"
 DEFAULT_CLINICAL_SAN_DIR = REPO_ROOT / "01_San phu khoa"
 DEFAULT_CLINICAL_ART_DIR = REPO_ROOT / "02_Ho tro sinh san ART"
 DEFAULT_CLINICAL_FUS_DIR = REPO_ROOT / "03_Sieu am thai"
@@ -50,6 +51,7 @@ DATA_JS_SRC_RE = re.compile(r'<script src="data\.js(?:\?v=[^"]*)?"></script>')
 SAN_MEDIA_WEB = BASE_DIR / "san_khoa_media"  # anh giao trinh San phai nam trong web root moi hien thi duoc
 HOASINH_MEDIA_WEB = BASE_DIR / "hoasinh_media"  # anh Hoa sinh
 SINHLY_MEDIA_WEB = BASE_DIR / "sinhly_media"  # anh Sinh ly hoc
+GIAIPHAU_MEDIA_WEB = BASE_DIR / "giaiphau_media"  # anh Giai phau hoc
 NGOAI_MEDIA_WEB = BASE_DIR / "ngoai_khoa_media"  # anh Ngoai khoa thuc hanh
 IMG_LINK_RE = re.compile(r"]\(media/([^)]+)\)")
 PED_BLOCKS = [
@@ -238,6 +240,51 @@ def sync_ngoai_media(ngoai_dir: Path, used: set[str], lesson_folder: str = "") -
         for f in dst_base.rglob("*"):
             if f.is_file() and f.relative_to(dst_base).as_posix() not in used:
                 f.unlink()
+
+def scan_giaiphau_files(giaiphau_dir: Path) -> list[dict]:
+    index_file = giaiphau_dir / "index.json"
+    if not index_file.exists():
+        return []
+    gp_media_web = BASE_DIR / "giaiphau_media"
+    gp_media_web.mkdir(parents=True, exist_ok=True)
+    
+    # Collect figures from all lesson subfolders
+    for fig in giaiphau_dir.glob("**/figures/*.*"):
+        dst = gp_media_web / fig.name
+        if not dst.exists() or dst.stat().st_size != fig.stat().st_size:
+            shutil.copy2(fig, dst)
+            
+    lessons = []
+    items = json.loads(index_file.read_text(encoding="utf-8"))
+    for item in items:
+        md_path = giaiphau_dir / item.get("md_path", "")
+        content = ""
+        if md_path.exists():
+            content = md_path.read_text(encoding="utf-8")
+        folder_rel = Path(os.path.relpath(giaiphau_dir, BASE_DIR)).as_posix()
+        norm_content = re.sub(r'\]\(figures/([^)]+)\)', r'](giaiphau_media/\1)', content)
+        lessons.append({
+            "id": item["id"],
+            "specialty": "giaiphau",
+            "specialty_name": "Giải Phẫu Học Y Hà Nội (2025)",
+            "part": item.get("part", "Giáo trình Giải phẫu học Y Hà Nội (2025)"),
+            "chapter": item.get("chapter", ""),
+            "title": item.get("title", ""),
+            "author": item.get("author", "Bộ môn Giải phẫu — ĐHY Hà Nội"),
+            "start_page": item.get("start_page"),
+            "end_page": item.get("end_page"),
+            "has_ped": False,
+            "has_pedytb": False,
+            "has_cards": False,
+            "cards_count": 0,
+            "apkg_file": None,
+            "html_file": None,
+            "ped_content": norm_content,
+            "content": norm_content,
+            "folder_rel": folder_rel,
+        })
+    return lessons
+
 
 def scan_sinhly_files(sinhly_dir: Path) -> list[dict]:
     index_file = sinhly_dir / "index.json"
@@ -960,7 +1007,7 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
     return lessons
 
 
-def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, faq_dir: Path, ngoai_dir: Path, version: str, generated_at: str, sinhly_dir: Path = DEFAULT_SINHLY_DIR) -> dict:
+def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art_dir: Path, clin_fus_dir: Path, faq_dir: Path, ngoai_dir: Path, version: str, generated_at: str, sinhly_dir: Path = DEFAULT_SINHLY_DIR, giaiphau_dir: Path = DEFAULT_GIAIPHAU_DIR) -> dict:
     curriculum = parse_ped_curriculum()
     discovered = scan_ped_files()
     ped_lessons, curriculum_summary = [], []
@@ -985,6 +1032,8 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
     obgyn_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in obgyn_lessons))
     hoasinh_lessons = scan_hoasinh_files(hoasinh_dir)
     sinhly_lessons = scan_sinhly_files(sinhly_dir)
+    giaiphau_lessons = scan_giaiphau_files(giaiphau_dir)
+    giaiphau_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in giaiphau_lessons))
     sinhly_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in sinhly_lessons))
     hoasinh_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in hoasinh_lessons))
     
@@ -1000,7 +1049,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
     ngoai_lessons = scan_clinical_ngoai(ngoai_dir)
     ngoai_chapters = list(dict.fromkeys(lesson["chapter"] for lesson in ngoai_lessons))
     
-    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons) + len(faq_lessons) + len(ngoai_lessons) + len(sinhly_lessons)
+    total_all = len(ped_lessons) + len(obgyn_lessons) + len(hoasinh_lessons) + len(san_clinical_lessons) + len(art_lessons) + len(fus_lessons) + len(faq_lessons) + len(ngoai_lessons) + len(sinhly_lessons) + len(giaiphau_lessons)
     
     return {
         "metadata": {
@@ -1016,6 +1065,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "total_obgyn": len(obgyn_lessons),
             "total_hoasinh": len(hoasinh_lessons),
             "total_sinhly": len(sinhly_lessons),
+            "total_giaiphau": len(giaiphau_lessons),
             "total_san": len(san_clinical_lessons),
             "total_art": len(art_lessons),
             "total_fus": len(fus_lessons),
@@ -1027,6 +1077,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
             "obgyn_chapters": obgyn_chapters,
             "hoasinh_chapters": hoasinh_chapters,
             "sinhly_chapters": sinhly_chapters,
+            "giaiphau_chapters": giaiphau_chapters,
             "san_chapters": san_clinical_chapters,
             "art_chapters": art_chapters,
             "fus_chapters": fus_chapters,
@@ -1038,6 +1089,7 @@ def build_payload(san_dir: Path, hoasinh_dir: Path, clin_san_dir: Path, clin_art
         "obgyn": obgyn_lessons,
         "hoasinh": hoasinh_lessons,
         "sinhly": sinhly_lessons,
+        "giaiphau": giaiphau_lessons,
         "san": san_clinical_lessons,
         "art": art_lessons,
         "fus": fus_lessons,
@@ -1052,6 +1104,7 @@ def write_outputs(payload: dict) -> None:
           "curriculum: window.HUNG_MED_DATA.curriculum, lessons: window.HUNG_MED_DATA.ped };\n"
           "window.SAN_KHOA_DATA = window.HUNG_MED_DATA.obgyn;\n"
           "window.SINH_LY_DATA = window.HUNG_MED_DATA.sinhly;\n"
+          "window.GIAI_PHAU_DATA = window.HUNG_MED_DATA.giaiphau;\n"
           "/* lesson.content của bài Nhi = PED chuẩn, không có thì sách YTB — gán bằng tham chiếu, không lưu 2 lần */\n"
           "window.HUNG_MED_DATA.ped.forEach(function (l) { l.content = l.ped_content || l.pedytb_content; });\n")
     DATA_JS_PATH.write_text(js, encoding="utf-8")
@@ -1078,6 +1131,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--san-dir", type=Path, default=DEFAULT_SAN_KHOA_DIR, help="thư mục giáo trình Sản khoa (có index.json)")
     ap.add_argument("--hoasinh-dir", type=Path, default=DEFAULT_HOASINH_DIR, help="thư mục Hóa sinh (có index.json)")
     ap.add_argument("--sinhly-dir", type=Path, default=DEFAULT_SINHLY_DIR, help="thư mục Sinh lý học 2025 (có index.json)")
+    ap.add_argument("--giaiphau-dir", type=Path, default=DEFAULT_GIAIPHAU_DIR, help="thư mục Giải phẫu học 2025 (có index.json)")
     ap.add_argument("--clin-san-dir", type=Path, default=DEFAULT_CLINICAL_SAN_DIR, help="thư mục Sản phụ khoa lâm sàng")
     ap.add_argument("--clin-art-dir", type=Path, default=DEFAULT_CLINICAL_ART_DIR, help="thư mục Hỗ trợ sinh sản ART")
     ap.add_argument("--clin-fus-dir", type=Path, default=DEFAULT_CLINICAL_FUS_DIR, help="thư mục Siêu âm thai")
@@ -1085,12 +1139,12 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--ngoai-dir", type=Path, default=DEFAULT_CLINICAL_NGOAI_DIR, help="thư mục Ngoại khoa thực hành")
     args = ap.parse_args(argv)
     now = datetime.now()
-    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, args.faq_dir, args.ngoai_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"), args.sinhly_dir)
+    payload = build_payload(args.san_dir, args.hoasinh_dir, args.clin_san_dir, args.clin_art_dir, args.clin_fus_dir, args.faq_dir, args.ngoai_dir, now.strftime("%Y%m%d_%H%M%S"), now.strftime("%Y-%m-%d %H:%M:%S"), args.sinhly_dir, args.giaiphau_dir)
     write_outputs(payload)
     m = payload["metadata"]
     print(f"[OK] data.js v{m['version']} ({DATA_JS_PATH.stat().st_size / 1e6:.2f} MB): "
           f"Tổng {m['total_all']} bài (Nhi {m['total_ped']} · Sản YTB {m['total_obgyn']} · Hóa sinh {m['total_hoasinh']} · Sinh lý {m.get('total_sinhly', 0)} · "
-          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']} · Câu hỏi {m['total_faq']} · Ngoại {m['total_ngoai']})")
+          f"Sản LS {m['total_san']} · ART {m['total_art']} · Siêu âm thai {m['total_fus']} · Câu hỏi {m['total_faq']} · Ngoại {m['total_ngoai']} · Giải phẫu {m.get('total_giaiphau', 0)})")
     return 0
 
 

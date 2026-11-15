@@ -659,7 +659,7 @@
   </div>
 
   <!-- NẠP DỮ LIỆU ĐÃ ĐÓNG GÓI SẴN -->
-  <script src="data.js?v=20261115_235910"></script>
+  <script src="data.js?v=20261116_011146"></script>
 
   <!-- APPLICATION SCRIPT LOGIC -->
   <script>
@@ -678,7 +678,7 @@
         const savedFont = localStorage.getItem('hungmed_font');
         if (savedFont) applyFontSize(Number(savedFont));
         const savedSpec = localStorage.getItem('hungmed_specialty');
-        if (savedSpec && ['faq', 'ngoai', 'ped', 'obgyn', 'hoasinh', 'sinhly', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
+        if (savedSpec && ['faq', 'ngoai', 'ped', 'obgyn', 'hoasinh', 'sinhly', 'giaiphau', 'san', 'art', 'fus'].includes(savedSpec)) currentSpecialty = savedSpec;
       } catch(e) {}
 
       initMobileApp();
@@ -744,6 +744,7 @@
       if (kParam === 'nhi' || kParam === 'ped') currentSpecialty = 'ped';
       else if (kParam === 'hoasinh' || kParam === 'hs' || kParam === 'biochem') currentSpecialty = 'hoasinh';
       else if (kParam === 'sinhly' || kParam === 'sl' || kParam === 'physio') currentSpecialty = 'sinhly';
+      else if (kParam === 'giaiphau' || kParam === 'gp' || kParam === 'anatomy') currentSpecialty = 'giaiphau';
       else if (kParam === 'san' || kParam === 'ob') currentSpecialty = 'san';
       else if (kParam === 'art' || kParam === 'ivf') currentSpecialty = 'art';
       else if (kParam === 'fus' || kParam === 'sieuam' || kParam === 'sieu_am_thai') currentSpecialty = 'fus';
@@ -773,6 +774,7 @@
       ped: { icon: '🩺', name: 'Nhi khoa', desc: 'Cẩm nang tiếp cận lâm sàng Nhi', unit: 'bài' },
       hoasinh: { icon: '🧪', name: 'Hóa sinh Y học', desc: 'Giáo trình ĐHYHN (GS. Tạ Thành Văn)', unit: 'chương' },
         sinhly: { icon: '🫀', name: 'Sinh lý học Y Hà Nội', desc: 'Giáo trình ĐHYHN 2025 (GS. Phạm Thị Minh Đức)', unit: 'bài' },
+        giaiphau: { icon: '🩻', name: 'Giải phẫu học Y Hà Nội', desc: 'Giáo trình ĐHYHN 2025 (PGS. Nguyễn Văn Huy)', unit: 'bài' },
       san: { icon: '🤰', name: 'Sản phụ khoa', desc: 'Chuyên đề lâm sàng & điều trị Sản Phụ khoa', unit: 'bài' },
       art: { icon: '🧬', name: 'Hỗ trợ sinh sản (ART)', desc: 'Chuyên đề IVF, IUI, kích trứng & phôi học', unit: 'bài' },
       fus: { icon: '🔊', name: 'Siêu âm thai', desc: 'Chẩn đoán trước sinh & siêu âm hình thái thai', unit: 'bài' },
@@ -783,7 +785,7 @@
       const menu = document.getElementById('mobileSpecialtyMenu');
       if (!menu) return;
       const data = getUnifiedData();
-      const order = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'san', 'art', 'fus', 'obgyn'];
+      const order = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'giaiphau', 'san', 'art', 'fus', 'obgyn'];
       menu.innerHTML = order.map(s => {
         const meta = SPECIALTY_META[s];
         if (!meta) return '';
@@ -877,7 +879,7 @@
       const container = document.getElementById('mobileHomeViewContent');
       if (!container) return;
       const data = getUnifiedData();
-      const specialties = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'san', 'art', 'fus', 'obgyn'];
+      const specialties = ['faq', 'ngoai', 'ped', 'hoasinh', 'sinhly', 'giaiphau', 'san', 'art', 'fus', 'obgyn'];
 
       const cardsHtml = specialties.map(s => {
         const meta = SPECIALTY_META[s];
