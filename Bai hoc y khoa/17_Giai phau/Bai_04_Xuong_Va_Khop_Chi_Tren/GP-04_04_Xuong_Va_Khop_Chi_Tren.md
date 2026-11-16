@@ -1,845 +1,252 @@
 # XƯƠNG VÀ KHỚP CỦA CHI TRÊN
 
-**Chương:** Chương 2: Hệ Xương - Khớp  
-**Tác giả:** PGS.TS. Nguyễn Văn Huy, ThS. Vũ Bá Ánh  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 45 - 63
+**Chương:** Chương 2: Hệ Xương - Khớp (Bài 2)  
+**Tác giả:** PGS.TS. Nguyễn Văn Huy  
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 44 - 62
 
 ---
 
-Bai2 
-XIIONG VA KHDP CUA CHI THEN 
-XUONG CHI TREN 
-M6i chi tren c6 32 xuang, bao g6m 2 x1wng cua dai ngµc va 30 xuang ct'.ia phfin 
-tµ do cua chi tren. 2 xuang Clla dai ngµc la xuung don va xuang vai. 30 XlWng cua phfin 
-tµ do g6m xuang canh tay, 2 xuung dmg tay (xuang quay va xuang tn,1) va 27 xuang 
-ban tay (8 xuang c6 tay, 5 xuung d6t ban tay va 14 xuang d6t ng6n tay). 
-1. XU'ONG OON (clavicle) (H.1)
-Ouang thang 
-Ci:, 11611 
-Mt tren 
-Sau 
-Mt dmri 
-Tm6c 
-Ranh ca dLrm don 
-
-![Hinh 1. XLI'ang don [12]](giaiphau_media/hinh_p045_1.png)
-
-*Hinh 1. XLI'ang don [12]*
-
-O§u uc
-An cua day chng 
-suan-don (cu suan) 
-0§u U'C 
-XuO'Ilg don la m9t xuO'Ilg dai nfim ngang a nn c6 va a ngay du6i da tren su6t chiu 
-dai. N6 nhu la thanh ch6ng cho vai, n6i dai vai v6i xuang tn,lc va giup canh tay dung dua tren 
-than. XuO'Ilg don c6 than a gifra diu cung vai va dfru uc. N6 cong gi6ng chfr S, l6i ra tm6c a
-2/3 trong va lam ra tnr6'c a phfrn ba ngoai. Thuong kh6ng c6 6ng tuy du la xuang dai. 
-Dau cimg vai va ph&n ba ngoai than xirO'ng. Ddu cimg vai (acromial end) va phfin 
-ba ngoai than xuang dt theo chiu tren du6i nen c6 cac mit tren va du6i, cac ba tm6c va 
-sau. Bo· tru6c 15m ra tnr6'c, ba sau 16i ra sau. Tren dfru cung vai c6 mijt kh&p cimg vai 
-(acromial facet) la m9t mt kh6p nh6 hinh oval kh6p v6i mt trong ct'.1a mom cung vai. 6
-mt du6i c6 hai m6c xuang r5 rt. 6 ch6 n6i gifra don 1/4 ngoai v6i 3/4 trong c6 cu n6n 
-(conoid tubercle) la ch6 barn cho phin n6n cua day chfing qu - don. Tu- cnh ngoai cu n6n 
-c6 m9t dai xu xi hp g9i la tluong thang (trapezoid line) chy ra tm6c va ra ngoai dn dfiu 
-cung vai. Phfin thang cua day chilng qu don ham vao day. Cu n6n va duang thang duqc g9i 
-chung la !6i cu day ch6ng qw;1 aim (tuberosity for coracoclavicular ligament). 
-
-
-
-<!-- Hết trang 45 -->
-
-
-Hai ph&n ha trong thiin xuYmg va a&u frc. Hai phin ba trong than xuong hinh tf\l 
-hoi;lc lang tni, c6 4 mi;lt v6i mi;lt du6i la hyp nhftt. d mi;lt du6i, gfin dfiu uc, c6 dn day 
-chiing suon aon (impression for costoclavicular ligament), la day chllng n6i xuong don 
-v6i mi;lt tren xuong sm'm I. Phfin ba giua mi;lt du6i c6 rcinh co· du&i aon (subclavian 
-groove) cho ca du6i don barn. Dfiu uc (sternal end) xuong don phinh to, hu6ng vao 
-trong, kh6p v6i khuy€t don cua can xuong uc bllng m(lt kh6p ire (sternal facet). M?t 
-kh6p U'C con kh6p ca v6i s1=1n suc'm I. E)§,u UC nho len tren can U'C nen d¦ sa thily va 
-thuang nhin thily 6 thanh ngoai h6 tinh m§ch canh. 
-Giiy xuO'ng tlon. Xuong don hay gay va thuang gay do cac h,rc gian ti€p tac d(mg t6i 
-ban tay hay vai. Gay thuang 6 ch6 n6i cac phfin ba ngoai va giua, nai c6 thay d6i d('> cong 
-va la phfin y€u nhilt cua xuong. Gay 6 trong cu n6n lam lam trc;mg h,rc cua chi tren khong 
-truy€n vao duqc xuong UC qua xuang don. Luc nay sue n?ng cua canh tay tac d('>ng len 
-manh gay phia ngoai qua day chllng quc;t don, va keo n6 xu6ng. Manh gay trong it di l¨ch. 
-2. XU'O'NG VAi (scapula) (Cac H.2 va 3)
-Xuong vai la m('>t xuong r('>ng, dyt, hinh tam giac nllm 6 m?t sau ben thanh ngi,rc. 
-N6 c6 cac m?t suan va sau (lung), cac ba trong, ngoai va tren, cac g6c tren, du6i va 
-ngoai, va cac mom. T[\lc dQC cua xuong vai gfin nhu thllng dung. 
-Cac goc. G6c du&i (inferior angle) nllm tren xuong suan 7 ho?c khoang gian suan 
-7, c6 th€ sa thily; khi gia tay len tren dfiu, c6 th€ nhin thily n6 chc;iy ra tru6c tren thanh 
-ngvc. G6c tren (superior angle) bi che b&i cac ca. Goe ngoai (lateral angle) nhu bi clit 
-C\lt va r('>ng, gi6ng nhu dfiu ( chom) cua m('>t xuong dai. Tren ill?t n,r do cua n6 c6 J chew 
-(glenoid cavity) d€ kh6p v6i chom xuong canh tay. 6 chao chi hai lorn, hinh qua le, hyp 
-6 tren, r('>ng 6 du6i. N gay tren 6 chao c6 m('>t di¨n xu xi gQi la cu tren 6 chl10 
-(supraglenoid tubercle). CJ xuong vai (neck of scapula) la ch6 thllt lc;ti 6 ngay li€n k€ 
-chom, d¦ thily nhilt 6 cac m?t du6i va sau. 
-Mij,t suim ( costal surface) (H.2). Mi;lt suan hu6ng ra tru6c, che phu m('>t phfin cac 
-xuong suan 2 - 7. M?t nay lorn thanh h6 du&i vai (subscapular fossa). Ca du6i vai barn 
-vao hfiu h€t m?t suan, trir vung gfin c6 xuong thi duqc ngan each v6i xuong bllng tui 
-hoc;tt dich. Ca rang tru6c barn d9c mi;lt tru6c cua ba trong va g6c du6i xuong vai. 
-Mij,t sau (posterior surface) (H.3) duqc gai vai chia thanh h6 tren gai (supraspinous 
-fossa) 6 tren va h6 du&i gai (infraspinous fossa) 6 du6i, hai h6 g?p nhau t§i khuy€t gai - 6 
-chao niim giua ba ngoai cua gai vai va m?t lung cua c6. H6 tren gai nho hon va la ch6 barn 
-cho ca tren gai. Hiu h€t h6 du6i gai la ch6 barn cho ca du6i gai, trir phin nllm d9c ba ngoai 
-la ch6 barn cua cac ca tron va phin nllm dQC ba trong la ch6 barn cua ca tram du6i. 
-Cac bit. Bo· tren (superior border) mong, slic va la ba nglln nhilt. Diu ngoai cua ba 
-tren duqc ngan each v6i g6c cua mom quc;t b&i khuyit tren vai (suprascapular notch). 
-Thin kinh tren vai di qua khuy€t nay vao h6 tren gai. Bo· ngoai (lateral border) chc;ty tu 
-g6c du6i t6i 6 chao va ma r('>ng ra 6 du6i 6 chao thanh cu du&i 6 chew (infraglenoid 
-tubercle). Ba ngoai niim gifra ch6 barn cua ca du6i vai a tru6c, cac ca tron a sau, lc;ti bi
-
-
-
-<!-- Hết trang 46 -->
-
-
-ca lung n)ng phu nen kh6 sa thWy qua da. Bir trong (medial border) di tu g6c du6i t6i 
-g6c tren. Hai phfrn ba du6i ba nay c6 thS d€ sa thWy qua da nhung phfrn ba tren nXm sau 
-va khong thS sa duqc. Ba nay mong va gYp g6c & ngang r€ gai vai. Tren ch6 gWp g6c 
-nay la ch6 barn cua ca nang vai, du6i ch6 gWp g6c la ch6 barn cua cac ca tram. 
-Goe cua mom cimg vai 
-Cu tren 6 chao 
-cb giai phiu 
-Ranh gian cu 
-Mao tren 16i du 
-, 
-, { Trong 
-Cac Joi cau 
-Ngoai
-Mom tren 16i 
-du ngoai 
-Chem con 
-Hf> V(,t Rong r9c 
-xucmg vai 
-Chem cua xucmg 
-canh tay 
-Xucmg 
-canh tay 
-Xmmg don (da dlt) 
-_ 
-G', 
-/ octren 
-. ..:...---'r--Bc'Y tren 
-Khuy`t tren vai 
-..,_-------11
-:---- (khuy` t vai) 
-
---=--=--+--cb 
-Xucmg vai 
-a-bBatrong 
-H6 du6i vai 
-Cu du6i 6 chao 
-Bc'Y ngoai 
-
-![Hinh 2. XU'ang vai va xU'ang canh tay, nhin tl.l' tm&c [12]](giaiphau_media/hinh_p047_2.png)
-
-*Hinh 2. XU'ang vai va xU'ang canh tay, nhin tl.l' tm&c [12]*
-
-Ctic mom. Gai vai (spine of the scapula) nh6 len tu phfrn tren mZt sau xuong vai, 
-c6 hinh tam giac v6i 2 mZt va 3 ba. Cac mZt tren va du6i cung v6i mZt sau xuong vai 
-t[o nen cac h6 & tren va du6i gai vai. Ba ngoai tiJ do, cung mZt lung cua c6 xuong vai 
-gi6i h[n nen khuy€t gai - 6 chao. Ba tru6c (r€) barn vao mZt sau xuong vai, tu ch6 nbi 
-
-
-
-<!-- Hết trang 47 -->
-
-
-cac ph§.n ba tren va giua cua ba trong chy ra ngoai va hai len tren. Ba sau la mao gai 
-vai va nllm ngay du6i da. Cac sqi cua CCY delta barn vao ba du6i cua mao, cac S(Ji CCY
-thang barn vao ba tren cua mao. Tren mao, g§.n d§.u trong, c6 mc)t 16i xuang g9i la cu 
-delta ( deltoid tubercle) cho du day la ch6 barn cua gan ca thang. Mom cung vai 
-(acromion) chy ti€p theo gai vai, nr d§.u ngoai gai vai d6i hu6ng ra tru6c, h§.u nhu 
-vuong g6c v6i gai vai, to thanh g6c mom cung vai (acromial angle). Ba du6i cua mao 
-gai vai tr6 nen lien ti€p v6i ba ngoai mom cung vai ti g6c mom cung vai. Ba trong 
-mom cung vai ngfm, c6 mt;i.t kh&p don (clavicular facet) hinh oval hu6ng vao trong kh6p 
-v6i d§.u ngoai xuang don. C6 th€ d sa thfty ba ngoai, dinh va mt tren mom cung vai. 
-Ba ngoai va dinh mom la ch6 barn cho cac sqi giua CCY delta. Mom cung vai, day chllng 
-cung qu va mom qu to nen m9t cung chin tren kh6p vai. Gan CCY tren gai di du6i 
-mom cung vai va duqc ngan each v6i mom cung vai va CCY delta bllng tui hot dich du6i 
-mom cung vai. 
-Mom quc;z ( coracoid process) nr ba tren cua chom xuang vai chy len, r6i gftp li 
-dc)t ngc)t d€ nho ra tru6c va hai ra ngoai. Khi canh tay d€ xuoi ben than, mom qu h§.u 
-nhu hu6ng thing ra tru6c va c6 th€ sa thfty dinh cua n6 qua da du n6 c6 bi cac sqi tru6c 
-cua CCY delta che. Mom q\la nllm ()' khoang 2,5 cm du6i ch6 n6i 1/4 ngoai v6i 3/4 trong 
-xuang don va duqc n6i v6i xuang don bO'i day chrtng qu don. 
-3. XU'O'NG CANH TAY (humerus) (Cac H.2 va 3)
-Xuang canh tay la xuang dai va 16n nhftt chi tren. N6 c6 mc)t than va hai d§.u, d§.u 
-g§.n ti€p kh6p v6i xuang vai, d§.u xa ti€p kh6p v6i hai xuang dng tay. 
-l)fiugan 
-D§.u g§.n xuang canh tay bao g6m chom, c6 giai ph§.u va cac cu 16n va be. N6 ti€p 
-n6i v6i than xuang ti c6 ph§.u thut. Cham (head) la mc)t mt kh6p nhin to nen chua 
-d€n mc)t nua kh6i du. N6 hu6ng vao trong, len tren tip kh6p v6i 6 chao xuang vai. 
-Chom rc)ng han 6 chao nhi€u nen chi mc)t ph§.n cua n6 ti€p xuc v&i 6 chao a bftt ky tu 
-th€ nao cua xuang canh tay. C6 gicd phdu (anatomical neck) nllm sat d9c ba vi€n cua 
-chom, hai thiit li. Bao kh6p vai barn vao c6 nay, trir ch6 c6 ranh gian cu, nai c6 gan CCY 
-nhi d§.u di, va 6 mt trong, nai bao bao kh6p barn thftp han c6. Cu be (lesser tubercle) la 
-cu xuang 6 tru6c va ti€p li€n v6i c6. Ba ngoai cua cu nay la mew cu be ( crest of lesser 
-tubercle) hay la mep trong (medial lip) cua cua ranh gian cu. Cu l<'rn (greater tubercle) la 
-ph§.n ngoai nhftt cua d§.u g§.n. Mt sau - tren cua n6, nr tren xu6ng, 1§.n luqt c6 3 din 
-barn cua CCY tren gai, CCY du6i gai va CCY tron be. Mt ngoai cua cu 16n c6 CCY delta phu. 0 
-mt tru6c cu 16n c6 mao cu l<'rn ( crest of greater tubercle) hay mep ngoai (lateral lip) cua 
-ranh gian cu, nai c6 gan ca ngvc 16n barn. Ranh gian cu (intertubercular sulcus) nllm 
-giua hai cu, con duqc g9i la ranh CO' nhj adu (bicipital groove) vi chua gan CCY nay. Gan 
-C{J lung rc)ng barn vao day ranh, con mep trong cua ranh la ch6 barn cua gan CCY tron 16n. 
-Thanxirung 
-Than xuang c6 hinh lang tf\l tam giac v&i ba mt (tru6c ngoai, tru6c trong va sau) 
-va ba ba (trong, ngoai va tru&c). 
-
-
-
-<!-- Hết trang 48 -->
-
-
-Bo tru6c lien tiFp 6 tren v6i mao cu 16n. Bo ngoai thGy ro 6 phfin ba du6i cua xuong, 
-ncri n6 day len dH tIo nen mao tren 16i cfiu ngoai (lateral supracondylar ridge). Hai 6 tren 
-diHm gifra cua bo ngoai c6 m(>t diJn xu xi hinh chfr V g9i la l6i cu delta (deltoid tuberosity). 
-Bo trong cilng dK nhLn ra 6 phfin dum, nai n6 tro thanh mew tren !6i du trong (medial 
-supracondylar ridge) nhung bi gian doM 6 nai c6 ranh thfin kinh quay bit cheo qua. 
-C6 
-H6 du6-i gai 
-G6c du6-i 
-Khuygt tren vai (khuygt vai) 
-Xuong don (dii dt) 
-mhch mau mil vai 
-Xuong vai 
------{ 6c cua mom cung vai 
-___ Khuygt thong n6i h6 
-tren gai va h6 du6-i gai 
-Cham XU"O'ng canh tay 
-C6 giai ph§u 
-C6 phftu thuit 
-Cu du6-i 6 chao 
-Ranh thfin kinh quay 
-Mao tren l6i 
-cau trong 
-Mao tren l6i 
-cau ngoai 
-1H6 khuyu 
-cau ngoai 
-Rong fQC 
-Ranh cho thftn kinh tr1,1 
-Mom tren l6i du trong 
-
-![Hinh 3. XLI'ang vai va XU'O'ng canh tay nhin tl.1' sau [12]](giaiphau_media/hinh_p049_3.png)
-
-*Hinh 3. XLI'ang vai va XU'O'ng canh tay nhin tl.1' sau [12]*
-
-
-
-
-<!-- Hết trang 49 -->
-
-
-Cac ffi?t tru6c ngoai va tru6c trong duqc ngan each v6i nhau bling ba tnr6c. M?t 
-tru6c ngoai, tu tren xu6ng, c6 cac ch6 barn cho cac co delta, canh tay va canh tay quay; 
-ffi?t tru6c trong c6 ch6 barn cho CO' quc;i canh tay 6 tren va CO' canh tay 6 du6i. Hai du6i 
-diJm gifra m?t trong c6 16 nu6i xuang d¢n vao m(>t 6ng chSch xu6ng du6i. M?t sau r(>ng 
-nhfit, duqc gi6i hc;in bai cac ba ngoai va trong. Tren m?t sau c6 m(>t ranh n6ng chc;iy 
-chSch xu6ng du6i va ra ngoai, g9i la ranh thdn kinh quay (radial groove), noi ma thin 
-kinh quay cung d(>ng mc;ich canh tay sau di qua. Tren ranh c6 m(>t mao xuang la ch6 
-barn cho diu ngoai co tam diu. Di£n xuang r(>ng hinh tam giac 6 du6i ranh la ch6 barn 
-ci'.ia diu trong ca tam diu. 
-Gay than xuong canh tay c6 th€ xay ra v6i 6 bfit ky ch6 nao. Gay gifra than xuang 
-du6i ch6 barn cua co delta c6 th€ lam t6n thuang thin kinh quay di trong ranh thin kinh 
-quay. Gay diu gin than xuong c6 th€ lam t6n thuong thin kinh nach. Gay mom tren 16i 
-du trong c6 th€ lam t6n thuang thin kinh t11,1. 0 tre em hay g?p cac gay tren 16i du 
-(supracondylar fractures) va diu gay phia gin d6i khi c6 th€ lam t6n thuong d(>ng mc;ich 
-canh tay ho?c thin kinh gifra. 
-Dduxa 
-Diu xa phinh ra thanh kh6i 16i du nlim ngang, g6m phin tiSp kh6p va phin 
-kh6ng tiSp kh6p. Phin tiSp kh6p cong ra tru6c so v6i than xuong, g6m chom con 6 
-ngoai tiSp kh6p v6i xuong quay va rong r9c 6 trong tiSp kh6p v6i khuySt rong r9c 
-xuang tn,l. Phin kh6ng tiSp kh6p la cac mom tren 16i du ngoai va trong. Tren 16i du c6 
-cac h6 tiSp nh?n cac mom cua cac xuang ding tay. 
-Cham con (capitulum) 16i, tron, tc;io nen gin m(>t nua kh6i du v6i m(>t m?t du6i 
-va m(>t m?t tru6c. Khi du6i khuyu, chom xuong quay tiSp kh6p v6i m?t du6i, nhung, 
-khi gfip khuyu, chom tnrqt lend€ tiSp xuc v6i m?t tru6c. Rong r9c (trochlea) g6m m(>t 
-ranh 6 gifra va hai SUO'Il ben, SUO'Il trong dai hon SU'O'Il ngoai. Ba trong rong r9c la phin 
-nh6 xu6ng thfip nhfit cua xuong canh tay. Rong r9c c6 cac m?t tru6c, du6i va sau. Khi 
-dog tay du6i hSt, khuySt rong r9c xuang t11,1 tiSp xuc v&i mi;it sau va mi;it du6i rong r9c 
-nhung trong Jue gftp, khuySt rong fQC xuong t11,1 truqt len d€ tiSp xuc v6i mi;it tru6c rong 
-fQC va rai kh6i mi;it sau. 
-Mom tren l6i cdu trong (medial epicondyle) nlim a diu du6i cua ba trong xmmg 
-canh tay va tren mi;it trong cua l6i du. N6 l6i len 6 ngay du6i da nen c6 th€ SO' thfty va 
-c6 th€ nhin thfty khi gftp th\l d(>ng dng tay. Mi;it sau cua n6 c6 ranh th6n kinh tr'?' 
-(groove for ulnar nerve), phin du6i cua mi;it tru6c la ch6 barn cho cac co gftp 6 lop n6ng 
-cua ding tay tru6c. Mom tren 16i du ngoai (lateral epicondyle) la mom 16i 6 diu du6i 
-ba ngoai xuang canh tay va kh6ng 16i bling mom tren 16i du trong. Mi;it ngoai va mi;it 
-tru6c cua n6 la ch6 barn cho nh6m CO' n6ng cua cac CO' du6i cua dng tay. 
-H6 khuyu (olecranon fossa) nlim 6 mi;it sau, ngay tren rong roe, la noi d¤ cho dinh 
-mom khuyu Hip vao khi khuyu du6i. H6 w:t (coronoid fossa) nlim 6 mi;it tru6c, ngay tren 
-rong r9c, tiSp nh?n mom Vyt cua xuong t11,1 trong luc gftp khuyu. Ngoai h6 Vyt va ngay 
-tren chom con c6 m(>t lorn n6ng g9i la h6 quay (radial fossa), ch6 tiSp nh?n ba cua 
-chom xuang quay khi gftp khuyu diy du. 
-
-
-
-<!-- Hết trang 50 -->
-
-
-4. XU'ONG QUAY (radius) (H.4)
-Xuong quay niim ngoai xuong tn,i, c6 d§u g§n nhe, d§u xa phinh to va m(>t than xuong. 
-Dliu g/in. Diu gin c6 chom, c6 va 16i cu. Cham (head) c6 hinh ma, mSt gin c6 
-m(lt kh6p (articular facet) la m(>t lorn n6ng tiTp khap v&i chem con xmmg canh tay. MSt 
-nh£n bao quanh chem la vanh kh&p (articular circumference) tiTp khap v&i khuyTt quay 
-cua xuang tn.1. C6 (neck) la ch6 thUt ll;'li a phia xa cua chem. L6i cu xuong quay (radial 
-tuberosity) nilm ngay du6i ph§n trong cua c6. 
-XuO'ng quay va xu·o·ng trt_1 ben phiii 
-trong tu th  ngfra: nhin tm6'c 
-Cho 
-L6i cu xuang quay 
-Xuo·ng quay 
-MRttrn6c 
-Ba trn6c 
-Ba gian c6t ---
-Mang gian c6t 
-Mom tram ( quay) 
-"'!f:iL-----Mom khuyu 
-M--- KJ1uy@t rong fQC 
-NO_...:P---- Mom vQt 
---- Khuy@t quay xuong tr\1 
-Morn tram (tr1,1) 
-
-![Hinh 4. Cac XLI'O'ng cua cang tay [12]](giaiphau_media/hinh_p051_4.png)
-
-*Hinh 4. Cac XLI'O'ng cua cang tay [12]*
-
-
-
-
-<!-- Hết trang 51 -->
-
-
-Thfm. Than xuong c6 m?t dtt ngang hinh tam giac, v6'i ba m?t la m?t tru6c, m?t 
-sau va m?t ngoai. Ba ba la ba tnr6c, ba sau va ba gian c6t. M?t ngoai l6i, m?t tnr6'c 
-lorn. Than xuong to ra nhanh khi xu6ng gfrn dfru xa. Ba gian c6t (interosseous border) 
-siic, duqc n6i v6i ba gian c6t cua xuang tf\l bai mang gian c6t. Ba tru&c chi ro a hai 
-dfru, tr<'m va kh6 xac djnh a gifra. Ba sau chi d€ xac djnh a ph§.n ba giua. Gfrn giua m?t 
-tnr&c than xuong c6 16 nu6i xuong. 
-Dau xa. Dfru xa to ra, tra nen c6 4 ill?t tren ffi?t dtt ngang. M?t trong c6 khuydt tr6/ 
-(ulnar notch), m9t m?t khap lorn ti€p khap v6i chom xuong t[\I. M?t ngoai nh6 ra xa 
-thanh mom tram quay (radial styloid process). M?t sau c6 cu lung (dorsal tubercle) va 
-riinh cho cac gan co· du6i (groove for extensor muscle tendons). M?t tru&c nh©n. M?t xa 
-cua dfru xa la mijt kh6p cJ tay (carpal articular surface) nh©n ti€p khap v6i cac xuang c6 
-tay, duqc m9t ga chia thanh m9t diªn ngoai hinh tam giac va m9t diªn trong hinh tu giac. 
-5. XU'O'NG TRl) (ulna) (H.4)
-Xuang t[\I nllm trong xuang quay khi ding tay ngua, c6 hai dfru va mot than. 
-Dau gan. D§.u gfrn tr6ng nhu mot cai m6c to huang ra tnr&c. N6 c6 2 mom, mom 
-khuyu va mom Vyt, va 2 khuy€t, khuy€t rang r9c khap v6i xuang canh tay va khuy€t 
-quay ti€p kh6p v6i xuung quay. Mom khuyu (olecranon) a gfrn hon va cong ra tru6c t«i 
-dinh cua n6 nhu m9t cai mo, v6n nllm trong h6 khuyu cua XtrO'Ilg canh tay khi d.ng tay 
-du6i. M?t sau mom khuyu nh©n, nl1m ngay du6i da. Khi d.ng tay du6i, mom khuyu nllm 
-gfrn duang n6i cac mom tren 16i du xuang canh tay, nhung khi d.ng tay gl1p thi n6 di 
-xu6ng va ba mom xuong t«o nen mot tam giac can. M?t tnr&c mom khuyu t«o nen phfrn 
-sau cua khuy€t rang r9c. Mom Vyt a xa hon mom khuyu va nh6 ra tnr6c. M?t sau cua n6 
-t«o nen phfrn tru6c cua khuy€t rang r9c. M?t tm&c cua n6 c6 hinh tam giac v&i phfrn 
-du6i la l6i cu xuang t7, (tuberosity of the ulna). Khuydt rang r9c (trochlear notch) nllm 
-giua mom khuyu va mom Vyt, thiit l«i a ch6 n6i hai mom. 6 du6i va ngoai khuy€t rang 
-r9c la khuyit quay (radial notch), mot khuy€t n6ng hinh oval ti€p khap vai vanh cua 
-chom xuong quay. 
-Than. Than c6 hinh Jang 1f\l tam giac a 3/4 phia gfrn, hinh trµ a 1/4 phia xa. N6 nho 
-dfrn nr tren xu6ng, c6 cac m?t tru6c, sau va trong, cac ba tru6c, sau va gian c6t. Ba gian c6t 
-(interosseous border) hiªn ro a 2/4 giua nhtr mot mao, bi€n di a phfrn xa va a phia g§.n thi 
-tra thanh mew CO' ngu·a (supinator crest). Tren di€m giua cua ill?t tru&c c6 16 nu6i xuang. 
-Dau xa. Dfru xa hoi phinh ra thanh chom (head). Chom g6m vanh khbp (articular 
-circumference) ti€p kh6p v6i khuy€t tr\) cua xuong quay va mom tram tr81 (ulnar styloid 
-process). M?t xa cua chom duqc ngan each v6i xuong c6 tay bllng m9t cfia khap. Mom 
-tram tr\) la mot mom ngiin, tran a dfru xa xuong trµ, c6 th€ S<J thl1y a tren mom tram 
-quay khoang 1 cm. 
-6. CAC XU'O'NG BAN TAY (bones of hand) (H.5)
-Cac xuang cua ban tay bao g6m cac xuang c6 tay, cac xuang d6t ban tay va cac 
-xuang d6t ng6n tay. 
-
-
-
-<!-- Hết trang 52 -->
-
-
-6.1. Cac xtrO'ng c6 tay (carpal bones) 
-C6 8 xuong c6 tay xp thanh 2 hang gftn va xa, m6i hang 4 xuong. Tu phia quay 
-t&i phia tr\l, hang gftn c6 cac xuang thuyJn (scaphoid), nguyft (lunate), thap 
-(triquetrum) va arJ,u (pisifonn); 
-hang xa c6 cac xuong thang (trapezium), the 
-(trapezoid), ca (capitate) va m6c (hamate). Xuang du tip kh&p vai mt gan tay cua 
-xuang thap. Ba xuang khac cua hang g§n t?o nen m('>t cung. Cung nay 16i v€ phia gftn 
-de tip khap v&i xuang quay va dTa khap cua khap quay - tn,1 xa. Mt lorn cua cung la 
-m('>t ngach huang v€ phia xa om l§y mt nho v€ phia g§n cua xuang ca va xuang m6c. 
-Mt mu cua kh6i xuO'ng c6 tay thi 16i. Mt gan tay cua kh6i xuong c6 tay t?o nen m(>t 
-ranh lorn sau g9i la ranh c6 tay ( carpal groove), v&i hai ba ranh, ba quay va ba tr1,1, nho 
-v€ phia gan tay. d ba tr1,1 c6 xuong du (nim tru&c xuong thap) va m6c cua xuong m6c 
-(hook of hamate). Ba quay cua ranh c6 tay duqc t?o nen b&i cit (tubercle) cua xuang 
-thuy€n (c6 the SCY th§y) va Cll cua xuong thang. Ham gan g§p barn vao hai ba ranh, bin 
-ranh thanh 6ng c6 tay chua cac gan g§p va th.1n kinh giua. 
-Cac xuang vimg 
-Xuang nguy4t 
-Xuang thap 
-uang d5u 
-Cac xu-o·ng 
-c6 tay 
-NSn 
-}C' 
-Th, 
-ac xmrng
-an 
-d" b' 
-Chom 
-ot an tay
-NS6 } Cac xmrng
-Th7n 
-d6t ngon gAn
-Chom 
-
-![Hinh 5. Cac XLJ'O'ng cua ban tay, nh in tCr trU'O'C [12]](giaiphau_media/hinh_p053_5.png)
-
-*Hinh 5. Cac XLJ'O'ng cua ban tay, nh in tCr trU'O'C [12]*
-
-6.2. Cac xtrO'ng d6t ban tay (metacarpals) 
-C6 5 xuong d6t ban tay, duqc mang s6 rir phia quay vao phia tr1,1 la cac xuang d6t 
-ban I - V. Day la nhfrng xuong dai ca nho, m6i xuang c6 m(>t nin (base) 6 d§u g.ln, m(>t 
-than (shaft) va m(>t chom (head) 6' d.lu xa. Cac chom trcm tip khap vai cac xuang d6t 
-ng6n g.ln. Cac n€n tip khap v&i hang xa cua cac xuong c6 tay va khap v&i nhau, tru 
-cac xuang d6t ban I va II khong khap v&i nhau. B6n xuang d6t ban tay ben trong, rir 
-
-
-
-<!-- Hết trang 53 -->
-
-
-gfin ra xa, chi hoi gian each xa dfin nhau. Tuy nhien, xuong d6t ban tay thu nhftt so v6i 
-cac xuong khac thi nim & tnr6c hon va xoay trong 90° tren tn.ic cua n6 dS cho m?t mu 
-tr& nen m®t ngoai va m®t gan tay tr& thanh m®t trong. Do d6, ng6n tay cai gftp vao phia 
-trong ngang qua gan tay va c6 thS xoay t6i vi tri d6i chi€u v6i m6i ng6n. D6i chi€u ph\l 
-thU<)C vao xoay trong va la y€u t6 chinh trong sv kheo leo cua ban tay; khi dm Ch?t m9t 
-v¯t, cac ng6n thucmg va ng6n cai bao quanh v¯t nay tu cac phia d6i l¯p, lam tang Ive 
-dm va ky nang dm. 
-6.3. Cac xrrong dat ngon tay (phalanges) 
-C6 14 xuong d6t ng6n tay, ba xuong a m6i ng6n dai, hai xuong a ng6n cai. M6i 
-xuong c6 m9t nJn (base of phalanx) a diu gin, m9t than (shaft of phalanx) va m9t 
-ch6m (head of phalanx) a diu xa. Than thuon din v€ phia xa, m?t mu 16i theo chi€u 
-ngang, m®t gan tay lorn nh° ra tru6c. N€n cua cac d6t gin mang cac m?t kh6p lorn hinh 
-oval thich ung v6i cac chom xuong d6t ban tay. Chom cua cac d6t gin dugc soi thanh 
-ranh nh±n nhu cac rong r9c, g9i la rang r9c xuong d6t ng6n tay (trochlea of phalanx) va 
-cac ranh 15.n sau hon tren cac m?t gan tay. N€n xuong d6t ng6n gifra mang hai m?t kh6p 
-lorn each nhau bing m9t s6ng nhgn, phu hgp v6i rong r9c cua cac d6t ng6n gfin. N€n 
-cua cac d6t ng6n xa thich ung v6i cac chom gi6ng nhu rong r9c cua cac d6t ng6n gifra. 
-Cac chom cua cac d6t ng6n xa khong ti²p kh6p va mang m9t l6i cu d6t ng6n xa 
-(tuberosity of distal phalanx) hinh li€m tren m?t gan tay. 
-cAc KHOP CUA CHI TREN 
-1. cAc KHO'P CUA DAI NGl)'C
-Dai ngvc c6 hai kh6p ho<;tt dich la kh6p uc - don va kh6p cung vai - don. 
-Khup frc - dim (sternoclavicular joint) la kh6p ho<;tt dich gifra dfiu uc xuong don 
-v6i can xuong UC. Cac m?t kh6p g6m mij,t kh&p UC (sternal facet) cua diu UC xuong don 
-kh6p v6i khuyit don ( clavicular notch) cua can xuong uc. Cac m?t kh6p nay dugc phu 
-bing S\}n SQ'i chu khong phai S\}n trong nhu binh thuc'mg. Xen gifra ID?t kh6p cua hai 
-xuong la m9t dTa kh6p. DTa dinh a tren vao diu UC xuong don, a du6i v6i S\}n cua 
-xuong suc'm I. Dia dugc cho la hfip thu Ive truy€n d9c xuong don va ngan xuong don 
-tr¯t vao trong. Kh6p UC don c6 d<;tng m9t kh6p yen giup xuong don c6 thS cu d9ng tren 
-nhi€u hu6ng. Kh6p dugc gifr b&i cac day ching uc - don tru6c va sau, day ching suc'm -
-don va day ching gian don. 
-Khup cung vai - dim (acromioclavicular joint) la kh6p ho<;tt dich kiSu kh6p phing 
-gifra dfiu cung vai xuong don v6i mom cung xuong vai. Kh6p nim a 2 - 3 cm ben trong 
-diSm nho ra ngoai nh§.t cua mom cung vai. Cac ID?t kh6p bao g6m mij,t kh&p don 
-(clavicular facet) cua mom cung vai (nim a phin tnr6c cua ba trong mom cung vai) ti²p 
-kh6p v6i m?t kh6p cung vai (acromial facet) cua dfiu cung vai xuong don. Cac m®t 
-kh6p c6 hinh oval va dugc phu bing S\lll sgi; chung d€u vat xu6ng du6i va vao trong. T<;ti 
-
-
-
-<!-- Hết trang 54 -->
-
-
-kh6p cung vai - don, mom cung vai xoay tren xuong don hoc djch chuy€n ra tru&c hay 
-ra sau. Tu ph5.n tren bao kh6p c6 m9t cfia kh&p hinh nem nho vao, chia kh6p khong hoan 
-toan thanh hai khoang. Bao kh6p dm1c tang cm'mg a mt tren bai day chng cung vai -
-don (acrornioclavicular ligament). Day chi:mg quc;i - don (coracoclavicular ligament), n6i 
-ph:ln ngoai xuong don v&i mom qu? xuong vai, la m9t day chng khoe nhllt trong cac day 
-chng n6i xuong don vm xuong vai. N6 bao g6m hai ph:ln la day chii,ng thang (trapezoid 
-ligament) di tu mom qu? dSn duong thang xuong don va day ch<lng non (conoid 
-ligament) di tu mom qu? t&i cu n6n cua xuong don. 
-2. KHO'P 6 CHAO CANH TAY (glenohumeral joint) HAY KHO'P VAi (shoulder
-joint)
-Kh6p 6 chao canh tay la m9t kh6p ho?t djch da tn.ic ki€u chom du giua chom cua 
-xuong canh tay va 6 chao cua xmmg vai. Do thiSu cac ySu t6 gay tra ng?i ( cua xuong, 
-bao kh6p ... ), kh6p vai c6 ba dp d9 tl,r do va t§.m vn d(>ng r(>ng. Tuy nhien, tinh vn 
-d(>ng cao c6 duqc la do kh6p thiSu tinh vung chic va trt kh6p vai thuong xay ra, nhit 
-la trong th€ thao va tai n?n 6 to. Kh6p vai la kh6p d(>ng nhftt trong CO' th va thuong la 
-kh6p hay trt nhllt. 
-2.1. Cac mijt khop (H.6) 
-Cac m?t kh6p g6m chom cong 16i cua xuong canh tay quan h h6 tuong v6i 6
-chao cong lorn a xuong vai; cac mt cong nay g:ln nhu c6 hinh du, nen duqc g9i la 
-kh6p chom du. Din tich chom 16i cua xuong canh tay vu()'t qua di?n tich 6 chao nhiSu 
-dSn n6i 6 chao tiSp nhn chua dSn m◊t ph:ln ba chom a bfit ky tu th€ nao; di?n tich 
-chom con l?i tiSp xuc v&i bao kh6p. Ban kinh duong cong cua 6 chao (J ID?t phing dung 
-ngang 16n hon ban kinh cua chom xuong canh tay, va duqc lam sau them bai m◊t viSn 
-Sl,ln SQ'i g9i la viSn 6 chao. Sl,ln trong phu chom day nhftt a trung tam va m6ng a ngo?i 
-vi, con tren 6 chao thi nguqc l?i. 0 h:lu hSt cac tu th€, d◊ cong cua cac mt kh6p khong 
-d6ng d?ng hoan toan, va kh&p c6 d◊ long nhftt djnh. Kh6p chi cht ( d6ng d?ng hoan 
-toan) khi xuang canh tay gi?ng va xoay ngoai. 
-Viin J chew (glenoid labrum) la vanh Sl,ln SQ'i bao quanh 6 chao. N6 c6 ID?t cit 
-hinh tam giac v&i m9t mt nSn barn vao ba 6 chao, m9t mt trong tiSp xuc v&i chom 
-xuong canh tay, nhu la ph:ln ma r9ng cua m?t cong 6 chao, va m◊t m?t ngoai dinh v&i 
-bao kh6p. N6 hoa ln (J tren v&i gan d:lu dai CO' nhi d:lu. ViSn 6 chao lam sau 6 chao, c6 
-th bao v? xuong va c6 le h6 trq SlJ boi tron. 
-2.2. Cac cfr dqng 
-Kh6p vai c6 ba tf\lc chuyn d9ng, cho phep g&p, du6i, gi?ng, khep, quay tron va xoay. 
-
-
-
-<!-- Hết trang 55 -->
-
-
-Day ching qu\l - mom cung vai 
-Mom cung vai 
-/ 
-Gan ca tren gai"'><., ,r
-.--... 
---/.,,, 
-om qw;t 
-(hqp vao bao kh6p 
-ay ching qu\l - canh tay 
-Tui ho\lt djch 
-duai ca delta 
-Gan ca duai gai 
-(hqp vao bao khap) 
-Gan ca trim be 
-(hqp vao bao kh6p) 
-Mang ho\lt dich 
-(mep dt) 
-Cac 16 cua tui ho\lt dich 
-ca duai vai 
-y chiing 6 chao 
-nh tay tren 
-an ca duai vai 
-hqp vao bao kh6p) 
-ching 6 chao 
-nh tay gifra 
-ching 6 chao 
--
-tay du6i
-Kh&p da dm;rc mir ra: nhin ngoai 
-Tui ho\lt dich du6i ca delta 
-•
-ca tren gai
-ay ching bao khap 
-Mang ho\lt dich 
-' 
-om cung vai 
-Ta khap 
-Ngach nach 
-Thit d6 dwng ngang qua kh&p 
-
-![Hinh 6. Kh6'p vai: mt kh6'p, bao kh6'p va cac ca dai xoay [12]](giaiphau_media/hinh_p056_6.png)
-
-*Hinh 6. Kh6'p vai: mt kh6'p, bao kh6'p va cac ca dai xoay [12]*
-
-2.3. Bao kh6'p (H.6) 
-L&p xa bao kh&p bao quanh kh&p vai. V € phia trong, n6 barn vao c6 xuong vai, a
-ben ngoai vi€n 6 chao, va 1§.n len den re mom qu? d€ bao quanh ca ch6 barn cua gan d§u 
-dai ca nhi dftu. V€ phia ngoai, n6 barn vao c6 giai phfo cua xuong canh tay, rue la ba 
-cu.a mt kh&p, ngo?i trir a phia du&i - trong, nai n6 di xu6ng th§.p hon 1 cm so v&i c6 
-giai phu, barn vao than xuong canh tay. Bao kh&p long den n6i c6 th€ keo cac xuong 
-xa nhau 2 hoc 3 cm, va di€u nay phu hqp v&i t§.m cu d9ng r§.t r9ng c6 th€ c6 t?i kh&p 
-vai. Tuy nhien, d€ keo hai xuong xa nhau den V?Y dn lam trung ph§.n tren bao kh&p 
-bilng each gi?ng canh tay. Bao kh&p trung khi khep canh tay va tr& nen ding khi gi?ng 
-canh tay. 
-Bao kh&p thuCYng c6 hai 16: m◊t a ben du&i mom qu?, n6i thong 6 ho?t djch kh&p 
-v&i tui ho?t dich du&i vai 6 sau gan ca du&i vai; m9t a gifra hai cu cu.a xuong canh tay, 
-cho gan ca nhi dftu va bao ho?t dich cua n6 di qua. 
-Mang ho?t djch l6t a mt trong l&p xa bao kh&p. 6 phia trong, n6 lt len t&i S\Jn 
-vi€n. V€ phia ngoai, n6 lt len t&i ba mt kh&p xuong canh tay. Mang ho?t djch bao b9c 
-gan d§.u dai ca nhj d§.u hie n6 di trong 6 kh&p va ranh gian cu. 
-
-
-
-<!-- Hết trang 56 -->
-
-
-Nhin tnro·c 
-Mom Ctmg vai 
-----Xtrang don
-D• 
-h:. 
-• 
-, 
-• --------
-ay c ang qu - mom cung va1 
-Day ch§ng 
-,n,,:--- thang 
-l Day ch§ng
-) qu - don
-Gan ca tren gai (da dt) 
-Day ch§ng qu - canh tay--!\".
-Cu Ian va cu nM
-cua xuang canh tay 
-:,lflilll'-,:!!11 .... 
-Day ch§ng 
-non 
-Day ch§ng vai ngang tren va 
-khuy€t vai 
-Day ch§ng ngang canh tay--1,-- 
-Cac 16 thong cua tui hot 
-----.-.r .• .,....-t!lt:Z:=----djch ca du6i vai vao kh6p vai
-Bao hot djch gian cu 
-.4 
-(n&i thong v6i 6 hot djch) 
-Duang kh6ng lien tvc chi vi 
-Gan ca du6i vai (da ct) 
-tri tui hot dich ca duai vai 
-Gan ca nhi diiu canh tay (diiu dai) __ ....,.....-t-
-Cac day ch§ng 
-bao khc'tp 
-
-![Hinh 7. Kh6'p vai: cac day chang [12]](giaiphau_media/hinh_p057_7.png)
-
-*Hinh 7. Kh6'p vai: cac day chang [12]*
-
-2.4. Cac day ching (H. 7) 
-Cac day chfmg kSt hqp v&i kh&p 6 chao canh tay la cac day chfing 6 chao canh tay 
-(tren, gifra va du&i), qu? canh tay va ngang canh tay. Cac day chfing 6 chao canh tay la 
-cac day chfing n9i t?i cua bao kh&p va la nhfrng phfm day len cua bao kh&p. 
-Cac day chting 6 chew cimh tay (glenohumeral ligaments). C6 ba day chfing 6 
-chao canh tay tang cuang cho bao kh&p a phia trn&c va phia du&i. Chung tro nen cang 
-6 nhfrng tu thS gi?ng va xoay canh tay khac nhau, c6 tac d1,mg nhu nhfrng "cucmg ham". 
-Day chfing 6 chao canh tay tren di m cu tren 6 chao t&i dinh cu be va phfrn tren mep 
-trong ranh gian cu. Day chfing 6 chao canh tay gifra cilng xu.it phat m cu tren 6 chao 
-nhung ch6 barn con keo dai xu6ng dSn phfrn tren ba tm&c 6 chao. Tu d6 n6 Ch?y chSch 
-v€ phia du&i ngoai t&i barn vao cu be, 6 phfrn du&i mep trong ranh gian cu. Day chfing 
-nay c6 th€ r(mg t&i 2 cm va day t&i 4 mm. N6 gifr vfrng mqt tm&c luc gi?ng 45° va 60°. 
-Day chfing 6 chao canh tay du6i di m phfrn du6i ba trn&c 6 chao t&i mqt trong than 
-xucmg canh tay, du&i c6 giai ph§u. 
-Day chdng qw;z canh tay ( coracohumeral ligament) la m9t day chfing khoe tang 
-cuang cho phfrn tren bao kh&p, di m mrt ngoai nsn mom qu? t&i phfrn c6 giai ph§u 
-xucmg canh tay ma li€n k€ cu 16n. 
-Day chimg ngang canh tay (transverse humeral ligament) nhu m9t du sgi bang 
-qua phfrn tren ranh gian cu, biSn ranh thanh m9t 6ng chua gan dfru dai CO' nhi dfru. 
-2.5. Cac thimh ph§n tang cuimg cho bao kh6'p va day ching kh6'p vai (Cac H.6 va 7) 
-6 chao nong va bao kh&p long lam cho kh&p vai cu d9ng t\1' do nhung lam cho 
-kh&p khong vfrng. Sue m?nh cua kh&p chu ySu la do b6n CO' cua dai xoay tang cuang 
-cho phin tren cua bao kh&p. 6 tren kh&p con c6 cung cung qu? bao vt. 
-
-
-
-<!-- Hết trang 57 -->
-
-
-Dai xoay (rotator cuff) duqc t?o nen bai gan cua b6n ca n6i xuang vai v6i xuang 
-canh tay. Cac gan nay barn vao xtrang canh tay a gftn m'tt kh6p. Chung hqp thanh mc;'>t 
-dai nim sat m?t ngoai bao kh6p, bao g6m gan cua ca tren gai ( a tren), gan cac ca du6i 
-gai va tr<'m be (a sau) va gan ca du6i vai (a tru6c). Dai xoay c6 vai tro gifr chom xuang 
-canh tay vao 6 chao. 
-Cung cimg qur;i, (coracoacromial arch) do mom qu?, mom cung va day ching cung 
-qu? t?o nen. N6 chin a phia tren chom xuang canh tay, ngan khong cho chom trt len 
-tren. Day ching cung qu? hinh tam giac c6 nSn barn bao bo ngoai mom qu? va dinh barn 
-vao mom cung vai. Gan ca tren gai di du6i cung cung qu?, dtrqc ngan each v6i cung 
-nay bai tui ho?t dich du6i mom cung vai. N6 nim gifra ca delta va bao kh6p. 
-Tui hor;i,t djch du6·i vai (subscapular bursa) nim giua gan ca du6i vai va c6 xuang 
-vai, du6i r€ cua mom qu?. Tui nay giup gan ca du6i vai truqt tren cac xuang. N6 thong 
-v6i 6 ho?t dich kh6p vai qua mc;'>t 16 cua bao kh6p va la phfrn ma rc;'>ng cua 6 kh6p. 
-Tui hor;i,t djch du6·i mom cimg vai (subacromial bursa). Day la tui hot dich rc;'>ng, 
-nim giua cung cung qu? va ca delta ()' ill?t nong, gan ca tren gai va bao kh6p vai tren 
-m?t sau. N6 thu®g khong thong v6i 6 kh6p vai va giup cho ca delta chuy€n dc;'>ng d€ 
-dang tren bao kh6p vai va gan ca tren gai. 
-2.6. SI}' cfip mau va chi ph6i th§n kinh 
-Kh6p vai duqc dp mau bai cac dc;'>ng ill?Ch mu canh tay tru6c va sau cua dc;'>ng 
-ffi?Ch nach va dc;'>ng ill?Ch tren vai cua dc;'>ng ill?Ch du6i don. Cac thfrn kinh phan nhanh 
-vao kh6p vai bao g6m thfrn kinh nach, thftn kinh tren vai va thfrn kinh ngvc ngoai. 
-2.7. Cac lien h lam sang 
-Rach dai xoay (rupture of the rotator cuff) c6 th xay ra khi ho?t dc;'>ng th€ thao 
-hay lao dc;'>ng. Nu kem theo ca rach bao kh6p c6 th€ lam cho 6 kh6p thong v6i tui ho?t 
-djch du6i mom cung vai. Tr{lt kh&p vai (dislocation of the shoulder joint) c6 th€ do mc;'>t 
-chin thuang trvc tip hO?C gian tip. Trt kh6p vai ra tru6c thuong la kt qua cua tinh 
-tr?ng du6i va xoay ngoai qua muc cua xuang canh tay. Chom xtrang canh tay truqt ra 
-tm6c lam cho s1,m viSn 6 chao va bao kh6p bi but khoi bo viSn phia tru6c cua 6 chao. 
-3. KHO'P KHUYU
-Kh6p khuyu la kh6p ho?t djch ki€u ban 1€ gifra dftu xa xuang canh tay va dfru gfrn cua 
-xuang quay va xuang tr\). Kh6p khuyu la kh6p mc;'>t tn,lc v6i cac CU' dc;'>ng g:lp va du6i. 
-
-
-
-<!-- Hết trang 58 -->
-
-
-Bao kh&p (mep dt) 
-Kho]) dli m&: nhin tnroc 
-Si,m kh&p 
-
-![Hinh 8. Kh6'p khuyu: m~t kh6'p va bao kh6'p [12]](giaiphau_media/hinh_p059_8.png)
-
-*Hinh 8. Kh6'p khuyu: m~t kh6'p va bao kh6'p [12]*
-
-3.1. Cac mt kh6'p 
-Rong roe va ch6m con cua xuong canh tay khap lcln lm_rt v6i khuy€t rong roe cua 
-xuong tr\! va ch6m con cua xuong canh tay. Cac mit khap duqc phu bilng svn trong va 
-ti€p xuc nhau d§.y du nhit khi d.ng tay & tu th€ giua sip va ngua va gip vu6ng g6c v6i 
-canh tay. Trong bao khap cua khap khuyu c6 ba khap: (1) khap canh tay - tr\! giua rong 
-roe xuong canh tay va khuy€t rong roe xuong trv; (2) khap canh tay - quay giua ch6m 
-con xuong canh tay va mi;tt lorn ch6m xuong quay; (3) khap quay - trv gcln giua vanh cua 
-ch6m xuong quay va khuy€t quay xuong tr\!, la khap trvc cho phep xuong quay xoay tren 
-xuong trv. Vi c6 nhi€u mi;tt khap, khap khuyu con duqc goi la mc;,t khap phuc hqp. 
-3.2. Cac cfr dqng 
-Khuyu c6 cac cu dc;,ng gip va du6i. Ca gip chinh cua khuyu la ca canh tay. Cac 
-ca khac cilng gip khuyu g6m ca nhi dclu, ca sip tron, ca canh tay quay, ca gip c6 tay 
-quay, ca gip c6 tay trv. Ca du6i chinh la ca tam dclu. Cac ca du6i khac g6m ca khuyu, 
-ca canh tay quay. 
-3.3. Bao kh6'p va day chiing 
-Lap xa bao khap bao quanh khap, y€u a cac mi;tt tm6c va sau nhung day len & hai 
-ben thanh cac day chilng ben. d xuong canh tay, phia tm6c bao xa barn vao ba gcln cua 
-h6 Vyt va h6 quay, phia sau barn vao cac ba h6 khuyu. d d§.u xa, bao xa barn vao cac ba 
-cua khuy€t rong roe, ba tm6c cua mom Vyt va day chilng vong. 
-Cac day chilng ben la nhung dai sqi hinh tam giac day len & cac mi;tt ngoai va 
-trong cua lap xa bao khap; chung d€u la cac day chilng nc;,i ti. Day chii.ng ben quay 
-(radial collateral ligament) la mc;,t dai sqi kh6e hinh tam giac. Dinh cua n6 barn & phia 
-
-
-
-<!-- Hết trang 59 -->
-
-
-gfin vao mom tren l6i du ngoai xuong canh tay va n€n cua no hoa lftn v&i day ching 
-vong cua xuang quay. Day ch6ng hen tr1:1 (ulnar collateral ligament) cung co hinh tam 
-giac. No bao g6m cac phfin tm&c va sau n6i v&i nhau qua m(>t dai cheo. Dinh cua no 
-barn vao mom tren 16i du trong xuong canh tay. Phfin tm&c cua no nhu m(>t thung barn 
-vao cu tren mom Vyt xuong tn,1. Phfin sau hinh quot barn vao ba trong cua mom khuyu. 
-Mang hoot djch lot mpt trong cua lap xa bao kh&p va lqt len xuong canh tay, lot 
-len cac h6 quay va Yyt & tm&c, h6 khuyu & sau. Mang hoot djch kh&p khuyu lien t\IC vao 
-kh&p quay t11,1 gfin. 
-Day ch6ng vong xuang quay (anular ligament of radius) di tuba tm&c dSn ba sau 
-khuySt quay xuong t11,1 va om vong quanh chom va c6 xuong quay. No cung v&i khuySt 
-quay xuong t11,1 too thanh m(>t 6ng chua chom xuong quay. Mpt trong cua no duqc phu 
-bing S\ln sqi. 
-Day chAng vong 
-Xu-ong quay 
-Xu-ong trv 
-Trong tlr th g§p 90°: nhin trong 
-Gan co tam d§u 
-canh tay 
-Tui hol;}t dich 
-mom kbuyu 
-
-![Hinh 9. Kh6'p khuyu: day chang ben trt,1 va day chang vong [12]](giaiphau_media/hinh_p060_9.png)
-
-*Hinh 9. Kh6'p khuyu: day chang ben trt,1 va day chang vong [12]*
-
-3.4. Cac tui hot djch quanh kh6'p khuyu 
-Co hai tui hoot djch mom khuyu, la tui mom khuyu du&i da ( subcutaneous 
-olecranon bursa) nim trong mo du&i da vung mom khuyu va tui mom khuyu du&i gan 
-(subtendinous olecranon bursa) nim giua gan ca tam dfiu va mom khuyu. Hai tui nay co 
-thr bi viem do tang ma sat, g9i la viem tui hoc;zt dich do ma sat (friction bursitis), nhst la 
-tui du&i da. 
-
-
-
-<!-- Hết trang 60 -->
-
-
-Gan ca tam dllu 
-canh tay 
-Tui ho\!t djch 
-mom khuyu 
-Day ch&ng v6ng 
-Xuang tn,1 
-Trong hr th g§p 90°: nhin ngoai 
-
-![Hinh 10. Kh6'p khuyu: day chang ben quay va day chang v6ng [12]](giaiphau_media/hinh_p061_10.png)
-
-*Hinh 10. Kh6'p khuyu: day chang ben quay va day chang v6ng [12]*
-
-Tui ho9t dtch quay trz:1 (radioulnar bursa) nim gifi'a co du6i cac ng6n, co ngua va 
-kh&p canh tay quay. Tui nim sau CO' ngua, ngoai gan ca nhi dliu va trong xum1g tf\l. 
-Viem tui nay c6 th€ xay ra trong du6i m.;inh c6 tay hay du6i c6 tay li;tp di li;tp l.;ii khi Cllng 
-tay 6 tu th€ sftp, nhu khi thµc hi{n cu ve trai trong danh tennis. 
-Tui ho9t dtch nht dtiu quay (bicipitoradial bursa) nim giua gan co nhi dliu va phlin 
-truac cua 16i cu xuang quay. Dau do viem tui nay xay ra khi cilng tay gftp va ngua. 
-3.5. Mch va th§n kinh 
-Kh&p khuyu duqc Gip mau bai cac nhanh ben (ben quay, ben tf\l, ben giua) cua 
-d(mg m.;ich canh tay va cac nhanh qui;tt nguqc tu cac d<)ng m.;ich quay va tf\l. Thlin kinh 
-cho kh&p khuyu chu y€u d€n tu thlin kinh co bi va thlin kinh quay, nhung cac thlin kinh 
-giua va tf\l c6 th€ cfing phan nhanh cho kh&p. 
-3.6. Cac lien h lam sang 
-Cho t&i 14 tu6i (6 nu) va 16 tu6i (6 nam), mom tren 16i du trong chua dinh v&i dliu 
-xa xuang canh tay. Tre em du&i tu6i nay ma nga ch6ng tay 6 tu th€ cilng tay du6i c6 th€ 
-gay ra cu d<)ng gi.;ing d.ng tay bftt thuong 6 khuyu. Lvc keo sinh ra tren day ching ben tr\! 
-lam but tach mom tren l6i ctiu trong ( avulsion of the medial epicondyle of humerus). SI! 
-but tach nay c6 th€ lam t6n thuang thlin kinh tf\l di & sau mom tren 16i cliu trong. 
-Tr{lt kh&p khuyu ra sau (posterior dislocation of the elbow joint) c6 th€ xay ra khi 
-tre em nga ch6ng ban tay a tu th€ gftp khuyu. Dliu xa xuang canh tay truqt qua mi;tt 
-tru&c y€u cua bao kh&p khuyu trong khi dliu glin xuang quay va xuang tf\l truqt ra sau. 
-4. cAc KHO'P QUAY TRI) (radio-ulnar joints)
-Cac xuang quay va tf\l ti€p n6i v&i nhau t.;ii cac kh&p quay tf\l glin va xa va t.;ii 
-kh&p ching quay - tf\l. 
-
-
-
-<!-- Hết trang 61 -->
-
-
-KhO'p quay - Ir':' glin (proximal radio-ulnar joint) la kh&p ho?t djch ki€u tf\lC gifra 
-d§u gfin cac xuang quay va tn,i. Cac m?t kh6'J) g6m khuy€t quay cua xuang tf\l va vanh 
-kh&p cua ch6m xuang quay. Day chi1ng vong quay hinh chfr U di rir b6- trn&c t&i ba sau 
-khuy€t quay xuang tf\l, 6m quanh ch6m xuang quay, cho phep ch6m xuang quay xoay 
-trong 6ng xuang sc;ri trong cac cfr d(mg sfrp ngfra d.ng tay. Knap quay trµ gfin duc;rc b9c 
-chung trong bao khap khuyu nhung n6 kh6ng tham gia vao ho?t d('mg cua kh6p khuyu. 
-Khi cftm m9t cilng tay dua tre (chua d€n tu6i di h9c) va keo ca ngu6-i n6 len 6 tu th€ 
-d.ng tay sfrp (nhu nhfrc len xe bus), ch6m xuang quay c6 th€ tl,lt m9t phfin ra kh6i day
-chi1ng vong, gay nen tinh tr?ng ban tr?tt.
-Khup quay - Ir':' xa (distal radio-ulnar joint) ciing la m9t khap ho?t djch ki€u tfl,lc 
-gifra dfiu xa cac xuang d.ng tay, cho phep dftu xa xuang quay chuy€n d9ng tren dftu xa 
-tuang d6i c6 djnh cua xuang trµ. Cac m?t kh&p bao g6m vanh khap cua ch6m xuang 
-trµ va khuy€t tf\l cua xuang quay. M9t dia khap bi1ng s9n sc;ri n6i xuang tr9 v&i xuang 
-quay. DTa khap c6 hinh tam giac ma n€n barn vao b6- du&i khuy€t trµ cua xuang quay, 
-dinh barn vao b6- ngoai n€n mom tram trl,l. MÉt gftn cua dia ti€p khap v&i m?t xa cua 
-ch6m xuang tr9. 6 kh&p c6 hinh chfr L tren m?t ciit dung ngang. Dia khap ngan each 6 
-khap cua kh&p quay tr9 xa v&i 6 khap cua khap cb tay. L6'J) xa bao khap g6m nhfrng 
-dai sc;ri ngang n6i rir xuo·ng quay sang xuang trµ 6 cac mÊH trn&c va sau. Mang ho?t djch 
-lot m?t trong cua lap X(J va ffi?t gftn cua dia khap. Mang ho?t djch con ma r9ng len tren 
-t?O nen m9t ngach hinh tui. 
-KhO'p ch&ng quay - Ir':' (radio-ulnar syndesmosis) bao g6m mang gian c6t dng 
-tay (interosseous membrane of foreann) va thi'rng cheo ( oblique cord). Mang gian c6t la 
-mQt la sc;ri r9ng n6i b6- gian c6t cua xuang quay va xuang tfl,l, b:it dftu rir 2 - 3 cm du&i 
-16i cu xuang quay. Ngoai chuc nang k€t n6i, n6 con la ch6 barn cho cac ca lap sau cua 
-cilng tay sau. Thl.mg cheo la m9t dai sc;ri rir b6- ngoai cua 16i cu xuang tf\l ch?Y v€ phia 
-du&i ngoai barn vao xuang quay 6 ngay du&i 16i cu xuang quay. 
-5. KHO'P CO TAY (wrist joint) HAY KHO'P QUAY CO TAY (radiocarpal joint)
-Kh&p cb tay la kh&p gifra dftu xa xuang quay v&i cac xuang cb tay. Day la kh&p 
-ho?t djch kiËu 16i du ( condyloid) hay kiÌu soan ( ellipsoid). 
-Cac m?t khap cua kh&p c6 tay g6m m?t xa cua dÍu xa xuang quay va m?t xa dia 
-kh&p ti€p kh&p v&i m?t gftn cua ba xuang cb tay 6 hang gftn la xuang thuy€n, xuang 
-nguy?t va xuang thap. M?t gftn ba xuang cb tay 16i (hinh ellip) kh&p v&i m?t lorn cua 
-m?t kh&p xuang quay va dia kh&p. 
-T?i khap cb tay c6 th€ thvc hi?n duc;rc cac CU' d9ng gfrp, du6i, d?ng, khep va quay 
-tron ban tay. Cac ID?t kh&p hinh ellip kh6ng cho phep xoay; tuy nhien, cac CU' d9ng sfrp 
-va ngfra d.ng tay bu cho S\l' thi€u h9t CU' d9ng xoay nay. 
-6. cAc KHO'P CUA BAN TAY
-Cac kh&p cua ban tay bao g6m 
-- Kh&p cb tay da duc;rc m6 ta 6 tren.
-
-
-
-<!-- Hết trang 62 -->
-
-
-- Ctic khlfp gian cii tay (intercarpal joints) la nhfrng kh&p ho?t djch ki€u kh&p
-phing cho phep cu d9ng tmqt: len nhau gifra cac xuang c6 tay. Kh&p gian c6 tay gifra 
-hai hang gfin va xa cu cac xuang c6 tay la kh&p gifra c6 tay (midcarpal joint). Xuang 
-du nftm tren m?t gan tay cua xuang thap, t?o v6i xuang thap kh&p ho?t djch du - thap. 
-Cac cu d<)ng cua kh6p gian c6 tay lam tang tfim cu d<)ng cua kh&p c6 tay. 
-- Ctic khop cii tay - il6t ban tay (carpometacarpal joints) va ctic khop gian xiro'ng
-il6t ban tay (intennetacarpal joints) la nhfrng kh&p ho?t djch ki€u phing cho phep cac 
-xuang truqt: len nhau. Rieng kh&p c6 tay - d6t ban tay cua ng6n cai la m<)t kh&p ho?t djch 
-ki€u yen, trong d6 xuang thang tip kh&p v6i n@n hinh yen cua xuang d6t ban tay I. Kh&p 
-nay cho phep cac cu d<)ng g6c c6 th€ thtJc hin duqc a bit ky m?t phing nao va m9t mt'.rc 
-cu d<)ng xoay tn,1c h?n ch. Ng6n tay cai c6 th€ gip, du6i, gi?ng, khep va d6i chiu. 
-- Ctic khO'JJ il6t ban tay - il6t ngon tay (metacarpophalangeal joints) la cac kh&p
-ho?t djch ki€u 16i du c6 hai tn,ic chuy€n d<)ng. Ch6m cua cac xuang d6t ban tay tip 
-kh6p v6i n@n cua cac d6t ng6n gfin. M?t kh&p cua cua cac xuang c6 hinh oval (16i va 
-lorn). Cac ct'r d9ng la gip, du6i, gi?ng, khep va quay trc:m. 
-- Ctic khO'p gian il6t ngon tay (interphalangeal joints) la nhfrng kh&p ho:;it djch ki€u
-ban I@ gifra ch6m cua m<)t xuang d6t ng6n tay ( c6 m?t kh&p rong r9c) v6i n@n cua m9t 
-xuang d6t ng6n tay a xa han. Nhfrng kh&p m9t tn,Ic nay chi c6 cac cu d<)ng gip va du6i. 
-
-
-
-<!-- Hết trang 63 -->
+## XƯƠNG CHI TRÊN
 
+Mỗi chi trên có 32 xương, bao gồm 2 xương của đai ngực và 30 xương của phần tự do của chi trên. 2 xương của đai ngực là xương đòn và xương vai. 30 xương của phần tự do gồm xương cánh tay, 2 xương cẳng tay (xương quay và xương trụ) và 27 xương bàn tay (8 xương cổ tay, 5 xương đốt bàn tay và 14 xương đốt ngón tay).
+
+### 1. XƯƠNG ĐÒN (clavicle) (H.1)
+
+![Hình 1. Xương đòn [12]](figures/hinh_p045_1.png)
+
+Xương đòn là một xương dài nằm ngang ở nền cổ và ở ngay dưới da trên suốt chiều dài. Nó như là thanh chống cho vai, nối đai vai với xương trục và giúp cánh tay đung đưa trên thân. Xương đòn có thân ở giữa đầu cùng vai và đầu ức. Nó cong giống chữ S, lồi ra trước ở 2/3 trong và lõm ra trước ở phần ba ngoài. Thường không có ống tủy dù là xương dài.
+
+*Đầu cùng vai và phần ba ngoài thân xương.* *Đầu cùng vai* (acromial end) và phần ba ngoài thân xương dẹt theo chiều trên dưới nên có các mặt trên và dưới, các bờ trước và sau. Bờ trước lõm ra trước, bờ sau lồi ra sau. Trên đầu cùng vai có *mặt khớp cùng vai* (acromial facet) là một mặt khớp nhỏ hình oval khớp với mặt trong của mỏm cùng vai. Ở mặt dưới có hai mốc xương rõ rệt. Ở chỗ nối giữa đoạn 1/4 ngoài với 3/4 trong có *củ nón* (conoid tubercle) là chỗ bám cho phần nón của dây chằng quạ - đòn. Từ cạnh ngoài củ nón có một dải xù xì hẹp gọi là *đường thang* (trapezoid line) chạy ra trước và ra ngoài đến đầu cùng vai. Phần thang của dây chằng quạ đòn bám vào đây. Củ nón và đường thang được gọi chung là *lồi củ dây chằng quạ đòn* (tuberosity for coracoclavicular ligament).
+
+*Hai phần ba trong thân xương và đầu ức.* Hai phần ba trong thân xương hình trụ hoặc lăng trụ, có 4 mặt với mặt dưới là hẹp nhất. Ở mặt dưới, gần đầu ức, có *ấn dây chằng sườn đòn* (impression for costoclavicular ligament), là dây chằng nối xương đòn với mặt trên xương sườn I. Phần ba giữa mặt dưới có *rãnh cơ dưới đòn* (subclavian groove) cho cơ dưới đòn bám. *Đầu ức* (sternal end) xương đòn phình to, hướng vào trong, khớp với khuyết đòn của cán xương ức bằng *mặt khớp ức* (sternal facet). Mặt khớp ức còn khớp cả với sụn sườn I. Đầu ức nhô lên trên cán ức nên dễ sờ thấy và thường nhìn thấy ở thành ngoài hố tĩnh mạch cảnh.
+
+*Gãy xương đòn.* Xương đòn hay gãy và thường gãy do các lực gián tiếp tác động tới bàn tay hay vai. Gãy thường ở chỗ nối các phần ba ngoài và giữa, nơi có thay đổi độ cong và là phần yếu nhất của xương. Gãy ở trong củ nón làm cho trọng lực của chi trên không truyền vào được xương ức qua xương đòn. Lúc này sức nặng của cánh tay tác động lên mảnh gãy phía ngoài qua dây chằng quạ đòn, và kéo nó xuống. Mảnh gãy trong ít di lệch.
+
+### 2. XƯƠNG VAI (scapula) (Các H.2 và 3)
+
+Xương vai là một xương rộng, dẹt, hình tam giác nằm ở mặt sau bên thành ngực. Nó có các mặt sườn và sau (lưng), các bờ trong, ngoài và trên, các góc trên, dưới và ngoài, và các mỏm. Trục dọc của xương vai gần như thẳng đứng.
+
+*Các góc.* *Góc dưới* (inferior angle) nằm trên xương sườn 7 hoặc khoang gian sườn 7, có thể sờ thấy; khi giơ tay lên trên đầu, có thể nhìn thấy nó chạy ra trước trên thành ngực. *Góc trên* (superior angle) bị che bởi các cơ. *Góc ngoài* (lateral angle) như bị cắt cụt và rộng, giống như đầu (chỏm) của một xương dài. Trên mặt tự do của nó có *ổ chảo* (glenoid cavity) để khớp với chỏm xương cánh tay. Ổ chảo chỉ hơi lõm, hình quả lê, hẹp ở trên, rộng ở dưới. Ngay trên ổ chảo có một diện xù xì gọi là *củ trên ổ chảo* (supraglenoid tubercle). *Cổ xương vai* (neck of scapula) là chỗ thắt lại ở ngay liền kề chỏm, dễ thấy nhất ở các mặt dưới và sau.
+
+*Mặt sườn* (costal surface) (H.2). Mặt sườn hướng ra trước, che phủ một phần các xương sườn 2 - 7. Mặt này lõm thành *hố dưới vai* (subscapular fossa). Cơ dưới vai bám vào hầu hết mặt sườn, trừ vùng gần cổ xương thì được ngăn cách với xương bằng túi hoạt dịch. Cơ răng trước bám dọc mặt trước của bờ trong và góc dưới xương vai.
+
+*Mặt sau* (posterior surface) (H.3) được gai vai chia thành *hố trên gai* (supraspinous fossa) ở trên và *hố dưới gai* (infraspinous fossa) ở dưới, hai hố gặp nhau tại khuyết gai - ổ chảo nằm giữa bờ ngoài của gai vai và mặt lưng của cổ. Hố trên gai nhỏ hơn và là chỗ bám cho cơ trên gai. Hầu hết hố dưới gai là chỗ bám cho cơ dưới gai, trừ phần nằm dọc bờ ngoài là chỗ bám của các cơ tròn và phần nằm dọc bờ trong là chỗ bám của cơ trám dưới.
+
+*Các bờ.* *Bờ trên* (superior border) mỏng, sắc và là bờ ngắn nhất. Đầu ngoài của bờ trên được ngăn cách với gốc của mỏm quạ bởi *khuyết trên vai* (suprascapular notch). Thần kinh trên vai đi qua khuyết này vào hố trên gai. *Bờ ngoài* (lateral border) chạy từ góc dưới tới ổ chảo và mở rộng ra ở dưới ổ chảo thành *củ dưới ổ chảo* (infraglenoid tubercle). Bờ ngoài nằm giữa chỗ bám của cơ dưới vai ở trước, các cơ tròn ở sau, lại bị cơ lưng rộng phủ nên khó sờ thấy qua da. *Bờ trong* (medial border) đi từ góc dưới tới góc trên. Hai phần ba dưới bờ này có thể dễ sờ thấy qua da nhưng phần ba trên nằm sâu và không thể sờ được. Bờ này mỏng và gập góc ở ngang rễ gai vai. Trên chỗ gấp góc này là chỗ bám của cơ nâng vai, dưới chỗ gấp góc là chỗ bám của các cơ trám.
+
+![Hình 2. Xương vai và xương cánh tay, nhìn từ trước [12]](figures/hinh_p047_2.png)
+
+*Các mỏm.* *Gai vai* (spine of the scapula) nhô lên từ phần trên mặt sau xương vai, có hình tam giác với 2 mặt và 3 bờ. Các mặt trên và dưới cùng với mặt sau xương vai tạo nên các hố ở trên và dưới gai vai. Bờ ngoài tự do, cùng mặt lưng của cổ xương vai giới hạn nên khuyết gai - ổ chảo. Bờ trước (rễ) bám vào mặt sau xương vai, từ chỗ nối các phần ba trên và giữa của bờ trong chạy ra ngoài và hơi lên trên. Bờ sau là mào gai vai và nằm ngay dưới da. Các sợi của cơ delta bám vào bờ dưới của mào, các sợi cơ thang bám vào bờ trên của mào. Trên mào, gần đầu trong, có một lồi xương gọi là *củ delta* (deltoid tubercle) cho dù đây là chỗ bám của gân cơ thang. *Mỏm cùng vai* (acromion) chạy tiếp theo gai vai, từ đầu ngoài gai vai đổi hướng ra trước, hầu như vuông góc với gai vai, tạo thành *góc mỏm cùng vai* (acromial angle). Bờ dưới của mào gai vai trở nên liên tiếp với bờ ngoài mỏm cùng vai tại góc mỏm cùng vai. Bờ trong mỏm cùng vai ngắn, có *mặt khớp đòn* (clavicular facet) hình oval hướng vào trong khớp với đầu ngoài xương đòn. Có thể dễ sờ thấy bờ ngoài, đỉnh và mặt trên mỏm cùng vai. Bờ ngoài và đỉnh mỏm là chỗ bám cho các sợi giữa cơ delta. Mỏm cùng vai, dây chằng cùng quạ và mỏm quạ tạo nên một cung chắn trên khớp vai. Gân cơ trên gai đi dưới mỏm cùng vai và được ngăn cách với mỏm cùng vai và cơ delta bằng túi hoạt dịch dưới mỏm cùng vai.
+
+*Mỏm quạ* (coracoid process) từ bờ trên của chỏm xương vai chạy lên, rồi gấp lại đột ngột để nhô ra trước và hơi ra ngoài. Khi cánh tay để xuôi bên thân, mỏm quạ hầu như hướng thẳng ra trước và có thể sờ thấy đỉnh của nó qua da dù nó có bị các sợi trước của cơ delta che. Mỏm quạ nằm ở khoảng 2,5 cm dưới chỗ nối 1/4 ngoài với 3/4 trong xương đòn và được nối với xương đòn bởi dây chằng quạ đòn.
+
+### 3. XƯƠNG CÁNH TAY (humerus) (Các H.2 và 3)
+
+Xương cánh tay là xương dài và lớn nhất chi trên. Nó có một thân và hai đầu, đầu gần tiếp khớp với xương vai, đầu xa tiếp khớp với hai xương cẳng tay.
+
+#### Đầu gần
+
+Đầu gần xương cánh tay bao gồm chỏm, cổ giải phẫu và các củ lớn và bé. Nó tiếp nối với thân xương tại cổ phẫu thuật. *Chỏm* (head) là một mặt khớp nhẵn tạo nên chưa đến một nửa khối cầu. Nó hướng vào trong, lên trên tiếp khớp với ổ chảo xương vai. Chỏm rộng hơn ổ chảo nhiều nên chỉ một phần của nó tiếp xúc với ổ chảo ở bất kỳ tư thế nào của xương cánh tay. *Cổ giải phẫu* (anatomical neck) nằm sát dọc bờ viền của chỏm, hơi thắt lại. Bao khớp vai bám vào cổ này, trừ chỗ có rãnh gian củ, nơi có gân cơ nhị đầu đi, và ở mặt trong, nơi bao bao khớp bám thấp hơn cổ. *Củ bé* (lesser tubercle) là củ xương ở trước và tiếp liền với cổ. Bờ ngoài của củ này là *mào củ bé* (crest of lesser tubercle) hay là *mép trong* (medial lip) của rãnh gian củ. *Củ lớn* (greater tubercle) là phần ngoài nhất của đầu gần. Mặt sau - trên của nó, từ trên xuống, lần lượt có 3 diện bám của cơ trên gai, cơ dưới gai và cơ tròn bé. Mặt ngoài của củ lớn có cơ delta phủ. Ở mặt trước củ lớn có *mào củ lớn* (crest of greater tubercle) hay *mép ngoài* (lateral lip) của rãnh gian củ, nơi có gân cơ ngực lớn bám. *Rãnh gian củ* (intertubercular sulcus) nằm giữa hai củ, còn được gọi là *rãnh cơ nhị đầu* (bicipital groove) vì chứa gân cơ này. Gân cơ lưng rộng bám vào đáy rãnh, còn mép trong của rãnh là chỗ bám của gân cơ tròn lớn.
+
+#### Thân xương
+
+Thân xương có hình lăng trụ tam giác với ba mặt (trước ngoài, trước trong và sau) và ba bờ (trong, ngoài và trước).
+
+Bờ trước liên tiếp ở trên với mào củ lớn. Bờ ngoài thấy rõ ở phần ba dưới của xương, nơi nó dày lên để tạo nên mào trên lồi cầu ngoài (lateral supracondylar ridge). Hơi ở trên điểm giữa của bờ ngoài có một diện xù xì hình chữ V gọi là *lồi củ delta* (deltoid tuberosity). Bờ trong cũng dễ nhận ra ở phần dưới, nơi nó trở thành *mào trên lồi cầu trong* (medial supracondylar ridge) nhưng bị gián đoạn ở nơi có rãnh thần kinh quay bắt chéo qua.
+
+![Hình 3. Xương vai và xương cánh tay nhìn từ sau [12]](figures/hinh_p049_3.png)
+
+Các mặt trước ngoài và trước trong được ngăn cách với nhau bằng bờ trước. Mặt trước ngoài, từ trên xuống, có các chỗ bám cho các cơ delta, cánh tay và cánh tay quay; mặt trước trong có chỗ bám cho cơ quạ cánh tay ở trên và cơ cánh tay ở dưới. Hơi dưới điểm giữa mặt trong có lỗ nuôi xương dẫn vào một ống chếch xuống dưới. Mặt sau rộng nhất, được giới hạn bởi các bờ ngoài và trong. Trên mặt sau có một rãnh nông chạy chếch xuống dưới và ra ngoài, gọi là *rãnh thần kinh quay* (radial groove), nơi mà thần kinh quay cùng động mạch cánh tay sâu đi qua. Trên rãnh có một mào xương là chỗ bám cho đầu ngoài cơ tam đầu. Diện xương rộng hình tam giác ở dưới rãnh là chỗ bám của đầu trong cơ tam đầu.
+
+*Gãy thân xương cánh tay* có thể xảy ra với ở bất kỳ chỗ nào. Gãy giữa thân xương dưới chỗ bám của cơ delta có thể làm tổn thương thần kinh quay đi trong rãnh thần kinh quay. Gãy đầu gần thân xương có thể làm tổn thương thần kinh nách. Gãy mỏm trên lồi cầu trong có thể làm tổn thương thần kinh trụ. Ở trẻ em hay gặp các gãy trên lồi cầu (supracondylar fractures) và đầu gãy phía gần đôi khi có thể làm tổn thương động mạch cánh tay hoặc thần kinh giữa.
+
+#### Đầu xa
+
+Đầu xa phình ra thành khối lồi cầu nằm ngang, gồm phần tiếp khớp và phần không tiếp khớp. Phần tiếp khớp cong ra trước so với thân xương, gồm chỏm con ở ngoài tiếp khớp với xương quay và ròng rọc ở trong tiếp khớp với khuyết ròng rọc xương trụ. Phần không tiếp khớp là các mỏm trên lồi cầu ngoài và trong. Trên lồi cầu có các hố tiếp nhận các mỏm của các xương cẳng tay.
+
+*Chỏm con* (capitulum) lồi, tròn, tạo nên gần một nửa khối cầu với một mặt dưới và một mặt trước. Khi duỗi khuỷu, chỏm xương quay tiếp khớp với mặt dưới, nhưng khi gấp khuỷu, chỏm trượt lên để tiếp xúc với mặt trước. *Ròng rọc* (trochlea) gồm một rãnh ở giữa và hai sườn bên, sườn trong dài hơn sườn ngoài. Bờ trong ròng rọc là phần nhô xuống thấp nhất của xương cánh tay. Ròng rọc có các mặt trước, dưới và sau. Khi cẳng tay duỗi hết, khuyết ròng rọc xương trụ tiếp xúc với mặt sau và mặt dưới ròng rọc nhưng trong lúc gấp, khuyết ròng rọc xương trụ trượt lên để tiếp xúc với mặt trước ròng rọc và rời khỏi mặt sau.
+
+*Mỏm trên lồi cầu trong* (medial epicondyle) nằm ở đầu dưới của bờ trong xương cánh tay và trên mặt trong của lồi cầu. Nó lồi lên ở ngay dưới da nên có thể sờ thấy và có thể nhìn thấy khi gấp thụ động cẳng tay. Mặt sau của nó có *rãnh thần kinh trụ* (groove for ulnar nerve), phần dưới của mặt trước là chỗ bám cho các cơ gấp ở lớp nông của cẳng tay trước. *Mỏm trên lồi cầu ngoài* (lateral epicondyle) là mỏm lồi ở đầu dưới bờ ngoài xương cánh tay và không lồi bằng mỏm trên lồi cầu trong. Mặt ngoài và mặt trước của nó là chỗ bám cho nhóm cơ nông của các cơ duỗi của cẳng tay.
+
+*Hố khuỷu* (olecranon fossa) nằm ở mặt sau, ngay trên ròng rọc, là nơi để cho đỉnh mỏm khuỷu lắp vào khi khuỷu duỗi. *Hố vẹt* (coronoid fossa) nằm ở mặt trước, ngay trên ròng rọc, tiếp nhận mỏm vẹt của xương trụ trong lúc gấp khuỷu. Ngoài hố vẹt và ngay trên chỏm con có một lõm nông gọi là *hố quay* (radial fossa), chỗ tiếp nhận bờ của chỏm xương quay khi gấp khuỷu đầy đủ.
+
+### 4. XƯƠNG QUAY (radius) (H.4)
+
+Xương quay nằm ngoài xương trụ, có đầu gần nhỏ, đầu xa phình to và một thân xương.
+
+*Đầu gần.* Đầu gần có chỏm, cổ và lồi củ. *Chỏm* (head) có hình đĩa, mặt gần có *mặt khớp* (articular facet) là một lõm nông tiếp khớp với chỏm con xương cánh tay. Mặt nhẵn bao quanh chỏm là *vành khớp* (articular circumference) tiếp khớp với khuyết quay của xương trụ. *Cổ* (neck) là chỗ thắt lại ở phía xa của chỏm. *Lồi củ xương quay* (radial tuberosity) nằm ngay dưới phần trong của cổ.
+
+![Hình 4. Các xương của cẳng tay [12]](figures/hinh_p051_4.png)
+
+*Thân.* Thân xương có mặt cắt ngang hình tam giác, với ba mặt là mặt trước, mặt sau và mặt ngoài. Ba bờ là bờ trước, bờ sau và bờ gian cốt. Mặt ngoài lồi, mặt trước lõm. Thân xương to ra nhanh khi xuống gần đầu xa. *Bờ gian cốt* (interosseous border) sắc, được nối với bờ gian cốt của xương trụ bởi màng gian cốt. Bờ trước chỉ rõ ở hai đầu, tròn và khó xác định ở giữa. Bờ sau chỉ dễ xác định ở phần ba giữa. Gần giữa mặt trước thân xương có lỗ nuôi xương.
+
+*Đầu xa.* Đầu xa to ra, trở nên có 4 mặt trên mặt cắt ngang. Mặt trong có *khuyết trụ* (ulnar notch), một mặt khớp lõm tiếp khớp với chỏm xương trụ. Mặt ngoài nhô ra xa thành *mỏm trâm quay* (radial styloid process). Mặt sau có *củ lưng* (dorsal tubercle) và *rãnh cho các gân cơ duỗi* (groove for extensor muscle tendons). Mặt trước nhẵn. Mặt xa của đầu xa là *mặt khớp cổ tay* (carpal articular surface) nhẵn tiếp khớp với các xương cổ tay, được một gờ chia thành một diện ngoài hình tam giác và một diện trong hình tứ giác.
+
+### 5. XƯƠNG TRỤ (ulna) (H.4)
+
+Xương trụ nằm trong xương quay khi cẳng tay ngửa, có hai đầu và một thân.
+
+*Đầu gần.* Đầu gần trông như một cái móc to hướng ra trước. Nó có 2 mỏm, mỏm khuỷu và mỏm vẹt, và 2 khuyết, khuyết ròng rọc khớp với xương cánh tay và khuyết quay tiếp khớp với xương quay. *Mỏm khuỷu* (olecranon) ở gần hơn và cong ra trước tại đỉnh của nó như một cái mỏ, vốn nằm trong hố khuỷu của xương cánh tay khi cẳng tay duỗi. Mặt sau mỏm khuỷu nhẵn, nằm ngay dưới da. Khi cẳng tay duỗi, mỏm khuỷu nằm gần đường nối các mỏm trên lồi cầu xương cánh tay, nhưng khi cẳng tay gấp thì nó đi xuống và ba mỏm xương tạo nên một tam giác cân. Mặt trước mỏm khuỷu tạo nên phần sau của khuyết ròng rọc. *Mỏm vẹt* ở xa hơn mỏm khuỷu và nhô ra trước. Mặt sau của nó tạo nên phần trước của khuyết ròng rọc. Mặt trước của nó có hình tam giác với phần dưới là *lồi củ xương trụ* (tuberosity of the ulna). *Khuyết ròng rọc* (trochlear notch) nằm giữa mỏm khuỷu và mỏm vẹt, thắt lại ở chỗ nối hai mỏm. Ở dưới và ngoài khuyết ròng rọc là *khuyết quay* (radial notch), một khuyết nông hình oval tiếp khớp với vành của chỏm xương quay.
+
+*Thân.* Thân có hình lăng trụ tam giác ở 3/4 phía gần, hình trụ ở 1/4 phía xa. Nó nhỏ dần từ trên xuống, có các mặt trước, sau và trong, các bờ trước, sau và gian cốt. *Bờ gian cốt* (interosseous border) hiện rõ ở 2/4 giữa như một mào, biến đi ở phần xa và ở phía gần thì trở thành *mào cơ ngửa* (supinator crest). Trên điểm giữa của mặt trước có lỗ nuôi xương.
+
+*Đầu xa.* Đầu xa hơi phình ra thành *chỏm* (head). Chỏm gồm *vành khớp* (articular circumference) tiếp khớp với khuyết trụ của xương quay và *mỏm trâm trụ* (ulnar styloid process). Mặt xa của chỏm được ngăn cách với xương cổ tay bằng một đĩa khớp. Mỏm trâm trụ là một mỏm ngắn, tròn ở đầu xa xương trụ, có thể sờ thấy ở trên mỏm trâm quay khoảng 1 cm.
+
+### 6. CÁC XƯƠNG BÀN TAY (bones of hand) (H.5)
+
+Các xương của bàn tay bao gồm các xương cổ tay, các xương đốt bàn tay và các xương đốt ngón tay.
+
+#### 6.1. Các xương cổ tay (carpal bones)
+
+Có 8 xương cổ tay xếp thành 2 hàng gần và xa, mỗi hàng 4 xương. Từ phía quay tới phía trụ, hàng gần có các xương *thuyền* (scaphoid), *nguyệt* (lunate), *tháp* (triquetrum) và *đậu* (pisiform); hàng xa có các xương *thang* (trapezium), *thê* (trapezoid), *cả* (capitate) và *móc* (hamate). Xương đậu tiếp khớp với mặt gan tay của xương tháp. Ba xương khác của hàng gần tạo nên một cung. Cung này lồi về phía gần để tiếp khớp với xương quay và đĩa khớp của khớp quay - trụ xa. Mặt lõm của cung là một ngách hướng về phía xa ôm lấy mặt nhô về phía gần của xương cả và xương móc. Mặt mu của khối xương cổ tay thì lồi. Mặt gan tay của khối xương cổ tay tạo nên một rãnh lõm sâu gọi là *rãnh cổ tay* (carpal groove), với hai bờ rãnh, bờ quay và bờ trụ, nhô về phía gan tay. Ở bờ trụ có xương đậu (nằm trước xương tháp) và *móc của xương móc* (hook of hamate). Bờ quay của rãnh cổ tay được tạo nên bởi *củ* (tubercle) của xương thuyền (có thể sờ thấy) và củ của xương thang. Hãm gân gấp bám vào hai bờ rãnh, biến rãnh thành ống cổ tay chứa các gân gấp và thần kinh giữa.
+
+![Hình 5. Các xương của bàn tay, nhìn từ trước [12]](figures/hinh_p053_5.png)
+
+#### 6.2. Các xương đốt bàn tay (metacarpals)
+
+Có 5 xương đốt bàn tay, được mang số từ phía quay vào phía trụ là các xương đốt bàn I - V. Đây là những xương dài cỡ nhỏ, mỗi xương có một *nền* (base) ở đầu gần, một *thân* (shaft) và một *chỏm* (head) ở đầu xa. Các chỏm tròn tiếp khớp với các xương đốt ngón gần. Các nền tiếp khớp với hàng xa của các xương cổ tay và khớp với nhau, trừ các xương đốt bàn I và II không khớp với nhau. Bốn xương đốt bàn tay bên trong, từ gần ra xa, chỉ hơi giãn cách xa dần nhau. Tuy nhiên, xương đốt bàn tay thứ nhất so với các xương khác thì nằm ở trước hơn và xoay trong 90° trên trục của nó để cho mặt mu trở nên mặt ngoài và mặt gan tay trở thành mặt trong. Do đó, ngón tay cái gấp vào phía trong ngang qua gan tay và có thể xoay tới vị trí đối chiếu với mỗi ngón. Đối chiếu phụ thuộc vào xoay trong và là yếu tố chính trong sự khéo léo của bàn tay; khi nắm chặt một vật, các ngón thường và ngón cái bao quanh vật này từ các phía đối lập, làm tăng lực cầm và kỹ năng cầm.
+
+#### 6.3. Các xương đốt ngón tay (phalanges)
+
+Có 14 xương đốt ngón tay, ba xương ở mỗi ngón dài, hai xương ở ngón cái. Mỗi xương có một *nền* (base of phalanx) ở đầu gần, một *thân* (shaft of phalanx) và một *chỏm* (head of phalanx) ở đầu xa. Thân thuôn dần về phía xa, mặt mu lồi theo chiều ngang, mặt gan tay lõm nhẹ ra trước. Nền của các đốt gần mang các mặt khớp lõm hình oval thích ứng với các chỏm xương đốt bàn tay. Chỏm của các đốt gần được soi thành rãnh nhẵn như các ròng rọc, gọi là *ròng rọc xương đốt ngón tay* (trochlea of phalanx) và các rãnh lấn sâu hơn trên các mặt gan tay. Nền xương đốt ngón giữa mang hai mặt khớp lõm cách nhau bằng một sống nhẵn, phù hợp với ròng rọc của các đốt ngón gần. Nền của các đốt ngón xa thích ứng với các chỏm giống như ròng rọc của các đốt ngón giữa. Các chỏm của các đốt ngón xa không tiếp khớp và mang một *lồi củ đốt ngón xa* (tuberosity of distal phalanx) hình liềm trên mặt gan tay.
+
+---
+
+## CÁC KHỚP CỦA CHI TRÊN
+
+### 1. CÁC KHỚP CỦA ĐAI NGỰC
+
+Đai ngực có hai khớp hoạt dịch là khớp ức - đòn và khớp cùng vai - đòn.
+
+*Khớp ức - đòn* (sternoclavicular joint) là khớp hoạt dịch giữa đầu ức xương đòn với cán xương ức. Các mặt khớp gồm *mặt khớp ức* (sternal facet) của đầu ức xương đòn khớp với *khuyết đòn* (clavicular notch) của cán xương ức. Các mặt khớp này được phủ bằng sụn sợi chứ không phải sụn trong như bình thường. Xen giữa mặt khớp của hai xương là một đĩa khớp. Đĩa dính ở trên vào đầu ức xương đòn, ở dưới với sụn của xương sườn I. Đĩa được cho là hấp thu lực truyền dọc xương đòn và ngăn xương đòn trật vào trong. Khớp ức đòn có dạng một khớp yên giúp xương đòn có thể cử động trên nhiều hướng. Khớp được giữ bởi các dây chằng ức - đòn trước và sau, dây chằng sườn - đòn và dây chằng gian đòn.
+
+*Khớp cùng vai - đòn* (acromioclavicular joint) là khớp hoạt dịch kiểu khớp phẳng giữa đầu cùng vai xương đòn với mỏm cùng xương vai. Khớp nằm ở 2 - 3 cm bên trong điểm nhô ra ngoài nhất của mỏm cùng vai. Các mặt khớp bao gồm *mặt khớp đòn* (clavicular facet) của mỏm cùng vai (nằm ở phần trước của bờ trong mỏm cùng vai) tiếp khớp với mặt khớp cùng vai (acromial facet) của đầu cùng vai xương đòn. Các mặt khớp có hình oval và được phủ bằng sụn sợi; chúng đều vát xuống dưới và vào trong. Tại khớp cùng vai - đòn, mỏm cùng vai xoay trên xương đòn hoặc dịch chuyển ra trước hay ra sau. Từ phần trên bao khớp có một đĩa khớp hình nêm nhô vào, chia khớp không hoàn toàn thành hai khoang. Bao khớp được tăng cường ở mặt trên bởi dây chằng cùng vai - đòn (acromioclavicular ligament). *Dây chằng quạ - đòn* (coracoclavicular ligament), nối phần ngoài xương đòn với mỏm quạ xương vai, là một dây chằng khỏe nhất trong các dây chằng nối xương đòn với xương vai. Nó bao gồm hai phần là *dây chằng thang* (trapezoid ligament) đi từ mỏm quạ đến đường thang xương đòn và *dây chằng nón* (conoid ligament) đi từ mỏm quạ tới củ nón của xương đòn.
+
+### 2. KHỚP Ổ CHẢO CÁNH TAY (glenohumeral joint) HAY KHỚP VAI (shoulder joint)
+
+Khớp ổ chảo cánh tay là một khớp hoạt dịch đa trục kiểu chỏm cầu giữa chỏm của xương cánh tay và ổ chảo của xương vai. Do thiếu các yếu tố gây trở ngại (của xương, bao khớp...), khớp vai có ba cấp độ tự do và tầm vận động rộng. Tuy nhiên, tính vận động cao có được là do khớp thiếu tính vững chắc và trật khớp vai thường xảy ra, nhất là trong thể thao và tai nạn ô tô. Khớp vai là khớp động nhất trong cơ thể và thường là khớp hay trật nhất.
+
+#### 2.1. Các mặt khớp (H.6)
+
+Các mặt khớp gồm chỏm cong lồi của xương cánh tay quan hệ hỗ tương với ổ chảo cong lõm ở xương vai; các mặt cong này gần như có hình cầu, nên được gọi là khớp chỏm cầu. Diện tích chỏm lồi của xương cánh tay vượt quá diện tích ổ chảo nhiều đến nỗi ổ chảo tiếp nhận chưa đến một phần ba chỏm ở bất kỳ tư thế nào; diện tích chỏm còn lại tiếp xúc với bao khớp. Bán kính đường cong của ổ chảo ở mặt phẳng đứng ngang lớn hơn bán kính của chỏm xương cánh tay, và được làm sâu thêm bởi một viền sụn sợi gọi là viền ổ chảo. Sụn trong phủ chỏm dày nhất ở trung tâm và mỏng ở ngoại vi, còn trên ổ chảo thì ngược lại. Ở hầu hết các tư thế, độ cong của các mặt khớp không đồng dạng hoàn toàn, và khớp có độ lỏng nhất định. Khớp chỉ chặt (đồng dạng hoàn toàn) khi xương cánh tay giạng và xoay ngoài.
+
+*Viền ổ chảo* (glenoid labrum) là vành sụn sợi bao quanh ổ chảo. Nó có mặt cắt hình tam giác với một mặt nền bám vào bờ ổ chảo, một mặt trong tiếp xúc với chỏm xương cánh tay, như là phần mở rộng của mặt cong ổ chảo, và một mặt ngoài dính với bao khớp. Nó hòa lẫn ở trên với gân đầu dài cơ nhị đầu. Viền ổ chảo làm sâu ổ chảo, có thể bảo vệ xương và có lẽ hỗ trợ sự bôi trơn.
+
+#### 2.2. Các cử động
+
+Khớp vai có ba trục chuyển động, cho phép gấp, duỗi, giạng, khép, quay tròn và xoay.
+
+![Hình 6. Khớp vai: mặt khớp, bao khớp và các cơ đai xoay [12]](figures/hinh_p056_6.png)
+
+#### 2.3. Bao khớp (H.6)
+
+Lớp xơ bao khớp bao quanh khớp vai. Về phía trong, nó bám vào cổ xương vai, ở bên ngoài viền ổ chảo, và lấn lên đến rễ mỏm quạ để bao quanh cả chỗ bám của gân đầu dài cơ nhị đầu. Về phía ngoài, nó bám vào cổ giải phẫu của xương cánh tay, tức là bờ của mặt khớp, ngoại trừ ở phía dưới - trong, nơi nó đi xuống thấp hơn 1 cm so với cổ giải phẫu, bám vào thân xương cánh tay. Bao khớp lỏng đến nỗi có thể kéo các xương xa nhau 2 hoặc 3 cm, và điều này phù hợp với tầm cử động rất rộng có thể có tại khớp vai. Tuy nhiên, để kéo hai xương xa nhau đến vậy cần làm trùng phần trên bao khớp bằng cách giạng cánh tay. Bao khớp trùng khi khép cánh tay và trở nên căng khi giạng cánh tay.
+
+Bao khớp thường có hai lỗ: một ở bên dưới mỏm quạ, nơi thông ổ hoạt dịch khớp với túi hoạt dịch dưới vai ở sau gân cơ dưới vai; một ở giữa hai củ của xương cánh tay, cho gân cơ nhị đầu và bao hoạt dịch của nó đi qua.
+
+Màng hoạt dịch lót ở mặt trong lớp xơ bao khớp. Ở phía trong, nó lật lên tới sụn viền. Về phía ngoài, nó lật lên tới bờ mặt khớp xương cánh tay. Màng hoạt dịch bao bọc gân đầu dài cơ nhị đầu lúc nó đi trong ổ khớp và rãnh gian củ.
+
+![Hình 7. Khớp vai: các dây chằng [12]](figures/hinh_p057_7.png)
+
+#### 2.4. Các dây chằng (H.7)
+
+Các dây chằng kết hợp với khớp ổ chảo cánh tay là các dây chằng ổ chảo cánh tay (trên, giữa và dưới), quạ cánh tay và ngang cánh tay. Các dây chằng ổ chảo cánh tay là các dây chằng nội tại của bao khớp và là những phần dày lên của bao khớp.
+
+*Các dây chằng ổ chảo cánh tay* (glenohumeral ligaments). Có ba dây chằng ổ chảo cánh tay tăng cường cho bao khớp ở phía trước và phía dưới. Chúng trở nên căng ở những tư thế giạng và xoay cánh tay khác nhau, có tác dụng như những "cương hãm". Dây chằng ổ chảo cánh tay trên đi từ củ trên ổ chảo tới đỉnh củ bé và phần trên mép trong rãnh gian củ. Dây chằng ổ chảo cánh tay giữa cũng xuất phát từ củ trên ổ chảo nhưng chỗ bám còn kéo dài xuống đến phần trên bờ trước ổ chảo. Từ đó nó chạy chếch về phía dưới ngoài tới bám vào củ bé, ở phần dưới mép trong rãnh gian củ. Dây chằng này có thể rộng tới 2 cm và dày tới 4 mm. Nó giữ vững mặt trước lúc giạng 45° và 60°. Dây chằng ổ chảo cánh tay dưới đi từ phần dưới bờ trước ổ chảo tới mặt trong thân xương cánh tay, dưới cổ giải phẫu.
+
+*Dây chằng quạ cánh tay* (coracohumeral ligament) là một dây chằng khỏe tăng cường cho phần trên bao khớp, đi từ mặt ngoài nền mỏm quạ tới phần cổ giải phẫu xương cánh tay mà liền kề củ lớn.
+
+*Dây chằng ngang cánh tay* (transverse humeral ligament) như một cầu sợi băng qua phần trên rãnh gian củ, biến rãnh thành một ống chứa gân đầu dài cơ nhị đầu.
+
+#### 2.5. Các thành phần tăng cường cho bao khớp và dây chằng khớp vai (Các H.6 và 7)
+
+Ổ chảo nông và bao khớp lỏng làm cho khớp vai cử động tự do nhưng làm cho khớp không vững. Sức mạnh của khớp chủ yếu là do bốn cơ của đai xoay tăng cường cho phần trên của bao khớp. Ở trên khớp còn có cung cùng quạ bảo vệ.
+
+*Đai xoay* (rotator cuff) được tạo nên bởi gân của bốn cơ nối xương vai với xương cánh tay. Các gân này bám vào xương cánh tay ở gần mặt khớp. Chúng hợp thành một đai nằm sát mặt ngoài bao khớp, bao gồm gân của cơ trên gai (ở trên), gân các cơ dưới gai và tròn bé (ở sau) và gân cơ dưới vai (ở trước). Đai xoay có vai trò giữ chỏm xương cánh tay vào ổ chảo.
+
+*Cung cùng quạ* (coracoacromial arch) do mỏm quạ, mỏm cùng và dây chằng cùng quạ tạo nên. Nó chắn ở phía trên chỏm xương cánh tay, ngăn không cho chỏm trật lên trên. Dây chằng cùng quạ hình tam giác có nền bám vào bờ ngoài mỏm quạ và đỉnh bám vào mỏm cùng vai. Gân cơ trên gai đi dưới cung cùng quạ, được ngăn cách với cung này bởi túi hoạt dịch dưới mỏm cùng vai. Nó nằm giữa cơ delta và bao khớp.
+
+*Túi hoạt dịch dưới vai* (subscapular bursa) nằm giữa gân cơ dưới vai và cổ xương vai, dưới rễ của mỏm quạ. Túi này giúp gân cơ dưới vai trượt trên các xương. Nó thông với ổ hoạt dịch khớp vai qua một lỗ của bao khớp và là phần mở rộng của ổ khớp.
+
+*Túi hoạt dịch dưới mỏm cùng vai* (subacromial bursa). Đây là túi hoạt dịch rộng, nằm giữa cung cùng quạ và cơ delta ở mặt nông, gân cơ trên gai và bao khớp vai trên mặt sâu. Nó thường không thông với ổ khớp vai và giúp cho cơ delta chuyển động dễ dàng trên bao khớp vai và gân cơ trên gai.
+
+#### 2.6. Sự cấp máu và chi phối thần kinh
+
+Khớp vai được cấp máu bởi các động mạch mũ cánh tay trước và sau của động mạch nách và động mạch trên vai của động mạch dưới đòn. Các thần kinh phân nhánh vào khớp vai bao gồm thần kinh nách, thần kinh trên vai và thần kinh ngực ngoài.
+
+#### 2.7. Các liên hệ lâm sàng
+
+*Rách đai xoay* (rupture of the rotator cuff) có thể xảy ra khi hoạt động thể thao hay lao động. Nếu kèm theo cả rách bao khớp có thể làm cho ổ khớp thông với túi hoạt dịch dưới mỏm cùng vai. *Trật khớp vai* (dislocation of the shoulder joint) có thể do một chấn thương trực tiếp hoặc gián tiếp. Trật khớp vai ra trước thường là kết quả của tình trạng duỗi và xoay ngoài quá mức của xương cánh tay. Chỏm xương cánh tay trượt ra trước làm cho sụn viền ổ chảo và bao khớp bị bứt khỏi bờ viền phía trước của ổ chảo.
+
+### 3. KHỚP KHUỶU
+
+Khớp khuỷu là khớp hoạt dịch kiểu bản lề giữa đầu xa xương cánh tay và đầu gần của xương quay và xương trụ. Khớp khuỷu là khớp một trục với các cử động gấp và duỗi.
+
+![Hình 8. Khớp khuỷu: mặt khớp và bao khớp [12]](figures/hinh_p059_8.png)
+
+#### 3.1. Các mặt khớp
+
+Ròng rọc và chỏm con của xương cánh tay khớp lần lượt với khuyết ròng rọc của xương trụ và chỏm con của xương cánh tay [khớp với mặt lõm chỏm xương quay]. Các mặt khớp được phủ bằng sụn trong và tiếp xúc nhau đầy đủ nhất khi cẳng tay ở tư thế giữa sấp và ngửa và gấp vuông góc với cánh tay. Trong bao khớp của khớp khuỷu có ba khớp: (1) khớp cánh tay - trụ giữa ròng rọc xương cánh tay và khuyết ròng rọc xương trụ; (2) khớp cánh tay - quay giữa chỏm con xương cánh tay và mặt lõm chỏm xương quay; (3) khớp quay - trụ gần giữa vành của chỏm xương quay và khuyết quay xương trụ, là khớp trục cho phép xương quay xoay trên xương trụ. Vì có nhiều mặt khớp, khớp khuỷu còn được gọi là một khớp phức hợp.
+
+#### 3.2. Các cử động
+
+Khuỷu có các cử động gấp và duỗi. Cơ gấp chính của khuỷu là cơ cánh tay. Các cơ khác cũng gấp khuỷu gồm cơ nhị đầu, cơ sấp tròn, cơ cánh tay quay, cơ gấp cổ tay quay, cơ gấp cổ tay trụ. Cơ duỗi chính là cơ tam đầu. Các cơ duỗi khác gồm cơ khuỷu, cơ cánh tay quay.
+
+#### 3.3. Bao khớp và dây chằng
+
+Lớp xơ bao khớp bao quanh khớp, yếu ở các mặt trước và sau nhưng dày lên ở hai bên thành các dây chằng bên. Ở xương cánh tay, phía trước bao xơ bám vào bờ gần của hố vẹt và hố quay, phía sau bám vào các bờ hố khuỷu. Ở đầu xa, bao xơ bám vào các bờ của khuyết ròng rọc, bờ trước của mỏm vẹt và dây chằng vòng.
+
+Các dây chằng bên là những dải sợi hình tam giác dày lên ở các mặt ngoài và trong của lớp xơ bao khớp; chúng đều là các dây chằng nội tại. *Dây chằng bên quay* (radial collateral ligament) là một dải sợi khỏe hình tam giác. Đỉnh của nó bám ở phía gần vào mỏm trên lồi cầu ngoài xương cánh tay và nền của nó hòa lẫn với dây chằng vòng của xương quay. *Dây chằng bên trụ* (ulnar collateral ligament) cũng có hình tam giác. Nó bao gồm các phần trước và sau nối với nhau qua một dải chéo. Đỉnh của nó bám vào mỏm trên lồi cầu trong xương cánh tay. Phần trước của nó như một thừng bám vào củ trên mỏm vẹt xương trụ. Phần sau hình quạt bám vào bờ trong của mỏm khuỷu.
+
+Màng hoạt dịch lót mặt trong của lớp xơ bao khớp và lật lên xương cánh tay, lót lên các hố quay và vẹt ở trước, hố khuỷu ở sau. Màng hoạt dịch khớp khuỷu liên tục vào khớp quay trụ gần.
+
+*Dây chằng vòng xương quay* (anular ligament of radius) đi từ bờ trước đến bờ sau khuyết quay xương trụ và ôm vòng quanh chỏm và cổ xương quay. Nó cùng với khuyết quay xương trụ tạo thành một ống chứa chỏm xương quay. Mặt trong của nó được phủ bằng sụn sợi.
+
+![Hình 9. Khớp khuỷu: dây chằng bên trụ và dây chằng vòng [12]](figures/hinh_p060_9.png)
+
+#### 3.4. Các túi hoạt dịch quanh khớp khuỷu
+
+Có hai túi hoạt dịch mỏm khuỷu, là *túi mỏm khuỷu dưới da* (subcutaneous olecranon bursa) nằm trong mô dưới da vùng mỏm khuỷu và *túi mỏm khuỷu dưới gân* (subtendinous olecranon bursa) nằm giữa gân cơ tam đầu và mỏm khuỷu. Hai túi này có thể bị viêm do tăng ma sát, gọi là *viêm túi hoạt dịch do ma sát* (friction bursitis), nhất là túi dưới da.
+
+![Hình 10. Khớp khuỷu: dây chằng bên quay và dây chằng vòng [12]](figures/hinh_p061_10.png)
+
+*Túi hoạt dịch quay trụ* (radioulnar bursa) nằm giữa cơ duỗi các ngón, cơ ngửa và khớp cánh tay quay. Túi nằm sau cơ ngửa, ngoài gân cơ nhị đầu và trong xương trụ. Viêm túi này có thể xảy ra trong duỗi mạnh cổ tay hay duỗi cổ tay lặp đi lặp lại khi cẳng tay ở tư thế sấp, như khi thực hiện cú ve trái trong đánh tennis.
+
+*Túi hoạt dịch nhị đầu quay* (bicipitoradial bursa) nằm giữa gân cơ nhị đầu và phần trước của lồi củ xương quay. Đau do viêm túi này xảy ra khi cẳng tay gấp và ngửa.
+
+#### 3.5. Mạch và thần kinh
+
+Khớp khuỷu được cấp máu bởi các nhánh bên (bên quay, bên trụ, bên giữa) của động mạch cánh tay và các nhánh quặt ngược từ các động mạch quay và trụ. Thần kinh cho khớp khuỷu chủ yếu đến từ thần kinh cơ bì và thần kinh quay, nhưng các thần kinh giữa và trụ có thể cũng phân nhánh cho khớp.
+
+#### 3.6. Các liên hệ lâm sàng
+
+Cho tới 14 tuổi (ở nữ) và 16 tuổi (ở nam), mỏm trên lồi cầu trong chưa dính với đầu xa xương cánh tay. Trẻ em dưới tuổi này mà ngã chống tay ở tư thế cẳng tay duỗi có thể gây ra cử động giạng cẳng tay bất thường ở khuỷu. Lực kéo sinh ra trên dây chằng bên trụ làm *bứt tách mỏm trên lồi cầu trong* (avulsion of the medial epicondyle of humerus). Sự bứt tách này có thể làm tổn thương thần kinh trụ đi ở sau mỏm trên lồi cầu trong.
+
+*Trật khớp khuỷu ra sau* (posterior dislocation of the elbow joint) có thể xảy ra khi trẻ em ngã chống bàn tay ở tư thế gấp khuỷu. Đầu xa xương cánh tay trượt qua mặt trước yếu của bao khớp khuỷu trong khi đầu gần xương quay và xương trụ trượt ra sau.
+
+### 4. CÁC KHỚP QUAY TRỤ (radio-ulnar joints)
+
+Các xương quay và trụ tiếp nối với nhau tại các khớp quay trụ gần và xa và tại khớp chằng quay - trụ.
+
+*Khớp quay - trụ gần* (proximal radio-ulnar joint) là khớp hoạt dịch kiểu trục giữa đầu gần các xương quay và trụ. Các mặt khớp gồm khuyết quay của xương trụ và vành khớp của chỏm xương quay. Dây chằng vòng quay hình chữ U đi từ bờ trước tới bờ sau khuyết quay xương trụ, ôm quanh chỏm xương quay, cho phép chỏm xương quay xoay trong ống xương sợi trong các cử động sấp ngửa cẳng tay. Khớp quay trụ gần được bọc chung trong bao khớp khuỷu nhưng nó không tham gia vào hoạt động của khớp khuỷu. Khi cầm một cẳng tay đứa trẻ (chưa đến tuổi đi học) và kéo cả người nó lên ở tư thế cẳng tay sấp (như nhấc lên xe bus), chỏm xương quay có thể tụt một phần ra khỏi dây chằng vòng, gây nên tình trạng bán trật.
+
+*Khớp quay - trụ xa* (distal radio-ulnar joint) cũng là một khớp hoạt dịch kiểu trục giữa đầu xa các xương cẳng tay, cho phép đầu xa xương quay chuyển động trên đầu xa tương đối cố định của xương trụ. Các mặt khớp bao gồm vành khớp của chỏm xương trụ và khuyết trụ của xương quay. Một đĩa khớp bằng sụn sợi nối xương trụ với xương quay. Đĩa khớp có hình tam giác mà nền bám vào bờ dưới khuyết trụ của xương quay, đỉnh bám vào bờ ngoài nền mỏm trâm trụ. Mặt gần của đĩa tiếp khớp với mặt xa của chỏm xương trụ. Ổ khớp có hình chữ L trên mặt cắt đứng ngang. Đĩa khớp ngăn cách ổ khớp của khớp quay trụ xa với ổ khớp của khớp cổ tay. Lớp xơ bao khớp gồm những dải sợi ngang nối từ xương quay sang xương trụ ở các mặt trước và sau. Màng hoạt dịch lót mặt trong của lớp xơ và mặt gần của đĩa khớp. Màng hoạt dịch còn mở rộng lên trên tạo nên một ngách hình túi.
+
+*Khớp chằng quay - trụ* (radio-ulnar syndesmosis) bao gồm *màng gian cốt cẳng tay* (interosseous membrane of forearm) và *thừng chéo* (oblique cord). Màng gian cốt là một lá sợi rộng nối bờ gian cốt của xương quay và xương trụ, bắt đầu từ 2 - 3 cm dưới lồi củ xương quay. Ngoài chức năng kết nối, nó còn là chỗ bám cho các cơ lớp sâu của cẳng tay sau. Thừng chéo là một dải sợi từ bờ ngoài của lồi củ xương trụ chạy về phía dưới ngoài bám vào xương quay ở ngay dưới lồi củ xương quay.
+
+### 5. KHỚP CỔ TAY (wrist joint) HAY KHỚP QUAY CỔ TAY (radiocarpal joint)
+
+Khớp cổ tay là khớp giữa đầu xa xương quay với các xương cổ tay. Đây là khớp hoạt dịch kiểu lồi cầu (condyloid) hay kiểu soan (ellipsoid).
+
+Các mặt khớp của khớp cổ tay gồm mặt xa của đầu xa xương quay và mặt xa đĩa khớp tiếp khớp với mặt gần của ba xương cổ tay ở hàng gần là xương thuyền, xương nguyệt và xương tháp. Mặt gần ba xương cổ tay lồi (hình ellip) khớp với mặt lõm của mặt khớp xương quay và đĩa khớp.
+
+Tại khớp cổ tay có thể thực hiện được các cử động gấp, duỗi, dạng, khép và quay tròn bàn tay. Các mặt khớp hình ellip không cho phép xoay; tuy nhiên, các cử động sấp và ngửa cẳng tay bù cho sự thiếu hụt cử động xoay này.
+
+### 6. CÁC KHỚP CỦA BÀN TAY
+
+Các khớp của bàn tay bao gồm:
+- Khớp cổ tay đã được mô tả ở trên.
+- *Các khớp gian cổ tay* (intercarpal joints) là những khớp hoạt dịch kiểu khớp phẳng cho phép cử động trượt lên nhau giữa các xương cổ tay. Khớp gian cổ tay giữa hai hàng gần và xa của các xương cổ tay là *khớp giữa cổ tay* (midcarpal joint). Xương đậu nằm trên mặt gan tay của xương tháp, tạo với xương tháp khớp hoạt dịch đậu - tháp. Các cử động của khớp gian cổ tay làm tăng tầm cử động của khớp cổ tay.
+- *Các khớp cổ tay - đốt bàn tay* (carpometacarpal joints) và *các khớp gian xương đốt bàn tay* (intermetacarpal joints) là những khớp hoạt dịch kiểu phẳng cho phép các xương trượt lên nhau. Riêng khớp cổ tay - đốt bàn tay của ngón cái là một khớp hoạt dịch kiểu yên, trong đó xương thang tiếp khớp với nền hình yên của xương đốt bàn tay I. Khớp này cho phép các cử động góc có thể thực hiện được ở bất kỳ mặt phẳng nào và một mức cử động xoay trục hạn chế. Ngón tay cái có thể gấp, duỗi, giạng, khép và đối chiếu.
+- *Các khớp đốt bàn tay - đốt ngón tay* (metacarpophalangeal joints) là các khớp hoạt dịch kiểu lồi cầu có hai trục chuyển động. Chỏm của các xương đốt bàn tay tiếp khớp với nền của các đốt ngón gần. Mặt khớp của các xương có hình oval (lồi và lõm). Các cử động là gấp, duỗi, giạng, khép và quay tròn.
+- *Các khớp gian đốt ngón tay* (interphalangeal joints) là những khớp hoạt dịch kiểu bản lề giữa chỏm của một xương đốt ngón tay (có mặt khớp ròng rọc) với nền của một xương đốt ngón tay ở xa hơn. Những khớp một trục này chỉ có các cử động gấp và duỗi.
