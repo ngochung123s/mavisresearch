@@ -16,7 +16,7 @@
 
 ## B1. NGUYÊN NHÂN VÀ CƠ CHẾ BỆNH SINH
 
-- **[B1.01] Hút thuốc lá — Yếu tố nguy cơ hàng đầu:** Hiện nay nguyên nhân gây ung thư thận vẫn chưa được làm rõ hoàn toàn, song hút thuốc lá là yếu tố nguy cơ hàng đầu. Khói thuốc lá chứa nồng độ cao chất sinh ung nhóm **hydrocarbon thơm đa vòng (pyrene)**, gây tổn thương gen và làm tăng nguy cơ mắc ung thư nói chung và ung thư thận nói riêng.
+- **[B1.01] Hút thuốc lá — Yếu tố nguy cơ hàng đầu:** Hiện nay nguyên nhân gây ung thư thận vẫn chưa được làm rõ hoàn toàn, song hút thuốc lá là yếu tố nguy cơ hàng đầu. Khói thuốc lá chứa nồng độ cao chất sinh ung nhóm **hydrocarbon thơm đa vòng (benzo[a]pyrene)**. 🆕 **CẬP NHẬT 09/11/2026:** Benzo[a]pyrene được CYP1A1 (cảm ứng qua thụ thể AhR) hoạt hoá thành **BaP-diol-epoxide (BPDE)** gây ung thư; BPDE gắn vào DNA tạo adduct, mất gen VHL làm tăng adduct BPDE-DNA và giảm khả năng sửa chữa. Không có gen hay protein nào tên "32" liên quan pyrene — "32P-postlabelling" chỉ là tên phương pháp đo adduct, không phải tên gen.
 - **[B1.02] Tiếp xúc hóa chất độc hại nghề nghiệp:** Thường xuyên tiếp xúc với dung môi hữu cơ, thợ in, thợ nhuộm, làm tóc, công nhân hóa chất, tiếp xúc với xăng dầu.
 - **[B1.03] Yếu tố di truyền:** Bệnh **Von Hippel-Lindau (VHL)**, ung thư thận tế bào sáng có tính chất gia đình.
 
@@ -96,11 +96,12 @@
 - **[B7.02] Phẫu thuật cắt thận bán phần / bảo tồn nhu mô (Nephron-sparing surgery - NSS):**
   - *Chỉ định bắt buộc:* Khối u ở thận duy nhất, ung thư cả 2 bên thận, hoặc bệnh nhân suy thận mãn tính.
   - *Chỉ định tương đối:* U thận giai đoạn sớm **T1a (kích thước ≤ 4 cm)**, nằm ở vị trí ngoại vi hoặc cực thận.
-- **[B7.03] Can thiệp xâm lấn tối thiểu (RFA / Cryoablation):** Đốt sóng cao tần (RFA) hoặc áp lạnh (Cryoablation): Dành cho bệnh nhân già yếu, u nhỏ **< 3–4 cm** không thể chịu đựng cuộc mổ lớn.
+- **[B7.03] Can thiệp xâm lấn tối thiểu (RFA / Cryoablation):** Đốt sóng cao tần (RFA) hoặc áp lạnh (Cryoablation): Dành cho bệnh nhân già yếu, u nhỏ **< 3–4 cm** không thể chịu đựng cuộc mổ lớn. 🆕 **CẬP NHẬT 09/11/2026:** Chưa có thử nghiệm ngẫu nhiên đối đầu RFA với cryoablation; các so sánh trực tiếp hiện có đều là hồi cứu. Phân tích gộp Shi 2022 (10 nghiên cứu, 2.367 bệnh nhân): cryoablation tái phát tại chỗ thấp hơn RFA (tỉ số odds 2,25, p = 0,001), các kết cục khác (biến chứng, sống 5 năm) tương đương. ESMO 2024: chưa đủ bằng chứng kết luận chắc chắn phương pháp nào hơn.
 - **[B7.04] Đề kháng hóa xạ trị & Liệu pháp nhắm trúng đích (Targeted Therapy):** Ung thư tế bào thận **rất kháng với hóa trị và xạ trị truyền thống**.
   - *Thuốc ức chế tăng sinh mạch (TKI - Tyrosine Kinase Inhibitors):* **Sunitinib, Sorafenib, Pazopanib, Axitinib**.
   - *Thuốc ức chế mTOR:* **Everolimus, Temsirolimus**.
 - **[B7.05] Liệu pháp miễn dịch (Immunotherapy) & Vai trò Xạ trị:**
   - *Miễn dịch cổ điển:* **Interleukin-2 (IL-2 liều cao)**, **Interferon-alpha**.
   - *Miễn dịch hiện đại (Checkpoint inhibitors):* **Nivolumab, Pembrolizumab, Ipilimumab**.
+  - 🆕 **CẬP NHẬT 09/11/2026 — Pembrolizumab bổ trợ sau mổ (KEYNOTE-564, theo dõi 5 năm, Annals of Oncology 2026):** Pembrolizumab là **liệu pháp bổ trợ duy nhất có lợi ích sống thêm** ở mốc 5 năm. Sống không bệnh: tỉ số nguy cơ 0,71, 5 năm 60,9% so với 52,2%. Sống thêm: tỉ số nguy cơ 0,66, 5 năm 87,7% so với 82,3%. ESMO 2024 khuyến cáo [I, A] và EAU 2026 khuyến cáo Strong cho ung thư thận tế bào sáng nguy cơ cao. Bắt đầu trong 12 tuần sau mổ, tối đa 1 năm, liều 200 mg mỗi 3 tuần.
   - *Xạ trị:* Chỉ dùng để **xạ giảm đau trong di căn xương** hoặc **giảm áp lực trong di căn não**.
