@@ -1,602 +1,205 @@
-# DẠ DÀY
+# BÀI 41: DẠ DÀY (stomach)
 
 **Chương:** Chương 10: Hệ Tiêu Hóa  
 **Tác giả:** ThS. Nguyễn Ngọc Anh  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 657 - 670
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 657 - 670 (Tương ứng file scan page_657 đến page_670)
 
 ---
 
-Bai 3 
-DDAY 
-1. V! TRi, DUNG TiCH VA HiNH TH NGOAI
-De;, day (stomach) la phfrn r(mg nhftt cua 6ng tieu h6a, nim gifra thvc quan va ta 
-trang. N6 nim & phfrn tren 6 b1,mg, keo dai tu- phfrn tu tren trai xu6ng duoi, ra truoc va 
-sang phai; d<;1 day nim a cac vung h<;1 sm:rn trai, thu911g vi va r6n. N6 chi¦m m9t ngach 
-ben duoi ca hoanh va thanh b9ng tmoc va dm;rc vay quanh b&i cac t<;1ng b1,mg tren d<;1i 
-trang ngang. Dung tich trung binh cua d<;1 day tang tu khoang 30 ml luc moi sinh, len 
-l 000 ml a tu6i d§y thi va khoang 1500 ml a nguoi Jon. Phuc nwc phu d<;1 day bi gian
-do<;1n t<;1i cac ch6 barn cua cac m<;1c n6i vao hai ba cong ngan each hai m¨it d<;1 day. Hinh
-th€ ngoai cua d<;1 day thay d6i theo lu911g thuc an chua ben trong, tu th¦, voe dang m6i
-nguai, tinh tr<;1ng cua ru(>t, tmang h,rc cua thanh bt,mg va d<;1 day.
-D<;1 day r6ng c6 hinh chfr J. Khi d<;1 day cang dfiy dfin thi than vi ma r(>ng ra tm6c 
-va xu6ng du6i n¦u ru9t khong ph6ng cang. N¦u c6 can tr& cua ru(>t thi d<;1 day ma r9ng 
-v€ phia gan va ca hoanh. Khi d<;1 day cang, phfin thftp nhftt cua d<;1 day la hang mon vi a
-vi tri duai r6n. Nguai thftp d§m c6 d.;t day nim ngang. 
-2. cAc PHAN
-D.;t day c6 hai dfru la tam vi (cardia) va man vj (pylorus), hai ba cong Ion va be, 
-hai m©t tmoc va sau (H. l). Gifra tam vi va mon vi, d.;t day duqc chia bing cac duang 
-v.;tch tuy y tren m©t ngoai thanh day vi, than vi, hang mon vi va 6ng mon v( Hinh th€ 
-trong va du true vi mo cua nmg do.;tn khac nhau. Day vj (fundus of stomach) c6 hlnh 
-vom nho len tren va ben trai cua 16 tam vi d€ ti¦p xuc voi vom hoanh trai. N6 la phfrn d.;t 
-day nim tren duang ngang ke tu khuydt tam vj ( cardial notch) d¦n ba cong Ion. Than vi 
-(body of stomach) keo dai tu day vi d¦n m(>t duang ke di qua khuydt g6c (angular 
-incisure) tren ba cong nho (la m(>t khuy¦t kha hing djnh a dfiu duoi cua do.;tn dung ba
-cong nho) va khia lorn nim & dfiu trai hang mon vi tren ba cong Ion. Hang man vj 
-(pyloric antrum) ti¦p theo tu duang nay d¦n ranh trung gian (sulcus intermedius), nai 
-d.;t day thu hyp d€ tr& thanh 6ng man vj (pyloric canal) (dai l - 2 cm); 6ng mon vi k¦t 
-thuc t.;ti man vj (pylorus), nai c6 16 man vi (pyloric orifice). Hang, 6ng va mon vi duqc 
-g9i chung la phdn man vj (pyloric part). 
-
-
-
-<!-- Hết trang 657 -->
-
-
-Ba cong Ian 
-Ta trang 
-Mon vi 
-
-![Hinh 1. Hinh the ngoai va phan do,;in d,;i day [12]](giaiphau_media/hinh_p658_1.png)
-
-*Hinh 1. Hinh the ngoai va phan do,;in d,;i day [12]*
-
-3. LIEN QUAN
-3.1. Cac bir cong cua d day (gastric curvatures) 
-Ba cong nho (lesser curvature). Tu tam vi, tiSp theo b<'Y trong cua thvc quan, b<'Y 
-cong nh6 di xu6ng du6i va sang phai t6i mon vi 6 tru6c b<'Y tren cua t\!Y, ben phai duang 
-giua. N6 6 sau, tren va gfrn duang gifra hon so v6i b<'Y cong lan. Giua phfrn dung va phfrn 
-ngang cua b<'Y cong nh6 c6 khuySt g6c ma vi tri va hinh d{mg thay d6i theo sv ding gian 
-cua d| day. M|c n6i nh6, noi chua cac m|ch vi phai va trai, duqc giln v6i b<'Y cong nh6. 
-Ba cong !cm (greater curvature) dai hon b6n ho}c nam lfrn so v6i b<'Y cong nh6. N6 
-bilt dfru tu khuySt tam vi, m<)t khuySt nlim gifra b<'Y trai cua thvc quan bi,mg va day vi. N6 
-cong len tren, v€. phia sau ben va sang trai. Phfrn 16i cao nh~t cua n6, rue vom vi (fornix 
-of stomach), 6 ngang muc khoang lien suan thu nam ben trai ngay du6i num vu trai 6 
-nam, nhung thay d6i khi tho. Tu muc nay, n6 di v€ phia tru6c va xu6ng du6i, hai 16i v€. 
-ben trai, gfrn nhu xa dSn Sl,ln suan X 6 tu th€ nlim ngua, nai n6 quay vao trong d k€t 
-thuc 6 mon vi. Thuang c6 m<)t ranh, duqc g9i la ranh trung gian, 6 phfrn b<'Y cong gfrn 
-v6i ca thilt mon vi. Phuc m|c phu m}t tru6c d| day lien ti€p d9c b<'Y cong Ian v6i ba day 
-chng. Phfrn vom vi cua b<'Y cong 16n duqc treo vao CO' hoanh boi day chling vi hoanh. 0
-phia ben (ngoai) b<'Y cong Ian la ch6 barn cua day chling vi lach. 0 du6i, do|n xa cua b<'Y 
-cong Ian la nai barn cua day chling vi d|i trang, phfrn chinh cua m|c n6i Ian va la nai 
-cht'.ra cac m|ch vi m|c n6i. Cac day chling vi hoanh, vi lach va vi d|i trang cung v6i day 
-ching lach tMn la nhfrng phfrn lien tiSp nhau cua cung m<)t la phuc m|c c6 ten la m|c 
-n6i lan; chung d€.u c6 ngu6n g6c tu mt;1,c treo vi sau (dorsal mesogastrium) 6 th<'Yi ky 
-phoi thai. 
-
-
-
-<!-- Hết trang 658 -->
-
-
-D day la 4mg di d('mg gifra hai mc nf>i. N6 c6 thS bi xoin quanh m<)t tn,lc nf>i hai 
-dfiu cf> djnh la tam vi va mon vi dS cho bcr cong 16n xoay len tren va nim tren bcr cong be. 
-3.2. Cac mij.t d day (gastric surfaces) 
-Khi d day r6ng va co li, hai ID?t cua n6 c6 XU hu6ng hu6ng len tren va xuf>ng 
-du&i, nhung v&i muc d<) cang tang dfin, chung se hu6ng ra tru&c va ra sau nhiSu hon. 
-M(lt tru&c (tren) (H.2). 
-Phfin ben (ngoai) cua ID?t tru&c nim sau bcr sucrn trai va tiSp xuc v&i ca hoanh; ca 
-hoanh ngan each n6 v&i mang ph6i trai, day ph6i trai, mang ngoai tim va cac xuong 
-sucrn VI - IX ben trai. Phfin tren - trai cua ID?t tru&c cong vs phia sau ben va tiSp xuc 
-v&i mt d day cua lach. Nua phai ID?t tru&c lien quan v&i ITI?t tng cua gan va thanh 
-b\lllg tru&c. Khi d day r6ng, di trang ngang c6 thS nim tiSp giap v&i ID?t tru&c. Toan 
-b<) m?t tru&c (tren) duqc bao phu b&i phuc mc. 
-Phfi.n m?t tru&c d day lien quan v&i thanh b\lllg tru&c g6m hang mon vi va phfin 
-du&i than vj. Trong ma thong de;, day (gastrostomy), ngucri ta dua phfin d day nay ap 
-sat vao phuc mc phu mt sau thanh b1,mg tru&c trai r6i ch9c xuyen tu bS ID?t da vao 
-long d day. Thu thut nay c6 nguy ca ch9c nhfim vao di trang ngang khi mc treo di 
-trang ngang dai va di trang nim chen gifra d day va thanh bl,lng. 
-Ph§n day cua m(lc 
-n6i nh6 (day ch3ng 
-gan - ta trang)--4'-_,__ ...... 
-Ta trang 
-D(li trang 
-Thuy gan trai 
-Ph§n m6ng m(lc 
-n6i nh6 (day 
-ch3ng gan - vi) 
-M(lc n6i l&n 
-
-![Hinh 2. D<;1 day tc;1i cho va lien quan cua mt trll'6'c de;! day [12]](giaiphau_media/hinh_p659_2.png)
-
-*Hinh 2. D<;1 day tc;1i cho va lien quan cua mt trll'6'c de;! day [12]*
-
-M(lt sau (du&i) (cac H.3 va 4) 
-M?t sau nim tru&c tf\l trai ca hoanh, cac mch hoanh du&i trai, tuySn thuqng thn 
-trai, C\fC tren cua thn trai, d<)ng mch lach, ID?t tru&c 11,ly, g6c di trang trai va ITI?t tren 
-cua mc treo di trang ngang. Cung v&i nhau, chung to thanh giucrng d day, va duqc 
-ngan each v&i d day b&i mi mc nf>i. Phfin tren trai cua ID?t sau cong vS phia ben 
-(ngoai) va tiSp xuc v&i ID?t d day cua lach. Mc nf>i 16n va mc treo di trang ngang 
-
-
-
-<!-- Hết trang 659 -->
-
-
-ngan each d? day v6'i g6c ta h6ng trang va h6i trang. MJt sau duqc bao phu bai phuc 
-m?c, ngo?i trir a gftn 16 tam vi, nai m(>t di?n hinh tam giac (vung trftn - bare area) nh6 
-tiKp xuc v6'i tf\l trai ca hoanh va d6i khi v6'i tuyKn thuqng thLn trai. Cac m?,ch vi trai d?,t 
-dKn ba cong nh6 a qrc ben phai cua vung trftn nay trong nKp vi tl,ly trai. Day chrtng vi 
-hoanh dim mMit ben cua vung trftn nay dKn mJt du6'i cua ca hoanh. 
-NSp gan vi 
-(dong lill_lCh vi trai) 
-Gan 
-Vong ml_lch ba cong 16n 
-MSt sau dl.l day (da cit mi_tc n6i 16n) 
-Lach 
-TuySn thuqng thVn trai 
-NSp gan tuy 
-( dong lill_lCh 
-gan chung) 
-·?:'Tb-:-:-:U:;Ac¥cirJ-ThVn trai
-Ta trang -
-Day chWng tuy - lach 
-'-=,1-C-C..l--Tuy 
-Mi_tc treo 
-di_ti trang ngang 
-
-![Hinh 3. M$t sau dc;1 day (da I$t len sau khi cat qua m9c noi l&n ben dU'&i v6ng m9ch b6' cong](giaiphau_media/hinh_p660_3.png)
-
-*Hinh 3. M$t sau dc;1 day (da I$t len sau khi cat qua m9c noi l&n ben dU'&i v6ng m9ch b6' cong*
-
-l&n de vao tui mc;1c noi). fhY6'ng net dll't mau xanh la 16 nep vi tuY.. Que tham di tll' phai qua trai: 
-tll' 16 tui mc;1c noi (Khe Winslow) qua ti\n dinh tui m9c noi, qua 16 nep vi tuY. vao tui chinh [12] 
-Gan 
-Mi;!C n6i nho (day 
-ch1ng gan vi) 
-Tinh m<;1ch 
-chu du&i 
-D9ng m<;1ch 
-chu b1,mg 
-Th0n trai 
-Ngach lac,h cua
-tui ITil;IC noi 
-D1;1day 
-
-![Hinh 4. Mi;it phcfing ngang qua man vi (ngang mll'c dot song that IU'ng L 1)](giaiphau_media/hinh_p660_4.png)
-
-*Hinh 4. Mi;it phcfing ngang qua man vi (ngang mll'c dot song that IU'ng L 1)*
-
-
-
-
-<!-- Hết trang 660 -->
-
-
-3.3. Cac 16 cua d' day 
-3.3.1. LJ tam vj va chJ n6i thlfc quiin - d9- day
-L6 ma tu thvc quan vao d? day la /6 tam vj (cardial orifice) (H.5). N6 thm'mg nm 
-a ben trai cua duong gifra, phia sau Sl,ln SUO'll thu bay va a ngang muc cua d6t s6ng ng\l'C 
-XI. N6 thuong each thanh bl,lng tru6c 10 cm va each rang cua 40 cm. T?i tam vi, ba
-phai thvc quan bl,lng lien tl,lc v6i ba cong nh6, ba trai v6i ba cong l6n. T?i 16 tam vj
-khong c6 m<)t CO' thilt c6 th€ thfty r5 duqc v€ giai phiu.
-d ben trong, S\f chuy€n d6i gifra thvc quan va d? day khong nim (J 16 tam vi vi 
-niem m?c cua day vi c6 th€ ma r<)ng len d€n thvc quan bl,lng m<)t khoang bi€n d6i. Nai 
-bi€u mo vay tftng cua thvc quan chuy€n thanh bi€u mo trl,l dan cua d? day duqc g9i la 
-ch6 n6i thvc quan - d? day (v€ mt mo h9c). Duong n6i nay, m<)t duong 'zig-zag', duqc 
-g9i la duong z. M<)t nh6m sqi CO' d9c va cheo cua d? day t?O thanh m<)t vong a phia tren 
-trai cua ch6 n6i d? day thvc quan gifra thvc quan va ba cong nh6, va day duqc coi la 
-ranh gi6i ben ngoai cua ch6 n6i nay. Trong cac tinh tr?ng b?nh ly, nhu trong trao nguqc 
-d? day - thvc quan, bi€u mo vay a phftn du6i thvc quan bin d6i thanh bi€u mo tf\l dan 
-cua d? day, g9i la lhl:fC quan Barrett. 
-Ca th<it thl!c quan du6i. (lower oesophageal sphincter) va trao ngu(Jc dg day- thl!c quan. 
-Ca tran chuyen bi?t tren thanh do?n bl,lng thvc quan cung v6i cac sqi CO' om vong 
-quanh thvc quan cua trl,l phai CO' hoanh, ca hai cung nhau t?O nen m<)t Ive ep vong quanh 
-thvc quan, g9i la vimg cip ll!c cao (high pressure zone - HPZ). H6 trq cho HPZ con c6 
-sv co truang Ive cua cac sqi CO' vong d? day nim a dftu tren ba cong be, ngay du6i ch6 
-n6i thvc quan - d? day, g9i la "ca thilt". Khi d? day dftn ding thi truang Ive "ca thilt" 
-cung tang, ep cac thanh tru6c va sau v&i nhau. HPZ cung v6i "ca thilt" duqc g9i chung 
-la ca th<it thl!c quan duai (lower oesophageal sphincter - LOS). Binh thuong, ap suftt t?i 
-HPZ 16n han muc chenh l?ch ap xuftt gifra thvc quan ng\l'C (thftp) va ap xuftt d? day 
-( cao ), va khong xay ra trao nguqc. LOS chi gian lam cho ap suftt a HPZ giam khi c6 
-nhu d<)ng nu6t a thvc quan d€ vien thuc an di qua nhung khi qua r6i thi LOS l?i co d€ 
-duy tri HPZ. 
-Co thilt thvc quan du6i 
-(lower oesophageal 
-sphincter - LOS) 
-
-![Hinh 5. Cho noi thl,l'c quan - d;;i day [12]](giaiphau_media/hinh_p661_5.png)
-
-*Hinh 5. Cho noi thl,l'c quan - d;;i day [12]*
-
-Day chilng hoanh 
-- thvc quan
-Duang z C h 'nh 
-, 
-o oa 
-
-
-
-<!-- Hết trang 661 -->
-
-
-Sv trao nguqc cua cac chit trong d day vao th]JC quan b-1,mg va ngvc du&i co thS 
-xay ra do LOS ySu, hoc do thoat vi hoanh. Ph!u thut ch6ng trao nguqc bng each 
-ph\lC h6i chiSu dai binh thuong cua don bi,mg th]JC quan, giam b&t thoat vi hoanh (la 
-nguyen nhan lam ch6 n6i thvc quan - d day di len vao trong ng]Jc) va tang Ive ep a 
-xung quanh don b\lng thvc quan bftng each qu§.n m()t phftn cua day vi xung quanh thvc 
-quan b\lng. 
-3.3.2. L6 mon vj 
-L6 m6n vi la 16 ma rir d day vao ta trang, va thuong nflm 1-2 cm vS hen phai cua 
-duong giua trong mt phing ngang qua m6n vi khi ca thS nflm ngua va d day r6ng. Ca 
-thit m6n vi la m9t vong CCY duqc hinh thanh do S\I day len r5 rt cua CCY vong d day xen 
-ke v&i m()t s6 SQ'i dQC (H.6). Vong thit cua m6n vi tren bS mt chi ra vi tri cua CCY thit 
-m6n vi, va thuong co m()t finh mch tru&c m6n vi bit cheo mt tru&c d9c tu tren xu6ng. 
-Mt cit d9c mon 
-vi cho th§y lap ca 
-thcit man vi day 
-Lap ca d9c ta trang (da cit) 
-
-![Hinh 6. Ca that men vi [12]](giaiphau_media/hinh_p662_6.png)
-
-*Hinh 6. Ca that men vi [12]*
-
-4. HINH THE TRONG
-Khi tham do qua n()i soi, d day thuong bi cang ra m()t phftn do kh6ng khi. Nhin 
-rir tren xu6ng, 16 tam vi va phftn th§.p nh§,t cua thvc quan b\lng thuong duqc dong li do 
-SlJ co CCY truang Ive cua CCY phftn du&i thvc quan. Niem mc d day lotDucmg  nhan li 
-thanh cac ga ma keo dai len thvc quan b\lllg tren m9t don ngin; SlJ chuySn tiSp giua 
-biu m6 tf\l va biSu mo vay thuong co thS nhin thiy r5 rang. Sv hin din cua biSu mo 
-tf\l b§.t thuong trong thvc quan duqc gQi la thvc quan Barrett. Khi nhin rir trong d day 
-cang ph6ng, 16 tam vi nflm a thanh trong (giua) cua day viva khong d6i xung. Ba trong 
-cua 16 tam vi lien 1\!C v&i thanh trong cua than vi. d hu&ng nhin nay, niem mc hai day 
-len v&i dang nho cao, to thanh m()t phftn cua "hoa thi niem mc" (mucosa! rosette) viSn 
-quanh 16. "Hoa thi" h6 trq dong 16 tam vi va giup ngan trao nguqc d day len thvc quan. 
-Ba trong cua 16 co thS nhin thiy r5 rang han so v&i ba ngoai vi no to thanh m()t goc 
-nhQn han v&i niem mc cua th]JC quan b\lng. 
-
-
-
-<!-- Hết trang 662 -->
-
-
-
-![Hinh 7. Hinh anh n(>i soi dc;1 day](giaiphau_media/hinh_p663_7.png)
-
-*Hinh 7. Hinh anh n(>i soi dc;1 day*
-
-A: Lo tam viva day vi nhin tll' phla dU'&i {n(>i soi quc;\t ngll'Q'C) cung cac nep niem mc;ic thanh ben 
-xuM phat tll' lo tam vi. 
-B: Than vj va ba cong l&n dc;\c tmng b&i cac nep vi. 
-C: Hang vi v&i khuyet g6c nhin tll' ben trong. 
-D: Hang m6n vi va 6ng m6n vi 
-Nhin tir trong d1;1 day bi ding ph6ng m9t phfrn, niem m1;1c cua day vi x€p thanh 
-nhung n€p gftp thoai, goi la cac ndp vi (gastric rugae), gi6ng nhu & cac nai khac (H.7). 
-Khi d1;1 day dfry dfrn d€n t6i da, nhfrng n€p vi nay nhanh ch6ng tr& nen kem ro rang han
-va thanh gfrn nhtr nh n khi d1;1 day ding ph6ng qua muc. Phfrn than vi c6 cac n€p g.ip 
-niem m1;1c ro r¡t nhk Ngay ca & muc d9 ciing vua, chung xuftt hi¡n dtr6i d1;1ng cac ga 
-niem m1;1c r9ng, dai ch1;1y thanh cac dai ngo¢n ngoeo tu day vi d€n hang man vi. Chung 
-duqc nhin thfty tren tftt ca cac b€ m?t niem m1;1c cua than vi nhung ro rang nhftt 6 cac 
-phfrn tru6c ben, ben va sau ben (tuang ung a m?t ngoai v6i m?t tru6c ngoai, ba cong 
-16n va ID?t sau ngoai). 6 day, chung c6 khi dtrQ'C goi la cac ducmg v; (magenstrasse), c6 
-vai tro trong vi¡c htr6ng ch.it long di vao d1;1 day xu6ng ngay duqc hang m6n vi. Nhfrng 
-n€p gftp nay it ro r¡t nhftt & m?t trong (ttrang ung v6i m?t trong cua ba cong nh6), nai
-thuang tran nh£n han nhi€u, d?c bi¡t khi d1;1 day ding ra. 
-Cac diin vt (gastric area) & niem m1;1c hang vi la nhfrng vung b€ m?t niem m1;1c nh6 
-hai g6 !en hO?C nhan nhum c6 th£ d¤ dang nhin thlly khi dung thu6c baryt can quang 
-kep. M9t vai n€p gllp c6 trong hang vi khi d1;1 day thtr gian va bi€n mllt khi d1;1 day cang. 
-Yung hang vi ti€p giap v6i 6ng mon vi, me vung hang vi ti€n mon vi, c6 b€ m?t niem 
-m1;1c nh n r6i tr& thanh niem m1;1c hai nhan nheo & 16 m6n vi do SI! co b6p cua ca th¥t 
-m6n vi. 
-5. cAu TO
-Thanh d1;1 day dtrQ'C du t1;10 b&i 4 lop, tinh tu ngoai vao la: 
-- Phuc m1;1c v6i lop thanh mr;,c (serosa) & ngoai va t6m du6·i thanh mr;,c (subserosa)
-6 trong. 
-
-
-
-<!-- Hết trang 663 -->
-
-
--
-Lop co· (muscular layer) v&i l&p d9c (longitudinal layer) a ngoai, lop vong
-(circular layer) 6 giCi'a va cac s9·i cheo (oblique fibres) 6 trong cung. Lap vong kem phat 
-tri¢n 6 tam vi nhung day len 6 mon vi thanh co· th6t m6n vj (pyloric sphincter). Lap 
-cheo ro r£t 6 m'.ra du6i d? day; lap d9c phat tri¤n 6 hai phfin ba trend¥ day. Trong lap co 
-co dam r6i ao co ru<)t (dam r6i Auerbach). 
--
-Lop diro·i niem mr;,c (submucosa) chfra mo lien k¦t, m?ch mau va thfin kinh,
-trong d6 c6 dam r6i Meissner. 
--
-Lop niem mr;,c (mucosa) bao g6m, tu phia long d? day ra, bi¤u tn,i don ti¦t niem
-dich, la rieng va co niem. 8§ ffi?t bi¨u mo c6 mau do nau hO?C h6ng, c6 cac nip vj nilm 
-cht'.1 y¦u theo chi§u d9c. Tren n¦p vi c6 cac n¦p nhung mao. Du6i kinh hiSn vi 6 de) 
-ph6ng d?i thftp, b§ m?t niem m?c d¥ day c6 d?ng t6 ong v&i cac horn vi (gastric pits) c6 
-dm'mg kinh khoang 0,2 mm. Phfin day cua m6i horn c6 m9t s6 tuy¦n vi d6 vao. 
-6. Sl)' CAP MAU VA DAN LU'U BCH HUYl=T
-6.1. D{>ng mi,tch (H.8) 
-Ngu6n cftp mau d<)ng m?ch d¦n d? day chu y¦u d¦n tfr d<)ng m?ch than t?ng, tn,rc 
-ti¦p hO?C gian ti¦p, bao g6m cac d<)ng ffi?Ch vi trai va phai, cac d<)ng ffi?Ch vi m¥c n6i 
-trai va phai, cac d<)ng JTI?Ch vi ngiin va doi khi d<)ng m?Ch vi sau. 
-09ng nwch than tc:1ng : 
-09ng mc:1ch gan rieng 
-09ng mc:1ch gan chung ! 
-D9ng mc:1ch vi phiii 
-09ng mc:1ch vi ta triing 
-Dong mc:1ch vi ITI?C 'n6i phai 
-D9ng mc:1ch vi trai 
-D9ng mc:1ch lach 
-, 
-
-![Hinh 8. Cac d(>ng mc;1ch cua dc;1 day [12]](giaiphau_media/hinh_p664_8.png)
-
-*Hinh 8. Cac d(>ng mc;1ch cua dc;1 day [12]*
-
-D(Jng mr;,ch vj trai (left gastric artery) 
-Lach 
-D9ng mc:1;h 
-vi ITI?C noi trai 
-Dc:1i trang 
-D<)ng m?ch vi trai la nhanh nho nhfrt cua d<)ng ffi?Ch than t?ng. N6 di len tren, 
-sang trai & duai phuc ffi?C cua thanh sau tren cua tui JTI?C n6i. d du6i phuc ffi?C, n6 nllm 
-li§n k§ v6i d<)ng m?ch hoanh du6i trai va phfa trong ho?c tru6c ct'.1a ruy¦n thuQTig tMn 
-
-
-
-<!-- Hết trang 664 -->
-
-
-trai. Ti€p d6 n6 Chl;l,y ra tru&c vao phin tren cua ml;l,C n6i nho ti€p giap v&i diu tren cua 
-ba cong nho, r6i hu&ng vS phia tru&c du&i dS ch?y d9c theo ba cong nho gifra hai la 
-phuc ml;l,C cua m?C n6i nho. 6 ch6 cao nh§.t tren duang di, n6 cho m◊t hoc nhiSu nhanh 
-th\l'C quan. Tren duang di d9c theo ba cong nho, n6 tach ra nhiSu nhanh ch?y len cac 
-mt tru&c va sau cua d? day va ti€p n6i v&i d9ng m.,ich vi phai 6 vung khuy€t g6c. 
-D()ng m?ch vi trai c6 th€ ta.ch ra (hoc xufit phat tu) d()ng m?ch gan tr.ii, khi d9ng 
-ml;l,Ch vi tr.ii di qua giua cac 16-p phuc ml;l,C cua phin tren ml;l,C n6i nho dS d€n ba cong 
-nho cua d? day (M◊t d9ng m?ch gan trai phl,l/d9ng m?ch gan trai thay th€ c6 nguyen uy 
-tu d9ng m?ch vi tr.ii hay gp hon truang hqp m◊t d<)ng m?ch vi trai phl,l/d9ng m?ch vi 
-trai thay th€ c6 nguyen uy tu d9ng ml;l,Ch gan tr.ii). 
-Cac d9ng mq,ch vi nglin (short gastric arteries) 
-Cac d9ng ml;l,Ch vi ngin la ml;l,Ch dp mau cho day vi a tren muc cua d9ng ml;l,Ch 
-lach va xufit phat 6 ben tr.ii cua ba cong 16-n cua d? day. Chung c6 s6 lm;mg thay d6i va 
-xufit phat tu d9ng m.,ich la.ch hoc cac nhanh cua n6, hoc tu phin gin d9ng m?ch vi 
-m.,ic n6i trai, va di qua gifra cac la cua day ching vi la.ch dS cftp mau cho tam vi va day 
-vi. Chung n6i v&i cac nhanh cua cac d9ng m?Ch vi trai va vi ml;l,C n6i trai.
-fJ9ng mc;ich vi mc;ic n6i trai (left gastroepiploic artery) 
-D9ng m.,ich vi m?c n6i trai la nhanh 16-n nh§.t cua d9ng m?ch lach va xufit phat gin 
-r6n la.ch. N6 ch?y ra tru&c, xu6ng du&i va sang phai 6 gifra cac la cua m?c n6i 16-n va 
-d9c theo ba cong 16-n d? day, ti€p n6i v&i d9ng m?ch vi m?c n6i phai. N6 ta.ch ra cac 
-nhanh vi d€n d? day va cac nhanh illl;l,C n6i cho illl;l,C n6i 16-n, trong d6 c6 m◊t nhanh r§.t 
-16-n tach ra 6 gin nguyen uy dp mau cho nua trai ml;l,C n6i 16-n. Cac nhanh vi dai hon cac 
-nhanh vi cua d9ng ml;l,Ch vi m?C n6i phai va c6 th€ dai 8 - 10 cm. 
-fJ9ng mc;ich vj sau (posterior gastric artery) 
-D()ng m?ch nay c6 th€ c6 hoc kh6ng. Khi c6, n6 xu§.t phat tu do?n gifra d9ng 
-ml;l,Ch lach, sau than vi. N6 di len 6 du&i phuc ml;l,C cua thanh sau tui ml;l,C n6i r6i di qua 
-day ching vi hoanh t&i mt sau d? day. 
-EJ9ng mq,ch vj phai (right gastric artery) 
-D9ng m?ch vi phai xu§.t phat tu d9ng m?ch gan chung khi d()ng m?ch gan chung 
-nim trong ml;l,C n6i nho 6 ngay tren phftn tren ta trang. N6 Chl;l,y gifra cac la phuc ml;l,C 
-cua ml;l,C n6i nh6 ngay tren dftu phai cua ba cong nho, r6i Chl;l,y len d9c ba cong nho, ta.ch 
-ra nhiSu nhanh len cac mt tru&c va sau cua d? day, va n6i v&i d9ng illl;l,Ch vi trai. 
-D()ng m?ch vi phai c6 th€ ta.ch ra tu d9ng m?ch gan tr.ii, tu d9ng m?ch vi - ta 
-trang hay tu d9ng m.,ich ta trang tren. 
-fJ9ng mc;ich vj ta trang (gastroduodenal artery) 
-D9ng ml;l,Ch vi ta trang xu§.t phat tu d9ng m?ch gan chung a sau va tren phftn tren 
-cua ta tn'mg. N6 di xu6ng sau phin tren ta trang, ta.ch ra d9ng m?ch ta tl,ly tren sau va 
-khi khi t&i ba du&i cua phftn tren ta trang thi tn cung bing 2 nhanh la d9ng m?ch ta tl,ly 
-tru&c tren va d9ng ml;l,Ch vi ml;l,C n6i phai. 
-
-
-
-<!-- Hết trang 665 -->
-
-
-D(mg m9ch vt mgc n6i phai (right gastroepiploic artery) 
-D9ng m;;ich vi m;;ic n6i phai bilt ngu6n tu d9ng m;;ich vi - ta trang a sau phfrn tren 
-cua ta trang, tm6c dfru t1.1y. N6 di xu6ng du6i va sang trai giua cac la cua m;;ic n6i 16n, 
-dfru tien di sat du6i mon vi, sau di d9c du6i bo cong 16n ( each d9 2 cm) va k€t thuc 
-bing each tiSp n6i v6i d9ng m;;ich vi m;;ic n6i trai. D<)ng m;;ich vi m;;ic n6i phai tach ra 
-cac nhanh vi cho cac mt tm6c va sau hang vi va phfin du6i cua than vi va cac nhanh 
-m;;ic n6i cho m;;ic n6i l6n. 
-Vong n6i a9ng mgch cua dg day 
-T;;ii tam vi, c6 sv ti€p n6i giua cac d9ng m;;ich thvc quan xuit phat tu d<)ng m;;ich 
-chu ngvc va cac m;;ich cip mau cho day vi. T;;ii mon vi, cac m;;ich dp mau cho ta trang 
-c6 ngu6n g6c tu d9ng m;;ich m;;ic treo trang tren tiSp n6i v6i cac m;;ich mon vi cua d;;i 
-day. Cac d9ng m;;ich chinh dp mau cho d;;i day t;;io thanh cac vong n6i d<)ng m;;ich r<)ng 
-tren b€ mt thanh m;;ic va xung quanh cac bo cong cua d;;i day. Cac d<)ng m;;ich vi m;;ic 
-n6i phai va trai n6i v6i nhau tren ho cong l6n; cac d9ng m;;ich vi trai va phai ti€p n6i v6i 
-nhau t;;ii bo cong nh6. Cac vong ti€p n6i cung hinh thanh giua cac d<)ng m;;ich vi ngiln va 
-vi trai a vung day vi, va giua cac d<)ng m;;ich vi phai va vi m;;ic n6i phai a vung hang vi. 
-Ngoai cac ti€p n6i thanh m;;ic r<)ng rai, cac m;;ing m;;ich mau con hinh thanh trong thanh 
-d;;i day a trong lap ca, lap du6i niem m;;ic va niem m;;ic. M<)t dam r6i thvc sv cua cac 
-d<)ng m;;ich nh6 va tiSu d9ng m;;ich hin din trong lap du6i niem m;;ic: n6 dp mau cho 
-niem m;;ic va c6 nhi€u d;;ing bi€n d6i trong thanh d;;i day va phfin gfin cua ta trang. N gu6n 
-dp mau d<)ng m;;ich d6i dao cho d;;i day dam bao duy tri luu lm;mg mau niem m;;ic cao 
-dn thiSt cho ho;;it d<)ng sinh ly ngay ca khi m<)t hoc nhi€u m;;ich bi tile: D;;i day thS hin 
-kha nang d€ khang cao v6i thi€u mau Cl_lC b9 ngay ca khi nhi€u ngu6n dp mau d<)ng 
-m;;ich bi mit. 
-Cac a9ng m9ch m6n vt la nhanh cua d<)ng m;;ich vi phai va vi m;;ic n6i phai. Chung 
-xuyen qua do;;in xa ta trang dSn CO' thilt mon vi quanh toan b9 chu vi cua n6 va di qua 
-lap ca d€n lap du6i niem m;;ic, nai chung chia thanh hai hoc ba nhanh. Cac nhanh quay 
-tra l;;ii 6ng mon vi ben du6i niem m;;ic va ch;;iy d€n phfin cu6i cua 16 mon vi: chung dp 
-mau cho toan be) niem m;;ic cua 6ng mon vi. Cac nhanh cua d9ng m;;ich du6i niem m;;ic 
-mon vi c6 thS n6i gfin nguyen uy cua chung v6i d9ng m;;ich du6i niem m;;ic ta trang, va 
-nhanh tn cung cua chung cung tiSp n6i v6i d<)ng m;;ich d;;i day tu hang vi ti€n mon vi. 
-Ca thilt mon vi duqc dp mau bai cac d<)ng m;;ich d;;i day va mon vi qua cac nhanh tu cac 
-m;;ich du6i thanh m;;ic va du6i niem m;;ic dS di vao ca thit. 
-6.2. Tinh m	ch 
-Cac tlnh m;;ich din luu mau tu d;;i day d6 vao tlnh m;;ich cua (H.9). Mau tu m<)t 
-m;;ing lu6i tlnh m;;ich n9i thanh va du6i niem m;;ic phong phu cua d;;i day duqc din luu 
-v€ cac tlnh m;;ich ma thuong di kem v6i cac d9ng m;;ich c6 ten tuang ung. R6i cac tlnh 
-m;;ich nay d6 vao tlnh m;;ich lach hoc tlnh m;;ich m;;ic treo trang tren, m9t s6 d6 trvc ti€p 
-vao tlnh m;;ich cua. Cac tlnh m;;ich vi ngiin d6 vao tlnh m;;ich lach hoc m9t trong cac 
-nhanh 16n cua n6. Tinh m;;ich vi m;;ic n6i trai d6 vao tlnh m;;ich lach trong day ching vi 
-lach. Tinh m;;ich vi m;;ic n6i phai d6 vao ti'nh m;;ich m;;ic treo trang tren ben du6i c6 tl_ly. 
-
-
-
-<!-- Hết trang 666 -->
-
-
-Ttnh mc;ich vi mc;ic n6i phai c6 th nhn tinh mc;ich ta t1,1y tren g.in ch6 n6 d6 vao vao tinh 
-mc;ich mc;ic treo trang tren. Tinh mc;ich vi trai di len d9c theo ba cong nh6 dJn 16 thvc 
-quan, noi n6 tip nhn m◊t s6 tTnh mc;ich ph.in duoi thvc quan, sau d6 cong ra sau va vao 
-trong phia sau phuc mc;ic thanh sau cua tui m1;1.c n6i. N6 chay vao tinh 1111;1.ch cua trvc tiJp 
-a ngang muc ba tren cua ph.in tren ta trang. Tinh m1;1.ch vi phai thuang nh6 va d6 tq.rc 
-tiJp vao tinh mc;ich ct'.ra 6 ngang mfrc ph.in tren cua ta trang. N6 tiJp nhn tinh mc;ich 
-trnoc mon vj. Cac tTnh mc;ich vi sau khi xut hin d6 vao ttnh mc;ich Jach. 
-TTnh lll(lCh chll duoi 
-Tinh nwch thlly dll6i 
-11nh l1l(H.:h , i trai 
-Di;mg llli;H.:h thiin t;rng 
-TTnh lll?Ch ctia gan 
-Cac t1nh ITI(ICh gan Cac t111h ITI(ICh lh\fC qllan 
-TTnh lll(ICh ta tUY.©ª« 
-tren sau 
-TTnh ITI(lCh vi phai 
-D(>ng m(lch m(lc 
-trco trang tren 
-Cac 1111h lll(lCh ta Ill)' 
-TTnh lll?Ch d(li trang 
-phai tren 
-TTnh 11 ;:ich lach 
-TTnh m¬ch vi JTI\lc 116i tr11i 
-TTnh 111,:1ch thuqng th­n trai 
-TTnh 111,:1ch th­n trai 
-TTnh 111<;1ch sinh d\1c tnii 
-Than t111h m,:1ch TTnh nwch TTnh m<;1ch TTnh m,:1ch Tinh m(lch m(lc trco trang duoi 
-\ i - Ill)' - d(li !rang d,:1i trang 
-lll(lC treo 
-d,:1i trang 
-phai 
-trang trcn 
-gitra 
-
-![Hinh 9. Cac tTnh mc;1ch (TM) cua dc;1 day [12]](giaiphau_media/hinh_p667_9.png)
-
-*Hinh 9. Cac tTnh mc;1ch (TM) cua dc;1 day [12]*
-
-Gian !Tnh m21ch th(l'C quim \'Cl d(t day 
-Mau ttr niem mc;ic tlrnang chay vao m<)t dam r6i tinh mc;ich nong duoi b mt niem 
-mc;ic, sau d6 vao m('>t dam r6i tTnh m1;1.ch n('>i tc;ii sau hon va cubi cung vao cac tTnh m1;1.ch 
-quanh thvc quan qua cac tinh mc;ich xuyen. Tc;ii thvc quan b1,1ng, cac tTnh n11;1.ch xuyen 
-dn lu-u vao cac nhanh cua tTnh mc;ich vi trai; a thvc quan ngvc duoi, chung tc;io thanh 
-cac nhanh cua cac h tinh mc;ich don va ban don. Cac dam r6i tTnh m1;1.ch thvc quan la 
-noi tip n6i gifra cac tinh m1;1.ch h cua voi cac tinh m1;1.ch CLJa tu.in hoan h thbng. 
-Gian tTnh mc;ich xay ra chu yJu 6 dam r6i duoi niem mc;ic cua th1,rc quan b1,mg va 
-doi k.hi 6 niem mc;ic dc;i day g.in 16 tam vi k.hi ap lvc tinh m1;1.ch cua Ion hon 15 mmHg. 
-Mau chay nguqc v  cac dam r6i tinh m1;1.ch thvc quan vi nhfrng van m('>t chiu trong cac 
-tTnh mc;ich xuyen bi suy. Thu-ang dS dang nhin thy tTnh m1;1.ch gian k.hi n('>i soi vi chung 
-n¡m ngay trong lop la rieng cua niem m1;1.c va nho ra long thvc quan; chung la nguyen 
-
-
-
-<!-- Hết trang 667 -->
-
-
-nhan thu0'1lg xuyen c!'.ia xufrt huy.t du0'1lg tieu h6a tren. Gian tinh m:;ich d.;t day thucrng 
-xufrt hivn & mwt du&i ct'.,a 16 tam vi-
-7. Sl)' DAN LU'U BCH HUYT 
-D.;t day c6 m9t m:,ing lu&i m.;tch b:;ich huy.t phong pht'.1 kčt n6i v&i cac m:;ich b:,ich 
-huy@t tu cac ca quan n9i t?ng khac ci'.ta vung tren 6 b1,mg. T?i ch6 n6i d? day-th1=1c quan, 
-cac m?Ch b?ch huy.t lien t1,1c v&i cac m?ch b?Ch huy.t cua ph§n du&i th1,1·c quan. va (1 
-vung rn6n vi, chung lien t\.lC vai cac m?ch b:,ich huy.t cua ta trang. Nhin chung. b?Ch 
-huy.t di theo duang di cua cac d9ng m?Ch dp mau cho d? day. 
-Hivp h9i Ung thu D? day Nh?t Ban (JGCA), d1=1a theo vi tri gftn xa cua cac h?ch 
-so vai kh6i ung thu d? day nguyen phat, da x@p cac h?ch b.;tch huySt d.;t day thanh 16 
-nh6m theo ten g9i (H.10) va danh s6: I. C.;tnh tarn vi phai; 2. C?nh tam vi trai; 3. Ba 
-cong nh6; 4. Ba cong Ian; 5. Tren m6n vi; 6. Duai man vi; 7. (Than) D9ng m.;ich vi 
-phai; 8. 09ng m:,ich gan chung; 9. 09ng tn?ch than t?ng; 10. R6n lach; 11. 09ng tnl;lch 
-Jach; 12. Cu6ng gan ( day chfmg gan - ta trang); 13. Sau dl1u t1,1y: 14. RĎ tnl;IC treo ru9t 
-non ( cac ml;!Ch ml;IC treo trang tren); 15. Ml;IC treo d.;ti trang ngang ( d9ng ml;!Ch d.;ti trang 
-gifra); 16. Cl;lnh d9ng tn?ch chu. Cac nh6rn I - 6 la cac nh6m quanh dl;l day hay NI. Cac 
-nh6rn tu 7 tra len la cac nh6m ngoai d.;t day, trong do tt'.r 7 - 11 la N2, tt'.r 12 - 16 la N3. 
-Cac muc N co thS duqc xern nhu cac phong tuySn ma ung thu co the VU'()'t qua. VE sau, 
-JGCA them 4 hl;lch trong b1,1ng: 17. Mwt trn&c d§u t1,1y; 18. Ba du6i than tď1y: 19. Duai 
-hoanh; 20. C?nh th1=1c quan; va 3 nhorn vung ng1=1c du&i. 
-Ca..: llhlllll h::ich quanh <l: day ( 1-6) 
-Ca..: 11hi1111 h,,ch ngo,ii d1:1 d,iy llllY r0ng (7-;0) 
----
-' 
-: 
--
-,.-
-: rn 
-',:----- -Đ-
-' 
-•. đ1. 
-:· 
-' . 
-' / 
-
-![Hinh 10. Cac nh6m hTch bTch huyet dT day theo JGCA](giaiphau_media/hinh_p668_10.png)
-
-*Hinh 10. Cac nh6m hTch bTch huyet dT day theo JGCA*
-
-Trong c6t d9 day (gastrectomy) do ung thu, dn n90 vet (dissection) cac hl;lch ma 
-ung thu c6 thS di can tai. Cac muc dt bo d.;t day tang d§n theo muc 11/;IO vet hl;!Ch (D). 
-Trong citt DI, nguai ta dt m9t ph§n dl;l day va nl;IO vet cac h:,ich N 1 (co thS them nhom 
-7); trong dt D2, dt toan b9 dl;l day, nl;IO vet nhu DI c9ng them cac hl;lch N2 .... 
-
-
-
-<!-- Hết trang 668 -->
-
-
-8. Sl)' CHI PHOI THAN KINH
-D? day duqc chi ph6i b&i cac sqi giao cam va d6i giao cam. 
-8.1. Chi ph6i giao cam 
-Chi ph6i giao cam cho d? day biit ngu6n tu sung ben cac d6t tuy s6ng ng\IC V t6i 
-XII. Cac sqi tru6c h?ch di theo cac thfin kinh t?ng 16n va nho t6i tUn cung a dam r6i
-than t?ng. Tu dam r6i nay, cac sqi sau h?ch di t6i d? day theo cac dam r6i quanh d('mg
-ID?Ch cua cac nhanh d9ng m?ch tu d9ng m?ch than t?ng t6i d.p mau cho d? day.
-Cac thfin kinh giao cam d? day c6 tac d\illg co m?Ch d6i v6i hV m?ch d? day va UC 
-chS d6i v6i CCY d? day. Chi ph6i giao cam cho mon vi la vW d9ng, va dXn dSn co CCY thiit 
-mon vi. Cac sqi cam t?ng, bao g6m ca cam giac dau, di theo duong cac thfin kinh giao cam. 
-Th'" Xsaul 
-' 
-Than X tnroc 
-Cac nhanh gan
-..,.__ __ ...... Cac nhanh vi tnroc 
-Cac thn kinh mon vi 
-'------Cac nhanh mon vi 
-
-![Hinh 11. Phan nhanh than kinh lang thang & d<;i day](giaiphau_media/hinh_p669_11.png)
-
-*Hinh 11. Phan nhanh than kinh lang thang & d<;i day*
-
-(cac d<;ing bien d5i dll'Q'C trinh bay bc1ing mau hong: 
-A: bien d5i cua than X chinh trll'6'c; 
-B: bien d5i cua nhanh man vj/ nhanh gan so v6'i ba cong nh6) 
-8.2. Chi ph6i d6i giao cam 
-Cac sqi d6i giao cam cho d? day dYn tu cac than thfin kinh lang thang (X) tru6c va 
-sau (H.11). Than X tru6c di 6 mZt tru6c thvc quan b\illg, phan nhanh vao tam viva chia 
-ra a gfin dfiu tam vi cua b<'Y cong nh6 thanh CClC nhanh vt truac ( anterior gastric 
-
-
-
-<!-- Hết trang 669 -->
-
-
-branches) va ccic nhanh gan (hepatic branches). d tren, cac nhanh vi tnr&c phan nhanh 
-vao day vj va phftn tren than vi. Nhanh vi tnr&c chinh duqc g9i la thdn kinh ba cong nho 
-tru:bc ( anterior nerve of lesser curvature) hay thdn kinh vj trubc lbn (greater anterior 
-gastric nerve) va di trong ffi?C n6i nh6 gftn vai ba cong nh6; cac nhanh tu th.in kinh nay 
-di d€n than vj va hang vj. Cac nhanh gan (thuang la m9t nhanh chinh va c6 th€ la m9t 
-nhanh phl,l) ch?y ngang gifra cac la cua m?C n6i nh6 vS phia bCY h,r do cua n6, tach ra 
-nhanh mon vj r6i di vao r6n gan. Nhanh man vi (pyloric branch) di xu6ng duai, ben trai 
-cua d9ng m?ch gan d€ d€n mon vj. Nhanh mon vj thu hai thuang xuit phat nr th.in kinh 
-ba cong nh6 tru&c. 
-Than X sau nfm gftn duang giua hem than X tru&c va a each thanh thµc quan 
-bl,lng m9t khoang ngin. N6 tach ra hai nh6m nhanh: cac nhanh vi sau (posterior gastric 
-branches) va cac nhanh than tr;zng (coeliac branches). Cac nhanh vj sau di t&i mgit sau d? 
-day, nhanh l&n nhit duqc g9i la thdn kinh ba cong nho sau (posterior nerve of lesser 
-curvature) ch?Y d9c sau ba cong nh6. Cac nhanh than t?ng mang phftn l&n cac sqi cua 
-than X sau d€n dam r6i than t?ng. Cac sqi d6i giao cam di vao thn cung a dam r6i du&i 
-niem m?C va dam r6i ao C(J trong thanh d? day. 
-Th.in kinh d6i giao cam vhn ti€t cho tuy€n niem m?C d? day va vhn d9ng C(J d? 
-day. N6 lam gian C(J thit mon vj. 
-
-
-
-<!-- Hết trang 670 -->
+## 1. VỊ TRÍ, DUNG TÍCH VÀ HÌNH THỂ NGOÀI
 
+Dạ dày (*stomach*) là phần rộng nhất của ống tiêu hóa, nằm giữa thực quản và tá tràng. Nó nằm ở phần trên ổ bụng, kéo dài từ phần tư trên trái xuống dưới, ra trước và sang phải; dạ dày nằm ở các vùng hạ sườn trái, thượng vị và rốn. Nó chiếm một ngách bên dưới cơ hoành và thành bụng trước và được vây quanh bởi các tạng bụng trên đại tràng ngang. Dung tích trung bình của dạ dày tăng từ khoảng 30 ml lúc mới sinh, lên 1000 ml ở tuổi dậy thì và khoảng 1500 ml ở người lớn. Phúc mạc phủ dạ dày bị gián đoạn tại các chỗ bám của các mạc nối vào hai bờ cong ngăn cách hai mặt dạ dày. Hình thể ngoài của dạ dày thay đổi theo lượng thức ăn chứa bên trong, tư thế, vóc dáng mỗi người, tình trạng của ruột, trương lực của thành bụng và dạ dày.
+
+Dạ dày rỗng có hình chữ J. Khi dạ dày căng đầy dần thì thân vị mở rộng ra trước và xuống dưới nếu ruột không phồng căng. Nếu có cản trở của ruột thì dạ dày mở rộng về phía gan và cơ hoành. Khi dạ dày căng, phần thấp nhất của dạ dày là hang môn vị ở vị trí dưới rốn. Người thấp đậm có dạ dày nằm ngang.
+
+---
+
+## 2. CÁC PHẦN
+
+Dạ dày có hai đầu là *tâm vị* (*cardia*) và *môn vị* (*pylorus*), hai bờ cong lớn và bé, hai mặt trước và sau (H.1). Giữa tâm vị và môn vị, dạ dày được chia bằng các đường vạch tùy ý trên mặt ngoài thành đáy vị, thân vị, hang môn vị và ống môn vị. Hình thể trong và cấu trúc vi mô của từng đoạn khác nhau.
+
+- **Đáy vị** (*fundus of stomach*) có hình vòm nhô lên trên và bên trái của lỗ tâm vị để tiếp xúc với vòm hoành trái. Nó là phần dạ dày nằm trên đường ngang kẻ từ *khuyết tâm vị* (*cardial notch*) đến bờ cong lớn.
+- **Thân vị** (*body of stomach*) kéo dài từ đáy vị đến một đường kẻ đi qua *khuyết góc* (*angular incisure*) trên bờ cong nhỏ (là một khuyết khá hằng định ở đầu dưới của đoạn đứng bờ cong nhỏ) và khía lõm nằm ở đầu trái hang môn vị trên bờ cong lớn.
+- **Hang môn vị** (*pyloric antrum*) tiếp theo từ đường này đến *rãnh trung gian* (*sulcus intermedius*), nơi dạ dày thu hẹp để trở thành **ống môn vị** (*pyloric canal*) (dài 1 - 2 cm); ống môn vị kết thúc tại *môn vị* (*pylorus*), nơi có *lỗ môn vị* (*pyloric orifice*). Hang, ống và môn vị được gọi chung là *phần môn vị* (*pyloric part*).
+
+![Hình 1: Hình thể ngoài và phân đoạn dạ dày](giaiphau_media/hinh_p658_1.png)
+*Hình 1. Hình thể ngoài và phân đoạn dạ dày [12]*
+
+---
+
+## 3. LIÊN QUAN
+
+### 3.1. Các bờ cong của dạ dày (gastric curvatures)
+
+- **Bờ cong nhỏ** (*lesser curvature*): Từ tâm vị, tiếp theo bờ trong của thực quản, bờ cong nhỏ đi xuống dưới và sang phải tới môn vị ở trước bờ trên của tụy, bên phải đường giữa. Nó ở sau, trên và gần đường giữa hơn so với bờ cong lớn. Giữa phần đứng và phần ngang của bờ cong nhỏ có khuyết góc mà vị trí và hình dạng thay đổi theo sự căng giãn của dạ dày. Mạc nối nhỏ, nơi chứa các mạch vị phải và trái, được gắn với bờ cong nhỏ.
+- **Bờ cong lớn** (*greater curvature*): Dài hơn bốn hoặc năm lần so với bờ cong nhỏ. Nó bắt đầu từ khuyết tâm vị, một khuyết nằm giữa bờ trái của thực quản bụng và đáy vị. Nó cong lên trên, về phía sau bên và sang trái. Phần lồi cao nhất của nó, tức *vòm vị* (*fornix of stomach*), ở ngang mức khoang liên sườn thứ năm bên trái ngay dưới núm vú trái ở nam, nhưng thay đổi khi thở. Từ mức này, nó đi về phía trước và xuống dưới, hơi lồi về bên trái, gần như xa đến sụn sườn X ở tư thế nằm ngửa, nơi nó quay vào trong để kết thúc ở môn vị. Thường có một rãnh, được gọi là rãnh trung gian, ở phần bờ cong gần với cơ thắt môn vị. Phúc mạc phủ mặt trước dạ dày liên tiếp dọc bờ cong lớn với ba dây chằng. Phần vòm vị của bờ cong lớn được treo vào cơ hoành bởi *dây chằng vị hoành*. Ở phía bên (ngoài) bờ cong lớn là chỗ bám của *dây chằng vị lách*. Ở dưới, đoạn xa của bờ cong lớn là nơi bám của *dây chằng vị đại tràng*, phần chính của mạc nối lớn và là nơi chứa các mạch vị mạc nối. Các dây chằng vị hoành, vị lách và vị đại tràng cùng với dây chằng lách thận là những phần liên tiếp nhau của cùng một lá phúc mạc có tên là *mạc nối lớn*; chúng đều có nguồn gốc từ *mạc treo vị sau* (*dorsal mesogastrium*) ở thời kỳ phôi thai.
+
+Dạ dày là tạng di động giữa hai mạc nối. Nó có thể bị xoắn quanh một trục nối hai đầu cố định là tâm vị và môn vị để cho bờ cong lớn xoay lên trên và nằm trên bờ cong bé.
+
+### 3.2. Các mặt dạ dày (gastric surfaces)
+
+Khi dạ dày rỗng và co lại, hai mặt của nó có xu hướng hướng lên trên và xuống dưới, nhưng với mức độ căng tăng dần, chúng sẽ hướng ra trước và ra sau nhiều hơn.
+
+#### Mặt trước (trên) (H.2)
+Phần bên (ngoài) của mặt trước nằm sau bờ sườn trái và tiếp xúc với cơ hoành; cơ hoành ngăn cách nó với màng phổi trái, đáy phổi trái, màng ngoài tim và các xương sườn VI - IX bên trái. Phần trên - trái của mặt trước cong về phía sau bên và tiếp xúc với mặt dạ dày của lách. Nửa phải mặt trước liên quan với mặt tạng của gan và thành bụng trước. Khi dạ dày rỗng, đại tràng ngang có thể nằm tiếp giáp với mặt trước. Toàn bộ mặt trước (trên) được bao phủ bởi phúc mạc.
+
+Phần mặt trước dạ dày liên quan với thành bụng trước gồm hang môn vị và phần dưới thân vị. Trong *mở thông dạ dày* (*gastrostomy*), người ta đưa phần dạ dày này áp sát vào phúc mạc phủ mặt sau thành bụng trước trái rồi chọc xuyên từ bề mặt da vào lòng dạ dày. Thủ thuật này có nguy cơ chọc nhầm vào đại tràng ngang khi mạc treo đại tràng ngang dài và đại tràng nằm chen giữa dạ dày và thành bụng.
+
+![Hình 2: Dạ dày tại chỗ và liên quan của mặt trước dạ dày](giaiphau_media/hinh_p659_2.png)
+*Hình 2. Dạ dày tại chỗ và liên quan của mặt trước dạ dày [12]*
+
+#### Mặt sau (dưới) (các H.3 và 4)
+Mặt sau nằm trước trụ trái cơ hoành, các mạch hoành dưới trái, tuyến thượng thận trái, cực trên của thận trái, động mạch lách, mặt trước tụy, góc đại tràng trái và mặt trên của mạc treo đại tràng ngang. Cùng với nhau, chúng tạo thành *giường dạ dày*, và được ngăn cách với dạ dày bởi túi mạc nối. Phần trên trái của mặt sau cong về phía bên (ngoài) và tiếp xúc với mặt dạ dày của lách. Mạc nối lớn và mạc treo đại tràng ngang ngăn cách dạ dày với góc tá hỗng tràng và hồi tràng. Mặt sau được bao phủ bởi phúc mạc, ngoại trừ ở gần lỗ tâm vị, nơi một diện hình tam giác (*vùng trần - bare area*) nhỏ tiếp xúc với trụ trái cơ hoành và đôi khi với tuyến thượng thận trái. Các mạch vị trái đạt đến bờ cong nhỏ ở cực bên phải của vùng trần này trong nếp vị tụy trái. Dây chằng vị hoành đi từ mặt bên của vùng trần này đến mặt dưới của cơ hoành.
+
+![Hình 3: Mặt sau dạ dày](giaiphau_media/hinh_p660_3.png)
+*Hình 3. Mặt sau dạ dày (đã lật lên sau khi cắt qua mạc nối lớn bên dưới vòng mạch bờ cong lớn để vào túi mạc nối). Đường nét đứt màu xanh là lỗ nếp vị tuỵ. Que thăm đi từ phải qua trái: từ lỗ túi mạc nối (Khe Winslow) qua tiền đình túi mạc nối, qua lỗ nếp vị tuỵ vào túi chính [12]*
+
+![Hình 4: Mặt phẳng ngang qua môn vị](giaiphau_media/hinh_p660_4.png)
+*Hình 4. Mặt phẳng ngang qua môn vị (ngang mức đốt sống thắt lưng L1)*
+
+### 3.3. Các lỗ của dạ dày
+
+#### 3.3.1. Lỗ tâm vị và chỗ nối thực quản - dạ dày
+Lỗ mở từ thực quản vào dạ dày là *lỗ tâm vị* (*cardial orifice*) (H.5). Nó thường nằm ở bên trái của đường giữa, phía sau sụn sườn thứ bảy và ở ngang mức của đốt sống ngực XI. Nó thường cách thành bụng trước 10 cm và cách răng cửa 40 cm. Tại tâm vị, bờ phải thực quản bụng liên tục với bờ cong nhỏ, bờ trái với bờ cong lớn. Tại lỗ tâm vị không có một cơ thắt có thể thấy rõ được về giải phẫu.
+
+Ở bên trong, sự chuyển đổi giữa thực quản và dạ dày không nằm ở lỗ tâm vị vì niêm mạc của đáy vị có thể mở rộng lên đến thực quản bụng một khoảng biến đổi. Nơi biểu mô vảy tầng của thực quản chuyển thành biểu mô trụ đơn của dạ dày được gọi là chỗ nối thực quản - dạ dày (về mặt mô học). Đường nối này, một đường ‘zig-zag’, được gọi là *đường Z*. Một nhóm sợi cơ dọc và chéo của dạ dày tạo thành một vòng ở phía trên trái của chỗ nối dạ dày thực quản giữa thực quản và bờ cong nhỏ, và đây được coi là ranh giới bên ngoài của chỗ nối này. Trong các tình trạng bệnh lý, như trong trào ngược dạ dày - thực quản, biểu mô vảy ở phần dưới thực quản biến đổi thành biểu mô trụ đơn của dạ dày, gọi là *thực quản Barrett*.
+
+**Cơ thắt thực quản dưới (lower oesophageal sphincter) và trào ngược dạ dày - thực quản:**  
+Cơ trơn chuyên biệt trên thành đoạn bụng thực quản cùng với các sợi cơ ôm vòng quanh thực quản của trụ phải cơ hoành, cả hai cùng nhau tạo nên một lực ép vòng quanh thực quản, gọi là *vùng áp lực cao* (*high pressure zone - HPZ*). Hỗ trợ cho HPZ còn có sự co trương lực của các sợi cơ vòng dạ dày nằm ở đầu trên bờ cong bé, ngay dưới chỗ nối thực quản - dạ dày, gọi là “cơ thắt”. Khi dạ dày dần căng thì trương lực “cơ thắt” cũng tăng, ép các thành trước và sau với nhau. HPZ cùng với “cơ thắt” được gọi chung là *cơ thắt thực quản dưới* (*lower oesophageal sphincter - LOS*). Bình thường, áp suất tại HPZ lớn hơn mức chênh lệch áp xuất giữa thực quản ngực (thấp) và áp xuất dạ dày (cao), và không xảy ra trào ngược. LOS chỉ giãn làm cho áp suất ở HPZ giảm khi có nhu động nuốt ở thực quản để viên thức ăn đi qua nhưng khi qua rồi thì LOS lại co để duy trì HPZ.
+
+![Hình 5: Chỗ nối thực quản - dạ dày](giaiphau_media/hinh_p661_5.png)
+*Hình 5. Chỗ nối thực quản - dạ dày [12]*
+
+Sự trào ngược của các chất trong dạ dày vào thực quản bụng và ngực dưới có thể xảy ra do LOS yếu, hoặc do thoát vị hoành. Phẫu thuật chống trào ngược bằng cách phục hồi chiều dài bình thường của đoạn bụng thực quản, giảm bớt thoát vị hoành (là nguyên nhân làm chỗ nối thực quản - dạ dày đi lên vào trong ngực) và tăng lực ép ở xung quanh đoạn bụng thực quản bằng cách quấn một phần của đáy vị xung quanh thực quản bụng.
+
+#### 3.3.2. Lỗ môn vị
+Lỗ môn vị là lỗ mở từ dạ dày vào tá tràng, và thường nằm 1-2 cm về bên phải của đường giữa trong mặt phẳng ngang qua môn vị khi cơ thể nằm ngửa và dạ dày rỗng. Cơ thắt môn vị là một vòng cơ được hình thành do sự dày lên rõ rệt của cơ vòng dạ dày xen kẽ với một số sợi dọc (H.6). Vòng thắt của môn vị trên bề mặt chỉ ra vị trí của cơ thắt môn vị, và thường có một tĩnh mạch trước môn vị bắt chéo mặt trước dọc từ trên xuống.
+
+![Hình 6: Cơ thắt môn vị](giaiphau_media/hinh_p662_6.png)
+*Hình 6. Cơ thắt môn vị [12]*
+
+---
+
+## 4. HÌNH THỂ TRONG
+
+Khi thăm dò qua nội soi, dạ dày thường bị căng ra một phần do không khí. Nhìn từ trên xuống, lỗ tâm vị và phần thấp nhất của thực quản bụng thường được đóng lại do sự co cơ trương lực của cơ phần dưới thực quản. Niêm mạc dạ dày lót Đường Z nhẵn lại thành các gờ mà kéo dài lên thực quản bụng trên một đoạn ngắn; sự chuyển tiếp giữa biểu mô trụ và biểu mô vảy thường có thể nhìn thấy rõ ràng. Sự hiện diện của biểu mô trụ bất thường trong thực quản được gọi là thực quản Barrett. Khi nhìn từ trong dạ dày căng phồng, lỗ tâm vị nằm ở thành trong (giữa) của đáy vị và không đối xứng. Bờ trong của lỗ tâm vị liên tục với thành trong của thân vị. Ở hướng nhìn này, niêm mạc hơi dày lên với dáng nhô cao, tạo thành một phần của “hoa thị niêm mạc” (*mucosal rosette*) viền quanh lỗ. “Hoa thị” hỗ trợ đóng lỗ tâm vị và giúp ngăn trào ngược dạ dày lên thực quản. Bờ trong của lỗ có thể nhìn thấy rõ ràng hơn so với bờ ngoài vì nó tạo thành một góc nhọn hơn với niêm mạc của thực quản bụng.
+
+![Hình 7: Hình ảnh nội soi dạ dày](giaiphau_media/hinh_p663_7.png)
+*Hình 7. Hình ảnh nội soi dạ dày*
+*A: Lỗ tâm vị và đáy vị nhìn từ phía dưới (nội soi quặt ngược) cùng các nếp niêm mạc thành bên xuất phát từ lỗ tâm vị.*
+*B: Thân vị và bờ cong lớn đặc trưng bởi các nếp vị.*
+*C: Hang vị với khuyết góc nhìn từ bên trong.*
+*D: Hang môn vị và ống môn vị.*
+
+Nhìn từ trong dạ dày bị căng phồng một phần, niêm mạc của đáy vị xếp thành những nếp gấp thoải, gọi là *các nếp vị* (*gastric rugae*), giống như ở các nơi khác (H.7). Khi dạ dày đầy dần đến tối đa, những nếp vị này nhanh chóng trở nên kém rõ ràng hơn và thành gần như nhẵn khi dạ dày căng phồng quá mức. Phần thân vị có các nếp gấp niêm mạc rõ rệt nhất. Ngay cả ở mức độ căng vừa, chúng xuất hiện dưới dạng các gờ niêm mạc rộng, dài chạy thành các dải ngoằn ngoèo từ đáy vị đến hang môn vị. Chúng được nhìn thấy trên tất cả các bề mặt niêm mạc của thân vị nhưng rõ ràng nhất ở các phần trước bên, bên và sau bên (tương ứng ở mặt ngoài với mặt trước ngoài, bờ cong lớn và mặt sau ngoài). Ở đây, chúng có khi được gọi là *các đường vị* (*magenstrasse*), có vai trò trong việc hướng chất lỏng đi vào dạ dày xuống ngay được hang môn vị. Những nếp gấp này ít rõ rệt nhất ở mặt trong (tương ứng với mặt trong của bờ cong nhỏ), nơi thường trơn nhẵn hơn nhiều, đặc biệt khi dạ dày căng ra.
+
+*Các diện vị* (*gastric area*) ở niêm mạc hang vị là những vùng bề mặt niêm mạc nhỏ hơi gồ lên hoặc nhăn nhúm có thể dễ dàng nhìn thấy khi dùng thuốc baryt cản quang kép. Một vài nếp gấp có trong hang vị khi dạ dày thư giãn và biến mất khi dạ dày căng. Vùng hang vị tiếp giáp với ống môn vị, tức vùng hang vị tiền môn vị, có bề mặt niêm mạc nhẵn rồi trở thành niêm mạc hơi nhăn nheo ở lỗ môn vị do sự co bóp của cơ thắt môn vị.
+
+---
+
+## 5. CẤU TẠO
+
+Thành dạ dày được cấu tạo bởi 4 lớp, tính từ ngoài vào là:
+- **Phúc mạc** với lớp *thanh mạc* (*serosa*) ở ngoài và *tấm dưới thanh mạc* (*subserosa*) ở trong.
+- **Lớp cơ** (*muscular layer*) với *lớp dọc* (*longitudinal layer*) ở ngoài, *lớp vòng* (*circular layer*) ở giữa và *các sợi chéo* (*oblique fibres*) ở trong cùng. Lớp vòng kém phát triển ở tâm vị nhưng dày lên ở môn vị thành *cơ thắt môn vị* (*pyloric sphincter*). Lớp chéo rõ rệt ở nửa dưới dạ dày; lớp dọc phát triển ở hai phần ba trên dạ dày. Trong lớp cơ có đám rối áo cơ ruột (đám rối Auerbach).
+- **Lớp dưới niêm mạc** (*submucosa*) chứa mô liên kết, mạch máu và thần kinh, trong đó có đám rối Meissner.
+- **Lớp niêm mạc** (*mucosa*) bao gồm, từ phía lòng dạ dày ra, biểu mô trụ đơn tiết niêm dịch, lá riêng và cơ niêm. Bề mặt biểu mô có màu đỏ nâu hoặc hồng, có các *nếp vị* nằm chủ yếu theo chiều dọc. Trên nếp vị có các nếp nhung mao. Dưới kính hiển vi ở độ phóng đại thấp, bề mặt niêm mạc dạ dày có dạng tổ ong với các *hõm vị* (*gastric pits*) có đường kính khoảng 0,2 mm. Phần đáy của mỗi hõm có một số tuyến vị đổ vào.
+
+---
+
+## 6. SỰ CẤP MÁU VÀ DẪN LƯU BẠCH HUYẾT
+
+### 6.1. Động mạch (H.8)
+
+Nguồn cấp máu động mạch đến dạ dày chủ yếu đến từ *động mạch thân tạng*, trực tiếp hoặc gián tiếp, bao gồm các động mạch vị trái và phải, các động mạch vị mạc nối trái và phải, các động mạch vị ngắn và đôi khi động mạch vị sau.
+
+![Hình 8: Các động mạch của dạ dày](giaiphau_media/hinh_p664_8.png)
+*Hình 8. Các động mạch của dạ dày [12]*
+
+- **Động mạch vị trái** (*left gastric artery*): Động mạch vị trái là nhánh nhỏ nhất của động mạch thân tạng. Nó đi lên trên, sang trái ở dưới phúc mạc của thành sau trên của túi mạc nối. Ở dưới phúc mạc, nó nằm liền kề với động mạch hoành dưới trái và phía trong hoặc trước của tuyến thượng thận trái. Tiếp đó nó chạy ra trước vào phần trên của mạc nối nhỏ tiếp giáp với đầu trên của bờ cong nhỏ, rồi hướng về phía trước dưới để chạy dọc theo bờ cong nhỏ giữa hai lá phúc mạc của mạc nối nhỏ. Ở chỗ cao nhất trên đường đi, nó cho một hoặc nhiều nhánh thực quản. Trên đường đi dọc theo bờ cong nhỏ, nó tách ra nhiều nhánh chạy lên các mặt trước và sau của dạ dày và tiếp nối với động mạch vị phải ở vùng khuyết góc.
+  Động mạch vị trái có thể tách ra (hoặc xuất phát từ) động mạch gan trái, khi động mạch vị trái đi qua giữa các lớp phúc mạc của phần trên mạc nối nhỏ để đến bờ cong nhỏ của dạ dày (Một động mạch gan trái phụ/động mạch gan trái thay thế có nguyên ủy từ động mạch vị trái hay gặp hơn trường hợp một động mạch vị trái phụ/động mạch vị trái thay thế có nguyên ủy từ động mạch gan trái).
+- **Các động mạch vị ngắn** (*short gastric arteries*): Các động mạch vị ngắn là mạch cấp máu cho đáy vị ở trên mức của động mạch lách và xuất phát ở bên trái của bờ cong lớn của dạ dày. Chúng có số lượng thay đổi và xuất phát từ động mạch lách hoặc các nhánh của nó, hoặc từ phần gần động mạch vị mạc nối trái, và đi qua giữa các lá của dây chằng vị lách để cấp máu cho tâm vị và đáy vị. Chúng nối với các nhánh của các động mạch vị trái và vị mạc nối trái.
+- **Động mạch vị mạc nối trái** (*left gastroepiploic artery*): Động mạch vị mạc nối trái là nhánh lớn nhất của động mạch lách và xuất phát gần rốn lách. Nó chạy ra trước, xuống dưới và sang phải ở giữa các lá của mạc nối lớn và dọc theo bờ cong lớn dạ dày, tiếp nối với động mạch vị mạc nối phải. Nó tách ra các nhánh vị đến dạ dày và các nhánh mạc nối cho mạc nối lớn, trong đó có một nhánh rất lớn tách ra ở gần nguyên ủy cấp máu cho nửa trái mạc nối lớn. Các nhánh vị dài hơn các nhánh vị của động mạch vị mạc nối phải và có thể dài 8 - 10 cm.
+- **Động mạch vị sau** (*posterior gastric artery*): Động mạch này có thể có hoặc không. Khi có, nó xuất phát từ đoạn giữa động mạch lách, sau thân vị. Nó đi lên ở dưới phúc mạc của thành sau túi mạc nối rồi đi qua dây chằng vị hoành tới mặt sau dạ dày.
+- **Động mạch vị phải** (*right gastric artery*): Động mạch vị phải xuất phát từ động mạch gan chung khi động mạch gan chung nằm trong mạc nối nhỏ ở ngay trên phần trên tá tràng. Nó chạy giữa các lá phúc mạc của mạc nối nhỏ ngay trên đầu phải của bờ cong nhỏ, rồi chạy lên dọc bờ cong nhỏ, tách ra nhiều nhánh lên các mặt trước và sau của dạ dày, và nối với động mạch vị trái. Động mạch vị phải có thể tách ra từ động mạch gan trái, từ động mạch vị - tá tràng hay từ động mạch tá tràng trên.
+- **Động mạch vị tá tràng** (*gastroduodenal artery*): Động mạch vị tá tràng xuất phát từ động mạch gan chung ở sau và trên phần trên của tá tràng. Nó đi xuống sau phần trên tá tràng, tách ra động mạch tá tụy trên sau và khi tới bờ dưới của phần trên tá tràng thì tận cùng bằng 2 nhánh là *động mạch tá tụy trước trên* và *động mạch vị mạc nối phải*.
+- **Động mạch vị mạc nối phải** (*right gastroepiploic artery*): Động mạch vị mạc nối phải bắt nguồn từ động mạch vị - tá tràng ở sau phần trên của tá tràng, trước đầu tụy. Nó đi xuống dưới và sang trái giữa các lá của mạc nối lớn, đầu tiên đi sát dưới môn vị, sau đi dọc dưới bờ cong lớn (cách độ 2 cm) và kết thúc bằng cách tiếp nối với động mạch vị mạc nối trái. Động mạch vị mạc nối phải tách ra các nhánh vị cho các mặt trước và sau hang vị và phần dưới của thân vị và các nhánh mạc nối cho mạc nối lớn.
+
+#### Vòng nối động mạch của dạ dày
+Tại tâm vị, có sự tiếp nối giữa các động mạch thực quản xuất phát từ động mạch chủ ngực và các mạch cấp máu cho đáy vị. Tại môn vị, các mạch cấp máu cho tá tràng có nguồn gốc từ động mạch mạc treo tràng trên tiếp nối với các mạch môn vị của dạ dày. Các động mạch chính cấp máu cho dạ dày tạo thành các vòng nối động mạch rộng trên bề mặt thanh mạc và xung quanh các bờ cong của dạ dày. Các động mạch vị mạc nối phải và trái nối với nhau trên bờ cong lớn; các động mạch vị trái và phải tiếp nối với nhau tại bờ cong nhỏ. Các vòng tiếp nối cũng hình thành giữa các động mạch vị ngắn và vị trái ở vùng đáy vị, và giữa các động mạch vị phải và vị mạc nối phải ở vùng hang vị. Ngoài các tiếp nối thanh mạc rộng rãi, các mạng mạch máu còn hình thành trong thành dạ dày ở trong lớp cơ, lớp dưới niêm mạc và niêm mạc. Một đám rối thực sự của các động mạch nhỏ và tiểu động mạch hiện diện trong lớp dưới niêm mạc: nó cấp máu cho niêm mạc và có nhiều dạng biến đổi trong thành dạ dày và phần gần của tá tràng. Nguồn cấp máu động mạch dồi dào cho dạ dày đảm bảo duy trì lưu lượng máu niêm mạc cao cần thiết cho hoạt động sinh lý ngay cả khi một hoặc nhiều mạch bị tắc: Dạ dày thể hiện khả năng đề kháng cao với thiếu máu cục bộ ngay cả khi nhiều nguồn cấp máu động mạch bị mất.
+
+Các động mạch môn vị là nhánh của động mạch vị phải và vị mạc nối phải. Chúng xuyên qua đoạn xa tá tràng đến cơ thắt môn vị quanh toàn bộ chu vi của nó và đi qua lớp cơ đến lớp dưới niêm mạc, nơi chúng chia thành hai hoặc ba nhánh. Các nhánh quay trở lại ống môn vị bên dưới niêm mạc và chạy đến phần cuối của lỗ môn vị: chúng cấp máu cho toàn bộ niêm mạc của ống môn vị. Các nhánh của động mạch dưới niêm mạc môn vị có thể nối gần nguyên uỷ của chúng với động mạch dưới niêm mạc tá tràng, và nhánh tận cùng của chúng tiếp nối với động mạch dạ dày từ hang vị tiền môn vị. Cơ thắt môn vị được cấp máu bởi các động mạch dạ dày và môn vị qua các nhánh từ các mạch dưới thanh mạc và dưới niêm mạc để đi vào cơ thắt.
+
+### 6.2. Tĩnh mạch
+
+Các tĩnh mạch dẫn lưu máu từ dạ dày đổ vào *tĩnh mạch cửa* (H.9). Máu từ một mạng lưới tĩnh mạch nội thành và dưới niêm mạc phong phú của dạ dày được dẫn lưu về các tĩnh mạch mà thường đi kèm với các động mạch có tên tương ứng. Rồi các tĩnh mạch này đổ vào *tĩnh mạch lách* hoặc *tĩnh mạch mạc treo tràng trên*, một số đổ trực tiếp vào tĩnh mạch cửa.
+
+- Các tĩnh mạch vị ngắn đổ vào tĩnh mạch lách hoặc một trong các nhánh lớn của nó.
+- Tĩnh mạch vị mạc nối trái đổ vào tĩnh mạch lách trong dây chằng vị lách.
+- Tĩnh mạch vị mạc nối phải đổ vào tĩnh mạch mạc treo tràng trên bên dưới cổ tụy. Tĩnh mạch vị mạc nối phải có thể nhận tĩnh mạch tá tụy trên gần chỗ nó đổ vào tĩnh mạch mạc treo tràng trên.
+- Tĩnh mạch vị trái đi lên dọc theo bờ cong nhỏ đến lỗ thực quản, nơi nó tiếp nhận một số tĩnh mạch phần dưới thực quản, sau đó cong ra sau và vào trong phía sau phúc mạc thành sau của túi mạc nối. Nó chảy vào tĩnh mạch cửa trực tiếp ở ngang mức bờ trên của phần trên tá tràng.
+- Tĩnh mạch vị phải thường nhỏ và đổ trực tiếp vào tĩnh mạch cửa ở ngang mức phần trên của tá tràng. Nó tiếp nhận tĩnh mạch trước môn vị. Các tĩnh mạch vị sau khi xuất hiện đổ vào tĩnh mạch lách.
+
+![Hình 9: Các tĩnh mạch (TM) của dạ dày](giaiphau_media/hinh_p667_9.png)
+*Hình 9. Các tĩnh mạch (TM) của dạ dày [12]*
+
+#### Giãn tĩnh mạch thực quản và dạ dày
+Máu từ niêm mạc thường chảy vào một đám rối tĩnh mạch nông dưới bề mặt niêm mạc, sau đó vào một đám rối tĩnh mạch nội tại sâu hơn và cuối cùng vào các tĩnh mạch quanh thực quản qua các tĩnh mạch xuyên. Tại thực quản bụng, các tĩnh mạch xuyên dẫn lưu vào các nhánh của tĩnh mạch vị trái; ở thực quản ngực dưới, chúng tạo thành các nhánh của các hệ tĩnh mạch đơn và bán đơn. Các đám rối tĩnh mạch thực quản là nơi tiếp nối giữa các tĩnh mạch hệ cửa với các tĩnh mạch của tuần hoàn hệ thống.
+
+Giãn tĩnh mạch xảy ra chủ yếu ở đám rối dưới niêm mạc của thực quản bụng và đôi khi ở niêm mạc dạ dày gần lỗ tâm vị khi áp lực tĩnh mạch cửa lớn hơn 15 mmHg. Máu chảy ngược về các đám rối tĩnh mạch thực quản vì những van một chiều trong các tĩnh mạch xuyên bị suy. Thường dễ dàng nhìn thấy tĩnh mạch giãn khi nội soi vì chúng nằm ngay trong lớp lá riêng của niêm mạc và nhô ra lòng thực quản; chúng là nguyên nhân thường xuyên của xuất huyết đường tiêu hóa trên. Giãn tĩnh mạch dạ dày thường xuất hiện ở mặt dưới của lỗ tâm vị.
+
+---
+
+## 7. SỰ DẪN LƯU BẠCH HUYẾT
+
+Dạ dày có một mạng lưới mạch bạch huyết phong phú kết nối với các mạch bạch huyết từ các cơ quan nội tạng khác của vùng trên ổ bụng. Tại chỗ nối dạ dày-thực quản, các mạch bạch huyết liên tục với các mạch bạch huyết của phần dưới thực quản, và ở vùng môn vị, chúng liên tục với các mạch bạch huyết của tá tràng. Nhìn chung, bạch huyết đi theo đường đi của các động mạch cấp máu cho dạ dày.
+
+Hiệp hội Ung thư Dạ dày Nhật Bản (JGCA), dựa theo vị trí gần xa của các hạch so với khối ung thư dạ dày nguyên phát, đã xếp các hạch bạch huyết dạ dày thành 16 nhóm theo tên gọi (H.10) và đánh số:
+1. Cạnh tâm vị phải;
+2. Cạnh tâm vị trái;
+3. Bờ cong nhỏ;
+4. Bờ cong lớn;
+5. Trên môn vị;
+6. Dưới môn vị;
+7. (Thân) Động mạch vị phải;
+8. Động mạch gan chung;
+9. Động mạch thân tạng;
+10. Rốn lách;
+11. Động mạch lách;
+12. Cuống gan (dây chằng gan - tá tràng);
+13. Sau đầu tụy;
+14. Rễ mạc treo ruột non (các mạch mạc treo tràng trên);
+15. Mạc treo đại tràng ngang (động mạch đại tràng giữa);
+16. Cạnh động mạch chủ.
+
+Các nhóm 1 - 6 là các nhóm quanh dạ dày hay N1. Các nhóm từ 7 trở lên là các nhóm ngoài dạ dày, trong đó từ 7 - 11 là N2, từ 12 - 16 là N3. Các mức N có thể được xem như các phòng tuyến mà ung thư có thể vượt qua. Về sau, JGCA thêm 4 hạch trong bụng: 17. Mặt trước đầu tụy; 18. Bờ dưới thân tụy; 19. Dưới hoành; 20. Cạnh thực quản; và 3 nhóm vùng ngực dưới.
+
+![Hình 10: Các nhóm hạch bạch huyết dạ dày theo JGCA](giaiphau_media/hinh_p668_10.png)
+*Hình 10. Các nhóm hạch bạch huyết dạ dày theo JGCA*
+
+Trong *cắt dạ dày* (*gastrectomy*) do ung thư, cần *nạo vét* (*dissection*) các hạch mà ung thư có thể di căn tới. Các mức cắt bỏ dạ dày tăng dần theo mức nạo vét hạch (D). Trong cắt D1, người ta cắt một phần dạ dày và nạo vét các hạch N1 (có thể thêm nhóm 7); trong cắt D2, cắt toàn bộ dạ dày, nạo vét như D1 cộng thêm các hạch N2....
+
+---
+
+## 8. SỰ CHI PHỐI THẦN KINH
+
+Dạ dày được chi phối bởi các sợi giao cảm và đối giao cảm.
+
+### 8.1. Chi phối giao cảm
+
+Chi phối giao cảm cho dạ dày bắt nguồn từ sừng bên các đốt tủy sống ngực V tới XII. Các sợi trước hạch đi theo các thần kinh tạng lớn và nhỏ tới tận cùng ở đám rối thân tạng. Từ đám rối này, các sợi sau hạch đi tới dạ dày theo các đám rối quanh động mạch của các nhánh động mạch từ động mạch thân tạng tới cấp máu cho dạ dày.
+
+Các thần kinh giao cảm dạ dày có tác dụng co mạch đối với hệ mạch dạ dày và ức chế đối với cơ dạ dày. Chi phối giao cảm cho môn vị là vận động, và dẫn đến co cơ thắt môn vị. Các sợi cảm tạng, bao gồm cả cảm giác đau, đi theo đường các thần kinh giao cảm.
+
+### 8.2. Chi phối đối giao cảm
+
+Các sợi đối giao cảm cho dạ dày đến từ các thân thần kinh lang thang (X) trước và sau (H.11).
+
+![Hình 11: Phân nhánh thần kinh lang thang ở dạ dày](giaiphau_media/hinh_p669_11.png)
+*Hình 11. Phân nhánh thần kinh lang thang ở dạ dày*
+*(các dạng biến đổi được trình bày bằng màu hồng: A: biến đổi của thân X chính trước; B: biến đổi của nhánh môn vị/ nhánh gan so với bờ cong nhỏ)*
+
+- **Thân X trước:** đi ở mặt trước thực quản bụng, phân nhánh vào tâm vị và chia ra ở gần đầu tâm vị của bờ cong nhỏ thành *các nhánh vị trước* (*anterior gastric branches*) và *các nhánh gan* (*hepatic branches*). Ở trên, các nhánh vị trước phân nhánh vào đáy vị và phần trên thân vị. Nhánh vị trước chính được gọi là *thần kinh bờ cong nhỏ trước* (*anterior nerve of lesser curvature*) hay *thần kinh vị trước lớn* (*greater anterior gastric nerve*) và đi trong mạc nối nhỏ gần với bờ cong nhỏ; các nhánh từ thần kinh này đi đến thân vị và hang vị. Các nhánh gan (thường là một nhánh chính và có thể là một nhánh phụ) chạy ngang giữa các lá của mạc nối nhỏ về phía bờ tự do của nó, tách ra nhánh môn vị rồi đi vào rốn gan. *Nhánh môn vị* (*pyloric branch*) đi xuống dưới, bên trái của động mạch gan để đến môn vị. Nhánh môn vị thứ hai thường xuất phát từ thần kinh bờ cong nhỏ trước.
+- **Thân X sau:** nằm gần đường giữa hơn thân X trước và ở cách thành thực quản bụng một khoảng ngắn. Nó tách ra hai nhóm nhánh: *các nhánh vị sau* (*posterior gastric branches*) và *các nhánh thân tạng* (*coeliac branches*). Các nhánh vị sau đi tới mặt sau dạ dày, nhánh lớn nhất được gọi là *thần kinh bờ cong nhỏ sau* (*posterior nerve of lesser curvature*) chạy dọc sau bờ cong nhỏ. Các nhánh thân tạng mang phần lớn các sợi của thân X sau đến đám rối thân tạng. Các sợi đối giao cảm đi vào tận cùng ở đám rối dưới niêm mạc và đám rối áo cơ trong thành dạ dày.
+
+Thần kinh đối giao cảm vận tiết cho tuyến niêm mạc dạ dày và vận động cơ dạ dày. Nó làm giãn cơ thắt môn vị.

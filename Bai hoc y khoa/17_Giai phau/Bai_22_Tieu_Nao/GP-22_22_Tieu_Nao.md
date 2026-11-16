@@ -1,4 +1,5 @@
-# TIỂU NÃO
+# BÀI 22: TIỂU NÃO
+*(Cerebellum)*
 
 **Chương:** Chương 5: Hệ Thần Kinh  
 **Tác giả:** PGS.TS. Nguyễn Văn Huy, ThS. Lê Thị Hạnh  
@@ -6,388 +7,163 @@
 
 ---
 
-Bai 4 
-TIEU NAO 
-(cerebellum) 
-TiSu nao duqc bi6t d6n nhiru nhiit nhu la ph§.n nao c6 chuc nang vsn d9ng, c6 vai 
-tro trong duy tri S\f thang bing va diru ph6i S\f co CO'. N6 c6 dong g6p dtc bi?t vao S\f
-hi?p d6ng cua cac CO' (tuc la co va gian d6ng thai cua nhung CO' khac nhau ma tuo nen 
-m◊t cu d9ng c6 fch), dam bao ring m◊t ca nao d6 phai co dung luc v6i m9t lvc co thich 
-hqp. Cung c6 ly do dS tin riing tiSu nao tham gia vao vi?c h9c dS c6 duqc cac mftu hinh 
-hout d9ng naron dn cho vi?c thi hanh cac cu d9ng va trong thvc hi?n cac hu6ng dftn 
-ma h6a. Cac hout d9ng cua tiSu nao duqc cho la divn ra 6 du6i muc y thuc vi cac b?nh 
-tiSu nao gay r6i loun chuc nang vsn d9ng nhung khong lam miit vsn d()ng tv y. 
-TiSu nao c6 m9t VO, hay lap br mtt, biing chiit xam. Ben trong chiit xam cua VO la 
-m9t thS chiit trling. Vui trong th€ chiit trling nay la 4 doi nhan tiSu nao. Ba doi cu6ng 
-tiSu nao, ciiu tuo biing cac sqi tn)c c6 myelin, n6i tiSu nao v6i than nao. 
-1. V! TRi, HINH THE VA PHAN CHIA (H.1)
-TiSu nao nim trong h6 s9 sau, sau hanh va du nao. Mtt tren cua n6 duqc ngan 
-each v6i dui nao boi lru tiSu nao. Mtt du6i lorn 6 gifra thanh m9t ranh sau, 16i 6 hai ben 
-va t\fa len san h6 s9 sau. 
-Yung d9c gifra tiSu nao thit lui va duqc g9i la nh(mg (vermis) tiSu nao, va ph§.n 
-con lui 6 hai ben nh9ng la cac ban cdu (hemisphere). Ph§.n nh9ng tren nhu hoa lftn vao 
-cac ban du nhung nh9ng du6i nim trong m()t vung trung sau, g9i la thung lung 
-(vallecula), va duqc phan each ro v6i ban du. Ph§.n g§.n nh9ng cua cac ban du, 6 1 - 2 
-cm ben ngoai nh9ng, la vimg cr;mh nh(mg (paravermal zone). 
-A 
-Khe chinh 
-K.he sau ben 
-B 
-Thuytru&c 
-} cua than
-ti!u nao 
-Thuy sau 
-Thuy nhung C\JC 
-H;mh nhan ti"u nao 
-
-![Hinh 1. Hinh the ngoai va phan chia tieu nao: nhin tll' tren (A) va dU'&i (B) [12]](giaiphau_media/hinh_p353_1.png)
-
-*Hinh 1. Hinh the ngoai va phan chia tieu nao: nhin tll' tren (A) va dU'&i (B) [12]*
-
-
-
-
-<!-- Hết trang 353 -->
-
-
-TiSu nao duqc chia thanh ba vimg 16n hay ba thuy theo mit philng nrtm ngang. 
-Thuy nhung C'l;lC (flocculonodular lobe) la phfrn nrtm tru6c va tren nhfit cua m?t dum. 
-Nu tiSu nao duqc du6i ph5ng ra, thuy nay se la phfrn niim dum nhfit, trong d6 Cl,lC se la 
-phfrn du6i cung cua nh(mg con nhung se la phfrn du6i cung cua cac ban du. Khe sau 
-hen (posterolateral fissure) la khe ngan thuy nhung c1,1c v6i phfrn tiSu nao con l?i. Phfin 
-tiSu nao con l?i, g9i la than tiiu nao (body of cerebellum), l?i duqc khe nhdt (primary 
-fissure) chia thanh cac thuy tru6c va sau. Thuy tru&c (anterior lobe of cerebellum) la 
-phfin m?t tren tiSu nao nrtm tru6c khe nhk Thuy sau (posterior lobe of cerebellum) la 
-mc)t thuy 16n nrtm ca tren cac mt tren va du6i; nhc)ng cua thuy sau duqc phiin bi?t
-thanh nhc)ng tren niim 6 mt tren va nhc)ng dum nrtm 6 m?t dum.
-Trfrn cua phfrn tren nao thfit b6n duqc t?O nen b6i cac cu6ng tiSu nao tren va man 
-tuy tren bic du gifra hai cu6ng. Phfin du6i cua trfin duqc to nen b6i man tuy du6i, do 
-mang m€m va mang nc)i tuy t?o nen. Mang nay thuong dinh v6i phfin du6i cua nhc)ng. 
-Ba d6i cu6ng tiSu nao duqc gin vm m?t tru6c tiSu nao trong khoang nrtm gifra thuy 
-tru6c va thuy nhung Cl,lC. 
-Nhfrng khe khac tiep tl,lc cbia cac thuy tiSu nao, nhfit la thuy sau, thanh cac tiSu 
-thuy. Nhfrng vung chia nh6 nay it c6 y nghia chuc nang hay lam sang, trir cac hqnh 
-nhan (tonsils) tiSu nao niim & hai ben c1,1c. Khi cac thanh phfrn trong h6 so sau bi tl,lt 
-xu6ng 16 16n xucmg chim, h?nh nhiin c6 th€ ep vao vung chua cac trung tam s6ng cua 
-hanh nao. Hnh nhiin cung la mc)t m6c trong d9c phim Ch\lp m?Ch vi n6 gin li€n v6i 
-duong cong d?C trung trong duong di cua dc)ng m?Ch tiSu nao du6i sau. 
-2. V6 TIEU NAO (cerebellar cortex) (H.2)
-B€ m?t tiSu nao bj gfip l?i thanh nhi€u la hyp, v6i 85% di?n tich b€ m?t v6 bj che 
-khufit trong cac ranh xen gifra cac la. Di?n tich v6 tiSu nao brtng khoang ba phfrn tu di?n 
-tich v6 di nao. 
-l Molecular layer
-Purkinje cell layer
-Granule cell layer
-White malter 
-
-![Hinh 2. Cau true naron v6 tieu nao. Purkinje cell = te baa Purkinje; Purkinje cell axon = sqi](giaiphau_media/hinh_p354_2.png)
-
-*Hinh 2. Cau true naron v6 tieu nao. Purkinje cell = te baa Purkinje; Purkinje cell axon = sqi*
-
-tn,ic te baa Purkinje; climbing fibre = SQ'i lea; mossy fibre = SQ'i reu; granule cell = te baa 
-h>t; Golgi cell = te baa Golgi; basket cell= te baa ro; stellate cell= te baa sao; parallel 
-fibre = SQ'i song song; white matter = chat trang. 
-
-
-
-<!-- Hết trang 354 -->
-
-
-Vo duqc cfm t!,lo bfing ba lap. L(Jp ti baa Purkinje (Purkinje cell layer) g6m mot 
-hang than tS bao Purkinje, v6n la nhfrng tS bao chinh cua VO tiSu nao. Nfim n6ng hem 
-hang tS bao chinh nay la l(Jp phdn tu, nai cac nhanh canh cua cac tS bao Purkinje phiin 
-nhanh trong mt phimg vu6ng g6c v6i tll,lC d9c cua cac la va synap v6i cac sqi tn,ic tu 
-lap h!,lt di ra. L(Jp ti baa h9t (granule cell layer) nfim sau du6i lap t€ bao Purkinje, chua 
-cac naron lien hqp (trong d6 c6 tS bao h?t) ma c6 SQ'i tll,lC cua ch(mg di vao lap phan tu. 
-Nhfrng naron lien hqp khac, nhu tS bao Golgi, tS bao r6, t€ bao sao, c6 than tS bao nfim 
-trong lap phiin tu va lap h?t. 
-Trong cac SQ'i dSn tiSu nao, cac S(Ji lea (climbing fibers) xuftt phat tu phuc hqp 
-tram du6i thi synap v6i phin gin cua cay nhanh canh cua cac tS bao Purkinje trong lap 
-phan tu. Cac SQ'i dSn tiSu nao tu cac ngu6n khac tn cung nhu cac S(Ji reu (mossy 
-fibers), va synap v6i cac naron trong lap h!,lt. Cac sqi tll,lC cua cac tS bao h!,lt c6 cac 
-nhanh g9i la cac sgi song song ch?y theo tll,lc d9c cua la trong lap phan tu. Lo?i sgi tll,lc 
-duy nhftt rai khoi VO tiSu nao la cac sgi tll,lC cua cac tS bao Purkinje. Nhfrng sgi nay tn 
-cung (J cac nhan cua tiSu nao, ngo!,li tru nhfrng sgi tu VO cua thuy nhung C\lC thi di t&i 
-than nao. 
-Tftt ca cac sqi tll,lC dSn tiSu nao du tach ra cac nhanh ben t&i synap v6i cac naron 
-trong cac nhan tiSu nao tru6c khi chung di dSn VO tiSu nao. 
-3. CAC NHAN TIEU NAO (cerebellar nuclei) (H.3)
-B6n d6i nhan nllm vui trong chftt trling tiSu nao; theo hu6ng tu gifra sang ben, 
-chung la nhan n6c, nhan ciu, nhan nut va nhan rang. 
-, Canh tay lien hqp 
--:::,Nao th%t IV
-Ch%t tr&ng 
-',, Nhan rang 
-Vo ti'u nao 
-
-![Hinh 3. Cac nhan tieu nao [12]](giaiphau_media/hinh_p355_3.png)
-
-*Hinh 3. Cac nhan tieu nao [12]*
-
-Nhdn n6c (fastigial nucleus) nllm sat v6i duang gifra, hiu nhu tiSp xuc v6i n6c 
-cua nao thftt b6n. Nhdn xen (interposed nucleus), bao g6m hai cvm tS bao la nhdn cdu 
-(globose nucleus) va nhdn nut ( emboliform nucleus), thi nllm gifra nhan n6c va nhiin 
-rang. Nhdn rang ( dentate nucleus) c6 hinh dang gi6ng chiSc vi nhau, gi6ng nhan tram 
-du6i, v6i r6n hu6ng vao duang gifra, nai cac sqi rai khoi nhan. 
-
-
-
-<!-- Hết trang 355 -->
-
-
-Cac nhan ti€u nao nhn dugc cac ti€p n6i d€n tu hai ngu6n: tu cac ngu6n 6 ben 
-noai ti€u nao :va tu ac t€ bao Purk_inje cua VO ti€u na?. Cac ngu6n tu ben ngoai bao
-gom: cac SQ'i cau - tieu nao, tuy - tieu nao Va tram - tieu nao, Cung VO'i cac SQ'i tu cac 
-nhan lu6i tru6c ti€u nao. H§.u h€t cac SQ'i d€n nay la nhanh ben cua cac SQ'i di t6i VO ti€u 
-nao. M<)t it SQ'i do - ti€u nao tn cung 6 nhan xen, va nhan n6c nhn dugc cac SQ'i dSn tu 
-th§.n kinh va cac nhan tiSn dinh. Trong khi nhan n6c ph6ng chi€u t6i than nao qua cu6ng 
-ti€u nao du6i thi cac SQ'i tu cac nhan khac rai ti€u nao qua cu6ng ti€u nao tren va tn 
-cung 6 than nao va d6i thi. 
-Trong khi cac xung d<)ng t6i nhan ti€u nao tu cac ngu6n ben ngoai la kich thich 
-thi xung d<)ng dSn cac nhan ti€u nao tu cac tS bao Purkinje, v6i chit trung gian la 
-GABA, la uc ch€. Thong tin dugc xu ly tho 6 cac nhan ti€u nao dugc chinh ly bng tin 
-hi?u UC ch€ tu VO ti€u nao, dam bao S\f ph6ng chiSu tu nhan ti€u nao t6i than nao va d6i 
-thi bi€n d6i phu hgp v6i thong tin dugc chuy€n dSn ti€u nao 6 bit cu luc nao. 
-4. CHAT TRANG TIEU NAO VA cAc CUONG TIEU NAO (cerebellar peduncles)
-Chit tring a vung nh<)ng c6 ki€u phan nhanh nhu canh cay, g9i la cay s6ng tidu 
-nii.o (arbor vitae cerebelli) tren thiSt d6 d9c (H.4). M6i ban du c6 m<)t kh6i chit tring 
-16n ma nhan rang vui 6 trong. Chit tr[ng bao g6m cac SQ'i dSn va di cua VO va cac nhan 
-ti€u nao. Tftt ca cac SQ'i nay di qua va to nen cac cu6ng ti€u nao. 
-Cu6ng tidu nao duai (inferior cerebellar peduncle) chu ySu bao g6m cac sgi di t6i 
-(afferents) ti€u nao, v6i thanh ph§.n 16n nhftt la cac sgi tram ti€u nao tu phuc hgp nhan 
-tram du6i d6i ben. Cac SQ'i dSn khac la dai tuy - ti€u nao sau va cac SQ'i tiSn dinh - ti€u 
-nao (tu th§.n kinh va cac nhan tiSn dinh) va tu cac nhan cua hanh nao (nhan cung, nhan 
-cam giac th§.n kinh V). Cac sgi di (efferents) trong cu6ng ti€u nao du6i g6m cac sgi ti€u 
-nao - tiSn dinh (xuftt phat tu thuy nhung C\lC va nhan n6c va di t6i cac nhan tiSn dinh) va 
-cac SQ'i ti€u nao - lu6i t6i du to lu6i cua hanh nao va du nao. 
-Cu nao 
-
-![Hinh 4. Thiet do d9c giO,a tieu nao cho thay hinh anh cay song tieu nao cua chat trang](giaiphau_media/hinh_p356_4.png)
-
-*Hinh 4. Thiet do d9c giO,a tieu nao cho thay hinh anh cay song tieu nao cua chat trang*
-
-Cu6ng ti€u nao gifra bao g6m cac SQ'i du - ti€u nao b[t ngu6n tu cac nhan du ben 
-d6i di?n. 
-
-
-
-<!-- Hết trang 356 -->
-
-
-Cu6ng tiSu nao tren chu y€u dm;rc two nen boi cac sqi di: cac sqi tiSu nao - dlii thi 
-xufit phat tir nhan rang; cac sqi tiSu nao - nhan do xufit phat tir nhan xen. Cac sqi dSn 
-tiSu nao glim dai tuy - tiSu nao tnr&c, cac SQ'i mai - tiSu nao tir mai trung nao va cac sqi 
-dSn tiSu nao tir vSt h,1c. 
-5. GIAI PHAU CHU'C NANG
-C6 ba ph§.n cua tiSu nao duqc cong nhxn tren CO' SO' cua giai ph§.u so sanh. Nhfrng 
-vung nay bao glim: 
-- Tiiu ncio c6 (nguyen thuy) (archicerebellum), v6n la thanh ph§.n duy nhfit c6 6
-cac loai ca va luong cu bxc thip. Thuy nhung C\lC thu9c tiSu nao nguyen thuy. 
--
-ClfU, tiiu ncio (paleocerebellum), v6n c6 myt 6 cac loai luong cu bxc cao hon
-va l&n hon a bo sat va chim. Nh9ng tiSu nao, trir nh9ng tren cua thuy sau, thu9c c6 tiSu 
-nao. 
--
-Tan tiiu ncio (neocerebellum), v6n chi thiy 6 cac loai c6 vu va l&n nhit 6
-nguai, bao glim cac ban du tiSu nao va nh9ng tren cua thuy sau. 
-A 
-B 
-Vestibulocerebellum 
-Spinocerebellum 
-OPontocerebellum 
-
-![Hinh 5. Phan chia v6 tieu nao theo chU'c nang. Mau d6 = tien dinh - tieu nao;](giaiphau_media/hinh_p357_5.png)
-
-*Hinh 5. Phan chia v6 tieu nao theo chU'c nang. Mau d6 = tien dinh - tieu nao;*
-
-mau xanh = tuy - tieu nao; mau vang = cau - tieu nao. 
-Nhfrng phan chia theo SlJ phat sinh loai nay cua tiSu nao ph§.n l&n tuong ung nhfrng 
-phan chia theo chuc nang, dva tren ngulin cua nhfrng sqi reu di d€n tiSu nao (Cac sqi leo 
-di dSn tfit ca cac ph§.n cua VO tiSu nao nen khong duqc dung lam can cu phan chia). 
-Cac ph§.n theo chuc nang cua tiSu nao nhu sau (H.5). 
-
-
-
-<!-- Hết trang 357 -->
-
-
-TiJn dinh - tidu nao (vestibulocerebellum) la thuy nhung C\lC va tiSp nh?n xung 
-d9ng dSn ill thin kinh va cac nhan tiSn dinh. TiSn dinh tiSu nao tuang duang v&i tiSu 
-nao nguyen thuy. 
-Tuy - tidu ncio (spinocerebellum) g§.n tuang ducmg v&i C\lU tiSu nao, bao g6m 
-nh9ng cung v&i cac vung C?n nh9ng liSn kS cua cac ban du, tru ph§.n nh9ng tren cua 
-thuy sau. Cac dai tuy - tiSu nao va cac sqi chem - tiSu nao, v6n V?n chuySn thong tin 
-cam giac ban thS va cac cam giac khac, t?n cung (J day. 
-Cdu - ttiu nao (pontocerebellum) g§.n tuang duang v&i tan tiSu nao (hp han tan 
-tiSu nao ), bao g6m ph§.n ben cua cac ban du va vung nh9ng tren cua thuy sau; cac sqi 
-dSn xuit phat ill cac nhan du ben d6i di?n. C6 sv g6i !en nhau cua cac ph§.n; vi d\l, cac 
-sqi thu9c tuy - tiSu nao va du - tiSu nao dSu t?n cung & VO nao cac vung C?n nh9ng. 
-5.1. Tin dinh - tiiu nao (H.6) 
-Dfin truySn t6i nhan cac 
-th§n kinh s9 Ill, IV, VI ______________ ..,..D§n truySn t6i
-dai tuy-ti€u nao 
-Nhan ltr6i tr§n du 
-B6 d9c gifra . 
-Pht'.rc hqp 
-
-:
-tram dtra
-.
-·i
-W
-: 
-(b) 
-: 
--
-I 
--...._ Dai tiSn dinh-tuy 
-D§n truySn t6i tuy s6ng 
-Cac nhan tiXn dlnh 
-,,,,.------►-- Cac sc;ri tu ca 
----' _____ 
-: - quan tin dinh
-' 
-, 
-' -Y _,
-Hi;ich tiSn dinh 
-V6 ti€u nao thuy nhung C\JC 
-
-![Hinh 6. Cac tiep noi cua tien dinh - tiu nao](giaiphau_media/hinh_p358_6.png)
-
-*Hinh 6. Cac tiep noi cua tien dinh - tiu nao*
-
-TiSn dinh - tiSu nao tiSp nh?n cac sqi dSn tu hch tiSn dinh va ill cac nhan tiSn 
-dinh & cung ben. M9t s6 sqi dSn ill nhfrng ngu6n nay tn cung & nhan n6c, v6n la nhan 
-da tiSp nh?n cac nhanh ben cua nhfrng sqi t[\lC di t&i VO cua tiSn dinh tiSu nao. Ti€n 
-dinh - tiSu nao cung tiSp nh?n cac sqi dSn ill cac nhan tram ph1,1 ben d6i din. Nhfrng 
-sqi nay c6 cac nhanh ben di t&i nhan n6c va t?n cung nhu nhfrng sqi leo & VO cua thuy 
-nhung C\lC. 
-
-
-
-<!-- Hết trang 358 -->
-
-
-Khong theo quy lu?t chung (la cac SQ'i di tu v6 ti€u nao t?ll cung a cac nhan ti€u 
-nao ), m9t s6 SQ'i tn,ic cua t€ bao Purkinje di t&i than nao; tuy nhien, hnu h€t v1n t?n cung 
-6 nhan n6c. Cac sqi tu v6 ti€u nao va tu nhan n6c di qua cu6ng ti€u nao du&i d€n t?n 
-cung a phuc hqp nhan tiSn dinh va & nh6m trung tam cua cac nhan lu&i. 
-T6m l?i, tion dinh ti€u nao anh hu&ng len cac naron V?n d9ng qua dai tiSn dinh -
-tuy, b6 doc giua va cac SQ'i lu&i - tuy. N6 lien quan d€n S\f diSu chinh trucmg l\l'C ca khi 
-dap ung v&i cac kich thich tiSn dinh. N6 diSu hoa ho?t d9ng cua cac ca duy tri S\f thang 
-bing va tham gia vao cac dap ung V?ll d9ng khac, bao g6m cac dap ung V?n d9ng cua 
-mit, tru&c cac kich thich tiSn dinh. 
-5.2. Tuy - tiu nao (H. 7) 
-V 6 nao tuy - ti€u nao ti€p nh?n cac sqi d€n tu: 
-- Cac dai tuy - ti€u nao, chem - ti€u nao va ca ba nhan cam giac thnn kinh V, tuc
-la tu toan be;, h? th6ng cam giac than th€. 
-- Cac nhan lu&i ben va C?nh giua, la nhung nhan tru&c ti@u nao da ti€p nh?n cac
-SQ'i cam giac tuy - lu&i va cac SQ'i tu cac vung cam giac va V?n d9ng cua v6 d?i nao; 
-nhan lu&i trnn cnu, la nhan da nh?n SQ'i d€n tu v6 d?i nao va cac nhan tiSn dinh. 
-- Phuc hqp tram du&i. Cac nhan tram ph\l, nai t?n cung cua cac sqi tuy - tram,
-pp6ng chi€u t&i my - ti€u nao. Cac sqi tram - ti€u nao t?n cung nhu nhung sqi leo 6 v6 
-tieu nao. 
-- Cac sqi mai - ti@u nao mang thong tin thi giac va thinh giac tu mai trung nao.
-Ph§n sau nhiin b1,mg ben cua d6i thj 
-D . 
-. _ Nhiin lu6i
-mmg gma 
-,. 
-,. 
-; 
-tran cau 
-' 
-) 
-Cfru t_o lu6i (nh6m nhiin trung tam) 
-Cac nhiin lu6i ben va qnh gifra 
-' 
-"u va nhiin nut
-hqp tram du6i d6i ben 
--V 6 nhong va v6 c`n nhong
-Nbiin n6c 
-··-..
-I 
-·r-----Nbiin tian dinh 
-/Dai tuy-lu&i/ 
-Cac dai tuy, chem, sinh ba tibu nao 
-Dai lu&i c tuy 
-Dai tian dinh tuy 
-
-![Hinh 7. Cac tiep noi cua tuy - tieu nao](giaiphau_media/hinh_p359_7.png)
-
-*Hinh 7. Cac tiep noi cua tuy - tieu nao*
-
-
-
-
-<!-- Hết trang 359 -->
-
-
-Nhanh ben cua cac sqi tnic n:r tfit ca cac ngu6n d€n khac nhau t?n cung a cac nhan 
-xen (nhan nay cfing nh?n cac sqi n:r nhan do). 
-Vo tuy - ti€u nao ph6ng chi€u t6i nhan n6c (n:r nh(mg) va t6i cac nhan xen (n:r cac 
-vung C?n nh9ng). SlJ hi?p d6ng co CCJ va SlJ ki€m soat truang llJC CCJ duqc thlJC hi?n m9t 
-ph~n qua cac ti€p n6i mai - hanh (xem ti€n dinh - ti€u nao ). Sqi tnic n:r cac nhan xen di 
-qua cu6ng ti€u nao tren va t?n cung (J nh6m nhan lu6i trung tam. Nhu V?Y, tuy - ti€u 
-nao c6 th€ gay anh huang len cac naron V?n d9ng qua cac S<;Yi lu6i - tuy va m9t SlJ 
-ph6ng chi€u tuang tlJ t6i nhan V?n d9ng cua cac th~n kinh SQ. Tuy - ti€u nao gay anh 
-huong len h? CCJ barn xuang cung ben bng each tac d9ng len cac naron V?Il d9ng ca 
-alpha va gamma. M9t s6 sqi tnic n:r nhan xen di qua cu6ng ti€u nao tren va t?n cung a
-nhan do, r6i nhan nay l1;1i ph6ng chi€u t6i nhan tram du6i. Cac sqi khac di t6i nhan bl,lilg 
-ben cua d6i thi, r6i nhan nay ph6ng chi€u t6i vung VO V?n d9ng thl'.r nhfit cua dt;1i nao. 
-T6m l1;1i, tuy - ti€u nao ti€p nh?n nhi€u thong tin cam giac (ban th€, xuc giac, thi
-giac, thinh giac ), XU ly cac thong tin nay t1;1i vong n9i t1;1i VO ti€u nao, va vong VO c6 vai 
-tro lam bi€n d6i va chinh ly SlJ ph6ng tin hi?u n:r cac nhan sau lien quan. Cac naron V?n 
-d9ng bi gay anh huong chu y€u qua SlJ chuy€n ti€p (J cac nhan ti€n dinh, du t1;10 lu6i va 
-vung V?n d9ng thu nhfit cua VO dt;1i nao. K€t qua cu6i cung la SlJ ki€m soat truang llJC CCJ 
-va SlJ hi?p d6ng cua cac CCJ sao cho thich hqp a nhiing luc di€u chinh tu th€ va trong 
-nhiSu loi v?n d9ng. 
-V 6 nao v+ di.>ng 
-(thuy tran, dinh, thai duong) 
-Nhan b\U1g ben cua d6i thi 
-Nhan du 
-Phuc hqp tram du6i 
-Nhan rang 
-
-![Hinh 8. Cac tip n6i cua cu - tiu nao](giaiphau_media/hinh_p360_8.png)
-
-*Hinh 8. Cac tip n6i cua cu - tiu nao*
-
-5.3. C§u - tiu nao (H.8) 
-Cac sqi du - ti€u nao to nen toan b9 cu6ng ti€u nao giua. Cac sqi di n:r nhan du 
-ben d6i di?n. Chung tach ra nhanh ben di vao v6i nhan rang tm6c khi di t6i t?n cung a
-
-
-
-<!-- Hết trang 360 -->
-
-
-v6 cac ban du ti€u nao va nh(mg tren cua thuy sau. Sqi du - ti€u nao dua d€n ti€u nao 
-thong tin vS cac v?n d(mg hJ y dv ki€n se diSn ra hay dang diSn ra. M('>t s6 nhan du 
-nh?n duqc sqi d€n tir go tren va chuy€n ti€p thong tin t6i ti€u nao d€ ti€u nao su dvng 
-trong vic ki€m soat cac V?n d9ng c6 huang dftn cua mit. 
-Ngoai cac sqi d€n tir du nao, nh9ng tren cua thuy sau, tmmg hJ nhu v6 cua tuy -
-ti€u nao, ti€p nhn cac sqi mai - ti€u nao tir mai trung nao. 
-Sqi tr\}c cac t€ bao Purkinje tir v6 cua d.u - ti€u nao t?n cung a nhan rang, sqi t[\IC 
-tu nhan rang t?O nen hku h€t cu6ng ti€u nao tren. Sau khi di qua bit cheo cua cac cu6ng 
-ti€u nao tren, m9t s6 sqi rang - d6i thi cho nhanh ben t6i nhan d6 nhung d?i da s6 di 
-thing t&i nhan b\ll1g ben d6i thi- Nhan d6i thi nay ph6ng chi6u t&i vung v6 vn d()ng thu 
-nh§.t cua thuy tran. Qua nhung ti6p n6i nay, du - ti€u nao c6 th€ lam thay d6i ho?t d()ng 
-trong cac con duong VO - tuy, v6 - lu6i va lu6i - tuy. 
-6. LIEN He LAM SANG
-T6n thm:mg ti€u nao duqc chia ra thanh t6n vimg gifra ti€u nao (nh()ng va cn 
-nh9ng) va t6n thucmg cac ban du. 
-Khi t6n thucmg cac phkn duong gifra ti€u nao do kh6i u ( & tre em) hay thoai h6a 
-nh()ng ti€u nao do nghin ruqu a nguai Ian, bnh nhan c6 dang di mdt aiJu hoa, bi lao 
-dao m§.t vung, dung dua tir ben nay sang ben kia. d chung gi?t nhan du do ti€u nao, c6 
-SlJ gian do?n cac ti6p n6i cua nh9ng v6i cac nhan V?n d()ng nhan du qua cac nhan tiSn 
-dinh va du t?O lu6i. 
-0 h◊i chung t6n thucmg tan ti€u nao, t6n thucmg khong nh§.t thi6t la niim a v6 ban 
-du ti€u nao ma c6 th€ la t6n thucmg cac sqi di d6n ban du ti€u nao lam cho v6 va chit 
-tring bi pha huy, hoc c6 th€ la t6n thucmg cac nhan sau hoc cac sqi tir cac nhan nay 
-hie chung di qua cu6ng ti€u nao tren. 
-
-
-
-<!-- Hết trang 361 -->
+Tiểu não được biết đến nhiều nhất như là phần não có chức năng vận động, có vai trò trong duy trì sự thăng bằng và điều phối sự co cơ. Nó có đóng góp đặc biệt vào sự hiệp đồng của các cơ (tức là co và giãn đồng thời của những cơ khác nhau mà tạo nên một cử động có ích), đảm bảo rằng một cơ nào đó phải co đúng lúc với một lực co thích hợp. Cũng có lý do để tin rằng tiểu não tham gia vào việc học để có được các mẫu hình hoạt động nơron cần cho việc thi hành các cử động và trong thực hiện các hướng dẫn mã hóa. Các hoạt động của tiểu não được cho là diễn ra ở dưới mức ý thức vì các bệnh tiểu não gây rối loạn chức năng vận động nhưng không làm mất vận động tự ý.
 
+Tiểu não có một vỏ, hay lớp bề mặt, bằng chất xám. Bên trong chất xám của vỏ là một thể chất trắng. Vùi trong thể chất trắng này là 4 đôi nhân tiểu não. Ba đôi cuống tiểu não, cấu tạo bằng các sợi trục có myelin, nối tiểu não với thân não.
+
+---
+
+## 1. VỊ TRÍ, HÌNH THỂ VÀ PHÂN CHIA (H.1)
+
+Tiểu não nằm trong hố sọ sau, sau hành và cầu não. Mặt trên của nó được ngăn cách với đại não bởi lều tiểu não. Mặt dưới lõm ở giữa thành một rãnh sâu, lồi ở hai bên và tựa lên sàn hố sọ sau.
+
+Vùng dọc giữa tiểu não thắt lại và được gọi là **nhộng** (*vermis*) tiểu não, và phần còn lại ở hai bên nhộng là các **bán cầu** (*hemisphere*). Phần nhộng trên như hòa lẫn vào các bán cầu nhưng nhộng dưới nằm trong một vùng trũng sâu, gọi là **thung lũng** (*vallecula*), và được phân cách rõ với bán cầu. Phần gần nhộng của các bán cầu, ở 1 - 2 cm bên ngoài nhộng, là **vùng cạnh nhộng** (*paravermal zone*).
+
+![Hình 1. Hình thể ngoài và phân chia tiểu não: nhìn từ trên (A) và dưới (B) [12]](giaiphau_media/hinh_p353_1.png)
+
+*Hình 1. Hình thể ngoài và phân chia tiểu não: nhìn từ trên (A) và dưới (B) [12]*
+
+Tiểu não được chia thành ba vùng lớn hay ba thùy theo mặt phẳng nằm ngang:
+
+* **Thùy nhung cục** (*flocculonodular lobe*) là phần nằm trước và trên nhất của mặt dưới. Nếu tiểu não được duỗi phẳng ra, thùy này sẽ là phần nằm dưới nhất, trong đó **cục** sẽ là phần dưới cùng của nhộng còn **nhung** sẽ là phần dưới cùng của các bán cầu.
+* **Khe sau bên** (*posterolateral fissure*) là khe ngăn thùy nhung cục với phần tiểu não còn lại.
+* Phần tiểu não còn lại, gọi là **thân tiểu não** (*body of cerebellum*), lại được **khe nhất** (*primary fissure*) chia thành các thùy trước và sau:
+  * **Thùy trước** (*anterior lobe of cerebellum*) là phần mặt trên tiểu não nằm trước khe nhất.
+  * **Thùy sau** (*posterior lobe of cerebellum*) là một thùy lớn nằm cả trên các mặt trên và dưới; nhộng của thùy sau được phân biệt thành nhộng trên nằm ở mặt trên và nhộng dưới nằm ở mặt dưới.
+
+Trần của phần trên não thất bốn được tạo nên bởi các cuống tiểu não trên và màn tủy trên bắc cầu giữa hai cuống. Phần dưới của trần được tạo nên bởi màn tủy dưới, do màng mềm và màng nội tủy tạo nên. Màng này thường dính với phần dưới của nhộng. Ba đôi cuống tiểu não được gắn với mặt trước tiểu não trong khoảng nằm giữa thùy trước và thùy nhung cục.
+
+Những khe khác tiếp tục chia các thùy tiểu não, nhất là thùy sau, thành các tiểu thùy. Những vùng chia nhỏ này ít có ý nghĩa chức năng hay lâm sàng, trừ các **hạnh nhân** (*tonsils*) tiểu não nằm ở hai bên cục. Khi các thành phần trong hố sọ sau bị tụt xuống lỗ lớn xương chẩm, hạnh nhân có thể ép vào vùng chứa các trung tâm sống của hành não. Hạnh nhân cũng là một mốc trong đọc phim chụp mạch vì nó gắn liền với đường cong đặc trưng trong đường đi của động mạch tiểu não dưới sau.
+
+---
+
+## 2. VỎ TIỂU NÃO (*cerebellar cortex*) (H.2)
+
+Bề mặt tiểu não bị gấp lại thành nhiều lá hẹp, với 85% diện tích bề mặt vỏ bị che khuất trong các rãnh xen giữa các lá. Diện tích vỏ tiểu não bằng khoảng ba phần tư diện tích vỏ đại não.
+
+![Hình 2. Cấu trúc nơron vỏ tiểu não. Purkinje cell = tế bào Purkinje; Purkinje cell axon = sợi trục tế bào Purkinje; climbing fibre = sợi leo; mossy fibre = sợi rêu; granule cell = tế bào hạt; Golgi cell = tế bào Golgi; basket cell = tế bào rổ; stellate cell = tế bào sao; parallel fibre = sợi song song; white matter = chất trắng.](giaiphau_media/hinh_p354_2.png)
+
+*Hình 2. Cấu trúc nơron vỏ tiểu não. Purkinje cell = tế bào Purkinje; Purkinje cell axon = sợi trục tế bào Purkinje; climbing fibre = sợi leo; mossy fibre = sợi rêu; granule cell = tế bào hạt; Golgi cell = tế bào Golgi; basket cell = tế bào rổ; stellate cell = tế bào sao; parallel fibre = sợi song song; white matter = chất trắng.*
+
+Vỏ được cấu tạo bằng ba lớp:
+
+1. **Lớp tế bào Purkinje** (*Purkinje cell layer*) gồm một hàng thân tế bào Purkinje, vốn là những tế bào chính của vỏ tiểu não.
+2. **Lớp phân tử** (*molecular layer*): Nằm nông hơn hàng tế bào chính này, nơi các nhánh cành của các tế bào Purkinje phân nhánh trong mặt phẳng vuông góc với trục dọc của các lá và synáp với các sợi trục từ lớp hạt đi ra.
+3. **Lớp tế bào hạt** (*granule cell layer*): Nằm sâu dưới lớp tế bào Purkinje, chứa các nơron liên hợp (trong đó có **tế bào hạt**) mà có sợi trục của chúng đi vào lớp phân tử. Những nơron liên hợp khác, như **tế bào Golgi**, **tế bào rổ**, **tế bào sao**, có thân tế bào nằm trong lớp phân tử và lớp hạt.
+
+Trong các sợi đến tiểu não:
+* **Các sợi leo** (*climbing fibers*) xuất phát từ phức hợp trám dưới thì synáp với phần gần của cây nhánh cành của các tế bào Purkinje trong lớp phân tử.
+* **Các sợi đến tiểu não từ các nguồn khác** tận cùng như **các sợi rêu** (*mossy fibers*), và synáp với các nơron trong lớp hạt. Các sợi trục của các tế bào hạt có các nhánh gọi là các sợi song song chạy theo trục dọc của lá trong lớp phân tử.
+
+Loại sợi trục duy nhất rời khỏi vỏ tiểu não là các sợi trục của các tế bào Purkinje. Những sợi này tận cùng ở các nhân của tiểu não, ngoại trừ những sợi từ vỏ của thùy nhung cục thì đi tới thân não.
+
+Tất cả các sợi trục đến tiểu não đều tách ra các nhánh bên tới synáp với các nơron trong các nhân tiểu não trước khi chúng đi đến vỏ tiểu não.
+
+---
+
+## 3. CÁC NHÂN TIỂU NÃO (*cerebellar nuclei*) (H.3)
+
+Bốn đôi nhân nằm vùi trong chất trắng tiểu não; theo hướng từ giữa sang bên, chúng là: **nhân nóc**, **nhân cầu**, **nhân nút** và **nhân răng**.
+
+![Hình 3. Các nhân tiểu não [12]](giaiphau_media/hinh_p355_3.png)
+
+*Hình 3. Các nhân tiểu não [12]*
+
+* **Nhân nóc** (*fastigial nucleus*) nằm sát với đường giữa, hầu như tiếp xúc với nóc của não thất bốn.
+* **Nhân xen** (*interposed nucleus*), bao gồm hai cụm tế bào là **nhân cầu** (*globose nucleus*) và **nhân nút** (*emboliform nucleus*), thì nằm giữa nhân nóc và nhân răng.
+* **Nhân răng** (*dentate nucleus*) có hình dáng giống chiếc ví nhàu, giống nhân trám dưới, với rốn hướng vào đường giữa, nơi các sợi rời khỏi nhân.
+
+Các nhân tiểu não nhận được các tiếp nối đến từ hai nguồn: từ các nguồn ở bên ngoài tiểu não và từ các tế bào Purkinje của vỏ tiểu não:
+* Các nguồn từ bên ngoài bao gồm: các sợi cầu - tiểu não, tủy - tiểu não và trám - tiểu não, cùng với các sợi từ các nhân lưới trước tiểu não. Hầu hết các sợi đến này là nhánh bên của các sợi đi tới vỏ tiểu não.
+* Một ít sợi đỏ - tiểu não tận cùng ở nhân xen, và nhân nóc nhận được các sợi đến từ thần kinh và các nhân tiền đình.
+* Trong khi nhân nóc phóng chiếu tới thân não qua cuống tiểu não dưới thì các sợi từ các nhân khác rời tiểu não qua cuống tiểu não trên và tận cùng ở thân não và đồi thị.
+
+Trong khi các xung động tới nhân tiểu não từ các nguồn bên ngoài là kích thích thì xung động đến các nhân tiểu não từ các tế bào Purkinje, với chất trung gian là GABA, là ức chế. Thông tin được xử lý thô ở các nhân tiểu não được chỉnh lý bằng tín hiệu ức chế từ vỏ tiểu não, đảm bảo sự phóng chiếu từ nhân tiểu não tới thân não và đồi thị biến đổi phù hợp với thông tin được chuyển đến tiểu não ở bất cứ lúc nào.
+
+---
+
+## 4. CHẤT TRẮNG TIỂU NÃO VÀ CÁC CUỐNG TIỂU NÃO (*cerebellar peduncles*)
+
+Chất trắng ở vùng nhộng có kiểu phân nhánh như cành cây, gọi là **cây sống tiểu não** (*arbor vitae cerebelli*) trên thiết đồ dọc (H.4). Mỗi bán cầu có một khối chất trắng lớn mà nhân răng vùi ở trong. Chất trắng bao gồm các sợi đến và đi của vỏ và các nhân tiểu não. Tất cả các sợi này đi qua và tạo nên các cuống tiểu não.
+
+* **Cuống tiểu não dưới** (*inferior cerebellar peduncle*) chủ yếu bao gồm các sợi đi tới (*afferents*) tiểu não, với thành phần lớn nhất là các sợi trám tiểu não từ phức hợp nhân trám dưới đối bên. Các sợi đến khác là dải tủy - tiểu não sau và các sợi tiền đình - tiểu não (từ thần kinh và các nhân tiền đình) và từ các nhân của hành não (nhân cung, nhân cảm giác thần kinh V). Các sợi đi (*efferents*) trong cuống tiểu não dưới gồm các sợi tiểu não - tiền đình (xuất phát từ thùy nhung cục và nhân nóc và đi tới các nhân tiền đình) và các sợi tiểu não - lưới tới cấu tạo lưới của hành não và cầu não.
+
+![Hình 4. Thiết đồ dọc giữa tiểu não cho thấy hình ảnh cây sống tiểu não của chất trắng](giaiphau_media/hinh_p356_4.png)
+
+*Hình 4. Thiết đồ dọc giữa tiểu não cho thấy hình ảnh cây sống tiểu não của chất trắng*
+
+* **Cuống tiểu não giữa** (*middle cerebellar peduncle*) bao gồm các sợi cầu - tiểu não bắt nguồn từ các nhân cầu bên đối diện.
+* **Cuống tiểu não trên** (*superior cerebellar peduncle*) chủ yếu được tạo nên bởi các sợi đi: các sợi tiểu não - đồi thị xuất phát từ nhân răng; các sợi tiểu não - nhân đỏ xuất phát từ nhân xen. Các sợi đến tiểu não gồm dải tủy - tiểu não trước, các sợi mái - tiểu não từ mái trung não và các sợi đến tiểu não từ vết lục.
+
+---
+
+## 5. GIẢI PHẪU CHỨC NĂNG
+
+Có ba phần của tiểu não được công nhận trên cơ sở của giải phẫu so sánh. Những vùng này bao gồm:
+
+* **Tiểu não cổ (nguyên thủy)** (*archicerebellum*), vốn là thành phần duy nhất có ở các loài cá và lưỡng cư bậc thấp. Thùy nhung cục thuộc tiểu não nguyên thủy.
+* **Cựu tiểu não** (*paleocerebellum*), vốn có mặt ở các loài lưỡng cư bậc cao hơn và lớn hơn ở bò sát và chim. Nhộng tiểu não, trừ nhộng trên của thùy sau, thuộc cổ tiểu não.
+* **Tân tiểu não** (*neocerebellum*), vốn chỉ thấy ở các loài có vú và lớn nhất ở người, bao gồm các bán cầu tiểu não và nhộng trên của thùy sau.
+
+![Hình 5. Phân chia vỏ tiểu não theo chức năng. Màu đỏ = tiền đình - tiểu não; màu xanh = tủy - tiểu não; màu vàng = cầu - tiểu não.](giaiphau_media/hinh_p357_5.png)
+
+*Hình 5. Phân chia vỏ tiểu não theo chức năng. Màu đỏ = tiền đình - tiểu não; màu xanh = tủy - tiểu não; màu vàng = cầu - tiểu não.*
+
+Những phân chia theo sự phát sinh loài này của tiểu não phần lớn tương ứng những phân chia theo chức năng, dựa trên nguồn của những sợi rêu đi đến tiểu não (Các sợi leo đi đến tất cả các phần của vỏ tiểu não nên không được dùng làm căn cứ phân chia).
+
+Các phần theo chức năng của tiểu não như sau (H.5):
+
+* **Tiền đình - tiểu não** (*vestibulocerebellum*) là thùy nhung cục và tiếp nhận xung động đến từ thần kinh và các nhân tiền đình. Tiền đình tiểu não tương đương với tiểu não nguyên thủy.
+* **Tủy - tiểu não** (*spinocerebellum*) gần tương đương với cựu tiểu não, bao gồm nhộng cùng với các vùng cận nhộng liền kề của các bán cầu, trừ phần nhộng trên của thùy sau. Các dải tủy - tiểu não và các sợi chêm - tiểu não, vốn vận chuyển thông tin cảm giác bản thể và các cảm giác khác, tận cùng ở đây.
+* **Cầu - tiểu não** (*pontocerebellum*) gần tương đương với tân tiểu não (hẹp hơn tân tiểu não), bao gồm phần bên của các bán cầu và vùng nhộng trên của thùy sau; các sợi đến xuất phát từ các nhân cầu bên đối diện. Có sự gối lên nhau của các phần; ví dụ, các sợi thuộc tủy - tiểu não và cầu - tiểu não đều tận cùng ở vỏ não các vùng cận nhộng.
+
+### 5.1. Tiền đình - tiểu não (H.6)
+
+![Hình 6. Các tiếp nối của tiền đình - tiểu não](giaiphau_media/hinh_p358_6.png)
+
+*Hình 6. Các tiếp nối của tiền đình - tiểu não*
+
+Tiền đình - tiểu não tiếp nhận các sợi đến từ hạch tiền đình và từ các nhân tiền đình ở cùng bên. Một số sợi đến từ những nguồn này tận cùng ở nhân nóc, vốn là nhân đã tiếp nhận các nhánh bên của những sợi trục đi tới vỏ của tiền đình tiểu não. Tiền đình - tiểu não cũng tiếp nhận các sợi đến từ các nhân trám phụ bên đối diện. Những sợi này có các nhánh bên đi tới nhân nóc và tận cùng như những sợi leo ở vỏ của thùy nhung cục.
+
+Không theo quy luật chung (là các sợi đi từ vỏ tiểu não tận cùng ở các nhân tiểu não), một số sợi trục của tế bào Purkinje đi tới thân não; tuy nhiên, hầu hết vẫn tận cùng ở nhân nóc. Các sợi từ vỏ tiểu não và từ nhân nóc đi qua cuống tiểu não dưới đến tận cùng ở phức hợp nhân tiền đình và ở nhóm trung tâm của các nhân lưới.
+
+Tóm lại, tiền đình tiểu não ảnh hưởng lên các nơron vận động qua dải tiền đình - tủy, bó dọc giữa và các sợi lưới - tủy. Nó liên quan đến sự điều chỉnh trương lực cơ khi đáp ứng với các kích thích tiền đình. Nó điều hòa hoạt động của các cơ duy trì sự thăng bằng và tham gia vào các đáp ứng vận động khác, bao gồm các đáp ứng vận động của mắt, trước các kích thích tiền đình.
+
+### 5.2. Tủy - tiểu não (H.7)
+
+Vỏ não tủy - tiểu não tiếp nhận các sợi đến từ:
+* Các dải tủy - tiểu não, chêm - tiểu não và cả ba nhân cảm giác thần kinh V, tức là từ toàn bộ hệ thống cảm giác thân thể.
+* Các nhân lưới bên và cạnh giữa, là những nhân trước tiểu não đã tiếp nhận các sợi cảm giác tủy - lưới và các sợi từ các vùng cảm giác và vận động của vỏ đại não; nhân lưới trần cầu, là nhân đã nhận sợi đến từ vỏ đại não và các nhân tiền đình.
+* Phức hợp trám dưới: Các nhân trám phụ, nơi tận cùng của các sợi tủy - trám, phóng chiếu tới tủy - tiểu não. Các sợi trám - tiểu não tận cùng như những sợi leo ở vỏ tiểu não.
+* Các sợi mái - tiểu não mang thông tin thị giác và thính giác từ mái trung não.
+
+![Hình 7. Các tiếp nối của tủy - tiểu não](giaiphau_media/hinh_p359_7.png)
+
+*Hình 7. Các tiếp nối của tủy - tiểu não*
+
+Nhánh bên của các sợi trục từ tất cả các nguồn đến khác nhau tận cùng ở các nhân xen (nhân này cũng nhận các sợi từ nhân đỏ).
+
+Vỏ tủy - tiểu não phóng chiếu tới nhân nóc (từ nhộng) và tới các nhân xen (từ các vùng cận nhộng). Sự hiệp đồng co cơ và sự kiểm soát trương lực cơ được thực hiện một phần qua các tiếp nối mái - hành (xem tiền đình - tiểu não). Sợi trục từ các nhân xen đi qua cuống tiểu não trên và tận cùng ở nhóm nhân lưới trung tâm. Như vậy, tủy - tiểu não có thể gây ảnh hưởng lên các nơron vận động qua các sợi lưới - tủy và một sự phóng chiếu tương tự tới nhân vận động của các thần kinh sọ. Tủy - tiểu não gây ảnh hưởng lên hệ cơ bám xương cùng bên bằng cách tác động lên các nơron vận động cả alpha và gamma. Một số sợi trục từ nhân xen đi qua cuống tiểu não trên và tận cùng ở nhân đỏ, rồi nhân này lại phóng chiếu tới nhân trám dưới. Các sợi khác đi tới nhân bụng bên của đồi thị, rồi nhân này phóng chiếu tới vùng vỏ vận động thứ nhất của đại não.
+
+Tóm lại, tủy - tiểu não tiếp nhận nhiều thông tin cảm giác (bản thể, xúc giác, thị giác, thính giác), xử lý các thông tin này tại vòng nội tại vỏ tiểu não, và vòng vỏ có vai trò làm biến đổi và chỉnh lý sự phóng tín hiệu từ các nhân sâu liên quan. Các nơron vận động bị gây ảnh hưởng chủ yếu qua sự chuyển tiếp ở các nhân tiền đình, cấu tạo lưới và vùng vận động thứ nhất của vỏ đại não. Kết quả cuối cùng là sự kiểm soát trương lực cơ và sự hiệp đồng của các cơ sao cho thích hợp ở những lúc điều chỉnh tư thế và trong nhiều loại vận động.
+
+### 5.3. Cầu - tiểu não (H.8)
+
+Các sợi cầu - tiểu não tạo nên toàn bộ cuống tiểu não giữa. Các sợi đi từ nhân cầu bên đối diện. Chúng tách ra nhánh bên đi vào với nhân răng trước khi đi tới tận cùng ở vỏ các bán cầu tiểu não và nhộng trên của thùy sau. Sợi cầu - tiểu não đưa đến tiểu não thông tin về các vận động tự ý dự kiến sẽ diễn ra hay đang diễn ra. Một số nhân cầu nhận được sợi đến từ gò trên và chuyển tiếp thông tin tới tiểu não để tiểu não sử dụng trong việc kiểm soát các vận động có hướng dẫn của mắt.
+
+Ngoài các sợi đến từ cầu não, nhộng trên của thùy sau, tương tự như vỏ của tủy - tiểu não, tiếp nhận các sợi mái - tiểu não từ mái trung não.
+
+![Hình 8. Các tiếp nối của cầu - tiểu não](giaiphau_media/hinh_p360_8.png)
+
+*Hình 8. Các tiếp nối của cầu - tiểu não*
+
+Sợi trục các tế bào Purkinje từ vỏ của cầu - tiểu não tận cùng ở nhân răng, sợi trục từ nhân răng tạo nên hầu hết cuống tiểu não trên. Sau khi đi qua bắt chéo của các cuống tiểu não trên, một số sợi răng - đồi thị cho nhánh bên tới nhân đỏ nhưng đại đa số đi thẳng tới nhân bụng bên đồi thị. Nhân đồi thị này phóng chiếu tới vùng vỏ vận động thứ nhất của thùy trán. Qua những tiếp nối này, cầu - tiểu não có thể làm thay đổi hoạt động trong các con đường vỏ - tủy, vỏ - lưới và lưới - tủy.
+
+---
+
+## 6. LIÊN HỆ LÂM SÀNG
+
+Tổn thương tiểu não được chia ra thành tổn thương vùng giữa tiểu não (nhộng và cận nhộng) và tổn thương các bán cầu:
+
+* **Tổn thương các phần đường giữa tiểu não:** Thường do khối u (ở trẻ em) hay thoái hóa nhộng tiểu não do nghiện rượu ở người lớn. Bệnh nhân có *dáng đi mất điều hòa*, bị lảo đảo mất vững, đung đưa từ bên này sang bên kia. Ở *chứng giật nhãn cầu do tiểu não*, có sự gián đoạn các tiếp nối của nhộng với các nhân vận động nhãn cầu qua các nhân tiền đình và cấu tạo lưới.
+* **Hội chứng tổn thương tân tiểu não (bán cầu tiểu não):** Tổn thương không nhất thiết là nằm ở vỏ bán cầu tiểu não mà có thể là tổn thương các sợi đi đến bán cầu tiểu não làm cho vỏ và chất trắng bị phá hủy, hoặc có thể là tổn thương các nhân sâu hoặc các sợi từ các nhân này lúc chúng đi qua cuống tiểu não trên. Biểu hiện lâm sàng nổi bật gồm giảm trương lực cơ, mất điều hòa động tác cùng bên tổn thương (thất điều), sai tầm sai hướng (quá tầm), mất khả năng thực hiện động tác luân phiên nhanh (loạn động đồng vận), và run khi thực hiện động tác chủ ý (run ý niệm/run chủ tình).

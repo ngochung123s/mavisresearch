@@ -1,4 +1,5 @@
-# THÂN NÃO
+# BÀI 21: THÂN NÃO
+*(Brain Stem)*
 
 **Chương:** Chương 5: Hệ Thần Kinh  
 **Tác giả:** PGS.TS. Nguyễn Văn Huy, ThS. Lê Thị Hạnh  
@@ -6,377 +7,188 @@
 
 ---
 
-Bai 3 
-THAN NAO 
-(brain stem) 
-Than nao bao g6m, tu du&i len, hanh nao, d.u nao va trung nao (H.1 va H.2). 
-Hanh nao, d.u nao cung v&i ti€u nao c6 ngu6n g6c tu b9ng nao sau. Trung nao duqc 
-phat tri€n tu b9ng nao giua. Hanh nao, d.u nao va ti€u nao duqc g9i chung la nao sau. 
-Mi;'lt sau va cac mi;'lt ben than nao duqc che lftp boi dl;li nao va tiSu nao. Than nao la nai 
-cac dai sqi chl;ly qua dS c6 th€ tu tuy s6ng di len duqc tiSu nao va dl;li nao hoi[tc tu dl;li 
-nao di xu6ng duqc ti€u nao va tuy s6ng. Than nao c6 10 thbn kinh SQ va cac nhan, cac 
-dai sqi rieng. 
-D§u ch§m ctia d6i thi 
-Godu6i---[ 
-Th§n kinh rong r9c (IV)----.llll 
-Man tuy tren----,..:;..._ 
-Cu6ng ti@u nao tren 
-H6 tram ctia nao th§t b6n 
-Th§n kinh luo-i h§u (IX) va 
-th§n kinh lang thang (X) 
-Cti chem 
-Cti thon 
-Cac r\ lung cua th§n kinh 
-s6ng C1 
-B6 chem----1..,._...,., 
-B6 thon----1rr 
-D6i thi (m]t c^t) 
-Th@ g6i ngoai 
-Dai thi giac 
-Th@ g6i trong 
-Canh tay go tren va du6i 
-Cu6ng d"1i nao 
-Th§n kinh sinh ba (V) 
-Cu6ng ti@u nao gifra 
-Thfin kinh tien dinh 6c tai (VIII) 
-Th§n kinh m]t (VII) 
-Cu6ng ti@u nao du6i 
-Thfin kinh h"1 thi_t (XII) 
-Thfin kinh ph\l (XI) 
-
-![Hinh 1. Than nao, nhin tll' phia sau ben [12]](giaiphau_media/hinh_p340_1.png)
-
-*Hinh 1. Than nao, nhin tll' phia sau ben [12]*
-
-1. HANH NAO (medulla oblongata; bulb)
-1.1. Hinh th ngoai ( cac H.1 va 2) 
-Hanh nao la phbn du&i cung cua than nao, dai khoang 3 cm, di tu ch6 tiSp n6i v&i 
-tuy s6ng 6 ngang ba tren d6t d9i d€n ch6 ti€p n6i v&i d.u nao, ma 6 phia tru&c la m9t 
-ranh ngan ro rct gQi la ranh hanh cdu (bulbopontine sulcus). Hanh nao ndm giua tiSu 
-nao 6 phia sau va d6c n€n xmmg chem 6 phia tru&c. Ong trung tam tuy s6ng keo dai len 
-
-
-
-<!-- Hết trang 340 -->
-
-
-tren vao nfra du&i hanh nao, r6i ma r('mg ra a nfra tren hanh nao thanh nao thftt b6n. 
-Phftn hanh nao du&i chua 6ng trung tam g9i la hanh nao dong va phftn hanh nao tren, 
-r9ng hon, chua nfra du&i nao thftt b6n g9i la hanh nao ma. 
-K.he gifra tru&c va ranh gitra sau chia hanh nao thanh hai nfra. Phin du&i, khe gifra 
-tru&c tr& nen n6ng hon, hay ma di, b&i b6t cheo thap (decussation of pyramids). Cac 
-ranh ben tru&c va sau chia m6i nua hanh nao thanh ba phin tru&c, ben va sau. Phfin 
-tru&c phinh to a nfra tren thanh thap hanh (pyramid), nai cac sc;ri cua dai thap di qua. 
-Phfin ben phinh ra a nfra tren thanh tram hanh (olive), nai c6 phuc hc;rp nhan tram du&i 
-n&m ben du&i. Cac ranh ben tru&c va sau a donm hanh nao c6 tram hanh duqc g9i la 
-rcinh tru6·c tram (pre-olivary sulcus) va rcinh sau tram (retro-olivary sulcus). 6 ranh 
-tru&c tram c6 cac re cua thfin kinh XII di ra. 6 ranh sau tram c6 cac re cua cac thfin kinh 
-IX, X va re SQ thfin kinh XI di ra. Cac phfin tru&c va ben duc;rc ngan each v&i du nao 
-bing ranh hanh - cftu, nai c6 cac thfin kinh VI, VII va VIII thoat ra. 
-Giao thoa thi giac 
-Dai thi giac 
-Cu xam 
-Cu6ng d(li nao 
-Th€ g6i ngoai 
-Chit thung sau 
-Cfiu nao 
-Cu6ng ti€u nao gifra 
-Tram banh 
-Thap 
-Cac r€ bµng cua thfin kinh __ _ 
-s6ng Cl 
-Dai khuu 
-Chit thung tru&c 
-Ph€u (cu6ng tuyfn yen) 
-Cac th€ vu 
-,.. ______ _ 
-___ Thuy thai ducmg (mgt cllt) 
-1.a......,.h-':,-Thfin kinh vin nhan (III) 
-j---41--r-._.._Thfin kinh rong fQC (IV) 
-Thfin kinh sinh ba (V) 
-Thfin kinh gi(lng 
-Thfin kinh mgt (VII)
-va thfin kinh trung gian 
-Thfin kinh tikn dinh 6c tai (YIU) 
-Nhung ti€u nao 
-Dam r6i m(lch m(IC 
-nao thit b6n 
-Thfin kinh luo-i hfiu (IX) 
-Thfin kinh lang thang (X) 
-Thfin kinh h(I thiet (XII)
-Thfin kinh ph1,1 (Xl)
-
-![Hinh 2. Than nao, nhin tl.l' tm&c [12]](giaiphau_media/hinh_p341_2.png)
-
-*Hinh 2. Than nao, nhin tl.l' tm&c [12]*
-
-6 phfin sau, tu du&i len lfin luc;rt c6: dfiu tien la cac b6 thon va chem nhu a thung 
-sau tuy s6ng; tiop theo la cac cu, cu than (gracile tubercle) va cu chem ( cuneate 
-tubercle), n&m a diu tren hanh nao dong va diu du&i hanh nao ma; a tren cung la hai 
-cu6ng tipu nao du&i n&m a hai ben tam giac du6i cua san nao th!t b6n. 6 tam giac du&i 
-san nao th§.t bf>n, tu gifra sang ben c6 lin luc;rt: tam giac thin kinh XII, tam giac thin 
-kinh X va diqn tirn dinh. 
-
-
-
-<!-- Hết trang 341 -->
-
-
-1.2. C§u to 
-Ch§t xam 
-Ctic nhan cu.a hf th6ng liJm giira. Cac nhan nay bao g6m nhdn than (gracile 
-nucleus) va nhdn chem ( cuneate nucleus) nim & phftn tren hanh nao dong va phftn du6i 
-hanh nao m& ( cac H.4 va 5). Chung la ncri t?n cung cua cac bo cung ten va la ncri xu§.t 
-phat cua cac sqi cua li€m gifra. 
-Ctic nhan tiip n6i voi tiJu nao. Bao g6m nhan chem ngoai, phuc hqp tram du6i 
-va nhan cung. 
-Nhdn chem ngoai (external cuneate nucleus) (H.5). Nhan chem ngoai (chem ph\l) 
-nim ngoai nhan chem. No ti€p nh?n cac sqi cam giac ban thS n:r chi tren va cf> di vao 
-qua r€ sau cac thftn kinh s6ng c6 va phong chi€u cac sqi chem - tiSu nao t6i tiSu nao qua 
-ducmg cu6ng tiSu nao du6i. Cac chuc nang cua nhan chem ngoai va cac sqi chem - tiSu 
-nao tuang duang v6i nhan ngvc va dai tuy tiSu nao sau. 
-Phuc h9P nhdn tram du&i (inferior olivary complex) (H.5) to nen tram hanh & 
-hanh nao m&, g6m nhdn tram chinh (principal olivary nucleus) va cac nhan tram ph\l 
-(trong va sau). Nhan tram chinh co hinh cai tui v6i mi?ng tui hu6ng vao trong. Phuc 
-hqp tram du6i ti€p nh?n cac sqi n:r sung sau tuy s6ng d6i ben va nhan do cung ben ( qua 
-dai trftn trung tam). Cac nhanh trl)c n:r phuc hqp tram du6i ph6ng chi€u t6i VO tiSu nao 
-ben d6i din qua ducmg cu6ng tiSu nao du6i. Day la ngu6n sqi leo quan tr9ng nh.lt t6i 
-kich thich cac t€ bao Purkinje cua VO tiSu nao. 
-Nhdn cung (arcuate nucleus). Nhan cung nim tren b€ mit thap hanh. No ti€p nh?n 
-cac nhanh ben cua cac sqi VO tuy va phong chi€u nhanh trl)C t6i ban cfiu tiSu nao ben d6i 
-di?n, rue la c6 ti€p n6i gi6ng nhu cac nhan du. 
-Nhdn lu&i ben (lateral reticular nucleus) la m(>t nhan cua du to lu6i nhung thu(>c 
-nhom nhan tru6c tiSu nao. No nim sau phuc hqp tram du6i va trong li€m tuy, ti€p nh?n 
-cac sqi n:r tuy s6ng va phong chi€u nhanh trl)c t6i tiSu nao. 
-Nhan cu.a ctic than kinh S!J 
-Nhdn thdn kinh XII (hypoglossal nucleus) (cac H.4 va 5) nim & gfin ducmg gifra 
-tren hfiu h€t chi€u dai hanh nao dong, va m(>t phfin nim du6i tam giac thfin kinh h thi?t 
-& hanh nao m&. Cac nhanh trl)c chy ra tru6c & gifra li€m gifra va nhan tram du6i. 
-Nhdn hocli nghi (nucleus ambiguus) (H.5) nim sau phuc hqp tram du6i, cung c.lp 
-sqi V?n d(>ng cho cac thfin kinh IX, X va r€ s9 thfin kinh XI. 
-Nhdn lung cita thdn kinh X ( dorsal nucleus of the vagus nerve) (H.5) chua cac 
-than naron tru6c hch chi ph6i CCY tran va tuy€n cua cac tng ngvc va bl)ng. Nhan nay 
-nim ngoai nhan thfin kinh h thi?t trong hanh nao dong va keo dai d€n t?n tam giac thfin 
-kinh X trong hanh nao m&. 
-Nim & ngoai nhan lung thfin kinh X la dai aO'fl d<Jc (solitary tract) (H.5) chua cac 
-sqi cam tng cua cac thfin kinh VII, IX va X. Cac sqi nay t?n cung & cac nhdn cita dai 
-ilO'fl a(Jc (nuclei of solitary tract). Cac nhan nay bao quanh dai dan d(>c. 
-
-
-
-<!-- Hết trang 342 -->
-
-
-Ctic nhan tiJn di,nh (vestibular nuclei) (cac H.6 va 7) nllm du&i difn ti€n dinh cua 
-h6 tram. Nhiin tren nllm a du nao; cac nhiin du&i, ngoai va trong nllm a hanh nao. Hilu 
-hSt sqi trong th.in kinh ti€n dinh tgn cung & cac nhiin ti€n dinh; m(>t s6 it vao tiSu nao 
-qua cu6ng tiSu nao du&i. Cac nhiin ti€n dlnh ph6ng chiSu nhanh t[\lc t&i tiSu nao qua 
-cu6ng tiSu nao du&i. C6 hai nhiin ti€n dinh ph6ng chiSu xu6ng hly s6ng: Cac sqi tu
-nhiin ti€n dinh ngoai di xu6ng qua dai ti€n dinh - hly; cac sqi ti€n dinh - hly tu nhiin ti€n 
-dinh trong di xu6ng qua b6 d9c giua. 
-Muc ciit 
-Dai tuy -tiSu nao sau 
-Nhan tuy 
-thcln kinh V 
-Daituy
-Z 
-thcln kinh 
-/ 
-Dai tuy -tiSu nao tru6-c -----......J\ 
-Dai tuy-d6i thi/tuy-lu6-i ---
-.,.. 
-Nhan thcln kinh s9 XI
-Thap han 
-B6 thon 
-Dai v6 - tuy ben 
-6ng trung tam 
-B[t cheo thap 
-
-![Hinh 3. Thiet d6 qua hanh nao CY cha chuyen tiep hanh nao - tuy song](giaiphau_media/hinh_p343_3.png)
-
-*Hinh 3. Thiet d6 qua hanh nao CY cha chuyen tiep hanh nao - tuy song*
-
-va bat cheo thap [13) 
-Nhan va dii.i tuy th/in kinh V (cac H. 3 - 7). Cac sqi cua rh cam giac thlln kinh V 
-sau khi di vao du nao thi di xu6ng hanh nao t6i tgn dllu tren tuy s6ng. Chung t;;io nen 
-dai tuy thdn kinh sinh ba (spinal trigeminal tract). Dai hly cung chua cac sqi cam giac 
-than th€ cua cac th§.n kinh VII, IX va X. Cac sqi cua dai hly tgn cung & m(>t nhiin ch;;iy 
-d9c & ben trong g9i la nhan tuy thdn kinh V (spinal trigeminal nucleus). Nhiin hly la nai 
-xmit phat cua dai sinh ba - d6i thi. 
-B6 chem 
-Dai tuy -tiSu nao sau 
-B6 thon 
-,;iuy thSn kinh V
-] 
-Nhan tuy thcln ki:.::nh::_V
-.:.._..--,--],g 
-__,_..,_ __ Nhan chem 
-'.:---,,-^-Dai dan d(>c 
-.---..3!_LJ- Nhan lung 
-Nhan hoai nghi 
-Dai tuy - tiSu nao tru6-c 
-Dai tuy-d6i thi/tuy-lu6-i 1
-Nhan tram phv lung 
-Nhan tram ph1,1 gifra 
-Thap hanh 
-Nhan dan d(>c 
-thcln kinh X 
-Nhan thcln kinh XII 
+Thân não bao gồm, từ dưới lên, **hành não**, **cầu não** và **trung não** (H.1 và H.2). Hành não, cầu não cùng với tiểu não có nguồn gốc từ bọng não sau. Trung não được phát triển từ bọng não giữa. Hành não, cầu não và tiểu não được gọi chung là não sau. 
 
-![Hinh 4. Thiet d6 hanh nao CY ngang muc nhan thon va nhan chem [13)](giaiphau_media/hinh_p343_4.png)
+Mặt sau và các mặt bên thân não được che lấp bởi đại não và tiểu não. Thân não là nơi các dải sợi chạy qua để có thể từ tủy sống đi lên được tiểu não và đại não hoặc từ đại não đi xuống được tiểu não và tủy sống. Thân não có 10 thần kinh sọ và các nhân, các dải sợi riêng.
 
-*Hinh 4. Thiet d6 hanh nao CY ngang muc nhan thon va nhan chem [13)*
+![Hình 1. Thân não, nhìn từ phía sau bên [12]](giaiphau_media/hinh_p340_1.png)
 
+*Hình 1. Thân não, nhìn từ phía sau bên [12]*
 
+---
 
+## 1. HÀNH NÃO (*medulla oblongata; bulb*)
 
-<!-- Hết trang 343 -->
+### 1.1. Hình thể ngoài (các H.1 và 2)
 
+Hành não là phần dưới cùng của thân não, dài khoảng 3 cm, đi từ chỗ tiếp nối với tủy sống ở ngang bờ trên đốt đội đến chỗ tiếp nối với cầu não, mà ở phía trước là một rãnh ngăn rõ rệt gọi là **rãnh hành cầu** (*bulbopontine sulcus*). Hành não nằm giữa tiểu não ở phía sau và dốc nền xương chẩm ở phía trước. Ống trung tâm tủy sống kéo dài lên trên vào nửa dưới hành não, rồi mở rộng ra ở nửa trên hành não thành não thất bốn. Phần hành não dưới chứa ống trung tâm gọi là **hành não đóng** và phần hành não trên, rộng hơn, chứa nửa dưới não thất bốn gọi là **hành não mở**.
 
-Chit triing 
-Chftt tdmg cua hanh nao bao g6m cac dai/duong di len, cac dai/duong di xu6ng 
-ma ta da thfty a tuy s6ng va cac dai di xu6ng c6 ngu6n g6c tu trung nao. 
-Hj th6ng tiJm giiia ( cac H. 5 - 10). Cac sqi cam giac ban thS va xuc giac phan 
-bitt di len trong cac 66 thon va chem a thung sau tun cung a cac nhan thon va chem. 
-Cac nhanh tI1,1c tu hai nhan nay di t6i duong giua nhu ccic s9·i cung trong (internal 
-arcuate fibres) r6i bit cheo duong giua tvi btit cheo liim giii:a ( decussation of the medial 
-lernnisci). Sau khi hilt cheo, cac sqi di len trong liim gi'fl'a (medial lemniscus). Li€m 
-giua di qua hanh nao tren, du nao va trung nao r6i tun cung (J nhan 61,lllg sau ben cua 
-d6i thi. 
-Dai tity - d6i thj ( cac H. 3 - l 0) va dai tuy - mai (hay tuy - trung nao) hqp lvi 
-thanh tiJm tuy (spinal lernniscus) di qua vung ben cua hanh nao, sau phuc hqp tram 
-du6i. Cac sqi tuy - d6i thj tun cung a nhan 61,mg sau ben cua d6i thi. 
-4K>UkDKHSkUJV?Nk
-AOkFXUkF*Dk
-k
-k QOUK8k
-._'UJk]Od_kU@Vk
-E`WOk
-)k
-ASk\'NkSiDKkSiDk
-9k:k
-/ANk^_ak^KbUkQNUKk7k 0k
-3j#4@V]KG]C'Uk
-Mfrccit 
-Nhan tuy th,n_'cinh V " !
- %$(#"$!(&((
-'(
-DOi tuY-dbi thi/t,Y-Imn  !l
-4K>UkKV?NkUJKOk
-ek[k
-4K>Uk^\ASkDKPUKk
-!%k
-4K>Uk]\ASkZK<kLTJk fk&
-5KbUkQNUKk811kg" ,hk=kJ -
-6KAYkK?UMk
-4K>Uk^\ASkZK;RkJOIBk
--(kE+D$JOIBk
-2OcSkJNIBk
-
-![Hinh 5. Thiet do qua hanh nao a ngang mll'c nhan tram dlJ'ai [13]](giaiphau_media/hinh_p344_5.png)
-
-*Hinh 5. Thiet do qua hanh nao a ngang mll'c nhan tram dlJ'ai [13]*
-
-Cac s(Ji tuy - liroi khi di vao than nao tun cung a cftu tvo lu6i. M<)t s6 sqi tuy -
-lu6i la nhanh ben cua cac sqi trong cac dai tuy - d6i thj. Nhanh tfl,lc cua cac t€ bao trong 
-du tvo lu6i ph6ng chi€u tai tuy s6ng va d6i thi. Cac sqi lu6i - d6i thi tun cung a cac 
-nhan n<)i la. 
-Ctic dii.i tuy tiiu nao triruc va sau (cac H.3 va 4) nilm a mwt ben cua hanh nao. 
-Dai sau di vao tiSu nao qua cu6ng tiSu nao du6i. Dai tru6c ti€p tl,lc di len qua du nao va 
-di vao tiSu nao qua cu6ng tiSu nao tren. Ca hai dai d€u chu y€u truy€n thong tin ban thS 
-tu chi du&i. Con duong tuong duong cho chi tren di qua nhan chem ngoai. 
-Dai thtip (pyramidal tract) (cac H.3, 4 va 5) khi di xu6ng t6i hanh nao thi nilm 
-trong thap hanh va bao g6m cac sqi VO - tuy. d hanh nao dong, khoang 85% s6 sqi bit 
-cheo tvi hilt cheo thap (cac H.3 va 4) r6i di xu6ng tvo thanh dai vo - tuy ben. Cac sqi 
-khong hilt cheo ti€p tl,lc di xu6ng trong dai vo tuy tru6c. 
+![Hình 2. Thân não, nhìn từ trước [12]](giaiphau_media/hinh_p341_2.png)
 
+*Hình 2. Thân não, nhìn từ trước [12]*
 
+**Khe giữa trước** và **rãnh giữa sau** chia hành não thành hai nửa:
+* Phần dưới, khe giữa trước trở nên nông hơn, hay mờ đi, bởi **bắt chéo tháp** (*decussation of pyramids*).
+* Các **rãnh bên trước** và **rãnh bên sau** chia mỗi nửa hành não thành ba phần: trước, bên và sau.
+  * **Phần trước:** Phình to ở nửa trên thành **tháp hành** (*pyramid*), nơi các sợi của dải tháp đi qua.
+  * **Phần bên:** Phình ra ở nửa trên thành **trám hành** (*olive*), nơi có phức hợp nhân trám dưới nằm bên dưới. 
+    * Các rãnh bên trước và sau ở đoạn hành não có trám hành được gọi là **rãnh trước trám** (*pre-olivary sulcus*) và **rãnh sau trám** (*retro-olivary sulcus*).
+    * Ở rãnh trước trám có các rễ của **thần kinh hạ thiệt (XII)** đi ra.
+    * Ở rãnh sau trám có các rễ của **thần kinh thiệt hầu (IX)**, **thần kinh lang thang (X)** và rễ sọ **thần kinh phụ (XI)** đi ra.
+  * Các phần trước và bên được ngăn cách với cầu não bằng **rãnh hành - cầu**, nơi có các **thần kinh VI, VII và VIII** thoát ra:
+    * Thần kinh vận nhãn ngoài (VI) thoát ra ở trên đầu tháp hành.
+    * Thần kinh mặt (VII) và thần kinh tiền đình - ốc tai (VIII) thoát ra ở góc cầu - tiểu não, phía trên ngoài trám hành.
+* **Ở phần sau:** Từ dưới lên lần lượt có:
+  * Đầu tiên là các bó thon và chêm như ở thừng sau tủy sống.
+  * Tiếp theo là các củ: **củ thon** (*gracile tubercle*) và **củ chêm** (*cuneate tubercle*), nằm ở đầu trên hành não đóng và đầu dưới hành não mở.
+  * Ở trên cùng là hai **cuống tiểu não dưới** nằm ở hai bên tam giác dưới của sàn não thất bốn.
+  * Ở tam giác dưới sàn não thất bốn, từ giữa sang bên có lần lượt: **tam giác thần kinh XII**, **tam giác thần kinh X** và **diện tiền đình**.
 
-<!-- Hết trang 344 -->
+### 1.2. Cấu tạo hành não
 
+#### A. Chất xám
 
+* **Các nhân của hệ thống liềm giữa:** Bao gồm **nhân thon** (*gracile nucleus*) và **nhân chêm** (*cuneate nucleus*) nằm ở phần trên hành não đóng và phần dưới hành não mở (các H.4 và 5). Chúng là nơi tận cùng của các bó cùng tên và là nơi xuất phát của các sợi của liềm giữa.
+* **Các nhân tiếp nối với tiểu não:** Bao gồm nhân chêm ngoài, phức hợp trám dưới và nhân cung:
+  * **Nhân chêm ngoài** (*external cuneate nucleus*) (H.5): Nằm ngoài nhân chêm (còn gọi là chêm phụ). Nó tiếp nhận các sợi cảm giác bản thể từ chi trên và cổ đi vào qua rễ sau các thần kinh sống cổ và phóng chiếu các sợi chêm - tiểu não tới tiểu não qua đường cuống tiểu não dưới. Các chức năng của nhân chêm ngoài và các sợi chêm - tiểu não tương đương với nhân ngực và dải tủy tiểu não sau.
+  * **Phức hợp nhân trám dưới** (*inferior olivary complex*) (H.5): Tạo nên trám hành ở hành não mở, gồm **nhân trám chính** (*principal olivary nucleus*) và các nhân trám phụ (trong và sau). Nhân trám chính có hình cái túi với miệng túi hướng vào trong. Phức hợp trám dưới tiếp nhận các sợi từ sừng sau tủy sống đối bên và nhân đỏ cùng bên (qua dải trần trung tâm). Các nhánh trục từ phức hợp trám dưới phóng chiếu tới vỏ tiểu não bên đối diện qua đường cuống tiểu não dưới. Đây là nguồn sợi leo quan trọng nhất tới kích thích các tế bào Purkinje của vỏ tiểu não.
+  * **Nhân cung** (*arcuate nucleus*): Nằm trên bề mặt tháp hành. Nó tiếp nhận các nhánh bên của các sợi vỏ tủy và phóng chiếu nhánh trục tới bán cầu tiểu não bên đối diện, tức là có tiếp nối giống như các nhân cầu.
+  * **Nhân lưới bên** (*lateral reticular nucleus*): Là một nhân của cấu tạo lưới nhưng thuộc nhóm nhân trước tiểu não. Nó nằm sau phức hợp trám dưới và trong liềm tủy, tiếp nhận các sợi từ tủy sống và phóng chiếu nhánh trục tới tiểu não.
+* **Nhân của các thần kinh sọ:**
+  * **Nhân thần kinh XII** (*hypoglossal nucleus*) (các H.4 và 5): Nằm ở gần đường giữa trên hầu hết chiều dài hành não đóng, và một phần nằm dưới tam giác thần kinh hạ thiệt ở hành não mở. Các nhánh trục chạy ra trước ở giữa liềm giữa và nhân trám dưới.
+  * **Nhân hoài nghi** (*nucleus ambiguus*) (H.5): Nằm sau phức hợp trám dưới, cung cấp sợi vận động cho các thần kinh IX, X và rễ sọ thần kinh XI.
+  * **Nhân lưng của thần kinh X** (*dorsal nucleus of the vagus nerve*) (H.5): Chứa các thân nơron trước hạch chi phối cơ trơn và tuyến của các tạng ngực và bụng. Nhân này nằm ngoài nhân thần kinh hạ thiệt trong hành não đóng và kéo dài đến tận tam giác thần kinh X trong hành não mở.
+  * Nằm ở ngoài nhân lưng thần kinh X là **dải đơn độc** (*solitary tract*) (H.5) chứa các sợi cảm tạng của các thần kinh VII, IX và X. Các sợi này tận cùng ở **các nhân của dải đơn độc** (*nuclei of solitary tract*). Các nhân này bao quanh dải đơn độc.
+  * **Các nhân tiền đình** (*vestibular nuclei*) (các H.6 và 7): Nằm dưới diện tiền đình của hố trám. Nhân trên nằm ở cầu não; các nhân dưới, ngoài và trong nằm ở hành não. Hầu hết sợi trong thần kinh tiền đình tận cùng ở các nhân tiền đình; một số ít vào tiểu não qua cuống tiểu não dưới. Các nhân tiền đình phóng chiếu nhánh trục tới tiểu não qua cuống tiểu não dưới. Có hai nhân tiền đình phóng chiếu xuống tủy sống: Các sợi từ nhân tiền đình ngoài đi xuống qua dải tiền đình - tủy; các sợi tiền đình - tủy từ nhân tiền đình trong đi xuống qua bó dọc giữa.
+  * **Nhân và dải tủy thần kinh V** (các H.3 - 7): Các sợi của rễ cảm giác thần kinh V sau khi đi vào cầu não thì đi xuống hành não tới tận đầu trên tủy sống. Chúng tạo nên **dải tủy thần kinh sinh ba** (*spinal trigeminal tract*). Dải tủy cũng chứa các sợi cảm giác thân thể của các thần kinh VII, IX và X. Các sợi của dải tủy tận cùng ở một nhân chạy dọc ở bên trong gọi là **nhân tủy thần kinh V** (*spinal trigeminal nucleus*). Nhân tủy là nơi xuất phát của dải sinh ba - đồi thị.
 
+![Hình 3. Thiết đồ qua hành não ở chỗ chuyển tiếp hành não - tủy sống và bắt chéo tháp [13]](giaiphau_media/hinh_p343_3.png)
 
+*Hình 3. Thiết đồ qua hành não ở chỗ chuyển tiếp hành não - tủy sống và bắt chéo tháp [13]*
 
-<!-- Hết trang 345 -->
+![Hình 4. Thiết đồ hành não ở ngang mức nhân thon và nhân chêm [13]](giaiphau_media/hinh_p343_4.png)
 
+*Hình 4. Thiết đồ hành não ở ngang mức nhân thon và nhân chêm [13]*
 
+#### B. Chất trắng
 
+Chất trắng của hành não bao gồm các dải/đường đi lên, các dải/đường đi xuống mà ta đã thấy ở tủy sống và các dải đi xuống có nguồn gốc từ trung não:
+* **Hệ thống liềm giữa** (các H.5 - 10): Các sợi cảm giác bản thể và xúc giác phân biệt đi lên trong các bó thon và chêm ở thừng sau tận cùng ở các nhân thon và chêm. Các nhánh trục từ hai nhân này đi tới đường giữa như **các sợi cung trong** (*internal arcuate fibres*) rồi bắt chéo đường giữa tại **bắt chéo liềm giữa** (*decussation of the medial lemnisci*). Sau khi bắt chéo, các sợi đi lên trong **liềm giữa** (*medial lemniscus*). Liềm giữa đi qua hành não trên, cầu não và trung não rồi tận cùng ở nhân bụng sau bên của đồi thị.
+* **Dải tủy - đồi thị** (các H.3 - 10) và **dải tủy - mái** (hay tủy - trung não) hợp lại thành **liềm tủy** (*spinal lemniscus*) đi qua vùng bên của hành não, sau phức hợp trám dưới. Các sợi tủy - đồi thị tận cùng ở nhân bụng sau bên của đồi thị.
+* **Các sợi tủy - lưới:** Khi đi vào thân não tận cùng ở cấu tạo lưới. Một số sợi tủy - lưới là nhánh bên của các sợi trong các dải tủy - đồi thị. Nhánh trục của các tế bào trong cấu tạo lưới phóng chiếu tới tủy sống và đồi thị. Các sợi lưới - đồi thị tận cùng ở các nhân nội lá.
+* **Các dải tủy tiểu não trước và sau** (các H.3 và 4): Nằm ở mặt bên của hành não. Dải sau đi vào tiểu não qua cuống tiểu não dưới. Dải trước tiếp tục đi lên qua cầu não và đi vào tiểu não qua cuống tiểu não trên. Cả hai dải đều chủ yếu truyền thông tin bản thể từ chi dưới. Con đường tương đương cho chi trên đi qua nhân chêm ngoài.
+* **Dải tháp** (*pyramidal tract*) (các H.3, 4 và 5): Khi đi xuống tới hành não thì nằm trong tháp hành và bao gồm các sợi vỏ - tủy. Ở hành não đóng, khoảng 85% số sợi bắt chéo tại bắt chéo tháp (các H.3 và 4) rồi đi xuống tạo thành dải vỏ - tủy bên. Các sợi không bắt chéo tiếp tục đi xuống trong dải vỏ tủy trước.
 
+![Hình 5. Thiết đồ qua hành não ở ngang mức nhân trám dưới [13]](giaiphau_media/hinh_p344_5.png)
 
-<!-- Hết trang 346 -->
+*Hình 5. Thiết đồ qua hành não ở ngang mức nhân trám dưới [13]*
 
+---
 
+## 2. CẦU NÃO (*pons*)
 
-
-
-<!-- Hết trang 347 -->
-
-
-
-
-
-<!-- Hết trang 348 -->
-
-
-
-
-
-<!-- Hết trang 349 -->
-
-
-
-
-
-<!-- Hết trang 350 -->
-
-
-
-
-
-<!-- Hết trang 351 -->
-
-
-4. cAc LIEN HI; LAM SANG
-H9i chimg hanh tuy giii'a (medial medullary syndrome) la hu qua cua tile m9t 
-nhanh hanh tuy cua d9ng mch d6t s6ng. Yung nh6i mau tuy thu9c vao phm vi d.p 
-mau cua nhanh bi tile. Yung bi anh hm:mg bao g6m thap hanh va hftu h€t li€m gifra a
-m9t ben. T6n thuong lan ra ngoai d€ anh huang ca d€n cac sgi thftn kinh XII di gifra 
-li€m gifra va phuc hgp nhan tram du6i B?nh nhan li?t nua ngmri va m§.t cam giac ban 
-th€ ben d6i di?n, li?t luoi cung ben. 
-Tile m9t mch d.p mau cho vung ben cua hanh nao dfin d€n h9i chimg hanh tuy ben 
-hay h9i chimg Wallenberg (lateral medullary (Wallenberg's) syndrome). Mch bi tile 
-thuong la m9t nhanh cua d9ng mch ti€u nao du&i sau. Yung nh6i mau bao g6m (a) n€n 
-cu6ng ti€u nao du&i va cac nhan ti€n dinh, gay nen ch6ng mH, m§.t di€u hoa ti€u nao, va 
-git nhan du; (b) nhan va dai tuy thftn kinh V, gay mfit cam giac dau va nhi?t trong vung 
-chi ph6i cua thftn kinh V a cung ben; ( c) dai tuy d6i thi, gay mfit cam giac dau va nhi?t 
-ben d6i di?n a du&i c6; ( d) nhan hoai nghi, gay li?t cac ca cua kh§.u cai m€m, hftu va 
-thanh quan a cung ben t6n thuong v&i cac d§.u hi?u kh6 nu6t va kh6 phat am. 
-Tile m9t nhanh du nao cua d9ng mch n€n gay nen h9i chung Raymond. T6n 
-thuong cac sgi v6 tuy gay li?t nua nguai ben d6i di?n. T6n thuong cac sgi th§n kinh VI 
-gay li?t ca thing ngoai a cung ben, dftn d€n lac trong. T6n thuong djch ra sau va ra 
-ngoai hon anh huang d€n cac SQ'i vn d9ng di xu6ng va nhan vn d9ng cung cac SQ'i 
-thftn kinh VII, sinh ra h9i chung Millard - Gubber: li?t nua ngum d6i ben va li?t mt 
-cung ben. 
-M9t t6n thuong du nao djch vao trong va ra sau hon c6 th€ phm d€n nhan th§n 
-kinh VI cung v&i nhfrng SQ'i VIl d9ng cua th§n kinh VII hoc nhan thftn kinh VII a gftn 
-d§.y, gay nen h9i chimg Faville: B?nh nhan bi li?t cac ca mt va ca thing ngoai cung 
-ben Hon nfra, ca thing trong cua milt ben d6i di?n kh6ng co trong khi c6 li€c milt sang 
-ben do t6n thuong cac naron gian nhan. Nhfrng naron gian nhan nay c6 SQ'i tr\IC bilt 
-cheo duong giua, di len trong b6 d9c gifra, va kich thich naron vn d9ng a phftn nhan 
-th§n kinh III chi ph6i ca thing trong. Cac dai vn d9ng va cam giac nm a tru&c m9t 
-t6n thuong gay ra h9i chung Faville va chi bi thi€u mau tm thai gay ra li?t thoang qua. 
-Tile m9t nhanh d.p mau cho vung n€n cu6ng di nao cua cua d9ng mch nao sau 
-c6 th€ gay nen h9i chung Weber, bao g6m li?t nfra nguai d6i ben do gian don cac sgi 
-VO - tuy va li?t cac ca ngoai nhan du cung ben do t6n thuang cac SQ'i thftn kinh III 
-trong vung nh6i mau. B?nh nhan li?t tfit ca cac ca ngoai nhan du trir ca thing ngoai 
-va ca cheo tren. D§.u hi?u r5 nh§.t la la kh6ng nang dugc mi tren va lac ngoai, kem 
-theo gian d6ng tu do t6n thuang cac sgi d6i giao cam chi ph6i ca thilt con nguai. M9t 
-t6n thuong ma r9ng hon ra sau keo theo t6n thuong cac sgi tu ti€u nao di len, gay nen 
-run, gi6ng nhu a cac tinh trng r6i lon ti€u nao, a cac chi ben d6i di?n. Tinh trng 
-nay dugc g9i la h9i chung Benedikt. 
-
-
-
-<!-- Hết trang 352 -->
-
+### 2.1. Hình thể ngoài
+
+Cầu não là phần thân não nằm giữa hành não ở dưới và trung não ở trên, phía sau ngăn cách với tiểu não bởi khoang não thất bốn.
+* **Mặt trước (mặt bụng):** Lồi cong ngang thành một khối rộng khoảng 4 cm, cao 3 cm. Ở đường giữa có **rãnh nền** (*sulcus basilaris*) nông dọc giữa cho động mạch nền nằm. Hai bên mặt trước liên tiếp với hai **cuống tiểu não giữa** (*middle cerebellar peduncles*). Ranh giới giữa mặt trước cầu não và cuống tiểu não giữa là nơi thoát ra của **thần kinh sinh ba (V)** với hai rễ: rễ cảm giác lớn ở ngoài và rễ vận động nhỏ hơn ở trong.
+* **Rãnh hành - cầu** (*sulcus bulbopontinus*): Ngăn cách cầu não với hành não ở dưới. Từ trong ra ngoài có các dây thần kinh sọ thoát ra: thần kinh VI (ngay trên tháp hành), thần kinh VII và VII' (dây trung gian), thần kinh VIII (ở góc cầu - tiểu não).
+* **Rãnh cầu - cuống:** Ngăn cách bờ trên cầu não với hai cuống đại não của trung não.
+* **Mặt sau:** Được tiểu não che phủ, tham gia tạo nên nửa trên của sàn não thất bốn (hố trám).
+
+### 2.2. Cấu tạo cầu não
+
+Trên các thiết đồ cắt ngang, cầu não được chia thành hai phần rõ rệt: **phần nền cầu** (*pars basilaris pontis*) ở phía trước và **phần trần cầu** (*tegmentum pontis*) ở phía sau. Hai phần được ngăn cách nhau bởi các sợi chạy ngang của **thể thang** (*corpus trapezoideum*) và liềm giữa.
+
+#### A. Phần nền cầu não (phần bụng)
+Gồm các cấu trúc đan xen nhau:
+* **Các sợi dọc:** Gồm các sợi vỏ - tủy (bó tháp), sợi vỏ - nhân và các sợi vỏ - cầu đi từ vỏ đại não xuống. Tại cầu não, các bó sợi dọc bị phân tán thành nhiều bó nhỏ chạy xen kẽ giữa các nhân cầu.
+* **Các nhân cầu** (*nuclei pontis*): Là các khối chất xám rải rác trong nền cầu, là trạm chuyển tiếp của đường dẫn truyền vỏ - cầu - tiểu não.
+* **Các sợi ngang cầu:** Xuất phát từ các nhân cầu, bắt chéo qua đường giữa sang phía đối diện, tập hợp lại tạo thành **cuống tiểu não giữa** đi vào bán cầu tiểu não đối bên.
+
+#### B. Phần trần cầu não (phần lưng)
+Là sự tiếp tục lên trên của phần sau hành não, chứa các nhân xám thần kinh sọ và các dải dẫn truyền cảm giác:
+* **Chất xám:**
+  * **Nhân thần kinh VI** (*abducens nucleus*): Nằm sát sàn não thất bốn, tạo nên **lồi mặt** (*colliculus facialis*) do các sợi của thần kinh VII uốn cong vòng quanh nhân này trước khi thoát ra ngoài.
+  * **Nhân vận động thần kinh VII** (*facial motor nucleus*): Nằm sâu trong phần trần bên cầu não.
+  * **Các nhân thực vật thần kinh VII:** Gồm nhân bọt trên (*superior salivatory nucleus*) và nhân lệ tỵ.
+  * **Các nhân thần kinh V:** Gồm **nhân vận động thần kinh V** (nằm ở trần cầu bên), **nhân cảm giác chính** (*principal sensory nucleus of V*), **nhân trung não** (*mesencephalic nucleus of V*) kéo dài lên trung não, và **nhân tủy thần kinh V** kéo dài xuống hành não.
+  * **Các nhân tiền đình và ốc tai (thần kinh VIII):** Nhân tiền đình trên, ngoài, trong nằm ở vùng góc ngoài sàn não thất bốn; các nhân ốc tai bụng và lưng nằm ở chỗ tiếp nối hành - cầu.
+  * **Cấu tạo lưới cầu não:** Đóng vai trò điều hòa hô hấp (trung tâm điều chỉnh thở) và trạng thái thức tỉnh.
+* **Chất trắng:**
+  * **Liềm giữa** (*medial lemniscus*): Bị dẹt lại theo chiều ngang và nằm sát ranh giới giữa phần nền và phần trần cầu.
+  * **Thể thang và liềm bên** (*lateral lemniscus*): Dẫn truyền thính giác đi lên gò dưới trung não.
+  * **Liềm tủy** (*spinal lemniscus*): Nằm ở phía ngoài liềm giữa.
+  * **Liềm sinh ba** (*trigeminal lemniscus*): Dẫn truyền cảm giác từ vùng mặt lên đồi thị.
+  * **Bó dọc trong** (*medial longitudinal fasciculus - MLF*): Nằm sát đường giữa, phối hợp các nhân vận động nhãn cầu (VI, IV, III) và điều hòa phối hợp đầu - mắt.
+
+---
+
+## 3. TRUNG NÃO (*mesencephalon; midbrain*)
+
+### 3.1. Hình thể ngoài
+
+Trung não nối cầu não với gian não, bị **cống não** (*aqueductus cerebri; cống Sylvius*) xuyên qua:
+* **Mặt trước (mặt bụng):** Gồm hai cột chất trắng lớn chạy tỏa hình chữ V gọi là hai **cuống đại não** (*crura cerebri*). Khoảng lõm giữa hai cuống là **hố gian cuống** (*fossa interpeduncularis*). Đáy hố có nhiều lỗ nhỏ cho mạch máu xuyên qua gọi là **chất thủng sau** (*substantia perforata posterior*). Ở rãnh trong cuống đại não (thuộc hố gian cuống) là nơi thoát ra của **thần kinh vận nhãn (III)**.
+* **Mặt sau (mặt lưng):** Là **mái trung não** (*tectum mesencephali*), nổi bật với 4 gò não gọi là **củ não sinh tư** (*corpora quadrigemina*):
+  * **Hai gò trên** (*superior colliculi*): Là trung tâm dưới vỏ của các phản xạ thị giác. Nối với thể gối ngoài qua cánh tay gò trên.
+  * **Hai gò dưới** (*inferior colliculi*): Là trung tâm dưới vỏ của các phản xạ thính giác. Nối với thể gối trong qua cánh tay gò dưới.
+  * **Thần kinh ròng rọc (IV):** Thoát ra ở ngay dưới hai gò dưới tại mặt sau thân não, bắt chéo đường giữa rồi vòng ra trước. Đây là thần kinh sọ duy nhất thoát ra ở mặt sau thân não.
+
+### 3.2. Cấu tạo trung não
+
+Thiết đồ cắt ngang trung não qua cống não chia trung não thành: **mái trung não** ở sau cống não, **trần trung não** ở trước cống não, và **nền cuống đại não** ở trước nhất.
+
+#### A. Mái trung não (*tectum*)
+Chứa các lớp tế bào xám của gò trên và gò dưới:
+* **Gò trên:** Nhận các sợi thị giác từ võng mạc và vỏ não chẩm, cho ra các bó mái - tủy và mái - hành điều hòa cử động đầu - mắt theo ánh sáng.
+* **Gò dưới:** Nhận các sợi thính giác từ liềm bên, phóng chiếu lên thể gối trong qua cánh tay gò dưới.
+
+#### B. Trần trung não (*tegmentum*)
+Nằm giữa cống não ở sau và chất đen ở trước:
+* **Chất xám trung tâm** (*periaqueductal gray*): Lớp chất xám dày bao quanh cống não, đóng vai trò ức chế đau và hành vi cảm xúc.
+* **Các nhân thần kinh sọ:**
+  * **Nhân thần kinh III** và **nhân phụ thần kinh III (nhân Edinger-Westphal)**: Nằm ở ngang mức gò trên, trước chất xám trung tâm. Nhân Edinger-Westphal cho các sợi đối giao cảm làm co đồng tử và điều tiết thể mi.
+  * **Nhân thần kinh IV**: Nằm ở ngang mức gò dưới, trước chất xám trung tâm.
+* **Nhân đỏ** (*nucleus ruber; red nucleus*): Khối chất xám lớn hình cầu, màu hơi hồng do giàu mạch máu và sắc tố chứa sắt, nằm ở ngang mức gò trên. Nhân đỏ là trạm điều hòa trương lực cơ và phối hợp vận động ngoại tháp, nhận sợi từ tiểu não (nhân xen) và vỏ não, cho ra **dải đỏ - tủy** (*rubrospinal tract*) bắt chéo ngay tại trần trung não.
+* **Chất trắng của trần:** Chứa dải liềm giữa, liềm tủy, liềm sinh ba, liềm bên (ở mức gò dưới), bó dọc trong và bắt chéo của các cuống tiểu não trên.
+
+#### C. Chất đen (*substantia nigra*) và nền cuống đại não
+* **Chất đen (liềm đen):** Là một dải chất xám sẫm màu hình lưỡi liềm ngăn cách giữa trần trung não và nền cuống đại não. Tế bào chứa hạt sắc tố melanin và tiết ra chất dẫn truyền **dopamine**, phóng chiếu tới thể vân (thể vân - liềm đen) thuộc hệ thống hạch nền kiểm soát vận động. Thoái hóa các nơron dopamine ở chất đen là nguyên nhân chính gây bệnh Parkinson.
+* **Nền cuống đại não** (*crus cerebri*): Chứa các bó sợi dẫn truyền vận động từ vỏ não đi xuống:
+  * 3/5 giữa: Bó vỏ - tủy (bó tháp) và bó vỏ - nhân.
+  * 1/5 trong: Bó trán - cầu.
+  * 1/5 ngoài: Bó thái dương - cầu, đỉnh - cầu và chẩm - cầu.
+
+---
+
+## 4. NÃO THẤT BỐN (*ventriculus quartus*)
+
+Não thất bốn là khoang chứa dịch não tủy của trám não, nằm giữa hành não và cầu não ở phía trước, và tiểu não ở phía sau.
+
+* **Thành trước (sàn não thất bốn hay hố trám):** Hình quả trám gồm hai tam giác:
+  * *Tam giác cầu não (nửa trên):* Có rãnh giữa, lồi trong, **lồi mặt** (do sợi dây VII vòng quanh nhân dây VI), rãnh giới hạn, và **vết lục** (*locus coeruleus*).
+  * *Tam giác hành não (nửa dưới):* Có **tam giác thần kinh hạ thiệt (XII)** ở trong, **tam giác thần kinh lang thang (X)** ở ngoài, và góc dưới cùng là **chốt não** (*obex*).
+  * *Hai góc bên:* Là **diện tiền đình** (*area vestibularis*), nằm vắt ngang giữa phần cầu và phần hành, có các vân tủy não thất bốn chạy ngang.
+* **Thành sau (mái não thất bốn):** Hình chiếc lều nhô về phía tiểu não, gồm:
+  * *Nửa trên:* Tạo bởi hai cuống tiểu não trên và **màn tủy trên** căng giữa chúng.
+  * *Nửa dưới:* Tạo bởi **màn tủy dưới** (màng mềm lót nội tủy), có **đám rối mạch mạc não thất bốn** tiết dịch não tủy.
+* **Các lỗ thông thương:**
+  * Thông lên trên với não thất ba qua **cống não**.
+  * Thông xuống dưới với ống trung tâm tủy sống.
+  * Thông với khoang dưới nhện qua **lỗ giữa** (*apertura mediana; lỗ Magendie*) ở góc dưới và **hai lỗ bên** (*aperturae laterales; lỗ Luschka*) ở hai ngách bên để dẫn lưu dịch não tủy ra khoang dưới nhện.
+
+---
+
+## 5. CÁC LIÊN HỆ LÂM SÀNG
+
+* **Hội chứng hành tủy giữa** (*medial medullary syndrome*): Là hậu quả của tắc một nhánh hành tủy của động mạch đốt sống. Vùng nhồi máu tùy thuộc vào phạm vi cấp máu của nhánh bị tắc. Vùng bị ảnh hưởng bao gồm tháp hành và hầu hết liềm giữa ở một bên. Tổn thương lan ra ngoài để ảnh hưởng cả đến các sợi thần kinh XII đi giữa liềm giữa và phức hợp nhân trám dưới. Bệnh nhân liệt nửa người và mất cảm giác bản thể bên đối diện, liệt lưỡi cùng bên.
+* **Hội chứng hành tủy bên hay hội chứng Wallenberg** (*lateral medullary (Wallenberg's) syndrome*): Do tắc một mạch cấp máu cho vùng bên của hành não, thường là một nhánh của động mạch tiểu não dưới sau (PICA). Vùng nhồi máu bao gồm:
+  * (a) Nền cuống tiểu não dưới và các nhân tiền đình, gây nên chóng mặt, mất điều hòa tiểu não, và giật nhãn cầu;
+  * (b) Nhân và dải tủy thần kinh V, gây mất cảm giác đau và nhiệt trong vùng chi phối của thần kinh V ở cùng bên;
+  * (c) Dải tủy đồi thị, gây mất cảm giác đau và nhiệt bên đối diện ở dưới cổ;
+  * (d) Nhân hoài nghi, gây liệt các cơ của khẩu cái mềm, hầu và thanh quản ở cùng bên tổn thương với các dấu hiệu khó nuốt và khó phát âm.
+* **Hội chứng Raymond:** Tắc một nhánh cầu não của động mạch nền. Tổn thương các sợi vỏ tủy gây liệt nửa người bên đối diện. Tổn thương các sợi thần kinh VI gây liệt cơ thẳng ngoài ở cùng bên, dẫn đến lác trong.
+* **Hội chứng Millard - Gubler:** Tổn thương dịch ra sau và ra ngoài hơn ảnh hưởng đến các sợi vận động đi xuống và nhân vận động cùng các sợi thần kinh VII, sinh ra: liệt nửa người đối bên và liệt mặt ngoại vi cùng bên.
+* **Hội chứng Foville:** Một tổn thương cầu não dịch vào trong và ra sau hơn có thể phạm đến nhân thần kinh VI cùng với những sợi vận động của thần kinh VII hoặc nhân thần kinh VII ở gần đấy. Bệnh nhân bị liệt các cơ mặt và cơ thẳng ngoài cùng bên. Hơn nữa, cơ thẳng trong của mắt bên đối diện không co trong khi cố liếc mắt sang bên do tổn thương các nơron gian nhân. Những nơron gian nhân này có sợi trục bắt chéo đường giữa, đi lên trong bó dọc giữa, và kích thích nơron vận động ở phần nhân thần kinh III chi phối cơ thẳng trong. Các dải vận động và cảm giác nằm ở trước một tổn thương gây ra hội chứng Foville và chỉ bị thiếu máu tạm thời gây ra liệt thoáng qua.
+* **Hội chứng Weber:** Tắc một nhánh cấp máu cho vùng nền cuống đại não của động mạch não sau. Bao gồm liệt nửa người đối bên do gián đoạn các sợi vỏ - tủy và liệt các cơ ngoài nhãn cầu cùng bên do tổn thương các sợi thần kinh III trong vùng nhồi máu. Bệnh nhân liệt tất cả các cơ ngoài nhãn cầu trừ cơ thẳng ngoài và cơ chéo trên. Dấu hiệu rõ nhất là không nâng được mi trên (sụp mi) và lác ngoài, kèm theo giãn đồng tử do tổn thương các sợi đối giao cảm chi phối cơ thắt con ngươi.
+* **Hội chứng Benedikt:** Một tổn thương mở rộng hơn ra sau kéo theo tổn thương các sợi từ tiểu não đi lên và nhân đỏ, gây nên run, giống như ở các tình trạng rối loạn tiểu não, ở các chi bên đối diện kèm theo liệt dây III cùng bên.

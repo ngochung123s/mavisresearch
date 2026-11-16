@@ -1,297 +1,101 @@
-# THỰC QUẢN
+# BÀI 40: THỰC QUẢN (oesophagus)
 
 **Chương:** Chương 10: Hệ Tiêu Hóa  
 **Tác giả:** ThS. Nguyễn Ngọc Anh  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 650 - 656
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 650 - 656 (Tương ứng file scan page_650 đến page_656)
 
 ---
 
-Bai 2 
-,, 
-THIJ'C QUAN (oesophagus)
-1. E>U'O'NG E>I, KiCH THU'O'C VA PH.AN E>ON
-Thvc quan (H.1) la m◊t 6ng ca, dai chung 25 cm, n6i hftu v&i dl;l day. N6 bi\t dfiu 
-(J c6, ngang ba du6i cua Sl)n nhftn va d6t s6ng c6 VI, di xu6ng qua cac trung thfit tren va 
-sau, r6i qua ca hoanh a ngang mt'.rc d6t s6ng ngvc X, va k€t thuc a 16 tam vi ngang muc 
-v6i d6t s6ng ngvc XI. Nhin chung la thvc quan Chl;ly thllng dung nhung n6 c6 hai dOl;lil 
-cong sang ben. Tu dftu tren a duang gifra, n6 di xu6ng va ch€ch v€ ben trai d€n n€n c6, 
-r6i dftn dftn quay tr& ll;li mt phllng gifra gftn d6t s6ng ngvc V (nai n6 bi d9ng ml;lch chu 
-dy), va rir d6t s6ng ngvc VII tr& xu6ng ll;li lch sang trai tru6c khi n6 di qua ca hoanh. 
-Thvc quan ciing u6n cong theo mt phling tru6c sau theo cac chi€u cong c6 - ngvc cua 
-CQt song. 
-A. Nhin tnr6'c
-Tim-..._ 
-B. Nhln sau
-'•-\illitli-+llil":.,-----Th/cquan 
-015'• ,.......,,,=-_Ong n1c
-C. Nhin nghieng
+## 1. ĐƯỜNG ĐI, KÍCH THƯỚC VÀ PHÂN ĐOẠN
 
-![Hinh 1. Thl,l'c quan ti cha [12]](giaiphau_media/hinh_p650_1.png)
+Thực quản (H.1) là một ống cơ, dài chừng 25 cm, nối hầu với dạ dày. Nó bắt đầu ở cổ, ngang bờ dưới của sụn nhẫn và đốt sống cổ VI, đi xuống qua các trung thất trên và sau, rồi qua cơ hoành ở ngang mức đốt sống ngực X, và kết thúc ở lỗ tâm vị ngang mức với đốt sống ngực XI. Nhìn chung là thực quản chạy thẳng đứng nhưng nó có hai đoạn cong sang bên. Từ đầu trên ở đường giữa, nó đi xuống và chếch về bên trái đến nền cổ, rồi dần dần quay trở lại mặt phẳng giữa gần đốt sống ngực V (nơi nó bị động mạch chủ đẩy), và từ đốt sống ngực VII trở xuống lại lệch sang trái trước khi nó đi qua cơ hoành. Thực quản cũng uốn cong theo mặt phẳng trước sau theo các chiều cong cổ - ngực của cột sống.
 
-*Hinh 1. Thl,l'c quan ti cha [12]*
+![Hình 1: Thực quản tại chỗ](giaiphau_media/hinh_p650_1.png)
+*Hình 1. Thực quản tại chỗ [12]*
+*A. Nhìn trước | B. Nhìn sau | C. Nhìn nghiêng*
 
-Thvc quan la phftn he;p nhfit cua duang tieu h6a (khong k€ ruQt thua) va c6 4 ch6 
-thllt ll;li: 6 dftu tren (15 cm tinh tu rang cua), nai bi cung d9ng ml;lCh chu bllt cheo (22,5 
-cm tu rang cua), nai bi ph€ quan chinh trai bi\t cheo (each rang cua 27,5 cm) va tl;li 16 
-thvc quan cua ca hoanh ( each rang cua 40 cm). Cac 6ng soi hay dl)ng Cl) c6 gn thu6c 
-giup ta bi€t duqc chung dang duqc dua vao sau t6i muc nao trong thgc quan. Thvc quan 
-duqc chia thanh ba phftn la c6, ngvc va h1,1ng. 
+Thực quản là phần hẹp nhất của đường tiêu hóa (không kể ruột thừa) và có 4 chỗ thắt lại: ở đầu trên (15 cm tính từ răng cửa), nơi bị cung động mạch chủ bắt chéo (22,5 cm từ răng cửa), nơi bị phế quản chính trái bắt chéo (cách răng cửa 27,5 cm) và tại lỗ thực quản của cơ hoành (cách răng cửa 40 cm). Các ống soi hay dụng cụ có gắn thước giúp ta biết được chúng đang được đưa vào sâu tới mức nào trong thực quản. Thực quản được chia thành ba phần là cổ, ngực và bụng.
 
+![Hình 2: Các đoạn của thực quản và các chỗ hẹp sinh lý của thực quản](giaiphau_media/hinh_p651_2.png)
+*Hình 2. Các đoạn của thực quản và các chỗ hẹp sinh lý của thực quản*
 
+---
 
-<!-- Hết trang 650 -->
+## 2. LIÊN QUAN CỦA THỰC QUẢN
 
+### 2.1. Thực quản cổ
 
----Ch6 ht;p hu 
-[ 
-thvc quan 
--
-Ch6 ht;p 
-don ngi,rc 
-Coh_oimh,,,
-Cho ht;p 
-co hoanh 
-Don c& 
-Co hoanh 
+Thực quản đoạn cổ nằm sau khí quản và được gắn với nó bởi mô liên kết. Các thần kinh thanh quản quặt ngược ở mỗi bên đi ở gần hoặc trong rãnh khí quản - thực quản. Phía sau là cột sống, cơ dài cổ và lá trước sống của mạc cổ. Ở mỗi bên là các động mạch cảnh chung và phần sau của tuyến giáp. Ở phần dưới của cổ, nơi thực quản lệch sang trái, nó gần với bao cảnh và tuyến giáp trái hơn. Ống ngực đi lên một đoạn ngắn dọc theo bờ trái của thực quản.
 
-![Hinh 2. Cac doc;in cua thl,l'C quan va cac cho hE;lp sinh ly cua thl,l'C quan](giaiphau_media/hinh_p651_2.png)
+### 2.2. Thực quản ngực
 
-*Hinh 2. Cac doc;in cua thl,l'C quan va cac cho hE;lp sinh ly cua thl,l'C quan*
+Thực quản ngực nằm hơi lệch sang trái trong trung thất trên giữa khí quản và cột sống. Nó đi ở sau và bên phải của cung động mạch chủ để đi xuống trong trung thất sau dọc bờ phải của động mạch chủ ngực. Bên dưới, khi nó chếch sang trái, nó đi qua phía trước động mạch chủ và đi vào ổ bụng qua cơ hoành ở ngang mức đốt sống ngực X.
 
-2. LIEN QUAN CUA THl)'C QUAN
-2.1. Th\fC quan cA 
-Thvc quan do.;in c6 nm sau khi quan va duc;rc gin v&i n6 bai m6 lien k€t. Cac 
-thin kinh thanh quan qut nguc;rc 6 m6i ben di 6 gin hoc trong ranh khi quan-thvc 
-quan. Phia sau la c9t s6ng, co dai c6 va la tru&c s6ng cua m.;ic c6. 6 m6i ben la cac 
-d9ng m.;ich canh chung va phin sau cua tuy€n giap. 6 phin du&i cua c6, noi thvc quan 
-l?ch sang trai, n6 gin v&i bao canh va tuyn giap trai hon. Ong ngvc di len m9t don 
-ngin d9c theo ba trai cua thvc quan. 
-2.2. Th\fC quan ng\fC 
-Thvc quan ngvc nim hoi l?ch sang trai trong trung th§.t tren gifra khi quan va c9t 
-s6ng. N6 di 6 sau va ben phai cua cung d9ng m.;ich chu d€ di xu6ng trong trung tht sau 
-d9c ba phai cua d9ng m.;ich chu ngvc. Ben du&i, khi n6 chch sang trai, n6 di qua phia 
-tru&c d9ng m.;ich chu va di vao 6 bi,mg qua co hoanh 6 ngang muc d6t s6ng ngvc X. 
-6 phia tru&c va tu tren xu6ng, thvc quan lien quan lin luc;rt v&i khi quan, d9ng 
-m.;ich ph6i phai, ph quan chinh trai, ngo.;ii tam m.;ic (ngan each n6 v&i tam nhi trai) va 
-co hoanh. 
-6 phia sau, do.;in qua trung th§.t tren thvc quan lien quan v&i c9t s6ng ngvc va co 
-dai c6; 6ng ngvc ch.;iy 6 sau trai thvc quan. 6 trung th§.t sau, n6 duc;rc ngan each v&i c9t 
-s6ng bai cac d9ng mch gian SUO'Il sau phai va bai, tu phai sang trai, finh m.;ich don va 
-cac phin t?n cung cua finh m.;ich ban don va finh m.;ich ban don ph1,1, 6ng ngvc va, 6 gin 
-co hoanh, d9ng m.;ich chu. M9t ngach dai cua 6 mang ph6i phai nim gifra thvc quan 
-(phia tru&c) va tinh m.;ich don va c9t s6ng (phia sau) trong trung th§.t sau. 
-6 ben trai, thvc quan lien quan 6 trung th§.t tren v&i phin cu6i cung cua cung 
-d9ng m.;ich chu, d9ng m.;ich du&i don trai, 6ng ngvc, mang ph6i va thin kinh thanh quan 
-qut nguc;rc trai; va 6 trung th§.t sau v&i d9ng m.;ich chu ngvc va mang ph6i trai. 
-6 ben phai, thvc quan lien quan v&i mang ph6i phai va, 6 tren cu6ng ph6i, v&i cung 
-tinh m.;ich don khi n6 vong len tren ph€ quan chinh phai d€ d6 vao tinh m.;tch chu tren. 
+Ở phía trước và từ trên xuống, thực quản liên quan lần lượt với khí quản, động mạch phổi phải, phế quản chính trái, ngoại tâm mạc (ngăn cách nó với tâm nhĩ trái) và cơ hoành.
 
+Ở phía sau, đoạn qua trung thất trên thực quản liên quan với cột sống ngực và cơ dài cổ; ống ngực chạy ở sau trái thực quản. Ở trung thất sau, nó được ngăn cách với cột sống bởi các động mạch gian sườn sau phải và bởi, từ phải sang trái, tĩnh mạch đơn và các phần tận cùng của tĩnh mạch bán đơn và tĩnh mạch bán đơn phụ, ống ngực và, ở gần cơ hoành, động mạch chủ. Một ngách dài của ổ màng phổi phải nằm giữa thực quản (phía trước) và tĩnh mạch đơn và cột sống (phía sau) trong trung thất sau.
 
+Ở bên trái, thực quản liên quan ở trung thất trên với phần cuối cùng của cung động mạch chủ, động mạch dưới đòn trái, ống ngực, màng phổi và thần kinh thanh quản quặt ngược trái; và ở trung thất sau với động mạch chủ ngực và màng phổi trái.
 
-<!-- Hết trang 651 -->
+Ở bên phải, thực quản liên quan với màng phổi phải và, ở trên cuống phổi, với cung tĩnh mạch đơn khi nó vòng lên trên phế quản chính phải để đổ vào tĩnh mạch chủ trên.
 
+Bên dưới cuống phổi, thần kinh X phải đi xuống chủ yếu ở phía sau thực quản và thần kinh X trái ở phía trước thực quản; sau đó các thần kinh này tỏa ra thành một đám rối xung quanh thực quản. Đến gần cơ hoành thì đám rối thực quản lại thu lại thành các thân X trước và sau.
 
-Ben du6i cu6ng ph6i, thftn kinh X phai di xu6ng chu y€u a phia sau th\Ic quan va 
-thftn kinh X trai a phia tru6c th\Ic quan; sau d6 cac thftn kinh nay toa ra thanh m<)t dam 
-r6i xung quanh th\IC quan. D€n gftn C(J hoanh thi dam r6i thvc quan l.;ti thu l.;ti thanh cac 
-than X tru6c va sau. 
-2.3. Thl}'C quan b1_mg 
-Thvc quan b\Ulg c6 chiSu dai tu 1 - 2,5 cm, di tu 16 C(J hoanh t6i 16 tam vi theo 
-huang ch€ch sang trai va ra sau. N6 nim sau va fin vao thuy trai cua gan thanh ranh (fin 
-th\IC quan). Sau thvc quan la tn,l trai C(J hoanh, cac m.;tch hoanh du6i trai va thftn kinh t.;ing 
-Ian trai. BS mt cua n6 duqc bao phu bai m<)t lap mong mo lien k€t va phuc m.;ic t.;ing c6 
-chua cac than X tru6c va sau cung nhu cac nhanh thvc quan cua cac m.;ich vi trai. Than X 
-tru6c c6 th€ la than dan hoc g6m nhiSu than, va di sat vao lap C(J d9c cua thvc quan. 
-Than X sau thuong la m<)t than dan va a each thvc quan chut it, lam cho vic tim n6 luc 
-m6 d€ han. 
-Thvc quan b\Ulg duqc k€t dinh v6i ca hoanh bai mo lien k€t, g9i la day ching 
-hoanh th\Ic quan (phreno-oesophageal ligament). Day ching nay bao g6m hai dai mo 
-lien k€t giau sqi trun day len. Dai du6i la m<)t phfin ma r<)ng cua m.;ic ngang khi n6 lt tu 
-CCJ hoanh len thvc quan b1,mg. Gifra dai du6i, thanh th\IC quan va tf\) C(J hoanh c6 it mo 
-ma. Dm ma nay k€t n6i thvc quan v6i cac tn,l C(J nhung c6 XU huang thoai tri n theo 
-tu6i. d mt 16ng ngvc cua CCJ hoanh, dai tren cung duqc hinh thanh tuang 11J tu phfin ma
-r<)ng cua m.;ic n<)i ngvc du&i mang ph6i. N6 dc han so v6i dai dum v6i nhiSu sqi trun 
-han va duqc k€t dinh chic chin han nhiSu qua cac sqi CCJ cua thanh thvc quan vao cac mo 
-du6i niem m.;ic. Phia tru6c, mo lien k€t dum phuc m.;ic dc bit day dc va hoa vm ca lap 
-ngoai cua thanh th\IC quan va dinh cua cac sqi tu tn,l C(J hoanh. d phia sau, n€p lt phuc 
-m.;tc rftt ngin vi tn,l C(J hoanh nim d6c dung, va thanh sau thvc quan c6 chiSu dai ngiln 
-han so v6i thanh tru6c. N€p lt phuc m.;ic ngin nay doi khi duqc g9i la day ching vi 
-hoanh, lien ti€p qua phuc m.;ic phu thvc quan v6i phuc m.;tc phu mt sau cua d.;t day. N6 
-bao phu cac nhanh thvc quan cua cac m.;ich vi trai va cac nhanh than t.;ing cua than X sau 
-va do d6 c6 th€ n6i la t.;io thanh m<)t m.;tc treo r<)ng va C\IC ngin t6i th\IC quan do.;tn b\Ulg. 
-Trir nhfrng nguai gay nhftt, m<)t lap mo ma thuong duqc th§y ben du6i phuc mi,ic bao phu 
-mt tru6c cua phfin du6i th\Ic quan do.;in b1,mg va thanh d.;t day Ian cn. N6 la m6c hfru ich 
-trong ph¡u thut d€ xac dinh vi tri cua ch6 n6i d.;t day thvc quan tu phia ngoai. 
-3. HiNH THE TRONG VA cAu TO
-Thvc quan doi,in ngvc c6 4 lap mo, tu trong ra ngoai, la niem mi,ic, lap du6i niem 
-m.;ic, lap CCJ va ao ngoai. 
-L(yp niern rnc;zc day. T.;ti ch6 n6i d.;t day - thvc quan, m<)t duong ranh gim d.;ing zic -
-zac ph6ng - lorn xen ke, ngan each giua niem m.;tc thµc quan mau h6ng - xam, nh¢n va 
-niem m.;ic d.;t day mau h6ng do. D9c theo chiSu dai cua n6, long thvc quan c6 nhfrng 
-ranh d9c sau va duong ga, bi€n mfrt khi long 6ng bi cling ra. Lap bi€u mo cua niem m.;ic 
-la bi€u mo vay tfing khong sung h6a, c6 kha nang dS khang v6i chfrn thuang ca h9c 
+### 2.3. Thực quản bụng
 
+Thực quản bụng có chiều dài từ 1 - 2,5 cm, đi từ lỗ cơ hoành tới lỗ tâm vị theo hướng chếch sang trái và ra sau. Nó nằm sau và ấn vào thùy trái của gan thành rãnh (ấn thực quản). Sau thực quản là trụ trái cơ hoành, các mạch hoành dưới trái và thần kinh tạng lớn trái. Bề mặt của nó được bao phủ bởi một lớp mỏng mô liên kết và phúc mạc tạng có chứa các thân X trước và sau cũng như các nhánh thực quản của các mạch vị trái. Thân X trước có thể là thân đơn hoặc gồm nhiều thân, và đi sát vào lớp cơ dọc của thực quản. Thân X sau thường là một thân đơn và ở cách thực quản chút ít, làm cho việc tìm nó lúc mổ dễ hơn.
 
+Thực quản bụng được kết dính với cơ hoành bởi mô liên kết, gọi là dây chằng hoành thực quản (*phreno-oesophageal ligament*). Dây chằng này bao gồm hai dải mô liên kết giàu sợi trun dày lên. Dải dưới là một phần mở rộng của mạc ngang khi nó lật từ cơ hoành lên thực quản bụng. Giữa dải dưới, thành thực quản và trụ cơ hoành có ít mô mỡ. Đệm mỡ này kết nối thực quản với các trụ cơ nhưng có xu hướng thoái triển theo tuổi. Ở mặt lồng ngực của cơ hoành, dải trên cũng được hình thành tương tự từ phần mở rộng của mạc nội ngực dưới màng phổi. Nó đặc hơn so với dải dưới với nhiều sợi trun hơn và được kết dính chắc chắn hơn nhiều qua các sợi cơ của thành thực quản vào các mô dưới niêm mạc. Phía trước, mô liên kết dưới phúc mạc đặc biệt dày đặc và hòa với cả lớp ngoài của thành thực quản và đỉnh của các sợi từ trụ cơ hoành. Ở phía sau, nếp lật phúc mạc rất ngắn vì trụ cơ hoành nằm dốc đứng, và thành sau thực quản có chiều dài ngắn hơn so với thành trước. Nếp lật phúc mạc ngắn này đôi khi được gọi là dây chằng vị hoành, liên tiếp qua phúc mạc phủ thực quản với phúc mạc phủ mặt sau của dạ dày. Nó bao phủ các nhánh thực quản của các mạch vị trái và các nhánh thân tạng của thân X sau và do đó có thể nói là tạo thành một mạc treo rộng và cực ngắn tới thực quản đoạn bụng. Trừ những người gầy nhất, một lớp mô mỡ thường được thấy bên dưới phúc mạc bao phủ mặt trước của phần dưới thực quản đoạn bụng và thành dạ dày lân cận. Nó là mốc hữu ích trong phẫu thuật để xác định vị trí của chỗ nối dạ dày thực quản từ phía ngoài.
 
-<!-- Hết trang 652 -->
+---
 
+## 3. HÌNH THỂ TRONG VÀ CẤU TẠO
 
-trong qua trinh nu6t nho d◊ day cua no va chit nhfty tren bS mt biSu mo. Lap ca niem 
-bao g6m chu yeu la lap ca d9c, thua mong a phftn tren thvc quan. 
-N◊i soi thvc quan khong nhung cho phep danh gia cac bien d6i bS mt biSu mo 
-ma con co thS ket hqp v&i sieu am va sinh thiet kim nho. N◊i soi sieu am cho phep thiy 
-duqc cac h?ch trung thit quanh thvc quan, nhit la khi chung co bi€n d6i ac tinh, va co 
-thS sinh thi€t chinh xac. 
-Lap ducri niem m9c chua cac m?ch mau, thftn kinh va cac tuy€n nhfty (thu9c lo?i 
-tuy€n 6ng nang). Cac sqi dan h6i cua no rit quan tr9ng trong vic dong l?i long thvc 
-quan sau khi gian ra do nhu d9ng. 
-Lap CO' bao g6m lap ca d9c a ngoai va lap ca vong a trong nhu du true di€n hinh 
-cua ru9t. Lap ca dQC t?O thanh m◊t lap ao lien t\lC bao quanh gftn nhu toan b◊ chiSu dai 
-cua thvc quan, ngo?i tru a phftn sau tren, a 3 - 4 cm ben du&i S\}n nhfrn, nai no tach 
-thanh hai bo ch?y ch€ch ra mt tru&c cua thvc quan. 0 day, chung di sau d€n bo du&i 
-cua ca khit hftu du&i, va k€t thuc brtng m9t gan duqc giln vao phftn tren cua go a mt 
-sau cua manh S\ln nhfrn. Khoang tr6ng hinh chu V giua hai bo nay duqc lip dfty bai cac 
-SQ'i ca vong cua thvc quan, va ca nhfrn hftu g6i len lap ca vong nay. 
-Co vai bo SQ'i ca tran nho di qua giua thvc quan va mang ph6i trai hoc ph€ quan 
-chinh trai, khi quan, mang ngoai tim hoc d9ng m?ch chu, va doi khi duqc coi la d€ c6 
-dinh thvc quan vao cac du true nay. Phia tren, cac SQ'i vong lien k€t a phia sau v&i ca 
-khit hftu du&i. d phia tru&c, cac SQ'i tren cung duqc giln vao cac bo ngoai cua gan cua 
-hai bo ca d9c cua thvc quan. Phia du&i, ca vong lien t\lC v&i lap ca cheo a thanh d? day. 
-d m9t phftn ba tren cua thvc quan, ca thvc quan la ca van; a phftn ba giua, ca tran xen 
-ke v&i ca van, va tang dftn vS phia dftu xa d€ d€n phftn ba du&i chi chua ca tran. 
-Ca a dftu tren thvc quan cung v&i ca nhfrn hftu (phftn du&i cua ca khit hftu du&i) 
-t?o nen m9t vung co ap lvc cao trong long dftu tren thvc quan va duqc gQi la "ca thilt 
-thvc quan tren". Ca vong a dftu du&i thvc quan cung v&i cac SQ'i cua tf\} phai ca hoanh 
-va cac SQ'i ca vong d? day quanh 16 tam vi t?O nen m◊t ca thilt chuc nang gQi la "ca thilt 
-thvc quan du&i". Ca nay gian trong luc nu6t, khi lan song nhu d9ng dfty vien thuc an 
-d€n thvc quan b\lng, r6i dong l?i. 
-Ao ngoai la lap mo lien k€t bao bQC mt ngoai thvc quan va k€t n6i no v&i cac du 
-true xung quanh. Ao nay chua cac m?Ch mau, m?Ch b?ch huy€t va thftn kinh. 
-4. SI)' CAP MAU VA DAN LU'U BCH HUYi:T
-4.1. D(>ng mch 
-Thvc quan c6 duqc dp mau bai d9ng m?Ch giap du&i. Thvc quan ngvc duqc dp 
-mau bai cac nhanh ph€ quan va thvc quan cua d9ng m?ch chu ngvc. B6n hoc nam 
-nhanh ph€ quan tach ra tu mt tru&c cua d9ng mch chu va di ch€ch xu6ng thl)'c quan, 
-nai chung n6i v&i nhau thanh m◊t chu6i m?ch. Chu6i nay ti€p n6i a tren v&i cac nhanh 
-thvc quan cua cac d9ng m?ch giap du&i va a du&i v&i cac nhanh len tu cac d9ng m?Ch 
-hoanh trai va vi trai. 
+Thực quản đoạn ngực có 4 lớp mô, từ trong ra ngoài, là niêm mạc, lớp dưới niêm mạc, lớp cơ và áo ngoài.
 
+- **Lớp niêm mạc dày.** Tại chỗ nối dạ dày - thực quản, một đường ranh giới dạng zic - zac phồng - lõm xen kẽ, ngăn cách giữa niêm mạc thực quản màu hồng - xám, nhẵn và niêm mạc dạ dày màu hồng đỏ. Dọc theo chiều dài của nó, lòng thực quản có những rãnh dọc sâu và đường gờ, biến mất khi lòng ống bị căng ra. Lớp biểu mô của niêm mạc là biểu mô vảy tầng không sừng hóa, có khả năng đề kháng với chấn thương cơ học trong quá trình nuốt nhờ độ dày của nó và chất nhầy trên bề mặt biểu mô. Lớp cơ niêm bao gồm chủ yếu là lớp cơ dọc, thưa mỏng ở phần trên thực quản.
+- *Nội soi thực quản* không những cho phép đánh giá các biến đổi bề mặt biểu mô mà còn có thể kết hợp với siêu âm và sinh thiết kim nhỏ. Nội soi siêu âm cho phép thấy được các hạch trung thất quanh thực quản, nhất là khi chúng có biến đổi ác tính, và có thể sinh thiết chính xác.
+- **Lớp dưới niêm mạc:** chứa các mạch máu, thần kinh và các tuyến nhầy (thuộc loại tuyến ống nang). Các sợi đàn hồi của nó rất quan trọng trong việc đóng lại lòng thực quản sau khi giãn ra do nhu động.
+- **Lớp cơ:** bao gồm lớp cơ dọc ở ngoài và lớp cơ vòng ở trong như cấu trúc điển hình của ruột. Lớp cơ dọc tạo thành một lớp áo liên tục bao quanh gần như toàn bộ chiều dài của thực quản, ngoại trừ ở phần sau trên, ở 3 - 4 cm bên dưới sụn nhẫn, nơi nó tách thành hai bó chạy chếch ra mặt trước của thực quản. Ở đây, chúng đi sâu đến bờ dưới của cơ khít hầu dưới, và kết thúc bằng một gân được gắn vào phần trên của gờ ở mặt sau của mảnh sụn nhẫn. Khoảng trống hình chữ V giữa hai bó này được lấp đầy bởi các sợi cơ vòng của thực quản, và cơ nhẫn hầu gối lên lớp cơ vòng này.
+  Có vài bó sợi cơ trơn nhỏ đi qua giữa thực quản và màng phổi trái hoặc phế quản chính trái, khí quản, màng ngoài tim hoặc động mạch chủ, và đôi khi được coi là để cố định thực quản vào các cấu trúc này. Phía trên, các sợi vòng liên kết ở phía sau với cơ khít hầu dưới. Ở phía trước, các sợi trên cùng được gắn vào các bờ ngoài của gân của hai bó cơ dọc của thực quản. Phía dưới, cơ vòng liên tục với lớp cơ chéo ở thành dạ dày. Ở một phần ba trên của thực quản, cơ thực quản là cơ vân; ở phần ba giữa, cơ trơn xen kẽ với cơ vân, và tăng dần về phía đầu xa để đến phần ba dưới chỉ chứa cơ trơn.
+  Cơ ở đầu trên thực quản cùng với cơ nhẫn hầu (phần dưới của cơ khít hầu dưới) tạo nên một vùng có áp lực cao trong lòng đầu trên thực quản và được gọi là **“cơ thắt thực quản trên”**. Cơ vòng ở đầu dưới thực quản cùng với các sợi của trụ phải cơ hoành và các sợi cơ vòng dạ dày quanh lỗ tâm vị tạo nên một cơ thắt chức năng gọi là **“cơ thắt thực quản dưới”**. Cơ này giãn trong lúc nuốt, khi làn sóng nhu động đẩy viên thức ăn đến thực quản bụng, rồi đóng lại.
+- **Áo ngoài:** là lớp mô liên kết bao bọc mặt ngoài thực quản và kết nối nó với các cấu trúc xung quanh. Áo này chứa các mạch máu, mạch bạch huyết và thần kinh.
 
+---
 
-<!-- Hết trang 653 -->
+## 4. SỰ CẤP MÁU VÀ DẪN LƯU BẠCH HUYẾT
 
+### 4.1. Động mạch
 
-Th\TC quan b¹mg dtrQ'C dp mau bai cac nhanh tht,rc quan cua d('mg nl?Ch vi trai. 
-Chung di len vai m<)t nhanh tn.rac va m<)t nhanh sau ben dtr6i phuc m?c t?ng d¾ cung 
-dp cac nhanh xuyen cho cac dam r6i n<)i thanh va dtr6i niem m?C. 
-4.2. Tinh mch 
-Mau tTnh m?Ch tll' th\TC quan chay vao dam r6i dtr6i niem m?C va tll' d6 chay vao 
-dam r6i tTnh m?Ch quanh tht,rc quan. Cac tTnh m?Ch th\TC quan d§n mau ur dam r6i 
-quanh thµc quan d6 vº cac tTnh m?ch khac nhau tt1y vi.mg. 6 do?n c6, chung d6 vº tinh 
-JTI?Ch giap du6i. 6 do?n nglJC, chung d6 vao cac tTnh JTI?Ch don, gian Slf011 va phS quan. 
-6 do?n bt,mg, cac tTnh JTI?Ch thvc quan dtr6i d6 vao tTnh JTI?Ch vi trai Ctla h» cfra. Nhtr 
-V?Y, mau tTnh JTI?Ch ur th\TC quan Vll'a d6 vº tTnh ITI?Ch chu tren Vll'a d6 vº tTnh ITI?Ch cfra. 
-Khi c6 tang ap tTnh m?Ch cfra thi mau tTnh ITI?Ch tll' h» cfra c6 th€ tran sang cac dam r6i 
-tTnh m?Ch cua tht,rc quan d¾ dtrQ'C d§n luu vº tTnh m?Ch chu tren, gay gian tinh m?,ch 
-thµc quan. 
-4.3. Dftn luu bch huyt 
-Th,,rc quan c6 m<)t h» th6ng b?Ch huySt du6i niem ITil;lC trai dai lien t1,1c theo chiºu 
-d9c, va d6 c6 le la ly do cua di can cac h?ch C?nh thµc quan xa trong ung thu bi€u mo 
-th\TC quan. Cac m?,ch tt:r thvc quan c6 d6 vao cac h?ch c6 sau ho¼c tqrc tiSp ho¼c qua 
-cac h?ch C?nh khi quan. Cac ITI?Ch UT th\TC quan ngvc d½n luu dSn cac h?ch trung thit 
-sau. Cac JTI?Ch tll' thµc quan b1,1ng d§n luu dSn cac h?,ch b?,ch huySt d<)ng m?,ch vi trai va 
-cac h?ch C?,nh tarn vi phai va trai; b?ch huySt tll' m¼t sau c6 th¾ d½n vº h?ch Cl;lnh d<)ng 
-m?ch chu cao nhk M<)t s6 c6 th¾ di tr1,1·c tiSp vao 6ng ngvc.
-5. Sl)' CHI PHOI THAN KINH
-Phfin tren thvc quan duqc chi ph6i bai cac sqi d6i giao cam tu· thfin kinh thanh 
-quan qu¼t nguqc va bai cac sqi giao cam sau h?,ch di d9c theo cac d<)ng nwch giap du6i 
-d¾ dSn tlwc quan. Phfin du6i tlwc quan dtrQ'C chi ph6i bai dam r6i th¹rc quan, m<)t m?,ng 
-luai thfin kinh tv cht1 r<)ng bao quanh th1,1·c quan a ben du6i cu6ng ph6i, va la t¿p hqp 
-cac sqi giao cam va d6i giao cam. 
-Cac SQ'i V?l1 d<)ng cho CO' van va CO' trnn cua thanh th1,rc quan di trong thfin kinh X 
-(H.3). Cac sqi t[l,lc xuit phat tfr nhan hoai nghi di theo thfin kinh thanh quan qu¼t nguqc 
-va chi ph6i CO' nh§n hfiu va CO' van cua m<)t phfin ba tren cua thvc quan. Cac sqi tr1,1c d6i 
-giao cam (tnr6c h?,ch) xuit phat UT nhan ill'l1g thfin kinh X di qua dam r6i th\TC quan dSn 
-t?n cung a cac h?,ch trong dam r6i ao co; cac SQ'i sau h?Ch chi ph6i CO' tmn a hai phfin ba 
-du6i cua thµc quan. Cac nhanh khac duqc tach ra ru thfin kinh X khi n6 di qua trung 
-thfit va di thing dSn thvc quan. Cac thfin kinh X cling mang cac SQ'i V?n tiSt dSn cac 
-tuySn nhfty trong niem m?C thµc quan, va cac SQ'i cam giac tu thvc quan di trong thftn 
-kinh X dSn than tS bao trong h?ch du6i cua thftn kinh X. 
+Thực quản cổ được cấp máu bởi *động mạch giáp dưới*. Thực quản ngực được cấp máu bởi các nhánh phế quản và thực quản của *động mạch chủ ngực*. Bốn hoặc năm nhánh phế quản tách ra từ mặt trước của động mạch chủ và đi chếch xuống thực quản, nơi chúng nối với nhau thành một chuỗi mạch. Chuỗi này tiếp nối ở trên với các nhánh thực quản của các động mạch giáp dưới và ở dưới với các nhánh lên từ các động mạch hoành trái và vị trái.
 
+Thực quản bụng được cấp máu bởi các nhánh thực quản của *động mạch vị trái*. Chúng đi lên với một nhánh trước và một nhánh sau bên dưới phúc mạc tạng để cung cấp các nhánh xuyên cho các đám rối nội thành và dưới niêm mạc.
 
+### 4.2. Tĩnh mạch
 
-<!-- Hết trang 654 -->
+Máu tĩnh mạch từ thực quản chảy vào đám rối dưới niêm mạc và từ đó chảy vào đám rối tĩnh mạch quanh thực quản. Các tĩnh mạch thực quản dẫn máu từ đám rối quanh thực quản đổ về các tĩnh mạch khác nhau tùy vùng. Ở đoạn cổ, chúng đổ về *tĩnh mạch giáp dưới*. Ở đoạn ngực, chúng đổ vào *các tĩnh mạch đơn, gian sườn và phế quản*. Ở đoạn bụng, các tĩnh mạch thực quản dưới đổ vào *tĩnh mạch vị trái của hệ cửa*. Như vậy, máu tĩnh mạch từ thực quản vừa đổ về tĩnh mạch chủ trên vừa đổ về tĩnh mạch cửa. Khi có tăng áp tĩnh mạch cửa thì máu tĩnh mạch từ hệ cửa có thể tràn sang các đám rối tĩnh mạch của thực quản để được dẫn lưu về tĩnh mạch chủ trên, gây **giãn tĩnh mạch thực quản**.
 
+### 4.3. Dẫn lưu bạch huyết
 
-.a. r· 
+Thực quản có một hệ thống bạch huyết dưới niêm mạc trải dài liên tục theo chiều dọc, và đó có lẽ là lý do của di căn các hạch cạnh thực quản xa trong ung thư biểu mô thực quản. Các mạch từ thực quản cổ đổ vào các *hạch cổ sâu* hoặc trực tiếp hoặc qua các hạch cạnh khí quản. Các mạch từ thực quản ngực dẫn lưu đến các *hạch trung thất sau*. Các mạch từ thực quản bụng dẫn lưu đến các *hạch bạch huyết động mạch vị trái* và các *hạch cạnh tâm vị phải và trái*; bạch huyết từ mặt sau có thể dẫn về *hạch cạnh động mạch chủ cao nhất*. Một số có thể đi trực tiếp vào ống ngực.
 
-... -
-! • -, 
-41 ►h. 
-ThAn kinh X phai 
-, 
-, 
-ThAn kinh thanh quan. 
-l f, .' 
-qu9t ngugc phai 
-ThAn kinh t;mg Ion phai 
-I .. 
-; r 
-/·1· 
-·( 
-#ti,, I 
-.f\• j 
-T 
-•
-ThAn kinh X trai 
-·i. ' ---
-'
-Than kinh thanh quan 
-qu9t ngUQ'C trai 
-ThAn kinh t;mg 
-Ion trai 
-Than X truoc 
-N hin trtro·c 
-Nhin sau 
+---
 
-![Hinh 3. Cac than kinh cua thl)'c quan [12]](giaiphau_media/hinh_p655_3.png)
+## 5. SỰ CHI PHỐI THẦN KINH
 
-*Hinh 3. Cac than kinh cua thl)'c quan [12]*
+Phần trên thực quản được chi phối bởi các sợi đối giao cảm từ *thần kinh thanh quản quặt ngược* và bởi các sợi giao cảm sau hạch đi dọc theo các động mạch giáp dưới để đến thực quản. Phần dưới thực quản được chi phối bởi *đám rối thực quản*, một mạng lưới thần kinh tự chủ rộng bao quanh thực quản ở bên dưới cuống phổi, và là tập hợp các sợi giao cảm và đối giao cảm.
 
-Than X sau 
-Cac sqi giao cam vYn m<;1ch dimh cho tht,rc quan phat sinh tu b6n d€n sau d6t tuy 
-ngvc tren. Cac sqi tru&c h<;tch di qua cac h<;tch ngvc tren di d€n cac h<;tch c6 gifra va 
-du&i, nai chung synap v&i cac naron hYu h<;tch; sqi sau h<;tch d€n chi ph6i cac m<;1ch cua 
-thvc quan do<;tn c6 va ngvc tren. Cac sqi tu cac h<;tch ngvc du&i han hoZc la sqi sau h<;tch 
-di trvc ti€p d€n dam r6i thvc quan hoZc la sqi tru&c h<;tch di d€n h<;tch than t<;1ng (thong 
-qua day thfin kinh t<;1ng l&n), nai chung ti€p n6i synap; cac sqi tfl,lc hYu h<;tch chi ph6i 
-cho phfin xa cua thvc quan. Cac sqi cam giac dftn truy[n cam giac dau rn)i t<;1ng di theo 
-dm.'mg cua cac sqi giao cam d€n b6n d6t tuy ngvc dfiu tien. Vi cac d6t tuy nay cilng 
-nh\n duqc cac sqi cam giac dau tu tim, d6i khi nit kh6 phan bi]t giua dau thl,l'c quan va 
-dau tim. 
+Các sợi vận động cho cơ vân và cơ trơn của thành thực quản đi trong *thần kinh X* (H.3). Các sợi trục xuất phát từ nhân hoài nghi đi theo thần kinh thanh quản quặt ngược và chi phối cơ nhẫn hầu và cơ vân của một phần ba trên của thực quản. Các sợi trục đối giao cảm (trước hạch) xuất phát từ nhân lưng thần kinh X đi qua đám rối thực quản đến tận cùng ở các hạch trong đám rối áo cơ; các sợi sau hạch chi phối cơ trơn ở hai phần ba dưới của thực quản. Các nhánh khác được tách ra từ thần kinh X khi nó đi qua trung thất và đi thẳng đến thực quản. Các thần kinh X cũng mang các sợi vận tiết đến các tuyến nhầy trong niêm mạc thực quản, và các sợi cảm giác từ thực quản đi trong thần kinh X đến thân tế bào trong hạch dưới của thần kinh X.
 
+![Hình 3: Các thần kinh của thực quản](giaiphau_media/hinh_p655_3.png)
+*Hình 3. Các thần kinh của thực quản [12]*
 
+Các sợi giao cảm vận mạch dành cho thực quản phát sinh từ bốn đến sáu đốt tủy ngực trên. Các sợi trước hạch đi qua các hạch ngực trên đi đến các hạch cổ giữa và dưới, nơi chúng synáp với các nơron hậu hạch; sợi sau hạch đến chi phối các mạch của thực quản đoạn cổ và ngực trên. Các sợi từ các hạch ngực dưới hơn hoặc là sợi sau hạch đi trực tiếp đến đám rối thực quản hoặc là sợi trước hạch đi đến hạch thân tạng (thông qua dây thần kinh tạng lớn), nơi chúng tiếp nối synáp; các sợi trục hậu hạch chi phối cho phần xa của thực quản. Các sợi cảm giác dẫn truyền cảm giác đau nội tạng đi theo đường của các sợi giao cảm đến bốn đốt tủy ngực đầu tiên. Vì các đốt tủy này cũng nhận được các sợi cảm giác đau từ tim, đôi khi rất khó phân biệt giữa đau thực quản và đau tim.
 
-<!-- Hết trang 655 -->
+---
 
+## 6. RỐI LOẠN VẬN ĐỘNG CỦA THỰC QUẢN
 
-6. ROI LON VN OQNG CUA THl)'C QUAN
-Cac r6i loi;m v{m d(mg chinh cua tht,rc quan bao g6m cac r6i loc;1n cua cac ca tht 
-thl,fC quan tren hoc du6i va SIJ mftt kha nang gian ra cua cac ca nay. 6 bnh nhan c6 
-t6n thuang than nao do d9t qu):', ca thiit thvc quan tren (g6m ca nhfin hftu va phftn tren 
-ca thvc quan, do sqi thftn kinh X tu nhan hoai nghi chi ph6i) c6 thJ giam sv thu gian 
-dfin d€n kh6 nu6t, thfty duqc tren hinh iinh chiu X - quang c6 nu6t baryt va quay video 
-(video fluoroscopy). 
-Co thitt tam vi la m9t r6i loc;1n V?n d9ng trong d6 ca thiit tam vi - thvc quan (ca 
-thitt thvc quiin du6i) khong th€ gian va mftt nhu d(>ng thvc quan do thoai h6a than t bao 
-thftn kinh trong dam r6i thftn kinh ao ca thvc quan. BiJu hin lam sang la kh6 nu6t, non 
-thuc an khong tieu, dau ngvc sau xuang uc va sut can. X quang ngvc dan gian c6 the 
-cho thy S\.f gian ra cua thvc quan do 11 dc;mg thuc an. Do ap Ive thvc quan xac nh?n 
-ch:ln doan. Diu tri bing phuang phap nong bing bong hai trong khi n9i soi hoc phfiu 
-thut ma ca thiit tam vi t6i thi€u. M<)t phuang phap thay th a nhfrng bnh nhan gay yu 
-la tiem d9c t6 botulinum vao ca thitt. 
+Các rối loạn vận động chính của thực quản bao gồm các rối loạn của các cơ thắt thực quản trên hoặc dưới và sự mất khả năng giãn ra của các cơ này. Ở bệnh nhân có tổn thương thân não do đột quỵ, cơ thắt thực quản trên (gồm cơ nhẫn hầu và phần trên cơ thực quản, do sợi thần kinh X từ nhân hoài nghi chi phối) có thể giảm sự thư giãn dẫn đến khó nuốt, thấy được trên hình ảnh chiếu X - quang có nuốt baryt và quay video (*video fluoroscopy*).
 
-
-
-<!-- Hết trang 656 -->
-
+**Co thắt tâm vị** là một rối loạn vận động trong đó cơ thắt tâm vị - thực quản (cơ thắt thực quản dưới) không thể giãn và mất nhu động thực quản do thoái hóa thân tế bào thần kinh trong đám rối thần kinh áo cơ thực quản. Biểu hiện lâm sàng là khó nuốt, nôn thức ăn không tiêu, đau ngực sau xương ức và sút cân. X quang ngực đơn giản có thể cho thấy sự giãn ra của thực quản do ứ đọng thức ăn. Đo áp lực thực quản xác nhận chẩn đoán. Điều trị bằng phương pháp nong bằng bóng hơi trong khi nội soi hoặc phẫu thuật mở cơ thắt tâm vị tối thiểu. Một phương pháp thay thế ở những bệnh nhân gầy yếu là tiêm độc tố botulinum vào cơ thắt.

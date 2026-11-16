@@ -1,392 +1,176 @@
-# MIỆNG VÀ CÁC CẤU TRÚC PHỤ THUỘC MIỆNG
+# BÀI 39: MIỆNG VÀ CÁC CẤU TRÚC PHỤ THUỘC MIỆNG
 
 **Chương:** Chương 10: Hệ Tiêu Hóa  
 **Tác giả:** PGS.TS. Ngô Xuân Khoa  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 641 - 649
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 641 - 649 (Tương ứng file scan page_641 đến page_649)
 
 ---
 
-Chuong 10 
-HE TIEU HOA 
-Bai I 
-MlfNG VA cAc CAU TRUC PHV THUOC MlfNG 
-Mi[ng la ph§n d§u ct:1a 6ng tieu hoa. 0 mi[ng ch(ra cac ca quan tieu hoa ph1,1 
-thu('>c mi\ng bao g6m rang va luai, tuy]n nu&c b9t. Cht'.rc nang chinh: n]m (vi giac), 
-nhai (tieu hoa ca h9c), ti]t nu&c b9t (tieu hoa hoa h9c), nu6t, n6i. 
-1. V! TRi, GIO'I HN VA PHAN CHIA
-- 0 mi\ng (Oral cavity) thong ra ngoai qua khc mi\ng & tru&c va phia sau thong
-v&i h§u qua eo h9ng. 
-- 0 mi\ng dugc chia thanh phftn tru&c cung rang la tiJn dinh mi¢ng (oral vestibule)
-va phftn sau cung rang la r3 mi¢ng chinh (H. l). 
-Cung khau ,ai hBu 
-- I l,111h nl1tin kh;1u ,i,i 
-I 1r11 d111h 1111C11 
-( 0 \ lHH! 1111¢110-A-
-.....i-__ Riinh 1D11 
-• 
-e 
-I ..,, 
-.J't 
-.
-/ 
-('tr 
-am mOng 
-/ 
-Cll h,i111 m,,ng 
-X11ang 111611g 
+Miệng là phần đầu của ống tiêu hoá. Ổ miệng chứa các cơ quan tiêu hoá phụ thuộc miệng bao gồm răng và lưỡi, tuyến nước bọt. Chức năng chính: nếm (vị giác), nhai (tiêu hoá cơ học), tiết nước bọt (tiêu hoá hoá học), nuốt, nói.
 
-![Hinh 1. Thiet do d(.rng dQc qua dau [12)](giaiphau_media/hinh_p641_1.png)
+---
 
-*Hinh 1. Thiet do d(.rng dQc qua dau [12)*
+## 1. VỊ TRÍ, GIỚI HẠN VÀ PHÂN CHIA
 
-- Ti^n dinh mi[ng:
-+ Thanh ngoai la cac m6i va ma.
-Lb tit 
-HEnh nhan l11ai 
+- Ổ miệng (*oral cavity*) thông ra ngoài qua khe miệng ở trước và phía sau thông với hầu qua eo họng.
+- Ổ miệng được chia thành phần trước cung răng là *tiền đình miệng* (*oral vestibule*) và phần sau cung răng là *ổ miệng chính* (H.1).
 
+![Hình 1: Thiết đồ đứng dọc qua đầu](giaiphau_media/hinh_p641_1.png)
+*Hình 1. Thiết đồ đứng dọc qua đầu [12]*
 
+### Tiền đình miệng:
+- **Thành ngoài:** là các *môi* và *má*.
+- **Thành trong:** là *lợi* và *răng*.
+- **Phía trước:** là *khe miệng* (*oral fissure*).
+- **Phía sau:** Thông với ổ miệng chính qua khe sau răng cối thứ ba ở hai bên.
 
-<!-- Hết trang 641 -->
+### Ổ miệng chính:
+- **Phía trước và hai bên:** các cung huyệt răng, các răng và lợi.
+- **Phía sau:** Thông với hầu qua *eo họng* (*isthmus of fauces*).
+- **Thành trên (trần hay vòm miệng):** là khẩu cái cứng và khẩu cái mềm.
+- **Sàn miệng:** Phần trước lưỡi và mặt dưới lưỡi, niêm mạc phủ mặt trong xương hàm dưới.
 
+---
 
-+ Thanh trong la /9·i va rang.
-+ Phia tru6c la khe mifng (oral fissure).
-+ Phia sau: Thong v6i 6 mi?ng chinh qua khe sau rang c6i thu ba & hai ben.
-- 6 mi?ng chinh:
-+ Phia truac va hai ben: cac cung huy?t rang, cac rang va !qi.
-+ Phia sau: Thong v6i h§.u qua eo h9ng (isthmus of fauces).
-+ Thanh tren (tr§.n hay vom mi?ng) la khftu cai cung va khftu cai mbrn.
-+ San mi?ng: Ph§.n tru6c ltrai va mit duai luai, niem mc phu mH trong xuong
-ham duai.
-2. cAc THANH CUA O Mll;NG
-2.1. Thanh tren 
-Kh§u cai (palate) hay vom mi+ng g6m khftu cai cung nirn 2/3 phia truac va kh:iu 
-cai mbrn 1/3 phia sau. 
-- Khdu cai ci'rng (hard palate) OlIQ'C to b&i 2/3 truac la morn khiu cai xuong
-ham tren va 1/3 sau la manh ngang xuong kh:lu cai to nen. Bb mt khiu cai cung phu 
-niem mc va c6 nhfrng go ngang g9i la n€p kh:lu cai. 
-- Khdu cai mJm (soft palate) duqc to b&i ca van va mo tuy€n, phu niern rnc.
-Kh:lu cai mbm barn vao ba sau kh:lu cai cung, tham gia d.u true phia tren va phia ben 
-cua eo h9ng (isthmus of fauces) (H.2). Ba sau ct'.1a khu cai mbrn c6 lucN ga (uvula) nim 
-chinh gifra, nho xu6ng duai. Khi nu6t, kh:iu cai rnbrn va lu5'i ga duqc keo !en tren, ngan 
-gifra h§.u mili va h§.u mi?ng, khong cho thuc an Jen rnili. 
-Camut 
-Cung khiiu cai hku 
-Cung kh§u cai luai 
-Luai ga 
-Ca khiiu cai hku 
---..__._-H!nh nhiin kh§u cai 
-,at,-..,....-Ca khiiu cai luai 
+## 2. CÁC THÀNH CỦA Ổ MIỆNG
 
-![Hinh 2. 6 mi$ng nhin trU'6'c](giaiphau_media/hinh_p642_2.png)
+### 2.1. Thành trên
 
-*Hinh 2. 6 mi$ng nhin trU'6'c*
+Khẩu cái (*palate*) hay vòm miệng gồm khẩu cái cứng nằm 2/3 phía trước và khẩu cái mềm 1/3 phía sau.
 
+- *Khẩu cái cứng* (*hard palate*) được tạo bởi 2/3 trước là mỏm khẩu cái xương hàm trên và 1/3 sau là mảnh ngang xương khẩu cái tạo nên. Bề mặt khẩu cái cứng phủ niêm mạc và có những gờ ngang gọi là nếp khẩu cái.
+- *Khẩu cái mềm* (*soft palate*) được tạo bởi cơ vân và mô tuyến, phủ niêm mạc. Khẩu cái mềm bám vào bờ sau khẩu cái cứng, tham gia cấu trúc phía trên và phía bên của eo họng (*isthmus of fauces*) (H.2). Bờ sau của khẩu cái mềm có *lưỡi gà* (*uvula*) nằm chính giữa, nhô xuống dưới. Khi nuốt, khẩu cái mềm và lưỡi gà được kéo lên trên, ngăn giữa hầu mũi và hầu miệng, không cho thức ăn lên mũi.
 
+![Hình 2: Ổ miệng nhìn trước](giaiphau_media/hinh_p642_2.png)
+*Hình 2. Ổ miệng nhìn trước*
 
+- Từ lưỡi gà có hai nếp niêm mạc: Phía trước là *cung khẩu cái - lưỡi* (*palatoglossal arch*) đi tới bờ bên của lưỡi tại chỗ nối giữa phần trước rãnh và phần sau rãnh của lưỡi; Phía sau là *cung khẩu cái - hầu* (*palatopharyngeal arch*) đi tới thành bên của khẩu hầu. *Hố hạnh nhân* (*tonsillar fossa*) nằm giữa 2 cung và chứa *hạnh nhân khẩu cái* (*palatine tonsil*).
+- Eo họng được giới hạn ở trên bởi lưỡi gà và hai cung khẩu cái lưỡi và ở dưới bởi mặt lưng lưỡi. Đây là giới hạn sau của ổ miệng.
 
-<!-- Hết trang 642 -->
+### 2.2. Thành trước
 
+*Các môi trên và dưới* (*upper/lower lip*) giới hạn khe miệng. Hai môi gặp nhau tại các *mép môi* (*labial commissure*) tạo nên *các góc miệng* (*angle of mouth*). *Nhân trung* (*philtrum*) là rãnh dọc trên da, nằm trên đường giữa nối từ mũi đến môi trên. Mặt trong các môi có *hãm môi trên và dưới* nối với lợi (*frenulum of upper/lower lip*).
 
-- Tu luai ga c6 hai n±p niem ml,lc: Phia tru&c la cung khau cai - luo·i
-(palatoglossal arch) di t&i ba ben cua hroi tl,li ch6 n6i gifra phftn tnr&c ranh va phftn sau 
-ranh cua luoi; Phia sau la cung khdu cai - heiu (palatopharyngeal arch) di t&i thanh ben 
-cua khftu hftu. H6 h9nh nhan (tonsillar fossa) nAm giua 2 cung va chua hc;nh nhan khdu 
-cai (palatine tonsil). 
-- Eo h<;mg duqc gi&i hl,ln & tren b&i luoi ga va hai cung kh²u cai luai va & du&i
-b&i m³t lung luoi. Day la gi&i hl,ln sau cua 6 mi¢ng. 
-2.2. Thanh trmrc 
-Ctic moi tren va dU'oi (upper/lower lip) gi&i hl,ln khe mi´ng. Hai m6i g³p nhau t?i 
-cac mep moi (labial commissure) tl,lo nen cac goc mi¢ng (angle of mouth). Nhan trung 
-(philtrum) la ranh d9c tren da, nAm tren duang gifra n6i tu mui d€n m6i tren. M³t trong 
-cac m6i c6 ham moi tren va dulri n6i v&i lqi (frenulum of upper/lower lip). 
-Cftu t?O cua m6i tu ngoai vao trong l§n luqt la da, ca vong mi´ng, cac ffil,lCh mau 
-va th§n kinh m6i, m6 XO' - ma, cac tuy±n nu&c b9t nho, niem ml,!C. 
-2.3. Thanh hen 
-Mti (cheek) t?o nen thanh ben cua mi´ng, lien ti€p v&i m6i & phia tnr&c. Tu n6ng 
-vao sau, du t?O cua ma g6m da, cac ca barn da, thtf miJ- ma (buccal fad pad) va niem ml,!C. 
-L!)i (gingiva) la l&p m6 mµm phu cac cung huy´t rang; g6m phfrn ti.! do bao quanh c6 
-rang va phfrn dinh ch³t vao cac cung huy´t rang xuang ham tren va xuang ham du&i. 6 gfrn 
-rang, niem ffil,lC tren m³t tiµn dinh cua lqi t?O thanh nhung nhu cao g9i la nhit l9i (gingival 
-papilla). Cftu t?o cua !qi la m6 sqi va duqc phu b&i bi¶u mo lat tfrng khong sung hoa. 
-2.4. Thanh dtroi 
-San mi´ng chu y€u duqc t?O b&i ph§n tnr&c cua luoi, con ll,li la niem ffil,lC tu luoi 
-l?t len m³t trong xuang ham du&i. M³t du&i cua luoi gin v&i san mi´ng b&i m<)t n€p 
-niem ml,lc la ham luai. Hai ben ham luoi c6 cw dulri luai, nai ma 6ng tuy€n du&i ham 
-d6 vao 6 mi´ng. Hai ca chinh tham gia t?o nen san mi´ng la ca ham m6ng (mylohyoid) 
-va ca dm m6ng (geniohyoid). 
-3. RANG
-Rang la nhfrng ca quan tieu h6a ph1._.1 g6p phfrn vao vi´c tieu hoa ca h9c & mi´ng. 
-89 rang duqc gin vao cac huy´t rang & cung rang ham tren va va cung rang ham dulri. 
-3.1. Cach gqi ten va phan lo&i cac rang 
-Nguai c6 hai be) rang: rang sfra va rang vTnh vi·n. 
-Bq rang sfra (deciduous teeth) c6 20 chi€c. Theo trinh ti.! tu m³t phfing gifra tiSn 
-sang ben va ra sau, rang sfra & m6i nua cung rang duqc g9i ten nhu sau: rang cu·a trung 
-tam, rang cua hen, rang nanh, rang c6i thu nhdt va rang c6i thu hai; trong h´ th6ng ki 
+Cấu tạo của môi từ ngoài vào trong lần lượt là da, cơ vòng miệng, các mạch máu và thần kinh môi, mô xơ - mỡ, các tuyến nước bọt nhỏ, niêm mạc.
 
+### 2.3. Thành bên
 
+*Má* (*cheek*) tạo nên thành bên của miệng, liên tiếp với môi ở phía trước. Từ nông vào sâu, cấu tạo của má gồm da, các cơ bám da, *thể mỡ má* (*buccal fat pad*) và niêm mạc.
 
-<!-- Hết trang 643 -->
+*Lợi* (*gingiva*) là lớp mô mềm phủ các cung huyệt răng; gồm phần tự do bao quanh cổ răng và phần dính chặt vào các cung huyệt răng xương hàm trên và xương hàm dưới. Ở gần răng, niêm mạc trên mặt tiền đình của lợi tạo thành những nhú cao gọi là *nhú lợi* (*gingival papilla*). Cấu tạo của lợi là mô sợi và được phủ bởi biểu mô lát tầng không sừng hoá.
 
+### 2.4. Thành dưới
 
-hi£u Palmer, cac rang sfra duqc chi ra bing trlnh t\J' cac chfr cai A, B, C, D va E, bit dl1u 
-tu rang ct'.ra trung tam. Rang cua c6 than rang hinh thang v&i ffi?t tru&c 16i va ID?t sau 
-lorn, m?t nhai chi la m(>t ba g9i la b& c6t; rang nanh c6 m(>t mfru nh9n; hai lo?i nay 
-thich t'.rng v&i nhi£m V\J cit va xe tht'.rc an va chi c6 m(>t chan rang. Cac rang c6i c6 b6n 
-mfru. Rang c6i ham tren c6 ba chan rang; rang c6i ham du&i c6 hai chan rang. Cac rang 
-c6i nghi€n va nhai thi'.rc an. Be) rang sfra m9c trong khoang thai gian tu 1/2 t&i 2 1/2 nam 
-tu6i, bit dl1u tu rang ct'.ra trung tam. Ca be) rang sfra duqc thay bing rang vTnh vi€n trong 
-thai gian tu 6 t&i 12 tu6i. Thu tv m9c rang sfra thuang la A, B, D, C, E. 
-Bq rang vinh vin (permanent teeth) c6 32 rang, m6i nua ham bao g6m 2 rang 
-cua, l rang nanh, 2 rang ti€n c6i (ham be), va 3 rang c6i (ham l&n); chung m9c trong 
-khoang thai gian tu 6 tu6i t&i tu6i truang thanh (H.3). Cac rang cua va rang nanh cua be) 
-rang vinh vi¤n gi6ng v&i rang sfra ma chung thay thS nhung cac rang c<5i cua be) rang 
-sfra duqc thay thS bing cac rang tiJn cbi (hay ham be) thu· nhdt va thu: hai; rang ti€n c6i 
-vTnh vi€n la nhfrng rang c6 hai m§u va m(>t chan rang (rieng rang ti€n c6i thu nhftt cua 
-ham tren c6 hai chan rang). C6 ba rang c6i (hay rang ham 16n) vTnh vi€n nim sau rang 
-ti€n c6i thu hai; chung khong thay thS cho bfrt ki rang sfra nao. Rang c<5i thu: nhdt m9c 
-Jue 6 tu6i, rang cbi thu: hai m9c Jue 12 ru6i, rang cbi thu: ba (rang khan) m9c sau 17 
-tu6i. Rang khon c6 thS khong m9c ma bi vui trong huy£t rang nSu phlln cung rang (J sau 
-rang c6i thl'.r hai khong du ch6 cho n6 m9c. Kich thu&c cac rang c6i giam dl1n tu rang 
-c6i thl'.r nhfrt t&i rang c6i thl'.r ba. Chung thuang c6 4 mftu & m?t nhai; rieng rang c6i thu 
-nhfrt ham du&i c6 5 miu. Theo h£ th6ng Palmer, rang vTnh vi€n cua m6i m:ra ham duqc 
-danh s6 tu 1 t&i 8, tinh tu rang ctra trung tam t&i rang c6i thu ba. Thu tv m9c rang vTnh 
-vi€n la 6,l,2,3,4,5,7,8. 
-IC6rang  \ 
-I Than rang j { 
-i J 
-I Chan rang I { 
-Rang c(ra ( 1,2) Rang nanh (3) Rang ti!n c6i (4,5) 
-Rang c6i (6,7,8) 
+Sàn miệng chủ yếu được tạo bởi phần trước của lưỡi, còn lại là niêm mạc từ lưỡi lật lên mặt trong xương hàm dưới. Mặt dưới của lưỡi gắn với sàn miệng bởi một nếp niêm mạc là *hãm lưỡi*. Hai bên hãm lưỡi có *cục dưới lưỡi*, nơi mà ống tuyến dưới hàm đổ vào ổ miệng. Hai cơ chính tham gia tạo nên sàn miệng là *cơ hàm móng* (*mylohyoid*) và *cơ cằm móng* (*geniohyoid*).
 
-![Hinh 3. Hinh the ngoai cua b(> rang vTnh vien](giaiphau_media/hinh_p644_3.png)
+---
 
-*Hinh 3. Hinh the ngoai cua b(> rang vTnh vien*
+## 3. RĂNG
 
-3.2. Hinh th ngoai va du to 
-Cung rang tren 
-Cung rang du&i 
-M6i rang bao g6m m(>t than rang hay vanh rang (crown), m(>t chan rang hay ri 
-rang (root) va m(>t c6 rang (neck/cervix) la ch& n6i gifra than va chan rang. 
-ChiSu cong cua cac cung rang khiSn cho cac tu dung trong mo ta giai ph!u thong 
-thuang, nhu tru&c va sau, tr& nen khong thich hqp. Do d6, trong giai ph!u rang, m?t 
-rang hu&ng vS phia tiSn dinh mi£ng duqc g9i la m(lt m6i ho?c m(lt ma, m?t hu&ng vS 6 
+Răng là những cơ quan tiêu hóa phụ góp phần vào việc tiêu hoá cơ học ở miệng. Bộ răng được gắn vào các huyệt răng ở *cung răng hàm trên* và *cung răng hàm dưới*.
 
+### 3.1. Cách gọi tên và phân loại các răng
 
+Người có hai bộ răng: răng sữa và răng vĩnh viễn.
 
-<!-- Hết trang 644 -->
+- **Bộ răng sữa** (*deciduous teeth*) có 20 chiếc. Theo trình tự từ mặt phẳng giữa tiến sang bên và ra sau, răng sữa ở mỗi nửa cung răng được gọi tên như sau: *răng cửa trung tâm, răng cửa bên, răng nanh, răng cối thứ nhất và răng cối thứ hai*; trong hệ thống kí hiệu Palmer, các răng sữa được chỉ ra bằng trình tự các chữ cái A, B, C, D và E, bắt đầu từ răng cửa trung tâm. Răng cửa có thân răng hình thang với mặt trước lồi và mặt sau lõm, mặt nhai chỉ là một bờ gọi là *bờ cắt*; răng nanh có một mấu nhọn; hai loại này thích ứng với nhiệm vụ cắt và xé thức ăn và chỉ có một chân răng. Các răng cối có bốn mấu. Răng cối hàm trên có ba chân răng; răng cối hàm dưới có hai chân răng. Các răng cối nghiền và nhai thức ăn. Bộ răng sữa mọc trong khoảng thời gian từ 1/2 tới 2 1/2 năm tuổi, bắt đầu từ răng cửa trung tâm. Cả bộ răng sữa được thay bằng răng vĩnh viễn trong thời gian từ 6 tới 12 tuổi. Thứ tự mọc răng sữa thường là A, B, D, C, E.
 
+- **Bộ răng vĩnh viễn** (*permanent teeth*) có 32 răng, mỗi nửa hàm bao gồm 2 răng cửa, 1 răng nanh, 2 răng tiền cối (hàm bé), và 3 răng cối (hàm lớn); chúng mọc trong khoảng thời gian từ 6 tuổi tới tuổi trưởng thành (H.3). Các răng cửa và răng nanh của bộ răng vĩnh viễn giống với răng sữa mà chúng thay thế nhưng *các răng cối của bộ răng sữa được thay thế bằng các răng tiền cối (hay hàm bé) thứ nhất và thứ hai*; răng tiền cối vĩnh viễn là những răng có hai mấu và một chân răng (riêng răng tiền cối thứ nhất của hàm trên có hai chân răng). Có ba răng cối (hay răng hàm lớn) vĩnh viễn nằm sau răng tiền cối thứ hai; chúng không thay thế cho bất kì răng sữa nào. *Răng cối thứ nhất* mọc lúc 6 tuổi, *răng cối thứ hai* mọc lúc 12 tuổi, *răng cối thứ ba (răng khôn)* mọc sau 17 tuổi. Răng khôn có thể không mọc mà bị vùi trong huyệt răng nếu phần cung răng ở sau răng cối thứ hai không đủ chỗ cho nó mọc. Kích thước các răng cối giảm dần từ răng cối thứ nhất tới răng cối thứ ba. Chúng thường có 4 mấu ở mặt nhai; riêng răng cối thứ nhất hàm dưới có 5 mấu. Theo hệ thống Palmer, răng vĩnh viễn của mỗi nửa hàm được đánh số từ 1 tới 8, tính từ răng cửa trung tâm tới răng cối thứ ba. Thứ tự mọc răng vĩnh viễn là 6, 1, 2, 3, 4, 5, 7, 8.
 
-mi?ng chinh thfrc OUQ'C g9i la m(it lu·o·i hO?C m(it khdu cai; ITI?t cua m6i rang ma huang 
-v@ dim giCra cung rang, nai cac rang ci'.ra trung tam tip xuc nhau, duqc g9i la m(it 
-gtin hay m(,t giu:a, 111?t a6i di?n la m(it xa; ITI?t tip xuc v6i rang cua cung rang a6i 
-din OU'Q'C g9i la m(,t dn. Ml;lt dm cua cac rang sau rang nanh c6 nhCrng go nho len g9i 
-la c6c mdu rang. 
-Chan rang auqc g/in vai huyt rang bng mo quanh rang, hay day ch6ng quanh 
-rang, day khoang 0,2 mm. Than rang duqc bao b9c bing lap men rang ( enamel) cung, 
-trong ma, day khoang 1,5 mm, con chan rang OU'Q'C b9c bing chdt ximang (cement) 
-mong hai vang. M9t m?t ciit d9c qua rang cho thfry ring ben duai men rang va chfrt xe 
-mang la lap nga rang (dentine) vay quanh J tuy (pulp cavity), hay 6 rang, & trung tam. 
-6 tuy banh r9ng & d§.u than rang cua n6 thanh J tuy than rang (pulp cavity of crown) va
-thu hyp & chan rang thanh 6ng chan rang (root canal). Ong chan rang m& ra ngoai t?i 16 
-dinh chdn rang. 6 tuy rang chua tuy rang, bao g6m tuy than rang va tuy chan rang 
-chtra cac ITI?Ch mau th§.n kinh din rang qua 16 dinh chan rang (H.4). 
-Than 
-(vanh) 
-C6 
-Ch6 bam tlmqng m6 
-Tfim rieng ci:,a lqi (mr6u) ngoIi c6t mIc 
-CLl3 xuong ham tren va xuong ham du6i 
-Mang xuong huyJt rang 
-Nhu 
-Chfit xuong (cement) 
-Ong chan rang (trung tam) chua mIch 
-va th§n kinh 
-Xuong 
-({Jtl.,
-V,--cac 16 dinh
+![Hình 3: Hình thể ngoài của bộ răng vĩnh viễn](giaiphau_media/hinh_p644_3.png)
+*Hình 3. Hình thể ngoài của bộ răng vĩnh viễn*
 
-![Hinh 4. Cau tc;10 cua rang [12]](giaiphau_media/hinh_p645_4.png)
+### 3.2. Hình thể ngoài và cấu tạo
 
-*Hinh 4. Cau tc;10 cua rang [12]*
+Mỗi răng bao gồm một *thân răng* hay vành răng (*crown*), một *chân răng* hay rễ răng (*root*) và một *cổ răng* (*neck/cervix*) là chỗ nối giữa thân và chân răng.
 
-4. LU'O'I
-Luai la m(>t kh6i CO' van OUQ'C phu b&i niem ITI?C; n6 la ca quan thi.rc hi?n cac 
-chfrc nang nhai, nu6t, nSm va n6i. Luai nim tren san ming va thanh truac cua khu 
-h§.u, duqc chinh cac ca ct'.ia n6 giin vai xuang m6ng, xuang ham duai, mom tram, khciu 
-cai m@m va thanh h§.u. 
+Chiều cong của các cung răng khiến cho các từ dùng trong mô tả giải phẫu thông thường, như trước và sau, trở nên không thích hợp. Do đó, trong giải phẫu răng, mặt răng hướng về phía tiền đình miệng được gọi là *mặt môi* hoặc *mặt má*, mặt hướng về ổ miệng chính thức được gọi là *mặt lưỡi* hoặc *mặt khẩu cái*; mặt của mỗi răng mà hướng về điểm giữa cung răng, nơi các răng cửa trung tâm tiếp xúc nhau, được gọi là *mặt gần* hay *mặt giữa*, mặt đối diện là *mặt xa*; mặt tiếp xúc với răng của cung răng đối diện được gọi là *mặt cắn*. Mặt cắn của các răng sau răng nanh có những gò nhô lên gọi là *các mấu răng*.
 
+Chân răng được gắn với huyệt răng bằng *mô quanh răng*, hay dây chằng quanh răng, dày khoảng 0,2 mm. Thân răng được bao bọc bằng lớp *men răng* (*enamel*) cứng, trong mờ, dày khoảng 1,5 mm, còn chân răng được bọc bằng *chất ximăng* (*cement*) mỏng hơi vàng. Một mặt cắt dọc qua răng cho thấy rằng bên dưới men răng và chất xê măng là lớp *ngà răng* (*dentine*) vây quanh *ổ tuỷ* (*pulp cavity*), hay ổ răng, ở trung tâm. Ổ tuỷ bành rộng ở đầu thân răng của nó thành *ổ tuỷ thân răng* (*pulp cavity of crown*) và thu hẹp ở chân răng thành *ống chân răng* (*root canal*). Ống chân răng mở ra ngoài tại *lỗ đỉnh chân răng*. Ổ tuỷ răng chứa *tuỷ răng*, bao gồm tuỷ thân răng và tuỷ chân răng chứa các mạch máu thần kinh đến răng qua lỗ đỉnh chân răng (H.4).
 
+![Hình 4: Cấu tạo của răng](giaiphau_media/hinh_p645_4.png)
+*Hình 4. Cấu tạo của răng [12]*
 
-<!-- Hết trang 645 -->
+---
 
+## 4. LƯỠI
 
-4.1. Hinh thi ngoai 
-Lu5'i c6 m<)t ri, m<)t dinh, m<)t mH lung luCJi va m<)t m(lt du&i; cac m?t cua lu5'i 
-g?p nhau tc;ti cac b& lu&i (H.1, H.5). 
-Ri liroi (root of tongue) duqc gin vao xuong ham du6i va xuong m6ng; 6 gifra 
-cac xuong nay, n6 tiSp xuc a duai v6i cac CO' dm - m6ng va ham - m6ng. 
-Lirng liroi (dorsum of tongue) duqc ranh tt;i.n (terminal sulcus) chia thanh hai 
-phin: phdn tru6·c ranh (presulcal part), hay phdn mi¢ng, tc;to nen khoang 2/3 chi€u dai 
-lu5'i va la phin duqc phu bl1ng m<)t niem mc;tc c6 nhi€u nhu lu&i (lingual papillae); phdn 
-sau ranh (postsulcal part), hay phdn hdu, tc;to nen thanh tru6c cua khfiu hiu va duqc phu 
-bllng m<)t niem mc;tc c6 nhi€u nang bc;tch huySt tp trung lc;ti thanh hr;mh nhdn lu&i 
-(lingual tonsil). Ranh tn c6 hinh chfr V vai hai nhanh chfr V chc;ty v€ phia tru6c - ben nr
-m<)t ch6 lorn sau tren duang gifra gQi la 16 tjt cua lu?5'i (foramen caecum of tongue). d 
-m6i ba lu5'i, ngay tru6c cung khfiu cai lu5'i, c6 4 - 5 nSp thing dung g9i la ccic nhu dr;mg 
-la. Niem mc;tc phin tru6c ranh cua lung lu5'i c6 m<)t ranh giifo chc;ty d9c va c6 nhi€u nhu 
-lu&i. D6 la m<)t hang cac nhu dr;mg dai nllm tru6c ranh tn, ccic nhu dr;mg ndm va ccic 
-nhu dr;mg chi. 
-Ham m6i trerr--...-.­
-Tuy6n luoi tru& 
-09ng ffi(ICh va finh ID(ICh 
-. 
-Phan
-. 
-. 
-\ 
-, 
-luai sau va thin kinh lua· 
-g kha 
-hfiu 
-Ong tuyen du&i ham 
-]"°'"^1,Wf Cal llIO'l 
-N6p du&i luoi v&i nhfrng 
-, 
-16 ti6t cua 6ng du&i llIO'l 
-Phan 
-_ . 
-hu n_m 
-· • 
-C1,1c luoi v&i 16 tiet Cll
-rru`ng 
-6ng tuyan du&i ham 
-Hiimm6i du·· 
-A 
-B 
+Lưỡi là một khối cơ vân được phủ bởi niêm mạc; nó là cơ quan thực hiện các chức năng nhai, nuốt, nếm và nói. Lưỡi nằm trên sàn miệng và thành trước của khẩu hầu, được chính các cơ của nó gắn với xương móng, xương hàm dưới, mỏm trâm, khẩu cái mềm và thành hầu.
 
-![Hinh 5. Hinh the ngoai cua IU'6'i: Mc;it tren (A) va mc;it dU'&i IU'6'i (B) [12]](giaiphau_media/hinh_p646_5.png)
+### 4.1. Hình thể ngoài
 
-*Hinh 5. Hinh the ngoai cua IU'6'i: Mc;it tren (A) va mc;it dU'&i IU'6'i (B) [12]*
+Lưỡi có một rễ, một đỉnh, một mặt lưng lưỡi và một mặt dưới; các mặt của lưỡi gặp nhau tại các bờ lưỡi (H.1, H.5).
 
-Mij,t diroi liroi (inferior surface of tongue) nhn, lien tiSp v6i n€n ming va duqc 
-n6i v6i n€n ming bai m<)t nSp niem mc;tc tren duang gifra g9i la ham lu-Cfi (frenulum of 
-tongue); a m6i ben ham lu5'i, c6 m<)t nSp niem mc;tc chc;ty v€ dinh lu5'i g9i la nip tua 
-(fimbriated fold). 
-4.2. C§u to 
-Luai duqc du tc;to bai m<)t khung xuong - sqi va cac ca. Khung xuong - sqi g6m 
-xuong m6ng cung hai mang sqi la can lu&i (lingual aponeurosis) va vach lum (lingual 
-septum). Ccic CO' cua lucJ'i (muscles of tongue) g6m nhfrng CO' ma cac tho phat sinh va 
-tn hSt ngay trong luai (cac CO' n<)i tc;ti) va cac CO' di nr phin lan cn t6i tn hSt 6 luai (ca 
-ngoc;ti lai). Khi co, cac ca luai lam nang, hc;t luai, dfiy luai ra tru6c ho?c keo luai ra sau. 
+- **Rễ lưỡi** (*root of tongue*) được gắn vào xương hàm dưới và xương móng; ở giữa các xương này, nó tiếp xúc ở dưới với các cơ cằm - móng và hàm - móng.
+- **Lưng lưỡi** (*dorsum of tongue*) được *rãnh tận* (*terminal sulcus*) chia thành hai phần: *phần trước rãnh* (*presulcal part*), hay phần miệng, tạo nên khoảng 2/3 chiều dài lưỡi và là phần được phủ bằng một niêm mạc có nhiều *nhú lưỡi* (*lingual papillae*); *phần sau rãnh* (*postsulcal part*), hay phần hầu, tạo nên thành trước của khẩu hầu và được phủ bằng một niêm mạc có nhiều nang bạch huyết tập trung lại thành *hạnh nhân lưỡi* (*lingual tonsil*). Rãnh tận có hình chữ V với hai nhánh chữ V chạy về phía trước - bên từ một chỗ lõm sâu trên đường giữa gọi là *lỗ tịt của lưỡi* (*foramen caecum of tongue*). Ở mỗi bờ lưỡi, ngay trước cung khẩu cái lưỡi, có 4 - 5 nếp thẳng đứng gọi là các *nhú dạng lá*. Niêm mạc phần trước rãnh của lưng lưỡi có một rãnh giữa chạy dọc và có nhiều nhú lưỡi. Đó là một hàng các *nhú dạng đài* nằm trước rãnh tận, các *nhú dạng nấm* và các *nhú dạng chỉ*.
 
+![Hình 5: Hình thể ngoài của lưỡi: Mặt trên (A) và mặt dưới lưỡi (B)](giaiphau_media/hinh_p646_5.png)
+*Hình 5. Hình thể ngoài của lưỡi: Mặt trên (A) và mặt dưới lưỡi (B) [12]*
 
+- **Mặt dưới lưỡi** (*inferior surface of tongue*) nhẵn, liên tiếp với nền miệng và được nối với nền miệng bởi một nếp niêm mạc trên đường giữa gọi là *hãm lưỡi* (*frenulum of tongue*); ở mỗi bên hãm lưỡi, có một nếp niêm mạc chạy về đỉnh lưỡi gọi là *nếp tua* (*fimbriated fold*).
 
-<!-- Hết trang 646 -->
+### 4.2. Cấu tạo
 
+Lưỡi được cấu tạo bởi một khung xương - sợi và các cơ. Khung xương - sợi gồm xương móng cùng hai màng sợi là *cân lưỡi* (*lingual aponeurosis*) và *vách lưỡi* (*lingual septum*). *Các cơ của lưỡi* (*muscles of tongue*) gồm những cơ mà các thớ phát sinh và tận hết ngay trong lưỡi (các cơ nội tại) và các cơ đi từ phần lân cận tới tận hết ở lưỡi (cơ ngoại lai). Khi co, các cơ lưỡi làm nâng, hạ lưỡi, đẩy lưỡi ra trước hoặc kéo lưỡi ra sau.
 
-4.3. M.ch - Th§n kinh 
-D<)ng m.ch g6m cac nhanh cua d('mg mch luai: nhanh hmg luai va d9ng mch 
-luai sau. 
-trong. 
-Tinh m.ch. Ti'nh m9ch luoi thu mau tinh mch cua luai va d6 v€ tinh mch canh 
-B.ch huy/t d6 vao cac hch du6i cilm, du6i ham va cac hch c6 sau. 
-Th§n kinh 
-- Vn d9ng cho cac CO' cua luai do cac nhanh cua thdn kinh h9 thi?t.
-- Th6n kinh luci , nhanh cua thfi.n kinh ham du6i, chi ph6i cam giac chung cho
-vung tru6c ranh tn. 
-- Thirng nhf chi ph6i cam giac vi giac cho vung tru6c ranh, trir cac nhu dng dai.
-- Cac nhanh luai cua thdn kinh thi?t hdu cam giac chung va cam giac vi giac (J
-phfi.n sau ranh tn va cac nhu dng dai. 
-5. TUYEN NU'O'C BQT
-C6 hai loi: Tuy€n nu6c b9t 16n va tuy€n nu6c b9t nho. Ctic tuyin nuuc b{Jt fun 
-la cac cp tuydn mang tai, tuydn du&i ham va tuydn du&i luai; chung nllm a tuang d6i 
-xa niem mc mi?ng va dich ti€t cua chung duqc cac 6ng ngoai tuy€n din t6i 6 mi?ng 
-(H.6). Ctic tuyin nU'lJ'C b{Jt nho bao g6m cac tuydn moi, cac tuydn ma, cac tuydn khdu 
-cai va cac tuydn luo·i; chung nllm trong niem mc hoc lap du6i niem mc va d6 djch 
-ti€t cua chung t17JC ti€p vao niem mc hoc gian ti€p qua nhi€u 6ng ngin. 
-5.1. Tuy/n Dll'O'C bqt mang tai 
-Tuy/n mang tai (parotid gland) (H.6) la tuy€n nu6c b9t 16n nh§.t, nng khoang 
-25 g, nllm du6i 6ng tai ngoai, giua nganh xuang ham du6i va CO' UC - don - chum. 
-Tuy€n mang tai bao g6m phdn nong, phdn sdu, m9t <5ng tuydn mang tai va m9t kh6i mo 
-tuy€n nho tach rai g9i la tuydn mang tai ph¥ nllm tren mt nong CO' dn, ngay tren 6ng 
-tuy€n mang tai (H.6). 
-Tuy€n mang tai gi6ng nhu m9t hinh thap v6i m9t dinh hu6ng xu6ng du6i, m9t 
-day hu6ng len tren va ba mt mt la mt nong, mt tru6c trong va mt sau trong. Day 
-tuy€n lien quan v6i phfi.n Sl,ll1 cua 6ng tai ngoai va mt sau cua kh6p thai duang - ham 
-du6i. M0t nong duqc che phu bai da va mo du6i da, nai chua cac nhanh cua thfi.n kinh 
-tai 16n va cac hch bch huy€t mang tai nong. M0t trll'6'c - trong bi §.n lorn boi bu sau 
-nganh xuang ham du6i; n6 trum len ph§.n sau - du6i CO' dn va mt ngoai kh6p thai 
-duang - ham du6i. M0t sau-trong tva len mom chum, ca uc - don - chum, bvng sau ca 
-hai bvng, cac CO' tram va mom tram; mt nay gp mt tru6c - trong ti bir trong, nai 
-tuy€n ti€p xuc v6i thanh ben cua hfi.u. 
+### 4.3. Mạch - Thần kinh
 
+- **Động mạch:** gồm các nhánh của động mạch lưỡi: nhánh lưng lưỡi và động mạch lưỡi sâu.
+- **Tĩnh mạch:** *Tĩnh mạch lưỡi* thu máu tĩnh mạch của lưỡi và đổ về tĩnh mạch cảnh trong.
+- **Bạch huyết:** đổ vào các hạch dưới cằm, dưới hàm và các hạch cổ sâu.
+- **Thần kinh:**
+  - Vận động cho các cơ của lưỡi do các nhánh của *thần kinh hạ thiệt*.
+  - *Thần kinh lưỡi*, nhánh của thần kinh hàm dưới, chi phối cảm giác chung cho vùng trước rãnh tận.
+  - *Thừng nhĩ* chi phối cảm giác vị giác cho vùng trước rãnh, trừ các nhú dạng đài.
+  - Các nhánh lưỡi của *thần kinh thiệt hầu* cảm giác chung và cảm giác vị giác ở phần sau rãnh tận và các nhú dạng đài.
 
+---
 
-<!-- Hết trang 647 -->
+## 5. TUYẾN NƯỚC BỌT
 
+Có hai loại: Tuyến nước bọt lớn và tuyến nước bọt nhỏ. *Các tuyến nước bọt lớn* là các cặp *tuyến mang tai, tuyến dưới hàm và tuyến dưới lưỡi*; chúng nằm ở tương đối xa niêm mạc miệng và dịch tiết của chúng được các ống ngoài tuyến dẫn tới ổ miệng (H.6). *Các tuyến nước bọt nhỏ* bao gồm các tuyến môi, các tuyến má, các tuyến khẩu cái và các tuyến lưỡi; chúng nằm trong niêm mạc hoặc lớp dưới niêm mạc và đổ dịch tiết của chúng trực tiếp vào niêm mạc hoặc gián tiếp qua nhiều ống ngắn.
 
-M9t s6 du true di qua tuy€n mang tai va phan nhanh trong tuy€n. f)9ng mch 
-canh ngoai di vao tuy€n tu mt sau - trong va phan chia 6 trong tuy€n thanh cac d(}ng 
-mch ham tren va thai duang n6ng. Tinh mch sau ham du6i va cac nhanh hqp nen n6 
-( cac tinh mch thai duang n6ng va ham tren) nim n6ng han d9ng mch canh ngoai. 
-Th§.n kinh ID?t di vao tuySn tu ffi?t sau - trong va la thanh ph§.n nim n6ng nh§.t; n6 
-chia thanh cac nhanh tn 6 trong tuy€n va cac nhanh nay rai kh6i tuySn ti ba tru6c 
-cua tuysn. 
-Phful silu tuy€n 
-duoi ham va 6ng 
-tuy€n (mau xanh) 
-Tuy€n nuoc bot duai 
-ham (phdn nong) 
-_ Tuy€n mang tai ph1,1 
-'Tinh m!;l,ch sau ham duoi 
+### 5.1. Tuyến nước bọt mang tai
 
-![Hinh 6. Cac tuyen nU'&c b9t l&n & ti cha [12]](giaiphau_media/hinh_p648_6.png)
+Tuyến mang tai (*parotid gland*) (H.6) là tuyến nước bọt lớn nhất, nặng khoảng 25 g, nằm dưới ống tai ngoài, giữa ngành xương hàm dưới và cơ ức - đòn - chũm. Tuyến mang tai bao gồm *phần nông*, *phần sâu*, một *ống tuyến mang tai* và một khối mô tuyến nhỏ tách rời gọi là *tuyến mang tai phụ* nằm trên mặt nông cơ cắn, ngay trên ống tuyến mang tai (H.6).
 
-*Hinh 6. Cac tuyen nU'&c b9t l&n & ti cha [12]*
+Tuyến mang tai giống như một hình tháp với một đỉnh hướng xuống dưới, một đáy hướng lên trên và ba mặt: mặt nông, mặt trước trong và mặt sau trong:
+- **Đáy tuyến:** liên quan với phần sụn của ống tai ngoài và mặt sau của khớp thái dương - hàm dưới.
+- **Mặt nông:** được che phủ bởi da và mô dưới da, nơi chứa các nhánh của thần kinh tai lớn và các hạch bạch huyết mang tai nông.
+- **Mặt trước - trong:** bị ấn lõm bởi bờ sau ngành xương hàm dưới; nó trùm lên phần sau - dưới cơ cắn và mặt ngoài khớp thái dương - hàm dưới.
+- **Mặt sau - trong:** tựa lên mỏm chũm, cơ ức - đòn - chũm, bụng sau cơ hai bụng, các cơ trâm và mỏm trâm; mặt này gặp mặt trước - trong tại **bờ trong**, nơi tuyến tiếp xúc với thành bên của hầu.
 
-Ong tuyin mang tai (parotid duct). V 6i 5 cm chiSu dai, 6ng nay di ra tru6c, bllt 
-cheo CO' clln va ti ba tru6c CO' nay thi hu6ng thing g6c vao trong xuyen qua th ma ma 
-va CO' mut. Cu6i cung, n6 d6 vao ID?t trong cua ma boi m9t 16 nh6 d6i di?n v6i than 
-rang c6i thu hai ham tren. Ong tuy€n mang tai tuang duang v6i ph§.n ba gifra cua duang 
-duang n6i tu ba du6i binh tai t6i dim gifra cua duang n6i canh mui va ba m6i tren. 
-5.2. Tuyn dtroi ham (H.6) 
-Tuyn dtroi ham (submandibular gland) g6m ph§.n n6ng (16n han) va ph§.n sau 
-lien ti€p v6i nhau quanh ba sau CO' ham m6ng. Day la tuy€n chu ySu tiSt thanh djch. 
-Phfm nong nim trong tam giac du6i ham va nup trong h6 du6i ham (J ID?t trong 
-xuang ham du6i. N6 duqc bao b9c gifra hai la cua mc c6 va c6 ba m?t: m?t du6i, m?t 
-ngoai va mit trong. Mt dtroi duqc che phu boi da, CO' barn da c6 va mc c6, duqc bllt 
-cheo boi boi tinh mch m?t va nhanh c6 th§.n kinh mt. Mt ngoai tlJa len h6 du6i ham 
-va ch6 barn tn cua CO' chan bu6m trong; d9ng mch m?t lach gifra ID?t ngoai va ch6 
-barn vao xuang ham cua ca chan bu6m trong d di t6i ba du6i xuang ham du6i. Mt 
+![Hình 6: Các tuyến nước bọt lớn ở tại chỗ](giaiphau_media/hinh_p648_6.png)
+*Hình 6. Các tuyến nước bọt lớn ở tại chỗ [12]*
 
+Một số cấu trúc đi qua tuyến mang tai và phân nhánh trong tuyến:
+- Động mạch cảnh ngoài đi vào tuyến từ mặt sau - trong và phân chia ở trong tuyến thành các động mạch hàm trên và thái dương nông.
+- Tĩnh mạch sau hàm dưới và các nhánh hợp nên nó (các tĩnh mạch thái dương nông và hàm trên) nằm nông hơn động mạch cảnh ngoài.
+- Thần kinh mặt đi vào tuyến từ mặt sau - trong và là thành phần nằm nông nhất; nó chia thành các nhánh tận ở trong tuyến và các nhánh này rời khỏi tuyến tại bờ trước của tuyến.
 
+**Ống tuyến mang tai** (*parotid duct*): Với 5 cm chiều dài, ống này đi ra trước, bắt chéo cơ cắn và tại bờ trước cơ này thì hướng thẳng góc vào trong xuyên qua thể mỡ má và cơ mút. Cuối cùng, nó đổ vào mặt trong của má bởi một lỗ nhỏ đối diện với thân răng cối thứ hai hàm trên. Ống tuyến mang tai tương đương với phần ba giữa của đường đường nối từ bờ dưới bình tai tới điểm giữa của đường nối cánh mũi và bờ môi trên.
 
-<!-- Hết trang 648 -->
+### 5.2. Tuyến dưới hàm (H.6)
 
+Tuyến dưới hàm (*submandibular gland*) gồm phần nông (lớn hơn) và phần sâu liên tiếp với nhau quanh bờ sau cơ hàm móng. Đây là tuyến chủ yếu tiết thanh dịch.
 
-trong lien quan v&i co ham m6ng, thfin kinh va cac mch co ham m6ng, co m6ng luai, 
-thfin kinh luai va thfin kinh h thi?t. 
-Phan sau chy ra tru&c dSn d§.u sau cua tuySn du&i luai; n6 n&m giua co ham -
-m6ng a phf a du&i - ngoai va co tram - luai va co m6ng - luai a phfa trong. Th§.n kinh 
-luai di tren phfin sau trong khi thfin kinh h thi?t di 6 du&i. 
-Ong tuydn du6·i ham (submandibular duct). V&i chiu dai khoang 5 cm, 6ng tuySn 
-du&i ham thoat ra nr d§.u tru&c cua phfin sau. N6 cby ra tru&c d9c ba ben cua luai, 
-du&i niem mc san mi?ng. N6 bi thfin kinh lu&i bt cheo 6 mt ngoai r6i sau d6 n&m 
-giua tuySn du&i luai va CCY dm m6ng. N6 d6 vao san mi?ng tren dinb cua m<)t nhu niem 
-mc n&m a ba ben ham luai. 
-5.3. Tuyn dtroi IU'oi. 
-Tuyn dU'oi IU'oi. (sublingual gland), tuySn nho nhit trong s6 cac tuySn chfnh, 
-n&m ngay du&i niem mc san mi?ng va ap vao b6 du&i luai 6 mt trong XUCYilg ham 
-du&i. Cac lien quan cua tuySn du&i luai nhu sau: d§.u tru&c v&i d§.u tru&c cua tuySn ben 
-d6i di?n; dfiu sau v&i phfin sau cua tuySn du&i ham; mt tren v&i niem mc san mi?ng va 
-d<)i niem mc !en thanh ndp du&i lu&i; mt du&i v&i co ham - m6ng; mt ngoai v&i h6 
-du&i luai; mt trong duqc ngan each v&i co dm - luai bai 6ng tuySn du&i ham va thfin 
-kinh luai. M6i tuy€n c6 8 - 20 6ng du&i lu&i nho (minor sublingual ducts) d6 rieng re 
-vao dinb cua ndp du6·i lu&i va m<)t 6ng du&i lu&i Ian (major sublingual duct) d6 vao san 
-mi?ng a cung hoc g§n 16 cua 6ng tuy€n du&i ham. 
+- **Phần nông:** nằm trong tam giác dưới hàm và núp trong hố dưới hàm ở mặt trong xương hàm dưới. Nó được bao bọc giữa hai lá của mạc cổ và có ba mặt:
+  - *Mặt dưới:* được che phủ bởi da, cơ bám da cổ và mạc cổ, được bắt chéo bởi tĩnh mạch mặt và nhánh cổ thần kinh mặt.
+  - *Mặt ngoài:* tựa lên hố dưới hàm và chỗ bám tận của cơ chân bướm trong; động mạch mặt lách giữa mặt ngoài và chỗ bám vào xương hàm của cơ chân bướm trong để đi tới bờ dưới xương hàm dưới.
+  - *Mặt trong:* liên quan với cơ hàm móng, thần kinh và các mạch cơ hàm móng, cơ móng lưỡi, thần kinh lưỡi và thần kinh hạ thiệt.
+- **Phần sâu:** chạy ra trước đến đầu sau của tuyến dưới lưỡi; nó nằm giữa cơ hàm - móng ở phía dưới - ngoài và cơ trâm - lưỡi và cơ móng - lưỡi ở phía trong. Thần kinh lưỡi đi trên phần sâu trong khi thần kinh hạ thiệt đi ở dưới.
+- **Ống tuyến dưới hàm** (*submandibular duct*): Với chiều dài khoảng 5 cm, ống tuyến dưới hàm thoát ra từ đầu trước của phần sâu. Nó chạy ra trước dọc bờ bên của lưỡi, dưới niêm mạc sàn miệng. Nó bị thần kinh lưỡi bắt chéo ở mặt ngoài rồi sau đó nằm giữa tuyến dưới lưỡi và cơ cằm móng. Nó đổ vào sàn miệng trên đỉnh của một nhú niêm mạc nằm ở bờ bên hãm lưỡi.
 
+### 5.3. Tuyến dưới lưỡi
 
+Tuyến dưới lưỡi (*sublingual gland*), tuyến nhỏ nhất trong số các tuyến chính, nằm ngay dưới niêm mạc sàn miệng và áp vào hố dưới lưỡi ở mặt trong xương hàm dưới. 
 
-<!-- Hết trang 649 -->
+Các liên quan của tuyến dưới lưỡi như sau:
+- Đầu trước với đầu trước của tuyến bên đối diện;
+- Đầu sau với phần sâu của tuyến dưới hàm;
+- Mặt trên với niêm mạc sàn miệng và đội niêm mạc lên thành *nếp dưới lưỡi*;
+- Mặt dưới với cơ hàm - móng;
+- Mặt ngoài với hố dưới lưỡi;
+- Mặt trong được ngăn cách với cơ cằm - lưỡi bởi ống tuyến dưới hàm và thần kinh lưỡi.
 
+Mỗi tuyến có 8 - 20 *ống dưới lưỡi nhỏ* (*minor sublingual ducts*) đổ riêng rẽ vào đỉnh của nếp dưới lưỡi và một *ống dưới lưỡi lớn* (*major sublingual duct*) đổ vào sàn miệng ở cùng hoặc gần lỗ của ống tuyến dưới hàm.

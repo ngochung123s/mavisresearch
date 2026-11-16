@@ -6,1029 +6,225 @@
 
 ---
 
-Bai 3 
-ca VA M4C CUA CHI D1101 
-1. cAc COVA MC CUAVUNG MONG
-1.1. Cac CO' cua vimg mong (Bang 1) (H.1) 
-Cac CO' cua vung mong che phu cac mDit sau va ngoai cua kh&p hong. Ba CO' 16n 
-nh§.t cua vung nay la CO' mong Ion, CO' mong nhff va CO' mong nho. Chung la nhfrng CO'
-du6i va gi,;mg dui tEi kh&p hong. Ca mong nh5' la vt tri thuFn tiGn d€ tiem bilp. Nhfrng 
-CO' nho, nilm o sau, la nhctng CO' xoay ngoai dui. Chung bao g6m co· hinh qua le, cac co· 
-bit trong va ngoai, cac co· sinh d6i tren va duai va CO' vuong dui. Cac CO' mong duqc cac 
-nhanh thHn kinh nho cua dam r6i cung chi ph6i. 
-CO' 
-Camong fem 
-(gluteus maximus) 
-Bang 1. Cac CO' cua vung mong 
-Nguyen uy 
-Barn tn 
-O(:mg tac 
-M$t ngoai phtln sau 
-Dai ch$u - chay, 16i cu 
-Duoi dui 
-canh ch$u (g6m ca 
-CO' mong xt.l'O'ng dui 
-mao ch$u), m$t sau 
-(che ngoai dU'cmg rap) 
-XU'O'ng 
-cung 
-va 
-XU'O'ng Cl,Jt, day chang 
------------------------------- -cung - cu ---------------- ------------------------------ -------------------
-Ca mong nha 
-M$t ngoai canh ch$u, 
-M$t ngoai mau chuyen 
-Gic;1ng dui va 
-(gluteus medius) 
-giO,a cac dU'cmg mong 
-l&n XU'O'ng dui 
-xoay trong dui 
-tm&c va sau 
-Camong be 
-(gluteus minimus). 
-M$t ngoai canh ch$u, 
-B6' tm&c mau chuyen 
-Gic;1ng dui va 
-giO,a cac dU'6'ng mong 
-l&n XU'O'ng dui 
-xoay trong dui 
-tm&c va dU'&i 
------------------------------- ---------------------------- ------------------------------ -------------------
-Ca hinh qua le 
-M$t 
-tm&c 
-XU'O'ng 
-B6' tren mau chuyen 
-Gic;1ng dui va 
-(piriformis) 
-cung va day chang 
-l&n XU'O'ng dui 
-xoay ngoai dui 
------------------------------- -cung - cu ---------------- -------- ---------------------- -------------------
-Ca sinh doi tren 
-Gai ng6i 
-M$t trong mau chuyen 
-Gic;1ng va xoay 
-_ (gem el us _superior). ______ ____________________________ _ I -- -	9!_____________ - -!-9_i _______ _
-Ca sinh doi dU'&i 
-l) ng6i 
-M$t trong mau chuyen 
-Gic;1ng va xoay 
-_ (gemelus_inferior) ________ _____________________________ l---9! _____________ --!-9_i _______ _
-Ca bit trong 
-M$t trong mang bit va 
-M$t trong mau chuyen 
-Gic;1ng va xoay 
-_ (obturatorius _internus) ___ -	-
-?-?.:!-- _1---9! _____________ -
--!-	9! ________ 
-Ca bjt ngoai 
-M$t ngoai mang bit va 
-Ho mau chuyen cua 
-Xoay ngoai dui 
-_ (obturatorius _extern us) __ _ --_I_ -t-____________ -<:"--  _________________ ___________________ 
-Ca vuong <Jui 
-B6' ngoai cua cu ng6i 
-Cu cO' vuong dui 
-Gic;1ng va xoay 
-_ (quadratus femoris) ______ ____________________________ ____________________ _________ --! -9_i ________ 
-Ca cang m9c dui 
-(tensor fasciae latae) 
-Gai ch$u tm&c - tren 
-va mep ngoai mao
-ch$u 
-Dai ch$u - chay; dai nay 
-barn vao 16i cau ngoai 
-XU'O'ng chay 
-Gic;1ng va gap 
-dui, 
-gio, 
-cho 
-kh&p 9oi a tU' 
-the duoi 
-
+## Bài 3: CƠ VÀ MẠC CỦA CHI DƯỚI
 
+## 1. CÁC CƠ VÀ MẠC CỦA VÙNG MÔNG
 
-<!-- Hết trang 143 -->
-
-
-Co m6ng 16n -
-Co m6ng nho -
-Co m6ng be-
-Thfin kinh m6ng tren. 
-Co hinh qua le--­
-Th§n kinh m6ng du6i 
-Th§n kinh thEn ---­
-Co bit trong va 
-cac ca sinh cl6i --
-Co bit ngoai • -
-Ca vu6ng clui 
-Cu ng6i -
-Co m6ng 16n. 
-Th§n kinh ng6i -- --
-
-![Hinh 1. Cac ca vung mong](giaiphau_media/hinh_p144_1.png)
-
-*Hinh 1. Cac ca vung mong*
-
-1.2. Mc cua vimg mong 
-- Ca m6ng nho
-•
-- Ca m6ng 16n
-M?C cua m6ng (m?C sau hay ffi?C b9c ca) lien ti€p a du&i v&i ffi?C dui. 0 vung 
-m6ng, n6 tach ra dS bao b9c CO' m6ng Ian. 0 tnr&c va tren CO' m6ng Ian, n6 ti€p t\IC nhu 
-m9t la dan che phu mst n6ng CO' m6ng nha r6i barn vao mao ch?U. Tren mst ngoai cua 
-dui, n6 lien ti€p v&i m9t dai can r(>ng, chlic g9i la dai ch(ju - chay. Dai nay barn a tren 
-vao cu cua mao cMu va (J du&i vao 16i du ngoai xuang chay. Dai ch?U - chay tach ra 
-bao b9c cho CO' ding ffi?C dui va ti€p nh?n phtn Ian cac sqi gan cua CO' m6ng Ian. 
-2. cAc CO' vA MAC CUA VUNG E>UI
-2.1. Mc dui va cac ngan mc cua dui 
-Mc dui 
-M?C dui (m?C sau) (fascia lata) bao quanh dui; dtu tren cua n6 duqc glin v&i 
-xuang Ch?U va cac day chiing c6 lien quan. Ch6 ti€p giap cua n6 v&i ffi?C m6ng a mst 
-ngoai day len t?O nen dai cMu - chay. d mst tru&c dui, ffi?C dui c6 m9t 16 g9i la tJ tfnh 
-mr;ich hidn (saphenous opening). Day la nai di qua cua tinh ffi?Ch hiSn lan, cac nhanh 
-nh6 cua d(>ng ffi?Ch dui va cac ffi?Ch b?ch huy€t. L6 nay nim (J khoang 4 cm vu phia 
-du&i - ngoai cua cu mu. L6 tinh ffi?Ch hiSn c6 m9t b(J' hinh liJm & phia du&i - ngoai; ba 
-nay nim gifra hai sung: sung tren ch?y vao trong a tnr&c cac m?ch dui va barn vao cu 
-mu, sung du6·i Ch?y ra ngoai (J sau cac ffi?Ch dui r6i barn vao duang luqc cua nganh tren 
-xuang mu. 
-
-
-
-<!-- Hết trang 144 -->
-
-
-Cac ngan m,c cua dui 
-Tfr m^t sau cua m_c dui c6 ba vach gian ca ti`n vao sau t6i du<'mg rap xuang dui. 
-D6 la vach gian co· did ngoai, vach gian co· aid trong va vach gian ca trubc - trong (hay 
-mc;tc du6·i ca may). Cac vach gian ca nay chia dui thanh ba ngan m_c la ngiin tnr6·c 
-(ngan co· du6i), ngan trong (ngiin co· khep) va ngiin sau (ngiin co· giip). 
-2.2. Cac CO' vung dui tnr6'c (Bang 2) (H.2) 
-Yung dui tru6c c6 hai nh6m ca: nh6m trong ngan m_c tru6c va nh6m trong ngan 
-m_c trong. 
-Cac CO' trong ngan m,c tnr6'c bao g6m ca may, co· tu d6u diti va ph§.n t?n cung 
-cua hai ca ru thanh b\mg sau di xu6ng la ca· chg,u va ca th6-t lung lbn ( duqc g9i chung la 
-ca th§.t lung - ch?u). Ca may, ca th§.t lung - ch?u va d§.u thiing dui cua ca tu d§.u dui c6 
-tac di,mg gftp dui. Ca may va ca tu diu con di qua kh6p g6i nen con gay cu d(mg a cling 
-chan (ca may gftp con ca tu d§.u du6i cling chan). 
-Cac CO' trong ngan m,c trong bao g6m co· hwc, CO' khep dai, CO' khep ngiin, CO'
-khep lbn va ca· thon. Ca nam ca nay dau di ch`ch ru xuang mu t6i xuang dui (tru ca 
-thon barn tbn vao xuang chay) nen c6 tac di,mg chung la khep dui va vi vby chung duqc 
-g9i nh6m co· khep did. Cung c6 thc coi ca bit ngoai la m(>t ca cua nh6m trong. 
-V  chi phfii thin kinh, cac ca nh6m tru6c, ca luqc va m(>t phin ca khep dai ( cua 
-nh6m trong) do thin kinh dui chi ph6i, cac ca con l_i do thin kinh bit chi ph6i. 
-- • Ca thitt lung Ian
-__ Ca chHu 
-__ Ca ding rnIc dui 
--- Day chitng bJn
-- - Than kinh dui
-- - Ca may
--- Ca luac
--- Ca kh
-0ep ngiln 
-. -- Ca khep dai 
-K -- Ca khep Ian 
--- - - Ca thon 
---- Ca thl1ng dui 
----- Ca n;mg ngoai 
--- -- Ca r(mg trong
-
-![Hinh 2. Cac ca vung dui trU'6'c](giaiphau_media/hinh_p145_2.png)
-
-*Hinh 2. Cac ca vung dui trU'6'c*
-
-
-
-
-<!-- Hết trang 145 -->
-
-
-Bang 2. Cac CO' vung dui trll'O'C 
-CO' 
-Nguyen uy 
-Barn t,n 
-O{>ng tac 
-Nham trl.J'O'C 
-Ca that IU'ng Ian 
-Than va mom ngang cac dot 
-Mau chuy€m nh6 
-Gap dui 
-(psoas major) 
-song N XII - TL IV 
-xlJ'ang dui 
-Ca ch1;w 
-Ho chi;iu, mao Çhi;iu va 
-Mau chuylm nh6 
-Gap dui 
-(iliacus) 
-canh xLPang cung 
-xLPang dui 
-Ca may 
-(sartorius) 
-Gai chi;iu tm&c - tren 
-Phan 
-tren 
-m,ti Gap dui va dng 
-trong xLPang chay 
-chan; giup giÈng 
-va xoay ngoai dui 
-Ca t& cJau cJui 
-(quadriceps femoris) 
-c6 4 dau: 
-Ca thimg cJui 
-(rectus femoris) 
-Gai chi;iu tm&c - dlJ'&i (dau 
-XLPang banh che 
-thang) va vien o coi (dau 
-va thong qua day 
-quc;it) 
-chang banh che 
-f--
-C-
-a-É-
-9-
-ng_
-n_
-g_
-oa-·
-1-. ---+--M-a
-,-
-u_c_h_u-ye=-
-n- l_&_n -va-· -m-e--ip 
-t&i barn vao I6i cu
-(vastus lateralis) 
-ngoai dLP&ng rap xLPang dui 
-xLPang chay 
-Ca r9ng trong 
-0LP6'ng gian mau va mep 
-(vastus medialis) 
-trong dlJ'&ng rap xLPang dui 
-Ca r9ng giO,a 
-(vastus intermedius) 
-Nham trong 
-Cac mc;it trlJ'&c va ngoai 
-than xLPang dui 
-Duoi cang chan; 
-rieng CO' thang dui 
-con gap dui 
-Ca IU'Q'c 
-(pectineus) 
-Cakhep dai 
-(adductor longus) 
-LU'Q'C 
-XU'ang 
-IU'c;>'C) 
-mu 
-(mao 
-0U'6'ng 
-xLPang dui 
-IU'Q'C 
-Khep va gap dui 
-Than xLPang mu, phia dlJ'&i 
-mao mu 
-1 /3 giO,a dlJ'&ng 
-rap XU'O'ng dui 
-Khep va hai gap 
-dui; 
-xoay ngoai 
-dui khi dui & the 
-gap 
-Cakhep ngan 
-(adductor brevis) 
-Than va nganh dlJ'&i XU'ang 
-0U'6'ng IU'Q'C va 
-Khep va hai gap 
-Cakhep Ian 
-(adductor magnus) 
-Ca than 
-(gracilis) 
-mu 
-1/3 tren dLP&ng 
-dui 
-rap XU'O'ng dui 
-Nganh dlJ'&i xlJ'ang mu, 
-nganh xlJ'ang ng6i va cu 
->. 
-ngoI 
-Than va nganh dLP&i xLPang 
-mu 
-L6i cu ca m6ng, 
-dLP&ng 
-rap, 
-dlJ'6'ng 
-tren 
-I6i 
-cau trong va I6i cu 
-ca 
-khep 
-cua 
-xLPang dui 
-Phan 
-tren 
-mc;it 
-trong xlJ'ang chay 
-Khep va duoi dui 
-Khep dUi va g8p 
-cang chan 
-2.3. Cac CO' cu.a vimg dui sau (Bang 3), (H.3) 
-Yung dui sau c6 ba CO' nim trong ngan m;c sau cu.a dui: CO' ban gem, CO' ban mang 
-va ca· nhj ddu did. Ca ba CO' nay c6 nguyen uy chung la 1!, ng6i, trir CO' nhi diu c6 them 
-m(>t diu nguyen uy barn vao xuang dui. Chung di xu6ng qua m<t sau cua dui va c6 th€ 
-
-
-
-<!-- Hết trang 146 -->
-
-
-nhin thfty cac gan cua chung a sau kh&p g6i. Do chNy qua hai kh&p (kh&p hong va kh&p 
-g6i), tac d\mg chung cua ba ca la du6i dui va gftp ciing chan. Th§n kinh ng6i phan 
-nhanh vao ca ba ca vung dui sau. 
-CO' 
-Caban gan 
-( semitendinosus) 
-% 
- 
--- Cu ng6i 
-I 
-Th§n kinh ng6i
--¡ Ca khep Ian 
-f 
-Ca thon 
-Ca ban gan 
-f)§u ng¢n ca nhi d§u
-D§u dai co nhi d§u 
-;::, Ca ban mang 
-- Th§n kinh chay
-- Th§n kinh mac chung
-
-![Hinh 3. Cac ca vung dui sau](giaiphau_media/hinh_p147_3.png)
-
-*Hinh 3. Cac ca vung dui sau*
-
-Bang 3. Cac CO' vung dui sau
-Nguyen uy 
-l,J ngoi 
-Barn tn 
-Mc;1t trong dau tren 
-xLI'ang chay, sau 
-ch6 barn cua CO' 
-than va ca may 
-E>c}ng tac 
-Du6i dui, gap c£ng 
-chan, cung v&i ca 
-ban 
-mang 
-xoay 
-xLwng 
-chay 
-vao 
-trong tren xlJ'ang dui 
---E-bin-mng _____________ -u-gti __________________ -M$t------i6i----- Gi6ng CO' ban gan 
--
-_ (seminembranosus) _____ ___________________________ _ t_r¤¥¦-§':1'-¨©-ª-«¬-­L ____________________________ 
-Ca nhi dau dui 
-EJau dai: l,J ngoi; 
-Cham XLI'O'ng mac 
-0au dai: du6i dui; ca 
-(biceps femoris) 
-EJau ng{m: mep ngoai 
-hai 
-dau: 
-gap 
-va 
-dlJ'cmg rap va dlJ'ang 
-xoay 
-c£ng 
-ngoai 
-tren loi cau ngoai 
-c£ng chan 
-2.4. Cac du true CO' - mc cua did 
-Tam giac dui (femoral triangle)
-Tam giac dui la m<)t vung hinh tam giac nim a ph§n tren cua mOt trong dui. N6 
-duqc gi6i hNn a tren b&i day ching bPn, a ngoai b&i ca may va 6 trong bai ba trong ca 
-
-
-
-<!-- Hết trang 147 -->
-
-
-khep dai. San cua n6 trong nhu m(H ranh va duqc tmo nen, tu ngoai vao trong, bCYi ca 
-thit lung - ch?U, ca luqc va ca khep dai. Trftn cua n6 do da va mmc dui tmo nen. Tam 
-giac di1i chua phftn t?n cung cua thftn kinh dui, cac mmch dui cung cac nhanh cua chung, 
-va cac hmch bmch huy€t bnn sau. 
-Ong cO' khep (adductor canal) 
-Ong ca khep la m<)t khe gian ca n5.m CY mot trong cua phftn ba gifra dui, di tu 
-dinh tam giac dui t&i 16 gan ca khep (adductor hiatus) (16 CY gan ca khep l&n). N6 c6 
-hinh tam giac tren mot dt ngang v&i ba thanh: thanh sau, thanh ngoai va thanh tru&c -
-trong. Thanh sau duqc tmo bCYi ca khep dai va ca khep l&n. Thanh ngoai do ca r(mg 
-trong tmo nen. Thanh tru&c - trong la la mmc phu mot sau ca may. Ong ca khep chua 
-domn xa cua d<)ng mmch va tinh mmch dui, th§.n kinh hipn, thftn kinh t&i ca r(mg trong 
-va ph§.n t?n cung cua th§.n kinh bit. 
-3. cAc CO' VA MC CUA VUNG CANG CHAN
-Cilng chan duqc chia thanh hai vung tru&c va sau bCYi xuang chay, mang gian c6t, 
-xuang mac va vach gian ca dng chan sau. Yung dng chan tru&c lmi duqc chia thanh 
-hai ngan tru&c va ngoai bCYi vach gian ca dng chan tm&c. Nhu V?Y, dng chan c6 ba 
-ngan mmc: ngan trU'(J'C, ngan ngoai va ngan sau. 
-3.1. Cac CO' trong ngan trmrc (Bang 4) (H.4) 
-Ngan nay chua CO' chay truac, CO' du6i cac ng6n chan dai, CO' du6i ng6n chan cai 
-dai va ca mac ba. Chuc nang cua cac ca nay la g§.p mu chan tmi kh&p c6 chan va du6i 
-cac ng6n chan. Chung duqc chi ph6i bCYi cac nhanh cua thin kinh mac sau, m<)t nhanh 
-cua thin kinh mac chung. d vung c6 chan, gan cua cac ca nay chmy du&i cac ham gan 
-du6i tren va duai. 
-Bang 4. Cac CO' cua ngan tn.J'O'C cang chan 
-CO' 
-Nguyen uy 
-Barn t$n 
-09ng tac 
-Ca chay tn.J'&c 
-L6i cau ngoai va nU'a 
-Cac m$t trong va dU'&i 
-Gap 
-mu 
-ban 
-(tibialis anterior) 
-tren m$t ngoai XU'O'ng 
-cua 
-XU'O'ng 
-chem 
-chan (duoi ban 
-•
-chay 
-trong va nen XU'O'ng 
-chan) va nghieng 
-dot ban chan I 
-trong ban chan 
----------------------------- ---------------------------- ----------------------------- ----------------------
-Ca du6i ng6n chan 
-1/3 gill'a m$t trong 
-M$t mu cua nen dot xa 
-Duoi ng6n chan 
-cai 
-dai 
-(extensor 
-mac va mang 
-ng6n chan cai 
-cai va 
-XU'O'ng 
-gap mu 
-hallucis longus) 
-gian cot 
-chan 
-Ca du6i cac ng6n 
-L6i cau ngoai XU'O'ng 
-Cac dot gill'a va xa
-Duoi ban ng6n 
-chan dai 
-chay, 
-3/4 tren 
-m$t 
-cua 4 ng6n chan ngoai 
-chan 
-ngoai 
-va 
-(extensor 
-digitorum 
-trong XU'O'ng mac va 
-gap mu chan 
-longus) 
-mang gian cot 
----------------------------- ---------------------------- ----------------------------- ----------------------
-Ca mac ba 
-1/3 dU'&i m$t trong 
-M$t 
-cua 
-•
-Gap 
-chan va 
-mu 
-nen 
-mu 
-(peroneus tertius) 
-XU'O'ng mac va mang 
-XU'O'ng dot ban chan V 
-nghieng 
-ban 
-gian cot 
-chan ra ngoai 
-
-
-
-<!-- Hết trang 148 -->
-
-
-1\
--- Th\n kinh mac chung
-f - Than kinh mac nong
-]\\ - Ca mac dai
-1r 
-.r:
-;, -T'> Ca tam d^u
-/2 
-{ --- Ca mac ngiln
-- - - Ca chay tnr6c
-- - -' Ca du6i cac ng6n chiin dai
-va ca mac ba
-/4 
-H~ 
-' d "· 
-' 
-CT
-- -- - -
-am gan uo1 tren
-\ - -- -- Ham ca mac_ tren 
--;
------ Ham giin duoi du&i 
-- - - - - Ham ca mac du6i du6i
-'-- - - - - - - Ca du6i cac ng6n chan ngiln
-\ 
-'-- -- - - --- Gan ca mac ba 
-
-![Hinh 4. Cac ca vung cang chan trll'O'C](giaiphau_media/hinh_p149_4.png)
-
-*Hinh 4. Cac ca vung cang chan trll'O'C*
-
-3.2. Cac CO' trong ngan ngoai (cua vung ciing chiin tru6c) (H.4) 
-Ngan ngoai duqc gi6i h;n b&i m<it ngoai xucmg mac, cac vach gian ca cilng chan 
-tru6c va sau, va m;c ciing chan. Ngan nay chua CO' mac dai va CO' mac ngii.n v6n la 
-nhfrng ca c6 tac d\mg gfrp gan chan va nghieng ngoai ban chan. Chung d€u do thdn kinh 
-mac nong, nhanh cua th=n kinh mac chung, chi ph6i. 
-
-
-
-<!-- Hết trang 149 -->
-
-
-ii I 
-Th' kinh 
-,. 
-r-
-\ 
-____ , 
-Rn 
-ng01 
-fa 
-_-- Than kinh 
-- - - --
-mac chung 
-- --',r, --- Th!n kinh chay
-,, S --- Ca gan chan
-- Ca bi,mg chan
-- Ca dep
-Ca mac dai 
--- Ca gftp cac ng6n chan dai 
-Ca mac ngTn 
---- Gan got 
-_ 
-, 
-U 
-V
--- Ham gan gftp 
-Ham ca mac tren -
-, 
-.. ,
-\1·fl 
-WX 
-
-![Hinh 5. Cac ca l&p nong vung cng chan sau](giaiphau_media/hinh_p150_5.png)
-
-*Hinh 5. Cac ca l&p nong vung cng chan sau*
-
-Cu mac dai (peroneus longus) la CCY nong han trong s6 hai CCY mac. 
-Nguyen uy: chem va 2/3 tren mSt ngoai xuang mac. Ca con barn ca vao cac vach 
-gian CCY d.ng chan tru&c va sau. 
-Barn tTn: gan CCY mac dai chUy vong sau mit ca ngoai, 6 duai ham CCY mac tren. 
-Ti€p d6, gan chUy duai rong r9c mac cua xuang g6t d€ di vao ranh gan CCY mac dai cua 
-xuang h9p. Cu6i cung, gan chUy ch€ch qua gan chan d€ t&i barn tTn vao nSn xuang d6t 
-ban chan I va xuang chem trong. 
-D9ng tac: gip gan chan va nghieng ngoai ban chan; gifr vfrng cac vom gan chan. 
-Cu mac ngdn (peroneus brevis) 
-Nguyen uy: 2/3 duai mSt ngoai xuang mac, cac vach gian CCY dmg chan tru&c va sau. 
-Barn tTn: gan CCY chUy qua m9t ranh 6 mSt sau mit ca ngoai va c6 th€ SCJ thiy 6 
-duai mit ca ngoai. TUi day, n6 nim trong m9t bao gan chung v&i gan CCY mac dai. Cu6i 
-
-
-
-<!-- Hết trang 150 -->
-
-
-cung, gan barn tan vao IB?t mu cua 16i cu xuong d6t ban chan V (nfim 6 IB?t ngoai nSn 
-xuong d6t ban chiin V). 
-D(}ng tac: gi6ng ca mac dai nhung vai tro gifr cac vom gan chiin kem ca mac dai 
-(vi giin kh6ng chby qua gan chiin). 
-3.3. Cac cO' vimg dng chan sau (ngan sau) 
-Cac ca vimg dng chiin sau dugc chia thanh cac nh6m n6ng va siiu bai vach gian 
-ca ngang dng chan (mbc ngang sau d.ng chan). 
-Nhom CO' nong (Bang 5) (H.5) bao g6m CO' tam ildu va CO' gan chan. Ca tam d:iu 
-do CO' b'?{ng chan (v&i hai d:iu trong va ngoai) va CO' dep tbo nen. Day la ca to khoe tbo 
-nen blip chiin (ph:in 16i cua vung dlng chiin sau). Kich thu&c l&n cua ca tam d:iu la m(}t 
-d?C trung cua ca blip nguai va lien quan tf\.TC ti€p d€n tu th€ dung thing cua loai nguai. 
-Ca nay c:in to khoe vi n6 phai ch6ng d5' va djch chuy€n sue n?ng cua ca th€. D(}ng tac 
-cua nh6m ca n6ng la gcp gan chiin. 
-Nhom CO' sau (Bang 5) (H.6) bao g6m CO' chay sau, CO' gdp ccic ng6n chan dai va 
-CO' gdp ng6n chan cai did. Chung nfim ngay sau cac xuong d.ng chan va mang gian c6t. 
-Toan b9 cac ca vung d.ng chan sau do th:in kinh chay chi ph6i. 
-- - - - Ca khoeo
---- - D§u chay ca dep
--- - Ca chay sau
-- - - Ca g.lp cac ng6n chiin dai
------ Thftn kinh chay 
-- -- - - Ca g.lp ng6n cai dai
------- Ca chay sau
----- Ham giin g.lp
-
-![Hinh 6. Cac ca lap sau vung cang chan sau](giaiphau_media/hinh_p151_6.png)
-
-*Hinh 6. Cac ca lap sau vung cang chan sau*
-
-
-
-
-<!-- Hết trang 151 -->
-
-
-Bang 5. Cac CO' vung cng chan sau 
-CO' 
-Ca b1,mg chan 
-(gastrocnemius) 
-Nguyen uy 
-D8u ngoBi: 
-IOi c8u
-ngoai Xll'O'ng dui 
-fJfJu 
-trong: 
-din 
-khoeo cua xlJ'ang dui, 
-________________________ _  tren I6i cau trong ______ _
-Ca dep 
-Cham va 1/4 tren mi;it 
-(soleus) 
-sau 
-Xll'O'ng 
-mac; 
-dll'cmg ca dep va 1/3 
-giO,a ba trong xll'ang 
-chay 
---c-;;,-9a- -ch-------- -0au ci;;(i a-&9-i--
-(plantaris) 
-I6i cau ngoai va day 
-chiing khoeo cheo 
-Barn t n 
-Gan CO' dep va gan CO' 
-gan chan hqp v&i gan ca 
-b1,mg chan ti;io thanh gan 
-got. Gan got barn vao mc;\t 
-sau Xll'O'ng g6t 
-E>{mg tac 
-Gap cang chan, 
-gap 
-gan 
-chan, 
-nang got len khi di 
-Gap gan chan va 
-giO, 
-vO,ng 
-cang 
-chan 
-tren 
-ban 
-chan (kieng chan) 
-Ho trq CO' b1,mg 
-chan 
-trong 
-gap 
-gan chan va gap 
-cang chan 
---c-;;, -kh -----------
-Mi;it ngoai 
-I6i cau --M-t-sa- -XLP0'-9- -hy.-t;;- Gap va xoay trong 
-(popliteus)
-ngoai Xll'O'ng dui va 
-dlJ'ang CO' dep 
-cang chan 
------------------------- -S1,Jn_ chem ngoai ----------------------------------------- -----------------------
-Ca gap ng6n chan 
-2/3 
-dlJ'&i 
-mat 
-sau 
-NIn d6t xa ng6n chan cai 
-Gap 
-ng6n 
-chan 
-cai dai 
-Xll'O'ng mac vJ phan 
-cai, gap gan chan 
-(flexor 
-hallucis 
-dll'&i mang gian c6t 
-va nghieng trong 
-longus) 
-ban chan 
-Ca gap cac ng6n
-NLl'a trong cua 1/3 
-Nn cua d6t xa b6n ng6n 
-Gap 
-b6n 
-ng6n 
-chan dai 
-giQ>a mc;\t sau Xll'ang 
-chan ngoai b.iing 4 gan 
-chan ngoai, gap 
-(flexor 
-digitorum 
-chay, dll'&i dll'ang ca 
-gan chan va xoay 
-longus) 
-dep 
-ban 
-chan 
-vao 
-trong
---c-;;,-chy-;-,; -------- -Mng--gi--	6i-
---i-- -cQ---i- -t-hy-.---ba- Gap gan --ciin---
-(tibialis posterior) 
-sau xll'ang chay, mi;it 
-xll'ang chem va nn cua 
-nghieng trong ban 
-trong xlJ'ang mac 
-cac xlJ'ang d6t ban chan 
-chan 
-II, Ill va IV 
-3.4. Mc va cac ngan mc cua cing chan 
-M:;iC (m:;iC siiu) cua ding chiin bao b9c ding chiin va lien tiYp 6 tren v&i ffi:;lC dui. 
-N6 barn vao cac ba tnr&c va trong cua xuong chay. Hai vach gian C(J d.ng chiin, vach 
-tnr&c va vach sau, tu ml[tt siiu cua ffi:;lC ding chiin Ch:;iy t&i barn vao xuong mac. Cac 
-vach nay, cung v&i mang gian c6t, chia d.ng chiin thanh ba ngan ffi:;lC: ngan tru&c (ngan 
-ca du6i), ngan sau (ngan ca g§.p) va ngan ngoai (ngan mac). Ngan m:;lc sau duqc mi;ic 
-ngang siiu chia thanh phfi.n nong va phfi.n siiu. 
-3.5. Cac ham gan cua c6 chan 
-d vung c6 chiin, mi;ic d.ng chiin day lend€ ti;io nen m(>t loi;it ham giin d€ gifr cac 
-giin ti;ii vi tri. 
-Ham gan cu du6i tren (superior extensor retinaculum) la m(>t dai mi;ic day barn 
-vao cac ba tnr&c cua d.iu xa cac xuong chay va mac. N6 ta.ch rad€ bao b9c giin ca chay 
-tru&c 6 gfi.n dfi.u trong cua n6. 
-
-
-
-<!-- Hết trang 152 -->
-
-
-Ham gan cu du6i diroi (inferior extensor retinaculum) la m9t dai m:;ic hinh chfr Y 
-v&i cu6ng cua chfr Y barn vao m?t tren cua ph§.n tnr&c xucmg got. T11=1 tren cua chfr Y 
-barn vao mitt ca trong con t11=1 du&i lien tiSp v&i can gan chan & ba trong ban chan. Cac 
-vach sqi tu m?t sau cua ham gan du6i du&i ngan each cac gan du6i v&i nhau, m6i gan 
-nim trong m9t ngan rieng va duqc lot bing bao ho:;it dich. 
-Ham gan gfi,p (flexor retinaculum) la m<)t dai m:;ic day tu mitt ca trong ch:;iy xu6ng 
-du&i va ra sau t&i barn vao m?t trong xucmg got. N6 gifr cho gan cua cac ca l&p sau 
-vung dng chan sau ap sat vao ill?t trong got chan, m6i gan nim trong m<)t ngan rieng 
-va duqc b9c bing bao ho:;it dich. 
-Ham gan cu mac tren (superior peroneal retinaculum) la m9t dai m:;ic day tu mitt 
-ca ngoai ch:;iy xu6ng du&i va ra sau dS t&i barn vao m?t ngoai xucmg got. No gifr cho 
-gan cua cac CO' mac dai va ngitn ap vao m~t ngoai c6 chan; hai gan duqc b9c bing m<)t 
-bao ho:;it dich chung. Ham gan cu mac diroi (inferior peroneal retinaculum) la m9t dai 
-m:;tc day barn vao cu mac va vao xucmg got & tren va & du&i cac gan CO' mac. 
-4. cAc CO' VA MC O BAN CHAN
-4.1. CO' fr mu chan 
-Chi c6 m<)t ca nho & mu chan, cu du6i ctic ngon chan ngt'in ( extensor digitorum 
-brevis ), va ca nay tucmg d6i it quan tr9ng. 
-Nguyen uy: m?t tren va ngoai cua ph§.n tru&c xuang got, & phia tru&c - trong 
-mitt ca ngoai. 
-Barn tn: CO' chia thanh b6n bo dSn barn vao n€n d6t g§.n ngon cai va vao gan di 
-vao cac ng6n chan II, III va IV cua ca du6i cac ngon chan dai. Bo di vao ngon chan cai 
-duqc g9i la ca du6i ng6n cai ngcin ( extensor hallucis brevis ). 
-D9ng tac: h6 trq CO' du6i ngon cai dai va CO' du6i cac ngon chan dai trong vic 
-du6i cac ng6n chan I - IV. 
-4.2. Cac CO' O' gan chan (Bang 6) 
-Co b6n l&p CO' & gan chan. Cac CO' nay da duqc bit hoa dS giup gifr vfrng cac vom 
-gan chan va lam cho con nguai dung vfrng tren m?t d§t hem la d€ thvc hin cac chuc 
-nang tinh tS nhu cac CO' & ban tay. 
-Lop cO' nong (H.7, A) (l&p thu nhftt) g6m ba ca, tftt ca d€u di tu ph§.n sau cua 
-xucmg got t&i cac ngon chan. Tinh tu trong ra ngoai, ba CO' cua l&p n6ng la: C(l git;mg 
-ng6n cai, C(l gtip cac ng6n chdn ngcin va C(l git;mg ng6n ut. Ca ba CO' nay hqp thanh m9t 
-nhom dong vai tro gifr vfrng cac vom gan chiin va duy tri d9 lorn cua gan chan. 
-Lop CO' gifra (H.7, B) (l&p thu hai) g6m hai CO' n<)i t:;ii cua gan chan la C(l vuong 
-gan chdn va cac C(l giun. L&p nay con c6 gan cua CO' gftp cac ngon chan dai va CO' gftp 
-ngon cai dai tu dng chan di xu6ng. Gan CO' gftp cac ngon chan dai bitt cheo ill?t n6ng 
-cua gan CO' gftp ng6n cai dai va la ch6 barn cac CO' n9i t:;ii cua gan chan. 
-Lop CO' sau (H.8, A) (l&p thu ba) bao g6m cac CO' ngitn cua ngon cai va ngon ut nim 
-& nua tnr&c gan chan: C(l gtip ng6n cai ngcin, C(l khep ng6n cai, C(l gdp ng6n ut ngcin. 
-
-
-
-<!-- Hết trang 153 -->
-
-
-A 
-A 
-- Gan ca g§p
-ng6n cai dai
-I -- Ca gftp c•c ng6n ngi
-- Ca giOmg ng6n cai
---- Ca gi:,mg ng6n ut 
---- Can gan chan
-
-![Hinh 7. Cac ca vung gan chan](giaiphau_media/hinh_p154_7.png)
-
-*Hinh 7. Cac ca vung gan chan*
-
-A. Lap thu nh§t B. Lap thu hai
-
-![Hinh 8. Cac ca vung gan chan](giaiphau_media/hinh_p154_8.png)
-
-*Hinh 8. Cac ca vung gan chan*
-
-A. Lap thU' ba B. Lap thu tlJ'
--- Cac ca giun
-Nhanh sau thin kinh 
-gan chan ngoai 
-__ Gan ca g§p cac 
-ng6n dai 
-• -- -ca vuong gan chan
-Th§n kinh gan 
-chan ngoai 
--- ---- Th§n kinh gan
-chan trong 
-B 
----- Cac ca gian
-c6t mu chan 
-__ P,-- Cac ca gian
-Q ' 
-c6t gan chan 
-Nhanh nong thin 
---- kinh gan chan ngoai 
-R--Nhanh sau thin kinh 
-gan chan ngoai 
-- --- ---- Gan ca mac dai
-- -----· Gan ca chay sau
-B 
-
-
-
-<!-- Hết trang 154 -->
-
-
-Lop CO' gian cAt (H.8., B) (l&p thu tu) g6m ba ca gian c6t gan chan va b6n ca 
-gian c6t mu chan. Chung chi€m nhfrng khoang nllm gifra cac xuang d6t ban chan. 
-v chi ph6i thin kinh, CCY gan chan, CCY gi,;mg ng6n cai, CCY gllp nglin ng6n cai va 
-C(Y giun r do thftn kinh gan chan trong chi ph6i, tllt ca cac CCY con l.;ti do thftn kinh gan 
-chan ngoai chi ph6i. 
-Bang 6. Cac CO' vung gan chan 
-CO' 
-Nguyen uy 
-Barn t"n 
-Oc;,ng tac 
-Lop nong 
-Ca ging ng6n cai 
-(adductor hallucis) 
-Mom trong cua cu 
-Ba trong nen d6t gan 
-Gic;Jng va gap ng6n cai 
-xLYang g6t 
-ng6n cai 
-Ca gilp cac ng6n 
-Mom trong cua cu 
-B6n gan t&i barn vao 
-Gap b6n ng6n chan 
-chan ngan (flexor 
-XU'O'ng g6t, can gan 
-hai ba ben cua d6t 
-ngoai 
-digitorum brevis) 
-chan va cac vach 
-giO>a b6n ng6n chan 
-gian ca 
-ngoai 
-Ca ging ng6n ut 
-(abductor 
-digiti 
-Cac mom trong va 
-Mht ngoai cua nen 
-Gic;Jng va gap ng6n ut 
-ngoai CU8 CU XU'O'ng 
-d6t gfm ng6n Ut 
-minimi) 
-Lopgi[J,a 
-Ca vuong gan chan 
-( quadratus plantae) 
-Cac CO' giun (4) 
-(lumbricals) 
-Lop sau 
-g6t, can gan chan va 
-vach gian ca ngoai 
-Mht trong xLYang g6t 
-Ba sau ngoai cua 
-va bO' ngo8i cUa m#t 
-g8n ca g8p cac ng6n 
-gan chan xLYang got 
-chan dai 
-Cac gan cua CO' gap 
-cac ng6n chan dai 
-Mht trong cua nen d6t 
-gan b6n ng6n chan 
-ngoai va cac gan cua 
-ca 
-ru6i 
-cac 
-ng6n 
-chan dai 
-Chinh lc;1i hLY&ng tac 
-ding cua CO' gap cac 
-ng6n chan dai va g6p 
-phan gio, cac v6m gan 
-chan 
-Gap dot gan, ru6i cac 
-d6t giO>a va xa cua ban 
-ng6n chan ngoai 
-Ca gap ng6n cai ngan XLYang 
-h(>p 
-va 
-Ca hai ba ben cua 
-Gap d6t gan ng6n cai 
-(flexor 
-hallucis 
-xLYang chem ngoai, 
-n?m d6t gan ng6n cai 
-brevis) 
-gan ca chay sau 
-------------------------- ------------------------------------------------------- ----------------------------
-CO' khep ng6n cai 
-Oau cheo: 
-XU'O'ng 
-Nen d6t gan ng6n I 
-Khep ng6n I 
-(adductor hallucis) 
-h(>p, 
-xLYang chem 
-ngoai va cac xLYang 
-a6t ban II, Ill 
-Oau 
-ngang: 
-kh&p 
-a6t ban - a6t ng6n 
-111, IV va V 
-Ca gap ng6n ut 
-XLYang 
-h(>p, 
-nen 
-Nen dot gan ng6n V 
-ngan (flexor digiti 
-xLYang a6t ban V 
-Gap d6t gan ng6n V 
-minimi brevis) 
-Ca d6i chieu ng6n 
-Gi6ng ca gap ng6n 
-ut (opponens digiti 
-ut ngan 
-minimi) 
-Ba ngoai XU'O'ng dot 
-Khep ng6n ut 
-ban chan v
-
-
-
-<!-- Hết trang 155 -->
-
-
-Lop gian cot 
-Cac ca gian cot mu 
-chan (4 ca)
-(dorsal interrossei) 
-Cac CO' gian cot 
-gan chan (3 ca)
-(plantar interossei) 
-4.3. M,c gan chan 
-Hai mat doi nhau 
-cua ca> Xll'O'ng dot 
-ban lien ke nhau 
-Mc;lt trong cac Xll'ang 
-dot ban Ill, IV, V 
-Ca gian cot mu chan 
-I: mc;lt trong Xll'ang 
-dot ng6n g?n ng6n I 
-Gae CO' gian cot mu 
-chan II, 111, IV: mc;lt 
-ngoai cac Xll'O'ng dot 
-, 
-). 
-, 
-, 
-ngon gan cac ngon 
-tll'ang (mg
-Mc;lt trong nen dot 
-g?n cac ng6n II, IV, V 
-Gic;1ng ng6n chan 
-Khep cac ng6n 11, IV, V 
-M?C (m?C sau) cua gan chan day len t?O nen din gan chdn (plantar aponeurosis). 
-Can gan chan c6 hinh tam giac va chiOm vung trung tam cua gan chan. PhPn m?c phu 
-cac ca gi?ng cua ng6n cai va ng6n thu hai thi vin mong. Dinh cua can gan chan barn 
-vao cu g6t. N€n cua can gan chan chia ra & ngang g6c cac ng6n chan thanh 5 tre, m6i tre 
-lQi ta.ch d6i dR bao quanh cac gan gftp va cu6i cung boa lin v6i bao sqi gan gftp. Tu cac
-ba trong va ngoai cua can gan chan, nai n6 lien tiOp v6i mQc phu cac ca gi?ng ng6n cai
-va ng6n ut, c6 cac vach SQ'i ch?y len vao gan chan va tham gia vao S\f hinh thanh cac
-ngan mQc cua gan chan.
-
-
-
-<!-- Hết trang 156 -->
+### 1.1. Các cơ của vùng mông (Bảng 1) (H.1)
 
+Các cơ của vùng mông che phủ các mặt sau và ngoài của khớp hông. Ba cơ lớn nhất của vùng này là *cơ mông lớn*, *cơ mông nhỡ* và *cơ mông nhỏ*. Chúng là những cơ duỗi và giạng đùi tại khớp hông. Cơ mông nhỡ là vị trí thuận tiện để tiêm bắp. Những cơ nhỏ, nằm ở sâu, là những cơ xoay ngoài đùi. Chúng bao gồm *cơ hình quả lê*, *các cơ bịt trong và ngoài*, *các cơ sinh đôi trên và dưới* và *cơ vuông đùi*. Các cơ mông được các nhánh thần kinh nhỏ của đám rối cùng chi phối.
+
+### Bảng 1. Các cơ của vùng mông
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| *Cơ mông lớn* (gluteus maximus) | Mặt ngoài phần sau cánh chậu (gồm cả mào chậu), mặt sau xương cùng và xương cụt, dây chằng cùng - củ | Dải chậu - chày, lồi củ cơ mông xương đùi (chẽ ngoài đường ráp) | Duỗi đùi |
+| *Cơ mông nhỡ* (gluteus medius) | Mặt ngoài cánh chậu, giữa các đường mông trước và sau | Mặt ngoài mấu chuyển lớn xương đùi | Giạng đùi và xoay trong đùi |
+| *Cơ mông bé* (gluteus minimus) | Mặt ngoài cánh chậu, giữa các đường mông trước và dưới | Bờ trước mấu chuyển lớn xương đùi | Giạng đùi và xoay trong đùi |
+| *Cơ hình quả lê* (piriformis) | Mặt trước xương cùng và dây chằng cùng - củ | Bờ trên mấu chuyển lớn xương đùi | Giạng đùi và xoay ngoài đùi |
+| *Cơ sinh đôi trên* (gemellus superior) | Gai ngồi | Mặt trong mấu chuyển lớn xương đùi | Giạng và xoay ngoài đùi |
+| *Cơ sinh đôi dưới* (gemellus inferior) | Ụ ngồi | Mặt trong mấu chuyển lớn xương đùi | Giạng và xoay ngoài đùi |
+| *Cơ bịt trong* (obturatorius internus) | Mặt trong màng bịt và các xương bao quanh | Mặt trong mấu chuyển lớn xương đùi | Giạng và xoay ngoài đùi |
+| *Cơ bịt ngoài* (obturatorius externus) | Mặt ngoài màng bịt và các bờ lỗ bịt | Hố mấu chuyển của xương đùi | Xoay ngoài đùi |
+| *Cơ vuông đùi* (quadratus femoris) | Bờ ngoài của củ ngồi | Củ cơ vuông đùi | Giạng và xoay ngoài đùi |
+| *Cơ căng mạc đùi* (tensor fasciae latae) | Gai chậu trước - trên và mép ngoài mào chậu | Dải chậu - chày; dải này bám vào lồi cầu ngoài xương chày | Giạng và gấp đùi, giữ cho khớp gối ở tư thế duỗi |
+
+![Hình 1: Các cơ vùng mông](figures/hinh_p144_1.png)
+*Hình 1: Các cơ vùng mông*
+
+### 1.2. Mạc của vùng mông
+
+Mạc của mông (mạc sâu hay mạc bọc cơ) liên tiếp ở dưới với mạc đùi. Ở vùng mông, nó tách ra để bao bọc cơ mông lớn. Ở trước và trên cơ mông lớn, nó tiếp tục như một lá đơn che phủ mặt nông cơ mông nhỡ rồi bám vào mào chậu. Trên mặt ngoài của đùi, nó liên tiếp với một dải cân rộng, chắc gọi là **dải chậu - chày**. Dải này bám ở trên vào củ của mào chậu và ở dưới vào lồi cầu ngoài xương chày. Dải chậu - chày tách ra bao bọc cho cơ căng mạc đùi và tiếp nhận phần lớn các sợi gân của cơ mông lớn.
+
+---
+
+## 2. CÁC CƠ VÀ MẠC CỦA VÙNG ĐÙI
+
+### 2.1. Mạc đùi và các ngăn mạc của đùi
+
+**Mạc đùi.** Mạc đùi (mạc sâu) (*fascia lata*) bao quanh đùi; đầu trên của nó được gắn với xương chậu và các dây chằng có liên quan. Chỗ tiếp giáp của nó với mạc mông ở mặt ngoài dày lên tạo nên dải chậu - chày. Ở mặt trước đùi, mạc đùi có một lỗ gọi là **lỗ tĩnh mạch hiển** (*saphenous opening*). Đây là nơi đi qua của tĩnh mạch hiển lớn, các nhánh nhỏ của động mạch đùi và các mạch bạch huyết. Lỗ này nằm ở khoảng 4 cm về phía dưới - ngoài của củ mu. Lỗ tĩnh mạch hiển có một bờ hình liềm ở phía dưới - ngoài; bờ này nằm giữa hai sừng: *sừng trên* chạy vào trong ở trước các mạch đùi và bám vào củ mu, *sừng dưới* chạy ra ngoài ở sau các mạch đùi rồi bám vào đường lược của ngành trên xương mu.
+
+**Các ngăn mạc của đùi.** Từ mặt sâu của mạc đùi có ba vách gian cơ tiến vào sâu tới đường ráp xương đùi. Đó là *vách gian cơ đùi ngoài*, *vách gian cơ đùi trong* và *vách gian cơ trước - trong* (hay mạc dưới cơ may). Các vách gian cơ này chia đùi thành ba ngăn mạc là:
+- *Ngăn trước* (ngăn cơ duỗi),
+- *Ngăn trong* (ngăn cơ khép),
+- *Ngăn sau* (ngăn cơ gấp).
+
+### 2.2. Các cơ vùng đùi trước (Bảng 2) (H.2)
+
+Vùng đùi trước có hai nhóm cơ: nhóm trong ngăn mạc trước và nhóm trong ngăn mạc trong.
+
+- **Các cơ trong ngăn mạc trước** bao gồm *cơ may*, *cơ tứ đầu đùi* và phần tận cùng của hai cơ từ thành bụng sau đi xuống là *cơ chậu* và *cơ thắt lưng lớn* (được gọi chung là cơ thắt lưng - chậu). Cơ may, cơ thắt lưng - chậu và đầu thẳng đùi của cơ tứ đầu đùi có tác dụng gấp đùi. Cơ may và cơ tứ đầu còn đi qua khớp gối nên còn gây cử động ở cẳng chân (cơ may gấp còn cơ tứ đầu duỗi cẳng chân).
+- **Các cơ trong ngăn mạc trong** bao gồm *cơ lược*, *cơ khép dài*, *cơ khép ngắn*, *cơ khép lớn* và *cơ thon*. Cả năm cơ này đều đi chếch từ xương mu tới xương đùi (trừ cơ thon bám tận vào xương chày) nên có tác dụng chung là khép đùi và vì vậy chúng được gọi *nhóm cơ khép đùi*. Cũng có thể coi cơ bịt ngoài là một cơ của nhóm trong.
+
+**Về chi phối thần kinh:** các cơ nhóm trước, cơ lược và một phần cơ khép dài (của nhóm trong) do thần kinh đùi chi phối, các cơ còn lại do thần kinh bịt chi phối.
+
+![Hình 2: Các cơ vùng đùi trước](figures/hinh_p145_2.png)
+*Hình 2: Các cơ vùng đùi trước*
+
+### Bảng 2. Các cơ vùng đùi trước
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| **Nhóm trước** | | | |
+| *Cơ thắt lưng lớn* (psoas major) | Thân và mỏm ngang các đốt sống N XII - TL IV | Mấu chuyển nhỏ xương đùi | Gấp đùi |
+| *Cơ chậu* (iliacus) | Hố chậu, mào chậu và cánh xương cùng | Mấu chuyển nhỏ xương đùi | Gấp đùi |
+| *Cơ may* (sartorius) | Gai chậu trước - trên | Phần trên mặt trong xương chày | Gấp đùi và cẳng chân; giúp giạng và xoay ngoài đùi |
+| *Cơ tứ đầu đùi* (quadriceps femoris)<br>Có 4 đầu:<br>- *Cơ thẳng đùi* (rectus femoris)<br>- *Cơ rộng ngoài* (vastus lateralis)<br>- *Cơ rộng trong* (vastus medialis)<br>- *Cơ rộng giữa* (vastus intermedius) | - *Cơ thẳng đùi:* gai chậu trước - dưới (đầu thẳng) và viền ổ cối (đầu quặt)<br>- *Cơ rộng ngoài:* mấu chuyển lớn và mép ngoài đường ráp xương đùi<br>- *Cơ rộng trong:* đường gian mấu và mép trong đường ráp xương đùi<br>- *Cơ rộng giữa:* các mặt trước và ngoài thân xương đùi | Xương bánh chè và thông qua dây chằng bánh chè tới bám vào lồi củ xương chày | Duỗi cẳng chân; riêng cơ thẳng đùi còn gấp đùi |
+| **Nhóm trong** | | | |
+| *Cơ lược* (pectineus) | Lược xương mu (mào lược) | Đường lược xương đùi | Khép và gấp đùi |
+| *Cơ khép dài* (adductor longus) | Thân xương mu, phía dưới mào mu | 1/3 giữa đường ráp xương đùi | Khép và hơi gấp đùi; xoay ngoài đùi khi đùi ở thế gấp |
+| *Cơ khép ngắn* (adductor brevis) | Thân và ngành dưới xương mu | Đường lược và 1/3 trên đường ráp xương đùi | Khép và hơi gấp đùi |
+| *Cơ khép lớn* (adductor magnus) | Ngành dưới xương mu, ngành xương ngồi và củ ngồi | Lồi củ cơ mông, đường ráp, đường trên lồi cầu trong và lồi củ cơ khép của xương đùi | Khép và duỗi đùi |
+| *Cơ thon* (gracilis) | Thân và ngành dưới xương mu | Phần trên mặt trong xương chày | Khép đùi và gấp cẳng chân |
+
+### 2.3. Các cơ của vùng đùi sau (Bảng 3) (H.3)
+
+Vùng đùi sau có ba cơ nằm trong ngăn mạc sau của đùi: *cơ bán gân*, *cơ bán màng* và *cơ nhị đầu đùi*. Cả ba cơ này có nguyên uỷ chung là ụ ngồi, trừ cơ nhị đầu có thêm một đầu nguyên uỷ bám vào xương đùi. Chúng đi xuống qua mặt sau của đùi và có thể nhìn thấy các gân của chúng ở sau khớp gối. Do chạy qua hai khớp (khớp hông và khớp gối), tác dụng chung của ba cơ là duỗi đùi và gấp cẳng chân. Thần kinh ngồi phân nhánh vào cả ba cơ vùng đùi sau.
+
+![Hình 3: Các cơ vùng đùi sau](figures/hinh_p147_3.png)
+*Hình 3: Các cơ vùng đùi sau*
+
+### Bảng 3. Các cơ vùng đùi sau
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| *Cơ bán gân* (semitendinosus) | Ụ ngồi | Mặt trong đầu trên xương chày, sau chỗ bám của cơ thon và cơ may | Duỗi đùi, gấp cẳng chân, cùng với cơ bán màng xoay xương chày vào trong trên xương đùi |
+| *Cơ bán màng* (semimembranosus) | Ụ ngồi | Mặt sau lồi cầu trong xương chày | Giống cơ bán gân |
+| *Cơ nhị đầu đùi* (biceps femoris) | - *Đầu dài:* ụ ngồi<br>- *Đầu ngắn:* mép ngoài đường ráp và đường trên lồi cầu ngoài | Chỏm xương mác | Đầu dài: duỗi đùi; cả hai đầu: gấp và xoay cẳng ngoài cẳng chân |
+
+### 2.4. Các cấu trúc cơ - mạc của đùi
+
+**Tam giác đùi (femoral triangle).** Tam giác đùi là một vùng hình tam giác nằm ở phần trên của mặt trong đùi.
+- Nó được giới hạn ở trên bởi dây chằng bẹn, ở ngoài bởi cơ may và ở trong bởi bờ trong cơ khép dài.
+- Sàn của nó trông như một rãnh và được tạo nên, từ ngoài vào trong, bởi cơ thắt lưng - chậu, cơ lược và cơ khép dài.
+- Trần của nó do da và mạc đùi tạo nên.
+- Tam giác đùi chứa phần tận cùng của thần kinh đùi, các mạch đùi cùng các nhánh của chúng, và các hạch bạch huyết bẹn sâu.
+
+**Ống cơ khép (adductor canal).** Ống cơ khép là một khe gian cơ nằm ở mặt trong của phần ba giữa đùi, đi từ đỉnh tam giác đùi tới *lỗ gân cơ khép (adductor hiatus)* (lỗ ở gân cơ khép lớn). Nó có hình tam giác trên mặt cắt ngang với ba thành: thành sau, thành ngoài và thành trước - trong. Thành sau được tạo bởi cơ khép dài và cơ khép lớn. Thành ngoài do cơ rộng trong tạo nên. Thành trước - trong là lá mạc phủ mặt sâu cơ may. Ống cơ khép chứa đoạn xa của động mạch và tĩnh mạch đùi, thần kinh hiển, thần kinh tới cơ rộng trong và phần tận cùng của thần kinh bịt.
+
+---
+
+## 3. CÁC CƠ VÀ MẠC CỦA VÙNG CẲNG CHÂN
+
+Cẳng chân được chia thành hai vùng trước và sau bởi xương chày, màng gian cốt, xương mác và vách gian cơ cẳng chân sau. Vùng cẳng chân trước lại được chia thành hai ngăn trước và ngoài bởi vách gian cơ cẳng chân trước. Như vậy, cẳng chân có ba ngăn mạc: *ngăn trước*, *ngăn ngoài* và *ngăn sau*.
+
+### 3.1. Các cơ trong ngăn trước (Bảng 4) (H.4)
+
+Ngăn này chứa *cơ chày trước*, *cơ duỗi các ngón chân dài*, *cơ duỗi ngón chân cái dài* và *cơ mác ba*. Chức năng của các cơ này là gấp mu chân tại khớp cổ chân và duỗi các ngón chân. Chúng được chi phối bởi các nhánh của thần kinh mác sâu, một nhánh của thần kinh mác chung. Ở vùng cổ chân, gân của các cơ này chạy dưới các hãm gân duỗi trên và dưới.
+
+![Hình 4: Các cơ vùng cẳng chân trước](figures/hinh_p149_4.png)
+*Hình 4: Các cơ vùng cẳng chân trước*
+
+### Bảng 4. Các cơ của ngăn trước cẳng chân
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| *Cơ chày trước* (tibialis anterior) | Lồi cầu ngoài và nửa trên mặt ngoài xương chày | Các mặt trong và dưới của xương chêm trong và nền xương đốt bàn chân I | Gấp mu bàn chân (duỗi bàn chân) và nghiêng trong bàn chân |
+| *Cơ duỗi ngón chân cái dài* (extensor hallucis longus) | 1/3 giữa mặt trong xương mác và màng gian cốt | Mặt mu của nền đốt xa ngón chân cái | Duỗi ngón chân cái và gấp mu chân |
+| *Cơ duỗi các ngón chân dài* (extensor digitorum longus) | Lồi cầu ngoài xương chày, 3/4 trên mặt trong xương mác và màng gian cốt | Các đốt giữa và xa của 4 ngón chân ngoài | Duỗi bốn ngón chân ngoài và gấp mu chân |
+| *Cơ mác ba* (peroneus tertius) | 1/3 dưới mặt trong xương mác và màng gian cốt | Mặt mu của nền xương đốt bàn chân V | Gấp mu chân và nghiêng bàn chân ra ngoài |
+
+### 3.2. Các cơ trong ngăn ngoài (của vùng cẳng chân trước) (H.4)
+
+Ngăn ngoài được giới hạn bởi mặt ngoài xương mác, các vách gian cơ cẳng chân trước và sau, và mạc cẳng chân. Ngăn này chứa *cơ mác dài* và *cơ mác ngắn* vốn là những cơ có tác dụng gấp gan chân và nghiêng ngoài bàn chân. Chúng đều do thần kinh mác nông, nhánh của thần kinh mác chung, chi phối.
+
+- **Cơ mác dài (peroneus longus):** là cơ nông hơn trong số hai cơ mác.
+  - *Nguyên uỷ:* chỏm và 2/3 trên mặt ngoài xương mác. Cơ còn bám cả vào các vách gian cơ cẳng chân trước và sau.
+  - *Bám tận:* gân cơ mác dài chạy vòng sau mắt cá ngoài, ở dưới hãm cơ mác trên. Tiếp đó, gân chạy dưới ròng rọc mác của xương gót để đi vào rãnh gân cơ mác dài của xương hộp. Cuối cùng, gân chạy chếch qua gan chân để tới bám tận vào nền xương đốt bàn chân I và xương chêm trong.
+  - *Động tác:* gấp gan chân và nghiêng ngoài bàn chân; giữ vững các vòm gan chân.
+- **Cơ mác ngắn (peroneus brevis):**
+  - *Nguyên uỷ:* 2/3 dưới mặt ngoài xương mác, các vách gian cơ cẳng chân trước và sau.
+  - *Bám tận:* gân cơ chạy qua một rãnh ở mặt sau mắt cá ngoài và có thể sờ thấy ở dưới mắt cá ngoài. Tại đây, nó nằm trong một bao gân chung với gân cơ mác dài. Cuối cùng, gân bám tận vào mặt mu của lồi củ xương đốt bàn chân V (nằm ở mặt ngoài nền xương đốt bàn chân V).
+  - *Động tác:* giống cơ mác dài nhưng vai trò giữ các vòm gan chân kém cơ mác dài (vì gân không chạy qua gan chân).
+
+### 3.3. Các cơ vùng cẳng chân sau (ngăn sau)
+
+Các cơ vùng cẳng chân sau được chia thành các nhóm nông và sâu bởi vách gian cơ ngang cẳng chân (mạc ngang sâu cẳng chân).
+
+- **Nhóm cơ nông (Bảng 5) (H.5):** bao gồm *cơ tam đầu* và *cơ gan chân*. Cơ tam đầu do *cơ bụng chân* (với hai đầu trong và ngoài) và *cơ dép* tạo nên. Đây là cơ to khoẻ tạo nên bắp chân (phần lồi của vùng cẳng chân sau). Kích thước lớn của cơ tam đầu là một đặc trưng của cơ bắp người và liên quan trực tiếp đến tư thế đứng thẳng của loài người. Cơ này cần to khoẻ vì nó phải chống đỡ và dịch chuyển sức nặng của cơ thể. Động tác của nhóm cơ nông là gấp gan chân.
+- **Nhóm cơ sâu (Bảng 5) (H.6):** bao gồm *cơ khoeo*, *cơ chày sau*, *cơ gấp các ngón chân dài* và *cơ gấp ngón chân cái dài*. Chúng nằm ngay sau các xương cẳng chân và màng gian cốt.
+
+Toàn bộ các cơ vùng cẳng chân sau do thần kinh chày chi phối.
+
+![Hình 5: Các cơ lớp nông vùng cẳng chân sau](figures/hinh_p150_5.png)
+*Hình 5: Các cơ lớp nông vùng cẳng chân sau*
+
+![Hình 6: Các cơ lớp sâu vùng cẳng chân sau](figures/hinh_p151_6.png)
+*Hình 6: Các cơ lớp sâu vùng cẳng chân sau*
+
+### Bảng 5. Các cơ vùng cẳng chân sau
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| *Cơ bụng chân* (gastrocnemius) | - *Đầu ngoài:* lồi cầu ngoài xương đùi<br>- *Đầu trong:* diện khoeo của xương đùi, trên lồi cầu trong | Gân cơ dép và gân cơ gan chân hợp với gân cơ bụng chân tạo thành gân gót. Gân gót bám vào mặt sau xương gót | Gấp cẳng chân, gấp gan chân, nâng gót lên khi đi |
+| *Cơ dép* (soleus) | Chỏm và 1/4 trên mặt sau xương mác; đường cơ dép và 1/3 giữa bờ trong xương chày | Gân gót bám vào mặt sau xương gót | Gấp gan chân và giữ vững cẳng chân trên bàn chân (kiễng chân) |
+| *Cơ gan chân* (plantaris) | Đầu dưới đường trên lồi cầu ngoài và dây chằng khoeo chéo | Gân gót | Hỗ trợ cơ bụng chân trong gấp gan chân và gấp cẳng chân |
+| *Cơ khoeo* (popliteus) | Mặt ngoài lồi cầu ngoài xương đùi và sụn chêm ngoài | Mặt sau xương chày, trên đường cơ dép | Gấp và xoay trong cẳng chân |
+| *Cơ gấp ngón chân cái dài* (flexor hallucis longus) | 2/3 dưới mặt sau xương mác và phần dưới màng gian cốt | Nền đốt xa ngón chân cái | Gấp ngón chân cái, gấp gan chân và nghiêng trong bàn chân |
+| *Cơ gấp các ngón chân dài* (flexor digitorum longus) | Nửa trong của 1/3 giữa mặt sau xương chày, dưới đường cơ dép | Nền của đốt xa bốn ngón chân ngoài bằng 4 gân | Gấp bốn ngón chân ngoài, gấp gan chân và xoay bàn chân vào trong |
+| *Cơ chày sau* (tibialis posterior) | Màng gian cốt và mặt sau xương chày, mặt trong xương mác | Củ xương thuyền, ba xương chêm và nền của các xương đốt bàn chân II, III và IV | Gấp gan chân và nghiêng trong bàn chân |
+
+### 3.4. Mạc và các ngăn mạc của cẳng chân
+
+Mạc (mạc sâu) của cẳng chân bao bọc cẳng chân và liên tiếp ở trên với mạc đùi. Nó bám vào các bờ trước và trong của xương chày. Hai vách gian cơ cẳng chân, vách trước và vách sau, từ mặt sâu của mạc cẳng chân chạy tới bám vào xương mác. Các vách này, cùng với màng gian cốt, chia cẳng chân thành ba ngăn mạc: ngăn trước (ngăn cơ duỗi), ngăn sau (ngăn cơ gấp) và ngăn ngoài (ngăn mác). Ngăn mạc sau được mạc ngang sâu chia thành phần nông và phần sâu.
+
+### 3.5. Các hãm gân của cổ chân
+
+Ở vùng cổ chân, mạc cẳng chân dày lên để tạo nên một loạt hãm gân để giữ các gân tại vị trí:
+- **Hãm gân cơ duỗi trên (superior extensor retinaculum):** là một dải mạc dày bám vào các bờ trước của đầu xa các xương chày và mác. Nó tách ra để bao bọc gân cơ chày trước ở gần đầu trong của nó.
+- **Hãm gân cơ duỗi dưới (inferior extensor retinaculum):** là một dải mạc hình chữ Y với cuống của chữ Y bám vào mặt trên của phần trước xương gót. Trụ trên của chữ Y bám vào mắt cá trong còn trụ dưới liên tiếp với cân gan chân ở bờ trong bàn chân. Các vách sợi từ mặt sâu của hãm gân duỗi dưới ngăn cách các gân duỗi với nhau, mỗi gân nằm trong một ngăn riêng và được lót bằng bao hoạt dịch.
+- **Hãm gân gấp (flexor retinaculum):** là một dải mạc dày từ mắt cá trong chạy xuống dưới và ra sau tới bám vào mặt trong xương gót. Nó giữ cho gân của các cơ lớp sâu vùng cẳng chân sau áp sát vào mặt trong gót chân, mỗi gân nằm trong một ngăn riêng và được bọc bằng bao hoạt dịch.
+- **Hãm gân cơ mác trên (superior peroneal retinaculum):** là một dải mạc dày từ mắt cá ngoài chạy xuống dưới và ra sau để tới bám vào mặt ngoài xương gót. Nó giữ cho gân của các cơ mác dài và ngắn áp vào mặt ngoài cổ chân; hai gân được bọc bằng một bao hoạt dịch chung.
+- **Hãm gân cơ mác dưới (inferior peroneal retinaculum):** là một dải mạc dày bám vào củ mác và vào xương gót ở trên và ở dưới các gân cơ mác.
+
+---
+
+## 4. CÁC CƠ VÀ MẠC Ở BÀN CHÂN
+
+### 4.1. Cơ ở mu chân
+
+Chỉ có một cơ nhỏ ở mu chân, **cơ duỗi các ngón chân ngắn** (*extensor digitorum brevis*), và cơ này tương đối ít quan trọng.
+- *Nguyên uỷ:* mặt trên và ngoài của phần trước xương gót, ở phía trước - trong mắt cá ngoài.
+- *Bám tận:* cơ chia thành bốn bó đến bám vào nền đốt gần ngón cái và vào gân đi vào các ngón chân II, III và IV của cơ duỗi các ngón chân dài. Bó đi vào ngón chân cái được gọi là *cơ duỗi ngón cái ngắn* (*extensor hallucis brevis*).
+- *Động tác:* hỗ trợ cơ duỗi ngón cái dài và cơ duỗi các ngón chân dài trong việc duỗi các ngón chân I - IV.
+
+### 4.2. Các cơ ở gan chân (Bảng 6)
+
+Có bốn lớp cơ ở gan chân. Các cơ này đã được biệt hoá để giúp giữ vững các vòm gan chân và làm cho con người đứng vững trên mặt đất hơn là để thực hiện các chức năng tinh tế như các cơ ở bàn tay:
+
+- **Lớp cơ nông (H.7, A)** (lớp thứ nhất) gồm ba cơ, tất cả đều đi từ phần sau của xương gót tới các ngón chân. Tính từ trong ra ngoài, ba cơ của lớp nông là: *cơ giạng ngón cái*, *cơ gấp các ngón chân ngắn* và *cơ giạng ngón út*. Cả ba cơ này hợp thành một nhóm đóng vai trò giữ vững các vòm gan chân và duy trì độ lõm của gan chân.
+- **Lớp cơ giữa (H.7, B)** (lớp thứ hai) gồm hai cơ nội tại của gan chân là *cơ vuông gan chân* và *các cơ giun*. Lớp này còn có gân của cơ gấp các ngón chân dài và cơ gấp ngón cái dài từ cẳng chân đi xuống. Gân cơ gấp các ngón chân dài bắt chéo mặt nông của gân cơ gấp ngón cái dài và là chỗ bám các cơ nội tại của gan chân.
+- **Lớp cơ sâu (H.8, A)** (lớp thứ ba) bao gồm các cơ ngắn của ngón cái và ngón út nằm ở nửa trước gan chân: *cơ gấp ngón cái ngắn*, *cơ khép ngón cái*, *cơ gấp ngón út ngắn*.
+- **Lớp cơ gian cốt (H.8, B)** (lớp thứ tư) gồm *ba cơ gian cốt gan chân* và *bốn cơ gian cốt mu chân*. Chúng chiếm những khoảng nằm giữa các xương đốt bàn chân.
+
+![Hình 7: Các cơ vùng gan chân (A. Lớp thứ nhất - B. Lớp thứ hai)](figures/hinh_p154_7.png)
+*Hình 7: Các cơ vùng gan chân (A. Lớp thứ nhất; B. Lớp thứ hai)*
+
+![Hình 8: Các cơ vùng gan chân (A. Lớp thứ ba - B. Lớp thứ tư)](figures/hinh_p154_8.png)
+*Hình 8: Các cơ vùng gan chân (A. Lớp thứ ba; B. Lớp thứ tư)*
+
+**Về chi phối thần kinh:** cơ gan chân, cơ giạng ngón cái, cơ gấp ngắn ngón cái và cơ giun I do thần kinh gan chân trong chi phối, tất cả các cơ còn lại do thần kinh gan chân ngoài chi phối.
+
+### Bảng 6. Các cơ vùng gan chân
+
+| Cơ | Nguyên uỷ | Bám tận | Động tác |
+| :--- | :--- | :--- | :--- |
+| **Lớp nông** | | | |
+| *Cơ giạng ngón cái* (abductor hallucis) | Mỏm trong của củ xương gót | Bờ trong nền đốt gần ngón cái | Giạng và gấp ngón cái |
+| *Cơ gấp các ngón chân ngắn* (flexor digitorum brevis) | Mỏm trong của củ xương gót, cân gan chân và các vách gian cơ | Bốn gân tới bám vào hai bờ bên của đốt giữa bốn ngón chân ngoài | Gấp bốn ngón chân ngoài |
+| *Cơ giạng ngón út* (abductor digiti minimi) | Các mỏm trong và ngoài của củ xương gót, cân gan chân và vách gian cơ ngoài | Mặt ngoài của nền đốt gần ngón út | Giạng và gấp ngón út |
+| **Lớp giữa** | | | |
+| *Cơ vuông gan chân* (quadratus plantae) | Mặt trong xương gót và bờ ngoài của mặt gan chân xương gót | Bờ sau ngoài của gân cơ gấp các ngón chân dài | Chỉnh lại hướng tác dụng của cơ gấp các ngón chân dài và góp phần giữ các vòm gan chân |
+| *Các cơ giun (4)* (lumbricals) | Các gân của cơ gấp các ngón chân dài | Mặt trong của nền đốt gần bốn ngón chân ngoài và các gân của cơ duỗi các ngón chân dài | Gấp đốt gần, duỗi các đốt giữa và xa của bốn ngón chân ngoài |
+| **Lớp sâu** | | | |
+| *Cơ gấp ngón cái ngắn* (flexor hallucis brevis) | Xương hộp và xương chêm ngoài, gân cơ chày sau | Cả hai bờ bên của nền đốt gần ngón cái | Gấp đốt gần ngón cái |
+| *Cơ khép ngón cái* (adductor hallucis)<br>Có hai đầu chéo và ngang | - *Đầu chéo:* xương hộp, xương chêm ngoài và các xương đốt bàn II, III<br>- *Đầu ngang:* khớp đốt bàn - đốt ngón III, IV và V | Nền đốt gần ngón I | Khép ngón I |
+| *Cơ gấp ngón út ngắn* (flexor digiti minimi brevis) | Xương hộp, nền xương đốt bàn V | Nền đốt gần ngón V | Gấp đốt gần ngón V |
+| *Cơ đối chiếu ngón út* (opponens digiti minimi) | Giống cơ gấp ngón út ngắn | Bờ ngoài xương đốt bàn chân V | Khép ngón út |
+| **Lớp gian cốt** | | | |
+| *Các cơ gian cốt mu chân (4 cơ)* (dorsal interossei) | Hai mặt đối nhau của các xương đốt bàn liền kề nhau | - *Cơ gian cốt mu chân I:* mặt trong xương đốt ngón gần ngón I<br>- *Các cơ gian cốt mu chân II, III, IV:* mặt ngoài các xương đốt ngón gần các ngón tương ứng | Giạng ngón chân |
+| *Các cơ gian cốt gan chân (3 cơ)* (plantar interossei) | Mặt trong các xương đốt bàn III, IV, V | Mặt trong nền đốt gần các ngón II, IV, V | Khép các ngón II, IV, V |
+
+### 4.3. Mạc gan chân
+
+Mạc (mạc sâu) của gan chân dày lên tạo nên **cân gan chân** (*plantar aponeurosis*). Cân gan chân có hình tam giác và chiếm vùng trung tâm của gan chân. Phần mạc phủ các cơ giạng của ngón cái và ngón thứ hai thì vẫn mỏng. Đỉnh của cân gan chân bám vào củ gót. Nền của cân gan chân chia ra ở ngang gốc các ngón chân thành 5 trẽ, mỗi trẽ lại tách đôi để bao quanh các gân gấp và cuối cùng hoà lẫn với bao sợi gân gấp. Từ các bờ trong và ngoài của cân gan chân, nơi nó liên tiếp với mạc phủ các cơ giạng ngón cái và ngón út, có các vách sợi chạy lên vào gan chân và tham gia vào sự hình thành các ngăn mạc của gan chân.

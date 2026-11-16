@@ -6,584 +6,210 @@
 
 ---
 
-Bai 12 
-TAI 
-Tai la co quan nh?n cam vj thinh giac va thang bilng. Ba phkn cua tai la tai ngoai, 
-tai giua va tai trong (H.1). 
-Tai ngoai 
-Tai gifra 
-Cuas6 
-bfui d\lC 
-Tai trong 
-Cac 6ng ban 
-khuyen xtrang 
-ThXn kinh m?t (Vll) 
-I 
-TYXn kinh tiZn dinh
--oc tai (VIII) 
-""'[-Ong tai trong 
-PhXn da cua 
-xuang thai duang 
-Ong tai ngoai 
-fl'l\-]^_;`:;;1!'41abL Oc tai 
-Sl,ln 6ng 
-tai ngoai 
-Mang nhi 
+## Bài 12: TAI
 
-![Hinh 1. Cac phn cua tai [1]](giaiphau_media/hinh_p479_1.png)
+Tai là cơ quan nhận cảm về thính giác và thăng bằng. Ba phần của tai là tai ngoài, tai giữa và tai trong (H.1).
 
-*Hinh 1. Cac phn cua tai [1]*
-
-1. TAI NGOAI (external ear)
-Tai ngoai g6m Joa tai va 6ng tai ngoai. Loa tai tu m?t ben cua dku nh6 len dl thu 
-nh?n song am, con 6ng tai ngoai tu loa tai di vao trong dl dmn truyjn cac rung d('mg am 
-thanh t&i mang nhT. 
-1.1. Loa tai (auricle) (H.2) 
-Loa tai trong nhu m(>t cai VO so v&i hai ITI?t ngoai va trong. M?t ngoai cua Joa tai 
-hoi hu&ng ra tru&c va c6 nhiju ch6 l6i va ch6 lorn. Ga cong ch<;1y & chu vi Joa tai la go·
-/win (helix). Mc)t ga khac, duqc g9i la ga d6i luan (antihelix), ch<;1y song song va 6 
-
-
+![Hình 1. Các phần của tai [1]](giaiphau_media/hinh_p479_1.png)
+*Hình 1. Các phần của tai [1]*
 
 <!-- Hết trang 479 -->
 
+## 1. TAI NGOÀI (external ear)
 
-tnr&e ph§n sau eua ga luan. Ga d6i Juan ehia ra & tren thanh hai tr), bao quanh m9t eh6 
-lorn g9i la h6 tam giac (triangular fossa). Ch6 lorn eong nim gifra ga luan va ga d6i 
-Juan la h6 thuyJn (seapha). Ga d6i Juan vay quanh m9t eh6 lorn sau va r(>ng g9i la xoan 
-loa tai (eoneha). Xoan loa tai duc;re d§u tru&e, hay trl!, eua ga luan ehia khong hoan toan 
-thanh hai vung: vung tren la ham xoan nim ngang muc tam giac tren 6ng tai ngoai cua 
-xuang thai duang, vung du&i la 6 xoan. a tru&c 6 xoan c6 m9t V?t nh6 nho ra sau g9i la 
-binh tai (tragus); binh tai che khu¤t m(>t ph§n 16 6ng tai ngoai. 6 d6i di¥n v&i binh tai va 
-duc;rc ngan each v&i binh tai bing khuyit gian binh tai (intertragic notch) la m(>t cu nh6 
-g9i la d6i binh tai (antitragus). Ben du&i d6i binh tai la dai tai (lobule of auricle). Dai 
-tai m¦m vi duc;rc du t.;io bing mo XO' - ma, khong gi6ng nhu ph:ln con i?i eua loa tai c6 
-m§t de) chilc nha duc;rc ch6ng do bing s1,111 trun. M?t trong cua loa tai c6 nhfrng ch6 nho 
-Jen tuang i'.rng v&i nhfrng ch6 lorn tren lTI?t ngoai. 
-Cac tr/, go c16i luiin 
-Ga c16i luiin 
-Xoan loa tai 
+Tai ngoài gồm loa tai và ống tai ngoài. Loa tai từ mặt bên của đầu nhô lên để thu nhận sóng âm, còn ống tai ngoài từ loa tai đi vào trong để dẫn truyền các rung động âm thanh tới màng nhĩ.
 
-![Hinh 2. Loa tai [12]](giaiphau_media/hinh_p480_2.png)
+### 1.1. Loa tai (auricle) (H.2)
 
-*Hinh 2. Loa tai [12]*
+Loa tai trông như một cái vỏ sò với hai mặt ngoài và trong. Mặt ngoài của loa tai hơi hướng ra trước và có nhiều chỗ lồi và chỗ lõm. Gờ cong chạy ở chu vi loa tai là gờ luân (*helix*). Một gờ khác, được gọi là gờ đối luân (*antihelix*), chạy song song và ở trước phần sau của gờ luân. Gờ đối luân chia ra ở trên thành hai trụ bao quanh một chỗ lõm gọi là hố tam giác (*triangular fossa*). Chỗ lõm cong nằm giữa gờ luân và gờ đối luân là hố thuyền (*scapha*). Gờ đối luân vây quanh một chỗ lõm sâu và rộng gọi là xoắn loa tai (*concha*). Xoắn loa tai được đầu trước, hay trụ, của gờ luân chia không hoàn toàn thành hai vùng: vùng trên là hõm xoắn nằm ngang mức tam giác trên ống tai ngoài của xương thái dương, vùng dưới là ổ xoắn. Ở trước ổ xoắn có một vạt nhỏ nhô ra sau gọi là bình tai (*tragus*); bình tai che khuất một phần lỗ ống tai ngoài. Ở đối diện với bình tai và được ngăn cách với bình tai bằng khuyết gian bình tai (*intertragic notch*) là một củ nhỏ gọi là đối bình tai (*antitragus*). Bên dưới đối bình tai là dái tai (*lobule of auricle*). Dái tai mềm vì được cấu tạo bằng mô xơ - mỡ, không giống như phần còn lại của loa tai có mật độ chắc nhờ được chống đỡ bằng sụn chun. Mặt trong của loa tai có những chỗ nhô lên tương ứng với những chỗ lõm trên mặt ngoài.
 
-H6 tam giac 
-Hom xoan 
-Tr., Cll3 go luiin 
-L6 6ng tai ngoai 
-v du t?O, Joa tai la m(>t s1,m XO' - trun m6ng duc;rc che phu b&i da va duc;rc n6i v&i 
-nhfr¨g ph§n xung quanh b&i cac day ching va cac ca. S1,1n cua loa tai lien ti€p v&i svn 
-cua 6ng tai ngoai. 
-Loa tai duc;rc dp mau b&i d(>ng m?ch thai duang nong va d9ng m?ch (Joa) tai sau 
-eua d9ng m.;ieh eanh ngoai; duc;rc cam giac b&i nhanh tai thai duang cua thfrn kinh ham 
-du&i, nhanh loa tai cua thfrn kinh (loa) tai l&n va c6 th© ca nhanh ru thfrn kinh X. 
-1.2. Ong tai ngoai (external acoustic meatus) (H.l) 
-Ong tai ngoai di ru xoan loa tai t&i mang nhT, dai khoang 2,5 cm. N6 duc;rc du t?O 
-bing s1,1n & 1/3 ngoai va bing xuang & 2/3 trong. N6 di theo m<)t duang cong hinh ehfr 
-S: Jue dfru hu&ng vao trong, ra tru6c va hai !en tren, ti€p d6 cong v¦ phia sau - trong va 
-len tren, cu6i cung l?i eong v¦ phia tru6c-trong va xu6ng du6i. Ong tai ngoai c6 hai eh6 
-hªp, m(>t & gfrn d§u trong cua ph§n svn, m(>t & phftn xuang, ch6 each day xoan tai 
-khoang 2 cm. Vi mang nhT nim ch€ch nen san va thanh tru6c 6ng tai ngoai dai han trfrn 
-va thanh sau cua n6 de) 5 mm. Yi ph§n ngoai 6ng tai ngoai hu6ng ra tru6c, khi d?t dfru 
+![Hình 2. Loa tai [12]](giaiphau_media/hinh_p480_2.png)
+*Hình 2. Loa tai [12]*
 
+Về cấu tạo, loa tai là một sụn xơ - chun mỏng được che phủ bởi da và được nối với những phần xung quanh bởi các dây chằng và các cơ. Sụn của loa tai liên tiếp với sụn của ống tai ngoài.
 
+Loa tai được cấp máu bởi động mạch thái dương nông và động mạch (loa) tai sau của động mạch cảnh ngoài; được cảm giác bởi nhánh tai thái dương của thần kinh hàm dưới, nhánh loa tai của thần kinh (loa) tai lớn và có thể cả nhánh từ thần kinh X.
+
+### 1.2. Ống tai ngoài (external acoustic meatus) (H.1)
+
+Ống tai ngoài đi từ xoắn loa tai tới màng nhĩ, dài khoảng 2,5 cm. Nó được cấu tạo bằng sụn ở 1/3 ngoài và bằng xương ở 2/3 trong. Nó đi theo một đường cong hình chữ S: lúc đầu hướng vào trong, ra trước và hơi lên trên, tiếp đó cong về phía sau - trong và lên trên, cuối cùng lại cong về phía trước-trong và xuống dưới. Ống tai ngoài có hai chỗ hẹp, một ở gần đầu trong của phần sụn, một ở phần xương, chỗ cách đáy xoắn tai khoảng 2 cm. Vì màng nhĩ nằm chếch nên sàn và thành trước ống tai ngoài dài hơn trần và thành sau của nó độ 5 mm. Vì phần ngoài ống tai ngoài hướng ra trước, khi đặt đầu
 
 <!-- Hết trang 480 -->
 
+ống nghe vào tai cần để các đầu ống nghe hướng ra trước. Để dễ đưa ống soi tai vào ống tai ngoài, cần kéo loa tai ra sau và lên trên. Ống tai ngoài của trẻ em tương đối ngắn và hầu như hoàn toàn cấu tạo bằng sụn nên màng nhĩ dễ bị tổn thương. Một vật lạ được đưa vào ống tai ngoài thường bị kẹt lại ở chỗ nối giữa phần sụn và phần xương.
 
-6ng nghe vao tai dn d€ cac dfiu 6ng nghe hu6ng ra tru&c. 0€ d€ dua 6ng soi tai vao 6ng 
-tai ngoai, dn keo loa tai ra sau va len tren. Ong tai ngoai cua tre em tuang d6i ng¾n va 
-hfiu nhu hoan toan du t?O bing svn nen mang nhT d€ bj t6n thuoog. M()t v¿t l? dugc 
-dua vao 6ng tai ngoai thm'mg bi kvt l?i a ch6 n6i gifra phfin svn va phfin xuang. 
-Mom 16i du XtrO'llg ham du&i nim tru&c va dugc ngan each v&i ph1n Sl,lll cua 6ng 
-tai ngoai bai m()t phfin cua tuy€n mang tai. Hf> s9 gifra nim tren phlin xuang cua 6ng tai 
-ngoai va cac ti€u xoang chum thi nim sau va dugc ngan each v&i 6ng tai ngoai bing 
-m()t manh xuang mong. Phfin sau nhÀt cua 6ng tai nim du&i ngach thugng nhT va tru&c 
-- du&i hang chum; manh xuoog ngan each n6 v&i hang chum chi day 1-2 mm. Don danh
-m:;inh vao dm c6 th€ thuc mom 16i du vao 6ng tai ngoai m?nh t&i muc lam gay xuang.
-2. TAI GIU'A (middle ear) VA HOM NHI (tympanic cavity) (Cac H.1. 3. 4, 5 va 6)
-Tai gifra la h? th6ng cac khoang r6ng chfra khi nim gifra tai ngoai va tai trong. 
-Ph1n chinh ci'.1a tai gifra la horn nhT, m()t khoang nim gifra voi tai a tru&c va hang chum 
-a sau. Hom nhT thuong dugc hi€u nhu la tu· d6ng nghTa v&i tai gifra. 
-Hom nhT (H. l) la m()t khoang kh6ng d€u dvt theo lm&ng trong - ngoai nim trong 
-phftn da xuoog thai duang. N6 chua m()t chu6i ba xuoog nho di d()ng dugc n6i cac 
-thanh ngoai va trong cua horn nhT d€ trny€n cac rnng d()ng cua mang nhT ngang qua horn 
-nhT t&i tai trong; cac xuang nay ti€p kh&p v&i nhau bilng cac kh&p ho?t djch va dugc 
-v¿n d()ng bai cac ca. Hom nhT c6 hai ph§n: horn nhT th1Jc SIJ nim d6i di?n v&i mang nhT 
-va ngach thiwng nhi (epitympanic recess) nim cao han mang nhT. Ngach thugng nhT 
-chua nfra tren cua xuang bua va h§u h€t xuang de. Duong kinh thilng dfrng va duang 
-kinh tru&c - sau cua horn nhT d€u vao khoang 15 mm; duong kinh ngang vao khoang 
-6 mm a tren va 4 mm 6 du&i nhung & ngang r6n mang nhT chi la 2 mm. Hom nhT dugc 
-gi6-i h?n & ngoai b&i mang nhT va 6 trong b&i thanh ngoai tai trong. N6 thong 6 sau v&i 
-hang chum va cac ti€u xoang chum, & trn&c v&i voi tai. 
-2.1. Cac thanh cua horn nhi va cac du true co lien quan 
-Tr§n horn nhi hay thanh trAn (tegmental wall) 
-Tnln horn nhT la m()t manh mong cua xuang dÁc ngan each horn nhT v&i khoang SQ 
-va chi€m m9t vung dang k€ cua mÁt tru&c ph§n da XUO'llg thai duang. Tr§n horn nhT 
-cung lien ti€p & phia sau v&i trfin hang chum va 6 phia trn&c v&i trftn cua 6ng ca cang 
-mang nhT. Duong kh6-p da - trai chua c6t hoa 6 tre nho c6 th€ cho phep SIJ lan truy€n cua 
-nhi€m trung ru horn nhT vao rnang nao. 6 nguai 16n, nhung tTnh tn?ch ru horn nhT di qua 
-khe nay t&i cac xoang da tren va da-trai va c6 th€ cung Ian truy€n nhi€rn trimg t&i cac du 
-true nay. 
-Duong gay dQc a h6 SQ gifra h§u nhu lu6n di qua tr§n born nhT, gay di l?ch chu6i 
-xuang xuang tai con, rach mang nhT, bay vo tr§n 6ng tai ngoai. Nhfrng chÀn thuang nhu 
-v¿y gay chay mau tu· tai, va chay ca djch nao tuy n€u c6 rach mang nao cung. 
+Mỏm lồi cầu xương hàm dưới nằm trước và được ngăn cách với phần sụn của ống tai ngoài bởi một phần của tuyến mang tai. Hố sọ giữa nằm trên phần xương của ống tai ngoài và các tiểu xoang chũm thì nằm sau và được ngăn cách với ống tai ngoài bằng một mảnh xương mỏng. Phần sâu nhất của ống tai nằm dưới ngách thượng nhĩ và trước - dưới hang chũm; mảnh xương ngăn cách nó với hang chũm chỉ dày 1-2 mm. Đòn đánh mạnh vào cằm có thể thúc mỏm lồi cầu vào ống tai ngoài mạnh tới mức làm gãy xương.
 
+## 2. TAI GIỮA (middle ear) VÀ HÒM NHĨ (tympanic cavity) (Các H.1, 3, 4, 5 và 6)
 
+Tai giữa là hệ thống các khoang rỗng chứa khí nằm giữa tai ngoài và tai trong. Phần chính của tai giữa là hòm nhĩ, một khoang nằm giữa vòi tai ở trước và hang chũm ở sau. Hòm nhĩ thường được hiểu như là từ đồng nghĩa với tai giữa.
+
+Hòm nhĩ (H.1) là một khoang không đều dẹt theo hướng trong - ngoài nằm trong phần đá xương thái dương. Nó chứa một chuỗi ba xương nhỏ di động được nối các thành ngoài và trong của hòm nhĩ để truyền các rung động của màng nhĩ ngang qua hòm nhĩ tới tai trong; các xương này tiếp khớp với nhau bằng các khớp hoạt dịch và được vận động bởi các cơ. Hòm nhĩ có hai phần: hòm nhĩ thực sự nằm đối diện với màng nhĩ và *ngách thượng nhĩ* (*epitympanic recess*) nằm cao hơn màng nhĩ. Ngách thượng nhĩ chứa nửa trên của xương búa và hầu hết xương đe. Đường kính thẳng đứng và đường kính trước - sau của hòm nhĩ đều vào khoảng 15 mm; đường kính ngang vào khoảng 6 mm ở trên và 4 mm ở dưới nhưng ở ngang rốn màng nhĩ chỉ là 2 mm. Hòm nhĩ được giới hạn ở ngoài bởi màng nhĩ và ở trong bởi thành ngoài tai trong. Nó thông ở sau với hang chũm và các tiểu xoang chũm, ở trước với vòi tai.
+
+### 2.1. Các thành của hòm nhĩ và các cấu trúc có liên quan
+
+#### Trần hòm nhĩ hay thành trần (tegmental wall)
+
+Trần hòm nhĩ là một mảnh mỏng của xương đặc ngăn cách hòm nhĩ với khoang sọ và chiếm một vùng đáng kể của mặt trước phần đá xương thái dương. Trần hòm nhĩ cũng liên tiếp ở phía sau với trần hang chũm và ở phía trước với trần của ống cơ căng màng nhĩ. Đường khớp đá - trai chưa cốt hoá ở trẻ nhỏ có thể cho phép sự lan truyền của nhiễm trùng từ hòm nhĩ vào màng não. Ở người lớn, những tĩnh mạch từ hòm nhĩ đi qua khe này tới các xoang đá trên và đá-trai và có thể cùng lan truyền nhiễm trùng tới các cấu trúc này.
+
+Đường gãy dọc ở hố sọ giữa hầu như luôn đi qua trần hòm nhĩ, gây di lệch chuỗi xương xương tai con, rách màng nhĩ, hay vỡ trần ống tai ngoài. Những chấn thương như vậy gây chảy máu từ tai, và chảy cả dịch não tủy nếu có rách màng não cứng.
 
 <!-- Hết trang 481 -->
 
+#### Sàn hòm nhĩ hay thành tĩnh mạch cảnh (jugular wall)
 
-San horn nhi hay thanh tinh rnch c:inh Uugular wall) 
-San la m9t manh xuong hvP, mong va 16i ngan each horn nhI v&i hanh tren tinh 
-mch canh trong; xuong co th mong hO?C khuyt va luc do tinh mch chi duqc ngan 
-each v&i horn nhI bing niem mc va mo xa. 6 gfin thanh trong, tren san co m9t 16 nh6 
-cho nhanh nhI cua thfin kinh luai - hfiu di qua. Doi khi san day va co th chua m9t s6 
-tiu xoang chum phl,l. 
-Thanh ngoai horn nhi hay thanh mang (membranous wall) (cac H.3 va 4) 
-Thanh ngoai ch11 ySu do mang nhI to nen nhung m(>t phfin cung do vong xuong 
-ma mang nhI giln vao. Vong xuong bi khuySt (J tren va (J gfin vung khuySt nay co 16 cua 
-cac tiu quan sau va tnr&c cho thung nhI di qua. 
-Chom xucmg bua 
-Ngach tlmqng nhi 
-Mom tnrac xuang bua 
-Th§n kinh thlI11g nhi 
-Ca cang mang nhI 
-Can xucmg bua_.,.,,._:.oi 
-Mang nhl (ph§n cang) I
-V oi tai (Eustachi) 
-D(mg m(lch canh trong 
-Day chRng tren cua xucmg bua 
-Day chRng tren cua xuang de 
-Tf\l ngSn xucmg de 
-NTp bua sau 
-..-..-
-Day chUg sau cua xucmg de 
-Tf\l dai xucmg de 
-Th§n ki nh thl!l1g nh T 
+Sàn là một mảnh xương hẹp, mỏng và lồi ngăn cách hòm nhĩ với hành trên tĩnh mạch cảnh trong; xương có thể mỏng hoặc khuyết và lúc đó tĩnh mạch chỉ được ngăn cách với hòm nhĩ bằng niêm mạc và mô xơ. Ở gần thành trong, trên sàn có một lỗ nhỏ cho nhánh nhĩ của thần kinh lưỡi - hầu đi qua. Đôi khi sàn dày và có thể chứa một số tiểu xoang chũm phụ.
 
-![Hinh 3. Thanh ngoai horn nhT, nhln tLI' trong [12]](giaiphau_media/hinh_p482_3.png)
+#### Thành ngoài hòm nhĩ hay thành màng (membranous wall) (các H.3 và 4)
 
-*Hinh 3. Thanh ngoai horn nhT, nhln tLI' trong [12]*
+Thành ngoài chủ yếu do màng nhĩ tạo nên nhưng một phần cũng do vòng xương mà màng nhĩ gắn vào. Vòng xương bị khuyết ở trên và ở gần vùng khuyết này có lỗ của các tiểu quản sau và trước cho thừng nhĩ đi qua.
 
-Mang nhi (tympanic membrane). Mang nhI ngan each horn nhI v&i 6ng tai 
-ngoai. Day la m9t mang m6ng va ban trong su6t, gfin co hinh oval, m?c du a tren hai 
-r9ng hem a du&i. Mang nhI nim chSch xu6ng du&i va vao trong va to m9t goc 
-khoang 55° v&i san 6ng tai ngoai. Duong kinh dai nhfit (tnr&c - du&i) tu 9-10 mm va 
-ngiln nhfit tu 8-9 mm. Hfiu hSt chu vi cua no la m9t vong XO' - Sl,ln day giln vao ranh 
-nh'i a dfiu trong cua 6ng tai ngoai. Ranh nhI bi khuySt a tren. Ti cac diu tnr&c va sau 
-cua khuyt ranh nhI co cac ndp bua trubc va sau di t&i mom ngoai xuong bua. Cac 
-nSp bua chia mang nhI thanh hai phfin. Phfin tren nho, co hinh tam giac va mong g9i la 
-phdn chung (pars flaccida) Phfin con li 16n hon nhiu va day han a du&i la phdn cang 
-(pars tensa). Can cua xuang bua duqc giln ch?t v&i m?t trong cua mang nhI. Dfiu cua 
-can xuang bua nim a ch6 16i nhfit tren m?t trong cua mang nhI, nai duqc g9i la n5n 
-mang nhi (umbo of tympanic membrane). Mang nhI tren nguai s6ng co mau xam ng9c 
-trai sang bong. 0 tren r6n mang nhI ta nhin thfiy bong cua can xuang bua va sau bong 
+![Hình 3. Thành ngoài hòm nhĩ, nhìn từ trong [12]](giaiphau_media/hinh_p482_3.png)
+*Hình 3. Thành ngoài hòm nhĩ, nhìn từ trong [12]*
 
-
+*Màng nhĩ* (*tympanic membrane*). Màng nhĩ ngăn cách hòm nhĩ với ống tai ngoài. Đây là một màng mỏng và bán trong suốt, gần có hình oval, mặc dù ở trên hơi rộng hơn ở dưới. Màng nhĩ nằm chếch xuống dưới và vào trong và tạo một góc khoảng 55° với sàn ống tai ngoài. Đường kính dài nhất (trước - dưới) từ 9-10 mm và ngắn nhất từ 8-9 mm. Hầu hết chu vi của nó là một vòng xơ - sụn dày gắn vào *rãnh nhĩ* ở đầu trong của ống tai ngoài. Rãnh nhĩ bị khuyết ở trên. Tại các đầu trước và sau của khuyết rãnh nhĩ có các *nếp búa trước* và *sau* đi tới mỏm ngoài xương búa. Các nếp búa chia màng nhĩ thành hai phần. Phần trên nhỏ, có hình tam giác và mỏng gọi là *phần chùng* (*pars flaccida*). Phần còn lại lớn hơn nhiều và dày hơn ở dưới là *phần căng* (*pars tensa*). Cán của xương búa được gắn chặt với mặt trong của màng nhĩ. Đầu của cán xương búa nằm ở chỗ lồi nhất trên mặt trong của màng nhĩ, nơi được gọi là *rốn màng nhĩ* (*umbo of tympanic membrane*). Màng nhĩ trên người sống có màu xám ngọc trai sáng bóng. Ở trên rốn màng nhĩ ta nhìn thấy bóng của cán xương búa và sau bóng
 
 <!-- Hết trang 482 -->
 
+cán xương búa là trụ dài xương đe. Từ rốn màng nhĩ có một *nón sáng* (*cone of light*) tỏa về phía trước dưới.
 
-can xuang bua la tr\l dai xuang de. Tu r6n mang nhI c6 m(>t n6n sang ( cone of light) 
-t6a vy phia tru&c du&i. 
-N$p bua sau 
-Ph§n chung Morn ngoai xuang bua 
-Can xuang bua 
-R6n mangnhi 
-Ph§n ding 
+![Hình 4. Hình soi màng nhĩ [12]](giaiphau_media/hinh_p483_4.png)
+*Hình 4. Hình soi màng nhĩ [12]*
 
-![Hinh 4. Hinh soi mang nhT [12]](giaiphau_media/hinh_p483_4.png)
+Về mô học, màng nhĩ được cấu tạo bởi ba tầng: một tầng thượng bì ở ngoài, một tầng sợi trung gian và một tầng niêm mạc ở trong. Tầng thượng bì liên tiếp với da mỏng của ống tai ngoài. Tầng niêm mạc là một phần của niêm mạc hòm nhĩ. Ở phần chùng, tầng sợi được thay thế bằng mô liên kết lỏng lẻo.
 
-*Hinh 4. Hinh soi mang nhT [12]*
+Các động mạch của màng nhĩ đến từ: nhánh loa tai sâu của động mạch hàm trên (tới lớp thượng bì bên ngoài) và nhánh trâm - chũm của động mạch chẩm hoặc tai sau và nhánh nhĩ của động mạch hàm trên tới lớp niêm mạc bên trong.
 
-v mo hQC, mang nhI duqc du tzo bai ba t§.ng: m(>t t§.ng thuqng bi()' ngoai, m(>t 
-t§.ng sqi trung gian va m()t t§.ng niem rnzc a trong. T§.ng thuQ'Ilg bi lien tiSp v&i da m6ng 
-cua 6ng tai ngoai. T§.ng niern mzc la rn(>t ph§.n cua niem mzc horn nhi d ph§.n chimg, 
-t§.ng SQ'i duqc thay th€ bing mo lien kSt long leo. 
-Cac d()ng mzch cua mang nhI dSn tu: nhanh loa tai sau cua d()ng mzch ham tren 
-(t&i l&p thuqng bi ben ngoai) va nhanh tram - chum cua d()ng mzch chftm ho{c tai sau 
-va nhanh nhI cua d()ng mzch ham tren t&i l&p niem mzc ben trong. 
-Cac finh mzch cua mang nhI: cac t'inh mzch a m{t nong d|n t&i finh mzch canh 
-ngoai; cac finh mzch 6 m{t sau d|n m()t ph§.n t&i xoang ngang va cac finh mzch mang 
-cung va m9t ph§.n t&i dam r6i tinh mzch voi tai. 
-Cac th§.n kinh cua mang nhI dSn tu: nhanh tai thai duang cua th§.n kinh ham dum, 
-nhanh loa tai cua th§.n kinh lang thang, nhanh nhI cua th§.n kinh lu5'i h§.u va c6 th} tu ca
-th§.n kinh m{t. 
-Mang nhI c6 th€ bi thung do v~t 1z tu ngoai ch9c vao, do ap Ive cao (nhu khi l{n 
-sau) hay do nhiSm trung. Khi dn ch9c mang nhI d€ d|n luu, dn ch9c 6 vung sau du&i 
-d} tranh chu6i xuang nh6 va vung nay cung it mzch mau han 6 vung tren. Khi c6 chay 
-mau hay dich nao tuy 6 6ng tai ngoai, c6 th} mang nhI da bi rach va 6ng tai ngoai da bi 
-v5' trong m(>t chn thuang SQ. 
-Thanh trong cua horn nhi hay thanh me do (labyrinthine wall) (H.5) 
-Thanh trong cua horn nhI cung la thanh ngoai cua tai trong. Cac du true n6i b~t 
-cua thanh nay la \1 nho, cua s6 tiyn dinh, cua s6 6c tai va 16i 6ng th§.n kinh m{t. 
+Các tĩnh mạch của màng nhĩ: các tĩnh mạch ở mặt nông dẫn tới tĩnh mạch cảnh ngoài; các tĩnh mạch ở mặt sâu dẫn một phần tới xoang ngang và các tĩnh mạch màng cứng và một phần tới đám rối tĩnh mạch vòi tai.
 
+Các thần kinh của màng nhĩ đến từ: nhánh tai thái dương của thần kinh hàm dưới, nhánh loa tai của thần kinh lang thang, nhánh nhĩ của thần kinh lưỡi hầu và có thể từ cả thần kinh mặt.
 
+Màng nhĩ có thể bị thủng do vật lạ từ ngoài chọc vào, do áp lực cao (như khi lặn sâu) hay do nhiễm trùng. Khi cần chọc màng nhĩ để dẫn lưu, cần chọc ở vùng sau dưới để tránh chuỗi xương nhỏ và vùng này cũng ít mạch máu hơn ở vùng trên. Khi có chảy máu hay dịch não tủy ở ống tai ngoài, có thể màng nhĩ đã bị rách và ống tai ngoài đã bị vỡ trong một chấn thương sọ.
+
+#### Thành trong của hòm nhĩ hay thành mê đạo (labyrinthine wall) (H.5)
+
+Thành trong của hòm nhĩ cũng là thành ngoài của tai trong. Các cấu trúc nổi bật của thành này là ụ nhô, cửa sổ tiền đình, cửa sổ ốc tai và lồi ống thần kinh mặt.
 
 <!-- Hết trang 483 -->
 
+![Hình 5. Thành trong hòm nhĩ, nhìn từ ngoài [12]](giaiphau_media/hinh_p484_5.png)
+*Hình 5. Thành trong hòm nhĩ, nhìn từ ngoài [12]*
 
-Hang nhI ( chum) 
-N`n xuang ban di;ip 
-trong h6 cira s6 
-biiu d\lC (ti`n dinh 
-TI1,1 xuang ban di;ip ___, __ _,_ 
-Go thap-a.lll£bc97'd 
-Th:1n kinh 
-thirng nhI (ci1t) 
-Cac xoang chum 
-Gan ca ban di;ip 
-L6i 6ng ban khuyen ngoai 
-L6i 6ng th.in kinh met 
-G6i th.in kinh met 
-Th.in kinh da 16n 
-fg--,.'---
-Ca cang mang nhI 
-(giin bi ci1t) 
-Yoi tai (Eustachi) 
-Ca cang man khftu cai 
-mi;ich ciinh 
-va dam r6i du&i niem mi;ic 
-Th:1n kinh met (VII) 
-trong 16 triim chum 
-Cac th bao nhI 
-D9ng mi;ich ciinh trong 
+*Ụ nhô* (*promontory*) là một gò lồi tròn có các rãnh nhỏ (rãnh ụ nhô) do các thần kinh của đám rối nhĩ tạo nên. Nó ứng với phần nhô ra ngoài của vòng đáy của ốc tai. Ở sau ụ nhô là *xoang nhĩ* (*sinus tympani*), nơi tương ứng với vị trí của bóng ống bán khuyên sau.
 
-![Hinh 5. Thanh trong horn nhT, nh in tll' ngoai [12]](giaiphau_media/hinh_p484_5.png)
+*Cửa sổ tiền đình* (*fenestra vestibuli/oval window*) là một lỗ mở hình thận nằm ở sau - trên ụ nhô, thông hòm nhĩ với tiền đình; đường kính dài của nó nằm ngang và bờ lồi của nó hướng lên trên. Nền của xương bàn đạp lắp vào cửa sổ này, và chu vi của nền bàn đạp được gắn với bờ của cửa sổ bởi một dây chằng vòng. Nền xương bàn đạp truyền rung động của chuỗi xương nhỏ của tai vào ngoại dịch của tai trong.
 
-*Hinh 5. Thanh trong horn nhT, nh in tll' ngoai [12]*
+*Cửa sổ ốc tai* (*fenestra cochleae/round window*) nằm ở sau - dưới cửa sổ tiền đình và được ngăn cách với cửa sổ tiền đình bởi một phần mở rộng ra sau của ụ nhô. Đây là cửa thông hòm nhĩ với thang nhĩ của ốc tai nhưng được đóng kín bởi *màng nhĩ phụ* (*secondary tympanic membrane*); màng này lồi về phía ốc tai và là nơi kết thúc làn sóng rung động của ngoại dịch.
 
-[j nh6 (promontory) la m(h go l6i tron co cac ranh nh6 (ranh \l nho) do cac th§.n 
-kinh cua dam r6i nhi t?o nen. No ung v&i ph§.n nho ra ngoai cua vong day cua 6c tai. 
-6 sau \1 nho la xoang nhf (sinus tympani), nai tuang t'.rng v&i vi tri cua bong 6ng ban 
-khuyen sau. 
-Cua s6 tiin dinh (fenestra vestibuli/oval window) la m9t 16 ma hinh thxn nilm a
-sau - tren \1 nho, thong horn nhi v&i ti€n dinh; ducmg kinh dai cua no nilm ngang va bo 
-l6i cua no hu&ng Jen tren. N€n cua xuang ban d?p lip vao cua s6 nay, va chu vi cua n€n 
-ban d?p duqc g[n v&i bo cua cfra s6 bai m9t day chilng vong. N€n xuang ban d?p 
-truy€n rung d9ng cua chu6i xuang nh6 cua tai vao ngo?i djch cua tai trong. 
-Cua s6 6c tai (fenestra cochleae/round window) nilm a sau - du&i cfra s6 ti€n dinh 
-va duqc ngan each v&i cua s6 ti€n dinh bm m9t ph§.n ma r9ng ra sau cua \1 nho. Day la 
-cfra thong horn nhi v&i thang nhi cua 6c tai nhung duqc dong kin bai mang nh'l ph4 
-(secondary tympanic membrane); mang nay 16i v€ phia 6c tai va la nai kyt thuc Ian song 
-rung d('mg cua ngo?i djch. 
-L6i 6ng thdn kinh m<;i.t (prominence of facial canal) tuang ung v&i do?n thu hai 
-cua 6ng chua thfin kinh mzt. Ong nay Ch?y qua thanh trong horn nhi tu tru&c ra sau a
-ngay tren cfra s6 ti€n dinh, sau do thi u6n cong xu6ng du&i vao thanh sau cua horn nhi. 
-Thanh sau cua horn nhi hay thanh chum (mastoid wall) va hang chum ( cac H.3 
-va 5) 
-R<)ng a tren han a du&i, cac d1=\c di{m hinh th{ chinh cua thanh nay la duong vao 
-hang chum, 16i (go) thap va h6 de. 
-Du:ong vao hang chum (aditus to mastoid antrum) la m9t 16 r('mg tu ngach thuc;mg 
-nhl ch?y ra sau t&i phfin tren cua hang chum. Tren thanh trong cua ducmg vao hang la 
-m9t ch6 16i tron co ten la l6i 6ng ban khuyen ngoai (prominence of lateral semicircular 
+*Lồi ống thần kinh mặt* (*prominence of facial canal*) tương ứng với đoạn thứ hai của ống chứa thần kinh mặt. Ống này chạy qua thành trong hòm nhĩ từ trước ra sau ở ngay trên cửa sổ tiền đình, sau đó thì uốn cong xuống dưới vào thành sau của hòm nhĩ.
 
+#### Thành sau của hòm nhĩ hay thành chũm (mastoid wall) và hang chũm (các H.3 và 5)
 
+Rộng ở trên hơn ở dưới, các đặc điểm hình thể chính của thành này là đường vào hang chũm, lồi (gò) tháp và hố đe.
+
+*Đường vào hang chũm* (*aditus to mastoid antrum*) là một lỗ rộng từ ngách thượng nhĩ chạy ra sau tới phần trên của hang chũm. Trên thành trong của đường vào hang là một chỗ lồi tròn có tên là *lồi ống bán khuyên ngoài* (*prominence of lateral semicircular*
 
 <!-- Hết trang 484 -->
 
+*canal*). Lồi này nằm ở sau-trên lồi ống thần kinh mặt và do ống bán khuyên ngoài nằm bên dưới tạo nên.
 
-canal). L6i nay nim 6 sau-tren l6i 6ng th§.n kinh m°t va do 6ng ban khuyen ngoai nim 
-ben du6i t?O nen. 
-L6i thap (pyramidal eminence) nim & ngay sau cua s6 ti€n dinh va tru6c ph§.n 
-thilng dung cua 6ng th§.n kinh m°t; khoang r6ng trong 16i nay chua ca ban d?p, gan cua 
-CO" chui ra qua 1rn)t 16 nho (J dinh 16i thap. 
-H6 de (fossa of incus) la m9t ch6 lorn nh6 a sau va du&i ngach thugng nhI. N6 
-chua tf\l ngiin cua xuang de; 1f\l nay duqc c6 djnh vao h6 bai cac sqi day ch±ng. 
-Hang chum (mastoid antrum). La m('>t xoang khi 16n nllm trong ph§.n da xuang 
-thai duang, cac lien quan cua hang chum c6 t§.m quan trQng 16n v€ ngo?i khoa; xoang 
-nay con thuong bi nhi²m khu§n. Ph§.n tren cua thanh tru6c c6 duong vao hang chum, 
-thong ngach thugng nh'i v6i hang chum; phia trong dm:mg vao hang la 6ng ban khuyen 
-ngoai. Phin du6i cua thanh tru6c chua do?n di xu6ng cua 6ng th§.n kinh m°t. Thanh 
-trong cua hang chum lien quan v6i 6ng ban khuyen sau. Hang chum ngan each v6i 
-xoang sigma a phia sau bllng m9t vach xuong; m9t s6 tiSu xoang chum c6 thS nim 
-trong vach xuang nay. Tr§.n xoang chum, v6n lien ti€p v6i tr§.n horn nh'i, nim du6i h6 
-SQ giua va thuy thai duang. Thanh ngoai cua hang chum, duong ti€p c³n ngo?i khoa 
-thong thuong vao hang, OU(JC t?O nen b&i mom sau 6ng tai cua ph§.n trai xuang thai 
-duang. Thanh nay chi day 2 mm luc m6i sinh nhung tang len v6i t6c d9 khoang 1 mm 
-m6i nam dS d?t t6i d9 day cu6i cung khoang 12 - 15 mm. d nguai truang thanh, thanh 
-ngoai cua hang chum tuang ung v6i tam giac tren 6ng tai tren m°t ngoai cua SQ, c6 thS 
-SO' thlly OU(JC qua horn xoan. C?nh tren cua tam giac la mao tren chum, nim ngang muc 
-v6i san cua h6 SQ giua; C?nh tru6c - du6i, hay ba sau - tren cua 6ng tai ngoai, ch?y dQC 
-theo do?n di xu6ng ctia 6ng thin kinh mi'.'tt; va C?nh sau, t?o nen bai m9t duong thilng 
-dung & sau ti€p tuy€n v6i ba sau cua 6ng tai ngoai, nim 6 ngay tru6c xoang sigma. 
-Dung tich xoang chum nguai truang thanh vao khoang 1 ml va duong kinh chung cua 
-n6 vao khoang 10 mm. Khong gi5ng cac xoang khi khac, n6 c6 m°t ngay tu khi sinh va 
-c6 kich thu6c g§.n bllng cua nguai 16n, m°c du n6 nim 6 m9t muc cao han tuang d6i so 
-v6i 6ng tai ngoai cua nguai Ion. 
-Cac tidu xoang chum (mastoid cells). Cac xoang nay bi€n d6i nhi€u v€ s6 lugng, 
-hinh d?ng va kich thu6c. Thuong thi chung ti€p n6i v6i nhau va duqc 16t b±ng m9t niem 
-ill?C lien ti€p v6i niem ill?C cua hang chum va horn nhI. Chung lllp d§.y mom chum, 
-th³m chi t6i dinh mom, va m9t s6 c6 thS chi QU(JC ngan each v6i xoang sigma va h6 SQ 
-sau chi bing m9t manh xuang rllt mong, doi khi khuy€t. M9t s6 c6 thS nllm nong han, 
-ho°c th³m chi & sau xoang sigma va s6 khac c6 thS nim 6 thanh sau cua ph§.n xu6ng 
-6ng th§.n kinh m°t. Doi khi chung phat triSn rllt it vao mom chum. 
-Thanh trmrc hay thanh d(>ng mch canh ( carotid wall) va voi tai ( cac H.3 va 5) 
-Thanh nay h´p do cac thanh ngoai va trong cua horn nhI ti€n l?i g.ln nhau. Ph§.n 
-du6i cua n6 la m9t manh xuang m6ng t?O nen thanh sau cua 6ng d9ng m<;1ch canh, tren 
-d6 c6 cac 16 cho cac th.ln kinh canh nhI va cac nhanh nh'i cua d9ng m?ch canh trong di 
-qua. Ph.ln tren cua thanh tru6c c6 16 cua hai 6ng ch?y song song: 6ng tren la 6ng cO' 
+*Lồi tháp* (*pyramidal eminence*) nằm ở ngay sau cửa sổ tiền đình và trước phần thẳng đứng của ống thần kinh mặt; khoang rỗng trong lồi này chứa cơ bàn đạp, gân của cơ chui ra qua một lỗ nhỏ ở đỉnh lồi tháp.
 
+*Hố đe* (*fossa of incus*) là một chỗ lõm nhỏ ở sau và dưới ngách thượng nhĩ. Nó chứa trụ ngắn của xương đe; trụ này được cố định vào hố bởi các sợi dây chằng.
 
+*Hang chũm* (*mastoid antrum*). Là một xoang khí lớn nằm trong phần đá xương thái dương, các liên quan của hang chũm có tầm quan trọng lớn về ngoại khoa; xoang này còn thường bị nhiễm khuẩn. Phần trên của thành trước có đường vào hang chũm, thông ngách thượng nhĩ với hang chũm; phía trong đường vào hang là ống bán khuyên ngoài. Phần dưới của thành trước chứa đoạn đi xuống của ống thần kinh mặt. Thành trong của hang chũm liên quan với ống bán khuyên sau. Hang chũm ngăn cách với xoang sigma ở phía sau bằng một vách xương; một số tiểu xoang chũm có thể nằm trong vách xương này. Trần xoang chũm, vốn liên tiếp với trần hòm nhĩ, nằm dưới hố sọ giữa và thuỳ thái dương. Thành ngoài của hang chũm, đường tiếp cận ngoại khoa thông thường vào hang, được tạo nên bởi mỏm sau ống tai của phần trai xương thái dương. Thành này chỉ dày 2 mm lúc mới sinh nhưng tăng lên với tốc độ khoảng 1 mm mỗi năm để đạt tới độ dày cuối cùng khoảng 12 - 15 mm. Ở người trưởng thành, thành ngoài của hang chũm tương ứng với tam giác trên ống tai trên mặt ngoài của sọ, có thể sờ thấy được qua hõm xoắn. Cạnh trên của tam giác là mào trên chũm, nằm ngang mức với sàn của hố sọ giữa; cạnh trước - dưới, hay bờ sau - trên của ống tai ngoài, chạy dọc theo đoạn đi xuống của ống thần kinh mặt; và cạnh sau, tạo nên bởi một đường thẳng đứng ở sau tiếp tuyến với bờ sau của ống tai ngoài, nằm ở ngay trước xoang sigma. Dung tích xoang chũm người trưởng thành vào khoảng 1 ml và đường kính chung của nó vào khoảng 10 mm. Không giống các xoang khí khác, nó có mặt ngay từ khi sinh và có kích thước gần bằng của người lớn, mặc dù nó nằm ở một mức cao hơn tương đối so với ống tai ngoài của người lớn.
+
+*Các tiểu xoang chũm* (*mastoid cells*). Các xoang này biến đổi nhiều về số lượng, hình dạng và kích thước. Thường thì chúng tiếp nối với nhau và được lót bằng một niêm mạc liên tiếp với niêm mạc của hang chũm và hòm nhĩ. Chúng lấp đầy mỏm chũm, thậm chí tới đỉnh mỏm, và một số có thể chỉ được ngăn cách với xoang sigma và hố sọ sau chỉ bằng một mảnh xương rất mỏng, đôi khi khuyết. Một số có thể nằm nông hơn, hoặc thậm chí ở sau xoang sigma và số khác có thể nằm ở thành sau của phần xuống ống thần kinh mặt. Đôi khi chúng phát triển rất ít vào mỏm chũm.
+
+#### Thành trước hay thành động mạch cảnh (carotid wall) và vòi tai (các H.3 và 5)
+
+Thành này hẹp do các thành ngoài và trong của hòm nhĩ tiến lại gần nhau. Phần dưới của nó là một mảnh xương mỏng tạo nên thành sau của ống động mạch cảnh, trên đó có các lỗ cho các thần kinh cảnh nhĩ và các nhánh nhĩ của động mạch cảnh trong đi qua. Phần trên của thành trước có lỗ của hai ống chạy song song: ống trên là *ống cơ*
 
 <!-- Hết trang 485 -->
 
+*căng màng nhĩ* và ống dưới là phần xương của vòi tai. Các ống này chạy chếch ra trước, xuống dưới và vào trong để đổ vào góc giữa phần trai và phần đá của xương thái dương; chúng được ngăn cách với nhau bằng một vách xương mỏng. Ống cơ căng màng nhĩ và vách xương chạy về phía sau, trên thành trong hòm nhĩ, rồi tận cùng ở ngay trên cửa sổ tiền đình, nơi mà đầu sau của vách xương cong ra ngoài để tạo nên một ròng rọc có tên là *mỏm hình ốc*; trên mỏm này, gân của cơ căng màng nhĩ cong ra ngoài để tới bám vào phần trên của cán xương búa. Mỏm hình ốc là mốc ngoại khoa để xác định hạch gối thần kinh mặt.
 
-ding mang nhi va 6ng duoi la ph§n xuang cua voi tai. Cac 6ng nay Ch?y chSch ra truoc, 
-xu6ng duoi va vao trong dS d6 vao g6c gifra phfin trai va phfin da cua xuemg thai duang; 
-chung OUQ'C ngan each voi nhau bilng mot vach xuang mong. Ong ca cang mang nhI va 
-vach xuemg ch?y v€ phia sau, tren thanh trong horn nhI, r6i t¹n cung a ngay tren cua s6 
-ti€n dinh, nai ma d§.u sau cua vach xuang cong ra ngoai dS t<;10 nen mot rong r9c c6 ten 
-la mom hinh 6c; tren mom nay, gan cua ca cang mang nhI cong ra ngoai dº toi barn vao 
-ph§.n tren cua can xuang bua. Mom hinh 6c la m6c ngo?i khoa dS xac djnh h<;tch g6i 
-thfin kinh m?t. 
-Voi tai (auditory tube). Voi tai n6i thong horn nhI v&i ty h§.u, cho phep kh6ng khi 
-di tu khoang nay toi khoang kia dS lam can bilng ap Ive kh6ng khi tren ca hai m?t cua 
-mang nhI. N6 dai khoang 36 mm va div€ phia truoc - trong a mot g6c khoang 45 do so 
-voi m?t philng d9c va 30 do so v&i m?t philng nim ngang. N6 duqc t<;to nen mot ph§.n 
-bilng xuang va mot ph§.n bing svn va mo SQ'i. 
-Ph§.n xuemg, dai khoang 12 mm, blit dfiu tu thanh truoc horn nhI, t<;ti !6 nhi, va 
-hyp d§.n dS t¹n cung a ch6 n6i cac ph§.n trai va da cua xuemg thai duemg, nai ph§.n S\lll 
-barn vao; 6ng dong ill?Ch canh nim a trong. 
-Ph§.n svn, dai khoang 24 mm, duqc tc;10 nen b&i m(H manh S\Jll hinh tam giac, ph§.n 
-l&n hem cua manh S\lil nilm (J thanh sau - trong cua voi. Dinh cua ph§.n svn duqc glin voi 
-diu t¹n cung cua phfin xuemg cua voi va n€n cua n6 nilm ngay duoi niem m<;1c cua thanh 
-ben ty hfiu, t<;10 nen go voi a sau 16 h§.u cua voi tai. Phin tren cua svn bi be cong ra ngoai 
-va xu6ng duoi, t?O nen mot manh trong r(}ng va mot manh ngoai hyp. Tren thiSt d6 
-ngang, S\lll tr6ng nhu m(}t cai m6c va khuy€t a phia du&i - ngoai, nai 6ng duqc du t<;10 
-bilng mo sqi. Svn duqc c6 djnh vao n€n s9 trong ranh gifra ph§.n da xuemg thai duemg va 
-canh l&n xuemg bu&m, »n cung a g§.n r¼ cua manh trong mom chan buom. Cac phftn 
-svn va xuang cua voi khong nim tren cung m?t philng, ph§.n xuemg ch<;ty xu6ng theo 
-m(}t d(} d6c hai 16n hem ph§.n S\lll. Duong kinh cua voi Ion nhllt t<;1i !6 hdu, nho nhftt t?i 
-ch6 n6i cua hai ph§.n ( eo) va l<;ti tang d§.n v€ phia horn nhI. Niem m<;tc cua voi lien ti€p 
-v6i niem ffi<;lC cua ty h§.u va horn nhI; n6 OUQ'C 16t bing thu(Jilg mo tf\l c6 long va mong 
-(J ph§.n xuemg nhung day len bai cac tuy€n niem ffi<;lC (J ph§.n S\lll; (J g§.n 16 h§.u c6 m(}t 
-kh6i m6 b?ch huy€t g9i la h<;tnh nhan voi. 
-Voi tai cua tre em tuang d6i hyp va d¼ bj tlic khi niem m<;1c voi bi n€ len do viem. 
-Tlic voi khi€n cho horn nhI tr& nen chan khong do khong khi trong horn nhI bj niem m<;1c 
-hllp ph\l, tu d6 dfin d€n tinh tr<;1ng dich ri vao horn nhI, g9i la viem thanh dich, va mang 
-nhI bi dAy v€ phia horn nhI. Tu viem thanh djch c6 thS dfin toi viem nhi¼m khuAn. 
-2.2. Cac xu·O'ng nho cu.a tai ( auditory ossicles) (H. l )  
-M(}t chu6i cua ba xuang nho di d(}ng, g6m xuang bua, xuang de va xuemg ban 
-d<;tp, truy€n cac song am tu mang nhI qua horn nhI t&i cua s6 ti€n dinh. Xuang bua duqc 
-glin v6i mang nhI va n6n xuemg ban d<;tp OUQ'C glin v&i vanh cua cua s6 ti€n dinh; trong 
-khi d6 xuemg de duqc treo a gifra va ti€p kh6p voi ca hai xuang. 
+*Vòi tai* (*auditory tube*). Vòi tai nối thông hòm nhĩ với tỵ hầu, cho phép không khí đi từ khoang này tới khoang kia để làm cân bằng áp lực không khí trên cả hai mặt của màng nhĩ. Nó dài khoảng 36 mm và đi về phía trước - trong ở một góc khoảng 45 độ so với mặt phẳng dọc và 30 độ so với mặt phẳng nằm ngang. Nó được tạo nên một phần bằng xương và một phần bằng sụn và mô sợi.
 
+Phần xương, dài khoảng 12 mm, bắt đầu từ thành trước hòm nhĩ, tại *lỗ nhĩ*, và hẹp dần để tận cùng ở chỗ nối các phần trai và đá của xương thái dương, nơi phần sụn bám vào; ống động mạch cảnh nằm ở trong.
 
+Phần sụn, dài khoảng 24 mm, được tạo nên bởi một mảnh sụn hình tam giác, phần lớn hơn của mảnh sụn nằm ở thành sau - trong của vòi. Đỉnh của phần sụn được gắn với đầu tận cùng của phần xương của vòi và nền của nó nằm ngay dưới niêm mạc của thành bên tỵ hầu, tạo nên gờ vòi ở sau lỗ hầu của vòi tai. Phần trên của sụn bị bẻ cong ra ngoài và xuống dưới, tạo nên một mảnh trong rộng và một mảnh ngoài hẹp. Trên thiết đồ ngang, sụn trông như một cái móc và khuyết ở phía dưới - ngoài, nơi ống được cấu tạo bằng mô sợi. Sụn được cố định vào nền sọ trong rãnh giữa phần đá xương thái dương và cánh lớn xương bướm, tận cùng ở gần rễ của mảnh trong mỏm chân bướm. Các phần sụn và xương của vòi không nằm trên cùng mặt phẳng, phần xương chạy xuống theo một độ dốc hơi lớn hơn phần sụn. Đường kính của vòi lớn nhất tại *lỗ hầu*, nhỏ nhất tại chỗ nối của hai phần (eo) và lại tăng dần về phía hòm nhĩ. Niêm mạc của vòi liên tiếp với niêm mạc của tỵ hầu và hòm nhĩ; nó được lót bằng thượng mô trụ có lông và mỏng ở phần xương nhưng dày lên bởi các tuyến niêm mạc ở phần sụn; ở gần lỗ hầu có một khối mô bạch huyết gọi là hạnh nhân vòi.
+
+Vòi tai của trẻ em tương đối hẹp và dễ bị tắc khi niêm mạc vòi bị nề lên do viêm. Tắc vòi khiến cho hòm nhĩ trở nên chân không do không khí trong hòm nhĩ bị niêm mạc hấp phụ, từ đó dẫn đến tình trạng dịch rỉ vào hòm nhĩ, gọi là viêm thanh dịch, và màng nhĩ bị đẩy về phía hòm nhĩ. Từ viêm thanh dịch có thể dẫn tới viêm nhiễm khuẩn.
+
+### 2.2. Các xương nhỏ của tai (auditory ossicles) (H.1)
+
+Một chuỗi của ba xương nhỏ di động, gồm xương búa, xương đe và xương bàn đạp, truyền các sóng âm từ màng nhĩ qua hòm nhĩ tới cửa sổ tiền đình. Xương búa được gắn với màng nhĩ và nền xương bàn đạp được gắn với vành của cửa sổ tiền đình; trong khi đó xương đe được treo ở giữa và tiếp khớp với cả hai xương.
 
 <!-- Hết trang 486 -->
 
+*Xương búa* (*malleus*). Có hình dạng giống như một cái búa, xương này dài 8-10 mm và là xương lớn nhất của chuỗi xương; nó có một chỏm, một cổ, một cán và các mỏm trước và ngoài. *Chỏm* là đầu trên phình rộng hình trứng nằm trong ngách thượng nhĩ; nó tiếp khớp ở sau với xương đe. *Cổ* là phần hẹp ở dưới chỏm và dưới cổ là một chỗ phình mà từ đó các mỏm nhô ra.
 
-Xucmg bita (malleus). C6 hinh d?ng gi6ng nhu m()t cai bua, xmmg nay dai 8-10 
-mm va la xuong l6n nh§.t cua chu6i xuong; n6 c6 m()t chom, m()t c6, m()t can va cac 
-mom tnr6c va ngoai. Chom la d§.u tren phinh r()ng hinh tn'.mg nim trong ngach thu()llg 
-nhI; n6 tiSp kh&p & sau v6i xuong de. CJ la ph§.n hp a dum chom va du6i c6 la m()t 
-ch6 phinh ma tu d6 cac mom nho ra. 
-Can xuong bua duqc giln v6i mang nhI. N6 ch?y xu6ng ve phia sau-trong, thu nho 
-d§.n t6i m()t d§.u hJ do. 
-Mom trl,(&c la m()t gai xucmg nho tu ch6 phinh ben du6i c6 nho ra tnr6c va duqc 
-n6i v6i khe da-nhI bing cac sqi day ching. Mom ngoai, m()t mom hinh n6n tu g6c can 
-bua nho ra, hu6ng ra ngoai va duqc giln v6i ph§.n tren cua mang nhI va v6i cac cac d§.u 
-cua ch6 khuySt (J ph§.n tren ranh nhI bing cac nSp bua tnr6c va sau. 
-Xuang de (incus). Xuong nay trong gi6ng nhu m()t rang tien c6i v6i hai r tach xa 
-nhau. N6 c6 m()t than va hai tn,i. Than co m()t mt kh&p hinh yen hu6ng ra tnr6c tiSp 
-kh&p v6i chom xuong bua. Tr1:1- dai ch?y xu6ng gfin nhu th:ing dung, a sau va song song 
-v6i can bua; d§.u du6i cua n6 cong vao trong va t?n cung a mc;,t mom tron, g9i la mom 
-thdu kinh hay mom hgt d(Ju; mt trong cua mom th§.u kinh c6 mit kh&p v6i chom cua 
-xuong ban d?p. Tr'l,I, ngiin, gfin c6 hinh n6n, nho ra sau va duqc cac sqi day ching glin 
-v6i h6 de trong ph§.n sau - du6i cua ngach thu()llg nhI. 
-Xucmg ban dgp (stapes). Xuong nay c6 mc;,t chom, mc;,t c6, hai tn,i tnr6c va sau, va 
-mc;,t n€n. Cham hu6ng ra ngoai va c6 mc;,t mt kh&p nho tiSp kh&p v6i mom th§.u kinh cua 
-xuong de. CJ duqc giln a phia sau v6i gan cua ca ban d?p. Cdc tr'I,(, tu cf> toa ra va lien 
-tiSp v6i n€n hinh bfiu d\lc; nJn duqc glin v6i bo cua cfra s6 ti€n dinh bm m()t vong sqi. 
-Cac xuong nho cua horn nhI tiSp kh&p v6i nhau bing cac kh&p ho?t dich di€n hinh, 
-duqc n6i v6i cac thanh horn nhI bing cac day ching va duqc V?n dc;,ng bng cac CO'. 
-2.3. Cac CO' vn d(>ng cho chufii xuO'Og nho ciia tai (H.5) 
-Ca ding mang nh'i (tensor tympani). Ca nay xu§.t phat tu phin S\ln cua voi tai, ch?y 
-ra sau trong 6ng CO' cang mang nhI va t?n cung bing mc;,t gan; gan nay u6n cong ra ngoai 
-quanh mom hinh 6c va barn vao d§.u tren can xuong bua. Ca cang mang nhI keo mang nhI 
-vao trong d€ lam cang mang nhI va diy xuong ban d?p sat hon vao cfra s6 ti€n dinh. N6 
-duqc V?n d()ng b&i m()t nhanh thin kinh t6i CO' chan bu6m trong cua th§.n kinh ham du6i. 
-Ca ban dgp (stapedius). Ca ban d?p nim trong khoang r6ng cua 16i thap. Gan cua 
-n6 chui qua m()t 16 & dinh 16i thap d€ ch?Y ra tnr6c barn vao mt sau cua c6 xuong ban 
-d?p. Ca ban d?p c6 tac d\lng d6i khang v6i ca cang mang nhI. N6 duqc chi ph6i b&i mc;,t 
-nhanh cua th§.n kinh mt. Lit CO' ban d?p d n dSn hc;,i chung tang thinh. 
-3. TAI TRONG (internal ear)
-Tai trong m6i thvc sv la nai chua cac bQ ph¡n th\1 cam thinh giac va thang bing nen 
-con duqc g9i la CO' quan ti€n dinh - 6c tai. N6 phuc t?p nen duqc g9i la me d?O, bao g6m 
-me d?O xuong va me d?O mang. Me d?O xuong la h th6ng khoang r6ng phuc t?p ben 
+*Cán xương búa* được gắn với màng nhĩ. Nó chạy xuống về phía sau-trong, thu nhỏ dần tới một đầu tự do.
 
+*Mỏm trước* là một gai xương nhỏ từ chỗ phình bên dưới cổ nhô ra trước và được nối với khe đá-nhĩ bằng các sợi dây chằng. *Mỏm ngoài*, một mỏm hình nón từ gốc cán búa nhô ra, hướng ra ngoài và được gắn với phần trên của màng nhĩ và với các các đầu của chỗ khuyết ở phần trên rãnh nhĩ bằng các nếp búa trước và sau.
 
+*Xương đe* (*incus*). Xương này trông giống như một răng tiền cối với hai rễ tách xa nhau. Nó có một thân và hai trụ. *Thân* có một mặt khớp hình yên hướng ra trước tiếp khớp với chỏm xương búa. *Trụ dài* chạy xuống gần như thẳng đứng, ở sau và song song với cán búa; đầu dưới của nó cong vào trong và tận cùng ở một mỏm tròn, gọi là *mỏm thấu kính* hay *mỏm hạt đậu*; mặt trong của mỏm thấu kính có mặt khớp với chỏm của xương bàn đạp. *Trụ ngắn*, gần có hình nón, nhô ra sau và được các sợi dây chằng gắn với hố đe trong phần sau - dưới của ngách thượng nhĩ.
+
+*Xương bàn đạp* (*stapes*). Xương này có một chỏm, một cổ, hai trụ trước và sau, và một nền. *Chỏm* hướng ra ngoài và có một mặt khớp nhỏ tiếp khớp với mỏm thấu kính của xương đe. *Cổ* được gắn ở phía sau với gân của cơ bàn đạp. *Các trụ* từ cổ toả ra và liên tiếp với nền hình bầu dục; *nền* được gắn với bờ của cửa sổ tiền đình bởi một vòng sợi.
+
+Các xương nhỏ của hòm nhĩ tiếp khớp với nhau bằng các khớp hoạt dịch điển hình, được nối với các thành hòm nhĩ bằng các dây chằng và được vận động bằng các cơ.
+
+### 2.3. Các cơ vận động cho chuỗi xương nhỏ của tai (H.5)
+
+*Cơ căng màng nhĩ* (*tensor tympani*). Cơ này xuất phát từ phần sụn của vòi tai, chạy ra sau trong ống cơ căng màng nhĩ và tận cùng bằng một gân; gân này uốn cong ra ngoài quanh mỏm hình ốc và bám vào đầu trên cán xương búa. Cơ căng màng nhĩ kéo màng nhĩ vào trong để làm căng màng nhĩ và đẩy xương bàn đạp sát hơn vào cửa sổ tiền đình. Nó được vận động bởi một nhánh thần kinh tới cơ chân bướm trong của thần kinh hàm dưới.
+
+*Cơ bàn đạp* (*stapedius*). Cơ bàn đạp nằm trong khoang rỗng của lồi tháp. Gân của nó chui qua một lỗ ở đỉnh lồi tháp để chạy ra trước bám vào mặt sau của cổ xương bàn đạp. Cơ bàn đạp có tác dụng đối kháng với cơ căng màng nhĩ. Nó được chi phối bởi một nhánh của thần kinh mặt. Liệt cơ bàn đạp dẫn đến hội chứng tăng thính.
+
+## 3. TAI TRONG (internal ear)
+
+Tai trong mới thực sự là nơi chứa các bộ phận thụ cảm thính giác và thăng bằng nên còn được gọi là cơ quan tiền đình - ốc tai. Nó phức tạp nên được gọi là mê đạo, bao gồm mê đạo xương và mê đạo màng. Mê đạo xương là hệ thống khoang rỗng phức tạp bên
 
 <!-- Hết trang 487 -->
 
+trong phần đá xương thái dương. Mê đạo màng là một hệ thống ống và túi màng nằm trong mê đạo xương. Khoảng nằm giữa mê đạo màng và thành xương chứa ngoại dịch (hay ngoại bạch huyết). Dịch chứa trong mê đạo màng là nội dịch (hay nội bạch huyết).
 
-trong phful da xuang thai duang. Me do mang la m(h M th6ng 6ng va tui mang nm 
-trong me do xuang. Khoang nim gifra me do mang va thanh xuang chua ngoi dich 
-(hay ngoi bch huy€t). Dich chua trong me do mang la rn)i dich (hay n('>i bch huy€t). 
-3.1. Me do XU'O'Ilg (bony labyrinth) (H.6) 
-Me do xuang bao g6m ti€n dinh, cac 6ng ban khuyen va 6c tai. 
-TiJn dinh (vestibule) nim o phia trong horn nhi, phia sau 6c tai va phia tru&c cac 
-6ng ban khuyen. Day la m(>t h6c xuang co sau thanh. Thanh ngoai ngan each v&i horn 
-nhi bng m(>t vach xuang va lien M v&i horn nhi qua cua sf> ti€n dinh. Thanh trong lien 
-quan v&i day 6ng tai trong, co ngach soan ( elliptical recess) cho soan nang tµa vao va 
-ngach cdu (spherical recess) cho du nang t\,ra vao. Thanh sau va thanh tren co nam 16 
-thong v&i cac 6ng ban khuyen. Thanh du&i la manh xuang mong lien ti€p v&i manh 
-xoin 6c cua 6c tai. Ti€n dinh thong o tru&c v6i thang ti€n dinh cua 6c tai. 
-Ong ban khuyen sau 
-Ong ban khuyen tnr6c 
-T11,1 chung 
-Tien dinh 
-Cira sf> tron 
-Vom 6c tai 
-(fJc tai) Cira sf> bTu d\lC
-Ong ban khuyen ngoa 
-(tien dinh) 
-Ong ban khuyen sau 
-Ong ban khuyen tnr6c 
-Ngach soan 
-} 
-Ngach 6c t_ai 
-Tien dinh
-Ngach ciiu 
-Khe xoiln 
-L6 trong cua c6ng tien
-• 
-Manh xoiln 6c
-dinh ( cho ong n(li d[ch) Cua sf> tron 
-(6c tai) 
+### 3.1. Mê đạo xương (bony labyrinth) (H.6)
 
-![Hinh 6. Me dc;10 XU'ang [12]](giaiphau_media/hinh_p488_6.png)
+Mê đạo xương bao gồm tiền đình, các ống bán khuyên và ốc tai.
 
-*Hinh 6. Me dc;10 XU'ang [12]*
+*Tiền đình* (*vestibule*) nằm ở phía trong hòm nhĩ, phía sau ốc tai và phía trước các ống bán khuyên. Đây là một hốc xương có sáu thành. Thành ngoài ngăn cách với hòm nhĩ bằng một vách xương và liên hệ với hòm nhĩ qua cửa sổ tiền đình. Thành trong liên quan với đáy ống tai trong, có *ngách soan* (*elliptical recess*) cho soan nang tựa vào và *ngách cầu* (*spherical recess*) cho cầu nang tựa vào. Thành sau và thành trên có năm lỗ thông với các ống bán khuyên. Thành dưới là mảnh xương mỏng liên tiếp với mảnh xoắn ốc của ốc tai. Tiền đình thông ở trước với thang tiền đình của ốc tai.
 
-Cac 6ng ban khuyen xucrng ( semicircular canals) g6m ba 6ng, m6i 6ng nim thllng 
-goc v&i hai 6ng kia. Ong ban khuyen trucrc nim tren mt phllng thllng dung, vuong goc 
-v&i tr\IC phftn da xuang thai duang. Ong ban khuyen sau nim tren mt phllng thllng 
-dung, song song v&i tn.ic ph§.n da xmmg thai duang. Ong ban khuyen ngoai nim tren 
-mt phling ngang va cong ra ngoai. Cac 6ng ban khuyen la nhfrng 6ng hinh tr\l cong 
-hinh mong ngva nim o sau - tren ti€n dinh va mo vao ti€n dinh, m6i 6ng co m(>t dftu 
-phinh g9i la bong xucrng (bony ampulla). Dftu co bong xuang mo vao ti€n dinh ti tn:1 
-xucrng bong (ampullary bony limb), dftu khong co bong xuang mo vao ti€n dinh ti tr$ 
-xucrng dcrn (simple bony limb). Tn.i xuang dan cua 6ng ban khuyen ngoai mo trµc ti€p 
-vao ti€n dinh. Tn.i xuang don cua cac 6ng ban khuyen tru&c va sau hqp li thanh tn:1 
-xucrng chung ( common bony limb) tru&c khi d6 vao ti€n dinh. 
+![Hình 6. Mê đạo xương [12]](giaiphau_media/hinh_p488_6.png)
+*Hình 6. Mê đạo xương [12]*
 
-
+*Các ống bán khuyên xương* (*semicircular canals*) gồm ba ống, mỗi ống nằm thẳng góc với hai ống kia. *Ống bán khuyên trước* nằm trên mặt phẳng thẳng đứng, vuông góc với trục phần đá xương thái dương. *Ống bán khuyên sau* nằm trên mặt phẳng thẳng đứng, song song với trục phần đá xương thái dương. *Ống bán khuyên ngoài* nằm trên mặt phẳng ngang và cong ra ngoài. Các ống bán khuyên là những ống hình trụ cong hình móng ngựa nằm ở sau - trên tiền đình và mở vào tiền đình, mỗi ống có một đầu phình gọi là *bóng xương* (*bony ampulla*). Đầu có bóng xương mở vào tiền đình tại *trụ xương bóng* (*ampullary bony limb*), đầu không có bóng xương mở vào tiền đình tại *trụ xương đơn* (*simple bony limb*). Trụ xương đơn của ống bán khuyên ngoài mở trực tiếp vào tiền đình. Trụ xương đơn của các ống bán khuyên trước và sau hợp lại thành *trụ xương chung* (*common bony limb*) trước khi đổ vào tiền đình.
 
 <!-- Hết trang 488 -->
 
+*Ốc tai* (*cochlea*) có hình một con ốc xoắn hai vòng rưỡi nằm trước tiền đình. *Đáy ốc tai* (*base of cochlea*) hướng vào trong; *vòm ốc tai* (*cochlear cupula*) hướng ra ngoài. Ốc tai gồm một trụ ốc tai hình nón và *ống xoắn ốc tai* (*spiral canal of cochlea*) xoắn quanh trụ ốc tai hai vòng rưỡi từ đáy tới vòm ốc tai. Trong lòng ống xoắn ốc tai có một mảnh chạy xoắn ốc gọi là *mảnh xoắn xương* (*osseous spiral lamina*). Mảnh này có một bờ quấn quanh trụ ốc tai, một bờ tự do nhô vào lòng ống xoắn ốc tai. Ống ốc tai (tức phần màng của ốc tai) đi từ bờ tự do của mảnh xoắn xương tới thành ngoài của ống xoắn ốc tai. Mảnh xoắn xương và ống ốc tai chia ống xoắn ốc tai thành hai thang: *thang tiền đình* (*scala vestibuli*) ở trên và *thang nhĩ* (*scala tympani*) ở dưới; hai thang chứa ngoại dịch và thông nhau tại *khe xoắn* (*helicotrema*) ở vòm ốc tai; khe xoắn là một khe nằm giữa vòm ốc tai ở một bên còn bên kia là đầu tịt của ống ốc tai và đầu tận cùng của mảnh xoắn xương.
 
-6c tai ( cochlea) c6 hinh m(H con 6c xoiln hai vong nrai niim tru6c ti€n dinh. Day 
-6c tai (base of cochlea) hu6ng vao trong; vom 6c tai (cochlear cupula) hu6ng ra ngoai. 
-6c tai g6m m(>t tll:l 6c tai hinh n6n va 6ng xocin 6c tai (spiral canal of cochlea) xoiln 
-quanh tn,i 6c tai hai vong ruai tu day t6i vom 6c tai. Trong long 6ng xoiln 6c tai c6 m(>t 
-manh ch?y xoiln 6c gQi la miinh xocin xuong ( osseous spiral lamina). Manh nay c6 m(>t 
-ba qu§.n quanh tiv 6c tai, m(>t bo tv do nho vao long 6ng xoiln 6c tai. Ong 6c tai (rue 
-ph§.n mang cua 6c tai) di tu bo tl,l' do cua manh xoiln xuang t6i thanh ngoai cua 6ng 
-xoiln 6c tai. Manh xoiln xuong va 6ng 6c tai chia 6ng xoi\n 6c tai thanh hai thang: thang 
-tiJn dinh (scala vestibuli) 6 tren va thang nhf (scala tympani) 6 du6i; hai thang chua 
-ngo?i dich va thong nhau t?i khe xocin (helicotrema) 6 vom 6c tai; khe xoiln la m(>t khe 
-niim gifra vom 6c tai 6 m(>t ben con ben kia la d§.u tit cua 6ng 6c tai va d§.u t|n cung cua 
-manh xoiln xuong. 
-Ong tai ngoai -
-Mangnhi---
-Hom nhi 
--
-------
-Cua s6 tron (d$y bai -------
-i
-mang nhi ph1,1)
-Ong n6i
-Voi tai
+![Hình 7. Sơ đồ mê đạo màng [12]](giaiphau_media/hinh_p489_7.png)
+*Hình 7. Sơ đồ mê đạo màng [12]*
 
-![Hinh 7. Sa do me dc;10 mang [12]](giaiphau_media/hinh_p489_7.png)
+### 3.2. Mê đạo màng (membranous labyrinth) (H.7)
 
-*Hinh 7. Sa do me dc;10 mang [12]*
+Mê đạo màng gồm mê đạo tiền đình và mê đạo ốc tai.
 
-3.2. Me do mang (membranous labyrinth) (H.7) 
-Me d?O mang g6m me d?O ti€n dinh va me d?O 6c tai. 
-C6ng 6c tai
-Me dr;io tin dinh (vestibular labyrinth) g6m soan nang (utricle) va c6u nang 
-(saccule) la hai tui mang niim trong ti€n dinh xuang, va cac <5ng ban khuyen mang 
-(semicircular ducts) niim trong cac 6ng ban khuyen xuong. Soan nang la m(>t tui hinh 
-soan chi€m phfin tren cua ti€n dinh va ti€p nh|n nam 16 d6 vao cua ba 6ng ban khuyen 
-mang. C§.u nang la m(>t tui nh6 hinh du 6 phia tnr6c soan nang. Cfiu nang n6i v6i soan 
-
-
+*Mê đạo tiền đình* (*vestibular labyrinth*) gồm *soan nang* (*utricle*) và *cầu nang* (*saccule*) là hai túi màng nằm trong tiền đình xương, và *các ống bán khuyên màng* (*semicircular ducts*) nằm trong các ống bán khuyên xương. Soan nang là một túi hình soan chiếm phần trên của tiền đình và tiếp nhận năm lỗ đổ vào của ba ống bán khuyên màng. Cầu nang là một túi nhỏ hình cầu ở phía trước soan nang. Cầu nang nối với soan
 
 <!-- Hết trang 489 -->
 
+nang bằng *ống soan - cầu* (*utriculosaccular duct*) và với ống ốc tai bằng *ống nối* (*ductus reuniens*). Từ giữa ống soan - cầu tách ra một ống gọi là *ống nội dịch* (*nội bạch huyết*) (*endolymphatic duct*). Ống này đi qua cống tiền đình tới dưới màng não cứng ở mặt sau phần đá xương thái dương thì phình ra thành *túi nội dịch* (*nội bạch huyết*) (*endolymphatic sac*). Các ống bán khuyên màng gồm ba ống trước, sau và ngoài nằm trong ba ống bán khuyên xương tương ứng, mỗi ống có một đầu phình gọi là *bóng màng* (*membranous ampulla*). Đầu có bóng màng của các ống bán khuyên mở vào soan nang tại *trụ màng bóng* (*ampullary membranous limb*), đầu không có bóng màng mở vào tại *trụ màng đơn* (*simple membranous limb*). Trụ màng đơn của các ống bán khuyên trước và sau hợp lại tạo thành *trụ màng chung* (*common membranous limb*).
 
-nang bilng 6ng soan - du (utriculosaccular duct) va v6i 6ng 6c tai bilng 6ng n6i (ductus 
-reuniens). Tu giua 6ng soan - du tach ra m<)t 6ng gQi la 6ng n{ji djch (n6i br,zch huydt) 
-( endolymphatic duct). Ong nay di qua c6ng tiSn dinh t6i du6i mang nao cung a mpt sau 
-phftn da xuong thai duong thi phinh ra thanh tui n{ji djch (n6i br,zch huydt) 
-( endolymphatic sac). Cac 6ng ban khuyen mang g6m ba 6ng tru6c, sau va ngoai nftm 
-trong ba 6ng ban khuyen xuong tuong ung, m6i 6ng c6 m9t dftu phinh gQi la bong mang 
-(membranous ampulla). Dftu c6 b6ng mang cua cac 6ng ban khuyen ma vao soan nang 
-t?i lf1l mang bong ( ampullary membranous limb), dftu khong c6 b6ng mang ma vao t?i 
-tn; mang don (simple membranous limb). Tn,t mang don cua cac 6ng ban khuyen tru6c 
-va sau hqp i?i t?o thanh tn:1 mang chung (common membranous limb). 
-Trong soan nang va du nang c6 vdt soan nang (macula of utricle) va vdt cdu 
-nang (macula of saccule ); trong long m6i tr\1 mang b6ng c6 m<)t 16i ngang gQi la mao 
-bong (ampullary crest). Cac v€t va mao nay la nhung nai chua cac t€ bao long cam th\1 
-S\f thay d6i vi tri cua dftu. Sv thay d6i vi tri cua dftu gay ra S\f chuy€n d9ng cua ngo?i 
-dich va n<)i dich. Sv chuy€n d<)ng d6 kich thich cac cac t€ bao long 6 cac v€t va mao. 
-Xung d<)ng thftn kinh sinh ra tu t€ bao cam th\1 thang bftng dugc thftn kinh tiSn dinh 
-dfin vS nao. 
-Me dr,zo 6c tai (cochlear labyrinth)(H.8) la m<)t 6ng mang chua n<)i dich c6 ten la 
-6ng 6c tai (cochlear duct), hay thang giua. N6 c6 mpt cit ngang hinh tam giac va nftm 
-trong 6ng xoin 6c tai, giua thanh ngoai cua 6ng xoin 6c tai va bu tv do cua manh 
-xoin xuang. Ba thanh cua 6ng 6c tai la: thanh (hay mang) tiJn dinh ngan each 6ng 6c 
-tai v6i thang tiSn dinh, thanh nhf (hay mang day) ngan each 6ng 6c tai v6i thang nm, 
-va thanh ngoai. 
-Manh xo9n 6c xircmg 
-Cac sqi thlln kinh 
-Tr1,1 6c tai 
-Thang nhi 
-Th§n kinh 6c tai 
+Trong soan nang và cầu nang có *vết soan nang* (*macula of utricle*) và *vết cầu nang* (*macula of saccule*); trong lòng mỗi trụ màng bóng có một lồi ngang gọi là *mào bóng* (*ampullary crest*). Các vết và mào này là những nơi chứa các tế bào lông cảm thụ sự thay đổi vị trí của đầu. Sự thay đổi vị trí của đầu gây ra sự chuyển động của ngoại dịch và nội dịch. Sự chuyển động đó kích thích các tế bào lông ở các vết và mào. Xung động thần kinh sinh ra từ tế bào cảm thụ thăng bằng được thần kinh tiền đình dẫn về não.
 
-![Hinh 8. Thiet do qua oc tai [12]](giaiphau_media/hinh_p490_8.png)
+*Mê đạo ốc tai* (*cochlear labyrinth*) (H.8) là một ống màng chứa nội dịch có tên là *ống ốc tai* (*cochlear duct*), hay thang giữa. Nó có mặt cắt ngang hình tam giác và nằm trong ống xoắn ốc tai, giữa thành ngoài của ống xoắn ốc tai và bờ tự do của mảnh xoắn xương. Ba thành của ống ốc tai là: *thành* (*hay màng*) *tiền đình* ngăn cách ống ốc tai với thang tiền đình, *thành nhĩ* (*hay màng đáy*) ngăn cách ống ốc tai với thang nhĩ, và *thành ngoài*.
 
-*Hinh 8. Thiet do qua oc tai [12]*
-
-Day ch:ng xoim 6c 
-Mang mai 
-Ca quan xo9n 6c 
-(Corti) 
-Mang day 
-Cac t; bao c6 long 
-chuy;n ngoai 
-Cac t; bao c(\t (hinh que) 
-Cac t; bao c6 long chuy;n trong 
-
-
+![Hình 8. Thiết đồ qua ốc tai [12]](giaiphau_media/hinh_p490_8.png)
+*Hình 8. Thiết đồ qua ốc tai [12]*
 
 <!-- Hết trang 490 -->
 
+Nằm trên thành nhĩ là *cơ quan xoắn* (*spiral organ*). Cơ quan xoắn là một lá tế bào thượng mô cuộn lại, bao gồm các tế bào chống đỡ và khoảng 16000 tế bào lông, vốn là tế bào cảm thụ thính giác. Mặt đỉnh của mỗi tế bào lông là một bó gồm 30-100 lông lập thể nhô vào nội dịch. Mặt đáy của các tế bào lông synáp với sợi của các nơron cảm giác có thân nằm ở hạch xoắn ốc tai. *Màng mái*, một màng keo đàn hồi, nằm ở trên và tiếp xúc với các tế bào lông.
 
-Nim tren thanh nhI la co· quan xocin (spiral organ). Ca quan xoin la m('>t la tS bao 
-thuqng mo cu9n lsi, bao g6m cac tS bao ch6ng do va khoang 16000 tS bao long, v6n la 
-tS bao cam th\l thinh giac. Mtt dinh cua m6i tS bao long la m9t bo g6m 30-100 long lup 
-thv nho vao n9i dich. Mtt day cua cac t€ bao long synap v&i sqi cua cac naron cam giac 
-co than nim a hsch xoin 6c tai. Mang mai, m9t mang keo dan h6i, nim a tren va tiSp 
-xuc v&i cac t€ bao long. 
-3.3. CO' ch nghe 
-Loa tai tup trung nhfrng song am trong khong khi va hu6ng song am di d9c 6ng tai 
-ngoai t&i mang nhI, lam cho mang nhI rung len. Rung d9ng ca h9c cua mang nhI duqc 
-chu6i xuang con truySn t&i cua s6 tiSn dinh. Chuywn d()ng lie qua lie lsi cua xuO'llg ban 
-dsp a cua s6 tiSn dinh tso nen nhfrng song rung d9ng trong ngosi dich. Song nay Ian toa 
-qua ngosi dich cua thang tiSn dinh t&i dinh 6c tai r6i t&i ngosi dich a thang nhI va cu6i 
-cung tra vS ch6 ma thong cua 6c tai v&i tai giua ( cua s6 6c tai), lam rung d9ng mang 
-nhI ph\l. Song rung d9ng cua ngosi dich xn lorn 6ng 6c tai, gay nen song rung d9ng cua 
-n9i dich. Rung d9ng cua n9i djch kich thich cac t€ bao thuqng mo thftn kinh cua ca
-quan xoin. Nhfrng rung d9ng thftn kinh nr ca quan xoin duqc phftn 6c tai cua thftn kinh 
-VIII truySn vS nao. 
+### 3.3. Cơ chế nghe
 
-
+Loa tai tập trung những sóng âm trong không khí và hướng sóng âm đi dọc ống tai ngoài tới màng nhĩ, làm cho màng nhĩ rung lên. Rung động cơ học của màng nhĩ được chuỗi xương con truyền tới cửa sổ tiền đình. Chuyển động lắc qua lắc lại của xương bàn đạp ở cửa sổ tiền đình tạo nên những sóng rung động trong ngoại dịch. Sóng này lan toả qua ngoại dịch của thang tiền đình tới đỉnh ốc tai rồi tới ngoại dịch ở thang nhĩ và cuối cùng trở về chỗ mở thông của ốc tai với tai giữa (cửa sổ ốc tai), làm rung động màng nhĩ phụ. Sóng rung động của ngoại dịch ấn lõm ống ốc tai, gây nên sóng rung động của nội dịch. Rung động của nội dịch kích thích các tế bào thượng mô thần kinh của cơ quan xoắn. Những rung động thần kinh từ cơ quan xoắn được phần ốc tai của thần kinh VIII truyền về não.
 
 <!-- Hết trang 491 -->
-

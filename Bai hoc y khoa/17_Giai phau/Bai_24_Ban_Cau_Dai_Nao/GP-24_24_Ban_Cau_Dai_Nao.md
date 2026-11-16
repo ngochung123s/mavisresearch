@@ -1,597 +1,174 @@
-# BÁN CẦU ĐẠI NÃO
+# ĐẠI NÃO (cerebrum)
 
-**Chương:** Chương 5: Hệ Thần Kinh  
-**Tác giả:** TS. Lê Mạnh Thường  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 371 - 383
+**Chương:** Hệ Thần Kinh (Bài 6)  
+**Tác giả:** PGS.TS. Nguyễn Văn Huy  
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 370 - 382
 
 ---
 
-Bai 6 
-D41NAD 
-Dc;ti niio (cerebrum), hay aoan niio (telencephalon), la phlln 16n nhgt cua hh th.in 
-kinh trung uong. N6 cung v&i gian nao (diencephalon) phat triSn ri:r b9ng niio tnrbc 
-(forebrain vesicle) trong thai ky bao thai. Khi d6, do sv gia tang nhanh ch6ng v€ kich 
-thu&c cua dii nao, gian nao bi vui sau gifra hai nua dii nao. Dii nao gf>m hai ban cdu 
-il<;ii niio (cerebral hemispheres) njm a hai hen khe niio d9c (longitudinal cerebral 
-fissure) va n6i v&i nhau qua cac mep gian ban du. V€ vi tri, dii nao va gian nao chikm 
-toan b9 cac h6 SQ tru&c va gifra, duqc ngan each v&i than nao va tiSu nao a h6 SQ sau 
-b&i khe niio ngang (transverse cerebral fissure). 
-1. HINH TH NGOAI
-Dii nao c6 ba mlt: mlt tren - ngoai (superolateral surface), mlt trong (medial 
-surface), va mlt dum (inferior surface). Cac mlt nay duqc ngan each nhau b&i ba ba: ba 
-tren (superior margin), ba dubi trong (inferomedial margin) va ba dubi ngoai 
-(inferolateral margin). B€ mlt di;ii nao bi nhfrng riinh dc;ii niio ( cerebral sulci) chia thanh 
-cac thuy ac;ii niio (cerebral lobes) va cac h6i ac;ii niio (cerebral gyri). Cac ranh va cac hf>i 
-kh6ng hoan toan gi6ng nhau gifra cac ca thS va gifra hai ban du nhung nhfrng ranh gian 
-thuy sau day tuong d6i hjng dinh (cac H. 1;2;3): 
-Ranh trung tam 
-H6i tru6c trung tam 
-H6i sau trung tam 
-Ranh tru6c trung tam 
-Ranh sau trung tam 
-H6i tran tren 
-Tieu thuy dinh tren 
-Ranh tran tren 
-Ranh n6i dinh 
-Tie_ thuy dinh du6i 
-H6i tran gifra 
-H6i tren vi`n 
-H6i g6c 
-Ha-
-, 
-[ 
-Ph§n nbp 
-01 tran 
-, 
-. , 
-d , . Phan tam giac
-uai 
-Ph§n 6 mct
-Ranh dinh - chftm 
-c"c tran 
-Ranh ben 
-Nhanb len 
-[ 
-Nhanb tnr6c 
-Nhanh sau 
-c"c thai 
-duong 
-H6i thai duang tren 
-Ranh thai dmmg tren 
-H6i thai duang giiia 
-Ranb thai duang du6i 
-Ranh chftm ngang 
-Khuydt tru6c chftm 
-H6i thai duong du6i 
-
-![Hinh 1. Mt tren - ngoai dc;1i nao [12]](giaiphau_media/hinh_p371_1.png)
-
-*Hinh 1. Mt tren - ngoai dc;1i nao [12]*
-
-
-
-
-<!-- Hết trang 371 -->
-
-
-Riinh hen (lateral sulcus) chy tu h6 dr;ii niio hen (lateral cerebral fossa) a mt 
-duai, bllt cheo ba duai ngoai r6i di len (J mt tren - ngoai ban du. N6 ngan each cac 
-thuy tran va dinh vai thuy thai duong. 
-Riinh trung tam ( central sulcus) a mt tren - ngoai di nao, di gftn nhu thing g6c 
-v&i ranh ben, chy len tren va lfin ca vao mt trong ban du. N6 ngan each thuy tran 
-v&i thuy dinh. 
-Riinh dinh - chtim (parieto - occipital sulcus) nim tru&c eve ch§.m va ngan each thuy 
-ch§.m vai thuy dinh, g6m m(>t don dai a mt trong va m(>t don nglln a mt tren - ngoai. 
-Riinh dai (cingulate sulcus) nim a mt trong, gftn nhu song song vai mt lung cua 
-th€ chai, ngan each h6i dai vai mt trong cua cac thuy tran va dinh. 
-Riinh du&i dinh (subparietal sulcus) nim a mt trong, ngan each h6i truac chem 
-cua thuy dinh vai h6i dai cua thuy viSn. 
-Riinh hen ph'l:l ( collateral sulcus) nim a mt du&i, ngan each h6i cnh hai ma cua 
-thuy viSn vai h6i thai duong - ch§.m trong a mt duai thuy thai duong. 
-Tren ba duai ngoai cua ban du di nao, truac C\IC chllm vai centimeter, c6 m(>t 
-ch6 lorn gc;>i la khuyit tru&c chdm (pre - occipital notch). Duong tuang tuc_yng n6i 
-ranh dinh chllm vai khuy€t nay duc_yc xem la ranh giai gifra thuy dinh va thuy chllm a 
-mt ngoai. 
-Cac ranh va duang ke n6i tren la ranh gi&i cua 5 thuy di nao: thuy tran, thuy 
-dinh, thuy chllm, thuy thai duong va thuy viSn. 
-1.1. Thuy tran (frontal lobe) 
-Thuy tran nim tren ca 3 mt va dftu truac cua n6 duc_yc gc;>i la ClfC tran (frontal pole). 
-6 mt tren - ngoai, thuy tran nim tren ranh ben, truac ranh trung tam. Tren mt nay 
-c6 3 ranh: riinh trn&c - trung tam (precentral sulcus) chy gftn nhu song song a truac ranh 
-trung tam; cac ranh ngang g6m riinh tran tren (superior frontal sulcus) va riinh tran du&i 
-(inferior frontal sulcus ). Cac ranh nay chia mt tren - ngoai cua thuy tran thanh cac h6i: 
-h6i tru&c trung tam (precentral gyrus), h6i tran tren (superior frontal gyrus), h6i tran giua 
-(middle frontal gyrus) va h6i tran du&i (inferior frontal gyrus) (H.1). 
-6 mt du&i, thuy tran nim truac h6 nao ben, tva len phftn 6 milt cua xuong tran va 
-manh sang cua xuong sang. Tren mt nay c6 m(>t ranh dc;>c gc;>i la riinh khiru ( olfactory 
-sulcus ), nai thuy tran ti€p xuc v&i hanh khfru va dai khfru. Ranh khfru chia mt duai 
-thanh 2 phftn. Phftn trong ranh khfru la h6i th&ng (straight gyrus). Phftn ngoai ranh khfru 
-c6 cac h6i 6 milt ( orbital gyri) duc_yc ngan each nhau bai cac ranh n6i nhau thanh hinh 
-chfr H gc;>i la cac riinh 6 milt (orbital sulci) (H.3). 
-Phftn thuy tran a mt trong duc_yc gc;>i la h6i tran trong (medial frontal gyrus). H6i 
-nay duc_yc ngan each vai h6i dai 6 duai bai ranh dai, lien ti€p vai h6i tran tren 6 mt tren 
-ngoai qua bo tren va lien ti€p v&i h6i thing 6 mt du&i qua qrc tran. VS phia sau, h6i 
-
-
-
-<!-- Hết trang 372 -->
-
-
-tran trong ngan each v&i ti€u thuy qmh trung tam b&i ranh c.;mh trung tam. Tidu thuy 
-et;mh trung tdm (paracentral lobule) la vung llln vao mmit trong ban d.u cua cac h6i tru&c 
-va sau trung tam. N6 ciing nim tren ranh dai va OUQ'C gi&i h?n tm&c va sau b&i hai che 
-cua ranh dai la ranh cq,nh trung tdm (paracentral sulcus) a tru&c va ranh viin (marginal 
-sulcus) a sau. Phftn tru&c ti€u thuy C?nh trung tam duqc gQi la h6i cq,nh trung tdm truac 
-(anterior paracentral gyms) va thw)c thuy tran. 
-1.2. Thuy dinh (parietal lobe) 
-Thuy dinh nim a mnt tren ngoai va mnt trong ban d.u, 2 phftn lien tiSp nhau qua 
-ba tren. 
-d mnt tren - ngoai, thuy dinh nim sau ranh trung tam, phia tren ranh ben va OUQ'C 
-ngan each v&i thuy cham a sau bai m9t duang tuang tuqng n6i ranh dinh - cham v&i 
-khuyot tru&c cham. Mnt nay cua thuy dinh c6 hai ranh: ranh sau trung tdm (postcentral 
-sulcus) ch?y song song a sau ranh trung tam; va ranh m}i ilinh (intraparietal sulcus) 
-ch?y gftn nhu song song v&i ba tren d?i nao. Hai ranh nay chia thuy dinh thanh ba vung: 
-tidu thity ilinh tren (superior parietal lobule), tidu thuy ilinh duai (inferior parietal 
-lobule) va h6i sau trung tam. Phftn ti€u thuy dinh du&i bao quanh dftu sau cua nhanh sau 
-ranh ben duqc gQi la h6i tren viJn (supramarginal gyrus), con phftn bao quanh dftu sau 
-ranh thai dm:mg tren OUQ'C gQi la h6i g6c (angular gyrus) (H. l ). 
-d mnt trong, thuy dinh g6m phftn tham gia ti€u thuy C?nh trung tam (v&i ten gQi la 
-h6i cq,nh trung tdm sau) a tru&c va h6i trulrc chem (precuneus) a sau. H6i tru&c chem 
-duqc gi&i h?n b&i ranh vi€n a tru&c, ranh du&i dinh a du&i, ranh dinh chim a sau va 
-lien tiSp v&i ti€u thuy dinh tren qua ba tren. 
-1.3. Thuy chftm ( occiptal lobe) 
-Thuy chim nim tren ca 3 mnt va dftu sau cua no la ClfC chdm (occipital pole). 0
-mnt tren - ngoai, thuy chim nim phia sau duang ke tuang tuqng n6i ranh dinh - chim 
-v&i khuySt tru&c chim. d mnt nay c6 2 ranh la ranh chdm ngang (transverse occipital 
-sulcus) a tren va ranh nguy¢t (lunate sulcus) a du&i. Tmang hqp thuang thlly nhllt, thuy 
-cham ()' mnt tren - ngoai c6 hai h6i: h6i chdm tren (superior occipital gyrus) va h6i chdm 
-dulri (inferior occipital gyrus) ngan each nhau qua ranh chdm ngang (H.1 ). 
-
-
-
-<!-- Hết trang 373 -->
-
-
-M6c 
-H6i 
-Ch§m thai du011g 
-H6i thing Khe nao doc 
-Hanh kht'.ru 
-Dai kht'.ru 
-Th@ chai (ph>n g6i) 
-Cµc thai du011g 
-H6i c?nh hai ma 
-i 
-Eo h6i dai
-H6i c?nh hai ma 
-L6i th@ chai 
-Khe nao doc 
-
-![Hinh 2. Mt dLP6'i d9i nao [12]](giaiphau_media/hinh_p374_2.png)
-
-*Hinh 2. Mt dLP6'i d9i nao [12]*
-
-Niip dinh 
-Ranh 
-trung tam dao
-Cac 
-hf>i dao ngiin
-H6i dao dai 
-Th@m dao 
-Niip thai ducmg 
-
-![Hinh 3. Mt tren - ngoai d9i nao khi tach ma ranh ben [12]](giaiphau_media/hinh_p374_3.png)
-
-*Hinh 3. Mt tren - ngoai d9i nao khi tach ma ranh ben [12]*
-
-d mMt trong, thuy chllm duqc nglin each v&i h6i tru&c chem cua thuy dinh bai 
-ranh dinh - chllm va c6 m('>t mui nao hinh nem g9i la chem hay h6i chem ( cuneus) nim 
-gifra ranh dinh chllm va riinh qra (calcarine sulcus). Ben du&i ranh qra la h6i luO'i 
-(lingual gyrus). H6i nay nim tren ca mMt du&i va mMt trong thuy chllm va lien ti€p a 
-tru&c v&i h6i cNnh hai ma (cac H. 2; 3). 
-
-
-
-<!-- Hết trang 374 -->
-
-
-M?t du&i cu.a thuy chftm kh6ng c6 ranh gi&i v&i m?t du&i thuy thai duong va cung 
-v&i m?t du&i thuy thai duong t<;tO nen h6i chdm - thili du<Yng ngoai (lateral 
-occipitotemporal gyrus) va h6i chdm - thai du<Yng trong (medial occipitotemporal gyrus). 
-1.4. Thuy thai dtrO'ng (temporal lobe) 
-Thuy thai duong g6m 2 phftn nilm & m?t tren ngoai va m?t du&i ban du, 2 phftn 
-lien ti€p nhau qua ba du&i. D§.u tru&c duqc g9i la ClfC thai du<Yng (temporal pole). 
-d m?t tren - ngoai, thuy thai duong nilm du&i ranh hen, bi ranh thai du<Yng tren 
-(superior temporal sulcus) va ra,nh thai duong du6•i (inferior temporal gyrus) chia thanh 
-3 h6i: h6i thai du<Yng tren (superior temporal gyrus), h6i thai du<Yng giua (middle 
-temporal gyrus) va h6i thai du<Yng du&i (inferior temporal gyrus). H6i thai duong tren 
-nilm ngay du&i ranh ben va la nJp thai du<Yng (temporal operculum) cu.a ranh nay. M?t 
-tren h6i thai duong tren khuftt trong ranh ben va bao g6m cac h6i thai du<Yng ngang 
-(transverse temporal gyri) & tru&c va m?t ph¶ng thai duong (temporal plane) & sau. 
-d m?t du&i, thuy thai duong duqc ngan each v&i thuy tran qua h6 nao hen va v&i 
-h6i C<;tnh hai ma cu.a thuy viSn qua ranh hen ph1,1. M?t nay c6 c6 phftn tru&c cu.a cac h6i 
-chfrm - thai dmmg trong va ngoai. Cac h6i chfrm - thai duang duqc ngan each v&i 
-nhau b&i ranh chdm - thai duang (occipiotemporal sulcus). 
-1.5. Dao (insula) hay thuy dao (insular lobe) 
-Trong thu·t ngfr TA, thuy dao (insular lobe) chi la dew (insula). Trong ti€ng Anh 
-ngucri ta dung ca hai tu la "insula" va "insular lobe". Trong ti€ng Vi¸t, ta hay g9i la 
-"thuy dao" hon. 
-Dao hay thuy dao la m('>t vung v6 nao hinh tam giac nilm vui sau trong ranh ben. 
-Tuy dm;rc ngan v&i cac thuy tran, dinh va thai duong b&i ranh vong dao ( circular sulcus 
-of insula) nhung n6 v¹n bi cac thuy tren trum kin. Phftn trum len dao cu.a ba thuy tren 
-duqc g9i la cac nlip: nlip tran (frontal operculum) va nli.p dinh (parietal operculim) & 
-tren va nli.p thai du<Yng fJ du&i. Riinh trung tam dao (central sulcus of insula) chia dao 
-thanh 2 phfin sau va tru&c. Phftn sau la h6i dao dai (long gyrus of insula). Phftn tru&c 
-duqc cac ranh nh6 chia thanh cac h6i dao ngli.n (short gyri of insula). Dftu tru&c du&i 
-cu.a dao ti€p giap v&i thJm dao (limen insulae). 
-
-
-
-<!-- Hết trang 375 -->
-
-
-Ti#u thuy c<;1nh trung tam 
-Ranh dai 
-
-![Hinh 4. Mt trong d,;1i nao [12]](giaiphau_media/hinh_p376_4.png)
-
-*Hinh 4. Mt trong d,;1i nao [12]*
-
-1.6. Thuy vin (limbic lobe) 
-Ranh dinh - ch§m 
-Mep cuang 
-Ranh cva 
-Xoang thiing niim 
-trong l$u ti#u nao 
-Thuy viSn bao g6m cac vung dfi nao ng.m a mht trong va mht du6-i ban d.u, bao 
-quanh thS chai va gian nao nhu m(H hinh chfr C. Theo TA, thuy viSn g6m cac du true: 
-diin du6-i chai, h6i dai, h6i cfnh hai ma, m6c, h6i rang, h6i dai, tua hai ma cung cac 
-ranh c6 lien quan la ranh dai, ranh ben phv, ranh mfii, ranh hai ma, ranh tua rang (H.2). 
-H6i dai (cingulate gyrus) nim & mht trong ban d.u; n6 om quanh mht lung thS 
-chai va duqc ngan each v6-i thS chai qua ranh thS chai. H6i dai duqc ngan each v6-i thuy 
-tran b&i ranh dai va v6-i thuy dinh b&i ranh du6-i dinh. Dftu tru6-c h6i dai vong qua g6i 
-thS chai r6i hu6-ng xu6ng du6-i lien ti€p v6-i diin duai chai (subcallosal area) hay diin 
-cq,nh khuu (paraolfactory area). Phia sau di?n cfnh khuu la h6i et;znh t¢in cung 
-(paraterminal gyrus) nim sat tru6-c la t?Il. d day d.n luu y vs mht danh phap, h6i cfnh 
-t?n cung con c6 ten gc;>i la h6i duai chai (subcallosal gyrus), khac v6-i diin duai chai. 
-Diin du6-i chai va h6i cfnh t?n cung cung nhau tfo nen vung (di?n) wich (septal area) 
-nai c6 cac nhan vach (Xem bai H? viSn). Nguqc lfi, dftu sau h6i dai lien ti€p v6-i h6i 
-cfnh hai ma & sau 16i thS trai qua eo h6i dai (isthmus of cingulate gyrus). 
-H6i cq,nh ht.ii ma (parahyppocampal gyrus) nim a mht du6-i ban d.u, bao quanh 
-hai ma & mht sau. H6i nay duqc ngan each v6-i mht du6-i thuy thai duang ( a phia ngoai) 
-b&i rilnh miii (rhinal sulcus) & tru6-c va ranh ben phv & sau. d phia tren trong, n6 duqc 
-ngan each v6-i h6i rang (dentate gyms) b&i rilnh hai mil (hippocampal sulcus). H6i rang 
-nim gifra h6i qmh hai ma va hai ma, duqc ngan each v6-i ccic tua cu.a ht.ii mil (fimbria of 
-hippocampus) b&i rilnh tua rang (fimbriodentate sulcus). H6i diii (fasciolar gyrus) la 
-m9t dai tu dftu sau h6i rang chfy ra sau vong quanh 16i thS chai n6i v6-i dai xam. Dftu 
-
-
-
-<!-- Hết trang 376 -->
-
-
-tru&c h6i qmh hai ma gp cong len tren va vao trong, duqc g9i la m6c (uncus); dfru sau 
-lien tiep v&i h6i luoi va n6i v&i h6i dai qua eo h6i dai. 
-"Thuy vi€n" la mc)t thut ngfr giai phfru duqc dung d€ chi cac vung vo tren b€ mt, 
-kh6ng d6ng nghia v&i thut ngfr "h vi€n". "H vi€n" la thut ngu chi mc)t M chuc 
-nang. Ngoai cac phAn cua thuy vi€n duqc m6 ta 6 day, h vi€n con bao g6m hai ma, 
-din du&i chai, din qmh khuu va nhi€u du true khac thuc)c khuu nao, d6i thi va vung 
-h? d6i (Xem H vi€n). 
-2. cAu TO
-Tuong u,r nhu cac phfrn khac cua h thAn kinh trung uong, d?i nao duqc du t?o 
-boi hai phAn chinh la cht xam va cht tr11.ng. Cht xam cua d?i nao tp trung phAn l&n 
-6 vo d?i nao, mc)t phfrn nho trong cac nhan n€n. Chit trng cua d?i nao phan b6 day 
-dc trong m6 nao, c6 th€ chia thanh cac nh6m sqi: cac sqi mep, cac sqi chieu va cac 
-sqi lien hqp. 
-2.1. Chfit xam 
-2.1.1. Vo il(J.i niio 
-Vo dt;zi nao (cerebral cortex) la phAn 
-chit xam niim tren b€ mt d?i nao. Do c6 
-nhi€u khe, ranh va gip n€p thanh nhi€u 
-h6i, vo c6 din tich b€ mt 16n, len t&i 
-2200 cm2, day tu 1,5 t&i 4,5 mm, v&i s6 
-luqng ncrron u&c chung khoang 10 ty. 
-Theo phat sinh loai, vo d?i nao duqc chia 
-lam ba vung: c6 vo nao (archicortex), ClfU
-VO nao (paleocortex) va tan VO nao 
-(neocortex hay isocortex). Cac vung vo 
-nay khac nhau v€ s6 lap te bao. C\!U VO 
-nao, tmmg ung v&i VO nao khuu giac thit 
-ccip (secondary olfactory cortex), c6 
-nhi€u nhit 5 lap. C6 vo nao tuong i'.mg 
-VO'i c§.u t?O hai ma Va cac c§.u true Jan Cn 
-c6 nhi€u nhfrt 3 lap. Tan VO nao, chi€m 
-90% din tich vo nao, c6 6 lap. Cu true 6 
-lap t€ bao thucmg duqc m6 ta nhu d?ng 
-d.u true vi th€ dc trung cua VO nao.
-Te bao chinh trong VO nao (c6 nhanh 
-tn,Ic dai) la cac tJ bao thap (pyramidal 
-cells). Trong cac te bao thap, t€ bao thap 
-kh6ng 16 chi c6 mt 6 vung vo vn dc)ng. 
-Lo?i t€ bao chinh khong di€n hinh la tJ baa 
-hinh thoi (fusiform cells). Cac t€ bao khac 
-trong VO nhu t€ bao r6, te bao sao, t€ bao 
-Retzius - Cajal. .. la cac ncrron lien hqp. 
-L&p da hinh 
-
-![Hinh 5. Cau true mo hQC vo dc;1i nao bang](giaiphau_media/hinh_p377_5.png)
-
-*Hinh 5. Cau true mo hQC vo dc;1i nao bang*
-
-phll'ang phap nhu(lm Nissl [14] 
-
-
-
-<!-- Hết trang 377 -->
-
-
-Cac lop t€ bao tu nong vao sau duqc danh dftu bilng ky tv La Ma I - VI. G6m: 
-- L6p I: Lop phan tt'r: nai synap v6i nhau giua cac nhanh canh ( cua tS bao thap)
-v6i nhanh tn,1c (d€n nr vung VO khac, d6i thi); chi c6 m(>t s6 it tS bao Retzius - Cajal 
-xen giua. 
-- Lop II: Lop hi;tt ngoai: nhi€u tS bao sao va t€ bao thap nho.
-- L6p III: L6p thap ngoai: chi'.ra cac tS bao thap di€n hinh c6 kich thu6c tang
-dfrn tu nong vao sau. Nhanh tn,1c ph6ng chi€u t6i cac vung VO nao khac (cung hO?C 
-khac ban du). 
-- Lop IV: Lop hi;tt trong: du ti;to tuang tv lop hi;tt ngoai.
-- Lop V: Lop thap trong: chi'.ra cac t€ bao thap Ian nilm xen v6i cac naron lien
-hqp; rieng vung VO V?n d(>ng thi'.r nhftt c6 t€ bao thap kh6ng 16. Cac nhanh tn,lc ph6ng 
-chi€u t6i cac dich du6i VO g6m th€ van, than nao va tuy s6ng. 
-- Lop VI: Lop da hinh: t€ bao hinh thoi la tS bao chinh a day nhung cung c6 t€
-bao thap va cac naron lien hqp khac. 
-Cac tip n6i cua VO nao. Cac sqi d€n VO nao tu cac ngu6n sau: ( 1) cac vung VO 
-khac cung ban du (sqi lien hqp) hO?C ban du d6i ben (sqi mep); (2) d6i thi; (3) nhan 
-tru&c tuong (t6i VO cac thuy dinh va chÆm); (4) cac nhan n€n nao tru6c; (5) v€t h,1c; 
-(6) cac nhan dm'mg dan 6 than nao; (7) m(>t s6 nhan hi;t d6i thj. Cac sqi nr vo nao di la
-nhanh t11,1c t€ bao thap va t€ bao hinh thoi. Chung di vao chftt trilng cua ban cfru va tra
-thanh sqi mep, sqi lien hqp va m('>t phfrn cac sqi ph6ng chi€u.
-Dva tren du true cac lop, hinh thai tS bao va phan b6 cac b6 nhanh tn,lc, Brodmann 
-( 1909) da l?p m(>t ban d6 danh s6 52 di?n vo nao tren khi, trong d6 c6 44 di?n tuang d6ng 
-tren nao nguoi Cac nghien ci'.ru thvc nghi?m va lam sang da cho phep xac djnh duqc cac 
-ti€p n6i va chi'.rc nang cua m(>t s6 di¢n Brodmann (Brodmann's areas) nay. 
-Vo nao thuy tran 
-\huy tran c6 cac di?n VO V?n d◊n$ va cac di?n VO c6 vai Çro trong 10a nang xet 
-doan, tam nhin va tam tinh con nguai. Hoi tru6c trung tam va phan tru6c tieu thuy Ci;tnh 
-trung tam, tuang i'.rng di?n 4, la di¢n v(m &}ng thu: nhdt (primary motor area). Phfrn sau 
-cua h6i tran dum (thuang a ban cfru nao trai), tuang i'.rng v6i di?n 44 va 45, la di¢n 
-Broca, chi ph6i V?n d(>ng cac ca phat am. T6n thuang di?n Broca din t6i chi'.rng mftt 
-ngon ngu bi€u di;tt. Vung VO ngay tru6c di?n 4, nilm tren phfrn sau cac h6i tran (J m?t 
-ngoai va h6i tran trong a m?t trong, la di?n 6; ti;ti di?n nay c6 di¢n wjn d(mg b6 sung 
-(supplementary motor area) a m?t trong va di¢n tiin v(m d9ng (premotor area) a m?t 
-ngoai. Tru&c di?n 6, phfrn du6i cua di?n 8 tren m?t ngoai la trucrng mdt thuy trim 
-(frontal eye field) lien quan d€n cac V?n d9ng milt. Cac di?n 9 t&i 12 a quanh CIJC tran la 
-vo truac trim (prefrontal cortex) lien quan d€n cac chi'.rc nang tri tu?. 
-Ti;ti di?n v?n d(>ng thi'.r nhftt, m6i ca (hay ca a m6i vung ca th€) d€u c6 m9t di?n 
-tich di;ti di?n tren di?n nay, va vi tri silp x€p cua cac di?n tich di;ti di?n cung gi6ng nhu vi 
-tri silp x€p cua cac CO' tren CO' thS, ti'.rc la tren h6i tru&c trung tam va phfrn tru6c tiSu thuy 
-Ci;lnh trung tam ta c6 thS ve len m9t hinh ngu&i lun (homunculus). Hinh nguai lun nay 
-c6 3 d?c di€m: (1) l9n nguqc tren du&i: phfrn du6i thftp cua di?n V?n d9ng di;ti di?n cho 
-nhung CO' a phfrn dfru m?t (cao) cua CO' thS va nguqc li;ti; (2) mftt can xi'.rng: cac CO' nho 
-
-
-
-<!-- Hết trang 378 -->
-
-
-nhung vkn d9ng tinh t€ nhu ca n◊i t?i 6 ban tay c6 di?n tich d?i di?n r9ng, c6 ca l&n 
-nhu ca mong diln tich d?i diln l?i h{;p; (3) dao nguqc phai trai: diln vkn d9ng ben nao 
-phai chi ph6i CCY ben trai va nguqc l?i. 
-
-![Hinh 6. Cac di)n Brodmann [15]](giaiphau_media/hinh_p379_6.png)
-
-*Hinh 6. Cac di)n Brodmann [15]*
-
-Cac vimg vo cam giac O' cac thuy dinh, ch§m va thai drrO'Dg 
-d thuy dinh, h6i sau trung tam va ph§.n sau ti€u thuy C?nh trung tam, tuang ung 
-v&i cac di?n 1, 2 va 3, la VO niio cam gicic than thi thu: nhdt (primary somatosensory 
-cortex). Tinh chftt d?i di?n 6 vo cam giac than th€ thu nhftt gi6ng nhu 6 diln vkn d9ng 
-thu nhftt. Cac di?n 5 va 7, tuang ung v&i titmu thuy dinh tren va h6i tru&c chem, la vimg 
-VO lien h<;1p cam gicic than thi Di?n 43 6 d§.u du&i h6i sau trung tam la di¢n VO vj gicic. 
-
-![Hinh 7. Sa do cac vung CO' nh*n chi phoi](giaiphau_media/hinh_p379_7.png)
-
-*Hinh 7. Sa do cac vung CO' nh*n chi phoi*
-
-tU'ang (mg tu v6 nao v*n d(>ng thu nhat [15] 
-d thuy chim, di?n VO nao xung 
-quanh ranh qra, tuang ung diln 1 7, la VO 
-niio thj gicic thu nhdt (primary visual 
-cortex). Cac di?n con l?i trong thuy nay, 
-di?n 18 va di?n 19, duqc g9i la VO lien h(Yp 
-thj gicic (visual association cortex). 
-d thuy thai duang, mnt tren h6i thai 
-duang tren, v6n khuftt trong san ranh ben 
-va c6 cac h6i thai duang ngang, la cac di?n 
-41 va 42; cac di?n nay la VO niio thinh gicic 
-thu nhdt (primary auditory cortex). Mnt 
-phfmg thai duang 6 sau vo thinh thu nhftt 
-(von trong san ranh ben) cung v&i ph§.n sau 
-cua diln 22 tren mnt ngoai thuy thai duang 
-la VO lien h9p thinh gicic (auditory 
-association cortex). d h§.u h€t s6 nguoi, 
-di?n VO nay ben ban du trai duqc g9i la 
-di¢n Wernicke. T6n thuang di?n Wernicke 
-thuang gay thftt ngon ti€p nhkn. 
-
-
-
-<!-- Hết trang 379 -->
-
-
-Di?n 34 6 m6c hai ma va th€m dao va di?n 28 (rn'.'>i khuu - entorhinal) 6 h6i cZnh 
-hai ma la cac di?n VO khuu giac. 
-2.1.2. Cac nhlin nJn (basal nuclei) 
-Cac nhan n€n hay cac hZch n[n la cac nhan xam vui trong chfit trllng va tach bi\t 
-v6i VO nao. Theo cac nha giai phfiu, cac nhan nay bao g6m thd van (corpus striatum), 
-nhan trn&c tuimg (claustrum) vaphuc h9'[J ht;mh nhan (amygdaloid complex), tuc la tgt 
-ca cac chfit xam du6i VO. Theo chuc nang va lam sang, thS van cung v6i nhan du6i d6i 
-thi va chfit den cua trung nao duqc mo ta nhu m(>t M th6ng c6 chuc nang lien h? v6i 
-nhau, ngay ca khi duqc mo ta du6i tieu d[ "cac nhan n[n". Trong khi d6, chuc nang cu.a 
-nhan tru6c tuc'mg chua th]t ro, con phuc hqp hZnh nhan lZi c6 m6i lien h? chuc nang v6i 
-M vi[n va duqc mo ta cung v6i h? vi€n (xem H? vi[n). 
-Th chai (pha n gOi) 
-Nao thet ben 
-(SU'ng tran) 
-Bao trong (trv trv6'c) 
-Bao trong 
-(tn.a sau) 
-Etiithi 
-E>	m ,01 m
-h mc
-naotMt Mn
-Khe nao dQc 
-Nh.ln du6i (pha n <tau) 
-Beo sam 
-ci\u nh^} 
-ngoai 
-,...1. 
-NMn bfo 
-l.aU ngt 
-trong 
-"b.----'----+---Nhan tm6'c tLYang 
-----1-- NMn c1u6i (pha n tMn) 
-___.__, ..... 
-r--:,'--1- Hai ma va dim 
-Nho th!t Mn 
-(siYng cham) 
-B 
-
-![Hinh 8. Thiet do ngang qua d.;ii nao (A)](giaiphau_media/hinh_p380_8.png)
-
-*Hinh 8. Thiet do ngang qua d.;ii nao (A)*
-
-va quan h$ vi tri gifra cac nhan nen va doi thi (B) [12] 
-
-
-
-<!-- Hết trang 380 -->
-
-
-VS giai phfru, th@ van g6m nhan du6i (caudate nucleus) va nhan bea (lentiform 
-nucleus). Nhan beo g6m phftn ngoai la bea s6m (putamen) va phftn trong la cdu nhgt 
-(globus pallidus). V€ phan chia dva theo ti€p n6i va chuc nang, nhan du6i va beo sftm 
-duqc g9i la van (striatum) hay tan thi van (neostriatum), con du nh:;it thu(>c vS nh<;1t 
-(pallidum) hay qru thi van (paleostriatum). Van ti€p nhn cac sqi d€n tu v6 d:;ii nao, d6i 
-thi va phftn dc chit den. Trong b?nh Parkinson, van kh6ng nhn duqc cac sqi d€n tu 
-chit den (mang t6i dopamine). Cac sqi tu van ph6ng chi€u t6i ca hai phftn du nh:;it va 
-chit den. Cac sqi tu cftu nh:;it ph6ng chi€u Jen d6i thi va trung nao. Con duc'mg d6i thi 
-v6 nao khep kin vong ti€p n6i thin kinh tu v6 d:;ii nao di qua th@ van, m(>t vong thin 
-kinh lien quan d€n chuc nang vn d(>ng. 
-Nhan beo c6 hinh nem v6i phin hp huang vao trong la du nh:;it va phlin r(>ng 6 
-ngoai la beo sim, hai phin duqc ngan each nhau bilng m(>t la chit trling. Ciu nh:;it 1:;ii 
-duqc m(>t la chit trling nfra chia thanh hai phin trong va ngoai. Nhan beo nilm ngang 
-muc dao, duqc ngan each v6i dao 6 phia ngoai boi ba lap, lin luqt tu trong ra la baa 
-ngaai (external capsule), nhan tru6c tuang va baa ngaai citng (extreme capsule). 
-Mt trong nhan beo ti€p xuc v6i bao trong, duqc bao trong ngan each v6i d6i thi va 
-nhan du6i. Mt b\mg nhan beo sat v6i cac du true 6 nSn nao nhu chit thung tru6c, 
-dai thi giac. 
-Nhan du6i (caudate nucleus) la m(>t nhan u6n cong hinh chu C, nilm phia ngoai 
-d6i thi, g6m diu, than, va du6i, diu va du6i dSu huang ra tru6c. Mt lorn nhan du6i 6m 
-quanh d6i thi va bao trong, con mt 16i cua n6 l:;ii bi vay quanh boi nao thit ben va tham 
-gia vao cac thanh cua nao thit ben: diu t:;io nen thanh du6i ngoai cua sung tran, than 
-nilm a thanh du6i ngoai cua phin trung tam, du6i nilm d9c trin cua sung thai duong. 
-Sung tran va phftn trung tam nao thit ben ngan each nhan du6i v6i th€ chai. Diu nhan 
-du6i lien ti€p v6i beo sfrm, phin con l:;ii cua nhan du6i ngan each v6i nhan beo boi bao 
-trong nhung hai nhan vfrn n6i v6i nhau b&i cac du n6i ngang qua bao trong. 
-2.2. Ch§t tdng 
-Chit trling d:;ii nao duqc t:;io b&i ba lo:;ii nhanh tI1,1c ( c6 myelin): cac sqi lien hqp, 
-cac sqi mep, cac sqi chi€u. 
-2.2.1. Cac s{J'i lien hf/P (Hinh 9) 
-Cac s(li lien h(JJJ ( association fibres) k€t n6i nhung phin v6 nao khac nhau trong 
-cung m(>t ban du d:;ii nao. Cac sqi ngftn la nhfrng sqi thuang ch:;iy qua l:;ii giua cac h6i 
-nao lan cn. Cac sqi dai n6i nhung vung nao & cac thuy nao khac nhau. Cac sqi dai di 
-trong cac b6: b6 d9c tren (superior longitudinal fasciculus), b6 d9c du&i (inferior 
-longitudinal fasciculus), b6 chdm - tran du&i (inferior occipitofrontal fasciculus), b6 
-m6c (uncinate fasciculus), b6 dai (cingulum), va vom. 
-V om la cftu true vua chua cac sqi lien hqp vua chua cac sqi mep. Trong d6, n6 
-chu y€u chua cac sqi lien hqp tu hai ma t6i cac vung v6 nao khac (Xem bai H? vi€n). 
-
-
-
-<!-- Hết trang 381 -->
-
-
-Cac sqi cung d)i nao,, 
-C 
-A 
-....... " 
-l <f" 
-Cac sqi lien hQ'JJ 
-Cac sqi 
-ch:im - tran du&i 
-B6 6 milt - tran 86 ch§m - tran tren 
-86 dQC tren 
-B6 ch§m dt'rng 
-B6m6c 
-86 dQCdu&i
-
-![Hinh 9. Cac sqi lien hqp ngan (A), cac sqi lien hqp dai (B va C) [14]](giaiphau_media/hinh_p382_9.png)
-
-*Hinh 9. Cac sqi lien hqp ngan (A), cac sqi lien hqp dai (B va C) [14]*
-
-2.2.2. Cac s!)'i mep 
-B 
-Ccic S9'i mep (commissural fibres) la nhfrng sqi k€t n6i cac vung VO nao a hai ban 
-du. Chung bang qua duang gifra va t<;10 nen cac mep n6i 2 ban du, g6m: th€ chai, mep 
-tru6c va vom (Hinh 3). 
-Thi chai ( corpus callosum) la mep gian ban du 16n nhftt, n6 chua 150-200 triu 
-sqi thAn kinh. Tu tru6c ra sau th€ chai g6m b6n phAn: mo (rostrum), g<5i (genu), than 
-(trunk) va l6i (splenium). Mt lung th€ chai la day cua khe nao d9c va ranh gifra lung 
-th€ chai va h6i dai bao quanh la ranh th€ chai. Mt b1,mg cua th€ chai la trftn cua cac nao 
-tht ben va duqc n6i v6i lung cua than vom bai vach trong su6t. Cac sqi tu g6i th€ chai 
-khi di vao 2 thuy tran thi t<;10 nen k?p trcin (frontal forceps). G6i thu6n h¥p dfrn t6i mo. 
-Mo nim ngay tren din du6i chai va lien ti€p v6i la tn a thanh tru6c nao thftt ba. L6i 
-th chai la phfrn day nht cua th€ chai, nh6 ra a ngay sau gian nao. Cac sqi tu 16i th€ 
-chai di vao hai thuy chfrm t<;10 nen k?p l&n hay k?p chdm (occipital forceps). Lap sqi 
-mong cua th€ chai ch<;1y vao thanh sung thai ducmg nao tht ben duqc g9i la tha.m trai 
-(tapetum). Khi cac sqi mep cua th€ chai toa vao trong chfrt trng cua ban du, chung dan 
-vao v6i cac sqi lien hqp va cac sqi chi€u ( cac H.3 va 10). 
-Mep trulrc (anterior commissure) la m(>t b6 chua khoang 3,5 triu sqi tI1,1c c6 
-myelin. N6 duqc cho la chu y€u k€t n6i cac vung VO nao thu(>c thuy viSn hoc cac trung 
-tam khuu giac, m(>t s6 sqi lien kSt cac thuy tran va thuy thai ducmg. Mep tru6c c6 hinh 
-d<;1ng nhu m(>t chi€c tay lai xe d<;1p. 
-
-
-
-<!-- Hết trang 382 -->
-
-
-Mep vom la m('>t tm cac SQ'i nho to thanh hinh tam giac, lien kSt hai tf\l cua vom 
-v6i nhau. 
-2.2.3. Cac s!}i chiiu va bao trong 
-Cac S(Ji chidu (projection fibres) la cac SQ'i di len hoc di xu6ng lien kSt cac vung VO
-nao v&i nhiin.g naron nim & vung nao thip hon hoc tuy s6ng. Khi di gifra d6i thi va dftu 
-nhan duoi & trong, nhan beo & ngoai, cac SQ'i chiSu to nen bao trong, hay dong g6p hftu 
-hSt cac sqi cua bao trong. Ra khoi bao trong, cac SQ'i chiSu toa ra thanh vanh tia (Hinh 10). 
-Tren thiSt d6 ngang, bao trong (internal capsule) c6 hinh chfr V v&i vi tri g6c 
-nhc;m (g6i bao trong) nllm gifra d6i thi va nhan duoi. Bao trong thuang dugc mo ta v&i 
-nam phftn la tf\l tru&c, g6i, tf\l sau, phftn sau beo va phftn du&i beo. T trucrc (anterior 
-limb) nim gifra nhan beo va dftu nhan duoi. G6i bao nim trong dinh nhan beo. T sau 
-(posterior limb) nim gifra nhan beo va d6i thi. Phdn sau beo (retrolentiform part) va 
-phftn du&i beo (sublentiform part) chiSm cac vung nim lftn lugt sau va du&i nhan beo 
-(Xem bai Tuy s6ng). 
-Th chai 
-Vanh tia 
-Cu6ng di nao 
-Bao trong 
-Tia thi 
-
-![Hinh 10. Ban cau nao phai nhin tLP ben trai qua phau tich sgi [14]](giaiphau_media/hinh_p383_10.png)
-
-*Hinh 10. Ban cau nao phai nhin tLP ben trai qua phau tich sgi [14]*
-
-Tf\l tru&c cua bao trong chua tia d6i thi tru6c (g6m cac sgi n6i tiSp qua li gifra 
-d6i thi va VO nao) va cac sqi tran - du di tu VO nao thuy tran t6i cac nhan cua du nao. 
-G6i cua bao trong chua cac sqi VO - nhan. Tf\l sau cua bao trong chua cac sqi VO - tuy 
-c dai thap ), cac sqi VO - luai, VO - do, VO - d6i thi, dinh - du, d6i thi - dinh va tia d6i thi 
-trung tam. Phftn sau nhan beo cu.a bao trong chua cac sqi ch§.m - du, ch§.m - mai va tia 
-thi (cac sqi g6i qra); m(H s6 cac sqi d6i thi - vo nao. Phftn du6i nhan beo cu.a bao trong 
-chua cac sqi tran - du, thai dm:mg - du va tia thinh. 
-Bai phftn l&n cac sqi chiSu tp trung di trong mot ciu true hp nhu bao trong, mot 
-t6n thmmg nho & day, dc bi?t la tf\l sau bao trong, c6 th gay ra nhung b?nh canh lam 
-sang hSt sue nng n nhu li?t hoan toan va d6ng nhit & nua ca th. 
-
-
-
-<!-- Hết trang 383 -->
+Đại não (*cerebrum*), hay đoan não (*telencephalon*), là phần lớn nhất của hệ thần kinh trung ương. Nó cùng với gian não (*diencephalon*) phát triển từ bọng não trước (*forebrain vesicle*) trong thời kỳ bào thai. Khi đó, do sự gia tăng nhanh chóng về kích thước của đại não, gian não bị vùi sâu giữa hai nửa đại não. Đại não gồm hai *bán cầu đại não* (*cerebral hemispheres*) nằm ở hai bên khe não dọc (*longitudinal cerebral fissure*) và nối với nhau qua các mép gian bán cầu. Về vị trí, đại não và gian não chiếm toàn bộ các hố sọ trước và giữa, được ngăn cách với thân não và tiểu não ở hố sọ sau bởi *khe não ngang* (*transverse cerebral fissure*).
 
+### 1. HÌNH THỂ NGOÀI
+
+Đại não có ba mặt: mặt trên - ngoài (*superolateral surface*), mặt trong (*medial surface*), và mặt dưới (*inferior surface*). Các mặt này được ngăn cách nhau bởi ba bờ: *bờ trên* (*superior margin*), *bờ dưới trong* (*inferomedial margin*) và *bờ dưới ngoài* (*inferolateral margin*). Bề mặt đại não bị những *rãnh đại não* (*cerebral sulci*) chia thành các *thùy đại não* (*cerebral lobes*) và các *hồi đại não* (*cerebral gyri*). Các rãnh và các hồi không hoàn toàn giống nhau giữa các cá thể và giữa hai bán cầu nhưng những rãnh gian thùy sau đây tương đối hằng định (các H. 1; 2; 3):
+
+![Hình 1. Mặt trên - ngoài đại não [12]](figures/hinh_p371_1.png)
+
+- *Rãnh bên* (*lateral sulcus*) chạy từ hố đại não bên (*lateral cerebral fossa*) ở mặt dưới, bắt chéo bờ dưới ngoài rồi đi lên ở mặt trên - ngoài bán cầu. Nó ngăn cách các thùy trán và đỉnh với thùy thái dương.
+- *Rãnh trung tâm* (*central sulcus*) ở mặt trên - ngoài đại não, đi gần như thẳng góc với rãnh bên, chạy lên trên và lấn cả vào mặt trong bán cầu. Nó ngăn cách thùy trán với thùy đỉnh.
+- *Rãnh đỉnh - chẩm* (*parieto-occipital sulcus*) nằm trước cực chẩm và ngăn cách thùy chẩm với thùy đỉnh, gồm một đoạn dài ở mặt trong và một đoạn ngắn ở mặt trên - ngoài.
+- *Rãnh đai* (*cingulate sulcus*) nằm ở mặt trong, gần như song song với mặt lưng của thể chai, ngăn cách hồi đai với mặt trong của các thùy trán và đỉnh.
+- *Rãnh dưới đỉnh* (*subparietal sulcus*) nằm ở mặt trong, ngăn cách hồi trước chêm của thùy đỉnh với hồi đai của thùy viền.
+- *Rãnh bên phụ* (*collateral sulcus*) nằm ở mặt dưới, ngăn cách hồi cạnh hải mã của thùy viền với hồi thái dương - chẩm trong ở mặt dưới thùy thái dương.
+
+Trên bờ dưới ngoài của bán cầu đại não, trước cực chẩm vài centimeter, có một chỗ lõm gọi là *khuyết trước chẩm* (*pre-occipital notch*). Đường tưởng tượng nối rãnh đỉnh chẩm với khuyết này được xem là ranh giới giữa thùy đỉnh và thùy chẩm ở mặt ngoài.
+
+Các rãnh và đường kẻ nói trên là ranh giới của 5 thùy đại não: thùy trán, thùy đỉnh, thùy chẩm, thùy thái dương và thùy viền.
+
+#### 1.1. Thùy trán (frontal lobe)
+
+Thùy trán nằm trên cả 3 mặt và đầu trước của nó được gọi là *cực trán* (*frontal pole*).
+
+Ở mặt trên - ngoài, thùy trán nằm trên rãnh bên, trước rãnh trung tâm. Trên mặt này có 3 rãnh: *rãnh trước - trung tâm* (*precentral sulcus*) chạy gần như song song ở trước rãnh trung tâm; các rãnh ngang gồm *rãnh trán trên* (*superior frontal sulcus*) và *rãnh trán dưới* (*inferior frontal sulcus*). Các rãnh này chia mặt trên - ngoài của thùy trán thành các hồi: *hồi trước trung tâm* (*precentral gyrus*), *hồi trán trên* (*superior frontal gyrus*), *hồi trán giữa* (*middle frontal gyrus*) và *hồi trán dưới* (*inferior frontal gyrus*) (H.1).
+
+Ở mặt dưới, thùy trán nằm trước hố não bên, tựa lên phần ổ mắt của xương trán và mảnh sàng của xương sàng. Trên mặt này có một rãnh dọc gọi là *rãnh khứu* (*olfactory sulcus*), nơi thùy trán tiếp xúc với hành khứu và dải khứu. Rãnh khứu chia mặt dưới thành 2 phần. Phần trong rãnh khứu là *hồi thẳng* (*straight gyrus*). Phần ngoài rãnh khứu có *các hồi ổ mắt* (*orbital gyri*) được ngăn cách nhau bởi các rãnh nối nhau thành hình chữ H gọi là *các rãnh ổ mắt* (*orbital sulci*) (H.3).
+
+Phần thùy trán ở mặt trong được gọi là *hồi trán trong* (*medial frontal gyrus*). Hồi này được ngăn cách với hồi đai ở dưới bởi rãnh đai, liên tiếp với hồi trán trên ở mặt trên ngoài qua bờ trên và liên tiếp với hồi thẳng ở mặt dưới qua cực trán. Về phía sau, hồi trán trong ngăn cách với tiểu thùy cạnh trung tâm bởi rãnh cạnh trung tâm. *Tiểu thùy cạnh trung tâm* (*paracentral lobule*) là vùng lấn vào mặt trong bán cầu của các hồi trước và sau trung tâm. Nó cũng nằm trên rãnh đai và được giới hạn trước và sau bởi hai chẽ của rãnh đai là *rãnh cạnh trung tâm* (*paracentral sulcus*) ở trước và *rãnh viền* (*marginal sulcus*) ở sau. Phần trước tiểu thùy cạnh trung tâm được gọi là *hồi cạnh trung tâm trước* (*anterior paracentral gyrus*) và thuộc thùy trán.
+
+#### 1.2. Thùy đỉnh (parietal lobe)
+
+Thùy đỉnh nằm ở mặt trên ngoài và mặt trong bán cầu, 2 phần liên tiếp nhau qua bờ trên.
+
+Ở mặt trên - ngoài, thùy đỉnh nằm sau rãnh trung tâm, phía trên rãnh bên và được ngăn cách với thùy chẩm ở sau bởi một đường tưởng tượng nối rãnh đỉnh - chẩm với khuyết trước chẩm. Mặt này của thùy đỉnh có hai rãnh: *rãnh sau trung tâm* (*postcentral sulcus*) chạy song song ở sau rãnh trung tâm; và *rãnh nội đỉnh* (*intraparietal sulcus*) chạy gần như song song với bờ trên đại não. Hai rãnh này chia thùy đỉnh thành ba vùng: *tiểu thùy đỉnh trên* (*superior parietal lobule*), *tiểu thùy đỉnh dưới* (*inferior parietal lobule*) và *hồi sau trung tâm*. Phần tiểu thùy đỉnh dưới bao quanh đầu sau của nhánh sau rãnh bên được gọi là *hồi trên viền* (*supramarginal gyrus*), còn phần bao quanh đầu sau rãnh thái dương trên được gọi là *hồi góc* (*angular gyrus*) (H.1).
+
+Ở mặt trong, thùy đỉnh gồm phần tham gia tiểu thùy cạnh trung tâm (với tên gọi là *hồi cạnh trung tâm sau*) ở trước và *hồi trước chêm* (*precuneus*) ở sau. Hồi trước chêm được giới hạn bởi rãnh viền ở trước, rãnh dưới đỉnh ở dưới, rãnh đỉnh chẩm ở sau và liên tiếp với tiểu thùy đỉnh trên qua bờ trên.
+
+#### 1.3. Thùy chẩm (occipital lobe)
+
+Thùy chẩm nằm trên cả 3 mặt và đầu sau của nó là *cực chẩm* (*occipital pole*). Ở mặt trên - ngoài, thùy chẩm nằm phía sau đường kẻ tưởng tượng nối rãnh đỉnh - chẩm với khuyết trước chẩm. Ở mặt này có 2 rãnh là *rãnh chẩm ngang* (*transverse occipital sulcus*) ở trên và *rãnh nguyệt* (*lunate sulcus*) ở dưới. Trường hợp thường thấy nhất, thùy chẩm ở mặt trên - ngoài có hai hồi: *hồi chẩm trên* (*superior occipital gyrus*) và *hồi chẩm dưới* (*inferior occipital gyrus*) ngăn cách nhau qua rãnh chẩm ngang (H.1).
+
+![Hình 2. Mặt dưới đại não [12]](figures/hinh_p374_2.png)
+
+![Hình 3. Mặt trên - ngoài đại não khi tách mở rãnh bên [12]](figures/hinh_p374_3.png)
+
+Ở mặt trong, thùy chẩm được ngăn cách với hồi trước chêm của thùy đỉnh bởi rãnh đỉnh - chẩm và có một múi não hình nêm gọi là *chêm* hay *hồi chêm* (*cuneus*) nằm giữa rãnh đỉnh chẩm và *rãnh cựa* (*calcarine sulcus*). Bên dưới rãnh cựa là *hồi lưỡi* (*lingual gyrus*). Hồi này nằm trên cả mặt dưới và mặt trong thùy chẩm và liên tiếp ở trước với hồi cạnh hải mã (các H. 2; 3).
+
+Mặt dưới của thùy chẩm không có ranh giới với mặt dưới thùy thái dương và cùng với mặt dưới thùy thái dương tạo nên *hồi chẩm - thái dương ngoài* (*lateral occipitotemporal gyrus*) và *hồi chẩm - thái dương trong* (*medial occipitotemporal gyrus*).
+
+#### 1.4. Thùy thái dương (temporal lobe)
+
+Thùy thái dương gồm 2 phần nằm ở mặt trên ngoài và mặt dưới bán cầu, 2 phần liên tiếp nhau qua bờ dưới. Đầu trước được gọi là *cực thái dương* (*temporal pole*).
+
+Ở mặt trên - ngoài, thùy thái dương nằm dưới rãnh bên, bị *rãnh thái dương trên* (*superior temporal sulcus*) và *rãnh thái dương dưới* (*inferior temporal gyrus* [sulcus]) chia thành 3 hồi: *hồi thái dương trên* (*superior temporal gyrus*), *hồi thái dương giữa* (*middle temporal gyrus*) và *hồi thái dương dưới* (*inferior temporal gyrus*). Hồi thái dương trên nằm ngay dưới rãnh bên và là *nắp thái dương* (*temporal operculum*) của rãnh này. Mặt trên hồi thái dương trên khuất trong rãnh bên và bao gồm *các hồi thái dương ngang* (*transverse temporal gyri*) ở trước và *mặt phẳng thái dương* (*temporal plane*) ở sau.
+
+Ở mặt dưới, thùy thái dương được ngăn cách với thùy trán qua hố não bên và với hồi cạnh hải mã của thùy viền qua rãnh bên phụ. Mặt này có có phần trước của các hồi chẩm - thái dương trong và ngoài. Các hồi chẩm - thái dương được ngăn cách với nhau bởi *rãnh chẩm - thái dương* (*occipitotemporal sulcus*).
+
+#### 1.5. Đảo (insula) hay thùy đảo (insular lobe)
+
+Trong thuật ngữ TA, thùy đảo (*insular lobe*) chỉ là đảo (*insula*). Trong tiếng Anh người ta dùng cả hai từ là "insula" và "insular lobe". Trong tiếng Việt, ta hay gọi là "thùy đảo" hơn.
+
+Đảo hay thùy đảo là một vùng vỏ não hình tam giác nằm vùi sâu trong rãnh bên. Tuy được ngăn với các thùy trán, đỉnh và thái dương bởi *rãnh vòng đảo* (*circular sulcus of insula*) nhưng nó vẫn bị các thùy trên trùm kín. Phần trùm lên đảo của ba thùy trên được gọi là các nắp: *nắp trán* (*frontal operculum*) và *nắp đỉnh* (*parietal operculum*) ở trên và *nắp thái dương* ở dưới. *Rãnh trung tâm đảo* (*central sulcus of insula*) chia đảo thành 2 phần sau và trước. Phần sau là *hồi đảo dài* (*long gyrus of insula*). Phần trước được các rãnh nhỏ chia thành *các hồi đảo ngắn* (*short gyri of insula*). Đầu trước dưới của đảo tiếp giáp với *thềm đảo* (*limen insulae*).
+
+![Hình 4. Mặt trong đại não [12]](figures/hinh_p376_4.png)
+
+#### 1.6. Thùy viền (limbic lobe)
+
+Thùy viền bao gồm các vùng đại não nằm ở mặt trong và mặt dưới bán cầu, bao quanh thể chai và gian não như một hình chữ C. Theo TA, thùy viền gồm các cấu trúc: diện dưới chai, hồi đai, hồi cạnh hải mã, móc, hồi răng, hồi dải, tua hải mã cùng các rãnh có liên quan là rãnh đai, rãnh bên phụ, rãnh mũi, rãnh hải mã, rãnh tua răng (H.2).
+
+*Hồi đai* (*cingulate gyrus*) nằm ở mặt trong bán cầu; nó ôm quanh mặt lưng thể chai và được ngăn cách với thể chai qua rãnh thể chai. Hồi đai được ngăn cách với thùy trán bởi rãnh đai và với thùy đỉnh bởi rãnh dưới đỉnh. Đầu trước hồi đai vòng qua gối thể chai rồi hướng xuống dưới liên tiếp với *diện dưới chai* (*subcallosal area*) hay *diện cạnh khứu* (*paraolfactory area*). Phía sau diện cạnh khứu là *hồi cạnh tận cùng* (*paraterminal gyrus*) nằm sát trước lá tận. Ở đây cần lưu ý về mặt danh pháp, hồi cạnh tận cùng còn có tên gọi là *hồi dưới chai* (*subcallosal gyrus*), khác với *diện dưới chai*. Diện dưới chai và hồi cạnh tận cùng cùng nhau tạo nên *vùng (diện) vách* (*septal area*) nơi có các nhân vách (Xem bài Hệ viền). Ngược lại, đầu sau hồi đai liên tiếp với hồi cạnh hải mã ở sau lồi thể trai qua *eo hồi đai* (*isthmus of cingulate gyrus*).
+
+*Hồi cạnh hải mã* (*parahippocampal gyrus*) nằm ở mặt dưới bán cầu, bao quanh hải mã ở mặt sâu. Hồi này được ngăn cách với mặt dưới thùy thái dương (ở phía ngoài) bởi *rãnh mũi* (*rhinal sulcus*) ở trước và rãnh bên phụ ở sau. Ở phía trên trong, nó được ngăn cách với *hồi răng* (*dentate gyrus*) bởi *rãnh hải mã* (*hippocampal sulcus*). Hồi răng nằm giữa hồi cạnh hải mã và hải mã, được ngăn cách với *các tua của hải mã* (*fimbria of hippocampus*) bởi *rãnh tua răng* (*fimbriodentate sulcus*). *Hồi dải* (*fasciolar gyrus*) là một dải từ đầu sau hồi răng chạy ra sau vòng quanh lồi thể chai nối với dải xám. Đầu trước hồi cạnh hải mã gập cong lên trên và vào trong, được gọi là *móc* (*uncus*); đầu sau liên tiếp với hồi lưỡi và nối với hồi đai qua eo hồi đai.
+
+"Thùy viền" là một thuật ngữ giải phẫu được dùng để chỉ các vùng vỏ trên bề mặt, không đồng nghĩa với thuật ngữ "hệ viền". "Hệ viền" là thuật ngữ chỉ một hệ chức năng. Ngoài các phần của thùy viền được mô tả ở đây, hệ viền còn bao gồm hải mã, diện dưới chai, diện cạnh khứu và nhiều cấu trúc khác thuộc khứu não, đồi thị và vùng hạ đồi (Xem Hệ viền).
+
+### 2. CẤU TẠO
+
+Tương tự như các phần khác của hệ thần kinh trung ương, đại não được cấu tạo bởi hai phần chính là chất xám và chất trắng. Chất xám của đại não tập trung phần lớn ở vỏ đại não, một phần nhỏ trong các nhân nền. Chất trắng của đại não phân bố dày đặc trong mô não, có thể chia thành các nhóm sợi: các sợi mép, các sợi chiếu và các sợi liên hợp.
+
+#### 2.1. Chất xám
+
+##### 2.1.1. Vỏ đại não
+
+*Vỏ đại não* (*cerebral cortex*) là phần chất xám nằm trên bề mặt đại não. Do có nhiều khe, rãnh và gấp nếp thành nhiều hồi, vỏ có diện tích bề mặt lớn, lên tới 2200 cm², dày từ 1,5 tới 4,5 mm, với số lượng nơron ước chừng khoảng 10 tỷ. Theo phát sinh loài, vỏ đại não được chia làm ba vùng: *cổ vỏ não* (*archicortex*), *cựu vỏ não* (*paleocortex*) và *tân vỏ não* (*neocortex* hay *isocortex*). Các vùng vỏ này khác nhau về số lớp tế bào. Cựu vỏ não, tương ứng với vỏ não khứu giác thứ cấp (*secondary olfactory cortex*), có nhiều nhất 5 lớp. Cổ vỏ não tương ứng với cấu tạo hải mã và các cấu trúc lân cận có nhiều nhất 3 lớp. Tân vỏ não, chiếm 90% diện tích vỏ não, có 6 lớp. Cấu trúc 6 lớp tế bào thường được mô tả như dạng cấu trúc vi thể đặc trưng của vỏ não.
+
+Tế bào chính trong vỏ não (có nhánh trục dài) là *các tế bào tháp* (*pyramidal cells*). Trong các tế bào tháp, tế bào tháp khổng lồ chỉ có mặt ở vùng vỏ vận động. Loại tế bào chính không điển hình là *tế bào hình thoi* (*fusiform cells*). Các tế bào khác trong vỏ như tế bào rổ, tế bào sao, tế bào Retzius - Cajal... là các nơron liên hợp.
+
+![Hình 5. Cấu trúc mô học vỏ đại não bằng phương pháp nhuộm Nissl [14]](figures/hinh_p377_5.png)
+
+Các lớp tế bào từ nông vào sâu được đánh dấu bằng ký tự La Mã I - VI. Gồm:
+- *Lớp I: Lớp phân tử*: nơi synáp với nhau giữa các nhánh cành (của tế bào tháp) với nhánh trục (đến từ vùng vỏ khác, đồi thị); chỉ có một số ít tế bào Retzius - Cajal xen giữa.
+- *Lớp II: Lớp hạt ngoài*: nhiều tế bào sao và tế bào tháp nhỏ.
+- *Lớp III: Lớp tháp ngoài*: chứa các tế bào tháp điển hình có kích thước tăng dần từ nông vào sâu. Nhánh trục phóng chiếu tới các vùng vỏ não khác (cùng hoặc khác bán cầu).
+- *Lớp IV: Lớp hạt trong*: cấu tạo tương tự lớp hạt ngoài.
+- *Lớp V: Lớp tháp trong*: chứa các tế bào tháp lớn nằm xen với các nơron liên hợp; riêng vùng vỏ vận động thứ nhất có tế bào tháp khổng lồ. Các nhánh trục phóng chiếu tới các đích dưới vỏ gồm thể vân, thân não và tủy sống.
+- *Lớp VI: Lớp đa hình*: tế bào hình thoi là tế bào chính ở đây nhưng cũng có tế bào tháp và các nơron liên hợp khác.
+
+*Các tiếp nối của vỏ não.* Các sợi đến vỏ não từ các nguồn sau: (1) các vùng vỏ khác cùng bán cầu (sợi liên hợp) hoặc bán cầu đối bên (sợi mép); (2) đồi thị; (3) nhân trước tường (tới vỏ các thùy đỉnh và chẩm); (4) các nhân nền não trước; (5) vết lục; (6) các nhân đường đan ở thân não; (7) một số nhân hạ đồi thị. Các sợi từ vỏ não đi là nhánh trục tế bào tháp và tế bào hình thoi. Chúng đi vào chất trắng của bán cầu và trở thành sợi mép, sợi liên hợp và một phần các sợi phóng chiếu.
+
+Dựa trên cấu trúc các lớp, hình thái tế bào và phân bố các bó nhánh trục, Brodmann (1909) đã lập một bản đồ đánh số 52 diện vỏ não trên khỉ, trong đó có 44 diện tương đồng trên não người. Các nghiên cứu thực nghiệm và lâm sàng đã cho phép xác định được các tiếp nối và chức năng của một số *diện Brodmann* (*Brodmann's areas*) này.
+
+**Vỏ não thùy trán**
+
+Thùy trán có các diện vỏ vận động và các diện vỏ có vai trò trong khả năng xét đoán, tầm nhìn và tâm tính con người. Hồi trước trung tâm và phần trước tiểu thùy cạnh trung tâm, tương ứng diện 4, là *diện vận động thứ nhất* (*primary motor area*). Phần sau của hồi trán dưới (thường ở bán cầu não trái), tương ứng với diện 44 và 45, là *diện Broca*, chi phối vận động các cơ phát âm. Tổn thương diện Broca dẫn tới chứng mất ngôn ngữ biểu đạt. Vùng vỏ ngay trước diện 4, nằm trên phần sau các hồi trán ở mặt ngoài và hồi trán trong ở mặt trong, là diện 6; tại diện này có *diện vận động bổ sung* (*supplementary motor area*) ở mặt trong và *diện tiền vận động* (*premotor area*) ở mặt ngoài. Trước diện 6, phần dưới của diện 8 trên mặt ngoài là *trường mắt thùy trán* (*frontal eye field*) liên quan đến các vận động mắt. Các diện 9 tới 12 ở quanh cực trán là *vỏ trước trán* (*prefrontal cortex*) liên quan đến các chức năng trí tuệ.
+
+Tại diện vận động thứ nhất, mỗi cơ (hay cơ ở mỗi vùng cơ thể) đều có một diện tích đại diện trên diện này, và vị trí sắp xếp của các diện tích đại diện cũng giống như vị trí sắp xếp của các cơ trên cơ thể, tức là trên hồi trước trung tâm và phần trước tiểu thùy cạnh trung tâm ta có thể vẽ lên một hình *người lùn* (*homunculus*). Hình người lùn này có 3 đặc điểm: (1) lộn ngược trên dưới: phần dưới thấp của diện vận động đại diện cho những cơ ở phần đầu mặt (cao) của cơ thể và ngược lại; (2) mất cân xứng: các cơ nhỏ nhưng vận động tinh tế như cơ nội tại ở bàn tay có diện tích đại diện rộng, có cơ lớn như cơ mông diện tích đại diện lại hẹp; (3) đảo ngược phải trái: diện vận động bên não phải chi phối cơ bên trái và ngược lại.
+
+![Hình 6. Các diện Brodmann [15]](figures/hinh_p379_6.png)
+
+**Các vùng vỏ cảm giác ở các thùy đỉnh, chẩm và thái dương**
+
+Ở thùy đỉnh, hồi sau trung tâm và phần sau tiểu thùy cạnh trung tâm, tương ứng với các diện 1, 2 và 3, là *vỏ não cảm giác thân thể thứ nhất* (*primary somatosensory cortex*). Tính chất đại diện ở vỏ cảm giác thân thể thứ nhất giống như ở diện vận động thứ nhất. Các diện 5 và 7, tương ứng với tiểu thùy đỉnh trên và hồi trước chêm, là *vùng vỏ liên hợp cảm giác thân thể*. Diện 43 ở đầu dưới hồi sau trung tâm là *diện vỏ vị giác*.
+
+Ở thùy chẩm, diện vỏ não xung quanh rãnh cựa, tương ứng diện 17, là *vỏ não thị giác thứ nhất* (*primary visual cortex*). Các diện còn lại trong thùy này, diện 18 và diện 19, được gọi là *vỏ liên hợp thị giác* (*visual association cortex*).
+
+Ở thùy thái dương, mặt trên hồi thái dương trên, vốn khuất trong sàn rãnh bên và có các hồi thái dương ngang, là các diện 41 và 42; các diện này là *vỏ não thính giác thứ nhất* (*primary auditory cortex*). Mặt phẳng thái dương ở sau vỏ thính thứ nhất (vẫn trong sàn rãnh bên) cùng với phần sau của diện 22 trên mặt ngoài thùy thái dương là *vỏ liên hợp thính giác* (*auditory association cortex*). Ở hầu hết số người, diện vỏ này bên bán cầu trái được gọi là *diện Wernicke*. Tổn thương diện Wernicke thường gây thất ngôn tiếp nhận.
+
+![Hình 7. Sơ đồ các vùng cơ nhận chi phối tương ứng từ vỏ não vận động thứ nhất [15]](figures/hinh_p379_7.png)
+
+Diện 34 ở móc hải mã và thềm đảo và diện 28 (nội khứu - entorhinal) ở hồi cạnh hải mã là các diện vỏ khứu giác.
+
+##### 2.1.2. Các nhân nền (basal nuclei)
+
+Các nhân nền hay các hạch nền là các nhân xám vùi trong chất trắng và tách biệt với vỏ não. Theo các nhà giải phẫu, các nhân này bao gồm *thể vân* (*corpus striatum*), *nhân trước tường* (*claustrum*) và *phức hợp hạnh nhân* (*amygdaloid complex*), tức là tất cả các chất xám dưới vỏ. Theo chức năng và lâm sàng, thể vân cùng với nhân dưới đồi thị và chất đen của trung não được mô tả như một hệ thống có chức năng liên hệ với nhau, ngay cả khi được mô tả dưới tiêu đề "các nhân nền". Trong khi đó, chức năng của nhân trước tường chưa thật rõ, còn phức hợp hạnh nhân lại có mối liên hệ chức năng với hệ viền và được mô tả cùng với hệ viền (xem Hệ viền).
+
+![Hình 8. Thiết đồ ngang qua đại não (A) và quan hệ vị trí giữa các nhân nền và đồi thị (B) [12]](figures/hinh_p380_8.png)
+
+Về giải phẫu, thể vân gồm *nhân đuôi* (*caudate nucleus*) và *nhân bèo* (*lentiform nucleus*). Nhân bèo gồm phần ngoài là *bèo sẫm* (*putamen*) và phần trong là *cầu nhạt* (*globus pallidus*). Về phân chia dựa theo tiếp nối và chức năng, nhân đuôi và bèo sẫm được gọi là *vân* (*striatum*) hay *tân thể vân* (*neostriatum*), còn cầu nhạt thuộc về *nhạt* (*pallidum*) hay *cựu thể vân* (*paleostriatum*). Vân tiếp nhận các sợi đến từ vỏ đại não, đồi thị và phần đặc chất đen. Trong bệnh Parkinson, vân không nhận được các sợi đến từ chất đen (mang tới dopamine). Các sợi từ vân phóng chiếu tới cả hai phần cầu nhạt và chất đen. Các sợi từ cầu nhạt phóng chiếu lên đồi thị và trung não. Con đường đồi thị - vỏ não khép kín vòng tiếp nối thần kinh từ vỏ đại não đi qua thể vân, một vòng thần kinh liên quan đến chức năng vận động.
+
+Nhân bèo có hình nêm với phần hẹp hướng vào trong là cầu nhạt và phần rộng ở ngoài là bèo sẫm, hai phần được ngăn cách nhau bằng một lá chất trắng. Cầu nhạt lại được một lá chất trắng nữa chia thành hai phần trong và ngoài. Nhân bèo nằm ngang mức đảo, được ngăn cách với đảo ở phía ngoài bởi ba lớp, lần lượt từ trong ra là *bao ngoài* (*external capsule*), *nhân trước tường* và *bao ngoài cùng* (*extreme capsule*). Mặt trong nhân bèo tiếp xúc với bao trong, được bao trong ngăn cách với đồi thị và nhân đuôi. Mặt bụng nhân bèo sát với các cấu trúc ở nền não như chất thủng trước, dải thị giác.
+
+*Nhân đuôi* (*caudate nucleus*) là một nhân uốn cong hình chữ C, nằm phía ngoài đồi thị, gồm đầu, thân, và đuôi, đầu và đuôi đều hướng ra trước. Mặt lõm nhân đuôi ôm quanh đồi thị và bao trong, còn mặt lồi của nó lại bị vây quanh bởi não thất bên và tham gia vào các thành của não thất bên: đầu tạo nên thành dưới ngoài của sừng trán, thân nằm ở thành dưới ngoài của phần trung tâm, đuôi nằm dọc trần của sừng thái dương. Sừng trán và phần trung tâm não thất bên ngăn cách nhân đuôi với thể chai. Đầu nhân đuôi liên tiếp với bèo sẫm, phần còn lại của nhân đuôi ngăn cách với nhân bèo bởi bao trong nhưng hai nhân vẫn nối với nhau bởi các cầu nối ngang qua bao trong.
+
+#### 2.2. Chất trắng
+
+Chất trắng đại não được tạo bởi ba loại nhánh trục (có myelin): các sợi liên hợp, các sợi mép, các sợi chiếu.
+
+##### 2.2.1. Các sợi liên hợp (Hình 9)
+
+*Các sợi liên hợp* (*association fibres*) kết nối những phần vỏ não khác nhau trong cùng một bán cầu đại não. Các sợi ngắn là những sợi thường chạy qua lại giữa các hồi não lân cận. Các sợi dài nối những vùng não ở các thùy não khác nhau. Các sợi dài đi trong các bó: *bó dọc trên* (*superior longitudinal fasciculus*), *bó dọc dưới* (*inferior longitudinal fasciculus*), *bó chẩm - trán dưới* (*inferior occipitofrontal fasciculus*), *bó móc* (*uncinate fasciculus*), *bó đai* (*cingulum*), và vòm.
+
+Vòm là cấu trúc vừa chứa các sợi liên hợp vừa chứa các sợi mép. Trong đó, nó chủ yếu chứa các sợi liên hợp từ hải mã tới các vùng vỏ não khác (Xem bài Hệ viền).
+
+![Hình 9. Các sợi liên hợp ngắn (A), các sợi liên hợp dài (B và C) [14]](figures/hinh_p382_9.png)
+
+##### 2.2.2. Các sợi mép
+
+*Các sợi mép* (*commissural fibres*) là những sợi kết nối các vùng vỏ não ở hai bán cầu. Chúng băng qua đường giữa và tạo nên các mép nối 2 bán cầu, gồm: thể chai, mép trước và vòm (Hình 3).
+
+*Thể chai* (*corpus callosum*) là mép gian bán cầu lớn nhất, nó chứa 150-200 triệu sợi thần kinh. Từ trước ra sau thể chai gồm bốn phần: *mỏ* (*rostrum*), *gối* (*genu*), *thân* (*trunk*) và *lồi* (*splenium*). Mặt lưng thể chai là đáy của khe não dọc và rãnh giữa lưng thể chai và hồi đai bao quanh là rãnh thể chai. Mặt bụng của thể chai là trần của các não thất bên và được nối với lưng của thân vòm bởi vách trong suốt. Các sợi từ gối thể chai khi đi vào 2 thùy trán thì tạo nên *kẹp trán* (*frontal forceps*). Gối thuôn hẹp dần tới mỏ. Mỏ nằm ngay trên diện dưới chai và liên tiếp với lá tận ở thành trước não thất ba. Lồi thể chai là phần dày nhất của thể chai, nhô ra ở ngay sau gian não. Các sợi từ lồi thể chai đi vào hai thùy chẩm tạo nên *kẹp lớn* hay *kẹp chẩm* (*occipital forceps*). Lớp sợi mỏng của thể chai chạy vào thành sừng thái dương não thất bên được gọi là *thảm trai* (*tapetum*). Khi các sợi mép của thể chai tỏa vào trong chất trắng của bán cầu, chúng đan vào với các sợi liên hợp và các sợi chiếu (các H.3 và 10).
+
+*Mép trước* (*anterior commissure*) là một bó chứa khoảng 3,5 triệu sợi trục có myelin. Nó được cho là chủ yếu kết nối các vùng vỏ não thuộc thùy viền hoặc các trung tâm khứu giác, một số sợi liên kết các thùy trán và thùy thái dương. Mép trước có hình dạng như một chiếc tay lái xe đạp.
+
+*Mép vòm* là một tấm các sợi nhỏ tạo thành hình tam giác, liên kết hai trụ của vòm với nhau.
+
+##### 2.2.3. Các sợi chiếu và bao trong
+
+*Các sợi chiếu* (*projection fibres*) là các sợi đi lên hoặc đi xuống liên kết các vùng vỏ não với những nơron nằm ở vùng não thấp hơn hoặc tủy sống. Khi đi giữa đồi thị và đầu nhân đuôi ở trong, nhân bèo ở ngoài, các sợi chiếu tạo nên bao trong, hay đóng góp hầu hết các sợi của bao trong. Ra khỏi bao trong, các sợi chiếu tỏa ra thành vành tia (Hình 10).
+
+Trên thiết đồ ngang, *bao trong* (*internal capsule*) có hình chữ V với vị trí góc nhọn (gối bao trong) nằm giữa đồi thị và nhân đuôi. Bao trong thường được mô tả với năm phần là trụ trước, gối, trụ sau, phần sau bèo và phần dưới bèo. *Trụ trước* (*anterior limb*) nằm giữa nhân bèo và đầu nhân đuôi. *Gối bao* nằm trong đỉnh nhân bèo. *Trụ sau* (*posterior limb*) nằm giữa nhân bèo và đồi thị. *Phần sau bèo* (*retrolentiform part*) và *phần dưới bèo* (*sublentiform part*) chiếm các vùng nằm lần lượt sau và dưới nhân bèo (Xem bài Tủy sống).
+
+![Hình 10. Bán cầu não phải nhìn từ bên trái qua phẫu tích sợi [14]](figures/hinh_p383_10.png)
+
+Trụ trước của bao trong chứa tia đồi thị trước (gồm các sợi nối tiếp qua lại giữa đồi thị và vỏ não) và các sợi trán - cầu đi từ vỏ não thùy trán tới các nhân của cầu não. Gối của bao trong chứa các sợi vỏ - nhân. Trụ sau của bao trong chứa các sợi vỏ - tủy (dải tháp), các sợi vỏ - lưới, vỏ - đỏ, vỏ - đồi thị, đỉnh - cầu, đồi thị - đỉnh và tia đồi thị trung tâm. Phần sau nhân bèo của bao trong chứa các sợi chẩm - cầu, chẩm - mái và tia thị (các sợi gối cựa); một số các sợi đồi thị - vỏ não. Phần dưới nhân bèo của bao trong chứa các sợi trán - cầu, thái dương - cầu và tia thính.
+
+Bởi phần lớn các sợi chiếu tập trung đi trong một cấu trúc hẹp như bao trong, một tổn thương nhỏ ở đây, đặc biệt là trụ sau bao trong, có thể gây ra những bệnh cảnh lâm sàng hết sức nặng nề như liệt hoàn toàn và đồng nhất ở nửa cơ thể.
