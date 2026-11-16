@@ -6,1511 +6,265 @@
 
 ---
 
-Chuong 6 
-Hi Ni)I TIET (endocrine system) 
-1. OI CU'O'NG V HI; NOi TIET
-H? thftn kinh va h? n9i ti€t cung nhau di€u hoa chuc nling cua tftt ca cac h? ca 
-quan. H? thftn kinh ho?t dc)ng qua cac xung d(mg thftn kinh dn truy€n d9c cac nhanh 
-tn,ic cua cac naron, va tin hi?u thftn kinh duqc truy€n gifra cac naron, gifra naron va t€ 
-bao ca hoc tuySn qua chftt trung gian truy€n tin g9i la chdt dan truyJn thdn kinh. H? 
-n('>i tiSt cung kiSm soat cac ho?t d9ng ca th€ bing each giai ph6ng ra nhfrng chftt trung 
-gian, g9i la cac hormone. 
-Mc)t hormone la m9t phan ru trung gian duqc giai ph6ng ra tu m9t phftn ca th 
-nhung di€u hoa ho?t d9ng tS bao 6 cac phftn khac cua ca th. Hftu hSt cac hormone di 
-vao dich ke va sau d6 di vao dong mau. Mau tuftn hoan dem cac hormone t&i cac tS bao 
-tren khip ca th€. Ca cac chftt dfin truy€n thftn kinh va cac honnone d€u th\l'c hi?n tac 
-dc)ng cua chung bing each gin v&i cac receptor tren t€ bao dich. M9t s6 chftt trung gian 
-ho?t dong vua nhu chftt dfin truy€n thftn kinh vua nhu hormone. Ching h?n nhu 
-norepinephrine vt'ra la chftt dfin truy€n thftn kinh do cac naron giao cam sau h?ch giai 
-ph6ng ra vua la hormone do t€ bao ua crom cua tuy thuqng thn tiSt ra. 
-Cac dap ung cua M noi tiSt thuong la chm hon so v&i cac dap ung cua h? thftn 
-kinh nhung nhfrng tac d9ng cua S\f ho?t h6a M thftn kinh diSn ra trong thai gian ngin 
-han so v&i h? n9i tiSt. H? thftn kinh tac dong tren cac ca va tuy€n rieng bi?t. Anh huong 
-cua M n9i tiSt thi rong han nhi€u; n6 giup di€u hoa ho?t dong cua hftu nhu tftt ca cac 
-lo?i tS bao ca th€. 
-Cac h? thftn kinh va noi tiSt c6 lien h? mt thiSt v&i nhau t?i vung h? d6i thj cua h? 
-thftn kinh. Yung nay c6 cac nh6m tS bao thftn kinh c6 kha nang t6ng hqp va giai ph6ng 
-hormone, g9i la cac ti baa thdn kinh tidt (neurosecretory cells), va vi th€ vua dong vai 
-tro nhu mot vung thftn kinh, vua la tuySn noi tiSt quan tr9ng nhftt ca th€. 
-Ca th€ c6 hai lo?i tuy€n la tuySn ngo?i ti€t va tuySn noi tiSt. Cac tuy€n ngo?i tiSt 
-tiSt cac san phim cua chung vao cac 6ng ma vn chuySn cac chftt tiSt d6 vao cac khoang 
-ca th€, vao long cua mot ca quan r6ng, hoc t&i mt ngoai ca th€. Ccic tuydn n(Ji tidt 
-( endocrine glands) ti St cac san phim cua chung (hormone) vao djch ke quanh cac t€ bao 
-tiSt. Tu djch ke, hormone khuySch tan vao cac mao LTI?Ch mau va mau vn chuySn 
-chung t&i cac tS bao dich tren khip ca th€. Vi phai ph\l thuoc vao h? tuftn hoan dS phan 
-ph6i san phim di khip ca th€, cac tuySn noi tiSt nim trong s6 nhfrng mo giau m?ch mau 
-nhftt cua ca th€. 
-Cac tuySn n9i tiSt bao g6m, tuySn yen, tuySn giap, tuySn cn giap, tuySn thuqng 
-thn va tuy€n tung. Them nfra, c6 mc)t s6 ca quan va mo khong duqc g9i la tuySn noi 
 
+Chương 6
 
+HỆ NỘI TIẾT (endocrine system)
+
+1. ĐẠI CƯƠNG VỀ HỆ NỘI TIẾT
+
+Hệ thần kinh và hệ nội tiết cùng nhau điều hòa chức năng của tất cả các hệ cơ quan. Hệ thần kinh hoạt động qua các xung động thần kinh dẫn truyền độc các nhánh trục của các neuron, và tín hiệu thần kinh được truyền giữa các neuron, giữa neuron và tế bào cơ hoặc tuyến qua chất trung gian truyền tin gọi là chất dẫn truyền thần kinh. Hệ nội tiết cũng kiểm soát các hoạt động cơ thể bằng cách giải phóng ra những chất trung gian, gọi là các hormone.
+
+Một hormone là một phân tử trung gian được giải phóng ra từ một phần cơ thể nhờ điều hòa hoạt động tế bào ở các phần khác của cơ thể. Hầu hết các hormone đi vào dịch kê và sau đó đi vào dòng máu. Máu tuần hoàn đem các hormone tới các tế bào trên khắp cơ thể. Các chất dẫn truyền thần kinh và các hormone đều thực hiện tác động của chúng bằng cách gắn với các receptor trên tế bào đích. Một số chất trung gian hoạt động vừa như chất dẫn truyền thần kinh vừa như hormone. Chẳng hạn như norepinephrine vừa là chất dẫn truyền thần kinh do các neuron giao cảm sau hạch giải phóng ra vừa là hormone do tế bào ưa crom của tuyến thượng thận tiết ra.
+
+Các đáp ứng của hệ nội tiết thường là chậm hơn so với các đáp ứng của hệ thần kinh nhưng những tác động của sự hoạt hóa hệ thần kinh diễn ra trong thời gian ngắn hơn so với hệ nội tiết. Hệ thần kinh tác động trên các cơ và tuyến riêng biệt. Ảnh hưởng của hệ nội tiết thì rộng hơn nhiều; nó giúp điều hòa hoạt động của hầu như tất cả các loại tế bào cơ thể.
+
+Các hệ thần kinh và nội tiết có liên hệ mật thiết với nhau tại vùng hạ đồi thị của hệ thần kinh. Vùng này có các nhóm tế bào thần kinh có khả năng tổng hợp và giải phóng hormone, gọi là các tế bào thần kinh tiết (neurosecretory cells), và vì thế vừa đóng vai trò như một vùng thần kinh, vừa là tuyến nội tiết quan trọng nhất cơ thể.
+
+Cơ thể có hai loại tuyến là tuyến ngoại tiết và tuyến nội tiết. Các tuyến ngoại tiết tiết các sản phẩm của chúng vào các ống mà vận chuyển các chất tiết đó vào các khoang cơ thể, vào lòng của một cơ quan rỗng, hoặc tới mặt ngoài cơ thể. Các tuyến nội tiết (endocrine glands) tiết các sản phẩm của chúng (hormone) vào dịch kê quanh các tế bào tiết. Từ dịch kê, hormone khuếch tán vào các mao mạch máu và máu vận chuyển chúng tới các tế bào đích trên khắp cơ thể. Vì phải phụ thuộc vào hệ tuần hoàn để phân phối sản phẩm đi khắp cơ thể, các tuyến nội tiết nằm trong số những mô giàu máu nhất của cơ thể.
+
+Các tuyến nội tiết bao gồm, tuyến yên, tuyến giáp, tuyến cận giáp, tuyến thượng thận và tuyến tụy. Thêm nữa, có một số cơ quan và mô không được gọi là tuyến nội
 
 <!-- Hết trang 509 -->
 
+tiết nhưng lại chứa những tế bào tiết hormone. Những cơ quan này bao gồm vùng hạ đồi thị, tuyến ức, tụy, buồng trứng, tinh hoàn, thận, dạ dày, gan, ruột non, da, tim, mô mỡ và rau thai. Các tuyến chuyên nội tiết và các cơ quan có tế bào nội tiết này tạo nên hệ nội tiết. Bài này chỉ mô tả một số tuyến: tuyến yên, tuyến giáp, tuyến cận giáp, tuyến thượng thận và tuyến ức. Tuyến tụng và vùng hạ đồi thị được trình bày ở bài Gian niệu; tụy nội tiết được trình bày ở chương về Hệ tiêu hóa; tinh hoàn được trình bày ở bài Hệ sinh dục nam; buồng trứng được trình bày ở bài Hệ sinh dục nữ.
 
-ti€t nhung li chua nhfmg t€ bao ti€t hormone. Nhfmg ca quan nay bao g6m vimg h d6i 
-thi, tuy€n uc, tl,ly, bu6ng tn'.mg, tinh hoan, thn, d day, gan, ru9t non, da, tim, mo ma va 
-rau thai. Cac tuy€n chuyen nc)i ti€t va cac ca quan c6 t€ bao rn)i ti€t nay to nen M n(>i 
-tit. Bai nay chi mo ta m9t s6 tuy€n: tuy€n yen, tuy€n giap, tuy€n cn giap, tuySn 
-thuqng thn va tuy€n uc. Tuy€n tung va vi.mg h d6i thi duqc trinh bay a bai Gian nao; 
-tl,ly n9i ti€t duqc trinh nay a chuang v H? tieu h6a; tinh hoan duqc trinh bay a bai H? 
-sinh d\.lC nam; bu6ng trung duqc trinh bay a bai H? sinh d\.lc nu. 
-2. TUYl:N YEN (pituitary gland)
-2.1. Vj tri, kich thmrc va phan chia (H.1)
-Tuy€n yen, hay mom ht;z nao (hypophysis cerebri) (H. l ), la m9t kh6i hinh tn'.mg, 
-mau xam hai do, c6 dm':mg kinh khoang 12 mm tbeo chiu ngang va 8 mm theo cbi€u 
-tru&c sau, va trc.mg luqng trung binh a nguai truang thanh la 500 mg. N6 lien tl,lc v&i 
-cu6ng tuy€n yen (hay phu), m9t mom binh n6n r6ng nho xu6ng dum tu cu xam cua h 
-d6i thj. N6 nilm trong h6 tuy€n yen cua xuang buarn, nai ma n6 duqc che phu bai m(>t 
-hoanh yen hinh vong cua mang nao cung. Hoanb yen c6 m9t 16 cho pbu (hay cu6ng 
-tuy€n yen) di qua va ngan each mt tru&c tren cua tuy€n yen v&i giao thoa thi giac. V€ 
-phia du&i, tuy€n yen duqc ngan each vm san h6 tuy€n yen bai m9t xoang tinh mcb ma 
-thong n6i v&i xoang vong (circular sinus). Mang nao hoa ln v&i bao tuy€n yen. 
-D9ng 1ni:ichtb6ngsau-----::,... 
-0911g mi:ich nao sau----1-
-Th§n kinh vRn nhan---1--::'" 
-Th§n kinh rang r9c----J!'S 
-D9ng mi:ich tiTu nao tren,----
-Ph§n sau tuy€n yen ____ __ 
-D9ng mi:ich nUn---------.-
-D9ng mi:ich nao truoc 
-Ngach tren thi 
-VW--=--Giao thoa tbi giac 
-Th§n kinb thi giac 
-i....--...c_Ph§n tnroc tuy€n yen 
+2. TUYẾN YÊN (pituitary gland)
 
-![Hinh 1. Vi tri va phan chia tuytm yen [15]](giaiphau_media/hinh_p510_1.png)
+2.1. Vị trí, kích thước và phân chia (H.1)
 
-*Hinh 1. Vi tri va phan chia tuytm yen [15]*
-
-Tuy€n yen g6m hai phfin chinh, la tuydn yen thdn kinh hay mom ht;z niio thdn kinh 
-(neurohypophysis) va tuydn yen tuydn hay mom hr;z niio tuydn (adenohypophysis), v6n 
-khac nhau v€ ngu6n g6c, du true va chuc nang. 
-Mom h nao thfin kinh la m9t phfin phat tri€n xu6ng duai cua vi.mg h d6i thi cua 
-gian nao. Mom h nao tuy€n c6 ngu6n g6c tu ngoi bi cua h6 ming nguyen tbuy. Ca 
+Tuyến yên, hay móm hạ não (hypophysis cerebri) (H.1), là một khối hình trứng, màu xám hơi đỏ, có đường kính khoảng 12 mm theo chiều ngang và 8 mm theo chiều trước sau, và trọng lượng trung bình ở người trưởng thành là 500 mg. Nó liên tục với cuống tuyến yên (hay phễu), một móm hình nón rộng nhờ xuống dưới từ củ xám của hạ đồi thị. Nó nằm trong hố tuyến yên của xương bướm, nơi mà nó được che phủ bởi một hoành yên hình vòng của màng não cứng. Hoành yên có một lỗ cho phễu (hay cuống tuyến yên) đi qua và ngăn cách mặt trước của tuyến yên với giao thoa thị giác. Về phía dưới, tuyến yên được ngăn cách với sàn hố tuyến yên bởi một xoang tình mạch mà thông nối với xoang vòng (circular sinus). Màng não hòa lẫn với bao tuyến yên.
 
 
+
+![Hình 1. Vị trí và phân chia tuyến yên [15]](giaiphau_media/hinh_p510_1.png)
+
+*Hình 1. Vị trí và phân chia tuyến yên [15]*
+
+
+Tuyến yên gồm hai phần chính, là tuyến yên thần kinh hay móm hạ não thần kinh (neurohypophysis) và tuyến yên tuyến hay móm hạ não tuyến (adenohypophysis), vốn khác nhau về nguồn gốc, cấu trúc và chức năng.
+
+Móm hạ não thần kinh là một phần phát triển xuống dưới của vùng hạ đồi thị của gian não. Móm hạ não tuyến có nguồn gốc từ ngoại bì của hố miệng nguyên thủy. Cả
 
 <!-- Hết trang 510 -->
 
+hai mồm bao gồm một phần của cuống tuyến yên (phễu). Phần trung tâm của cuống tuyến yên, gọi là cuống phễu (infundibular stem), chứa các sợi tiếp nối hạ đồi - mồm hạ nào và liên tiếp với lỗ giữa của củ xám. Phần ngoại vi của cuống tuyến yên, bao quanh cuống phễu, là phần củ (pars tuberalis), một phần phát triển lên trên tuyến yên tuyến yên. Như vậy, tuyến yên thần kinh bao gồm lỗ giữa, cuống phễu và thùy thần kinh (neural lobe) hay phần sau (pars posterior) tuyến yên. Tuyến yên tuyến bao gồm phần trước (pars anterior/pars distalis), phần củ (pars tuberalis) và phần trung gian (pars intermedia). Phần trung gian hay thùy giữa kém phát triển ở người và cũng có tác giả xem như thuộc thùy sau. Tóm lại, tuyến yên không chỉ gồm phần trước và phần sau mà mỗi phần còn bao gồm một phần của cuống tuyến yên (phễu) khi mang tên là tuyến yên tuyến và tuyến yên thần kinh.
 
-hai mom bao g6m m(H ph§.n cua cu6ng tuySn yen (ph€u). Ph§.n trung tam cua cu6ng 
-tuySn yen, g9i la cut5ng phiu (infundibular stem), chua cac sqi tiSp n6i h¬ d6i - mom h¬ 
-nao va lien tiSp v&i 16i gifra cua cu xam. Ph§.n ngo¬i vi cua cu6ng tuySn yen, bao quanh 
-cu6ng phSu, la phdn cu (pars tuberalis ), m9t ph§.n phat tri€n len tren cua tuySn yen 
-tuySn. Nhu v­y, tuySn yen thin kinh bao g6m 16i gifra, cu6ng ph€u va thuy thdn kinh 
-(neural lobe) hay phdn sau (pars posterior) tuySn yen. TuySn yen tuySn bao g6m phcin 
-truck (pars anterior/pars distalis ), phdn cu (pars tuberalis) va phcin trung gian (pars 
-intermedia). Ph§.n trung gian hay thuy gifra kem phat tri€n a nguai va cung c6 tac gia 
-xem nhu thu<)c thuy sau. T6m l¬i, tuySn yen kh6ng chi g6m phin tru&c va phin sau ma 
-m6i phin con bao g6m m9t phin cua cu6ng tuySn yen (phSu) khi mang ten la tuySn yen 
-tuySn va tuySn yen thin kinh. 
-2.2. Tuy®n yen thftn kinh (H.2) 
-Nhanh tll,lC xu§t phat tu cac nh6m naron cua h¬ d6i thi di xu6ng t­n cung (J tuySn 
-yen thin kinh. Cac nhanh tll,lC dai cua cac naron tS bao l&n cua cac nhan tren thi va 
-quanh nao thfit t¬o thanh dai h¬ d6i - mom h¬ nao va t­n cung a g§.n cac mao m¬ch d¬ng 
-xoang cua phin sau (H.2). Cac naron nho hon a vanh dai quanh nao thfit thi c6 nhanh 
-tll,lc ngiln hon t­n cung vung 16i gifra va cu6ng phSu, nai c6 m¬ng lu&i mao m¬ch tren 
-cua h¯ th6ng cfra h¬ d6i - mom h¬ nao (H.2). Nhfrng naron nho nay san xu§t cac 
-hormone giai ph6ng va UC ch€, c6 tac d1,mg ki€m soat cac ho¬t d('mg tiSt cua tuySn yen 
-tuySn thong qua tuin hoan m¬ch cfra. Cac hormone thin kinh ma cac nhanh tll,lc tS bao 
-l&n dl,f tru a thuy sau tuySn yen la vasopressin (ADH), ch§t tai h§p thu nu&c a cac 6ng 
-th­n, va oxytocin, ch§t lam co ca tron tu cung trong luc sinh. TuySn yen th:ln kinh c6 
-cac tS bao sao va cac rd bao thuy sau tuyin yen (pituicytes) bao quanh cac nhanh tll,lC. 
-2.3. Tuy®n yen tuy®n 
-TuySn yen tuySn c6 nhiSu m¬ch mau. N6 bao g6m cac tS bao bi€u m6 c6 kich 
-thu&c va hinh d¬ng khac nhau duqc xSp thanh nhfrng day hay nhfrng nang dSu d°n, va 
-nftm gifra nhfrng day va nang d6 la nhung mao m¬ch d¬ng xoang thanh m6ng duqc 
-ch6ng d5' bai m<)t mo lien kSt lu&i mong manh. H:lu hSt cac hormone duqc t6ng hqp bai 
-tuySn yen tuySn la cac kich t6, bao g6m: hormone tang truang (GH); Prolactin (PRL), 
-ch§t kich thich tang truang m6 vu va tiSt sfra; hormone kich vo thuqng th­n (ACTH), 
-ch§t ki€m soat tiSt m<)t s6 hormone v6 thuqng th­n; hormone kich nang (FSH), ch§t 
-kich thich tang truang va tiSt oestrogen a nang trung; va hormone hoang th€ h6a (LH), 
-chfit gay tiSt progesterone bai hoang th€ va t6ng hqp testosterone bai tS bao Leydig tinh 
-boan. Cac tS bao bi€u m6 n<)i tiSt duqc phan lo¬i theo ai tinh cua chung v&i cac thu6c 
-nhu◊m va theo cac hormone chung t6ng hqp. 
-Ph:ln trung gian chua cac nang tS bao ki mau ma bao quanh cac du true gi6ng 
-nhu nang duqc 16t bai bi€u mo va duqc lfip d:ly v&i ch§t d¬ng keo. Cac san ph§.m tiSt 
-cua vung nay c6 th€ bao g6m cac san ph§.m chia ta.ch cua proopiomelanocortin nhung y 
-nghia chuc nang cua chung thi chua ro. Ph:ln cu chua nhiSu m¬ch mau vay quanh cac 
-day hay cac c1,1m tS bao tiSt cac hormone hu&ng sinh d1,1c. 
+2.2. Tuyến yên thần kinh (H.2)
 
+Nhánh trục xuất phát từ các nhóm neuron của hạ đồi thị đi xuống tận cùng ở tuyến yên thần kinh. Các nhánh trục dài của các neuron tế bào lớn của các nhân trên thị và quanh não thất tạo thành dải hạ đồi - mồm hạ nào và tận cùng ở gân các mao mạch dạng xoang của phần sau (H.2). Các neuron nhỏ hơn ở vùng đại quanh não thất thì có nhánh trục ngắn hơn tận cùng vùng lỗ giữa và cuống phễu, nơi có mạng lưới mao mạch trên của hệ thống của hạ đồi - mồm hạ nào (H.2). Những neuron nhỏ này sản xuất các hormone giải phóng và ức chế, có tác dụng kiểm soát các hoạt động tiết của tuyến yên tuyến thông qua tuần hoàn máu của. Các hormone thần kinh mà các nhánh trục tế bào lớn dự trữ ở thùy sau tuyến yên là vasopressin (ADH), chất tái hấp thu nước ở các ống thận, và oxytocin, chất làm co cơ trơn tử cung trong lúc sinh. Tuyến yên thần kinh có các tế bào sao và các tế bào thùy sau tuyến yên (pituicytes) bao quanh các nhánh trục.
 
+2.3. Tuyến yên tuyến
+
+Tuyến yên tuyến có nhiều mạch máu. Nó bao gồm các tế bào biểu mô có kích thước và hình dạng khác nhau được xếp thành những dãy hay những nang đều đặn, và nằm giữa những dãy và nang đó là những mao mạch dạng xoang thành mỏng được chống đỡ bởi một mô liên kết lưới mỏng mảnh. Hầu hết các hormone được tổng hợp bởi tuyến yên tuyến là các kích tố, bao gồm: hormone tăng trưởng (GH); Prolactin (PRL), chất kích thích tăng trưởng mô vú và tiết sữa; hormone kích vỏ thượng thận (ACTH), chất kiểm soát tiết một số hormone vỏ thượng thận; hormone kích nang (FSH), chất kích thích tăng trưởng và tiết estrogen ở nang trứng; và hormone hoàng thể hóa (LH), chất gây tiết progesterone bởi hoàng thể và tổng hợp testosterone bởi tế bào Leydig tinh hoàn. Các tế bào biểu mô nội tiết được phân loại theo ái tính của chúng với các thuốc nhuộm và theo các hormone chúng tổng hợp.
+
+Phần trung gian chứa các nang tế bào màu mà bao quanh các cấu trúc giống như nang được lót bởi biểu mô và được lấp đầy với chất dạng keo. Các sản phẩm tiết của vùng này có thể bao gồm các sản phẩm chia tách của proopiomelanocortin nhưng ý nghĩa chức năng của chúng thì chưa rõ. Phần củ chứa nhiều mạch máu và quan hệ dây hay các cụm tế bào tiết các hormone hướng sinh dục.
 
 <!-- Hết trang 511 -->
 
+Các nhân hạ đốt thị giáp ứng
+với các kích thích xúc cảm
+và ngoại cảm thụ
 
-Cac nhan h!.I d6i thi dap {mg 
-v&i cac kich thich xuc cam --...._ 
-va ngo!,li cam th\! 
-Th¢vu 
-D()ng ID!,ICh tuyBn yen tren - _,. 
-D()ng ID!_ICh be n6i cua cac 
-d()ng ffi!_ICh tuyBn yen tren--------,• 
-va du&i 
-D()ng ffi!_ICh tuyBn yen du6i 
-T£n cungsqitr\lc-----+--#-q 
-M!,lng hr6i mao ID\!Ch trong ____ -t-·-A'-"
-pb§u sau tuyBn yen 
-Tinh ID\!Ch tuyBn yen (t&i 
-cac xoang mang cung) __ _
-Phin sau tuy€n yen-----../ 
-____ 1_1 ___ Nban qmh niio th¡t
-o
-. 
-n¤m 616i
-ti&p nh¥n cac honnone
-tinh rmich cira v¥n chuy€n 
-hormone tai tuy&n yen 
-¦§til!lliiii.i¨---,-M\lllg lu6i mao m!_lch du6i 
-TB bao ua acid 
-TB bao ua bazcr 
-TB bao ki mau 
-Hª th6ng 
-ctia h!.I d6i 
-mom h!.I nao 
-Tinh ffi\!Ch tuy6n yen 
-(t&i cac xoang mang cung) 
-©-----Ph§u trlf(JC tuy€n yen 
+Nhân canh não thát
+Nhân trên thị
+Thể vú
+Giao thoa thị giác
 
-![Hinh 2. M6i lien he hc;i doi - tuyen yen qua than kinh va he th6ng mc;ich CU'a [15]](giaiphau_media/hinh_p512_2.png)
+Động mạch tuyền yên trên
+Động mạch bè nối của các động mạch tuyền yên trên và dưới
+Động mạch tuyền yên dưới
 
-*Hinh 2. M6i lien he hc;i doi - tuyen yen qua than kinh va he th6ng mc;ich CU'a [15]*
+Tân cung sợi trực
+Màng lưới mao mạch trong phần sau tuyền yên
+Tĩnh mạch tuyền yên (tới các xoang màng cứng)
+Phần sau tuyền yên
 
-2.4. Cac m;ch mau ciia tuy<n yen (H.2) 
-Tuy€n yen duqc d.p mau bCYi d('mg ffil;).Ch tuy€n yen du6i va cac d('mg ffil;).Ch tuy€n 
-yen tren cua d()ng m<;1ch canh trong. D()ng ml;).ch tuySn yen du&i tach ra CY 00<;\Il xoang 
-hang cua d()ng ffil;l.Ch canh trong, cac d()ng m<;1ch tuySn yen tren tach ra tu QOl;).n nao d()ng 
-m<;1ch canh trong va rir cac d()ng ffil;).Ch nao tru6c va sau. D()ng m<;1ch tuySn yen du6i 
-phan chia va tiSp n6i v6i cac nhanh ben d6i dijn qua dm'mg gifra tl;).O thanh m◊t vong 
-d()ng ffil;l.Ch bao quanh phSu. Tu vong m<;1ch nay, cac nhanh nh6 di vao ph§.n sau tuySn 
-yen dk t6a thanh m◊t m<;1ng mao m<;1ch. Cac d()ng ffil;l.Ch tuySn yen tren t6a ra thanh m<;1ng 
-mao m<;1ch d.p mau cho 16i gifra va phSu, tiSp n6i v6i d()ng m<;1ch tuySn yen du6i qua cac 
-nhanh be. Nhu vly cac d()ng ffil;l.Ch tuySn yen du6i va tren tl;).O nen hai m<;1ng mao ffil;l.Ch 
-d.p mau cho tuySn yen thfrn kinh. M<;1ng lu&i mao m<;1ch CY 16i gifra va phSu (ml;).ng tren)
-duqc dmn luu bCYi cac tinh ffil;).Ch cua. Cac finh ffil;l.Ch cua di t6i phfrn tru6c tuySn yen va
-t6a ra thanh m()t m<;1ng lu6i mao ffil;).Ch d<;1ng xoang nim gifra cac day tS bao tiSt cua
-tuySn yen tuy€n. Hj th6ng cua vln chuykn cac cac ySu t6 giai ph6ng hormone duqc san
-xu§.t CY cac nh6m ncrron t€ bao nh6 cua vimg hl;l. d6i xu6ng phfrn tru6c tuy€n yen va tl;l.i
-day cac ySu t6 nay kikm soat hol;l.t d()ng ti€t cua cac tS bao ph§.n tru6c. Ml;l.ng lu6i mao
-ffil;).Ch tu ph§.n tru6c va ph§.n sau tuy€n yen OUQ'C cac tinh ffil;).Ch tuy€n yen dmn luu vn cac
-xoang tinh ffil;).Ch mang cung.
+Màng lưới mao mạch ở lối giữa và phễu tiếp nhận các hormone vùng hạ đồi
+Các tinh mạch của vận chuyển các hormone tới tuyền yên
+Màng lưới mao mạch dưới
+Tế bào ưa acid
+Tế bào ưa bazơ
+Tế bào kì mầu
+Tĩnh mạch tuyền yên (tới các xoang màng cứng)
+Phần trước tuyền yên
 
 
+![Hình 2. Mối liên hệ hạ đồi - tuyến yên qua thần kinh và hệ thống mạch cửa [15]](giaiphau_media/hinh_p512_2.png)
+
+*Hình 2. Mối liên hệ hạ đồi - tuyến yên qua thần kinh và hệ thống mạch cửa [15]*
+
+
+2.4. Các mạch máu của tuyền yên (H.2)
+
+Tuyền yên được cấp máu bởi động mạch tuyền yên dưới và các động mạch tuyền yên trên. Động mạch tuyền yên dưới tách ra ở đoạn xoang hang của động mạch cảnh trong, các động mạch tuyền yên trên tách ra từ đoạn não động mạch cảnh trong và từ các động mạch não trước và sau. Động mạch tuyền yên dưới phân chia và tiếp nối với các nhánh bên đối diện qua đường giữa tạo thành một vòng động mạch bao quanh phễu. Từ vòng mạch này, các nhánh nhỏ đi vào phần sau tuyền yên để tạo thành một mạng mao mạch. Các động mạch tuyền yên trên tỏa ra thành mạng mao mạch cấp máu cho lối giữa và phễu, tiếp nối với động mạch tuyền yên dưới qua các nhánh bè. Như vậy các động mạch tuyền yên dưới và trên tạo nên hai mạng mao mạch cấp máu cho tuyền yên thân kinh. Mạng lưới mao mạch ở lối giữa và phễu (mạng trên) được dẫn lưu bởi các tĩnh mạch của. Các tĩnh mạch của đi tới phần trước tuyền yên và tỏa ra thành một mạng lưới mao mạch dày xoang nằm giữa các dây tế bào tiết của tuyền yên trước. Hệ thống của vận chuyển các yếu tố giải phóng hormone được sản xuất ở các nhóm neuron tế bào nhô của vùng hạ đồi xuống phần trước tuyền yên và tại đây các yếu tố này kiểm soát hoạt động tiết của các tế bào phần trước. Mạng lưới mao mạch từ phần trước và phần sau tuyền yên được các tĩnh mạch tuyền yên dẫn lưu về các xoang tĩnh mạch màng cứng.
 
 <!-- Hết trang 512 -->
 
+![Hình 3. Tuyến giáp, nhìn từ trước [12]](giaiphau_media/hinh_p513_3.png)
 
-D9ng m?ch gi:ip du6i 
-Than gi:ip ca 
-·D9ng ffi?Ch c:inh ngoai
-,-,iw¼---D◊ng ffi?Ch, tTnh ffi?Ch gi:ip tren 
-1.:_1-.. __ Thuy th:ip 
-,;.-,,-- Thuy tr:ii tuySn gi:ip 
-H.__ __ Eo tuySn gi:ip 
-K11i quan 
-C:ic tinh m?ch gi:ip du6i 
-..,l!'j--
-., 
-Than kinh lang thang (X)
-
-![Hinh 3. Tuyen giap, nhin tll' trU'&c [12]](giaiphau_media/hinh_p513_3.png)
-
-*Hinh 3. Tuyen giap, nhin tll' trU'&c [12]*
-
-3. TUY!N GIAP (thyroid gland) (Gae H.3 va 4)
-3.1. Vj tri, hinh th va kich thtrO'C (H.3)
-Tuy€n giap, c6 mau nau do va giau mch mau, nim a tru6c vung c6 du6i ngang 
-, 
-' 
-., 
-' 
-muc cac dot song tu co V t6i nmc I. N6 duqc b9c trong la tru6c khi quan cua mc c6 
-va bao g6m hai thuy phai va trai duqc n6i v6i nhau qua m9t eo hyp tren dm'mg gifra. 
-Tuy€n thm'mg n?ng d9 25 g nhung tr9ng luQ'Ilg cfing hay bi€n d6i. Tuy€n hai n?ng han 
-a nfr, va to ra hie hanh kinh va trong luc c6 thai. Bing sieu am, c6 th UO'C IUQ'Ilg duqc 
-kich thu6c tuy€n giap va di€u nay quan tr9ng trong danh gia va quan ly cac r6i lon 
-tuy€n giap. Gifra 8 thang tu6i va 15 tu6i, th tich tuyn giap gifra hai gi6i khong c6 sv 
-khac bit c6 y nghfa. 
-Cac thuy tuyn giap gftn c6 hinh non. Cac dinh thuy, hu6ng len tren va sang ben, 
-(J ngang muc duO'llg cheo cua cac manh S\lll giap con cac n€n thuy (J ngang muc cac S\lll 
-khi quan thu 4 ho?c thu 5. M6i thuy thuO'llg dai 5 cm, con cac chi€u ngang va chi€u 
-tru6c sau 16n nhit lftn luqt la 3 cm va 2 cm. M?t sau trong cua m6i thuy duqc giln v6i 
-m?t ben cua s1,.m nhftn boi m9t day ching giap ben. 
-Eo n6i phftn du6i cua hai thuy c6 kich thu6c 1,25 cm a chi€u ngang va chi€u tren 
-du6i, va thuO'llg nim tru6c cac S\lll khf quan thu 2 va thu 3. Tu eo thuO'llg c6 m9t thuy 
-thap hinh n6n chy v€ phfa xuang m6ng, nhung thuy thap c6 th tach ra tu phftn thuy 
-ben liSn k€ eo, thuO'llg la ben trai. M9t dai XCY ho?C XCY CCY, gQi la CCY nang tuy€n giap, d6i 
-khi chy tu than xuang m6ng t6i eo hay thuy thap. C6 th thiy nhfrng kh6i mo tuy€n 
-giap nh6 tach rai nim 6 tren cac thuy hay eo, va chung duqc g9i la cac tuyn giap ph\l. 
-Cac tan tfch cua 6ng giap lu5'i c6 th vftn con t6n ti a gifra eo tuyn va 16 manh cua 
-lu5'i, d6i khi nhu nhfrng C\JC nho mo hay nang tuyn ph\l 6 gftn duang gifra hO?C thm 
-chi a lu5'i. 
+*Hình 3. Tuyến giáp, nhìn từ trước [12]*
 
 
+3. TUYẾN GIÁP (thyroid gland) (Các H.3 và 4)
+
+3.1. Vị trí, hình thể và kích thước (H.3)
+
+Tuyến giáp, có màu nâu đỏ và giầu mạch máu, nằm ở trước vùng cổ dưới, ngang mức các đốt sống từ cổ V tới ngực I. Nó được bọc trong lá trước khí quản của mạc cổ và bao gồm hai thùy phải và trái được nối với nhau qua một eo hẹp trên đường giữa. Tuyến thường nặng độ 25 g nhưng trọng lượng cũng hay biến đổi. Tuyến hội nặng hơn ở nữ, và to ra lúc hành kinh và trong lúc có thai. Bằng siêu âm, có thể ước lượng được kích thước tuyến giáp và điều này quan trọng trong đánh giá và quản lý các rối loạn tuyến giáp. Giưa 8 tháng tuổi và 15 tuổi, thể tích tuyến giáp giữa hai giới không có sự khác biệt có ý nghĩa.
+
+Các thùy tuyến giáp gần có hình nón. Các định thùy, hướng lên trên và sang bên, ở ngang mức đường chéo của các mảnh sụn giáp còn các nền thùy ở ngang mức các sụn khí quản thứ 4 hoặc thứ 5. Mỗi thùy thường dài 5 cm, còn các chiều ngang và chiều trước sau lớn nhất lần lượt là 3 cm và 2 cm. Mặt sau trong của mỗi thùy được gắn với mặt bên của sụn nhẫn bới một dây chằng giáp bên.
+
+Eo nối phần dưới của hai thùy có kích thước 1,25 cm ở chiều ngang và chiều trước sau, và thường nằm trước các sụn khí quản thứ 2 và thứ 3. Từ eo thường có một thùy tháp hình nón chảy về phía xương móng, nhưng thùy tháp có thể tách ra từ phần thùy bên liên kết eo, thường là bên trái. Một đại xơ hoặc xơ cứng là cơ nâng tuyến giáp, đôi khi chảy từ thân xương móng tới eo hay thùy tháp. Có thể thấy những khối mô tuyến giáp nhỏ tách rời nằm ở trên các thùy hay eo, và chúng được gọi là các tuyến giáp phụ. Các tàn tích của ống giáp lưỡi có thể vẫn còn tồn tại ở giữa eo tuyến và lỗ manh của lưỡi, đôi khi như những cụm nhỏ mô hay nang tuyến phụ ở gần đường giữa hoặc thậm chí ở lưỡi.
 
 <!-- Hết trang 513 -->
 
+### 3.2. Liên quan
 
-3.2. Lien quan 
-Mt ngoai (mt n6ng) 16i duqc che phu bai ca uc - giap, v6i ch6 barn. cua n6 vao 
-duong cheo S\ln giap ngan eve tren tuySn giap ma r(mg len ca giap -m6ng. d phia tru6c 
-hon la ca uc - m6ng va b1,lng tren ca vai - m6ng, duqc chum !en a du6i bai ba tru6c ca 
-UC - don - chum. M?t trong tiSp xuc v6i thanh quan va khi quan; C\J;C tren tiSp xuc v6i ca 
-khit hiu du6i va phin sau ca nhin - giap, nhilng ca ngan each tuyen v6i phan sau manh 
-S\ln giap va mt ben S\ln nhin. Thin kinh thanh quan ngoai nilm phia trong phin nay cua 
-tuySn khi n6 ch;;iy t6i chi ph6i ca nhin - giap. V€ phia du6i, tuySn lien quan a trong 6i 
-khi quan va, a sau hon, v6i thin kinh thanh quan qu?t nguqc va thvc quan. M?t sau nam 
-sat v6i bao canh va chum len dc)ng m;;ich canh chung. 
-Ba tru6c cua tuySn giap thi mong va 6 gin nhanh tru6c cua dc)ng m;;ich giap tren 
-khi n6 ch;;iy chSch xu6ng dum va vao trong. Bc'Y sau thi tron va lien quan 6 du6i v6i 
-dc)ng m;;ich giap du6i va ch6 tiSp n6i cua n6 v6i nhanh sau cua dc)ng m;;ich giap tren. d
-hen trai, d§u du6i Clla ba sau nilm gin 6ng ngvc. Cac tuySn C?ll giap thuong lien quan 
-v6i ba sau. Cac tuySn C?Il giap nilm giua bc'Y sau va bao tuySn. Trong dtt tuySn giap ban 
-ph§n dS di€u tri tang nang tuySn giap va phi d;;ii tuySn giap, dn giu !;;ii ph§n sau tuySn 
-dS bao t6n cac tuySn C?n giap. 
-Eo tuySn giap duqc che phu bai ca UC - giap va & n6ng hon bai ca UC - m6ng, cac 
-tinh m;;ich canh tru6c, m;;ic c6 va da. Cac dc)ng m;;ich giap tren tiSp n6i d9c ba tren eo 
-con cac tinh m;;ich giap du6i rc'Yi tuySn t;;ii bc'Y du6i eo. 
-3.3. C§u t&o va cac hormone 
-Ben trong bao xa b9c tuySn giap la nhilng mi hinh du g9i la cac nang tuySn giap. 
-Thanh cua m6i nang tuySn do cac tS bao biSu m6 g9i la tS bao nang tuySn t;;io nen. Giua 
-cac nang tuySn c6 cac tS bao C?n nang. Du6i tac dc)ng cua TSH tu tuySn yen, tS bao 
-nang tuySn san xuftt ra thyroxine (T4) va triiodothyronine (T3); cac tS bao c?n nang san 
-xuftt ra calcitonin, mc)t chftt lam h;;i calci mau. 
-3.4. S\f c§p mau va d§n hru b&ch huy't 
-Cac d<}ng m&ch (Cac H.3 va 4) 
-TuySn giap duqc dp mau bai cac dc)ng m;;ich giap tren va du6i va doi khi bai mc)t 
-dc)ng m;;ich giap don tu than canh tay d§u hay cung dc)ng m;;ich chu. Cac dc)ng m;;ich d€u 
-16n va cac nhanh cua chung thm'mg tiSp n6i ca tren va trong tuySn, v6i dc)ng m;;ich cung 
-ben va dc)ng m;;ich ben d6i din. Dc)ng m;;ich giap tren, v6n lien quan m?t thiSt v6i thin 
-kinh thanh quan ngoai, xuyen qua m;;ic tuy€n giap va sau d6 chia thanh nhanh tru6c dp 
-mau cho ID?t tru6c va nhanh sau dp mau cho mt trong va ngoai cua tuySn. Dc)ng m;;ich 
-giap du6i tiSp C?Il n€n tuySn thi chia thanh cac nhanh tren (len) va du6i dp mau cho 
-cac mt du6i va sau cua tuySn Nhanh tren cung dp mau cho cac tuy€n C?ll giap. M6i 
-lien quan giua dc)ng m;;ich giap du6i v6i thin kinh thanh quan qut nguqc c6 nhi€u biSn 
-d6i va c6 tim quan tr9ng 16n v€ lam sang: T6n thuang thin kinh trong phiu thu?t tuy€n 
-giap la biSn c6 16n dn tranh. 
+Mắt ngoài (mắt nòng) lồi được che phủ bởi cơ ức - giáp, với chỗ bám của nó vào đường chéo sụn giáp ngấn cục trên tuyến giáp mờ rộng lên cơ giáp - móng. Ở phía trước hơn là cơ ức - móng và bụng trên cơ vai - móng, được chùm lên ở dưới bởi bờ trước cơ ức - đòn - chũm. Mắt trong tiếp xúc với thanh quản và khí quản; cục trên tiếp xúc với cơ khít hầu dưới và phần sau cơ nhẫn - giáp, những cơ ngấn cách tuyến với phần sau mảnh sụn giáp và mặt bên sụn nhẫn. Thành kinh thanh quản ngoài nằm phía trong phần này của tuyến khi nó chảy tới chi phối cơ nhẫn - giáp. Về phía dưới, tuyến liên quan ở trong với khí quản và, ở sau hơn, với thành kinh thanh quản quặt ngược và thực quản. Mắt sau nằm sát với bao cảnh và chùm lên động mạch cảnh chung.
 
+Bờ trước của tuyến giáp thì mỏng và ở gần nhánh trước của động mạch giáp trên khi nó chảy chéo xuống dưới và vào trong. Bờ sau thì tròn và liên quan ở dưới với động mạch giáp dưới và chỗ tiếp nối của nó với nhánh sau của động mạch giáp trên. Ở bên trái, đầu dưới của bờ sau nằm gần ống ngực. Các tuyến cận giáp thường liên quan với bờ sau. Các tuyến cận giáp nằm giữa bờ sau và bao tuyến. Trong các tuyến giáp bán phần để điều trị tăng năng tuyến giáp và phì đại tuyến giáp, cần giữ lại phần sau tuyến để bảo tồn các tuyến cận giáp.
 
+Eo tuyến giáp được che phủ bởi cơ ức - giáp và ở nòng hơn bởi cơ ức - móng, các tinh mạch cảnh trước, mạc cổ và da. Các động mạch giáp trên tiếp nối dọc bờ trên eo còn các tinh mạch giáp dưới rời tuyến tại bờ dưới eo.
+
+### 3.3. Cấu tạo và các hormone
+
+Bên trong bao xơ bọc tuyến giáp là những túi hình cầu gọi là các nang tuyến giáp. Thành của mỗi nang tuyến do các tế bào biểu mô gọi là tế bào nang tuyến tạo nên. Giữa các nang tuyến có các tế bào cận nang. Dưới tác động của TSH từ tuyến yên, tế bào nang tuyến sản xuất ra thyroxine (T4) và triiodothyronine (T3); các tế bào cận nang sản xuất ra calcitonin, một chất làm hạ calci máu.
+
+### 3.4. Sự cấp máu và dẫn lưu bạch huyết
+
+#### Các động mạch (Các H.3 và 4)
+
+Tuyến giáp được cấp máu bởi các động mạch giáp trên và dưới và đôi khi bởi một động mạch giáp đỉnh từ thân cảnh tay đầu hay cung động mạch chủ. Các động mạch đều lơn và các nhánh của chúng thường tiếp nối cả trên và trong tuyến, với động mạch cùng bên và động mạch bên đối diện. Động mạch giáp trên, vốn liên quan mật thiết với thành kinh thanh quản ngoài, xuyên qua mạc tuyến giáp và sau đó chia thành nhánh trước cấp máu cho mặt trước và nhánh sau cấp máu cho mặt trong và ngoài của tuyến. Động mạch giáp dưới tiếp cận nền tuyến thì chia thành các nhánh trên (lên) và dưới cấp máu cho các mặt dưới và sau của tuyến. Nhánh trên cũng cấp máu cho các tuyến cận giáp. Mỗi liên quan giữa động mạch giáp dưới với thành kinh thanh quản quặt ngược có nhiều biến đổi và có tầm quan trọng lớn về lâm sàng: Tốn thương thành kinh trong phẫu thuật tuyến giáp là biến cố lớn cần tránh.
 
 <!-- Hết trang 514 -->
 
+Trong phẫu thuật cắt tuyến giáp cần thật các động mạch và khi thắt cẩn thận đặc biệt chú ý mối liên quan của động mạch giáp trên với thân kinh thanh quản ngoài và của động mạch giáp dưới với thân kinh thanh quản quặt ngược để không thắt phải các thân kinh này.
 
-Tr·ng phfiu thu¸t clit tuySn giap dn thilt cac d9ng m?ch va khi thilt dn d?c bi?t 
-chu y moi lien quan cua d◊?g m?Ch giap tren v&i th.in kinh thanh quan ngoai va cua 
-d9ng m?ch giap du&i v&i than kinh thanh quan qu?t ngugc d€ khong thilt phai cac thcln 
-kinh nay. 
-Cac tinh mch (H.3) 
-Mau tinh m?Ch tuySn giap dugc dfin luu bai cac finh ITI?Ch giap tren, gifra va du&i. 
-C¹c finh ITI?Ch giap tre°; va gifra d6 vao finh ITI?Ch canh trong. Tinh lTI?Ch giap du&i d6 
-vº finh ITI?Ch canh tay dau c»ng hen hO?C tTnh ITI?Ch a hai ben hgp thanh m9t than chung 
-do vao tTnh ITI?Ch canh tay dau trai. 
-Bch huyt 
-Cac m?ch b?Ch huySt tuySn giap thong n6i v&i dam r6i khi quan va Ch?y t&i cac 
-h?ch tm&c thanh quan a ngay tren eo tuySn giap va t&i cac h?ch tm&c va canh khi 
-quan; m9t s6 c6 th€ cilng d¼n luu vao cac h?ch canh tay dclu lien quan t&i tuy½n uc a
-trong trung th§.t tren. vs hai ben, tuySn dugc d¼n luu bai cac m?Ch nilm d9c theo cac 
-fi¾ m?Ch giap tren t&i cac h?ch c6 sau. Cac m?Ch b?Ch huySt c6 th€ d¼n luu tn,rc tiSp 
-ve ong ngvc. 
-3.5. S1.1· chi ph6i thin kinh 
-TuySn giap nh¸n dugc Sl,! chi ph6i nr cac h?ch giao cam c6 tren, gifra va du&i. Cac 
-sgi sau h?ch tu h?ch c6 du&i t?o nen m9t dam r6i quanh d9ng m?ch giap du&i, di theo 
-d9ng m?Ch t&i tuySn va tiSp n6i v&i cac th.in kinh thanh quan qu?t ngugc va thanh quan 
-ngoai, v&i th.in kinh tim tren, va v&i dam r6i tren d9ng m?Ch canh chung. 
-4. TUY¿N CÀN GIAP (parathyroid glands)
-Cac tuySn c¸n giap la nhfrng kh6i tuySn nho, mau nau vang, hinh tn'.mg hO?C hinh 
-th§.u kinh va thuang nilm gifra ba sau tuySn giap va bao tuySn. M6i tuySn thuO'Ilg c6 
-kich thu&c 6 mm chiSu cao, 3 - 4 mm chiSu ngang va 1 - 2 mm chiSu tm&c sau, n?ng 
-chllllg 50 mg. Binh thuang c6 hai tuySn a m6i ben, tuySn tren va tuySn du&i, nhung c6 
-th€ c6 nhiSu hon ho?C chi c6 3 tuySn hO?C c6 nhiSu dao tuySn nho nilm rai rac trong mo 
-lien kSt a gftn cac vi trf thong thuO'Ilg. TmO'Ilg hgp rfrt hiSm g?p, m9t tuySn .in di theo 
-m9t m?Ch mau vao nilm sau trong m9t ranh. Binh thuO'Ilg, tuySn c¸n giap du&i chi di tru 
-t&i eve du&i tuySn giap, nhung n6 cung c6 th€ di xu6ng cung tuySn UC vao trong ngvc 
-ho?c n6 c6 th€ khong c6 cu6ng va v¼n a cao hon muc binh thu®g cua n6 a gftn ch6 che 
-doi d9ng m?Ch canh. Cac tiSp n6i gifra cac d9ng m?Ch giap tren va du&i ()' d9c ba sau 
-tuySn giap thuO'Ilg di r§.t sat v&i cac tuySn C?n giap va la cong C\l hfru ich d€ tim cac 
-tuySn. Cac tuySn C?n giap tren thuO'Ilg c6 vi tri hilng dinh hon cac tuySn du&i va thuO'Ilg 
-nilm a quang gifra ba sau tuySn, doi khi a cao hon. Cac tuySn du&i c6 vi tri biSn d6i hon 
-(lien quan dSn sv phat tri€n phoi thai) va c6 th€ nilm ben trong bao ffi?C tuySn giap, ben 
-du&i cac d(>ng ITI?Ch tuySn giap va ()' gcln cac qrc du&i cua thuy tuySn; ho?C nilm ngoai 
-bao m?c, a ngay tren m9t d9ng m?ch giap du&i; ho?c a trong tuySn gftn eve du&i. 
-Nhfrng biSn d6i nay c6 y nghfa vS ngo?i khoa. M9t kh6i u tuySn C?n giap du&i a trong 
+**Các tĩnh mạch (H.3)**
 
+Máu tĩnh mạch tuyến giáp được dẫn lưu bởi các tĩnh mạch giáp trên, giữa và dưới. Các tĩnh mạch giáp trên và giữa đổ vào tĩnh mạch cảnh trong. Tĩnh mạch giáp dưới đổ về tĩnh mạch cảnh tay đầu cùng bên hoặc tĩnh mạch ổ hai bên hợp thành một thân chung đổ vào tĩnh mạch cảnh tay đầu trái.
 
+**Bạch huyết**
+
+Các mạch bạch huyết tuyến giáp thông nối với đám rối khí quản và chảy tới các hạch trước thanh quản ở ngay trên eo tuyến giáp và tới các hạch trước và cạnh khí quản; một số có thể cùng dẫn lưu vào các hạch cảnh tay đầu liên quan tới tuyến ức ở trong trung thất trên. Về hai bên, tuyến được dẫn lưu bởi các mạch nằm dọc theo các tĩnh mạch giáp trên tới các hạch cổ sâu. Các mạch bạch huyết có thể dẫn lưu trực tiếp về ống ngực.
+
+**3.5. Sự chi phối thần kinh**
+
+Tuyến giáp nhận được sự chi phối từ các hạch giao cảm cổ trên, giữa và dưới. Các sợi sau hạch từ hạch cổ dưới tạo nên một đám rối quanh động mạch giáp dưới, đi theo động mạch tới tuyến và tiếp nối với các thân kinh thanh quản quặt ngược và thanh quản ngoài, với thân kinh tim trên, và với đám rối trên động mạch cảnh chung.
+
+**4. TUYẾN CẨN GIÁP (parathyroid glands)**
+
+Các tuyến cận giáp là những khối tuyến nhỏ, màu nâu vàng, hình trứng hoặc hình thấu kính và thường nằm giữa bề sau tuyến giáp và bao tuyến. Mỗi tuyến thường có kích thước 6 mm chiều cao, 3 - 4 mm chiều ngang và 1 - 2 mm chiều dọc sau, nặng chung 50 mg. Bình thường có hai tuyến ở mỗi bên, tuyến trên và tuyến dưới, nhưng có thể có nhiều hơn hoặc chỉ có 3 tuyến hoặc có nhiều đảo tuyến nhỏ nằm rải rác trong mô liên kết ở gần các vị trí thông thường. Trường hợp rất hiếm gặp, một tuyến ẩn đi theo một mạch máu vào nằm sâu trong một rãnh. Bình thường, tuyến cận giáp dưới chi di trú tới cực dưới tuyến giáp, nhưng nó cũng có thể di xuống cùng tuyến ức vào trong ngực hoặc nó có thể không có cuống và vẫn ở cao hơn mức bình thường của nó ở gần chỗ chê đôi động mạch cảnh. Các tiếp nối giữa các động mạch giáp trên và dưới ở dọc bờ sau tuyến giáp thường đi rất sát với các tuyến cận giáp và là công cụ hữu ích để tìm các tuyến. Các tuyến cận giáp trên thường có vị trí hằng định hơn các tuyến dưới và thường nằm ở quầng giữa bờ sau tuyến, đôi khi ở cao hơn. Các tuyến dưới có vị trí biến đổi hơn (liên quan đến sự phát triển phôi thai) và có thể nằm bên trong bao mạc tuyến giáp, bên dưới các động mạch tuyến giáp và ở gần các cực dưới của thùy tuyến; hoặc nằm ngoài bao mạc, ở ngay trên một động mạch giáp dưới; hoặc ở trong tuyến giáp gần cực dưới. Những biến đổi này có ý nghĩa về ngoại khoa. Một khối u tuyến cận giáp dưới ở trong
 
 <!-- Hết trang 515 -->
 
+bao tuyến giáp có thể đi xuống dọc các tinh mạch giáp dưới trước khi quan vào trung thất trên, trong khi đó nếu nó ở ngoài bao nó có thể mở rộng về phía sau dưới ở sau thực quản vào trung thất sau. So với các thần kinh thanh quản quặt ngược, tuyến cận giáp trên thường ở sau, tuyến cận giáp dưới thường ở trước. Các tuyến cận giáp thường rất đệm trên mặt cắt ngang và bình thường không nhìn thấy được bằng các phương pháp chụp hình ảnh hiện có.
 
-bao ruynn giap c6 thS di xu6ng d9c cac finh m1;1ch giap du6i tnr6c khi quan vao trung 
-thftt tren, trong khi d6 nnu n6 & ngoai bao n6 c6 thS ma r(mg ve phia sau du6i & sau thvc 
-quan vao trung thfit sau. So v6i cac thpn kinh thanh quan qu?t nguqc, ruySn C?ll giap 
-tren thucmg a sau, ruynn C?ll giap du6i thucmg & tru6c. Cac ruySn C?Il giap thucmg rftt 
-dyt tren m?t dt ngang va binh thucmg khong nhin thoy duqc bing cac phuong phap 
-ch\lp hinh anh hi?n c6. 
-Cac ruy€n C?n giap ca tren va du6i thucmg duqc cftp mau b&i d9ng m1;1ch giap 
-du6i; ruySn tren c6 thS do d9ng m1;1ch giap tren cftp mau (J 10 - 15% s6 trucmg hqp. Tinh 
-m1;1ch d6 ve dam r6i tinh m1;1ch a m?t tru6c ruy€n giap. Cac m1;1ch b1;1ch huy€t thi nhi€u 
-va chung v6i b1;1ch huy€t ruy€n giap. Thpn kinh giao cam chi ph6i V?n m1;1ch cho ruy€n, 
-ho?C trvc ti€p tu cac h1;1ch c6 tren hay gifra di t6i ruy€n ho?C qua ducmg m9t dam r6i 
-trong mqc phu ID?t sau thuy ruy€n giap. Tuy€n C?Il giap t6ng hqp va ti€t parathyroid 
-hormone (PTH, parahormone ), m9t polypeptide c6 vai tro kiSm soat n6ng d9 va sv phan 
-b6 cua calci va phospho. Hoqt d9ng ruy€n crn giap do n6ng d9 calci trong mau kiSm 
-soat: calci mau cao i'.rc ch€ ruy€n, calci mau hq kich thich ruy€n. 
-Thiin kinh thanh quan tren 
-Thiin kinh lang thang (X)_,... 
-Nlp thanh mon , 
-D9ng ffi(!Ch giap tren 
-D(lng m(lch canh chung 
-Thuy tra i tuy€n giap--=mn--­
-D(>ng mi:ich cb Jen 
-Tuy€n con giap dtr&ip'-""-
-Mang giap - m6 
-Thiin kinh thanh quan 
-qu?tnguqc-q:=i"1rsr-==•· 
-Thvc quan-==#-!:J:J=.!t_.,,==llf;-... 
-D(lng mi:ich dtr&i don 
-Khi quan 
-,D9ng ffi(!Ch canh ngoa i 
-D9ng ffi(!Ch canh trong 
-D(>ng ffi(!Ch giap tren 
-D(>ng m(lch canh chung 
-, Ba o tuy€n giap ( dt) 
-Ca nh§n - hii u (m(lt phiin cua 
-/ ca khit hii u du&i) 
-Tuy€n con giap tren 
-Thuy pha i tuy€n giap 
-Tuy€n con giap du&i (c6 th€ 
-num th§p ban, nga y ca trong 
-trung th§t) 
-D(>ng mi:ich giap dtr&i 
-Thiin kinh thanh quan 
-qu?tnguqc 
-D(>ng m(lch ngang cb 
-v-D(lng ffi(!Ch va i tren 
-Than giap - cb 
-D(lng m(lch d6t s6ng 
-D(>ng m(lch dtr&i don 
-- Than canh ta y - dii u
+Các tuyến cận giáp cả trên và dưới thường được cấp máu bởi động mạch giáp dưới; tuyến trên có thể do động mạch giáp trên cấp máu ở 10 - 15% số trường hợp. Tĩnh mạch đổ về đám rối tĩnh mạch ở mặt trước tuyến giáp. Các mạch bạch huyết thì nhiều và chung với bạch huyết tuyến giáp. Thần kinh giao cảm chi phối vận mạch cho tuyến, hoặc trực tiếp từ các hạch cổ trên hay gián tiếp qua đám rối trong mạc phủ mặt sau tuyến giáp. Tuyến cận giáp tổng hợp và tiết parathyroid hormone (PTH, parahormone), một polypeptide có vai trò kiểm soát nồng độ và sự phân bố của calci và phospho. Hoạt động tuyến cận giáp do nồng độ calci trong máu kiểm soát: calci máu cao ức chế tuyến, calci máu hạ kích thích tuyến.
 
-![Hinh 4. ](giaiphau_media/hinh_p516_4.png)
-
-*Hinh 4. *
-
- 
-Tuyen
- 
-giap
- 
-va
- 
-cac
- 
-tuyen
- 
-c,;1n
- 
-giap,
- 
-nhln
- 
-tll'
- 
-sau
- 
-[12]
+![Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau]
 
 
+![Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau [12]](giaiphau_media/hinh_p516_4.png)
+
+*Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau [12]*
 
 <!-- Hết trang 516 -->
 
+5. TUYẾN THƯỢNG THẬN (suprarenal/adrenal gland)
 
-5. TUY$N THU'c;>'NG TH%N (suprarenal/adrenal gland)
-5.1. Vj tri, kich thmrc 
-Tuy€n thuqng th?n niim ngay & tren va hai & tru6c qrc tren cua th?n. Tuy€n c6 
-mau vang cua vang thoi, m6i tuy€n c6 hai vung khac bi?t ve chuc nang va d.u true la 
-vung VO (cortex) & ngoai va vung tuy (medulla) & trong. Tuy€n cung lap mo quanh th?n 
-bao quanh duqc bao b9c b&i mc th?n va duqc ngan each v6i th?n b&i m('>t vach mo lien 
-k€t. Hai tuy€n c6 hinh thu hai khac nhau. Tuy€n ben phai c6 hinh thap v6i hai mom nho 
-xu6ng du6i. Tuy€n ben trai c6 hinh ban nguy?t, dyt theo chiu tru6c sau va 16n han ben 
-phai. Kh6i chinh cua tuy€n phai niim tren dinh th?n phai trong khi tuy€n trai niim tren 
-m?t tru6c trong cua C\JC tren th?,n trai nen tuy€n phai thucmg hai cao han tuy€n trai. 
-Di#n lien quan 
-th$n phai 
-Di#n lien quan 
-ca hoanh 
-Di#n lien quan 
-th$n trai 
-Tinh m:;ich 
-thll(;mg th$n 
-Hinh
- 
-5.
- 
-Cac
- 
-tuyen
- 
-thU'qng
- 
-thc;1n,
- 
-nhin
- 
-tll'
- 
-sau
- 
-[15]
- 
- 
-Tren
- 
-CT,
- 
-ducmg
- 
-kinh
- 
-ngang
- 
-trung
- 
-binh
- 
-cua
- 
-than
- 
-tuy€n
- 
-thuqng
- 
-th?n
- 
-la
- 
- 
-mm
- 
-&
-ben
- 
-phai
- 
-va
- 
- 
-mm
- 
-&
- 
-ben
- 
-trai.
- 
-Tuy€n
- 
-nng
- 
- 
-g
- 
-(trong
- 
-d6
- 
-tuy
- 
-dong
- 
-g6p
- 
-1/10).
- 
- 
-Luc
- 
-sinh
- 
-tuy€n
- 
-16n
- 
-han
- 
-n€u
- 
-xet
- 
-ve
- 
-ty
- 
-l?
- 
-tuang
- 
-quan
- 
-va
- 
-biing
- 
-khoang
- 
-1/3
- 
-kich
- 
-thu6c
-cua
- 
-th?,n.
- 
-Ngay
- 
-sau
- 
-sinh
- 
-vung
- 
-VO
- 
-tuy€n
- 
-giam
- 
-ve
- 
-kich 
- 
-thu6c
- 
-con
- 
-vung
- 
-tuy
- 
-tang
- 
-tru&ng
-tuang
- 
-d6i
- 
-it.
- 
-d
- 
-cu6i
- 
-thang
- 
-thu
- 
-hai
- 
-tr9ng
- 
-luqng
- 
-tuy€n
- 
-giam
- 
-chimg
- 
-50%.
- 
-Tuy€n
- 
-bit
- 
-dfiu
-tang
- 
-tru&ng
- 
-vao
- 
-cu6i
- 
-nam
- 
-thu
- 
-hai
- 
-va
- 
-lfly
- 
-li
- 
-tr9ng
- 
-luqng
- 
-cua
- 
-n6
- 
-&
- 
-luc
- 
-sinh
- 
-vao
- 
-luc
- 
-d?y
-thi.
- 
-it
- 
-c6
- 
-S\J
- 
-tang
- 
-tr9ng
- 
-luqng
- 
-a
- 
-tu6i
- 
-tru&ng
- 
-thanh.
- 
-Cac
- 
-tuy€n
- 
-thuqng
- 
-th?n
- 
-ph\l,
- 
-bao
- 
-g6m
-chu
- 
-y€u
- 
-la
- 
-mo
- 
-vo,
- 
-c6
- 
-th€
- 
-gp
- 
-&
- 
-mo
- 
-lien
- 
-k€t
- 
-gfin
- 
-tuy€n
- 
-thuqng
- 
-th?n
- 
-chinh.
- 
-Nhfrng
- 
-tuy€n
-ph\l,
- 
-g9i
- 
-la
- 
-cac
- 
-th€
- 
-vo,
- 
-c6
- 
-th
- 
-g?p
- 
-&
- 
-thimg
- 
-tinh,
- 
-mao
- 
-tinh
- 
-va
- 
-day
- 
-chiing
- 
-n)ng
- 
-cua
- 
-tu
- 
-cung.
-5.2.
- 
-Tuy&n
- 
-thm.mg
- 
-th'n
- 
-phai
- 
-(Cac
- 
-H.
- 
- 
-va
- 
-6)
- 
- 
-Tuy€n
- 
-thuqng
- 
-th?n
- 
-phai
- 
-niim
- 
-sau
- 
-finh
- 
-mch
- 
-chu
- 
-du6i
- 
-va
- 
-thuy
- 
-phai
- 
-cua
- 
-gan,
- 
-tru6c 
-trv
- 
-phai
- 
-CO'
- 
-hoanh
- 
-va
- 
-C\JC
- 
-tren
- 
-th?,n
- 
-phai.
- 
-Mt
- 
-du6i
- 
-la
- 
-mt
- 
-day
- 
-va
- 
-tiSp
- 
-giap
- 
-mt
- 
-tru6c
- 
-tren
-cua
- 
-C\JC
- 
-tren
- 
-th?,n
- 
-phai.
- 
-N6
- 
-thucmg
- 
-g6i
- 
-len
- 
-dinh
- 
-cua
- 
-C\J"C
- 
-tren
- 
-nhu
- 
-la
- 
-hai
- 
-mom
- 
-du6i
- 
-ging
-ra
- 
-om
- 
-lfly
- 
-mo
- 
-th?,n.
- 
-Mt
- 
-tru6c
- 
-c6
- 
-hai
- 
-di?n
- 
-nho
- 
-rieng
- 
-bit:
- 
-Din
- 
-trong
- 
-hai
- 
-hyp,
- 
-chy
- 
-thing
-dung
- 
-va
- 
-niim
- 
-sau
- 
-finh
- 
-mch
- 
-chu
- 
-du6i;
- 
-di?n
- 
-ngoai
- 
-c6
- 
-hinh
- 
-tam
- 
-giac
- 
-ti€p
- 
-xuc
- 
-v6i
- 
-vung
+5.1. Vị trí, kích thước
+
+Tuyến thượng thận nằm ngay ở trên và hồi ở trước cực trên của thận. Tuyến có màu vàng của vàng thối, mỗi tuyến có hai vùng khác biệt về chức năng và cấu trúc là vùng vỏ (cortex) ở ngoài và vùng tủy (medulla) ở trong. Tuyến cùng lớp mô quanh thận bao quanh được bao bọc bởi mạc thận và được ngăn cách với thân bởi một vách mô liên kết. Hai tuyến có hình thù hồi khác nhau. Tuyến bên phải có hình tháp với hai mỏm nhô xuống dưới. Tuyến bên trái có hình bán nguyệt, dẹp theo chiều trước sau và lồi hơn bên phải. Khối chính của tuyến phải nằm trên đỉnh thận phải trong khi tuyến trái nằm trên mặt trước trong của cực trên thận trái nên tuyến phải thường hội cao hơn tuyến trái.
 
 
+Hình 5. Các tuyến thượng thận, nhìn từ sau [15]
+
+Trên CT, đường kính ngang trung bình của thân tuyến thượng thận là 61 mm ở bên phải và 79 mm ở bên trái. Tuyến nặng 5 g (trong đó tủy đóng góp 1/10).
+
+Lúc sinh tuyến lớn hơn xét về tỷ lệ trọng lượng và bằng khoảng 1/3 kích thước của thận. Ngày sau sinh vùng vỏ tuyến giảm về kích thước còn vùng tủy tăng trưởng trong đó ít. Ở cuối tháng thứ hai trọng lượng tuyến giảm chừng 50%. Tuyến bắt đầu tăng trưởng vào cuối năm thứ hai và lấy lại trọng lượng của nó ở lúc sinh vào lúc dậy thì. Ít có sự tăng trọng lượng ở tuổi trưởng thành. Các tuyến thượng thận phụ, bao gồm chủ yếu là mô vỏ, có thể gặp ở mô liên kết gần tuyến thượng thận chính. Những tuyến phụ, gọi là các thể vỏ, có thể gặp ở thùy tinh, mào tinh và dây chằng rốn của tử cung.
+
+5.2. Tuyến thượng thận phải (Các H. 5 và 6)
+
+Tuyến thượng thận phải nằm sau tinh mạch chủ dưới và thùy phải của gan, trước trụ phổi cơ hoành và cực trên thận phải. Mặt dưới là mặt đáy và tiếp giáp mặt trước của cực trên thận phải. Nó thường gối lên đỉnh của cực trên như là hai mỏm dưới giang ra ôm lấy mỏ thận. Mặt trước có hai diện nhô riêng biệt: Diện trong hồi hẹp, chảy thẳng đứng và nằm sau tinh mạch chủ dưới; diện ngoài có hình tam giác tiếp xúc với vùng
 
 <!-- Hết trang 517 -->
 
+trần của gan. Phần tháp nhát của mật trước có thể được che phủ bởi phúc mạc từ lá dưới của dây chằng vành lát xuống. Tại điểm này nó nằm sau bờ ngoài của phần xương tá tràng. Bên dưới đính, ở gần bờ trước của tuyến, rốn tuyến nằm trong một rãnh ngấn mà từ đó tinh mạch thượng thận phải đi ra để đổ về tinh mạch chủ dưới. Tinh mạch này đặc biệt ngắn, làm cho việc cắt bỏ tuyến bằng phẫu thuật tiêm ấn nguy cơ, vì thất tinh mạch rất khó. Tinh mạch có thể bị bứt khỏi tinh mạch chủ dưới trong lúc phẫu thuật hoặc đôi khi bị bứt do các chấn thương giật móc mạnh. Mật sau được chia thành các diện trên và dưới bởi một gờ ngang: diện trên nằm trên cơ hoành, diện dưới nằm trên mặt trên của cục trên thận phải. Bờ trong của tuyến thì mỏng và nằm ở ngoài hạch thận tạng phải và động mạch hoành dưới phải khi động mạch chạy trên trụ phải của cơ hoành.
 
-tr:in cua gan. Ph§n thftp nhftt cua ID?t tru&c c6 thS dm;rc che phu bcri phuc ID?C n.r la duai 
-cua day chllng vanh lt xu6ng. T?i diSm nay n6 nlim sau ba ngoai cua ph§n xu6ng ta 
-trang. Ben du&i dinh, a gfin ba truac cua tuy@n, r6n tuy@n nlim trong m9t ranh ngiln ma 
-n.r d6 tinh ID?Ch thm;mg thn phai di ra dS d6 v tinh mch chu du&i. Tinh ID?Ch nay d?C 
-bi?t ngiln, lam cho vi?c cilt bo tuy@n bling phu thut tim in nguy ca, vi thilt tinh m?ch 
-rt kh6. Tinh mch c6 thS bi but kh6i tinh ID?Ch chu du&i trong luc phu thut hO?C doi 
-khi bi but do cac chftn thuang giam t6c m?nh. M?t sau duqc chia thanh cac di?n tren va 
-du&i bcri m9t go ngang: di?n tren nlim tren CO' hoanh, di?n du&i nlim tren ID?t tren cua 
-cvc tren thn phai. Ba trong cua tuy@n thi mong va nlim cr ngoai h?ch than t?ng phai va 
-d9ng ID?Ch hoanh du&i phai khi d9ng ID?Ch ch?y tren trµ phai cua CO' hoanh. 
-5.3. Tuyn thmyng thn trai (Cac H. 5 va 6) 
-Tuy@n thuqng thn trai nlim sat vao trµ trai CO' hoanh. M?t tru&c trong l6i, ID?t sau 
-ngoai lorn, khuon hinh theo ID?t trong C\l'C tren tMn trai. Ba tren trong silc, ba du&i ngoai 
-tron. M?t tru&c trong c6 hai phfin: Phfin tren duqc phu bai phuc mc cr thanh sau tui mc 
-n6i, lien quan qua tui v&i tam vi; phfin du&i ti@p xuc v&i tl,ly va d9ng ID?Ch lach. R6n nlim 
-tren ID?t truac trong, g§n phfin du&i. T"mh ID?Ch thuqng thn trai thoat ra (J day va ch?y v 
-phia du&i trong d6 vao tinh ID?Ch thn trai. M?t sau ngoai duqc m9t go chia thanh hai 
-phfin: Phfin ngoai ti@p xuc v&i thn va phfin trong ti@p xuc v&i trµ trai ca hoanh. Ba tren 
-trong nlim ngoai h?ch than t?ng trai va cac d9ng ID?Ch hoanh du&i va vi trai. 
-Di(n lien quan v6i d(l day 
-Tinh m(lch 
-thugng th)n 
--='4'--Di(n lien quan 
-Di(n lien quan v6i 
-tinh m(lch chu du6i 
-Tinh m(lch thuqng th)n 
+5.3. Tuyến thượng thận trái (Các H. 5 và 6)
 
-![Hinh 6. Gae tuylm thll'Q'ng th;;m, nhln tu tmac](giaiphau_media/hinh_p518_6.png)
-
-*Hinh 6. Gae tuylm thll'Q'ng th;;m, nhln tu tmac*
-
-5.4. C§u to va cac hormone 
-v6i tuY. 
-Yung vo tuy@n thuqng thn c6 3 vanh dai (lap) mo n.r ngoai vao trong. Yanh dai 
-du (J ngoai cung ti@t ra cac corticoid chuySn h6a mu6i ma chu y@u la aldosterone. Yanh 
-dai b6 a gifra ti@t ra cac cac corticoid chuySn h6a glucose ma chu y@u la cortisol. Yanh 
-dai lu&i a trong cung ti@t ra cac hormone c6 tac d\mg nam h6a (androgens). 
-Yung tuy thuqng tMn la m9t hch giao cam cua thfin kinh tv chu da bi bi@n d6i di. 
-N6 c6 cung ngu6n g6c phoi thai nhu cac hch giao cam khac. Cac t@ bao tuy thuqng thn 
+Tuyến thượng thận trái nằm sát vào trụ trái cơ hoành. Mặt trước trong lồi, mặt sau ngoài lõm, khuôn hình theo mặt trong cục trên thận trái. Bờ trên trong sắc, bờ dưới ngoài tròn. Mặt trước trong có hai phần: Phần trên được phủ bởi phúc mạc ở thành sau túi mạc nối, liên quan qua túi với tâm vị; phần dưới tiếp xúc với tụy và động mạch lách. Rốn nằm trên mặt trước trong, gần phần dưới. Tinh mạch thượng thận trái thoát ra ở đáy và chạy về phía dưới trong đó vào tinh mạch thận trái. Mật sau ngoài được một gờ chia thành hai phần: Phần ngoài tiếp xúc với thận và phần trong tiếp xúc với trụ trái cơ hoành. Bờ trên trong nằm ngoài hạch thận tạng trái và các động mạch hoành dưới và vị trí.
 
 
+Diện liên quan với dây chằng
+Diện gan
+Tinh mạch thượng thận
+Diện liên quan với tinh mạch chủ dưới
+Tinh mạch thượng thận
+
+
+![Hình 6. Các tuyến thượng thận, nhìn từ trước](giaiphau_media/hinh_p518_6.png)
+
+*Hình 6. Các tuyến thượng thận, nhìn từ trước*
+
+
+5.4. Cấu tạo và các hormone
+
+Vùng vỏ tuyến thượng thận có 3 vành đai (lớp) mô từ ngoài vào trong. Vành đai ngoài ở ngoài cùng tiết ra các corticoid chuyển hóa muối mà chủ yếu là aldosterone. Vành đai giữa ở giữa tiết ra các corticoid chuyển hóa glucose mà chủ yếu là cortisol. Vành đai lưới ở trong cùng tiết ra các hormone có tác dụng nam hóa (androgens).
+
+Vùng tuỷ thượng thận là một hạch giao cảm của thần kinh tự chủ đã bị biến đổi. Nó có cùng nguồn gốc phôi thai như các hạch giao cảm khác. Các tế bào tuỷ thượng thận
 
 <!-- Hết trang 518 -->
 
+không có sợi trục. Chúng tập trung thành từng cụm ở quanh các mạch máu và được gọi là các tế bào ưa màu (chromaffin cells). Tủy nhận được các sợi giao cảm tróc hạch từ thân kinh trụ chủ và các tế bào ưa màu tiết ra 2 hormone là epinephrine và norepinephrine.
 
-khong c6 SQ'i trvc. Chung tp trung thanh tirng C\illl a quanh cac mch mau va duqc g9i la 
-cacti bao u:a mau (chromaffin cells). Tuy nhn duqc cac SQ'i giao cam tnr6c hch tu thn 
-kinh tµ chu va cac t€ bao ua mau ti€t ra 2 hormone la epinephrine va norepinephrine. 
-5.5. Mch va thin kinh (H. 7) 
-So v6i kich thu6c cua n6 thi tuySn thuqng thn duqc d.p mau d6i dao. M6i tuySn 
-thuqng thn duqc c§.p mau bai cac dc;mg m?ch thuqng thn tren, gifra va du6i. Chung 
-chia thanh rt nhiu nhanh nh6 di vao tuySn va t?O nen m('>t dam r6i ben trong bao 
-tuy€n. D('>ng m?ch thuqng thn tren tach ra tu d('>ng mch hoanh du6i. D('>ng mch 
-thuqng thn gifra tach ra tu mt ben cua d('>ng mch chu b1,mg ngang muc d('>ng m?ch 
-mc treo trang tren. D('>ng m?ch thuqng th?n du6i tach ra thuc'mg tu than chinh d('>ng 
-mch thn nhung doi khi tu cac nhanh Cl,l'C tren. 
-Cac d9ng mi;icb boanh du6i 
-Tuy,n thuqng th+n phai 
-D9ng mi;ich thuqng th+n tren 
-D9ng mi;ich thuqng th+n du6i 
-DQng mi;ich chu bi,mg 
-D9ng mi;ich tbuqng th+n giiia
+**5.5. Mạch và thần kinh (H.7)**
 
-![Hinh 7. ](giaiphau_media/hinh_p519_7.png)
-
-*Hinh 7. *
-
- 
-Cac
- 
-mc;tch
- 
-mau
- 
-cua
- 
-tuyen
- 
-thLI'qng
- 
-th$n
- 
-[12]
- 
- 
-Thucmg
- 
-c6
- 
-m('>t
- 
-tinh
- 
-m?ch
- 
-thuqng
- 
-thn
- 
-do
- 
-cac
- 
-tinh
- 
-mch
- 
-tu
- 
-trong
- 
-tuy
- 
-di
- 
-ra
- 
-hqp
-l?i
- 
- 
-r6n
- 
-tuy€n.
- 
-Tinh
- 
-m?ch
- 
-thuqng
- 
-thn
- 
-phai
- 
-dt
- 
-ngin,
- 
-chy
- 
-ngang
- 
-t6i
- 
-mt
- 
-sau
- 
-tinh 
-m?ch
- 
-chu
- 
-du6i.
- 
-Doi
- 
-khi
- 
-c6
- 
-t1nh
- 
-mch
- 
-thuqng
- 
-thn
- 
-ph\1
- 
-tu
- 
-r6n
- 
-chy
- 
-len
- 
-tren
- 
-va
- 
-vao 
-trong
- 
-d6
- 
-vao
- 
-tinh m?ch
- 
-chu
- 
-du6i
- 
-a
- 
-tren
- 
-tinh m?ch
- 
-thn
- 
-phai. Duong
- 
-di
- 
-qua
- 
-ngin
- 
-lam
-cho
- 
-hai
- 
-tinh
- 
-mch
- 
-a
- 
-ben phai
- 
-d
- 
-bi
- 
-t6n thuang
- 
-hoc
- 
-thm
- 
-chi
- 
-bi
- 
-but khoi tTnh
- 
-m?ch
-chu
- 
-du6i
- 
-trong
- 
-luc
- 
-m6
- 
-n€u
- 
-bi
- 
-keo
- 
-m?nh
- 
-qua,
- 
-t?O
- 
-ra
- 
-m('>t
- 
- 
- 
-tinh
- 
-mch
- 
-chu.
- 
-Tinh
- 
-m?Ch 
-thuqng
- 
-thn
- 
-trai
- 
-ch?y
- 
-xu6ng
- 
-du6i
- 
-va
- 
-vao
- 
-trong,
- 
- 
-tru6c
- 
-ben
- 
-h?ch
- 
-than
- 
-tng
- 
-trai,
- 
-sau 
-than
- 
-tl,ly,
- 
-va
- 
-d6
- 
-vao
- 
-tinh
- 
-mch
- 
-thn
- 
-trai.
- 
-Nh6i
- 
-mau
- 
-tuy€n
- 
-thuqng
- 
-thn
- 
-thuang
- 
-xay
- 
-ra
- 
-do
-nghen
- 
-tinh
- 
-mch
- 
-han
- 
-la
- 
-nghen
- 
-d('>ng
- 
-mch.
- 
- 
-Cac
- 
-mch
- 
-bch
- 
-huy€t
- 
-nh6
- 
-tu
- 
-VO
- 
-va
- 
-tuy
- 
-dn
- 
-t6i
- 
-r6n
- 
-tuySn
- 
-g('>p
- 
-l?i
- 
-thanh
- 
-nhfrng 
-mch
- 
-16n
- 
-han
- 
-d6
- 
-trvc
- 
-ti€p
- 
-vao
- 
-cac
- 
-nh6m
- 
-ben
- 
-cua
- 
-cac
- 
-h?ch
- 
-C?nh
- 
-d('>ng
- 
-mch
- 
-chu.
+So với kích thước của nó thì tuyến thượng thận được cấp máu dồi dào. Mỗi tuyến thượng thận được cấp máu bởi các động mạch thượng thận trên, giữa và dưới. Chúng chia thành rất nhiều nhánh nhỏ đi vào tuyến và tạo nên một đám rối bên trong bao tuyến. Động mạch thượng thận trên tách ra từ động mạch chủ bụng ngang mức động mạch mạc treo tràng trên. Động mạch thượng thận giữa tách ra từ mặt bên của động mạch chủ bụng ngang mức động mạch mạc treo tràng dưới. Động mạch thượng thận dưới tách ra thường từ thân chính động mạch thận nhưng đôi khi từ các nhánh cực trên.
 
 
+
+![Hình 7. Các mạch máu của tuyến thượng thận [12]](giaiphau_media/hinh_p519_7.png)
+
+*Hình 7. Các mạch máu của tuyến thượng thận [12]*
+
+
+Thường, có một tinh mạch thượng thận đổ các tinh mạch từ trong tuyến đi ra hợp lại ở rốn tuyến. Tinh mạch thượng thận phải rất ngắn, chạy ngang tới mặt sau tinh mạch chủ dưới. Đôi khi có tinh mạch thượng thận phụ từ rốn chảy lên trên và vào trong động mạch chủ dưới ở trên tinh mạch thận phải. Đường đi quá ngắn làm cho hai tinh mạch ở bên phải dễ bị tổn thương hoặc thậm chí bị bứt khỏi tinh mạch chủ dưới trong lúc mổ nếu bị kéo mạnh quá, tạo ra một lỗ ở tinh mạch chủ. Tinh mạch thượng thận trái chạy xuống dưới và vào trong, ở trước bên hạch thân tạng trái, sau thân tụy, và đổ vào tinh mạch thận trái. Nhồi máu tuyến thượng thận thường xảy ra do nghẽn tinh mạch hơn là nghẽn động mạch.
+
+Các mạch bạch huyết nhỏ từ vỏ và tủy dẫn tới rốn tuyến góp lại thành những mạch lớn hơn đổ trực tiếp vào các nhóm bên của các hạch cận động mạch chủ.
 
 <!-- Hết trang 519 -->
 
+Tương quan với kích thước của nó, tuyến thượng thận có sự chi phối thần kinh tự chủ nhiều hơn bất kỳ cơ quan nào. Ở mỗi bên, đám rối tuyến thượng thận nằm giữa mặt trong của tuyến và các hạch thần tạng và chủ thận. Nó chủ yếu chứa các sợi giao cảm trước hạch mà xuất phát từ các đốt tủy ngực dưới và đi tới đám rối thượng thận qua đường các nhánh từ hạch và đám rối thần tạng, và qua đường thần kinh tạng lôn. Những sợi này synap với các tế bào tủy trên crom của tủy, là những tế bào có thể được coi như tương đương với các neuron giao cảm sau hạch.
 
-Tuong quan v6i kich thu6'c cua n6, tuy€n thm;mg thÇn c6 sv chi phf>i thfin kinh tl,l' 
-chu nhi€u hon bftt ky ca quan nao. 6 m6i ben, dam rf>i tuy€n thm;mg th?,n n&m gifra mÈt 
-trong cua tuy€n va cac h?ch than t?ng va chu thÇn. N6 chu y€u chua cac sc;ri giao cam 
-tru6c h?ch ma xuftt phat tu cac d9t hly ngi.rc du6i va di t6'i dÉm r6i thuQ'Ilg th?,n qua 
-dm'mg cac nhanh tu h?ch va dam roi than t?ng, va qua dm:mg than kinh t?ng 16n. Nhfrng 
-sqi nay synap v6i cac t€ bao 16n ua crom cua my, la nhfrng t€ bao c6 thÊ duc;rc coi nhu 
-tuong duong v6'i cac naron giao cam sau h?ch. 
-6. TUYËN U'C (thymus) (H.8)
-TuySn UC cung v6i my xuong la hai ca quan bi;lCh huySt nguyen phat. N6 la m9t 
-ca quan m€n c6 hai thuy duqc b9c l?i cung nhau, hai thuy n6i v6i nhau tren duong gifra 
-bai m9t mo lien k€t ma hoa lfrn v6i bao cua m6i thuy. Mo nf>i hai thuy c6 nhfrng ch6 
-dinh v6i ngo?i tam m?C va khi cilt tuy€n UC d.n dung l?i O' nhfrng ch6 dinh nay. Nhin 
-tren mÈt cilt CT va MRI, tuy€n UC n&m tru6'c d9ng m?Ch chu len va du6i tinh m?Ch canh 
-tay dftu trai. 
-Tuy€n uc c6 kich thu6c 16n nhftt a giai do?n dftu dai, nhftt la a quanh tu6i dÇy thi, 
-va vfrn con ho?t d9ng cho t6i tu6i gia cho du n6 bi thoai h6a xa ma dang kÊ lam che lftp 
-di Sl,l' t6n t?i cua mo tuy€n UC. Phfin 16n hon cua tuy€n UC ni'un trong trung thftt tren va 
-phfin tru6c cua trung thftt du6'i, va ba du6i cua tuySn UC xu6ng t6i ngang muc S\ffi SU'O'Il 
-4. V€ phia tren, tuy€n thuong ma r9ng vao c6, do tuy€n c6 ngu6n g6c phoi thai tu tui
-hfiu thu ba. Cac Cl,l'C tren cua n6 thuO'llg nho len tren khuy€t tren UC, Cl,IC ben trai thuO'llg
-cao hon va n&m sau cac ca du6i m6ng. Doi khi n6 len t6'i cac Cl,IC du6'i cua tuy€n giap
-va duc;rc nf>i ,v6i tuy€n giap bai day ching &iap - tuy€n 119. Hinh d?ng cua tuySn phfin
-1Ì do cac cau true xung quanh quy dinh. Ve phiÍ du6'i, dau du6i cua thuy phai thu®Î
-nam gifra ba phai cua d9ng m?ch chu len va phoi phai, tru6c tinh m?ch chu tren. Ve
-phia tru6c, tuy€n lien quan v6'i ca U'C - m6ng, ca UC - giap va m?C (a c6), va can UC, cac
-m?ch ngvc trong va ba S1,ln suon tren. Cac mang ph6i nim v€ phia ben va cac thfrn kinh
-hoanh nim a phia tru6c ben va du6i. V€ phia sau, tuy€n UC ti€p xuc v6i cac m?ch cua
-trung thftt tren (tinh m?ch canh tay dfiu trai c6 th6 vui m9t phfin trong tuy€n), phfin tren
-khi quan ngvc va mÈt tru6c cua tim. Trong phfru thu?,t cilt tuy€n uc, d.n phai bi€t bi€n
-d6i giai phfru khi ma cac Cl,l'C tren tuy€n UC c6 th6 nim sau tinh m?Ch canh tay dftu trai.
-Tuy€n UC duc;rc cftp mau chu y€u b&i cac nhanh cua d9ng m?Ch ngvc trong va d9ng 
-mi;lch giap du6i. Cac tinh m?Ch tu tuy€n UC d6 v€ cac tinh m?Ch canh tay dftu trai, ngvc 
-trong va giap duÏi. M(>t hay nhi€u tinh m?9h thuong hi?n ra a ba tron,g m6i tÐuy r6i ÑQp 
-thanh m9t than do va tinh m?Ch canh tay dau trai. Cac m?Ch bi;lch huyet tu tuyen UC ve di 
-theo duong cua cac mi;lch mau r6i d6 v€ cac hi;lch canh tay dftu, khi - ph€ quan va Ci;lnh UC. 
-Bao xa quanh m6i thuy tuy€n c6 cac be tiSn vao trong chia m6i thuy tuySn thanh 
-cac tiÊu thuy. M6i ti6u thuy bao g6m m9t vung VO ngoai xfrm mau va m(>t vung tuy sang 
-mau·CY trung tam. Yung VO chua cac tS bao T, cac t€ bao canh cay, cac t€ bao bi6u mo va 
-d?i thvc bao. TS bao T chua truang thanh tu hly xuong d€n day duqc nhan len va 
-truang thanh r6i duc;rc dua tr& l?i h? b?ch huy€t. Cac t€ bao bi€u mo c6 vai tro huftn 
-luy?n t€ bao \· Chun& ti€t ra cac hormone nhu thymosin, th);lllic hormonal factor va 
-thymopoetin
- 
-de
- 
-thuc
- 
-day
- 
-sv
- 
-tang
- 
-sinh
- 
-va
- 
-truang
- 
-thanh
- 
-cua
- 
-cac
- 
-te
- 
-bao
- 
-lympho
- 
-T.
+6. TUYẾN ỨC (thymus) (H.8)
 
+Tuyến ức cùng với tủy xương là hai cơ quan bạch huyết nguyên phát. Nó là một cơ quan mền có hai thùy được bọc lại cùng nhau, hai thùy nối với nhau trên đường giữa bởi một mô liên kết mà hòa lẫn với bao của mỗi thùy. Mô nối hai thùy có những chỗ định vị ngoại tâm mạc và khi cắt tuyến ức cần dùng lại ở những chỗ định này. Nhìn trên mặt cắt CT và MRI, tuyến ức nằm trước động mạch chủ lên và dưới tĩnh mạch cánh tay đầu trái.
 
+Tuyến ức có kích thước lớn nhất ở giai đoạn đầu đời, nhất là ở quanh tuổi dậy thì, và vẫn còn hoạt động cho tới tuổi già cho dù nó bị thoái hóa xơ mỡ đáng kể làm che lấp đi sự tồn tại của mô tuyến ức. Phần lớn hơn của tuyến ức nằm trong trung thất trên và phần trước của trung thất dưới, và bờ dưới của tuyến ức xuống tới ngang mực sườn 4. Về phía trước, tuyến thượng mạc rỗng vào cơ, do tuyến có nguồn gốc phôi thai từ túi hầu thứ ba. Các cực trên của nó thường nhô lên trên khuyết trên ức, cực bên trái thường cao hơn và nằm sau các cơ dưới móng. Đôi khi nó lên tới các cực dưới của tuyến giáp và được nối với tuyến giáp bởi dây chằng giáp - tuyến ức. Hình dạng của tuyến phần lớn do các cấu trúc xung quanh quy định. Về phía dưới, đầu dưới của thùy phải thường nằm giữa bờ phải của động mạch chủ lên và phổi phải, trước tĩnh mạch chủ trên. Về phía trước, tuyến liên quan với cơ ức - móng, cơ ức - giáp và mạc (ở cổ), và cản ức, các mạch ngực trong và ba sụn sườn trên. Các màng phổi nằm về phía bên và các thần kinh hoành nằm ở phía trước bên và dưới. Về phía sau, tuyến ức tiếp xúc với các mạch của trung thất trên (tĩnh mạch cánh tay đầu trái có thể vùi một phần trong tuyến), phần trên khi quan ngực và mặt trước của tim. Trong phẫu thuật cắt tuyến ức, cần phải biết đôi khi mà các cực trên tuyến ức có thể nằm sau tĩnh mạch cánh tay đầu trái.
+
+Tuyến ức được cấp máu chủ yếu bởi các nhánh của động mạch ngực trong và động mạch giáp dưới. Các tĩnh mạch từ tuyến ức đổ về các tĩnh mạch cánh tay đầu trái, ngực trong và giáp dưới. Một hay nhiều tĩnh mạch thường hiện ra ở bờ trong mỗi thùy rồi góp thành một thân đổ và tĩnh mạch cánh tay đầu trái. Các mạch bạch huyết từ tuyến ức về đi theo đường của các mạch máu rồi đổ về các hạch cánh tay đầu, khí - phế quản và cẳng ức.
+
+Bao xơ quanh mỗi thùy tuyến có các bề tiến vào trong chia mỗi thùy tuyến thành các tiểu thùy. Mỗi tiểu thùy bao gồm một vùng vỏ ngoại xâm màu và một vùng tủy sáng màu ở trung tâm. Vùng vỏ chứa các tế bào T, các tế bào cành cây, các tế bào biểu mô và đại thực bào. Tế bào T chưa trưởng thành từ tủy xương đến đây được nhân lên và trưởng thành rồi được đưa trở lại hệ bạch huyết. Các tế bào biểu mô có vai trò huấn luyện tế bào T. Chúng tiết ra các hormone như thymosin, thymic hormonal factor và thymopoietin để thúc đẩy sự tăng sinh và trưởng thành của các tế bào lympho T.
 
 <!-- Hết trang 520 -->
 
+![Hình 8. Tuyến ức lúc mới sinh](giaiphau_media/hinh_p521_8.png)
 
-Cac phn m& n)ng vao 
-c6 cua tuySn i'.rc 
-Cac d9ng ffi(ICh canh 
-
-![Hinh 8. Tuyen Ll'C luc m&i sinh](giaiphau_media/hinh_p521_8.png)
-
-*Hinh 8. Tuyen Ll'C luc m&i sinh*
+*Hình 8. Tuyến ức lúc mới sinh*
 
 
+---
+(Chú thích các phần trong hình vẽ)
 
+- Tuyến giáp
+- Khí quản
+- Các phần mềm rỗng vào cổ của tuyến ức
+- Các động mạch cánh
+- Tuyến ức, thuỳ phải
+- Tuyến ức, thuỳ trái
+- Phổi phải
 
 <!-- Hết trang 521 -->
 

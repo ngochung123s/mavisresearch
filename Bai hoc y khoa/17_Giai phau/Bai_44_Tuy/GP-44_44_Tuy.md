@@ -1,193 +1,84 @@
-# TỤY
+# BÀI 44: TỤY (pancreas)
 
 **Chương:** Chương 10: Hệ Tiêu Hóa  
 **Tác giả:** ThS. Nguyễn Ngọc Anh  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 697 - 700
+**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 697 - 700 (Tương ứng file scan page_697 đến page_700)
 
 ---
 
-Bai 6 
-TUY (pancreas)
-1. V! TRi, KiCH THU'O'C
-Tl_ly la tuy€n tieu hoa l&n nhfrt, thl,fc hi­n cac cht'.rc nang ca n(>i ti€t va ngo?i ti€t. 
-Phfin l&n ban cua tuY. la tuY. ngo1;1i ti€t, ti€t ra cac enzyme tieu hoa lipid, carbonhydrate 
-va protein. Chuc nang n(>i ti€t cua tUY. la do cac t€ bao nim rai rac khip mo tuy€n: 
-chung tham gia vao vi­c gifr 6n djnh du<'mg huy€t va di®u chinh S\1' v¯n d(>ng va ho1;1t 
-d(>ng chuc nang cua d<;t day - ru(>t. 
-TuY. c6 mau h6ng nhu thjt ca h6i v&i m(>t b° m±t nh²n, chic, chia thuy. Kh6i chinh 
-cua t\,ly duqc chia thanh b6n phftn, nr phai sang trai, la dfiu, c6, than va duoi; kh6i phl_l la 
-mom m6c. Tl_ly nguai tmcrng thanh dai 12 d€n 15 cm, trong nhu m(>t cai lu5'i mong dfin 
-tu dfiu t&i duoi. Cung v&i tu6i tac, mo t\,ly ngo?i ti€t suy giam, d³n d€n teo mong dfin 
-tuy€n t\,ly. Tl_ly ch?y gfin nhu ngang qua thanh b\mg sau, & sau d<;t day (H.1 ). D§u t\,ly bi 
-vay quanh b&i 3 phfin dfiu cua ta trang; c6 va phfin phai than t\,ly nim tm&c cac m1;1ch 
-chu va c(>t s6ng va bi dfry l6i ra trn&c, tra nen nhfrng phftn a tm&c nhfrt; duoi tl_ly ch1;1m 
-t&i r6n Jach. Tu d§u t&i duoi, tuY. ch?y sang trai va hoi !en tren qua cac vung thuqng vi 
-va h? su<'m trai, vit ngang tm&c than cac d6t s6ng thit lung tren. 
-Than !UY. 
-0uoi lU):' 
-06t s6ng thilt 
-lung IV 
-09ng m::ich ch(1 bi,mg 
-Tinh m::ich 
--
--(jf -
-cht1 dtr&i 
-Thhn 
-Gan·/ 
-1, - Lach 
-TuY....:.,J. i-_::::..c_i--j"iT\ 
-Ngach_lach cua t(1i
-, 
-I 
-ffi\lC n◊i 
-Tien dinh k­
-tui m::ic noi 
-D::t day 
+## 1. VỊ TRÍ, KÍCH THƯỚC
 
-![Hinh 1. Vi tri cua tuY.](giaiphau_media/hinh_p697_1.png)
+Tụy là tuyến tiêu hoá lớn nhất, thực hiện các chức năng cả nội tiết và ngoại tiết. Phần lớn hơn của tụy là tụy ngoại tiết, tiết ra các enzyme tiêu hoá lipid, carbonhydrate và protein. Chức năng nội tiết của tụy là do các tế bào nằm rải rác khắp mô tuyến: chúng tham gia vào việc giữ ổn định đường huyết và điều chỉnh sự vận động và hoạt động chức năng của dạ dày - ruột.
 
-*Hinh 1. Vi tri cua tuY.*
+Tụy có màu hồng như thịt cá hồi với một bề mặt nhẵn, chắc, chia thùy. Khối chính của tụy được chia thành bốn phần, từ phải sang trái, là đầu, cổ, thân và đuôi; khối phụ là mỏm móc. Tụy người trưởng thành dài 12 đến 15 cm, trông như một cái lưỡi mỏng dần từ đầu tới đuôi. Cùng với tuổi tác, mô tụy ngoại tiết suy giảm, dẫn đến teo mỏng dần tuyến tụy. Tụy chạy gần như ngang qua thành bụng sau, ở sau dạ dày (H.1). Đầu tụy bị vây quanh bởi 3 phần đầu của tá tràng; cổ và phần phải thân tụy nằm trước các mạch chủ và cột sống và bị đẩy lồi ra trước, trở nên những phần ở trước nhất; đuôi tụy chạm tới rốn lách. Từ đầu tới đuôi, tụy chạy sang trái và hơi lên trên qua các vùng thượng vị và hạ sườn trái, vắt ngang trước thân các đốt sống thắt lưng trên.
 
-2. HINH THE NGOAI VA LIEN QUAN (H.2)
-Dau 11,ly (head of pancreas) dyt theo hu&ng tnr&c - sau, nim tnr&c ba phai cua c(>t 
-s6ng; cac ba cua n6 bi ta trang frn lorn, trong d6 ba ngoai dinh ch±t v&i phftn xu6ng ta 
-trang. Phftn du&i trai cua d§u lien ti€p v&i mom mac (uncinate process), m(>t mom nho 
-!en tren va sang trai (J sau cac m?Ch m?C treo trang tren. D§u t\,ly lien quan sau v&i tTnh
-m;;ich chu du&i, phfin t¯n cung cua cac tTnh m?ch th¯n, 6ng m¯t chu; 6ng m¯t chu dao
-thanh m(>t ranh 6 m´U sau dfiu t\,ly ho±c di trong mo tuY.; rieng mom m6c ni'im tm&c d(>ng
-m;;ich chu. M±t tm&c dfiu tuY. c6 pht'.1c m?C phtl va I ien quan v&i hanh ta trang. RS m1;1c
-treo d;;ii trang ngang bang ngang dfiu t\,ly va la noi m;;ic treo l¯t !en dµ tr& thanh phuc
-m;;ic phu tl_ly.
+![Hình 1: Vị trí của tuỵ](giaiphau_media/hinh_p697_1.png)
+*Hình 1. Vị trí của tuỵ*
 
+---
 
+## 2. HÌNH THỂ NGOÀI VÀ LIÊN QUAN (H.2)
 
-<!-- Hết trang 697 -->
+- **Đầu tụy** (*head of pancreas*): dẹt theo hướng trước - sau, nằm trước bờ phải của cột sống; các bờ của nó bị tá tràng ấn lõm, trong đó bờ ngoài dính chặt với phần xuống tá tràng. Phần dưới trái của đầu liên tiếp với *mỏm móc* (*uncinate process*), một mỏm nhô lên trên và sang trái ở sau các mạch mạc treo tràng trên. Đầu tụy liên quan sau với tĩnh mạch chủ dưới, phần tận cùng của các tĩnh mạch thận, ống mật chủ; ống mật chủ đào thành một rãnh ở mặt sau đầu tụy hoặc đi trong mô tụy; riêng mỏm móc nằm trước động mạch chủ. Mặt trước đầu tụy có phúc mạc phủ và liên quan với hành tá tràng. Rễ mạc treo đại tràng ngang băng ngang đầu tụy và là nơi mạc treo lật lên để trở thành phúc mạc phủ tụy.
+- **Cổ tụy:** dài khoảng 2 cm, tương ứng với vùng nằm trước tĩnh mạch mạc treo tràng trên và tĩnh mạch cửa, bị các tĩnh mạch này ấn thành một khuyết sâu. Mặt trước cổ tụy có rãnh cho động mạch vị - tá tràng.
+- **Thân tụy** (*body of pancreas*): có ba mặt: trước trên, sau và trước dưới; và ba bờ: trên, dưới và trước.
+  - *Mặt trước trên:* được phúc mạc phủ và được ngăn cách với dạ dày bởi túi mạc nối.
+  - *Mặt sau:* không được phúc mạc bọc và liên quan với động mạch chủ, nguyên ủy động mạch mạc treo tràng trên, thận trái, cuống thận trái và tuyến thượng thận trái; đi giữa tụy và các thành phần liên quan sau này là tĩnh mạch lách.
+  - *Mặt trước - dưới:* được bọc bởi phúc mạc, liên quan với góc tá hỗng tràng và các quai hỗng tràng; phúc mạc của mặt trước dưới liên tiếp với phúc mạc của lá sau - dưới của mạc treo đại tràng ngang.
+  - *Bờ trước:* đi giữa các mặt trước trên và trước dưới, là nơi bám của mạc treo đại tràng ngang; tại bờ này hai lá của mạc treo tách ra, một chạy lên mặt trước trên, một chạy xuống mặt trước dưới.
+  - *Bờ trên:* có động mạch lách nằm; đầu phải của bờ này nhô lên thành *củ mạc nối*.
+- **Đuôi tụy** (*tail of pancreas*): hẹp, có thể ngắn nhưng cũng có thể dài và đi tới rốn lách; các mạch lách nằm sau đuôi tụy và cùng đuôi di động trong hai lá của dây chằng lách - thận. Trong lúc thắt các mạch lách để cắt lách, đuôi tụy dài dễ bị tổn thương.
 
+![Hình 2: Hình thể ngoài và liên quan của tuỵ](giaiphau_media/hinh_p698_2.png)
+*Hình 2. Hình thể ngoài và liên quan của tuỵ*
 
-ca tljy, dai khoang 2 cm, tuong (mg v6i vung niim tru6c tTnh 111?Ch 111?C treo trang 
-tren va tTnh 111?Ch ci'.ra, bi cac tTnh 111?Ch nay Ýn thanh m(>t khuy€t sau. M?t tru6c c6 tUY. 
-c6 ranh cho d(>ng 111?C vi - ta trang. 
-Than flJY (body of pancreas) c6 ba m?t: tru6c tren, sau va tru6c du6i; va ba bo: 
-tren, du6i va tru6c. MÞt tru6c tren duqc phuc m?c phu va duqc ngan each v6i d? day 
-b6i tui 111?C n6i. M?t sau kh6ng duqc phuc 111?C b9c va lien quan v6i d(mg JTI?Ch chu, 
-nguyen LIY d(mg JTI?Ch 111?C treo trang tren, th?n trai, cu6ng th?n trai va tuy€n thuqng 
-th?n trai; di gifra tl,ly va cac thanh phfin lien quan sau nay la tTnh m?ch Jach. M?t tru6c -
-du&i duqc b9c b&i phuc m?c, lien quan v6i g6c ta h6ng trang va cac quai h6ng trang; 
-phuc 111?C cua mÞt tru6c du6i lien ti€p v&i phuc 111?C cua la sau - dtr6i cua 111?C treo d?i 
-trang ngang. Bo tru6c di gifra cac 111?t trn6c tren va tru6c du6i, la nai barn cua 111?C treo 
-d?i trang ngang; t?i bo nay hai la cua nwc treo tach ra, m(>t ch?y len mÞt tru6c tren, m(>t 
-ch?y xu6ng m?t trn6c du6i. Bo tren c6 d(>ng m?ch Jach niim; dfiu phai cua bo nay nh6 
-Jen thanh cu m9c n6i. 
-Duoi flJY (tail of pancreas) hßp, c6 thà ngim nhung cilng c6 thJ dai va di t6i r6n 
-Jach; cac ID?Ch lach nilm sau du6i tl)y va cung du6i di d(>ng trong hai la cua day chilng 
-lach - th?n. Trong Jue thit cac m:;ich Jach dJ dt Jach, du6i tl,ly dai dá bi t6n thuong. 
-Thflntyv 
-Ta tr•n1 
-Mt tru6c trcn 
-Ba tru<'rc 
-Mom moc 
+---
 
-![Hinh 2. Hinh th ngoai va lien quan cua tuY.](giaiphau_media/hinh_p698_2.png)
+## 3. CẤU TẠO
 
-*Hinh 2. Hinh th ngoai va lien quan cua tuY.*
+Tụy được tạo nên bởi hai loại mô tuyến khác nhau. Khối mô tuyến chính của tụy là mô tụy ngoại tiết, bao gồm nhiều *tiểu thùy*. Mỗi tiểu thuỳ do nhiều *nang tuyến* hợp nên và thành của mỗi nang lại do *các tế bào tiết dịch* (ngoại tiết) tạo thành. Dịch từ mỗi tiểu thuỳ được dẫn lưu bởi một ống tiết nhỏ, và những ống này hợp lại để cuối cùng đổ vào hai ống lớn là ống tụy và ống tụy phụ.
 
-3. cAu TO
-Mt tnr&c dLr&i 
-TuY. duqc t?o nen b&i hai lo?i m6 tuy€n khac nhau. Kh6i m6 tuy€n chinh cua tuY. 
-la m6 t\Jy ngo?i ti€t, bao g6m nhi€u tidu thuy. M6i tiJu thuy do nhi€u nang tuyân hqp 
-nen va thanh cua m6i nang l?i do eek ti baa tidt djch (ngo?i tiât) t?o thanh. Djch tu m6i 
-tiàu thuy duqc d§n luu b&i m(>t 6ng tiât nho, va nhung 6ng nay hqp l?i dã cu6i etmg d6 
-vao hai 6ng 16n la 6ng t\JY va 6ng tl)y ph\J. 
-Ong flJY (pancreatic duct) (H.3) di ngang qua su6t chi€u dai du6i tl,ly va than tl,ly, 
-t6i ngang c6 t1,1y thi di chäch xu6ng du6i va sang phai qua dfiu tl,ly r6i cung 6ng m?t chu 
-d6 vao phfin xu6ng ta trang t?i m9t 16 6 dinh nhu ta trang Ian. Thuong thl 6ng m?t chu 
-hqp v6i 6ng tl,ly thanh m9t do?n 6ng chung ngin tru6c khi d6 vao ta trang va do?n nay 
-thuong phlnh ra t?o nen bong gan t11y (hepatopancreatic ampulla). Cac th6 ca vong a 
-quanh dfiu d6 vao ta trang cua bong t?O nen CO' thilt bong gan t71y. 
+- **Ống tụy** (*pancreatic duct*) (H.3): đi ngang qua suốt chiều dài đuôi tụy và thân tụy, tới ngang cổ tụy thì đi chếch xuống dưới và sang phải qua đầu tụy rồi cùng ống mật chủ đổ vào phần xuống tá tràng tại một lỗ ở đỉnh nhú tá tràng lớn. Thường thì ống mật chủ hợp với ống tụy thành một đoạn ống chung ngắn trước khi đổ vào tá tràng và đoạn này thường phình ra tạo nên *bóng gan tụy* (*hepatopancreatic ampulla*). Các thớ cơ vòng ở quanh đầu đổ vào tá tràng của bóng tạo nên *cơ thắt bóng gan tụy* (*cơ vòng Oddi*).
+- **Ống tụy phụ** (*accessory pancreatic duct*): dẫn dịch của phần dưới đầu tụy; nó xuất phát từ ống tụy ở nơi mà ống tụy bắt đầu thay đổi hướng đi và chạy thẳng sang phải đổ vào phần xuống tá tràng ở đỉnh nhú tá tràng bé. Ống tụy phụ không thông với ống tụy ở 9% số trường hợp.
 
+Các đảo tế bào nội tiết của tụy nằm xen kẽ với các nang tuyến tụy ngoại tiết được gọi là *các tiểu đảo Langerhans*. Chúng tiết ra *insulin* và *glucagon*; các hormone này đi thẳng vào máu để tham gia vào sự chuyển hoá glucose của cơ thể.
 
+![Hình 3: Ống tuỵ và cấu trúc bóng gan tuỵ](giaiphau_media/hinh_p699_3.png)
+*Hình 3. Ống tuỵ và cấu trúc bóng gan tuỵ*
 
-<!-- Hết trang 698 -->
+---
 
+## 4. MẠCH MÁU VÀ THẦN KINH
 
-Ong t{ly ph{l (accessory pancreatic duct) d}n dich cua phkn du&i dku tl,ly; n6 xu~t 
-phat tu 6ng tl,ly & nai ma 6ng tl,ly bilt dku thay d6i hu&ng di va ch;;ty thing sang phai d6 
-vao phkn xu6ng ta trang & dinh nhu ta trang be. Ong tl,ly phµ khong thong v6'i 6ng tl,ly & 
-9% s6 truang hqp. 
-Cac dao t€ bao n9i ti€t cua tuy nim xen ke v6'i cac nang tuySn t\ly ngo,;ti tiSt duqc 
-g9i la eek tidu ado Langerhans. Chung ti€t ra insulin va glucagon; cac hormone nay di 
-thilng vao rnau de tham gia vao S\l' chuyen hoa glucose cua C(J the. 
-C& tUY. ThOn tuY. 
-Ong tuY. ph1,1 
--iiCil"cdl;ii 
-Ong tuY. --,.-,P'7'.P, 
-Ong tuY. 
-Ca thiit bong gan tuY. 
-(ca vong Oddi) 
+### 4.1. Động mạch (H.4)
 
-![Hinh 3. 6ng tUY. va cau true bong gan tUY.](giaiphau_media/hinh_p699_3.png)
+Thân và đuôi tụy được cấp máu bởi các nhánh của động mạch lách, lần lượt là: *động mạch tụy lưng* với hai nhánh phải và trái, *động mạch tụy lớn*, *động mạch đuôi tụy* và các nhánh nhỏ. Nhánh trái động mạch tụy lưng cùng động mạch tụy lớn và động mạch đuôi tụy nối tiếp với nhau trong mô tụy dọc bờ dưới thân tụy.
 
-*Hinh 3. 6ng tUY. va cau true bong gan tUY.*
+Đầu tụy và tá tràng cùng được nuôi dưỡng bởi các nhánh tá - tụy của động mạch vị tá tràng và động mạch mạc treo tràng trên: Động mạch vị - tá tràng tách ra các *động mạch tá - tụy trên trước và sau*; động mạch mạc treo tràng trên tách ra *động mạch tá - tụy dưới* với hai nhánh trước và sau (xem bài Ruột non). Động mạch tá tụy trước trên tiếp nối với nhánh phải động mạch tụy lưng.
 
-4. M}:\CH MAU VA THAN KINH
-D()ng mch (H.4). Than va duoi tl,ly duqc dp mau b&i cac nhanh cua d(mg mch 
-lach, lkn luqt la: d9ng rn;;tch tl,ly lung v&i hai nhanh phai va trai, d(mg m;;tch tl,ly l&n, 
-d9ng mch duoi tl,ly va cac nhanh nho. Nhanh trai d9ng rnch tl,ly lung cung d9ng mch 
-tl,ly 16'n va d()ng mch duoi tl,ly n6i ti€p v&i nhau trong mo tl,ly d9c ba du&i than tl,ly. Dku 
-tl,ly va ta trang cung duqc nuoi duong b&i cac nhanh ta - tl,ly cua d9ng mch vi ta trang 
-va d9ng mch mc treo trang tren. D9ng mch vi - ta trang tach ra cac d9ng mch ta -
-tl,ly tren tm&c va sau; d9ng mch mc treo trang tren tach ra d()ng mch ta - tl,ly du&i v&i 
-hai nhanh tm&c va sau (xem bai Ru9t non). D9ng mch ta tl,ly tm&c tren ti€p n6i v&i 
-nhanh phai d(mg mch t\lY lung. 
-Di;\ng mi;tch vi mi;tc nf>i phai __ _ 
-Nhanh sau di;\ng nwch ta tuY. tren 
-Nhanh tru&c d9ng ffi\!Ch ta tuY. tren 
-Nhanh tm&c di;\ng ITT\!Ch ta tuY. du&i 
-Nhanh sau d9ng Il1\!Ch ta tuY. du&i 
-,------------Di;\ng Il1\!Ch Jach 
-Nhanh trai d9ng m\!ch tuY. lung 
-Nhanh phai d9ng Il1\!Ch tuY. lung 
-Nhanh h6i trang 
+![Hình 4: Các động mạch của tuỵ](giaiphau_media/hinh_p699_4.png)
+*Hình 4. Các động mạch của tuỵ*
 
-![Hinh 4. Cac dong m<;1ch cua tuY.](giaiphau_media/hinh_p699_4.png)
+### 4.2. Tĩnh mạch (H.5)
 
-*Hinh 4. Cac dong m<;1ch cua tuY.*
+Các tĩnh mạch của tụy đi kèm động mạch và đổ vào hệ thống *tĩnh mạch cửa*.
+- Tĩnh mạch dẫn lưu trực tiếp cho thân và đuôi tụy đổ về tĩnh mạch lách.
+- Tĩnh mạch dẫn lưu trực tiếp cho đầu và cổ tụy đổ về tĩnh mạch cửa và tĩnh mạch mạc treo tràng trên.
+- Tĩnh mạch tá tụy trên (trước và sau) và tĩnh mạch tá tụy dưới tham gia đổ vào tĩnh mạch cửa và tĩnh mạch mạc treo tràng trên.
 
+![Hình 5: Các tĩnh mạch của tuỵ](giaiphau_media/hinh_p700_5.png)
+*Hình 5. Các tĩnh mạch của tuỵ*
 
+### 4.3. Sự dẫn lưu bạch huyết
 
+Các mạch bạch huyết của tụy đi theo đường các động mạch. Các mạch từ thân và đuôi tụy đổ vào các *hạch tụy - lách* nằm dọc bờ trên tụy (thuộc các nhóm 10 và 11 theo phân loại của JGCA). Các mạch từ cổ và đầu tụy đi theo các động mạch tá tụy, mạc treo tràng trên, gan chung.
 
-<!-- Hết trang 699 -->
+### 4.4. Thần kinh
 
+Thần kinh tự chủ chi phối cho tá tràng và tụy gồm những nhánh tách từ đám rối tạng và đám rối mạc treo tràng trên.
 
-Tinh m}ch (H.5). Cac tinh m<;tch cua t\IY di kem d(mg m<;tch va d6 vao h~ th6ng 
-tinh m<;tch cua. 
-Tinh mi,ich dful luu tnJc ti7p cho thiin va duoi tuY. 
-Tinh mi,ich dful luu tn,rc ti7p cho 
-d§u va c6 tuY.--89:;IT 
-Tinh mi,ich ta tuY. tren (tru6c va sau)---::<---.,r, 
+---
 
-![Hinh 5. Cac tTnh m,;1ch cua tuy](giaiphau_media/hinh_p700_5.png)
+## 5. SỰ KHÓ KHĂN CỦA CẮT TỤY
 
-*Hinh 5. Cac tTnh m,;1ch cua tuy*
-
-Tinh mi,ich lach 
-Tinh mi,ich mi,ic 
-treo trang du&i 
-s., din hru b}ch huyt. Cac m<;tch b<;tch huyt cua n.iy di theo dm'mg cac d<)ng 
-m<;tch. Cac m<;tch tu than va du6i t\IY d6 vao cac h<;tch t\IY - Jach nm d9c ba tren t\IY 
-(thu<)c cac nh6m 10 va 11 theo phan lo<;ti cua JGCA). Cac m<;tch tu c6 va dftu t\IY di theo 
-cac d<)ng m<;tch ta t\IY, m<;tc treo trang tren, gan chung. 
-Th§n kinh. Thftn kinh t\l' chu chi ph6i cho ta trang va t\IY g6m nhfrng nhanh tach 
-tu dam r6i t<;tng va dam r6i m<;tc treo trang tren. 
-5. Sl)' KHO KHAN CUA CAT Tl)Y
-T\lY lien quan dn nhi€u m<;tch mau nen cftm mau luc cit t\IY kh6 khan. Tinh m<;tch 
-lach di trong ranh 6 mt sau t\IY va nhn nhi€u nhanh nho tu t\ly. Cit t\ly ma bao t6n 
-Jach chi c6 th€ thvc hi~n nu kh6i u chua xam lfin tinh m<;tch lach. Cit bo dftu t\ly c6 th€ 
-thvc hi~n duqc v6i di€u ki~n kh6i u chua xam lfin t6i mt phing gifra c6 tvy va tinh 
-m<;tch cua. Cit dftu t\IY hftu nhu lu6n phai di cung v6i cit phftn xu6ng va do<;tn c6 dtnh 
-cua phftn tren ta trang vi ta trang dinb vao t\IY va c6 chung m<;tch nu6i. 
-
-
-
-<!-- Hết trang 700 -->
-
+Tụy liên quan đến nhiều mạch máu nên cầm máu lúc cắt tụy khó khăn. Tĩnh mạch lách đi trong rãnh ở mặt sau tụy và nhận nhiều nhánh nhỏ từ tụy. Cắt tụy mà bảo tồn lách chỉ có thể thực hiện nếu khối u chưa xâm lấn tĩnh mạch lách. Cắt bỏ đầu tụy có thể thực hiện được với điều kiện khối u chưa xâm lấn tới mặt phẳng giữa cổ tụy và tĩnh mạch cửa. Cắt đầu tụy hầu như luôn phải đi cùng với cắt phần xuống và đoạn cố định của phần trên tá tràng vì tá tràng dính vào tụy và có chung mạch nuôi.
