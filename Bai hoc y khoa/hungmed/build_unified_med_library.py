@@ -628,6 +628,8 @@ def scan_clinical_art(art_dir: Path) -> list[dict]:
         "46": "Phác đồ Chuyên sâu & Bệnh lý",
         "47": "Pha Hoàng thể & Tiếp nhận Nội mạc",
         "48": "Pha Hoàng thể & Tiếp nhận Nội mạc",
+        "49": "Kích thích Buồng trứng (COS) & Trigger",
+        "50": "Pha Hoàng thể & Tiếp nhận Nội mạc",
     }
     for d in sorted(art_dir.iterdir()):
         if not d.is_dir() or d.name.startswith("_"):
@@ -967,6 +969,9 @@ def scan_clinical_ngoai(ngoai_dir: Path) -> list[dict]:
                     content = (d / target).read_text(encoding="utf-8", errors="ignore")
             except Exception:
                 pass
+        # SURG-01D/E la ky nang doc CT bung, khong thuoc Block 1 vo trung
+        if lid in ("SURG-01D", "SURG-01E"):
+            ch = "Kỹ năng — Chẩn đoán hình ảnh CT bụng"
         if not content:
             mds = [f for f in d.iterdir() if f.suffix.lower() == ".md" and not any(x in f.name.lower() for x in ["knowledge_check", "research", "audit", "brief", "verify", "cards"])]
             if mds:
