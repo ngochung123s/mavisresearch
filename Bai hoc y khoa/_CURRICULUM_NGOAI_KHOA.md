@@ -84,8 +84,8 @@ Curriculum này được thiết kế theo mô hình **Thực chiến Đa tầng
 
 | ID | Ưu tiên | Tên bài học | Trọng tâm thực hành & Quyết định lâm sàng | Trạng thái |
 | :---: | :---: | :--- | :--- | :---: |
-| **SURG-36** | **P0** | **Tiếp cận Chấn thương Bụng kín: Siêu âm FAST & Thuật toán Phân loại Huyết động** | Cơ chế đụng dập/gia tốc; FAST 4 cửa sổ tìm dịch; chỉ định CT cản quang; chỉ định mở bụng tối khẩn (FAST(+) + tụt HA). | 📋 QUY HOẠCH |
-| **SURG-37** | **P0** | **Chấn thương Gan & Chấn thương Lách: Điều trị Bảo tồn (NOM) vs Can thiệp Phẫu thuật** | Phân độ AAST I–V; tiêu chuẩn NOM an toàn; nút mạch can thiệp angio-embolization; nghiệm pháp Pringle, packing cầm máu gan; bảo tồn vs cắt lách. | 📋 QUY HOẠCH |
+| **SURG-36** | **P0** | **Chấn thương Bụng kín & Chấn thương Gan–Lách (gộp SURG-36+37)** | Tiếp cận bụng kín: cơ chế đụng dập/gia tốc; FAST 4 cửa sổ; chỉ định CT cản quang; thuật toán phân loại huyết động; mở bụng tối khẩn. Gan–lách: phân độ AAST I–V; tiêu chuẩn NOM; nút mạch can thiệp; Pringle, packing; bảo tồn vs cắt lách. | 🔄 Bot F đang làm (gộp 36+37, lệnh 18/11) |
+| **SURG-37** | **P0** | **Chấn thương Gan & Chấn thương Lách** | GỘP vào SURG-36 (18/11) — không làm riêng. | ➡️ GỘP vào SURG-36 |
 | **SURG-38** | **P0** | **Chấn thương Tạng rỗng, Mạc treo & Chấn thương Tụy - Tá tràng** | Dấu hiệu seatbelt sign; bỏ sót rách mạc treo hoại tử muộn; vỡ tá tràng sau phúc mạc; vỡ tụy đứt ống Wirsung cắt thân đuôi tụy. | 📋 QUY HOẠCH |
 | **SURG-39** | **P0** | **Phẫu thuật Kiểm soát Tổn thương trong Chấn thương Bụng (Damage Control Surgery - DCS)** | Triết lý 3 thì DCS: Thì 1 cầm máu nhanh + kẹp ruột + để bụng hở; Thì 2 hồi sức đảo ngược tam chứng tử thần tại ICU; Thì 3 mổ lại xử lý triệt để. | 📋 QUY HOẠCH |
 | **SURG-40** | **P0** | **Hội chứng Khoang bụng (Abdominal Compartment Syndrome - ACS): Đo IAP & Mở bụng Giải áp** | Kỹ thuật đo IAP qua bàng quang; định nghĩa IAH (> 12 mmHg) vs ACS (> 20 mmHg kèm suy tạng); phẫu thuật mở bụng giải áp cấp cứu. | 📋 QUY HOẠCH |
