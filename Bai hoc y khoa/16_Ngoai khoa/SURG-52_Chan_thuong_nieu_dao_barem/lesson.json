@@ -1,0 +1,25 @@
+{
+  "id": "SURG-52",
+  "specialty": "ngoai",
+  "profile": "foundation",
+  "lesson": "12_Chan_thuong_nieu_dao_barem.md",
+  "barem": "12_Chan_thuong_nieu_dao_barem.md",
+  "deck": {
+    "deck_id": 7600000000052,
+    "deck_name": "HungMed::Ngoại Khoa Thực Hành::SURG-52: Chấn Thương Niệu Đạo",
+    "basename": "SURG-52_Chan_thuong_nieu_dao_BAREM_v1",
+    "required_sections": [
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "cards_source": "surg52_cards_data.py",
+    "legacy_anki_decks": [
+      "Ngoại khoa Y6::03_Chan_thuong_nieu_dao",
+      "Ngoại khoa Y6::03_Chan_thuong_nieu_dao::2026-11-03"
+    ]
+  }
+}
