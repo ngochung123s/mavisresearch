@@ -1,447 +1,462 @@
-# MẠCH MÁU CHI TRÊN
+# BÀI 17: MẠCH MÁU CHI TRÊN
 
 **Chương:** Chương 4: Hệ Tim Mạch  
+**Chủ biên giáo trình:** PGS.TS. Nguyễn Văn Huy  
 **Tác giả:** ThS. Phạm Duy Đức  
-**Nguồn:** Giáo trình Giải phẫu học Y Hà Nội (Xuất bản 2025), Trang 278 - 291
+**Nguồn tham khảo:** Giáo trình Giải phẫu học Y Hà Nội (Bộ sách Đào tạo Bác sĩ Y khoa 2025), Trang 278 – 291  
+**Đơn vị đào tạo:** Bộ môn Giải phẫu – Trường Đại học Y Hà Nội
 
 ---
 
-
-
-
-<!-- Hết trang 278 -->
-
-
-
-
-
-<!-- Hết trang 279 -->
-
-
-
-
-
-<!-- Hết trang 280 -->
-
-
-
-
-
-<!-- Hết trang 281 -->
-
-
-1.2. D<)ng m,ch canh tay (brachial artery) 
-D9ng m(lch canh tay 
-Ca nhi diiu canh tay 
-D9ng m(lch quBt ngugc quay 
-D9ng ffi(ICh nach 
-Ca ng1,rc be 
-B6 ngoai 
-B6 trong 
-Thiin kinh bi canh tay trong 
-Diiu dai ca tam diiu canh tay 
-Thiin k.inh bi dng tay trong 
-Ca sfip trcm 
-Che can pb1,1 (ca nhi diiu) 
-
-![Hinh 5. Lien quan cua d9ng mc;1ch canh tay [12]](giaiphau_media/hinh_p282_5.png)
-
-*Hinh 5. Lien quan cua d9ng mc;1ch canh tay [12]*
-
-Nguyen uy, dtrimg diva tin ci.mg 
-D9ng m?Ch canh tay ch?y tip theo d9ng ill?Ch nach tu bo duai C(J trcm lan (hay 
-ba duai C(J Ilgl,lC 16n). N6 di xu6ng qua vung canh tay truac theo duang dinh huang nhu 
-cua d9ng m?Ch nach va khi tai vung h6 khuyu, ngang muc vai c6 xuang quay, thi chia 
-thanh hai nhanh t?Il la d9ng m?Ch quay va d9ng m?Ch tn.1. d dftu gftn cua canh tay, d9ng 
-ID?Ch nim a phia trong xuang canh tay. 0 dftu xa cua canh tay, n6 a ngoai han, t?i vi tri 
-gifra cac mom tren 16i cftu trong va ngoai xuang canh tay. N6 di qua phia truac khap 
-khuyu va nim ngay phia trong gan C(J nhi dftu canh tay. C6 thS SO' duqc d9ng m?ch canh 
-tay d9c su6t chiu dai cua n6. 
-Dpng m<J,ch canh tay nong (superficial brachial artery). Trang khoang b(Jll 10% 
-s6 truang hqp, ngoai d9ng ID?Ch canh tay con c6 d9ng m?Ch canh tay n6ng ta.ch ra tu 
-d9ng m?Ch nach. D9ng m?ch canh tay n6ng c6 thS: (1) dam nhim vai tro d.p mau cua 
-d9ng m?Ch canh tay a cling tay va ban tay, rue la ta.ch ra cac d9ng m?ch quay va tr\l, 
-d9ng m?ch canh tay chi d.p mau cho ca a ca.nh tay; (2) di xu6ng song song v&i d9ng 
-m?Ch canh tay r6i tr& thanh d<)ng m?ch quay, d<)ng m?ch canh tay thanh d9ng ID?Ch tfl_l; 
-(3) manh khanh, d.p mau va t?n cung a canh tay.
-Lien quan (H.5) 
-Vin CO' va m<J,C. D9ng m?ch canh tay di a phftn trong ngan tru&c (ngan C(J gftp) cua 
-canh tay, d9c ba trong C(J nhi dftu canh tay, C(J duqc coi la C(J tuy hanh cua d9ng m?Ch. 
-
-
-
-<!-- Hết trang 282 -->
-
-
-Ph§.n tren cua d(mg m.;i.ch nilm trong 6ng canh tay v6i cac gi6i h.;i.n: (J ngoai la ca 
-qu.;i. - canh tay va ca nhi d§.u canh tay, 6 trong la da va m.;i.c canh tay, 6 sau la vach gian 
-ca trong va ca canh tay. 
-Ph§.n duai cua d9ng m«ch nilm trong ranh nhi d§.u trong v6i cac giai h.;i.n: 6 tru6c la 
-can ca nhi d§.u, (J sau la ca canh tay, (J ngoai la gan ca nhi d§.u va (J trong la ca s§p tron. 
-Vin cac thanh ph&n khac. D(>ng m«ch canh tay di cung v6i 2 finh m.;i.ch cung ten. 
-6 ph§.n ba tren canh tay, th§.n kinh gifra nilm tru6c - ngoai d9ng m.;i.ch, th§.n kinh trv va 
-thftn kinh bi dng tay trong nilm trong d9ng m.;i.ch. d ph§.n ba gifra canh tay, th§.n kinh 
-tr\,l xuyen qua vach gian ca trong dS di vao ngan m«c canh tay sau, th§.n kinh bi ding tay 
-trong xuyen m.;i.c di ra nong, th§.n kinh gifra bit cheo tru6c d9ng m.;i.ch d€ di vao trong. 
-Phan nhanh va tip n6i (H.2) 
-D<)ng mch canh tay sau (profunda brachii artery): la nhanh dftu tien va 16n nh§.t 
-cua canh tay. N6 di cung v6i thftn kinh quay qua tam giac canh tay tam dftu (t«o boi than 
-xuang canh tay, ba duai ca tron 16n, bo ngoai dftu dai ca tam dftu canh tay) vao ngan 
-m.;i.c sau cua canh tay va ch.;i.y trong ranh thftn kinh quay, duai dftu dai ca tam dftu. N6 
-ta.ch ra cac nhanh ben vao ca (g6m cac nhanh cho ca tam dftu va nhanh delta di len) va 
-m9t d(>ng m.;i.ch nuoi xuang canh tay r6i t¬n cung bilng 2 nhanh ben quay va ben gifra. 
-Dvng m(J,Ch ben gifra (middle collateral artery) di xu6ng a sau vach gian ca ngoai va 
-ti€p n6i v6i d(>ng m.;i.ch gian c6t qu­t nguqc 6 sau mom tren l6i d.u ngoai. Dvng m(J,ch 
-hen quay (radial collateral artery) chia thanh nhanh tru&c cung thftn kinh quay di qua 
-vach gian ca ngoai r6i di xu6ng gifra cac ca canh tay va canh tay quay (ranh nhi dftu 
-ngoai) 6 tru6c mom tren 16i d.u ngoai, ti€p n6i v6i d(>ng m«ch qu­t nguqc quay; nhanh
-sau di trong vach gian ca ngoai. D9ng m«ch canh tay sau c6 th€ ta.ch ra tu d9ng m«ch 
-mil canh tay sau, ho­c tu m(>t d(>ng m«ch mil canh tay sau di qua 16 tu giac (7% ), ho­c 
-tu m(>t d(>ng m.;i.ch mil canh tay sau di qua tam giac canh tay tam dftu (16%). 
-Dvng m(J,ch ben tr{l tren (superior ulnar collateral artery) ta.ch ra 6 khoang gifra 
-canh tay, n6 cung v6i thftn kinh tr\,l xuyen qua vach gian ca trong r6i di xu6ng trong 
-ngan m.;i.c canh tay sau t6i sau mom tren l6i du trong va ti€p n6i t.;i.i day v6i nhanh sau 
-cua d9ng m.;i.ch qu­t nguqc tr\,l. 
-Dvng m(J,ch ben tr{l ditoi (inferior ulnar collateral artery) ta.ch ra 6 ngay tren 
-khuyu, n6 di xu6ng 6 m­t tru6c ca canh tay, cho nhanh di xu6ng tru6c mom tren 16i du 
-trong va nhanh xuyen vach gian ca trong ra sau r6i di xu6ng sau mom tren 16i d.u trong 
-(nhanh chinh), ti€p n6i v&i cac nhanh tru6c va sau cua d9ng m.;i.ch qu­t nguqc tr\,l ciing 
-nhu v6i cac d(>ng m.;i.ch ben gifra va ben tr\,l tren. 
-Lien h lam sang 
-Do huyit tip avng m(J,Ch canh tay. D9ng m.;i.ch canh tay nilm nong va c6 thS bi de 
-vao xuang canh canh tay du&i bang ep duqc barn ph6ng cua d1,mg cv do huy€t ap. 6 ap 
-h,rc vuqt qua huy€t ap tam thu, m«ch bi ep khong con d¬p. M9t 6ng nghe duqc d­t gifra 
-canh tay (vung h6 khuyu) va bang ep. Hai cua bang ep duqc thao ra tu tu, d€n luc ap Ive 
-
-
-
-<!-- Hết trang 283 -->
-
-
-bang ep bit dku nho hon ap h,rc tam thu thi ta bilt dftu nghe duqc tiSng dp cua d<)ng 
-mch (s6 do ap h,rc khi d6 la huySt ap tam thu) va dSn h'.lc ap Ive bang ep nho hO'Il huySt 
-ap tam trnO'Ilg thi ta khong con nghe duqc tiSng dp d<)ng mch (s6 do ap Ive h'.lc hSt 
-nghe thdy m1;tch dp la huySt ap tam tnwng). 
-1.3. D9ng mch trl}. (ulnar artery) 
-Nguyen uy, dll'img diva tn cimg 
-La m<)t trong hai nhanh tn cua d<)ng mch canh tay, d<)ng m1;tch  tach ra 6 h6 
-khuyu ngang muc c6 XUO'Ilg quay (du6i nSp gdp khuyu 3 cm). N6 thm'mg la nhanh 16n 
-hO'Il d<)ng mch quay. Dftu tien, n6 chy xu6ng du6i va vao trong 6 phftn phftn ba tren 
-ding tay, ru ch6 n6i phftn ba tren va phftn ba gifra ding tay thi chy thrtng xu6ng d9c 
-theo CO' gdp c6 tay  va tn cung 6 gan tay bing each n6i v6i nhanh gan tay nong cua 
-d<)ng mch quay to nen cung gan tay nong. 
-Crtng tay binh thuong c6 2 d<)ng mch. NSu c6 3 d<)ng mch, d<)ng mch thu 3 c6 
-th€ do: (1) Con t6n ti d<)ng m1;tch giua va d<)ng mch nay tach ra ru d<)ng mch  6 
-tren nguyen uy d<)ng mch gian c6t chung; (2) c6 hai d<)ng mch  (khi c6 mt d<)ng 
-m1;tch canh tay nong), m9t di 6 sau la sv tiSp t\lC cua d<)ng mch canh tay, m9t la nhanh 
-tach ra ru d<)ng mch canh tay nong va duqc g9i la d<)ng mch tr1,1 nong. 
-f>qng mi.i-ch quay--)■, 
-Nhanh n6ng cua thAn kinh quay 
-ThAn kinh tr\! 
-sAu canh tay cua ca 
-sap trcm 
-Ca g§p cfJ tay tr\! ( ctt) 
-D(\ng mi,ich gian c&t cbung 
-Ca g!p cac ng6n 
-D(\ng mi,ich gian c&t sau 
-tay nong ( cfit) 
-*-,l:,.+I)(lng mi,ich gian c&t tru6c 
-Cac nhanh xuyen r-111:Htl■I 
-cua dqng m1_1.ch 
-gian cat tnr6'c 
-Ca g§p ng6n tay cai dai 
-Gan ca g!p c6 tay quay (cfit) 
-Nhanh gan tay nong 
-cua dqng mi.i-ch quay 
-YII-H1!1'1 
-Ca g§p cac ng6n tay sau 
-Ca sAp vuong 
-Gan ca g!p cfJ tay tTl,l (cfit) 
-. 
-D(lngmi,ich 
-Than kinh t11,1 
-gian c&t tru6c 
-Cung gan tay sau 
-- Cung gan tay nong
-
-![Hinh 6. Lien quan cua cac d(>ng mc;ich quay va tr1,.1 [1]](giaiphau_media/hinh_p284_6.png)
-
-*Hinh 6. Lien quan cua cac d(>ng mc;ich quay va tr1,.1 [1]*
-
-Thin kinh gian 
-cat sau 
-D(lng mi,ich 
-gian c&t sau 
-
-
-
-<!-- Hết trang 284 -->
-
-
-Lien quan (H.6) 
-(J 113 tren c&ng tay (don chSch): d<)ng mch rai kh6i hf> khuyu bing each di sau 
-duai CO' sftp trcm, sau d6 di gifra CO' gftp cac ng6n n6ng va CO' gftp cac ng6n sau. Thftn kinh 
-gifra bilt cheo tru6c don nay va duqc ngan each v6i d<)ng mch bai diu sau CO' sftp trcm. 
-(J 2/3 dU'oi c&ng tay (don thing): d<)ng mch di theo m<)t duang dinh huang tu 
-mom tren 16i du trong XUO'llg canh tay t6i ba ngoai XUO'llg du. Luc diu n6 nim tren 
-mt n6ng CO' gftp cac ng6n sau, gifra CO' gftp c6 tay tTI,1 6 trong va ca gftp cac ng6n n6ng 6 
-ngoai va kh6ng d dang SO' thfty duqc. 6 gin c6 tay, khi cac CO' tr& thanh gan thi c6 thS 
-SO' thfty d<)ng mch. d don nay, CO' gftp c6 tay til,l la CO' tuy hanh cua d<)ng mch va thin 
-kinh til,l nim trong d<)ng mch. 
-(J cJ tay, d<)ng mch bilt cheo tru6c ham gan gftp, ngoai XUO'llg du va thin kinh 
-til,l, r6i tn cung a gan tay. 
-Phan nhanh va tip n6i 
-D<)ng m,ch qut ngm.rc trl} (recurrent ulnar artery) (H.2): chy len va s6m chia 
-thanh cac nhanh tru6c va nhanh sau. Nhanh trU(YC (anterior branch) chy len gifra cac CO'
-canh tay va sftp trcm, tru6c mom tren 16i du trong, va ti€p n6i v6i d<)ng mch hen til,l 
-du6i cua d<)ng mch canh tay. D<)ng mch qut nguqc til,l tru6c cung c6 thS tach rieng 
-re v6i d<)ng mch qut nguqc til,l sau va kh6ng c6 than d<)ng mch til,l. Khi d6, d<)ng 
-mch qut nguqc til,l sau tach thftp hO'n va Ian han. Nhanh sau (posterior branch) chy 
-vao trong va len tren, di sau mom tren 16i du trong, gifra 2 dftu CO' gftp c6 tay tTI,1 va ti€p 
-n6i v6i cac d<)ng mch ben tI1,1 cua d<)ng mch canh tay. 
-Di)ng m,ch gian c6t chung ( common interosseous artery) (H.2) chy xu6ng du6i 
-va ra sau t6i ba tren mang gian c6t thi chia thanh cac d<)ng mch gian c6t tru6c va sau. 
-D<)ng mch gian c6t qut nguqc tach ra tu d<)ng mch gian c6t sau hoc c6 thS tach ra 
-tn,rc tiSp tu d<)ng mch gian c6t chung. D9ng m<J,ch gian cat sau (posterior interosseous 
-artery): di ra sau, luat qua ba tren mang gian c6t vao ngan mc cilng tay sau. N6 di tren 
-mt sau mang gian c6t du6i S\l' che phu cua CO' ngua, khi 19 ra ()' ba du6i CO' ngua thi n6 
-tach ra d<)ng mch gian c6t qut nguqc. Sau d6, n6 ti€p tl,lc di xu6ng gifra hai lap ca cua 
-ngan mc cilng tay sau, phan nhanh vao cac CO' du6i va tiSp n6i tren c6 tay v6i nhanh 
-sau d<)ng mch gian c6t tru6c. D9ng m<J,ch gian cl,t quij,t ngU'{J'C (interosseous recurrent 
-artery): chy len sau mom tren 16i du ngoai, giua mt n6ng CO' ngua va mt sau CO'
-khuyu, ti€p n6i v6i d<)ng mch ben gifra, cac d<)ng mch ben tI1,1 va d<)ng mch qut 
-nguqc til,l sau. D9ng m<J,ch gian cat trU'O'c (anterior interosseous artery) di xu6ng tren 
-mt tru6c mang gian c6t gifra CO' gftp cac ng6n sau va CO' gftp ng6n cai dai cung nhanh 
-gian c6t tru6c cua thftn kinh gifra. N6 s6rn tach ra d9ng mc;ich giua cho thin kinh giua, 
-di theo thftn kinh dSn gan tay, r6i cac nhanh ca. D<)ng mch gifra thuang nho nhung d6i 
-khi n6 16n han va tham gia vao cung gan tay n6ng hoc tn cung nhu m<)t hoc hai d<)ng 
-mch ng6n tay. DSn ba tren CO' sftp vu6ng, d<)ng mch tn cung bing m<)t nhanh tru6c 
-(nho hO'n) di xu6ng sau ca sftp vu6ng t6i tham gia vao cung gan c6 tay va m<)t nhanh 
-sau. Nhanh sau xuyen qua 16 6 phin duai mang gian c6t ra sau, tiSp n6i v6i d<)ng mch 
-gian c6t sau r6i tiSp tl,lc di xu6ng tham gia cung mch mu c6 tay. 
-
-
-
-<!-- Hết trang 285 -->
-
-
-Nhanh gan c6 tay (palmar carpal branch): ngay tru&c khi bit cheo ham gan gip, 
-d(mg m?Ch ta.ch ra nhanh nay Ch?y sau cac gan gip dai t&i san 6ng c6 tay va nhanh mu 
-c6 tay ( dorsal carpal branch) ch?y vong quanh mH trong kh6p c6 tay d gia nh?p m?ng 
-m?ch mu c6 tay. 
-Nhanh gan tay sau (deep palmar branch): ngay sau khi bit cheo tru&c ham gan 
-gip, d(mg ill?Ch tf1,l ta.ch ra nhanh nay, n6 la.ch vao giua cac CO' mo ut va tham gia t?O 
-cung gan tay sau. 
-1.4. D{>ng m'ch quay (radial artery) 
-Nguyen uy, duimg diva t(n cimg 
-D<)ng m?ch quay la m<)t trong hai nhanh t?n cua d<)ng m?ch canh tay a h6 khuyu, 
-ngang muc c6 xuang quay. N6 di xu6ng du&i va ra ngoai qua ngan m?c tru&c cua dng 
-tay, d9c theo du<'mg ke n6i dim giua nSp gip khuyu v&i ranh m?ch quay. T&i du&i 
-mom tram quay, n6 vong quanh mij.t ngoai c6 tay t&i mu tay. Cu6i cung, n6 la.ch qua 
-khe gifra nn cac xuang d6t ban thu nhit va thu hai vao gan tay va chia thanh cac d<)ng 
-m?Ch chinh ng6n cai va cung gan tay sau. 
-Lien quan (H.6) 
-0 cdng tay. D<)ng m?Ch di d9c CO' canh tay quay, CO' nay nim ngoai va che phu 
-d<)ng m?Ch 6 phfrn tren canh tay; day la CO' tuy hanh cua d<)ng m?Ch. 6 phia trong, n6 
-lien quan v&i CO' sip tron a phfin ba tren va gan CO' gip c6 tay quay a hai phfrn ba du&i. 
-d ngay tren c6 tay, d<)ng m?Ch nim giua gan CO' canh tay - quay va gan CO' gip c6 tay 
-quay, mlj.t tru&c cua n6 chi c6 da va m?C che phu. Tren duang di xu6ng, d<)ng ID?Ch lfrn 
-luqt di tru&c gan CO' nhi dfru canh tay, CO' ngira, CO' sip tron, dfru quay CO' gip cac ng6n 
-nong, CO' gip ng6n cai dai, CO' sip vuong va cu6i cung la xuang quay. d phfrn ba giua 
-cimg tay, nhanh nong thfrn kinh quay nim ngay ben ngoai d<)ng m<;1.ch. 
-o· c6 tay va ban tay. Luc ch<;1.y vong ra ngoai t&i mu tay, d(mg m<;1.ch quay di du&i
-gan cac CO' gi<;1.ng ng6n cai dai va du6i ng6n cai ngin, tiSp tµc di qua horn lao giai phu 
-r6i di du&i gan ca du6i ng6n cai dai t&i khe gifra nn cac xuang d6t ban thu nhit va thu 
-hai. T<;1.i khe nay, d<)ng m.;ich nim giua hai dftu ca gian c6t mu tay thu nhit. 
-Phan nhanh va ti)p n6i 
-D{>ng m'ch qu*t nguqc quay (radial recurrent artery) (H.2) ta.ch ra 6 ngay du&i 
-nguyen uy d<)ng m?ch quay. N6 ch?y len giua CO' canh tay - quay va CO' canh tay, dp 
-mau cho cac CO' nay va tiSp n6i v&i nhanh ben quay cua d<)ng m.;ich canh tay sau. 
-Nhanh gan tay nong (superficial palmar branch) (H.6) ta.ch ra ngay tru&c khi 
-d<)ng m?ch quay vong ra mu tay. N6 xuyen qua hoij.c di tren cac CO' mo cai va thuang 
-t?n cung bing each tham gia vao cung gan tay nong. 
-Nhanh gan c6 tay (palmar carpal branch) la m<)t nhanh nh6, ta.ch ra 6 ngang muc 
-nguyen uy cua nhanh gan tay nong. N6 di vao trong, sau cac gan gip, va tiSp n6i v&i 
-nhanh gan c6 tay cua d<)ng m.;ich tf\l t?o nen cung gan c6 tay (palmar carpal arch). 
-
-
-
-<!-- Hết trang 286 -->
-
-
-Nhanh mu c6 tay (dorsal carpal branch). 6 mu c6 tay, du&i cac gan du6i ng6n 
-cai, dc;mg mc;tch quay ta.ch ra nhanh mu c6 tay. Nhanh nay chc;ty vao trong n6i v&i nhanh 
-mu c6 tay cua d<)ng mc;tch tr1,1 va nhanh t¡n cua dc;mg mc;tch gian c6t tru&c tc;to cung mu cJ 
-tay ( dorsal carpal arch). Cung nay ta.ch ra: 3 d9ng mc;zch mu d6t ban tay ( dorsal 
-metacarpal arteries) di xu6ng tren cac ca gian c6t mu tay 2,3,4 va chung nh¡n cac nhanh 
-xuyen tu cung gan tay sau va cac dc;mg mc;tch gan d6t ban tay. 6 g§n ch6m cua cac 
-xuO'Ilg d6t ban tay, m6i dc;mg mc;tch mu d6t ban tay chia thanh 2 d9ng mc;zch mu ng6n tay 
-(dorsal digital arteries) di vao mu cac ng6n. 
-Di}ng m,ch mu d6t ban tay thu nMit (first dorsal metacarpal artery) ta.ch tu 
-dong m¢ch quay ngay tru&c khi n6 di giua hai d§.u ca gian c6t mu tay thu nh§.t va chia 
-ngay thanh m('>t nhanh cho ba trong ng6n cai va m<)t nhanh cho ba ngoai ng6n tr6. 
-D(>ng m,ch chinh ngon cai (princeps pollicis artery), duqc ta.ch tu dc;mg mc;tch 
-quay (J m£it philng giua CO' gian c6t mu tay thu nh§.t va CO' khep ng6n cai. D(>ng m,ch 
-quay ngon tro (radialis indicis artery) c6 th€ ta.ch tu d<)ng mc;tch chinh ng6n cai ho¤c tu 
-cung gan tay sau, di vao ba ngoai ng6n tr6. Dong mc;tch chinh ng6n cai di t&i g§n kh&p 
-d6t ban tay - d6t ng6n tay cua ng6n cai thi chia thanh 2 dc;mg mc;tch cho hai ba ng6n cai, 
-tuO'Ilg duO'Ilg v&i cac dong mc;tch gan ng6n tay rieng. 
-Cac lien hf lam sang 
-Dong mc;tch quay c6 th€ duqc xac dinh bing each su d1,1ng gan ca g&p c6 tay quay 
-lam m6c a d§u xa cilng tay. Nhip d¡p c6 th€ duqc cam nh¡n bing each sa nh¥ nhang 
-vao dong mc;tch quay. 
-vit thirung il{Jng m(J,Ch quay ho¦c il{Jng m(J,Ch tr'}. Dong mc;tch quay ho¤c d(mg 
-mc;tch tfl,l c6 th€ bi cua dut do cac mc;tch rnau nay nim n6ng ngay du&i da ( 6 doc;tn g§n c6 
-tay). M<)t b§nh canh diSn hinh cua ch&n thuO'Ilg khi c6 tay bi cua bai mot tllm kinh. Vi 
-hai dong mc;tch c6 cac cung n6i v&i nhau 6 gan tay va c6 tay cho nen c6 th€ thilt ho¤c 
-d('mg mc;tch quay, ho¤c d('mg mc;tch tfl,l ma kh6ng c6 h¡u qua gi. 
-1.5. Cac cung gan tay (palmar arches) 
-Mc;tch cip mau cho ban tay la dong mc;tch quay va d<)ng mc;tch tfl,l, tc;to hai cung 
-mc;tch n6i (n6ng va sau) 6 gan tay. 
-Cung gan tay nong (superficial palmar arch) 
-D<)ng mc;tch tfl,l di tru&c ham gan g§.p vao gan tay, (J ngoai th§n kinh tfl,l va XUO'Ilg 
-d¡u. N6 cong ra phia ngoai tc;to tc;to thanh cung gan tay n6ng; cung nay thuang duqc 
-khep kin bftng each n6i v&i mot nhanh cua dong mc;tch quay, c6 th€ la nhanh gan tay 
-n6ng, d<)ng mc;tch chinh ng6n cai, hay dong mc;tch quay ng6n tr6. Cung nay nim 6 ngay 
-sau can gan tay va tru&c cac th§n kinh va gan g&p (J giua gan tay. Nai 16i xa nhllt cua 
-cung nim 6 ngang muc ba du&i cua m<)t ng6n cai gi,;mg hSt CO'. 
-
-
-
-<!-- Hết trang 287 -->
-
-
-D(\ng m;:ich xuyen 
-Cac di)ng ID\!Ch gan ng6n rieng 
-Cung gan tay n6ng 
-
-![Hinh 7. Cac cung d(mg mch gan tay [1]](giaiphau_media/hinh_p288_7.png)
-
-*Hinh 7. Cac cung d(mg mch gan tay [1]*
-
-Phin chu yu do dqng mch quay 
-06"gm,ro 
-\ 
-rieng ng6n tr6 
-) 
-Ca gian c6t mu 
-tay thu nhfrt 
-f?◊ng m;:ich mI \
-dot ban 1h11 nhat 
-M::ing rn;:ich 
-tay siiu 
-mu tay 
-IH-4-4-- D(ing rn;:ich quay 
-Nhinsau 
-
-
-
-<!-- Hết trang 288 -->
-
-
-Cac nhanh tu cung gan tay nong bao g6m: 
-1 il{jng m(J,ch gan ngon (palmar digital artery) cho rieng ba trong ng6n V. 
-3 il{jng m(J,ch gan ngon chung (common palmar digital arteries) ch?y ra phia xa 
-v€ phia khoang ke gifra cac ng6n tay, m6i d<)ng m?ch chia ra thanh 2 d<)ng m?ch gan 
-ng6n rieng di vao ba ngoai ng6n ut, hai ba ng6n nh!n, hai ba ng6n gifra va ba trong 
-ng6n tro. Chung hqp v&i cac d(mg m?ch gan d6t ban tu cung gan tay sau & g!n cac kh&p 
-d6t ban - d6t ng6n r6i chia thanh ctic il{jng m(J,ch gan ngon rieng (proper palmar digital 
-arteries) di vao cac ng6n. 
-Khi cung gan tay khong khep kin, n6 hoan toan duqc t?O nen bai d<)ng ID?Ch t111. 
-Khi con t6n t?i d<)ng ID?Ch gifra, n6 c6 th di vao gan tay va chia thanh cac d<)ng ID?Ch 
-gan ng6n tay chung phia ngoai, d<)ng m?ch t111 chia thanh cac d<)ng m?ch gan ng6n 
-chung ben trong. 
-Cung gan tay sau ( deep palmar arch) 
-D<)ng ID?Ch quay Ch?Y quanh ba ngoai cua c6 tay va ch?y tren san cua horn lao 
-giai ph!u r6i di vao mt phling sau cua gan tay bllng each xuyen ra phia tru&c gifra hai 
-d!u cua CO' gian c6t mu tay thu nhit va sau d6 gifra hai dftu cua CO' khep ng6n cai d€ vao 
-mt sau cua gan tay va t?O cung gan tay sdu. Cung Ch?y vao phia trong ()' ben du&i cac 
-gan gip va bilt cheo tru&c cac CO' gian c6t va cac n€n XUO'Ilg d6t ban tay. Tren ba trong 
-cua gan tay, n6 n6i v&i nhanh gan tay sau cua d<)ng ID?Ch tn;. Nhanh sau cua thftn kinh 
-t111 gftn nhu ch?Y song song v&i cung gan tay sau 
-Cung gan tay sau tach ra cac nhanh: 
-3 il{jng m(J,ch gan ilbt ban (palmar metacarpal arteries) ch?Y v€ phia xa tren cac 
-CO' gian c6t cua cac khoang tu thu 2 t&i thu 4, tach ra cac nhanh xuyen Ch?y v€ phia mu 
-tay d6 vao cac d<)ng m?Ch mu d6t ban. Khi dSn cac khoang ke ng6n tay 2 t&i 4, chung 
-d6 vao cac d<)ng ID?Ch ng6n tay chung cua cung nong. 
-3 nhtinh xuyen (perforating branches) ch?Y ra sau vao mu tay gifra cac cp dftu 
-cua CO' gian c6t mu tay thu hai dSn thu tu, chung dua mau t&i cac d<)ng m?ch mu d6t 
-ban. Cac nhanh nho ch?y v€ phia gftn dp mau cho cac day chi'mg va cac xuong t?O 
-nen san 6ng c6 tay. 
-2. cAc TINH M	CH
-2.1. Cac tinh mch nong 
-Cac tinh ID?Ch nong di trong mo du&i da (lap ID?C nong) va cu6i cung xuyen vao 
-sau d6 vao cac tinh ID?Ch sau. Cac tinh m?Ch nong l&n, nhit la cac tinh m?ch a vi.mg 
-khuyu tru&c, thuang 19 ro khi ga ro 6 tren khuyu va thuang duqc dung d liy mau hoc 
-tiem, truy€n tinh m?Ch. 
-Cac tinh m?Ch nong cua chi tren bao g6m: tinh m?ch dfiu, tinh m?ch dftu phl,l, finh 
-m?ch nSn, tinh m?ch giua khuyu, tinh m?ch gifra ding tay, tinh m?ch gifra nn, tinh 
-m?ch gifra dftu, m?ng tinh m?ch mu ban tay, cung tinh m?ch nong. Tinh m?ch dftu va 
-tinh ID?Ch nSn c6 nguyen uy tu m?ng tinh ID?Ch mu ban tay tren mt mu cua ban tay. 
-
-
-
-<!-- Hết trang 289 -->
-
-
-2.1.1. M(J,ng tinh m(J,ch mu ban tay (dorsal venous network of hand) (H.8) 
-Cac tinh mjch tu mu ng6n tay chjy len mu ban tay d6 vao cac tinh mjch mu d6t 
-ban tay va sv ti€p n6i gifra cac tinh mjch mu d6t ban tay tjo nen mjng tinh mjch mu 
-ban tay. Mjng nay duqc d!n luu boi cac tinh mjch d§u va nSn. 
-2.1.2. 17nh mlJ-ch a&u (cephalic vein) (H.8) 
-Nguyen uy tu tren horn lao giai ph!u tji nSn cua ng6n cai, chjy len, vong quanh 
-ba ngoai phftn xa cua cing tay d€ di t6i mkit tru6c ngoai cua dng tay va sau d6 ti€p 
-tl,lc di len 6 tru6c ngoai khuyu va canh tay d€ vao tam giac don ngvc hay tam giac 
-delta ngvc (gifra ca ngvc 16n, ca delta va xuang don). d ranh nay, tinh mjch xuyen 
-qua mjc sau ngay du6i xuang don va d6 vao tinh mjch nach. Tinh mjch d§u ti€p n6i 
-v6i tinh mjch nSn 6 khuyu qua tinh mjch gifra khuyu. d dng tay c6 th€ c6 them finh 
-mjch d§u ph\l. 
-2.1.3. 17nh m(J,ch nJn (basilic vein) (H.8) 
-mh d§u tuba trong cua mjng tinh mjch nong cua mu tay va chjy len mlt sau 
-trong cua cing tay. N6 chjy len tren mlt tru6c cua dng tay 6 ngay du6i khuyu va sau 
-d6 ti€p tl,lc chjy len a mlt tru6c trong khuyu va canh tay. E>Sn khoang gifra canh tay, n6 
-xuyen qua mjc canh tay di vao sau r6i ti€p tl,lc di len 6 mia tren canh tay va t6i ba du6i 
-ca tron 16n thi tro thanh tinh mjch nach. Tji khuyu, tinh mjch d§u va tinh mjch nSn 
-duqc ti€p n6i v6i nhau qua tinh mjch gifra khuyu. 
-2.1.4. 17nh mlJ-ch giira khuyu (median cubital vein) (H.8) 
-1mh mjch gifra khuyu la tinh mjch nong 6 vung h6 khuyu, n6i cac tinh mjch d§u 
-va nSn a vung nay. Tinh mjch nay c6 m('>t s6 djng khac nhau lam cho cac tinh mjch 6 
-khuyu c6 th€ c6 cac djng chfr H, chfr M ... Tinh mjch gifra khuyu c6 th€ vilng mlt lam 
-cho cac tinh mjch d§u va nSn khong n6i v6i nhau 6 khuyu, va khi d6 finh mjch gifra 
-cling tay d6 vao finh mjch nSn. 
-2.1.5. 17nh mlJ-Ch giira cdng tay (median antebrachial vein) (H.8) 
-Tinh mjch nay thu mau tu mjng lu6i tinh mjch gan ban tay. N6 di len 6 mlt 
-tru6c trong cing tay t6i khuyu r6i d6 holc vao tinh mjch nSn, holc vao finh mjch gifra 
-khuyu. d m('>t s6 truang hqp, n6 che doi thanh 2 nhanh m('>t nhanh d6 vao tinh mjch nSn 
-(g9i la t'inh m(lch giua nJn - median basilic vein), m('>t nhanh d6 vao finh mjch d§u (g9i 
-la t'inh m(lch giua adu - median cephalic vein). 
-
-
-
-<!-- Hết trang 290 -->
-
-
-Tinh ffi\iCh n€n 
-Tinh ffi\iCh n€n 
-,Jll--!\l!'lwl--Tinh ffi\iCh giua 
-dng tay 
-Tinh ffi\iCh n€n 
-
-![Hinh 8. Gae tTnh mc;1ch nong cua chi tren ben phai [12]](giaiphau_media/hinh_p291_8.png)
-
-*Hinh 8. Gae tTnh mc;1ch nong cua chi tren ben phai [12]*
-
-2.2. Tinh mch sau (deep veins) 
-Cac tinh mHch sau cua chi tren chHy kem d(mg mHch va c6 ten nhu d(mg mHch, 
-d(mg mHch nach c6 m9t tinh mHch di kem, cac d9ng mHch con lHi m6i d('>ng mHch c6 hai 
-tinh mHch di kem. Iinh m<J,ch nach (axillary vein) nllm trong d9ng mHch; n6 thu nhIn 
-mau tinh mHch cua tftt ca chi tren va d6 v€ tinh mHch du6i don. Tinh mHch nach bilt dfiu 
-tu ba du6i cua ca tron 16n va la sv tiJp tµc cua tinh mHch n€n. Ccic tinh mt;zch canh tay 
-d6 vao dfiu xa tinh mHch nach hoKc vao tinh mHch n€n. Cac nhanh ben cua tinh mHch 
-nach g6m tinh mHch dfiu va cac tinh mHch di kem cac nhanh cua d9ng mHch nach (rieng 
-cac tinh mt;zch mu canh tay thuang d6 v€ tinh mHch n€n). 
-
-
-
-<!-- Hết trang 291 -->
-
+## I. MỤC TIÊU HỌC TẬP
+
+1. Trình bày được nguyên ủy, đường đi, các đoạn liên quan (với cơ bậc thang trước, cơ ngực bé, ống cánh tay, các bó của đám rối thần kinh cánh tay) và các phân nhánh của động mạch dưới đòn, động mạch nách, động mạch cánh tay, động mạch quay và động mạch trụ.
+2. Mô tả chi tiết các vòng nối bàng hệ quan trọng: vòng nối quanh ngực, vòng nối quanh vai, mạng mạch quanh khuỷu, cung mu cổ tay, cung gan cổ tay và các cung động mạch gan tay (nông và sâu).
+3. Nắm vững cấu trúc, sự tạo thành và các biến thể phân nhánh của các cung động mạch gan tay và mạng lưới cấp máu cho các ngón tay.
+4. Trình bày được hệ thống tĩnh mạch chi trên: hệ tĩnh mạch nông (mạng mu tay, tĩnh mạch đầu, tĩnh mạch nền, tĩnh mạch giữa cẳng tay, các kiểu hình chữ M và chữ H ở nếp gấp khuỷu) và hệ tĩnh mạch sâu (tĩnh mạch nách, tĩnh mạch cánh tay, tĩnh mạch tùy hành).
+5. Phân tích các ứng dụng lâm sàng cốt lõi: vị trí bắt mạch, đo huyết áp động mạch cánh tay, các vị trí thắt động mạch an toàn và vị trí thắt nguy hiểm, tổn thương đứt mạch máu cổ tay và xử trí cấp cứu chấn thương mạch chi trên.
+
+---
+
+## II. ĐỘNG MẠCH DƯỚI ĐÒN (*ARTERIA SUBCLAVIA*)
+
+Động mạch dưới đòn là thân động mạch chính cấp máu cho chi trên, đồng thời cung cấp các nhánh bên nuôi dưỡng não bộ, tủy sống, vùng nền cổ, thành ngực và thành bụng trước.
+
+### 1. Nguyên ủy và tận cùng
+- **Bên phải:** Tách ra từ **thân cánh tay đầu** (*truncus brachiocephalicus*) ở phía sau khớp ức - đòn phải.
+- **Bên trái:** Tách trực tiếp từ **cung động mạch chủ** (*arcus aortae*) trong trung thất trên, do đó động mạch dưới đòn trái có thêm một đoạn nằm trong lồng ngực dài khoảng 2,5 – 3 cm trước khi đi lên nền cổ.
+- **Tận cùng:** Cả hai động mạch đi cong hình vòm qua vòm màng phổi và xương sườn 1, tới **bờ ngoài xương sườn thứ nhất** (hoặc bờ sau điểm giữa xương đòn) thì đổi tên thành **động mạch nách** (*arteria axillaris*).
+
+### 2. Các đoạn liên quan theo cơ bậc thang trước
+Cơ bậc thang trước (*musculus scalenus anterior*) bám vào củ cơ bậc thang (củ Lisfranc) ở mặt trên xương sườn 1, bắt chéo phía trước động mạch dưới đòn và chia động mạch thành 3 đoạn liên quan:
+
+1. **Đoạn trong cơ bậc thang (đoạn trước cơ bậc thang):**
+   - Động mạch cong lồi lên trên, vắt qua đỉnh màng phổi và xương sườn 1.
+   - *Phía trước:* Liên quan với tĩnh mạch dưới đòn (ngăn cách với động mạch bởi cơ bậc thang trước), dây thần kinh lang thang (*thần kinh X*), dây thần kinh hoành (*n. phrenicus*), và các quai giao cảm cổ. Riêng bên phải, thần kinh thanh quản quặt ngược phải tách từ dây X vòng từ trước ra sau dưới động mạch dưới đòn.
+   - *Phía sau:* Áp sát vòm màng phổi, ống ngực (ở bên trái) uốn cong ra trước qua mặt trên động mạch để đổ vào góc tĩnh mạch (hội lưu Pirogoff).
+2. **Đoạn sau cơ bậc thang (đoạn trong khe cơ bậc thang):**
+   - Động mạch nằm trong **khe cơ bậc thang** (giữa cơ bậc thang trước ở phía trước và cơ bậc thang giữa ở phía sau), áp sát vào rãnh động mạch dưới đòn trên mặt trên xương sườn 1.
+   - Các thân của **đám rối thần kinh cánh tay** (*plexus brachialis*) nằm ở phía trên và phía sau động mạch.
+   - Tĩnh mạch dưới đòn không đi qua khe này mà đi ở phía trước cơ bậc thang trước.
+3. **Đoạn ngoài cơ bậc thang (đoạn sau cơ bậc thang / tam giác trên đòn):**
+   - Nằm trong tam giác trên đòn (thuộc tam giác cổ sau).
+   - Động mạch nằm nông hơn, tựa trên mặt trên xương sườn 1, phía sau là thân dưới đám rối cánh tay, phía trước ngoài có mạc cổ sâu và xương đòn che phủ. Đây là vị trí có thể ấn đè động mạch dưới đòn vào xương sườn 1 để cầm máu tạm thời trong các vết thương chi trên.
+
+### 3. Các nhánh bên của động mạch dưới đòn
+Động mạch dưới đòn cho 5 nhánh bên quan trọng:
+
+| Nhánh bên | Đường đi & Tận cùng | Vùng cấp máu chính |
+| :--- | :--- | :--- |
+| **1. Động mạch đốt sống**<br>(*a. vertebralis*) | Tách từ mặt trên đoạn trong cơ bậc thang, đi lên chui vào lỗ mỏm ngang đốt sống cổ C6, chạy qua các lỗ mỏm ngang C6 – C1, uốn quanh khối bên đốt đội C1, chui qua màng chẩm - đội vào lỗ lớn xương chẩm (*foramen magnum*). | Hai động mạch hợp nhất ở bờ dưới rãnh hành - cầu tạo nên **động mạch nền** (*a. basilaris*), cấp máu thân não, tiểu não, tủy sống cổ và thùy chẩm đại não (hệ tuần hoàn sau). |
+| **2. Động mạch ngực trong**<br>(*a. thoracica interna*) | Tách từ mặt dưới đoạn trong cơ bậc thang, chạy thẳng xuống khoang ngực ở sau các sụn sườn 1 – 6, cách bờ xương ức khoảng 1 – 1,2 cm. Tận cùng bằng ĐM thượng vị trên và ĐM cơ hoành. | Cấp máu thành ngực trước, tuyến vú, cơ hoành (qua ĐM màng ngoài tim - hoành), nối với ĐM thượng vị dưới của ĐM chậu ngoài tạo vòng nối ngực - bụng. |
+| **3. Thân giáp - cổ**<br>(*truncus thyrocervicalis*) | Thân ngắn tách từ bờ trên động mạch dưới đòn (gần bờ trong cơ bậc thang trước), nhanh chóng chia thành 3 – 4 nhánh: | - **ĐM giáp dưới** (*a. thyroidea inferior*): Nuôi cực dưới tuyến giáp và tuyến cận giáp.<br>- **ĐM ngang cổ** (*a. transversa colli*) / ĐM cổ nông.<br>- **ĐM trên vai** (*a. suprascapularis*): Chạy ra ngoài vùng vai, tham gia **vòng nối quanh vai**. |
+| **4. Thân sườn - cổ**<br>(*truncus costocervicalis*) | Tách từ mặt sau động mạch dưới đòn (đoạn sau cơ bậc thang), đi ra sau đỉnh màng phổi rồi chia thành 2 nhánh: | - **ĐM gian sườn trên cùng** (*a. intercostalis suprema*): Cấp máu 2 khoang gian sườn đầu (khoang 1 và 2).<br>- **ĐM cổ sâu** (*a. cervicalis profunda*): Nuôi các cơ sâu vùng gáy. |
+| **5. Động mạch vai sau**<br>(*a. scapularis posterior*) | Thường tách trực tiếp từ đoạn ngoài cơ bậc thang (hoặc là nhánh sâu của ĐM ngang cổ). Đi sâu dưới cơ nâng vai và cơ trám. | Cấp máu cơ vùng lưng - vai, chạy dọc bờ trong xương bả vai, tham gia trực tiếp vào **vòng nối quanh vai**. |
+
+---
+
+## III. ĐỘNG MẠCH NÁCH (*ARTERIA AXILLARIS*)
+
+Động mạch nách là sự tiếp tục của động mạch dưới đòn, bắt đầu từ **bờ ngoài xương sườn 1** (hay bờ sau điểm giữa xương đòn), chạy chếch xuống dưới và ra ngoài qua hố nách. Khi tới **bờ dưới cơ ngực lớn** (hoặc bờ dưới cơ tròn lớn) thì đổi tên thành **động mạch cánh tay** (*arteria brachialis*).
+
+### 1. Đường định hướng và phân đoạn giải phẫu
+- **Đường định hướng:** Đường nối từ điểm giữa xương đòn đến điểm giữa nếp gấp khuỷu (khi cánh tay dang vuông góc với thân mình và bàn tay để ngửa).
+- **Phân đoạn theo cơ ngực bé (*m. pectoralis minor*):** Cơ ngực bé bắt chéo phía trước động mạch, chia động mạch nách làm 3 đoạn:
+  1. *Đoạn trên cơ ngực bé (đoạn thứ nhất):* Từ bờ ngoài xương sườn 1 đến bờ trên cơ ngực bé.
+  2. *Đoạn sau cơ ngực bé (đoạn thứ hai):* Nằm ngay sau cơ ngực bé.
+  3. *Đoạn dưới cơ ngực bé (đoạn thứ ba):* Từ bờ dưới cơ ngực bé đến bờ dưới cơ ngực lớn (hay bờ dưới cơ tròn lớn).
+
+### 2. Liên quan giải phẫu
+- **Liên quan với thành hố nách:**
+  - *Thành trước:* Cơ ngực lớn, cơ dưới đòn, cơ ngực bé, mạc đòn ngực.
+  - *Thành sau:* Cơ dưới vai, cơ tròn lớn, cơ lưng rộng.
+  - *Thành trong:* Cơ răng trước bám trên các xương sườn và các cơ gian sườn trên.
+  - *Thành ngoài:* Cơ quạ - cánh tay, đầu ngắn cơ nhị đầu và rãnh gian củ xương cánh tay.
+- **Liên quan với tĩnh mạch nách:**
+  - **Tĩnh mạch nách** (*v. axillaris*) luôn nằm ở **phía trong** động mạch nách dọc suốt chiều dài của hố nách.
+- **Liên quan với các bó và dây thần kinh của đám rối cánh tay:**
+  - *Ở đoạn trên cơ ngực bé:* Các bó ngoài và sau nằm ở ngoài động mạch; bó trong chạy ở sau động mạch.
+  - *Ở đoạn sau cơ ngực bé:* Các bó vây quanh động mạch đúng theo tên gọi giải phẫu:
+    + **Bó ngoài** (*fasciculus lateralis*) nằm ở ngoài động mạch.
+    + **Bó trong** (*fasciculus medialis*) nằm ở trong động mạch (giữa động mạch và tĩnh mạch nách).
+    + **Bó sau** (*fasciculus posterior*) nằm ở sau động mạch.
+  - *Ở đoạn dưới cơ ngực bé:* Các nhánh tận của đám rối cánh tay vây quanh động mạch:
+    + Rễ ngoài (từ bó ngoài) và rễ trong (từ bó trong) hợp nhất ở ngay phía trước ngoài động mạch để tạo thành **thần kinh giữa** (*n. medianus*).
+    + **Thần kinh cơ bì** (*n. musculocutaneus*) nằm ở phía ngoài rồi đâm xuyên qua cơ quạ - cánh tay.
+    + **Thần kinh trụ** (*n. ulnaris*), **thần kinh bì cẳng tay trong** và **thần kinh bì cánh tay trong** nằm ở phía trong động mạch.
+    + **Thần kinh quay** (*n. radialis*) và **thần kinh nách** (*n. axillaris*) nằm ở phía sau động mạch.
+
+### 3. Sáu nhánh bên của động mạch nách
+
+Động mạch nách cho 6 nhánh bên phân bố theo 3 đoạn:
+1. **Động mạch ngực trên** (*a. thoracica superior*): Tách từ đoạn trên cơ ngực bé, cấp máu cho các cơ gian sườn 1, 2 và phần trên cơ ngực lớn, cơ răng trước.
+2. **Động mạch cùng vai - ngực** (*a. thoracoacromialis*): Tách ở bờ trên cơ ngực bé, chọc thủng mạc đòn ngực chia thành 4 nhánh:
+   - *Nhánh cùng vai* (*ramus acromialis*): Đi ra mỏm cùng vai, tiếp nối với ĐM trên vai.
+   - *Nhánh delta* (*ramus deltoideus*): Đi cùng tĩnh mạch đầu trong rãnh delta - ngực cấp máu cho cơ delta và cơ ngực lớn.
+   - *Nhánh ngực* (*rami pectorales*): Cấp máu cho các cơ ngực và tuyến vú.
+   - *Nhánh đòn* (*ramus clavicularis*): Nuôi cơ dưới đòn và khớp ức - đòn.
+3. **Động mạch ngực ngoài** (*a. thoracica lateralis*): Tách ở đoạn sau cơ ngực bé, đi dọc bờ dưới cơ ngực bé xuống thành ngoài ngực, cấp máu cho cơ răng trước, cơ ngực lớn và các nhánh ngoài cho tuyến vú.
+4. **Động mạch dưới vai** (*a. subscapularis*): Là nhánh bên lớn nhất của động mạch nách, tách ở ngang bờ dưới cơ dưới vai rồi chia thành:
+   - *Động mạch ngực - lưng** (*a. thoracodorsalis*): Chạy xuống nuôi cơ lưng rộng và cơ răng trước.
+   - *Động mạch mũ vai* (*a. circumflexa scapulae*): Chui qua **tam giác vai - tam đầu** (lỗ tam giác tam đầu) ra vùng sau xương vai để tạo thành **vòng nối quanh vai**.
+5. **Động mạch mũ cánh tay trước** (*a. circumflexa humeri anterior*): Nhỏ, chạy vòng quanh mặt trước cổ phẫu thuật xương cánh tay dưới cơ quạ - cánh tay và cơ nhị đầu, tiếp nối với động mạch mũ cánh tay sau.
+6. **Động mạch mũ cánh tay sau** (*a. circumflexa humeri posterior*): Lớn hơn nhánh trước, cùng với **thần kinh nách** chui qua **tứ giác cánh tay - tam đầu** (lỗ tứ giác) vòng quanh mặt sau cổ phẫu thuật xương cánh tay, cấp máu cho cơ delta và khớp vai.
+
+### 4. Các vòng nối bàng hệ của động mạch nách và ứng dụng thắt mạch
+Động mạch nách nối rất phong phú với các mạch máu lân cận tạo nên 3 mạng mạch chính:
+- **Vòng nối quanh vai:** Động mạch dưới vai tiếp nối với động mạch trên vai (thuộc thân giáp cổ) và động mạch vai sau (thuộc động mạch dưới đòn) trên các mặt trước và sau xương bả vai.
+- **Vòng nối quanh ngực:** Động mạch ngực ngoài, động mạch cùng vai ngực và động mạch ngực trên tiếp nối với các nhánh gian sườn của động mạch ngực trong và các động mạch gian sườn sau (tách từ động mạch chủ ngực).
+- **Vòng nối quanh cánh tay:** Hai động mạch mũ cánh tay trước và sau tiếp nối với nhau quanh cổ phẫu thuật xương cánh tay và nối với nhánh delta của động mạch cánh tay sâu.
+
+> [!IMPORTANT]
+> **Vị trí thắt động mạch nách nguy hiểm và an toàn:**
+> - **Đoạn thắt nguy hiểm:** Đoạn nằm **giữa nguyên ủy của động mạch dưới vai và hai động mạch mũ cánh tay**. Nếu thắt động mạch nách ở khoảng này, máu từ vòng nối quanh ngực và quanh vai không thể đưa xuống nuôi chi dưới qua động mạch cánh tay vì thiếu cầu nối bàng hệ trực tiếp, dẫn đến hoại tử toàn bộ chi trên.
+> - **Đoạn thắt an toàn:**
+>   + **Ở trên động mạch dưới vai:** Dòng máu từ động mạch dưới đòn (qua ĐM trên vai, ĐM vai sau) đi ngược dòng qua động mạch dưới vai để tái tưới máu cho đoạn dưới động mạch nách và động mạch cánh tay.
+>   + **Ở dưới hai động mạch mũ cánh tay:** Động mạch cánh tay vẫn nhận máu qua các nhánh nối của ĐM mũ với ĐM cánh tay sâu.
+
+---
+
+## IV. ĐỘNG MẠCH CÁNH TAY (*ARTERIA BRACHIALIS*)
+
+### 1. Nguyên ủy, đường đi và tận cùng
+- **Nguyên ủy:** Động mạch cánh tay chạy tiếp theo động mạch nách từ **bờ dưới cơ tròn lớn** (hay bờ dưới cơ ngực lớn).
+- **Đường đi:** Đi xuống qua vùng cánh tay trước theo đường định hướng nối từ đỉnh hố nách (hoặc điểm giữa xương đòn) đến giữa nếp gấp khuỷu (ngang mức củ quay, cách nếp gấp khuỷu khoảng 3 cm).
+- **Vị trí so với xương cánh tay:**
+  + Ở đầu gần của cánh tay, động mạch nằm ở **phía trong xương cánh tay**.
+  + Ở đầu xa của cánh tay, nó đi ra phía ngoài hơn, tại vị trí giữa các mỏm trên lồi cầu trong và ngoài xương cánh tay.
+  + Động mạch đi qua phía trước khớp khuỷu và nằm ngay phía trong gân cơ nhị đầu cánh tay. Có thể sờ được mạch đập dọc suốt chiều dài của nó.
+- **Tận cùng:** Khi tới vùng hố khuỷu, ngang mức với **cổ xương quay**, động mạch chia thành hai nhánh tận là **động mạch quay** (*a. radialis*) và **động mạch trụ** (*a. ulnaris*).
+
+```mermaid
+flowchart TD
+    Subclavia["Động mạch dưới đòn (bờ ngoài xương sườn 1)"] --> Axillaris["ĐỘNG MẠCH NÁCH (bờ dưới cơ tròn lớn / ngực lớn)"]
+    Axillaris --> Brachialis["ĐỘNG MẠCH CÁNH TAY (ngang mức cổ xương quay)"]
+    Brachialis --> Radialis["ĐỘNG MẠCH QUAY"]
+    Brachialis --> Ulnaris["ĐỘNG MẠCH TRỤ"]
+    Radialis --> DeepArch["Cung gan tay sâu (chủ yếu ĐM quay)"]
+    Ulnaris --> SupArch["Cung gan tay nông (chủ yếu ĐM trụ)"]
+```
+
+> [!NOTE]
+> **Động mạch cánh tay nông (*superficial brachial artery*):**
+> Trong khoảng hơn 10% số trường hợp, ngoài động mạch cánh tay bình thường còn có thêm một **động mạch cánh tay nông** tách ra từ động mạch nách. Động mạch này có thể biểu hiện dưới 3 dạng:
+> 1. Đảm nhận vai trò cấp máu của động mạch cánh tay ở cẳng tay và bàn tay, tức là trực tiếp tách ra động mạch quay và động mạch trụ; khi đó động mạch cánh tay chính danh chỉ cấp máu cho các cơ ở vùng cánh tay.
+> 2. Đi xuống song song với động mạch cánh tay rồi trở thành động mạch quay, còn động mạch cánh tay chính danh tiếp tục trở thành động mạch trụ.
+> 3. Kích thước mảnh khảnh, chỉ cấp máu cho cơ và tận cùng ngay tại cánh tay.
+
+### 2. Liên quan giải phẫu
+
+![Hình 5: Liên quan của động mạch cánh tay](giaiphau_media/hinh_p282_5.png)
+
+#### 2.1. Liên quan với cơ và mạc
+- Động mạch cánh tay đi ở phần trong ngăn mạc trước (ngăn cơ gấp) của cánh tay, dọc theo bờ trong cơ nhị đầu cánh tay. **Cơ nhị đầu cánh tay được coi là cơ tùy hành** của động mạch cánh tay.
+- **Ở phần trên cánh tay (trong ống cánh tay - *canalis brachialis*):**
+  + *Ở ngoài:* Cơ quạ - cánh tay (phần trên) và cơ nhị đầu cánh tay (phần dưới).
+  + *Ở trong:* Da và mạc cánh tay nông che phủ.
+  + *Ở sau:* Vách gian cơ trong và cơ cánh tay.
+- **Ở phần dưới cánh tay (trong rãnh nhị đầu trong):**
+  + *Ở trước:* Cân cơ nhị đầu (chẽ cân quạt vào mạc cẳng tay).
+  + *Ở sau:* Cơ cánh tay che phủ mặt trước khớp khuỷu.
+  + *Ở ngoài:* Gân chính cơ nhị đầu cánh tay.
+  + *Ở trong:* Cơ sấp tròn.
+
+#### 2.2. Liên quan với thần kinh và tĩnh mạch
+- Động mạch đi cùng với **hai tĩnh mạch cánh tay** (*venae brachiales*) nằm kèm hai bên và nối với nhau bằng các nhánh bắt chéo.
+- **Liên quan với thần kinh giữa (*n. medianus*):**
+  + *Ở một phần ba trên cánh tay:* Thần kinh giữa nằm ở **phía trước - ngoài** động mạch.
+  + *Ở một phần ba giữa cánh tay:* Thần kinh giữa **bắt chéo phía trước** động mạch từ ngoài vào trong.
+  + *Ở một phần ba dưới cánh tay và hố khuỷu:* Thần kinh giữa nằm ở **phía trong** động mạch.
+- **Liên quan với các thần kinh khác:**
+  + **Thần kinh trụ** (*n. ulnaris*) và **thần kinh bì cẳng tay trong** lúc đầu nằm ở phía trong động mạch. Đến khoảng giữa cánh tay, thần kinh trụ đâm xuyên qua vách gian cơ trong cùng với động mạch bên trụ trên đi vào ngăn mạc cánh tay sau; còn thần kinh bì cẳng tay trong xuyên qua mạc cánh tay cùng tĩnh mạch nền ra nông dưới da.
+
+### 3. Các nhánh bên và tiếp nối của động mạch cánh tay
+
+| Tên nhánh bên | Nguyên ủy & Đường đi | Tiếp nối & Cấp máu |
+| :--- | :--- | :--- |
+| **1. Động mạch cánh tay sâu**<br>(*a. profunda brachii*) | Nhánh đầu tiên và lớn nhất, tách ngay dưới bờ dưới cơ tròn lớn. Cùng với **thần kinh quay** chui qua **tam giác cánh tay tam đầu** vào ngăn mạc sau, đi trong rãnh thần kinh quay dưới đầu ngoài cơ tam đầu. Cho nhánh delta, nhánh nuôi xương cánh tay và chia thành 2 nhánh tận: | - **ĐM bên giữa** (*a. collateralis media*): Đi sau vách gian cơ ngoài, tiếp nối với **ĐM gian cốt quặt ngược** ở sau mỏm trên lồi cầu ngoài.<br>- **ĐM bên quay** (*a. collateralis radialis*): Nhánh trước chọc qua vách gian cơ ngoài đi cùng TK quay vào rãnh nhị đầu ngoài, tiếp nối với **ĐM quặt ngược quay**; nhánh sau đi trong vách gian cơ ngoài. |
+| **2. Động mạch bên trụ trên**<br>(*a. collateralis ulnaris superior*) | Tách ở khoảng giữa cánh tay, cùng **thần kinh trụ** xuyên qua vách gian cơ trong đi vào ngăn mạc cánh tay sau, chạy xuống rãnh thần kinh trụ (sau mỏm trên lồi cầu trong). | Tiếp nối ở sau mỏm trên lồi cầu trong với **nhánh sau của động mạch quặt ngược trụ**. |
+| **3. Động mạch bên trụ dưới**<br>(*a. collateralis ulnaris inferior*) | Tách ở trên nếp khuỷu khoảng 5 cm, chạy trên mặt trước cơ cánh tay vào trong, cho nhánh chạy trước mỏm trên lồi cầu trong và nhánh xuyên vách gian cơ trong ra sau. | - Nhánh trước tiếp nối với **nhánh trước ĐM quặt ngược trụ**.<br>- Nhánh sau tiếp nối với **ĐM bên trụ trên** và **nhánh sau ĐM quặt ngược trụ** ở sau mỏm trên lồi cầu trong. |
+| **4. Các nhánh cơ và nuôi xương** | Tách rải rác dọc thân động mạch. | Cấp máu cho cơ quạ cánh tay, cơ nhị đầu và cơ cánh tay; nhánh nuôi xương chui vào lỗ nuôi xương cánh tay. |
+
+> [!NOTE]
+> **Các biến thể của động mạch cánh tay sâu:**
+> Động mạch cánh tay sâu có thể tách ra từ động mạch mũ cánh tay sau, hoặc tách từ một thân chung với động mạch mũ cánh tay sau đi qua lỗ tứ giác (7%), hoặc đi qua tam giác cánh tay tam đầu (16%).
+
+### 4. Mạng mạch quanh khớp khuỷu (*rete articulare cubiti*)
+Mạng mạch quanh khuỷu được hình thành từ 4 cặp động mạch tiếp nối nhau tạo nên hai vòng nối chính:
+1. **Mạng mỏm trên lồi cầu ngoài:**
+   - *Phía trước:* Nhánh trước ĐM bên quay (tách từ ĐM cánh tay sâu) nối với **ĐM quặt ngược quay** (tách từ ĐM quay).
+   - *Phía sau:* ĐM bên giữa (tách từ ĐM cánh tay sâu) nối với **ĐM gian cốt quặt ngược** (tách từ ĐM gian cốt sau).
+2. **Mạng mỏm trên lồi cầu trong:**
+   - *Phía trước:* Nhánh trước ĐM bên trụ dưới nối với **nhánh trước ĐM quặt ngược trụ**.
+   - *Phía sau:* ĐM bên trụ trên và nhánh sau ĐM bên trụ dưới nối với **nhánh sau ĐM quặt ngược trụ**.
+
+### 5. Ý nghĩa lâm sàng
+- **Đo huyết áp động mạch cánh tay:** Động mạch cánh tay nằm nông ở vùng rãnh nhị đầu trong, được áp vào mặt trước xương cánh tay bởi bao hơi đo huyết áp. Khi bơm căng bao hơi vượt quá huyết áp tâm thu, dòng máu bị tắc hoàn toàn. Tháo hơi từ từ, khi áp lực bao hơi bắt đầu thấp hơn áp lực tâm thu thì nghe thấy tiếng đập đầu tiên (tiếng Korotkoff 1 – huyết áp tâm thu); khi tiếng đập biến mất (tiếng Korotkoff 5) ghi nhận huyết áp tâm trương.
+- **Thắt động mạch cánh tay:** Thắt động mạch cánh tay **ở dưới nguyên ủy của động mạch cánh tay sâu** là tương đối an toàn vì mạng mạch bàng hệ phong phú quanh khuỷu đảm bảo tái lập tưới máu cẳng tay. Tuy nhiên, thắt **ở trên động mạch cánh tay sâu** rất nguy hiểm, nguy cơ hoại tử chi cao.
+
+---
+
+## V. ĐỘNG MẠCH TRỤ (*ARTERIA ULNARIS*)
+
+![Hình 6: Liên quan của các động mạch quay và trụ](giaiphau_media/hinh_p284_6.png)
+
+### 1. Nguyên ủy, đường đi và tận cùng
+- **Nguyên ủy:** Là một trong hai nhánh tận của động mạch cánh tay, tách ra ở hố khuỷu ngang mức cổ xương quay (cách nếp gấp khuỷu khoảng 3 cm). Động mạch trụ thường có kích thước lớn hơn động mạch quay.
+- **Đường đi:**
+  + *Đoạn một phần ba trên cẳng tay (đoạn chếch):* Chạy chếch xuống dưới và vào trong, đi sâu dưới khối cơ sấp - bẻ mỏm trên lồi cầu trong.
+  + *Đoạn hai phần ba dưới cẳng tay (đoạn thẳng):* Chạy thẳng dọc theo cơ gấp cổ tay trụ đến bờ ngoài xương đậu.
+  + *Đoạn cổ tay:* Đi trước hãm gân gấp (trong ống Guyon) vào gan tay.
+- **Tận cùng:** Tới gan tay, động mạch trụ uốn cong ra ngoài nối với nhánh gan tay nông của động mạch quay để tạo thành **cung gan tay nông** (*arcus palmaris superficialis*).
+
+> [!NOTE]
+> **Biến thể số lượng động mạch ở cẳng tay:**
+> Bình thường cẳng tay có 2 động mạch (quay và trụ). Nếu có 3 động mạch, động mạch thứ 3 có thể do:
+> 1. Còn tồn tại **động mạch giữa** (*a. comitans nervi mediani*), động mạch này tách ra từ động mạch trụ ở trên nguyên ủy động mạch gian cốt chung và đi cùng thần kinh giữa xuống gan tay.
+> 2. Có **hai động mạch trụ** (khi có động mạch cánh tay nông): một nhánh đi sâu là sự tiếp tục của động mạch cánh tay, một nhánh tách từ động mạch cánh tay nông gọi là động mạch trụ nông.
+
+### 2. Liên quan giải phẫu
+- **Ở 1/3 trên cẳng tay (đoạn chếch):**
+  + Động mạch rời hố khuỷu bằng cách đi sâu dưới **cơ sấp tròn**, sau đó chạy giữa cơ gấp các ngón nông và cơ gấp các ngón sâu.
+  + **Thần kinh giữa** bắt chéo phía trước đoạn này từ trong ra ngoài và được ngăn cách với động mạch bởi **đầu sâu (đầu trụ) của cơ sấp tròn**.
+- **Ở 2/3 dưới cẳng tay (đoạn thẳng):**
+  + Động mạch đi theo đường nối từ mỏm trên lồi cầu trong tới bờ ngoài xương đậu.
+  + Nằm trên mặt nông cơ gấp các ngón sâu, giữa **cơ gấp cổ tay trụ ở trong** và **cơ gấp các ngón nông ở ngoài**.
+  + Ở đoạn này, **cơ gấp cổ tay trụ là cơ tùy hành** của động mạch trụ.
+  + **Thần kinh trụ** đi áp sát ngay ở **phía trong** động mạch.
+  + Ở gần cổ tay, các cơ chuyển thành gân nên động mạch nằm nông hơn, chỉ được che phủ bởi da, mạc nông và mạc sâu cẳng tay, dễ dàng sờ thấy mạch đập ở bờ ngoài gân cơ gấp cổ tay trụ.
+- **Ở cổ tay:**
+  + Động mạch đi qua hãm gân gấp (*retinaculum flexorum*) ở **phía trước** hãm (bên trong ống Guyon), nằm ở **phía ngoài xương đậu** và **phía ngoài thần kinh trụ**.
+
+### 3. Phân nhánh và tiếp nối của động mạch trụ
+
+| Tên nhánh bên | Đường đi & Tiếp nối | Vùng cấp máu |
+| :--- | :--- | :--- |
+| **1. Động mạch quặt ngược trụ**<br>(*a. recurrens ulnaris*) | Tách ở gần nguyên ủy, chia thành 2 nhánh:<br>- **Nhánh trước** (*ramus anterior*): Chạy lên giữa cơ cánh tay và cơ sấp tròn (trước mỏm trên lồi cầu trong), nối với **ĐM bên trụ dưới**.<br>- **Nhánh sau** (*ramus posterior*): Chạy lên sau mỏm trên lồi cầu trong (giữa 2 đầu cơ gấp cổ tay trụ), nối với **ĐM bên trụ trên** và **nhánh sau ĐM bên trụ dưới**. | Tham gia mạng mạch quanh mỏm trên lồi cầu trong khớp khuỷu. |
+| **2. Động mạch gian cốt chung**<br>(*a. interossea communis*) | Thân ngắn khoảng 1 cm, chạy xuống dưới và ra sau tới bờ trên màng gian cốt thì chia thành 2 nhánh: | - **Động mạch gian cốt trước** (*a. interossea anterior*): Đi trên mặt trước màng gian cốt cùng nhánh gian cốt trước TK giữa, tách ĐM giữa (*a. mediana*), xuyên qua màng gian cốt ở 1/3 dưới cẳng tay để tham gia mạng mu cổ tay.<br>- **Động mạch gian cốt sau** (*a. interossea posterior*): Chui qua bờ trên màng gian cốt ra ngăn mạc sau, đi giữa 2 lớp cơ duỗi, cho **ĐM gian cốt quặt ngược** (*a. interossea recurrens*) chạy lên sau mỏm trên lồi cầu ngoài nối với ĐM bên giữa. |
+| **3. Nhánh gan cổ tay**<br>(*ramus carpeus palmaris*) | Tách ngay trước hãm gân gấp, chạy ngang ra ngoài trên mặt trước xương cổ tay (dưới các gân gấp). | Nối với nhánh gan cổ tay của ĐM quay tạo nên **cung gan cổ tay** (*arcus carpeus palmaris*). |
+| **4. Nhánh mu cổ tay**<br>(*ramus carpeus dorsalis*) | Tách ở trên xương đậu, vòng quanh bờ trong khớp cổ tay ra mu tay. | Nối với nhánh mu cổ tay của ĐM quay và nhánh tận ĐM gian cốt trước tạo **cung mu cổ tay** (*arcus carpeus dorsalis*). |
+| **5. Nhánh gan tay sâu**<br>(*ramus palmaris profundus*) | Tách ngay sau khi bắt chéo trước hãm gân gấp, lách qua giữa cơ gấp ngón út ngắn và cơ giạng ngón út đi vào sâu cùng nhánh sâu thần kinh trụ. | Tiếp nối với đầu tận của động mạch quay tạo thành **cung gan tay sâu** (*arcus palmaris profundus*). |
+
+---
+
+## VI. ĐỘNG MẠCH QUAY (*ARTERIA RADIALIS*)
+
+### 1. Nguyên ủy, đường đi và tận cùng
+- **Nguyên ủy:** Là nhánh tận bên ngoài của động mạch cánh tay, tách ra ở hố khuỷu ngang mức cổ xương quay.
+- **Đường đi:**
+  + *Ở cẳng tay:* Đi xuống dưới và ra ngoài qua ngăn cơ trước ngoài cẳng tay theo đường định hướng nối từ điểm giữa nếp gấp khuỷu đến rãnh mạch quay (ngay trong mỏm trâm quay).
+  + *Ở cổ tay:* Vòng quanh mặt ngoài khớp cổ tay, luồn dưới gân các cơ giạng dài và duỗi ngắn ngón cái để vào **hõm lào giải phẫu** (*fovea radialis*).
+  + *Ở bàn tay:* Lách dưới gân cơ duỗi ngón cái dài, chui qua khe giữa nền xương đốt bàn tay I và II (xuyên qua giữa hai đầu cơ gian cốt mu tay I) để vào mặt sâu của gan tay.
+- **Tận cùng:** Tại mặt sâu gan tay, động mạch quay uốn cong sang trong nối với nhánh gan tay sâu của động mạch trụ để tạo thành **cung gan tay sâu** (*arcus palmaris profundus*).
+
+### 2. Liên quan giải phẫu
+- **Ở cẳng tay:**
+  + *Cơ tùy hành:* **Cơ cánh tay - quay** (*m. brachioradialis*) nằm ở phía ngoài và che phủ động mạch ở phần trên cẳng tay.
+  + *Phía trong:* Cơ sấp tròn (ở 1/3 trên) và gân cơ gấp cổ tay quay (ở 2/3 dưới).
+  + *Phía sau:* Động mạch tựa lần lượt từ trên xuống dưới lên: gân cơ nhị đầu cánh tay, cơ ngửa, cơ sấp tròn, đầu quay cơ gấp các ngón nông, cơ gấp ngón cái dài, cơ sấp vuông và đầu dưới xương quay.
+  + *Rãnh mạch quay:* Ở 1/3 dưới cẳng tay, động mạch nằm trong **rãnh mạch quay** hình thành giữa **gân cơ cánh tay - quay ở ngoài** và **gân cơ gấp cổ tay quay ở trong**. Tại đây, mặt trước động mạch chỉ có da, tổ chức dưới da và mạc che phủ, là nơi lý tưởng nhất để bắt mạch quay trên lâm sàng.
+  + *Liên quan với thần kinh quay:* **Nhánh nông thần kinh quay** (*ramus superficialis n. radialis*) chạy áp sát ở **phía ngoài** động mạch ở 1/3 giữa cẳng tay; ở 1/3 dưới cẳng tay thì thần kinh luồn sâu dưới gân cơ cánh tay - quay vòng ra mu tay.
+- **Ở cổ tay và hõm lào giải phẫu:**
+  + Động mạch quay chạy dưới gân cơ giạng ngón cái dài và cơ duỗi ngón cái ngắn để vào hõm lào giải phẫu.
+  + Nằm trên nền hõm lào (tạo bởi xương thuyền và xương thê/thang).
+  + Sau đó luồn dưới gân cơ duỗi ngón cái dài để ra mu bàn tay.
+- **Ở bàn tay:**
+  + Chui giữa 2 đầu cơ gian cốt mu tay thứ nhất, sau đó đi giữa 2 đầu cơ khép ngón cái để tiến vào gan tay sâu.
+
+### 3. Phân nhánh và tiếp nối của động mạch quay
+
+| Tên nhánh bên | Đường đi | Vùng cấp máu & Tiếp nối |
+| :--- | :--- | :--- |
+| **1. Động mạch quặt ngược quay**<br>(*a. recurrens radialis*) | Tách ngay dưới nguyên ủy, chạy ngược lên trong rãnh nhị đầu ngoài giữa cơ cánh tay quay và cơ cánh tay. | Cấp máu cho các cơ lân cận và tiếp nối với **nhánh trước ĐM bên quay** (thuộc ĐM cánh tay sâu). |
+| **2. Nhánh gan tay nông**<br>(*ramus palmaris superficialis*) | Tách ngay trước khi động mạch quay vòng ra mu tay ở cổ tay, đi trên hoặc xuyên qua các cơ mô cái. | Tiếp nối với đầu tận của động mạch trụ để tạo **cung gan tay nông**. |
+| **3. Nhánh gan cổ tay**<br>(*ramus carpeus palmaris*) | Nhánh nhỏ tách ngang mức nhánh gan tay nông, chạy ngang vào trong dưới các gân gấp. | Nối với nhánh gan cổ tay của ĐM trụ tạo nên **cung gan cổ tay**. |
+| **4. Nhánh mu cổ tay**<br>(*ramus carpeus dorsalis*) | Tách trong hõm lào giải phẫu, chạy vào trong trên mu cổ tay. | Nối với nhánh mu cổ tay của ĐM trụ và nhánh xuyên ĐM gian cốt trước tạo **cung mu cổ tay**. Cung này cho 3 **ĐM mu đốt bàn tay II, III, IV** rồi chia thành các **ĐM mu ngón tay**. |
+| **5. Động mạch mu đốt bàn tay I**<br>(*a. metacarpalis dorsalis prima*) | Tách ngay trước khi động mạch chui qua cơ gian cốt mu tay I. | Chia nhánh cấp máu cho bờ trong mu ngón cái và bờ ngoài mu ngón trỏ. |
+| **6. Động mạch chính ngón cái**<br>(*a. princeps pollicis*) | Tách ở mặt phẳng giữa cơ gian cốt mu tay I và cơ khép ngón cái. | Đi dọc bờ ngón cái, tới khớp bàn ngón thì chia 2 nhánh gan ngón riêng cho hai bờ ngón cái. |
+| **7. Động mạch quay ngón trỏ**<br>(*a. radialis indicis*) | Tách từ ĐM chính ngón cái hoặc tách trực tiếp từ cung gan tay sâu. | Chạy dọc bờ ngoài (bờ quay) của ngón trỏ. |
+
+---
+
+## VII. CÁC CUNG ĐỘNG MẠCH GAN TAY VÀ MẠCH MÁU NGÓN TAY
+
+Bàn tay được cấp máu phong phú bởi mạng lưới tiếp nối giữa động mạch quay và động mạch trụ thông qua hai cung động mạch gan tay (cung nông và cung sâu) cùng cung mu cổ tay.
+
+![Hình 7: Các cung động mạch gan tay](giaiphau_media/hinh_p288_7.png)
+
+### 1. Cung gan tay nông (*arcus palmaris superficialis*)
+- **Cấu tạo:** Được tạo thành chủ yếu bởi **đoạn tận của động mạch trụ** tiếp nối với **nhánh gan tay nông của động mạch quay** (đôi khi nối với động mạch chính ngón cái hoặc động mạch quay ngón trỏ).
+- **Vị trí và liên quan:**
+  + Nằm ngay dưới cân gan tay (*aponeurosis palmaris*).
+  + Nằm ở phía trước các gân cơ gấp dài các ngón tay và các nhánh của thần kinh giữa, thần kinh trụ.
+  + Đỉnh lồi xa nhất của cung nằm ngang mức **bờ dưới của ngón tay cái khi giạng tối đa**.
+- **Các nhánh tách ra từ cung gan tay nông:**
+  1. **Một động mạch gan ngón riêng cho bờ trong ngón út:** Cấp máu riêng cho bờ trong (bờ trụ) ngón V.
+  2. **Ba động mạch gan ngón chung (*aa. digitales palmares communes*):** Chạy dọc theo các khoang gian đốt bàn tay 2, 3 và 4 hướng về các kẽ ngón tay.
+  3. Tại kẽ ngón tay (gần khớp đốt bàn - ngón tay), mỗi động mạch gan ngón chung nhận thêm **nhánh động mạch gan đốt bàn tay** tương ứng từ cung sâu đổ vào, sau đó chia thành hai **động mạch gan ngón riêng (*aa. digitales palmares propriae*)** đi dọc theo hai bờ đối diện của các ngón kề cận:
+     - Bờ ngoài ngón út và bờ trong ngón nhẫn.
+     - Bờ ngoài ngón nhẫn và bờ trong ngón giữa.
+     - Bờ ngoài ngón giữa và bờ trong ngón trỏ.
+
+### 2. Cung gan tay sâu (*arcus palmaris profundus*)
+- **Cấu tạo:** Được hình thành chủ yếu bởi **đoạn tận của động mạch quay** (sau khi chui qua cơ gian cốt mu tay I và cơ khép ngón cái vào gan tay) tiếp nối với **nhánh gan tay sâu của động mạch trụ**.
+- **Vị trí và liên quan:**
+  + Nằm ở mặt phẳng sâu của gan tay, áp sát vào nền các xương đốt bàn tay và các cơ gian cốt gan tay.
+  + Nằm ở phía sau các gân cơ gấp dài các ngón tay và các cơ giun.
+  + Đi kèm sát với cung là **nhánh sâu của thần kinh trụ** (*ramus profundus n. ulnaris*).
+  + Vị trí của cung sâu nằm ở phía trên (gần cổ tay hơn) so với cung gan tay nông khoảng 1 – 1,5 cm.
+- **Các nhánh tách ra từ cung gan tay sâu:**
+  1. **Ba động mạch gan đốt bàn tay (*aa. metacarpales palmares*):** Chạy trên các cơ gian cốt ở các khoang gian đốt bàn 2, 3 và 4. Ở gần khớp bàn - ngón, chúng hòa vào các động mạch gan ngón chung của cung nông.
+  2. **Ba nhánh xuyên (*rami perforantes*):** Chui qua khe giữa các đầu của cơ gian cốt mu tay thứ 2, 3 và 4 ra mặt mu tay, đổ vào các động mạch mu đốt bàn tay tương ứng.
+  3. **Các nhánh quặt ngược cổ tay:** Nhánh nhỏ chạy ngược lên trên tham gia vào mạng mạch gan cổ tay nuôi các xương và dây chằng sàn ống cổ tay.
+
+### 3. Cung mu cổ tay (*arcus carpeus dorsalis*)
+- Được tạo bởi sự tiếp nối giữa:
+  + Nhánh mu cổ tay của động mạch quay.
+  + Nhánh mu cổ tay của động mạch trụ.
+  + Nhánh xuyên tận của động mạch gian cốt trước.
+- **Phân nhánh:** Tách ra 3 **động mạch mu đốt bàn tay** (*aa. metacarpales dorsales*) đi trong các khoang gian cốt 2, 3, 4. Ở gần khớp bàn - ngón, mỗi động mạch chia thành hai **động mạch mu ngón tay** (*aa. digitales dorsales*) cho các ngón. Các động mạch mu ngón tay chỉ cấp máu tới đốt ngón gần; hai đốt ngón giữa và xa chủ yếu do các nhánh vòng của động mạch gan ngón riêng cấp máu.
+
+---
+
+## VIII. HỆ THỐNG TĨNH MẠCH CHI TRÊN
+
+Hệ thống tĩnh mạch của chi trên được phân chia làm hai hệ thống độc lập nhưng thông nối mật thiết với nhau: **tĩnh mạch nông** (nằm trong lớp mỡ dưới da trên mạc sâu) và **tĩnh mạch sâu** (đi kèm các động mạch bên dưới lớp mạc sâu).
+
+![Hình 8: Các tĩnh mạch nông của chi trên bên phải](giaiphau_media/hinh_p291_8.png)
+
+### 1. Hệ thống tĩnh mạch nông (*venae superficiales*)
+Các tĩnh mạch nông chạy trong lớp mỡ dưới da, không có động mạch đi kèm trực tiếp và cuối cùng đều xuyên qua mạc sâu để đổ về các tĩnh mạch sâu.
+
+#### 1.1. Mạng tĩnh mạch mu bàn tay (*rete venosum dorsale manus*)
+- Bắt nguồn từ các tĩnh mạch mu ngón tay đổ vào các tĩnh mạch mu đốt bàn tay. Sự liên kết hình mạng lưới giữa các tĩnh mạch mu đốt bàn tay tạo nên **mạng tĩnh mạch mu bàn tay**.
+- Mạng mạch này thu nhận hầu hết lượng máu hồi lưu từ bàn tay và được dẫn lưu chính bởi hai thân tĩnh mạch lớn:
+  + Cực ngoài dẫn lưu tạo nên **tĩnh mạch đầu**.
+  + Cực trong dẫn lưu tạo nên **tĩnh mạch nền**.
+
+#### 1.2. Tĩnh mạch đầu (*vena cephalica*)
+- **Nguyên ủy:** Bắt đầu từ cực ngoài của mạng tĩnh mạch mu tay (vùng hõm lào giải phẫu ở nền ngón cái).
+- **Đường đi:**
+  + Vòng quanh bờ ngoài cẳng tay lên mặt trước ngoài của cẳng tay.
+  + Đi qua mặt trước ngoài vùng khuỷu, tiếp tục đi lên ở bờ ngoài cơ nhị đầu cánh tay.
+  + Tới 1/3 trên cánh tay, tĩnh mạch chui vào **rãnh delta - ngực** (giữa cơ delta và cơ ngực lớn).
+  + Vào **tam giác đòn - ngực** (tam giác delta - ngực), tĩnh mạch uốn cong chọc thủng mạc đòn ngực ngay dưới xương đòn để đổ vào **tĩnh mạch nách**.
+- *Biến thể:* Ở cẳng tay có thể có thêm **tĩnh mạch đầu phụ** (*v. cephalica accessoria*) chạy dọc bờ ngoài rồi hòa vào tĩnh mạch đầu.
+
+#### 1.3. Tĩnh mạch nền (*vena basilica*)
+- **Nguyên ủy:** Bắt đầu từ cực trong của mạng tĩnh mạch nông mu tay.
+- **Đường đi:**
+  + Chạy lên ở mặt sau trong cẳng tay, sau đó vòng qua bờ trong ra mặt trước trong ở ngay dưới nếp khuỷu.
+  + Đi lên ở rãnh nhị đầu trong của vùng cánh tay.
+  + Đến **khoảng giữa cánh tay**, tĩnh mạch nền chọc thủng mạc cánh tay đi vào sâu.
+  + Sau đó chạy song song ở phía trong động mạch cánh tay, lên tới bờ dưới cơ tròn lớn thì liên tiếp trở thành **tĩnh mạch nách** (hoặc hợp lưu với tĩnh mạch cánh tay để tạo thành tĩnh mạch nách).
+
+#### 1.4. Tĩnh mạch giữa khuỷu (*vena mediana cubiti*)
+- Là cầu nối chéo quan trọng ở vùng hố khuỷu trước, nối giữa tĩnh mạch đầu và tĩnh mạch nền.
+- Tĩnh mạch giữa khuỷu nằm ngay trên chẽ cân cơ nhị đầu cánh tay (chẽ cân này ngăn cách tĩnh mạch nông với động mạch cánh tay và thần kinh giữa ở sâu).
+
+#### 1.5. Tĩnh mạch giữa cẳng tay (*vena mediana antebrachii*)
+- Thu nhận máu từ mạng tĩnh mạch gan bàn tay, chạy thẳng lên ở mặt trước giữa cẳng tay tới vùng khuỷu.
+- **Các dạng biến thể của tĩnh mạch vùng nếp gấp khuỷu:**
+  + **Kiểu chữ H:** Tĩnh mạch giữa cẳng tay đổ vào tĩnh mạch nền hoặc tĩnh mạch đầu; tĩnh mạch đầu và nền nối với nhau qua một nhánh **tĩnh mạch giữa khuỷu** (*v. mediana cubiti*) nằm vắt chéo.
+  + **Kiểu chữ M:** Tới gần khuỷu, tĩnh mạch giữa cẳng tay chẻ đôi thành hai nhánh hình chữ V:
+    * **Tĩnh mạch giữa nền** (*v. mediana basilica*): Chạy chếch vào trong đổ vào tĩnh mạch nền.
+    * **Tĩnh mạch giữa đầu** (*v. mediana cephalica*): Chạy chếch ra ngoài đổ vào tĩnh mạch đầu.
+  + *Trường hợp không có tĩnh mạch giữa khuỷu:* Hai thân tĩnh mạch đầu và nền chạy độc lập song song lên cánh tay, tĩnh mạch giữa cẳng tay đổ trực tiếp vào tĩnh mạch nền.
+
+### 2. Hệ thống tĩnh mạch sâu (*venae profundae*)
+- Các tĩnh mạch sâu của chi trên đi kèm theo động mạch bên dưới mạc sâu và mang cùng tên với động mạch tương ứng:
+  + Từ bàn tay lên đến hết cánh tay, mỗi động mạch đều có **hai tĩnh mạch đi kèm** (*venae comitantes*) nằm hai bên và thông nối chéo với nhau.
+  + Riêng **động mạch nách chỉ có một tĩnh mạch nách duy nhất đi kèm**.
+- **Tĩnh mạch nách (*vena axillaris*):**
+  + Bắt đầu từ bờ dưới cơ tròn lớn (liên tiếp từ tĩnh mạch nền).
+  + Nằm ở **phía trong động mạch nách**, ngăn cách với động mạch bởi bó trong đám rối cánh tay và thần kinh trụ.
+  + Thu nhận hai tĩnh mạch cánh tay (đổ vào đầu xa tĩnh mạch nách), tĩnh mạch đầu (đổ vào đầu gần ngay dưới xương đòn), và các tĩnh mạch tùy hành các nhánh của động mạch nách (riêng các tĩnh mạch mũ cánh tay thường đổ vào tĩnh mạch nền).
+  + Tới bờ ngoài xương sườn thứ nhất, tĩnh mạch nách liên tiếp đổi tên thành **tĩnh mạch dưới đòn** (*v. subclavia*).
+
+---
+
+## IX. LIÊN HỆ LÂM SÀNG & ỨNG DỤNG NGOẠI KHOA
+
+### 1. Thăm khám và bắt mạch ngoại vi
+- **Bắt mạch quay:** Tại rãnh mạch quay ở 1/3 dưới cẳng tay ngoài (giữa gân cơ cánh tay - quay và gân cơ gấp cổ tay quay). Đây là vị trí bắt mạch thường quy chuẩn xác nhất trên lâm sàng.
+- **Bắt mạch trụ:** Ở bờ ngoài gân cơ gấp cổ tay trụ ngay trên xương đậu. Do nằm sâu hơn và được che một phần bởi gân nên mạch trụ khó bắt hơn mạch quay.
+- **Bắt mạch cánh tay:** Đè nhẹ vào rãnh nhị đầu trong ở 1/3 dưới cánh tay hoặc nếp gấp khuỷu, ngay phía trong gân cơ nhị đầu.
+
+### 2. Test Allen đánh giá tuần hoàn bàng hệ gan tay
+- Trước khi thực hiện can thiệp vào động mạch quay (đặt catheter động mạch theo dõi huyết áp động mạch xâm lấn, chọc khí máu động mạch, hoặc bắc cầu mạch vành bằng động mạch quay), bắt buộc làm **nghiệm pháp Allen**:
+  1. Ép chặt cả hai động mạch quay và trụ ở cổ tay bệnh nhân.
+  2. Yêu cầu bệnh nhân nắm mở bàn tay nhiều lần cho đến khi lòng bàn tay trắng bợt.
+  3. Thả ngón tay đang ép động mạch trụ, giữ nguyên ép động mạch quay.
+  4. Quan sát thời gian tái tưới máu bàn tay:
+     - Nếu lòng bàn tay hồng hào trở lại trong vòng dưới 7 – 10 giây: Nghiệm pháp Allen **dương tính** (vòng nối bàng hệ qua cung gan tay nông tốt, an toàn khi can thiệp động mạch quay).
+     - Nếu bàn tay vẫn nhợt nhạt quá 10 giây: Nghiệm pháp Allen **âm tính** (cung gan tay nông không liên tục hoặc thiểu sản), chống chỉ định can thiệp phá hủy động mạch quay vì nguy cơ hoại tử ngón tay.
+
+### 3. Vết thương đứt mạch máu vùng cổ tay
+- Do động mạch quay và động mạch trụ nằm tương đối nông ở cổ tay, các vết thương cắt kính hoặc vật sắc nhọn rất dễ gây đứt một hoặc cả hai mạch máu kèm đứt các gân gấp và dây thần kinh giữa, thần kinh trụ.
+- Nhờ có hai cung động mạch gan tay (nông và sâu) nối thông hai động mạch rất phong phú, trong trường hợp cấp cứu khẩn cấp có thể thắt động mạch quay hoặc động mạch trụ đơn thuần mà thường không gây thiếu máu cấp tính bàn tay (với điều kiện cung gan tay toàn vẹn). Tuy nhiên, nguyên tắc ngoại khoa hiện đại luôn ưu tiên vi phẫu khâu nối phục hồi lưu thông mạch máu.
+
+### 4. Tiêm truyền tĩnh mạch và lấy máu xét nghiệm
+- Các tĩnh mạch nông vùng khuỷu (tĩnh mạch giữa khuỷu, tĩnh mạch giữa đầu, tĩnh mạch giữa nền) là vị trí hàng đầu được lựa chọn để lấy máu tĩnh mạch, tiêm truyền và đặt đường truyền ngoại vi vì kích thước lớn, cố định và ít di động.
+- Cần lưu ý chẽ cân cơ nhị đầu là màng chắn bảo vệ quan trọng ngăn cản kim tiêm đâm xuyên vào động mạch cánh tay và thần kinh giữa ở sâu.
+
+---
+
+## X. CÂU HỎI LƯỢNG GIÁ KIẾN THỨC
+
+1. **Cơ nào sau đây bắt chéo phía trước động mạch nách và chia động mạch thành 3 đoạn liên quan?**
+   - A. Cơ ngực lớn
+   - B. Cơ ngực bé
+   - C. Cơ dưới đòn
+   - D. Cơ quạ - cánh tay  
+   *(Đáp án: B)*
+
+2. **Nhánh bên nào của động mạch nách có kích thước lớn nhất và tham gia chủ yếu vào vòng nối quanh vai?**
+   - A. Động mạch cùng vai ngực
+   - B. Động mạch ngực ngoài
+   - C. Động mạch dưới vai
+   - D. Động mạch mũ cánh tay sau  
+   *(Đáp án: C)*
+
+3. **Cấu trúc nào sau đây bắt chéo phía trước động mạch cánh tay từ ngoài vào trong ở khoảng giữa cánh tay?**
+   - A. Thần kinh quay
+   - B. Thần kinh trụ
+   - C. Thần kinh giữa
+   - D. Thần kinh cơ bì  
+   *(Đáp án: C)*
+
+4. **Vị trí thắt động mạch nách được coi là nguy hiểm nhất nằm ở đoạn nào?**
+   - A. Trên cơ ngực bé
+   - B. Giữa động mạch dưới vai và hai động mạch mũ cánh tay
+   - C. Trên nguyên ủy động mạch ngực trên
+   - D. Dưới hai động mạch mũ cánh tay  
+   *(Đáp án: B)*
+
+5. **Động mạch nào sau đây đi trong rãnh thần kinh quay cùng với thần kinh quay ở mặt sau xương cánh tay?**
+   - A. Động mạch bên trụ trên
+   - B. Động mạch bên trụ dưới
+   - C. Động mạch cánh tay sâu
+   - D. Động mạch mũ cánh tay sau  
+   *(Đáp án: C)*
+
+6. **Cung động mạch gan tay nông được tạo thành chủ yếu bởi cấu trúc nào tiếp nối với nhánh gan tay nông của động mạch quay?**
+   - A. Đoạn tận của động mạch trụ
+   - B. Động mạch gian cốt trước
+   - C. Nhánh gan tay sâu của động mạch trụ
+   - D. Động mạch chính ngón cái  
+   *(Đáp án: A)*
+
+7. **Tĩnh mạch nông nào sau đây chạy trong rãnh delta - ngực trước khi chọc thủng mạc đòn ngực để đổ vào tĩnh mạch nách?**
+   - A. Tĩnh mạch nền
+   - B. Tĩnh mạch giữa khuỷu
+   - C. Tĩnh mạch đầu
+   - D. Tĩnh mạch giữa cẳng tay  
+   *(Đáp án: C)*
+
+8. **Rãnh mạch quay ở đầu dưới cẳng tay được giới hạn bởi các gân cơ nào?**
+   - A. Gân cơ gấp cổ tay quay và gân cơ sấp tròn
+   - B. Gân cơ cánh tay - quay và gân cơ gấp cổ tay quay
+   - C. Gân cơ cánh tay - quay và gân cơ gấp cổ tay trụ
+   - D. Gân cơ gấp các ngón nông và gân cơ sấp vuông  
+   *(Đáp án: B)*
