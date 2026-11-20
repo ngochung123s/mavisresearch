@@ -12,7 +12,7 @@ Mỗi chi trên có 32 xương, bao gồm 2 xương của đai ngực và 30 xư
 
 ### 1. XƯƠNG ĐÒN (clavicle) (H.1)
 
-![Hình 1. Xương đòn [12]](figures/hinh_p045_1.png)
+![Hình 1. Xương đòn (12)](figures/hinh_p045_1.png)
 
 Xương đòn là một xương dài nằm ngang ở nền cổ và ở ngay dưới da trên suốt chiều dài. Nó như là thanh chống cho vai, nối đai vai với xương trục và giúp cánh tay đung đưa trên thân. Xương đòn có thân ở giữa đầu cùng vai và đầu ức. Nó cong giống chữ S, lồi ra trước ở 2/3 trong và lõm ra trước ở phần ba ngoài. Thường không có ống tủy dù là xương dài.
 
@@ -34,7 +34,7 @@ Xương vai là một xương rộng, dẹt, hình tam giác nằm ở mặt sau
 
 *Các bờ.* *Bờ trên* (superior border) mỏng, sắc và là bờ ngắn nhất. Đầu ngoài của bờ trên được ngăn cách với gốc của mỏm quạ bởi *khuyết trên vai* (suprascapular notch). Thần kinh trên vai đi qua khuyết này vào hố trên gai. *Bờ ngoài* (lateral border) chạy từ góc dưới tới ổ chảo và mở rộng ra ở dưới ổ chảo thành *củ dưới ổ chảo* (infraglenoid tubercle). Bờ ngoài nằm giữa chỗ bám của cơ dưới vai ở trước, các cơ tròn ở sau, lại bị cơ lưng rộng phủ nên khó sờ thấy qua da. *Bờ trong* (medial border) đi từ góc dưới tới góc trên. Hai phần ba dưới bờ này có thể dễ sờ thấy qua da nhưng phần ba trên nằm sâu và không thể sờ được. Bờ này mỏng và gập góc ở ngang rễ gai vai. Trên chỗ gấp góc này là chỗ bám của cơ nâng vai, dưới chỗ gấp góc là chỗ bám của các cơ trám.
 
-![Hình 2. Xương vai và xương cánh tay, nhìn từ trước [12]](figures/hinh_p047_2.png)
+![Hình 2. Xương vai và xương cánh tay, nhìn từ trước (12)](figures/hinh_p047_2.png)
 
 *Các mỏm.* *Gai vai* (spine of the scapula) nhô lên từ phần trên mặt sau xương vai, có hình tam giác với 2 mặt và 3 bờ. Các mặt trên và dưới cùng với mặt sau xương vai tạo nên các hố ở trên và dưới gai vai. Bờ ngoài tự do, cùng mặt lưng của cổ xương vai giới hạn nên khuyết gai - ổ chảo. Bờ trước (rễ) bám vào mặt sau xương vai, từ chỗ nối các phần ba trên và giữa của bờ trong chạy ra ngoài và hơi lên trên. Bờ sau là mào gai vai và nằm ngay dưới da. Các sợi của cơ delta bám vào bờ dưới của mào, các sợi cơ thang bám vào bờ trên của mào. Trên mào, gần đầu trong, có một lồi xương gọi là *củ delta* (deltoid tubercle) cho dù đây là chỗ bám của gân cơ thang. *Mỏm cùng vai* (acromion) chạy tiếp theo gai vai, từ đầu ngoài gai vai đổi hướng ra trước, hầu như vuông góc với gai vai, tạo thành *góc mỏm cùng vai* (acromial angle). Bờ dưới của mào gai vai trở nên liên tiếp với bờ ngoài mỏm cùng vai tại góc mỏm cùng vai. Bờ trong mỏm cùng vai ngắn, có *mặt khớp đòn* (clavicular facet) hình oval hướng vào trong khớp với đầu ngoài xương đòn. Có thể dễ sờ thấy bờ ngoài, đỉnh và mặt trên mỏm cùng vai. Bờ ngoài và đỉnh mỏm là chỗ bám cho các sợi giữa cơ delta. Mỏm cùng vai, dây chằng cùng quạ và mỏm quạ tạo nên một cung chắn trên khớp vai. Gân cơ trên gai đi dưới mỏm cùng vai và được ngăn cách với mỏm cùng vai và cơ delta bằng túi hoạt dịch dưới mỏm cùng vai.
 
@@ -54,7 +54,7 @@ Thân xương có hình lăng trụ tam giác với ba mặt (trước ngoài, t
 
 Bờ trước liên tiếp ở trên với mào củ lớn. Bờ ngoài thấy rõ ở phần ba dưới của xương, nơi nó dày lên để tạo nên mào trên lồi cầu ngoài (lateral supracondylar ridge). Hơi ở trên điểm giữa của bờ ngoài có một diện xù xì hình chữ V gọi là *lồi củ delta* (deltoid tuberosity). Bờ trong cũng dễ nhận ra ở phần dưới, nơi nó trở thành *mào trên lồi cầu trong* (medial supracondylar ridge) nhưng bị gián đoạn ở nơi có rãnh thần kinh quay bắt chéo qua.
 
-![Hình 3. Xương vai và xương cánh tay nhìn từ sau [12]](figures/hinh_p049_3.png)
+![Hình 3. Xương vai và xương cánh tay nhìn từ sau (12)](figures/hinh_p049_3.png)
 
 Các mặt trước ngoài và trước trong được ngăn cách với nhau bằng bờ trước. Mặt trước ngoài, từ trên xuống, có các chỗ bám cho các cơ delta, cánh tay và cánh tay quay; mặt trước trong có chỗ bám cho cơ quạ cánh tay ở trên và cơ cánh tay ở dưới. Hơi dưới điểm giữa mặt trong có lỗ nuôi xương dẫn vào một ống chếch xuống dưới. Mặt sau rộng nhất, được giới hạn bởi các bờ ngoài và trong. Trên mặt sau có một rãnh nông chạy chếch xuống dưới và ra ngoài, gọi là *rãnh thần kinh quay* (radial groove), nơi mà thần kinh quay cùng động mạch cánh tay sâu đi qua. Trên rãnh có một mào xương là chỗ bám cho đầu ngoài cơ tam đầu. Diện xương rộng hình tam giác ở dưới rãnh là chỗ bám của đầu trong cơ tam đầu.
 
@@ -76,7 +76,7 @@ Xương quay nằm ngoài xương trụ, có đầu gần nhỏ, đầu xa phìn
 
 *Đầu gần.* Đầu gần có chỏm, cổ và lồi củ. *Chỏm* (head) có hình đĩa, mặt gần có *mặt khớp* (articular facet) là một lõm nông tiếp khớp với chỏm con xương cánh tay. Mặt nhẵn bao quanh chỏm là *vành khớp* (articular circumference) tiếp khớp với khuyết quay của xương trụ. *Cổ* (neck) là chỗ thắt lại ở phía xa của chỏm. *Lồi củ xương quay* (radial tuberosity) nằm ngay dưới phần trong của cổ.
 
-![Hình 4. Các xương của cẳng tay [12]](figures/hinh_p051_4.png)
+![Hình 4. Các xương của cẳng tay (12)](figures/hinh_p051_4.png)
 
 *Thân.* Thân xương có mặt cắt ngang hình tam giác, với ba mặt là mặt trước, mặt sau và mặt ngoài. Ba bờ là bờ trước, bờ sau và bờ gian cốt. Mặt ngoài lồi, mặt trước lõm. Thân xương to ra nhanh khi xuống gần đầu xa. *Bờ gian cốt* (interosseous border) sắc, được nối với bờ gian cốt của xương trụ bởi màng gian cốt. Bờ trước chỉ rõ ở hai đầu, tròn và khó xác định ở giữa. Bờ sau chỉ dễ xác định ở phần ba giữa. Gần giữa mặt trước thân xương có lỗ nuôi xương.
 
@@ -100,7 +100,7 @@ Các xương của bàn tay bao gồm các xương cổ tay, các xương đốt
 
 Có 8 xương cổ tay xếp thành 2 hàng gần và xa, mỗi hàng 4 xương. Từ phía quay tới phía trụ, hàng gần có các xương *thuyền* (scaphoid), *nguyệt* (lunate), *tháp* (triquetrum) và *đậu* (pisiform); hàng xa có các xương *thang* (trapezium), *thê* (trapezoid), *cả* (capitate) và *móc* (hamate). Xương đậu tiếp khớp với mặt gan tay của xương tháp. Ba xương khác của hàng gần tạo nên một cung. Cung này lồi về phía gần để tiếp khớp với xương quay và đĩa khớp của khớp quay - trụ xa. Mặt lõm của cung là một ngách hướng về phía xa ôm lấy mặt nhô về phía gần của xương cả và xương móc. Mặt mu của khối xương cổ tay thì lồi. Mặt gan tay của khối xương cổ tay tạo nên một rãnh lõm sâu gọi là *rãnh cổ tay* (carpal groove), với hai bờ rãnh, bờ quay và bờ trụ, nhô về phía gan tay. Ở bờ trụ có xương đậu (nằm trước xương tháp) và *móc của xương móc* (hook of hamate). Bờ quay của rãnh cổ tay được tạo nên bởi *củ* (tubercle) của xương thuyền (có thể sờ thấy) và củ của xương thang. Hãm gân gấp bám vào hai bờ rãnh, biến rãnh thành ống cổ tay chứa các gân gấp và thần kinh giữa.
 
-![Hình 5. Các xương của bàn tay, nhìn từ trước [12]](figures/hinh_p053_5.png)
+![Hình 5. Các xương của bàn tay, nhìn từ trước (12)](figures/hinh_p053_5.png)
 
 #### 6.2. Các xương đốt bàn tay (metacarpals)
 
@@ -136,7 +136,7 @@ Các mặt khớp gồm chỏm cong lồi của xương cánh tay quan hệ hỗ
 
 Khớp vai có ba trục chuyển động, cho phép gấp, duỗi, giạng, khép, quay tròn và xoay.
 
-![Hình 6. Khớp vai: mặt khớp, bao khớp và các cơ đai xoay [12]](figures/hinh_p056_6.png)
+![Hình 6. Khớp vai: mặt khớp, bao khớp và các cơ đai xoay (12)](figures/hinh_p056_6.png)
 
 #### 2.3. Bao khớp (H.6)
 
@@ -146,7 +146,7 @@ Bao khớp thường có hai lỗ: một ở bên dưới mỏm quạ, nơi thô
 
 Màng hoạt dịch lót ở mặt trong lớp xơ bao khớp. Ở phía trong, nó lật lên tới sụn viền. Về phía ngoài, nó lật lên tới bờ mặt khớp xương cánh tay. Màng hoạt dịch bao bọc gân đầu dài cơ nhị đầu lúc nó đi trong ổ khớp và rãnh gian củ.
 
-![Hình 7. Khớp vai: các dây chằng [12]](figures/hinh_p057_7.png)
+![Hình 7. Khớp vai: các dây chằng (12)](figures/hinh_p057_7.png)
 
 #### 2.4. Các dây chằng (H.7)
 
@@ -182,7 +182,7 @@ Khớp vai được cấp máu bởi các động mạch mũ cánh tay trước 
 
 Khớp khuỷu là khớp hoạt dịch kiểu bản lề giữa đầu xa xương cánh tay và đầu gần của xương quay và xương trụ. Khớp khuỷu là khớp một trục với các cử động gấp và duỗi.
 
-![Hình 8. Khớp khuỷu: mặt khớp và bao khớp [12]](figures/hinh_p059_8.png)
+![Hình 8. Khớp khuỷu: mặt khớp và bao khớp (12)](figures/hinh_p059_8.png)
 
 #### 3.1. Các mặt khớp
 
@@ -202,13 +202,13 @@ Màng hoạt dịch lót mặt trong của lớp xơ bao khớp và lật lên x
 
 *Dây chằng vòng xương quay* (anular ligament of radius) đi từ bờ trước đến bờ sau khuyết quay xương trụ và ôm vòng quanh chỏm và cổ xương quay. Nó cùng với khuyết quay xương trụ tạo thành một ống chứa chỏm xương quay. Mặt trong của nó được phủ bằng sụn sợi.
 
-![Hình 9. Khớp khuỷu: dây chằng bên trụ và dây chằng vòng [12]](figures/hinh_p060_9.png)
+![Hình 9. Khớp khuỷu: dây chằng bên trụ và dây chằng vòng (12)](figures/hinh_p060_9.png)
 
 #### 3.4. Các túi hoạt dịch quanh khớp khuỷu
 
 Có hai túi hoạt dịch mỏm khuỷu, là *túi mỏm khuỷu dưới da* (subcutaneous olecranon bursa) nằm trong mô dưới da vùng mỏm khuỷu và *túi mỏm khuỷu dưới gân* (subtendinous olecranon bursa) nằm giữa gân cơ tam đầu và mỏm khuỷu. Hai túi này có thể bị viêm do tăng ma sát, gọi là *viêm túi hoạt dịch do ma sát* (friction bursitis), nhất là túi dưới da.
 
-![Hình 10. Khớp khuỷu: dây chằng bên quay và dây chằng vòng [12]](figures/hinh_p061_10.png)
+![Hình 10. Khớp khuỷu: dây chằng bên quay và dây chằng vòng (12)](figures/hinh_p061_10.png)
 
 *Túi hoạt dịch quay trụ* (radioulnar bursa) nằm giữa cơ duỗi các ngón, cơ ngửa và khớp cánh tay quay. Túi nằm sau cơ ngửa, ngoài gân cơ nhị đầu và trong xương trụ. Viêm túi này có thể xảy ra trong duỗi mạnh cổ tay hay duỗi cổ tay lặp đi lặp lại khi cẳng tay ở tư thế sấp, như khi thực hiện cú ve trái trong đánh tennis.
 

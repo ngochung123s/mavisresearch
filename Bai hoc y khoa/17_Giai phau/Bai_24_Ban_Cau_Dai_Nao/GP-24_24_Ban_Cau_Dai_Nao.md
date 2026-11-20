@@ -12,7 +12,7 @@
 
 Đại não có ba mặt: mặt trên - ngoài (*superolateral surface*), mặt trong (*medial surface*), và mặt dưới (*inferior surface*). Các mặt này được ngăn cách nhau bởi ba bờ: *bờ trên* (*superior margin*), *bờ dưới trong* (*inferomedial margin*) và *bờ dưới ngoài* (*inferolateral margin*). Bề mặt đại não bị những *rãnh đại não* (*cerebral sulci*) chia thành các *thùy đại não* (*cerebral lobes*) và các *hồi đại não* (*cerebral gyri*). Các rãnh và các hồi không hoàn toàn giống nhau giữa các cá thể và giữa hai bán cầu nhưng những rãnh gian thùy sau đây tương đối hằng định (các H. 1; 2; 3):
 
-![Hình 1. Mặt trên - ngoài đại não [12]](figures/hinh_p371_1.png)
+![Hình 1. Mặt trên - ngoài đại não (12)](figures/hinh_p371_1.png)
 
 - *Rãnh bên* (*lateral sulcus*) chạy từ hố đại não bên (*lateral cerebral fossa*) ở mặt dưới, bắt chéo bờ dưới ngoài rồi đi lên ở mặt trên - ngoài bán cầu. Nó ngăn cách các thùy trán và đỉnh với thùy thái dương.
 - *Rãnh trung tâm* (*central sulcus*) ở mặt trên - ngoài đại não, đi gần như thẳng góc với rãnh bên, chạy lên trên và lấn cả vào mặt trong bán cầu. Nó ngăn cách thùy trán với thùy đỉnh.
@@ -47,9 +47,9 @@ Thùy đỉnh nằm ở mặt trên ngoài và mặt trong bán cầu, 2 phần 
 
 Thùy chẩm nằm trên cả 3 mặt và đầu sau của nó là *cực chẩm* (*occipital pole*). Ở mặt trên - ngoài, thùy chẩm nằm phía sau đường kẻ tưởng tượng nối rãnh đỉnh - chẩm với khuyết trước chẩm. Ở mặt này có 2 rãnh là *rãnh chẩm ngang* (*transverse occipital sulcus*) ở trên và *rãnh nguyệt* (*lunate sulcus*) ở dưới. Trường hợp thường thấy nhất, thùy chẩm ở mặt trên - ngoài có hai hồi: *hồi chẩm trên* (*superior occipital gyrus*) và *hồi chẩm dưới* (*inferior occipital gyrus*) ngăn cách nhau qua rãnh chẩm ngang (H.1).
 
-![Hình 2. Mặt dưới đại não [12]](figures/hinh_p374_2.png)
+![Hình 2. Mặt dưới đại não (12)](figures/hinh_p374_2.png)
 
-![Hình 3. Mặt trên - ngoài đại não khi tách mở rãnh bên [12]](figures/hinh_p374_3.png)
+![Hình 3. Mặt trên - ngoài đại não khi tách mở rãnh bên (12)](figures/hinh_p374_3.png)
 
 Ở mặt trong, thùy chẩm được ngăn cách với hồi trước chêm của thùy đỉnh bởi rãnh đỉnh - chẩm và có một múi não hình nêm gọi là *chêm* hay *hồi chêm* (*cuneus*) nằm giữa rãnh đỉnh chẩm và *rãnh cựa* (*calcarine sulcus*). Bên dưới rãnh cựa là *hồi lưỡi* (*lingual gyrus*). Hồi này nằm trên cả mặt dưới và mặt trong thùy chẩm và liên tiếp ở trước với hồi cạnh hải mã (các H. 2; 3).
 
@@ -69,7 +69,7 @@ Trong thuật ngữ TA, thùy đảo (*insular lobe*) chỉ là đảo (*insula*
 
 Đảo hay thùy đảo là một vùng vỏ não hình tam giác nằm vùi sâu trong rãnh bên. Tuy được ngăn với các thùy trán, đỉnh và thái dương bởi *rãnh vòng đảo* (*circular sulcus of insula*) nhưng nó vẫn bị các thùy trên trùm kín. Phần trùm lên đảo của ba thùy trên được gọi là các nắp: *nắp trán* (*frontal operculum*) và *nắp đỉnh* (*parietal operculum*) ở trên và *nắp thái dương* ở dưới. *Rãnh trung tâm đảo* (*central sulcus of insula*) chia đảo thành 2 phần sau và trước. Phần sau là *hồi đảo dài* (*long gyrus of insula*). Phần trước được các rãnh nhỏ chia thành *các hồi đảo ngắn* (*short gyri of insula*). Đầu trước dưới của đảo tiếp giáp với *thềm đảo* (*limen insulae*).
 
-![Hình 4. Mặt trong đại não [12]](figures/hinh_p376_4.png)
+![Hình 4. Mặt trong đại não (12)](figures/hinh_p376_4.png)
 
 #### 1.6. Thùy viền (limbic lobe)
 
@@ -93,7 +93,7 @@ Tương tự như các phần khác của hệ thần kinh trung ương, đại 
 
 Tế bào chính trong vỏ não (có nhánh trục dài) là *các tế bào tháp* (*pyramidal cells*). Trong các tế bào tháp, tế bào tháp khổng lồ chỉ có mặt ở vùng vỏ vận động. Loại tế bào chính không điển hình là *tế bào hình thoi* (*fusiform cells*). Các tế bào khác trong vỏ như tế bào rổ, tế bào sao, tế bào Retzius - Cajal... là các nơron liên hợp.
 
-![Hình 5. Cấu trúc mô học vỏ đại não bằng phương pháp nhuộm Nissl [14]](figures/hinh_p377_5.png)
+![Hình 5. Cấu trúc mô học vỏ đại não bằng phương pháp nhuộm Nissl (14)](figures/hinh_p377_5.png)
 
 Các lớp tế bào từ nông vào sâu được đánh dấu bằng ký tự La Mã I - VI. Gồm:
 - *Lớp I: Lớp phân tử*: nơi synáp với nhau giữa các nhánh cành (của tế bào tháp) với nhánh trục (đến từ vùng vỏ khác, đồi thị); chỉ có một số ít tế bào Retzius - Cajal xen giữa.
@@ -113,7 +113,7 @@ Thùy trán có các diện vỏ vận động và các diện vỏ có vai trò
 
 Tại diện vận động thứ nhất, mỗi cơ (hay cơ ở mỗi vùng cơ thể) đều có một diện tích đại diện trên diện này, và vị trí sắp xếp của các diện tích đại diện cũng giống như vị trí sắp xếp của các cơ trên cơ thể, tức là trên hồi trước trung tâm và phần trước tiểu thùy cạnh trung tâm ta có thể vẽ lên một hình *người lùn* (*homunculus*). Hình người lùn này có 3 đặc điểm: (1) lộn ngược trên dưới: phần dưới thấp của diện vận động đại diện cho những cơ ở phần đầu mặt (cao) của cơ thể và ngược lại; (2) mất cân xứng: các cơ nhỏ nhưng vận động tinh tế như cơ nội tại ở bàn tay có diện tích đại diện rộng, có cơ lớn như cơ mông diện tích đại diện lại hẹp; (3) đảo ngược phải trái: diện vận động bên não phải chi phối cơ bên trái và ngược lại.
 
-![Hình 6. Các diện Brodmann [15]](figures/hinh_p379_6.png)
+![Hình 6. Các diện Brodmann (15)](figures/hinh_p379_6.png)
 
 **Các vùng vỏ cảm giác ở các thùy đỉnh, chẩm và thái dương**
 
@@ -123,7 +123,7 @@ Tại diện vận động thứ nhất, mỗi cơ (hay cơ ở mỗi vùng cơ 
 
 Ở thùy thái dương, mặt trên hồi thái dương trên, vốn khuất trong sàn rãnh bên và có các hồi thái dương ngang, là các diện 41 và 42; các diện này là *vỏ não thính giác thứ nhất* (*primary auditory cortex*). Mặt phẳng thái dương ở sau vỏ thính thứ nhất (vẫn trong sàn rãnh bên) cùng với phần sau của diện 22 trên mặt ngoài thùy thái dương là *vỏ liên hợp thính giác* (*auditory association cortex*). Ở hầu hết số người, diện vỏ này bên bán cầu trái được gọi là *diện Wernicke*. Tổn thương diện Wernicke thường gây thất ngôn tiếp nhận.
 
-![Hình 7. Sơ đồ các vùng cơ nhận chi phối tương ứng từ vỏ não vận động thứ nhất [15]](figures/hinh_p379_7.png)
+![Hình 7. Sơ đồ các vùng cơ nhận chi phối tương ứng từ vỏ não vận động thứ nhất (15)](figures/hinh_p379_7.png)
 
 Diện 34 ở móc hải mã và thềm đảo và diện 28 (nội khứu - entorhinal) ở hồi cạnh hải mã là các diện vỏ khứu giác.
 
@@ -131,7 +131,7 @@ Diện 34 ở móc hải mã và thềm đảo và diện 28 (nội khứu - ent
 
 Các nhân nền hay các hạch nền là các nhân xám vùi trong chất trắng và tách biệt với vỏ não. Theo các nhà giải phẫu, các nhân này bao gồm *thể vân* (*corpus striatum*), *nhân trước tường* (*claustrum*) và *phức hợp hạnh nhân* (*amygdaloid complex*), tức là tất cả các chất xám dưới vỏ. Theo chức năng và lâm sàng, thể vân cùng với nhân dưới đồi thị và chất đen của trung não được mô tả như một hệ thống có chức năng liên hệ với nhau, ngay cả khi được mô tả dưới tiêu đề "các nhân nền". Trong khi đó, chức năng của nhân trước tường chưa thật rõ, còn phức hợp hạnh nhân lại có mối liên hệ chức năng với hệ viền và được mô tả cùng với hệ viền (xem Hệ viền).
 
-![Hình 8. Thiết đồ ngang qua đại não (A) và quan hệ vị trí giữa các nhân nền và đồi thị (B) [12]](figures/hinh_p380_8.png)
+![Hình 8. Thiết đồ ngang qua đại não (A) và quan hệ vị trí giữa các nhân nền và đồi thị (B) (12)](figures/hinh_p380_8.png)
 
 Về giải phẫu, thể vân gồm *nhân đuôi* (*caudate nucleus*) và *nhân bèo* (*lentiform nucleus*). Nhân bèo gồm phần ngoài là *bèo sẫm* (*putamen*) và phần trong là *cầu nhạt* (*globus pallidus*). Về phân chia dựa theo tiếp nối và chức năng, nhân đuôi và bèo sẫm được gọi là *vân* (*striatum*) hay *tân thể vân* (*neostriatum*), còn cầu nhạt thuộc về *nhạt* (*pallidum*) hay *cựu thể vân* (*paleostriatum*). Vân tiếp nhận các sợi đến từ vỏ đại não, đồi thị và phần đặc chất đen. Trong bệnh Parkinson, vân không nhận được các sợi đến từ chất đen (mang tới dopamine). Các sợi từ vân phóng chiếu tới cả hai phần cầu nhạt và chất đen. Các sợi từ cầu nhạt phóng chiếu lên đồi thị và trung não. Con đường đồi thị - vỏ não khép kín vòng tiếp nối thần kinh từ vỏ đại não đi qua thể vân, một vòng thần kinh liên quan đến chức năng vận động.
 
@@ -149,7 +149,7 @@ Chất trắng đại não được tạo bởi ba loại nhánh trục (có mye
 
 Vòm là cấu trúc vừa chứa các sợi liên hợp vừa chứa các sợi mép. Trong đó, nó chủ yếu chứa các sợi liên hợp từ hải mã tới các vùng vỏ não khác (Xem bài Hệ viền).
 
-![Hình 9. Các sợi liên hợp ngắn (A), các sợi liên hợp dài (B và C) [14]](figures/hinh_p382_9.png)
+![Hình 9. Các sợi liên hợp ngắn (A), các sợi liên hợp dài (B và C) (14)](figures/hinh_p382_9.png)
 
 ##### 2.2.2. Các sợi mép
 
@@ -167,7 +167,7 @@ Vòm là cấu trúc vừa chứa các sợi liên hợp vừa chứa các sợi
 
 Trên thiết đồ ngang, *bao trong* (*internal capsule*) có hình chữ V với vị trí góc nhọn (gối bao trong) nằm giữa đồi thị và nhân đuôi. Bao trong thường được mô tả với năm phần là trụ trước, gối, trụ sau, phần sau bèo và phần dưới bèo. *Trụ trước* (*anterior limb*) nằm giữa nhân bèo và đầu nhân đuôi. *Gối bao* nằm trong đỉnh nhân bèo. *Trụ sau* (*posterior limb*) nằm giữa nhân bèo và đồi thị. *Phần sau bèo* (*retrolentiform part*) và *phần dưới bèo* (*sublentiform part*) chiếm các vùng nằm lần lượt sau và dưới nhân bèo (Xem bài Tủy sống).
 
-![Hình 10. Bán cầu não phải nhìn từ bên trái qua phẫu tích sợi [14]](figures/hinh_p383_10.png)
+![Hình 10. Bán cầu não phải nhìn từ bên trái qua phẫu tích sợi (14)](figures/hinh_p383_10.png)
 
 Trụ trước của bao trong chứa tia đồi thị trước (gồm các sợi nối tiếp qua lại giữa đồi thị và vỏ não) và các sợi trán - cầu đi từ vỏ não thùy trán tới các nhân của cầu não. Gối của bao trong chứa các sợi vỏ - nhân. Trụ sau của bao trong chứa các sợi vỏ - tủy (dải tháp), các sợi vỏ - lưới, vỏ - đỏ, vỏ - đồi thị, đỉnh - cầu, đồi thị - đỉnh và tia đồi thị trung tâm. Phần sau nhân bèo của bao trong chứa các sợi chẩm - cầu, chẩm - mái và tia thị (các sợi gối cựa); một số các sợi đồi thị - vỏ não. Phần dưới nhân bèo của bao trong chứa các sợi trán - cầu, thái dương - cầu và tia thính.
 

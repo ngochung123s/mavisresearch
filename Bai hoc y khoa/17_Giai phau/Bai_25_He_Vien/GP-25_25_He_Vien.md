@@ -12,7 +12,7 @@ Những cấu trúc thực hiện các chức năng của hệ viền bao gồm:
 
 ### 1. THÙY VIỀN (limbic lobe)
 
-![Hình 1. Mặt trong và mặt dưới đại não [12]](figures/hinh_p384_1.png)
+![Hình 1. Mặt trong và mặt dưới đại não (12)](figures/hinh_p384_1.png)
 
 Thùy viền là vùng não bao quanh gian não, nằm giữa gian não và phần còn lại của đại não (H.1).
 
@@ -40,11 +40,11 @@ Hồi viền là vùng não hình chữ C hay gần tròn, nằm ở mặt dư�
 
 *Các tiếp nối đến* cấu tạo hải mã bao gồm: (1) các sợi đến từ hải mã đối bên, vùng vách và gian não (qua vòm và tua hải mã); (2) các sợi từ vỏ nội khứu. Vỏ nội khứu vừa là diện vỏ khứu thứ nhất vừa là diện vỏ tiếp nhận sợi đến từ vỏ thái dương, mang đến các thông tin cảm giác đủ loại. Vỏ nội khứu truyền thông tin đến cấu tạo hải mã qua đường xuyên và qua các sợi đi qua ổ (đường ổ).
 
-![Hình 2. Hải mã và các cấu trúc lân cận (nhìn từ trên) [12]](figures/hinh_p386_2.png)
+![Hình 2. Hải mã và các cấu trúc lân cận (nhìn từ trên) (12)](figures/hinh_p386_2.png)
 
 *Các sợi đi khỏi cấu tạo hải mã* là nhánh chính các sợi trục từ hải mã và bậc. Chúng đi qua ổ rồi đi qua tua hải mã. Tua hải mã chạy hướng ra sau và lên trên, trở thành *trụ vòm* (*crus of fornix*) khi đến dưới lồi thể chai, rồi trụ vòm hợp lại với trụ đối bên thành thân vòm. *Thân vòm* (*body of fornix*) có hình tam giác nằm ở dưới thể chai và được nối với thể chai bởi vách trong suốt. Hai góc sau bên của thân vòm được nối với nhau bằng *mép vòm* (*commissure of fornix*) hay *mép hải mã* (*hippocampal commissure*) do các sợi bắt chéo nhau giữa hai trụ vòm tạo nên. Những sợi mép này đi từ hồi cạnh hải mã của bán cầu này tới cấu tạo hải mã của bán cầu đối bên. Ở ngang mức lỗ gian não thất, góc trước của thân vòm tách thành hai *cột vòm* (*columns of the fornix*) ở ngay sau mép trước. Một số sợi của cột (phần trước mép) tách ra đi vào vùng vách, phần trước hạ đồi thị và chất vô danh. Phần cột còn lại hướng xuống dưới và ra ngoài, đi qua vùng hạ đồi, cho các sợi đi vào nhân đồi thị lưng bên rồi tận cùng ở thể vú. Những sợi bắt nguồn từ bậc phần lớn sau đó tận cùng ở các nhân vú, một số vào vùng hạ đồi và đồi thị. Những sợi bắt nguồn từ hải mã thường tỏa ra vào các nhân vách, vỏ não mặt trong thùy trán, vùng hạ đồi, và nhân cạp. Thể vú phóng chiếu tới các nhân trước của đồi thị qua *bó vú thị* (*mammillothalamic fasciculus*). Nhân đồi thị trước và nhân đồi thị lưng bên có tiếp nối qua lại với hồi đai. Hồi đai có tiếp nối qua lại với hồi cạnh hải mã, trong đó có diện nội khứu.
 
-![Hình 3. Các tiếp nối nội tại ở cấu tạo hải mã [10]](figures/hinh_p387_3.png)
+![Hình 3. Các tiếp nối nội tại ở cấu tạo hải mã (10)](figures/hinh_p387_3.png)
 *(Hình 3: Vùng nội khứu (ENT - entorhinal) với các sợi xuyên đi tới hồi răng (DG - dentate gyrus); các sợi rêu từ hồi răng đi tới CA3; các sợi bên Schaffer (sợi trục) của tế bào tháp CA3 đi tới CA1; sợi trục từ CA1 đi tới bậc (SU - subiculum). Fx (fimbria): tua hải mã; CN (caudate nucleus) = nhân đuôi (phần đuôi); extrinsic afferents = các sợi đến từ bên ngoài.)*
 
 Các tổn thương của cấu tạo hải mã trên người và các quan sát thực nghiệm trên động vật cho thấy hải mã gắn liền với quá trình hình thành ký ức mới hoặc lưu trữ những ký ức vừa xảy ra. Hiện tượng này cũng tương tự ở những bệnh nhân thiếu thiamine (vitamin B1) kéo dài làm mất nơron ở hải mã. Đặc biệt trong bệnh nhân nghiện rượu, với biểu hiện của mất trí do rượu, hoặc tình trạng nặng hơn là sảng rượu: bệnh nhân nói lảm nhảm do gắn kết sai lạc các mảng ký ức bị mất liên kết. Tế bào tháp vùng CA1 của hải mã rất dễ bị chết do thiếu ô xy thời gian ngắn, gây nên tình trạng quên thoáng qua.
@@ -59,7 +59,7 @@ Dải xám chạy tiếp theo với hồi dải. Nó là một lá chất xám m
 
 Vòng nối trong thùy viền được mô tả năm 1937 bởi James Papez, do đó còn có tên gọi *vòng Papez* (*Papez circuit*) (H.4). Không kể các chặng tiếp nối nội tại của riêng cấu tạo hải mã, vòng Papez là vòng khép kín với các chặng nơron sau (5 dải sợi nối các chặng được in nghiêng): diện nội khứu của hồi cạnh hải mã - *đường xuyên và đường ổ* - cấu tạo hải mã (hồi đai - CA3 - CA1 - bậc) - *tua hải mã và vòm* - thể vú - *bó vú-đồi thị* - nhân đồi thị trước - *bao trong* - hồi đai - *bó đai* - diện nội khứu. Vòng Papez cần phải toàn vẹn ở ít nhất một bán cầu để có thể nhớ được các sự việc, sự kiện mới xảy ra. Nhưng vòng Papez toàn vẹn không phải là điều thiết yếu đối với việc hồi tưởng lại trí nhớ đã có vì chúng được lưu giữ ở nhiều vùng vỏ não.
 
-![Hình 4. Các tiếp nối của cấu tạo hải mã và thể hạnh nhân, bao gồm vòng Papez [10]](figures/hinh_p388_4.png)
+![Hình 4. Các tiếp nối của cấu tạo hải mã và thể hạnh nhân, bao gồm vòng Papez (10)](figures/hinh_p388_4.png)
 
 ### 2. PHỨC HỢP NHÂN HẠNH NHÂN (amygdaloid nuclear complex)
 
@@ -73,7 +73,7 @@ Các nhân nền bên và trung tâm có các sợi đi rời khỏi hạnh nhâ
 
 ### 3. CÁC VÙNG NÃO KHÁC THAM GIA VÀ CHỨC NĂNG CỦA HỆ VIỀN
 
-![Hình 5. Các nhân, vùng nhân và các dải chính của thùy viền [5]](figures/hinh_p390_5.png)
+![Hình 5. Các nhân, vùng nhân và các dải chính của thùy viền (5)](figures/hinh_p390_5.png)
 
 #### 3.1. Vùng hạ đồi (hypothalamus) (xem thêm bài Gian não)
 
@@ -128,7 +128,7 @@ Theo TA, các nhân nền đại não được gọi chung là *thể vân* (*co
 
 #### 3.8. Các nhân trung não (xem bài Thân não)
 
-![Hình 7. Thiết đồ qua trung não [5]](figures/hinh_p393_7.png)
+![Hình 7. Thiết đồ qua trung não (5)](figures/hinh_p393_7.png)
 
 *Vùng trần bụng* (*ventral tegmental area*) là một vùng nhân của trung não. Nó nằm gần đường giữa, phía trong so với chất đen và nhân đỏ, phía trước nhân vận nhãn (nhân thần kinh III) và chất xám quanh cống trung não. Vùng trần bụng chứa lượng lớn nơron tiết dopamine, một trung gian dẫn truyền thần kinh đặc biệt quan trọng của các kết nối trong *hệ tưởng thưởng* (*reward system*). Vùng trần bụng có kết nối phong phú với thể vân, thể hạnh nhân, các nhân vách, và đặc biệt là nhân cạp (H.7).
 

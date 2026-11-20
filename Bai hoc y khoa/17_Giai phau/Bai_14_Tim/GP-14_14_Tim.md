@@ -9,7 +9,7 @@
 
 Tim là một khối cơ rỗng có cấu tạo như là hai cái bơm đặt ở giữa các vòng tuần hoàn phổi và hệ thống. Tim phải nằm giữa đường tĩnh mạch của tuần hoàn hệ thống và đường động mạch của tuần hoàn phổi; tim trái thì ngược lại.
 
-![Hình 1. Tim ở tại chỗ, nhìn từ trước [12]](giaiphau_media/hinh_p217_1.png)  
+![Hình 1. Tim ở tại chỗ, nhìn từ trước (12)](giaiphau_media/hinh_p217_1.png)  
 *Hình 1. Tim ở tại chỗ, nhìn từ trước [12]*
 
 ---
@@ -26,7 +26,7 @@ Tim trông giống một hình tháp có bốn mặt, một đỉnh và một n�
 
 Trên bề mặt tim có một số rãnh thể hiện sự phân chia tim thành 4 buồng trên bề mặt. *Rãnh gian nhĩ* (*interatrial groove*) là rãnh nông ngăn cách mặt sau các tâm nhĩ. *Rãnh vành* (*coronary sulcus*) hay rãnh nhĩ - thất chạy vòng quanh tim ngăn cách các tâm nhĩ với các tâm thất. Rãnh này chứa các thân chính của các động mạch vành (động mạch vành phải, nhánh mũ động mạch vành trái; xoang vành, tĩnh mạch tim nhỏ) và nằm chếch trên các mặt ức - sườn và mặt hoành của tim. Tương ứng với các bờ vách gian thất, trên mặt ngoài có các rãnh gian thất đi từ rãnh vành tới khuyết đỉnh trên bờ sắc của tim. *Rãnh gian thất trước* (*anterior interventricular groove*) nằm trên mặt ức sườn, ở gần và song song với bờ tù tâm thất trái, chứa động mạch gian thất trước và tĩnh mạch tim lớn. *Rãnh gian thất sau* (*posterior interventricular groove*) nằm trên mặt hoành, chứa động mạch gian thất sau và tĩnh mạch tim giữa.
 
-![Hình 2. Tim nhìn từ trước (A) và sau (B) [1]](giaiphau_media/hinh_p218_2.png)  
+![Hình 2. Tim nhìn từ trước (A) và sau (B) (1)](giaiphau_media/hinh_p218_2.png)  
 *Hình 2. Tim nhìn từ trước (A) và sau (B) [1]*
 
 ### Đáy tim (mặt sau), đỉnh tim, các mặt và các bờ
@@ -116,7 +116,7 @@ Tiền đình động mạch chủ, hay đường ra của tâm thất trái, đ
 
 Ngoại tâm mạc gồm 2 lớp mô bao quanh tim và đoạn gần tim của các mạch máu lớn: lớp ngoài là ngoại tâm mạc sợi, lớp trong là ngoại tâm mạc thanh mạc. *Ngoại tâm mạc sợi* (*fibrous pericardium*) là một mô liên kết dai bao quanh nhưng không dính vào tim. *Ngoại tâm mạc thanh mạc* (*serous pericardium*) bao gồm một lớp tế bào dẹt nằm trên một lớp mô liên kết dưới thanh mạc mỏng; lớp này tạo thành một túi kín nằm giữa tim và ngoại tâm mạc sợi.
 
-![Hình 4. Phần sau của ngoại tâm mạc, cho thấy các đường lật giữa hai lá thanh mạc [1]](giaiphau_media/hinh_p224_4.png)  
+![Hình 4. Phần sau của ngoại tâm mạc, cho thấy các đường lật giữa hai lá thanh mạc (1)](giaiphau_media/hinh_p224_4.png)  
 *Hình 4. Phần sau của ngoại tâm mạc, cho thấy các đường lật giữa hai lá thanh mạc [1]*
 
 *Ngoại tâm mạc sợi (fibrous pericardium):*  
@@ -141,7 +141,7 @@ Mô liên kết dưới thượng tâm mạc ở các rãnh tim có nhiều mỡ
 
 Khung sợi của tim giúp duy trì tính toàn vẹn của các lỗ mà nó bao quanh và cung cấp chỗ bám cho các lá van (liên tiếp với lõi sợi của các lá van). Nó cũng là phương tiện cách điện giữa cơ tâm nhĩ và cơ tâm thất, đảm bảo cho *bó nhĩ thất* là kết nối duy nhất giữa hai khối cơ tim.
 
-![Hình 5. Mặt đáy của các tâm thất (sau khi cắt bỏ các tâm nhĩ), cho thấy các vòng sợi quanh các lỗ tim [1]](giaiphau_media/hinh_p226_5.png)  
+![Hình 5. Mặt đáy của các tâm thất (sau khi cắt bỏ các tâm nhĩ), cho thấy các vòng sợi quanh các lỗ tim (1)](giaiphau_media/hinh_p226_5.png)  
 *Hình 5. Mặt đáy của các tâm thất (sau khi cắt bỏ các tâm nhĩ), cho thấy các vòng sợi quanh các lỗ tim [1]*
 
 ### 3.3. Nội tâm mạc

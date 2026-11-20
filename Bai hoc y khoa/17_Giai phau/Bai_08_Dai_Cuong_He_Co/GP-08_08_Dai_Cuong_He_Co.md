@@ -26,7 +26,7 @@ Cơ tim chỉ có mặt ở tim và thành của các tĩnh mạch lớn ở nơ
 
 ### 1.3. Cơ trơn (smooth muscle)
 
-![Hình 1. Cấu tạo của cơ bám xương [16]](giaiphau_media/hinh_p119_1.png)
+![Hình 1. Cấu tạo của cơ bám xương (16)](giaiphau_media/hinh_p119_1.png)
 
 Cơ trơn có mặt ở thành của hầu hết các cơ quan thuộc các hệ tiêu hóa, hô hấp, tiết niệu và sinh sản, ở lớp áo giữa của thành các mạch máu, ở trong bì (như là các cơ dựng lông), ở các cơ nội tại của nhãn cầu, và ở lớp cơ dartos của bìu. Ở một số nơi, các bó cơ trơn kết hợp với cơ bám xương, ví dụ như ở các cơ thắt của hậu môn và bàng quang, ở các cơ sụn của mí trên, ở cơ treo của tá tràng, ở một vùng chuyển tiếp ở thực quản, và ở các mạc và các dây chằng trên mặt chậu hông của hoành chậu hông.
 
@@ -76,7 +76,7 @@ Cho dù có sự phân biệt giữa mạc và cân, trên thực tế vẫn có
 
 ## 4. HÌNH DẠNG VÀ KIẾN TRÚC SỢI (H.2)
 
-![Hình 2. Kiểu kiến trúc và hướng sợi cơ [15]](giaiphau_media/hinh_p123_2.png)
+![Hình 2. Kiểu kiến trúc và hướng sợi cơ (15)](giaiphau_media/hinh_p123_2.png)
 
 Có thể phân loại các cơ dựa trên hình dạng chung của chúng và hướng chiếm ưu thế của các sợi cơ so với hướng của lực kéo. Các cơ mà có phần lớn sợi song song với đường lực kéo gồm 2 loại: *loại cơ dẹt* (flat muscle), ngắn và hình tứ giác (như cơ giáp - móng), và *loại cơ như một đai dài* (ví dụ cơ ức - móng, cơ may). Ở những cơ như vậy, các sợi cơ riêng lẻ có thể chạy trên toàn bộ chiều dài cơ, hoặc chỉ chạy thành từng đoạn ngắn giữa những đường gân cắt ngang (như ở cơ thẳng bụng). Ở *cơ hình thoi* (fusiform muscle), các sợi cơ có thể là gần song song ở bụng cơ, nhưng hội tụ tới một gân ở một hoặc cả hai đầu. Khi mà các sợi cơ chếch so với đường lực kéo, các cơ có thể ở dạng *cơ tam giác* (triangle muscle) (ví dụ như cơ thái dương, cơ khép dài) hoặc có kiến trúc kiểu lông vũ. *Cơ lông vũ* (pennate muscle) biến đổi về tính phức tạp, từ *cơ lông vũ đơn* (unipennate muscle) (ví dụ như cơ gấp ngón tay cái dài) và *cơ lông vũ kép* (bipennate muscle) (ví dụ như cơ thẳng đùi, các cơ gian cốt mu tay hay mu chân) tới *cơ đa lông vũ* (multipennate muscle) (ví dụ cơ delta). Các sợi cơ có thể chạy chếch giữa các cân nông và sâu, như một dạng của cơ lông vũ đơn (ví dụ như cơ dép), hoặc các sợi cơ có thể xuất phát từ các thành của các khoang xương - mạc và chạy chếch để hội tụ về một gân trung tâm ở kiểu lông vũ vòng quanh - circumpennate (ví dụ như ở cơ chày trước). Các cơ có thể được sắp xếp theo kiểu xoắn (chẳng hạn các sợi ức - đòn của cơ ngực lớn và cơ lưng rộng vặn 180 độ giữa các đầu bám giữa và bên của chúng), hoặc có thể xoắn quanh một xương (ví dụ cơ ngửa, chạy xoắn chếch quanh đầu gần xương quay), hoặc có thể gồm hai hay nhiều mặt phẳng sợi được sắp xếp theo những hướng khác nhau, một dạng xoắn mà đôi khi được gọi là chéo chữ thập (cơ ức đòn chũm, cơ cắn và cơ khép lớn đều là những cơ có một phần xoắn và bắt chéo).
 
@@ -97,7 +97,7 @@ Mathes & Nahai (1981) đã phân loại giải phẫu mạch máu của các cơ
 
 Trong các loại cấp máu cơ nói trên, chỉ cơ loại IV không thích hợp cho lấy vạt cơ hay da cơ. Các cơ loại khác đều có thể được sử dụng trong phẫu thuật tạo hình và phục hồi dưới các hình thức khác nhau tùy loại.
 
-![Hình 3. Năm loại giải phẫu động mạch của các cơ (các type I - V) với 5 cơ làm ví dụ điển hình, lần lượt là cơ căng mạc đùi, cơ thon, cơ mông lớn, cơ may và cơ lưng rộng [15]](giaiphau_media/hinh_p125_3.png)
+![Hình 3. Năm loại giải phẫu động mạch của các cơ (các type I - V) với 5 cơ làm ví dụ điển hình, lần lượt là cơ căng mạc đùi, cơ thon, cơ mông lớn, cơ may và cơ lưng rộng (15)](giaiphau_media/hinh_p125_3.png)
 
 ## 6. SỰ CHI PHỐI THẦN KINH
 

@@ -19,7 +19,7 @@ Tiểu não nằm trong hố sọ sau, sau hành và cầu não. Mặt trên c�
 
 Vùng dọc giữa tiểu não thắt lại và được gọi là **nhộng** (*vermis*) tiểu não, và phần còn lại ở hai bên nhộng là các **bán cầu** (*hemisphere*). Phần nhộng trên như hòa lẫn vào các bán cầu nhưng nhộng dưới nằm trong một vùng trũng sâu, gọi là **thung lũng** (*vallecula*), và được phân cách rõ với bán cầu. Phần gần nhộng của các bán cầu, ở 1 - 2 cm bên ngoài nhộng, là **vùng cạnh nhộng** (*paravermal zone*).
 
-![Hình 1. Hình thể ngoài và phân chia tiểu não: nhìn từ trên (A) và dưới (B) [12]](giaiphau_media/hinh_p353_1.png)
+![Hình 1. Hình thể ngoài và phân chia tiểu não: nhìn từ trên (A) và dưới (B) (12)](giaiphau_media/hinh_p353_1.png)
 
 *Hình 1. Hình thể ngoài và phân chia tiểu não: nhìn từ trên (A) và dưới (B) [12]*
 
@@ -65,7 +65,7 @@ Tất cả các sợi trục đến tiểu não đều tách ra các nhánh bên
 
 Bốn đôi nhân nằm vùi trong chất trắng tiểu não; theo hướng từ giữa sang bên, chúng là: **nhân nóc**, **nhân cầu**, **nhân nút** và **nhân răng**.
 
-![Hình 3. Các nhân tiểu não [12]](giaiphau_media/hinh_p355_3.png)
+![Hình 3. Các nhân tiểu não (12)](giaiphau_media/hinh_p355_3.png)
 
 *Hình 3. Các nhân tiểu não [12]*
 

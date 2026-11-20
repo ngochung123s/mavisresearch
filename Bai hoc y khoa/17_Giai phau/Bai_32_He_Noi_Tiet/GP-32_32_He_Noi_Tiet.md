@@ -37,7 +37,7 @@ Tuyến yên, hay móm hạ não (hypophysis cerebri) (H.1), là một khối h�
 
 
 
-![Hình 1. Vị trí và phân chia tuyến yên [15]](giaiphau_media/hinh_p510_1.png)
+![Hình 1. Vị trí và phân chia tuyến yên (15)](giaiphau_media/hinh_p510_1.png)
 
 *Hình 1. Vị trí và phân chia tuyến yên [15]*
 
@@ -90,7 +90,7 @@ Tĩnh mạch tuyền yên (tới các xoang màng cứng)
 Phần trước tuyền yên
 
 
-![Hình 2. Mối liên hệ hạ đồi - tuyến yên qua thần kinh và hệ thống mạch cửa [15]](giaiphau_media/hinh_p512_2.png)
+![Hình 2. Mối liên hệ hạ đồi - tuyến yên qua thần kinh và hệ thống mạch cửa (15)](giaiphau_media/hinh_p512_2.png)
 
 *Hình 2. Mối liên hệ hạ đồi - tuyến yên qua thần kinh và hệ thống mạch cửa [15]*
 
@@ -101,7 +101,7 @@ Tuyền yên được cấp máu bởi động mạch tuyền yên dưới và c
 
 <!-- Hết trang 512 -->
 
-![Hình 3. Tuyến giáp, nhìn từ trước [12]](giaiphau_media/hinh_p513_3.png)
+![Hình 3. Tuyến giáp, nhìn từ trước (12)](giaiphau_media/hinh_p513_3.png)
 
 *Hình 3. Tuyến giáp, nhìn từ trước [12]*
 
@@ -165,7 +165,7 @@ Các tuyến cận giáp cả trên và dưới thường được cấp máu b�
 ![Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau]
 
 
-![Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau [12]](giaiphau_media/hinh_p516_4.png)
+![Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau (12)](giaiphau_media/hinh_p516_4.png)
 
 *Hình 4. Tuyến giáp và các tuyến cận giáp, nhìn từ sau [12]*
 
@@ -225,7 +225,7 @@ So với kích thước của nó thì tuyến thượng thận được cấp m
 
 
 
-![Hình 7. Các mạch máu của tuyến thượng thận [12]](giaiphau_media/hinh_p519_7.png)
+![Hình 7. Các mạch máu của tuyến thượng thận (12)](giaiphau_media/hinh_p519_7.png)
 
 *Hình 7. Các mạch máu của tuyến thượng thận [12]*
 

@@ -32,7 +32,7 @@ Cung của động mạch chủ chạy tiếp theo động mạch chủ lên t�
 - Phía trên: ba nhánh của cung động mạch chủ bị tĩnh mạch cánh tay đầu trái bắt chéo trước.
 - Phía dưới: chỗ chẽ đôi động mạch phổi, phế quản chính trái, dây chằng động mạch và thần kinh thanh quản quặt ngược trái (nằm ở bên trái dây chằng động mạch).
 
-![Hình 1. Cung động mạch chủ và động mạch chủ ngực [12]](giaiphau_media/hinh_p234_1.png)
+![Hình 1. Cung động mạch chủ và động mạch chủ ngực (12)](giaiphau_media/hinh_p234_1.png)
 
 *Hình 1. Cung động mạch chủ và động mạch chủ ngực [12]*
 
@@ -77,7 +77,7 @@ Có ba nhánh tách từ mặt trên (mặt lồi) của cung động mạch ch�
   3. *Các nhánh cơ* cho các cơ gian sườn, các cơ ngực và cơ răng trước, tiếp nối với các nhánh ngực trên và ngoài của động mạch nách.
   4. *Nhánh bì bên* (*lateral cutaneous branch*) đi cùng tĩnh mạch và nhánh bì bên của thần kinh gian sườn thành bó mạch - thần kinh. Các bó này xuyên qua các cơ gian sườn và hiện ra giữa các chẽ của cơ răng trước và cơ chéo bụng ngoài, mỗi nhánh lại chia thành các nhánh sau và trước cho da mặt bên ngực.
 
-![Hình 2. Các nhánh bên của động mạch chủ ngực [1]](giaiphau_media/hinh_p237_2.png)
+![Hình 2. Các nhánh bên của động mạch chủ ngực (1)](giaiphau_media/hinh_p237_2.png)
 
 *Hình 2. Các nhánh bên của động mạch chủ ngực [1]*
 
@@ -93,7 +93,7 @@ Có ba nhánh tách từ mặt trên (mặt lồi) của cung động mạch ch�
 
 #### Nguyên uỷ, đường đi và tận cùng
 
-![Hình 3. Động mạch chủ bụng và tĩnh mạch chủ dưới [12]](giaiphau_media/hinh_p238_3.png)
+![Hình 3. Động mạch chủ bụng và tĩnh mạch chủ dưới (12)](giaiphau_media/hinh_p238_3.png)
 
 *Hình 3. Động mạch chủ bụng và tĩnh mạch chủ dưới [12]*
 
@@ -138,7 +138,7 @@ Các tĩnh mạch cánh tay đầu phải và trái nằm ngay sau tuyến ức.
 
 Hệ tĩnh mạch đơn bao gồm các các tĩnh mạch nằm dọc hai bên cột sống ngực, thu máu từ thành ngực, thực quản, phế quản và màng ngoài tim rồi đổ vào tĩnh mạch chủ trên. Có sự tiếp nối giữa hai bên ngực với các tĩnh mạch thành bụng. Hệ tĩnh mạch đơn đóng vai trò là một kênh tuần hoàn bên quan trọng để dẫn máu từ phần dưới của thân mình đến tim khi tĩnh mạch chủ dưới bị chặn. Các tĩnh mạch chính ở hệ này gồm: tĩnh mạch đơn ở bên phải, các tĩnh mạch bán đơn và bán đơn phụ ở bên trái. Có sự biến đổi nhiều về nguyên uỷ, đường đi, các nhánh, tiếp nối và tận cùng của các mạch này.
 
-![Hình 4. Hệ tĩnh mạch đơn [1]](giaiphau_media/hinh_p242_4.png)
+![Hình 4. Hệ tĩnh mạch đơn (1)](giaiphau_media/hinh_p242_4.png)
 
 *Hình 4. Hệ tĩnh mạch đơn [1]*
 
@@ -169,6 +169,6 @@ Máu tĩnh mạch từ dạ dày, ruột, tuỵ, lách và túi mật (do các �
 
 Tĩnh mạch cửa được tạo bởi **tĩnh mạch lách** (*splenic vein*) và **tĩnh mạch mạc treo tràng trên** (*superior mesenteric vein*) ở sau cổ tuỵ tại ngang mức đốt sống thắt lưng II. Tĩnh mạch chạy lên ở sau của phần trên của tá tràng và đi vào bờ phải của mạc nối nhỏ. Trong mạc nối nhỏ, nó đi trước lỗ mạc nối, nằm sau đường mật và động mạch gan. Khi tới cửa gan, nó chia thành các nhánh phải và trái. Hai nhánh này (dẫn máu chứa các chất hấp thu được từ ống tiêu hoá về gan để gan chế biến) cùng các nhánh của động mạch gan (dẫn máu giàu oxy tới nuôi gan) đi vào trong gan và phân chia nhỏ dần tới mạng lưới mao mạch của gan. Các nhánh đổ vào tĩnh mạch cửa là: tĩnh mạch vị phải và trái, tĩnh mạch túi mật, các tĩnh mạch cạnh rốn.
 
-![Hình 5. Hệ tĩnh mạch cửa và các vòng nối cửa - chủ [1]](giaiphau_media/hinh_p244_5.png)
+![Hình 5. Hệ tĩnh mạch cửa và các vòng nối cửa - chủ (1)](giaiphau_media/hinh_p244_5.png)
 
 *Hình 5. Hệ tĩnh mạch cửa và các vòng nối cửa - chủ [1]*

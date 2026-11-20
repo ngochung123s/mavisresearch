@@ -10,7 +10,7 @@ Gian não (*diencephalon*) và đoan não (*telencephalon*) cùng nhau tạo nê
 
 Gian não được chia thành bốn phần: đồi thị, vùng trên đồi thị, vùng hạ đồi thị và vùng dưới đồi thị. Đồi thị (*thalamus*) còn được gọi là *đồi thị lưng* (*dorsal thalamus*); vùng dưới đồi (*subthalamus*) còn được gọi là *đồi thị bụng* (*ventral thalamus*).
 
-![Hình 1. Thiết đồ đứng ngang của gian não và đại não [15]](figures/hinh_p362_1.png)
+![Hình 1. Thiết đồ đứng ngang của gian não và đại não (15)](figures/hinh_p362_1.png)
 
 ### 1. ĐỒI THỊ (thalamus)
 
@@ -18,7 +18,7 @@ Gian não được chia thành bốn phần: đồi thị, vùng trên đồi th
 
 Là phần lớn nhất của gian não, đồi thị là một khối nhân hình trứng nằm ở đầu trước trên của thân não. Nó có chiều trước sau, khoảng 4 cm, đi từ lỗ gian não thất tới mép sau và chiều giữa bên đi từ não thất ba tới mặt trong của trụ sau bao trong. Đồi thị nằm trên rãnh hạ đồi, một rãnh nông ở thành bên não thất ba. Các phần sau và bên của đồi thị phình to và nằm trên các gò trên của trung não.
 
-![Hình 2. Đồi thị và gian não nhìn từ trên [13]](figures/hinh_p363_2.png)
+![Hình 2. Đồi thị và gian não nhìn từ trên (13)](figures/hinh_p363_2.png)
 
 Mặt trên của đồi thị trải rộng từ bờ trên trong tới chỗ tiếp giáp với thân nhân đuôi ở phía ngoài và tạo nên sàn của phần trung tâm não thất bên. *Vân tủy đồi thị* (*stria medullaris thalami*) nằm dọc bờ trong của mặt trên, còn *vân tận* (*stria terminalis*) và tĩnh mạch đồi vân nằm dọc chỗ tiếp nối đồi thị và nhân đuôi (H.2).
 
@@ -60,7 +60,7 @@ Mặt ngoài đồi thị, nơi có nhân lưới, tiếp giáp với bao trong 
 | **4. Các nhân nội lá** (*intralaminar nuclei*), bao gồm cả các nhân trung tâm giữa, cận bó và trung tâm bên | Các nhân cholinergic và trung tâm của cấu tạo lưới, vết lục, các nhánh bên từ các dải tủy - đồi thị và sinh ba - đồi thị, các nhân cạnh cánh tay, các nhân tiểu não, nhạt | Phóng chiếu rộng lên vỏ não, đặc biệt là các thùy trán và đỉnh; vân | Kích thích vỏ đại não trong tình trạng thức tỉnh và khuấy động từ giấc ngủ; cảm giác thân thể, đặc biệt là đau, từ nửa người đối bên; kiểm soát vận động. |
 | **5. Nhân lưới** (*reticular nucleus*) | Nhánh bên của các sợi trục đồi thị - vỏ và vỏ - đồi thị | Tới mỗi nhân đồi thị mà phóng chiếu sợi tới nhân lưới | Điều hòa ức chế sự dẫn truyền đồi thị - vỏ |
 
-![Hình 3. Các nhân của đồi thị [15]](figures/hinh_p366_3.png)
+![Hình 3. Các nhân của đồi thị (15)](figures/hinh_p366_3.png)
 *(Hình 3: Anterior = Các nhân trước; DM = Nhân giữa lưng; LD = Nhân bên lưng; LP = Nhân bên sau; Pulvinar = Đồi chẩm; VA = Nhân bụng trước; VL = Nhân bụng bên; VPL = Nhân bụng sau bên; VPM = Nhân bụng sau giữa; LGN = Thể gối bên; MGN = Thể gối giữa; CM = Nhân trung tâm giữa (nội lá).)*
 
 Các nhân đồi thị (bụng sau, thể gối giữa, thể gối bên) tiếp nhận các sợi cảm giác thân thể và giác quan từ tủy sống và thân não đi lên, trừ khứu giác, rồi chuyển tiếp lên các vùng vỏ cảm giác và giác quan khác nhau. Một số nhân đồi thị (bụng trước, bụng bên) cũng tiếp nhận các sợi đến từ tiểu não và nhân nền rồi phóng chiếu lên các vùng vỏ vận động, qua đó tham gia vào các chức năng vận động. Đồi thị có các tiếp nối qua lại với các vùng vỏ đại não. Các tiếp nối của đồi thị với vùng vú của hạ đồi thị, với phức hợp hạnh nhân và cấu tạo hải mã thuộc về hệ thống chức năng của hệ viền. Các nhân nội lá nằm trong hệ thống thức tỉnh; nhân lưới có vai trò điều hòa sự dẫn truyền đồi thị - vỏ.
@@ -95,7 +95,7 @@ Vùng trên đồi còn bao gồm cả *mép sau* (*posterior commissure*), *vù
 
 Vùng hạ đồi bao quanh phần não thất ba kể từ các rãnh hạ đồi thị trở xuống. Trên mặt bụng của gian não và vùng hạ đồi, ta nhìn thấy giao thoa thị giác ở trước và các thể vú ở sau. Vùng giữa hai cấu trúc này là *củ xám* (*tuber cinereum*) với hai dải thị giác ở hai bên. Vùng giữa củ xám lồi lên thành *lồi giữa* (*median eminence*), nơi có ngách phễu của não thất ba đi vào. Lồi giữa thuôn lại như một phễu rồi trở thành *cuống phễu* (*infundibular stem*). Cuống phễu liên tiếp với thùy sau (thùy thần kinh) tuyến yên. Thùy sau tuyến yên cùng với cuống phễu và lồi giữa tạo nên *mỏm hạ não thần kinh* (*neurohypophysis*). Thùy trước và thùy giữa tuyến yên cùng phần biểu mô tuyến yên bao quanh lồi giữa và cuống phễu (gọi là *phần củ*) tạo nên *mỏm hạ não tuyến* (*adenohypophysis*). Mỏm hạ não tuyến cùng mỏm hạ não thần kinh tạo nên *mỏm hạ não* (*hypophysis*). Cuống phễu cùng với phần củ và các tĩnh mạch của hệ cửa mỏm hạ não tạo nên cuống tuyến yên. Giới hạn trước của vùng hạ đồi là *lá tận* (*lamina terminalis*) ở thành trước não thất ba, đi từ giao thoa thị giác tới mép trước.
 
-![Hình 4. Các nhân của vùng hạ đồi thị [15]](figures/hinh_p368_4.png)
+![Hình 4. Các nhân của vùng hạ đồi thị (15)](figures/hinh_p368_4.png)
 *(Hình 4: AC = Mép trước; Optic chiasm = Giao thoa thị giác; Fornix = Vòm; MB = Thể vú; Inf = Phễu; Pr = Các nhân trước thị; Sc = Nhân trên chéo thị giác; SO = Nhân trên thị; An = Nhân hạ đồi thị trước; PV = Nhân quanh não thất; Ar = Nhân cung; VM = Nhân bụng giữa; DM = Nhân lưng giữa; MB = Các nhân thể vú; Po = Nhân hạ đồi thị sau; L = Nhân hạ đồi thị bên.)*
 
 Từ sau ra trước, hạ đồi thị được chia thành bốn vùng:
@@ -126,5 +126,5 @@ Thành dưới từ giao thoa thị giác chạy ra sau qua vùng lồi giữa v
 
 Thành sau, từ trên xuống, có *ngách trên tùng* (*suprapineal recess*), mép cương, *ngách tùng* (*pineal recess*) và mép sau.
 
-![Hình 5. Não thất ba [15]](figures/hinh_p370_5.png)
+![Hình 5. Não thất ba (15)](figures/hinh_p370_5.png)
 *(Hình 5: 1 = Ngách phễu; 2 = Ngách trên thị; 3 = Ngách trước; 4 = Ngách trên tùng; 5 = Ngách tùng; I = dính gian đồi thị; HS = Rãnh hạ đồi thị.)*

@@ -54,7 +54,7 @@ Bộ xương người trưởng thành gồm 206 xương và được chia thàn
 
 **Bộ xương treo** (appendicular skeleton) bao gồm 126 xương: 64 xương chi trên và 62 xương chi dưới. Mỗi chi trên có 32 xương, gồm 2 xương của đai ngực: xương đòn và xương vai; và 30 xương của phần tự do: xương cánh tay, xương quay, xương trụ, 8 xương cổ tay, 5 xương đốt bàn tay và 14 xương đốt ngón tay. Mỗi chi dưới có 31 xương, gồm xương chậu (cùng với xương cùng tạo nên đai hông) và 30 xương của phần tự do: xương đùi, xương bánh chè, xương chày, xương mác, 7 xương cổ chân, 5 xương đốt bàn chân và 14 xương đốt ngón chân.
 
-![Hình 1. Các phần của bộ xương người [16]](figures/hinh_p033_1.png)
+![Hình 1. Các phần của bộ xương người (16)](figures/hinh_p033_1.png)
 
 ### 5. MẠCH MÁU VÀ THẦN KINH CỦA XƯƠNG
 
@@ -86,11 +86,11 @@ Phần sụn trong ở đầu xương sẽ trở thành sụn khớp nếu vùng
 
 Gãy xương (fracture) (H.2) là tổn thương làm mất tính liên tục của xương. Xương có thể gãy không hoàn toàn, một bên gãy, một bên cong, gọi là *gãy cành tươi* (greenstick fracture). Khi gãy hoàn toàn, phần mềm chỗ gãy có thể không bị rách và vẫn che kín các đầu xương gãy, gọi là *gãy kín* (closed fracture), hoặc rách và làm hở các đầu xương gãy, gọi là *gãy hở* (open fracture). Có khi gãy xương chỉ là một đường gãy chia xương thành 2 đoạn nhưng có thể cả một đoạn xương bị vỡ nát thành nhiều mảnh, gọi là *gãy vụn* (comminuted fracture).
 
-![Hình 2. Gãy xương [16]](figures/hinh_p036_2.png)
+![Hình 2. Gãy xương (16)](figures/hinh_p036_2.png)
 
 Để chữa gãy xương, đầu tiên phải *nắn* (reduction) cho các đoạn xương thẳng lại với nhau như trước khi gãy, sau đó phải bất động các đoạn gãy bằng cố định, có thể là *cố định trong* (internal fixation) hoặc *cố định ngoài* (external fixation). Trong cố định trong, có thể dùng nẹp, vít hay chỉ thép cố định ở mặt ngoài hoặc dùng đinh đóng vào ổ tủy. Cố định ngoài bằng bó bột, nẹp, băng chun hoặc thiết bị cố định ngoài.
 
-![Hình 3. Các giai đoạn liền xương [16]](figures/hinh_p036_3.png)
+![Hình 3. Các giai đoạn liền xương (16)](figures/hinh_p036_3.png)
 
 Liền xương gãy là một quá trình dài (H.3). Đầu tiên, trong vòng 8 giờ, hình thành một khối tụ máu ở khe giữa các đầu xương gãy. Các tế bào xương bị chết cùng khối máu tụ kích thích phản ứng viêm thu hút các đại thực bào đến dọn sạch ổ tế bào chết. Trong thời gian khoảng 3 tuần, các nguyên bào sợi từ màng ngoài xương xâm nhập ổ gãy và sản xuất ra các sợi collagen; đồng thời, các tế bào sinh xương từ màng ngoài xương biến thành tế bào sụn và tạo ra mô sụn. Các sự kiện này dẫn tới sự hình thành can (callus) sụn sợi, một khối mô sợi và sụn bắc cầu giữa các đầu xương gãy. Sau đó, can sụn sợi được các tạo cốt bào biến thành xương xốp và cầu nối các đầu xương gãy lúc này được gọi là can xương (mất khoảng 3 tới 4 tháng). Cuối cùng, can xương được sửa chữa, cầu xương xốp được biến thành xương đặc.
 
@@ -112,13 +112,13 @@ Mô liên kết tạo nên các khớp có thể vẫn là một khối đặc n
 
 Khi sự tăng trưởng của sọ ngừng lại, các tế bào sinh xương cốt hóa nốt mô sợi của đường khớp, dẫn tới sự tịt lại của đường khớp gọi là sự dính xương. Đường khớp rộng lúc mới sinh, sẽ hẹp lại dần và trở thành bất động. Các bờ xương tiếp khớp có các dạng hình học không đều (lồi lõm) theo kiểu hỗ tương để có thể lồng gài vào nhau và làm tăng tính bất động. Ngay cả ở những đường khớp được gọi là *đường khớp phẳng* (plane suture), như ở khớp gian xương hàm trên, các bờ xương tiếp khớp cũng xù xì và không đều nhau; đường khớp dọc giữa hai xương đỉnh và đường khớp vành giữa xương trán với các xương đỉnh là những *đường khớp kiểu răng cưa* (serrate sutures); đường khớp lamda giữa xương chẩm với hai xương đỉnh là *đường khớp kiểu răng* (dentate sutures), có những mỏm gài vào nhau như răng; đường khớp thái dương đỉnh là *đường khớp xiên* hay *khớp vảy* (limbus/squamous suture), nơi các bờ xương vát chờm lên nhau.
 
-![Hình 4. Đường khớp [16]](figures/hinh_p038_4.png)
+![Hình 4. Đường khớp (16)](figures/hinh_p038_4.png)
 
 #### 1.2. Khớp chằng (syndesmosis) và màng gian cốt (interosseous membrane)
 
 Khớp chằng là loại khớp sợi mà ở đó các bề mặt xương được liên kết với nhau bằng một dây chằng gian cốt ngắn, như ở khớp sợi chày mác dưới. Kiểu khớp chằng này có thể gặp ở các dây chằng cùng chậu gian cốt, các dây chằng gian cốt giữa các xương cổ tay, các xương cổ chân. Ở cột sống, các dây chằng dọc trước, dọc sau, vàng, gian gai, trên gai, gian ngang... đều được coi là các khớp chằng.
 
-![Hình 5. Khớp răng - huyệt răng [16]](figures/hinh_p038_5.png)
+![Hình 5. Khớp răng - huyệt răng (16)](figures/hinh_p038_5.png)
 
 *Khớp răng - huyệt răng* (gomphosis) là một loại khớp chằng, cố định các răng vào các ổ huyệt răng của các xương hàm. Mô collagen của dây chằng quanh răng kết nối cement răng với xương ổ răng.
 
@@ -144,7 +144,7 @@ Các khớp sụn sợi cho phép một cử động hạn chế giữa các xư
 
 Khác với các khớp không có ổ khớp, các khớp hoạt dịch có ổ hoạt dịch để ngăn cách mặt khớp của các xương. Lớp xơ bao khớp và các dây chằng tuy nối các xương với nhau nhưng chỉ bao quanh ổ khớp mà không xen vào giữa các mặt khớp. Khớp hoạt dịch là *khớp động* (diarthrosis).
 
-![Hình 6. Sơ đồ mặt cắt dọc qua khớp hoạt dịch [16]](figures/hinh_p040_6.png)
+![Hình 6. Sơ đồ mặt cắt dọc qua khớp hoạt dịch (16)](figures/hinh_p040_6.png)
 
 #### 3.1. Các mặt khớp (articular surfaces)
 
@@ -212,7 +212,7 @@ Dựa vào dạng hình học mặt khớp, có thể chia khớp hoạt dịch 
 
 *Khớp cầu* (spheroidal joint) hay *khớp chỏm - và - ổ* (ball-and-socket joint) là loại khớp nhiều trục. Về cấu tạo, mặt khớp ở một xương là một chỏm, ở xương kia là một hõm hình chén, cả chỏm và hõm có thể được coi như những phần của các mặt cầu lồi và lõm cho dù cũng hơi có hình trứng. Các khớp cầu có cấp độ tự do cao nhất với ba trục chuyển động: gấp - duỗi, giạng - khép và xoay. Các ví dụ về khớp cầu là khớp vai và khớp hông.
 
-![Hình 7. Các loại khớp hoạt dịch [16]](figures/hinh_p044_7.png)
+![Hình 7. Các loại khớp hoạt dịch (16)](figures/hinh_p044_7.png)
 
 *Khớp yên* (saddle joint) là loại khớp mà mặt khớp ở mỗi xương có một diện lồi và một diện lõm. Khi khớp vào nhau, diện lõm xương này khớp với diện lồi xương kia và ngược lại, theo kiểu quan hệ hỗ tương. Tại khớp yên có thể làm các cử động gấp - duỗi, giạng - khép. Ví dụ điển hình về khớp yên là khớp cổ tay - đốt bàn tay của ngón tay cái. Các khớp khác bao gồm khớp cổ chân và khớp gót hộp.
 

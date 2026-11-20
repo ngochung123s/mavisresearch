@@ -17,7 +17,7 @@ Phần lớn mắt và các cấu trúc mắt phụ nằm trong hai ổ mắt (o
 
 
 
-![Hình 1. Ổ mắt xương và trục thị giác [1]](giaiphau_media/hinh_p492_1.png)
+![Hình 1. Ổ mắt xương và trục thị giác (1)](giaiphau_media/hinh_p492_1.png)
 
 *Hình 1. Ổ mắt xương và trục thị giác [1]*
 
@@ -49,7 +49,7 @@ Nhãn cầu có ba lớp áo bọc lấy các thành phần dựng trong (H.2), 
 
 Giác mạc, phần trong suốt phía trước, là phần đầu tiên của nhãn cầu cho ánh sáng khúc xạ qua (H.2). Nó liên tiếp với cũng mạc ở sau tại chỗ nối giác mạc - cũng mạc (corneoscleral junction) hay còn gọi là viền (bờ) giác mạc (corneal limbus). Tại vị trí tiếp nối này, trên bề mặt của nhãn cầu có một rãnh nhỏ gọi là rãnh cũng mạc (scleral sulcus) (H.3). Độ dày của giác mạc tăng dần từ trung tâm về phía ngoài vi vi tại viền giác mạc các lớp của kết mạc hòa vào và trở thành một phần của thượng mô giác mạc.
 
-![Hình 2. Các lớp áo của nhãn cầu [1]](giaiphau_media/hinh_p493_2.png)
+![Hình 2. Các lớp áo của nhãn cầu (1)](giaiphau_media/hinh_p493_2.png)
 
 *Hình 2. Các lớp áo của nhãn cầu [1]*
 
@@ -66,7 +66,7 @@ Cứng mạc là lớp dai bền giúp định hình và bảo vệ nhãn cầu.
 
 Bề mặt cứng mạc có màu trắng và nhẵn, tiếp xúc với mật trong của bao mạc của nhãn cầu. Ở phía sau, cứng mạc liên tiếp với bao sợi của thần kinh thị giác và kéo dài ra sau để liên tiếp với màng cứng. Phần cứng mạc bị thần kinh thị giác và các mạch trong tâm võng mạc chọc qua được gọi là *mành (lá) sàng cứng mạc* (lamina cribrosa of sclera) và là nơi yếu nhất của cứng mạc. Gần với mành sàng cứng mạc có một số lỗ nhỏ cho các mạch và thần kinh mi chạy qua. Ngày phía sau đường xích đạo có bốn lỗ nhỏ cho các *tĩnh mạch xoáy* (vorticose veins) chui qua (các H.2 và 4).
 
-![Hình 3. Các cấu trúc quanh góc bè nền mống mắt - giác mạc [12]](giaiphau_media/hinh_p494_3.png)
+![Hình 3. Các cấu trúc quanh góc bè nền mống mắt - giác mạc (12)](giaiphau_media/hinh_p494_3.png)
 
 *Hình 3. Các cấu trúc quanh góc bè nền mống mắt - giác mạc [12]*
 
@@ -84,7 +84,7 @@ Về cấu trúc, cùng mạc được tạo bởi mô collagen dày đặc. Cá
 
 Mạc mạc chiếm hầu hết phần sau phía sau của nhãn cầu và được gắn lỏng lẻo vào mặt trong của cùng mạc. Nó cũng bị chọc thủng bởi thân kinh thị giác và tại vị trí này, nó dính chặt vào cùng mạc và liên tiếp với màng mờ bọc quanh thân kinh thị giác (các H.2 và 4).
 
-![Hình 4. Các phần của áo mạch [12]](giaiphau_media/hinh_p495_4.png)
+![Hình 4. Các phần của áo mạch (12)](giaiphau_media/hinh_p495_4.png)
 
 *Hình 4. Các phần của áo mạch [12]*
 
@@ -201,7 +201,7 @@ Các cơ thẳng
 
 Có 4 cơ thẳng: cơ thẳng trong (medial rectus), cơ thẳng dưới (inferior rectus), cơ thẳng ngoài (lateral rectus) và cơ thẳng trên (superior rectus). Chúng đều có đầu nguyên ủy bám vào vòng gân chung (common tendinous ring) và từ đó chạy ra trước bám vào cùng mặt ở sau viền giác mạc. Vòng gân chung quây xung quanh ống thần kinh thị giác và đầu trong của khe mắt trên.
 
-![Hình 8. Các cơ ngoài nhãn cầu [1]](giaiphau_media/hinh_p501_8.png)
+![Hình 8. Các cơ ngoài nhãn cầu (1)](giaiphau_media/hinh_p501_8.png)
 
 *Hình 8. Các cơ ngoài nhãn cầu [1]*
 
@@ -217,7 +217,7 @@ Cơ chéo trên kéo mắt sau nhận cầu lên trên và vào trong, tức là
 
 Ngoài các cơ thuộc loại cơ xương, nhóm cơ ngoài nhận cầu còn có các cơ trợ nhó. Cơ sụn trên (superior tarsal muscle) từ mặt dưới cơ nâng mí trên tới bám vào bờ trên của sụn mí trên, có tác dụng kéo mí trên lên. Cơ sụn dưới (inferior tarsal muscle) nối bờ dưới sụn mí dưới tới bao cơ thẳng dưới và cơ chéo dưới để hạ mí dưới (khi nhìn xuống). Cơ ô mắt (orbitalis) bọc cầu qua khe ô mắt dưới giúp đẩy nhận cầu ra trước.
 
-![Hình 9. Cử động của các cơ ngoài nhãn cầu [1]](giaiphau_media/hinh_p502_9.png)
+![Hình 9. Cử động của các cơ ngoài nhãn cầu (1)](giaiphau_media/hinh_p502_9.png)
 
 *Hình 9. Cử động của các cơ ngoài nhãn cầu [1]*
 
@@ -258,7 +258,7 @@ Tuyến lệ gồm phần *ô mắt* (orbital part) và *phần mí* (palpebral 
 
 Các tiểu quản lệ dài khoảng 10 mm. Chúng bắt đầu từ các điểm lệ và chạy vào trong để đổ vào phần trên của túi lệ (lacrimal sac).
 
-![Hình 10. Cấu tạo của mi mắt và các mạc của ổ mắt [1]](giaiphau_media/hinh_p504_10.png)
+![Hình 10. Cấu tạo của mi mắt và các mạc của ổ mắt (1)](giaiphau_media/hinh_p504_10.png)
 
 *Hình 10. Cấu tạo của mi mắt và các mạc của ổ mắt [1]*
 
@@ -280,7 +280,7 @@ Các động mạch mi sau ngần chui vào trong nhân cầu để phân nhánh
 
 Động mạch trung tâm võng mạc cấp máu cho các lớp trong của võng mạc. Sau khi chui qua lá sàng cùng mạc tại vị trí của đĩa thần kinh thị giác, nó chia thành các nhánh trên và dưới, mỗi nhánh này lại chia thành hai nhánh chạy về phía mũi và phía
 
-![Hình 11. Bộ lệ và các cấu trúc liên quan [1]](giaiphau_media/hinh_p505_11.png)
+![Hình 11. Bộ lệ và các cấu trúc liên quan (1)](giaiphau_media/hinh_p505_11.png)
 
 *Hình 11. Bộ lệ và các cấu trúc liên quan [1]*
 
@@ -296,7 +296,7 @@ Máu tĩnh mạch của nhãn cầu được đưa về vòng tuần hoàn theo 
 
 Với các cấu trúc mắt phụ, máu nuôi động các cấu trúc này đi theo các tĩnh mạch tùy hành động mạch để trở về các tĩnh mạch mắt hoặc các tĩnh mạch hàm trên.
 
-![Hình 12. Cấp máu cho mắt và các cấu trúc mắt phụ [12]](giaiphau_media/hinh_p506_12.png)
+![Hình 12. Cấp máu cho mắt và các cấu trúc mắt phụ (12)](giaiphau_media/hinh_p506_12.png)
 
 *Hình 12. Cấp máu cho mắt và các cấu trúc mắt phụ [12]*
 
@@ -315,7 +315,7 @@ Các cơ ngoài nhãn cầu được chi phối bởi các thần kinh sọ III,
 
 Gây xương ở mắt. Ở mắt xương để bị vỡ trong chấn thương vùng mắt. Các gãy xương của xương trán, xương hàm trên, xương gò má có thể đi kèm vỡ và/hoặc di lệch nhãn cầu. Vỡ sàn ổ mắt có thể làm cơ chéo dưới cùng mô mềm ổ mắt tụt xuống xoang hàm trên, khiến cho nhãn cầu bị lõm xuống. Vỡ thành trong của ổ mắt có thể khiến thông ổ mắt với các tiểu xoang sàng mà dầu hiệu nhận biết là cảm giác tăng áp lực trong ổ mắt khi bệnh nhân xì mũi. Viêm nhiễm cũng có thể lan giữa các khoang rỗng vùng mắt qua các chỗ thông nối sau chấn thương này.
 
-![Hình 13. Thần kinh của mắt và các cấu trúc mắt phụ [12]](giaiphau_media/hinh_p507_13.png)
+![Hình 13. Thần kinh của mắt và các cấu trúc mắt phụ (12)](giaiphau_media/hinh_p507_13.png)
 
 *Hình 13. Thần kinh của mắt và các cấu trúc mắt phụ [12]*
 

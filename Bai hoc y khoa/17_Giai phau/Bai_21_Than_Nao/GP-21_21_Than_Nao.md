@@ -11,7 +11,7 @@ Thân não bao gồm, từ dưới lên, **hành não**, **cầu não** và **tr
 
 Mặt sau và các mặt bên thân não được che lấp bởi đại não và tiểu não. Thân não là nơi các dải sợi chạy qua để có thể từ tủy sống đi lên được tiểu não và đại não hoặc từ đại não đi xuống được tiểu não và tủy sống. Thân não có 10 thần kinh sọ và các nhân, các dải sợi riêng.
 
-![Hình 1. Thân não, nhìn từ phía sau bên [12]](giaiphau_media/hinh_p340_1.png)
+![Hình 1. Thân não, nhìn từ phía sau bên (12)](giaiphau_media/hinh_p340_1.png)
 
 *Hình 1. Thân não, nhìn từ phía sau bên [12]*
 
@@ -23,7 +23,7 @@ Mặt sau và các mặt bên thân não được che lấp bởi đại não v�
 
 Hành não là phần dưới cùng của thân não, dài khoảng 3 cm, đi từ chỗ tiếp nối với tủy sống ở ngang bờ trên đốt đội đến chỗ tiếp nối với cầu não, mà ở phía trước là một rãnh ngăn rõ rệt gọi là **rãnh hành cầu** (*bulbopontine sulcus*). Hành não nằm giữa tiểu não ở phía sau và dốc nền xương chẩm ở phía trước. Ống trung tâm tủy sống kéo dài lên trên vào nửa dưới hành não, rồi mở rộng ra ở nửa trên hành não thành não thất bốn. Phần hành não dưới chứa ống trung tâm gọi là **hành não đóng** và phần hành não trên, rộng hơn, chứa nửa dưới não thất bốn gọi là **hành não mở**.
 
-![Hình 2. Thân não, nhìn từ trước [12]](giaiphau_media/hinh_p341_2.png)
+![Hình 2. Thân não, nhìn từ trước (12)](giaiphau_media/hinh_p341_2.png)
 
 *Hình 2. Thân não, nhìn từ trước [12]*
 
@@ -62,11 +62,11 @@ Hành não là phần dưới cùng của thân não, dài khoảng 3 cm, đi t�
   * **Các nhân tiền đình** (*vestibular nuclei*) (các H.6 và 7): Nằm dưới diện tiền đình của hố trám. Nhân trên nằm ở cầu não; các nhân dưới, ngoài và trong nằm ở hành não. Hầu hết sợi trong thần kinh tiền đình tận cùng ở các nhân tiền đình; một số ít vào tiểu não qua cuống tiểu não dưới. Các nhân tiền đình phóng chiếu nhánh trục tới tiểu não qua cuống tiểu não dưới. Có hai nhân tiền đình phóng chiếu xuống tủy sống: Các sợi từ nhân tiền đình ngoài đi xuống qua dải tiền đình - tủy; các sợi tiền đình - tủy từ nhân tiền đình trong đi xuống qua bó dọc giữa.
   * **Nhân và dải tủy thần kinh V** (các H.3 - 7): Các sợi của rễ cảm giác thần kinh V sau khi đi vào cầu não thì đi xuống hành não tới tận đầu trên tủy sống. Chúng tạo nên **dải tủy thần kinh sinh ba** (*spinal trigeminal tract*). Dải tủy cũng chứa các sợi cảm giác thân thể của các thần kinh VII, IX và X. Các sợi của dải tủy tận cùng ở một nhân chạy dọc ở bên trong gọi là **nhân tủy thần kinh V** (*spinal trigeminal nucleus*). Nhân tủy là nơi xuất phát của dải sinh ba - đồi thị.
 
-![Hình 3. Thiết đồ qua hành não ở chỗ chuyển tiếp hành não - tủy sống và bắt chéo tháp [13]](giaiphau_media/hinh_p343_3.png)
+![Hình 3. Thiết đồ qua hành não ở chỗ chuyển tiếp hành não - tủy sống và bắt chéo tháp (13)](giaiphau_media/hinh_p343_3.png)
 
 *Hình 3. Thiết đồ qua hành não ở chỗ chuyển tiếp hành não - tủy sống và bắt chéo tháp [13]*
 
-![Hình 4. Thiết đồ hành não ở ngang mức nhân thon và nhân chêm [13]](giaiphau_media/hinh_p343_4.png)
+![Hình 4. Thiết đồ hành não ở ngang mức nhân thon và nhân chêm (13)](giaiphau_media/hinh_p343_4.png)
 
 *Hình 4. Thiết đồ hành não ở ngang mức nhân thon và nhân chêm [13]*
 
@@ -79,7 +79,7 @@ Chất trắng của hành não bao gồm các dải/đường đi lên, các d�
 * **Các dải tủy tiểu não trước và sau** (các H.3 và 4): Nằm ở mặt bên của hành não. Dải sau đi vào tiểu não qua cuống tiểu não dưới. Dải trước tiếp tục đi lên qua cầu não và đi vào tiểu não qua cuống tiểu não trên. Cả hai dải đều chủ yếu truyền thông tin bản thể từ chi dưới. Con đường tương đương cho chi trên đi qua nhân chêm ngoài.
 * **Dải tháp** (*pyramidal tract*) (các H.3, 4 và 5): Khi đi xuống tới hành não thì nằm trong tháp hành và bao gồm các sợi vỏ - tủy. Ở hành não đóng, khoảng 85% số sợi bắt chéo tại bắt chéo tháp (các H.3 và 4) rồi đi xuống tạo thành dải vỏ - tủy bên. Các sợi không bắt chéo tiếp tục đi xuống trong dải vỏ tủy trước.
 
-![Hình 5. Thiết đồ qua hành não ở ngang mức nhân trám dưới [13]](giaiphau_media/hinh_p344_5.png)
+![Hình 5. Thiết đồ qua hành não ở ngang mức nhân trám dưới (13)](giaiphau_media/hinh_p344_5.png)
 
 *Hình 5. Thiết đồ qua hành não ở ngang mức nhân trám dưới [13]*
 

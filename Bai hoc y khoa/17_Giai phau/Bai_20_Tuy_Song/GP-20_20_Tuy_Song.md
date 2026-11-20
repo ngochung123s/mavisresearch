@@ -82,7 +82,7 @@ Chất trắng ở mỗi nửa tủy sống được chia thành 3 thừng bởi
 
 #### 3.1. Các đường dẫn truyền cảm giác (Hướng tâm - Ascending tracts)
 
-![Hình 7. Các đường bản thể lên tiểu não và cảm giác thân thể lên vỏ não [1]](giaiphau_media/hinh_p331_7.png)  
+![Hình 7. Các đường bản thể lên tiểu não và cảm giác thân thể lên vỏ não (1)](giaiphau_media/hinh_p331_7.png)  
 *Hình 7. Các đường bản thể lên tiểu não và cảm giác thân thể lên vỏ não [1]*
 
 ##### 3.1.1. Hệ thống cột sau - liềm giữa (Dorsal Column - Medial Lemniscal System)
@@ -110,7 +110,7 @@ Chất trắng ở mỗi nửa tủy sống được chia thành 3 thừng bởi
 
 #### 3.2. Các đường dẫn truyền vận động (Ly tâm - Descending tracts)
 
-![Hình 8. Con đường tháp chi phối cơ xương ở cổ - thân - chi [1]](giaiphau_media/hinh_p333_8.png)  
+![Hình 8. Con đường tháp chi phối cơ xương ở cổ - thân - chi (1)](giaiphau_media/hinh_p333_8.png)  
 *Hình 8. Con đường tháp chi phối cơ xương ở cổ - thân - chi [1]*
 
 ##### 3.2.1. Hệ tháp (Hệ vận động chủ động có ý thức)
@@ -119,7 +119,7 @@ Chất trắng ở mỗi nửa tủy sống được chia thành 3 thừng bởi
   - **Dải vỏ - tủy bên (dải tháp chéo - lateral corticospinal tract):** Khoảng $85 - 90\%$ số sợi bắt chéo tại *bắt chéo tháp* (*pyramidal decussation*) sang thừng bên đối diện của tủy sống, đi xuống tiếp khớp với nơron vận động alpha ở sừng trước, chi phối cơ ngọn chi tinh vi.
   - **Dải vỏ - tủy trước (dải tháp thẳng - anterior corticospinal tract):** Khoảng $10 - 15\%$ số sợi không bắt chéo ở hành não, đi thẳng trong thừng trước, khi đến đốt tủy tương ứng mới bắt chéo qua mép trắng trước, chi phối cơ trục thân mình và cơ gốc chi.
 
-![Hình 9. Các dải vận động ngoại tháp ở tủy sống [1]](giaiphau_media/hinh_p335_9.png)  
+![Hình 9. Các dải vận động ngoại tháp ở tủy sống (1)](giaiphau_media/hinh_p335_9.png)  
 *Hình 9. Các dải vận động ngoại tháp ở tủy sống [1]*
 
 ##### 3.2.2. Hệ ngoại tháp (Hệ vận động dưới vỏ điều hòa trương lực và thăng bằng)
@@ -135,7 +135,7 @@ Bao gồm các dải xuất phát từ thân não:
 
 Tủy sống được bọc bởi ba màng liên tiếp với các màng não:
 
-![Hình 10. Các màng tủy sống và khoang quanh tủy [1]](giaiphau_media/hinh_p336_10.png)  
+![Hình 10. Các màng tủy sống và khoang quanh tủy (1)](giaiphau_media/hinh_p336_10.png)  
 *Hình 10. Các màng tủy sống và khoang quanh tủy [1]*
 
 1. **Màng cứng tủy (Dura mater spinalis):** Màng xơ dày, dai, hình ống bọc ngoài cùng, kéo dài từ lỗ lớn xương chẩm xuống đến ngang mức đốt sống cùng S2.
@@ -152,7 +152,7 @@ Tủy sống được bọc bởi ba màng liên tiếp với các màng não:
 
 ### 5. CẤP MÁU VÀ HỆ TĨNH MẠCH CỦA TỦY SỐNG
 
-![Hình 11. Cấp máu cho tủy sống theo trục dọc và theo các đốt [1]](giaiphau_media/hinh_p337_11.png)  
+![Hình 11. Cấp máu cho tủy sống theo trục dọc và theo các đốt (1)](giaiphau_media/hinh_p337_11.png)  
 *Hình 11. Cấp máu cho tủy sống theo trục dọc và theo các đốt [1]*
 
 #### 5.1. Hệ thống động mạch

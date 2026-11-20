@@ -43,7 +43,7 @@ Sau khi trẻ ra đời, dây rốn được thắt làm ngừng tuần hoàn qu
 
 Sau khi sinh, đứa trẻ sẽ mắc dị tật *thông liên nhĩ* nếu lỗ bầu dục không đóng kín, tật *còn ống động mạch* nếu ống động mạch không tịt lại.
 
-![Hình 2. Vòng tuần hoàn thai [14]](giaiphau_media/hinh_p206_2.png)  
+![Hình 2. Vòng tuần hoàn thai (14)](giaiphau_media/hinh_p206_2.png)  
 *(a) Vòng tuần hoàn thai; (b) Vòng tuần hoàn trẻ mới sinh*  
 *Hình 2. Vòng tuần hoàn thai [14]*
 
@@ -69,7 +69,7 @@ Thành của một mạch máu gồm ba lớp cấu trúc, gọi là ba lớp á
 
 *Áo ngoài* (*tunica externa*) là một áo mô liên kết chứa các sợi chun và collagen. Trong áo ngoài có chứa nhiều thần kinh, nhất là ở những mạch lớn, và các mạch máu nhỏ cấp máu cho mô thành mạch. Những mạch nhỏ này được gọi là *mạch của mạch* (*vasa vasorum*), dễ gặp ở những mạch máu lớn như ở động mạch chủ. Áo ngoài còn có vai trò neo giữ mạch máu vào mô xung quanh.
 
-![Hình 3. Cấu tạo chung của mạch máu [1]](giaiphau_media/hinh_p207_3.png)  
+![Hình 3. Cấu tạo chung của mạch máu (1)](giaiphau_media/hinh_p207_3.png)  
 *(a) Động mạch; (b) Tĩnh mạch; (c) Mao mạch*  
 *Hình 3. Cấu tạo chung của mạch máu [1]*
 
@@ -140,7 +140,7 @@ Nằm dọc trên đường đi của các mạch bạch huyết có khoảng 60
 
 Lách là một khối mô máu và bạch huyết có vỏ bọc, nằm ở phần tư trên trái của ổ bụng giữa đáy vị và cơ hoành. Lách trông giống như một cái nêm hoặc như một hình tứ diện dạng vòm. Hình dạng này chủ yếu do những liên quan của lách với những tạng lân cận tạo nên. Mặt trên bên (ngoài) khuôn theo vòm cơ hoành còn mặt dưới giữa (trong) tiếp xúc với góc đại tràng trái, thận trái và dạ dày. Trục dọc của lách nằm xấp xỉ trong mặt phẳng của xương sườn X. Đầu sau ở cách đường giữa lưng 4 cm và ở ngang mức mỏm gai đốt sống ngực X. Đầu trước của nó thường đi tới đường nách giữa. Kích thước và trọng lượng của lách biến đổi theo tuổi và giới. Ở người trưởng thành, lách thường dài 12 cm, rộng 7 cm và dày 3 - 4 cm. Trọng lượng trung bình ở người trưởng thành khoảng 150 g. Để có thể sờ thấy, lách cần to bằng 3 lần kích thước bình thường. Có thể có *lách phụ* (*accessory spleen*) nằm trong dây chằng vị lách hay mạc nối lớn. Lách có thể vẫn có dạng chia thùy như lúc bào thai hoặc có những khía sâu trên mặt hoành và bờ dưới ngoài những khía thấy ở bờ trên.
 
-![Hình 7. Vị trí và liên quan của lách [1]](giaiphau_media/hinh_p213_7.png)  
+![Hình 7. Vị trí và liên quan của lách (1)](giaiphau_media/hinh_p213_7.png)  
 *Hình 7. Vị trí và liên quan của lách [1]*
 
 Lách có *mặt hoành* (*diaphragmatic surface*) chủ yếu hướng lên trên và sang bên, một *mặt tạng* (*visceral surface*) hướng xuống dưới và vào đường giữa. Có *bờ trên* (*superior border*) và *bờ dưới* (*inferior border*), *cực trước* (*anterior extremity*) và *cực sau* (*posterior extremity*). Mặt hoành lồi và nhẵn, liên quan với mặt bụng của vòm hoành trái, được cơ hoành ngăn cách với phổi, màng phổi trái và các xương sườn IX tới XI bên trái. Ngách sườn hoành màng phổi mở rộng xuống đến tận bờ dưới lách. Mặt tạng hướng về phía ổ bụng và có các vết ấn của dạ dày, đại tràng, tụy và thận trái. *Ấn vị* (*gastric impression*) rộng và lõm, hướng về phía trước trong, nơi lách tiếp xúc với mặt sau đáy vị, phần trên thân vị và bờ cong lớn dạ dày. Ấn vị được ngăn cách với dạ dày bởi một ngách phúc mạc. *Ấn thận* (*renal impression*) hơi lõm và nằm trên phần thấp nhất của mặt tạng, được ngăn cách với ấn vị bởi rốn lách và một gờ. Nó hướng xuống dưới, vào trong và hơi ra sau, liên quan với diện trên ngoài của mặt trước thận trái. *Ấn đại tràng* (*colic impression*) nằm ở dưới cực dưới của lách và thường phẳng. Nó liên quan với góc lách của đại tràng và dây chằng hoành đại tràng. *Ấn tụy* (*pancreatic impression*) thường nhỏ khi có mặt và nằm giữa ấn đại tràng và phần bên của rốn lách. Nó liên quan với đuôi tụy vốn nằm trong dây chằng lách thận. *Rốn lách* (*splenic hilum*) là một khe dài, nơi mà các nhánh của động mạch và tĩnh mạch lách cũng như các thần kinh và mạch bạch huyết đi vào và đi ra khỏi lách; nó nằm gần bờ dưới và cực trước hơn.
@@ -149,7 +149,7 @@ Bờ trên ngăn cách mặt hoành với ấn vị và thường lồi. Ở g�
 
 Lách hầu như hoàn toàn được phủ bởi phúc mạc, được ngăn cách với dạ dày và thận trái bởi các ngách của túi lớn. Lách phát triển trong phần trên mạc treo vị lưng và vì thế vẫn được nối với thành bụng bởi các nếp phúc mạc: với thành bụng sau bởi các dây chằng lách thận, hoành đại tràng và hoành lách, với thành bụng trước và dạ dày bởi dây chằng vị lách. Dây chằng lách thận có hai lá: lá trước liên tiếp với phúc mạc của thành sau túi mạc nối (phủ trên thận trái) và liên tiếp tại rốn lách với lá sau của dây chằng vị lách; lá sau liên tiếp với phúc mạc phủ trên mặt dưới cơ hoành và lật lên lách để phủ vùng ấn thận. Các mạch lách nằm giữa hai lá của dây chằng lách thận, còn đuôi tụy thường có mặt ở phần dưới của nó. Dây chằng lách thận có chiều dài biến đổi. Dây chằng dài làm lách di động hơn và dễ bị chấn thương, tuy nhiên lại làm phẫu thuật viên dịch chuyển lách dễ hơn trong lúc mổ. Sự có mặt của đuôi tụy trong dây chằng khiến nó có thể bị tổn thương trong lúc thắt các mạch lách, gây ra viêm tụy hay tạo ra một rò ống tụy.
 
-![Hình 8. Hình thể ngoài và liên quan của lách [1]](giaiphau_media/hinh_p214_8.png)  
+![Hình 8. Hình thể ngoài và liên quan của lách (1)](giaiphau_media/hinh_p214_8.png)  
 *Hình 8. Hình thể ngoài và liên quan của lách [1]*
 
 Dây chằng vị lách cũng có hai lá: lá sau lật lên mặt sau dạ dày và liên tiếp ở rốn lách với lá trước dây chằng lách thận; lá trước lật lên bờ cong lớn dạ dày ở trước và lên ấn vị của lách ở sau. Nhánh vị mạc nối trái và các nhánh vị ngắn của động mạch lách đi giữa hai lá. Dây chằng hoành đại tràng đi từ góc lách của đại tràng tới cơ hoành ở ngang mức xương sườn XI. Nó mở rộng xuống dưới và sang bên để liên tiếp với phúc mạc mạc treo đại tràng ngang tại bờ bên của đuôi tụy và dây chằng lách thận tại rốn lách.

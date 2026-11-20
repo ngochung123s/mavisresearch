@@ -28,7 +28,7 @@ Hệ thần kinh bao gồm hai nhóm tế bào chính:
 
 Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh trục) nhô ra từ thân.
 
-![Hình 1. Cấu tạo nơron [16]](giaiphau_media/hinh_p310_1.png)  
+![Hình 1. Cấu tạo nơron (16)](giaiphau_media/hinh_p310_1.png)  
 *Hình 1. Cấu tạo nơron [16]*
 
 ##### 1.1.1. Hình thái và kích thước
@@ -56,7 +56,7 @@ Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh
 
 ##### 1.1.6. Phân loại nơron
 
-![Hình 2. Phân loại nơron theo số cực [16]](giaiphau_media/hinh_p312_2.png)  
+![Hình 2. Phân loại nơron theo số cực (16)](giaiphau_media/hinh_p312_2.png)  
 *(a) Nơron đa cực; (b) Nơron hai cực; (c) Nơron một cực*  
 *Hình 2. Phân loại nơron theo số cực [16]*
 
@@ -84,7 +84,7 @@ Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh
 
 ##### 1.1.8. Synáp (Khớp thần kinh)
 
-![Hình 3. Synáp hóa học [16]](giaiphau_media/hinh_p315_3.png)  
+![Hình 3. Synáp hóa học (16)](giaiphau_media/hinh_p315_3.png)  
 *Hình 3. Synáp hóa học [16]*
 
 - **Khái niệm:** Synáp là cấu trúc chuyên biệt cho phép truyền tín hiệu giữa nơron với nơron, hoặc giữa nơron với tế bào đáp ứng (sợi cơ, tế bào tuyến).
@@ -106,7 +106,7 @@ Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh
 
 #### 1.2. Các tế bào thần kinh đệm (Neuroglia)
 
-![Hình 4. Các tế bào thần kinh đệm trong thần kinh trung ương [16]](giaiphau_media/hinh_p317_4.png)  
+![Hình 4. Các tế bào thần kinh đệm trong thần kinh trung ương (16)](giaiphau_media/hinh_p317_4.png)  
 *Hình 4. Các tế bào thần kinh đệm trong thần kinh trung ương [16]*
 
 1. **Tế bào sao (Astrocytes):**
@@ -124,7 +124,7 @@ Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh
 6. **Tế bào vệ tinh (Satellite cells):**
    - Bao quanh và bảo vệ thân nơron trong các hạch cảm giác và hạch tự chủ ngoại vi.
 
-![Hình 5. Tế bào Schwann và tế bào vệ tinh [16]](giaiphau_media/hinh_p318_5.png)  
+![Hình 5. Tế bào Schwann và tế bào vệ tinh (16)](giaiphau_media/hinh_p318_5.png)  
 *(a) Nhánh trục có bao myelin; (b) Nhánh trục không bao myelin; (c) Tế bào vệ tinh*  
 *Hình 5. Tế bào Schwann và tế bào vệ tinh [16]*
 
@@ -138,7 +138,7 @@ Mỗi nơron gồm một thân tế bào và các mỏm (nhánh cành và nhánh
 
 #### 2.2. Cấu tạo dây thần kinh ngoại vi
 
-![Hình 6. Cấu tạo của một thần kinh ngoại vi [16]](giaiphau_media/hinh_p319_6.png)  
+![Hình 6. Cấu tạo của một thần kinh ngoại vi (16)](giaiphau_media/hinh_p319_6.png)  
 *Hình 6. Cấu tạo của một thần kinh ngoại vi [16]*
 
 Một dây thần kinh ngoại vi gồm nhiều sợi thần kinh tập hợp thành các bó sợi và được bọc bởi 3 lớp mô liên kết:
@@ -150,7 +150,7 @@ Một dây thần kinh ngoại vi gồm nhiều sợi thần kinh tập hợp th
 
 ### 3. TỔ CHỨC CỦA HỆ THẦN KINH
 
-![Hình 7. Phân chia hệ thần kinh [16]](giaiphau_media/hinh_p320_7.png)  
+![Hình 7. Phân chia hệ thần kinh (16)](giaiphau_media/hinh_p320_7.png)  
 *Hình 7. Phân chia hệ thần kinh [16]*
 
 #### 3.1. Phân chia theo vị trí giải phẫu

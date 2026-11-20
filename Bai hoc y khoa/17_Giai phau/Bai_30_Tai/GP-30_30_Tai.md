@@ -10,7 +10,7 @@
 
 Tai là cơ quan nhận cảm về thính giác và thăng bằng. Ba phần của tai là tai ngoài, tai giữa và tai trong (H.1).
 
-![Hình 1. Các phần của tai [1]](giaiphau_media/hinh_p479_1.png)
+![Hình 1. Các phần của tai (1)](giaiphau_media/hinh_p479_1.png)
 *Hình 1. Các phần của tai [1]*
 
 <!-- Hết trang 479 -->
@@ -23,7 +23,7 @@ Tai ngoài gồm loa tai và ống tai ngoài. Loa tai từ mặt bên của đ�
 
 Loa tai trông như một cái vỏ sò với hai mặt ngoài và trong. Mặt ngoài của loa tai hơi hướng ra trước và có nhiều chỗ lồi và chỗ lõm. Gờ cong chạy ở chu vi loa tai là gờ luân (*helix*). Một gờ khác, được gọi là gờ đối luân (*antihelix*), chạy song song và ở trước phần sau của gờ luân. Gờ đối luân chia ra ở trên thành hai trụ bao quanh một chỗ lõm gọi là hố tam giác (*triangular fossa*). Chỗ lõm cong nằm giữa gờ luân và gờ đối luân là hố thuyền (*scapha*). Gờ đối luân vây quanh một chỗ lõm sâu và rộng gọi là xoắn loa tai (*concha*). Xoắn loa tai được đầu trước, hay trụ, của gờ luân chia không hoàn toàn thành hai vùng: vùng trên là hõm xoắn nằm ngang mức tam giác trên ống tai ngoài của xương thái dương, vùng dưới là ổ xoắn. Ở trước ổ xoắn có một vạt nhỏ nhô ra sau gọi là bình tai (*tragus*); bình tai che khuất một phần lỗ ống tai ngoài. Ở đối diện với bình tai và được ngăn cách với bình tai bằng khuyết gian bình tai (*intertragic notch*) là một củ nhỏ gọi là đối bình tai (*antitragus*). Bên dưới đối bình tai là dái tai (*lobule of auricle*). Dái tai mềm vì được cấu tạo bằng mô xơ - mỡ, không giống như phần còn lại của loa tai có mật độ chắc nhờ được chống đỡ bằng sụn chun. Mặt trong của loa tai có những chỗ nhô lên tương ứng với những chỗ lõm trên mặt ngoài.
 
-![Hình 2. Loa tai [12]](giaiphau_media/hinh_p480_2.png)
+![Hình 2. Loa tai (12)](giaiphau_media/hinh_p480_2.png)
 *Hình 2. Loa tai [12]*
 
 Về cấu tạo, loa tai là một sụn xơ - chun mỏng được che phủ bởi da và được nối với những phần xung quanh bởi các dây chằng và các cơ. Sụn của loa tai liên tiếp với sụn của ống tai ngoài.
@@ -64,7 +64,7 @@ Sàn là một mảnh xương hẹp, mỏng và lồi ngăn cách hòm nhĩ vớ
 
 Thành ngoài chủ yếu do màng nhĩ tạo nên nhưng một phần cũng do vòng xương mà màng nhĩ gắn vào. Vòng xương bị khuyết ở trên và ở gần vùng khuyết này có lỗ của các tiểu quản sau và trước cho thừng nhĩ đi qua.
 
-![Hình 3. Thành ngoài hòm nhĩ, nhìn từ trong [12]](giaiphau_media/hinh_p482_3.png)
+![Hình 3. Thành ngoài hòm nhĩ, nhìn từ trong (12)](giaiphau_media/hinh_p482_3.png)
 *Hình 3. Thành ngoài hòm nhĩ, nhìn từ trong [12]*
 
 *Màng nhĩ* (*tympanic membrane*). Màng nhĩ ngăn cách hòm nhĩ với ống tai ngoài. Đây là một màng mỏng và bán trong suốt, gần có hình oval, mặc dù ở trên hơi rộng hơn ở dưới. Màng nhĩ nằm chếch xuống dưới và vào trong và tạo một góc khoảng 55° với sàn ống tai ngoài. Đường kính dài nhất (trước - dưới) từ 9-10 mm và ngắn nhất từ 8-9 mm. Hầu hết chu vi của nó là một vòng xơ - sụn dày gắn vào *rãnh nhĩ* ở đầu trong của ống tai ngoài. Rãnh nhĩ bị khuyết ở trên. Tại các đầu trước và sau của khuyết rãnh nhĩ có các *nếp búa trước* và *sau* đi tới mỏm ngoài xương búa. Các nếp búa chia màng nhĩ thành hai phần. Phần trên nhỏ, có hình tam giác và mỏng gọi là *phần chùng* (*pars flaccida*). Phần còn lại lớn hơn nhiều và dày hơn ở dưới là *phần căng* (*pars tensa*). Cán của xương búa được gắn chặt với mặt trong của màng nhĩ. Đầu của cán xương búa nằm ở chỗ lồi nhất trên mặt trong của màng nhĩ, nơi được gọi là *rốn màng nhĩ* (*umbo of tympanic membrane*). Màng nhĩ trên người sống có màu xám ngọc trai sáng bóng. Ở trên rốn màng nhĩ ta nhìn thấy bóng của cán xương búa và sau bóng
@@ -73,7 +73,7 @@ Thành ngoài chủ yếu do màng nhĩ tạo nên nhưng một phần cũng do 
 
 cán xương búa là trụ dài xương đe. Từ rốn màng nhĩ có một *nón sáng* (*cone of light*) tỏa về phía trước dưới.
 
-![Hình 4. Hình soi màng nhĩ [12]](giaiphau_media/hinh_p483_4.png)
+![Hình 4. Hình soi màng nhĩ (12)](giaiphau_media/hinh_p483_4.png)
 *Hình 4. Hình soi màng nhĩ [12]*
 
 Về mô học, màng nhĩ được cấu tạo bởi ba tầng: một tầng thượng bì ở ngoài, một tầng sợi trung gian và một tầng niêm mạc ở trong. Tầng thượng bì liên tiếp với da mỏng của ống tai ngoài. Tầng niêm mạc là một phần của niêm mạc hòm nhĩ. Ở phần chùng, tầng sợi được thay thế bằng mô liên kết lỏng lẻo.
@@ -92,7 +92,7 @@ Thành trong của hòm nhĩ cũng là thành ngoài của tai trong. Các cấu
 
 <!-- Hết trang 483 -->
 
-![Hình 5. Thành trong hòm nhĩ, nhìn từ ngoài [12]](giaiphau_media/hinh_p484_5.png)
+![Hình 5. Thành trong hòm nhĩ, nhìn từ ngoài (12)](giaiphau_media/hinh_p484_5.png)
 *Hình 5. Thành trong hòm nhĩ, nhìn từ ngoài [12]*
 
 *Ụ nhô* (*promontory*) là một gò lồi tròn có các rãnh nhỏ (rãnh ụ nhô) do các thần kinh của đám rối nhĩ tạo nên. Nó ứng với phần nhô ra ngoài của vòng đáy của ốc tai. Ở sau ụ nhô là *xoang nhĩ* (*sinus tympani*), nơi tương ứng với vị trí của bóng ống bán khuyên sau.
@@ -175,7 +175,7 @@ Mê đạo xương bao gồm tiền đình, các ống bán khuyên và ốc tai
 
 *Tiền đình* (*vestibule*) nằm ở phía trong hòm nhĩ, phía sau ốc tai và phía trước các ống bán khuyên. Đây là một hốc xương có sáu thành. Thành ngoài ngăn cách với hòm nhĩ bằng một vách xương và liên hệ với hòm nhĩ qua cửa sổ tiền đình. Thành trong liên quan với đáy ống tai trong, có *ngách soan* (*elliptical recess*) cho soan nang tựa vào và *ngách cầu* (*spherical recess*) cho cầu nang tựa vào. Thành sau và thành trên có năm lỗ thông với các ống bán khuyên. Thành dưới là mảnh xương mỏng liên tiếp với mảnh xoắn ốc của ốc tai. Tiền đình thông ở trước với thang tiền đình của ốc tai.
 
-![Hình 6. Mê đạo xương [12]](giaiphau_media/hinh_p488_6.png)
+![Hình 6. Mê đạo xương (12)](giaiphau_media/hinh_p488_6.png)
 *Hình 6. Mê đạo xương [12]*
 
 *Các ống bán khuyên xương* (*semicircular canals*) gồm ba ống, mỗi ống nằm thẳng góc với hai ống kia. *Ống bán khuyên trước* nằm trên mặt phẳng thẳng đứng, vuông góc với trục phần đá xương thái dương. *Ống bán khuyên sau* nằm trên mặt phẳng thẳng đứng, song song với trục phần đá xương thái dương. *Ống bán khuyên ngoài* nằm trên mặt phẳng ngang và cong ra ngoài. Các ống bán khuyên là những ống hình trụ cong hình móng ngựa nằm ở sau - trên tiền đình và mở vào tiền đình, mỗi ống có một đầu phình gọi là *bóng xương* (*bony ampulla*). Đầu có bóng xương mở vào tiền đình tại *trụ xương bóng* (*ampullary bony limb*), đầu không có bóng xương mở vào tiền đình tại *trụ xương đơn* (*simple bony limb*). Trụ xương đơn của ống bán khuyên ngoài mở trực tiếp vào tiền đình. Trụ xương đơn của các ống bán khuyên trước và sau hợp lại thành *trụ xương chung* (*common bony limb*) trước khi đổ vào tiền đình.
@@ -184,7 +184,7 @@ Mê đạo xương bao gồm tiền đình, các ống bán khuyên và ốc tai
 
 *Ốc tai* (*cochlea*) có hình một con ốc xoắn hai vòng rưỡi nằm trước tiền đình. *Đáy ốc tai* (*base of cochlea*) hướng vào trong; *vòm ốc tai* (*cochlear cupula*) hướng ra ngoài. Ốc tai gồm một trụ ốc tai hình nón và *ống xoắn ốc tai* (*spiral canal of cochlea*) xoắn quanh trụ ốc tai hai vòng rưỡi từ đáy tới vòm ốc tai. Trong lòng ống xoắn ốc tai có một mảnh chạy xoắn ốc gọi là *mảnh xoắn xương* (*osseous spiral lamina*). Mảnh này có một bờ quấn quanh trụ ốc tai, một bờ tự do nhô vào lòng ống xoắn ốc tai. Ống ốc tai (tức phần màng của ốc tai) đi từ bờ tự do của mảnh xoắn xương tới thành ngoài của ống xoắn ốc tai. Mảnh xoắn xương và ống ốc tai chia ống xoắn ốc tai thành hai thang: *thang tiền đình* (*scala vestibuli*) ở trên và *thang nhĩ* (*scala tympani*) ở dưới; hai thang chứa ngoại dịch và thông nhau tại *khe xoắn* (*helicotrema*) ở vòm ốc tai; khe xoắn là một khe nằm giữa vòm ốc tai ở một bên còn bên kia là đầu tịt của ống ốc tai và đầu tận cùng của mảnh xoắn xương.
 
-![Hình 7. Sơ đồ mê đạo màng [12]](giaiphau_media/hinh_p489_7.png)
+![Hình 7. Sơ đồ mê đạo màng (12)](giaiphau_media/hinh_p489_7.png)
 *Hình 7. Sơ đồ mê đạo màng [12]*
 
 ### 3.2. Mê đạo màng (membranous labyrinth) (H.7)
@@ -201,7 +201,7 @@ Trong soan nang và cầu nang có *vết soan nang* (*macula of utricle*) và *
 
 *Mê đạo ốc tai* (*cochlear labyrinth*) (H.8) là một ống màng chứa nội dịch có tên là *ống ốc tai* (*cochlear duct*), hay thang giữa. Nó có mặt cắt ngang hình tam giác và nằm trong ống xoắn ốc tai, giữa thành ngoài của ống xoắn ốc tai và bờ tự do của mảnh xoắn xương. Ba thành của ống ốc tai là: *thành* (*hay màng*) *tiền đình* ngăn cách ống ốc tai với thang tiền đình, *thành nhĩ* (*hay màng đáy*) ngăn cách ống ốc tai với thang nhĩ, và *thành ngoài*.
 
-![Hình 8. Thiết đồ qua ốc tai [12]](giaiphau_media/hinh_p490_8.png)
+![Hình 8. Thiết đồ qua ốc tai (12)](giaiphau_media/hinh_p490_8.png)
 *Hình 8. Thiết đồ qua ốc tai [12]*
 
 <!-- Hết trang 490 -->

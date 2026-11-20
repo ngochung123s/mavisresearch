@@ -18,7 +18,7 @@ Thận màu đỏ nâu. Mỗi thận có 2 cực (trên và dưới), 2 bờ (ng
 
 Ở thai và trẻ mới sinh, thận có 12 thùy. Các thùy này hòa nhập lại ở người trưởng thành để cho thận có bề mặt nhẵn mặc dù vẫn còn vết tích của sự phân thùy.
 
-![Hình 1. Thận người trưởng thành và trẻ mới sinh [12]](giaiphau_media/hinh_p522_1.png)
+![Hình 1. Thận người trưởng thành và trẻ mới sinh (12)](giaiphau_media/hinh_p522_1.png)
 
 ## 2. KÍCH THƯỚC
 
@@ -28,7 +28,7 @@ Thận có kích thước khoảng 11 cm chiều dài, 6 cm chiều ngang và 3 
 
 Hai thận nằm sau phúc mạc ở hai bên cột sống thắt lưng và được bao quanh bởi mô mỡ. Đầu trên thận ngang mức với bờ trên đốt sống ngực 12, đầu dưới ngang với đốt sống thắt lưng 3. Thận phải hơi thấp hơn thận trái (đối chiếu với xương sườn, đầu trên thận phải ngang mức xương sườn 12, đầu trên thận trái ngang mức xương sườn 11). Thận trái dài và hẹp hơn thận phải và nằm gần đường giữa hơn. Mặt phẳng ngang qua môn vị đi qua phần trên của rốn thận phải và phần dưới của rốn thận trái.
 
-![Hình 2. Đối chiếu của thận [12]](giaiphau_media/hinh_p523_2.png)
+![Hình 2. Đối chiếu của thận (12)](giaiphau_media/hinh_p523_2.png)
 
 ### Các bất thường: thiếu thận và thận lạc chỗ (Các H.3 và 4)
 
@@ -52,19 +52,19 @@ Thận không đi lên được đến vị trí đúng ở bụng được gọ
 
 Ở trên rốn thận, bờ trong liên quan với tuyến thượng thận. Ở dưới rốn thận, bờ trong liên quan với phần trên niệu quản.
 
-![Hình 5. Thiết đồ cắt ngang qua đĩa gian đốt sống L1 - L2 [12]](giaiphau_media/hinh_p525_5.png)
+![Hình 5. Thiết đồ cắt ngang qua đĩa gian đốt sống L1 - L2 (12)](giaiphau_media/hinh_p525_5.png)
 
-![Hình 6. Liên quan mặt trước thận [12]](giaiphau_media/hinh_p526_6.png)
+![Hình 6. Liên quan mặt trước thận (12)](giaiphau_media/hinh_p526_6.png)
 
 **Mặt trước - ngoài thận phải (Các H.5, 6 và 7).** Một diện nhỏ ở mặt trước cực trên tiếp xúc với tuyến thượng thận. Một vùng rộng chiếm khoảng 3/4 mặt trước liên quan trực tiếp với ấn thận của thùy gan phải. Một dải hẹp ở trong liên quan với phần xuống tá tràng. Về phía dưới, mặt trước tiếp xúc ở ngoài với góc đại tràng phải và ở trong với ruột non. Những vùng liên quan với ruột non và gan được phủ bởi phúc mạc; những vùng liên quan với tuyến thượng thận, tá tràng và đại tràng không có phúc mạc phủ.
 
-![Hình 7. Thiết đồ cắt dọc qua thận phải [12]](giaiphau_media/hinh_p526_7.png)
+![Hình 7. Thiết đồ cắt dọc qua thận phải (12)](giaiphau_media/hinh_p526_7.png)
 
 **Mặt trước - ngoài thận trái (Các H.5 và 6).** Một diện nhỏ bên trong của cực trên liên quan với tuyến thượng thận trái. Phần ngoài của nửa trên mặt trước liên quan với lách. Một vùng hình chữ nhật ở trung tâm tiếp xúc với tụy và các mạch lách. Ở trên vùng này, và nằm ở giữa các diện lách và tuyến thượng thận, là một vùng nhỏ hình tam giác liên quan với dạ dày. Bên dưới các diện liên quan với tụy và lách, một dải hẹp dọc bờ ngoài liên quan với góc đại tràng trái và đoạn đầu đại tràng xuống. Vùng rộng còn lại ở trong liên quan với hỗng tràng. Diện dạ dày được phủ bởi phúc mạc của túi bé; các diện lách và hỗng tràng được phủ bởi phúc mạc của túi lớn. Sau phần phúc mạc phủ diện hỗng tràng, các nhánh của động mạch đại tràng trái liên quan với thận. Các diện thượng thận, tụy và đại tràng không có phúc mạc phủ.
 
 **Mặt sau - trong của 2 thận (H.8).** Mặt sau - trong của 2 thận vùi trong mỡ và không có phúc mạc phủ. Mặt này nằm trước cơ hoành, các dây chằng cung trong và ngoài, cơ thắt lưng lớn, cơ vuông thắt lưng và cân cơ ngang bụng; các mạch dưới sườn; các thần kinh dưới sườn, chậu hạ vị và chậu bẹn. Cực trên thận phải ở ngang mức xương sườn 12, cực trên thận trái ở ngang mức xương sườn 11. Cơ hoành ngăn cách thận với ngách sườn - hoành màng phổi. Đôi khi, cơ bị khuyết trong một tam giác ở ngay trên dây chằng cung ngoài, và điều này cho phép mô mỡ quanh thận tiếp xúc với màng phổi hoành.
 
-![Hình 8. Liên quan mặt sau thận [12]](giaiphau_media/hinh_p527_8.png)
+![Hình 8. Liên quan mặt sau thận (12)](giaiphau_media/hinh_p527_8.png)
 
 ## 5. CẤU TẠO (H.9)
 
@@ -76,7 +76,7 @@ Thận được bọc trong một *bao xơ* (fibrous capsule) dễ bóc tách kh
 
 Rốn thận dẫn tới một *xoang thận* ở trung tâm. Xoang thận được bọc bên ngoài bởi bao xơ thận, bên trong chứa các đài và bể thận, các mạch máu và mỡ. Sau khi bọc mặt ngoài của thận, bao xơ thận quặt vào trong thận tại rốn thận để bao quanh xoang rồi hòa lẫn vào lớp vỏ của các đài nhỏ. Các ống nhú (gộp của các ống góp) đổ nước tiểu vào các đài thận nhỏ tại những lỗ trên đỉnh của các nhú thận. Xoang thận gồm các đài thận nhỏ, các đài thận lớn và bể thận.
 
-![Hình 9. Cấu tạo của thận [12]](giaiphau_media/hinh_p528_9.png)
+![Hình 9. Cấu tạo của thận (12)](giaiphau_media/hinh_p528_9.png)
 
 *Các đài thận nhỏ* (minor calices) có hình phễu với miệng phễu ôm quanh các nhú thận. Mỗi đài nhỏ bao quanh hoặc là một nhú đơn, hoặc là các nhóm của 2 hoặc 3 nhú. Các đài nhỏ của mỗi thận thường được xếp thành 7 đôi (7 đài bụng và 7 đài lưng). Các đài thận nhỏ kết hợp với các đài nhỏ lân cận để tạo nên 2 hoặc 3 khoang lớn hơn gọi là *các đài thận lớn* (major calices). *Bể thận* (renal pelvis) thường được hình thành từ sự kết hợp của 2 đài lớn, một từ các đài ở cực trên, một từ các đài ở cực dưới, nhưng có thể có thêm đài lớn thứ ba dẫn lưu cho các đài ở phần giữa thận. Các đài thận nhỏ thường nhóm lại theo cách: 3 đôi đổ vào đài lớn cực trên, 4 đôi vào đài lớn cực dưới. Nếu có đài lớn giữa, sự phân bố bình thường là: 3 đôi cho đài lớn cực trên, 2 đôi cho đài lớn vùng giữa và 2 đôi cho đài lớn cực dưới. Sự sắp xếp có thể có biến đổi nhiều.
 
@@ -92,7 +92,7 @@ Hai thận chiếm chưa đến 1% trọng lượng cơ thể nhưng các độn
 
 *Nguyên ủy.* Mỗi thận thường chỉ có một động mạch. Động mạch thận tách ra từ mặt bên động mạch chủ bụng ngay dưới nguyên ủy động mạch mạc treo tràng trên. Nguyên ủy động mạch thận phải hơi cao hơn.
 
-![Hình 10. Động mạch thận [12]](giaiphau_media/hinh_p529_10.png)
+![Hình 10. Động mạch thận (12)](giaiphau_media/hinh_p529_10.png)
 
 *Đường đi và liên quan.* Hai động mạch thận chạy sang bên vuông góc với động mạch chủ và bắt chéo trước trụ tương ứng của cơ hoành. Động mạch thận phải dài hơn, chạy sau tĩnh mạch chủ dưới, tĩnh mạch thận phải, đầu tụy và phần xuống tá tràng. Động mạch thận trái đi sau tĩnh mạch thận trái, thân tụy và tĩnh mạch lách. Nó có thể bị bắt chéo ở mặt trước bởi tĩnh mạch mạc treo tràng dưới. Khi tới gần rốn thận, mỗi động mạch thận tận cùng thành 1 phần trước và 1 phần sau.
 
@@ -100,7 +100,7 @@ Hai thận chiếm chưa đến 1% trọng lượng cơ thể nhưng các độn
 
 *Sự phân chia các phần tận cùng của động mạch thận.* Các phần trước và sau của động mạch thận chia thành các *động mạch phân thùy thận* (segmental arteries). Phần trước thường chia thành 4 động mạch phân thùy cho các phân thùy trên, trước trên, trước dưới và dưới; phần sau trở thành động mạch phân thùy sau. Các động mạch phân thùy thận không tiếp nối với các động mạch phân thùy lân cận nên được xem như là các động mạch tận; đường ranh giới giữa các phân thùy là nơi có thể rạch để đi vào thận vì có ít mạch máu hơn. Hiểu biết về giải phẫu các động mạch phân thùy giúp ích cho phẫu thuật cắt thận bán phần và trong can thiệp nút chọn lọc động mạch phân thùy thận.
 
-![Hình 11. Sự phân chia của động mạch thận [12]](giaiphau_media/hinh_p530_11.png)
+![Hình 11. Sự phân chia của động mạch thận (12)](giaiphau_media/hinh_p530_11.png)
 
 Sau khi đi vào thận ở rốn thận, các động mạch phân thùy phân nhánh lần lượt thành các *động mạch thùy*, *gian thùy*, *cung* và *gian tiểu thùy*; động mạch gian tiểu thùy chia thành các tiểu động mạch tới và đi của tiểu cầu thận và các đám rối mao mạch vỏ gian ống. Sau khi tách ra từ động mạch phân thùy, mỗi động mạch thùy chạy đến một tháp thận. Trước khi tới đáy tháp thận, nó chia thành 2 tới 3 động mạch gian thùy. Các động mạch này chạy quanh tháp tới vỏ thận. Tại chỗ nối vỏ - tủy, mỗi động mạch gian thùy chẽ đôi thành các động mạch cung chạy trên các đáy tháp thận. Khi chúng chạy vòng cung giữa vỏ và tủy, mỗi động mạch cung tiếp tục chia nhánh, cuối cùng thành các động mạch gian tiểu thùy tỏa ra theo hình tia vào vùng vỏ. Những nhánh tận cùng của các động mạch cung cũng là các động mạch gian tiểu thùy tận cùng trong vùng vỏ. Mặc dù hầu hết các động mạch gian tiểu thùy đến từ các nhánh của động mạch cung, một số tách trực tiếp từ động mạch cung hoặc thậm chí từ các động mạch gian thùy.
 
@@ -124,7 +124,7 @@ Hai niệu quản là hai ống cơ dẫn nước tiểu từ bể thận xuốn
 
 Niệu quản dài 25 tới 30 cm, có thành dày và lòng hẹp. Lúc đầu, niệu quản đi xuống dưới và hơi chếch vào trong ở trước cơ thắt lưng lớn. Tiếp đó, nó đi vào chậu hông. Trong chậu hông, lúc đầu nó đi xuống theo hướng ra ngoài và ra sau trên thành bên chậu hông; từ ngang gai ngồi, nó lại chạy ra trước và vào trong tới sau đáy bàng quang; cuối cùng, nó đi một đoạn ngắn trong thành bàng quang và tận cùng ở *lỗ niệu quản* (ureteric orifice). Như vậy, đường đi của niệu quản gồm *đoạn bụng* (abdominal part) và *đoạn chậu hông* (pelvic part).
 
-![Hình 1. Đường đi của niệu quản [12]](giaiphau_media/hinh_p532_1.png)
+![Hình 1. Đường đi của niệu quản (12)](giaiphau_media/hinh_p532_1.png)
 
 Đường kính của niệu quản khoảng 3 mm nhưng hơi ít hơn tại chỗ nối niệu quản - bể thận, tại vành chậu hông gần bờ trong cơ thắt lưng lớn, và hẹp nhất ở đoạn ngắn đi trong thành bàng quang. Sỏi thường nghẹt lại ở những chỗ hẹp này.
 
@@ -138,17 +138,17 @@ Mặt trước niệu quản được phúc mạc phủ và bắt chéo sau các
 
 Về phía trong, niệu quản phải liên quan với tĩnh mạch chủ dưới, niệu quản trái liên quan với động mạch chủ bụng. Tĩnh mạch mạc treo tràng dưới có một đoạn dài đi dọc mặt trong của niệu quản trái.
 
-![Hình 2. Liên quan của niệu quản đoạn bụng [12]](giaiphau_media/hinh_p533_2.png)
+![Hình 2. Liên quan của niệu quản đoạn bụng (12)](giaiphau_media/hinh_p533_2.png)
 
 ### Liên quan đoạn chậu hông (các H.3 và 4)
 
 Trên thành bên chậu hông, niệu quản đi trước động mạch chậu trong và thân trước của động mạch này; sau các động mạch này là tĩnh mạch chậu trong, thân thắt lưng cùng và khớp cùng chậu. Về phía bên, niệu quản áp vào mạc cơ bịt trong. Niệu quản nữ đi sau buồng trứng và tạo nên giới hạn sau của hố buồng trứng. Niệu quản dần bắt chéo để trở nên nằm về phía trong của các động mạch rốn, bàng quang dưới và trực tràng giữa.
 
-![Hình 3. Niệu quản đoạn chậu hông ở nữ [12]](giaiphau_media/hinh_p534_3.png)
+![Hình 3. Niệu quản đoạn chậu hông ở nữ (12)](giaiphau_media/hinh_p534_3.png)
 
 Đoạn từ ngang gai ngồi tới đáy bàng quang, niệu quản liên quan khác nhau ở hai giới. Ở nữ, niệu quản liên quan với động mạch tử cung (bắt chéo sau), cổ tử cung và vòm âm đạo. Đoạn niệu quản đi trong mô liên kết ở phần dưới - trong của dây chằng rộng có thể bị tổn thương trong phẫu thuật cắt tử cung. Động mạch tử cung bắt chéo trước niệu quản trước khi đi lên dọc bờ bên tử cung. Ở vị trí bắt chéo này, niệu quản nằm bên ngoài phần cổ tử cung trên âm đạo khoảng 2 cm. Ở nam, niệu quản ôm lấy mặt sau dưới của ống dẫn tinh trước khi xuyên vào thành bàng quang.
 
-![Hình 4. Niệu quản đoạn chậu hông ở nam [12]](giaiphau_media/hinh_p534_4.png)
+![Hình 4. Niệu quản đoạn chậu hông ở nam (12)](giaiphau_media/hinh_p534_4.png)
 
 Sau khi xuyên vào bàng quang, niệu quản đi chếch trong thành bàng quang một đoạn dài 1,5 tới 2,0 cm trước khi tận cùng ở lỗ niệu quản. Đoạn trong thành bàng quang hay *đoạn nội thành* (intramural part), được xem như có vai trò ngăn sự trào ngược của
 
@@ -172,7 +172,7 @@ Thành của niệu quản bao gồm một lớp áo ngoài, một lớp cơ tr�
 
 quản cũng như một phần lớn của tam giác bàng quang. Các nhánh từ động mạch thận cũng hằng định và cần được giữ gìn trong lúc lấy thận ghép để đảm bảo cấp máu cho niệu quản. Các tĩnh mạch dẫn lưu cho niệu quản nói chung đi theo đường của các động mạch.
 
-![Hình 6. Các động mạch cấp máu cho niệu quản [1]](giaiphau_media/hinh_p536_6.png)
+![Hình 6. Các động mạch cấp máu cho niệu quản (1)](giaiphau_media/hinh_p536_6.png)
 
 *Sự dẫn lưu bạch huyết.* Bạch huyết bắt đầu trong các đám rối dưới niêm mạc, nội cơ và áo ngoài. Các mạch thu thập từ phần trên niệu quản đổ về các mạch thu thập của thận hoặc chạy thẳng tới hạch bên động mạch chủ ở cạnh nguyên ủy của động mạch tuyến sinh dục; những mạch từ phần dưới đoạn bụng đổ về các hạch chậu chung; và các mạch từ đoạn chậu hông tận cùng ở các hạch chậu chung, chậu trong hay chậu ngoài.
 
@@ -188,7 +188,7 @@ Bàng quang là bể chứa nước tiểu của đường tiết niệu trướ
 
 Khi bàng quang rỗng nó nằm hoàn toàn ở trong chậu hông và sau xương mu nhưng khi căng đầy thì nó mở rộng về phía trên vào ổ bụng để nằm sau cả thành bụng trước.
 
-![Hình 1. Bàng quang trong chậu hông [12]](giaiphau_media/hinh_p537_1.png)
+![Hình 1. Bàng quang trong chậu hông (12)](giaiphau_media/hinh_p537_1.png)
 
 ## 2. HÌNH THỂ NGOÀI VÀ LIÊN QUAN (Các H.2 và 3)
 
@@ -198,7 +198,7 @@ Bàng quang căng thì có hình trứng nhưng khi bàng quang rỗng thì nó 
 
 *Cổ* là vùng thấp nhất của bàng quang và cũng là vùng cố định nhất. Nó nằm sau phần dưới của khớp mu 3 - 4 cm. *Cổ bàng quang* (neck of bladder) là vị trí của lỗ niệu đạo trong và thay đổi chút ít về vị trí với các tình trạng thay đổi của bàng quang và trực tràng. Ở nam, cổ bàng quang nằm trên và liên tục trực tiếp với đáy tuyến tiền liệt (H.2). Ở nữ, nó được bao quanh bởi mạc chậu hông mà bao quanh phần trên của niệu đạo (H.3).
 
-![Hình 2. Thiết đồ đứng dọc giữa bàng quang (nam) [12]](giaiphau_media/hinh_p538_2.png)
+![Hình 2. Thiết đồ đứng dọc giữa bàng quang (nam) (12)](giaiphau_media/hinh_p538_2.png)
 
 *Đỉnh bàng quang* hướng ra trước, lên trên tới bờ trên khớp mu. *Dây chằng rốn giữa* (median umbilical ligament) từ đỉnh bàng quang đi lên ở sau thành bụng trước tới rốn; phúc mạc phủ dây chằng này nhô lên thành nếp rốn giữa.
 
@@ -208,7 +208,7 @@ Bàng quang căng thì có hình trứng nhưng khi bàng quang rỗng thì nó 
 
 Khi bàng quang đầy căng nước tiểu thì nó có hình trứng. Về phía trước, nó đẩy phúc mạc thành khỏi vùng trên mu của thành bụng trước, các mặt dưới - bên của nó trở thành mặt trước và tựa lên thành bụng trước mà không có phúc mạc ngăn cách trên một khoảng cách trên khớp mu thay đổi theo mức căng của bàng quang, có thể đạt tới 5 - 7 cm. Lúc này có thể chọc vào bàng quang mà không cần đi qua phúc mạc. Khi bàng quang căng hết mức, điểm đỉnh của bàng quang nằm ở mặt trên, cao hơn điểm bám của dây chằng rốn giữa, tạo nên ngách trên bàng quang nằm giữa đỉnh và thành bụng trước. Bàng quang căng có thể bị vỡ trong chấn thương bụng hoặc chậu hông. Khi vỡ mặt trên, nước tiểu tràn vào ổ phúc mạc.
 
-![Hình 3. Thiết đồ đứng dọc giữa qua bàng quang nữ [12]](giaiphau_media/hinh_p539_3.png)
+![Hình 3. Thiết đồ đứng dọc giữa qua bàng quang nữ (12)](giaiphau_media/hinh_p539_3.png)
 
 Lúc mới sinh, bàng quang ở vị trí cao hơn so với của người lớn và lỗ niệu đạo trong ở ngang mức với bờ trên khớp mu. Lúc này bàng quang nằm ở bụng hơn là ở chậu hông và chiếm khoảng 2/3 dưới của khoảng cách từ khớp mu tới rốn (có thể chọc lấy mẫu nước tiểu bằng kim chọc trên mu). Khi trẻ lớn lên, bàng quang dần đi xuống và đạt tới vị trí như ở người trưởng thành sau tuổi dậy thì.
 
@@ -259,7 +259,7 @@ Thần kinh chi phối cho bàng quang đến từ các đám rối chậu hông
 
 Niệu đạo nam dài 18 - 20 cm và đi từ lỗ niệu đạo trong ở bàng quang tới lỗ niệu đạo ngoài ở đầu dương vật. Có thể xem như nó gồm hai phần. Phần trước tương đối dài (khoảng 16 cm) được bao quanh bởi vật xốp và có chức năng như ống dẫn, gồm phần gần nằm ở đáy chậu và phần xa nằm trong dương vật. Phần sau tương đối ngắn (khoảng 4 cm) nằm trong chậu hông, vừa có vai trò ống dẫn vừa có cơ cấu đảm bảo vai trò cơ thắt niệu dục.
 
-![Hình 1. Các đoạn của niệu đạo nam [12]](giaiphau_media/hinh_p542_1.png)
+![Hình 1. Các đoạn của niệu đạo nam (12)](giaiphau_media/hinh_p542_1.png)
 
 Niệu đạo trước được chia thành phần gần, gọi là *niệu đạo hành* (bulbar urethra), vốn được bao quanh bởi hành xốp và hoàn toàn ở đáy chậu, và phần di động hay *niệu đạo dương vật* (penile urethra), vốn là phần nằm trong phần còn lại của vật xốp đến đầu dương vật.
 
@@ -277,7 +277,7 @@ Niệu đạo trước tiền liệt dài 1 - 1,5 cm, chạy thẳng đứng t�
 
 Phần dưới cùng của niệu đạo tiền liệt được cố định bởi các dây chằng mu - tiền liệt và do đó được cố định.
 
-![Hình 2. Niệu đạo đoạn tiền liệt và niệu đạo màng [12]](giaiphau_media/hinh_p544_2.png)
+![Hình 2. Niệu đạo đoạn tiền liệt và niệu đạo màng (12)](giaiphau_media/hinh_p544_2.png)
 
 ### 1.3. Đoạn màng (membranous urethra) hay phần trung gian (intermediate part of urethra)
 
@@ -313,7 +313,7 @@ Vì cả hai màng này đều bám chặt vào ngành ngồi mu, còn ở phía
 
 ## 2. NIỆU ĐẠO NỮ (female urethra)
 
-![Hình 3. Niệu đạo nữ [12]](giaiphau_media/hinh_p546_3.png)
+![Hình 3. Niệu đạo nữ (12)](giaiphau_media/hinh_p546_3.png)
 
 ### 2.1. Đường đi
 
