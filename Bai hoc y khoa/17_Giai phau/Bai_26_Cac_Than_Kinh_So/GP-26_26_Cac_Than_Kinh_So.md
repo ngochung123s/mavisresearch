@@ -326,112 +326,261 @@ Thần kinh tiền đình - ốc tai là thần kinh cảm giác đặc biệt g
 
 ### 9. THẦN KINH LƯỠI - HẦU (IX) (Glossopharyngeal nerve) (H.1, 2, 3, 26, 27)
 
-Thần kinh lưỡi - hầu là một dây hỗn hợp phức tạp chi phối cảm giác và vị giác cho 1/3 sau lưỡi, vận động cơ trâm hầu, vận tiết tuyến mang tai và tham gia các cung phản xạ huyết áp (xoang cảnh).
+Thần kinh lưỡi - hầu (dây thần kinh sọ IX) là dây thần kinh hỗn hợp phức tạp, bắt nguồn từ cung mang thứ ba trong thời kỳ phôi thai. Dây IX đảm nhiệm 5 loại chức năng sinh lý đặc hiệu: vận động cơ vân, vận tiết đối giao cảm, cảm giác tạng (xoang cảnh - tiểu thể cảnh), cảm giác vị giác và cảm giác thân thể chung cho vùng hầu họng và 1/3 sau lưỡi.
 
-- **Nguyên ủy thật:**
-  - *Vận động cơ vân:* Nằm ở phần trên **nhân hoài nghi** (*nucleus ambiguus*) ở hành não.
-  - *Đối giao cảm:* **Nhân nước bọt dưới** (*inferior salivatory nucleus*) ở hành não.
-  - *Cảm giác:* Thân nơron nằm ở **hạch trên** và **hạch dưới** (*superior and inferior ganglia*) của thần kinh IX tại lỗ tĩnh mạch cảnh; sợi trung ương tận cùng ở nhân đơn độc (vị giác và cảm tạng) và nhân tuỷ thần kinh sinh ba (cảm giác thân thể).
-- **Nguyên ủy hư:** Rãnh sau trám hành (phần trên cùng, phía trên rễ thần kinh X).
+#### 9.1. Thành phần chức năng và nguyên ủy thật
+Dây IX tập hợp 5 loại sợi trục với các nhân nguyên ủy khu trú tại hành não và các hạch ngoại vi:
+1. **Sợi vận động cơ vân (SVE - Special Visceral Efferent):**
+   - *Nguyên ủy:* Xuất phát từ cực trên của **nhân hoài nghi** (*nucleus ambiguus*) ở phần lưng ngoài hành não.
+   - *Vùng chi phối:* Vận động cho một cơ duy nhất là **cơ trâm hầu** (*musculus stylopharyngeus*) - cơ làm nhiệm vụ nâng hầu và thanh quản lên trên trong thì đầu của động tác nuốt.
+2. **Sợi đối giao cảm trước hạch (GVE - General Visceral Efferent):**
+   - *Nguyên ủy:* Xuất phát từ **nhân nước bọt dưới** (*nucleus salivatorius inferior*) ở chất lưới hành não.
+   - *Đường đi và trạm hạch:* Các sợi trước hạch rời sọ qua nhánh nhĩ (dây Jacobson), tạo đám rối nhĩ trong hòm nhĩ, tiếp tục thành **thần kinh đá bé** (*n. petrosus minor*) chui qua lỗ rách hoặc lỗ bầu dục để tới tiếp khớp tại **hạch tai** (*ganglion oticum*).
+   - *Vùng chi phối:* Các sợi sau hạch từ hạch tai mượn đường thần kinh tai - thái dương (nhánh của V3) tới vận tiết cho **tuyến nước bọt mang tai** (*glandula parotidea*).
+3. **Sợi cảm giác tạng (GVA - General Visceral Afferent):**
+   - *Nguyên ủy:* Thân nơron nằm ở **hạch dưới** (*ganglion inferius / hạch Andersch*).
+   - *Vùng tiếp nhận:* Tiếp nhận các tín hiệu thụ cảm áp lực (baroreceptors) từ **xoang cảnh** (*sinus caroticus*) và thụ cảm hóa học (chemoreceptors đo pO2, pCO2, pH) từ **tiểu thể cảnh** (*glomus caroticum*) qua **nhánh xoang cảnh** (*ramus sinus carotici - dây Hering*).
+   - *Tận cùng trung ương:* Tận cùng tại **nhân đơn độc** (*nucleus solitarius*), đóng vai trò sống còn trong cung phản xạ điều hòa huyết áp và nhịp thở của trung tâm vận mạch hành não.
+4. **Sợi cảm giác vị giác (SVA - Special Visceral Afferent):**
+   - *Nguyên ủy:* Thân nơron nằm ở **hạch dưới** của dây IX.
+   - *Vùng tiếp nhận:* Tiếp nhận cảm giác vị giác từ **1/3 sau lưỡi**, bao gồm các **nhú gai đài** (*papillae vallatae*) - nơi nhạy cảm đặc biệt với vị đắng để cảnh báo độc chất.
+   - *Tận cùng trung ương:* Đi vào phần trên (phần vị giác) của **nhân đơn độc** (*nucleus solitarius*).
+5. **Sợi cảm giác thân thể chung (GSA - General Somatic Afferent):**
+   - *Nguyên ủy:* Thân nơron nằm ở **hạch trên** (*ganglion superius / hạch Ehrenritter*).
+   - *Vùng tiếp nhận:* Dẫn truyền cảm giác bản thể, sờ, đau và nhiệt độ từ niêm mạc 1/3 sau lưỡi, amidan khẩu cái, khẩu cái mềm, thành sau hầu, niêm mạc hòm nhĩ và vòi tai (vòi Eustache).
+   - *Tận cùng trung ương:* Tận cùng tại **nhân tủy thần kinh sinh ba** (*nucleus spinalis nervi trigemini*).
+
+#### 9.2. Nguyên ủy hư
+Thần kinh IX thoát ra khỏi bề mặt não bộ ở phần trên cùng của **rãnh sau trám hành** (*sulcus retroolivaris* - rãnh bên sau của hành não), bằng 3 đến 5 rễ con nhỏ nằm ngay phía trên các rễ của thần kinh lang thang (X).
 
 ![Hình 26: Nguyên uỷ và các tiếp nối trung ương của thần kinh lưỡi - hầu](figures/hinh_p428_26.png)
 *Hình 26: Nguyên uỷ và các tiếp nối trung ương của thần kinh lưỡi - hầu*
 
+#### 9.3. Đường đi và liên quan giải phẫu
+Đường đi của thần kinh IX được chia thành 3 đoạn liên quan rõ rệt:
+1. **Đoạn trong sọ và qua lỗ tĩnh mạch cảnh:**
+   - Các rễ con hợp thành thân thần kinh, chạy chếch ra trước và ra ngoài qua khoang dưới nhện của hố sọ sau.
+   - Dây IX chui qua **lỗ tĩnh mạch cảnh** (*foramen jugulare*) ở **ngăn trước** (*pars nervosa*), được ngăn cách với ngăn sau (*pars venosa* - nơi có dây X, XI và tĩnh mạch cảnh trong) bởi một vách xơ màng cứng hoặc cầu xương.
+   - Tại lỗ tĩnh mạch cảnh, thần kinh phình ra tạo thành hai hạch cảm giác: **hạch trên** (nhỏ, nằm trong sọ) và **hạch dưới** (lớn hơn, nằm ở hố tam giác trên mỏm đá xương thái dương).
+2. **Đoạn cổ (khoang sau trâm):**
+   - Thoát khỏi nền sọ, dây IX đi xuống ở khoang sau trâm, ban đầu nằm sau động mạch cảnh trong, sau đó lách giữa động mạch cảnh trong và tĩnh mạch cảnh trong.
+   - Tiếp tục chạy chếch xuống dưới và ra trước, đi giữa động mạch cảnh trong và động mạch cảnh ngoài.
+   - Bắt chéo mặt ngoài và vòng quanh bờ sau **cơ trâm hầu** (*m. stylopharyngeus*), áp sát vào thành bên của hầu.
+3. **Đoạn đáy lưỡi:**
+   - Thần kinh chui qua khe giữa cơ khép hầu trên và cơ khép hầu giữa, đi sâu dưới **cơ móng lưỡi** (*m. hyoglossus*) cùng với động mạch lưỡi để tiến vào vùng đáy lưỡi.
+   - Tại đây, dây IX tỏa thành các nhánh tận cùng phân bố cho niêm mạc và các gai đài của 1/3 sau lưỡi.
+
 ![Hình 27: Phân nhánh và vùng chi phối của thần kinh lưỡi - hầu](figures/hinh_p429_27.png)
 *Hình 27: Phân nhánh và vùng chi phối của thần kinh lưỡi - hầu*
 
-- **Đường đi và phân nhánh:**
-  - Thoát ra khỏi sọ qua **lỗ tĩnh mạch cảnh** (*jugular foramen*), nằm trước dây X và XI.
-  - Đi xuống giữa động mạch cảnh trong và tĩnh mạch cảnh trong, rồi vòng quanh bờ sau cơ trâm hầu tới thành bên của hầu, chạy sâu dưới cơ móng lưỡi để vào đáy lưỡi.
-  - **Các nhánh bên:**
-    1. *Thần kinh nhĩ (Jacobson):* Tách ra từ hạch dưới, chui vào hòm nhĩ tạo nên đám rối nhĩ (cảm giác niêm mạc hòm nhĩ, vòi tai), rồi tiếp tục tạo nên **thần kinh đá bé** (*lesser petrosal nerve*) mang sợi đối giao cảm trước hạch tới **hạch tai** (*otic ganglion*). Từ hạch tai, sợi sau hạch theo thần kinh tai - thái dương tới vận tiết **tuyến nước bọt mang tai**.
-    2. *Nhánh xoang cảnh:* Chạy xuống xoang cảnh và tiểu thể cảnh (tiếp nhận các thụ thể áp lực và hóa học, đóng vai trò sống còn trong cung phản xạ điều hòa huyết áp và hô hấp của cơ thể).
-    3. *Nhánh cơ trâm hầu:* Chi phối vận động duy nhất cho cơ trâm hầu.
-    4. *Các nhánh hầu:* Cùng các nhánh của thần kinh X và giao cảm tạo thành đám rối hầu.
-    5. *Các nhánh hạnh nhân:* Cho hạnh nhân khẩu cái và màn khẩu cái.
-    6. *Các nhánh lưỡi:* Tận cùng ở 1/3 sau lưỡi, mang cảm giác thân thể (sờ, đau, nhiệt) và vị giác (đặc biệt là vị đắng) cho 1/3 sau lưỡi và các gai đài.
-- **Liên hệ lâm sàng:**
-  - Thần kinh IX phụ trách cung cảm giác (afferent limb) của **phản xạ nôn (Gag reflex)**; khi kích thích vào thành sau hầu, nếu dây IX tổn thương sẽ mất cảm giác và không gây phản xạ buồn nôn.
-  - *Đau thần kinh lưỡi - hầu:* Đau nhói dữ dội từng cơn ở họng, amidan, đáy lưỡi lan lên tai, khởi phát khi nuốt hoặc nói.
+#### 9.4. Các phân nhánh chính
+Dọc đường đi, thần kinh lưỡi - hầu tách ra 6 nhóm nhánh quan trọng:
+1. **Thần kinh nhĩ (*Nervus tympanicus* - Thần kinh Jacobson):**
+   - Tách từ hạch dưới, đi qua tiểu quản nhĩ (*canaliculus tympanicus*) ở mào xương đá giữa lỗ cảnh và ống cảnh để chui vào hòm nhĩ.
+   - Tại mặt trong hòm nhĩ (trên ụ nhô), nó tạo nên **đám rối nhĩ** (*plexus tympanicus*), chi phối cảm giác cho niêm mạc tai giữa, màng nhĩ trong và vòi nhĩ.
+   - Sau đó tập hợp lại tạo thành **thần kinh đá bé** (*n. petrosus minor*), chui ra mặt trước xương đá qua khe đá bé, đi qua lỗ rách hoặc lỗ bầu dục xuống hố dưới thái dương để tới **hạch tai** (*ganglion oticum*), mang sợi đối giao cảm chi phối tuyến mang tai.
+2. **Nhánh xoang cảnh (*Ramus sinus carotici* - Dây Hering):**
+   - Chạy xuống chỗ chia đôi động mạch cảnh chung, phân nhánh vào xoang cảnh và tiểu thể cảnh. Có vai trò sống còn trong cung phản xạ giảm áp (khi huyết áp tăng, thụ thể xoang cảnh bị kích thích, tín hiệu theo dây IX về hành não kích hoạt trung tâm ức chế tim và giãn mạch, làm giảm huyết áp và chậm nhịp tim).
+3. **Nhánh cơ trâm hầu (*Ramus musculi stylopharyngei*):**
+   - Tách ra khi dây IX bắt chéo cơ trâm hầu, vận động cho cơ này.
+4. **Các nhánh hầu (*Rami pharyngei*):**
+   - Gồm 3 - 4 nhánh chạy tới thành bên của hầu, kết hợp với nhánh hầu của dây X và các sợi giao cảm cổ tạo thành **đám rối hầu** (*plexus pharyngeus*), chi phối cảm giác cho niêm mạc hầu.
+5. **Các nhánh hạnh nhân (*Rami tonsillares*):**
+   - Cấp máu cảm giác cho hạnh nhân khẩu cái (amidan), các hốc hạnh nhân và khẩu cái mềm.
+6. **Các nhánh lưỡi (*Rami linguales*):**
+   - Là các nhánh tận, phân bố cảm giác thân thể (đau, nhiệt, xúc giác) và cảm giác vị giác (đặc biệt là vị đắng qua các gai đài) cho 1/3 sau lưỡi (phía sau rãnh chữ V của lưỡi).
+
+#### 9.5. Ứng dụng lâm sàng thần kinh lưỡi - hầu
+- **Khám phản xạ nôn (Gag reflex):**
+  - Kích thích nhẹ vào thành sau hầu hoặc amidan bằng tăm bông sẽ gây co phản xạ các cơ hầu và nâng vòm hầu.
+  - Cung phản xạ: Nhánh hướng tâm (afferent limb) là **thần kinh IX**; nhánh ly tâm (efferent limb) là **thần kinh X** (qua đám rối hầu co cơ khép hầu). Nếu tổn thương dây IX, phản xạ nôn cùng bên sẽ bị mất hoàn toàn.
+- **Đau dây thần kinh IX (Glossopharyngeal Neuralgia):**
+  - Đặc trưng bởi những cơn đau nhói dữ dội như dao đâm hoặc điện giật khu trú ở góc hàm, amidan, đáy lưỡi lan sâu vào tai và hòm nhĩ.
+  - Cơn đau thường khởi phát khi nuốt, nhai, nói, ho hoặc ngáp. Nguyên nhân thường do quai mạch máu (động mạch tiểu não sau dưới - PICA) chèn ép vào rễ dây IX tại rãnh sau trám hành.
+- **Hội chứng xoang cảnh nhạy cảm (Carotid Sinus Hypersensitivity):**
+  - Kích thích cơ học nhẹ vào vùng xoang cảnh (quay đầu mạnh, thắt caravat quá chặt, cạo râu) kích hoạt quá mức dây Hering về hành não, gây chậm nhịp tim kịch phát, giãn mạch tụt huyết áp dẫn đến ngất (*syncope*).
 
 ---
 
 ### 10. THẦN KINH LANG THANG (X) (Vagus nerve) (H.1, 2, 3, 28)
 
-Thần kinh lang thang là thần kinh sọ dài nhất và có vùng phân bố rộng lớn nhất trong cơ thể, đi từ đầu qua cổ, ngực xuống tận bụng, đảm nhiệm chức năng đối giao cảm chủ yếu cho hầu hết các tạng trong lồng ngực và ổ bụng.
+Thần kinh lang thang (dây thần kinh sọ X, trước đây còn gọi là thần kinh phế vị) là dây thần kinh sọ dài nhất, phân bố rộng lớn nhất và phức tạp nhất trong cơ thể người. Nó đi từ thân não, xuyên qua nền sọ, đi dọc toàn bộ vùng cổ, ngực và phân nhánh tận cùng tới hầu hết các tạng trong ổ bụng. Dây X là thành phần chủ lực của hệ thần kinh phó giao cảm (chiếm tới 75% toàn bộ lưu lượng sợi đối giao cảm của cơ thể).
 
-- **Nguyên ủy thật:**
-  - *Vận động cơ vân:* Nằm ở phần giữa **nhân hoài nghi** (*nucleus ambiguus*) ở hành não.
-  - *Đối giao cảm:* **Nhân lưng thần kinh lang thang** (*dorsal nucleus of vagus*) ở sàn não thất IV hành não.
-  - *Cảm giác:* Thân nơron nằm ở **hạch trên** (hạch cảnh - cảm giác thân thể) và **hạch dưới** (hạch kết khúc - cảm giác tạng và vị giác) ở lỗ tĩnh mạch cảnh. Sợi trung ương tận cùng ở nhân đơn độc và nhân tủy thần kinh V.
-- **Nguyên ủy hư:** Rãnh sau trám hành (ở giữa thần kinh IX ở trên và thần kinh XI ở dưới).
+#### 10.1. Thành phần chức năng và nguyên ủy thật
+Dây X tập hợp 5 loại sợi trục xuất phát từ 4 nhân chính ở hành não và 2 hạch ngoại biên:
+1. **Sợi vận động cơ vân (SVE - Special Visceral Efferent):**
+   - *Nguyên ủy:* Xuất phát từ phần giữa và phần dưới của **nhân hoài nghi** (*nucleus ambiguus*) ở hành não.
+   - *Vùng chi phối:* Vận động cho toàn bộ các cơ vân của hầu (trừ cơ trâm hầu [IX]), tất cả các cơ của khẩu cái mềm (trừ cơ căng màn khẩu cái [V3]), và toàn bộ các cơ nội tại của thanh quản (thông qua thần kinh thanh quản trên và thanh quản quặt ngược).
+2. **Sợi đối giao cảm trước hạch (GVE - General Visceral Efferent):**
+   - *Nguyên ủy:* Xuất phát từ **nhân lưng thần kinh lang thang** (*nucleus dorsalis nervi vagi*) nằm ở sàn não thất IV tại hành não.
+   - *Vùng chi phối:* Cho các sợi trước hạch đến tiếp khớp với các hạch tận cùng nằm ngay trong thành các tạng: cơ tim, hệ thống dẫn truyền tim (nút xoang, nút nhĩ thất), cơ trơn phế quản và tuyến tiết khí - phế quản, thực quản, dạ dày, ruột non, tụy, gan mật và đại tràng tới tận góc đại tràng trái (2/3 phải đại tràng ngang). Tác dụng: làm chậm nhịp tim, co thắt phế quản, tăng tiết dịch vị và tăng nhu động ruột.
+3. **Sợi cảm giác tạng (GVA - General Visceral Afferent):**
+   - *Nguyên ủy:* Thân nơron nằm ở **hạch dưới** (*ganglion inferius / hạch kết khúc - ganglion nodosum*).
+   - *Vùng tiếp nhận:* Dẫn truyền cảm giác tạng từ xoang thanh quản, khí phế quản, phổi, màng phổi, tim, thực quản và toàn bộ ống tiêu hóa dưới cơ hoành.
+   - *Tận cùng trung ương:* Tận cùng tại **nhân đơn độc** (*nucleus solitarius*), tham gia các phản xạ ho, nuốt, nôn, phản xạ co bóp dạ dày ruột.
+4. **Sợi cảm giác vị giác (SVA - Special Visceral Afferent):**
+   - *Nguyên ủy:* Thân nơron ở **hạch dưới** của dây X.
+   - *Vùng tiếp nhận:* Tiếp nhận cảm giác vị giác từ các chồi vị giác rải rác ở **nắp thanh môn** (*epiglottis*) và thung lũng nắp thanh môn (*vallecula*).
+   - *Tận cùng trung ương:* Phần trên của **nhân đơn độc**.
+5. **Sợi cảm giác thân thể chung (GSA - General Somatic Afferent):**
+   - *Nguyên ủy:* Thân nơron nằm ở **hạch trên** (*ganglion superius / hạch cảnh - jugular ganglion*).
+   - *Vùng tiếp nhận:* Dẫn truyền cảm giác đau, nhiệt, xúc giác từ da mặt sau loa tai, ống tai ngoài, màng nhĩ ngoài (qua nhánh tai Arnold) và màng cứng hố sọ sau (qua nhánh màng não).
+   - *Tận cùng trung ương:* Tận cùng tại **nhân tủy thần kinh sinh ba**.
+
+#### 10.2. Nguyên ủy hư
+Thần kinh X thoát ra ở **rãnh sau trám hành** (*sulcus retroolivaris*) bằng 8 đến 10 rễ con xếp thành hàng dọc, nằm ngay bên dưới thần kinh IX và bên trên các rễ sọ của thần kinh XI.
 
 ![Hình 28: Đường đi, phân nhánh và vùng chi phối của thần kinh lang thang](figures/hinh_p432_28.png)
 *Hình 28: Đường đi, phân nhánh và vùng chi phối của thần kinh lang thang*
 
-- **Đường đi và liên quan:**
-  - Thoát khỏi sọ qua **lỗ tĩnh mạch cảnh** (phần giữa, cùng dây IX và XI).
-  - Đi thẳng xuống vùng cổ trong **bao cảnh**, nằm ở góc sau giữa động mạch cảnh trong (sau đó là cảnh chung) ở trong và tĩnh mạch cảnh trong ở ngoài.
-  - Đi vào ngực:
-    + *Thần kinh X phải:* Bắt chéo trước động mạch dưới đòn phải; tại đây tách ra **thần kinh thanh quản quặt ngược phải** vòng dưới động mạch dưới đòn chạy ngược lên cổ. Sau đó dây X phải đi sau cuống phổi phải, tạo đám rối phổi sau, đám rối thực quản sau và tạo thành **thân lang thang sau** (*posterior vagal trunk*).
-    + *Thần kinh X trái:* Đi giữa động mạch cảnh chung trái và động mạch dưới đòn trái, bắt chéo bờ trái quai động mạch chủ; tại đây tách ra **thần kinh thanh quản quặt ngược trái** vòng dưới quai động mạch chủ (ngay sau dây chằng động mạch) chạy ngược lên rãnh khí - thực quản. Sau đó dây X trái đi sau cuống phổi trái, tạo đám rối thực quản trước và tạo thành **thân lang thang trước** (*anterior vagal trunk*).
-  - Đi qua cơ hoành qua lỗ thực quản (ngang mức T10) vào ổ bụng:
-    + Thân lang thang trước: Cho các nhánh vị trước chi phối mặt trước dạ dày (nhánh Latarjet trước) và các nhánh gan tới gan, túi mật.
-    + Thân lang thang sau: Cho các nhánh vị sau chi phối mặt sau dạ dày (nhánh Latarjet sau) và các nhánh thân tạng đi vào đám rối thân tạng, chi phối tụy, lách, ruột non, ruột già tới tận góc đại tràng trái (2/3 phải đại tràng ngang).
-- **Các nhánh quan trọng ở đầu cổ và ngực:**
-  - *Nhánh tai (Arnold):* Cảm giác da mặt sau loa tai, ống tai ngoài và màng nhĩ (nguyên nhân gây phản xạ ho khi ngoáy tai).
-  - *Các nhánh hầu:* Vận động hầu hết các cơ của hầu và các cơ màn khẩu cái (trừ cơ căng màn khẩu cái [V3] và cơ trâm hầu [IX]).
-  - *Thần kinh thanh quản trên:* Chia thành nhánh trong (cảm giác niêm mạc thanh quản trên nếp thanh âm) và nhánh ngoài (vận động cơ nhẫn giáp).
-  - *Các thần kinh thanh quản quặt ngược:* Chi phối vận động toàn bộ các cơ nội tại của thanh quản (trừ cơ nhẫn giáp) và cảm giác niêm mạc thanh quản dưới nếp thanh âm.
-  - *Các nhánh tim:* Tham gia đám rối tim, làm giảm nhịp tim và giảm sức co bóp cơ tim.
-- **Liên hệ lâm sàng:**
-  - *Tổn thương thần kinh thanh quản quặt ngược:* Thường gặp trong phẫu thuật tuyến giáp hoặc u đỉnh phổi (dây quặt ngược phải), phình quai động mạch chủ / u trung thất (dây quặt ngược trái). Tổn thương một bên gây khàn tiếng; tổn thương hai bên gây khó thở thanh quản dữ dội có thể đe dọa tính mạng đòi hỏi phải mở khí quản cấp cứu.
-  - *Phản xạ nôn:* Dây X phụ trách cung vận động (efferent limb) làm co thắt các cơ hầu và nâng màn hầu.
+#### 10.3. Đường đi và liên quan giải phẫu theo 4 đoạn
+1. **Đoạn trong sọ và lỗ tĩnh mạch cảnh:**
+   - Các rễ con quy tụ thành thân thần kinh, chạy qua khoang dưới nhện của hố sọ sau.
+   - Thoát khỏi sọ qua **ngăn sau** (*pars venosa*) của **lỗ tĩnh mạch cảnh**, nằm cùng bao xơ màng cứng với thần kinh phụ (XI) và ngay phía trước tĩnh mạch cảnh trong.
+   - Tại lỗ cảnh có **hạch trên** (hình cầu, đường kính 4mm); ngay dưới lỗ cảnh, thần kinh phình to thành **hạch dưới** (hình thoi, dài 2,5cm).
+2. **Đoạn cổ:**
+   - Thần kinh X chạy thẳng đứng từ trên xuống dưới trong **bao cảnh** (*vagina carotica*), nằm ở góc nhị diện phía sau giữa động mạch (động mạch cảnh trong ở trên, động mạch cảnh chung ở dưới) ở phía trong và tĩnh mạch cảnh trong ở phía ngoài.
+   - *Phía sau:* Ngăn cách với các mỏm ngang đốt sống cổ bởi mạc trước cột sống và thân giao cảm cổ (chuỗi hạch giao cảm cổ nằm ngay sau bao cảnh).
+   - *Phía trước ngoài:* Được cơ ức đòn chũm và quai cổ che phủ.
+3. **Đoạn ngực (Bất đối xứng giải phẫu đặc biệt giữa hai bên):**
+   - **Thần kinh X phải:**
+     + Đi vào ngực bằng cách bắt chéo phía trước **động mạch dưới đòn phải** (giữa động mạch dưới đòn và tĩnh mạch dưới đòn).
+     + Ngay tại bờ dưới động mạch dưới đòn, dây X phải tách ra **thần kinh thanh quản quặt ngược phải** (*n. laryngeus recurrens dexter*) vòng từ trước ra sau dưới động mạch dưới đòn rồi chạy ngược lên cổ.
+     + Thân dây X phải tiếp tục đi xuống trung thất trên, nằm sau tĩnh mạch chủ trên và phế quản chính phải, đi vào trung thất sau áp sát mặt sau cuống phổi phải.
+     + Tại mặt sau cuống phổi, dây X phải tách các nhánh tạo đám rối phổi sau, sau đó phân tán thành các sợi trên thành thực quản tạo **đám rối thực quản sau** và tập hợp lại thành **thân lang thang sau** (*truncus vagalis posterior*).
+   - **Thần kinh X trái:**
+     + Đi vào ngực giữa động mạch cảnh chung trái và động mạch dưới đòn trái, phía sau tĩnh mạch cánh tay đầu trái.
+     + Bắt chéo mặt trước ngoài của **quai động mạch chủ** (*arcus aortae*), nằm sau thần kinh hoành trái.
+     + Tại bờ dưới quai động mạch chủ, ngay phía ngoài dây chằng động mạch (*ligamentum arteriosum*), dây X trái tách ra **thần kinh thanh quản quặt ngược trái** (*n. laryngeus recurrens sinister*). Nhánh này vòng dưới quai động mạch chủ từ trước ra sau rồi chạy ngược lên cổ trong rãnh khí - thực quản trái.
+     + Thân dây X trái tiếp tục đi sau phế quản chính trái, tạo đám rối phổi sau trái, rồi chạy ra mặt trước thực quản tạo **đám rối thực quản trước** và tập hợp lại thành **thân lang thang trước** (*truncus vagalis anterior*).
+4. **Đoạn bụng:**
+   - Hai thân lang thang cùng thực quản chui qua **lỗ thực quản của cơ hoành** (*hiatus oesophageus*) ở ngang mức đốt sống ngực T10 vào ổ bụng:
+     + **Thân lang thang trước (*Truncus vagalis anterior*):** Áp sát mặt trước tâm vị và bờ cong nhỏ dạ dày. Tách các nhánh vị trước (nhánh Latarjet trước cấp máu và vận động thành trước dạ dày tới tận môn vị) và các nhánh gan (*rami hepatici*) đi trong mạc nối nhỏ tới cuống gan.
+     + **Thân lang thang sau (*Truncus vagalis posterior*):** Đi ở mặt sau tâm vị và bờ cong nhỏ. Tách nhánh vị sau (nhánh Latarjet sau) và các nhánh thân tạng (*rami coeliaci*) rất lớn đi vào đám rối thân tạng (*plexus coeliacus*), từ đó phân tán theo các nhánh động mạch tới chi phối đối giao cảm cho tụy, lách, thận, tuyến thượng thận, toàn bộ ruột non, manh tràng, ruột thừa, đại tràng lên và 2/3 phải đại tràng ngang.
+
+#### 10.4. Các phân nhánh chính
+- **Ở đầu và cổ:**
+  1. *Nhánh màng não:* Cảm giác màng não hố sọ sau.
+  2. *Nhánh tai (Thần kinh Arnold):* Đi qua tiểu quản chũm, cảm giác da mặt sau loa tai và thành sau dưới ống tai ngoài (ngoáy tai gây ho do kích thích nhánh này).
+  3. *Các nhánh hầu:* Tạo đám rối hầu, vận động các cơ co thắt hầu và cơ nâng màn hầu.
+  4. *Thần kinh thanh quản trên (*Nervus laryngeus superior*):* Tách từ hạch dưới, đi chéo xuống dưới sâu dưới động mạch cảnh trong tới sừng lớn xương móng rồi chia 2 nhánh:
+     - Nhánh trong (*ramus internus*): Xuyên qua màng giáp - móng cùng động mạch thanh quản trên, cảm giác toàn bộ niêm mạc thanh quản phía trên nếp thanh âm và nắp thanh môn.
+     - Nhánh ngoài (*ramus externus*): Chạy dọc cơ khép hầu dưới, vận động cho **cơ nhẫn giáp** (*m. cricothyroideus*) - cơ làm căng dây thanh âm.
+  5. *Thần kinh thanh quản quặt ngược (*Nervus laryngeus recurrens*):*
+     - Dây phải quặt dưới ĐM dưới đòn; dây trái quặt dưới quai ĐM chủ. Cả hai chạy ngược lên trong rãnh giữa khí quản và thực quản, đi sát cực dưới thùy bên tuyến giáp (liên quan mật thiết với động mạch giáp dưới).
+     - Đổi tên thành **thần kinh thanh quản dưới** (*n. laryngeus inferior*) khi chui dưới bờ dưới cơ khép hầu dưới vào thanh quản.
+     - Vận động cho **toàn bộ các cơ nội tại của thanh quản** (trừ cơ nhẫn giáp): cơ nhẫn phễu sau (cơ duy nhất mở thanh môn), cơ nhẫn phễu bên, cơ giáp phễu, cơ phễu chéo và ngang. Đồng thời cảm giác niêm mạc thanh quản bên dưới nếp thanh âm.
+- **Ở ngực:** Các nhánh tim ngực, nhánh phế quản (tạo đám rối phổi), nhánh thực quản.
+- **Ở bụng:** Các nhánh dạ dày (thần kinh Latarjet trước và sau), nhánh gan, nhánh thân tạng.
+
+#### 10.5. Ứng dụng lâm sàng thần kinh lang thang
+- **Tổn thương thần kinh thanh quản quặt ngược trong phẫu thuật tuyến giáp:**
+  - Do thần kinh quặt ngược bắt chéo hoặc đi xen kẽ với các nhánh của động mạch giáp dưới ngay tại cực dưới tuyến giáp, nó rất dễ bị kẹp, cắt đứt hoặc thiếu máu nuôi.
+  - *Liệt một bên:* Gây khàn tiếng (*hoarseness*), giọng yếu do dây thanh âm bên liệt nằm ở tư thế trung gian không khép kín được.
+  - *Liệt hai bên:* Hai dây thanh âm đều rũ ở tư thế trung gian làm hẹp hoàn toàn khe thanh môn, gây **khó thở thanh quản cấp tính**, thở rít (*stridor*), đe dọa tính mạng, đòi hỏi mở khí quản cấp cứu tức thì.
+- **Khám tổn thương thân dây X (Dấu hiệu vén màn hầu - Vernet's curtain sign):**
+  - Khi bảo bệnh nhân há miệng phát âm "A": nếu liệt dây X một bên, màn hầu bên lành được nâng lên trong khi bên liệt sa xuống, **lưỡi gà bị kéo lệch sang bên lành**.
+  - Bệnh nhân bị mất phản xạ nôn, sặc thức ăn lỏng lên mũi khi nuốt (do hở vòm hầu) và giọng mũi hở (*rhinolalia*).
+- **Hội chứng Horner phối hợp:** Khối u hoặc phẫu thuật bao cảnh tổn thương đồng thời dây X và chuỗi hạch giao cảm cổ nằm ngay sau bao cảnh.
+- **Phẫu thuật cắt thần kinh X (Vagotomy):**
+  - Cắt thần kinh X chọn lọc cao (bảo tồn nhánh nérf de Latarjet tới hang vị - môn vị nhưng cắt các nhánh tới thân và đáy vị) từng là phương pháp kinh điển điều trị loét dạ dày tá tràng kháng trị nhằm triệt tiêu kích thích tiết acid clohydric (HCl).
 
 ---
 
 ### 11. THẦN KINH PHỤ (XI) (Accessory nerve) (H.1, 2, 3, 29)
 
-Thần kinh phụ là thần kinh vận động đơn thuần, gồm hai phần có nguồn gốc khác nhau: rễ sọ và rễ gai.
+Thần kinh phụ (dây thần kinh sọ XI, trước đây gọi là thần kinh gai) là một thần kinh vận động thuần túy đặc biệt vì nó được hình thành từ sự kết hợp của hai thành phần có nguồn gốc phôi thai và giải phẫu hoàn toàn khác biệt: **rễ sọ** (bản chất thuộc hành não) và **rễ gai** (bản chất thuộc tủy sống cổ).
 
-- **Nguyên ủy thật:**
-  - *Rễ sọ (Cranial root):* Xuất phát từ phần dưới **nhân hoài nghi** ở hành não.
-  - *Rễ gai (Spinal root):* Xuất phát từ **nhân gai thần kinh phụ** nằm ở sừng trước chất xám tuỷ sống cổ từ C1 đến C5 (hoặc C6).
-- **Nguyên ủy hư và đường đi:**
-  - Các rễ gai chui ra khỏi mặt bên tuỷ gai cổ, tập hợp thành một thân duy nhất đi lên qua **lỗ lớn xương chẩm** (*foramen magnum*) vào hố sọ sau.
-  - Tại đây, rễ gai hợp nhất tạm thời với rễ sọ (thoát ra từ rãnh sau trám hành dưới dây X) tạo thành thần kinh phụ.
-  - Thần kinh phụ đi qua **lỗ tĩnh mạch cảnh** ra ngoài sọ rồi ngay lập tức tách thành hai nhánh:
-    + *Nhánh trong:* Chứa toàn bộ các sợi của rễ sọ, nhập vào thân thần kinh lang thang (X) để theo các nhánh hầu và thanh quản quặt ngược tới cơ hầu và thanh quản.
-    + *Nhánh ngoài:* Chứa toàn bộ các sợi của rễ gai, đi xuống bắt chéo tĩnh mạch cảnh trong, xuyên qua mặt sâu cơ ức đòn chũm (chi phối vận động cho cơ này), sau đó đi ngang qua tam giác cổ sau và chui vào mặt sâu **cơ thang** để chi phối vận động cho cơ thang.
+#### 11.1. Cấu tạo và nguyên ủy thật
+1. **Rễ sọ (*Radix cranialis*):**
+   - *Nguyên ủy:* Xuất phát từ cực dưới của **nhân hoài nghi** (*nucleus ambiguus*) ở hành não.
+   - Các sợi này bản chất là thành phần vận động của dây X nhưng mượn đường đi tạm thời theo dây XI trong một đoạn ngắn.
+2. **Rễ gai (*Radix spinalis*):**
+   - *Nguyên ủy:* Xuất phát từ **cột nhân thần kinh phụ** (*nucleus nervi accessorii*) nằm ở sừng trước chất xám tủy sống cổ kéo dài từ đốt C1 đến C5 (đôi khi tới C6).
+
+#### 11.2. Nguyên ủy hư và đường đi
+1. **Nguyên ủy hư:**
+   - *Rễ sọ:* Thoát ra ở phần dưới cùng của **rãnh sau trám hành** (dưới các rễ của dây X).
+   - *Rễ gai:* Thoát ra ở mặt bên của tủy gai cổ, giữa rễ trước và rễ sau của các dây thần kinh gai sống cổ C1 - C5 bằng một chuỗi các sợi con.
+2. **Đường đi trong sọ:**
+   - Các sợi rễ gai hợp thành một thân duy nhất chạy ngược lên trên trong ống sống, chui qua **lỗ lớn xương chẩm** (*foramen magnum*) để vào hố sọ sau.
+   - Tại hố sọ sau, thân rễ gai chạy ra ngoài hợp nhất với rễ sọ tạo thành **thần kinh phụ**.
+3. **Qua lỗ tĩnh mạch cảnh và phân chia nhánh:**
+   - Thần kinh phụ cùng dây X chui qua **ngăn sau của lỗ tĩnh mạch cảnh** ra ngoài sọ.
+   - Ngay khi vừa ra khỏi lỗ cảnh, thần kinh XI lập tức phân đôi thành hai nhánh riêng biệt:
+     - **Nhánh trong (*Ramus internus*):** Nhỏ hơn, mang toàn bộ các sợi của rễ sọ. Nhánh này hòa nhập ngay vào thân của **thần kinh lang thang (X)** ngay phía trên hạch dưới dây X, phân phối theo các nhánh hầu và thần kinh thanh quản quặt ngược để vận động các cơ hầu và cơ thanh quản.
+     - **Nhánh ngoài (*Ramus externus*):** Lớn hơn, chính là sự tiếp tục của các sợi rễ gai. Đây là nhánh thực thụ duy nhất của dây thần kinh phụ tồn tại độc lập ở vùng cổ.
 
 ![Hình 29: Thần kinh phụ và vùng phân bố](figures/hinh_p435_29.png)
 *Hình 29: Thần kinh phụ và vùng phân bố*
 
-- **Liên hệ lâm sàng:**
-  - Do chạy nông trong tam giác cổ sau (ngay dưới mạc nông), nhánh ngoài dây XI rất dễ bị tổn thương trong các thủ thuật sinh thiết hạch cổ hoặc chấn thương cổ.
-  - *Liệt dây XI:* Gây xệ vai, xương bả vai bị kéo xuống dưới và ra ngoài (cánh xương bả vai - winged scapula dạng nhẹ), bệnh nhân không thể nhún vai bên liệt (do liệt cơ thang) và khó quay đầu sang bên đối diện (do liệt cơ ức đòn chũm).
+#### 11.3. Đường đi và liên quan của nhánh ngoài ở vùng cổ
+Nhánh ngoài dây XI có lộ trình giải phẫu ngoại khoa tối quan trọng:
+1. **Đoạn trên cơ ức đòn chũm:**
+   - Đi chếch xuống dưới, ra sau và sang bên trong khoang sau trâm.
+   - Bắt chéo phía trước (trong 70% trường hợp) hoặc phía sau (30%) tĩnh mạch cảnh trong.
+   - Chạy sâu dưới bụng sau cơ hai bụng và cơ trâm móng, được động mạch chẩm bắt chéo.
+2. **Đoạn qua cơ ức đòn chũm:**
+   - Thần kinh đi tới mặt sâu **cơ ức đòn chũm** (*m. sternocleidomastoideus*), xuyên qua hoặc đi dưới cơ này ở vị trí nối 1/3 trên và 2/3 dưới của cơ, phân nhánh vận động cho cơ ức đòn chũm.
+3. **Đoạn trong tam giác cổ sau:**
+   - Thoát ra ở bờ sau cơ ức đòn chũm tại **điểm Erb** (điểm thần kinh - cách mỏm chũm khoảng 4 - 5cm).
+   - Chạy chéo xuống dưới và ra sau qua **tam giác cổ sau** (*trigonum colli posterius*), tựa trên mặt nông cơ nâng vai (*m. levator scapulae*).
+   - **Đặc điểm phẫu thuật cực kỳ nguy hiểm:** Tại tam giác cổ sau, nhánh ngoài dây XI nằm rất nông, chỉ được che phủ bởi da, mỡ dưới da, cơ bám da cổ và lá nông mạc cổ sâu (*lamina superficialis fasciae cervicalis*), đi kèm với chuỗi hạch bạch huyết cổ sau.
+4. **Đoạn cơ thang:**
+   - Thần kinh chui vào mặt sâu **cơ thang** (*m. trapezius*) ở vị trí cách bờ trên xương đòn khoảng 2 - 3 khoát ngón tay (ngang mức bờ trên sụn nhẫn), phân nhánh vận động cho toàn bộ cơ thang.
+   - Tại mặt sâu cơ thang, nó tạo mạng nối với các nhánh cảm giác bản thể sâu từ đám rối cổ (C2, C3, C4).
+
+#### 11.4. Ứng dụng lâm sàng thần kinh phụ
+- **Tổn thương nhánh ngoài dây XI trong phẫu thuật vùng cổ:**
+  - Do nằm nông ngay dưới mạc cổ trong tam giác cổ sau, dây XI là thần kinh sọ bị tổn thương do điều trị (iatrogenic injury) phổ biến nhất, thường gặp trong các thủ thuật: sinh thiết hạch cổ sau, nạo vét hạch cổ trong ung thư đầu mặt cổ, mổ u bọc mỡ hoặc chấn thương rách cổ.
+- **Triệu chứng liệt dây thần kinh XI:**
+  - *Liệt cơ thang:*
+    + Vai bên tổn thương bị **sa trễ xuống dưới và ra trước**.
+    + Bệnh nhân **mất khả năng nhún vai** bên tổn thương khi chống lại lực cản của người khám.
+    + Mất khả năng giạng cánh tay lên quá 90 độ (do cơ thang không thể xoay góc dưới xương bả vai lên trên).
+    + Teo cơ thang làm hố trên đòn sâu hoắm, bờ vai biến dạng lõm.
+    + Xuất hiện biến dạng **xương bả vai hình cánh chim** (*winged scapula*): góc dưới xương bả vai bị xoay ra ngoài và trượt xuống dưới (khác với tổn thương thần kinh ngực dài làm xương bả vai nhô ra sau và trượt vào trong).
+  - *Liệt cơ ức đòn chũm:*
+    + Yếu hoặc mất khả năng xoay mặt sang phía đối diện khi có lực cản.
+    + Teo cơ ức đòn chũm làm mất gờ nổi tự nhiên ở bờ trước bên cổ.
 
 ---
 
 ### 12. THẦN KINH HẠ THIỆT (XII) (Hypoglossal nerve) (H.1, 2, 3, 30, 31, 32)
 
-Thần kinh hạ thiệt là thần kinh vận động thuần túy cho toàn bộ các cơ nội tại và ngoại lai của lưỡi.
+Thần kinh hạ thiệt (dây thần kinh sọ XII) là dây thần kinh vận động thuần túy, chịu trách nhiệm chi phối vận động cho toàn bộ các cơ nội tại và hầu hết các cơ ngoại lai của lưỡi, đóng vai trò then chốt trong các hoạt động nói, nhai, nuốt và bảo vệ đường thở.
 
-- **Nguyên ủy thật:** **Nhân thần kinh hạ thiệt** (*hypoglossal nucleus*) nằm ở hành não, sát đường giữa dưới sàn não thất IV (tam giác hạ thiệt).
-- **Nguyên ủy hư:** Rãnh trước trám hành (rãnh bên trước hành não) bằng 10 - 15 sợi nhỏ.
+#### 12.1. Nguyên ủy thật
+- **Nhân thần kinh hạ thiệt (*Nucleus nervi hypoglossi*):**
+  - Là một cột tế bào vận động soma (GSE - General Somatic Efferent) dài khoảng 1,5 – 2 cm, nằm sát đường giữa ở phần lưng hành não.
+  - Cột nhân này đội sàn não thất IV lên tạo thành **tam giác thần kinh hạ thiệt** (*trigonum nervi hypoglossi* - cánh trong) ở phần dưới sàn não thất IV.
+  - Nhân nhận các sợi vỏ não - hành (corticobulbar fibers) bắt chéo chủ yếu từ bán cầu đại não đối diện.
 
 ![Hình 30: Nhân nguyên uỷ và các tiếp nối trung ương của thần kinh hạ thiệt](figures/hinh_p437_30.png)
 *Hình 30: Nhân nguyên uỷ và các tiếp nối trung ương của thần kinh hạ thiệt*
 
-- **Đường đi và liên quan:**
-  - Các sợi tập hợp lại rời sọ qua **ống thần kinh hạ thiệt** (*hypoglossal canal*) ở nền sọ.
-  - Thoát ra ngoài sọ, dây XII đi xuống giữa động mạch cảnh trong và tĩnh mạch cảnh trong, sau dây IX, X, XI.
-  - Vòng ra trước bắt chéo ngoài động mạch cảnh trong, động mạch cảnh ngoài và các nhánh của nó (như động mạch chẩm, động mạch mặt).
-  - Chạy trên xương móng, đi sâu dưới bụng sau cơ hai bụng và cơ trâm móng, lướt trên mặt nông cơ móng lưỡi để vào các cơ lưỡi.
-  - Dọc đường đi, dây XII tiếp nhận một nhánh từ dây thần kinh sống cổ C1; nhánh này sau đó tách ra tạo thành **rễ trên quai cổ** (*ansa cervicalis*) và các nhánh tới cơ giáp móng và cơ cằm móng.
-- **Phân nhánh và chi phối:**
-  - Vận động tất cả các cơ nội tại của lưỡi (cơ dọc trên, dọc dưới, ngang và đứng).
-  - Vận động các cơ ngoại lai của lưỡi: cơ cằm lưỡi (*genioglossus*), cơ móng lưỡi (*hyoglossus*), cơ trâm lưỡi (*styloglossus*). Riêng cơ khẩu cái lưỡi (*palatoglossus*) do đám rối hầu của dây X chi phối.
+#### 12.2. Nguyên ủy hư
+Thần kinh XII thoát ra ở **rãnh trước trám hành** (*sulcus preolivaris* - rãnh bên trước của hành não, giữa trám hành ở phía sau và tháp hành ở phía trước) bằng một chuỗi 10 đến 15 rễ con xếp thành hàng dọc.
+
+#### 12.3. Đường đi và liên quan giải phẫu
+Đường đi của thần kinh XII được mô tả qua 4 đoạn liên quan:
+1. **Đoạn trong sọ và qua nền sọ:**
+   - Các rễ con quy tụ thành hai bó sợi riêng biệt, chui qua màng cứng vào **ống thần kinh hạ thiệt** (*canalis nervi hypoglossi* - ống lồi cầu trước) ở nền xương chẩm.
+   - Trong ống xương chẩm, hai bó này hợp nhất thành một thân thần kinh duy nhất thoát ra ngoài nền sọ.
+2. **Đoạn khoang sau trâm (Cổ cao):**
+   - Thoát khỏi ống hạ thiệt, dây XII nằm sâu nhất trong khoang sau trâm, nằm sau động mạch cảnh trong và tĩnh mạch cảnh trong, áp sát phía trong các dây thần kinh IX, X, XI.
+   - Thần kinh chạy chếch xuống dưới, lách ra phía ngoài giữa động mạch cảnh trong và tĩnh mạch cảnh trong.
+   - Tại đây, dây XII tiếp nhận một nhánh tiếp nối từ **nhánh trước thần kinh gai sống cổ thứ nhất (C1)**. Các sợi C1 này chỉ mượn đường chạy cùng dây XII (hiện tượng "hitchhiking") mà không hòa lẫn sợi trục.
+3. **Đoạn tam giác cảnh:**
+   - Đi xuống ngang mức góc hàm và xương móng, dây XII vòng ra trước tạo thành một đường cong lồi xuống dưới.
+   - **Bắt chéo mặt ngoài:** lần lượt bắt chéo mặt ngoài động mạch cảnh trong, động mạch cảnh ngoài, và chỗ xuất phát của động mạch chẩm và động mạch lưỡi.
+   - Được tĩnh mạch mặt và bụng sau cơ hai bụng, cơ trâm móng bắt chéo phía ngoài.
+   - Tại đỉnh của đường cong (ngang mức góc hàm), các sợi C1 mượn đường tách khỏi dây XII chạy thẳng xuống dưới tạo thành **rễ trên quai cổ** (*radix superior ansae cervicalis*).
+4. **Đoạn dưới hàm và sàn miệng:**
+   - Thần kinh đi vào **tam giác dưới hàm**, chạy nông hơn động mạch lưỡi (nằm trên mặt nông cơ móng lưỡi, được tuyến nước bọt dưới hàm và cơ hàm móng che phủ).
+   - Tạo thành cạnh trên của **tam giác Pirogoff** và **tam giác Béclard** (các mốc ngoại khoa kinh điển để tìm và thắt động mạch lưỡi).
+   - Chui qua bờ sau cơ hàm móng, lách giữa cơ hàm móng và cơ móng lưỡi cùng với ống tuyến dưới hàm (ống Wharton) để tiến vào cấu trúc các cơ của lưỡi.
+   - Tận cùng bằng cách tỏa ra vô số nhánh vận động đi sâu vào nhu mô lưỡi.
 
 ![Hình 31: Đường đi và phân nhánh của thần kinh hạ thiệt](figures/hinh_p439_31.png)
 *Hình 31: Đường đi và phân nhánh của thần kinh hạ thiệt*
@@ -439,6 +588,42 @@ Thần kinh hạ thiệt là thần kinh vận động thuần túy cho toàn b�
 ![Hình 32: Sơ đồ chi phối các cơ lưỡi của thần kinh hạ thiệt](figures/hinh_p439_32.png)
 *Hình 32: Sơ đồ chi phối các cơ lưỡi của thần kinh hạ thiệt*
 
-- **Liên hệ lâm sàng:**
-  - *Liệt dây XII một bên (ngoại vi):* Khi thè lưỡi, **đầu lưỡi lệch về bên liệt** (do cơ cằm lưỡi bên lành khỏe hơn đẩy lưỡi sang bên liệt). Nửa lưỡi bên liệt bị teo cơ, niêm mạc nhăn nheo và có rung giật bó cơ (*fasciculations*).
-  - Khi tổn thương nơron vận động trên (vỏ não - hành): đầu lưỡi lệch về bên đối diện với bán cầu não bị tổn thương.
+#### 12.4. Phân nhánh và tiếp nối
+1. **Các nhánh thực sự của thần kinh XII (Sợi từ nhân hạ thiệt):**
+   - **Chi phối toàn bộ các cơ nội tại của lưỡi:** Cơ dọc trên (*m. longitudinalis superior*), cơ dọc dưới (*m. longitudinalis inferior*), cơ ngang lưỡi (*m. transversus linguae*), và cơ thẳng đứng lưỡi (*m. verticalis linguae*). Các cơ này làm thay đổi hình dạng của lưỡi (uốn cong, dẹt, tròn).
+   - **Chi phối hầu hết các cơ ngoại lai của lưỡi:**
+     + **Cơ cằm lưỡi (*m. genioglossus*):** Cơ quan trọng nhất, có tác dụng kéo đáy lưỡi ra trước để thè lưỡi ra ngoài.
+     + **Cơ móng lưỡi (*m. hyoglossus*):** Kéo hạ bờ bên của lưỡi xuống dưới.
+     + **Cơ trâm lưỡi (*m. styloglossus*):** Kéo lùi lưỡi ra sau và nâng gốc lưỡi lên trên.
+     - *Ngoại lệ duy nhất:* **Cơ khẩu cái lưỡi** (*m. palatoglossus*) không do dây XII chi phối, mà do **đám rối hầu của thần kinh X** chi phối.
+2. **Các nhánh mượn đường từ thần kinh gai sống C1:**
+   - **Nhánh màng não:** Quay ngược vào hố sọ sau cảm giác màng cứng.
+   - **Rễ trên quai cổ (*Radix superior ansae cervicalis*):** Chạy xuống trước bao cảnh, hợp với rễ dưới (gồm các sợi từ C2, C3) tạo thành **quai cổ** (*ansa cervicalis*). Quai cổ phân nhánh vận động cho 3 cơ dưới móng: **cơ ức - móng**, **cơ ức - giáp**, và **cơ vai - móng**.
+   - **Nhánh cho cơ giáp móng (*Ramus thyrohyoideus*):** Chạy tới cơ giáp móng.
+   - **Nhánh cho cơ cằm móng (*Ramus geniohyoideus*):** Đi tới cơ cằm móng ở sàn miệng.
+
+#### 12.5. Ứng dụng lâm sàng thần kinh hạ thiệt
+- **Dấu hiệu tổn thương nơron vận động dưới (Liệt dây XII ngoại vi một bên):**
+  - **Khám khi thè lưỡi:** Đầu lưỡi **lệch về bên tổn thương (bên liệt)**. Cơ chế: Cơ cằm lưỡi bên lành còn nguyên vẹn sẽ co và đẩy nửa lưỡi bên lành ra trước và đẩy chéo sang phía bên liệt (bên bị yếu không có lực đối kháng).
+  - **Khám khi lưỡi nằm yên trong khoang miệng:** Lưỡi có thể hơi nghiêng nhẹ về bên lành do trương lực cơ trâm lưỡi bên lành co kéo.
+  - **Dấu hiệu teo cơ:** Nửa lưỡi bên liệt bị teo nhỏ rõ rệt, niêm mạc nhăn nheo, bề mặt lồi lõm rãnh sâu.
+  - **Rung giật bó cơ (*Fasciculations*):** Thấy rõ các sóng rung giật sợi cơ lăn tăn dưới niêm mạc nửa lưỡi bên liệt do tăng tính nhạy cảm thần kinh sau thoái hóa sợi trục.
+  - Ảnh hưởng phát âm: Bệnh nhân khó phát âm các âm đầu lưỡi - răng (như đ, t, l, n).
+- **Dấu hiệu tổn thương nơron vận động trên (Liệt trung ương do đột quỵ bán cầu não):**
+  - Do bó vỏ não - hành bắt chéo sang nhân hạ thiệt đối bên, khi tổn thương vỏ não hoặc bao trong một bên: khi thè lưỡi, **đầu lưỡi lệch về bên đối diện với ổ tổn thương não** (tức là lệch về bên nửa người bị liệt). Lưỡi không có hiện tượng teo cơ hay rung giật bó cơ.
+- **Nguy cơ tổn thương trong phẫu thuật bóc nội mạc động mạch cảnh (Carotid Endarterectomy - CEA):**
+  - Do dây XII bắt chéo mặt ngoài chỗ phân đôi của động mạch cảnh chung và động mạch cảnh trong, việc bộc lộ phẫu trường động mạch cảnh rất dễ làm căng, dập hoặc cắt đứt dây XII nếu phẫu thuật viên không nhận diện được quai hạ thiệt.
+
+---
+
+### 13. BẢNG TỔNG KẾT CÁC HỘI CHỨNG LÂM SÀNG TỔN THƯƠNG PHỐI HỢP NỀN SỌ (IX, X, XI, XII)
+
+Do 4 đôi dây thần kinh sọ cuối cùng (IX, X, XI, XII) xuất phát liền kề nhau ở hành não và cùng đi qua các cấu trúc hẹp ở nền sọ và vùng cổ cao, chúng thường bị tổn thương đồng thời trong các bệnh lý khối u nền sọ, gãy xương chẩm, huyết khối xoang cảnh hoặc phẫu thuật khoang sau trâm:
+
+| Hội chứng lâm sàng | Vị trí tổn thương giải phẫu | Các dây thần kinh bị tổn thương | Biểu hiện lâm sàng kinh điển |
+| :--- | :--- | :--- | :--- |
+| **Hội chứng Vernet** *(Hội chứng lỗ tĩnh mạch cảnh)* | Lỗ tĩnh mạch cảnh (*Foramen jugulare*) | **IX, X, XI** | - Mất phản xạ nôn, mất vị giác 1/3 sau lưỡi (IX)<br>- Khàn tiếng, liệt màn hầu, nuốt sặc (X)<br>- Sa vai, yếu xoay đầu và nhún vai (XI) |
+| **Hội chứng Collet-Sicard** *(Lỗ cảnh + Ống hạ thiệt)* | Lỗ tĩnh mạch cảnh lan sang ống thần kinh hạ thiệt | **IX, X, XI, XII** | Toàn bộ triệu chứng của hội chứng Vernet kèm theo **liệt và teo nửa lưỡi, thè lưỡi lệch về bên tổn thương (XII)**. |
+| **Hội chứng Villaret** *(Hội chứng khoang sau trâm)* | Khoang sau trâm (*Spatium retrostyloideum*) | **IX, X, XI, XII + Chuỗi giao cảm cổ** | Toàn bộ triệu chứng của Collet-Sicard kèm theo **Hội chứng Horner** cùng bên (hẹp khe mi, co đồng tử, sụp mi nhẹ, giảm tiết mồ hôi nửa mặt). |
+| **Hội chứng Jackson** | Thân não hoặc nền sọ vùng hành não | **X, XI, XII** | Liệt nửa màn hầu, liệt dây thanh âm (X), liệt cơ thang, ức đòn chũm (XI) và liệt nửa lưỡi (XII). |
+| **Hội chứng Tapia** | Vùng dưới góc hàm / Cổ cao | **X + XII** | Liệt dây thanh âm cùng bên kèm liệt và teo cơ nửa lưỡi (thường do chèn ép của bóng chèn ống nội khí quản hoặc thủ thuật tai mũi họng). |
